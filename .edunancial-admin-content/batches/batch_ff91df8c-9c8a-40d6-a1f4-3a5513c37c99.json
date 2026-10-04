@@ -6,7 +6,7 @@
   "notes": "",
   "status": "partially-reviewed",
   "createdAt": "2026-10-04T16:29:53.176Z",
-  "updatedAt": "2026-10-04T16:29:56.747Z",
+  "updatedAt": "2026-10-04T16:30:06.687Z",
   "uploads": [
     {
       "id": "upload_e4e32db2-16bc-446f-b5c4-1d1ab86d5f30",
@@ -164,7 +164,8 @@
         "reasons": [
           "filename references level-3",
           "content matches curriculum lesson structure",
-          "package-specific-config"
+          "package-specific-config",
+          "published-locale:en-GB"
         ],
         "pillar": "red"
       },
@@ -187,7 +188,7 @@
       "error": null,
       "approvedAt": "2026-10-04T16:29:56.747Z",
       "rejectedAt": null,
-      "updatedAt": "2026-10-04T16:29:56.747Z"
+      "updatedAt": "2026-10-04T16:30:06.686Z"
     },
     {
       "id": "file_ab93865a-4e5a-4160-81bd-b8f6536e863c",
@@ -218,7 +219,8 @@
         "reasons": [
           "filename references level-3",
           "content matches curriculum lesson structure",
-          "package-specific-config"
+          "package-specific-config",
+          "published-locale:en-GB"
         ],
         "pillar": "red"
       },
@@ -241,7 +243,7 @@
       "error": null,
       "approvedAt": "2026-10-04T16:29:56.747Z",
       "rejectedAt": null,
-      "updatedAt": "2026-10-04T16:29:56.747Z"
+      "updatedAt": "2026-10-04T16:30:06.686Z"
     },
     {
       "id": "file_7a7763ab-a042-4c93-86b6-9d88da35c110",
@@ -272,7 +274,8 @@
         "reasons": [
           "filename references level-3",
           "content matches curriculum lesson structure",
-          "package-specific-config"
+          "package-specific-config",
+          "published-locale:en-GB"
         ],
         "pillar": "red"
       },
@@ -295,7 +298,7 @@
       "error": null,
       "approvedAt": "2026-10-04T16:29:56.747Z",
       "rejectedAt": null,
-      "updatedAt": "2026-10-04T16:29:56.747Z"
+      "updatedAt": "2026-10-04T16:30:06.686Z"
     },
     {
       "id": "file_a0cd2f81-4b99-4d7a-8f52-975b2074c4a9",
@@ -326,7 +329,8 @@
         "reasons": [
           "filename references level-3",
           "content matches curriculum lesson structure",
-          "package-specific-config"
+          "package-specific-config",
+          "published-locale:en-GB"
         ],
         "pillar": "red"
       },
@@ -349,7 +353,7 @@
       "error": null,
       "approvedAt": "2026-10-04T16:29:56.747Z",
       "rejectedAt": null,
-      "updatedAt": "2026-10-04T16:29:56.747Z"
+      "updatedAt": "2026-10-04T16:30:06.686Z"
     },
     {
       "id": "file_cf53d28f-474f-4e31-86df-308028e38a04",
@@ -380,7 +384,8 @@
         "reasons": [
           "filename references level-3",
           "content matches curriculum lesson structure",
-          "package-specific-config"
+          "package-specific-config",
+          "published-locale:en-GB"
         ],
         "pillar": "red"
       },
@@ -403,7 +408,7 @@
       "error": null,
       "approvedAt": "2026-10-04T16:29:56.747Z",
       "rejectedAt": null,
-      "updatedAt": "2026-10-04T16:29:56.747Z"
+      "updatedAt": "2026-10-04T16:30:06.686Z"
     },
     {
       "id": "file_518cfc81-3e86-4d65-80af-f5dc9e6c8fa9",
@@ -434,7 +439,8 @@
         "reasons": [
           "filename references level-3",
           "content matches curriculum lesson structure",
-          "package-specific-config"
+          "package-specific-config",
+          "published-locale:en-GB"
         ],
         "pillar": "red"
       },
@@ -457,7 +463,7 @@
       "error": null,
       "approvedAt": "2026-10-04T16:29:56.747Z",
       "rejectedAt": null,
-      "updatedAt": "2026-10-04T16:29:56.747Z"
+      "updatedAt": "2026-10-04T16:30:06.686Z"
     },
     {
       "id": "file_cdd14706-c2f6-4c20-b0ed-096e02e387a3",
@@ -488,7 +494,8 @@
         "reasons": [
           "filename references level-3",
           "content matches curriculum lesson structure",
-          "package-specific-config"
+          "package-specific-config",
+          "published-locale:en-GB"
         ],
         "pillar": "red"
       },
@@ -511,7 +518,7 @@
       "error": null,
       "approvedAt": "2026-10-04T16:29:56.747Z",
       "rejectedAt": null,
-      "updatedAt": "2026-10-04T16:29:56.747Z"
+      "updatedAt": "2026-10-04T16:30:06.686Z"
     },
     {
       "id": "file_a2e26262-b1e3-4246-afcc-480b0c81e74a",
@@ -542,7 +549,8 @@
         "reasons": [
           "filename references level-3",
           "content matches curriculum lesson structure",
-          "package-specific-config"
+          "package-specific-config",
+          "published-locale:en-GB"
         ],
         "pillar": "red"
       },
@@ -565,7 +573,7 @@
       "error": null,
       "approvedAt": "2026-10-04T16:29:56.747Z",
       "rejectedAt": null,
-      "updatedAt": "2026-10-04T16:29:56.747Z"
+      "updatedAt": "2026-10-04T16:30:06.686Z"
     },
     {
       "id": "file_50d9fa13-ca6f-4e55-833b-153635a70379",
@@ -596,7 +604,8 @@
         "reasons": [
           "filename references level-3",
           "content matches curriculum lesson structure",
-          "package-specific-config"
+          "package-specific-config",
+          "published-locale:en-GB"
         ],
         "pillar": "red"
       },
@@ -619,7 +628,7 @@
       "error": null,
       "approvedAt": "2026-10-04T16:29:56.747Z",
       "rejectedAt": null,
-      "updatedAt": "2026-10-04T16:29:56.747Z"
+      "updatedAt": "2026-10-04T16:30:06.686Z"
     },
     {
       "id": "file_20f3a8a1-00ac-4b13-8971-704b07506591",
@@ -650,7 +659,8 @@
         "reasons": [
           "filename references level-3",
           "content matches curriculum lesson structure",
-          "package-specific-config"
+          "package-specific-config",
+          "published-locale:en-GB"
         ],
         "pillar": "red"
       },
@@ -673,7 +683,7 @@
       "error": null,
       "approvedAt": "2026-10-04T16:29:56.747Z",
       "rejectedAt": null,
-      "updatedAt": "2026-10-04T16:29:56.747Z"
+      "updatedAt": "2026-10-04T16:30:06.687Z"
     },
     {
       "id": "file_5cd56ebe-3dcd-4dde-aa3e-003e2cbcdf4a",
@@ -704,7 +714,8 @@
         "reasons": [
           "filename references level-3",
           "content matches curriculum lesson structure",
-          "package-specific-config"
+          "package-specific-config",
+          "published-locale:en-GB"
         ],
         "pillar": "red"
       },
@@ -727,7 +738,7 @@
       "error": null,
       "approvedAt": "2026-10-04T16:29:56.747Z",
       "rejectedAt": null,
-      "updatedAt": "2026-10-04T16:29:56.747Z"
+      "updatedAt": "2026-10-04T16:30:06.687Z"
     },
     {
       "id": "file_498c5896-d85d-4bb1-a0a4-a62f76b23c39",
@@ -758,7 +769,8 @@
         "reasons": [
           "filename references level-3",
           "content matches curriculum lesson structure",
-          "package-specific-config"
+          "package-specific-config",
+          "published-locale:en-GB"
         ],
         "pillar": "red"
       },
@@ -781,7 +793,7 @@
       "error": null,
       "approvedAt": "2026-10-04T16:29:56.747Z",
       "rejectedAt": null,
-      "updatedAt": "2026-10-04T16:29:56.747Z"
+      "updatedAt": "2026-10-04T16:30:06.687Z"
     },
     {
       "id": "file_888ce195-4773-4996-b2bc-c8eb0bc50b3e",
@@ -812,7 +824,8 @@
         "reasons": [
           "filename references level-3",
           "content matches curriculum lesson structure",
-          "package-specific-config"
+          "package-specific-config",
+          "published-locale:en-GB"
         ],
         "pillar": "red"
       },
@@ -835,7 +848,7 @@
       "error": null,
       "approvedAt": "2026-10-04T16:29:56.747Z",
       "rejectedAt": null,
-      "updatedAt": "2026-10-04T16:29:56.747Z"
+      "updatedAt": "2026-10-04T16:30:06.687Z"
     },
     {
       "id": "file_5514d607-27f0-4a9b-b17c-88f60d7ed9ec",
@@ -866,7 +879,8 @@
         "reasons": [
           "filename references level-3",
           "content matches curriculum lesson structure",
-          "package-specific-config"
+          "package-specific-config",
+          "published-locale:en-GB"
         ],
         "pillar": "red"
       },
@@ -889,7 +903,7 @@
       "error": null,
       "approvedAt": "2026-10-04T16:29:56.747Z",
       "rejectedAt": null,
-      "updatedAt": "2026-10-04T16:29:56.747Z"
+      "updatedAt": "2026-10-04T16:30:06.687Z"
     },
     {
       "id": "file_c7055323-e69b-4772-ad95-f53a714067ed",
@@ -920,7 +934,8 @@
         "reasons": [
           "filename references level-3",
           "content matches curriculum lesson structure",
-          "package-specific-config"
+          "package-specific-config",
+          "published-locale:en-GB"
         ],
         "pillar": "red"
       },
@@ -943,7 +958,7 @@
       "error": null,
       "approvedAt": "2026-10-04T16:29:56.747Z",
       "rejectedAt": null,
-      "updatedAt": "2026-10-04T16:29:56.747Z"
+      "updatedAt": "2026-10-04T16:30:06.687Z"
     },
     {
       "id": "file_c1fee548-c156-493e-a440-226a55b35f9d",
@@ -974,7 +989,8 @@
         "reasons": [
           "filename references level-3",
           "content matches curriculum lesson structure",
-          "package-specific-config"
+          "package-specific-config",
+          "published-locale:en-GB"
         ],
         "pillar": "red"
       },
@@ -997,7 +1013,7 @@
       "error": null,
       "approvedAt": "2026-10-04T16:29:56.747Z",
       "rejectedAt": null,
-      "updatedAt": "2026-10-04T16:29:56.747Z"
+      "updatedAt": "2026-10-04T16:30:06.687Z"
     },
     {
       "id": "file_d7e00b84-d093-4e0f-bc74-86768895e723",
@@ -1028,7 +1044,8 @@
         "reasons": [
           "filename references level-3",
           "content matches curriculum lesson structure",
-          "package-specific-config"
+          "package-specific-config",
+          "published-locale:en-GB"
         ],
         "pillar": "red"
       },
@@ -1051,7 +1068,7 @@
       "error": null,
       "approvedAt": "2026-10-04T16:29:56.747Z",
       "rejectedAt": null,
-      "updatedAt": "2026-10-04T16:29:56.747Z"
+      "updatedAt": "2026-10-04T16:30:06.687Z"
     },
     {
       "id": "file_72e9098c-c0f4-4b88-9a52-9382cbad3ab1",
@@ -1082,7 +1099,8 @@
         "reasons": [
           "filename references level-3",
           "content matches curriculum lesson structure",
-          "package-specific-config"
+          "package-specific-config",
+          "published-locale:en-GB"
         ],
         "pillar": "red"
       },
@@ -1105,7 +1123,7 @@
       "error": null,
       "approvedAt": "2026-10-04T16:29:56.747Z",
       "rejectedAt": null,
-      "updatedAt": "2026-10-04T16:29:56.747Z"
+      "updatedAt": "2026-10-04T16:30:06.687Z"
     },
     {
       "id": "file_79b01eea-14b8-486b-9bd2-89c7725ead75",
@@ -1136,7 +1154,8 @@
         "reasons": [
           "filename references level-3",
           "content matches curriculum lesson structure",
-          "package-specific-config"
+          "package-specific-config",
+          "published-locale:en-GB"
         ],
         "pillar": "red"
       },
@@ -1159,7 +1178,7 @@
       "error": null,
       "approvedAt": "2026-10-04T16:29:56.747Z",
       "rejectedAt": null,
-      "updatedAt": "2026-10-04T16:29:56.747Z"
+      "updatedAt": "2026-10-04T16:30:06.687Z"
     },
     {
       "id": "file_ffe55bf5-c7c2-4cc1-a72a-feeac36dbb57",
@@ -1190,7 +1209,8 @@
         "reasons": [
           "filename references level-3",
           "content matches curriculum lesson structure",
-          "package-specific-config"
+          "package-specific-config",
+          "published-locale:en-GB"
         ],
         "pillar": "red"
       },
@@ -1213,7 +1233,7 @@
       "error": null,
       "approvedAt": "2026-10-04T16:29:56.747Z",
       "rejectedAt": null,
-      "updatedAt": "2026-10-04T16:29:56.747Z"
+      "updatedAt": "2026-10-04T16:30:06.687Z"
     },
     {
       "id": "file_259067a5-cc58-4d9b-a878-279dfa5719ed",
@@ -1244,7 +1264,8 @@
         "reasons": [
           "filename references level-3",
           "content matches curriculum lesson structure",
-          "package-specific-config"
+          "package-specific-config",
+          "published-locale:en-GB"
         ],
         "pillar": "red"
       },
@@ -1267,7 +1288,7 @@
       "error": null,
       "approvedAt": "2026-10-04T16:29:56.747Z",
       "rejectedAt": null,
-      "updatedAt": "2026-10-04T16:29:56.747Z"
+      "updatedAt": "2026-10-04T16:30:06.687Z"
     },
     {
       "id": "file_b704fc5e-bdb6-489d-aea2-06c2f5a24ce8",
@@ -1298,7 +1319,8 @@
         "reasons": [
           "filename references level-3",
           "content matches curriculum lesson structure",
-          "package-specific-config"
+          "package-specific-config",
+          "published-locale:en-GB"
         ],
         "pillar": "red"
       },
@@ -1321,7 +1343,7 @@
       "error": null,
       "approvedAt": "2026-10-04T16:29:56.747Z",
       "rejectedAt": null,
-      "updatedAt": "2026-10-04T16:29:56.747Z"
+      "updatedAt": "2026-10-04T16:30:06.687Z"
     },
     {
       "id": "file_9b84d69f-8e5e-4d57-a78b-e4eb50c82063",
@@ -1352,7 +1374,8 @@
         "reasons": [
           "filename references level-3",
           "content matches curriculum lesson structure",
-          "package-specific-config"
+          "package-specific-config",
+          "published-locale:en-GB"
         ],
         "pillar": "red"
       },
@@ -1375,7 +1398,7 @@
       "error": null,
       "approvedAt": "2026-10-04T16:29:56.747Z",
       "rejectedAt": null,
-      "updatedAt": "2026-10-04T16:29:56.747Z"
+      "updatedAt": "2026-10-04T16:30:06.687Z"
     },
     {
       "id": "file_e22b62a6-a494-4858-91ae-6999c0e98af8",
@@ -1406,7 +1429,8 @@
         "reasons": [
           "filename references level-3",
           "content matches curriculum lesson structure",
-          "package-specific-config"
+          "package-specific-config",
+          "published-locale:en-GB"
         ],
         "pillar": "red"
       },
@@ -1429,7 +1453,7 @@
       "error": null,
       "approvedAt": "2026-10-04T16:29:56.747Z",
       "rejectedAt": null,
-      "updatedAt": "2026-10-04T16:29:56.747Z"
+      "updatedAt": "2026-10-04T16:30:06.687Z"
     },
     {
       "id": "file_82d67302-447c-4640-8ad9-3738757ab919",
@@ -1460,7 +1484,8 @@
         "reasons": [
           "filename references level-3",
           "content matches curriculum lesson structure",
-          "package-specific-config"
+          "package-specific-config",
+          "published-locale:en-GB"
         ],
         "pillar": "red"
       },
@@ -1483,7 +1508,7 @@
       "error": null,
       "approvedAt": "2026-10-04T16:29:56.747Z",
       "rejectedAt": null,
-      "updatedAt": "2026-10-04T16:29:56.747Z"
+      "updatedAt": "2026-10-04T16:30:06.687Z"
     },
     {
       "id": "file_3647144c-a277-49e2-87fa-c9e845ff71b3",
@@ -1514,7 +1539,8 @@
         "reasons": [
           "filename references level-3",
           "content matches curriculum lesson structure",
-          "package-specific-config"
+          "package-specific-config",
+          "published-locale:en-GB"
         ],
         "pillar": "red"
       },
@@ -1537,7 +1563,7 @@
       "error": null,
       "approvedAt": "2026-10-04T16:29:56.747Z",
       "rejectedAt": null,
-      "updatedAt": "2026-10-04T16:29:56.747Z"
+      "updatedAt": "2026-10-04T16:30:06.687Z"
     },
     {
       "id": "file_4775a718-eb15-4356-8da4-3f7a85e13c6f",
@@ -1568,7 +1594,8 @@
         "reasons": [
           "filename references level-3",
           "content matches curriculum lesson structure",
-          "package-specific-config"
+          "package-specific-config",
+          "published-locale:en-GB"
         ],
         "pillar": "red"
       },
@@ -1591,7 +1618,7 @@
       "error": null,
       "approvedAt": "2026-10-04T16:29:56.747Z",
       "rejectedAt": null,
-      "updatedAt": "2026-10-04T16:29:56.747Z"
+      "updatedAt": "2026-10-04T16:30:06.687Z"
     },
     {
       "id": "file_e54eb16d-38dd-4c83-ad15-94d54a00ab34",
@@ -1622,7 +1649,8 @@
         "reasons": [
           "filename references level-3",
           "content matches curriculum lesson structure",
-          "package-specific-config"
+          "package-specific-config",
+          "published-locale:en-GB"
         ],
         "pillar": "red"
       },
@@ -1645,7 +1673,7 @@
       "error": null,
       "approvedAt": "2026-10-04T16:29:56.747Z",
       "rejectedAt": null,
-      "updatedAt": "2026-10-04T16:29:56.747Z"
+      "updatedAt": "2026-10-04T16:30:06.687Z"
     },
     {
       "id": "file_a053d804-4d67-4f71-81ab-003c33694e8f",
@@ -1676,7 +1704,8 @@
         "reasons": [
           "filename references level-3",
           "content matches curriculum lesson structure",
-          "package-specific-config"
+          "package-specific-config",
+          "published-locale:en-GB"
         ],
         "pillar": "red"
       },
@@ -1699,7 +1728,7 @@
       "error": null,
       "approvedAt": "2026-10-04T16:29:56.747Z",
       "rejectedAt": null,
-      "updatedAt": "2026-10-04T16:29:56.747Z"
+      "updatedAt": "2026-10-04T16:30:06.687Z"
     },
     {
       "id": "file_aca8605b-00fe-4e8c-a443-661149e17135",
@@ -1730,7 +1759,8 @@
         "reasons": [
           "filename references level-3",
           "content matches curriculum lesson structure",
-          "package-specific-config"
+          "package-specific-config",
+          "published-locale:en-GB"
         ],
         "pillar": "red"
       },
@@ -1753,7 +1783,7 @@
       "error": null,
       "approvedAt": "2026-10-04T16:29:56.747Z",
       "rejectedAt": null,
-      "updatedAt": "2026-10-04T16:29:56.747Z"
+      "updatedAt": "2026-10-04T16:30:06.687Z"
     },
     {
       "id": "file_600e37c2-0ff3-4179-987f-2db6042aea57",
@@ -1784,7 +1814,8 @@
         "reasons": [
           "filename references level-3",
           "content matches curriculum lesson structure",
-          "package-specific-config"
+          "package-specific-config",
+          "published-locale:en-GB"
         ],
         "pillar": "red"
       },
@@ -1807,7 +1838,7 @@
       "error": null,
       "approvedAt": "2026-10-04T16:29:56.747Z",
       "rejectedAt": null,
-      "updatedAt": "2026-10-04T16:29:56.747Z"
+      "updatedAt": "2026-10-04T16:30:06.687Z"
     },
     {
       "id": "file_cae0862a-a726-490c-bba5-dcc4ca0a4ec7",
@@ -1838,7 +1869,8 @@
         "reasons": [
           "filename references level-3",
           "content matches curriculum lesson structure",
-          "package-specific-config"
+          "package-specific-config",
+          "published-locale:en-GB"
         ],
         "pillar": "red"
       },
@@ -1861,7 +1893,7 @@
       "error": null,
       "approvedAt": "2026-10-04T16:29:56.747Z",
       "rejectedAt": null,
-      "updatedAt": "2026-10-04T16:29:56.747Z"
+      "updatedAt": "2026-10-04T16:30:06.687Z"
     },
     {
       "id": "file_729ae8b5-bf56-4da2-a95a-e714dd13bc0c",
@@ -1892,7 +1924,8 @@
         "reasons": [
           "filename references level-3",
           "content matches curriculum lesson structure",
-          "package-specific-config"
+          "package-specific-config",
+          "published-locale:en-GB"
         ],
         "pillar": "red"
       },
@@ -1915,7 +1948,7 @@
       "error": null,
       "approvedAt": "2026-10-04T16:29:56.747Z",
       "rejectedAt": null,
-      "updatedAt": "2026-10-04T16:29:56.747Z"
+      "updatedAt": "2026-10-04T16:30:06.687Z"
     },
     {
       "id": "file_c3019514-630f-445d-86d8-8412e13b83d8",
@@ -1946,7 +1979,8 @@
         "reasons": [
           "filename references level-3",
           "content matches curriculum lesson structure",
-          "package-specific-config"
+          "package-specific-config",
+          "published-locale:en-GB"
         ],
         "pillar": "red"
       },
@@ -1969,7 +2003,7 @@
       "error": null,
       "approvedAt": "2026-10-04T16:29:56.747Z",
       "rejectedAt": null,
-      "updatedAt": "2026-10-04T16:29:56.747Z"
+      "updatedAt": "2026-10-04T16:30:06.687Z"
     },
     {
       "id": "file_4557f668-f623-436a-893e-378ded40788a",
@@ -2000,7 +2034,8 @@
         "reasons": [
           "filename references level-3",
           "content matches curriculum lesson structure",
-          "package-specific-config"
+          "package-specific-config",
+          "published-locale:en-GB"
         ],
         "pillar": "red"
       },
@@ -2023,7 +2058,7 @@
       "error": null,
       "approvedAt": "2026-10-04T16:29:56.747Z",
       "rejectedAt": null,
-      "updatedAt": "2026-10-04T16:29:56.747Z"
+      "updatedAt": "2026-10-04T16:30:06.687Z"
     },
     {
       "id": "file_cec75646-077d-4c27-9de0-785b70ca60f0",
@@ -2054,7 +2089,8 @@
         "reasons": [
           "filename references level-3",
           "content matches curriculum lesson structure",
-          "package-specific-config"
+          "package-specific-config",
+          "published-locale:en-GB"
         ],
         "pillar": "red"
       },
@@ -2077,7 +2113,7 @@
       "error": null,
       "approvedAt": "2026-10-04T16:29:56.747Z",
       "rejectedAt": null,
-      "updatedAt": "2026-10-04T16:29:56.747Z"
+      "updatedAt": "2026-10-04T16:30:06.687Z"
     },
     {
       "id": "file_8a8ee593-01f6-4156-89d0-396ff50952f6",
@@ -2108,7 +2144,8 @@
         "reasons": [
           "filename references level-3",
           "content matches curriculum lesson structure",
-          "package-specific-config"
+          "package-specific-config",
+          "published-locale:en-GB"
         ],
         "pillar": "red"
       },
@@ -2131,7 +2168,7 @@
       "error": null,
       "approvedAt": "2026-10-04T16:29:56.747Z",
       "rejectedAt": null,
-      "updatedAt": "2026-10-04T16:29:56.747Z"
+      "updatedAt": "2026-10-04T16:30:06.687Z"
     },
     {
       "id": "file_a12eb0b7-d0c1-42e9-bd21-4aa50c7d6251",
@@ -2162,7 +2199,8 @@
         "reasons": [
           "filename references level-3",
           "content matches curriculum lesson structure",
-          "package-specific-config"
+          "package-specific-config",
+          "published-locale:en-GB"
         ],
         "pillar": "red"
       },
@@ -2185,7 +2223,7 @@
       "error": null,
       "approvedAt": "2026-10-04T16:29:56.747Z",
       "rejectedAt": null,
-      "updatedAt": "2026-10-04T16:29:56.747Z"
+      "updatedAt": "2026-10-04T16:30:06.687Z"
     },
     {
       "id": "file_f3832eae-c8ed-489a-b298-18c363b7daf6",
@@ -2216,7 +2254,8 @@
         "reasons": [
           "filename references level-3",
           "content matches curriculum lesson structure",
-          "package-specific-config"
+          "package-specific-config",
+          "published-locale:en-GB"
         ],
         "pillar": "red"
       },
@@ -2239,7 +2278,7 @@
       "error": null,
       "approvedAt": "2026-10-04T16:29:56.747Z",
       "rejectedAt": null,
-      "updatedAt": "2026-10-04T16:29:56.747Z"
+      "updatedAt": "2026-10-04T16:30:06.687Z"
     },
     {
       "id": "file_8009c2e0-9c17-44f6-91f7-393b132c0bca",
@@ -2270,7 +2309,8 @@
         "reasons": [
           "filename references level-3",
           "content matches curriculum lesson structure",
-          "package-specific-config"
+          "package-specific-config",
+          "published-locale:en-GB"
         ],
         "pillar": "red"
       },
@@ -2293,7 +2333,7 @@
       "error": null,
       "approvedAt": "2026-10-04T16:29:56.747Z",
       "rejectedAt": null,
-      "updatedAt": "2026-10-04T16:29:56.747Z"
+      "updatedAt": "2026-10-04T16:30:06.687Z"
     },
     {
       "id": "file_159dce71-0365-4781-9134-1d7e1a9690c4",
@@ -2324,7 +2364,8 @@
         "reasons": [
           "filename references level-3",
           "content matches curriculum lesson structure",
-          "package-specific-config"
+          "package-specific-config",
+          "published-locale:en-GB"
         ],
         "pillar": "red"
       },
@@ -2347,7 +2388,7 @@
       "error": null,
       "approvedAt": "2026-10-04T16:29:56.747Z",
       "rejectedAt": null,
-      "updatedAt": "2026-10-04T16:29:56.747Z"
+      "updatedAt": "2026-10-04T16:30:06.687Z"
     },
     {
       "id": "file_e0494d02-c3f9-4c31-89c4-e3349ea264a5",
@@ -2378,7 +2419,8 @@
         "reasons": [
           "filename references level-3",
           "content matches curriculum lesson structure",
-          "package-specific-config"
+          "package-specific-config",
+          "published-locale:en-GB"
         ],
         "pillar": "red"
       },
@@ -2401,7 +2443,7 @@
       "error": null,
       "approvedAt": "2026-10-04T16:29:56.747Z",
       "rejectedAt": null,
-      "updatedAt": "2026-10-04T16:29:56.747Z"
+      "updatedAt": "2026-10-04T16:30:06.687Z"
     },
     {
       "id": "file_0d4cd59b-f580-4f22-8ac1-5a7a7e32c72a",
@@ -2432,7 +2474,8 @@
         "reasons": [
           "filename references level-3",
           "content matches curriculum lesson structure",
-          "package-specific-config"
+          "package-specific-config",
+          "published-locale:en-GB"
         ],
         "pillar": "red"
       },
@@ -2455,7 +2498,7 @@
       "error": null,
       "approvedAt": "2026-10-04T16:29:56.747Z",
       "rejectedAt": null,
-      "updatedAt": "2026-10-04T16:29:56.747Z"
+      "updatedAt": "2026-10-04T16:30:06.687Z"
     },
     {
       "id": "file_a239984c-3289-48eb-a235-d51c607acc07",
@@ -2486,7 +2529,8 @@
         "reasons": [
           "filename references level-3",
           "content matches curriculum lesson structure",
-          "package-specific-config"
+          "package-specific-config",
+          "published-locale:en-GB"
         ],
         "pillar": "red"
       },
@@ -2509,7 +2553,7 @@
       "error": null,
       "approvedAt": "2026-10-04T16:29:56.747Z",
       "rejectedAt": null,
-      "updatedAt": "2026-10-04T16:29:56.747Z"
+      "updatedAt": "2026-10-04T16:30:06.687Z"
     },
     {
       "id": "file_83dbe3ed-e5ed-40b5-8535-90f4961f6dc6",
@@ -2540,7 +2584,8 @@
         "reasons": [
           "filename references level-3",
           "content matches curriculum lesson structure",
-          "package-specific-config"
+          "package-specific-config",
+          "published-locale:en-GB"
         ],
         "pillar": "red"
       },
@@ -2563,7 +2608,7 @@
       "error": null,
       "approvedAt": "2026-10-04T16:29:56.747Z",
       "rejectedAt": null,
-      "updatedAt": "2026-10-04T16:29:56.747Z"
+      "updatedAt": "2026-10-04T16:30:06.687Z"
     },
     {
       "id": "file_e3e85da2-e9ba-42bc-bf38-613daa45e983",
@@ -2594,7 +2639,8 @@
         "reasons": [
           "filename references level-3",
           "content matches curriculum lesson structure",
-          "package-specific-config"
+          "package-specific-config",
+          "published-locale:en-GB"
         ],
         "pillar": "red"
       },
@@ -2617,7 +2663,7 @@
       "error": null,
       "approvedAt": "2026-10-04T16:29:56.747Z",
       "rejectedAt": null,
-      "updatedAt": "2026-10-04T16:29:56.747Z"
+      "updatedAt": "2026-10-04T16:30:06.687Z"
     },
     {
       "id": "file_fbdbbde0-ea03-499a-afcc-2150fca14f0f",
@@ -2648,7 +2694,8 @@
         "reasons": [
           "filename references level-3",
           "content matches curriculum lesson structure",
-          "package-specific-config"
+          "package-specific-config",
+          "published-locale:en-GB"
         ],
         "pillar": "red"
       },
@@ -2671,7 +2718,7 @@
       "error": null,
       "approvedAt": "2026-10-04T16:29:56.747Z",
       "rejectedAt": null,
-      "updatedAt": "2026-10-04T16:29:56.747Z"
+      "updatedAt": "2026-10-04T16:30:06.687Z"
     },
     {
       "id": "file_e0de4856-d1cf-42a0-adfa-2d53dbe67089",
@@ -2702,7 +2749,8 @@
         "reasons": [
           "filename references level-3",
           "content matches curriculum lesson structure",
-          "package-specific-config"
+          "package-specific-config",
+          "published-locale:en-GB"
         ],
         "pillar": "red"
       },
@@ -2725,7 +2773,7 @@
       "error": null,
       "approvedAt": "2026-10-04T16:29:56.747Z",
       "rejectedAt": null,
-      "updatedAt": "2026-10-04T16:29:56.747Z"
+      "updatedAt": "2026-10-04T16:30:06.687Z"
     },
     {
       "id": "file_096735db-d594-4102-9b80-1b64444994fc",
@@ -2756,7 +2804,8 @@
         "reasons": [
           "filename references level-3",
           "content matches curriculum lesson structure",
-          "package-specific-config"
+          "package-specific-config",
+          "published-locale:en-GB"
         ],
         "pillar": "red"
       },
@@ -2779,7 +2828,7 @@
       "error": null,
       "approvedAt": "2026-10-04T16:29:56.747Z",
       "rejectedAt": null,
-      "updatedAt": "2026-10-04T16:29:56.747Z"
+      "updatedAt": "2026-10-04T16:30:06.687Z"
     },
     {
       "id": "file_a3e81333-1ad9-434e-924f-82bfe42e807d",
@@ -2810,7 +2859,8 @@
         "reasons": [
           "filename references level-3",
           "content matches curriculum lesson structure",
-          "package-specific-config"
+          "package-specific-config",
+          "published-locale:en-GB"
         ],
         "pillar": "red"
       },
@@ -2833,7 +2883,7 @@
       "error": null,
       "approvedAt": "2026-10-04T16:29:56.747Z",
       "rejectedAt": null,
-      "updatedAt": "2026-10-04T16:29:56.747Z"
+      "updatedAt": "2026-10-04T16:30:06.687Z"
     }
   ],
   "auditHistory": [
