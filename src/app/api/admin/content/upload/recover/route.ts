@@ -71,7 +71,7 @@ export async function POST(request: NextRequest) {
   if (!candidate) return Response.json({ success: false, error: "Stored upload is unavailable, already finalized, or already recovered.", failedUploadId: uploadId, siblingPackagesUnaffected: true }, { status: 404 });
   const classified = (await getRecoverableCurriculumPackages()).find((entry) => entry.batchId === batchId && entry.upload.uploadId === uploadId);
   const executionCandidate = classified ? selectExistingRestorationCandidates([classified])[0] : null;
-  if (!executionCandidate?.eligible) return Response.json({ success: false, error: "Stored package is outside the current existing L1-L3 restoration scope.", reason: executionCandidate?.reason ?? "unclassified", failedUploadId: uploadId, siblingPackagesUnaffected: true }, { status: 409, headers: { "Cache-Control": "private, no-store" } });
+  if (!executionCandidate?.eligible) return Response.json({ success: false, error: "Stored package is outside the supported L1-L5 recovery scope.", reason: executionCandidate?.reason ?? "unclassified", failedUploadId: uploadId, siblingPackagesUnaffected: true }, { status: 409, headers: { "Cache-Control": "private, no-store" } });
   const recoverablePackages = await getRecoverableCurriculumPackages();
   const sameCoordinate = recoverablePackages.filter((entry) => entry.reconciliationKey === classified?.reconciliationKey);
   if (sameCoordinate.length !== 1) return Response.json({ success: false, error: "Restoration requires exactly one recoverable package for this curriculum coordinate.", reconciliationKey: classified?.reconciliationKey, candidateCount: sameCoordinate.length, failedUploadId: uploadId, siblingPackagesUnaffected: true }, { status: 409, headers: { "Cache-Control": "private, no-store" } });
