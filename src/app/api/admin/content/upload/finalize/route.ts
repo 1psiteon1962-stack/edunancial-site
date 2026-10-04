@@ -3,7 +3,7 @@ import { NextRequest } from "next/server";
 import { requireAdminApiSession, toActor } from "@/lib/admin-content/auth";
 import { normalizeMixedLocaleBatch } from "@/lib/admin-content/batch-locale-normalization";
 import { inferCurriculumPackageIdentity } from "@/lib/admin-content/package-upload-config";
-import { exportBatchToGithub, type StoredUploadEntry } from "@/lib/admin-content/service";
+import { type StoredUploadEntry } from "@/lib/admin-content/service";
 import { getAdminContentStorage } from "@/lib/admin-content/storage";
 import { createIndependentUploadBatchFromStoredFiles } from "@/lib/admin-content/stored-upload-finalizer";
 import { autoPublishTrustedCanonicalCurriculumBatch, isTrustedCanonicalCurriculumIdentity } from "@/lib/admin-content/trusted-canonical-ingest";
@@ -103,18 +103,12 @@ export async function POST(request: NextRequest) {
     await markPublished(upload.uploadId, { reviewBatchId: batch.id, verification: { learnerVisible: true, detail: "Trusted publication completed before durable receipt commit." }, githubExportRequired: trustedPublicationAttempted, recoveredWithoutReupload: false });
     await recordUploadOperation({ batchId, uploadId: upload.uploadId, phase: "FINALIZE", status: "SUCCEEDED", storagePath: upload.storagePath, fileName: upload.originalFilename, fileSize: upload.sizeBytes, metadata: { mode: "single-package-request", reviewBatchId: batch.id, reviewableFiles: batch.files.length, packageIdentity, trustedLocalization, trustedCanonicalPublication, githubPublication: null, githubPublicationPending: trustedPublicationAttempted, publicationDeferred: trustedPublicationAttempted } });
 
-    let githubPublication = null;
-    let githubPublicationError: string | null = null;
-    if (trustedPublicationAttempted) {
-      try {
-        githubPublication = await exportBatchToGithub(batch.id, actor);
-      } catch (error) {
-        githubPublicationError = error instanceof Error ? error.message : String(error);
-      }
-    }
-
-    const githubPublicationPending = trustedPublicationAttempted && !githubPublication;
-    await recordUploadOperation({ batchId, uploadId: upload.uploadId, phase: "VERIFY", status: githubPublication ? "STARTED" : trustedPublicationAttempted ? "FAILED" : "SUCCEEDED", storagePath: upload.storagePath, fileName: upload.originalFilename, fileSize: upload.sizeBytes, errorMessage: githubPublicationError ?? undefined, metadata: { mode: "single-package-request", reviewBatchId: batch.id, trustedLocalization, trustedCanonicalPublication, githubPublication, githubPublicationPending, canonicalPublicationStatus: githubPublication ? "PR_OPEN_PENDING_MERGE_DEPLOY" : githubPublicationPending ? "GITHUB_EXPORT_PENDING" : "NOT_REQUIRED" } });
+    // Canonical Git export is drained asynchronously by the durable receipt queue.
+    // Do not perform remote GitHub work in the learner publication request.
+    const githubPublication = null;
+    const githubPublicationError = null;
+    const githubPublicationPending = trustedPublicationAttempted;
+    await recordUploadOperation({ batchId, uploadId: upload.uploadId, phase: "VERIFY", status: "SUCCEEDED", storagePath: upload.storagePath, fileName: upload.originalFilename, fileSize: upload.sizeBytes, metadata: { mode: "single-package-request", reviewBatchId: batch.id, trustedLocalization, trustedCanonicalPublication, githubPublication, githubPublicationPending, canonicalPublicationStatus: githubPublicationPending ? "GITHUB_EXPORT_PENDING" : "NOT_REQUIRED" } });
     return Response.json({ success: true, batch, batches: [batch], trustedLocalization, trustedCanonicalPublication, githubPublication, githubPublicationError, githubPublicationPending, canonicalPublicationStatus: githubPublication ? "PR_OPEN_PENDING_MERGE_DEPLOY" : githubPublicationPending ? "GITHUB_EXPORT_PENDING" : "NOT_REQUIRED", publicationDeferred: trustedPublicationAttempted, finalizedCount: 1, skippedCount: trustedLocalization.skippedExisting, failures: [] }, { status: 201, headers: { "Cache-Control": "private, no-store, max-age=0" } });
   } catch (error) {
     const err = error as Error;
