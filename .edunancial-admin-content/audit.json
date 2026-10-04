@@ -1,11 +1,38 @@
 [
   {
-    "id": "audit_15e3015d-7fdd-46a4-9218-17f3e44d5cdb",
-    "timestamp": "2026-10-04T16:29:27.880Z",
-    "action": "batch-created",
-    "result": "success",
-    "actor": "1psiteon1962@gmail.com",
-    "batchId": "batch_94fa8d53-b4f9-489b-8880-d09b9ba0612a"
+    "id": "upload-operation-ea45b4c1-8da0-4947-9da3-8ef19a2f8be1",
+    "timestamp": "2026-10-04T16:29:28.338Z",
+    "action": "system-error",
+    "result": "failure",
+    "actor": "admin-content-uploader",
+    "batchId": "batch_eaaa4c06-5091-44d2-a90f-0a799e004142",
+    "metadata": {
+      "kind": "upload-operation",
+      "uploadId": "upload_62af0bff-79c2-4627-a339-cdde8bfb9405",
+      "phase": "VERIFY",
+      "status": "FAILED",
+      "storagePath": "uploads/courses/batch_eaaa4c06-5091-44d2-a90f-0a799e004142/upload_62af0bff-79c2-4627-a339-cdde8bfb9405-red-l3-001-050-fr-ca.zip",
+      "fileName": "RED-L3-001-050-fr-CA.zip",
+      "fileSize": 119663,
+      "errorCode": null,
+      "errorMessage": "GitHub API request failed (403): {\"message\":\"Resource not accessible by personal access token\",\"documentation_url\":\"https://docs.github.com/rest/pulls/pulls#create-a-pull-request\",\"status\":\"403\"}",
+      "mode": "single-package-request",
+      "reviewBatchId": "batch_b7bde035-84c9-4782-8d27-4fec3a0d58e9",
+      "trustedLocalization": {
+        "attempted": true,
+        "approvedFiles": 50,
+        "translated": 50,
+        "skippedExisting": 0,
+        "missingLessonIds": []
+      },
+      "trustedCanonicalPublication": {
+        "attempted": false,
+        "approvedFiles": 0
+      },
+      "githubPublication": null,
+      "githubPublicationPending": true,
+      "canonicalPublicationStatus": "GITHUB_EXPORT_PENDING"
+    }
   },
   {
     "id": "audit_fd938184-eb90-4d8e-9555-7974ab691721",
