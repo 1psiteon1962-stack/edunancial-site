@@ -13,7 +13,7 @@ function pkg(level: "level-1"|"level-2"|"level-3"|"level-4"|"level-5"): Recovera
   };
 }
 
-test("current recovery execution targets existing L1-L3 packages", () => {
+test("recovery execution accepts supported L1-L5 packages", () => {
   const selected = selectExistingRestorationCandidates([pkg("level-1"),pkg("level-2"),pkg("level-3"),pkg("level-4"),pkg("level-5")]);
-  assert.deepEqual(selected.map(x=>x.eligible), [true,true,true,false,false]);
+  assert.deepEqual(selected.map(x=>x.eligible), [true,true,true,true,true]);
 });
