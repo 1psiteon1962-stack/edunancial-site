@@ -81,29 +81,37 @@ async function updateLessonIndex(mutator:(ids:string[])=>string[]):Promise<void>
  */
 export async function readAtomicPublishedLessons(): Promise<PublishedLessonRecord[] | null> {
   if (process.env.NODE_ENV !== "production" || !process.env.EDUNANCIAL_GITHUB_TOKEN?.trim() || !process.env.EDUNANCIAL_GITHUB_OWNER?.trim() || !process.env.EDUNANCIAL_GITHUB_REPO?.trim()) return null;
-  const lessonIds = await readJson<string[]>(LESSON_INDEX_PATH) ?? [];
-  if (!lessonIds.length) return null;
-  const repositoryCanonical = new Map(repositoryCanonicalLessons().map((lesson) => [lesson.id.toUpperCase(), lesson]));
-  const byId = new Map<string, PublishedLessonRecord>();
-  // GitHub-backed atomic storage is remote in production. Reading lesson rows
-  // serially can exceed the serverless request deadline and turn the entire
-  // learner catalog into HTTP 500. Fetch the indexed rows concurrently.
-  const rows = await Promise.all(
-    lessonIds.map((lessonId) => readJson<PublishedLessonRecord>(lessonPath(lessonId))),
-  );
-  for (const lesson of rows) {
-    if (!lesson?.id || lesson.status !== "active") continue;
-    const id = lesson.id.toUpperCase();
-    const repository = repositoryCanonical.get(id);
-    // Repository English is canonical at every level. Atomic rows may add
-    // translations, but must never shadow the committed English base.
-    byId.set(id, repository
-      ? { ...repository, translations: lesson.translations ?? repository.translations }
-      : lesson);
+  try {
+    const lessonIds = await readJson<string[]>(LESSON_INDEX_PATH) ?? [];
+    if (!lessonIds.length) return null;
+    const repositoryCanonical = new Map(repositoryCanonicalLessons().map((lesson) => [lesson.id.toUpperCase(), lesson]));
+    const byId = new Map<string, PublishedLessonRecord>();
+    // Atomic storage is an enhancement over the committed curriculum, never a
+    // prerequisite for serving it. Bound remote GitHub reads to avoid API burst
+    // limits and fail individual rows open to the repository canonical copy.
+    const concurrency = 5;
+    for (let offset = 0; offset < lessonIds.length; offset += concurrency) {
+      const chunk = lessonIds.slice(offset, offset + concurrency);
+      const rows = await Promise.all(chunk.map(async (lessonId) => {
+        try { return await readJson<PublishedLessonRecord>(lessonPath(lessonId)); }
+        catch { return null; }
+      }));
+      for (const lesson of rows) {
+        if (!lesson?.id || lesson.status !== "active") continue;
+        const id = lesson.id.toUpperCase();
+        const repository = repositoryCanonical.get(id);
+        byId.set(id, repository
+          ? { ...repository, translations: lesson.translations ?? repository.translations }
+          : lesson);
+      }
+    }
+    return byId.size ? [...byId.values()] : null;
+  } catch {
+    // Never take the paying-customer curriculum offline because optional
+    // durable publication storage is temporarily unavailable.
+    return null;
   }
-  return byId.size ? [...byId.values()] : null;
 }
-
 export async function upsertAtomicPublishedLessons(batchId: string, lessons: PublishedLessonRecord[]): Promise<boolean> {
   if (process.env.NODE_ENV !== "production") return false;
   if (!lessons.length) return true;
