@@ -4,14 +4,14 @@
     "name": "Recovered red-l3-001-050-es-caribbean.zip",
     "slug": "recovered-red-l3-001-050-es-caribbean-zip",
     "source": "Recovered from stored upload batch batch_eaaa4c06-5091-44d2-a90f-0a799e004142",
-    "status": "ready-for-review",
+    "status": "partially-reviewed",
     "createdAt": "2026-10-04T18:17:42.778Z",
-    "updatedAt": "2026-10-04T18:17:45.308Z",
+    "updatedAt": "2026-10-04T18:17:47.866Z",
     "totalUploads": 1,
     "totalFiles": 51,
-    "approvedFiles": 0,
+    "approvedFiles": 50,
     "rejectedFiles": 0,
-    "pendingFiles": 51,
+    "pendingFiles": 1,
     "conflicts": 0
   },
   {
