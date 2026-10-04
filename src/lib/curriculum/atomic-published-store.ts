@@ -85,12 +85,19 @@ export async function readAtomicPublishedLessons(): Promise<PublishedLessonRecor
   if (!lessonIds.length) return null;
   const repositoryCanonical = new Map(repositoryCanonicalLessons().map((lesson) => [lesson.id.toUpperCase(), lesson]));
   const byId = new Map<string, PublishedLessonRecord>();
-  for (const lessonId of lessonIds) {
-    const lesson = await readJson<PublishedLessonRecord>(lessonPath(lessonId));
+  // GitHub-backed atomic storage is remote in production. Reading lesson rows
+  // serially can exceed the serverless request deadline and turn the entire
+  // learner catalog into HTTP 500. Fetch the indexed rows concurrently.
+  const rows = await Promise.all(
+    lessonIds.map((lessonId) => readJson<PublishedLessonRecord>(lessonPath(lessonId))),
+  );
+  for (const lesson of rows) {
     if (!lesson?.id || lesson.status !== "active") continue;
     const id = lesson.id.toUpperCase();
     const repository = repositoryCanonical.get(id);
-    byId.set(id, repository && repository.level === 1
+    // Repository English is canonical at every level. Atomic rows may add
+    // translations, but must never shadow the committed English base.
+    byId.set(id, repository
       ? { ...repository, translations: lesson.translations ?? repository.translations }
       : lesson);
   }
