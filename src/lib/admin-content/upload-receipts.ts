@@ -23,4 +23,14 @@ export async function markPublished(uploadId:string,input:{reviewBatchId:string;
 }
 export async function markFailed(uploadId:string,error:string,retryable:boolean){return updateJsonCas<UploadReceipt>(pathFor(uploadId),(current)=>current?{...current,state:"FAILED",updatedAt:new Date().toISOString(),retryable,lastError:error}:null,"Record durable upload failure");}
 export async function recordGithubExport(uploadId:string,result:{ok:boolean;branch?:string;pullRequestUrl?:string;error?:string}){return updateJsonCas<UploadReceipt>(pathFor(uploadId),(current)=>current?{...current,updatedAt:new Date().toISOString(),githubExport:{...current.githubExport,state:result.ok?"OPEN":"FAILED",attempts:current.githubExport.attempts+1,branch:result.branch??current.githubExport.branch,pullRequestUrl:result.pullRequestUrl??current.githubExport.pullRequestUrl,lastError:result.ok?null:(result.error??"GitHub export failed")}}:null,"Update Git export receipt");}
+export async function listPendingGithubExportReceipts(limit=40):Promise<UploadReceipt[]>{
+ const storage=getAdminContentStorage();
+ const entries=await storage.listWorkspaceEntries();
+ const receiptPaths=entries.filter((entry)=>entry.startsWith("receipts/")&&entry.endsWith(".json"));
+ const receipts=(await Promise.all(receiptPaths.map(async path=>{const raw=await storage.readBinary(path);if(!raw)return null;try{return JSON.parse(raw.toString("utf8")) as UploadReceipt;}catch{return null;}})))
+  .filter((receipt):receipt is UploadReceipt=>Boolean(receipt))
+  .filter((receipt)=>receipt.state==="PUBLISHED"&&(receipt.githubExport.state==="PENDING"||(receipt.githubExport.state==="FAILED"&&receipt.githubExport.attempts<8)))
+  .sort((a,b)=>a.updatedAt.localeCompare(b.updatedAt));
+ return receipts.slice(0,Math.max(1,Math.min(limit,100)));
+}
 export function uploadIdFromStoragePath(storagePath:string){return storagePath.match(/\/(upload_[0-9a-f-]+)-/iu)?.[1]??null;}
