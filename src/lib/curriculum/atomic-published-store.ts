@@ -132,8 +132,7 @@ export async function upsertAtomicPublishedLessons(batchId: string, lessons: Pub
       entries.push({ id, locale: normalizedLocale(locale) });
     }
     await writeJson(batchPath(batchId), { version: 2, entries } satisfies AtomicBatchRecord);
-    const indexed = await readJson<string[]>(LESSON_INDEX_PATH) ?? [];
-    await writeJson(LESSON_INDEX_PATH, [...new Set([...indexed, ...ids])].sort());
+    await updateLessonIndex((indexed) => [...indexed, ...entries.map((entry) => entry.id)]);
     return true;
   } catch {
     return false;
