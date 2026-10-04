@@ -1,0 +1,18 @@
+{
+  "id": "export_batch_b7bde035-84c9-4782-8d27-4fec3a0d58e9_1791131358464",
+  "batchId": "batch_b7bde035-84c9-4782-8d27-4fec3a0d58e9",
+  "fileName": "content-upload-2026-10-04-red-l3-001-050-fr-ca-zip-approved-content.zip",
+  "storagePath": "exports/export_batch_b7bde035-84c9-4782-8d27-4fec3a0d58e9_1791131358464.zip",
+  "manifestPath": "curriculum/staging/content-upload/content-upload-2026-10-04-red-l3-001-050-fr-ca-zip/batch_b7bde035-84c9-4782-8d27-4fec3a0d58e9/manifest.json",
+  "auditSummaryPath": "curriculum/staging/content-upload/content-upload-2026-10-04-red-l3-001-050-fr-ca-zip/batch_b7bde035-84c9-4782-8d27-4fec3a0d58e9/audit-summary.json",
+  "warningsPath": "curriculum/staging/content-upload/content-upload-2026-10-04-red-l3-001-050-fr-ca-zip/batch_b7bde035-84c9-4782-8d27-4fec3a0d58e9/warnings.json",
+  "rejectedFilesPath": "curriculum/staging/content-upload/content-upload-2026-10-04-red-l3-001-050-fr-ca-zip/batch_b7bde035-84c9-4782-8d27-4fec3a0d58e9/rejected-files.json",
+  "createdAt": "2026-10-04T16:29:18.464Z",
+  "validation": {
+    "success": true,
+    "warnings": [
+      "No curriculum-bound markdown files required validation."
+    ],
+    "errors": []
+  }
+}
