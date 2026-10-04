@@ -13,6 +13,7 @@ import { recordUploadOperation } from "@/lib/admin-content/upload-operations";
 import { createId } from "@/lib/admin-content/utils";
 import { beginFinalization, getUploadReceipt, markFailed, markPublished } from "@/lib/admin-content/upload-receipts";
 import { PublicationBusyError, withPublicationLease } from "@/lib/admin-content/publication-lock";
+import { verifyLearnerVisibility } from "@/lib/admin-content/learner-readback";
 
 export const runtime = "nodejs";
 export const dynamic = "force-dynamic";
@@ -98,12 +99,21 @@ export async function POST(request: NextRequest) {
     }));
     const trustedPublicationAttempted = trustedLocalization.attempted || trustedCanonicalPublication.attempted;
 
+    if (trustedPublicationAttempted && packageIdentity) {
+      const verification = await verifyLearnerVisibility(batch, packageIdentity);
+      if (!verification.learnerVisible) {
+        throw new Error(`Learner verification failed: ${verification.detail}`);
+      }
+      await markPublished(upload.uploadId, { reviewBatchId: batch.id, verification, githubExportRequired: true, recoveredWithoutReupload: false });
+    } else {
+      await markPublished(upload.uploadId, { reviewBatchId: batch.id, verification: { learnerVisible: true, detail: "No trusted curriculum publication required.", checkedLessons: 0, checkedAt: new Date().toISOString() }, githubExportRequired: false, recoveredWithoutReupload: false });
+    }
+
     // Atomic learner publication is the durable finalization boundary. GitHub
     // export is a second remote operation and must never turn a successfully
     // stored, validated, and atomically published package back into a failed
     // upload. Persist FINALIZE success first so a slow/failed GitHub request
     // cannot strand the stored ZIP or cause a duplicate recovery attempt.
-    await markPublished(upload.uploadId, { reviewBatchId: batch.id, verification: { learnerVisible: true, detail: "Trusted publication completed before durable receipt commit." }, githubExportRequired: trustedPublicationAttempted, recoveredWithoutReupload: false });
     await recordUploadOperation({ batchId, uploadId: upload.uploadId, phase: "FINALIZE", status: "SUCCEEDED", storagePath: upload.storagePath, fileName: upload.originalFilename, fileSize: upload.sizeBytes, metadata: { mode: "single-package-request", reviewBatchId: batch.id, reviewableFiles: batch.files.length, packageIdentity, trustedLocalization, trustedCanonicalPublication, githubPublication: null, githubPublicationPending: trustedPublicationAttempted, publicationDeferred: trustedPublicationAttempted } });
 
     // Canonical Git export is drained asynchronously by the durable receipt queue.
