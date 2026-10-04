@@ -37,14 +37,13 @@ export async function acquirePublicationLease(purpose: string): Promise<Publicat
   if (await storage.createIfAbsent(LOCK_PATH, bytes(lease), "application/json", "Acquire curriculum publication lease")) return lease;
   const holder = parse(await storage.readBinary(LOCK_PATH));
   if (holder && remainingMs(holder) > 0) throw new PublicationBusyError(remainingMs(holder));
-  let decision: "acquired" | "busy" = "busy";
   let busyFor = 5_000;
-  await storage.updateBinary(LOCK_PATH, (current) => {
+  const updated = await storage.updateBinary(LOCK_PATH, (current) => {
     const existing = parse(current);
-    if (existing && remainingMs(existing) > 0) { decision = "busy"; busyFor = remainingMs(existing); return null; }
-    decision = "acquired"; return bytes(lease);
+    if (existing && remainingMs(existing) > 0) { busyFor = remainingMs(existing); return null; }
+    return bytes(lease);
   }, "Take over expired curriculum publication lease");
-  if (decision !== "acquired") throw new PublicationBusyError(busyFor);
+  if (!updated) throw new PublicationBusyError(busyFor);
   const confirmed = parse(await storage.readBinary(LOCK_PATH));
   if (confirmed?.owner !== lease.owner) throw new PublicationBusyError(remainingMs(confirmed));
   return lease;
