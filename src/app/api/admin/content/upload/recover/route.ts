@@ -3,7 +3,6 @@ import { NextRequest } from "next/server";
 import { requireAdminApiSession, toActor } from "@/lib/admin-content/auth";
 import { normalizeMixedLocaleBatch } from "@/lib/admin-content/batch-locale-normalization";
 import { inferCurriculumPackageIdentity } from "@/lib/admin-content/package-upload-config";
-import { exportBatchToGithub } from "@/lib/admin-content/service";
 import { getRecoverableCurriculumPackages, getRecoverableUploads, type RecoveryCandidate } from "@/lib/admin-content/recovery-discovery";
 import { recoveryPublicationEnabled } from "@/lib/admin-content/recovery-publication-gate";
 import { selectExistingRestorationCandidates } from "@/lib/admin-content/restoration-execution";
@@ -14,10 +13,12 @@ import { autoPublishTrustedCanonicalCurriculumBatch } from "@/lib/admin-content/
 import { autoPublishTrustedLocalizedLevel1Batch } from "@/lib/admin-content/trusted-localized-ingest";
 import { recordUploadOperation } from "@/lib/admin-content/upload-operations";
 import { createId } from "@/lib/admin-content/utils";
+import { beginFinalization, markFailed, markPublished } from "@/lib/admin-content/upload-receipts";
+import { PublicationBusyError, withPublicationLease } from "@/lib/admin-content/publication-lock";
 
 export const runtime = "nodejs";
 export const dynamic = "force-dynamic";
-export const maxDuration = 300;
+export const maxDuration = 60;
 
 // Fail closed. Production restoration requires an explicit deployment-time switch.
 // The switch is global across tracks/levels/locales; package identity and the
@@ -81,34 +82,36 @@ export async function POST(request: NextRequest) {
   let identity;
   try { identity = inferCurriculumPackageIdentity(upload.originalFilename, "en-US"); } catch (error) { return Response.json({ success: false, error: (error as Error).message, failedUploadId: uploadId, siblingPackagesUnaffected: true }, { status: 400 }); }
   const recoveryBatchId = createId("batch");
+  await beginFinalization({ uploadId, originalBatchId: batchId, storagePath: upload.storagePath, originalFilename: upload.originalFilename, coordinate: classified!.reconciliationKey }, recoveryBatchId, "recovery");
   const createdBatch = await createIndependentUploadBatchFromStoredFiles(request, actor, { batchId: recoveryBatchId, batchName: `Recovered ${upload.originalFilename}`, source: `Recovered from stored upload batch ${batchId}`, notes: "Recovered from persistent upload storage after finalization was interrupted. No file was re-uploaded.", uploadConfig: { destination: "courses", track: identity.track, level: identity.level, language: identity.language, membershipAccess: "basic", publicationStatus: "draft", title: identity.title, description: "Recovered curriculum ZIP package." }, uploads: [upload] });
   // Recovery must use the same mixed-locale normalization gate as normal finalization.
   // This prevents stored packages from being classified or published differently
   // simply because they entered through the interrupted-upload recovery route.
   const batch = await normalizeMixedLocaleBatch(createdBatch);
   if (batch.uploads.length === 0 || batch.files.length === 0) return Response.json({ success: false, error: "The stored object could not be processed. It may not have completed transfer." }, { status: 409 });
-  const trustedLocalization = await autoPublishTrustedLocalizedLevel1Batch(batch, identity, { requireAtomic: true });
-  const trustedCanonicalPublication = await autoPublishTrustedCanonicalCurriculumBatch(batch, identity, actor, { requireAtomic: true });
+  let trustedLocalization;
+  let trustedCanonicalPublication;
+  try {
+    ({ trustedLocalization, trustedCanonicalPublication } = await withPublicationLease(`manual-recovery:${uploadId}`, async () => {
+      const trustedLocalization = await autoPublishTrustedLocalizedLevel1Batch(batch, identity, { requireAtomic: true });
+      const trustedCanonicalPublication = await autoPublishTrustedCanonicalCurriculumBatch(batch, identity, actor, { requireAtomic: true });
+      return { trustedLocalization, trustedCanonicalPublication };
+    }));
+  } catch (error) {
+    await markFailed(uploadId, error instanceof Error ? error.message : String(error), true);
+    if (error instanceof PublicationBusyError) return Response.json({ success:false,error:error.message,retryAfterMs:error.retryAfterMs },{status:423,headers:{"Cache-Control":"private, no-store"}});
+    throw error;
+  }
   const postPublicationVerification = identity.language === "en" || identity.language === "en-US"
     ? await verifyRestoredCanonicalCoordinate(classified!.reconciliationKey!)
     : null;
   const trustedPublicationAttempted = trustedLocalization.attempted || trustedCanonicalPublication.attempted;
   if (postPublicationVerification && !postPublicationVerification.complete) return Response.json({ success: false, error: "Canonical restoration published but did not resolve all 50 learner lessons.", postPublicationVerification, failedUploadId: uploadId, siblingPackagesUnaffected: true }, { status: 409, headers: { "Cache-Control": "private, no-store" } });
 
-  // Durable recovery completion must not depend on the slower GitHub export.
-  // exportBatchToGithub performs many remote GitHub calls and can outlive the
-  // serverless response window. Mark the stored package recovered first so an
-  // interrupted response cannot create another recovery batch on retry.
+  await markPublished(uploadId, { reviewBatchId: recoveryBatchId, verification: { learnerVisible: postPublicationVerification?.complete !== false, detail: postPublicationVerification ? "Canonical learner verification completed." : "Localized trusted publication completed." }, githubExportRequired: trustedPublicationAttempted, recoveredWithoutReupload: true });
   await recordUploadOperation({ batchId, uploadId, phase: "VERIFY", status: "SUCCEEDED", storagePath: upload.storagePath, fileName: upload.originalFilename, fileSize: upload.sizeBytes, metadata: { recoveryBatchId, recoveredWithoutReupload: true, trustedLocalization, trustedCanonicalPublication, githubPublication: null, githubPublicationPending: trustedPublicationAttempted, postPublicationVerification, publicationDeferred: false, discoverySource: "persistent-storage" } });
 
-  let githubPublication = null;
-  let githubPublicationError: string | null = null;
-  if (trustedPublicationAttempted) {
-    try {
-      githubPublication = await exportBatchToGithub(batch.id, actor);
-    } catch (error) {
-      githubPublicationError = error instanceof Error ? error.message : String(error);
-    }
-  }
+  const githubPublication = null;
+  const githubPublicationError = null;
   return Response.json({ success: true, originalBatchId: batchId, recoveredUploadId: uploadId, batch, trustedLocalization, trustedCanonicalPublication, githubPublication, githubPublicationError, postPublicationVerification, publicationDeferred: false }, { status: 201, headers: { "Cache-Control": "private, no-store" } });
 }
