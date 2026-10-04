@@ -156,5 +156,12 @@ export async function runSequentialFinalization<T, R>(
   onProgress?: (progress: FinalizeProgress) => void,
   onFailure?: (failure: FinalizeFailure<T>) => void,
 ): Promise<R[]> {
-  return runParallelFinalization(items, worker, onProgress, onFailure);
+  // Finalization mutates shared curriculum publication state. Running several
+  // packages at once can overlap GitHub-backed writes and strand otherwise
+  // valid stored packages. Keep upload transfer parallel, but finalize exactly
+  // one package at a time.
+  return runParallelFinalization(items, worker, onProgress, onFailure, {
+    concurrency: 1,
+    transientRetries: DEFAULT_TRANSIENT_RETRIES,
+  });
 }
