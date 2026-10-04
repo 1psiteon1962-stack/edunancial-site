@@ -6,6 +6,7 @@ import { ADMIN_CONTENT_LANGUAGES, ADMIN_CONTENT_LANGUAGE_LABELS, type AdminConte
 import { MEMBERSHIP_ACCESS } from "@/lib/admin-content/constants";
 import { runSequentialFinalization, shouldReconcileAmbiguousFinalizeError } from "@/lib/admin-content/finalize-queue";
 import { runParallelUploads } from "@/lib/admin-content/parallel-upload";
+import { analyzeFilenameLocale } from "@/lib/admin-content/locale-inference";
 
 const COURSE_LEVELS = ["level-1", "level-2", "level-3", "level-4", "level-5"] as const;
 const MARKETPLACE_CATEGORIES = ["books","ebooks","pdf-guides","templates","worksheets","forms","downloads","zip-packages","audio","videos","images","software","digital-products","calculators","presentations","spreadsheets","flashcards","future-products"] as const;
@@ -13,12 +14,7 @@ type Track = "red"|"white"|"blue"|"green"|"gold"|"purple"|"orange"|"black";
 type MembershipAccess = (typeof MEMBERSHIP_ACCESS)[number];
 const TRACKS:Array<{value:Track;label:string}>=[{value:"red",label:"🔴 Red — Real Estate"},{value:"white",label:"⚪ White — Paper Assets"},{value:"blue",label:"🔵 Blue — Business"},{value:"green",label:"🟢 Green — Taxes"},{value:"gold",label:"🟡 Gold — Investing"},{value:"purple",label:"🟣 Purple — Law"},{value:"orange",label:"🟠 Orange — Sales & Marketing"},{value:"black",label:"⚫ Black — Leadership & Executive Management"}];
 const TRACK_VALUES=new Set(TRACKS.map(t=>t.value));
-const HUMAN_LOCALES:Array<[string,AdminContentLanguage]>=[["spanish-latin-america-caribbean","es-Caribbean"],["spanish-caribbean","es-Caribbean"],["portuguese-brazil","pt-BR"],["brazilian-portuguese","pt-BR"],["portuguese-portugal","pt-PT"],["french-canadian","fr-CA"],["canadian-french","fr-CA"],["french-france","fr-FR"],["spanish-spain","es-ES"],["english-uk","en-GB"],["english-united-kingdom","en-GB"],["english-us","en-US"],["english-united-states","en-US"],["german-germany","de"],["italian-italy","it"],["dutch-netherlands","nl"]];
-const CANONICAL_LOCALES=["es-Caribbean","en-US","en-GB","es-ES","fr-CA","fr-FR","pt-BR","pt-PT","de","it","nl","ht","es","fr","pt","en"] as const;
-function stem(filename:string){return filename.replace(/\.[^.]+$/u,"");}
-function normalized(filename:string){return `-${stem(filename).toLowerCase().replaceAll("_","-").replaceAll(".","-")}-`;}
-function tokens(filename:string){return stem(filename).toLowerCase().split(/[^a-z0-9]+/u).filter(Boolean);}
-function inferLanguage(filename:string):AdminContentLanguage|null{const n=normalized(filename);for(const [alias,locale] of HUMAN_LOCALES)if(n.includes(`-${alias}-`))return locale;for(const locale of CANONICAL_LOCALES)if(n.includes(`-${locale.toLowerCase()}-`))return locale as AdminContentLanguage;return null;}
+function inferLanguage(filename:string):AdminContentLanguage|null{const result=analyzeFilenameLocale(filename);return result.locale as AdminContentLanguage|null;}
 function inferTrack(filename:string):Track|null{for(const token of tokens(filename))if(TRACK_VALUES.has(token as Track))return token as Track;return null;}
 function inferLevel(filename:string):(typeof COURSE_LEVELS)[number]|null{const t=tokens(filename);for(let i=0;i<t.length;i++){const m=t[i].match(/^l([1-5])$/u)??t[i].match(/^level([1-5])$/u);if(m)return `level-${m[1]}` as (typeof COURSE_LEVELS)[number];if(t[i]==="level"&&/^[1-5]$/u.test(t[i+1]??""))return `level-${t[i+1]}` as (typeof COURSE_LEVELS)[number];}return null;}
 function inspect(file:File,defaultLanguage:AdminContentLanguage){const track=inferTrack(file.name),level=inferLevel(file.name),explicitLanguage=inferLanguage(file.name);return{track,level,explicitLanguage,language:explicitLanguage??defaultLanguage,ready:Boolean(track&&level)};}
@@ -70,7 +66,7 @@ export default function ResilientUploadClient(){
       const statusResponse=await fetch(`/api/admin/content/upload/finalize?batchId=${encodeURIComponent(presigned.batchId)}&uploadId=${encodeURIComponent(upload.uploadId)}`,{cache:"no-store",headers:{"x-csrf-token":csrf}});
       if(!statusResponse.ok)continue;
       const status=await statusResponse.json() as {status?:string;reviewBatchId?:string|null};
-      if(status.status==="SUCCEEDED"&&status.reviewBatchId){completedBatchIds.push(status.reviewBatchId);return status.reviewBatchId;}
+      if((status.status==="SUCCEEDED"||status.status==="PUBLISHED")&&status.reviewBatchId){completedBatchIds.push(status.reviewBatchId);return status.reviewBatchId;}
       if(status.status==="FAILED")throw finalizeError;
      }
      throw new Error(`${upload.originalFilename} finalization outcome is still pending after automatic reconciliation. The stored package remains preserved for recovery.`);
