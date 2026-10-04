@@ -1,5 +1,25 @@
 [
   {
+    "id": "upload-operation-29d61439-1afa-46c9-a28e-cd6e0fa6e81e",
+    "timestamp": "2026-10-04T16:29:32.694Z",
+    "action": "system-error",
+    "result": "failure",
+    "actor": "admin-content-uploader",
+    "batchId": "batch_eaaa4c06-5091-44d2-a90f-0a799e004142",
+    "metadata": {
+      "kind": "upload-operation",
+      "uploadId": "upload_ab0c46f0-ac79-4dca-b72a-6e1b4a4e9875",
+      "phase": "FINALIZE",
+      "status": "FAILED",
+      "storagePath": "uploads/courses/batch_eaaa4c06-5091-44d2-a90f-0a799e004142/upload_ab0c46f0-ac79-4dca-b72a-6e1b4a4e9875-red-l3-001-050-de.zip",
+      "fileName": "RED-L3-001-050-de.zip",
+      "fileSize": 121793,
+      "errorCode": "Error",
+      "errorMessage": "GitHub upload storage write failed (HTTP 409): {\"message\":\"is at 95ed908d25403f0c7c030f5f3ee7de4ee42b9ee9 but expected 0d3c274166e0144b7400f56a6acb81a76a73e563\",\"documentation_url\":\"https://docs.github.com/rest/repos/contents#create-or-update-file-contents\",\"status\":\"409\"}",
+      "mode": "single-package-request"
+    }
+  },
+  {
     "id": "upload-operation-ea45b4c1-8da0-4947-9da3-8ef19a2f8be1",
     "timestamp": "2026-10-04T16:29:28.338Z",
     "action": "system-error",
