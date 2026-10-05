@@ -34,6 +34,6 @@ test("trusted canonical curriculum checkpoints runtime state and queues Git expo
 });
 
 test("finalize retry bypass covers both trusted localized and trusted canonical publication", () => {
-  assert.match(finalizeRoute, /const existingReviewBatchId = await getAlreadyFinalizedReviewBatchId\\(batchId, currentUpload\\.uploadId\\);/u);
+  assert.match(finalizeRoute, /const existingReviewBatchId = await getAlreadyFinalizedReviewBatchId\(batchId, currentUpload\.uploadId\);/u);
   assert.doesNotMatch(finalizeRoute, /!trustedLocalized && !trustedCanonical/u);
 });
