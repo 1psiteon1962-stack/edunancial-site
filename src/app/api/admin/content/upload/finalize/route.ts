@@ -93,21 +93,20 @@ export async function POST(request: NextRequest) {
       throw new Error(`Uploaded file reached GitHub storage but could not be processed: ${detail}`);
     }
 
-    const { trustedLocalization, trustedCanonicalPublication } = await withPublicationLease(`finalize:${upload.uploadId}`, async () => ({
-      trustedLocalization: await autoPublishTrustedLocalizedLevel1Batch(batch, packageIdentity, { requireAtomic: true }),
-      trustedCanonicalPublication: await autoPublishTrustedCanonicalCurriculumBatch(batch, packageIdentity, actor, { requireAtomic: true }),
-    }));
-    const trustedPublicationAttempted = trustedLocalization.attempted || trustedCanonicalPublication.attempted;
-
-    if (trustedPublicationAttempted && packageIdentity) {
-      const verification = await verifyLearnerVisibility(batch, packageIdentity);
-      if (!verification.learnerVisible) {
-        throw new Error(`Learner verification failed: ${verification.detail}`);
+    const { trustedLocalization, trustedCanonicalPublication } = await withPublicationLease(`finalize:${upload.uploadId}`, async () => {
+      const trustedLocalization = await autoPublishTrustedLocalizedLevel1Batch(batch, packageIdentity, { requireAtomic: true });
+      const trustedCanonicalPublication = await autoPublishTrustedCanonicalCurriculumBatch(batch, packageIdentity, actor, { requireAtomic: true });
+      const trustedPublicationAttempted = trustedLocalization.attempted || trustedCanonicalPublication.attempted;
+      if (trustedPublicationAttempted && packageIdentity) {
+        const verification = await verifyLearnerVisibility(batch, packageIdentity);
+        if (!verification.learnerVisible) throw new Error(`Learner verification failed: ${verification.detail}`);
+        await markPublished(upload.uploadId, { reviewBatchId: batch.id, verification, githubExportRequired: true, recoveredWithoutReupload: false });
+      } else {
+        await markPublished(upload.uploadId, { reviewBatchId: batch.id, verification: { learnerVisible: true, detail: "No trusted curriculum publication required.", checkedLessons: 0, checkedAt: new Date().toISOString() }, githubExportRequired: false, recoveredWithoutReupload: false });
       }
-      await markPublished(upload.uploadId, { reviewBatchId: batch.id, verification, githubExportRequired: true, recoveredWithoutReupload: false });
-    } else {
-      await markPublished(upload.uploadId, { reviewBatchId: batch.id, verification: { learnerVisible: true, detail: "No trusted curriculum publication required.", checkedLessons: 0, checkedAt: new Date().toISOString() }, githubExportRequired: false, recoveredWithoutReupload: false });
-    }
+      return { trustedLocalization, trustedCanonicalPublication };
+    });
+    const trustedPublicationAttempted = trustedLocalization.attempted || trustedCanonicalPublication.attempted;
 
     // Atomic learner publication is the durable finalization boundary. GitHub
     // export is a second remote operation and must never turn a successfully
