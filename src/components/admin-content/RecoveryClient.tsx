@@ -44,67 +44,47 @@ export default function RecoveryClient() {
 
   useEffect(() => { void load(); }, []);
 
-  async function recoverRequest(batchId: string, uploadId: string) {
-    const response = await fetch("/api/admin/content/upload/recover", {
-      method: "POST",
-      headers: { "Content-Type": "application/json", "x-csrf-token": csrfToken },
-      body: JSON.stringify({ batchId, uploadId }),
-    });
-    const responseText = await response.text();
-    let payload: any = null;
-    if (responseText.trim()) {
-      try {
-        payload = JSON.parse(responseText);
-      } catch {
-        // A long-running recovery may finish server-side after the HTTP
-        // response is truncated. Treat this as ambiguous and reconcile from
-        // persistent storage rather than reporting a JSON parser failure.
-      }
-    }
-    if (!response.ok && payload) {
-      const details = [payload.error, payload.reason, payload.detail, payload.controlledDecision?.reason, payload.executionDecision?.reason].filter(Boolean);
-      throw new Error(details.join(" — ") || `Recovery failed (HTTP ${response.status}).`);
-    }
-    if (!payload) return { reconciliationRequired: true };
-    return payload;
-  }
-
   async function recover(batchId: string, uploadId: string) {
     if (!recoveryAvailable) return;
     const key = `${batchId}:${uploadId}`;
     setActive(key);
     setError("");
-    setProgress("");
+    setProgress("Starting durable background recovery…");
     try {
-      const payload = await recoverRequest(batchId, uploadId);
-      if (payload.reconciliationRequired) {
-        setProgress("Recovery response was interrupted. Checking persistent server state; do not retry or re-upload it.");
-        // A 60s platform cutoff can truncate the response while the server is
-        // committing the PUBLISHED receipt. Poll inventory before telling the
-        // operator to retry. Disappearance is the durable success signal.
-        for (let attempt = 0; attempt < 20; attempt += 1) {
-          await new Promise((resolve) => setTimeout(resolve, 1500));
-          const response = await fetch("/api/admin/content/upload/recover", { cache: "no-store" });
-          const recovery = await response.json() as RecoveryResponse;
-          const stillListed = (recovery.recoverable ?? []).some((batch) =>
-            batch.batchId === batchId && batch.uploads.some((upload) => upload.uploadId === uploadId)
-          );
-          if (!stillListed) {
-            setProgress("Recovery completed durably and the stored package is no longer pending recovery.");
-            await load({ preserveError: true });
-            return;
-          }
+      const response = await fetch("/api/admin/content/upload/recover", {
+        method: "POST",
+        headers: { "Content-Type": "application/json", "x-csrf-token": csrfToken },
+        body: JSON.stringify({ batchId, uploadId }),
+      });
+      const payload = await response.json();
+      if (!response.ok || !payload.jobId) throw new Error(payload.error ?? `Recovery start failed (HTTP ${response.status}).`);
+      setProgress("Recovery is running server-side. You may leave this page; the stored ZIP remains preserved.");
+      for (let attempt = 0; attempt < 180; attempt += 1) {
+        await new Promise((resolve) => setTimeout(resolve, 3000));
+        const statusResponse = await fetch("/api/admin/content/upload/recover", {
+          method: "PUT",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({ jobId: payload.jobId }),
+          cache: "no-store",
+        });
+        const statusPayload = await statusResponse.json();
+        if (!statusResponse.ok) throw new Error(statusPayload.error ?? "Unable to read recovery job state.");
+        const job = statusPayload.job;
+        if (job.state === "SUCCEEDED") {
+          setProgress("Recovery completed and learner-visible publication was server-confirmed.");
+          await load({ preserveError: true });
+          if (job.reviewBatchId) router.push(`/admin/content/batches/${job.reviewBatchId}`);
+          router.refresh();
+          return;
         }
-        await load({ preserveError: true });
-        setProgress("Recovery response was interrupted and the package remains preserved. A safe server-side retry is required; do not re-upload it.");
-        return;
+        if (job.state === "FAILED") throw new Error(job.error ?? "Background recovery failed.");
+        setProgress(job.state === "RUNNING" ? "Recovery is running server-side; waiting for learner verification…" : "Recovery is queued server-side…");
       }
-      router.push(`/admin/content/batches/${payload.batch.id}`);
-      router.refresh();
+      throw new Error("Background recovery is still running. The stored ZIP remains preserved; refresh later to check its durable state.");
     } catch (err) {
       const message = (err as Error).message;
       setError(message);
-      setProgress("Recovery did not complete. The stored ZIP is preserved; the error below is the server response.");
+      setProgress("Recovery did not reach learner-verified PUBLISHED state. The stored ZIP remains preserved.");
       await load({ preserveError: true });
       setError(message);
     } finally {
