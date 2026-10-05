@@ -24,3 +24,13 @@ export function diagnoseFunnel(counts:Record<string,number>){
  if(paid>=10&&retained/paid<0.6)return{stage:"retention",reason:"Paid customers are not retaining at the expected level."};
  return{stage:"healthy",reason:"No dominant funnel leak detected."};
 }
+
+export async function runAndPersistS8Diagnosis(campaignId:string,since:string){
+ const rows=await getCampaignFunnelCounts(campaignId,since);const counts:Record<string,number>={};
+ for(const row of rows)counts[String(row.event_type)]=(counts[String(row.event_type)]??0)+Number(row.count??0);
+ const diagnosis=diagnoseFunnel(counts);const sql=getNeonSql();if(!sql)throw new Error("S8 diagnostics require a database connection.");
+ const now=new Date().toISOString();
+ await sql`insert into marketing_s8_diagnostics(campaign_id,window_starts_at,window_ends_at,diagnosed_stage,confidence,evidence,recommended_action)
+ values(${campaignId},${since},${now},${diagnosis.stage},${diagnosis.stage==="insufficient_data"?0.25:0.75},${JSON.stringify({counts,reason:diagnosis.reason})}::jsonb,${JSON.stringify({policy:"diagnose-before-spend",stage:diagnosis.stage})}::jsonb)`;
+ return{campaignId,since,through:now,counts,...diagnosis};
+}
