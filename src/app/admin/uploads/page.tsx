@@ -1,6 +1,6 @@
 import Link from "next/link";
 
-import UploadClient from "@/components/admin-content/UploadClient";
+import ResilientUploadClient from "@/components/admin-content/ResilientUploadClient";
 import { requireAdminPageSession } from "@/lib/admin-content/auth";
 
 export const dynamic = "force-dynamic";
@@ -44,7 +44,7 @@ export default async function UploadManagerPage() {
           </div>
         </div>
 
-        <UploadClient />
+        <ResilientUploadClient />
       </section>
     </main>
   );

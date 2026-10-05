@@ -85,7 +85,7 @@ async function updateLessonIndex(mutator:(ids:string[])=>string[]):Promise<void>
  * present; durable atomic rows add recovered L2/L3 and their translations.
  */
 export async function readAtomicPublishedLessons(): Promise<PublishedLessonRecord[] | null> {
-  if (process.env.NODE_ENV !== "production" || !process.env.EDUNANCIAL_GITHUB_TOKEN?.trim() || !process.env.EDUNANCIAL_GITHUB_OWNER?.trim() || !process.env.EDUNANCIAL_GITHUB_REPO?.trim()) return null;
+  if (process.env.NODE_ENV !== "production") return null;
   try {
     const lessonIds = await readJson<string[]>(LESSON_INDEX_PATH) ?? [];
     if (!lessonIds.length) return null;
@@ -111,7 +111,8 @@ export async function readAtomicPublishedLessons(): Promise<PublishedLessonRecor
       }
     }
     return byId.size ? [...byId.values()] : null;
-  } catch {
+  } catch (error) {
+    console.error("[atomic-published-store] durable curriculum read failed", error);
     // Never take the paying-customer curriculum offline because optional
     // durable publication storage is temporarily unavailable.
     return null;
