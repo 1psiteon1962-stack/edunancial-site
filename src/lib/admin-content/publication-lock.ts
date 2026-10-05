@@ -4,6 +4,7 @@ import { getAdminContentStorage } from "@/lib/admin-content/storage";
 
 const LOCK_PATH = "locks/curriculum-publication.json";
 const LEASE_MS = 90_000;
+const LEASE_REFRESH_MS = 60_000;
 
 export type PublicationLease = { owner: string; purpose: string; acquiredAt: string; expiresAt: string };
 
@@ -53,6 +54,20 @@ export function assertLeaseFresh(lease: PublicationLease): void {
   if (Date.now() >= new Date(lease.expiresAt).getTime() - 15_000) throw new Error("Publication lease expired before durable commit; the package will be retried safely.");
 }
 
+export async function renewPublicationLease(lease: PublicationLease): Promise<PublicationLease> {
+  const storage = getAdminContentStorage();
+  if (!storage.updateBinary) throw new Error("Storage does not support publication lease renewal.");
+  const next = { ...lease, expiresAt: new Date(Date.now() + LEASE_MS).toISOString() };
+  const updated = await storage.updateBinary(LOCK_PATH, (current) => {
+    const existing = parse(current);
+    if (existing?.owner !== lease.owner) return null;
+    return bytes(next);
+  }, "Renew curriculum publication lease");
+  if (!updated) throw new Error("Publication lease is no longer held; refusing to renew.");
+  lease.expiresAt = next.expiresAt;
+  return lease;
+}
+
 export async function assertLeaseHeld(lease: PublicationLease): Promise<void> {
   assertLeaseFresh(lease);
   const current = parse(await getAdminContentStorage().readBinary(LOCK_PATH));
@@ -75,5 +90,14 @@ export async function releasePublicationLease(lease: PublicationLease): Promise<
 
 export async function withPublicationLease<T>(purpose: string, fn: (lease: PublicationLease) => Promise<T>): Promise<T> {
   const lease = await acquirePublicationLease(purpose);
-  try { return await fn(lease); } finally { await releasePublicationLease(lease); }
+  let heartbeatError: unknown = null;
+  const timer = setInterval(() => { void renewPublicationLease(lease).catch((error) => { heartbeatError = error; }); }, LEASE_REFRESH_MS);
+  try {
+    const result = await fn(lease);
+    if (heartbeatError) throw heartbeatError;
+    return result;
+  } finally {
+    clearInterval(timer);
+    await releasePublicationLease(lease);
+  }
 }
