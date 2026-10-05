@@ -11,7 +11,7 @@ import { autoPublishTrustedLocalizedLevel1Batch, isTrustedLocalizedLevel1Identit
 import { parseUploadConfig } from "@/lib/admin-content/upload-intake";
 import { recordUploadOperation } from "@/lib/admin-content/upload-operations";
 import { createId } from "@/lib/admin-content/utils";
-import { beginFinalization, getUploadReceipt, markFailed, markPublished } from "@/lib/admin-content/upload-receipts";
+import { beginFinalization, getUploadReceipt, markFailed, markPublished, markStoredForReview } from "@/lib/admin-content/upload-receipts";
 import { PublicationBusyError, withPublicationLease } from "@/lib/admin-content/publication-lock";
 import { verifyLearnerVisibility } from "@/lib/admin-content/learner-readback";
 
@@ -103,7 +103,7 @@ export async function POST(request: NextRequest) {
         if (!verification.learnerVisible) throw new Error(`Learner verification failed: ${verification.detail}`);
         await markPublished(currentUpload.uploadId, { reviewBatchId: batch.id, verification, githubExportRequired: true, recoveredWithoutReupload: false });
       } else {
-        await markPublished(currentUpload.uploadId, { reviewBatchId: batch.id, verification: { learnerVisible: true, detail: "No trusted curriculum publication required.", checkedLessons: 0, checkedAt: new Date().toISOString() }, githubExportRequired: false, recoveredWithoutReupload: false });
+        if (uploadConfig.destination === "courses") { const detail = "Curriculum coordinate could not be inferred from package; not published."; await markFailed(currentUpload.uploadId, detail, false); throw new Error(detail); } await markStoredForReview(currentUpload.uploadId, batch.id, "Stored successfully; manual review required before publication.");
       }
       return { trustedLocalization, trustedCanonicalPublication };
     });
