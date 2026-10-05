@@ -44,7 +44,6 @@ export default function ResilientUploadClient(){
   const finalizationFailures:Array<{filename:string;message:string}>=[];
   const transferFailures:Array<{filename:string;message:string}>=[];
   const completedBatchIds:string[]=[];
-  const deferredPublicationBatchIds:string[]=[];
   try{
    const pre=await fetch("/api/admin/content/upload/presign",{method:"POST",headers:{"Content-Type":"application/json","x-csrf-token":csrf},body:JSON.stringify({...config,files:files.map(f=>({name:f.name,size:f.size,type:f.type}))})});
    if(!pre.ok){const p=await pre.json().catch(()=>({}));throw new Error(p.error??`Failed to prepare upload (HTTP ${pre.status}).`);}const presigned=await pre.json() as Presigned;
@@ -82,8 +81,9 @@ export default function ResilientUploadClient(){
     setError(messages.join(" "));
     return;
    }
-   setSuccess(`${completedBatchIds.length} package${completedBatchIds.length===1?"":"s"} uploaded, validated, and finalized independently.${deferredPublicationBatchIds.length?` ${deferredPublicationBatchIds.length} package${deferredPublicationBatchIds.length===1?" is":"s are"} ready for publication from batch review.`:""} Opening the first review batch.`);
-   if(completedBatchIds[0]){router.push(`/admin/content/batches/${completedBatchIds[0]}`);router.refresh();}
+   setSuccess(`${completedBatchIds.length} of ${files.length} published and learner-verified (server-confirmed).`);
+   setFiles([]);
+   router.refresh();
   }catch(err){cancel();setUploading(false);setPhase("");if(finalizationFailures.length||transferFailures.length){setSuccess(`${completedBatchIds.length} package${completedBatchIds.length===1?" is":"s are"} confirmed finalized and preserved.`);setError(`${transferFailures.length?`${transferFailures.map(f=>f.filename).join(", ")} failed before storage completed. `:""}${finalizationFailures.length?`Stored packages not confirmed finalized: ${finalizationFailures.map(f=>f.filename).join(", ")}. Use interrupted-upload recovery only for these stored packages.`:""}`);}else setError((err as Error).message);}
  }
  return <form onSubmit={submit} className="mx-auto max-w-5xl space-y-7">
