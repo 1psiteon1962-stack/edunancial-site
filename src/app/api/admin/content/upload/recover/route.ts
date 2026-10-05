@@ -13,7 +13,7 @@ import { autoPublishTrustedCanonicalCurriculumBatch } from "@/lib/admin-content/
 import { autoPublishTrustedLocalizedLevel1Batch } from "@/lib/admin-content/trusted-localized-ingest";
 import { recordUploadOperation } from "@/lib/admin-content/upload-operations";
 import { createId } from "@/lib/admin-content/utils";
-import { beginFinalization, markFailed, markPublished } from "@/lib/admin-content/upload-receipts";
+import { beginFinalization, getUploadReceipt, markFailed, markPublished } from "@/lib/admin-content/upload-receipts";
 import { PublicationBusyError, withPublicationLease } from "@/lib/admin-content/publication-lock";
 import { verifyLearnerVisibility } from "@/lib/admin-content/learner-readback";
 
@@ -70,6 +70,10 @@ export async function POST(request: NextRequest) {
   let candidates: RecoveryCandidate[];
   try { candidates = await getRecoverableUploads(); } catch (error) { return Response.json({ success: false, error: "Persistent upload storage could not be inspected.", detail: error instanceof Error ? error.message : String(error), failedUploadId: uploadId, siblingPackagesUnaffected: true }, { status: 503 }); }
   const candidate = candidates.find((entry) => entry.batchId === batchId && entry.upload.uploadId === uploadId);
+  const existingReceipt = await getUploadReceipt(uploadId);
+  if (existingReceipt?.state === "PUBLISHED" && existingReceipt.verification?.learnerVisible === true && existingReceipt.reviewBatchId) {
+    return Response.json({ success: true, alreadyRecovered: true, originalBatchId: batchId, recoveredUploadId: uploadId, batch: { id: existingReceipt.reviewBatchId }, receipt: existingReceipt }, { status: 200, headers: { "Cache-Control": "private, no-store" } });
+  }
   if (!candidate) return Response.json({ success: false, error: "Stored upload is unavailable, already finalized, or already recovered.", failedUploadId: uploadId, siblingPackagesUnaffected: true }, { status: 404 });
   const classified = (await getRecoverableCurriculumPackages()).find((entry) => entry.batchId === batchId && entry.upload.uploadId === uploadId);
   const executionCandidate = classified ? selectExistingRestorationCandidates([classified])[0] : null;
@@ -105,8 +109,10 @@ export async function POST(request: NextRequest) {
       return { trustedLocalization, trustedCanonicalPublication };
     }));
   } catch (error) {
+    if (error instanceof PublicationBusyError) {
+      return Response.json({ success:false,error:error.message,retryAfterMs:error.retryAfterMs },{status:423,headers:{"Cache-Control":"private, no-store"}});
+    }
     await markFailed(uploadId, error instanceof Error ? error.message : String(error), true);
-    if (error instanceof PublicationBusyError) return Response.json({ success:false,error:error.message,retryAfterMs:error.retryAfterMs },{status:423,headers:{"Cache-Control":"private, no-store"}});
     throw error;
   }
   const postPublicationVerification = identity.language === "en" || identity.language === "en-US"
