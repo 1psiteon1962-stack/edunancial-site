@@ -78,9 +78,25 @@ export default function RecoveryClient() {
     try {
       const payload = await recoverRequest(batchId, uploadId);
       if (payload.reconciliationRequired) {
-        setProgress("Recovery response was interrupted. Reconciling the stored package from persistent server state; do not retry or re-upload it.");
+        setProgress("Recovery response was interrupted. Checking persistent server state; do not retry or re-upload it.");
+        // A 60s platform cutoff can truncate the response while the server is
+        // committing the PUBLISHED receipt. Poll inventory before telling the
+        // operator to retry. Disappearance is the durable success signal.
+        for (let attempt = 0; attempt < 20; attempt += 1) {
+          await new Promise((resolve) => setTimeout(resolve, 1500));
+          const response = await fetch("/api/admin/content/upload/recover", { cache: "no-store" });
+          const recovery = await response.json() as RecoveryResponse;
+          const stillListed = (recovery.recoverable ?? []).some((batch) =>
+            batch.batchId === batchId && batch.uploads.some((upload) => upload.uploadId === uploadId)
+          );
+          if (!stillListed) {
+            setProgress("Recovery completed durably and the stored package is no longer pending recovery.");
+            await load({ preserveError: true });
+            return;
+          }
+        }
         await load({ preserveError: true });
-        setProgress("Recovery response was interrupted. Persistent storage has been reconciled. If the package remains listed, it is preserved for a safe server-side retry; if it disappears, recovery completed durably.");
+        setProgress("Recovery response was interrupted and the package remains preserved. A safe server-side retry is required; do not re-upload it.");
         return;
       }
       router.push(`/admin/content/batches/${payload.batch.id}`);
