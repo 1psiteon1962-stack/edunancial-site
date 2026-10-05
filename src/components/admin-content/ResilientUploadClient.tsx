@@ -23,7 +23,7 @@ function languageLabel(locale:string){return ADMIN_CONTENT_LANGUAGE_LABELS[local
 function packageTitle(track:Track,level:(typeof COURSE_LEVELS)[number]){const label=TRACKS.find(t=>t.value===track)?.label.replace(/^[^A-Za-z]+/u,"")??track.toUpperCase();return `${label} — ${level.replace("level-","Level ")}`;}
 type Presigned={batchId:string;uploads:Array<{uploadId:string;storagePath:string;safeName:string;signedUrl:string|null;directUpload:{url:string;headers:Record<string,string>}|null}>};
 type StoredUpload={uploadId:string;originalFilename:string;mimeType:string;sizeBytes:number;storagePath:string};
-type FinalizePayload={batch?:{id:string}|null;batches?:Array<{id:string}>;failures?:Array<{filename:string;error:string}>;publicationDeferred?:boolean};
+type FinalizePayload={batch?:{id:string}|null;batches?:Array<{id:string}>;failures?:Array<{filename:string;error:string}>;publicationDeferred?:boolean;receipt?:{state?:string;verification?:{learnerVisible?:boolean;checkedLessons?:number;detail?:string}|null}};
 
 export default function ResilientUploadClient(){
  const router=useRouter(),fileInputRef=useRef<HTMLInputElement|null>(null),xhrRefs=useRef<Set<XMLHttpRequest>>(new Set());
@@ -58,7 +58,7 @@ export default function ResilientUploadClient(){
     try{
      const r=await fetch("/api/admin/content/upload/finalize",{method:"POST",headers:{"Content-Type":"application/json","x-csrf-token":csrf},body:JSON.stringify({...config,batchId:presigned.batchId,uploads:[upload]})});
      if(!r.ok){const p=await r.json().catch(()=>({}));const detail=p.detail??p.message??p.error;throw new Error(`${upload.originalFilename} failed during finalization (HTTP ${r.status})${detail?`: ${detail}`:""}.`);}
-     const payload=await r.json() as FinalizePayload;const id=payload.batch?.id??payload.batches?.[0]?.id;if(payload.publicationDeferred&&id)deferredPublicationBatchIds.push(id);if(!id)throw new Error(`${upload.originalFilename} returned no review batch after finalization.`);completedBatchIds.push(id);return id;
+     const payload=await r.json() as FinalizePayload;const id=payload.batch?.id??payload.batches?.[0]?.id;if(!id)throw new Error(`${upload.originalFilename} returned no review batch after finalization.`);if(payload.receipt?.state!=="PUBLISHED"||payload.receipt.verification?.learnerVisible!==true)throw new Error(`${upload.originalFilename} was processed but is not learner-verified PUBLISHED.`);completedBatchIds.push(id);return id;
     }catch(finalizeError){
      if(!shouldReconcileAmbiguousFinalizeError(finalizeError))throw finalizeError;
      setPhase(`Confirming server completion for ${upload.originalFilename}…`);
