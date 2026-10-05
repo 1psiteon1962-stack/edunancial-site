@@ -45,27 +45,7 @@ export async function getRecoverableUploads(): Promise<RecoveryCandidate[]> {
   const storage = getAdminContentStorage();
   const entries = await storage.listWorkspaceEntries();
 
-  // Only a durable FINALIZE success receipt makes an original stored ZIP
-  // non-recoverable. A derived review batch can exist before finalization has
-  // actually completed (or while its response is lost), so using batch contents
-  // here can strand the upload: the client requests recovery while discovery
-  // incorrectly hides the stored object.
-  const audit = await storage.listAuditHistory();
-  const finalized = new Set(
-    audit.flatMap((event) => {
-      const metadata = event.metadata;
-      if (
-        !metadata ||
-        metadata.kind !== "upload-operation" ||
-        metadata.phase !== "FINALIZE" ||
-        metadata.status !== "SUCCEEDED" ||
-        typeof metadata.storagePath !== "string"
-      ) return [];
-      return [metadata.storagePath];
-    }),
-  );
-
-  // The historical stored-ZIP ingestion pipeline writes an exact-path durable
+  // Legacy FINALIZE audit events are not proof of learner-visible publication.\n  // Before learner read-back was enforced, FINALIZE could be recorded as SUCCEEDED\n  // while the package was only in a review/export state. Recovery therefore uses\n  // the learner-verified PUBLISHED receipt below as the completion authority.\n\n  // The historical stored-ZIP ingestion pipeline writes an exact-path durable
   // receipt to the repository ledger. Those packages are already canonical and
   // must not be offered for recovery even when older runs predate FINALIZE audit
   // receipts. Invalid/failed ledger entries deliberately remain recoverable.
@@ -78,7 +58,7 @@ export async function getRecoverableUploads(): Promise<RecoveryCandidate[]> {
       !storagePath.startsWith("uploads/courses/") ||
       !storagePath.toLowerCase().endsWith(".zip")
     ) continue;
-    if (finalized.has(storagePath) || ingested.has(storagePath) || seen.has(storagePath)) continue;
+    if (ingested.has(storagePath) || seen.has(storagePath)) continue;
     const receiptUploadId = uploadIdFromStoragePath(storagePath);
     if (receiptUploadId) {
       const receipt = await getUploadReceipt(receiptUploadId);
