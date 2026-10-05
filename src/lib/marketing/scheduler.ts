@@ -1,11 +1,12 @@
 import { getNeonSql } from '@/lib/db/neon';
 import { publisherFor } from './publishers';
 import type { MarketingPlatform, PublishRequest } from './types';
+import { recordMarketingFunnelEvent } from './s8-funnel';
 
 type DuePublication = {
   id: string; platform: MarketingPlatform; platform_copy: string; media_refs: unknown;
   scheduled_for: string; attempt_count: number; social_account_id: string | null;
-  provider: string | null; connection_status: string | null;
+  provider: string | null; connection_status: string | null; campaign_id:string; content_id:string; locale:string;
 };
 
 function mediaRefs(value: unknown): string[] {
@@ -18,8 +19,9 @@ export async function publishDueMarketing(now = new Date()) {
 
   const due = await sql`
     select p.id,p.platform,p.platform_copy,p.media_refs,p.scheduled_for,p.attempt_count,
-           p.social_account_id,a.provider,a.connection_status
+           p.social_account_id,a.provider,a.connection_status,c.campaign_id,c.id as content_id,c.locale
     from marketing_publications p
+    join marketing_content c on c.id=p.content_id
     left join marketing_social_accounts a on a.id=p.social_account_id
     where p.status='scheduled' and p.scheduled_for <= ${now.toISOString()}
     order by p.scheduled_for asc limit 25
@@ -47,6 +49,7 @@ export async function publishDueMarketing(now = new Date()) {
         where id=${row.id}`;
       await sql`insert into marketing_publish_events(publication_id,event_type,detail)
         values(${row.id},'published',${JSON.stringify({platform:row.platform,provider:row.provider})}::jsonb)`;
+      await recordMarketingFunnelEvent({campaignId:row.campaign_id,contentId:row.content_id,publicationId:row.id,stage:'message',eventType:'published',locale:row.locale,platform:row.platform,metadata:{provider:row.provider}});
       results.push({id:row.id,status:'published'});
     } catch(error) {
       const message=error instanceof Error ? error.message : 'Unknown publishing error';
