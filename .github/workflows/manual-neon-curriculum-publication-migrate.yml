@@ -1,0 +1,17 @@
+name: Curriculum Publication Neon Migration
+on:
+  workflow_dispatch:
+jobs:
+  migrate:
+    runs-on: ubuntu-latest
+    env:
+      DATABASE_URL: ${{ secrets.DATABASE_URL }}
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install PostgreSQL client
+        run: sudo apt-get update -qq && sudo apt-get install -y -qq postgresql-client
+      - name: Apply curriculum publication migration
+        run: psql "$DATABASE_URL" -X -v ON_ERROR_STOP=1 -f db/neon/20261005_curriculum_publication.sql
+      - name: Verify tables
+        run: |
+          psql "$DATABASE_URL" -X -v ON_ERROR_STOP=1 -c "select to_regclass('public.published_lessons'),to_regclass('public.published_translations'),to_regclass('public.curriculum_publication_leases'),to_regclass('public.curriculum_git_export_queue');"
