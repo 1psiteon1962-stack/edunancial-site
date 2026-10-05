@@ -1,7 +1,7 @@
 import { getAdminContentStorage } from "@/lib/admin-content/storage";
 import { updateJsonCas } from "@/lib/admin-content/storage/cas-json";
 
-export type UploadReceiptState="STORED"|"FINALIZING"|"PUBLISHED"|"FAILED";
+export type UploadReceiptState="STORED"|"FINALIZING"|"STORED_FOR_REVIEW"|"PUBLISHED"|"FAILED";
 export type UploadReceipt={
  uploadId:string;originalBatchId:string;storagePath:string;originalFilename:string;coordinate:string|null;
  state:UploadReceiptState;attempts:number;startedAt:string|null;publishedAt:string|null;updatedAt:string;
@@ -35,3 +35,5 @@ export async function listPendingGithubExportReceipts(limit=40):Promise<UploadRe
  return receipts.slice(0,Math.max(1,Math.min(limit,100)));
 }
 export function uploadIdFromStoragePath(storagePath:string){return storagePath.match(/\/(upload_[0-9a-f-]+)-/iu)?.[1]??null;}
+
+export async function markStoredForReview(uploadId:string,reviewBatchId:string,detail:string){return updateJsonCas<UploadReceipt>(pathFor(uploadId),(current)=>current&&current.state!=="PUBLISHED"?{...current,state:"STORED_FOR_REVIEW",updatedAt:new Date().toISOString(),reviewBatchId,retryable:false,lastError:null,verification:{learnerVisible:false,detail}}:null,"Store upload for manual review");}
