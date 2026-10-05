@@ -81,7 +81,9 @@ export default function ResilientUploadClient(){
     setError(messages.join(" "));
     return;
    }
-   setSuccess(`${completedBatchIds.length} of ${files.length} published and learner-verified (server-confirmed).`);\n   setFiles([]);\n   router.refresh();
+   setSuccess(`${completedBatchIds.length} of ${files.length} published and learner-verified (server-confirmed).`);
+   setFiles([]);
+   router.refresh();
   }catch(err){cancel();setUploading(false);setPhase("");if(finalizationFailures.length||transferFailures.length){setSuccess(`${completedBatchIds.length} package${completedBatchIds.length===1?" is":"s are"} confirmed finalized and preserved.`);setError(`${transferFailures.length?`${transferFailures.map(f=>f.filename).join(", ")} failed before storage completed. `:""}${finalizationFailures.length?`Stored packages not confirmed finalized: ${finalizationFailures.map(f=>f.filename).join(", ")}. Use interrupted-upload recovery only for these stored packages.`:""}`);}else setError((err as Error).message);}
  }
  return <form onSubmit={submit} className="mx-auto max-w-5xl space-y-7">
