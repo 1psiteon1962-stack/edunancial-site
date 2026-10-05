@@ -75,9 +75,12 @@ export async function POST(request: NextRequest) {
   const executionCandidate = classified ? selectExistingRestorationCandidates([classified])[0] : null;
   if (!executionCandidate?.eligible) return Response.json({ success: false, error: "Stored package is outside the supported L1-L5 recovery scope.", reason: executionCandidate?.reason ?? "unclassified", failedUploadId: uploadId, siblingPackagesUnaffected: true }, { status: 409, headers: { "Cache-Control": "private, no-store" } });
   const recoverablePackages = await getRecoverableCurriculumPackages();
-  const sameCoordinate = recoverablePackages.filter((entry) => entry.reconciliationKey === classified?.reconciliationKey);
-  if (sameCoordinate.length !== 1) return Response.json({ success: false, error: "Restoration requires exactly one recoverable package for this curriculum coordinate.", reconciliationKey: classified?.reconciliationKey, candidateCount: sameCoordinate.length, failedUploadId: uploadId, siblingPackagesUnaffected: true }, { status: 409, headers: { "Cache-Control": "private, no-store" } });
-  const executionDecision = await decideRestorationExecution(recoverablePackages, classified!);
+  // Multiple durable copies of the same coordinate are expected after a user retries
+  // an interrupted upload. Recovery is package-scoped: the explicitly selected
+  // stored ZIP is the candidate to verify/publish. Older sibling copies remain
+  // untouched and are reconciled by their learner-verified PUBLISHED receipts.
+  // Do not reject a valid stored ZIP merely because another retry exists.
+  const executionDecision = await decideRestorationExecution([classified!], classified!);
   if (!executionDecision.allowed) return Response.json({ success: false, error: "Restoration is blocked until its verified canonical prerequisite is learner-resolvable.", executionDecision, failedUploadId: uploadId, siblingPackagesUnaffected: true }, { status: 409, headers: { "Cache-Control": "private, no-store" } });
   const upload = candidate.upload;
   let identity;
