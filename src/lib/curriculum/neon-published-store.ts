@@ -43,7 +43,7 @@ export async function readNeonLesson(lessonId:string,locale:string):Promise<Publ
     from published_lessons l left join published_translations t on t.lesson_id=l.lesson_id and lower(t.locale)=lower(${locale})
     where l.lesson_id=${lessonId.toUpperCase()} and l.status='active' limit 1`;
   const row=rows[0] as Record<string,unknown>|undefined;if(!row)return null;
-  return {id:String(row.lesson_id),track:String(row.track),trackName:String(row.track_name),level:Number(row.level),lessonNumber:Number(row.lesson_number),title:String(row.translated_title??row.title),summary:String(row.translated_summary??row.summary??""),body:String(row.translated_body??row.body??""),author:row.author?String(row.author):undefined,date:row.lesson_date?String(row.lesson_date):undefined,version:row.version?String(row.version):undefined,status:"active",metadata:(row.metadata??{}) as Record<string,unknown>,frontMatter:{locale}} as PublishedLessonRecord;
+  return {id:String(row.lesson_id),track:String(row.track),trackName:String(row.track_name),level:Number(row.level),lessonNumber:Number(row.lesson_number),title:String(row.translated_title??row.title),summary:String(row.translated_summary??row.summary??""),body:String(row.translated_body??row.body??""),author:row.author?String(row.author):undefined,date:row.lesson_date?String(row.lesson_date):undefined,version:row.version?String(row.version):undefined,status:"active",metadata:(row.metadata??{}) as Record<string,unknown>,frontMatter:{locale},importedAt:new Date(String(row.updated_at??Date.now())).toISOString(),path:`neon://${String(row.lesson_id)}/${locale}`} as PublishedLessonRecord;
 }
 
 export async function queueNeonGitExport(uploadId:string):Promise<void>{
