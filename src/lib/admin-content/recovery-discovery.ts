@@ -3,6 +3,7 @@ import { inferCurriculumPackageIdentity } from "@/lib/admin-content/package-uplo
 import type { StoredUploadEntry } from "@/lib/admin-content/service";
 import { getAdminContentStorage } from "@/lib/admin-content/storage";
 import { getUploadReceipt, uploadIdFromStoragePath } from "@/lib/admin-content/upload-receipts";
+import type { UploadBatch } from "@/lib/admin-content/types";
 
 export type RecoveryCandidate = { batchId: string; upload: StoredUploadEntry };
 
@@ -83,6 +84,24 @@ export async function getRecoverableUploads(): Promise<RecoveryCandidate[]> {
         storagePath,
       },
     });
+  }
+  // Legacy uploader generations could persist the extracted review batch but not
+  // retain the original ZIP object after extraction/export. Those batches are
+  // still durable recovery material: rebuild a recovery candidate from the batch
+  // upload record when no learner-verified PUBLISHED receipt exists.
+  const batches = await storage.listBatches();
+  for (const summary of batches) {
+    const batch = await storage.getBatch(summary.id) as UploadBatch | null;
+    if (!batch) continue;
+    for (const uploadRecord of batch.uploads ?? []) {
+      const storagePath = uploadRecord.storagePath;
+      if (!storagePath?.startsWith("uploads/courses/") || !storagePath.toLowerCase().endsWith(".zip") || seen.has(storagePath) || ingested.has(storagePath)) continue;
+      const receipt = await getUploadReceipt(uploadRecord.id);
+      if (receipt?.state === "PUBLISHED") continue;
+      if (receipt?.state === "FAILED" && receipt.retryable === false) continue;
+      seen.add(storagePath);
+      candidates.push({ batchId: uploadRecord.batchId ?? batch.id, upload: { uploadId: uploadRecord.id, originalFilename: uploadRecord.originalFilename, mimeType: uploadRecord.mimeType || "application/zip", sizeBytes: uploadRecord.sizeBytes ?? 0, storagePath } });
+    }
   }
   return candidates;
 }
