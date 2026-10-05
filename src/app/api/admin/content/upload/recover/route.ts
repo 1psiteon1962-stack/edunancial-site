@@ -15,6 +15,7 @@ import { recordUploadOperation } from "@/lib/admin-content/upload-operations";
 import { createId } from "@/lib/admin-content/utils";
 import { beginFinalization, markFailed, markPublished } from "@/lib/admin-content/upload-receipts";
 import { PublicationBusyError, withPublicationLease } from "@/lib/admin-content/publication-lock";
+import { verifyLearnerVisibility } from "@/lib/admin-content/learner-readback";
 
 export const runtime = "nodejs";
 export const dynamic = "force-dynamic";
@@ -95,6 +96,9 @@ export async function POST(request: NextRequest) {
     ({ trustedLocalization, trustedCanonicalPublication } = await withPublicationLease(`manual-recovery:${uploadId}`, async () => {
       const trustedLocalization = await autoPublishTrustedLocalizedLevel1Batch(batch, identity, { requireAtomic: true });
       const trustedCanonicalPublication = await autoPublishTrustedCanonicalCurriculumBatch(batch, identity, actor, { requireAtomic: true });
+      const verification = await verifyLearnerVisibility(batch, identity);
+      if (!verification.learnerVisible) throw new Error(`Learner verification failed: ${verification.detail}`);
+      await markPublished(upload.uploadId, { reviewBatchId: recoveryBatchId, verification, githubExportRequired: trustedLocalization.attempted || trustedCanonicalPublication.attempted, recoveredWithoutReupload: true });
       return { trustedLocalization, trustedCanonicalPublication };
     }));
   } catch (error) {
@@ -107,8 +111,6 @@ export async function POST(request: NextRequest) {
     : null;
   const trustedPublicationAttempted = trustedLocalization.attempted || trustedCanonicalPublication.attempted;
   if (postPublicationVerification && !postPublicationVerification.complete) return Response.json({ success: false, error: "Canonical restoration published but did not resolve all 50 learner lessons.", postPublicationVerification, failedUploadId: uploadId, siblingPackagesUnaffected: true }, { status: 409, headers: { "Cache-Control": "private, no-store" } });
-
-  await markPublished(uploadId, { reviewBatchId: recoveryBatchId, verification: { learnerVisible: postPublicationVerification?.complete !== false, detail: postPublicationVerification ? "Canonical learner verification completed." : "Localized trusted publication completed." }, githubExportRequired: trustedPublicationAttempted, recoveredWithoutReupload: true });
   await recordUploadOperation({ batchId, uploadId, phase: "VERIFY", status: "SUCCEEDED", storagePath: upload.storagePath, fileName: upload.originalFilename, fileSize: upload.sizeBytes, metadata: { recoveryBatchId, recoveredWithoutReupload: true, trustedLocalization, trustedCanonicalPublication, githubPublication: null, githubPublicationPending: trustedPublicationAttempted, postPublicationVerification, publicationDeferred: false, discoverySource: "persistent-storage" } });
 
   const githubPublication = null;

@@ -2,6 +2,7 @@ import { NextRequest } from "next/server";
 import { authorizeGithubActionsRun } from "@/lib/admin-content/github-actions-runner-auth";
 import { beginFinalization, markFailed, markPublished } from "@/lib/admin-content/upload-receipts";
 import { PublicationBusyError, withPublicationLease } from "@/lib/admin-content/publication-lock";
+import { verifyLearnerVisibility } from "@/lib/admin-content/learner-readback";
 
 import { normalizeMixedLocaleBatch } from "@/lib/admin-content/batch-locale-normalization";
 import { inferCurriculumPackageIdentity } from "@/lib/admin-content/package-upload-config";
@@ -139,7 +140,10 @@ export async function POST(request: NextRequest) {
       ({ trustedLocalization, trustedCanonicalPublication } = await withPublicationLease(`recovery:${upload.uploadId}`, async () => {
         const trustedLocalization = await autoPublishTrustedLocalizedLevel1Batch(batch, identity, { requireAtomic: true });
         const trustedCanonicalPublication = await autoPublishTrustedCanonicalCurriculumBatch(batch, identity, actor, { requireAtomic: true });
-        return { trustedLocalization, trustedCanonicalPublication };
+      const verification = await verifyLearnerVisibility(batch, identity);
+      if (!verification.learnerVisible) throw new Error(`Learner verification failed: ${verification.detail}`);
+      await markPublished(upload.uploadId, { reviewBatchId: recoveryBatchId, verification, githubExportRequired: trustedLocalization.attempted || trustedCanonicalPublication.attempted, recoveredWithoutReupload: true });
+      return { trustedLocalization, trustedCanonicalPublication };
       }));
     } catch (error) {
       await markFailed(upload.uploadId, error instanceof Error ? error.message : String(error), true);
@@ -164,8 +168,6 @@ export async function POST(request: NextRequest) {
         { status: 409, headers: { "Cache-Control": "private, no-store" } },
       );
     }
-
-    await markPublished(upload.uploadId, { reviewBatchId: recoveryBatchId, verification: { learnerVisible: postPublicationVerification?.complete !== false, detail: postPublicationVerification ? "Canonical learner verification completed." : "Localized trusted publication completed." }, githubExportRequired: trustedPublicationAttempted, recoveredWithoutReupload: true });
     await recordUploadOperation({
       batchId: classified.batchId,
       uploadId: upload.uploadId,
