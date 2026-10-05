@@ -1,9 +1,7 @@
-import type { Context } from "@netlify/functions";
-
 import { getRecoveryJob, updateRecoveryJob } from "../../src/lib/admin-content/recovery-jobs";
 import { recoverStoredCurriculumPackage } from "../../src/lib/admin-content/recovery-worker";
 
-export default async (request: Request, _context: Context) => {
+export default async (request: Request) => {
   let jobId = "";
   try {
     const body = await request.json() as { jobId?: string; token?: string };
