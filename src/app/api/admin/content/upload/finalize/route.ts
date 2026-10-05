@@ -62,47 +62,48 @@ export async function POST(request: NextRequest) {
     if (!batchId) throw new Error("batchId is required.");
     if (!Array.isArray(body.uploads) || body.uploads.length !== 1) return Response.json({ success: false, error: "Finalize accepts exactly one stored package per request.", retryable: true, batchId }, { status: 422, headers: { "Cache-Control": "private, no-store, max-age=0" } });
     upload = body.uploads[0];
+    const currentUpload = upload;
 
     const configFormData = new FormData();
     for (const [key, value] of Object.entries(body)) if (!["batchId", "batchName", "source", "notes", "uploads"].includes(key) && (typeof value === "string" || typeof value === "number")) configFormData.append(key, String(value));
     const uploadConfig = parseUploadConfig(configFormData);
-    const packageIdentity = uploadConfig.destination === "courses" ? inferCurriculumPackageIdentity(upload.originalFilename, uploadConfig.language) : null;
+    const packageIdentity = uploadConfig.destination === "courses" ? inferCurriculumPackageIdentity(currentUpload.originalFilename, uploadConfig.language) : null;
     const trustedLocalized = isTrustedLocalizedLevel1Identity(packageIdentity);
     const trustedCanonical = isTrustedCanonicalCurriculumIdentity(packageIdentity);
 
     // Finalization is idempotent for every stored package, including trusted
     // curriculum. Retrying a successful trusted upload must not create a second
     // review batch, atomic publication, or Git publication PR.
-    const existingReceipt = await getUploadReceipt(upload.uploadId);
+    const existingReceipt = await getUploadReceipt(currentUpload.uploadId);
     if (existingReceipt?.state === "PUBLISHED" && existingReceipt.reviewBatchId) {
-      return Response.json({ success: true, alreadyFinalized: true, uploadId: upload.uploadId, batch: { id: existingReceipt.reviewBatchId }, batches: [{ id: existingReceipt.reviewBatchId }], finalizedCount: 0, skippedCount: 1, receipt: existingReceipt }, { status: 200, headers: { "Cache-Control": "private, no-store, max-age=0" } });
+      return Response.json({ success: true, alreadyFinalized: true, uploadId: currentUpload.uploadId, batch: { id: existingReceipt.reviewBatchId }, batches: [{ id: existingReceipt.reviewBatchId }], finalizedCount: 0, skippedCount: 1, receipt: existingReceipt }, { status: 200, headers: { "Cache-Control": "private, no-store, max-age=0" } });
     }
-    const existingReviewBatchId = await getAlreadyFinalizedReviewBatchId(batchId, upload.uploadId);
+    const existingReviewBatchId = await getAlreadyFinalizedReviewBatchId(batchId, currentUpload.uploadId);
     if (existingReviewBatchId) {
-      return Response.json({ success: true, alreadyFinalized: true, uploadId: upload.uploadId, batch: { id: existingReviewBatchId }, batches: [{ id: existingReviewBatchId }], finalizedCount: 0, skippedCount: 1 }, { status: 200, headers: { "Cache-Control": "private, no-store, max-age=0" } });
+      return Response.json({ success: true, alreadyFinalized: true, uploadId: currentUpload.uploadId, batch: { id: existingReviewBatchId }, batches: [{ id: existingReviewBatchId }], finalizedCount: 0, skippedCount: 1 }, { status: 200, headers: { "Cache-Control": "private, no-store, max-age=0" } });
     }
 
     const reviewBatchId = createId("batch");
-    await beginFinalization({ uploadId: upload.uploadId, originalBatchId: batchId, storagePath: upload.storagePath, originalFilename: upload.originalFilename, coordinate: packageIdentity ? `${packageIdentity.track}:${packageIdentity.level}:${packageIdentity.language}` : null }, reviewBatchId, "finalize");
-    await recordUploadOperation({ batchId, uploadId: upload.uploadId, phase: "FINALIZE", status: "STARTED", storagePath: upload.storagePath, fileName: upload.originalFilename, fileSize: upload.sizeBytes, metadata: { mode: "single-package-request", reviewBatchId, packageIdentity } });
+    await beginFinalization({ uploadId: currentUpload.uploadId, originalBatchId: batchId, storagePath: currentUpload.storagePath, originalFilename: currentUpload.originalFilename, coordinate: packageIdentity ? `${packageIdentity.track}:${packageIdentity.level}:${packageIdentity.language}` : null }, reviewBatchId, "finalize");
+    await recordUploadOperation({ batchId, uploadId: currentUpload.uploadId, phase: "FINALIZE", status: "STARTED", storagePath: currentUpload.storagePath, fileName: currentUpload.originalFilename, fileSize: currentUpload.sizeBytes, metadata: { mode: "single-package-request", reviewBatchId, packageIdentity } });
 
-    const createdBatch = await createIndependentUploadBatchFromStoredFiles(request, actor, { batchId: reviewBatchId, batchName: `${String(body.batchName ?? "Content upload")} — ${upload.originalFilename}`, source: String(body.source ?? ""), notes: String(body.notes ?? ""), uploadConfig, uploads: [upload] });
+    const createdBatch = await createIndependentUploadBatchFromStoredFiles(request, actor, { batchId: reviewBatchId, batchName: `${String(body.batchName ?? "Content upload")} — ${currentUpload.originalFilename}`, source: String(body.source ?? ""), notes: String(body.notes ?? ""), uploadConfig, uploads: [upload] });
     const batch = await normalizeMixedLocaleBatch(createdBatch);
     if (batch.uploads.length === 0 || batch.files.length === 0) {
       const detail = batch.warnings.length ? batch.warnings.join(" | ") : "No reviewable files were produced from the uploaded object.";
       throw new Error(`Uploaded file reached GitHub storage but could not be processed: ${detail}`);
     }
 
-    const { trustedLocalization, trustedCanonicalPublication } = await withPublicationLease(`finalize:${upload.uploadId}`, async () => {
+    const { trustedLocalization, trustedCanonicalPublication } = await withPublicationLease(`finalize:${currentUpload.uploadId}`, async () => {
       const trustedLocalization = await autoPublishTrustedLocalizedLevel1Batch(batch, packageIdentity, { requireAtomic: true });
       const trustedCanonicalPublication = await autoPublishTrustedCanonicalCurriculumBatch(batch, packageIdentity, actor, { requireAtomic: true });
       const trustedPublicationAttempted = trustedLocalization.attempted || trustedCanonicalPublication.attempted;
       if (trustedPublicationAttempted && packageIdentity) {
         const verification = await verifyLearnerVisibility(batch, packageIdentity);
         if (!verification.learnerVisible) throw new Error(`Learner verification failed: ${verification.detail}`);
-        await markPublished(upload.uploadId, { reviewBatchId: batch.id, verification, githubExportRequired: true, recoveredWithoutReupload: false });
+        await markPublished(currentUpload.uploadId, { reviewBatchId: batch.id, verification, githubExportRequired: true, recoveredWithoutReupload: false });
       } else {
-        await markPublished(upload.uploadId, { reviewBatchId: batch.id, verification: { learnerVisible: true, detail: "No trusted curriculum publication required.", checkedLessons: 0, checkedAt: new Date().toISOString() }, githubExportRequired: false, recoveredWithoutReupload: false });
+        await markPublished(currentUpload.uploadId, { reviewBatchId: batch.id, verification: { learnerVisible: true, detail: "No trusted curriculum publication required.", checkedLessons: 0, checkedAt: new Date().toISOString() }, githubExportRequired: false, recoveredWithoutReupload: false });
       }
       return { trustedLocalization, trustedCanonicalPublication };
     });
@@ -113,19 +114,19 @@ export async function POST(request: NextRequest) {
     // stored, validated, and atomically published package back into a failed
     // upload. Persist FINALIZE success first so a slow/failed GitHub request
     // cannot strand the stored ZIP or cause a duplicate recovery attempt.
-    await recordUploadOperation({ batchId, uploadId: upload.uploadId, phase: "FINALIZE", status: "SUCCEEDED", storagePath: upload.storagePath, fileName: upload.originalFilename, fileSize: upload.sizeBytes, metadata: { mode: "single-package-request", reviewBatchId: batch.id, reviewableFiles: batch.files.length, packageIdentity, trustedLocalization, trustedCanonicalPublication, githubPublication: null, githubPublicationPending: trustedPublicationAttempted, publicationDeferred: trustedPublicationAttempted } });
+    await recordUploadOperation({ batchId, uploadId: currentUpload.uploadId, phase: "FINALIZE", status: "SUCCEEDED", storagePath: currentUpload.storagePath, fileName: currentUpload.originalFilename, fileSize: currentUpload.sizeBytes, metadata: { mode: "single-package-request", reviewBatchId: batch.id, reviewableFiles: batch.files.length, packageIdentity, trustedLocalization, trustedCanonicalPublication, githubPublication: null, githubPublicationPending: trustedPublicationAttempted, publicationDeferred: trustedPublicationAttempted } });
 
     // Canonical Git export is drained asynchronously by the durable receipt queue.
     // Do not perform remote GitHub work in the learner publication request.
     const githubPublication = null;
     const githubPublicationError = null;
     const githubPublicationPending = trustedPublicationAttempted;
-    await recordUploadOperation({ batchId, uploadId: upload.uploadId, phase: "VERIFY", status: "SUCCEEDED", storagePath: upload.storagePath, fileName: upload.originalFilename, fileSize: upload.sizeBytes, metadata: { mode: "single-package-request", reviewBatchId: batch.id, trustedLocalization, trustedCanonicalPublication, githubPublication, githubPublicationPending, canonicalPublicationStatus: githubPublicationPending ? "GITHUB_EXPORT_PENDING" : "NOT_REQUIRED" } });
-    const receipt = await getUploadReceipt(upload.uploadId);
+    await recordUploadOperation({ batchId, uploadId: currentUpload.uploadId, phase: "VERIFY", status: "SUCCEEDED", storagePath: currentUpload.storagePath, fileName: currentUpload.originalFilename, fileSize: currentUpload.sizeBytes, metadata: { mode: "single-package-request", reviewBatchId: batch.id, trustedLocalization, trustedCanonicalPublication, githubPublication, githubPublicationPending, canonicalPublicationStatus: githubPublicationPending ? "GITHUB_EXPORT_PENDING" : "NOT_REQUIRED" } });
+    const receipt = await getUploadReceipt(currentUpload.uploadId);
     return Response.json({ success: true, batch, batches: [batch], receipt, trustedLocalization, trustedCanonicalPublication, githubPublication, githubPublicationError, githubPublicationPending, canonicalPublicationStatus: githubPublication ? "PR_OPEN_PENDING_MERGE_DEPLOY" : githubPublicationPending ? "GITHUB_EXPORT_PENDING" : "NOT_REQUIRED", publicationDeferred: false, finalizedCount: 1, skippedCount: trustedLocalization.skippedExisting, failures: [] }, { status: 201, headers: { "Cache-Control": "private, no-store, max-age=0" } });
   } catch (error) {
     const err = error as Error;
-    try { if (upload?.uploadId) await markFailed(upload.uploadId, err.message, true); } catch (receiptError) { console.error("[finalize] unable to persist failure receipt", receiptError); }
+    try { if (upload?.uploadId) await markFailed(currentUpload.uploadId, err.message, true); } catch (receiptError) { console.error("[finalize] unable to persist failure receipt", receiptError); }
     try { await recordUploadOperation({ batchId, uploadId: upload?.uploadId, phase: "FINALIZE", status: "FAILED", storagePath: upload?.storagePath, fileName: upload?.originalFilename, fileSize: upload?.sizeBytes, errorCode: err.name, errorMessage: err.message, metadata: { mode: "single-package-request" } }); } catch (auditError) { console.error("[finalize] unable to persist failure audit", auditError); }
     const busy = error instanceof PublicationBusyError;
     const status = busy ? 423 : 503;
