@@ -1,12 +1,13 @@
 import { Buffer } from "node:buffer";
 
 import { getAdminContentStorage } from "@/lib/admin-content/storage";
+import { getNeonSql } from "@/lib/db/neon";
 
 const LOCK_PATH = "locks/curriculum-publication.json";
 const LEASE_MS = 90_000;
 const LEASE_REFRESH_MS = 60_000;
 
-export type PublicationLease = { owner: string; purpose: string; acquiredAt: string; expiresAt: string };
+export type PublicationLease = { owner: string; purpose: string; acquiredAt: string; expiresAt: string; fencingToken?: number; backend?: "neon"|"blob" };
 
 export class PublicationBusyError extends Error {
   retryAfterMs: number;
@@ -31,6 +32,18 @@ function remainingMs(lease: PublicationLease | null): number {
 }
 
 export async function acquirePublicationLease(purpose: string): Promise<PublicationLease> {
+  const sql=getNeonSql();
+  if(sql){
+    const owner=`${purpose}:${crypto.randomUUID()}`;
+    const rows=await sql`insert into curriculum_publication_leases(lease_key,owner,purpose,fencing_token,acquired_at,expires_at)
+      values('global',${owner},${purpose},1,now(),now()+interval '90 seconds')
+      on conflict(lease_key) do update set owner=excluded.owner,purpose=excluded.purpose,fencing_token=curriculum_publication_leases.fencing_token+1,acquired_at=now(),expires_at=excluded.expires_at
+      where curriculum_publication_leases.expires_at<=now()
+      returning owner,purpose,fencing_token,acquired_at,expires_at`;
+    const row=rows[0] as Record<string,unknown>|undefined;
+    if(!row)throw new PublicationBusyError(5_000);
+    return {owner:String(row.owner),purpose:String(row.purpose),fencingToken:Number(row.fencing_token),acquiredAt:new Date(String(row.acquired_at)).toISOString(),expiresAt:new Date(String(row.expires_at)).toISOString(),backend:"neon"};
+  }
   const storage = getAdminContentStorage();
   if (!storage.createIfAbsent || !storage.updateBinary) throw new Error("Storage does not support publication leasing; refusing unserialized publication.");
   const now = Date.now();
@@ -55,6 +68,14 @@ export function assertLeaseFresh(lease: PublicationLease): void {
 }
 
 export async function renewPublicationLease(lease: PublicationLease): Promise<PublicationLease> {
+  if(lease.backend==="neon"){
+    const sql=getNeonSql();if(!sql)throw new Error("Neon publication lease backend disappeared.");
+    const rows=await sql`update curriculum_publication_leases set expires_at=now()+interval '90 seconds'
+      where lease_key='global' and owner=${lease.owner} and fencing_token=${lease.fencingToken??0} and expires_at>now()
+      returning expires_at`;
+    if(!rows[0])throw new Error("Publication lease is no longer held; refusing to renew.");
+    lease.expiresAt=new Date(String((rows[0] as Record<string,unknown>).expires_at)).toISOString();return lease;
+  }
   const storage = getAdminContentStorage();
   if (!storage.updateBinary) throw new Error("Storage does not support publication lease renewal.");
   const next = { ...lease, expiresAt: new Date(Date.now() + LEASE_MS).toISOString() };
@@ -70,11 +91,13 @@ export async function renewPublicationLease(lease: PublicationLease): Promise<Pu
 
 export async function assertLeaseHeld(lease: PublicationLease): Promise<void> {
   assertLeaseFresh(lease);
+  if(lease.backend==="neon"){const sql=getNeonSql();if(!sql)throw new Error("Neon publication lease backend disappeared.");const rows=await sql`select 1 from curriculum_publication_leases where lease_key='global' and owner=${lease.owner} and fencing_token=${lease.fencingToken??0} and expires_at>now()`;if(!rows[0])throw new Error("Publication lease is no longer held by this request; refusing to commit.");return;}
   const current = parse(await getAdminContentStorage().readBinary(LOCK_PATH));
   if (current?.owner !== lease.owner) throw new Error("Publication lease is no longer held by this request; refusing to commit.");
 }
 
 export async function releasePublicationLease(lease: PublicationLease): Promise<void> {
+  if(lease.backend==="neon"){try{const sql=getNeonSql();if(sql)await sql`delete from curriculum_publication_leases where lease_key='global' and owner=${lease.owner} and fencing_token=${lease.fencingToken??0}`;}catch(error){console.warn("[publication-lock] Neon release failed; lease will expire",error);}return;}
   const storage = getAdminContentStorage();
   try {
     const raw = await storage.readBinary(LOCK_PATH);
