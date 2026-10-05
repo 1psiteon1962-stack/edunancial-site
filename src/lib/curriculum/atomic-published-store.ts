@@ -121,36 +121,33 @@ export async function upsertAtomicPublishedLessons(batchId: string, lessons: Pub
   if (process.env.NODE_ENV !== "production") return false;
   if (!lessons.length) return true;
   try {
-    const entries: AtomicBatchEntry[] = [];
-    for (const lesson of lessons) {
+    const canonicalById = new Map(repositoryCanonicalLessons().map((entry) => [entry.id.toUpperCase(), entry]));
+    const prepared = await Promise.all(lessons.map(async (lesson) => {
       const id = lesson.id.toUpperCase();
       const existing = await readJson<PublishedLessonRecord>(lessonPath(id));
       const locale = lesson.frontMatter?.locale?.trim();
       const isLocalized = !isCanonicalLocale(locale);
+      let record: PublishedLessonRecord;
       if (isLocalized) {
-        const canonical = repositoryCanonicalLessons().find((entry) => entry.id.toUpperCase() === id)
-          ?? (existing && !existing.frontMatter?.locale ? existing : null);
+        const canonical = canonicalById.get(id) ?? (existing && !existing.frontMatter?.locale ? existing : null);
         if (!canonical) throw new Error(`Canonical lesson ${id} is unavailable; refusing to publish localized content as the base lesson.`);
         const translations = existing?.translations ?? canonical.translations ?? {};
-        await writeJson(lessonPath(id), {
+        record = {
           ...canonical,
           id,
-          translations: {
-            ...translations,
-            [locale!]: { title: lesson.title, summary: lesson.summary, body: lesson.body },
-          },
+          translations: { ...translations, [locale!]: { title: lesson.title, summary: lesson.summary, body: lesson.body } },
           importedAt: new Date().toISOString(),
-        });
+        };
       } else {
-        await writeJson(lessonPath(id), {
-          ...lesson,
-          id,
-          ...(existing?.translations ? { translations: existing.translations } : {}),
-          importedAt: new Date().toISOString(),
-        });
+        record = { ...lesson, id, ...(existing?.translations ? { translations: existing.translations } : {}), importedAt: new Date().toISOString() };
       }
-      entries.push({ id, locale: normalizedLocale(locale) });
+      return { id, locale: normalizedLocale(locale), record };
+    }));
+    const concurrency = 10;
+    for (let offset = 0; offset < prepared.length; offset += concurrency) {
+      await Promise.all(prepared.slice(offset, offset + concurrency).map(({ id, record }) => writeJson(lessonPath(id), record)));
     }
+    const entries: AtomicBatchEntry[] = prepared.map(({ id, locale }) => ({ id, locale }));
     await writeJson(batchPath(batchId), { version: 2, entries } satisfies AtomicBatchRecord);
     await updateLessonIndex((indexed) => [...indexed, ...entries.map((entry) => entry.id)]);
     return true;
@@ -158,7 +155,6 @@ export async function upsertAtomicPublishedLessons(batchId: string, lessons: Pub
     return false;
   }
 }
-
 export async function upsertAtomicPublishedTranslation(
   lessonId: string,
   locale: string,
