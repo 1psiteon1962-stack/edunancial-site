@@ -143,10 +143,12 @@ export async function upsertAtomicPublishedLessons(batchId: string, lessons: Pub
       }
       return { id, locale: normalizedLocale(locale), record };
     }));
-    const concurrency = 10;
-    for (let offset = 0; offset < prepared.length; offset += concurrency) {
-      await Promise.all(prepared.slice(offset, offset + concurrency).map(({ id, record }) => writeJson(lessonPath(id), record)));
-    }
+    // A complete curriculum coordinate is exactly 50 independent lesson keys.
+    // Reads above are already concurrent; writes must be concurrent too. Five
+    // serial waves of ten writes still exhausted Netlify's request deadline in
+    // production recovery. The publication lease prevents competing publishers,
+    // and the batch marker below is written only after every lesson write succeeds.
+    await Promise.all(prepared.map(({ id, record }) => writeJson(lessonPath(id), record)));
     const entries: AtomicBatchEntry[] = prepared.map(({ id, locale }) => ({ id, locale }));
     await writeJson(batchPath(batchId), { version: 2, entries } satisfies AtomicBatchRecord);
     await updateLessonIndex((indexed) => [...indexed, ...entries.map((entry) => entry.id)]);
