@@ -26,8 +26,8 @@ export async function publishNeonLessonsTransaction(input:{uploadId:string;lesso
   const check=await client.query("select lesson_id,source_upload_id from published_lessons where lesson_id=any($1::text[]) and status='active'",[ids]);
   if(check.rowCount!==50||check.rows.some((r:any)=>r.source_upload_id!==uploadId))throw new Error(`Transactional learner readback found ${check.rowCount} of 50 lessons for this upload.`);
   const generation=await bumpCurriculumGeneration(client);
-  await client.query("update curriculum_uploads set state='PUBLISHED',published_generation=$2,updated_at=now() where upload_id=$1",[uploadId,generation]);
-  await client.query("insert into curriculum_upload_events(upload_id,event_type,detail) values($1,'PUBLISHED',$2::jsonb)",[uploadId,JSON.stringify({generation,transactional:true})]);
+  await client.query("update curriculum_uploads set published_generation=$2,updated_at=now() where upload_id=$1",[uploadId,generation]);
+  await client.query("insert into curriculum_upload_events(upload_id,event_type,detail) values($1,'COMMITTED',$2::jsonb)",[uploadId,JSON.stringify({generation,transactional:true,awaitingLearnerVerification:true})]);
   return{upserted:50,generation};
  });
 }
