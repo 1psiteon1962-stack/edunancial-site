@@ -78,3 +78,9 @@ package = "@netlify/plugin-nextjs"
   for = "/api/*"
   [headers.values]
     Cache-Control = "no-store, max-age=0"
+
+[functions."curriculum-publish-background"]
+background = true
+
+[functions."curriculum-recovery-sweeper"]
+schedule = "* * * * *"
