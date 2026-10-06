@@ -59,7 +59,8 @@ export default function RecoveryClient() {
       const payload = await response.json();
       if (!response.ok || !payload.jobId) throw new Error(payload.error ?? `Recovery start failed (HTTP ${response.status}).`);
       setProgress("Recovery is running server-side. You may leave this page; the stored ZIP remains preserved.");
-      for (let attempt = 0; attempt < 180; attempt += 1) {
+      let lastJob: { state?: string; phase?: string | null; heartbeatAt?: string | null } | null = null;
+      for (let attempt = 0; attempt < 360; attempt += 1) {
         await new Promise((resolve) => setTimeout(resolve, 3000));
         let statusResponse: Response;
         try {
@@ -76,6 +77,7 @@ export default function RecoveryClient() {
         const statusPayload = await statusResponse.json();
         if (!statusResponse.ok) throw new Error(statusPayload.error ?? "Unable to read recovery job state.");
         const job = statusPayload.job;
+        lastJob = job;
         if (job.state === "SUCCEEDED") {
           setProgress("Recovery completed and learner-visible publication was server-confirmed.");
           await load({ preserveError: true });
@@ -84,9 +86,9 @@ export default function RecoveryClient() {
           return;
         }
         if (job.state === "FAILED") throw new Error(job.error ?? "Background recovery failed.");
-        setProgress(job.state === "RUNNING" ? "Recovery is running server-side; waiting for learner verification…" : "Recovery is queued server-side…");
+        setProgress(job.state === "RUNNING" ? `Recovery is running server-side — phase: ${job.phase ?? "unknown"}${job.heartbeatAt ? ` (last heartbeat ${new Date(job.heartbeatAt).toLocaleTimeString()})` : ""}` : "Recovery is queued server-side; waiting for the background worker to start…");
       }
-      throw new Error("Background recovery is still running. The stored ZIP remains preserved; refresh later to check its durable state.");
+      throw new Error(`Browser stopped waiting; durable job state is ${lastJob?.state ?? "unknown"} (phase: ${lastJob?.phase ?? "unknown"}). The stored ZIP remains preserved; refresh later to check its durable state.`);
     } catch (err) {
       const message = (err as Error).message;
       setError(message);
