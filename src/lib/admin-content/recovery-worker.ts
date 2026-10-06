@@ -14,8 +14,10 @@ import { withPublicationLease } from "@/lib/admin-content/publication-lock";
 import { verifyLearnerVisibility } from "@/lib/admin-content/learner-readback";
 import type { ActorContext } from "@/lib/admin-content/types";
 
-export async function recoverStoredCurriculumPackage(input: { batchId: string; uploadId: string; actor: ActorContext }) {
+export async function recoverStoredCurriculumPackage(input: { batchId: string; uploadId: string; actor: ActorContext; onPhase?: (phase: string) => Promise<void> | void }) {
   const { batchId, uploadId, actor } = input;
+  const phase = async (name: string) => { try { await input.onPhase?.(name); } catch (error) { console.warn(`[recovery-worker] phase report ${name} failed`, error); } };
+  await phase("LOCATING_STORED_PACKAGE");
   const existingReceipt = await getUploadReceipt(uploadId);
   if (existingReceipt?.state === "PUBLISHED" && existingReceipt.verification?.learnerVisible === true && existingReceipt.reviewBatchId) {
     return { reviewBatchId: existingReceipt.reviewBatchId, alreadyRecovered: true };
@@ -29,6 +31,7 @@ export async function recoverStoredCurriculumPackage(input: { batchId: string; u
   const classified = classifiedPackages.find((entry) => entry.batchId === batchId && entry.upload.uploadId === uploadId);
   if (!candidate || !classified) throw new Error("Stored upload is unavailable, already finalized, or already recovered.");
 
+  await phase("CHECKING_PREREQUISITES");
   const executionCandidate = selectExistingRestorationCandidates([classified])[0];
   if (!executionCandidate?.eligible) throw new Error(`Stored package is outside the supported L1-L5 recovery scope: ${executionCandidate?.reason ?? "unclassified"}`);
   const executionDecision = await decideRestorationExecution([classified], classified);
@@ -40,6 +43,7 @@ export async function recoverStoredCurriculumPackage(input: { batchId: string; u
   await beginFinalization({ uploadId, originalBatchId: batchId, storagePath: upload.storagePath, originalFilename: upload.originalFilename, coordinate: classified.reconciliationKey }, recoveryBatchId, "recovery");
 
   try {
+    await phase("EXTRACTING_AND_VALIDATING");
     const syntheticRequest = new Request("https://edunancial.internal/background-recovery", { headers: { "x-forwarded-for": "background-worker" } });
     const createdBatch = await createIndependentUploadBatchFromStoredFiles(syntheticRequest, actor, {
       batchId: recoveryBatchId,
@@ -52,9 +56,12 @@ export async function recoverStoredCurriculumPackage(input: { batchId: string; u
     const batch = await normalizeMixedLocaleBatch(createdBatch);
     if (!batch.uploads.length || !batch.files.length) throw new Error("The stored object could not be processed. It may not have completed transfer.");
 
+    await phase("ACQUIRING_PUBLICATION_LEASE");
     const { trustedLocalization, trustedCanonicalPublication } = await withPublicationLease(`background-recovery:${uploadId}`, async (lease) => {
+      await phase("TRANSACTIONAL_PUBLICATION");
       const trustedLocalization = await autoPublishTrustedLocalizedLevel1Batch(batch, identity, { requireAtomic: true });
       const trustedCanonicalPublication = await autoPublishTrustedCanonicalCurriculumBatch(batch, identity, actor, { requireAtomic: true, uploadId, lease });
+      await phase("LEARNER_READBACK");
       const verification = await verifyLearnerVisibility(batch, identity);
       if (!verification.learnerVisible) throw new Error(`Learner verification failed: ${verification.detail}`);
       await markPublished(uploadId, {
@@ -66,6 +73,7 @@ export async function recoverStoredCurriculumPackage(input: { batchId: string; u
       return { trustedLocalization, trustedCanonicalPublication };
     });
 
+    await phase("POST_PUBLICATION_COORDINATE_CHECK");
     const postPublicationVerification = identity.language === "en" || identity.language === "en-US"
       ? await verifyRestoredCanonicalCoordinate(classified.reconciliationKey!)
       : null;

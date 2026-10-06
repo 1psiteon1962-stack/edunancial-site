@@ -33,4 +33,15 @@ export async function getNeonPublishedLesson(lessonId:string,languageOrLocale:st
 export async function getNeonPublishedTracks(languageOrLocale:string):Promise<PublishedTrackSummary[]>{
  const results=await Promise.all(ACADEMIES.map(a=>getNeonPublishedTrack(a.code,languageOrLocale)));return results.filter((x):x is PublishedTrackSummary=>Boolean(x));
 }
-export function invalidateNeonLearnerCache(){cache.clear();}
+let canonicalCache:{at:number,value:PublishedLessonRecord[]}|null=null;
+export async function getNeonCanonicalLessons():Promise<PublishedLessonRecord[]>{
+ if(process.env.EDUNANCIAL_CURRICULUM_SOURCE!=="neon")return[];
+ if(canonicalCache&&Date.now()-canonicalCache.at<TTL)return canonicalCache.value;
+ const sql=getNeonSql();if(!sql)return[];
+ const rows=await sql`select * from published_lessons where status='active'` as Row[];
+ const translations=await sql`select lesson_id,locale,title,summary,body from published_translations` as Row[];
+ const byLesson=new Map<string,Record<string,{title:string;summary:string;body:string}>>();
+ for(const t of translations){const id=String(t.lesson_id).toUpperCase();const m=byLesson.get(id)??{};m[String(t.locale)]={title:String(t.title??""),summary:String(t.summary??""),body:String(t.body??"")};byLesson.set(id,m);}
+ const value=rows.map(r=>{const rec=record(r,"en");const tr=byLesson.get(rec.id.toUpperCase());return tr?{...rec,translations:tr}:rec;});canonicalCache={at:Date.now(),value};return value;
+}
+export function invalidateNeonLearnerCache(){cache.clear();canonicalCache=null;}
