@@ -52,9 +52,9 @@ export async function recoverStoredCurriculumPackage(input: { batchId: string; u
     const batch = await normalizeMixedLocaleBatch(createdBatch);
     if (!batch.uploads.length || !batch.files.length) throw new Error("The stored object could not be processed. It may not have completed transfer.");
 
-    const { trustedLocalization, trustedCanonicalPublication } = await withPublicationLease(`background-recovery:${uploadId}`, async () => {
+    const { trustedLocalization, trustedCanonicalPublication } = await withPublicationLease(`background-recovery:${uploadId}`, async (lease) => {
       const trustedLocalization = await autoPublishTrustedLocalizedLevel1Batch(batch, identity, { requireAtomic: true });
-      const trustedCanonicalPublication = await autoPublishTrustedCanonicalCurriculumBatch(batch, identity, actor, { requireAtomic: true });
+      const trustedCanonicalPublication = await autoPublishTrustedCanonicalCurriculumBatch(batch, identity, actor, { requireAtomic: true, uploadId, lease });
       const verification = await verifyLearnerVisibility(batch, identity);
       if (!verification.learnerVisible) throw new Error(`Learner verification failed: ${verification.detail}`);
       await markPublished(uploadId, {

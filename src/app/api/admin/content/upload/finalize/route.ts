@@ -102,12 +102,12 @@ export async function POST(request: NextRequest) {
     if (process.env.DATABASE_URL || process.env.NETLIFY_DATABASE_URL) {
       try { await transitionCurriculumUpload(currentUpload.uploadId, "READY", { reviewBatchId: batch.id }); } catch (stateError) { console.warn("[finalize] READY transition unavailable", stateError); }
     }
-    const { trustedLocalization, trustedCanonicalPublication } = await withPublicationLease(`finalize:${currentUpload.uploadId}`, async () => {
+    const { trustedLocalization, trustedCanonicalPublication } = await withPublicationLease(`finalize:${currentUpload.uploadId}`, async (lease) => {
       if (process.env.DATABASE_URL || process.env.NETLIFY_DATABASE_URL) {
         try { await transitionCurriculumUpload(currentUpload.uploadId, "PUBLISHING", { reviewBatchId: batch.id }); } catch (stateError) { console.warn("[finalize] PUBLISHING transition unavailable", stateError); }
       }
       const trustedLocalization = await autoPublishTrustedLocalizedLevel1Batch(batch, packageIdentity, { requireAtomic: true });
-      const trustedCanonicalPublication = await autoPublishTrustedCanonicalCurriculumBatch(batch, packageIdentity, actor, { requireAtomic: true });
+      const trustedCanonicalPublication = await autoPublishTrustedCanonicalCurriculumBatch(batch, packageIdentity, actor, { requireAtomic: true, uploadId: currentUpload.uploadId, lease });
       const trustedPublicationAttempted = trustedLocalization.attempted || trustedCanonicalPublication.attempted;
       if (trustedPublicationAttempted && packageIdentity) {
         const verification = await verifyLearnerVisibility(batch, packageIdentity);
