@@ -20,7 +20,15 @@ export default function PricingPageClient() {
           {t("branding.publicDisclaimer")}
         </p>
 
-        <div className="mt-12 grid gap-6 sm:grid-cols-2 xl:grid-cols-4">
+        <div className="mt-10 max-w-4xl rounded-2xl border border-blue-400/20 bg-blue-500/10 p-6">
+          <p className="text-lg font-black text-white">Financial education built for a global audience.</p>
+          <p className="mt-2 text-sm leading-7 text-slate-300">
+            Learn across 8 financial tracks and 5 progressive levels, with content available in multiple languages and regional language options.
+          </p>
+          <p className="mt-3 text-sm font-bold text-blue-200">🌐 Multiple languages · Regional language options · Learn in the language that works for you</p>
+        </div>
+
+        <div className="mt-8 grid gap-6 sm:grid-cols-2 xl:grid-cols-4">
           <div className="rounded-2xl border border-white/10 bg-slate-900/80 p-6">
             <p className="text-sm font-bold uppercase tracking-[0.25em] text-slate-300">{t("pricingPage.freePlan.name")}</p>
             <p className="mt-4 text-4xl font-black">{t("pricingPage.freePlan.priceDisplay")}</p>
@@ -51,7 +59,15 @@ export default function PricingPageClient() {
                     <p className="mt-1 text-xs text-slate-300">Save ${annualSavings.toFixed(2)} versus 12 monthly payments</p>                    {plan.id === "enterprise" && <p className="mt-2 text-xs font-bold uppercase tracking-wider text-yellow-300">Best annual value</p>}
                   </div>
                 )}
-                <p className="mt-4 text-sm leading-7 text-slate-300">{copy.description}</p>
+                <p className="mt-4 text-sm leading-7 text-slate-300">
+                  {plan.id === "basic"
+                    ? "Build financial literacy and develop the practical skills to make more informed financial decisions."
+                    : plan.id === "premium"
+                      ? "Move beyond financial literacy into applied financial competency, strategy, and increasingly complex real-world decisions."
+                      : plan.id === "enterprise"
+                        ? "Complete access from foundational financial literacy through advanced financial competency, analysis, and strategic decision-making."
+                        : copy.description}
+                </p>
                 <p className="mt-4 text-xs font-semibold text-slate-300">Cancel anytime.</p>                {copy.legalNote && <p className="mt-4 text-xs leading-6 text-slate-400">{copy.legalNote}</p>}
                 {plan.showContactOnly ? (
                   <Link href="/contact" className="mt-6 inline-flex rounded-xl bg-blue-600 px-5 py-3 font-bold text-white transition hover:bg-blue-700">
