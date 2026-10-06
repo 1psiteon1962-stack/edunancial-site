@@ -5,6 +5,7 @@ import { join, relative } from "node:path";
 import type { ExtractedFile, UploadBatch } from "@/lib/admin-content/types";
 import { detectBundledCurriculumLessons, detectCurriculumAsset } from "@/lib/admin-content/curriculum";
 import { getAdminContentStorage } from "@/lib/admin-content/storage";
+import { getNeonCanonicalLessons } from "@/lib/curriculum/neon-learner-resolver";
 import { ACADEMIES, ACADEMY_MAP } from "@/lib/curriculum/academies";
 import { getLocalizedLessonDescription, getLocalizedLessonTitle, getLocalizedTrackCopy, resolveCurriculumLocale, type CurriculumLocale } from "@/lib/curriculum/localization";
 import { getLessonContent, readRegistry, type RegistryAsset } from "@/lib/curriculum/reader";
@@ -69,7 +70,6 @@ function localize(l:PublishedLessonRecord,locale:CurriculumLocale){if(locale==="
 function sort(ls:PublishedLessonRecord[]){return[...ls].sort((a,b)=>a.track.localeCompare(b.track)||a.level-b.level||a.lessonNumber-b.lessonNumber||a.id.localeCompare(b.id))}
 async function effective(){const s=await readPublishedState(),registry=readRegistry();for(const t of Object.values(registry.tracks))for(const level of Object.values(t.levels))for(const a of Object.values(level.assets)){if(s.lessons[a.id])continue;const r=fromRegistry(a);if(r)s.lessons[r.id]=r}async function scan(dir:string){if(!existsSync(dir))return;for(const e of readdirSync(dir,{withFileTypes:true})){const p=join(dir,e.name);if(e.isDirectory()){await scan(p);continue}if(!discoverableCourseMarkdown(p))continue;try{const raw=readFileSync(p,"utf8"),a=await detectCurriculumAsset(raw,e.name),r=!a?.locale?detected(a,raw):null;if(r){const existing=s.lessons[r.id],existingLocale=existing?.frontMatter?.locale?.trim().toLowerCase(),existingIsLocalized=Boolean(existingLocale&&existingLocale!=="en"&&existingLocale!=="en-us");if(!existing||existingIsLocalized)s.lessons[r.id]={...r,...(existing?.translations?{translations:existing.translations}:{})};}for(const {asset,content} of await detectBundledCurriculumLessons(raw)){const bundled=detected(asset,content);if(bundled&&!s.lessons[bundled.id])s.lessons[bundled.id]=bundled}}catch{}}}await scan(COURSE_CONTENT_DIR);
 if(process.env.EDUNANCIAL_CURRICULUM_SOURCE==="neon"){
- const {getNeonCanonicalLessons}=await import("@/lib/curriculum/neon-learner-resolver");
  for(const n of await getNeonCanonicalLessons()){const existing=s.lessons[n.id.toUpperCase()];const translations={...(existing?.translations??{}),...(n.translations??{})};s.lessons[n.id.toUpperCase()]={...n,...(Object.keys(translations).length?{translations}:{})};}
 }
 return s}
