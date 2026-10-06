@@ -76,7 +76,11 @@ export async function importPublishedLessonTranslations(records:PublishedLessonT
 export async function exportPublishedLessonTranslations(o:PublishedLessonTranslationExportOptions={}){const ps=o.prefixes?.map(p=>p.trim().toUpperCase()).filter(Boolean),ids=o.lessonIds?.map(i=>i.trim().toUpperCase()).filter(Boolean),requested=ids?.length?new Set(ids):null,s=await effective(),match=(id:string)=>!ps?.length||ps.some(p=>/^L[1-9]\d*$/u.test(p)?id.split("-")[1]===p:id.startsWith(`${p}-`)),found=sort(Object.values(s.lessons).filter(l=>l.status==="active"&&(!requested||requested.has(l.id))&&match(l.id))).map(l=>({id:l.id,title:l.title,summary:l.summary,body:l.body}));if(!requested)return found;const have=new Set(found.map(x=>x.id));return[...found,...[...requested].filter(id=>!have.has(id)).map(id=>({id,title:null,summary:null,body:null}))]}
 export async function removePublishedLessonsForBatch(batch:UploadBatch){const atomic=await removeAtomicPublishedBatch(batch.id);const s=await readLegacy();let ids=[...(s.batchLessonIds[batch.id]??[])];if(!ids.length)ids=[...new Set((await Promise.all(batch.files.map(extract))).flat().map(l=>l.id))];if(atomic)return{removed:ids.length,trackedLessonIds:ids};if(!canUseLegacyPublishedStateForTests())throw new Error(`Atomic curriculum deletion is unavailable; refusing legacy full-state deletion for batch ${batch.id}.`);for(const id of ids)delete s.lessons[id];delete s.batchLessonIds[batch.id];s.updatedAt=new Date().toISOString();await writeLegacy(s);return{removed:ids.length,trackedLessonIds:ids}}
 export async function getPublishedTracks(languageOrLocale:string):Promise<PublishedTrackSummary[]>{
- if(process.env.EDUNANCIAL_CURRICULUM_SOURCE==="neon"){// @ts-expect-error NodeNext test resolver does not honor the Next alias\n    const {getNeonPublishedTracks}=await import("@/lib/curriculum/neon-learner-resolver");const neon=await getNeonPublishedTracks(languageOrLocale);if(neon.length)return neon;}
+ if(process.env.EDUNANCIAL_CURRICULUM_SOURCE==="neon"){
+  const {getNeonPublishedTracks}=await import("@/lib/curriculum/neon-learner-resolver");
+  const neon=await getNeonPublishedTracks(languageOrLocale);
+  if(neon.length)return neon;
+ }
 
  const locale=resolveCurriculumLocale(languageOrLocale),s=await effective(),m=new Map<string,Map<number,PublishedLessonRecord[]>>();
  const packages=await readTranslationPackages();
