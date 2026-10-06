@@ -77,7 +77,7 @@ export async function exportPublishedLessonTranslations(o:PublishedLessonTransla
 export async function removePublishedLessonsForBatch(batch:UploadBatch){const atomic=await removeAtomicPublishedBatch(batch.id);const s=await readLegacy();let ids=[...(s.batchLessonIds[batch.id]??[])];if(!ids.length)ids=[...new Set((await Promise.all(batch.files.map(extract))).flat().map(l=>l.id))];if(atomic)return{removed:ids.length,trackedLessonIds:ids};if(!canUseLegacyPublishedStateForTests())throw new Error(`Atomic curriculum deletion is unavailable; refusing legacy full-state deletion for batch ${batch.id}.`);for(const id of ids)delete s.lessons[id];delete s.batchLessonIds[batch.id];s.updatedAt=new Date().toISOString();await writeLegacy(s);return{removed:ids.length,trackedLessonIds:ids}}
 export async function getPublishedTracks(languageOrLocale:string):Promise<PublishedTrackSummary[]>{
  if(process.env.EDUNANCIAL_CURRICULUM_SOURCE==="neon"){
-  const {getNeonPublishedTracks}=await import("@/lib/curriculum/neon-learner-resolver");
+  // @ts-ignore NodeNext test compilation does not resolve the Next alias used by the production bundle.\n  const {getNeonPublishedTracks}=await import("@/lib/curriculum/neon-learner-resolver");
   const neon=await getNeonPublishedTracks(languageOrLocale);
   if(neon.length)return neon;
  }
