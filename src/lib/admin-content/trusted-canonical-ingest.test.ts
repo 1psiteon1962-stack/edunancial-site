@@ -26,7 +26,7 @@ test("trusted canonical curriculum checkpoints runtime state and queues Git expo
   assert.match(helper, /upsertPublishedLessonsFromBatch\(batch, \{ requireAtomic: options\.requireAtomic \}\)/u);
   assert.match(helper, /published\.upserted !== 50/u);
   assert.doesNotMatch(helper, /publishBatch\(/u);
-  assert.match(finalizeRoute, /autoPublishTrustedCanonicalCurriculumBatch\\(batch, packageIdentity, actor, \\{ requireAtomic: true, uploadId: currentUpload\\.uploadId, lease \\}\\)/u);
+  assert.match(finalizeRoute, /autoPublishTrustedCanonicalCurriculumBatch\(batch, packageIdentity, actor, \{ requireAtomic: true, uploadId: currentUpload\.uploadId, lease \}\)/u);
   assert.match(finalizeRoute, /trustedPublicationAttempted/u);
   assert.doesNotMatch(finalizeRoute, /exportBatchToGithub\(batch\.id, actor\)/u);
   assert.match(finalizeRoute, /githubPublicationPending = trustedPublicationAttempted/u);
