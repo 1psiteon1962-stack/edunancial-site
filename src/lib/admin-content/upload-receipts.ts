@@ -1,5 +1,6 @@
 import { getAdminContentStorage } from "@/lib/admin-content/storage";
 import { updateJsonCas } from "@/lib/admin-content/storage/cas-json";
+import { getNeonSql } from "@/lib/db/neon";
 
 export type UploadReceiptState="STORED"|"FINALIZING"|"STORED_FOR_REVIEW"|"PUBLISHED"|"FAILED";
 export type UploadReceipt={
@@ -20,7 +21,10 @@ export async function beginFinalization(identity:Pick<UploadReceipt,"uploadId"|"
 export async function markPublished(uploadId:string,input:{reviewBatchId:string;verification:{learnerVisible:boolean;detail:string;checkedLessons?:number;checkedAt?:string}|null;githubExportRequired:boolean;recoveredWithoutReupload:boolean}):Promise<UploadReceipt>{
  if(input.verification?.learnerVisible!==true)throw new Error(`Refusing PUBLISHED for ${uploadId}: learner read-back did not pass (${input.verification?.detail??"no verification"}).`);
  const next=await updateJsonCas<UploadReceipt>(pathFor(uploadId),(current)=>{if(!current)throw new Error("Publication receipt missing.");if(current.state==="PUBLISHED")return current;const now=new Date().toISOString();return{...current,state:"PUBLISHED",publishedAt:now,updatedAt:now,reviewBatchId:input.reviewBatchId,retryable:false,lastError:null,recoveredWithoutReupload:input.recoveredWithoutReupload,verification:input.verification,githubExport:{...current.githubExport,state:input.githubExportRequired?"PENDING":"NOT_REQUIRED"}};},"Commit durable learner publication receipt");
- if(!next)throw new Error("Unable to persist publication receipt.");return next;
+ if(!next)throw new Error("Unable to persist publication receipt.");
+ const sql=getNeonSql();
+ if(sql){await sql`update curriculum_uploads set state='PUBLISHED',updated_at=now(),last_error=null where upload_id=${uploadId} and state<>'PUBLISHED'`;await sql`insert into curriculum_upload_events(upload_id,event_type,detail) values(${uploadId},'PUBLISHED',${JSON.stringify({learnerVerified:true,detail:input.verification.detail})}::jsonb)`;}
+ return next;
 }
 export async function markFailed(uploadId:string,error:string,retryable:boolean){return updateJsonCas<UploadReceipt>(pathFor(uploadId),(current)=>current&&current.state!=="PUBLISHED"?{...current,state:"FAILED",updatedAt:new Date().toISOString(),retryable,lastError:error}:null,"Record durable upload failure");}
 export async function recordGithubExport(uploadId:string,result:{ok:boolean;branch?:string;pullRequestUrl?:string;error?:string}){return updateJsonCas<UploadReceipt>(pathFor(uploadId),(current)=>current?{...current,updatedAt:new Date().toISOString(),githubExport:{...current.githubExport,state:result.ok?"OPEN":"FAILED",attempts:current.githubExport.attempts+1,branch:result.branch??current.githubExport.branch,pullRequestUrl:result.pullRequestUrl??current.githubExport.pullRequestUrl,lastError:result.ok?null:(result.error??"GitHub export failed")}}:null,"Update Git export receipt");}
