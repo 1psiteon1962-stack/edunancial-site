@@ -13,6 +13,8 @@ import { recordUploadOperation } from "@/lib/admin-content/upload-operations";
 import { createId } from "@/lib/admin-content/utils";
 import { beginFinalization, getUploadReceipt, markFailed, markPublished, markStoredForReview } from "@/lib/admin-content/upload-receipts";
 import { PublicationBusyError, withPublicationLease } from "@/lib/admin-content/publication-lock";
+import { transitionCurriculumUpload } from "@/lib/admin-content/neon-upload-state";
+import { queueNeonGitExport } from "@/lib/curriculum/neon-published-store";
 import { verifyLearnerVisibility } from "@/lib/admin-content/learner-readback";
 
 export const runtime = "nodejs";
@@ -85,6 +87,9 @@ export async function POST(request: NextRequest) {
 
     const reviewBatchId = createId("batch");
     await beginFinalization({ uploadId: currentUpload.uploadId, originalBatchId: batchId, storagePath: currentUpload.storagePath, originalFilename: currentUpload.originalFilename, coordinate: packageIdentity ? `${packageIdentity.track}:${packageIdentity.level}:${packageIdentity.language}` : null }, reviewBatchId, "finalize");
+    if (process.env.DATABASE_URL || process.env.NETLIFY_DATABASE_URL) {
+      try { await transitionCurriculumUpload(currentUpload.uploadId, "VALIDATING", { reviewBatchId }); } catch (stateError) { console.warn("[finalize] durable state transition unavailable", stateError); }
+    }
     await recordUploadOperation({ batchId, uploadId: currentUpload.uploadId, phase: "FINALIZE", status: "STARTED", storagePath: currentUpload.storagePath, fileName: currentUpload.originalFilename, fileSize: currentUpload.sizeBytes, metadata: { mode: "single-package-request", reviewBatchId, packageIdentity } });
 
     const createdBatch = await createIndependentUploadBatchFromStoredFiles(request, actor, { batchId: reviewBatchId, batchName: `${String(body.batchName ?? "Content upload")} — ${currentUpload.originalFilename}`, source: String(body.source ?? ""), notes: String(body.notes ?? ""), uploadConfig, uploads: [upload] });
@@ -94,7 +99,13 @@ export async function POST(request: NextRequest) {
       throw new Error(`Uploaded file reached GitHub storage but could not be processed: ${detail}`);
     }
 
+    if (process.env.DATABASE_URL || process.env.NETLIFY_DATABASE_URL) {
+      try { await transitionCurriculumUpload(currentUpload.uploadId, "READY", { reviewBatchId: batch.id }); } catch (stateError) { console.warn("[finalize] READY transition unavailable", stateError); }
+    }
     const { trustedLocalization, trustedCanonicalPublication } = await withPublicationLease(`finalize:${currentUpload.uploadId}`, async () => {
+      if (process.env.DATABASE_URL || process.env.NETLIFY_DATABASE_URL) {
+        try { await transitionCurriculumUpload(currentUpload.uploadId, "PUBLISHING", { reviewBatchId: batch.id }); } catch (stateError) { console.warn("[finalize] PUBLISHING transition unavailable", stateError); }
+      }
       const trustedLocalization = await autoPublishTrustedLocalizedLevel1Batch(batch, packageIdentity, { requireAtomic: true });
       const trustedCanonicalPublication = await autoPublishTrustedCanonicalCurriculumBatch(batch, packageIdentity, actor, { requireAtomic: true });
       const trustedPublicationAttempted = trustedLocalization.attempted || trustedCanonicalPublication.attempted;
@@ -102,6 +113,12 @@ export async function POST(request: NextRequest) {
         const verification = await verifyLearnerVisibility(batch, packageIdentity);
         if (!verification.learnerVisible) throw new Error(`Learner verification failed: ${verification.detail}`);
         await markPublished(currentUpload.uploadId, { reviewBatchId: batch.id, verification, githubExportRequired: true, recoveredWithoutReupload: false });
+        if (process.env.DATABASE_URL || process.env.NETLIFY_DATABASE_URL) {
+          try {
+            await transitionCurriculumUpload(currentUpload.uploadId, "PUBLISHED", { reviewBatchId: batch.id, verification });
+            await queueNeonGitExport(currentUpload.uploadId);
+          } catch (stateError) { console.error("[finalize] durable publish state/export queue failed", stateError); throw stateError; }
+        }
       } else {
         if (uploadConfig.destination === "courses") { const detail = "Curriculum coordinate could not be inferred from package; not published."; await markFailed(currentUpload.uploadId, detail, false); throw new Error(detail); } await markStoredForReview(currentUpload.uploadId, batch.id, "Stored successfully; manual review required before publication.");
       }
