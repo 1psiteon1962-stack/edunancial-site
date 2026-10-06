@@ -122,7 +122,7 @@ export function isMultiLocaleBundleFilename(filename: string): boolean { return 
 
 export async function getRecoverableCurriculumPackages(): Promise<RecoverableCurriculumPackage[]> {
   const candidates = await getRecoverableUploads();
-  return candidates.map((candidate) => {
+  const classified = candidates.map((candidate) => {
     if (isMultiLocaleBundleFilename(candidate.upload.originalFilename)) return { ...candidate, identity: null, classificationError: MULTI_LOCALE_BUNDLE_ERROR, reconciliationKey: null };
     try {
       return {
@@ -140,4 +140,11 @@ export async function getRecoverableCurriculumPackages(): Promise<RecoverableCur
       };
     }
   });
+  const byKey = new Map<string, RecoverableCurriculumPackage>();
+  for (const candidate of classified) {
+    const key = candidate.reconciliationKey ?? `unclassified:${candidate.upload.storagePath}`;
+    const current = byKey.get(key);
+    if (!current || `${candidate.batchId}:${candidate.upload.uploadId}` > `${current.batchId}:${current.upload.uploadId}`) byKey.set(key, candidate);
+  }
+  return [...byKey.values()];
 }

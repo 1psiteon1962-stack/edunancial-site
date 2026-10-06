@@ -59,12 +59,19 @@ export async function POST(request: NextRequest) {
   if (!candidate) return Response.json({ success: false, error: "Stored upload is unavailable, already finalized, or already recovered." }, { status: 404 });
 
   const job = await createRecoveryJob({ batchId, uploadId, actorEmail: auth.session.email });
-  const backgroundUrl = new URL("/.netlify/functions/curriculum-recovery-background", request.url);
-  const dispatch = await fetch(backgroundUrl, {
-    method: "POST",
-    headers: { "Content-Type": "application/json" },
-    body: JSON.stringify({ jobId: job.id, token: job.token }),
-  });
+  const origin = process.env.URL || new URL(request.url).origin;
+  const backgroundUrl = new URL("/.netlify/functions/curriculum-recovery-background", origin);
+  let dispatch: Response;
+  try {
+    dispatch = await fetch(backgroundUrl, {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ jobId: job.id, token: job.token }),
+    });
+  } catch (error) {
+    const detail = error instanceof Error ? error.message : String(error);
+    return Response.json({ success: false, error: `Background recovery dispatch failed: ${detail}`, jobId: job.id }, { status: 503 });
+  }
   if (!dispatch.ok && dispatch.status !== 202) {
     return Response.json({ success: false, error: `Unable to start background recovery (HTTP ${dispatch.status}).`, jobId: job.id }, { status: 503 });
   }
