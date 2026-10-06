@@ -72,7 +72,6 @@ export default function PricingPageClient() {
             );
           })}
         </div>
-        <p className="mt-8 text-sm text-slate-400">{t("pricingPage.betaNote")}</p>
       </section>
 
       <section className="mx-auto max-w-7xl px-6 pb-24">
