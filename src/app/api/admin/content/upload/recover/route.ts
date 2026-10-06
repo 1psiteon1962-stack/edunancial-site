@@ -3,7 +3,7 @@ import { NextRequest } from "next/server";
 import { requireAdminApiSession } from "@/lib/admin-content/auth";
 import { getRecoverableCurriculumPackages } from "@/lib/admin-content/recovery-discovery";
 import { recoveryPublicationEnabled } from "@/lib/admin-content/recovery-publication-gate";
-import { createRecoveryJob, getRecoveryJob } from "@/lib/admin-content/recovery-jobs";
+import { createRecoveryJob, getRecoveryJob, reapStaleRecoveryJob } from "@/lib/admin-content/recovery-jobs";
 
 export const runtime = "nodejs";
 export const dynamic = "force-dynamic";
@@ -84,8 +84,9 @@ export async function PUT(request: NextRequest) {
   const body = await request.json() as { jobId?: string };
   const jobId = String(body.jobId ?? "").trim();
   if (!jobId) return Response.json({ success: false, error: "jobId is required." }, { status: 400 });
-  const job = await getRecoveryJob(jobId);
-  if (!job) return Response.json({ success: false, error: "Recovery job not found." }, { status: 404 });
-  if (job.actorEmail !== auth.session.email && auth.session.role !== "owner") return Response.json({ success: false, error: "Forbidden" }, { status: 403 });
-  return Response.json({ success: true, job: { id: job.id, state: job.state, error: job.error, reviewBatchId: job.reviewBatchId, uploadId: job.uploadId } }, { headers: { "Cache-Control": "private, no-store" } });
+  const found = await getRecoveryJob(jobId);
+  if (!found) return Response.json({ success: false, error: "Recovery job not found." }, { status: 404 });
+  if (found.actorEmail !== auth.session.email && auth.session.role !== "owner") return Response.json({ success: false, error: "Forbidden" }, { status: 403 });
+  const job = await reapStaleRecoveryJob(found);
+  return Response.json({ success: true, job: { id: job.id, state: job.state, phase: job.phase ?? null, error: job.error, reviewBatchId: job.reviewBatchId, uploadId: job.uploadId, createdAt: job.createdAt, startedAt: job.startedAt ?? null, heartbeatAt: job.heartbeatAt ?? null, finishedAt: job.finishedAt ?? null, updatedAt: job.updatedAt } }, { headers: { "Cache-Control": "private, no-store" } });
 }
