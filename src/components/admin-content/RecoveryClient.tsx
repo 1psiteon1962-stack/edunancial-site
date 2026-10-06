@@ -61,12 +61,18 @@ export default function RecoveryClient() {
       setProgress("Recovery is running server-side. You may leave this page; the stored ZIP remains preserved.");
       for (let attempt = 0; attempt < 180; attempt += 1) {
         await new Promise((resolve) => setTimeout(resolve, 3000));
-        const statusResponse = await fetch("/api/admin/content/upload/recover", {
-          method: "PUT",
-          headers: { "Content-Type": "application/json" },
-          body: JSON.stringify({ jobId: payload.jobId }),
-          cache: "no-store",
-        });
+        let statusResponse: Response;
+        try {
+          statusResponse = await fetch("/api/admin/content/upload/recover", {
+            method: "PUT",
+            headers: { "Content-Type": "application/json" },
+            body: JSON.stringify({ jobId: payload.jobId }),
+            cache: "no-store",
+          });
+        } catch {
+          setProgress("Recovery continues server-side; browser status check was interrupted. Retrying…");
+          continue;
+        }
         const statusPayload = await statusResponse.json();
         if (!statusResponse.ok) throw new Error(statusPayload.error ?? "Unable to read recovery job state.");
         const job = statusPayload.job;
