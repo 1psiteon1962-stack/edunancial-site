@@ -2,7 +2,6 @@
 
 import Link from "next/link";
 
-import PricingTable from "@/components/membership/PricingTable";
 import { useInternationalPreferences } from "@/components/international/InternationalPreferencesProvider";
 import { getMembershipPlanCopy, resolveMembershipCopyLanguage } from "@/lib/membershipCopy";
 import { publicMembershipPlans } from "@/types/membership";
@@ -71,18 +70,6 @@ export default function PricingPageClient() {
               </div>
             );
           })}
-        </div>
-      </section>
-
-      <section className="mx-auto max-w-7xl px-6 pb-24">
-        <PricingTable />
-        <div className="mt-10 flex flex-wrap gap-4">
-          <Link href="/membership" className="rounded-xl bg-yellow-400 px-6 py-4 font-black text-slate-950 transition hover:bg-yellow-300">
-            {t("pricingPage.primaryLabel")}
-          </Link>
-          <Link href="/contact" className="rounded-xl border border-white/20 px-6 py-4 font-bold transition hover:bg-white hover:text-slate-950">
-            {t("pricingPage.secondaryLabel")}
-          </Link>
         </div>
       </section>
     </main>
