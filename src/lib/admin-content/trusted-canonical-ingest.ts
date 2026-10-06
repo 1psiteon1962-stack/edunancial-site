@@ -4,6 +4,9 @@ import { deriveBatchStatus } from "@/lib/admin-content/review";
 import { getAdminContentStorage } from "@/lib/admin-content/storage";
 import type { ActorContext, UploadBatch } from "@/lib/admin-content/types";
 import { upsertPublishedLessonsFromBatch } from "@/lib/curriculum/authoritative-published";
+import { publishNeonLessonsTransaction } from "@/lib/curriculum/neon-transactional-publisher";
+import { extractPublishedLessonsFromBatch } from "@/lib/curriculum/authoritative-published";
+import type { PublicationLease } from "@/lib/admin-content/publication-lock";
 import { invalidateRegistryCache } from "@/lib/curriculum/reader";
 import { revalidatePublishedCurriculumRoutes } from "@/lib/curriculum/revalidate";
 
@@ -19,7 +22,7 @@ export async function autoPublishTrustedCanonicalCurriculumBatch(
   batch: UploadBatch,
   identity: PackageIdentity | null,
   _actor: ActorContext,
-  options: { publish?: boolean; requireAtomic?: boolean } = {},
+  options: { publish?: boolean; requireAtomic?: boolean; uploadId?: string; lease?: PublicationLease } = {},
 ): Promise<{ attempted: boolean; approvedFiles: number; publishedLessons?: number }> {
   if (!isTrustedCanonicalCurriculumIdentity(identity) || !identity) return { attempted: false, approvedFiles: 0 };
 
@@ -44,7 +47,9 @@ export async function autoPublishTrustedCanonicalCurriculumBatch(
   // validated batch to Git, which is the durable canonical publication path.
   if (options.publish === false) return { attempted: true, approvedFiles: 50 };
 
-  const published = await upsertPublishedLessonsFromBatch(batch, { requireAtomic: options.requireAtomic });
+  const published = options.uploadId && options.lease && (process.env.DATABASE_URL || process.env.NETLIFY_DATABASE_URL)
+    ? await publishNeonLessonsTransaction({uploadId:options.uploadId,lessons:await extractPublishedLessonsFromBatch(batch),lease:options.lease})
+    : await upsertPublishedLessonsFromBatch(batch, { requireAtomic: options.requireAtomic });
   if (published.upserted !== 50) {
     throw new Error(`Trusted curriculum publication for ${identity.track}/${identity.level}/${identity.language} published ${published.upserted} of 50 lessons.`);
   }
