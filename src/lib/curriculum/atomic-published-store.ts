@@ -107,9 +107,14 @@ export async function readAtomicPublishedLessons(): Promise<PublishedLessonRecor
         if (!lesson?.id || lesson.status !== "active") continue;
         const id = lesson.id.toUpperCase();
         const repository = repositoryCanonical.get(id);
-        byId.set(id, repository
-          ? { ...repository, translations: lesson.translations ?? repository.translations }
-          : lesson);
+        const atomicIsAuthority =
+          lesson.metadata?.[CANONICAL_PUBLICATION_MARKER] === "true";
+        byId.set(
+          id,
+          repository && !atomicIsAuthority
+            ? { ...repository, translations: lesson.translations ?? repository.translations }
+            : lesson,
+        );
       }
     }
     return byId.size ? [...byId.values()] : null;
