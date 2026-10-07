@@ -82,5 +82,11 @@ package = "@netlify/plugin-nextjs"
 [functions."curriculum-publish-background"]
 background = true
 
+# Recovery is dispatched asynchronously by /api/admin/content/upload/recover.
+# It must be deployed as a Netlify Background Function; otherwise the dispatch
+# can return without a durable worker invocation and recovery jobs remain QUEUED.
+[functions."curriculum-recovery-background"]
+background = true
+
 [functions."curriculum-recovery-sweeper"]
 schedule = "* * * * *"
