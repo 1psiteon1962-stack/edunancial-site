@@ -2,6 +2,7 @@ import { requireAdminApiSession, toActor } from "@/lib/admin-content/auth";
 import { deleteBatch } from "@/lib/admin-content/deletion";
 import { assertValidEntityId } from "@/lib/admin-content/security";
 import { getUploadBatch, updateBatchMetadata } from "@/lib/admin-content/service";
+import { readUploadReceipt } from "@/lib/admin-content/upload-receipts";
 
 export async function GET(request: Request, { params }: { params: Promise<{ batchId: string }> }) {
   const auth = await requireAdminApiSession(request);
@@ -11,7 +12,10 @@ export async function GET(request: Request, { params }: { params: Promise<{ batc
     assertValidEntityId(batchId, "batch");
     const batch = await getUploadBatch(batchId);
     if (!batch) return Response.json({ error: "Batch not found" }, { status: 404 });
-    return Response.json({ batch });
+    const receipt = batch.source?.startsWith("Recovered from stored upload batch ")
+      ? await readUploadReceipt(batch.source.replace("Recovered from stored upload batch ", "").trim())
+      : null;
+    return Response.json({ batch, publicationReceipt: receipt });
   } catch (error) {
     return Response.json({ error: (error as Error).message }, { status: 400 });
   }
