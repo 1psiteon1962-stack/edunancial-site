@@ -4,6 +4,7 @@ import type { StoredUploadEntry } from "@/lib/admin-content/service";
 import { getAdminContentStorage } from "@/lib/admin-content/storage";
 import { getUploadReceipt, uploadIdFromStoragePath } from "@/lib/admin-content/upload-receipts";
 import { verifyRestoredCanonicalCoordinate } from "@/lib/admin-content/restoration-post-publication";
+import { getRuntimePublishedTrack } from "@/lib/curriculum/runtime-localization";
 import type { UploadBatch } from "@/lib/admin-content/types";
 
 export type RecoveryCandidate = { batchId: string; upload: StoredUploadEntry };
@@ -47,9 +48,18 @@ async function receiptIsActuallyComplete(receipt: Awaited<ReturnType<typeof getU
   if (receipt?.state !== "PUBLISHED") return false;
   if (receipt.verification?.learnerVisible !== true) return false;
   if (!receipt.coordinate) return true;
-  if (!/^[A-Z]+:L[1-5]:(?:en|en-US)$/u.test(receipt.coordinate)) return true;
+  const match = receipt.coordinate.match(/^([A-Z]+):L([1-5]):(en|en-US)$/u);
+  if (!match) return true;
+  const [, trackCode, levelRaw, locale] = match;
   const final = await verifyRestoredCanonicalCoordinate(receipt.coordinate);
-  return final.complete;
+  if (!final.complete) return false;
+  const runtimeTrack = await getRuntimePublishedTrack(trackCode, locale);
+  const runtimeLevel = runtimeTrack?.levels.find((entry) => entry.level === Number(levelRaw));
+  const expected = new Set(Array.from({ length: 50 }, (_, index) =>
+    `${trackCode}-L${levelRaw}-${String(index + 1).padStart(3, "0")}`,
+  ));
+  const visible = new Set((runtimeLevel?.lessons ?? []).map((lesson) => lesson.id.toUpperCase()));
+  return runtimeLevel?.lessonCount === 50 && [...expected].every((id) => visible.has(id));
 }
 
 export async function getRecoverableUploads(): Promise<RecoveryCandidate[]> {
