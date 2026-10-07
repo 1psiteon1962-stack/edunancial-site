@@ -11,7 +11,7 @@ export type RestorationPostPublicationVerification = {
 export async function verifyRestoredCanonicalCoordinate(
   reconciliationKey: string,
 ): Promise<RestorationPostPublicationVerification> {
-  const match = reconciliationKey.match(/^([A-Z]+):L([1-3]):(?:en|en-US)$/u);
+  const match = reconciliationKey.match(/^([A-Z]+):L([1-5]):(?:en|en-US)$/u);
   if (!match) {
     return { reconciliationKey, expectedLessonCount: 50, resolvedLessonCount: 0, complete: false, missingLessonIds: [] };
   }
