@@ -8,6 +8,8 @@ const ATOMIC_ROOT = "published/atomic";
 const LESSONS_ROOT = `${ATOMIC_ROOT}/lessons`;
 const BATCHES_ROOT = `${ATOMIC_ROOT}/batches`;
 const LESSON_INDEX_PATH = `${ATOMIC_ROOT}/lesson-index.json`;
+export const CANONICAL_PUBLICATION_MARKER = "atomicCanonicalPublication";
+export const CANONICAL_PUBLICATION_BATCH = "atomicCanonicalBatchId";
 
 // Atomic reads currently go directly to durable storage. This hook is kept explicit so
 // learner read-back can invalidate safely now and remains the single invalidation point
@@ -105,9 +107,14 @@ export async function readAtomicPublishedLessons(): Promise<PublishedLessonRecor
         if (!lesson?.id || lesson.status !== "active") continue;
         const id = lesson.id.toUpperCase();
         const repository = repositoryCanonical.get(id);
-        byId.set(id, repository
-          ? { ...repository, translations: lesson.translations ?? repository.translations }
-          : lesson);
+        const atomicIsAuthority =
+          lesson.metadata?.[CANONICAL_PUBLICATION_MARKER] === "true";
+        byId.set(
+          id,
+          repository && !atomicIsAuthority
+            ? { ...repository, translations: lesson.translations ?? repository.translations }
+            : lesson,
+        );
       }
     }
     return byId.size ? [...byId.values()] : null;
@@ -130,7 +137,8 @@ export async function upsertAtomicPublishedLessons(batchId: string, lessons: Pub
       const isLocalized = !isCanonicalLocale(locale);
       let record: PublishedLessonRecord;
       if (isLocalized) {
-        const canonical = canonicalById.get(id) ?? (existing && !existing.frontMatter?.locale ? existing : null);
+        const existingIsAuthority = existing?.metadata?.[CANONICAL_PUBLICATION_MARKER] === "true";
+        const canonical = (existingIsAuthority ? existing : null) ?? canonicalById.get(id) ?? (existing && !existing.frontMatter?.locale ? existing : null);
         if (!canonical) throw new Error(`Canonical lesson ${id} is unavailable; refusing to publish localized content as the base lesson.`);
         const translations = existing?.translations ?? canonical.translations ?? {};
         record = {
@@ -140,7 +148,13 @@ export async function upsertAtomicPublishedLessons(batchId: string, lessons: Pub
           importedAt: new Date().toISOString(),
         };
       } else {
-        record = { ...lesson, id, ...(existing?.translations ? { translations: existing.translations } : {}), importedAt: new Date().toISOString() };
+        const fromPackage = !batchId.startsWith("registry:");
+        record = {
+          ...lesson, id,
+          metadata: { ...(lesson.metadata ?? {}), ...(fromPackage ? { [CANONICAL_PUBLICATION_MARKER]: "true", [CANONICAL_PUBLICATION_BATCH]: batchId } : {}) },
+          ...(existing?.translations ? { translations: existing.translations } : {}),
+          importedAt: new Date().toISOString(),
+        };
       }
       return { id, locale: normalizedLocale(locale), record };
     }));
