@@ -57,29 +57,31 @@ export async function recoverStoredCurriculumPackage(input: { batchId: string; u
     if (!batch.uploads.length || !batch.files.length) throw new Error("The stored object could not be processed. It may not have completed transfer.");
 
     await phase("ACQUIRING_PUBLICATION_LEASE");
-    const { trustedLocalization, trustedCanonicalPublication } = await withPublicationLease(`background-recovery:${uploadId}`, async (lease) => {
+    const trustedPublication = await withPublicationLease(`background-recovery:${uploadId}`, async (lease) => {
       await phase("TRANSACTIONAL_PUBLICATION");
       const trustedLocalization = await autoPublishTrustedLocalizedLevel1Batch(batch, identity, { requireAtomic: true });
       const trustedCanonicalPublication = await autoPublishTrustedCanonicalCurriculumBatch(batch, identity, actor, { requireAtomic: true, uploadId, lease });
       await phase("LEARNER_READBACK");
       const verification = await verifyLearnerVisibility(batch, identity);
       if (!verification.learnerVisible) throw new Error(`Learner verification failed: ${verification.detail}`);
+      await phase("POST_PUBLICATION_COORDINATE_CHECK");
+      const postPublicationVerification = identity.language === "en" || identity.language === "en-US"
+        ? await verifyRestoredCanonicalCoordinate(classified.reconciliationKey!)
+        : null;
+      if (postPublicationVerification && !postPublicationVerification.complete) {
+        throw new Error("Canonical restoration did not resolve all 50 learner lessons; refusing PUBLISHED.");
+      }
       await markPublished(uploadId, {
         reviewBatchId: recoveryBatchId,
         verification,
         githubExportRequired: trustedLocalization.attempted || trustedCanonicalPublication.attempted,
         recoveredWithoutReupload: true,
       });
-      return { trustedLocalization, trustedCanonicalPublication };
+      return { trustedLocalization, trustedCanonicalPublication, postPublicationVerification };
     });
 
-    await phase("POST_PUBLICATION_COORDINATE_CHECK");
-    const postPublicationVerification = identity.language === "en" || identity.language === "en-US"
-      ? await verifyRestoredCanonicalCoordinate(classified.reconciliationKey!)
-      : null;
-    if (postPublicationVerification && !postPublicationVerification.complete) {
-      throw new Error("Canonical restoration published but did not resolve all 50 learner lessons.");
-    }
+    const postPublicationVerification = trustedPublication.postPublicationVerification;
+    const { trustedLocalization, trustedCanonicalPublication } = trustedPublication;
     const trustedPublicationAttempted = trustedLocalization.attempted || trustedCanonicalPublication.attempted;
     await recordUploadOperation({
       batchId, uploadId, phase: "VERIFY", status: "SUCCEEDED", storagePath: upload.storagePath,
