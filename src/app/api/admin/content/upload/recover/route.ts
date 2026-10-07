@@ -3,7 +3,8 @@ import { NextRequest } from "next/server";
 import { requireAdminApiSession } from "@/lib/admin-content/auth";
 import { getRecoverableCurriculumPackages } from "@/lib/admin-content/recovery-discovery";
 import { recoveryPublicationEnabled } from "@/lib/admin-content/recovery-publication-gate";
-import { createRecoveryJob, getRecoveryJob, reapStaleRecoveryJob } from "@/lib/admin-content/recovery-jobs";
+import { createRecoveryJob, getRecoveryJob, reapStaleRecoveryJob, updateRecoveryJob } from "@/lib/admin-content/recovery-jobs";
+import { recoverStoredCurriculumPackage } from "@/lib/admin-content/recovery-worker";
 
 export const runtime = "nodejs";
 export const dynamic = "force-dynamic";
@@ -59,23 +60,59 @@ export async function POST(request: NextRequest) {
   if (!candidate) return Response.json({ success: false, error: "Stored upload is unavailable, already finalized, or already recovered." }, { status: 404 });
 
   const job = await createRecoveryJob({ batchId, uploadId, actorEmail: auth.session.email });
-  const origin = process.env.URL || new URL(request.url).origin;
-  const backgroundUrl = new URL("/.netlify/functions/curriculum-recovery-background", origin);
-  let dispatch: Response;
+
+  // Run recovery in the request that the admin explicitly initiated.
+  // The previous implementation self-fetched a Netlify background-function URL.
+  // Production proved that dispatch can return accepted while the worker never
+  // boots, leaving a durable QUEUED job that is later reaped as FAILED.
+  //
+  // A single trusted curriculum package is small enough for the existing
+  // maxDuration=60 route, and this removes the unreliable second invocation.
+  const startedAt = new Date().toISOString();
+  await updateRecoveryJob(job.id, {
+    state: "RUNNING",
+    phase: "STARTED",
+    startedAt,
+    heartbeatAt: startedAt,
+    error: null,
+  });
+
   try {
-    dispatch = await fetch(backgroundUrl, {
-      method: "POST",
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({ jobId: job.id, token: job.token }),
+    const result = await recoverStoredCurriculumPackage({
+      batchId: job.batchId,
+      uploadId: job.uploadId,
+      actor: { email: job.actorEmail },
+      onPhase: async (phase) => {
+        await updateRecoveryJob(
+          job.id,
+          { phase, heartbeatAt: new Date().toISOString() },
+          (current) => current.state === "RUNNING",
+        );
+      },
     });
+    await updateRecoveryJob(job.id, {
+      state: "SUCCEEDED",
+      phase: "LEARNER_VERIFIED_PUBLISHED",
+      reviewBatchId: result.reviewBatchId,
+      error: null,
+      finishedAt: new Date().toISOString(),
+    });
+    return Response.json(
+      { success: true, accepted: false, completed: true, jobId: job.id, uploadId, reviewBatchId: result.reviewBatchId },
+      { status: 200, headers: { "Cache-Control": "private, no-store" } },
+    );
   } catch (error) {
     const detail = error instanceof Error ? error.message : String(error);
-    return Response.json({ success: false, error: `Background recovery dispatch failed: ${detail}`, jobId: job.id }, { status: 503 });
+    await updateRecoveryJob(job.id, {
+      state: "FAILED",
+      error: detail,
+      finishedAt: new Date().toISOString(),
+    }).catch(() => null);
+    return Response.json(
+      { success: false, error: `Recovery failed: ${detail}`, jobId: job.id, uploadId },
+      { status: 500, headers: { "Cache-Control": "private, no-store" } },
+    );
   }
-  if (!dispatch.ok && dispatch.status !== 202) {
-    return Response.json({ success: false, error: `Unable to start background recovery (HTTP ${dispatch.status}).`, jobId: job.id }, { status: 503 });
-  }
-  return Response.json({ success: true, accepted: true, jobId: job.id, uploadId }, { status: 202, headers: { "Cache-Control": "private, no-store" } });
 }
 
 export async function PUT(request: NextRequest) {
