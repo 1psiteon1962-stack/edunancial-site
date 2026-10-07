@@ -47,7 +47,7 @@ export async function autoPublishTrustedCanonicalCurriculumBatch(
   // validated batch to Git, which is the durable canonical publication path.
   if (options.publish === false) return { attempted: true, approvedFiles: 50 };
 
-  const published = options.uploadId && options.lease && (process.env.DATABASE_URL || process.env.NETLIFY_DATABASE_URL)
+  const neonIsLearnerSource = process.env.EDUNANCIAL_CURRICULUM_SOURCE === "neon" && Boolean(process.env.DATABASE_URL || process.env.NETLIFY_DATABASE_URL);\n  const published = options.uploadId && options.lease && neonIsLearnerSource
     ? await publishNeonLessonsTransaction({uploadId:options.uploadId,lessons:await extractPublishedLessonsFromBatch(batch),lease:options.lease})
     : await upsertPublishedLessonsFromBatch(batch, { requireAtomic: options.requireAtomic });
   if (published.upserted !== 50) {
