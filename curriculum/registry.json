@@ -1,7 +1,7 @@
 {
   "_schema": "curriculum/schemas/registry.schema.json",
   "_version": "1.0",
-  "_generated": "2026-09-15T10:56:40.342Z",
+  "_generated": "2026-10-07T05:31:40.603Z",
   "_note": "Authoritative curriculum registry (empty lessons are a valid production state).",
   "tracks": {
     "RED": {
@@ -4631,7 +4631,1258 @@
           "assets": {}
         },
         "4": {
-          "assets": {}
+          "assets": {
+            "BLUE-L4-001": {
+              "id": "BLUE-L4-001",
+              "type": "lesson",
+              "track": "BLUE",
+              "trackName": "Business",
+              "level": 4,
+              "lessonNumber": 1,
+              "title": "Unit Economics Analysis: Why Profitable Growth Requires Positive Per-Unit Margins",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-07",
+              "path": "content/curriculum/BLUE/L4/BLUE-L4-001.md",
+              "checksum": "sha256:sha256:e1050248cffdeef254530d76632eacab3624e7b2f939d444964756d488472f28",
+              "status": "active",
+              "ingestionId": "959cbebe-7a26-4b79-8408-0df7efe94508",
+              "importedAt": "2026-10-07T05:31:39.107Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Business",
+                "summary": "Understand what unit economics means, why analyzing profit per customer or per unit matters more than total revenue growth alone."
+              }
+            },
+            "BLUE-L4-002": {
+              "id": "BLUE-L4-002",
+              "type": "lesson",
+              "track": "BLUE",
+              "trackName": "Business",
+              "level": 4,
+              "lessonNumber": 2,
+              "title": "LTV/CAC Analysis: Why the Ratio Between Customer Value and Acquisition Cost Matters",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-07",
+              "path": "content/curriculum/BLUE/L4/BLUE-L4-002.md",
+              "checksum": "sha256:sha256:ca347077b009343ff25574a66e0c81507f385f742644e1cb6ba9ede48bfbf1a8",
+              "status": "active",
+              "ingestionId": "959cbebe-7a26-4b79-8408-0df7efe94508",
+              "importedAt": "2026-10-07T05:31:39.107Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Business",
+                "summary": "Understand how comparing customer lifetime value to customer acquisition cost reveals whether a business's growth spending is actually sound."
+              }
+            },
+            "BLUE-L4-003": {
+              "id": "BLUE-L4-003",
+              "type": "lesson",
+              "track": "BLUE",
+              "trackName": "Business",
+              "level": 4,
+              "lessonNumber": 3,
+              "title": "Gross Margin vs Net Margin Analysis: Why Two Different Margins Tell Two Different Stories",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-07",
+              "path": "content/curriculum/BLUE/L4/BLUE-L4-003.md",
+              "checksum": "sha256:sha256:ffa8f115cbe7a37cf31d464bf6ae756df27c511c58d57570ac8b0601d741635e",
+              "status": "active",
+              "ingestionId": "959cbebe-7a26-4b79-8408-0df7efe94508",
+              "importedAt": "2026-10-07T05:31:39.107Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Business",
+                "summary": "Understand the distinction between gross margin and net margin, and why both are needed to fully assess a business's cost structure and profitability."
+              }
+            },
+            "BLUE-L4-004": {
+              "id": "BLUE-L4-004",
+              "type": "lesson",
+              "track": "BLUE",
+              "trackName": "Business",
+              "level": 4,
+              "lessonNumber": 4,
+              "title": "Break-Even Analysis: Why Fixed and Variable Costs Determine the Point of Profitability",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-07",
+              "path": "content/curriculum/BLUE/L4/BLUE-L4-004.md",
+              "checksum": "sha256:sha256:6e1e53f0621a5cef063e21e6da5bd3316728da00abd5e56c661e761c766c686b",
+              "status": "active",
+              "ingestionId": "959cbebe-7a26-4b79-8408-0df7efe94508",
+              "importedAt": "2026-10-07T05:31:39.107Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Business",
+                "summary": "Understand how break-even analysis uses fixed costs, variable costs, and price to calculate the sales volume needed for a business to become profitable."
+              }
+            },
+            "BLUE-L4-005": {
+              "id": "BLUE-L4-005",
+              "type": "lesson",
+              "track": "BLUE",
+              "trackName": "Business",
+              "level": 4,
+              "lessonNumber": 5,
+              "title": "Working Capital Analysis: Why a Profitable Business Can Still Run Out of Cash",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-07",
+              "path": "content/curriculum/BLUE/L4/BLUE-L4-005.md",
+              "checksum": "sha256:sha256:ef546ee2ca4a4ddf6f35ea33476e61d154f3cde69823b0a87db76ebeed5c8a63",
+              "status": "active",
+              "ingestionId": "959cbebe-7a26-4b79-8408-0df7efe94508",
+              "importedAt": "2026-10-07T05:31:39.107Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Business",
+                "summary": "Understand what working capital measures, why it is distinct from profitability, and why a growing, profitable business can still face a cash shortage."
+              }
+            },
+            "BLUE-L4-006": {
+              "id": "BLUE-L4-006",
+              "type": "lesson",
+              "track": "BLUE",
+              "trackName": "Business",
+              "level": 4,
+              "lessonNumber": 6,
+              "title": "Cash Conversion Cycle Analysis: Why the Sequence of Cash Flows Reveals Operational Efficiency",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-07",
+              "path": "content/curriculum/BLUE/L4/BLUE-L4-006.md",
+              "checksum": "sha256:sha256:c18a96c3c0ee01bd4b5d0b7594965ccf8f87ba96672a5735bddd5dcd6260ecb1",
+              "status": "active",
+              "ingestionId": "959cbebe-7a26-4b79-8408-0df7efe94508",
+              "importedAt": "2026-10-07T05:31:39.107Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Business",
+                "summary": "Understand how the cash conversion cycle combines three specific timing metrics into a single measure of operational efficiency and cash flow health."
+              }
+            },
+            "BLUE-L4-007": {
+              "id": "BLUE-L4-007",
+              "type": "lesson",
+              "track": "BLUE",
+              "trackName": "Business",
+              "level": 4,
+              "lessonNumber": 7,
+              "title": "Burn Rate and Runway Analysis: Why Cash-Losing Businesses Must Track Their Own Countdown Clock",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-07",
+              "path": "content/curriculum/BLUE/L4/BLUE-L4-007.md",
+              "checksum": "sha256:sha256:d6f47369c342e99124bebc8e34895378d5b62a3b738fd2d10fd1c07c45642b23",
+              "status": "active",
+              "ingestionId": "959cbebe-7a26-4b79-8408-0df7efe94508",
+              "importedAt": "2026-10-07T05:31:39.107Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Business",
+                "summary": "Understand how burn rate and runway are calculated for a business that is not yet profitable, and why tracking this countdown is essential to survival."
+              }
+            },
+            "BLUE-L4-008": {
+              "id": "BLUE-L4-008",
+              "type": "lesson",
+              "track": "BLUE",
+              "trackName": "Business",
+              "level": 4,
+              "lessonNumber": 8,
+              "title": "Business Valuation Multiples Analysis: Why the Right Multiple Depends on the Right Comparison",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-07",
+              "path": "content/curriculum/BLUE/L4/BLUE-L4-008.md",
+              "checksum": "sha256:sha256:965192cd53768982c910a3a79807414684da2c3bc080ab4dd4ce096ebab05185",
+              "status": "active",
+              "ingestionId": "959cbebe-7a26-4b79-8408-0df7efe94508",
+              "importedAt": "2026-10-07T05:31:39.107Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Business",
+                "summary": "Understand how business valuation multiples like revenue and EBITDA multiples are used to value private companies, and why selecting the right comparable companies matters greatly."
+              }
+            },
+            "BLUE-L4-009": {
+              "id": "BLUE-L4-009",
+              "type": "lesson",
+              "track": "BLUE",
+              "trackName": "Business",
+              "level": 4,
+              "lessonNumber": 9,
+              "title": "Cap Table Analysis: Why Equity Dilution Changes Ownership Even Without Selling Shares",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-07",
+              "path": "content/curriculum/BLUE/L4/BLUE-L4-009.md",
+              "checksum": "sha256:sha256:1d32b3588802bb964a8b676a87cfa66a742a9c50a714622bae21d47778cf6e08",
+              "status": "active",
+              "ingestionId": "959cbebe-7a26-4b79-8408-0df7efe94508",
+              "importedAt": "2026-10-07T05:31:39.107Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Business",
+                "summary": "Understand how a capitalization table tracks business ownership, and why raising additional equity capital dilutes existing owners' percentage stake even without them selling anything."
+              }
+            },
+            "BLUE-L4-010": {
+              "id": "BLUE-L4-010",
+              "type": "lesson",
+              "track": "BLUE",
+              "trackName": "Business",
+              "level": 4,
+              "lessonNumber": 10,
+              "title": "Vesting Schedule Analysis: Why Equity Compensation Is Earned Over Time, Not Granted All at Once",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-07",
+              "path": "content/curriculum/BLUE/L4/BLUE-L4-010.md",
+              "checksum": "sha256:sha256:379f8059ef73d4ec43a8f6176505aaf5106d2a160e66965bd612b7842a5a1750",
+              "status": "active",
+              "ingestionId": "959cbebe-7a26-4b79-8408-0df7efe94508",
+              "importedAt": "2026-10-07T05:31:39.107Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Business",
+                "summary": "Understand how vesting schedules structure equity compensation to align employee or founder incentives with long-term company commitment."
+              }
+            },
+            "BLUE-L4-011": {
+              "id": "BLUE-L4-011",
+              "type": "lesson",
+              "track": "BLUE",
+              "trackName": "Business",
+              "level": 4,
+              "lessonNumber": 11,
+              "title": "Operating Leverage Analysis: Why Fixed-Cost-Heavy Businesses Swing Harder in Both Directions",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-07",
+              "path": "content/curriculum/BLUE/L4/BLUE-L4-011.md",
+              "checksum": "sha256:sha256:5ba315d94368e528ce282922fa37d0294eecb6c8af3627d7a7649f4bcb2eecf6",
+              "status": "active",
+              "ingestionId": "959cbebe-7a26-4b79-8408-0df7efe94508",
+              "importedAt": "2026-10-07T05:31:39.107Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Business",
+                "summary": "Understand how operating leverage, the ratio of fixed to variable costs in a business, amplifies the effect of revenue changes on profit."
+              }
+            },
+            "BLUE-L4-012": {
+              "id": "BLUE-L4-012",
+              "type": "lesson",
+              "track": "BLUE",
+              "trackName": "Business",
+              "level": 4,
+              "lessonNumber": 12,
+              "title": "Customer Concentration Risk Analysis: Why Relying on a Few Large Customers Is a Double-Edged Sword",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-07",
+              "path": "content/curriculum/BLUE/L4/BLUE-L4-012.md",
+              "checksum": "sha256:sha256:9f832c03425adf6b783cf9006d513fb4c760efff38c4887db8f860a93cc5aeb7",
+              "status": "active",
+              "ingestionId": "959cbebe-7a26-4b79-8408-0df7efe94508",
+              "importedAt": "2026-10-07T05:31:39.107Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Business",
+                "summary": "Understand why heavy reliance on a small number of large customers creates a distinct business risk, even when those customer relationships are currently strong and profitable."
+              }
+            },
+            "BLUE-L4-013": {
+              "id": "BLUE-L4-013",
+              "type": "lesson",
+              "track": "BLUE",
+              "trackName": "Business",
+              "level": 4,
+              "lessonNumber": 13,
+              "title": "Vendor Concentration Risk Analysis: Why Relying on a Single Supplier Mirrors Customer Concentration Risk",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-07",
+              "path": "content/curriculum/BLUE/L4/BLUE-L4-013.md",
+              "checksum": "sha256:sha256:4a0f0f9cc6d281789c2297485a389e9d88908e938017dc0514f56727b4a98f1b",
+              "status": "active",
+              "ingestionId": "959cbebe-7a26-4b79-8408-0df7efe94508",
+              "importedAt": "2026-10-07T05:31:39.107Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Business",
+                "summary": "Understand how vendor or supplier concentration creates operational risk on the opposite side of a business's relationships, mirroring customer concentration risk."
+              }
+            },
+            "BLUE-L4-014": {
+              "id": "BLUE-L4-014",
+              "type": "lesson",
+              "track": "BLUE",
+              "trackName": "Business",
+              "level": 4,
+              "lessonNumber": 14,
+              "title": "Key Person Risk Analysis: Why a Business's Value Can Depend Too Heavily on One Individual",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-07",
+              "path": "content/curriculum/BLUE/L4/BLUE-L4-014.md",
+              "checksum": "sha256:sha256:1ad518fe1737edd4763dda64e0b4aa4c05801a5a8670a21969237038fda32a20",
+              "status": "active",
+              "ingestionId": "959cbebe-7a26-4b79-8408-0df7efe94508",
+              "importedAt": "2026-10-07T05:31:39.107Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Business",
+                "summary": "Understand what key person risk means, why it particularly affects small and founder-led businesses, and how it can be identified and mitigated."
+              }
+            },
+            "BLUE-L4-015": {
+              "id": "BLUE-L4-015",
+              "type": "lesson",
+              "track": "BLUE",
+              "trackName": "Business",
+              "level": 4,
+              "lessonNumber": 15,
+              "title": "Franchise Economics Analysis: Why Buying a Franchise Trades Independence for a Tested System",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-07",
+              "path": "content/curriculum/BLUE/L4/BLUE-L4-015.md",
+              "checksum": "sha256:sha256:dd13491643e58f378ca1afec2fce295825a77e72f1c47377bcd5d4c3e1ae4d52",
+              "status": "active",
+              "ingestionId": "959cbebe-7a26-4b79-8408-0df7efe94508",
+              "importedAt": "2026-10-07T05:31:39.107Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Business",
+                "summary": "Understand the core economic tradeoffs of franchise ownership, including fees, royalties, and brand support, compared to starting an independent business."
+              }
+            },
+            "BLUE-L4-016": {
+              "id": "BLUE-L4-016",
+              "type": "lesson",
+              "track": "BLUE",
+              "trackName": "Business",
+              "level": 4,
+              "lessonNumber": 16,
+              "title": "Business Model Analysis: Why Recurring Revenue Changes a Business's Risk and Valuation Profile",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-07",
+              "path": "content/curriculum/BLUE/L4/BLUE-L4-016.md",
+              "checksum": "sha256:sha256:d598d7fb19d1d3b98a1d62ab2795c354948bb28cec2c223ee03f15dfea9b4455",
+              "status": "active",
+              "ingestionId": "959cbebe-7a26-4b79-8408-0df7efe94508",
+              "importedAt": "2026-10-07T05:31:39.107Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Business",
+                "summary": "Understand why a subscription or recurring-revenue business model is generally viewed differently, in terms of risk and valuation, than a one-time transaction business model."
+              }
+            },
+            "BLUE-L4-017": {
+              "id": "BLUE-L4-017",
+              "type": "lesson",
+              "track": "BLUE",
+              "trackName": "Business",
+              "level": 4,
+              "lessonNumber": 17,
+              "title": "Pricing Strategy Analysis: Why Price Elasticity Determines the Right Response to Rising Costs",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-07",
+              "path": "content/curriculum/BLUE/L4/BLUE-L4-017.md",
+              "checksum": "sha256:sha256:8dd4b0e4e8dc26da0e798f387e819bb021f149c7e4b5f4b54a2ed4becfcf9f03",
+              "status": "active",
+              "ingestionId": "959cbebe-7a26-4b79-8408-0df7efe94508",
+              "importedAt": "2026-10-07T05:31:39.107Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Business",
+                "summary": "Understand what price elasticity of demand means, and why it determines whether raising prices in response to rising costs is likely to help or hurt a business."
+              }
+            },
+            "BLUE-L4-018": {
+              "id": "BLUE-L4-018",
+              "type": "lesson",
+              "track": "BLUE",
+              "trackName": "Business",
+              "level": 4,
+              "lessonNumber": 18,
+              "title": "Economies of Scale Analysis: Why Growing Bigger Can Lower a Business's Per-Unit Costs",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-07",
+              "path": "content/curriculum/BLUE/L4/BLUE-L4-018.md",
+              "checksum": "sha256:sha256:e81c8eab8157a1afb23566e524b55eb49d1ae81e2b84fb13cdff2bb18d4155f5",
+              "status": "active",
+              "ingestionId": "959cbebe-7a26-4b79-8408-0df7efe94508",
+              "importedAt": "2026-10-07T05:31:39.107Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Business",
+                "summary": "Understand what economies of scale means, why growing production volume can reduce per-unit costs, and where those benefits eventually taper off."
+              }
+            },
+            "BLUE-L4-019": {
+              "id": "BLUE-L4-019",
+              "type": "lesson",
+              "track": "BLUE",
+              "trackName": "Business",
+              "level": 4,
+              "lessonNumber": 19,
+              "title": "Vertical Integration Analysis: Why Owning More of the Supply Chain Involves Real Tradeoffs",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-07",
+              "path": "content/curriculum/BLUE/L4/BLUE-L4-019.md",
+              "checksum": "sha256:sha256:f746382bf658ad60295db0cb40aeea4f8cb88fa7b3bd2e931dcb12a901cf89f3",
+              "status": "active",
+              "ingestionId": "959cbebe-7a26-4b79-8408-0df7efe94508",
+              "importedAt": "2026-10-07T05:31:39.107Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Business",
+                "summary": "Understand what vertical integration means, why a business might choose to own more stages of its supply chain, and the tradeoffs involved in that strategic choice."
+              }
+            },
+            "BLUE-L4-020": {
+              "id": "BLUE-L4-020",
+              "type": "lesson",
+              "track": "BLUE",
+              "trackName": "Business",
+              "level": 4,
+              "lessonNumber": 20,
+              "title": "Business Exit Strategy Analysis: Why Planning the End Shapes Decisions from the Beginning",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-07",
+              "path": "content/curriculum/BLUE/L4/BLUE-L4-020.md",
+              "checksum": "sha256:sha256:070608fca625ae2ea340e26f60f688e8512fe5034890c1f5073a5f1fd9a1d4cc",
+              "status": "active",
+              "ingestionId": "959cbebe-7a26-4b79-8408-0df7efe94508",
+              "importedAt": "2026-10-07T05:31:39.107Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Business",
+                "summary": "Understand the major categories of business exit strategy, and why considering an eventual exit early influences ongoing business decisions."
+              }
+            },
+            "BLUE-L4-021": {
+              "id": "BLUE-L4-021",
+              "type": "lesson",
+              "track": "BLUE",
+              "trackName": "Business",
+              "level": 4,
+              "lessonNumber": 21,
+              "title": "M&A Rationale Analysis: Why Companies Acquire Each Other, and Why Synergies Are Easier Promised Than Delivered",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-07",
+              "path": "content/curriculum/BLUE/L4/BLUE-L4-021.md",
+              "checksum": "sha256:sha256:90501b6332f6ef0ecc7d7c61da9568cdc15af581c0adc1896ce1ce4e712cb3d8",
+              "status": "active",
+              "ingestionId": "959cbebe-7a26-4b79-8408-0df7efe94508",
+              "importedAt": "2026-10-07T05:31:39.107Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Business",
+                "summary": "Understand the common strategic rationales behind mergers and acquisitions, and why projected synergies frequently fail to fully materialize."
+              }
+            },
+            "BLUE-L4-022": {
+              "id": "BLUE-L4-022",
+              "type": "lesson",
+              "track": "BLUE",
+              "trackName": "Business",
+              "level": 4,
+              "lessonNumber": 22,
+              "title": "Earnout Analysis: Why Deferred, Performance-Based Payments Bridge a Valuation Gap",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-07",
+              "path": "content/curriculum/BLUE/L4/BLUE-L4-022.md",
+              "checksum": "sha256:sha256:246981bb542e9f2470dd173eae8cde49d56e1ff9bf4c7760a0dcef0c6f2cdb91",
+              "status": "active",
+              "ingestionId": "959cbebe-7a26-4b79-8408-0df7efe94508",
+              "importedAt": "2026-10-07T05:31:39.107Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Business",
+                "summary": "Understand how earnout structures work in a business sale, why they are used to bridge disagreements about a business's future performance, and the risks they carry for sellers."
+              }
+            },
+            "BLUE-L4-023": {
+              "id": "BLUE-L4-023",
+              "type": "lesson",
+              "track": "BLUE",
+              "trackName": "Business",
+              "level": 4,
+              "lessonNumber": 23,
+              "title": "Non-Compete Analysis: Why Restrictive Covenants in a Business Sale Protect the Value Being Purchased",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-07",
+              "path": "content/curriculum/BLUE/L4/BLUE-L4-023.md",
+              "checksum": "sha256:sha256:9f704bf26585e908e3bffe4ddb29a169ee6160f5aa8490436f1df7775ba4595f",
+              "status": "active",
+              "ingestionId": "959cbebe-7a26-4b79-8408-0df7efe94508",
+              "importedAt": "2026-10-07T05:31:39.107Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Business",
+                "summary": "Understand why non-compete agreements are a standard feature of business sale transactions, and why enforceability and scope vary significantly by jurisdiction."
+              }
+            },
+            "BLUE-L4-024": {
+              "id": "BLUE-L4-024",
+              "type": "lesson",
+              "track": "BLUE",
+              "trackName": "Business",
+              "level": 4,
+              "lessonNumber": 24,
+              "title": "Private Equity vs Venture Capital Analysis: Why Two Types of Investors Target Very Different Businesses",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-07",
+              "path": "content/curriculum/BLUE/L4/BLUE-L4-024.md",
+              "checksum": "sha256:sha256:71fe343e0017b4d3d7130e3dd287aa0fcb417bf2630b177e1703f8637a4351f3",
+              "status": "active",
+              "ingestionId": "959cbebe-7a26-4b79-8408-0df7efe94508",
+              "importedAt": "2026-10-07T05:31:39.107Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Business",
+                "summary": "Understand the key differences between private equity and venture capital as sources of business financing, and why each targets businesses at very different stages and risk profiles."
+              }
+            },
+            "BLUE-L4-025": {
+              "id": "BLUE-L4-025",
+              "type": "lesson",
+              "track": "BLUE",
+              "trackName": "Business",
+              "level": 4,
+              "lessonNumber": 25,
+              "title": "Debt vs Equity Financing Analysis: Why the Right Financing Type Depends on Business Stage and Risk Tolerance",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-07",
+              "path": "content/curriculum/BLUE/L4/BLUE-L4-025.md",
+              "checksum": "sha256:sha256:9b1543910181f35066508774e858d97493eadc03640db14459cee971059f6259",
+              "status": "active",
+              "ingestionId": "959cbebe-7a26-4b79-8408-0df7efe94508",
+              "importedAt": "2026-10-07T05:31:39.107Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Business",
+                "summary": "Understand the core tradeoffs between financing a business with debt versus equity, and why the appropriate choice depends on a business's stage, cash flow, and the owner's risk tolerance."
+              }
+            },
+            "BLUE-L4-026": {
+              "id": "BLUE-L4-026",
+              "type": "lesson",
+              "track": "BLUE",
+              "trackName": "Business",
+              "level": 4,
+              "lessonNumber": 26,
+              "title": "Business Insurance Analysis: Why Key Risks Require Specific, Deliberately Chosen Coverage",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-07",
+              "path": "content/curriculum/BLUE/L4/BLUE-L4-026.md",
+              "checksum": "sha256:sha256:620d7d4f86593c47ac740818304520a1e0f43dde479e0b69d78060bd0531b486",
+              "status": "active",
+              "ingestionId": "959cbebe-7a26-4b79-8408-0df7efe94508",
+              "importedAt": "2026-10-07T05:31:39.107Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Business",
+                "summary": "Understand the major categories of business insurance and why matching specific coverage types to a business's actual risk exposures is essential to sound risk management."
+              }
+            },
+            "BLUE-L4-027": {
+              "id": "BLUE-L4-027",
+              "type": "lesson",
+              "track": "BLUE",
+              "trackName": "Business",
+              "level": 4,
+              "lessonNumber": 27,
+              "title": "Buy-Sell Agreement Analysis: Why Co-Owned Businesses Need a Predetermined Exit Plan for Each Owner",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-07",
+              "path": "content/curriculum/BLUE/L4/BLUE-L4-027.md",
+              "checksum": "sha256:sha256:1e90d4cc9016a54e7335974f03e32c54c5562dc93170b74edfdc6c4af8c65207",
+              "status": "active",
+              "ingestionId": "959cbebe-7a26-4b79-8408-0df7efe94508",
+              "importedAt": "2026-10-07T05:31:39.107Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Business",
+                "summary": "Understand what a buy-sell agreement is, why multi-owner businesses need one in place before a triggering event occurs, and the common funding mechanisms used."
+              }
+            },
+            "BLUE-L4-028": {
+              "id": "BLUE-L4-028",
+              "type": "lesson",
+              "track": "BLUE",
+              "trackName": "Business",
+              "level": 4,
+              "lessonNumber": 28,
+              "title": "Licensing vs Owning Intellectual Property Analysis: Why Controlling IP Changes a Business's Risk and Flexibility",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-07",
+              "path": "content/curriculum/BLUE/L4/BLUE-L4-028.md",
+              "checksum": "sha256:sha256:b3022a2f99b693d87cda99b195773baa3b4951ca33ca7b36d33c1f683c2edbed",
+              "status": "active",
+              "ingestionId": "959cbebe-7a26-4b79-8408-0df7efe94508",
+              "importedAt": "2026-10-07T05:31:39.107Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Business",
+                "summary": "Understand the tradeoffs between licensing intellectual property from another party versus owning it outright, and how this choice affects a business's risk and long-term flexibility."
+              }
+            },
+            "BLUE-L4-029": {
+              "id": "BLUE-L4-029",
+              "type": "lesson",
+              "track": "BLUE",
+              "trackName": "Business",
+              "level": 4,
+              "lessonNumber": 29,
+              "title": "Business Cycle Sensitivity Analysis: Why Different Industries Respond Differently to the Same Economic Cycle",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-07",
+              "path": "content/curriculum/BLUE/L4/BLUE-L4-029.md",
+              "checksum": "sha256:sha256:a824835945194b4a744ae887ff3c1d4f32407c8d1a4e3f35e6738d2796033a39",
+              "status": "active",
+              "ingestionId": "959cbebe-7a26-4b79-8408-0df7efe94508",
+              "importedAt": "2026-10-07T05:31:39.107Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Business",
+                "summary": "Understand why some industries are highly sensitive to the broader economic cycle while others are relatively insulated, and why this affects business planning and risk assessment."
+              }
+            },
+            "BLUE-L4-030": {
+              "id": "BLUE-L4-030",
+              "type": "lesson",
+              "track": "BLUE",
+              "trackName": "Business",
+              "level": 4,
+              "lessonNumber": 30,
+              "title": "Employee Equity Compensation Analysis: Why Stock Options and Grants Align Incentives but Carry Real Complexity",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-07",
+              "path": "content/curriculum/BLUE/L4/BLUE-L4-030.md",
+              "checksum": "sha256:sha256:4e889f121ef1366a9a0ed12d9c28b73c6ddaf1b758998e29a751f44741fea18e",
+              "status": "active",
+              "ingestionId": "959cbebe-7a26-4b79-8408-0df7efe94508",
+              "importedAt": "2026-10-07T05:31:39.107Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Business",
+                "summary": "Understand how employee equity compensation, including stock options and restricted stock, is designed to align employee incentives with company performance, and the complexity involved for both the company and the employee."
+              }
+            },
+            "BLUE-L4-031": {
+              "id": "BLUE-L4-031",
+              "type": "lesson",
+              "track": "BLUE",
+              "trackName": "Business",
+              "level": 4,
+              "lessonNumber": 31,
+              "title": "Churn Rate Analysis: Why Retaining Customers Is Often Cheaper Than Acquiring New Ones",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-07",
+              "path": "content/curriculum/BLUE/L4/BLUE-L4-031.md",
+              "checksum": "sha256:sha256:e44e21b223385cc890f15e2dac53521ab238b6f1d59f75185edf387f8dae4164",
+              "status": "active",
+              "ingestionId": "959cbebe-7a26-4b79-8408-0df7efe94508",
+              "importedAt": "2026-10-07T05:31:39.107Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Business",
+                "summary": "Understand how churn rate is calculated for a recurring-revenue business, and why even small differences in churn compound into large differences in long-term value."
+              }
+            },
+            "BLUE-L4-032": {
+              "id": "BLUE-L4-032",
+              "type": "lesson",
+              "track": "BLUE",
+              "trackName": "Business",
+              "level": 4,
+              "lessonNumber": 32,
+              "title": "Scaling Economics Analysis: Why Growing a Business Efficiently Requires More Than Just Adding Customers",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-07",
+              "path": "content/curriculum/BLUE/L4/BLUE-L4-032.md",
+              "checksum": "sha256:sha256:ad407883a1ee6b6d806fced7a2868af2b95334328ad8d1378104b9874487e4ab",
+              "status": "active",
+              "ingestionId": "959cbebe-7a26-4b79-8408-0df7efe94508",
+              "importedAt": "2026-10-07T05:31:39.107Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Business",
+                "summary": "Understand why scaling a business profitably requires operational systems and processes that can handle increased volume without proportionally increasing costs or complexity."
+              }
+            },
+            "BLUE-L4-033": {
+              "id": "BLUE-L4-033",
+              "type": "lesson",
+              "track": "BLUE",
+              "trackName": "Business",
+              "level": 4,
+              "lessonNumber": 33,
+              "title": "First-Mover vs Fast-Follower Analysis: Why Being First to Market Is Not Always the Winning Strategy",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-07",
+              "path": "content/curriculum/BLUE/L4/BLUE-L4-033.md",
+              "checksum": "sha256:sha256:db598b37758bf17a749158fbdfd15caf9f06e1ec418bf7203821ee369d45bbd2",
+              "status": "active",
+              "ingestionId": "959cbebe-7a26-4b79-8408-0df7efe94508",
+              "importedAt": "2026-10-07T05:31:39.107Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Business",
+                "summary": "Understand the tradeoffs between being a first-mover in a new market and being a fast-follower that learns from and improves on early entrants."
+              }
+            },
+            "BLUE-L4-034": {
+              "id": "BLUE-L4-034",
+              "type": "lesson",
+              "track": "BLUE",
+              "trackName": "Business",
+              "level": 4,
+              "lessonNumber": 34,
+              "title": "Recession-Proofing Analysis: Why No Business Is Fully Immune, But Some Preparation Genuinely Helps",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-07",
+              "path": "content/curriculum/BLUE/L4/BLUE-L4-034.md",
+              "checksum": "sha256:sha256:2b3c11530d8d753f631f7dd07e236e99a6d6e3534fe1fade5473b71f252417c2",
+              "status": "active",
+              "ingestionId": "959cbebe-7a26-4b79-8408-0df7efe94508",
+              "importedAt": "2026-10-07T05:31:39.107Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Business",
+                "summary": "Understand practical steps a business can take to improve its resilience heading into an economic downturn, while recognizing that no business is entirely immune to broad economic stress."
+              }
+            },
+            "BLUE-L4-035": {
+              "id": "BLUE-L4-035",
+              "type": "lesson",
+              "track": "BLUE",
+              "trackName": "Business",
+              "level": 4,
+              "lessonNumber": 35,
+              "title": "Network Effects Analysis: Why Some Businesses Become More Valuable as They Get More Customers",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-07",
+              "path": "content/curriculum/BLUE/L4/BLUE-L4-035.md",
+              "checksum": "sha256:sha256:3b6b93bc151b715d0724e025fb4af83d73978af4f0f68c25b4aa074929dab3b5",
+              "status": "active",
+              "ingestionId": "959cbebe-7a26-4b79-8408-0df7efe94508",
+              "importedAt": "2026-10-07T05:31:39.107Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Business",
+                "summary": "Understand what network effects means, why they create a distinctive, self-reinforcing competitive advantage, and why not all businesses can benefit from them."
+              }
+            },
+            "BLUE-L4-036": {
+              "id": "BLUE-L4-036",
+              "type": "lesson",
+              "track": "BLUE",
+              "trackName": "Business",
+              "level": 4,
+              "lessonNumber": 36,
+              "title": "Outsourcing vs Insourcing Analysis: Why the Make-or-Buy Decision Extends Beyond Simple Cost Comparison",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-07",
+              "path": "content/curriculum/BLUE/L4/BLUE-L4-036.md",
+              "checksum": "sha256:sha256:1104a4d24e016ec14dcf557127ddf0e394eedb6bb2453ff86a3fd81bf01e5bf6",
+              "status": "active",
+              "ingestionId": "959cbebe-7a26-4b79-8408-0df7efe94508",
+              "importedAt": "2026-10-07T05:31:39.107Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Business",
+                "summary": "Understand the outsourcing versus insourcing decision framework, and why factors beyond simple cost comparison should inform this strategic choice."
+              }
+            },
+            "BLUE-L4-037": {
+              "id": "BLUE-L4-037",
+              "type": "lesson",
+              "track": "BLUE",
+              "trackName": "Business",
+              "level": 4,
+              "lessonNumber": 37,
+              "title": "Business Partnership Dispute Analysis: Why Unaddressed Governance Gaps Create Predictable Conflict",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-07",
+              "path": "content/curriculum/BLUE/L4/BLUE-L4-037.md",
+              "checksum": "sha256:sha256:d77e8cf9d8ab0d650decb755bd56c519a5100d04b556a987b7b48c6959ff4c6a",
+              "status": "active",
+              "ingestionId": "959cbebe-7a26-4b79-8408-0df7efe94508",
+              "importedAt": "2026-10-07T05:31:39.107Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Business",
+                "summary": "Understand common sources of business partnership disputes and why proactively addressing governance questions in a written partnership agreement helps prevent predictable conflicts."
+              }
+            },
+            "BLUE-L4-038": {
+              "id": "BLUE-L4-038",
+              "type": "lesson",
+              "track": "BLUE",
+              "trackName": "Business",
+              "level": 4,
+              "lessonNumber": 38,
+              "title": "Sensitivity Analysis: Why Testing a Business Plan Against Changed Assumptions Reveals Hidden Fragility",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-07",
+              "path": "content/curriculum/BLUE/L4/BLUE-L4-038.md",
+              "checksum": "sha256:sha256:93187310bceb80aafca662a599d25e07f79292b33b18bd42b184c7b4adfb17b4",
+              "status": "active",
+              "ingestionId": "959cbebe-7a26-4b79-8408-0df7efe94508",
+              "importedAt": "2026-10-07T05:31:39.107Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Business",
+                "summary": "Understand what sensitivity analysis means in business planning, and why testing key assumptions individually reveals which ones matter most to a plan's overall viability."
+              }
+            },
+            "BLUE-L4-039": {
+              "id": "BLUE-L4-039",
+              "type": "lesson",
+              "track": "BLUE",
+              "trackName": "Business",
+              "level": 4,
+              "lessonNumber": 39,
+              "title": "Scenario Planning Analysis: Why Preparing Multiple Coherent Futures Beats a Single Point Forecast",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-07",
+              "path": "content/curriculum/BLUE/L4/BLUE-L4-039.md",
+              "checksum": "sha256:sha256:cff8bf6c291ca0adcad8058b615ef8930b828a7bbae8c17e0633350b9be554ff",
+              "status": "active",
+              "ingestionId": "959cbebe-7a26-4b79-8408-0df7efe94508",
+              "importedAt": "2026-10-07T05:31:39.107Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Business",
+                "summary": "Understand how scenario planning differs from a single-point financial forecast, and why preparing for several coherent, plausible futures improves a business's strategic resilience."
+              }
+            },
+            "BLUE-L4-040": {
+              "id": "BLUE-L4-040",
+              "type": "lesson",
+              "track": "BLUE",
+              "trackName": "Business",
+              "level": 4,
+              "lessonNumber": 40,
+              "title": "Business Pivot Analysis: Why Changing a Core Business Model Requires Weighing Sunk Costs Correctly",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-07",
+              "path": "content/curriculum/BLUE/L4/BLUE-L4-040.md",
+              "checksum": "sha256:sha256:aed4df8f440fb84ab6e4414b4a08e7820b6c21c8f54218a9c7b26f331e780a67",
+              "status": "active",
+              "ingestionId": "959cbebe-7a26-4b79-8408-0df7efe94508",
+              "importedAt": "2026-10-07T05:31:39.107Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Business",
+                "summary": "Understand why a business pivot requires objectively reassessing the current path forward, and why sunk costs should not factor into that forward-looking decision."
+              }
+            },
+            "BLUE-L4-041": {
+              "id": "BLUE-L4-041",
+              "type": "lesson",
+              "track": "BLUE",
+              "trackName": "Business",
+              "level": 4,
+              "lessonNumber": 41,
+              "title": "Competitive Moat Analysis: Why Some Businesses Defend Their Profits Better Than Others",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-07",
+              "path": "content/curriculum/BLUE/L4/BLUE-L4-041.md",
+              "checksum": "sha256:sha256:5c047c999a0d8c1b2a52be9c798060e3cecd27cd691c7a0191fd52164a8bd12b",
+              "status": "active",
+              "ingestionId": "959cbebe-7a26-4b79-8408-0df7efe94508",
+              "importedAt": "2026-10-07T05:31:39.107Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Business",
+                "summary": "Understand what a competitive moat means, the common sources of durable competitive advantage, and why identifying a business's specific moat (or lack thereof) matters for long-term analysis."
+              }
+            },
+            "BLUE-L4-042": {
+              "id": "BLUE-L4-042",
+              "type": "lesson",
+              "track": "BLUE",
+              "trackName": "Business",
+              "level": 4,
+              "lessonNumber": 42,
+              "title": "SWOT Analysis Limitations: Why a Popular Framework Requires Honest, Specific Input to Be Useful",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-07",
+              "path": "content/curriculum/BLUE/L4/BLUE-L4-042.md",
+              "checksum": "sha256:sha256:9b9fe9473d1348725c9bd3149b648ff9ca4b8cf5e577a7e25412f305f712c77e",
+              "status": "active",
+              "ingestionId": "959cbebe-7a26-4b79-8408-0df7efe94508",
+              "importedAt": "2026-10-07T05:31:39.107Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Business",
+                "summary": "Understand the SWOT analysis framework's basic structure, and why its usefulness depends heavily on the honesty and specificity of the inputs used to fill it out."
+              }
+            },
+            "BLUE-L4-043": {
+              "id": "BLUE-L4-043",
+              "type": "lesson",
+              "track": "BLUE",
+              "trackName": "Business",
+              "level": 4,
+              "lessonNumber": 43,
+              "title": "Business Succession Planning Analysis: Why Passing a Business to the Next Generation Requires More Than Good Intentions",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-07",
+              "path": "content/curriculum/BLUE/L4/BLUE-L4-043.md",
+              "checksum": "sha256:sha256:b59a3de2167e6e9a91365dc030ab99187782af996412d44f15484518a4c3df75",
+              "status": "active",
+              "ingestionId": "959cbebe-7a26-4b79-8408-0df7efe94508",
+              "importedAt": "2026-10-07T05:31:39.107Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Business",
+                "summary": "Understand why family business succession requires deliberate, structured planning, and why succession failures often stem from unaddressed governance and preparation gaps rather than a lack of family commitment."
+              }
+            },
+            "BLUE-L4-044": {
+              "id": "BLUE-L4-044",
+              "type": "lesson",
+              "track": "BLUE",
+              "trackName": "Business",
+              "level": 4,
+              "lessonNumber": 44,
+              "title": "Business Cycle Financing Analysis: Why Timing Debt and Equity Decisions Against the Economic Cycle Matters",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-07",
+              "path": "content/curriculum/BLUE/L4/BLUE-L4-044.md",
+              "checksum": "sha256:sha256:fc5687751dd1eb615b69c77ff3165f83c8c9383bcec3743a31883402f899636e",
+              "status": "active",
+              "ingestionId": "959cbebe-7a26-4b79-8408-0df7efe94508",
+              "importedAt": "2026-10-07T05:31:39.107Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Business",
+                "summary": "Understand why the timing of a business's financing decisions relative to the broader economic and interest rate cycle can significantly affect both the cost and availability of capital."
+              }
+            },
+            "BLUE-L4-045": {
+              "id": "BLUE-L4-045",
+              "type": "lesson",
+              "track": "BLUE",
+              "trackName": "Business",
+              "level": 4,
+              "lessonNumber": 45,
+              "title": "Business Licensing and Regulatory Compliance Analysis: Why Regulatory Risk Requires Ongoing, Not One-Time, Attention",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-07",
+              "path": "content/curriculum/BLUE/L4/BLUE-L4-045.md",
+              "checksum": "sha256:sha256:7395f2051286ff46566777be0b180473d4f363dc9ead604b563bfbc6c8d1ff08",
+              "status": "active",
+              "ingestionId": "959cbebe-7a26-4b79-8408-0df7efe94508",
+              "importedAt": "2026-10-07T05:31:39.107Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Business",
+                "summary": "Understand why regulatory compliance is an ongoing business risk requiring continuous attention, rather than a one-time hurdle cleared at the time of business formation."
+              }
+            },
+            "BLUE-L4-046": {
+              "id": "BLUE-L4-046",
+              "type": "lesson",
+              "track": "BLUE",
+              "trackName": "Business",
+              "level": 4,
+              "lessonNumber": 46,
+              "title": "Business Diversification Analysis: Why Expanding Into Related vs Unrelated Businesses Carries Different Risk Profiles",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-07",
+              "path": "content/curriculum/BLUE/L4/BLUE-L4-046.md",
+              "checksum": "sha256:sha256:18a4c9d23f0a733109d36d019967e2710431589e58b641b4f4f6e1b4f8afc613",
+              "status": "active",
+              "ingestionId": "959cbebe-7a26-4b79-8408-0df7efe94508",
+              "importedAt": "2026-10-07T05:31:39.107Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Business",
+                "summary": "Understand the distinction between related and unrelated business diversification, and why each carries a different risk and competency profile for the expanding business."
+              }
+            },
+            "BLUE-L4-047": {
+              "id": "BLUE-L4-047",
+              "type": "lesson",
+              "track": "BLUE",
+              "trackName": "Business",
+              "level": 4,
+              "lessonNumber": 47,
+              "title": "Pricing Model Analysis: Why the Structure of a Price, Not Just Its Level, Shapes Customer Behavior",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-07",
+              "path": "content/curriculum/BLUE/L4/BLUE-L4-047.md",
+              "checksum": "sha256:sha256:41684670ac7f186bde1fbe68b4e14c5ea851722621e856a0025aff4a40531088",
+              "status": "active",
+              "ingestionId": "959cbebe-7a26-4b79-8408-0df7efe94508",
+              "importedAt": "2026-10-07T05:31:39.107Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Business",
+                "summary": "Understand how different pricing model structures — flat-rate, usage-based, tiered, and freemium — shape customer behavior and business revenue predictability differently."
+              }
+            },
+            "BLUE-L4-048": {
+              "id": "BLUE-L4-048",
+              "type": "lesson",
+              "track": "BLUE",
+              "trackName": "Business",
+              "level": 4,
+              "lessonNumber": 48,
+              "title": "Business Data and Analytics Maturity Analysis: Why Decision Quality Depends on the Underlying Data Infrastructure",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-07",
+              "path": "content/curriculum/BLUE/L4/BLUE-L4-048.md",
+              "checksum": "sha256:sha256:22258e2ae386894fd5b424c5c17785add01e440fe6e2b24aed2c04ce50e4d0b1",
+              "status": "active",
+              "ingestionId": "959cbebe-7a26-4b79-8408-0df7efe94508",
+              "importedAt": "2026-10-07T05:31:39.107Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Business",
+                "summary": "Understand why a business's ability to make sound, data-informed decisions depends heavily on the underlying quality and structure of its data infrastructure, not just the sophistication of its analysis techniques."
+              }
+            },
+            "BLUE-L4-049": {
+              "id": "BLUE-L4-049",
+              "type": "lesson",
+              "track": "BLUE",
+              "trackName": "Business",
+              "level": 4,
+              "lessonNumber": 49,
+              "title": "Business Contract Risk Analysis: Why the Terms Buried in Routine Agreements Can Create Outsized Exposure",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-07",
+              "path": "content/curriculum/BLUE/L4/BLUE-L4-049.md",
+              "checksum": "sha256:sha256:1d9473a94561b7537c77e6ab32c08511e3d7c0c542915058ccca5d66a4c015e6",
+              "status": "active",
+              "ingestionId": "959cbebe-7a26-4b79-8408-0df7efe94508",
+              "importedAt": "2026-10-07T05:31:39.107Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Business",
+                "summary": "Understand why routine business contracts often contain specific terms — indemnification, liability caps, termination rights — that can create outsized risk exposure if not carefully reviewed and negotiated."
+              }
+            },
+            "BLUE-L4-050": {
+              "id": "BLUE-L4-050",
+              "type": "lesson",
+              "track": "BLUE",
+              "trackName": "Business",
+              "level": 4,
+              "lessonNumber": 50,
+              "title": "Business Analysis Integration: Why a Complete Business Assessment Requires Weaving Multiple Analytical Threads Together",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-07",
+              "path": "content/curriculum/BLUE/L4/BLUE-L4-050.md",
+              "checksum": "sha256:sha256:5d5666fddf99a627273117dd0a567a3c4dad0244cab20d7d95123a4c00efe6a6",
+              "status": "active",
+              "ingestionId": "959cbebe-7a26-4b79-8408-0df7efe94508",
+              "importedAt": "2026-10-07T05:31:39.107Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Business",
+                "summary": "Understand how the individual analytical concepts covered throughout this level combine into a comprehensive framework for evaluating any business's overall health and risk profile."
+              }
+            }
+          }
         },
         "5": {
           "assets": {}
