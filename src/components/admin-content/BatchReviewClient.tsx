@@ -16,6 +16,7 @@ type FileDeleteDialogState =
 
 export default function BatchReviewClient({ batchId }: { batchId: string }) {
   const [batch, setBatch] = useState<UploadBatch | null>(null);
+  const [publicationReceipt, setPublicationReceipt] = useState<{ state?: string; learnerVisible?: boolean } | null>(null);
   const [csrfToken, setCsrfToken] = useState("");
   const [error, setError] = useState("");
   const [filters, setFilters] = useState({ status: "all", pillar: "all", language: "all" });
@@ -49,6 +50,7 @@ export default function BatchReviewClient({ batchId }: { batchId: string }) {
       return;
     }
     setBatch(payload.batch);
+    setPublicationReceipt(payload.publicationReceipt ?? null);
     setSelected((current) => {
       const next = pruneSelection(current, (payload.batch?.files ?? []).map((file: ExtractedFile) => file.id));
       return next.length === current.length && next.every((id, index) => id === current[index]) ? current : next;
@@ -70,6 +72,7 @@ export default function BatchReviewClient({ batchId }: { batchId: string }) {
   }, [batch, filters]);
 
   const approvedCount = batch?.files.filter((f) => f.reviewStatus === "approved").length ?? 0;
+  const recoveryPublished = publicationReceipt?.state === "PUBLISHED" && publicationReceipt?.learnerVisible === true;
   const visibleFileIds = useMemo(() => visibleFiles.map((file) => file.id), [visibleFiles]);
   const visibleSelection = useMemo(() => getVisibleSelectionState(selected, visibleFileIds), [selected, visibleFileIds]);
   const selectedVisibleFiles = useMemo(() => visibleFiles.filter((file) => selected.includes(file.id)), [selected, visibleFiles]);
@@ -283,7 +286,7 @@ export default function BatchReviewClient({ batchId }: { batchId: string }) {
           <div>
             <p className="text-sm uppercase tracking-[0.3em] text-blue-300">Batch review</p>
             <h1 className="mt-3 text-4xl font-black">{batch.name}</h1>
-            <p className="mt-3 text-slate-300">Source: {batch.source} · Status: {batch.status}</p>
+            <p className="mt-3 text-slate-300">Source: {batch.source} · Status: {recoveryPublished ? "PUBLISHED - learner verified" : batch.status}</p>
           </div>
           <div className="flex flex-wrap gap-3">
             <Link href="/admin/content" className="rounded-xl border border-white/15 px-5 py-3 font-semibold text-slate-200 hover:border-white/30">Back</Link>
@@ -424,6 +427,12 @@ export default function BatchReviewClient({ batchId }: { batchId: string }) {
         </div>
 
         {/* Publish to Course workflow section */}
+        {recoveryPublished ? (
+          <section className="mt-10 rounded-3xl border border-emerald-500/30 bg-emerald-900/10 p-6">
+            <h2 className="text-2xl font-bold text-white">Published to Course</h2>
+            <p className="mt-2 text-sm text-emerald-200">This recovered package is already learner-verified and PUBLISHED. No GitHub PR or additional publish action is required.</p>
+          </section>
+        ) : (
         <section className="mt-10 rounded-3xl border border-emerald-500/30 bg-emerald-900/10 p-6">
           <h2 className="text-2xl font-bold text-white">Publish to Course</h2>
           <p className="mt-2 text-sm text-slate-300">
@@ -501,6 +510,8 @@ export default function BatchReviewClient({ batchId }: { batchId: string }) {
             {publishing ? "Publishing…" : `Publish ${approvedCount} approved file${approvedCount !== 1 ? "s" : ""} to course`}
           </button>
         </section>
+
+        )}
 
         <section className="mt-10 rounded-3xl border border-white/10 bg-[#101a2f] p-6">
           <h2 className="text-2xl font-bold text-white">Audit history</h2>
