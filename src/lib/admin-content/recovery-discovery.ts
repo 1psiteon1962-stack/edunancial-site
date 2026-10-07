@@ -3,6 +3,7 @@ import { inferCurriculumPackageIdentity } from "@/lib/admin-content/package-uplo
 import type { StoredUploadEntry } from "@/lib/admin-content/service";
 import { getAdminContentStorage } from "@/lib/admin-content/storage";
 import { getUploadReceipt, uploadIdFromStoragePath } from "@/lib/admin-content/upload-receipts";
+import { verifyRestoredCanonicalCoordinate } from "@/lib/admin-content/restoration-post-publication";
 import type { UploadBatch } from "@/lib/admin-content/types";
 
 export type RecoveryCandidate = { batchId: string; upload: StoredUploadEntry };
@@ -42,6 +43,15 @@ export type RecoverableCurriculumPackage = RecoveryCandidate & {
  * a completed extracted batch. This function never creates a batch, publishes
  * curriculum, or mutates persistent upload storage.
  */
+async function receiptIsActuallyComplete(receipt: Awaited<ReturnType<typeof getUploadReceipt>>) {
+  if (receipt?.state !== "PUBLISHED") return false;
+  if (receipt.verification?.learnerVisible !== true) return false;
+  if (!receipt.coordinate) return true;
+  if (!/^[A-Z]+:L[1-5]:(?:en|en-US)$/u.test(receipt.coordinate)) return true;
+  const final = await verifyRestoredCanonicalCoordinate(receipt.coordinate);
+  return final.complete;
+}
+
 export async function getRecoverableUploads(): Promise<RecoveryCandidate[]> {
   const storage = getAdminContentStorage();
   const entries = await storage.listWorkspaceEntries();
@@ -63,7 +73,7 @@ export async function getRecoverableUploads(): Promise<RecoveryCandidate[]> {
     const receiptUploadId = uploadIdFromStoragePath(storagePath);
     if (receiptUploadId) {
       const receipt = await getUploadReceipt(receiptUploadId);
-      if (receipt?.state === "PUBLISHED") continue;
+      if (await receiptIsActuallyComplete(receipt)) continue;
       if (receipt?.state === "FAILED" && receipt.retryable === false) continue;
     }
 
@@ -97,7 +107,7 @@ export async function getRecoverableUploads(): Promise<RecoveryCandidate[]> {
       const storagePath = uploadRecord.storagePath;
       // Persisted batch assets may use the admin-content upload namespace rather\n      // than the newer uploads/courses prefix. The asset itself is authoritative.\n      if (!storagePath || !uploadRecord.isArchive || !uploadRecord.originalFilename.toLowerCase().endsWith(".zip") || seen.has(storagePath) || ingested.has(storagePath)) continue;
       const receipt = await getUploadReceipt(uploadRecord.id);
-      if (receipt?.state === "PUBLISHED") continue;
+      if (await receiptIsActuallyComplete(receipt)) continue;
       if (receipt?.state === "FAILED" && receipt.retryable === false) continue;
       seen.add(storagePath);
       candidates.push({ batchId: uploadRecord.batchId ?? batch.id, upload: { uploadId: uploadRecord.id, originalFilename: uploadRecord.originalFilename, mimeType: uploadRecord.mimeType || "application/zip", sizeBytes: uploadRecord.sizeBytes ?? 0, storagePath } });
