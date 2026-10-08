@@ -109,9 +109,16 @@ export async function getRecoverableUploads(): Promise<RecoveryCandidate[]> {
   // retain the original ZIP object after extraction/export. Those batches are
   // still durable recovery material: rebuild a recovery candidate from the batch
   // upload record when no learner-verified PUBLISHED receipt exists.
-  const batches = await storage.listBatches();
-  for (const summary of batches) {
-    const batch = await storage.getBatch(summary.id) as UploadBatch | null;
+  const summaries = await storage.listBatches();
+  const batchIds = new Set(summaries.map((summary) => summary.id));
+  // The batch index can lag or be lost across legacy storage migrations. The
+  // batch JSON objects themselves are durable, so enumerate them as a fallback.
+  for (const key of entries) {
+    const match = key.match(/^batches\/(batch_[^/]+)\.json$/u);
+    if (match) batchIds.add(match[1]);
+  }
+  for (const batchId of batchIds) {
+    const batch = await storage.getBatch(batchId) as UploadBatch | null;
     if (!batch) continue;
     for (const uploadRecord of batch.uploads ?? []) {
       const storagePath = uploadRecord.storagePath;
