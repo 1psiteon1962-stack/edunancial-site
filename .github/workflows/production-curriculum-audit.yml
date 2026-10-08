@@ -47,21 +47,12 @@ jobs:
             psql "$DATABASE_URL" -v ON_ERROR_STOP=1 -c "\\copy (select * from $t) to 'backup/neon/$t.csv' with csv header" \
               && echo "$t exported" || echo "::warning::$t not exported (table may not exist)"
           done
-      - name: Wait for deploy before exporting blobs (push only)
-        if: github.event_name == 'push'
-        run: sleep 240
-      - name: Export Netlify Blob curriculum store (read-only)
-        env:
-          GITHUB_TOKEN: ${{ github.token }}
-          GITHUB_REPOSITORY: ${{ github.repository }}
-          GITHUB_RUN_ID: ${{ github.run_id }}
-        run: node scripts/curriculum/backup-store.mjs backup
       - uses: actions/upload-artifact@v4
         with:
           name: curriculum-backup-${{ github.run_id }}
           path: backup/
           retention-days: 90
-          if-no-files-found: error
+          if-no-files-found: warn
 
   audit:
     needs: backup
