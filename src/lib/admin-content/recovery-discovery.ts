@@ -6,6 +6,7 @@ import { getUploadReceipt, uploadIdFromStoragePath } from "@/lib/admin-content/u
 import { verifyRestoredCanonicalCoordinate } from "@/lib/admin-content/restoration-post-publication";
 import { getRuntimePublishedTrack } from "@/lib/curriculum/runtime-localization";
 import type { UploadBatch } from "@/lib/admin-content/types";
+import { sameLocale } from "@/lib/curriculum/translation-package-store";
 
 export type RecoveryCandidate = { batchId: string; upload: StoredUploadEntry };
 
