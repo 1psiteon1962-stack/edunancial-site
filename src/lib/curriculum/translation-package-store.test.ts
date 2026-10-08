@@ -16,3 +16,10 @@ test("learner lesson reads only the package for its lesson coordinate", () => {
   assert.match(published, /readTranslationPackageForLesson\(lessonId,locale\)/);
   assert.doesNotMatch(published, /getPublishedLesson[^\n]+readTranslationPackages\(\)/u);
 });
+
+test("scoped translation reads degrade to committed content when blob storage is unavailable", () => {
+  const lessonRead = store.match(/export async function readTranslationPackageForLesson[^\n]+/u)?.[0] ?? "";
+  const localeRead = store.match(/export async function readTranslationPackagesForLocale[^\n]+/u)?.[0] ?? "";
+  assert.match(lessonRead, /try\{[\s\S]*\}catch\(error\)\{[\s\S]*return null\}/u);
+  assert.match(localeRead, /catch\(error\)\{[\s\S]*return\[\]\}/u);
+});
