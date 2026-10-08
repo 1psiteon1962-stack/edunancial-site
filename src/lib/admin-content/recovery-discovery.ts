@@ -77,7 +77,12 @@ export async function getRecoverableUploads(): Promise<RecoveryCandidate[]> {
   const storage = getAdminContentStorage();
   const entries = await storage.listWorkspaceEntries();
 
-  // Legacy FINALIZE audit events are not proof of learner-visible publication.\n  // Before learner read-back was enforced, FINALIZE could be recorded as SUCCEEDED\n  // while the package was only in a review/export state. Recovery therefore uses\n  // the learner-verified PUBLISHED receipt below as the completion authority.\n\n  // The historical stored-ZIP ingestion pipeline writes an exact-path durable
+  // Legacy FINALIZE audit events are not proof of learner-visible publication.
+  // Before learner read-back was enforced, FINALIZE could be recorded as SUCCEEDED
+  // while the package was only in a review/export state. Recovery therefore uses
+  // the learner-verified PUBLISHED receipt below as the completion authority.
+
+  // The historical stored-ZIP ingestion pipeline writes an exact-path durable
   // receipt to the repository ledger. Those packages are already canonical and
   // must not be offered for recovery even when older runs predate FINALIZE audit
   // receipts. Invalid/failed ledger entries deliberately remain recoverable.
