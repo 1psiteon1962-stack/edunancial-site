@@ -14,7 +14,34 @@ export const CANONICAL_PUBLICATION_BATCH = "atomicCanonicalBatchId";
 // Atomic reads currently go directly to durable storage. This hook is kept explicit so
 // learner read-back can invalidate safely now and remains the single invalidation point
 // when the bounded last-known-good cache is enabled.
-export function invalidateAtomicPublishedCache(): void {}
+export function invalidateAtomicPublishedCache(): void { atomicSnapshot = null; }
+
+/**
+ * Read diagnostics for the most recent full atomic read. The production auditor
+ * reports these so a dropped or unreadable lesson row can never again look like
+ * "content disappeared" without a recorded reason.
+ */
+export type AtomicReadDiagnostics = {
+  at: string;
+  indexedLessonIds: number;
+  loadedLessons: number;
+  failedLessonIds: string[];
+  servedFromLastKnownGood: string[];
+  missingObjects: string[];
+  inactiveLessonIds: string[];
+  indexReadError: string | null;
+};
+let lastDiagnostics: AtomicReadDiagnostics | null = null;
+export function getLastAtomicReadDiagnostics(): AtomicReadDiagnostics | null { return lastDiagnostics; }
+
+// Bounded per-instance memo of a COMPLETE read. Learner pages previously re-read
+// every lesson object (two full reads per lesson page) which, under load, caused
+// throttled rows to be silently dropped. A read with any failed row is never
+// memoized, and rows that fail fall back to the last successfully read copy.
+const SNAPSHOT_TTL_MS = 15_000;
+let atomicSnapshot: { at: number; rows: PublishedLessonRecord[] | null } | null = null;
+const lastKnownGood = new Map<string, PublishedLessonRecord>();
+const ROW_READ_ATTEMPTS = 3;
 
 function safeKey(value: string): string {
   return value.trim().replace(/[^A-Za-z0-9._-]+/gu, "_");
@@ -40,6 +67,40 @@ async function writeJson(path: string, value: unknown): Promise<void> {
     Buffer.from(`${JSON.stringify(value, null, 2)}\n`, "utf8"),
     "application/json",
   );
+}
+
+/**
+ * Compare-and-swap update of a single lesson object. Lesson objects hold the
+ * canonical body AND every locale's translation, so a blind read-modify-write
+ * lets two concurrent uploads (e.g. eight WHITE L3 locale ZIPs) erase each
+ * other's translations. Every lesson-object mutation must go through here.
+ */
+async function updateLessonObject(
+  id: string,
+  mutate: (existing: PublishedLessonRecord | null) => PublishedLessonRecord | null,
+): Promise<boolean> {
+  const storage = getAdminContentStorage();
+  const path = lessonPath(id);
+  if (storage.updateBinary) {
+    return storage.updateBinary(path, (current) => {
+      let existing: PublishedLessonRecord | null = null;
+      if (current) { try { existing = JSON.parse(current.toString("utf8")) as PublishedLessonRecord; } catch { existing = null; } }
+      const next = mutate(existing);
+      return next ? Buffer.from(`${JSON.stringify(next, null, 2)}\n`, "utf8") : null;
+    }, `Update atomic curriculum lesson ${id}`);
+  }
+  const next = mutate(await readJson<PublishedLessonRecord>(path));
+  if (!next) return false;
+  await writeJson(path, next);
+  return true;
+}
+
+async function readRowWithRetry(lessonId: string): Promise<{ row: PublishedLessonRecord | null; failed: boolean }> {
+  for (let attempt = 0; attempt < ROW_READ_ATTEMPTS; attempt++) {
+    try { return { row: await readJson<PublishedLessonRecord>(lessonPath(lessonId)), failed: false }; }
+    catch { await new Promise((resolve) => setTimeout(resolve, 100 * (attempt + 1))); }
+  }
+  return { row: null, failed: true };
 }
 
 function repositoryCanonicalLessons(): PublishedLessonRecord[] {
