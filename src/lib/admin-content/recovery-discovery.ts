@@ -6,6 +6,7 @@ import { getUploadReceipt, uploadIdFromStoragePath } from "@/lib/admin-content/u
 import { verifyRestoredCanonicalCoordinate } from "@/lib/admin-content/restoration-post-publication";
 import { getRuntimePublishedTrack } from "@/lib/curriculum/runtime-localization";
 import type { UploadBatch } from "@/lib/admin-content/types";
+import { sameLocale } from "@/lib/curriculum/translation-package-store";
 
 export type RecoveryCandidate = { batchId: string; upload: StoredUploadEntry };
 
@@ -47,26 +48,41 @@ export type RecoverableCurriculumPackage = RecoveryCandidate & {
 async function receiptIsActuallyComplete(receipt: Awaited<ReturnType<typeof getUploadReceipt>>) {
   if (receipt?.state !== "PUBLISHED") return false;
   if (receipt.verification?.learnerVisible !== true) return false;
-  if (!receipt.coordinate) return true;
-  const match = receipt.coordinate.match(/^([A-Z]+):L([1-5]):(en|en-US)$/u);
-  if (!match) return true;
+  // A PUBLISHED receipt is a historical claim, not proof. Previously a receipt
+  // with no coordinate, or ANY non-English coordinate, returned true here and
+  // was never revalidated against what learners receive today.
+  if (!receipt.coordinate) return false;
+  const match = receipt.coordinate.match(/^([A-Z]+):L([1-5]):(.+)$/u);
+  if (!match) return false;
   const [, trackCode, levelRaw, locale] = match;
-  const final = await verifyRestoredCanonicalCoordinate(receipt.coordinate);
-  if (!final.complete) return false;
+  const english = locale === "en" || locale === "en-US";
+  if (english) {
+    const final = await verifyRestoredCanonicalCoordinate(receipt.coordinate);
+    if (!final.complete) return false;
+  }
   const runtimeTrack = await getRuntimePublishedTrack(trackCode, locale);
   const runtimeLevel = runtimeTrack?.levels.find((entry) => entry.level === Number(levelRaw));
-  const expected = new Set(Array.from({ length: 50 }, (_, index) =>
-    `${trackCode}-L${levelRaw}-${String(index + 1).padStart(3, "0")}`,
-  ));
-  const visible = new Set((runtimeLevel?.lessons ?? []).map((lesson) => lesson.id.toUpperCase()));
-  return runtimeLevel?.lessonCount === 50 && [...expected].every((id) => visible.has(id));
+  const expected = Array.from({ length: 50 }, (_, index) => `${trackCode}-L${levelRaw}-${String(index + 1).padStart(3, "0")}`);
+  const served = new Map((runtimeLevel?.lessons ?? []).map((lesson) => [lesson.id.toUpperCase(), lesson]));
+  return expected.every((id) => {
+    const lesson = served.get(id);
+    if (!lesson?.body?.trim()) return false;
+    // A localized coordinate is only complete when learners get that locale,
+    // not the English fallback.
+    return english || (lesson.servedLocale !== undefined && lesson.servedLocale !== "en" && sameLocale(lesson.servedLocale, locale));
+  });
 }
 
 export async function getRecoverableUploads(): Promise<RecoveryCandidate[]> {
   const storage = getAdminContentStorage();
   const entries = await storage.listWorkspaceEntries();
 
-  // Legacy FINALIZE audit events are not proof of learner-visible publication.\n  // Before learner read-back was enforced, FINALIZE could be recorded as SUCCEEDED\n  // while the package was only in a review/export state. Recovery therefore uses\n  // the learner-verified PUBLISHED receipt below as the completion authority.\n\n  // The historical stored-ZIP ingestion pipeline writes an exact-path durable
+  // Legacy FINALIZE audit events are not proof of learner-visible publication.
+  // Before learner read-back was enforced, FINALIZE could be recorded as SUCCEEDED
+  // while the package was only in a review/export state. Recovery therefore uses
+  // the learner-verified PUBLISHED receipt below as the completion authority.
+
+  // The historical stored-ZIP ingestion pipeline writes an exact-path durable
   // receipt to the repository ledger. Those packages are already canonical and
   // must not be offered for recovery even when older runs predate FINALIZE audit
   // receipts. Invalid/failed ledger entries deliberately remain recoverable.
@@ -115,7 +131,9 @@ export async function getRecoverableUploads(): Promise<RecoveryCandidate[]> {
     if (!batch) continue;
     for (const uploadRecord of batch.uploads ?? []) {
       const storagePath = uploadRecord.storagePath;
-      // Persisted batch assets may use the admin-content upload namespace rather\n      // than the newer uploads/courses prefix. The asset itself is authoritative.\n      if (!storagePath || !uploadRecord.isArchive || !uploadRecord.originalFilename.toLowerCase().endsWith(".zip") || seen.has(storagePath) || ingested.has(storagePath)) continue;
+      // Persisted batch assets may use the admin-content upload namespace rather
+      // than the newer uploads/courses prefix. The asset itself is authoritative.
+      if (!storagePath || !uploadRecord.isArchive || !uploadRecord.originalFilename.toLowerCase().endsWith(".zip") || seen.has(storagePath) || ingested.has(storagePath)) continue;
       const receipt = await getUploadReceipt(uploadRecord.id);
       if (await receiptIsActuallyComplete(receipt)) continue;
       if (receipt?.state === "FAILED" && receipt.retryable === false) continue;
