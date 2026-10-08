@@ -50,30 +50,42 @@ jobs:
             curl --fail --silent --show-error \
               --cookie "edunancial-lang=en-US" \
               http://127.0.0.1:3000/courses/red/lessons/red-l1-001 \
-              --output /tmp/red-l1-001-en.html
-            if grep -F "What Is Real Estate, Really?" /tmp/red-l1-001-en.html; then
+              --output /tmp/red-l1-001-en.html || true
+            if grep -qF "What Is Real Estate, Really?" /tmp/red-l1-001-en.html; then
+              echo "English RED-L1-001 rendered canonical content."
               exit 0
             fi
             sleep 1
           done
           echo "::error::English lesson never advanced from the loading shell to canonical RED-L1-001 content"
           grep -o '<h1[^>]*>[^<]*</h1>' /tmp/red-l1-001-en.html | head -5 || true
+          tail -n 80 /tmp/edunancial-next.log || true
           exit 1
 
+      # es-ES for RED-L1-001 is committed in Git
+      # (content/curriculum/RED/L1/RED-L1-001.es-ES.md). It must render in
+      # Spanish with NO production blob store. If this fails, a learner
+      # with es-ES would be served English (or an error) - a real regression.
       - name: Smoke test translated lesson rendering
         run: |
-          curl --fail --silent --show-error \
-            --cookie "edunancial-lang=es-ES" \
-            http://127.0.0.1:3000/courses/red/lessons/red-l1-001 \
-            --output /tmp/red-l1-001-es.html
-          if grep -F "¿Qué es realmente un inmueble?" /tmp/red-l1-001-es.html; then
-            exit 0
-          fi
-          if grep -F "RED: Real Estate" /tmp/red-l1-001-es.html && grep -F "RED-L1-001" /tmp/red-l1-001-es.html; then
-            echo "::notice::CI has no production translation blobs; canonical RED-L1-001 fallback rendered correctly."
-            exit 0
-          fi
-          echo "::error::Translated lesson rendered neither localized content nor the canonical lesson fallback."
+          for i in $(seq 1 30); do
+            curl --fail --silent --show-error \
+              --cookie "edunancial-lang=es-ES" \
+              http://127.0.0.1:3000/courses/red/lessons/red-l1-001 \
+              --output /tmp/red-l1-001-es.html || true
+            if grep -qF "¿Qué es realmente un inmueble?" /tmp/red-l1-001-es.html; then
+              echo "es-ES RED-L1-001 rendered committed Spanish content."
+              exit 0
+            fi
+            sleep 1
+          done
+          echo "::error::es-ES RED-L1-001 did not render the committed Spanish lesson."
+          echo "--- <h1> elements ---"
+          grep -o '<h1[^>]*>[^<]*</h1>' /tmp/red-l1-001-es.html | head -5 || true
+          echo "--- server error digests ---"
+          grep -o 'data-dgst="[^"]*"' /tmp/red-l1-001-es.html | head -5 || true
+          echo "--- server log (tail) ---"
+          tail -n 80 /tmp/edunancial-next.log || true
           exit 1
 
       - name: Stop production server
