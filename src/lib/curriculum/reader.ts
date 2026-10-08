@@ -732,9 +732,15 @@ function resolveLessonSource(
   const candidateLocales = getCurriculumLocaleFallbackChain(requestedLocale);
 
   for (const [index, candidateLocale] of candidateLocales.entries()) {
-    const sidecarPath = candidateLocale === "en"
-      ? canonicalPath
-      : canonicalPath.replace(/\.md$/u, `.${candidateLocale}.md`);
+    // Catalog languages without a region ("it", "de", "nl", "ht") were also
+    // committed with a region tag ("GOLD-L1-001.it-IT.md"). Without these
+    // aliases those committed translations silently fell back to English.
+    // Only for the learner's exact locale: a base-language fallback ("es" for
+    // es-Caribbean) must never pull in another region's file (es-ES).
+    const sidecarPaths = candidateLocale === "en"
+      ? [canonicalPath]
+      : [...new Set([candidateLocale, ...(index === 0 && /^[a-z]{2,3}$/u.test(candidateLocale) ? [`${candidateLocale}-${candidateLocale.toUpperCase()}`] : [])])]
+          .map((variant) => canonicalPath.replace(/\.md$/u, `.${variant}.md`));
     const localeDirectoryNames = candidateLocale === "en"
       ? []
       : Array.from(new Set([
@@ -791,7 +797,7 @@ function resolveLessonSource(
     });
     const candidatePath = candidateLocale === "en"
       ? canonicalPath
-      : [sidecarPath, ...directoryCandidates, ...legacyCourseCandidates].find((path) => existsSync(path));
+      : [...sidecarPaths, ...directoryCandidates, ...legacyCourseCandidates].find((path) => existsSync(path));
 
     if (!candidatePath) {
       continue;
