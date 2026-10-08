@@ -69,7 +69,7 @@ jobs:
           if grep -F "¿Qué es realmente un inmueble?" /tmp/red-l1-001-es.html; then
             exit 0
           fi
-          if grep -F "What Is Real Estate, Really?" /tmp/red-l1-001-es.html || grep -F "What You&#x27;re Actually Buying" /tmp/red-l1-001-es.html; then
+          if grep -F "Real Estate Is a Bundle, Not One Thing" /tmp/red-l1-001-es.html; then
             echo "::notice::No local translation-package store is present in CI; canonical English fallback rendered correctly."
             exit 0
           fi
