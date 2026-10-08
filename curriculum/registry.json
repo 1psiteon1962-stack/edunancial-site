@@ -1,7 +1,7 @@
 {
   "_schema": "curriculum/schemas/registry.schema.json",
   "_version": "1.0",
-  "_generated": "2026-09-15T10:56:40.342Z",
+  "_generated": "2026-10-08T07:41:21.395Z",
   "_note": "Authoritative curriculum registry (empty lessons are a valid production state).",
   "tracks": {
     "RED": {
@@ -10349,7 +10349,1258 @@
           "assets": {}
         },
         "4": {
-          "assets": {}
+          "assets": {
+            "PURPLE-L4-001": {
+              "id": "PURPLE-L4-001",
+              "type": "lesson",
+              "track": "PURPLE",
+              "trackName": "Law",
+              "level": 4,
+              "lessonNumber": 1,
+              "title": "Contract Formation Analysis: Why Offer, Acceptance, and Consideration Must All Be Present",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-08",
+              "path": "content/curriculum/PURPLE/L4/PURPLE-L4-001.md",
+              "checksum": "sha256:sha256:7cdd2d35f87b7f4d7b7e9529175c9077b92d101e6e13e2cb6c6da4fa8ecc543d",
+              "status": "active",
+              "ingestionId": "304ee2b2-19a7-4666-85e6-b69856326332",
+              "importedAt": "2026-10-08T07:41:19.562Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Law",
+                "summary": "Understand the three essential elements required to form a legally enforceable contract, and why the absence of any single element means no binding contract actually exists, regardless of how the parties themselves may have understood their arrangement."
+              }
+            },
+            "PURPLE-L4-002": {
+              "id": "PURPLE-L4-002",
+              "type": "lesson",
+              "track": "PURPLE",
+              "trackName": "Law",
+              "level": 4,
+              "lessonNumber": 2,
+              "title": "Breach of Contract Analysis: Why Material and Minor Breaches Lead to Different Legal Consequences",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-08",
+              "path": "content/curriculum/PURPLE/L4/PURPLE-L4-002.md",
+              "checksum": "sha256:sha256:1be01de7c3938573cb4038839139d6afce3b5f40bd394404d82380b6eec5aa4a",
+              "status": "active",
+              "ingestionId": "304ee2b2-19a7-4666-85e6-b69856326332",
+              "importedAt": "2026-10-08T07:41:19.562Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Law",
+                "summary": "Understand the distinction between a material breach and a minor breach of contract, and why this classification determines whether the non-breaching party can walk away entirely or must continue performing while seeking damages."
+              }
+            },
+            "PURPLE-L4-003": {
+              "id": "PURPLE-L4-003",
+              "type": "lesson",
+              "track": "PURPLE",
+              "trackName": "Law",
+              "level": 4,
+              "lessonNumber": 3,
+              "title": "Contract Remedies Analysis: Why Damages Are the Default and Specific Performance the Exception",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-08",
+              "path": "content/curriculum/PURPLE/L4/PURPLE-L4-003.md",
+              "checksum": "sha256:sha256:da140452d6065555e6b4ca2ea82659d11ccbe6de06217b326a2226f754639722",
+              "status": "active",
+              "ingestionId": "304ee2b2-19a7-4666-85e6-b69856326332",
+              "importedAt": "2026-10-08T07:41:19.562Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Law",
+                "summary": "Understand the general hierarchy of contract remedies, why monetary damages are the default remedy for a breach, and the specific, limited circumstances under which a court will instead order specific performance."
+              }
+            },
+            "PURPLE-L4-004": {
+              "id": "PURPLE-L4-004",
+              "type": "lesson",
+              "track": "PURPLE",
+              "trackName": "Law",
+              "level": 4,
+              "lessonNumber": 4,
+              "title": "Statute of Frauds Analysis: Why Certain Contracts Must Be in Writing to Be Enforceable",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-08",
+              "path": "content/curriculum/PURPLE/L4/PURPLE-L4-004.md",
+              "checksum": "sha256:sha256:0fe01a315ae0da1fc5b49d2ddd65743ebbab3f9b2d6eb764dec645a66604424c",
+              "status": "active",
+              "ingestionId": "304ee2b2-19a7-4666-85e6-b69856326332",
+              "importedAt": "2026-10-08T07:41:19.562Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Law",
+                "summary": "Understand the general purpose of the statute of frauds, the specific categories of contracts it typically requires to be in writing, and why an otherwise valid oral agreement falling within one of these categories generally cannot be enforced."
+              }
+            },
+            "PURPLE-L4-005": {
+              "id": "PURPLE-L4-005",
+              "type": "lesson",
+              "track": "PURPLE",
+              "trackName": "Law",
+              "level": 4,
+              "lessonNumber": 5,
+              "title": "Force Majeure Clause Analysis: Why an 'Act of God' Provision Doesn't Automatically Excuse Every Disruption",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-08",
+              "path": "content/curriculum/PURPLE/L4/PURPLE-L4-005.md",
+              "checksum": "sha256:sha256:dc442318012d4a114ae79144d041caf032122a0ccad5feea64c04dc51278e5e9",
+              "status": "active",
+              "ingestionId": "304ee2b2-19a7-4666-85e6-b69856326332",
+              "importedAt": "2026-10-08T07:41:19.562Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Law",
+                "summary": "Understand the purpose and typical structure of a force majeure clause, and why its actual scope depends entirely on the specific events listed and language used, rather than any generic understanding of what should count as an excusable disruption."
+              }
+            },
+            "PURPLE-L4-006": {
+              "id": "PURPLE-L4-006",
+              "type": "lesson",
+              "track": "PURPLE",
+              "trackName": "Law",
+              "level": 4,
+              "lessonNumber": 6,
+              "title": "Personal Guarantee Analysis: Why Forming an LLC or Corporation Doesn't Always Protect a Business Owner",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-08",
+              "path": "content/curriculum/PURPLE/L4/PURPLE-L4-006.md",
+              "checksum": "sha256:sha256:63b1da1fba48c5c7b1ef26d84d230e246c82cf455302eddd80ea2cfef29fdccb",
+              "status": "active",
+              "ingestionId": "304ee2b2-19a7-4666-85e6-b69856326332",
+              "importedAt": "2026-10-08T07:41:19.562Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Law",
+                "summary": "Understand what a personal guarantee is, why lenders and landlords commonly require one from small business owners despite the business's own separate legal entity status, and the specific liability exposure a business owner accepts by signing one."
+              }
+            },
+            "PURPLE-L4-007": {
+              "id": "PURPLE-L4-007",
+              "type": "lesson",
+              "track": "PURPLE",
+              "trackName": "Law",
+              "level": 4,
+              "lessonNumber": 7,
+              "title": "Piercing the Corporate Veil Analysis: Why Liability Protection Can Fail Even Without a Personal Guarantee",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-08",
+              "path": "content/curriculum/PURPLE/L4/PURPLE-L4-007.md",
+              "checksum": "sha256:sha256:1e7d5712df6f2fd084bf84b7c95a4f8974b24c97cb89946fd8ab37cfe1edec14",
+              "status": "active",
+              "ingestionId": "304ee2b2-19a7-4666-85e6-b69856326332",
+              "importedAt": "2026-10-08T07:41:19.562Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Law",
+                "summary": "Understand the doctrine of piercing the corporate veil, the general factors courts consider when deciding whether to disregard a business entity's separate legal status, and why maintaining genuine corporate formalities is essential to preserving liability protection."
+              }
+            },
+            "PURPLE-L4-008": {
+              "id": "PURPLE-L4-008",
+              "type": "lesson",
+              "track": "PURPLE",
+              "trackName": "Law",
+              "level": 4,
+              "lessonNumber": 8,
+              "title": "Intellectual Property Types Analysis: Why Patent, Trademark, Copyright, and Trade Secret Each Protect Something Different",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-08",
+              "path": "content/curriculum/PURPLE/L4/PURPLE-L4-008.md",
+              "checksum": "sha256:sha256:1921d7e271c768e8bb4ba6d4ca702971c6b7c11f46b6e1d5416b05c6585e242a",
+              "status": "active",
+              "ingestionId": "304ee2b2-19a7-4666-85e6-b69856326332",
+              "importedAt": "2026-10-08T07:41:19.562Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Law",
+                "summary": "Understand the fundamental distinction between the four major categories of intellectual property protection, and why choosing the correct type of protection depends on the specific nature of what is actually being protected."
+              }
+            },
+            "PURPLE-L4-009": {
+              "id": "PURPLE-L4-009",
+              "type": "lesson",
+              "track": "PURPLE",
+              "trackName": "Law",
+              "level": 4,
+              "lessonNumber": 9,
+              "title": "Trade Secret Protection Analysis: Why Reasonable Security Measures Determine Whether Protection Exists at All",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-08",
+              "path": "content/curriculum/PURPLE/L4/PURPLE-L4-009.md",
+              "checksum": "sha256:sha256:d4f5ba8419c63ed7b6f9171fbb92ef314ed26ddecbf4433709bd55c9168694c5",
+              "status": "active",
+              "ingestionId": "304ee2b2-19a7-4666-85e6-b69856326332",
+              "importedAt": "2026-10-08T07:41:19.562Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Law",
+                "summary": "Understand the specific legal requirements for information to qualify as a protectable trade secret, and why the reasonableness of a business's own security measures is central to whether that protection is ultimately available."
+              }
+            },
+            "PURPLE-L4-010": {
+              "id": "PURPLE-L4-010",
+              "type": "lesson",
+              "track": "PURPLE",
+              "trackName": "Law",
+              "level": 4,
+              "lessonNumber": 10,
+              "title": "Non-Compete Enforceability Analysis: Why the Same Restrictive Covenant Can Be Valid in One State and Void in Another",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-08",
+              "path": "content/curriculum/PURPLE/L4/PURPLE-L4-010.md",
+              "checksum": "sha256:sha256:af0c953f7331d078137633f318bdaebd5f882f411915e26aa35274647941c6ca",
+              "status": "active",
+              "ingestionId": "304ee2b2-19a7-4666-85e6-b69856326332",
+              "importedAt": "2026-10-08T07:41:19.562Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Law",
+                "summary": "Understand the general factors courts consider when evaluating whether an employment-based non-compete agreement is enforceable, and why the significant jurisdictional variation in this specific area requires careful, current, location-specific analysis."
+              }
+            },
+            "PURPLE-L4-011": {
+              "id": "PURPLE-L4-011",
+              "type": "lesson",
+              "track": "PURPLE",
+              "trackName": "Law",
+              "level": 4,
+              "lessonNumber": 11,
+              "title": "Employment At-Will Doctrine Analysis: Why Most U.S. Employment Can Be Ended by Either Side, With Important Exceptions",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-08",
+              "path": "content/curriculum/PURPLE/L4/PURPLE-L4-011.md",
+              "checksum": "sha256:sha256:b9b3e020a15c13f035944660afa4aa31c6248826df58af0d44af8158f4ccee63",
+              "status": "active",
+              "ingestionId": "304ee2b2-19a7-4666-85e6-b69856326332",
+              "importedAt": "2026-10-08T07:41:19.562Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Law",
+                "summary": "Understand the general at-will employment doctrine governing most U.S. employment relationships, and the significant, specific exceptions that can make an otherwise at-will termination unlawful."
+              }
+            },
+            "PURPLE-L4-012": {
+              "id": "PURPLE-L4-012",
+              "type": "lesson",
+              "track": "PURPLE",
+              "trackName": "Law",
+              "level": 4,
+              "lessonNumber": 12,
+              "title": "Employee vs Independent Contractor Analysis: Why Calling Someone a Contractor Doesn't Make It Legally True",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-08",
+              "path": "content/curriculum/PURPLE/L4/PURPLE-L4-012.md",
+              "checksum": "sha256:sha256:809cba49f597b76a6ba7807063d83ca37b6708857a0d3320646d520e4572c9bf",
+              "status": "active",
+              "ingestionId": "304ee2b2-19a7-4666-85e6-b69856326332",
+              "importedAt": "2026-10-08T07:41:19.562Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Law",
+                "summary": "Understand the general legal tests used to distinguish an employee from an independent contractor, and why the actual working relationship, not the label the parties use, determines the correct classification."
+              }
+            },
+            "PURPLE-L4-013": {
+              "id": "PURPLE-L4-013",
+              "type": "lesson",
+              "track": "PURPLE",
+              "trackName": "Law",
+              "level": 4,
+              "lessonNumber": 13,
+              "title": "Workers' Compensation Analysis: Why the System Trades Limited Benefits for Guaranteed, No-Fault Coverage",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-08",
+              "path": "content/curriculum/PURPLE/L4/PURPLE-L4-013.md",
+              "checksum": "sha256:sha256:e7445548f699f42d369fbb42b273627d038e6822d954b919bd5365e0ede88c3f",
+              "status": "active",
+              "ingestionId": "304ee2b2-19a7-4666-85e6-b69856326332",
+              "importedAt": "2026-10-08T07:41:19.562Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Law",
+                "summary": "Understand the fundamental 'no-fault' bargain underlying the workers' compensation system, why this system generally serves as an injured employee's exclusive remedy against their employer, and the significant exception this exclusivity carries for genuinely intentional employer misconduct."
+              }
+            },
+            "PURPLE-L4-014": {
+              "id": "PURPLE-L4-014",
+              "type": "lesson",
+              "track": "PURPLE",
+              "trackName": "Law",
+              "level": 4,
+              "lessonNumber": 14,
+              "title": "Negligence Analysis: Why All Four Elements — Duty, Breach, Causation, and Damages — Must Each Be Proven",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-08",
+              "path": "content/curriculum/PURPLE/L4/PURPLE-L4-014.md",
+              "checksum": "sha256:sha256:8c159e600eee93b226ac0bc1bf8def526d620f9bac68f2971f68965c78e53ee6",
+              "status": "active",
+              "ingestionId": "304ee2b2-19a7-4666-85e6-b69856326332",
+              "importedAt": "2026-10-08T07:41:19.562Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Law",
+                "summary": "Understand the four essential elements a plaintiff must prove to establish a negligence claim, and why the failure to prove any single element defeats the entire claim, regardless of how clearly the other elements are established."
+              }
+            },
+            "PURPLE-L4-015": {
+              "id": "PURPLE-L4-015",
+              "type": "lesson",
+              "track": "PURPLE",
+              "trackName": "Law",
+              "level": 4,
+              "lessonNumber": 15,
+              "title": "Strict Liability Analysis: Why Some Activities and Products Impose Liability Without Any Proof of Fault",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-08",
+              "path": "content/curriculum/PURPLE/L4/PURPLE-L4-015.md",
+              "checksum": "sha256:sha256:a3568a613eaf37ad61492654404a75591fe1b88bb483cb5158a9332b6e365332",
+              "status": "active",
+              "ingestionId": "304ee2b2-19a7-4666-85e6-b69856326332",
+              "importedAt": "2026-10-08T07:41:19.562Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Law",
+                "summary": "Understand the doctrine of strict liability, why it applies to specific categories of activities and products regardless of fault, and how it differs fundamentally from the negligence framework covered in this level's Lesson 14."
+              }
+            },
+            "PURPLE-L4-016": {
+              "id": "PURPLE-L4-016",
+              "type": "lesson",
+              "track": "PURPLE",
+              "trackName": "Law",
+              "level": 4,
+              "lessonNumber": 16,
+              "title": "Statute of Limitations Analysis: Why Waiting Too Long to Sue Can Permanently Bar an Otherwise Valid Claim",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-08",
+              "path": "content/curriculum/PURPLE/L4/PURPLE-L4-016.md",
+              "checksum": "sha256:sha256:191ecb69ad286fcf27c35c6ddaf98165927cbca843ba45e779aaa0d61c566c0a",
+              "status": "active",
+              "ingestionId": "304ee2b2-19a7-4666-85e6-b69856326332",
+              "importedAt": "2026-10-08T07:41:19.562Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Law",
+                "summary": "Understand the general purpose of a statute of limitations, why it varies significantly by the specific type of claim, and the discovery rule exception that can delay when the limitations period actually begins to run."
+              }
+            },
+            "PURPLE-L4-017": {
+              "id": "PURPLE-L4-017",
+              "type": "lesson",
+              "track": "PURPLE",
+              "trackName": "Law",
+              "level": 4,
+              "lessonNumber": 17,
+              "title": "Alternative Dispute Resolution Analysis: Why Mediation and Arbitration Serve Genuinely Different Purposes",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-08",
+              "path": "content/curriculum/PURPLE/L4/PURPLE-L4-017.md",
+              "checksum": "sha256:sha256:14da3f846f347641d81eebfc77c50a765b500092b9fbc745a83df7e512cb5393",
+              "status": "active",
+              "ingestionId": "304ee2b2-19a7-4666-85e6-b69856326332",
+              "importedAt": "2026-10-08T07:41:19.562Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Law",
+                "summary": "Understand the fundamental distinction between mediation and arbitration as two commonly used forms of alternative dispute resolution, and why choosing the appropriate method depends on whether the parties want a facilitated negotiation or a binding, third-party decision."
+              }
+            },
+            "PURPLE-L4-018": {
+              "id": "PURPLE-L4-018",
+              "type": "lesson",
+              "track": "PURPLE",
+              "trackName": "Law",
+              "level": 4,
+              "lessonNumber": 18,
+              "title": "Bankruptcy Chapter Analysis: Why Chapter 7, Chapter 11, and Chapter 13 Serve Genuinely Different Purposes",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-08",
+              "path": "content/curriculum/PURPLE/L4/PURPLE-L4-018.md",
+              "checksum": "sha256:sha256:1add2616dabc644f3886a078479346c61bde758981fcf5ed672788a688943643",
+              "status": "active",
+              "ingestionId": "304ee2b2-19a7-4666-85e6-b69856326332",
+              "importedAt": "2026-10-08T07:41:19.562Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Law",
+                "summary": "Understand the fundamental distinction between liquidation and reorganization bankruptcy, and why the choice between Chapter 7, Chapter 11, and Chapter 13 depends on the debtor's specific circumstances and underlying goals."
+              }
+            },
+            "PURPLE-L4-019": {
+              "id": "PURPLE-L4-019",
+              "type": "lesson",
+              "track": "PURPLE",
+              "trackName": "Law",
+              "level": 4,
+              "lessonNumber": 19,
+              "title": "Landlord-Tenant Law Analysis: Why the Implied Warranty of Habitability Protects Tenants Regardless of Lease Language",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-08",
+              "path": "content/curriculum/PURPLE/L4/PURPLE-L4-019.md",
+              "checksum": "sha256:sha256:ea97e7ba0a57fea87f9730ce8d2d4e070d0b6b5c1f8fb390d49834beb9972cd8",
+              "status": "active",
+              "ingestionId": "304ee2b2-19a7-4666-85e6-b69856326332",
+              "importedAt": "2026-10-08T07:41:19.562Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Law",
+                "summary": "Understand the implied warranty of habitability, why it applies to most residential leases regardless of specific lease language, and the general remedies available to a tenant when a landlord fails to maintain a habitable rental property."
+              }
+            },
+            "PURPLE-L4-020": {
+              "id": "PURPLE-L4-020",
+              "type": "lesson",
+              "track": "PURPLE",
+              "trackName": "Law",
+              "level": 4,
+              "lessonNumber": 20,
+              "title": "Power of Attorney Analysis: Why the Scope and Durability of This Legal Document Determine What It Actually Accomplishes",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-08",
+              "path": "content/curriculum/PURPLE/L4/PURPLE-L4-020.md",
+              "checksum": "sha256:sha256:795c1927c65d08b61232a156cb682682a3a3c8a7ab0b07270652a5e56d06a1bd",
+              "status": "active",
+              "ingestionId": "304ee2b2-19a7-4666-85e6-b69856326332",
+              "importedAt": "2026-10-08T07:41:19.562Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Law",
+                "summary": "Understand the general purpose of a power of attorney, the critical distinction between a general and a limited power of attorney, and why the specific 'durable' designation determines whether the document remains effective if the principal later becomes incapacitated."
+              }
+            },
+            "PURPLE-L4-021": {
+              "id": "PURPLE-L4-021",
+              "type": "lesson",
+              "track": "PURPLE",
+              "trackName": "Law",
+              "level": 4,
+              "lessonNumber": 21,
+              "title": "Will vs Trust Analysis: Why Avoiding Probate Is the Central Practical Difference",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-08",
+              "path": "content/curriculum/PURPLE/L4/PURPLE-L4-021.md",
+              "checksum": "sha256:sha256:c215cfe00be60767fa571e4c6343597eda83a19812eb9cf35dbbbfda9756ea69",
+              "status": "active",
+              "ingestionId": "304ee2b2-19a7-4666-85e6-b69856326332",
+              "importedAt": "2026-10-08T07:41:19.562Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Law",
+                "summary": "Understand the fundamental difference between a will and a trust as estate planning tools, and why a trust's ability to avoid probate is generally the central practical distinction driving the choice between them."
+              }
+            },
+            "PURPLE-L4-022": {
+              "id": "PURPLE-L4-022",
+              "type": "lesson",
+              "track": "PURPLE",
+              "trackName": "Law",
+              "level": 4,
+              "lessonNumber": 22,
+              "title": "Guardianship and Conservatorship Analysis: Why a Court-Supervised Process Fills the Gap No Advance Planning Document Addresses",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-08",
+              "path": "content/curriculum/PURPLE/L4/PURPLE-L4-022.md",
+              "checksum": "sha256:sha256:4dc1408c1f100755ba6484ea9a33e3351257d4b4e7c07f15e02bb5724a16ab22",
+              "status": "active",
+              "ingestionId": "304ee2b2-19a7-4666-85e6-b69856326332",
+              "importedAt": "2026-10-08T07:41:19.562Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Law",
+                "summary": "Understand when a court-supervised guardianship or conservatorship becomes necessary, why this process serves as a fallback specifically when no valid advance planning document exists, and the significant time, cost, and loss of personal autonomy this court process generally involves."
+              }
+            },
+            "PURPLE-L4-023": {
+              "id": "PURPLE-L4-023",
+              "type": "lesson",
+              "track": "PURPLE",
+              "trackName": "Law",
+              "level": 4,
+              "lessonNumber": 23,
+              "title": "Product Liability Analysis: Why Manufacturing Defects, Design Defects, and Warning Defects Each Require Different Proof",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-08",
+              "path": "content/curriculum/PURPLE/L4/PURPLE-L4-023.md",
+              "checksum": "sha256:sha256:73ad9daf18fa9461fcecb45c38b73b94393a8011f9a65e964bd58f91f04c4bb0",
+              "status": "active",
+              "ingestionId": "304ee2b2-19a7-4666-85e6-b69856326332",
+              "importedAt": "2026-10-08T07:41:19.562Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Law",
+                "summary": "Understand the three distinct categories of product defect claims — manufacturing defect, design defect, and failure-to-warn defect — and why each category requires proving a genuinely different kind of underlying flaw."
+              }
+            },
+            "PURPLE-L4-024": {
+              "id": "PURPLE-L4-024",
+              "type": "lesson",
+              "track": "PURPLE",
+              "trackName": "Law",
+              "level": 4,
+              "lessonNumber": 24,
+              "title": "Insurance Contract Interpretation Analysis: Why Duty to Defend Is Broader Than Duty to Indemnify",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-08",
+              "path": "content/curriculum/PURPLE/L4/PURPLE-L4-024.md",
+              "checksum": "sha256:sha256:039e58a2dc3d914f79cbf567937df62cc05a4f3e5f272fddedebfa4d225335ea",
+              "status": "active",
+              "ingestionId": "304ee2b2-19a7-4666-85e6-b69856326332",
+              "importedAt": "2026-10-08T07:41:19.562Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Law",
+                "summary": "Understand the fundamental distinction between an insurer's duty to defend and its duty to indemnify, and why an insurer can be required to defend a lawsuit even in circumstances where it ultimately has no obligation to pay any resulting judgment."
+              }
+            },
+            "PURPLE-L4-025": {
+              "id": "PURPLE-L4-025",
+              "type": "lesson",
+              "track": "PURPLE",
+              "trackName": "Law",
+              "level": 4,
+              "lessonNumber": 25,
+              "title": "Consumer Protection Law Analysis: Why 'Unfair and Deceptive Practices' Statutes Cover More Than Outright Fraud",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-08",
+              "path": "content/curriculum/PURPLE/L4/PURPLE-L4-025.md",
+              "checksum": "sha256:sha256:050849e1b220b2d1195515b77efb384633f3aa3cb676bdbaa728c462bd6ba041",
+              "status": "active",
+              "ingestionId": "304ee2b2-19a7-4666-85e6-b69856326332",
+              "importedAt": "2026-10-08T07:41:19.562Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Law",
+                "summary": "Understand the general scope of unfair and deceptive trade practices statutes, why they cover a broader range of conduct than traditional common law fraud, and the general remedies these statutes commonly make available to affected consumers."
+              }
+            },
+            "PURPLE-L4-026": {
+              "id": "PURPLE-L4-026",
+              "type": "lesson",
+              "track": "PURPLE",
+              "trackName": "Law",
+              "level": 4,
+              "lessonNumber": 26,
+              "title": "Antitrust Law Analysis: Why Monopolization Requires More Than Simply Having a Dominant Market Position",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-08",
+              "path": "content/curriculum/PURPLE/L4/PURPLE-L4-026.md",
+              "checksum": "sha256:sha256:6e9793a63a925a70e50754029f8dc158f5a5f6aa5c7fb127842406be047abd19",
+              "status": "active",
+              "ingestionId": "304ee2b2-19a7-4666-85e6-b69856326332",
+              "importedAt": "2026-10-08T07:41:19.562Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Law",
+                "summary": "Understand the basic framework of U.S. antitrust law, why simply possessing significant market power is not, by itself, illegal, and the additional element of anticompetitive conduct that a monopolization claim actually requires."
+              }
+            },
+            "PURPLE-L4-027": {
+              "id": "PURPLE-L4-027",
+              "type": "lesson",
+              "track": "PURPLE",
+              "trackName": "Law",
+              "level": 4,
+              "lessonNumber": 27,
+              "title": "Securities Regulation Analysis: Why Most Investment Offerings Require Registration or a Specific Exemption",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-08",
+              "path": "content/curriculum/PURPLE/L4/PURPLE-L4-027.md",
+              "checksum": "sha256:sha256:131922592fe4eb562a105e01522cb9dc225ebc31d10bb76e53c596d15076806f",
+              "status": "active",
+              "ingestionId": "304ee2b2-19a7-4666-85e6-b69856326332",
+              "importedAt": "2026-10-08T07:41:19.562Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Law",
+                "summary": "Understand the general registration requirement for securities offerings under U.S. securities law, and why most private and small business capital raises rely on a specific registration exemption rather than the full public registration process."
+              }
+            },
+            "PURPLE-L4-028": {
+              "id": "PURPLE-L4-028",
+              "type": "lesson",
+              "track": "PURPLE",
+              "trackName": "Law",
+              "level": 4,
+              "lessonNumber": 28,
+              "title": "Data Privacy Law Analysis: Why Different Frameworks Impose Genuinely Different Obligations on the Same Business",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-08",
+              "path": "content/curriculum/PURPLE/L4/PURPLE-L4-028.md",
+              "checksum": "sha256:sha256:24900a7070383a97a8a81b810c35cbcb66b91157ef8853d36482bf952873dc0f",
+              "status": "active",
+              "ingestionId": "304ee2b2-19a7-4666-85e6-b69856326332",
+              "importedAt": "2026-10-08T07:41:19.562Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Law",
+                "summary": "Understand the general purpose of data privacy regulation, why businesses operating across multiple jurisdictions can face genuinely different, sometimes overlapping specific obligations, and the general categories of requirements these frameworks commonly impose."
+              }
+            },
+            "PURPLE-L4-029": {
+              "id": "PURPLE-L4-029",
+              "type": "lesson",
+              "track": "PURPLE",
+              "trackName": "Law",
+              "level": 4,
+              "lessonNumber": 29,
+              "title": "International Contract Analysis: Why Choice of Law and Forum Selection Clauses Determine Which Rules Actually Apply",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-08",
+              "path": "content/curriculum/PURPLE/L4/PURPLE-L4-029.md",
+              "checksum": "sha256:sha256:1e34490a66198810e2344e8da333217d60aefa80292e42bde28fc692b9ff6ca2",
+              "status": "active",
+              "ingestionId": "304ee2b2-19a7-4666-85e6-b69856326332",
+              "importedAt": "2026-10-08T07:41:19.562Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Law",
+                "summary": "Understand the general purpose of choice of law and forum selection clauses in an international or cross-border contract, and why the absence of these clauses can create genuine uncertainty about which jurisdiction's law and courts will actually govern a dispute."
+              }
+            },
+            "PURPLE-L4-030": {
+              "id": "PURPLE-L4-030",
+              "type": "lesson",
+              "track": "PURPLE",
+              "trackName": "Law",
+              "level": 4,
+              "lessonNumber": 30,
+              "title": "Regulatory Licensing Analysis: Why Operating Without a Required License Creates Risk Beyond a Simple Fine",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-08",
+              "path": "content/curriculum/PURPLE/L4/PURPLE-L4-030.md",
+              "checksum": "sha256:sha256:d85ef3d2bf11aeb85d4573e1994a6bf431a8f22db6f3b00a1f08eb7acf875397",
+              "status": "active",
+              "ingestionId": "304ee2b2-19a7-4666-85e6-b69856326332",
+              "importedAt": "2026-10-08T07:41:19.562Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Law",
+                "summary": "Understand why many industries require a specific government license or permit to lawfully operate, and the range of significant consequences a business can face for operating without one, beyond simply the risk of a fine."
+              }
+            },
+            "PURPLE-L4-031": {
+              "id": "PURPLE-L4-031",
+              "type": "lesson",
+              "track": "PURPLE",
+              "trackName": "Law",
+              "level": 4,
+              "lessonNumber": 31,
+              "title": "Trademark Infringement Analysis: Why 'Likelihood of Confusion' Is the Central Legal Question",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-08",
+              "path": "content/curriculum/PURPLE/L4/PURPLE-L4-031.md",
+              "checksum": "sha256:sha256:00a8065a54fe1d263330dcdacdb7ad06328650efa86bd61f32b6445df2a86927",
+              "status": "active",
+              "ingestionId": "304ee2b2-19a7-4666-85e6-b69856326332",
+              "importedAt": "2026-10-08T07:41:19.562Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Law",
+                "summary": "Understand the 'likelihood of confusion' standard governing trademark infringement claims, and why courts weigh multiple factors together rather than relying on any single comparison between two marks."
+              }
+            },
+            "PURPLE-L4-032": {
+              "id": "PURPLE-L4-032",
+              "type": "lesson",
+              "track": "PURPLE",
+              "trackName": "Law",
+              "level": 4,
+              "lessonNumber": 32,
+              "title": "Copyright Fair Use Analysis: Why Four Factors, Weighed Together, Determine an Unauthorized Use's Legality",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-08",
+              "path": "content/curriculum/PURPLE/L4/PURPLE-L4-032.md",
+              "checksum": "sha256:sha256:436f86b116c2025f0b73309ca8cf3d66b4621046936fe91d59d6257d70d21efd",
+              "status": "active",
+              "ingestionId": "304ee2b2-19a7-4666-85e6-b69856326332",
+              "importedAt": "2026-10-08T07:41:19.562Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Law",
+                "summary": "Understand the fair use doctrine as a defense to copyright infringement, and why courts weigh four specific factors together rather than applying any single bright-line rule to determine whether an unauthorized use is legally permissible."
+              }
+            },
+            "PURPLE-L4-033": {
+              "id": "PURPLE-L4-033",
+              "type": "lesson",
+              "track": "PURPLE",
+              "trackName": "Law",
+              "level": 4,
+              "lessonNumber": 33,
+              "title": "Patent Novelty and Non-Obviousness Analysis: Why an Invention Must Clear Two Distinct Hurdles to Be Patentable",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-08",
+              "path": "content/curriculum/PURPLE/L4/PURPLE-L4-033.md",
+              "checksum": "sha256:sha256:6022c710dc19ba1cd1779ba803c4675992af842045d4bd2085491e2a4ee60e03",
+              "status": "active",
+              "ingestionId": "304ee2b2-19a7-4666-85e6-b69856326332",
+              "importedAt": "2026-10-08T07:41:19.562Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Law",
+                "summary": "Understand the novelty and non-obviousness requirements an invention must satisfy to be patentable, and why these represent two genuinely distinct hurdles, each requiring its own separate analysis."
+              }
+            },
+            "PURPLE-L4-034": {
+              "id": "PURPLE-L4-034",
+              "type": "lesson",
+              "track": "PURPLE",
+              "trackName": "Law",
+              "level": 4,
+              "lessonNumber": 34,
+              "title": "Secured vs Unsecured Creditor Analysis: Why Collateral Determines Who Gets Paid First",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-08",
+              "path": "content/curriculum/PURPLE/L4/PURPLE-L4-034.md",
+              "checksum": "sha256:sha256:714bf8c379c68b459c36278eb849ad82c95acb3325a21d5cc4e43dca52aad806",
+              "status": "active",
+              "ingestionId": "304ee2b2-19a7-4666-85e6-b69856326332",
+              "importedAt": "2026-10-08T07:41:19.562Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Law",
+                "summary": "Understand the fundamental distinction between a secured and an unsecured creditor, and why this distinction generally determines the order in which creditors actually get paid when a debtor's assets are insufficient to satisfy every outstanding claim."
+              }
+            },
+            "PURPLE-L4-035": {
+              "id": "PURPLE-L4-035",
+              "type": "lesson",
+              "track": "PURPLE",
+              "trackName": "Law",
+              "level": 4,
+              "lessonNumber": 35,
+              "title": "UCC Article 9 Security Interest Analysis: Why 'Perfection' Determines Priority Among Competing Secured Creditors",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-08",
+              "path": "content/curriculum/PURPLE/L4/PURPLE-L4-035.md",
+              "checksum": "sha256:sha256:873dc83e28f3126a634378ad0acee9c3c00c7c8cd123977d5d0ff341d0a9e53f",
+              "status": "active",
+              "ingestionId": "304ee2b2-19a7-4666-85e6-b69856326332",
+              "importedAt": "2026-10-08T07:41:19.562Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Law",
+                "summary": "Understand the general process of creating and perfecting a security interest under UCC Article 9, and why perfection, not merely the existence of a valid security interest, generally determines priority among competing secured creditors claiming the same collateral."
+              }
+            },
+            "PURPLE-L4-036": {
+              "id": "PURPLE-L4-036",
+              "type": "lesson",
+              "track": "PURPLE",
+              "trackName": "Law",
+              "level": 4,
+              "lessonNumber": 36,
+              "title": "Class Action Analysis: Why Certification Requirements Determine Whether Claims Can Actually Be Aggregated",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-08",
+              "path": "content/curriculum/PURPLE/L4/PURPLE-L4-036.md",
+              "checksum": "sha256:sha256:d66a0e2d295c9f5854d50095db103e20e566c3ada0201ac9424b1fe07df6b210",
+              "status": "active",
+              "ingestionId": "304ee2b2-19a7-4666-85e6-b69856326332",
+              "importedAt": "2026-10-08T07:41:19.562Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Law",
+                "summary": "Understand the general requirements a court considers when deciding whether to certify a lawsuit as a class action, and why these requirements exist specifically to ensure that aggregating many individual claims together genuinely serves the interests of all class members."
+              }
+            },
+            "PURPLE-L4-037": {
+              "id": "PURPLE-L4-037",
+              "type": "lesson",
+              "track": "PURPLE",
+              "trackName": "Law",
+              "level": 4,
+              "lessonNumber": 37,
+              "title": "Small Claims Court Analysis: Why Simplified Procedures Trade Formality for Accessibility",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-08",
+              "path": "content/curriculum/PURPLE/L4/PURPLE-L4-037.md",
+              "checksum": "sha256:sha256:677edc4fff9e21217cc1fef6ae8a0ecfbb3cb24402c7a9c2a3f25c903f1e4349",
+              "status": "active",
+              "ingestionId": "304ee2b2-19a7-4666-85e6-b69856326332",
+              "importedAt": "2026-10-08T07:41:19.562Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Law",
+                "summary": "Understand the general purpose and simplified procedures of small claims court, and why the specific dollar limit and procedural restrictions this forum imposes reflect a deliberate tradeoff favoring accessibility over the formality of ordinary civil litigation."
+              }
+            },
+            "PURPLE-L4-038": {
+              "id": "PURPLE-L4-038",
+              "type": "lesson",
+              "track": "PURPLE",
+              "trackName": "Law",
+              "level": 4,
+              "lessonNumber": 38,
+              "title": "Legal Malpractice Analysis: Why Proving a Lawyer's Mistake Alone Is Never Enough",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-08",
+              "path": "content/curriculum/PURPLE/L4/PURPLE-L4-038.md",
+              "checksum": "sha256:sha256:c5e58c4f909df23b231887a26e2f9e9b276bf425457a466577b361cd5817706a",
+              "status": "active",
+              "ingestionId": "304ee2b2-19a7-4666-85e6-b69856326332",
+              "importedAt": "2026-10-08T07:41:19.562Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Law",
+                "summary": "Understand the elements a client must prove to establish a legal malpractice claim against their own attorney, and why proving the attorney made a genuine mistake is never sufficient on its own without also proving the specific underlying case would have turned out better absent that mistake."
+              }
+            },
+            "PURPLE-L4-039": {
+              "id": "PURPLE-L4-039",
+              "type": "lesson",
+              "track": "PURPLE",
+              "trackName": "Law",
+              "level": 4,
+              "lessonNumber": 39,
+              "title": "Attorney-Client Privilege Analysis: Why Confidentiality Protection Depends on Specific Conditions Being Met",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-08",
+              "path": "content/curriculum/PURPLE/L4/PURPLE-L4-039.md",
+              "checksum": "sha256:sha256:fcfe4696493876416603089afe77464d0a7e7dbc63e65ce6fb9b1a444da113d7",
+              "status": "active",
+              "ingestionId": "304ee2b2-19a7-4666-85e6-b69856326332",
+              "importedAt": "2026-10-08T07:41:19.562Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Law",
+                "summary": "Understand the attorney-client privilege, the specific conditions required for it to actually apply, and the common ways a client can inadvertently waive this protection despite genuinely intending to keep a communication confidential."
+              }
+            },
+            "PURPLE-L4-040": {
+              "id": "PURPLE-L4-040",
+              "type": "lesson",
+              "track": "PURPLE",
+              "trackName": "Law",
+              "level": 4,
+              "lessonNumber": 40,
+              "title": "Pro Se Representation Analysis: Why Representing Yourself Trades Cost Savings for Genuine, Specific Risks",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-08",
+              "path": "content/curriculum/PURPLE/L4/PURPLE-L4-040.md",
+              "checksum": "sha256:sha256:fe985f918929d77653eb96bac7f2a449dd15ccc219bea1f547128cb1ae692c8a",
+              "status": "active",
+              "ingestionId": "304ee2b2-19a7-4666-85e6-b69856326332",
+              "importedAt": "2026-10-08T07:41:19.562Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Law",
+                "summary": "Understand the general right to represent oneself in a legal proceeding without an attorney, and the specific, genuine risks this choice involves, particularly the general rule that pro se litigants are still held to the same substantive legal and procedural standards as represented parties."
+              }
+            },
+            "PURPLE-L4-041": {
+              "id": "PURPLE-L4-041",
+              "type": "lesson",
+              "track": "PURPLE",
+              "trackName": "Law",
+              "level": 4,
+              "lessonNumber": 41,
+              "title": "Personal Jurisdiction Analysis: Why a Court Needs More Than Just a Willing Plaintiff to Hear a Case",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-08",
+              "path": "content/curriculum/PURPLE/L4/PURPLE-L4-041.md",
+              "checksum": "sha256:sha256:ff88be16228d1e4b51eb900ec9d8060d74dffeba68566f9149eea239dce93095",
+              "status": "active",
+              "ingestionId": "304ee2b2-19a7-4666-85e6-b69856326332",
+              "importedAt": "2026-10-08T07:41:19.562Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Law",
+                "summary": "Understand why a court must have personal jurisdiction over a defendant before it can lawfully render a binding judgment against that defendant, and the general 'minimum contacts' standard governing jurisdiction over an out-of-state defendant."
+              }
+            },
+            "PURPLE-L4-042": {
+              "id": "PURPLE-L4-042",
+              "type": "lesson",
+              "track": "PURPLE",
+              "trackName": "Law",
+              "level": 4,
+              "lessonNumber": 42,
+              "title": "Subject Matter Jurisdiction Analysis: Why Federal Courts Can Only Hear Certain Specific Types of Cases",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-08",
+              "path": "content/curriculum/PURPLE/L4/PURPLE-L4-042.md",
+              "checksum": "sha256:sha256:0f7e88feefc72a67e4c535b1e6ef20695994456eb8784ce2364365634bf44444",
+              "status": "active",
+              "ingestionId": "304ee2b2-19a7-4666-85e6-b69856326332",
+              "importedAt": "2026-10-08T07:41:19.562Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Law",
+                "summary": "Understand the concept of subject matter jurisdiction, why federal courts are courts of limited jurisdiction that can only hear specific categories of cases, and the two primary bases — federal question and diversity jurisdiction — that generally allow a case to be heard in federal court."
+              }
+            },
+            "PURPLE-L4-043": {
+              "id": "PURPLE-L4-043",
+              "type": "lesson",
+              "track": "PURPLE",
+              "trackName": "Law",
+              "level": 4,
+              "lessonNumber": 43,
+              "title": "Summary Judgment Analysis: Why a Genuine Dispute of Material Fact Determines Whether a Case Goes to Trial",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-08",
+              "path": "content/curriculum/PURPLE/L4/PURPLE-L4-043.md",
+              "checksum": "sha256:sha256:07fc3e90c4c0c775f11b79c0bfd83e26d7d474a5979e080e515b3161d0f36a93",
+              "status": "active",
+              "ingestionId": "304ee2b2-19a7-4666-85e6-b69856326332",
+              "importedAt": "2026-10-08T07:41:19.562Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Law",
+                "summary": "Understand the summary judgment standard, why a court will only grant summary judgment when no genuine dispute of material fact exists, and why this standard requires viewing the evidence in the light most favorable to the party opposing the motion."
+              }
+            },
+            "PURPLE-L4-044": {
+              "id": "PURPLE-L4-044",
+              "type": "lesson",
+              "track": "PURPLE",
+              "trackName": "Law",
+              "level": 4,
+              "lessonNumber": 44,
+              "title": "Res Judicata and Collateral Estoppel Analysis: Why a Final Judgment Generally Ends a Dispute for Good",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-08",
+              "path": "content/curriculum/PURPLE/L4/PURPLE-L4-044.md",
+              "checksum": "sha256:sha256:0f0c8fa94a9c79f739b219c899cf8049416ab1c3cf18e2216391689ea2dd5a82",
+              "status": "active",
+              "ingestionId": "304ee2b2-19a7-4666-85e6-b69856326332",
+              "importedAt": "2026-10-08T07:41:19.562Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Law",
+                "summary": "Understand the doctrines of res judicata (claim preclusion) and collateral estoppel (issue preclusion), and why both exist to prevent relitigating matters that have already been fully and fairly resolved through a final judgment."
+              }
+            },
+            "PURPLE-L4-045": {
+              "id": "PURPLE-L4-045",
+              "type": "lesson",
+              "track": "PURPLE",
+              "trackName": "Law",
+              "level": 4,
+              "lessonNumber": 45,
+              "title": "Franchise Law Analysis: Why Franchise Disclosure Documents Exist to Address a Genuine Information Imbalance",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-08",
+              "path": "content/curriculum/PURPLE/L4/PURPLE-L4-045.md",
+              "checksum": "sha256:sha256:711787d66b32222b54ad6476d203e6b811c41fe5d6e1af1412ca356d82bc1186",
+              "status": "active",
+              "ingestionId": "304ee2b2-19a7-4666-85e6-b69856326332",
+              "importedAt": "2026-10-08T07:41:19.562Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Law",
+                "summary": "Understand the general purpose of franchise disclosure requirements, why franchisors must provide prospective franchisees a detailed disclosure document before any franchise sale, and why this requirement exists specifically to address a genuine information imbalance between the two parties."
+              }
+            },
+            "PURPLE-L4-046": {
+              "id": "PURPLE-L4-046",
+              "type": "lesson",
+              "track": "PURPLE",
+              "trackName": "Law",
+              "level": 4,
+              "lessonNumber": 46,
+              "title": "Successor Liability Analysis: Why Buying a Business's Assets Doesn't Always Mean a Clean Break From Its Liabilities",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-08",
+              "path": "content/curriculum/PURPLE/L4/PURPLE-L4-046.md",
+              "checksum": "sha256:sha256:b523a15c96e3e10d753b9d15e3b9d3473fe40391e574d00ca69cd956c0755eb5",
+              "status": "active",
+              "ingestionId": "304ee2b2-19a7-4666-85e6-b69856326332",
+              "importedAt": "2026-10-08T07:41:19.562Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Law",
+                "summary": "Understand the general rule that a buyer of a business's assets generally does not automatically assume the seller's existing liabilities, and the significant exceptions under which a court may nonetheless impose successor liability on the buyer."
+              }
+            },
+            "PURPLE-L4-047": {
+              "id": "PURPLE-L4-047",
+              "type": "lesson",
+              "track": "PURPLE",
+              "trackName": "Law",
+              "level": 4,
+              "lessonNumber": 47,
+              "title": "Good Faith and Fair Dealing Analysis: Why Every Contract Carries an Implied Obligation Beyond Its Written Terms",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-08",
+              "path": "content/curriculum/PURPLE/L4/PURPLE-L4-047.md",
+              "checksum": "sha256:sha256:705f113d5a054329b686da323c8bd0a48455f755ccb0b0d73c42d8d3c7b6c523",
+              "status": "active",
+              "ingestionId": "304ee2b2-19a7-4666-85e6-b69856326332",
+              "importedAt": "2026-10-08T07:41:19.562Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Law",
+                "summary": "Understand the implied covenant of good faith and fair dealing, why courts read this obligation into every contract regardless of specific written language, and why it prevents a party from technically complying with a contract's literal terms while still undermining its actual intended purpose."
+              }
+            },
+            "PURPLE-L4-048": {
+              "id": "PURPLE-L4-048",
+              "type": "lesson",
+              "track": "PURPLE",
+              "trackName": "Law",
+              "level": 4,
+              "lessonNumber": 48,
+              "title": "Discovery Process Analysis: Why Litigation Requires Structured Information Exchange Before Any Trial",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-08",
+              "path": "content/curriculum/PURPLE/L4/PURPLE-L4-048.md",
+              "checksum": "sha256:sha256:f5900dc0a07e904370d053cb801928982f96096b9e7ab2c6151f407fb4c2e9f0",
+              "status": "active",
+              "ingestionId": "304ee2b2-19a7-4666-85e6-b69856326332",
+              "importedAt": "2026-10-08T07:41:19.562Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Law",
+                "summary": "Understand the general purpose of the discovery process in civil litigation, the common discovery tools parties use to exchange information before trial, and why this structured exchange exists to prevent trial by ambush."
+              }
+            },
+            "PURPLE-L4-049": {
+              "id": "PURPLE-L4-049",
+              "type": "lesson",
+              "track": "PURPLE",
+              "trackName": "Law",
+              "level": 4,
+              "lessonNumber": 49,
+              "title": "Zoning and Land Use Analysis: Why a Property Owner's Rights Are Bounded by the Surrounding Community's Own Regulatory Choices",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-08",
+              "path": "content/curriculum/PURPLE/L4/PURPLE-L4-049.md",
+              "checksum": "sha256:sha256:84d003216b1705cb3de3b224527807a96f55316147f28234682260f20a3a4fca",
+              "status": "active",
+              "ingestionId": "304ee2b2-19a7-4666-85e6-b69856326332",
+              "importedAt": "2026-10-08T07:41:19.562Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Law",
+                "summary": "Understand the general purpose of zoning and land use regulation, the concept of a nonconforming use, and the variance process available when strict application of a zoning rule would create genuine, unnecessary hardship."
+              }
+            },
+            "PURPLE-L4-050": {
+              "id": "PURPLE-L4-050",
+              "type": "lesson",
+              "track": "PURPLE",
+              "trackName": "Law",
+              "level": 4,
+              "lessonNumber": 50,
+              "title": "Legal Risk Integration: Why a Comprehensive Framework Requires Weaving Contract, Entity, IP, and Regulatory Analysis Together",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-08",
+              "path": "content/curriculum/PURPLE/L4/PURPLE-L4-050.md",
+              "checksum": "sha256:sha256:9892afae874a11365bdebc83417e55c751ae8c200d25948e9ecf2a2fd29f2651",
+              "status": "active",
+              "ingestionId": "304ee2b2-19a7-4666-85e6-b69856326332",
+              "importedAt": "2026-10-08T07:41:19.562Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Law",
+                "summary": "Synthesize the individual legal concepts covered throughout this level — contract formation and remedies, entity liability protection, intellectual property, tort and regulatory risk, and dispute resolution — into a single, integrated framework for evaluating an individual's or business's overall legal risk exposure."
+              }
+            }
+          }
         },
         "5": {
           "assets": {}
