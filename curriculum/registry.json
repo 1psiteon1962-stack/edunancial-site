@@ -1,7 +1,7 @@
 {
   "_schema": "curriculum/schemas/registry.schema.json",
   "_version": "1.0",
-  "_generated": "2026-09-15T10:56:40.342Z",
+  "_generated": "2026-10-08T12:43:05.388Z",
   "_note": "Authoritative curriculum registry (empty lessons are a valid production state).",
   "tracks": {
     "RED": {
@@ -1216,7 +1216,1258 @@
           "assets": {}
         },
         "4": {
-          "assets": {}
+          "assets": {
+            "RED-L4-001": {
+              "id": "RED-L4-001",
+              "type": "lesson",
+              "track": "RED",
+              "trackName": "Real Estate",
+              "level": 4,
+              "lessonNumber": 1,
+              "title": "Cap Rate Analysis: Why It Reveals Risk, Not Just Return",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-08",
+              "path": "content/curriculum/RED/L4/RED-L4-001.md",
+              "checksum": "sha256:sha256:8f49038943d23dae3189a0f60ae8514fe618a06c7ba1860a9c62ed63b877c63e",
+              "status": "active",
+              "ingestionId": "6f955925-faa6-41c3-b2b5-fb77d34132f0",
+              "importedAt": "2026-10-08T12:43:03.373Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Real Estate",
+                "summary": "Learn why capitalization rate measures risk as much as return, and how to read a cap rate correctly before buying a rental property."
+              }
+            },
+            "RED-L4-002": {
+              "id": "RED-L4-002",
+              "type": "lesson",
+              "track": "RED",
+              "trackName": "Real Estate",
+              "level": 4,
+              "lessonNumber": 2,
+              "title": "Cash-on-Cash Return vs Total Return: Why They Tell Different Stories",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-08",
+              "path": "content/curriculum/RED/L4/RED-L4-002.md",
+              "checksum": "sha256:sha256:8f571196d55e2c05d6ee969a15e2361dd00714c4fbdc8c96958da10150fc9cbb",
+              "status": "active",
+              "ingestionId": "6f955925-faa6-41c3-b2b5-fb77d34132f0",
+              "importedAt": "2026-10-08T12:43:03.373Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Real Estate",
+                "summary": "Understand why cash-on-cash return and total return can point in opposite directions, and why an investor needs both numbers, not just one."
+              }
+            },
+            "RED-L4-003": {
+              "id": "RED-L4-003",
+              "type": "lesson",
+              "track": "RED",
+              "trackName": "Real Estate",
+              "level": 4,
+              "lessonNumber": 3,
+              "title": "IRR vs Cap Rate: Why Time Value Changes the Picture",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-08",
+              "path": "content/curriculum/RED/L4/RED-L4-003.md",
+              "checksum": "sha256:sha256:9cbb66c405308d29985a5a2a32c100dd6c1ad2156e381d2498f8c61c3cf720fc",
+              "status": "active",
+              "ingestionId": "6f955925-faa6-41c3-b2b5-fb77d34132f0",
+              "importedAt": "2026-10-08T12:43:03.373Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Real Estate",
+                "summary": "Learn why Internal Rate of Return accounts for the timing of money in a way cap rate never can, and when each metric is the right tool."
+              }
+            },
+            "RED-L4-004": {
+              "id": "RED-L4-004",
+              "type": "lesson",
+              "track": "RED",
+              "trackName": "Real Estate",
+              "level": 4,
+              "lessonNumber": 4,
+              "title": "NOI Deep Dive: Why Expense Ratios Vary by Property Class",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-08",
+              "path": "content/curriculum/RED/L4/RED-L4-004.md",
+              "checksum": "sha256:sha256:e13af705620f208c0b4a3d5935902f0e36b37f8ebbd70b7091d2f8f2ee797e36",
+              "status": "active",
+              "ingestionId": "6f955925-faa6-41c3-b2b5-fb77d34132f0",
+              "importedAt": "2026-10-08T12:43:03.373Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Real Estate",
+                "summary": "Learn why operating expense ratios differ sharply across property classes, and why misjudging expenses is one of the most common analysis mistakes."
+              }
+            },
+            "RED-L4-005": {
+              "id": "RED-L4-005",
+              "type": "lesson",
+              "track": "RED",
+              "trackName": "Real Estate",
+              "level": 4,
+              "lessonNumber": 5,
+              "title": "Market Cycle Analysis: Why Real Estate Moves in Predictable Phases",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-08",
+              "path": "content/curriculum/RED/L4/RED-L4-005.md",
+              "checksum": "sha256:sha256:ab605095da3a36b4062fbf5d56a06a97793b5d1adf66b6664312c2fa448d063c",
+              "status": "active",
+              "ingestionId": "6f955925-faa6-41c3-b2b5-fb77d34132f0",
+              "importedAt": "2026-10-08T12:43:03.373Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Real Estate",
+                "summary": "Understand the four phases of the real estate market cycle and why recognizing the current phase changes what strategy makes sense."
+              }
+            },
+            "RED-L4-006": {
+              "id": "RED-L4-006",
+              "type": "lesson",
+              "track": "RED",
+              "trackName": "Real Estate",
+              "level": 4,
+              "lessonNumber": 6,
+              "title": "Supply and Demand Analysis: Why Vacancy Rates Signal Future Rent Growth",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-08",
+              "path": "content/curriculum/RED/L4/RED-L4-006.md",
+              "checksum": "sha256:sha256:18062819a855337837cd892a0a21a4dfbef3b46009fac3dde267e32c3d7f8dd1",
+              "status": "active",
+              "ingestionId": "6f955925-faa6-41c3-b2b5-fb77d34132f0",
+              "importedAt": "2026-10-08T12:43:03.373Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Real Estate",
+                "summary": "Learn why vacancy rate is a leading indicator for future rent trends, and how to read the signal before it shows up in the headlines."
+              }
+            },
+            "RED-L4-007": {
+              "id": "RED-L4-007",
+              "type": "lesson",
+              "track": "RED",
+              "trackName": "Real Estate",
+              "level": 4,
+              "lessonNumber": 7,
+              "title": "Interest Rate Sensitivity: Why Cap Rates and Rates Move Together",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-08",
+              "path": "content/curriculum/RED/L4/RED-L4-007.md",
+              "checksum": "sha256:sha256:1de5b7ccbf9958caea5ac326ef6a0f4bc14163b9662c954db07bf4be666da3b0",
+              "status": "active",
+              "ingestionId": "6f955925-faa6-41c3-b2b5-fb77d34132f0",
+              "importedAt": "2026-10-08T12:43:03.373Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Real Estate",
+                "summary": "Understand why cap rates and interest rates tend to move in the same direction over time, and why this matters for both buying and selling decisions."
+              }
+            },
+            "RED-L4-008": {
+              "id": "RED-L4-008",
+              "type": "lesson",
+              "track": "RED",
+              "trackName": "Real Estate",
+              "level": 4,
+              "lessonNumber": 8,
+              "title": "1031 Exchange Analysis: Why Deferral Beats Immediate Taxation",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-08",
+              "path": "content/curriculum/RED/L4/RED-L4-008.md",
+              "checksum": "sha256:sha256:957c471fa47359c69fea69ad86f3f1dad89ce1a5e59f5fa69457ef1d2db6929f",
+              "status": "active",
+              "ingestionId": "6f955925-faa6-41c3-b2b5-fb77d34132f0",
+              "importedAt": "2026-10-08T12:43:03.373Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Real Estate",
+                "summary": "Understand why deferring capital gains tax through a 1031 exchange can meaningfully compound an investor's wealth over time, and what rules govern it."
+              }
+            },
+            "RED-L4-009": {
+              "id": "RED-L4-009",
+              "type": "lesson",
+              "track": "RED",
+              "trackName": "Real Estate",
+              "level": 4,
+              "lessonNumber": 9,
+              "title": "Depreciation Recapture: Why the Tax Bill Comes Due Eventually",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-08",
+              "path": "content/curriculum/RED/L4/RED-L4-009.md",
+              "checksum": "sha256:sha256:9357d64451c8abce3f459c034cd0bfa298d6121af096252aa512db6429624552",
+              "status": "active",
+              "ingestionId": "6f955925-faa6-41c3-b2b5-fb77d34132f0",
+              "importedAt": "2026-10-08T12:43:03.373Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Real Estate",
+                "summary": "Understand why depreciation, while valuable during ownership, creates a tax obligation that comes due upon sale, and why planning for it matters."
+              }
+            },
+            "RED-L4-010": {
+              "id": "RED-L4-010",
+              "type": "lesson",
+              "track": "RED",
+              "trackName": "Real Estate",
+              "level": 4,
+              "lessonNumber": 10,
+              "title": "Cost Segregation Analysis: Why Accelerating Depreciation Changes Cash Flow",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-08",
+              "path": "content/curriculum/RED/L4/RED-L4-010.md",
+              "checksum": "sha256:sha256:5a9e6b998e044ae077967a5227e375f33053ac1f966eb775348e59d02447d453",
+              "status": "active",
+              "ingestionId": "6f955925-faa6-41c3-b2b5-fb77d34132f0",
+              "importedAt": "2026-10-08T12:43:03.373Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Real Estate",
+                "summary": "Learn why cost segregation studies can front-load depreciation deductions, improving near-term cash flow, and what tradeoffs come with that acceleration."
+              }
+            },
+            "RED-L4-011": {
+              "id": "RED-L4-011",
+              "type": "lesson",
+              "track": "RED",
+              "trackName": "Real Estate",
+              "level": 4,
+              "lessonNumber": 11,
+              "title": "Debt Service Coverage Ratio: Why Lenders Weight It Over Cap Rate",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-08",
+              "path": "content/curriculum/RED/L4/RED-L4-011.md",
+              "checksum": "sha256:sha256:e98868fe44778ba44f92edf825273bb3200213b707ac4fd70434e3b321c35dfb",
+              "status": "active",
+              "ingestionId": "6f955925-faa6-41c3-b2b5-fb77d34132f0",
+              "importedAt": "2026-10-08T12:43:03.373Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Real Estate",
+                "summary": "Learn why lenders care more about Debt Service Coverage Ratio than cap rate, and how DSCR shapes how much a property can actually be financed."
+              }
+            },
+            "RED-L4-012": {
+              "id": "RED-L4-012",
+              "type": "lesson",
+              "track": "RED",
+              "trackName": "Real Estate",
+              "level": 4,
+              "lessonNumber": 12,
+              "title": "Loan-to-Value Analysis: Why Leverage Cuts Both Ways",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-08",
+              "path": "content/curriculum/RED/L4/RED-L4-012.md",
+              "checksum": "sha256:sha256:d6ba1e1bc5d8849c652ac2e330f9ee0aec9aaa447b9b1b20bd7fb7fab30722ec",
+              "status": "active",
+              "ingestionId": "6f955925-faa6-41c3-b2b5-fb77d34132f0",
+              "importedAt": "2026-10-08T12:43:03.373Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Real Estate",
+                "summary": "Understand why loan-to-value ratio amplifies both gains and losses, and why higher leverage is not automatically a better strategy."
+              }
+            },
+            "RED-L4-013": {
+              "id": "RED-L4-013",
+              "type": "lesson",
+              "track": "RED",
+              "trackName": "Real Estate",
+              "level": 4,
+              "lessonNumber": 13,
+              "title": "Refinance vs Sell Analysis: Why the Tax-Free Cash-Out Wins Sometimes",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-08",
+              "path": "content/curriculum/RED/L4/RED-L4-013.md",
+              "checksum": "sha256:sha256:7fb5223785c3e99e833b4405fb2a6d86eedd01a2c31a44d8c2f52bc32a35190f",
+              "status": "active",
+              "ingestionId": "6f955925-faa6-41c3-b2b5-fb77d34132f0",
+              "importedAt": "2026-10-08T12:43:03.373Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Real Estate",
+                "summary": "Learn why refinancing to pull out equity can beat selling in many situations, and understand the tradeoffs an investor should weigh before choosing."
+              }
+            },
+            "RED-L4-014": {
+              "id": "RED-L4-014",
+              "type": "lesson",
+              "track": "RED",
+              "trackName": "Real Estate",
+              "level": 4,
+              "lessonNumber": 14,
+              "title": "Value-Add Analysis: Why Forced Appreciation Beats Waiting on the Market",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-08",
+              "path": "content/curriculum/RED/L4/RED-L4-014.md",
+              "checksum": "sha256:sha256:13315229c38757eaa5c9d50b2ba450c9b1fe67380b4376ad0149fbe70fcac38a",
+              "status": "active",
+              "ingestionId": "6f955925-faa6-41c3-b2b5-fb77d34132f0",
+              "importedAt": "2026-10-08T12:43:03.373Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Real Estate",
+                "summary": "Understand why value-add strategies let investors create appreciation directly, rather than relying entirely on market conditions."
+              }
+            },
+            "RED-L4-015": {
+              "id": "RED-L4-015",
+              "type": "lesson",
+              "track": "RED",
+              "trackName": "Real Estate",
+              "level": 4,
+              "lessonNumber": 15,
+              "title": "Opportunity Cost Analysis: Why the Best Deal Isn't Always the Obvious One",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-08",
+              "path": "content/curriculum/RED/L4/RED-L4-015.md",
+              "checksum": "sha256:sha256:4dd3cdf40a0683bbe1c2b79e9f7b3ec4740d9620546609d05d3b42c46c97285a",
+              "status": "active",
+              "ingestionId": "6f955925-faa6-41c3-b2b5-fb77d34132f0",
+              "importedAt": "2026-10-08T12:43:03.373Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Real Estate",
+                "summary": "Learn why every investment decision has a hidden cost — the next-best alternative given up — and why ignoring opportunity cost leads to weaker decisions."
+              }
+            },
+            "RED-L4-016": {
+              "id": "RED-L4-016",
+              "type": "lesson",
+              "track": "RED",
+              "trackName": "Real Estate",
+              "level": 4,
+              "lessonNumber": 16,
+              "title": "Comparative Market Analysis: Why Comps Can Mislead Without Adjustments",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-08",
+              "path": "content/curriculum/RED/L4/RED-L4-016.md",
+              "checksum": "sha256:sha256:8ba7a994da132f8298b0a79ae6b99ee1cc110f20f69e7e056ea1882a5f0b5f20",
+              "status": "active",
+              "ingestionId": "6f955925-faa6-41c3-b2b5-fb77d34132f0",
+              "importedAt": "2026-10-08T12:43:03.373Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Real Estate",
+                "summary": "Understand why raw comparable sales data can be misleading, and why proper adjustments are essential to an accurate comparative market analysis."
+              }
+            },
+            "RED-L4-017": {
+              "id": "RED-L4-017",
+              "type": "lesson",
+              "track": "RED",
+              "trackName": "Real Estate",
+              "level": 4,
+              "lessonNumber": 17,
+              "title": "Replacement Cost Analysis: Why New Construction Sets a Price Ceiling",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-08",
+              "path": "content/curriculum/RED/L4/RED-L4-017.md",
+              "checksum": "sha256:sha256:683e37ccc07b2d210dc80370bb6b41430dd09f896bf51d6c3e0c85512e490a1f",
+              "status": "active",
+              "ingestionId": "6f955925-faa6-41c3-b2b5-fb77d34132f0",
+              "importedAt": "2026-10-08T12:43:03.373Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Real Estate",
+                "summary": "Understand why the cost to build new sets a practical ceiling on existing property values, and why this matters in overheated markets."
+              }
+            },
+            "RED-L4-018": {
+              "id": "RED-L4-018",
+              "type": "lesson",
+              "track": "RED",
+              "trackName": "Real Estate",
+              "level": 4,
+              "lessonNumber": 18,
+              "title": "Highest and Best Use Analysis: Why Zoning Changes Everything",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-08",
+              "path": "content/curriculum/RED/L4/RED-L4-018.md",
+              "checksum": "sha256:sha256:c0554dc5681c9df4c7ec0246eb1fc990ec4237e46b7f080a14a116c63b07d75d",
+              "status": "active",
+              "ingestionId": "6f955925-faa6-41c3-b2b5-fb77d34132f0",
+              "importedAt": "2026-10-08T12:43:03.373Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Real Estate",
+                "summary": "Learn why a property's value depends on its highest and best legally permitted use, and why zoning changes can dramatically shift that value."
+              }
+            },
+            "RED-L4-019": {
+              "id": "RED-L4-019",
+              "type": "lesson",
+              "track": "RED",
+              "trackName": "Real Estate",
+              "level": 4,
+              "lessonNumber": 19,
+              "title": "Neighborhood Lifecycle Analysis: Why Gentrification Follows a Pattern",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-08",
+              "path": "content/curriculum/RED/L4/RED-L4-019.md",
+              "checksum": "sha256:sha256:87530852d63f1483909e7018624d5a130f12edbf135d4d9666f97c6dd5c20144",
+              "status": "active",
+              "ingestionId": "6f955925-faa6-41c3-b2b5-fb77d34132f0",
+              "importedAt": "2026-10-08T12:43:03.373Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Real Estate",
+                "summary": "Understand the typical stages of neighborhood change and why recognizing the pattern helps investors judge timing and risk."
+              }
+            },
+            "RED-L4-020": {
+              "id": "RED-L4-020",
+              "type": "lesson",
+              "track": "RED",
+              "trackName": "Real Estate",
+              "level": 4,
+              "lessonNumber": 20,
+              "title": "Risk-Adjusted Return Analysis: Why Two Deals with the Same Return Aren't Equal",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-08",
+              "path": "content/curriculum/RED/L4/RED-L4-020.md",
+              "checksum": "sha256:sha256:dc58ec210e537f4d7db529e0fb225f97bab8f2f9e7a350f64388d5ded8b59b1e",
+              "status": "active",
+              "ingestionId": "6f955925-faa6-41c3-b2b5-fb77d34132f0",
+              "importedAt": "2026-10-08T12:43:03.373Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Real Estate",
+                "summary": "Learn why comparing raw return numbers alone can be misleading, and why adjusting for risk is essential to comparing real estate opportunities fairly."
+              }
+            },
+            "RED-L4-021": {
+              "id": "RED-L4-021",
+              "type": "lesson",
+              "track": "RED",
+              "trackName": "Real Estate",
+              "level": 4,
+              "lessonNumber": 21,
+              "title": "Diversification Within Real Estate: Why One Property Type Isn't a Portfolio",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-08",
+              "path": "content/curriculum/RED/L4/RED-L4-021.md",
+              "checksum": "sha256:sha256:1e3ac44072e55faa70760c3c28a645370aa2b01a8a866cec87cbe28347a2b435",
+              "status": "active",
+              "ingestionId": "6f955925-faa6-41c3-b2b5-fb77d34132f0",
+              "importedAt": "2026-10-08T12:43:03.373Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Real Estate",
+                "summary": "Understand why owning multiple properties of the same type in the same market is not true diversification, and why real diversification requires different risk drivers."
+              }
+            },
+            "RED-L4-022": {
+              "id": "RED-L4-022",
+              "type": "lesson",
+              "track": "RED",
+              "trackName": "Real Estate",
+              "level": 4,
+              "lessonNumber": 22,
+              "title": "Geographic Diversification Analysis: Why Local Markets Don't Move Together",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-08",
+              "path": "content/curriculum/RED/L4/RED-L4-022.md",
+              "checksum": "sha256:sha256:0f59afdfb8f06bff0b1dfa95fe63cc57b8c3893cf985b43fd864f52b3e072a5b",
+              "status": "active",
+              "ingestionId": "6f955925-faa6-41c3-b2b5-fb77d34132f0",
+              "importedAt": "2026-10-08T12:43:03.373Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Real Estate",
+                "summary": "Learn why real estate markets in different regions often move independently, and why this creates a genuine diversification benefit."
+              }
+            },
+            "RED-L4-023": {
+              "id": "RED-L4-023",
+              "type": "lesson",
+              "track": "RED",
+              "trackName": "Real Estate",
+              "level": 4,
+              "lessonNumber": 23,
+              "title": "Property Management Analysis: Why Self-Managing Isn't Always Cheaper",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-08",
+              "path": "content/curriculum/RED/L4/RED-L4-023.md",
+              "checksum": "sha256:sha256:ebb00e4f28145256074f7da92bd25077c9a4cd545e7c777daa963ef08a600fc1",
+              "status": "active",
+              "ingestionId": "6f955925-faa6-41c3-b2b5-fb77d34132f0",
+              "importedAt": "2026-10-08T12:43:03.373Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Real Estate",
+                "summary": "Understand why the true cost of self-managing a property includes more than the management fee saved, and how to evaluate the decision properly."
+              }
+            },
+            "RED-L4-024": {
+              "id": "RED-L4-024",
+              "type": "lesson",
+              "track": "RED",
+              "trackName": "Real Estate",
+              "level": 4,
+              "lessonNumber": 24,
+              "title": "Tenant Quality Analysis: Why Credit Screening Protects Cash Flow",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-08",
+              "path": "content/curriculum/RED/L4/RED-L4-024.md",
+              "checksum": "sha256:sha256:d886632533aa27d6f273a2f811a82a5a37eab0c6959037faa7012da40b2a53c9",
+              "status": "active",
+              "ingestionId": "6f955925-faa6-41c3-b2b5-fb77d34132f0",
+              "importedAt": "2026-10-08T12:43:03.373Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Real Estate",
+                "summary": "Understand why rigorous tenant screening is one of the highest-leverage risk-management tools available to a real estate investor."
+              }
+            },
+            "RED-L4-025": {
+              "id": "RED-L4-025",
+              "type": "lesson",
+              "track": "RED",
+              "trackName": "Real Estate",
+              "level": 4,
+              "lessonNumber": 25,
+              "title": "Lease Structure Analysis: Why Triple Net Shifts Risk to Tenants",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-08",
+              "path": "content/curriculum/RED/L4/RED-L4-025.md",
+              "checksum": "sha256:sha256:c4b5c44dc091b63a8e7eeb8034d1b00e71a4f05b73948c38e18b94bd7fadd59f",
+              "status": "active",
+              "ingestionId": "6f955925-faa6-41c3-b2b5-fb77d34132f0",
+              "importedAt": "2026-10-08T12:43:03.373Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Real Estate",
+                "summary": "Understand how triple net lease structures shift operating cost risk from landlord to tenant, and why this changes an investor's return profile."
+              }
+            },
+            "RED-L4-026": {
+              "id": "RED-L4-026",
+              "type": "lesson",
+              "track": "RED",
+              "trackName": "Real Estate",
+              "level": 4,
+              "lessonNumber": 26,
+              "title": "Renovation ROI Analysis: Why Not All Upgrades Pay Back",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-08",
+              "path": "content/curriculum/RED/L4/RED-L4-026.md",
+              "checksum": "sha256:sha256:353b45b9ba609d0d1bb4f57aa4badbd4a263f21f3a01b97f7c4b10c9d2872bcb",
+              "status": "active",
+              "ingestionId": "6f955925-faa6-41c3-b2b5-fb77d34132f0",
+              "importedAt": "2026-10-08T12:43:03.373Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Real Estate",
+                "summary": "Learn why some renovations generate strong returns while others fail to recoup their cost, and how to prioritize improvements analytically."
+              }
+            },
+            "RED-L4-027": {
+              "id": "RED-L4-027",
+              "type": "lesson",
+              "track": "RED",
+              "trackName": "Real Estate",
+              "level": 4,
+              "lessonNumber": 27,
+              "title": "Exit Strategy Analysis: Why Knowing Your Exit Before You Buy Matters",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-08",
+              "path": "content/curriculum/RED/L4/RED-L4-027.md",
+              "checksum": "sha256:sha256:c041560e487f44d32ba671ea722a7700c7f2241c0de1258acd07d623e9d4c423",
+              "status": "active",
+              "ingestionId": "6f955925-faa6-41c3-b2b5-fb77d34132f0",
+              "importedAt": "2026-10-08T12:43:03.373Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Real Estate",
+                "summary": "Understand why defining an exit strategy before purchasing a property shapes every other decision made during ownership."
+              }
+            },
+            "RED-L4-028": {
+              "id": "RED-L4-028",
+              "type": "lesson",
+              "track": "RED",
+              "trackName": "Real Estate",
+              "level": 4,
+              "lessonNumber": 28,
+              "title": "Hold Period Analysis: Why Time Horizon Changes the Right Strategy",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-08",
+              "path": "content/curriculum/RED/L4/RED-L4-028.md",
+              "checksum": "sha256:sha256:8ed5057f9d8b23a0676205a74548af3db1beac62117e93a852a0e00e0fe00d6e",
+              "status": "active",
+              "ingestionId": "6f955925-faa6-41c3-b2b5-fb77d34132f0",
+              "importedAt": "2026-10-08T12:43:03.373Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Real Estate",
+                "summary": "Understand why the intended holding period should shape financing, renovation, and risk decisions from the outset of an investment."
+              }
+            },
+            "RED-L4-029": {
+              "id": "RED-L4-029",
+              "type": "lesson",
+              "track": "RED",
+              "trackName": "Real Estate",
+              "level": 4,
+              "lessonNumber": 29,
+              "title": "Break-Even Analysis: Why Knowing Your Number Prevents Panic Selling",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-08",
+              "path": "content/curriculum/RED/L4/RED-L4-029.md",
+              "checksum": "sha256:sha256:a47e0ac1fa577fa3fbe1b9557f9c2cf8d3004d4ae9b1d216b3fb3b41e3708cda",
+              "status": "active",
+              "ingestionId": "6f955925-faa6-41c3-b2b5-fb77d34132f0",
+              "importedAt": "2026-10-08T12:43:03.373Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Real Estate",
+                "summary": "Learn how to calculate a property's break-even point and why knowing this number in advance helps investors make calm decisions during downturns."
+              }
+            },
+            "RED-L4-030": {
+              "id": "RED-L4-030",
+              "type": "lesson",
+              "track": "RED",
+              "trackName": "Real Estate",
+              "level": 4,
+              "lessonNumber": 30,
+              "title": "Insurance Analysis: Why Underinsuring Is a Hidden Risk",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-08",
+              "path": "content/curriculum/RED/L4/RED-L4-030.md",
+              "checksum": "sha256:sha256:3fd2cfe777f775827e158096caa0190c8f95b4b12c9ab49229afaea8ab32262c",
+              "status": "active",
+              "ingestionId": "6f955925-faa6-41c3-b2b5-fb77d34132f0",
+              "importedAt": "2026-10-08T12:43:03.373Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Real Estate",
+                "summary": "Understand why inadequate insurance coverage is a commonly overlooked risk that can undo years of otherwise sound real estate analysis."
+              }
+            },
+            "RED-L4-031": {
+              "id": "RED-L4-031",
+              "type": "lesson",
+              "track": "RED",
+              "trackName": "Real Estate",
+              "level": 4,
+              "lessonNumber": 31,
+              "title": "Property Tax Appeal Analysis: Why Assessments Don't Always Reflect Value",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-08",
+              "path": "content/curriculum/RED/L4/RED-L4-031.md",
+              "checksum": "sha256:sha256:d0783ed960123e0ce2063d82cedf46c3007c02de074c4ac397af1f713df99f3a",
+              "status": "active",
+              "ingestionId": "6f955925-faa6-41c3-b2b5-fb77d34132f0",
+              "importedAt": "2026-10-08T12:43:03.373Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Real Estate",
+                "summary": "Understand why government tax assessments can diverge from true market value, and why appealing an inflated assessment is a legitimate analytical tool."
+              }
+            },
+            "RED-L4-032": {
+              "id": "RED-L4-032",
+              "type": "lesson",
+              "track": "RED",
+              "trackName": "Real Estate",
+              "level": 4,
+              "lessonNumber": 32,
+              "title": "Syndication Analysis: Why the Waterfall Structure Matters",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-08",
+              "path": "content/curriculum/RED/L4/RED-L4-032.md",
+              "checksum": "sha256:sha256:4d52be214516083122b2ac5b02a9b87533342b953af29cfd208524fef4a76278",
+              "status": "active",
+              "ingestionId": "6f955925-faa6-41c3-b2b5-fb77d34132f0",
+              "importedAt": "2026-10-08T12:43:03.373Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Real Estate",
+                "summary": "Understand how profit-sharing waterfalls in real estate syndications work, and why the structure of the split matters as much as the projected return."
+              }
+            },
+            "RED-L4-033": {
+              "id": "RED-L4-033",
+              "type": "lesson",
+              "track": "RED",
+              "trackName": "Real Estate",
+              "level": 4,
+              "lessonNumber": 33,
+              "title": "General Partner vs Limited Partner Analysis: Why Alignment of Interest Matters",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-08",
+              "path": "content/curriculum/RED/L4/RED-L4-033.md",
+              "checksum": "sha256:sha256:027eeade374200f7cce750db09ab3cdfdd6fb60ec91a103b6a3af285bafd8b6e",
+              "status": "active",
+              "ingestionId": "6f955925-faa6-41c3-b2b5-fb77d34132f0",
+              "importedAt": "2026-10-08T12:43:03.373Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Real Estate",
+                "summary": "Understand why the alignment of incentives between general and limited partners is a critical factor in evaluating a syndicated real estate deal."
+              }
+            },
+            "RED-L4-034": {
+              "id": "RED-L4-034",
+              "type": "lesson",
+              "track": "RED",
+              "trackName": "Real Estate",
+              "level": 4,
+              "lessonNumber": 34,
+              "title": "REIT vs Direct Ownership Analysis: Why Liquidity Has a Cost",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-08",
+              "path": "content/curriculum/RED/L4/RED-L4-034.md",
+              "checksum": "sha256:sha256:571396d2170cab1c479b000b6033364d88a901b0467736848d511d3e51393c6e",
+              "status": "active",
+              "ingestionId": "6f955925-faa6-41c3-b2b5-fb77d34132f0",
+              "importedAt": "2026-10-08T12:43:03.373Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Real Estate",
+                "summary": "Understand the tradeoffs between investing in real estate through a REIT versus owning property directly, focusing on liquidity, control, and correlation."
+              }
+            },
+            "RED-L4-035": {
+              "id": "RED-L4-035",
+              "type": "lesson",
+              "track": "RED",
+              "trackName": "Real Estate",
+              "level": 4,
+              "lessonNumber": 35,
+              "title": "Short-Term Rental Analysis: Why Regulatory Risk Changes the Math",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-08",
+              "path": "content/curriculum/RED/L4/RED-L4-035.md",
+              "checksum": "sha256:sha256:e56f43d344d2f6c9fad49ddc7eba5a767b4fb91751802204b8c8a088e0e56b7f",
+              "status": "active",
+              "ingestionId": "6f955925-faa6-41c3-b2b5-fb77d34132f0",
+              "importedAt": "2026-10-08T12:43:03.373Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Real Estate",
+                "summary": "Understand why short-term rental regulations introduce a distinct risk category that can materially change a property's viability and value."
+              }
+            },
+            "RED-L4-036": {
+              "id": "RED-L4-036",
+              "type": "lesson",
+              "track": "RED",
+              "trackName": "Real Estate",
+              "level": 4,
+              "lessonNumber": 36,
+              "title": "House Hacking Analysis: Why Living in Your Investment Changes the Numbers",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-08",
+              "path": "content/curriculum/RED/L4/RED-L4-036.md",
+              "checksum": "sha256:sha256:0c643420f563e65db38e11b8b1a90871b124817abe54ad10a03f10319a0d39a1",
+              "status": "active",
+              "ingestionId": "6f955925-faa6-41c3-b2b5-fb77d34132f0",
+              "importedAt": "2026-10-08T12:43:03.373Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Real Estate",
+                "summary": "Understand why house hacking changes both the financing and return calculations available to an investor, compared to a pure investment property."
+              }
+            },
+            "RED-L4-037": {
+              "id": "RED-L4-037",
+              "type": "lesson",
+              "track": "RED",
+              "trackName": "Real Estate",
+              "level": 4,
+              "lessonNumber": 37,
+              "title": "BRRRR Strategy Analysis: Why Recycling Capital Accelerates Growth",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-08",
+              "path": "content/curriculum/RED/L4/RED-L4-037.md",
+              "checksum": "sha256:sha256:3c10bfc0fd330c929eb544ee7dc48031db9c14487ed651630e23679f51de57f0",
+              "status": "active",
+              "ingestionId": "6f955925-faa6-41c3-b2b5-fb77d34132f0",
+              "importedAt": "2026-10-08T12:43:03.373Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Real Estate",
+                "summary": "Understand how the Buy, Rehab, Rent, Refinance, Repeat strategy allows an investor to recycle the same capital across multiple properties."
+              }
+            },
+            "RED-L4-038": {
+              "id": "RED-L4-038",
+              "type": "lesson",
+              "track": "RED",
+              "trackName": "Real Estate",
+              "level": 4,
+              "lessonNumber": 38,
+              "title": "Wholesaling Analysis: Why Speed Matters More Than Margin",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-08",
+              "path": "content/curriculum/RED/L4/RED-L4-038.md",
+              "checksum": "sha256:sha256:cb3fc7c58ad1c7da63cd1e480b3719eb0cdf3750082fdc1658deb54a9f4dc46b",
+              "status": "active",
+              "ingestionId": "6f955925-faa6-41c3-b2b5-fb77d34132f0",
+              "importedAt": "2026-10-08T12:43:03.373Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Real Estate",
+                "summary": "Understand how real estate wholesaling works as a contract-assignment strategy, and why transaction speed and volume matter more than per-deal margin."
+              }
+            },
+            "RED-L4-039": {
+              "id": "RED-L4-039",
+              "type": "lesson",
+              "track": "RED",
+              "trackName": "Real Estate",
+              "level": 4,
+              "lessonNumber": 39,
+              "title": "Fix-and-Flip Analysis: Why Timeline Risk Can Erase Profit",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-08",
+              "path": "content/curriculum/RED/L4/RED-L4-039.md",
+              "checksum": "sha256:sha256:184089826ba2c5b884e885a021a16cdc47a0f218741e700517f86a1fb9215460",
+              "status": "active",
+              "ingestionId": "6f955925-faa6-41c3-b2b5-fb77d34132f0",
+              "importedAt": "2026-10-08T12:43:03.373Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Real Estate",
+                "summary": "Understand why holding costs and timeline overruns are often the biggest threat to a fix-and-flip's profitability, more so than renovation cost itself."
+              }
+            },
+            "RED-L4-040": {
+              "id": "RED-L4-040",
+              "type": "lesson",
+              "track": "RED",
+              "trackName": "Real Estate",
+              "level": 4,
+              "lessonNumber": 40,
+              "title": "Land Banking Analysis: Why Patience Is the Strategy",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-08",
+              "path": "content/curriculum/RED/L4/RED-L4-040.md",
+              "checksum": "sha256:sha256:5916bb08997e9374eba31a088872ea108162fccda6a13b5632186e2278467336",
+              "status": "active",
+              "ingestionId": "6f955925-faa6-41c3-b2b5-fb77d34132f0",
+              "importedAt": "2026-10-08T12:43:03.373Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Real Estate",
+                "summary": "Understand why land banking is a long-horizon strategy built on patience and holding cost management, rather than short-term return."
+              }
+            },
+            "RED-L4-041": {
+              "id": "RED-L4-041",
+              "type": "lesson",
+              "track": "RED",
+              "trackName": "Real Estate",
+              "level": 4,
+              "lessonNumber": 41,
+              "title": "Commercial vs Residential Analysis: Why Lease Terms Change Risk Profile",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-08",
+              "path": "content/curriculum/RED/L4/RED-L4-041.md",
+              "checksum": "sha256:sha256:4881c2ceea16359947aac19d24c2bf7094f2a981627fdc10334f11adf1d00cfe",
+              "status": "active",
+              "ingestionId": "6f955925-faa6-41c3-b2b5-fb77d34132f0",
+              "importedAt": "2026-10-08T12:43:03.373Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Real Estate",
+                "summary": "Understand how differing lease term lengths between commercial and residential real estate change income stability and overall risk profile."
+              }
+            },
+            "RED-L4-042": {
+              "id": "RED-L4-042",
+              "type": "lesson",
+              "track": "RED",
+              "trackName": "Real Estate",
+              "level": 4,
+              "lessonNumber": 42,
+              "title": "Mixed-Use Development Analysis: Why Diversified Income Streams Reduce Risk",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-08",
+              "path": "content/curriculum/RED/L4/RED-L4-042.md",
+              "checksum": "sha256:sha256:c52d0e562a85482eed1b3c1014bf1049999a8ccf3d2b6dd91b5f865f0979b65f",
+              "status": "active",
+              "ingestionId": "6f955925-faa6-41c3-b2b5-fb77d34132f0",
+              "importedAt": "2026-10-08T12:43:03.373Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Real Estate",
+                "summary": "Understand why combining residential, retail, and other uses within a single development can reduce overall risk through income diversification."
+              }
+            },
+            "RED-L4-043": {
+              "id": "RED-L4-043",
+              "type": "lesson",
+              "track": "RED",
+              "trackName": "Real Estate",
+              "level": 4,
+              "lessonNumber": 43,
+              "title": "Market Timing Analysis: Why Waiting for the Bottom Usually Costs More",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-08",
+              "path": "content/curriculum/RED/L4/RED-L4-043.md",
+              "checksum": "sha256:sha256:8cc0b21e088e5542736f11bcdacecd275bb4f2b701ce14441c9b3b9c9346193f",
+              "status": "active",
+              "ingestionId": "6f955925-faa6-41c3-b2b5-fb77d34132f0",
+              "importedAt": "2026-10-08T12:43:03.373Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Real Estate",
+                "summary": "Understand why attempting to precisely time the bottom of a real estate market is difficult and often more costly than a disciplined, analysis-based approach."
+              }
+            },
+            "RED-L4-044": {
+              "id": "RED-L4-044",
+              "type": "lesson",
+              "track": "RED",
+              "trackName": "Real Estate",
+              "level": 4,
+              "lessonNumber": 44,
+              "title": "Inflation Hedge Analysis: Why Real Estate Responds Differently Than Stocks",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-08",
+              "path": "content/curriculum/RED/L4/RED-L4-044.md",
+              "checksum": "sha256:sha256:dc416c83b4e78152fbd63a5dc5998fa4e3921134edbc72e5d382af556cd319f0",
+              "status": "active",
+              "ingestionId": "6f955925-faa6-41c3-b2b5-fb77d34132f0",
+              "importedAt": "2026-10-08T12:43:03.373Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Real Estate",
+                "summary": "Understand the mechanisms through which real estate can act as an inflation hedge, and why this behavior differs from how stocks typically respond to inflation."
+              }
+            },
+            "RED-L4-045": {
+              "id": "RED-L4-045",
+              "type": "lesson",
+              "track": "RED",
+              "trackName": "Real Estate",
+              "level": 4,
+              "lessonNumber": 45,
+              "title": "Environmental Risk Analysis: Why Due Diligence Includes the Ground, Not Just the Building",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-08",
+              "path": "content/curriculum/RED/L4/RED-L4-045.md",
+              "checksum": "sha256:sha256:b71e13301b962178cd0a19af241346522e2b69129ed9128aa7d39a158e58c297",
+              "status": "active",
+              "ingestionId": "6f955925-faa6-41c3-b2b5-fb77d34132f0",
+              "importedAt": "2026-10-08T12:43:03.373Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Real Estate",
+                "summary": "Understand why environmental due diligence, including assessing potential soil or groundwater contamination, is a critical and sometimes overlooked risk category."
+              }
+            },
+            "RED-L4-046": {
+              "id": "RED-L4-046",
+              "type": "lesson",
+              "track": "RED",
+              "trackName": "Real Estate",
+              "level": 4,
+              "lessonNumber": 46,
+              "title": "Title and Legal Risk Analysis: Why Clean Title Isn't Guaranteed",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-08",
+              "path": "content/curriculum/RED/L4/RED-L4-046.md",
+              "checksum": "sha256:sha256:97e65060d50e038b68ab2f6c911f26c2a5be9acb9ca9576725b1bc0898751af2",
+              "status": "active",
+              "ingestionId": "6f955925-faa6-41c3-b2b5-fb77d34132f0",
+              "importedAt": "2026-10-08T12:43:03.373Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Real Estate",
+                "summary": "Understand why title defects can threaten ownership even after a purchase closes, and why title insurance and a proper title search are essential protections."
+              }
+            },
+            "RED-L4-047": {
+              "id": "RED-L4-047",
+              "type": "lesson",
+              "track": "RED",
+              "trackName": "Real Estate",
+              "level": 4,
+              "lessonNumber": 47,
+              "title": "Partnership Structure Analysis: Why Buy-Sell Agreements Prevent Disputes",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-08",
+              "path": "content/curriculum/RED/L4/RED-L4-047.md",
+              "checksum": "sha256:sha256:76ad7b65bf3315303606688c729e0e612508bebcb57a150d4a237e6c5cf88d05",
+              "status": "active",
+              "ingestionId": "6f955925-faa6-41c3-b2b5-fb77d34132f0",
+              "importedAt": "2026-10-08T12:43:03.373Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Real Estate",
+                "summary": "Understand why a well-drafted buy-sell agreement is essential when co-investing with partners, and what key provisions it should address."
+              }
+            },
+            "RED-L4-048": {
+              "id": "RED-L4-048",
+              "type": "lesson",
+              "track": "RED",
+              "trackName": "Real Estate",
+              "level": 4,
+              "lessonNumber": 48,
+              "title": "Succession Planning Analysis: Why Real Estate Portfolios Need an Exit Plan for the Owner, Not Just the Property",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-08",
+              "path": "content/curriculum/RED/L4/RED-L4-048.md",
+              "checksum": "sha256:sha256:10cca150a3996fa5bef5c94c434fff652b9b483a976a040f077766d8ea84fc88",
+              "status": "active",
+              "ingestionId": "6f955925-faa6-41c3-b2b5-fb77d34132f0",
+              "importedAt": "2026-10-08T12:43:03.373Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Real Estate",
+                "summary": "Understand why succession planning for the investor's own eventual exit, disability, or death is a distinct and often overlooked layer of real estate risk management."
+              }
+            },
+            "RED-L4-049": {
+              "id": "RED-L4-049",
+              "type": "lesson",
+              "track": "RED",
+              "trackName": "Real Estate",
+              "level": 4,
+              "lessonNumber": 49,
+              "title": "Economic Indicator Analysis: Why Employment Data Predicts Rent Growth",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-08",
+              "path": "content/curriculum/RED/L4/RED-L4-049.md",
+              "checksum": "sha256:sha256:4e8444d0f1d91d38459c51457568bcee7bcd1a5f583c6ee60087cb3f1fb9a3ba",
+              "status": "active",
+              "ingestionId": "6f955925-faa6-41c3-b2b5-fb77d34132f0",
+              "importedAt": "2026-10-08T12:43:03.373Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Real Estate",
+                "summary": "Understand why local employment trends are one of the most reliable leading indicators for future rental demand and rent growth."
+              }
+            },
+            "RED-L4-050": {
+              "id": "RED-L4-050",
+              "type": "lesson",
+              "track": "RED",
+              "trackName": "Real Estate",
+              "level": 4,
+              "lessonNumber": 50,
+              "title": "Portfolio Rebalancing Analysis: Why Selling Winners Can Be the Right Move",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-08",
+              "path": "content/curriculum/RED/L4/RED-L4-050.md",
+              "checksum": "sha256:sha256:dc7b25b384b6b0f7b591da8cc188e0160009055c5a838f8846a5980dd57eddcb",
+              "status": "active",
+              "ingestionId": "6f955925-faa6-41c3-b2b5-fb77d34132f0",
+              "importedAt": "2026-10-08T12:43:03.373Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Real Estate",
+                "summary": "Understand why periodically rebalancing a real estate portfolio, including selling strong performers, can be a disciplined risk-management practice rather than a mistake."
+              }
+            }
+          }
         },
         "5": {
           "assets": {}
