@@ -12,8 +12,9 @@ import { getLessonContent, readRegistry, type RegistryAsset } from "@/lib/curric
 import { readAtomicPublishedLessons, removeAtomicPublishedBatch, removeAtomicPublishedLesson, upsertAtomicPublishedLessons, upsertAtomicPublishedTranslation } from "@/lib/curriculum/atomic-published-store";
 import { isLearnerReadyTranslation } from "@/lib/curriculum/translation-quality";
 import { getCommittedLessonTranslation } from "@/lib/curriculum/committed-translation-fallback";
-import { readTranslationPackageForLesson, readTranslationPackagesForLocale } from "@/lib/curriculum/translation-package-store";
+import { readTranslationPackageForLesson, readTranslationPackagesForLocale, sameLocale } from "@/lib/curriculum/translation-package-store";
 
+const ATOMIC_AUTHORITY_MARKER="atomicCanonicalPublication";
 const PUBLISHED_STATE_PATH="published/curriculum-state.json";
 const SEEDS_DIR=join(process.cwd(),"curriculum","seeds","translations");
 const COURSE_CONTENT_DIR=join(process.cwd(),"content","courses");
