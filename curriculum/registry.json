@@ -1,7 +1,7 @@
 {
   "_schema": "curriculum/schemas/registry.schema.json",
   "_version": "1.0",
-  "_generated": "2026-09-15T10:56:40.342Z",
+  "_generated": "2026-10-08T08:40:27.244Z",
   "_note": "Authoritative curriculum registry (empty lessons are a valid production state).",
   "tracks": {
     "RED": {
@@ -9177,7 +9177,1258 @@
           "assets": {}
         },
         "4": {
-          "assets": {}
+          "assets": {
+            "GOLD-L4-001": {
+              "id": "GOLD-L4-001",
+              "type": "lesson",
+              "track": "GOLD",
+              "trackName": "Investing",
+              "level": 4,
+              "lessonNumber": 1,
+              "title": "Modern Portfolio Theory Analysis: Why Combining Assets Can Reduce Risk Without Necessarily Reducing Return",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-08",
+              "path": "content/curriculum/GOLD/L4/GOLD-L4-001.md",
+              "checksum": "sha256:sha256:4f25ee402751a7c4d51f9920f69457383d579fa3d0fe3109d9d867b837107179",
+              "status": "active",
+              "ingestionId": "4c27d4f4-bd41-4e22-a6b2-5175e2af4953",
+              "importedAt": "2026-10-08T08:40:25.324Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Investing",
+                "summary": "Understand the core insight of modern portfolio theory, why the efficient frontier concept matters, and why diversification's benefit comes specifically from imperfect correlation between assets."
+              }
+            },
+            "GOLD-L4-002": {
+              "id": "GOLD-L4-002",
+              "type": "lesson",
+              "track": "GOLD",
+              "trackName": "Investing",
+              "level": 4,
+              "lessonNumber": 2,
+              "title": "Risk Tolerance vs Risk Capacity Analysis: Why Willingness and Ability to Take Risk Are Not the Same Thing",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-08",
+              "path": "content/curriculum/GOLD/L4/GOLD-L4-002.md",
+              "checksum": "sha256:sha256:681dc3a9f50d102f7bd4caec97e51639c9456b86fbe32932b49a9c4d967b9fc9",
+              "status": "active",
+              "ingestionId": "4c27d4f4-bd41-4e22-a6b2-5175e2af4953",
+              "importedAt": "2026-10-08T08:40:25.324Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Investing",
+                "summary": "Understand the distinction between risk tolerance (psychological willingness to accept investment risk) and risk capacity (financial ability to withstand investment losses), and why sound investment planning requires honestly assessing both."
+              }
+            },
+            "GOLD-L4-003": {
+              "id": "GOLD-L4-003",
+              "type": "lesson",
+              "track": "GOLD",
+              "trackName": "Investing",
+              "level": 4,
+              "lessonNumber": 3,
+              "title": "Time Horizon Analysis: Why the Number of Years Until You Need the Money Should Drive Asset Allocation",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-08",
+              "path": "content/curriculum/GOLD/L4/GOLD-L4-003.md",
+              "checksum": "sha256:sha256:bab74004e6aa4a757078666ff3769c132b272287ebd44a8044e3be9d22f10ef3",
+              "status": "active",
+              "ingestionId": "4c27d4f4-bd41-4e22-a6b2-5175e2af4953",
+              "importedAt": "2026-10-08T08:40:25.324Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Investing",
+                "summary": "Understand why an investor's time horizon is one of the most important determinants of appropriate asset allocation, and why a long time horizon can justify accepting short-term volatility that a short time horizon cannot."
+              }
+            },
+            "GOLD-L4-004": {
+              "id": "GOLD-L4-004",
+              "type": "lesson",
+              "track": "GOLD",
+              "trackName": "Investing",
+              "level": 4,
+              "lessonNumber": 4,
+              "title": "Dollar-Cost Averaging vs Lump-Sum Investing Analysis: Why the 'Safer-Feeling' Choice Isn't Always the Higher-Expected-Return Choice",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-08",
+              "path": "content/curriculum/GOLD/L4/GOLD-L4-004.md",
+              "checksum": "sha256:sha256:99dbe9d36052fbf7042086b67e1aa58de6d6cec6a277597681a6bc9d867d8af4",
+              "status": "active",
+              "ingestionId": "4c27d4f4-bd41-4e22-a6b2-5175e2af4953",
+              "importedAt": "2026-10-08T08:40:25.324Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Investing",
+                "summary": "Understand the tradeoff between investing a large sum immediately versus spreading it out over time, and why historical analysis generally favors lump-sum investing on average, even though dollar-cost averaging offers genuine behavioral and risk-management benefits."
+              }
+            },
+            "GOLD-L4-005": {
+              "id": "GOLD-L4-005",
+              "type": "lesson",
+              "track": "GOLD",
+              "trackName": "Investing",
+              "level": 4,
+              "lessonNumber": 5,
+              "title": "Cross-Asset-Class Correlation Analysis: Why Diversification Across Categories Matters More Than Diversification Within One",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-08",
+              "path": "content/curriculum/GOLD/L4/GOLD-L4-005.md",
+              "checksum": "sha256:sha256:66f9f823b1336deac624331e194c869ce89dd0fc6cb4e775e40367e0fb45dbc3",
+              "status": "active",
+              "ingestionId": "4c27d4f4-bd41-4e22-a6b2-5175e2af4953",
+              "importedAt": "2026-10-08T08:40:25.324Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Investing",
+                "summary": "Understand why combining fundamentally different asset classes, not just different individual securities within the same asset class, is essential to genuine portfolio diversification."
+              }
+            },
+            "GOLD-L4-006": {
+              "id": "GOLD-L4-006",
+              "type": "lesson",
+              "track": "GOLD",
+              "trackName": "Investing",
+              "level": 4,
+              "lessonNumber": 6,
+              "title": "Gold as a Portfolio Asset Analysis: Why Its Investment Case Rests on Different Foundations Than Stocks or Bonds",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-08",
+              "path": "content/curriculum/GOLD/L4/GOLD-L4-006.md",
+              "checksum": "sha256:sha256:6c6d8f65b997a4556cb3040d4c9809b933ff72144b3bbf719268ba83206feb7c",
+              "status": "active",
+              "ingestionId": "4c27d4f4-bd41-4e22-a6b2-5175e2af4953",
+              "importedAt": "2026-10-08T08:40:25.324Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Investing",
+                "summary": "Understand the distinctive characteristics that differentiate gold from productive financial assets like stocks and bonds, and why gold's investment case rests on different foundations, including its historical role during periods of currency and economic instability."
+              }
+            },
+            "GOLD-L4-007": {
+              "id": "GOLD-L4-007",
+              "type": "lesson",
+              "track": "GOLD",
+              "trackName": "Investing",
+              "level": 4,
+              "lessonNumber": 7,
+              "title": "Silver's Dual Identity Analysis: Why Silver Behaves Differently Than Gold Despite Being Another Precious Metal",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-08",
+              "path": "content/curriculum/GOLD/L4/GOLD-L4-007.md",
+              "checksum": "sha256:sha256:b7fea24aec1a49bb1d929eef23d8e87e966409b9d04a7158bee28d773fea4ba8",
+              "status": "active",
+              "ingestionId": "4c27d4f4-bd41-4e22-a6b2-5175e2af4953",
+              "importedAt": "2026-10-08T08:40:25.324Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Investing",
+                "summary": "Understand why silver's significant industrial demand component gives it a meaningfully different price behavior and volatility profile than gold, despite both being classified as precious metals."
+              }
+            },
+            "GOLD-L4-008": {
+              "id": "GOLD-L4-008",
+              "type": "lesson",
+              "track": "GOLD",
+              "trackName": "Investing",
+              "level": 4,
+              "lessonNumber": 8,
+              "title": "Commodities Investing Analysis: Why Exposure to Raw Materials Requires Understanding Contango and Backwardation",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-08",
+              "path": "content/curriculum/GOLD/L4/GOLD-L4-008.md",
+              "checksum": "sha256:sha256:5d901a8dc063e6ae411589cc16292fb18da213a841ad7988623ac2b524b3bd65",
+              "status": "active",
+              "ingestionId": "4c27d4f4-bd41-4e22-a6b2-5175e2af4953",
+              "importedAt": "2026-10-08T08:40:25.324Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Investing",
+                "summary": "Understand the basic rationale for including commodities in a diversified portfolio, and why the mechanics of how commodity exposure is typically obtained (through futures contracts) can meaningfully affect actual investor returns."
+              }
+            },
+            "GOLD-L4-009": {
+              "id": "GOLD-L4-009",
+              "type": "lesson",
+              "track": "GOLD",
+              "trackName": "Investing",
+              "level": 4,
+              "lessonNumber": 9,
+              "title": "Real Assets vs Financial Assets Analysis: Why the Distinction Matters for Inflation Protection and Diversification",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-08",
+              "path": "content/curriculum/GOLD/L4/GOLD-L4-009.md",
+              "checksum": "sha256:sha256:5b8cc57aa56da1b57f67493bb1ef1c3979d2b986fce6630b97d6733e856675cc",
+              "status": "active",
+              "ingestionId": "4c27d4f4-bd41-4e22-a6b2-5175e2af4953",
+              "importedAt": "2026-10-08T08:40:25.324Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Investing",
+                "summary": "Understand the fundamental distinction between real assets and financial assets, and why this distinction is particularly relevant to how a portfolio might be positioned to help address inflation risk."
+              }
+            },
+            "GOLD-L4-010": {
+              "id": "GOLD-L4-010",
+              "type": "lesson",
+              "track": "GOLD",
+              "trackName": "Investing",
+              "level": 4,
+              "lessonNumber": 10,
+              "title": "Cryptocurrency Investment Risk Analysis: Why This Asset Category Combines Extreme Volatility with Genuinely Novel Risk Factors",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-08",
+              "path": "content/curriculum/GOLD/L4/GOLD-L4-010.md",
+              "checksum": "sha256:sha256:4c12aeb96c16585a0e80948e10a28c543a768cbef93f6df50cb7f5eb0640ddd7",
+              "status": "active",
+              "ingestionId": "4c27d4f4-bd41-4e22-a6b2-5175e2af4953",
+              "importedAt": "2026-10-08T08:40:25.324Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Investing",
+                "summary": "Understand the distinctive risk factors associated with cryptocurrency as an investment category, including extreme volatility, valuation uncertainty, regulatory risk, and custody risk, and why these combine to create a genuinely distinctive risk profile."
+              }
+            },
+            "GOLD-L4-011": {
+              "id": "GOLD-L4-011",
+              "type": "lesson",
+              "track": "GOLD",
+              "trackName": "Investing",
+              "level": 4,
+              "lessonNumber": 11,
+              "title": "Private Equity as an Alternative Asset Analysis: Why Illiquidity Is the Price of Admission",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-08",
+              "path": "content/curriculum/GOLD/L4/GOLD-L4-011.md",
+              "checksum": "sha256:sha256:33f6ffdc2a58853d3654a9f39dcb5fffd8dea3274a1d8581ea9b4ce2e3b2b84c",
+              "status": "active",
+              "ingestionId": "4c27d4f4-bd41-4e22-a6b2-5175e2af4953",
+              "importedAt": "2026-10-08T08:40:25.324Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Investing",
+                "summary": "Understand private equity's basic structure as an investor asset class, the illiquidity and access constraints involved, and why its historical return premium is closely tied to accepting these specific constraints."
+              }
+            },
+            "GOLD-L4-012": {
+              "id": "GOLD-L4-012",
+              "type": "lesson",
+              "track": "GOLD",
+              "trackName": "Investing",
+              "level": 4,
+              "lessonNumber": 12,
+              "title": "Venture Capital as an Investor Asset Class Analysis: Why the Power Law Return Distribution Shapes the Entire Strategy",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-08",
+              "path": "content/curriculum/GOLD/L4/GOLD-L4-012.md",
+              "checksum": "sha256:sha256:305bdf0d00d985e69c363b0a0e6ea8da28701097ed971b3df39a28221b091c8a",
+              "status": "active",
+              "ingestionId": "4c27d4f4-bd41-4e22-a6b2-5175e2af4953",
+              "importedAt": "2026-10-08T08:40:25.324Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Investing",
+                "summary": "Understand venture capital investing from the outside investor's perspective, focusing on the power law return distribution that shapes fund strategy and why this differs fundamentally from a normally distributed return expectation."
+              }
+            },
+            "GOLD-L4-013": {
+              "id": "GOLD-L4-013",
+              "type": "lesson",
+              "track": "GOLD",
+              "trackName": "Investing",
+              "level": 4,
+              "lessonNumber": 13,
+              "title": "Hedge Fund Strategy Analysis: Why 'Hedge Fund' Describes a Legal Structure, Not a Single Investment Approach",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-08",
+              "path": "content/curriculum/GOLD/L4/GOLD-L4-013.md",
+              "checksum": "sha256:sha256:470c38caf9cd9125e4ddfd26f6541e913ffaa53ea2eca0d263c66d0d06a7dbbf",
+              "status": "active",
+              "ingestionId": "4c27d4f4-bd41-4e22-a6b2-5175e2af4953",
+              "importedAt": "2026-10-08T08:40:25.324Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Investing",
+                "summary": "Understand that 'hedge fund' is a broad structural category encompassing many genuinely different underlying investment strategies, and why evaluating a specific hedge fund requires understanding its particular strategy rather than assuming a single, generic hedge fund risk-return profile."
+              }
+            },
+            "GOLD-L4-014": {
+              "id": "GOLD-L4-014",
+              "type": "lesson",
+              "track": "GOLD",
+              "trackName": "Investing",
+              "level": 4,
+              "lessonNumber": 14,
+              "title": "Value Factor Investing Analysis: Why Buying Statistically Cheap Stocks Has Been a Historically Persistent, Though Not Guaranteed, Pattern",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-08",
+              "path": "content/curriculum/GOLD/L4/GOLD-L4-014.md",
+              "checksum": "sha256:sha256:3cdf6105fa660fa72628094e967abd31541486ad20dda63ac98e76aaeefe1d30",
+              "status": "active",
+              "ingestionId": "4c27d4f4-bd41-4e22-a6b2-5175e2af4953",
+              "importedAt": "2026-10-08T08:40:25.324Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Investing",
+                "summary": "Understand the value factor in factor investing, the historical evidence behind it, competing explanations for why it might exist, and why factor premiums are not a guaranteed, risk-free source of excess return."
+              }
+            },
+            "GOLD-L4-015": {
+              "id": "GOLD-L4-015",
+              "type": "lesson",
+              "track": "GOLD",
+              "trackName": "Investing",
+              "level": 4,
+              "lessonNumber": 15,
+              "title": "Momentum Factor Investing Analysis: Why Recent Winners Tending to Keep Winning Challenges a Purely Efficient Market View",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-08",
+              "path": "content/curriculum/GOLD/L4/GOLD-L4-015.md",
+              "checksum": "sha256:sha256:61e667e41205f20d69031d360d7932587b2deed8fe056c0089afc03caace4d19",
+              "status": "active",
+              "ingestionId": "4c27d4f4-bd41-4e22-a6b2-5175e2af4953",
+              "importedAt": "2026-10-08T08:40:25.324Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Investing",
+                "summary": "Understand the momentum factor in investing, why its existence poses a genuine analytical challenge to simple efficient market theory, and why momentum strategies carry a distinctive risk of sharp, sudden reversal."
+              }
+            },
+            "GOLD-L4-016": {
+              "id": "GOLD-L4-016",
+              "type": "lesson",
+              "track": "GOLD",
+              "trackName": "Investing",
+              "level": 4,
+              "lessonNumber": 16,
+              "title": "Size and Quality Factor Investing Analysis: Why Not Every Documented Factor Premium Has Aged Equally Well",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-08",
+              "path": "content/curriculum/GOLD/L4/GOLD-L4-016.md",
+              "checksum": "sha256:sha256:7bb5747b87b6a2349022b741a45f872c7367f9e780844ae08b2e5b5147a61a53",
+              "status": "active",
+              "ingestionId": "4c27d4f4-bd41-4e22-a6b2-5175e2af4953",
+              "importedAt": "2026-10-08T08:40:25.324Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Investing",
+                "summary": "Understand the size and quality factors in investing, and why the size premium's historical evidence has weakened over time in a way that illustrates a broader, important caution about factor investing generally."
+              }
+            },
+            "GOLD-L4-017": {
+              "id": "GOLD-L4-017",
+              "type": "lesson",
+              "track": "GOLD",
+              "trackName": "Investing",
+              "level": 4,
+              "lessonNumber": 17,
+              "title": "Target-Date Fund Analysis: Why a Single Fund's Automatic Glide Path Trades Simplicity for Reduced Individual Customization",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-08",
+              "path": "content/curriculum/GOLD/L4/GOLD-L4-017.md",
+              "checksum": "sha256:sha256:06d479e1c79bd9e43f601b05883d4c8b2053b852bc38592786419b0d3ca8bd28",
+              "status": "active",
+              "ingestionId": "4c27d4f4-bd41-4e22-a6b2-5175e2af4953",
+              "importedAt": "2026-10-08T08:40:25.324Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Investing",
+                "summary": "Understand how target-date funds automatically adjust their asset allocation over time based on a specific target retirement year, and the genuine tradeoff this simplicity creates against individual customization."
+              }
+            },
+            "GOLD-L4-018": {
+              "id": "GOLD-L4-018",
+              "type": "lesson",
+              "track": "GOLD",
+              "trackName": "Investing",
+              "level": 4,
+              "lessonNumber": 18,
+              "title": "Rebalancing Strategy Analysis: Threshold-Based vs Calendar-Based Approaches",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-08",
+              "path": "content/curriculum/GOLD/L4/GOLD-L4-018.md",
+              "checksum": "sha256:sha256:64a02c67533c4b3aec7fe32142c6c7b4f09d3767238b5f63c5d1bb8ac7917b09",
+              "status": "active",
+              "ingestionId": "4c27d4f4-bd41-4e22-a6b2-5175e2af4953",
+              "importedAt": "2026-10-08T08:40:25.324Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Investing",
+                "summary": "Understand the distinction between threshold-based and calendar-based portfolio rebalancing strategies, and the genuine tradeoffs each approach presents."
+              }
+            },
+            "GOLD-L4-019": {
+              "id": "GOLD-L4-019",
+              "type": "lesson",
+              "track": "GOLD",
+              "trackName": "Investing",
+              "level": 4,
+              "lessonNumber": 19,
+              "title": "Time-Weighted vs Dollar-Weighted Return Analysis: Why Two Legitimate Return Calculations Can Tell Very Different Stories",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-08",
+              "path": "content/curriculum/GOLD/L4/GOLD-L4-019.md",
+              "checksum": "sha256:sha256:c2cf4ba5e49fa5eb01b9ab23fd83cd33a9216c715ecdc2ff89fd6db09d301e99",
+              "status": "active",
+              "ingestionId": "4c27d4f4-bd41-4e22-a6b2-5175e2af4953",
+              "importedAt": "2026-10-08T08:40:25.324Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Investing",
+                "summary": "Understand the difference between time-weighted and dollar-weighted (money-weighted) investment return calculations, and why an investor's own cash flow timing decisions can cause these two measures to diverge significantly."
+              }
+            },
+            "GOLD-L4-020": {
+              "id": "GOLD-L4-020",
+              "type": "lesson",
+              "track": "GOLD",
+              "trackName": "Investing",
+              "level": 4,
+              "lessonNumber": 20,
+              "title": "Loss Aversion Analysis: Why Losses and Equivalent Gains Are Not Treated Symmetrically in the Human Mind",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-08",
+              "path": "content/curriculum/GOLD/L4/GOLD-L4-020.md",
+              "checksum": "sha256:sha256:acc5cd68d91d6e945d2402f14c6d346d2491111cfaa3f4e286b1cf0a8b1baa7e",
+              "status": "active",
+              "ingestionId": "4c27d4f4-bd41-4e22-a6b2-5175e2af4953",
+              "importedAt": "2026-10-08T08:40:25.324Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Investing",
+                "summary": "Understand the behavioral finance concept of loss aversion, why losses tend to feel psychologically more significant than equivalent gains, and the specific investment behaviors this asymmetry commonly produces."
+              }
+            },
+            "GOLD-L4-021": {
+              "id": "GOLD-L4-021",
+              "type": "lesson",
+              "track": "GOLD",
+              "trackName": "Investing",
+              "level": 4,
+              "lessonNumber": 21,
+              "title": "Herd Behavior Analysis: Why Following the Crowd Can Feel Safe While Being Financially Dangerous",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-08",
+              "path": "content/curriculum/GOLD/L4/GOLD-L4-021.md",
+              "checksum": "sha256:sha256:0499c36d0d742ef70530c60d9bd046aedfd79cb65c88bf9761a1b88192029fb9",
+              "status": "active",
+              "ingestionId": "4c27d4f4-bd41-4e22-a6b2-5175e2af4953",
+              "importedAt": "2026-10-08T08:40:25.324Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Investing",
+                "summary": "Understand the behavioral finance concept of herd behavior, why it feels psychologically safer to follow the crowd, and why herding can drive asset prices well beyond what underlying fundamentals would justify."
+              }
+            },
+            "GOLD-L4-022": {
+              "id": "GOLD-L4-022",
+              "type": "lesson",
+              "track": "GOLD",
+              "trackName": "Investing",
+              "level": 4,
+              "lessonNumber": 22,
+              "title": "Overconfidence Bias Analysis: Why Investors Systematically Overestimate Their Own Skill",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-08",
+              "path": "content/curriculum/GOLD/L4/GOLD-L4-022.md",
+              "checksum": "sha256:sha256:e3951490b6297d87a3d8e087172044f314d903ce312b9ec50902c58845122e96",
+              "status": "active",
+              "ingestionId": "4c27d4f4-bd41-4e22-a6b2-5175e2af4953",
+              "importedAt": "2026-10-08T08:40:25.324Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Investing",
+                "summary": "Understand the behavioral finance concept of overconfidence bias, why it leads investors to trade more frequently and take on more concentrated risk than is objectively justified, and why this bias has been documented as particularly costly."
+              }
+            },
+            "GOLD-L4-023": {
+              "id": "GOLD-L4-023",
+              "type": "lesson",
+              "track": "GOLD",
+              "trackName": "Investing",
+              "level": 4,
+              "lessonNumber": 23,
+              "title": "Anchoring Bias Analysis: Why an Arbitrary Reference Point Can Distort an Investment Decision",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-08",
+              "path": "content/curriculum/GOLD/L4/GOLD-L4-023.md",
+              "checksum": "sha256:sha256:af77e8729b0401c47963eb86300a13f644b175c9cbf1c33bb7c3d1303ef07556",
+              "status": "active",
+              "ingestionId": "4c27d4f4-bd41-4e22-a6b2-5175e2af4953",
+              "importedAt": "2026-10-08T08:40:25.324Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Investing",
+                "summary": "Understand the behavioral finance concept of anchoring bias, why an investor's original purchase price commonly serves as a psychologically powerful, but analytically irrelevant, reference point, and why this connects directly to the sunk cost reasoning covered elsewhere in this curriculum."
+              }
+            },
+            "GOLD-L4-024": {
+              "id": "GOLD-L4-024",
+              "type": "lesson",
+              "track": "GOLD",
+              "trackName": "Investing",
+              "level": 4,
+              "lessonNumber": 24,
+              "title": "Recency Bias Analysis: Why Recent Performance Overshadows Longer-Term Historical Patterns",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-08",
+              "path": "content/curriculum/GOLD/L4/GOLD-L4-024.md",
+              "checksum": "sha256:sha256:9bda5d0d9792e52ff7b10e8b2dc352b381975d3004781b7c83f5a4e9a6300dad",
+              "status": "active",
+              "ingestionId": "4c27d4f4-bd41-4e22-a6b2-5175e2af4953",
+              "importedAt": "2026-10-08T08:40:25.324Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Investing",
+                "summary": "Understand the behavioral finance concept of recency bias, why it leads investors to extrapolate recent trends indefinitely into the future, and why this tendency contributes to buying near market peaks and selling near market troughs."
+              }
+            },
+            "GOLD-L4-025": {
+              "id": "GOLD-L4-025",
+              "type": "lesson",
+              "track": "GOLD",
+              "trackName": "Investing",
+              "level": 4,
+              "lessonNumber": 25,
+              "title": "Home Country Bias Analysis: Why Investors Overweight Their Own Domestic Market",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-08",
+              "path": "content/curriculum/GOLD/L4/GOLD-L4-025.md",
+              "checksum": "sha256:sha256:feb86a32b7b5d22a1377b58c2ee64b7446fe8324b65ccb632d1836c1f859066d",
+              "status": "active",
+              "ingestionId": "4c27d4f4-bd41-4e22-a6b2-5175e2af4953",
+              "importedAt": "2026-10-08T08:40:25.324Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Investing",
+                "summary": "Understand the well-documented tendency of investors to overweight their own domestic market relative to a globally diversified benchmark, the common explanations for this pattern, and the genuine diversification cost it can impose."
+              }
+            },
+            "GOLD-L4-026": {
+              "id": "GOLD-L4-026",
+              "type": "lesson",
+              "track": "GOLD",
+              "trackName": "Investing",
+              "level": 4,
+              "lessonNumber": 26,
+              "title": "Developed vs Emerging Markets Analysis: Why International Equity Exposure Isn't a Single, Uniform Category",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-08",
+              "path": "content/curriculum/GOLD/L4/GOLD-L4-026.md",
+              "checksum": "sha256:sha256:406778e7ad78dcd228b749e2b7284f646d93ebb6d9666271fbfe5b53c890702f",
+              "status": "active",
+              "ingestionId": "4c27d4f4-bd41-4e22-a6b2-5175e2af4953",
+              "importedAt": "2026-10-08T08:40:25.324Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Investing",
+                "summary": "Understand the key distinctions between developed market and emerging market equity investing, why emerging markets carry a distinct risk and return profile, and why treating all non-domestic markets as a single, uniform category oversimplifies genuine international diversification."
+              }
+            },
+            "GOLD-L4-027": {
+              "id": "GOLD-L4-027",
+              "type": "lesson",
+              "track": "GOLD",
+              "trackName": "Investing",
+              "level": 4,
+              "lessonNumber": 27,
+              "title": "Currency Risk Analysis: Why an International Investment's Return Depends on Two Separate Moving Parts",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-08",
+              "path": "content/curriculum/GOLD/L4/GOLD-L4-027.md",
+              "checksum": "sha256:sha256:cbe5a01b311cbb0de8f62ac28cc04afcfe851958401b727c8125bd7c75af17b9",
+              "status": "active",
+              "ingestionId": "4c27d4f4-bd41-4e22-a6b2-5175e2af4953",
+              "importedAt": "2026-10-08T08:40:25.324Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Investing",
+                "summary": "Understand how currency fluctuations affect the return an investor actually realizes from an international investment, why this risk exists independently of the underlying investment's own local-currency performance, and the basic tradeoffs involved in currency hedging."
+              }
+            },
+            "GOLD-L4-028": {
+              "id": "GOLD-L4-028",
+              "type": "lesson",
+              "track": "GOLD",
+              "trackName": "Investing",
+              "level": 4,
+              "lessonNumber": 28,
+              "title": "Business Cycle Investing Analysis: Why Different Asset Classes Have Historically Led at Different Stages",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-08",
+              "path": "content/curriculum/GOLD/L4/GOLD-L4-028.md",
+              "checksum": "sha256:sha256:da179f86263e84688cd357ba69c3e629fe3c8be69b2882190a6adeb87c5a11c0",
+              "status": "active",
+              "ingestionId": "4c27d4f4-bd41-4e22-a6b2-5175e2af4953",
+              "importedAt": "2026-10-08T08:40:25.324Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Investing",
+                "summary": "Understand the general framework of business cycle investing, why different asset classes and sectors have historically tended to perform relatively better or worse at different stages of the economic cycle, and the genuine risk of relying too heavily on this framework as a precise, mechanically reliable timing tool."
+              }
+            },
+            "GOLD-L4-029": {
+              "id": "GOLD-L4-029",
+              "type": "lesson",
+              "track": "GOLD",
+              "trackName": "Investing",
+              "level": 4,
+              "lessonNumber": 29,
+              "title": "Monetary Policy and Asset Prices Analysis: Why Central Bank Decisions Ripple Through Nearly Every Asset Class",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-08",
+              "path": "content/curriculum/GOLD/L4/GOLD-L4-029.md",
+              "checksum": "sha256:sha256:076353dc445eaa00883c45857a934bf4ccc8eb4ec5f73236b5439faf50407755",
+              "status": "active",
+              "ingestionId": "4c27d4f4-bd41-4e22-a6b2-5175e2af4953",
+              "importedAt": "2026-10-08T08:40:25.324Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Investing",
+                "summary": "Understand the general channels through which central bank monetary policy decisions affect asset prices across multiple asset classes simultaneously, connecting several concepts covered throughout this curriculum into a single, integrated transmission framework."
+              }
+            },
+            "GOLD-L4-030": {
+              "id": "GOLD-L4-030",
+              "type": "lesson",
+              "track": "GOLD",
+              "trackName": "Investing",
+              "level": 4,
+              "lessonNumber": 30,
+              "title": "Safe Haven Asset Analysis: Why Investors Flee to Specific Assets During a Crisis, and Why That Behavior Isn't Perfectly Consistent",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-08",
+              "path": "content/curriculum/GOLD/L4/GOLD-L4-030.md",
+              "checksum": "sha256:sha256:26716ddd3231f16c218f86d0921419973f67a16b5402e5501613b601a60198ce",
+              "status": "active",
+              "ingestionId": "4c27d4f4-bd41-4e22-a6b2-5175e2af4953",
+              "importedAt": "2026-10-08T08:40:25.324Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Investing",
+                "summary": "Understand the concept of a safe haven asset, the commonly cited examples and their underlying rationale, and why safe haven status is a historically observed tendency rather than a guaranteed, permanently fixed characteristic."
+              }
+            },
+            "GOLD-L4-031": {
+              "id": "GOLD-L4-031",
+              "type": "lesson",
+              "track": "GOLD",
+              "trackName": "Investing",
+              "level": 4,
+              "lessonNumber": 31,
+              "title": "Robo-Advisor Analysis: Why Algorithmic Portfolio Management Trades Customization for Cost and Discipline",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-08",
+              "path": "content/curriculum/GOLD/L4/GOLD-L4-031.md",
+              "checksum": "sha256:sha256:4849af2a2befa6624d9076db1442d5eb1ad20d637423acf119b8f3049a1963d4",
+              "status": "active",
+              "ingestionId": "4c27d4f4-bd41-4e22-a6b2-5175e2af4953",
+              "importedAt": "2026-10-08T08:40:25.324Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Investing",
+                "summary": "Understand how robo-advisors construct and manage portfolios algorithmically, the genuine benefits this approach offers, and the specific tradeoffs involved compared to working with a human financial advisor."
+              }
+            },
+            "GOLD-L4-032": {
+              "id": "GOLD-L4-032",
+              "type": "lesson",
+              "track": "GOLD",
+              "trackName": "Investing",
+              "level": 4,
+              "lessonNumber": 32,
+              "title": "ESG Investing Analysis: Why Balancing Values and Returns Requires Careful, Specific Analysis",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-08",
+              "path": "content/curriculum/GOLD/L4/GOLD-L4-032.md",
+              "checksum": "sha256:sha256:f412168dd6f7ae186e97bb0164534f57e66d1eeb6a7d74833ceda2496c9053dc",
+              "status": "active",
+              "ingestionId": "4c27d4f4-bd41-4e22-a6b2-5175e2af4953",
+              "importedAt": "2026-10-08T08:40:25.324Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Investing",
+                "summary": "Understand the general approach of ESG (environmental, social, and governance) investing, why this category encompasses genuinely varied specific strategies, and the honest, ongoing debate regarding its financial performance implications."
+              }
+            },
+            "GOLD-L4-033": {
+              "id": "GOLD-L4-033",
+              "type": "lesson",
+              "track": "GOLD",
+              "trackName": "Investing",
+              "level": 4,
+              "lessonNumber": 33,
+              "title": "Thematic Investing Analysis: Why Narrative-Driven Investing Carries a Distinct Risk Profile",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-08",
+              "path": "content/curriculum/GOLD/L4/GOLD-L4-033.md",
+              "checksum": "sha256:sha256:cbdb978d732608aa29b104240c43ee8b237ec9926fbcf4b50126e359e41be411",
+              "status": "active",
+              "ingestionId": "4c27d4f4-bd41-4e22-a6b2-5175e2af4953",
+              "importedAt": "2026-10-08T08:40:25.324Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Investing",
+                "summary": "Understand the general approach of thematic investing, why it differs from traditional sector or asset class investing, and the specific risks associated with investing based on a compelling narrative rather than more traditional valuation discipline."
+              }
+            },
+            "GOLD-L4-034": {
+              "id": "GOLD-L4-034",
+              "type": "lesson",
+              "track": "GOLD",
+              "trackName": "Investing",
+              "level": 4,
+              "lessonNumber": 34,
+              "title": "Risk Parity Analysis: Why Balancing Risk Contribution, Not Dollar Allocation, Changes Portfolio Construction",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-08",
+              "path": "content/curriculum/GOLD/L4/GOLD-L4-034.md",
+              "checksum": "sha256:sha256:941b05b44f3fc463dc0e0cd4bfb9334f37209aab4f6341a972b6a0bc6c9669f1",
+              "status": "active",
+              "ingestionId": "4c27d4f4-bd41-4e22-a6b2-5175e2af4953",
+              "importedAt": "2026-10-08T08:40:25.324Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Investing",
+                "summary": "Understand the risk parity approach to portfolio construction, why it differs fundamentally from a traditional dollar-weighted allocation approach, and the specific role leverage often plays in implementing this strategy."
+              }
+            },
+            "GOLD-L4-035": {
+              "id": "GOLD-L4-035",
+              "type": "lesson",
+              "track": "GOLD",
+              "trackName": "Investing",
+              "level": 4,
+              "lessonNumber": 35,
+              "title": "Endowment Model Analysis: Why Large Institutional Investors Approach Alternatives Differently Than Individuals",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-08",
+              "path": "content/curriculum/GOLD/L4/GOLD-L4-035.md",
+              "checksum": "sha256:sha256:30c211140d19129ac9642e336b49152cf9ac039adc6e9c3b2349fc72b34fa915",
+              "status": "active",
+              "ingestionId": "4c27d4f4-bd41-4e22-a6b2-5175e2af4953",
+              "importedAt": "2026-10-08T08:40:25.324Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Investing",
+                "summary": "Understand the general characteristics of the 'endowment model' of institutional investing, why large institutional investors' specific circumstances allow them to pursue certain strategies less readily available to individual investors, and why individuals should be cautious about directly imitating this approach."
+              }
+            },
+            "GOLD-L4-036": {
+              "id": "GOLD-L4-036",
+              "type": "lesson",
+              "track": "GOLD",
+              "trackName": "Investing",
+              "level": 4,
+              "lessonNumber": 36,
+              "title": "Illiquidity Premium Analysis: Why Locking Up Capital Can Be Compensated, But Requires Honest Accounting",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-08",
+              "path": "content/curriculum/GOLD/L4/GOLD-L4-036.md",
+              "checksum": "sha256:sha256:dc5d483c5c03fdd6344777b0239e536e50114a1432bf2744d26307d5c1a1fecb",
+              "status": "active",
+              "ingestionId": "4c27d4f4-bd41-4e22-a6b2-5175e2af4953",
+              "importedAt": "2026-10-08T08:40:25.324Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Investing",
+                "summary": "Understand the theoretical rationale for an illiquidity premium, why investors accepting reduced liquidity should generally expect additional compensation for doing so, and why this premium requires honest, careful measurement rather than simple assumption."
+              }
+            },
+            "GOLD-L4-037": {
+              "id": "GOLD-L4-037",
+              "type": "lesson",
+              "track": "GOLD",
+              "trackName": "Investing",
+              "level": 4,
+              "lessonNumber": 37,
+              "title": "Investment Policy Statement Analysis: Why Written Rules Established in Advance Prevent Costly In-the-Moment Deviation",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-08",
+              "path": "content/curriculum/GOLD/L4/GOLD-L4-037.md",
+              "checksum": "sha256:sha256:5fbe5e804e078440e83e1ce167828d59c73262377f3458523d8f51459092cdf2",
+              "status": "active",
+              "ingestionId": "4c27d4f4-bd41-4e22-a6b2-5175e2af4953",
+              "importedAt": "2026-10-08T08:40:25.324Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Investing",
+                "summary": "Understand the purpose and typical content of an investment policy statement, and why establishing specific, written investment rules and criteria in advance provides a genuine, practical defense against the behavioral biases covered throughout this level."
+              }
+            },
+            "GOLD-L4-038": {
+              "id": "GOLD-L4-038",
+              "type": "lesson",
+              "track": "GOLD",
+              "trackName": "Investing",
+              "level": 4,
+              "lessonNumber": 38,
+              "title": "The 4% Rule Analysis: Why a Simple Retirement Withdrawal Guideline Requires Careful, Honest Context",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-08",
+              "path": "content/curriculum/GOLD/L4/GOLD-L4-038.md",
+              "checksum": "sha256:sha256:48b95e2f0027c3853abc886da67c7dd5391ad0c4d8da68c677228ed07b73c6c1",
+              "status": "active",
+              "ingestionId": "4c27d4f4-bd41-4e22-a6b2-5175e2af4953",
+              "importedAt": "2026-10-08T08:40:25.324Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Investing",
+                "summary": "Understand the origin and basic logic of the commonly cited 4% retirement withdrawal rule, and why this simple guideline requires careful, honest context regarding the specific assumptions underlying it."
+              }
+            },
+            "GOLD-L4-039": {
+              "id": "GOLD-L4-039",
+              "type": "lesson",
+              "track": "GOLD",
+              "trackName": "Investing",
+              "level": 4,
+              "lessonNumber": 39,
+              "title": "Monte Carlo Simulation in Retirement Planning Analysis: Why Probabilistic Modeling Improves on a Single Assumed Return",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-08",
+              "path": "content/curriculum/GOLD/L4/GOLD-L4-039.md",
+              "checksum": "sha256:sha256:38179908f2e1be84f678470cde578644ef0769c79a36140e30e9328e31bc073b",
+              "status": "active",
+              "ingestionId": "4c27d4f4-bd41-4e22-a6b2-5175e2af4953",
+              "importedAt": "2026-10-08T08:40:25.324Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Investing",
+                "summary": "Understand how Monte Carlo simulation is used in retirement planning to model a wide range of possible future market outcomes, and why this probabilistic approach provides a more honest picture of retirement plan risk than a single assumed average return projection."
+              }
+            },
+            "GOLD-L4-040": {
+              "id": "GOLD-L4-040",
+              "type": "lesson",
+              "track": "GOLD",
+              "trackName": "Investing",
+              "level": 4,
+              "lessonNumber": 40,
+              "title": "Structured Products Analysis: Why Complexity Can Hide Costs and Risks Behind an Attractive Headline Feature",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-08",
+              "path": "content/curriculum/GOLD/L4/GOLD-L4-040.md",
+              "checksum": "sha256:sha256:9bed43b45ab3155a7e7abba99ecf7b9389cd4d629983d04e4b1552f5dd62e713",
+              "status": "active",
+              "ingestionId": "4c27d4f4-bd41-4e22-a6b2-5175e2af4953",
+              "importedAt": "2026-10-08T08:40:25.324Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Investing",
+                "summary": "Understand the basic structure of a structured product, why its combination of a bond-like component and a derivative-like component can obscure genuine costs and risks, and why careful, specific due diligence is essential before investing in this category."
+              }
+            },
+            "GOLD-L4-041": {
+              "id": "GOLD-L4-041",
+              "type": "lesson",
+              "track": "GOLD",
+              "trackName": "Investing",
+              "level": 4,
+              "lessonNumber": 41,
+              "title": "Private Credit and Direct Lending Analysis: Why Non-Bank Lending Has Grown Into a Distinct Asset Category",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-08",
+              "path": "content/curriculum/GOLD/L4/GOLD-L4-041.md",
+              "checksum": "sha256:sha256:602548bd2adace337e111f41e016ca7371d85d38d4da867b7ca2c6547b2552ef",
+              "status": "active",
+              "ingestionId": "4c27d4f4-bd41-4e22-a6b2-5175e2af4953",
+              "importedAt": "2026-10-08T08:40:25.324Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Investing",
+                "summary": "Understand the basic structure of private credit and direct lending as an investment category, why this category has grown significantly as an alternative to traditional bank lending, and the specific risks investors in this category should understand."
+              }
+            },
+            "GOLD-L4-042": {
+              "id": "GOLD-L4-042",
+              "type": "lesson",
+              "track": "GOLD",
+              "trackName": "Investing",
+              "level": 4,
+              "lessonNumber": 42,
+              "title": "Infrastructure Investing Analysis: Why Long-Lived, Essential Assets Carry a Distinct Risk and Return Profile",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-08",
+              "path": "content/curriculum/GOLD/L4/GOLD-L4-042.md",
+              "checksum": "sha256:sha256:244617bd061ca60a2089848915a176c1c109eedee8c26f9cff2d1871f0201b0b",
+              "status": "active",
+              "ingestionId": "4c27d4f4-bd41-4e22-a6b2-5175e2af4953",
+              "importedAt": "2026-10-08T08:40:25.324Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Investing",
+                "summary": "Understand the basic characteristics of infrastructure as an investment category, why these assets typically offer relatively stable, long-duration cash flows, and the specific regulatory and political risk considerations this category carries."
+              }
+            },
+            "GOLD-L4-043": {
+              "id": "GOLD-L4-043",
+              "type": "lesson",
+              "track": "GOLD",
+              "trackName": "Investing",
+              "level": 4,
+              "lessonNumber": 43,
+              "title": "Collectibles and Passion Asset Analysis: Why Emotional Value and Investment Value Rarely Align Cleanly",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-08",
+              "path": "content/curriculum/GOLD/L4/GOLD-L4-043.md",
+              "checksum": "sha256:sha256:2d5714109f04a8aab8a9e9b4ec4682c02adb38ae334fdfc4b48e2dfd71091915",
+              "status": "active",
+              "ingestionId": "4c27d4f4-bd41-4e22-a6b2-5175e2af4953",
+              "importedAt": "2026-10-08T08:40:25.324Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Investing",
+                "summary": "Understand the general characteristics of collectibles and other passion assets as an investment category, why valuing these assets is genuinely difficult, and why an investor's personal emotional attachment can distort an honest assessment of their actual investment merit."
+              }
+            },
+            "GOLD-L4-044": {
+              "id": "GOLD-L4-044",
+              "type": "lesson",
+              "track": "GOLD",
+              "trackName": "Investing",
+              "level": 4,
+              "lessonNumber": 44,
+              "title": "Gold Price Driver Analysis: Why Real Rates, Currency Strength, and Central Bank Demand Move the Price Together",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-08",
+              "path": "content/curriculum/GOLD/L4/GOLD-L4-044.md",
+              "checksum": "sha256:sha256:1f98d51eabc9e42a7337220d4e43acb3adf126cf4964f6fd78626103dce28609",
+              "status": "active",
+              "ingestionId": "4c27d4f4-bd41-4e22-a6b2-5175e2af4953",
+              "importedAt": "2026-10-08T08:40:25.324Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Investing",
+                "summary": "Understand the specific combination of real interest rates, currency strength, and central bank demand that drives gold's price, synthesizing and extending this level's earlier introduction to gold as a portfolio asset."
+              }
+            },
+            "GOLD-L4-045": {
+              "id": "GOLD-L4-045",
+              "type": "lesson",
+              "track": "GOLD",
+              "trackName": "Investing",
+              "level": 4,
+              "lessonNumber": 45,
+              "title": "Commodity Supercycle Analysis: Why Multi-Decade Commodity Price Trends Reflect Structural Supply and Demand Shifts",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-08",
+              "path": "content/curriculum/GOLD/L4/GOLD-L4-045.md",
+              "checksum": "sha256:sha256:324717ce81e66bdab8b63ed40277a6bfee384eb64b9245e509313b8aa146f304",
+              "status": "active",
+              "ingestionId": "4c27d4f4-bd41-4e22-a6b2-5175e2af4953",
+              "importedAt": "2026-10-08T08:40:25.324Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Investing",
+                "summary": "Understand the concept of a commodity supercycle, why these extended, multi-decade trends differ from ordinary shorter-term commodity price cycles, and why identifying a supercycle in real time is genuinely difficult."
+              }
+            },
+            "GOLD-L4-046": {
+              "id": "GOLD-L4-046",
+              "type": "lesson",
+              "track": "GOLD",
+              "trackName": "Investing",
+              "level": 4,
+              "lessonNumber": 46,
+              "title": "Impact Investing Analysis: Why Measuring Both Financial and Social Return Requires Its Own Specific Discipline",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-08",
+              "path": "content/curriculum/GOLD/L4/GOLD-L4-046.md",
+              "checksum": "sha256:sha256:91dbbca226bd693037a630ed07c2feaecc5ef943d30ae38b00c9637f1cb378a2",
+              "status": "active",
+              "ingestionId": "4c27d4f4-bd41-4e22-a6b2-5175e2af4953",
+              "importedAt": "2026-10-08T08:40:25.324Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Investing",
+                "summary": "Understand the general approach of impact investing, why it differs from broader ESG investing by requiring an intentional, measurable social or environmental outcome, and the genuine measurement challenges this specific category presents."
+              }
+            },
+            "GOLD-L4-047": {
+              "id": "GOLD-L4-047",
+              "type": "lesson",
+              "track": "GOLD",
+              "trackName": "Investing",
+              "level": 4,
+              "lessonNumber": 47,
+              "title": "Endowment-Style Diversification vs Individual Constraints: Integrating This Level's Alternative Asset Lessons",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-08",
+              "path": "content/curriculum/GOLD/L4/GOLD-L4-047.md",
+              "checksum": "sha256:sha256:d4cd2fd2b811613c1244c68019ab381643d8a931a202e9041eb9f72b87780d63",
+              "status": "active",
+              "ingestionId": "4c27d4f4-bd41-4e22-a6b2-5175e2af4953",
+              "importedAt": "2026-10-08T08:40:25.324Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Investing",
+                "summary": "Synthesize this level's lessons on private equity, venture capital, hedge funds, private credit, infrastructure, and collectibles into a single, coherent framework for evaluating whether and how an individual investor should incorporate alternative investments into their own portfolio."
+              }
+            },
+            "GOLD-L4-048": {
+              "id": "GOLD-L4-048",
+              "type": "lesson",
+              "track": "GOLD",
+              "trackName": "Investing",
+              "level": 4,
+              "lessonNumber": 48,
+              "title": "Investment Due Diligence Integration: Why Evaluating Any New Opportunity Requires the Same Disciplined Checklist",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-08",
+              "path": "content/curriculum/GOLD/L4/GOLD-L4-048.md",
+              "checksum": "sha256:sha256:9278e227bb371f2d5075540b7473611f963fb2d9b7671cfc40bb91501fa35570",
+              "status": "active",
+              "ingestionId": "4c27d4f4-bd41-4e22-a6b2-5175e2af4953",
+              "importedAt": "2026-10-08T08:40:25.324Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Investing",
+                "summary": "Synthesize this level's discussion of behavioral biases, fee structures, benchmark comparisons, and risk measurement into a single, practical due diligence checklist applicable to evaluating any new investment opportunity, traditional or alternative."
+              }
+            },
+            "GOLD-L4-049": {
+              "id": "GOLD-L4-049",
+              "type": "lesson",
+              "track": "GOLD",
+              "trackName": "Investing",
+              "level": 4,
+              "lessonNumber": 49,
+              "title": "Fee Impact Compounding Analysis: Why a Seemingly Small Percentage Difference Produces a Large Dollar Difference Over Time",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-08",
+              "path": "content/curriculum/GOLD/L4/GOLD-L4-049.md",
+              "checksum": "sha256:sha256:96a2bbc0b77870f3233ba9285d6ade5505e8317eebdc860ef2fd0aa9723273d2",
+              "status": "active",
+              "ingestionId": "4c27d4f4-bd41-4e22-a6b2-5175e2af4953",
+              "importedAt": "2026-10-08T08:40:25.324Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Investing",
+                "summary": "Understand, through direct calculation, why even a seemingly small difference in ongoing investment fees compounds into a substantial difference in an investor's total accumulated wealth over a genuinely long time horizon."
+              }
+            },
+            "GOLD-L4-050": {
+              "id": "GOLD-L4-050",
+              "type": "lesson",
+              "track": "GOLD",
+              "trackName": "Investing",
+              "level": 4,
+              "lessonNumber": 50,
+              "title": "Portfolio Integration: Building a Coherent Investment Approach Across Asset Classes, Behavior, and Cost",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-08",
+              "path": "content/curriculum/GOLD/L4/GOLD-L4-050.md",
+              "checksum": "sha256:sha256:a81e206a116cb7292791c1d9123c76bcc20cac913a3a09c2ebe858819c6fa873",
+              "status": "active",
+              "ingestionId": "4c27d4f4-bd41-4e22-a6b2-5175e2af4953",
+              "importedAt": "2026-10-08T08:40:25.324Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Investing",
+                "summary": "Synthesize the full range of analytical concepts covered throughout this level — portfolio construction, alternative assets, behavioral finance, macro factors, and cost discipline — into a single, integrated framework for building and maintaining a genuinely coherent, long-term investment approach."
+              }
+            }
+          }
         },
         "5": {
           "assets": {}
