@@ -63,17 +63,29 @@ export default async function LessonPage({ params }: Props) {
   let sessionAllowed = false;
 
   if (!access.allowed) {
-    const session = await getAdminSession();
-    isAdmin = Boolean(session);
-    const memberSession = await getAuthenticatedMemberSession();
-    sessionAllowed = memberSession.user
-      ? canAccessCurriculumLesson({
-          level: lesson.level,
-          lessonNumber: lesson.lessonNumber,
-          membershipTier: memberSession.user.membershipTier,
-          isAdmin,
-        })
-      : false;
+    // Authentication backends are optional for anonymous visitors. A protected
+    // lesson must degrade to the locked CTA instead of crashing the entire
+    // Server Component when an auth provider is unavailable or misconfigured.
+    try {
+      const session = await getAdminSession();
+      isAdmin = Boolean(session);
+    } catch {
+      isAdmin = false;
+    }
+
+    try {
+      const memberSession = await getAuthenticatedMemberSession();
+      sessionAllowed = memberSession.user
+        ? canAccessCurriculumLesson({
+            level: lesson.level,
+            lessonNumber: lesson.lessonNumber,
+            membershipTier: memberSession.user.membershipTier,
+            isAdmin,
+          })
+        : false;
+    } catch {
+      sessionAllowed = false;
+    }
   }
 
   const serverAllowed = isAdmin || sessionAllowed || access.allowed;
