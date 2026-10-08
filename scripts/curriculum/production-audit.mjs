@@ -135,3 +135,17 @@ async function main() {
     `# baseline regressions=${regressions.length}${regressions.length ? ` [${regressions.join(", ")}]` : ""}`,
   ];
   writeFileSync(join(outDir, "audit-matrix.txt"), [...header, ...results.map(line)].join("\n") + "\n");
+  writeFileSync(join(outDir, "level1-matrix.txt"), [`# Level 1 — production-retrievable lessons in the learner's own locale (0-50)`, ...grid].join("\n") + "\n");
+  writeFileSync(join(outDir, "audit-full.json"), JSON.stringify({ meta, results }, null, 2));
+  console.log([...header, "", ...grid].join("\n"));
+
+  if (flag("update-baseline")) {
+    const merged = [...new Set([...baseline.coordinates, ...passing])].sort();
+    mkdirSync("curriculum/verification", { recursive: true });
+    writeFileSync(BASELINE, JSON.stringify({ _note: "Ratchet: coordinates proven PASS in production. Only ever grows; removal requires curriculum-removals.json approval.", updatedAt: new Date().toISOString(), coordinates: merged }, null, 2) + "\n");
+    console.log(`baseline: ${baseline.coordinates.length} -> ${merged.length} coordinates`);
+  }
+  if (regressions.length || failedCalls) process.exit(1);
+}
+
+main().catch((error) => { console.error(error); process.exit(2); });
