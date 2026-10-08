@@ -97,3 +97,41 @@ async function main() {
   await Promise.all(Array.from({ length: concurrency }, worker));
   process.stderr.write("\n");
 
+  const key = (r) => `${r.track}:L${r.level}:${r.locale}`;
+  const order = (r) => [locales.indexOf(r.locale), r.level, TRACKS.indexOf(r.track)];
+  results.sort((a, b) => { const x = order(a), y = order(b); return x[0] - y[0] || x[1] - y[1] || x[2] - y[2]; });
+
+  const line = (r) => {
+    const head = `${r.track.padEnd(6)} L${r.level} ${r.locale.padEnd(13)} ${String(r.retrievableLessonCount).padStart(2)}/${r.expectedLessonCount} ${r.runtimeStatus}`;
+    if (r.runtimeStatus === "PASS") return head;
+    const bits = [];
+    if (r.auditError) bits.push(`AUDIT ERROR: ${r.auditError}`);
+    if (r.missingLessonIDs?.length) bits.push(`missing ${r.missingLessonIDs.length} [${r.missingLessonIDs.join(",")}]`);
+    if (r.englishFallbackLessonIDs?.length) bits.push(`English fallback ${r.englishFallbackLessonIDs.length}`);
+    const causes = [...new Set((r.failures ?? []).map((f) => f.disappearsAt))];
+    if (causes.length) bits.push(`cause: ${causes.join(" | ")}`);
+    return `${head} — ${bits.join("; ")}`;
+  };
+
+  const grid = [`${"".padEnd(14)}${TRACKS.map((t) => t.padStart(7)).join("")}`];
+  for (const locale of locales) {
+    grid.push(`${locale.padEnd(14)}${TRACKS.map((t) => {
+      const r = results.find((x) => x.track === t && x.level === 1 && x.locale === locale);
+      return String(r ? r.retrievableLessonCount : "ERR").padStart(7);
+    }).join("")}`);
+  }
+
+  // Ratchet against the baseline.
+  const baseline = existsSync(BASELINE) ? JSON.parse(readFileSync(BASELINE, "utf8")) : { coordinates: [] };
+  const passing = new Set(results.filter((r) => r.runtimeStatus === "PASS").map(key));
+  const audited = new Set(results.map(key));
+  const regressions = baseline.coordinates.filter((c) => audited.has(c) && !passing.has(c));
+
+  mkdirSync(outDir, { recursive: true });
+  const header = [
+    `# Edunancial production curriculum audit`,
+    `# base=${base} generated=${meta?.generatedAt ?? new Date().toISOString()} commit=${meta?.deployCommit ?? "unknown"} source=${meta?.curriculumSource ?? "unknown"}`,
+    `# coordinates=${results.length} PASS=${passing.size} FAIL=${results.length - passing.size} uncomputable=${failedCalls}`,
+    `# baseline regressions=${regressions.length}${regressions.length ? ` [${regressions.join(", ")}]` : ""}`,
+  ];
+  writeFileSync(join(outDir, "audit-matrix.txt"), [...header, ...results.map(line)].join("\n") + "\n");
