@@ -48,19 +48,29 @@ export type RecoverableCurriculumPackage = RecoveryCandidate & {
 async function receiptIsActuallyComplete(receipt: Awaited<ReturnType<typeof getUploadReceipt>>) {
   if (receipt?.state !== "PUBLISHED") return false;
   if (receipt.verification?.learnerVisible !== true) return false;
-  if (!receipt.coordinate) return true;
-  const match = receipt.coordinate.match(/^([A-Z]+):L([1-5]):(en|en-US)$/u);
-  if (!match) return true;
+  // A PUBLISHED receipt is a historical claim, not proof. Previously a receipt
+  // with no coordinate, or ANY non-English coordinate, returned true here and
+  // was never revalidated against what learners receive today.
+  if (!receipt.coordinate) return false;
+  const match = receipt.coordinate.match(/^([A-Z]+):L([1-5]):(.+)$/u);
+  if (!match) return false;
   const [, trackCode, levelRaw, locale] = match;
-  const final = await verifyRestoredCanonicalCoordinate(receipt.coordinate);
-  if (!final.complete) return false;
+  const english = locale === "en" || locale === "en-US";
+  if (english) {
+    const final = await verifyRestoredCanonicalCoordinate(receipt.coordinate);
+    if (!final.complete) return false;
+  }
   const runtimeTrack = await getRuntimePublishedTrack(trackCode, locale);
   const runtimeLevel = runtimeTrack?.levels.find((entry) => entry.level === Number(levelRaw));
-  const expected = new Set(Array.from({ length: 50 }, (_, index) =>
-    `${trackCode}-L${levelRaw}-${String(index + 1).padStart(3, "0")}`,
-  ));
-  const visible = new Set((runtimeLevel?.lessons ?? []).map((lesson) => lesson.id.toUpperCase()));
-  return runtimeLevel?.lessonCount === 50 && [...expected].every((id) => visible.has(id));
+  const expected = Array.from({ length: 50 }, (_, index) => `${trackCode}-L${levelRaw}-${String(index + 1).padStart(3, "0")}`);
+  const served = new Map((runtimeLevel?.lessons ?? []).map((lesson) => [lesson.id.toUpperCase(), lesson]));
+  return expected.every((id) => {
+    const lesson = served.get(id);
+    if (!lesson?.body?.trim()) return false;
+    // A localized coordinate is only complete when learners get that locale,
+    // not the English fallback.
+    return english || (lesson.servedLocale !== undefined && lesson.servedLocale !== "en" && sameLocale(lesson.servedLocale, locale));
+  });
 }
 
 export async function getRecoverableUploads(): Promise<RecoveryCandidate[]> {
