@@ -92,7 +92,7 @@ export async function getPublishedTracks(languageOrLocale:string):Promise<Publis
  const packages=await readTranslationPackagesForLocale(locale);
  const packageTranslations=new Map<string,PublishedLessonTranslation>();
  for(const pkg of packages){
-  if(pkg.locale.toLowerCase()!==locale.toLowerCase())continue;
+  if(!sameLocale(pkg.locale,locale))continue;
   for(const[id,translation]of Object.entries(pkg.lessons))packageTranslations.set(id.toUpperCase(),translation);
  }
  for(const l of Object.values(s.lessons)){if(l.status!=="active")continue;const levels=m.get(l.track)??new Map<number,PublishedLessonRecord[]>(),list=levels.get(l.level)??[];list.push(l);levels.set(l.level,list);m.set(l.track,levels)}
