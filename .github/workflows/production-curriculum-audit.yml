@@ -1,0 +1,110 @@
+name: Production curriculum audit (learner path)
+
+# Read-only. Proves what paying customers can retrieve, coordinate by coordinate,
+# and fails if any coordinate that previously passed has stopped passing.
+
+on:
+  push:
+    branches: [main]
+  schedule:
+    - cron: "17 13 * * *"   # daily
+  workflow_dispatch:
+    inputs:
+      levels:
+        description: "Levels to audit (comma list, blank = all)"
+        required: false
+      update_baseline:
+        description: "Add newly passing coordinates to the baseline artifact"
+        type: boolean
+        default: false
+
+permissions:
+  actions: read
+  contents: read
+
+concurrency:
+  group: production-curriculum-audit
+  cancel-in-progress: false
+
+jobs:
+  backup:
+    # Preserve production-only curriculum BEFORE anything else runs.
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Export Neon curriculum tables (read-only)
+        env:
+          DATABASE_URL: ${{ secrets.DATABASE_URL }}
+        run: |
+          mkdir -p backup/neon
+          if [ -z "$DATABASE_URL" ]; then echo "::warning::DATABASE_URL secret not set; Neon export skipped."; exit 0; fi
+          sudo apt-get -qq update && sudo apt-get -qq install -y postgresql-client >/dev/null
+          for t in published_lessons published_translations curriculum_uploads; do
+            psql "$DATABASE_URL" -v ON_ERROR_STOP=1 -c "\\copy (select * from $t) to 'backup/neon/$t.csv' with csv header" \
+              && echo "$t exported" || echo "::warning::$t not exported (table may not exist)"
+          done
+      - name: Wait for deploy before exporting blobs (push only)
+        if: github.event_name == 'push'
+        run: sleep 240
+      - name: Export Netlify Blob curriculum store (read-only)
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+          GITHUB_REPOSITORY: ${{ github.repository }}
+          GITHUB_RUN_ID: ${{ github.run_id }}
+        run: node scripts/curriculum/backup-store.mjs backup
+      - uses: actions/upload-artifact@v4
+        with:
+          name: curriculum-backup-${{ github.run_id }}
+          path: backup/
+          retention-days: 90
+          if-no-files-found: error
+
+  audit:
+    needs: backup
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Wait for this commit to be live (push only)
+        if: github.event_name == 'push'
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: |
+          for i in $(seq 1 30); do
+            live=$(curl -sS "https://edunancial.com/api/admin/curriculum/production-audit?tracks=RED&levels=1&locales=en-US" \
+              -H "Authorization: Bearer $GITHUB_TOKEN" -H "X-GitHub-Repository: ${{ github.repository }}" -H "X-GitHub-Run-Id: ${{ github.run_id }}" \
+              | node -e 'let s="";process.stdin.on("data",d=>s+=d).on("end",()=>{try{console.log(JSON.parse(s).meta.deployCommit??"")}catch{console.log("")}})')
+            if [ "$live" = "${{ github.sha }}" ]; then echo "deploy live"; exit 0; fi
+            echo "waiting for deploy ($live)"; sleep 30
+          done
+          echo "::warning::Commit not confirmed live after 15 minutes; auditing current production."
+      - name: Audit every coordinate through the learner resolver
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+          GITHUB_REPOSITORY: ${{ github.repository }}
+          GITHUB_RUN_ID: ${{ github.run_id }}
+        run: |
+          args=""
+          if [ -n "${{ inputs.levels }}" ]; then args="$args --levels ${{ inputs.levels }}"; fi
+          if [ "${{ inputs.update_baseline }}" = "true" ]; then args="$args --update-baseline"; fi
+          node scripts/curriculum/production-audit.mjs $args
+      - name: Publish report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: production-curriculum-audit
+          path: |
+            reports/production-audit/
+            curriculum/verification/production-baseline.json
+          if-no-files-found: warn
+      - name: Job summary
+        if: always()
+        run: |
+          { echo '```'; cat reports/production-audit/level1-matrix.txt 2>/dev/null; echo; grep -E ' FAIL' reports/production-audit/audit-matrix.txt 2>/dev/null | head -80; echo '```'; } >> "$GITHUB_STEP_SUMMARY"
