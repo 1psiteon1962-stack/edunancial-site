@@ -131,7 +131,9 @@ export async function getRecoverableUploads(): Promise<RecoveryCandidate[]> {
     if (!batch) continue;
     for (const uploadRecord of batch.uploads ?? []) {
       const storagePath = uploadRecord.storagePath;
-      // Persisted batch assets may use the admin-content upload namespace rather\n      // than the newer uploads/courses prefix. The asset itself is authoritative.\n      if (!storagePath || !uploadRecord.isArchive || !uploadRecord.originalFilename.toLowerCase().endsWith(".zip") || seen.has(storagePath) || ingested.has(storagePath)) continue;
+      // Persisted batch assets may use the admin-content upload namespace rather
+      // than the newer uploads/courses prefix. The asset itself is authoritative.
+      if (!storagePath || !uploadRecord.isArchive || !uploadRecord.originalFilename.toLowerCase().endsWith(".zip") || seen.has(storagePath) || ingested.has(storagePath)) continue;
       const receipt = await getUploadReceipt(uploadRecord.id);
       if (await receiptIsActuallyComplete(receipt)) continue;
       if (receipt?.state === "FAILED" && receipt.retryable === false) continue;
