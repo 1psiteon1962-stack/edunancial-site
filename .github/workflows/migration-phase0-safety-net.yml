@@ -69,11 +69,11 @@ jobs:
           if grep -F "¿Qué es realmente un inmueble?" /tmp/red-l1-001-es.html; then
             exit 0
           fi
-          if grep -F "Real Estate Is a Bundle, Not One Thing" /tmp/red-l1-001-es.html; then
-            echo "::notice::No local translation-package store is present in CI; canonical English fallback rendered correctly."
+          if grep -F "RED: Real Estate" /tmp/red-l1-001-es.html && grep -F "RED-L1-001" /tmp/red-l1-001-es.html; then
+            echo "::notice::CI has no production translation blobs; canonical RED-L1-001 fallback rendered correctly."
             exit 0
           fi
-          echo "::error::Translated lesson rendered neither localized content nor the canonical fallback."
+          echo "::error::Translated lesson rendered neither localized content nor the canonical lesson fallback."
           exit 1
 
       - name: Stop production server
