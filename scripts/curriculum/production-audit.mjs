@@ -38,7 +38,7 @@ const base = arg("base", process.env.EDUNANCIAL_BASE_URL ?? "https://edunancial.
 const tracks = list(arg("tracks")) ?? TRACKS;
 const levels = (list(arg("levels")) ?? LEVELS).map(Number);
 const outDir = arg("out", "reports/production-audit");
-const concurrency = Number(arg("concurrency", "3"));
+const concurrency = Number(arg("concurrency", "4"));
 
 function headers() {
   const h = { accept: "application/json" };
@@ -73,7 +73,8 @@ async function main() {
   }
 
   const jobs = [];
-  for (const locale of locales) for (const level of levels) for (const track of tracks) jobs.push({ track, level, locale });
+  // Level 1 first: it is the launch-critical grid and must survive a cut-off run.
+  for (const level of levels) for (const locale of locales) for (const track of tracks) jobs.push({ track, level, locale });
   const results = [];
   let meta = null;
   let cursor = 0;
@@ -94,9 +95,8 @@ async function main() {
       }
     }
   }
-  await Promise.all(Array.from({ length: concurrency }, worker));
-  process.stderr.write("\n");
 
+  const report = (partial) => {
   const key = (r) => `${r.track}:L${r.level}:${r.locale}`;
   const order = (r) => [locales.indexOf(r.locale), r.level, TRACKS.indexOf(r.track)];
   results.sort((a, b) => { const x = order(a), y = order(b); return x[0] - y[0] || x[1] - y[1] || x[2] - y[2]; });
@@ -131,7 +131,7 @@ async function main() {
   const header = [
     `# Edunancial production curriculum audit`,
     `# base=${base} generated=${meta?.generatedAt ?? new Date().toISOString()} commit=${meta?.deployCommit ?? "unknown"} source=${meta?.curriculumSource ?? "unknown"}`,
-    `# coordinates=${results.length} PASS=${passing.size} FAIL=${results.length - passing.size} uncomputable=${failedCalls}`,
+    `# ${partial ? "PARTIAL RUN (cut off) — " : ""}coordinates=${results.length} PASS=${passing.size} FAIL=${results.length - passing.size} uncomputable=${failedCalls}`,
     `# baseline regressions=${regressions.length}${regressions.length ? ` [${regressions.join(", ")}]` : ""}`,
   ];
   writeFileSync(join(outDir, "audit-matrix.txt"), [...header, ...results.map(line)].join("\n") + "\n");
@@ -139,6 +139,13 @@ async function main() {
   writeFileSync(join(outDir, "audit-full.json"), JSON.stringify({ meta, results }, null, 2));
   console.log([...header, "", ...grid].join("\n"));
 
+    return { passing, regressions, baseline };
+  };
+  process.once("SIGTERM", () => { report(true); process.exit(3); });
+  process.once("SIGINT", () => { report(true); process.exit(3); });
+  await Promise.all(Array.from({ length: concurrency }, worker));
+  process.stderr.write("\n");
+  const { passing, regressions, baseline } = report(false);
   if (flag("update-baseline")) {
     const merged = [...new Set([...baseline.coordinates, ...passing])].sort();
     mkdirSync("curriculum/verification", { recursive: true });
