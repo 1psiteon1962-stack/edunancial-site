@@ -14,7 +14,10 @@ export const CANONICAL_PUBLICATION_BATCH = "atomicCanonicalBatchId";
 // Atomic reads currently go directly to durable storage. This hook is kept explicit so
 // learner read-back can invalidate safely now and remains the single invalidation point
 // when the bounded last-known-good cache is enabled.
-export function invalidateAtomicPublishedCache(): void { atomicSnapshot = null; }
+let atomicGeneration = 0;
+/** Changes whenever durable curriculum is written, so derived caches know to rebuild. */
+export function getAtomicPublishedGeneration(): number { return atomicGeneration; }
+export function invalidateAtomicPublishedCache(): void { atomicSnapshot = null; atomicGeneration += 1; }
 
 /**
  * Read diagnostics for the most recent full atomic read. The production auditor
@@ -325,6 +328,7 @@ export async function removeAtomicPublishedLesson(lessonId: string): Promise<boo
     if (canonical) await writeJson(path, canonical);
     else await getAdminContentStorage().deleteBinary(path);
     if (!canonical) await updateLessonIndex((indexed) => indexed.filter((id) => id.toUpperCase() !== lessonId.toUpperCase()));
+    invalidateAtomicPublishedCache();
     return true;
   } catch { return null; }
 }
