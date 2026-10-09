@@ -1,7 +1,7 @@
 {
   "_schema": "curriculum/schemas/registry.schema.json",
   "_version": "1.0",
-  "_generated": "2026-09-15T10:56:40.342Z",
+  "_generated": "2026-10-09T07:40:37.237Z",
   "_note": "Authoritative curriculum registry (empty lessons are a valid production state).",
   "tracks": {
     "RED": {
@@ -1219,7 +1219,1258 @@
           "assets": {}
         },
         "5": {
-          "assets": {}
+          "assets": {
+            "RED-L5-001": {
+              "id": "RED-L5-001",
+              "type": "lesson",
+              "track": "RED",
+              "trackName": "Real Estate",
+              "level": 5,
+              "lessonNumber": 1,
+              "title": "Orchestration Introduction: Why Real Estate Decisions Require Coordinating Multiple Concepts at Once",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-09",
+              "path": "content/curriculum/RED/L5/RED-L5-001.md",
+              "checksum": "sha256:sha256:845f023f4795a6d958f0c165740a8b99fbae3620d7fedc300347a54cbc32d81a",
+              "status": "active",
+              "ingestionId": "96991537-3abf-4925-9529-657af55f3c21",
+              "importedAt": "2026-10-09T07:40:35.582Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Real Estate",
+                "summary": "Understand the Level 5 orchestration philosophy — coordinating multiple previously separate concepts together toward a single real-world decision — and why a genuine real estate decision rarely turns on any single variable considered in isolation."
+              }
+            },
+            "RED-L5-002": {
+              "id": "RED-L5-002",
+              "type": "lesson",
+              "track": "RED",
+              "trackName": "Real Estate",
+              "level": 5,
+              "lessonNumber": 2,
+              "title": "Buy vs Rent vs Invest Elsewhere: Orchestrating Housing Cost, Opportunity Cost, and Asset Allocation",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-09",
+              "path": "content/curriculum/RED/L5/RED-L5-002.md",
+              "checksum": "sha256:sha256:1f12dcfde2d93b3c13dcfe045e235f686afb0875691c9b83c3264b816428a30a",
+              "status": "active",
+              "ingestionId": "96991537-3abf-4925-9529-657af55f3c21",
+              "importedAt": "2026-10-09T07:40:35.582Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Real Estate",
+                "summary": "Orchestrate the classic buy-versus-rent decision together with the broader asset-allocation question of whether the capital involved might be better deployed in an alternative investment entirely, rather than treating buy-versus-rent as a self-contained, standalone question."
+              }
+            },
+            "RED-L5-003": {
+              "id": "RED-L5-003",
+              "type": "lesson",
+              "track": "RED",
+              "trackName": "Real Estate",
+              "level": 5,
+              "lessonNumber": 3,
+              "title": "Leverage Orchestration: Coordinating Mortgage Terms, Interest Rate Environment, and Strategic Debt Principles",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-09",
+              "path": "content/curriculum/RED/L5/RED-L5-003.md",
+              "checksum": "sha256:sha256:3d090369b0aa133a8580c1ea6f10283debb2c8a45c9d82496230d7797f94a060",
+              "status": "active",
+              "ingestionId": "96991537-3abf-4925-9529-657af55f3c21",
+              "importedAt": "2026-10-09T07:40:35.582Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Real Estate",
+                "summary": "Orchestrate mortgage financing decisions by coordinating specific loan terms, the broader interest rate environment, and this curriculum's strategic-versus-consumer debt distinction, rather than evaluating a specific mortgage offer in isolation from these broader considerations."
+              }
+            },
+            "RED-L5-004": {
+              "id": "RED-L5-004",
+              "type": "lesson",
+              "track": "RED",
+              "trackName": "Real Estate",
+              "level": 5,
+              "lessonNumber": 4,
+              "title": "Entity Structure for Real Estate: Coordinating Liability Protection, Tax Treatment, and Financing Access",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-09",
+              "path": "content/curriculum/RED/L5/RED-L5-004.md",
+              "checksum": "sha256:sha256:44ee833ed720b7abecd8388c6a54d01bd00454d9796fc2f7c34497bdf622c317",
+              "status": "active",
+              "ingestionId": "96991537-3abf-4925-9529-657af55f3c21",
+              "importedAt": "2026-10-09T07:40:35.582Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Real Estate",
+                "summary": "Orchestrate the choice of legal entity for holding real estate by coordinating liability protection, tax treatment, and financing access together, since optimizing any one of these three considerations in isolation frequently comes at a genuine cost to the other two."
+              }
+            },
+            "RED-L5-005": {
+              "id": "RED-L5-005",
+              "type": "lesson",
+              "track": "RED",
+              "trackName": "Real Estate",
+              "level": 5,
+              "lessonNumber": 5,
+              "title": "1031 Exchange Orchestration: Coordinating Tax Deferral, Timing Rules, and Reinvestment Strategy",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-09",
+              "path": "content/curriculum/RED/L5/RED-L5-005.md",
+              "checksum": "sha256:sha256:87540084a03f2b392679741781df1250b4060b3024decc0db24b6163da27e11d",
+              "status": "active",
+              "ingestionId": "96991537-3abf-4925-9529-657af55f3c21",
+              "importedAt": "2026-10-09T07:40:35.582Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Real Estate",
+                "summary": "Orchestrate a 1031 like-kind exchange by coordinating the genuine tax deferral benefit, the strict statutory timing rules, and a genuinely sound reinvestment strategy together, rather than pursuing tax deferral as an isolated goal disconnected from these other considerations."
+              }
+            },
+            "RED-L5-006": {
+              "id": "RED-L5-006",
+              "type": "lesson",
+              "track": "RED",
+              "trackName": "Real Estate",
+              "level": 5,
+              "lessonNumber": 6,
+              "title": "Cap Rate vs Cash Flow vs Appreciation: Orchestrating Competing Investment Return Metrics",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-09",
+              "path": "content/curriculum/RED/L5/RED-L5-006.md",
+              "checksum": "sha256:sha256:aaffd614b452eec28c1436f4443db035277ffdeb5a50ff914c869b196a1c7859",
+              "status": "active",
+              "ingestionId": "96991537-3abf-4925-9529-657af55f3c21",
+              "importedAt": "2026-10-09T07:40:35.582Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Real Estate",
+                "summary": "Orchestrate the three primary components of real estate investment return — capitalization rate, cash flow, and appreciation — recognizing that a property strong on one metric is frequently weaker on another, requiring a genuinely coordinated assessment rather than optimizing for any single metric alone."
+              }
+            },
+            "RED-L5-007": {
+              "id": "RED-L5-007",
+              "type": "lesson",
+              "track": "RED",
+              "trackName": "Real Estate",
+              "level": 5,
+              "lessonNumber": 7,
+              "title": "Market Cycle Timing: Coordinating Macro Signals, Financing Availability, and Personal Readiness",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-09",
+              "path": "content/curriculum/RED/L5/RED-L5-007.md",
+              "checksum": "sha256:sha256:83c3dbb6168db6863dae99e0300d34279a89702de28bfc2de606388798431e46",
+              "status": "active",
+              "ingestionId": "96991537-3abf-4925-9529-657af55f3c21",
+              "importedAt": "2026-10-09T07:40:35.582Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Real Estate",
+                "summary": "Orchestrate real estate market cycle timing by coordinating broader macroeconomic signals, current financing availability, and the investor's own genuine personal readiness together, connecting this level's orchestration philosophy directly to the knife-fight/aggression doctrine's opportunity-window recognition principle."
+              }
+            },
+            "RED-L5-008": {
+              "id": "RED-L5-008",
+              "type": "lesson",
+              "track": "RED",
+              "trackName": "Real Estate",
+              "level": 5,
+              "lessonNumber": 8,
+              "title": "Renovation ROI Orchestration: Coordinating Contractor Bids, Financing Costs, and Resale Comps",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-09",
+              "path": "content/curriculum/RED/L5/RED-L5-008.md",
+              "checksum": "sha256:sha256:37a9745c53048e4b140ae08acac92c7590791f1b9e815704852f9aaa82128e70",
+              "status": "active",
+              "ingestionId": "96991537-3abf-4925-9529-657af55f3c21",
+              "importedAt": "2026-10-09T07:40:35.582Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Real Estate",
+                "summary": "Orchestrate a renovation decision by coordinating actual contractor bid costs, the financing cost of funding the renovation, and genuine resale comparable data together, rather than assuming a renovation's cost alone determines whether it is a sound investment."
+              }
+            },
+            "RED-L5-009": {
+              "id": "RED-L5-009",
+              "type": "lesson",
+              "track": "RED",
+              "trackName": "Real Estate",
+              "level": 5,
+              "lessonNumber": 9,
+              "title": "Rental Property Cash Flow Modeling: Coordinating Vacancy, Maintenance Reserves, Management, and Debt Service",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-09",
+              "path": "content/curriculum/RED/L5/RED-L5-009.md",
+              "checksum": "sha256:sha256:f584cd3fdc37d84918e21da52b470daed5ee0900ac5bed22ea5b7651e4155574",
+              "status": "active",
+              "ingestionId": "96991537-3abf-4925-9529-657af55f3c21",
+              "importedAt": "2026-10-09T07:40:35.582Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Real Estate",
+                "summary": "Orchestrate a genuinely complete rental property cash flow model by coordinating vacancy allowance, maintenance reserves, property management costs, and debt service together, rather than modeling cash flow based only on the optimistic assumption of full, continuous occupancy with no reserve for these other genuine, recurring costs."
+              }
+            },
+            "RED-L5-010": {
+              "id": "RED-L5-010",
+              "type": "lesson",
+              "track": "RED",
+              "trackName": "Real Estate",
+              "level": 5,
+              "lessonNumber": 10,
+              "title": "Real Estate vs Stock Market: Orchestrating Liquidity, Leverage, Diversification, and Tax Treatment Tradeoffs",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-09",
+              "path": "content/curriculum/RED/L5/RED-L5-010.md",
+              "checksum": "sha256:sha256:159391097add17e2939842ab1ab3b700dbed3e9998af1c5582de31217cdd5050",
+              "status": "active",
+              "ingestionId": "96991537-3abf-4925-9529-657af55f3c21",
+              "importedAt": "2026-10-09T07:40:35.582Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Real Estate",
+                "summary": "Orchestrate a genuine comparison between real estate and stock market investment by coordinating liquidity, available leverage, diversification, and tax treatment together, recognizing that each asset class offers genuine advantages the other does not, rather than treating one as universally superior."
+              }
+            },
+            "RED-L5-011": {
+              "id": "RED-L5-011",
+              "type": "lesson",
+              "track": "RED",
+              "trackName": "Real Estate",
+              "level": 5,
+              "lessonNumber": 11,
+              "title": "Owner-Occupied Multi-Unit Strategy: House Hacking as Orchestrated Financing Plus Living Cost Reduction",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-09",
+              "path": "content/curriculum/RED/L5/RED-L5-011.md",
+              "checksum": "sha256:sha256:f9c6778192b8ceb0dd3f17748e964e2208d31c7447f41a32ace1116c999ab54f",
+              "status": "active",
+              "ingestionId": "96991537-3abf-4925-9529-657af55f3c21",
+              "importedAt": "2026-10-09T07:40:35.582Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Real Estate",
+                "summary": "Orchestrate the 'house hacking' strategy of purchasing a small multi-unit property, occupying one unit, and renting the others, by coordinating owner-occupant financing advantages, rental income offset, and the strategic-debt framework together."
+              }
+            },
+            "RED-L5-012": {
+              "id": "RED-L5-012",
+              "type": "lesson",
+              "track": "RED",
+              "trackName": "Real Estate",
+              "level": 5,
+              "lessonNumber": 12,
+              "title": "Commercial vs Residential Real Estate: Orchestrating Financing Terms, Lease Structures, and Risk Profiles",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-09",
+              "path": "content/curriculum/RED/L5/RED-L5-012.md",
+              "checksum": "sha256:sha256:0cc72ccfae0427a06fe43d543ce3a4cae67feb4eeb261766507c5d6db7c73f16",
+              "status": "active",
+              "ingestionId": "96991537-3abf-4925-9529-657af55f3c21",
+              "importedAt": "2026-10-09T07:40:35.582Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Real Estate",
+                "summary": "Orchestrate the choice between commercial and residential real estate investment by coordinating genuinely different financing terms, lease structures, and risk profiles together, since these three dimensions differ meaningfully between the two property categories."
+              }
+            },
+            "RED-L5-013": {
+              "id": "RED-L5-013",
+              "type": "lesson",
+              "track": "RED",
+              "trackName": "Real Estate",
+              "level": 5,
+              "lessonNumber": 13,
+              "title": "Real Estate Syndication Analysis: Orchestrating Passive Investment, Sponsor Alignment, and Legal Structure",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-09",
+              "path": "content/curriculum/RED/L5/RED-L5-013.md",
+              "checksum": "sha256:sha256:f75d99fbd6c9e96de4942bc1154541cb4efec05fd78907507d37c8c3e57d199c",
+              "status": "active",
+              "ingestionId": "96991537-3abf-4925-9529-657af55f3c21",
+              "importedAt": "2026-10-09T07:40:35.582Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Real Estate",
+                "summary": "Orchestrate a real estate syndication investment by coordinating the genuine benefits of passive participation, the sponsor's own alignment of interests with passive investors, and the legal structure governing the arrangement together, rather than evaluating any one of these considerations in isolation."
+              }
+            },
+            "RED-L5-014": {
+              "id": "RED-L5-014",
+              "type": "lesson",
+              "track": "RED",
+              "trackName": "Real Estate",
+              "level": 5,
+              "lessonNumber": 14,
+              "title": "Opportunity Zone Investing: Orchestrating Tax Incentive, Geographic Risk, and Long-Term Hold Requirements",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-09",
+              "path": "content/curriculum/RED/L5/RED-L5-014.md",
+              "checksum": "sha256:sha256:c7273a4f6ea0efb5cfe2494c1371587ac47d9dbcd4cb2ba7706f5985b3c9fb8c",
+              "status": "active",
+              "ingestionId": "96991537-3abf-4925-9529-657af55f3c21",
+              "importedAt": "2026-10-09T07:40:35.582Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Real Estate",
+                "summary": "Orchestrate an opportunity zone investment decision by coordinating the genuine tax incentive available, the specific geographic and market risk of the designated area, and the long-term holding period the incentive's full benefit typically requires, rather than pursuing the tax incentive as an isolated goal."
+              }
+            },
+            "RED-L5-015": {
+              "id": "RED-L5-015",
+              "type": "lesson",
+              "track": "RED",
+              "trackName": "Real Estate",
+              "level": 5,
+              "lessonNumber": 15,
+              "title": "Property Tax Appeal Strategy: Orchestrating Valuation Evidence, Legal Process, and Timing",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-09",
+              "path": "content/curriculum/RED/L5/RED-L5-015.md",
+              "checksum": "sha256:sha256:8c0559060a63bb8d0258daae04008609c98da6b08a3635ced3ace9fe73b27b1f",
+              "status": "active",
+              "ingestionId": "96991537-3abf-4925-9529-657af55f3c21",
+              "importedAt": "2026-10-09T07:40:35.582Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Real Estate",
+                "summary": "Orchestrate a property tax appeal by coordinating genuine comparable valuation evidence, the specific legal appeal process and its procedural deadlines, and appropriate timing together, rather than assuming a general sense that taxes seem too high provides a sufficient basis for a successful appeal."
+              }
+            },
+            "RED-L5-016": {
+              "id": "RED-L5-016",
+              "type": "lesson",
+              "track": "RED",
+              "trackName": "Real Estate",
+              "level": 5,
+              "lessonNumber": 16,
+              "title": "Insurance Coordination: Orchestrating Coverage Gaps, Liability Exposure, and Premium Cost Across a Portfolio",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-09",
+              "path": "content/curriculum/RED/L5/RED-L5-016.md",
+              "checksum": "sha256:sha256:e6e5797c8b0bf152e250330bd03f9452bc49ff1f446cb35667c6c0acf8ae11bf",
+              "status": "active",
+              "ingestionId": "96991537-3abf-4925-9529-657af55f3c21",
+              "importedAt": "2026-10-09T07:40:35.582Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Real Estate",
+                "summary": "Orchestrate real estate insurance decisions across a genuine property portfolio by coordinating coverage gaps, genuine liability exposure, and premium cost together, rather than evaluating each individual policy in isolation from the broader portfolio's genuine overall risk exposure."
+              }
+            },
+            "RED-L5-017": {
+              "id": "RED-L5-017",
+              "type": "lesson",
+              "track": "RED",
+              "trackName": "Real Estate",
+              "level": 5,
+              "lessonNumber": 17,
+              "title": "Estate Planning for Real Estate: Orchestrating Trusts, Step-Up Basis, and Intergenerational Transfer",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-09",
+              "path": "content/curriculum/RED/L5/RED-L5-017.md",
+              "checksum": "sha256:sha256:7697ac14b979e337d003e46b9a23cde791b76f07fc40cb9a5fae48e66004ea80",
+              "status": "active",
+              "ingestionId": "96991537-3abf-4925-9529-657af55f3c21",
+              "importedAt": "2026-10-09T07:40:35.582Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Real Estate",
+                "summary": "Orchestrate real estate estate planning by coordinating trust structures, the step-up in basis a beneficiary may receive upon inheritance, and this curriculum's STEWARD principle of intergenerational transfer together, rather than treating asset transfer, tax treatment, and family stewardship as separate, unrelated considerations."
+              }
+            },
+            "RED-L5-018": {
+              "id": "RED-L5-018",
+              "type": "lesson",
+              "track": "RED",
+              "trackName": "Real Estate",
+              "level": 5,
+              "lessonNumber": 18,
+              "title": "Real Estate Partnership Structuring: Orchestrating Capital Contribution, Control Rights, and Exit Provisions",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-09",
+              "path": "content/curriculum/RED/L5/RED-L5-018.md",
+              "checksum": "sha256:sha256:824751080712af3b859e3be1da02b11dd5ea25c683c3fd075d971c02e208c04b",
+              "status": "active",
+              "ingestionId": "96991537-3abf-4925-9529-657af55f3c21",
+              "importedAt": "2026-10-09T07:40:35.582Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Real Estate",
+                "summary": "Orchestrate a real estate partnership agreement by coordinating each partner's genuine capital contribution, the specific control rights each partner actually holds, and clear exit provisions together, rather than assuming a partnership's genuine soundness is determined by the partners' personal relationship alone."
+              }
+            },
+            "RED-L5-019": {
+              "id": "RED-L5-019",
+              "type": "lesson",
+              "track": "RED",
+              "trackName": "Real Estate",
+              "level": 5,
+              "lessonNumber": 19,
+              "title": "Refinancing Decision Orchestration: Coordinating Rate Environment, Closing Costs, and Holding Period",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-09",
+              "path": "content/curriculum/RED/L5/RED-L5-019.md",
+              "checksum": "sha256:sha256:7cec5d13e15cf8ec26f47fb323128e2f9592878a4eb4b38dd30140e55db7b95d",
+              "status": "active",
+              "ingestionId": "96991537-3abf-4925-9529-657af55f3c21",
+              "importedAt": "2026-10-09T07:40:35.582Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Real Estate",
+                "summary": "Orchestrate a mortgage refinancing decision by coordinating the current interest rate environment against the borrower's existing rate, the genuine closing costs the refinance would involve, and the borrower's own remaining expected holding period together, rather than refinancing based on rate comparison alone."
+              }
+            },
+            "RED-L5-020": {
+              "id": "RED-L5-020",
+              "type": "lesson",
+              "track": "RED",
+              "trackName": "Real Estate",
+              "level": 5,
+              "lessonNumber": 20,
+              "title": "Distressed Property Acquisition: Orchestrating Valuation Under Uncertainty, Financing Speed, and Renovation Risk",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-09",
+              "path": "content/curriculum/RED/L5/RED-L5-020.md",
+              "checksum": "sha256:sha256:dfcf650f1e75088bf9987139d95dba569c4635478579eb000c569a71b1833650",
+              "status": "active",
+              "ingestionId": "96991537-3abf-4925-9529-657af55f3c21",
+              "importedAt": "2026-10-09T07:40:35.582Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Real Estate",
+                "summary": "Orchestrate a distressed property acquisition by coordinating valuation under genuine uncertainty, the financing speed a distressed opportunity often requires, and genuine renovation risk together, connecting this level's earlier decision-making-under-uncertainty and orchestrated-readiness discussions to a specific, concrete acquisition scenario."
+              }
+            },
+            "RED-L5-021": {
+              "id": "RED-L5-021",
+              "type": "lesson",
+              "track": "RED",
+              "trackName": "Real Estate",
+              "level": 5,
+              "lessonNumber": 21,
+              "title": "Short-Term Rental Strategy: Orchestrating Regulatory Risk, Revenue Volatility, and Operational Complexity",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-09",
+              "path": "content/curriculum/RED/L5/RED-L5-021.md",
+              "checksum": "sha256:sha256:f4c7977bd911dd8b3e3cc65d7b1d6f4ba0a1919f4778683fa7cb0410dc531e7f",
+              "status": "active",
+              "ingestionId": "96991537-3abf-4925-9529-657af55f3c21",
+              "importedAt": "2026-10-09T07:40:35.582Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Real Estate",
+                "summary": "Orchestrate a short-term rental investment strategy by coordinating genuine local regulatory risk, revenue volatility relative to traditional long-term rental, and the operational complexity this business model actually involves, rather than evaluating projected revenue alone."
+              }
+            },
+            "RED-L5-022": {
+              "id": "RED-L5-022",
+              "type": "lesson",
+              "track": "RED",
+              "trackName": "Real Estate",
+              "level": 5,
+              "lessonNumber": 22,
+              "title": "Real Estate Portfolio Diversification: Orchestrating Geographic, Property-Type, and Tenant Concentration Risk",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-09",
+              "path": "content/curriculum/RED/L5/RED-L5-022.md",
+              "checksum": "sha256:sha256:4c52d2d312bcd1e7a85a925b3fb63c951c1508162a3f375a2783e596d9cfff11",
+              "status": "active",
+              "ingestionId": "96991537-3abf-4925-9529-657af55f3c21",
+              "importedAt": "2026-10-09T07:40:35.582Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Real Estate",
+                "summary": "Orchestrate real estate portfolio diversification by coordinating geographic concentration, property-type concentration, and tenant concentration together, recognizing that genuine diversification requires addressing all three dimensions rather than assuming diversification across any single dimension is sufficient."
+              }
+            },
+            "RED-L5-023": {
+              "id": "RED-L5-023",
+              "type": "lesson",
+              "track": "RED",
+              "trackName": "Real Estate",
+              "level": 5,
+              "lessonNumber": 23,
+              "title": "Construction Loan to Permanent Financing: Orchestrating Draw Schedules, Interest Reserves, and Completion Risk",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-09",
+              "path": "content/curriculum/RED/L5/RED-L5-023.md",
+              "checksum": "sha256:sha256:511f77f0e1cf1e1f6d4e8e31720641c474946073f0719d4f9972e883b5675e4e",
+              "status": "active",
+              "ingestionId": "96991537-3abf-4925-9529-657af55f3c21",
+              "importedAt": "2026-10-09T07:40:35.582Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Real Estate",
+                "summary": "Orchestrate a ground-up construction project's financing by coordinating the construction loan's draw schedule, the interest reserve funding ongoing interest during construction, and genuine completion risk together, rather than treating construction financing as functionally identical to a standard purchase mortgage."
+              }
+            },
+            "RED-L5-024": {
+              "id": "RED-L5-024",
+              "type": "lesson",
+              "track": "RED",
+              "trackName": "Real Estate",
+              "level": 5,
+              "lessonNumber": 24,
+              "title": "Real Estate Investment Trusts vs Direct Ownership: Orchestrating Liquidity, Control, and Tax Treatment Tradeoffs",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-09",
+              "path": "content/curriculum/RED/L5/RED-L5-024.md",
+              "checksum": "sha256:sha256:5a61699abf32057b594fb59bb6c28b6bc03764c8d30fcf4e23ac365da52713fd",
+              "status": "active",
+              "ingestionId": "96991537-3abf-4925-9529-657af55f3c21",
+              "importedAt": "2026-10-09T07:40:35.582Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Real Estate",
+                "summary": "Orchestrate the choice between investing in a publicly traded real estate investment trust (REIT) and directly owning real estate by coordinating liquidity, genuine control, and tax treatment together, connecting directly to this level's earlier real-estate-versus-stock-market comparison discussion."
+              }
+            },
+            "RED-L5-025": {
+              "id": "RED-L5-025",
+              "type": "lesson",
+              "track": "RED",
+              "trackName": "Real Estate",
+              "level": 5,
+              "lessonNumber": 25,
+              "title": "Property Management Decision: Orchestrating Self-Management Time Cost vs Professional Management Fee vs Control",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-09",
+              "path": "content/curriculum/RED/L5/RED-L5-025.md",
+              "checksum": "sha256:sha256:8bc65d16d0321c1604be9014dc3af5e646cb4ab988421ed1ba609fe0692cc7f1",
+              "status": "active",
+              "ingestionId": "96991537-3abf-4925-9529-657af55f3c21",
+              "importedAt": "2026-10-09T07:40:35.582Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Real Estate",
+                "summary": "Orchestrate the property management decision by coordinating the genuine time cost of self-management, the specific fee cost of professional management, and the degree of genuine control each option provides together, rather than defaulting to either option without this explicit, orchestrated tradeoff analysis."
+              }
+            },
+            "RED-L5-026": {
+              "id": "RED-L5-026",
+              "type": "lesson",
+              "track": "RED",
+              "trackName": "Real Estate",
+              "level": 5,
+              "lessonNumber": 26,
+              "title": "Zoning and Entitlement Risk: Orchestrating Legal Process, Timeline Uncertainty, and Development Value",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-09",
+              "path": "content/curriculum/RED/L5/RED-L5-026.md",
+              "checksum": "sha256:sha256:d680446b8a6b250c3266e727b794caeed4932ff86c653b12cfae096f3fcac472",
+              "status": "active",
+              "ingestionId": "96991537-3abf-4925-9529-657af55f3c21",
+              "importedAt": "2026-10-09T07:40:35.582Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Real Estate",
+                "summary": "Orchestrate a real estate development decision involving genuine zoning or entitlement uncertainty by coordinating the specific legal approval process, genuine timeline uncertainty, and the property's resulting development value together, rather than assuming a favorable zoning or entitlement outcome is either guaranteed or entirely unpredictable."
+              }
+            },
+            "RED-L5-027": {
+              "id": "RED-L5-027",
+              "type": "lesson",
+              "track": "RED",
+              "trackName": "Real Estate",
+              "level": 5,
+              "lessonNumber": 27,
+              "title": "Real Estate Debt Restructuring Under Distress: Orchestrating Lender Negotiation, Legal Options, and Personal Guarantee Exposure",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-09",
+              "path": "content/curriculum/RED/L5/RED-L5-027.md",
+              "checksum": "sha256:sha256:0c1afb15725646087e579b6500101ee1e3651b1d783ceffce8eec2e6d9cc6d34",
+              "status": "active",
+              "ingestionId": "96991537-3abf-4925-9529-657af55f3c21",
+              "importedAt": "2026-10-09T07:40:35.582Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Real Estate",
+                "summary": "Orchestrate a genuine real estate debt distress situation by coordinating direct lender negotiation, the specific legal options actually available, and personal guarantee exposure together, connecting this level's earlier honest-reassessment discussion to a concrete debt-distress scenario."
+              }
+            },
+            "RED-L5-028": {
+              "id": "RED-L5-028",
+              "type": "lesson",
+              "track": "RED",
+              "trackName": "Real Estate",
+              "level": 5,
+              "lessonNumber": 28,
+              "title": "Generational Wealth Transfer Through Real Estate: Orchestrating STEWARD Principles With Practical Legal and Tax Mechanics",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-09",
+              "path": "content/curriculum/RED/L5/RED-L5-028.md",
+              "checksum": "sha256:sha256:242a395ba13813aa9b60a0a2de7212ab56da7179a29b61e8ba8e2a482a3de3f9",
+              "status": "active",
+              "ingestionId": "96991537-3abf-4925-9529-657af55f3c21",
+              "importedAt": "2026-10-09T07:40:35.582Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Real Estate",
+                "summary": "Orchestrate a genuine multi-generational real estate wealth transfer plan by coordinating this curriculum's STEWARD principle, practical legal and tax mechanics, and family governance considerations together, synthesizing this level's Lesson 17 estate planning discussion into a fuller, multi-generational framework."
+              }
+            },
+            "RED-L5-029": {
+              "id": "RED-L5-029",
+              "type": "lesson",
+              "track": "RED",
+              "trackName": "Real Estate",
+              "level": 5,
+              "lessonNumber": 29,
+              "title": "Real Estate Market Cycle Analysis: Orchestrating Supply, Demand, Interest Rates, and Credit Availability Together",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-09",
+              "path": "content/curriculum/RED/L5/RED-L5-029.md",
+              "checksum": "sha256:sha256:9fae34289dacd0464426039f5e06cb350703b8f930600f2c3b710903e1abb2d6",
+              "status": "active",
+              "ingestionId": "96991537-3abf-4925-9529-657af55f3c21",
+              "importedAt": "2026-10-09T07:40:35.582Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Real Estate",
+                "summary": "Orchestrate a comprehensive real estate market cycle analysis by coordinating supply-side construction activity, demand-side population and income trends, interest rate conditions, and credit availability together, synthesizing this level's earlier Lesson 7 market timing discussion into a fuller, structural framework."
+              }
+            },
+            "RED-L5-030": {
+              "id": "RED-L5-030",
+              "type": "lesson",
+              "track": "RED",
+              "trackName": "Real Estate",
+              "level": 5,
+              "lessonNumber": 30,
+              "title": "Exit Strategy Orchestration: Coordinating Sale Timing, Tax Consequences, and Reinvestment Plan",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-09",
+              "path": "content/curriculum/RED/L5/RED-L5-030.md",
+              "checksum": "sha256:sha256:8edb5ddb56ad6a44d2019e25041f6005ccb589981f07eab3012d6a183957e5c6",
+              "status": "active",
+              "ingestionId": "96991537-3abf-4925-9529-657af55f3c21",
+              "importedAt": "2026-10-09T07:40:35.582Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Real Estate",
+                "summary": "Orchestrate a real estate exit strategy by coordinating genuine sale timing, the specific tax consequences a sale would trigger, and a genuine reinvestment plan together, synthesizing this level's Lesson 5 (1031 exchange) and Lesson 7 (market timing) discussions into a coherent exit framework."
+              }
+            },
+            "RED-L5-031": {
+              "id": "RED-L5-031",
+              "type": "lesson",
+              "track": "RED",
+              "trackName": "Real Estate",
+              "level": 5,
+              "lessonNumber": 31,
+              "title": "Mixed-Use Development Analysis: Orchestrating Residential, Commercial, and Financing Considerations Simultaneously",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-09",
+              "path": "content/curriculum/RED/L5/RED-L5-031.md",
+              "checksum": "sha256:sha256:f40a6cd246f6585394630283e151bce3a4cf77864baeaf96bed5c07e4645c873",
+              "status": "active",
+              "ingestionId": "96991537-3abf-4925-9529-657af55f3c21",
+              "importedAt": "2026-10-09T07:40:35.582Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Real Estate",
+                "summary": "Orchestrate a mixed-use development project by coordinating residential and commercial component considerations, and the specific financing structure this kind of blended project requires, together, rather than treating a mixed-use project as simply two separate, unrelated projects combined."
+              }
+            },
+            "RED-L5-032": {
+              "id": "RED-L5-032",
+              "type": "lesson",
+              "track": "RED",
+              "trackName": "Real Estate",
+              "level": 5,
+              "lessonNumber": 32,
+              "title": "Real Estate Crowdfunding: Orchestrating Access, Fees, Illiquidity, and Sponsor Track Record",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-09",
+              "path": "content/curriculum/RED/L5/RED-L5-032.md",
+              "checksum": "sha256:sha256:3418d23d62d9ec2fdb98f2c992a6e9aaf6fec3cf2a2d1af51141a7574ab108e7",
+              "status": "active",
+              "ingestionId": "96991537-3abf-4925-9529-657af55f3c21",
+              "importedAt": "2026-10-09T07:40:35.582Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Real Estate",
+                "summary": "Orchestrate a real estate crowdfunding investment decision by coordinating the genuine accessibility benefit this vehicle provides, its specific fee structure, its genuine illiquidity, and the sponsor's own actual track record together, rather than evaluating the accessibility benefit alone."
+              }
+            },
+            "RED-L5-033": {
+              "id": "RED-L5-033",
+              "type": "lesson",
+              "track": "RED",
+              "trackName": "Real Estate",
+              "level": 5,
+              "lessonNumber": 33,
+              "title": "Home Equity Leverage Strategy: Orchestrating HELOC Terms, Reinvestment Risk, and Personal Balance Sheet",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-09",
+              "path": "content/curriculum/RED/L5/RED-L5-033.md",
+              "checksum": "sha256:sha256:932f5e9c44c1b6865c1a4d43af9e8656de46c79247e6d53af5f2aa7c9ce5982d",
+              "status": "active",
+              "ingestionId": "96991537-3abf-4925-9529-657af55f3c21",
+              "importedAt": "2026-10-09T07:40:35.582Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Real Estate",
+                "summary": "Orchestrate a home equity leverage strategy by coordinating the specific terms of a home equity line of credit, the genuine risk of the capital's intended reinvestment use, and the borrower's overall personal balance sheet together, connecting directly to this curriculum's strategic-versus-consumer debt distinction."
+              }
+            },
+            "RED-L5-034": {
+              "id": "RED-L5-034",
+              "type": "lesson",
+              "track": "RED",
+              "trackName": "Real Estate",
+              "level": 5,
+              "lessonNumber": 34,
+              "title": "Real Estate Professional Tax Status: Orchestrating Material Participation Rules, Passive Loss Limitations, and Career Tradeoffs",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-09",
+              "path": "content/curriculum/RED/L5/RED-L5-034.md",
+              "checksum": "sha256:sha256:f68e8fe574150e272ae109192327b71efdb22c9d8aef065fbb980ba5bd6f3fbd",
+              "status": "active",
+              "ingestionId": "96991537-3abf-4925-9529-657af55f3c21",
+              "importedAt": "2026-10-09T07:40:35.582Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Real Estate",
+                "summary": "Orchestrate the decision to pursue real estate professional tax status by coordinating the specific material participation requirements, the genuine passive loss limitation this status can help overcome, and the genuine career and time-commitment tradeoffs this status actually requires."
+              }
+            },
+            "RED-L5-035": {
+              "id": "RED-L5-035",
+              "type": "lesson",
+              "track": "RED",
+              "trackName": "Real Estate",
+              "level": 5,
+              "lessonNumber": 35,
+              "title": "International Real Estate Investment: Orchestrating Currency Risk, Foreign Tax Treaties, and Legal System Differences",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-09",
+              "path": "content/curriculum/RED/L5/RED-L5-035.md",
+              "checksum": "sha256:sha256:dc6cb903fca01f2707898279376895965f5c3f92654046bb530dc3c0a1e2b5a4",
+              "status": "active",
+              "ingestionId": "96991537-3abf-4925-9529-657af55f3c21",
+              "importedAt": "2026-10-09T07:40:35.582Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Real Estate",
+                "summary": "Orchestrate an international real estate investment decision by coordinating genuine currency risk, applicable foreign tax treaty provisions, and genuine legal system differences together, rather than evaluating a foreign real estate opportunity's local market merits alone."
+              }
+            },
+            "RED-L5-036": {
+              "id": "RED-L5-036",
+              "type": "lesson",
+              "track": "RED",
+              "trackName": "Real Estate",
+              "level": 5,
+              "lessonNumber": 36,
+              "title": "Real Estate Development Feasibility: Orchestrating Land Cost, Construction Cost, Market Absorption, and Financing Stack",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-09",
+              "path": "content/curriculum/RED/L5/RED-L5-036.md",
+              "checksum": "sha256:sha256:1386dd42c690dc68d56dc8008598b1818109ad270ce0fd8f9d6987241ab09070",
+              "status": "active",
+              "ingestionId": "96991537-3abf-4925-9529-657af55f3c21",
+              "importedAt": "2026-10-09T07:40:35.582Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Real Estate",
+                "summary": "Orchestrate a ground-up real estate development feasibility analysis by coordinating land acquisition cost, total construction cost, genuine market absorption assumptions, and the full financing stack together, synthesizing several of this level's earlier lessons into a comprehensive development framework."
+              }
+            },
+            "RED-L5-037": {
+              "id": "RED-L5-037",
+              "type": "lesson",
+              "track": "RED",
+              "trackName": "Real Estate",
+              "level": 5,
+              "lessonNumber": 37,
+              "title": "Property Insurance Claim Strategy After Disaster: Orchestrating Coverage Terms, Legal Rights, and Rebuild Decision",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-09",
+              "path": "content/curriculum/RED/L5/RED-L5-037.md",
+              "checksum": "sha256:sha256:1525329245ed1ad5cdc69323d298fdbe3dc5d4085f47a274942a5fcc7bf924c2",
+              "status": "active",
+              "ingestionId": "96991537-3abf-4925-9529-657af55f3c21",
+              "importedAt": "2026-10-09T07:40:35.582Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Real Estate",
+                "summary": "Orchestrate a property insurance claim strategy following a genuine disaster by coordinating the actual coverage policy terms, the property owner's genuine legal rights within the claims process, and the eventual rebuild-versus-sell decision together."
+              }
+            },
+            "RED-L5-038": {
+              "id": "RED-L5-038",
+              "type": "lesson",
+              "track": "RED",
+              "trackName": "Real Estate",
+              "level": 5,
+              "lessonNumber": 38,
+              "title": "Real Estate Negotiation Orchestration: Coordinating BATNA, Financing Contingencies, and Inspection Leverage",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-09",
+              "path": "content/curriculum/RED/L5/RED-L5-038.md",
+              "checksum": "sha256:sha256:8093d7993c4f9bc0bf4d591aed1ceac77cfe162d5afc0a39e6e7f36419eeadfc",
+              "status": "active",
+              "ingestionId": "96991537-3abf-4925-9529-657af55f3c21",
+              "importedAt": "2026-10-09T07:40:35.582Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Real Estate",
+                "summary": "Orchestrate a real estate purchase negotiation by coordinating a buyer's genuine BATNA, the specific financing contingency terms within the purchase offer, and genuine inspection findings as negotiating leverage together, connecting directly to the ORANGE-track's earlier BATNA discussion."
+              }
+            },
+            "RED-L5-039": {
+              "id": "RED-L5-039",
+              "type": "lesson",
+              "track": "RED",
+              "trackName": "Real Estate",
+              "level": 5,
+              "lessonNumber": 39,
+              "title": "Real Estate Decision Rights in a Multi-Investor Deal: Orchestrating Governance Clarity Across Partners",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-09",
+              "path": "content/curriculum/RED/L5/RED-L5-039.md",
+              "checksum": "sha256:sha256:b66139ef2d8561c0231627e397ddc41d88e945f3757fa7ce57d58173dcdd5d4d",
+              "status": "active",
+              "ingestionId": "96991537-3abf-4925-9529-657af55f3c21",
+              "importedAt": "2026-10-09T07:40:35.582Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Real Estate",
+                "summary": "Orchestrate decision-rights clarity in a multi-investor real estate deal by coordinating this level's earlier Lesson 18 partnership structuring discussion with the BLACK-track's decision rights framework, applied specifically to the genuinely complex governance a multi-investor structure requires."
+              }
+            },
+            "RED-L5-040": {
+              "id": "RED-L5-040",
+              "type": "lesson",
+              "track": "RED",
+              "trackName": "Real Estate",
+              "level": 5,
+              "lessonNumber": 40,
+              "title": "Real Estate Scenario Planning: Orchestrating Multiple Plausible Future Market Conditions Into One Portfolio Strategy",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-09",
+              "path": "content/curriculum/RED/L5/RED-L5-040.md",
+              "checksum": "sha256:sha256:8ddc8d6652433eeaea432f404c92c80c91ec8b1b533cf5765af8b9028caad4cc",
+              "status": "active",
+              "ingestionId": "96991537-3abf-4925-9529-657af55f3c21",
+              "importedAt": "2026-10-09T07:40:35.582Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Real Estate",
+                "summary": "Orchestrate a real estate portfolio strategy by applying this curriculum's BLACK-track scenario planning framework specifically to real estate, coordinating multiple plausible future market conditions into a single, resilient portfolio approach rather than betting the entire portfolio on a single predicted market outcome."
+              }
+            },
+            "RED-L5-041": {
+              "id": "RED-L5-041",
+              "type": "lesson",
+              "track": "RED",
+              "trackName": "Real Estate",
+              "level": 5,
+              "lessonNumber": 41,
+              "title": "Real Estate Tax-Loss and Depreciation Recapture Orchestration: Coordinating Depreciation Benefit, Recapture Liability, and Exit Timing",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-09",
+              "path": "content/curriculum/RED/L5/RED-L5-041.md",
+              "checksum": "sha256:sha256:8a69635b5d7957639e4d1ed686f3602ce8b7d4dbce514a1a3248814c7ba1b078",
+              "status": "active",
+              "ingestionId": "96991537-3abf-4925-9529-657af55f3c21",
+              "importedAt": "2026-10-09T07:40:35.582Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Real Estate",
+                "summary": "Orchestrate the depreciation deduction's genuine ongoing tax benefit against the eventual depreciation recapture liability a future sale would trigger, and against exit timing, rather than treating depreciation as a costless, purely beneficial deduction with no offsetting future consequence."
+              }
+            },
+            "RED-L5-042": {
+              "id": "RED-L5-042",
+              "type": "lesson",
+              "track": "RED",
+              "trackName": "Real Estate",
+              "level": 5,
+              "lessonNumber": 42,
+              "title": "Real Estate Humility in Forecasting: Orchestrating Genuine Uncertainty With Confident Action",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-09",
+              "path": "content/curriculum/RED/L5/RED-L5-042.md",
+              "checksum": "sha256:sha256:7355d196b1ba64cc7d4cb6694fc0bcf4ee05e42b32d6f9e87b286f29d97b9b63",
+              "status": "active",
+              "ingestionId": "96991537-3abf-4925-9529-657af55f3c21",
+              "importedAt": "2026-10-09T07:40:35.582Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Real Estate",
+                "summary": "Orchestrate the genuine tension between honest humility regarding the limits of any real estate forecast and the practical need to still act decisively on the best available analysis, connecting this level's overall orchestration philosophy to this curriculum's BLACK-track leadership humility discussion."
+              }
+            },
+            "RED-L5-043": {
+              "id": "RED-L5-043",
+              "type": "lesson",
+              "track": "RED",
+              "trackName": "Real Estate",
+              "level": 5,
+              "lessonNumber": 43,
+              "title": "Real Estate Resource Allocation Discipline: Orchestrating Capital Across Competing Deals",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-09",
+              "path": "content/curriculum/RED/L5/RED-L5-043.md",
+              "checksum": "sha256:sha256:08f7104ce75022a373b3ca9da70ccb1041b72049bdf762dd1a4c2346a8f8ce57",
+              "status": "active",
+              "ingestionId": "96991537-3abf-4925-9529-657af55f3c21",
+              "importedAt": "2026-10-09T07:40:35.582Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Real Estate",
+                "summary": "Orchestrate real estate capital allocation across multiple competing deal opportunities by applying this curriculum's BLACK-track resource allocation discipline, declining genuinely good deals to protect capacity for genuinely great ones, rather than pursuing every reasonable-seeming opportunity that presents itself."
+              }
+            },
+            "RED-L5-044": {
+              "id": "RED-L5-044",
+              "type": "lesson",
+              "track": "RED",
+              "trackName": "Real Estate",
+              "level": 5,
+              "lessonNumber": 44,
+              "title": "Real Estate Risk Tolerance Calibration: Orchestrating Personal Financial Situation, Leverage Comfort, and Time Horizon",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-09",
+              "path": "content/curriculum/RED/L5/RED-L5-044.md",
+              "checksum": "sha256:sha256:2a088c8632449538f64b049c39f4642533d4450c089562a822143a70642f940e",
+              "status": "active",
+              "ingestionId": "96991537-3abf-4925-9529-657af55f3c21",
+              "importedAt": "2026-10-09T07:40:35.582Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Real Estate",
+                "summary": "Orchestrate a genuine real estate risk tolerance calibration by coordinating an investor's own actual personal financial situation, genuine comfort with leverage, and genuine time horizon together, rather than adopting a generic risk tolerance assumption disconnected from these specific, individual circumstances."
+              }
+            },
+            "RED-L5-045": {
+              "id": "RED-L5-045",
+              "type": "lesson",
+              "track": "RED",
+              "trackName": "Real Estate",
+              "level": 5,
+              "lessonNumber": 45,
+              "title": "Real Estate Leadership in a Family or Team Context: Orchestrating Vision, Delegation, and Genuine Accountability",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-09",
+              "path": "content/curriculum/RED/L5/RED-L5-045.md",
+              "checksum": "sha256:sha256:0066847aa4f25fbe98ce01d8866ed190a6a06d2541c80004f9da12c96959b096",
+              "status": "active",
+              "ingestionId": "96991537-3abf-4925-9529-657af55f3c21",
+              "importedAt": "2026-10-09T07:40:35.582Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Real Estate",
+                "summary": "Orchestrate genuine leadership within a family real estate portfolio or small real estate team by applying this curriculum's BLACK-track vision, delegation, and accountability principles directly to this specific context, rather than assuming real estate management requires no genuine leadership discipline beyond the technical property and financial considerations this level has otherwise addressed."
+              }
+            },
+            "RED-L5-046": {
+              "id": "RED-L5-046",
+              "type": "lesson",
+              "track": "RED",
+              "trackName": "Real Estate",
+              "level": 5,
+              "lessonNumber": 46,
+              "title": "Decisive Real Estate Acquisition Under Genuine Market Opportunity: Orchestrating the Aggression Doctrine Into a Real Estate Timing Decision",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-09",
+              "path": "content/curriculum/RED/L5/RED-L5-046.md",
+              "checksum": "sha256:sha256:c3bf5a552a3b0ca294d98b9f77e0adb7755e3591fc1b5a56e176d5db1dd8c002",
+              "status": "active",
+              "ingestionId": "96991537-3abf-4925-9529-657af55f3c21",
+              "importedAt": "2026-10-09T07:40:35.582Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Real Estate",
+                "summary": "Orchestrate this curriculum's knife-fight/aggression doctrine into a concrete real estate acquisition timing decision, applying the doctrine's offense-versus-defense and opportunity-window principles specifically to the moment a genuine, time-limited real estate opportunity actually presents itself, framed strictly as disciplined investment decisiveness rather than any form of literal conflict."
+              }
+            },
+            "RED-L5-047": {
+              "id": "RED-L5-047",
+              "type": "lesson",
+              "track": "RED",
+              "trackName": "Real Estate",
+              "level": 5,
+              "lessonNumber": 47,
+              "title": "Building Real Estate Acquisition Readiness in Advance: Orchestrating Pre-Approved Financing, Due Diligence Systems, and Capital Reserves",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-09",
+              "path": "content/curriculum/RED/L5/RED-L5-047.md",
+              "checksum": "sha256:sha256:9ff85484fc037fc2964964d2b6de8288cfcf95a444f7d7b6f067c50cd42ac766",
+              "status": "active",
+              "ingestionId": "96991537-3abf-4925-9529-657af55f3c21",
+              "importedAt": "2026-10-09T07:40:35.582Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Real Estate",
+                "summary": "Orchestrate the advance building of genuine real estate acquisition readiness — pre-approved financing, established due diligence systems, and available capital reserves — before any specific opportunity actually appears, applying this curriculum's organizational readiness doctrine directly to an individual investor's own personal preparation."
+              }
+            },
+            "RED-L5-048": {
+              "id": "RED-L5-048",
+              "type": "lesson",
+              "track": "RED",
+              "trackName": "Real Estate",
+              "level": 5,
+              "lessonNumber": 48,
+              "title": "Real Estate Commitment Reassessment: Orchestrating Honest Course Correction on an Active Deal or Development as Conditions Change",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-09",
+              "path": "content/curriculum/RED/L5/RED-L5-048.md",
+              "checksum": "sha256:sha256:40db77da62301e99bf87246821aa7a15367a4a914dda5fa8ac22b0ed6c9ab4be",
+              "status": "active",
+              "ingestionId": "96991537-3abf-4925-9529-657af55f3c21",
+              "importedAt": "2026-10-09T07:40:35.582Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Real Estate",
+                "summary": "Orchestrate honest, ongoing reassessment of an active real estate deal or development project as genuinely new evidence emerges, applying this curriculum's honest-reassessment and sunk-cost-avoidance principles directly to a real estate context, rather than treating an initial commitment decision as permanently beyond reconsideration."
+              }
+            },
+            "RED-L5-049": {
+              "id": "RED-L5-049",
+              "type": "lesson",
+              "track": "RED",
+              "trackName": "Real Estate",
+              "level": 5,
+              "lessonNumber": 49,
+              "title": "Real Estate Courage and Consequence Ownership: Orchestrating Calculated Risk-Taking With Genuine Accountability for Outcomes",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-09",
+              "path": "content/curriculum/RED/L5/RED-L5-049.md",
+              "checksum": "sha256:sha256:c46e9dba0556569ef96209312997a1d54a5971eb73b6d035b2af0a81701c46f5",
+              "status": "active",
+              "ingestionId": "96991537-3abf-4925-9529-657af55f3c21",
+              "importedAt": "2026-10-09T07:40:35.582Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Real Estate",
+                "summary": "Orchestrate genuine consequence ownership into a real estate investor's decisive risk-taking, applying this curriculum's courage-and-accountability principle directly to real estate, distinguishing genuine, calculated real estate risk-taking from mere reckless speculation by whether the investor genuinely owns whatever consequences eventually result."
+              }
+            },
+            "RED-L5-050": {
+              "id": "RED-L5-050",
+              "type": "lesson",
+              "track": "RED",
+              "trackName": "Real Estate",
+              "level": 5,
+              "lessonNumber": 50,
+              "title": "RED-L5 Integration: Orchestrating Every Concept in This Level Into a Single Coherent Real Estate Decision Framework",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-09",
+              "path": "content/curriculum/RED/L5/RED-L5-050.md",
+              "checksum": "sha256:sha256:7329e60f393921ad7cf0ac8fdf87a013d2254762e343218376e18e13a195f101",
+              "status": "active",
+              "ingestionId": "96991537-3abf-4925-9529-657af55f3c21",
+              "importedAt": "2026-10-09T07:40:35.582Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Real Estate",
+                "summary": "Synthesize this level's full range of orchestrated real estate concepts — financing, tax, legal structure, market cycle, risk management, and decisive leadership — into a single, integrated real estate decision-making framework, explicitly completing this curriculum's chess analogy at the level of genuine, coordinated, real-world decision-making."
+              }
+            }
+          }
         }
       }
     },
