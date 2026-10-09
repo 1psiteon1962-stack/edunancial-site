@@ -11,7 +11,10 @@ import {
   getPublishedTrack,
   getPublishedTracks,
   importPublishedLessonTranslations,
+  upsertPublishedLessonsFromBatch,
 } from "@/lib/curriculum/authoritative-published";
+import { resetAdminContentStorage } from "@/lib/admin-content/storage";
+import type { UploadBatch } from "@/lib/admin-content/types";
 import { invalidateRegistryCache } from "@/lib/curriculum/reader";
 import { invalidateTranslationPackageCache } from "@/lib/curriculum/translation-package-store";
 
@@ -268,6 +271,87 @@ test("published track catalogs apply package-scoped translations used by recover
   assert.equal(lesson.summary, "Resumen recuperado");
   assert.match(lesson.body, /Contenido recuperado/u);
   invalidateTranslationPackageCache();
+});
+
+test("production ignores the legacy test-write opt-in and fails closed", async () => {
+  const originalNodeEnv = TEST_ENV["NODE_ENV"];
+  const originalToken = TEST_ENV["EDUNANCIAL_GITHUB_TOKEN"];
+  const originalOwner = TEST_ENV["EDUNANCIAL_GITHUB_OWNER"];
+  const originalRepo = TEST_ENV["EDUNANCIAL_GITHUB_REPO"];
+  const markdown = `---
+id: GOLD-L5-099
+track: GOLD
+officialTrackName: Investing
+level: 5
+lessonNumber: 99
+title: Production Guard Test
+summary: Production guard test
+version: 1.0
+author: Edunancial Faculty
+date: 2026-10-02
+---
+
+Production guard body.`;
+  const now = new Date().toISOString();
+  const batch = {
+    id: "batch-production-legacy-guard",
+    name: "Production legacy guard",
+    slug: "production-legacy-guard",
+    source: "test",
+    notes: "",
+    status: "approved",
+    createdAt: now,
+    updatedAt: now,
+    uploads: [],
+    files: [{
+      id: "file-production-legacy-guard",
+      batchId: "batch-production-legacy-guard",
+      uploadId: "upload-production-legacy-guard",
+      originalFilename: "GOLD-L5-099.md",
+      normalizedFilename: "gold-l5-099.md",
+      archivePath: null,
+      sourceArchiveFilename: null,
+      extension: ".md",
+      mimeType: "text/markdown",
+      sizeBytes: Buffer.byteLength(markdown),
+      checksum: "test",
+      processingStatus: "classified",
+      reviewStatus: "approved",
+      conflictStatus: "none",
+      duplicateStatus: "new",
+      previewText: markdown,
+      rawText: markdown,
+      encodedContent: Buffer.from(markdown, "utf8").toString("base64"),
+      classification: { category: "courses", subcategory: "level-5", language: "en", academyLevel: "level-5", destination: "content/curriculum/GOLD/L5/GOLD-L5-099.md", confidence: 1, reasons: ["test"], pillar: "gold" },
+      metadata: { language: "en", region: null, title: "Production Guard Test", description: "", source: "test", intendedDestination: "content/curriculum/GOLD/L5/GOLD-L5-099.md", contentType: "courses", pillar: "gold", academyLevel: "level-5", publicationStatus: "approved", version: "1.0", checksum: "test", uploadBatchId: "batch-production-legacy-guard" },
+      warnings: [],
+      error: null,
+      approvedAt: now,
+      rejectedAt: null,
+      updatedAt: now,
+    }],
+    auditHistory: [],
+    exports: [],
+    warnings: [],
+  } satisfies UploadBatch;
+
+  TEST_ENV["NODE_ENV"] = "production";
+  delete TEST_ENV["EDUNANCIAL_GITHUB_TOKEN"];
+  delete TEST_ENV["EDUNANCIAL_GITHUB_OWNER"];
+  delete TEST_ENV["EDUNANCIAL_GITHUB_REPO"];
+  resetAdminContentStorage();
+  try {
+    await assert.rejects(
+      () => upsertPublishedLessonsFromBatch(batch),
+      /Atomic curriculum publication is unavailable; refusing legacy full-state fallback\./u,
+    );
+  } finally {
+    resetAdminContentStorage();
+    if (originalNodeEnv === undefined) delete TEST_ENV["NODE_ENV"]; else TEST_ENV["NODE_ENV"] = originalNodeEnv;
+    if (originalToken === undefined) delete TEST_ENV["EDUNANCIAL_GITHUB_TOKEN"]; else TEST_ENV["EDUNANCIAL_GITHUB_TOKEN"] = originalToken;
+    if (originalOwner === undefined) delete TEST_ENV["EDUNANCIAL_GITHUB_OWNER"]; else TEST_ENV["EDUNANCIAL_GITHUB_OWNER"] = originalOwner;
+    if (originalRepo === undefined) delete TEST_ENV["EDUNANCIAL_GITHUB_REPO"]; else TEST_ENV["EDUNANCIAL_GITHUB_REPO"] = originalRepo;
+  }
 });
 
 test("importPublishedLessonTranslations merges locale entries into published lessons", async () => {
