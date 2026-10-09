@@ -1,7 +1,7 @@
 {
   "_schema": "curriculum/schemas/registry.schema.json",
   "_version": "1.0",
-  "_generated": "2026-09-15T10:56:40.342Z",
+  "_generated": "2026-10-09T09:35:54.211Z",
   "_note": "Authoritative curriculum registry (empty lessons are a valid production state).",
   "tracks": {
     "RED": {
@@ -4634,7 +4634,1258 @@
           "assets": {}
         },
         "5": {
-          "assets": {}
+          "assets": {
+            "BLUE-L5-001": {
+              "id": "BLUE-L5-001",
+              "type": "lesson",
+              "track": "BLUE",
+              "trackName": "Business",
+              "level": 5,
+              "lessonNumber": 1,
+              "title": "Orchestration Introduction: Why Business Ownership Decisions Require Coordinating Multiple Concepts at Once",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-09",
+              "path": "content/curriculum/BLUE/L5/BLUE-L5-001.md",
+              "checksum": "sha256:sha256:ec1dc7993917cb6f917b9a9849df4cbd908a441cc37c39adcbe1757507af576a",
+              "status": "active",
+              "ingestionId": "d3248565-a45a-4514-bc54-3b2af49c03cc",
+              "importedAt": "2026-10-09T09:35:52.383Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Business",
+                "summary": "Understand the Level 5 orchestration philosophy applied to business ownership — coordinating multiple previously separate concepts together toward a single real-world decision — and why a genuine business decision rarely turns on any single variable considered in isolation."
+              }
+            },
+            "BLUE-L5-002": {
+              "id": "BLUE-L5-002",
+              "type": "lesson",
+              "track": "BLUE",
+              "trackName": "Business",
+              "level": 5,
+              "lessonNumber": 2,
+              "title": "Buy vs Build vs Franchise: Orchestrating Time-to-Market, Capital Requirements, and Risk Tolerance",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-09",
+              "path": "content/curriculum/BLUE/L5/BLUE-L5-002.md",
+              "checksum": "sha256:sha256:b6e31bc4177a61c4ed990c4cff11744d584be266de8a91610a8ac16f65c5cb14",
+              "status": "active",
+              "ingestionId": "d3248565-a45a-4514-bc54-3b2af49c03cc",
+              "importedAt": "2026-10-09T09:35:52.383Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Business",
+                "summary": "Orchestrate the choice among buying an existing business, building a new one from scratch, or purchasing a franchise, by coordinating genuine time-to-market, actual capital requirements, and honest risk tolerance together, rather than defaulting to any one path without this fuller comparison."
+              }
+            },
+            "BLUE-L5-003": {
+              "id": "BLUE-L5-003",
+              "type": "lesson",
+              "track": "BLUE",
+              "trackName": "Business",
+              "level": 5,
+              "lessonNumber": 3,
+              "title": "Business Acquisition Financing: Orchestrating SBA Loans, Seller Financing, and Strategic Debt Framework",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-09",
+              "path": "content/curriculum/BLUE/L5/BLUE-L5-003.md",
+              "checksum": "sha256:sha256:db090116d8932bddb7532a80a251bd5d928e44d74efe7bb80fee9923ba4a722f",
+              "status": "active",
+              "ingestionId": "d3248565-a45a-4514-bc54-3b2af49c03cc",
+              "importedAt": "2026-10-09T09:35:52.383Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Business",
+                "summary": "Orchestrate business acquisition financing by coordinating SBA loan terms, seller financing structures, and this curriculum's strategic-versus-consumer debt distinction together, rather than evaluating a single financing source in isolation."
+              }
+            },
+            "BLUE-L5-004": {
+              "id": "BLUE-L5-004",
+              "type": "lesson",
+              "track": "BLUE",
+              "trackName": "Business",
+              "level": 5,
+              "lessonNumber": 4,
+              "title": "Entity Structure for a New Business: Orchestrating Liability Protection, Tax Treatment, and Financing Access",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-09",
+              "path": "content/curriculum/BLUE/L5/BLUE-L5-004.md",
+              "checksum": "sha256:sha256:76fdc4e00266b688d16757e0fd9f36ad68c662816f6e04097edc7859b6d506c3",
+              "status": "active",
+              "ingestionId": "d3248565-a45a-4514-bc54-3b2af49c03cc",
+              "importedAt": "2026-10-09T09:35:52.383Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Business",
+                "summary": "Orchestrate the choice of legal entity for a new or acquired business by coordinating liability protection, tax treatment, and financing access together, extending this curriculum's parallel RED-L5 real estate entity structure discussion to a general business ownership context."
+              }
+            },
+            "BLUE-L5-005": {
+              "id": "BLUE-L5-005",
+              "type": "lesson",
+              "track": "BLUE",
+              "trackName": "Business",
+              "level": 5,
+              "lessonNumber": 5,
+              "title": "Earnout and Seller Note Structuring: Orchestrating Tax Treatment, Risk Allocation, and Deal Certainty",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-09",
+              "path": "content/curriculum/BLUE/L5/BLUE-L5-005.md",
+              "checksum": "sha256:sha256:3aedc366ebb94d9f87fe9278d07e54a177c821bc6fee7b9622c3c4d3bb354457",
+              "status": "active",
+              "ingestionId": "d3248565-a45a-4514-bc54-3b2af49c03cc",
+              "importedAt": "2026-10-09T09:35:52.383Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Business",
+                "summary": "Orchestrate an earnout or seller note structure within a business acquisition by coordinating the genuine tax treatment this structure provides, honest risk allocation between buyer and seller, and the genuine deal certainty tradeoff involved, rather than treating these structures as simple, costless deal-closing tools."
+              }
+            },
+            "BLUE-L5-006": {
+              "id": "BLUE-L5-006",
+              "type": "lesson",
+              "track": "BLUE",
+              "trackName": "Business",
+              "level": 5,
+              "lessonNumber": 6,
+              "title": "Revenue vs Profit vs Cash Flow: Orchestrating Competing Business Health Metrics",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-09",
+              "path": "content/curriculum/BLUE/L5/BLUE-L5-006.md",
+              "checksum": "sha256:sha256:285ec5395960b94fb82f99c7e1fe1597f9ee4bda465e7c7eca1c0f45e3ddc55e",
+              "status": "active",
+              "ingestionId": "d3248565-a45a-4514-bc54-3b2af49c03cc",
+              "importedAt": "2026-10-09T09:35:52.383Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Business",
+                "summary": "Orchestrate the three primary business health metrics — revenue, profit, and cash flow — recognizing that a business strong on one metric is frequently weaker on another, requiring a genuinely coordinated assessment rather than optimizing for any single metric alone."
+              }
+            },
+            "BLUE-L5-007": {
+              "id": "BLUE-L5-007",
+              "type": "lesson",
+              "track": "BLUE",
+              "trackName": "Business",
+              "level": 5,
+              "lessonNumber": 7,
+              "title": "Market Timing for Business Launch or Acquisition: Orchestrating Macro Signals, Financing Availability, and Personal Readiness",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-09",
+              "path": "content/curriculum/BLUE/L5/BLUE-L5-007.md",
+              "checksum": "sha256:sha256:ca29b53523746ce29b4040192bd2566408954177ac0c9d32f262eac79c4cf0b0",
+              "status": "active",
+              "ingestionId": "d3248565-a45a-4514-bc54-3b2af49c03cc",
+              "importedAt": "2026-10-09T09:35:52.383Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Business",
+                "summary": "Orchestrate business launch or acquisition timing by coordinating broader macroeconomic signals, current financing availability, and the entrepreneur's own genuine personal readiness together, connecting this level's orchestration philosophy directly to the knife-fight/aggression doctrine's opportunity-window recognition principle."
+              }
+            },
+            "BLUE-L5-008": {
+              "id": "BLUE-L5-008",
+              "type": "lesson",
+              "track": "BLUE",
+              "trackName": "Business",
+              "level": 5,
+              "lessonNumber": 8,
+              "title": "Equipment and CapEx Investment Orchestration: Coordinating Vendor Bids, Financing Cost, and Reinvestment ROI",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-09",
+              "path": "content/curriculum/BLUE/L5/BLUE-L5-008.md",
+              "checksum": "sha256:sha256:019438030554a7f7f662c2378cb541f825b9b11d827e0c1d6eb0b2a68aa14200",
+              "status": "active",
+              "ingestionId": "d3248565-a45a-4514-bc54-3b2af49c03cc",
+              "importedAt": "2026-10-09T09:35:52.383Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Business",
+                "summary": "Orchestrate a significant equipment or capital expenditure decision by coordinating actual, current vendor bid costs, the financing cost of funding this investment, and genuine reinvestment ROI together, rather than assuming a capital expenditure's cost alone determines whether it represents a sound investment."
+              }
+            },
+            "BLUE-L5-009": {
+              "id": "BLUE-L5-009",
+              "type": "lesson",
+              "track": "BLUE",
+              "trackName": "Business",
+              "level": 5,
+              "lessonNumber": 9,
+              "title": "Business Cash Flow Modeling: Orchestrating Seasonal Variation, Reserve Requirements, and Owner Compensation",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-09",
+              "path": "content/curriculum/BLUE/L5/BLUE-L5-009.md",
+              "checksum": "sha256:sha256:4fa5422cef7aa5c6f58dc708f5386768ede1f845c33b0646ad91464fbb07823b",
+              "status": "active",
+              "ingestionId": "d3248565-a45a-4514-bc54-3b2af49c03cc",
+              "importedAt": "2026-10-09T09:35:52.383Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Business",
+                "summary": "Orchestrate a genuinely complete business cash flow model by coordinating seasonal revenue variation, an adequate cash reserve requirement, and honest owner compensation together, rather than modeling cash flow based only on an optimistic, level, average-revenue assumption with no reserve for these other genuine, recurring considerations."
+              }
+            },
+            "BLUE-L5-010": {
+              "id": "BLUE-L5-010",
+              "type": "lesson",
+              "track": "BLUE",
+              "trackName": "Business",
+              "level": 5,
+              "lessonNumber": 10,
+              "title": "Business Ownership vs Real Estate vs Paper Assets: Orchestrating Control, Liquidity, and Tax Treatment",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-09",
+              "path": "content/curriculum/BLUE/L5/BLUE-L5-010.md",
+              "checksum": "sha256:sha256:e38811eec9e557b315e9ed8eb56526e1280166eb65efa29aef02d3111c422181",
+              "status": "active",
+              "ingestionId": "d3248565-a45a-4514-bc54-3b2af49c03cc",
+              "importedAt": "2026-10-09T09:35:52.383Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Business",
+                "summary": "Orchestrate a genuine comparison among direct business ownership, real estate, and paper assets as competing destinations for additional capital, coordinating genuine control, liquidity, and tax treatment together, extending and mirroring this curriculum's parallel RED-L5 and WHITE-L5 comparisons from the business-ownership side."
+              }
+            },
+            "BLUE-L5-011": {
+              "id": "BLUE-L5-011",
+              "type": "lesson",
+              "track": "BLUE",
+              "trackName": "Business",
+              "level": 5,
+              "lessonNumber": 11,
+              "title": "Franchise Agreements: Orchestrating Franchisor Control, Royalty Structure, and Genuine Brand Value",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-09",
+              "path": "content/curriculum/BLUE/L5/BLUE-L5-011.md",
+              "checksum": "sha256:sha256:c6942555dc7cfab40ba1461661b7d98e9d86295ef3da3847016911bf5c42f671",
+              "status": "active",
+              "ingestionId": "d3248565-a45a-4514-bc54-3b2af49c03cc",
+              "importedAt": "2026-10-09T09:35:52.383Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Business",
+                "summary": "Orchestrate a franchise agreement decision by coordinating genuine franchisor control provisions, the specific royalty and fee structure, and the actual, honest brand value a specific franchise provides together, rather than evaluating brand recognition alone."
+              }
+            },
+            "BLUE-L5-012": {
+              "id": "BLUE-L5-012",
+              "type": "lesson",
+              "track": "BLUE",
+              "trackName": "Business",
+              "level": 5,
+              "lessonNumber": 12,
+              "title": "Multi-Owner Equity Structuring: Orchestrating Ownership Percentage, Vesting, and Control Rights",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-09",
+              "path": "content/curriculum/BLUE/L5/BLUE-L5-012.md",
+              "checksum": "sha256:sha256:c1a814b72c5bfb4bc84d3dd8a63e5f21d8caacb0da902e4b5b33b6075284a027",
+              "status": "active",
+              "ingestionId": "d3248565-a45a-4514-bc54-3b2af49c03cc",
+              "importedAt": "2026-10-09T09:35:52.383Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Business",
+                "summary": "Orchestrate multi-owner equity structuring for a new or growing business by coordinating genuine ownership percentage allocation, vesting schedules, and control rights together, connecting directly to this curriculum's earlier partnership structuring and decision rights discussions."
+              }
+            },
+            "BLUE-L5-013": {
+              "id": "BLUE-L5-013",
+              "type": "lesson",
+              "track": "BLUE",
+              "trackName": "Business",
+              "level": 5,
+              "lessonNumber": 13,
+              "title": "Business Estate Planning: Orchestrating Buy-Sell Agreements, Valuation Triggers, and the STEWARD Principle",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-09",
+              "path": "content/curriculum/BLUE/L5/BLUE-L5-013.md",
+              "checksum": "sha256:sha256:8517545dfe618bb8079e9fc1e0987994f3ab7abd6de08dedbf89e442a793b470",
+              "status": "active",
+              "ingestionId": "d3248565-a45a-4514-bc54-3b2af49c03cc",
+              "importedAt": "2026-10-09T09:35:52.383Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Business",
+                "summary": "Orchestrate business estate planning by coordinating a genuine buy-sell agreement, specific valuation triggers, and this curriculum's STEWARD principle together, extending this curriculum's parallel RED-L5 and WHITE-L5 estate planning discussions to a business ownership context."
+              }
+            },
+            "BLUE-L5-014": {
+              "id": "BLUE-L5-014",
+              "type": "lesson",
+              "track": "BLUE",
+              "trackName": "Business",
+              "level": 5,
+              "lessonNumber": 14,
+              "title": "Vertical Integration vs Outsourcing: Orchestrating Control, Cost, and Genuine Core-Competency Focus",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-09",
+              "path": "content/curriculum/BLUE/L5/BLUE-L5-014.md",
+              "checksum": "sha256:sha256:1f466dd3e5c4c782045932194f87f9d5d842805af2f4bef6c13119270a5edfda",
+              "status": "active",
+              "ingestionId": "d3248565-a45a-4514-bc54-3b2af49c03cc",
+              "importedAt": "2026-10-09T09:35:52.383Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Business",
+                "summary": "Orchestrate the decision to vertically integrate a specific business function versus outsourcing it by coordinating genuine control benefits, actual cost comparison, and honest core-competency focus together, rather than defaulting to either approach without this fuller orchestration."
+              }
+            },
+            "BLUE-L5-015": {
+              "id": "BLUE-L5-015",
+              "type": "lesson",
+              "track": "BLUE",
+              "trackName": "Business",
+              "level": 5,
+              "lessonNumber": 15,
+              "title": "International Expansion: Orchestrating Currency Risk, Foreign Tax Treaties, and Legal System Differences",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-09",
+              "path": "content/curriculum/BLUE/L5/BLUE-L5-015.md",
+              "checksum": "sha256:sha256:087c4b2a1ca890dbbc936fc25f620ddd4bb3f7ca289eddb322eac0e657499d8c",
+              "status": "active",
+              "ingestionId": "d3248565-a45a-4514-bc54-3b2af49c03cc",
+              "importedAt": "2026-10-09T09:35:52.383Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Business",
+                "summary": "Orchestrate a business's international expansion decision by coordinating genuine currency risk, applicable foreign tax treaty provisions, and genuine legal system differences together, extending this curriculum's parallel RED-L5 and WHITE-L5 international investing discussions to a business operations context."
+              }
+            },
+            "BLUE-L5-016": {
+              "id": "BLUE-L5-016",
+              "type": "lesson",
+              "track": "BLUE",
+              "trackName": "Business",
+              "level": 5,
+              "lessonNumber": 16,
+              "title": "Behavioral Discipline During a Business Downturn: Orchestrating Genuine Risk Tolerance, Historical Perspective, and the Loss-Aversion Trap",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-09",
+              "path": "content/curriculum/BLUE/L5/BLUE-L5-016.md",
+              "checksum": "sha256:sha256:a5db51bc0766e9ee212841fde12ff8f66bbd7fe99eea0ef386c106f85be3dafd",
+              "status": "active",
+              "ingestionId": "d3248565-a45a-4514-bc54-3b2af49c03cc",
+              "importedAt": "2026-10-09T09:35:52.383Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Business",
+                "summary": "Orchestrate genuine behavioral discipline during a business downturn by coordinating an owner's own actual, previously assessed risk tolerance, genuine historical perspective on past business cycles, and awareness of the specific loss-aversion trap together, rather than reacting to a downturn purely on emotion in the moment."
+              }
+            },
+            "BLUE-L5-017": {
+              "id": "BLUE-L5-017",
+              "type": "lesson",
+              "track": "BLUE",
+              "trackName": "Business",
+              "level": 5,
+              "lessonNumber": 17,
+              "title": "Owner Compensation Strategy: Orchestrating Salary vs Distribution, Tax Treatment, and Total Return Perspective",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-09",
+              "path": "content/curriculum/BLUE/L5/BLUE-L5-017.md",
+              "checksum": "sha256:sha256:e20a828f827af5ccb5e1d1f9ac12547d1a939cc9ee22e8def331d87792eae25e",
+              "status": "active",
+              "ingestionId": "d3248565-a45a-4514-bc54-3b2af49c03cc",
+              "importedAt": "2026-10-09T09:35:52.383Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Business",
+                "summary": "Orchestrate a business owner's compensation strategy by coordinating the genuine choice between salary and distribution, the specific tax treatment each involves, and a genuine total return perspective together, extending this curriculum's parallel WHITE-L5 dividend investing discussion to owner compensation."
+              }
+            },
+            "BLUE-L5-018": {
+              "id": "BLUE-L5-018",
+              "type": "lesson",
+              "track": "BLUE",
+              "trackName": "Business",
+              "level": 5,
+              "lessonNumber": 18,
+              "title": "Private Equity and Outside Investment: Orchestrating Access to Capital, Loss of Control, and Genuine Alignment",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-09",
+              "path": "content/curriculum/BLUE/L5/BLUE-L5-018.md",
+              "checksum": "sha256:sha256:72769fdd244251e4ee8742b9467e82df4a6591ff9322538be18a017da90964c9",
+              "status": "active",
+              "ingestionId": "d3248565-a45a-4514-bc54-3b2af49c03cc",
+              "importedAt": "2026-10-09T09:35:52.383Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Business",
+                "summary": "Orchestrate a decision to accept private equity or other outside investment by coordinating genuine access to additional capital, the actual loss of control this investment typically involves, and genuine alignment between the business owner and the outside investor together, rather than evaluating the capital infusion alone."
+              }
+            },
+            "BLUE-L5-019": {
+              "id": "BLUE-L5-019",
+              "type": "lesson",
+              "track": "BLUE",
+              "trackName": "Business",
+              "level": 5,
+              "lessonNumber": 19,
+              "title": "Key Employee Equity and Retention: Orchestrating Vesting Schedules, Concentration Risk, and Tax Treatment",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-09",
+              "path": "content/curriculum/BLUE/L5/BLUE-L5-019.md",
+              "checksum": "sha256:sha256:2a56c95abd30b647a68cd90c1b2f32f520eb16d3f1e12e07717c3e01597b7054",
+              "status": "active",
+              "ingestionId": "d3248565-a45a-4514-bc54-3b2af49c03cc",
+              "importedAt": "2026-10-09T09:35:52.383Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Business",
+                "summary": "Orchestrate a key employee equity compensation program by coordinating genuine vesting schedule design, the concentration risk this equity represents for the employee, and applicable tax treatment together, extending this curriculum's parallel WHITE-L5 employer stock concentration discussion from the employer's own perspective."
+              }
+            },
+            "BLUE-L5-020": {
+              "id": "BLUE-L5-020",
+              "type": "lesson",
+              "track": "BLUE",
+              "trackName": "Business",
+              "level": 5,
+              "lessonNumber": 20,
+              "title": "Purpose-Driven Business Structuring: Orchestrating Genuine Values Alignment, Return Expectations, and Cost Considerations",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-09",
+              "path": "content/curriculum/BLUE/L5/BLUE-L5-020.md",
+              "checksum": "sha256:sha256:6e19c8c36572eb63a02d01a7c1f231af9aa139186b4ac1a9aee8e0c87e402533",
+              "status": "active",
+              "ingestionId": "d3248565-a45a-4514-bc54-3b2af49c03cc",
+              "importedAt": "2026-10-09T09:35:52.383Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Business",
+                "summary": "Orchestrate a decision to structure a business around a specific social or environmental purpose (such as a B-Corp or similar structure) by coordinating genuine values alignment, honest return expectations, and genuine cost considerations together, extending this curriculum's parallel WHITE-L5 ESG investing discussion to business structuring."
+              }
+            },
+            "BLUE-L5-021": {
+              "id": "BLUE-L5-021",
+              "type": "lesson",
+              "track": "BLUE",
+              "trackName": "Business",
+              "level": 5,
+              "lessonNumber": 21,
+              "title": "Succession Timing Risk: Orchestrating Transition Timing, Market Conditions, and Business Continuity Planning",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-09",
+              "path": "content/curriculum/BLUE/L5/BLUE-L5-021.md",
+              "checksum": "sha256:sha256:0ec07a2a2b30cd4e02bb6eba6dd58be1bd3404c016f1f7be9e0bd18125046be7",
+              "status": "active",
+              "ingestionId": "d3248565-a45a-4514-bc54-3b2af49c03cc",
+              "importedAt": "2026-10-09T09:35:52.383Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Business",
+                "summary": "Orchestrate business succession timing by coordinating genuine transition timing, actual market conditions at the point of transition, and genuine business continuity planning together, extending this curriculum's parallel WHITE-L5 sequence of returns risk discussion to business succession."
+              }
+            },
+            "BLUE-L5-022": {
+              "id": "BLUE-L5-022",
+              "type": "lesson",
+              "track": "BLUE",
+              "trackName": "Business",
+              "level": 5,
+              "lessonNumber": 22,
+              "title": "Business Insurance and Key-Person Coverage: Orchestrating Genuine Protection, Cost, and Liquidity Tradeoffs",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-09",
+              "path": "content/curriculum/BLUE/L5/BLUE-L5-022.md",
+              "checksum": "sha256:sha256:43d860a7c7b7d6fa6ff646a1f78684a7b28ba11e652f3155431369238a1e14d9",
+              "status": "active",
+              "ingestionId": "d3248565-a45a-4514-bc54-3b2af49c03cc",
+              "importedAt": "2026-10-09T09:35:52.383Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Business",
+                "summary": "Orchestrate a business insurance and key-person coverage decision by coordinating the genuine protection this coverage provides, its typically significant cost, and the genuine liquidity this coverage can provide at a critical moment, extending this curriculum's parallel WHITE-L5 annuities discussion to business insurance."
+              }
+            },
+            "BLUE-L5-023": {
+              "id": "BLUE-L5-023",
+              "type": "lesson",
+              "track": "BLUE",
+              "trackName": "Business",
+              "level": 5,
+              "lessonNumber": 23,
+              "title": "Debt Financing Structures: Orchestrating Interest Rate, Covenant Terms, and Credit Quality",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-09",
+              "path": "content/curriculum/BLUE/L5/BLUE-L5-023.md",
+              "checksum": "sha256:sha256:7a0fdad299a09ed0bda5e8b418c7e5695eeb6a6bb2b0451446c92789ebf6cb8a",
+              "status": "active",
+              "ingestionId": "d3248565-a45a-4514-bc54-3b2af49c03cc",
+              "importedAt": "2026-10-09T09:35:52.383Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Business",
+                "summary": "Orchestrate a business debt financing decision among a line of credit, a term loan, and revenue-based financing by coordinating genuine interest rate structure, specific covenant terms, and honest credit quality assessment together, extending this curriculum's parallel WHITE-L5 municipal versus taxable bond discussion to business debt."
+              }
+            },
+            "BLUE-L5-024": {
+              "id": "BLUE-L5-024",
+              "type": "lesson",
+              "track": "BLUE",
+              "trackName": "Business",
+              "level": 5,
+              "lessonNumber": 24,
+              "title": "Trust and Holding Company Structures for Business Ownership: Orchestrating Control, Tax Treatment, and Genuine Asset Protection",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-09",
+              "path": "content/curriculum/BLUE/L5/BLUE-L5-024.md",
+              "checksum": "sha256:sha256:026775ea5e52be16cad44696d2104fa9ea82f0ca55dea0c693b2226e9f9efcfb",
+              "status": "active",
+              "ingestionId": "d3248565-a45a-4514-bc54-3b2af49c03cc",
+              "importedAt": "2026-10-09T09:35:52.383Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Business",
+                "summary": "Orchestrate the choice of trust or holding company structure for business ownership by coordinating genuine control retention, specific tax treatment, and genuine asset protection together, extending this curriculum's parallel WHITE-L5 trust structuring discussion to business ownership."
+              }
+            },
+            "BLUE-L5-025": {
+              "id": "BLUE-L5-025",
+              "type": "lesson",
+              "track": "BLUE",
+              "trackName": "Business",
+              "level": 5,
+              "lessonNumber": 25,
+              "title": "Emerging Technology Adoption: Orchestrating Genuine Volatility, Regulatory Uncertainty, and Position-Sizing Discipline",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-09",
+              "path": "content/curriculum/BLUE/L5/BLUE-L5-025.md",
+              "checksum": "sha256:sha256:d47ed65b21a7631944ed8f1591304cde3044892bb35f91ab484a92eda7b8fc57",
+              "status": "active",
+              "ingestionId": "d3248565-a45a-4514-bc54-3b2af49c03cc",
+              "importedAt": "2026-10-09T09:35:52.383Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Business",
+                "summary": "Orchestrate a business's decision to adopt an emerging or disruptive technology by coordinating genuine, well-documented volatility in the technology's own trajectory, ongoing regulatory uncertainty, and honest position-sizing discipline together, extending this curriculum's parallel WHITE-L5 cryptocurrency discussion to business technology adoption."
+              }
+            },
+            "BLUE-L5-026": {
+              "id": "BLUE-L5-026",
+              "type": "lesson",
+              "track": "BLUE",
+              "trackName": "Business",
+              "level": 5,
+              "lessonNumber": 26,
+              "title": "Benchmarking and Best-Practice Adoption: Orchestrating Historical Evidence, Genuine Cost, and Behavioral Discipline to Stay the Course",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-09",
+              "path": "content/curriculum/BLUE/L5/BLUE-L5-026.md",
+              "checksum": "sha256:sha256:7ef27e733145f7606bd0fb8d8bcdcd85b808afc0c7d0349bbae5992aa35b769a",
+              "status": "active",
+              "ingestionId": "d3248565-a45a-4514-bc54-3b2af49c03cc",
+              "importedAt": "2026-10-09T09:35:52.383Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Business",
+                "summary": "Orchestrate a business's adoption of a specific industry benchmark or best-practice methodology by coordinating genuine historical evidence supporting that specific practice, the actual cost of implementation, and the genuine behavioral discipline required to maintain the practice through an inevitable period of apparent underperformance, together."
+              }
+            },
+            "BLUE-L5-027": {
+              "id": "BLUE-L5-027",
+              "type": "lesson",
+              "track": "BLUE",
+              "trackName": "Business",
+              "level": 5,
+              "lessonNumber": 27,
+              "title": "Multi-Currency and Multi-Market Revenue: Orchestrating Currency Hedging, Cost, and Genuine Diversification Purpose",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-09",
+              "path": "content/curriculum/BLUE/L5/BLUE-L5-027.md",
+              "checksum": "sha256:sha256:e26b40f7a9dbe2ad782ca0b62250a50ea9792cd7ad97dfa5c1bd36fc4ab3f96f",
+              "status": "active",
+              "ingestionId": "d3248565-a45a-4514-bc54-3b2af49c03cc",
+              "importedAt": "2026-10-09T09:35:52.383Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Business",
+                "summary": "Orchestrate a business's decision regarding currency-hedged versus unhedged multi-market revenue exposure by coordinating genuine currency risk exposure, the actual cost of hedging, and the business's own specific genuine diversification purpose together, extending this curriculum's parallel WHITE-L5 currency hedging discussion to business revenue."
+              }
+            },
+            "BLUE-L5-028": {
+              "id": "BLUE-L5-028",
+              "type": "lesson",
+              "track": "BLUE",
+              "trackName": "Business",
+              "level": 5,
+              "lessonNumber": 28,
+              "title": "Tax-Efficient Business Structure Across Entities: Orchestrating Entity Location, Tax Treatment, and Genuine After-Tax Return",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-09",
+              "path": "content/curriculum/BLUE/L5/BLUE-L5-028.md",
+              "checksum": "sha256:sha256:85bed254dbe61f26f163809c6068e4bde91e6c282a7a498bb65cf57397d973a3",
+              "status": "active",
+              "ingestionId": "d3248565-a45a-4514-bc54-3b2af49c03cc",
+              "importedAt": "2026-10-09T09:35:52.383Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Business",
+                "summary": "Orchestrate the placement of different business functions or assets across multiple entities by coordinating each entity's own tax treatment with genuine after-tax return, extending this curriculum's parallel WHITE-L5 asset location discussion to multi-entity business structuring."
+              }
+            },
+            "BLUE-L5-029": {
+              "id": "BLUE-L5-029",
+              "type": "lesson",
+              "track": "BLUE",
+              "trackName": "Business",
+              "level": 5,
+              "lessonNumber": 29,
+              "title": "Business Cycle Analysis: Orchestrating Demand Signals, Interest Rate Environment, and Credit Conditions",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-09",
+              "path": "content/curriculum/BLUE/L5/BLUE-L5-029.md",
+              "checksum": "sha256:sha256:2d8d72ba0d602b8e96f091042204f761848c58c36f0f0026b4ce15aac85fda6f",
+              "status": "active",
+              "ingestionId": "d3248565-a45a-4514-bc54-3b2af49c03cc",
+              "importedAt": "2026-10-09T09:35:52.383Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Business",
+                "summary": "Orchestrate a comprehensive business cycle analysis by coordinating genuine demand signals, the broader interest rate environment, and credit conditions together, synthesizing this level's earlier discussions and directly extending this curriculum's parallel RED-L5 and WHITE-L5 market cycle analysis discussions to general business conditions."
+              }
+            },
+            "BLUE-L5-030": {
+              "id": "BLUE-L5-030",
+              "type": "lesson",
+              "track": "BLUE",
+              "trackName": "Business",
+              "level": 5,
+              "lessonNumber": 30,
+              "title": "Exit Strategy for a Business: Orchestrating Sale Timing, Tax Consequences, and Reinvestment Plan",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-09",
+              "path": "content/curriculum/BLUE/L5/BLUE-L5-030.md",
+              "checksum": "sha256:sha256:20135b0f6907fad79b3006d29cd3c0c5668e8f7fbe74197bee6458e4181977dc",
+              "status": "active",
+              "ingestionId": "d3248565-a45a-4514-bc54-3b2af49c03cc",
+              "importedAt": "2026-10-09T09:35:52.383Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Business",
+                "summary": "Orchestrate the exit from a business ownership position by coordinating sale timing, the specific tax consequences this sale would trigger, and a genuine reinvestment plan together, synthesizing this level's earlier lessons into a coherent exit framework, extending this curriculum's parallel RED-L5 and WHITE-L5 exit strategy discussions."
+              }
+            },
+            "BLUE-L5-031": {
+              "id": "BLUE-L5-031",
+              "type": "lesson",
+              "track": "BLUE",
+              "trackName": "Business",
+              "level": 5,
+              "lessonNumber": 31,
+              "title": "Multi-Unit and Multi-Location Expansion: Orchestrating Unit Economics, Financing Structure, and Operational Consistency",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-09",
+              "path": "content/curriculum/BLUE/L5/BLUE-L5-031.md",
+              "checksum": "sha256:sha256:56b3181cc68119806f9969aa19a8f5511c98301ab860d82d3c6180a713e24fa9",
+              "status": "active",
+              "ingestionId": "d3248565-a45a-4514-bc54-3b2af49c03cc",
+              "importedAt": "2026-10-09T09:35:52.383Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Business",
+                "summary": "Orchestrate a multi-unit or multi-location business expansion by coordinating genuine unit-level economics, the specific financing structure this kind of expansion requires, and honest operational consistency across locations together, extending this curriculum's parallel RED-L5 mixed-use development discussion to business expansion."
+              }
+            },
+            "BLUE-L5-032": {
+              "id": "BLUE-L5-032",
+              "type": "lesson",
+              "track": "BLUE",
+              "trackName": "Business",
+              "level": 5,
+              "lessonNumber": 32,
+              "title": "Business Crowdfunding and Equity Crowdfunding: Orchestrating Access, Fees, Illiquidity, and Sponsor Track Record",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-09",
+              "path": "content/curriculum/BLUE/L5/BLUE-L5-032.md",
+              "checksum": "sha256:sha256:03c3d83ba327fca81046a89900412b38e0c2f5b33e7901ff30c488f0efea60e3",
+              "status": "active",
+              "ingestionId": "d3248565-a45a-4514-bc54-3b2af49c03cc",
+              "importedAt": "2026-10-09T09:35:52.383Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Business",
+                "summary": "Orchestrate a decision to raise capital through equity crowdfunding by coordinating the genuine accessibility benefit this vehicle provides, its specific fee structure, genuine investor illiquidity, and platform track record together, extending this curriculum's parallel WHITE-L5 crowdfunding discussion to business capital raising."
+              }
+            },
+            "BLUE-L5-033": {
+              "id": "BLUE-L5-033",
+              "type": "lesson",
+              "track": "BLUE",
+              "trackName": "Business",
+              "level": 5,
+              "lessonNumber": 33,
+              "title": "Margin of Safety in Business Acquisition: Orchestrating Valuation Uncertainty, Genuine Business Quality, and Price Discipline",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-09",
+              "path": "content/curriculum/BLUE/L5/BLUE-L5-033.md",
+              "checksum": "sha256:sha256:547c715dacf5bcdacdc4ea168f2451b3ed02029d0b9bd6f8a346bf336daf54c9",
+              "status": "active",
+              "ingestionId": "d3248565-a45a-4514-bc54-3b2af49c03cc",
+              "importedAt": "2026-10-09T09:35:52.383Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Business",
+                "summary": "Orchestrate the margin of safety concept in business acquisition analysis by coordinating genuine valuation uncertainty, honest assessment of underlying business quality, and price discipline together, extending this curriculum's parallel WHITE-L5 margin of safety discussion to acquiring an entire business."
+              }
+            },
+            "BLUE-L5-034": {
+              "id": "BLUE-L5-034",
+              "type": "lesson",
+              "track": "BLUE",
+              "trackName": "Business",
+              "level": 5,
+              "lessonNumber": 34,
+              "title": "Owner-Operator Tax Status and Material Participation: Orchestrating Participation Rules, Genuine Involvement, and Career Tradeoffs",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-09",
+              "path": "content/curriculum/BLUE/L5/BLUE-L5-034.md",
+              "checksum": "sha256:sha256:afab37e85050decbda21ced06e86881acbe0908b0077844a010e0075fecd9ba5",
+              "status": "active",
+              "ingestionId": "d3248565-a45a-4514-bc54-3b2af49c03cc",
+              "importedAt": "2026-10-09T09:35:52.383Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Business",
+                "summary": "Orchestrate the tax implications of an owner's genuine level of active participation in a business by coordinating specific material participation requirements, honest actual involvement, and genuine career tradeoffs together, extending this curriculum's parallel RED-L5 and WHITE-L5 professional/trader tax status discussions to business ownership."
+              }
+            },
+            "BLUE-L5-035": {
+              "id": "BLUE-L5-035",
+              "type": "lesson",
+              "track": "BLUE",
+              "trackName": "Business",
+              "level": 5,
+              "lessonNumber": 35,
+              "title": "International Business Banking and Cross-Border Operations: Orchestrating Currency Risk, Foreign Tax Treaty, and Regulatory Differences",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-09",
+              "path": "content/curriculum/BLUE/L5/BLUE-L5-035.md",
+              "checksum": "sha256:sha256:dcd9de12c4d9ab9c9a295ee708137a70d102dd9a786b7f9ce19d279c8c845e95",
+              "status": "active",
+              "ingestionId": "d3248565-a45a-4514-bc54-3b2af49c03cc",
+              "importedAt": "2026-10-09T09:35:52.383Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Business",
+                "summary": "Orchestrate a business's decision to bank and operate through a foreign financial institution by coordinating genuine currency risk, applicable foreign tax treaty provisions, and genuine regulatory differences together, extending this curriculum's parallel WHITE-L5 international brokerage discussion to business banking operations."
+              }
+            },
+            "BLUE-L5-036": {
+              "id": "BLUE-L5-036",
+              "type": "lesson",
+              "track": "BLUE",
+              "trackName": "Business",
+              "level": 5,
+              "lessonNumber": 36,
+              "title": "Complex Deal Structures: Orchestrating Genuine Payoff Structure, Fees, and Counterparty Risk",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-09",
+              "path": "content/curriculum/BLUE/L5/BLUE-L5-036.md",
+              "checksum": "sha256:sha256:469c3367a807f82ef95bdeede114fa98121bc1322ab543173a8e34b4ca0a02a1",
+              "status": "active",
+              "ingestionId": "d3248565-a45a-4514-bc54-3b2af49c03cc",
+              "importedAt": "2026-10-09T09:35:52.383Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Business",
+                "summary": "Orchestrate a complex business deal structure involving earnouts, contingent consideration, or other conditional terms by coordinating genuine understanding of the actual payoff structure, embedded fees, and genuine counterparty risk together, extending this curriculum's parallel WHITE-L5 structured products discussion to complex business deal structures."
+              }
+            },
+            "BLUE-L5-037": {
+              "id": "BLUE-L5-037",
+              "type": "lesson",
+              "track": "BLUE",
+              "trackName": "Business",
+              "level": 5,
+              "lessonNumber": 37,
+              "title": "Business Interruption and Crisis Recovery After a Disaster: Orchestrating Genuine Protection Cost, Coverage Terms, and Rebuild Decision",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-09",
+              "path": "content/curriculum/BLUE/L5/BLUE-L5-037.md",
+              "checksum": "sha256:sha256:a0d37cba206c7f42ab9ff53dbdd63378554a7a8c59eb4dfef4aaddb9ce0257c3",
+              "status": "active",
+              "ingestionId": "d3248565-a45a-4514-bc54-3b2af49c03cc",
+              "importedAt": "2026-10-09T09:35:52.383Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Business",
+                "summary": "Orchestrate a business interruption insurance claim and crisis recovery strategy following a genuine disaster by coordinating the actual coverage policy terms, genuine legal rights within the claims process, and the eventual rebuild-versus-relocate decision together, extending this curriculum's parallel RED-L5 disaster insurance claim discussion to business interruption specifically."
+              }
+            },
+            "BLUE-L5-038": {
+              "id": "BLUE-L5-038",
+              "type": "lesson",
+              "track": "BLUE",
+              "trackName": "Business",
+              "level": 5,
+              "lessonNumber": 38,
+              "title": "Negotiating with a Business Broker or M&A Advisor: Orchestrating BATNA, Fee Structure, and Genuine Fiduciary Duty",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-09",
+              "path": "content/curriculum/BLUE/L5/BLUE-L5-038.md",
+              "checksum": "sha256:sha256:6acbb65d7fa8aa18c8290c9e020ba013e552a18f5c2832e1b149011dde9de08a",
+              "status": "active",
+              "ingestionId": "d3248565-a45a-4514-bc54-3b2af49c03cc",
+              "importedAt": "2026-10-09T09:35:52.383Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Business",
+                "summary": "Orchestrate the selection and fee negotiation of a business broker or M&A advisor by coordinating genuine BATNA, the specific fee structure and how it shapes genuine incentive alignment, and confirmation of a genuine fiduciary duty together, extending this curriculum's parallel WHITE-L5 financial advisor negotiation discussion to business brokerage."
+              }
+            },
+            "BLUE-L5-039": {
+              "id": "BLUE-L5-039",
+              "type": "lesson",
+              "track": "BLUE",
+              "trackName": "Business",
+              "level": 5,
+              "lessonNumber": 39,
+              "title": "Family Business Governance and Decision Rights: Orchestrating Governance Clarity Across Family Members",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-09",
+              "path": "content/curriculum/BLUE/L5/BLUE-L5-039.md",
+              "checksum": "sha256:sha256:4ce3db5e0036726537f9f5d7c2a354d391ef6b21b15e453958997ab7c2da5626",
+              "status": "active",
+              "ingestionId": "d3248565-a45a-4514-bc54-3b2af49c03cc",
+              "importedAt": "2026-10-09T09:35:52.383Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Business",
+                "summary": "Orchestrate decision-rights clarity within a family business by applying this curriculum's earlier RED-L5 and WHITE-L5 multi-owner and family decision rights frameworks directly to a family business governance context."
+              }
+            },
+            "BLUE-L5-040": {
+              "id": "BLUE-L5-040",
+              "type": "lesson",
+              "track": "BLUE",
+              "trackName": "Business",
+              "level": 5,
+              "lessonNumber": 40,
+              "title": "Business Scenario Planning: Orchestrating Multiple Plausible Future Market Conditions Into One Business Strategy",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-09",
+              "path": "content/curriculum/BLUE/L5/BLUE-L5-040.md",
+              "checksum": "sha256:sha256:c46bb4a4c7f45c1dee0f5a268719f606aed246d279d0c55b1e9595729e17feb0",
+              "status": "active",
+              "ingestionId": "d3248565-a45a-4514-bc54-3b2af49c03cc",
+              "importedAt": "2026-10-09T09:35:52.383Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Business",
+                "summary": "Orchestrate a business strategy by applying this curriculum's earlier scenario planning framework specifically to general business conditions, coordinating multiple plausible future market conditions into a single, resilient business strategy rather than betting the entire business on a single predicted outcome, mirroring this curriculum's parallel RED-L5 and WHITE-L5 discussions."
+              }
+            },
+            "BLUE-L5-041": {
+              "id": "BLUE-L5-041",
+              "type": "lesson",
+              "track": "BLUE",
+              "trackName": "Business",
+              "level": 5,
+              "lessonNumber": 41,
+              "title": "Business Asset Sale Tax Orchestration: Coordinating Depreciation Recapture, Capital Gains Treatment, and Exit Timing",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-09",
+              "path": "content/curriculum/BLUE/L5/BLUE-L5-041.md",
+              "checksum": "sha256:sha256:fed2b2e6332503156bd3b5d672c99931b64e3bf11a7ec5887503ddefa4d2c62b",
+              "status": "active",
+              "ingestionId": "d3248565-a45a-4514-bc54-3b2af49c03cc",
+              "importedAt": "2026-10-09T09:35:52.383Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Business",
+                "summary": "Orchestrate the tax consequences of selling business assets or an entire business by coordinating genuine depreciation recapture liability, capital gains treatment, and exit timing together, extending this curriculum's parallel RED-L5 depreciation recapture and WHITE-L5 capital gains distribution timing discussions to business asset sales."
+              }
+            },
+            "BLUE-L5-042": {
+              "id": "BLUE-L5-042",
+              "type": "lesson",
+              "track": "BLUE",
+              "trackName": "Business",
+              "level": 5,
+              "lessonNumber": 42,
+              "title": "Forecasting Humility in Business Planning: Orchestrating Genuine Uncertainty With Confident Action",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-09",
+              "path": "content/curriculum/BLUE/L5/BLUE-L5-042.md",
+              "checksum": "sha256:sha256:f09804db808c7a51c3a3880dc78244821ea43d6df1626a855664db8cfcd11241",
+              "status": "active",
+              "ingestionId": "d3248565-a45a-4514-bc54-3b2af49c03cc",
+              "importedAt": "2026-10-09T09:35:52.383Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Business",
+                "summary": "Orchestrate the genuine tension between honest humility regarding the limits of any business forecast and the practical need to still act decisively on the best available analysis, extending this curriculum's parallel RED-L5 and WHITE-L5 forecasting humility discussions to business planning specifically."
+              }
+            },
+            "BLUE-L5-043": {
+              "id": "BLUE-L5-043",
+              "type": "lesson",
+              "track": "BLUE",
+              "trackName": "Business",
+              "level": 5,
+              "lessonNumber": 43,
+              "title": "Business Resource Allocation Discipline: Orchestrating Capital Across Competing Business Initiatives",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-09",
+              "path": "content/curriculum/BLUE/L5/BLUE-L5-043.md",
+              "checksum": "sha256:sha256:2698e859cd1e5e2bdd4eb121e496045dbe78f4ce14aaa4588ced144a174d9d2c",
+              "status": "active",
+              "ingestionId": "d3248565-a45a-4514-bc54-3b2af49c03cc",
+              "importedAt": "2026-10-09T09:35:52.383Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Business",
+                "summary": "Orchestrate business capital allocation across multiple competing initiatives by applying this curriculum's resource allocation discipline directly to a business context, declining genuinely good initiatives to protect capacity for genuinely great ones, rather than pursuing every reasonable-seeming opportunity that presents itself."
+              }
+            },
+            "BLUE-L5-044": {
+              "id": "BLUE-L5-044",
+              "type": "lesson",
+              "track": "BLUE",
+              "trackName": "Business",
+              "level": 5,
+              "lessonNumber": 44,
+              "title": "Owner Risk Tolerance Calibration: Orchestrating Personal Financial Situation, Time Horizon, and Genuine Risk Capacity",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-09",
+              "path": "content/curriculum/BLUE/L5/BLUE-L5-044.md",
+              "checksum": "sha256:sha256:ae8c02113c93b91745416d9b60af4c9b9e997613e2166b3c1ee8abc56e1a416a",
+              "status": "active",
+              "ingestionId": "d3248565-a45a-4514-bc54-3b2af49c03cc",
+              "importedAt": "2026-10-09T09:35:52.383Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Business",
+                "summary": "Orchestrate a genuine business owner risk tolerance calibration by coordinating an owner's own actual personal financial situation, genuine time horizon, and honest risk capacity together, synthesizing this level's earlier discussions into a single, coherent individual risk framework, mirroring this curriculum's parallel RED-L5 and WHITE-L5 Lesson 44 discussions."
+              }
+            },
+            "BLUE-L5-045": {
+              "id": "BLUE-L5-045",
+              "type": "lesson",
+              "track": "BLUE",
+              "trackName": "Business",
+              "level": 5,
+              "lessonNumber": 45,
+              "title": "Leadership in Managing a Family Business: Orchestrating Vision, Delegation, and Genuine Accountability",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-09",
+              "path": "content/curriculum/BLUE/L5/BLUE-L5-045.md",
+              "checksum": "sha256:sha256:f0fcb474e666395b8e2218a65723c662af6342336b48e65dab957ed37a611f32",
+              "status": "active",
+              "ingestionId": "d3248565-a45a-4514-bc54-3b2af49c03cc",
+              "importedAt": "2026-10-09T09:35:52.383Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Business",
+                "summary": "Orchestrate genuine leadership within a family business by applying this curriculum's BLACK-track vision, delegation, and accountability principles directly to this specific context, mirroring this curriculum's parallel RED-L5 and WHITE-L5 Lesson 45 discussions applied now to a family-run operating business."
+              }
+            },
+            "BLUE-L5-046": {
+              "id": "BLUE-L5-046",
+              "type": "lesson",
+              "track": "BLUE",
+              "trackName": "Business",
+              "level": 5,
+              "lessonNumber": 46,
+              "title": "Decisive Business Action Under Genuine Market Opportunity: Orchestrating the Aggression Doctrine Into a Business Timing Decision",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-09",
+              "path": "content/curriculum/BLUE/L5/BLUE-L5-046.md",
+              "checksum": "sha256:sha256:5ab2f37f46958440a66ed5b494238359aa31672eb982c59c881bd3382b9eb35c",
+              "status": "active",
+              "ingestionId": "d3248565-a45a-4514-bc54-3b2af49c03cc",
+              "importedAt": "2026-10-09T09:35:52.383Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Business",
+                "summary": "Orchestrate this curriculum's knife-fight/aggression doctrine into a concrete business timing decision, applying the doctrine's offense-versus-defense and opportunity-window principles specifically to the moment a genuine, time-limited business opportunity actually presents itself, framed strictly as disciplined business decisiveness rather than any form of literal conflict."
+              }
+            },
+            "BLUE-L5-047": {
+              "id": "BLUE-L5-047",
+              "type": "lesson",
+              "track": "BLUE",
+              "trackName": "Business",
+              "level": 5,
+              "lessonNumber": 47,
+              "title": "Building Business Readiness in Advance: Orchestrating Capital Reserves, Pre-Researched Opportunities, and Decision Criteria",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-09",
+              "path": "content/curriculum/BLUE/L5/BLUE-L5-047.md",
+              "checksum": "sha256:sha256:53789fbd89c89d6f7775a0a8beaaa23a487daba01b7ac78dc899df7158fb6468",
+              "status": "active",
+              "ingestionId": "d3248565-a45a-4514-bc54-3b2af49c03cc",
+              "importedAt": "2026-10-09T09:35:52.383Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Business",
+                "summary": "Orchestrate the advance building of genuine business acquisition or expansion readiness — available capital reserves, a pre-researched watchlist of specific opportunities, and predetermined decision criteria — before any specific opportunity actually appears, applying this curriculum's organizational readiness doctrine directly to a business owner's own advance preparation, mirroring this curriculum's parallel RED-L5 and WHITE-L5 Lesson 47 discussions."
+              }
+            },
+            "BLUE-L5-048": {
+              "id": "BLUE-L5-048",
+              "type": "lesson",
+              "track": "BLUE",
+              "trackName": "Business",
+              "level": 5,
+              "lessonNumber": 48,
+              "title": "Business Commitment Reassessment: Orchestrating Honest Course Correction on an Active Initiative as Conditions Change",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-09",
+              "path": "content/curriculum/BLUE/L5/BLUE-L5-048.md",
+              "checksum": "sha256:sha256:72fc7e5492a51a4f93d11e35c27f0cab0bc0a99e03b5b82959a84e2444bdeaaf",
+              "status": "active",
+              "ingestionId": "d3248565-a45a-4514-bc54-3b2af49c03cc",
+              "importedAt": "2026-10-09T09:35:52.383Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Business",
+                "summary": "Orchestrate honest, ongoing reassessment of an active, decisively established business initiative as genuinely new evidence emerges, applying this curriculum's honest-reassessment and sunk-cost-avoidance principles directly to a business context, mirroring this curriculum's parallel RED-L5 and WHITE-L5 Lesson 48 discussions."
+              }
+            },
+            "BLUE-L5-049": {
+              "id": "BLUE-L5-049",
+              "type": "lesson",
+              "track": "BLUE",
+              "trackName": "Business",
+              "level": 5,
+              "lessonNumber": 49,
+              "title": "Business Courage and Consequence Ownership: Orchestrating Calculated Risk-Taking With Genuine Accountability",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-09",
+              "path": "content/curriculum/BLUE/L5/BLUE-L5-049.md",
+              "checksum": "sha256:sha256:feee1eec3d6e720182cd704dcb3b3460da97281ae8d155678945edf2e8212009",
+              "status": "active",
+              "ingestionId": "d3248565-a45a-4514-bc54-3b2af49c03cc",
+              "importedAt": "2026-10-09T09:35:52.383Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Business",
+                "summary": "Orchestrate genuine consequence ownership into a business owner's decisive risk-taking, applying this curriculum's courage-and-accountability principle directly to business ownership, distinguishing genuine, calculated business risk-taking from mere reckless speculation by whether the owner genuinely owns whatever consequences eventually result, mirroring this curriculum's parallel RED-L5 and WHITE-L5 Lesson 49 discussions."
+              }
+            },
+            "BLUE-L5-050": {
+              "id": "BLUE-L5-050",
+              "type": "lesson",
+              "track": "BLUE",
+              "trackName": "Business",
+              "level": 5,
+              "lessonNumber": 50,
+              "title": "BLUE-L5 Integration: Orchestrating Every Concept in This Level Into a Single Coherent Business Decision Framework",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-09",
+              "path": "content/curriculum/BLUE/L5/BLUE-L5-050.md",
+              "checksum": "sha256:sha256:8a36d4a4278e5abe7c464230a810ec00613b9f9c13d1a1a9c22876bebfcec5d9",
+              "status": "active",
+              "ingestionId": "d3248565-a45a-4514-bc54-3b2af49c03cc",
+              "importedAt": "2026-10-09T09:35:52.383Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Business",
+                "summary": "Synthesize this level's full range of orchestrated business concepts — financing, entity structure, tax treatment, behavioral discipline, business cycle analysis, and decisive leadership — into a single, integrated business decision-making framework, explicitly completing this curriculum's chess analogy at the level of genuine, coordinated, real-world decision-making, mirroring this curriculum's parallel RED-L5 and WHITE-L5 Lesson 50 discussions."
+              }
+            }
+          }
         }
       }
     },
