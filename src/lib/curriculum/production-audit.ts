@@ -16,10 +16,10 @@
  * This module is strictly READ-ONLY. It never writes publication state.
  */
 import { ACADEMIES } from "@/lib/curriculum/academies";
-import { getLastAtomicReadDiagnostics, invalidateAtomicPublishedCache, readAtomicLessonIndex, readAtomicLessonObject, type AtomicReadDiagnostics } from "@/lib/curriculum/atomic-published-store";
+import { getLastAtomicReadDiagnostics, readAtomicLessonIndex, readAtomicLessonObject, type AtomicReadDiagnostics } from "@/lib/curriculum/atomic-published-store";
 import { getLessonContent } from "@/lib/curriculum/reader";
 import { getRuntimePublishedLesson, getRuntimePublishedTrack } from "@/lib/curriculum/runtime-localization";
-import { invalidateTranslationPackageCache, readTranslationPackageForLesson, readTranslationPackagesForLocale, sameLocale } from "@/lib/curriculum/translation-package-store";
+import { readTranslationPackageForLesson, readTranslationPackagesForLocale, sameLocale } from "@/lib/curriculum/translation-package-store";
 import { LANGUAGE_CATALOG } from "@/lib/international/languages";
 import { getNeonSql } from "@/lib/db/neon";
 
@@ -200,8 +200,8 @@ export type AuditRunMeta = {
 
 /** Audit one or more coordinates within a single request. */
 export async function runProductionAudit(input: { tracks?: string[]; levels?: number[]; locales?: string[] }): Promise<{ meta: AuditRunMeta; coordinates: CoordinateAudit[] }> {
-  invalidateAtomicPublishedCache();
-  invalidateTranslationPackageCache();
+  // Use the same caches real learner requests use. Forcing a cold reload here
+  // made every audit request re-read the whole durable store (audit timed out).
   const knownTracks = new Set(ACADEMIES.map((academy) => academy.code));
   const tracks = (input.tracks?.length ? input.tracks : [...AUDIT_TRACKS]).map((t) => t.toUpperCase()).filter((t) => knownTracks.has(t));
   const levels = (input.levels?.length ? input.levels : [...AUDIT_LEVELS]).filter((l) => l >= 1 && l <= 5);
