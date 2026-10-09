@@ -9,7 +9,7 @@ import { getNeonCanonicalLessons } from "@/lib/curriculum/neon-learner-resolver"
 import { ACADEMIES, ACADEMY_MAP } from "@/lib/curriculum/academies";
 import { getLocalizedLessonDescription, getLocalizedLessonTitle, getLocalizedTrackCopy, resolveCurriculumLocale, type CurriculumLocale } from "@/lib/curriculum/localization";
 import { getLessonContent, readRegistry, type RegistryAsset } from "@/lib/curriculum/reader";
-import { readAtomicPublishedLessons, removeAtomicPublishedBatch, removeAtomicPublishedLesson, upsertAtomicPublishedLessons, upsertAtomicPublishedTranslation } from "@/lib/curriculum/atomic-published-store";
+import { getAtomicPublishedGeneration, readAtomicPublishedLessons, removeAtomicPublishedBatch, removeAtomicPublishedLesson, upsertAtomicPublishedLessons, upsertAtomicPublishedTranslation } from "@/lib/curriculum/atomic-published-store";
 import { isLearnerReadyTranslation } from "@/lib/curriculum/translation-quality";
 import { getCommittedLessonTranslation } from "@/lib/curriculum/committed-translation-fallback";
 import { readTranslationPackageForLesson, readTranslationPackagesForLocale, sameLocale } from "@/lib/curriculum/translation-package-store";
@@ -38,7 +38,7 @@ function canUseLegacyPublishedStateForTests(){return process.env.EDUNANCIAL_ALLO
 function canReadLegacyPublishedState(){const value=process.env.EDUNANCIAL_ENABLE_LEGACY_PUBLISHED_STATE?.trim().toLowerCase();return value===undefined||value===""?true:value==="true"}
 async function readLegacy(){try{const b=await getAdminContentStorage().readBinary(PUBLISHED_STATE_PATH);if(!b)return empty();const p=JSON.parse(b.toString("utf8")) as Partial<PublishedCurriculumState>;return{schemaVersion:"1.0" as const,initialized:Boolean(p.initialized),updatedAt:typeof p.updatedAt==="string"?p.updatedAt:new Date().toISOString(),lessons:p.lessons&&typeof p.lessons==="object"?p.lessons:{},batchLessonIds:p.batchLessonIds&&typeof p.batchLessonIds==="object"?p.batchLessonIds:{}}}catch{return empty()}}
 async function readPublishedState(){const rows=await readAtomicPublishedLessons();if(!canReadLegacyPublishedState()){const s=empty();for(const r of rows??[])s.lessons[r.id]=r;return s}const legacy=await readLegacy();if(rows===null)return legacy;/* Repository Level 1 is authoritative. Do not let stale durable snapshots or translations change established Level 1 rendering. Durable legacy-only Levels 2-5 remain visible. */for(const r of rows)legacy.lessons[r.id]=r;return legacy}
-async function writeLegacy(s:PublishedCurriculumState){if(!canWriteLegacyPublishedState())throw new Error("Legacy full-state curriculum writes are disabled during canonical consolidation.");await getAdminContentStorage().saveBinary(PUBLISHED_STATE_PATH,Buffer.from(`${JSON.stringify(s,null,2)}\n`),"application/json")}
+async function writeLegacy(s:PublishedCurriculumState){if(!canWriteLegacyPublishedState())throw new Error("Legacy full-state curriculum writes are disabled during canonical consolidation.");effectiveMemo=null;await getAdminContentStorage().saveBinary(PUBLISHED_STATE_PATH,Buffer.from(`${JSON.stringify(s,null,2)}\n`),"application/json")}
 /** Shared lesson-document parser: publication and learner read-back MUST use the same one. */
 export function parseLessonDocument(raw:string){return parseFM(raw)}
 function parseFM(raw:string){
