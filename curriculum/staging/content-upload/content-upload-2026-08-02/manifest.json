@@ -1,0 +1,31 @@
+{
+  "batchId": "batch_f119ea88-54bc-4c21-bdf4-09f0cd0b96c4",
+  "exportId": "export_batch_f119ea88-54bc-4c21-bdf4-09f0cd0b96c4_1785658699267",
+  "uploadTimestamp": "2026-08-02T08:18:20.433Z",
+  "branch": "content/course-upload-20260802-081820-content-upload-2026-08-02",
+  "files": [
+    {
+      "sourceFilename": "white-level-1-combined.md",
+      "destinationPath": "content/courses/white/level-1/en/white-level-1-combined-white-level-1-combined.md",
+      "title": "White-Level-1-Combined",
+      "track": "white",
+      "level": "level-1",
+      "language": "en",
+      "region": null,
+      "membership": "courses",
+      "batchId": "batch_f119ea88-54bc-4c21-bdf4-09f0cd0b96c4",
+      "uploadTimestamp": "2026-08-02T08:17:10.476Z",
+      "checksum": "sha256:af1a71d4516a8700ebe7b4d9ece3ca851f49230bb244051ee3279faa85f523e4",
+      "curriculumAssetId": null
+    }
+  ],
+  "validation": {
+    "success": true,
+    "warnings": [
+      "No curriculum-bound markdown files required validation."
+    ],
+    "errors": []
+  },
+  "registryUpdated": false,
+  "curriculumAssets": 0
+}
