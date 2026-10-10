@@ -1,7 +1,7 @@
 {
   "_schema": "curriculum/schemas/registry.schema.json",
   "_version": "1.0",
-  "_generated": "2026-09-15T10:56:40.342Z",
+  "_generated": "2026-10-10T02:45:15.455Z",
   "_note": "Authoritative curriculum registry (empty lessons are a valid production state).",
   "tracks": {
     "RED": {
@@ -6907,7 +6907,1258 @@
           "assets": {}
         },
         "5": {
-          "assets": {}
+          "assets": {
+            "GREEN-L5-001": {
+              "id": "GREEN-L5-001",
+              "type": "lesson",
+              "track": "GREEN",
+              "trackName": "Taxes",
+              "level": 5,
+              "lessonNumber": 1,
+              "title": "Orchestration Introduction: Why Tax Decisions Require Coordinating Multiple Concepts at Once",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-10",
+              "path": "content/curriculum/GREEN/L5/GREEN-L5-001.md",
+              "checksum": "sha256:sha256:a5b9783a8ae30cb8db02d5dc2127f42f111226918b49c72f8b2944b62be00268",
+              "status": "active",
+              "ingestionId": "9d04ebb8-28a8-45c5-87e5-440c94b0dd21",
+              "importedAt": "2026-10-10T02:45:13.885Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Taxes",
+                "summary": "Understand the Level 5 orchestration philosophy applied to tax planning — coordinating multiple previously separate concepts together toward a single real-world decision — and why a genuine tax decision rarely turns on any single variable considered in isolation."
+              }
+            },
+            "GREEN-L5-002": {
+              "id": "GREEN-L5-002",
+              "type": "lesson",
+              "track": "GREEN",
+              "trackName": "Taxes",
+              "level": 5,
+              "lessonNumber": 2,
+              "title": "Marginal vs Effective Tax Rate: Orchestrating Bracket Structure, Deduction Timing, and Genuine After-Tax Decision-Making",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-10",
+              "path": "content/curriculum/GREEN/L5/GREEN-L5-002.md",
+              "checksum": "sha256:sha256:8445b10d29ba445162d9feb62a0e31165f31698983e1a2eed602a5705187fddb",
+              "status": "active",
+              "ingestionId": "9d04ebb8-28a8-45c5-87e5-440c94b0dd21",
+              "importedAt": "2026-10-10T02:45:13.885Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Taxes",
+                "summary": "Orchestrate the distinction between marginal and effective tax rate by coordinating bracket structure, deduction timing, and genuine after-tax decision-making together, rather than relying on either rate concept alone when evaluating a financial decision."
+              }
+            },
+            "GREEN-L5-003": {
+              "id": "GREEN-L5-003",
+              "type": "lesson",
+              "track": "GREEN",
+              "trackName": "Taxes",
+              "level": 5,
+              "lessonNumber": 3,
+              "title": "Tax-Loss Harvesting Across Asset Classes: Orchestrating Genuine Losses, Wash-Sale Rules, and Portfolio Rebalancing",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-10",
+              "path": "content/curriculum/GREEN/L5/GREEN-L5-003.md",
+              "checksum": "sha256:sha256:dfed54d907f7d7dc3f5b24e476db8d8a9b3f71bfc74c62d78c69938072f198f2",
+              "status": "active",
+              "ingestionId": "9d04ebb8-28a8-45c5-87e5-440c94b0dd21",
+              "importedAt": "2026-10-10T02:45:13.885Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Taxes",
+                "summary": "Orchestrate a tax-loss harvesting strategy across a taxpayer's full portfolio by coordinating genuine realized losses, wash-sale rule compliance, and portfolio rebalancing goals together, extending this curriculum's earlier WHITE-track tax-loss harvesting discussion into a fuller, cross-asset-class orchestration."
+              }
+            },
+            "GREEN-L5-004": {
+              "id": "GREEN-L5-004",
+              "type": "lesson",
+              "track": "GREEN",
+              "trackName": "Taxes",
+              "level": 5,
+              "lessonNumber": 4,
+              "title": "Entity Choice and Tax Treatment: Orchestrating Liability, Tax Treatment, and Genuine Business Growth Plans",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-10",
+              "path": "content/curriculum/GREEN/L5/GREEN-L5-004.md",
+              "checksum": "sha256:sha256:d7b155cdc5a9c8954d5b9bcaeda4114b3548aafd31c93fe62bfa524c7fe03c07",
+              "status": "active",
+              "ingestionId": "9d04ebb8-28a8-45c5-87e5-440c94b0dd21",
+              "importedAt": "2026-10-10T02:45:13.885Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Taxes",
+                "summary": "Orchestrate a business entity's tax treatment decision by coordinating genuine liability protection, the specific tax treatment each entity structure provides, and honest business growth plans together, extending this curriculum's earlier BLUE-L5 entity structure discussion into a deeper tax-focused orchestration."
+              }
+            },
+            "GREEN-L5-005": {
+              "id": "GREEN-L5-005",
+              "type": "lesson",
+              "track": "GREEN",
+              "trackName": "Taxes",
+              "level": 5,
+              "lessonNumber": 5,
+              "title": "Retirement Account Tax Treatment: Orchestrating Traditional vs Roth Choice, Current vs Future Tax Rates, and Genuine Time Horizon",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-10",
+              "path": "content/curriculum/GREEN/L5/GREEN-L5-005.md",
+              "checksum": "sha256:sha256:e58c7b68146a9d0010312a1abb178011109edbee2cb9473d61e58aceb3ae3c86",
+              "status": "active",
+              "ingestionId": "9d04ebb8-28a8-45c5-87e5-440c94b0dd21",
+              "importedAt": "2026-10-10T02:45:13.885Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Taxes",
+                "summary": "Orchestrate the choice between traditional and Roth retirement account tax treatment by coordinating a genuine comparison of current versus expected future tax rates and honest time horizon together, extending this curriculum's earlier WHITE-track traditional-versus-Roth discussion into a fuller orchestration."
+              }
+            },
+            "GREEN-L5-006": {
+              "id": "GREEN-L5-006",
+              "type": "lesson",
+              "track": "GREEN",
+              "trackName": "Taxes",
+              "level": 5,
+              "lessonNumber": 6,
+              "title": "Itemizing vs Standard Deduction: Orchestrating Genuine Deductible Expenses, Filing Complexity, and Total Tax Outcome",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-10",
+              "path": "content/curriculum/GREEN/L5/GREEN-L5-006.md",
+              "checksum": "sha256:sha256:05440396b5da6c769c6a1dea82606fb53ce42c2efe28a6eda374b17306c4f891",
+              "status": "active",
+              "ingestionId": "9d04ebb8-28a8-45c5-87e5-440c94b0dd21",
+              "importedAt": "2026-10-10T02:45:13.885Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Taxes",
+                "summary": "Orchestrate the choice between itemizing deductions and claiming the standard deduction by coordinating a genuine, honest total of deductible expenses, filing complexity, and total tax outcome together, rather than defaulting to either option without this fuller comparison."
+              }
+            },
+            "GREEN-L5-007": {
+              "id": "GREEN-L5-007",
+              "type": "lesson",
+              "track": "GREEN",
+              "trackName": "Taxes",
+              "level": 5,
+              "lessonNumber": 7,
+              "title": "Tax Planning Timing Around Major Life or Market Events: Orchestrating Genuine Opportunity, Filing Deadlines, and Personal Readiness",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-10",
+              "path": "content/curriculum/GREEN/L5/GREEN-L5-007.md",
+              "checksum": "sha256:sha256:a2c913bfd5e9103c0a2cd63083df08e8e23d52318d90018bd07c366e86f4fb90",
+              "status": "active",
+              "ingestionId": "9d04ebb8-28a8-45c5-87e5-440c94b0dd21",
+              "importedAt": "2026-10-10T02:45:13.885Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Taxes",
+                "summary": "Orchestrate tax planning timing around a major life or market event by coordinating genuine tax-saving opportunity, actual filing deadlines, and honest personal readiness together, connecting this level's orchestration philosophy directly to the knife-fight/aggression doctrine's opportunity-window recognition principle."
+              }
+            },
+            "GREEN-L5-008": {
+              "id": "GREEN-L5-008",
+              "type": "lesson",
+              "track": "GREEN",
+              "trackName": "Taxes",
+              "level": 5,
+              "lessonNumber": 8,
+              "title": "Estimated Tax Payments and Withholding: Orchestrating Cash Flow, Penalty Avoidance, and Genuine Income Variability",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-10",
+              "path": "content/curriculum/GREEN/L5/GREEN-L5-008.md",
+              "checksum": "sha256:sha256:f72539f8481ce2c0f2ee0fdc0864a9ee10fa19b08504b4d1fd29e6ebcbe6e1c7",
+              "status": "active",
+              "ingestionId": "9d04ebb8-28a8-45c5-87e5-440c94b0dd21",
+              "importedAt": "2026-10-10T02:45:13.885Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Taxes",
+                "summary": "Orchestrate estimated tax payments and withholding elections by coordinating genuine cash flow management, penalty avoidance, and honest income variability together, rather than defaulting to a fixed withholding or payment approach regardless of actual, changing income circumstances."
+              }
+            },
+            "GREEN-L5-009": {
+              "id": "GREEN-L5-009",
+              "type": "lesson",
+              "track": "GREEN",
+              "trackName": "Taxes",
+              "level": 5,
+              "lessonNumber": 9,
+              "title": "Tax Bracket Management Across a Multi-Year Horizon: Orchestrating Income Timing, Genuine Tax-Rate Forecasting, and Long-Term Planning",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-10",
+              "path": "content/curriculum/GREEN/L5/GREEN-L5-009.md",
+              "checksum": "sha256:sha256:10b05af9e92052ddd66253c4bbd7da337010ccfda17d7331b13745ba8c75f5ed",
+              "status": "active",
+              "ingestionId": "9d04ebb8-28a8-45c5-87e5-440c94b0dd21",
+              "importedAt": "2026-10-10T02:45:13.885Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Taxes",
+                "summary": "Orchestrate income and deduction timing across a multi-year horizon by coordinating genuine tax-rate forecasting and long-term planning goals together, extending this level's earlier Lesson 2 marginal-versus-effective-rate discussion into a fuller multi-year framework."
+              }
+            },
+            "GREEN-L5-010": {
+              "id": "GREEN-L5-010",
+              "type": "lesson",
+              "track": "GREEN",
+              "trackName": "Taxes",
+              "level": 5,
+              "lessonNumber": 10,
+              "title": "Taxes Across Asset Classes: Orchestrating Real Estate, Business, and Paper Asset Tax Treatment Together",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-10",
+              "path": "content/curriculum/GREEN/L5/GREEN-L5-010.md",
+              "checksum": "sha256:sha256:eb7f94acde66f2a97b5bc266a633fe85e6c3da827a37d30155aed70b14281413",
+              "status": "active",
+              "ingestionId": "9d04ebb8-28a8-45c5-87e5-440c94b0dd21",
+              "importedAt": "2026-10-10T02:45:13.885Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Taxes",
+                "summary": "Orchestrate a genuine comparison of tax treatment across real estate, business ownership, and paper assets as competing destinations for additional capital, extending and mirroring this curriculum's parallel RED-L5, WHITE-L5, and BLUE-L5 comparisons from the tax-treatment side specifically."
+              }
+            },
+            "GREEN-L5-011": {
+              "id": "GREEN-L5-011",
+              "type": "lesson",
+              "track": "GREEN",
+              "trackName": "Taxes",
+              "level": 5,
+              "lessonNumber": 11,
+              "title": "Depreciation Strategy: Orchestrating Genuine Asset Life, Accelerated vs Straight-Line Methods, and Recapture Risk",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-10",
+              "path": "content/curriculum/GREEN/L5/GREEN-L5-011.md",
+              "checksum": "sha256:sha256:e1cc9e6553c9e2be7775591c3a66e5ccfc6b80cdb6ce780f2f8d669667dfd9c0",
+              "status": "active",
+              "ingestionId": "9d04ebb8-28a8-45c5-87e5-440c94b0dd21",
+              "importedAt": "2026-10-10T02:45:13.885Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Taxes",
+                "summary": "Orchestrate a depreciation strategy for business or investment property by coordinating a genuine asset's expected useful life, the choice between accelerated and straight-line depreciation methods, and future recapture risk together, connecting directly to this curriculum's earlier depreciation recapture discussions."
+              }
+            },
+            "GREEN-L5-012": {
+              "id": "GREEN-L5-012",
+              "type": "lesson",
+              "track": "GREEN",
+              "trackName": "Taxes",
+              "level": 5,
+              "lessonNumber": 12,
+              "title": "Multi-Owner Tax Elections: Orchestrating Partnership and S-Corp Elections, Genuine Owner Preferences, and Compliance Burden",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-10",
+              "path": "content/curriculum/GREEN/L5/GREEN-L5-012.md",
+              "checksum": "sha256:sha256:1c176bb4e425f2ee03b5a4c8893cc427ecd7ce4a29ba6ffcac631bbb1a5a3fd2",
+              "status": "active",
+              "ingestionId": "9d04ebb8-28a8-45c5-87e5-440c94b0dd21",
+              "importedAt": "2026-10-10T02:45:13.885Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Taxes",
+                "summary": "Orchestrate a multi-owner business's specific tax election choice by coordinating partnership versus S-corporation election mechanics, genuine, honest owner preferences regarding income allocation, and the specific compliance burden each election involves together."
+              }
+            },
+            "GREEN-L5-013": {
+              "id": "GREEN-L5-013",
+              "type": "lesson",
+              "track": "GREEN",
+              "trackName": "Taxes",
+              "level": 5,
+              "lessonNumber": 13,
+              "title": "Estate and Gift Tax Planning: Orchestrating Exemption Amounts, Genuine Family Goals, and the STEWARD Principle",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-10",
+              "path": "content/curriculum/GREEN/L5/GREEN-L5-013.md",
+              "checksum": "sha256:sha256:f1e22f848af2cea9197a873dc8fea3e183ade52d4a766be91e3ea764b726b189",
+              "status": "active",
+              "ingestionId": "9d04ebb8-28a8-45c5-87e5-440c94b0dd21",
+              "importedAt": "2026-10-10T02:45:13.885Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Taxes",
+                "summary": "Orchestrate estate and gift tax planning by coordinating current exemption amounts, genuine, honest family goals, and this curriculum's STEWARD principle together, extending this curriculum's parallel RED-L5, WHITE-L5, and BLUE-L5 estate planning discussions into a tax-focused framework."
+              }
+            },
+            "GREEN-L5-014": {
+              "id": "GREEN-L5-014",
+              "type": "lesson",
+              "track": "GREEN",
+              "trackName": "Taxes",
+              "level": 5,
+              "lessonNumber": 14,
+              "title": "State and Local Tax Considerations: Orchestrating Residency, Genuine Business Location, and Multi-State Compliance",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-10",
+              "path": "content/curriculum/GREEN/L5/GREEN-L5-014.md",
+              "checksum": "sha256:sha256:c91280f63f84f74feb4022845f841080b27dee6ab5d226c9749d54f874963e7e",
+              "status": "active",
+              "ingestionId": "9d04ebb8-28a8-45c5-87e5-440c94b0dd21",
+              "importedAt": "2026-10-10T02:45:13.885Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Taxes",
+                "summary": "Orchestrate state and local tax planning by coordinating genuine residency status, actual business location decisions, and multi-state compliance obligations together, rather than assuming a single jurisdiction's rules apply uniformly across all of a taxpayer's activities."
+              }
+            },
+            "GREEN-L5-015": {
+              "id": "GREEN-L5-015",
+              "type": "lesson",
+              "track": "GREEN",
+              "trackName": "Taxes",
+              "level": 5,
+              "lessonNumber": 15,
+              "title": "International Tax Treaty Application: Orchestrating Foreign Tax Credits, Treaty Benefits, and Genuine Cross-Border Activity",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-10",
+              "path": "content/curriculum/GREEN/L5/GREEN-L5-015.md",
+              "checksum": "sha256:sha256:dbbcbc8de9883a4aea8cf685a758f434ddc5e75b87bf1848f6d4cb166acdd8c3",
+              "status": "active",
+              "ingestionId": "9d04ebb8-28a8-45c5-87e5-440c94b0dd21",
+              "importedAt": "2026-10-10T02:45:13.885Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Taxes",
+                "summary": "Orchestrate international tax treaty application by coordinating foreign tax credit mechanics, specific treaty benefits, and genuine cross-border activity together, extending this curriculum's parallel RED-L5, WHITE-L5, and BLUE-L5 international tax discussions into a fuller treaty-focused framework."
+              }
+            },
+            "GREEN-L5-016": {
+              "id": "GREEN-L5-016",
+              "type": "lesson",
+              "track": "GREEN",
+              "trackName": "Taxes",
+              "level": 5,
+              "lessonNumber": 16,
+              "title": "Behavioral Discipline in Tax Planning: Orchestrating Genuine Risk Tolerance for Aggressive Positions vs Audit Risk",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-10",
+              "path": "content/curriculum/GREEN/L5/GREEN-L5-016.md",
+              "checksum": "sha256:sha256:3d25f06ac0c1bfcd3af46a195349349c9160d70e8409ddd9ac783f97ceec3e86",
+              "status": "active",
+              "ingestionId": "9d04ebb8-28a8-45c5-87e5-440c94b0dd21",
+              "importedAt": "2026-10-10T02:45:13.885Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Taxes",
+                "summary": "Orchestrate genuine behavioral discipline in tax planning by coordinating a taxpayer's own actual risk tolerance for aggressive tax positions, honest documentation practices, and genuine audit risk together, extending this curriculum's earlier behavioral discipline discussions into a tax-specific context."
+              }
+            },
+            "GREEN-L5-017": {
+              "id": "GREEN-L5-017",
+              "type": "lesson",
+              "track": "GREEN",
+              "trackName": "Taxes",
+              "level": 5,
+              "lessonNumber": 17,
+              "title": "Qualified Dividend and Capital Gains Treatment: Orchestrating Holding Period, Income Level, and Genuine Investment Strategy",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-10",
+              "path": "content/curriculum/GREEN/L5/GREEN-L5-017.md",
+              "checksum": "sha256:sha256:ece1aa4754406c2150bc98bd7c7f6d9ba3fdf2ae1aecb3ad0b6a38a5c55727b5",
+              "status": "active",
+              "ingestionId": "9d04ebb8-28a8-45c5-87e5-440c94b0dd21",
+              "importedAt": "2026-10-10T02:45:13.885Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Taxes",
+                "summary": "Orchestrate qualified dividend and long-term capital gains tax treatment by coordinating genuine holding period requirements, a taxpayer's own income level, and honest investment strategy together, extending this curriculum's earlier WHITE-track dividend and capital gains discussions into a fuller planning framework."
+              }
+            },
+            "GREEN-L5-018": {
+              "id": "GREEN-L5-018",
+              "type": "lesson",
+              "track": "GREEN",
+              "trackName": "Taxes",
+              "level": 5,
+              "lessonNumber": 18,
+              "title": "Tax Credits vs Deductions: Orchestrating Genuine Dollar-for-Dollar Value, Phase-Outs, and Eligibility Requirements",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-10",
+              "path": "content/curriculum/GREEN/L5/GREEN-L5-018.md",
+              "checksum": "sha256:sha256:5ffc8ca221d4eddd8a851b54b5fb6c34d8f6aeaeae6fef3b4a8b9c719af4a93d",
+              "status": "active",
+              "ingestionId": "9d04ebb8-28a8-45c5-87e5-440c94b0dd21",
+              "importedAt": "2026-10-10T02:45:13.885Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Taxes",
+                "summary": "Orchestrate the distinction between tax credits and tax deductions by coordinating genuine dollar-for-dollar credit value, applicable phase-out thresholds, and specific eligibility requirements together, rather than treating these two tax benefits as functionally interchangeable."
+              }
+            },
+            "GREEN-L5-019": {
+              "id": "GREEN-L5-019",
+              "type": "lesson",
+              "track": "GREEN",
+              "trackName": "Taxes",
+              "level": 5,
+              "lessonNumber": 19,
+              "title": "Charitable Giving Tax Strategy: Orchestrating Genuine Philanthropic Intent, Deduction Timing, and Appreciated Asset Donation",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-10",
+              "path": "content/curriculum/GREEN/L5/GREEN-L5-019.md",
+              "checksum": "sha256:sha256:2b9425560b0e896fde27497c2e64ab5d238e10defe1f0324a31aefa2dd9f4bce",
+              "status": "active",
+              "ingestionId": "9d04ebb8-28a8-45c5-87e5-440c94b0dd21",
+              "importedAt": "2026-10-10T02:45:13.885Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Taxes",
+                "summary": "Orchestrate a charitable giving tax strategy by coordinating genuine, honest philanthropic intent, deduction timing, and the specific tax advantage of donating appreciated assets directly together, rather than treating charitable giving purely as a mechanical tax-reduction exercise."
+              }
+            },
+            "GREEN-L5-020": {
+              "id": "GREEN-L5-020",
+              "type": "lesson",
+              "track": "GREEN",
+              "trackName": "Taxes",
+              "level": 5,
+              "lessonNumber": 20,
+              "title": "Alternative Minimum Tax Considerations: Orchestrating Genuine Preference Items, Exemption Phase-Out, and Planning Around Triggers",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-10",
+              "path": "content/curriculum/GREEN/L5/GREEN-L5-020.md",
+              "checksum": "sha256:sha256:a05c81cd4d83b5ee1cb817f3bd50c9ed202e4fcc35eb72ff2e9f43dff1cf2ab0",
+              "status": "active",
+              "ingestionId": "9d04ebb8-28a8-45c5-87e5-440c94b0dd21",
+              "importedAt": "2026-10-10T02:45:13.885Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Taxes",
+                "summary": "Orchestrate alternative minimum tax planning by coordinating genuine tax preference items, applicable exemption phase-out thresholds, and specific planning around known AMT triggers together, rather than assuming standard tax planning strategies apply identically under this parallel tax system."
+              }
+            },
+            "GREEN-L5-021": {
+              "id": "GREEN-L5-021",
+              "type": "lesson",
+              "track": "GREEN",
+              "trackName": "Taxes",
+              "level": 5,
+              "lessonNumber": 21,
+              "title": "Retirement Distribution Timing: Orchestrating Required Minimum Distributions, Genuine Income Needs, and Bracket Management",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-10",
+              "path": "content/curriculum/GREEN/L5/GREEN-L5-021.md",
+              "checksum": "sha256:sha256:08fa75ee178980b817a805ff496006d62f73b66c280657d54c06d9f9617db508",
+              "status": "active",
+              "ingestionId": "9d04ebb8-28a8-45c5-87e5-440c94b0dd21",
+              "importedAt": "2026-10-10T02:45:13.885Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Taxes",
+                "summary": "Orchestrate retirement account distribution timing by coordinating required minimum distribution rules, a retiree's genuine income needs, and bracket management together, extending this level's earlier Lesson 5 and Lesson 9 discussions into a fuller retirement distribution framework."
+              }
+            },
+            "GREEN-L5-022": {
+              "id": "GREEN-L5-022",
+              "type": "lesson",
+              "track": "GREEN",
+              "trackName": "Taxes",
+              "level": 5,
+              "lessonNumber": 22,
+              "title": "Life Insurance and Tax-Advantaged Wealth Transfer: Orchestrating Genuine Protection, Tax-Free Growth, and Estate Liquidity",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-10",
+              "path": "content/curriculum/GREEN/L5/GREEN-L5-022.md",
+              "checksum": "sha256:sha256:9374a07cf813fe3f3a5411513f221334e30e68cd75fa5c382413b173ea379721",
+              "status": "active",
+              "ingestionId": "9d04ebb8-28a8-45c5-87e5-440c94b0dd21",
+              "importedAt": "2026-10-10T02:45:13.885Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Taxes",
+                "summary": "Orchestrate a life insurance and tax-advantaged wealth transfer strategy by coordinating genuine protection value, specific tax treatment, and estate liquidity needs together, connecting directly to this curriculum's earlier BLUE-L5 key-person insurance discussion and this level's earlier Lesson 13 estate planning discussion."
+              }
+            },
+            "GREEN-L5-023": {
+              "id": "GREEN-L5-023",
+              "type": "lesson",
+              "track": "GREEN",
+              "trackName": "Taxes",
+              "level": 5,
+              "lessonNumber": 23,
+              "title": "Tax-Efficient Debt Structuring: Orchestrating Deductible vs Non-Deductible Interest, Genuine Cost, and Strategic Debt Framework",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-10",
+              "path": "content/curriculum/GREEN/L5/GREEN-L5-023.md",
+              "checksum": "sha256:sha256:f3f4adbd2d32ed964e2e3e026bd2d440842f8ca83b04e82efab03737d13bb19a",
+              "status": "active",
+              "ingestionId": "9d04ebb8-28a8-45c5-87e5-440c94b0dd21",
+              "importedAt": "2026-10-10T02:45:13.885Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Taxes",
+                "summary": "Orchestrate debt structuring for tax efficiency by coordinating the distinction between deductible and non-deductible interest, genuine after-tax borrowing cost, and this curriculum's strategic-versus-consumer debt framework together, extending this curriculum's earlier strategic debt discussions into a tax-focused framework."
+              }
+            },
+            "GREEN-L5-024": {
+              "id": "GREEN-L5-024",
+              "type": "lesson",
+              "track": "GREEN",
+              "trackName": "Taxes",
+              "level": 5,
+              "lessonNumber": 24,
+              "title": "Trust Taxation: Orchestrating Grantor vs Non-Grantor Status, Genuine Control, and Tax Treatment",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-10",
+              "path": "content/curriculum/GREEN/L5/GREEN-L5-024.md",
+              "checksum": "sha256:sha256:88832ebeb49c816eaaaa88b4c9ce55ff6de5fe0ad9bcce56354a10c9e6b0fea4",
+              "status": "active",
+              "ingestionId": "9d04ebb8-28a8-45c5-87e5-440c94b0dd21",
+              "importedAt": "2026-10-10T02:45:13.885Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Taxes",
+                "summary": "Orchestrate trust taxation planning by coordinating grantor versus non-grantor trust status, genuine control retention, and specific tax treatment together, extending this curriculum's earlier WHITE-L5 and BLUE-L5 trust structuring discussions into a tax-focused framework."
+              }
+            },
+            "GREEN-L5-025": {
+              "id": "GREEN-L5-025",
+              "type": "lesson",
+              "track": "GREEN",
+              "trackName": "Taxes",
+              "level": 5,
+              "lessonNumber": 25,
+              "title": "Cryptocurrency Tax Treatment: Orchestrating Genuine Volatility, Reporting Requirements, and Position-Sizing Discipline",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-10",
+              "path": "content/curriculum/GREEN/L5/GREEN-L5-025.md",
+              "checksum": "sha256:sha256:21622961f4354bf10f9b5e606fa7cceb315de7e5f512a5f4dcabed26f164df5a",
+              "status": "active",
+              "ingestionId": "9d04ebb8-28a8-45c5-87e5-440c94b0dd21",
+              "importedAt": "2026-10-10T02:45:13.885Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Taxes",
+                "summary": "Orchestrate cryptocurrency tax treatment by coordinating genuine, well-documented price volatility, specific reporting requirements, and honest position-sizing discipline together, extending this curriculum's earlier WHITE-L5 and BLUE-L5 cryptocurrency discussions into a tax-compliance-focused framework."
+              }
+            },
+            "GREEN-L5-026": {
+              "id": "GREEN-L5-026",
+              "type": "lesson",
+              "track": "GREEN",
+              "trackName": "Taxes",
+              "level": 5,
+              "lessonNumber": 26,
+              "title": "Tax Software vs Professional Preparation: Orchestrating Genuine Complexity, Cost, and Audit Support",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-10",
+              "path": "content/curriculum/GREEN/L5/GREEN-L5-026.md",
+              "checksum": "sha256:sha256:d7306cba5fe3757eb8cac842cb08fd104097f5f1bc626386a84d1206ad121c6a",
+              "status": "active",
+              "ingestionId": "9d04ebb8-28a8-45c5-87e5-440c94b0dd21",
+              "importedAt": "2026-10-10T02:45:13.885Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Taxes",
+                "summary": "Orchestrate the choice between tax preparation software and professional tax preparation by coordinating genuine tax situation complexity, actual cost, and available audit support together, rather than defaulting to either option without this fuller comparison."
+              }
+            },
+            "GREEN-L5-027": {
+              "id": "GREEN-L5-027",
+              "type": "lesson",
+              "track": "GREEN",
+              "trackName": "Taxes",
+              "level": 5,
+              "lessonNumber": 27,
+              "title": "Foreign Account Reporting Requirements: Orchestrating Genuine Compliance Obligations, Penalties, and Cross-Border Activity",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-10",
+              "path": "content/curriculum/GREEN/L5/GREEN-L5-027.md",
+              "checksum": "sha256:sha256:d31022fb4e95e6705fd231e4bb2cf59d769297d0d680d7e92848475d97b39138",
+              "status": "active",
+              "ingestionId": "9d04ebb8-28a8-45c5-87e5-440c94b0dd21",
+              "importedAt": "2026-10-10T02:45:13.885Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Taxes",
+                "summary": "Orchestrate foreign financial account reporting compliance by coordinating genuine reporting obligations, potential penalties for non-compliance, and honest cross-border activity together, extending this curriculum's earlier international tax and business banking discussions into a compliance-focused framework."
+              }
+            },
+            "GREEN-L5-028": {
+              "id": "GREEN-L5-028",
+              "type": "lesson",
+              "track": "GREEN",
+              "trackName": "Taxes",
+              "level": 5,
+              "lessonNumber": 28,
+              "title": "Asset Location for Tax Efficiency: Orchestrating Account Type, Genuine Tax Treatment, and After-Tax Return",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-10",
+              "path": "content/curriculum/GREEN/L5/GREEN-L5-028.md",
+              "checksum": "sha256:sha256:ce13113c19d8bef2c8e1e2d6c0bb11a4680f20c73c0ba99edec20d80221ff7e6",
+              "status": "active",
+              "ingestionId": "9d04ebb8-28a8-45c5-87e5-440c94b0dd21",
+              "importedAt": "2026-10-10T02:45:13.885Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Taxes",
+                "summary": "Orchestrate asset location across a taxpayer's account structure by coordinating account type, genuine tax treatment of different asset classes, and after-tax return together, extending this curriculum's earlier WHITE-L5 asset location discussion into a fuller, cross-account tax framework."
+              }
+            },
+            "GREEN-L5-029": {
+              "id": "GREEN-L5-029",
+              "type": "lesson",
+              "track": "GREEN",
+              "trackName": "Taxes",
+              "level": 5,
+              "lessonNumber": 29,
+              "title": "Tax Law Change Risk: Orchestrating Genuine Legislative Uncertainty, Planning Flexibility, and Long-Term Strategy",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-10",
+              "path": "content/curriculum/GREEN/L5/GREEN-L5-029.md",
+              "checksum": "sha256:sha256:63e5d740930b0d1f40eb12da76f075dccfd3605dbc8609ce9ac4917e1def260a",
+              "status": "active",
+              "ingestionId": "9d04ebb8-28a8-45c5-87e5-440c94b0dd21",
+              "importedAt": "2026-10-10T02:45:13.885Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Taxes",
+                "summary": "Orchestrate long-term tax planning by coordinating genuine legislative uncertainty, planning flexibility, and a taxpayer's own long-term strategy together, synthesizing this level's earlier discussions and directly extending this curriculum's parallel business cycle analysis discussions to tax law change specifically."
+              }
+            },
+            "GREEN-L5-030": {
+              "id": "GREEN-L5-030",
+              "type": "lesson",
+              "track": "GREEN",
+              "trackName": "Taxes",
+              "level": 5,
+              "lessonNumber": 30,
+              "title": "Exit Tax Planning: Orchestrating Sale Timing, Genuine Tax Consequences, and Reinvestment Plan",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-10",
+              "path": "content/curriculum/GREEN/L5/GREEN-L5-030.md",
+              "checksum": "sha256:sha256:73f78efbd8b5633447961aed54b4b962a62b8922ac00ce24d3dfd999ec8d3e1a",
+              "status": "active",
+              "ingestionId": "9d04ebb8-28a8-45c5-87e5-440c94b0dd21",
+              "importedAt": "2026-10-10T02:45:13.885Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Taxes",
+                "summary": "Orchestrate exit tax planning for a significant asset sale by coordinating sale timing, genuine, complete tax consequences, and a genuine reinvestment plan together, synthesizing this level's earlier lessons into a coherent tax-focused exit framework, extending this curriculum's parallel RED-L5, WHITE-L5, and BLUE-L5 exit strategy discussions."
+              }
+            },
+            "GREEN-L5-031": {
+              "id": "GREEN-L5-031",
+              "type": "lesson",
+              "track": "GREEN",
+              "trackName": "Taxes",
+              "level": 5,
+              "lessonNumber": 31,
+              "title": "Multi-Property Tax Strategy: Orchestrating 1031 Exchanges, Genuine Portfolio Goals, and Depreciation Recapture Deferral",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-10",
+              "path": "content/curriculum/GREEN/L5/GREEN-L5-031.md",
+              "checksum": "sha256:sha256:0ae9e24e5d2bd5163e30179dfdf8ee6d94d0132cf8abda3c805298cd54d59580",
+              "status": "active",
+              "ingestionId": "9d04ebb8-28a8-45c5-87e5-440c94b0dd21",
+              "importedAt": "2026-10-10T02:45:13.885Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Taxes",
+                "summary": "Orchestrate a multi-property tax strategy by coordinating 1031 exchange mechanics, genuine, honest portfolio goals, and depreciation recapture deferral together, extending this curriculum's earlier RED-track 1031 exchange discussions into a fuller, multi-property orchestration."
+              }
+            },
+            "GREEN-L5-032": {
+              "id": "GREEN-L5-032",
+              "type": "lesson",
+              "track": "GREEN",
+              "trackName": "Taxes",
+              "level": 5,
+              "lessonNumber": 32,
+              "title": "Tax Implications of Crowdfunding and Alternative Investment: Orchestrating Genuine Income Character, Reporting, and Cost",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-10",
+              "path": "content/curriculum/GREEN/L5/GREEN-L5-032.md",
+              "checksum": "sha256:sha256:2ca86abef60600952d7dd8f1aea8e6e4ab938d15e68f177eb7d08e7ea9411a8a",
+              "status": "active",
+              "ingestionId": "9d04ebb8-28a8-45c5-87e5-440c94b0dd21",
+              "importedAt": "2026-10-10T02:45:13.885Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Taxes",
+                "summary": "Orchestrate the tax implications of crowdfunding and alternative investment income by coordinating genuine income character determination, specific reporting requirements, and overall investment cost together, extending this curriculum's earlier WHITE-L5 and BLUE-L5 crowdfunding discussions into a tax-focused framework."
+              }
+            },
+            "GREEN-L5-033": {
+              "id": "GREEN-L5-033",
+              "type": "lesson",
+              "track": "GREEN",
+              "trackName": "Taxes",
+              "level": 5,
+              "lessonNumber": 33,
+              "title": "Margin of Safety in Tax Positions: Orchestrating Genuine Audit Risk, Documentation, and Position Aggressiveness",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-10",
+              "path": "content/curriculum/GREEN/L5/GREEN-L5-033.md",
+              "checksum": "sha256:sha256:ed902a06114d56d020242d5ec4fb5743274c5a751a2139fac1eb8a10222a634c",
+              "status": "active",
+              "ingestionId": "9d04ebb8-28a8-45c5-87e5-440c94b0dd21",
+              "importedAt": "2026-10-10T02:45:13.885Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Taxes",
+                "summary": "Orchestrate margin of safety specifically for tax positions by coordinating genuine audit risk assessment, thorough documentation, and honest position aggressiveness together, extending this level's earlier Lesson 16 behavioral discipline discussion and this curriculum's earlier margin of safety discussions into a fuller tax-specific framework."
+              }
+            },
+            "GREEN-L5-034": {
+              "id": "GREEN-L5-034",
+              "type": "lesson",
+              "track": "GREEN",
+              "trackName": "Taxes",
+              "level": 5,
+              "lessonNumber": 34,
+              "title": "Professional Tax Status Elections: Orchestrating Genuine Participation, Career Tradeoffs, and Tax Benefit",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-10",
+              "path": "content/curriculum/GREEN/L5/GREEN-L5-034.md",
+              "checksum": "sha256:sha256:ac59a557e6bd77c47390855d36ccb555bbc0279024d8ea6ad90527dee4ce896b",
+              "status": "active",
+              "ingestionId": "9d04ebb8-28a8-45c5-87e5-440c94b0dd21",
+              "importedAt": "2026-10-10T02:45:13.885Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Taxes",
+                "summary": "Orchestrate professional tax status elections by coordinating genuine, honest participation requirements, real career tradeoffs, and the actual resulting tax benefit together, extending this curriculum's parallel RED-L5, WHITE-L5, and BLUE-L5 professional/material participation tax status discussions into a synthesized framework."
+              }
+            },
+            "GREEN-L5-035": {
+              "id": "GREEN-L5-035",
+              "type": "lesson",
+              "track": "GREEN",
+              "trackName": "Taxes",
+              "level": 5,
+              "lessonNumber": 35,
+              "title": "International Relocation Tax Planning: Orchestrating Exit Tax, Genuine Residency Rules, and Treaty Benefits",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-10",
+              "path": "content/curriculum/GREEN/L5/GREEN-L5-035.md",
+              "checksum": "sha256:sha256:857a517a9d5a24abb4060d059b6aa25b5bfb8490b426863edde2ad9d07757860",
+              "status": "active",
+              "ingestionId": "9d04ebb8-28a8-45c5-87e5-440c94b0dd21",
+              "importedAt": "2026-10-10T02:45:13.885Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Taxes",
+                "summary": "Orchestrate international relocation tax planning by coordinating potential exit tax consequences, genuine residency rules in both the departing and destination jurisdictions, and applicable treaty benefits together, extending this level's earlier Lesson 14 and Lesson 15 discussions into an international relocation framework."
+              }
+            },
+            "GREEN-L5-036": {
+              "id": "GREEN-L5-036",
+              "type": "lesson",
+              "track": "GREEN",
+              "trackName": "Taxes",
+              "level": 5,
+              "lessonNumber": 36,
+              "title": "Complex Tax-Advantaged Structures: Orchestrating Genuine Structure Benefit, Fees, and Compliance Risk",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-10",
+              "path": "content/curriculum/GREEN/L5/GREEN-L5-036.md",
+              "checksum": "sha256:sha256:f89787a900e6b29c7a78ffa2d7a466d9648b340d71054ed31c45453daae4d177",
+              "status": "active",
+              "ingestionId": "9d04ebb8-28a8-45c5-87e5-440c94b0dd21",
+              "importedAt": "2026-10-10T02:45:13.885Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Taxes",
+                "summary": "Orchestrate the evaluation of a complex tax-advantaged structure by coordinating genuine, honest structure benefit, actual fees, and compliance risk together, extending this curriculum's earlier BLUE-L5 complex deal structure discussion into a fuller tax-shelter-evaluation framework."
+              }
+            },
+            "GREEN-L5-037": {
+              "id": "GREEN-L5-037",
+              "type": "lesson",
+              "track": "GREEN",
+              "trackName": "Taxes",
+              "level": 5,
+              "lessonNumber": 37,
+              "title": "Casualty Loss and Disaster Tax Relief: Orchestrating Genuine Loss Documentation, Available Relief, and Rebuild Decision",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-10",
+              "path": "content/curriculum/GREEN/L5/GREEN-L5-037.md",
+              "checksum": "sha256:sha256:724245fe231718e7c206b6a0ee69309256e7843f80cee7f5674f3ece2c99a561",
+              "status": "active",
+              "ingestionId": "9d04ebb8-28a8-45c5-87e5-440c94b0dd21",
+              "importedAt": "2026-10-10T02:45:13.885Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Taxes",
+                "summary": "Orchestrate a casualty loss tax claim and disaster tax relief strategy following a genuine disaster by coordinating actual loss documentation, specifically available relief provisions, and the eventual rebuild decision together, extending this curriculum's parallel RED-L5 and BLUE-L5 disaster insurance and business interruption discussions to the tax dimension specifically."
+              }
+            },
+            "GREEN-L5-038": {
+              "id": "GREEN-L5-038",
+              "type": "lesson",
+              "track": "GREEN",
+              "trackName": "Taxes",
+              "level": 5,
+              "lessonNumber": 38,
+              "title": "Negotiating with a Tax Professional: Orchestrating Genuine BATNA, Fee Structure, and Confirmed Expertise",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-10",
+              "path": "content/curriculum/GREEN/L5/GREEN-L5-038.md",
+              "checksum": "sha256:sha256:da9886ac06434c18654d0c5fec7b413a8274218a9ee8359adbd2ed4eea76de3c",
+              "status": "active",
+              "ingestionId": "9d04ebb8-28a8-45c5-87e5-440c94b0dd21",
+              "importedAt": "2026-10-10T02:45:13.885Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Taxes",
+                "summary": "Orchestrate the selection and fee negotiation of a tax professional by coordinating genuine BATNA, specific fee structure, and confirmed, actual expertise together, extending this curriculum's parallel WHITE-L5 and BLUE-L5 professional negotiation discussions to tax professional selection specifically."
+              }
+            },
+            "GREEN-L5-039": {
+              "id": "GREEN-L5-039",
+              "type": "lesson",
+              "track": "GREEN",
+              "trackName": "Taxes",
+              "level": 5,
+              "lessonNumber": 39,
+              "title": "Family Tax Planning Governance: Orchestrating Genuine Family Decision Rights Around Shared Tax Strategies",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-10",
+              "path": "content/curriculum/GREEN/L5/GREEN-L5-039.md",
+              "checksum": "sha256:sha256:d61a48c05caebbcc4c47e4b1a8ddf71174cf3b57c6ba0f2618afb03b1bba4a37",
+              "status": "active",
+              "ingestionId": "9d04ebb8-28a8-45c5-87e5-440c94b0dd21",
+              "importedAt": "2026-10-10T02:45:13.885Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Taxes",
+                "summary": "Orchestrate decision-rights clarity around shared family tax planning strategies by applying this curriculum's earlier RED-L5, WHITE-L5, and BLUE-L5 multi-owner and family decision rights frameworks directly to a family tax planning governance context."
+              }
+            },
+            "GREEN-L5-040": {
+              "id": "GREEN-L5-040",
+              "type": "lesson",
+              "track": "GREEN",
+              "trackName": "Taxes",
+              "level": 5,
+              "lessonNumber": 40,
+              "title": "Tax Scenario Planning: Orchestrating Multiple Plausible Future Tax Law and Income Scenarios Into One Strategy",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-10",
+              "path": "content/curriculum/GREEN/L5/GREEN-L5-040.md",
+              "checksum": "sha256:sha256:c0f2a0f88abb6f4b0b30120d8390424eb7ca68043d293711ea33418dd0c22529",
+              "status": "active",
+              "ingestionId": "9d04ebb8-28a8-45c5-87e5-440c94b0dd21",
+              "importedAt": "2026-10-10T02:45:13.885Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Taxes",
+                "summary": "Orchestrate a tax strategy by applying this curriculum's earlier scenario planning framework specifically to future tax law and income uncertainty, coordinating multiple plausible future scenarios into a single, resilient tax strategy rather than betting entirely on a single predicted outcome, mirroring this curriculum's parallel RED-L5, WHITE-L5, and BLUE-L5 discussions."
+              }
+            },
+            "GREEN-L5-041": {
+              "id": "GREEN-L5-041",
+              "type": "lesson",
+              "track": "GREEN",
+              "trackName": "Taxes",
+              "level": 5,
+              "lessonNumber": 41,
+              "title": "Retirement Account Conversion Timing: Orchestrating Roth Conversion Windows, Genuine Tax Bracket Fluctuation, and Long-Term Tax Minimization",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-10",
+              "path": "content/curriculum/GREEN/L5/GREEN-L5-041.md",
+              "checksum": "sha256:sha256:2da28398c4615c25fd27d1bea62bbbd9c7227dea07124a5c0d462b6a532a9fea",
+              "status": "active",
+              "ingestionId": "9d04ebb8-28a8-45c5-87e5-440c94b0dd21",
+              "importedAt": "2026-10-10T02:45:13.885Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Taxes",
+                "summary": "Orchestrate the timing of a Roth conversion by coordinating genuine, temporary tax bracket fluctuation windows, the specific tax cost this conversion triggers, and honest long-term tax minimization goals together, extending this level's earlier Lesson 5 and Lesson 9 discussions into a fuller conversion-timing framework."
+              }
+            },
+            "GREEN-L5-042": {
+              "id": "GREEN-L5-042",
+              "type": "lesson",
+              "track": "GREEN",
+              "trackName": "Taxes",
+              "level": 5,
+              "lessonNumber": 42,
+              "title": "Forecasting Humility in Tax Planning: Orchestrating Genuine Uncertainty With Confident Action",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-10",
+              "path": "content/curriculum/GREEN/L5/GREEN-L5-042.md",
+              "checksum": "sha256:sha256:2cbfa174233337186294eca8d9a10fd7df7589e4430422a2319f444a9c70feae",
+              "status": "active",
+              "ingestionId": "9d04ebb8-28a8-45c5-87e5-440c94b0dd21",
+              "importedAt": "2026-10-10T02:45:13.885Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Taxes",
+                "summary": "Orchestrate the genuine tension between honest humility regarding the limits of any tax forecast and the practical need to still act decisively on the best available analysis, extending this curriculum's parallel RED-L5, WHITE-L5, and BLUE-L5 forecasting humility discussions to tax planning specifically."
+              }
+            },
+            "GREEN-L5-043": {
+              "id": "GREEN-L5-043",
+              "type": "lesson",
+              "track": "GREEN",
+              "trackName": "Taxes",
+              "level": 5,
+              "lessonNumber": 43,
+              "title": "Tax Planning Resource Allocation Discipline: Orchestrating Professional Fees and Effort Across Competing Tax Strategies",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-10",
+              "path": "content/curriculum/GREEN/L5/GREEN-L5-043.md",
+              "checksum": "sha256:sha256:84a69b5cf9c71a359b5f7fc2c3fdd282a1f920d469aeb936e990d848f5cb5a52",
+              "status": "active",
+              "ingestionId": "9d04ebb8-28a8-45c5-87e5-440c94b0dd21",
+              "importedAt": "2026-10-10T02:45:13.885Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Taxes",
+                "summary": "Orchestrate tax planning resource allocation across multiple competing strategies by applying this curriculum's resource allocation discipline directly to a tax planning context, declining genuinely good tax strategies to protect capacity for genuinely great ones, rather than pursuing every reasonable-seeming strategy that presents itself."
+              }
+            },
+            "GREEN-L5-044": {
+              "id": "GREEN-L5-044",
+              "type": "lesson",
+              "track": "GREEN",
+              "trackName": "Taxes",
+              "level": 5,
+              "lessonNumber": 44,
+              "title": "Taxpayer Risk Tolerance Calibration: Orchestrating Genuine Aggressiveness, Audit Capacity, and Risk Tolerance",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-10",
+              "path": "content/curriculum/GREEN/L5/GREEN-L5-044.md",
+              "checksum": "sha256:sha256:388121daf66eb20523742fc7fab3df6f576df05240c770a6f69d70e24b284980",
+              "status": "active",
+              "ingestionId": "9d04ebb8-28a8-45c5-87e5-440c94b0dd21",
+              "importedAt": "2026-10-10T02:45:13.885Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Taxes",
+                "summary": "Orchestrate a genuine taxpayer risk tolerance calibration by coordinating a taxpayer's own actual capacity to withstand a potential audit's disruption and cost against their honest psychological comfort with tax position aggressiveness, synthesizing this level's earlier discussions into a single, coherent individual risk framework, mirroring this curriculum's parallel RED-L5, WHITE-L5, and BLUE-L5 Lesson 44 discussions."
+              }
+            },
+            "GREEN-L5-045": {
+              "id": "GREEN-L5-045",
+              "type": "lesson",
+              "track": "GREEN",
+              "trackName": "Taxes",
+              "level": 5,
+              "lessonNumber": 45,
+              "title": "Leadership in Family Tax Strategy: Orchestrating Vision, Delegation, and Genuine Accountability",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-10",
+              "path": "content/curriculum/GREEN/L5/GREEN-L5-045.md",
+              "checksum": "sha256:sha256:0ea335796a778ba767430a503f0db4ea89af4876072a0a92fe1197ddb430764d",
+              "status": "active",
+              "ingestionId": "9d04ebb8-28a8-45c5-87e5-440c94b0dd21",
+              "importedAt": "2026-10-10T02:45:13.885Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Taxes",
+                "summary": "Orchestrate genuine leadership within a family's shared tax strategy by applying this curriculum's BLACK-track vision, delegation, and accountability principles directly to this specific context, mirroring this curriculum's parallel RED-L5, WHITE-L5, and BLUE-L5 Lesson 45 discussions applied now to family tax strategy leadership."
+              }
+            },
+            "GREEN-L5-046": {
+              "id": "GREEN-L5-046",
+              "type": "lesson",
+              "track": "GREEN",
+              "trackName": "Taxes",
+              "level": 5,
+              "lessonNumber": 46,
+              "title": "Decisive Tax Action Under Genuine Opportunity: Orchestrating the Aggression Doctrine Into a Tax Timing Decision",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-10",
+              "path": "content/curriculum/GREEN/L5/GREEN-L5-046.md",
+              "checksum": "sha256:sha256:31dcf5ca4751a9b7a823a215f1741ab3acd69bc323c6285d04eb994b86b7eab2",
+              "status": "active",
+              "ingestionId": "9d04ebb8-28a8-45c5-87e5-440c94b0dd21",
+              "importedAt": "2026-10-10T02:45:13.885Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Taxes",
+                "summary": "Orchestrate this curriculum's knife-fight/aggression doctrine into a concrete tax timing decision, applying the doctrine's offense-versus-defense and opportunity-window principles specifically to the moment a genuine, time-limited tax-saving opportunity actually presents itself, framed strictly as disciplined tax planning decisiveness rather than any form of literal conflict."
+              }
+            },
+            "GREEN-L5-047": {
+              "id": "GREEN-L5-047",
+              "type": "lesson",
+              "track": "GREEN",
+              "trackName": "Taxes",
+              "level": 5,
+              "lessonNumber": 47,
+              "title": "Building Tax Planning Readiness in Advance: Orchestrating Documentation, Pre-Researched Strategies, and Decision Criteria",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-10",
+              "path": "content/curriculum/GREEN/L5/GREEN-L5-047.md",
+              "checksum": "sha256:sha256:5fb7816fac240ebdd378f09241095cd8d2298170e4aa59184b82414dfa1cec3e",
+              "status": "active",
+              "ingestionId": "9d04ebb8-28a8-45c5-87e5-440c94b0dd21",
+              "importedAt": "2026-10-10T02:45:13.885Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Taxes",
+                "summary": "Orchestrate the advance building of genuine tax planning readiness — thorough documentation practices, a pre-researched set of applicable strategies, and predetermined decision criteria — before any specific opportunity actually appears, applying this curriculum's organizational readiness doctrine directly to a taxpayer's own advance preparation, mirroring this curriculum's parallel RED-L5, WHITE-L5, and BLUE-L5 Lesson 47 discussions."
+              }
+            },
+            "GREEN-L5-048": {
+              "id": "GREEN-L5-048",
+              "type": "lesson",
+              "track": "GREEN",
+              "trackName": "Taxes",
+              "level": 5,
+              "lessonNumber": 48,
+              "title": "Tax Strategy Reassessment: Orchestrating Honest Course Correction as Tax Law or Circumstances Change",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-10",
+              "path": "content/curriculum/GREEN/L5/GREEN-L5-048.md",
+              "checksum": "sha256:sha256:2589f17a952a10ea316e331409a1afbfbe19d700ad026ae2256b25d76faea52c",
+              "status": "active",
+              "ingestionId": "9d04ebb8-28a8-45c5-87e5-440c94b0dd21",
+              "importedAt": "2026-10-10T02:45:13.885Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Taxes",
+                "summary": "Orchestrate honest, ongoing reassessment of an active, decisively established tax strategy as genuinely new evidence emerges, applying this curriculum's honest-reassessment and sunk-cost-avoidance principles directly to a tax planning context, mirroring this curriculum's parallel RED-L5, WHITE-L5, and BLUE-L5 Lesson 48 discussions."
+              }
+            },
+            "GREEN-L5-049": {
+              "id": "GREEN-L5-049",
+              "type": "lesson",
+              "track": "GREEN",
+              "trackName": "Taxes",
+              "level": 5,
+              "lessonNumber": 49,
+              "title": "Tax Planning Courage and Consequence Ownership: Orchestrating Calculated Position-Taking With Genuine Accountability",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-10",
+              "path": "content/curriculum/GREEN/L5/GREEN-L5-049.md",
+              "checksum": "sha256:sha256:99a93197032c1cf7967777a1a50f5ddc1c2e3406adcf619fee5cd915cd900a21",
+              "status": "active",
+              "ingestionId": "9d04ebb8-28a8-45c5-87e5-440c94b0dd21",
+              "importedAt": "2026-10-10T02:45:13.885Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Taxes",
+                "summary": "Orchestrate genuine consequence ownership into a taxpayer's decisive position-taking, applying this curriculum's courage-and-accountability principle directly to tax planning, distinguishing genuine, calculated tax position-taking from mere reckless non-compliance by whether the taxpayer genuinely owns whatever consequences eventually result, mirroring this curriculum's parallel RED-L5, WHITE-L5, and BLUE-L5 Lesson 49 discussions."
+              }
+            },
+            "GREEN-L5-050": {
+              "id": "GREEN-L5-050",
+              "type": "lesson",
+              "track": "GREEN",
+              "trackName": "Taxes",
+              "level": 5,
+              "lessonNumber": 50,
+              "title": "GREEN-L5 Integration: Orchestrating Every Concept in This Level Into a Single Coherent Tax Decision Framework",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-10",
+              "path": "content/curriculum/GREEN/L5/GREEN-L5-050.md",
+              "checksum": "sha256:sha256:e2c433440d33011a9d93c7a8c53c89d5b88e0a9906bb5e260560c820fd74e702",
+              "status": "active",
+              "ingestionId": "9d04ebb8-28a8-45c5-87e5-440c94b0dd21",
+              "importedAt": "2026-10-10T02:45:13.885Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Taxes",
+                "summary": "Synthesize this level's full range of orchestrated tax concepts — bracket management, entity and account structuring, deductions and credits, estate and international considerations, behavioral discipline, and decisive leadership — into a single, integrated tax decision-making framework, explicitly completing this curriculum's chess analogy at the level of genuine, coordinated, real-world decision-making, mirroring this curriculum's parallel RED-L5, WHITE-L5, and BLUE-L5 Lesson 50 discussions."
+              }
+            }
+          }
         }
       }
     },
