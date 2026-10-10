@@ -1,7 +1,7 @@
 {
   "_schema": "curriculum/schemas/registry.schema.json",
   "_version": "1.0",
-  "_generated": "2026-09-15T10:56:40.342Z",
+  "_generated": "2026-10-10T11:26:23.059Z",
   "_note": "Authoritative curriculum registry (empty lessons are a valid production state).",
   "tracks": {
     "RED": {
@@ -2388,7 +2388,1258 @@
           "assets": {}
         },
         "4": {
-          "assets": {}
+          "assets": {
+            "WHITE-L4-001": {
+              "id": "WHITE-L4-001",
+              "type": "lesson",
+              "track": "WHITE",
+              "trackName": "Paper Assets",
+              "level": 4,
+              "lessonNumber": 1,
+              "title": "P/E Ratio Analysis: Why a Low Multiple Isn't Automatically Cheap",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-10",
+              "path": "content/curriculum/WHITE/L4/WHITE-L4-001.md",
+              "checksum": "sha256:sha256:f443ccb13653bec0d1a391dab0c3bacfa32adc011c58e5184f1672a1a5058fe4",
+              "status": "active",
+              "ingestionId": "ec7f1f4c-c110-40da-a468-e5fef8c41690",
+              "importedAt": "2026-10-10T11:26:20.874Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Paper Assets",
+                "summary": "Learn why a low price-to-earnings ratio does not automatically mean a stock is undervalued, and how to read a P/E ratio correctly."
+              }
+            },
+            "WHITE-L4-002": {
+              "id": "WHITE-L4-002",
+              "type": "lesson",
+              "track": "WHITE",
+              "trackName": "Paper Assets",
+              "level": 4,
+              "lessonNumber": 2,
+              "title": "Dividend Yield vs Total Return: Why Yield Alone Misleads",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-10",
+              "path": "content/curriculum/WHITE/L4/WHITE-L4-002.md",
+              "checksum": "sha256:sha256:0f33da10cda763f805a89684c7a0acaa0f6b64fbe6599f6a81c3da60b0da24fe",
+              "status": "active",
+              "ingestionId": "ec7f1f4c-c110-40da-a468-e5fef8c41690",
+              "importedAt": "2026-10-10T11:26:20.874Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Paper Assets",
+                "summary": "Understand why chasing high dividend yield without considering total return and payout sustainability can lead to costly investment mistakes."
+              }
+            },
+            "WHITE-L4-003": {
+              "id": "WHITE-L4-003",
+              "type": "lesson",
+              "track": "WHITE",
+              "trackName": "Paper Assets",
+              "level": 4,
+              "lessonNumber": 3,
+              "title": "Bond Duration Analysis: Why Interest Rate Risk Isn't Equal Across Bonds",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-10",
+              "path": "content/curriculum/WHITE/L4/WHITE-L4-003.md",
+              "checksum": "sha256:sha256:4a9ac83f606df4da8c61280f9ff143866fa199d0e88eb72e2522d73a2b33c9c4",
+              "status": "active",
+              "ingestionId": "ec7f1f4c-c110-40da-a468-e5fef8c41690",
+              "importedAt": "2026-10-10T11:26:20.874Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Paper Assets",
+                "summary": "Understand why bond duration, not just maturity, determines how sensitive a bond's price is to interest rate changes."
+              }
+            },
+            "WHITE-L4-004": {
+              "id": "WHITE-L4-004",
+              "type": "lesson",
+              "track": "WHITE",
+              "trackName": "Paper Assets",
+              "level": 4,
+              "lessonNumber": 4,
+              "title": "Yield Curve Analysis: Why Inversions Signal Recession Risk",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-10",
+              "path": "content/curriculum/WHITE/L4/WHITE-L4-004.md",
+              "checksum": "sha256:sha256:d7292e5099fb733d820bb6a8bd192d5a6231b075274eb22dea2159897956d683",
+              "status": "active",
+              "ingestionId": "ec7f1f4c-c110-40da-a468-e5fef8c41690",
+              "importedAt": "2026-10-10T11:26:20.874Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Paper Assets",
+                "summary": "Understand what the yield curve represents and why an inverted yield curve has historically been watched closely as a recession warning signal."
+              }
+            },
+            "WHITE-L4-005": {
+              "id": "WHITE-L4-005",
+              "type": "lesson",
+              "track": "WHITE",
+              "trackName": "Paper Assets",
+              "level": 4,
+              "lessonNumber": 5,
+              "title": "Expense Ratio Analysis: Why Fees Compound Against You",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-10",
+              "path": "content/curriculum/WHITE/L4/WHITE-L4-005.md",
+              "checksum": "sha256:sha256:2520ffabcfb4e417cd3e7247a23717e6a80f658dc4c849ffc98b868915c081c0",
+              "status": "active",
+              "ingestionId": "ec7f1f4c-c110-40da-a468-e5fef8c41690",
+              "importedAt": "2026-10-10T11:26:20.874Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Paper Assets",
+                "summary": "Understand why seemingly small fund expense ratios can meaningfully erode long-term investment returns through the power of negative compounding."
+              }
+            },
+            "WHITE-L4-006": {
+              "id": "WHITE-L4-006",
+              "type": "lesson",
+              "track": "WHITE",
+              "trackName": "Paper Assets",
+              "level": 4,
+              "lessonNumber": 6,
+              "title": "Correlation Analysis: Why Diversification Requires Uncorrelated Assets",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-10",
+              "path": "content/curriculum/WHITE/L4/WHITE-L4-006.md",
+              "checksum": "sha256:sha256:5ac8c2223f3b3f16da40db4b582b0453b0672bd3f87d43f144c25f8947548b7a",
+              "status": "active",
+              "ingestionId": "ec7f1f4c-c110-40da-a468-e5fef8c41690",
+              "importedAt": "2026-10-10T11:26:20.874Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Paper Assets",
+                "summary": "Understand why true portfolio diversification depends on holding assets that do not move in lockstep, and why correlation can shift during market stress."
+              }
+            },
+            "WHITE-L4-007": {
+              "id": "WHITE-L4-007",
+              "type": "lesson",
+              "track": "WHITE",
+              "trackName": "Paper Assets",
+              "level": 4,
+              "lessonNumber": 7,
+              "title": "Beta Analysis: Why Volatility Isn't the Same as Risk",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-10",
+              "path": "content/curriculum/WHITE/L4/WHITE-L4-007.md",
+              "checksum": "sha256:sha256:54d3f5f05f9871fdfe531bae151d32b9f39dc6e253beec57aabbe173ac465232",
+              "status": "active",
+              "ingestionId": "ec7f1f4c-c110-40da-a468-e5fef8c41690",
+              "importedAt": "2026-10-10T11:26:20.874Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Paper Assets",
+                "summary": "Understand what beta measures, why it captures only one dimension of risk, and why equating volatility with total risk can be misleading."
+              }
+            },
+            "WHITE-L4-008": {
+              "id": "WHITE-L4-008",
+              "type": "lesson",
+              "track": "WHITE",
+              "trackName": "Paper Assets",
+              "level": 4,
+              "lessonNumber": 8,
+              "title": "Sharpe Ratio Analysis: Why Risk-Adjusted Return Beats Raw Return",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-10",
+              "path": "content/curriculum/WHITE/L4/WHITE-L4-008.md",
+              "checksum": "sha256:sha256:6ea13c9378a1bc0aa584c85a4c8730e5546dce30536a219608e3d1b6ea897398",
+              "status": "active",
+              "ingestionId": "ec7f1f4c-c110-40da-a468-e5fef8c41690",
+              "importedAt": "2026-10-10T11:26:20.874Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Paper Assets",
+                "summary": "Understand how the Sharpe ratio measures return earned per unit of risk taken, and why comparing raw returns alone can be misleading."
+              }
+            },
+            "WHITE-L4-009": {
+              "id": "WHITE-L4-009",
+              "type": "lesson",
+              "track": "WHITE",
+              "trackName": "Paper Assets",
+              "level": 4,
+              "lessonNumber": 9,
+              "title": "Dollar-Cost Averaging Analysis: Why Timing the Market Is a Losing Game",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-10",
+              "path": "content/curriculum/WHITE/L4/WHITE-L4-009.md",
+              "checksum": "sha256:sha256:cb71522fd5a6f9f028e0c958b25326db449f1d42d4603fe5dff1948c79769b20",
+              "status": "active",
+              "ingestionId": "ec7f1f4c-c110-40da-a468-e5fef8c41690",
+              "importedAt": "2026-10-10T11:26:20.874Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Paper Assets",
+                "summary": "Understand why dollar-cost averaging removes the need to predict market timing, and why consistently timing the market successfully is extremely difficult."
+              }
+            },
+            "WHITE-L4-010": {
+              "id": "WHITE-L4-010",
+              "type": "lesson",
+              "track": "WHITE",
+              "trackName": "Paper Assets",
+              "level": 4,
+              "lessonNumber": 10,
+              "title": "Sector Rotation Analysis: Why Different Sectors Lead at Different Cycle Stages",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-10",
+              "path": "content/curriculum/WHITE/L4/WHITE-L4-010.md",
+              "checksum": "sha256:sha256:20c91504e2373ddda23553236fc21f7e8f2e8f4119c556beaa7eb73e7ae4d269",
+              "status": "active",
+              "ingestionId": "ec7f1f4c-c110-40da-a468-e5fef8c41690",
+              "importedAt": "2026-10-10T11:26:20.874Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Paper Assets",
+                "summary": "Understand why different market sectors tend to outperform at different points in the economic cycle, and why recognizing this pattern aids analysis."
+              }
+            },
+            "WHITE-L4-011": {
+              "id": "WHITE-L4-011",
+              "type": "lesson",
+              "track": "WHITE",
+              "trackName": "Paper Assets",
+              "level": 4,
+              "lessonNumber": 11,
+              "title": "Interest Rate Sensitivity of Bonds vs Stocks: Why They React Differently",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-10",
+              "path": "content/curriculum/WHITE/L4/WHITE-L4-011.md",
+              "checksum": "sha256:sha256:8300fced97448346d15b7192253209cf60dc3219b455b550e0b4638f7b9adde5",
+              "status": "active",
+              "ingestionId": "ec7f1f4c-c110-40da-a468-e5fef8c41690",
+              "importedAt": "2026-10-10T11:26:20.874Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Paper Assets",
+                "summary": "Understand why bonds and stocks respond to interest rate changes through different mechanisms, and why this matters for portfolio construction."
+              }
+            },
+            "WHITE-L4-012": {
+              "id": "WHITE-L4-012",
+              "type": "lesson",
+              "track": "WHITE",
+              "trackName": "Paper Assets",
+              "level": 4,
+              "lessonNumber": 12,
+              "title": "Credit Rating Analysis: Why a Downgrade Doesn't Always Mean Default",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-10",
+              "path": "content/curriculum/WHITE/L4/WHITE-L4-012.md",
+              "checksum": "sha256:sha256:61a2c817a713d017691c83b16b24dae606203b2b3b49e99b87c57e1900f85a36",
+              "status": "active",
+              "ingestionId": "ec7f1f4c-c110-40da-a468-e5fef8c41690",
+              "importedAt": "2026-10-10T11:26:20.874Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Paper Assets",
+                "summary": "Understand what credit ratings represent, why a downgrade signals increased risk without necessarily predicting default, and how ratings affect bond pricing."
+              }
+            },
+            "WHITE-L4-013": {
+              "id": "WHITE-L4-013",
+              "type": "lesson",
+              "track": "WHITE",
+              "trackName": "Paper Assets",
+              "level": 4,
+              "lessonNumber": 13,
+              "title": "Inflation-Protected Securities Analysis: Why TIPS Aren't a Perfect Hedge",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-10",
+              "path": "content/curriculum/WHITE/L4/WHITE-L4-013.md",
+              "checksum": "sha256:sha256:438ff418317213ce0a84d3dc4ee3a22a6c26deaa64bec596b58c33d8d56f2a07",
+              "status": "active",
+              "ingestionId": "ec7f1f4c-c110-40da-a468-e5fef8c41690",
+              "importedAt": "2026-10-10T11:26:20.874Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Paper Assets",
+                "summary": "Understand how Treasury Inflation-Protected Securities work, what inflation risk they address, and why they are not a complete or perfect inflation hedge."
+              }
+            },
+            "WHITE-L4-014": {
+              "id": "WHITE-L4-014",
+              "type": "lesson",
+              "track": "WHITE",
+              "trackName": "Paper Assets",
+              "level": 4,
+              "lessonNumber": 14,
+              "title": "Options Basics Analysis: Why a Call Isn't a Bet, It's a Right",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-10",
+              "path": "content/curriculum/WHITE/L4/WHITE-L4-014.md",
+              "checksum": "sha256:sha256:5b3a2e9179724c700c44e9305b410dae5878adbc8dd0c2a347a2b56b1886bd9a",
+              "status": "active",
+              "ingestionId": "ec7f1f4c-c110-40da-a468-e5fef8c41690",
+              "importedAt": "2026-10-10T11:26:20.874Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Paper Assets",
+                "summary": "Understand the fundamental structure of a call option as a right, not an obligation, and why this distinction shapes its risk and reward profile."
+              }
+            },
+            "WHITE-L4-015": {
+              "id": "WHITE-L4-015",
+              "type": "lesson",
+              "track": "WHITE",
+              "trackName": "Paper Assets",
+              "level": 4,
+              "lessonNumber": 15,
+              "title": "Put Options Analysis: Why Puts Function as Insurance",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-10",
+              "path": "content/curriculum/WHITE/L4/WHITE-L4-015.md",
+              "checksum": "sha256:sha256:008e3102f1bc46cc9911474e092f30548d878206044f176b5848163d01d5e524",
+              "status": "active",
+              "ingestionId": "ec7f1f4c-c110-40da-a468-e5fef8c41690",
+              "importedAt": "2026-10-10T11:26:20.874Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Paper Assets",
+                "summary": "Understand how a put option functions similarly to an insurance policy, protecting a portfolio's value against downside risk for a defined premium cost."
+              }
+            },
+            "WHITE-L4-016": {
+              "id": "WHITE-L4-016",
+              "type": "lesson",
+              "track": "WHITE",
+              "trackName": "Paper Assets",
+              "level": 4,
+              "lessonNumber": 16,
+              "title": "Straddle Analysis: Why Betting on Volatility Differs from Betting on Direction",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-10",
+              "path": "content/curriculum/WHITE/L4/WHITE-L4-016.md",
+              "checksum": "sha256:sha256:54b36812905778828f61e58b01de9e246632010237c22895ede1b958f35f3406",
+              "status": "active",
+              "ingestionId": "ec7f1f4c-c110-40da-a468-e5fef8c41690",
+              "importedAt": "2026-10-10T11:26:20.874Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Paper Assets",
+                "summary": "Understand how an options straddle allows an investor to profit from a large price move in either direction, distinguishing volatility bets from directional bets."
+              }
+            },
+            "WHITE-L4-017": {
+              "id": "WHITE-L4-017",
+              "type": "lesson",
+              "track": "WHITE",
+              "trackName": "Paper Assets",
+              "level": 4,
+              "lessonNumber": 17,
+              "title": "Margin Analysis: Why Borrowed Money Amplifies Both Gains and Losses in a Portfolio",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-10",
+              "path": "content/curriculum/WHITE/L4/WHITE-L4-017.md",
+              "checksum": "sha256:sha256:d2f32b8828d2a37d7396fe7d0e21e326ceae96d59b6e039d5cd0509a69e074f6",
+              "status": "active",
+              "ingestionId": "ec7f1f4c-c110-40da-a468-e5fef8c41690",
+              "importedAt": "2026-10-10T11:26:20.874Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Paper Assets",
+                "summary": "Understand how buying stocks on margin amplifies both potential gains and potential losses, echoing the leverage principles covered in real estate."
+              }
+            },
+            "WHITE-L4-018": {
+              "id": "WHITE-L4-018",
+              "type": "lesson",
+              "track": "WHITE",
+              "trackName": "Paper Assets",
+              "level": 4,
+              "lessonNumber": 18,
+              "title": "Index Fund Analysis: Why Beating the Market Consistently Is Rare",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-10",
+              "path": "content/curriculum/WHITE/L4/WHITE-L4-018.md",
+              "checksum": "sha256:sha256:efe1ec65e729c011caa218f401e15c0d9332f781ea6cd821fce5c8265aa26071",
+              "status": "active",
+              "ingestionId": "ec7f1f4c-c110-40da-a468-e5fef8c41690",
+              "importedAt": "2026-10-10T11:26:20.874Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Paper Assets",
+                "summary": "Understand why consistently outperforming a broad market index over long periods has proven difficult for most professional fund managers, and what this implies for investors."
+              }
+            },
+            "WHITE-L4-019": {
+              "id": "WHITE-L4-019",
+              "type": "lesson",
+              "track": "WHITE",
+              "trackName": "Paper Assets",
+              "level": 4,
+              "lessonNumber": 19,
+              "title": "Active vs Passive Management Analysis: Why Fees Are the Best Predictor of Net Return",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-10",
+              "path": "content/curriculum/WHITE/L4/WHITE-L4-019.md",
+              "checksum": "sha256:sha256:f80cc830d82c7a6e72632e6eced5f60a97cb367ad21be682502dc39a9b7d68e7",
+              "status": "active",
+              "ingestionId": "ec7f1f4c-c110-40da-a468-e5fef8c41690",
+              "importedAt": "2026-10-10T11:26:20.874Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Paper Assets",
+                "summary": "Understand why, across large samples of funds, expense ratio has proven to be one of the most reliable predictors of relative net investment performance."
+              }
+            },
+            "WHITE-L4-020": {
+              "id": "WHITE-L4-020",
+              "type": "lesson",
+              "track": "WHITE",
+              "trackName": "Paper Assets",
+              "level": 4,
+              "lessonNumber": 20,
+              "title": "Rebalancing Analysis: Why Selling Winners and Buying Losers Isn't Contrarian, It's Discipline",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-10",
+              "path": "content/curriculum/WHITE/L4/WHITE-L4-020.md",
+              "checksum": "sha256:sha256:fdb90aae8eb156af9ad5b3f0400cdf22fdbc65170cab9415e0deaf3e021ac2e3",
+              "status": "active",
+              "ingestionId": "ec7f1f4c-c110-40da-a468-e5fef8c41690",
+              "importedAt": "2026-10-10T11:26:20.874Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Paper Assets",
+                "summary": "Understand why periodic portfolio rebalancing, which involves selling recent winners and buying relative underperformers, is a disciplined risk-management practice."
+              }
+            },
+            "WHITE-L4-021": {
+              "id": "WHITE-L4-021",
+              "type": "lesson",
+              "track": "WHITE",
+              "trackName": "Paper Assets",
+              "level": 4,
+              "lessonNumber": 21,
+              "title": "Tax-Loss Harvesting Analysis: Why Realizing Losses Can Improve After-Tax Return",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-10",
+              "path": "content/curriculum/WHITE/L4/WHITE-L4-021.md",
+              "checksum": "sha256:sha256:459d5f6d100a3b3956650b8941a87db1532a4914e2d98449a457384461cee074",
+              "status": "active",
+              "ingestionId": "ec7f1f4c-c110-40da-a468-e5fef8c41690",
+              "importedAt": "2026-10-10T11:26:20.874Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Paper Assets",
+                "summary": "Understand how tax-loss harvesting uses realized investment losses to offset taxable gains, and why this strategy improves after-tax portfolio performance."
+              }
+            },
+            "WHITE-L4-022": {
+              "id": "WHITE-L4-022",
+              "type": "lesson",
+              "track": "WHITE",
+              "trackName": "Paper Assets",
+              "level": 4,
+              "lessonNumber": 22,
+              "title": "Asset Allocation Analysis: Why Allocation Matters More Than Individual Stock Picking",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-10",
+              "path": "content/curriculum/WHITE/L4/WHITE-L4-022.md",
+              "checksum": "sha256:sha256:0c33b53bccb9cfbbca3b9391bf045a6eecac3e74bd1eed6beae7ca63e329f283",
+              "status": "active",
+              "ingestionId": "ec7f1f4c-c110-40da-a468-e5fef8c41690",
+              "importedAt": "2026-10-10T11:26:20.874Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Paper Assets",
+                "summary": "Understand why research suggests broad asset allocation decisions explain more of a portfolio's long-term return variation than individual security selection."
+              }
+            },
+            "WHITE-L4-023": {
+              "id": "WHITE-L4-023",
+              "type": "lesson",
+              "track": "WHITE",
+              "trackName": "Paper Assets",
+              "level": 4,
+              "lessonNumber": 23,
+              "title": "Sequence of Returns Risk Analysis: Why the Order of Returns Matters in Retirement",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-10",
+              "path": "content/curriculum/WHITE/L4/WHITE-L4-023.md",
+              "checksum": "sha256:sha256:dc6e447cba88953f517775550d2d99ee4295137136e09ee60e0fcaa57a79f3c4",
+              "status": "active",
+              "ingestionId": "ec7f1f4c-c110-40da-a468-e5fef8c41690",
+              "importedAt": "2026-10-10T11:26:20.874Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Paper Assets",
+                "summary": "Understand why the specific order in which investment returns occur, not just their average, can dramatically affect retirement portfolio outcomes."
+              }
+            },
+            "WHITE-L4-024": {
+              "id": "WHITE-L4-024",
+              "type": "lesson",
+              "track": "WHITE",
+              "trackName": "Paper Assets",
+              "level": 4,
+              "lessonNumber": 24,
+              "title": "Retirement Account Analysis: Why Traditional vs Roth Depends on Tax Rate Assumptions",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-10",
+              "path": "content/curriculum/WHITE/L4/WHITE-L4-024.md",
+              "checksum": "sha256:sha256:b4697fcdd73bc5c19c42a0a64ee91bd28a03f7515646d1f51dc5b364f6a42a37",
+              "status": "active",
+              "ingestionId": "ec7f1f4c-c110-40da-a468-e5fef8c41690",
+              "importedAt": "2026-10-10T11:26:20.874Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Paper Assets",
+                "summary": "Understand the core tradeoff between traditional and Roth retirement accounts, and why the right choice depends heavily on assumptions about future tax rates."
+              }
+            },
+            "WHITE-L4-025": {
+              "id": "WHITE-L4-025",
+              "type": "lesson",
+              "track": "WHITE",
+              "trackName": "Paper Assets",
+              "level": 4,
+              "lessonNumber": 25,
+              "title": "Required Minimum Distribution Analysis: Why RMDs Shape Retirement Withdrawal Strategy",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-10",
+              "path": "content/curriculum/WHITE/L4/WHITE-L4-025.md",
+              "checksum": "sha256:sha256:68f3a726a857822fe32cf2fa7d2f5adef6998d667ee5f9d3dc44e8f20ab2e647",
+              "status": "active",
+              "ingestionId": "ec7f1f4c-c110-40da-a468-e5fef8c41690",
+              "importedAt": "2026-10-10T11:26:20.874Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Paper Assets",
+                "summary": "Understand what required minimum distributions are, why they exist, and how they shape retirement account withdrawal planning."
+              }
+            },
+            "WHITE-L4-026": {
+              "id": "WHITE-L4-026",
+              "type": "lesson",
+              "track": "WHITE",
+              "trackName": "Paper Assets",
+              "level": 4,
+              "lessonNumber": 26,
+              "title": "Bond Ladder Analysis: Why Laddering Reduces Reinvestment Risk",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-10",
+              "path": "content/curriculum/WHITE/L4/WHITE-L4-026.md",
+              "checksum": "sha256:sha256:56549a6f35066cfda9f9a1219d6852898fed1b13368bec5309f2f351b6e2b20a",
+              "status": "active",
+              "ingestionId": "ec7f1f4c-c110-40da-a468-e5fef8c41690",
+              "importedAt": "2026-10-10T11:26:20.874Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Paper Assets",
+                "summary": "Understand how a bond ladder strategy staggers maturities to reduce reinvestment risk and provide more predictable, flexible income over time."
+              }
+            },
+            "WHITE-L4-027": {
+              "id": "WHITE-L4-027",
+              "type": "lesson",
+              "track": "WHITE",
+              "trackName": "Paper Assets",
+              "level": 4,
+              "lessonNumber": 27,
+              "title": "Municipal Bond Analysis: Why Tax-Equivalent Yield Changes the Comparison",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-10",
+              "path": "content/curriculum/WHITE/L4/WHITE-L4-027.md",
+              "checksum": "sha256:sha256:4ad0b60f2d0be4ab12ad8656b2a44cbe89e1b5e586a6888fd5358d2a68d293dc",
+              "status": "active",
+              "ingestionId": "ec7f1f4c-c110-40da-a468-e5fef8c41690",
+              "importedAt": "2026-10-10T11:26:20.874Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Paper Assets",
+                "summary": "Understand why comparing a municipal bond's yield directly to a taxable bond's yield can be misleading, and how tax-equivalent yield corrects for this."
+              }
+            },
+            "WHITE-L4-028": {
+              "id": "WHITE-L4-028",
+              "type": "lesson",
+              "track": "WHITE",
+              "trackName": "Paper Assets",
+              "level": 4,
+              "lessonNumber": 28,
+              "title": "Convertible Bond Analysis: Why Hybrid Securities Blend Debt and Equity Risk",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-10",
+              "path": "content/curriculum/WHITE/L4/WHITE-L4-028.md",
+              "checksum": "sha256:sha256:9bc5ac80ee6dc1fdff0231617b1684d4841f44608d896b6212a79d153c6cc398",
+              "status": "active",
+              "ingestionId": "ec7f1f4c-c110-40da-a468-e5fef8c41690",
+              "importedAt": "2026-10-10T11:26:20.874Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Paper Assets",
+                "summary": "Understand how convertible bonds combine features of both debt and equity, and why this hybrid structure creates a distinct risk-return profile."
+              }
+            },
+            "WHITE-L4-029": {
+              "id": "WHITE-L4-029",
+              "type": "lesson",
+              "track": "WHITE",
+              "trackName": "Paper Assets",
+              "level": 4,
+              "lessonNumber": 29,
+              "title": "Preferred Stock Analysis: Why Preferred Shares Sit Between Bonds and Common Stock",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-10",
+              "path": "content/curriculum/WHITE/L4/WHITE-L4-029.md",
+              "checksum": "sha256:sha256:b23daae7f32e1dc7e2daf9c0525e48e35ac58291289d594c42d0ca408cca40f6",
+              "status": "active",
+              "ingestionId": "ec7f1f4c-c110-40da-a468-e5fef8c41690",
+              "importedAt": "2026-10-10T11:26:20.874Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Paper Assets",
+                "summary": "Understand how preferred stock combines features of both bonds and common stock, occupying a distinct middle position in a company's capital structure."
+              }
+            },
+            "WHITE-L4-030": {
+              "id": "WHITE-L4-030",
+              "type": "lesson",
+              "track": "WHITE",
+              "trackName": "Paper Assets",
+              "level": 4,
+              "lessonNumber": 30,
+              "title": "Market Capitalization Analysis: Why Company Size Changes Risk and Return Expectations",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-10",
+              "path": "content/curriculum/WHITE/L4/WHITE-L4-030.md",
+              "checksum": "sha256:sha256:f683c429dbf64a4c58d34400f960dd253dcb39798590ec15dba618ec89e319e4",
+              "status": "active",
+              "ingestionId": "ec7f1f4c-c110-40da-a468-e5fef8c41690",
+              "importedAt": "2026-10-10T11:26:20.874Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Paper Assets",
+                "summary": "Understand how market capitalization segments companies into size categories with historically distinct risk and return characteristics."
+              }
+            },
+            "WHITE-L4-031": {
+              "id": "WHITE-L4-031",
+              "type": "lesson",
+              "track": "WHITE",
+              "trackName": "Paper Assets",
+              "level": 4,
+              "lessonNumber": 31,
+              "title": "Growth vs Value Investing Analysis: Why Style Leadership Rotates Over Time",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-10",
+              "path": "content/curriculum/WHITE/L4/WHITE-L4-031.md",
+              "checksum": "sha256:sha256:c9b5155a6ea437fdc948a48872de1884c8ea6d50a51677119ea399e938471545",
+              "status": "active",
+              "ingestionId": "ec7f1f4c-c110-40da-a468-e5fef8c41690",
+              "importedAt": "2026-10-10T11:26:20.874Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Paper Assets",
+                "summary": "Understand the core distinction between growth and value investing philosophies, and why leadership between the two styles tends to rotate over market cycles."
+              }
+            },
+            "WHITE-L4-032": {
+              "id": "WHITE-L4-032",
+              "type": "lesson",
+              "track": "WHITE",
+              "trackName": "Paper Assets",
+              "level": 4,
+              "lessonNumber": 32,
+              "title": "Efficient Market Hypothesis Analysis: Why Beating the Market Is Harder Than It Looks",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-10",
+              "path": "content/curriculum/WHITE/L4/WHITE-L4-032.md",
+              "checksum": "sha256:sha256:8c21771b4d39f17b34b5cf0bb6128e50135522f56d60c1a1da645cfd74911989",
+              "status": "active",
+              "ingestionId": "ec7f1f4c-c110-40da-a468-e5fef8c41690",
+              "importedAt": "2026-10-10T11:26:20.874Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Paper Assets",
+                "summary": "Understand the core claims of the Efficient Market Hypothesis, the different forms it takes, and why it makes consistent market outperformance difficult, even if not impossible."
+              }
+            },
+            "WHITE-L4-033": {
+              "id": "WHITE-L4-033",
+              "type": "lesson",
+              "track": "WHITE",
+              "trackName": "Paper Assets",
+              "level": 4,
+              "lessonNumber": 33,
+              "title": "Behavioral Bias Analysis: Why Loss Aversion Distorts Investment Decisions",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-10",
+              "path": "content/curriculum/WHITE/L4/WHITE-L4-033.md",
+              "checksum": "sha256:sha256:2d51983bfc2b70e143a5c023027bf3d55cc547ff83239a84ed3bea283913954a",
+              "status": "active",
+              "ingestionId": "ec7f1f4c-c110-40da-a468-e5fef8c41690",
+              "importedAt": "2026-10-10T11:26:20.874Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Paper Assets",
+                "summary": "Understand how loss aversion, a well-documented behavioral bias, can lead investors to make decisions that work against their own long-term financial interests."
+              }
+            },
+            "WHITE-L4-034": {
+              "id": "WHITE-L4-034",
+              "type": "lesson",
+              "track": "WHITE",
+              "trackName": "Paper Assets",
+              "level": 4,
+              "lessonNumber": 34,
+              "title": "Liquidity Risk Analysis: Why Some Assets Cost More to Sell Quickly",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-10",
+              "path": "content/curriculum/WHITE/L4/WHITE-L4-034.md",
+              "checksum": "sha256:sha256:63dd37d47fea7c84c3bc2f630157f09c140727a901cc47c1571bc8207404c907",
+              "status": "active",
+              "ingestionId": "ec7f1f4c-c110-40da-a468-e5fef8c41690",
+              "importedAt": "2026-10-10T11:26:20.874Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Paper Assets",
+                "summary": "Understand what liquidity risk means, why less liquid assets typically carry a return premium, and why liquidity can disappear suddenly during market stress."
+              }
+            },
+            "WHITE-L4-035": {
+              "id": "WHITE-L4-035",
+              "type": "lesson",
+              "track": "WHITE",
+              "trackName": "Paper Assets",
+              "level": 4,
+              "lessonNumber": 35,
+              "title": "Currency Risk Analysis: Why International Investing Adds a Second Variable",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-10",
+              "path": "content/curriculum/WHITE/L4/WHITE-L4-035.md",
+              "checksum": "sha256:sha256:371bdb854f4a34b119cb7cfb6cda3ed8ae5df6aca031eede9a473f3f3c62f999",
+              "status": "active",
+              "ingestionId": "ec7f1f4c-c110-40da-a468-e5fef8c41690",
+              "importedAt": "2026-10-10T11:26:20.874Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Paper Assets",
+                "summary": "Understand how currency exchange rate movements add a second, distinct variable to international investment returns beyond the underlying asset's local performance."
+              }
+            },
+            "WHITE-L4-036": {
+              "id": "WHITE-L4-036",
+              "type": "lesson",
+              "track": "WHITE",
+              "trackName": "Paper Assets",
+              "level": 4,
+              "lessonNumber": 36,
+              "title": "Emerging Markets Analysis: Why Higher Growth Potential Comes with Higher Volatility",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-10",
+              "path": "content/curriculum/WHITE/L4/WHITE-L4-036.md",
+              "checksum": "sha256:sha256:17e3cb17031c2dde873514ec6da2b364a287622fd0bfa23d7b74d4159127bd8d",
+              "status": "active",
+              "ingestionId": "ec7f1f4c-c110-40da-a468-e5fef8c41690",
+              "importedAt": "2026-10-10T11:26:20.874Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Paper Assets",
+                "summary": "Understand why emerging market investments often offer higher long-term growth potential alongside meaningfully higher volatility and distinct risk factors."
+              }
+            },
+            "WHITE-L4-037": {
+              "id": "WHITE-L4-037",
+              "type": "lesson",
+              "track": "WHITE",
+              "trackName": "Paper Assets",
+              "level": 4,
+              "lessonNumber": 37,
+              "title": "ETF vs Mutual Fund Analysis: Why Structure Changes Cost and Tax Efficiency",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-10",
+              "path": "content/curriculum/WHITE/L4/WHITE-L4-037.md",
+              "checksum": "sha256:sha256:c6e6eb7f07743d8f33f97ccff5f5352dd12e1d5cd9560073bbccf16da3743e8e",
+              "status": "active",
+              "ingestionId": "ec7f1f4c-c110-40da-a468-e5fef8c41690",
+              "importedAt": "2026-10-10T11:26:20.874Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Paper Assets",
+                "summary": "Understand the structural differences between ETFs and traditional mutual funds, and why these differences often produce meaningfully different cost and tax outcomes."
+              }
+            },
+            "WHITE-L4-038": {
+              "id": "WHITE-L4-038",
+              "type": "lesson",
+              "track": "WHITE",
+              "trackName": "Paper Assets",
+              "level": 4,
+              "lessonNumber": 38,
+              "title": "Leveraged ETF Analysis: Why Daily Reset Mechanics Erode Long-Term Returns",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-10",
+              "path": "content/curriculum/WHITE/L4/WHITE-L4-038.md",
+              "checksum": "sha256:sha256:a8ecfe251988e5f95c264d54c4b50fdcc93a27ec7ee5a23cb4ea78bbe91d1eda",
+              "status": "active",
+              "ingestionId": "ec7f1f4c-c110-40da-a468-e5fef8c41690",
+              "importedAt": "2026-10-10T11:26:20.874Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Paper Assets",
+                "summary": "Understand how leveraged ETFs achieve their amplified daily exposure, and why their daily rebalancing mechanism makes them poorly suited for long-term holding."
+              }
+            },
+            "WHITE-L4-039": {
+              "id": "WHITE-L4-039",
+              "type": "lesson",
+              "track": "WHITE",
+              "trackName": "Paper Assets",
+              "level": 4,
+              "lessonNumber": 39,
+              "title": "Stock Buyback Analysis: Why Buybacks Can Signal Confidence or Financial Engineering",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-10",
+              "path": "content/curriculum/WHITE/L4/WHITE-L4-039.md",
+              "checksum": "sha256:sha256:72c6176b8c02c4a4402b5d3b875e9c3e3c1c46fc1db0a3795f2a05b6ef891e0a",
+              "status": "active",
+              "ingestionId": "ec7f1f4c-c110-40da-a468-e5fef8c41690",
+              "importedAt": "2026-10-10T11:26:20.874Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Paper Assets",
+                "summary": "Understand how stock buybacks affect per-share metrics, and why the same buyback can reflect either genuine capital discipline or a less substantive attempt to flatter reported results."
+              }
+            },
+            "WHITE-L4-040": {
+              "id": "WHITE-L4-040",
+              "type": "lesson",
+              "track": "WHITE",
+              "trackName": "Paper Assets",
+              "level": 4,
+              "lessonNumber": 40,
+              "title": "Earnings Quality Analysis: Why Not All Earnings Are Created Equal",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-10",
+              "path": "content/curriculum/WHITE/L4/WHITE-L4-040.md",
+              "checksum": "sha256:sha256:e63005ba152150fdbc51254e5b6f2654a7b94efd102c6285e456e71b1e4ea622",
+              "status": "active",
+              "ingestionId": "ec7f1f4c-c110-40da-a468-e5fef8c41690",
+              "importedAt": "2026-10-10T11:26:20.874Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Paper Assets",
+                "summary": "Understand why the quality and sustainability of reported earnings matters as much as the headline earnings figure itself, and how to spot signs of lower-quality earnings."
+              }
+            },
+            "WHITE-L4-041": {
+              "id": "WHITE-L4-041",
+              "type": "lesson",
+              "track": "WHITE",
+              "trackName": "Paper Assets",
+              "level": 4,
+              "lessonNumber": 41,
+              "title": "Debt-to-Equity Analysis: Why Corporate Leverage Cuts Both Ways, Just Like Real Estate",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-10",
+              "path": "content/curriculum/WHITE/L4/WHITE-L4-041.md",
+              "checksum": "sha256:sha256:52905f4dc34b1ec89eb3524facb563ba9d99f01d521a33bdc67ec6b4accd9e8d",
+              "status": "active",
+              "ingestionId": "ec7f1f4c-c110-40da-a468-e5fef8c41690",
+              "importedAt": "2026-10-10T11:26:20.874Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Paper Assets",
+                "summary": "Understand how the debt-to-equity ratio measures corporate leverage, and why it amplifies both potential returns and potential risk, echoing real estate leverage principles."
+              }
+            },
+            "WHITE-L4-042": {
+              "id": "WHITE-L4-042",
+              "type": "lesson",
+              "track": "WHITE",
+              "trackName": "Paper Assets",
+              "level": 4,
+              "lessonNumber": 42,
+              "title": "Free Cash Flow Analysis: Why Cash Flow Reveals What Earnings Can Hide",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-10",
+              "path": "content/curriculum/WHITE/L4/WHITE-L4-042.md",
+              "checksum": "sha256:sha256:687f52d779ca8a8fce95511a4c459e2a7874124c393659ef8278c13af2552dde",
+              "status": "active",
+              "ingestionId": "ec7f1f4c-c110-40da-a468-e5fef8c41690",
+              "importedAt": "2026-10-10T11:26:20.874Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Paper Assets",
+                "summary": "Understand why free cash flow can reveal a company's true financial health in ways that reported earnings, subject to accounting choices, sometimes obscure."
+              }
+            },
+            "WHITE-L4-043": {
+              "id": "WHITE-L4-043",
+              "type": "lesson",
+              "track": "WHITE",
+              "trackName": "Paper Assets",
+              "level": 4,
+              "lessonNumber": 43,
+              "title": "IPO Analysis: Why Newly Public Companies Carry Distinct Risk",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-10",
+              "path": "content/curriculum/WHITE/L4/WHITE-L4-043.md",
+              "checksum": "sha256:sha256:873d72748571582e7c06b758e34918be88a16604520998ef335241824423b45c",
+              "status": "active",
+              "ingestionId": "ec7f1f4c-c110-40da-a468-e5fef8c41690",
+              "importedAt": "2026-10-10T11:26:20.874Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Paper Assets",
+                "summary": "Understand the distinct risk factors associated with investing in a company's initial public offering, beyond the general risks of investing in any individual stock."
+              }
+            },
+            "WHITE-L4-044": {
+              "id": "WHITE-L4-044",
+              "type": "lesson",
+              "track": "WHITE",
+              "trackName": "Paper Assets",
+              "level": 4,
+              "lessonNumber": 44,
+              "title": "Short Selling Analysis: Why Betting Against a Stock Carries Unlimited Risk",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-10",
+              "path": "content/curriculum/WHITE/L4/WHITE-L4-044.md",
+              "checksum": "sha256:sha256:4232a978f69ce4a8d01217038f8c108304ac1d7009fd7d4227e1ade43061342d",
+              "status": "active",
+              "ingestionId": "ec7f1f4c-c110-40da-a468-e5fef8c41690",
+              "importedAt": "2026-10-10T11:26:20.874Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Paper Assets",
+                "summary": "Understand the mechanics of short selling and why, unlike buying a stock, betting against a stock's decline carries theoretically unlimited potential loss."
+              }
+            },
+            "WHITE-L4-045": {
+              "id": "WHITE-L4-045",
+              "type": "lesson",
+              "track": "WHITE",
+              "trackName": "Paper Assets",
+              "level": 4,
+              "lessonNumber": 45,
+              "title": "Black Swan Analysis: Why Tail Risk Is Underpriced Until It Isn't",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-10",
+              "path": "content/curriculum/WHITE/L4/WHITE-L4-045.md",
+              "checksum": "sha256:sha256:2176cbd34b217e2e762da835f6b2b01d978906a417383270d80f7db42055def6",
+              "status": "active",
+              "ingestionId": "ec7f1f4c-c110-40da-a468-e5fef8c41690",
+              "importedAt": "2026-10-10T11:26:20.874Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Paper Assets",
+                "summary": "Understand the concept of tail risk and 'black swan' events, and why markets have historically tended to underprice the probability of rare, extreme events."
+              }
+            },
+            "WHITE-L4-046": {
+              "id": "WHITE-L4-046",
+              "type": "lesson",
+              "track": "WHITE",
+              "trackName": "Paper Assets",
+              "level": 4,
+              "lessonNumber": 46,
+              "title": "Annuity Analysis: Why Guaranteed Income Comes at the Cost of Flexibility",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-10",
+              "path": "content/curriculum/WHITE/L4/WHITE-L4-046.md",
+              "checksum": "sha256:sha256:394a5c58ab8800f36f0ac7a8fb5493e19dcc9d5245304bfd4a584058266689eb",
+              "status": "active",
+              "ingestionId": "ec7f1f4c-c110-40da-a468-e5fef8c41690",
+              "importedAt": "2026-10-10T11:26:20.874Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Paper Assets",
+                "summary": "Understand the basic structure of annuities, the genuine value of longevity risk protection they offer, and the flexibility tradeoffs involved."
+              }
+            },
+            "WHITE-L4-047": {
+              "id": "WHITE-L4-047",
+              "type": "lesson",
+              "track": "WHITE",
+              "trackName": "Paper Assets",
+              "level": 4,
+              "lessonNumber": 47,
+              "title": "Life Insurance as Asset Analysis: Why Cash Value Policies Blend Insurance and Investment",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-10",
+              "path": "content/curriculum/WHITE/L4/WHITE-L4-047.md",
+              "checksum": "sha256:sha256:6b9465455e8770549f5fc91e8251af9876688dfaecf05e3805092bee7e0592a9",
+              "status": "active",
+              "ingestionId": "ec7f1f4c-c110-40da-a468-e5fef8c41690",
+              "importedAt": "2026-10-10T11:26:20.874Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Paper Assets",
+                "summary": "Understand how cash value life insurance policies combine a death benefit with a savings or investment component, and why this blended structure carries distinct tradeoffs."
+              }
+            },
+            "WHITE-L4-048": {
+              "id": "WHITE-L4-048",
+              "type": "lesson",
+              "track": "WHITE",
+              "trackName": "Paper Assets",
+              "level": 4,
+              "lessonNumber": 48,
+              "title": "Estate-Focused Portfolio Analysis: Why Basis Step-Up Changes End-of-Life Asset Decisions",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-10",
+              "path": "content/curriculum/WHITE/L4/WHITE-L4-048.md",
+              "checksum": "sha256:sha256:ddca46dcf9cb01f1501b0119853e12a8d206656f1956f10062b86462b92cdd64",
+              "status": "active",
+              "ingestionId": "ec7f1f4c-c110-40da-a468-e5fef8c41690",
+              "importedAt": "2026-10-10T11:26:20.874Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Paper Assets",
+                "summary": "Understand how the step-up in cost basis at death affects capital gains taxation, and why this can meaningfully influence estate-focused investment and holding decisions."
+              }
+            },
+            "WHITE-L4-049": {
+              "id": "WHITE-L4-049",
+              "type": "lesson",
+              "track": "WHITE",
+              "trackName": "Paper Assets",
+              "level": 4,
+              "lessonNumber": 49,
+              "title": "Custodial Account Analysis: Why UTMA/UGMA Accounts Change Control and Tax Treatment",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-10",
+              "path": "content/curriculum/WHITE/L4/WHITE-L4-049.md",
+              "checksum": "sha256:sha256:71ce54446e4cb97fba49facf8f1587bfbb6b2a1485c18ed68f62f31aa031e3f3",
+              "status": "active",
+              "ingestionId": "ec7f1f4c-c110-40da-a468-e5fef8c41690",
+              "importedAt": "2026-10-10T11:26:20.874Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Paper Assets",
+                "summary": "Understand how custodial accounts for minors differ from other investment accounts in terms of control, tax treatment, and eventual ownership transfer."
+              }
+            },
+            "WHITE-L4-050": {
+              "id": "WHITE-L4-050",
+              "type": "lesson",
+              "track": "WHITE",
+              "trackName": "Paper Assets",
+              "level": 4,
+              "lessonNumber": 50,
+              "title": "Portfolio Stress-Testing Analysis: Why Modeling Downturns Beats Hoping They Don't Happen",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-10",
+              "path": "content/curriculum/WHITE/L4/WHITE-L4-050.md",
+              "checksum": "sha256:sha256:3c1a84e0c8cffbedf0e8740ff1bf12aeeeb84f23d7164f0d0ead260f6f1cf252",
+              "status": "active",
+              "ingestionId": "ec7f1f4c-c110-40da-a468-e5fef8c41690",
+              "importedAt": "2026-10-10T11:26:20.874Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Paper Assets",
+                "summary": "Understand why proactively stress-testing a portfolio against historical and hypothetical downturn scenarios is a disciplined practice that improves long-term decision-making."
+              }
+            }
+          }
         },
         "5": {
           "assets": {}
