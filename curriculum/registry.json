@@ -1,7 +1,7 @@
 {
   "_schema": "curriculum/schemas/registry.schema.json",
   "_version": "1.0",
-  "_generated": "2026-09-15T10:56:40.342Z",
+  "_generated": "2026-10-10T06:43:16.712Z",
   "_note": "Authoritative curriculum registry (empty lessons are a valid production state).",
   "tracks": {
     "RED": {
@@ -12622,7 +12622,1258 @@
           "assets": {}
         },
         "4": {
-          "assets": {}
+          "assets": {
+            "ORANGE-L4-001": {
+              "id": "ORANGE-L4-001",
+              "type": "lesson",
+              "track": "ORANGE",
+              "trackName": "Sales & Marketing",
+              "level": 4,
+              "lessonNumber": 1,
+              "title": "Customer Segmentation Analysis: Why One-Size-Fits-All Marketing Wastes Resources",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-10",
+              "path": "content/curriculum/ORANGE/L4/ORANGE-L4-001.md",
+              "checksum": "sha256:sha256:1a63128b219728d27150e6d42669d940ddaceeb004f37931a1303c20e0870235",
+              "status": "active",
+              "ingestionId": "fadd3c54-6732-416b-a918-23f7cae0e9db",
+              "importedAt": "2026-10-10T06:43:14.662Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Sales & Marketing",
+                "summary": "Understand why dividing a customer base into distinct segments allows marketing resources to be allocated far more efficiently than a single, undifferentiated message aimed at everyone."
+              }
+            },
+            "ORANGE-L4-002": {
+              "id": "ORANGE-L4-002",
+              "type": "lesson",
+              "track": "ORANGE",
+              "trackName": "Sales & Marketing",
+              "level": 4,
+              "lessonNumber": 2,
+              "title": "Positioning Statement Analysis: Why Differentiation Requires a Specific Target, Not Everyone",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-10",
+              "path": "content/curriculum/ORANGE/L4/ORANGE-L4-002.md",
+              "checksum": "sha256:sha256:1cb59646e0ad3ad0a7fb4e128622ddf76bd11b3ad8fe8361afd6cc9e91fd1ab5",
+              "status": "active",
+              "ingestionId": "fadd3c54-6732-416b-a918-23f7cae0e9db",
+              "importedAt": "2026-10-10T06:43:14.662Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Sales & Marketing",
+                "summary": "Understand the components of an effective positioning statement, and why genuine differentiation requires committing to a specific target customer rather than trying to appeal broadly."
+              }
+            },
+            "ORANGE-L4-003": {
+              "id": "ORANGE-L4-003",
+              "type": "lesson",
+              "track": "ORANGE",
+              "trackName": "Sales & Marketing",
+              "level": 4,
+              "lessonNumber": 3,
+              "title": "Unique Selling Proposition Analysis: Why a Claim Any Competitor Could Make Isn't Actually Unique",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-10",
+              "path": "content/curriculum/ORANGE/L4/ORANGE-L4-003.md",
+              "checksum": "sha256:sha256:dd4a6856f54a3ea60a6052f3ab2f137f29b03c27b5d2f25de4c25c9643d68968",
+              "status": "active",
+              "ingestionId": "fadd3c54-6732-416b-a918-23f7cae0e9db",
+              "importedAt": "2026-10-10T06:43:14.662Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Sales & Marketing",
+                "summary": "Understand what makes a unique selling proposition genuinely unique rather than merely a generic quality claim every competitor could equally assert, and why a genuine USP must be both true and difficult for competitors to easily replicate."
+              }
+            },
+            "ORANGE-L4-004": {
+              "id": "ORANGE-L4-004",
+              "type": "lesson",
+              "track": "ORANGE",
+              "trackName": "Sales & Marketing",
+              "level": 4,
+              "lessonNumber": 4,
+              "title": "Marketing Funnel Analysis: Why Awareness, Consideration, Conversion, and Retention Each Require Different Tactics",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-10",
+              "path": "content/curriculum/ORANGE/L4/ORANGE-L4-004.md",
+              "checksum": "sha256:sha256:c97ab751771a4ed1c96df8224345240b730a48c0b3f7af920c26bd29d72dafe2",
+              "status": "active",
+              "ingestionId": "fadd3c54-6732-416b-a918-23f7cae0e9db",
+              "importedAt": "2026-10-10T06:43:14.662Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Sales & Marketing",
+                "summary": "Understand the standard marketing funnel stages and why the specific tactics effective at one stage often fail, or even actively backfire, if applied at a different stage."
+              }
+            },
+            "ORANGE-L4-005": {
+              "id": "ORANGE-L4-005",
+              "type": "lesson",
+              "track": "ORANGE",
+              "trackName": "Sales & Marketing",
+              "level": 4,
+              "lessonNumber": 5,
+              "title": "Customer Acquisition Cost Analysis: Why the Channel-Level View Reveals What the Blended Average Hides",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-10",
+              "path": "content/curriculum/ORANGE/L4/ORANGE-L4-005.md",
+              "checksum": "sha256:sha256:6cda5ce7ae9551355450080054e3b3150ef8b02982ff7f1573ab9f985269edf9",
+              "status": "active",
+              "ingestionId": "fadd3c54-6732-416b-a918-23f7cae0e9db",
+              "importedAt": "2026-10-10T06:43:14.662Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Sales & Marketing",
+                "summary": "Understand why calculating customer acquisition cost separately for each specific marketing channel reveals meaningful differences a single, blended average obscures, building on the BLUE-L4 track's introduction to CAC."
+              }
+            },
+            "ORANGE-L4-006": {
+              "id": "ORANGE-L4-006",
+              "type": "lesson",
+              "track": "ORANGE",
+              "trackName": "Sales & Marketing",
+              "level": 4,
+              "lessonNumber": 6,
+              "title": "Marketing Attribution Analysis: Why 'Which Channel Worked' Is Genuinely Harder to Answer Than It Looks",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-10",
+              "path": "content/curriculum/ORANGE/L4/ORANGE-L4-006.md",
+              "checksum": "sha256:sha256:2c5baa038572348752ae8bcd66b35008189ac3a6730ab819ec1c3e4dbf8bfab9",
+              "status": "active",
+              "ingestionId": "fadd3c54-6732-416b-a918-23f7cae0e9db",
+              "importedAt": "2026-10-10T06:43:14.662Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Sales & Marketing",
+                "summary": "Understand the challenge of marketing attribution, why a customer's path to purchase often involves multiple touchpoints, and why different attribution models can assign credit for the same sale in meaningfully different ways."
+              }
+            },
+            "ORANGE-L4-007": {
+              "id": "ORANGE-L4-007",
+              "type": "lesson",
+              "track": "ORANGE",
+              "trackName": "Sales & Marketing",
+              "level": 4,
+              "lessonNumber": 7,
+              "title": "Brand Equity Analysis: Why a Strong Brand Commands a Genuine Price Premium",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-10",
+              "path": "content/curriculum/ORANGE/L4/ORANGE-L4-007.md",
+              "checksum": "sha256:sha256:d989cfee3523dc362caff62c8522f489c3f455704607c68850944075b83ed56a",
+              "status": "active",
+              "ingestionId": "fadd3c54-6732-416b-a918-23f7cae0e9db",
+              "importedAt": "2026-10-10T06:43:14.662Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Sales & Marketing",
+                "summary": "Understand the concept of brand equity, why it allows a business to command a price premium over an otherwise comparable unbranded or weaker-branded alternative, and why building brand equity requires sustained, consistent investment over time."
+              }
+            },
+            "ORANGE-L4-008": {
+              "id": "ORANGE-L4-008",
+              "type": "lesson",
+              "track": "ORANGE",
+              "trackName": "Sales & Marketing",
+              "level": 4,
+              "lessonNumber": 8,
+              "title": "Lead Qualification Analysis: Why Not Every Interested Prospect Deserves the Same Sales Attention",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-10",
+              "path": "content/curriculum/ORANGE/L4/ORANGE-L4-008.md",
+              "checksum": "sha256:sha256:e8ad9eca8fc67c265a4d24f3159c06eeeb04913f0e0abced3c14b34041ef3129",
+              "status": "active",
+              "ingestionId": "fadd3c54-6732-416b-a918-23f7cae0e9db",
+              "importedAt": "2026-10-10T06:43:14.662Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Sales & Marketing",
+                "summary": "Understand the purpose of lead qualification frameworks such as BANT, and why distinguishing a genuinely sales-ready prospect from a merely curious one prevents wasted sales effort on prospects unlikely to actually convert."
+              }
+            },
+            "ORANGE-L4-009": {
+              "id": "ORANGE-L4-009",
+              "type": "lesson",
+              "track": "ORANGE",
+              "trackName": "Sales & Marketing",
+              "level": 4,
+              "lessonNumber": 9,
+              "title": "Sales Pipeline Analysis: Why Stage-by-Stage Conversion Rates Reveal Where Deals Actually Die",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-10",
+              "path": "content/curriculum/ORANGE/L4/ORANGE-L4-009.md",
+              "checksum": "sha256:sha256:4752529ba69ea68312b42092023f02e25ddcfe4ff1dd9cf68a384bf2a22fbfc2",
+              "status": "active",
+              "ingestionId": "fadd3c54-6732-416b-a918-23f7cae0e9db",
+              "importedAt": "2026-10-10T06:43:14.662Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Sales & Marketing",
+                "summary": "Understand how tracking conversion rates at each specific sales pipeline stage reveals exactly where prospects are being lost, allowing targeted improvement rather than a vague, undirected effort to 'sell more.'"
+              }
+            },
+            "ORANGE-L4-010": {
+              "id": "ORANGE-L4-010",
+              "type": "lesson",
+              "track": "ORANGE",
+              "trackName": "Sales & Marketing",
+              "level": 4,
+              "lessonNumber": 10,
+              "title": "Consultative Selling vs Transactional Selling Analysis: Why the Right Approach Depends on the Purchase's Actual Complexity",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-10",
+              "path": "content/curriculum/ORANGE/L4/ORANGE-L4-010.md",
+              "checksum": "sha256:sha256:3f6d6f7b0be27c47ad9682295379dc7185b94006b40bcc245be53b57027d9f37",
+              "status": "active",
+              "ingestionId": "fadd3c54-6732-416b-a918-23f7cae0e9db",
+              "importedAt": "2026-10-10T06:43:14.662Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Sales & Marketing",
+                "summary": "Understand the distinction between consultative selling and transactional selling, and why the appropriate approach depends on the complexity, price point, and consideration period genuinely involved in a specific purchase decision."
+              }
+            },
+            "ORANGE-L4-011": {
+              "id": "ORANGE-L4-011",
+              "type": "lesson",
+              "track": "ORANGE",
+              "trackName": "Sales & Marketing",
+              "level": 4,
+              "lessonNumber": 11,
+              "title": "Objection Handling Analysis: Why an Objection Is Information, Not Rejection",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-10",
+              "path": "content/curriculum/ORANGE/L4/ORANGE-L4-011.md",
+              "checksum": "sha256:sha256:68c4e690e7747b2ba8ed7a17779078f9c42ead87126eda2894728bc7be967d66",
+              "status": "active",
+              "ingestionId": "fadd3c54-6732-416b-a918-23f7cae0e9db",
+              "importedAt": "2026-10-10T06:43:14.662Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Sales & Marketing",
+                "summary": "Understand why a prospect's objection during a sales conversation should generally be treated as valuable information about their genuine concerns, rather than as a rejection to be overcome through pressure."
+              }
+            },
+            "ORANGE-L4-012": {
+              "id": "ORANGE-L4-012",
+              "type": "lesson",
+              "track": "ORANGE",
+              "trackName": "Sales & Marketing",
+              "level": 4,
+              "lessonNumber": 12,
+              "title": "Sales Compensation Structure Analysis: Why Commission, Salary, and Hybrid Models Each Shape Behavior Differently",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-10",
+              "path": "content/curriculum/ORANGE/L4/ORANGE-L4-012.md",
+              "checksum": "sha256:sha256:6260cb77e9e23cacbc0608237302c884cabfe936007292cd9410d0d2bb25b7e3",
+              "status": "active",
+              "ingestionId": "fadd3c54-6732-416b-a918-23f7cae0e9db",
+              "importedAt": "2026-10-10T06:43:14.662Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Sales & Marketing",
+                "summary": "Understand how different sales compensation structures — straight commission, straight salary, and hybrid models — create genuinely different incentives, and why the right structure depends on the specific sales role and desired behavior."
+              }
+            },
+            "ORANGE-L4-013": {
+              "id": "ORANGE-L4-013",
+              "type": "lesson",
+              "track": "ORANGE",
+              "trackName": "Sales & Marketing",
+              "level": 4,
+              "lessonNumber": 13,
+              "title": "Net Promoter Score Analysis: Why a Single Number Provides a Useful Signal but an Incomplete Picture",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-10",
+              "path": "content/curriculum/ORANGE/L4/ORANGE-L4-013.md",
+              "checksum": "sha256:sha256:b4883dbb044a3667d5a2b732ac16c2bbd76b34309c5bda39d05a83be81045a89",
+              "status": "active",
+              "ingestionId": "fadd3c54-6732-416b-a918-23f7cae0e9db",
+              "importedAt": "2026-10-10T06:43:14.662Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Sales & Marketing",
+                "summary": "Understand how Net Promoter Score is calculated and what it measures, and why relying on this single metric alone provides an incomplete picture of genuine customer sentiment without accompanying qualitative context."
+              }
+            },
+            "ORANGE-L4-014": {
+              "id": "ORANGE-L4-014",
+              "type": "lesson",
+              "track": "ORANGE",
+              "trackName": "Sales & Marketing",
+              "level": 4,
+              "lessonNumber": 14,
+              "title": "A/B Testing Analysis: Why Statistical Significance Must Be Confirmed Before Declaring a Winner",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-10",
+              "path": "content/curriculum/ORANGE/L4/ORANGE-L4-014.md",
+              "checksum": "sha256:sha256:94015e64f38067d00f9d168ffc3e250199ec5c44b79b6e68efbe2407db86982d",
+              "status": "active",
+              "ingestionId": "fadd3c54-6732-416b-a918-23f7cae0e9db",
+              "importedAt": "2026-10-10T06:43:14.662Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Sales & Marketing",
+                "summary": "Understand the basic mechanics of A/B testing in a marketing context, and why declaring a winner before achieving statistical significance risks acting on what is actually random noise rather than a genuine, reliable difference."
+              }
+            },
+            "ORANGE-L4-015": {
+              "id": "ORANGE-L4-015",
+              "type": "lesson",
+              "track": "ORANGE",
+              "trackName": "Sales & Marketing",
+              "level": 4,
+              "lessonNumber": 15,
+              "title": "Content Marketing Analysis: Why Value-First Content Builds Trust Before Any Sales Pitch",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-10",
+              "path": "content/curriculum/ORANGE/L4/ORANGE-L4-015.md",
+              "checksum": "sha256:sha256:f27f918114eb1115fa09dd59eeea7952d92b5407d015bd24b3e57a7c4f73911c",
+              "status": "active",
+              "ingestionId": "fadd3c54-6732-416b-a918-23f7cae0e9db",
+              "importedAt": "2026-10-10T06:43:14.662Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Sales & Marketing",
+                "summary": "Understand the content marketing approach of providing genuinely valuable, educational content before making any direct sales pitch, and why this sequencing builds the trust a later sales conversation depends on."
+              }
+            },
+            "ORANGE-L4-016": {
+              "id": "ORANGE-L4-016",
+              "type": "lesson",
+              "track": "ORANGE",
+              "trackName": "Sales & Marketing",
+              "level": 4,
+              "lessonNumber": 16,
+              "title": "Social Proof Analysis: Why Testimonials and Reviews Reduce a Prospect's Perceived Purchase Risk",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-10",
+              "path": "content/curriculum/ORANGE/L4/ORANGE-L4-016.md",
+              "checksum": "sha256:sha256:a17a81963a0eea01e1512c393bd21982f7113b5d4ae2ba39d927aeec55e649be",
+              "status": "active",
+              "ingestionId": "fadd3c54-6732-416b-a918-23f7cae0e9db",
+              "importedAt": "2026-10-10T06:43:14.662Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Sales & Marketing",
+                "summary": "Understand the psychological mechanism behind social proof in marketing, why it specifically reduces a prospect's perceived risk rather than simply making a product sound more appealing, and why genuine, specific social proof outperforms vague, generic endorsements."
+              }
+            },
+            "ORANGE-L4-017": {
+              "id": "ORANGE-L4-017",
+              "type": "lesson",
+              "track": "ORANGE",
+              "trackName": "Sales & Marketing",
+              "level": 4,
+              "lessonNumber": 17,
+              "title": "Scarcity and Urgency Analysis: Why These Tactics Work, and Where the Ethical Line Sits",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-10",
+              "path": "content/curriculum/ORANGE/L4/ORANGE-L4-017.md",
+              "checksum": "sha256:sha256:36c9bf6f765872d922fbd32034ae916b8ee8b2df3a4ab582fe3afc397a17ac61",
+              "status": "active",
+              "ingestionId": "fadd3c54-6732-416b-a918-23f7cae0e9db",
+              "importedAt": "2026-10-10T06:43:14.662Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Sales & Marketing",
+                "summary": "Understand the psychological mechanism behind scarcity and urgency marketing tactics, why they can genuinely accelerate a purchase decision, and the important ethical distinction between genuine and fabricated scarcity or urgency."
+              }
+            },
+            "ORANGE-L4-018": {
+              "id": "ORANGE-L4-018",
+              "type": "lesson",
+              "track": "ORANGE",
+              "trackName": "Sales & Marketing",
+              "level": 4,
+              "lessonNumber": 18,
+              "title": "Referral Program Analysis: Why Incentivized Word-of-Mouth Compounds Differently Than Paid Acquisition",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-10",
+              "path": "content/curriculum/ORANGE/L4/ORANGE-L4-018.md",
+              "checksum": "sha256:sha256:88e2d21848493c160cca1c00e76746e0937923b72758ed31dd4d2021bef25226",
+              "status": "active",
+              "ingestionId": "fadd3c54-6732-416b-a918-23f7cae0e9db",
+              "importedAt": "2026-10-10T06:43:14.662Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Sales & Marketing",
+                "summary": "Understand why a well-structured referral program can produce compounding growth, why the incentive structure must genuinely benefit both the referrer and the new customer, and why referral quality generally exceeds cold-acquired customer quality."
+              }
+            },
+            "ORANGE-L4-019": {
+              "id": "ORANGE-L4-019",
+              "type": "lesson",
+              "track": "ORANGE",
+              "trackName": "Sales & Marketing",
+              "level": 4,
+              "lessonNumber": 19,
+              "title": "Influencer Marketing Analysis: Why Audience Trust Transfer, Not Follower Count Alone, Is the Actual Asset Being Purchased",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-10",
+              "path": "content/curriculum/ORANGE/L4/ORANGE-L4-019.md",
+              "checksum": "sha256:sha256:f0cda3dae622fcce301485a13fe56297a69e1a2d90c1b4c26c27cf96c1ef2611",
+              "status": "active",
+              "ingestionId": "fadd3c54-6732-416b-a918-23f7cae0e9db",
+              "importedAt": "2026-10-10T06:43:14.662Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Sales & Marketing",
+                "summary": "Understand why influencer marketing's genuine value lies in the transfer of an influencer's own audience trust, why follower count alone is a poor proxy for this trust transfer, and why audience-influencer fit matters more than raw reach."
+              }
+            },
+            "ORANGE-L4-020": {
+              "id": "ORANGE-L4-020",
+              "type": "lesson",
+              "track": "ORANGE",
+              "trackName": "Sales & Marketing",
+              "level": 4,
+              "lessonNumber": 20,
+              "title": "Marketing Mix Analysis: Why Product, Price, Place, and Promotion Must Work Together, Not in Isolation",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-10",
+              "path": "content/curriculum/ORANGE/L4/ORANGE-L4-020.md",
+              "checksum": "sha256:sha256:1d20cd56a4b9afef05d4306d71a1ffb684918548c88fd56d4d121b23faaf8e9f",
+              "status": "active",
+              "ingestionId": "fadd3c54-6732-416b-a918-23f7cae0e9db",
+              "importedAt": "2026-10-10T06:43:14.662Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Sales & Marketing",
+                "summary": "Understand the classic marketing mix framework (the four Ps), and why a strong decision in one element can be undermined by an inconsistent or misaligned decision in another."
+              }
+            },
+            "ORANGE-L4-021": {
+              "id": "ORANGE-L4-021",
+              "type": "lesson",
+              "track": "ORANGE",
+              "trackName": "Sales & Marketing",
+              "level": 4,
+              "lessonNumber": 21,
+              "title": "Search Engine Optimization Analysis: Why Organic Traffic Compounds Differently Than Paid Traffic",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-10",
+              "path": "content/curriculum/ORANGE/L4/ORANGE-L4-021.md",
+              "checksum": "sha256:sha256:128c8f7f49bd6b5ea80b5f81a4204a950d85fcbee001ddb74d0e71a1e7a8a969",
+              "status": "active",
+              "ingestionId": "fadd3c54-6732-416b-a918-23f7cae0e9db",
+              "importedAt": "2026-10-10T06:43:14.662Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Sales & Marketing",
+                "summary": "Understand why search engine optimization builds a durable, compounding traffic asset over time, in contrast to paid advertising's traffic, which stops the moment spending stops."
+              }
+            },
+            "ORANGE-L4-022": {
+              "id": "ORANGE-L4-022",
+              "type": "lesson",
+              "track": "ORANGE",
+              "trackName": "Sales & Marketing",
+              "level": 4,
+              "lessonNumber": 22,
+              "title": "Paid Advertising Return Analysis: Why Return on Ad Spend Requires Careful, Honest Attribution",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-10",
+              "path": "content/curriculum/ORANGE/L4/ORANGE-L4-022.md",
+              "checksum": "sha256:sha256:6890a244d4f67c8844591bf4eceebbe93260a45017c0a0591822831112cc3568",
+              "status": "active",
+              "ingestionId": "fadd3c54-6732-416b-a918-23f7cae0e9db",
+              "importedAt": "2026-10-10T06:43:14.662Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Sales & Marketing",
+                "summary": "Understand how return on ad spend (ROAS) is calculated, and why an inflated or poorly attributed ROAS figure can lead a business to over-invest in a channel that is not actually as efficient as the raw number suggests."
+              }
+            },
+            "ORANGE-L4-023": {
+              "id": "ORANGE-L4-023",
+              "type": "lesson",
+              "track": "ORANGE",
+              "trackName": "Sales & Marketing",
+              "level": 4,
+              "lessonNumber": 23,
+              "title": "Value Proposition Design Analysis: Why the Proposition Must Address a Genuine Job the Customer Is Trying to Get Done",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-10",
+              "path": "content/curriculum/ORANGE/L4/ORANGE-L4-023.md",
+              "checksum": "sha256:sha256:e6b2cdebdb66d1f7bc6bfdcb2450c83b6aa0b65fa74096ef0daf87089c294fe3",
+              "status": "active",
+              "ingestionId": "fadd3c54-6732-416b-a918-23f7cae0e9db",
+              "importedAt": "2026-10-10T06:43:14.662Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Sales & Marketing",
+                "summary": "Understand the 'jobs to be done' framework for value proposition design, and why a proposition framed around the customer's genuine underlying goal is more compelling than one framed purely around product features."
+              }
+            },
+            "ORANGE-L4-024": {
+              "id": "ORANGE-L4-024",
+              "type": "lesson",
+              "track": "ORANGE",
+              "trackName": "Sales & Marketing",
+              "level": 4,
+              "lessonNumber": 24,
+              "title": "Customer Journey Mapping Analysis: Why Visualizing the Full Path Reveals Gaps No Single Department Sees",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-10",
+              "path": "content/curriculum/ORANGE/L4/ORANGE-L4-024.md",
+              "checksum": "sha256:sha256:5d902a581b74c1a43c4ce393650d1b003be74ad3d764b1bd1a0512d841a7955a",
+              "status": "active",
+              "ingestionId": "fadd3c54-6732-416b-a918-23f7cae0e9db",
+              "importedAt": "2026-10-10T06:43:14.662Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Sales & Marketing",
+                "summary": "Understand the purpose of customer journey mapping, and why visualizing a customer's complete end-to-end experience reveals gaps and inconsistencies that no single department, focused only on its own specific touchpoint, would otherwise notice."
+              }
+            },
+            "ORANGE-L4-025": {
+              "id": "ORANGE-L4-025",
+              "type": "lesson",
+              "track": "ORANGE",
+              "trackName": "Sales & Marketing",
+              "level": 4,
+              "lessonNumber": 25,
+              "title": "Email List Ownership Analysis: Why an Owned Audience Is a Fundamentally Different Asset Than a Rented One",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-10",
+              "path": "content/curriculum/ORANGE/L4/ORANGE-L4-025.md",
+              "checksum": "sha256:sha256:220e1803d856ee5bf70a9c030e8776304de5606f7da4e0bf39ba6db84204da98",
+              "status": "active",
+              "ingestionId": "fadd3c54-6732-416b-a918-23f7cae0e9db",
+              "importedAt": "2026-10-10T06:43:14.662Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Sales & Marketing",
+                "summary": "Understand why an email list a business directly owns and controls represents a fundamentally different, more durable marketing asset than a social media following built on a platform the business does not control."
+              }
+            },
+            "ORANGE-L4-026": {
+              "id": "ORANGE-L4-026",
+              "type": "lesson",
+              "track": "ORANGE",
+              "trackName": "Sales & Marketing",
+              "level": 4,
+              "lessonNumber": 26,
+              "title": "Marketing Automation Analysis: Why Systems Enable Scale Without Proportional Headcount Growth",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-10",
+              "path": "content/curriculum/ORANGE/L4/ORANGE-L4-026.md",
+              "checksum": "sha256:sha256:e5382f5c7c6aecad772bcb6aa3c5162fdc738dcac42835de4d6f20db282e5f06",
+              "status": "active",
+              "ingestionId": "fadd3c54-6732-416b-a918-23f7cae0e9db",
+              "importedAt": "2026-10-10T06:43:14.662Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Sales & Marketing",
+                "summary": "Understand how marketing automation systems allow a business to deliver personalized, timely marketing communication at scale without a proportional increase in marketing staff, connecting to the BLUE-L4 track's scaling economics discussion."
+              }
+            },
+            "ORANGE-L4-027": {
+              "id": "ORANGE-L4-027",
+              "type": "lesson",
+              "track": "ORANGE",
+              "trackName": "Sales & Marketing",
+              "level": 4,
+              "lessonNumber": 27,
+              "title": "Public Relations vs Advertising Analysis: Why Earned Media Carries Different Credibility Than Paid Media",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-10",
+              "path": "content/curriculum/ORANGE/L4/ORANGE-L4-027.md",
+              "checksum": "sha256:sha256:711760bbecfd43915953ca33d079e1d4819386a9ca2a010e5cfd825c365a3e8a",
+              "status": "active",
+              "ingestionId": "fadd3c54-6732-416b-a918-23f7cae0e9db",
+              "importedAt": "2026-10-10T06:43:14.662Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Sales & Marketing",
+                "summary": "Understand the distinction between paid advertising and earned public relations coverage, and why earned coverage generally carries more credibility with an audience precisely because the business does not directly control its content."
+              }
+            },
+            "ORANGE-L4-028": {
+              "id": "ORANGE-L4-028",
+              "type": "lesson",
+              "track": "ORANGE",
+              "trackName": "Sales & Marketing",
+              "level": 4,
+              "lessonNumber": 28,
+              "title": "Crisis Communication Analysis: Why Speed and Honesty Determine the Ultimate Reputational Outcome",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-10",
+              "path": "content/curriculum/ORANGE/L4/ORANGE-L4-028.md",
+              "checksum": "sha256:sha256:c44aa6277c71b65b2a2f7f4045ce00266cc133e9c93f178193d2664a5d9849e7",
+              "status": "active",
+              "ingestionId": "fadd3c54-6732-416b-a918-23f7cae0e9db",
+              "importedAt": "2026-10-10T06:43:14.662Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Sales & Marketing",
+                "summary": "Understand the general principles of effective crisis communication, and why the speed and honesty of a business's initial response generally determines the ultimate reputational outcome more than the severity of the underlying incident itself."
+              }
+            },
+            "ORANGE-L4-029": {
+              "id": "ORANGE-L4-029",
+              "type": "lesson",
+              "track": "ORANGE",
+              "trackName": "Sales & Marketing",
+              "level": 4,
+              "lessonNumber": 29,
+              "title": "Cross-Cultural Marketing Analysis: Why Messaging Rarely Translates Directly Across Markets",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-10",
+              "path": "content/curriculum/ORANGE/L4/ORANGE-L4-029.md",
+              "checksum": "sha256:sha256:0dafbf0488b941c40c346c2dad9e53b3c204c845bd727f4ccea9eec5cff64165",
+              "status": "active",
+              "ingestionId": "fadd3c54-6732-416b-a918-23f7cae0e9db",
+              "importedAt": "2026-10-10T06:43:14.662Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Sales & Marketing",
+                "summary": "Understand why marketing messaging developed for one specific cultural or linguistic context frequently fails, or even actively backfires, when directly translated for a different market, and why genuine localization requires more than literal language translation alone."
+              }
+            },
+            "ORANGE-L4-030": {
+              "id": "ORANGE-L4-030",
+              "type": "lesson",
+              "track": "ORANGE",
+              "trackName": "Sales & Marketing",
+              "level": 4,
+              "lessonNumber": 30,
+              "title": "Trade Show and Event Marketing Analysis: Why ROI Is Genuinely Harder to Measure Than for Most Digital Channels",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-10",
+              "path": "content/curriculum/ORANGE/L4/ORANGE-L4-030.md",
+              "checksum": "sha256:sha256:a9c1cc37e80414cbb210019f4c03b340faf26ba0830d5a350916bdcae3bf90fe",
+              "status": "active",
+              "ingestionId": "fadd3c54-6732-416b-a918-23f7cae0e9db",
+              "importedAt": "2026-10-10T06:43:14.662Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Sales & Marketing",
+                "summary": "Understand why measuring the return on investment from trade show and event marketing is genuinely more difficult than for most digital marketing channels, and why a business should still apply deliberate, structured measurement rather than treating event participation as an unmeasured act of faith."
+              }
+            },
+            "ORANGE-L4-031": {
+              "id": "ORANGE-L4-031",
+              "type": "lesson",
+              "track": "ORANGE",
+              "trackName": "Sales & Marketing",
+              "level": 4,
+              "lessonNumber": 31,
+              "title": "Market Research Analysis: Why Primary and Secondary Research Serve Genuinely Different Purposes",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-10",
+              "path": "content/curriculum/ORANGE/L4/ORANGE-L4-031.md",
+              "checksum": "sha256:sha256:08112a33afb1965719c3e006a619a47dfb093a5e1ef4892436142f635913459a",
+              "status": "active",
+              "ingestionId": "fadd3c54-6732-416b-a918-23f7cae0e9db",
+              "importedAt": "2026-10-10T06:43:14.662Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Sales & Marketing",
+                "summary": "Understand the distinction between primary and secondary market research, and why each serves a genuinely different purpose in informing a sound marketing strategy."
+              }
+            },
+            "ORANGE-L4-032": {
+              "id": "ORANGE-L4-032",
+              "type": "lesson",
+              "track": "ORANGE",
+              "trackName": "Sales & Marketing",
+              "level": 4,
+              "lessonNumber": 32,
+              "title": "Competitive Analysis Framework: Why Knowing a Competitor's Actual Position Shapes Your Own Strategic Choices",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-10",
+              "path": "content/curriculum/ORANGE/L4/ORANGE-L4-032.md",
+              "checksum": "sha256:sha256:7325f82f00e880b1e23d8fbc5606969271e1b314aff2169f8f12bf750ee0cde7",
+              "status": "active",
+              "ingestionId": "fadd3c54-6732-416b-a918-23f7cae0e9db",
+              "importedAt": "2026-10-10T06:43:14.662Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Sales & Marketing",
+                "summary": "Understand the general framework for competitive analysis, and why understanding a competitor's actual strategic position, not merely their product features, should inform a business's own strategic choices."
+              }
+            },
+            "ORANGE-L4-033": {
+              "id": "ORANGE-L4-033",
+              "type": "lesson",
+              "track": "ORANGE",
+              "trackName": "Sales & Marketing",
+              "level": 4,
+              "lessonNumber": 33,
+              "title": "Marketing SWOT Cross-Reference Analysis: Why Applying the SWOT Framework to Marketing Requires the Same Specific Honesty",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-10",
+              "path": "content/curriculum/ORANGE/L4/ORANGE-L4-033.md",
+              "checksum": "sha256:sha256:ed7c21dfb8de6ce4805d02f87d2639b6463e2a5a33eea451c88c23dd1de55068",
+              "status": "active",
+              "ingestionId": "fadd3c54-6732-416b-a918-23f7cae0e9db",
+              "importedAt": "2026-10-10T06:43:14.662Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Sales & Marketing",
+                "summary": "Apply the BLUE-L4 track's SWOT analysis framework specifically to marketing strategy, and understand why the same requirement for specific, honest input, rather than generic statements, applies equally in this marketing-specific context."
+              }
+            },
+            "ORANGE-L4-034": {
+              "id": "ORANGE-L4-034",
+              "type": "lesson",
+              "track": "ORANGE",
+              "trackName": "Sales & Marketing",
+              "level": 4,
+              "lessonNumber": 34,
+              "title": "Sales Negotiation Analysis: Why BATNA Determines Genuine Negotiating Leverage",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-10",
+              "path": "content/curriculum/ORANGE/L4/ORANGE-L4-034.md",
+              "checksum": "sha256:sha256:7e2a5b7b6e867a00af0d02c04497d8554db2a4d635720f2a891cc5035e4216f6",
+              "status": "active",
+              "ingestionId": "fadd3c54-6732-416b-a918-23f7cae0e9db",
+              "importedAt": "2026-10-10T06:43:14.662Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Sales & Marketing",
+                "summary": "Understand the concept of BATNA (best alternative to a negotiated agreement), and why the strength of each party's own specific alternative, more than any particular negotiating tactic, genuinely determines negotiating leverage."
+              }
+            },
+            "ORANGE-L4-035": {
+              "id": "ORANGE-L4-035",
+              "type": "lesson",
+              "track": "ORANGE",
+              "trackName": "Sales & Marketing",
+              "level": 4,
+              "lessonNumber": 35,
+              "title": "Key Account Management Analysis: Why the Largest Customers Require a Fundamentally Different Approach",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-10",
+              "path": "content/curriculum/ORANGE/L4/ORANGE-L4-035.md",
+              "checksum": "sha256:sha256:3173428f2bd5e95bde96a94a79966928e1625feae23971388bf30ada18853034",
+              "status": "active",
+              "ingestionId": "fadd3c54-6732-416b-a918-23f7cae0e9db",
+              "importedAt": "2026-10-10T06:43:14.662Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Sales & Marketing",
+                "summary": "Understand why a business's largest, most significant customers generally require a dedicated key account management approach genuinely different from the approach used for its broader customer base, connecting to the BLUE-L4 track's customer concentration risk discussion."
+              }
+            },
+            "ORANGE-L4-036": {
+              "id": "ORANGE-L4-036",
+              "type": "lesson",
+              "track": "ORANGE",
+              "trackName": "Sales & Marketing",
+              "level": 4,
+              "lessonNumber": 36,
+              "title": "Channel Partner and Distributor Analysis: Why Indirect Sales Channels Trade Direct Control for Expanded Reach",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-10",
+              "path": "content/curriculum/ORANGE/L4/ORANGE-L4-036.md",
+              "checksum": "sha256:sha256:2979c213dfbf2ae621224a8422f0224e0751b29b506cb51d10306cae513b8618",
+              "status": "active",
+              "ingestionId": "fadd3c54-6732-416b-a918-23f7cae0e9db",
+              "importedAt": "2026-10-10T06:43:14.662Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Sales & Marketing",
+                "summary": "Understand the tradeoff a business accepts when selling through channel partners or distributors rather than directly to end customers, gaining expanded market reach in exchange for reduced direct control over the customer relationship and experience."
+              }
+            },
+            "ORANGE-L4-037": {
+              "id": "ORANGE-L4-037",
+              "type": "lesson",
+              "track": "ORANGE",
+              "trackName": "Sales & Marketing",
+              "level": 4,
+              "lessonNumber": 37,
+              "title": "Marketing Budget Allocation Analysis: Why the Right Split Depends Heavily on Business Stage",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-10",
+              "path": "content/curriculum/ORANGE/L4/ORANGE-L4-037.md",
+              "checksum": "sha256:sha256:a0f66cbd81a2906a1eaffacd7e375dc3149466a627f7b9dd85c18cc0af12346d",
+              "status": "active",
+              "ingestionId": "fadd3c54-6732-416b-a918-23f7cae0e9db",
+              "importedAt": "2026-10-10T06:43:14.662Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Sales & Marketing",
+                "summary": "Understand why the appropriate allocation of a marketing budget across acquisition, retention, and brand-building activities genuinely depends on a business's specific current stage, rather than following a single, universal ratio."
+              }
+            },
+            "ORANGE-L4-038": {
+              "id": "ORANGE-L4-038",
+              "type": "lesson",
+              "track": "ORANGE",
+              "trackName": "Sales & Marketing",
+              "level": 4,
+              "lessonNumber": 38,
+              "title": "Product Launch Timing Analysis: Why the Same Product Can Succeed or Fail Based Purely on Market Timing",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-10",
+              "path": "content/curriculum/ORANGE/L4/ORANGE-L4-038.md",
+              "checksum": "sha256:sha256:9fd9b9d3e663634779db83a08731c9375d283f3a1e3b852f2e6f8561e98a94a8",
+              "status": "active",
+              "ingestionId": "fadd3c54-6732-416b-a918-23f7cae0e9db",
+              "importedAt": "2026-10-10T06:43:14.662Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Sales & Marketing",
+                "summary": "Understand why the timing of a product launch, independent of the product's own inherent quality, significantly affects its likelihood of success, and why businesses should deliberately assess market readiness before committing to a specific launch date."
+              }
+            },
+            "ORANGE-L4-039": {
+              "id": "ORANGE-L4-039",
+              "type": "lesson",
+              "track": "ORANGE",
+              "trackName": "Sales & Marketing",
+              "level": 4,
+              "lessonNumber": 39,
+              "title": "Loyalty Program Analysis: Why the Right Reward Structure Depends on What Actually Drives Repeat Behavior",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-10",
+              "path": "content/curriculum/ORANGE/L4/ORANGE-L4-039.md",
+              "checksum": "sha256:sha256:ff203336158274d6eb68cb2a7b4de78f02d5bb31c2d66c960bc11b5b71445dd8",
+              "status": "active",
+              "ingestionId": "fadd3c54-6732-416b-a918-23f7cae0e9db",
+              "importedAt": "2026-10-10T06:43:14.662Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Sales & Marketing",
+                "summary": "Understand the general purpose of a customer loyalty program, and why the specific reward structure chosen should reflect genuine insight into what actually motivates that particular customer base's repeat purchasing behavior."
+              }
+            },
+            "ORANGE-L4-040": {
+              "id": "ORANGE-L4-040",
+              "type": "lesson",
+              "track": "ORANGE",
+              "trackName": "Sales & Marketing",
+              "level": 4,
+              "lessonNumber": 40,
+              "title": "Marketing Analytics Integration: Why Segmentation, Positioning, Funnel, and Attribution Must Be Read Together",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-10",
+              "path": "content/curriculum/ORANGE/L4/ORANGE-L4-040.md",
+              "checksum": "sha256:sha256:b91121cb4cf34685afada8f05ac36abc23de9bcd4dc56162a685d6612a764c15",
+              "status": "active",
+              "ingestionId": "fadd3c54-6732-416b-a918-23f7cae0e9db",
+              "importedAt": "2026-10-10T06:43:14.662Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Sales & Marketing",
+                "summary": "Synthesize this level's foundational marketing concepts — segmentation, positioning, the funnel, and attribution — into a single, integrated view of how a coherent marketing strategy actually functions across these interconnected dimensions."
+              }
+            },
+            "ORANGE-L4-041": {
+              "id": "ORANGE-L4-041",
+              "type": "lesson",
+              "track": "ORANGE",
+              "trackName": "Sales & Marketing",
+              "level": 4,
+              "lessonNumber": 41,
+              "title": "Freemium and Trial Conversion Analysis: Why the Free-to-Paid Funnel Requires Its Own Distinct Design",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-10",
+              "path": "content/curriculum/ORANGE/L4/ORANGE-L4-041.md",
+              "checksum": "sha256:sha256:913a7e033d64618794f9c6e850a9a739529027f9fa0856e9ce9fa455d34f69f0",
+              "status": "active",
+              "ingestionId": "fadd3c54-6732-416b-a918-23f7cae0e9db",
+              "importedAt": "2026-10-10T06:43:14.662Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Sales & Marketing",
+                "summary": "Understand why converting a free or trial user into a paying customer requires a genuinely distinct funnel design, separate from the funnel used to acquire that free user in the first place."
+              }
+            },
+            "ORANGE-L4-042": {
+              "id": "ORANGE-L4-042",
+              "type": "lesson",
+              "track": "ORANGE",
+              "trackName": "Sales & Marketing",
+              "level": 4,
+              "lessonNumber": 42,
+              "title": "Anchoring in Price Presentation Analysis: Why the Order and Framing of Prices Shapes Perceived Value",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-10",
+              "path": "content/curriculum/ORANGE/L4/ORANGE-L4-042.md",
+              "checksum": "sha256:sha256:2bb212c0e02ed93af18a0809d3a4468ccb28a6c15497a0c3b44fd284dd81215d",
+              "status": "active",
+              "ingestionId": "fadd3c54-6732-416b-a918-23f7cae0e9db",
+              "importedAt": "2026-10-10T06:43:14.662Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Sales & Marketing",
+                "summary": "Apply the GOLD-L4 track's anchoring bias discussion specifically to price presentation, and understand why the order in which prices are shown, and what they are compared against, shapes how a given price is actually perceived."
+              }
+            },
+            "ORANGE-L4-043": {
+              "id": "ORANGE-L4-043",
+              "type": "lesson",
+              "track": "ORANGE",
+              "trackName": "Sales & Marketing",
+              "level": 4,
+              "lessonNumber": 43,
+              "title": "Win-Back Campaign Analysis: Why Reactivating a Lapsed Customer Differs From Acquiring a New One",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-10",
+              "path": "content/curriculum/ORANGE/L4/ORANGE-L4-043.md",
+              "checksum": "sha256:sha256:2867292b6f6d487425bea65c0f91e4ecf3917e770e0cdcc873d12e86637c3395",
+              "status": "active",
+              "ingestionId": "fadd3c54-6732-416b-a918-23f7cae0e9db",
+              "importedAt": "2026-10-10T06:43:14.662Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Sales & Marketing",
+                "summary": "Understand why a win-back campaign targeting a lapsed former customer requires a genuinely different approach than acquiring an entirely new customer, since the lapsed customer's own specific reason for leaving must be addressed directly."
+              }
+            },
+            "ORANGE-L4-044": {
+              "id": "ORANGE-L4-044",
+              "type": "lesson",
+              "track": "ORANGE",
+              "trackName": "Sales & Marketing",
+              "level": 4,
+              "lessonNumber": 44,
+              "title": "Co-Marketing and Partnership Analysis: Why Shared-Audience Collaborations Can Lower Acquisition Cost for Both Parties",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-10",
+              "path": "content/curriculum/ORANGE/L4/ORANGE-L4-044.md",
+              "checksum": "sha256:sha256:e4599753e2992554f93eefee77b8e01e74a5d979f8cfe63d13f5375197de79f9",
+              "status": "active",
+              "ingestionId": "fadd3c54-6732-416b-a918-23f7cae0e9db",
+              "importedAt": "2026-10-10T06:43:14.662Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Sales & Marketing",
+                "summary": "Understand how a co-marketing partnership between two non-competing businesses sharing a similar target audience can lower customer acquisition cost for both parties, and why selecting a genuinely aligned partner matters significantly to this approach working."
+              }
+            },
+            "ORANGE-L4-045": {
+              "id": "ORANGE-L4-045",
+              "type": "lesson",
+              "track": "ORANGE",
+              "trackName": "Sales & Marketing",
+              "level": 4,
+              "lessonNumber": 45,
+              "title": "Affiliate Marketing Analysis: Why Performance-Based Compensation Aligns Incentives Differently Than Traditional Advertising",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-10",
+              "path": "content/curriculum/ORANGE/L4/ORANGE-L4-045.md",
+              "checksum": "sha256:sha256:59d576e0955a8f0fcc840a450348d9d19cc776caddceee016bcb733f166a0b12",
+              "status": "active",
+              "ingestionId": "fadd3c54-6732-416b-a918-23f7cae0e9db",
+              "importedAt": "2026-10-10T06:43:14.662Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Sales & Marketing",
+                "summary": "Understand the general structure of affiliate marketing, why its performance-based compensation model aligns incentives differently than traditional upfront advertising spend, and the specific oversight this structure still requires."
+              }
+            },
+            "ORANGE-L4-046": {
+              "id": "ORANGE-L4-046",
+              "type": "lesson",
+              "track": "ORANGE",
+              "trackName": "Sales & Marketing",
+              "level": 4,
+              "lessonNumber": 46,
+              "title": "Competitive Aggression Analysis: Why Some Moments in the Market Call for Offense, Not Defense",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-10",
+              "path": "content/curriculum/ORANGE/L4/ORANGE-L4-046.md",
+              "checksum": "sha256:sha256:65eb35dfe2492dbbfec4c505bddfdca795517177e7815e0b54734a4de205543e",
+              "status": "active",
+              "ingestionId": "fadd3c54-6732-416b-a918-23f7cae0e9db",
+              "importedAt": "2026-10-10T06:43:14.662Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Sales & Marketing",
+                "summary": "Understand the strategic principle that a purely defensive competitive posture can only prevent loss, never produce a genuine win, and why certain specific market moments call for deliberate, decisive competitive offense rather than continued caution."
+              }
+            },
+            "ORANGE-L4-047": {
+              "id": "ORANGE-L4-047",
+              "type": "lesson",
+              "track": "ORANGE",
+              "trackName": "Sales & Marketing",
+              "level": 4,
+              "lessonNumber": 47,
+              "title": "Market Entry Timing Analysis: Recognizing and Seizing a Genuine Window of Opportunity",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-10",
+              "path": "content/curriculum/ORANGE/L4/ORANGE-L4-047.md",
+              "checksum": "sha256:sha256:1d9069333f89c7caf7cb9b900f4a1d58954e471794d7ede04da0f75f8cebaa06",
+              "status": "active",
+              "ingestionId": "fadd3c54-6732-416b-a918-23f7cae0e9db",
+              "importedAt": "2026-10-10T06:43:14.662Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Sales & Marketing",
+                "summary": "Understand why recognizing a genuine, time-limited window of market opportunity, and acting on it decisively rather than defaulting to caution, can determine whether a business captures an opening or watches it close."
+              }
+            },
+            "ORANGE-L4-048": {
+              "id": "ORANGE-L4-048",
+              "type": "lesson",
+              "track": "ORANGE",
+              "trackName": "Sales & Marketing",
+              "level": 4,
+              "lessonNumber": 48,
+              "title": "Aggressive Pricing and Share-Capture Strategy Analysis: Why a Half-Committed Move Wastes the Opportunity",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-10",
+              "path": "content/curriculum/ORANGE/L4/ORANGE-L4-048.md",
+              "checksum": "sha256:sha256:88ca615fd95a40b97801e15ae55acdbafcf70ae1813d51500533410b036fb198",
+              "status": "active",
+              "ingestionId": "fadd3c54-6732-416b-a918-23f7cae0e9db",
+              "importedAt": "2026-10-10T06:43:14.662Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Sales & Marketing",
+                "summary": "Understand why, once a business has genuinely decided to pursue an aggressive share-capture strategy, committing fully to that specific strategy is essential, since a half-committed, underpowered effort risks the costs of aggression without its intended benefit."
+              }
+            },
+            "ORANGE-L4-049": {
+              "id": "ORANGE-L4-049",
+              "type": "lesson",
+              "track": "ORANGE",
+              "trackName": "Sales & Marketing",
+              "level": 4,
+              "lessonNumber": 49,
+              "title": "Competitive Response Analysis: When to Escalate vs When to Fall Back and Regroup",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-10",
+              "path": "content/curriculum/ORANGE/L4/ORANGE-L4-049.md",
+              "checksum": "sha256:sha256:2271cfed00d32acf5551f576d76132b09c3b09dee4ba12f5905f762113ab3721",
+              "status": "active",
+              "ingestionId": "fadd3c54-6732-416b-a918-23f7cae0e9db",
+              "importedAt": "2026-10-10T06:43:14.662Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Sales & Marketing",
+                "summary": "Understand the general framework for deciding whether to escalate a competitive response or instead fall back and regroup, and why this decision should be reassessed on an ongoing basis rather than treated as a single, one-time commitment."
+              }
+            },
+            "ORANGE-L4-050": {
+              "id": "ORANGE-L4-050",
+              "type": "lesson",
+              "track": "ORANGE",
+              "trackName": "Sales & Marketing",
+              "level": 4,
+              "lessonNumber": 50,
+              "title": "Go-to-Market Integration: Building a Coherent Sales and Marketing Strategy Across the Aggression-Defense Spectrum",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-10",
+              "path": "content/curriculum/ORANGE/L4/ORANGE-L4-050.md",
+              "checksum": "sha256:sha256:afd2b1cb41dcb2c3318cb0d1946f0fd25b9dc3505ec0306613440f59aea5a39c",
+              "status": "active",
+              "ingestionId": "fadd3c54-6732-416b-a918-23f7cae0e9db",
+              "importedAt": "2026-10-10T06:43:14.662Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Sales & Marketing",
+                "summary": "Synthesize this level's full range of concepts — segmentation, positioning, funnel management, behavioral principles, channel strategy, and competitive timing — into a single, integrated go-to-market framework spanning disciplined defense and decisive offense."
+              }
+            }
+          }
         },
         "5": {
           "assets": {}
