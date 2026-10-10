@@ -109,6 +109,13 @@ export async function getRecoverableUploads(): Promise<RecoveryCandidate[]> {
     if (!match) continue;
 
     const [, batchId, uploadId, originalFilename] = match;
+    // Workspace listings do not include object size. Verify the stored ZIP
+    // before offering Recovery so zero-byte placeholders never pollute the queue.
+    const storedZip = await storage.readBinary(storagePath);
+    if (!storedZip || storedZip.length === 0) {
+      seen.add(storagePath);
+      continue;
+    }
     seen.add(storagePath);
     candidates.push({
       batchId,
@@ -116,7 +123,7 @@ export async function getRecoverableUploads(): Promise<RecoveryCandidate[]> {
         uploadId,
         originalFilename,
         mimeType: "application/zip",
-        sizeBytes: 0,
+        sizeBytes: storedZip.length,
         storagePath,
       },
     });
@@ -137,8 +144,13 @@ export async function getRecoverableUploads(): Promise<RecoveryCandidate[]> {
       const receipt = await getUploadReceipt(uploadRecord.id);
       if (await receiptIsActuallyComplete(receipt)) continue;
       if (receipt?.state === "FAILED" && receipt.retryable === false) continue;
+      const storedZip = await storage.readBinary(storagePath);
+      if (!storedZip || storedZip.length === 0) {
+        seen.add(storagePath);
+        continue;
+      }
       seen.add(storagePath);
-      candidates.push({ batchId: uploadRecord.batchId ?? batch.id, upload: { uploadId: uploadRecord.id, originalFilename: uploadRecord.originalFilename, mimeType: uploadRecord.mimeType || "application/zip", sizeBytes: uploadRecord.sizeBytes ?? 0, storagePath } });
+      candidates.push({ batchId: uploadRecord.batchId ?? batch.id, upload: { uploadId: uploadRecord.id, originalFilename: uploadRecord.originalFilename, mimeType: uploadRecord.mimeType || "application/zip", sizeBytes: storedZip.length, storagePath } });
     }
   }
   return candidates;
