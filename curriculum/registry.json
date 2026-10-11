@@ -1,7 +1,7 @@
 {
   "_schema": "curriculum/schemas/registry.schema.json",
   "_version": "1.0",
-  "_generated": "2026-10-11T02:47:56.456Z",
+  "_generated": "2026-10-11T01:51:43.902Z",
   "_note": "Authoritative curriculum registry (empty lessons are a valid production state).",
   "tracks": {
     "RED": {
@@ -1216,7 +1216,1258 @@
           "assets": {}
         },
         "4": {
-          "assets": {}
+          "assets": {
+            "RED-L4-001": {
+              "id": "RED-L4-001",
+              "type": "lesson",
+              "track": "RED",
+              "trackName": "Real Estate",
+              "level": 4,
+              "lessonNumber": 1,
+              "title": "Cap Rate Analysis: Why It Reveals Risk, Not Just Return",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-11",
+              "path": "content/curriculum/RED/L4/RED-L4-001.md",
+              "checksum": "sha256:e89cf766a4f6e2187b92128382af45eead425ee4de8a5b0f4a8c9e6bd46603a4",
+              "status": "active",
+              "ingestionId": "3ecabb1e-9964-43c4-a430-4f498c32ea40",
+              "importedAt": "2026-10-11T01:49:13.593Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Real Estate",
+                "summary": "Learn why capitalization rate measures risk as much as return, and how to read a cap rate correctly before buying a rental property."
+              }
+            },
+            "RED-L4-002": {
+              "id": "RED-L4-002",
+              "type": "lesson",
+              "track": "RED",
+              "trackName": "Real Estate",
+              "level": 4,
+              "lessonNumber": 2,
+              "title": "Cash-on-Cash Return vs Total Return: Why They Tell Different Stories",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-11",
+              "path": "content/curriculum/RED/L4/RED-L4-002.md",
+              "checksum": "sha256:d79e8598a7969160f0a5a3da49d0bd2edd3d1faa41731e6174cd2145ae477e05",
+              "status": "active",
+              "ingestionId": "3ecabb1e-9964-43c4-a430-4f498c32ea40",
+              "importedAt": "2026-10-11T01:49:13.593Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Real Estate",
+                "summary": "Understand why cash-on-cash return and total return can point in opposite directions, and why an investor needs both numbers, not just one."
+              }
+            },
+            "RED-L4-003": {
+              "id": "RED-L4-003",
+              "type": "lesson",
+              "track": "RED",
+              "trackName": "Real Estate",
+              "level": 4,
+              "lessonNumber": 3,
+              "title": "IRR vs Cap Rate: Why Time Value Changes the Picture",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-11",
+              "path": "content/curriculum/RED/L4/RED-L4-003.md",
+              "checksum": "sha256:5b14b7e4d9b6b3873b45f25c00f6b49fa9d67b75850a6e779acd3a32139b2217",
+              "status": "active",
+              "ingestionId": "3ecabb1e-9964-43c4-a430-4f498c32ea40",
+              "importedAt": "2026-10-11T01:49:13.593Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Real Estate",
+                "summary": "Learn why Internal Rate of Return accounts for the timing of money in a way cap rate never can, and when each metric is the right tool."
+              }
+            },
+            "RED-L4-004": {
+              "id": "RED-L4-004",
+              "type": "lesson",
+              "track": "RED",
+              "trackName": "Real Estate",
+              "level": 4,
+              "lessonNumber": 4,
+              "title": "NOI Deep Dive: Why Expense Ratios Vary by Property Class",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-11",
+              "path": "content/curriculum/RED/L4/RED-L4-004.md",
+              "checksum": "sha256:abc1606b012bc43981029a371555a8dca2163b95b757cb50fcf28c4884ba199e",
+              "status": "active",
+              "ingestionId": "3ecabb1e-9964-43c4-a430-4f498c32ea40",
+              "importedAt": "2026-10-11T01:49:13.593Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Real Estate",
+                "summary": "Learn why operating expense ratios differ sharply across property classes, and why misjudging expenses is one of the most common analysis mistakes."
+              }
+            },
+            "RED-L4-005": {
+              "id": "RED-L4-005",
+              "type": "lesson",
+              "track": "RED",
+              "trackName": "Real Estate",
+              "level": 4,
+              "lessonNumber": 5,
+              "title": "Market Cycle Analysis: Why Real Estate Moves in Predictable Phases",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-11",
+              "path": "content/curriculum/RED/L4/RED-L4-005.md",
+              "checksum": "sha256:02b42eac686f1e958a8e23f84c70e25627b37a5260b73359334d10c71b70648a",
+              "status": "active",
+              "ingestionId": "3ecabb1e-9964-43c4-a430-4f498c32ea40",
+              "importedAt": "2026-10-11T01:49:13.593Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Real Estate",
+                "summary": "Understand the four phases of the real estate market cycle and why recognizing the current phase changes what strategy makes sense."
+              }
+            },
+            "RED-L4-006": {
+              "id": "RED-L4-006",
+              "type": "lesson",
+              "track": "RED",
+              "trackName": "Real Estate",
+              "level": 4,
+              "lessonNumber": 6,
+              "title": "Supply and Demand Analysis: Why Vacancy Rates Signal Future Rent Growth",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-11",
+              "path": "content/curriculum/RED/L4/RED-L4-006.md",
+              "checksum": "sha256:d6924fe610560e4498407c90cfec03084661bb333b37c03dcf451c8f16cf5782",
+              "status": "active",
+              "ingestionId": "3ecabb1e-9964-43c4-a430-4f498c32ea40",
+              "importedAt": "2026-10-11T01:49:13.593Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Real Estate",
+                "summary": "Learn why vacancy rate is a leading indicator for future rent trends, and how to read the signal before it shows up in the headlines."
+              }
+            },
+            "RED-L4-007": {
+              "id": "RED-L4-007",
+              "type": "lesson",
+              "track": "RED",
+              "trackName": "Real Estate",
+              "level": 4,
+              "lessonNumber": 7,
+              "title": "Interest Rate Sensitivity: Why Cap Rates and Rates Move Together",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-11",
+              "path": "content/curriculum/RED/L4/RED-L4-007.md",
+              "checksum": "sha256:50340b60a0b02fa58097625336209b10ce2da368f7f20828845a4837c0959b6c",
+              "status": "active",
+              "ingestionId": "3ecabb1e-9964-43c4-a430-4f498c32ea40",
+              "importedAt": "2026-10-11T01:49:13.593Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Real Estate",
+                "summary": "Understand why cap rates and interest rates tend to move in the same direction over time, and why this matters for both buying and selling decisions."
+              }
+            },
+            "RED-L4-008": {
+              "id": "RED-L4-008",
+              "type": "lesson",
+              "track": "RED",
+              "trackName": "Real Estate",
+              "level": 4,
+              "lessonNumber": 8,
+              "title": "1031 Exchange Analysis: Why Deferral Beats Immediate Taxation",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-11",
+              "path": "content/curriculum/RED/L4/RED-L4-008.md",
+              "checksum": "sha256:d4b45bdcbfb98abc6f581d8566bd40e95b6de37d8a9304a6e02735b746bd87e5",
+              "status": "active",
+              "ingestionId": "3ecabb1e-9964-43c4-a430-4f498c32ea40",
+              "importedAt": "2026-10-11T01:49:13.593Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Real Estate",
+                "summary": "Understand why deferring capital gains tax through a 1031 exchange can meaningfully compound an investor's wealth over time, and what rules govern it."
+              }
+            },
+            "RED-L4-009": {
+              "id": "RED-L4-009",
+              "type": "lesson",
+              "track": "RED",
+              "trackName": "Real Estate",
+              "level": 4,
+              "lessonNumber": 9,
+              "title": "Depreciation Recapture: Why the Tax Bill Comes Due Eventually",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-11",
+              "path": "content/curriculum/RED/L4/RED-L4-009.md",
+              "checksum": "sha256:4dcc02c397543984c7f9c1a5de48c2ab6b1e1bd1aed59f44c18ea7c45ea66e02",
+              "status": "active",
+              "ingestionId": "3ecabb1e-9964-43c4-a430-4f498c32ea40",
+              "importedAt": "2026-10-11T01:49:13.593Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Real Estate",
+                "summary": "Understand why depreciation, while valuable during ownership, creates a tax obligation that comes due upon sale, and why planning for it matters."
+              }
+            },
+            "RED-L4-010": {
+              "id": "RED-L4-010",
+              "type": "lesson",
+              "track": "RED",
+              "trackName": "Real Estate",
+              "level": 4,
+              "lessonNumber": 10,
+              "title": "Cost Segregation Analysis: Why Accelerating Depreciation Changes Cash Flow",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-11",
+              "path": "content/curriculum/RED/L4/RED-L4-010.md",
+              "checksum": "sha256:1f885db347eb41a17745701a262573a5f0977db0a689e02bf6ee16113b29deb4",
+              "status": "active",
+              "ingestionId": "3ecabb1e-9964-43c4-a430-4f498c32ea40",
+              "importedAt": "2026-10-11T01:49:13.593Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Real Estate",
+                "summary": "Learn why cost segregation studies can front-load depreciation deductions, improving near-term cash flow, and what tradeoffs come with that acceleration."
+              }
+            },
+            "RED-L4-011": {
+              "id": "RED-L4-011",
+              "type": "lesson",
+              "track": "RED",
+              "trackName": "Real Estate",
+              "level": 4,
+              "lessonNumber": 11,
+              "title": "Debt Service Coverage Ratio: Why Lenders Weight It Over Cap Rate",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-11",
+              "path": "content/curriculum/RED/L4/RED-L4-011.md",
+              "checksum": "sha256:754bf972a041e69865d78ae7f9450559a9f1412b8e82c0c9d0f9472d13b1df2c",
+              "status": "active",
+              "ingestionId": "3ecabb1e-9964-43c4-a430-4f498c32ea40",
+              "importedAt": "2026-10-11T01:49:13.593Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Real Estate",
+                "summary": "Learn why lenders care more about Debt Service Coverage Ratio than cap rate, and how DSCR shapes how much a property can actually be financed."
+              }
+            },
+            "RED-L4-012": {
+              "id": "RED-L4-012",
+              "type": "lesson",
+              "track": "RED",
+              "trackName": "Real Estate",
+              "level": 4,
+              "lessonNumber": 12,
+              "title": "Loan-to-Value Analysis: Why Leverage Cuts Both Ways",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-11",
+              "path": "content/curriculum/RED/L4/RED-L4-012.md",
+              "checksum": "sha256:015d55fbe3e225b647a592765e71db34edd3c5aec055aca5dce29792fb6be7d6",
+              "status": "active",
+              "ingestionId": "3ecabb1e-9964-43c4-a430-4f498c32ea40",
+              "importedAt": "2026-10-11T01:49:13.593Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Real Estate",
+                "summary": "Understand why loan-to-value ratio amplifies both gains and losses, and why higher leverage is not automatically a better strategy."
+              }
+            },
+            "RED-L4-013": {
+              "id": "RED-L4-013",
+              "type": "lesson",
+              "track": "RED",
+              "trackName": "Real Estate",
+              "level": 4,
+              "lessonNumber": 13,
+              "title": "Refinance vs Sell Analysis: Why the Tax-Free Cash-Out Wins Sometimes",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-11",
+              "path": "content/curriculum/RED/L4/RED-L4-013.md",
+              "checksum": "sha256:2ca6797c08ac4d0f318b479c5331163b7480daed827d569f77dfff01f800248f",
+              "status": "active",
+              "ingestionId": "3ecabb1e-9964-43c4-a430-4f498c32ea40",
+              "importedAt": "2026-10-11T01:49:13.593Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Real Estate",
+                "summary": "Learn why refinancing to pull out equity can beat selling in many situations, and understand the tradeoffs an investor should weigh before choosing."
+              }
+            },
+            "RED-L4-014": {
+              "id": "RED-L4-014",
+              "type": "lesson",
+              "track": "RED",
+              "trackName": "Real Estate",
+              "level": 4,
+              "lessonNumber": 14,
+              "title": "Value-Add Analysis: Why Forced Appreciation Beats Waiting on the Market",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-11",
+              "path": "content/curriculum/RED/L4/RED-L4-014.md",
+              "checksum": "sha256:648a70afcdc52877887a28dc2453cd98e028deb2211c498e96ed5ab8ae82a65a",
+              "status": "active",
+              "ingestionId": "3ecabb1e-9964-43c4-a430-4f498c32ea40",
+              "importedAt": "2026-10-11T01:49:13.593Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Real Estate",
+                "summary": "Understand why value-add strategies let investors create appreciation directly, rather than relying entirely on market conditions."
+              }
+            },
+            "RED-L4-015": {
+              "id": "RED-L4-015",
+              "type": "lesson",
+              "track": "RED",
+              "trackName": "Real Estate",
+              "level": 4,
+              "lessonNumber": 15,
+              "title": "Opportunity Cost Analysis: Why the Best Deal Isn't Always the Obvious One",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-11",
+              "path": "content/curriculum/RED/L4/RED-L4-015.md",
+              "checksum": "sha256:26dc8674c550d85a89602bad5434af2370b861edf54f2ffce3cae3b6f81930c5",
+              "status": "active",
+              "ingestionId": "3ecabb1e-9964-43c4-a430-4f498c32ea40",
+              "importedAt": "2026-10-11T01:49:13.593Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Real Estate",
+                "summary": "Learn why every investment decision has a hidden cost — the next-best alternative given up — and why ignoring opportunity cost leads to weaker decisions."
+              }
+            },
+            "RED-L4-016": {
+              "id": "RED-L4-016",
+              "type": "lesson",
+              "track": "RED",
+              "trackName": "Real Estate",
+              "level": 4,
+              "lessonNumber": 16,
+              "title": "Comparative Market Analysis: Why Comps Can Mislead Without Adjustments",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-11",
+              "path": "content/curriculum/RED/L4/RED-L4-016.md",
+              "checksum": "sha256:c1019e88a05383fea193943a57a60b724a4c63d58c106d889941488e63a1c6aa",
+              "status": "active",
+              "ingestionId": "3ecabb1e-9964-43c4-a430-4f498c32ea40",
+              "importedAt": "2026-10-11T01:49:13.593Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Real Estate",
+                "summary": "Understand why raw comparable sales data can be misleading, and why proper adjustments are essential to an accurate comparative market analysis."
+              }
+            },
+            "RED-L4-017": {
+              "id": "RED-L4-017",
+              "type": "lesson",
+              "track": "RED",
+              "trackName": "Real Estate",
+              "level": 4,
+              "lessonNumber": 17,
+              "title": "Replacement Cost Analysis: Why New Construction Sets a Price Ceiling",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-11",
+              "path": "content/curriculum/RED/L4/RED-L4-017.md",
+              "checksum": "sha256:68ecddecf47b1c6b507ddd5d48d99ffe35cdc612ad5698ec41e159d9bb1bf95d",
+              "status": "active",
+              "ingestionId": "3ecabb1e-9964-43c4-a430-4f498c32ea40",
+              "importedAt": "2026-10-11T01:49:13.593Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Real Estate",
+                "summary": "Understand why the cost to build new sets a practical ceiling on existing property values, and why this matters in overheated markets."
+              }
+            },
+            "RED-L4-018": {
+              "id": "RED-L4-018",
+              "type": "lesson",
+              "track": "RED",
+              "trackName": "Real Estate",
+              "level": 4,
+              "lessonNumber": 18,
+              "title": "Highest and Best Use Analysis: Why Zoning Changes Everything",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-11",
+              "path": "content/curriculum/RED/L4/RED-L4-018.md",
+              "checksum": "sha256:293d40c728aa335e386fdd193f62129405ac67bc46c860da9c885c2b838391dc",
+              "status": "active",
+              "ingestionId": "3ecabb1e-9964-43c4-a430-4f498c32ea40",
+              "importedAt": "2026-10-11T01:49:13.593Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Real Estate",
+                "summary": "Learn why a property's value depends on its highest and best legally permitted use, and why zoning changes can dramatically shift that value."
+              }
+            },
+            "RED-L4-019": {
+              "id": "RED-L4-019",
+              "type": "lesson",
+              "track": "RED",
+              "trackName": "Real Estate",
+              "level": 4,
+              "lessonNumber": 19,
+              "title": "Neighborhood Lifecycle Analysis: Why Gentrification Follows a Pattern",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-11",
+              "path": "content/curriculum/RED/L4/RED-L4-019.md",
+              "checksum": "sha256:1a7c98efcfd1d1be2c6b149d4dc6923fe3d6cfc0157bfb3532c6de17e48dfb5b",
+              "status": "active",
+              "ingestionId": "3ecabb1e-9964-43c4-a430-4f498c32ea40",
+              "importedAt": "2026-10-11T01:49:13.593Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Real Estate",
+                "summary": "Understand the typical stages of neighborhood change and why recognizing the pattern helps investors judge timing and risk."
+              }
+            },
+            "RED-L4-020": {
+              "id": "RED-L4-020",
+              "type": "lesson",
+              "track": "RED",
+              "trackName": "Real Estate",
+              "level": 4,
+              "lessonNumber": 20,
+              "title": "Risk-Adjusted Return Analysis: Why Two Deals with the Same Return Aren't Equal",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-11",
+              "path": "content/curriculum/RED/L4/RED-L4-020.md",
+              "checksum": "sha256:bbb57effd1c2b7f8f17a6636e345309a7fcbd7710d1d9638b62255fb609f57d0",
+              "status": "active",
+              "ingestionId": "3ecabb1e-9964-43c4-a430-4f498c32ea40",
+              "importedAt": "2026-10-11T01:49:13.593Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Real Estate",
+                "summary": "Learn why comparing raw return numbers alone can be misleading, and why adjusting for risk is essential to comparing real estate opportunities fairly."
+              }
+            },
+            "RED-L4-021": {
+              "id": "RED-L4-021",
+              "type": "lesson",
+              "track": "RED",
+              "trackName": "Real Estate",
+              "level": 4,
+              "lessonNumber": 21,
+              "title": "Diversification Within Real Estate: Why One Property Type Isn't a Portfolio",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-11",
+              "path": "content/curriculum/RED/L4/RED-L4-021.md",
+              "checksum": "sha256:4ffe221089b7a0aed35686d62069641bb996f0faa3a59f81329c94018c9aa47c",
+              "status": "active",
+              "ingestionId": "3ecabb1e-9964-43c4-a430-4f498c32ea40",
+              "importedAt": "2026-10-11T01:49:13.593Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Real Estate",
+                "summary": "Understand why owning multiple properties of the same type in the same market is not true diversification, and why real diversification requires different risk drivers."
+              }
+            },
+            "RED-L4-022": {
+              "id": "RED-L4-022",
+              "type": "lesson",
+              "track": "RED",
+              "trackName": "Real Estate",
+              "level": 4,
+              "lessonNumber": 22,
+              "title": "Geographic Diversification Analysis: Why Local Markets Don't Move Together",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-11",
+              "path": "content/curriculum/RED/L4/RED-L4-022.md",
+              "checksum": "sha256:48359fedeb6d8e8c0c092c238e9e6f0a79ad908a2dbfd12f960eac8accafd011",
+              "status": "active",
+              "ingestionId": "3ecabb1e-9964-43c4-a430-4f498c32ea40",
+              "importedAt": "2026-10-11T01:49:13.593Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Real Estate",
+                "summary": "Learn why real estate markets in different regions often move independently, and why this creates a genuine diversification benefit."
+              }
+            },
+            "RED-L4-023": {
+              "id": "RED-L4-023",
+              "type": "lesson",
+              "track": "RED",
+              "trackName": "Real Estate",
+              "level": 4,
+              "lessonNumber": 23,
+              "title": "Property Management Analysis: Why Self-Managing Isn't Always Cheaper",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-11",
+              "path": "content/curriculum/RED/L4/RED-L4-023.md",
+              "checksum": "sha256:b8a9d97a5ccddeb9f9f85daa46c184d5bd97a6fd5e4f9e1c074fc4fcb8821977",
+              "status": "active",
+              "ingestionId": "3ecabb1e-9964-43c4-a430-4f498c32ea40",
+              "importedAt": "2026-10-11T01:49:13.593Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Real Estate",
+                "summary": "Understand why the true cost of self-managing a property includes more than the management fee saved, and how to evaluate the decision properly."
+              }
+            },
+            "RED-L4-024": {
+              "id": "RED-L4-024",
+              "type": "lesson",
+              "track": "RED",
+              "trackName": "Real Estate",
+              "level": 4,
+              "lessonNumber": 24,
+              "title": "Tenant Quality Analysis: Why Credit Screening Protects Cash Flow",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-11",
+              "path": "content/curriculum/RED/L4/RED-L4-024.md",
+              "checksum": "sha256:8ef7d92acdbdd2c137a35121973b99788effefc5cc2c3f5ce25ffd2a5c6a744f",
+              "status": "active",
+              "ingestionId": "3ecabb1e-9964-43c4-a430-4f498c32ea40",
+              "importedAt": "2026-10-11T01:49:13.593Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Real Estate",
+                "summary": "Understand why rigorous tenant screening is one of the highest-leverage risk-management tools available to a real estate investor."
+              }
+            },
+            "RED-L4-025": {
+              "id": "RED-L4-025",
+              "type": "lesson",
+              "track": "RED",
+              "trackName": "Real Estate",
+              "level": 4,
+              "lessonNumber": 25,
+              "title": "Lease Structure Analysis: Why Triple Net Shifts Risk to Tenants",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-11",
+              "path": "content/curriculum/RED/L4/RED-L4-025.md",
+              "checksum": "sha256:f0da097e6872f55339a57f30a5e33363d0e1e9f3e007b777ad96799fd8784d4d",
+              "status": "active",
+              "ingestionId": "3ecabb1e-9964-43c4-a430-4f498c32ea40",
+              "importedAt": "2026-10-11T01:49:13.593Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Real Estate",
+                "summary": "Understand how triple net lease structures shift operating cost risk from landlord to tenant, and why this changes an investor's return profile."
+              }
+            },
+            "RED-L4-026": {
+              "id": "RED-L4-026",
+              "type": "lesson",
+              "track": "RED",
+              "trackName": "Real Estate",
+              "level": 4,
+              "lessonNumber": 26,
+              "title": "Renovation ROI Analysis: Why Not All Upgrades Pay Back",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-11",
+              "path": "content/curriculum/RED/L4/RED-L4-026.md",
+              "checksum": "sha256:03568de1606613ab15403383eb6fbb09e7ab1341eff3cfc7fd89bce9b7c13aa2",
+              "status": "active",
+              "ingestionId": "3ecabb1e-9964-43c4-a430-4f498c32ea40",
+              "importedAt": "2026-10-11T01:49:13.593Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Real Estate",
+                "summary": "Learn why some renovations generate strong returns while others fail to recoup their cost, and how to prioritize improvements analytically."
+              }
+            },
+            "RED-L4-027": {
+              "id": "RED-L4-027",
+              "type": "lesson",
+              "track": "RED",
+              "trackName": "Real Estate",
+              "level": 4,
+              "lessonNumber": 27,
+              "title": "Exit Strategy Analysis: Why Knowing Your Exit Before You Buy Matters",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-11",
+              "path": "content/curriculum/RED/L4/RED-L4-027.md",
+              "checksum": "sha256:ce8ccce017f3363550a3c510629d507ae4166b03909c37a166375aabb66494e6",
+              "status": "active",
+              "ingestionId": "3ecabb1e-9964-43c4-a430-4f498c32ea40",
+              "importedAt": "2026-10-11T01:49:13.593Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Real Estate",
+                "summary": "Understand why defining an exit strategy before purchasing a property shapes every other decision made during ownership."
+              }
+            },
+            "RED-L4-028": {
+              "id": "RED-L4-028",
+              "type": "lesson",
+              "track": "RED",
+              "trackName": "Real Estate",
+              "level": 4,
+              "lessonNumber": 28,
+              "title": "Hold Period Analysis: Why Time Horizon Changes the Right Strategy",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-11",
+              "path": "content/curriculum/RED/L4/RED-L4-028.md",
+              "checksum": "sha256:aac3340bb43d46d31531c7626e1b916ab917613825d4eadfe20b978782be8df1",
+              "status": "active",
+              "ingestionId": "3ecabb1e-9964-43c4-a430-4f498c32ea40",
+              "importedAt": "2026-10-11T01:49:13.593Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Real Estate",
+                "summary": "Understand why the intended holding period should shape financing, renovation, and risk decisions from the outset of an investment."
+              }
+            },
+            "RED-L4-029": {
+              "id": "RED-L4-029",
+              "type": "lesson",
+              "track": "RED",
+              "trackName": "Real Estate",
+              "level": 4,
+              "lessonNumber": 29,
+              "title": "Break-Even Analysis: Why Knowing Your Number Prevents Panic Selling",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-11",
+              "path": "content/curriculum/RED/L4/RED-L4-029.md",
+              "checksum": "sha256:7533794016b7c182e1eab687c24ccce6480296c7edb1634566800e3cd2d3c1a2",
+              "status": "active",
+              "ingestionId": "3ecabb1e-9964-43c4-a430-4f498c32ea40",
+              "importedAt": "2026-10-11T01:49:13.593Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Real Estate",
+                "summary": "Learn how to calculate a property's break-even point and why knowing this number in advance helps investors make calm decisions during downturns."
+              }
+            },
+            "RED-L4-030": {
+              "id": "RED-L4-030",
+              "type": "lesson",
+              "track": "RED",
+              "trackName": "Real Estate",
+              "level": 4,
+              "lessonNumber": 30,
+              "title": "Insurance Analysis: Why Underinsuring Is a Hidden Risk",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-11",
+              "path": "content/curriculum/RED/L4/RED-L4-030.md",
+              "checksum": "sha256:a6a64dae45f54c9f6dc3d5fc16247b99230e891b9ffd9551ceac0c6aeeef5fe8",
+              "status": "active",
+              "ingestionId": "3ecabb1e-9964-43c4-a430-4f498c32ea40",
+              "importedAt": "2026-10-11T01:49:13.593Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Real Estate",
+                "summary": "Understand why inadequate insurance coverage is a commonly overlooked risk that can undo years of otherwise sound real estate analysis."
+              }
+            },
+            "RED-L4-031": {
+              "id": "RED-L4-031",
+              "type": "lesson",
+              "track": "RED",
+              "trackName": "Real Estate",
+              "level": 4,
+              "lessonNumber": 31,
+              "title": "Property Tax Appeal Analysis: Why Assessments Don't Always Reflect Value",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-11",
+              "path": "content/curriculum/RED/L4/RED-L4-031.md",
+              "checksum": "sha256:92f8895115ddfbc3b1af71001eb8c451834169fd833e5ed7503b108ba2b5fd58",
+              "status": "active",
+              "ingestionId": "3ecabb1e-9964-43c4-a430-4f498c32ea40",
+              "importedAt": "2026-10-11T01:49:13.593Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Real Estate",
+                "summary": "Understand why government tax assessments can diverge from true market value, and why appealing an inflated assessment is a legitimate analytical tool."
+              }
+            },
+            "RED-L4-032": {
+              "id": "RED-L4-032",
+              "type": "lesson",
+              "track": "RED",
+              "trackName": "Real Estate",
+              "level": 4,
+              "lessonNumber": 32,
+              "title": "Syndication Analysis: Why the Waterfall Structure Matters",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-11",
+              "path": "content/curriculum/RED/L4/RED-L4-032.md",
+              "checksum": "sha256:1bdb16960ef63977c6c79d759b3acee2931295ddbd5276092202cb7763ee34d6",
+              "status": "active",
+              "ingestionId": "3ecabb1e-9964-43c4-a430-4f498c32ea40",
+              "importedAt": "2026-10-11T01:49:13.593Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Real Estate",
+                "summary": "Understand how profit-sharing waterfalls in real estate syndications work, and why the structure of the split matters as much as the projected return."
+              }
+            },
+            "RED-L4-033": {
+              "id": "RED-L4-033",
+              "type": "lesson",
+              "track": "RED",
+              "trackName": "Real Estate",
+              "level": 4,
+              "lessonNumber": 33,
+              "title": "General Partner vs Limited Partner Analysis: Why Alignment of Interest Matters",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-11",
+              "path": "content/curriculum/RED/L4/RED-L4-033.md",
+              "checksum": "sha256:17ea1c47705973c84a1ac4f5f2c1fa2dc237ccbbb66c80c7b711508bbe5c6f60",
+              "status": "active",
+              "ingestionId": "3ecabb1e-9964-43c4-a430-4f498c32ea40",
+              "importedAt": "2026-10-11T01:49:13.593Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Real Estate",
+                "summary": "Understand why the alignment of incentives between general and limited partners is a critical factor in evaluating a syndicated real estate deal."
+              }
+            },
+            "RED-L4-034": {
+              "id": "RED-L4-034",
+              "type": "lesson",
+              "track": "RED",
+              "trackName": "Real Estate",
+              "level": 4,
+              "lessonNumber": 34,
+              "title": "REIT vs Direct Ownership Analysis: Why Liquidity Has a Cost",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-11",
+              "path": "content/curriculum/RED/L4/RED-L4-034.md",
+              "checksum": "sha256:b23011daa4ed73f592836574089cbbfc7bbd2fef38b6029b0ac627a5c04c604b",
+              "status": "active",
+              "ingestionId": "3ecabb1e-9964-43c4-a430-4f498c32ea40",
+              "importedAt": "2026-10-11T01:49:13.593Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Real Estate",
+                "summary": "Understand the tradeoffs between investing in real estate through a REIT versus owning property directly, focusing on liquidity, control, and correlation."
+              }
+            },
+            "RED-L4-035": {
+              "id": "RED-L4-035",
+              "type": "lesson",
+              "track": "RED",
+              "trackName": "Real Estate",
+              "level": 4,
+              "lessonNumber": 35,
+              "title": "Short-Term Rental Analysis: Why Regulatory Risk Changes the Math",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-11",
+              "path": "content/curriculum/RED/L4/RED-L4-035.md",
+              "checksum": "sha256:1ba01a3013ce63f490d25be1584edd370db043a8b4edec46d0f6fc667b0ba106",
+              "status": "active",
+              "ingestionId": "3ecabb1e-9964-43c4-a430-4f498c32ea40",
+              "importedAt": "2026-10-11T01:49:13.593Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Real Estate",
+                "summary": "Understand why short-term rental regulations introduce a distinct risk category that can materially change a property's viability and value."
+              }
+            },
+            "RED-L4-036": {
+              "id": "RED-L4-036",
+              "type": "lesson",
+              "track": "RED",
+              "trackName": "Real Estate",
+              "level": 4,
+              "lessonNumber": 36,
+              "title": "House Hacking Analysis: Why Living in Your Investment Changes the Numbers",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-11",
+              "path": "content/curriculum/RED/L4/RED-L4-036.md",
+              "checksum": "sha256:6595ad7f29c9ef729e57697c9d604cbdcdbc0f121fcc1952ae8311d11eb71e57",
+              "status": "active",
+              "ingestionId": "3ecabb1e-9964-43c4-a430-4f498c32ea40",
+              "importedAt": "2026-10-11T01:49:13.593Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Real Estate",
+                "summary": "Understand why house hacking changes both the financing and return calculations available to an investor, compared to a pure investment property."
+              }
+            },
+            "RED-L4-037": {
+              "id": "RED-L4-037",
+              "type": "lesson",
+              "track": "RED",
+              "trackName": "Real Estate",
+              "level": 4,
+              "lessonNumber": 37,
+              "title": "BRRRR Strategy Analysis: Why Recycling Capital Accelerates Growth",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-11",
+              "path": "content/curriculum/RED/L4/RED-L4-037.md",
+              "checksum": "sha256:33c1ad71cc3058a37967ea1ddc734f660f37e98e21f590ef99cb81323c80348b",
+              "status": "active",
+              "ingestionId": "3ecabb1e-9964-43c4-a430-4f498c32ea40",
+              "importedAt": "2026-10-11T01:49:13.593Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Real Estate",
+                "summary": "Understand how the Buy, Rehab, Rent, Refinance, Repeat strategy allows an investor to recycle the same capital across multiple properties."
+              }
+            },
+            "RED-L4-038": {
+              "id": "RED-L4-038",
+              "type": "lesson",
+              "track": "RED",
+              "trackName": "Real Estate",
+              "level": 4,
+              "lessonNumber": 38,
+              "title": "Wholesaling Analysis: Why Speed Matters More Than Margin",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-11",
+              "path": "content/curriculum/RED/L4/RED-L4-038.md",
+              "checksum": "sha256:b392ddd7ea8e1a197033bf18828b48cb904c46b36ef1f5bfd753898d1abcd426",
+              "status": "active",
+              "ingestionId": "3ecabb1e-9964-43c4-a430-4f498c32ea40",
+              "importedAt": "2026-10-11T01:49:13.593Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Real Estate",
+                "summary": "Understand how real estate wholesaling works as a contract-assignment strategy, and why transaction speed and volume matter more than per-deal margin."
+              }
+            },
+            "RED-L4-039": {
+              "id": "RED-L4-039",
+              "type": "lesson",
+              "track": "RED",
+              "trackName": "Real Estate",
+              "level": 4,
+              "lessonNumber": 39,
+              "title": "Fix-and-Flip Analysis: Why Timeline Risk Can Erase Profit",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-11",
+              "path": "content/curriculum/RED/L4/RED-L4-039.md",
+              "checksum": "sha256:7f40911d89f1c3eb064bbbba0f5b74f7c5ff1784805350672a0db3c9076a1258",
+              "status": "active",
+              "ingestionId": "3ecabb1e-9964-43c4-a430-4f498c32ea40",
+              "importedAt": "2026-10-11T01:49:13.593Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Real Estate",
+                "summary": "Understand why holding costs and timeline overruns are often the biggest threat to a fix-and-flip's profitability, more so than renovation cost itself."
+              }
+            },
+            "RED-L4-040": {
+              "id": "RED-L4-040",
+              "type": "lesson",
+              "track": "RED",
+              "trackName": "Real Estate",
+              "level": 4,
+              "lessonNumber": 40,
+              "title": "Land Banking Analysis: Why Patience Is the Strategy",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-11",
+              "path": "content/curriculum/RED/L4/RED-L4-040.md",
+              "checksum": "sha256:ce0dfbe650e1f192807315cafec076d8e50e29bbc2800e6ddee236d262ffaea3",
+              "status": "active",
+              "ingestionId": "3ecabb1e-9964-43c4-a430-4f498c32ea40",
+              "importedAt": "2026-10-11T01:49:13.593Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Real Estate",
+                "summary": "Understand why land banking is a long-horizon strategy built on patience and holding cost management, rather than short-term return."
+              }
+            },
+            "RED-L4-041": {
+              "id": "RED-L4-041",
+              "type": "lesson",
+              "track": "RED",
+              "trackName": "Real Estate",
+              "level": 4,
+              "lessonNumber": 41,
+              "title": "Commercial vs Residential Analysis: Why Lease Terms Change Risk Profile",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-11",
+              "path": "content/curriculum/RED/L4/RED-L4-041.md",
+              "checksum": "sha256:2ac143b5b66a2fb460c8781d5fd3356b6b377a17c73ff31d3fd4618352908d3c",
+              "status": "active",
+              "ingestionId": "3ecabb1e-9964-43c4-a430-4f498c32ea40",
+              "importedAt": "2026-10-11T01:49:13.593Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Real Estate",
+                "summary": "Understand how differing lease term lengths between commercial and residential real estate change income stability and overall risk profile."
+              }
+            },
+            "RED-L4-042": {
+              "id": "RED-L4-042",
+              "type": "lesson",
+              "track": "RED",
+              "trackName": "Real Estate",
+              "level": 4,
+              "lessonNumber": 42,
+              "title": "Mixed-Use Development Analysis: Why Diversified Income Streams Reduce Risk",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-11",
+              "path": "content/curriculum/RED/L4/RED-L4-042.md",
+              "checksum": "sha256:c2292299cb0acd932d8dfdfc3e70451b9150f20c6fb9321bfdf2a1d976aa5298",
+              "status": "active",
+              "ingestionId": "3ecabb1e-9964-43c4-a430-4f498c32ea40",
+              "importedAt": "2026-10-11T01:49:13.593Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Real Estate",
+                "summary": "Understand why combining residential, retail, and other uses within a single development can reduce overall risk through income diversification."
+              }
+            },
+            "RED-L4-043": {
+              "id": "RED-L4-043",
+              "type": "lesson",
+              "track": "RED",
+              "trackName": "Real Estate",
+              "level": 4,
+              "lessonNumber": 43,
+              "title": "Market Timing Analysis: Why Waiting for the Bottom Usually Costs More",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-11",
+              "path": "content/curriculum/RED/L4/RED-L4-043.md",
+              "checksum": "sha256:a1ebbf3696336657edc015c51d155efe500a63f836ee1ad339aec74580ade721",
+              "status": "active",
+              "ingestionId": "3ecabb1e-9964-43c4-a430-4f498c32ea40",
+              "importedAt": "2026-10-11T01:49:13.593Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Real Estate",
+                "summary": "Understand why attempting to precisely time the bottom of a real estate market is difficult and often more costly than a disciplined, analysis-based approach."
+              }
+            },
+            "RED-L4-044": {
+              "id": "RED-L4-044",
+              "type": "lesson",
+              "track": "RED",
+              "trackName": "Real Estate",
+              "level": 4,
+              "lessonNumber": 44,
+              "title": "Inflation Hedge Analysis: Why Real Estate Responds Differently Than Stocks",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-11",
+              "path": "content/curriculum/RED/L4/RED-L4-044.md",
+              "checksum": "sha256:f660003cd788abf7751ab860d52691b9991d679efe661694257dbc3344c206d1",
+              "status": "active",
+              "ingestionId": "3ecabb1e-9964-43c4-a430-4f498c32ea40",
+              "importedAt": "2026-10-11T01:49:13.593Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Real Estate",
+                "summary": "Understand the mechanisms through which real estate can act as an inflation hedge, and why this behavior differs from how stocks typically respond to inflation."
+              }
+            },
+            "RED-L4-045": {
+              "id": "RED-L4-045",
+              "type": "lesson",
+              "track": "RED",
+              "trackName": "Real Estate",
+              "level": 4,
+              "lessonNumber": 45,
+              "title": "Environmental Risk Analysis: Why Due Diligence Includes the Ground, Not Just the Building",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-11",
+              "path": "content/curriculum/RED/L4/RED-L4-045.md",
+              "checksum": "sha256:ef4d1ba9c1fd95c9acebf62a1473c6c182c68fbfe889917b91515da51bcc7c09",
+              "status": "active",
+              "ingestionId": "3ecabb1e-9964-43c4-a430-4f498c32ea40",
+              "importedAt": "2026-10-11T01:49:13.593Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Real Estate",
+                "summary": "Understand why environmental due diligence, including assessing potential soil or groundwater contamination, is a critical and sometimes overlooked risk category."
+              }
+            },
+            "RED-L4-046": {
+              "id": "RED-L4-046",
+              "type": "lesson",
+              "track": "RED",
+              "trackName": "Real Estate",
+              "level": 4,
+              "lessonNumber": 46,
+              "title": "Title and Legal Risk Analysis: Why Clean Title Isn't Guaranteed",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-11",
+              "path": "content/curriculum/RED/L4/RED-L4-046.md",
+              "checksum": "sha256:754b3a60bcd4f7d037221284404ef3da514b9a181bc0baa9054a7a8df6707a72",
+              "status": "active",
+              "ingestionId": "3ecabb1e-9964-43c4-a430-4f498c32ea40",
+              "importedAt": "2026-10-11T01:49:13.593Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Real Estate",
+                "summary": "Understand why title defects can threaten ownership even after a purchase closes, and why title insurance and a proper title search are essential protections."
+              }
+            },
+            "RED-L4-047": {
+              "id": "RED-L4-047",
+              "type": "lesson",
+              "track": "RED",
+              "trackName": "Real Estate",
+              "level": 4,
+              "lessonNumber": 47,
+              "title": "Partnership Structure Analysis: Why Buy-Sell Agreements Prevent Disputes",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-11",
+              "path": "content/curriculum/RED/L4/RED-L4-047.md",
+              "checksum": "sha256:26b453135cf2be672de9ff18ee437d15d174944503224c1551fbbbcf3b16bf69",
+              "status": "active",
+              "ingestionId": "3ecabb1e-9964-43c4-a430-4f498c32ea40",
+              "importedAt": "2026-10-11T01:49:13.593Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Real Estate",
+                "summary": "Understand why a well-drafted buy-sell agreement is essential when co-investing with partners, and what key provisions it should address."
+              }
+            },
+            "RED-L4-048": {
+              "id": "RED-L4-048",
+              "type": "lesson",
+              "track": "RED",
+              "trackName": "Real Estate",
+              "level": 4,
+              "lessonNumber": 48,
+              "title": "Succession Planning Analysis: Why Real Estate Portfolios Need an Exit Plan for the Owner, Not Just the Property",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-11",
+              "path": "content/curriculum/RED/L4/RED-L4-048.md",
+              "checksum": "sha256:40a8fe6e3d239d093b8336e8ca940c7d59252e7c902e92839c62d5b6fd15d150",
+              "status": "active",
+              "ingestionId": "3ecabb1e-9964-43c4-a430-4f498c32ea40",
+              "importedAt": "2026-10-11T01:49:13.593Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Real Estate",
+                "summary": "Understand why succession planning for the investor's own eventual exit, disability, or death is a distinct and often overlooked layer of real estate risk management."
+              }
+            },
+            "RED-L4-049": {
+              "id": "RED-L4-049",
+              "type": "lesson",
+              "track": "RED",
+              "trackName": "Real Estate",
+              "level": 4,
+              "lessonNumber": 49,
+              "title": "Economic Indicator Analysis: Why Employment Data Predicts Rent Growth",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-11",
+              "path": "content/curriculum/RED/L4/RED-L4-049.md",
+              "checksum": "sha256:f31faaeeacfc66900c80af254056e5c0a10faade6d76b9c13904b9eda15cb5e8",
+              "status": "active",
+              "ingestionId": "3ecabb1e-9964-43c4-a430-4f498c32ea40",
+              "importedAt": "2026-10-11T01:49:13.593Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Real Estate",
+                "summary": "Understand why local employment trends are one of the most reliable leading indicators for future rental demand and rent growth."
+              }
+            },
+            "RED-L4-050": {
+              "id": "RED-L4-050",
+              "type": "lesson",
+              "track": "RED",
+              "trackName": "Real Estate",
+              "level": 4,
+              "lessonNumber": 50,
+              "title": "Portfolio Rebalancing Analysis: Why Selling Winners Can Be the Right Move",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-11",
+              "path": "content/curriculum/RED/L4/RED-L4-050.md",
+              "checksum": "sha256:e2c85125c7c7cb62363abf978602f4c62abcfc6a1296cacb81dde708086d4bf8",
+              "status": "active",
+              "ingestionId": "3ecabb1e-9964-43c4-a430-4f498c32ea40",
+              "importedAt": "2026-10-11T01:49:13.593Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Real Estate",
+                "summary": "Understand why periodically rebalancing a real estate portfolio, including selling strong performers, can be a disciplined risk-management practice rather than a mistake."
+              }
+            }
+          }
         },
         "5": {
           "assets": {}
@@ -5895,7 +7146,7 @@
               "author": "Edunancial Faculty",
               "date": "2026-10-11",
               "path": "content/curriculum/BLUE/L4/BLUE-L4-001.md",
-              "checksum": "sha256:sha256:e1050248cffdeef254530d76632eacab3624e7b2f939d444964756d488472f28",
+              "checksum": "sha256:db1d3f224747b56a0094c6d73715d618c8099dd7213b175b9fcb22894ffefc8a",
               "status": "active",
               "ingestionId": "e8ff9415-74eb-45ca-a4e7-ec17eb3876df",
               "importedAt": "2026-10-11T01:51:42.090Z",
@@ -5920,7 +7171,7 @@
               "author": "Edunancial Faculty",
               "date": "2026-10-11",
               "path": "content/curriculum/BLUE/L4/BLUE-L4-002.md",
-              "checksum": "sha256:sha256:ca347077b009343ff25574a66e0c81507f385f742644e1cb6ba9ede48bfbf1a8",
+              "checksum": "sha256:8b68fcf74dff98f48462373569dd6da7650c96ce942d30dcaa4fb7c56e092115",
               "status": "active",
               "ingestionId": "e8ff9415-74eb-45ca-a4e7-ec17eb3876df",
               "importedAt": "2026-10-11T01:51:42.090Z",
@@ -5945,7 +7196,7 @@
               "author": "Edunancial Faculty",
               "date": "2026-10-11",
               "path": "content/curriculum/BLUE/L4/BLUE-L4-003.md",
-              "checksum": "sha256:sha256:ffa8f115cbe7a37cf31d464bf6ae756df27c511c58d57570ac8b0601d741635e",
+              "checksum": "sha256:46990863515ed61d04944b617f876ee2f3725ebcd7e37e2c70641d9377f2bd7a",
               "status": "active",
               "ingestionId": "e8ff9415-74eb-45ca-a4e7-ec17eb3876df",
               "importedAt": "2026-10-11T01:51:42.090Z",
@@ -5970,7 +7221,7 @@
               "author": "Edunancial Faculty",
               "date": "2026-10-11",
               "path": "content/curriculum/BLUE/L4/BLUE-L4-004.md",
-              "checksum": "sha256:sha256:6e1e53f0621a5cef063e21e6da5bd3316728da00abd5e56c661e761c766c686b",
+              "checksum": "sha256:0e7e4482d44717ef2708d9d506e101a3b48ef7d52744cac3fe1473d16886f8b7",
               "status": "active",
               "ingestionId": "e8ff9415-74eb-45ca-a4e7-ec17eb3876df",
               "importedAt": "2026-10-11T01:51:42.090Z",
@@ -5995,7 +7246,7 @@
               "author": "Edunancial Faculty",
               "date": "2026-10-11",
               "path": "content/curriculum/BLUE/L4/BLUE-L4-005.md",
-              "checksum": "sha256:sha256:ef546ee2ca4a4ddf6f35ea33476e61d154f3cde69823b0a87db76ebeed5c8a63",
+              "checksum": "sha256:90f5ebda147fc74f9b314a2c00528a7203a0538b9c5ac7201df5deb361b4cdc7",
               "status": "active",
               "ingestionId": "e8ff9415-74eb-45ca-a4e7-ec17eb3876df",
               "importedAt": "2026-10-11T01:51:42.090Z",
@@ -6020,7 +7271,7 @@
               "author": "Edunancial Faculty",
               "date": "2026-10-11",
               "path": "content/curriculum/BLUE/L4/BLUE-L4-006.md",
-              "checksum": "sha256:sha256:c18a96c3c0ee01bd4b5d0b7594965ccf8f87ba96672a5735bddd5dcd6260ecb1",
+              "checksum": "sha256:63d9d710a6001f44c07b1169326e19b019cb286b3a8c88892598160fcdb8ff48",
               "status": "active",
               "ingestionId": "e8ff9415-74eb-45ca-a4e7-ec17eb3876df",
               "importedAt": "2026-10-11T01:51:42.090Z",
@@ -6045,7 +7296,7 @@
               "author": "Edunancial Faculty",
               "date": "2026-10-11",
               "path": "content/curriculum/BLUE/L4/BLUE-L4-007.md",
-              "checksum": "sha256:sha256:d6f47369c342e99124bebc8e34895378d5b62a3b738fd2d10fd1c07c45642b23",
+              "checksum": "sha256:1606ecba3988835a7e107106e7101bb3580ddad5c53f54350ddd46310bbae43c",
               "status": "active",
               "ingestionId": "e8ff9415-74eb-45ca-a4e7-ec17eb3876df",
               "importedAt": "2026-10-11T01:51:42.090Z",
@@ -6070,7 +7321,7 @@
               "author": "Edunancial Faculty",
               "date": "2026-10-11",
               "path": "content/curriculum/BLUE/L4/BLUE-L4-008.md",
-              "checksum": "sha256:sha256:965192cd53768982c910a3a79807414684da2c3bc080ab4dd4ce096ebab05185",
+              "checksum": "sha256:5b771818439041ef08d33080e021a687f7b9f9a5d57d428f27d36d2d785a5c43",
               "status": "active",
               "ingestionId": "e8ff9415-74eb-45ca-a4e7-ec17eb3876df",
               "importedAt": "2026-10-11T01:51:42.090Z",
@@ -6095,7 +7346,7 @@
               "author": "Edunancial Faculty",
               "date": "2026-10-11",
               "path": "content/curriculum/BLUE/L4/BLUE-L4-009.md",
-              "checksum": "sha256:sha256:1d32b3588802bb964a8b676a87cfa66a742a9c50a714622bae21d47778cf6e08",
+              "checksum": "sha256:b46ba3ec0096d287acd8f1692ebd4b1a40c7171fb3bda0c21267714bcc7f4ad2",
               "status": "active",
               "ingestionId": "e8ff9415-74eb-45ca-a4e7-ec17eb3876df",
               "importedAt": "2026-10-11T01:51:42.090Z",
@@ -6120,7 +7371,7 @@
               "author": "Edunancial Faculty",
               "date": "2026-10-11",
               "path": "content/curriculum/BLUE/L4/BLUE-L4-010.md",
-              "checksum": "sha256:sha256:379f8059ef73d4ec43a8f6176505aaf5106d2a160e66965bd612b7842a5a1750",
+              "checksum": "sha256:3c22fa9985925b2b0dc1f2a8d37684df06079345662b54be42268d8049b86b88",
               "status": "active",
               "ingestionId": "e8ff9415-74eb-45ca-a4e7-ec17eb3876df",
               "importedAt": "2026-10-11T01:51:42.090Z",
@@ -6145,7 +7396,7 @@
               "author": "Edunancial Faculty",
               "date": "2026-10-11",
               "path": "content/curriculum/BLUE/L4/BLUE-L4-011.md",
-              "checksum": "sha256:sha256:5ba315d94368e528ce282922fa37d0294eecb6c8af3627d7a7649f4bcb2eecf6",
+              "checksum": "sha256:df98407ac9321d0fa4d2e5201844f24b1fadba99461b2aa97f44b332f9cd4615",
               "status": "active",
               "ingestionId": "e8ff9415-74eb-45ca-a4e7-ec17eb3876df",
               "importedAt": "2026-10-11T01:51:42.090Z",
@@ -6170,7 +7421,7 @@
               "author": "Edunancial Faculty",
               "date": "2026-10-11",
               "path": "content/curriculum/BLUE/L4/BLUE-L4-012.md",
-              "checksum": "sha256:sha256:9f832c03425adf6b783cf9006d513fb4c760efff38c4887db8f860a93cc5aeb7",
+              "checksum": "sha256:d6bf684f0825937eadb73acbc943881245cfb86bc839af2ddf71654d6f8597cf",
               "status": "active",
               "ingestionId": "e8ff9415-74eb-45ca-a4e7-ec17eb3876df",
               "importedAt": "2026-10-11T01:51:42.090Z",
@@ -6195,7 +7446,7 @@
               "author": "Edunancial Faculty",
               "date": "2026-10-11",
               "path": "content/curriculum/BLUE/L4/BLUE-L4-013.md",
-              "checksum": "sha256:sha256:4a0f0f9cc6d281789c2297485a389e9d88908e938017dc0514f56727b4a98f1b",
+              "checksum": "sha256:db728fc885b64866486a4911b2ecbf7da79966258533899460a37dc61b0bbdf2",
               "status": "active",
               "ingestionId": "e8ff9415-74eb-45ca-a4e7-ec17eb3876df",
               "importedAt": "2026-10-11T01:51:42.090Z",
@@ -6220,7 +7471,7 @@
               "author": "Edunancial Faculty",
               "date": "2026-10-11",
               "path": "content/curriculum/BLUE/L4/BLUE-L4-014.md",
-              "checksum": "sha256:sha256:1ad518fe1737edd4763dda64e0b4aa4c05801a5a8670a21969237038fda32a20",
+              "checksum": "sha256:1f4b15e8a4449007d8d133e96bd638cb2228c91b7aae2c966088164457ca8f6f",
               "status": "active",
               "ingestionId": "e8ff9415-74eb-45ca-a4e7-ec17eb3876df",
               "importedAt": "2026-10-11T01:51:42.090Z",
@@ -6245,7 +7496,7 @@
               "author": "Edunancial Faculty",
               "date": "2026-10-11",
               "path": "content/curriculum/BLUE/L4/BLUE-L4-015.md",
-              "checksum": "sha256:sha256:dd13491643e58f378ca1afec2fce295825a77e72f1c47377bcd5d4c3e1ae4d52",
+              "checksum": "sha256:777b7ef0ce58419a5699dc0632aa6a02dbad9703ee07b61d9d435098612c3a44",
               "status": "active",
               "ingestionId": "e8ff9415-74eb-45ca-a4e7-ec17eb3876df",
               "importedAt": "2026-10-11T01:51:42.090Z",
@@ -6270,7 +7521,7 @@
               "author": "Edunancial Faculty",
               "date": "2026-10-11",
               "path": "content/curriculum/BLUE/L4/BLUE-L4-016.md",
-              "checksum": "sha256:sha256:d598d7fb19d1d3b98a1d62ab2795c354948bb28cec2c223ee03f15dfea9b4455",
+              "checksum": "sha256:5bfe3e7e089a2484051985d4d357db064f70fe91e845e3716c5a5a8189c72e88",
               "status": "active",
               "ingestionId": "e8ff9415-74eb-45ca-a4e7-ec17eb3876df",
               "importedAt": "2026-10-11T01:51:42.090Z",
@@ -6295,7 +7546,7 @@
               "author": "Edunancial Faculty",
               "date": "2026-10-11",
               "path": "content/curriculum/BLUE/L4/BLUE-L4-017.md",
-              "checksum": "sha256:sha256:8dd4b0e4e8dc26da0e798f387e819bb021f149c7e4b5f4b54a2ed4becfcf9f03",
+              "checksum": "sha256:f394785c9ad6c31c05945e6e8187a479f8118761d19fef0c1106002a8fe57d1d",
               "status": "active",
               "ingestionId": "e8ff9415-74eb-45ca-a4e7-ec17eb3876df",
               "importedAt": "2026-10-11T01:51:42.090Z",
@@ -6320,7 +7571,7 @@
               "author": "Edunancial Faculty",
               "date": "2026-10-11",
               "path": "content/curriculum/BLUE/L4/BLUE-L4-018.md",
-              "checksum": "sha256:sha256:e81c8eab8157a1afb23566e524b55eb49d1ae81e2b84fb13cdff2bb18d4155f5",
+              "checksum": "sha256:013d236cfa4fa4ded96bde87fdd3aad53b1cc1a9fd840b5eba249016bc454115",
               "status": "active",
               "ingestionId": "e8ff9415-74eb-45ca-a4e7-ec17eb3876df",
               "importedAt": "2026-10-11T01:51:42.090Z",
@@ -6345,7 +7596,7 @@
               "author": "Edunancial Faculty",
               "date": "2026-10-11",
               "path": "content/curriculum/BLUE/L4/BLUE-L4-019.md",
-              "checksum": "sha256:sha256:f746382bf658ad60295db0cb40aeea4f8cb88fa7b3bd2e931dcb12a901cf89f3",
+              "checksum": "sha256:fd6b52d56aac84525eaf6c15effbb71f670fbe56a231d861759b519006997ce8",
               "status": "active",
               "ingestionId": "e8ff9415-74eb-45ca-a4e7-ec17eb3876df",
               "importedAt": "2026-10-11T01:51:42.090Z",
@@ -6370,7 +7621,7 @@
               "author": "Edunancial Faculty",
               "date": "2026-10-11",
               "path": "content/curriculum/BLUE/L4/BLUE-L4-020.md",
-              "checksum": "sha256:sha256:070608fca625ae2ea340e26f60f688e8512fe5034890c1f5073a5f1fd9a1d4cc",
+              "checksum": "sha256:aa4a2c0dcb427b04317ceddb8def9ade06e5bc1b58d951f986b4e16b74986dbe",
               "status": "active",
               "ingestionId": "e8ff9415-74eb-45ca-a4e7-ec17eb3876df",
               "importedAt": "2026-10-11T01:51:42.090Z",
@@ -6395,7 +7646,7 @@
               "author": "Edunancial Faculty",
               "date": "2026-10-11",
               "path": "content/curriculum/BLUE/L4/BLUE-L4-021.md",
-              "checksum": "sha256:sha256:90501b6332f6ef0ecc7d7c61da9568cdc15af581c0adc1896ce1ce4e712cb3d8",
+              "checksum": "sha256:cc4396ea605336561252811fd353756a8bdc89cbbe7941f935018632ab81dd0c",
               "status": "active",
               "ingestionId": "e8ff9415-74eb-45ca-a4e7-ec17eb3876df",
               "importedAt": "2026-10-11T01:51:42.090Z",
@@ -6420,7 +7671,7 @@
               "author": "Edunancial Faculty",
               "date": "2026-10-11",
               "path": "content/curriculum/BLUE/L4/BLUE-L4-022.md",
-              "checksum": "sha256:sha256:246981bb542e9f2470dd173eae8cde49d56e1ff9bf4c7760a0dcef0c6f2cdb91",
+              "checksum": "sha256:e8d565a98c9a2975677c46b7b69e1b216346e746de2a9eab9f4736dd29a9ebca",
               "status": "active",
               "ingestionId": "e8ff9415-74eb-45ca-a4e7-ec17eb3876df",
               "importedAt": "2026-10-11T01:51:42.090Z",
@@ -6445,7 +7696,7 @@
               "author": "Edunancial Faculty",
               "date": "2026-10-11",
               "path": "content/curriculum/BLUE/L4/BLUE-L4-023.md",
-              "checksum": "sha256:sha256:9f704bf26585e908e3bffe4ddb29a169ee6160f5aa8490436f1df7775ba4595f",
+              "checksum": "sha256:32c4b9f5105fd3c076329f55e2ffd7f462986a01eb945307531dd6b8fb50567a",
               "status": "active",
               "ingestionId": "e8ff9415-74eb-45ca-a4e7-ec17eb3876df",
               "importedAt": "2026-10-11T01:51:42.090Z",
@@ -6470,7 +7721,7 @@
               "author": "Edunancial Faculty",
               "date": "2026-10-11",
               "path": "content/curriculum/BLUE/L4/BLUE-L4-024.md",
-              "checksum": "sha256:sha256:71fe343e0017b4d3d7130e3dd287aa0fcb417bf2630b177e1703f8637a4351f3",
+              "checksum": "sha256:345334ad2fd258f741abcc40d328e5d170462f91d58a777ade666881ed604fcf",
               "status": "active",
               "ingestionId": "e8ff9415-74eb-45ca-a4e7-ec17eb3876df",
               "importedAt": "2026-10-11T01:51:42.090Z",
@@ -6495,7 +7746,7 @@
               "author": "Edunancial Faculty",
               "date": "2026-10-11",
               "path": "content/curriculum/BLUE/L4/BLUE-L4-025.md",
-              "checksum": "sha256:sha256:9b1543910181f35066508774e858d97493eadc03640db14459cee971059f6259",
+              "checksum": "sha256:c3808de6904cd167be140067715c412557a1b5350f51e4a9c47718604a7fa3b5",
               "status": "active",
               "ingestionId": "e8ff9415-74eb-45ca-a4e7-ec17eb3876df",
               "importedAt": "2026-10-11T01:51:42.090Z",
@@ -6520,7 +7771,7 @@
               "author": "Edunancial Faculty",
               "date": "2026-10-11",
               "path": "content/curriculum/BLUE/L4/BLUE-L4-026.md",
-              "checksum": "sha256:sha256:620d7d4f86593c47ac740818304520a1e0f43dde479e0b69d78060bd0531b486",
+              "checksum": "sha256:93563403312506f3a5ab34aff996410d2295d296e6c944fe5020d5f027611038",
               "status": "active",
               "ingestionId": "e8ff9415-74eb-45ca-a4e7-ec17eb3876df",
               "importedAt": "2026-10-11T01:51:42.090Z",
@@ -6545,7 +7796,7 @@
               "author": "Edunancial Faculty",
               "date": "2026-10-11",
               "path": "content/curriculum/BLUE/L4/BLUE-L4-027.md",
-              "checksum": "sha256:sha256:1e90d4cc9016a54e7335974f03e32c54c5562dc93170b74edfdc6c4af8c65207",
+              "checksum": "sha256:de807bb41b92edfa7525a4af8000e0cf6a97d757db9b416347de0d48809c87a4",
               "status": "active",
               "ingestionId": "e8ff9415-74eb-45ca-a4e7-ec17eb3876df",
               "importedAt": "2026-10-11T01:51:42.090Z",
@@ -6570,7 +7821,7 @@
               "author": "Edunancial Faculty",
               "date": "2026-10-11",
               "path": "content/curriculum/BLUE/L4/BLUE-L4-028.md",
-              "checksum": "sha256:sha256:b3022a2f99b693d87cda99b195773baa3b4951ca33ca7b36d33c1f683c2edbed",
+              "checksum": "sha256:5b9d821ead7476b5ad5a0e342542bea65a8a566bf4f10db093b2d3fa98fdb197",
               "status": "active",
               "ingestionId": "e8ff9415-74eb-45ca-a4e7-ec17eb3876df",
               "importedAt": "2026-10-11T01:51:42.090Z",
@@ -6595,7 +7846,7 @@
               "author": "Edunancial Faculty",
               "date": "2026-10-11",
               "path": "content/curriculum/BLUE/L4/BLUE-L4-029.md",
-              "checksum": "sha256:sha256:a824835945194b4a744ae887ff3c1d4f32407c8d1a4e3f35e6738d2796033a39",
+              "checksum": "sha256:f0c0866bd4e111129c1a4ff76826e5a3e399a7bddebf6cc28ccd7eb035b3b60c",
               "status": "active",
               "ingestionId": "e8ff9415-74eb-45ca-a4e7-ec17eb3876df",
               "importedAt": "2026-10-11T01:51:42.090Z",
@@ -6620,7 +7871,7 @@
               "author": "Edunancial Faculty",
               "date": "2026-10-11",
               "path": "content/curriculum/BLUE/L4/BLUE-L4-030.md",
-              "checksum": "sha256:sha256:4e889f121ef1366a9a0ed12d9c28b73c6ddaf1b758998e29a751f44741fea18e",
+              "checksum": "sha256:25fd98fbc3778f22bb5b7db556e64d70dfd184fb5b1996bf48bd71f95eb29ba1",
               "status": "active",
               "ingestionId": "e8ff9415-74eb-45ca-a4e7-ec17eb3876df",
               "importedAt": "2026-10-11T01:51:42.090Z",
@@ -6645,7 +7896,7 @@
               "author": "Edunancial Faculty",
               "date": "2026-10-11",
               "path": "content/curriculum/BLUE/L4/BLUE-L4-031.md",
-              "checksum": "sha256:sha256:e44e21b223385cc890f15e2dac53521ab238b6f1d59f75185edf387f8dae4164",
+              "checksum": "sha256:0583dda407f22004c96d4321f04640a67b7279923884ad10866875a3137dfbb0",
               "status": "active",
               "ingestionId": "e8ff9415-74eb-45ca-a4e7-ec17eb3876df",
               "importedAt": "2026-10-11T01:51:42.090Z",
@@ -6670,7 +7921,7 @@
               "author": "Edunancial Faculty",
               "date": "2026-10-11",
               "path": "content/curriculum/BLUE/L4/BLUE-L4-032.md",
-              "checksum": "sha256:sha256:ad407883a1ee6b6d806fced7a2868af2b95334328ad8d1378104b9874487e4ab",
+              "checksum": "sha256:fc71dbfd859eb129d918bea6851c3f2660a1371ef2932441e6683e7a4bb12c56",
               "status": "active",
               "ingestionId": "e8ff9415-74eb-45ca-a4e7-ec17eb3876df",
               "importedAt": "2026-10-11T01:51:42.090Z",
@@ -6695,7 +7946,7 @@
               "author": "Edunancial Faculty",
               "date": "2026-10-11",
               "path": "content/curriculum/BLUE/L4/BLUE-L4-033.md",
-              "checksum": "sha256:sha256:db598b37758bf17a749158fbdfd15caf9f06e1ec418bf7203821ee369d45bbd2",
+              "checksum": "sha256:823769e344bcba76ed27b0537ee134edf20bca062ae8ebac50cc54a756c6d018",
               "status": "active",
               "ingestionId": "e8ff9415-74eb-45ca-a4e7-ec17eb3876df",
               "importedAt": "2026-10-11T01:51:42.090Z",
@@ -6720,7 +7971,7 @@
               "author": "Edunancial Faculty",
               "date": "2026-10-11",
               "path": "content/curriculum/BLUE/L4/BLUE-L4-034.md",
-              "checksum": "sha256:sha256:2b3c11530d8d753f631f7dd07e236e99a6d6e3534fe1fade5473b71f252417c2",
+              "checksum": "sha256:df14af52b66724626b2ffce647a920d2ecdb14f0f0cb752d389d5105887d0155",
               "status": "active",
               "ingestionId": "e8ff9415-74eb-45ca-a4e7-ec17eb3876df",
               "importedAt": "2026-10-11T01:51:42.090Z",
@@ -6745,7 +7996,7 @@
               "author": "Edunancial Faculty",
               "date": "2026-10-11",
               "path": "content/curriculum/BLUE/L4/BLUE-L4-035.md",
-              "checksum": "sha256:sha256:3b6b93bc151b715d0724e025fb4af83d73978af4f0f68c25b4aa074929dab3b5",
+              "checksum": "sha256:cfbfda1b03e0abbcd0d2ba2d1cd1643de52b46eb0e0c4fb627a0509f27cf6753",
               "status": "active",
               "ingestionId": "e8ff9415-74eb-45ca-a4e7-ec17eb3876df",
               "importedAt": "2026-10-11T01:51:42.090Z",
@@ -6770,7 +8021,7 @@
               "author": "Edunancial Faculty",
               "date": "2026-10-11",
               "path": "content/curriculum/BLUE/L4/BLUE-L4-036.md",
-              "checksum": "sha256:sha256:1104a4d24e016ec14dcf557127ddf0e394eedb6bb2453ff86a3fd81bf01e5bf6",
+              "checksum": "sha256:36d22b9e8692bdce4b460917cb747c3cd1af67f0a0c77cbff73add018072e89a",
               "status": "active",
               "ingestionId": "e8ff9415-74eb-45ca-a4e7-ec17eb3876df",
               "importedAt": "2026-10-11T01:51:42.090Z",
@@ -6795,7 +8046,7 @@
               "author": "Edunancial Faculty",
               "date": "2026-10-11",
               "path": "content/curriculum/BLUE/L4/BLUE-L4-037.md",
-              "checksum": "sha256:sha256:d77e8cf9d8ab0d650decb755bd56c519a5100d04b556a987b7b48c6959ff4c6a",
+              "checksum": "sha256:0336c400b1b46488c8beb8a59f02ca35516b2a6baa184e953b32947b6c0a5fcc",
               "status": "active",
               "ingestionId": "e8ff9415-74eb-45ca-a4e7-ec17eb3876df",
               "importedAt": "2026-10-11T01:51:42.090Z",
@@ -6820,7 +8071,7 @@
               "author": "Edunancial Faculty",
               "date": "2026-10-11",
               "path": "content/curriculum/BLUE/L4/BLUE-L4-038.md",
-              "checksum": "sha256:sha256:93187310bceb80aafca662a599d25e07f79292b33b18bd42b184c7b4adfb17b4",
+              "checksum": "sha256:8ba2b194b9d460eb43d986ae20022853d4b073fef75934049e982582be40d489",
               "status": "active",
               "ingestionId": "e8ff9415-74eb-45ca-a4e7-ec17eb3876df",
               "importedAt": "2026-10-11T01:51:42.090Z",
@@ -6845,7 +8096,7 @@
               "author": "Edunancial Faculty",
               "date": "2026-10-11",
               "path": "content/curriculum/BLUE/L4/BLUE-L4-039.md",
-              "checksum": "sha256:sha256:cff8bf6c291ca0adcad8058b615ef8930b828a7bbae8c17e0633350b9be554ff",
+              "checksum": "sha256:a213257b6d467d10e6b0b3b460d7da94116e03d67d33e790a876f4d20977bf87",
               "status": "active",
               "ingestionId": "e8ff9415-74eb-45ca-a4e7-ec17eb3876df",
               "importedAt": "2026-10-11T01:51:42.090Z",
@@ -6870,7 +8121,7 @@
               "author": "Edunancial Faculty",
               "date": "2026-10-11",
               "path": "content/curriculum/BLUE/L4/BLUE-L4-040.md",
-              "checksum": "sha256:sha256:aed4df8f440fb84ab6e4414b4a08e7820b6c21c8f54218a9c7b26f331e780a67",
+              "checksum": "sha256:78642b4d24cfb60c287d40087d112724670e7dc0dc89457b55deff93a52d663e",
               "status": "active",
               "ingestionId": "e8ff9415-74eb-45ca-a4e7-ec17eb3876df",
               "importedAt": "2026-10-11T01:51:42.090Z",
@@ -6895,7 +8146,7 @@
               "author": "Edunancial Faculty",
               "date": "2026-10-11",
               "path": "content/curriculum/BLUE/L4/BLUE-L4-041.md",
-              "checksum": "sha256:sha256:5c047c999a0d8c1b2a52be9c798060e3cecd27cd691c7a0191fd52164a8bd12b",
+              "checksum": "sha256:13f811af3a766c5c93e2219486aa27566f589965c18eb3bf8bb97ef6c7b90191",
               "status": "active",
               "ingestionId": "e8ff9415-74eb-45ca-a4e7-ec17eb3876df",
               "importedAt": "2026-10-11T01:51:42.090Z",
@@ -6920,7 +8171,7 @@
               "author": "Edunancial Faculty",
               "date": "2026-10-11",
               "path": "content/curriculum/BLUE/L4/BLUE-L4-042.md",
-              "checksum": "sha256:sha256:9b9fe9473d1348725c9bd3149b648ff9ca4b8cf5e577a7e25412f305f712c77e",
+              "checksum": "sha256:a643c86e5d793202e3ec4b4fc48a040f9673820b37476b4f919769b3d56d81d0",
               "status": "active",
               "ingestionId": "e8ff9415-74eb-45ca-a4e7-ec17eb3876df",
               "importedAt": "2026-10-11T01:51:42.090Z",
@@ -6945,7 +8196,7 @@
               "author": "Edunancial Faculty",
               "date": "2026-10-11",
               "path": "content/curriculum/BLUE/L4/BLUE-L4-043.md",
-              "checksum": "sha256:sha256:b59a3de2167e6e9a91365dc030ab99187782af996412d44f15484518a4c3df75",
+              "checksum": "sha256:bec5d8f7916c3a22430068bce4c5667b4f27403e9e78627db11fd398658a8ec5",
               "status": "active",
               "ingestionId": "e8ff9415-74eb-45ca-a4e7-ec17eb3876df",
               "importedAt": "2026-10-11T01:51:42.090Z",
@@ -6970,7 +8221,7 @@
               "author": "Edunancial Faculty",
               "date": "2026-10-11",
               "path": "content/curriculum/BLUE/L4/BLUE-L4-044.md",
-              "checksum": "sha256:sha256:fc5687751dd1eb615b69c77ff3165f83c8c9383bcec3743a31883402f899636e",
+              "checksum": "sha256:a559c14ab5c7893cb8ca16e865161b6e2069634ffc106c81d10c64888ec08613",
               "status": "active",
               "ingestionId": "e8ff9415-74eb-45ca-a4e7-ec17eb3876df",
               "importedAt": "2026-10-11T01:51:42.090Z",
@@ -6995,7 +8246,7 @@
               "author": "Edunancial Faculty",
               "date": "2026-10-11",
               "path": "content/curriculum/BLUE/L4/BLUE-L4-045.md",
-              "checksum": "sha256:sha256:7395f2051286ff46566777be0b180473d4f363dc9ead604b563bfbc6c8d1ff08",
+              "checksum": "sha256:b3767b75784206e2d71845c452041cd301e8ffeac2985032300ee0c83d792cfb",
               "status": "active",
               "ingestionId": "e8ff9415-74eb-45ca-a4e7-ec17eb3876df",
               "importedAt": "2026-10-11T01:51:42.090Z",
@@ -7020,7 +8271,7 @@
               "author": "Edunancial Faculty",
               "date": "2026-10-11",
               "path": "content/curriculum/BLUE/L4/BLUE-L4-046.md",
-              "checksum": "sha256:sha256:18a4c9d23f0a733109d36d019967e2710431589e58b641b4f4f6e1b4f8afc613",
+              "checksum": "sha256:68d3a92376c1a7285fddd773152c4d33dede87d05db5e90efc0f6db6f0d16332",
               "status": "active",
               "ingestionId": "e8ff9415-74eb-45ca-a4e7-ec17eb3876df",
               "importedAt": "2026-10-11T01:51:42.090Z",
@@ -7045,7 +8296,7 @@
               "author": "Edunancial Faculty",
               "date": "2026-10-11",
               "path": "content/curriculum/BLUE/L4/BLUE-L4-047.md",
-              "checksum": "sha256:sha256:41684670ac7f186bde1fbe68b4e14c5ea851722621e856a0025aff4a40531088",
+              "checksum": "sha256:da3dad97d1086d340e520e355ad689ef6056dcdae4c7f85230665b04817cc9df",
               "status": "active",
               "ingestionId": "e8ff9415-74eb-45ca-a4e7-ec17eb3876df",
               "importedAt": "2026-10-11T01:51:42.090Z",
@@ -7070,7 +8321,7 @@
               "author": "Edunancial Faculty",
               "date": "2026-10-11",
               "path": "content/curriculum/BLUE/L4/BLUE-L4-048.md",
-              "checksum": "sha256:sha256:22258e2ae386894fd5b424c5c17785add01e440fe6e2b24aed2c04ce50e4d0b1",
+              "checksum": "sha256:fcf2dda3c5280266e47c195948269944742af998f8b1b61005bc5ed035e8f90d",
               "status": "active",
               "ingestionId": "e8ff9415-74eb-45ca-a4e7-ec17eb3876df",
               "importedAt": "2026-10-11T01:51:42.090Z",
@@ -7095,7 +8346,7 @@
               "author": "Edunancial Faculty",
               "date": "2026-10-11",
               "path": "content/curriculum/BLUE/L4/BLUE-L4-049.md",
-              "checksum": "sha256:sha256:1d9473a94561b7537c77e6ab32c08511e3d7c0c542915058ccca5d66a4c015e6",
+              "checksum": "sha256:a48eda5e93bcc3e4b84a3e39c1acbe38ea5d2b81af53ad6c73e3fe7926cf6ed1",
               "status": "active",
               "ingestionId": "e8ff9415-74eb-45ca-a4e7-ec17eb3876df",
               "importedAt": "2026-10-11T01:51:42.090Z",
@@ -7120,7 +8371,7 @@
               "author": "Edunancial Faculty",
               "date": "2026-10-11",
               "path": "content/curriculum/BLUE/L4/BLUE-L4-050.md",
-              "checksum": "sha256:sha256:5d5666fddf99a627273117dd0a567a3c4dad0244cab20d7d95123a4c00efe6a6",
+              "checksum": "sha256:aeca8e8d6f369423f5f12476aaedd3c8f6f60b4b77ad22507a449ce1492a535f",
               "status": "active",
               "ingestionId": "e8ff9415-74eb-45ca-a4e7-ec17eb3876df",
               "importedAt": "2026-10-11T01:51:42.090Z",
