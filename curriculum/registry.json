@@ -1,7 +1,7 @@
 {
   "_schema": "curriculum/schemas/registry.schema.json",
   "_version": "1.0",
-  "_generated": "2026-10-11T01:51:43.902Z",
+  "_generated": "2026-10-11T07:42:31.381Z",
   "_note": "Authoritative curriculum registry (empty lessons are a valid production state).",
   "tracks": {
     "RED": {
@@ -17397,7 +17397,1258 @@
           "assets": {}
         },
         "4": {
-          "assets": {}
+          "assets": {
+            "BLACK-L4-001": {
+              "id": "BLACK-L4-001",
+              "type": "lesson",
+              "track": "BLACK",
+              "trackName": "Leadership & Executive Management",
+              "level": 4,
+              "lessonNumber": 1,
+              "title": "Leadership vs Management Analysis: Why Doing the Right Things Differs From Doing Things Right",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-11",
+              "path": "content/curriculum/BLACK/L4/BLACK-L4-001.md",
+              "checksum": "sha256:9b5f057be6fe1dcbd4abeb44aa7ede4d38718999bb0d511f9f9c67dc6e9829cf",
+              "status": "active",
+              "ingestionId": "4577b8f9-e511-4a47-a3d5-7c738615e89a",
+              "importedAt": "2026-10-11T01:50:35.956Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Leadership & Executive Management",
+                "summary": "Understand the classic distinction between leadership and management, and why an organization genuinely needs both functions, even though they require different skills and different mindsets."
+              }
+            },
+            "BLACK-L4-002": {
+              "id": "BLACK-L4-002",
+              "type": "lesson",
+              "track": "BLACK",
+              "trackName": "Leadership & Executive Management",
+              "level": 4,
+              "lessonNumber": 2,
+              "title": "Situational Leadership Analysis: Why the Same Leader Should Adapt Style to the Follower's Readiness",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-11",
+              "path": "content/curriculum/BLACK/L4/BLACK-L4-002.md",
+              "checksum": "sha256:30b1118d4bb405291408635a6e4a05b50e43c101c79ccdec06641f541f22a711",
+              "status": "active",
+              "ingestionId": "4577b8f9-e511-4a47-a3d5-7c738615e89a",
+              "importedAt": "2026-10-11T01:50:35.956Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Leadership & Executive Management",
+                "summary": "Understand the situational leadership model, and why a single, fixed leadership style applied uniformly to every team member, regardless of their specific readiness level, generally underperforms an adaptive approach."
+              }
+            },
+            "BLACK-L4-003": {
+              "id": "BLACK-L4-003",
+              "type": "lesson",
+              "track": "BLACK",
+              "trackName": "Leadership & Executive Management",
+              "level": 4,
+              "lessonNumber": 3,
+              "title": "Servant Leadership Analysis: Why Leading by Serving the Team's Genuine Needs Isn't Weakness",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-11",
+              "path": "content/curriculum/BLACK/L4/BLACK-L4-003.md",
+              "checksum": "sha256:8440b8e72647a1fd4ec75acd34410e225bfbdcb4b407ee84521e5bfc439d71a8",
+              "status": "active",
+              "ingestionId": "4577b8f9-e511-4a47-a3d5-7c738615e89a",
+              "importedAt": "2026-10-11T01:50:35.956Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Leadership & Executive Management",
+                "summary": "Understand the servant leadership philosophy, why prioritizing the team's genuine development and needs is a distinct leadership approach from traditional top-down authority, and why this approach is not the same as being permissive or avoiding accountability."
+              }
+            },
+            "BLACK-L4-004": {
+              "id": "BLACK-L4-004",
+              "type": "lesson",
+              "track": "BLACK",
+              "trackName": "Leadership & Executive Management",
+              "level": 4,
+              "lessonNumber": 4,
+              "title": "Emotional Intelligence in Leadership Analysis: Why Self-Awareness and Empathy Are Practical Leadership Skills",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-11",
+              "path": "content/curriculum/BLACK/L4/BLACK-L4-004.md",
+              "checksum": "sha256:3f6c81b2d87d49edc5b8e4e0404e3d2273a1fa695a94b5e799329e388b802f0d",
+              "status": "active",
+              "ingestionId": "4577b8f9-e511-4a47-a3d5-7c738615e89a",
+              "importedAt": "2026-10-11T01:50:35.956Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Leadership & Executive Management",
+                "summary": "Understand the core components of emotional intelligence as applied to leadership, and why self-awareness, self-regulation, and empathy function as practical, learnable leadership skills rather than fixed personality traits."
+              }
+            },
+            "BLACK-L4-005": {
+              "id": "BLACK-L4-005",
+              "type": "lesson",
+              "track": "BLACK",
+              "trackName": "Leadership & Executive Management",
+              "level": 4,
+              "lessonNumber": 5,
+              "title": "Psychological Safety Analysis: Why Teams Perform Better When It's Safe to Fail",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-11",
+              "path": "content/curriculum/BLACK/L4/BLACK-L4-005.md",
+              "checksum": "sha256:c0811baa35bda1c60d0fd8efdbd24315d0b032933e1cd1fc6af6008a69761231",
+              "status": "active",
+              "ingestionId": "4577b8f9-e511-4a47-a3d5-7c738615e89a",
+              "importedAt": "2026-10-11T01:50:35.956Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Leadership & Executive Management",
+                "summary": "Understand the concept of psychological safety, why it specifically enables genuine risk-taking, honest disclosure, and learning within a team, and why its absence quietly suppresses exactly the information a leader most needs to hear."
+              }
+            },
+            "BLACK-L4-006": {
+              "id": "BLACK-L4-006",
+              "type": "lesson",
+              "track": "BLACK",
+              "trackName": "Leadership & Executive Management",
+              "level": 4,
+              "lessonNumber": 6,
+              "title": "Delegation Analysis: Why Delegating Outcomes, Not Just Tasks, Builds Genuinely Capable Teams",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-11",
+              "path": "content/curriculum/BLACK/L4/BLACK-L4-006.md",
+              "checksum": "sha256:ad37f19612dcd3cf40ecfe0844a15cbe1ebd880ee4acb39d421d72138456dabe",
+              "status": "active",
+              "ingestionId": "4577b8f9-e511-4a47-a3d5-7c738615e89a",
+              "importedAt": "2026-10-11T01:50:35.956Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Leadership & Executive Management",
+                "summary": "Understand the distinction between delegating a specific task and delegating an outcome with genuine decision-making authority, and why the latter approach builds more capable, more independently effective team members."
+              }
+            },
+            "BLACK-L4-007": {
+              "id": "BLACK-L4-007",
+              "type": "lesson",
+              "track": "BLACK",
+              "trackName": "Leadership & Executive Management",
+              "level": 4,
+              "lessonNumber": 7,
+              "title": "Decision-Making Under Uncertainty Analysis: Why Leaders Must Decide With Incomplete Information",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-11",
+              "path": "content/curriculum/BLACK/L4/BLACK-L4-007.md",
+              "checksum": "sha256:088fbea4829677959829dd5d643b9a691e2ff3279423c5bf09bfb37fa993548c",
+              "status": "active",
+              "ingestionId": "4577b8f9-e511-4a47-a3d5-7c738615e89a",
+              "importedAt": "2026-10-11T01:50:35.956Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Leadership & Executive Management",
+                "summary": "Understand why leadership decisions frequently must be made with genuinely incomplete information, and the practical frameworks that help a leader make sound decisions despite this unavoidable uncertainty."
+              }
+            },
+            "BLACK-L4-008": {
+              "id": "BLACK-L4-008",
+              "type": "lesson",
+              "track": "BLACK",
+              "trackName": "Leadership & Executive Management",
+              "level": 4,
+              "lessonNumber": 8,
+              "title": "Organizational Culture Analysis: Why Culture Is What People Actually Do, Not What Is Officially Stated",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-11",
+              "path": "content/curriculum/BLACK/L4/BLACK-L4-008.md",
+              "checksum": "sha256:64f7fca003829cfb3ac473d3ff9c32fbbf86b99b56a2870ec7b0d1bf9328887f",
+              "status": "active",
+              "ingestionId": "4577b8f9-e511-4a47-a3d5-7c738615e89a",
+              "importedAt": "2026-10-11T01:50:35.956Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Leadership & Executive Management",
+                "summary": "Understand why an organization's genuine culture is defined by the actual behaviors people consistently exhibit, particularly when unobserved, rather than by officially stated values, and why a gap between the two undermines trust throughout the organization."
+              }
+            },
+            "BLACK-L4-009": {
+              "id": "BLACK-L4-009",
+              "type": "lesson",
+              "track": "BLACK",
+              "trackName": "Leadership & Executive Management",
+              "level": 4,
+              "lessonNumber": 9,
+              "title": "Change Management Analysis: Why Most Organizational Change Efforts Fail at Adoption, Not Design",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-11",
+              "path": "content/curriculum/BLACK/L4/BLACK-L4-009.md",
+              "checksum": "sha256:5995056e140c82e16b05921c6a7d00a5710903ac5c57f216a31a989a383cbf30",
+              "status": "active",
+              "ingestionId": "4577b8f9-e511-4a47-a3d5-7c738615e89a",
+              "importedAt": "2026-10-11T01:50:35.956Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Leadership & Executive Management",
+                "summary": "Understand why most organizational change initiatives fail specifically at the point of genuine adoption by the people affected, rather than at the initial design or planning stage, and the specific factors that drive genuine adoption."
+              }
+            },
+            "BLACK-L4-010": {
+              "id": "BLACK-L4-010",
+              "type": "lesson",
+              "track": "BLACK",
+              "trackName": "Leadership & Executive Management",
+              "level": 4,
+              "lessonNumber": 10,
+              "title": "Conflict Resolution Analysis: Why Avoiding Conflict Often Costs More Than Addressing It Directly",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-11",
+              "path": "content/curriculum/BLACK/L4/BLACK-L4-010.md",
+              "checksum": "sha256:9b2781a64d77ca0fcbe9ae6871a55ac7e18115f9a2ca8d0d43593b8c1f83690e",
+              "status": "active",
+              "ingestionId": "4577b8f9-e511-4a47-a3d5-7c738615e89a",
+              "importedAt": "2026-10-11T01:50:35.956Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Leadership & Executive Management",
+                "summary": "Understand why unaddressed team conflict tends to compound over time rather than simply dissipate, and why a leader's direct, structured approach to addressing genuine conflict generally produces better outcomes than avoidance."
+              }
+            },
+            "BLACK-L4-011": {
+              "id": "BLACK-L4-011",
+              "type": "lesson",
+              "track": "BLACK",
+              "trackName": "Leadership & Executive Management",
+              "level": 4,
+              "lessonNumber": 11,
+              "title": "Feedback Delivery Analysis: Why Specific, Timely Feedback Outperforms Vague, Delayed Feedback",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-11",
+              "path": "content/curriculum/BLACK/L4/BLACK-L4-011.md",
+              "checksum": "sha256:2cf6ab7c8776dce44d83fbfbaa79a14f5fe726e63015b00c5cfac27911f6f6f9",
+              "status": "active",
+              "ingestionId": "4577b8f9-e511-4a47-a3d5-7c738615e89a",
+              "importedAt": "2026-10-11T01:50:35.956Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Leadership & Executive Management",
+                "summary": "Understand why feedback delivered specifically and promptly produces meaningfully better behavior change than feedback that is vague, generic, or significantly delayed after the actual event it addresses."
+              }
+            },
+            "BLACK-L4-012": {
+              "id": "BLACK-L4-012",
+              "type": "lesson",
+              "track": "BLACK",
+              "trackName": "Leadership & Executive Management",
+              "level": 4,
+              "lessonNumber": 12,
+              "title": "Accountability Analysis: Why Genuine Accountability Requires Clear Ownership, Not Blame",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-11",
+              "path": "content/curriculum/BLACK/L4/BLACK-L4-012.md",
+              "checksum": "sha256:e53b75f5aabf3b1d03368078cb9005827cce0e361fce5d6934e527db62d7294f",
+              "status": "active",
+              "ingestionId": "4577b8f9-e511-4a47-a3d5-7c738615e89a",
+              "importedAt": "2026-10-11T01:50:35.956Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Leadership & Executive Management",
+                "summary": "Understand why genuine organizational accountability depends on clear, specific ownership of outcomes established in advance, and why accountability focused on blame after a failure differs fundamentally from accountability focused on clear ownership before one."
+              }
+            },
+            "BLACK-L4-013": {
+              "id": "BLACK-L4-013",
+              "type": "lesson",
+              "track": "BLACK",
+              "trackName": "Leadership & Executive Management",
+              "level": 4,
+              "lessonNumber": 13,
+              "title": "Vision Communication Analysis: Why a Vision Must Be Specific Enough to Guide Daily Decisions",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-11",
+              "path": "content/curriculum/BLACK/L4/BLACK-L4-013.md",
+              "checksum": "sha256:85163b65db5c7e188dbc3796bfd640f76bfde75e11552bf2ecdce8bf9348fe31",
+              "status": "active",
+              "ingestionId": "4577b8f9-e511-4a47-a3d5-7c738615e89a",
+              "importedAt": "2026-10-11T01:50:35.956Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Leadership & Executive Management",
+                "summary": "Understand why an organizational vision that remains too abstract or generic fails to actually guide day-to-day decision-making, and why an effective vision must be specific enough to help people determine what to actually do in concrete, everyday situations."
+              }
+            },
+            "BLACK-L4-014": {
+              "id": "BLACK-L4-014",
+              "type": "lesson",
+              "track": "BLACK",
+              "trackName": "Leadership & Executive Management",
+              "level": 4,
+              "lessonNumber": 14,
+              "title": "Succession Planning Analysis: Why Leaders Who Build Replacements Build Lasting Organizational Capability",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-11",
+              "path": "content/curriculum/BLACK/L4/BLACK-L4-014.md",
+              "checksum": "sha256:b1e385d995f3c59bab41373313fbac0fb106b1a5e26788ab3711db85be4a8b15",
+              "status": "active",
+              "ingestionId": "4577b8f9-e511-4a47-a3d5-7c738615e89a",
+              "importedAt": "2026-10-11T01:50:35.956Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Leadership & Executive Management",
+                "summary": "Understand why deliberate succession planning, developing genuine replacements for key roles well in advance of an actual departure, produces more durable organizational capability than treating succession as an urgent problem to solve only once a departure actually occurs."
+              }
+            },
+            "BLACK-L4-015": {
+              "id": "BLACK-L4-015",
+              "type": "lesson",
+              "track": "BLACK",
+              "trackName": "Leadership & Executive Management",
+              "level": 4,
+              "lessonNumber": 15,
+              "title": "Crisis Leadership Analysis: Why Leaders Are Judged Most by How They Perform Under Pressure",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-11",
+              "path": "content/curriculum/BLACK/L4/BLACK-L4-015.md",
+              "checksum": "sha256:fd82f4de22aba5f9d99a66d563c38543f5954083cdad5b9113e5d49d8753a6cf",
+              "status": "active",
+              "ingestionId": "4577b8f9-e511-4a47-a3d5-7c738615e89a",
+              "importedAt": "2026-10-11T01:50:35.956Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Leadership & Executive Management",
+                "summary": "Understand why a leader's genuine capability is disproportionately revealed and judged during a genuine crisis, and the specific leadership behaviors that distinguish effective crisis leadership from ordinary, calm-conditions leadership."
+              }
+            },
+            "BLACK-L4-016": {
+              "id": "BLACK-L4-016",
+              "type": "lesson",
+              "track": "BLACK",
+              "trackName": "Leadership & Executive Management",
+              "level": 4,
+              "lessonNumber": 16,
+              "title": "Team Composition Analysis: Why Diverse Skill Sets Outperform Homogeneous Expertise on Complex Problems",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-11",
+              "path": "content/curriculum/BLACK/L4/BLACK-L4-016.md",
+              "checksum": "sha256:761ad3d3ff58d5bbb46a820b17a0379c36da85bd52b19a0468bbf25c6dd611ff",
+              "status": "active",
+              "ingestionId": "4577b8f9-e511-4a47-a3d5-7c738615e89a",
+              "importedAt": "2026-10-11T01:50:35.956Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Leadership & Executive Management",
+                "summary": "Understand why a team composed of genuinely diverse skills, perspectives, and expertise generally outperforms a more homogeneous team on complex, ambiguous problems, and the specific practical challenge this diversity introduces for team coordination."
+              }
+            },
+            "BLACK-L4-017": {
+              "id": "BLACK-L4-017",
+              "type": "lesson",
+              "track": "BLACK",
+              "trackName": "Leadership & Executive Management",
+              "level": 4,
+              "lessonNumber": 17,
+              "title": "Trust-Building Analysis: Why Trust Is Built in Drops and Lost in Buckets",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-11",
+              "path": "content/curriculum/BLACK/L4/BLACK-L4-017.md",
+              "checksum": "sha256:f5d5aa173ba3656c0ca50d2f5c1ec2bf036d96106aa52e064ca2dd06254f3622",
+              "status": "active",
+              "ingestionId": "4577b8f9-e511-4a47-a3d5-7c738615e89a",
+              "importedAt": "2026-10-11T01:50:35.956Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Leadership & Executive Management",
+                "summary": "Understand why organizational and interpersonal trust accumulates gradually through consistent, demonstrated reliability, while a single significant breach can rapidly and disproportionately destroy trust built up over a much longer period."
+              }
+            },
+            "BLACK-L4-018": {
+              "id": "BLACK-L4-018",
+              "type": "lesson",
+              "track": "BLACK",
+              "trackName": "Leadership & Executive Management",
+              "level": 4,
+              "lessonNumber": 18,
+              "title": "Power and Influence Analysis: Why Earned Authority Outlasts Positional Authority Alone",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-11",
+              "path": "content/curriculum/BLACK/L4/BLACK-L4-018.md",
+              "checksum": "sha256:08b0193a9371b8f54b2ae34e8b4721bc0f216b1eeb09f0d0b388c58c90748849",
+              "status": "active",
+              "ingestionId": "4577b8f9-e511-4a47-a3d5-7c738615e89a",
+              "importedAt": "2026-10-11T01:50:35.956Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Leadership & Executive Management",
+                "summary": "Understand the distinction between positional authority (authority derived from an official title or role) and earned authority (authority derived from demonstrated competence and genuine trust), and why relying exclusively on positional authority produces a fragile form of influence."
+              }
+            },
+            "BLACK-L4-019": {
+              "id": "BLACK-L4-019",
+              "type": "lesson",
+              "track": "BLACK",
+              "trackName": "Leadership & Executive Management",
+              "level": 4,
+              "lessonNumber": 19,
+              "title": "Motivation Theory Analysis: Why Intrinsic Motivation Outlasts Extrinsic Incentives",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-11",
+              "path": "content/curriculum/BLACK/L4/BLACK-L4-019.md",
+              "checksum": "sha256:84b8f6c2ee54a47bcbae75da1fe8fa5f71fc3f89a48316856f4253afecc6a718",
+              "status": "active",
+              "ingestionId": "4577b8f9-e511-4a47-a3d5-7c738615e89a",
+              "importedAt": "2026-10-11T01:50:35.956Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Leadership & Executive Management",
+                "summary": "Understand the distinction between intrinsic motivation (genuine internal engagement with the work itself) and extrinsic motivation (motivation driven by external rewards or consequences), and why intrinsic motivation tends to produce more sustained, higher-quality engagement over time."
+              }
+            },
+            "BLACK-L4-020": {
+              "id": "BLACK-L4-020",
+              "type": "lesson",
+              "track": "BLACK",
+              "trackName": "Leadership & Executive Management",
+              "level": 4,
+              "lessonNumber": 20,
+              "title": "Meeting Effectiveness Analysis: Why Most Meetings Fail to Justify Their Own Real Cost",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-11",
+              "path": "content/curriculum/BLACK/L4/BLACK-L4-020.md",
+              "checksum": "sha256:5fa468bcd4a720646468b9e34e87cb3ae823da7be2e925e609d1671ca4d133a7",
+              "status": "active",
+              "ingestionId": "4577b8f9-e511-4a47-a3d5-7c738615e89a",
+              "importedAt": "2026-10-11T01:50:35.956Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Leadership & Executive Management",
+                "summary": "Understand why the genuine cost of a meeting is frequently underestimated, and the specific practices that determine whether a given meeting actually justifies that real cost."
+              }
+            },
+            "BLACK-L4-021": {
+              "id": "BLACK-L4-021",
+              "type": "lesson",
+              "track": "BLACK",
+              "trackName": "Leadership & Executive Management",
+              "level": 4,
+              "lessonNumber": 21,
+              "title": "Organizational Structure Analysis: Why Structure Should Follow Strategy, Not the Reverse",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-11",
+              "path": "content/curriculum/BLACK/L4/BLACK-L4-021.md",
+              "checksum": "sha256:ad274f563ee7e301e72cca0b846b5febf5a55fea43147622261fc32e6eccb483",
+              "status": "active",
+              "ingestionId": "4577b8f9-e511-4a47-a3d5-7c738615e89a",
+              "importedAt": "2026-10-11T01:50:35.956Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Leadership & Executive Management",
+                "summary": "Understand why an organization's structure should be deliberately designed to support its chosen strategy, and why an organization that lets its existing structure dictate its strategy risks pursuing whatever its current structure happens to make convenient, rather than what genuinely makes strategic sense."
+              }
+            },
+            "BLACK-L4-022": {
+              "id": "BLACK-L4-022",
+              "type": "lesson",
+              "track": "BLACK",
+              "trackName": "Leadership & Executive Management",
+              "level": 4,
+              "lessonNumber": 22,
+              "title": "Remote and Hybrid Leadership Analysis: Why Leading Without Physical Presence Requires New Trust Mechanisms",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-11",
+              "path": "content/curriculum/BLACK/L4/BLACK-L4-022.md",
+              "checksum": "sha256:8bb878318d700b67649fddee684e104f66a95eb6f903e447f6455fb66123cd3d",
+              "status": "active",
+              "ingestionId": "4577b8f9-e511-4a47-a3d5-7c738615e89a",
+              "importedAt": "2026-10-11T01:50:35.956Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Leadership & Executive Management",
+                "summary": "Understand why leading a remote or hybrid team requires deliberately establishing new trust and communication mechanisms that physical, in-person presence previously provided implicitly, rather than assuming those same mechanisms will simply transfer unchanged."
+              }
+            },
+            "BLACK-L4-023": {
+              "id": "BLACK-L4-023",
+              "type": "lesson",
+              "track": "BLACK",
+              "trackName": "Leadership & Executive Management",
+              "level": 4,
+              "lessonNumber": 23,
+              "title": "Burnout and Sustainable Pace Analysis: Why a Leader's Own Pace Sets the Team's Ceiling",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-11",
+              "path": "content/curriculum/BLACK/L4/BLACK-L4-023.md",
+              "checksum": "sha256:673a769617b649d4adc955fc3e968d877dd3d94f73d39f5bd3558db292918f49",
+              "status": "active",
+              "ingestionId": "4577b8f9-e511-4a47-a3d5-7c738615e89a",
+              "importedAt": "2026-10-11T01:50:35.956Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Leadership & Executive Management",
+                "summary": "Understand why a leader's own visible working pace and stress management functions as a powerful signal shaping the team's own sustainable pace, and why a leader modeling an unsustainable pace tends to produce a team culture of unsustainable pace as well."
+              }
+            },
+            "BLACK-L4-024": {
+              "id": "BLACK-L4-024",
+              "type": "lesson",
+              "track": "BLACK",
+              "trackName": "Leadership & Executive Management",
+              "level": 4,
+              "lessonNumber": 24,
+              "title": "Ethical Leadership Analysis: Why Short-Term Ethical Compromises Create Long-Term Costs",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-11",
+              "path": "content/curriculum/BLACK/L4/BLACK-L4-024.md",
+              "checksum": "sha256:656d8c5e3cb6759ab0e32e0cfa06b66a36777e6966cde434c04204deaaa10768",
+              "status": "active",
+              "ingestionId": "4577b8f9-e511-4a47-a3d5-7c738615e89a",
+              "importedAt": "2026-10-11T01:50:35.956Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Leadership & Executive Management",
+                "summary": "Understand why a leader's short-term ethical compromises, even when they seem to produce an immediate practical benefit, tend to create genuine, compounding long-term costs, and why an organization's ethical standards are most genuinely tested precisely when following them is inconvenient."
+              }
+            },
+            "BLACK-L4-025": {
+              "id": "BLACK-L4-025",
+              "type": "lesson",
+              "track": "BLACK",
+              "trackName": "Leadership & Executive Management",
+              "level": 4,
+              "lessonNumber": 25,
+              "title": "Talent Development Analysis: Why Investing in People Development Compounds Like Capital",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-11",
+              "path": "content/curriculum/BLACK/L4/BLACK-L4-025.md",
+              "checksum": "sha256:f46b7cbd6219112ca387a1717514ccc81b917f4617170f07f601fea9c0625beb",
+              "status": "active",
+              "ingestionId": "4577b8f9-e511-4a47-a3d5-7c738615e89a",
+              "importedAt": "2026-10-11T01:50:35.956Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Leadership & Executive Management",
+                "summary": "Understand why deliberate investment in employee skill and capability development functions analogously to compounding capital investment, producing returns that grow over time, and why organizations under short-term pressure often underinvest in this kind of development despite its genuine long-term value."
+              }
+            },
+            "BLACK-L4-026": {
+              "id": "BLACK-L4-026",
+              "type": "lesson",
+              "track": "BLACK",
+              "trackName": "Leadership & Executive Management",
+              "level": 4,
+              "lessonNumber": 26,
+              "title": "Performance Management Analysis: Why Annual Reviews Alone Fail to Drive Genuine Improvement",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-11",
+              "path": "content/curriculum/BLACK/L4/BLACK-L4-026.md",
+              "checksum": "sha256:45c3b9e57d4782caf4845314e2819a79506741fa55ade6edaa4f27e7286f0a46",
+              "status": "active",
+              "ingestionId": "4577b8f9-e511-4a47-a3d5-7c738615e89a",
+              "importedAt": "2026-10-11T01:50:35.956Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Leadership & Executive Management",
+                "summary": "Understand why relying primarily on a single annual performance review, rather than ongoing, frequent feedback throughout the year, generally fails to drive meaningful performance improvement, connecting directly to this level's earlier feedback timing discussion."
+              }
+            },
+            "BLACK-L4-027": {
+              "id": "BLACK-L4-027",
+              "type": "lesson",
+              "track": "BLACK",
+              "trackName": "Leadership & Executive Management",
+              "level": 4,
+              "lessonNumber": 27,
+              "title": "Organizational Communication Analysis: Why Information Flow Shapes Decision Quality",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-11",
+              "path": "content/curriculum/BLACK/L4/BLACK-L4-027.md",
+              "checksum": "sha256:e7ab39f61418e631083ba2fc5968ea8b1929411c17d3108b1fb74c44073028c3",
+              "status": "active",
+              "ingestionId": "4577b8f9-e511-4a47-a3d5-7c738615e89a",
+              "importedAt": "2026-10-11T01:50:35.956Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Leadership & Executive Management",
+                "summary": "Understand why the actual flow of information within an organization directly shapes the quality of decisions made throughout that organization, and why information bottlenecks or filtering tend to produce systematically worse decisions at the point where information is actually needed."
+              }
+            },
+            "BLACK-L4-028": {
+              "id": "BLACK-L4-028",
+              "type": "lesson",
+              "track": "BLACK",
+              "trackName": "Leadership & Executive Management",
+              "level": 4,
+              "lessonNumber": 28,
+              "title": "Board Governance Analysis: Why a Board's Role Genuinely Differs From Management's Role",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-11",
+              "path": "content/curriculum/BLACK/L4/BLACK-L4-028.md",
+              "checksum": "sha256:d1398ca5f4d601156aa160ff90ce9835463c166a44370b6565c275f20d44b5bf",
+              "status": "active",
+              "ingestionId": "4577b8f9-e511-4a47-a3d5-7c738615e89a",
+              "importedAt": "2026-10-11T01:50:35.956Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Leadership & Executive Management",
+                "summary": "Understand the distinction between a board's governance and oversight role and management's operational execution role, and why a board attempting to directly manage operational decisions, or management attempting to operate without genuine board oversight, both represent genuine governance failures."
+              }
+            },
+            "BLACK-L4-029": {
+              "id": "BLACK-L4-029",
+              "type": "lesson",
+              "track": "BLACK",
+              "trackName": "Leadership & Executive Management",
+              "level": 4,
+              "lessonNumber": 29,
+              "title": "Stakeholder Management Analysis: Why Leaders Must Balance Genuinely Competing Legitimate Interests",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-11",
+              "path": "content/curriculum/BLACK/L4/BLACK-L4-029.md",
+              "checksum": "sha256:377d67a1dda06d8fd711abf92c6aeca1ab92842f71b1d158dac8ce431eeeadfc",
+              "status": "active",
+              "ingestionId": "4577b8f9-e511-4a47-a3d5-7c738615e89a",
+              "importedAt": "2026-10-11T01:50:35.956Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Leadership & Executive Management",
+                "summary": "Understand why a leader frequently faces genuinely competing legitimate interests among different organizational stakeholders, and why sound stakeholder management requires transparent, principled tradeoff decisions rather than pretending these competing interests do not genuinely exist."
+              }
+            },
+            "BLACK-L4-030": {
+              "id": "BLACK-L4-030",
+              "type": "lesson",
+              "track": "BLACK",
+              "trackName": "Leadership & Executive Management",
+              "level": 4,
+              "lessonNumber": 30,
+              "title": "Leadership Under Scaling Analysis: Why the Skills That Built a Small Team Differ From Those Needed at Scale",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-11",
+              "path": "content/curriculum/BLACK/L4/BLACK-L4-030.md",
+              "checksum": "sha256:fa70760a918ef411cd0cd4b16c07b8fdf80805bf56df316bd6b88fee0449d538",
+              "status": "active",
+              "ingestionId": "4577b8f9-e511-4a47-a3d5-7c738615e89a",
+              "importedAt": "2026-10-11T01:50:35.956Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Leadership & Executive Management",
+                "summary": "Understand why the specific leadership skills and approaches that effectively build and lead a small team frequently prove insufficient, or even counterproductive, as that same organization scales considerably larger, requiring genuinely different leadership capabilities."
+              }
+            },
+            "BLACK-L4-031": {
+              "id": "BLACK-L4-031",
+              "type": "lesson",
+              "track": "BLACK",
+              "trackName": "Leadership & Executive Management",
+              "level": 4,
+              "lessonNumber": 31,
+              "title": "Cross-Cultural Leadership Analysis: Why Leadership Style Must Adapt Across Genuinely Different Cultural Contexts",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-11",
+              "path": "content/curriculum/BLACK/L4/BLACK-L4-031.md",
+              "checksum": "sha256:579aa2e24a355c2501fd9dd8c5c8c1c30ec7aa2ca219af68e9ef07a4c6e33e80",
+              "status": "active",
+              "ingestionId": "4577b8f9-e511-4a47-a3d5-7c738615e89a",
+              "importedAt": "2026-10-11T01:50:35.956Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Leadership & Executive Management",
+                "summary": "Understand why an effective leadership style in one cultural context does not automatically transfer effectively to a genuinely different cultural context, and why cross-cultural leadership requires deliberate adaptation rather than assuming a single universal leadership approach."
+              }
+            },
+            "BLACK-L4-032": {
+              "id": "BLACK-L4-032",
+              "type": "lesson",
+              "track": "BLACK",
+              "trackName": "Leadership & Executive Management",
+              "level": 4,
+              "lessonNumber": 32,
+              "title": "Strategic Planning Analysis: Why Strategy Requires Genuine Tradeoffs, Not Just Aspiration",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-11",
+              "path": "content/curriculum/BLACK/L4/BLACK-L4-032.md",
+              "checksum": "sha256:5f06b49c3aa12aabd739ef9979e327f97ba092d4f97d35ea4328dc81985da86e",
+              "status": "active",
+              "ingestionId": "4577b8f9-e511-4a47-a3d5-7c738615e89a",
+              "importedAt": "2026-10-11T01:50:35.956Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Leadership & Executive Management",
+                "summary": "Understand why a genuine strategy requires making explicit, difficult tradeoffs about what an organization will not pursue, and why a strategic plan consisting only of aspirational goals, without these genuine tradeoffs, fails to actually function as a genuine strategy."
+              }
+            },
+            "BLACK-L4-033": {
+              "id": "BLACK-L4-033",
+              "type": "lesson",
+              "track": "BLACK",
+              "trackName": "Leadership & Executive Management",
+              "level": 4,
+              "lessonNumber": 33,
+              "title": "Organizational Resilience Analysis: Why Redundancy and Adaptability Matter More Than Pure Efficiency Alone",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-11",
+              "path": "content/curriculum/BLACK/L4/BLACK-L4-033.md",
+              "checksum": "sha256:8a96111a8cb8a9c4e38862ed0f4913fab65a272add460885d8298225cc6feed7",
+              "status": "active",
+              "ingestionId": "4577b8f9-e511-4a47-a3d5-7c738615e89a",
+              "importedAt": "2026-10-11T01:50:35.956Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Leadership & Executive Management",
+                "summary": "Understand why an organization optimized purely for efficiency, with no genuine redundancy or adaptive capacity, can become genuinely fragile in the face of a significant disruption, and why sound organizational design deliberately balances efficiency against genuine resilience."
+              }
+            },
+            "BLACK-L4-034": {
+              "id": "BLACK-L4-034",
+              "type": "lesson",
+              "track": "BLACK",
+              "trackName": "Leadership & Executive Management",
+              "level": 4,
+              "lessonNumber": 34,
+              "title": "Whistleblower and Dissent Analysis: Why Leaders Should Want to Hear Bad News Early",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-11",
+              "path": "content/curriculum/BLACK/L4/BLACK-L4-034.md",
+              "checksum": "sha256:d4334ae8a6710339dd9032ee0da04289eb8323592c1a3000cdacf5cf91cfd686",
+              "status": "active",
+              "ingestionId": "4577b8f9-e511-4a47-a3d5-7c738615e89a",
+              "importedAt": "2026-10-11T01:50:35.956Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Leadership & Executive Management",
+                "summary": "Understand why a leader genuinely committed to organizational success should actively want to hear dissenting views and bad news as early as possible, and the specific practices that encourage this kind of early, honest disclosure rather than suppressing it."
+              }
+            },
+            "BLACK-L4-035": {
+              "id": "BLACK-L4-035",
+              "type": "lesson",
+              "track": "BLACK",
+              "trackName": "Leadership & Executive Management",
+              "level": 4,
+              "lessonNumber": 35,
+              "title": "Leadership Communication Style Analysis: Why the Message Must Match the Medium and the Moment",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-11",
+              "path": "content/curriculum/BLACK/L4/BLACK-L4-035.md",
+              "checksum": "sha256:917e1df2d5b2ca501601cc2f3bee11977298d1cfcfbbf31db42c8d8e0f6ed91a",
+              "status": "active",
+              "ingestionId": "4577b8f9-e511-4a47-a3d5-7c738615e89a",
+              "importedAt": "2026-10-11T01:50:35.956Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Leadership & Executive Management",
+                "summary": "Understand why the same substantive message can succeed or fail depending on whether the specific communication medium and timing genuinely match that message's actual content and the audience's genuine needs in that moment."
+              }
+            },
+            "BLACK-L4-036": {
+              "id": "BLACK-L4-036",
+              "type": "lesson",
+              "track": "BLACK",
+              "trackName": "Leadership & Executive Management",
+              "level": 4,
+              "lessonNumber": 36,
+              "title": "Team Charter and Norms Analysis: Why Explicit Norms Outperform Assumed, Unstated Expectations",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-11",
+              "path": "content/curriculum/BLACK/L4/BLACK-L4-036.md",
+              "checksum": "sha256:7a8cb23efa64d439c57589fafffb63811ac5cdb770cbbd8424b2b4ca5350da02",
+              "status": "active",
+              "ingestionId": "4577b8f9-e511-4a47-a3d5-7c738615e89a",
+              "importedAt": "2026-10-11T01:50:35.956Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Leadership & Executive Management",
+                "summary": "Understand why explicitly articulating a team's shared norms and working expectations produces more consistent, less conflict-prone team functioning than leaving these expectations unstated and assumed to be shared."
+              }
+            },
+            "BLACK-L4-037": {
+              "id": "BLACK-L4-037",
+              "type": "lesson",
+              "track": "BLACK",
+              "trackName": "Leadership & Executive Management",
+              "level": 4,
+              "lessonNumber": 37,
+              "title": "Leadership Derailment Analysis: Why a Leader's Own Strengths, Overused, Become Genuine Weaknesses",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-11",
+              "path": "content/curriculum/BLACK/L4/BLACK-L4-037.md",
+              "checksum": "sha256:1303cc9c1cb0e320f39d2da9f30af3e85d39e919b607528f044382e4ebd1678a",
+              "status": "active",
+              "ingestionId": "4577b8f9-e511-4a47-a3d5-7c738615e89a",
+              "importedAt": "2026-10-11T01:50:35.956Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Leadership & Executive Management",
+                "summary": "Understand why a leader's own genuine strength, when applied excessively or in a context where a different approach is actually needed, can become a genuine weakness undermining that same leader's overall effectiveness."
+              }
+            },
+            "BLACK-L4-038": {
+              "id": "BLACK-L4-038",
+              "type": "lesson",
+              "track": "BLACK",
+              "trackName": "Leadership & Executive Management",
+              "level": 4,
+              "lessonNumber": 38,
+              "title": "Coalition-Building Analysis: Why Organizational Change Requires Genuine Buy-In, Not Authority Alone",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-11",
+              "path": "content/curriculum/BLACK/L4/BLACK-L4-038.md",
+              "checksum": "sha256:5e498a983c7372e5232c94c23ca3a5d194f33bec09158cb625974789dc9434f5",
+              "status": "active",
+              "ingestionId": "4577b8f9-e511-4a47-a3d5-7c738615e89a",
+              "importedAt": "2026-10-11T01:50:35.956Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Leadership & Executive Management",
+                "summary": "Understand why successfully implementing significant organizational change generally requires deliberately building a genuine coalition of committed supporters, rather than relying solely on formal positional authority to mandate the change."
+              }
+            },
+            "BLACK-L4-039": {
+              "id": "BLACK-L4-039",
+              "type": "lesson",
+              "track": "BLACK",
+              "trackName": "Leadership & Executive Management",
+              "level": 4,
+              "lessonNumber": 39,
+              "title": "Founder Transition Analysis: Why Moving From Doer to Leader Requires a Genuine Identity Shift",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-11",
+              "path": "content/curriculum/BLACK/L4/BLACK-L4-039.md",
+              "checksum": "sha256:d91db746587d63577594c6f767eb38694d773fa96ae4146ced5a2a403c8c2ce8",
+              "status": "active",
+              "ingestionId": "4577b8f9-e511-4a47-a3d5-7c738615e89a",
+              "importedAt": "2026-10-11T01:50:35.956Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Leadership & Executive Management",
+                "summary": "Understand why a founder or specialist transitioning into a genuine leadership role must undergo a genuine identity shift, moving from deriving their own sense of value primarily from personally doing the work to deriving it from enabling others to do that work effectively."
+              }
+            },
+            "BLACK-L4-040": {
+              "id": "BLACK-L4-040",
+              "type": "lesson",
+              "track": "BLACK",
+              "trackName": "Leadership & Executive Management",
+              "level": 4,
+              "lessonNumber": 40,
+              "title": "Leadership Legacy Analysis: Why What a Leader Leaves Behind Matters More Than What They Achieved Alone",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-11",
+              "path": "content/curriculum/BLACK/L4/BLACK-L4-040.md",
+              "checksum": "sha256:8febde7bdd1da04a0824f5bba05f7e80df6b6c3ecedc60ea688a9df188813a7b",
+              "status": "active",
+              "ingestionId": "4577b8f9-e511-4a47-a3d5-7c738615e89a",
+              "importedAt": "2026-10-11T01:50:35.956Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Leadership & Executive Management",
+                "summary": "Understand why a leader's genuine, lasting legacy is measured considerably more by the durable capability and culture they leave behind within the organization than by whatever specific achievements they personally accomplished during their own tenure."
+              }
+            },
+            "BLACK-L4-041": {
+              "id": "BLACK-L4-041",
+              "type": "lesson",
+              "track": "BLACK",
+              "trackName": "Leadership & Executive Management",
+              "level": 4,
+              "lessonNumber": 41,
+              "title": "Organizational Politics Analysis: Why Ignoring Politics Doesn't Make It Disappear",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-11",
+              "path": "content/curriculum/BLACK/L4/BLACK-L4-041.md",
+              "checksum": "sha256:f51077fe3cab80e3db6dc7eb0da5d3433687c4bbc00615eb45436df013d2c077",
+              "status": "active",
+              "ingestionId": "4577b8f9-e511-4a47-a3d5-7c738615e89a",
+              "importedAt": "2026-10-11T01:50:35.956Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Leadership & Executive Management",
+                "summary": "Understand why organizational politics — the informal pursuit of influence and competing interests within an organization — exists in virtually every organization regardless of a leader's own preferences, and why a leader ignoring this reality tends to navigate it worse, not better, than one who acknowledges and manages it deliberately."
+              }
+            },
+            "BLACK-L4-042": {
+              "id": "BLACK-L4-042",
+              "type": "lesson",
+              "track": "BLACK",
+              "trackName": "Leadership & Executive Management",
+              "level": 4,
+              "lessonNumber": 42,
+              "title": "Leadership Humility Analysis: Why Admitting Mistakes Builds Rather Than Erodes Genuine Authority",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-11",
+              "path": "content/curriculum/BLACK/L4/BLACK-L4-042.md",
+              "checksum": "sha256:9ef9c308de02454811f1bfefda4ea44bad221a95844191eb28660e6bc0531d70",
+              "status": "active",
+              "ingestionId": "4577b8f9-e511-4a47-a3d5-7c738615e89a",
+              "importedAt": "2026-10-11T01:50:35.956Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Leadership & Executive Management",
+                "summary": "Understand why a leader genuinely, promptly admitting their own mistake tends to build rather than erode their genuine authority and credibility, contrary to the common intuition that admitting error signals weakness."
+              }
+            },
+            "BLACK-L4-043": {
+              "id": "BLACK-L4-043",
+              "type": "lesson",
+              "track": "BLACK",
+              "trackName": "Leadership & Executive Management",
+              "level": 4,
+              "lessonNumber": 43,
+              "title": "Scenario Planning Analysis: Why Preparing for Multiple Futures Beats Betting on a Single Predicted One",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-11",
+              "path": "content/curriculum/BLACK/L4/BLACK-L4-043.md",
+              "checksum": "sha256:36a2ce69b1daf4a30a3fcf0efbdccc349f6793fea8770077f1287b9c1f7328be",
+              "status": "active",
+              "ingestionId": "4577b8f9-e511-4a47-a3d5-7c738615e89a",
+              "importedAt": "2026-10-11T01:50:35.956Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Leadership & Executive Management",
+                "summary": "Understand why deliberately preparing for several genuinely plausible future scenarios, rather than betting entirely on a single predicted future, produces more resilient organizational strategy given the genuine unpredictability of significant future developments."
+              }
+            },
+            "BLACK-L4-044": {
+              "id": "BLACK-L4-044",
+              "type": "lesson",
+              "track": "BLACK",
+              "trackName": "Leadership & Executive Management",
+              "level": 4,
+              "lessonNumber": 44,
+              "title": "Resource Allocation Analysis: Why Saying No to Good Opportunities Protects Great Ones",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-11",
+              "path": "content/curriculum/BLACK/L4/BLACK-L4-044.md",
+              "checksum": "sha256:c7ec1ff156b3085540158e56c41f210abdead313eacd03d1e88f0e507c36a6cb",
+              "status": "active",
+              "ingestionId": "4577b8f9-e511-4a47-a3d5-7c738615e89a",
+              "importedAt": "2026-10-11T01:50:35.956Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Leadership & Executive Management",
+                "summary": "Understand why a leader's willingness to decline genuinely good, but not genuinely great, opportunities is essential to protecting the organization's finite resources for its genuinely highest-value priorities, connecting directly to this level's Lesson 32 discussion of genuine strategy requiring explicit tradeoffs."
+              }
+            },
+            "BLACK-L4-045": {
+              "id": "BLACK-L4-045",
+              "type": "lesson",
+              "track": "BLACK",
+              "trackName": "Leadership & Executive Management",
+              "level": 4,
+              "lessonNumber": 45,
+              "title": "Decision Rights Clarity Analysis: Why Knowing Who Actually Decides Prevents Costly Organizational Confusion",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-11",
+              "path": "content/curriculum/BLACK/L4/BLACK-L4-045.md",
+              "checksum": "sha256:18f60595726842222e11d7be4042fe6ef41ebaf01bbeca44dfd89505d5104e08",
+              "status": "active",
+              "ingestionId": "4577b8f9-e511-4a47-a3d5-7c738615e89a",
+              "importedAt": "2026-10-11T01:50:35.956Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Leadership & Executive Management",
+                "summary": "Understand why explicitly clarifying who actually holds the authority to make a specific decision, before that decision actually needs to be made, prevents the genuine confusion, delay, and conflict that ambiguous decision rights frequently produce."
+              }
+            },
+            "BLACK-L4-046": {
+              "id": "BLACK-L4-046",
+              "type": "lesson",
+              "track": "BLACK",
+              "trackName": "Leadership & Executive Management",
+              "level": 4,
+              "lessonNumber": 46,
+              "title": "Decisive Leadership Under Opportunity Analysis: Why Organizational Capacity to Commit Fully Is a Leadership Trait",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-11",
+              "path": "content/curriculum/BLACK/L4/BLACK-L4-046.md",
+              "checksum": "sha256:522f67854915e9968a431c1bb420366ae91bf77e4e55dd8fa6dac2834b0571f3",
+              "status": "active",
+              "ingestionId": "4577b8f9-e511-4a47-a3d5-7c738615e89a",
+              "importedAt": "2026-10-11T01:50:35.956Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Leadership & Executive Management",
+                "summary": "Understand why an organization's genuine capacity to commit fully and decisively once a genuine leadership opportunity has been identified represents a distinct, learnable leadership trait, and why this capacity, framed strictly as organizational decisiveness rather than any form of conflict, complements rather than contradicts the ethical, patient leadership principles this level has emphasized throughout."
+              }
+            },
+            "BLACK-L4-047": {
+              "id": "BLACK-L4-047",
+              "type": "lesson",
+              "track": "BLACK",
+              "trackName": "Leadership & Executive Management",
+              "level": 4,
+              "lessonNumber": 47,
+              "title": "Building Organizational Readiness Analysis: Why Decisive Capacity Must Be Built Before the Moment Arrives",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-11",
+              "path": "content/curriculum/BLACK/L4/BLACK-L4-047.md",
+              "checksum": "sha256:16ba9aa339c14f02b2d1d1bdfb608eb37d026a296dad3b42aa5f9c2cb0b6d216",
+              "status": "active",
+              "ingestionId": "4577b8f9-e511-4a47-a3d5-7c738615e89a",
+              "importedAt": "2026-10-11T01:50:35.956Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Leadership & Executive Management",
+                "summary": "Understand why the organizational capacity to act decisively when a genuine opportunity arises cannot be quickly built in the moment itself, requiring deliberate advance investment in the specific enabling capabilities this level's Lesson 46 discussion identified."
+              }
+            },
+            "BLACK-L4-048": {
+              "id": "BLACK-L4-048",
+              "type": "lesson",
+              "track": "BLACK",
+              "trackName": "Leadership & Executive Management",
+              "level": 4,
+              "lessonNumber": 48,
+              "title": "Leading Through Escalation and Retreat Analysis: Why a Leader Must Model Honest Reassessment",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-11",
+              "path": "content/curriculum/BLACK/L4/BLACK-L4-048.md",
+              "checksum": "sha256:226097a4605c1ab269c186e6efe22fd94d350c864a7f814ff5ff8222875704bb",
+              "status": "active",
+              "ingestionId": "4577b8f9-e511-4a47-a3d5-7c738615e89a",
+              "importedAt": "2026-10-11T01:50:35.956Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Leadership & Executive Management",
+                "summary": "Understand why a leader engaged in a decisive organizational commitment must model genuine, honest reassessment of that commitment as new evidence emerges, and why a leader's own visible willingness to recommend pulling back, when genuinely warranted, strengthens rather than undermines their credibility."
+              }
+            },
+            "BLACK-L4-049": {
+              "id": "BLACK-L4-049",
+              "type": "lesson",
+              "track": "BLACK",
+              "trackName": "Leadership & Executive Management",
+              "level": 4,
+              "lessonNumber": 49,
+              "title": "Courage and Calculated Risk in Leadership Analysis: Why Leaders Must Own the Consequences of Decisive Action",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-11",
+              "path": "content/curriculum/BLACK/L4/BLACK-L4-049.md",
+              "checksum": "sha256:c6a601be591415da69a0b9e4bdce46bce7d16a19ab277e97ae111ee474f2b21f",
+              "status": "active",
+              "ingestionId": "4577b8f9-e511-4a47-a3d5-7c738615e89a",
+              "importedAt": "2026-10-11T01:50:35.956Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Leadership & Executive Management",
+                "summary": "Understand why a leader who takes decisive, calculated risks on the organization's behalf must genuinely own the consequences of that decision, whether favorable or unfavorable, rather than deflecting responsibility, and why this genuine ownership is what actually distinguishes courageous leadership from mere gambling."
+              }
+            },
+            "BLACK-L4-050": {
+              "id": "BLACK-L4-050",
+              "type": "lesson",
+              "track": "BLACK",
+              "trackName": "Leadership & Executive Management",
+              "level": 4,
+              "lessonNumber": 50,
+              "title": "Leadership Integration: Building a Coherent Leadership Practice Across Vision, People, Systems, and Decisive Action",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-11",
+              "path": "content/curriculum/BLACK/L4/BLACK-L4-050.md",
+              "checksum": "sha256:781530c667d8f48459642868f415cde471ee428db990f44d539691b31b3cacdd",
+              "status": "active",
+              "ingestionId": "4577b8f9-e511-4a47-a3d5-7c738615e89a",
+              "importedAt": "2026-10-11T01:50:35.956Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Leadership & Executive Management",
+                "summary": "Synthesize this level's full range of leadership concepts — vision and direction, people and culture, systems and accountability, and decisive action — into a single, integrated leadership practice, explicitly reconciling the ethical, patient, servant-oriented default with the capacity for decisive action as complementary rather than contradictory."
+              }
+            }
+          }
         },
         "5": {
           "assets": {}
