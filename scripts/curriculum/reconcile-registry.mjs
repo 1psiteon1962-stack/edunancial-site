@@ -14,7 +14,22 @@ for (const filename of readdirSync('content/curriculum/BLACK/L4').filter(x => /^
   const filePath = 'content/curriculum/BLACK/L4/' + filename;
   const bytes = readFileSync(filePath);
   const source = bytes.toString('utf8');
-  const field = key => source.match(new RegExp('^' + key + ': (.+)
+  const field = key => {
+    const line = source.split('\n').find(x => x.startsWith(key + ': '));
+    return line ? line.slice(key.length + 2).replace(/^"|"$/g, '') : '';
+  };
+  black[id] = {
+    id, type: 'lesson', track: 'BLACK', trackName: 'Leadership & Executive Management',
+    level: 4, lessonNumber: Number(id.slice(-3)), title: field('title'),
+    version: field('version') || '1.0', author: field('author') || 'Edunancial Faculty',
+    date: field('date'), path: filePath,
+    checksum: 'sha256:' + createHash('sha256').update(bytes).digest('hex'),
+    status: 'active', ingestionId: 'black-l4-registry-recovery',
+    importedAt: new Date().toISOString(), validationPassed: true, warnings: [],
+    metadata: { officialTrackName: field('officialTrackName'), summary: field('summary') }
+  };
+  added++;
+}
 for (const branch of branches) {
   const raw = execFileSync('git', ['show', 'origin/' + branch + ':' + path], { encoding: 'utf8', maxBuffer: 32 * 1024 * 1024 });
   const incoming = JSON.parse(raw);
