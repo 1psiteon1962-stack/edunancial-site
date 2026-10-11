@@ -1,0 +1,69 @@
+name: Curriculum Reconcile
+on:
+  workflow_dispatch:
+    inputs:
+      branches:
+        description: Space-separated upload PR head branches
+        required: true
+        type: string
+permissions:
+  contents: write
+  pull-requests: write
+jobs:
+  reconcile:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: npm
+      - run: npm ci
+      - name: Consolidate curriculum
+        env:
+          BRANCHES: ${{ inputs.branches }}
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name curriculum-bot
+          git config user.email curriculum-bot@users.noreply.github.com
+          git fetch origin main
+          NEW=curriculum/l4-consolidated-$GITHUB_RUN_ID
+          git checkout -b "$NEW" origin/main
+          read -r -a source_branches <<< "$BRANCHES"
+          test "$BRANCHES" != ""
+          for b in "$BRANCHES"; do
+            if [[ ! "$b" =~ ^[A-Za-z0-9_./-]+$ ]] || [[ "$b" == -* ]] || [[ "$b" == *..* ]]; then
+              echo "Invalid branch $b"; exit 1
+            fi
+            git fetch origin "$b"
+            mapfile -d '' files < <(git diff --name-only -z --diff-filter=AM "origin/main...origin/$b" -- content/curriculum/ curriculum/staging/)
+            for f in "${files[@]}"; do
+              if git cat-file -e "HEAD:$f" 2>/dev/null; then
+                if ! git diff --quiet HEAD "origin/$b" -- "$f"; then
+                  echo "CONFLICT: $f differs between consolidated branch and $b"; exit 1
+                fi
+              else
+                git restore --source="origin/$b" --staged --worktree -- "$f"
+              fi
+            done
+          done
+          node scripts/curriculum/reconcile-registry.mjs "${source_branches[@]}"
+          npm run curriculum:inventory
+          npm run curriculum:audit
+          npm run curriculum:validate
+          node --input-type=module -e '
+            import fs from "node:fs";
+            const report = JSON.parse(fs.readFileSync("curriculum/reports/CURRICULUM-AUDIT.json","utf8"));
+            for (const [name, entries] of Object.entries(report.issues || {})) {
+              if (entries.length) { console.error(name + ": " + JSON.stringify(entries).slice(0,2000)); process.exitCode = 1; }
+            }
+          '
+          git add -A
+          git diff --cached --quiet && { echo "No changes"; exit 1; }
+          git commit -m "Publish consolidated L4 curriculum"
+          git push origin "$NEW"
+          gh pr create --base main --head "$NEW" --title "Publish L4 curriculum (consolidated)" --body "Consolidates: $BRANCHES. Strict checksum and conflict checks."
