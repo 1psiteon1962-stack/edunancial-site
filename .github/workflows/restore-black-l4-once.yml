@@ -1,0 +1,52 @@
+name: Restore BLACK L4 registry (one-time)
+
+# Runs once on the PR #1204 branch, then deletes itself in the commit it makes.
+on:
+  push:
+    branches: [fix/consolidated-l4-reconcile-workflow]
+    paths: [scripts/curriculum/restore-black-l4.mjs]
+
+permissions:
+  contents: write
+
+jobs:
+  restore:
+    if: github.actor != 'github-actions[bot]'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: fix/consolidated-l4-reconcile-workflow
+          fetch-depth: 0
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: npm
+      - run: npm ci
+      - name: Restore records (must print restored=50 before=752 after=802)
+        run: |
+          set -euo pipefail
+          out=$(node scripts/curriculum/restore-black-l4.mjs)
+          echo "$out"
+          test "$out" = "restored=50 before=752 after=802"
+      - name: Regenerate and verify
+        run: |
+          set -euo pipefail
+          npm run curriculum:test
+          npm run curriculum:validate
+          npm run curriculum:audit
+          npm run curriculum:inventory
+          node -e 'const a=require("./curriculum/reports/CURRICULUM-AUDIT.json");const bad=Object.entries(a.issues).filter(([,v])=>v.length);if(a.registeredAssets!==802||bad.length){console.error("FAILED",a.registeredAssets,JSON.stringify(bad).slice(0,2000));process.exit(1)}console.log("audit OK: 802 registered, 0 issues")'
+      - name: Commit results and remove this one-time workflow
+        run: |
+          set -euo pipefail
+          git config user.name curriculum-bot
+          git config user.email curriculum-bot@users.noreply.github.com
+          git rm -q scripts/curriculum/restore-black-l4.mjs .github/workflows/restore-black-l4-once.yml
+          git add curriculum/registry.json curriculum/inventory.json curriculum/reports/CURRICULUM-AUDIT.json curriculum/reports/CURRICULUM-AUDIT.md
+          changed=$(git diff --cached --name-only | sort | tr '\n' ' ')
+          echo "Staged: $changed"
+          test "$changed" = ".github/workflows/restore-black-l4-once.yml curriculum/inventory.json curriculum/registry.json curriculum/reports/CURRICULUM-AUDIT.json curriculum/reports/CURRICULUM-AUDIT.md scripts/curriculum/restore-black-l4.mjs "
+          git commit -q -m "Restore 50 BLACK L4 registry records lost in d96aefe89" -m "Restored from 0b9844b2d; checksums recomputed from committed bytes (pre-#1203 double-prefix defect, files byte-identical to 0b9844b2d). Registered 752 -> 802."
+          git push origin HEAD:fix/consolidated-l4-reconcile-workflow
+          git log --oneline -1
