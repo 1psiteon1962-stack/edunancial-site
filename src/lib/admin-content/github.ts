@@ -522,14 +522,20 @@ export async function createGithubPullRequest(batch: UploadBatch, exportPackage:
   const now = new Date();
   const datePart = now.toISOString().slice(0, 10).replaceAll("-", "");
   const timePart = now.toISOString().slice(11, 19).replaceAll(":", "");
-  const branchName = `content/course-upload-${datePart}-${timePart}-${batchSlug}`;
+  const branchName = `content/course-upload-${batch.id}-${batchSlug}`;
 
   const refData = await githubRequest(`/git/ref/heads/${baseBranch}`);
   const baseSha = (refData.object as { sha: string }).sha;
-  await githubRequest("/git/refs", {
-    method: "POST",
-    body: JSON.stringify({ ref: `refs/heads/${branchName}`, sha: baseSha }),
-  });
+  try {
+    await githubRequest("/git/refs", {
+      method: "POST",
+      body: JSON.stringify({ ref: `refs/heads/${branchName}`, sha: baseSha }),
+    });
+  } catch (error) {
+    const message = error instanceof Error ? error.message : String(error);
+    if (!message.includes("(422)")) throw error;
+    // Idempotent retry: this batch already owns its deterministic export branch.
+  }
 
   const blobs = await Promise.all(
     resolvedFiles.map(async (file) => {
