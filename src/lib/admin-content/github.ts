@@ -526,6 +526,7 @@ export async function createGithubPullRequest(batch: UploadBatch, exportPackage:
 
   const refData = await githubRequest(`/git/ref/heads/${baseBranch}`);
   const baseSha = (refData.object as { sha: string }).sha;
+  let branchStartSha = baseSha;
   try {
     await githubRequest("/git/refs", {
       method: "POST",
@@ -534,7 +535,9 @@ export async function createGithubPullRequest(batch: UploadBatch, exportPackage:
   } catch (error) {
     const message = error instanceof Error ? error.message : String(error);
     if (!message.includes("(422)")) throw error;
-    // Idempotent retry: this batch already owns its deterministic export branch.
+    // Idempotent retry: continue from this batch branch's existing tip.
+    const existingBranch = await githubRequest(`/git/ref/heads/${branchName}`);
+    branchStartSha = (existingBranch.object as { sha: string }).sha;
   }
 
   const blobs = await Promise.all(
@@ -693,17 +696,17 @@ export async function createGithubPullRequest(batch: UploadBatch, exportPackage:
     sha: manifestBlob.sha as string,
   });
 
-  const baseCommit = await githubRequest(`/git/commits/${baseSha}`);
+  const branchStartCommit = await githubRequest(`/git/commits/${branchStartSha}`);
   const newTree = await githubRequest("/git/trees", {
     method: "POST",
-    body: JSON.stringify({ base_tree: (baseCommit.tree as { sha: string }).sha, tree: blobs }),
+    body: JSON.stringify({ base_tree: (branchStartCommit.tree as { sha: string }).sha, tree: blobs }),
   });
   const commit = await githubRequest("/git/commits", {
     method: "POST",
     body: JSON.stringify({
       message: `Content upload: ${batch.name}`,
       tree: newTree.sha,
-      parents: [baseSha],
+      parents: [branchStartSha],
     }),
   });
 
