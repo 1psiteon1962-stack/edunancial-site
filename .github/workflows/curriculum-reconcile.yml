@@ -1,83 +1,185 @@
 name: Curriculum Reconcile
+
+# Consolidates several content-upload branches into ONE publication PR built on
+# current main. Lesson files are copied (never overwritten), registry records are
+# merged by scripts/curriculum/reconcile-registry.mjs (non-destructive, checksum
+# verified), derived metadata is regenerated once, and every integrity gate must
+# pass before a branch is pushed. Unresolvable conditions stop the run with a log.
+
 on:
   workflow_dispatch:
     inputs:
-      branches:
-        description: Space-separated upload PR head branches
+      sources:
+        description: Space-separated upload PR numbers or head branch names
         required: true
         type: string
+      expected_per_track:
+        description: Lessons expected per incoming track/level (0 to skip the check)
+        required: false
+        default: '50'
+        type: string
+
 permissions:
   contents: write
   pull-requests: write
+
+concurrency:
+  group: curriculum-reconcile
+  cancel-in-progress: false
+
 jobs:
   reconcile:
     runs-on: ubuntu-latest
+    env:
+      GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      SOURCES: ${{ inputs.sources }}
+      EXPECTED: ${{ inputs.expected_per_track }}
     steps:
       - uses: actions/checkout@v4
         with:
+          ref: main
           fetch-depth: 0
+
       - uses: actions/setup-node@v4
         with:
           node-version: '22'
           cache: npm
+
       - run: npm ci
-      - name: Consolidate curriculum
-        env:
-          BRANCHES: ${{ inputs.branches }}
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Set action-log path
+        run: echo "LOG=$RUNNER_TEMP/reconcile-log.json" >> "$GITHUB_ENV"
+
+      - name: Resolve and fetch sources
+        id: resolve
         shell: bash
+        run: |
+          set -euo pipefail
+          retry() { local n=0; until "$@"; do n=$((n+1)); [ $n -ge 4 ] && return 1; echo "retry $n: $*"; sleep $((n*n*5)); done; }
+          test -n "${SOURCES// }" || { echo "No sources given"; exit 1; }
+          branches=()
+          for s in $SOURCES; do
+            if [[ "$s" =~ ^[0-9]+$ ]]; then
+              s=$(retry gh pr view "$s" --json headRefName,state --jq 'select(.state=="OPEN") | .headRefName')
+              test -n "$s" || { echo "PR is not open or not found"; exit 1; }
+            fi
+            if [[ ! "$s" =~ ^[A-Za-z0-9_./-]+$ || "$s" == -* || "$s" == *..* ]]; then echo "Invalid branch: $s"; exit 1; fi
+            retry git fetch --no-tags origin "+refs/heads/$s:refs/remotes/origin/$s"
+            branches+=("$s")
+          done
+          echo "branches=${branches[*]}" >> "$GITHUB_OUTPUT"
+          echo "Resolved: ${branches[*]}"
+
+      - name: Copy lesson files (no overwrites)
+        shell: bash
+        env:
+          BRANCHES: ${{ steps.resolve.outputs.branches }}
         run: |
           set -euo pipefail
           git config user.name curriculum-bot
           git config user.email curriculum-bot@users.noreply.github.com
-          git fetch origin main
-          NEW=curriculum/l4-consolidated-$GITHUB_RUN_ID
-          git checkout -b "$NEW" origin/main
-          read -r -a source_branches <<< "$BRANCHES"
-          test "$BRANCHES" != ""
-          for b in "${source_branches[@]}"; do
-            if [[ ! "$b" =~ ^[A-Za-z0-9_./-]+$ ]] || [[ "$b" == -* ]] || [[ "$b" == *..* ]]; then
-              echo "Invalid branch $b"; exit 1
-            fi
-            git fetch origin "$b"
-            mapfile -d '' files < <(git diff --name-only -z --diff-filter=AM "origin/main...origin/$b" -- content/curriculum/ curriculum/staging/)
+          git checkout -b "curriculum/consolidated-$GITHUB_RUN_ID" origin/main
+          read -r -a srcs <<< "$BRANCHES"
+          for b in "${srcs[@]}"; do
+            base=$(git merge-base origin/main "origin/$b")
+            # Upload deletions or renames are never carried over.
+            bad=$(git diff --name-only --diff-filter=DR "$base" "origin/$b" -- content/curriculum/ curriculum/staging/)
+            test -z "$bad" || { echo "SAFETY STOP: $b deletes/renames curriculum files:"; echo "$bad"; exit 1; }
+            mapfile -d '' files < <(git diff --name-only -z --diff-filter=AM "$base" "origin/$b" -- content/curriculum/ curriculum/staging/)
+            copied=0
             for f in "${files[@]}"; do
-              if git cat-file -e "HEAD:$f" 2>/dev/null; then
-                if ! git diff --quiet HEAD "origin/$b" -- "$f"; then
-                  echo "CONFLICT: $f differs between consolidated branch and $b"; exit 1
-                fi
+              incoming=$(git rev-parse "origin/$b:$f")
+              # Blob already present for this path: the working-tree file if it exists
+              # (main's copy, or one copied from an earlier source in this run), else HEAD's.
+              if [ -e "$f" ]; then
+                existing=$(git hash-object -- "$f")
+              elif existing=$(git rev-parse --verify --quiet "HEAD:$f"); then
+                echo "SAFETY STOP: $f is in HEAD but missing from the working tree"; exit 1
               else
-                git restore --source="origin/$b" --staged --worktree -- "$f"
+                existing=""
+              fi
+              if [ -z "$existing" ]; then
+                git restore --source="origin/$b" --worktree -- "$f"; copied=$((copied+1))
+              elif [ "$existing" = "$incoming" ]; then
+                echo "identical, skipped: $f"
+              else
+                echo "SAFETY STOP: $f already exists with different content (source $b)"; exit 1
               fi
             done
+            echo "$b: $copied file(s) copied"
           done
-          node scripts/curriculum/reconcile-registry.mjs "${source_branches[@]}"
-          # Regenerate derived files after each recoverable metadata failure.
-          for attempt in 1 2 3; do
-            npm run curriculum:inventory
-            npm run curriculum:audit
-            npm run curriculum:validate
-            if node --input-type=module -e '
-              import fs from "node:fs";
-              const report = JSON.parse(fs.readFileSync("curriculum/reports/CURRICULUM-AUDIT.json","utf8"));
-              for (const [name, entries] of Object.entries(report.issues || {})) {
-                if (entries.length) { console.error(name + ": " + JSON.stringify(entries).slice(0,2000)); process.exitCode = 1; }
-              }
-            '; then
-              break
-            fi
-            if [ "$attempt" -eq 3 ]; then echo "Unsafe or unresolved curriculum issues after 3 attempts"; exit 1; fi
-            node scripts/curriculum/reconcile-registry.mjs "${source_branches[@]}"
-          done
+
+      - name: Merge registry records
+        env:
+          BRANCHES: ${{ steps.resolve.outputs.branches }}
+        shell: bash
+        run: |
+          read -r -a srcs <<< "$BRANCHES"
+          node scripts/curriculum/reconcile-registry.mjs --log "$LOG" "${srcs[@]}"
+
+      - name: Regenerate derived metadata and validate (once)
+        run: |
+          set -euo pipefail
+          npm run curriculum:test
+          npm run curriculum:validate
+          npm run curriculum:audit
+          npm run curriculum:inventory
+
+      - name: Integrity gates
+        run: |
           node --input-type=module -e '
             import fs from "node:fs";
-            const report = JSON.parse(fs.readFileSync("curriculum/reports/CURRICULUM-AUDIT.json","utf8"));
-            for (const [name, entries] of Object.entries(report.issues || {})) {
-              if (entries.length) { console.error(name + ": " + JSON.stringify(entries).slice(0,2000)); process.exitCode = 1; }
+            import { execFileSync } from "node:child_process";
+            const fail = (m) => { console.error("GATE FAILED: " + m); process.exitCode = 1; };
+            const audit = JSON.parse(fs.readFileSync("curriculum/reports/CURRICULUM-AUDIT.json", "utf8"));
+            for (const [k, v] of Object.entries(audit.issues || {})) if (v.length) fail(`${k}: ${v.length} ` + JSON.stringify(v).slice(0, 800));
+            const log = JSON.parse(fs.readFileSync(process.env.LOG, "utf8"));
+            if (audit.registeredAssets !== log.afterTotal) fail(`audit registered ${audit.registeredAssets} != reconcile ${log.afterTotal}`);
+            for (const [k, n] of Object.entries(log.countsBefore)) if ((log.countsAfter[k] || 0) < n) fail(`${k} decreased ${n} -> ${log.countsAfter[k] || 0}`);
+            const deleted = execFileSync("git", ["diff", "--name-only", "--diff-filter=DR", "origin/main", "--", "content/", "curriculum/registry.json"], { encoding: "utf8" }).trim();
+            if (deleted) fail("deleted/renamed vs main: " + deleted);
+            const expected = Number(process.env.EXPECTED || 0);
+            if (expected) {
+              const grew = Object.keys(log.countsAfter).filter((k) => (log.countsAfter[k] || 0) !== (log.countsBefore[k] || 0));
+              for (const k of grew) if (log.countsAfter[k] - (log.countsBefore[k] || 0) !== expected) fail(`${k} added ${log.countsAfter[k] - (log.countsBefore[k] || 0)}, expected ${expected}`);
+              const nBranches = log.branches.length;
+              if (grew.length !== nBranches) fail(`${grew.length} track/levels grew, expected ${nBranches}`);
             }
+            console.log(`Registered ${log.beforeTotal} -> ${log.afterTotal} (+${log.added}); pre-#1203 checksum repairs: ${log.checksumRepairs}`);
           '
-          git add -A
-          git diff --cached --quiet && { echo "No changes"; exit 1; }
-          git commit -m "Publish consolidated L4 curriculum"
-          git push origin "$NEW"
-          gh pr create --base main --head "$NEW" --title "Publish L4 curriculum (consolidated)" --body "Consolidates: $BRANCHES. Strict checksum and conflict checks."
+
+      - name: Commit, push and open PR
+        env:
+          BRANCHES: ${{ steps.resolve.outputs.branches }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          retry() { local n=0; until "$@"; do n=$((n+1)); [ $n -ge 4 ] && return 1; echo "retry $n: $*"; sleep $((n*n*5)); done; }
+          read -r -a srcs <<< "$BRANCHES"
+          # Stage only the reconcile outputs. Required outputs must exist; directories are
+          # added only if present so a missing optional path cannot abort or widen the commit.
+          for req in curriculum/registry.json curriculum/inventory.json curriculum/reports/CURRICULUM-AUDIT.json curriculum/reports/CURRICULUM-AUDIT.md; do
+            test -f "$req" || { echo "Missing required output: $req"; exit 1; }
+          done
+          paths=(curriculum/registry.json curriculum/inventory.json curriculum/reports/CURRICULUM-AUDIT.json curriculum/reports/CURRICULUM-AUDIT.md)
+          for d in content/curriculum curriculum/staging; do [ -d "$d" ] && paths+=("$d"); done
+          git add -- "${paths[@]}"
+          # Nothing outside those paths may change.
+          stray=$(git status --porcelain --untracked-files=all | grep -vE ' (content/curriculum/|curriculum/staging/|curriculum/registry\.json|curriculum/inventory\.json|curriculum/reports/|content/generated/)' || true)
+          test -z "$stray" || { echo "Unexpected changes outside reconcile outputs:"; echo "$stray"; exit 1; }
+          git diff --cached --quiet && { echo "Nothing to publish"; exit 1; }
+          summary=$(node -e 'const l=require(process.env.LOG);const c=Object.keys(l.countsAfter).filter(k=>l.countsAfter[k]!==(l.countsBefore[k]||0)).map(k=>`- ${k}: ${l.countsBefore[k]||0} -> ${l.countsAfter[k]}`).join("\n");console.log(`Registered assets: ${l.beforeTotal} -> ${l.afterTotal} (+${l.added})\nPre-#1203 checksum repairs (recomputed from committed bytes): ${l.checksumRepairs}\n\n${c}`)')
+          git commit -q -m "Publish consolidated curriculum upload" -m "Sources: $BRANCHES" -m "$summary"
+          retry git push origin "HEAD:refs/heads/curriculum/consolidated-$GITHUB_RUN_ID"
+          retry gh pr create --base main --head "curriculum/consolidated-$GITHUB_RUN_ID" \
+            --title "Publish consolidated curriculum upload ($GITHUB_RUN_ID)" \
+            --body "$(printf 'Generated by Curriculum Reconcile run %s.\n\nSources:\n%s\n\n%s\n\nFull action log is attached to the workflow run as an artifact.' "$GITHUB_SERVER_URL/$GITHUB_REPOSITORY/actions/runs/$GITHUB_RUN_ID" "$(printf -- '- %s\n' "${srcs[@]}")" "$summary")"
+
+      - name: Upload action log
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: reconcile-log-${{ github.run_id }}
+          path: ${{ runner.temp }}/reconcile-log.json
+          if-no-files-found: warn
+          retention-days: 90
