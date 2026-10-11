@@ -584,7 +584,7 @@ export async function createGithubPullRequest(batch: UploadBatch, exportPackage:
           contentBytes,
           ingestionId,
           ingestionTimestamp,
-          file.checksum ? `sha256:${file.checksum}` : undefined,
+          file.checksum ? (file.checksum.startsWith("sha256:") ? file.checksum : `sha256:${file.checksum}`) : undefined,
         );
       });
     const bundledEntries = canonicalBundledCurriculumFiles.map((file) => {
