@@ -1,0 +1,92 @@
+name: Recover legacy Level 3 lessons (one-time)
+
+# Runs once on branch recovery/legacy-l3, commits the recovered lessons to that
+# branch, and deletes itself (and its script) in the same commit. Open a PR
+# from that branch to main afterwards. Nothing is pushed to main.
+on:
+  push:
+    branches: [recovery/legacy-l3]
+    paths: [scripts/curriculum/recover-legacy-l3.mjs]
+
+permissions:
+  contents: write
+
+jobs:
+  recover:
+    if: github.actor != 'github-actions[bot]'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: recovery/legacy-l3
+          fetch-depth: 0
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: npm
+      - run: npm ci
+      - name: Fetch pinned source uploads
+        run: |
+          set -euo pipefail
+          for n in 651 650 646 647 638 643 649 644; do
+            git fetch --no-tags origin "pull/$n/head"
+          done
+      - name: Record starting registry
+        run: node -e 'const r=require("./curriculum/registry.json");let n=0;for(const t of Object.values(r.tracks))for(const l of Object.values(t.levels))n+=Object.keys(l.assets||{}).length;console.log("BEFORE="+n)' | tee -a "$GITHUB_ENV"
+      - name: Prepare lessons (safety-stops on any existing ID or header mismatch)
+        run: node scripts/curriculum/recover-legacy-l3.mjs "$RUNNER_TEMP/l3in"
+      - name: Import with the repository importer
+        run: |
+          set -euo pipefail
+          node scripts/curriculum/bulk-import.mjs "$RUNNER_TEMP/l3in" | tee "$RUNNER_TEMP/import.log"
+          grep -qE 'Imported/Updated: *400' "$RUNNER_TEMP/import.log"
+          grep -qE 'Rejected: *0' "$RUNNER_TEMP/import.log"
+      - name: Regenerate and validate
+        run: |
+          set -euo pipefail
+          npm run curriculum:test
+          npm run curriculum:validate
+          npm run curriculum:localization:global
+          npm run curriculum:audit
+          npm run curriculum:inventory
+      - name: Integrity gates
+        run: |
+          node --input-type=module -e '
+            import fs from "node:fs";
+            import { execFileSync } from "node:child_process";
+            const fail = (m) => { console.error("GATE FAILED: " + m); process.exitCode = 1; };
+            const audit = JSON.parse(fs.readFileSync("curriculum/reports/CURRICULUM-AUDIT.json", "utf8"));
+            for (const [k, v] of Object.entries(audit.issues || {})) if (v.length) fail(`${k}: ${v.length}`);
+            const before = Number(process.env.BEFORE);
+            if (audit.registeredAssets !== before + 400) fail(`registered ${audit.registeredAssets}, expected ${before + 400}`);
+            const flat = (r) => { const m = {}; for (const t of Object.values(r.tracks)) for (const l of Object.values(t.levels)) Object.assign(m, l.assets || {}); return m; };
+            const A = flat(JSON.parse(execFileSync("git", ["show", "HEAD:curriculum/registry.json"], { encoding: "utf8", maxBuffer: 3e8 })));
+            const B = flat(JSON.parse(fs.readFileSync("curriculum/registry.json", "utf8")));
+            for (const id of Object.keys(A)) { if (!B[id]) fail(`removed ${id}`); else if (JSON.stringify(A[id]) !== JSON.stringify(B[id])) fail(`changed ${id}`); }
+            const added = Object.keys(B).filter((k) => !A[k]);
+            for (const t of ["BLACK","BLUE","GOLD","GREEN","ORANGE","PURPLE","RED","WHITE"]) {
+              const n = added.filter((k) => k.startsWith(`${t}-L3-`)).length;
+              if (n !== 50) fail(`${t}-L3 added ${n}, expected 50`);
+            }
+            if (added.length !== 400) fail(`added ${added.length}, expected 400`);
+            const touched = execFileSync("git", ["diff", "--name-only", "--diff-filter=DMR", "HEAD", "--", "content/"], { encoding: "utf8" }).trim();
+            if (touched) fail("existing content modified/deleted: " + touched);
+            console.log(`Registered ${before} -> ${audit.registeredAssets} (+400); 0 audit issues; no existing record or file changed`);
+          '
+      - name: Commit results and remove this one-time job
+        run: |
+          set -euo pipefail
+          git config user.name curriculum-bot
+          git config user.email curriculum-bot@users.noreply.github.com
+          git rm -q scripts/curriculum/recover-legacy-l3.mjs .github/workflows/recover-legacy-l3-once.yml
+          git add content/curriculum/*/L3/*-L3-[0-9][0-9][0-9].md
+          git add curriculum/registry.json curriculum/inventory.json curriculum/ingestion-ledger.json \
+                  curriculum/reports/CURRICULUM-AUDIT.json curriculum/reports/CURRICULUM-AUDIT.md curriculum/reports/imports
+          added=$(git diff --cached --name-only --diff-filter=A -- content/ | wc -l)
+          test "$added" -eq 400 || { echo "expected 400 new lesson files, staged $added"; exit 1; }
+          other=$(git diff --cached --name-only | grep -vE '^(content/curriculum/[A-Z]+/L3/[A-Z]+-L3-[0-9]{3}\.md|curriculum/(registry|inventory|ingestion-ledger)\.json|curriculum/reports/(CURRICULUM-AUDIT\.(json|md)|imports/.*)|scripts/curriculum/recover-legacy-l3\.mjs|\.github/workflows/recover-legacy-l3-once\.yml)$' || true)
+          test -z "$other" || { echo "unexpected staged files:"; echo "$other"; exit 1; }
+          git commit -q -m "Recover 400 English Level 3 lessons from legacy uploads" \
+            -m "Sources (pinned): #651 BLACK, #650 BLUE, #646 GOLD, #647 GREEN, #638 ORANGE, #643 PURPLE, #649 RED, #644 WHITE. Bodies unchanged; front-matter built from each file's own Title/Meta Description header; imported with scripts/curriculum/bulk-import.mjs. Registered ${BEFORE} -> $((BEFORE+400))."
+          git push origin HEAD:recovery/legacy-l3
+          git log --oneline -1
