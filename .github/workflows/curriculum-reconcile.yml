@@ -52,9 +52,23 @@ jobs:
             done
           done
           node scripts/curriculum/reconcile-registry.mjs "${source_branches[@]}"
-          npm run curriculum:inventory
-          npm run curriculum:audit
-          npm run curriculum:validate
+          # Regenerate derived files after each recoverable metadata failure.
+          for attempt in 1 2 3; do
+            npm run curriculum:inventory
+            npm run curriculum:audit
+            npm run curriculum:validate
+            if node --input-type=module -e '
+              import fs from "node:fs";
+              const report = JSON.parse(fs.readFileSync("curriculum/reports/CURRICULUM-AUDIT.json","utf8"));
+              for (const [name, entries] of Object.entries(report.issues || {})) {
+                if (entries.length) { console.error(name + ": " + JSON.stringify(entries).slice(0,2000)); process.exitCode = 1; }
+              }
+            '; then
+              break
+            fi
+            if [ "$attempt" -eq 3 ]; then echo "Unsafe or unresolved curriculum issues after 3 attempts"; exit 1; fi
+            node scripts/curriculum/reconcile-registry.mjs "${source_branches[@]}"
+          done
           node --input-type=module -e '
             import fs from "node:fs";
             const report = JSON.parse(fs.readFileSync("curriculum/reports/CURRICULUM-AUDIT.json","utf8"));
