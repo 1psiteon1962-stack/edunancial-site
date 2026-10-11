@@ -1,8 +1,8 @@
 {
-  "version": "1.2",
-  "updatedAt": "2026-08-09T21:43:00-07:00",
-  "updatedBy": "system",
-  "description": "Curriculum access policy: Level 1 lessons 001-003 are public in every track. All other lessons in Level 1 and every lesson in Levels 2-5 require any active membership.",
+  "version": "1.3",
+  "updatedAt": "2026-10-11T08:30:00-07:00",
+  "updatedBy": "curriculum-access-audit",
+  "description": "Level 1 lessons 001-003 are public in every track. Basic unlocks Levels 1-2; Pro unlocks Levels 1-4; Gold unlocks Levels 1-5. Existing subscribers must be checked for entitlement compatibility before deployment.",
   "freePreview": {
     "level": 1,
     "maxLesson": 3,
@@ -16,9 +16,23 @@
     "5": "Financial Mastery"
   },
   "mapping": {
-    "basic": [1, 2, 3, 4, 5],
-    "pro": [1, 2, 3, 4, 5],
-    "gold": [1, 2, 3, 4, 5]
+    "basic": [
+      1,
+      2
+    ],
+    "pro": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "gold": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ]
   },
   "sampleLessons": [],
   "_note_testDrive": "Test Drive provides access only to lessons whose IDs appear in sampleLessons[]. A sample lesson can come from any level; listing it here does NOT unlock the entire level for Test Drive members."
