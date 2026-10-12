@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { CANADA_REGION_CONFIG } from "@/config/canada";
 
-const siteUrl = "https://www.edunancial.com";
+const siteUrl = "https://edunancial.com";
 const canonicalUrl = `${siteUrl}/canada`;
 
 export const metadata: Metadata = {
@@ -11,11 +11,6 @@ export const metadata: Metadata = {
     "Edunancial Canada helps Canadians build financial competency through real estate, paper assets, and business education. Available in English and French. Prices in CAD.",
   alternates: {
     canonical: canonicalUrl,
-    languages: {
-      "en-CA": `${siteUrl}/canada`,
-      "fr-CA": `${siteUrl}/fr-CA/canada`,
-      "x-default": `${siteUrl}/canada`,
-    },
   },
   openGraph: {
     type: "website",
