@@ -29,7 +29,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   }
 
   const localeConfig = APAC_LOCALE_CONFIG.find((l) => l.code === locale);
-  const siteUrl = "https://www.edunancial.com";
+  const siteUrl = "https://edunancial.com";
   const hreflangAlternates = getApacHreflangAlternates(siteUrl, "");
   const languagesAlternates = Object.fromEntries(
     hreflangAlternates.map(({ hreflang, href }) => [hreflang, href])
