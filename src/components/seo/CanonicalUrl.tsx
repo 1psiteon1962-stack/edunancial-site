@@ -1,25 +1,10 @@
-type Props={
-
-path:string;
-
+type Props = {
+  path: string;
 };
 
-export default function CanonicalUrl({
+const SITE_URL = "https://edunancial.com";
 
-path
-
-}:Props){
-
-return(
-
-<link
-
-rel="canonical"
-
-href={`https://www.edunancial.com${path}`}
-
-/>
-
-);
-
+export default function CanonicalUrl({ path }: Props) {
+  const normalized = path.startsWith("/") ? path : `/${path}`;
+  return <link rel="canonical" href={`${SITE_URL}${normalized}`} />;
 }
