@@ -1,4 +1,5 @@
 import { NextRequest, NextResponse } from "next/server";
+import { verifyAdminSessionCookie } from "@/lib/admin-content/session-edge";
 import { logger } from "@/lib/observability/logger";
 import {
   CORRELATION_ID_HEADER,
@@ -9,53 +10,6 @@ import { hasSupabaseAuthConfig } from "@/lib/supabase/config";
 import { refreshSupabaseSession } from "@/lib/supabase/middleware";
 
 const ADMIN_SESSION_COOKIE = "edunancial_admin_session";
-
-function base64urlDecode(str: string): string {
-  const base64 = str.replace(/-/g, "+").replace(/_/g, "/");
-  const padded = base64 + "=".repeat((4 - (base64.length % 4 || 4)) % 4);
-
-  try {
-    return atob(padded);
-  } catch {
-    throw new Error("Invalid base64url");
-  }
-}
-
-function getAdminSessionFromCookie(value: string | undefined): {
-  valid: boolean;
-  expired: boolean;
-} {
-  if (!value) {
-    return { valid: false, expired: false };
-  }
-
-  const dotIdx = value.lastIndexOf(".");
-  if (dotIdx < 0) {
-    return { valid: false, expired: false };
-  }
-
-  const payload = value.slice(0, dotIdx);
-
-  try {
-    const json = JSON.parse(base64urlDecode(payload)) as {
-      expiresAt?: number;
-      email?: string;
-      csrfToken?: string;
-    };
-
-    if (!json.email || !json.csrfToken || typeof json.expiresAt !== "number") {
-      return { valid: false, expired: false };
-    }
-
-    if (json.expiresAt <= Date.now()) {
-      return { valid: true, expired: true };
-    }
-
-    return { valid: true, expired: false };
-  } catch {
-    return { valid: false, expired: false };
-  }
-}
 
 export async function middleware(request: NextRequest) {
   const start = Date.now();
@@ -95,12 +49,20 @@ export async function middleware(request: NextRequest) {
 
   let response =
     requiresAdminSession
-      ? (() => {
-          const session = getAdminSessionFromCookie(
+      ? await (async () => {
+          // Cryptographically verify the signed session cookie (HMAC-SHA256),
+          // not just its shape. Fails closed when the secret is unavailable.
+          const session = await verifyAdminSessionCookie(
             request.cookies.get(ADMIN_SESSION_COOKIE)?.value,
+            process.env.EDUNANCIAL_ADMIN_SESSION_SECRET,
           );
 
-          if (!session.valid || session.expired) {
+          if (!session.valid) {
+            if (session.reason === "secret-unavailable") {
+              logger.warn("admin.session.secret_unavailable", { requestId, path: pathname });
+            } else if (session.reason !== "missing") {
+              logger.warn("admin.session.rejected", { requestId, path: pathname, reason: session.reason });
+            }
             return NextResponse.redirect(new URL("/admin/login", request.url));
           }
 
