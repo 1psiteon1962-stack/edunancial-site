@@ -19,12 +19,12 @@ export const metadata: Metadata = {
     "practical financial knowledge",
   ],
   alternates: {
-    canonical: "https://www.edunancial.com",
+    canonical: "https://edunancial.com",
   },
   openGraph: {
     title: "Edunancial | From Financial Literacy to Financial Intelligence",
     description: EDUNANCIAL_LONG_DESCRIPTION,
-    url: "https://www.edunancial.com",
+    url: "https://edunancial.com",
     siteName: "Edunancial",
     type: "website",
     images: [

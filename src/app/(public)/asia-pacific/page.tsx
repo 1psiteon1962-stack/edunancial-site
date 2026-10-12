@@ -2,7 +2,7 @@ import Link from "next/link";
 import type { Metadata } from "next";
 import { APAC_LOCALE_CONFIG } from "@/config/asia-pacific/index";
 
-const siteUrl = "https://www.edunancial.com";
+const siteUrl = "https://edunancial.com";
 
 const launchPriorities = [
   "Financial competency for Philippines, India, Singapore, and Japan",

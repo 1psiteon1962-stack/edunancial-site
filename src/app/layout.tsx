@@ -4,18 +4,11 @@ import { Suspense } from "react";
 
 import FiqInvitationModal from "@/components/marketing/FiqInvitationModal";
 import PageViewTracker from "@/components/kpi/PageViewTracker";
-import { LANGUAGE_CATALOG, isRtlLanguage } from "@/lib/international/languages";
-import {
-  EDUNANCIAL_IDENTITY,
-  EDUNANCIAL_LONG_DESCRIPTION,
-} from "@/lib/positioning";
+import { isRtlLanguage } from "@/lib/international/languages";
+import { EDUNANCIAL_IDENTITY, EDUNANCIAL_LONG_DESCRIPTION } from "@/lib/positioning";
 import { getServerLanguage } from "@/lib/international/server";
 
-const siteUrl = "https://www.edunancial.com";
-const languageAlternates = Object.fromEntries(
-  LANGUAGE_CATALOG.map((language) => [language.code, `${siteUrl}/${language.code}/`])
-);
-languageAlternates["x-default"] = siteUrl;
+const siteUrl = "https://edunancial.com";
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
@@ -34,7 +27,7 @@ export const metadata: Metadata = {
   publisher: "Edunancial",
   robots: { index: true, follow: true, googleBot: { index: true, follow: true, "max-video-preview": -1, "max-image-preview": "large", "max-snippet": -1 } },
   openGraph: {
-    type: "website", locale: "en_US", url: siteUrl, siteName: "Edunancial",
+    type: "website", locale: "en_US", siteName: "Edunancial",
     title: "Edunancial | Financial Literacy & Financial Competency Membership Platform",
     description: EDUNANCIAL_LONG_DESCRIPTION,
     images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "Edunancial — Financial Literacy & Competency Platform" }],
@@ -45,7 +38,6 @@ export const metadata: Metadata = {
     description: EDUNANCIAL_IDENTITY,
     images: ["/og-image.png"], creator: "@edunancial", site: "@edunancial",
   },
-  alternates: { canonical: siteUrl, languages: languageAlternates },
   verification: { google: process.env.NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION ?? undefined },
   category: "finance",
 };

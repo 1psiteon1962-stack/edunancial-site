@@ -1,51 +1,19 @@
-import { Metadata } from "next";
+import type { Metadata } from "next";
 
-export function createSEO(
+const SITE_URL = "https://edunancial.com";
 
-title:string,
-
-description:string,
-
-path:string
-
-):Metadata{
-
-return{
-
-title,
-
-description,
-
-alternates:{
-
-canonical:`https://www.edunancial.com${path}`
-
-},
-
-openGraph:{
-
-title,
-
-description,
-
-url:`https://www.edunancial.com${path}`,
-
-siteName:"Edunancial",
-
-type:"website"
-
-},
-
-twitter:{
-
-card:"summary_large_image",
-
-title,
-
-description
-
+function absoluteUrl(path: string): string {
+  const normalized = path.startsWith("/") ? path : `/${path}`;
+  return `${SITE_URL}${normalized}`;
 }
 
-};
-
+export function createSEO(title: string, description: string, path: string): Metadata {
+  const url = absoluteUrl(path);
+  return {
+    title,
+    description,
+    alternates: { canonical: url },
+    openGraph: { title, description, url, siteName: "Edunancial", type: "website" },
+    twitter: { card: "summary_large_image", title, description },
+  };
 }

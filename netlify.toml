@@ -36,6 +36,9 @@ NETLIFY_NEXT_PLUGIN_SKIP_FORMS = "true"
 # registry fallback enabled so those existing lessons remain visible while new
 # published-state content is layered on top. No lesson files are duplicated.
 EDUNANCIAL_ENABLE_LEGACY_CURRICULUM_REGISTRY_FALLBACK = "true"
+# Database variables are scoped in Netlify UI. Deploy previews/branch deploys
+# must use PREVIEW_DATABASE_URL (or NETLIFY_PREVIEW_DATABASE_URL); application
+# code deliberately refuses to fall back to production DATABASE_URL there.
 
 # The curriculum resolver reads committed Markdown/translation files dynamically
 # at request time. Netlify's Next.js adapter cannot infer recursive filesystem
