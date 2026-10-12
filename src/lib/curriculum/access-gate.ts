@@ -12,6 +12,7 @@
  */
 
 import { canAccessLesson, getLockedLessonMessage, getPricingTierParam, isSampleLesson, getSampleLessons, getLevelTitle, CURRICULUM_LEVEL_TITLES, type CurriculumTier } from "./tier-config";
+import { parseAdminSessionValue } from "@/lib/admin-content/auth";
 import { verifyTierCookie, MEMBERSHIP_TIER_COOKIE } from "@/lib/curriculum/membership-cookie";
 
 export type { CurriculumTier };
@@ -19,32 +20,16 @@ export { canAccessLesson, getLockedLessonMessage, getPricingTierParam, isSampleL
 
 const ADMIN_SESSION_COOKIE = "edunancial_admin_session";
 
-function base64urlDecode(str: string): string {
-  const base64 = str.replace(/-/g, "+").replace(/_/g, "/");
-  const padded = base64 + "=".repeat((4 - (base64.length % 4 || 4)) % 4);
-  try {
-    return atob(padded);
-  } catch {
-    throw new Error("Invalid base64url");
-  }
-}
-
+/**
+ * The admin bypass requires a cryptographically valid admin session: the cookie's
+ * HMAC signature is verified by parseAdminSessionValue() (same check as the admin
+ * API routes). Shape-only decoding is not sufficient — an unsigned cookie must
+ * never unlock paid curriculum.
+ */
 function isValidAdminSession(cookieValue: string | undefined): boolean {
   if (!cookieValue) return false;
-  const dotIdx = cookieValue.lastIndexOf(".");
-  if (dotIdx < 0) return false;
-  const payload = cookieValue.slice(0, dotIdx);
-  try {
-    const json = JSON.parse(base64urlDecode(payload)) as {
-      expiresAt?: number;
-      email?: string;
-      csrfToken?: string;
-    };
-    if (!json.email || !json.csrfToken || typeof json.expiresAt !== "number") return false;
-    return json.expiresAt > Date.now();
-  } catch {
-    return false;
-  }
+  const session = parseAdminSessionValue(cookieValue);
+  return session !== null && (session.role === "admin" || session.role === "owner");
 }
 
 export type ViewerTier = CurriculumTier | "admin";
