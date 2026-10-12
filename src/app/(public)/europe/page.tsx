@@ -5,17 +5,7 @@ export const metadata: Metadata = {
   title: "Edunancial Europe | Financial Competency Platform",
   description:
     "Edunancial Europe delivers structured financial education for founders, entrepreneurs, and households across Western and Eastern Europe. GDPR-compliant, VAT-aware, multilingual.",
-  alternates: {
-    languages: {
-      "en": "/europe",
-      "fr": "/europe",
-      "de": "/europe",
-      "es": "/europe",
-      "it": "/europe",
-      "pt": "/europe",
-      "x-default": "/europe",
-    },
-  },
+  alternates: { canonical: "https://edunancial.com/europe" },
   openGraph: {
     title: "Edunancial Europe | Financial Competency for European Markets",
     description:
