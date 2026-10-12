@@ -66,6 +66,7 @@
     "src/lib/curriculum/normalized-reader.ts",
     "src/lib/curriculum/normalized-reader.test.ts",
     "src/lib/video/**/*.ts",
+    "src/lib/blog/**/*.ts",
     "src/lib/curriculum/neon-learner-resolver.ts",
     "src/lib/curriculum/neon-published-store.ts"
   ]
