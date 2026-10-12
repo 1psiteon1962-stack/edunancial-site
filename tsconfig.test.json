@@ -54,6 +54,8 @@
     "src/lib/curriculum/access.test.ts",
     "src/lib/curriculum/membership-cookie.ts",
     "src/lib/curriculum/membership-cookie.test.ts",
+    "src/lib/curriculum/access-gate.ts",
+    "src/lib/curriculum/access-gate.test.ts",
     "src/lib/auth/**/*.ts",
     "src/lib/member/**/*.ts",
     "src/lib/learning-progress/**/*.ts",
