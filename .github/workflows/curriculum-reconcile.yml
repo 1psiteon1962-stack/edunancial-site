@@ -10,7 +10,7 @@ on:
   workflow_dispatch:
     inputs:
       sources:
-        description: Space-separated upload PR numbers or head branch names
+        description: Space-separated open PR numbers or exact branch names (no origin/ prefix, no commas)
         required: true
         type: string
       expected_per_track:
@@ -54,21 +54,81 @@ jobs:
         id: resolve
         shell: bash
         run: |
-          set -euo pipefail
-          retry() { local n=0; until "$@"; do n=$((n+1)); [ $n -ge 4 ] && return 1; echo "retry $n: $*"; sleep $((n*n*5)); done; }
-          test -n "${SOURCES// }" || { echo "No sources given"; exit 1; }
-          branches=()
-          for s in $SOURCES; do
-            if [[ "$s" =~ ^[0-9]+$ ]]; then
-              s=$(retry gh pr view "$s" --json headRefName,state --jq 'select(.state=="OPEN") | .headRefName')
-              test -n "$s" || { echo "PR is not open or not found"; exit 1; }
+          set -uo pipefail
+          declare -A seen=()
+          names=(); refs=(); failed=0
+          summary="$GITHUB_STEP_SUMMARY"
+          printf '### Reconcile source preflight\n| Source | Result | Detail |\n|---|---|---|\n' >> "$summary"
+          error() {
+            echo "::error title=$2::Source $1: $3"
+            printf '| %s | FAILED | %s: %s |\n' "$1" "$2" "$3" >> "$summary"
+            failed=1
+          }
+          retry() {
+            local label="$1" n=1
+            shift
+            while :; do
+              OUT=$("$@" 2>&1); RC=$?
+              [ "$RC" -eq 0 ] && return 0
+              case "$OUT" in
+                *"Could not resolve to a Pull"*|*"no pull requests found"*|*"Bad credentials"*|*"HTTP 401"*|*"HTTP 403"*|*"Resource not accessible"*) return "$RC" ;;
+              esac
+              [ "$label" = ls-remote ] && [ "$RC" -eq 2 ] && return "$RC"
+              [ "$n" -ge 4 ] && { echo "$SRC: $label failed 4 times: $OUT"; return "$RC"; }
+              echo "$SRC: $label attempt $n of 4 failed (exit $RC): $OUT"
+              sleep $((n*n*5)); n=$((n+1))
+            done
+          }
+          [ -n "$(echo "$SOURCES" | tr -d '[:space:]')" ] || { echo "::error title=No sources::Input empty"; exit 1; }
+          for SRC in $SOURCES; do
+            echo "Preflight source: $SRC"
+            if [[ "$SRC" =~ ^#?[0-9]+$ ]]; then
+              pr="$(echo "$SRC" | tr -d '#')"; name="pr-$pr"
+              if ! retry gh-pr-view gh pr view "$pr" --repo "$GITHUB_REPOSITORY" --json state,headRefName,isCrossRepository --jq '"\(.state) \(.headRefName) \(.isCrossRepository)"'; then
+                case "$OUT" in
+                  *"Could not resolve"*|*"no pull requests"*) error "$SRC" "PR not found" "Verify PR number" ;;
+                  *"Bad credentials"*|*"401"*|*"403"*|*"not accessible"*) error "$SRC" "Authentication" "Check GITHUB_TOKEN" ;;
+                  *) error "$SRC" "GitHub API failure" "$OUT" ;;
+                esac
+                continue
+              fi
+              read -r state head cross <<< "$OUT"
+              [ "$state" = OPEN ] || { error "$SRC" "PR not open" "State: $state"; continue; }
+              ref="refs/pull/$pr/head"; detail="Open PR $pr, head $head, fork=$cross"
+            else
+              name="$SRC"
+              case "$SRC" in
+                origin/*|refs/*|http*|*,*) error "$SRC" "Bad format" "Use bare branch name"; continue ;;
+              esac
+              if [[ ! "$SRC" =~ ^[A-Za-z0-9_./-]+$ || "$SRC" == -* || "$SRC" == *..* || "$SRC" == pr-* ]] || ! git check-ref-format --branch "$SRC" >/dev/null 2>&1; then
+                error "$SRC" "Invalid branch" "Invalid Git ref"; continue
+              fi
+              if ! retry ls-remote git ls-remote --exit-code --heads origin "refs/heads/$SRC"; then
+                if [ "$RC" -eq 2 ]; then error "$SRC" "Branch missing" "Not on origin"
+                else error "$SRC" "Remote lookup failure" "$OUT"; fi
+                continue
+              fi
+              ref="refs/heads/$SRC"; detail="Branch exists"
             fi
-            if [[ ! "$s" =~ ^[A-Za-z0-9_./-]+$ || "$s" == -* || "$s" == *..* ]]; then echo "Invalid branch: $s"; exit 1; fi
-            retry git fetch --no-tags origin "+refs/heads/$s:refs/remotes/origin/$s"
-            branches+=("$s")
+            if [ -n "$(printf '%s' "$SRC" | grep '^#' || true)" ]; then :; fi
+            if [ -n "$(printf '%s' "$name" | grep '^pr-' || true)" ]; then :; fi
+            if [ -n "${seen[$name]:-}" ]; then
+              echo "::warning title=Duplicate source::$SRC skipped"
+              printf '| %s | SKIPPED | Duplicate |\n' "$SRC" >> "$summary"
+              continue
+            fi
+            seen[$name]="$SRC"; names+=("$name"); refs+=("$ref")
+            printf '| %s | OK | %s |\n' "$SRC" "$detail" >> "$summary"
           done
-          echo "branches=${branches[*]}" >> "$GITHUB_OUTPUT"
-          echo "Resolved: ${branches[*]}"
+          [ "$failed" -eq 0 ] || { echo "Preflight failed; nothing fetched"; exit 1; }
+          for i in "${!names[@]}"; do
+            SRC="${names[$i]}"
+            retry git-fetch git fetch --no-tags origin "+${refs[$i]}:refs/remotes/origin/${names[$i]}" || {
+              echo "::error title=Fetch failed::Source $SRC: $OUT"; exit 1;
+            }
+          done
+          echo "branches=${names[*]}" >> "$GITHUB_OUTPUT"
+          echo "Resolved: ${names[*]}"
 
       - name: Copy lesson files (no overwrites)
         shell: bash
