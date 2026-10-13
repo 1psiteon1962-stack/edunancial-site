@@ -13,6 +13,15 @@ function safeFilename(value: string) {
   if (!safe || safe.length > 180) throw new Error("Invalid source filename.");
   return safe;
 }
+const PLATFORMS = new Set(["linkedin", "instagram", "facebook", "youtube", "tiktok", "other"]);
+const OBJECTIVES = new Set(["awareness", "education", "traffic", "conversion", "retention"]);
+function optionalString(value: unknown, max: number) {
+  if (value == null || value === "") return null;
+  if (typeof value !== "string") throw new Error("Invalid marketing context.");
+  const clean = value.trim();
+  if (!clean || clean.length > max) throw new Error("Invalid marketing context.");
+  return clean;
+}
 function extensionFromFilename(fileName: string) {
   const ext = fileName.includes(".") ? fileName.split(".").pop() ?? "" : "";
   if (!/^[a-z0-9]{1,10}$/iu.test(ext)) throw new Error("Source filename must include a supported extension.");
@@ -23,7 +32,12 @@ export async function POST(request: NextRequest) {
   const auth = await requireAdminApiSession(request, true);
   if (!auth.ok) return auth.response;
   try {
-    const body = (await request.json()) as { title?: unknown; fileName?: unknown; mimeType?: unknown; byteSize?: unknown };
+    const body = (await request.json()) as {
+      title?: unknown; fileName?: unknown; mimeType?: unknown; byteSize?: unknown;
+      sourceType?: unknown; countryCode?: unknown; locale?: unknown; audience?: unknown;
+      platform?: unknown; marketingObjective?: unknown; campaignId?: unknown;
+      sourceRef?: unknown; aiBrief?: unknown;
+    };
     const title = typeof body.title === "string" ? body.title.trim() : "";
     const fileName = safeFilename(typeof body.fileName === "string" ? body.fileName : "");
     const mimeType = typeof body.mimeType === "string" ? body.mimeType.trim().toLowerCase() : "";
@@ -31,12 +45,30 @@ export async function POST(request: NextRequest) {
     if (!title || title.length > 200) throw new Error("Video title is required and must be 200 characters or fewer.");
     if (!(mimeType.startsWith("video/") || mimeType.startsWith("image/"))) throw new Error("A supported image or video MIME type is required.");
     if (!Number.isSafeInteger(byteSize) || byteSize <= 0) throw new Error("A valid source byte size is required.");
+    const locale = optionalString(body.locale, 20) ?? "en-US";
+    if (!/^[a-z]{2,3}(?:-[A-Z]{2})?$/u.test(locale)) throw new Error("Invalid project locale.");
+    const countryCode = optionalString(body.countryCode, 2)?.toUpperCase() ?? null;
+    if (countryCode && !/^[A-Z]{2}$/u.test(countryCode)) throw new Error("Invalid country code.");
+    const platform = optionalString(body.platform, 20);
+    if (platform && !PLATFORMS.has(platform)) throw new Error("Invalid marketing platform.");
+    const marketingObjective = optionalString(body.marketingObjective, 20);
+    if (marketingObjective && !OBJECTIVES.has(marketingObjective)) throw new Error("Invalid marketing objective.");
+    const aiBrief = body.aiBrief == null ? {} : body.aiBrief;
+    if (!aiBrief || Array.isArray(aiBrief) || typeof aiBrief !== "object") throw new Error("AI brief must be an object.");
 
     const project = await createVideoR2Project({
       title,
       ownerEmail: auth.session.email,
       purpose: "marketing",
-      defaultLocale: "en-US",
+      sourceType: (optionalString(body.sourceType, 30) as "manual" | "curriculum" | "blog" | "marketing_brief" | "existing_asset" | "ai_generated" | null) ?? "manual",
+      countryCode,
+      audience: optionalString(body.audience, 500),
+      platform: platform as "linkedin" | "instagram" | "facebook" | "youtube" | "tiktok" | "other" | null,
+      marketingObjective: marketingObjective as "awareness" | "education" | "traffic" | "conversion" | "retention" | null,
+      campaignId: optionalString(body.campaignId, 200),
+      sourceRef: optionalString(body.sourceRef, 1000),
+      aiBrief: aiBrief as Record<string, unknown>,
+      defaultLocale: locale,
       outputProfile: "vertical_1080x1920",
     });
     if (!project?.id) throw new Error("Could not create video project.");
