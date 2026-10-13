@@ -58,3 +58,12 @@ When instructed to execute, implement, fix, deploy, translate, merge, or otherwi
 - Escalate mid-chain only for owner authorization, credentials, irreversible business decisions, required human approval, or an inaccessible external system that genuinely prevents continuation.
 
 The task is DONE only when the requested observable end state has been validated. If production behavior does not satisfy the request, the task remains unfinished regardless of intermediate successes.
+
+## Blog source of truth (do not confuse with curriculum)
+
+- Curriculum source of truth = Git (`content/curriculum/**`, `curriculum/registry.json`).
+- Blog source of truth = Neon `blog_*` tables. The site reads blog content only from Neon.
+- This repository is PUBLIC. Never commit readable blog data (drafts, revisions, approvals, audit rows) to any branch; the archive is committed only as the encrypted `blog-archive.enc`.
+- The `blog-archive` branch is a nightly encrypted BACKUP of the blog tables. It is never read by the site, never merged into `main`, and never edited by hand or by agents. See `docs/BLOG-OPERATIONS.md`.
+- Restoring blog data into production is a human owner decision. Agents may run the restore drill only into an empty, non-production Neon branch.
+- AI agents may create blog drafts only. Publication requires an active human approval of the exact current revision; never weaken, bypass, or disable that guard (database trigger, scheduler re-check, or restore ordering).

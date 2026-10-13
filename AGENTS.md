@@ -227,3 +227,12 @@ At the completion of every task, the agent shall provide:
 Build the world's most practical financial education platform.
 
 Measure success not by the number of pages created, but by the number of people who become more capable, more confident, and better equipped to make sound financial decisions.
+
+## Blog source of truth (do not confuse with curriculum)
+
+- Curriculum source of truth = Git (`content/curriculum/**`, `curriculum/registry.json`).
+- Blog source of truth = Neon `blog_*` tables. The site reads blog content only from Neon.
+- This repository is PUBLIC. Never commit readable blog data (drafts, revisions, approvals, audit rows) to any branch; the archive is committed only as the encrypted `blog-archive.enc`.
+- The `blog-archive` branch is a nightly encrypted BACKUP of the blog tables. It is never read by the site, never merged into `main`, and never edited by hand or by agents. See `docs/BLOG-OPERATIONS.md`.
+- Restoring blog data into production is a human owner decision. Agents may run the restore drill only into an empty, non-production Neon branch.
+- AI agents may create blog drafts only. Publication requires an active human approval of the exact current revision; never weaken, bypass, or disable that guard (database trigger, scheduler re-check, or restore ordering).
