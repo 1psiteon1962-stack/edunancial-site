@@ -1,0 +1,100 @@
+name: Manual Neon Blog Migration
+
+# Applies the three additive, idempotent blog migrations to the database in the
+# GitHub `production` environment secret DATABASE_URL (the same secret the other
+# manual-neon-* migrations use).
+#
+# Run it in two steps:
+#   1. mode = inspect   (read-only) prints the target's Neon endpoint ID and which
+#      blog tables already exist. Compare that endpoint ID with the host of
+#      DATABASE_URL / NETLIFY_DATABASE_URL in Netlify > edunancial > Environment
+#      variables > Production. They MUST match.
+#   2. mode = apply, confirm_endpoint = that exact endpoint ID (e.g. ep-cool-name-123456).
+#      The job refuses if the ID does not match the secret's host.
+#
+# Prints the endpoint ID only (a hostname label, not a credential). Never prints the URL.
+
+on:
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: inspect (read-only) or apply
+        required: true
+        default: inspect
+        type: choice
+        options: [inspect, apply]
+      confirm_endpoint:
+        description: apply only - the Neon endpoint ID printed by inspect (ep-...)
+        required: false
+        type: string
+
+permissions:
+  contents: read
+
+concurrency:
+  group: manual-neon-blog-migrate
+  cancel-in-progress: false
+
+jobs:
+  migrate:
+    runs-on: ubuntu-latest
+    environment: production
+    timeout-minutes: 10
+    env:
+      DATABASE_URL: ${{ secrets.DATABASE_URL }}
+      MODE: ${{ inputs.mode }}
+      CONFIRM_ENDPOINT: ${{ inputs.confirm_endpoint }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Identify target and inspect (read-only)
+        id: target
+        run: |
+          set -euo pipefail
+          test -n "${DATABASE_URL:-}" || { echo "::error title=Not configured::production DATABASE_URL secret is not set"; exit 1; }
+          host=$(node -e 'console.log(new URL(process.env.DATABASE_URL).hostname)')
+          endpoint=$(echo "${host%%.*}" | sed 's/-pooler$//')
+          echo "endpoint=$endpoint" >> "$GITHUB_OUTPUT"
+          echo "Target Neon endpoint ID: $endpoint" | tee -a "$GITHUB_STEP_SUMMARY"
+          # Session forced read-only: this step cannot write even by mistake.
+          PGOPTIONS='-c default_transaction_read_only=on' psql "$DATABASE_URL" -X -v ON_ERROR_STOP=1 -At -c "
+            select 'database: ' || current_database();
+            select rpad(t,26) || coalesce(to_regclass('public.'||t)::text, 'MISSING')
+            from unnest(array['blog_articles','blog_article_revisions','blog_article_approvals',
+                              'blog_article_audit_log','marketing_campaigns',
+                              'video_r2_projects','user_lesson_progress']) t;
+            select 'publication guard trigger: ' || case when exists
+              (select 1 from pg_trigger where tgname='blog_publication_revision_guard') then 'present' else 'MISSING' end;" \
+            | tee -a "$GITHUB_STEP_SUMMARY"
+
+      - name: Apply blog migrations
+        if: ${{ inputs.mode == 'apply' }}
+        env:
+          ENDPOINT: ${{ steps.target.outputs.endpoint }}
+        run: |
+          set -euo pipefail
+          if [ -z "${CONFIRM_ENDPOINT:-}" ] || [ "$CONFIRM_ENDPOINT" != "$ENDPOINT" ]; then
+            echo "::error title=Refusing to migrate::confirm_endpoint must equal the target endpoint ID printed above ($ENDPOINT)."
+            exit 1
+          fi
+          for f in 20260927_ai_marketing_foundation 20260927_blog_marketing 20261012_blog_v2_schema; do
+            echo "Applying db/neon/$f.sql"
+            psql "$DATABASE_URL" -X -q -v ON_ERROR_STOP=1 --single-transaction -f "db/neon/$f.sql"
+          done
+
+      - name: Verify tables and human-approval guard
+        if: ${{ inputs.mode == 'apply' }}
+        run: |
+          set -euo pipefail
+          n=$(psql "$DATABASE_URL" -X -At -c "select count(*) from unnest(array['blog_articles','blog_article_revisions','blog_article_approvals','blog_article_audit_log']) t where to_regclass('public.'||t) is not null")
+          test "$n" = "4" || { echo "::error::expected 4 blog tables, found $n"; exit 1; }
+          psql "$DATABASE_URL" -X -At -c "select 1 from pg_trigger where tgname='blog_publication_revision_guard'" | grep -q 1 \
+            || { echo "::error::publication guard trigger missing"; exit 1; }
+          # Prove the guard rejects an unapproved publish. Rolled back, so nothing is written.
+          if psql "$DATABASE_URL" -X -q -v ON_ERROR_STOP=1 -c "begin" \
+               -c "insert into blog_articles(slug,locale,title,summary,body,status) values ('guard-check-'||gen_random_uuid(),'en-US','t','s','b','published')" \
+               -c "rollback" >/dev/null 2>"$RUNNER_TEMP/guard.err"; then
+            echo "::error::GUARD NOT ENFORCED: an unapproved article could be published"; exit 1
+          fi
+          grep -q "requires an approved revision" "$RUNNER_TEMP/guard.err" || { echo "::error::unexpected guard error"; cat "$RUNNER_TEMP/guard.err"; exit 1; }
+          echo "4 blog tables present; human-approval guard verified (test insert rejected, nothing written)." | tee -a "$GITHUB_STEP_SUMMARY"
