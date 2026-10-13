@@ -1,0 +1,186 @@
+name: Blog Archive
+
+# PR-6 backup and recovery for the blog (source of truth: Neon blog_* tables).
+#
+# THIS REPOSITORY IS PUBLIC. The archive holds unpublished drafts, approver and
+# actor identities and audit history, so it is committed ONLY as an AES-256-GCM
+# encrypted bundle (blog-archive.enc). Plaintext exists only in job memory, and
+# the push step refuses to commit any other file.
+#
+# - Nightly: export every article, revision, approval and audit event, seal it,
+#   and commit it to the orphan branch `blog-archive` (never merged into main,
+#   never read by the site; pushes made with GITHUB_TOKEN start no workflow).
+# - verify-production (manual): read-only comparison of production vs the archive.
+# - restore-drill (manual, monthly): restore into an EMPTY Neon drill branch and
+#   prove counts, table hashes and every revision content_sha256 match.
+# - Pull requests touching the archive code run the tests against real Postgres.
+#
+# Secrets (the job fails, on purpose, until the required ones exist):
+#   BLOG_ARCHIVE_DATABASE_URL    read-only Neon role on production (required)
+#   BLOG_ARCHIVE_ENCRYPTION_KEY  32 random bytes, base64 (required; keep an offline copy)
+#   BLOG_RESTORE_DATABASE_URL    empty, schema-only Neon drill branch (drill only)
+#   BLOG_PRODUCTION_DATABASE_URL optional extra production URL the drill must never target
+
+on:
+  schedule:
+    - cron: '17 9 * * *'   # 09:17 UTC daily (02:17 Pacific daylight time)
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: archive | verify-production | restore-drill
+        required: true
+        default: archive
+        type: choice
+        options: [archive, verify-production, restore-drill]
+      confirm_target:
+        description: restore-drill only - type the host of BLOG_RESTORE_DATABASE_URL (e.g. ep-xxx.us-east-2.aws.neon.tech)
+        required: false
+        type: string
+  pull_request:
+    paths:
+      - scripts/blog/**
+      - .github/workflows/blog-archive.yml
+      - db/neon/*blog*.sql
+
+permissions:
+  contents: read
+
+concurrency:
+  group: blog-archive-${{ github.event_name == 'pull_request' && github.ref || 'live' }}
+  cancel-in-progress: false
+
+jobs:
+  test:
+    name: Blog archive tests
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    services:
+      postgres:
+        image: postgres:16
+        env:
+          POSTGRES_PASSWORD: postgres
+        ports: ['5432:5432']
+        options: >-
+          --health-cmd "pg_isready -U postgres" --health-interval 5s --health-timeout 5s --health-retries 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: npm
+      - run: npm ci --ignore-scripts
+      - name: Run tests (unit + real Postgres restore)
+        env:
+          BLOG_TEST_PG_URL: postgresql://postgres:postgres@localhost:5432/postgres
+        run: |
+          node --test scripts/blog/tests/*.test.mjs | tee test-output.txt
+          # A skipped Postgres test here would mean the restore path went unverified.
+          if grep -q '# SKIP' test-output.txt; then echo "::error title=Tests skipped::Blog archive tests must not be skipped in CI"; exit 1; fi
+
+  archive:
+    name: Nightly blog archive
+    needs: test
+    if: github.event_name == 'schedule' || (github.event_name == 'workflow_dispatch' && inputs.mode == 'archive')
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: npm
+      - run: npm ci --ignore-scripts
+      - name: Check out archive branch (created on first run)
+        run: |
+          set -euo pipefail
+          git config user.name blog-archive-bot
+          git config user.email blog-archive-bot@users.noreply.github.com
+          if git ls-remote --exit-code --heads origin blog-archive >/dev/null; then
+            git fetch --no-tags --depth=1 origin blog-archive
+            git worktree add archive FETCH_HEAD
+            git -C archive checkout -B blog-archive
+          else
+            git worktree add --detach archive
+            git -C archive checkout --orphan blog-archive
+            git -C archive rm -rf --quiet .
+          fi
+      - name: Export, encrypt and verify (plaintext stays in memory)
+        env:
+          BLOG_ARCHIVE_DATABASE_URL: ${{ secrets.BLOG_ARCHIVE_DATABASE_URL }}
+          BLOG_ARCHIVE_ENCRYPTION_KEY: ${{ secrets.BLOG_ARCHIVE_ENCRYPTION_KEY }}
+          BLOG_VERIFY_DATABASE_URL: ${{ secrets.BLOG_ARCHIVE_DATABASE_URL }}
+        run: |
+          set -euo pipefail
+          node scripts/blog/export-archive.mjs --encrypt-to archive
+          # Decrypt the bundle just written and prove it matches the database.
+          node scripts/blog/restore-from-archive.mjs --archive archive --verify-only
+      - name: Commit and push the encrypted bundle to blog-archive only
+        run: |
+          set -euo pipefail
+          cd archive
+          # Netlify must never build this branch.
+          printf '[build]\n  ignore = "exit 0"\n' > netlify.toml
+          printf '%s\n' '# Edunancial blog archive (encrypted backup)' '' \
+            'blog-archive.enc is an AES-256-GCM encrypted export of the Neon blog tables.' \
+            'It is unreadable without BLOG_ARCHIVE_ENCRYPTION_KEY. Never commit plaintext here.' \
+            'Procedure: docs/BLOG-OPERATIONS.md on main.' > README.md
+          git add -A
+          # Public repository: refuse to commit anything except the sealed bundle and its metadata.
+          bad=$(git diff --cached --name-only | grep -vxE 'blog-archive\.enc|blog-archive\.hmac|README\.md|netlify\.toml' || true)
+          if [ -n "$bad" ]; then echo "::error title=Refusing to push::Unexpected files on blog-archive: $bad"; exit 1; fi
+          extra=$(git ls-files | grep -vxE 'blog-archive\.enc|blog-archive\.hmac|README\.md|netlify\.toml' || true)
+          if [ -n "$extra" ]; then echo "::error title=Refusing to push::blog-archive contains non-encrypted files: $extra"; exit 1; fi
+          if git diff --cached --quiet; then
+            echo "Archive unchanged; nothing to commit." | tee -a "$GITHUB_STEP_SUMMARY"
+            exit 0
+          fi
+          git commit -q -m "Blog archive $(date -u +%Y-%m-%dT%H:%MZ)" -m "Run: $GITHUB_SERVER_URL/$GITHUB_REPOSITORY/actions/runs/$GITHUB_RUN_ID"
+          git push origin HEAD:refs/heads/blog-archive
+          echo "Encrypted blog archive updated. A backup counts as operational only after a restore drill has passed (docs/BLOG-OPERATIONS.md)." >> "$GITHUB_STEP_SUMMARY"
+
+  verify-production:
+    name: Compare production with archive (read-only)
+    needs: test
+    if: github.event_name == 'workflow_dispatch' && inputs.mode == 'verify-production'
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: npm
+      - run: npm ci --ignore-scripts
+      - run: git fetch --no-tags --depth=1 origin blog-archive && git worktree add archive FETCH_HEAD
+      - name: Compare
+        env:
+          BLOG_VERIFY_DATABASE_URL: ${{ secrets.BLOG_ARCHIVE_DATABASE_URL }}
+          BLOG_ARCHIVE_ENCRYPTION_KEY: ${{ secrets.BLOG_ARCHIVE_ENCRYPTION_KEY }}
+        run: node scripts/blog/restore-from-archive.mjs --archive archive --verify-only
+
+  restore-drill:
+    name: Restore drill into empty Neon branch
+    needs: test
+    if: github.event_name == 'workflow_dispatch' && inputs.mode == 'restore-drill'
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: npm
+      - run: npm ci --ignore-scripts
+      - run: git fetch --no-tags --depth=1 origin blog-archive && git worktree add archive FETCH_HEAD
+      - name: Restore and verify
+        env:
+          BLOG_RESTORE_DATABASE_URL: ${{ secrets.BLOG_RESTORE_DATABASE_URL }}
+          BLOG_ARCHIVE_DATABASE_URL: ${{ secrets.BLOG_ARCHIVE_DATABASE_URL }}
+          BLOG_PRODUCTION_DATABASE_URL: ${{ secrets.BLOG_PRODUCTION_DATABASE_URL }}
+          BLOG_ARCHIVE_ENCRYPTION_KEY: ${{ secrets.BLOG_ARCHIVE_ENCRYPTION_KEY }}
+          CONFIRM_TARGET: ${{ inputs.confirm_target }}
+        run: node scripts/blog/restore-from-archive.mjs --archive archive "--confirm-target=$CONFIRM_TARGET"
