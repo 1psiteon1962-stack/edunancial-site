@@ -21,7 +21,7 @@ export async function createBlogDraft(p: BlogArticlePackage, actor: string) {
 
 export async function approveCurrentRevision(articleId:string, actor:string) {
   const sql=getNeonSql(); if(!sql) throw new Error("Blog database is unavailable.");
-  const rows=await sql`select current_revision_id from blog_articles where id=${articleId} for update`;
+  const rows=await sql`select current_revision_id from blog_articles where id=${articleId}`;
     if(!rows[0]?.current_revision_id) throw new Error("Article has no current revision.");
   const revisionId=String(rows[0].current_revision_id);
   await sql`update blog_article_approvals set revoked_at=now() where article_id=${articleId} and revoked_at is null`;
