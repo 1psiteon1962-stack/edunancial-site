@@ -27,7 +27,12 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   // Localized alternates are emitted only by routes that actually exist.
   // Do not advertise synthetic /<locale>/... URLs from the global sitemap.
   const curriculumEntries = getCurriculumSitemapEntries(SITE_URL);
-  const blogArticles = await listPublishedArticles("en-US");
+  let blogArticles: Awaited<ReturnType<typeof listPublishedArticles>> = [];
+  try {
+    blogArticles = await listPublishedArticles("en-US");
+  } catch (error) {
+    console.error("sitemap: blog entries omitted", error instanceof Error ? error.message : error);
+  }
   const blogEntries = blogArticles.map((article) => ({
     url: `${SITE_URL}/blog/${article.slug}`,
     lastModified: article.published_at ? new Date(article.published_at) : new Date(),
