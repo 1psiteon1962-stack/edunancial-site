@@ -4,6 +4,9 @@ import { APAC_LOCALES } from "@/config/asia-pacific";
 import { getCurriculumSitemapEntries } from "@/lib/curriculum/reader";
 import { listPublishedArticles } from "@/lib/blog/reader";
 
+// Blog entries require a live database; never prerender the sitemap with CI dummy URLs.
+export const dynamic = "force-dynamic";
+
 const SITE_URL = "https://edunancial.com";
 
 const PATHS = [
