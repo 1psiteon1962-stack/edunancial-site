@@ -6,6 +6,14 @@ export type VideoR2ProjectInput = {
   title: string;
   ownerEmail: string;
   purpose: "marketing" | "lesson";
+  sourceType?: "manual" | "curriculum" | "blog" | "marketing_brief" | "existing_asset" | "ai_generated";
+  countryCode?: string | null;
+  audience?: string | null;
+  platform?: "linkedin" | "instagram" | "facebook" | "youtube" | "tiktok" | "other" | null;
+  marketingObjective?: "awareness" | "education" | "traffic" | "conversion" | "retention" | null;
+  campaignId?: string | null;
+  sourceRef?: string | null;
+  aiBrief?: Record<string, unknown> | null;
   track?: string | null;
   level?: number | null;
   lessonNumber?: number | null;
@@ -23,9 +31,14 @@ export async function createVideoR2Project(input: VideoR2ProjectInput) {
   const sql = requireSql();
   const rows = await sql`
     insert into video_r2_projects
-      (title, owner_email, purpose, track, level, lesson_number, default_locale, output_profile)
+      (title, owner_email, purpose, source_type, country_code, audience, platform,
+       marketing_objective, campaign_id, source_ref, ai_brief,
+       track, level, lesson_number, default_locale, output_profile)
     values
-      (${input.title}, ${input.ownerEmail}, ${input.purpose}, ${input.track ?? null},
+      (${input.title}, ${input.ownerEmail}, ${input.purpose}, ${input.sourceType ?? "manual"},
+       ${input.countryCode ?? null}, ${input.audience ?? null}, ${input.platform ?? null},
+       ${input.marketingObjective ?? null}, ${input.campaignId ?? null}, ${input.sourceRef ?? null},
+       ${JSON.stringify(input.aiBrief ?? {})}::jsonb, ${input.track ?? null},
        ${input.level ?? null}, ${input.lessonNumber ?? null}, ${input.defaultLocale}, ${input.outputProfile})
     returning *
   `;
