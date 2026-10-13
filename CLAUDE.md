@@ -67,3 +67,17 @@ The task is DONE only when the requested observable end state has been validated
 - The `blog-archive` branch is a nightly encrypted BACKUP of the blog tables. It is never read by the site, never merged into `main`, and never edited by hand or by agents. See `docs/BLOG-OPERATIONS.md`.
 - Restoring blog data into production is a human owner decision. Agents may run the restore drill only into an empty, non-production Neon branch.
 - AI agents may create blog drafts only. Publication requires an active human approval of the exact current revision; never weaken, bypass, or disable that guard (database trigger, scheduler re-check, or restore ordering).
+
+
+## AI-native media production
+
+Edunancial media production is purpose-agnostic and AI-native. The shared Video Maker production engine must support educational and marketing work without coupling media failures to learning, identity, entitlements, or payments.
+
+- Video projects may originate from curriculum, blog content, a marketing brief, existing assets, manual composition, or AI generation.
+- Marketing-video contracts must be able to carry market/country, locale, audience, platform, objective, campaign attribution, source reference, and an AI brief without requiring a curriculum lesson.
+- Educational video projects continue to reference permanent canonical lesson IDs when their source is curriculum.
+- AI may generate scripts, narration, visuals, captions, localization, and platform variants through controlled production jobs.
+- Generated media must remain attributable and reproducible: preserve the source/brief, campaign identifier when applicable, locale, output profile, and job/composition hashes.
+- Media rendering remains an isolated failure domain. Video generation or third-party media-provider failure must not interrupt the learner site, checkout, payments, or entitlements.
+- Add new AI/media providers behind typed interfaces. Do not couple core application modules directly to a provider-specific API.
+- Marketing distribution and KPI attribution are downstream concerns; rendered assets must expose enough campaign metadata to connect future distribution to KPI events.
