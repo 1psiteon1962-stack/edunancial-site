@@ -37,28 +37,28 @@ async function withMissingTableFallback<T>(query: () => Promise<T>, fallback: T)
 export async function listPublishedArticles(locale = "en-US"): Promise<BlogArticle[]> {
   const sql = getNeonSql();
   if (!sql) return [];
-  return await withMissingTableFallback(async () => sql`
+  return await withMissingTableFallback(async () => (await sql`
     select id,slug,locale,translation_group_id,track,title,summary,body,author,seo_title,seo_description,published_at
     from blog_articles where status='published' and locale=${locale}
     order by published_at desc nulls last
-  ` as BlogArticle[], []);
+  `) as BlogArticle[], []);
 }
 
 export async function getPublishedArticle(slug: string, locale = "en-US"): Promise<BlogArticle | null> {
   const sql = getNeonSql();
   if (!sql) return null;
-  const rows = await withMissingTableFallback(async () => sql`
+  const rows = await withMissingTableFallback(async () => (await sql`
     select id,slug,locale,translation_group_id,track,title,summary,body,author,seo_title,seo_description,published_at
     from blog_articles where status='published' and slug=${slug} and locale=${locale} limit 1
-  ` as BlogArticle[], []);
+  `) as BlogArticle[], []);
   return rows[0] ?? null;
 }
 
 export async function listPublishedTranslations(translationGroupId: string): Promise<Array<Pick<BlogArticle, "slug" | "locale">>> {
   const sql = getNeonSql();
   if (!sql) return [];
-  return await withMissingTableFallback(async () => sql`
+  return await withMissingTableFallback(async () => (await sql`
     select slug,locale from blog_articles where status='published' and translation_group_id=${translationGroupId}
     order by locale
-  ` as Array<Pick<BlogArticle, "slug" | "locale">>, []);
+  `) as Array<Pick<BlogArticle, "slug" | "locale">>, []);
 }
