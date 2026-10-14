@@ -136,7 +136,6 @@ jobs:
           BLOG_ARCHIVE_ENCRYPTION_KEY: ${{ secrets.BLOG_ARCHIVE_ENCRYPTION_KEY }}
           BLOG_ARCHIVE_SELECT_DATABASE: '1'
           BLOG_VERIFY_DATABASE_URL: ${{ secrets.BLOG_ARCHIVE_DATABASE_URL }}
-          BLOG_ARCHIVE_SELECT_DATABASE: '1'
         run: |
           set -euo pipefail
           node scripts/blog/export-archive.mjs --encrypt-to archive
