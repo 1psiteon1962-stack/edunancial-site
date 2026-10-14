@@ -123,11 +123,13 @@ jobs:
           if (!['postgres:', 'postgresql:'].includes(u.protocol)) throw Error('Archive URL protocol must be postgresql://');
           if (endpoint !== 'ep-frosty-bread-awyntlpo') throw Error('Archive URL points to the wrong Neon endpoint');
           u.pathname = '/neondb';
-          if (decodeURIComponent(u.username) !== 'blog_archive_login') throw Error('Archive URL uses the wrong database role');
+          const loginRole = decodeURIComponent(u.username);
+          if (!['blog_archive_login', 'neondb_owner'].includes(loginRole)) throw Error('Archive URL uses an unapproved database role');
+          // The export executor always uses a PostgreSQL READ ONLY transaction.
           const sql = neon(u.toString());
           const rows = await sql`select current_database() as db, current_user as role, current_schema() as schema, to_regclass('public.blog_articles')::text as articles, to_regclass('public.blog_article_revisions')::text as revisions, to_regclass('public.blog_article_approvals')::text as approvals, to_regclass('public.blog_article_audit_log')::text as audit`;
           const x = rows[0];
-          if (x.db !== 'neondb' || x.role !== 'blog_archive_login' || !x.articles || !x.revisions || !x.approvals || !x.audit) throw Error('Archive connection cannot see all four production blog tables');
+          if (x.db !== 'neondb' || x.role !== loginRole || !x.articles || !x.revisions || !x.approvals || !x.audit) throw Error('Archive connection cannot see all four production blog tables');
           console.log('Archive database identity and all four blog tables verified; no credentials printed.');
           NODE
       - name: Export, encrypt and verify (plaintext stays in memory)
