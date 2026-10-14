@@ -108,6 +108,28 @@ jobs:
             git -C archive checkout --orphan blog-archive
             git -C archive rm -rf --quiet .
           fi
+      - name: Verify archive connection targets production (no secrets logged)
+        env:
+          BLOG_ARCHIVE_DATABASE_URL: ${{ secrets.BLOG_ARCHIVE_DATABASE_URL }}
+        run: |
+          set -euo pipefail
+          node --input-type=module <<'NODE'
+          import { neon } from '@neondatabase/serverless';
+          const raw = process.env.BLOG_ARCHIVE_DATABASE_URL?.trim();
+          if (!raw) throw Error('BLOG_ARCHIVE_DATABASE_URL is missing');
+          let u;
+          try { u = new URL(raw); } catch { throw Error('Archive URL is malformed'); }
+          const endpoint = u.hostname.split('.')[0].replace(/-pooler$/, '');
+          if (!['postgres:', 'postgresql:'].includes(u.protocol)) throw Error('Archive URL protocol must be postgresql://');
+          if (endpoint !== 'ep-frosty-bread-awyntlpo') throw Error('Archive URL points to the wrong Neon endpoint');
+          if (decodeURIComponent(u.pathname.slice(1)) !== 'neondb') throw Error('Archive URL points to the wrong database; expected neondb');
+          if (decodeURIComponent(u.username) !== 'blog_archive_login') throw Error('Archive URL uses the wrong database role');
+          const sql = neon(raw);
+          const rows = await sql`select current_database() as db, current_user as role, current_schema() as schema, to_regclass('public.blog_articles')::text as articles, to_regclass('public.blog_article_revisions')::text as revisions, to_regclass('public.blog_article_approvals')::text as approvals, to_regclass('public.blog_article_audit_log')::text as audit`;
+          const x = rows[0];
+          if (x.db !== 'neondb' || x.role !== 'blog_archive_login' || !x.articles || !x.revisions || !x.approvals || !x.audit) throw Error('Archive connection cannot see all four production blog tables');
+          console.log('Archive database identity and all four blog tables verified; no credentials printed.');
+          NODE
       - name: Export, encrypt and verify (plaintext stays in memory)
         env:
           BLOG_ARCHIVE_DATABASE_URL: ${{ secrets.BLOG_ARCHIVE_DATABASE_URL }}
