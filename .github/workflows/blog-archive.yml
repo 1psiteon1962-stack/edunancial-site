@@ -122,9 +122,9 @@ jobs:
           const endpoint = u.hostname.split('.')[0].replace(/-pooler$/, '');
           if (!['postgres:', 'postgresql:'].includes(u.protocol)) throw Error('Archive URL protocol must be postgresql://');
           if (endpoint !== 'ep-frosty-bread-awyntlpo') throw Error('Archive URL points to the wrong Neon endpoint');
-          if (decodeURIComponent(u.pathname.slice(1)) !== 'neondb') throw Error('Archive URL points to the wrong database; expected neondb');
+          u.pathname = '/neondb';
           if (decodeURIComponent(u.username) !== 'blog_archive_login') throw Error('Archive URL uses the wrong database role');
-          const sql = neon(raw);
+          const sql = neon(u.toString());
           const rows = await sql`select current_database() as db, current_user as role, current_schema() as schema, to_regclass('public.blog_articles')::text as articles, to_regclass('public.blog_article_revisions')::text as revisions, to_regclass('public.blog_article_approvals')::text as approvals, to_regclass('public.blog_article_audit_log')::text as audit`;
           const x = rows[0];
           if (x.db !== 'neondb' || x.role !== 'blog_archive_login' || !x.articles || !x.revisions || !x.approvals || !x.audit) throw Error('Archive connection cannot see all four production blog tables');
@@ -134,7 +134,9 @@ jobs:
         env:
           BLOG_ARCHIVE_DATABASE_URL: ${{ secrets.BLOG_ARCHIVE_DATABASE_URL }}
           BLOG_ARCHIVE_ENCRYPTION_KEY: ${{ secrets.BLOG_ARCHIVE_ENCRYPTION_KEY }}
+          BLOG_ARCHIVE_SELECT_DATABASE: '1'
           BLOG_VERIFY_DATABASE_URL: ${{ secrets.BLOG_ARCHIVE_DATABASE_URL }}
+          BLOG_ARCHIVE_SELECT_DATABASE: '1'
         run: |
           set -euo pipefail
           node scripts/blog/export-archive.mjs --encrypt-to archive
