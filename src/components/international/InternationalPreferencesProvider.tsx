@@ -33,6 +33,7 @@ import {
   type InternationalPreferences,
 } from "@/lib/international/preferences";
 import { resolveAvailablePaymentMethods } from "@/lib/international/preference-architecture";
+import { resolveRegion } from "@/lib/international/detection";
 
 /**
  * How the active language was determined.
@@ -258,7 +259,13 @@ export function InternationalPreferencesProvider({
         router.refresh();
       },
       setCountry: (country) => {
-        setPreferences((previous) => ({ ...previous, country }));
+        setPreferences((previous) => ({
+          ...previous,
+          country,
+          // Keep location preferences coherent after trusted network detection.
+          // Do not modify payment-method preferences or manually selected language.
+          region: resolveRegion(country, previous.timeZone),
+        }));
       },
       setRegion: (region) => {
         setPreferences((previous) => {

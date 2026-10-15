@@ -37,6 +37,7 @@ const countryRegionMap: Record<string, string> = {
   ca: "north-america",
   mx: "latin-america-2a",
   br: "latin-america-2b",
+  do: "caribbean",
   eg: "africa",
   ae: "middle-east",
   sa: "middle-east",
