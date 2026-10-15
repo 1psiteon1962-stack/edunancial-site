@@ -13,7 +13,7 @@ import { recordUploadOperation } from "@/lib/admin-content/upload-operations";
 import { createId } from "@/lib/admin-content/utils";
 import { beginFinalization, getUploadReceipt, markFailed, markPublished, markStoredForReview } from "@/lib/admin-content/upload-receipts";
 import { PublicationBusyError, withPublicationLease } from "@/lib/admin-content/publication-lock";
-import { transitionCurriculumUpload } from "@/lib/admin-content/neon-upload-state";
+import { recordCurriculumUpload, transitionCurriculumUpload } from "@/lib/admin-content/neon-upload-state";
 import { queueNeonGitExport } from "@/lib/curriculum/neon-published-store";
 import { verifyLearnerVisibility } from "@/lib/admin-content/learner-readback";
 
@@ -88,7 +88,8 @@ export async function POST(request: NextRequest) {
     const reviewBatchId = createId("batch");
     await beginFinalization({ uploadId: currentUpload.uploadId, originalBatchId: batchId, storagePath: currentUpload.storagePath, originalFilename: currentUpload.originalFilename, coordinate: packageIdentity ? `${packageIdentity.track}:${packageIdentity.level}:${packageIdentity.language}` : null }, reviewBatchId, "finalize");
     if (process.env.DATABASE_URL || process.env.NETLIFY_DATABASE_URL) {
-      try { await transitionCurriculumUpload(currentUpload.uploadId, "VALIDATING", { reviewBatchId }); } catch (stateError) { console.warn("[finalize] durable state transition unavailable", stateError); }
+      await recordCurriculumUpload({ uploadId: currentUpload.uploadId, batchId, storagePath: currentUpload.storagePath, filename: currentUpload.originalFilename, coordinate: packageIdentity ? `${packageIdentity.track}:${packageIdentity.level}:${packageIdentity.language}` : undefined });
+      await transitionCurriculumUpload(currentUpload.uploadId, "VALIDATING", { reviewBatchId });
     }
     await recordUploadOperation({ batchId, uploadId: currentUpload.uploadId, phase: "FINALIZE", status: "STARTED", storagePath: currentUpload.storagePath, fileName: currentUpload.originalFilename, fileSize: currentUpload.sizeBytes, metadata: { mode: "single-package-request", reviewBatchId, packageIdentity } });
 
@@ -100,11 +101,11 @@ export async function POST(request: NextRequest) {
     }
 
     if (process.env.DATABASE_URL || process.env.NETLIFY_DATABASE_URL) {
-      try { await transitionCurriculumUpload(currentUpload.uploadId, "READY", { reviewBatchId: batch.id }); } catch (stateError) { console.warn("[finalize] READY transition unavailable", stateError); }
+      await transitionCurriculumUpload(currentUpload.uploadId, "READY", { reviewBatchId: batch.id });
     }
     const { trustedLocalization, trustedCanonicalPublication } = await withPublicationLease(`finalize:${currentUpload.uploadId}`, async (lease) => {
       if (process.env.DATABASE_URL || process.env.NETLIFY_DATABASE_URL) {
-        try { await transitionCurriculumUpload(currentUpload.uploadId, "PUBLISHING", { reviewBatchId: batch.id }); } catch (stateError) { console.warn("[finalize] PUBLISHING transition unavailable", stateError); }
+        await transitionCurriculumUpload(currentUpload.uploadId, "PUBLISHING", { reviewBatchId: batch.id });
       }
       const trustedLocalization = await autoPublishTrustedLocalizedLevel1Batch(batch, packageIdentity, { requireAtomic: true });
       const trustedCanonicalPublication = await autoPublishTrustedCanonicalCurriculumBatch(batch, packageIdentity, actor, { requireAtomic: true, uploadId: currentUpload.uploadId, lease });

@@ -1,17 +1,60 @@
 name: Curriculum Publication Neon Migration
 on:
   workflow_dispatch:
+    inputs:
+      mode:
+        description: "inspect (read-only) or apply (schema migrations)"
+        type: choice
+        required: true
+        default: inspect
+        options: [inspect, apply]
+      confirm_endpoint:
+        description: "For apply, enter exact production Neon endpoint ID (ep-...). Never use an unverified endpoint."
+        type: string
+        required: false
+permissions:
+  contents: read
 jobs:
   migrate:
     runs-on: ubuntu-latest
     env:
       DATABASE_URL: ${{ secrets.DATABASE_URL }}
+      MODE: ${{ inputs.mode }}
+      CONFIRM_ENDPOINT: ${{ inputs.confirm_endpoint }}
     steps:
       - uses: actions/checkout@v4
       - name: Install PostgreSQL client
         run: sudo apt-get update -qq && sudo apt-get install -y -qq postgresql-client
-      - name: Apply curriculum publication migration
-        run: psql "$DATABASE_URL" -X -v ON_ERROR_STOP=1 -f db/neon/20261005_curriculum_publication.sql
-      - name: Verify tables
+      - name: Verify connection identity and required confirmation without disclosing secrets
+        shell: bash
         run: |
-          psql "$DATABASE_URL" -X -v ON_ERROR_STOP=1 -c "select to_regclass('public.published_lessons'),to_regclass('public.published_translations'),to_regclass('public.curriculum_publication_leases'),to_regclass('public.curriculum_git_export_queue');"
+          set -euo pipefail
+          node <<'NODE'
+          const raw = process.env.DATABASE_URL;
+          if (!raw) throw Error('DATABASE_URL secret is missing');
+          const u = new URL(raw);
+          if (!['postgres:', 'postgresql:'].includes(u.protocol)) throw Error('Invalid database protocol');
+          const endpoint = u.hostname.split('.')[0].replace(/-pooler$/, '');
+          const database = decodeURIComponent(u.pathname.slice(1));
+          if (!/^ep-[a-z0-9-]+$/.test(endpoint)) throw Error('Not a verified Neon endpoint format');
+          if (process.env.MODE === 'apply' && endpoint !== 'ep-frosty-bread-awyntlpo') throw Error('APPLY BLOCKED: not the approved production endpoint');
+          if (process.env.MODE === 'apply' && database !== 'neondb') throw Error('APPLY BLOCKED: not the approved production database');
+          console.log('Neon endpoint ID: ' + endpoint + ', database: ' + database);
+          if (process.env.MODE === 'apply' && process.env.CONFIRM_ENDPOINT !== endpoint)
+            throw Error('APPLY BLOCKED: typed endpoint ID does not exactly match DATABASE_URL');
+          NODE
+          psql "$DATABASE_URL" -X -v ON_ERROR_STOP=1 -Atc "select 'Connected database: ' || current_database() || ', existing curriculum_uploads: ' || coalesce(to_regclass('public.curriculum_uploads')::text, 'ABSENT')"
+      - name: Apply Oct 5 and Oct 6 migrations in required order
+        if: ${{ inputs.mode == 'apply' }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          psql "$DATABASE_URL" -X -v ON_ERROR_STOP=1 -1             -f db/neon/20261005_curriculum_publication.sql             -f db/neon/20261006_transactional_publication.sql
+      - name: Verify all eight tables
+        shell: bash
+        run: |
+          set -euo pipefail
+          psql "$DATABASE_URL" -X -v ON_ERROR_STOP=1 -Atc "select name || ': ' || coalesce(to_regclass('public.' || name)::text,'ABSENT') from (values ('curriculum_publication_leases'),('curriculum_uploads'),('curriculum_upload_events'),('published_lessons'),('published_translations'),('lesson_versions'),('curriculum_git_export_queue'),('curriculum_generation')) as t(name)"
+          if [ "$MODE" = "apply" ]; then
+            psql "$DATABASE_URL" -X -v ON_ERROR_STOP=1 -Atc "select case when count(*) = 8 then 'PASS' else (1/0)::text end from (values ('curriculum_publication_leases'),('curriculum_uploads'),('curriculum_upload_events'),('published_lessons'),('published_translations'),('lesson_versions'),('curriculum_git_export_queue'),('curriculum_generation')) as t(name) where to_regclass('public.' || name) is not null"
+          fi
