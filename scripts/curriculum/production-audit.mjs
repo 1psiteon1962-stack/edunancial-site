@@ -38,7 +38,8 @@ const base = arg("base", process.env.EDUNANCIAL_BASE_URL ?? "https://edunancial.
 const tracks = list(arg("tracks")) ?? TRACKS;
 const levels = (list(arg("levels")) ?? LEVELS).map(Number);
 const outDir = arg("out", "reports/production-audit");
-const concurrency = Number(arg("concurrency", "4"));
+// Limit concurrent production scans; preserve the full coordinate matrix.
+const concurrency = Number(arg("concurrency", "1"));
 
 function headers() {
   const h = { accept: "application/json" };
