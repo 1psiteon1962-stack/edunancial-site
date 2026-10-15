@@ -40,7 +40,7 @@ export async function GET(request: Request) {
   }
   const age = snapshot ? Date.now() - snapshot.builtAt : Infinity;
   if (snapshot && age >= 0 && age < 5 * 60_000) return catalogResponse(snapshot.data);
-  if (snapshot && age >= 0 && age < 24 * 60 * 60_000) {
+  if (snapshot && age >= 0 && age < 15 * 60_000) {
     // Serve a last-known-good snapshot while refreshing it off the request path.
     after(async () => {
       try {
