@@ -26,7 +26,10 @@ export async function GET(request: Request) {
   });
 
   const data = await getCachedCatalog(language);
-  return NextResponse.json(data, { headers: { "Cache-Control": "public, s-maxage=300, stale-while-revalidate=600" } });
+  // The locale may be selected from cookies or Accept-Language, not just the URL.
+  // Never let a shared CDN cache serve one visitor\u0027s locale to another.
+  // The server-side unstable_cache remains keyed by the resolved language.
+  return NextResponse.json(data, { headers: { "Cache-Control": "private, no-store", Vary: "Cookie, Accept-Language" } });
 }
 
 async function buildCatalog(language: string) {
