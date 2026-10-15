@@ -13,22 +13,29 @@ const LANGUAGES = [
 const ORIGIN = "https://edunancial.com";
 
 export default async function handler() {
-  const results = await Promise.all(LANGUAGES.map(async (lang) => {
-    const url = new URL("/api/public/curriculum/catalog", ORIGIN);
-    url.searchParams.set("lang", lang);
-    try {
-      const response = await fetch(url, {
-        signal: AbortSignal.timeout(25_000),
-        headers: { "user-agent": "edunancial-catalog-warmer/1" },
-        cache: "no-store",
-      });
-      // Fully read the response to ensure backend work has completed.
-      if (response.ok) await response.arrayBuffer();
-      return { lang, status: response.status, ok: response.ok };
-    } catch (error) {
-      return { lang, status: 0, ok: false, detail: String(error) };
-    }
-  }));
+  // Keep cold catalog builds from competing for all available runtime workers.
+  // Each locale still receives a separate request and result; no coverage loss.
+  const results: Array<{ lang: string; status: number; ok: boolean; detail?: string }> = [];
+  const batchSize = 3;
+  for (let offset = 0; offset < LANGUAGES.length; offset += batchSize) {
+    const batch = LANGUAGES.slice(offset, offset + batchSize);
+    const completed = await Promise.all(batch.map(async (lang) => {
+      const url = new URL("/api/public/curriculum/catalog", ORIGIN);
+      url.searchParams.set("lang", lang);
+      try {
+        const response = await fetch(url, {
+          signal: AbortSignal.timeout(25_000),
+          headers: { "user-agent": "edunancial-catalog-warmer/1" },
+          cache: "no-store",
+        });
+        if (response.ok) await response.arrayBuffer();
+        return { lang, status: response.status, ok: response.ok };
+      } catch (error) {
+        return { lang, status: 0, ok: false, detail: String(error) };
+      }
+    }));
+    results.push(...completed);
+  }
   console.info("[catalog-warmer] snapshot prime results", JSON.stringify(results));
   return new Response(JSON.stringify({
     checked: results.length,
