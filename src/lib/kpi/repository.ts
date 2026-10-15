@@ -46,9 +46,23 @@ export async function insertKpiEvent(input: KpiEventInsert) {
       returning id, created_at
     `;
     return rows[0] ?? null;
-  } catch {
-    await insertLegacyKpiEvent(input);
-    return null;
+  } catch (primaryError) {
+    // Do not silently hide a failed Neon write: production must make the
+    // underlying persistence failure visible while preserving legacy fallback.
+    console.error("[kpi] Neon event persistence failed; trying legacy fallback", {
+      eventName: input.event_name,
+      error: primaryError instanceof Error ? primaryError.message : String(primaryError),
+    });
+    try {
+      await insertLegacyKpiEvent(input);
+      return null;
+    } catch (fallbackError) {
+      console.error("[kpi] Both event stores failed", {
+        eventName: input.event_name,
+        fallbackError: fallbackError instanceof Error ? fallbackError.message : String(fallbackError),
+      });
+      throw new Error("KPI persistence unavailable in both primary and fallback stores", { cause: primaryError });
+    }
   }
 }
 
