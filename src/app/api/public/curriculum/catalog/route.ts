@@ -1,4 +1,6 @@
 import { NextResponse } from "next/server";
+import { after } from "next/server";
+import { getAdminContentStorage } from "@/lib/admin-content/storage";
 import { unstable_cache } from "next/cache";
 
 import { getPublishedCourses } from "@/lib/curriculum/authoritative-published";
@@ -25,7 +27,37 @@ export async function GET(request: Request) {
     acceptLanguageHeader: request.headers.get("accept-language"),
   });
 
+  // Persistent public-only catalog snapshots survive serverless cold starts.
+  // A fresh snapshot avoids rebuilding thousands of lesson records per request.
+  const snapshotKey = `published/catalog-snapshots/v1/${encodeURIComponent(language)}.json`;
+  const stored = await getAdminContentStorage().readBinary(snapshotKey).catch(() => null);
+  let snapshot: { builtAt: number; data: Awaited<ReturnType<typeof buildCatalog>> } | null = null;
+  if (stored) {
+    try {
+      const parsed = JSON.parse(stored.toString("utf8")) as typeof snapshot;
+      if (parsed && Number.isFinite(parsed.builtAt) && parsed.data?.language === language) snapshot = parsed;
+    } catch { /* Rebuild invalid snapshots instead of exposing malformed content. */ }
+  }
+  const age = snapshot ? Date.now() - snapshot.builtAt : Infinity;
+  if (snapshot && age >= 0 && age < 5 * 60_000) return catalogResponse(snapshot.data);
+  if (snapshot && age >= 0 && age < 24 * 60 * 60_000) {
+    // Serve a last-known-good snapshot while refreshing it off the request path.
+    after(async () => {
+      try {
+        const data = await getCachedCatalog(language);
+        await getAdminContentStorage().saveBinary(snapshotKey, Buffer.from(JSON.stringify({ builtAt: Date.now(), data })), "application/json");
+      } catch (error) { console.error("[catalog] background refresh failed", error); }
+    });
+    return catalogResponse(snapshot.data);
+  }
   const data = await getCachedCatalog(language);
+  await getAdminContentStorage().saveBinary(snapshotKey, Buffer.from(JSON.stringify({ builtAt: Date.now(), data })), "application/json").catch((error) => {
+    console.error("[catalog] snapshot persistence failed", error);
+  });
+  return catalogResponse(data);
+}
+
+function catalogResponse(data: Awaited<ReturnType<typeof buildCatalog>>) {
   // The locale may be selected from cookies or Accept-Language, not just the URL.
   // Never let a shared CDN cache serve one visitor\u0027s locale to another.
   // The server-side unstable_cache remains keyed by the resolved language.
