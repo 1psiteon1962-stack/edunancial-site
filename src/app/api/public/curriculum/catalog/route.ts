@@ -31,11 +31,12 @@ export async function GET(request: Request) {
   // A fresh snapshot avoids rebuilding thousands of lesson records per request.
   const snapshotKey = `published/catalog-snapshots/v1/${encodeURIComponent(language)}.json`;
   const stored = await getAdminContentStorage().readBinary(snapshotKey).catch(() => null);
-  let snapshot: { builtAt: number; data: Awaited<ReturnType<typeof buildCatalog>> } | null = null;
+  type CatalogSnapshot = { builtAt: number; data: Awaited<ReturnType<typeof buildCatalog>> };
+  let snapshot: CatalogSnapshot | null = null;
   if (stored) {
     try {
-      const parsed = JSON.parse(stored.toString("utf8")) as typeof snapshot;
-      if (parsed && Number.isFinite(parsed.builtAt) && parsed.data?.language === language) snapshot = parsed;
+      const parsed = JSON.parse(stored.toString("utf8")) as Partial<CatalogSnapshot>;
+      if (Number.isFinite(parsed?.builtAt) && parsed?.data?.language === language) snapshot = parsed as CatalogSnapshot;
     } catch { /* Rebuild invalid snapshots instead of exposing malformed content. */ }
   }
   const age = snapshot ? Date.now() - snapshot.builtAt : Infinity;
