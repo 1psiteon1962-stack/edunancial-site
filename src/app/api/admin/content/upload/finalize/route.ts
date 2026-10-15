@@ -13,7 +13,7 @@ import { recordUploadOperation } from "@/lib/admin-content/upload-operations";
 import { createId } from "@/lib/admin-content/utils";
 import { beginFinalization, getUploadReceipt, markFailed, markPublished, markStoredForReview } from "@/lib/admin-content/upload-receipts";
 import { PublicationBusyError, withPublicationLease } from "@/lib/admin-content/publication-lock";
-import { transitionCurriculumUpload } from "@/lib/admin-content/neon-upload-state";
+import { recordCurriculumUpload, transitionCurriculumUpload } from "@/lib/admin-content/neon-upload-state";
 import { queueNeonGitExport } from "@/lib/curriculum/neon-published-store";
 import { verifyLearnerVisibility } from "@/lib/admin-content/learner-readback";
 
@@ -88,6 +88,7 @@ export async function POST(request: NextRequest) {
     const reviewBatchId = createId("batch");
     await beginFinalization({ uploadId: currentUpload.uploadId, originalBatchId: batchId, storagePath: currentUpload.storagePath, originalFilename: currentUpload.originalFilename, coordinate: packageIdentity ? `${packageIdentity.track}:${packageIdentity.level}:${packageIdentity.language}` : null }, reviewBatchId, "finalize");
     if (process.env.DATABASE_URL || process.env.NETLIFY_DATABASE_URL) {
+      await recordCurriculumUpload({ uploadId: currentUpload.uploadId, batchId, storagePath: currentUpload.storagePath, filename: currentUpload.originalFilename, coordinate: packageIdentity ? `${packageIdentity.track}:${packageIdentity.level}:${packageIdentity.language}` : undefined });
       try { await transitionCurriculumUpload(currentUpload.uploadId, "VALIDATING", { reviewBatchId }); } catch (stateError) { console.warn("[finalize] durable state transition unavailable", stateError); }
     }
     await recordUploadOperation({ batchId, uploadId: currentUpload.uploadId, phase: "FINALIZE", status: "STARTED", storagePath: currentUpload.storagePath, fileName: currentUpload.originalFilename, fileSize: currentUpload.sizeBytes, metadata: { mode: "single-package-request", reviewBatchId, packageIdentity } });
