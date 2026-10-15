@@ -42,7 +42,8 @@ export async function GET(request: NextRequest) {
       readOnlyInventory: true,
     }, { headers: { "Cache-Control": "private, no-store" } });
   } catch (error) {
-    return Response.json({ success: true, recoverable: [], recoveryAvailable: false, warning: "Interrupted-upload recovery could not inspect persistent upload storage.", error: error instanceof Error ? error.message : String(error) }, { headers: { "Cache-Control": "private, no-store" } });
+    console.error("[curriculum-recovery] read-only inventory discovery failed", error instanceof Error ? error.name : "unknown");
+    return Response.json({ success: false, recoverable: [], recoveryAvailable: false, error: "Interrupted-upload recovery could not inspect persistent upload storage." }, { status: 503, headers: { "Cache-Control": "private, no-store" } });
   }
 }
 
