@@ -37,6 +37,8 @@ jobs:
           const endpoint = u.hostname.split('.')[0].replace(/-pooler$/, '');
           const database = decodeURIComponent(u.pathname.slice(1));
           if (!/^ep-[a-z0-9-]+$/.test(endpoint)) throw Error('Not a verified Neon endpoint format');
+          if (process.env.MODE === 'apply' && endpoint !== 'ep-frosty-bread-awyntlpo') throw Error('APPLY BLOCKED: not the approved production endpoint');
+          if (process.env.MODE === 'apply' && database !== 'neondb') throw Error('APPLY BLOCKED: not the approved production database');
           console.log('Neon endpoint ID: ' + endpoint + ', database: ' + database);
           if (process.env.MODE === 'apply' && process.env.CONFIRM_ENDPOINT !== endpoint)
             throw Error('APPLY BLOCKED: typed endpoint ID does not exactly match DATABASE_URL');
