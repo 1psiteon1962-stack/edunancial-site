@@ -17,7 +17,6 @@ permissions:
 jobs:
   migrate:
     runs-on: ubuntu-latest
-    environment: ${{ inputs.mode == 'apply' && 'production' || 'inspection' }}
     env:
       DATABASE_URL: ${{ secrets.DATABASE_URL }}
       MODE: ${{ inputs.mode }}
