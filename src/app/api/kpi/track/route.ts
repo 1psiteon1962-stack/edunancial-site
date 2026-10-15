@@ -1,6 +1,7 @@
 import { NextResponse } from "next/server";
 
 import { hashIP } from "@/lib/kpi/hash";
+import { getAuthenticatedSupabaseUser } from "@/lib/auth/server";
 import { detectTrustedRequestCountry } from "@/lib/location/request-country";
 import { getSiteContext } from "@/lib/kpi/site";
 import type { KPIEventName } from "@/lib/kpi/types";
@@ -34,6 +35,8 @@ export async function POST(request: Request) {
     }
 
     const context = getSiteContext(request);
+    // Identity is established by the server session, never by user-submitted JSON.
+    const authenticatedUser = await getAuthenticatedSupabaseUser();
     const metadata =
       body.metadata && typeof body.metadata === "object" && !Array.isArray(body.metadata)
         ? (body.metadata as Record<string, unknown>)
@@ -55,7 +58,7 @@ export async function POST(request: Request) {
       site_id: context.site_id,
       site_region: context.site_region,
       event_name: rawName,
-      user_id: typeof body.user_id === "string" ? body.user_id : null,
+      user_id: authenticatedUser?.id ?? null,
       session_id: typeof body.session_id === "string" ? body.session_id : null,
       ip_hash: ipHash,
       user_agent: context.userAgent,
