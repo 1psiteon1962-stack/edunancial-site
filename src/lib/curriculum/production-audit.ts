@@ -151,8 +151,12 @@ export async function auditCoordinate(track: string, level: number, locale: stri
       const rows = await Promise.all(chunk.map(async (id) => {
         const gitEnglish = getLessonContent(id, "en");
         const gitLocal = english ? null : getLessonContent(id, locale);
-        const atomic = await readAtomicLessonObject(id).catch(() => null);
-        const pkg = english ? null : await readTranslationPackageForLesson(id, locale).catch(() => null);
+        // These independent storage checks previously ran in series for every
+        // missing/fallback lesson, multiplying slow Blob requests under load.
+        const [atomic, pkg] = await Promise.all([
+          readAtomicLessonObject(id).catch(() => null),
+          english ? Promise.resolve(null) : readTranslationPackageForLesson(id, locale).catch(() => null),
+        ]);
         const lesson = retrievedById.get(id);
         const layers: LayerPresence = {
           gitCanonical: Boolean(gitEnglish?.body?.trim()),
