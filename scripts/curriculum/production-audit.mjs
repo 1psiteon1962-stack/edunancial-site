@@ -52,12 +52,13 @@ function headers() {
   return h;
 }
 
-async function call(query, attempt = 0) {
+async function call(query) {
   const url = `${base}/api/admin/curriculum/production-audit?${new URLSearchParams(query)}`;
   const response = await fetch(url, { headers: headers() });
   if (response.status === 401) throw new Error("401 Unauthorized — set EDUNANCIAL_ADMIN_COOKIE or run from the GitHub workflow.");
   if (!response.ok) {
-    if (attempt < 2) { await new Promise((r) => setTimeout(r, 2000 * (attempt + 1))); return call(query, attempt + 1); }
+    // A failed coordinate already consumed a serverless time budget; never
+    // triple Blob load through automatic retries. The worker records FAIL.
     throw new Error(`${response.status} for ${url}: ${(await response.text()).slice(0, 300)}`);
   }
   return response.json();
