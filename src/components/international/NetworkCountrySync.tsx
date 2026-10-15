@@ -3,6 +3,7 @@
 import { useEffect, useRef } from "react";
 
 import { useInternationalPreferences } from "@/components/international/InternationalPreferencesProvider";
+import { spanishLocaleForNetworkCountry } from "@/lib/international/detection";
 
 interface CountryDetectionPayload {
   success?: boolean;
@@ -18,7 +19,7 @@ interface CountryDetectionPayload {
  * unavailable; checkout independently reconciles the final country.
  */
 export default function NetworkCountrySync() {
-  const { ready, preferences, setCountry, setCurrency } = useInternationalPreferences();
+  const { ready, preferences, setCountry, setCurrency, setDetectedSpanishLocale } = useInternationalPreferences();
   const attempted = useRef(false);
 
   useEffect(() => {
@@ -32,6 +33,8 @@ export default function NetworkCountrySync() {
         if (cancelled || !response.ok || !payload.success || !payload.detected || !payload.countryCode) return;
 
         const detectedCountry = payload.countryCode.toLowerCase();
+        const spanishDialect = spanishLocaleForNetworkCountry(detectedCountry);
+        if (spanishDialect) setDetectedSpanishLocale(spanishDialect);
         if (preferences.country.toLowerCase() !== detectedCountry) setCountry(detectedCountry);
         if (payload.currency && preferences.preferredCurrency !== payload.currency) setCurrency(payload.currency);
       })
@@ -42,7 +45,7 @@ export default function NetworkCountrySync() {
     return () => {
       cancelled = true;
     };
-  }, [preferences.country, preferences.preferredCurrency, ready, setCountry, setCurrency]);
+  }, [preferences.country, preferences.preferredCurrency, ready, setCountry, setCurrency, setDetectedSpanishLocale]);
 
   return null;
 }

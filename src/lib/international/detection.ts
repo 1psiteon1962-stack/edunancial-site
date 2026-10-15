@@ -116,3 +116,18 @@ export function resolveRegion(countryCode: string, timezone: string) {
 
   return timezoneRegionMap[timezone] ?? "north-america";
 }
+
+/** Locale recommendation only for Spanish-language users, never an override of a saved choice. */
+export function spanishLocaleForNetworkCountry(countryCode: string): "es-ES" | "es-Caribbean" | null {
+  const code = countryCode.trim().toUpperCase();
+  if (code === "ES") return "es-ES";
+  // All Caribbean, Central American and South American countries, including
+  // non-Spanish-speaking neighbors: this selects a Spanish DIALECT only when
+  // the visitor's active auto-detected language is already Spanish.
+  const regionCodes = new Set([
+    "AG","AI","AW","BB","BL","BQ","BS","CU","CW","DM","DO","GD","GP","HT","JM","KN","KY","LC","MF","MQ","MS","PR","SX","TC","TT","VC","VG","VI",
+    "BZ","CR","GT","HN","MX","NI","PA","SV",
+    "AR","BO","BR","CL","CO","EC","FK","GF","GY","PE","PY","SR","UY","VE",
+  ]);
+  return regionCodes.has(code) ? "es-Caribbean" : null;
+}
