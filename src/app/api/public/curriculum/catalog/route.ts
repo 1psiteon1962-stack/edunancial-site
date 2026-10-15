@@ -1,4 +1,5 @@
 import { NextResponse } from "next/server";
+import { unstable_cache } from "next/cache";
 
 import { getPublishedCourses } from "@/lib/curriculum/authoritative-published";
 import { resolveRequestLanguage } from "@/lib/international/server";
@@ -11,6 +12,10 @@ const CATEGORY_COLORS: Record<string, string> = {
   Business: "bg-blue-800 text-white",
 };
 
+const getCachedCatalog = unstable_cache(async (language: string) => {
+  return buildCatalog(language);
+}, ["public-curriculum-catalog-v1"], { revalidate: 300, tags: ["published-curriculum"] });
+
 export async function GET(request: Request) {
   const url = new URL(request.url);
   const queryLanguage = url.searchParams.get("lang");
@@ -20,6 +25,11 @@ export async function GET(request: Request) {
     acceptLanguageHeader: request.headers.get("accept-language"),
   });
 
+  const data = await getCachedCatalog(language);
+  return NextResponse.json(data, { headers: { "Cache-Control": "public, s-maxage=300, stale-while-revalidate=600" } });
+}
+
+async function buildCatalog(language: string) {
   const courses = await getPublishedCourses(language);
   const courseList = courses.map((course) => ({
     id: course.id,
@@ -50,8 +60,7 @@ export async function GET(request: Request) {
   );
   const categories = [...new Set(courseList.map((course) => course.category))];
 
-  return NextResponse.json(
-    {
+  return {
       language,
       courseList,
       lessonList: lessons,
@@ -61,7 +70,5 @@ export async function GET(request: Request) {
       quizzes: {},
       categories,
       categoryColors: CATEGORY_COLORS,
-    },
-    { headers: { "Cache-Control": "no-store" } },
-  );
+  };
 }
