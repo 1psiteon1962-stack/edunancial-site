@@ -51,8 +51,11 @@ export async function GET(request: Request) {
     return catalogResponse(snapshot.data);
   }
   const data = await getCachedCatalog(language);
-  await getAdminContentStorage().saveBinary(snapshotKey, Buffer.from(JSON.stringify({ builtAt: Date.now(), data })), "application/json").catch((error) => {
-    console.error("[catalog] snapshot persistence failed", error);
+  // Persistence must never delay a successful first catalog response.
+  after(async () => {
+    try {
+      await getAdminContentStorage().saveBinary(snapshotKey, Buffer.from(JSON.stringify({ builtAt: Date.now(), data })), "application/json");
+    } catch (error) { console.error("[catalog] snapshot persistence failed", error); }
   });
   return catalogResponse(data);
 }
