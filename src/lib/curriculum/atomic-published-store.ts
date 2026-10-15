@@ -179,7 +179,9 @@ export async function readAtomicPublishedLessons(): Promise<PublishedLessonRecor
 async function readIndexedRows(lessonIds: string[], diagnostics: AtomicReadDiagnostics): Promise<PublishedLessonRecord[] | null> {
   const repositoryCanonical = new Map(repositoryCanonicalLessons().map((lesson) => [lesson.id.toUpperCase(), lesson]));
   const byId = new Map<string, PublishedLessonRecord>();
-  const concurrency = 10;
+  // Bulk metadata reads run on cold catalog requests; bounded parallelism avoids
+  // serial batches exceeding the serverless timeout while limiting Blob load.
+  const concurrency = 32;
   for (let offset = 0; offset < lessonIds.length; offset += concurrency) {
     const chunk = lessonIds.slice(offset, offset + concurrency);
     const rows = await Promise.all(chunk.map(async (lessonId) => ({ lessonId, ...(await readRowWithRetry(lessonId)) })));
