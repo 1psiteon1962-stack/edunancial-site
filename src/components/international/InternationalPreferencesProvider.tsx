@@ -69,6 +69,7 @@ type InternationalPreferencesContextValue = {
    */
   resetToAutomatic: () => void;
   setCountry: (country: string) => void;
+  setDetectedSpanishLocale: (locale: "es-ES" | "es-Caribbean") => void;
   setRegion: (region: string) => void;
   setCurrency: (currency: string) => void;
   setTimezone: (timezone: string) => void;
@@ -111,6 +112,7 @@ const InternationalPreferencesContext = createContext<InternationalPreferencesCo
   confirmLanguageDefault: () => {},
   resetToAutomatic: () => {},
   setCountry: () => {},
+  setDetectedSpanishLocale: () => {},
   setRegion: () => {},
   setCurrency: () => {},
   setTimezone: () => {},
@@ -255,6 +257,15 @@ export function InternationalPreferencesProvider({
           preferredLanguage: detectedLanguage,
           languageSelectionSource: "detected",
         }));
+        router.refresh();
+      },
+      setDetectedSpanishLocale: (locale) => {
+        // The network can refine automatic Spanish dialects, never a manual choice.
+        if (sessionLanguage || loadSavedLanguagePreference() || preferences.languageSelectionSource === "user-confirmed") return;
+        if (!effectiveLanguage.toLowerCase().startsWith("es")) return;
+        if (effectiveLanguage === locale) return;
+        writeLanguageCookie(locale, false);
+        setPreferences((previous) => ({ ...previous, preferredLanguage: locale, languageSelectionSource: "detected" }));
         router.refresh();
       },
       setCountry: (country) => {
