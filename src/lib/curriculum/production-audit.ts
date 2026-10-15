@@ -111,8 +111,11 @@ export async function auditCoordinate(track: string, level: number, locale: stri
 
   // 2. Retrieval — exactly what the learner lesson page renders, for every id.
   const retrievedById = new Map<string, Awaited<ReturnType<typeof getRuntimePublishedLesson>>>();
-  for (let offset = 0; offset < ids.length; offset += 10) {
-    const chunk = ids.slice(offset, offset + 10);
+  // Retrieval is read-only and independent per lesson; fewer serial batches
+  // prevent audit requests from waiting on five round trips per coordinate.
+  const retrievalConcurrency = 25;
+  for (let offset = 0; offset < ids.length; offset += retrievalConcurrency) {
+    const chunk = ids.slice(offset, offset + retrievalConcurrency);
     const results = await Promise.all(chunk.map(async (id) => [id, await getRuntimePublishedLesson(id, locale).catch(() => null)] as const));
     for (const [id, lesson] of results) retrievedById.set(id, lesson);
   }
@@ -142,8 +145,9 @@ export async function auditCoordinate(track: string, level: number, locale: stri
   const failed = [...missing, ...fallback];
   if (failed.length) {
     const atomicIndex = options.atomicIndex !== undefined ? options.atomicIndex : new Set((await readAtomicLessonIndex().catch(() => null) ?? []).map((id) => id.toUpperCase()));
-    for (let offset = 0; offset < failed.length; offset += 10) {
-      const chunk = failed.slice(offset, offset + 10);
+    const diagnosticsConcurrency = 20;
+    for (let offset = 0; offset < failed.length; offset += diagnosticsConcurrency) {
+      const chunk = failed.slice(offset, offset + diagnosticsConcurrency);
       const rows = await Promise.all(chunk.map(async (id) => {
         const gitEnglish = getLessonContent(id, "en");
         const gitLocal = english ? null : getLessonContent(id, locale);
