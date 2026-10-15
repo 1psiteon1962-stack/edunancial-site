@@ -30,7 +30,7 @@ function normalizeTitle(value){
   let title=String(value??"").trim();
   for(let i=0;i<4;i++){
     const previous=title;
-    title=title.replace(/\\\\+"/gu,'"').trim();
+    title=title.replace(/\\+"/gu,'"').trim();
     while(title.length>=2&&((title.startsWith('"')&&title.endsWith('"'))||(title.startsWith("'")&&title.endsWith("'")))) title=title.slice(1,-1).trim();
     if(title===previous)break;
   }
