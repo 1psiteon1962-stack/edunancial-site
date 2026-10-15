@@ -1,6 +1,7 @@
 import { NextResponse } from "next/server";
 
 import { hashIP } from "@/lib/kpi/hash";
+import { detectTrustedRequestCountry } from "@/lib/location/request-country";
 import { getSiteContext } from "@/lib/kpi/site";
 import type { KPIEventName } from "@/lib/kpi/types";
 import { logStructuredError } from "@/lib/observability/errors";
@@ -37,6 +38,16 @@ export async function POST(request: Request) {
       body.metadata && typeof body.metadata === "object" && !Array.isArray(body.metadata)
         ? (body.metadata as Record<string, unknown>)
         : {};
+    // Never accept a browser-supplied visitor country as analytics evidence.
+    // Netlify geolocation is read from the request on the server.
+    const detectedCountry = detectTrustedRequestCountry(request.headers);
+    const safeMetadata = { ...metadata };
+    delete safeMetadata.visitor_country_code;
+    delete safeMetadata.visitor_country_source;
+    if (detectedCountry) {
+      safeMetadata.visitor_country_code = detectedCountry.countryCode;
+      safeMetadata.visitor_country_source = detectedCountry.source;
+    }
     const path = String(body.path ?? metadata.path ?? context.path ?? "").slice(0, 2048) || null;
     const ipHash = context.ip ? await hashIP(context.ip.split(",")[0].trim()) : null;
 
@@ -59,7 +70,7 @@ export async function POST(request: Request) {
       value: typeof body.value === "number" && Number.isFinite(body.value) ? body.value : null,
       sku: typeof body.sku === "string" ? body.sku : null,
       order_id: typeof body.order_id === "string" ? body.order_id : null,
-      metadata,
+      metadata: safeMetadata,
     };
 
     await insertKpiEvent(row);
