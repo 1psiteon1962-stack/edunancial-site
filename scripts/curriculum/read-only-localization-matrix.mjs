@@ -170,10 +170,31 @@ const rows=[...matrix.values()].map(row=>{
   const expected=Array.from({length:50},(_,i)=>`${row.track}-L${row.level}-${String(i+1).padStart(3,'0')}`);
   const translations=Object.fromEntries([...row.translations.entries()]
     .sort(([a],[b])=>a.localeCompare(b))
-    .map(([locale,ids])=>[locale,{found:ids.size,missingFromGit:expected.filter(id=>!ids.has(id))}]));
+    .map(([locale,ids])=>[locale,{found:ids.size,missingFromGit:expected.filter(id=>!ids.has(id)),ids:[...ids]}]));
   return { track:row.track, level:row.level, englishFoundInGit:row.englishIds.size,
     englishMissingFromGit:expected.filter(id=>!row.englishIds.has(id)), translations };
 });
+// Report learner fallback separately from exact regional translations. Git
+// inventory alone does not prove that the translated lesson is live.
+for (const row of rows) {
+  const coverage = {};
+  for (const locale of SUPPORTED) {
+    if (locale === 'en-US') continue;
+    const base = locale.split('-')[0];
+    const exact = new Set(row.translations[locale]?.ids ?? []);
+    const viaBase = new Set();
+    const viaSibling = new Set();
+    if (locale !== base) for (const id of row.translations[base]?.ids ?? [])
+      if (!exact.has(id)) viaBase.add(id);
+    for (const [other, record] of Object.entries(row.translations)) {
+      if (other === locale || other === base || other.split('-')[0] !== base) continue;
+      for (const id of record.ids) if (!exact.has(id) && !viaBase.has(id)) viaSibling.add(id);
+    }
+    coverage[locale] = { exact:exact.size, viaBaseLanguageFallback:viaBase.size, viaSiblingLocaleFallback:viaSibling.size };
+  }
+  row.learnerResolutionCoverage = coverage;
+  for (const record of Object.values(row.translations)) delete record.ids;
+}
 const summary={
   purpose:'Read-only Git inventory. Missing means NOT FOUND IN GIT, not missing in Netlify Blob or production.',
   scannedFiles:files.length, rows, diagnostics, diagnosticCounts, diagnosticTruncated,
