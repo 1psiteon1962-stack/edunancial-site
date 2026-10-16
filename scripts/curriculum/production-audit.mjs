@@ -37,6 +37,18 @@ const list = (value) => (value ? String(value).split(",").map((x) => x.trim()).f
 const base = arg("base", process.env.EDUNANCIAL_BASE_URL ?? "https://edunancial.com").replace(/\/+$/u, "");
 const tracks = list(arg("tracks")) ?? TRACKS;
 const levels = (list(arg("levels")) ?? LEVELS).map(Number);
+// Reject unknown or malformed coordinate selections before hitting production.
+// An empty matrix or invalid level must never masquerade as a successful audit.
+if (!tracks.length || tracks.some((track) => !TRACKS.includes(track)) ||
+    !levels.length || levels.some((level) => !Number.isInteger(level) || !LEVELS.includes(level))) {
+  console.error("Invalid audit selection: --tracks must use known track codes and --levels must be integers 1-5.");
+  process.exit(2);
+}
+const explicitLocales = list(arg("locales"));
+if (explicitLocales && (explicitLocales.length === 0 || explicitLocales.some((locale) => !/^[a-z]{2}(?:-[a-zA-Z0-9]+)*$/.test(locale)))) {
+  console.error("Invalid audit selection: --locales must contain locale codes.");
+  process.exit(2);
+}
 const outDir = arg("out", "reports/production-audit");
 // Limit concurrent production scans; preserve the full coordinate matrix.
 const requestedConcurrency = Number(arg("concurrency", "1"));
