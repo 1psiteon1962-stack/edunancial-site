@@ -15,6 +15,7 @@ import { beginFinalization, getUploadReceipt, markFailed, markPublished, markSto
 import { PublicationBusyError, withPublicationLease } from "@/lib/admin-content/publication-lock";
 import { recordCurriculumUpload, transitionCurriculumUpload } from "@/lib/admin-content/neon-upload-state";
 import { queueNeonGitExport } from "@/lib/curriculum/neon-published-store";
+import { enqueueExportWithoutInvalidatingPublication } from "@/lib/admin-content/secondary-git-export";
 import { verifyLearnerVisibility } from "@/lib/admin-content/learner-readback";
 
 export const runtime = "nodejs";
@@ -120,11 +121,10 @@ export async function POST(request: NextRequest) {
           } catch (stateError) { console.error("[finalize] durable publish state transition failed", stateError); throw stateError; }
           // Git export is secondary to verified learner publication. A queue outage
           // must not mark an already PUBLISHED receipt as a failed upload.
-          try {
-            await queueNeonGitExport(currentUpload.uploadId);
-          } catch (queueError) {
-            console.error("[finalize] Git export queue deferred for published upload", queueError);
-          }
+          await enqueueExportWithoutInvalidatingPublication(
+            () => queueNeonGitExport(currentUpload.uploadId),
+            (queueError) => console.error("[finalize] Git export queue deferred for published upload", queueError),
+          );
         }
       } else {
         if (uploadConfig.destination === "courses") { const detail = "Curriculum coordinate could not be inferred from package; not published."; await markFailed(currentUpload.uploadId, detail, false); throw new Error(detail); } await markStoredForReview(currentUpload.uploadId, batch.id, "Stored successfully; manual review required before publication.");
