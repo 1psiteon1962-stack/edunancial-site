@@ -153,7 +153,9 @@ async function main() {
     writeFileSync(BASELINE, JSON.stringify({ _note: "Ratchet: coordinates proven PASS in production. Only ever grows; removal requires curriculum-removals.json approval.", updatedAt: new Date().toISOString(), coordinates: merged }, null, 2) + "\n");
     console.log(`baseline: ${baseline.coordinates.length} -> ${merged.length} coordinates`);
   }
-  if (regressions.length || failedCalls) process.exit(1);
+  // An absent baseline must never turn FAIL coordinates (or an empty audit) into a green run.
+  // Preserve complete diagnostics and artifacts above before signaling failure.
+  if (regressions.length || failedCalls || results.length === 0 || results.some((entry) => entry.runtimeStatus !== "PASS")) process.exit(1);
 }
 
 main().catch((error) => { console.error(error); process.exit(2); });
