@@ -8,6 +8,10 @@ const ORIGIN = "https://edunancial.com";
 const BATCH_SIZE = 3;
 const SLOTS = Math.ceil(LANGUAGES.length / BATCH_SIZE);
 const MINUTE_MS = 60_000;
+// Netlify scheduled functions have a 30 s limit. Observed HTTP 499 requests
+// at ~15 s do not prove warming failed; the catalog persists after response.
+// Bound each batch request to 12.5 s; slow locales retry next five-minute slot.
+export const REQUEST_TIMEOUT_MS = 12_500;
 
 export function localesForMinute(ms: number): string[] {
   const slot = ((Math.floor(ms / MINUTE_MS) % SLOTS) + SLOTS) % SLOTS;
@@ -34,7 +38,7 @@ export default async function handler(request: Request) {
     url.searchParams.set("lang", lang);
     try {
       const response = await fetch(url, {
-        signal: AbortSignal.timeout(11_000),
+        signal: AbortSignal.timeout(REQUEST_TIMEOUT_MS),
         headers: { "user-agent": "edunancial-catalog-warmer/1" },
         cache: "no-store",
       });
