@@ -11,7 +11,7 @@ test('timed-out production request is recorded as FAIL, never an empty success',
   const tmp = mkdtempSync(join(tmpdir(), 'curriculum-audit-timeout-'));
   try {
     const preload = join(tmp, 'preload.mjs');
-    writeFileSync(preload, \`
+    writeFileSync(preload, `
       AbortSignal.timeout = (milliseconds) => {
         if (milliseconds !== 45000) throw new Error('missing 45s request deadline');
         return AbortSignal.abort(new Error('simulated request deadline'));
@@ -20,7 +20,7 @@ test('timed-out production request is recorded as FAIL, never an empty success',
         if (!options?.signal?.aborted) throw new Error('missing abort signal');
         throw options.signal.reason;
       };
-    \`);
+    `);
     const out = join(tmp, 'report');
     const child = spawnSync(process.execPath,
       ['--import', preload, script, '--tracks', 'RED', '--levels', '1', '--locales', 'en-US', '--out', out],
