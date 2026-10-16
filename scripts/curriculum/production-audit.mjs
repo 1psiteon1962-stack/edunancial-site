@@ -39,7 +39,14 @@ const tracks = list(arg("tracks")) ?? TRACKS;
 const levels = (list(arg("levels")) ?? LEVELS).map(Number);
 const outDir = arg("out", "reports/production-audit");
 // Limit concurrent production scans; preserve the full coordinate matrix.
-const concurrency = Number(arg("concurrency", "1"));
+const requestedConcurrency = Number(arg("concurrency", "1"));
+// Audit requests are expensive: reject unbounded/invalid parallel runs rather than
+// multiplying Blob reads and production timeouts through a CLI typo.
+if (!Number.isInteger(requestedConcurrency) || requestedConcurrency < 1 || requestedConcurrency > 3) {
+  console.error("Invalid --concurrency: use an integer from 1 to 3.");
+  process.exit(2);
+}
+const concurrency = requestedConcurrency;
 
 function headers() {
   const h = { accept: "application/json" };
