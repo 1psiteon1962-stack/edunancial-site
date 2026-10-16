@@ -95,7 +95,7 @@ test("scheduled locale request budget leaves headroom", () => {
 test("warmer locales match selectable language registry", async () => {
   const { readFileSync } = await import("node:fs");
   const source = readFileSync(new URL("../../../src/lib/international/languages.ts", import.meta.url), "utf8");
-  const registry = [...source.matchAll(/code:\\s*"([^"]+)"/g)].map((m) => m[1]);
+  const registry = [...source.matchAll(/code:\s*"([^"]+)"/g)].map((m) => m[1]);
   assert.ok(registry.length >= 13);
   const start = Date.parse("2026-10-16T00:00:00Z");
   const covered = Array.from({ length: 5 }, (_, i) => localesForMinute(start + i * MIN)).flat();
