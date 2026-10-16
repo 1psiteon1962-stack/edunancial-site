@@ -65,17 +65,17 @@ jobs:
           node-version: 22
       - name: Wait for this commit to be live (push only)
         if: github.event_name == 'push'
-        env:
-          GITHUB_TOKEN: ${{ github.token }}
         run: |
+          # Read lightweight deploy metadata; avoid an expensive 50-lesson audit.
           for i in $(seq 1 30); do
-            live=$(curl -sS "https://edunancial.com/api/admin/curriculum/production-audit?tracks=RED&levels=1&locales=en-US" \
-              -H "Authorization: Bearer $GITHUB_TOKEN" -H "X-GitHub-Repository: ${{ github.repository }}" -H "X-GitHub-Run-Id: ${{ github.run_id }}" \
-              | node -e 'let s="";process.stdin.on("data",d=>s+=d).on("end",()=>{try{console.log(JSON.parse(s).meta.deployCommit??"")}catch{console.log("")}})')
+            live=$(curl -fSs --connect-timeout 5 --max-time 8 --retry 0 \
+              "https://edunancial.com/api/deployment/version" \
+              | node -e 'let s="";process.stdin.on("data",d=>s+=d).on("end",()=>{try{const x=JSON.parse(s);console.log(typeof x.commit==="string"?x.commit:"")}catch{console.log("")}})' || true)
             if [ "$live" = "${{ github.sha }}" ]; then echo "deploy live"; exit 0; fi
             echo "waiting for deploy ($live)"; sleep 30
           done
-          echo "::warning::Commit not confirmed live after 15 minutes; auditing current production."
+          echo "::error::Expected commit not confirmed live after 15 minutes; refusing to audit a different production commit."
+          exit 1
       - name: Audit every coordinate through the learner resolver
         env:
           GITHUB_TOKEN: ${{ github.token }}
