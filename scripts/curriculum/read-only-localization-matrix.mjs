@@ -9,13 +9,16 @@ import { basename, dirname, join, relative } from 'node:path';
 
 const TRACKS = ['RED', 'WHITE', 'BLUE', 'GREEN', 'GOLD', 'PURPLE', 'ORANGE', 'BLACK'];
 const ROOTS = ['content/curriculum', 'content/courses', 'curriculum/seeds/translations'];
-const FILE_ID_RE = /(?:^|[^A-Za-z0-9])(RED|WHITE|BLUE|GREEN|GOLD|PURPLE|ORANGE|BLACK)-L([1-5])-(\d{3})(?:\.([A-Za-z]{2}(?:[-_][A-Za-z0-9]+)*))?\.(md|json)$/i;
+const FILE_ID_RE = /(?:^|[^A-Za-z0-9])(RED|WHITE|BLUE|GREEN|GOLD|PURPLE|ORANGE|BLACK)-L([1-5])-(\d{3})(?:([._-])([A-Za-z]{2}(?:[-_][A-Za-z0-9]+)*))?\.(md|json)$/i;
 const STRICT_ID_RE = /^(RED|WHITE|BLUE|GREEN|GOLD|PURPLE|ORANGE|BLACK)-L([1-5])-(\d{3})$/;
 const POSSIBLE_LOCALE_RE = /^[a-z]{2}(?:[-_](?:[a-z]{2}|419|Caribbean))?$/i;
+const SUPPORTED = new Set(['en-US','en-GB','es-419','es-Caribbean','es-ES','fr-CA','fr-FR','pt-BR','pt-PT','de','it','nl','ht']);
 const files = [];
-const diagnostics = { ambiguous: [], outOfRange: [], invalidJson: [], duplicates: [], unclassifiedMarkdown: [], incompleteTranslations: [] };
+const diagnostics = { ambiguous: [], outOfRange: [], invalidJson: [], duplicates: [], unclassifiedMarkdown: [], incompleteTranslations: [], seedRecordsIgnoredByLearner: [] };
+const diagnosticCounts = Object.fromEntries(Object.keys(diagnostics).map(key=>[key,0]));
 let diagnosticTruncated = 0;
 function note(type, detail) {
+  diagnosticCounts[type]++;
   if (diagnostics[type].length < 50) diagnostics[type].push(detail);
   else diagnosticTruncated++;
 }
@@ -57,7 +60,9 @@ function idFromPath(path) {
   const m = basename(path).match(FILE_ID_RE);
   if (!m) return null;
   const id = `${m[1].toUpperCase()}-L${m[2]}-${m[3]}`;
-  return { id, track:m[1].toUpperCase(), level:Number(m[2]), suffixLocale:normalizeLocale(m[4]), extension:m[5].toLowerCase() };
+  const suffixLocale = normalizeLocale(m[5]);
+  if (m[5] && m[4] !== '.' && !SUPPORTED.has(suffixLocale)) return { id, unclassifiedSuffix:m[5] };
+  return { id, track:m[1].toUpperCase(), level:Number(m[2]), suffixLocale, extension:m[6].toLowerCase() };
 }
 function validId(id, path) {
   const match = String(id).toUpperCase().match(STRICT_ID_RE);
@@ -103,7 +108,7 @@ for (const path of files) {
   const location=relative('.',path).replace(/\\/g,'/');
   const filenameId=idFromPath(path);
   if (path.toLowerCase().endsWith('.md')) {
-    if (!filenameId) {
+    if (!filenameId || filenameId.unclassifiedSuffix) {
       // Keep a bounded diagnostic: uncertain filenames are not counted as English.
       if (/(RED|WHITE|BLUE|GREEN|GOLD|PURPLE|ORANGE|BLACK)[-_]L[1-5]/i.test(location))
         note('unclassifiedMarkdown', location);
@@ -131,6 +136,10 @@ for (const path of files) {
       if (!record || typeof record !== 'object' || Array.isArray(record)) continue;
       const coordinate = `${location}#${index}`;
       const info = validId(record.lessonId ?? record.lesson_id ?? record.id ?? '', coordinate);
+      if (info && location.startsWith('curriculum/seeds/translations/')) {
+        const nested = location.slice('curriculum/seeds/translations/'.length).includes('/');
+        if (nested || typeof record.lessonId !== 'string') note('seedRecordsIgnoredByLearner',{id:info.id,path:coordinate,reason:nested?'nested seed file':'no lessonId key'});
+      }
       if (!info || !record.locale) continue;
       const locale = chosenLocale([normalizeLocale(String(record.locale))], coordinate);
       if (!locale) {
@@ -167,6 +176,6 @@ const rows=[...matrix.values()].map(row=>{
 });
 const summary={
   purpose:'Read-only Git inventory. Missing means NOT FOUND IN GIT, not missing in Netlify Blob or production.',
-  scannedFiles:files.length, rows, diagnostics, diagnosticTruncated,
+  scannedFiles:files.length, rows, diagnostics, diagnosticCounts, diagnosticTruncated,
 };
 console.log(JSON.stringify(summary,null,2));
