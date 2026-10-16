@@ -40,6 +40,16 @@ export async function GET(request: NextRequest) {
   const tracks = list(params.get("tracks"));
   const levels = list(params.get("levels")).map(Number).filter((level) => Number.isInteger(level));
   const locales = list(params.get("locales"));
+  // This endpoint performs live Blob/registry lookups. Reject broad requests
+  // instead of causing hundreds of expensive coordinates and gateway 504s.
+  // The CLI already invokes one coordinate per request.
+  const coordinateCount = (tracks.length || 8) * (levels.length || 5) * (locales.length || 1);
+  if (coordinateCount > 4 || tracks.length === 0 || levels.length === 0 || locales.length === 0) {
+    return NextResponse.json(
+      { error: "AUDIT_REQUEST_TOO_BROAD", detail: "Specify tracks, levels and locales; maximum four coordinates per request." },
+      { status: 400, headers: { "cache-control": "no-store" } },
+    );
+  }
   try {
     const result = await runProductionAudit({ tracks, levels, locales });
     if (params.get("format") === "text") {
