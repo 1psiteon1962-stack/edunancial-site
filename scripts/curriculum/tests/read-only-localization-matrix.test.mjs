@@ -70,10 +70,11 @@ test('incomplete translations, invalid JSON and out-of-range IDs are not silent'
   assert.ok(data.diagnostics.invalidJson.some(x=>x.path.endsWith('/bad.json')));
   assert.ok(data.diagnostics.outOfRange.some(x=>x.id==='RED-L1-051'));
 });
-test('duplicate locale-path pair is reported rather than double-counted',()=>{
+test('content-only JSON is not mistaken for a duplicate learner-renderable lesson',()=>{
   const data=run(root,revised);
   assert.equal(row(data).translations['es-Caribbean'].found,4);
-  assert.ok(data.diagnostics.duplicates.some(x=>x.id==='RED-L1-010'));
+  assert.ok(!data.diagnostics.duplicates.some(x=>x.id==='RED-L1-010'));
+  assert.ok(data.diagnostics.jsonNotLearnerRenderable.some(x=>x.id==='RED-L1-010'));
 });
 test('script is read-only, never changes fixture files',()=>{
   const before=snapshot(root);
