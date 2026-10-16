@@ -14,7 +14,7 @@ const STRICT_ID_RE = /^(RED|WHITE|BLUE|GREEN|GOLD|PURPLE|ORANGE|BLACK)-L([1-5])-
 const POSSIBLE_LOCALE_RE = /^[a-z]{2}(?:[-_](?:[a-z]{2}|419|Caribbean))?$/i;
 const SUPPORTED = new Set(['en-US','en-GB','es-419','es-Caribbean','es-ES','fr-CA','fr-FR','pt-BR','pt-PT','de','it','nl','ht']);
 const files = [];
-const diagnostics = { ambiguous: [], outOfRange: [], invalidJson: [], duplicates: [], unclassifiedMarkdown: [], incompleteTranslations: [], seedRecordsIgnoredByLearner: [] };
+const diagnostics = { ambiguous: [], outOfRange: [], invalidJson: [], duplicates: [], unclassifiedMarkdown: [], incompleteTranslations: [], seedRecordsIgnoredByLearner: [], jsonNotLearnerRenderable: [] };
 const diagnosticCounts = Object.fromEntries(Object.keys(diagnostics).map(key=>[key,0]));
 let diagnosticTruncated = 0;
 function note(type, detail) {
@@ -101,8 +101,13 @@ function add(idInfo, locale, path) {
 }
 function nonEmptyText(value) { return typeof value==='string' && !!value.trim(); }
 function hasTranslatedContent(obj) {
-  return obj && typeof obj==='object' && nonEmptyText(obj.title) &&
-    (nonEmptyText(obj.body) || nonEmptyText(obj.content) || nonEmptyText(obj.markdown));
+  return obj && typeof obj==='object' && nonEmptyText(obj.title) && nonEmptyText(obj.body);
+}
+function noteUnrenderableJson(obj, id, locale, path) {
+  if (obj && typeof obj==='object' && nonEmptyText(obj.title) &&
+      !nonEmptyText(obj.body) && (nonEmptyText(obj.content) || nonEmptyText(obj.markdown)))
+    note('jsonNotLearnerRenderable', {id,locale,path,
+      reason:'JSON has content/markdown but learner parser requires body'});
 }
 for (const path of files) {
   const location=relative('.',path).replace(/\\/g,'/');
@@ -147,7 +152,7 @@ for (const path of files) {
         continue;
       }
       if (hasTranslatedContent(record)) add(info, locale, coordinate);
-      else note('incompleteTranslations', {id:info.id, locale, path:coordinate});
+      else { noteUnrenderableJson(record,info.id,locale,coordinate); note('incompleteTranslations', {id:info.id, locale, path:coordinate}); }
     }
     continue;
   }
@@ -158,9 +163,10 @@ for (const path of files) {
     for (const [rawLocale, val] of Object.entries(obj.translations)) {
       const locale=normalizeLocale(rawLocale);
       if (locale && hasTranslatedContent(val)) add(info,locale,location);
-      else note('incompleteTranslations',{id:info.id,locale:rawLocale,path:location});
+      else { noteUnrenderableJson(val,info.id,rawLocale,location); note('incompleteTranslations',{id:info.id,locale:rawLocale,path:location}); }
     }
   }
+  if (obj.locale && !hasTranslatedContent(obj)) noteUnrenderableJson(obj,info.id,String(obj.locale),location);
   if (obj.locale && hasTranslatedContent(obj)) {
     const locale=chosenLocale([normalizeLocale(String(obj.locale)),filenameId?.suffixLocale,directoryLocale(path)],location);
     if (locale) add(info,locale,location);
