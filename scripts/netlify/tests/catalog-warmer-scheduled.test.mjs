@@ -1,6 +1,6 @@
 import test from "node:test";
 import assert from "node:assert/strict";
-import handler, { config, localesForMinute } from "../../../netlify/functions/catalog-warmer.mts";
+import handler, { config, localesForMinute, REQUEST_TIMEOUT_MS } from "../../../netlify/functions/catalog-warmer.mts";
 
 const ALL = ["en-US","en-GB","es-419","es-Caribbean","es-ES","fr-CA","fr-FR","pt-BR","pt-PT","de","it","nl","ht"];
 const MIN = 60_000;
@@ -84,4 +84,20 @@ test("reports failed locale without aborting other read-only requests", async ()
     assert.equal(called, 3);
     assert.deepEqual(outcome, { checked: 3, succeeded: 2, failed: [chosen[1]] });
   } finally { globalThis.fetch = previousFetch; }
+});
+
+
+test("scheduled locale request budget leaves headroom", () => {
+  assert.equal(REQUEST_TIMEOUT_MS, 12_500);
+  assert.ok(REQUEST_TIMEOUT_MS < 15_000);
+});
+
+test("warmer locales match selectable language registry", async () => {
+  const { readFileSync } = await import("node:fs");
+  const source = readFileSync(new URL("../../../src/lib/international/languages.ts", import.meta.url), "utf8");
+  const registry = [...source.matchAll(/code:\\s*"([^"]+)"/g)].map((m) => m[1]);
+  assert.ok(registry.length >= 13);
+  const start = Date.parse("2026-10-16T00:00:00Z");
+  const covered = Array.from({ length: 5 }, (_, i) => localesForMinute(start + i * MIN)).flat();
+  assert.deepEqual([...covered].sort(), [...registry].sort());
 });
