@@ -117,8 +117,14 @@ export async function POST(request: NextRequest) {
         if (process.env.DATABASE_URL || process.env.NETLIFY_DATABASE_URL) {
           try {
             await transitionCurriculumUpload(currentUpload.uploadId, "PUBLISHED", { reviewBatchId: batch.id, verification });
+          } catch (stateError) { console.error("[finalize] durable publish state transition failed", stateError); throw stateError; }
+          // Git export is secondary to verified learner publication. A queue outage
+          // must not mark an already PUBLISHED receipt as a failed upload.
+          try {
             await queueNeonGitExport(currentUpload.uploadId);
-          } catch (stateError) { console.error("[finalize] durable publish state/export queue failed", stateError); throw stateError; }
+          } catch (queueError) {
+            console.error("[finalize] Git export queue deferred for published upload", queueError);
+          }
         }
       } else {
         if (uploadConfig.destination === "courses") { const detail = "Curriculum coordinate could not be inferred from package; not published."; await markFailed(currentUpload.uploadId, detail, false); throw new Error(detail); } await markStoredForReview(currentUpload.uploadId, batch.id, "Stored successfully; manual review required before publication.");
