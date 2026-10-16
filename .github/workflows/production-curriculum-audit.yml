@@ -38,7 +38,7 @@ jobs:
           node-version: 22
       - name: Export Neon curriculum tables (read-only)
         env:
-          DATABASE_URL: \${{ secrets.DATABASE_URL }}
+          DATABASE_URL: ${{ secrets.DATABASE_URL }}
         run: |
           set -uo pipefail
           mkdir -p backup/neon
@@ -73,14 +73,14 @@ jobs:
         if: always()
         uses: actions/upload-artifact@v4
         with:
-          name: neon-only-export-\${{ github.run_id }}
+          name: neon-only-export-${{ github.run_id }}
           path: backup/
           retention-days: 90
           if-no-files-found: error
 
   audit:
     needs: backup
-    if: \${{ !cancelled() }}
+    if: ${{ !cancelled() }}
     runs-on: ubuntu-latest
     timeout-minutes: 180
     steps:
