@@ -77,7 +77,9 @@ function headers() {
 
 async function call(query, attempt = 0) {
   const url = `${base}/api/admin/curriculum/production-audit?${new URLSearchParams(query)}`;
-  const response = await fetch(url, { headers: headers() });
+  // Bound the client request to avoid indefinitely hanging CI audit workers.
+  // A timed-out coordinate is already recorded as FAIL by the caller.
+  const response = await fetch(url, { headers: headers(), signal: AbortSignal.timeout(45_000) });
   if (response.status === 401) throw new Error("401 Unauthorized — set EDUNANCIAL_ADMIN_COOKIE or run from the GitHub workflow.");
   if (!response.ok) {
     // Retrying 30-second gateway timeouts multiplies storage load without fixing them.
