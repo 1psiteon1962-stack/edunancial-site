@@ -28,7 +28,7 @@ concurrency:
 
 jobs:
   backup:
-    # Preserve production-only curriculum BEFORE anything else runs.
+    # Neon-only export is not an independent production Blob backup.
     runs-on: ubuntu-latest
     timeout-minutes: 60
     steps:
@@ -38,24 +38,49 @@ jobs:
           node-version: 22
       - name: Export Neon curriculum tables (read-only)
         env:
-          DATABASE_URL: ${{ secrets.DATABASE_URL }}
+          DATABASE_URL: \${{ secrets.DATABASE_URL }}
         run: |
+          set -uo pipefail
           mkdir -p backup/neon
-          if [ -z "$DATABASE_URL" ]; then echo "::warning::DATABASE_URL secret not set; Neon export skipped."; exit 0; fi
+          printf '%s\n' 'NEON ONLY: Not a Blob backup; Git/Blob-only lessons not protected.' > backup/BACKUP_SCOPE.txt
+          status=backup/NEON_EXPORT_STATUS.txt
+          echo "run_id=$GITHUB_RUN_ID sha=$GITHUB_SHA" > "$status"
+          if [ -z "$DATABASE_URL" ]; then
+            echo 'FAILED: DATABASE_URL secret missing' >> "$status"
+            echo '::error::Neon-only export was not performed'
+            exit 1
+          fi
           sudo apt-get -qq update && sudo apt-get -qq install -y postgresql-client >/dev/null
+          failed=0
           for t in published_lessons published_translations curriculum_uploads; do
-            psql "$DATABASE_URL" -v ON_ERROR_STOP=1 -c "\\copy (select * from $t) to 'backup/neon/$t.csv' with csv header" \
-              && echo "$t exported" || echo "::warning::$t not exported (table may not exist)"
+            out="backup/neon/$t.csv"
+            if psql "$DATABASE_URL" -v ON_ERROR_STOP=1 -c "\\copy (select * from $t) to '$out' with csv header"; then
+              rows=$(psql "$DATABASE_URL" -v ON_ERROR_STOP=1 -At -c "select count(*) from $t" 2>/dev/null || echo "?")
+              checksum=$(sha256sum "$out" | cut -d' ' -f1)
+              echo "$t exported rows=$rows sha256=$checksum" >> "$status"
+              if [ "$rows" = "0" ]; then echo "::warning::$t has zero rows; not evidence that lessons are absent."; fi
+              if [ "$rows" = "?" ]; then failed=1; echo "::error::Could not verify rows for $t"; fi
+            else
+              echo "$t FAILED" >> "$status"
+              echo "::error::Neon export failed for $t"
+              failed=1
+            fi
           done
-      - uses: actions/upload-artifact@v4
+          if [ "$failed" -eq 0 ]; then echo 'RESULT: Neon-only export completed; Blob preservation unresolved' >> "$status"
+          else echo 'RESULT: INCOMPLETE Neon export' >> "$status"; fi
+          exit "$failed"
+      - name: Upload Neon export evidence (also on failure)
+        if: always()
+        uses: actions/upload-artifact@v4
         with:
-          name: curriculum-backup-${{ github.run_id }}
+          name: neon-only-export-\${{ github.run_id }}
           path: backup/
           retention-days: 90
-          if-no-files-found: warn
+          if-no-files-found: error
 
   audit:
     needs: backup
+    if: \${{ !cancelled() }}
     runs-on: ubuntu-latest
     timeout-minutes: 180
     steps:
