@@ -107,6 +107,11 @@ export async function auditCoordinate(track: string, level: number, locale: stri
   const english = isEnglish(locale);
   const ids = expectedIds(code, level);
 
+  // Receipt counts and learner resolution are independent read-only sources.
+  // Begin the Neon query now so it does not extend the critical path after
+  // Blob discovery/retrieval. receiptStates converts its failures to diagnostics.
+  const receiptsPending = receiptStates(code, level, locale);
+
   // 1. Discovery — exactly what the learner level page renders.
   const runtimeTrack = await getRuntimePublishedTrack(code, locale);
   const levelLessons = runtimeTrack?.levels.find((entry) => entry.level === level)?.lessons ?? [];
@@ -182,7 +187,7 @@ export async function auditCoordinate(track: string, level: number, locale: stri
   }
 
   mark("diagnostics");
-  const receipts = await receiptStates(code, level, locale);
+  const receipts = await receiptsPending;
   mark("receipts");
   const elapsed = Date.now() - started;
   // Timing is emitted after real work, not before an asynchronous invocation.
