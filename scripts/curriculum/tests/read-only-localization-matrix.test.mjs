@@ -136,3 +136,46 @@ test('duplicate seed records are deduplicated with an explicit diagnostic',()=>{
     assert.ok(data.diagnostics.duplicates.some(x=>x.id==='RED-L1-019'));
   }finally{rmSync(seedRoot,{recursive:true,force:true});}
 });
+
+test('legacy hyphen locale suffixes resolve to localized lessons without English misclassification',()=>{
+  const base=mkdtempSync(join(tmpdir(),'edunancial-q2-legacy-'));
+  try {
+    const records={
+      'content/courses/blue/level-1/pt_br/blue-l1-pt-br-complete-blue-l1-001-pt-br.md':'# BLUE-L1-001\n\nTexto',
+      'content/courses/purple/level-1/en_gb/purple-level-1-purple-l1-001-en-gb.md':'# PURPLE-L1-001\n\nText',
+      'content/courses/purple/level-1/it/purple-level-1-purple-l1-002-it.md':'# PURPLE-L1-002\n\nTesto',
+    };
+    for (const [name,body] of Object.entries(records)) {
+      const file=join(base,name);mkdirSync(dirname(file),{recursive:true});writeFileSync(file,body);
+    }
+    const before=snapshot(base),data=run(base,revised);
+    assert.equal(row(data,'BLUE',1).translations['pt-BR'].found,1);
+    assert.equal(row(data,'PURPLE',1).translations['en-GB'].found,1);
+    assert.equal(row(data,'PURPLE',1).translations.it.found,1);
+    assert.equal(row(data,'BLUE',1).englishFoundInGit,0);
+    assert.equal(snapshot(base),before);
+  } finally {rmSync(base,{recursive:true,force:true});}
+});
+test('base language fallback is reported separately from exact regional translation',()=>{
+  const base=mkdtempSync(join(tmpdir(),'edunancial-q2-fallback-'));
+  try {
+    const file=join(base,'curriculum/seeds/translations/es-red-l1.json');
+    mkdirSync(dirname(file),{recursive:true});
+    writeFileSync(file,JSON.stringify([{lessonId:'RED-L1-001',locale:'es',title:'Título',body:'Texto'}]));
+    const data=run(base,revised),coverage=row(data).learnerResolutionCoverage['es-419'];
+    assert.equal(coverage.exact,0);
+    assert.equal(coverage.viaBaseLanguageFallback,1);
+  } finally {rmSync(base,{recursive:true,force:true});}
+});
+test('uncapped diagnostics count additional unclassified files',()=>{
+  const base=mkdtempSync(join(tmpdir(),'edunancial-q2-diagnostics-'));
+  try {
+    for(let i=1;i<=60;i++){
+      const file=join(base,'content/courses/red/level-1',`red-l1-${String(i).padStart(3,'0')}-notalocale.md`);
+      mkdirSync(dirname(file),{recursive:true});writeFileSync(file,'# test');
+    }
+    const data=run(base,revised);
+    assert.ok(data.diagnosticCounts.unclassifiedMarkdown>=50);
+    assert.equal(data.diagnostics.unclassifiedMarkdown.length,50);
+  } finally {rmSync(base,{recursive:true,force:true});}
+});
