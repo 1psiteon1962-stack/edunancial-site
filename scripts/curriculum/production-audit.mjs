@@ -45,6 +45,10 @@ if (!tracks.length || tracks.some((track) => !TRACKS.includes(track)) ||
   process.exit(2);
 }
 const explicitLocales = list(arg("locales"));
+if (process.argv.includes("--locales") && !explicitLocales) {
+  console.error("Invalid audit selection: --locales requires a nonempty comma-separated value.");
+  process.exit(2);
+}
 if (explicitLocales && (explicitLocales.length === 0 || explicitLocales.some((locale) => !/^[a-z]{2}(?:-[a-zA-Z0-9]+)*$/.test(locale)))) {
   console.error("Invalid audit selection: --locales must contain locale codes.");
   process.exit(2);
