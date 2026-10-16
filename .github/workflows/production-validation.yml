@@ -60,6 +60,9 @@ jobs:
       - name: Test
         run: npm test
 
+      - name: Scheduled function tests
+        run: npm run functions:test
+
       - name: Detect localization-impacting changes
         id: localization_changes
         if: github.event_name == 'pull_request'
