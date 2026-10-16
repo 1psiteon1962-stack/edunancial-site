@@ -100,6 +100,9 @@ async function receiptStates(track: string, level: number, locale: string): Prom
 
 export async function auditCoordinate(track: string, level: number, locale: string, options: { atomicIndex?: Set<string> | null } = {}): Promise<CoordinateAudit> {
   const started = Date.now();
+  const timings: Record<string, number> = {};
+  let stageStarted = started;
+  const mark = (stage: string) => { const now = Date.now(); timings[stage] = now - stageStarted; stageStarted = now; };
   const code = track.toUpperCase();
   const english = isEnglish(locale);
   const ids = expectedIds(code, level);
@@ -108,6 +111,7 @@ export async function auditCoordinate(track: string, level: number, locale: stri
   const runtimeTrack = await getRuntimePublishedTrack(code, locale);
   const levelLessons = runtimeTrack?.levels.find((entry) => entry.level === level)?.lessons ?? [];
   const discovered = new Map(levelLessons.map((lesson) => [lesson.id.toUpperCase(), lesson]));
+  mark("discovery");
 
   // 2. Retrieval — exactly what the learner lesson page renders, for every id.
   const retrievedById = new Map<string, Awaited<ReturnType<typeof getRuntimePublishedLesson>>>();
@@ -120,6 +124,7 @@ export async function auditCoordinate(track: string, level: number, locale: stri
     for (const [id, lesson] of results) retrievedById.set(id, lesson);
   }
 
+  mark("retrieval");
   const source: Record<string, number> = {};
   const missing: string[] = [];
   const fallback: string[] = [];
@@ -176,6 +181,13 @@ export async function auditCoordinate(track: string, level: number, locale: stri
     }
   }
 
+  mark("diagnostics");
+  const receipts = await receiptStates(code, level, locale);
+  mark("receipts");
+  const elapsed = Date.now() - started;
+  // Timing is emitted after real work, not before an asynchronous invocation.
+  // Logs only aggregate stage durations and coordinate, never lesson contents.
+  console.info("[curriculum-production-audit] coordinate timing", JSON.stringify({ track: code, level, locale, durationMs: elapsed, stagesMs: timings, passed: pass.size === AUDIT_LESSONS_PER_LEVEL }));
   const passed = pass.size === AUDIT_LESSONS_PER_LEVEL;
   return {
     track: code,
@@ -192,8 +204,8 @@ export async function auditCoordinate(track: string, level: number, locale: stri
     source,
     runtimeStatus: passed ? "PASS" : "FAIL",
     failures,
-    receipts: await receiptStates(code, level, locale),
-    durationMs: Date.now() - started,
+    receipts,
+    durationMs: elapsed,
   };
 }
 
