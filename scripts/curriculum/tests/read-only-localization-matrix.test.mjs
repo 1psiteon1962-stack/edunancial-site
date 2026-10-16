@@ -47,7 +47,7 @@ test('revised scanner handles locale directories, suffixes and Markdown front ma
   const newRow=row(run(root,revised));
   assert.equal(newRow.englishFoundInGit,2);
   assert.equal(newRow.translations['es-Caribbean'].found,4);
-  assert.equal(newRow.translations['fr-CA'].found,4);
+  assert.equal(newRow.translations['fr-CA'].found,3); // JSON content-only has no learner-readable body
 });
 test('localized directory + conflicting suffix is flagged and omitted conservatively',()=>{
   const data=run(root,revised);
@@ -178,4 +178,11 @@ test('uncapped diagnostics count additional unclassified files',()=>{
     assert.ok(data.diagnosticCounts.unclassifiedMarkdown>=50);
     assert.equal(data.diagnostics.unclassifiedMarkdown.length,50);
   } finally {rmSync(base,{recursive:true,force:true});}
+});
+
+test('JSON content/markdown without body is flagged but not reported as learner-renderable',()=>{
+  const data=run(root,revised);
+  assert.ok(data.diagnostics.jsonNotLearnerRenderable.some(x=>x.id==='RED-L1-009' && x.locale==='fr_ca'));
+  assert.ok(data.diagnostics.jsonNotLearnerRenderable.some(x=>x.id==='RED-L1-010'));
+  assert.equal(row(data).translations['fr-CA'].found,3);
 });
