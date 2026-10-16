@@ -7,7 +7,8 @@ import { getMembershipPlanCopy, resolveMembershipCopyLanguage } from "@/lib/memb
 import { publicMembershipPlans } from "@/types/membership";
 
 export default function PricingPageClient() {
-  const { effectiveLanguage, t } = useInternationalPreferences();
+  const { effectiveLanguage, preferences, t } = useInternationalPreferences();
+  const isDominicanVisitor = preferences.country.toUpperCase() === "DO";
   const language = resolveMembershipCopyLanguage(effectiveLanguage);
 
   return (
@@ -28,6 +29,13 @@ export default function PricingPageClient() {
           <p className="mt-3 text-sm font-bold text-blue-200">🌐 Multiple languages · Regional language options · Learn in the language that works for you</p>
         </div>
 
+        {isDominicanVisitor && (
+          <p className="mt-6 rounded-xl border border-amber-400/30 bg-amber-950/20 p-4 text-sm text-amber-100">
+            {effectiveLanguage.startsWith("es")
+              ? "Conexión desde República Dominicana: los planes se muestran temporalmente en USD. Los precios dominicanos en DOP aún no están habilitados; el importe mostrado es el importe de referencia antes de pagar."
+              : "Dominican Republic connection: plans are temporarily shown in USD. Dominican DOP membership rates are not yet enabled; the displayed amount is the reference price before checkout."}
+          </p>
+        )}
         <div className="mt-8 grid gap-6 sm:grid-cols-2 xl:grid-cols-4">
           <div className="rounded-2xl border border-white/10 bg-slate-900/80 p-6">
             <p className="text-sm font-bold uppercase tracking-[0.25em] text-slate-300">{t("pricingPage.freePlan.name")}</p>
