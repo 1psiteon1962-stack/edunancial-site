@@ -57,7 +57,9 @@ async function call(query, attempt = 0) {
   const response = await fetch(url, { headers: headers() });
   if (response.status === 401) throw new Error("401 Unauthorized — set EDUNANCIAL_ADMIN_COOKIE or run from the GitHub workflow.");
   if (!response.ok) {
-    if (attempt < 2) { await new Promise((r) => setTimeout(r, 2000 * (attempt + 1))); return call(query, attempt + 1); }
+    // Retrying 30-second gateway timeouts multiplies storage load without fixing them.
+    // Keep retries for transient 429/503 responses only; every failed coordinate remains FAIL.
+    if ((response.status === 429 || response.status === 503) && attempt < 2) { await new Promise((r) => setTimeout(r, 2000 * (attempt + 1))); return call(query, attempt + 1); }
     throw new Error(`${response.status} for ${url}: ${(await response.text()).slice(0, 300)}`);
   }
   return response.json();
