@@ -87,8 +87,22 @@ async function main() {
       const job = jobs[cursor++];
       try {
         const response = await call({ tracks: job.track, levels: String(job.level), locales: job.locale });
+        // A 200 response without exactly this coordinate is an audit failure,
+        // not evidence that the requested learner content passed inspection.
+        if (!response || !Array.isArray(response.coordinates) || response.coordinates.length !== 1) {
+          throw new Error("Invalid audit response: expected exactly one coordinate.");
+        }
+        const [coordinate] = response.coordinates;
+        if (coordinate.track !== job.track || Number(coordinate.level) !== job.level || coordinate.locale !== job.locale ||
+            !["PASS", "FAIL"].includes(coordinate.runtimeStatus) ||
+            !Number.isInteger(coordinate.retrievableLessonCount) ||
+            !Number.isInteger(coordinate.expectedLessonCount) || coordinate.expectedLessonCount !== 50 ||
+            coordinate.retrievableLessonCount < 0 || coordinate.retrievableLessonCount > 50 ||
+            (coordinate.runtimeStatus === "PASS" && coordinate.retrievableLessonCount !== 50)) {
+          throw new Error("Invalid audit response: coordinate or learner counts do not match request.");
+        }
         meta ??= response.meta;
-        results.push(...response.coordinates);
+        results.push(coordinate);
         process.stderr.write(".");
       } catch (error) {
         failedCalls++;
