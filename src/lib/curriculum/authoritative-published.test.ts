@@ -229,12 +229,16 @@ test("published tracks fall back to stub copy when no localized file or translat
   const localizedLessonPath = join(lessonDir, "BLUE-L1-005.de.md");
   const originalLocalizedLesson = existsSync(localizedLessonPath) ? readFileSync(localizedLessonPath, "utf8") : null;
   rmSync(localizedLessonPath, { force: true });
-  const spanish = await getPublishedLesson("BLUE-L1-005", "de");
-  assert.ok(spanish);
-  assert.equal(spanish.title, "Key Performance Indicators — Measuring What Matters");
-  assert.equal(spanish.summary, "English published summary");
-  assert.equal(spanish.body, "English published body");
-  if (originalLocalizedLesson !== null) writeFileSync(localizedLessonPath, originalLocalizedLesson, "utf8");
+  try {
+    const spanish = await getPublishedLesson("BLUE-L1-005", "de");
+    assert.ok(spanish);
+    assert.equal(spanish.title, "Key Performance Indicators — Measuring What Matters");
+    assert.equal(spanish.summary, "English published summary");
+    assert.equal(spanish.body, "English published body");
+  } finally {
+    // Preserve the committed curriculum even if the assertion fails.
+    if (originalLocalizedLesson !== null) writeFileSync(localizedLessonPath, originalLocalizedLesson, "utf8");
+  }
 });
 
 test("published track catalogs apply package-scoped translations used by recovered bulk uploads", async () => {
