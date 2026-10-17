@@ -1,6 +1,6 @@
 import { NextRequest } from "next/server";
 import { authorizeGithubActionsRun } from "@/lib/admin-content/github-actions-runner-auth";
-import { beginFinalization, markFailed, markPublished } from "@/lib/admin-content/upload-receipts";
+import { beginFinalization, FinalizationInProgressError, markFailed, markPublished } from "@/lib/admin-content/upload-receipts";
 import { PublicationBusyError, withPublicationLease } from "@/lib/admin-content/publication-lock";
 import { verifyLearnerVisibility } from "@/lib/admin-content/learner-readback";
 
@@ -102,7 +102,13 @@ export async function POST(request: NextRequest) {
     const upload = classified.upload;
     const identity = inferCurriculumPackageIdentity(upload.originalFilename, "en-US");
     const recoveryBatchId = createId("batch");
-    await beginFinalization({ uploadId: upload.uploadId, originalBatchId: classified.batchId, storagePath: upload.storagePath, originalFilename: upload.originalFilename, coordinate: classified.reconciliationKey }, recoveryBatchId, "recovery");
+    try {
+      await beginFinalization({ uploadId: upload.uploadId, originalBatchId: classified.batchId, storagePath: upload.storagePath, originalFilename: upload.originalFilename, coordinate: classified.reconciliationKey }, recoveryBatchId, "recovery");
+    } catch (error) {
+      // A live finalization owns this upload; recovering it now would overlap publication.
+      if (error instanceof FinalizationInProgressError) return Response.json({ success: false, inProgress: true, error: error.message, uploadId: upload.uploadId, retryAfterMs: error.retryAfterMs }, { status: 409, headers: { "Cache-Control": "private, no-store" } });
+      throw error;
+    }
     const createdBatch = await createIndependentUploadBatchFromStoredFiles(request, actor, {
       batchId: recoveryBatchId,
       batchName: `Recovered ${upload.originalFilename}`,

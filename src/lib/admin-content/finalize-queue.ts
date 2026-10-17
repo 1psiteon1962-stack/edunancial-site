@@ -32,7 +32,9 @@ function errorMessage(error: unknown): string {
  * their audit state before another finalization attempt.
  */
 function isAmbiguousFinalizeError(error: unknown): boolean {
-  return /HTTP\s+(408|504)\b|network error|failed to fetch|timeout|timed out|connection reset/iu.test(
+  // 409 = the server reports this upload is already being finalized by another
+  // request: never re-POST, reconcile through the status endpoint instead.
+  return /HTTP\s+(408|409|504)\b|network error|failed to fetch|timeout|timed out|connection reset/iu.test(
     errorMessage(error),
   );
 }
