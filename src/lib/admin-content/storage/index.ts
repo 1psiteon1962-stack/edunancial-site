@@ -41,7 +41,23 @@ class NetlifyBlobAdminContentStorage implements AdminContentStorage {
  async createIfAbsent(path:string,content:Buffer,type:string){const r=await this.store().set(path,new Blob([new Uint8Array(content)],{type}),{onlyIfNew:true});return r.modified;} async deleteIfVersion(path:string,expected:Buffer){const cur=await this.store().getWithMetadata(path,{type:"arrayBuffer"});if(!cur||!Buffer.from(cur.data).equals(expected))return false;const latest=await this.store().getWithMetadata(path,{type:"arrayBuffer"});if(!latest||latest.etag!==cur.etag)return false;await this.store().delete(path);return true;}
  async appendAuditEvent(event:AuditEvent){const ok=await this.updateBinary(AUDIT_FILE,(raw)=>{let current:AuditEvent[]=[];if(raw){try{current=JSON.parse(raw.toString("utf8")) as AuditEvent[];}catch{current=[];}}current.unshift(event);return Buffer.from(JSON.stringify(current.slice(0,1000),null,2),"utf8");});if(!ok)throw new Error("Unable to append admin upload audit event.");} async listAuditHistory(batchId?:string){const all=await this.json<AuditEvent[]>(AUDIT_FILE,[]);return batchId?all.filter(e=>e.batchId===batchId):all;}
  async createExport(p:ExportPackage,a:Buffer){await this.saveBinary(p.storagePath,a,"application/zip");await this.store().setJSON(`exports/${p.id}.json`,p);return p;} async getSignedUploadUrl(){return null;}
- async listWorkspaceEntries(){const r=await this.store().list();return r.blobs.map(b=>b.key);}
+ async listWorkspaceEntries(){
+  // Netlify returns paginated Blob listings. The first page is NOT a complete
+  // inventory; silently dropping later pages breaks recovery discovery.
+  const keys: string[] = [];
+  const seenCursors = new Set<string>();
+  let cursor: string | undefined;
+  do {
+    const page = await this.store().list(cursor ? { cursor } : undefined);
+    keys.push(...page.blobs.map((blob) => blob.key));
+    const next = page.cursor;
+    if (!next) break;
+    if (seenCursors.has(next)) throw new Error("Blob inventory pagination repeated a cursor; inventory incomplete");
+    seenCursors.add(next);
+    cursor = next;
+  } while (cursor);
+  return keys;
+ }
 }
 
 class GithubAdminContentStorage implements AdminContentStorage {
