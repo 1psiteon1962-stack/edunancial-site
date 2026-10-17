@@ -51,6 +51,8 @@
     "src/lib/curriculum/single-flight-cache.test.ts",
     "src/lib/curriculum/atomic-published-precedence.test.ts",
     "src/lib/curriculum/translation-export-route.test.ts",
+    "src/lib/curriculum/production-audit-request-selection.ts",
+    "src/lib/curriculum/production-audit-request-selection.test.ts",
     "src/lib/curriculum/access.ts",
     "src/lib/curriculum/access.test.ts",
     "src/lib/curriculum/membership-cookie.ts",
