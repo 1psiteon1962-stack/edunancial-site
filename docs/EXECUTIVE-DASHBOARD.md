@@ -8,6 +8,16 @@
 
 ---
 
+## Verified engineering checkpoint — 2026-10-17 03:58 UTC
+
+- **Production SHA:** `da9897669dfca73da6c3c14c0a7cb9746f80521c`; Netlify deploy `6ad2d57cdee36c05b869d273` is ready and reports the exact same SHA. This confirms deployment, NOT full learner curriculum recovery.
+- **Q1 incident:** Netlify edge logs show ten HTTP 504 responses for single-coordinate `/api/admin/curriculum/production-audit` calls from 03:39–03:56 UTC; observed median discovery stage approximately 32,130 ms. An application-side PASS log emitted after an edge 504 is not a successfully delivered audit response. Timeout remediation remains OPEN.
+- **PR #1273:** head `13035097e521761ff26fea15bd6dba60b9e55f53`, all five GitHub Actions successful and both Netlify preview statuses successful at the time of this checkpoint; still seven commits behind main. No review submissions found. The request-selection helper is not invoked by the API route in the inspected head; do not count it as complete or merge without resolving review/integration/production acceptance.
+- **Q2 preservation:** GitHub read-only evidence confirms substantive canonical `-001` and `-050` source Markdown at Level 1 for all eight tracks (16/16). Git source presence is NOT proof of Blob backup, translations, or learner visibility. Independent Blob backup and live coordinate matrix remain unverified.
+- **Q3:** #1274 merged as `52b0b910a57a3e3dc7cc0cd94a5f59f6bd289574` and is included in current main. A real uploader-to-learner recovery transaction is NOT verified.
+- **Write blocker:** A new Q1 audit gateway circuit-breaker implementation was tested locally (seven tests passed), but the GitHub source-file create operation was blocked by OpenAI safety checks. The separate branch created for this candidate has no committed implementation; no reattempt or alternate write path was used.
+- **Protected scope:** no lesson, translation, registry, Blob object, production database, billing, secret, or legal/consent changes performed in this checkpoint.
+
 ## Coding Tasks (Active Branches)
 
 | Branch | Owner | Status | PR # | Notes |
