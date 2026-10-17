@@ -1,6 +1,6 @@
 import { normalizeLanguageCode } from "./international/languages";
 
-const BETA_WINDOW_MS = 72 * 60 * 60 * 1000;
+const BETA_WINDOW_MS = 90 * 24 * 60 * 60 * 1000;
 
 export const BETA_INVITATIONS_STORAGE_KEY = "edunancial:beta-invitations";
 export const BETA_FEEDBACK_STORAGE_KEY = "edunancial:beta-feedback";
@@ -386,7 +386,7 @@ Instrucciones de canje:
 
 Términos importantes de la beta:
 - Su número de pase es de un solo uso, no transferible y está vinculado a ${approvedEmail}.
-- Su ventana de acceso beta de 72 horas comienza solo en el primer inicio de sesión exitoso después del canje válido.
+- Su ventana de acceso beta de 90 días comienza solo en el primer inicio de sesión exitoso después del canje válido.
 - El acceso beta no se renueva automáticamente, no genera cobro automático ni se convierte automáticamente en una membresía de pago.
 - Solicitamos encarecidamente sus comentarios antes de que termine su ventana.
 
@@ -412,7 +412,7 @@ Redemption instructions:
 
 Important beta terms:
 - Your pass number is single-use, non-transferable, and tied to ${approvedEmail}.
-- Your 72-hour beta access window begins only at your first successful login after valid redemption.
+- Your 90-day beta access window begins only at your first successful login after valid redemption.
 - Beta access does not auto-renew, auto-bill, or auto-convert into a paid membership.
 - We strongly request feedback before your window ends.
 
