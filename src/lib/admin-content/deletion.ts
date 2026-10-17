@@ -10,7 +10,14 @@ import { removePublishedLessonsForBatch } from "@/lib/curriculum/authoritative-p
 import { invalidateRegistryCache } from "@/lib/curriculum/reader";
 import { revalidatePublishedCurriculumRoutes } from "@/lib/curriculum/revalidate";
 
-const PROTECTED_WORKSPACE_PATHS = new Set(["audit.json"]);
+const PROTECTED_WORKSPACE_PATHS = new Set(["audit.json", "index.json"]);
+
+/** Persistent curriculum, receipts and recovery assets are not orphan clutter. */
+export const DURABLE_CURRICULUM_PREFIXES = ["published/", "receipts/", "uploads/", "locks/", "jobs/", "exports/"] as const;
+export function isDurableCurriculumPath(path: string): boolean {
+  const normalized = path.startsWith("/") ? path.slice(1) : path;
+  return PROTECTED_WORKSPACE_PATHS.has(normalized) || DURABLE_CURRICULUM_PREFIXES.some((prefix) => normalized.startsWith(prefix));
+}
 
 type DeleteAttempt = { path: string; ok: boolean; error?: string };
 
@@ -446,7 +453,7 @@ export async function scanWorkspaceOrphans(actor?: ActorContext) {
 
   const referenced = buildReferencedWorkspacePaths(batches);
   const workspaceEntries = (await storage.listWorkspaceEntries()).map(assertSafeWorkspacePath);
-  const orphanPaths = workspaceEntries.filter((entry) => !referenced.has(entry) && !PROTECTED_WORKSPACE_PATHS.has(entry));
+  const orphanPaths = workspaceEntries.filter((entry) => !referenced.has(entry) && !isDurableCurriculumPath(entry));
 
   if (actor) {
     await appendGlobalAuditEvent(
@@ -471,7 +478,7 @@ export async function scanWorkspaceOrphans(actor?: ActorContext) {
 }
 
 export async function deleteWorkspaceOrphans(paths: string[], actor: ActorContext) {
-  const safePaths = [...new Set(paths.map(assertSafeWorkspacePath))].filter((path) => !PROTECTED_WORKSPACE_PATHS.has(path));
+  const safePaths = [...new Set(paths.map(assertSafeWorkspacePath))].filter((path) => !isDurableCurriculumPath(path));
   assertDeleteLimit(safePaths);
   const storageOutcome = await deleteWorkspacePaths(safePaths);
 
@@ -535,21 +542,16 @@ export async function deleteFailedBatches(actor: ActorContext) {
   return result;
 }
 
-export function assertWorkspaceClearHasNoBatches(batchCount: number): void {
-  if (!Number.isSafeInteger(batchCount) || batchCount < 0) throw new Error("Invalid workspace batch count.");
-  if (batchCount > 0) throw new Error("Workspace clear refused: batch deletion may remove published curriculum. Use individually reviewed, authorized recovery procedures.");
-}
-
 export async function clearWorkspace(actor: ActorContext, confirmation: string) {
+  // This legacy path can remove published curriculum through batch deletion.
+  // Fail closed until safe cleanup is independently implemented and verified.
+  throw new Error("Workspace clearing is disabled to preserve published curriculum.");
   if (confirmation.trim() !== WORKSPACE_CLEAR_CONFIRMATION) {
     throw new Error("Workspace clear confirmation text does not match.");
   }
 
   const storage = getAdminContentStorage();
   const summaries = await storage.listBatches();
-  // Clearing batches invokes removePublishedLessonsForBatch. Never let a bulk
-  // workspace operation depublish curriculum; require independent recovery review.
-  assertWorkspaceClearHasNoBatches(summaries.length);
   const batchDeleteResult = await bulkDeleteBatches(
     summaries.map((summary) => summary.id),
     actor,
