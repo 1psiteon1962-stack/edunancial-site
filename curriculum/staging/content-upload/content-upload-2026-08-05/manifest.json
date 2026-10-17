@@ -1,0 +1,129 @@
+{
+  "batchId": "batch_a110bf26-2553-4753-83e2-818320bfdd1a",
+  "exportId": "export_batch_a110bf26-2553-4753-83e2-818320bfdd1a_1785893270212",
+  "uploadTimestamp": "2026-08-05T01:27:51.571Z",
+  "branch": "content/course-upload-20260805-012751-content-upload-2026-08-05",
+  "files": [
+    {
+      "sourceFilename": "blue-level-1-blue-l1-011.md",
+      "destinationPath": "content/courses/blue/level-1/en/blue-l1-001-025-blue-level-1-blue-l1-011.md",
+      "title": "BLUE-L1-001-025",
+      "track": "blue",
+      "level": "level-1",
+      "language": "en",
+      "region": null,
+      "membership": "courses",
+      "batchId": "batch_a110bf26-2553-4753-83e2-818320bfdd1a",
+      "uploadTimestamp": "2026-08-05T01:24:32.615Z",
+      "checksum": "sha256:883f2fa3b0e3010c5f3f878a8500e393e07675381890dcb6bb607cdc61464dc3",
+      "curriculumAssetId": null
+    },
+    {
+      "sourceFilename": "blue-level-1-blue-l1-024.md",
+      "destinationPath": "content/courses/blue/level-1/en/blue-l1-001-025-blue-level-1-blue-l1-024.md",
+      "title": "BLUE-L1-001-025",
+      "track": "blue",
+      "level": "level-1",
+      "language": "en",
+      "region": null,
+      "membership": "courses",
+      "batchId": "batch_a110bf26-2553-4753-83e2-818320bfdd1a",
+      "uploadTimestamp": "2026-08-05T01:25:31.070Z",
+      "checksum": "sha256:a6a0c6fd69ff920a00b7ee04035f177e810fd8c6f39efd1e4ae9290029fcc9c7",
+      "curriculumAssetId": null
+    },
+    {
+      "sourceFilename": "blue-level-1-blue-l1-015.md",
+      "destinationPath": "content/courses/blue/level-1/en/blue-l1-001-025-blue-level-1-blue-l1-015.md",
+      "title": "BLUE-L1-001-025",
+      "track": "blue",
+      "level": "level-1",
+      "language": "en",
+      "region": null,
+      "membership": "courses",
+      "batchId": "batch_a110bf26-2553-4753-83e2-818320bfdd1a",
+      "uploadTimestamp": "2026-08-05T01:25:41.232Z",
+      "checksum": "sha256:6ac1058adc334013274f3df44fe94ebf38893a13e4ad41ef69c91d1fb2ccb436",
+      "curriculumAssetId": null
+    },
+    {
+      "sourceFilename": "blue-level-1-blue-l1-025.md",
+      "destinationPath": "content/courses/blue/level-1/en/blue-l1-001-025-blue-level-1-blue-l1-025.md",
+      "title": "BLUE-L1-001-025",
+      "track": "blue",
+      "level": "level-1",
+      "language": "en",
+      "region": null,
+      "membership": "courses",
+      "batchId": "batch_a110bf26-2553-4753-83e2-818320bfdd1a",
+      "uploadTimestamp": "2026-08-05T01:25:49.978Z",
+      "checksum": "sha256:6ce5a95fde2bb689f4db171ca26b60ded737cf15c5ac7a260ba244586881a0d4",
+      "curriculumAssetId": null
+    },
+    {
+      "sourceFilename": "blue-level-1-blue-l1-023.md",
+      "destinationPath": "content/courses/blue/level-1/en/blue-l1-001-025-blue-level-1-blue-l1-023.md",
+      "title": "BLUE-L1-001-025",
+      "track": "blue",
+      "level": "level-1",
+      "language": "en",
+      "region": null,
+      "membership": "courses",
+      "batchId": "batch_a110bf26-2553-4753-83e2-818320bfdd1a",
+      "uploadTimestamp": "2026-08-05T01:25:59.370Z",
+      "checksum": "sha256:8b0c0fa0ea85f794bffe1d68b47bffcc67d6d8eb985cca27a7cf8ee829110f20",
+      "curriculumAssetId": null
+    },
+    {
+      "sourceFilename": "blue-level-1-blue-l1-011-025-verification.md",
+      "destinationPath": "content/courses/blue/level-1/en/blue-l1-001-025-blue-level-1-blue-l1-011-025-verification.md",
+      "title": "BLUE-L1-001-025",
+      "track": "blue",
+      "level": "level-1",
+      "language": "en",
+      "region": null,
+      "membership": "courses",
+      "batchId": "batch_a110bf26-2553-4753-83e2-818320bfdd1a",
+      "uploadTimestamp": "2026-08-05T01:26:11.283Z",
+      "checksum": "sha256:56202c2ee1c140d46c171aa64ee1b530ee358669a623f39f861d568b6f6e1d7c",
+      "curriculumAssetId": null
+    },
+    {
+      "sourceFilename": "blue-level-1-blue-l1-012.md",
+      "destinationPath": "content/courses/blue/level-1/en/blue-l1-001-025-blue-level-1-blue-l1-012.md",
+      "title": "BLUE-L1-001-025",
+      "track": "blue",
+      "level": "level-1",
+      "language": "en",
+      "region": null,
+      "membership": "courses",
+      "batchId": "batch_a110bf26-2553-4753-83e2-818320bfdd1a",
+      "uploadTimestamp": "2026-08-05T01:27:08.410Z",
+      "checksum": "sha256:4a839753caa2a04a3a9d830ff21ef97d9d2670d58db02a749e1fd62b59555d0b",
+      "curriculumAssetId": null
+    },
+    {
+      "sourceFilename": "blue-level-1-blue-l1-017.md",
+      "destinationPath": "content/courses/blue/level-1/en/blue-l1-001-025-blue-level-1-blue-l1-017.md",
+      "title": "BLUE-L1-001-025",
+      "track": "blue",
+      "level": "level-1",
+      "language": "en",
+      "region": null,
+      "membership": "courses",
+      "batchId": "batch_a110bf26-2553-4753-83e2-818320bfdd1a",
+      "uploadTimestamp": "2026-08-05T01:27:42.410Z",
+      "checksum": "sha256:2a643a695dc101cdaa056197c3a2c36928fce356be80d21c504cb28b1c3e415f",
+      "curriculumAssetId": null
+    }
+  ],
+  "validation": {
+    "success": true,
+    "warnings": [
+      "No curriculum-bound markdown files required validation."
+    ],
+    "errors": []
+  },
+  "registryUpdated": false,
+  "curriculumAssets": 0
+}
