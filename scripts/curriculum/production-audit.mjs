@@ -38,9 +38,32 @@ const list = (value) => (value ? String(value).split(",").map((x) => x.trim()).f
 const base = arg("base", process.env.EDUNANCIAL_BASE_URL ?? "https://edunancial.com").replace(/\/+$/u, "");
 const tracks = list(arg("tracks")) ?? TRACKS;
 const levels = (list(arg("levels")) ?? LEVELS).map(Number);
+// Reject unknown or malformed coordinate selections before hitting production.
+// An empty matrix or invalid level must never masquerade as a successful audit.
+if (!tracks.length || tracks.some((track) => !TRACKS.includes(track)) ||
+    !levels.length || levels.some((level) => !Number.isInteger(level) || !LEVELS.includes(level))) {
+  console.error("Invalid audit selection: --tracks must use known track codes and --levels must be integers 1-5.");
+  process.exit(2);
+}
+const explicitLocales = list(arg("locales"));
+if (process.argv.includes("--locales") && !explicitLocales) {
+  console.error("Invalid audit selection: --locales requires a nonempty comma-separated value.");
+  process.exit(2);
+}
+if (explicitLocales && (explicitLocales.length === 0 || explicitLocales.some((locale) => !/^[a-z]{2}(?:-[a-zA-Z0-9]+)*$/.test(locale)))) {
+  console.error("Invalid audit selection: --locales must contain locale codes.");
+  process.exit(2);
+}
 const outDir = arg("out", "reports/production-audit");
 // Limit concurrent production scans; preserve the full coordinate matrix.
-const concurrency = Number(arg("concurrency", "1"));
+const requestedConcurrency = Number(arg("concurrency", "1"));
+// Audit requests are expensive: reject unbounded/invalid parallel runs rather than
+// multiplying Blob reads and production timeouts through a CLI typo.
+if (!Number.isInteger(requestedConcurrency) || requestedConcurrency < 1 || requestedConcurrency > 3) {
+  console.error("Invalid --concurrency: use an integer from 1 to 3.");
+  process.exit(2);
+}
+const concurrency = requestedConcurrency;
 
 function headers() {
   const h = { accept: "application/json" };
@@ -55,7 +78,9 @@ function headers() {
 
 async function call(query, attempt = 0) {
   const url = `${base}/api/admin/curriculum/production-audit?${new URLSearchParams(query)}`;
-  const response = await fetch(url, { headers: headers() });
+  // Bound the client request to avoid indefinitely hanging CI audit workers.
+  // A timed-out coordinate is already recorded as FAIL by the caller.
+  const response = await fetch(url, { headers: headers(), signal: AbortSignal.timeout(45_000) });
   if (response.status === 401) throw new Error("401 Unauthorized — set EDUNANCIAL_ADMIN_COOKIE or run from the GitHub workflow.");
   if (!response.ok) {
     // Retrying 30-second gateway timeouts multiplies storage load without fixing them.
