@@ -192,10 +192,10 @@ export default function BetaTestersAdminClient() {
                     </button>
                     <button
                       type="button"
-                      onClick={() => updateInvitation(invitation.id, extendBetaInvitation(invitation, 72), "beta.invitation.extended")}
+                      onClick={() => updateInvitation(invitation.id, extendBetaInvitation(invitation, 90 * 24), "beta.invitation.extended")}
                       className="rounded-lg border border-blue-500/60 px-4 py-2 text-sm font-semibold text-blue-200 hover:bg-blue-500/10"
                     >
-                      Extend 72 Hours
+                      Extend 90 Days
                     </button>
                     <button
                       type="button"
