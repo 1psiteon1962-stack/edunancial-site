@@ -543,7 +543,7 @@ export async function deleteFailedBatches(actor: ActorContext) {
 }
 
 export async function clearWorkspace(actor: ActorContext, confirmation: string) {
-  if (confirmation.trim() !== WORKSPACE_CLEAR_CONFIRMATION) {
+  // Fail closed: this legacy path invokes bulkDeleteBatches -> deleteBatch ->\n  // removePublishedLessonsForBatch. Preserve live curriculum until a verified\n  // non-destructive workspace-only cleanup implementation replaces it.\n  throw new Error("Workspace clearing is disabled to preserve published curriculum.");\n  if (confirmation.trim() !== WORKSPACE_CLEAR_CONFIRMATION) {
     throw new Error("Workspace clear confirmation text does not match.");
   }
 
