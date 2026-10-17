@@ -22,6 +22,7 @@
  */
 import { mkdirSync, readFileSync, writeFileSync, existsSync } from "node:fs";
 import { join } from "node:path";
+import { validateCoordinateResponse } from "./audit-response-validation.mjs";
 
 const TRACKS = ["RED", "WHITE", "BLUE", "GREEN", "GOLD", "PURPLE", "ORANGE", "BLACK"];
 const LEVELS = [1, 2, 3, 4, 5];
@@ -112,8 +113,9 @@ async function main() {
       const job = jobs[cursor++];
       try {
         const response = await call({ tracks: job.track, levels: String(job.level), locales: job.locale });
+        const coordinate = validateCoordinateResponse(response, job);
         meta ??= response.meta;
-        results.push(...response.coordinates);
+        results.push(coordinate);
         process.stderr.write(".");
       } catch (error) {
         failedCalls++;
