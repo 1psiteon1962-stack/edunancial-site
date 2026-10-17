@@ -100,7 +100,8 @@ jobs:
             if [ "$live" = "${{ github.sha }}" ]; then echo "deploy live"; exit 0; fi
             echo "waiting for deploy ($live)"; sleep 30
           done
-          echo "::warning::Commit not confirmed live after 15 minutes; auditing current production."
+          echo "::error::Requested commit not confirmed live after 15 minutes; refuse to audit stale production as this commit."
+          exit 1
       - name: Audit every coordinate through the learner resolver
         env:
           GITHUB_TOKEN: ${{ github.token }}
