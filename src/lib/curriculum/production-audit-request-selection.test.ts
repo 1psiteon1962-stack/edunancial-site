@@ -62,3 +62,12 @@ test("requires live catalog membership rather than guesswork from locale syntax"
   assert.deepEqual(check("tracks=BLUE&levels=4&locales=es-419")?.locales, ["es-419"]);
   assert.equal(check("tracks=BLUE&levels=4&locales=es-ES"), null);
 });
+
+test("the production audit route enforces this validator (not a looser inline check)", async () => {
+  const { readFileSync } = await import("node:fs");
+  const { join } = await import("node:path");
+  const route = readFileSync(join(process.cwd(), "src", "app", "api", "admin", "curriculum", "production-audit", "route.ts"), "utf8");
+  assert.match(route, /parseProductionAuditSelection\(\s*params\s*,\s*auditLocales\(\)\s*\)/u);
+  assert.match(route, /if \(!selection\)[\s\S]{0,600}status: 400/u);
+  assert.doesNotMatch(route, /runProductionAudit\(\{\s*tracks:\s*list\(/u, "route must not audit raw, unvalidated query lists");
+});
