@@ -153,7 +153,7 @@ describe("admin-content deletion service", () => {
     );
     await assert.rejects(
       () => clearWorkspace({ email: "owner@example.com" }, "DELETE ALL WORKSPACE CONTENT"),
-      /disabled|preserve/i,
+      /refused|published curriculum/i,
     );
     const stats = await getWorkspaceMaintenanceStats();
     assert.equal(stats.totalBatches, 1);
