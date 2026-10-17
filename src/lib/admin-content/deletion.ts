@@ -15,7 +15,7 @@ const PROTECTED_WORKSPACE_PATHS = new Set(["audit.json", "index.json"]);
 /** Persistent curriculum, receipts and recovery assets are not orphan clutter. */
 export const DURABLE_CURRICULUM_PREFIXES = ["published/", "receipts/", "uploads/", "locks/", "jobs/", "exports/"] as const;
 export function isDurableCurriculumPath(path: string): boolean {
-  const normalized = path.replace(/^\\/+/u, "");
+  const normalized = path.startsWith("/") ? path.slice(1) : path;
   return PROTECTED_WORKSPACE_PATHS.has(normalized) || DURABLE_CURRICULUM_PREFIXES.some((prefix) => normalized.startsWith(prefix));
 }
 
