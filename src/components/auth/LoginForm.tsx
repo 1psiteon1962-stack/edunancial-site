@@ -28,7 +28,13 @@ export default function LoginForm() {
     const result = await login(email, password, betaPassNumber || undefined);
     setLoading(false);
     if (result.success) {
-      router.push("/dashboard");
+      // A code typed in the optional beta field is carried to /beta/redeem, where it is redeemed server-side.
+      let pendingBetaCode = betaPassNumber.trim();
+      try {
+        if (pendingBetaCode) window.sessionStorage.setItem("edunancial:pending-beta-code", pendingBetaCode);
+        else pendingBetaCode = window.sessionStorage.getItem("edunancial:pending-beta-code") ?? "";
+      } catch { /* ignore */ }
+      router.push(pendingBetaCode ? "/beta/redeem" : "/dashboard");
     } else {
       setError(result.error ?? t("login.error.failed"));
     }
