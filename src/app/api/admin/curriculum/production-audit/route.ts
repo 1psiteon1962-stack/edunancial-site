@@ -2,7 +2,8 @@ import { NextRequest, NextResponse } from "next/server";
 
 import { getAdminSession } from "@/lib/admin-content/auth";
 import { authorizeGithubActionsRun } from "@/lib/admin-content/github-actions-runner-auth";
-import { formatAuditLine, runProductionAudit } from "@/lib/curriculum/production-audit";
+import { auditLocales, formatAuditLine, runProductionAudit } from "@/lib/curriculum/production-audit";
+import { MAX_PRODUCTION_AUDIT_COORDINATES, parseProductionAuditSelection } from "@/lib/curriculum/production-audit-request-selection";
 
 export const runtime = "nodejs";
 export const dynamic = "force-dynamic";
@@ -30,16 +31,17 @@ async function authorized(request: NextRequest) {
   }
 }
 
-function list(value: string | null) {
-  return (value ?? "").split(",").map((entry) => entry.trim()).filter(Boolean);
-}
-
 export async function GET(request: NextRequest) {
   if (!(await authorized(request))) return NextResponse.json({ error: "Unauthorized" }, { status: 401 });
   const params = request.nextUrl.searchParams;
-  const tracks = list(params.get("tracks"));
-  const levels = list(params.get("levels")).map(Number).filter((level) => Number.isInteger(level));
-  const locales = list(params.get("locales"));
+  const selection = parseProductionAuditSelection(params, auditLocales());
+  if (!selection) {
+    return NextResponse.json(
+      { error: "AUDIT_SELECTION_INVALID", detail: `Specify known tracks, levels (1-5) and supported locales without duplicates; maximum ${MAX_PRODUCTION_AUDIT_COORDINATES} coordinates per request.` },
+      { status: 400, headers: { "cache-control": "no-store" } },
+    );
+  }
+  const { tracks, levels, locales } = selection;
   try {
     const result = await runProductionAudit({ tracks, levels, locales });
     if (params.get("format") === "text") {
