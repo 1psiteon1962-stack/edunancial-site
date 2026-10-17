@@ -1,13 +1,23 @@
 import assert from "node:assert/strict";
 import test from "node:test";
-import { assertWorkspaceClearHasNoBatches } from "@/lib/admin-content/deletion";
+import { isDurableCurriculumPath } from "@/lib/admin-content/deletion";
 
-test("workspace clear refuses any batch before publication state is touched", () => {
-  for (const count of [1, 2, 50]) assert.throws(() => assertWorkspaceClearHasNoBatches(count), /may remove published curriculum/);
+test("published curriculum and historical uploads cannot be cleanup orphans", () => {
+  for (const key of [
+    "published/atomic/lessons/RED-L3-001.json",
+    "published/atomic/translation-packages/RED-L3-ht.json",
+    "uploads/courses/legacy.zip",
+    "receipts/upload.json",
+    "locks/publishing",
+    "jobs/recover.json",
+    "exports/archive.zip",
+    "index.json",
+    "audit.json",
+  ]) assert.equal(isDurableCurriculumPath(key), true, key);
 });
-test("workspace clear permits empty batch index", () => {
-  assert.doesNotThrow(() => assertWorkspaceClearHasNoBatches(0));
-});
-test("workspace clear rejects invalid counts closed", () => {
-  for (const count of [-1, NaN, Infinity, 1.5]) assert.throws(() => assertWorkspaceClearHasNoBatches(count), /Invalid workspace batch count/);
+
+test("unrelated scratch files are not classified as durable curriculum", () => {
+  for (const key of ["scratch/temp.txt", "published-incomplete/record.json", "exports-old/file.zip"]) {
+    assert.equal(isDurableCurriculumPath(key), false, key);
+  }
 });
