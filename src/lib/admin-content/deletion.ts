@@ -535,6 +535,11 @@ export async function deleteFailedBatches(actor: ActorContext) {
   return result;
 }
 
+export function assertWorkspaceClearHasNoBatches(batchCount: number): void {
+  if (!Number.isSafeInteger(batchCount) || batchCount < 0) throw new Error("Invalid workspace batch count.");
+  if (batchCount > 0) throw new Error("Workspace clear refused: batch deletion may remove published curriculum. Use individually reviewed, authorized recovery procedures.");
+}
+
 export async function clearWorkspace(actor: ActorContext, confirmation: string) {
   if (confirmation.trim() !== WORKSPACE_CLEAR_CONFIRMATION) {
     throw new Error("Workspace clear confirmation text does not match.");
@@ -542,6 +547,9 @@ export async function clearWorkspace(actor: ActorContext, confirmation: string) 
 
   const storage = getAdminContentStorage();
   const summaries = await storage.listBatches();
+  // Clearing batches invokes removePublishedLessonsForBatch. Never let a bulk
+  // workspace operation depublish curriculum; require independent recovery review.
+  assertWorkspaceClearHasNoBatches(summaries.length);
   const batchDeleteResult = await bulkDeleteBatches(
     summaries.map((summary) => summary.id),
     actor,
