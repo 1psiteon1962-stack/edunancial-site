@@ -132,15 +132,64 @@ function localeTokens(locale: string): string[] {
 type TranslationEntry = { locale: string; translation: PublishedLessonTranslation };
 let committedIndex: Map<string, TranslationEntry[]> | null = null;
 
-function bundledTranslationLookup(lessonId: string, languageOrLocale: string): PublishedLessonTranslation | undefined {
+/**
+ * PERFORMANCE INDEX — selection semantics are unchanged.
+ *
+ * Every lookup previously lower-cased and re-normalized all ~9,000 manifest
+ * paths, for every lesson and every fallback locale. Learner discovery calls
+ * this once per lesson, so a single level page cost seconds of CPU and pushed
+ * production audits past the 26s gateway deadline (HTTP 504).
+ *
+ * Records are grouped by their "-l<level>-<nnn>" token. Any path containing a
+ * lesson id necessarily contains that id's token, so the candidate list is a
+ * superset of the old matches; the original `includes(idNeedle)` and locale
+ * predicates are still applied, in original manifest order, so the same
+ * record wins. Ids without a token fall back to the original full scan.
+ */
+type IndexedRuntimeRecord = { record: RuntimeContentRecord; normalizedPath: string };
+const LESSON_TOKEN = /-l\d+-\d{3}/gu;
+let runtimeRecordsByToken: Map<string, IndexedRuntimeRecord[]> | null = null;
+let allIndexedRuntimeRecords: IndexedRuntimeRecord[] | null = null;
+
+function indexedRuntimeRecords(): { byToken: Map<string, IndexedRuntimeRecord[]>; all: IndexedRuntimeRecord[] } {
+  if (runtimeRecordsByToken && allIndexedRuntimeRecords) return { byToken: runtimeRecordsByToken, all: allIndexedRuntimeRecords };
+  const byToken = new Map<string, IndexedRuntimeRecord[]>();
+  const all: IndexedRuntimeRecord[] = [];
+  for (const record of getCurriculumRuntimeContent()) {
+    const entry = { record, normalizedPath: record.path.toLowerCase().replaceAll("_", "-") };
+    all.push(entry);
+    for (const token of new Set(entry.normalizedPath.match(LESSON_TOKEN) ?? [])) {
+      const list = byToken.get(token) ?? [];
+      list.push(entry);
+      byToken.set(token, list);
+    }
+  }
+  runtimeRecordsByToken = byToken;
+  allIndexedRuntimeRecords = all;
+  return { byToken, all };
+}
+
+function runtimeCandidatesFor(idNeedle: string): IndexedRuntimeRecord[] {
+  const { byToken, all } = indexedRuntimeRecords();
+  const token = idNeedle.match(/-l\d+-\d{3}/u)?.[0];
+  if (!token) return all;
+  return byToken.get(token) ?? [];
+}
+
+// Committed translations are immutable for the life of a deployment, so a
+// resolved lookup (including "none") can be shared by every later request.
+const COMMITTED_LOOKUP_MEMO_LIMIT = 50_000;
+const committedLookupMemo = new Map<string, PublishedLessonTranslation | null>();
+
+function bundledTranslationLookup(lessonId: string, languageOrLocale: string, candidatesOverride?: IndexedRuntimeRecord[]): PublishedLessonTranslation | undefined {
   const requested = resolveCurriculumLocale(languageOrLocale);
   const idNeedle = lessonId.trim().toLowerCase();
+  const candidates = candidatesOverride ?? runtimeCandidatesFor(idNeedle);
   for (const candidateLocale of getCurriculumLocaleFallbackChain(requested)) {
     const normalized = resolveCurriculumLocale(candidateLocale);
     if (normalized === "en" || normalized === "en-US") break;
     const tokens = localeTokens(normalized).map((token) => token.toLowerCase().replaceAll("_", "-"));
-    for (const record of getCurriculumRuntimeContent()) {
-      const recordPath = record.path.toLowerCase().replaceAll("_", "-");
+    for (const { record, normalizedPath: recordPath } of candidates) {
       if (!recordPath.includes(idNeedle) || !tokens.some((token) =>
         recordPath.includes(`/${token}/`) ||
         recordPath.endsWith(`.${token}.md`) ||
@@ -265,6 +314,15 @@ function localeMatchesRequested(entryLocale: string, requestedLocale: string): b
 export function getCommittedLessonTranslation(lessonId: string, languageOrLocale: string): PublishedLessonTranslation | undefined {
   const requested = resolveCurriculumLocale(languageOrLocale);
   if (requested === "en" || requested === "en-US") return undefined;
+  const memoKey = `${lessonId.trim().toUpperCase()}::${requested}`;
+  if (committedLookupMemo.has(memoKey)) return committedLookupMemo.get(memoKey) ?? undefined;
+  const resolved = resolveCommittedLessonTranslation(lessonId, requested);
+  if (committedLookupMemo.size >= COMMITTED_LOOKUP_MEMO_LIMIT) committedLookupMemo.clear();
+  committedLookupMemo.set(memoKey, resolved ?? null);
+  return resolved;
+}
+
+function resolveCommittedLessonTranslation(lessonId: string, requested: string): PublishedLessonTranslation | undefined {
   const bundled = bundledTranslationLookup(lessonId, requested);
   if (bundled) return bundled;
   const direct = directTranslationLookup(lessonId, requested);
@@ -283,6 +341,21 @@ export function getCommittedLessonTranslation(lessonId: string, languageOrLocale
   return undefined;
 }
 
+/** Test-only: replace the runtime manifest with fixture records. */
+export function setCurriculumRuntimeContentForTests(records: readonly RuntimeContentRecord[]): void {
+  resetCommittedTranslationIndexForTests();
+  runtimeContent = records;
+}
+
+/** Test-only: the bundled lookup with the index (default) or the original full scan. */
+export function bundledTranslationLookupForTests(lessonId: string, locale: string, mode: "indexed" | "full-scan" = "indexed"): PublishedLessonTranslation | undefined {
+  return bundledTranslationLookup(lessonId, locale, mode === "full-scan" ? indexedRuntimeRecords().all : undefined);
+}
+
 export function resetCommittedTranslationIndexForTests(): void {
   committedIndex = null;
+  runtimeContent = null;
+  runtimeRecordsByToken = null;
+  allIndexedRuntimeRecords = null;
+  committedLookupMemo.clear();
 }
