@@ -26,22 +26,24 @@ export default function BetaTermsPage() {
             <h2 className="text-3xl font-black text-white">Invitation Only</h2>
             <p className="mt-4 leading-8">
               Beta Tester access is personal, invitation only, single-use, non-transferable, and
-              tied to the approved email address shown in the invitation email.
+              associated with the account that successfully redeems the code. Older email-restricted beta invitations may have separate eligibility requirements.
             </p>
           </section>
 
           <section>
-            <h2 className="text-3xl font-black text-white">72-Hour Access Window</h2>
+            <h2 className="text-3xl font-black text-white">90-Day Access Window</h2>
             <p className="mt-4 leading-8">
-              The 72-hour beta period begins only on the first successful login after valid pass
-              number redemption. It does not begin when the invitation is created or sent.
+              For a 90-day Alpha/Beta access code, the 90-day period begins when the code is
+              successfully redeemed, not when it is generated or sent. Older beta invitations
+              may have different terms; check the invitation you received.
             </p>
           </section>
 
           <section>
             <h2 className="text-3xl font-black text-white">Expiration and Revocation</h2>
             <p className="mt-4 leading-8">
-              Beta access may be revoked at any time. When beta access expires, Edunancial preserves
+              Beta access may be revoked at any time. A 90-day Alpha/Beta code does not require
+              a credit card, create a paid subscription, or result in automatic charges. When beta access expires, Edunancial preserves
               your account, progress, and feedback, but beta-only premium access ends and does not
               auto-convert to a paid membership.
             </p>
