@@ -35,3 +35,14 @@ test("Q2 inventory includes every committed locale with source SHA-256 without c
     rmSync(root, { recursive: true, force: true });
   }
 });
+
+test("Q2 inventory fails closed when curriculum source is missing", () => {
+  const root = mkdtempSync(join(tmpdir(), "edunancial-missing-curriculum-"));
+  try {
+    const result = spawnSync(process.execPath, [script], { cwd: root, encoding: "utf8" });
+    assert.notEqual(result.status, 0, "missing curriculum must never yield an empty successful inventory");
+    assert.equal(result.stdout.includes("Git curriculum inventory:"), false);
+  } finally {
+    rmSync(root, { recursive: true, force: true });
+  }
+});
