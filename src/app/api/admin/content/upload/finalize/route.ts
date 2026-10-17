@@ -11,7 +11,7 @@ import { autoPublishTrustedLocalizedLevel1Batch, isTrustedLocalizedLevel1Identit
 import { parseUploadConfig } from "@/lib/admin-content/upload-intake";
 import { recordUploadOperation } from "@/lib/admin-content/upload-operations";
 import { createId } from "@/lib/admin-content/utils";
-import { beginFinalization, getUploadReceipt, markFailed, markPublished, markStoredForReview } from "@/lib/admin-content/upload-receipts";
+import { beginFinalization, FinalizationInProgressError, getUploadReceipt, markFailed, markPublished, markStoredForReview } from "@/lib/admin-content/upload-receipts";
 import { PublicationBusyError, withPublicationLease } from "@/lib/admin-content/publication-lock";
 import { recordCurriculumUpload, transitionCurriculumUpload } from "@/lib/admin-content/neon-upload-state";
 import { queueNeonGitExport } from "@/lib/curriculum/neon-published-store";
@@ -150,6 +150,14 @@ export async function POST(request: NextRequest) {
     return Response.json({ success: true, batch, batches: [batch], receipt, trustedLocalization, trustedCanonicalPublication, githubPublication, githubPublicationError, githubPublicationPending, canonicalPublicationStatus: githubPublication ? "PR_OPEN_PENDING_MERGE_DEPLOY" : githubPublicationPending ? "GITHUB_EXPORT_PENDING" : "NOT_REQUIRED", publicationDeferred: false, finalizedCount: 1, skippedCount: trustedLocalization.skippedExisting, failures: [] }, { status: 201, headers: { "Cache-Control": "private, no-store, max-age=0" } });
   } catch (error) {
     const err = error as Error;
+    if (error instanceof FinalizationInProgressError) {
+      // Another request owns this upload right now. Do NOT mark it failed and do
+      // NOT start a second publication; the caller reconciles via GET status.
+      return Response.json(
+        { success: false, error: err.message, reason: err.name, status: 409, inProgress: true, batchId, uploadId: upload?.uploadId ?? null, uploadReachedStorage: true, retryable: false, retryAfterMs: error.retryAfterMs },
+        { status: 409, headers: { "Cache-Control": "private, no-store, max-age=0", "Retry-After": String(Math.ceil(error.retryAfterMs / 1000)) } },
+      );
+    }
     try { if (upload?.uploadId) await markFailed(upload.uploadId, err.message, true); } catch (receiptError) { console.error("[finalize] unable to persist failure receipt", receiptError); }
     try { await recordUploadOperation({ batchId, uploadId: upload?.uploadId, phase: "FINALIZE", status: "FAILED", storagePath: upload?.storagePath, fileName: upload?.originalFilename, fileSize: upload?.sizeBytes, errorCode: err.name, errorMessage: err.message, metadata: { mode: "single-package-request" } }); } catch (auditError) { console.error("[finalize] unable to persist failure audit", auditError); }
     const busy = error instanceof PublicationBusyError;
