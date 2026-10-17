@@ -12,11 +12,37 @@ export type UploadReceipt={
 };
 const pathFor=(id:string)=>`receipts/${id}.json`;
 export async function getUploadReceipt(uploadId:string):Promise<UploadReceipt|null>{const raw=await getAdminContentStorage().readBinary(pathFor(uploadId));if(!raw)return null;try{return JSON.parse(raw.toString("utf8")) as UploadReceipt;}catch{return null;}}
+/**
+ * An attempt that is still FINALIZING must not be overlapped by a retry.
+ * Ambiguous HTTP 500/502/503 responses are retried automatically by the
+ * uploader and by recovery; without this guard both attempts passed the
+ * "already PUBLISHED?" check and each created its own review batch, lesson
+ * write and Git export. A FINALIZING claim older than the longest possible
+ * invocation (background recovery functions may run up to 15 minutes) is
+ * treated as abandoned so a crashed attempt can never strand an upload.
+ */
+export const FINALIZING_CLAIM_STALE_MS = 16 * 60_000;
+export class FinalizationInProgressError extends Error {
+ retryAfterMs:number;
+ constructor(uploadId:string,retryAfterMs:number){super(`Upload ${uploadId} is already being finalized by another request; its outcome will be reported by the status endpoint.`);this.name="FinalizationInProgressError";this.retryAfterMs=Math.max(1_000,retryAfterMs);}
+}
+export function finalizingClaimRemainingMs(receipt:Pick<UploadReceipt,"state"|"startedAt">|null|undefined,now=Date.now()):number{
+ if(receipt?.state!=="FINALIZING"||!receipt.startedAt)return 0;
+ const started=new Date(receipt.startedAt).getTime();
+ if(!Number.isFinite(started))return 0;
+ return Math.max(0,started+FINALIZING_CLAIM_STALE_MS-now);
+}
 export async function beginFinalization(identity:Pick<UploadReceipt,"uploadId"|"originalBatchId"|"storagePath"|"originalFilename"|"coordinate">,reviewBatchId:string,source:"finalize"|"recovery"):Promise<UploadReceipt|null>{
- return updateJsonCas<UploadReceipt>(pathFor(identity.uploadId),(current)=>{
+ let inFlightRemainingMs=0;
+ const result=await updateJsonCas<UploadReceipt>(pathFor(identity.uploadId),(current)=>{
   if(current?.state==="PUBLISHED")return current;
+  // Checked inside the compare-and-swap so two concurrent claims cannot both win.
+  inFlightRemainingMs=finalizingClaimRemainingMs(current);
+  if(inFlightRemainingMs>0)return null;
   const now=new Date().toISOString();return{...(current??{...identity,state:"STORED",attempts:0,startedAt:null,publishedAt:null,updatedAt:now,reviewBatchId:null,retryable:true,lastError:null,recoveredWithoutReupload:false,verification:null,githubExport:{state:"NOT_REQUIRED",attempts:0,branch:null,pullRequestUrl:null,lastError:null}}),state:"FINALIZING",attempts:(current?.attempts??0)+1,startedAt:now,updatedAt:now,reviewBatchId,retryable:true,lastError:null,recoveredWithoutReupload:source==="recovery"||current?.recoveredWithoutReupload===true};
  },"Begin durable upload finalization");
+ if(inFlightRemainingMs>0)throw new FinalizationInProgressError(identity.uploadId,inFlightRemainingMs);
+ return result;
 }
 export async function markPublished(uploadId:string,input:{reviewBatchId:string;verification:{learnerVisible:boolean;detail:string;checkedLessons?:number;checkedAt?:string}|null;githubExportRequired:boolean;recoveredWithoutReupload:boolean}):Promise<UploadReceipt>{
  if(input.verification?.learnerVisible!==true)throw new Error(`Refusing PUBLISHED for ${uploadId}: learner read-back did not pass (${input.verification?.detail??"no verification"}).`);
