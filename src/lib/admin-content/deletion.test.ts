@@ -139,23 +139,26 @@ describe("admin-content deletion service", () => {
     assert.equal(await storage.readBinary(batch.uploads[0]!.storagePath), null);
   });
 
-  test("clear workspace requires typed confirmation and leaves clean zero state", async () => {
+  test("workspace clear refuses destructive cleanup and preserves original uploads", async () => {
     const formData = makeFormData();
     formData.append("files", new File([Buffer.from("lesson")], "lesson.md", { type: "text/markdown" }));
-    await createUploadBatch(makeRequest(), { email: "owner@example.com" }, formData);
+    const batch = await createUploadBatch(makeRequest(), { email: "owner@example.com" }, formData);
+    const storage = getAdminContentStorage();
+    const before = await storage.readBinary(batch.uploads[0]!.storagePath);
+    assert(before);
 
     await assert.rejects(
       () => clearWorkspace({ email: "owner@example.com" }, "WRONG"),
       /confirmation text does not match/,
     );
-
-    await clearWorkspace({ email: "owner@example.com" }, "DELETE ALL WORKSPACE CONTENT");
+    await assert.rejects(
+      () => clearWorkspace({ email: "owner@example.com" }, "DELETE ALL WORKSPACE CONTENT"),
+      /disabled|preserve/i,
+    );
     const stats = await getWorkspaceMaintenanceStats();
-    assert.equal(stats.totalBatches, 0);
-    assert.equal(stats.totalFiles, 0);
-    assert.equal(stats.pendingFiles, 0);
-    assert.equal(stats.approvedFiles, 0);
-    assert.equal(stats.conflicts, 0);
+    assert.equal(stats.totalBatches, 1);
+    assert.equal(stats.totalFiles, 1);
+    assert.deepEqual(await storage.readBinary(batch.uploads[0]!.storagePath), before);
   });
 
   test("deleting a batch also removes its published curriculum from the public source", async () => {
