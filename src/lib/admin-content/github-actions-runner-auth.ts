@@ -7,6 +7,7 @@ export const GITHUB_RUNNER_WORKFLOWS = {
   productionAudit: ".github/workflows/production-curriculum-audit.yml",
   githubExport: ".github/workflows/curriculum-github-export.yml",
   packageRecovery: ".github/workflows/one-time-package-recovery.yml",
+  curriculumArchive: ".github/workflows/curriculum-archive.yml",
 } as const;
 
 /**
