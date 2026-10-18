@@ -22,7 +22,7 @@ function fakeProduction(deployCommit) {
       coordinates: [{
         track, level, locale, expectedLessonCount: 50, discoveredLessonCount: 50, retrievableLessonCount: 50,
         englishFallbackLessonCount: 0, missingLessonIDs: [], englishFallbackLessonIDs: [],
-        firstLessonRetrievable: true, lastLessonRetrievable: true, runtimeStatus: "PASS", failures: [], source: {},
+        firstLessonRetrievable: true, lastLessonRetrievable: true, runtimeStatus: "PASS", failures: [], source: { git: 50 },
       }],
     }));
   });
