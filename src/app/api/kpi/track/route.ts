@@ -76,11 +76,14 @@ export async function POST(request: Request) {
       metadata: safeMetadata,
     };
 
-    await insertKpiEvent(row);
+    const outcome = await insertKpiEvent(row);
+    // 202 when the event was durably spooled for replay instead of written to a database.
+    const queued = outcome.stored === "spool";
+    const status = queued ? 202 : 200;
 
-    logger.info("kpi.track.persisted", { requestId, eventName: rawName });
-    const response = NextResponse.json({ success: true, requestId });
-    recordRequestMetric({ method: request.method, route: "/api/kpi/track", status: 200, durationMs: Date.now() - start });
+    logger.info("kpi.track.persisted", { requestId, eventName: rawName, store: outcome.stored });
+    const response = NextResponse.json(queued ? { success: true, queued: true, requestId } : { success: true, requestId }, { status });
+    recordRequestMetric({ method: request.method, route: "/api/kpi/track", status, durationMs: Date.now() - start });
     return attachRequestHeaders(response, requestId);
   } catch (error) {
     logStructuredError(error, { ...getRequestContext(request, requestId), route: "/api/kpi/track" });
