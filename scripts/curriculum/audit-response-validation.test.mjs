@@ -111,7 +111,7 @@ test("rejects a middle-lesson loss that falsely marks the first lesson unavailab
 
 test("accepts a middle-lesson loss with both endpoints retrievable", () => {
   const ok = { ...oneMissing(), missingLessonIDs: ["RED-L1-025"], lastLessonRetrievable: true,
-    firstLessonRetrievable: true, failures: [{ lessonId: "RED-L1-025" }] };
+    firstLessonRetrievable: true, failures: [{ lessonId: "RED-L1-025", disappearsAt: "not retrievable", layers: layerEvidence() }] };
   assert.deepEqual(validateCoordinateResponse(response(ok), job), ok);
 });
 
