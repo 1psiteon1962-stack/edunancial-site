@@ -22,6 +22,7 @@ import { getRuntimePublishedLesson, getRuntimePublishedTrack } from "@/lib/curri
 import { readTranslationPackageForLesson, readTranslationPackagesForLocale, sameLocale } from "@/lib/curriculum/translation-package-store";
 import { LANGUAGE_CATALOG } from "@/lib/international/languages";
 import { getNeonSql } from "@/lib/db/neon";
+import { resolveDeployCommit } from "@/lib/deployment/build-commit";
 
 export const AUDIT_TRACKS = ["RED", "WHITE", "BLUE", "GREEN", "GOLD", "PURPLE", "ORANGE", "BLACK"] as const;
 export const AUDIT_LEVELS = [1, 2, 3, 4, 5] as const;
@@ -245,7 +246,8 @@ export async function runProductionAudit(input: { tracks?: string[]; levels?: nu
   return {
     meta: {
       generatedAt: new Date().toISOString(),
-      deployCommit: process.env.COMMIT_REF ?? null,
+      // Build-embedded identity: COMMIT_REF alone is empty inside deployed functions.
+      deployCommit: resolveDeployCommit(),
       curriculumSource: process.env.EDUNANCIAL_CURRICULUM_SOURCE ?? "(unset: git + atomic store)",
       supportedLocales: auditLocales(),
       atomic: getLastAtomicReadDiagnostics(),
