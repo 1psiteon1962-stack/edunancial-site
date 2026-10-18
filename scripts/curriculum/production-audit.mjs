@@ -42,6 +42,23 @@ try {
 }
 const { base, tracks, levels, out: outDir, concurrency } = options;
 
+// Stale-deploy guard: when the workflow knows which commit must be live (push runs),
+// every response must come from exactly that deployment. A deploy that changes or
+// rolls back mid-run turns the affected coordinates into FAIL instead of passing
+// on code that was never the commit being verified.
+const EXPECTED_DEPLOY_SHA = process.env.EXPECTED_DEPLOY_SHA?.trim().toLowerCase() || null;
+if (EXPECTED_DEPLOY_SHA && !/^[0-9a-f]{40}$/.test(EXPECTED_DEPLOY_SHA)) {
+  console.error("Invalid arguments: EXPECTED_DEPLOY_SHA must be a full 40-character commit SHA.");
+  process.exit(2);
+}
+function assertExpectedDeployment(response) {
+  if (!EXPECTED_DEPLOY_SHA) return;
+  const served = response?.meta?.deployCommit ?? null;
+  if (served !== EXPECTED_DEPLOY_SHA) {
+    throw new Error(`stale deployment: production served commit ${served ?? "unknown"}, expected ${EXPECTED_DEPLOY_SHA}`);
+  }
+}
+
 // GitHub Actions OIDC: credentials go ONLY to the production origin, and a fresh
 // short-lived token is requested well before expiry so multi-hour audits keep working.
 const OIDC_AUDIENCE = process.env.EDUNANCIAL_GITHUB_OIDC_AUDIENCE || "https://edunancial.com/api/admin";
@@ -97,6 +114,7 @@ async function main() {
   let locales = options.locales;
   if (!locales) {
     const probe = await call({ tracks: "RED", levels: "1", locales: "en-US" });
+    assertExpectedDeployment(probe);
     locales = probe.meta.supportedLocales ?? [];
     locales = ["en-US", ...locales.filter((l) => l !== "en-US")];
     if (locales.length < 2) throw new Error("Could not derive the locale catalog from production; pass --locales explicitly.");
@@ -115,6 +133,7 @@ async function main() {
       try {
         const response = await call({ tracks: job.track, levels: String(job.level), locales: job.locale });
         const coordinate = validateCoordinateResponse(response, job);
+        assertExpectedDeployment(response);
         meta ??= response.meta;
         results.push(coordinate);
         process.stderr.write(".");

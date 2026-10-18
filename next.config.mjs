@@ -41,6 +41,13 @@ const nextConfig = {
   reactStrictMode: true,
   poweredByHeader: false,
 
+  // Netlify COMMIT_REF exists at build time but may not be exposed to the
+  // runtime function. Embed this non-secret deployment identity so the
+  // curriculum audit can verify the exact published revision, not guess.
+  env: {
+    EDUNANCIAL_BUILD_COMMIT_SHA: process.env.COMMIT_REF || process.env.GITHUB_SHA || "",
+  },
+
   // Curriculum is repository-backed and read dynamically. Scope tracing to
   // routes that actually read curriculum data instead of attaching it globally.
   outputFileTracingIncludes: Object.fromEntries(
