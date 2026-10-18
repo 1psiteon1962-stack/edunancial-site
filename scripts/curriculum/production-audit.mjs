@@ -8,9 +8,13 @@
  *   - <out>/level1-matrix.txt     L1 locale × track grid of retrievable counts
  *   - <out>/audit-full.json       per-lesson layer diagnostics (where each lesson disappears)
  *
- * Ratchet (durability guard): curriculum/verification/production-baseline.json
- * lists coordinates that have passed before. Any baseline coordinate that no
- * longer passes exits 1 — previously valid curriculum may never silently vanish.
+ * Protected floor (durability guard): curriculum/verification/production-baseline.json
+ * lists coordinates proven PASS in production. Exit 1 when any floor coordinate
+ * no longer passes, when any coordinate is uncomputable, or when the audit is empty.
+ * Coordinates not yet on the floor are listed in not-yet-available.txt (content
+ * still to be written or recovered) and do not fail the run. With no floor file,
+ * every FAIL still fails the run. Newly passing coordinates are written to
+ * proposed-baseline.json; the workflow opens a PR to raise the floor (never lowers).
  *   --update-baseline   ADD newly passing coordinates (never removes any).
  *
  * Auth (one of):
@@ -27,6 +31,7 @@ import { validateCoordinateResponse } from "./audit-response-validation.mjs";
 import { AUDIT_TRACKS, AUDIT_USAGE, AuditArgsError, parseAuditArgs } from "./production-audit-args.mjs";
 
 const BASELINE = "curriculum/verification/production-baseline.json";
+const BASELINE_NOTE = "Protected floor: coordinates proven PASS in production. Only ever grows; removal requires curriculum-removals.json approval.";
 const TRACKS = AUDIT_TRACKS;
 
 // Parse strictly before ANY network call: unknown, duplicated, valueless or
@@ -207,6 +212,12 @@ async function main() {
   const passing = new Set(results.filter((r) => r.runtimeStatus === "PASS").map(key));
   const audited = new Set(results.map(key));
   const regressions = baseline.coordinates.filter((c) => audited.has(c) && !passing.has(c));
+  // Protected floor (owner decision 2026-10-18): coordinates on the floor must
+  // keep passing. Coordinates not yet on the floor are reported as "not yet
+  // available" (content still to be written or recovered), not as outages.
+  const floor = new Set(baseline.coordinates);
+  const newlyPassing = [...passing].filter((c) => !floor.has(c)).sort();
+  const notYetAvailable = results.filter((r) => r.runtimeStatus !== "PASS" && !r.auditError && !floor.has(key(r))).map(key).sort();
 
   mkdirSync(outDir, { recursive: true });
   const header = [
@@ -214,6 +225,7 @@ async function main() {
     `# base=${base} generated=${meta?.generatedAt ?? new Date().toISOString()} commit=${meta?.deployCommit ?? "unknown"} source=${meta?.curriculumSource ?? "unknown"}`,
     `# ${partial ? "PARTIAL RUN (cut off) — " : ""}coordinates=${results.length} PASS=${passing.size} FAIL=${results.length - passing.size} uncomputable=${failedCalls}`,
     `# baseline regressions=${regressions.length}${regressions.length ? ` [${regressions.join(", ")}]` : ""}`,
+    `# protected floor=${baseline.coordinates.length} newly passing=${newlyPassing.length} not yet available=${notYetAvailable.length}`,
   ];
   writeFileSync(join(outDir, "audit-matrix.txt"), [...header, ...results.map(line)].join("\n") + "\n");
   writeFileSync(join(outDir, "level1-matrix.txt"), [`# Level 1 — production-retrievable lessons in the learner's own locale (0-50)`, ...grid].join("\n") + "\n");
@@ -221,6 +233,11 @@ async function main() {
   console.log([...header, "", ...grid].join("\n"));
   if (process.env.GITHUB_ACTIONS === "true") emitActionsAnnotations(header, results, locales);
 
+    writeFileSync(join(outDir, "not-yet-available.txt"), [`# Coordinates not on the protected floor and not yet fully available (${notYetAvailable.length})`, ...notYetAvailable].join("\n") + "\n");
+    if (newlyPassing.length) {
+      // Proposed raised floor: existing floor plus everything that now passes. Never removes.
+      writeFileSync(join(outDir, "proposed-baseline.json"), JSON.stringify({ _note: BASELINE_NOTE, updatedAt: new Date().toISOString(), coordinates: [...new Set([...baseline.coordinates, ...passing])].sort() }, null, 2) + "\n");
+    }
     return { passing, regressions, baseline };
   };
   process.once("SIGTERM", () => { report(true); process.exit(3); });
@@ -231,12 +248,14 @@ async function main() {
   if (options.updateBaseline) {
     const merged = [...new Set([...baseline.coordinates, ...passing])].sort();
     mkdirSync("curriculum/verification", { recursive: true });
-    writeFileSync(BASELINE, JSON.stringify({ _note: "Ratchet: coordinates proven PASS in production. Only ever grows; removal requires curriculum-removals.json approval.", updatedAt: new Date().toISOString(), coordinates: merged }, null, 2) + "\n");
+    writeFileSync(BASELINE, JSON.stringify({ _note: BASELINE_NOTE, updatedAt: new Date().toISOString(), coordinates: merged }, null, 2) + "\n");
     console.log(`baseline: ${baseline.coordinates.length} -> ${merged.length} coordinates`);
   }
-  // An absent baseline must never turn FAIL coordinates (or an empty audit) into a green run.
+  // Always fail on: a floor regression, any uncomputable coordinate, or an empty audit.
+  if (regressions.length || failedCalls || results.length === 0) process.exit(1);
+  // An absent or empty floor must never turn FAIL coordinates into a green run.
   // Preserve complete diagnostics and artifacts above before signaling failure.
-  if (regressions.length || failedCalls || results.length === 0 || results.some((entry) => entry.runtimeStatus !== "PASS")) process.exit(1);
+  if (baseline.coordinates.length === 0 && results.some((entry) => entry.runtimeStatus !== "PASS")) process.exit(1);
 }
 
 main().catch((error) => { console.error(error); process.exit(2); });
