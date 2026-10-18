@@ -18,7 +18,10 @@ export async function POST(request: Request, { params }: { params: Promise<{ bat
       assertLeaseFresh(lease);
       const canonicalRestore = await restoreCanonicalLessonsAfterLocalizedPublish(result.batch);
       assertLeaseFresh(lease);
-      const localization = await repairAndPublishLocalizedBatch(result.batch);
+      // Q5: one publication model. Manual batch publication uses the same atomic
+      // translation-package path (Path A) as trusted uploads, never the legacy
+      // per-record import path.
+      const localization = await repairAndPublishLocalizedBatch(result.batch, { requireAtomic: true });
       assertLeaseFresh(lease);
       return { result, canonicalRestore, localization };
     });
