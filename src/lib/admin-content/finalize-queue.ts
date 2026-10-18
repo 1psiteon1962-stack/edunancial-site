@@ -65,6 +65,18 @@ function reportFailureSafely<T>(
   }
 }
 
+function reportProgressSafely(
+  onProgress: ((progress: FinalizeProgress) => void) | undefined,
+  progress: FinalizeProgress,
+): void {
+  try {
+    onProgress?.(progress);
+  } catch {
+    // A UI/telemetry progress callback must never terminate the queue, stop
+    // other runners, or be mistaken for a package finalization failure.
+  }
+}
+
 /**
  * Finalize packages with bounded concurrency. Every package is independent:
  * exhausted retries, ambiguous timeouts, or permanent validation failures are
@@ -79,7 +91,7 @@ export async function runParallelFinalization<T, R>(
   options: FinalizeOptions = {},
 ): Promise<R[]> {
   if (items.length === 0) {
-    onProgress?.({ completed: 0, total: 0, percent: 100 });
+    reportProgressSafely(onProgress, { completed: 0, total: 0, percent: 100 });
     return [];
   }
 
@@ -128,7 +140,7 @@ export async function runParallelFinalization<T, R>(
       }
 
       completed += 1;
-      onProgress?.({
+      reportProgressSafely(onProgress, {
         completed,
         total: items.length,
         percent: Math.round((completed / items.length) * 100),
