@@ -174,6 +174,9 @@ export default function ContentDashboardClient() {
             </p>
           </div>
           <div className="flex flex-wrap gap-3">
+            <Link href="/admin/beta-testers" className="rounded-xl bg-yellow-500 px-5 py-3 font-semibold text-slate-950 hover:bg-yellow-400">
+              Beta Tester Codes
+            </Link>
             <Link href="/admin/content/upload" className="rounded-xl bg-blue-600 px-5 py-3 font-semibold hover:bg-blue-500">
               Upload Content
             </Link>
