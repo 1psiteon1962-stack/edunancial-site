@@ -18,6 +18,18 @@ function delay(ms: number): Promise<void> {
   return new Promise((resolve) => setTimeout(resolve, ms));
 }
 
+function reportProgressSafely(
+  onProgress: ((progress: UploadProgress) => void) | undefined,
+  progress: UploadProgress,
+): void {
+  try {
+    onProgress?.(progress);
+  } catch {
+    // Rendering or metrics errors must not turn completed storage writes into
+    // failed transfers or trigger duplicate uploads on retry.
+  }
+}
+
 /**
  * Run browser upload jobs with bounded concurrency. Individual package failures
  * are isolated so a bad file cannot abort the remaining 50-500 package batch.
@@ -38,7 +50,7 @@ export async function runParallelUploads<T>(
   },
 ): Promise<UploadFailure<T>[]> {
   if (items.length === 0) {
-    options.onProgress?.({ completedBytes: 0, totalBytes: 0, percent: 100 });
+    reportProgressSafely(options.onProgress, { completedBytes: 0, totalBytes: 0, percent: 100 });
     return [];
   }
 
@@ -56,7 +68,7 @@ export async function runParallelUploads<T>(
   const publishProgress = () => {
     const completedBytes = loaded.reduce((sum, value) => sum + value, 0);
     const percent = totalBytes > 0 ? Math.min(100, Math.round((completedBytes / totalBytes) * 100)) : 100;
-    options.onProgress?.({ completedBytes, totalBytes, percent });
+    reportProgressSafely(options.onProgress, { completedBytes, totalBytes, percent });
   };
 
   const runner = async () => {
