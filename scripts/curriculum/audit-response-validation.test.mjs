@@ -87,3 +87,25 @@ test("rejects a lesson reported as both missing and English fallback", () => {
     englishFallbackLessonIDs: ["RED-L1-050"], failures: [{ lessonId: "RED-L1-050" }, { lessonId: "RED-L1-049" }] };
   assert.throws(() => validateCoordinateResponse(response(overlap), job), /contradict/);
 });
+
+test("rejects missing first lesson reported as retrievable", () => {
+  const bad = { ...oneMissing(), missingLessonIDs: ["RED-L1-001"], lastLessonRetrievable: true,
+    firstLessonRetrievable: true, failures: [{ lessonId: "RED-L1-001" }] };
+  assert.throws(() => validateCoordinateResponse(response(bad), job), /first\/last lesson flags/);
+});
+
+test("rejects missing last lesson reported as retrievable", () => {
+  assert.throws(() => validateCoordinateResponse(response({ ...oneMissing(), lastLessonRetrievable: true }), job), /first\/last lesson flags/);
+});
+
+test("rejects a middle-lesson loss that falsely marks the first lesson unavailable", () => {
+  const bad = { ...oneMissing(), missingLessonIDs: ["RED-L1-025"], lastLessonRetrievable: true,
+    firstLessonRetrievable: false, failures: [{ lessonId: "RED-L1-025" }] };
+  assert.throws(() => validateCoordinateResponse(response(bad), job), /first\/last lesson flags/);
+});
+
+test("accepts a middle-lesson loss with both endpoints retrievable", () => {
+  const ok = { ...oneMissing(), missingLessonIDs: ["RED-L1-025"], lastLessonRetrievable: true,
+    firstLessonRetrievable: true, failures: [{ lessonId: "RED-L1-025" }] };
+  assert.deepEqual(validateCoordinateResponse(response(ok), job), ok);
+});
