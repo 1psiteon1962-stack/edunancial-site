@@ -39,8 +39,12 @@ jobs:
       - name: Apply KPI events migration
         shell: bash
         run: psql "$DATABASE_URL" -X -v ON_ERROR_STOP=1 -f db/neon/20261002_kpi_events.sql
-      - name: Verify KPI events table
+      - name: Apply idempotent KPI replay-key migration
+        shell: bash
+        run: psql "$DATABASE_URL" -X -v ON_ERROR_STOP=1 -f db/neon/20261018_kpi_replay_idempotency.sql
+      - name: Verify KPI events table and unique replay-key index
         shell: bash
         run: |
           set -euo pipefail
           test "$(psql "$DATABASE_URL" -X -Atc "select count(*) from information_schema.tables where table_schema='public' and table_name='kpi_events';")" = "1"
+          test "$(psql "$DATABASE_URL" -X -Atc "select count(*) from pg_indexes where schemaname='public' and tablename='kpi_events' and indexname='uq_kpi_events_replay_key';")" = "1"
