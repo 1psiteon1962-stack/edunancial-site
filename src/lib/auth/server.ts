@@ -62,9 +62,12 @@ export async function requireAuthenticatedMemberWrite(request: Request, scope: s
 }
 
 export function applyMembershipCookie(response: NextResponse, membershipTier: string, expiresAt?: string | null) {
-  const expiryMs = expiresAt ? new Date(expiresAt).getTime() - Date.now() : 60 * 60 * 24 * 30 * 1000;
-  const maxAge = Math.max(1, Math.floor(expiryMs / 1000));
-  response.cookies.set(MEMBERSHIP_TIER_COOKIE, signTier(normalizeToCurriculumTier(membershipTier)), {
+  const nowMs = Date.now();
+  const endMs = expiresAt ? new Date(expiresAt).getTime() : nowMs + 60 * 60 * 24 * 30 * 1000;
+  const maxAge = Math.max(1, Math.floor((endMs - nowMs) / 1000));
+  // The expiry is signed into the cookie value itself, so a saved copy cannot be
+  // replayed after the entitlement ends (browser maxAge alone is not protection).
+  response.cookies.set(MEMBERSHIP_TIER_COOKIE, signTier(normalizeToCurriculumTier(membershipTier), Math.floor(endMs / 1000)), {
     httpOnly: true, sameSite: "lax", secure: process.env.NODE_ENV === "production", path: "/", maxAge,
   });
 }
