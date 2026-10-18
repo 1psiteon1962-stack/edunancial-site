@@ -73,6 +73,8 @@
     "src/lib/video/**/*.ts",
     "src/lib/blog/**/*.ts",
     "src/lib/curriculum/neon-learner-resolver.ts",
-    "src/lib/curriculum/neon-published-store.ts"
+    "src/lib/curriculum/neon-published-store.ts",
+    "src/lib/kpi/spool.ts",
+    "src/lib/kpi/spool.test.ts"
   ]
 }
