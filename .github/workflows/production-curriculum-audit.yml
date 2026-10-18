@@ -122,6 +122,8 @@ jobs:
           LEVELS_INPUT: ${{ inputs.levels }}
           UPDATE_BASELINE_INPUT: ${{ inputs.update_baseline }}
           EDUNANCIAL_GITHUB_OIDC_AUDIENCE: https://edunancial.com/api/admin
+          # Push runs verify one exact commit: every response must come from that deployment.
+          EXPECTED_DEPLOY_SHA: ${{ github.event_name == 'push' && github.sha || '' }}
         run: |
           set -euo pipefail
           args=()
