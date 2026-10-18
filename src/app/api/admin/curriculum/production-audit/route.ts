@@ -1,7 +1,7 @@
 import { NextRequest, NextResponse } from "next/server";
 
 import { getAdminSession } from "@/lib/admin-content/auth";
-import { authorizeGithubActionsRun } from "@/lib/admin-content/github-actions-runner-auth";
+import { GITHUB_RUNNER_WORKFLOWS, authorizeGithubActionsRun } from "@/lib/admin-content/github-actions-runner-auth";
 import { auditLocales, formatAuditLine, runProductionAudit } from "@/lib/curriculum/production-audit";
 import { MAX_PRODUCTION_AUDIT_COORDINATES, parseProductionAuditSelection } from "@/lib/curriculum/production-audit-request-selection";
 
@@ -25,7 +25,7 @@ async function authorized(request: NextRequest) {
     if (session && (session.role === "admin" || session.role === "owner")) return true;
   } catch { /* fall through to machine auth */ }
   try {
-    return await authorizeGithubActionsRun(request, ["workflow_dispatch", "schedule", "push"]);
+    return await authorizeGithubActionsRun(request, ["workflow_dispatch", "schedule", "push"], GITHUB_RUNNER_WORKFLOWS.productionAudit);
   } catch {
     return false;
   }

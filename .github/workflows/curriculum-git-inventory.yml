@@ -13,6 +13,8 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: "22"
+      - name: Verify inventory preservation and locale hashing
+        run: node --test scripts/curriculum/git-file-inventory.test.mjs
       - name: Inventory committed curriculum without mutation
         run: node scripts/curriculum/git-file-inventory.mjs
       - name: Retain per-file hash evidence

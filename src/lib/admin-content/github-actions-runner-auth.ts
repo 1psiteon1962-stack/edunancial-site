@@ -1,14 +1,46 @@
 import type { NextRequest } from "next/server";
 
-export async function authorizeGithubActionsRun(request:NextRequest,allowedEvents:readonly string[]):Promise<boolean>{
- const auth=request.headers.get("authorization")??"";
- const token=auth.startsWith("Bearer ")?auth.slice(7).trim():"";
- const repository=request.headers.get("x-github-repository")??"";
- const runId=request.headers.get("x-github-run-id")??"";
- const expected=`${process.env.EDUNANCIAL_GITHUB_OWNER}/${process.env.EDUNANCIAL_GITHUB_REPO}`;
- if(!token||!runId||repository!==expected)return false;
- const response=await fetch(`https://api.github.com/repos/${expected}/actions/runs/${encodeURIComponent(runId)}`,{headers:{Authorization:`Bearer ${token}`,Accept:"application/vnd.github+json","X-GitHub-Api-Version":"2022-11-28"},cache:"no-store"});
- if(!response.ok)return false;
- const run=await response.json() as {head_branch?:string;event?:string;status?:string;repository?:{full_name?:string}};
- return run.repository?.full_name===expected&&run.head_branch==="main"&&allowedEvents.includes(run.event??"")&&run.status==="in_progress";
+import { DEFAULT_GITHUB_OIDC_AUDIENCE, type JwksFetcher, verifyGithubOidcToken } from "@/lib/admin-content/github-oidc";
+
+/** Workflow files allowed to call machine-authorized admin endpoints. */
+export const GITHUB_RUNNER_WORKFLOWS = {
+  productionAudit: ".github/workflows/production-curriculum-audit.yml",
+  githubExport: ".github/workflows/curriculum-github-export.yml",
+  packageRecovery: ".github/workflows/one-time-package-recovery.yml",
+} as const;
+
+/**
+ * Authorize a GitHub Actions runner by its signed OIDC identity token
+ * (Authorization: Bearer <OIDC JWT>). Fails closed when configuration is missing,
+ * when GitHub's signing keys cannot be fetched, or when any claim does not match.
+ * The previous GITHUB_TOKEN + run-ID check is intentionally no longer accepted.
+ */
+export async function authorizeGithubActionsRun(
+  request: NextRequest | Request,
+  allowedEvents: readonly string[],
+  workflowPath: string,
+  options: { env?: Record<string, string | undefined>; fetcher?: JwksFetcher; nowSeconds?: number } = {},
+): Promise<boolean> {
+  const env = options.env ?? process.env;
+  const owner = env.EDUNANCIAL_GITHUB_OWNER?.trim();
+  const repo = env.EDUNANCIAL_GITHUB_REPO?.trim();
+  if (!owner || !repo || !workflowPath) return false;
+
+  const auth = request.headers.get("authorization") ?? "";
+  const token = auth.startsWith("Bearer ") ? auth.slice(7).trim() : "";
+  if (!token) return false;
+  // Optional header: if a caller states a run ID, it must match the signed claim.
+  const runIdHeader = request.headers.get("x-github-run-id")?.trim() || undefined;
+
+  const claims = await verifyGithubOidcToken(token, {
+    audience: env.EDUNANCIAL_GITHUB_OIDC_AUDIENCE?.trim() || DEFAULT_GITHUB_OIDC_AUDIENCE,
+    repository: `${owner}/${repo}`,
+    repositoryId: env.EDUNANCIAL_GITHUB_REPOSITORY_ID?.trim() || undefined,
+    ref: "refs/heads/main",
+    workflowPath,
+    allowedEvents,
+    runId: runIdHeader,
+    nowSeconds: options.nowSeconds,
+  }, options.fetcher);
+  return claims !== null;
 }

@@ -15,7 +15,8 @@
  *
  * Auth (one of):
  *   EDUNANCIAL_ADMIN_COOKIE="edunancial_admin_session=..."   (copy from a logged-in admin browser)
- *   GitHub Actions: GITHUB_TOKEN + GITHUB_REPOSITORY + GITHUB_RUN_ID (workflow_dispatch / schedule on main)
+ *   GitHub Actions: signed OIDC identity token (workflow needs `permissions: id-token: write`),
+ *   requested fresh every few minutes and sent only to the production origin.
  *
  * Usage:
  *   node scripts/curriculum/production-audit.mjs [--base https://edunancial.com] [--levels 1] [--locales en-US,fr-CA] [--tracks RED] [--out reports/production-audit] [--update-baseline]
@@ -23,55 +24,72 @@
 import { mkdirSync, readFileSync, writeFileSync, existsSync } from "node:fs";
 import { join } from "node:path";
 import { validateCoordinateResponse } from "./audit-response-validation.mjs";
+import { AUDIT_TRACKS, AUDIT_USAGE, AuditArgsError, parseAuditArgs } from "./production-audit-args.mjs";
 
-const TRACKS = ["RED", "WHITE", "BLUE", "GREEN", "GOLD", "PURPLE", "ORANGE", "BLACK"];
-const LEVELS = [1, 2, 3, 4, 5];
 const BASELINE = "curriculum/verification/production-baseline.json";
+const TRACKS = AUDIT_TRACKS;
 
-function arg(name, fallback) {
-  const index = process.argv.indexOf(`--${name}`);
-  return index >= 0 && process.argv[index + 1] && !process.argv[index + 1].startsWith("--") ? process.argv[index + 1] : fallback;
+// Parse strictly before ANY network call: unknown, duplicated, valueless or
+// "--name=value" options exit 2 instead of silently changing the audit scope.
+let options;
+try {
+  options = parseAuditArgs(process.argv.slice(2), process.env);
+} catch (error) {
+  if (!(error instanceof AuditArgsError)) throw error;
+  console.error(error.message);
+  console.error(AUDIT_USAGE);
+  process.exit(2);
 }
-const flag = (name) => process.argv.includes(`--${name}`);
-const list = (value) => (value ? String(value).split(",").map((x) => x.trim()).filter(Boolean) : null);
+const { base, tracks, levels, out: outDir, concurrency } = options;
 
-const base = arg("base", process.env.EDUNANCIAL_BASE_URL ?? "https://edunancial.com").replace(/\/+$/u, "");
-const tracks = list(arg("tracks")) ?? TRACKS;
-const levels = (list(arg("levels")) ?? LEVELS).map(Number);
-// Reject unknown or malformed coordinate selections before hitting production.
-// An empty matrix or invalid level must never masquerade as a successful audit.
-if (!tracks.length || tracks.some((track) => !TRACKS.includes(track)) ||
-    !levels.length || levels.some((level) => !Number.isInteger(level) || !LEVELS.includes(level))) {
-  console.error("Invalid audit selection: --tracks must use known track codes and --levels must be integers 1-5.");
+// Stale-deploy guard: when the workflow knows which commit must be live (push runs),
+// every response must come from exactly that deployment. A deploy that changes or
+// rolls back mid-run turns the affected coordinates into FAIL instead of passing
+// on code that was never the commit being verified.
+const EXPECTED_DEPLOY_SHA = process.env.EXPECTED_DEPLOY_SHA?.trim().toLowerCase() || null;
+if (EXPECTED_DEPLOY_SHA && !/^[0-9a-f]{40}$/.test(EXPECTED_DEPLOY_SHA)) {
+  console.error("Invalid arguments: EXPECTED_DEPLOY_SHA must be a full 40-character commit SHA.");
   process.exit(2);
 }
-const explicitLocales = list(arg("locales"));
-if (process.argv.includes("--locales") && !explicitLocales) {
-  console.error("Invalid audit selection: --locales requires a nonempty comma-separated value.");
-  process.exit(2);
+function assertExpectedDeployment(response) {
+  if (!EXPECTED_DEPLOY_SHA) return;
+  const served = response?.meta?.deployCommit ?? null;
+  if (served !== EXPECTED_DEPLOY_SHA) {
+    throw new Error(`stale deployment: production served commit ${served ?? "unknown"}, expected ${EXPECTED_DEPLOY_SHA}`);
+  }
 }
-if (explicitLocales && (explicitLocales.length === 0 || explicitLocales.some((locale) => !/^[a-z]{2}(?:-[a-zA-Z0-9]+)*$/.test(locale)))) {
-  console.error("Invalid audit selection: --locales must contain locale codes.");
-  process.exit(2);
-}
-const outDir = arg("out", "reports/production-audit");
-// Limit concurrent production scans; preserve the full coordinate matrix.
-const requestedConcurrency = Number(arg("concurrency", "1"));
-// Audit requests are expensive: reject unbounded/invalid parallel runs rather than
-// multiplying Blob reads and production timeouts through a CLI typo.
-if (!Number.isInteger(requestedConcurrency) || requestedConcurrency < 1 || requestedConcurrency > 3) {
-  console.error("Invalid --concurrency: use an integer from 1 to 3.");
-  process.exit(2);
-}
-const concurrency = requestedConcurrency;
 
-function headers() {
+// GitHub Actions OIDC: credentials go ONLY to the production origin, and a fresh
+// short-lived token is requested well before expiry so multi-hour audits keep working.
+const OIDC_AUDIENCE = process.env.EDUNANCIAL_GITHUB_OIDC_AUDIENCE || "https://edunancial.com/api/admin";
+const OIDC_REFRESH_MS = 4 * 60_000;
+const TRUSTED_ORIGINS = new Set(["https://edunancial.com", "https://www.edunancial.com"]);
+let oidcCache = null;
+
+async function githubOidcToken() {
+  const requestUrl = process.env.ACTIONS_ID_TOKEN_REQUEST_URL;
+  const requestToken = process.env.ACTIONS_ID_TOKEN_REQUEST_TOKEN;
+  if (!requestUrl || !requestToken) return null;
+  if (oidcCache && Date.now() - oidcCache.at < OIDC_REFRESH_MS) return oidcCache.value;
+  const url = new URL(requestUrl);
+  url.searchParams.set("audience", OIDC_AUDIENCE);
+  const response = await fetch(url, { headers: { authorization: `Bearer ${requestToken}`, accept: "application/json" }, signal: AbortSignal.timeout(15_000) });
+  if (!response.ok) throw new Error(`GitHub OIDC token request failed (HTTP ${response.status}); the workflow needs "permissions: id-token: write".`);
+  const { value } = await response.json();
+  if (typeof value !== "string" || value.split(".").length !== 3) throw new Error("GitHub OIDC token response was malformed.");
+  oidcCache = { at: Date.now(), value };
+  return value;
+}
+
+async function headers() {
   const h = { accept: "application/json" };
   if (process.env.EDUNANCIAL_ADMIN_COOKIE) h.cookie = process.env.EDUNANCIAL_ADMIN_COOKIE;
-  if (process.env.GITHUB_TOKEN && process.env.GITHUB_RUN_ID) {
-    h.authorization = `Bearer ${process.env.GITHUB_TOKEN}`;
-    h["x-github-repository"] = process.env.GITHUB_REPOSITORY ?? "";
-    h["x-github-run-id"] = process.env.GITHUB_RUN_ID;
+  if (TRUSTED_ORIGINS.has(new URL(base).origin)) {
+    const token = await githubOidcToken();
+    if (token) {
+      h.authorization = `Bearer ${token}`;
+      if (process.env.GITHUB_RUN_ID) h["x-github-run-id"] = process.env.GITHUB_RUN_ID;
+    }
   }
   return h;
 }
@@ -80,8 +98,8 @@ async function call(query, attempt = 0) {
   const url = `${base}/api/admin/curriculum/production-audit?${new URLSearchParams(query)}`;
   // Bound the client request to avoid indefinitely hanging CI audit workers.
   // A timed-out coordinate is already recorded as FAIL by the caller.
-  const response = await fetch(url, { headers: headers(), signal: AbortSignal.timeout(45_000) });
-  if (response.status === 401) throw new Error("401 Unauthorized — set EDUNANCIAL_ADMIN_COOKIE or run from the GitHub workflow.");
+  const response = await fetch(url, { headers: await headers(), signal: AbortSignal.timeout(45_000) });
+  if (response.status === 401) throw new Error("401 Unauthorized — set EDUNANCIAL_ADMIN_COOKIE or run from the GitHub workflow (with id-token: write).");
   if (!response.ok) {
     // Retrying 30-second gateway timeouts multiplies storage load without fixing them.
     // Keep retries for transient 429/503 responses only; every failed coordinate remains FAIL.
@@ -93,9 +111,10 @@ async function call(query, attempt = 0) {
 
 async function main() {
   // Discover the supported locale list from production itself (catalog-driven).
-  let locales = list(arg("locales"));
+  let locales = options.locales;
   if (!locales) {
     const probe = await call({ tracks: "RED", levels: "1", locales: "en-US" });
+    assertExpectedDeployment(probe);
     locales = probe.meta.supportedLocales ?? [];
     locales = ["en-US", ...locales.filter((l) => l !== "en-US")];
     if (locales.length < 2) throw new Error("Could not derive the locale catalog from production; pass --locales explicitly.");
@@ -114,6 +133,7 @@ async function main() {
       try {
         const response = await call({ tracks: job.track, levels: String(job.level), locales: job.locale });
         const coordinate = validateCoordinateResponse(response, job);
+        assertExpectedDeployment(response);
         meta ??= response.meta;
         results.push(coordinate);
         process.stderr.write(".");
@@ -176,7 +196,7 @@ async function main() {
   await Promise.all(Array.from({ length: concurrency }, worker));
   process.stderr.write("\n");
   const { passing, regressions, baseline } = report(false);
-  if (flag("update-baseline")) {
+  if (options.updateBaseline) {
     const merged = [...new Set([...baseline.coordinates, ...passing])].sort();
     mkdirSync("curriculum/verification", { recursive: true });
     writeFileSync(BASELINE, JSON.stringify({ _note: "Ratchet: coordinates proven PASS in production. Only ever grows; removal requires curriculum-removals.json approval.", updatedAt: new Date().toISOString(), coordinates: merged }, null, 2) + "\n");

@@ -83,6 +83,12 @@ jobs:
     if: ${{ !cancelled() }}
     runs-on: ubuntu-latest
     timeout-minutes: 180
+    # id-token: write lets this job request signed GitHub OIDC identity tokens,
+    # which the production endpoint verifies cryptographically (repo, branch, workflow).
+    permissions:
+      actions: read
+      contents: read
+      id-token: write
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
@@ -91,27 +97,46 @@ jobs:
       - name: Wait for this commit to be live (push only)
         if: github.event_name == 'push'
         env:
-          GITHUB_TOKEN: ${{ github.token }}
+          EXPECTED_SHA: ${{ github.sha }}
+          RUN_ID: ${{ github.run_id }}
+          OIDC_AUDIENCE: https://edunancial.com/api/admin
         run: |
+          set -uo pipefail
           for i in $(seq 1 30); do
+            # Fresh short-lived OIDC token per probe; never echoed.
+            token=$(curl -sSf -H "Authorization: Bearer $ACTIONS_ID_TOKEN_REQUEST_TOKEN" \
+              --get --data-urlencode "audience=$OIDC_AUDIENCE" "$ACTIONS_ID_TOKEN_REQUEST_URL" | jq -r '.value // empty')
+            if [ -z "$token" ]; then echo "::error::Could not obtain a GitHub OIDC token (id-token: write required)."; exit 1; fi
+            echo "::add-mask::$token"
             live=$(curl -sS "https://edunancial.com/api/admin/curriculum/production-audit?tracks=RED&levels=1&locales=en-US" \
-              -H "Authorization: Bearer $GITHUB_TOKEN" -H "X-GitHub-Repository: ${{ github.repository }}" -H "X-GitHub-Run-Id: ${{ github.run_id }}" \
+              -H "Authorization: Bearer $token" -H "X-GitHub-Run-Id: $RUN_ID" \
               | node -e 'let s="";process.stdin.on("data",d=>s+=d).on("end",()=>{try{console.log(JSON.parse(s).meta.deployCommit??"")}catch{console.log("")}})')
-            if [ "$live" = "${{ github.sha }}" ]; then echo "deploy live"; exit 0; fi
+            if [ "$live" = "$EXPECTED_SHA" ]; then echo "deploy live"; exit 0; fi
             echo "waiting for deploy ($live)"; sleep 30
           done
           echo "::error::Requested commit not confirmed live after 15 minutes; refuse to audit stale production as this commit."
           exit 1
       - name: Audit every coordinate through the learner resolver
         env:
-          GITHUB_TOKEN: ${{ github.token }}
-          GITHUB_REPOSITORY: ${{ github.repository }}
-          GITHUB_RUN_ID: ${{ github.run_id }}
+          # Dispatch inputs are data, never shell source: they arrive only as env vars.
+          LEVELS_INPUT: ${{ inputs.levels }}
+          UPDATE_BASELINE_INPUT: ${{ inputs.update_baseline }}
+          EDUNANCIAL_GITHUB_OIDC_AUDIENCE: https://edunancial.com/api/admin
+          # Push runs verify one exact commit: every response must come from that deployment.
+          EXPECTED_DEPLOY_SHA: ${{ github.event_name == 'push' && github.sha || '' }}
         run: |
-          args=""
-          if [ -n "${{ inputs.levels }}" ]; then args="$args --levels ${{ inputs.levels }}"; fi
-          if [ "${{ inputs.update_baseline }}" = "true" ]; then args="$args --update-baseline"; fi
-          node scripts/curriculum/production-audit.mjs $args
+          set -euo pipefail
+          args=()
+          if [ -n "${LEVELS_INPUT:-}" ]; then
+            if ! [[ "$LEVELS_INPUT" =~ ^[1-5](,[1-5])*$ ]]; then
+              echo "::error::Invalid levels input. Use a comma list of 1-5 (for example 1 or 1,3), or leave blank for all levels."
+              exit 2
+            fi
+            args+=(--levels "$LEVELS_INPUT")
+          fi
+          if [ "${UPDATE_BASELINE_INPUT:-false}" = "true" ]; then args+=(--update-baseline); fi
+          # The script re-validates every argument and exits 2 before any network call if malformed.
+          node scripts/curriculum/production-audit.mjs "${args[@]}"
       - name: Publish report
         if: always()
         uses: actions/upload-artifact@v4

@@ -1,5 +1,5 @@
 import { NextRequest } from "next/server";
-import { authorizeGithubActionsRun } from "@/lib/admin-content/github-actions-runner-auth";
+import { GITHUB_RUNNER_WORKFLOWS, authorizeGithubActionsRun } from "@/lib/admin-content/github-actions-runner-auth";
 import { beginFinalization, FinalizationInProgressError, markFailed, markPublished } from "@/lib/admin-content/upload-receipts";
 import { PublicationBusyError, withPublicationLease } from "@/lib/admin-content/publication-lock";
 import { verifyLearnerVisibility } from "@/lib/admin-content/learner-readback";
@@ -32,7 +32,7 @@ function canonicalFirst(a: ReturnType<typeof selectExistingRestorationCandidates
 }
 
 export async function POST(request: NextRequest) {
-  if (!(await authorizeGithubActionsRun(request, ["push", "workflow_dispatch"]))) {
+  if (!(await authorizeGithubActionsRun(request, ["push", "workflow_dispatch"], GITHUB_RUNNER_WORKFLOWS.packageRecovery))) {
     return Response.json({ success: false, error: "Unauthorized recovery runner." }, { status: 401 });
   }
   if (!recoveryPublicationEnabled()) {
