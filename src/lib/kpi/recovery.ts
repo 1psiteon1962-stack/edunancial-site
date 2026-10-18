@@ -47,3 +47,19 @@ export async function recoverKpiSpool(limit = 25): Promise<KpiRecoveryReport> {
   }
   return { attempted, recovered, failed, hasMore: hasMore || page.blobs.length > safeLimit };
 }
+
+/**
+ * Read-only: how many spooled KPI events are waiting for recovery. Does not
+ * require replay authorization because it never reads event bodies or writes.
+ */
+export async function countPendingKpiSpool(maxPages = 20): Promise<{ pending: number; complete: boolean }> {
+  const store = getStore({ name: KPI_SPOOL_STORE, consistency: "strong" });
+  let pending = 0;
+  let pages = 0;
+  for await (const page of store.list({ prefix: "pending/", paginate: true })) {
+    pending += page.blobs.length;
+    pages += 1;
+    if (pages >= maxPages) return { pending, complete: false };
+  }
+  return { pending, complete: true };
+}
