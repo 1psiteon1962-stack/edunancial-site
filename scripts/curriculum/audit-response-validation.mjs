@@ -42,6 +42,14 @@ export function validateCoordinateResponse(response, job) {
       failureIds.some((id) => !unavailableIds.includes(id))) {
     throw new Error('Invalid audit response: missing/fallback IDs contradict lesson counts or failure diagnostics.');
   }
+  // The server sets first/lastLessonRetrievable from the same passing set, so the
+  // flags must agree with the loss evidence in FAIL responses too.
+  const unavailableSet = new Set(unavailableIds);
+  const firstPasses = !unavailableSet.has(`${canonicalPrefix}001`);
+  const lastPasses = !unavailableSet.has(`${canonicalPrefix}050`);
+  if (coordinate.firstLessonRetrievable !== firstPasses || coordinate.lastLessonRetrievable !== lastPasses) {
+    throw new Error('Invalid audit response: first/last lesson flags contradict loss diagnostics.');
+  }
   const complete = coordinate.retrievableLessonCount === 50 &&
     coordinate.discoveredLessonCount === 50 &&
     coordinate.englishFallbackLessonCount === 0 &&
