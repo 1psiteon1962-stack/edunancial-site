@@ -3,12 +3,17 @@ import assert from "node:assert/strict";
 import { validateCoordinateResponse } from "./audit-response-validation.mjs";
 
 const job = { track: "RED", level: 1, locale: "fr-CA" };
+const layerEvidence = () => ({
+  gitCanonical: true, gitLocaleFile: false, atomicObject: false,
+  atomicObjectHasLocale: false, atomicIndexed: false, translationPackage: false,
+  discovered: true, retrieved: false, servedLocale: null, servedSource: null,
+});
 const good = () => ({
   track: "RED", level: 1, locale: "fr-CA", expectedLessonCount: 50,
   discoveredLessonCount: 50, retrievableLessonCount: 50,
   englishFallbackLessonCount: 0, missingLessonIDs: [],
   englishFallbackLessonIDs: [], firstLessonRetrievable: true,
-  lastLessonRetrievable: true, runtimeStatus: "PASS", failures: [],
+  lastLessonRetrievable: true, runtimeStatus: "PASS", failures: [], source: { git: 50 },
 });
 const response = (coordinate) => ({ coordinates: [coordinate] });
 
@@ -40,7 +45,7 @@ test("rejects false FAIL when all evidence says PASS", () => {
 function oneMissing() {
   return { ...good(), retrievableLessonCount: 49,
     missingLessonIDs: ["RED-L1-050"], lastLessonRetrievable: false,
-    runtimeStatus: "FAIL", failures: [{ lessonId: "RED-L1-050", disappearsAt: "not retrievable" }] };
+    runtimeStatus: "FAIL", source: { git: 49 }, failures: [{ lessonId: "RED-L1-050", disappearsAt: "not retrievable", layers: layerEvidence() }] };
 }
 
 test("accepts coherent FAIL with exact missing canonical ID evidence", () => {
@@ -78,7 +83,7 @@ test("accepts coherent FAIL mixing missing and English-fallback lessons (server 
   const mixed = { ...good(), discoveredLessonCount: 49, retrievableLessonCount: 47,
     englishFallbackLessonCount: 1, missingLessonIDs: ["RED-L1-001", "RED-L1-050"],
     englishFallbackLessonIDs: ["RED-L1-025"], firstLessonRetrievable: false, lastLessonRetrievable: false,
-    runtimeStatus: "FAIL", failures: [{ lessonId: "RED-L1-001" }, { lessonId: "RED-L1-050" }, { lessonId: "RED-L1-025" }] };
+    runtimeStatus: "FAIL", source: { git: 47 }, failures: ["RED-L1-001", "RED-L1-050", "RED-L1-025"].map((lessonId) => ({ lessonId, disappearsAt: "not retrievable", layers: layerEvidence() })) };
   assert.deepEqual(validateCoordinateResponse(response(mixed), job), mixed);
 });
 
@@ -107,5 +112,29 @@ test("rejects a middle-lesson loss that falsely marks the first lesson unavailab
 test("accepts a middle-lesson loss with both endpoints retrievable", () => {
   const ok = { ...oneMissing(), missingLessonIDs: ["RED-L1-025"], lastLessonRetrievable: true,
     firstLessonRetrievable: true, failures: [{ lessonId: "RED-L1-025" }] };
+  assert.deepEqual(validateCoordinateResponse(response(ok), job), ok);
+});
+
+test("rejects false PASS with no per-source retrievability evidence", () => {
+  assert.throws(() => validateCoordinateResponse(response({ ...good(), source: {} }), job), /source counts/);
+});
+test("rejects false PASS with fewer source receipts than passing lessons", () => {
+  assert.throws(() => validateCoordinateResponse(response({ ...good(), source: { git: 49 } }), job), /source counts/);
+});
+test("rejects false PASS with 51 source receipts for 50 passing lessons", () => {
+  assert.throws(() => validateCoordinateResponse(response({ ...good(), source: { git: 51 } }), job), /source counts/);
+});
+test("rejects failure with a lesson ID but no layer evidence", () => {
+  const bad = oneMissing();
+  bad.failures = [{ lessonId: "RED-L1-050", disappearsAt: "missing" }];
+  assert.throws(() => validateCoordinateResponse(response(bad), job), /layer-by-layer/);
+});
+test("rejects failure whose layer fields are fabricated strings", () => {
+  const bad = oneMissing();
+  bad.failures[0].layers.atomicIndexed = "yes";
+  assert.throws(() => validateCoordinateResponse(response(bad), job), /layer-by-layer/);
+});
+test("accepts legitimate PASS with unknown-but-counted source", () => {
+  const ok = { ...good(), source: { unknown: 50 } };
   assert.deepEqual(validateCoordinateResponse(response(ok), job), ok);
 });

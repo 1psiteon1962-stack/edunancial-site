@@ -50,6 +50,29 @@ export function validateCoordinateResponse(response, job) {
   if (coordinate.firstLessonRetrievable !== firstPasses || coordinate.lastLessonRetrievable !== lastPasses) {
     throw new Error('Invalid audit response: first/last lesson flags contradict loss diagnostics.');
   }
+  // A 50/50 status without the corresponding per-source receipt counts cannot
+  // prove the learner resolver actually returned 50 bodies.  The production
+  // auditor increments source once for every passing lesson.
+  const sourceCounts = coordinate.source;
+  if (!sourceCounts || typeof sourceCounts !== 'object' || Array.isArray(sourceCounts) ||
+      Object.entries(sourceCounts).some(([name, count]) => !name.trim() ||
+        !Number.isInteger(count) || count < 0 || count > 50) ||
+      Object.values(sourceCounts).reduce((total, count) => total + count, 0) !== coordinate.retrievableLessonCount) {
+    throw new Error('Invalid audit response: source counts contradict retrievable lesson evidence.');
+  }
+  // Each failure emitted by the production auditor carries a concrete layer
+  // diagnostic.  A bare lesson ID is not a root-cause report.
+  const booleanLayers = ['gitCanonical', 'gitLocaleFile', 'atomicObject',
+    'atomicObjectHasLocale', 'atomicIndexed', 'translationPackage', 'discovered', 'retrieved'];
+  for (const failure of coordinate.failures) {
+    const layers = failure.layers;
+    if (typeof failure.disappearsAt !== 'string' || !failure.disappearsAt.trim() ||
+        !layers || typeof layers !== 'object' || Array.isArray(layers) ||
+        booleanLayers.some((name) => typeof layers[name] !== 'boolean') ||
+        !['servedLocale', 'servedSource'].every((name) => layers[name] === null || typeof layers[name] === 'string')) {
+      throw new Error('Invalid audit response: incomplete layer-by-layer failure evidence.');
+    }
+  }
   const complete = coordinate.retrievableLessonCount === 50 &&
     coordinate.discoveredLessonCount === 50 &&
     coordinate.englishFallbackLessonCount === 0 &&
