@@ -143,6 +143,7 @@ test("50-lesson GitHub publication commits registry inventory and both audit art
   };
 
   let blobSequence = 0;
+  const exportLabels: string[] = [];
   let committedTree: Array<{ path: string; mode: string; type: string; sha: string }> = [];
   __setGithubRequestTestAdapterForTests(async (requestPath, init) => {
     const method = init.method ?? "GET";
@@ -181,11 +182,17 @@ test("50-lesson GitHub publication commits registry inventory and both audit art
     if (method === "POST" && requestPath === "/pulls") {
       return { html_url: "https://github.test/pull/50", number: 50 };
     }
+    if (method === "POST" && requestPath === "/issues/50/labels") {
+      exportLabels.push(...((JSON.parse(String(init.body ?? "{}")) as { labels?: string[] }).labels ?? []));
+      return {};
+    }
     throw new Error(`Unexpected mocked GitHub request: ${method} ${requestPath}`);
   });
 
   const result = await createGithubPullRequest(batch, exportPackage);
   assert.equal(result.pullRequestNumber, 50);
+  // Q4: upload exports are labelled for the CI-gated auto-merge workflow.
+  assert.deepEqual(exportLabels, ["curriculum-export"]);
 
   const paths = new Set(committedTree.map((entry) => entry.path));
   assert.equal(
