@@ -60,11 +60,21 @@ export async function POST(request: NextRequest) {
     const auth = await requireAdminApiSession(request, true);
     if (!auth.ok) return auth.response;
     const actor = toActor(auth.session);
-    const body = (await request.json()) as FinalizeBody;
-    batchId = String(body.batchId ?? "").trim();
-    if (!batchId) throw new Error("batchId is required.");
-    if (!Array.isArray(body.uploads) || body.uploads.length !== 1) return Response.json({ success: false, error: "Finalize accepts exactly one stored package per request.", retryable: true, batchId }, { status: 422, headers: { "Cache-Control": "private, no-store, max-age=0" } });
+    let body: FinalizeBody;
+    try {
+      body = (await request.json()) as FinalizeBody;
+    } catch {
+      return Response.json({ success: false, error: "Request body must be valid JSON.", retryable: false }, { status: 400, headers: { "Cache-Control": "private, no-store, max-age=0" } });
+    }
+    if (!body || typeof body !== "object" || Array.isArray(body)) return Response.json({ success: false, error: "Request body must be a JSON object.", retryable: false }, { status: 400, headers: { "Cache-Control": "private, no-store, max-age=0" } });
+    if (typeof body.batchId !== "string") return Response.json({ success: false, error: "batchId is required.", retryable: false }, { status: 400, headers: { "Cache-Control": "private, no-store, max-age=0" } });
+    batchId = body.batchId.trim();
+    if (!batchId) return Response.json({ success: false, error: "batchId is required.", retryable: false }, { status: 400, headers: { "Cache-Control": "private, no-store, max-age=0" } });
+    if (!Array.isArray(body.uploads) || body.uploads.length !== 1) return Response.json({ success: false, error: "Finalize accepts exactly one stored package per request.", retryable: false, batchId }, { status: 400, headers: { "Cache-Control": "private, no-store, max-age=0" } });
     upload = body.uploads[0];
+    if (!upload || typeof upload !== "object" || typeof upload.uploadId !== "string" || !upload.uploadId.trim() || typeof upload.storagePath !== "string" || !upload.storagePath.trim() || typeof upload.originalFilename !== "string" || !upload.originalFilename.trim() || typeof upload.mimeType !== "string" || !upload.mimeType.trim() || typeof upload.sizeBytes !== "number" || !Number.isFinite(upload.sizeBytes) || upload.sizeBytes <= 0) {
+      return Response.json({ success: false, error: "Stored package metadata is invalid.", retryable: false, batchId }, { status: 400, headers: { "Cache-Control": "private, no-store, max-age=0" } });
+    }
     const currentUpload = upload;
 
     const configFormData = new FormData();
