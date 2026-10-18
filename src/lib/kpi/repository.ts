@@ -1,5 +1,8 @@
+import { getStore } from "@netlify/blobs";
+
 import { getNeonSql } from "@/lib/db/neon";
 import { insertLegacyKpiEvent, listLegacyKpiEvents } from "@/lib/kpi/legacy-supabase";
+import { KPI_SPOOL_STORE, persistWithFallbacks } from "@/lib/kpi/spool";
 
 export type KpiEventInsert = {
   site_id: string;
@@ -30,40 +33,30 @@ function requireSql() {
 }
 
 export async function insertKpiEvent(input: KpiEventInsert) {
-  try {
-    const sql = requireSql();
-    const rows = await sql`
-      insert into kpi_events (
-        site_id, site_region, event_name, user_id, session_id, ip_hash, user_agent,
-        path, referrer, utm_source, utm_medium, utm_campaign, utm_term, utm_content,
-        currency, value, sku, order_id, metadata
-      ) values (
-        ${input.site_id}, ${input.site_region}, ${input.event_name}, ${input.user_id}, ${input.session_id},
-        ${input.ip_hash}, ${input.user_agent}, ${input.path}, ${input.referrer}, ${input.utm_source},
-        ${input.utm_medium}, ${input.utm_campaign}, ${input.utm_term}, ${input.utm_content},
-        ${input.currency}, ${input.value}, ${input.sku}, ${input.order_id}, ${JSON.stringify(input.metadata)}::jsonb
-      )
-      returning id, created_at
-    `;
-    return rows[0] ?? null;
-  } catch (primaryError) {
-    // Do not silently hide a failed Neon write: production must make the
-    // underlying persistence failure visible while preserving legacy fallback.
-    console.error("[kpi] Neon event persistence failed; trying legacy fallback", {
-      eventName: input.event_name,
-      error: primaryError instanceof Error ? primaryError.message : String(primaryError),
-    });
-    try {
-      await insertLegacyKpiEvent(input);
-      return null;
-    } catch (fallbackError) {
-      console.error("[kpi] Both event stores failed", {
-        eventName: input.event_name,
-        fallbackError: fallbackError instanceof Error ? fallbackError.message : String(fallbackError),
-      });
-      throw new Error("KPI persistence unavailable in both primary and fallback stores", { cause: primaryError });
-    }
-  }
+  // Primary Neon -> legacy Supabase -> durable Netlify Blobs spool. An event is
+  // never silently dropped; the spool is replayable once kpi_events exists.
+  const outcome = await persistWithFallbacks(input, {
+    primary: async (row) => {
+      const sql = requireSql();
+      const rows = await sql`
+        insert into kpi_events (
+          site_id, site_region, event_name, user_id, session_id, ip_hash, user_agent,
+          path, referrer, utm_source, utm_medium, utm_campaign, utm_term, utm_content,
+          currency, value, sku, order_id, metadata
+        ) values (
+          ${row.site_id}, ${row.site_region}, ${row.event_name}, ${row.user_id}, ${row.session_id},
+          ${row.ip_hash}, ${row.user_agent}, ${row.path}, ${row.referrer}, ${row.utm_source},
+          ${row.utm_medium}, ${row.utm_campaign}, ${row.utm_term}, ${row.utm_content},
+          ${row.currency}, ${row.value}, ${row.sku}, ${row.order_id}, ${JSON.stringify(row.metadata)}::jsonb
+        )
+        returning id, created_at
+      `;
+      return rows[0] ?? null;
+    },
+    fallback: insertLegacyKpiEvent,
+    spool: () => getStore({ name: KPI_SPOOL_STORE, consistency: "strong" }),
+  });
+  return outcome;
 }
 
 export async function listRecentKpiEvents(limit = 50) {
