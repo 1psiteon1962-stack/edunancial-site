@@ -29,8 +29,7 @@ export async function recoverKpiSpool(limit = 25): Promise<KpiRecoveryReport> {
   let failed = 0;
   let hasMore = false;
   const page = await store.list({ prefix: "pending/" });
-  {
-    for (const entry of page.blobs) {
+  for (const entry of page.blobs) {
       if (attempted >= safeLimit) { hasMore = true; break; }
       attempted++;
       try {
@@ -45,8 +44,6 @@ export async function recoverKpiSpool(limit = 25): Promise<KpiRecoveryReport> {
         failed++;
         console.error("KPI spool replay failed; retained for retry", entry.key, error);
       }
-    }
-    if (hasMore) break;
   }
   return { attempted, recovered, failed, hasMore: hasMore || page.blobs.length > safeLimit };
 }
