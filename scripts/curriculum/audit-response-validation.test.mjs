@@ -8,7 +8,7 @@ const good = () => ({
   discoveredLessonCount: 50, retrievableLessonCount: 50,
   englishFallbackLessonCount: 0, missingLessonIDs: [],
   englishFallbackLessonIDs: [], firstLessonRetrievable: true,
-  lastLessonRetrievable: true, runtimeStatus: "PASS",
+  lastLessonRetrievable: true, runtimeStatus: "PASS", failures: [],
 });
 const response = (coordinate) => ({ coordinates: [coordinate] });
 
@@ -35,4 +35,55 @@ test("rejects false PASS when final lesson is unavailable", () => {
 });
 test("rejects false FAIL when all evidence says PASS", () => {
   assert.throws(() => validateCoordinateResponse(response({ ...good(), runtimeStatus: "FAIL" }), job));
+});
+
+function oneMissing() {
+  return { ...good(), retrievableLessonCount: 49,
+    missingLessonIDs: ["RED-L1-050"], lastLessonRetrievable: false,
+    runtimeStatus: "FAIL", failures: [{ lessonId: "RED-L1-050", disappearsAt: "not retrievable" }] };
+}
+
+test("accepts coherent FAIL with exact missing canonical ID evidence", () => {
+  assert.deepEqual(validateCoordinateResponse(response(oneMissing()), job), oneMissing());
+});
+
+test("rejects a false loss report where 49 successes and no missing IDs account for 50", () => {
+  assert.throws(() => validateCoordinateResponse(response({ ...oneMissing(), missingLessonIDs: [], failures: [] }), job), /contradict/);
+});
+
+test("rejects cross-level missing ID in a supposedly valid FAIL", () => {
+  assert.throws(() => validateCoordinateResponse(response({ ...oneMissing(), missingLessonIDs: ["RED-L2-050"] }), job), /contradict/);
+});
+
+test("rejects duplicate lesson IDs masking loss", () => {
+  assert.throws(() => validateCoordinateResponse(response({ ...oneMissing(), missingLessonIDs: ["RED-L1-050", "RED-L1-050"] }), job), /contradict/);
+});
+
+test("rejects fallback count/ID contradictions", () => {
+  const bad = { ...oneMissing(), missingLessonIDs: [], englishFallbackLessonCount: 1,
+    englishFallbackLessonIDs: [], failures: [] };
+  assert.throws(() => validateCoordinateResponse(response(bad), job), /contradict/);
+});
+
+test("rejects diagnostics that cite an unrelated lesson", () => {
+  assert.throws(() => validateCoordinateResponse(response({ ...oneMissing(), failures: [{ lessonId: "RED-L1-049" }] }), job), /contradict/);
+});
+
+test("rejects false PASS with omitted failure evidence array", () => {
+  const { failures, ...incomplete } = good();
+  assert.throws(() => validateCoordinateResponse(response(incomplete), job), /contradict/);
+});
+
+test("accepts coherent FAIL mixing missing and English-fallback lessons (server shape)", () => {
+  const mixed = { ...good(), discoveredLessonCount: 49, retrievableLessonCount: 47,
+    englishFallbackLessonCount: 1, missingLessonIDs: ["RED-L1-001", "RED-L1-050"],
+    englishFallbackLessonIDs: ["RED-L1-025"], firstLessonRetrievable: false, lastLessonRetrievable: false,
+    runtimeStatus: "FAIL", failures: [{ lessonId: "RED-L1-001" }, { lessonId: "RED-L1-050" }, { lessonId: "RED-L1-025" }] };
+  assert.deepEqual(validateCoordinateResponse(response(mixed), job), mixed);
+});
+
+test("rejects a lesson reported as both missing and English fallback", () => {
+  const overlap = { ...oneMissing(), retrievableLessonCount: 48, englishFallbackLessonCount: 1,
+    englishFallbackLessonIDs: ["RED-L1-050"], failures: [{ lessonId: "RED-L1-050" }, { lessonId: "RED-L1-049" }] };
+  assert.throws(() => validateCoordinateResponse(response(overlap), job), /contradict/);
 });
