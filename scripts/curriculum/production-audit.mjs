@@ -62,7 +62,7 @@ function assertExpectedDeployment(response) {
 // GitHub Actions OIDC: credentials go ONLY to the production origin, and a fresh
 // short-lived token is requested well before expiry so multi-hour audits keep working.
 const OIDC_AUDIENCE = process.env.EDUNANCIAL_GITHUB_OIDC_AUDIENCE || "https://edunancial.com/api/admin";
-const OIDC_REFRESH_MS = 4 * 60_000;
+const OIDC_REFRESH_MS = 2 * 60_000;
 const TRUSTED_ORIGINS = new Set(["https://edunancial.com", "https://www.edunancial.com"]);
 let oidcCache = null;
 
@@ -99,7 +99,13 @@ async function call(query, attempt = 0) {
   // Bound the client request to avoid indefinitely hanging CI audit workers.
   // A timed-out coordinate is already recorded as FAIL by the caller.
   const response = await fetch(url, { headers: await headers(), signal: AbortSignal.timeout(45_000) });
-  if (response.status === 401) throw new Error("401 Unauthorized — set EDUNANCIAL_ADMIN_COOKIE or run from the GitHub workflow (with id-token: write).");
+  if (response.status === 401) {
+    // A short-lived OIDC token can expire between issue and use on a long run.
+    // Retry exactly once with a freshly issued token; a second 401 is a real
+    // authorization failure and still fails the coordinate.
+    if (oidcCache && attempt === 0) { oidcCache = null; return call(query, 1); }
+    throw new Error("401 Unauthorized — set EDUNANCIAL_ADMIN_COOKIE or run from the GitHub workflow (with id-token: write).");
+  }
   if (!response.ok) {
     // Retrying 30-second gateway timeouts multiplies storage load without fixing them.
     // Keep retries for transient 429/503 responses only; every failed coordinate remains FAIL.
