@@ -1,5 +1,5 @@
 import { NextRequest } from "next/server";
-import { authorizeGithubActionsRun } from "@/lib/admin-content/github-actions-runner-auth";
+import { GITHUB_RUNNER_WORKFLOWS, authorizeGithubActionsRun } from "@/lib/admin-content/github-actions-runner-auth";
 import { listPendingGithubExportReceipts, recordGithubExport } from "@/lib/admin-content/upload-receipts";
 import { exportBatchToGithub } from "@/lib/admin-content/service";
 
@@ -8,7 +8,7 @@ export const dynamic="force-dynamic";
 export const maxDuration=60;
 
 export async function POST(request:NextRequest){
- if(!(await authorizeGithubActionsRun(request,["schedule","workflow_dispatch"])))return Response.json({success:false,error:"Unauthorized Git export runner."},{status:401});
+ if(!(await authorizeGithubActionsRun(request,["schedule","workflow_dispatch"],GITHUB_RUNNER_WORKFLOWS.githubExport)))return Response.json({success:false,error:"Unauthorized Git export runner."},{status:401});
  const [receipt]=await listPendingGithubExportReceipts(1);
  if(!receipt)return Response.json({success:true,done:true},{headers:{"Cache-Control":"private, no-store"}});
  if(!receipt.reviewBatchId){
