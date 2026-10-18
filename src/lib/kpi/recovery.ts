@@ -48,7 +48,7 @@ export async function recoverKpiSpool(limit = 25): Promise<KpiRecoveryReport> {
       }
     }
     if (hasMore) break;
-    cursor = page.next_cursor || undefined;
+    cursor = page.hasMore ? page.cursor : undefined;
   } while (cursor && attempted < safeLimit);
   return { attempted, recovered, failed, hasMore: hasMore || Boolean(cursor) };
 }
