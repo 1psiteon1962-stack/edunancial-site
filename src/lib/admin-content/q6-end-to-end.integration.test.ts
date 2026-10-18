@@ -98,7 +98,9 @@ function dropInMemoryCaches(): void {
   invalidateEffectiveCurriculumCache();
 }
 
-async function uploadAndPublish(locale: string, marker: string, key: string, options: { omit?: number; zip?: Buffer } = {}) {
+type UploadLocale = CourseUploadConfig["language"];
+
+async function uploadAndPublish(locale: UploadLocale, marker: string, key: string, options: { omit?: number; zip?: Buffer } = {}) {
   const storage = getAdminContentStorage();
   const zip = options.zip ?? makeStoredZip(packageEntries(locale, marker, options));
   const storagePath = `incoming/q6-${key}.zip`;
