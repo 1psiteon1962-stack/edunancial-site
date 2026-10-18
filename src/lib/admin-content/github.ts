@@ -765,12 +765,43 @@ export async function createGithubPullRequest(batch: UploadBatch, exportPackage:
     }),
   });
 
+  // Q4: mark upload exports (never admin edit/delete PRs) as eligible for the
+  // CI-gated auto-merge workflow. Labelling is best effort: an unlabelled PR is
+  // simply left for a human to merge.
+  try {
+    await githubRequest(`/issues/${pr.number as number}/labels`, {
+      method: "POST",
+      body: JSON.stringify({ labels: [CURRICULUM_EXPORT_LABEL] }),
+    });
+  } catch (error) {
+    console.warn("[github] could not label curriculum export PR; it will need a manual merge", error);
+  }
+
   return {
     branch: branchName,
     pullRequestUrl: pr.html_url as string,
     pullRequestNumber: pr.number as number,
     owner,
     repo,
+  };
+}
+
+/** Label that marks an upload export PR as eligible for CI-gated auto-merge. */
+export const CURRICULUM_EXPORT_LABEL = "curriculum-export";
+
+export function pullRequestNumberFromUrl(url: string | null | undefined): number | null {
+  const match = typeof url === "string" ? url.match(/\/pull\/(\d+)(?:[/?#]|$)/u) : null;
+  return match ? Number(match[1]) : null;
+}
+
+/** Read whether an export pull request has been merged into the base branch. */
+export async function getPullRequestMergeStatus(pullRequestNumber: number): Promise<{ merged: boolean; mergeCommitSha: string | null; state: string }> {
+  const pr = await githubRequest(`/pulls/${pullRequestNumber}`);
+  const merged = pr.merged === true;
+  return {
+    merged,
+    mergeCommitSha: merged && typeof pr.merge_commit_sha === "string" ? pr.merge_commit_sha : null,
+    state: typeof pr.state === "string" ? pr.state : "unknown",
   };
 }
 

@@ -8,7 +8,7 @@ export type UploadReceipt={
  state:UploadReceiptState;attempts:number;startedAt:string|null;publishedAt:string|null;updatedAt:string;
  reviewBatchId:string|null;retryable:boolean;lastError:string|null;recoveredWithoutReupload:boolean;
  verification:{learnerVisible:boolean;detail:string;checkedLessons?:number;checkedAt?:string}|null;
- githubExport:{state:"NOT_REQUIRED"|"PENDING"|"OPEN"|"FAILED";attempts:number;branch:string|null;pullRequestUrl:string|null;lastError:string|null};
+ githubExport:{state:"NOT_REQUIRED"|"PENDING"|"OPEN"|"MERGED"|"FAILED";attempts:number;branch:string|null;pullRequestUrl:string|null;lastError:string|null;mergeCommitSha?:string|null;mergedAt?:string|null};
 };
 const pathFor=(id:string)=>`receipts/${id}.json`;
 export async function getUploadReceipt(uploadId:string):Promise<UploadReceipt|null>{const raw=await getAdminContentStorage().readBinary(pathFor(uploadId));if(!raw)return null;try{return JSON.parse(raw.toString("utf8")) as UploadReceipt;}catch{return null;}}
@@ -54,16 +54,28 @@ export async function markPublished(uploadId:string,input:{reviewBatchId:string;
 }
 export async function markFailed(uploadId:string,error:string,retryable:boolean){return updateJsonCas<UploadReceipt>(pathFor(uploadId),(current)=>current&&current.state!=="PUBLISHED"?{...current,state:"FAILED",updatedAt:new Date().toISOString(),retryable,lastError:error}:null,"Record durable upload failure");}
 export async function recordGithubExport(uploadId:string,result:{ok:boolean;branch?:string;pullRequestUrl?:string;error?:string}){return updateJsonCas<UploadReceipt>(pathFor(uploadId),(current)=>current?{...current,updatedAt:new Date().toISOString(),githubExport:{...current.githubExport,state:result.ok?"OPEN":"FAILED",attempts:current.githubExport.attempts+1,branch:result.branch??current.githubExport.branch,pullRequestUrl:result.pullRequestUrl??current.githubExport.pullRequestUrl,lastError:result.ok?null:(result.error??"GitHub export failed")}}:null,"Update Git export receipt");}
-export async function listPendingGithubExportReceipts(limit=40):Promise<UploadReceipt[]>{
+async function readAllUploadReceipts():Promise<UploadReceipt[]>{
  const storage=getAdminContentStorage();
  const entries=await storage.listWorkspaceEntries();
  const receiptPaths=entries.filter((entry)=>entry.startsWith("receipts/")&&entry.endsWith(".json"));
- const receipts=(await Promise.all(receiptPaths.map(async path=>{const raw=await storage.readBinary(path);if(!raw)return null;try{return JSON.parse(raw.toString("utf8")) as UploadReceipt;}catch{return null;}})))
-  .filter((receipt):receipt is UploadReceipt=>Boolean(receipt))
+ return (await Promise.all(receiptPaths.map(async path=>{const raw=await storage.readBinary(path);if(!raw)return null;try{return JSON.parse(raw.toString("utf8")) as UploadReceipt;}catch{return null;}})))
+  .filter((receipt):receipt is UploadReceipt=>Boolean(receipt));
+}
+export async function listPendingGithubExportReceipts(limit=40):Promise<UploadReceipt[]>{
+ const receipts=(await readAllUploadReceipts())
   .filter((receipt)=>receipt.state==="PUBLISHED"&&(receipt.githubExport.state==="PENDING"||(receipt.githubExport.state==="FAILED"&&receipt.githubExport.attempts<8)))
   .sort((a,b)=>a.updatedAt.localeCompare(b.updatedAt));
  return receipts.slice(0,Math.max(1,Math.min(limit,100)));
 }
+/** Q4 ledger: published uploads whose export PR is open and not yet confirmed merged. */
+export async function listOpenGithubExportReceipts(limit=10):Promise<UploadReceipt[]>{
+ return (await readAllUploadReceipts())
+  .filter((receipt)=>receipt.state==="PUBLISHED"&&receipt.githubExport.state==="OPEN"&&Boolean(receipt.githubExport.pullRequestUrl))
+  .sort((a,b)=>a.updatedAt.localeCompare(b.updatedAt))
+  .slice(0,Math.max(1,Math.min(limit,50)));
+}
+/** Q4 ledger: STORED -> PUBLISHED -> export OPEN -> MERGED. Only an OPEN export can become MERGED. */
+export async function recordGithubExportMerged(uploadId:string,mergeCommitSha:string|null){return updateJsonCas<UploadReceipt>(pathFor(uploadId),(current)=>current&&current.githubExport.state==="OPEN"?{...current,updatedAt:new Date().toISOString(),githubExport:{...current.githubExport,state:"MERGED",lastError:null,mergeCommitSha,mergedAt:new Date().toISOString()}}:null,"Record merged Git export");}
 export function uploadIdFromStoragePath(storagePath:string){return storagePath.match(/\/(upload_[0-9a-f-]+)-/iu)?.[1]??null;}
 
 export async function markStoredForReview(uploadId:string,reviewBatchId:string,detail:string){return updateJsonCas<UploadReceipt>(pathFor(uploadId),(current)=>current&&current.state!=="PUBLISHED"?{...current,state:"STORED_FOR_REVIEW",updatedAt:new Date().toISOString(),reviewBatchId,retryable:false,lastError:null,verification:{learnerVisible:false,detail}}:null,"Store upload for manual review");}

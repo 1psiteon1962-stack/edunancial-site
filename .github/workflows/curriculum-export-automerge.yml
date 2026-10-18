@@ -1,0 +1,44 @@
+name: Curriculum export auto-merge
+
+# Q4 — zero-touch Git sync. Merges `curriculum-export` upload PRs only after all
+# CI checks and the production Netlify preview pass. See
+# scripts/curriculum/export-automerge.mjs for the full eligibility rules.
+
+on:
+  schedule:
+    - cron: "*/20 * * * *"
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: "Evaluate only; do not merge"
+        type: boolean
+        default: true
+
+permissions:
+  contents: write
+  pull-requests: write
+  checks: read
+  statuses: read
+
+concurrency:
+  group: curriculum-export-automerge
+  cancel-in-progress: false
+
+jobs:
+  automerge:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          sparse-checkout: scripts/curriculum
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Merge green curriculum export PRs
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          # Inputs are data, never shell source.
+          DRY_RUN: ${{ github.event_name == 'workflow_dispatch' && inputs.dry_run && 'true' || 'false' }}
+        run: node scripts/curriculum/export-automerge.mjs
