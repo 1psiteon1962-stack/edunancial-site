@@ -50,8 +50,9 @@ if (extension === '.md' || extension === '.zip' || !statSync(absoluteInput).isDi
 
 const markdownFiles = collectMarkdownFiles(absoluteInput);
 if (markdownFiles.length === 0) {
-  console.warn(`No markdown files found recursively under ${absoluteInput}`);
-  process.exit(0);
+  console.error(`Bulk import rejected: no markdown files found recursively under ${absoluteInput}`);
+  console.error('No lessons were imported. Supply a directory containing .md lesson files.');
+  process.exit(1);
 }
 
 const stagingDirectory = mkdtempSync(join(tmpdir(), 'edunancial-curriculum-bulk-'));
