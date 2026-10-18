@@ -1,0 +1,118 @@
+name: Curriculum Archive
+
+# Q2 — encrypted off-site backup of durable curriculum state (Netlify Blobs).
+#
+# THIS REPOSITORY IS PUBLIC. The archive is committed ONLY as an AES-256-GCM
+# sealed bundle (curriculum-archive.enc) on the orphan branch
+# `curriculum-archive`, which is never merged into main and never built by
+# Netlify. The push step refuses to commit any other file.
+#
+# Nightly, in one job:
+#   1. export every published/, receipts/ and exports/ object through the
+#      read-only endpoint (signed GitHub OIDC identity of THIS workflow only),
+#      inventory uploads/ by checksum, and fail closed on anything incomplete
+#   2. seal it and prove the sealed bundle decrypts and verifies
+#   3. compare the archive with production; fail if production lost objects
+#   4. restore drill: restore every object into an empty directory and re-verify
+#      each byte against the manifest
+#   5. commit the sealed bundle only when content changed
+#
+# Key: CURRICULUM_ARCHIVE_ENCRYPTION_KEY if set, otherwise the existing
+# BLOG_ARCHIVE_ENCRYPTION_KEY (separate keys are derived per archive).
+
+on:
+  schedule:
+    - cron: '41 9 * * *'   # 09:41 UTC daily, after the blog archive
+  workflow_dispatch:
+  pull_request:
+    paths:
+      - scripts/curriculum/archive/**
+      - scripts/curriculum/tests/curriculum-archive.test.mjs
+      - .github/workflows/curriculum-archive.yml
+
+permissions:
+  contents: read
+
+concurrency:
+  group: curriculum-archive-${{ github.event_name == 'pull_request' && github.ref || 'live' }}
+  cancel-in-progress: false
+
+jobs:
+  test:
+    name: Curriculum archive tests
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - run: node --test scripts/curriculum/tests/curriculum-archive.test.mjs
+
+  archive:
+    name: Nightly encrypted curriculum archive
+    needs: test
+    if: github.event_name != 'pull_request' && github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    permissions:
+      contents: write
+      id-token: write
+    env:
+      CURRICULUM_ARCHIVE_ENCRYPTION_KEY: ${{ secrets.CURRICULUM_ARCHIVE_ENCRYPTION_KEY }}
+      BLOG_ARCHIVE_ENCRYPTION_KEY: ${{ secrets.BLOG_ARCHIVE_ENCRYPTION_KEY }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Check out archive branch (created on first run)
+        run: |
+          set -euo pipefail
+          git config user.name curriculum-archive-bot
+          git config user.email curriculum-archive-bot@users.noreply.github.com
+          if git ls-remote --exit-code --heads origin curriculum-archive >/dev/null; then
+            git fetch --no-tags --depth=1 origin curriculum-archive
+            git worktree add archive FETCH_HEAD
+            git -C archive checkout -B curriculum-archive
+          else
+            git worktree add --detach archive
+            git -C archive checkout --orphan curriculum-archive
+            git -C archive rm -rf --quiet .
+          fi
+      - name: Export, seal and round-trip verify (plaintext stays in memory)
+        run: node scripts/curriculum/archive/archive-cli.mjs export --out archive
+      - name: Compare archive with production (fails if production lost objects)
+        run: node scripts/curriculum/archive/archive-cli.mjs verify --archive archive
+      - name: Restore drill into an empty directory
+        run: |
+          set -euo pipefail
+          drill="$(mktemp -d)/store"
+          node scripts/curriculum/archive/archive-cli.mjs restore-drill --archive archive --to "$drill"
+          rm -rf "$drill"
+      - name: Commit and push the encrypted bundle to curriculum-archive only
+        run: |
+          set -euo pipefail
+          cd archive
+          # Netlify must never build this branch.
+          printf '[build]\n  ignore = "exit 0"\n' > netlify.toml
+          printf '%s\n' '# Edunancial curriculum archive (encrypted backup)' '' \
+            'curriculum-archive.enc is an AES-256-GCM encrypted export of durable curriculum storage' \
+            '(published lessons, translation packages, receipts, export manifests, upload checksums).' \
+            'It is unreadable without the archive key. Never commit plaintext here.' \
+            'Restore drill: node scripts/curriculum/archive/archive-cli.mjs restore-drill --archive <dir> --to <empty dir>' > README.md
+          git add -A
+          # Public repository: refuse to commit anything except the sealed bundle and its metadata.
+          bad=$(git diff --cached --name-only | grep -vxE 'curriculum-archive\.enc|curriculum-archive\.hmac|README\.md|netlify\.toml' || true)
+          if [ -n "$bad" ]; then echo "::error title=Refusing to push::Unexpected files on curriculum-archive: $bad"; exit 1; fi
+          extra=$(git ls-files | grep -vxE 'curriculum-archive\.enc|curriculum-archive\.hmac|README\.md|netlify\.toml' || true)
+          if [ -n "$extra" ]; then echo "::error title=Refusing to push::curriculum-archive contains non-encrypted files: $extra"; exit 1; fi
+          if git diff --cached --quiet; then
+            echo "Curriculum unchanged; archive already current." | tee -a "$GITHUB_STEP_SUMMARY"
+            exit 0
+          fi
+          git commit -q -m "Curriculum archive $(date -u +%Y-%m-%dT%H:%MZ)" -m "Run: $GITHUB_SERVER_URL/$GITHUB_REPOSITORY/actions/runs/$GITHUB_RUN_ID"
+          git push origin HEAD:refs/heads/curriculum-archive
+          echo "Encrypted curriculum archive updated; restore drill passed." >> "$GITHUB_STEP_SUMMARY"
