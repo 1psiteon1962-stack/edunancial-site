@@ -30,10 +30,16 @@ test("beta activation starts on first successful login for the approved email", 
   assert.equal(result.invitation?.redeemedAt, firstLoginAt);
   assert.equal(result.invitation?.firstLoginAt, firstLoginAt);
   assert.equal(result.invitation?.betaStartsAt, firstLoginAt);
-  assert.equal(result.invitation?.betaExpiresAt, "2026-07-15T12:00:00.000Z");
+  // Approved product policy: 90 days from first successful activation.
+  assert.equal(result.invitation?.betaExpiresAt, "2026-10-10T12:00:00.000Z");
+  assert.equal(result.access.remainingMs, 90 * 24 * 60 * 60 * 1000);
 });
 
-test("beta invitations reject the wrong email and expire after 72 hours", async () => {
+test("beta invitations reject the wrong email and expire exactly 90 days after activation", async () => {
+  const DAY_MS = 24 * 60 * 60 * 1000;
+  const activatedAt = "2026-07-12T02:00:00.000Z";
+  const expiresAt = "2026-10-10T02:00:00.000Z";
+  const at = (offsetMs: number) => new Date(new Date(activatedAt).getTime() + offsetMs).toISOString();
   const { invitation, passNumber } = await createBetaInvitation({
     testerName: "Taylor Beta",
     approvedEmail: "beta@example.com",
@@ -41,6 +47,7 @@ test("beta invitations reject the wrong email and expire after 72 hours", async 
     now: "2026-07-12T00:00:00.000Z",
   });
 
+  // Email binding: the pass is useless with any other email address.
   const mismatch = await applyBetaLogin({
     invitation,
     email: "wrong@example.com",
@@ -48,22 +55,41 @@ test("beta invitations reject the wrong email and expire after 72 hours", async 
     now: "2026-07-12T01:00:00.000Z",
   });
   assert.match(mismatch.error ?? "", /different approved email/i);
+  assert.equal(mismatch.invitation?.status, "approved");
+  assert.equal(mismatch.invitation?.betaStartsAt, null, "a rejected attempt must not start the clock");
 
+  // Access begins on successful activation, not at issuance.
   const activated = await applyBetaLogin({
     invitation,
     email: "beta@example.com",
     passNumber,
-    now: "2026-07-12T02:00:00.000Z",
+    now: activatedAt,
   });
+  assert.equal(activated.error, undefined);
+  assert.equal(activated.invitation?.status, "active");
+  assert.equal(activated.invitation?.betaStartsAt, activatedAt);
+  assert.equal(activated.invitation?.betaExpiresAt, expiresAt);
 
-  const expired = await applyBetaLogin({
-    invitation: activated.invitation,
-    email: "beta@example.com",
-    now: "2026-07-15T02:00:00.001Z",
-  });
+  const check = (now: string) => applyBetaLogin({ invitation: activated.invitation, email: "beta@example.com", now });
 
-  assert.equal(expired.invitation?.status, "expired");
-  assert.equal(expired.access.remainingMs, 0);
+  // The old 72-hour window no longer applies.
+  const after72h = await check(at(72 * 60 * 60 * 1000 + 1));
+  assert.equal(after72h.invitation?.status, "active");
+  assert.ok(after72h.access.remainingMs > 0);
+
+  // Still active one millisecond before day 90.
+  const justBefore = await check(at(90 * DAY_MS - 1));
+  assert.equal(justBefore.invitation?.status, "active");
+  assert.equal(justBefore.access.remainingMs, 1);
+
+  // Expires precisely at the 90-day boundary, with zero time remaining.
+  const atBoundary = await check(expiresAt);
+  assert.equal(atBoundary.invitation?.status, "expired");
+  assert.equal(atBoundary.access.remainingMs, 0);
+
+  const later = await check(at(90 * DAY_MS + 1));
+  assert.equal(later.invitation?.status, "expired");
+  assert.equal(later.access.remainingMs, 0);
 });
 
 test("beta feedback records tester identity without extra sensitive data", async () => {
