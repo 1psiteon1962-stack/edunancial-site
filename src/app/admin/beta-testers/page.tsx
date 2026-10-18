@@ -1,3 +1,4 @@
+import BetaCodesAdminPanel from "@/components/admin/BetaCodesAdminPanel";
 import BetaTestersAdminClient from "@/components/admin/BetaTestersAdminClient";
 
 export const metadata = {
@@ -5,5 +6,10 @@ export const metadata = {
 };
 
 export default function BetaTestersAdminPage() {
-  return <BetaTestersAdminClient />;
+  return (
+    <>
+      <BetaCodesAdminPanel />
+      <BetaTestersAdminClient />
+    </>
+  );
 }
