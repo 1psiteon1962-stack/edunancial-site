@@ -150,3 +150,57 @@ jobs:
         if: always()
         run: |
           { echo '```'; cat reports/production-audit/level1-matrix.txt 2>/dev/null; echo; grep -E ' FAIL' reports/production-audit/audit-matrix.txt 2>/dev/null | head -80; echo '```'; } >> "$GITHUB_STEP_SUMMARY"
+
+  raise-floor:
+    # Protected floor only rises: when the audit proves new coordinates PASS,
+    # open (or refresh) one pull request adding them to the floor. Never removes.
+    needs: audit
+    if: ${{ !cancelled() && github.ref == 'refs/heads/main' }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      contents: write
+      pull-requests: write
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/download-artifact@v4
+        with:
+          name: production-curriculum-audit
+          path: audit-artifact
+        continue-on-error: true
+      - name: Open floor-raise pull request
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+        run: |
+          set -euo pipefail
+          proposed=audit-artifact/reports/production-audit/proposed-baseline.json
+          floor=curriculum/verification/production-baseline.json
+          if [ ! -f "$proposed" ]; then echo "No newly passing coordinates."; exit 0; fi
+          # Refuse anything that is not a strict superset of the current floor.
+          node -e '
+            const fs=require("fs");
+            const [floorPath, proposedPath]=process.argv.slice(1);
+            const old=fs.existsSync(floorPath)?JSON.parse(fs.readFileSync(floorPath,"utf8")).coordinates:[];
+            const next=JSON.parse(fs.readFileSync(proposedPath,"utf8")).coordinates;
+            const key=/^[A-Z]+:L[1-5]:[A-Za-z]{2,3}(-[A-Za-z0-9]+)*$/;
+            if(!Array.isArray(next)||next.some(c=>!key.test(c)))throw new Error("malformed proposed floor");
+            const missing=old.filter(c=>!next.includes(c));
+            if(missing.length)throw new Error("proposed floor would remove: "+missing.join(", "));
+            if(next.length<=old.length){console.log("Floor unchanged.");process.exit(3);}
+            console.log(`Floor ${old.length} -> ${next.length}`);
+          ' "$floor" "$proposed" || { code=$?; [ "$code" = 3 ] && exit 0; exit "$code"; }
+          cp "$proposed" "$floor"
+          branch=automation/raise-audit-floor
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git checkout -B "$branch"
+          git add "$floor"
+          git commit -m "chore(audit): raise protected curriculum floor" -m "Coordinates newly proven PASS in production by $RUN_URL. The floor only grows."
+          git push --force origin "$branch"
+          if [ -z "$(gh pr list --head "$branch" --state open --json number --jq '.[0].number')" ]; then
+            gh pr create --head "$branch" --base main --title "chore(audit): raise protected curriculum floor" \
+              --body "Adds coordinates newly proven PASS in production ($RUN_URL) to curriculum/verification/production-baseline.json. The floor only grows; this PR never removes a coordinate."
+          fi
