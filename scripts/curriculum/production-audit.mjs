@@ -109,6 +109,31 @@ async function call(query, attempt = 0) {
   return response.json();
 }
 
+// GitHub keeps step annotations in the public check-run API even when logs and
+// artifacts are unavailable to a reviewer. Publish the per-level matrix there so
+// the audit outcome is inspectable without downloading anything. Output only:
+// this never changes which coordinates pass or fail.
+function annotationText(lines) {
+  return lines.join("\n").replace(/%/g, "%25").replace(/\r/g, "%0D").replace(/\n/g, "%0A");
+}
+function emitActionsAnnotations(header, results, locales) {
+  const auditedLevels = [...new Set(results.map((r) => r.level))].sort((a, b) => a - b);
+  for (const level of auditedLevels) {
+    const rows = [`${"".padEnd(14)}${TRACKS.map((t) => t.padStart(7)).join("")}`];
+    for (const locale of locales) {
+      rows.push(`${locale.padEnd(14)}${TRACKS.map((t) => {
+        const r = results.find((x) => x.track === t && x.level === level && x.locale === locale);
+        if (!r) return "-".padStart(7);
+        const mark = r.runtimeStatus === "PASS" ? "" : r.auditError ? "E" : r.englishFallbackLessonIDs?.length ? "f" : "x";
+        return `${r.retrievableLessonCount}${mark}`.padStart(7);
+      }).join("")}`);
+    }
+    console.log(`::notice title=Level ${level} learner-retrievable lessons (x=FAIL f=English fallback E=error)::${annotationText(rows)}`);
+  }
+  const errors = [...new Set(results.filter((r) => r.auditError).map((r) => r.auditError))].slice(0, 5);
+  console.log(`::notice title=Audit summary::${annotationText([...header, ...errors.map((e) => `error: ${e}`)])}`);
+}
+
 async function main() {
   // Discover the supported locale list from production itself (catalog-driven).
   let locales = options.locales;
@@ -188,6 +213,7 @@ async function main() {
   writeFileSync(join(outDir, "level1-matrix.txt"), [`# Level 1 — production-retrievable lessons in the learner's own locale (0-50)`, ...grid].join("\n") + "\n");
   writeFileSync(join(outDir, "audit-full.json"), JSON.stringify({ meta, results }, null, 2));
   console.log([...header, "", ...grid].join("\n"));
+  if (process.env.GITHUB_ACTIONS === "true") emitActionsAnnotations(header, results, locales);
 
     return { passing, regressions, baseline };
   };
