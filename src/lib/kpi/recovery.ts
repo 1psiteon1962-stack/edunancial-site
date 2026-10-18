@@ -28,9 +28,8 @@ export async function recoverKpiSpool(limit = 25): Promise<KpiRecoveryReport> {
   let recovered = 0;
   let failed = 0;
   let hasMore = false;
-  let cursor: string | undefined;
-  do {
-    const page = await store.list({ prefix: "pending/", ...(cursor ? { cursor } : {}) });
+  const page = await store.list({ prefix: "pending/" });
+  {
     for (const entry of page.blobs) {
       if (attempted >= safeLimit) { hasMore = true; break; }
       attempted++;
@@ -48,7 +47,6 @@ export async function recoverKpiSpool(limit = 25): Promise<KpiRecoveryReport> {
       }
     }
     if (hasMore) break;
-    cursor = page.hasMore ? page.cursor : undefined;
-  } while (cursor && attempted < safeLimit);
-  return { attempted, recovered, failed, hasMore: hasMore || Boolean(cursor) };
+  }
+  return { attempted, recovered, failed, hasMore: hasMore || page.blobs.length > safeLimit };
 }
