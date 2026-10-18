@@ -22,6 +22,26 @@ export function validateCoordinateResponse(response, job) {
       !['PASS', 'FAIL'].includes(coordinate.runtimeStatus)) {
     throw new Error('Invalid audit response: missing or inconsistent counts/status.');
   }
+  // A response is not trustworthy merely because it marks the coordinate FAIL:
+  // loss diagnostics must still account for all 50 canonical lesson IDs.
+  const unavailableIds = [...coordinate.missingLessonIDs, ...coordinate.englishFallbackLessonIDs];
+  const canonicalPrefix = `${job.track}-L${job.level}-`;
+  const validId = (id) => {
+    if (typeof id !== 'string' || !id.startsWith(canonicalPrefix)) return false;
+    const suffix = id.slice(canonicalPrefix.length);
+    return /^[0-9]{3}$/.test(suffix) && Number(suffix) >= 1 && Number(suffix) <= 50;
+  };
+  const failureIds = Array.isArray(coordinate.failures) ? coordinate.failures.map((failure) => failure?.lessonId) : null;
+  if (!unavailableIds.every(validId) ||
+      new Set(unavailableIds).size !== unavailableIds.length ||
+      coordinate.englishFallbackLessonCount !== coordinate.englishFallbackLessonIDs.length ||
+      coordinate.retrievableLessonCount + unavailableIds.length !== 50 ||
+      coordinate.discoveredLessonCount < coordinate.retrievableLessonCount + coordinate.englishFallbackLessonCount ||
+      !failureIds || failureIds.length !== unavailableIds.length ||
+      new Set(failureIds).size !== failureIds.length ||
+      failureIds.some((id) => !unavailableIds.includes(id))) {
+    throw new Error('Invalid audit response: missing/fallback IDs contradict lesson counts or failure diagnostics.');
+  }
   const complete = coordinate.retrievableLessonCount === 50 &&
     coordinate.discoveredLessonCount === 50 &&
     coordinate.englishFallbackLessonCount === 0 &&
