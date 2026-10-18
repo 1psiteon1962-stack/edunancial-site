@@ -15,7 +15,9 @@ export async function GET() {
   const response = NextResponse.json(session);
 
   if (session.user) {
-    applyMembershipCookie(response, session.user.membershipTier);
+    // Cap the signed tier cookie at the beta expiry so an expired/revoked beta grant cannot outlive its window.
+    const betaExpiry = session.user.betaAccess?.status === "active" ? session.user.betaAccess.betaExpiresAt : null;
+    applyMembershipCookie(response, session.user.membershipTier, betaExpiry);
   } else {
     clearMembershipCookie(response);
   }
