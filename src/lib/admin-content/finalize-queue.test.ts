@@ -130,6 +130,36 @@ describe("runParallelFinalization", () => {
     assert.deepEqual(results, [1, 3, 4, 5]);
   });
 
+  test("Q2: a throwing progress callback cannot kill the queue or drop results", async () => {
+    const attempted: number[] = [];
+    const failures: number[] = [];
+    let progressCalls = 0;
+    const results = await runParallelFinalization(
+      [1, 2, 3, 4, 5, 6],
+      async (item) => {
+        attempted.push(item);
+        return item * 10;
+      },
+      () => {
+        progressCalls += 1;
+        throw new Error("progress UI unavailable");
+      },
+      ({ item }) => failures.push(item),
+      { concurrency: 3 },
+    );
+    assert.equal(new Set(attempted).size, 6, "every package must still be attempted");
+    assert.deepEqual(results, [10, 20, 30, 40, 50, 60]);
+    assert.deepEqual(failures, [], "a progress-callback error is not a package failure");
+    assert.equal(progressCalls, 6, "progress is still reported for every package");
+  });
+
+  test("Q2: a throwing progress callback on empty input does not throw", async () => {
+    const results = await runParallelFinalization([], async () => 1, () => {
+      throw new Error("progress UI unavailable");
+    });
+    assert.deepEqual(results, []);
+  });
+
   test("does not retry ambiguous gateway timeouts while other packages continue", async () => {
     let attemptsForTwo = 0;
     const failures: number[] = [];
