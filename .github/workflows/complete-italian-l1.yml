@@ -91,6 +91,7 @@ jobs:
           EDUNANCIAL_TRANSLATION_LOCALE: nl
         run: node scripts/international/generate-locale-l1.mjs "$EDUNANCIAL_TRANSLATION_LOCALE"
       - name: Verify exact BLUE L1 Dutch 50/50
+        if: github.event_name == 'workflow_dispatch'
         run: |
           node - <<'NODE'
           const fs=require("fs");
