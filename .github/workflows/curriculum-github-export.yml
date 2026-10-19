@@ -50,6 +50,13 @@ jobs:
               if [ "$(jq -r '.done // false' export.json)" = "true" ]; then echo "Export queue empty."; exit 0; fi
               sleep 5; continue
             fi
+            # A 401 can be transient (GitHub OIDC signing-key rotation or a JWKS fetch timeout
+            # on the server). Retry with a fresh token a bounded number of times before failing.
+            if [ "$code" = "401" ] && [ "${auth_retries:-0}" -lt 3 ]; then
+              auth_retries=$(( ${auth_retries:-0} + 1 ))
+              echo "::warning title=Curriculum export auth retry::HTTP 401; retrying with a fresh OIDC token (${auth_retries}/3)."
+              sleep $(( 20 * auth_retries )); continue
+            fi
             echo "Export stopped on HTTP $code. Learner publication is unaffected; receipt remains retryable."
             # Surface the server's reason through the annotations API (no secrets in this body).
             reason=$(jq -r '[.uploadId // "", .error // "", .permissionHint // ""] | map(select(. != "")) | join(" | ")' export.json 2>/dev/null | head -c 1500 | tr '\n' ' ')
