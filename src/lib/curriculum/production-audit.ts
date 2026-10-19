@@ -24,6 +24,8 @@ import { LANGUAGE_CATALOG } from "@/lib/international/languages";
 import { getNeonSql } from "@/lib/db/neon";
 import { resolveDeployCommit } from "@/lib/deployment/build-commit";
 
+import { assessContentQuality, type ContentQuality } from "@/lib/curriculum/content-quality";
+
 export const AUDIT_TRACKS = ["RED", "WHITE", "BLUE", "GREEN", "GOLD", "PURPLE", "ORANGE", "BLACK"] as const;
 export const AUDIT_LEVELS = [1, 2, 3, 4, 5] as const;
 export const AUDIT_LESSONS_PER_LEVEL = 50;
@@ -61,8 +63,16 @@ export type CoordinateAudit = {
   runtimeStatus: "PASS" | "FAIL";
   failures: LessonFailure[];
   receipts: { state: string; count: number }[] | { error: string };
+  /**
+   * Report-only content quality of the bodies learners receive (does not change
+   * runtimeStatus or the protected floor). TEMPLATE: most lessons share one body
+   * once numbers/IDs are ignored. THIN: median body is shorter than a real lesson.
+   */
+  quality: ContentQuality;
   durationMs: number;
 };
+
+export { assessContentQuality, THIN_LESSON_MAX_CHARS, type ContentQuality } from "@/lib/curriculum/content-quality";
 
 const ENGLISH = new Set(["en", "en-us"]);
 function isEnglish(locale: string) { return ENGLISH.has(locale.toLowerCase()); }
@@ -211,6 +221,7 @@ export async function auditCoordinate(track: string, level: number, locale: stri
     runtimeStatus: passed ? "PASS" : "FAIL",
     failures,
     receipts,
+    quality: assessContentQuality([...pass].map((id) => retrievedById.get(id)?.body ?? "")),
     durationMs: elapsed,
   };
 }
