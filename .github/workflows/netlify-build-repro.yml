@@ -36,8 +36,18 @@ jobs:
         if: always()
         shell: bash
         run: |
-          du -sh .netlify/functions-internal/* .netlify/functions/* 2>/dev/null | sort -h | tail -15 | tee sizes.txt || true
+          du -sh .netlify/functions-internal/* .netlify/functions/* 2>/dev/null | sort -h | tail -15 > sizes.txt || true
           du -sh .next/standalone 2>/dev/null | tee -a sizes.txt || true
+          h=.netlify/functions-internal/___netlify-server-handler
+          if [ -d "$h" ]; then
+            echo "--- handler top-level" >> sizes.txt
+            du -sh "$h"/* "$h"/.[!.]* 2>/dev/null | sort -h | tail -12 >> sizes.txt
+            echo "--- largest dirs (depth<=4)" >> sizes.txt
+            du -h --max-depth=4 "$h" 2>/dev/null | sort -h | tail -25 >> sizes.txt
+            echo "--- node_modules top 15" >> sizes.txt
+            nm=$(find "$h" -maxdepth 3 -type d -name node_modules | head -1)
+            [ -n "$nm" ] && du -sh "$nm"/* "$nm"/@*/* 2>/dev/null | sort -h | tail -15 >> sizes.txt
+          fi
           body=$(cat sizes.txt | sed 's/%/%25/g' | awk 'BEGIN{ORS="%0A"}{print}')
           echo "::notice title=Function sizes::$body"
       - name: Report failure tail
