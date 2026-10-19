@@ -85,15 +85,36 @@ async function githubRequest(path: string, init: RequestInit = {}) {
   return response.json() as Promise<Record<string, unknown>>;
 }
 
+/**
+ * Read a repository file's bytes. The contents API omits `content` for files
+ * larger than 1 MB (encoding "none"); curriculum/registry.json and
+ * curriculum/inventory.json exceed that, which silently broke every Git export.
+ * Fall back to the Git blobs API (up to 100 MB) by the file's blob SHA.
+ * Returns null only when neither API returns the bytes.
+ */
+async function readRepositoryFile(path: string): Promise<Buffer | null> {
+  const data = await githubRequest(`/contents/${path}`);
+  if (typeof data.content === "string" && data.content.length > 0) {
+    return Buffer.from(data.content.replace(/\s/g, ""), "base64");
+  }
+  if (typeof data.sha === "string" && data.sha) {
+    const blob = await githubRequest(`/git/blobs/${data.sha}`);
+    if (typeof blob.content === "string" && blob.content.length > 0 && blob.encoding === "base64") {
+      return Buffer.from(blob.content.replace(/\s/g, ""), "base64");
+    }
+  }
+  return null;
+}
+
 async function fetchCurrentRegistry(): Promise<CurriculumRegistry> {
-  const data = await githubRequest(`/contents/${CURRICULUM_REGISTRY_PATH}`);
-  if (!data.content || typeof data.content !== "string") {
+  const bytes = await readRepositoryFile(CURRICULUM_REGISTRY_PATH);
+  if (!bytes || bytes.length === 0) {
     throw new Error(
       `Refusing curriculum publication because ${CURRICULUM_REGISTRY_PATH} could not be read from the repository. Existing curriculum must never be treated as empty.`,
     );
   }
 
-  const raw = Buffer.from(data.content as string, "base64").toString("utf8");
+  const raw = bytes.toString("utf8");
   let registry: CurriculumRegistry;
   try {
     registry = JSON.parse(raw) as CurriculumRegistry;
@@ -114,9 +135,9 @@ async function fetchCurrentRegistry(): Promise<CurriculumRegistry> {
 
 
 async function fetchCurrentJson<T>(path: string): Promise<T> {
-  const data = await githubRequest(`/contents/${path}`);
-  if (!data.content || typeof data.content !== "string") throw new Error(`Required repository file is unreadable: ${path}`);
-  return JSON.parse(Buffer.from(data.content as string, "base64").toString("utf8")) as T;
+  const bytes = await readRepositoryFile(path);
+  if (!bytes || bytes.length === 0) throw new Error(`Required repository file is unreadable: ${path}`);
+  return JSON.parse(bytes.toString("utf8")) as T;
 }
 
 async function fetchGitBackedCanonicalLessonIds(track: string, level: number): Promise<Set<string>> {
