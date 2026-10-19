@@ -201,6 +201,10 @@ jobs:
           git commit -m "chore(audit): raise protected curriculum floor" -m "Coordinates newly proven PASS in production by $RUN_URL. The floor only grows."
           git push --force origin "$branch"
           if [ -z "$(gh pr list --head "$branch" --state open --json number --jq '.[0].number')" ]; then
-            gh pr create --head "$branch" --base main --title "chore(audit): raise protected curriculum floor" \
-              --body "Adds coordinates newly proven PASS in production ($RUN_URL) to curriculum/verification/production-baseline.json. The floor only grows; this PR never removes a coordinate."
+            # Repository settings may forbid GitHub Actions from opening PRs; the
+            # pushed branch is then the deliverable and is reported, not failed.
+            if ! gh pr create --head "$branch" --base main --title "chore(audit): raise protected curriculum floor" \
+              --body "Adds coordinates newly proven PASS in production ($RUN_URL) to curriculum/verification/production-baseline.json. The floor only grows; this PR never removes a coordinate."; then
+              echo "::notice title=Floor raise ready::Branch $branch has the raised floor. Open a PR from it into main (Actions may not create PRs in this repository)."
+            fi
           fi
