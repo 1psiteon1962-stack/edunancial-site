@@ -54,6 +54,22 @@ const nextConfig = {
     curriculumRoutes.map((route) => [route, curriculumRuntimeFiles]),
   ),
 
+  // The Netlify server handler must stay under the AWS Lambda 250 MB (unzipped)
+  // limit; at ~284 MB deploys failed with "Invalid AWS Lambda parameters".
+  // None of these are read at runtime:
+  // - curriculum/reports: generated audit reports (~21 MB); the app only
+  //   references them as GitHub repository paths, never from local disk.
+  // - typescript: compiler, not needed by the built server (~9 MB).
+  // - musl builds of sharp: Lambda runs glibc Linux (~17 MB).
+  outputFileTracingExcludes: {
+    "*": [
+      "./curriculum/reports/**/*",
+      "./node_modules/typescript/**/*",
+      "./node_modules/@img/sharp-libvips-linuxmusl-x64/**/*",
+      "./node_modules/@img/sharp-linuxmusl-x64/**/*",
+    ],
+  },
+
   async headers() {
     return [
       { source: "/:path*", headers: securityHeaders },
