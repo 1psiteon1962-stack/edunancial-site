@@ -20,6 +20,15 @@ test("Q4: exporter label matches the auto-merge workflow label", async () => {
 
 test("Q4: the receipt ledger only moves OPEN exports to MERGED", () => {
   const source = readFileSync(join(process.cwd(), "src/lib/admin-content/upload-receipts.ts"), "utf8");
-  assert.match(source, /"NOT_REQUIRED"\|"PENDING"\|"OPEN"\|"MERGED"\|"FAILED"/u);
+  assert.match(source, /"NOT_REQUIRED"\|"PENDING"\|"OPEN"\|"MERGED"\|"CLOSED"\|"FAILED"/u);
   assert.match(source, /current&&current\.githubExport\.state==="OPEN"\?\{[^}]*state:"MERGED"/u);
+});
+
+test("Q4: ledger reconciliation reads newest receipts first and closes PRs closed without merge", () => {
+  const source = readFileSync(join(process.cwd(), "src/lib/admin-content/upload-receipts.ts"), "utf8");
+  assert.match(source, /listOpenGithubExportReceipts\(limit=50\)[\s\S]{0,400}\.sort\(\(a,b\)=>b\.updatedAt\.localeCompare\(a\.updatedAt\)\)/u, "newest first");
+  assert.match(source, /current&&current\.githubExport\.state==="OPEN"\?\{[^}]*state:"CLOSED"/u, "only OPEN can become CLOSED");
+  const route = readFileSync(join(process.cwd(), "src/app/api/admin/content/upload/github-export-next/route.ts"), "utf8");
+  assert.match(route, /listOpenGithubExportReceipts\(50\)/u);
+  assert.match(route, /else if\(status\.state==="closed"\)/u);
 });
