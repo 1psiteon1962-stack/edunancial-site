@@ -1,7 +1,7 @@
 {
   "_schema": "curriculum/schemas/registry.schema.json",
   "_version": "1.0",
-  "_generated": "2026-10-19T05:32:58.801Z",
+  "_generated": "2026-10-19T13:53:25.161Z",
   "_note": "Authoritative curriculum registry (empty lessons are a valid production state).",
   "tracks": {
     "RED": {
@@ -34443,7 +34443,1258 @@
           }
         },
         "5": {
-          "assets": {}
+          "assets": {
+            "ORANGE-L5-001": {
+              "id": "ORANGE-L5-001",
+              "type": "lesson",
+              "track": "ORANGE",
+              "trackName": "Sales & Marketing",
+              "level": 5,
+              "lessonNumber": 1,
+              "title": "Marketing at Level 5: Every Sales Decision Moves the Whole Board",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-19",
+              "path": "content/curriculum/ORANGE/L5/ORANGE-L5-001.md",
+              "checksum": "sha256:b0533be523526418e9c7d7cdce9a38099a7cc0e5634cdcc384f0d2201fcb0e3e",
+              "status": "active",
+              "ingestionId": "3218be35-15c2-4bd0-93a2-9ec9a55077e2",
+              "importedAt": "2026-10-19T13:53:22.786Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Sales & Marketing",
+                "summary": "Learn why sales and marketing decisions at Level 5 are orchestration decisions that affect cash flow, taxes, legal exposure, financing, and leadership all at once."
+              }
+            },
+            "ORANGE-L5-002": {
+              "id": "ORANGE-L5-002",
+              "type": "lesson",
+              "track": "ORANGE",
+              "trackName": "Sales & Marketing",
+              "level": 5,
+              "lessonNumber": 2,
+              "title": "Pricing Orchestrated with Cash Flow and Tax",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-19",
+              "path": "content/curriculum/ORANGE/L5/ORANGE-L5-002.md",
+              "checksum": "sha256:abe4dadb24870eb63e4e588bc129f7156656f4bb975289aa584a0800a6940339",
+              "status": "active",
+              "ingestionId": "3218be35-15c2-4bd0-93a2-9ec9a55077e2",
+              "importedAt": "2026-10-19T13:53:22.786Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Sales & Marketing",
+                "summary": "See how pricing decisions affect cash flow timing, profit margins, tax obligations, and customer perception, and how to set prices that work for the whole business."
+              }
+            },
+            "ORANGE-L5-003": {
+              "id": "ORANGE-L5-003",
+              "type": "lesson",
+              "track": "ORANGE",
+              "trackName": "Sales & Marketing",
+              "level": 5,
+              "lessonNumber": 3,
+              "title": "Customer Acquisition Cost, Lifetime Value, and Financing",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-19",
+              "path": "content/curriculum/ORANGE/L5/ORANGE-L5-003.md",
+              "checksum": "sha256:20c1b1a24a43af545bd43cfb14f3e16ae3194f529e6d79624a1f2cfb4f12c7ef",
+              "status": "active",
+              "ingestionId": "3218be35-15c2-4bd0-93a2-9ec9a55077e2",
+              "importedAt": "2026-10-19T13:53:22.786Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Sales & Marketing",
+                "summary": "Learn how to compare the cost of acquiring customers with their lifetime value, and how financing, payback periods, and churn decide whether growth is sustainable."
+              }
+            },
+            "ORANGE-L5-004": {
+              "id": "ORANGE-L5-004",
+              "type": "lesson",
+              "track": "ORANGE",
+              "trackName": "Sales & Marketing",
+              "level": 5,
+              "lessonNumber": 4,
+              "title": "Marketing Real Estate: Positioning, Pricing, and Timing",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-19",
+              "path": "content/curriculum/ORANGE/L5/ORANGE-L5-004.md",
+              "checksum": "sha256:7a481e17697145e350614f820c3a575e18fff07b33828598cc119fe3659ab496",
+              "status": "active",
+              "ingestionId": "3218be35-15c2-4bd0-93a2-9ec9a55077e2",
+              "importedAt": "2026-10-19T13:53:22.786Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Sales & Marketing",
+                "summary": "Apply sales and marketing strategy to selling or leasing property, coordinating pricing, timing, financing conditions, legal disclosures, and tax consequences."
+              }
+            },
+            "ORANGE-L5-005": {
+              "id": "ORANGE-L5-005",
+              "type": "lesson",
+              "track": "ORANGE",
+              "trackName": "Sales & Marketing",
+              "level": 5,
+              "lessonNumber": 5,
+              "title": "Raising Capital Is a Sales Process",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-19",
+              "path": "content/curriculum/ORANGE/L5/ORANGE-L5-005.md",
+              "checksum": "sha256:d707ce7fccf886bc7328f1f602e7fc899c50cce6ae57c4c6551ef9238577fed9",
+              "status": "active",
+              "ingestionId": "3218be35-15c2-4bd0-93a2-9ec9a55077e2",
+              "importedAt": "2026-10-19T13:53:22.786Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Sales & Marketing",
+                "summary": "Learn how pitching investors uses sales skills—research, positioning, storytelling, handling objections—while staying within securities rules and giving an honest picture of risk."
+              }
+            },
+            "ORANGE-L5-006": {
+              "id": "ORANGE-L5-006",
+              "type": "lesson",
+              "track": "ORANGE",
+              "trackName": "Sales & Marketing",
+              "level": 5,
+              "lessonNumber": 6,
+              "title": "Negotiating a Business Acquisition with the Whole Board in View",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-19",
+              "path": "content/curriculum/ORANGE/L5/ORANGE-L5-006.md",
+              "checksum": "sha256:bf94b3b70da47b707378821716fac59fe95244436fe06af6a880025091a803a1",
+              "status": "active",
+              "ingestionId": "3218be35-15c2-4bd0-93a2-9ec9a55077e2",
+              "importedAt": "2026-10-19T13:53:22.786Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Sales & Marketing",
+                "summary": "Use BATNA, anchoring, and trade-offs to negotiate a business purchase while coordinating price with financing, legal protections, tax structure, and post-closing leadership."
+              }
+            },
+            "ORANGE-L5-007": {
+              "id": "ORANGE-L5-007",
+              "type": "lesson",
+              "track": "ORANGE",
+              "trackName": "Sales & Marketing",
+              "level": 5,
+              "lessonNumber": 7,
+              "title": "Negotiating Real Estate with Seller Financing",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-19",
+              "path": "content/curriculum/ORANGE/L5/ORANGE-L5-007.md",
+              "checksum": "sha256:223029ed3c73560e2612d51bd866ecbb6c1e94808f16ba0a88e50adfb1624bf4",
+              "status": "active",
+              "ingestionId": "3218be35-15c2-4bd0-93a2-9ec9a55077e2",
+              "importedAt": "2026-10-19T13:53:22.786Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Sales & Marketing",
+                "summary": "Learn how buyers and sellers negotiate seller-financed real estate deals, trading price, interest rate, down payment, and terms to create outcomes that work for both."
+              }
+            },
+            "ORANGE-L5-008": {
+              "id": "ORANGE-L5-008",
+              "type": "lesson",
+              "track": "ORANGE",
+              "trackName": "Sales & Marketing",
+              "level": 5,
+              "lessonNumber": 8,
+              "title": "Sales Compensation: Incentives, Tax, and Classification",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-19",
+              "path": "content/curriculum/ORANGE/L5/ORANGE-L5-008.md",
+              "checksum": "sha256:8adb8878cd910de3faa8dd6f145285a7445f875d07138350910e5a208a2612b1",
+              "status": "active",
+              "ingestionId": "3218be35-15c2-4bd0-93a2-9ec9a55077e2",
+              "importedAt": "2026-10-19T13:53:22.786Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Sales & Marketing",
+                "summary": "Design sales compensation plans that motivate the right behavior while accounting for tax treatment, worker classification, cash flow, and company culture."
+              }
+            },
+            "ORANGE-L5-009": {
+              "id": "ORANGE-L5-009",
+              "type": "lesson",
+              "track": "ORANGE",
+              "trackName": "Sales & Marketing",
+              "level": 5,
+              "lessonNumber": 9,
+              "title": "Building a Sales Team vs. Outsourcing Sales",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-19",
+              "path": "content/curriculum/ORANGE/L5/ORANGE-L5-009.md",
+              "checksum": "sha256:4357c07350c9203c6a27965c950b7a4e192dffe3acd81a71661e19a96cd076cf",
+              "status": "active",
+              "ingestionId": "3218be35-15c2-4bd0-93a2-9ec9a55077e2",
+              "importedAt": "2026-10-19T13:53:22.786Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Sales & Marketing",
+                "summary": "Compare hiring an internal sales team with using agents, distributors, or outsourced sales firms, weighing cost, control, legal obligations, and employer responsibility."
+              }
+            },
+            "ORANGE-L5-010": {
+              "id": "ORANGE-L5-010",
+              "type": "lesson",
+              "track": "ORANGE",
+              "trackName": "Sales & Marketing",
+              "level": 5,
+              "lessonNumber": 10,
+              "title": "The Brand as an Asset: Building, Valuing, and Protecting It",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-19",
+              "path": "content/curriculum/ORANGE/L5/ORANGE-L5-010.md",
+              "checksum": "sha256:c637280a769c185cbde3c8eb43236006505d5c5b86bc888206f83748c3c9c4c0",
+              "status": "active",
+              "ingestionId": "3218be35-15c2-4bd0-93a2-9ec9a55077e2",
+              "importedAt": "2026-10-19T13:53:22.786Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Sales & Marketing",
+                "summary": "Understand how a brand creates financial value, how it is measured, and how legal protection, consistent marketing, and trust turn a name into a balance-sheet asset."
+              }
+            },
+            "ORANGE-L5-011": {
+              "id": "ORANGE-L5-011",
+              "type": "lesson",
+              "track": "ORANGE",
+              "trackName": "Sales & Marketing",
+              "level": 5,
+              "lessonNumber": 11,
+              "title": "Marketing Through Inflation: Raising Prices Without Losing Trust",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-19",
+              "path": "content/curriculum/ORANGE/L5/ORANGE-L5-011.md",
+              "checksum": "sha256:c8149bd11e599ab6e9f493ee0c77b042c2efdb9762f275316150999371e66ada",
+              "status": "active",
+              "ingestionId": "3218be35-15c2-4bd0-93a2-9ec9a55077e2",
+              "importedAt": "2026-10-19T13:53:22.786Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Sales & Marketing",
+                "summary": "Learn how to raise prices during inflation while protecting customer trust, margins, and cash flow, using communication, value framing, and contract terms together."
+              }
+            },
+            "ORANGE-L5-012": {
+              "id": "ORANGE-L5-012",
+              "type": "lesson",
+              "track": "ORANGE",
+              "trackName": "Sales & Marketing",
+              "level": 5,
+              "lessonNumber": 12,
+              "title": "Recession Marketing: Cut Spending or Invest?",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-19",
+              "path": "content/curriculum/ORANGE/L5/ORANGE-L5-012.md",
+              "checksum": "sha256:e27ca989693be10bd03c474054cb5628eb66be58eee8a4232943659a0b6f6cef",
+              "status": "active",
+              "ingestionId": "3218be35-15c2-4bd0-93a2-9ec9a55077e2",
+              "importedAt": "2026-10-19T13:53:22.786Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Sales & Marketing",
+                "summary": "Explore how businesses decide whether to cut or maintain marketing during a downturn, weighing cash reserves, competitor behavior, customer needs, and long-term brand value."
+              }
+            },
+            "ORANGE-L5-013": {
+              "id": "ORANGE-L5-013",
+              "type": "lesson",
+              "track": "ORANGE",
+              "trackName": "Sales & Marketing",
+              "level": 5,
+              "lessonNumber": 13,
+              "title": "Communicating Through a Supply Shock",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-19",
+              "path": "content/curriculum/ORANGE/L5/ORANGE-L5-013.md",
+              "checksum": "sha256:38e2d836d3767271b7c9c969c94b6b9d5813c8a0a5a427b60863e407f9543e2e",
+              "status": "active",
+              "ingestionId": "3218be35-15c2-4bd0-93a2-9ec9a55077e2",
+              "importedAt": "2026-10-19T13:53:22.786Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Sales & Marketing",
+                "summary": "Learn how to communicate with customers during supply disruptions, coordinating honest messaging with contract obligations, inventory decisions, and pricing."
+              }
+            },
+            "ORANGE-L5-014": {
+              "id": "ORANGE-L5-014",
+              "type": "lesson",
+              "track": "ORANGE",
+              "trackName": "Sales & Marketing",
+              "level": 5,
+              "lessonNumber": 14,
+              "title": "International Market Entry: Translation Is Not Localization",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-19",
+              "path": "content/curriculum/ORANGE/L5/ORANGE-L5-014.md",
+              "checksum": "sha256:7e6b4fd50841ea26b87d22b7bb3b50fbc2df494a323dca4fa55d0726b6ead032",
+              "status": "active",
+              "ingestionId": "3218be35-15c2-4bd0-93a2-9ec9a55077e2",
+              "importedAt": "2026-10-19T13:53:22.786Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Sales & Marketing",
+                "summary": "Understand why entering a new country requires localization—adapting product, pricing, messaging, and compliance—not just translating words, and how legal and tax factors shape entry."
+              }
+            },
+            "ORANGE-L5-015": {
+              "id": "ORANGE-L5-015",
+              "type": "lesson",
+              "track": "ORANGE",
+              "trackName": "Sales & Marketing",
+              "level": 5,
+              "lessonNumber": 15,
+              "title": "Currency Risk in International Pricing",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-19",
+              "path": "content/curriculum/ORANGE/L5/ORANGE-L5-015.md",
+              "checksum": "sha256:32df910d910b38d2feb70091a72c510ecaf57600a2759fd1300e18107cea67c2",
+              "status": "active",
+              "ingestionId": "3218be35-15c2-4bd0-93a2-9ec9a55077e2",
+              "importedAt": "2026-10-19T13:53:22.786Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Sales & Marketing",
+                "summary": "Learn how exchange-rate changes affect international prices and margins, and how pricing currency, contract terms, and financial tools can manage that risk."
+              }
+            },
+            "ORANGE-L5-016": {
+              "id": "ORANGE-L5-016",
+              "type": "lesson",
+              "track": "ORANGE",
+              "trackName": "Sales & Marketing",
+              "level": 5,
+              "lessonNumber": 16,
+              "title": "Channel Strategy: Direct, Distributor, or Marketplace",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-19",
+              "path": "content/curriculum/ORANGE/L5/ORANGE-L5-016.md",
+              "checksum": "sha256:eb2e0d8250417aa20a6313ba1e270b50242c152bc5f59873ffd5834ae288a703",
+              "status": "active",
+              "ingestionId": "3218be35-15c2-4bd0-93a2-9ec9a55077e2",
+              "importedAt": "2026-10-19T13:53:22.786Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Sales & Marketing",
+                "summary": "Compare selling directly, through distributors, and through online marketplaces, weighing margins, control, customer data, legal terms, and financial risk."
+              }
+            },
+            "ORANGE-L5-017": {
+              "id": "ORANGE-L5-017",
+              "type": "lesson",
+              "track": "ORANGE",
+              "trackName": "Sales & Marketing",
+              "level": 5,
+              "lessonNumber": 17,
+              "title": "Subscription Models: Revenue, Churn, and Valuation",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-19",
+              "path": "content/curriculum/ORANGE/L5/ORANGE-L5-017.md",
+              "checksum": "sha256:be37b141348b359a87398d4b53e14e616f1062cfb84c81cbef6daf5d88514297",
+              "status": "active",
+              "ingestionId": "3218be35-15c2-4bd0-93a2-9ec9a55077e2",
+              "importedAt": "2026-10-19T13:53:22.786Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Sales & Marketing",
+                "summary": "Understand how subscription businesses create predictable revenue, why churn and retention drive value, and how legal rules on renewals and cancellations shape the model."
+              }
+            },
+            "ORANGE-L5-018": {
+              "id": "ORANGE-L5-018",
+              "type": "lesson",
+              "track": "ORANGE",
+              "trackName": "Sales & Marketing",
+              "level": 5,
+              "lessonNumber": 18,
+              "title": "Customer Concentration Risk",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-19",
+              "path": "content/curriculum/ORANGE/L5/ORANGE-L5-018.md",
+              "checksum": "sha256:a8387dab6d652a562d47bc0527d05b9a4623425fb8b40623d29b557d2b7d45bb",
+              "status": "active",
+              "ingestionId": "3218be35-15c2-4bd0-93a2-9ec9a55077e2",
+              "importedAt": "2026-10-19T13:53:22.786Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Sales & Marketing",
+                "summary": "Learn why depending on a few large customers creates risk for cash flow, negotiating power, financing, and business value, and how to diversify without losing key accounts."
+              }
+            },
+            "ORANGE-L5-019": {
+              "id": "ORANGE-L5-019",
+              "type": "lesson",
+              "track": "ORANGE",
+              "trackName": "Sales & Marketing",
+              "level": 5,
+              "lessonNumber": 19,
+              "title": "Content Marketing as an Owned Asset",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-19",
+              "path": "content/curriculum/ORANGE/L5/ORANGE-L5-019.md",
+              "checksum": "sha256:62fe845352bb9b268828c44370054a4c02ce0af9359672d7c2bd9ab31f13f2fe",
+              "status": "active",
+              "ingestionId": "3218be35-15c2-4bd0-93a2-9ec9a55077e2",
+              "importedAt": "2026-10-19T13:53:22.786Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Sales & Marketing",
+                "summary": "See how articles, videos, courses, and email lists can become owned business assets that attract customers over time, and how IP protection and platform choices affect their value."
+              }
+            },
+            "ORANGE-L5-020": {
+              "id": "ORANGE-L5-020",
+              "type": "lesson",
+              "track": "ORANGE",
+              "trackName": "Sales & Marketing",
+              "level": 5,
+              "lessonNumber": 20,
+              "title": "Marketing Compliance: Claims, Testimonials, and Disclosures in Practice",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-19",
+              "path": "content/curriculum/ORANGE/L5/ORANGE-L5-020.md",
+              "checksum": "sha256:768ab5244318e9ef7cb3640ccc1d415933236e72b29b010c00af659a586276d5",
+              "status": "active",
+              "ingestionId": "3218be35-15c2-4bd0-93a2-9ec9a55077e2",
+              "importedAt": "2026-10-19T13:53:22.786Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Sales & Marketing",
+                "summary": "Build a practical marketing compliance process that keeps claims truthful, testimonials honest, and disclosures clear, while still producing persuasive, effective marketing."
+              }
+            },
+            "ORANGE-L5-021": {
+              "id": "ORANGE-L5-021",
+              "type": "lesson",
+              "track": "ORANGE",
+              "trackName": "Sales & Marketing",
+              "level": 5,
+              "lessonNumber": 21,
+              "title": "Data-Driven Marketing Within Privacy Limits",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-19",
+              "path": "content/curriculum/ORANGE/L5/ORANGE-L5-021.md",
+              "checksum": "sha256:e2d329e530ad6240a776e0250ecb22522d5c61a17a4432a28f78b52f97f2b9c3",
+              "status": "active",
+              "ingestionId": "3218be35-15c2-4bd0-93a2-9ec9a55077e2",
+              "importedAt": "2026-10-19T13:53:22.786Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Sales & Marketing",
+                "summary": "Learn how to use customer data to improve marketing—segmentation, personalization, and measurement—while respecting consent, privacy rules, and customer trust."
+              }
+            },
+            "ORANGE-L5-022": {
+              "id": "ORANGE-L5-022",
+              "type": "lesson",
+              "track": "ORANGE",
+              "trackName": "Sales & Marketing",
+              "level": 5,
+              "lessonNumber": 22,
+              "title": "Joint Ventures and Co-Marketing Partnerships",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-19",
+              "path": "content/curriculum/ORANGE/L5/ORANGE-L5-022.md",
+              "checksum": "sha256:d6b01653a05f8eb8998ebc2b1220ad63bfa5bd5020afe417f2bbe34c25b06826",
+              "status": "active",
+              "ingestionId": "3218be35-15c2-4bd0-93a2-9ec9a55077e2",
+              "importedAt": "2026-10-19T13:53:22.786Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Sales & Marketing",
+                "summary": "Explore how businesses partner on marketing, products, or market entry, and how contracts, profit sharing, brand control, and exit terms determine whether partnerships succeed."
+              }
+            },
+            "ORANGE-L5-023": {
+              "id": "ORANGE-L5-023",
+              "type": "lesson",
+              "track": "ORANGE",
+              "trackName": "Sales & Marketing",
+              "level": 5,
+              "lessonNumber": 23,
+              "title": "Scaling Through Licensing and Franchising",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-19",
+              "path": "content/curriculum/ORANGE/L5/ORANGE-L5-023.md",
+              "checksum": "sha256:674ea35a2a92d2617c9dea4062acfbc335b3763b0cf5bbf6479442f1ec037f7b",
+              "status": "active",
+              "ingestionId": "3218be35-15c2-4bd0-93a2-9ec9a55077e2",
+              "importedAt": "2026-10-19T13:53:22.786Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Sales & Marketing",
+                "summary": "Compare licensing and franchising as ways to grow through other operators, weighing speed, control, revenue, legal regulation, and brand risk."
+              }
+            },
+            "ORANGE-L5-024": {
+              "id": "ORANGE-L5-024",
+              "type": "lesson",
+              "track": "ORANGE",
+              "trackName": "Sales & Marketing",
+              "level": 5,
+              "lessonNumber": 24,
+              "title": "Marketing a Company for Sale",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-19",
+              "path": "content/curriculum/ORANGE/L5/ORANGE-L5-024.md",
+              "checksum": "sha256:4bdb6cc30a1f756b8a87dfdd201059c3e963db4fe2dc0700a1718d1b5f628677",
+              "status": "active",
+              "ingestionId": "3218be35-15c2-4bd0-93a2-9ec9a55077e2",
+              "importedAt": "2026-10-19T13:53:22.786Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Sales & Marketing",
+                "summary": "Learn how to prepare and position a business for sale—building a buyer story, organizing information, targeting buyers, and coordinating legal, tax, and financial readiness."
+              }
+            },
+            "ORANGE-L5-025": {
+              "id": "ORANGE-L5-025",
+              "type": "lesson",
+              "track": "ORANGE",
+              "trackName": "Sales & Marketing",
+              "level": 5,
+              "lessonNumber": 25,
+              "title": "Earnouts and Seller Notes from the Seller's Seat",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-19",
+              "path": "content/curriculum/ORANGE/L5/ORANGE-L5-025.md",
+              "checksum": "sha256:c6126f7087a562f0ee490cf7d711c78efb73666e58686639eda1595b2d0ff89f",
+              "status": "active",
+              "ingestionId": "3218be35-15c2-4bd0-93a2-9ec9a55077e2",
+              "importedAt": "2026-10-19T13:53:22.786Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Sales & Marketing",
+                "summary": "Understand earnouts and seller notes from the seller's perspective—how to negotiate them, protect against risks, and weigh their tax and legal implications."
+              }
+            },
+            "ORANGE-L5-026": {
+              "id": "ORANGE-L5-026",
+              "type": "lesson",
+              "track": "ORANGE",
+              "trackName": "Sales & Marketing",
+              "level": 5,
+              "lessonNumber": 26,
+              "title": "Marketing Precious Metals and Alternative Assets Honestly",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-19",
+              "path": "content/curriculum/ORANGE/L5/ORANGE-L5-026.md",
+              "checksum": "sha256:0f4ebaf9be0913038ec047310a2d5f9173f211848e595c4da7f389453cc6fe67",
+              "status": "active",
+              "ingestionId": "3218be35-15c2-4bd0-93a2-9ec9a55077e2",
+              "importedAt": "2026-10-19T13:53:22.786Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Sales & Marketing",
+                "summary": "Learn how to market precious metals and other alternative assets responsibly—avoiding fear-based hype, disclosing costs and risks, and complying with applicable rules."
+              }
+            },
+            "ORANGE-L5-027": {
+              "id": "ORANGE-L5-027",
+              "type": "lesson",
+              "track": "ORANGE",
+              "trackName": "Sales & Marketing",
+              "level": 5,
+              "lessonNumber": 27,
+              "title": "Marketing Financial Products: Suitability, Fiduciary Duty, and Trust",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-19",
+              "path": "content/curriculum/ORANGE/L5/ORANGE-L5-027.md",
+              "checksum": "sha256:e42da852e167d8896ade1e799d7ccce8d014914b315d0839a97c7d0cf826e1dd",
+              "status": "active",
+              "ingestionId": "3218be35-15c2-4bd0-93a2-9ec9a55077e2",
+              "importedAt": "2026-10-19T13:53:22.786Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Sales & Marketing",
+                "summary": "Understand how rules on suitability, best interest, and fiduciary duty shape how financial products and advice can be marketed, and why trust is the core product."
+              }
+            },
+            "ORANGE-L5-028": {
+              "id": "ORANGE-L5-028",
+              "type": "lesson",
+              "track": "ORANGE",
+              "trackName": "Sales & Marketing",
+              "level": 5,
+              "lessonNumber": 28,
+              "title": "Enterprise Sales Cycles and Cash Flow",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-19",
+              "path": "content/curriculum/ORANGE/L5/ORANGE-L5-028.md",
+              "checksum": "sha256:77bf590ca758411057a69b91c7bceea8304f5379acfffa9b44a45e3290694602",
+              "status": "active",
+              "ingestionId": "3218be35-15c2-4bd0-93a2-9ec9a55077e2",
+              "importedAt": "2026-10-19T13:53:22.786Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Sales & Marketing",
+                "summary": "Learn how long business-to-business sales cycles affect cash flow, forecasting, and financing, and how to manage pipelines, contracts, and payment terms for large customers."
+              }
+            },
+            "ORANGE-L5-029": {
+              "id": "ORANGE-L5-029",
+              "type": "lesson",
+              "track": "ORANGE",
+              "trackName": "Sales & Marketing",
+              "level": 5,
+              "lessonNumber": 29,
+              "title": "Payment Terms and Trade Credit as Sales Tools",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-19",
+              "path": "content/curriculum/ORANGE/L5/ORANGE-L5-029.md",
+              "checksum": "sha256:ece5cccce75d801afc4ea94568631db60d2f19578f2aff60bf05ded1f398f0dc",
+              "status": "active",
+              "ingestionId": "3218be35-15c2-4bd0-93a2-9ec9a55077e2",
+              "importedAt": "2026-10-19T13:53:22.786Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Sales & Marketing",
+                "summary": "See how offering credit terms to customers can increase sales while creating collection and cash flow risks, and how to set terms, check credit, and document agreements."
+              }
+            },
+            "ORANGE-L5-030": {
+              "id": "ORANGE-L5-030",
+              "type": "lesson",
+              "track": "ORANGE",
+              "trackName": "Sales & Marketing",
+              "level": 5,
+              "lessonNumber": 30,
+              "title": "Winning Government and Institutional Contracts",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-19",
+              "path": "content/curriculum/ORANGE/L5/ORANGE-L5-030.md",
+              "checksum": "sha256:9ea5d9ef7c90e03c81c5f186c04e035cf1978f72b080ce192d56fc5399c653f7",
+              "status": "active",
+              "ingestionId": "3218be35-15c2-4bd0-93a2-9ec9a55077e2",
+              "importedAt": "2026-10-19T13:53:22.786Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Sales & Marketing",
+                "summary": "Learn how selling to governments and large institutions works—formal bids, compliance requirements, payment timing, and contract terms—and how to decide if it fits your business."
+              }
+            },
+            "ORANGE-L5-031": {
+              "id": "ORANGE-L5-031",
+              "type": "lesson",
+              "track": "ORANGE",
+              "trackName": "Sales & Marketing",
+              "level": 5,
+              "lessonNumber": 31,
+              "title": "Pricing Power and Competitive Moats",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-19",
+              "path": "content/curriculum/ORANGE/L5/ORANGE-L5-031.md",
+              "checksum": "sha256:d0e44a349808e4956c50d691d503cd44e63f15979f1cacc54038bd4e69c68672",
+              "status": "active",
+              "ingestionId": "3218be35-15c2-4bd0-93a2-9ec9a55077e2",
+              "importedAt": "2026-10-19T13:53:22.786Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Sales & Marketing",
+                "summary": "Understand what gives a business pricing power—brand, switching costs, network effects, cost advantages, and legal protection—and how moats affect valuation and strategy."
+              }
+            },
+            "ORANGE-L5-032": {
+              "id": "ORANGE-L5-032",
+              "type": "lesson",
+              "track": "ORANGE",
+              "trackName": "Sales & Marketing",
+              "level": 5,
+              "lessonNumber": 32,
+              "title": "Tax-Aware Promotions: Discounts, Rebates, and Gifts",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-19",
+              "path": "content/curriculum/ORANGE/L5/ORANGE-L5-032.md",
+              "checksum": "sha256:e7689759cbe7e416c665513e94143348b21c433a4c6b0090204b1066ec461282",
+              "status": "active",
+              "ingestionId": "3218be35-15c2-4bd0-93a2-9ec9a55077e2",
+              "importedAt": "2026-10-19T13:53:22.786Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Sales & Marketing",
+                "summary": "Learn how different promotional structures—discounts, rebates, free products, gift cards, and loyalty points—can have different tax, accounting, legal, and cash flow effects."
+              }
+            },
+            "ORANGE-L5-033": {
+              "id": "ORANGE-L5-033",
+              "type": "lesson",
+              "track": "ORANGE",
+              "trackName": "Sales & Marketing",
+              "level": 5,
+              "lessonNumber": 33,
+              "title": "Selling Across Jurisdictions: Sales Tax and VAT",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-19",
+              "path": "content/curriculum/ORANGE/L5/ORANGE-L5-033.md",
+              "checksum": "sha256:4d30b82ab24a51e593cb839f3003823f76e4b4942ffadc5833c29c6fd8d3d7d8",
+              "status": "active",
+              "ingestionId": "3218be35-15c2-4bd0-93a2-9ec9a55077e2",
+              "importedAt": "2026-10-19T13:53:22.786Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Sales & Marketing",
+                "summary": "Understand how selling into multiple states or countries can create sales tax or VAT obligations, and how pricing, marketing, and systems must adapt."
+              }
+            },
+            "ORANGE-L5-034": {
+              "id": "ORANGE-L5-034",
+              "type": "lesson",
+              "track": "ORANGE",
+              "trackName": "Sales & Marketing",
+              "level": 5,
+              "lessonNumber": 34,
+              "title": "Crisis Reputation Management",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-19",
+              "path": "content/curriculum/ORANGE/L5/ORANGE-L5-034.md",
+              "checksum": "sha256:50fb3c4bc845fd9676ab3696c86eee40102a16383b5ac5c8fd76353c3832a804",
+              "status": "active",
+              "ingestionId": "3218be35-15c2-4bd0-93a2-9ec9a55077e2",
+              "importedAt": "2026-10-19T13:53:22.786Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Sales & Marketing",
+                "summary": "Learn how to respond to reputation crises—product failures, public complaints, or mistakes—by coordinating honest communication, legal considerations, customer remedies, and leadership accountability."
+              }
+            },
+            "ORANGE-L5-035": {
+              "id": "ORANGE-L5-035",
+              "type": "lesson",
+              "track": "ORANGE",
+              "trackName": "Sales & Marketing",
+              "level": 5,
+              "lessonNumber": 35,
+              "title": "Founder Brand vs. Company Brand",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-19",
+              "path": "content/curriculum/ORANGE/L5/ORANGE-L5-035.md",
+              "checksum": "sha256:6ac97227657581ecd37f7b29c2dd9b0aa29dfdb1dab10ee6e2d2d020b9271632",
+              "status": "active",
+              "ingestionId": "3218be35-15c2-4bd0-93a2-9ec9a55077e2",
+              "importedAt": "2026-10-19T13:53:22.786Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Sales & Marketing",
+                "summary": "Explore how a founder's personal reputation can build a company's credibility, the risks of depending on one person, and how to balance personal and company brands for long-term value."
+              }
+            },
+            "ORANGE-L5-036": {
+              "id": "ORANGE-L5-036",
+              "type": "lesson",
+              "track": "ORANGE",
+              "trackName": "Sales & Marketing",
+              "level": 5,
+              "lessonNumber": 36,
+              "title": "Community and Mentorship as a Marketing Engine",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-19",
+              "path": "content/curriculum/ORANGE/L5/ORANGE-L5-036.md",
+              "checksum": "sha256:9310e55f472b35e78bd66e723603bd56ca3270d6c335ae2d8a830604a966d0de",
+              "status": "active",
+              "ingestionId": "3218be35-15c2-4bd0-93a2-9ec9a55077e2",
+              "importedAt": "2026-10-19T13:53:22.786Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Sales & Marketing",
+                "summary": "Learn how building a community and offering mentorship can attract customers, create loyalty, and generate referrals, while staying honest about outcomes and respecting members."
+              }
+            },
+            "ORANGE-L5-037": {
+              "id": "ORANGE-L5-037",
+              "type": "lesson",
+              "track": "ORANGE",
+              "trackName": "Sales & Marketing",
+              "level": 5,
+              "lessonNumber": 37,
+              "title": "Marketing to a Global Audience with Different Purchasing Power",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-19",
+              "path": "content/curriculum/ORANGE/L5/ORANGE-L5-037.md",
+              "checksum": "sha256:87de5a02c7dd507fcd557952ebee53dd3bee908600425f02781a39264a96657c",
+              "status": "active",
+              "ingestionId": "3218be35-15c2-4bd0-93a2-9ec9a55077e2",
+              "importedAt": "2026-10-19T13:53:22.786Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Sales & Marketing",
+                "summary": "Learn how to market and price for customers in economies with very different income levels, using purchasing power, local context, and the principle that success is relative to starting point."
+              }
+            },
+            "ORANGE-L5-038": {
+              "id": "ORANGE-L5-038",
+              "type": "lesson",
+              "track": "ORANGE",
+              "trackName": "Sales & Marketing",
+              "level": 5,
+              "lessonNumber": 38,
+              "title": "Customer Research Before Committing Capital",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-19",
+              "path": "content/curriculum/ORANGE/L5/ORANGE-L5-038.md",
+              "checksum": "sha256:ac30192f5ccb4d08079632f78532cf7957abc95a07fa397f804e02a484b12cc8",
+              "status": "active",
+              "ingestionId": "3218be35-15c2-4bd0-93a2-9ec9a55077e2",
+              "importedAt": "2026-10-19T13:53:22.786Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Sales & Marketing",
+                "summary": "Learn why validating customer demand, costs, and competition before investing heavily can prevent costly mistakes, and why walking away from a weak opportunity can be a sound decision."
+              }
+            },
+            "ORANGE-L5-039": {
+              "id": "ORANGE-L5-039",
+              "type": "lesson",
+              "track": "ORANGE",
+              "trackName": "Sales & Marketing",
+              "level": 5,
+              "lessonNumber": 39,
+              "title": "Launch Sequencing and Capital Runway",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-19",
+              "path": "content/curriculum/ORANGE/L5/ORANGE-L5-039.md",
+              "checksum": "sha256:15ac85a82d2eaa5c5ea7e53ba693b16bb0bcd4095ca2a2ddd7a4d0460dcb1332",
+              "status": "active",
+              "ingestionId": "3218be35-15c2-4bd0-93a2-9ec9a55077e2",
+              "importedAt": "2026-10-19T13:53:22.786Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Sales & Marketing",
+                "summary": "Learn how to sequence a product or market launch in stages to match available capital, reduce risk, and use early results to guide later investment."
+              }
+            },
+            "ORANGE-L5-040": {
+              "id": "ORANGE-L5-040",
+              "type": "lesson",
+              "track": "ORANGE",
+              "trackName": "Sales & Marketing",
+              "level": 5,
+              "lessonNumber": 40,
+              "title": "Negotiating with Suppliers: Price, Terms, and Minimums",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-19",
+              "path": "content/curriculum/ORANGE/L5/ORANGE-L5-040.md",
+              "checksum": "sha256:0417fcdd7971ee9daf441d94251ac850cfd2ea4ad6d1745cb853eeff998b680a",
+              "status": "active",
+              "ingestionId": "3218be35-15c2-4bd0-93a2-9ec9a55077e2",
+              "importedAt": "2026-10-19T13:53:22.786Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Sales & Marketing",
+                "summary": "Learn how to negotiate with suppliers on price, payment terms, minimum orders, quality, and contract protections, coordinating purchasing with cash flow and risk management."
+              }
+            },
+            "ORANGE-L5-041": {
+              "id": "ORANGE-L5-041",
+              "type": "lesson",
+              "track": "ORANGE",
+              "trackName": "Sales & Marketing",
+              "level": 5,
+              "lessonNumber": 41,
+              "title": "Marketing Real Estate Investments to Investors",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-19",
+              "path": "content/curriculum/ORANGE/L5/ORANGE-L5-041.md",
+              "checksum": "sha256:0516ecde0ceb3d1f1afd79b73686e7af360bac494702c5612d11ee137e8ec019",
+              "status": "active",
+              "ingestionId": "3218be35-15c2-4bd0-93a2-9ec9a55077e2",
+              "importedAt": "2026-10-19T13:53:22.786Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Sales & Marketing",
+                "summary": "Learn how real estate sponsors raise money from investors for property deals, coordinating honest marketing with securities rules, deal structure, and investor communication."
+              }
+            },
+            "ORANGE-L5-042": {
+              "id": "ORANGE-L5-042",
+              "type": "lesson",
+              "track": "ORANGE",
+              "trackName": "Sales & Marketing",
+              "level": 5,
+              "lessonNumber": 42,
+              "title": "Upselling and Cross-Selling Within Ethical Limits",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-19",
+              "path": "content/curriculum/ORANGE/L5/ORANGE-L5-042.md",
+              "checksum": "sha256:f1d8a9d94c258cfb6f6a2f18dd9d1abdae5804f45879bb0294a2e3fc265dd246",
+              "status": "active",
+              "ingestionId": "3218be35-15c2-4bd0-93a2-9ec9a55077e2",
+              "importedAt": "2026-10-19T13:53:22.786Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Sales & Marketing",
+                "summary": "Learn how to increase revenue from existing customers through upselling and cross-selling that genuinely helps them, while avoiding pressure tactics, hidden costs, and unsuitable sales."
+              }
+            },
+            "ORANGE-L5-043": {
+              "id": "ORANGE-L5-043",
+              "type": "lesson",
+              "track": "ORANGE",
+              "trackName": "Sales & Marketing",
+              "level": 5,
+              "lessonNumber": 43,
+              "title": "Measuring Marketing ROI After Taxes and Time",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-19",
+              "path": "content/curriculum/ORANGE/L5/ORANGE-L5-043.md",
+              "checksum": "sha256:c5467aa8c350c4dfa5c862a1404152185bff62962e6f3ee0e8ffd8e1d252a567",
+              "status": "active",
+              "ingestionId": "3218be35-15c2-4bd0-93a2-9ec9a55077e2",
+              "importedAt": "2026-10-19T13:53:22.786Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Sales & Marketing",
+                "summary": "Learn how to measure marketing return on investment accurately by including gross margin, taxes, customer lifetime, the time value of money, and attribution challenges."
+              }
+            },
+            "ORANGE-L5-044": {
+              "id": "ORANGE-L5-044",
+              "type": "lesson",
+              "track": "ORANGE",
+              "trackName": "Sales & Marketing",
+              "level": 5,
+              "lessonNumber": 44,
+              "title": "The Sales Pipeline as a Decision System",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-19",
+              "path": "content/curriculum/ORANGE/L5/ORANGE-L5-044.md",
+              "checksum": "sha256:1626f4d24ce2da19e3e912dff81c8ced44267b690305492bbe1f97376585c0cf",
+              "status": "active",
+              "ingestionId": "3218be35-15c2-4bd0-93a2-9ec9a55077e2",
+              "importedAt": "2026-10-19T13:53:22.786Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Sales & Marketing",
+                "summary": "Learn how to use a sales pipeline not just to track deals, but as a decision system that guides hiring, spending, cash planning, and leadership choices."
+              }
+            },
+            "ORANGE-L5-045": {
+              "id": "ORANGE-L5-045",
+              "type": "lesson",
+              "track": "ORANGE",
+              "trackName": "Sales & Marketing",
+              "level": 5,
+              "lessonNumber": 45,
+              "title": "The Integrated Go-to-Market Plan",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-19",
+              "path": "content/curriculum/ORANGE/L5/ORANGE-L5-045.md",
+              "checksum": "sha256:d03ffe347522bb95260bb34d9c8dd035c5ac0d651566712b12ba98c7cfe3496f",
+              "status": "active",
+              "ingestionId": "3218be35-15c2-4bd0-93a2-9ec9a55077e2",
+              "importedAt": "2026-10-19T13:53:22.786Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Sales & Marketing",
+                "summary": "Build a go-to-market plan that coordinates customer, positioning, pricing, channels, financing, legal compliance, taxes, and leadership into one integrated strategy."
+              }
+            },
+            "ORANGE-L5-046": {
+              "id": "ORANGE-L5-046",
+              "type": "lesson",
+              "track": "ORANGE",
+              "trackName": "Sales & Marketing",
+              "level": 5,
+              "lessonNumber": 46,
+              "title": "Seizing a Confirmed Market Window with Full Commitment",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-19",
+              "path": "content/curriculum/ORANGE/L5/ORANGE-L5-046.md",
+              "checksum": "sha256:cf19c8573be1fa4ad99a727966bc3e49e0545545000c3c672507b2921747cccb",
+              "status": "active",
+              "ingestionId": "3218be35-15c2-4bd0-93a2-9ec9a55077e2",
+              "importedAt": "2026-10-19T13:53:22.786Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Sales & Marketing",
+                "summary": "Learn when to move decisively into a genuine market opportunity—such as a competitor's exit or a new customer need—by committing marketing, financing, legal, and operational resources together."
+              }
+            },
+            "ORANGE-L5-047": {
+              "id": "ORANGE-L5-047",
+              "type": "lesson",
+              "track": "ORANGE",
+              "trackName": "Sales & Marketing",
+              "level": 5,
+              "lessonNumber": 47,
+              "title": "Market Readiness: Building Capacity Before the Opportunity",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-19",
+              "path": "content/curriculum/ORANGE/L5/ORANGE-L5-047.md",
+              "checksum": "sha256:9ed238117f19e9fd33c3e4667b734a28cce4684b80fce4dba0e50d5debe34101",
+              "status": "active",
+              "ingestionId": "3218be35-15c2-4bd0-93a2-9ec9a55077e2",
+              "importedAt": "2026-10-19T13:53:22.786Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Sales & Marketing",
+                "summary": "Learn how to build marketing, sales, financial, and legal readiness in advance so a business can act quickly when opportunities appear."
+              }
+            },
+            "ORANGE-L5-048": {
+              "id": "ORANGE-L5-048",
+              "type": "lesson",
+              "track": "ORANGE",
+              "trackName": "Sales & Marketing",
+              "level": 5,
+              "lessonNumber": 48,
+              "title": "Honest Reassessment of an Active Campaign",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-19",
+              "path": "content/curriculum/ORANGE/L5/ORANGE-L5-048.md",
+              "checksum": "sha256:db20ac13a52613cc000e38f46d9bb3c9f8278d25d8fde504bf32fa218f063cf0",
+              "status": "active",
+              "ingestionId": "3218be35-15c2-4bd0-93a2-9ec9a55077e2",
+              "importedAt": "2026-10-19T13:53:22.786Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Sales & Marketing",
+                "summary": "Learn how to evaluate an ongoing marketing campaign or market push honestly, avoiding sunk cost and ego traps, and decide when to continue, adjust, scale back, or fall back and regroup."
+              }
+            },
+            "ORANGE-L5-049": {
+              "id": "ORANGE-L5-049",
+              "type": "lesson",
+              "track": "ORANGE",
+              "trackName": "Sales & Marketing",
+              "level": 5,
+              "lessonNumber": 49,
+              "title": "Calculated Competitive Risk vs. Reckless Marketing Gambles",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-19",
+              "path": "content/curriculum/ORANGE/L5/ORANGE-L5-049.md",
+              "checksum": "sha256:c0354e1efffbf9c9ac3f8b7f4a8b8d4a75279b00b6505a2128864e44f455d2d1",
+              "status": "active",
+              "ingestionId": "3218be35-15c2-4bd0-93a2-9ec9a55077e2",
+              "importedAt": "2026-10-19T13:53:22.786Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Sales & Marketing",
+                "summary": "Distinguish calculated competitive moves from reckless marketing gambles, and learn how courage and consequence ownership shape responsible competitive strategy."
+              }
+            },
+            "ORANGE-L5-050": {
+              "id": "ORANGE-L5-050",
+              "type": "lesson",
+              "track": "ORANGE",
+              "trackName": "Sales & Marketing",
+              "level": 5,
+              "lessonNumber": 50,
+              "title": "Completing the Chess Analogy: Sales and Marketing as the Opening Move",
+              "version": "1.0",
+              "author": "Edunancial Faculty",
+              "date": "2026-10-19",
+              "path": "content/curriculum/ORANGE/L5/ORANGE-L5-050.md",
+              "checksum": "sha256:687e3095229fcd1c6ba200651ec6ebbbc6a8de30cb4ddcfecbce5c3cda98acb3",
+              "status": "active",
+              "ingestionId": "3218be35-15c2-4bd0-93a2-9ec9a55077e2",
+              "importedAt": "2026-10-19T13:53:22.786Z",
+              "validationPassed": true,
+              "warnings": [
+                "Recovered canonical header format normalized at runtime."
+              ],
+              "metadata": {
+                "officialTrackName": "Sales & Marketing",
+                "summary": "Bring together all of ORANGE Level 5 to see how sales and marketing start the action that every other color must support, and how decisive action and careful orchestration work together."
+              }
+            }
+          }
         }
       }
     },
