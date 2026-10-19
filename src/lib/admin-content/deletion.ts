@@ -6,7 +6,6 @@ import { assertSafeWorkspacePath, assertValidEntityId } from "@/lib/admin-conten
 import { getAdminContentStorage } from "@/lib/admin-content/storage";
 import type { ActorContext, UploadBatch } from "@/lib/admin-content/types";
 import { nowIso } from "@/lib/admin-content/utils";
-import { removePublishedLessonsForBatch } from "@/lib/curriculum/authoritative-published";
 import { invalidateRegistryCache } from "@/lib/curriculum/reader";
 import { revalidatePublishedCurriculumRoutes } from "@/lib/curriculum/revalidate";
 
@@ -174,13 +173,9 @@ export async function deleteBatch(batchId: string, actor: ActorContext, options?
     throw new Error("Batch has exports. Explicit exported-batch confirmation is required.");
   }
 
-  let publishedRemoval: Awaited<ReturnType<typeof removePublishedLessonsForBatch>>;
-  try {
-    publishedRemoval = await removePublishedLessonsForBatch(batch);
-  } catch (error) {
-    const message = error instanceof Error ? error.message : String(error);
-    throw new Error(`Failed to remove published curriculum entries for batch ${normalizedBatchId}: ${message}`);
-  }
+  // Curriculum preservation (CLAUDE.md): deleting a workspace batch removes only
+  // workspace records. It never unpublishes learner-visible lessons; removal requires
+  // the destructive-change process (curriculum/curriculum-removals.json + owner approval).
 
   const artifactPaths = collectBatchArtifactPaths(batch);
   const storageOutcome = await deleteWorkspacePaths(artifactPaths);
@@ -197,7 +192,8 @@ export async function deleteBatch(batchId: string, actor: ActorContext, options?
       batchId: normalizedBatchId,
       metadata: {
         exported: batch.exports.length > 0,
-        removedPublishedLessons: publishedRemoval.removed,
+        removedPublishedLessons: 0,
+        publishedCurriculumPreserved: true,
         exports: batch.exports.map((entry) => ({
           exportId: entry.id,
           branch: entry.github?.branch ?? null,
