@@ -4,12 +4,12 @@
     "totalLessons": 1652,
     "totalTracks": 8,
     "totalLevels": 34,
-    "localizedVariants": 5276,
+    "localizedVariants": 5326,
     "byTrack": {
       "RED": {
         "name": "Real Estate",
         "totalLessons": 202,
-        "localizedVariants": 626
+        "localizedVariants": 676
       },
       "WHITE": {
         "name": "Paper Assets",
@@ -3960,7 +3960,13 @@
       "importedAt": "2026-08-13T19:11:51.170Z"
     },
     {
-      "localizations": [],
+      "localizations": [
+        {
+          "locale": "es-Caribbean",
+          "path": "content/curriculum/RED/L3/RED-L3-001.es-Caribbean.md",
+          "source": "markdown"
+        }
+      ],
       "id": "RED-L3-001",
       "type": "lesson",
       "track": "RED",
@@ -3974,7 +3980,13 @@
       "importedAt": "2026-10-11T14:45:31.295Z"
     },
     {
-      "localizations": [],
+      "localizations": [
+        {
+          "locale": "es-Caribbean",
+          "path": "content/curriculum/RED/L3/RED-L3-002.es-Caribbean.md",
+          "source": "markdown"
+        }
+      ],
       "id": "RED-L3-002",
       "type": "lesson",
       "track": "RED",
@@ -3988,7 +4000,13 @@
       "importedAt": "2026-10-11T14:45:31.295Z"
     },
     {
-      "localizations": [],
+      "localizations": [
+        {
+          "locale": "es-Caribbean",
+          "path": "content/curriculum/RED/L3/RED-L3-003.es-Caribbean.md",
+          "source": "markdown"
+        }
+      ],
       "id": "RED-L3-003",
       "type": "lesson",
       "track": "RED",
@@ -4002,7 +4020,13 @@
       "importedAt": "2026-10-11T14:45:31.295Z"
     },
     {
-      "localizations": [],
+      "localizations": [
+        {
+          "locale": "es-Caribbean",
+          "path": "content/curriculum/RED/L3/RED-L3-004.es-Caribbean.md",
+          "source": "markdown"
+        }
+      ],
       "id": "RED-L3-004",
       "type": "lesson",
       "track": "RED",
@@ -4016,7 +4040,13 @@
       "importedAt": "2026-10-11T14:45:31.295Z"
     },
     {
-      "localizations": [],
+      "localizations": [
+        {
+          "locale": "es-Caribbean",
+          "path": "content/curriculum/RED/L3/RED-L3-005.es-Caribbean.md",
+          "source": "markdown"
+        }
+      ],
       "id": "RED-L3-005",
       "type": "lesson",
       "track": "RED",
@@ -4030,7 +4060,13 @@
       "importedAt": "2026-10-11T14:45:31.295Z"
     },
     {
-      "localizations": [],
+      "localizations": [
+        {
+          "locale": "es-Caribbean",
+          "path": "content/curriculum/RED/L3/RED-L3-006.es-Caribbean.md",
+          "source": "markdown"
+        }
+      ],
       "id": "RED-L3-006",
       "type": "lesson",
       "track": "RED",
@@ -4044,7 +4080,13 @@
       "importedAt": "2026-10-11T14:45:31.295Z"
     },
     {
-      "localizations": [],
+      "localizations": [
+        {
+          "locale": "es-Caribbean",
+          "path": "content/curriculum/RED/L3/RED-L3-007.es-Caribbean.md",
+          "source": "markdown"
+        }
+      ],
       "id": "RED-L3-007",
       "type": "lesson",
       "track": "RED",
@@ -4058,7 +4100,13 @@
       "importedAt": "2026-10-11T14:45:31.295Z"
     },
     {
-      "localizations": [],
+      "localizations": [
+        {
+          "locale": "es-Caribbean",
+          "path": "content/curriculum/RED/L3/RED-L3-008.es-Caribbean.md",
+          "source": "markdown"
+        }
+      ],
       "id": "RED-L3-008",
       "type": "lesson",
       "track": "RED",
@@ -4072,7 +4120,13 @@
       "importedAt": "2026-10-11T14:45:31.295Z"
     },
     {
-      "localizations": [],
+      "localizations": [
+        {
+          "locale": "es-Caribbean",
+          "path": "content/curriculum/RED/L3/RED-L3-009.es-Caribbean.md",
+          "source": "markdown"
+        }
+      ],
       "id": "RED-L3-009",
       "type": "lesson",
       "track": "RED",
@@ -4086,7 +4140,13 @@
       "importedAt": "2026-10-11T14:45:31.295Z"
     },
     {
-      "localizations": [],
+      "localizations": [
+        {
+          "locale": "es-Caribbean",
+          "path": "content/curriculum/RED/L3/RED-L3-010.es-Caribbean.md",
+          "source": "markdown"
+        }
+      ],
       "id": "RED-L3-010",
       "type": "lesson",
       "track": "RED",
@@ -4100,7 +4160,13 @@
       "importedAt": "2026-10-11T14:45:31.295Z"
     },
     {
-      "localizations": [],
+      "localizations": [
+        {
+          "locale": "es-Caribbean",
+          "path": "content/curriculum/RED/L3/RED-L3-011.es-Caribbean.md",
+          "source": "markdown"
+        }
+      ],
       "id": "RED-L3-011",
       "type": "lesson",
       "track": "RED",
@@ -4114,7 +4180,13 @@
       "importedAt": "2026-10-11T14:45:31.295Z"
     },
     {
-      "localizations": [],
+      "localizations": [
+        {
+          "locale": "es-Caribbean",
+          "path": "content/curriculum/RED/L3/RED-L3-012.es-Caribbean.md",
+          "source": "markdown"
+        }
+      ],
       "id": "RED-L3-012",
       "type": "lesson",
       "track": "RED",
@@ -4128,7 +4200,13 @@
       "importedAt": "2026-10-11T14:45:31.295Z"
     },
     {
-      "localizations": [],
+      "localizations": [
+        {
+          "locale": "es-Caribbean",
+          "path": "content/curriculum/RED/L3/RED-L3-013.es-Caribbean.md",
+          "source": "markdown"
+        }
+      ],
       "id": "RED-L3-013",
       "type": "lesson",
       "track": "RED",
@@ -4142,7 +4220,13 @@
       "importedAt": "2026-10-11T14:45:31.295Z"
     },
     {
-      "localizations": [],
+      "localizations": [
+        {
+          "locale": "es-Caribbean",
+          "path": "content/curriculum/RED/L3/RED-L3-014.es-Caribbean.md",
+          "source": "markdown"
+        }
+      ],
       "id": "RED-L3-014",
       "type": "lesson",
       "track": "RED",
@@ -4156,7 +4240,13 @@
       "importedAt": "2026-10-11T14:45:31.295Z"
     },
     {
-      "localizations": [],
+      "localizations": [
+        {
+          "locale": "es-Caribbean",
+          "path": "content/curriculum/RED/L3/RED-L3-015.es-Caribbean.md",
+          "source": "markdown"
+        }
+      ],
       "id": "RED-L3-015",
       "type": "lesson",
       "track": "RED",
@@ -4170,7 +4260,13 @@
       "importedAt": "2026-10-11T14:45:31.295Z"
     },
     {
-      "localizations": [],
+      "localizations": [
+        {
+          "locale": "es-Caribbean",
+          "path": "content/curriculum/RED/L3/RED-L3-016.es-Caribbean.md",
+          "source": "markdown"
+        }
+      ],
       "id": "RED-L3-016",
       "type": "lesson",
       "track": "RED",
@@ -4184,7 +4280,13 @@
       "importedAt": "2026-10-11T14:45:31.295Z"
     },
     {
-      "localizations": [],
+      "localizations": [
+        {
+          "locale": "es-Caribbean",
+          "path": "content/curriculum/RED/L3/RED-L3-017.es-Caribbean.md",
+          "source": "markdown"
+        }
+      ],
       "id": "RED-L3-017",
       "type": "lesson",
       "track": "RED",
@@ -4198,7 +4300,13 @@
       "importedAt": "2026-10-11T14:45:31.295Z"
     },
     {
-      "localizations": [],
+      "localizations": [
+        {
+          "locale": "es-Caribbean",
+          "path": "content/curriculum/RED/L3/RED-L3-018.es-Caribbean.md",
+          "source": "markdown"
+        }
+      ],
       "id": "RED-L3-018",
       "type": "lesson",
       "track": "RED",
@@ -4212,7 +4320,13 @@
       "importedAt": "2026-10-11T14:45:31.295Z"
     },
     {
-      "localizations": [],
+      "localizations": [
+        {
+          "locale": "es-Caribbean",
+          "path": "content/curriculum/RED/L3/RED-L3-019.es-Caribbean.md",
+          "source": "markdown"
+        }
+      ],
       "id": "RED-L3-019",
       "type": "lesson",
       "track": "RED",
@@ -4226,7 +4340,13 @@
       "importedAt": "2026-10-11T14:45:31.295Z"
     },
     {
-      "localizations": [],
+      "localizations": [
+        {
+          "locale": "es-Caribbean",
+          "path": "content/curriculum/RED/L3/RED-L3-020.es-Caribbean.md",
+          "source": "markdown"
+        }
+      ],
       "id": "RED-L3-020",
       "type": "lesson",
       "track": "RED",
@@ -4240,7 +4360,13 @@
       "importedAt": "2026-10-11T14:45:31.295Z"
     },
     {
-      "localizations": [],
+      "localizations": [
+        {
+          "locale": "es-Caribbean",
+          "path": "content/curriculum/RED/L3/RED-L3-021.es-Caribbean.md",
+          "source": "markdown"
+        }
+      ],
       "id": "RED-L3-021",
       "type": "lesson",
       "track": "RED",
@@ -4254,7 +4380,13 @@
       "importedAt": "2026-10-11T14:45:31.295Z"
     },
     {
-      "localizations": [],
+      "localizations": [
+        {
+          "locale": "es-Caribbean",
+          "path": "content/curriculum/RED/L3/RED-L3-022.es-Caribbean.md",
+          "source": "markdown"
+        }
+      ],
       "id": "RED-L3-022",
       "type": "lesson",
       "track": "RED",
@@ -4268,7 +4400,13 @@
       "importedAt": "2026-10-11T14:45:31.295Z"
     },
     {
-      "localizations": [],
+      "localizations": [
+        {
+          "locale": "es-Caribbean",
+          "path": "content/curriculum/RED/L3/RED-L3-023.es-Caribbean.md",
+          "source": "markdown"
+        }
+      ],
       "id": "RED-L3-023",
       "type": "lesson",
       "track": "RED",
@@ -4282,7 +4420,13 @@
       "importedAt": "2026-10-11T14:45:31.295Z"
     },
     {
-      "localizations": [],
+      "localizations": [
+        {
+          "locale": "es-Caribbean",
+          "path": "content/curriculum/RED/L3/RED-L3-024.es-Caribbean.md",
+          "source": "markdown"
+        }
+      ],
       "id": "RED-L3-024",
       "type": "lesson",
       "track": "RED",
@@ -4296,7 +4440,13 @@
       "importedAt": "2026-10-11T14:45:31.295Z"
     },
     {
-      "localizations": [],
+      "localizations": [
+        {
+          "locale": "es-Caribbean",
+          "path": "content/curriculum/RED/L3/RED-L3-025.es-Caribbean.md",
+          "source": "markdown"
+        }
+      ],
       "id": "RED-L3-025",
       "type": "lesson",
       "track": "RED",
@@ -4310,7 +4460,13 @@
       "importedAt": "2026-10-11T14:45:31.295Z"
     },
     {
-      "localizations": [],
+      "localizations": [
+        {
+          "locale": "es-Caribbean",
+          "path": "content/curriculum/RED/L3/RED-L3-026.es-Caribbean.md",
+          "source": "markdown"
+        }
+      ],
       "id": "RED-L3-026",
       "type": "lesson",
       "track": "RED",
@@ -4324,7 +4480,13 @@
       "importedAt": "2026-10-11T14:45:31.295Z"
     },
     {
-      "localizations": [],
+      "localizations": [
+        {
+          "locale": "es-Caribbean",
+          "path": "content/curriculum/RED/L3/RED-L3-027.es-Caribbean.md",
+          "source": "markdown"
+        }
+      ],
       "id": "RED-L3-027",
       "type": "lesson",
       "track": "RED",
@@ -4338,7 +4500,13 @@
       "importedAt": "2026-10-11T14:45:31.295Z"
     },
     {
-      "localizations": [],
+      "localizations": [
+        {
+          "locale": "es-Caribbean",
+          "path": "content/curriculum/RED/L3/RED-L3-028.es-Caribbean.md",
+          "source": "markdown"
+        }
+      ],
       "id": "RED-L3-028",
       "type": "lesson",
       "track": "RED",
@@ -4352,7 +4520,13 @@
       "importedAt": "2026-10-11T14:45:31.295Z"
     },
     {
-      "localizations": [],
+      "localizations": [
+        {
+          "locale": "es-Caribbean",
+          "path": "content/curriculum/RED/L3/RED-L3-029.es-Caribbean.md",
+          "source": "markdown"
+        }
+      ],
       "id": "RED-L3-029",
       "type": "lesson",
       "track": "RED",
@@ -4366,7 +4540,13 @@
       "importedAt": "2026-10-11T14:45:31.295Z"
     },
     {
-      "localizations": [],
+      "localizations": [
+        {
+          "locale": "es-Caribbean",
+          "path": "content/curriculum/RED/L3/RED-L3-030.es-Caribbean.md",
+          "source": "markdown"
+        }
+      ],
       "id": "RED-L3-030",
       "type": "lesson",
       "track": "RED",
@@ -4380,7 +4560,13 @@
       "importedAt": "2026-10-11T14:45:31.295Z"
     },
     {
-      "localizations": [],
+      "localizations": [
+        {
+          "locale": "es-Caribbean",
+          "path": "content/curriculum/RED/L3/RED-L3-031.es-Caribbean.md",
+          "source": "markdown"
+        }
+      ],
       "id": "RED-L3-031",
       "type": "lesson",
       "track": "RED",
@@ -4394,7 +4580,13 @@
       "importedAt": "2026-10-11T14:45:31.295Z"
     },
     {
-      "localizations": [],
+      "localizations": [
+        {
+          "locale": "es-Caribbean",
+          "path": "content/curriculum/RED/L3/RED-L3-032.es-Caribbean.md",
+          "source": "markdown"
+        }
+      ],
       "id": "RED-L3-032",
       "type": "lesson",
       "track": "RED",
@@ -4408,7 +4600,13 @@
       "importedAt": "2026-10-11T14:45:31.295Z"
     },
     {
-      "localizations": [],
+      "localizations": [
+        {
+          "locale": "es-Caribbean",
+          "path": "content/curriculum/RED/L3/RED-L3-033.es-Caribbean.md",
+          "source": "markdown"
+        }
+      ],
       "id": "RED-L3-033",
       "type": "lesson",
       "track": "RED",
@@ -4422,7 +4620,13 @@
       "importedAt": "2026-10-11T14:45:31.295Z"
     },
     {
-      "localizations": [],
+      "localizations": [
+        {
+          "locale": "es-Caribbean",
+          "path": "content/curriculum/RED/L3/RED-L3-034.es-Caribbean.md",
+          "source": "markdown"
+        }
+      ],
       "id": "RED-L3-034",
       "type": "lesson",
       "track": "RED",
@@ -4436,7 +4640,13 @@
       "importedAt": "2026-10-11T14:45:31.295Z"
     },
     {
-      "localizations": [],
+      "localizations": [
+        {
+          "locale": "es-Caribbean",
+          "path": "content/curriculum/RED/L3/RED-L3-035.es-Caribbean.md",
+          "source": "markdown"
+        }
+      ],
       "id": "RED-L3-035",
       "type": "lesson",
       "track": "RED",
@@ -4450,7 +4660,13 @@
       "importedAt": "2026-10-11T14:45:31.295Z"
     },
     {
-      "localizations": [],
+      "localizations": [
+        {
+          "locale": "es-Caribbean",
+          "path": "content/curriculum/RED/L3/RED-L3-036.es-Caribbean.md",
+          "source": "markdown"
+        }
+      ],
       "id": "RED-L3-036",
       "type": "lesson",
       "track": "RED",
@@ -4464,7 +4680,13 @@
       "importedAt": "2026-10-11T14:45:31.295Z"
     },
     {
-      "localizations": [],
+      "localizations": [
+        {
+          "locale": "es-Caribbean",
+          "path": "content/curriculum/RED/L3/RED-L3-037.es-Caribbean.md",
+          "source": "markdown"
+        }
+      ],
       "id": "RED-L3-037",
       "type": "lesson",
       "track": "RED",
@@ -4478,7 +4700,13 @@
       "importedAt": "2026-10-11T14:45:31.295Z"
     },
     {
-      "localizations": [],
+      "localizations": [
+        {
+          "locale": "es-Caribbean",
+          "path": "content/curriculum/RED/L3/RED-L3-038.es-Caribbean.md",
+          "source": "markdown"
+        }
+      ],
       "id": "RED-L3-038",
       "type": "lesson",
       "track": "RED",
@@ -4492,7 +4720,13 @@
       "importedAt": "2026-10-11T14:45:31.295Z"
     },
     {
-      "localizations": [],
+      "localizations": [
+        {
+          "locale": "es-Caribbean",
+          "path": "content/curriculum/RED/L3/RED-L3-039.es-Caribbean.md",
+          "source": "markdown"
+        }
+      ],
       "id": "RED-L3-039",
       "type": "lesson",
       "track": "RED",
@@ -4506,7 +4740,13 @@
       "importedAt": "2026-10-11T14:45:31.295Z"
     },
     {
-      "localizations": [],
+      "localizations": [
+        {
+          "locale": "es-Caribbean",
+          "path": "content/curriculum/RED/L3/RED-L3-040.es-Caribbean.md",
+          "source": "markdown"
+        }
+      ],
       "id": "RED-L3-040",
       "type": "lesson",
       "track": "RED",
@@ -4520,7 +4760,13 @@
       "importedAt": "2026-10-11T14:45:31.295Z"
     },
     {
-      "localizations": [],
+      "localizations": [
+        {
+          "locale": "es-Caribbean",
+          "path": "content/curriculum/RED/L3/RED-L3-041.es-Caribbean.md",
+          "source": "markdown"
+        }
+      ],
       "id": "RED-L3-041",
       "type": "lesson",
       "track": "RED",
@@ -4534,7 +4780,13 @@
       "importedAt": "2026-10-11T14:45:31.295Z"
     },
     {
-      "localizations": [],
+      "localizations": [
+        {
+          "locale": "es-Caribbean",
+          "path": "content/curriculum/RED/L3/RED-L3-042.es-Caribbean.md",
+          "source": "markdown"
+        }
+      ],
       "id": "RED-L3-042",
       "type": "lesson",
       "track": "RED",
@@ -4548,7 +4800,13 @@
       "importedAt": "2026-10-11T14:45:31.295Z"
     },
     {
-      "localizations": [],
+      "localizations": [
+        {
+          "locale": "es-Caribbean",
+          "path": "content/curriculum/RED/L3/RED-L3-043.es-Caribbean.md",
+          "source": "markdown"
+        }
+      ],
       "id": "RED-L3-043",
       "type": "lesson",
       "track": "RED",
@@ -4562,7 +4820,13 @@
       "importedAt": "2026-10-11T14:45:31.295Z"
     },
     {
-      "localizations": [],
+      "localizations": [
+        {
+          "locale": "es-Caribbean",
+          "path": "content/curriculum/RED/L3/RED-L3-044.es-Caribbean.md",
+          "source": "markdown"
+        }
+      ],
       "id": "RED-L3-044",
       "type": "lesson",
       "track": "RED",
@@ -4576,7 +4840,13 @@
       "importedAt": "2026-10-11T14:45:31.295Z"
     },
     {
-      "localizations": [],
+      "localizations": [
+        {
+          "locale": "es-Caribbean",
+          "path": "content/curriculum/RED/L3/RED-L3-045.es-Caribbean.md",
+          "source": "markdown"
+        }
+      ],
       "id": "RED-L3-045",
       "type": "lesson",
       "track": "RED",
@@ -4590,7 +4860,13 @@
       "importedAt": "2026-10-11T14:45:31.295Z"
     },
     {
-      "localizations": [],
+      "localizations": [
+        {
+          "locale": "es-Caribbean",
+          "path": "content/curriculum/RED/L3/RED-L3-046.es-Caribbean.md",
+          "source": "markdown"
+        }
+      ],
       "id": "RED-L3-046",
       "type": "lesson",
       "track": "RED",
@@ -4604,7 +4880,13 @@
       "importedAt": "2026-10-11T14:45:31.295Z"
     },
     {
-      "localizations": [],
+      "localizations": [
+        {
+          "locale": "es-Caribbean",
+          "path": "content/curriculum/RED/L3/RED-L3-047.es-Caribbean.md",
+          "source": "markdown"
+        }
+      ],
       "id": "RED-L3-047",
       "type": "lesson",
       "track": "RED",
@@ -4618,7 +4900,13 @@
       "importedAt": "2026-10-11T14:45:31.295Z"
     },
     {
-      "localizations": [],
+      "localizations": [
+        {
+          "locale": "es-Caribbean",
+          "path": "content/curriculum/RED/L3/RED-L3-048.es-Caribbean.md",
+          "source": "markdown"
+        }
+      ],
       "id": "RED-L3-048",
       "type": "lesson",
       "track": "RED",
@@ -4632,7 +4920,13 @@
       "importedAt": "2026-10-11T14:45:31.295Z"
     },
     {
-      "localizations": [],
+      "localizations": [
+        {
+          "locale": "es-Caribbean",
+          "path": "content/curriculum/RED/L3/RED-L3-049.es-Caribbean.md",
+          "source": "markdown"
+        }
+      ],
       "id": "RED-L3-049",
       "type": "lesson",
       "track": "RED",
@@ -4646,7 +4940,13 @@
       "importedAt": "2026-10-11T14:45:31.295Z"
     },
     {
-      "localizations": [],
+      "localizations": [
+        {
+          "locale": "es-Caribbean",
+          "path": "content/curriculum/RED/L3/RED-L3-050.es-Caribbean.md",
+          "source": "markdown"
+        }
+      ],
       "id": "RED-L3-050",
       "type": "lesson",
       "track": "RED",
