@@ -255,7 +255,7 @@ function buildDerivedCurriculumFiles(
     "## Result",
     "✅ No issues found. Registry and filesystem are consistent.",
     "",
-  ].join("\n");
+  ].join("\n") + "\n"; // byte-identical to scripts/curriculum/audit.mjs (CI checks with git diff)
 
   return {
     inventory: JSON.stringify(inventory, null, 2) + "\n",

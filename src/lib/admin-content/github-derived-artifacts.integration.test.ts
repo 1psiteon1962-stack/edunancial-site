@@ -143,6 +143,7 @@ test("50-lesson GitHub publication commits registry inventory and both audit art
   };
 
   let blobSequence = 0;
+  const blobContents = new Map<string, string>();
   const exportLabels: string[] = [];
   let committedTree: Array<{ path: string; mode: string; type: string; sha: string }> = [];
   __setGithubRequestTestAdapterForTests(async (requestPath, init) => {
@@ -167,6 +168,8 @@ test("50-lesson GitHub publication commits registry inventory and both audit art
     if (method === "POST" && requestPath === "/git/refs") return {};
     if (method === "POST" && requestPath === "/git/blobs") {
       blobSequence += 1;
+      const payload = JSON.parse(String(init.body ?? "{}")) as { content?: string };
+      blobContents.set(`blob-${blobSequence}`, Buffer.from(payload.content ?? "", "base64").toString("utf8"));
       return { sha: `blob-${blobSequence}` };
     }
     if (method === "GET" && requestPath === "/git/commits/base-sha") {
@@ -199,6 +202,13 @@ test("50-lesson GitHub publication commits registry inventory and both audit art
     [...paths].filter((path) => /^content\/curriculum\/RED\/L1\/RED-L1-\d{3}\.md$/u.test(path)).length,
     50,
   );
+  // CI regenerates the audit report and fails on any byte difference
+  // (curriculum-integrity "Ensure audit artifacts are committed"), so the
+  // exporter must end it exactly like scripts/curriculum/audit.mjs does.
+  const auditMdEntry = committedTree.find((entry) => entry.path === "curriculum/reports/CURRICULUM-AUDIT.md");
+  const auditMd = auditMdEntry ? blobContents.get(auditMdEntry.sha) ?? "" : "";
+  assert.ok(auditMd.endsWith("Registry and filesystem are consistent.\n\n"), JSON.stringify(auditMd.slice(-60)));
+
   for (const requiredPath of [
     "curriculum/registry.json",
     "curriculum/inventory.json",
