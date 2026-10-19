@@ -3,7 +3,7 @@
 import { useEffect, useRef } from "react";
 
 import { useInternationalPreferences } from "@/components/international/InternationalPreferencesProvider";
-import { spanishLocaleForNetworkCountry } from "@/lib/international/detection";
+import { regionalLocaleForNetworkCountry } from "@/lib/international/detection";
 
 interface CountryDetectionPayload {
   success?: boolean;
@@ -20,7 +20,7 @@ interface CountryDetectionPayload {
  * unavailable; checkout independently reconciles the final country.
  */
 export default function NetworkCountrySync() {
-  const { ready, preferences, setCountry, setCurrency, setTimezone, setDetectedSpanishLocale } = useInternationalPreferences();
+  const { ready, preferences, effectiveLanguage, setCountry, setCurrency, setTimezone, setDetectedRegionalLocale } = useInternationalPreferences();
   const attempted = useRef(false);
 
   useEffect(() => {
@@ -34,8 +34,8 @@ export default function NetworkCountrySync() {
         if (cancelled || !response.ok || !payload.success || !payload.detected || !payload.countryCode) return;
 
         const detectedCountry = payload.countryCode.toLowerCase();
-        const spanishDialect = spanishLocaleForNetworkCountry(detectedCountry);
-        if (spanishDialect) setDetectedSpanishLocale(spanishDialect);
+        const regionalLocale = regionalLocaleForNetworkCountry(detectedCountry, effectiveLanguage);
+        if (regionalLocale) setDetectedRegionalLocale(regionalLocale);
         if (preferences.country.toLowerCase() !== detectedCountry) setCountry(detectedCountry);
         if (payload.currency && preferences.preferredCurrency !== payload.currency) setCurrency(payload.currency);
         if (payload.timezone && preferences.timeZone !== payload.timezone) setTimezone(payload.timezone);
@@ -47,7 +47,7 @@ export default function NetworkCountrySync() {
     return () => {
       cancelled = true;
     };
-  }, [preferences.country, preferences.preferredCurrency, ready, setCountry, setCurrency, setTimezone, setDetectedSpanishLocale]);
+  }, [preferences.country, preferences.preferredCurrency, ready, effectiveLanguage, setCountry, setCurrency, setTimezone, setDetectedRegionalLocale]);
 
   return null;
 }
