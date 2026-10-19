@@ -7,7 +7,12 @@ import {
   isLanguageSupported,
   normalizeLanguageCode,
 } from "./languages";
-import { parseCountryCodeFromLanguageTag, resolveRegion } from "./detection";
+import {
+  countryFromTimezone,
+  parseCountryCodeFromLanguageTag,
+  resolveRegion,
+  spanishLocaleForNetworkCountry,
+} from "./detection";
 import {
   resolveDefaultPaymentMethod,
   type GlobalUserPreferences,
@@ -235,12 +240,21 @@ export function saveInternationalPreferences(preferences: InternationalPreferenc
   }
 }
 
+/** A Spanish-language visitor gets the dialect of where they are, not of the phone's region setting. */
+function refineSpanishDialect(language: string, countryCode: string) {
+  if (!language.toLowerCase().startsWith("es")) return language;
+  const dialect = spanishLocaleForNetworkCountry(countryCode);
+  return dialect && isLanguageSupported(dialect) ? dialect : language;
+}
+
 export function detectInitialInternationalPreferences() {
   const browserLanguage = typeof navigator !== "undefined" ? navigator.language : DEFAULT_LANGUAGE_CODE;
   const timezone = isClient() ? getDefaultTimezone() : "America/New_York";
-  const country = parseCountryCodeFromLanguageTag(browserLanguage);
+  // Device time zone first; the language tag is only a last-resort country hint.
+  // Trusted network geography (NetworkCountrySync) confirms or corrects this.
+  const country = countryFromTimezone(timezone) ?? parseCountryCodeFromLanguageTag(browserLanguage);
   const region = resolveRegion(country, timezone);
-  const preferredLanguage = resolveLanguage(browserLanguage);
+  const preferredLanguage = refineSpanishDialect(resolveLanguage(browserLanguage), country);
 
   return {
     preferredLanguage,

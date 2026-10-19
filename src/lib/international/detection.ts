@@ -38,6 +38,18 @@ const countryRegionMap: Record<string, string> = {
   mx: "latin-america-2a",
   br: "latin-america-2b",
   do: "caribbean",
+  pr: "caribbean",
+  cu: "caribbean",
+  jm: "caribbean",
+  bb: "caribbean",
+  ht: "caribbean",
+  tc: "caribbean",
+  tt: "caribbean",
+  bs: "caribbean",
+  gp: "caribbean",
+  mq: "caribbean",
+  aw: "caribbean",
+  cw: "caribbean",
   eg: "africa",
   ae: "middle-east",
   sa: "middle-east",
@@ -105,6 +117,61 @@ export function parseCountryCodeFromLanguageTag(languageTag: string | undefined)
   }
 
   return segments[segments.length - 1].toLowerCase();
+}
+
+/**
+ * Device time zone -> country. Used only as the first automatic country guess
+ * before trusted network geography answers. A browser language tag such as
+ * "es-ES" describes the phone's language setting, not where the visitor is,
+ * so it must never be the primary country signal (a visitor in the Dominican
+ * Republic with a phone set to "Español (España)" is in DO, not ES).
+ */
+const timezoneCountryMap: Record<string, string> = {
+  "America/Santo_Domingo": "do",
+  "America/Puerto_Rico": "pr",
+  "America/Havana": "cu",
+  "America/Jamaica": "jm",
+  "America/Barbados": "bb",
+  "America/Port-au-Prince": "ht",
+  "America/Grand_Turk": "tc",
+  "America/Port_of_Spain": "tt",
+  "America/Nassau": "bs",
+  "America/Guadeloupe": "gp",
+  "America/Martinique": "mq",
+  "America/Aruba": "aw",
+  "America/Curacao": "cw",
+  "America/Paramaribo": "sr",
+  "America/Cayenne": "gf",
+  "America/Mexico_City": "mx",
+  "America/Guatemala": "gt",
+  "America/El_Salvador": "sv",
+  "America/Tegucigalpa": "hn",
+  "America/Managua": "ni",
+  "America/Costa_Rica": "cr",
+  "America/Panama": "pa",
+  "America/Bogota": "co",
+  "America/Caracas": "ve",
+  "America/Lima": "pe",
+  "America/Guayaquil": "ec",
+  "America/La_Paz": "bo",
+  "America/Santiago": "cl",
+  "America/Argentina/Buenos_Aires": "ar",
+  "America/Buenos_Aires": "ar",
+  "America/Montevideo": "uy",
+  "America/Asuncion": "py",
+  "America/Sao_Paulo": "br",
+  "Europe/Madrid": "es",
+  "Europe/Lisbon": "pt",
+  "Europe/London": "gb",
+  "Europe/Paris": "fr",
+  "Europe/Amsterdam": "nl",
+  "Europe/Berlin": "de",
+  "Europe/Rome": "it",
+};
+
+export function countryFromTimezone(timezone: string | null | undefined): string | null {
+  if (!timezone) return null;
+  return timezoneCountryMap[timezone] ?? null;
 }
 
 export function resolveRegion(countryCode: string, timezone: string) {
