@@ -14,6 +14,7 @@ import {
 import { translate } from "@/lib/international/i18n";
 import {
   getStoredLanguageAdminSettings,
+  isLanguageSupported,
   isRtlLanguage,
   normalizeLanguageCode,
 } from "@/lib/international/languages";
@@ -70,7 +71,7 @@ type InternationalPreferencesContextValue = {
    */
   resetToAutomatic: () => void;
   setCountry: (country: string) => void;
-  setDetectedSpanishLocale: (locale: "es-ES" | "es-Caribbean") => void;
+  setDetectedRegionalLocale: (locale: string) => void;
   setRegion: (region: string) => void;
   setCurrency: (currency: string) => void;
   setTimezone: (timezone: string) => void;
@@ -113,7 +114,7 @@ const InternationalPreferencesContext = createContext<InternationalPreferencesCo
   confirmLanguageDefault: () => {},
   resetToAutomatic: () => {},
   setCountry: () => {},
-  setDetectedSpanishLocale: () => {},
+  setDetectedRegionalLocale: () => {},
   setRegion: () => {},
   setCurrency: () => {},
   setTimezone: () => {},
@@ -260,10 +261,12 @@ export function InternationalPreferencesProvider({
         }));
         router.refresh();
       },
-      setDetectedSpanishLocale: (locale) => {
-        // The network can refine automatic Spanish dialects, never a manual choice.
+      setDetectedRegionalLocale: (locale) => {
+        // The network can refine the automatic regional variant (es-ES vs es-Caribbean,
+        // en-US vs en-GB, fr-FR vs fr-CA...), never a manual choice or a different language.
         if (sessionLanguage || loadSavedLanguagePreference() || preferences.languageSelectionSource === "user-confirmed") return;
-        if (!effectiveLanguage.toLowerCase().startsWith("es")) return;
+        if (effectiveLanguage.toLowerCase().split("-")[0] !== locale.toLowerCase().split("-")[0]) return;
+        if (!isLanguageSupported(locale)) return;
         if (effectiveLanguage === locale) return;
         writeLanguageCookie(locale, false);
         setPreferences((previous) => ({ ...previous, preferredLanguage: locale, languageSelectionSource: "detected" }));

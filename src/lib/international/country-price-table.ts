@@ -9,7 +9,9 @@
  * local price and states that purchase is not yet open in that country. It
  * never shows a buy button that would charge a different (USD) amount.
  */
-export type CountryPriceStatus = "DRAFT" | "APPROVED" | "ACTIVE";
+import { getFormulaCountryPricing } from "./country-pricing-formula";
+
+export type CountryPriceStatus = "DRAFT" | "APPROVED" | "ACTIVE" | "FORMULA";
 export type CountryPricedPlanId = "basic" | "premium" | "enterprise";
 
 export interface CountryPlanPrices {
@@ -48,19 +50,39 @@ export const COUNTRY_PRICE_TABLE: Record<string, CountryPriceEntry> = {
   },
 };
 
-/** Only APPROVED or ACTIVE prices may be shown to visitors. */
+/**
+ * Prices shown to a visitor from this country:
+ *   1. a hand-set APPROVED/ACTIVE entry in COUNTRY_PRICE_TABLE, otherwise
+ *   2. the owner-approved pricing formula (country-pricing-formula.ts).
+ * Returns null for US/CA (existing pricing unchanged) and for countries the
+ * formula cannot price (no currency/rate, or excluded jurisdictions).
+ */
 export function getDisplayCountryPrices(countryCode: string | null | undefined): CountryPriceEntry | null {
   const code = String(countryCode ?? "").trim().toUpperCase();
   const entry = COUNTRY_PRICE_TABLE[code];
-  if (!entry || entry.status === "DRAFT") return null;
-  return entry;
+  if (entry && entry.status !== "DRAFT") return entry;
+
+  const formula = getFormulaCountryPricing(code);
+  if (!formula) return null;
+  return {
+    countryCode: formula.countryCode,
+    currency: formula.currency,
+    formatLocale: "en-US",
+    status: "FORMULA",
+    version: `formula-${formula.asOf}`,
+    effectiveDate: formula.asOf,
+    approvedBy: "owner-approved formula (2026-10-19)",
+    // Buy buttons only where checkout would charge exactly the displayed amount (USD at US price).
+    checkoutEnabled: formula.matchesUsCheckout,
+    plans: formula.plans,
+  };
 }
 
 export function formatCountryPrice(amount: number, entry: Pick<CountryPriceEntry, "currency" | "formatLocale">): string {
   return new Intl.NumberFormat(entry.formatLocale, {
     style: "currency",
     currency: entry.currency,
-    maximumFractionDigits: 0,
-    minimumFractionDigits: 0,
+    maximumFractionDigits: Number.isInteger(amount) ? 0 : 2,
+    minimumFractionDigits: Number.isInteger(amount) ? 0 : 2,
   }).format(amount);
 }

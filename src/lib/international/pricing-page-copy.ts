@@ -83,13 +83,12 @@ export function getPricingPageCopy(languageCode: string): PricingPageCopy {
   return en;
 }
 
-const COUNTRY_NAMES: Record<string, { en: string; es: string }> = {
-  DO: { en: "the Dominican Republic", es: "República Dominicana" },
-};
-
 export function getPricingCountryName(countryCode: string, languageCode: string): string {
-  const names = COUNTRY_NAMES[countryCode.toUpperCase()];
-  if (!names) return countryCode.toUpperCase();
-  const base = normalizeLanguageCode(languageCode).toLowerCase().split("-")[0];
-  return base === "es" ? names.es : names.en;
+  const code = countryCode.toUpperCase();
+  try {
+    const display = new Intl.DisplayNames([normalizeLanguageCode(languageCode), "en"], { type: "region" });
+    return display.of(code) ?? code;
+  } catch {
+    return code;
+  }
 }

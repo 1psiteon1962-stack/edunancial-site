@@ -198,3 +198,24 @@ export function spanishLocaleForNetworkCountry(countryCode: string): "es-ES" | "
   ]);
   return regionCodes.has(code) ? "es-Caribbean" : null;
 }
+
+/**
+ * Regional variant of the visitor's language for their country, e.g. an
+ * English speaker in Jamaica -> en-GB, a French speaker in Canada -> fr-CA.
+ * Only refines within the same base language; never switches language.
+ */
+const ENGLISH_GB_COUNTRIES = new Set([
+  "GB","IE","IM","JE","GG","GI","JM","BB","TC","BS","TT","AG","LC","VC","GD","KN","DM","KY","VG","AI","MS","BZ","GY","BM",
+]);
+const FRENCH_FR_COUNTRIES = new Set(["FR","GP","MQ","GF","RE","YT","BL","MF","PM","HT","BE","CH","LU","MC"]);
+const PORTUGUESE_PT_COUNTRIES = new Set(["PT","AO","MZ","CV","GW","ST","TL"]);
+
+export function regionalLocaleForNetworkCountry(countryCode: string, languageCode: string): string | null {
+  const code = countryCode.trim().toUpperCase();
+  const base = languageCode.trim().toLowerCase().split("-")[0];
+  if (base === "es") return spanishLocaleForNetworkCountry(code);
+  if (base === "en") return ENGLISH_GB_COUNTRIES.has(code) ? "en-GB" : code === "US" ? "en-US" : null;
+  if (base === "fr") return code === "CA" ? "fr-CA" : FRENCH_FR_COUNTRIES.has(code) ? "fr-FR" : null;
+  if (base === "pt") return code === "BR" ? "pt-BR" : PORTUGUESE_PT_COUNTRIES.has(code) ? "pt-PT" : null;
+  return null;
+}

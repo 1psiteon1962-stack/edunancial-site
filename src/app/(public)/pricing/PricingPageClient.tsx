@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import { useEffect, useState } from "react";
 
 import { useInternationalPreferences } from "@/components/international/InternationalPreferencesProvider";
 import { formatCountryPrice, getDisplayCountryPrices, type CountryPricedPlanId } from "@/lib/international/country-price-table";
@@ -12,7 +13,23 @@ export default function PricingPageClient() {
   const { effectiveLanguage, preferences, t } = useInternationalPreferences();
   const language = resolveMembershipCopyLanguage(effectiveLanguage);
   const pageCopy = getPricingPageCopy(effectiveLanguage);
-  const localPrices = getDisplayCountryPrices(preferences.country);
+  const [countryDisabled, setCountryDisabled] = useState(false);
+  useEffect(() => {
+    const code = String(preferences.country ?? "").toUpperCase();
+    if (!/^[A-Z]{2}$/u.test(code)) return;
+    let cancelled = false;
+    fetch(`/api/location/country-status?code=${code}`)
+      .then((response) => (response.ok ? response.json() : null))
+      .then((payload: { disabled?: boolean } | null) => {
+        if (!cancelled) setCountryDisabled(Boolean(payload?.disabled));
+      })
+      .catch(() => undefined);
+    return () => {
+      cancelled = true;
+    };
+  }, [preferences.country]);
+  // A country turned off on the admin Regions dashboard gets no local prices or purchase links.
+  const localPrices = countryDisabled ? null : getDisplayCountryPrices(preferences.country);
   const usd = (amount: number) => `$${amount.toFixed(2)}`;
 
   return (

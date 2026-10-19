@@ -31,3 +31,16 @@ test("Unknown time zone gives no country guess", () => {
   assert.equal(countryFromTimezone("Antarctica/Troll"), null);
   assert.equal(countryFromTimezone(undefined), null);
 });
+test("Regional language variant follows the country within the same language", async () => {
+  const { regionalLocaleForNetworkCountry } = await import("./detection");
+  assert.equal(regionalLocaleForNetworkCountry("JM", "en-US"), "en-GB");
+  assert.equal(regionalLocaleForNetworkCountry("BB", "en"), "en-GB");
+  assert.equal(regionalLocaleForNetworkCountry("PR", "es-ES"), "es-Caribbean");
+  assert.equal(regionalLocaleForNetworkCountry("MX", "es"), "es-Caribbean");
+  assert.equal(regionalLocaleForNetworkCountry("CA", "fr-FR"), "fr-CA");
+  assert.equal(regionalLocaleForNetworkCountry("GP", "fr-CA"), "fr-FR");
+  assert.equal(regionalLocaleForNetworkCountry("BR", "pt-PT"), "pt-BR");
+  // Never switches to a different language.
+  assert.equal(regionalLocaleForNetworkCountry("JM", "es-Caribbean"), "es-Caribbean");
+  assert.equal(regionalLocaleForNetworkCountry("DE", "en-US"), null);
+});
