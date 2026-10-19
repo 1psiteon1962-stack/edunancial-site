@@ -1,20 +1,20 @@
 {
   "_note": "Generated file. Run `npm run curriculum:inventory` to regenerate. Do not edit manually.",
   "summary": {
-    "totalLessons": 1702,
+    "totalLessons": 1752,
     "totalTracks": 8,
-    "totalLevels": 35,
-    "localizedVariants": 5326,
+    "totalLevels": 36,
+    "localizedVariants": 5426,
     "byTrack": {
       "RED": {
         "name": "Real Estate",
         "totalLessons": 202,
-        "localizedVariants": 676
+        "localizedVariants": 726
       },
       "WHITE": {
         "name": "Paper Assets",
         "totalLessons": 200,
-        "localizedVariants": 700
+        "localizedVariants": 750
       },
       "BLUE": {
         "name": "Business",
@@ -33,7 +33,7 @@
       },
       "PURPLE": {
         "name": "Law",
-        "totalLessons": 150,
+        "totalLessons": 200,
         "localizedVariants": 150
       },
       "ORANGE": {
@@ -3965,6 +3965,11 @@
           "locale": "es-Caribbean",
           "path": "content/curriculum/RED/L3/RED-L3-001.es-Caribbean.md",
           "source": "markdown"
+        },
+        {
+          "locale": "es-ES",
+          "path": "content/curriculum/RED/L3/RED-L3-001.es-ES.md",
+          "source": "markdown"
         }
       ],
       "id": "RED-L3-001",
@@ -3984,6 +3989,11 @@
         {
           "locale": "es-Caribbean",
           "path": "content/curriculum/RED/L3/RED-L3-002.es-Caribbean.md",
+          "source": "markdown"
+        },
+        {
+          "locale": "es-ES",
+          "path": "content/curriculum/RED/L3/RED-L3-002.es-ES.md",
           "source": "markdown"
         }
       ],
@@ -4005,6 +4015,11 @@
           "locale": "es-Caribbean",
           "path": "content/curriculum/RED/L3/RED-L3-003.es-Caribbean.md",
           "source": "markdown"
+        },
+        {
+          "locale": "es-ES",
+          "path": "content/curriculum/RED/L3/RED-L3-003.es-ES.md",
+          "source": "markdown"
         }
       ],
       "id": "RED-L3-003",
@@ -4024,6 +4039,11 @@
         {
           "locale": "es-Caribbean",
           "path": "content/curriculum/RED/L3/RED-L3-004.es-Caribbean.md",
+          "source": "markdown"
+        },
+        {
+          "locale": "es-ES",
+          "path": "content/curriculum/RED/L3/RED-L3-004.es-ES.md",
           "source": "markdown"
         }
       ],
@@ -4045,6 +4065,11 @@
           "locale": "es-Caribbean",
           "path": "content/curriculum/RED/L3/RED-L3-005.es-Caribbean.md",
           "source": "markdown"
+        },
+        {
+          "locale": "es-ES",
+          "path": "content/curriculum/RED/L3/RED-L3-005.es-ES.md",
+          "source": "markdown"
         }
       ],
       "id": "RED-L3-005",
@@ -4064,6 +4089,11 @@
         {
           "locale": "es-Caribbean",
           "path": "content/curriculum/RED/L3/RED-L3-006.es-Caribbean.md",
+          "source": "markdown"
+        },
+        {
+          "locale": "es-ES",
+          "path": "content/curriculum/RED/L3/RED-L3-006.es-ES.md",
           "source": "markdown"
         }
       ],
@@ -4085,6 +4115,11 @@
           "locale": "es-Caribbean",
           "path": "content/curriculum/RED/L3/RED-L3-007.es-Caribbean.md",
           "source": "markdown"
+        },
+        {
+          "locale": "es-ES",
+          "path": "content/curriculum/RED/L3/RED-L3-007.es-ES.md",
+          "source": "markdown"
         }
       ],
       "id": "RED-L3-007",
@@ -4104,6 +4139,11 @@
         {
           "locale": "es-Caribbean",
           "path": "content/curriculum/RED/L3/RED-L3-008.es-Caribbean.md",
+          "source": "markdown"
+        },
+        {
+          "locale": "es-ES",
+          "path": "content/curriculum/RED/L3/RED-L3-008.es-ES.md",
           "source": "markdown"
         }
       ],
@@ -4125,6 +4165,11 @@
           "locale": "es-Caribbean",
           "path": "content/curriculum/RED/L3/RED-L3-009.es-Caribbean.md",
           "source": "markdown"
+        },
+        {
+          "locale": "es-ES",
+          "path": "content/curriculum/RED/L3/RED-L3-009.es-ES.md",
+          "source": "markdown"
         }
       ],
       "id": "RED-L3-009",
@@ -4144,6 +4189,11 @@
         {
           "locale": "es-Caribbean",
           "path": "content/curriculum/RED/L3/RED-L3-010.es-Caribbean.md",
+          "source": "markdown"
+        },
+        {
+          "locale": "es-ES",
+          "path": "content/curriculum/RED/L3/RED-L3-010.es-ES.md",
           "source": "markdown"
         }
       ],
@@ -4165,6 +4215,11 @@
           "locale": "es-Caribbean",
           "path": "content/curriculum/RED/L3/RED-L3-011.es-Caribbean.md",
           "source": "markdown"
+        },
+        {
+          "locale": "es-ES",
+          "path": "content/curriculum/RED/L3/RED-L3-011.es-ES.md",
+          "source": "markdown"
         }
       ],
       "id": "RED-L3-011",
@@ -4184,6 +4239,11 @@
         {
           "locale": "es-Caribbean",
           "path": "content/curriculum/RED/L3/RED-L3-012.es-Caribbean.md",
+          "source": "markdown"
+        },
+        {
+          "locale": "es-ES",
+          "path": "content/curriculum/RED/L3/RED-L3-012.es-ES.md",
           "source": "markdown"
         }
       ],
@@ -4205,6 +4265,11 @@
           "locale": "es-Caribbean",
           "path": "content/curriculum/RED/L3/RED-L3-013.es-Caribbean.md",
           "source": "markdown"
+        },
+        {
+          "locale": "es-ES",
+          "path": "content/curriculum/RED/L3/RED-L3-013.es-ES.md",
+          "source": "markdown"
         }
       ],
       "id": "RED-L3-013",
@@ -4224,6 +4289,11 @@
         {
           "locale": "es-Caribbean",
           "path": "content/curriculum/RED/L3/RED-L3-014.es-Caribbean.md",
+          "source": "markdown"
+        },
+        {
+          "locale": "es-ES",
+          "path": "content/curriculum/RED/L3/RED-L3-014.es-ES.md",
           "source": "markdown"
         }
       ],
@@ -4245,6 +4315,11 @@
           "locale": "es-Caribbean",
           "path": "content/curriculum/RED/L3/RED-L3-015.es-Caribbean.md",
           "source": "markdown"
+        },
+        {
+          "locale": "es-ES",
+          "path": "content/curriculum/RED/L3/RED-L3-015.es-ES.md",
+          "source": "markdown"
         }
       ],
       "id": "RED-L3-015",
@@ -4264,6 +4339,11 @@
         {
           "locale": "es-Caribbean",
           "path": "content/curriculum/RED/L3/RED-L3-016.es-Caribbean.md",
+          "source": "markdown"
+        },
+        {
+          "locale": "es-ES",
+          "path": "content/curriculum/RED/L3/RED-L3-016.es-ES.md",
           "source": "markdown"
         }
       ],
@@ -4285,6 +4365,11 @@
           "locale": "es-Caribbean",
           "path": "content/curriculum/RED/L3/RED-L3-017.es-Caribbean.md",
           "source": "markdown"
+        },
+        {
+          "locale": "es-ES",
+          "path": "content/curriculum/RED/L3/RED-L3-017.es-ES.md",
+          "source": "markdown"
         }
       ],
       "id": "RED-L3-017",
@@ -4304,6 +4389,11 @@
         {
           "locale": "es-Caribbean",
           "path": "content/curriculum/RED/L3/RED-L3-018.es-Caribbean.md",
+          "source": "markdown"
+        },
+        {
+          "locale": "es-ES",
+          "path": "content/curriculum/RED/L3/RED-L3-018.es-ES.md",
           "source": "markdown"
         }
       ],
@@ -4325,6 +4415,11 @@
           "locale": "es-Caribbean",
           "path": "content/curriculum/RED/L3/RED-L3-019.es-Caribbean.md",
           "source": "markdown"
+        },
+        {
+          "locale": "es-ES",
+          "path": "content/curriculum/RED/L3/RED-L3-019.es-ES.md",
+          "source": "markdown"
         }
       ],
       "id": "RED-L3-019",
@@ -4344,6 +4439,11 @@
         {
           "locale": "es-Caribbean",
           "path": "content/curriculum/RED/L3/RED-L3-020.es-Caribbean.md",
+          "source": "markdown"
+        },
+        {
+          "locale": "es-ES",
+          "path": "content/curriculum/RED/L3/RED-L3-020.es-ES.md",
           "source": "markdown"
         }
       ],
@@ -4365,6 +4465,11 @@
           "locale": "es-Caribbean",
           "path": "content/curriculum/RED/L3/RED-L3-021.es-Caribbean.md",
           "source": "markdown"
+        },
+        {
+          "locale": "es-ES",
+          "path": "content/curriculum/RED/L3/RED-L3-021.es-ES.md",
+          "source": "markdown"
         }
       ],
       "id": "RED-L3-021",
@@ -4384,6 +4489,11 @@
         {
           "locale": "es-Caribbean",
           "path": "content/curriculum/RED/L3/RED-L3-022.es-Caribbean.md",
+          "source": "markdown"
+        },
+        {
+          "locale": "es-ES",
+          "path": "content/curriculum/RED/L3/RED-L3-022.es-ES.md",
           "source": "markdown"
         }
       ],
@@ -4405,6 +4515,11 @@
           "locale": "es-Caribbean",
           "path": "content/curriculum/RED/L3/RED-L3-023.es-Caribbean.md",
           "source": "markdown"
+        },
+        {
+          "locale": "es-ES",
+          "path": "content/curriculum/RED/L3/RED-L3-023.es-ES.md",
+          "source": "markdown"
         }
       ],
       "id": "RED-L3-023",
@@ -4424,6 +4539,11 @@
         {
           "locale": "es-Caribbean",
           "path": "content/curriculum/RED/L3/RED-L3-024.es-Caribbean.md",
+          "source": "markdown"
+        },
+        {
+          "locale": "es-ES",
+          "path": "content/curriculum/RED/L3/RED-L3-024.es-ES.md",
           "source": "markdown"
         }
       ],
@@ -4445,6 +4565,11 @@
           "locale": "es-Caribbean",
           "path": "content/curriculum/RED/L3/RED-L3-025.es-Caribbean.md",
           "source": "markdown"
+        },
+        {
+          "locale": "es-ES",
+          "path": "content/curriculum/RED/L3/RED-L3-025.es-ES.md",
+          "source": "markdown"
         }
       ],
       "id": "RED-L3-025",
@@ -4464,6 +4589,11 @@
         {
           "locale": "es-Caribbean",
           "path": "content/curriculum/RED/L3/RED-L3-026.es-Caribbean.md",
+          "source": "markdown"
+        },
+        {
+          "locale": "es-ES",
+          "path": "content/curriculum/RED/L3/RED-L3-026.es-ES.md",
           "source": "markdown"
         }
       ],
@@ -4485,6 +4615,11 @@
           "locale": "es-Caribbean",
           "path": "content/curriculum/RED/L3/RED-L3-027.es-Caribbean.md",
           "source": "markdown"
+        },
+        {
+          "locale": "es-ES",
+          "path": "content/curriculum/RED/L3/RED-L3-027.es-ES.md",
+          "source": "markdown"
         }
       ],
       "id": "RED-L3-027",
@@ -4504,6 +4639,11 @@
         {
           "locale": "es-Caribbean",
           "path": "content/curriculum/RED/L3/RED-L3-028.es-Caribbean.md",
+          "source": "markdown"
+        },
+        {
+          "locale": "es-ES",
+          "path": "content/curriculum/RED/L3/RED-L3-028.es-ES.md",
           "source": "markdown"
         }
       ],
@@ -4525,6 +4665,11 @@
           "locale": "es-Caribbean",
           "path": "content/curriculum/RED/L3/RED-L3-029.es-Caribbean.md",
           "source": "markdown"
+        },
+        {
+          "locale": "es-ES",
+          "path": "content/curriculum/RED/L3/RED-L3-029.es-ES.md",
+          "source": "markdown"
         }
       ],
       "id": "RED-L3-029",
@@ -4544,6 +4689,11 @@
         {
           "locale": "es-Caribbean",
           "path": "content/curriculum/RED/L3/RED-L3-030.es-Caribbean.md",
+          "source": "markdown"
+        },
+        {
+          "locale": "es-ES",
+          "path": "content/curriculum/RED/L3/RED-L3-030.es-ES.md",
           "source": "markdown"
         }
       ],
@@ -4565,6 +4715,11 @@
           "locale": "es-Caribbean",
           "path": "content/curriculum/RED/L3/RED-L3-031.es-Caribbean.md",
           "source": "markdown"
+        },
+        {
+          "locale": "es-ES",
+          "path": "content/curriculum/RED/L3/RED-L3-031.es-ES.md",
+          "source": "markdown"
         }
       ],
       "id": "RED-L3-031",
@@ -4584,6 +4739,11 @@
         {
           "locale": "es-Caribbean",
           "path": "content/curriculum/RED/L3/RED-L3-032.es-Caribbean.md",
+          "source": "markdown"
+        },
+        {
+          "locale": "es-ES",
+          "path": "content/curriculum/RED/L3/RED-L3-032.es-ES.md",
           "source": "markdown"
         }
       ],
@@ -4605,6 +4765,11 @@
           "locale": "es-Caribbean",
           "path": "content/curriculum/RED/L3/RED-L3-033.es-Caribbean.md",
           "source": "markdown"
+        },
+        {
+          "locale": "es-ES",
+          "path": "content/curriculum/RED/L3/RED-L3-033.es-ES.md",
+          "source": "markdown"
         }
       ],
       "id": "RED-L3-033",
@@ -4624,6 +4789,11 @@
         {
           "locale": "es-Caribbean",
           "path": "content/curriculum/RED/L3/RED-L3-034.es-Caribbean.md",
+          "source": "markdown"
+        },
+        {
+          "locale": "es-ES",
+          "path": "content/curriculum/RED/L3/RED-L3-034.es-ES.md",
           "source": "markdown"
         }
       ],
@@ -4645,6 +4815,11 @@
           "locale": "es-Caribbean",
           "path": "content/curriculum/RED/L3/RED-L3-035.es-Caribbean.md",
           "source": "markdown"
+        },
+        {
+          "locale": "es-ES",
+          "path": "content/curriculum/RED/L3/RED-L3-035.es-ES.md",
+          "source": "markdown"
         }
       ],
       "id": "RED-L3-035",
@@ -4664,6 +4839,11 @@
         {
           "locale": "es-Caribbean",
           "path": "content/curriculum/RED/L3/RED-L3-036.es-Caribbean.md",
+          "source": "markdown"
+        },
+        {
+          "locale": "es-ES",
+          "path": "content/curriculum/RED/L3/RED-L3-036.es-ES.md",
           "source": "markdown"
         }
       ],
@@ -4685,6 +4865,11 @@
           "locale": "es-Caribbean",
           "path": "content/curriculum/RED/L3/RED-L3-037.es-Caribbean.md",
           "source": "markdown"
+        },
+        {
+          "locale": "es-ES",
+          "path": "content/curriculum/RED/L3/RED-L3-037.es-ES.md",
+          "source": "markdown"
         }
       ],
       "id": "RED-L3-037",
@@ -4704,6 +4889,11 @@
         {
           "locale": "es-Caribbean",
           "path": "content/curriculum/RED/L3/RED-L3-038.es-Caribbean.md",
+          "source": "markdown"
+        },
+        {
+          "locale": "es-ES",
+          "path": "content/curriculum/RED/L3/RED-L3-038.es-ES.md",
           "source": "markdown"
         }
       ],
@@ -4725,6 +4915,11 @@
           "locale": "es-Caribbean",
           "path": "content/curriculum/RED/L3/RED-L3-039.es-Caribbean.md",
           "source": "markdown"
+        },
+        {
+          "locale": "es-ES",
+          "path": "content/curriculum/RED/L3/RED-L3-039.es-ES.md",
+          "source": "markdown"
         }
       ],
       "id": "RED-L3-039",
@@ -4744,6 +4939,11 @@
         {
           "locale": "es-Caribbean",
           "path": "content/curriculum/RED/L3/RED-L3-040.es-Caribbean.md",
+          "source": "markdown"
+        },
+        {
+          "locale": "es-ES",
+          "path": "content/curriculum/RED/L3/RED-L3-040.es-ES.md",
           "source": "markdown"
         }
       ],
@@ -4765,6 +4965,11 @@
           "locale": "es-Caribbean",
           "path": "content/curriculum/RED/L3/RED-L3-041.es-Caribbean.md",
           "source": "markdown"
+        },
+        {
+          "locale": "es-ES",
+          "path": "content/curriculum/RED/L3/RED-L3-041.es-ES.md",
+          "source": "markdown"
         }
       ],
       "id": "RED-L3-041",
@@ -4784,6 +4989,11 @@
         {
           "locale": "es-Caribbean",
           "path": "content/curriculum/RED/L3/RED-L3-042.es-Caribbean.md",
+          "source": "markdown"
+        },
+        {
+          "locale": "es-ES",
+          "path": "content/curriculum/RED/L3/RED-L3-042.es-ES.md",
           "source": "markdown"
         }
       ],
@@ -4805,6 +5015,11 @@
           "locale": "es-Caribbean",
           "path": "content/curriculum/RED/L3/RED-L3-043.es-Caribbean.md",
           "source": "markdown"
+        },
+        {
+          "locale": "es-ES",
+          "path": "content/curriculum/RED/L3/RED-L3-043.es-ES.md",
+          "source": "markdown"
         }
       ],
       "id": "RED-L3-043",
@@ -4824,6 +5039,11 @@
         {
           "locale": "es-Caribbean",
           "path": "content/curriculum/RED/L3/RED-L3-044.es-Caribbean.md",
+          "source": "markdown"
+        },
+        {
+          "locale": "es-ES",
+          "path": "content/curriculum/RED/L3/RED-L3-044.es-ES.md",
           "source": "markdown"
         }
       ],
@@ -4845,6 +5065,11 @@
           "locale": "es-Caribbean",
           "path": "content/curriculum/RED/L3/RED-L3-045.es-Caribbean.md",
           "source": "markdown"
+        },
+        {
+          "locale": "es-ES",
+          "path": "content/curriculum/RED/L3/RED-L3-045.es-ES.md",
+          "source": "markdown"
         }
       ],
       "id": "RED-L3-045",
@@ -4864,6 +5089,11 @@
         {
           "locale": "es-Caribbean",
           "path": "content/curriculum/RED/L3/RED-L3-046.es-Caribbean.md",
+          "source": "markdown"
+        },
+        {
+          "locale": "es-ES",
+          "path": "content/curriculum/RED/L3/RED-L3-046.es-ES.md",
           "source": "markdown"
         }
       ],
@@ -4885,6 +5115,11 @@
           "locale": "es-Caribbean",
           "path": "content/curriculum/RED/L3/RED-L3-047.es-Caribbean.md",
           "source": "markdown"
+        },
+        {
+          "locale": "es-ES",
+          "path": "content/curriculum/RED/L3/RED-L3-047.es-ES.md",
+          "source": "markdown"
         }
       ],
       "id": "RED-L3-047",
@@ -4904,6 +5139,11 @@
         {
           "locale": "es-Caribbean",
           "path": "content/curriculum/RED/L3/RED-L3-048.es-Caribbean.md",
+          "source": "markdown"
+        },
+        {
+          "locale": "es-ES",
+          "path": "content/curriculum/RED/L3/RED-L3-048.es-ES.md",
           "source": "markdown"
         }
       ],
@@ -4925,6 +5165,11 @@
           "locale": "es-Caribbean",
           "path": "content/curriculum/RED/L3/RED-L3-049.es-Caribbean.md",
           "source": "markdown"
+        },
+        {
+          "locale": "es-ES",
+          "path": "content/curriculum/RED/L3/RED-L3-049.es-ES.md",
+          "source": "markdown"
         }
       ],
       "id": "RED-L3-049",
@@ -4944,6 +5189,11 @@
         {
           "locale": "es-Caribbean",
           "path": "content/curriculum/RED/L3/RED-L3-050.es-Caribbean.md",
+          "source": "markdown"
+        },
+        {
+          "locale": "es-ES",
+          "path": "content/curriculum/RED/L3/RED-L3-050.es-ES.md",
           "source": "markdown"
         }
       ],
@@ -9630,6 +9880,11 @@
           "locale": "nl",
           "path": "content/curriculum/WHITE/L3/WHITE-L3-001.nl.md",
           "source": "markdown"
+        },
+        {
+          "locale": "pt-BR",
+          "path": "content/curriculum/WHITE/L3/WHITE-L3-001.pt-BR.md",
+          "source": "markdown"
         }
       ],
       "id": "WHITE-L3-001",
@@ -9664,6 +9919,11 @@
         {
           "locale": "nl",
           "path": "content/curriculum/WHITE/L3/WHITE-L3-002.nl.md",
+          "source": "markdown"
+        },
+        {
+          "locale": "pt-BR",
+          "path": "content/curriculum/WHITE/L3/WHITE-L3-002.pt-BR.md",
           "source": "markdown"
         }
       ],
@@ -9700,6 +9960,11 @@
           "locale": "nl",
           "path": "content/curriculum/WHITE/L3/WHITE-L3-003.nl.md",
           "source": "markdown"
+        },
+        {
+          "locale": "pt-BR",
+          "path": "content/curriculum/WHITE/L3/WHITE-L3-003.pt-BR.md",
+          "source": "markdown"
         }
       ],
       "id": "WHITE-L3-003",
@@ -9734,6 +9999,11 @@
         {
           "locale": "nl",
           "path": "content/curriculum/WHITE/L3/WHITE-L3-004.nl.md",
+          "source": "markdown"
+        },
+        {
+          "locale": "pt-BR",
+          "path": "content/curriculum/WHITE/L3/WHITE-L3-004.pt-BR.md",
           "source": "markdown"
         }
       ],
@@ -9770,6 +10040,11 @@
           "locale": "nl",
           "path": "content/curriculum/WHITE/L3/WHITE-L3-005.nl.md",
           "source": "markdown"
+        },
+        {
+          "locale": "pt-BR",
+          "path": "content/curriculum/WHITE/L3/WHITE-L3-005.pt-BR.md",
+          "source": "markdown"
         }
       ],
       "id": "WHITE-L3-005",
@@ -9804,6 +10079,11 @@
         {
           "locale": "nl",
           "path": "content/curriculum/WHITE/L3/WHITE-L3-006.nl.md",
+          "source": "markdown"
+        },
+        {
+          "locale": "pt-BR",
+          "path": "content/curriculum/WHITE/L3/WHITE-L3-006.pt-BR.md",
           "source": "markdown"
         }
       ],
@@ -9840,6 +10120,11 @@
           "locale": "nl",
           "path": "content/curriculum/WHITE/L3/WHITE-L3-007.nl.md",
           "source": "markdown"
+        },
+        {
+          "locale": "pt-BR",
+          "path": "content/curriculum/WHITE/L3/WHITE-L3-007.pt-BR.md",
+          "source": "markdown"
         }
       ],
       "id": "WHITE-L3-007",
@@ -9874,6 +10159,11 @@
         {
           "locale": "nl",
           "path": "content/curriculum/WHITE/L3/WHITE-L3-008.nl.md",
+          "source": "markdown"
+        },
+        {
+          "locale": "pt-BR",
+          "path": "content/curriculum/WHITE/L3/WHITE-L3-008.pt-BR.md",
           "source": "markdown"
         }
       ],
@@ -9910,6 +10200,11 @@
           "locale": "nl",
           "path": "content/curriculum/WHITE/L3/WHITE-L3-009.nl.md",
           "source": "markdown"
+        },
+        {
+          "locale": "pt-BR",
+          "path": "content/curriculum/WHITE/L3/WHITE-L3-009.pt-BR.md",
+          "source": "markdown"
         }
       ],
       "id": "WHITE-L3-009",
@@ -9944,6 +10239,11 @@
         {
           "locale": "nl",
           "path": "content/curriculum/WHITE/L3/WHITE-L3-010.nl.md",
+          "source": "markdown"
+        },
+        {
+          "locale": "pt-BR",
+          "path": "content/curriculum/WHITE/L3/WHITE-L3-010.pt-BR.md",
           "source": "markdown"
         }
       ],
@@ -9980,6 +10280,11 @@
           "locale": "nl",
           "path": "content/curriculum/WHITE/L3/WHITE-L3-011.nl.md",
           "source": "markdown"
+        },
+        {
+          "locale": "pt-BR",
+          "path": "content/curriculum/WHITE/L3/WHITE-L3-011.pt-BR.md",
+          "source": "markdown"
         }
       ],
       "id": "WHITE-L3-011",
@@ -10014,6 +10319,11 @@
         {
           "locale": "nl",
           "path": "content/curriculum/WHITE/L3/WHITE-L3-012.nl.md",
+          "source": "markdown"
+        },
+        {
+          "locale": "pt-BR",
+          "path": "content/curriculum/WHITE/L3/WHITE-L3-012.pt-BR.md",
           "source": "markdown"
         }
       ],
@@ -10050,6 +10360,11 @@
           "locale": "nl",
           "path": "content/curriculum/WHITE/L3/WHITE-L3-013.nl.md",
           "source": "markdown"
+        },
+        {
+          "locale": "pt-BR",
+          "path": "content/curriculum/WHITE/L3/WHITE-L3-013.pt-BR.md",
+          "source": "markdown"
         }
       ],
       "id": "WHITE-L3-013",
@@ -10084,6 +10399,11 @@
         {
           "locale": "nl",
           "path": "content/curriculum/WHITE/L3/WHITE-L3-014.nl.md",
+          "source": "markdown"
+        },
+        {
+          "locale": "pt-BR",
+          "path": "content/curriculum/WHITE/L3/WHITE-L3-014.pt-BR.md",
           "source": "markdown"
         }
       ],
@@ -10120,6 +10440,11 @@
           "locale": "nl",
           "path": "content/curriculum/WHITE/L3/WHITE-L3-015.nl.md",
           "source": "markdown"
+        },
+        {
+          "locale": "pt-BR",
+          "path": "content/curriculum/WHITE/L3/WHITE-L3-015.pt-BR.md",
+          "source": "markdown"
         }
       ],
       "id": "WHITE-L3-015",
@@ -10154,6 +10479,11 @@
         {
           "locale": "nl",
           "path": "content/curriculum/WHITE/L3/WHITE-L3-016.nl.md",
+          "source": "markdown"
+        },
+        {
+          "locale": "pt-BR",
+          "path": "content/curriculum/WHITE/L3/WHITE-L3-016.pt-BR.md",
           "source": "markdown"
         }
       ],
@@ -10190,6 +10520,11 @@
           "locale": "nl",
           "path": "content/curriculum/WHITE/L3/WHITE-L3-017.nl.md",
           "source": "markdown"
+        },
+        {
+          "locale": "pt-BR",
+          "path": "content/curriculum/WHITE/L3/WHITE-L3-017.pt-BR.md",
+          "source": "markdown"
         }
       ],
       "id": "WHITE-L3-017",
@@ -10224,6 +10559,11 @@
         {
           "locale": "nl",
           "path": "content/curriculum/WHITE/L3/WHITE-L3-018.nl.md",
+          "source": "markdown"
+        },
+        {
+          "locale": "pt-BR",
+          "path": "content/curriculum/WHITE/L3/WHITE-L3-018.pt-BR.md",
           "source": "markdown"
         }
       ],
@@ -10260,6 +10600,11 @@
           "locale": "nl",
           "path": "content/curriculum/WHITE/L3/WHITE-L3-019.nl.md",
           "source": "markdown"
+        },
+        {
+          "locale": "pt-BR",
+          "path": "content/curriculum/WHITE/L3/WHITE-L3-019.pt-BR.md",
+          "source": "markdown"
         }
       ],
       "id": "WHITE-L3-019",
@@ -10294,6 +10639,11 @@
         {
           "locale": "nl",
           "path": "content/curriculum/WHITE/L3/WHITE-L3-020.nl.md",
+          "source": "markdown"
+        },
+        {
+          "locale": "pt-BR",
+          "path": "content/curriculum/WHITE/L3/WHITE-L3-020.pt-BR.md",
           "source": "markdown"
         }
       ],
@@ -10330,6 +10680,11 @@
           "locale": "nl",
           "path": "content/curriculum/WHITE/L3/WHITE-L3-021.nl.md",
           "source": "markdown"
+        },
+        {
+          "locale": "pt-BR",
+          "path": "content/curriculum/WHITE/L3/WHITE-L3-021.pt-BR.md",
+          "source": "markdown"
         }
       ],
       "id": "WHITE-L3-021",
@@ -10364,6 +10719,11 @@
         {
           "locale": "nl",
           "path": "content/curriculum/WHITE/L3/WHITE-L3-022.nl.md",
+          "source": "markdown"
+        },
+        {
+          "locale": "pt-BR",
+          "path": "content/curriculum/WHITE/L3/WHITE-L3-022.pt-BR.md",
           "source": "markdown"
         }
       ],
@@ -10400,6 +10760,11 @@
           "locale": "nl",
           "path": "content/curriculum/WHITE/L3/WHITE-L3-023.nl.md",
           "source": "markdown"
+        },
+        {
+          "locale": "pt-BR",
+          "path": "content/curriculum/WHITE/L3/WHITE-L3-023.pt-BR.md",
+          "source": "markdown"
         }
       ],
       "id": "WHITE-L3-023",
@@ -10434,6 +10799,11 @@
         {
           "locale": "nl",
           "path": "content/curriculum/WHITE/L3/WHITE-L3-024.nl.md",
+          "source": "markdown"
+        },
+        {
+          "locale": "pt-BR",
+          "path": "content/curriculum/WHITE/L3/WHITE-L3-024.pt-BR.md",
           "source": "markdown"
         }
       ],
@@ -10470,6 +10840,11 @@
           "locale": "nl",
           "path": "content/curriculum/WHITE/L3/WHITE-L3-025.nl.md",
           "source": "markdown"
+        },
+        {
+          "locale": "pt-BR",
+          "path": "content/curriculum/WHITE/L3/WHITE-L3-025.pt-BR.md",
+          "source": "markdown"
         }
       ],
       "id": "WHITE-L3-025",
@@ -10504,6 +10879,11 @@
         {
           "locale": "nl",
           "path": "content/curriculum/WHITE/L3/WHITE-L3-026.nl.md",
+          "source": "markdown"
+        },
+        {
+          "locale": "pt-BR",
+          "path": "content/curriculum/WHITE/L3/WHITE-L3-026.pt-BR.md",
           "source": "markdown"
         }
       ],
@@ -10540,6 +10920,11 @@
           "locale": "nl",
           "path": "content/curriculum/WHITE/L3/WHITE-L3-027.nl.md",
           "source": "markdown"
+        },
+        {
+          "locale": "pt-BR",
+          "path": "content/curriculum/WHITE/L3/WHITE-L3-027.pt-BR.md",
+          "source": "markdown"
         }
       ],
       "id": "WHITE-L3-027",
@@ -10574,6 +10959,11 @@
         {
           "locale": "nl",
           "path": "content/curriculum/WHITE/L3/WHITE-L3-028.nl.md",
+          "source": "markdown"
+        },
+        {
+          "locale": "pt-BR",
+          "path": "content/curriculum/WHITE/L3/WHITE-L3-028.pt-BR.md",
           "source": "markdown"
         }
       ],
@@ -10610,6 +11000,11 @@
           "locale": "nl",
           "path": "content/curriculum/WHITE/L3/WHITE-L3-029.nl.md",
           "source": "markdown"
+        },
+        {
+          "locale": "pt-BR",
+          "path": "content/curriculum/WHITE/L3/WHITE-L3-029.pt-BR.md",
+          "source": "markdown"
         }
       ],
       "id": "WHITE-L3-029",
@@ -10644,6 +11039,11 @@
         {
           "locale": "nl",
           "path": "content/curriculum/WHITE/L3/WHITE-L3-030.nl.md",
+          "source": "markdown"
+        },
+        {
+          "locale": "pt-BR",
+          "path": "content/curriculum/WHITE/L3/WHITE-L3-030.pt-BR.md",
           "source": "markdown"
         }
       ],
@@ -10680,6 +11080,11 @@
           "locale": "nl",
           "path": "content/curriculum/WHITE/L3/WHITE-L3-031.nl.md",
           "source": "markdown"
+        },
+        {
+          "locale": "pt-BR",
+          "path": "content/curriculum/WHITE/L3/WHITE-L3-031.pt-BR.md",
+          "source": "markdown"
         }
       ],
       "id": "WHITE-L3-031",
@@ -10714,6 +11119,11 @@
         {
           "locale": "nl",
           "path": "content/curriculum/WHITE/L3/WHITE-L3-032.nl.md",
+          "source": "markdown"
+        },
+        {
+          "locale": "pt-BR",
+          "path": "content/curriculum/WHITE/L3/WHITE-L3-032.pt-BR.md",
           "source": "markdown"
         }
       ],
@@ -10750,6 +11160,11 @@
           "locale": "nl",
           "path": "content/curriculum/WHITE/L3/WHITE-L3-033.nl.md",
           "source": "markdown"
+        },
+        {
+          "locale": "pt-BR",
+          "path": "content/curriculum/WHITE/L3/WHITE-L3-033.pt-BR.md",
+          "source": "markdown"
         }
       ],
       "id": "WHITE-L3-033",
@@ -10784,6 +11199,11 @@
         {
           "locale": "nl",
           "path": "content/curriculum/WHITE/L3/WHITE-L3-034.nl.md",
+          "source": "markdown"
+        },
+        {
+          "locale": "pt-BR",
+          "path": "content/curriculum/WHITE/L3/WHITE-L3-034.pt-BR.md",
           "source": "markdown"
         }
       ],
@@ -10820,6 +11240,11 @@
           "locale": "nl",
           "path": "content/curriculum/WHITE/L3/WHITE-L3-035.nl.md",
           "source": "markdown"
+        },
+        {
+          "locale": "pt-BR",
+          "path": "content/curriculum/WHITE/L3/WHITE-L3-035.pt-BR.md",
+          "source": "markdown"
         }
       ],
       "id": "WHITE-L3-035",
@@ -10854,6 +11279,11 @@
         {
           "locale": "nl",
           "path": "content/curriculum/WHITE/L3/WHITE-L3-036.nl.md",
+          "source": "markdown"
+        },
+        {
+          "locale": "pt-BR",
+          "path": "content/curriculum/WHITE/L3/WHITE-L3-036.pt-BR.md",
           "source": "markdown"
         }
       ],
@@ -10890,6 +11320,11 @@
           "locale": "nl",
           "path": "content/curriculum/WHITE/L3/WHITE-L3-037.nl.md",
           "source": "markdown"
+        },
+        {
+          "locale": "pt-BR",
+          "path": "content/curriculum/WHITE/L3/WHITE-L3-037.pt-BR.md",
+          "source": "markdown"
         }
       ],
       "id": "WHITE-L3-037",
@@ -10924,6 +11359,11 @@
         {
           "locale": "nl",
           "path": "content/curriculum/WHITE/L3/WHITE-L3-038.nl.md",
+          "source": "markdown"
+        },
+        {
+          "locale": "pt-BR",
+          "path": "content/curriculum/WHITE/L3/WHITE-L3-038.pt-BR.md",
           "source": "markdown"
         }
       ],
@@ -10960,6 +11400,11 @@
           "locale": "nl",
           "path": "content/curriculum/WHITE/L3/WHITE-L3-039.nl.md",
           "source": "markdown"
+        },
+        {
+          "locale": "pt-BR",
+          "path": "content/curriculum/WHITE/L3/WHITE-L3-039.pt-BR.md",
+          "source": "markdown"
         }
       ],
       "id": "WHITE-L3-039",
@@ -10994,6 +11439,11 @@
         {
           "locale": "nl",
           "path": "content/curriculum/WHITE/L3/WHITE-L3-040.nl.md",
+          "source": "markdown"
+        },
+        {
+          "locale": "pt-BR",
+          "path": "content/curriculum/WHITE/L3/WHITE-L3-040.pt-BR.md",
           "source": "markdown"
         }
       ],
@@ -11030,6 +11480,11 @@
           "locale": "nl",
           "path": "content/curriculum/WHITE/L3/WHITE-L3-041.nl.md",
           "source": "markdown"
+        },
+        {
+          "locale": "pt-BR",
+          "path": "content/curriculum/WHITE/L3/WHITE-L3-041.pt-BR.md",
+          "source": "markdown"
         }
       ],
       "id": "WHITE-L3-041",
@@ -11064,6 +11519,11 @@
         {
           "locale": "nl",
           "path": "content/curriculum/WHITE/L3/WHITE-L3-042.nl.md",
+          "source": "markdown"
+        },
+        {
+          "locale": "pt-BR",
+          "path": "content/curriculum/WHITE/L3/WHITE-L3-042.pt-BR.md",
           "source": "markdown"
         }
       ],
@@ -11100,6 +11560,11 @@
           "locale": "nl",
           "path": "content/curriculum/WHITE/L3/WHITE-L3-043.nl.md",
           "source": "markdown"
+        },
+        {
+          "locale": "pt-BR",
+          "path": "content/curriculum/WHITE/L3/WHITE-L3-043.pt-BR.md",
+          "source": "markdown"
         }
       ],
       "id": "WHITE-L3-043",
@@ -11134,6 +11599,11 @@
         {
           "locale": "nl",
           "path": "content/curriculum/WHITE/L3/WHITE-L3-044.nl.md",
+          "source": "markdown"
+        },
+        {
+          "locale": "pt-BR",
+          "path": "content/curriculum/WHITE/L3/WHITE-L3-044.pt-BR.md",
           "source": "markdown"
         }
       ],
@@ -11170,6 +11640,11 @@
           "locale": "nl",
           "path": "content/curriculum/WHITE/L3/WHITE-L3-045.nl.md",
           "source": "markdown"
+        },
+        {
+          "locale": "pt-BR",
+          "path": "content/curriculum/WHITE/L3/WHITE-L3-045.pt-BR.md",
+          "source": "markdown"
         }
       ],
       "id": "WHITE-L3-045",
@@ -11204,6 +11679,11 @@
         {
           "locale": "nl",
           "path": "content/curriculum/WHITE/L3/WHITE-L3-046.nl.md",
+          "source": "markdown"
+        },
+        {
+          "locale": "pt-BR",
+          "path": "content/curriculum/WHITE/L3/WHITE-L3-046.pt-BR.md",
           "source": "markdown"
         }
       ],
@@ -11240,6 +11720,11 @@
           "locale": "nl",
           "path": "content/curriculum/WHITE/L3/WHITE-L3-047.nl.md",
           "source": "markdown"
+        },
+        {
+          "locale": "pt-BR",
+          "path": "content/curriculum/WHITE/L3/WHITE-L3-047.pt-BR.md",
+          "source": "markdown"
         }
       ],
       "id": "WHITE-L3-047",
@@ -11274,6 +11759,11 @@
         {
           "locale": "nl",
           "path": "content/curriculum/WHITE/L3/WHITE-L3-048.nl.md",
+          "source": "markdown"
+        },
+        {
+          "locale": "pt-BR",
+          "path": "content/curriculum/WHITE/L3/WHITE-L3-048.pt-BR.md",
           "source": "markdown"
         }
       ],
@@ -11310,6 +11800,11 @@
           "locale": "nl",
           "path": "content/curriculum/WHITE/L3/WHITE-L3-049.nl.md",
           "source": "markdown"
+        },
+        {
+          "locale": "pt-BR",
+          "path": "content/curriculum/WHITE/L3/WHITE-L3-049.pt-BR.md",
+          "source": "markdown"
         }
       ],
       "id": "WHITE-L3-049",
@@ -11344,6 +11839,11 @@
         {
           "locale": "nl",
           "path": "content/curriculum/WHITE/L3/WHITE-L3-050.nl.md",
+          "source": "markdown"
+        },
+        {
+          "locale": "pt-BR",
+          "path": "content/curriculum/WHITE/L3/WHITE-L3-050.pt-BR.md",
           "source": "markdown"
         }
       ],
@@ -38708,6 +39208,706 @@
       "path": "content/curriculum/PURPLE/L4/PURPLE-L4-050.md",
       "checksum": "sha256:eb28d22359b552750b482c7382cad46d1992f323e114c43a3d84374dcaa73beb",
       "importedAt": "2026-10-11T01:51:03.069Z"
+    },
+    {
+      "localizations": [],
+      "id": "PURPLE-L5-001",
+      "type": "lesson",
+      "track": "PURPLE",
+      "trackName": "Law",
+      "level": 5,
+      "title": "Law as the Board: Why Every Level 5 Decision Has a Legal Layer",
+      "version": "1.0",
+      "status": "active",
+      "path": "content/curriculum/PURPLE/L5/PURPLE-L5-001.md",
+      "checksum": "sha256:640f1d28940ae5b756f1c20f86ef5c99ab2553cdae4c9501f0e86d42d43d4d33",
+      "importedAt": "2026-10-19T13:54:17.066Z"
+    },
+    {
+      "localizations": [],
+      "id": "PURPLE-L5-002",
+      "type": "lesson",
+      "track": "PURPLE",
+      "trackName": "Law",
+      "level": 5,
+      "title": "Entity Choice as an Orchestrated Decision",
+      "version": "1.0",
+      "status": "active",
+      "path": "content/curriculum/PURPLE/L5/PURPLE-L5-002.md",
+      "checksum": "sha256:59423729710591f5270c389e4ca0e8640eb564c11ebc8b29c23a03377c4bf039",
+      "importedAt": "2026-10-19T13:54:17.066Z"
+    },
+    {
+      "localizations": [],
+      "id": "PURPLE-L5-003",
+      "type": "lesson",
+      "track": "PURPLE",
+      "trackName": "Law",
+      "level": 5,
+      "title": "Holding Company and Operating Company Structures",
+      "version": "1.0",
+      "status": "active",
+      "path": "content/curriculum/PURPLE/L5/PURPLE-L5-003.md",
+      "checksum": "sha256:3f810f090dc49fcd8385a65127dff1312729f23d695688a748dff6a0ac59deae",
+      "importedAt": "2026-10-19T13:54:17.066Z"
+    },
+    {
+      "localizations": [],
+      "id": "PURPLE-L5-004",
+      "type": "lesson",
+      "track": "PURPLE",
+      "trackName": "Law",
+      "level": 5,
+      "title": "Liability Separation for a Rental Portfolio",
+      "version": "1.0",
+      "status": "active",
+      "path": "content/curriculum/PURPLE/L5/PURPLE-L5-004.md",
+      "checksum": "sha256:6f9bfb00460a8a2049a752b8d8ae9f527446b885ee1549cd8bdc1df72c61c148",
+      "importedAt": "2026-10-19T13:54:17.066Z"
+    },
+    {
+      "localizations": [],
+      "id": "PURPLE-L5-005",
+      "type": "lesson",
+      "track": "PURPLE",
+      "trackName": "Law",
+      "level": 5,
+      "title": "The Operating Agreement as a Risk-Allocation Map",
+      "version": "1.0",
+      "status": "active",
+      "path": "content/curriculum/PURPLE/L5/PURPLE-L5-005.md",
+      "checksum": "sha256:628ca81ab8edde01c8422858866307c61eb14adb2d93c9b364c106d7cade9419",
+      "importedAt": "2026-10-19T13:54:17.066Z"
+    },
+    {
+      "localizations": [],
+      "id": "PURPLE-L5-006",
+      "type": "lesson",
+      "track": "PURPLE",
+      "trackName": "Law",
+      "level": 5,
+      "title": "Economic Ownership vs. Enterprise Control",
+      "version": "1.0",
+      "status": "active",
+      "path": "content/curriculum/PURPLE/L5/PURPLE-L5-006.md",
+      "checksum": "sha256:5e4cdd13e4d66de48eefa82babb49063a36db1adfb6f955979fba558b73a03d4",
+      "importedAt": "2026-10-19T13:54:17.066Z"
+    },
+    {
+      "localizations": [],
+      "id": "PURPLE-L5-007",
+      "type": "lesson",
+      "track": "PURPLE",
+      "trackName": "Law",
+      "level": 5,
+      "title": "Dilution, Anti-Dilution, and Protecting Founder Position",
+      "version": "1.0",
+      "status": "active",
+      "path": "content/curriculum/PURPLE/L5/PURPLE-L5-007.md",
+      "checksum": "sha256:7cb532cbc93b02d2114f89a15234c92e8f70fb0604f892e8ea6ee24c03b9ff70",
+      "importedAt": "2026-10-19T13:54:17.066Z"
+    },
+    {
+      "localizations": [],
+      "id": "PURPLE-L5-008",
+      "type": "lesson",
+      "track": "PURPLE",
+      "trackName": "Law",
+      "level": 5,
+      "title": "Buy-Sell Agreements Funded with Insurance",
+      "version": "1.0",
+      "status": "active",
+      "path": "content/curriculum/PURPLE/L5/PURPLE-L5-008.md",
+      "checksum": "sha256:b4c087bf64a662ed62c23243eb004ac82bbc6bbeec850dcd9af85ecbb6d70b77",
+      "importedAt": "2026-10-19T13:54:17.066Z"
+    },
+    {
+      "localizations": [],
+      "id": "PURPLE-L5-009",
+      "type": "lesson",
+      "track": "PURPLE",
+      "trackName": "Law",
+      "level": 5,
+      "title": "Personal Guarantees in Business Lending",
+      "version": "1.0",
+      "status": "active",
+      "path": "content/curriculum/PURPLE/L5/PURPLE-L5-009.md",
+      "checksum": "sha256:82c9b82539bc67310a9dad731df639ae0b25f537b71d1233c4661c1be74340f9",
+      "importedAt": "2026-10-19T13:54:17.066Z"
+    },
+    {
+      "localizations": [],
+      "id": "PURPLE-L5-010",
+      "type": "lesson",
+      "track": "PURPLE",
+      "trackName": "Law",
+      "level": 5,
+      "title": "Keeping the Wall Up: Corporate Formalities and Veil Piercing",
+      "version": "1.0",
+      "status": "active",
+      "path": "content/curriculum/PURPLE/L5/PURPLE-L5-010.md",
+      "checksum": "sha256:1c2ce68694c4fa37317aed0a5bbc6c7fc1147990354bf04de4a5927e87b0271e",
+      "importedAt": "2026-10-19T13:54:17.066Z"
+    },
+    {
+      "localizations": [],
+      "id": "PURPLE-L5-011",
+      "type": "lesson",
+      "track": "PURPLE",
+      "trackName": "Law",
+      "level": 5,
+      "title": "Wills vs. Revocable Living Trusts: Probate, Privacy, and Cost",
+      "version": "1.0",
+      "status": "active",
+      "path": "content/curriculum/PURPLE/L5/PURPLE-L5-011.md",
+      "checksum": "sha256:84b291b37541d6471e5fdb667b2d3bb7c00f6ccf5c7dd22c4faf8e668848b0f2",
+      "importedAt": "2026-10-19T13:54:17.066Z"
+    },
+    {
+      "localizations": [],
+      "id": "PURPLE-L5-012",
+      "type": "lesson",
+      "track": "PURPLE",
+      "trackName": "Law",
+      "level": 5,
+      "title": "Irrevocable Trusts and the Control Trade-Off",
+      "version": "1.0",
+      "status": "active",
+      "path": "content/curriculum/PURPLE/L5/PURPLE-L5-012.md",
+      "checksum": "sha256:21f51a6ef5fcbf11eb53686ea4d97855ee6fd05ea90eb480a920754acb79606a",
+      "importedAt": "2026-10-19T13:54:17.066Z"
+    },
+    {
+      "localizations": [],
+      "id": "PURPLE-L5-013",
+      "type": "lesson",
+      "track": "PURPLE",
+      "trackName": "Law",
+      "level": 5,
+      "title": "How You Title Real Estate Changes Everything",
+      "version": "1.0",
+      "status": "active",
+      "path": "content/curriculum/PURPLE/L5/PURPLE-L5-013.md",
+      "checksum": "sha256:6310d284f870eb7167b299cc9e0bd4f34737c1019ff052152be8857516e17971",
+      "importedAt": "2026-10-19T13:54:17.066Z"
+    },
+    {
+      "localizations": [],
+      "id": "PURPLE-L5-014",
+      "type": "lesson",
+      "track": "PURPLE",
+      "trackName": "Law",
+      "level": 5,
+      "title": "Beneficiary Designations: The Forms That Override Your Will",
+      "version": "1.0",
+      "status": "active",
+      "path": "content/curriculum/PURPLE/L5/PURPLE-L5-014.md",
+      "checksum": "sha256:221d0abe052f36b6d42ff7967a1217e495f63f3be90c00d579c93dcbd317c155",
+      "importedAt": "2026-10-19T13:54:17.066Z"
+    },
+    {
+      "localizations": [],
+      "id": "PURPLE-L5-015",
+      "type": "lesson",
+      "track": "PURPLE",
+      "trackName": "Law",
+      "level": 5,
+      "title": "Succession Planning for Business Owners",
+      "version": "1.0",
+      "status": "active",
+      "path": "content/curriculum/PURPLE/L5/PURPLE-L5-015.md",
+      "checksum": "sha256:e8910dac4c3f24be5d2ba0d809fbc2b8fb1c63a483a766527232dd0fcacb4425",
+      "importedAt": "2026-10-19T13:54:17.066Z"
+    },
+    {
+      "localizations": [],
+      "id": "PURPLE-L5-016",
+      "type": "lesson",
+      "track": "PURPLE",
+      "trackName": "Law",
+      "level": 5,
+      "title": "Lawful Asset Protection and Its Hard Limits",
+      "version": "1.0",
+      "status": "active",
+      "path": "content/curriculum/PURPLE/L5/PURPLE-L5-016.md",
+      "checksum": "sha256:5c3d1bb25baebaaa201c6cb1ffc89a03eaf93b4e589d7167c3e418718a11914f",
+      "importedAt": "2026-10-19T13:54:17.066Z"
+    },
+    {
+      "localizations": [],
+      "id": "PURPLE-L5-017",
+      "type": "lesson",
+      "track": "PURPLE",
+      "trackName": "Law",
+      "level": 5,
+      "title": "Insurance as the Legal First Line of Defense",
+      "version": "1.0",
+      "status": "active",
+      "path": "content/curriculum/PURPLE/L5/PURPLE-L5-017.md",
+      "checksum": "sha256:b92611c944b0b22ae3229fcbe92ace226919ad1605bfefa00ce9ddb7da607a06",
+      "importedAt": "2026-10-19T13:54:17.066Z"
+    },
+    {
+      "localizations": [],
+      "id": "PURPLE-L5-018",
+      "type": "lesson",
+      "track": "PURPLE",
+      "trackName": "Law",
+      "level": 5,
+      "title": "Landlord Liability and Umbrella Coverage",
+      "version": "1.0",
+      "status": "active",
+      "path": "content/curriculum/PURPLE/L5/PURPLE-L5-018.md",
+      "checksum": "sha256:feccc5598cc54fbc58ae9929fffe9bad86cf35e069df5794f64e2dad088f631e",
+      "importedAt": "2026-10-19T13:54:17.066Z"
+    },
+    {
+      "localizations": [],
+      "id": "PURPLE-L5-019",
+      "type": "lesson",
+      "track": "PURPLE",
+      "trackName": "Law",
+      "level": 5,
+      "title": "Retirement Accounts, Creditor Protection, and Legal Structure",
+      "version": "1.0",
+      "status": "active",
+      "path": "content/curriculum/PURPLE/L5/PURPLE-L5-019.md",
+      "checksum": "sha256:534525fc186f544bd7bfacb34d3fee705c9d2f9fff151512a3576e7affd79dba",
+      "importedAt": "2026-10-19T13:54:17.066Z"
+    },
+    {
+      "localizations": [],
+      "id": "PURPLE-L5-020",
+      "type": "lesson",
+      "track": "PURPLE",
+      "trackName": "Law",
+      "level": 5,
+      "title": "Marital Agreements and Business Ownership",
+      "version": "1.0",
+      "status": "active",
+      "path": "content/curriculum/PURPLE/L5/PURPLE-L5-020.md",
+      "checksum": "sha256:f3bc6299cf0eb387be491c9fdb380e9e6bff7f30b37d12b1fa991d0d6b9dc24c",
+      "importedAt": "2026-10-19T13:54:17.066Z"
+    },
+    {
+      "localizations": [],
+      "id": "PURPLE-L5-021",
+      "type": "lesson",
+      "track": "PURPLE",
+      "trackName": "Law",
+      "level": 5,
+      "title": "Reps, Warranties, and Indemnities in an Acquisition",
+      "version": "1.0",
+      "status": "active",
+      "path": "content/curriculum/PURPLE/L5/PURPLE-L5-021.md",
+      "checksum": "sha256:f4e9d3666b38de0d60ee464a10feaf6ad886dc1a886344cc0a14fdcb32dbf8e8",
+      "importedAt": "2026-10-19T13:54:17.066Z"
+    },
+    {
+      "localizations": [],
+      "id": "PURPLE-L5-022",
+      "type": "lesson",
+      "track": "PURPLE",
+      "trackName": "Law",
+      "level": 5,
+      "title": "Legal Due Diligence Before Buying a Business",
+      "version": "1.0",
+      "status": "active",
+      "path": "content/curriculum/PURPLE/L5/PURPLE-L5-022.md",
+      "checksum": "sha256:7fbc107266bf661e1acab778a40111e2c3f7dd787a3deea809b765e8e7e8d24d",
+      "importedAt": "2026-10-19T13:54:17.066Z"
+    },
+    {
+      "localizations": [],
+      "id": "PURPLE-L5-023",
+      "type": "lesson",
+      "track": "PURPLE",
+      "trackName": "Law",
+      "level": 5,
+      "title": "Asset Purchase vs. Share Purchase",
+      "version": "1.0",
+      "status": "active",
+      "path": "content/curriculum/PURPLE/L5/PURPLE-L5-023.md",
+      "checksum": "sha256:597c8642ee7fa6c7229d3368d966ae5d5fb4de9036da47435f0c90db4130e0ea",
+      "importedAt": "2026-10-19T13:54:17.066Z"
+    },
+    {
+      "localizations": [],
+      "id": "PURPLE-L5-024",
+      "type": "lesson",
+      "track": "PURPLE",
+      "trackName": "Law",
+      "level": 5,
+      "title": "Seller Financing Documents: Notes, Security, and Default",
+      "version": "1.0",
+      "status": "active",
+      "path": "content/curriculum/PURPLE/L5/PURPLE-L5-024.md",
+      "checksum": "sha256:b34b5fb6fe646149f1177ab3036fd848eb571a632a20e228192174da58a156dc",
+      "importedAt": "2026-10-19T13:54:17.066Z"
+    },
+    {
+      "localizations": [],
+      "id": "PURPLE-L5-025",
+      "type": "lesson",
+      "track": "PURPLE",
+      "trackName": "Law",
+      "level": 5,
+      "title": "Contingencies in Real Estate Contracts as Risk Tools",
+      "version": "1.0",
+      "status": "active",
+      "path": "content/curriculum/PURPLE/L5/PURPLE-L5-025.md",
+      "checksum": "sha256:2b73f025c2484b050626ca3afc5c6710cd1927e0d7334be3038408c3a07b51fe",
+      "importedAt": "2026-10-19T13:54:17.066Z"
+    },
+    {
+      "localizations": [],
+      "id": "PURPLE-L5-026",
+      "type": "lesson",
+      "track": "PURPLE",
+      "trackName": "Law",
+      "level": 5,
+      "title": "Commercial Lease Clauses That Shape Business Value",
+      "version": "1.0",
+      "status": "active",
+      "path": "content/curriculum/PURPLE/L5/PURPLE-L5-026.md",
+      "checksum": "sha256:5bd86b984220388d444c603577610340c126165af75f930853b35017d36d8d51",
+      "importedAt": "2026-10-19T13:54:17.066Z"
+    },
+    {
+      "localizations": [],
+      "id": "PURPLE-L5-027",
+      "type": "lesson",
+      "track": "PURPLE",
+      "trackName": "Law",
+      "level": 5,
+      "title": "Landlord-Tenant Law Across Jurisdictions",
+      "version": "1.0",
+      "status": "active",
+      "path": "content/curriculum/PURPLE/L5/PURPLE-L5-027.md",
+      "checksum": "sha256:0306af8e3fa49471d26f8a0640ef5175045b41e673413a71a7eb82733d03ea6a",
+      "importedAt": "2026-10-19T13:54:17.066Z"
+    },
+    {
+      "localizations": [],
+      "id": "PURPLE-L5-028",
+      "type": "lesson",
+      "track": "PURPLE",
+      "trackName": "Law",
+      "level": 5,
+      "title": "Intellectual Property as a Balance-Sheet Asset",
+      "version": "1.0",
+      "status": "active",
+      "path": "content/curriculum/PURPLE/L5/PURPLE-L5-028.md",
+      "checksum": "sha256:8e7d138ba25b84fbb762532a481d95ca1f179e6343af68e1a880056f75b855fc",
+      "importedAt": "2026-10-19T13:54:17.066Z"
+    },
+    {
+      "localizations": [],
+      "id": "PURPLE-L5-029",
+      "type": "lesson",
+      "track": "PURPLE",
+      "trackName": "Law",
+      "level": 5,
+      "title": "Protecting a Brand Across Borders",
+      "version": "1.0",
+      "status": "active",
+      "path": "content/curriculum/PURPLE/L5/PURPLE-L5-029.md",
+      "checksum": "sha256:e4b34ceee113ccd367feab0a4d401174377ab350247080a9bd0a35f32fc54e5b",
+      "importedAt": "2026-10-19T13:54:17.066Z"
+    },
+    {
+      "localizations": [],
+      "id": "PURPLE-L5-030",
+      "type": "lesson",
+      "track": "PURPLE",
+      "trackName": "Law",
+      "level": 5,
+      "title": "Licensing and Royalties as an Income Stream",
+      "version": "1.0",
+      "status": "active",
+      "path": "content/curriculum/PURPLE/L5/PURPLE-L5-030.md",
+      "checksum": "sha256:ef606acdeeebc6cbcf1d4388ecb23f42896e4cffac77f99ac7ddb7f607a81a4d",
+      "importedAt": "2026-10-19T13:54:17.066Z"
+    },
+    {
+      "localizations": [],
+      "id": "PURPLE-L5-031",
+      "type": "lesson",
+      "track": "PURPLE",
+      "trackName": "Law",
+      "level": 5,
+      "title": "Employee or Contractor: Classification as a Legal, Tax, and Leadership Decision",
+      "version": "1.0",
+      "status": "active",
+      "path": "content/curriculum/PURPLE/L5/PURPLE-L5-031.md",
+      "checksum": "sha256:50ce65e05e497bfa620619c101ac67d8f715ecbfa7919c92cf0ab231c4eb8410",
+      "importedAt": "2026-10-19T13:54:17.066Z"
+    },
+    {
+      "localizations": [],
+      "id": "PURPLE-L5-032",
+      "type": "lesson",
+      "track": "PURPLE",
+      "trackName": "Law",
+      "level": 5,
+      "title": "Restrictive Covenants in a Growing Company",
+      "version": "1.0",
+      "status": "active",
+      "path": "content/curriculum/PURPLE/L5/PURPLE-L5-032.md",
+      "checksum": "sha256:72350661652f8cdb71ab7fc878ac6d01dec7a98399180d2e38951251e8edac4b",
+      "importedAt": "2026-10-19T13:54:17.066Z"
+    },
+    {
+      "localizations": [],
+      "id": "PURPLE-L5-033",
+      "type": "lesson",
+      "track": "PURPLE",
+      "trackName": "Law",
+      "level": 5,
+      "title": "Securities Law Basics When Raising Money",
+      "version": "1.0",
+      "status": "active",
+      "path": "content/curriculum/PURPLE/L5/PURPLE-L5-033.md",
+      "checksum": "sha256:d44ef917c06791abd5db0dc6acf20cb1cb3319dc80332d1fa11d06945ef1db7b",
+      "importedAt": "2026-10-19T13:54:17.066Z"
+    },
+    {
+      "localizations": [],
+      "id": "PURPLE-L5-034",
+      "type": "lesson",
+      "track": "PURPLE",
+      "trackName": "Law",
+      "level": 5,
+      "title": "Crowdfunding and Honest Investor Communication",
+      "version": "1.0",
+      "status": "active",
+      "path": "content/curriculum/PURPLE/L5/PURPLE-L5-034.md",
+      "checksum": "sha256:29ae4af6afdbecda2a17f1c61dbcfefb300c2bd3d5f775b064ece145791c9e4f",
+      "importedAt": "2026-10-19T13:54:17.066Z"
+    },
+    {
+      "localizations": [],
+      "id": "PURPLE-L5-035",
+      "type": "lesson",
+      "track": "PURPLE",
+      "trackName": "Law",
+      "level": 5,
+      "title": "Advertising Law and Truthful Marketing Claims",
+      "version": "1.0",
+      "status": "active",
+      "path": "content/curriculum/PURPLE/L5/PURPLE-L5-035.md",
+      "checksum": "sha256:e972abaca3b023d73fe26802f8f26fadf5f0a40745ac34a29ff2e2c23dad04ff",
+      "importedAt": "2026-10-19T13:54:17.066Z"
+    },
+    {
+      "localizations": [],
+      "id": "PURPLE-L5-036",
+      "type": "lesson",
+      "track": "PURPLE",
+      "trackName": "Law",
+      "level": 5,
+      "title": "Privacy and Data Law in Modern Marketing",
+      "version": "1.0",
+      "status": "active",
+      "path": "content/curriculum/PURPLE/L5/PURPLE-L5-036.md",
+      "checksum": "sha256:a05629f6318a31797ff9203670a91a141118117f25a40858d0189ceede74dfc8",
+      "importedAt": "2026-10-19T13:54:17.066Z"
+    },
+    {
+      "localizations": [],
+      "id": "PURPLE-L5-037",
+      "type": "lesson",
+      "track": "PURPLE",
+      "trackName": "Law",
+      "level": 5,
+      "title": "Regulatory Compliance as a Cost of Doing Business Across Borders",
+      "version": "1.0",
+      "status": "active",
+      "path": "content/curriculum/PURPLE/L5/PURPLE-L5-037.md",
+      "checksum": "sha256:a64f5e27d60033a004927c2033cee9615306c7a44990ddf9c7386434c4b88ed2",
+      "importedAt": "2026-10-19T13:54:17.066Z"
+    },
+    {
+      "localizations": [],
+      "id": "PURPLE-L5-038",
+      "type": "lesson",
+      "track": "PURPLE",
+      "trackName": "Law",
+      "level": 5,
+      "title": "Cross-Border Contracts: Choice of Law, Forum, and Arbitration",
+      "version": "1.0",
+      "status": "active",
+      "path": "content/curriculum/PURPLE/L5/PURPLE-L5-038.md",
+      "checksum": "sha256:6d9dd1828e7a250e575dc5689d1492f2b18955b85fb862a354f7966e8006dba2",
+      "importedAt": "2026-10-19T13:54:17.066Z"
+    },
+    {
+      "localizations": [],
+      "id": "PURPLE-L5-039",
+      "type": "lesson",
+      "track": "PURPLE",
+      "trackName": "Law",
+      "level": 5,
+      "title": "Currency Clauses and Force Majeure in Uncertain Times",
+      "version": "1.0",
+      "status": "active",
+      "path": "content/curriculum/PURPLE/L5/PURPLE-L5-039.md",
+      "checksum": "sha256:b6b2a543b0bb2b2d0491c3522f13bfa953ac27f58ee759503eca8ed21553f313",
+      "importedAt": "2026-10-19T13:54:17.066Z"
+    },
+    {
+      "localizations": [],
+      "id": "PURPLE-L5-040",
+      "type": "lesson",
+      "track": "PURPLE",
+      "trackName": "Law",
+      "level": 5,
+      "title": "Dispute Resolution Strategy: Negotiate, Mediate, Arbitrate, or Litigate",
+      "version": "1.0",
+      "status": "active",
+      "path": "content/curriculum/PURPLE/L5/PURPLE-L5-040.md",
+      "checksum": "sha256:c7326bbdc87074fcb16d0e655298533956f7cb3177de0dbd401a46fb0cf11fe3",
+      "importedAt": "2026-10-19T13:54:17.066Z"
+    },
+    {
+      "localizations": [],
+      "id": "PURPLE-L5-041",
+      "type": "lesson",
+      "track": "PURPLE",
+      "trackName": "Law",
+      "level": 5,
+      "title": "The Real Cost of Litigation",
+      "version": "1.0",
+      "status": "active",
+      "path": "content/curriculum/PURPLE/L5/PURPLE-L5-041.md",
+      "checksum": "sha256:87f03e6b3b08cad4e1c8edaf17742c22e983326980d7c02cb86f73d82792bc74",
+      "importedAt": "2026-10-19T13:54:17.066Z"
+    },
+    {
+      "localizations": [],
+      "id": "PURPLE-L5-042",
+      "type": "lesson",
+      "track": "PURPLE",
+      "trackName": "Law",
+      "level": 5,
+      "title": "Building Your Professional Team: Lawyers, CPAs, and Advisors",
+      "version": "1.0",
+      "status": "active",
+      "path": "content/curriculum/PURPLE/L5/PURPLE-L5-042.md",
+      "checksum": "sha256:2ce1c46c0f3ee1570b3e175debd7eac50d3ecddf98f786ba53f7fba9d571f12c",
+      "importedAt": "2026-10-19T13:54:17.066Z"
+    },
+    {
+      "localizations": [],
+      "id": "PURPLE-L5-043",
+      "type": "lesson",
+      "track": "PURPLE",
+      "trackName": "Law",
+      "level": 5,
+      "title": "Legal Housekeeping: Records, Minutes, and Annual Filings",
+      "version": "1.0",
+      "status": "active",
+      "path": "content/curriculum/PURPLE/L5/PURPLE-L5-043.md",
+      "checksum": "sha256:56e5fd6ebfcb0197c7d99658ebb299e20fc66cd6cac7a37e3c658231522879be",
+      "importedAt": "2026-10-19T13:54:17.066Z"
+    },
+    {
+      "localizations": [],
+      "id": "PURPLE-L5-044",
+      "type": "lesson",
+      "track": "PURPLE",
+      "trackName": "Law",
+      "level": 5,
+      "title": "Family Governance: Constitutions, Family Entities, and Stewardship",
+      "version": "1.0",
+      "status": "active",
+      "path": "content/curriculum/PURPLE/L5/PURPLE-L5-044.md",
+      "checksum": "sha256:0026d6a62d77f4f50ae8e5f84d323fa67eac8505993e6239f223f6cb2fc4e1ce",
+      "importedAt": "2026-10-19T13:54:17.066Z"
+    },
+    {
+      "localizations": [],
+      "id": "PURPLE-L5-045",
+      "type": "lesson",
+      "track": "PURPLE",
+      "trackName": "Law",
+      "level": 5,
+      "title": "Charitable Structures: Foundations and Donor-Advised Funds",
+      "version": "1.0",
+      "status": "active",
+      "path": "content/curriculum/PURPLE/L5/PURPLE-L5-045.md",
+      "checksum": "sha256:f12c7be0c397265d4663bdb69ce768a591ab5aa47f8035971bcaf9fc5dd5bd37",
+      "importedAt": "2026-10-19T13:54:17.066Z"
+    },
+    {
+      "localizations": [],
+      "id": "PURPLE-L5-046",
+      "type": "lesson",
+      "track": "PURPLE",
+      "trackName": "Law",
+      "level": 5,
+      "title": "Decisive Legal Action When the Window Is Confirmed",
+      "version": "1.0",
+      "status": "active",
+      "path": "content/curriculum/PURPLE/L5/PURPLE-L5-046.md",
+      "checksum": "sha256:0c0752a572c170f8f5a6b29955fda990000e1f710681f544f6363862afae3f60",
+      "importedAt": "2026-10-19T13:54:17.066Z"
+    },
+    {
+      "localizations": [],
+      "id": "PURPLE-L5-047",
+      "type": "lesson",
+      "track": "PURPLE",
+      "trackName": "Law",
+      "level": 5,
+      "title": "Legal Readiness: Preparing Before the Moment Arrives",
+      "version": "1.0",
+      "status": "active",
+      "path": "content/curriculum/PURPLE/L5/PURPLE-L5-047.md",
+      "checksum": "sha256:26a789e2b93cfd08c157ee7e853943fe16d593c823241b46cdc98914a8766959",
+      "importedAt": "2026-10-19T13:54:17.066Z"
+    },
+    {
+      "localizations": [],
+      "id": "PURPLE-L5-048",
+      "type": "lesson",
+      "track": "PURPLE",
+      "trackName": "Law",
+      "level": 5,
+      "title": "Honest Reassessment of an Active Legal Position",
+      "version": "1.0",
+      "status": "active",
+      "path": "content/curriculum/PURPLE/L5/PURPLE-L5-048.md",
+      "checksum": "sha256:1b9f2054a2c1bf552dc2e5e8ec2d503cbe8859afca62a39d8a1915a1cf8667d3",
+      "importedAt": "2026-10-19T13:54:17.066Z"
+    },
+    {
+      "localizations": [],
+      "id": "PURPLE-L5-049",
+      "type": "lesson",
+      "track": "PURPLE",
+      "trackName": "Law",
+      "level": 5,
+      "title": "Calculated Legal Risk vs. Reckless Legal Gambling",
+      "version": "1.0",
+      "status": "active",
+      "path": "content/curriculum/PURPLE/L5/PURPLE-L5-049.md",
+      "checksum": "sha256:562740fa11a49aa7cb9a7c32e626d7cb84fc38d74d6f1423850492bd71b28d73",
+      "importedAt": "2026-10-19T13:54:17.066Z"
+    },
+    {
+      "localizations": [],
+      "id": "PURPLE-L5-050",
+      "type": "lesson",
+      "track": "PURPLE",
+      "trackName": "Law",
+      "level": 5,
+      "title": "Completing the Chess Analogy: Law as the Rules That Make Coordinated Play Possible",
+      "version": "1.0",
+      "status": "active",
+      "path": "content/curriculum/PURPLE/L5/PURPLE-L5-050.md",
+      "checksum": "sha256:1e70510dd365ae041e3eb1375ca5e7f351eb8fc0ac7c4e7b6745cf160a1b2d13",
+      "importedAt": "2026-10-19T13:54:17.066Z"
     },
     {
       "localizations": [
