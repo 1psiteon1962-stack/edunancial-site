@@ -1,6 +1,6 @@
 {
   "_note": "Protected floor: coordinates proven PASS in production. Only ever grows; removal requires curriculum-removals.json approval.",
-  "updatedAt": "2026-10-19T13:38:44.487Z",
+  "updatedAt": "2026-10-19T14:10:05.635Z",
   "coordinates": [
     "BLACK:L1:de",
     "BLACK:L1:en-GB",
@@ -220,6 +220,7 @@
     "WHITE:L3:it",
     "WHITE:L3:nl",
     "WHITE:L3:pt-BR",
+    "WHITE:L3:pt-PT",
     "WHITE:L4:en-US",
     "WHITE:L5:en-US"
   ]
