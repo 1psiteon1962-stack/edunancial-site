@@ -1,6 +1,6 @@
 # Curriculum Audit Report
 
-**Registered Assets:** 1702
+**Registered Assets:** 1752
 **Total Issues:** 0
 
 ## Result
