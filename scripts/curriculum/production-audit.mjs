@@ -78,7 +78,13 @@ async function githubOidcToken() {
   if (oidcCache && Date.now() - oidcCache.at < OIDC_REFRESH_MS) return oidcCache.value;
   const url = new URL(requestUrl);
   url.searchParams.set("audience", OIDC_AUDIENCE);
-  const response = await fetch(url, { headers: { authorization: `Bearer ${requestToken}`, accept: "application/json" }, signal: AbortSignal.timeout(15_000) });
+  // GitHub's token service occasionally returns 5xx (run 39274910645); retry with back-off.
+  let response;
+  for (let attempt = 0; ; attempt++) {
+    response = await fetch(url, { headers: { authorization: `Bearer ${requestToken}`, accept: "application/json" }, signal: AbortSignal.timeout(15_000) }).catch((error) => ({ ok: false, status: 0, error }));
+    if (response.ok || attempt >= 3 || (response.status && response.status < 500)) break;
+    await new Promise((resolve) => setTimeout(resolve, 5_000 * (attempt + 1)));
+  }
   if (!response.ok) throw new Error(`GitHub OIDC token request failed (HTTP ${response.status}); the workflow needs "permissions: id-token: write".`);
   const { value } = await response.json();
   if (typeof value !== "string" || value.split(".").length !== 3) throw new Error("GitHub OIDC token response was malformed.");
@@ -142,19 +148,22 @@ function emitActionsAnnotations(header, results, locales) {
     console.log(`::notice title=Level ${level} learner-retrievable lessons (x=FAIL f=English fallback E=error)::${annotationText(rows)}`);
   }
   // Report-only: what learners actually read (T=one template body, s=thin <1200 chars median, .=ok).
+  // ONE annotation for all levels: GitHub keeps at most 10 notices per step, and the
+  // summary below must never be crowded out.
+  const qualityRows = [];
+  let flagged = 0;
   for (const level of auditedLevels) {
-    const rows = [`${"".padEnd(14)}${TRACKS.map((t) => t.padStart(7)).join("")}`];
-    let flagged = 0;
+    qualityRows.push(`Level ${level}${"".padEnd(6)}${TRACKS.map((t) => t.padStart(7)).join("")}`);
     for (const locale of locales) {
-      rows.push(`${locale.padEnd(14)}${TRACKS.map((t) => {
+      qualityRows.push(`${locale.padEnd(14)}${TRACKS.map((t) => {
         const q = results.find((x) => x.track === t && x.level === level && x.locale === locale)?.quality;
         if (!q || q.verdict === "NONE") return "-".padStart(7);
         if (q.verdict !== "OK") flagged++;
         return (q.verdict === "TEMPLATE" ? `T${q.distinctBodies}` : q.verdict === "THIN" ? `s${Math.round(q.medianBodyChars / 100) / 10}k` : ".").padStart(7);
       }).join("")}`);
     }
-    console.log(`::notice title=Level ${level} content quality (T=template bodies, s=thin median size, .=ok; report-only)::${annotationText([`flagged coordinates: ${flagged}`, ...rows])}`);
   }
+  console.log(`::notice title=Content quality of passing lessons (T=template, s=thin, .=ok; report-only)::${annotationText([`flagged coordinates: ${flagged}`, ...qualityRows])}`);
   const errors = [...new Set(results.filter((r) => r.auditError).map((r) => r.auditError))].slice(0, 5);
   console.log(`::notice title=Audit summary::${annotationText([...header, ...errors.map((e) => `error: ${e}`)])}`);
 }
