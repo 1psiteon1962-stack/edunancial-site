@@ -8,7 +8,7 @@ title: "Organizational Politics Analysis: Why Ignoring Politics Doesn't Make It 
 summary: "Understand why organizational politics — the informal pursuit of influence and competing interests within an organization — exists in virtually every organization regardless of a leader's own preferences, and why a leader ignoring this reality tends to navigate it worse, not better, than one who acknowledges and manages it deliberately."
 version: "1.0"
 author: "Edunancial Faculty"
-date: "2026-10-11"
+date: "2026-10-19"
 ---
 Filename: BLACK-L4-041.md
 Folder: BLACK/L4

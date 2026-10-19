@@ -8,7 +8,7 @@ title: "Coalition-Building Analysis: Why Organizational Change Requires Genuine 
 summary: "Understand why successfully implementing significant organizational change generally requires deliberately building a genuine coalition of committed supporters, rather than relying solely on formal positional authority to mandate the change."
 version: "1.0"
 author: "Edunancial Faculty"
-date: "2026-10-11"
+date: "2026-10-19"
 ---
 Filename: BLACK-L4-038.md
 Folder: BLACK/L4

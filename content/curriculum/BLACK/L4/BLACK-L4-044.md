@@ -8,7 +8,7 @@ title: "Resource Allocation Analysis: Why Saying No to Good Opportunities Protec
 summary: "Understand why a leader's willingness to decline genuinely good, but not genuinely great, opportunities is essential to protecting the organization's finite resources for its genuinely highest-value priorities, connecting directly to this level's Lesson 32 discussion of genuine strategy requiring explicit tradeoffs."
 version: "1.0"
 author: "Edunancial Faculty"
-date: "2026-10-11"
+date: "2026-10-19"
 ---
 Filename: BLACK-L4-044.md
 Folder: BLACK/L4

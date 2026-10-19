@@ -8,7 +8,7 @@ title: "Conflict Resolution Analysis: Why Avoiding Conflict Often Costs More Tha
 summary: "Understand why unaddressed team conflict tends to compound over time rather than simply dissipate, and why a leader's direct, structured approach to addressing genuine conflict generally produces better outcomes than avoidance."
 version: "1.0"
 author: "Edunancial Faculty"
-date: "2026-10-11"
+date: "2026-10-19"
 ---
 Filename: BLACK-L4-010.md
 Folder: BLACK/L4

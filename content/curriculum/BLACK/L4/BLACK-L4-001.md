@@ -8,7 +8,7 @@ title: "Leadership vs Management Analysis: Why Doing the Right Things Differs Fr
 summary: "Understand the classic distinction between leadership and management, and why an organization genuinely needs both functions, even though they require different skills and different mindsets."
 version: "1.0"
 author: "Edunancial Faculty"
-date: "2026-10-11"
+date: "2026-10-19"
 ---
 Filename: BLACK-L4-001.md
 Folder: BLACK/L4

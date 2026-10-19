@@ -8,7 +8,7 @@ title: "Crisis Leadership Analysis: Why Leaders Are Judged Most by How They Perf
 summary: "Understand why a leader's genuine capability is disproportionately revealed and judged during a genuine crisis, and the specific leadership behaviors that distinguish effective crisis leadership from ordinary, calm-conditions leadership."
 version: "1.0"
 author: "Edunancial Faculty"
-date: "2026-10-11"
+date: "2026-10-19"
 ---
 Filename: BLACK-L4-015.md
 Folder: BLACK/L4

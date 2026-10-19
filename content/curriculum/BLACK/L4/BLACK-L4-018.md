@@ -8,7 +8,7 @@ title: "Power and Influence Analysis: Why Earned Authority Outlasts Positional A
 summary: "Understand the distinction between positional authority (authority derived from an official title or role) and earned authority (authority derived from demonstrated competence and genuine trust), and why relying exclusively on positional authority produces a fragile form of influence."
 version: "1.0"
 author: "Edunancial Faculty"
-date: "2026-10-11"
+date: "2026-10-19"
 ---
 Filename: BLACK-L4-018.md
 Folder: BLACK/L4

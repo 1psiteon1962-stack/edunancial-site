@@ -8,7 +8,7 @@ title: "Board Governance Analysis: Why a Board's Role Genuinely Differs From Man
 summary: "Understand the distinction between a board's governance and oversight role and management's operational execution role, and why a board attempting to directly manage operational decisions, or management attempting to operate without genuine board oversight, both represent genuine governance failures."
 version: "1.0"
 author: "Edunancial Faculty"
-date: "2026-10-11"
+date: "2026-10-19"
 ---
 Filename: BLACK-L4-028.md
 Folder: BLACK/L4

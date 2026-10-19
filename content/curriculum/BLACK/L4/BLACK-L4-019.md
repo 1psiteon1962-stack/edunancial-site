@@ -8,7 +8,7 @@ title: "Motivation Theory Analysis: Why Intrinsic Motivation Outlasts Extrinsic 
 summary: "Understand the distinction between intrinsic motivation (genuine internal engagement with the work itself) and extrinsic motivation (motivation driven by external rewards or consequences), and why intrinsic motivation tends to produce more sustained, higher-quality engagement over time."
 version: "1.0"
 author: "Edunancial Faculty"
-date: "2026-10-11"
+date: "2026-10-19"
 ---
 Filename: BLACK-L4-019.md
 Folder: BLACK/L4

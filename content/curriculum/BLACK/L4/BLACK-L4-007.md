@@ -8,7 +8,7 @@ title: "Decision-Making Under Uncertainty Analysis: Why Leaders Must Decide With
 summary: "Understand why leadership decisions frequently must be made with genuinely incomplete information, and the practical frameworks that help a leader make sound decisions despite this unavoidable uncertainty."
 version: "1.0"
 author: "Edunancial Faculty"
-date: "2026-10-11"
+date: "2026-10-19"
 ---
 Filename: BLACK-L4-007.md
 Folder: BLACK/L4

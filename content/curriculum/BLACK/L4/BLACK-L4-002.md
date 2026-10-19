@@ -8,7 +8,7 @@ title: "Situational Leadership Analysis: Why the Same Leader Should Adapt Style 
 summary: "Understand the situational leadership model, and why a single, fixed leadership style applied uniformly to every team member, regardless of their specific readiness level, generally underperforms an adaptive approach."
 version: "1.0"
 author: "Edunancial Faculty"
-date: "2026-10-11"
+date: "2026-10-19"
 ---
 Filename: BLACK-L4-002.md
 Folder: BLACK/L4
