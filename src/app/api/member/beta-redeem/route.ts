@@ -55,11 +55,16 @@ export async function POST(request: Request) {
 
   // Re-read the session so the Gold mapping comes from the authoritative Neon record,
   // then issue a tier cookie whose signed expiry equals the grant's end.
-  const session = await getAuthenticatedMemberSession();
+  // The grant is already durable in Neon; a failed refresh only delays the cookie
+  // (the next session refresh issues it), so it must not report failure.
+  const session = await getAuthenticatedMemberSession().catch((error) => {
+    console.error("[beta] post-redemption session refresh failed", error instanceof Error ? error.message : String(error));
+    return null;
+  });
   const response = NextResponse.json(
     { ok: true, message: "Beta access activated: all eight tracks, Levels 1–5 and every language for 90 days. No payment, nothing charged.", expiresAt: result.expiresAt },
     { headers: NO_STORE },
   );
-  if (session.user) applyMembershipCookie(response, session.user.membershipTier, result.expiresAt);
+  if (session?.user) applyMembershipCookie(response, session.user.membershipTier, result.expiresAt);
   return response;
 }
