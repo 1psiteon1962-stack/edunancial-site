@@ -142,19 +142,22 @@ function emitActionsAnnotations(header, results, locales) {
     console.log(`::notice title=Level ${level} learner-retrievable lessons (x=FAIL f=English fallback E=error)::${annotationText(rows)}`);
   }
   // Report-only: what learners actually read (T=one template body, s=thin <1200 chars median, .=ok).
+  // ONE annotation for all levels: GitHub keeps at most 10 notices per step, and the
+  // summary below must never be crowded out.
+  const qualityRows = [];
+  let flagged = 0;
   for (const level of auditedLevels) {
-    const rows = [`${"".padEnd(14)}${TRACKS.map((t) => t.padStart(7)).join("")}`];
-    let flagged = 0;
+    qualityRows.push(`Level ${level}${"".padEnd(6)}${TRACKS.map((t) => t.padStart(7)).join("")}`);
     for (const locale of locales) {
-      rows.push(`${locale.padEnd(14)}${TRACKS.map((t) => {
+      qualityRows.push(`${locale.padEnd(14)}${TRACKS.map((t) => {
         const q = results.find((x) => x.track === t && x.level === level && x.locale === locale)?.quality;
         if (!q || q.verdict === "NONE") return "-".padStart(7);
         if (q.verdict !== "OK") flagged++;
         return (q.verdict === "TEMPLATE" ? `T${q.distinctBodies}` : q.verdict === "THIN" ? `s${Math.round(q.medianBodyChars / 100) / 10}k` : ".").padStart(7);
       }).join("")}`);
     }
-    console.log(`::notice title=Level ${level} content quality (T=template bodies, s=thin median size, .=ok; report-only)::${annotationText([`flagged coordinates: ${flagged}`, ...rows])}`);
   }
+  console.log(`::notice title=Content quality of passing lessons (T=template, s=thin, .=ok; report-only)::${annotationText([`flagged coordinates: ${flagged}`, ...qualityRows])}`);
   const errors = [...new Set(results.filter((r) => r.auditError).map((r) => r.auditError))].slice(0, 5);
   console.log(`::notice title=Audit summary::${annotationText([...header, ...errors.map((e) => `error: ${e}`)])}`);
 }
