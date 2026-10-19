@@ -43,10 +43,16 @@ jobs:
               -H "Authorization: Bearer $token" \
               -H "X-GitHub-Run-Id: $GH_RUN_ID" || echo "000")
             cat export.json 2>/dev/null || true; echo
+            if [ "$code" = "200" ] && [ -n "$(jq -r '.pullRequestUrl // empty' export.json)" ]; then
+              echo "::notice title=Curriculum export PR opened::$(jq -r '"\(.uploadId) -> \(.pullRequestUrl)"' export.json)"
+            fi
             if [ "$code" = "200" ]; then
               if [ "$(jq -r '.done // false' export.json)" = "true" ]; then echo "Export queue empty."; exit 0; fi
               sleep 5; continue
             fi
             echo "Export stopped on HTTP $code. Learner publication is unaffected; receipt remains retryable."
+            # Surface the server's reason through the annotations API (no secrets in this body).
+            reason=$(jq -r '[.uploadId // "", .error // "", .permissionHint // ""] | map(select(. != "")) | join(" | ")' export.json 2>/dev/null | head -c 1500 | tr '\n' ' ')
+            echo "::error title=Curriculum Git export stopped (HTTP $code)::${reason:-no response body}"
             exit 1
           done
