@@ -1,7 +1,6 @@
 {
   "_note": "Protected floor: coordinates proven PASS in production. Only ever grows; removal requires curriculum-removals.json approval.",
-  "_source": "Production curriculum audit run 39172866975 (main 03857f8), 2026-10-18: 217 PASS / 520, 0 uncomputable.",
-  "updatedAt": "2026-10-18T22:45:43.563Z",
+  "updatedAt": "2026-10-19T02:18:40.787Z",
   "coordinates": [
     "BLACK:L1:de",
     "BLACK:L1:en-GB",
@@ -175,6 +174,8 @@
     "RED:L2:pt-PT",
     "RED:L3:de",
     "RED:L3:en-US",
+    "RED:L3:es-419",
+    "RED:L3:es-Caribbean",
     "RED:L3:es-ES",
     "RED:L3:fr-CA",
     "RED:L3:fr-FR",
