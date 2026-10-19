@@ -78,7 +78,13 @@ async function githubOidcToken() {
   if (oidcCache && Date.now() - oidcCache.at < OIDC_REFRESH_MS) return oidcCache.value;
   const url = new URL(requestUrl);
   url.searchParams.set("audience", OIDC_AUDIENCE);
-  const response = await fetch(url, { headers: { authorization: `Bearer ${requestToken}`, accept: "application/json" }, signal: AbortSignal.timeout(15_000) });
+  // GitHub's token service occasionally returns 5xx (run 39274910645); retry with back-off.
+  let response;
+  for (let attempt = 0; ; attempt++) {
+    response = await fetch(url, { headers: { authorization: `Bearer ${requestToken}`, accept: "application/json" }, signal: AbortSignal.timeout(15_000) }).catch((error) => ({ ok: false, status: 0, error }));
+    if (response.ok || attempt >= 3 || (response.status && response.status < 500)) break;
+    await new Promise((resolve) => setTimeout(resolve, 5_000 * (attempt + 1)));
+  }
   if (!response.ok) throw new Error(`GitHub OIDC token request failed (HTTP ${response.status}); the workflow needs "permissions: id-token: write".`);
   const { value } = await response.json();
   if (typeof value !== "string" || value.split(".").length !== 3) throw new Error("GitHub OIDC token response was malformed.");
