@@ -8,7 +8,7 @@ title: "Team Charter and Norms Analysis: Why Explicit Norms Outperform Assumed, 
 summary: "Understand why explicitly articulating a team's shared norms and working expectations produces more consistent, less conflict-prone team functioning than leaving these expectations unstated and assumed to be shared."
 version: "1.0"
 author: "Edunancial Faculty"
-date: "2026-10-11"
+date: "2026-10-19"
 ---
 Filename: BLACK-L4-036.md
 Folder: BLACK/L4

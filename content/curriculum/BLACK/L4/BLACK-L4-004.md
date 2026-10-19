@@ -8,7 +8,7 @@ title: "Emotional Intelligence in Leadership Analysis: Why Self-Awareness and Em
 summary: "Understand the core components of emotional intelligence as applied to leadership, and why self-awareness, self-regulation, and empathy function as practical, learnable leadership skills rather than fixed personality traits."
 version: "1.0"
 author: "Edunancial Faculty"
-date: "2026-10-11"
+date: "2026-10-19"
 ---
 Filename: BLACK-L4-004.md
 Folder: BLACK/L4

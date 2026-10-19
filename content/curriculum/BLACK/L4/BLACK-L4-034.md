@@ -8,7 +8,7 @@ title: "Whistleblower and Dissent Analysis: Why Leaders Should Want to Hear Bad 
 summary: "Understand why a leader genuinely committed to organizational success should actively want to hear dissenting views and bad news as early as possible, and the specific practices that encourage this kind of early, honest disclosure rather than suppressing it."
 version: "1.0"
 author: "Edunancial Faculty"
-date: "2026-10-11"
+date: "2026-10-19"
 ---
 Filename: BLACK-L4-034.md
 Folder: BLACK/L4

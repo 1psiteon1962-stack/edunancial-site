@@ -5,4 +5,3 @@
 
 ## Result
 ✅ No issues found. Registry and filesystem are consistent.
-

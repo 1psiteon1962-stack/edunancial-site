@@ -8,7 +8,7 @@ title: "Leadership Under Scaling Analysis: Why the Skills That Built a Small Tea
 summary: "Understand why the specific leadership skills and approaches that effectively build and lead a small team frequently prove insufficient, or even counterproductive, as that same organization scales considerably larger, requiring genuinely different leadership capabilities."
 version: "1.0"
 author: "Edunancial Faculty"
-date: "2026-10-11"
+date: "2026-10-19"
 ---
 Filename: BLACK-L4-030.md
 Folder: BLACK/L4

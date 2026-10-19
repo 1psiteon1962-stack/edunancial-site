@@ -8,7 +8,7 @@ title: "Founder Transition Analysis: Why Moving From Doer to Leader Requires a G
 summary: "Understand why a founder or specialist transitioning into a genuine leadership role must undergo a genuine identity shift, moving from deriving their own sense of value primarily from personally doing the work to deriving it from enabling others to do that work effectively."
 version: "1.0"
 author: "Edunancial Faculty"
-date: "2026-10-11"
+date: "2026-10-19"
 ---
 Filename: BLACK-L4-039.md
 Folder: BLACK/L4

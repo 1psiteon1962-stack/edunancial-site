@@ -8,7 +8,7 @@ title: "Psychological Safety Analysis: Why Teams Perform Better When It's Safe t
 summary: "Understand the concept of psychological safety, why it specifically enables genuine risk-taking, honest disclosure, and learning within a team, and why its absence quietly suppresses exactly the information a leader most needs to hear."
 version: "1.0"
 author: "Edunancial Faculty"
-date: "2026-10-11"
+date: "2026-10-19"
 ---
 Filename: BLACK-L4-005.md
 Folder: BLACK/L4

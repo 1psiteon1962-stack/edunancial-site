@@ -8,7 +8,7 @@ title: "Leadership Derailment Analysis: Why a Leader's Own Strengths, Overused, 
 summary: "Understand why a leader's own genuine strength, when applied excessively or in a context where a different approach is actually needed, can become a genuine weakness undermining that same leader's overall effectiveness."
 version: "1.0"
 author: "Edunancial Faculty"
-date: "2026-10-11"
+date: "2026-10-19"
 ---
 Filename: BLACK-L4-037.md
 Folder: BLACK/L4

@@ -8,7 +8,7 @@ title: "Delegation Analysis: Why Delegating Outcomes, Not Just Tasks, Builds Gen
 summary: "Understand the distinction between delegating a specific task and delegating an outcome with genuine decision-making authority, and why the latter approach builds more capable, more independently effective team members."
 version: "1.0"
 author: "Edunancial Faculty"
-date: "2026-10-11"
+date: "2026-10-19"
 ---
 Filename: BLACK-L4-006.md
 Folder: BLACK/L4

@@ -8,7 +8,7 @@ title: "Organizational Communication Analysis: Why Information Flow Shapes Decis
 summary: "Understand why the actual flow of information within an organization directly shapes the quality of decisions made throughout that organization, and why information bottlenecks or filtering tend to produce systematically worse decisions at the point where information is actually needed."
 version: "1.0"
 author: "Edunancial Faculty"
-date: "2026-10-11"
+date: "2026-10-19"
 ---
 Filename: BLACK-L4-027.md
 Folder: BLACK/L4

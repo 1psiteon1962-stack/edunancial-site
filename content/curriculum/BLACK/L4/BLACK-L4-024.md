@@ -8,7 +8,7 @@ title: "Ethical Leadership Analysis: Why Short-Term Ethical Compromises Create L
 summary: "Understand why a leader's short-term ethical compromises, even when they seem to produce an immediate practical benefit, tend to create genuine, compounding long-term costs, and why an organization's ethical standards are most genuinely tested precisely when following them is inconvenient."
 version: "1.0"
 author: "Edunancial Faculty"
-date: "2026-10-11"
+date: "2026-10-19"
 ---
 Filename: BLACK-L4-024.md
 Folder: BLACK/L4

@@ -8,7 +8,7 @@ title: "Courage and Calculated Risk in Leadership Analysis: Why Leaders Must Own
 summary: "Understand why a leader who takes decisive, calculated risks on the organization's behalf must genuinely own the consequences of that decision, whether favorable or unfavorable, rather than deflecting responsibility, and why this genuine ownership is what actually distinguishes courageous leadership from mere gambling."
 version: "1.0"
 author: "Edunancial Faculty"
-date: "2026-10-11"
+date: "2026-10-19"
 ---
 Filename: BLACK-L4-049.md
 Folder: BLACK/L4

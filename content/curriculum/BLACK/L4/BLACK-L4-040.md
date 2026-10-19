@@ -8,7 +8,7 @@ title: "Leadership Legacy Analysis: Why What a Leader Leaves Behind Matters More
 summary: "Understand why a leader's genuine, lasting legacy is measured considerably more by the durable capability and culture they leave behind within the organization than by whatever specific achievements they personally accomplished during their own tenure."
 version: "1.0"
 author: "Edunancial Faculty"
-date: "2026-10-11"
+date: "2026-10-19"
 ---
 Filename: BLACK-L4-040.md
 Folder: BLACK/L4

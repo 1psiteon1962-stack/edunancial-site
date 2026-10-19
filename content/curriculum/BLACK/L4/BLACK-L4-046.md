@@ -8,7 +8,7 @@ title: "Decisive Leadership Under Opportunity Analysis: Why Organizational Capac
 summary: "Understand why an organization's genuine capacity to commit fully and decisively once a genuine leadership opportunity has been identified represents a distinct, learnable leadership trait, and why this capacity, framed strictly as organizational decisiveness rather than any form of conflict, complements rather than contradicts the ethical, patient leadership principles this level has emphasized throughout."
 version: "1.0"
 author: "Edunancial Faculty"
-date: "2026-10-11"
+date: "2026-10-19"
 ---
 Filename: BLACK-L4-046.md
 Folder: BLACK/L4

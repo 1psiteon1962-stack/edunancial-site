@@ -8,7 +8,7 @@ title: "Strategic Planning Analysis: Why Strategy Requires Genuine Tradeoffs, No
 summary: "Understand why a genuine strategy requires making explicit, difficult tradeoffs about what an organization will not pursue, and why a strategic plan consisting only of aspirational goals, without these genuine tradeoffs, fails to actually function as a genuine strategy."
 version: "1.0"
 author: "Edunancial Faculty"
-date: "2026-10-11"
+date: "2026-10-19"
 ---
 Filename: BLACK-L4-032.md
 Folder: BLACK/L4

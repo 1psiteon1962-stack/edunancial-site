@@ -8,7 +8,7 @@ title: "Leading Through Escalation and Retreat Analysis: Why a Leader Must Model
 summary: "Understand why a leader engaged in a decisive organizational commitment must model genuine, honest reassessment of that commitment as new evidence emerges, and why a leader's own visible willingness to recommend pulling back, when genuinely warranted, strengthens rather than undermines their credibility."
 version: "1.0"
 author: "Edunancial Faculty"
-date: "2026-10-11"
+date: "2026-10-19"
 ---
 Filename: BLACK-L4-048.md
 Folder: BLACK/L4

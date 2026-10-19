@@ -8,7 +8,7 @@ title: "Decision Rights Clarity Analysis: Why Knowing Who Actually Decides Preve
 summary: "Understand why explicitly clarifying who actually holds the authority to make a specific decision, before that decision actually needs to be made, prevents the genuine confusion, delay, and conflict that ambiguous decision rights frequently produce."
 version: "1.0"
 author: "Edunancial Faculty"
-date: "2026-10-11"
+date: "2026-10-19"
 ---
 Filename: BLACK-L4-045.md
 Folder: BLACK/L4
