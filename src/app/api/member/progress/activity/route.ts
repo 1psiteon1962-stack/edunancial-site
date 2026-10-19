@@ -1,5 +1,8 @@
 import { NextResponse } from "next/server";
 
+import { recordServerKpiEventOnce } from "@/lib/kpi/server-events";
+import { detectTrustedRequestCountry } from "@/lib/location/request-country";
+
 import { requireAuthenticatedMemberWrite } from "@/lib/auth/server";
 import { getPublishedCourses } from "@/lib/curriculum/authoritative-published";
 import { getServerLanguage } from "@/lib/international/server";
@@ -46,6 +49,19 @@ export async function POST(request: Request) {
     course,
     activeLessonId: lessonId,
     lastPositionSeconds: body.lastPositionSeconds,
+  });
+
+  // KPI: first lesson start per member per lesson (idempotent).
+  const country = detectTrustedRequestCountry(request.headers);
+  const [track, level] = lessonId.split("-");
+  await recordServerKpiEventOnce({
+    eventName: "lesson_start",
+    replayKey: `lesson_start:${member.id}:${lessonId}`,
+    userId: member.id,
+    countryCode: country?.countryCode ?? null,
+    countrySource: country?.source ?? null,
+    locale: language,
+    metadata: { lessonId, track: track ?? null, level: level ? Number(level.replace(/^L/, "")) || null : null },
   });
 
   await recordSecurityEvent({
