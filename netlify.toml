@@ -29,6 +29,7 @@ ignore = "[ -n \"${SITE_NAME}\" ] && [ \"${SITE_NAME}\" != \"edunancial\" ]"
 
 [build.environment]
 NODE_VERSION = "22"
+NODE_OPTIONS = "--max-old-space-size=7168"
 NETLIFY_NEXT_PLUGIN_SKIP_FORMS = "true"
 # Compatibility bootstrap for curriculum already committed in curriculum/registry.json.
 # PR #307 introduced a separate published-state store; production currently has
