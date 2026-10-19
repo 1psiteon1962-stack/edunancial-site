@@ -8,7 +8,7 @@ title: "\"Por qué el índice de gastos se acumula a lo largo de décadas\""
 summary: "\"Aprende por qué un cargo anual de un fondo que parece pequeño puede costar decenas de miles de dólares en un horizonte de inversión largo, y por qué es fácil subestimar ese efecto.\""
 version: "1.0"
 author: "\"Waldemar M. Caban, JD MA\""
-date: "2026-10-03"
+date: "2026-10-19"
 locale: "es-Caribbean"
 source_locale: "en-US"
 ---

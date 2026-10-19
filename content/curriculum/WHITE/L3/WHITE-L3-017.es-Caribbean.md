@@ -8,7 +8,7 @@ title: "\"Por qué los dividendos no son \\\"dinero gratis\\\"\""
 summary: "\"Aprende por qué el pago de un dividendo reduce el precio de una acción en más o menos la misma cantidad, y por qué los dividendos son una redistribución de valor, no un bono extra.\""
 version: "1.0"
 author: "\"Waldemar M. Caban, JD MA\""
-date: "2026-10-03"
+date: "2026-10-19"
 locale: "es-Caribbean"
 source_locale: "en-US"
 ---

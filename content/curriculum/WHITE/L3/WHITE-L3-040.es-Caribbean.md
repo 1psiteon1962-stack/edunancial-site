@@ -8,7 +8,7 @@ title: "\"Por qué la base de costo determina tu ganancia tributable real\""
 summary: "\"Aprende qué significa la base de costo, por qué no siempre es tan simple como el precio de compra original y por qué es importante llevar un registro preciso de ella.\""
 version: "1.0"
 author: "\"Waldemar M. Caban, JD MA\""
-date: "2026-10-03"
+date: "2026-10-19"
 locale: "es-Caribbean"
 source_locale: "en-US"
 ---

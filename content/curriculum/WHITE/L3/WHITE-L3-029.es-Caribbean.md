@@ -8,7 +8,7 @@ title: "\"Por qué la inflación erosiona el poder adquisitivo aun en una carter
 summary: "\"Aprende por qué tener solo activos muy estables y de bajo rendimiento todavía puede hacerte perder poder adquisitivo con el tiempo, aun sin ninguna pérdida en el mercado.\""
 version: "1.0"
 author: "\"Waldemar M. Caban, JD MA\""
-date: "2026-10-03"
+date: "2026-10-19"
 locale: "es-Caribbean"
 source_locale: "en-US"
 ---

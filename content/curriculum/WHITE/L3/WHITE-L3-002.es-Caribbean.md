@@ -8,7 +8,7 @@ title: "\"Por qué la diversificación reduce el riesgo sin reducir el rendimien
 summary: "\"Aprende por qué repartir tus inversiones entre muchas posiciones reduce el riesgo de forma más eficiente de lo que reduce el rendimiento esperado, y por qué el beneficio tiene un límite.\""
 version: "1.0"
 author: "\"Waldemar M. Caban, JD MA\""
-date: "2026-10-03"
+date: "2026-10-19"
 locale: "es-Caribbean"
 source_locale: "en-US"
 ---

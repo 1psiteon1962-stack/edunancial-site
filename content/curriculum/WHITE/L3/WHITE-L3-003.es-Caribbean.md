@@ -8,7 +8,7 @@ title: "\"Por qué la correlación determina la verdadera diversificación, no s
 summary: "\"Aprende por qué tener muchas inversiones no es lo mismo que estar verdaderamente diversificado, y por qué la correlación es el concepto que realmente determina cuánto se reduce tu riesgo.\""
 version: "1.0"
 author: "\"Waldemar M. Caban, JD MA\""
-date: "2026-10-03"
+date: "2026-10-19"
 locale: "es-Caribbean"
 source_locale: "en-US"
 ---

@@ -8,7 +8,7 @@ title: "\"Por qué dominar los activos de papel significa saber lo que no necesi
 summary: "\"La lección final de esta ruta: por qué la verdadera destreza al invertir en activos de papel está en estructurar un plan alrededor de la incertidumbre, no en adivinar el próximo movimiento del mercado.\""
 version: "1.0"
 author: "\"Waldemar M. Caban, JD MA\""
-date: "2026-10-03"
+date: "2026-10-19"
 locale: "es-Caribbean"
 source_locale: "en-US"
 ---

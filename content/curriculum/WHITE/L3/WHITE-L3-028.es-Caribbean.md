@@ -8,7 +8,7 @@ title: "\"Por qué el sesgo de lo reciente distorsiona la percepción del riesgo
 summary: "\"Aprende por qué los inversionistas tienden a darles demasiado peso a los eventos recientes al juzgar el riesgo, y por qué eso puede llevar a decisiones en mal momento.\""
 version: "1.0"
 author: "\"Waldemar M. Caban, JD MA\""
-date: "2026-10-03"
+date: "2026-10-19"
 locale: "es-Caribbean"
 source_locale: "en-US"
 ---

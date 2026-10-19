@@ -8,7 +8,7 @@ title: "\"Por qué la regla de venta ficticia (wash-sale rule) limita la cosecha
 summary: "\"Aprende qué es una venta ficticia (wash sale), por qué existe esta regla y por qué limita directamente cómo se puede llevar a cabo la cosecha de pérdidas fiscales.\""
 version: "1.0"
 author: "\"Waldemar M. Caban, JD MA\""
-date: "2026-10-03"
+date: "2026-10-19"
 locale: "es-Caribbean"
 source_locale: "en-US"
 ---

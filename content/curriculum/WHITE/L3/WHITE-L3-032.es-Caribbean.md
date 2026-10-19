@@ -8,7 +8,7 @@ title: "\"Por qué los REIT te permiten invertir en bienes raíces sin comprar u
 summary: "\"Aprende cómo funcionan los fideicomisos de inversión en bienes raíces (REIT), por qué se compran y venden como acciones, y cómo conectan las rutas RED y WHITE de este currículo.\""
 version: "1.0"
 author: "\"Waldemar M. Caban, JD MA\""
-date: "2026-10-03"
+date: "2026-10-19"
 locale: "es-Caribbean"
 source_locale: "en-US"
 ---

@@ -8,7 +8,7 @@ title: "\"Por qué las órdenes de mercado y las órdenes limitadas sirven para 
 summary: "\"Aprende la diferencia entre una orden de mercado y una orden limitada, y por qué escoger la correcta depende de lo que realmente quieres controlar.\""
 version: "1.0"
 author: "\"Waldemar M. Caban, JD MA\""
-date: "2026-10-03"
+date: "2026-10-19"
 locale: "es-Caribbean"
 source_locale: "en-US"
 ---

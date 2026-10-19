@@ -8,7 +8,7 @@ title: "\"Por qué los sesgos de conducta les cuestan a los inversionistas más 
 summary: "\"Aprende por qué la psicología del inversionista, y no solo las comisiones de los fondos, se menciona a menudo como uno de los mayores frenos para el rendimiento real de las inversiones.\""
 version: "1.0"
 author: "\"Waldemar M. Caban, JD MA\""
-date: "2026-10-03"
+date: "2026-10-19"
 locale: "es-Caribbean"
 source_locale: "en-US"
 ---

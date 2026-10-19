@@ -8,7 +8,7 @@ title: "\"Por qué un plan de inversión por escrito te protege de tus propias e
 summary: "\"Aprende por qué escribir tu plan de inversión por adelantado te protege de los errores de conducta que se cubren en toda esta ruta y que se cometen en el calor del momento.\""
 version: "1.0"
 author: "\"Waldemar M. Caban, JD MA\""
-date: "2026-10-03"
+date: "2026-10-19"
 locale: "es-Caribbean"
 source_locale: "en-US"
 ---

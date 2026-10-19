@@ -8,7 +8,7 @@ title: "\"Por qué la volatilidad y el riesgo no son exactamente lo mismo\""
 summary: "\"Aprende por qué una gráfica de precios con muchos altibajos no es automáticamente lo mismo que un verdadero riesgo financiero, y por qué la diferencia importa al evaluar una inversión.\""
 version: "1.0"
 author: "\"Waldemar M. Caban, JD MA\""
-date: "2026-10-03"
+date: "2026-10-19"
 locale: "es-Caribbean"
 source_locale: "en-US"
 ---

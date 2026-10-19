@@ -8,7 +8,7 @@ title: "\"Por qué el tamaño de la posición determina cuánto te puede doler u
 summary: "\"Aprende por qué cuánto inviertes en una sola posición importa tanto como si esa posición es una buena idea, y por qué el tamaño de la posición es una forma de controlar el riesgo.\""
 version: "1.0"
 author: "\"Waldemar M. Caban, JD MA\""
-date: "2026-10-03"
+date: "2026-10-19"
 locale: "es-Caribbean"
 source_locale: "en-US"
 ---

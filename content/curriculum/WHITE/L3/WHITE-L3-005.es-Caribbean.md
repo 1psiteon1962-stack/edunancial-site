@@ -8,7 +8,7 @@ title: "\"Por qué las opciones te dan derechos, no obligaciones, y por qué eso
 summary: "\"Aprende la estructura básica de los contratos de opciones, por qué comprar una opción solo te da un derecho y por qué ese derecho no es gratis.\""
 version: "1.0"
 author: "\"Waldemar M. Caban, JD MA\""
-date: "2026-10-03"
+date: "2026-10-19"
 locale: "es-Caribbean"
 source_locale: "en-US"
 ---

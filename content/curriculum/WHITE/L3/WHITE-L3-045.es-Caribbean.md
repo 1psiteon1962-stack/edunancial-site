@@ -8,7 +8,7 @@ title: "\"Por qué las recompras de acciones afectan a los accionistas de forma 
 summary: "\"Aprende cómo una recompra de acciones les devuelve valor a los accionistas de forma distinta que un dividendo, y por qué los efectos en los impuestos y en la cantidad de acciones son diferentes.\""
 version: "1.0"
 author: "\"Waldemar M. Caban, JD MA\""
-date: "2026-10-03"
+date: "2026-10-19"
 locale: "es-Caribbean"
 source_locale: "en-US"
 ---

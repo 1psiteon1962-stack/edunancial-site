@@ -8,7 +8,7 @@ title: "\"Por qué el margen multiplica las ganancias y las pérdidas igual que 
 summary: "\"Aprende cómo funciona comprar acciones con margen, y por qué multiplica tanto las ganancias como las pérdidas de una forma parecida al apalancamiento en bienes raíces.\""
 version: "1.0"
 author: "\"Waldemar M. Caban, JD MA\""
-date: "2026-10-03"
+date: "2026-10-19"
 locale: "es-Caribbean"
 source_locale: "en-US"
 ---

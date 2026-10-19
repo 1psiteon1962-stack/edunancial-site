@@ -8,7 +8,7 @@ title: "\"Por qué los precios de los bonos y las tasas de interés se mueven en
 summary: "\"Aprende la razón mecánica por la que la subida de las tasas de interés hace bajar el precio de los bonos existentes, y por qué esta relación es predecible, no aleatoria.\""
 version: "1.0"
 author: "\"Waldemar M. Caban, JD MA\""
-date: "2026-10-03"
+date: "2026-10-19"
 locale: "es-Caribbean"
 source_locale: "en-US"
 ---

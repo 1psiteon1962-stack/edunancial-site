@@ -8,7 +8,7 @@ title: "\"Por qué las IPO tienen un riesgo particular comparadas con las empres
 summary: "\"Aprende por qué comprar acciones de una empresa que acaba de salir a bolsa es distinto a invertir en una empresa establecida, y por qué tener poco historial añade una incertidumbre específica.\""
 version: "1.0"
 author: "\"Waldemar M. Caban, JD MA\""
-date: "2026-10-03"
+date: "2026-10-19"
 locale: "es-Caribbean"
 source_locale: "en-US"
 ---

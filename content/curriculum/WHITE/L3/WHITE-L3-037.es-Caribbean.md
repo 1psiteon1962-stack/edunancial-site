@@ -8,7 +8,7 @@ title: "\"Por qué la cosecha de pérdidas fiscales (tax-loss harvesting) convie
 summary: "\"Aprende cómo funciona la cosecha de pérdidas fiscales, por qué convierte una pérdida no realizada en un beneficio contributivo que se puede usar, y por qué el proceso requiere cuidado.\""
 version: "1.0"
 author: "\"Waldemar M. Caban, JD MA\""
-date: "2026-10-03"
+date: "2026-10-19"
 locale: "es-Caribbean"
 source_locale: "en-US"
 ---
