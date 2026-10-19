@@ -8,7 +8,7 @@ title: "\"Por qué invertir en índices es apostar al mercado, no a un administr
 summary: "\"Aprende a qué apuesta realmente la inversión en índices, y por qué es una apuesta fundamentalmente diferente a escoger acciones individuales o administradores de fondos activos.\""
 version: "1.0"
 author: "\"Waldemar M. Caban, JD MA\""
-date: "2026-10-03"
+date: "2026-10-19"
 locale: "es-Caribbean"
 source_locale: "en-US"
 ---

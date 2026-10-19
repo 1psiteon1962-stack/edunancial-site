@@ -8,7 +8,7 @@ title: "\"Por qué una orden stop-loss no garantiza tu precio de salida\""
 summary: "\"Aprende cómo funciona una orden stop-loss y por qué es un activador de una orden de mercado, no una garantía del precio exacto que vas a recibir.\""
 version: "1.0"
 author: "\"Waldemar M. Caban, JD MA\""
-date: "2026-10-03"
+date: "2026-10-19"
 locale: "es-Caribbean"
 source_locale: "en-US"
 ---

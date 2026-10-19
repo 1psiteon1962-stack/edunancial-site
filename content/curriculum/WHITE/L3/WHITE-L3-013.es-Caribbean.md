@@ -8,7 +8,7 @@ title: "\"Por qué invertir una suma completa a menudo rinde más que el DCA (y 
 summary: "\"Aprende por qué invertir todo de una vez, estadísticamente, tiende a rendir más que el promedio del costo en dólares en mercados al alza, y por qué muchos inversionistas aun así prefieren el DCA.\""
 version: "1.0"
 author: "\"Waldemar M. Caban, JD MA\""
-date: "2026-10-03"
+date: "2026-10-19"
 locale: "es-Caribbean"
 source_locale: "en-US"
 ---

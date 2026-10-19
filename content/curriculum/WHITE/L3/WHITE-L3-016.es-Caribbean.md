@@ -8,7 +8,7 @@ title: "\"Por qué una tasa de retiro \\\"segura\\\" no es una garantía\""
 summary: "\"Aprende qué pretende representar una tasa de retiro segura, y por qué es una guía histórica, no una promesa sobre tu futuro específico.\""
 version: "1.0"
 author: "\"Waldemar M. Caban, JD MA\""
-date: "2026-10-03"
+date: "2026-10-19"
 locale: "es-Caribbean"
 source_locale: "en-US"
 ---

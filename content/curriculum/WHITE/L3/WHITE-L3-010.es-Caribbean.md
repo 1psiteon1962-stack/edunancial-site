@@ -8,7 +8,7 @@ title: "\"Por qué una llamada de margen puede obligarte a vender en el peor mom
 summary: "\"Aprende qué es una llamada de margen, por qué ocurre de forma automática y por qué puede obligarte a vender justo cuando los precios ya están bajos.\""
 version: "1.0"
 author: "\"Waldemar M. Caban, JD MA\""
-date: "2026-10-03"
+date: "2026-10-19"
 locale: "es-Caribbean"
 source_locale: "en-US"
 ---

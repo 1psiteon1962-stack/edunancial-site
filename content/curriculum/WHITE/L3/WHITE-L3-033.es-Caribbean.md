@@ -8,7 +8,7 @@ title: "\"Por qué la concentración en un sector aumenta el riesgo aun en una c
 summary: "\"Aprende por qué tener muchas acciones concentradas en el mismo sector puede dejar una cartera más expuesta al riesgo de lo que parece a primera vista.\""
 version: "1.0"
 author: "\"Waldemar M. Caban, JD MA\""
-date: "2026-10-03"
+date: "2026-10-19"
 locale: "es-Caribbean"
 source_locale: "en-US"
 ---

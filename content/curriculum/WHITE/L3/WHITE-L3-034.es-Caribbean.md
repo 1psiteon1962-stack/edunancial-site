@@ -8,7 +8,7 @@ title: "\"Por qué la asignación de activos importa más que escoger acciones i
 summary: "\"Aprende por qué la mezcla de clases de activos en una cartera tiende a determinar los resultados a largo plazo más que las acciones específicas escogidas dentro de cada clase.\""
 version: "1.0"
 author: "\"Waldemar M. Caban, JD MA\""
-date: "2026-10-03"
+date: "2026-10-19"
 locale: "es-Caribbean"
 source_locale: "en-US"
 ---

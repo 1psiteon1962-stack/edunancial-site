@@ -8,7 +8,7 @@ title: "\"Por qué la venta en corto tiene, en teoría, un riesgo ilimitado\""
 summary: "\"Aprende cómo funciona la venta en corto, por qué gana cuando el precio baja y por qué su pérdida potencial es, por su estructura, ilimitada.\""
 version: "1.0"
 author: "\"Waldemar M. Caban, JD MA\""
-date: "2026-10-03"
+date: "2026-10-19"
 locale: "es-Caribbean"
 source_locale: "en-US"
 ---

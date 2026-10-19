@@ -8,7 +8,7 @@ title: "\"Por qué la duración de un bono mide su sensibilidad a las tasas de i
 summary: "\"Aprende qué mide la duración de un bono, por qué los bonos de mayor duración son más sensibles a los cambios en las tasas de interés y por qué esto importa a quienes invierten en bonos.\""
 version: "1.0"
 author: "\"Waldemar M. Caban, JD MA\""
-date: "2026-10-03"
+date: "2026-10-19"
 locale: "es-Caribbean"
 source_locale: "en-US"
 ---

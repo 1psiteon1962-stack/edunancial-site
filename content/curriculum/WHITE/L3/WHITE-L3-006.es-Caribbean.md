@@ -8,7 +8,7 @@ title: "\"Por qué una opción de compra apuesta a la dirección y un straddle a
 summary: "\"Aprende la diferencia entre una apuesta direccional con opciones y un straddle, que gana con un movimiento grande en cualquier dirección.\""
 version: "1.0"
 author: "\"Waldemar M. Caban, JD MA\""
-date: "2026-10-03"
+date: "2026-10-19"
 locale: "es-Caribbean"
 source_locale: "en-US"
 ---

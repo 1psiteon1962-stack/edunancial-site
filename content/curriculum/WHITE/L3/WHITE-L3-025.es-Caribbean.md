@@ -8,7 +8,7 @@ title: "\"Por qué el rendimiento pasado de un fondo no predice su rendimiento f
 summary: "\"Aprende por qué un buen historial reciente de un fondo no es una señal confiable de cómo le irá de aquí en adelante.\""
 version: "1.0"
 author: "\"Waldemar M. Caban, JD MA\""
-date: "2026-10-03"
+date: "2026-10-19"
 locale: "es-Caribbean"
 source_locale: "en-US"
 ---

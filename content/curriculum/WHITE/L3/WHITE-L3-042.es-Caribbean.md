@@ -8,7 +8,7 @@ title: "\"Por qué la liquidez es distinta entre una acción de primera línea (
 summary: "\"Aprende qué significa la liquidez para un valor y por qué una acción que se negocia poco puede ser más difícil y más costosa de comprar o vender de lo que sugiere solo su precio.\""
 version: "1.0"
 author: "\"Waldemar M. Caban, JD MA\""
-date: "2026-10-03"
+date: "2026-10-19"
 locale: "es-Caribbean"
 source_locale: "en-US"
 ---

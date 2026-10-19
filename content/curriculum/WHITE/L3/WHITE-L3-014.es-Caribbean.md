@@ -8,7 +8,7 @@ title: "\"Por qué el rebalanceo te obliga a vender caro y comprar barato de for
 summary: "\"Aprende cómo funciona el rebalanceo de una cartera, y por qué convierte la disciplina de \\\"comprar barato y vender caro\\\" en un proceso mecánico en vez de depender de la fuerza de voluntad.\""
 version: "1.0"
 author: "\"Waldemar M. Caban, JD MA\""
-date: "2026-10-03"
+date: "2026-10-19"
 locale: "es-Caribbean"
 source_locale: "en-US"
 ---

@@ -8,7 +8,7 @@ title: "\"Por qué el promedio del costo en dólares reduce el riesgo de mal mom
 summary: "\"Aprende por qué invertir una cantidad fija en un calendario regular reduce el riesgo de entrar en un mal momento, sin reducir el riesgo propio de la inversión.\""
 version: "1.0"
 author: "\"Waldemar M. Caban, JD MA\""
-date: "2026-10-03"
+date: "2026-10-19"
 locale: "es-Caribbean"
 source_locale: "en-US"
 ---

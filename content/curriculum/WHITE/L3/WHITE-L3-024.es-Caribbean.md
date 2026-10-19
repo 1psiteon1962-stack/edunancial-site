@@ -8,7 +8,7 @@ title: "\"Por qué la gestión activa tiene que superar sus propios cargos para 
 summary: "\"Aprende por qué un fondo de gestión activa necesita superar al mercado por algo más que un poquito para realmente dar un mejor resultado que un fondo indexado de bajo costo.\""
 version: "1.0"
 author: "\"Waldemar M. Caban, JD MA\""
-date: "2026-10-03"
+date: "2026-10-19"
 locale: "es-Caribbean"
 source_locale: "en-US"
 ---

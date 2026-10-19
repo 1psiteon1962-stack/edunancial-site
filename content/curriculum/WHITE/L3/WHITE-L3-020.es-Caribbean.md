@@ -8,7 +8,7 @@ title: "\"Por qué el riesgo de crédito y el riesgo de tasa de interés son rie
 summary: "\"Aprende por qué un bono puede perder valor por dos razones completamente diferentes, y por qué entender cuál de las dos está pasando cambia cómo debes pensar al respecto.\""
 version: "1.0"
 author: "\"Waldemar M. Caban, JD MA\""
-date: "2026-10-03"
+date: "2026-10-19"
 locale: "es-Caribbean"
 source_locale: "en-US"
 ---

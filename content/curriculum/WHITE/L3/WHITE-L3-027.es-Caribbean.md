@@ -8,7 +8,7 @@ title: "\"Por qué la aversión a las pérdidas hace que los inversionistas vend
 summary: "\"Aprende por qué el dolor de una pérdida suele sentirse más fuerte que el placer de una ganancia equivalente, y cómo ese desequilibrio distorsiona las decisiones de inversión.\""
 version: "1.0"
 author: "\"Waldemar M. Caban, JD MA\""
-date: "2026-10-03"
+date: "2026-10-19"
 locale: "es-Caribbean"
 source_locale: "en-US"
 ---

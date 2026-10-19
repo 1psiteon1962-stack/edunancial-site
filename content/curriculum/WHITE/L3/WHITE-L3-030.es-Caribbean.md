@@ -8,7 +8,7 @@ title: "\"Por qué distintos activos responden de forma diferente a la inflació
 summary: "\"Aprende por qué algunas inversiones tienden a aguantar mejor que otras durante períodos de inflación, y por qué no existe una protección perfecta contra la inflación.\""
 version: "1.0"
 author: "\"Waldemar M. Caban, JD MA\""
-date: "2026-10-03"
+date: "2026-10-19"
 locale: "es-Caribbean"
 source_locale: "en-US"
 ---

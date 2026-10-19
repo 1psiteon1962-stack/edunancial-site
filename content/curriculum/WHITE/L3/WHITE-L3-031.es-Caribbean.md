@@ -8,7 +8,7 @@ title: "\"Por qué el riesgo cambiario afecta las inversiones internacionales\""
 summary: "\"Aprende por qué invertir en activos denominados en una moneda extranjera añade una capa de riesgo separada del desempeño de la propia inversión.\""
 version: "1.0"
 author: "\"Waldemar M. Caban, JD MA\""
-date: "2026-10-03"
+date: "2026-10-19"
 locale: "es-Caribbean"
 source_locale: "en-US"
 ---

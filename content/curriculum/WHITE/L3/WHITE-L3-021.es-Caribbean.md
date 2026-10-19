@@ -8,7 +8,7 @@ title: "\"Por qué los ETF y los fondos mutuos son diferentes en la compraventa,
 summary: "\"Aprende las diferencias prácticas entre los ETF y los fondos mutuos, y por qué esas diferencias pueden importar más que sus grandes parecidos.\""
 version: "1.0"
 author: "\"Waldemar M. Caban, JD MA\""
-date: "2026-10-03"
+date: "2026-10-19"
 locale: "es-Caribbean"
 source_locale: "en-US"
 ---

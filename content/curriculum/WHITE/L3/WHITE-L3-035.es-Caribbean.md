@@ -8,7 +8,7 @@ title: "\"Por qué una trayectoria de ajuste (glide path) cambia el riesgo a med
 summary: "\"Aprende por qué muchas estrategias de inversión a largo plazo cambian poco a poco la asignación de activos de una cartera de más agresiva a más conservadora con el tiempo, y por qué ese momento importa.\""
 version: "1.0"
 author: "\"Waldemar M. Caban, JD MA\""
-date: "2026-10-03"
+date: "2026-10-19"
 locale: "es-Caribbean"
 source_locale: "en-US"
 ---

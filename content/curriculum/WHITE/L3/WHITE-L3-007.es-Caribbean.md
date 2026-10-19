@@ -8,7 +8,7 @@ title: "\"Por qué el decaimiento temporal juega en contra de los compradores de
 summary: "\"Aprende por qué una opción pierde valor simplemente con el paso del tiempo, aunque el precio del activo subyacente no cambie.\""
 version: "1.0"
 author: "\"Waldemar M. Caban, JD MA\""
-date: "2026-10-03"
+date: "2026-10-19"
 locale: "es-Caribbean"
 source_locale: "en-US"
 ---

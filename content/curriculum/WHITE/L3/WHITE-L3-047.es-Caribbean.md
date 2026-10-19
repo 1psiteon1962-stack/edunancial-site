@@ -8,7 +8,7 @@ title: "\"Por qué diversificar entre clases de activos, y no solo entre accione
 summary: "\"Aprende por qué combinar acciones con otras clases de activos, como bonos o bienes raíces, puede reducir el riesgo general de una cartera de una forma que diversificar solo entre acciones no puede.\""
 version: "1.0"
 author: "\"Waldemar M. Caban, JD MA\""
-date: "2026-10-03"
+date: "2026-10-19"
 locale: "es-Caribbean"
 source_locale: "en-US"
 ---

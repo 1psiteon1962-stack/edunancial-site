@@ -8,7 +8,7 @@ title: "\"Por qué vender opciones le da la vuelta por completo al perfil de rie
 summary: "\"Aprende por qué vender (emitir) una opción te pone del lado de la obligación del contrato, con un perfil de riesgo muy diferente al de comprar una.\""
 version: "1.0"
 author: "\"Waldemar M. Caban, JD MA\""
-date: "2026-10-03"
+date: "2026-10-19"
 locale: "es-Caribbean"
 source_locale: "en-US"
 ---

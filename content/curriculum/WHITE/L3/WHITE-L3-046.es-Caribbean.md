@@ -8,7 +8,7 @@ title: "\"Por qué la beta mide la volatilidad de una acción en relación con e
 summary: "\"Aprende qué mide la beta, por qué una beta por encima o por debajo de 1.0 te dice algo específico sobre el comportamiento esperado de una acción, y qué no capta la beta.\""
 version: "1.0"
 author: "\"Waldemar M. Caban, JD MA\""
-date: "2026-10-03"
+date: "2026-10-19"
 locale: "es-Caribbean"
 source_locale: "en-US"
 ---

@@ -8,7 +8,7 @@ title: "\"Por qué el riesgo de secuencia de rendimientos importa más en el ret
 summary: "\"Aprende por qué el orden en que ocurren los rendimientos de una inversión puede importar más que el rendimiento promedio, sobre todo cuando empiezas a retirar dinero.\""
 version: "1.0"
 author: "\"Waldemar M. Caban, JD MA\""
-date: "2026-10-03"
+date: "2026-10-19"
 locale: "es-Caribbean"
 source_locale: "en-US"
 ---

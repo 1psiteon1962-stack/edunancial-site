@@ -8,7 +8,7 @@ title: "\"Por qué las ganancias de capital pagan impuestos de forma distinta se
 summary: "\"Aprende por qué el tiempo que tienes una inversión antes de venderla puede afectar cómo se tributa cualquier ganancia, y por qué esto crea un incentivo real en torno al momento de vender.\""
 version: "1.0"
 author: "\"Waldemar M. Caban, JD MA\""
-date: "2026-10-03"
+date: "2026-10-19"
 locale: "es-Caribbean"
 source_locale: "en-US"
 ---

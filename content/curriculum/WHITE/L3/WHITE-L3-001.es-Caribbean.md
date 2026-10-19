@@ -8,7 +8,7 @@ title: "\"Por qué \\\"comprar barato y vender caro\\\" es más difícil de hace
 summary: "\"Aprende por qué el consejo de inversión más sencillo es también uno de los más difíciles de seguir en la práctica, y qué es lo que realmente se interpone.\""
 version: "1.0"
 author: "\"Waldemar M. Caban, JD MA\""
-date: "2026-10-03"
+date: "2026-10-19"
 locale: "es-Caribbean"
 source_locale: "en-US"
 ---
