@@ -44,10 +44,6 @@ const legacyLookup: LegacyLookup = async (user) => {
     return null;
   }
 };
-  } catch {
-    return null;
-  }
-};
 
 /**
  * Authoritative beta entitlement: the Neon beta_invite_codes row redeemed by this
