@@ -16,7 +16,7 @@ type FileDeleteDialogState =
 
 export default function BatchReviewClient({ batchId }: { batchId: string }) {
   const [batch, setBatch] = useState<UploadBatch | null>(null);
-  const [publicationReceipt, setPublicationReceipt] = useState<{ state?: string; learnerVisible?: boolean } | null>(null);
+  const [publicationStatus, setPublicationStatus] = useState<{ live: boolean; inGit: boolean; gitExport: string | null; pullRequestUrl: string | null; label: string } | null>(null);
   const [csrfToken, setCsrfToken] = useState("");
   const [error, setError] = useState("");
   const [filters, setFilters] = useState({ status: "all", pillar: "all", language: "all" });
@@ -50,7 +50,7 @@ export default function BatchReviewClient({ batchId }: { batchId: string }) {
       return;
     }
     setBatch(payload.batch);
-    setPublicationReceipt(payload.publicationReceipt ?? null);
+    setPublicationStatus(payload.publicationStatus ?? null);
     setSelected((current) => {
       const next = pruneSelection(current, (payload.batch?.files ?? []).map((file: ExtractedFile) => file.id));
       return next.length === current.length && next.every((id, index) => id === current[index]) ? current : next;
@@ -72,7 +72,8 @@ export default function BatchReviewClient({ batchId }: { batchId: string }) {
   }, [batch, filters]);
 
   const approvedCount = batch?.files.filter((f) => f.reviewStatus === "approved").length ?? 0;
-  const recoveryPublished = publicationReceipt?.state === "PUBLISHED" && publicationReceipt?.learnerVisible === true;
+  // Q5: "Live" only after learner read-back verification; "In Git" only after the export PR merged.
+  const recoveryPublished = publicationStatus?.live === true;
   const visibleFileIds = useMemo(() => visibleFiles.map((file) => file.id), [visibleFiles]);
   const visibleSelection = useMemo(() => getVisibleSelectionState(selected, visibleFileIds), [selected, visibleFileIds]);
   const selectedVisibleFiles = useMemo(() => visibleFiles.filter((file) => selected.includes(file.id)), [selected, visibleFiles]);
@@ -287,6 +288,19 @@ export default function BatchReviewClient({ batchId }: { batchId: string }) {
             <p className="text-sm uppercase tracking-[0.3em] text-blue-300">Batch review</p>
             <h1 className="mt-3 text-4xl font-black">{batch.name}</h1>
             <p className="mt-3 text-slate-300">Source: {batch.source} · Status: {recoveryPublished ? "PUBLISHED - learner verified" : batch.status}</p>
+            {publicationStatus ? (
+              <div className="mt-3 flex flex-wrap items-center gap-2 text-xs font-semibold" data-testid="publication-status">
+                <span className={publicationStatus.live ? "rounded-full bg-emerald-500/20 px-3 py-1 text-emerald-200" : "rounded-full bg-slate-500/20 px-3 py-1 text-slate-300"}>
+                  {publicationStatus.live ? "Live" : "Not live yet"}
+                </span>
+                <span className={publicationStatus.inGit ? "rounded-full bg-blue-500/20 px-3 py-1 text-blue-200" : "rounded-full bg-slate-500/20 px-3 py-1 text-slate-300"}>
+                  {publicationStatus.inGit ? "In Git" : publicationStatus.gitExport === "OPEN" ? "Git export PR open" : publicationStatus.gitExport === "PENDING" ? "Git export pending" : publicationStatus.gitExport === "FAILED" ? "Git export retrying" : "Not in Git"}
+                </span>
+                {publicationStatus.pullRequestUrl ? (
+                  <a href={publicationStatus.pullRequestUrl} target="_blank" rel="noopener noreferrer" className="text-blue-300 underline hover:text-blue-100">Export PR</a>
+                ) : null}
+              </div>
+            ) : null}
           </div>
           <div className="flex flex-wrap gap-3">
             <Link href="/admin/content" className="rounded-xl border border-white/15 px-5 py-3 font-semibold text-slate-200 hover:border-white/30">Back</Link>
