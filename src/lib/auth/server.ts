@@ -61,9 +61,15 @@ export async function requireAuthenticatedMemberWrite(request: Request, scope: s
   return auth;
 }
 
+export const MEMBERSHIP_COOKIE_MAX_LIFETIME_MS = 24 * 60 * 60 * 1000;
+
 export function applyMembershipCookie(response: NextResponse, membershipTier: string, expiresAt?: string | null) {
   const nowMs = Date.now();
-  const endMs = expiresAt ? new Date(expiresAt).getTime() : nowMs + 60 * 60 * 24 * 30 * 1000;
+  const entitlementEndMs = expiresAt ? new Date(expiresAt).getTime() : nowMs + 60 * 60 * 24 * 30 * 1000;
+  // The tier cookie is a bearer credential. Cap it at 24 hours (re-issued by the
+  // authenticated session refresh) so a copied cookie or a revoked grant stops
+  // working within a day instead of lasting for the whole entitlement window.
+  const endMs = Math.min(entitlementEndMs, nowMs + MEMBERSHIP_COOKIE_MAX_LIFETIME_MS);
   const maxAge = Math.max(1, Math.floor((endMs - nowMs) / 1000));
   // The expiry is signed into the cookie value itself, so a saved copy cannot be
   // replayed after the entitlement ends (browser maxAge alone is not protection).

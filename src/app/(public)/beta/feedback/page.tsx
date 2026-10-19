@@ -1,35 +1,13 @@
 "use client";
 
-import { useMemo, useState } from "react";
+import { useState } from "react";
 
 import { useAuth } from "@/lib/authContext";
-import {
-  BETA_AUDIT_STORAGE_KEY,
-  BETA_FEEDBACK_STORAGE_KEY,
-  BETA_INVITATIONS_STORAGE_KEY,
-  createBetaAuditEntry,
-  recordBetaFeedback,
-  type BetaAuditEntry,
-  type BetaFeedbackSubmission,
-  type BetaInvitationRecord,
-} from "@/lib/beta-access";
-
-function readJson<T>(key: string): T[] {
-  try {
-    const raw = window.localStorage.getItem(key);
-    return raw ? (JSON.parse(raw) as T[]) : [];
-  } catch {
-    return [];
-  }
-}
-
-function writeJson<T>(key: string, value: T[]) {
-  window.localStorage.setItem(key, JSON.stringify(value));
-}
 
 export default function BetaFeedbackPage() {
-  const { user, updateProfile } = useAuth();
+  const { user, csrfToken } = useAuth();
   const [statusMessage, setStatusMessage] = useState("");
+  const [submitting, setSubmitting] = useState(false);
   const [rating, setRating] = useState("5");
   const [countryRegion, setCountryRegion] = useState("");
   const [strongestFeature, setStrongestFeature] = useState("");
@@ -38,60 +16,31 @@ export default function BetaFeedbackPage() {
   const [practicalOutcome, setPracticalOutcome] = useState("");
   const [additionalNotes, setAdditionalNotes] = useState("");
 
-  const invitation = useMemo(() => {
-    if (!user) {
-      return null;
-    }
-
-    return readJson<BetaInvitationRecord>(BETA_INVITATIONS_STORAGE_KEY).find(
-      (candidate) => candidate.id === user.betaAccess?.invitationId,
-    ) ?? null;
-  }, [user]);
-
-  function handleSubmit(event: React.FormEvent) {
+  async function handleSubmit(event: React.FormEvent) {
     event.preventDefault();
-    if (!user || !invitation) {
-      setStatusMessage("Beta invitation not found for this account.");
+    if (!user) {
+      setStatusMessage("Please sign in with your beta account to send feedback.");
       return;
     }
-
-    const { invitation: updatedInvitation, submission } = recordBetaFeedback(
-      invitation,
-      {
-        id: `feedback-${Date.now()}`,
-        testerId: user.id,
-        email: user.email,
-        countryRegion: countryRegion || undefined,
-        rating: Number(rating),
-        strongestFeature,
-        improvementRequest,
-        confusingMoment,
-        practicalOutcome,
-        additionalNotes: additionalNotes || undefined,
-      },
-    );
-
-    const invitations = readJson<BetaInvitationRecord>(BETA_INVITATIONS_STORAGE_KEY).map((candidate) =>
-      candidate.id === invitation.id ? updatedInvitation : candidate,
-    );
-    const feedback = [submission, ...readJson<BetaFeedbackSubmission>(BETA_FEEDBACK_STORAGE_KEY)];
-    const auditEntries = [
-      createBetaAuditEntry(invitation.id, user.email, "beta.feedback.submitted"),
-      ...readJson<BetaAuditEntry>(BETA_AUDIT_STORAGE_KEY),
-    ];
-
-    writeJson(BETA_INVITATIONS_STORAGE_KEY, invitations);
-    writeJson(BETA_FEEDBACK_STORAGE_KEY, feedback);
-    writeJson(BETA_AUDIT_STORAGE_KEY, auditEntries);
-    updateProfile({
-      betaAccess: user.betaAccess
-        ? {
-            ...user.betaAccess,
-            feedbackSubmittedAt: updatedInvitation.feedbackSubmittedAt,
-          }
-        : user.betaAccess,
-    });
-    setStatusMessage("Thank you. Your beta feedback has been recorded.");
+    setSubmitting(true);
+    setStatusMessage("");
+    try {
+      const response = await fetch("/api/member/beta-feedback", {
+        method: "POST",
+        headers: { "Content-Type": "application/json", "x-csrf-token": csrfToken ?? "" },
+        body: JSON.stringify({ rating: Number(rating), countryRegion, strongestFeature, improvementRequest, confusingMoment, practicalOutcome, additionalNotes }),
+      });
+      const payload = (await response.json().catch(() => ({}))) as { error?: string };
+      if (!response.ok) {
+        setStatusMessage(payload.error ?? "Feedback could not be sent. Please try again.");
+        return;
+      }
+      setStatusMessage("Thank you. Your beta feedback was sent to the Edunancial team.");
+    } catch {
+      setStatusMessage("Network error. Your feedback was not sent; please try again.");
+    } finally {
+      setSubmitting(false);
+    }
   }
 
   return (
@@ -136,8 +85,8 @@ export default function BetaFeedbackPage() {
           <TextareaField label="What practical financial outcome did the platform help you with?" value={practicalOutcome} onChange={setPracticalOutcome} />
           <TextareaField label="Anything else you want the team to know?" value={additionalNotes} onChange={setAdditionalNotes} required={false} />
 
-          <button className="rounded-xl bg-emerald-500 px-5 py-3 font-bold text-slate-950 hover:bg-emerald-400" type="submit">
-            Submit Feedback
+          <button disabled={submitting} className="rounded-xl bg-emerald-500 px-5 py-3 font-bold text-slate-950 hover:bg-emerald-400 disabled:opacity-50" type="submit">
+            {submitting ? "Sending…" : "Submit Feedback"}
           </button>
         </form>
 

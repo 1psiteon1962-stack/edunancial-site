@@ -1,15 +1,19 @@
 import BetaCodesAdminPanel from "@/components/admin/BetaCodesAdminPanel";
-import BetaTestersAdminClient from "@/components/admin/BetaTestersAdminClient";
+import BetaFeedbackList from "@/components/admin/BetaFeedbackList";
+import { requireOwnerPageSession } from "@/lib/admin-content/auth";
 
 export const metadata = {
   title: "Beta Tester Management | Edunancial Admin",
 };
 
-export default function BetaTestersAdminPage() {
+export const dynamic = "force-dynamic";
+
+export default async function BetaTestersAdminPage() {
+  await requireOwnerPageSession();
   return (
     <>
       <BetaCodesAdminPanel />
-      <BetaTestersAdminClient />
+      <BetaFeedbackList />
     </>
   );
 }

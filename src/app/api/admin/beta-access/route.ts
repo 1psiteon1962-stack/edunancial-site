@@ -1,12 +1,7 @@
-import { randomBytes } from "node:crypto";
 import { NextResponse } from "next/server";
 
 import { requireOwnerApiSession } from "@/lib/admin-content/auth";
 import { getSupabaseAdminClient } from "@/lib/supabase/admin";
-
-function temporaryPassword() {
-  return `Edu!${randomBytes(12).toString("base64url")}9a`;
-}
 
 export async function GET(request: Request) {
   const auth = await requireOwnerApiSession(request);
@@ -17,32 +12,13 @@ export async function GET(request: Request) {
   return NextResponse.json({ grants: data ?? [] });
 }
 
+const LEGACY_ISSUANCE_RETIRED = "Legacy beta accounts can no longer be created or reissued. Use single-use beta codes (Admin > Beta Tester Management).";
+
+// Retired: this path created Supabase users and grants outside the Neon beta-code system.
 export async function POST(request: Request) {
   const auth = await requireOwnerApiSession(request, true);
   if (!auth.ok) return auth.response;
-  const body = await request.json().catch(() => ({})) as { email?: string; firstName?: string; lastName?: string; notes?: string };
-  const email = body.email?.trim().toLowerCase();
-  if (!email) return NextResponse.json({ error: "Email is required." }, { status: 400 });
-
-  const admin = getSupabaseAdminClient();
-  const password = temporaryPassword();
-  const { data: created, error: createError } = await admin.auth.admin.createUser({
-    email,
-    password,
-    email_confirm: true,
-    user_metadata: { first_name: body.firstName?.trim() ?? "Beta", last_name: body.lastName?.trim() ?? "Tester", beta_tester: true },
-  });
-  if (createError || !created.user) return NextResponse.json({ error: createError?.message ?? "Unable to create beta user." }, { status: 400 });
-
-  await admin.from("user_profiles").upsert({ user_id: created.user.id, first_name: body.firstName?.trim() ?? "Beta", last_name: body.lastName?.trim() ?? "Tester", membership_tier: "free" }, { onConflict: "user_id" });
-  const { error: grantError } = await admin.from("beta_access_grants").insert({ user_id: created.user.id, email, status: "issued", access_tier: "gold", created_by: auth.session.email, notes: body.notes?.slice(0, 500) ?? null });
-  if (grantError) {
-    await admin.auth.admin.deleteUser(created.user.id);
-    return NextResponse.json({ error: grantError.message }, { status: 400 });
-  }
-
-  // Password is returned exactly once and is never stored in the repository or grant table.
-  return NextResponse.json({ userId: created.user.id, email, temporaryPassword: password, access: "Gold-equivalent", activates: "first successful authenticated use", durationDays: 90 }, { status: 201 });
+  return NextResponse.json({ error: LEGACY_ISSUANCE_RETIRED }, { status: 410 });
 }
 
 export async function PATCH(request: Request) {
@@ -57,12 +33,6 @@ export async function PATCH(request: Request) {
     return error ? NextResponse.json({ error: error.message }, { status: 400 }) : NextResponse.json({ ok: true });
   }
 
-  const password = temporaryPassword();
-  const { error: passwordError } = await admin.auth.admin.updateUserById(body.userId, { password });
-  if (passwordError) return NextResponse.json({ error: passwordError.message }, { status: 400 });
-  const { data, error } = await admin.from("beta_access_grants").select("reissue_count,generation").eq("user_id", body.userId).single();
-  if (error) return NextResponse.json({ error: error.message }, { status: 400 });
-  const { error: updateError } = await admin.from("beta_access_grants").update({ status: "issued", first_used_at: null, expires_at: null, revoked_at: null, reissue_count: (data.reissue_count ?? 0) + 1, generation: (data.generation ?? 1) + 1, issued_at: new Date().toISOString(), updated_at: new Date().toISOString() }).eq("user_id", body.userId);
-  if (updateError) return NextResponse.json({ error: updateError.message }, { status: 400 });
-  return NextResponse.json({ ok: true, temporaryPassword: password, activates: "next successful authenticated use", durationDays: 90 });
+  // Reissue is retired; revocation above stays available because it only reduces access.
+  return NextResponse.json({ error: LEGACY_ISSUANCE_RETIRED }, { status: 410 });
 }

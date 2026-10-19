@@ -16,23 +16,28 @@ export interface PersistentBetaAccess {
 type LegacyLookup = (user: User) => Promise<PersistentBetaAccess | null>;
 
 /**
- * Pre-Neon grants (Supabase beta_access_grants via activate_beta_access). Kept READ-ONLY as a
+ * Pre-Neon grants (Supabase beta_access_grants). Kept READ-ONLY as a
  * fallback so any tester who already holds a legacy grant keeps it; no new legacy grants are
  * created anywhere. Failures here never break sign-in.
  */
 const legacyLookup: LegacyLookup = async (user) => {
   try {
+    // READ-ONLY: never call activate_beta_access (it starts/changes legacy grants).
+    // Only grants that are already active keep working; nothing new is activated.
     const admin = getSupabaseAdminClient();
-    const { data, error } = await admin.rpc("activate_beta_access", { p_user_id: user.id });
-    if (error || !data) return null;
-    const row = Array.isArray(data) ? data[0] : data;
-    if (!row?.user_id) return null;
+    const { data, error } = await admin
+      .from("beta_access_grants")
+      .select("user_id,status,first_used_at,expires_at,generation,reissue_count")
+      .eq("user_id", user.id)
+      .eq("status", "active")
+      .maybeSingle();
+    if (error || !data?.user_id) return null;
     return {
-      status: row.status,
-      firstUsedAt: row.first_used_at ?? null,
-      expiresAt: row.expires_at ?? null,
-      generation: row.generation ?? 1,
-      reissueCount: row.reissue_count ?? 0,
+      status: "active",
+      firstUsedAt: data.first_used_at ?? null,
+      expiresAt: data.expires_at ?? null,
+      generation: data.generation ?? 1,
+      reissueCount: data.reissue_count ?? 0,
       source: "legacy",
     };
   } catch {
@@ -64,7 +69,9 @@ export async function activateAndGetBetaAccess(
       }
     } catch (error) {
       // Fail closed for the entitlement (no beta access) but never block sign-in.
+      // Do NOT fall through to the legacy store on a Neon error.
       console.error("[beta] Neon entitlement lookup failed", error instanceof Error ? error.message : String(error));
+      return null;
     }
   }
   return (deps.legacy ?? legacyLookup)(user);
