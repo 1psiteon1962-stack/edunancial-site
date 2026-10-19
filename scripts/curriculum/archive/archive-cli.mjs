@@ -135,7 +135,54 @@ async function restoreDrill() {
   console.log("Restore drill PASSED: every archived object restored byte-for-byte.");
 }
 
-const commands = { export: exportArchive, verify: verifyArchive, "restore-drill": restoreDrill };
+
+// Read-only recovery inventory: which stored uploads / receipts / translation
+// packages could fill coordinates that are not yet on the protected floor.
+const TRACKS = ["RED", "WHITE", "BLUE", "GREEN", "GOLD", "PURPLE", "ORANGE", "BLACK"];
+const AUDIT_LOCALES = ["en-US", "en-GB", "es-419", "es-Caribbean", "es-ES", "fr-CA", "fr-FR", "pt-BR", "pt-PT", "de", "it", "nl", "ht"];
+const LOCALE_ALIASES = new Map([...AUDIT_LOCALES.map((l) => [l.toLowerCase(), l]), ["en", "en-US"], ["es-pr", "es-Caribbean"], ["escaribbean", "es-Caribbean"], ["it-it", "it"], ["de-de", "de"], ["nl-nl", "nl"]]);
+function coordinateFromName(name) {
+  const upper = name.toUpperCase();
+  const track = TRACKS.find((t) => upper.includes(t));
+  const level = upper.match(/(?:^|[^A-Z])L(?:EVEL)?[-_ ]?([1-5])(?:[^0-9]|$)/u)?.[1];
+  const tokens = name.toLowerCase().replace(/\.(zip|md|json)$/u, "").split(/[^a-z0-9]+/u);
+  let locale = null;
+  for (let i = 0; i < tokens.length && !locale; i += 1) {
+    locale = LOCALE_ALIASES.get(`${tokens[i]}-${tokens[i + 1] ?? ""}`) ?? (tokens[i].length === 2 && ["de", "it", "nl", "ht"].includes(tokens[i]) ? LOCALE_ALIASES.get(tokens[i]) : null);
+  }
+  return track && level ? `${track}:L${level}:${locale ?? "?"}` : null;
+}
+
+async function inventory() {
+  const dir = arg("archive");
+  const bundle = openBundle(readFileSync(join(dir, BUNDLE_FILE)), resolveKey());
+  const floor = new Set(JSON.parse(readFileSync("curriculum/verification/production-baseline.json", "utf8")).coordinates);
+  const gaps = new Set(TRACKS.flatMap((t) => [1, 2, 3, 4, 5].flatMap((l) => AUDIT_LOCALES.map((c) => `${t}:L${l}:${c}`))).filter((c) => !floor.has(c)));
+  const receipts = Object.entries(bundle.files).filter(([p]) => p.startsWith("receipts/") && p.endsWith(".json")).map(([, f]) => { try { return JSON.parse(Buffer.from(f.contentBase64, "base64").toString("utf8")); } catch { return null; } }).filter(Boolean);
+  const byState = {};
+  for (const r of receipts) byState[r.state] = (byState[r.state] ?? 0) + 1;
+  const notPublished = receipts.filter((r) => r.state !== "PUBLISHED").map((r) => ({ uploadId: r.uploadId, file: r.originalFilename, coordinate: coordinateFromName(r.originalFilename ?? "") ?? r.coordinate, state: r.state, attempts: r.attempts, error: String(r.lastError ?? "").slice(0, 140) }));
+  const receiptByStorage = new Map(receipts.map((r) => [r.storagePath, r]));
+  const uploads = bundle.inventory.map((u) => {
+    const name = u.path.split("/").pop();
+    const coordinate = coordinateFromName(name);
+    const receipt = receiptByStorage.get(u.path);
+    return { path: u.path, size: u.size, coordinate, receipt: receipt ? receipt.state : "NO_RECEIPT", gap: coordinate ? gaps.has(coordinate) : false };
+  });
+  const packages = Object.keys(bundle.files).filter((p) => p.startsWith("published/atomic/translation-packages/"));
+  const gapUploads = uploads.filter((u) => u.gap);
+  const unknownLocale = uploads.filter((u) => u.coordinate?.endsWith(":?"));
+  const report = { gaps: gaps.size, receipts: receipts.length, receiptsByState: byState, uploads: uploads.length, uploadsMatchingGaps: gapUploads.length, uploadsWithUnknownLocale: unknownLocale.length, translationPackages: packages.length, gapCoordinatesWithUploads: [...new Set(gapUploads.map((u) => u.coordinate))].sort() };
+  console.log(JSON.stringify({ report, gapUploads, notPublished, unknownLocale: unknownLocale.map((u) => u.path) }, null, 2));
+  const esc = (text) => text.replace(/%/g, "%25").replace(/\r/g, "%0D").replace(/\n/g, "%0A");
+  console.log(`::notice title=Recovery inventory summary::${esc(JSON.stringify(report, null, 1))}`);
+  console.log(`::notice title=Stored uploads matching missing coordinates (${gapUploads.length})::${esc(gapUploads.map((u) => `${u.coordinate}  ${u.receipt}  ${u.path.split("/").pop()}  ${u.size}B`).join("\n").slice(0, 60000) || "none")}`);
+  console.log(`::notice title=Receipts not PUBLISHED (${notPublished.length})::${esc(notPublished.map((r) => `${r.coordinate}  ${r.state}  x${r.attempts}  ${r.file}  ${r.error}`).join("\n").slice(0, 60000) || "none")}`);
+  console.log(`::notice title=Uploads with unrecognized locale (${unknownLocale.length})::${esc(unknownLocale.map((u) => u.path.split("/").pop()).join("\n").slice(0, 60000) || "none")}`);
+  console.log(`::notice title=Translation package keys (${packages.length})::${esc(packages.map((p) => p.replace("published/atomic/translation-packages/", "")).join("\n").slice(0, 60000) || "none")}`);
+}
+
+const commands = { export: exportArchive, verify: verifyArchive, "restore-drill": restoreDrill, inventory };
 const command = commands[process.argv[2]];
 if (!command) { console.error("usage: archive-cli.mjs export --out <dir> | verify --archive <dir> | restore-drill --archive <dir> --to <dir>"); process.exit(2); }
 command().catch((error) => { console.error(error instanceof Error ? error.message : error); process.exit(1); });
