@@ -9,6 +9,18 @@ export default async function handler(_request, context) {
   }
   const profile = {
     DO: { currency: "DOP", timezone: "America/Santo_Domingo" },
+    PR: { currency: "USD", timezone: "America/Puerto_Rico" },
+    JM: { currency: "JMD", timezone: "America/Jamaica" },
+    BB: { currency: "BBD", timezone: "America/Barbados" },
+    HT: { currency: "HTG", timezone: "America/Port-au-Prince" },
+    TC: { currency: "USD", timezone: "America/Grand_Turk" },
+    TT: { currency: "TTD", timezone: "America/Port_of_Spain" },
+    GP: { currency: "EUR", timezone: "America/Guadeloupe" },
+    MQ: { currency: "EUR", timezone: "America/Martinique" },
+    AW: { currency: "AWG", timezone: "America/Aruba" },
+    MX: { currency: "MXN", timezone: "America/Mexico_City" },
+    BR: { currency: "BRL", timezone: "America/Sao_Paulo" },
+    CA: { currency: "CAD", timezone: "America/Toronto" },
     ES: { currency: "EUR", timezone: "Europe/Madrid" },
     US: { currency: "USD", timezone: "America/New_York" },
   }[countryCode];
