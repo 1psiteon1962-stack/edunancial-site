@@ -24,6 +24,13 @@ on:
   schedule:
     - cron: '41 9 * * *'   # 09:41 UTC daily, after the blog archive
   workflow_dispatch:
+    inputs:
+      mode:
+        description: archive | inventory (read-only recovery inventory from the latest archive)
+        required: true
+        default: archive
+        type: choice
+        options: [archive, inventory]
   pull_request:
     paths:
       - scripts/curriculum/archive/**
@@ -52,7 +59,7 @@ jobs:
   archive:
     name: Nightly encrypted curriculum archive
     needs: test
-    if: github.event_name != 'pull_request' && github.ref == 'refs/heads/main'
+    if: github.event_name != 'pull_request' && github.ref == 'refs/heads/main' && (github.event_name == 'schedule' || inputs.mode == 'archive')
     runs-on: ubuntu-latest
     timeout-minutes: 45
     permissions:
@@ -116,3 +123,29 @@ jobs:
           git commit -q -m "Curriculum archive $(date -u +%Y-%m-%dT%H:%MZ)" -m "Run: $GITHUB_SERVER_URL/$GITHUB_REPOSITORY/actions/runs/$GITHUB_RUN_ID"
           git push origin HEAD:refs/heads/curriculum-archive
           echo "Encrypted curriculum archive updated; restore drill passed." >> "$GITHUB_STEP_SUMMARY"
+
+  inventory:
+    name: Recovery inventory (read-only)
+    needs: test
+    if: github.event_name == 'workflow_dispatch' && inputs.mode == 'inventory' && github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    permissions:
+      contents: read
+    env:
+      CURRICULUM_ARCHIVE_ENCRYPTION_KEY: ${{ secrets.CURRICULUM_ARCHIVE_ENCRYPTION_KEY }}
+      BLOG_ARCHIVE_ENCRYPTION_KEY: ${{ secrets.BLOG_ARCHIVE_ENCRYPTION_KEY }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Read the latest encrypted archive and list recovery candidates
+        run: |
+          set -euo pipefail
+          git fetch --no-tags --depth=1 origin curriculum-archive
+          git worktree add archive FETCH_HEAD
+          node scripts/curriculum/archive/archive-cli.mjs inventory --archive archive > inventory.json
+          grep '^::' inventory.json || true
