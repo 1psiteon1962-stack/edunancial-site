@@ -1,0 +1,44 @@
+name: Neon production schema inventory (read-only)
+
+# Lists production table names and row counts only (no row data) so agents can
+# verify which migrations are applied without credentials or writes.
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  inventory:
+    runs-on: ubuntu-latest
+    environment: production
+    timeout-minutes: 10
+    env:
+      DATABASE_URL: ${{ secrets.DATABASE_URL }}
+    steps:
+      - name: Require production database URL
+        shell: bash
+        run: |
+          set -euo pipefail
+          test -n "${DATABASE_URL:-}" || { echo "::error::DATABASE_URL is not configured in the production environment."; exit 1; }
+          echo "::add-mask::$DATABASE_URL"
+      - name: Install PostgreSQL client
+        run: sudo apt-get update -qq && sudo apt-get install -y -qq postgresql-client
+      - name: List tables and row counts (read-only transaction)
+        shell: bash
+        run: |
+          set -euo pipefail
+          out=$(psql "$DATABASE_URL" -X -v ON_ERROR_STOP=1 -At -F ' ' <<'SQL'
+          begin transaction read only;
+          select t.table_name,
+                 (xpath('/row/c/text()', query_to_xml(format('select count(*) as c from public.%I', t.table_name), false, true, '')))[1]::text
+          from information_schema.tables t
+          where t.table_schema = 'public' and t.table_type = 'BASE TABLE'
+          order by t.table_name;
+          rollback;
+          SQL
+          )
+          echo "$out"
+          n=$(printf '%s\n' "$out" | grep -c . || true)
+          body=$(printf '%s\n' "tables: $n" "$out" | sed 's/%/%25/g' | awk 'BEGIN{ORS="%0A"}{print}')
+          echo "::notice title=Neon production tables (name rows)::$body"

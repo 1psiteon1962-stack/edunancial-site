@@ -40,3 +40,13 @@ export async function scheduleMarketingPublication(publicationId:string,schedule
  await sql`insert into marketing_publish_events(publication_id,event_type,detail) values(${publicationId},'scheduled',${JSON.stringify({actor,scheduledFor:when.toISOString()})}::jsonb)`;
  return {id:publicationId,status:"scheduled" as const,scheduledFor:when.toISOString()};
 }
+
+/** Owner rejection: removes a publication from the pipeline. It can never publish afterwards. */
+export async function cancelMarketingPublication(publicationId:string,actor:string){
+ const sql=getNeonSql(); if(!sql) throw new Error("Marketing control plane requires a database connection.");
+ const rows=await sql`update marketing_publications set status='cancelled',updated_at=now()
+   where id=${publicationId} and status in ('review','approved','scheduled','failed') returning id`;
+ if(rows.length!==1) throw new Error("Publication cannot be rejected in its current state.");
+ await sql`insert into marketing_publish_events(publication_id,event_type,detail) values(${publicationId},'cancelled',${JSON.stringify({actor})}::jsonb)`;
+ return {id:publicationId,status:"cancelled" as const};
+}
