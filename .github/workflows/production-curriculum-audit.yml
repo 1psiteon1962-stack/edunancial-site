@@ -104,13 +104,15 @@ jobs:
           set -uo pipefail
           for i in $(seq 1 60); do
             # Fresh short-lived OIDC token per probe; never echoed.
+            # GitHub's default shell is "bash -e": a single transient HTTP error must not end
+            # the wait (previous runs died with curl exit 22 mid-deploy). Retry instead.
             token=$(curl --connect-timeout 5 --max-time 15 --retry 0 -sSf -H "Authorization: Bearer $ACTIONS_ID_TOKEN_REQUEST_TOKEN" \
-              --get --data-urlencode "audience=$OIDC_AUDIENCE" "$ACTIONS_ID_TOKEN_REQUEST_URL" | jq -r '.value // empty')
-            if [ -z "$token" ]; then echo "::error::Could not obtain a GitHub OIDC token (id-token: write required)."; exit 1; fi
+              --get --data-urlencode "audience=$OIDC_AUDIENCE" "$ACTIONS_ID_TOKEN_REQUEST_URL" | jq -r '.value // empty' || true)
+            if [ -z "$token" ]; then echo "OIDC token request failed; retrying"; sleep 30; continue; fi
             echo "::add-mask::$token"
             live=$(curl --connect-timeout 5 --max-time 20 --retry 0 -sSf "https://edunancial.com/api/admin/curriculum/production-audit?tracks=RED&levels=1&locales=en-US" \
               -H "Authorization: Bearer $token" -H "X-GitHub-Run-Id: $RUN_ID" \
-              | node -e 'let s="";process.stdin.on("data",d=>s+=d).on("end",()=>{try{console.log(JSON.parse(s).meta.deployCommit??"")}catch{console.log("")}})')
+              | node -e 'let s="";process.stdin.on("data",d=>s+=d).on("end",()=>{try{console.log(JSON.parse(s).meta.deployCommit??"")}catch{console.log("")}})' || true)
             if [ "$live" = "$EXPECTED_SHA" ]; then echo "deploy live"; exit 0; fi
             echo "waiting for deploy ($live)"; sleep 30
           done
