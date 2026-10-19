@@ -1,6 +1,6 @@
 import { NextRequest } from "next/server";
 import { GITHUB_RUNNER_WORKFLOWS, authorizeGithubActionsRun } from "@/lib/admin-content/github-actions-runner-auth";
-import { listOpenGithubExportReceipts, listPendingGithubExportReceipts, recordGithubExport, recordGithubExportMerged } from "@/lib/admin-content/upload-receipts";
+import { listOpenGithubExportReceipts, listPendingGithubExportReceipts, recordGithubExport, recordGithubExportClosed, recordGithubExportMerged } from "@/lib/admin-content/upload-receipts";
 import { getPullRequestMergeStatus, pullRequestNumberFromUrl } from "@/lib/admin-content/github";
 import { exportBatchToGithub } from "@/lib/admin-content/service";
 
@@ -13,16 +13,18 @@ export async function POST(request:NextRequest){
  // Q4 ledger: confirm merged export PRs before exporting more. Best effort and
  // bounded; a GitHub read failure never blocks the export queue.
  let reconciledMerged=0;
+ let reconciledClosed=0;
  try{
-  for(const open of await listOpenGithubExportReceipts(10)){
+  for(const open of await listOpenGithubExportReceipts(50)){
    const number=pullRequestNumberFromUrl(open.githubExport.pullRequestUrl);
    if(!number)continue;
    const status=await getPullRequestMergeStatus(number);
-   if(status.merged&&await recordGithubExportMerged(open.uploadId,status.mergeCommitSha))reconciledMerged+=1;
+   if(status.merged){ if(await recordGithubExportMerged(open.uploadId,status.mergeCommitSha))reconciledMerged+=1; }
+   else if(status.state==="closed"){ if(await recordGithubExportClosed(open.uploadId))reconciledClosed+=1; }
   }
  }catch(error){console.warn("[github-export-next] merged-export reconciliation skipped",error);}
  const [receipt]=await listPendingGithubExportReceipts(1);
- if(!receipt)return Response.json({success:true,done:true,reconciledMerged},{headers:{"Cache-Control":"private, no-store"}});
+ if(!receipt)return Response.json({success:true,done:true,reconciledMerged,reconciledClosed},{headers:{"Cache-Control":"private, no-store"}});
  if(!receipt.reviewBatchId){
   await recordGithubExport(receipt.uploadId,{ok:false,error:"Published receipt has no review batch ID."});
   return Response.json({success:false,done:false,uploadId:receipt.uploadId,error:"Published receipt has no review batch ID."},{status:422});

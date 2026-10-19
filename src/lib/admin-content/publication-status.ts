@@ -25,6 +25,7 @@ export function summarizePublicationStatus(receipt: UploadReceipt | null | undef
     : gitExport === "OPEN" ? "Git export PR open"
     : gitExport === "PENDING" ? "Git export pending"
     : gitExport === "FAILED" ? "Git export failed (will retry)"
+    : gitExport === "CLOSED" ? "Git export PR closed without merge"
     : "Git export not required";
   const label = live ? `Live · ${git}` : receipt.state === "FAILED" ? "Not live: publication failed" : `Not live yet (${receipt.state})`;
   return { live, inGit, receiptState: receipt.state, gitExport, pullRequestUrl: receipt.githubExport?.pullRequestUrl ?? null, label };

@@ -8,7 +8,7 @@ export type UploadReceipt={
  state:UploadReceiptState;attempts:number;startedAt:string|null;publishedAt:string|null;updatedAt:string;
  reviewBatchId:string|null;retryable:boolean;lastError:string|null;recoveredWithoutReupload:boolean;
  verification:{learnerVisible:boolean;detail:string;checkedLessons?:number;checkedAt?:string}|null;
- githubExport:{state:"NOT_REQUIRED"|"PENDING"|"OPEN"|"MERGED"|"FAILED";attempts:number;branch:string|null;pullRequestUrl:string|null;lastError:string|null;mergeCommitSha?:string|null;mergedAt?:string|null};
+ githubExport:{state:"NOT_REQUIRED"|"PENDING"|"OPEN"|"MERGED"|"CLOSED"|"FAILED";attempts:number;branch:string|null;pullRequestUrl:string|null;lastError:string|null;mergeCommitSha?:string|null;mergedAt?:string|null};
 };
 const pathFor=(id:string)=>`receipts/${id}.json`;
 export async function getUploadReceipt(uploadId:string):Promise<UploadReceipt|null>{const raw=await getAdminContentStorage().readBinary(pathFor(uploadId));if(!raw)return null;try{return JSON.parse(raw.toString("utf8")) as UploadReceipt;}catch{return null;}}
@@ -68,12 +68,15 @@ export async function listPendingGithubExportReceipts(limit=40):Promise<UploadRe
  return receipts.slice(0,Math.max(1,Math.min(limit,100)));
 }
 /** Q4 ledger: published uploads whose export PR is open and not yet confirmed merged. */
-export async function listOpenGithubExportReceipts(limit=10):Promise<UploadReceipt[]>{
+export async function listOpenGithubExportReceipts(limit=50):Promise<UploadReceipt[]>{
+ // Newest first, so long-lived OPEN receipts can never starve fresh exports.
  return (await readAllUploadReceipts())
   .filter((receipt)=>receipt.state==="PUBLISHED"&&receipt.githubExport.state==="OPEN"&&Boolean(receipt.githubExport.pullRequestUrl))
-  .sort((a,b)=>a.updatedAt.localeCompare(b.updatedAt))
-  .slice(0,Math.max(1,Math.min(limit,50)));
+  .sort((a,b)=>b.updatedAt.localeCompare(a.updatedAt))
+  .slice(0,Math.max(1,Math.min(limit,100)));
 }
+/** Q4 ledger: an export PR closed without merge is terminal (not retried); its content reached main another way or was rejected by a reviewer. */
+export async function recordGithubExportClosed(uploadId:string){return updateJsonCas<UploadReceipt>(pathFor(uploadId),(current)=>current&&current.githubExport.state==="OPEN"?{...current,updatedAt:new Date().toISOString(),githubExport:{...current.githubExport,state:"CLOSED",lastError:"Export pull request was closed without merging."}}:null,"Record closed Git export");}
 /** Q4 ledger: STORED -> PUBLISHED -> export OPEN -> MERGED. Only an OPEN export can become MERGED. */
 export async function recordGithubExportMerged(uploadId:string,mergeCommitSha:string|null){return updateJsonCas<UploadReceipt>(pathFor(uploadId),(current)=>current&&current.githubExport.state==="OPEN"?{...current,updatedAt:new Date().toISOString(),githubExport:{...current.githubExport,state:"MERGED",lastError:null,mergeCommitSha,mergedAt:new Date().toISOString()}}:null,"Record merged Git export");}
 export function uploadIdFromStoragePath(storagePath:string){return storagePath.match(/\/(upload_[0-9a-f-]+)-/iu)?.[1]??null;}
