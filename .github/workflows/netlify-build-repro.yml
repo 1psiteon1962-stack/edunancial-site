@@ -1,0 +1,48 @@
+name: Netlify build reproduction (diagnostic)
+
+# Runs the same Netlify build (Next.js runtime plugin included) offline on any
+# ref, so build failures that only appear on Netlify can be read as annotations.
+on:
+  workflow_dispatch:
+    inputs:
+      ref:
+        description: Branch or SHA to build
+        required: true
+        type: string
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ inputs.ref }}
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci --no-audit --no-fund
+      - name: netlify build --offline
+        id: build
+        shell: bash
+        run: |
+          set -o pipefail
+          npx --yes netlify-cli@17 build --offline 2>&1 | tee build.log
+      - name: Function sizes
+        if: always()
+        shell: bash
+        run: |
+          du -sh .netlify/functions-internal/* .netlify/functions/* 2>/dev/null | sort -h | tail -15 | tee sizes.txt || true
+          du -sh .next/standalone 2>/dev/null | tee -a sizes.txt || true
+          body=$(cat sizes.txt | sed 's/%/%25/g' | awk 'BEGIN{ORS="%0A"}{print}')
+          echo "::notice title=Function sizes::$body"
+      - name: Report failure tail
+        if: failure()
+        shell: bash
+        run: |
+          body=$(grep -v '^\s*$' build.log | tail -60 | cut -c1-300 | sed 's/%/%25/g' | awk 'BEGIN{ORS="%0A"}{print}')
+          echo "::error title=Netlify build failed (last 60 lines)::$body"
