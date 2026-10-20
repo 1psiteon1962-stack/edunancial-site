@@ -434,7 +434,9 @@ export async function createIndependentUploadBatchFromStoredFiles(
     batch.files = batch.files.map((file) => {
       const conflictStatus = detectConflicts(
         file,
-        existingFiles.filter((candidate) => candidate.batchId !== batchId),
+        // Earlier failed finalize attempts of the SAME stored upload are not
+        // duplicates; counting them made every recovery retry fail validation.
+        existingFiles.filter((candidate) => candidate.batchId !== batchId && candidate.uploadId !== file.uploadId),
       );
       return {
         ...file,
