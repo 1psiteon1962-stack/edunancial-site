@@ -20,7 +20,7 @@ By the end of this lesson, the learner will be able to:
 - Identify common causes of this mismatch.
 
 **2. Core Content**
-Profit is the difference between total revenue and total expenses over a period, an accounting measure that does not necessarily reflect when cash actually moves in and out of a business. Cash flow refers to the actual timing of cash moving in and out — a business can be profitable on paper (having earned more than it spent) while simultaneously running out of actual cash to pay its bills, if the timing of收入 and expenses does not align.
+Profit is the difference between total revenue and total expenses over a period, an accounting measure that does not necessarily reflect when cash actually moves in and out of a business. Cash flow refers to the actual timing of cash moving in and out — a business can be profitable on paper (having earned more than it spent) while simultaneously running out of actual cash to pay its bills, if the timing of income and expenses does not align.
 
 Common causes of this mismatch include slow-paying customers (revenue is "earned" and recorded, but the cash has not actually arrived yet), large upfront inventory purchases (cash goes out well before the resulting sales bring cash back in), and rapid growth itself (a growing business often needs to spend more on inventory, staff, or equipment before the increased revenue from that growth actually arrives). This is one of the most common and financially fatal misunderstandings among new business owners, echoing the RED-track cash flow discussion (RED-L2-006) but specific to the unique timing patterns of operating a business.
 
