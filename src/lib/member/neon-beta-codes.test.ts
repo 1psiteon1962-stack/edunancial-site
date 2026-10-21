@@ -78,22 +78,22 @@ test("storing hashes: fails unless every hash was persisted", async () => {
   await assert.rejects(storeBetaCodeHashes(short.sql, ["a", "b"]), /Only 1 of 2/);
 });
 
-test("redemption is one conditional UPDATE: unredeemed + unrevoked, 2160 hours from one statement timestamp", async () => {
+test("redemption is one conditional UPDATE: unredeemed + unrevoked, 720 hours from one statement timestamp", async () => {
   const { sql, calls } = fakeSql([[{ id: 7, redeemed_at: "2026-10-18T00:00:00Z", expires_at: "2027-01-16T00:00:00Z" }]]);
   const result = await redeemBetaCode(sql, "hash", "user-1");
   assert.deepEqual(result, { outcome: "redeemed", codeId: 7, redeemedAt: "2026-10-18T00:00:00.000Z", expiresAt: "2027-01-16T00:00:00.000Z" });
   const text = calls[0]!.text;
   assert.match(text, /^update beta_invite_codes/);
   assert.match(text, /redeemed_at = statement_timestamp\(\)/);
-  assert.match(text, /expires_at = statement_timestamp\(\) \+ interval '2160 hours'/);
+  assert.match(text, /expires_at = statement_timestamp\(\) \+ interval '720 hours'/);
   assert.match(text, /where code_hash = \$\? and redeemed_at is null and revoked_at is null/);
   assert.doesNotMatch(text, /clock_timestamp|now\(\)/);
   assert.deepEqual(calls[0]!.values, ["user-1", "hash"]);
   assert.equal(calls.length, 1, "no read-then-write race window");
 });
 
-test("2160 hours is exactly 90 days", () => {
-  assert.equal(2160 * 3600, 7_776_000);
+test("720 hours is exactly 30 days", () => {
+  assert.equal(720 * 3600, 2_592_000);
   assert.equal(7_776_000 / 86_400, 90);
 });
 

@@ -50,7 +50,7 @@ export async function POST(request: Request) {
   const summary = await getBetaCodeSummary(sql);
   return NextResponse.json({
     count: batch.length,
-    durationDays: 90,
+    durationDays: 30,
     clockStarts: "at successful redemption",
     warning: "Copy these codes now. Only their hashes are stored; they cannot be shown again.",
     codes: batch.map((b) => b.code),
