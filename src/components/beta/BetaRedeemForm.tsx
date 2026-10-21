@@ -56,7 +56,7 @@ export default function BetaRedeemForm() {
       <div className="rounded-2xl border border-slate-700 bg-slate-900/60 p-10">
         <p className="text-center text-sm font-semibold uppercase tracking-[0.35em] text-yellow-400">Alpha / Beta Testers</p>
         <h1 className="mt-4 text-center text-3xl font-bold">Redeem your access code</h1>
-        <p className="mt-3 text-center text-slate-400">90 days of full access to all eight tracks, Levels 1–5, and every published language. No credit card. No subscription. Nothing is charged when it ends.</p>
+        <p className="mt-3 text-center text-slate-400">30 days of full access to all eight tracks, Levels 1–5, and every published language. No credit card. No subscription. Nothing is charged when it ends.</p>
 
         {!user ? (
           <div className="mt-8 space-y-4">
@@ -77,7 +77,7 @@ export default function BetaRedeemForm() {
               <input type="checkbox" checked={agree} onChange={(e) => setAgree(e.target.checked)} className="mt-0.5" />
               <span>I accept the <Link href="/beta-terms" className="text-blue-400 underline">Beta Terms</Link> and have read the <Link href="/privacy" className="text-blue-400 underline">Privacy Notice</Link>. Feedback is optional and does not require sharing income, balances, or debts.</span>
             </label>
-            <button type="submit" disabled={loading} className="w-full rounded-xl bg-yellow-500 py-3 font-bold text-slate-950 disabled:opacity-60">{loading ? "Activating…" : "Activate 90-day access"}</button>
+            <button type="submit" disabled={loading} className="w-full rounded-xl bg-yellow-500 py-3 font-bold text-slate-950 disabled:opacity-60">{loading ? "Activating…" : "Activate 30-day access"}</button>
           </form>
         )}
       </div>

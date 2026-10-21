@@ -10,7 +10,7 @@ import { createHash, randomBytes } from "node:crypto";
  *   digest cannot be reversed or brute-forced, so no extra secret is required.
  * - Redemption is ONE conditional UPDATE: the row is claimed only if it is unredeemed
  *   and unrevoked, so two simultaneous redeemers cannot both win. UNIQUE(redeemed_by)
- *   stops one account from consuming two codes. The 90-day clock (2160 hours) starts at
+ *   stops one account from consuming two codes. The 30-day clock (720 hours) starts at
  *   redemption, using a single statement_timestamp() for both timestamps.
  * - The account id always comes from the server-verified session, never from request JSON.
  */
@@ -19,7 +19,7 @@ export const BETA_CODE_GROUPS = 4;
 export const BETA_CODE_GROUP_LENGTH = 8;
 export const BETA_CODE_SYMBOLS = BETA_CODE_GROUPS * BETA_CODE_GROUP_LENGTH;
 export const BETA_CODE_PREFIX = "EDU";
-export const BETA_DURATION_HOURS = 2160; // exactly 90 days
+export const BETA_DURATION_HOURS = 720; // exactly 30 days (owner decision 2026-10-20)
 export const BETA_MAX_BATCH = 50;
 
 /** Minimal shape of the Neon tagged-template client (also satisfied by test fakes). */
@@ -93,7 +93,7 @@ export async function redeemBetaCode(sql: SqlClient, codeHash: string, verifiedU
       update beta_invite_codes
       set redeemed_by = ${verifiedUserId},
           redeemed_at = statement_timestamp(),
-          expires_at = statement_timestamp() + interval '2160 hours'
+          expires_at = statement_timestamp() + interval '720 hours'
       where code_hash = ${codeHash}
         and redeemed_at is null
         and revoked_at is null

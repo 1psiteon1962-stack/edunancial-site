@@ -10,7 +10,7 @@ export interface PersistentBetaAccess {
   expiresAt: string | null;
   generation: number;
   reissueCount: number;
-  source?: "neon" | "legacy";
+  source?: "neon" | "legacy" | "owner";
 }
 
 type LegacyLookup = (user: User) => Promise<PersistentBetaAccess | null>;
@@ -45,6 +45,34 @@ const legacyLookup: LegacyLookup = async (user) => {
   }
 };
 
+function normalizedEmail(value: string | null | undefined): string {
+  return String(value ?? "").trim().toLowerCase();
+}
+
+/**
+ * Permanent full access (all tracks, Levels 1-5, all languages) for the owner's own
+ * member accounts: the configured owner and admin emails. Requires an email address the
+ * auth provider has confirmed, so an unverified sign-up using the owner's address gets
+ * nothing. Membership cookies stay bounded (24h) and are re-derived from this check.
+ */
+export function ownerMemberAccess(
+  user: Pick<User, "email" | "email_confirmed_at">,
+  env: Record<string, string | undefined> = process.env,
+): PersistentBetaAccess | null {
+  const email = normalizedEmail(user.email);
+  if (!email || !user.email_confirmed_at) return null;
+  const ownerEmails = [env.EDUNANCIAL_OWNER_EMAIL, env.EDUNANCIAL_ADMIN_EMAIL].map(normalizedEmail).filter(Boolean);
+  if (!ownerEmails.includes(email)) return null;
+  return {
+    status: "active",
+    firstUsedAt: null,
+    expiresAt: "2099-12-31T23:59:59.000Z",
+    generation: 1,
+    reissueCount: 0,
+    source: "owner",
+  };
+}
+
 /**
  * Authoritative beta entitlement: the Neon beta_invite_codes row redeemed by this
  * server-verified account. Active/expired/revoked is decided by the database clock.
@@ -53,6 +81,8 @@ export async function activateAndGetBetaAccess(
   user: User,
   deps: { neon?: SqlClient | null; legacy?: LegacyLookup } = {},
 ): Promise<PersistentBetaAccess | null> {
+  const owner = ownerMemberAccess(user);
+  if (owner) return owner;
   const sql = deps.neon !== undefined ? deps.neon : (getNeonSql() as unknown as SqlClient | null);
   if (sql) {
     try {

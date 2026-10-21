@@ -10,7 +10,7 @@ export const dynamic = "force-dynamic";
 const NO_STORE = { "Cache-Control": "no-store, max-age=0" };
 
 /**
- * Redeem a single-use alpha/beta code for 90 days of Gold-equivalent educational access.
+ * Redeem a single-use alpha/beta code for 30 days of Gold-equivalent educational access.
  * No payment details, no subscription, nothing charged. The account is ALWAYS the
  * server-verified session user; any account field in the request body is ignored.
  */
@@ -62,7 +62,7 @@ export async function POST(request: Request) {
     return null;
   });
   const response = NextResponse.json(
-    { ok: true, message: "Beta access activated: all eight tracks, Levels 1–5 and every language for 90 days. No payment, nothing charged.", expiresAt: result.expiresAt },
+    { ok: true, message: "Beta access activated: all eight tracks, Levels 1–5 and every language for 30 days. No payment, nothing charged.", expiresAt: result.expiresAt },
     { headers: NO_STORE },
   );
   if (session?.user) applyMembershipCookie(response, session.user.membershipTier, result.expiresAt);

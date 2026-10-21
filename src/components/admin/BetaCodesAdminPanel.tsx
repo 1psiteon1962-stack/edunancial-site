@@ -77,7 +77,7 @@ export default function BetaCodesAdminPanel() {
   return (
     <section className="mx-auto mt-10 max-w-5xl rounded-2xl border border-yellow-600/40 bg-slate-900/60 p-6">
       <h2 className="text-2xl font-bold">Alpha/Beta Access Codes</h2>
-      <p className="mt-1 text-sm text-slate-400">Each code: one redemption, 90 days of Gold-equivalent access (all 8 tracks, Levels 1–5, all languages). The clock starts at redemption. No payment, no subscription.</p>
+      <p className="mt-1 text-sm text-slate-400">Each code: one redemption, 30 days of Gold-equivalent access (all 8 tracks, Levels 1–5, all languages). The clock starts at redemption. No payment, no subscription.</p>
 
       {summary && (
         <div className="mt-4 grid grid-cols-2 gap-3 text-center sm:grid-cols-5">
