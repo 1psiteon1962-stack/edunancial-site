@@ -7,6 +7,7 @@ export default function LoginForm() {
   const router = useRouter();
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
+  const [showPassword, setShowPassword] = useState(false);
   const [error, setError] = useState("");
   const [submitting, setSubmitting] = useState(false);
 
@@ -37,7 +38,10 @@ export default function LoginForm() {
       </label>
       <label className="grid gap-2 text-sm font-semibold text-slate-200">
         Password
-        <input value={password} onChange={(event) => setPassword(event.target.value)} type="password" required className="rounded-xl border border-white/10 bg-[#08101f] px-4 py-3 text-white" />
+        <span className="relative block">
+          <input value={password} onChange={(event) => setPassword(event.target.value)} type={showPassword ? "text" : "password"} required autoComplete="current-password" className="w-full rounded-xl border border-white/10 bg-[#08101f] px-4 py-3 pr-20 text-white" />
+          <button type="button" onClick={() => setShowPassword((visible) => !visible)} aria-label={showPassword ? "Hide password" : "Show password"} aria-pressed={showPassword} className="absolute inset-y-0 right-3 text-sm font-semibold text-blue-200 hover:text-white">{showPassword ? "Hide" : "Show"}</button>
+        </span>
       </label>
       {error ? <p className="rounded-xl border border-red-500/30 bg-red-500/10 px-4 py-3 text-sm text-red-200">{error}</p> : null}
       <button disabled={submitting} className="rounded-xl bg-blue-600 px-5 py-3 font-semibold text-white hover:bg-blue-500 disabled:opacity-60">
