@@ -4,123 +4,58 @@ track: BLACK
 officialTrackName: "Leadership & Executive Management"
 level: 1
 lessonNumber: 37
-locale: es-Caribbean
-title: "Aplicar el pensamiento de retorno sobre la inversión al liderazgo"
-summary: "Esta lección desarrolla la capacidad de comparar costes, beneficios, riesgos y horizonte temporal de una decisión, conectando liderazgo, ejecución, riesgo y responsabilidad financiera."
+title: "Pensar en el rendimiento de la inversión (ROI) aplicado a las decisiones de liderazgo"
+summary: "Enseña a los líderes a evaluar las decisiones con la lente del rendimiento de la inversión, más allá del gasto financiero."
 version: "1.0"
 author: "Waldemar M. Caban, JD MA"
-date: "2026-09-01"
+date: "2026-08-09"
+locale: "es-Caribbean"
 ---
-
-# 37. Aplicar el pensamiento de retorno sobre la inversión al liderazgo
+<!-- Learning Objectives -->
+# Pensar en el rendimiento de la inversión (ROI) aplicado a las decisiones de liderazgo
 
 ## Objetivos de aprendizaje
+<!-- Core Content -->
 
-Al terminar esta lección, el alumno podrá:
+- Definir el pensamiento de rendimiento de la inversión en términos sencillos
+- Aplicar el pensamiento de rendimiento de la inversión a decisiones de liderazgo no financieras
+- Practicar cómo evaluar una decisión de liderazgo con la lente del rendimiento de la inversión
 
-1. Explicar por qué es importante comparar costes, beneficios, riesgos y horizonte temporal de una decisión.
-2. Separar hechos, supuestos, emociones y riesgos antes de decidir.
-3. Comparar al menos dos alternativas usando criterios observables.
-4. Asignar responsable, plazo, indicador y fecha de revisión.
-5. Relacionar la decisión con tiempo, coste, caja, productividad y confianza.
+## Contenido principal
 
-## Concepto principal
+El ROI, o rendimiento de la inversión (en inglés, *return on investment*), normalmente se discute en términos financieros: cuánto rendimiento genera un dólar gastado. Pero la lógica de fondo —sopesar lo que usted pone frente a lo que probablemente recibirá a cambio— se aplica con la misma utilidad a decisiones de liderazgo no financieras, como dónde invertir el tiempo, la atención o la energía de la organización.
 
-[HECHO VERIFICABLE] El liderazgo se observa en decisiones y conductas, no solamente en títulos o intenciones. Para comparar costes, beneficios, riesgos y horizonte temporal de una decisión, la persona responsable debe definir primero el resultado deseado y la evidencia que demostraría progreso. Después debe identificar a quién afecta la decisión, qué recursos consume y qué riesgo crea actuar o esperar.
+Aplicar el pensamiento de rendimiento de la inversión al liderazgo significa preguntarse, ante cualquier inversión importante de tiempo o energía: ¿cuál es el rendimiento esperado aquí, y es proporcional a lo que se está invirtiendo? Un líder que pasa horas perfeccionando un documento interno de poca importancia está invirtiendo tiempo con un rendimiento esperado muy bajo, mientras que esas mismas horas dedicadas a atender un verdadero cuello de botella que está frenando a todo el equipo tendrían un rendimiento mucho mayor.
 
-Una decisión disciplinada responde cinco preguntas: ¿qué resultado buscamos?, ¿qué hechos conocemos?, ¿qué estamos suponiendo?, ¿quién tiene autoridad y responsabilidad?, y ¿cuándo revisaremos el resultado? Este proceso no elimina la incertidumbre, pero evita que la urgencia, el orgullo o la costumbre sustituyan el criterio.
+No se trata de reducir cada decisión a un cálculo frío: algunas inversiones (como construir relaciones o la cultura del equipo) tienen rendimientos reales, pero más difíciles de cuantificar. Se trata de mantenerse consciente de la proporcionalidad: ajustar el tamaño de una inversión de tiempo y energía al valor esperado real del resultado, en lugar de dedicar un esfuerzo desproporcionado a actividades de poco valor por costumbre o para evitar una prioridad más difícil.
 
-## Aplicación práctica
+## Ejemplo práctico
 
-El líder debe convertir el tema en una acción observable. En este caso, la acción central es **comparar costes, beneficios, riesgos y horizonte temporal de una decisión**. Para hacerlo bien:
+Una líder pasa toda una tarde perfeccionando el formato de un memorando interno que solo unas pocas personas leerán una vez, mientras un verdadero cuello de botella continuo en el proceso de despacho de pedidos le sigue costando al negocio dinero real y la satisfacción de los clientes. Aplicar el pensamiento de rendimiento de la inversión redirigiría esa tarde hacia el cuello de botella del despacho: un rendimiento esperado mucho mayor por la misma cantidad de tiempo y energía invertidos.
 
-- Define el problema sin culpar a una persona.
-- Establece un resultado concreto y un plazo razonable.
-- Reúne datos proporcionales al riesgo de la decisión.
-- Calcula el coste de actuar, esperar y equivocarse.
-- Elige una alternativa reversible cuando la incertidumbre sea alta.
-- Comunica quién decide, quién ejecuta y quién debe ser informado.
-- Programa una revisión y corrige el método si la evidencia lo exige.
+## Prueba práctica
 
-## Ejemplo desarrollado
+1. Defina el pensamiento de rendimiento de la inversión con sus propias palabras, más allá de su definición puramente financiera.
+2. ¿Qué pregunta hace el pensamiento de rendimiento de la inversión sobre una inversión de tiempo o energía?
+3. ¿Significa el pensamiento de rendimiento de la inversión reducir cada decisión a un cálculo frío?
+4. En el ejemplo práctico, ¿qué redistribución sugeriría el pensamiento de rendimiento de la inversión?
 
-Una pequeña empresa tiene ocho empleados y detecta un problema relacionado con **comparar costes, beneficios, riesgos y horizonte temporal de una decisión**. Durante dos meses se han repetido conversaciones, pero nadie ha definido una medida de éxito. El retraso consume unas 20 horas de trabajo al mes y genera errores que cuestan aproximadamente 1.200 €. La responsable fija un resultado a 30 días, recoge tres datos, compara dos alternativas y asigna un único responsable. Cada semana revisa un indicador y documenta lo aprendido.
+## Clave de respuestas
 
-El valor del proceso no está en acertar perfectamente desde el primer día. Está en crear una decisión explicable, medible y corregible antes de que el problema se convierta en una costumbre costosa.
+1. Sopesar lo que se invierte frente al rendimiento esperado, aplicado de forma amplia al tiempo y a la energía, no solo al dinero.
+2. ¿Cuál es el rendimiento esperado aquí, y es proporcional a lo que se está invirtiendo?
+3. No: algunas inversiones tienen rendimientos reales, pero más difíciles de cuantificar, como construir relaciones o la cultura.
+4. Redirigir la tarde del formato del memorando hacia el cuello de botella del despacho, que tiene más valor.
 
-## Escenario de decisión
+## Respuestas y explicaciones
 
-Tu equipo no alcanza un objetivo importante. Una opción exige invertir 900 € en formación; otra requiere rediseñar el proceso durante 30 horas; una tercera mantiene el sistema actual y acepta el coste de los errores. No existe certeza sobre cuál funcionará mejor.
-
-**¿Qué harías?** Define el resultado, los datos que solicitarías, el riesgo máximo aceptable, la persona responsable y la evidencia que revisarías dentro de 30 días. Etiqueta claramente cualquier supuesto.
-
-## Errores comunes
-
-- Actuar antes de definir el resultado.
-- Confundir actividad con avance.
-- Defender una decisión porque ya se invirtió tiempo o dinero.
-- Delegar una tarea sin autoridad, recursos o seguimiento.
-- Ocultar malas noticias para evitar una conversación incómoda.
-- Usar una cifra sin explicar su fuente o supuesto.
-- Mantener el mismo método aunque la evidencia muestre que no funciona.
-
-## Herramienta de aplicación
-
-Completa esta ficha:
-
-- **Resultado deseado:**
-- **Cinco hechos comprobables:**
-- **Tres supuestos:**
-- **Dos alternativas:**
-- **Coste de cada alternativa:**
-- **Riesgo principal:**
-- **Responsable:**
-- **Indicador:**
-- **Fecha de revisión:**
-- **Evidencia que justificaría cambiar de método:**
-
-## Evaluación de competencia
-
-1. ¿Cuál debe ser el primer paso? A) Actuar de inmediato. B) Definir resultado y criterios. C) Esperar certeza. D) Evitar responsable.
-2. Explica la diferencia entre un hecho y un supuesto en este tema.
-3. Identifica un coste de esperar que normalmente no aparece en una factura.
-4. Propón un indicador que pueda revisarse semanalmente.
-5. Describe una alternativa reversible.
-6. Explica quién necesita autoridad para ejecutar.
-7. Identifica una consecuencia financiera posible.
-8. Explica qué evidencia te haría cambiar de método.
-9. Indica cómo comunicarías la decisión a las personas afectadas.
-10. Redacta una decisión completa con responsable, plazo e indicador.
-
-**Criterio de dominio:** 8 de 10 respuestas satisfactorias. Por debajo del 80 %, el alumno revisará el concepto fallado, resolverá un escenario nuevo y repetirá la comprobación.
-
-## Respuestas orientativas
-
-1. B: definir resultado y criterios antes de elegir una solución.
-2. Un hecho puede comprobarse; un supuesto debe declararse y probarse.
-3. Tiempo improductivo, pérdida de confianza, rotación o una oportunidad perdida.
-4. Una medida frecuente vinculada directamente al resultado.
-5. Una prueba limitada que pueda detenerse sin comprometer recursos excesivos.
-6. La persona responsable del resultado necesita autoridad proporcional.
-7. Puede afectar coste, ingresos, margen, caja, productividad o riesgo.
-8. Un indicador que contradiga el supuesto central o muestre daño inaceptable.
-9. Con hechos, propósito, efecto esperado, responsabilidades y canal de preguntas.
-10. Debe incluir resultado, acción, responsable, plazo, indicador y revisión.
+1. Esto amplía el concepto financiero tradicional del rendimiento de la inversión a la toma de decisiones de liderazgo en general.
+2. Esta pregunta pone en práctica el pensamiento de rendimiento de la inversión como una herramienta de liderazgo.
+3. La lección evita de forma explícita reducir todas las decisiones a un cálculo puramente cuantitativo.
+4. Este ejemplo aplica directamente el principio de proporcionalidad a un escenario de liderazgo específico.
 
 ## Puntos clave
 
-- Liderar significa convertir intención en una decisión observable.
-- Las personas, las operaciones y las finanzas están conectadas.
-- Una buena decisión declara sus supuestos y límites.
-- Toda acción importante necesita responsable, indicador y revisión.
-- Cambiar el método ante nueva evidencia es disciplina, no debilidad.
-
-## Ruta de aprendizaje
-
-- **Anterior:** BLACK-L1-036
-- **Actual:** BLACK-L1-037
-- **Siguiente:** BLACK-L1-038
-
-## Localización — España
-
-Contenido creado en español de España. Cuando una decisión dependa de legislación, fiscalidad, contabilidad o relaciones laborales, debe verificarse la normativa vigente y la situación concreta antes de actuar.
+- El pensamiento de rendimiento de la inversión se aplica más allá de las finanzas: a cualquier inversión de tiempo, atención o energía de la organización.
+- La pregunta central es si el rendimiento esperado de una inversión es proporcional a lo que se pone.
+- Mantenerse consciente de la proporcionalidad evita dedicar un esfuerzo desproporcionado a actividades de poco valor a costa de prioridades de más valor.

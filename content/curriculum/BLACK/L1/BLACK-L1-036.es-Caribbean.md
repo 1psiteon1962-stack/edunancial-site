@@ -4,123 +4,58 @@ track: BLACK
 officialTrackName: "Leadership & Executive Management"
 level: 1
 lessonNumber: 36
-locale: es-Caribbean
-title: "El coste de una mala contratación"
-summary: "Esta lección desarrolla la capacidad de evaluar salario, formación, errores, rotación y oportunidades perdidas, conectando liderazgo, ejecución, riesgo y responsabilidad financiera."
+title: "El costo de una mala contratación"
+summary: "Cuantifica el costo real de una mala decisión de contratación, más allá del salario pagado."
 version: "1.0"
 author: "Waldemar M. Caban, JD MA"
-date: "2026-09-01"
+date: "2026-08-09"
+locale: "es-Caribbean"
 ---
-
-# 36. El coste de una mala contratación
+<!-- Learning Objectives -->
+# El costo de una mala contratación
 
 ## Objetivos de aprendizaje
+<!-- Core Content -->
 
-Al terminar esta lección, el alumno podrá:
+- Identificar toda la gama de costos asociados a una mala contratación, más allá del salario
+- Explicar por qué las malas contrataciones a menudo cuestan más de lo que parecen al principio
+- Reconocer cómo este costo debe orientar la urgencia y el proceso de contratación
 
-1. Explicar por qué es importante evaluar salario, formación, errores, rotación y oportunidades perdidas.
-2. Separar hechos, supuestos, emociones y riesgos antes de decidir.
-3. Comparar al menos dos alternativas usando criterios observables.
-4. Asignar responsable, plazo, indicador y fecha de revisión.
-5. Relacionar la decisión con tiempo, coste, caja, productividad y confianza.
+## Contenido principal
 
-## Concepto principal
+Cuando una decisión de contratación sale mal, el costo visible —el salario pagado durante el tiempo que estuvo esa persona— es solo una parte del costo real. El costo completo incluye: el tiempo dedicado a reclutar y adiestrar a esa persona, el tiempo dedicado a manejar problemas de desempeño o errores, el impacto en el ánimo del equipo y en el trabajo de otras personas que tuvieron que cubrir los vacíos, cualquier costo directo de los errores que cometió la persona y, después, todo el costo de reclutar y adiestrar a un reemplazo, empezando de nuevo todo el proceso.
 
-[HECHO VERIFICABLE] El liderazgo se observa en decisiones y conductas, no solamente en títulos o intenciones. Para evaluar salario, formación, errores, rotación y oportunidades perdidas, la persona responsable debe definir primero el resultado deseado y la evidencia que demostraría progreso. Después debe identificar a quién afecta la decisión, qué recursos consume y qué riesgo crea actuar o esperar.
+Esta imagen completa explica por qué las decisiones de contratación merecen un cuidado real y no deben apresurarse solo para llenar un vacío urgente. Una contratación apresurada que sale mal a menudo cuesta bastante más, en total, que tomarse un poco más de tiempo para encontrar a la persona adecuada desde el principio, aunque en el momento la decisión apresurada se sienta más rápida.
 
-Una decisión disciplinada responde cinco preguntas: ¿qué resultado buscamos?, ¿qué hechos conocemos?, ¿qué estamos suponiendo?, ¿quién tiene autoridad y responsabilidad?, y ¿cuándo revisaremos el resultado? Este proceso no elimina la incertidumbre, pero evita que la urgencia, el orgullo o la costumbre sustituyan el criterio.
+Entender este costo debe orientar qué tan rápido actúa un líder una vez que queda claro que una contratación no está funcionando. Aplazar la decisión difícil de separarse, con la esperanza de que la situación mejore por sí sola, normalmente solo prolonga y agrava el costo total en lugar de evitarlo.
 
-## Aplicación práctica
+## Ejemplo práctico
 
-El líder debe convertir el tema en una acción observable. En este caso, la acción central es **evaluar salario, formación, errores, rotación y oportunidades perdidas**. Para hacerlo bien:
+Un pequeño negocio se apresura a llenar un puesto urgente y se salta la verificación de referencias para avanzar más rápido. La persona contratada tiene dificultades durante seis meses antes de que el negocio finalmente atienda el asunto; durante ese tiempo bajó el ánimo, otros miembros del equipo absorbieron en silencio trabajo adicional y ocurrió un error costoso con un cliente. El costo total, una vez que se toman en cuenta el salario, la productividad perdida, la tensión en el equipo, el error y el costo final de contratar y adiestrar a un reemplazo, supera por mucho lo que habría costado un proceso de contratación inicial un poco más largo y cuidadoso.
 
-- Define el problema sin culpar a una persona.
-- Establece un resultado concreto y un plazo razonable.
-- Reúne datos proporcionales al riesgo de la decisión.
-- Calcula el coste de actuar, esperar y equivocarse.
-- Elige una alternativa reversible cuando la incertidumbre sea alta.
-- Comunica quién decide, quién ejecuta y quién debe ser informado.
-- Programa una revisión y corrige el método si la evidencia lo exige.
+## Prueba práctica
 
-## Ejemplo desarrollado
+1. Además del salario, ¿qué costos forman parte del costo completo de una mala contratación?
+2. ¿Por qué una decisión de contratación apresurada podría terminar costando más que una cuidadosa?
+3. ¿Qué sugiere entender este costo completo sobre cómo actuar ante un error de contratación?
+4. En el ejemplo práctico, ¿qué costos específicos se acumularon durante los seis meses?
 
-Una pequeña empresa tiene ocho empleados y detecta un problema relacionado con **evaluar salario, formación, errores, rotación y oportunidades perdidas**. Durante dos meses se han repetido conversaciones, pero nadie ha definido una medida de éxito. El retraso consume unas 20 horas de trabajo al mes y genera errores que cuestan aproximadamente 1.200 €. La responsable fija un resultado a 30 días, recoge tres datos, compara dos alternativas y asigna un único responsable. Cada semana revisa un indicador y documenta lo aprendido.
+## Clave de respuestas
 
-El valor del proceso no está en acertar perfectamente desde el primer día. Está en crear una decisión explicable, medible y corregible antes de que el problema se convierta en una costumbre costosa.
+1. El tiempo de reclutamiento y adiestramiento, el tiempo de manejo del desempeño, el ánimo del equipo y el trabajo para cubrir los vacíos, el costo de los errores y el costo final del reemplazo.
+2. Porque una persona que no encaja genera costos en varias categorías que a menudo superan el tiempo que se ahorró al apresurar la decisión inicial.
+3. Que aplazar una decisión difícil para atender un error de contratación normalmente agrava el costo total en lugar de evitarlo.
+4. La baja en el ánimo, el trabajo adicional que absorbieron otros, un error costoso con un cliente y el costo final de reemplazar a la persona contratada.
 
-## Escenario de decisión
+## Respuestas y explicaciones
 
-Tu equipo no alcanza un objetivo importante. Una opción exige invertir 900 € en formación; otra requiere rediseñar el proceso durante 30 horas; una tercera mantiene el sistema actual y acepta el coste de los errores. No existe certeza sobre cuál funcionará mejor.
-
-**¿Qué harías?** Define el resultado, los datos que solicitarías, el riesgo máximo aceptable, la persona responsable y la evidencia que revisarías dentro de 30 días. Etiqueta claramente cualquier supuesto.
-
-## Errores comunes
-
-- Actuar antes de definir el resultado.
-- Confundir actividad con avance.
-- Defender una decisión porque ya se invirtió tiempo o dinero.
-- Delegar una tarea sin autoridad, recursos o seguimiento.
-- Ocultar malas noticias para evitar una conversación incómoda.
-- Usar una cifra sin explicar su fuente o supuesto.
-- Mantener el mismo método aunque la evidencia muestre que no funciona.
-
-## Herramienta de aplicación
-
-Completa esta ficha:
-
-- **Resultado deseado:**
-- **Cinco hechos comprobables:**
-- **Tres supuestos:**
-- **Dos alternativas:**
-- **Coste de cada alternativa:**
-- **Riesgo principal:**
-- **Responsable:**
-- **Indicador:**
-- **Fecha de revisión:**
-- **Evidencia que justificaría cambiar de método:**
-
-## Evaluación de competencia
-
-1. ¿Cuál debe ser el primer paso? A) Actuar de inmediato. B) Definir resultado y criterios. C) Esperar certeza. D) Evitar responsable.
-2. Explica la diferencia entre un hecho y un supuesto en este tema.
-3. Identifica un coste de esperar que normalmente no aparece en una factura.
-4. Propón un indicador que pueda revisarse semanalmente.
-5. Describe una alternativa reversible.
-6. Explica quién necesita autoridad para ejecutar.
-7. Identifica una consecuencia financiera posible.
-8. Explica qué evidencia te haría cambiar de método.
-9. Indica cómo comunicarías la decisión a las personas afectadas.
-10. Redacta una decisión completa con responsable, plazo e indicador.
-
-**Criterio de dominio:** 8 de 10 respuestas satisfactorias. Por debajo del 80 %, el alumno revisará el concepto fallado, resolverá un escenario nuevo y repetirá la comprobación.
-
-## Respuestas orientativas
-
-1. B: definir resultado y criterios antes de elegir una solución.
-2. Un hecho puede comprobarse; un supuesto debe declararse y probarse.
-3. Tiempo improductivo, pérdida de confianza, rotación o una oportunidad perdida.
-4. Una medida frecuente vinculada directamente al resultado.
-5. Una prueba limitada que pueda detenerse sin comprometer recursos excesivos.
-6. La persona responsable del resultado necesita autoridad proporcional.
-7. Puede afectar coste, ingresos, margen, caja, productividad o riesgo.
-8. Un indicador que contradiga el supuesto central o muestre daño inaceptable.
-9. Con hechos, propósito, efecto esperado, responsabilidades y canal de preguntas.
-10. Debe incluir resultado, acción, responsable, plazo, indicador y revisión.
+1. Esta cuenta completa revela el verdadero alcance del costo, más allá de la partida visible del salario.
+2. Apresurarse implica saltarse pasos (como la verificación de referencias) que reducen el riesgo de exactamente este tipo de resultado costoso.
+3. La naturaleza acumulativa de estos costos es un argumento para atender los errores de contratación con prontitud en lugar de aplazarlos.
+4. Este ejemplo práctico suma las categorías de costo nombradas antes en la lección.
 
 ## Puntos clave
 
-- Liderar significa convertir intención en una decisión observable.
-- Las personas, las operaciones y las finanzas están conectadas.
-- Una buena decisión declara sus supuestos y límites.
-- Toda acción importante necesita responsable, indicador y revisión.
-- Cambiar el método ante nueva evidencia es disciplina, no debilidad.
-
-## Ruta de aprendizaje
-
-- **Anterior:** BLACK-L1-035
-- **Actual:** BLACK-L1-036
-- **Siguiente:** BLACK-L1-037
-
-## Localización — España
-
-Contenido creado en español de España. Cuando una decisión dependa de legislación, fiscalidad, contabilidad o relaciones laborales, debe verificarse la normativa vigente y la situación concreta antes de actuar.
+- El costo real de una mala contratación incluye el reclutamiento, el adiestramiento, el manejo del desempeño, la tensión en el equipo, los errores y el reemplazo final, mucho más allá del salario.
+- Las decisiones de contratación apresuradas a menudo cuestan más en total que un proceso más cuidadoso y un poco más lento.
+- Una vez que queda claro que una contratación no funciona, aplazar la acción normalmente agrava el costo total en lugar de evitarlo.

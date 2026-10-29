@@ -4,123 +4,58 @@ track: BLACK
 officialTrackName: "Leadership & Executive Management"
 level: 1
 lessonNumber: 30
-locale: es-Caribbean
-title: "Fundamentos de resolución de conflictos"
-summary: "Esta lección desarrolla la capacidad de separar hechos, intereses, emociones y opciones de solución, conectando liderazgo, ejecución, riesgo y responsabilidad financiera."
+title: "Lo fundamental de la resolución de conflictos"
+summary: "Presenta un enfoque básico para resolver de forma constructiva los conflictos entre miembros del equipo."
 version: "1.0"
 author: "Waldemar M. Caban, JD MA"
-date: "2026-09-01"
+date: "2026-08-09"
+locale: "es-Caribbean"
 ---
-
-# 30. Fundamentos de resolución de conflictos
+<!-- Learning Objectives -->
+# Lo fundamental de la resolución de conflictos
 
 ## Objetivos de aprendizaje
+<!-- Core Content -->
 
-Al terminar esta lección, el alumno podrá:
+- Explicar por qué un conflicto sin resolver cuesta más que la incomodidad de atenderlo
+- Identificar los pasos básicos de una resolución constructiva de conflictos
+- Practicar cómo facilitar un escenario sencillo de conflicto entre dos personas
 
-1. Explicar por qué es importante separar hechos, intereses, emociones y opciones de solución.
-2. Separar hechos, supuestos, emociones y riesgos antes de decidir.
-3. Comparar al menos dos alternativas usando criterios observables.
-4. Asignar responsable, plazo, indicador y fecha de revisión.
-5. Relacionar la decisión con tiempo, coste, caja, productividad y confianza.
+## Contenido principal
 
-## Concepto principal
+El conflicto entre miembros de un equipo es normal e inevitable en cualquier grupo de personas que trabajan de cerca. El error que cometen muchos líderes es evitarlo, con la esperanza de que se resuelva solo. Un conflicto sin resolver rara vez desaparece: normalmente se encona y afecta el ánimo, la colaboración y, con el tiempo, el desempeño, a menudo de maneras más difíciles de arreglar de lo que habría sido el desacuerdo original.
 
-[HECHO VERIFICABLE] El liderazgo se observa en decisiones y conductas, no solamente en títulos o intenciones. Para separar hechos, intereses, emociones y opciones de solución, la persona responsable debe definir primero el resultado deseado y la evidencia que demostraría progreso. Después debe identificar a quién afecta la decisión, qué recursos consume y qué riesgo crea actuar o esperar.
+Un enfoque constructivo básico: escuchar primero a ambas partes por separado, sin suponer quién tiene la razón antes de entender el panorama completo; identificar el problema de fondo real, que a menudo es distinto de la queja superficial; y facilitar una conversación enfocada en un camino a seguir, en lugar de volver a discutir exactamente quién tuvo más culpa.
 
-Una decisión disciplinada responde cinco preguntas: ¿qué resultado buscamos?, ¿qué hechos conocemos?, ¿qué estamos suponiendo?, ¿quién tiene autoridad y responsabilidad?, y ¿cuándo revisaremos el resultado? Este proceso no elimina la incertidumbre, pero evita que la urgencia, el orgullo o la costumbre sustituyan el criterio.
+El papel del líder no es necesariamente decidir quién tiene la razón, sino ayudar a ambas personas a pasar de una posición estancada y de enfrentamiento a una resolución viable, de forma similar a la distinción entre intereses y posiciones vista en la lección sobre negociación, aplicada aquí a un conflicto interpersonal en lugar de a un trato.
 
-## Aplicación práctica
+## Ejemplo práctico
 
-El líder debe convertir el tema en una acción observable. En este caso, la acción central es **separar hechos, intereses, emociones y opciones de solución**. Para hacerlo bien:
+Dos miembros del equipo tienen una tensión continua sobre cómo debe manejarse un proyecto compartido: uno siente que el otro va demasiado lento, y el otro se siente apresurado y sin apoyo. Un líder que evita el conflicto deja que siga afectando el ánimo de todo el equipo. Un líder que aplica una resolución constructiva escucha primero a cada persona por separado, descubre que el verdadero problema de fondo es que no está clara la responsabilidad sobre tareas específicas (no simplemente un choque de personalidades) y facilita una conversación para aclarar de ahí en adelante quién se encarga de cada tarea, lo que resuelve la causa de fondo real en lugar de solo decirles que «se lleven bien».
 
-- Define el problema sin culpar a una persona.
-- Establece un resultado concreto y un plazo razonable.
-- Reúne datos proporcionales al riesgo de la decisión.
-- Calcula el coste de actuar, esperar y equivocarse.
-- Elige una alternativa reversible cuando la incertidumbre sea alta.
-- Comunica quién decide, quién ejecuta y quién debe ser informado.
-- Programa una revisión y corrige el método si la evidencia lo exige.
+## Prueba práctica
 
-## Ejemplo desarrollado
+1. ¿Por qué un conflicto sin resolver a menudo termina costando más que atenderlo directamente?
+2. Nombre los tres pasos básicos de la resolución constructiva de conflictos que describe esta lección.
+3. ¿Es necesariamente el papel del líder decidir quién tiene la razón en un conflicto?
+4. En el ejemplo práctico, ¿cuál era el verdadero problema de fondo detrás de la tensión superficial?
 
-Una pequeña empresa tiene ocho empleados y detecta un problema relacionado con **separar hechos, intereses, emociones y opciones de solución**. Durante dos meses se han repetido conversaciones, pero nadie ha definido una medida de éxito. El retraso consume unas 20 horas de trabajo al mes y genera errores que cuestan aproximadamente 1.200 €. La responsable fija un resultado a 30 días, recoge tres datos, compara dos alternativas y asigna un único responsable. Cada semana revisa un indicador y documenta lo aprendido.
+## Clave de respuestas
 
-El valor del proceso no está en acertar perfectamente desde el primer día. Está en crear una decisión explicable, medible y corregible antes de que el problema se convierta en una costumbre costosa.
+1. Porque se encona y afecta el ánimo y el desempeño de maneras que a menudo son más difíciles de arreglar que el desacuerdo original.
+2. Escuchar a ambas partes por separado, identificar el problema de fondo real, facilitar una conversación enfocada en un camino a seguir.
+3. No: su papel es ayudar a ambas personas a avanzar hacia una resolución viable, no necesariamente repartir culpas.
+4. Que no estaba clara la responsabilidad sobre las tareas, y no simplemente un choque de personalidades, como sugería el planteamiento superficial.
 
-## Escenario de decisión
+## Respuestas y explicaciones
 
-Tu equipo no alcanza un objetivo importante. Una opción exige invertir 900 € en formación; otra requiere rediseñar el proceso durante 30 horas; una tercera mantiene el sistema actual y acepta el coste de los errores. No existe certeza sobre cuál funcionará mejor.
-
-**¿Qué harías?** Define el resultado, los datos que solicitarías, el riesgo máximo aceptable, la persona responsable y la evidencia que revisarías dentro de 30 días. Etiqueta claramente cualquier supuesto.
-
-## Errores comunes
-
-- Actuar antes de definir el resultado.
-- Confundir actividad con avance.
-- Defender una decisión porque ya se invirtió tiempo o dinero.
-- Delegar una tarea sin autoridad, recursos o seguimiento.
-- Ocultar malas noticias para evitar una conversación incómoda.
-- Usar una cifra sin explicar su fuente o supuesto.
-- Mantener el mismo método aunque la evidencia muestre que no funciona.
-
-## Herramienta de aplicación
-
-Completa esta ficha:
-
-- **Resultado deseado:**
-- **Cinco hechos comprobables:**
-- **Tres supuestos:**
-- **Dos alternativas:**
-- **Coste de cada alternativa:**
-- **Riesgo principal:**
-- **Responsable:**
-- **Indicador:**
-- **Fecha de revisión:**
-- **Evidencia que justificaría cambiar de método:**
-
-## Evaluación de competencia
-
-1. ¿Cuál debe ser el primer paso? A) Actuar de inmediato. B) Definir resultado y criterios. C) Esperar certeza. D) Evitar responsable.
-2. Explica la diferencia entre un hecho y un supuesto en este tema.
-3. Identifica un coste de esperar que normalmente no aparece en una factura.
-4. Propón un indicador que pueda revisarse semanalmente.
-5. Describe una alternativa reversible.
-6. Explica quién necesita autoridad para ejecutar.
-7. Identifica una consecuencia financiera posible.
-8. Explica qué evidencia te haría cambiar de método.
-9. Indica cómo comunicarías la decisión a las personas afectadas.
-10. Redacta una decisión completa con responsable, plazo e indicador.
-
-**Criterio de dominio:** 8 de 10 respuestas satisfactorias. Por debajo del 80 %, el alumno revisará el concepto fallado, resolverá un escenario nuevo y repetirá la comprobación.
-
-## Respuestas orientativas
-
-1. B: definir resultado y criterios antes de elegir una solución.
-2. Un hecho puede comprobarse; un supuesto debe declararse y probarse.
-3. Tiempo improductivo, pérdida de confianza, rotación o una oportunidad perdida.
-4. Una medida frecuente vinculada directamente al resultado.
-5. Una prueba limitada que pueda detenerse sin comprometer recursos excesivos.
-6. La persona responsable del resultado necesita autoridad proporcional.
-7. Puede afectar coste, ingresos, margen, caja, productividad o riesgo.
-8. Un indicador que contradiga el supuesto central o muestre daño inaceptable.
-9. Con hechos, propósito, efecto esperado, responsabilidades y canal de preguntas.
-10. Debe incluir resultado, acción, responsable, plazo, indicador y revisión.
+1. Evitar el conflicto no lo elimina: normalmente agrava su costo con el tiempo.
+2. Esta estructura de tres pasos ofrece un marco práctico para la resolución constructiva de conflictos.
+3. Esto replantea el papel del líder: lo aleja del juicio y lo acerca a la facilitación.
+4. Esto muestra cómo descubrir el verdadero problema de fondo llevó a una resolución más eficaz y duradera.
 
 ## Puntos clave
 
-- Liderar significa convertir intención en una decisión observable.
-- Las personas, las operaciones y las finanzas están conectadas.
-- Una buena decisión declara sus supuestos y límites.
-- Toda acción importante necesita responsable, indicador y revisión.
-- Cambiar el método ante nueva evidencia es disciplina, no debilidad.
-
-## Ruta de aprendizaje
-
-- **Anterior:** BLACK-L1-029
-- **Actual:** BLACK-L1-030
-- **Siguiente:** BLACK-L1-031
-
-## Localización — España
-
-Contenido creado en español de España. Cuando una decisión dependa de legislación, fiscalidad, contabilidad o relaciones laborales, debe verificarse la normativa vigente y la situación concreta antes de actuar.
+- Un conflicto sin resolver tiende a enconarse y a costar más de lo que habría costado atenderlo directamente.
+- La resolución constructiva implica escuchar a ambas partes, identificar el problema de fondo real y facilitar un camino a seguir.
+- En un conflicto, el papel del líder a menudo es facilitar la resolución, no necesariamente decidir quién tenía la razón.

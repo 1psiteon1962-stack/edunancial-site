@@ -4,123 +4,58 @@ track: BLACK
 officialTrackName: "Leadership & Executive Management"
 level: 1
 lessonNumber: 49
-locale: es-Caribbean
-title: "Proyecto final: plan de acción de liderazgo de 90 días"
-summary: "Esta lección desarrolla la capacidad de traducir prioridades en acciones, responsables, indicadores y revisiones, conectando liderazgo, ejecución, riesgo y responsabilidad financiera."
+title: "Proyecto final: diseñar un plan de acción de liderazgo de 90 días"
+summary: "Guía a los estudiantes para aplicar los conceptos del curso en un plan de liderazgo personal, concreto y con plazos definidos."
 version: "1.0"
 author: "Waldemar M. Caban, JD MA"
-date: "2026-09-01"
+date: "2026-08-09"
+locale: "es-Caribbean"
 ---
-
-# 49. Proyecto final: plan de acción de liderazgo de 90 días
+<!-- Learning Objectives -->
+# Proyecto final: diseñar un plan de acción de liderazgo de 90 días
 
 ## Objetivos de aprendizaje
+<!-- Core Content -->
 
-Al terminar esta lección, el alumno podrá:
+- Integrar conceptos de todo el curso en un plan de acción personal concreto
+- Identificar metas de liderazgo específicas y medibles para un periodo definido
+- Practicar cómo estructurar un plan de desarrollo de liderazgo con puntos de control reales para rendir cuentas
 
-1. Explicar por qué es importante traducir prioridades en acciones, responsables, indicadores y revisiones.
-2. Separar hechos, supuestos, emociones y riesgos antes de decidir.
-3. Comparar al menos dos alternativas usando criterios observables.
-4. Asignar responsable, plazo, indicador y fecha de revisión.
-5. Relacionar la decisión con tiempo, coste, caja, productividad y confianza.
+## Contenido principal
 
-## Concepto principal
+El conocimiento sin aplicación se queda en la teoría. Un plan de acción de liderazgo de 90 días toma los conceptos de todo este curso y los convierte en compromisos específicos y concretos con un plazo definido, en lugar de dejarlos como ideas abstractas para aplicar «algún día».
 
-[HECHO VERIFICABLE] El liderazgo se observa en decisiones y conductas, no solamente en títulos o intenciones. Para traducir prioridades en acciones, responsables, indicadores y revisiones, la persona responsable debe definir primero el resultado deseado y la evidencia que demostraría progreso. Después debe identificar a quién afecta la decisión, qué recursos consume y qué riesgo crea actuar o esperar.
+Un plan útil de 90 días debe identificar: una o dos conductas de liderazgo específicas que desarrollar (basadas en cualquier lección de este curso —delegar, la retroalimentación, la responsabilidad, lo que sea más relevante para su situación real—), cómo se medirá o verificará el avance (lo que se conecta con la lección sobre los KPI: las intenciones vagas son difíciles de seguir; las específicas no) y puntos de control incorporados (a los 30, 60 y 90 días) para evaluar con honestidad el avance y ajustar el plan según lo que realmente se va aprendiendo en el camino.
 
-Una decisión disciplinada responde cinco preguntas: ¿qué resultado buscamos?, ¿qué hechos conocemos?, ¿qué estamos suponiendo?, ¿quién tiene autoridad y responsabilidad?, y ¿cuándo revisaremos el resultado? Este proceso no elimina la incertidumbre, pero evita que la urgencia, el orgullo o la costumbre sustituyan el criterio.
+El plan debe ser lo bastante específico como para actuar a partir de él el lunes por la mañana, no una aspiración vaga como «ser un mejor líder». «Delegar para el día 30 al menos una tarea recurrente que hoy hago yo mismo, usando el marco para delegar de este curso» es específico y verificable. «Mejorar al delegar» no lo es.
 
-## Aplicación práctica
+## Ejemplo práctico
 
-El líder debe convertir el tema en una acción observable. En este caso, la acción central es **traducir prioridades en acciones, responsables, indicadores y revisiones**. Para hacerlo bien:
+Una nueva gerente arma un plan de 90 días. Días 1 a 30: documentar un puesto que hoy no está documentado (lo que se conecta con la lección sobre los puestos y las personas) y delegar una tarea con el nivel de supervisión adecuado según el marco para delegar. Días 31 a 60: practicar al menos una vez por semana la retroalimentación específica y enfocada en la conducta (de la lección sobre la retroalimentación), y registrar cómo responde el equipo. Días 61 a 90: hacer un ejercicio básico de reflexión sobre la sucesión para su propio puesto e identificar lo que todavía existe solo en su cabeza. En cada punto de control de 30 días, evalúa con honestidad qué funcionó y qué no, y ajusta la siguiente fase en consecuencia, en lugar de seguir rígidamente el plan original sin importar lo que realmente esté pasando.
 
-- Define el problema sin culpar a una persona.
-- Establece un resultado concreto y un plazo razonable.
-- Reúne datos proporcionales al riesgo de la decisión.
-- Calcula el coste de actuar, esperar y equivocarse.
-- Elige una alternativa reversible cuando la incertidumbre sea alta.
-- Comunica quién decide, quién ejecuta y quién debe ser informado.
-- Programa una revisión y corrige el método si la evidencia lo exige.
+## Prueba práctica
 
-## Ejemplo desarrollado
+1. ¿Por qué la lección insiste en convertir los conceptos en un plan concreto en lugar de dejarlos en lo abstracto?
+2. Nombre los tres componentes que debe incluir un plan útil de 90 días.
+3. ¿Por qué «delegar una tarea para el día 30» es mejor que «mejorar al delegar»?
+4. Redacte una meta específica y verificable para su propio plan hipotético de liderazgo de 90 días, basada en cualquier lección de este curso.
 
-Una pequeña empresa tiene ocho empleados y detecta un problema relacionado con **traducir prioridades en acciones, responsables, indicadores y revisiones**. Durante dos meses se han repetido conversaciones, pero nadie ha definido una medida de éxito. El retraso consume unas 20 horas de trabajo al mes y genera errores que cuestan aproximadamente 1.200 €. La responsable fija un resultado a 30 días, recoge tres datos, compara dos alternativas y asigna un único responsable. Cada semana revisa un indicador y documenta lo aprendido.
+## Clave de respuestas
 
-El valor del proceso no está en acertar perfectamente desde el primer día. Está en crear una decisión explicable, medible y corregible antes de que el problema se convierta en una costumbre costosa.
+1. Porque el conocimiento sin aplicación se queda en la teoría y no cambia realmente la conducta.
+2. Conductas específicas que desarrollar, una forma de medir el avance y puntos de control incorporados para evaluar y ajustar.
+3. Porque es específica y verificable, mientras que la versión vaga no ofrece ninguna forma de saber si realmente ocurrió.
+4. Las respuestas variarán, pero deben ser específicas y medibles, y basarse en un concepto visto antes en el curso.
 
-## Escenario de decisión
+## Respuestas y explicaciones
 
-Tu equipo no alcanza un objetivo importante. Una opción exige invertir 900 € en formación; otra requiere rediseñar el proceso durante 30 horas; una tercera mantiene el sistema actual y acepta el coste de los errores. No existe certeza sobre cuál funcionará mejor.
-
-**¿Qué harías?** Define el resultado, los datos que solicitarías, el riesgo máximo aceptable, la persona responsable y la evidencia que revisarías dentro de 30 días. Etiqueta claramente cualquier supuesto.
-
-## Errores comunes
-
-- Actuar antes de definir el resultado.
-- Confundir actividad con avance.
-- Defender una decisión porque ya se invirtió tiempo o dinero.
-- Delegar una tarea sin autoridad, recursos o seguimiento.
-- Ocultar malas noticias para evitar una conversación incómoda.
-- Usar una cifra sin explicar su fuente o supuesto.
-- Mantener el mismo método aunque la evidencia muestre que no funciona.
-
-## Herramienta de aplicación
-
-Completa esta ficha:
-
-- **Resultado deseado:**
-- **Cinco hechos comprobables:**
-- **Tres supuestos:**
-- **Dos alternativas:**
-- **Coste de cada alternativa:**
-- **Riesgo principal:**
-- **Responsable:**
-- **Indicador:**
-- **Fecha de revisión:**
-- **Evidencia que justificaría cambiar de método:**
-
-## Evaluación de competencia
-
-1. ¿Cuál debe ser el primer paso? A) Actuar de inmediato. B) Definir resultado y criterios. C) Esperar certeza. D) Evitar responsable.
-2. Explica la diferencia entre un hecho y un supuesto en este tema.
-3. Identifica un coste de esperar que normalmente no aparece en una factura.
-4. Propón un indicador que pueda revisarse semanalmente.
-5. Describe una alternativa reversible.
-6. Explica quién necesita autoridad para ejecutar.
-7. Identifica una consecuencia financiera posible.
-8. Explica qué evidencia te haría cambiar de método.
-9. Indica cómo comunicarías la decisión a las personas afectadas.
-10. Redacta una decisión completa con responsable, plazo e indicador.
-
-**Criterio de dominio:** 8 de 10 respuestas satisfactorias. Por debajo del 80 %, el alumno revisará el concepto fallado, resolverá un escenario nuevo y repetirá la comprobación.
-
-## Respuestas orientativas
-
-1. B: definir resultado y criterios antes de elegir una solución.
-2. Un hecho puede comprobarse; un supuesto debe declararse y probarse.
-3. Tiempo improductivo, pérdida de confianza, rotación o una oportunidad perdida.
-4. Una medida frecuente vinculada directamente al resultado.
-5. Una prueba limitada que pueda detenerse sin comprometer recursos excesivos.
-6. La persona responsable del resultado necesita autoridad proporcional.
-7. Puede afectar coste, ingresos, margen, caja, productividad o riesgo.
-8. Un indicador que contradiga el supuesto central o muestre daño inaceptable.
-9. Con hechos, propósito, efecto esperado, responsabilidades y canal de preguntas.
-10. Debe incluir resultado, acción, responsable, plazo, indicador y revisión.
+1. Esta es la razón práctica para construir un plan concreto en lugar de depender solo de una intención abstracta.
+2. Estos tres componentes estructuran un plan que realmente se puede ejecutar y seguir.
+3. La especificidad es lo que hace que una meta sea realmente verificable en lugar de una aspiración vaga.
+4. Una respuesta correcta conecta una meta específica con un concepto específico del curso, con una forma clara de medirla.
 
 ## Puntos clave
 
-- Liderar significa convertir intención en una decisión observable.
-- Las personas, las operaciones y las finanzas están conectadas.
-- Una buena decisión declara sus supuestos y límites.
-- Toda acción importante necesita responsable, indicador y revisión.
-- Cambiar el método ante nueva evidencia es disciplina, no debilidad.
-
-## Ruta de aprendizaje
-
-- **Anterior:** BLACK-L1-048
-- **Actual:** BLACK-L1-049
-- **Siguiente:** BLACK-L1-050
-
-## Localización — España
-
-Contenido creado en español de España. Cuando una decisión dependa de legislación, fiscalidad, contabilidad o relaciones laborales, debe verificarse la normativa vigente y la situación concreta antes de actuar.
+- Convertir los conceptos de liderazgo en un plan concreto y con plazos es lo que realmente cambia la conducta, no la intención abstracta por sí sola.
+- Un plan útil identifica conductas específicas, una forma de medir el avance y puntos de control incorporados para una evaluación honesta.
+- Las metas específicas y verificables («delegar una tarea para el día 30») son mucho más útiles que las aspiraciones vagas («mejorar al delegar»).

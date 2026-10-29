@@ -4,123 +4,58 @@ track: BLACK
 officialTrackName: "Leadership & Executive Management"
 level: 1
 lessonNumber: 25
-locale: es-Caribbean
-title: "Estructura organizativa básica para una pequeña empresa"
-summary: "Esta lección desarrolla la capacidad de definir funciones, autoridad, comunicación y rendición de cuentas, conectando liderazgo, ejecución, riesgo y responsabilidad financiera."
+title: "Lo básico de la estructura organizativa para un pequeño negocio"
+summary: "Presenta conceptos básicos de estructura organizativa, adaptados a la escala de un equipo pequeño."
 version: "1.0"
 author: "Waldemar M. Caban, JD MA"
-date: "2026-09-01"
+date: "2026-08-09"
+locale: "es-Caribbean"
 ---
-
-# 25. Estructura organizativa básica para una pequeña empresa
+<!-- Learning Objectives -->
+# Lo básico de la estructura organizativa para un pequeño negocio
 
 ## Objetivos de aprendizaje
+<!-- Core Content -->
 
-Al terminar esta lección, el alumno podrá:
+- Explicar por qué incluso los equipos pequeños se benefician de una estructura organizativa básica
+- Identificar la pregunta central que responde la estructura organizativa
+- Practicar cómo esbozar una estructura sencilla para un pequeño negocio
 
-1. Explicar por qué es importante definir funciones, autoridad, comunicación y rendición de cuentas.
-2. Separar hechos, supuestos, emociones y riesgos antes de decidir.
-3. Comparar al menos dos alternativas usando criterios observables.
-4. Asignar responsable, plazo, indicador y fecha de revisión.
-5. Relacionar la decisión con tiempo, coste, caja, productividad y confianza.
+## Contenido principal
 
-## Concepto principal
+La estructura organizativa suena como algo que solo necesitan las empresas grandes, pero incluso un equipo de tres o cuatro personas se beneficia de tener una claridad básica al respecto. En el fondo, la estructura organizativa responde una sola pregunta: ¿quién decide qué, y quién le rinde cuentas a quién? Sin ninguna estructura, incluso un equipo pequeño puede terminar confundido sobre quién es realmente responsable de un área determinada, lo que lleva a duplicar esfuerzos o, peor aún, a que cosas importantes se queden sin hacer porque todo el mundo supuso que otra persona se estaba encargando.
 
-[HECHO VERIFICABLE] El liderazgo se observa en decisiones y conductas, no solamente en títulos o intenciones. Para definir funciones, autoridad, comunicación y rendición de cuentas, la persona responsable debe definir primero el resultado deseado y la evidencia que demostraría progreso. Después debe identificar a quién afecta la decisión, qué recursos consume y qué riesgo crea actuar o esperar.
+Para un pequeño negocio, la estructura no tiene que ser elaborada: solo tiene que ser clara. Incluso una lista sencilla de quién se encarga de qué área (operaciones, ventas, finanzas, producto) y de quién toma la decisión final cuando hay desacuerdo evita mucha confusión a medida que el equipo crece más allá de una o dos personas.
 
-Una decisión disciplinada responde cinco preguntas: ¿qué resultado buscamos?, ¿qué hechos conocemos?, ¿qué estamos suponiendo?, ¿quién tiene autoridad y responsabilidad?, y ¿cuándo revisaremos el resultado? Este proceso no elimina la incertidumbre, pero evita que la urgencia, el orgullo o la costumbre sustituyan el criterio.
+La estructura también debe adaptarse a medida que crece el negocio. Lo que funciona para tres personas a menudo hay que revisarlo cuando son diez, y otra vez cuando son treinta: la meta no es una estructura permanente, sino una estructura que se ajuste al tamaño y la complejidad actuales del equipo.
 
-## Aplicación práctica
+## Ejemplo práctico
 
-El líder debe convertir el tema en una acción observable. En este caso, la acción central es **definir funciones, autoridad, comunicación y rendición de cuentas**. Para hacerlo bien:
+Una empresa emergente de tres personas funciona al principio sin ninguna estructura formal: todos hacen un poco de todo. Cuando el equipo crece a seis personas, empieza a aparecer la confusión: dos personas creen que ambas son responsables del servicio al cliente, mientras que nadie es claramente responsable de llevar las finanzas. La fundadora introduce una claridad sencilla: una persona se encarga del servicio al cliente, otra de las finanzas y otra del producto, y ella toma las decisiones finales sobre cualquier asunto sin resolver. No es una jerarquía rígida: es una claridad básica que elimina la confusión que estaba frenando al equipo.
 
-- Define el problema sin culpar a una persona.
-- Establece un resultado concreto y un plazo razonable.
-- Reúne datos proporcionales al riesgo de la decisión.
-- Calcula el coste de actuar, esperar y equivocarse.
-- Elige una alternativa reversible cuando la incertidumbre sea alta.
-- Comunica quién decide, quién ejecuta y quién debe ser informado.
-- Programa una revisión y corrige el método si la evidencia lo exige.
+## Prueba práctica
 
-## Ejemplo desarrollado
+1. ¿Qué pregunta central responde la estructura organizativa?
+2. ¿Por qué incluso los equipos pequeños se benefician de tener alguna estructura?
+3. ¿Tiene que ser elaborada la estructura de un pequeño negocio?
+4. ¿Por qué debe cambiar la estructura a medida que crece un negocio?
 
-Una pequeña empresa tiene ocho empleados y detecta un problema relacionado con **definir funciones, autoridad, comunicación y rendición de cuentas**. Durante dos meses se han repetido conversaciones, pero nadie ha definido una medida de éxito. El retraso consume unas 20 horas de trabajo al mes y genera errores que cuestan aproximadamente 1.200 €. La responsable fija un resultado a 30 días, recoge tres datos, compara dos alternativas y asigna un único responsable. Cada semana revisa un indicador y documenta lo aprendido.
+## Clave de respuestas
 
-El valor del proceso no está en acertar perfectamente desde el primer día. Está en crear una decisión explicable, medible y corregible antes de que el problema se convierta en una costumbre costosa.
+1. Quién decide qué, y quién le rinde cuentas a quién.
+2. Sin ella, los equipos pueden duplicar esfuerzos o dejar sin hacer tareas importantes porque no está clara la responsabilidad.
+3. No: solo tiene que ser clara, aunque sea sencilla.
+4. Porque lo que funciona para un equipo pequeño a menudo crea nuevas confusiones a un tamaño mayor, lo que exige que la estructura se ajuste a la complejidad actual.
 
-## Escenario de decisión
+## Respuestas y explicaciones
 
-Tu equipo no alcanza un objetivo importante. Una opción exige invertir 900 € en formación; otra requiere rediseñar el proceso durante 30 horas; una tercera mantiene el sistema actual y acepta el coste de los errores. No existe certeza sobre cuál funcionará mejor.
-
-**¿Qué harías?** Define el resultado, los datos que solicitarías, el riesgo máximo aceptable, la persona responsable y la evidencia que revisarías dentro de 30 días. Etiqueta claramente cualquier supuesto.
-
-## Errores comunes
-
-- Actuar antes de definir el resultado.
-- Confundir actividad con avance.
-- Defender una decisión porque ya se invirtió tiempo o dinero.
-- Delegar una tarea sin autoridad, recursos o seguimiento.
-- Ocultar malas noticias para evitar una conversación incómoda.
-- Usar una cifra sin explicar su fuente o supuesto.
-- Mantener el mismo método aunque la evidencia muestre que no funciona.
-
-## Herramienta de aplicación
-
-Completa esta ficha:
-
-- **Resultado deseado:**
-- **Cinco hechos comprobables:**
-- **Tres supuestos:**
-- **Dos alternativas:**
-- **Coste de cada alternativa:**
-- **Riesgo principal:**
-- **Responsable:**
-- **Indicador:**
-- **Fecha de revisión:**
-- **Evidencia que justificaría cambiar de método:**
-
-## Evaluación de competencia
-
-1. ¿Cuál debe ser el primer paso? A) Actuar de inmediato. B) Definir resultado y criterios. C) Esperar certeza. D) Evitar responsable.
-2. Explica la diferencia entre un hecho y un supuesto en este tema.
-3. Identifica un coste de esperar que normalmente no aparece en una factura.
-4. Propón un indicador que pueda revisarse semanalmente.
-5. Describe una alternativa reversible.
-6. Explica quién necesita autoridad para ejecutar.
-7. Identifica una consecuencia financiera posible.
-8. Explica qué evidencia te haría cambiar de método.
-9. Indica cómo comunicarías la decisión a las personas afectadas.
-10. Redacta una decisión completa con responsable, plazo e indicador.
-
-**Criterio de dominio:** 8 de 10 respuestas satisfactorias. Por debajo del 80 %, el alumno revisará el concepto fallado, resolverá un escenario nuevo y repetirá la comprobación.
-
-## Respuestas orientativas
-
-1. B: definir resultado y criterios antes de elegir una solución.
-2. Un hecho puede comprobarse; un supuesto debe declararse y probarse.
-3. Tiempo improductivo, pérdida de confianza, rotación o una oportunidad perdida.
-4. Una medida frecuente vinculada directamente al resultado.
-5. Una prueba limitada que pueda detenerse sin comprometer recursos excesivos.
-6. La persona responsable del resultado necesita autoridad proporcional.
-7. Puede afectar coste, ingresos, margen, caja, productividad o riesgo.
-8. Un indicador que contradiga el supuesto central o muestre daño inaceptable.
-9. Con hechos, propósito, efecto esperado, responsabilidades y canal de preguntas.
-10. Debe incluir resultado, acción, responsable, plazo, indicador y revisión.
+1. Esto define el propósito fundamental de la estructura organizativa a cualquier escala.
+2. La claridad sobre las responsabilidades evita los tipos de fallas específicos que describe la lección.
+3. Para los equipos pequeños, se pone el énfasis en la sencillez y la claridad por encima de una jerarquía elaborada.
+4. La estructura se presenta como algo que debe evolucionar con la organización, no como una decisión fija de una sola vez.
 
 ## Puntos clave
 
-- Liderar significa convertir intención en una decisión observable.
-- Las personas, las operaciones y las finanzas están conectadas.
-- Una buena decisión declara sus supuestos y límites.
-- Toda acción importante necesita responsable, indicador y revisión.
-- Cambiar el método ante nueva evidencia es disciplina, no debilidad.
-
-## Ruta de aprendizaje
-
-- **Anterior:** BLACK-L1-024
-- **Actual:** BLACK-L1-025
-- **Siguiente:** BLACK-L1-026
-
-## Localización — España
-
-Contenido creado en español de España. Cuando una decisión dependa de legislación, fiscalidad, contabilidad o relaciones laborales, debe verificarse la normativa vigente y la situación concreta antes de actuar.
+- La estructura organizativa responde quién decide qué y quién le rinde cuentas a quién, incluso en los equipos pequeños.
+- Sin una claridad básica, los equipos corren el riesgo de duplicar esfuerzos o de dejar vacíos donde nadie se encarga de una tarea importante.
+- La estructura debe ser sencilla, pero clara, y debe evolucionar a medida que el equipo crece en tamaño y complejidad.

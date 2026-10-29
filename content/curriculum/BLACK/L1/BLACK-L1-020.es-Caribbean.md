@@ -4,123 +4,58 @@ track: BLACK
 officialTrackName: "Leadership & Executive Management"
 level: 1
 lessonNumber: 20
-locale: es-Caribbean
-title: "Persistencia o terquedad: cómo distinguirlas"
-summary: "Esta lección desarrolla la capacidad de mantener el objetivo mientras se revisan evidencia, método y límites, conectando liderazgo, ejecución, riesgo y responsabilidad financiera."
+title: "Persistencia o terquedad: saber cuál de las dos está practicando"
+summary: "Distingue la persistencia sana de la terquedad dañina y ofrece un marco para diferenciarlas."
 version: "1.0"
 author: "Waldemar M. Caban, JD MA"
-date: "2026-09-01"
+date: "2026-08-09"
+locale: "es-Caribbean"
 ---
-
-# 20. Persistencia o terquedad: cómo distinguirlas
+<!-- Learning Objectives -->
+# Persistencia o terquedad: saber cuál de las dos está practicando
 
 ## Objetivos de aprendizaje
+<!-- Core Content -->
 
-Al terminar esta lección, el alumno podrá:
+- Distinguir la persistencia de la terquedad
+- Identificar un marco para diferenciarlas en el momento
+- Practicar cómo aplicar el marco a una decisión real o hipotética
 
-1. Explicar por qué es importante mantener el objetivo mientras se revisan evidencia, método y límites.
-2. Separar hechos, supuestos, emociones y riesgos antes de decidir.
-3. Comparar al menos dos alternativas usando criterios observables.
-4. Asignar responsable, plazo, indicador y fecha de revisión.
-5. Relacionar la decisión con tiempo, coste, caja, productividad y confianza.
+## Contenido principal
 
-## Concepto principal
+La persistencia y la terquedad pueden verse idénticas desde afuera: ambas implican seguir avanzando a pesar de la resistencia. La diferencia está en si el enfoque de fondo realmente está funcionando, o se está ajustando, frente a repetir el mismo enfoque fallido por ego o por miedo a parecer que uno se rinde.
 
-[HECHO VERIFICABLE] El liderazgo se observa en decisiones y conductas, no solamente en títulos o intenciones. Para mantener el objetivo mientras se revisan evidencia, método y límites, la persona responsable debe definir primero el resultado deseado y la evidencia que demostraría progreso. Después debe identificar a quién afecta la decisión, qué recursos consume y qué riesgo crea actuar o esperar.
+Un marco útil: la persistencia mantiene fija la meta mientras adapta el método según lo que se va aprendiendo en el camino. La terquedad mantiene fijos tanto la meta como el método, e ignora la evidencia de que el método no funciona. Alguien que persigue una meta con persistencia ajusta su enfoque después de recibir retroalimentación; alguien que la persigue con terquedad sigue haciendo lo mismo y esperando un resultado distinto.
 
-Una decisión disciplinada responde cinco preguntas: ¿qué resultado buscamos?, ¿qué hechos conocemos?, ¿qué estamos suponiendo?, ¿quién tiene autoridad y responsabilidad?, y ¿cuándo revisaremos el resultado? Este proceso no elimina la incertidumbre, pero evita que la urgencia, el orgullo o la costumbre sustituyan el criterio.
+Verificar cuál de las dos está practicando requiere una autorreflexión honesta: ¿estoy ajustando mi enfoque según lo que aprendo, o solo estoy repitiendo lo mismo con la esperanza de que algún día funcione a pura fuerza de voluntad? Lo primero es una fortaleza de liderazgo. Lo segundo normalmente no lo es, aunque desde adentro pueda sentirse idéntico.
 
-## Aplicación práctica
+## Ejemplo práctico
 
-El líder debe convertir el tema en una acción observable. En este caso, la acción central es **mantener el objetivo mientras se revisan evidencia, método y límites**. Para hacerlo bien:
+Alguien que llamaba a compañías disqueras para conseguir contenido de video siguió llamando a compañías distintas (persistencia: ajustó a quién se dirigía y con el tiempo añadió el enfoque de «igualdad de oportunidades» una vez que recibió retroalimentación real sobre lo que funcionaba), en lugar de llamar una y otra vez al mismo puñado de compañías con la misma propuesta idéntica que ya había fracasado (lo que habría sido terquedad). La meta se mantuvo fija —conseguir videos—, pero el método evolucionó según lo que realmente pasaba en cada llamada.
 
-- Define el problema sin culpar a una persona.
-- Establece un resultado concreto y un plazo razonable.
-- Reúne datos proporcionales al riesgo de la decisión.
-- Calcula el coste de actuar, esperar y equivocarse.
-- Elige una alternativa reversible cuando la incertidumbre sea alta.
-- Comunica quién decide, quién ejecuta y quién debe ser informado.
-- Programa una revisión y corrige el método si la evidencia lo exige.
+## Prueba práctica
 
-## Ejemplo desarrollado
+1. ¿Qué tienen en común la persistencia y la terquedad en la superficie?
+2. Según el marco de esta lección, ¿cuál es la diferencia clave entre ellas?
+3. ¿Qué pregunta puede ayudar a alguien a verificar cuál de las dos está practicando realmente?
+4. En el ejemplo práctico, ¿qué demostró que se trataba de persistencia y no de terquedad?
 
-Una pequeña empresa tiene ocho empleados y detecta un problema relacionado con **mantener el objetivo mientras se revisan evidencia, método y límites**. Durante dos meses se han repetido conversaciones, pero nadie ha definido una medida de éxito. El retraso consume unas 20 horas de trabajo al mes y genera errores que cuestan aproximadamente 1.200 €. La responsable fija un resultado a 30 días, recoge tres datos, compara dos alternativas y asigna un único responsable. Cada semana revisa un indicador y documenta lo aprendido.
+## Clave de respuestas
 
-El valor del proceso no está en acertar perfectamente desde el primer día. Está en crear una decisión explicable, medible y corregible antes de que el problema se convierta en una costumbre costosa.
+1. Ambas implican seguir avanzando a pesar de la resistencia o los reveses.
+2. La persistencia adapta el método mientras mantiene fija la meta; la terquedad mantiene fijos tanto la meta como el método fallido.
+3. ¿Estoy ajustando mi enfoque según lo que aprendo, o repitiendo lo mismo con la esperanza de que algún día funcione?
+4. El método evolucionó (compañías distintas, se añadió el enfoque de «igualdad de oportunidades») mientras la meta de fondo se mantuvo igual.
 
-## Escenario de decisión
+## Respuestas y explicaciones
 
-Tu equipo no alcanza un objetivo importante. Una opción exige invertir 900 € en formación; otra requiere rediseñar el proceso durante 30 horas; una tercera mantiene el sistema actual y acepta el coste de los errores. No existe certeza sobre cuál funcionará mejor.
-
-**¿Qué harías?** Define el resultado, los datos que solicitarías, el riesgo máximo aceptable, la persona responsable y la evidencia que revisarías dentro de 30 días. Etiqueta claramente cualquier supuesto.
-
-## Errores comunes
-
-- Actuar antes de definir el resultado.
-- Confundir actividad con avance.
-- Defender una decisión porque ya se invirtió tiempo o dinero.
-- Delegar una tarea sin autoridad, recursos o seguimiento.
-- Ocultar malas noticias para evitar una conversación incómoda.
-- Usar una cifra sin explicar su fuente o supuesto.
-- Mantener el mismo método aunque la evidencia muestre que no funciona.
-
-## Herramienta de aplicación
-
-Completa esta ficha:
-
-- **Resultado deseado:**
-- **Cinco hechos comprobables:**
-- **Tres supuestos:**
-- **Dos alternativas:**
-- **Coste de cada alternativa:**
-- **Riesgo principal:**
-- **Responsable:**
-- **Indicador:**
-- **Fecha de revisión:**
-- **Evidencia que justificaría cambiar de método:**
-
-## Evaluación de competencia
-
-1. ¿Cuál debe ser el primer paso? A) Actuar de inmediato. B) Definir resultado y criterios. C) Esperar certeza. D) Evitar responsable.
-2. Explica la diferencia entre un hecho y un supuesto en este tema.
-3. Identifica un coste de esperar que normalmente no aparece en una factura.
-4. Propón un indicador que pueda revisarse semanalmente.
-5. Describe una alternativa reversible.
-6. Explica quién necesita autoridad para ejecutar.
-7. Identifica una consecuencia financiera posible.
-8. Explica qué evidencia te haría cambiar de método.
-9. Indica cómo comunicarías la decisión a las personas afectadas.
-10. Redacta una decisión completa con responsable, plazo e indicador.
-
-**Criterio de dominio:** 8 de 10 respuestas satisfactorias. Por debajo del 80 %, el alumno revisará el concepto fallado, resolverá un escenario nuevo y repetirá la comprobación.
-
-## Respuestas orientativas
-
-1. B: definir resultado y criterios antes de elegir una solución.
-2. Un hecho puede comprobarse; un supuesto debe declararse y probarse.
-3. Tiempo improductivo, pérdida de confianza, rotación o una oportunidad perdida.
-4. Una medida frecuente vinculada directamente al resultado.
-5. Una prueba limitada que pueda detenerse sin comprometer recursos excesivos.
-6. La persona responsable del resultado necesita autoridad proporcional.
-7. Puede afectar coste, ingresos, margen, caja, productividad o riesgo.
-8. Un indicador que contradiga el supuesto central o muestre daño inaceptable.
-9. Con hechos, propósito, efecto esperado, responsabilidades y canal de preguntas.
-10. Debe incluir resultado, acción, responsable, plazo, indicador y revisión.
+1. Esta semejanza superficial es exactamente la razón por la que a menudo se confunden.
+2. La adaptabilidad del método es la variable decisiva que separa a ambas.
+3. Esta pregunta de autoverificación pone en práctica el marco para usarlo en tiempo real.
+4. La evidencia de la adaptación del método, en lugar de la repetición a ciegas, es la señal que distingue aquí la persistencia.
 
 ## Puntos clave
 
-- Liderar significa convertir intención en una decisión observable.
-- Las personas, las operaciones y las finanzas están conectadas.
-- Una buena decisión declara sus supuestos y límites.
-- Toda acción importante necesita responsable, indicador y revisión.
-- Cambiar el método ante nueva evidencia es disciplina, no debilidad.
-
-## Ruta de aprendizaje
-
-- **Anterior:** BLACK-L1-019
-- **Actual:** BLACK-L1-020
-- **Siguiente:** BLACK-L1-021
-
-## Localización — España
-
-Contenido creado en español de España. Cuando una decisión dependa de legislación, fiscalidad, contabilidad o relaciones laborales, debe verificarse la normativa vigente y la situación concreta antes de actuar.
+- La persistencia y la terquedad se parecen, pero difieren en si el método se adapta según la retroalimentación.
+- La persistencia mantiene fija la meta mientras ajusta el enfoque; la terquedad repite sin cambios un método fallido.
+- Verifique con regularidad: ¿me estoy adaptando según lo que aprendo, o solo repito lo mismo a pura fuerza de voluntad?

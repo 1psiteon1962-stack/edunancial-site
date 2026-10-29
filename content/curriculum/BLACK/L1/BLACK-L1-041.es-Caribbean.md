@@ -4,123 +4,58 @@ track: BLACK
 officialTrackName: "Leadership & Executive Management"
 level: 1
 lessonNumber: 41
-locale: es-Caribbean
-title: "Crear una declaración de filosofía de liderazgo"
-summary: "Esta lección desarrolla la capacidad de definir principios que orienten decisiones, trato y responsabilidad, conectando liderazgo, ejecución, riesgo y responsabilidad financiera."
+title: "Construir una declaración de filosofía de liderazgo"
+summary: "Guía a los estudiantes para expresar sus propios principios centrales de liderazgo en una declaración concreta."
 version: "1.0"
 author: "Waldemar M. Caban, JD MA"
-date: "2026-09-01"
+date: "2026-08-09"
+locale: "es-Caribbean"
 ---
-
-# 41. Crear una declaración de filosofía de liderazgo
+<!-- Learning Objectives -->
+# Construir una declaración de filosofía de liderazgo
 
 ## Objetivos de aprendizaje
+<!-- Core Content -->
 
-Al terminar esta lección, el alumno podrá:
+- Explicar por qué tiene valor expresar de forma explícita una filosofía de liderazgo
+- Identificar los componentes de una declaración de filosofía de liderazgo útil
+- Practicar cómo redactar una declaración personal de filosofía de liderazgo
 
-1. Explicar por qué es importante definir principios que orienten decisiones, trato y responsabilidad.
-2. Separar hechos, supuestos, emociones y riesgos antes de decidir.
-3. Comparar al menos dos alternativas usando criterios observables.
-4. Asignar responsable, plazo, indicador y fecha de revisión.
-5. Relacionar la decisión con tiempo, coste, caja, productividad y confianza.
+## Contenido principal
 
-## Concepto principal
+Una declaración de filosofía de liderazgo es una expresión concisa y personal de los principios que guían su forma de liderar: no una lista genérica de valores que suenan admirables, sino un reflejo específico de lo que usted realmente ha aprendido que más importa. Ponerla por escrito de forma explícita, en lugar de dejarla como un instinto vago y sin examinar, tiene un valor real: aclara su propio pensamiento, le da a su equipo un punto de referencia constante sobre lo que puede esperar de usted y le da algo concreto a lo cual volver durante las decisiones difíciles.
 
-[HECHO VERIFICABLE] El liderazgo se observa en decisiones y conductas, no solamente en títulos o intenciones. Para definir principios que orienten decisiones, trato y responsabilidad, la persona responsable debe definir primero el resultado deseado y la evidencia que demostraría progreso. Después debe identificar a quién afecta la decisión, qué recursos consume y qué riesgo crea actuar o esperar.
+Una declaración útil normalmente incluye: los principios centrales que usted sostiene (basados en lecciones reales, no en lemas prestados), cómo maneja los reveses y los errores (los suyos y los de su equipo) y lo que espera a cambio de las personas que dirige. Debe ser lo bastante específica como para que alguien que la lea entienda algo real sobre cómo usted funciona en la práctica, y no solo frases hechas de liderazgo que podrían aplicarse a cualquiera.
 
-Una decisión disciplinada responde cinco preguntas: ¿qué resultado buscamos?, ¿qué hechos conocemos?, ¿qué estamos suponiendo?, ¿quién tiene autoridad y responsabilidad?, y ¿cuándo revisaremos el resultado? Este proceso no elimina la incertidumbre, pero evita que la urgencia, el orgullo o la costumbre sustituyan el criterio.
+No es un ejercicio de una sola vez: una declaración de filosofía de liderazgo debe revisarse y afinarse a medida que se acumula la experiencia y los principios se ponen a prueba y se aclaran más.
 
-## Aplicación práctica
+## Ejemplo práctico
 
-El líder debe convertir el tema en una acción observable. En este caso, la acción central es **definir principios que orienten decisiones, trato y responsabilidad**. Para hacerlo bien:
+Una líder que aprendió de primera mano que un acuerdo verbal no siempre refleja un compromiso real (del caso visto antes) podría incluir en su filosofía: «Creo en obtener un compromiso explícito y verificado en lugar de suponer que un "sí" significa lo que parece; no es desconfianza, es respeto por lo fácil que es para las personas aceptar algo sin quererlo decir del todo». Esto es específico y está basado en una experiencia real, y no es una afirmación genérica como «valoro la comunicación clara», que podría aplicarse a casi cualquiera sin decir nada distintivo.
 
-- Define el problema sin culpar a una persona.
-- Establece un resultado concreto y un plazo razonable.
-- Reúne datos proporcionales al riesgo de la decisión.
-- Calcula el coste de actuar, esperar y equivocarse.
-- Elige una alternativa reversible cuando la incertidumbre sea alta.
-- Comunica quién decide, quién ejecuta y quién debe ser informado.
-- Programa una revisión y corrige el método si la evidencia lo exige.
+## Prueba práctica
 
-## Ejemplo desarrollado
+1. ¿Qué es una declaración de filosofía de liderazgo?
+2. ¿Por qué tiene valor ponerla por escrito de forma explícita?
+3. Nombre los tres componentes que normalmente incluye una declaración útil.
+4. ¿Por qué la declaración de ejemplo sobre el compromiso verificado funciona mejor que una declaración de valores genérica?
 
-Una pequeña empresa tiene ocho empleados y detecta un problema relacionado con **definir principios que orienten decisiones, trato y responsabilidad**. Durante dos meses se han repetido conversaciones, pero nadie ha definido una medida de éxito. El retraso consume unas 20 horas de trabajo al mes y genera errores que cuestan aproximadamente 1.200 €. La responsable fija un resultado a 30 días, recoge tres datos, compara dos alternativas y asigna un único responsable. Cada semana revisa un indicador y documenta lo aprendido.
+## Clave de respuestas
 
-El valor del proceso no está en acertar perfectamente desde el primer día. Está en crear una decisión explicable, medible y corregible antes de que el problema se convierta en una costumbre costosa.
+1. Una expresión concisa y personal de los principios que guían la forma en que usted realmente lidera.
+2. Aclara el pensamiento, le da al equipo un punto de referencia constante y ofrece algo concreto a lo cual volver en las decisiones difíciles.
+3. Los principios centrales, cómo maneja los reveses y los errores, y lo que espera de las personas que dirige.
+4. Porque es específica y está basada en una experiencia real, en lugar de ser una frase hecha genérica que podría aplicarse a cualquiera.
 
-## Escenario de decisión
+## Respuestas y explicaciones
 
-Tu equipo no alcanza un objetivo importante. Una opción exige invertir 900 € en formación; otra requiere rediseñar el proceso durante 30 horas; una tercera mantiene el sistema actual y acepta el coste de los errores. No existe certeza sobre cuál funcionará mejor.
-
-**¿Qué harías?** Define el resultado, los datos que solicitarías, el riesgo máximo aceptable, la persona responsable y la evidencia que revisarías dentro de 30 días. Etiqueta claramente cualquier supuesto.
-
-## Errores comunes
-
-- Actuar antes de definir el resultado.
-- Confundir actividad con avance.
-- Defender una decisión porque ya se invirtió tiempo o dinero.
-- Delegar una tarea sin autoridad, recursos o seguimiento.
-- Ocultar malas noticias para evitar una conversación incómoda.
-- Usar una cifra sin explicar su fuente o supuesto.
-- Mantener el mismo método aunque la evidencia muestre que no funciona.
-
-## Herramienta de aplicación
-
-Completa esta ficha:
-
-- **Resultado deseado:**
-- **Cinco hechos comprobables:**
-- **Tres supuestos:**
-- **Dos alternativas:**
-- **Coste de cada alternativa:**
-- **Riesgo principal:**
-- **Responsable:**
-- **Indicador:**
-- **Fecha de revisión:**
-- **Evidencia que justificaría cambiar de método:**
-
-## Evaluación de competencia
-
-1. ¿Cuál debe ser el primer paso? A) Actuar de inmediato. B) Definir resultado y criterios. C) Esperar certeza. D) Evitar responsable.
-2. Explica la diferencia entre un hecho y un supuesto en este tema.
-3. Identifica un coste de esperar que normalmente no aparece en una factura.
-4. Propón un indicador que pueda revisarse semanalmente.
-5. Describe una alternativa reversible.
-6. Explica quién necesita autoridad para ejecutar.
-7. Identifica una consecuencia financiera posible.
-8. Explica qué evidencia te haría cambiar de método.
-9. Indica cómo comunicarías la decisión a las personas afectadas.
-10. Redacta una decisión completa con responsable, plazo e indicador.
-
-**Criterio de dominio:** 8 de 10 respuestas satisfactorias. Por debajo del 80 %, el alumno revisará el concepto fallado, resolverá un escenario nuevo y repetirá la comprobación.
-
-## Respuestas orientativas
-
-1. B: definir resultado y criterios antes de elegir una solución.
-2. Un hecho puede comprobarse; un supuesto debe declararse y probarse.
-3. Tiempo improductivo, pérdida de confianza, rotación o una oportunidad perdida.
-4. Una medida frecuente vinculada directamente al resultado.
-5. Una prueba limitada que pueda detenerse sin comprometer recursos excesivos.
-6. La persona responsable del resultado necesita autoridad proporcional.
-7. Puede afectar coste, ingresos, margen, caja, productividad o riesgo.
-8. Un indicador que contradiga el supuesto central o muestre daño inaceptable.
-9. Con hechos, propósito, efecto esperado, responsabilidades y canal de preguntas.
-10. Debe incluir resultado, acción, responsable, plazo, indicador y revisión.
+1. Esto define el propósito y la naturaleza de una declaración de filosofía de liderazgo.
+2. Expresarla de forma explícita cumple varias funciones prácticas, más allá de la simple autorreflexión.
+3. Estos tres componentes estructuran una declaración con sustancia en lugar de una vaga.
+4. La especificidad y el estar basada en una experiencia real son lo que separa una filosofía genuina de un lema genérico.
 
 ## Puntos clave
 
-- Liderar significa convertir intención en una decisión observable.
-- Las personas, las operaciones y las finanzas están conectadas.
-- Una buena decisión declara sus supuestos y límites.
-- Toda acción importante necesita responsable, indicador y revisión.
-- Cambiar el método ante nueva evidencia es disciplina, no debilidad.
-
-## Ruta de aprendizaje
-
-- **Anterior:** BLACK-L1-040
-- **Actual:** BLACK-L1-041
-- **Siguiente:** BLACK-L1-042
-
-## Localización — España
-
-Contenido creado en español de España. Cuando una decisión dependa de legislación, fiscalidad, contabilidad o relaciones laborales, debe verificarse la normativa vigente y la situación concreta antes de actuar.
+- Una declaración de filosofía de liderazgo expresa de forma explícita los principios reales que guían su forma de liderar.
+- Ponerla por escrito aclara su propio pensamiento y le da a su equipo un punto de referencia constante.
+- Las declaraciones útiles son específicas y están basadas en experiencias reales, no en frases hechas genéricas e intercambiables.

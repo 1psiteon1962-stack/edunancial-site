@@ -4,123 +4,58 @@ track: BLACK
 officialTrackName: "Leadership & Executive Management"
 level: 1
 lessonNumber: 34
-locale: es-Caribbean
-title: "Lo que un líder debe saber sobre flujo de caja"
-summary: "Esta lección desarrolla la capacidad de distinguir beneficio contable de efectivo disponible y anticipar faltantes, conectando liderazgo, ejecución, riesgo y responsabilidad financiera."
+title: "Lo que un líder necesita saber sobre el flujo de efectivo"
+summary: "Explica el flujo de efectivo como algo distinto de la ganancia y por qué los líderes deben vigilarlo por separado."
 version: "1.0"
 author: "Waldemar M. Caban, JD MA"
-date: "2026-09-01"
+date: "2026-08-09"
+locale: "es-Caribbean"
 ---
-
-# 34. Lo que un líder debe saber sobre flujo de caja
+<!-- Learning Objectives -->
+# Lo que un líder necesita saber sobre el flujo de efectivo
 
 ## Objetivos de aprendizaje
+<!-- Core Content -->
 
-Al terminar esta lección, el alumno podrá:
+- Distinguir el flujo de efectivo de la ganancia
+- Explicar por qué un negocio rentable puede tener de todos modos problemas serios
+- Identificar prácticas básicas que ayudan a un líder a vigilar el flujo de efectivo
 
-1. Explicar por qué es importante distinguir beneficio contable de efectivo disponible y anticipar faltantes.
-2. Separar hechos, supuestos, emociones y riesgos antes de decidir.
-3. Comparar al menos dos alternativas usando criterios observables.
-4. Asignar responsable, plazo, indicador y fecha de revisión.
-5. Relacionar la decisión con tiempo, coste, caja, productividad y confianza.
+## Contenido principal
 
-## Concepto principal
+La ganancia y el flujo de efectivo no son lo mismo, y confundirlos es uno de los errores más peligrosos que puede cometer un líder. La ganancia es lo que queda después de restar los gastos de los ingresos, en papel, durante un periodo. El flujo de efectivo tiene que ver con el tiempo: cuándo llega realmente el dinero y cuándo tiene que salir realmente. Un negocio puede ser rentable en papel y aun así quedarse sin efectivo real para pagar sus facturas, si los ingresos llegan después de la fecha en que vencen los gastos.
 
-[HECHO VERIFICABLE] El liderazgo se observa en decisiones y conductas, no solamente en títulos o intenciones. Para distinguir beneficio contable de efectivo disponible y anticipar faltantes, la persona responsable debe definir primero el resultado deseado y la evidencia que demostraría progreso. Después debe identificar a quién afecta la decisión, qué recursos consume y qué riesgo crea actuar o esperar.
+Esto ocurre comúnmente cuando un negocio les da crédito a sus clientes (le deben dinero, pero todavía no han pagado) mientras sigue teniendo que pagar sus propias facturas —alquiler, nómina, suplidores— según un calendario fijo. El negocio puede ser rentable en el sentido de que con el tiempo cobrará más de lo que debe, pero si los tiempos no coinciden, puede enfrentar una verdadera crisis de efectivo a pesar de ser rentable en papel.
 
-Una decisión disciplinada responde cinco preguntas: ¿qué resultado buscamos?, ¿qué hechos conocemos?, ¿qué estamos suponiendo?, ¿quién tiene autoridad y responsabilidad?, y ¿cuándo revisaremos el resultado? Este proceso no elimina la incertidumbre, pero evita que la urgencia, el orgullo o la costumbre sustituyan el criterio.
+Los líderes deben llevar el control del flujo de efectivo por separado de la ganancia: cuánto efectivo hay realmente disponible ahora mismo, qué va a entrar y cuándo, y qué va a salir y cuándo. Una proyección sencilla del flujo de efectivo —que estime el efectivo que se espera que entre y salga en las próximas semanas o meses— detecta los problemas de tiempo antes de que se conviertan en emergencias.
 
-## Aplicación práctica
+## Ejemplo práctico
 
-El líder debe convertir el tema en una acción observable. En este caso, la acción central es **distinguir beneficio contable de efectivo disponible y anticipar faltantes**. Para hacerlo bien:
+Un negocio de consultoría les factura a sus clientes con plazos de pago de 60 días, pero tiene que pagarles a sus propios contratistas en un plazo de 15 días. Aunque el negocio es realmente rentable —los clientes terminan pagando más de lo que cuestan los contratistas—, el desfase entre pagarles rápido a los contratistas y cobrarles despacio a los clientes puede crear una escasez real de efectivo mientras tanto. Un líder que lleve el control del flujo de efectivo por separado de la ganancia vería venir este desfase y podría acordar una solución a corto plazo (una línea de crédito, ajustar los plazos de pago) antes de que se convierta en una emergencia, en lugar de que lo tome por sorpresa un negocio «rentable» que de repente no puede pagar la nómina.
 
-- Define el problema sin culpar a una persona.
-- Establece un resultado concreto y un plazo razonable.
-- Reúne datos proporcionales al riesgo de la decisión.
-- Calcula el coste de actuar, esperar y equivocarse.
-- Elige una alternativa reversible cuando la incertidumbre sea alta.
-- Comunica quién decide, quién ejecuta y quién debe ser informado.
-- Programa una revisión y corrige el método si la evidencia lo exige.
+## Prueba práctica
 
-## Ejemplo desarrollado
+1. ¿Cuál es la diferencia entre la ganancia y el flujo de efectivo?
+2. ¿Por qué un negocio rentable puede quedarse sin efectivo de todos modos?
+3. ¿Qué causa comúnmente este tipo de desfase de tiempo?
+4. ¿Qué práctica ayuda a un líder a detectar los problemas de flujo de efectivo antes de que se conviertan en emergencias?
 
-Una pequeña empresa tiene ocho empleados y detecta un problema relacionado con **distinguir beneficio contable de efectivo disponible y anticipar faltantes**. Durante dos meses se han repetido conversaciones, pero nadie ha definido una medida de éxito. El retraso consume unas 20 horas de trabajo al mes y genera errores que cuestan aproximadamente 1.200 €. La responsable fija un resultado a 30 días, recoge tres datos, compara dos alternativas y asigna un único responsable. Cada semana revisa un indicador y documenta lo aprendido.
+## Clave de respuestas
 
-El valor del proceso no está en acertar perfectamente desde el primer día. Está en crear una decisión explicable, medible y corregible antes de que el problema se convierta en una costumbre costosa.
+1. La ganancia es lo que queda después de los gastos, en papel, durante un periodo; el flujo de efectivo tiene que ver con el tiempo real en que el dinero entra y sale.
+2. Porque los ingresos pueden llegar después de la fecha en que vencen los gastos, lo que crea un desfase de tiempo aunque el negocio sea rentable en conjunto.
+3. Darles crédito a los clientes mientras el negocio sigue teniendo sus propias obligaciones fijas de pago con un calendario más rápido.
+4. Una proyección sencilla del flujo de efectivo que estime el efectivo que se espera que entre y salga en las próximas semanas o meses.
 
-## Escenario de decisión
+## Respuestas y explicaciones
 
-Tu equipo no alcanza un objetivo importante. Una opción exige invertir 900 € en formación; otra requiere rediseñar el proceso durante 30 horas; una tercera mantiene el sistema actual y acepta el coste de los errores. No existe certeza sobre cuál funcionará mejor.
-
-**¿Qué harías?** Define el resultado, los datos que solicitarías, el riesgo máximo aceptable, la persona responsable y la evidencia que revisarías dentro de 30 días. Etiqueta claramente cualquier supuesto.
-
-## Errores comunes
-
-- Actuar antes de definir el resultado.
-- Confundir actividad con avance.
-- Defender una decisión porque ya se invirtió tiempo o dinero.
-- Delegar una tarea sin autoridad, recursos o seguimiento.
-- Ocultar malas noticias para evitar una conversación incómoda.
-- Usar una cifra sin explicar su fuente o supuesto.
-- Mantener el mismo método aunque la evidencia muestre que no funciona.
-
-## Herramienta de aplicación
-
-Completa esta ficha:
-
-- **Resultado deseado:**
-- **Cinco hechos comprobables:**
-- **Tres supuestos:**
-- **Dos alternativas:**
-- **Coste de cada alternativa:**
-- **Riesgo principal:**
-- **Responsable:**
-- **Indicador:**
-- **Fecha de revisión:**
-- **Evidencia que justificaría cambiar de método:**
-
-## Evaluación de competencia
-
-1. ¿Cuál debe ser el primer paso? A) Actuar de inmediato. B) Definir resultado y criterios. C) Esperar certeza. D) Evitar responsable.
-2. Explica la diferencia entre un hecho y un supuesto en este tema.
-3. Identifica un coste de esperar que normalmente no aparece en una factura.
-4. Propón un indicador que pueda revisarse semanalmente.
-5. Describe una alternativa reversible.
-6. Explica quién necesita autoridad para ejecutar.
-7. Identifica una consecuencia financiera posible.
-8. Explica qué evidencia te haría cambiar de método.
-9. Indica cómo comunicarías la decisión a las personas afectadas.
-10. Redacta una decisión completa con responsable, plazo e indicador.
-
-**Criterio de dominio:** 8 de 10 respuestas satisfactorias. Por debajo del 80 %, el alumno revisará el concepto fallado, resolverá un escenario nuevo y repetirá la comprobación.
-
-## Respuestas orientativas
-
-1. B: definir resultado y criterios antes de elegir una solución.
-2. Un hecho puede comprobarse; un supuesto debe declararse y probarse.
-3. Tiempo improductivo, pérdida de confianza, rotación o una oportunidad perdida.
-4. Una medida frecuente vinculada directamente al resultado.
-5. Una prueba limitada que pueda detenerse sin comprometer recursos excesivos.
-6. La persona responsable del resultado necesita autoridad proporcional.
-7. Puede afectar coste, ingresos, margen, caja, productividad o riesgo.
-8. Un indicador que contradiga el supuesto central o muestre daño inaceptable.
-9. Con hechos, propósito, efecto esperado, responsabilidades y canal de preguntas.
-10. Debe incluir resultado, acción, responsable, plazo, indicador y revisión.
+1. Esta distinción es el concepto central que enseña la lección: la ganancia y el flujo de efectivo responden preguntas distintas.
+2. Los desfases de tiempo, y no la falta de rentabilidad de fondo, son la causa real de muchas crisis de efectivo.
+3. Los desfases entre los plazos de pago de lo que un negocio debe y de lo que le deben son una fuente común de este problema.
+4. La proyección saca a la luz los desfases de tiempo de forma proactiva, antes de que se conviertan en emergencias urgentes.
 
 ## Puntos clave
 
-- Liderar significa convertir intención en una decisión observable.
-- Las personas, las operaciones y las finanzas están conectadas.
-- Una buena decisión declara sus supuestos y límites.
-- Toda acción importante necesita responsable, indicador y revisión.
-- Cambiar el método ante nueva evidencia es disciplina, no debilidad.
-
-## Ruta de aprendizaje
-
-- **Anterior:** BLACK-L1-033
-- **Actual:** BLACK-L1-034
-- **Siguiente:** BLACK-L1-035
-
-## Localización — España
-
-Contenido creado en español de España. Cuando una decisión dependa de legislación, fiscalidad, contabilidad o relaciones laborales, debe verificarse la normativa vigente y la situación concreta antes de actuar.
+- La ganancia y el flujo de efectivo son conceptos distintos: la ganancia está en papel; el flujo de efectivo tiene que ver con el tiempo real.
+- Un negocio realmente rentable puede tener de todos modos problemas serios si los tiempos del efectivo no coinciden.
+- Llevar el control del flujo de efectivo por separado, con una proyección sencilla, detecta los problemas de tiempo antes de que se conviertan en crisis.

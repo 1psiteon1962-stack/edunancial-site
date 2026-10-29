@@ -4,123 +4,58 @@ track: BLACK
 officialTrackName: "Leadership & Executive Management"
 level: 1
 lessonNumber: 45
-locale: es-Caribbean
-title: "Liderazgo ético bajo presión"
-summary: "Esta lección desarrolla la capacidad de proteger principios, personas y confianza cuando existe presión por resultados, conectando liderazgo, ejecución, riesgo y responsabilidad financiera."
+title: "El liderazgo ético bajo presión"
+summary: "Explica por qué las normas éticas importan más, y son más difíciles de mantener, en los momentos de mucha presión."
 version: "1.0"
 author: "Waldemar M. Caban, JD MA"
-date: "2026-09-01"
+date: "2026-08-09"
+locale: "es-Caribbean"
 ---
-
-# 45. Liderazgo ético bajo presión
+<!-- Learning Objectives -->
+# El liderazgo ético bajo presión
 
 ## Objetivos de aprendizaje
+<!-- Core Content -->
 
-Al terminar esta lección, el alumno podrá:
+- Explicar por qué las normas éticas se ponen a prueba con más dureza bajo presión
+- Identificar las justificaciones comunes que desgastan las normas éticas durante una crisis
+- Practicar cómo evaluar una decisión tomada bajo presión frente a una norma ética declarada
 
-1. Explicar por qué es importante proteger principios, personas y confianza cuando existe presión por resultados.
-2. Separar hechos, supuestos, emociones y riesgos antes de decidir.
-3. Comparar al menos dos alternativas usando criterios observables.
-4. Asignar responsable, plazo, indicador y fecha de revisión.
-5. Relacionar la decisión con tiempo, coste, caja, productividad y confianza.
+## Contenido principal
 
-## Concepto principal
+Es fácil mantener las normas éticas cuando no hay nada en juego. La verdadera prueba llega bajo presión: cuando tomar un atajo resolvería un problema urgente, cuando es poco probable que se descubra un atajo, o cuando el camino honesto es mucho más difícil que una alternativa conveniente. A los líderes los juzgan sus equipos, y con el tiempo su propia conciencia, por lo que hacen exactamente en esos momentos, y no por lo que dicen creer cuando las cosas están tranquilas.
 
-[HECHO VERIFICABLE] El liderazgo se observa en decisiones y conductas, no solamente en títulos o intenciones. Para proteger principios, personas y confianza cuando existe presión por resultados, la persona responsable debe definir primero el resultado deseado y la evidencia que demostraría progreso. Después debe identificar a quién afecta la decisión, qué recursos consume y qué riesgo crea actuar o esperar.
+La presión crea justificaciones previsibles que desgastan las normas éticas poco a poco y no de golpe: «solo esta vez», «todo el mundo lo hace», «el fin lo justifica, con todo lo que está en juego», «nadie se va a enterar». Estas justificaciones se sienten razonables en el momento precisamente por la presión, y por eso son peligrosas: no se anuncian como una forma de ceder en una norma, sino que se presentan como una excepción razonable y temporal.
 
-Una decisión disciplinada responde cinco preguntas: ¿qué resultado buscamos?, ¿qué hechos conocemos?, ¿qué estamos suponiendo?, ¿quién tiene autoridad y responsabilidad?, y ¿cuándo revisaremos el resultado? Este proceso no elimina la incertidumbre, pero evita que la urgencia, el orgullo o la costumbre sustituyan el criterio.
+Una disciplina útil: decida sus normas éticas de antemano, en momentos de calma, precisamente para que ya estén resueltas antes de que llegue la presión a tratar de convencerlo de lo contrario. Un líder que ya decidió «no tomo atajos con la seguridad, sin importar la presión de la fecha límite» tiene más facilidad para mantener esa línea bajo presión que uno que intenta razonarlo desde cero en el propio momento de estrés.
 
-## Aplicación práctica
+## Ejemplo práctico
 
-El líder debe convertir el tema en una acción observable. En este caso, la acción central es **proteger principios, personas y confianza cuando existe presión por resultados**. Para hacerlo bien:
+Una líder que enfrenta una fecha límite apretada siente la tentación de lanzar un producto con un problema de seguridad conocido y aparentemente menor, con el razonamiento de que «probablemente no pase nada, y de verdad necesitamos cumplir con esta fecha». Como antes, en un momento de calma, decidió de forma explícita que los problemas de seguridad nunca se lanzan sin importar la presión de la fecha límite, la líder reconoce la justificación por lo que es y retrasa el lanzamiento: una decisión más difícil a corto plazo, pero coherente con una norma decidida antes de que existiera la presión para argumentar en su contra.
 
-- Define el problema sin culpar a una persona.
-- Establece un resultado concreto y un plazo razonable.
-- Reúne datos proporcionales al riesgo de la decisión.
-- Calcula el coste de actuar, esperar y equivocarse.
-- Elige una alternativa reversible cuando la incertidumbre sea alta.
-- Comunica quién decide, quién ejecuta y quién debe ser informado.
-- Programa una revisión y corrige el método si la evidencia lo exige.
+## Prueba práctica
 
-## Ejemplo desarrollado
+1. Según esta lección, ¿cuándo se ponen a prueba con más dureza las normas éticas?
+2. Nombre dos justificaciones comunes que desgastan las normas éticas bajo presión.
+3. ¿Qué disciplina recomienda esta lección para mantener las normas éticas bajo presión?
+4. En el ejemplo práctico, ¿qué le permitió a la líder resistir la justificación para lanzar el producto de todos modos?
 
-Una pequeña empresa tiene ocho empleados y detecta un problema relacionado con **proteger principios, personas y confianza cuando existe presión por resultados**. Durante dos meses se han repetido conversaciones, pero nadie ha definido una medida de éxito. El retraso consume unas 20 horas de trabajo al mes y genera errores que cuestan aproximadamente 1.200 €. La responsable fija un resultado a 30 días, recoge tres datos, compara dos alternativas y asigna un único responsable. Cada semana revisa un indicador y documenta lo aprendido.
+## Clave de respuestas
 
-El valor del proceso no está en acertar perfectamente desde el primer día. Está en crear una decisión explicable, medible y corregible antes de que el problema se convierta en una costumbre costosa.
+1. Bajo presión, cuando tomar un atajo resolvería un problema urgente o pasaría sin descubrirse.
+2. Dos cualesquiera de estas: «solo esta vez», «todo el mundo lo hace», «el fin lo justifica», «nadie se va a enterar».
+3. Decidir las normas éticas de antemano, en momentos de calma, antes de que llegue la presión a argumentar en su contra.
+4. Haber decidido antes, en un momento de calma, una norma clara de que los problemas de seguridad nunca se lanzan, sin importar la presión de la fecha límite.
 
-## Escenario de decisión
+## Respuestas y explicaciones
 
-Tu equipo no alcanza un objetivo importante. Una opción exige invertir 900 € en formación; otra requiere rediseñar el proceso durante 30 horas; una tercera mantiene el sistema actual y acepta el coste de los errores. No existe certeza sobre cuál funcionará mejor.
-
-**¿Qué harías?** Define el resultado, los datos que solicitarías, el riesgo máximo aceptable, la persona responsable y la evidencia que revisarías dentro de 30 días. Etiqueta claramente cualquier supuesto.
-
-## Errores comunes
-
-- Actuar antes de definir el resultado.
-- Confundir actividad con avance.
-- Defender una decisión porque ya se invirtió tiempo o dinero.
-- Delegar una tarea sin autoridad, recursos o seguimiento.
-- Ocultar malas noticias para evitar una conversación incómoda.
-- Usar una cifra sin explicar su fuente o supuesto.
-- Mantener el mismo método aunque la evidencia muestre que no funciona.
-
-## Herramienta de aplicación
-
-Completa esta ficha:
-
-- **Resultado deseado:**
-- **Cinco hechos comprobables:**
-- **Tres supuestos:**
-- **Dos alternativas:**
-- **Coste de cada alternativa:**
-- **Riesgo principal:**
-- **Responsable:**
-- **Indicador:**
-- **Fecha de revisión:**
-- **Evidencia que justificaría cambiar de método:**
-
-## Evaluación de competencia
-
-1. ¿Cuál debe ser el primer paso? A) Actuar de inmediato. B) Definir resultado y criterios. C) Esperar certeza. D) Evitar responsable.
-2. Explica la diferencia entre un hecho y un supuesto en este tema.
-3. Identifica un coste de esperar que normalmente no aparece en una factura.
-4. Propón un indicador que pueda revisarse semanalmente.
-5. Describe una alternativa reversible.
-6. Explica quién necesita autoridad para ejecutar.
-7. Identifica una consecuencia financiera posible.
-8. Explica qué evidencia te haría cambiar de método.
-9. Indica cómo comunicarías la decisión a las personas afectadas.
-10. Redacta una decisión completa con responsable, plazo e indicador.
-
-**Criterio de dominio:** 8 de 10 respuestas satisfactorias. Por debajo del 80 %, el alumno revisará el concepto fallado, resolverá un escenario nuevo y repetirá la comprobación.
-
-## Respuestas orientativas
-
-1. B: definir resultado y criterios antes de elegir una solución.
-2. Un hecho puede comprobarse; un supuesto debe declararse y probarse.
-3. Tiempo improductivo, pérdida de confianza, rotación o una oportunidad perdida.
-4. Una medida frecuente vinculada directamente al resultado.
-5. Una prueba limitada que pueda detenerse sin comprometer recursos excesivos.
-6. La persona responsable del resultado necesita autoridad proporcional.
-7. Puede afectar coste, ingresos, margen, caja, productividad o riesgo.
-8. Un indicador que contradiga el supuesto central o muestre daño inaceptable.
-9. Con hechos, propósito, efecto esperado, responsabilidades y canal de preguntas.
-10. Debe incluir resultado, acción, responsable, plazo, indicador y revisión.
+1. La presión es precisamente el momento en que las normas éticas enfrentan su prueba más difícil y significativa.
+2. Estas justificaciones se nombran como patrones previsibles que desgastan las normas poco a poco y no de golpe.
+3. Decidir las normas de antemano elimina la necesidad de razonar la ética desde cero bajo una presión activa.
+4. Este ejemplo demuestra directamente el valor práctico de la disciplina de «decidir de antemano».
 
 ## Puntos clave
 
-- Liderar significa convertir intención en una decisión observable.
-- Las personas, las operaciones y las finanzas están conectadas.
-- Una buena decisión declara sus supuestos y límites.
-- Toda acción importante necesita responsable, indicador y revisión.
-- Cambiar el método ante nueva evidencia es disciplina, no debilidad.
-
-## Ruta de aprendizaje
-
-- **Anterior:** BLACK-L1-044
-- **Actual:** BLACK-L1-045
-- **Siguiente:** BLACK-L1-046
-
-## Localización — España
-
-Contenido creado en español de España. Cuando una decisión dependa de legislación, fiscalidad, contabilidad o relaciones laborales, debe verificarse la normativa vigente y la situación concreta antes de actuar.
+- Las normas éticas se ponen a prueba con más dureza bajo presión, no en momentos tranquilos y de poco en juego.
+- Las justificaciones comunes («solo esta vez», «nadie se va a enterar») desgastan las normas poco a poco y se sienten razonables en el momento.
+- Decidir las normas éticas de antemano, en momentos de calma, hace más fácil mantenerlas cuando la presión realmente llega.
