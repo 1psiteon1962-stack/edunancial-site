@@ -2,250 +2,60 @@
 id: BLACK-L1-011
 track: BLACK
 officialTrackName: "Leadership & Executive Management"
-color: BLACK
 level: 1
 lessonNumber: 11
-locale: es-Caribbean
 title: "La confianza como moneda de un equipo"
-summary: "Esta lección enseña a **crear previsibilidad mediante competencia, honestidad y cumplimiento**. El alumno aprenderá a convertir el concepto en una decisión observable, conectando personas, ejecución, riesgo y recursos financieros."
+summary: "Explica cómo la confianza funciona como el recurso que determina la capacidad real de un equipo para rendir."
+version: "1.0"
+author: "Waldemar M. Caban, JD MA"
+date: "2026-08-09"
+locale: "es-Caribbean"
 ---
-
-# 11. La confianza como moneda de un equipo
-
-### BLACK-L1-011-MAIN
-## Resumen ejecutivo
-Esta lección enseña a **crear previsibilidad mediante competencia, honestidad y cumplimiento**. El alumno aprenderá a convertir el concepto en una decisión observable, conectando personas, ejecución, riesgo y recursos financieros.
+<!-- Learning Objectives -->
+# La confianza como moneda de un equipo
 
 ## Objetivos de aprendizaje
-- **Alfabetización financiera:** reconocer el efecto de la decisión sobre recursos.
-- **Competencia financiera:** relacionarla con coste, ingresos, margen, caja o productividad.
-- **Mejor criterio:** separar hechos, supuestos y alternativas.
-- **Mejores decisiones:** asignar responsable, plazo e indicador.
-- **Construcción de patrimonio:** proteger capital y capacidad de reinversión mediante mejores decisiones.
+<!-- Core Content -->
 
-## Prerrequisitos
-No se requiere formación empresarial previa; basta con aritmética básica y disposición para justificar decisiones.
+- Explicar por qué la confianza funciona como una moneda dentro de un equipo
+- Identificar acciones que construyen o agotan la confianza del equipo
+- Reconocer el efecto acumulativo de la confianza con el tiempo
 
-## Lección principal
-### 1. Aplicación 1: Crear previsibilidad mediante competencia, honestidad y cumplimiento
-[HECHO VERIFICABLE] Una decisión de liderazgo puede evaluarse por sus consecuencias observables. En este tema, el líder empieza definiendo el resultado que pretende conseguir y la evidencia que permitiría reconocerlo. Después separa hechos de suposiciones, identifica a las personas afectadas y calcula qué recursos consume la alternativa.
+## Contenido principal
 
-La disciplina consiste en preguntar: ¿qué problema resolvemos?, ¿qué sabemos?, ¿qué desconocemos?, ¿qué cuesta actuar?, ¿qué cuesta esperar?, ¿qué riesgo podemos soportar? y ¿quién será responsable del seguimiento? El objetivo práctico es **crear previsibilidad mediante competencia, honestidad y cumplimiento**. Una decisión sin fecha de revisión convierte una hipótesis en costumbre; una decisión revisable crea aprendizaje.
-### 2. Aplicación 2: Crear previsibilidad mediante competencia, honestidad y cumplimiento
-[HECHO VERIFICABLE] Una decisión de liderazgo puede evaluarse por sus consecuencias observables. En este tema, el líder empieza definiendo el resultado que pretende conseguir y la evidencia que permitiría reconocerlo. Después separa hechos de suposiciones, identifica a las personas afectadas y calcula qué recursos consume la alternativa.
+La confianza dentro de un equipo funciona más o menos como una moneda: se gana, se puede gastar y, una vez agotada, todo se vuelve más caro. Un equipo con mucha confianza puede avanzar rápido, porque las personas no pierden tiempo cuestionando los motivos de los demás ni verificando dos veces cada compromiso. Un equipo con poca confianza avanza despacio, porque cada interacción requiere verificación adicional, explicaciones adicionales y cautela adicional.
 
-La disciplina consiste en preguntar: ¿qué problema resolvemos?, ¿qué sabemos?, ¿qué desconocemos?, ¿qué cuesta actuar?, ¿qué cuesta esperar?, ¿qué riesgo podemos soportar? y ¿quién será responsable del seguimiento? El objetivo práctico es **crear previsibilidad mediante competencia, honestidad y cumplimiento**. Una decisión sin fecha de revisión convierte una hipótesis en costumbre; una decisión revisable crea aprendizaje.
-### 3. Aplicación 3: Crear previsibilidad mediante competencia, honestidad y cumplimiento
-[HECHO VERIFICABLE] Una decisión de liderazgo puede evaluarse por sus consecuencias observables. En este tema, el líder empieza definiendo el resultado que pretende conseguir y la evidencia que permitiría reconocerlo. Después separa hechos de suposiciones, identifica a las personas afectadas y calcula qué recursos consume la alternativa.
+La confianza se construye con acciones pequeñas y constantes a lo largo del tiempo: cumplir los compromisos, comunicarse con honestidad aunque sea incómodo y tratar los errores como oportunidades de aprendizaje y no como ocasiones para culpar. La confianza se agota con lo contrario: promesas rotas, información oculta y castigar la honestidad sobre los problemas.
 
-La disciplina consiste en preguntar: ¿qué problema resolvemos?, ¿qué sabemos?, ¿qué desconocemos?, ¿qué cuesta actuar?, ¿qué cuesta esperar?, ¿qué riesgo podemos soportar? y ¿quién será responsable del seguimiento? El objetivo práctico es **crear previsibilidad mediante competencia, honestidad y cumplimiento**. Una decisión sin fecha de revisión convierte una hipótesis en costumbre; una decisión revisable crea aprendizaje.
-### 4. Aplicación 4: Crear previsibilidad mediante competencia, honestidad y cumplimiento
-[HECHO VERIFICABLE] Una decisión de liderazgo puede evaluarse por sus consecuencias observables. En este tema, el líder empieza definiendo el resultado que pretende conseguir y la evidencia que permitiría reconocerlo. Después separa hechos de suposiciones, identifica a las personas afectadas y calcula qué recursos consume la alternativa.
+El efecto acumulativo importa aquí. Un equipo con grandes reservas de confianza puede absorber un error ocasional sin un daño importante. Un equipo con reservas de confianza ya agotadas puede caer en una disfunción grave por el mismo error, porque no le queda reserva para absorberlo.
 
-La disciplina consiste en preguntar: ¿qué problema resolvemos?, ¿qué sabemos?, ¿qué desconocemos?, ¿qué cuesta actuar?, ¿qué cuesta esperar?, ¿qué riesgo podemos soportar? y ¿quién será responsable del seguimiento? El objetivo práctico es **crear previsibilidad mediante competencia, honestidad y cumplimiento**. Una decisión sin fecha de revisión convierte una hipótesis en costumbre; una decisión revisable crea aprendizaje.
-### 5. Aplicación 5: Crear previsibilidad mediante competencia, honestidad y cumplimiento
-[HECHO VERIFICABLE] Una decisión de liderazgo puede evaluarse por sus consecuencias observables. En este tema, el líder empieza definiendo el resultado que pretende conseguir y la evidencia que permitiría reconocerlo. Después separa hechos de suposiciones, identifica a las personas afectadas y calcula qué recursos consume la alternativa.
+## Ejemplo práctico
 
-La disciplina consiste en preguntar: ¿qué problema resolvemos?, ¿qué sabemos?, ¿qué desconocemos?, ¿qué cuesta actuar?, ¿qué cuesta esperar?, ¿qué riesgo podemos soportar? y ¿quién será responsable del seguimiento? El objetivo práctico es **crear previsibilidad mediante competencia, honestidad y cumplimiento**. Una decisión sin fecha de revisión convierte una hipótesis en costumbre; una decisión revisable crea aprendizaje.
+Dos equipos sufren el mismo revés: una fecha límite incumplida a causa de un malentendido honesto. El equipo A ha construido confianza durante años de cumplimiento constante; trata el incumplimiento como un problema de proceso que hay que resolver juntos, y el ánimo apenas baja. El equipo B tiene un historial de echarse la culpa y de promesas rotas; el mismo incumplimiento desata acusaciones, actitudes defensivas y un desgaste aún mayor de una confianza que ya era escasa. El suceso fue idéntico: el resultado dependió por completo de la reserva de confianza que cada equipo había construido antes.
 
-## Definiciones clave
-- **Resultado:** cambio observable que se pretende conseguir.
-- **Criterio:** regla utilizada para comparar alternativas.
-- **Riesgo:** posibilidad de que un resultado afecte negativamente al objetivo.
-- **Indicador:** medida utilizada para observar progreso o resultado.
-- **Responsable:** persona que debe ejecutar o rendir cuentas sobre una acción.
+## Prueba práctica
 
-### BLACK-L1-011-EXAMPLES
-## Ejemplo desarrollado
-Una pequeña empresa detecta un problema relacionado con **crear previsibilidad mediante competencia, honestidad y cumplimiento**. En vez de reaccionar de inmediato, la responsable fija un resultado a 30 días, recoge tres datos relevantes, estima el coste de dos alternativas y define un indicador semanal. Elige una opción reversible, asigna responsable y programa una revisión. Si el indicador no mejora, cambia el método sin abandonar el objetivo.
+1. ¿En qué sentido funciona la confianza como una moneda?
+2. Nombre dos acciones que construyen la confianza y dos que la agotan.
+3. ¿Por qué un equipo con mucha confianza puede absorber los errores con más facilidad que un equipo con poca confianza?
+4. En el ejemplo práctico, ¿qué determinó los resultados distintos a pesar de un revés idéntico?
 
-## Estudio de caso
-Un equipo de ocho personas lleva dos meses incumpliendo un resultado importante. La dirección ha celebrado más reuniones, pero no ha definido un único responsable ni una medida de éxito. El coste del retraso es de 1.200 € al mes entre horas improductivas, incidencias y oportunidades perdidas. El líder debe decidir si rediseña el proceso, reasigna responsabilidades o mantiene el sistema actual. Antes de conocer el desenlace, el alumno debe elegir una opción y justificarla con datos.
+## Clave de respuestas
 
-**Pregunta de decisión:** ¿qué harías y qué dato exigirías revisar dentro de 30 días?
+1. Se gana con una conducta constante, se puede ir gastando y todo se vuelve más difícil una vez que se agota.
+2. La construyen: cumplir los compromisos, la comunicación honesta. La agotan: las promesas rotas, la información oculta.
+3. Porque una reserva de confianza absorbe el golpe de un solo error sin desatar una disfunción más amplia.
+4. La reserva de confianza que cada equipo había construido (o no había logrado construir) antes de que ocurriera el revés.
 
-## Errores comunes
-- Actuar antes de definir el problema.
-- Confundir actividad con resultado.
-- No estimar el coste de esperar.
-- Delegar una tarea sin autoridad ni seguimiento.
-- Mantener una decisión porque ya se invirtió tiempo o dinero.
+## Respuestas y explicaciones
 
-## Preguntas frecuentes
-### ¿Un líder necesita certeza antes de decidir?
-No. Necesita información proporcional al riesgo y claridad sobre qué incertidumbre está aceptando.
-
-### ¿Toda decisión debe expresarse en euros?
-No, pero las decisiones relevantes deberían considerar su efecto sobre tiempo, capacidad, coste, ingresos, caja o riesgo cuando corresponda.
-
-### ¿Cambiar de decisión demuestra debilidad?
-No cuando nueva evidencia invalida los supuestos originales. Corregir con criterio es parte de la responsabilidad.
+1. La metáfora de la moneda capta cómo la confianza se acumula, se gasta y se agota mediante la conducta del equipo.
+2. Estas acciones específicas definen los cimientos prácticos de la confianza en un equipo.
+3. Las reservas de confianza funcionan como un amortiguador que absorbe los reveses ocasionales sin un daño importante.
+4. Este ejemplo aísla la reserva de confianza como la variable decisiva, manteniendo constante el suceso que lo desencadenó.
 
 ## Puntos clave
-- El objetivo de esta lección es crear previsibilidad mediante competencia, honestidad y cumplimiento.
-- Los criterios deben definirse antes de enamorarse de una solución.
-- Toda decisión importante necesita responsable, plazo, indicador y revisión.
-- Personas, operaciones y finanzas están conectadas.
 
-### BLACK-L1-011-EXERCISE
-## Ejercicio práctico
-Elige una situación real vinculada a **crear previsibilidad mediante competencia, honestidad y cumplimiento**. Escribe el resultado deseado, cinco hechos, tres supuestos, dos alternativas, coste estimado, riesgo principal, responsable, indicador y fecha de revisión. Explica qué evidencia te haría cambiar de método.
-
-### BLACK-L1-011-AI
-## Guía socrática
-1. ¿Qué resultado intentas conseguir?
-2. ¿Qué hechos puedes demostrar?
-3. ¿Qué estás suponiendo?
-4. ¿Quién se verá afectado?
-5. ¿Qué cuesta actuar?
-6. ¿Qué cuesta esperar?
-7. ¿Qué alternativa es reversible?
-8. ¿Qué indicador mostraría progreso?
-9. ¿Quién debe responder del resultado?
-10. ¿Qué evidencia justificaría cambiar de rumbo?
-
-### BLACK-L1-011-ASSESSMENT
-## Evaluación de competencia — 10 preguntas
-### 1. Opción múltiple
-1. En relación con **crear previsibilidad mediante competencia, honestidad y cumplimiento**, ¿qué debería hacer primero un líder competente?
-A) Actuar por impulso. B) Definir resultado y criterios, revisar hechos y riesgos. C) Esperar certeza absoluta. D) Evitar asignar responsable.
-
-### 2. Aplicación
-2. En relación con **crear previsibilidad mediante competencia, honestidad y cumplimiento**, ¿qué debería hacer primero un líder competente?
-A) Actuar por impulso. B) Definir resultado y criterios, revisar hechos y riesgos. C) Esperar certeza absoluta. D) Evitar asignar responsable.
-
-### 3. Aplicación
-3. En relación con **crear previsibilidad mediante competencia, honestidad y cumplimiento**, ¿qué debería hacer primero un líder competente?
-A) Actuar por impulso. B) Definir resultado y criterios, revisar hechos y riesgos. C) Esperar certeza absoluta. D) Evitar asignar responsable.
-
-### 4. Aplicación
-4. En relación con **crear previsibilidad mediante competencia, honestidad y cumplimiento**, ¿qué debería hacer primero un líder competente?
-A) Actuar por impulso. B) Definir resultado y criterios, revisar hechos y riesgos. C) Esperar certeza absoluta. D) Evitar asignar responsable.
-
-### 5. Opción múltiple
-5. En relación con **crear previsibilidad mediante competencia, honestidad y cumplimiento**, ¿qué debería hacer primero un líder competente?
-A) Actuar por impulso. B) Definir resultado y criterios, revisar hechos y riesgos. C) Esperar certeza absoluta. D) Evitar asignar responsable.
-
-### 6. Aplicación
-6. En relación con **crear previsibilidad mediante competencia, honestidad y cumplimiento**, ¿qué debería hacer primero un líder competente?
-A) Actuar por impulso. B) Definir resultado y criterios, revisar hechos y riesgos. C) Esperar certeza absoluta. D) Evitar asignar responsable.
-
-### 7. Aplicación
-7. En relación con **crear previsibilidad mediante competencia, honestidad y cumplimiento**, ¿qué debería hacer primero un líder competente?
-A) Actuar por impulso. B) Definir resultado y criterios, revisar hechos y riesgos. C) Esperar certeza absoluta. D) Evitar asignar responsable.
-
-### 8. Aplicación
-8. En relación con **crear previsibilidad mediante competencia, honestidad y cumplimiento**, ¿qué debería hacer primero un líder competente?
-A) Actuar por impulso. B) Definir resultado y criterios, revisar hechos y riesgos. C) Esperar certeza absoluta. D) Evitar asignar responsable.
-
-### 9. Aplicación
-9. En relación con **crear previsibilidad mediante competencia, honestidad y cumplimiento**, ¿qué debería hacer primero un líder competente?
-A) Actuar por impulso. B) Definir resultado y criterios, revisar hechos y riesgos. C) Esperar certeza absoluta. D) Evitar asignar responsable.
-
-### 10. Aplicación
-10. En relación con **crear previsibilidad mediante competencia, honestidad y cumplimiento**, ¿qué debería hacer primero un líder competente?
-A) Actuar por impulso. B) Definir resultado y criterios, revisar hechos y riesgos. C) Esperar certeza absoluta. D) Evitar asignar responsable.
-
-### BLACK-L1-011-ANSWER-KEY
-## Clave de respuestas comentada
-### 1. Respuesta
-**Respuesta esperada:** B. Definir el resultado, los criterios, los hechos disponibles y los riesgos antes de ejecutar.
-
-**Competencia evaluada:** aplicación de crear previsibilidad mediante competencia, honestidad y cumplimiento.
-
-**Error frecuente:** confundir rapidez con calidad de decisión o repetir una idea sin convertirla en acción medible.
-
-### 2. Respuesta
-**Respuesta esperada:** B. Definir el resultado, los criterios, los hechos disponibles y los riesgos antes de ejecutar.
-
-**Competencia evaluada:** aplicación de crear previsibilidad mediante competencia, honestidad y cumplimiento.
-
-**Error frecuente:** confundir rapidez con calidad de decisión o repetir una idea sin convertirla en acción medible.
-
-### 3. Respuesta
-**Respuesta esperada:** B. Definir el resultado, los criterios, los hechos disponibles y los riesgos antes de ejecutar.
-
-**Competencia evaluada:** aplicación de crear previsibilidad mediante competencia, honestidad y cumplimiento.
-
-**Error frecuente:** confundir rapidez con calidad de decisión o repetir una idea sin convertirla en acción medible.
-
-### 4. Respuesta
-**Respuesta esperada:** B. Definir el resultado, los criterios, los hechos disponibles y los riesgos antes de ejecutar.
-
-**Competencia evaluada:** aplicación de crear previsibilidad mediante competencia, honestidad y cumplimiento.
-
-**Error frecuente:** confundir rapidez con calidad de decisión o repetir una idea sin convertirla en acción medible.
-
-### 5. Respuesta
-**Respuesta esperada:** B. Definir el resultado, los criterios, los hechos disponibles y los riesgos antes de ejecutar.
-
-**Competencia evaluada:** aplicación de crear previsibilidad mediante competencia, honestidad y cumplimiento.
-
-**Error frecuente:** confundir rapidez con calidad de decisión o repetir una idea sin convertirla en acción medible.
-
-### 6. Respuesta
-**Respuesta esperada:** B. Definir el resultado, los criterios, los hechos disponibles y los riesgos antes de ejecutar.
-
-**Competencia evaluada:** aplicación de crear previsibilidad mediante competencia, honestidad y cumplimiento.
-
-**Error frecuente:** confundir rapidez con calidad de decisión o repetir una idea sin convertirla en acción medible.
-
-### 7. Respuesta
-**Respuesta esperada:** B. Definir el resultado, los criterios, los hechos disponibles y los riesgos antes de ejecutar.
-
-**Competencia evaluada:** aplicación de crear previsibilidad mediante competencia, honestidad y cumplimiento.
-
-**Error frecuente:** confundir rapidez con calidad de decisión o repetir una idea sin convertirla en acción medible.
-
-### 8. Respuesta
-**Respuesta esperada:** B. Definir el resultado, los criterios, los hechos disponibles y los riesgos antes de ejecutar.
-
-**Competencia evaluada:** aplicación de crear previsibilidad mediante competencia, honestidad y cumplimiento.
-
-**Error frecuente:** confundir rapidez con calidad de decisión o repetir una idea sin convertirla en acción medible.
-
-### 9. Respuesta
-**Respuesta esperada:** B. Definir el resultado, los criterios, los hechos disponibles y los riesgos antes de ejecutar.
-
-**Competencia evaluada:** aplicación de crear previsibilidad mediante competencia, honestidad y cumplimiento.
-
-**Error frecuente:** confundir rapidez con calidad de decisión o repetir una idea sin convertirla en acción medible.
-
-### 10. Respuesta
-**Respuesta esperada:** B. Definir el resultado, los criterios, los hechos disponibles y los riesgos antes de ejecutar.
-
-**Competencia evaluada:** aplicación de crear previsibilidad mediante competencia, honestidad y cumplimiento.
-
-**Error frecuente:** confundir rapidez con calidad de decisión o repetir una idea sin convertirla en acción medible.
-
-### BLACK-L1-011-COMPETENCY
-## Estándar de competencia
-- **Dominio:** 8/10 (80 %).
-- Por debajo del 80 %, el alumno revisará el concepto fallado, resolverá un escenario nuevo y repetirá la comprobación.
-- Con dominio, se desbloquea la siguiente lección.
-
-## Lecturas complementarias
-Consultar fuentes fiables sobre liderazgo, comportamiento organizativo, finanzas empresariales y toma de decisiones; verificar autoría, fecha, evidencia y aplicabilidad.
-
-## Ruta de aprendizaje
-- **Anterior:** BLACK-L1-010
-- **Actual:** BLACK-L1-011
-- **Siguiente:** BLACK-L1-012
-
-### BLACK-L1-011-SEO
-## Bloque SEO
-- **Título:** La confianza como moneda de un equipo | BLACK Nivel 1 | Edunancial
-- **Descripción:** Aprende a crear previsibilidad mediante competencia, honestidad y cumplimiento mediante criterios de decisión, responsabilidad y comprensión financiera.
-- **Palabras clave:** liderazgo, gestión, decisiones, finanzas empresariales, equipo, responsabilidad
-
-### BLACK-L1-011-AI
-## Apoyo de IA
-El tutor puede simplificar conceptos, formular preguntas y crear escenarios adicionales. No debe sustituir asesoramiento jurídico, fiscal, contable, financiero o profesional individualizado.
-
-### BLACK-L1-011-LOCALIZATION
-## Localización — España
-Contenido creado directamente en español de España. Cuando una decisión dependa de legislación, fiscalidad, contabilidad o relaciones laborales, debe comprobarse la norma española vigente y la situación concreta.
-
-### BLACK-L1-011-REFERENCES
-## Referencias y verificación
-Los principios de liderazgo se presentan con fines educativos. Las cifras de los casos son ejemplos ilustrativos. Cualquier regla jurídica, fiscal, contable o regulatoria debe verificarse en fuentes oficiales actualizadas antes de aplicarla.
+- La confianza funciona como una moneda: se gana despacio, se gasta rápido y cuesta caro una vez agotada.
+- El cumplimiento constante y la comunicación honesta construyen la confianza; las promesas rotas y la información oculta la agotan.
+- Los equipos con grandes reservas de confianza absorben los reveses con mucha más soltura que los equipos que no las tienen.

@@ -4,123 +4,58 @@ track: BLACK
 officialTrackName: "Leadership & Executive Management"
 level: 1
 lessonNumber: 27
-locale: es-Caribbean
-title: "Definir indicadores que pueda usar una persona sin MBA"
-summary: "Esta lección desarrolla la capacidad de convertir objetivos en pocas medidas claras, frecuentes y accionables, conectando liderazgo, ejecución, riesgo y responsabilidad financiera."
+title: "Fijar indicadores clave (KPI) que pueda usar alguien sin una maestría en negocios"
+summary: "Presenta los indicadores clave de desempeño en términos sencillos y prácticos para líderes sin formación formal en negocios."
 version: "1.0"
 author: "Waldemar M. Caban, JD MA"
-date: "2026-09-01"
+date: "2026-08-09"
+locale: "es-Caribbean"
 ---
-
-# 27. Definir indicadores que pueda usar una persona sin MBA
+<!-- Learning Objectives -->
+# Fijar indicadores clave (KPI) que pueda usar alguien sin una maestría en negocios
 
 ## Objetivos de aprendizaje
+<!-- Core Content -->
 
-Al terminar esta lección, el alumno podrá:
+- Definir un KPI en términos sencillos y prácticos
+- Identificar las cualidades de un KPI útil
+- Practicar cómo fijar un KPI básico para una meta de negocio sencilla
 
-1. Explicar por qué es importante convertir objetivos en pocas medidas claras, frecuentes y accionables.
-2. Separar hechos, supuestos, emociones y riesgos antes de decidir.
-3. Comparar al menos dos alternativas usando criterios observables.
-4. Asignar responsable, plazo, indicador y fecha de revisión.
-5. Relacionar la decisión con tiempo, coste, caja, productividad y confianza.
+## Contenido principal
 
-## Concepto principal
+KPI son las siglas en inglés de *Key Performance Indicator*, es decir, indicador clave de desempeño: un número específico que se puede seguir y que le dice si algo importante va bien o no. Suena a jerga corporativa, pero la idea de fondo es sencilla: escoja un número que realmente refleje el avance hacia una meta y revíselo con regularidad, para saber si va por buen camino sin tener que adivinar.
 
-[HECHO VERIFICABLE] El liderazgo se observa en decisiones y conductas, no solamente en títulos o intenciones. Para convertir objetivos en pocas medidas claras, frecuentes y accionables, la persona responsable debe definir primero el resultado deseado y la evidencia que demostraría progreso. Después debe identificar a quién afecta la decisión, qué recursos consume y qué riesgo crea actuar o esperar.
+Un KPI útil es específico, medible y está vinculado directamente con algo que importa. «Hacer crecer el negocio» no es un KPI: es un deseo vago. «Clientes nuevos por mes» o «tasa de conversión de propuestas a cierres» son KPI, porque son números específicos que se pueden seguir y comparar a lo largo del tiempo.
 
-Una decisión disciplinada responde cinco preguntas: ¿qué resultado buscamos?, ¿qué hechos conocemos?, ¿qué estamos suponiendo?, ¿quién tiene autoridad y responsabilidad?, y ¿cuándo revisaremos el resultado? Este proceso no elimina la incertidumbre, pero evita que la urgencia, el orgullo o la costumbre sustituyan el criterio.
+El error que hay que evitar es escoger demasiados KPI a la vez, o escoger algunos que son fáciles de medir, pero que en realidad no reflejan lo que importa (una «métrica de vanidad», como los seguidores en las redes sociales, cuando la verdadera meta son los ingresos). Unos pocos KPI que de verdad reflejen la salud real del negocio son más útiles que un tablero lleno de números que en realidad no se conectan con nada importante.
 
-## Aplicación práctica
+## Ejemplo práctico
 
-El líder debe convertir el tema en una acción observable. En este caso, la acción central es **convertir objetivos en pocas medidas claras, frecuentes y accionables**. Para hacerlo bien:
+Un pequeño negocio de consultoría quiere crecer. En lugar de una meta vaga como «conseguir más clientes», el dueño escoge tres KPI específicos: la cantidad de propuestas nuevas enviadas por mes, la tasa de conversión de propuestas a cierres y el ingreso promedio por cliente. Estos tres números, que se siguen mes a mes, le dicen exactamente dónde enfocarse: si se envían muchas propuestas, pero la conversión es baja, el problema está en el proceso de ventas, no en la generación de clientes potenciales. Esto es mucho más útil que una sensación vaga de que «el negocio está lento este mes».
 
-- Define el problema sin culpar a una persona.
-- Establece un resultado concreto y un plazo razonable.
-- Reúne datos proporcionales al riesgo de la decisión.
-- Calcula el coste de actuar, esperar y equivocarse.
-- Elige una alternativa reversible cuando la incertidumbre sea alta.
-- Comunica quién decide, quién ejecuta y quién debe ser informado.
-- Programa una revisión y corrige el método si la evidencia lo exige.
+## Prueba práctica
 
-## Ejemplo desarrollado
+1. Defina KPI en términos sencillos.
+2. Según esta lección, ¿qué hace útil a un KPI?
+3. ¿Qué es una «métrica de vanidad» y por qué es un error depender de una?
+4. Fije un KPI básico para una panadería que intenta reducir el desperdicio de alimentos.
 
-Una pequeña empresa tiene ocho empleados y detecta un problema relacionado con **convertir objetivos en pocas medidas claras, frecuentes y accionables**. Durante dos meses se han repetido conversaciones, pero nadie ha definido una medida de éxito. El retraso consume unas 20 horas de trabajo al mes y genera errores que cuestan aproximadamente 1.200 €. La responsable fija un resultado a 30 días, recoge tres datos, compara dos alternativas y asigna un único responsable. Cada semana revisa un indicador y documenta lo aprendido.
+## Clave de respuestas
 
-El valor del proceso no está en acertar perfectamente desde el primer día. Está en crear una decisión explicable, medible y corregible antes de que el problema se convierta en una costumbre costosa.
+1. Un número específico que se puede seguir y que le dice si algo importante va bien o no.
+2. Que sea específico, medible y esté vinculado directamente con algo que realmente importa.
+3. Una métrica fácil de medir, pero que no refleja lo que realmente importa para las metas reales del negocio, como los seguidores en lugar de los ingresos.
+4. Las respuestas variarán (por ejemplo: «porcentaje de los alimentos preparados que se desecha al final del día, medido cada semana»).
 
-## Escenario de decisión
+## Respuestas y explicaciones
 
-Tu equipo no alcanza un objetivo importante. Una opción exige invertir 900 € en formación; otra requiere rediseñar el proceso durante 30 horas; una tercera mantiene el sistema actual y acepta el coste de los errores. No existe certeza sobre cuál funcionará mejor.
-
-**¿Qué harías?** Define el resultado, los datos que solicitarías, el riesgo máximo aceptable, la persona responsable y la evidencia que revisarías dentro de 30 días. Etiqueta claramente cualquier supuesto.
-
-## Errores comunes
-
-- Actuar antes de definir el resultado.
-- Confundir actividad con avance.
-- Defender una decisión porque ya se invirtió tiempo o dinero.
-- Delegar una tarea sin autoridad, recursos o seguimiento.
-- Ocultar malas noticias para evitar una conversación incómoda.
-- Usar una cifra sin explicar su fuente o supuesto.
-- Mantener el mismo método aunque la evidencia muestre que no funciona.
-
-## Herramienta de aplicación
-
-Completa esta ficha:
-
-- **Resultado deseado:**
-- **Cinco hechos comprobables:**
-- **Tres supuestos:**
-- **Dos alternativas:**
-- **Coste de cada alternativa:**
-- **Riesgo principal:**
-- **Responsable:**
-- **Indicador:**
-- **Fecha de revisión:**
-- **Evidencia que justificaría cambiar de método:**
-
-## Evaluación de competencia
-
-1. ¿Cuál debe ser el primer paso? A) Actuar de inmediato. B) Definir resultado y criterios. C) Esperar certeza. D) Evitar responsable.
-2. Explica la diferencia entre un hecho y un supuesto en este tema.
-3. Identifica un coste de esperar que normalmente no aparece en una factura.
-4. Propón un indicador que pueda revisarse semanalmente.
-5. Describe una alternativa reversible.
-6. Explica quién necesita autoridad para ejecutar.
-7. Identifica una consecuencia financiera posible.
-8. Explica qué evidencia te haría cambiar de método.
-9. Indica cómo comunicarías la decisión a las personas afectadas.
-10. Redacta una decisión completa con responsable, plazo e indicador.
-
-**Criterio de dominio:** 8 de 10 respuestas satisfactorias. Por debajo del 80 %, el alumno revisará el concepto fallado, resolverá un escenario nuevo y repetirá la comprobación.
-
-## Respuestas orientativas
-
-1. B: definir resultado y criterios antes de elegir una solución.
-2. Un hecho puede comprobarse; un supuesto debe declararse y probarse.
-3. Tiempo improductivo, pérdida de confianza, rotación o una oportunidad perdida.
-4. Una medida frecuente vinculada directamente al resultado.
-5. Una prueba limitada que pueda detenerse sin comprometer recursos excesivos.
-6. La persona responsable del resultado necesita autoridad proporcional.
-7. Puede afectar coste, ingresos, margen, caja, productividad o riesgo.
-8. Un indicador que contradiga el supuesto central o muestre daño inaceptable.
-9. Con hechos, propósito, efecto esperado, responsabilidades y canal de preguntas.
-10. Debe incluir resultado, acción, responsable, plazo, indicador y revisión.
+1. Esto define el KPI en términos accesibles y sin jerga.
+2. La especificidad, la posibilidad de medirlo y la relevancia son las tres cualidades que hacen que un KPI sea realmente útil.
+3. Las métricas de vanidad se ven bien sin reflejar necesariamente la salud real del negocio, lo que puede llevar a decisiones equivocadas.
+4. Una respuesta correcta escoge un número específico y medible, vinculado directamente con la meta planteada (reducir el desperdicio).
 
 ## Puntos clave
 
-- Liderar significa convertir intención en una decisión observable.
-- Las personas, las operaciones y las finanzas están conectadas.
-- Una buena decisión declara sus supuestos y límites.
-- Toda acción importante necesita responsable, indicador y revisión.
-- Cambiar el método ante nueva evidencia es disciplina, no debilidad.
-
-## Ruta de aprendizaje
-
-- **Anterior:** BLACK-L1-026
-- **Actual:** BLACK-L1-027
-- **Siguiente:** BLACK-L1-028
-
-## Localización — España
-
-Contenido creado en español de España. Cuando una decisión dependa de legislación, fiscalidad, contabilidad o relaciones laborales, debe verificarse la normativa vigente y la situación concreta antes de actuar.
+- Un KPI es simplemente un número específico que se puede seguir y que refleja el avance hacia algo que importa.
+- Los KPI útiles son específicos, medibles y están vinculados directamente con metas reales del negocio, no con métricas de vanidad.
+- Unos pocos KPI significativos son mejores que un tablero lleno de números que no se conectan con lo que realmente importa.

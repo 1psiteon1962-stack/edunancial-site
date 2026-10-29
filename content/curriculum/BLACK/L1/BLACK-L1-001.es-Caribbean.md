@@ -2,250 +2,62 @@
 id: BLACK-L1-001
 track: BLACK
 officialTrackName: "Leadership & Executive Management"
-color: BLACK
 level: 1
 lessonNumber: 1
-locale: es-Caribbean
-title: "Liderazgo vs. gestión: dos habilidades diferentes"
-summary: "Esta lección enseña a **diferenciar dirección estratégica y ejecución operativa**. El alumno aprenderá a convertir el concepto en una decisión observable, conectando personas, ejecución, riesgo y recursos financieros."
+title: "Liderazgo y gestión: dos habilidades distintas"
+summary: "Distingue el liderazgo de la gestión y explica por qué ambos importan, aunque resuelven problemas distintos."
+version: "1.0"
+author: "Waldemar M. Caban, JD MA"
+date: "2026-08-09"
+locale: "es-Caribbean"
 ---
-
-# 1. Liderazgo vs. gestión: dos habilidades diferentes
-
-### BLACK-L1-001-MAIN
-## Resumen ejecutivo
-Esta lección enseña a **diferenciar dirección estratégica y ejecución operativa**. El alumno aprenderá a convertir el concepto en una decisión observable, conectando personas, ejecución, riesgo y recursos financieros.
+<!-- Learning Objectives -->
+# Liderazgo y gestión: dos habilidades distintas
 
 ## Objetivos de aprendizaje
-- **Alfabetización financiera:** reconocer el efecto de la decisión sobre recursos.
-- **Competencia financiera:** relacionarla con coste, ingresos, margen, caja o productividad.
-- **Mejor criterio:** separar hechos, supuestos y alternativas.
-- **Mejores decisiones:** asignar responsable, plazo e indicador.
-- **Construcción de patrimonio:** proteger capital y capacidad de reinversión mediante mejores decisiones.
+<!-- Core Content -->
 
-## Prerrequisitos
-No se requiere formación empresarial previa; basta con aritmética básica y disposición para justificar decisiones.
+- Definir el liderazgo y la gestión como habilidades distintas, pero relacionadas
+- Explicar por qué una organización necesita ambas
+- Identificar si una situación determinada requiere liderazgo o gestión
 
-## Lección principal
-### 1. Aplicación 1: Diferenciar dirección estratégica y ejecución operativa
-[HECHO VERIFICABLE] Una decisión de liderazgo puede evaluarse por sus consecuencias observables. En este tema, el líder empieza definiendo el resultado que pretende conseguir y la evidencia que permitiría reconocerlo. Después separa hechos de suposiciones, identifica a las personas afectadas y calcula qué recursos consume la alternativa.
+## Contenido principal
 
-La disciplina consiste en preguntar: ¿qué problema resolvemos?, ¿qué sabemos?, ¿qué desconocemos?, ¿qué cuesta actuar?, ¿qué cuesta esperar?, ¿qué riesgo podemos soportar? y ¿quién será responsable del seguimiento? El objetivo práctico es **diferenciar dirección estratégica y ejecución operativa**. Una decisión sin fecha de revisión convierte una hipótesis en costumbre; una decisión revisable crea aprendizaje.
-### 2. Aplicación 2: Diferenciar dirección estratégica y ejecución operativa
-[HECHO VERIFICABLE] Una decisión de liderazgo puede evaluarse por sus consecuencias observables. En este tema, el líder empieza definiendo el resultado que pretende conseguir y la evidencia que permitiría reconocerlo. Después separa hechos de suposiciones, identifica a las personas afectadas y calcula qué recursos consume la alternativa.
+La gente usa «líder» y «gerente» como si fueran lo mismo. No lo son. La gestión consiste en organizar los recursos —personas, tiempo, dinero— para hacer con eficiencia un trabajo que ya se conoce. El liderazgo consiste en fijar el rumbo e inspirar a las personas a avanzar hacia una meta, sobre todo cuando el camino todavía no está claro.
 
-La disciplina consiste en preguntar: ¿qué problema resolvemos?, ¿qué sabemos?, ¿qué desconocemos?, ¿qué cuesta actuar?, ¿qué cuesta esperar?, ¿qué riesgo podemos soportar? y ¿quién será responsable del seguimiento? El objetivo práctico es **diferenciar dirección estratégica y ejecución operativa**. Una decisión sin fecha de revisión convierte una hipótesis en costumbre; una decisión revisable crea aprendizaje.
-### 3. Aplicación 3: Diferenciar dirección estratégica y ejecución operativa
-[HECHO VERIFICABLE] Una decisión de liderazgo puede evaluarse por sus consecuencias observables. En este tema, el líder empieza definiendo el resultado que pretende conseguir y la evidencia que permitiría reconocerlo. Después separa hechos de suposiciones, identifica a las personas afectadas y calcula qué recursos consume la alternativa.
+Un gerente pregunta: «¿Cómo hacemos esto bien?». Un líder pregunta: «¿Por qué estamos haciendo esto y hacia dónde vamos?». Ambas preguntas importan. Un equipo con un gran liderazgo, pero con una gestión deficiente, tiene una visión inspiradora y ningún seguimiento: las fechas límite se atrasan y se desperdician recursos. Un equipo con una gran gestión, pero sin liderazgo, funciona con eficiencia, pero no tiene un rumbo claro: todo el mundo está ocupado, pero ¿ocupado haciendo qué, exactamente?
 
-La disciplina consiste en preguntar: ¿qué problema resolvemos?, ¿qué sabemos?, ¿qué desconocemos?, ¿qué cuesta actuar?, ¿qué cuesta esperar?, ¿qué riesgo podemos soportar? y ¿quién será responsable del seguimiento? El objetivo práctico es **diferenciar dirección estratégica y ejecución operativa**. Una decisión sin fecha de revisión convierte una hipótesis en costumbre; una decisión revisable crea aprendizaje.
-### 4. Aplicación 4: Diferenciar dirección estratégica y ejecución operativa
-[HECHO VERIFICABLE] Una decisión de liderazgo puede evaluarse por sus consecuencias observables. En este tema, el líder empieza definiendo el resultado que pretende conseguir y la evidencia que permitiría reconocerlo. Después separa hechos de suposiciones, identifica a las personas afectadas y calcula qué recursos consume la alternativa.
+Las mejores personas a cargo de algo aprenden a hacer ambas cosas: fijar un «por qué» y un rumbo claros (liderazgo) y también construir los sistemas que hacen que el «cómo» realmente ocurra (gestión). Ninguna de las dos habilidades reemplaza a la otra.
 
-La disciplina consiste en preguntar: ¿qué problema resolvemos?, ¿qué sabemos?, ¿qué desconocemos?, ¿qué cuesta actuar?, ¿qué cuesta esperar?, ¿qué riesgo podemos soportar? y ¿quién será responsable del seguimiento? El objetivo práctico es **diferenciar dirección estratégica y ejecución operativa**. Una decisión sin fecha de revisión convierte una hipótesis en costumbre; una decisión revisable crea aprendizaje.
-### 5. Aplicación 5: Diferenciar dirección estratégica y ejecución operativa
-[HECHO VERIFICABLE] Una decisión de liderazgo puede evaluarse por sus consecuencias observables. En este tema, el líder empieza definiendo el resultado que pretende conseguir y la evidencia que permitiría reconocerlo. Después separa hechos de suposiciones, identifica a las personas afectadas y calcula qué recursos consume la alternativa.
+## Ejemplo práctico
 
-La disciplina consiste en preguntar: ¿qué problema resolvemos?, ¿qué sabemos?, ¿qué desconocemos?, ¿qué cuesta actuar?, ¿qué cuesta esperar?, ¿qué riesgo podemos soportar? y ¿quién será responsable del seguimiento? El objetivo práctico es **diferenciar dirección estratégica y ejecución operativa**. Una decisión sin fecha de revisión convierte una hipótesis en costumbre; una decisión revisable crea aprendizaje.
+Alguien quiere empezar un programa de televisión comunitaria. La tarea de liderazgo es decidir de qué trata el programa, por qué importa y convencer a los invitados y al equipo de producción de creer lo suficiente en la idea como para presentarse. La tarea de gestión es reservar el tiempo de estudio, coordinar el horario del equipo de cámaras y confirmar la logística.
 
-## Definiciones clave
-- **Resultado:** cambio observable que se pretende conseguir.
-- **Criterio:** regla utilizada para comparar alternativas.
-- **Riesgo:** posibilidad de que un resultado afecte negativamente al objetivo.
-- **Indicador:** medida utilizada para observar progreso o resultado.
-- **Responsable:** persona que debe ejecutar o rendir cuentas sobre una acción.
+Si esa persona tuviera solo liderazgo (una gran visión, una presentación emocionante), pero no gestión (nadie confirmado, ningún horario fijado), el programa nunca ocurriría. Si tuviera solo gestión (un estudio y un equipo perfectamente reservados), pero no liderazgo (ninguna razón convincente para que los invitados se presenten y crean en el proyecto), el programa tampoco ocurriría. Se necesitaban ambas cosas.
 
-### BLACK-L1-001-EXAMPLES
-## Ejemplo desarrollado
-Una pequeña empresa detecta un problema relacionado con **diferenciar dirección estratégica y ejecución operativa**. En vez de reaccionar de inmediato, la responsable fija un resultado a 30 días, recoge tres datos relevantes, estima el coste de dos alternativas y define un indicador semanal. Elige una opción reversible, asigna responsable y programa una revisión. Si el indicador no mejora, cambia el método sin abandonar el objetivo.
+## Prueba práctica
 
-## Estudio de caso
-Un equipo de ocho personas lleva dos meses incumpliendo un resultado importante. La dirección ha celebrado más reuniones, pero no ha definido un único responsable ni una medida de éxito. El coste del retraso es de 1.200 € al mes entre horas improductivas, incidencias y oportunidades perdidas. El líder debe decidir si rediseña el proceso, reasigna responsabilidades o mantiene el sistema actual. Antes de conocer el desenlace, el alumno debe elegir una opción y justificarla con datos.
+1. ¿Qué pregunta suele hacerse un gerente?
+2. ¿Qué pregunta suele hacerse un líder?
+3. ¿Puede un equipo tener éxito con solo una de las dos habilidades? ¿Por qué sí o por qué no?
+4. En el ejemplo práctico, ¿cuál era la tarea de liderazgo y cuál era la tarea de gestión?
 
-**Pregunta de decisión:** ¿qué harías y qué dato exigirías revisar dentro de 30 días?
+## Clave de respuestas
 
-## Errores comunes
-- Actuar antes de definir el problema.
-- Confundir actividad con resultado.
-- No estimar el coste de esperar.
-- Delegar una tarea sin autoridad ni seguimiento.
-- Mantener una decisión porque ya se invirtió tiempo o dinero.
+1. «¿Cómo hacemos esto bien?».
+2. «¿Por qué estamos haciendo esto y hacia dónde vamos?».
+3. En general, no: sin rumbo, la gestión avanza con eficiencia hacia ninguna parte; sin sistemas de ejecución, la visión del liderazgo nunca se hace realidad.
+4. Liderazgo: decidir el propósito del programa y convencer a las personas de creer en él. Gestión: reservar el estudio, el equipo y la logística.
 
-## Preguntas frecuentes
-### ¿Un líder necesita certeza antes de decidir?
-No. Necesita información proporcional al riesgo y claridad sobre qué incertidumbre está aceptando.
+## Respuestas y explicaciones
 
-### ¿Toda decisión debe expresarse en euros?
-No, pero las decisiones relevantes deberían considerar su efecto sobre tiempo, capacidad, coste, ingresos, caja o riesgo cuando corresponda.
-
-### ¿Cambiar de decisión demuestra debilidad?
-No cuando nueva evidencia invalida los supuestos originales. Corregir con criterio es parte de la responsabilidad.
+1. La gestión se enfoca en la ejecución eficiente de una tarea conocida.
+2. El liderazgo se enfoca en el rumbo y la motivación, sobre todo en situaciones de incertidumbre.
+3. La lección sostiene que ambas son necesarias: una sin la otra deja un vacío crítico.
+4. Este ejemplo muestra las dos habilidades funcionando lado a lado en el mismo proyecto.
 
 ## Puntos clave
-- El objetivo de esta lección es diferenciar dirección estratégica y ejecución operativa.
-- Los criterios deben definirse antes de enamorarse de una solución.
-- Toda decisión importante necesita responsable, plazo, indicador y revisión.
-- Personas, operaciones y finanzas están conectadas.
 
-### BLACK-L1-001-EXERCISE
-## Ejercicio práctico
-Elige una situación real vinculada a **diferenciar dirección estratégica y ejecución operativa**. Escribe el resultado deseado, cinco hechos, tres supuestos, dos alternativas, coste estimado, riesgo principal, responsable, indicador y fecha de revisión. Explica qué evidencia te haría cambiar de método.
-
-### BLACK-L1-001-AI
-## Guía socrática
-1. ¿Qué resultado intentas conseguir?
-2. ¿Qué hechos puedes demostrar?
-3. ¿Qué estás suponiendo?
-4. ¿Quién se verá afectado?
-5. ¿Qué cuesta actuar?
-6. ¿Qué cuesta esperar?
-7. ¿Qué alternativa es reversible?
-8. ¿Qué indicador mostraría progreso?
-9. ¿Quién debe responder del resultado?
-10. ¿Qué evidencia justificaría cambiar de rumbo?
-
-### BLACK-L1-001-ASSESSMENT
-## Evaluación de competencia — 10 preguntas
-### 1. Opción múltiple
-1. En relación con **diferenciar dirección estratégica y ejecución operativa**, ¿qué debería hacer primero un líder competente?
-A) Actuar por impulso. B) Definir resultado y criterios, revisar hechos y riesgos. C) Esperar certeza absoluta. D) Evitar asignar responsable.
-
-### 2. Aplicación
-2. En relación con **diferenciar dirección estratégica y ejecución operativa**, ¿qué debería hacer primero un líder competente?
-A) Actuar por impulso. B) Definir resultado y criterios, revisar hechos y riesgos. C) Esperar certeza absoluta. D) Evitar asignar responsable.
-
-### 3. Aplicación
-3. En relación con **diferenciar dirección estratégica y ejecución operativa**, ¿qué debería hacer primero un líder competente?
-A) Actuar por impulso. B) Definir resultado y criterios, revisar hechos y riesgos. C) Esperar certeza absoluta. D) Evitar asignar responsable.
-
-### 4. Aplicación
-4. En relación con **diferenciar dirección estratégica y ejecución operativa**, ¿qué debería hacer primero un líder competente?
-A) Actuar por impulso. B) Definir resultado y criterios, revisar hechos y riesgos. C) Esperar certeza absoluta. D) Evitar asignar responsable.
-
-### 5. Opción múltiple
-5. En relación con **diferenciar dirección estratégica y ejecución operativa**, ¿qué debería hacer primero un líder competente?
-A) Actuar por impulso. B) Definir resultado y criterios, revisar hechos y riesgos. C) Esperar certeza absoluta. D) Evitar asignar responsable.
-
-### 6. Aplicación
-6. En relación con **diferenciar dirección estratégica y ejecución operativa**, ¿qué debería hacer primero un líder competente?
-A) Actuar por impulso. B) Definir resultado y criterios, revisar hechos y riesgos. C) Esperar certeza absoluta. D) Evitar asignar responsable.
-
-### 7. Aplicación
-7. En relación con **diferenciar dirección estratégica y ejecución operativa**, ¿qué debería hacer primero un líder competente?
-A) Actuar por impulso. B) Definir resultado y criterios, revisar hechos y riesgos. C) Esperar certeza absoluta. D) Evitar asignar responsable.
-
-### 8. Aplicación
-8. En relación con **diferenciar dirección estratégica y ejecución operativa**, ¿qué debería hacer primero un líder competente?
-A) Actuar por impulso. B) Definir resultado y criterios, revisar hechos y riesgos. C) Esperar certeza absoluta. D) Evitar asignar responsable.
-
-### 9. Aplicación
-9. En relación con **diferenciar dirección estratégica y ejecución operativa**, ¿qué debería hacer primero un líder competente?
-A) Actuar por impulso. B) Definir resultado y criterios, revisar hechos y riesgos. C) Esperar certeza absoluta. D) Evitar asignar responsable.
-
-### 10. Aplicación
-10. En relación con **diferenciar dirección estratégica y ejecución operativa**, ¿qué debería hacer primero un líder competente?
-A) Actuar por impulso. B) Definir resultado y criterios, revisar hechos y riesgos. C) Esperar certeza absoluta. D) Evitar asignar responsable.
-
-### BLACK-L1-001-ANSWER-KEY
-## Clave de respuestas comentada
-### 1. Respuesta
-**Respuesta esperada:** B. Definir el resultado, los criterios, los hechos disponibles y los riesgos antes de ejecutar.
-
-**Competencia evaluada:** aplicación de diferenciar dirección estratégica y ejecución operativa.
-
-**Error frecuente:** confundir rapidez con calidad de decisión o repetir una idea sin convertirla en acción medible.
-
-### 2. Respuesta
-**Respuesta esperada:** B. Definir el resultado, los criterios, los hechos disponibles y los riesgos antes de ejecutar.
-
-**Competencia evaluada:** aplicación de diferenciar dirección estratégica y ejecución operativa.
-
-**Error frecuente:** confundir rapidez con calidad de decisión o repetir una idea sin convertirla en acción medible.
-
-### 3. Respuesta
-**Respuesta esperada:** B. Definir el resultado, los criterios, los hechos disponibles y los riesgos antes de ejecutar.
-
-**Competencia evaluada:** aplicación de diferenciar dirección estratégica y ejecución operativa.
-
-**Error frecuente:** confundir rapidez con calidad de decisión o repetir una idea sin convertirla en acción medible.
-
-### 4. Respuesta
-**Respuesta esperada:** B. Definir el resultado, los criterios, los hechos disponibles y los riesgos antes de ejecutar.
-
-**Competencia evaluada:** aplicación de diferenciar dirección estratégica y ejecución operativa.
-
-**Error frecuente:** confundir rapidez con calidad de decisión o repetir una idea sin convertirla en acción medible.
-
-### 5. Respuesta
-**Respuesta esperada:** B. Definir el resultado, los criterios, los hechos disponibles y los riesgos antes de ejecutar.
-
-**Competencia evaluada:** aplicación de diferenciar dirección estratégica y ejecución operativa.
-
-**Error frecuente:** confundir rapidez con calidad de decisión o repetir una idea sin convertirla en acción medible.
-
-### 6. Respuesta
-**Respuesta esperada:** B. Definir el resultado, los criterios, los hechos disponibles y los riesgos antes de ejecutar.
-
-**Competencia evaluada:** aplicación de diferenciar dirección estratégica y ejecución operativa.
-
-**Error frecuente:** confundir rapidez con calidad de decisión o repetir una idea sin convertirla en acción medible.
-
-### 7. Respuesta
-**Respuesta esperada:** B. Definir el resultado, los criterios, los hechos disponibles y los riesgos antes de ejecutar.
-
-**Competencia evaluada:** aplicación de diferenciar dirección estratégica y ejecución operativa.
-
-**Error frecuente:** confundir rapidez con calidad de decisión o repetir una idea sin convertirla en acción medible.
-
-### 8. Respuesta
-**Respuesta esperada:** B. Definir el resultado, los criterios, los hechos disponibles y los riesgos antes de ejecutar.
-
-**Competencia evaluada:** aplicación de diferenciar dirección estratégica y ejecución operativa.
-
-**Error frecuente:** confundir rapidez con calidad de decisión o repetir una idea sin convertirla en acción medible.
-
-### 9. Respuesta
-**Respuesta esperada:** B. Definir el resultado, los criterios, los hechos disponibles y los riesgos antes de ejecutar.
-
-**Competencia evaluada:** aplicación de diferenciar dirección estratégica y ejecución operativa.
-
-**Error frecuente:** confundir rapidez con calidad de decisión o repetir una idea sin convertirla en acción medible.
-
-### 10. Respuesta
-**Respuesta esperada:** B. Definir el resultado, los criterios, los hechos disponibles y los riesgos antes de ejecutar.
-
-**Competencia evaluada:** aplicación de diferenciar dirección estratégica y ejecución operativa.
-
-**Error frecuente:** confundir rapidez con calidad de decisión o repetir una idea sin convertirla en acción medible.
-
-### BLACK-L1-001-COMPETENCY
-## Estándar de competencia
-- **Dominio:** 8/10 (80 %).
-- Por debajo del 80 %, el alumno revisará el concepto fallado, resolverá un escenario nuevo y repetirá la comprobación.
-- Con dominio, se desbloquea la siguiente lección.
-
-## Lecturas complementarias
-Consultar fuentes fiables sobre liderazgo, comportamiento organizativo, finanzas empresariales y toma de decisiones; verificar autoría, fecha, evidencia y aplicabilidad.
-
-## Ruta de aprendizaje
-- **Anterior:** Inicio del Nivel 1
-- **Actual:** BLACK-L1-001
-- **Siguiente:** BLACK-L1-002
-
-### BLACK-L1-001-SEO
-## Bloque SEO
-- **Título:** Liderazgo vs. gestión: dos habilidades diferentes | BLACK Nivel 1 | Edunancial
-- **Descripción:** Aprende a diferenciar dirección estratégica y ejecución operativa mediante criterios de decisión, responsabilidad y comprensión financiera.
-- **Palabras clave:** liderazgo, gestión, decisiones, finanzas empresariales, equipo, responsabilidad
-
-### BLACK-L1-001-AI
-## Apoyo de IA
-El tutor puede simplificar conceptos, formular preguntas y crear escenarios adicionales. No debe sustituir asesoramiento jurídico, fiscal, contable, financiero o profesional individualizado.
-
-### BLACK-L1-001-LOCALIZATION
-## Localización — España
-Contenido creado directamente en español de España. Cuando una decisión dependa de legislación, fiscalidad, contabilidad o relaciones laborales, debe comprobarse la norma española vigente y la situación concreta.
-
-### BLACK-L1-001-REFERENCES
-## Referencias y verificación
-Los principios de liderazgo se presentan con fines educativos. Las cifras de los casos son ejemplos ilustrativos. Cualquier regla jurídica, fiscal, contable o regulatoria debe verificarse en fuentes oficiales actualizadas antes de aplicarla.
+- La gestión organiza los recursos para ejecutar con eficiencia una tarea conocida.
+- El liderazgo fija el rumbo e inspira a las personas a avanzar hacia una meta.
+- Las organizaciones sólidas, y las personas sólidas, necesitan que ambas habilidades funcionen juntas.

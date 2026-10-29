@@ -4,123 +4,58 @@ track: BLACK
 officialTrackName: "Leadership & Executive Management"
 level: 1
 lessonNumber: 18
-locale: es-Caribbean
-title: "La trampa del coste hundido"
-summary: "Esta lección desarrolla la capacidad de decidir con información futura en lugar de defender dinero o tiempo ya gastado, conectando liderazgo, ejecución, riesgo y responsabilidad financiera."
+title: "La trampa del costo hundido"
+summary: "Explica la falacia del costo hundido y cómo atrapa a los líderes en malas decisiones para evitar la sensación de haber desperdiciado el esfuerzo."
 version: "1.0"
 author: "Waldemar M. Caban, JD MA"
-date: "2026-09-01"
+date: "2026-08-09"
+locale: "es-Caribbean"
 ---
-
-# 18. La trampa del coste hundido
+<!-- Learning Objectives -->
+# La trampa del costo hundido
 
 ## Objetivos de aprendizaje
+<!-- Core Content -->
 
-Al terminar esta lección, el alumno podrá:
+- Definir la falacia del costo hundido en la toma de decisiones de liderazgo
+- Explicar por qué la inversión pasada no debe determinar las decisiones futuras
+- Practicar cómo evaluar una decisión basándose solo en los costos y beneficios futuros
 
-1. Explicar por qué es importante decidir con información futura en lugar de defender dinero o tiempo ya gastado.
-2. Separar hechos, supuestos, emociones y riesgos antes de decidir.
-3. Comparar al menos dos alternativas usando criterios observables.
-4. Asignar responsable, plazo, indicador y fecha de revisión.
-5. Relacionar la decisión con tiempo, coste, caja, productividad y confianza.
+## Contenido principal
 
-## Concepto principal
+La trampa del costo hundido es la tendencia a seguir invirtiendo tiempo, dinero o esfuerzo en algo por lo que ya se ha invertido, en lugar de basarse en lo que tiene sentido de aquí en adelante. «Ya le hemos metido tanto a esto» se siente como una razón para continuar, pero en realidad no tiene relación con si continuar es la decisión correcta: el dinero y el tiempo ya gastados se perdieron de todos modos, pase lo que pase después.
 
-[HECHO VERIFICABLE] El liderazgo se observa en decisiones y conductas, no solamente en títulos o intenciones. Para decidir con información futura en lugar de defender dinero o tiempo ya gastado, la persona responsable debe definir primero el resultado deseado y la evidencia que demostraría progreso. Después debe identificar a quién afecta la decisión, qué recursos consume y qué riesgo crea actuar o esperar.
+Una disciplina útil: evalúe una decisión como si se la encontrara por primera vez ahora mismo, basándose solo en los costos futuros y en los beneficios futuros esperados, e ignorando lo que ya se gastó. Si un proyecto ya no tiene sentido de aquí en adelante, el hecho de que ya se haya invertido mucho no cambia eso: solo hace que la decisión de parar se sienta más dolorosa.
 
-Una decisión disciplinada responde cinco preguntas: ¿qué resultado buscamos?, ¿qué hechos conocemos?, ¿qué estamos suponiendo?, ¿quién tiene autoridad y responsabilidad?, y ¿cuándo revisaremos el resultado? Este proceso no elimina la incertidumbre, pero evita que la urgencia, el orgullo o la costumbre sustituyan el criterio.
+Esto importa sobre todo para los líderes, porque admitir que un proyecto o un plan no está funcionando puede sentirse como admitir un fracaso personal, lo que crea una presión emocional para seguir adelante incluso cuando los números o las circunstancias dicen claramente lo contrario.
 
-## Aplicación práctica
+## Ejemplo práctico
 
-El líder debe convertir el tema en una acción observable. En este caso, la acción central es **decidir con información futura en lugar de defender dinero o tiempo ya gastado**. Para hacerlo bien:
+La dueña de un negocio ha invertido mucho tiempo y dinero en desarrollar un producto que, según los comentarios del mercado, cada vez parece más claro que no va a funcionar. La trampa del costo hundido dice: «Le hemos metido demasiado para parar ahora». Una evaluación más clara, ignorando la inversión pasada: «Con lo que sabemos ahora, ¿tiene sentido seguir invirtiendo, en comparación con redirigir ese tiempo y ese dinero a otra cosa?». Si la respuesta honesta es que no, la cantidad ya gastada no cambia eso: ya se perdió, sea cual sea la decisión que se tome hoy.
 
-- Define el problema sin culpar a una persona.
-- Establece un resultado concreto y un plazo razonable.
-- Reúne datos proporcionales al riesgo de la decisión.
-- Calcula el coste de actuar, esperar y equivocarse.
-- Elige una alternativa reversible cuando la incertidumbre sea alta.
-- Comunica quién decide, quién ejecuta y quién debe ser informado.
-- Programa una revisión y corrige el método si la evidencia lo exige.
+## Prueba práctica
 
-## Ejemplo desarrollado
+1. Defina la falacia del costo hundido con sus propias palabras.
+2. ¿Por qué la inversión pasada en realidad no es relevante para una decisión orientada al futuro?
+3. ¿Qué disciplina sugiere la lección para evaluar una decisión?
+4. ¿Por qué la trampa del costo hundido golpea con especial fuerza emocional a los líderes?
 
-Una pequeña empresa tiene ocho empleados y detecta un problema relacionado con **decidir con información futura en lugar de defender dinero o tiempo ya gastado**. Durante dos meses se han repetido conversaciones, pero nadie ha definido una medida de éxito. El retraso consume unas 20 horas de trabajo al mes y genera errores que cuestan aproximadamente 1.200 €. La responsable fija un resultado a 30 días, recoge tres datos, compara dos alternativas y asigna un único responsable. Cada semana revisa un indicador y documenta lo aprendido.
+## Clave de respuestas
 
-El valor del proceso no está en acertar perfectamente desde el primer día. Está en crear una decisión explicable, medible y corregible antes de que el problema se convierta en una costumbre costosa.
+1. Seguir invirtiendo en algo por lo que ya se gastó, en lugar de por lo que tiene sentido de aquí en adelante.
+2. Porque la inversión pasada se perdió sin importar la decisión actual: no debería formar parte de una evaluación orientada al futuro.
+3. Evaluar la decisión como si se la encontrara por primera vez, basándose solo en los costos y beneficios futuros.
+4. Porque parar puede sentirse como admitir un fracaso personal, lo que crea una presión emocional para continuar a pesar de la evidencia.
 
-## Escenario de decisión
+## Respuestas y explicaciones
 
-Tu equipo no alcanza un objetivo importante. Una opción exige invertir 900 € en formación; otra requiere rediseñar el proceso durante 30 horas; una tercera mantiene el sistema actual y acepta el coste de los errores. No existe certeza sobre cuál funcionará mejor.
-
-**¿Qué harías?** Define el resultado, los datos que solicitarías, el riesgo máximo aceptable, la persona responsable y la evidencia que revisarías dentro de 30 días. Etiqueta claramente cualquier supuesto.
-
-## Errores comunes
-
-- Actuar antes de definir el resultado.
-- Confundir actividad con avance.
-- Defender una decisión porque ya se invirtió tiempo o dinero.
-- Delegar una tarea sin autoridad, recursos o seguimiento.
-- Ocultar malas noticias para evitar una conversación incómoda.
-- Usar una cifra sin explicar su fuente o supuesto.
-- Mantener el mismo método aunque la evidencia muestre que no funciona.
-
-## Herramienta de aplicación
-
-Completa esta ficha:
-
-- **Resultado deseado:**
-- **Cinco hechos comprobables:**
-- **Tres supuestos:**
-- **Dos alternativas:**
-- **Coste de cada alternativa:**
-- **Riesgo principal:**
-- **Responsable:**
-- **Indicador:**
-- **Fecha de revisión:**
-- **Evidencia que justificaría cambiar de método:**
-
-## Evaluación de competencia
-
-1. ¿Cuál debe ser el primer paso? A) Actuar de inmediato. B) Definir resultado y criterios. C) Esperar certeza. D) Evitar responsable.
-2. Explica la diferencia entre un hecho y un supuesto en este tema.
-3. Identifica un coste de esperar que normalmente no aparece en una factura.
-4. Propón un indicador que pueda revisarse semanalmente.
-5. Describe una alternativa reversible.
-6. Explica quién necesita autoridad para ejecutar.
-7. Identifica una consecuencia financiera posible.
-8. Explica qué evidencia te haría cambiar de método.
-9. Indica cómo comunicarías la decisión a las personas afectadas.
-10. Redacta una decisión completa con responsable, plazo e indicador.
-
-**Criterio de dominio:** 8 de 10 respuestas satisfactorias. Por debajo del 80 %, el alumno revisará el concepto fallado, resolverá un escenario nuevo y repetirá la comprobación.
-
-## Respuestas orientativas
-
-1. B: definir resultado y criterios antes de elegir una solución.
-2. Un hecho puede comprobarse; un supuesto debe declararse y probarse.
-3. Tiempo improductivo, pérdida de confianza, rotación o una oportunidad perdida.
-4. Una medida frecuente vinculada directamente al resultado.
-5. Una prueba limitada que pueda detenerse sin comprometer recursos excesivos.
-6. La persona responsable del resultado necesita autoridad proporcional.
-7. Puede afectar coste, ingresos, margen, caja, productividad o riesgo.
-8. Un indicador que contradiga el supuesto central o muestre daño inaceptable.
-9. Con hechos, propósito, efecto esperado, responsabilidades y canal de preguntas.
-10. Debe incluir resultado, acción, responsable, plazo, indicador y revisión.
+1. Esto define el sesgo cognitivo central que atiende la lección.
+2. Los costos hundidos son, por definición, irrecuperables, sin importar la decisión que se tome ahora.
+3. Esta disciplina elimina de la decisión real el tirón emocional de la inversión pasada.
+4. La identificación personal con un proyecto intensifica la dificultad emocional de la trampa del costo hundido, específicamente en el caso de los líderes.
 
 ## Puntos clave
 
-- Liderar significa convertir intención en una decisión observable.
-- Las personas, las operaciones y las finanzas están conectadas.
-- Una buena decisión declara sus supuestos y límites.
-- Toda acción importante necesita responsable, indicador y revisión.
-- Cambiar el método ante nueva evidencia es disciplina, no debilidad.
-
-## Ruta de aprendizaje
-
-- **Anterior:** BLACK-L1-017
-- **Actual:** BLACK-L1-018
-- **Siguiente:** BLACK-L1-019
-
-## Localización — España
-
-Contenido creado en español de España. Cuando una decisión dependa de legislación, fiscalidad, contabilidad o relaciones laborales, debe verificarse la normativa vigente y la situación concreta antes de actuar.
+- La trampa del costo hundido consiste en seguir invirtiendo por lo que ya se gastó y no por el valor futuro.
+- La inversión pasada se perdió de todos modos y no debería formar parte de una decisión orientada al futuro.
+- Evalúe las decisiones como si fueran nuevas, basándose solo en los costos y beneficios futuros, para evitar esta trampa.

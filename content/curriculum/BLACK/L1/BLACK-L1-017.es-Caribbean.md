@@ -4,123 +4,58 @@ track: BLACK
 officialTrackName: "Leadership & Executive Management"
 level: 1
 lessonNumber: 17
-locale: es-Caribbean
-title: "Cambiar de rumbo cuando el plan original fracasa"
-summary: "Esta lección desarrolla la capacidad de proteger el objetivo mientras se sustituye un método que ya no funciona, conectando liderazgo, ejecución, riesgo y responsabilidad financiera."
+title: "Cambiar de rumbo cuando el plan original se derrumba"
+summary: "Usa un caso real para enseñar cómo los líderes rediseñan un enfoque cuando el plan original fracasa por completo."
 version: "1.0"
 author: "Waldemar M. Caban, JD MA"
-date: "2026-09-01"
+date: "2026-08-09"
+locale: "es-Caribbean"
 ---
-
-# 17. Cambiar de rumbo cuando el plan original fracasa
+<!-- Learning Objectives -->
+# Cambiar de rumbo cuando el plan original se derrumba
 
 ## Objetivos de aprendizaje
+<!-- Core Content -->
 
-Al terminar esta lección, el alumno podrá:
+- Explicar la diferencia entre que fracase un plan y que fracase una meta
+- Identificar qué recursos se pueden reutilizar cuando un plan se derrumba
+- Aplicar el principio del cambio de rumbo a un nuevo escenario hipotético
 
-1. Explicar por qué es importante proteger el objetivo mientras se sustituye un método que ya no funciona.
-2. Separar hechos, supuestos, emociones y riesgos antes de decidir.
-3. Comparar al menos dos alternativas usando criterios observables.
-4. Asignar responsable, plazo, indicador y fecha de revisión.
-5. Relacionar la decisión con tiempo, coste, caja, productividad y confianza.
+## Contenido principal
 
-## Concepto principal
+Cuando un plan completamente preparado se derrumba por completo, el instinto puede ser tratar todo el esfuerzo como un fracaso y abandonarlo. Un instinto de liderazgo más útil es preguntarse: ¿fracasó la meta de fondo, o solo fracasó este método específico? Muy a menudo, los recursos, el esfuerzo y la infraestructura ya construidos pueden redirigirse hacia un método distinto que siga sirviendo a la misma meta de fondo.
 
-[HECHO VERIFICABLE] El liderazgo se observa en decisiones y conductas, no solamente en títulos o intenciones. Para proteger el objetivo mientras se sustituye un método que ya no funciona, la persona responsable debe definir primero el resultado deseado y la evidencia que demostraría progreso. Después debe identificar a quién afecta la decisión, qué recursos consume y qué riesgo crea actuar o esperar.
+Esto requiere evaluar con honestidad lo que realmente sigue disponible después del colapso —qué bienes, relaciones o capacidades siguen siendo utilizables— y estar dispuesto a rediseñar en torno a ellos, en lugar de suponer que todo tiene que empezar de cero. Un líder que puede hacer este cambio rápidamente, sin pasar demasiado tiempo lamentando el plan original, conserva un impulso que un líder más lento y reacio perdería.
 
-Una decisión disciplinada responde cinco preguntas: ¿qué resultado buscamos?, ¿qué hechos conocemos?, ¿qué estamos suponiendo?, ¿quién tiene autoridad y responsabilidad?, y ¿cuándo revisaremos el resultado? Este proceso no elimina la incertidumbre, pero evita que la urgencia, el orgullo o la costumbre sustituyan el criterio.
+## Ejemplo práctico
 
-## Aplicación práctica
+Una persona había montado un estudio completo y un equipo de cámaras para un programa de entrevistas políticas, solo para que todos los invitados que tenía confirmados se echaran para atrás en el último momento. El plan original (un programa de entrevistas políticas) estaba muerto. Pero el estudio, el equipo y la ambición de fondo de construir algo valioso seguían muy vivos.
 
-El líder debe convertir el tema en una acción observable. En este caso, la acción central es **proteger el objetivo mientras se sustituye un método que ya no funciona**. Para hacerlo bien:
+En lugar de abandonar el esfuerzo, la persona cambió de rumbo hacia un programa bilingüe de videos musicales, un formato que no dependía de compromisos poco confiables de invitados de la misma manera que un programa de entrevistas. El cambio funcionó porque la meta (construir algo valioso con este estudio y este equipo) se separó del método específico (un programa de entrevistas políticas) que había fracasado.
 
-- Define el problema sin culpar a una persona.
-- Establece un resultado concreto y un plazo razonable.
-- Reúne datos proporcionales al riesgo de la decisión.
-- Calcula el coste de actuar, esperar y equivocarse.
-- Elige una alternativa reversible cuando la incertidumbre sea alta.
-- Comunica quién decide, quién ejecuta y quién debe ser informado.
-- Programa una revisión y corrige el método si la evidencia lo exige.
+## Prueba práctica
 
-## Ejemplo desarrollado
+1. ¿Qué pregunta debe hacerse un líder cuando un plan se derrumba?
+2. ¿Qué debe evaluar con honestidad un líder después de que un plan fracasa?
+3. ¿Por qué importa avanzar rápido hacia el rediseño?
+4. En el ejemplo práctico, ¿qué sobrevivió específicamente al colapso del plan original?
 
-Una pequeña empresa tiene ocho empleados y detecta un problema relacionado con **proteger el objetivo mientras se sustituye un método que ya no funciona**. Durante dos meses se han repetido conversaciones, pero nadie ha definido una medida de éxito. El retraso consume unas 20 horas de trabajo al mes y genera errores que cuestan aproximadamente 1.200 €. La responsable fija un resultado a 30 días, recoge tres datos, compara dos alternativas y asigna un único responsable. Cada semana revisa un indicador y documenta lo aprendido.
+## Clave de respuestas
 
-El valor del proceso no está en acertar perfectamente desde el primer día. Está en crear una decisión explicable, medible y corregible antes de que el problema se convierta en una costumbre costosa.
+1. ¿Fracasó la meta de fondo, o solo fracasó este método específico?
+2. Qué bienes, relaciones o capacidades siguen siendo utilizables después del colapso.
+3. Porque una respuesta lenta y reacia pierde un impulso que un cambio de rumbo rápido conserva.
+4. El estudio, el equipo de cámaras y la ambición de fondo de construir algo valioso.
 
-## Escenario de decisión
+## Respuestas y explicaciones
 
-Tu equipo no alcanza un objetivo importante. Una opción exige invertir 900 € en formación; otra requiere rediseñar el proceso durante 30 horas; una tercera mantiene el sistema actual y acepta el coste de los errores. No existe certeza sobre cuál funcionará mejor.
-
-**¿Qué harías?** Define el resultado, los datos que solicitarías, el riesgo máximo aceptable, la persona responsable y la evidencia que revisarías dentro de 30 días. Etiqueta claramente cualquier supuesto.
-
-## Errores comunes
-
-- Actuar antes de definir el resultado.
-- Confundir actividad con avance.
-- Defender una decisión porque ya se invirtió tiempo o dinero.
-- Delegar una tarea sin autoridad, recursos o seguimiento.
-- Ocultar malas noticias para evitar una conversación incómoda.
-- Usar una cifra sin explicar su fuente o supuesto.
-- Mantener el mismo método aunque la evidencia muestre que no funciona.
-
-## Herramienta de aplicación
-
-Completa esta ficha:
-
-- **Resultado deseado:**
-- **Cinco hechos comprobables:**
-- **Tres supuestos:**
-- **Dos alternativas:**
-- **Coste de cada alternativa:**
-- **Riesgo principal:**
-- **Responsable:**
-- **Indicador:**
-- **Fecha de revisión:**
-- **Evidencia que justificaría cambiar de método:**
-
-## Evaluación de competencia
-
-1. ¿Cuál debe ser el primer paso? A) Actuar de inmediato. B) Definir resultado y criterios. C) Esperar certeza. D) Evitar responsable.
-2. Explica la diferencia entre un hecho y un supuesto en este tema.
-3. Identifica un coste de esperar que normalmente no aparece en una factura.
-4. Propón un indicador que pueda revisarse semanalmente.
-5. Describe una alternativa reversible.
-6. Explica quién necesita autoridad para ejecutar.
-7. Identifica una consecuencia financiera posible.
-8. Explica qué evidencia te haría cambiar de método.
-9. Indica cómo comunicarías la decisión a las personas afectadas.
-10. Redacta una decisión completa con responsable, plazo e indicador.
-
-**Criterio de dominio:** 8 de 10 respuestas satisfactorias. Por debajo del 80 %, el alumno revisará el concepto fallado, resolverá un escenario nuevo y repetirá la comprobación.
-
-## Respuestas orientativas
-
-1. B: definir resultado y criterios antes de elegir una solución.
-2. Un hecho puede comprobarse; un supuesto debe declararse y probarse.
-3. Tiempo improductivo, pérdida de confianza, rotación o una oportunidad perdida.
-4. Una medida frecuente vinculada directamente al resultado.
-5. Una prueba limitada que pueda detenerse sin comprometer recursos excesivos.
-6. La persona responsable del resultado necesita autoridad proporcional.
-7. Puede afectar coste, ingresos, margen, caja, productividad o riesgo.
-8. Un indicador que contradiga el supuesto central o muestre daño inaceptable.
-9. Con hechos, propósito, efecto esperado, responsabilidades y canal de preguntas.
-10. Debe incluir resultado, acción, responsable, plazo, indicador y revisión.
+1. Esta pregunta es la herramienta central para replantear de forma constructiva el manejo de un plan que se derrumbó.
+2. Evaluar con honestidad los recursos restantes es el primer paso práctico hacia un cambio de rumbo.
+3. El impulso es un recurso real y limitado que un proceso de recuperación lento desperdicia.
+4. Esto muestra los bienes concretos que hicieron posible el cambio hacia un nuevo formato.
 
 ## Puntos clave
 
-- Liderar significa convertir intención en una decisión observable.
-- Las personas, las operaciones y las finanzas están conectadas.
-- Una buena decisión declara sus supuestos y límites.
-- Toda acción importante necesita responsable, indicador y revisión.
-- Cambiar el método ante nueva evidencia es disciplina, no debilidad.
-
-## Ruta de aprendizaje
-
-- **Anterior:** BLACK-L1-016
-- **Actual:** BLACK-L1-017
-- **Siguiente:** BLACK-L1-018
-
-## Localización — España
-
-Contenido creado en español de España. Cuando una decisión dependa de legislación, fiscalidad, contabilidad o relaciones laborales, debe verificarse la normativa vigente y la situación concreta antes de actuar.
+- Cuando un plan se derrumba, pregúntese si fracasó la meta o solo el método específico.
+- Evalúe con honestidad qué recursos y capacidades siguen siendo utilizables, y rediseñe en torno a ellos.
+- Cambiar de rumbo rápidamente conserva un impulso que una respuesta más lenta perdería.

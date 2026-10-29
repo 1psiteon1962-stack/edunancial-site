@@ -2,250 +2,62 @@
 id: BLACK-L1-002
 track: BLACK
 officialTrackName: "Leadership & Executive Management"
-color: BLACK
 level: 1
 lessonNumber: 2
-locale: es-Caribbean
-title: "Autoridad vs. influencia"
-summary: "Esta lección enseña a **lograr compromiso mediante credibilidad además de poder formal**. El alumno aprenderá a convertir el concepto en una decisión observable, conectando personas, ejecución, riesgo y recursos financieros."
+title: "Autoridad e influencia"
+summary: "Explica la diferencia entre la autoridad formal y la influencia que se gana, y por qué el verdadero liderazgo depende de esta última."
+version: "1.0"
+author: "Waldemar M. Caban, JD MA"
+date: "2026-08-09"
+locale: "es-Caribbean"
 ---
-
-# 2. Autoridad vs. influencia
-
-### BLACK-L1-002-MAIN
-## Resumen ejecutivo
-Esta lección enseña a **lograr compromiso mediante credibilidad además de poder formal**. El alumno aprenderá a convertir el concepto en una decisión observable, conectando personas, ejecución, riesgo y recursos financieros.
+<!-- Learning Objectives -->
+# Autoridad e influencia
 
 ## Objetivos de aprendizaje
-- **Alfabetización financiera:** reconocer el efecto de la decisión sobre recursos.
-- **Competencia financiera:** relacionarla con coste, ingresos, margen, caja o productividad.
-- **Mejor criterio:** separar hechos, supuestos y alternativas.
-- **Mejores decisiones:** asignar responsable, plazo e indicador.
-- **Construcción de patrimonio:** proteger capital y capacidad de reinversión mediante mejores decisiones.
+<!-- Core Content -->
 
-## Prerrequisitos
-No se requiere formación empresarial previa; basta con aritmética básica y disposición para justificar decisiones.
+- Distinguir entre autoridad e influencia
+- Explicar por qué la autoridad por sí sola no garantiza que las personas lo sigan
+- Identificar formas de construir una influencia que no dependa de un título
 
-## Lección principal
-### 1. Aplicación 1: Lograr compromiso mediante credibilidad además de poder formal
-[HECHO VERIFICABLE] Una decisión de liderazgo puede evaluarse por sus consecuencias observables. En este tema, el líder empieza definiendo el resultado que pretende conseguir y la evidencia que permitiría reconocerlo. Después separa hechos de suposiciones, identifica a las personas afectadas y calcula qué recursos consume la alternativa.
+## Contenido principal
 
-La disciplina consiste en preguntar: ¿qué problema resolvemos?, ¿qué sabemos?, ¿qué desconocemos?, ¿qué cuesta actuar?, ¿qué cuesta esperar?, ¿qué riesgo podemos soportar? y ¿quién será responsable del seguimiento? El objetivo práctico es **lograr compromiso mediante credibilidad además de poder formal**. Una decisión sin fecha de revisión convierte una hipótesis en costumbre; una decisión revisable crea aprendizaje.
-### 2. Aplicación 2: Lograr compromiso mediante credibilidad además de poder formal
-[HECHO VERIFICABLE] Una decisión de liderazgo puede evaluarse por sus consecuencias observables. En este tema, el líder empieza definiendo el resultado que pretende conseguir y la evidencia que permitiría reconocerlo. Después separa hechos de suposiciones, identifica a las personas afectadas y calcula qué recursos consume la alternativa.
+La autoridad es el derecho formal de tomar decisiones o dar órdenes, normalmente vinculado a un título o a un puesto: un gerente, un oficial, el dueño de un negocio. La influencia es la capacidad de mover a las personas a la acción porque confían en usted, lo respetan o creen en lo que dice, sin importar su título.
 
-La disciplina consiste en preguntar: ¿qué problema resolvemos?, ¿qué sabemos?, ¿qué desconocemos?, ¿qué cuesta actuar?, ¿qué cuesta esperar?, ¿qué riesgo podemos soportar? y ¿quién será responsable del seguimiento? El objetivo práctico es **lograr compromiso mediante credibilidad además de poder formal**. Una decisión sin fecha de revisión convierte una hipótesis en costumbre; una decisión revisable crea aprendizaje.
-### 3. Aplicación 3: Lograr compromiso mediante credibilidad además de poder formal
-[HECHO VERIFICABLE] Una decisión de liderazgo puede evaluarse por sus consecuencias observables. En este tema, el líder empieza definiendo el resultado que pretende conseguir y la evidencia que permitiría reconocerlo. Después separa hechos de suposiciones, identifica a las personas afectadas y calcula qué recursos consume la alternativa.
+Esta es la verdad incómoda que los líderes nuevos suelen aprender a las malas: la autoridad puede lograr que las personas cumplan, pero solo la influencia logra que se comprometan de verdad. Alguien con autoridad, pero sin influencia, puede lograr que las personas técnicamente sigan las instrucciones mientras hacen lo mínimo, se quejan a sus espaldas o buscan la primera oportunidad para irse. Alguien con influencia, pero sin autoridad formal, a veces puede mover a un grupo con más eficacia que la persona que tiene el título.
 
-La disciplina consiste en preguntar: ¿qué problema resolvemos?, ¿qué sabemos?, ¿qué desconocemos?, ¿qué cuesta actuar?, ¿qué cuesta esperar?, ¿qué riesgo podemos soportar? y ¿quién será responsable del seguimiento? El objetivo práctico es **lograr compromiso mediante credibilidad además de poder formal**. Una decisión sin fecha de revisión convierte una hipótesis en costumbre; una decisión revisable crea aprendizaje.
-### 4. Aplicación 4: Lograr compromiso mediante credibilidad además de poder formal
-[HECHO VERIFICABLE] Una decisión de liderazgo puede evaluarse por sus consecuencias observables. En este tema, el líder empieza definiendo el resultado que pretende conseguir y la evidencia que permitiría reconocerlo. Después separa hechos de suposiciones, identifica a las personas afectadas y calcula qué recursos consume la alternativa.
+La influencia se construye con constancia, honestidad, competencia y cumplimiento. Se gana despacio y se pierde rápido. Los líderes más sólidos combinan ambas cosas: tienen la autoridad para tomar las decisiones finales, pero también han construido suficiente influencia como para que las personas quieran seguirlos, y no solo tengan que hacerlo.
 
-La disciplina consiste en preguntar: ¿qué problema resolvemos?, ¿qué sabemos?, ¿qué desconocemos?, ¿qué cuesta actuar?, ¿qué cuesta esperar?, ¿qué riesgo podemos soportar? y ¿quién será responsable del seguimiento? El objetivo práctico es **lograr compromiso mediante credibilidad además de poder formal**. Una decisión sin fecha de revisión convierte una hipótesis en costumbre; una decisión revisable crea aprendizaje.
-### 5. Aplicación 5: Lograr compromiso mediante credibilidad además de poder formal
-[HECHO VERIFICABLE] Una decisión de liderazgo puede evaluarse por sus consecuencias observables. En este tema, el líder empieza definiendo el resultado que pretende conseguir y la evidencia que permitiría reconocerlo. Después separa hechos de suposiciones, identifica a las personas afectadas y calcula qué recursos consume la alternativa.
+## Ejemplo práctico
 
-La disciplina consiste en preguntar: ¿qué problema resolvemos?, ¿qué sabemos?, ¿qué desconocemos?, ¿qué cuesta actuar?, ¿qué cuesta esperar?, ¿qué riesgo podemos soportar? y ¿quién será responsable del seguimiento? El objetivo práctico es **lograr compromiso mediante credibilidad además de poder formal**. Una decisión sin fecha de revisión convierte una hipótesis en costumbre; una decisión revisable crea aprendizaje.
+A una nueva gerente la ponen a cargo de un equipo que lleva años trabajando junto. El primer día tiene plena autoridad: puede asignar tareas y fijar fechas límite. Pero el equipo apenas la escucha, no cumple los plazos y cuestiona sus decisiones. Todavía no se ha ganado la influencia.
 
-## Definiciones clave
-- **Resultado:** cambio observable que se pretende conseguir.
-- **Criterio:** regla utilizada para comparar alternativas.
-- **Riesgo:** posibilidad de que un resultado afecte negativamente al objetivo.
-- **Indicador:** medida utilizada para observar progreso o resultado.
-- **Responsable:** persona que debe ejecutar o rendir cuentas sobre una acción.
+Durante los meses siguientes, ella cumple cada compromiso que asume, admite cuando se equivoca y reconoce públicamente al equipo cuando las cosas salen bien. Poco a poco, el mismo equipo que se resistía a su autoridad empieza a confiar en su juicio, no porque haya cambiado su título, sino porque creció su influencia.
 
-### BLACK-L1-002-EXAMPLES
-## Ejemplo desarrollado
-Una pequeña empresa detecta un problema relacionado con **lograr compromiso mediante credibilidad además de poder formal**. En vez de reaccionar de inmediato, la responsable fija un resultado a 30 días, recoge tres datos relevantes, estima el coste de dos alternativas y define un indicador semanal. Elige una opción reversible, asigna responsable y programa una revisión. Si el indicador no mejora, cambia el método sin abandonar el objetivo.
+## Prueba práctica
 
-## Estudio de caso
-Un equipo de ocho personas lleva dos meses incumpliendo un resultado importante. La dirección ha celebrado más reuniones, pero no ha definido un único responsable ni una medida de éxito. El coste del retraso es de 1.200 € al mes entre horas improductivas, incidencias y oportunidades perdidas. El líder debe decidir si rediseña el proceso, reasigna responsabilidades o mantiene el sistema actual. Antes de conocer el desenlace, el alumno debe elegir una opción y justificarla con datos.
+1. Defina la autoridad y la influencia con sus propias palabras.
+2. ¿Puede alguien tener autoridad sin influencia? Dé un ejemplo.
+3. ¿Qué cuatro cualidades dice la lección que construyen la influencia?
+4. ¿Por qué los líderes más sólidos necesitan tanto autoridad como influencia?
 
-**Pregunta de decisión:** ¿qué harías y qué dato exigirías revisar dentro de 30 días?
+## Clave de respuestas
 
-## Errores comunes
-- Actuar antes de definir el problema.
-- Confundir actividad con resultado.
-- No estimar el coste de esperar.
-- Delegar una tarea sin autoridad ni seguimiento.
-- Mantener una decisión porque ya se invirtió tiempo o dinero.
+1. La autoridad es el derecho formal de tomar decisiones; la influencia es la capacidad de mover a las personas mediante la confianza y el respeto, sin importar el título.
+2. Sí: una nueva jefa con el título, pero todavía sin historial, como en el ejemplo práctico.
+3. La constancia, la honestidad, la competencia y el cumplimiento.
+4. La autoridad por sí sola logra el cumplimiento; la influencia logra un compromiso genuino; combinar ambas logra tanto el cumplimiento como la adhesión.
 
-## Preguntas frecuentes
-### ¿Un líder necesita certeza antes de decidir?
-No. Necesita información proporcional al riesgo y claridad sobre qué incertidumbre está aceptando.
+## Respuestas y explicaciones
 
-### ¿Toda decisión debe expresarse en euros?
-No, pero las decisiones relevantes deberían considerar su efecto sobre tiempo, capacidad, coste, ingresos, caja o riesgo cuando corresponda.
-
-### ¿Cambiar de decisión demuestra debilidad?
-No cuando nueva evidencia invalida los supuestos originales. Corregir con criterio es parte de la responsabilidad.
+1. Esta distinción es el concepto central que presenta la lección.
+2. El ejemplo práctico muestra la autoridad presente desde el primer día, mientras que la influencia todavía había que ganarla.
+3. Estas cuatro cualidades se nombran de forma explícita como los cimientos de la influencia.
+4. Depender solo de la autoridad expone al resentimiento o al esfuerzo mínimo; depender solo de la influencia, sin ningún poder formal de decisión, puede crear confusión sobre quién es el responsable.
 
 ## Puntos clave
-- El objetivo de esta lección es lograr compromiso mediante credibilidad además de poder formal.
-- Los criterios deben definirse antes de enamorarse de una solución.
-- Toda decisión importante necesita responsable, plazo, indicador y revisión.
-- Personas, operaciones y finanzas están conectadas.
 
-### BLACK-L1-002-EXERCISE
-## Ejercicio práctico
-Elige una situación real vinculada a **lograr compromiso mediante credibilidad además de poder formal**. Escribe el resultado deseado, cinco hechos, tres supuestos, dos alternativas, coste estimado, riesgo principal, responsable, indicador y fecha de revisión. Explica qué evidencia te haría cambiar de método.
-
-### BLACK-L1-002-AI
-## Guía socrática
-1. ¿Qué resultado intentas conseguir?
-2. ¿Qué hechos puedes demostrar?
-3. ¿Qué estás suponiendo?
-4. ¿Quién se verá afectado?
-5. ¿Qué cuesta actuar?
-6. ¿Qué cuesta esperar?
-7. ¿Qué alternativa es reversible?
-8. ¿Qué indicador mostraría progreso?
-9. ¿Quién debe responder del resultado?
-10. ¿Qué evidencia justificaría cambiar de rumbo?
-
-### BLACK-L1-002-ASSESSMENT
-## Evaluación de competencia — 10 preguntas
-### 1. Opción múltiple
-1. En relación con **lograr compromiso mediante credibilidad además de poder formal**, ¿qué debería hacer primero un líder competente?
-A) Actuar por impulso. B) Definir resultado y criterios, revisar hechos y riesgos. C) Esperar certeza absoluta. D) Evitar asignar responsable.
-
-### 2. Aplicación
-2. En relación con **lograr compromiso mediante credibilidad además de poder formal**, ¿qué debería hacer primero un líder competente?
-A) Actuar por impulso. B) Definir resultado y criterios, revisar hechos y riesgos. C) Esperar certeza absoluta. D) Evitar asignar responsable.
-
-### 3. Aplicación
-3. En relación con **lograr compromiso mediante credibilidad además de poder formal**, ¿qué debería hacer primero un líder competente?
-A) Actuar por impulso. B) Definir resultado y criterios, revisar hechos y riesgos. C) Esperar certeza absoluta. D) Evitar asignar responsable.
-
-### 4. Aplicación
-4. En relación con **lograr compromiso mediante credibilidad además de poder formal**, ¿qué debería hacer primero un líder competente?
-A) Actuar por impulso. B) Definir resultado y criterios, revisar hechos y riesgos. C) Esperar certeza absoluta. D) Evitar asignar responsable.
-
-### 5. Opción múltiple
-5. En relación con **lograr compromiso mediante credibilidad además de poder formal**, ¿qué debería hacer primero un líder competente?
-A) Actuar por impulso. B) Definir resultado y criterios, revisar hechos y riesgos. C) Esperar certeza absoluta. D) Evitar asignar responsable.
-
-### 6. Aplicación
-6. En relación con **lograr compromiso mediante credibilidad además de poder formal**, ¿qué debería hacer primero un líder competente?
-A) Actuar por impulso. B) Definir resultado y criterios, revisar hechos y riesgos. C) Esperar certeza absoluta. D) Evitar asignar responsable.
-
-### 7. Aplicación
-7. En relación con **lograr compromiso mediante credibilidad además de poder formal**, ¿qué debería hacer primero un líder competente?
-A) Actuar por impulso. B) Definir resultado y criterios, revisar hechos y riesgos. C) Esperar certeza absoluta. D) Evitar asignar responsable.
-
-### 8. Aplicación
-8. En relación con **lograr compromiso mediante credibilidad además de poder formal**, ¿qué debería hacer primero un líder competente?
-A) Actuar por impulso. B) Definir resultado y criterios, revisar hechos y riesgos. C) Esperar certeza absoluta. D) Evitar asignar responsable.
-
-### 9. Aplicación
-9. En relación con **lograr compromiso mediante credibilidad además de poder formal**, ¿qué debería hacer primero un líder competente?
-A) Actuar por impulso. B) Definir resultado y criterios, revisar hechos y riesgos. C) Esperar certeza absoluta. D) Evitar asignar responsable.
-
-### 10. Aplicación
-10. En relación con **lograr compromiso mediante credibilidad además de poder formal**, ¿qué debería hacer primero un líder competente?
-A) Actuar por impulso. B) Definir resultado y criterios, revisar hechos y riesgos. C) Esperar certeza absoluta. D) Evitar asignar responsable.
-
-### BLACK-L1-002-ANSWER-KEY
-## Clave de respuestas comentada
-### 1. Respuesta
-**Respuesta esperada:** B. Definir el resultado, los criterios, los hechos disponibles y los riesgos antes de ejecutar.
-
-**Competencia evaluada:** aplicación de lograr compromiso mediante credibilidad además de poder formal.
-
-**Error frecuente:** confundir rapidez con calidad de decisión o repetir una idea sin convertirla en acción medible.
-
-### 2. Respuesta
-**Respuesta esperada:** B. Definir el resultado, los criterios, los hechos disponibles y los riesgos antes de ejecutar.
-
-**Competencia evaluada:** aplicación de lograr compromiso mediante credibilidad además de poder formal.
-
-**Error frecuente:** confundir rapidez con calidad de decisión o repetir una idea sin convertirla en acción medible.
-
-### 3. Respuesta
-**Respuesta esperada:** B. Definir el resultado, los criterios, los hechos disponibles y los riesgos antes de ejecutar.
-
-**Competencia evaluada:** aplicación de lograr compromiso mediante credibilidad además de poder formal.
-
-**Error frecuente:** confundir rapidez con calidad de decisión o repetir una idea sin convertirla en acción medible.
-
-### 4. Respuesta
-**Respuesta esperada:** B. Definir el resultado, los criterios, los hechos disponibles y los riesgos antes de ejecutar.
-
-**Competencia evaluada:** aplicación de lograr compromiso mediante credibilidad además de poder formal.
-
-**Error frecuente:** confundir rapidez con calidad de decisión o repetir una idea sin convertirla en acción medible.
-
-### 5. Respuesta
-**Respuesta esperada:** B. Definir el resultado, los criterios, los hechos disponibles y los riesgos antes de ejecutar.
-
-**Competencia evaluada:** aplicación de lograr compromiso mediante credibilidad además de poder formal.
-
-**Error frecuente:** confundir rapidez con calidad de decisión o repetir una idea sin convertirla en acción medible.
-
-### 6. Respuesta
-**Respuesta esperada:** B. Definir el resultado, los criterios, los hechos disponibles y los riesgos antes de ejecutar.
-
-**Competencia evaluada:** aplicación de lograr compromiso mediante credibilidad además de poder formal.
-
-**Error frecuente:** confundir rapidez con calidad de decisión o repetir una idea sin convertirla en acción medible.
-
-### 7. Respuesta
-**Respuesta esperada:** B. Definir el resultado, los criterios, los hechos disponibles y los riesgos antes de ejecutar.
-
-**Competencia evaluada:** aplicación de lograr compromiso mediante credibilidad además de poder formal.
-
-**Error frecuente:** confundir rapidez con calidad de decisión o repetir una idea sin convertirla en acción medible.
-
-### 8. Respuesta
-**Respuesta esperada:** B. Definir el resultado, los criterios, los hechos disponibles y los riesgos antes de ejecutar.
-
-**Competencia evaluada:** aplicación de lograr compromiso mediante credibilidad además de poder formal.
-
-**Error frecuente:** confundir rapidez con calidad de decisión o repetir una idea sin convertirla en acción medible.
-
-### 9. Respuesta
-**Respuesta esperada:** B. Definir el resultado, los criterios, los hechos disponibles y los riesgos antes de ejecutar.
-
-**Competencia evaluada:** aplicación de lograr compromiso mediante credibilidad además de poder formal.
-
-**Error frecuente:** confundir rapidez con calidad de decisión o repetir una idea sin convertirla en acción medible.
-
-### 10. Respuesta
-**Respuesta esperada:** B. Definir el resultado, los criterios, los hechos disponibles y los riesgos antes de ejecutar.
-
-**Competencia evaluada:** aplicación de lograr compromiso mediante credibilidad además de poder formal.
-
-**Error frecuente:** confundir rapidez con calidad de decisión o repetir una idea sin convertirla en acción medible.
-
-### BLACK-L1-002-COMPETENCY
-## Estándar de competencia
-- **Dominio:** 8/10 (80 %).
-- Por debajo del 80 %, el alumno revisará el concepto fallado, resolverá un escenario nuevo y repetirá la comprobación.
-- Con dominio, se desbloquea la siguiente lección.
-
-## Lecturas complementarias
-Consultar fuentes fiables sobre liderazgo, comportamiento organizativo, finanzas empresariales y toma de decisiones; verificar autoría, fecha, evidencia y aplicabilidad.
-
-## Ruta de aprendizaje
-- **Anterior:** BLACK-L1-001
-- **Actual:** BLACK-L1-002
-- **Siguiente:** BLACK-L1-003
-
-### BLACK-L1-002-SEO
-## Bloque SEO
-- **Título:** Autoridad vs. influencia | BLACK Nivel 1 | Edunancial
-- **Descripción:** Aprende a lograr compromiso mediante credibilidad además de poder formal mediante criterios de decisión, responsabilidad y comprensión financiera.
-- **Palabras clave:** liderazgo, gestión, decisiones, finanzas empresariales, equipo, responsabilidad
-
-### BLACK-L1-002-AI
-## Apoyo de IA
-El tutor puede simplificar conceptos, formular preguntas y crear escenarios adicionales. No debe sustituir asesoramiento jurídico, fiscal, contable, financiero o profesional individualizado.
-
-### BLACK-L1-002-LOCALIZATION
-## Localización — España
-Contenido creado directamente en español de España. Cuando una decisión dependa de legislación, fiscalidad, contabilidad o relaciones laborales, debe comprobarse la norma española vigente y la situación concreta.
-
-### BLACK-L1-002-REFERENCES
-## Referencias y verificación
-Los principios de liderazgo se presentan con fines educativos. Las cifras de los casos son ejemplos ilustrativos. Cualquier regla jurídica, fiscal, contable o regulatoria debe verificarse en fuentes oficiales actualizadas antes de aplicarla.
+- La autoridad la da un título; la influencia se gana con la confianza y el historial.
+- La autoridad por sí sola logra el cumplimiento, pero la influencia logra un compromiso genuino.
+- Los líderes más sólidos construyen ambas, y combinan el derecho a decidir con la confianza para ser seguidos.
