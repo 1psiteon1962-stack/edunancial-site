@@ -7,6 +7,19 @@ type Upload = { uploadId: string; originalFilename: string; sizeBytes: number; s
 type RecoverableBatch = { batchId: string; uploads: Upload[] };
 type RecoveryResponse = { recoverable?: RecoverableBatch[]; recoveryAvailable?: boolean; warning?: string; error?: string };
 
+async function readApiJson(response: Response, label: string): Promise<any> {
+  const contentType = response.headers.get("content-type") ?? "";
+  const raw = await response.text();
+  if (!contentType.toLowerCase().includes("application/json")) {
+    const hint = response.redirected || /<html|<!doctype/i.test(raw)
+      ? "The server returned an HTML page instead of API JSON. Check the deployed API route, authentication redirects, and Netlify function logs."
+      : "The API returned a non-JSON response. Check the deployed API route and server logs.";
+    throw new Error(`${label}: HTTP ${response.status}. ${hint}`);
+  }
+  try { return JSON.parse(raw); }
+  catch { throw new Error(`${label}: HTTP ${response.status}. The API returned malformed JSON; check server logs.`); }
+}
+
 export default function RecoveryClient() {
   const router = useRouter();
   const [csrfToken, setCsrfToken] = useState("");
@@ -27,8 +40,9 @@ export default function RecoveryClient() {
         fetch("/api/admin/auth/session", { cache: "no-store" }),
         fetch("/api/admin/content/upload/recover", { cache: "no-store" }),
       ]);
-      const session = await sessionResponse.json();
-      const recovery = await recoveryResponse.json() as RecoveryResponse;
+      const session = await readApiJson(sessionResponse, "Admin session");
+      if (!sessionResponse.ok) throw new Error(session.error ?? `Admin session failed (HTTP ${sessionResponse.status}). Please sign in again.`);
+      const recovery = await readApiJson(recoveryResponse, "Interrupted-upload listing") as RecoveryResponse;
       if (!recoveryResponse.ok) throw new Error(recovery.error ?? "Unable to inspect interrupted uploads.");
       setCsrfToken(session.csrfToken ?? "");
       setBatches(recovery.recoverable ?? []);
@@ -56,7 +70,7 @@ export default function RecoveryClient() {
         headers: { "Content-Type": "application/json", "x-csrf-token": csrfToken },
         body: JSON.stringify({ batchId, uploadId }),
       });
-      const payload = await response.json();
+      const payload = await readApiJson(response, "Recovery start");
       if (!response.ok || !payload.jobId) throw new Error(payload.error ?? `Recovery start failed (HTTP ${response.status}).`);
       setProgress("Recovery is running server-side. You may leave this page; the stored ZIP remains preserved.");
       let lastJob: { state?: string; phase?: string | null; heartbeatAt?: string | null } | null = null;
@@ -74,7 +88,7 @@ export default function RecoveryClient() {
           setProgress("Recovery continues server-side; browser status check was interrupted. Retrying…");
           continue;
         }
-        const statusPayload = await statusResponse.json();
+        const statusPayload = await readApiJson(statusResponse, "Recovery status");
         if (!statusResponse.ok) throw new Error(statusPayload.error ?? "Unable to read recovery job state.");
         const job = statusPayload.job;
         lastJob = job;
