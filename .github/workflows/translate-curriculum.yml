@@ -1,0 +1,75 @@
+name: Translate curriculum (any level)
+
+# Generates localized lesson sidecars with scripts/international/translate-curriculum.mjs
+# and pushes them to a NEW branch (auto-translate/...). Nothing is merged automatically:
+# each branch is reviewed through a normal PR with all curriculum safety gates.
+on:
+  workflow_dispatch:
+    inputs:
+      level:
+        description: "Curriculum level (1-5)"
+        required: true
+        default: "2"
+      track:
+        description: "Color/track, e.g. RED (empty = all colors)"
+        required: false
+        default: ""
+      locales:
+        description: "Space-separated locales, e.g. 'de it nl'"
+        required: true
+        default: "de"
+      force:
+        description: "Regenerate even learner-ready existing files (1 = yes)"
+        required: false
+        default: "0"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: translate-${{ inputs.level }}-${{ inputs.track }}-${{ inputs.locales }}
+  cancel-in-progress: false
+
+jobs:
+  translate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 300
+    env:
+      OPENAI_ORGANIZATION: org-5Mmp9o6SiLOFDfUWbzF7xoPI
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 1
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Require OpenAI credential
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+        run: |
+          if [ -z "$OPENAI_API_KEY" ]; then echo "::error::OPENAI_API_KEY secret is missing"; exit 1; fi
+      - name: Translate
+        id: translate
+        continue-on-error: true
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          EDUNANCIAL_TRANSLATION_MODEL: ${{ vars.EDUNANCIAL_TRANSLATION_MODEL }}
+          EDUNANCIAL_TRANSLATION_LEVEL: ${{ inputs.level }}
+          EDUNANCIAL_TRANSLATION_TRACK: ${{ inputs.track }}
+          EDUNANCIAL_TRANSLATION_FORCE: ${{ inputs.force }}
+        run: node scripts/international/translate-curriculum.mjs ${{ inputs.locales }} 2>&1 | tee translate.log
+      - name: Push results to a review branch
+        run: |
+          git config user.name "edunancial-translator"
+          git config user.email "actions@users.noreply.github.com"
+          git add content/curriculum
+          if git diff --cached --quiet; then echo "No changes"; exit 0; fi
+          TRACK="${{ inputs.track }}"; [ -z "$TRACK" ] && TRACK=ALL
+          LOC=$(echo "${{ inputs.locales }}" | tr ' ' '-')
+          BR="auto-translate/L${{ inputs.level }}-${TRACK}-${LOC}-${{ github.run_id }}"
+          git commit -q -m "Auto-translate L${{ inputs.level }} ${TRACK} ${{ inputs.locales }} (run ${{ github.run_id }})"
+          git push -q origin "HEAD:refs/heads/${BR}"
+          echo "::notice title=Review branch::${BR}"
+          FAILS=$(grep -c "FAILED" translate.log || true)
+          echo "::notice title=Translation failures::${FAILS}"
