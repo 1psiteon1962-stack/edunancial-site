@@ -1,80 +1,74 @@
 ---
 id: GREEN-L1-008
 track: GREEN
-officialTrackName: Impuestos
+officialTrackName: Taxes
 level: 1
 lessonNumber: 8
 locale: es-Caribbean
-title: "Progressive vs. Regressive Impuestos"
-summary: "Explains the difference between progressive and regressive impuesto structures using plain, relatable comparisons."
+title: "Impuestos progresivos e impuestos regresivos"
+summary: "Explica la diferencia entre las estructuras tributarias progresivas y regresivas mediante comparaciones sencillas y cercanas."
 version: 1.0
 author: Waldemar M. Caban, JD MA
 date: 2026-08-09
 ---
 
-# Progressive vs. Regressive Impuestos
+# Impuestos progresivos e impuestos regresivos
 
 ## Objetivos de aprendizaje
 
-- Define a progressive impuesto structure.
-- Define a regressive impuesto structure.
-- Identify real-world examples of each.
+- Definir una estructura tributaria progresiva.
+- Definir una estructura tributaria regresiva.
+- Identificar ejemplos reales de cada una.
 
 ## Contenido principal
 
-A progressive impuesto takes a larger percentage from people with higher ingreso or wealth. Most ingreso impuesto systems are structured this way — as you earn more, a higher percentage of your ingreso (usually just the portion above certain thresholds) is impuestoed.
+Un impuesto progresivo toma un porcentaje mayor de las personas con más ingresos o riqueza. La mayoría de los sistemas de impuesto sobre la renta están estructurados así: a medida que usted gana más, se grava un porcentaje mayor de su ingreso (normalmente solo la parte que supera ciertos umbrales).
 
-A regressive impuesto, by contrast, effectively takes a larger percentage from people with lower ingreso, even if the impuesto rate looks the same for everyone. Sales impuesto is a common example: if two people each buy the same $50 item and pay the same ventas impuesto, that impuesto represents a much bigger share of a low-ingreso person's total money than a high-ingreso person's. The dollar amount is equal, but the burden isn't.
+Un impuesto regresivo, en cambio, toma en la práctica un porcentaje mayor de las personas con menos ingresos, aunque la tasa parezca igual para todos. El impuesto sobre las ventas es un ejemplo común: si dos personas compran el mismo artículo de $50 y pagan el mismo impuesto sobre la venta, ese impuesto representa una parte mucho mayor del dinero total de una persona de bajos ingresos que del de una persona de altos ingresos. La cantidad en dólares es igual, pero la carga no lo es. (Ejemplos de impuestos al consumo en el Caribe son el IVU en Puerto Rico y el ITBIS en la República Dominicana.)
 
-Neither structure is inherently 'right' or 'wrong' — they're tools with different effects, and real impuesto systems usually combine both progressive and regressive elements. Understanding which category a given impuesto falls into helps you evaluate who actually carries more of the burden.
+Ninguna de las dos estructuras es en sí misma «correcta» o «incorrecta»: son herramientas con efectos distintos, y los sistemas tributarios reales suelen combinar elementos progresivos y regresivos. Entender en qué categoría cae un impuesto determinado le ayuda a evaluar quién soporta realmente una mayor carga.
 
 ## Ejemplo práctico
 
-**Pregunta:** Two people each pay $5 in ventas impuesto on the same purchase. One earns $2,000 a month, the other earns $20,000 a month. Is the impuesto progressive or regressive in effect?
+**Pregunta:** Dos personas pagan cada una $5 de impuesto sobre la venta en la misma compra. Una gana $2,000 al mes y la otra gana $20,000 al mes. ¿Es el impuesto progresivo o regresivo en su efecto?
 
-**Estudiante:** The dollar amount is identical, so at first it looks fair.
+**Estudiante:** La cantidad en dólares es idéntica, así que a primera vista parece justo.
 
-**Guía:** But what percentage of each person's ingreso does that $5 represent?
+**Guía:** Pero ¿qué porcentaje del ingreso de cada persona representan esos $5?
 
-**Estudiante:** A much bigger share for the person earning $2,000 than the person earning $20,000.
+**Estudiante:** Una parte mucho mayor para la persona que gana $2,000 que para la que gana $20,000.
 
-**Guía:** Right — equal dollar amounts can still have unequal real-world impact, which is the regressive pattern.
-
+**Guía:** Correcto. Cantidades iguales en dólares pueden tener un impacto real desigual, y ese es el patrón regresivo.
 
 ## Prueba práctica
 
+**Pregunta 1.** Un impuesto progresivo toma:
 
-**Pregunta 1.** A progressive impuesto takes:
+A) Un porcentaje menor de quienes ganan más
+B) Un porcentaje mayor de quienes ganan más
+C) El mismo porcentaje de todos, sin importar el ingreso
+D) Nada de nadie
 
-A) A smaller percentage from higher earners
-B) A larger percentage from higher earners
-C) The same percentage from everyone regardless of ingreso
-D) Nothing from anyone
+**Pregunta 2.** Un impuesto regresivo, en la práctica, impone una carga mayor a:
 
+A) Quienes ganan más
+B) Quienes ganan menos, como proporción de su ingreso
+C) Nadie
+D) Solo las empresas
 
-**Pregunta 2.** A regressive impuesto effectively burdens:
+**Pregunta 3.** El impuesto sobre las ventas se describe a menudo como regresivo porque:
 
-A) Higher earners more heavily
-B) Lower earners more heavily, as a share of ingreso
-C) No one
-D) Only negocioes
+A) Es ilegal
+B) Cantidades iguales en dólares representan una parte mayor de un ingreso más bajo
+C) Solo se aplica a los ricos
+D) Cambia todos los días
 
+**Pregunta 4.** Los sistemas tributarios reales:
 
-**Pregunta 3.** Sales impuesto is often described as regressive because:
-
-A) It's illegal
-B) Equal dollar amounts represent a bigger share of a lower ingreso
-C) It only applies to the wealthy
-D) It changes every day
-
-
-**Pregunta 4.** Real-world impuesto systems:
-
-A) Are always purely progressive
-B) Are always purely regressive
-C) Often combine both progressive and regressive elements
-D) Never combine impuesto types
-
+A) Siempre son puramente progresivos
+B) Siempre son puramente regresivos
+C) A menudo combinan elementos progresivos y regresivos
+D) Nunca combinan tipos de impuestos
 
 ## Clave de respuestas
 
@@ -82,17 +76,17 @@ D) Never combine impuesto types
 
 ## Respuestas y explicaciones
 
-**1.** Progressive systems increase the impuesto rate as ingreso rises, usually applied to portions above set thresholds.
+**1.** Los sistemas progresivos aumentan la tasa a medida que sube el ingreso, normalmente aplicada a las partes que superan ciertos umbrales.
 
-**2.** Regressive impuestoes take a proportionally bigger bite out of lower ingresos even when the dollar amount is equal.
+**2.** Los impuestos regresivos toman una parte proporcionalmente mayor de los ingresos más bajos, aun cuando la cantidad en dólares sea igual.
 
-**3.** The same $5 impuesto is a larger share of a smaller ingreso, which is the essence of a regressive effect.
+**3.** El mismo impuesto de $5 es una parte mayor de un ingreso más pequeño, y esa es la esencia de un efecto regresivo.
 
-**4.** Most real systems blend progressive elements (like ingreso impuesto brackets) with regressive elements (like flat ventas impuesto).
+**4.** La mayoría de los sistemas reales combinan elementos progresivos (como los tramos del impuesto sobre la renta) con elementos regresivos (como un impuesto sobre las ventas con tasa fija).
 
 ## Puntos clave
 
-- Progressive impuestoes rise as a percentage with higher ingreso.
-- Regressive impuestoes take a proportionally larger share from lower ingresos, even at equal dollar amounts.
-- Sales impuesto is a commonly cited regressive example.
-- Most real systems mix both structures rather than using one exclusively.
+- Los impuestos progresivos aumentan como porcentaje a medida que sube el ingreso.
+- Los impuestos regresivos toman una parte proporcionalmente mayor de los ingresos más bajos, aun con cantidades iguales en dólares.
+- El impuesto sobre las ventas es un ejemplo de impuesto regresivo que se menciona con frecuencia.
+- La mayoría de los sistemas reales combinan ambas estructuras en lugar de usar solo una.
