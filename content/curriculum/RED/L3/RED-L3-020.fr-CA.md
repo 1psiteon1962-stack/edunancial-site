@@ -1,0 +1,62 @@
+---
+id: RED-L3-020
+locale: fr-CA
+source_locale: en-US
+track: RED
+level: 3
+lesson: 20
+title: "Pourquoi les prêts DSCR jugent le bien, et non l'emprunteur"
+source_title: "Why DSCR Loans Judge the Property, Not the Borrower"
+description: "Découvrez pourquoi les prêts basés sur le ratio de couverture du service de la dette permettent aux investisseurs immobiliers d'être éligibles grâce aux revenus d'un bien plutôt qu'à leurs talons de paie personnels."
+slug: red-l3-020-dscr-loans
+seo_title: "Pourquoi les prêts DSCR jugent le bien, et non l'emprunteur | Edunancial"
+meta_description: "Découvrez pourquoi les prêts basés sur le ratio de couverture du service de la dette permettent aux investisseurs immobiliers d'être éligibles grâce aux revenus d'un bien plutôt qu'à leurs talons de paie personnels."
+author: "Waldemar M. Caban, JD MA"
+---
+
+# RED-L3-020: Pourquoi les prêts DSCR jugent le bien, et non l'emprunteur
+
+## Objectifs d'apprentissage
+À la fin de cette leçon, vous serez capable de :
+- Définir le ratio de couverture du service de la dette (DSCR) et la façon dont il est calculé
+- Expliquer pourquoi les prêts DSCR déplacent l'éligibilité loin des revenus personnels
+- Expliquer à qui ce type de prêt profite le plus
+
+## Contenu principal
+
+Le **ratio de couverture du service de la dette (DSCR, debt service coverage ratio)** compare le revenu net d'exploitation d'un bien à l'ensemble de ses remboursements de dette. [ILLUSTRATIVE EXAMPLE] Un bien qui génère 2 400 $ par mois de revenu net face à un versement de prêt hypothécaire de 2 000 $ par mois a un DSCR de 1,2, ce qui signifie qu'il génère 20 % de revenus de plus que ce dont il a besoin pour couvrir la dette.
+
+Un **prêt DSCR** rend un emprunteur éligible principalement sur la base de ce ratio, plutôt que sur le calcul du DTI personnel vu dans la leçon 4. Voici pourquoi c'est important : beaucoup d'investisseurs immobiliers, surtout ceux qui sont indépendants ou qui détiennent plusieurs biens, peuvent afficher sur le papier un revenu personnel imposable relativement faible (souvent à cause de déductions pour amortissement tout à fait légales), alors même que leurs biens donnent de bons résultats. Un prêt conventionnel basé sur le DTI peut sous-estimer la vraie situation financière de ces investisseurs ; un prêt DSCR pose plutôt une question plus directe : ce bien précis génère-t-il assez de revenus pour couvrir sa propre dette ?
+
+[VERIFIED FACT] Les prêts DSCR exigent généralement un DSCR égal ou supérieur à un minimum fixé par le prêteur (souvent autour de 1,0 à 1,25) et ont souvent des taux un peu plus élevés que les prêts conventionnels pour une résidence occupée par le propriétaire, ce qui reflète une analyse de financement tournée vers les investisseurs et moins dépendante des revenus personnels.
+
+## Exemple pratique
+
+[ILLUSTRATIVE EXAMPLE] Deux investisseurs, Sam et Lena, veulent chacun acheter un immeuble à revenus dont le revenu net d'exploitation prévu est de 1 800 $ par mois et le versement de prêt hypothécaire prévu de 1 600 $ par mois (DSCR de 1,125). Sam a de solides revenus salariés déclarés sur formulaire W-2 (le relevé de salaire annuel américain) et devient facilement éligible selon les règles conventionnelles de DTI. Lena est indépendante, possède plusieurs biens et affiche un revenu imposable plus faible à cause de déductions pour amortissement tout à fait légales, ce qui rend son éligibilité conventionnelle basée sur le DTI plus difficile, alors que ses biens donnent de bons résultats. Un prêt DSCR, qui évalue le bien lui-même plutôt que la déclaration de revenus personnelle de Lena, pourrait lui permettre d'être éligible pour la même opération qu'un prêt basé sur le DTI rendrait difficile.
+
+## Quiz d'entraînement
+
+1. Que mesure le DSCR ?
+2. Pourquoi un prêt DSCR pourrait-il aider un investisseur qui affiche un faible revenu imposable alors qu'il possède des biens rentables ?
+3. Quelle est la contrepartie habituelle d'un prêt DSCR par rapport à un financement conventionnel ?
+
+## Corrigé
+
+1. Le revenu net d'exploitation d'un bien par rapport à l'ensemble de ses remboursements de dette.
+2. Parce qu'il accorde le prêt en fonction des résultats du bien lui-même plutôt que de la déclaration de revenus personnelle de l'emprunteur, qui peut sous-estimer sa vraie solidité financière à cause de déductions légales comme l'amortissement.
+3. Les prêts DSCR ont souvent des taux d'intérêt un peu plus élevés que les prêts conventionnels, ce qui reflète une approche différente de l'analyse de financement.
+
+## Réponses et explications
+
+1. C'est la définition de base nécessaire pour le reste de la leçon.
+2. C'est le « pourquoi » central : les prêts DSCR résolvent un décalage précis entre le revenu imposable et les résultats réels des placements.
+3. Cette question renforce le schéma récurrent selon lequel moins dépendre des finances personnelles s'accompagne souvent d'un coût en contrepartie.
+
+## Points clés
+- Le DSCR compare le revenu net d'un bien à ses remboursements de dette, au lieu de s'appuyer sur les revenus personnels.
+- Les prêts DSCR peuvent aider les investisseurs dont les déclarations de revenus sous-estiment la vraie situation financière à cause de déductions légales.
+- Cette souplesse s'accompagne généralement de taux d'intérêt un peu plus élevés que ceux des prêts conventionnels pour une résidence occupée par le propriétaire.
+
+---
+
+*Cette leçon est fournie uniquement à des fins d'éducation financière générale et ne constitue pas un conseil financier, de placement, fiscal ou juridique personnalisé. Tous les chiffres sont des estimations illustratives, et non des garanties. Consultez un professionnel autorisé avant de prendre des décisions financières.*
