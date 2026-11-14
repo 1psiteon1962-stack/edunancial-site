@@ -1,4 +1,5 @@
 /** Executive Analytics Data Adapters */
+import { getKpiSummary } from "@/lib/kpi/summary";
 import {
   type AICoachKPIs, type CourseKPIs, type ExecutiveSnapshot, type FinancialKPIs,
   type GeoDataPoint, type KPIGoal, type KPIGoals, type MarketingKPIs,
@@ -30,7 +31,19 @@ export async function getCourseKPIs():Promise<CourseKPIs>{
 
 export async function getAICoachKPIs():Promise<AICoachKPIs>{return {questionsAsked:metricPending(0),topTopics:metricPending([]),topLanguages:metricPending([]),failedSearches:metricPending(0),avgResponseTimeMs:metricPending(0),satisfactionRate:metricPending(0)}}
 
-export async function getMarketingKPIs():Promise<MarketingKPIs>{try{const db=getSupabaseAdminClient(),since=startOfMonthIso();const [{data:events,error:eventError},{data:spendRows,error:spendError}]=await Promise.all([db.from("kpi_events").select("event_name,session_id,referrer,utm_source,utm_medium,value").gte("created_at",since),db.from("kpi_marketing_spend").select("amount").gte("spend_date",since.slice(0,10))]);if(eventError)throw eventError;const rows=events??[],pageViews=rows.filter(row=>row.event_name==="page_view"),sessions=new Set(pageViews.map(row=>row.session_id).filter(Boolean)),signups=rows.filter(row=>row.event_name==="signup"),purchases=rows.filter(row=>row.event_name==="purchase"),revenue=purchases.reduce((sum,row)=>sum+numberValue(row.value),0),conversions=purchases.length,organic=pageViews.filter(row=>row.utm_medium==="organic"||row.utm_source==="google"||row.utm_source==="bing").length,social=pageViews.filter(row=>["social","paid_social"].includes(String(row.utm_medium??""))).length,referrals=pageViews.filter(row=>Boolean(row.referrer)&&!String(row.referrer).includes("edunancial.com")).length,spendAvailable=!spendError,spend=spendAvailable?(spendRows??[]).reduce((sum,row)=>sum+numberValue(row.amount),0):0,cac=spendAvailable&&conversions>0?spend/conversions:0,cpa=spendAvailable&&signups.length>0?spend/signups.length:0,roas=spendAvailable&&spend>0?revenue/spend:0;return {visitors:metricLive(sessions.size),conversions:metricLive(conversions),membershipSignups:metricLive(signups.length),cpa:spendAvailable?metricLive(cpa):metricPending(0),cac:spendAvailable?metricLive(cac):metricPending(0),roas:spendAvailable?metricLive(roas):metricPending(0),organicSearch:metricLive(organic),referralTraffic:metricLive(referrals),socialTraffic:metricLive(social)}}catch(error){console.error("getMarketingKPIs failed",error);return {visitors:metricPending(0),conversions:metricPending(0),membershipSignups:metricPending(0),cpa:metricPending(0),cac:metricPending(0),roas:metricPending(0),organicSearch:metricPending(0),referralTraffic:metricPending(0),socialTraffic:metricPending(0)}}}
+export async function getMarketingKPIs():Promise<MarketingKPIs>{try{
+ // Visits and signups come from the Neon event store (where every event is written), robots excluded.
+ const monthDays=new Date().getUTCDate();const summary=await getKpiSummary(monthDays);
+ const db=getSupabaseAdminClient(),since=startOfMonthIso();const {data:spendRows,error:spendError}=await db.from("kpi_marketing_spend").select("amount").gte("spend_date",since.slice(0,10));
+ const sourceCount=(test:(key:string)=>boolean)=>summary.sources.filter(row=>test(row.key.toLowerCase())).reduce((sum,row)=>sum+row.count,0);
+ const organic=sourceCount(key=>/google|bing|duckduckgo|yahoo|ecosia|organic/.test(key));
+ const social=sourceCount(key=>/facebook|instagram|tiktok|linkedin|twitter|x\.com|t\.co|youtube|whatsapp|threads|pinterest|social/.test(key));
+ const referrals=summary.sources.filter(row=>row.key!=="(direct)").reduce((sum,row)=>sum+row.count,0)-organic-social;
+ const conversions=summary.spending.purchases,signups=summary.totals.signupsWindow,revenue=summary.spending.revenue;
+ const spendAvailable=!spendError,spend=spendAvailable?(spendRows??[]).reduce((sum,row)=>sum+numberValue(row.amount),0):0;
+ const cac=spendAvailable&&conversions>0?spend/conversions:0,cpa=spendAvailable&&signups>0?spend/signups:0,roas=spendAvailable&&spend>0?revenue/spend:0;
+ return {visitors:metricLive(summary.totals.visitorsMonth),conversions:metricLive(conversions),membershipSignups:metricLive(signups),cpa:spendAvailable?metricLive(cpa):metricPending(0),cac:spendAvailable?metricLive(cac):metricPending(0),roas:spendAvailable?metricLive(roas):metricPending(0),organicSearch:metricLive(organic),referralTraffic:metricLive(Math.max(0,referrals)),socialTraffic:metricLive(social)}
+}catch(error){console.error("getMarketingKPIs failed",error);return {visitors:metricPending(0),conversions:metricPending(0),membershipSignups:metricPending(0),cpa:metricPending(0),cac:metricPending(0),roas:metricPending(0),organicSearch:metricPending(0),referralTraffic:metricPending(0),socialTraffic:metricPending(0)}}}
 
 function unknownService(name:string):ServiceHealth{return {name,status:"unknown",latencyMs:null,checkedAt:new Date().toISOString()}}
 export async function getSystemHealthKPIs():Promise<SystemHealthKPIs>{return {application:unknownService("Application"),database:unknownService("Database"),supabase:unknownService("Supabase"),netlify:unknownService("Netlify"),storage:metricPending(0),bandwidth:metricPending(0),apiHealth:unknownService("API")}}

@@ -10,6 +10,7 @@ import { logger } from "@/lib/observability/logger";
 import { recordRequestMetric } from "@/lib/observability/metrics";
 import { attachRequestHeaders, getRequestContext, getRequestId } from "@/lib/observability/tracing";
 import { insertKpiEvent } from "@/lib/kpi/repository";
+import { classifyUserAgent } from "@/lib/kpi/bot-detection";
 
 const ALLOWED_EVENTS = new Set<KPIEventName>([
   "page_view",
@@ -50,6 +51,22 @@ export async function POST(request: Request) {
     if (detectedCountry) {
       safeMetadata.visitor_country_code = detectedCountry.countryCode;
       safeMetadata.visitor_country_source = detectedCountry.source;
+    }
+    // Robots are stored but flagged, so totals count people only.
+    const verdict = classifyUserAgent(context.userAgent);
+    delete safeMetadata.is_bot;
+    delete safeMetadata.bot_reason;
+    if (verdict.isBot) {
+      safeMetadata.is_bot = true;
+      safeMetadata.bot_reason = verdict.reason;
+    }
+    const acceptLanguage = request.headers.get("accept-language")?.split(",")[0]?.split(";")[0]?.trim();
+    if (acceptLanguage && /^[A-Za-z]{2,3}(-[A-Za-z0-9]{2,8})*$/u.test(acceptLanguage)) {
+      safeMetadata.accept_language = acceptLanguage;
+    }
+    for (const key of ["site_locale", "browser_language", "visitor_id", "screen"]) {
+      const value = safeMetadata[key];
+      if (value !== undefined && value !== null && (typeof value !== "string" || value.length > 64)) delete safeMetadata[key];
     }
     const path = String(body.path ?? metadata.path ?? context.path ?? "").slice(0, 2048) || null;
     const ipHash = context.ip ? await hashIP(context.ip.split(",")[0].trim()) : null;
