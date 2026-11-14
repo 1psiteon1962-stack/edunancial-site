@@ -34,7 +34,7 @@ Uma pessoa da equipa levanta a preocupação de que o cronograma de um novo proj
 
 ## Questionário Prático
 
-1. Por que a primeira discordância é um momento crítico para um líder?
+1. Porque é que a primeira discordância é um momento crítico para um líder?
 2. Receber bem uma discordância significa que a decisão do líder sempre precisa mudar?
 3. Cite uma reação defensiva que desestimula a honestidade da equipa no futuro.
 4. Que benefício as equipas têm quando se sentem seguras para discordar?

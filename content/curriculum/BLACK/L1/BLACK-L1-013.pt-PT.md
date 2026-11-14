@@ -34,9 +34,9 @@ Uma pessoa da equipa vem a chegar atrasada às ligações com clientes. Evitar o
 
 ## Questionário Prático
 
-1. Por que evitar feedbacks difíceis acaba prejudicando mais a equipa?
+1. Porque é que evitar feedbacks difíceis acaba prejudicando mais a equipa?
 2. Segundo esta lição, quais são os dois componentes principais de um feedback eficaz?
-3. Por que o momento importa ao dar um feedback?
+3. Porque é que o momento importa ao dar um feedback?
 4. Reescreva este feedback desmotivador de forma construtiva: "É péssimo para administrar seu tempo".
 
 ## Chave de Respostas

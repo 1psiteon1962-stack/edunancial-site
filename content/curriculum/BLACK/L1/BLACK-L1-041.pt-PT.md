@@ -35,9 +35,9 @@ Uma líder que aprendeu na prática que um acordo verbal nem sempre reflete um c
 ## Questionário Prático
 
 1. O que é uma declaração de filosofia de liderança?
-2. Por que é valioso colocar isso por escrito de forma explícita?
+2. Porque é que é valioso colocar isso por escrito de forma explícita?
 3. Cite os três componentes que uma declaração útil normalmente inclui.
-4. Por que o exemplo de declaração sobre o compromisso verificado funciona melhor do que uma declaração genérica de valores?
+4. Porque é que o exemplo de declaração sobre o compromisso verificado funciona melhor do que uma declaração genérica de valores?
 
 ## Chave de Respostas
 1. Uma expressão concisa e pessoal dos princípios que orientam a forma como realmente lidera.

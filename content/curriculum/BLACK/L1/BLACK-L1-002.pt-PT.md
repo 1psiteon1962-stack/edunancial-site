@@ -39,7 +39,7 @@ Nos meses seguintes, ela cumpre cada compromisso que assume, admite quando erra 
 1. Defina autoridade e influência com suas próprias palavras.
 2. Alguém pode ter autoridade sem influência? Dê um exemplo.
 3. Segundo a lição, quais quatro qualidades constroem influência?
-4. Por que os líderes mais fortes precisam tanto de autoridade quanto de influência?
+4. Porque é que os líderes mais fortes precisam tanto de autoridade quanto de influência?
 
 ## Chave de Respostas
 1. Autoridade é o direito formal de tomar decisões; influência é a capacidade de mobilizar as pessoas pela confiança e pelo respeito, independentemente do cargo.

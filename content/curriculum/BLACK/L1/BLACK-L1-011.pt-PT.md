@@ -36,7 +36,7 @@ Duas equipas passam pelo mesmo revés: um prazo perdido por causa de um mal-ente
 
 1. Em que sentido a confiança funciona como uma moeda?
 2. Cite duas ações que constroem confiança e duas que a esgotam.
-3. Por que uma equipa com muita confiança absorve erros com mais facilidade do que uma equipa com pouca?
+3. Porque é que uma equipa com muita confiança absorve erros com mais facilidade do que uma equipa com pouca?
 4. No exemplo prático, o que determinou os resultados diferentes diante de um revés idêntico?
 
 ## Chave de Respostas

@@ -36,7 +36,7 @@ Um pequeno departamento orça 10.000 € por mês: 6.000 € em custos fixos (sa
 
 1. Qual é o propósito básico de um orçamento?
 2. Qual é a diferença entre custos fixos e variáveis?
-3. Por que um orçamento deve ser revisto com regularidade, e não definido uma única vez?
+3. Porque é que um orçamento deve ser revisto com regularidade, e não definido uma única vez?
 4. No exemplo prático, o que a comparação entre os gastos reais e o orçamento revelou?
 
 ## Chave de Respostas

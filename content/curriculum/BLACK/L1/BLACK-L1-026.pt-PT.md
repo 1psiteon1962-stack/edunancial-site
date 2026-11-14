@@ -35,7 +35,7 @@ Um pequeno negócio sempre dependeu de um funcionário que "simplesmente sabe" c
 ## Questionário Prático
 
 1. Qual é a diferença entre uma função e a pessoa que a ocupa no momento?
-2. Por que estruturar em torno de pessoas específicas cria fragilidade?
+2. Porque é que estruturar em torno de pessoas específicas cria fragilidade?
 3. Definir funções de forma independente significa tratar as pessoas como intercambiáveis?
 4. No exemplo prático, o que exatamente fez o negócio ter dificuldades depois que o funcionário saiu?
 

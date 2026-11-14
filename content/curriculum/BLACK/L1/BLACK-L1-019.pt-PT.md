@@ -34,7 +34,7 @@ Uma pessoa que ligava para dezenas de empresas em busca de conteúdo em vídeo e
 
 ## Questionário Prático
 
-1. Por que a liderança exige casca grossa especificamente?
+1. Porque é que a liderança exige casca grossa especificamente?
 2. Qual é a diferença entre a casca grossa saudável e a insensibilidade?
 3. Qual é a diferença entre a casca grossa saudável e a defensividade?
 4. Segundo esta lição, como esse tipo de resiliência costuma se desenvolver?

@@ -35,9 +35,9 @@ Uma startup de três pessoas funciona no início sem nenhuma estrutura formal: t
 ## Questionário Prático
 
 1. Que pergunta central a estrutura organizacional responde?
-2. Por que até equipas pequenas se beneficiam de alguma estrutura?
+2. Porque é que até equipas pequenas se beneficiam de alguma estrutura?
 3. A estrutura de um pequeno negócio precisa ser elaborada?
-4. Por que a estrutura deve mudar conforme o negócio cresce?
+4. Porque é que a estrutura deve mudar conforme o negócio cresce?
 
 ## Chave de Respostas
 1. Quem decide o quê, e quem responde a quem.

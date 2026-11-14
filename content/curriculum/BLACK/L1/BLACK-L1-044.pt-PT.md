@@ -34,7 +34,7 @@ A dona de um negócio que trabalha sozinha nunca pensou no que aconteceria se fo
 
 ## Questionário Prático
 
-1. Por que pensar na sucessão importa até para uma organização muito pequena?
+1. Porque é que pensar na sucessão importa até para uma organização muito pequena?
 2. Cite as três perguntas básicas que a reflexão sobre sucessão deve responder.
 3. Como esta lição se conecta à lição anterior sobre funções e pessoas?
 4. No exemplo prático, que lacunas específicas o exercício de reflexão sobre sucessão revelou?

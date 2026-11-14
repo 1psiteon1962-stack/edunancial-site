@@ -34,9 +34,9 @@ O lançamento de um produto fracassa publicamente, com reclamações de clientes
 
 ## Questionário Prático
 
-1. Por que a forma como um líder lida com um fracasso público importa tanto quanto o próprio fracasso?
+1. Porque é que a forma como um líder lida com um fracasso público importa tanto quanto o próprio fracasso?
 2. Cite os três componentes de uma resposta pública eficaz a um fracasso.
-3. Por que o momento importa na resposta a um fracasso visível?
+3. Porque é que o momento importa na resposta a um fracasso visível?
 4. Escreva uma resposta breve e honesta a um fracasso hipotético: o site de um pequeno negócio sai do ar durante a maior liquidação do ano.
 
 ## Chave de Respostas

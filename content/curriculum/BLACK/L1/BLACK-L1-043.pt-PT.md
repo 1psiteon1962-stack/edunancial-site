@@ -34,7 +34,7 @@ Uma fundadora que criou pessoalmente o produto da empresa tem dificuldade em dei
 
 ## Questionário Prático
 
-1. Por que a mudança de fundador para gestor é realmente difícil?
+1. Porque é que a mudança de fundador para gestor é realmente difícil?
 2. Cite dois sinais de que um fundador está a ter dificuldade com essa transição.
 3. Que mudança de mentalidade é necessária para fazer essa transição com sucesso?
 4. No exemplo prático, que comportamento específico minou o engenheiro recém-contratado?

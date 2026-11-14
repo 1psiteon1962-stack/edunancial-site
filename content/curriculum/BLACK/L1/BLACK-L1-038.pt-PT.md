@@ -30,7 +30,7 @@ Uma pergunta útil para decidir: se isto der errado porque eu cuidei disso sem o
 
 ## Exemplo Prático
 
-O dono de um pequeno negócio redige ele mesmo o contrato de uma nova parceria importante para não pagar os honorários de um advogado. O contrato tem uma lacuna que torna-se uma disputa séria e cara um ano depois, um problema que uma consulta jurídica modesta no início muito provavelmente teria evitado. A analogia do médico se aplica diretamente: tratar um "sintoma" jurídico sem o profissional certo gerou um custo muito maior do que o "seguro" da consulta teria custado.
+O dono de um pequeno negócio redige ele mesmo o contrato de uma nova parceria importante para não pagar os honorários de um advogado. O contrato tem uma lacuna que se torna uma disputa séria e cara um ano depois, um problema que uma consulta jurídica modesta no início muito provavelmente teria evitado. A analogia do médico se aplica diretamente: tratar um "sintoma" jurídico sem o profissional certo gerou um custo muito maior do que o "seguro" da consulta teria custado.
 
 ## Questionário Prático
 

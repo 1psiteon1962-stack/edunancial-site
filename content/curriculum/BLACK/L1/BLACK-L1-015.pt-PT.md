@@ -34,7 +34,7 @@ Uma pequena startup sem orçamento para benefícios constrói uma cultura forte 
 
 ## Questionário Prático
 
-1. Por que benefícios não são a mesma coisa que cultura?
+1. Porque é que benefícios não são a mesma coisa que cultura?
 2. Cite duas formas baratas de construir uma cultura de equipa genuína.
 3. Que teste diferencia a cultura real de uma marca de fachada?
 4. No exemplo prático, o que realmente construiu a cultura forte, mesmo sem orçamento para benefícios?

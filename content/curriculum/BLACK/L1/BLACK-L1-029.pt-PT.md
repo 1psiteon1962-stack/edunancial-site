@@ -34,9 +34,9 @@ A dona de um pequeno negócio tem um orçamento de marketing limitado e precisa 
 
 ## Questionário Prático
 
-1. Por que a alocação de recursos é uma responsabilidade constante da liderança?
+1. Porque é que a alocação de recursos é uma responsabilidade constante da liderança?
 2. Que troca toda decisão de alocação envolve?
-3. Por que é um erro alocar recursos apenas com base no que parece mais urgente?
+3. Porque é que é um erro alocar recursos apenas com base no que parece mais urgente?
 4. Que disciplina esta lição sugere antes de alocar um recurso escasso?
 
 ## Chave de Respostas

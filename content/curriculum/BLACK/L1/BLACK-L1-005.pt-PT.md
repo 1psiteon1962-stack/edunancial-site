@@ -38,9 +38,9 @@ Compare isso com decidir se vale testar um novo formato de post de marketing dur
 
 ## Questionário Prático
 
-1. Por que esperar por certeza total muitas vezes é a abordagem errada para um líder?
+1. Porque é que esperar por certeza total muitas vezes é a abordagem errada para um líder?
 2. Qual é a primeira pergunta que a estrutura sugere fazer sobre uma decisão?
-3. Por que decisões reversíveis merecem menos tempo de análise do que as irreversíveis?
+3. Porque é que decisões reversíveis merecem menos tempo de análise do que as irreversíveis?
 4. Segundo esta lição, como uma boa tomada de decisão deve ser julgada?
 
 ## Chave de Respostas

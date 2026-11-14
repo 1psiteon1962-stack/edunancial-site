@@ -36,7 +36,7 @@ Uma falha repentina de equipamento ameaça parar um pequeno lote de produção, 
 
 1. Como uma crise de verdade muda a forma adequada de tomar decisões?
 2. Qual é a estrutura simplificada para crises que esta lição descreve?
-3. Por que a própria rapidez pode reduzir o risco em uma crise?
+3. Porque é que a própria rapidez pode reduzir o risco em uma crise?
 4. O que o líder deve fazer depois que a crise passa?
 
 ## Chave de Respostas

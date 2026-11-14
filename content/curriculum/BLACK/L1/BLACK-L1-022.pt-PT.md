@@ -37,7 +37,7 @@ Um líder quer que um departamento resistente adote um novo processo de relatór
 1. Como a técnica da igualdade de oportunidades se aplica além da venda direta?
 2. Dê um exemplo dessa técnica usada em um contexto de liderança.
 3. Que exigência ética vem da versão de vendas dessa técnica?
-4. Por que uma imposição de cima para baixo muitas vezes é menos eficaz do que compartilhar um impulso genuíno?
+4. Porque é que uma imposição de cima para baixo muitas vezes é menos eficaz do que compartilhar um impulso genuíno?
 
 ## Chave de Respostas
 1. Ela pode gerar adesão de membros da equipa, partes interessadas ou parceiros hesitantes ao compartilhar com honestidade um progresso real.

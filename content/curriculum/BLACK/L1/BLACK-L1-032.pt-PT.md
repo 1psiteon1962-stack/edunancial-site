@@ -34,9 +34,9 @@ Uma fundadora percebe uma tendência preocupante nos dados de retenção de clie
 
 ## Questionário Prático
 
-1. Por que gerir para cima é considerado uma habilidade de liderança, mesmo sendo discutido com menos frequência?
+1. Porque é que gerir para cima é considerado uma habilidade de liderança, mesmo sendo discutido com menos frequência?
 2. Que erro comum os líderes cometem ao se comunicar com as pessoas a quem prestam contas?
-3. Por que comunicar para cima só as boas notícias acaba saindo pela culatra?
+3. Porque é que comunicar para cima só as boas notícias acaba saindo pela culatra?
 4. Segundo esta lição, o que gerir bem para cima costuma incluir?
 
 ## Chave de Respostas

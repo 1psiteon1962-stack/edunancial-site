@@ -36,7 +36,7 @@ Vago: "Vamos terminar o relatório logo". Claro: "Preciso do rascunho do relató
 
 1. Segundo esta lição, qual é a causa de grande parte da frustração no trabalho?
 2. Cite os quatro componentes que uma expectativa comunicada com clareza deve incluir.
-3. Por que a linguagem vaga torna-se "problema do líder mais tarde"?
+3. Porque é que a linguagem vaga se torna "problema do líder mais tarde"?
 4. Reescreva esta instrução vaga com clareza: "Garanta que o evento dê certo".
 
 ## Chave de Respostas

@@ -34,7 +34,7 @@ Duas pessoas da equipa vivem uma tensão constante sobre como conduzir um projet
 
 ## Questionário Prático
 
-1. Por que um conflito não resolvido muitas vezes sai mais caro do que enfrentá-lo diretamente?
+1. Porque é que um conflito não resolvido muitas vezes sai mais caro do que enfrentá-lo diretamente?
 2. Cite os três passos básicos de resolução construtiva de conflitos descritos nesta lição.
 3. O papel do líder é necessariamente decidir quem tem razão em um conflito?
 4. No exemplo prático, qual era a questão real de fundo por trás da tensão aparente?

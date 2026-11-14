@@ -35,8 +35,8 @@ Alguém que está a lançar um programa em uma TV comunitária poderia descrever
 ## Questionário Prático
 
 1. Qual é a diferença entre uma visão e uma meta?
-2. Por que uma visão vaga não motiva as pessoas?
-3. Por que é trabalho do líder repetir a visão com frequência?
+2. Porque é que uma visão vaga não motiva as pessoas?
+3. Porque é que é trabalho do líder repetir a visão com frequência?
 4. Escreva, em uma frase, a visão de um negócio que ensina educação financeira para crianças.
 
 ## Chave de Respostas

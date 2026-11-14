@@ -30,11 +30,11 @@ Uma disciplina útil: antes de marcar uma reunião, pergunte se isso realmente e
 
 ## Exemplo Prático
 
-Uma equipa tem uma reunião semanal fixa de uma hora que tornou-se, na maior parte, atualização de status que poderia muito bem ser compartilhada por escrito. Um líder reestrutura essa reunião: as atualizações de status passam para um documento compartilhado, lido por cada um no próprio tempo, e a reunião encolhe para 20 minutos, focada só nas decisões que realmente precisam de discussão em tempo real. A equipa ganha 40 minutos por semana, e a própria reunião fica mais focada e útil, porque não está mais inchada com conteúdo que não precisava de discussão ao vivo.
+Uma equipa tem uma reunião semanal fixa de uma hora que se tornou, na maior parte, atualização de status que poderia muito bem ser compartilhada por escrito. Um líder reestrutura essa reunião: as atualizações de status passam para um documento compartilhado, lido por cada um no próprio tempo, e a reunião encolhe para 20 minutos, focada só nas decisões que realmente precisam de discussão em tempo real. A equipa ganha 40 minutos por semana, e a própria reunião fica mais focada e útil, porque não está mais inchada com conteúdo que não precisava de discussão ao vivo.
 
 ## Questionário Prático
 
-1. Por que reuniões mal conduzidas são consideradas um custo oculto para a organização?
+1. Porque é que reuniões mal conduzidas são consideradas um custo oculto para a organização?
 2. Cite os três componentes de uma reunião disciplinada.
 3. Que pergunta deve ser feita antes de marcar uma reunião?
 4. No exemplo prático, que mudança recuperou o tempo da equipa sem perder nada importante?

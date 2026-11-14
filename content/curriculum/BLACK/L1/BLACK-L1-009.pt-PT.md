@@ -34,7 +34,7 @@ Um pequeno negócio precisa de alguém para cuidar da contabilidade e fica tenta
 
 ## Questionário Prático
 
-1. Por que erros de contratação custam mais em uma equipa pequena do que em uma grande?
+1. Porque é que erros de contratação custam mais em uma equipa pequena do que em uma grande?
 2. Cite dois pontos que vale a pena avaliar além da habilidade técnica.
 3. O que uma descrição de vaga deve incluir com honestidade?
 4. No exemplo prático, por que a confiabilidade teve mais peso do que as certificações?

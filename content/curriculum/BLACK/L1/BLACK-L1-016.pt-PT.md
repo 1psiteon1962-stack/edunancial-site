@@ -36,7 +36,7 @@ A lição de liderança tirada disso: seja muito claro e explícito desde o iní
 
 ## Questionário Prático
 
-1. Por que alguém pode dizer "sim" sem realmente pretender cumprir?
+1. Porque é que alguém pode dizer "sim" sem realmente pretender cumprir?
 2. Em que a lição de liderança se concentra: em conseguir um sim ou em outra coisa?
 3. Cite uma forma de verificar um compromisso real antes de contar com ele.
 4. No exemplo prático, o que aconteceu quando o plano chegou ao momento em que as pessoas realmente precisavam aparecer?

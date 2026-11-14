@@ -36,7 +36,7 @@ Um líder mudou a abordagem de um projeto três vezes em dois meses por causa do
 
 1. Que risco um líder corre ao mudar de tática várias vezes?
 2. Segundo esta lição, qual é a solução para esse risco?
-3. Por que mudanças de rumo frequentes podem parecer falta de direção, mesmo quando a meta não mudou?
+3. Porque é que mudanças de rumo frequentes podem parecer falta de direção, mesmo quando a meta não mudou?
 4. No exemplo prático, como o líder reconstruiu a confiança da equipa?
 
 ## Chave de Respostas

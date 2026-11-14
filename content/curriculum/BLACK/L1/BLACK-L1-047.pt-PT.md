@@ -34,7 +34,7 @@ Um empresário que orienta um jovem empreendedor em outro país não diz a ele o
 
 ## Questionário Prático
 
-1. Por que a mentoria funciona como um multiplicador do impacto de um líder?
+1. Porque é que a mentoria funciona como um multiplicador do impacto de um líder?
 2. Segundo esta lição, a mentoria eficaz é principalmente sobre o quê?
 3. Cite duas práticas de mentoria eficaz descritas nesta lição.
 4. O que acontece se um mentor insiste que a pessoa orientada faça tudo exatamente do forma dele?

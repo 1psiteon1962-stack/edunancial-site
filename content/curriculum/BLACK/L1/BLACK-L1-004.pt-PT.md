@@ -36,9 +36,9 @@ Essa segunda versão da decisão não é mais cautelosa só por cautela: é uma 
 
 ## Questionário Prático
 
-1. Por que a lição diz que os líderes precisam de educação financeira mesmo sem serem contadores?
+1. Porque é que a lição diz que os líderes precisam de educação financeira mesmo sem serem contadores?
 2. Qual é a diferença entre receita e lucro?
-3. Por que um negócio pode ser lucrativo no papel e mesmo assim enfrentar problemas?
+3. Porque é que um negócio pode ser lucrativo no papel e mesmo assim enfrentar problemas?
 4. Que benefício de credibilidade um líder ganha ao entender os números?
 
 ## Chave de Respostas

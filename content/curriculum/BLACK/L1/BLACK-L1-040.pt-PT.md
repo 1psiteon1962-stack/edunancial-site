@@ -34,7 +34,7 @@ Um restaurante pensa em abrir uma segunda unidade depois de vendas fortes na pri
 
 ## Questionário Prático
 
-1. Por que crescer nem sempre é a meta imediata certa para um negócio?
+1. Porque é que crescer nem sempre é a meta imediata certa para um negócio?
 2. Cite dois sinais de que um negócio pode estar realmente pronto para crescer.
 3. Cite dois sinais de que a consolidação deve vir antes do crescimento.
 4. No exemplo prático, o que um crescimento prematuro provavelmente teria multiplicado?

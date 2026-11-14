@@ -36,7 +36,7 @@ Compare com uma líder que comete o mesmo erro e conta imediatamente à equipa: 
 
 ## Questionário Prático
 
-1. Por que as ações de um líder pesam mais do que suas palavras?
+1. Porque é que as ações de um líder pesam mais do que suas palavras?
 2. Liderar pelo exemplo significa fazer pessoalmente todas as tarefas da equipa?
 3. Segundo esta lição, qual é "o verdadeiro teste" de liderar pelo exemplo?
 4. No exemplo prático, o que enfraqueceu a regra de "comunicar os erros imediatamente"?

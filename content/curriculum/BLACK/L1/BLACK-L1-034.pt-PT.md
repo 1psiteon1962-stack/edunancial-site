@@ -35,7 +35,7 @@ Uma consultoria cobra os clientes com prazo de 60 dias, mas precisa pagar seus p
 ## Questionário Prático
 
 1. Qual é a diferença entre lucro e fluxo de caixa?
-2. Por que um negócio lucrativo ainda pode ficar sem dinheiro?
+2. Porque é que um negócio lucrativo ainda pode ficar sem dinheiro?
 3. O que costuma causar esse tipo de descompasso de prazos?
 4. Que prática ajuda um líder a detectar problemas de fluxo de caixa antes que se tornem emergências?
 

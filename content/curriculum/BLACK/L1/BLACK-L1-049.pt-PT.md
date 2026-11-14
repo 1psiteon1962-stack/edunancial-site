@@ -34,9 +34,9 @@ Uma nova gestora monta um plano de 90 dias. Dias 1 a 30: documentar uma função
 
 ## Questionário Prático
 
-1. Por que a lição enfatiza transformar os conceitos em um plano concreto, em vez de deixá-los abstratos?
+1. Porque é que a lição enfatiza transformar os conceitos em um plano concreto, em vez de deixá-los abstratos?
 2. Cite os três componentes que um plano de 90 dias útil deve incluir.
-3. Por que "delegar uma tarefa até o dia 30" é melhor do que "melhorar em delegar"?
+3. Porque é que "delegar uma tarefa até o dia 30" é melhor do que "melhorar em delegar"?
 4. Escreva uma meta específica e verificável para o seu próprio plano hipotético de liderança de 90 dias, com base em qualquer lição desta trilha.
 
 ## Chave de Respostas

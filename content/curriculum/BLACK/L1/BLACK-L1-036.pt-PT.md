@@ -35,7 +35,7 @@ Um pequeno negócio corre para preencher uma vaga urgente e pula a verificação
 ## Questionário Prático
 
 1. Que custos, além do salário, fazem parte do custo total de uma contratação ruim?
-2. Por que uma decisão de contratação apressada pode acabar custando mais do que uma cuidadosa?
+2. Porque é que uma decisão de contratação apressada pode acabar custando mais do que uma cuidadosa?
 3. O que entender esse custo total sugere sobre como agir diante de um erro de contratação?
 4. No exemplo prático, que custos específicos se acumularam ao longo dos seis meses?
 

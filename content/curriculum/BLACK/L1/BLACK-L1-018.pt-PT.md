@@ -35,9 +35,9 @@ O dono de um negócio investiu muito tempo e dinheiro desenvolvendo um produto q
 ## Questionário Prático
 
 1. Defina a falácia do custo afundado com suas próprias palavras.
-2. Por que o que já foi investido não é relevante para uma decisão voltada ao futuro?
+2. Porque é que o que já foi investido não é relevante para uma decisão voltada ao futuro?
 3. Que disciplina a lição sugere para avaliar uma decisão?
-4. Por que a armadilha do custo afundado atinge os líderes com força especial no plano emocional?
+4. Porque é que a armadilha do custo afundado atinge os líderes com força especial no plano emocional?
 
 ## Chave de Respostas
 1. Continuar investindo em algo por causa do que já foi gasto, e não pelo que faz sentido daqui para frente.

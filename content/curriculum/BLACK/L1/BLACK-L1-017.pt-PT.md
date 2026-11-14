@@ -36,7 +36,7 @@ Em vez de abandonar o esforço, a pessoa mudou de rumo para um programa bilíngu
 
 1. Que pergunta um líder deve fazer quando um plano desmorona?
 2. O que um líder deve avaliar com honestidade depois que um plano fracassa?
-3. Por que redesenhar rápido é importante?
+3. Porque é que redesenhar rápido é importante?
 4. No exemplo prático, o que exatamente sobreviveu ao colapso do plano original?
 
 ## Chave de Respostas

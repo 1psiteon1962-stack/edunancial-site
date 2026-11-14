@@ -34,7 +34,7 @@ Uma fundadora responde pessoalmente a todos os e-mails de clientes, porque acred
 
 ## Questionário Prático
 
-1. Por que fazer tudo sozinho limita o crescimento de um líder?
+1. Porque é que fazer tudo sozinho limita o crescimento de um líder?
 2. Delegar significa abrir mão da responsabilidade pelo resultado?
 3. Que filtro ajuda a decidir o que delegar?
 4. No exemplo prático, o que liberou o tempo da fundadora sem sacrificar a qualidade?

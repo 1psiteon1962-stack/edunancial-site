@@ -36,7 +36,7 @@ A própria indecisão tornou-se o fator decisivo, e produziu o pior resultado en
 
 ## Questionário Prático
 
-1. Por que a indecisão é considerada uma decisão com consequências?
+1. Porque é que a indecisão é considerada uma decisão com consequências?
 2. Qual é a diferença entre cautela saudável e protelação prejudicial?
 3. Que pergunta pode ajudar a distinguir as duas?
 4. No exemplo prático, o que causou o pior resultado possível para o dono do negócio?

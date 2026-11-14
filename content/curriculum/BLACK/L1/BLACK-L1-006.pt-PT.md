@@ -35,7 +35,7 @@ Um projeto perde o prazo. Uma resposta sem responsabilização: "O cliente não 
 ## Questionário Prático
 
 1. Defina responsabilização com suas próprias palavras.
-2. Por que jogar a culpa nos outros o tempo todo prejudica a confiança com o tempo?
+2. Porque é que jogar a culpa nos outros o tempo todo prejudica a confiança com o tempo?
 3. Responsabilização significa ignorar fatores externos reais que contribuíram para um problema?
 4. Reescreva esta frase com linguagem de responsabilidade: "Perdemos o cliente porque o comercial não fez o follow-up rápido o suficiente".
 
