@@ -1,0 +1,37 @@
+name: Security fix (non-breaking)
+
+# Manually started. Applies only non-breaking security updates
+# (npm audit fix without --force) on a branch named security/npm-audit-fix.
+# A pull request is then opened and must pass every normal check before merge.
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  fix:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Apply non-breaking security fixes
+        shell: bash
+        run: |
+          npm audit --omit=dev || true
+          npm audit fix --omit=dev --no-fund --no-audit || true
+          npm audit --omit=dev || true
+          git status --short
+      - name: Push branch
+        shell: bash
+        run: |
+          if git diff --quiet; then echo "No changes."; exit 0; fi
+          git config user.name "edunancial-security-bot"
+          git config user.email "security-bot@users.noreply.github.com"
+          git checkout -b security/npm-audit-fix
+          git commit -am "Security: non-breaking dependency fixes (npm audit fix)"
+          git push -f origin security/npm-audit-fix

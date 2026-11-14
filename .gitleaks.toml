@@ -1,0 +1,21 @@
+# Weekly secret scan configuration (see .github/workflows/security-weekly.yml).
+# Uses the standard gitleaks rules, plus findings reviewed on 2026-11-14 and
+# confirmed NOT to be secrets:
+#  - build-commit-provenance test: a git commit SHA in a variable named "netlify"
+#  - kpi.app.html / es/app-kpi.html: a browser localStorage key name
+#  - developer docs pages: example requests with "******" placeholders
+#  - data-security-model doc: prose about key management
+#  - translation packages: lesson text, not credentials
+[extend]
+useDefault = true
+
+[allowlist]
+description = "Reviewed false positives"
+paths = [
+  '''scripts/curriculum/tests/build-commit-provenance\.test\.mjs''',
+  '''(^|/)kpi\.app\.html''',
+  '''(^|/)es/app-kpi\.html''',
+  '''src/app/developer/(auth/)?page\.tsx''',
+  '''docs/enterprise-data-platform/04-data-security-model\.md''',
+  '''\.edunancial-admin-content/published/atomic/translation-packages/.*\.json''',
+]
