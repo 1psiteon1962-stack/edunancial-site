@@ -1,4 +1,6 @@
 ---
+translationStatus: owner-accepted
+translationNote: "Translated from the earlier, shorter English version; retranslation of the expanded lesson is queued."
 id: BLUE-L1-043
 track: BLUE
 officialTrackName: Business

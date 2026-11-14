@@ -27,6 +27,10 @@ export function classifyTranslationQuality({ body, canonicalBody = "", explicitS
   if (!text) return "missing";
   if (PLACEHOLDER_PATTERNS.some((pattern) => pattern.test(text))) return "placeholder";
   if (status === "reviewed") return "reviewed";
+  // Owner explicitly accepted this translation for display even though it is
+  // shorter than the current English master (e.g. translated from an earlier,
+  // shorter English version). It stays queued for retranslation.
+  if (status === "owner-accepted") return "machine-validated";
   if (status === "stale") return "stale";
 
   // A translation that is dramatically shorter than a substantial canonical
