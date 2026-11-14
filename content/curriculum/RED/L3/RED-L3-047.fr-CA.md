@@ -1,0 +1,62 @@
+---
+id: RED-L3-047
+locale: fr-CA
+source_locale: en-US
+track: RED
+level: 3
+lesson: 47
+title: "Pourquoi rembourser sa dette ou réinvestir est un vrai arbitrage, pas une réponse par défaut"
+source_title: "Why Paying Off Debt vs. Reinvesting Is a Real Trade-off, Not a Default Answer"
+description: "Découvrez pourquoi le choix entre rembourser un prêt hypothécaire par anticipation et réinvestir cet argent ailleurs dépend de chiffres et d'objectifs précis, et non d'une règle unique valable pour tous."
+slug: red-l3-047-payoff-vs-reinvest
+seo_title: "Pourquoi rembourser sa dette ou réinvestir est un vrai arbitrage, pas une réponse par défaut | Edunancial"
+meta_description: "Découvrez pourquoi le choix entre rembourser un prêt hypothécaire par anticipation et réinvestir cet argent ailleurs dépend de chiffres et d'objectifs précis, et non d'une règle unique valable pour tous."
+author: "Waldemar M. Caban, JD MA"
+---
+
+# RED-L3-047: Pourquoi rembourser sa dette ou réinvestir est un vrai arbitrage, pas une réponse par défaut
+
+## Objectifs d'apprentissage
+À la fin de cette leçon, vous serez capable de :
+- Expliquer l'arbitrage entre rembourser une dette par anticipation et réinvestir les capitaux disponibles
+- Identifier la comparaison clé qui doit guider cette décision
+- Expliquer pourquoi la tolérance au risque, et pas seulement le calcul, joue un rôle dans ce choix
+
+## Contenu principal
+
+Un investisseur qui dispose de capitaux supplémentaires fait souvent face à un vrai choix : rembourser un prêt hypothécaire existant plus vite que prévu, ou réinvestir ces capitaux ailleurs (par exemple comme mise de fonds pour un autre bien). Aucune des deux réponses n'est automatiquement la bonne : cette leçon évite volontairement de présenter l'une ou l'autre option comme le « bon » choix par défaut.
+
+Voici le « pourquoi » de cet arbitrage : rembourser sa dette réduit le coût des intérêts et augmente le coussin de valeur nette (le risque d'effet de levier négatif de la leçon 25 compte moins à mesure que la dette diminue), et c'est un rendement garanti égal au taux d'intérêt du prêt. Réinvestir revient au contraire à parier que les capitaux réinvestis peuvent rapporter plus que le taux d'intérêt du prêt hypothécaire. Cela renvoie à la comparaison entre effet de levier positif et négatif de la leçon 24, mais appliquée au prochain dollar de capital de l'investisseur plutôt qu'à l'opération entière.
+
+[VERIFIED FACT] Cette décision dépend aussi de facteurs qui vont au-delà du simple calcul : la tolérance au risque de l'investisseur, son besoin de souplesse dans ses paiements et ses objectifs financiers plus larges entrent tous légitimement en compte dans ce choix, et pas seulement une comparaison des rendements attendus.
+
+## Exemple pratique
+
+[ILLUSTRATIVE EXAMPLE] Une investisseuse dispose de 30 000 $ de capitaux et d'un prêt hypothécaire à un certain taux d'intérêt. Elle pourrait consacrer ces 30 000 $ à des remboursements anticipés de capital, ce qui lui garantit un rendement égal au taux du prêt grâce à la baisse du coût des intérêts. Ou elle pourrait s'en servir comme mise de fonds pour un autre bien locatif, en pariant que le rendement du nouveau bien dépassera le taux du prêt qu'elle « gagnerait » sinon en remboursant sa dette. [ASSUMPTION] Si elle accorde beaucoup d'importance à un risque réduit et à la certitude de ses paiements, le rendement garanti du remboursement de la dette peut lui plaire même si l'option du réinvestissement offre en théorie un rendement attendu plus élevé : c'est une façon légitime et personnelle de peser le risque face au rendement, et non une erreur de calcul.
+
+## Quiz d'entraînement
+
+1. Quel « rendement » garanti le remboursement anticipé d'une dette procure-t-il concrètement ?
+2. Sur quoi l'option du réinvestissement parie-t-elle, au fond ?
+3. En plus du simple calcul, quels autres facteurs influencent légitimement cette décision ?
+
+## Corrigé
+
+1. Un rendement égal au taux d'intérêt du prêt, grâce à la baisse du coût des intérêts sur la durée restante.
+2. Sur le fait que les capitaux, s'ils sont placés ailleurs, peuvent rapporter plus que le taux d'intérêt du prêt hypothécaire.
+3. La tolérance au risque, le besoin de souplesse dans les paiements et les objectifs financiers personnels plus larges.
+
+## Réponses et explications
+
+1. Cette question présente le remboursement de la dette avec le même vocabulaire de « rendement » que celui utilisé pour évaluer les autres choix de placement dans ce parcours.
+2. Cette question relie la décision aux notions de comparaison de l'effet de levier de la leçon 24.
+3. Cette question rappelle que cette décision n'est pas purement mathématique : les facteurs personnels font légitimement partie de l'analyse.
+
+## Points clés
+- Rembourser une dette par anticipation ou réinvestir ses capitaux ailleurs est un vrai arbitrage, et non une décision avec une seule bonne réponse valable pour tous.
+- Le remboursement de la dette offre un rendement garanti égal au taux d'intérêt du prêt ; le réinvestissement parie sur un rendement plus élevé ailleurs.
+- La tolérance au risque et les objectifs financiers personnels font légitimement partie de cette décision, qui ne se limite pas à comparer des rendements chiffrés attendus.
+
+---
+
+*Cette leçon a uniquement une vocation d'éducation financière générale et ne constitue pas un conseil personnalisé en matière financière, de placement, fiscale ou juridique. Consultez un professionnel de la finance agréé avant de prendre ce type de décision.*
