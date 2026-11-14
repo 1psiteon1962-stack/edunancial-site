@@ -2,6 +2,7 @@ import { createClient } from "@supabase/supabase-js";
 import { NextRequest } from "next/server";
 
 import { getSupabaseAnonKey, getSupabaseUrl } from "@/lib/supabase/config";
+import { checkLoginAllowed, recordLoginFailure } from "@/lib/security/login-guard";
 
 function ownerEmail() {
   return process.env.EDUNANCIAL_OWNER_EMAIL?.trim().toLowerCase() ?? "";
@@ -20,7 +21,12 @@ export async function POST(request: NextRequest) {
 
   const body = await request.json().catch(() => null) as { email?: unknown } | null;
   const email = typeof body?.email === "string" ? body.email.trim().toLowerCase() : "";
+  const guard = await checkLoginAllowed("owner-link", request, null);
+  if (!guard.allowed) {
+    return Response.json({ error: "Too many attempts. Try again later." }, { status: 429, headers: { "Retry-After": String(guard.retryAfterSeconds) } });
+  }
   if (email !== configuredOwner) {
+    await recordLoginFailure("owner-link", request, null, "not-owner-email");
     return Response.json({ error: "This email is not authorized for owner access." }, { status: 403 });
   }
 

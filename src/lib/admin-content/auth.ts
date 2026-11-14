@@ -12,6 +12,7 @@ import {
 import { AuditEvent, type ActorContext, type AdminRole, type AdminSession } from "@/lib/admin-content/types";
 import { appendGlobalAuditEventSafely } from "@/lib/admin-content/audit";
 import { checkRateLimit, getRateLimitKey } from "@/lib/admin-content/rate-limit";
+import { checkLoginAllowed, recordLoginFailure, recordLoginSuccess } from "@/lib/security/login-guard";
 import { createCsrfToken, createId } from "@/lib/admin-content/utils";
 
 function normalizeEmail(value: string | undefined | null) {
@@ -244,6 +245,14 @@ export async function validateAdminLogin(request: Request, email: string, passwo
   }
 
   const normalizedEmail = normalizeEmail(email);
+  const guardScope = `admin-login-${targetRole}`;
+  const guard = await checkLoginAllowed(guardScope, request, normalizedEmail || null);
+  if (!guard.allowed) {
+    await logLoginFailure(normalizedEmail || "unknown", { reason: "locked", targetRole });
+    const response = NextResponse.json({ error: "Too many failed attempts. This login is locked for a while; try again later." }, { status: 429 });
+    response.headers.set("Retry-After", String(guard.retryAfterSeconds));
+    return response;
+  }
   const credentialConfig = getCredentialConfig(targetRole);
 
   if (!credentialConfig.email || !credentialConfig.passwordHash) {
@@ -271,9 +280,11 @@ export async function validateAdminLogin(request: Request, email: string, passwo
       targetRole,
       usingFallback: credentialConfig.usingFallback,
     });
+    await recordLoginFailure(guardScope, request, normalizedEmail || null, "invalid-credentials");
     return NextResponse.json({ error: "Invalid credentials" }, { status: 401 });
   }
 
+  await recordLoginSuccess(guardScope, request, normalizedEmail);
   await createAdminSession(normalizedEmail, targetRole);
   await logLoginSuccess(normalizedEmail, targetRole, credentialConfig.usingFallback);
   return NextResponse.json({ ok: true, email: normalizedEmail, role: targetRole });
