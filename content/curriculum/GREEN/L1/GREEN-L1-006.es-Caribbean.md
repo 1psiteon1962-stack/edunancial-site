@@ -1,78 +1,72 @@
 ---
 id: GREEN-L1-006
 track: GREEN
-officialTrackName: Impuestos
+officialTrackName: Taxes
 level: 1
 lessonNumber: 6
 locale: es-Caribbean
-title: "Impuesto sobre la propiedad: gravar lo que usted posee"
-summary: "An introduction to propiedad impuesto, most commonly applied to real estate, and how it funds local services."
+title: "El impuesto sobre la propiedad: tributar sobre lo que usted posee"
+summary: "Una introducción al impuesto sobre la propiedad, que se aplica con mayor frecuencia a los bienes raíces, y a cómo financia los servicios locales."
 version: 1.0
 author: Waldemar M. Caban, JD MA
 date: 2026-08-09
 ---
 
-# Impuesto sobre la propiedad: gravar lo que usted posee
+# El impuesto sobre la propiedad: tributar sobre lo que usted posee
 
 ## Objetivos de aprendizaje
 
-- Explain what propiedad impuesto typically applies to.
-- Identify who usually collects propiedad impuesto.
-- Describe common local services funded by propiedad impuesto.
+- Explicar a qué se aplica normalmente el impuesto sobre la propiedad.
+- Identificar quién suele cobrar el impuesto sobre la propiedad.
+- Describir servicios locales comunes que se financian con el impuesto sobre la propiedad.
 
 ## Contenido principal
 
-Property impuesto is a impuesto on things you own, most commonly real estate — land and buildings. Unlike ingreso or ventas impuesto, which are tied to an event (earning or buying), propiedad impuesto is typically charged on an ongoing basis, often annually, simply because you continue to own the asset.
+El impuesto sobre la propiedad es un impuesto sobre las cosas que usted posee, con mayor frecuencia los bienes raíces: terrenos y edificaciones. A diferencia del impuesto sobre la renta o del impuesto sobre las ventas, que están vinculados a un hecho (ganar dinero o comprar algo), el impuesto sobre la propiedad suele cobrarse de forma continua, a menudo cada año, simplemente porque usted sigue siendo dueño del bien.
 
-Local gobiernos — cities, counties, or similar regional authorities — are the most common collectors of propiedad impuesto, and it frequently funds services close to home: public schools, local police and fire departments, libraries, and road maintenance. Because it's based on ownership rather than a transaction, propiedad impuesto bills continue whether or not the owner's ingreso changes that year, which is part of why it can be a significant planning consideration for propiedad owners.
+Los gobiernos locales —municipios, condados o autoridades regionales similares— son quienes cobran con mayor frecuencia el impuesto sobre la propiedad, y este financia a menudo servicios cercanos a la comunidad: escuelas públicas, policía y bomberos locales, bibliotecas y mantenimiento de calles. Como se basa en la propiedad y no en una transacción, la factura del impuesto sobre la propiedad sigue llegando aunque cambie el ingreso del dueño ese año, y esa es parte de la razón por la que puede ser una consideración de planificación importante para los propietarios. (En Puerto Rico, por ejemplo, la contribución sobre la propiedad inmueble la administra el CRIM; en la República Dominicana existe el Impuesto al Patrimonio Inmobiliario, que administra la DGII. Las reglas y exenciones varían, así que verifique las vigentes en su jurisdicción.)
 
 ## Ejemplo práctico
 
-**Pregunta:** A family owns a home but had a difficult year with lower ingreso. Does their propiedad impuesto bill change because their ingreso dropped?
+**Pregunta:** Una familia es dueña de su casa, pero tuvo un año difícil con menos ingresos. ¿Cambia su factura del impuesto sobre la propiedad porque bajaron sus ingresos?
 
-**Estudiante:** I'd guess it stays the same, since it's about the propiedad, not their paycheck.
+**Estudiante:** Supongo que sigue igual, porque el impuesto tiene que ver con la propiedad, no con el sueldo.
 
-**Guía:** Right — what does that tell you about the nature of propiedad impuesto compared to ingreso impuesto?
+**Guía:** Correcto. ¿Qué le dice eso sobre la naturaleza del impuesto sobre la propiedad en comparación con el impuesto sobre la renta?
 
-**Estudiante:** It's tied to ownership, not to how much you're earning that year, so it doesn't automatically adjust with ingreso.
+**Estudiante:** Que está vinculado a la propiedad, no a cuánto se gana ese año, así que no se ajusta automáticamente con el ingreso.
 
-**Guía:** Exactly — that's an important planning distinction.
-
+**Guía:** Exactamente. Es una distinción importante para la planificación.
 
 ## Prueba práctica
 
+**Pregunta 1.** El impuesto sobre la propiedad se aplica con mayor frecuencia a:
 
-**Pregunta 1.** Property impuesto is most commonly applied to:
+A) Los salarios
+B) Los bienes raíces
+C) Las compras al detal
+D) Las ganancias de inversiones
 
-A) Wages
-B) Real estate
-C) Retail purchases
-D) Investment gains
+**Pregunta 2.** El impuesto sobre la propiedad suele cobrarlo:
 
+A) Solo el gobierno nacional
+B) El gobierno local
+C) Ningún gobierno
+D) Solo los bancos
 
-**Pregunta 2.** Property impuesto is usually collected by:
+**Pregunta 3.** El impuesto sobre la propiedad suele financiar:
 
-A) National gobiernos only
-B) Local gobiernos
-C) No gobierno
-D) Only banks
+A) Solo la defensa nacional
+B) Servicios locales como escuelas y estaciones de bomberos
+C) Nada en particular
+D) Solo carreteras federales
 
+**Pregunta 4.** ¿Baja automáticamente el impuesto sobre la propiedad si disminuyen los ingresos del dueño?
 
-**Pregunta 3.** Property impuesto typically funds:
-
-A) National defense only
-B) Local services like schools and fire departments
-C) Nothing specific
-D) Only federal highways
-
-
-**Pregunta 4.** Does propiedad impuesto automatically decrease if the owner's ingreso drops?
-
-A) Yes, always
-B) No, it's tied to ownership, not ingreso
-C) Only for negocioes
-D) Only in wealthy countries
-
+A) Sí, siempre
+B) No, está vinculado a la propiedad, no al ingreso
+C) Solo en el caso de las empresas
+D) Solo en países ricos
 
 ## Clave de respuestas
 
@@ -80,17 +74,17 @@ D) Only in wealthy countries
 
 ## Respuestas y explicaciones
 
-**1.** Real estate is the most common target of propiedad impuesto, though some places also impuesto other significant owned assets.
+**1.** Los bienes raíces son el objeto más común del impuesto sobre la propiedad, aunque en algunos lugares también se gravan otros bienes importantes que una persona posee.
 
-**2.** Local gobiernos typically administer and collect propiedad impuesto because it funds local services.
+**2.** Los gobiernos locales suelen administrar y cobrar el impuesto sobre la propiedad porque este financia servicios locales.
 
-**3.** Schools, police, fire, and roads are commonly funded, wholly or partly, by local propiedad impuesto revenue.
+**3.** Las escuelas, la policía, los bomberos y las calles se financian comúnmente, total o parcialmente, con lo que se recauda del impuesto local sobre la propiedad.
 
-**4.** Because it's tied to ownership rather than ingreso, propiedad impuesto doesn't automatically move with a person's earnings.
+**4.** Como está vinculado a la propiedad y no al ingreso, el impuesto sobre la propiedad no varía automáticamente según lo que gane una persona.
 
 ## Puntos clave
 
-- Property impuesto is charged on ownership, most often real estate.
-- It's typically collected by local gobiernos.
-- It commonly funds schools, public safety, and local infrastructure.
-- Because it's ownership-based, it doesn't shrink automatically when ingreso drops — a key planning point for owners.
+- El impuesto sobre la propiedad se cobra por ser dueño de algo, con mayor frecuencia bienes raíces.
+- Suele cobrarlo el gobierno local.
+- Comúnmente financia escuelas, seguridad pública e infraestructura local.
+- Como se basa en la propiedad, no disminuye automáticamente cuando bajan los ingresos: un punto clave de planificación para los propietarios.

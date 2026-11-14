@@ -1,78 +1,72 @@
 ---
 id: GREEN-L1-007
 track: GREEN
-officialTrackName: Impuestos
+officialTrackName: Taxes
 level: 1
 lessonNumber: 7
 locale: es-Caribbean
-title: "Impuesto sobre nómina: Seguro Social y Medicare"
-summary: "Introduces payroll impuesto as a category tied specifically to employment salarios, often funding jubilación and salud programs."
+title: "El impuesto sobre la nómina: Seguro Social y Medicare"
+summary: "Presenta el impuesto sobre la nómina como una categoría vinculada específicamente a los salarios del empleo, que a menudo financia programas de retiro y de salud."
 version: 1.0
 author: Waldemar M. Caban, JD MA
 date: 2026-08-09
 ---
 
-# Impuesto sobre nómina: Seguro Social y Medicare
+# El impuesto sobre la nómina: Seguro Social y Medicare
 
 ## Objetivos de aprendizaje
 
-- Define payroll impuesto and how it differs from general ingreso impuesto.
-- Explain that payroll impuesto is often split between empleador and empleado.
-- Identify common programs funded by payroll impuesto.
+- Definir el impuesto sobre la nómina y en qué se diferencia del impuesto general sobre la renta.
+- Explicar que el impuesto sobre la nómina a menudo se divide entre el patrono y el empleado.
+- Identificar programas comunes que se financian con el impuesto sobre la nómina.
 
 ## Contenido principal
 
-Payroll impuesto is a impuesto specifically tied to employment salarios. It's related to ingreso impuesto but distinct from it — while ingreso impuesto funds general gobierno spending, payroll impuesto is frequently earmarked for specific programs, most commonly jubilación systems and salud-related insurance programs.
+El impuesto sobre la nómina es un impuesto vinculado específicamente a los salarios del empleo. Está relacionado con el impuesto sobre la renta, pero es distinto: mientras el impuesto sobre la renta financia el gasto general del gobierno, el impuesto sobre la nómina suele destinarse a programas específicos, con mayor frecuencia sistemas de retiro y programas de seguro relacionados con la salud.
 
-In many systems, payroll impuesto is split: part is withheld from the empleado's paycheck, and part is paid directly by the empleador on top of the wage, meaning the true cost of an empleado to a negocio is higher than just the paycheck amount. This split matters later when we look at self-employment impuesto, because a self-employed person often ends up responsible for both halves.
+En muchos sistemas, el impuesto sobre la nómina se divide: una parte se retiene del cheque del empleado y otra la paga directamente el patrono, además del salario. Eso significa que el costo real de un empleado para una empresa es mayor que el monto de su cheque. Esta división será importante más adelante, cuando veamos el impuesto sobre el trabajo por cuenta propia, porque una persona que trabaja por cuenta propia a menudo termina siendo responsable de ambas mitades. (En Puerto Rico, por ejemplo, los empleados y patronos aportan al Seguro Social y Medicare federales; en la República Dominicana, los aportes al sistema de seguridad social —pensiones y salud— se recaudan a través de la Tesorería de la Seguridad Social y también se dividen entre empleador y trabajador.)
 
 ## Ejemplo práctico
 
-**Pregunta:** An empleador pays a worker a wage, and separately sends an additional payroll impuesto payment to the gobierno. Is the empleador's payroll impuesto cost part of the worker's paycheck?
+**Pregunta:** Un patrono le paga un salario a un trabajador y, por separado, envía al gobierno un pago adicional de impuesto sobre la nómina. ¿Forma parte del cheque del trabajador el costo de ese impuesto que paga el patrono?
 
-**Estudiante:** I'd assume it's separate since the worker never sees that money.
+**Estudiante:** Supongo que es aparte, porque el trabajador nunca ve ese dinero.
 
-**Guía:** Right, but is it still a cost of employing that worker?
+**Guía:** Correcto, pero ¿sigue siendo un costo de emplear a ese trabajador?
 
-**Estudiante:** Yes — it's an extra cost on top of salarios, even though it doesn't show up on the pay stub.
+**Estudiante:** Sí, es un costo adicional al salario, aunque no aparezca en el talonario de pago.
 
-**Guía:** Exactly, which is why 'cost of an empleado' is usually higher than the wage alone.
-
+**Guía:** Exactamente. Por eso el «costo de un empleado» suele ser mayor que el salario por sí solo.
 
 ## Prueba práctica
 
+**Pregunta 1.** El impuesto sobre la nómina está vinculado específicamente a:
 
-**Pregunta 1.** Payroll impuesto is specifically tied to:
+A) Los bienes raíces
+B) Los salarios del empleo
+C) Las compras al detal
+D) Las herencias
 
-A) Real estate
-B) Employment salarios
-C) Retail purchases
-D) Inheritance
+**Pregunta 2.** El impuesto sobre la nómina comúnmente financia:
 
+A) Programas de retiro y relacionados con la salud
+B) Solo la construcción de carreteras
+C) Solo la defensa nacional
+D) Nada en particular
 
-**Pregunta 2.** Payroll impuesto commonly funds:
+**Pregunta 3.** En muchos sistemas, el impuesto sobre la nómina:
 
-A) Retirement and salud-related programs
-B) Only road construction
-C) Only national defense
-D) Nothing specific
+A) Lo paga solo el patrono
+B) Lo paga solo el empleado
+C) Se divide entre el patrono y el empleado
+D) En realidad nunca se paga
 
+**Pregunta 4.** El costo real de emplear a un trabajador a menudo es:
 
-**Pregunta 3.** In many systems, payroll impuesto is:
-
-A) Paid only by the empleador
-B) Paid only by the empleado
-C) Split between empleador and empleado
-D) Never actually paid
-
-
-**Pregunta 4.** The true cost of employing a worker is often:
-
-A) Exactly the paycheck amount
-B) Higher than the paycheck due to empleador-side payroll impuesto
-C) Lower than the paycheck
-D) Unrelated to payroll impuesto
-
+A) Exactamente el monto del cheque
+B) Mayor que el cheque, debido a la parte del impuesto sobre la nómina que paga el patrono
+C) Menor que el cheque
+D) Ajeno al impuesto sobre la nómina
 
 ## Clave de respuestas
 
@@ -80,17 +74,17 @@ D) Unrelated to payroll impuesto
 
 ## Respuestas y explicaciones
 
-**1.** Payroll impuesto is distinct from general ingreso impuesto because it's specifically linked to salarios from employment.
+**1.** El impuesto sobre la nómina se distingue del impuesto general sobre la renta porque está vinculado específicamente a los salarios del empleo.
 
-**2.** Retirement systems and salud-related insurance programs are commonly funded through dedicated payroll impuesto revenue.
+**2.** Los sistemas de retiro y los programas de seguro relacionados con la salud se financian comúnmente con lo que se recauda específicamente del impuesto sobre la nómina.
 
-**3.** Splitting the impuesto between empleador and empleado is a common structural choice in many systems.
+**3.** Dividir el impuesto entre el patrono y el empleado es una decisión estructural común en muchos sistemas.
 
-**4.** Because empleadors pay a share on top of salarios, the full cost of an empleado exceeds their paycheck.
+**4.** Como el patrono paga una parte además del salario, el costo total de un empleado supera el monto de su cheque.
 
 ## Puntos clave
 
-- Payroll impuesto is tied specifically to employment salarios, distinct from general ingreso impuesto.
-- It commonly funds jubilación and salud-related programs.
-- Many systems split payroll impuesto between empleador and empleado.
-- This split becomes especially relevant for self-employed people, covered in a later lesson.
+- El impuesto sobre la nómina está vinculado específicamente a los salarios del empleo y es distinto del impuesto general sobre la renta.
+- Comúnmente financia programas de retiro y relacionados con la salud.
+- Muchos sistemas dividen el impuesto sobre la nómina entre el patrono y el empleado.
+- Esta división es especialmente relevante para quienes trabajan por cuenta propia, tema de una lección posterior.

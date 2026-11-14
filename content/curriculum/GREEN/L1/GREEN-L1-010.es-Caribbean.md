@@ -1,12 +1,12 @@
 ---
 id: GREEN-L1-010
 track: GREEN
-officialTrackName: Impuestos
+officialTrackName: Taxes
 level: 1
 lessonNumber: 10
 locale: es-Caribbean
 title: "Cómo funcionan los tramos impositivos"
-summary: "A concrete walkthrough of how impuesto brackets are structured and applied step by step, building directly on the marginal rate concept."
+summary: "Un recorrido concreto por cómo se estructuran y aplican paso a paso los tramos impositivos, a partir del concepto de tasa marginal."
 version: 1.0
 author: Waldemar M. Caban, JD MA
 date: 2026-08-09
@@ -16,71 +16,65 @@ date: 2026-08-09
 
 ## Objetivos de aprendizaje
 
-- Read and interpret a simple impuesto bracket table.
-- Calculate impuesto owed across multiple brackets for a sample ingreso.
-- Reinforce the marginal-rate concept with a numeric example.
+- Leer e interpretar una tabla sencilla de tramos impositivos.
+- Calcular el impuesto adeudado en varios tramos para un ingreso de ejemplo.
+- Reforzar el concepto de tasa marginal con un ejemplo numérico.
 
 ## Contenido principal
 
-Building on the previous lesson, let's walk through brackets with actual numbers. Imagine an illustrative, simplified bracket table: ingreso from $0–$10,000 is impuestoed at 10%; ingreso from $10,001–$40,000 is impuestoed at 20%; ingreso above $40,000 is impuestoed at 30%.
+A partir de la lección anterior, recorramos los tramos con números reales. Imagine una tabla de tramos simplificada e ilustrativa: el ingreso de $0 a $10,000 se grava al 10 %; el ingreso de $10,001 a $40,000 se grava al 20 %; y el ingreso superior a $40,000 se grava al 30 %.
 
-If someone earns $50,000, they do not pay 30% on the whole $50,000. Instead: the first $10,000 is impuestoed at 10% ($1,000), the next $30,000 (from $10,001 to $40,000) is impuestoed at 20% ($6,000), and the remaining $10,000 (from $40,001 to $50,000) is impuestoed at 30% ($3,000). Total impuesto owed: $10,000, which works out to an effective rate of 20% — well below the 30% top bracket.
+Si alguien gana $50,000, no paga el 30 % sobre los $50,000 completos. En cambio: los primeros $10,000 se gravan al 10 % ($1,000), los siguientes $30,000 (de $10,001 a $40,000) se gravan al 20 % ($6,000) y los $10,000 restantes (de $40,001 a $50,000) se gravan al 30 % ($3,000). Total de impuesto adeudado: $10,000, lo que equivale a una tasa efectiva del 20 %, muy por debajo del tramo más alto del 30 %.
 
-This step-by-step, bracket-by-bracket calculation is exactly what marginal impuestoation means in practice. Real-world bracket numbers vary by country and change over time, so the specific dollar figures here are illustrative only — the method of calculation is the durable, transferable skill.
+Este cálculo paso a paso, tramo por tramo, es exactamente lo que significa en la práctica la tributación marginal. Los números reales de los tramos varían según el país y cambian con el tiempo, así que las cifras en dólares de esta lección son solo ilustrativas: el método de cálculo es la destreza duradera y transferible.
 
-> **Note:** The bracket percentages and dollar thresholds in this lesson are illustrative teaching numbers, not figures for any specific country. Verify actual current brackets for your jurisdiction.
+> **Nota:** Los porcentajes de los tramos y los umbrales en dólares de esta lección son números ilustrativos con fines de enseñanza, no cifras de ningún país en particular. Verifique los tramos vigentes de su jurisdicción.
 
 ## Ejemplo práctico
 
-**Pregunta:** Using the illustrative brackets above, how much impuesto would someone earning exactly $40,000 owe?
+**Pregunta:** Con los tramos ilustrativos anteriores, ¿cuánto impuesto debería alguien que gana exactamente $40,000?
 
-**Estudiante:** Let me work through it in order — first $10,000 at 10% is $1,000.
+**Estudiante:** Voy a hacerlo en orden: los primeros $10,000 al 10 % son $1,000.
 
-**Guía:** Good, keep going.
+**Guía:** Bien, siga.
 
-**Estudiante:** The remaining $30,000, from $10,001 to $40,000, is impuestoed at 20%, which is $6,000.
+**Estudiante:** Los $30,000 restantes, de $10,001 a $40,000, se gravan al 20 %, lo que da $6,000.
 
-**Guía:** And is any of it impuestoed at 30%?
+**Guía:** ¿Y se grava algo al 30 %?
 
-**Estudiante:** No — they didn't earn anything above $40,000, so the 30% bracket never applies. Total is $1,000 + $6,000 = $7,000.
+**Estudiante:** No: no ganó nada por encima de $40,000, así que el tramo del 30 % nunca se aplica. El total es $1,000 + $6,000 = $7,000.
 
-**Guía:** Exactly right — and notice their effective rate is 17.5%, not 20% and not 30%.
-
+**Guía:** Exactamente. Y observe que su tasa efectiva es del 17.5 %, no del 20 % ni del 30 %.
 
 ## Prueba práctica
 
+**Pregunta 1.** Con los tramos ilustrativos de esta lección, ¿qué parte de un ingreso de $50,000 se grava al 30 %?
 
-**Pregunta 1.** Using the illustrative brackets in this lesson, how much of a $50,000 ingreso is impuestoed at 30%?
-
-A) All $50,000
+A) Los $50,000 completos
 B) $10,000
 C) $30,000
 D) $0
 
-
-**Pregunta 2.** What is the total illustrative impuesto owed on $50,000 in this example?
+**Pregunta 2.** ¿Cuál es el impuesto ilustrativo total adeudado sobre $50,000 en este ejemplo?
 
 A) $15,000
 B) $10,000
 C) $5,000
 D) $20,000
 
+**Pregunta 3.** La tasa efectiva de impuesto en el ejemplo de $50,000 es:
 
-**Pregunta 3.** The effective impuesto rate in the $50,000 example is:
+A) 30 %
+B) 20 %
+C) 10 %
+D) 0 %
 
-A) 30%
-B) 20%
-C) 10%
-D) 0%
+**Pregunta 4.** ¿Deben memorizarse los números específicos de los tramos de esta lección como cifras reales?
 
-
-**Pregunta 4.** Are the specific bracket numbers in this lesson meant to be memorized as real figures?
-
-A) Yes, they apply everywhere
-B) No — they're illustrative; real brackets vary by country and change over time
-C) Yes, but only for one country
-D) They are irrelevant to the lesson
-
+A) Sí, se aplican en todas partes
+B) No: son ilustrativos; los tramos reales varían según el país y cambian con el tiempo
+C) Sí, pero solo para un país
+D) No tienen relación con la lección
 
 ## Clave de respuestas
 
@@ -88,17 +82,17 @@ D) They are irrelevant to the lesson
 
 ## Respuestas y explicaciones
 
-**1.** Only the portion of ingreso above $40,000 — which is $10,000 — falls into the 30% bracket.
+**1.** Solo la parte del ingreso que supera los $40,000 —es decir, $10,000— cae en el tramo del 30 %.
 
-**2.** Adding $1,000 + $6,000 + $3,000 across the three brackets gives a total of $10,000.
+**2.** Al sumar $1,000 + $6,000 + $3,000 en los tres tramos se obtiene un total de $10,000.
 
-**3.** Dividing total impuesto ($10,000) by total ingreso ($50,000) gives an effective rate of 20%.
+**3.** Al dividir el impuesto total ($10,000) entre el ingreso total ($50,000) se obtiene una tasa efectiva del 20 %.
 
-**4.** The dollar figures are a teaching tool; the calculation method is what transfers to any real bracket table.
+**4.** Las cifras en dólares son una herramienta de enseñanza; el método de cálculo es lo que se aplica a cualquier tabla de tramos real.
 
 ## Puntos clave
 
-- Brackets apply step by step, with each rate only touching the ingreso within that band.
-- Walking through the math concretely reinforces why the marginal rate concept matters in practice.
-- Effective impuesto rate is always a blend, and always lower than the top bracket touched.
-- The specific numbers used here are illustrative — always check your own jurisdiction's actual bracket table.
+- Los tramos se aplican paso a paso, y cada tasa solo toca el ingreso que cae dentro de esa franja.
+- Hacer el cálculo de forma concreta refuerza por qué el concepto de tasa marginal importa en la práctica.
+- La tasa efectiva siempre es una combinación, y siempre es menor que el tramo más alto alcanzado.
+- Los números usados aquí son ilustrativos: verifique siempre la tabla de tramos real de su jurisdicción.

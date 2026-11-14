@@ -1,80 +1,74 @@
 ---
 id: GREEN-L1-009
 track: GREEN
-officialTrackName: Impuestos
+officialTrackName: Taxes
 level: 1
 lessonNumber: 9
 locale: es-Caribbean
-title: "Tasas impositivas marginales: por qué ganar más no significa perder más"
-summary: "Clears up one of the most common misunderstandings in personal finance: that moving into a higher impuesto bracket means all your ingreso gets impuestoed at the higher rate."
+title: "Las tasas marginales: por qué ganar más no significa perder más"
+summary: "Aclara uno de los malentendidos más comunes de las finanzas personales: la idea de que pasar a un tramo impositivo más alto hace que todo su ingreso se grave a la tasa más alta."
 version: 1.0
 author: Waldemar M. Caban, JD MA
 date: 2026-08-09
 ---
 
-# Tasas impositivas marginales: por qué ganar más no significa perder más
+# Las tasas marginales: por qué ganar más no significa perder más
 
 ## Objetivos de aprendizaje
 
-- Explain what a marginal impuesto rate is.
-- Correct the common misconception that a raise can leave you with less total money.
-- Distinguish marginal rate from average (effective) rate.
+- Explicar qué es una tasa marginal de impuesto.
+- Corregir la idea errónea común de que un aumento puede dejarle con menos dinero en total.
+- Distinguir la tasa marginal de la tasa promedio (efectiva).
 
 ## Contenido principal
 
-One of the most persistent misunderstandings in personal finance is the fear that earning more money will somehow leave you worse off because it pushes you into a 'higher impuesto bracket.' In systems that use marginal impuesto brackets, this fear is almost always misplaced.
+Uno de los malentendidos más persistentes de las finanzas personales es el temor de que ganar más dinero le deje de alguna manera en peor situación porque lo empuja a un «tramo impositivo más alto». En los sistemas que usan tramos marginales, ese temor casi siempre es infundado.
 
-Here's how marginal rates actually work: each bracket's rate applies only to the portion of ingreso that falls within that bracket — not to your entire ingreso. If a system impuestoes ingreso up to a certain amount at 10% and the next chunk at 20%, moving into the 20% bracket only means that additional chunk is impuestoed at 20%. The earlier portion still gets impuestoed at 10%, exactly as before.
+Así funcionan realmente las tasas marginales: la tasa de cada tramo se aplica solo a la parte del ingreso que cae dentro de ese tramo, no a todo su ingreso. Si un sistema grava el ingreso hasta cierta cantidad al 10 % y el siguiente bloque al 20 %, pasar al tramo del 20 % solo significa que ese bloque adicional se grava al 20 %. La parte anterior se sigue gravando al 10 %, exactamente igual que antes.
 
-This means your average, or 'effective,' impuesto rate — total impuesto paid divided by total ingreso — is always lower than your top marginal rate. Getting a raise that pushes you into a higher bracket might mean the new dollars are impuestoed at a higher rate, but you will never take home less total money because of a raise under a standard marginal system. Understanding this removes a common, unnecessary fear around promotions, raises, and negocio growth.
+Esto significa que su tasa promedio, o «efectiva» —el total de impuestos pagados dividido entre el ingreso total—, siempre es menor que su tasa marginal más alta. Un aumento que lo lleve a un tramo más alto puede significar que los dólares nuevos se graven a una tasa mayor, pero en un sistema marginal estándar usted nunca se llevará a casa menos dinero en total por recibir un aumento. Entender esto elimina un temor común e innecesario en torno a los ascensos, los aumentos y el crecimiento de un negocio.
 
 ## Ejemplo práctico
 
-**Pregunta:** A friend turns down a raise, worried it will 'push them into a higher bracket and leave them with less money.' What would you tell them?
+**Pregunta:** Una amiga rechaza un aumento porque teme que «la empuje a un tramo más alto y la deje con menos dinero». ¿Qué le diría usted?
 
-**Estudiante:** I'd explain that only the new, additional ingreso gets impuestoed at the higher rate — not everything they earn.
+**Estudiante:** Le explicaría que solo el ingreso nuevo, el adicional, se grava a la tasa más alta, no todo lo que gana.
 
-**Guía:** Right. Can you walk through why that means they'd never end up with less total take-home pay from a raise?
+**Guía:** Correcto. ¿Puede explicar por qué eso significa que nunca terminaría con menos dinero neto en total por recibir un aumento?
 
-**Estudiante:** Because the rest of their ingreso keeps being impuestoed at the same lower rates it always was — the higher rate only touches the portion above the threshold.
+**Estudiante:** Porque el resto de su ingreso se sigue gravando a las mismas tasas más bajas de siempre; la tasa más alta solo toca la parte que supera el umbral.
 
-**Guía:** Exactly — the fear is based on a misunderstanding of how brackets actually apply.
-
+**Guía:** Exactamente. El temor se basa en un malentendido sobre cómo se aplican realmente los tramos.
 
 ## Prueba práctica
 
+**Pregunta 1.** Una tasa marginal de impuesto se aplica a:
 
-**Pregunta 1.** A marginal impuesto rate applies to:
+A) Todo su ingreso a la vez
+B) Solo la parte del ingreso que cae dentro de ese tramo específico
+C) Solo su primer cheque
+D) A nada: es un mito
 
-A) Your entire ingreso at once
-B) Only the portion of ingreso within that specific bracket
-C) Only your first paycheck
-D) Nothing — it's a myth
+**Pregunta 2.** Si un aumento lo lleva a un tramo más alto en un sistema marginal, ¿disminuye su ingreso neto en total?
 
+A) Sí, siempre
+B) No: solo la parte nueva se grava a la tasa más alta
+C) Solo en el caso de quienes trabajan por cuenta propia
+D) Solo en algunos países, nunca en otros
 
-**Pregunta 2.** If a raise pushes you into a higher bracket under a marginal system, does your take-home pay decrease overall?
+**Pregunta 3.** Su tasa efectiva (promedio) de impuesto es:
 
-A) Yes, always
-B) No — only the new portion is impuestoed at the higher rate
-C) Only for self-employed people
-D) Only in some countries, never others
+A) Siempre igual a su tasa marginal más alta
+B) Siempre mayor que su tasa marginal más alta
+C) Normalmente menor que su tasa marginal más alta
+D) Ajena a su ingreso
 
+**Pregunta 4.** El temor de que «un aumento lo puede dejar con menos dinero» es, en general:
 
-**Pregunta 3.** Your effective (average) impuesto rate is:
-
-A) Always equal to your top marginal rate
-B) Always higher than your top marginal rate
-C) Typically lower than your top marginal rate
-D) Unrelated to your ingreso
-
-
-**Pregunta 4.** The fear that 'a raise can leave you with less money' is generally:
-
-A) Accurate in marginal systems
-B) A common misunderstanding of how brackets work
-C) Verdadero only for the wealthy
-D) Impossible to evaluate
-
+A) Correcto en los sistemas marginales
+B) Un malentendido común sobre cómo funcionan los tramos
+C) Cierto solo para los ricos
+D) Imposible de evaluar
 
 ## Clave de respuestas
 
@@ -82,17 +76,17 @@ D) Impossible to evaluate
 
 ## Respuestas y explicaciones
 
-**1.** Marginal rates apply bracket by bracket, not as a blanket rate on total ingreso.
+**1.** Las tasas marginales se aplican tramo por tramo, no como una tasa general sobre el ingreso total.
 
-**2.** Because only the new ingreso above the threshold is impuestoed at the higher rate, total take-home pay from a raise never decreases under a standard marginal system.
+**2.** Como solo el ingreso nuevo que supera el umbral se grava a la tasa más alta, el ingreso neto total por un aumento nunca disminuye en un sistema marginal estándar.
 
-**3.** Blending lower-bracket and higher-bracket rates across your whole ingreso always produces an average below the top rate.
+**3.** Al combinar las tasas de los tramos bajos y altos sobre todo su ingreso, siempre se obtiene un promedio inferior a la tasa más alta.
 
-**4.** This fear is extremely common but doesn't hold up once you understand how brackets are actually applied.
+**4.** Este temor es muy común, pero no resiste el análisis una vez que se entiende cómo se aplican realmente los tramos.
 
 ## Puntos clave
 
-- Marginal rates apply only to the ingreso within each specific bracket.
-- A raise never results in lower total take-home pay under a standard marginal system.
-- Your effective impuesto rate is a blended average, always below your top marginal rate.
-- Understanding this removes unnecessary fear around raises, promotions, and negocio growth.
+- Las tasas marginales se aplican solo al ingreso dentro de cada tramo específico.
+- En un sistema marginal estándar, un aumento nunca produce un ingreso neto total menor.
+- Su tasa efectiva es un promedio combinado, siempre inferior a su tasa marginal más alta.
+- Entender esto elimina un temor innecesario en torno a los aumentos, los ascensos y el crecimiento de un negocio.
