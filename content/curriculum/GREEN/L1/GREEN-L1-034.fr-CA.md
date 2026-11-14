@@ -1,51 +1,48 @@
 ---
 id: GREEN-L1-034
 track: GREEN
-officialTrackName: Impôts
+officialTrackName: "Taxes"
 level: 1
 lessonNumber: 34
 locale: fr-CA
-title: "Comptes de retraite fiscalement avantageux : l’idée de base"
+source_locale: en-US
+title: "L'Impôt sur le Revenu — Les Bases"
 summary: "Explique ce concept fiscal et son application pratique."
-version: 1.0
-author: Waldemar M. Caban, JD MA
-date: 2026-08-09
+version: "1.0"
+author: "Waldemar M. Caban, JD MA"
 ---
 
-# Comptes de retraite fiscalement avantageux : l’idée de base
+# GREEN-L1-034 : L'Impôt sur le Revenu — Les Bases
 
-## Objectifs d’apprentissage
-- Comprendre le concept.
-- L’appliquer avec discernement.
-- Vérifier les règles de la juridiction.
+## Objectifs d'Apprentissage
+1. Définir l'impôt sur le revenu en termes simples.
+2. Expliquer le concept général d'un régime fiscal progressif.
+3. Reconnaître que les taux précis varient selon le pays.
 
-## Contenu principal
-Les gouvernements peuvent offrir des avantages fiscaux pour encourager l’épargne à long terme, généralement avec des limites et conditions.
+## Contenu Principal
+*RÈGLE SPÉCIFIQUE À LA RÉGION :* Les taux précis de l'impôt sur le revenu et les structures exactes varient considérablement selon le pays ; cette leçon décrit seulement le concept général.
 
-Les taux, seuils, définitions et procédures peuvent changer selon la juridiction et le temps. Une décision importante doit donc reposer sur des renseignements actuels et applicables.
+L'impôt sur le revenu est un impôt généralement appliqué sur le revenu qu'une personne ou une entreprise gagne pendant une période donnée. *SUPPOSITION :* Bien des pays utilisent un régime progressif, où le taux d'imposition augmente généralement à mesure que le niveau de revenu augmente — ça veut dire que les personnes avec des revenus plus élevés paient généralement un pourcentage plus élevé sur ces revenus que les personnes avec des revenus plus bas.
 
-## Exemple pratique
-**Question :** Que faut-il vérifier avant d’agir?
-**Étudiant :** Les faits, les règles locales et la documentation.
-**Guide :** Exactement.
+## Exemple Pratique
+*EXEMPLE ILLUSTRATIF :* Dans un régime progressif simplifié, quelqu'un pourrait payer un taux de 10 % sur les premiers 20 000 $ de revenu, et un taux de 20 % sur tout revenu additionnel au-dessus de ce montant. Ça veut généralement dire qu'une personne ne paie pas le taux le plus élevé sur tout son revenu, mais seulement sur la partie qui dépasse chaque palier établi.
 
-## Quiz pratique
-1. Les règles sont-elles universelles? A) Oui B) Non
-2. Faut-il vérifier les règles actuelles? A) Oui B) Non
-3. La documentation est-elle utile? A) Oui B) Non
-4. Une situation complexe peut-elle justifier des conseils professionnels? A) Oui B) Non
+## Quiz Pratique
+1. Qu'est-ce que l'impôt sur le revenu ?
+2. Qu'est-ce qu'un régime fiscal progressif ?
+3. Vrai/Faux : Dans un régime progressif, tout le monde paie exactement le même pourcentage.
+4. Dans l'exemple, quel taux s'appliquerait aux premiers 20 000 $ de revenu ?
 
 ## Corrigé
-1. B, 2. A, 3. A, 4. A
+1. Un impôt appliqué sur le revenu gagné pendant une période donnée   2. Un régime où le taux d'imposition augmente à mesure que le revenu augmente   3. Faux   4. 10 %
 
-## Réponses et explications
-1. Les juridictions diffèrent.
-2. Les règles évoluent.
-3. Les dossiers appuient les décisions.
-4. Une aide qualifiée peut réduire les risques.
+## Réponses et Explications
+1. Ceci est la définition fondamentale de l'impôt sur le revenu.
+2. Ceci est la définition fondamentale d'un régime fiscal progressif.
+3. Dans un régime progressif, le taux varie généralement selon le niveau de revenu.
+4. Selon l'exemple, le taux de 10 % s'appliquerait aux premiers 20 000 $.
 
-## Points clés
-- Comprenez le mécanisme.
-- Vérifiez la juridiction.
-- Conservez des dossiers.
-- Planifiez avant d’agir.
+## Points Clés à Retenir
+- L'impôt sur le revenu s'applique généralement sur le revenu gagné.
+- Bien des pays utilisent un régime progressif, où le taux augmente avec le niveau de revenu.
+- Les taux précis et les structures varient considérablement selon le pays.
