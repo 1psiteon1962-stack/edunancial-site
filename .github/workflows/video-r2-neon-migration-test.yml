@@ -29,7 +29,7 @@ jobs:
       PGPASSWORD: postgres
       DATABASE_URL: postgresql://postgres:postgres@127.0.0.1:5432/edunancial_test
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
       - name: Apply clean migration
         run: psql "$DATABASE_URL" -v ON_ERROR_STOP=1 -f db/neon/20260926_video_maker_r2.sql
       - name: Apply migration a second time

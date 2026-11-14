@@ -22,7 +22,7 @@ jobs:
       MODE: ${{ inputs.mode }}
       CONFIRM_ENDPOINT: ${{ inputs.confirm_endpoint }}
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
       - name: Install PostgreSQL client
         run: sudo apt-get update -qq && sudo apt-get install -y -qq postgresql-client
       - name: Verify connection identity and required confirmation without disclosing secrets

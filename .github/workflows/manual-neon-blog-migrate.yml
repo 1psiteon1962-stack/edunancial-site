@@ -45,7 +45,7 @@ jobs:
       MODE: ${{ inputs.mode }}
       CONFIRM_ENDPOINT: ${{ inputs.confirm_endpoint }}
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
 
       - name: Identify target and inspect (read-only)
         id: target

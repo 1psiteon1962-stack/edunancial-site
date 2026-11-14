@@ -36,7 +36,7 @@ jobs:
     timeout-minutes: 300
     # No OpenAI-Organization header: the API key's default organization is used.
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
         with:
           ref: main
           fetch-depth: 1
