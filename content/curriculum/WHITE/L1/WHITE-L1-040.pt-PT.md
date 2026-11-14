@@ -16,7 +16,7 @@ date: 2026-08-08
 
 ## Objetivos de aprendizagem
 
-No final desta lição, você deverá ser capaz de definir o conceito, explicar seu funcionamento e aplicá-lo a um exemplo simples.
+No final desta lição, o aluno deverá ser capaz de definir o conceito, explicar seu funcionamento e aplicá-lo a um exemplo simples.
 
 ## Conteúdo principal
 
@@ -26,7 +26,7 @@ Um ticker é um código curto e único, geralmente formado por letras, atribuíd
 
 ### Como funciona
 
-Como empresas podem ter nomes semelhantes, o ticker identifica de forma inequívoca qual ação está sendo comprada, vendida ou discutida. Confiar apenas no nome pode gerar erros caros.
+Como empresas podem ter nomes semelhantes, o ticker identifica de forma inequívoca qual ação está a ser comprada, vendida ou discutida. Confiar apenas no nome pode gerar erros caros.
 
 ### Por que isso importa
 

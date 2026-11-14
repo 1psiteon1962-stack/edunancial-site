@@ -5,18 +5,18 @@ officialTrackName: Paper Assets
 level: 1
 lessonNumber: 49
 locale: pt-PT
-title: "Lendo um extrato de corretora: o que você realmente está vendo?"
+title: "Lendo um extrato de corretora: o que está realmente a ver?"
 summary: "Aprenda a ler as seções centrais de um extrato de corretora e conectar os termos estudados neste nível."
 sourceVersion: "1.0"
 author: Waldemar M. Caban, JD MA
 date: 2026-08-08
 ---
 
-# Lendo um extrato de corretora: o que você realmente está vendo?
+# Lendo um extrato de corretora: o que está realmente a ver?
 
 ## Objetivos de aprendizagem
 
-No final desta lição, você deverá ser capaz de definir os conceitos centrais, explicar sua importância prática e aplicá-los a um exemplo concreto.
+No final desta lição, o aluno deverá ser capaz de definir os conceitos centrais, explicar sua importância prática e aplicá-los a um exemplo concreto.
 
 ## Conteúdo principal
 

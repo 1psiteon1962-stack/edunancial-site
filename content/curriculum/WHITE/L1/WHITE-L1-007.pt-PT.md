@@ -22,7 +22,7 @@ Ao final desta lição, o investidor deverá ser capaz de definir o conceito, ex
 
 ### Conceito principal
 
-O preço de uma ação é o valor pelo qual ela está sendo negociada no mercado naquele momento — o preço acordado entre o comprador e o vendedor mais recentes.
+O preço de uma ação é o valor pelo qual ela está a ser negociada no mercado naquele momento — o preço acordado entre o comprador e o vendedor mais recentes.
 
 ### Como funciona
 
