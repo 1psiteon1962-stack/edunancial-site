@@ -5,248 +5,53 @@ officialTrackName: "Leadership & Executive Management"
 level: 1
 lessonNumber: 32
 title: "Managing Up: Dealing With Your Own Investors, Board, or Boss"
-summary: "This lesson develops the ability to manage expectations, information and risk with investors, boards and senior leaders. The learner connects leadership behaviour to execution, risk, people and financial resources rather than treating leadership as a collection of slogans."
-locale: "en-GB"
+summary: "Introduces the skill of managing relationships with the people a leader is accountable to, not just the people who report to them."
 version: "1.0"
 author: "Waldemar M. Caban, JD MA"
-date: 2026-08-09
+date: "2026-08-09"
+locale: en-GB
+source_locale: en-US
 ---
-# 32. Managing Up: Dealing With Your Own Investors, Board, or Boss
 
-### BLACK-L1-032-MAIN
-## Executive Summary
-This lesson develops the ability to **manage expectations, information and risk with investors, boards and senior leaders**. The learner connects leadership behaviour to execution, risk, people and financial resources rather than treating leadership as a collection of slogans.
+# Managing Up: Dealing With Your Own Investors, Board, or Boss
 
 ## Learning Objectives
-- **Financial Literacy:** recognise how the decision uses or protects resources.
-- **Financial Competency:** connect the decision with cost, revenue, margin, cash or productivity where relevant.
-- **Better Judgement:** distinguish facts, assumptions, options and trade-offs.
-- **Better Decisions:** assign an owner, deadline, measure and review point.
-- **Wealth Building:** protect capital and reinvestment capacity through disciplined leadership decisions.
+- Explain why leadership includes managing relationships upward, not just downward
+- Identify practices that build trust with investors, boards, or supervisors
+- Recognise the cost of avoiding difficult updates to people you're accountable to
 
-## Prerequisites
-No formal business qualification is required. Basic arithmetic and willingness to explain the reasoning behind a decision are sufficient.
+## Core Content
 
-## Main Lesson
-### 1. Define the decision
-[VERIFIED FACT] Leadership quality can be examined through observable decisions and results. For this lesson, the practical task is to **manage expectations, information and risk with investors, boards and senior leaders**. Start by stating the outcome in plain language and deciding what evidence would show that the outcome has been achieved.
+Leadership discussions often focus entirely on managing the people who report to you, but every leader is also accountable to someone — investors, a board, a supervisor, or a client. Managing that relationship well is just as much a leadership skill as managing a direct team, even though it's discussed far less often.
 
-Ask what is known, what is assumed, who is affected, what resources are committed, what happens if the decision is delayed, and which risks are reversible. A decision without an owner or review date easily becomes an untested habit. A decision with an owner, measure and review point creates a learning loop.
-### 2. Separate evidence from assumptions
-[VERIFIED FACT] Leadership quality can be examined through observable decisions and results. For this lesson, the practical task is to **manage expectations, information and risk with investors, boards and senior leaders**. Start by stating the outcome in plain language and deciding what evidence would show that the outcome has been achieved.
+A common mistake is only communicating good news upward, avoiding or softening difficult updates out of fear of how they'll be received. This tends to backfire the same way avoiding hard feedback does with a direct team: the people you're accountable to lose trust once they discover you'd been managing their perception rather than giving them an honest picture, and they start double-checking everything you tell them going forward.
 
-Ask what is known, what is assumed, who is affected, what resources are committed, what happens if the decision is delayed, and which risks are reversible. A decision without an owner or review date easily becomes an untested habit. A decision with an owner, measure and review point creates a learning loop.
-### 3. Connect people and money
-[VERIFIED FACT] Leadership quality can be examined through observable decisions and results. For this lesson, the practical task is to **manage expectations, information and risk with investors, boards and senior leaders**. Start by stating the outcome in plain language and deciding what evidence would show that the outcome has been achieved.
+Managing up well means proactive, honest communication — flagging problems early rather than only after they're undeniable, coming with a plan rather than just a problem when possible, and treating the relationship as a partnership rather than a one-way reporting obligation.
 
-Ask what is known, what is assumed, who is affected, what resources are committed, what happens if the decision is delayed, and which risks are reversible. A decision without an owner or review date easily becomes an untested habit. A decision with an owner, measure and review point creates a learning loop.
-### 4. Choose a proportionate action
-[VERIFIED FACT] Leadership quality can be examined through observable decisions and results. For this lesson, the practical task is to **manage expectations, information and risk with investors, boards and senior leaders**. Start by stating the outcome in plain language and deciding what evidence would show that the outcome has been achieved.
-
-Ask what is known, what is assumed, who is affected, what resources are committed, what happens if the decision is delayed, and which risks are reversible. A decision without an owner or review date easily becomes an untested habit. A decision with an owner, measure and review point creates a learning loop.
-### 5. Review and learn
-[VERIFIED FACT] Leadership quality can be examined through observable decisions and results. For this lesson, the practical task is to **manage expectations, information and risk with investors, boards and senior leaders**. Start by stating the outcome in plain language and deciding what evidence would show that the outcome has been achieved.
-
-Ask what is known, what is assumed, who is affected, what resources are committed, what happens if the decision is delayed, and which risks are reversible. A decision without an owner or review date easily becomes an untested habit. A decision with an owner, measure and review point creates a learning loop.
-
-## Key Definitions
-- **Outcome:** the observable change the leader is trying to achieve.
-- **Criterion:** a rule used to compare options.
-- **Risk:** the possibility that an outcome harms an objective.
-- **Indicator:** a measure used to observe progress or results.
-- **Accountable owner:** the person expected to deliver or answer for an agreed action.
-
-### BLACK-L1-032-EXAMPLES
 ## Worked Example
-A small organisation faces an issue involving **manage expectations, information and risk with investors, boards and senior leaders**. Instead of reacting immediately, the leader sets a 30-day outcome, gathers three relevant facts, estimates the cost of two alternatives and selects a weekly indicator. The team chooses a reversible option, names an accountable owner and schedules a review. If the measure fails to improve, the method changes while the objective remains clear.
 
-## Case Study
-A team of eight has missed an important result for two months. Management has added meetings, but nobody has been made clearly accountable and success has not been defined. The delay is estimated to cost £1,200 each month through wasted hours, errors and missed opportunities. The leader must choose whether to redesign the process, reassign responsibilities or continue with the current arrangement.
+A founder notices a concerning trend in customer retention data two months before the next scheduled board meeting. Managing up poorly means waiting until the scheduled meeting to mention it, or downplaying it when asked directly. Managing up well means proactively reaching out to the board earlier: "I want to flag a retention trend I'm seeing, here's my read on what's driving it, and here's the plan I'm testing to address it." This builds trust because it shows the founder catches problems early and brings solutions, not just bad news delivered late.
 
-**Decision prompt:** Before reading any explanation, what would you do, why, and which measure would you require the team to review in 30 days?
+## Practice Quiz
 
-## Common Mistakes
-- Acting before defining the problem and desired outcome.
-- Confusing activity with results.
-- Ignoring the cost of delay.
-- Delegating responsibility without authority or follow-up.
-- Continuing a weak decision merely because time or money has already been spent.
+1. Why is managing up considered a leadership skill, even though it's discussed less often?
+2. What common mistake do leaders make when communicating with people they're accountable to?
+3. Why does only communicating good news upward eventually backfire?
+4. What does managing up well typically include, according to this lesson?
 
-## FAQ
-### Does a leader need certainty before deciding?
-No. The amount of information required should be proportionate to the consequences and reversibility of the decision.
+## Answer Key
+1. Because every leader is accountable to someone, and managing that relationship well requires real skill, just like managing a direct team.
+2. Avoiding or softening difficult updates out of fear of how they'll be received.
+3. Because the people relied on for accurate information eventually discover the pattern and lose trust, leading to more scrutiny going forward.
+4. Proactive, honest communication that flags problems early and, where possible, comes with a proposed plan.
 
-### Must every leadership decision be expressed in pounds?
-No. Material decisions should, however, consider effects on time, capacity, cost, revenue, cash or risk whenever those effects are relevant.
-
-### Is changing a decision a sign of weakness?
-Not when new evidence invalidates the original assumptions. Correcting course for a stated reason is part of accountability.
+## Answers and Explanations
+1. This corrects the common assumption that leadership skill only applies to downward relationships.
+2. This mistake mirrors the earlier lesson on avoiding hard feedback, applied in the upward direction.
+3. Discovered pattern-hiding damages the trust that upward relationships depend on.
+4. Proactive honesty paired with solutions is the specific practice the lesson recommends.
 
 ## Key Takeaways
-- The practical objective is to manage expectations, information and risk with investors, boards and senior leaders.
-- Criteria should be set before becoming attached to a preferred solution.
-- Important decisions need an owner, deadline, indicator and review point.
-- People, operations and finance interact; leadership decisions rarely affect only one of them.
-
-### BLACK-L1-032-EXERCISE
-## Practical Exercise
-Choose a real situation connected to **manage expectations, information and risk with investors, boards and senior leaders**. Write the desired outcome, five facts, three assumptions, two alternatives, estimated cost, main risk, accountable owner, indicator and review date. State what evidence would cause you to change the method.
-
-### BLACK-L1-032-AI
-## Socratic Teaching Guide
-1. What outcome are you trying to achieve?
-2. Which facts can you demonstrate?
-3. What are you assuming?
-4. Who is affected by the decision?
-5. What does acting cost?
-6. What does waiting cost?
-7. Which option is most reversible?
-8. Which indicator would reveal progress?
-9. Who should be accountable for the result?
-10. What evidence would justify changing course?
-
-### BLACK-L1-032-ASSESSMENT
-## Competency Assessment — 10 Questions
-### 1. Applied question
-1. When trying to **manage expectations, information and risk with investors, boards and senior leaders**, which starting approach is strongest?
-A) Act on instinct alone.  B) Define the outcome and criteria, examine evidence and risk, then assign ownership.  C) Wait for perfect certainty.  D) Avoid measuring the result.
-
-### 2. Applied question
-2. When trying to **manage expectations, information and risk with investors, boards and senior leaders**, which starting approach is strongest?
-A) Act on instinct alone.  B) Define the outcome and criteria, examine evidence and risk, then assign ownership.  C) Wait for perfect certainty.  D) Avoid measuring the result.
-
-### 3. Applied question
-3. When trying to **manage expectations, information and risk with investors, boards and senior leaders**, which starting approach is strongest?
-A) Act on instinct alone.  B) Define the outcome and criteria, examine evidence and risk, then assign ownership.  C) Wait for perfect certainty.  D) Avoid measuring the result.
-
-### 4. Applied question
-4. When trying to **manage expectations, information and risk with investors, boards and senior leaders**, which starting approach is strongest?
-A) Act on instinct alone.  B) Define the outcome and criteria, examine evidence and risk, then assign ownership.  C) Wait for perfect certainty.  D) Avoid measuring the result.
-
-### 5. Applied question
-5. When trying to **manage expectations, information and risk with investors, boards and senior leaders**, which starting approach is strongest?
-A) Act on instinct alone.  B) Define the outcome and criteria, examine evidence and risk, then assign ownership.  C) Wait for perfect certainty.  D) Avoid measuring the result.
-
-### 6. Applied question
-6. When trying to **manage expectations, information and risk with investors, boards and senior leaders**, which starting approach is strongest?
-A) Act on instinct alone.  B) Define the outcome and criteria, examine evidence and risk, then assign ownership.  C) Wait for perfect certainty.  D) Avoid measuring the result.
-
-### 7. Applied question
-7. When trying to **manage expectations, information and risk with investors, boards and senior leaders**, which starting approach is strongest?
-A) Act on instinct alone.  B) Define the outcome and criteria, examine evidence and risk, then assign ownership.  C) Wait for perfect certainty.  D) Avoid measuring the result.
-
-### 8. Applied question
-8. When trying to **manage expectations, information and risk with investors, boards and senior leaders**, which starting approach is strongest?
-A) Act on instinct alone.  B) Define the outcome and criteria, examine evidence and risk, then assign ownership.  C) Wait for perfect certainty.  D) Avoid measuring the result.
-
-### 9. Applied question
-9. When trying to **manage expectations, information and risk with investors, boards and senior leaders**, which starting approach is strongest?
-A) Act on instinct alone.  B) Define the outcome and criteria, examine evidence and risk, then assign ownership.  C) Wait for perfect certainty.  D) Avoid measuring the result.
-
-### 10. Applied question
-10. When trying to **manage expectations, information and risk with investors, boards and senior leaders**, which starting approach is strongest?
-A) Act on instinct alone.  B) Define the outcome and criteria, examine evidence and risk, then assign ownership.  C) Wait for perfect certainty.  D) Avoid measuring the result.
-
-### BLACK-L1-032-ANSWER-KEY
-## Answer Key
-### 1. Answer
-**Correct answer:** B — define the outcome and criteria, examine available evidence and risk, then assign ownership.
-
-**Competency tested:** applying the lesson to manage expectations, information and risk with investors, boards and senior leaders.
-
-**Common misconception:** believing speed alone makes a decision effective, or treating a stated intention as though it were a measurable action.
-
-### 2. Answer
-**Correct answer:** B — define the outcome and criteria, examine available evidence and risk, then assign ownership.
-
-**Competency tested:** applying the lesson to manage expectations, information and risk with investors, boards and senior leaders.
-
-**Common misconception:** believing speed alone makes a decision effective, or treating a stated intention as though it were a measurable action.
-
-### 3. Answer
-**Correct answer:** B — define the outcome and criteria, examine available evidence and risk, then assign ownership.
-
-**Competency tested:** applying the lesson to manage expectations, information and risk with investors, boards and senior leaders.
-
-**Common misconception:** believing speed alone makes a decision effective, or treating a stated intention as though it were a measurable action.
-
-### 4. Answer
-**Correct answer:** B — define the outcome and criteria, examine available evidence and risk, then assign ownership.
-
-**Competency tested:** applying the lesson to manage expectations, information and risk with investors, boards and senior leaders.
-
-**Common misconception:** believing speed alone makes a decision effective, or treating a stated intention as though it were a measurable action.
-
-### 5. Answer
-**Correct answer:** B — define the outcome and criteria, examine available evidence and risk, then assign ownership.
-
-**Competency tested:** applying the lesson to manage expectations, information and risk with investors, boards and senior leaders.
-
-**Common misconception:** believing speed alone makes a decision effective, or treating a stated intention as though it were a measurable action.
-
-### 6. Answer
-**Correct answer:** B — define the outcome and criteria, examine available evidence and risk, then assign ownership.
-
-**Competency tested:** applying the lesson to manage expectations, information and risk with investors, boards and senior leaders.
-
-**Common misconception:** believing speed alone makes a decision effective, or treating a stated intention as though it were a measurable action.
-
-### 7. Answer
-**Correct answer:** B — define the outcome and criteria, examine available evidence and risk, then assign ownership.
-
-**Competency tested:** applying the lesson to manage expectations, information and risk with investors, boards and senior leaders.
-
-**Common misconception:** believing speed alone makes a decision effective, or treating a stated intention as though it were a measurable action.
-
-### 8. Answer
-**Correct answer:** B — define the outcome and criteria, examine available evidence and risk, then assign ownership.
-
-**Competency tested:** applying the lesson to manage expectations, information and risk with investors, boards and senior leaders.
-
-**Common misconception:** believing speed alone makes a decision effective, or treating a stated intention as though it were a measurable action.
-
-### 9. Answer
-**Correct answer:** B — define the outcome and criteria, examine available evidence and risk, then assign ownership.
-
-**Competency tested:** applying the lesson to manage expectations, information and risk with investors, boards and senior leaders.
-
-**Common misconception:** believing speed alone makes a decision effective, or treating a stated intention as though it were a measurable action.
-
-### 10. Answer
-**Correct answer:** B — define the outcome and criteria, examine available evidence and risk, then assign ownership.
-
-**Competency tested:** applying the lesson to manage expectations, information and risk with investors, boards and senior leaders.
-
-**Common misconception:** believing speed alone makes a decision effective, or treating a stated intention as though it were a measurable action.
-
-### BLACK-L1-032-COMPETENCY
-## Competency Standard
-- **Mastery threshold:** 8/10 (80%).
-- Below 80%, review the weak concept, complete a fresh scenario and repeat the relevant assessment.
-- At mastery, the next lesson unlocks.
-
-## Further Reading
-Use credible sources on leadership, organisational behaviour, business finance and decision-making. Check authorship, date, evidence and applicability before relying on a source.
-
-## Lesson Path
-- **Previous:** BLACK-L1-031
-- **Current:** BLACK-L1-032
-- **Next:** BLACK-L1-033
-
-### BLACK-L1-032-SEO
-## SEO Block
-- **Title:** Managing Up: Dealing With Your Own Investors, Board, or Boss | BLACK Level 1 | Edunancial
-- **Meta description:** Learn to manage expectations, information and risk with investors, boards and senior leaders using disciplined decision criteria, accountability and financial awareness.
-- **Target keywords:** leadership, management, decision-making, business finance, teams, accountability
-
-### BLACK-L1-032-AI
-## AI Support Block
-The learning coach may simplify concepts, ask guided questions and create additional educational scenarios. It must not replace individual legal, tax, accounting, investment or other regulated professional advice.
-
-### BLACK-L1-032-LOCALIZATION
-## Localisation — United Kingdom
-This lesson is written in British English and uses UK spelling and pounds sterling where monetary examples are needed. Any decision involving employment law, taxation, accounting standards or regulation must be checked against current UK rules and the learner's actual circumstances.
-
-### BLACK-L1-032-REFERENCES
-## References and Verification Block
-Leadership principles are presented for education. Case-study figures are illustrative estimates. Any legal, tax, accounting, statistical or regulatory claim that affects a real decision should be verified against current authoritative UK sources before application.
+- Managing relationships with investors, boards, or supervisors is a real leadership skill, not a separate concern from managing a team.
+- Avoiding or softening bad news upward tends to backfire once discovered, damaging trust.
+- Managing up well means proactive, honest communication that flags problems early, ideally with a plan attached.

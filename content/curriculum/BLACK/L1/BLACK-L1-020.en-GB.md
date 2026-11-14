@@ -5,248 +5,53 @@ officialTrackName: "Leadership & Executive Management"
 level: 1
 lessonNumber: 20
 title: "Persistence vs. Stubbornness: Knowing Which One You're Doing"
-summary: "This lesson develops the ability to keep the objective while changing methods when evidence demands it. The learner connects leadership behaviour to execution, risk, people and financial resources rather than treating leadership as a collection of slogans."
-locale: "en-GB"
+summary: "Distinguishes healthy persistence from harmful stubbornness and provides a framework for telling them apart."
 version: "1.0"
 author: "Waldemar M. Caban, JD MA"
-date: 2026-08-09
+date: "2026-08-09"
+locale: en-GB
+source_locale: en-US
 ---
-# 20. Persistence vs. Stubbornness: Knowing Which One You're Doing
 
-### BLACK-L1-020-MAIN
-## Executive Summary
-This lesson develops the ability to **keep the objective while changing methods when evidence demands it**. The learner connects leadership behaviour to execution, risk, people and financial resources rather than treating leadership as a collection of slogans.
+# Persistence vs. Stubbornness: Knowing Which One You're Doing
 
 ## Learning Objectives
-- **Financial Literacy:** recognise how the decision uses or protects resources.
-- **Financial Competency:** connect the decision with cost, revenue, margin, cash or productivity where relevant.
-- **Better Judgement:** distinguish facts, assumptions, options and trade-offs.
-- **Better Decisions:** assign an owner, deadline, measure and review point.
-- **Wealth Building:** protect capital and reinvestment capacity through disciplined leadership decisions.
+- Distinguish persistence from stubbornness
+- Identify a framework for telling them apart in the moment
+- Practice applying the framework to a real or hypothetical decision
 
-## Prerequisites
-No formal business qualification is required. Basic arithmetic and willingness to explain the reasoning behind a decision are sufficient.
+## Core Content
 
-## Main Lesson
-### 1. Define the decision
-[VERIFIED FACT] Leadership quality can be examined through observable decisions and results. For this lesson, the practical task is to **keep the objective while changing methods when evidence demands it**. Start by stating the outcome in plain language and deciding what evidence would show that the outcome has been achieved.
+Persistence and stubbornness can look identical from the outside — both involve continuing to push forward despite resistance. The difference is whether the underlying approach is actually working, or being adjusted, versus repeating the same failed approach out of ego or fear of appearing to give up.
 
-Ask what is known, what is assumed, who is affected, what resources are committed, what happens if the decision is delayed, and which risks are reversible. A decision without an owner or review date easily becomes an untested habit. A decision with an owner, measure and review point creates a learning loop.
-### 2. Separate evidence from assumptions
-[VERIFIED FACT] Leadership quality can be examined through observable decisions and results. For this lesson, the practical task is to **keep the objective while changing methods when evidence demands it**. Start by stating the outcome in plain language and deciding what evidence would show that the outcome has been achieved.
+A useful framework: persistence keeps the goal fixed while adapting the method based on what's being learned along the way. Stubbornness keeps both the goal and the method fixed, ignoring evidence that the method isn't working. Someone persistently pursuing a goal adjusts their approach after feedback; someone stubbornly pursuing a goal keeps doing the same thing, expecting a different result.
 
-Ask what is known, what is assumed, who is affected, what resources are committed, what happens if the decision is delayed, and which risks are reversible. A decision without an owner or review date easily becomes an untested habit. A decision with an owner, measure and review point creates a learning loop.
-### 3. Connect people and money
-[VERIFIED FACT] Leadership quality can be examined through observable decisions and results. For this lesson, the practical task is to **keep the objective while changing methods when evidence demands it**. Start by stating the outcome in plain language and deciding what evidence would show that the outcome has been achieved.
+Checking which one you're doing requires honest self-reflection: Am I adjusting my approach based on what I'm learning, or am I just repeating the same thing and hoping it eventually works through sheer will? The first is a leadership strength. The second usually isn't, even though it can feel identical from the inside.
 
-Ask what is known, what is assumed, who is affected, what resources are committed, what happens if the decision is delayed, and which risks are reversible. A decision without an owner or review date easily becomes an untested habit. A decision with an owner, measure and review point creates a learning loop.
-### 4. Choose a proportionate action
-[VERIFIED FACT] Leadership quality can be examined through observable decisions and results. For this lesson, the practical task is to **keep the objective while changing methods when evidence demands it**. Start by stating the outcome in plain language and deciding what evidence would show that the outcome has been achieved.
-
-Ask what is known, what is assumed, who is affected, what resources are committed, what happens if the decision is delayed, and which risks are reversible. A decision without an owner or review date easily becomes an untested habit. A decision with an owner, measure and review point creates a learning loop.
-### 5. Review and learn
-[VERIFIED FACT] Leadership quality can be examined through observable decisions and results. For this lesson, the practical task is to **keep the objective while changing methods when evidence demands it**. Start by stating the outcome in plain language and deciding what evidence would show that the outcome has been achieved.
-
-Ask what is known, what is assumed, who is affected, what resources are committed, what happens if the decision is delayed, and which risks are reversible. A decision without an owner or review date easily becomes an untested habit. A decision with an owner, measure and review point creates a learning loop.
-
-## Key Definitions
-- **Outcome:** the observable change the leader is trying to achieve.
-- **Criterion:** a rule used to compare options.
-- **Risk:** the possibility that an outcome harms an objective.
-- **Indicator:** a measure used to observe progress or results.
-- **Accountable owner:** the person expected to deliver or answer for an agreed action.
-
-### BLACK-L1-020-EXAMPLES
 ## Worked Example
-A small organisation faces an issue involving **keep the objective while changing methods when evidence demands it**. Instead of reacting immediately, the leader sets a 30-day outcome, gathers three relevant facts, estimates the cost of two alternatives and selects a weekly indicator. The team chooses a reversible option, names an accountable owner and schedules a review. If the measure fails to improve, the method changes while the objective remains clear.
 
-## Case Study
-A team of eight has missed an important result for two months. Management has added meetings, but nobody has been made clearly accountable and success has not been defined. The delay is estimated to cost £1,200 each month through wasted hours, errors and missed opportunities. The leader must choose whether to redesign the process, reassign responsibilities or continue with the current arrangement.
+Someone calling record companies for video content kept calling different companies (persistence, adjusting who they approached and eventually adding the "equal opportunity" framing once they got real feedback about what worked) rather than calling the same handful of companies repeatedly with the identical pitch that had already failed (which would have been stubbornness). The goal stayed fixed — getting videos — but the method evolved based on what was actually happening in each call.
 
-**Decision prompt:** Before reading any explanation, what would you do, why, and which measure would you require the team to review in 30 days?
+## Practice Quiz
 
-## Common Mistakes
-- Acting before defining the problem and desired outcome.
-- Confusing activity with results.
-- Ignoring the cost of delay.
-- Delegating responsibility without authority or follow-up.
-- Continuing a weak decision merely because time or money has already been spent.
+1. What do persistence and stubbornness have in common on the surface?
+2. What's the key difference between them, according to the framework in this lesson?
+3. What question can help someone check which one they're actually doing?
+4. In the worked example, what showed this was persistence rather than stubbornness?
 
-## FAQ
-### Does a leader need certainty before deciding?
-No. The amount of information required should be proportionate to the consequences and reversibility of the decision.
+## Answer Key
+1. Both involve continuing to push forward despite resistance or setbacks.
+2. Persistence adapts the method while keeping the goal fixed; stubbornness keeps both the goal and the failed method fixed.
+3. Am I adjusting my approach based on what I'm learning, or repeating the same thing and hoping it eventually works?
+4. The method evolved (different companies, added the "equal opportunity" framing) while the underlying goal stayed the same.
 
-### Must every leadership decision be expressed in pounds?
-No. Material decisions should, however, consider effects on time, capacity, cost, revenue, cash or risk whenever those effects are relevant.
-
-### Is changing a decision a sign of weakness?
-Not when new evidence invalidates the original assumptions. Correcting course for a stated reason is part of accountability.
+## Answers and Explanations
+1. This surface similarity is exactly why the two are often confused.
+2. Adaptability of method is the defining variable that separates the two.
+3. This self-check question operationalises the framework for real-time use.
+4. Evidence of method adaptation, rather than blind repetition, is the marker that distinguishes persistence here.
 
 ## Key Takeaways
-- The practical objective is to keep the objective while changing methods when evidence demands it.
-- Criteria should be set before becoming attached to a preferred solution.
-- Important decisions need an owner, deadline, indicator and review point.
-- People, operations and finance interact; leadership decisions rarely affect only one of them.
-
-### BLACK-L1-020-EXERCISE
-## Practical Exercise
-Choose a real situation connected to **keep the objective while changing methods when evidence demands it**. Write the desired outcome, five facts, three assumptions, two alternatives, estimated cost, main risk, accountable owner, indicator and review date. State what evidence would cause you to change the method.
-
-### BLACK-L1-020-AI
-## Socratic Teaching Guide
-1. What outcome are you trying to achieve?
-2. Which facts can you demonstrate?
-3. What are you assuming?
-4. Who is affected by the decision?
-5. What does acting cost?
-6. What does waiting cost?
-7. Which option is most reversible?
-8. Which indicator would reveal progress?
-9. Who should be accountable for the result?
-10. What evidence would justify changing course?
-
-### BLACK-L1-020-ASSESSMENT
-## Competency Assessment — 10 Questions
-### 1. Applied question
-1. When trying to **keep the objective while changing methods when evidence demands it**, which starting approach is strongest?
-A) Act on instinct alone.  B) Define the outcome and criteria, examine evidence and risk, then assign ownership.  C) Wait for perfect certainty.  D) Avoid measuring the result.
-
-### 2. Applied question
-2. When trying to **keep the objective while changing methods when evidence demands it**, which starting approach is strongest?
-A) Act on instinct alone.  B) Define the outcome and criteria, examine evidence and risk, then assign ownership.  C) Wait for perfect certainty.  D) Avoid measuring the result.
-
-### 3. Applied question
-3. When trying to **keep the objective while changing methods when evidence demands it**, which starting approach is strongest?
-A) Act on instinct alone.  B) Define the outcome and criteria, examine evidence and risk, then assign ownership.  C) Wait for perfect certainty.  D) Avoid measuring the result.
-
-### 4. Applied question
-4. When trying to **keep the objective while changing methods when evidence demands it**, which starting approach is strongest?
-A) Act on instinct alone.  B) Define the outcome and criteria, examine evidence and risk, then assign ownership.  C) Wait for perfect certainty.  D) Avoid measuring the result.
-
-### 5. Applied question
-5. When trying to **keep the objective while changing methods when evidence demands it**, which starting approach is strongest?
-A) Act on instinct alone.  B) Define the outcome and criteria, examine evidence and risk, then assign ownership.  C) Wait for perfect certainty.  D) Avoid measuring the result.
-
-### 6. Applied question
-6. When trying to **keep the objective while changing methods when evidence demands it**, which starting approach is strongest?
-A) Act on instinct alone.  B) Define the outcome and criteria, examine evidence and risk, then assign ownership.  C) Wait for perfect certainty.  D) Avoid measuring the result.
-
-### 7. Applied question
-7. When trying to **keep the objective while changing methods when evidence demands it**, which starting approach is strongest?
-A) Act on instinct alone.  B) Define the outcome and criteria, examine evidence and risk, then assign ownership.  C) Wait for perfect certainty.  D) Avoid measuring the result.
-
-### 8. Applied question
-8. When trying to **keep the objective while changing methods when evidence demands it**, which starting approach is strongest?
-A) Act on instinct alone.  B) Define the outcome and criteria, examine evidence and risk, then assign ownership.  C) Wait for perfect certainty.  D) Avoid measuring the result.
-
-### 9. Applied question
-9. When trying to **keep the objective while changing methods when evidence demands it**, which starting approach is strongest?
-A) Act on instinct alone.  B) Define the outcome and criteria, examine evidence and risk, then assign ownership.  C) Wait for perfect certainty.  D) Avoid measuring the result.
-
-### 10. Applied question
-10. When trying to **keep the objective while changing methods when evidence demands it**, which starting approach is strongest?
-A) Act on instinct alone.  B) Define the outcome and criteria, examine evidence and risk, then assign ownership.  C) Wait for perfect certainty.  D) Avoid measuring the result.
-
-### BLACK-L1-020-ANSWER-KEY
-## Answer Key
-### 1. Answer
-**Correct answer:** B — define the outcome and criteria, examine available evidence and risk, then assign ownership.
-
-**Competency tested:** applying the lesson to keep the objective while changing methods when evidence demands it.
-
-**Common misconception:** believing speed alone makes a decision effective, or treating a stated intention as though it were a measurable action.
-
-### 2. Answer
-**Correct answer:** B — define the outcome and criteria, examine available evidence and risk, then assign ownership.
-
-**Competency tested:** applying the lesson to keep the objective while changing methods when evidence demands it.
-
-**Common misconception:** believing speed alone makes a decision effective, or treating a stated intention as though it were a measurable action.
-
-### 3. Answer
-**Correct answer:** B — define the outcome and criteria, examine available evidence and risk, then assign ownership.
-
-**Competency tested:** applying the lesson to keep the objective while changing methods when evidence demands it.
-
-**Common misconception:** believing speed alone makes a decision effective, or treating a stated intention as though it were a measurable action.
-
-### 4. Answer
-**Correct answer:** B — define the outcome and criteria, examine available evidence and risk, then assign ownership.
-
-**Competency tested:** applying the lesson to keep the objective while changing methods when evidence demands it.
-
-**Common misconception:** believing speed alone makes a decision effective, or treating a stated intention as though it were a measurable action.
-
-### 5. Answer
-**Correct answer:** B — define the outcome and criteria, examine available evidence and risk, then assign ownership.
-
-**Competency tested:** applying the lesson to keep the objective while changing methods when evidence demands it.
-
-**Common misconception:** believing speed alone makes a decision effective, or treating a stated intention as though it were a measurable action.
-
-### 6. Answer
-**Correct answer:** B — define the outcome and criteria, examine available evidence and risk, then assign ownership.
-
-**Competency tested:** applying the lesson to keep the objective while changing methods when evidence demands it.
-
-**Common misconception:** believing speed alone makes a decision effective, or treating a stated intention as though it were a measurable action.
-
-### 7. Answer
-**Correct answer:** B — define the outcome and criteria, examine available evidence and risk, then assign ownership.
-
-**Competency tested:** applying the lesson to keep the objective while changing methods when evidence demands it.
-
-**Common misconception:** believing speed alone makes a decision effective, or treating a stated intention as though it were a measurable action.
-
-### 8. Answer
-**Correct answer:** B — define the outcome and criteria, examine available evidence and risk, then assign ownership.
-
-**Competency tested:** applying the lesson to keep the objective while changing methods when evidence demands it.
-
-**Common misconception:** believing speed alone makes a decision effective, or treating a stated intention as though it were a measurable action.
-
-### 9. Answer
-**Correct answer:** B — define the outcome and criteria, examine available evidence and risk, then assign ownership.
-
-**Competency tested:** applying the lesson to keep the objective while changing methods when evidence demands it.
-
-**Common misconception:** believing speed alone makes a decision effective, or treating a stated intention as though it were a measurable action.
-
-### 10. Answer
-**Correct answer:** B — define the outcome and criteria, examine available evidence and risk, then assign ownership.
-
-**Competency tested:** applying the lesson to keep the objective while changing methods when evidence demands it.
-
-**Common misconception:** believing speed alone makes a decision effective, or treating a stated intention as though it were a measurable action.
-
-### BLACK-L1-020-COMPETENCY
-## Competency Standard
-- **Mastery threshold:** 8/10 (80%).
-- Below 80%, review the weak concept, complete a fresh scenario and repeat the relevant assessment.
-- At mastery, the next lesson unlocks.
-
-## Further Reading
-Use credible sources on leadership, organisational behaviour, business finance and decision-making. Check authorship, date, evidence and applicability before relying on a source.
-
-## Lesson Path
-- **Previous:** BLACK-L1-019
-- **Current:** BLACK-L1-020
-- **Next:** BLACK-L1-021
-
-### BLACK-L1-020-SEO
-## SEO Block
-- **Title:** Persistence vs. Stubbornness: Knowing Which One You're Doing | BLACK Level 1 | Edunancial
-- **Meta description:** Learn to keep the objective while changing methods when evidence demands it using disciplined decision criteria, accountability and financial awareness.
-- **Target keywords:** leadership, management, decision-making, business finance, teams, accountability
-
-### BLACK-L1-020-AI
-## AI Support Block
-The learning coach may simplify concepts, ask guided questions and create additional educational scenarios. It must not replace individual legal, tax, accounting, investment or other regulated professional advice.
-
-### BLACK-L1-020-LOCALIZATION
-## Localisation — United Kingdom
-This lesson is written in British English and uses UK spelling and pounds sterling where monetary examples are needed. Any decision involving employment law, taxation, accounting standards or regulation must be checked against current UK rules and the learner's actual circumstances.
-
-### BLACK-L1-020-REFERENCES
-## References and Verification Block
-Leadership principles are presented for education. Case-study figures are illustrative estimates. Any legal, tax, accounting, statistical or regulatory claim that affects a real decision should be verified against current authoritative UK sources before application.
+- Persistence and stubbornness look similar but differ in whether the method adapts based on feedback.
+- Persistence keeps the goal fixed while adjusting the approach; stubbornness repeats a failed method unchanged.
+- Regularly check: am I adapting based on what I'm learning, or just repeating the same thing out of will alone?
