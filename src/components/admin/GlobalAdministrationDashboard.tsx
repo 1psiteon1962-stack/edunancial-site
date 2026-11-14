@@ -36,6 +36,8 @@ export default function GlobalAdministrationDashboard() {
           <div className="flex flex-wrap gap-3">
             <Link href="/admin/regions" className="rounded-lg bg-blue-600 px-4 py-2 text-sm font-bold">Country Controls</Link>
             <Link href="/admin/site-access" className="rounded-lg bg-red-700 px-4 py-2 text-sm font-bold">Website Access</Link>
+            <Link href="/admin/kpi" className="rounded-lg bg-yellow-500 px-4 py-2 text-sm font-bold text-black">Your Numbers</Link>
+            <Link href="/admin/reports" className="rounded-lg bg-slate-700 px-4 py-2 text-sm font-bold">Weekly Report</Link>
             <Link href="/admin/dashboard" className="rounded-lg border border-white/15 px-4 py-2 text-sm font-bold">Live KPI Command Center</Link>
           </div>
         </div>
