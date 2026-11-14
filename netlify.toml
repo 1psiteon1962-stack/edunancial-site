@@ -25,7 +25,10 @@ publish = ".next"
 #
 # Once the stale site is unlinked the `ignore` guard below is still harmless
 # and can remain as a future safeguard.
-ignore = "[ -n \"${SITE_NAME}\" ] && [ \"${SITE_NAME}\" != \"edunancial\" ]"
+# Also skip deploy previews for Dependabot branches: they still run every
+# GitHub check, but no longer occupy the one-at-a-time Netlify build queue.
+# Production (main) and all other branches always build.
+ignore = "[ -n \"${SITE_NAME}\" ] && [ \"${SITE_NAME}\" != \"edunancial\" ] || case \"${HEAD}\" in dependabot/*) true ;; *) false ;; esac"
 
 [build.environment]
 NODE_VERSION = "22"
