@@ -16,7 +16,7 @@ date: 2026-08-08
 
 ## Objetivos de aprendizagem
 
-No final desta lição, você deverá ser capaz de definir o conceito, explicar seu funcionamento e aplicá-lo a um exemplo simples.
+No final desta lição, o aluno deverá ser capaz de definir o conceito, explicar seu funcionamento e aplicá-lo a um exemplo simples.
 
 ## Conteúdo principal
 
@@ -26,7 +26,7 @@ No final desta lição, você deverá ser capaz de definir o conceito, explicar 
 
 ### Como funciona
 
-O P/L responde aproximadamente quanto os investidores estão pagando hoje por cada unidade monetária do lucro atual da empresa. Um número maior significa preço maior por unidade de lucro atual.
+O P/L responde aproximadamente quanto os investidores estão a pagar hoje por cada unidade monetária do lucro atual da empresa. Um número maior significa preço maior por unidade de lucro atual.
 
 ### Por que isso importa
 

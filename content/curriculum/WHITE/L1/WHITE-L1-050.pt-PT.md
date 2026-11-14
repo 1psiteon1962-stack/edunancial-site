@@ -16,13 +16,13 @@ date: 2026-08-08
 
 ## Objetivos de aprendizagem
 
-No final desta lição, você deverá ser capaz de definir os conceitos centrais, explicar sua importância prática e aplicá-los a um exemplo concreto.
+No final desta lição, o aluno deverá ser capaz de definir os conceitos centrais, explicar sua importância prática e aplicá-los a um exemplo concreto.
 
 ## Conteúdo principal
 
 ### O cenário
 
-James quer começar a investir pela primeira vez. Ele deseja compreender o que está fazendo em cada etapa, em vez de seguir instruções cegamente.
+James quer começar a investir pela primeira vez. Ele deseja compreender o que está a fazer em cada etapa, em vez de seguir instruções cegamente.
 
 ### Passo a passo
 

@@ -5,14 +5,14 @@ officialTrackName: Paper Assets
 level: 1
 lessonNumber: 4
 locale: pt-PT
-title: "O que é um título de dívida, de verdade? (O investidor está emprestando dinheiro, não comprando propriedade)"
+title: "O que é um título de dívida, de verdade? (O investidor está a emprestar dinheiro, não comprando propriedade)"
 summary: "Compreenda o que um título de dívida representa — um empréstimo, não propriedade — e os termos básicos que o definem."
 sourceVersion: "1.0"
 author: Waldemar M. Caban, JD MA
 date: 2026-08-08
 ---
 
-# O que é um título de dívida, de verdade? (O investidor está emprestando dinheiro, não comprando propriedade)
+# O que é um título de dívida, de verdade? (O investidor está a emprestar dinheiro, não comprando propriedade)
 
 ## Objetivos de aprendizagem
 
