@@ -1,5 +1,6 @@
 import { existsSync, readFileSync } from "node:fs";
 import { join } from "node:path";
+import { gunzipSync } from "node:zlib";
 
 import {
   CURRICULUM_LEVELS,
@@ -44,11 +45,17 @@ function shard(track: CurriculumTrack, level: CurriculumLevel, locale: string): 
   const cached = shardCache.get(key);
   if (cached) return cached;
   const path = join(INDEX_ROOT, track, `L${level}`, `${locale}.json`);
-  if (!existsSync(path)) {
+  // Deployed server bundles ship only the gzipped shard (see netlify.toml included_files);
+  // the plain JSON stays committed for repository tooling.
+  const gzipPath = `${path}.gz`;
+  let raw: string;
+  if (existsSync(gzipPath)) raw = gunzipSync(readFileSync(gzipPath)).toString("utf8");
+  else if (existsSync(path)) raw = readFileSync(path, "utf8");
+  else {
     shardCache.set(key, []);
     return [];
   }
-  const rows = JSON.parse(readFileSync(path, "utf8")) as NormalizedLessonRecord[];
+  const rows = JSON.parse(raw) as NormalizedLessonRecord[];
   shardCache.set(key, rows);
   return rows;
 }

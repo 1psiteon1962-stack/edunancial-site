@@ -64,6 +64,8 @@ const nextConfig = {
   outputFileTracingExcludes: {
     "*": [
       "./curriculum/reports/**/*",
+      // Plain index shards are committed for tooling; the server reads the .json.gz copies.
+      "./content/generated/curriculum-index/**/*.json",
       "./node_modules/typescript/**/*",
       "./node_modules/@img/sharp-libvips-linuxmusl-x64/**/*",
       "./node_modules/@img/sharp-linuxmusl-x64/**/*",
