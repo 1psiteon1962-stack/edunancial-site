@@ -38,6 +38,8 @@ jobs:
         run: |
           du -sh .netlify/functions-internal/* .netlify/functions/* 2>/dev/null | sort -h | tail -15 > sizes.txt || true
           du -sh .next/standalone 2>/dev/null | tee -a sizes.txt || true
+          echo "--- APPARENT BYTES handler: $(du -sb .netlify/functions-internal/___netlify-server-handler | cut -f1)" >> sizes.txt
+          for d in content/generated content/curriculum content/courses curriculum node_modules .next; do echo "--- APPARENT $d: $(du -sb .netlify/functions-internal/___netlify-server-handler/$d 2>/dev/null | cut -f1)" >> sizes.txt; done
           h=.netlify/functions-internal/___netlify-server-handler
           if [ -d "$h" ]; then
             echo "--- handler top-level" >> sizes.txt
