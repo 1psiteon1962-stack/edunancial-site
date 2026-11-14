@@ -51,7 +51,7 @@ function normalizedEmail(value: string | null | undefined): string {
 
 /**
  * Permanent full access (all tracks, Levels 1-5, all languages) for the owner's own
- * member accounts: the configured owner and admin emails. Requires an email address the
+ * member accounts: the configured owner and admin emails plus EDUNANCIAL_OWNER_MEMBER_EMAILS. Requires an email address the
  * auth provider has confirmed, so an unverified sign-up using the owner's address gets
  * nothing. Membership cookies stay bounded (24h) and are re-derived from this check.
  */
@@ -61,7 +61,12 @@ export function ownerMemberAccess(
 ): PersistentBetaAccess | null {
   const email = normalizedEmail(user.email);
   if (!email || !user.email_confirmed_at) return null;
-  const ownerEmails = [env.EDUNANCIAL_OWNER_EMAIL, env.EDUNANCIAL_ADMIN_EMAIL].map(normalizedEmail).filter(Boolean);
+  // EDUNANCIAL_OWNER_MEMBER_EMAILS: comma-separated list of the owner's other personal
+  // accounts. Kept in deployment env (this repository is public), never in code.
+  const ownerEmails = [env.EDUNANCIAL_OWNER_EMAIL, env.EDUNANCIAL_ADMIN_EMAIL, env.EDUNANCIAL_OWNER_MEMBER_EMAILS]
+    .flatMap((value) => String(value ?? "").split(","))
+    .map(normalizedEmail)
+    .filter(Boolean);
   if (!ownerEmails.includes(email)) return null;
   return {
     status: "active",
