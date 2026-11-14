@@ -60,7 +60,7 @@ jobs:
         run: npm run curriculum:localization:global
 
       - name: Publish global translation manifest
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v7
         with:
           name: translation-manifest-${{ github.sha }}
           path: content/generated/translation-manifest.json
@@ -74,7 +74,7 @@ jobs:
         run: npm run curriculum:inventory
 
       - name: Publish generated curriculum inventory
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v7
         with:
           name: curriculum-inventory-${{ github.sha }}
           path: curriculum/inventory.json

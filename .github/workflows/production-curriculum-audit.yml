@@ -71,7 +71,7 @@ jobs:
           exit "$failed"
       - name: Upload Neon export evidence (also on failure)
         if: always()
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v7
         with:
           name: neon-only-export-${{ github.run_id }}
           path: backup/
@@ -141,7 +141,7 @@ jobs:
           node scripts/curriculum/production-audit.mjs "${args[@]}"
       - name: Publish report
         if: always()
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v7
         with:
           name: production-curriculum-audit
           path: |

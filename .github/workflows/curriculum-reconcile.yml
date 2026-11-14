@@ -237,7 +237,7 @@ jobs:
 
       - name: Upload action log
         if: always()
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v7
         with:
           name: reconcile-log-${{ github.run_id }}
           path: ${{ runner.temp }}/reconcile-log.json

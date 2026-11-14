@@ -23,7 +23,7 @@ jobs:
         run: npm run curriculum:forensic-inventory -- --json phase1-forensic-inventory.json
       - name: Print forensic summary
         run: node -e "const r=require('./phase1-forensic-inventory.json'); console.log(JSON.stringify(r.summary,null,2)); console.log('Complete cells:',Object.entries(r.highWaterMatrix).filter(([,v])=>v.complete50).map(([k])=>k).join('\\n'));"
-      - uses: actions/upload-artifact@v4
+      - uses: actions/upload-artifact@v7
         with:
           name: phase1-forensic-inventory
           path: phase1-forensic-inventory.json
