@@ -1,5 +1,6 @@
 import { existsSync, readdirSync, readFileSync, statSync } from "node:fs";
 import { join } from "node:path";
+import { gunzipSync } from "node:zlib";
 
 import type { PublishedLessonTranslation } from "@/lib/curriculum/authoritative-published";
 import { getCurriculumLocaleFallbackChain, resolveCurriculumLocale } from "@/lib/curriculum/localization";
@@ -14,11 +15,14 @@ let runtimeContent: readonly RuntimeContentRecord[] | null = null;
 
 function getCurriculumRuntimeContent(): readonly RuntimeContentRecord[] {
   if (runtimeContent) return runtimeContent;
-  const manifestPath = join(REPO_ROOT, "content", "generated", "curriculum-runtime-manifest.json");
+  const gzipPath = join(REPO_ROOT, "content", "generated", "curriculum-runtime-manifest.json.gz");
+  const jsonPath = join(REPO_ROOT, "content", "generated", "curriculum-runtime-manifest.json");
   try {
-    runtimeContent = existsSync(manifestPath)
-      ? (JSON.parse(readFileSync(manifestPath, "utf8")) as RuntimeContentRecord[])
-      : [];
+    runtimeContent = existsSync(gzipPath)
+      ? (JSON.parse(gunzipSync(readFileSync(gzipPath)).toString("utf8")) as RuntimeContentRecord[])
+      : existsSync(jsonPath)
+        ? (JSON.parse(readFileSync(jsonPath, "utf8")) as RuntimeContentRecord[])
+        : [];
   } catch {
     runtimeContent = [];
   }

@@ -1,6 +1,7 @@
 import assert from "node:assert/strict";
 import { existsSync, readFileSync } from "node:fs";
 import { join } from "node:path";
+import { gunzipSync } from "node:zlib";
 import test from "node:test";
 
 import {
@@ -71,10 +72,10 @@ test("committed lookup memo returns the identical result on repeat calls", () =>
 });
 
 test("indexed lookup equals full scan across the real committed manifest when present", (t) => {
-  const manifestPath = join(process.cwd(), "content", "generated", "curriculum-runtime-manifest.json");
+  const manifestPath = join(process.cwd(), "content", "generated", "curriculum-runtime-manifest.json.gz");
   if (!existsSync(manifestPath)) { t.skip("runtime manifest not generated in this environment"); return; }
   resetCommittedTranslationIndexForTests();
-  const records = JSON.parse(readFileSync(manifestPath, "utf8")) as { path: string }[];
+  const records = JSON.parse(gunzipSync(readFileSync(manifestPath)).toString("utf8")) as { path: string }[];
   const ids = [...new Set(records.flatMap((record) => record.path.toUpperCase().replaceAll("_", "-").match(/[A-Z]+-L\d+-\d{3}/gu) ?? []))].sort();
   assert.ok(ids.length > 0);
   let compared = 0;

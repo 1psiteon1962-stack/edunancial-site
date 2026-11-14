@@ -15,7 +15,7 @@ const curriculumRuntimeFiles = [
   "./content/curriculum/**/*",
   "./curriculum/registry.json",
   "./curriculum/seeds/translations/**/*",
-  "./content/generated/curriculum-runtime-manifest.json",
+  "./content/generated/curriculum-runtime-manifest.json.gz",
 ];
 
 // Only routes that actually read curriculum from disk get the curriculum files in

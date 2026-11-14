@@ -1,5 +1,6 @@
-import { existsSync, mkdirSync, readFileSync, readdirSync, writeFileSync } from "node:fs";
+import { existsSync, mkdirSync, readFileSync, readdirSync, rmSync, writeFileSync } from "node:fs";
 import { dirname, join, relative } from "node:path";
+import { gzipSync } from "node:zlib";
 
 const ROOT = process.cwd();
 const COURSE_ROOT = join(ROOT, "content", "courses");
@@ -7,7 +8,10 @@ const CURRICULUM_ROOT = join(ROOT, "content", "curriculum");
 // Written as plain JSON (not a TypeScript module) so the ~13 MB of lesson text is
 // never compiled, type-checked or bundled by Next.js. It is read lazily at runtime
 // by src/lib/curriculum/committed-translation-fallback.ts.
-const OUTPUT = join(ROOT, "content", "generated", "curriculum-runtime-manifest.json");
+// Gzipped: the plain JSON (~47 MB) duplicated every lesson inside the Netlify server
+// handler and pushed it to the AWS Lambda 250 MB unzipped limit (~10 MB gzipped).
+const OUTPUT = join(ROOT, "content", "generated", "curriculum-runtime-manifest.json.gz");
+const LEGACY_OUTPUT = join(ROOT, "content", "generated", "curriculum-runtime-manifest.json");
 
 function normalize(path) {
   return path.replaceAll("\\", "/").toLowerCase();
@@ -81,6 +85,8 @@ const records = [...courseRecords, ...curriculumRecords];
 if (!records.length) throw new Error("No curriculum/runtime assets found for runtime manifest");
 
 mkdirSync(dirname(OUTPUT), { recursive: true });
-writeFileSync(OUTPUT, JSON.stringify(records), "utf8");
+writeFileSync(OUTPUT, gzipSync(Buffer.from(JSON.stringify(records), "utf8"), { level: 9 }));
+// Remove a stale uncompressed manifest so it is never bundled alongside the gzip.
+rmSync(LEGACY_OUTPUT, { force: true });
 
 console.log(`[curriculum-runtime-manifest] bundled ${records.length} committed curriculum/runtime files`);
