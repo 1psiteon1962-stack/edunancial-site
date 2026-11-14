@@ -1,51 +1,48 @@
 ---
 id: GREEN-L1-035
 track: GREEN
-officialTrackName: Impôts
+officialTrackName: "Taxes"
 level: 1
 lessonNumber: 35
 locale: fr-CA
-title: "Traditionnel ou Roth : payer maintenant ou plus tard"
+source_locale: en-US
+title: "Faire Sa Déclaration de Revenus — Le Processus de Base"
 summary: "Explique ce concept fiscal et son application pratique."
-version: 1.0
-author: Waldemar M. Caban, JD MA
-date: 2026-08-09
+version: "1.0"
+author: "Waldemar M. Caban, JD MA"
 ---
 
-# Traditionnel ou Roth : payer maintenant ou plus tard
+# GREEN-L1-035 : Faire Sa Déclaration de Revenus — Le Processus de Base
 
-## Objectifs d’apprentissage
-- Comprendre le concept.
-- L’appliquer avec discernement.
-- Vérifier les règles de la juridiction.
+## Objectifs d'Apprentissage
+1. Expliquer en quoi consiste généralement faire sa déclaration de revenus.
+2. Reconnaître la différence générale entre l'impôt retenu et l'impôt dû.
+3. Comprendre pourquoi quelqu'un pourrait recevoir un remboursement.
 
-## Contenu principal
-Les structures américaines traditionnelle et Roth illustrent différents moments d’imposition. D’autres pays, dont le Canada, utilisent leurs propres mécanismes.
+## Contenu Principal
+*RÈGLE SPÉCIFIQUE À LA RÉGION :* Le processus précis de déclaration de revenus varie considérablement selon le pays ; cette leçon décrit seulement le concept général.
 
-Les taux, seuils, définitions et procédures peuvent changer selon la juridiction et le temps. Une décision importante doit donc reposer sur des renseignements actuels et applicables.
+Faire sa déclaration de revenus consiste généralement à informer le gouvernement du montant d'argent qu'une personne a gagné pendant une période donnée, et à calculer combien d'impôt elle doit payer en fonction de ce revenu. *SUPPOSITION :* Dans bien des cas, les employeurs retiennent automatiquement une partie du salaire d'un employé pendant l'année pour couvrir les impôts estimés — en faisant sa déclaration, la personne compare ce montant retenu à ce qu'elle devait réellement, ce qui résulte généralement en un remboursement (si on a retenu trop) ou en un paiement additionnel (si on n'a pas retenu assez).
 
-## Exemple pratique
-**Question :** Que faut-il vérifier avant d’agir?
-**Étudiant :** Les faits, les règles locales et la documentation.
-**Guide :** Exactement.
+## Exemple Pratique
+*EXEMPLE ILLUSTRATIF :* Quelqu'un dont l'employeur a retenu 5 000 $ en impôt pendant l'année, mais dont l'obligation fiscale réelle s'est avérée être de 4 500 $ après avoir calculé toutes les déductions applicables, recevrait généralement un remboursement de 500 $. Si par contre cette personne devait 5 200 $ mais qu'on ne lui avait retenu que 5 000 $, elle devrait généralement payer les 200 $ restants en faisant sa déclaration.
 
-## Quiz pratique
-1. Les règles sont-elles universelles? A) Oui B) Non
-2. Faut-il vérifier les règles actuelles? A) Oui B) Non
-3. La documentation est-elle utile? A) Oui B) Non
-4. Une situation complexe peut-elle justifier des conseils professionnels? A) Oui B) Non
+## Quiz Pratique
+1. En quoi consiste généralement faire sa déclaration de revenus ?
+2. Que font généralement les employeurs pendant l'année en lien avec les impôts ?
+3. Vrai/Faux : Un remboursement survient généralement quand on a retenu moins que ce qui était réellement dû.
+4. Si on a retenu 3 000 $ à quelqu'un mais que son obligation réelle était de 2 800 $, combien de remboursement recevrait-il ?
 
 ## Corrigé
-1. B, 2. A, 3. A, 4. A
+1. Informer le gouvernement du revenu gagné et calculer l'impôt correspondant   2. Ils retiennent automatiquement une partie du salaire pour couvrir les impôts estimés   3. Faux   4. 200 $
 
-## Réponses et explications
-1. Les juridictions diffèrent.
-2. Les règles évoluent.
-3. Les dossiers appuient les décisions.
-4. Une aide qualifiée peut réduire les risques.
+## Réponses et Explications
+1. Ceci est l'explication générale fondamentale de faire sa déclaration de revenus.
+2. Ceci est la pratique générale couramment citée des employeurs.
+3. Un remboursement survient généralement quand on a retenu plus que ce qui était réellement dû.
+4. 3 000 $ − 2 800 $ = 200 $.
 
-## Points clés
-- Comprenez le mécanisme.
-- Vérifiez la juridiction.
-- Conservez des dossiers.
-- Planifiez avant d’agir.
+## Points Clés à Retenir
+- Faire sa déclaration de revenus consiste à informer du revenu gagné et à calculer l'impôt correspondant.
+- Les employeurs retiennent généralement des impôts estimés pendant l'année.
+- Un remboursement survient quand on a trop retenu ; un paiement additionnel survient quand on n'a pas assez retenu.

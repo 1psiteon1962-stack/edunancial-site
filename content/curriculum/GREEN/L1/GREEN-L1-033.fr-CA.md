@@ -1,51 +1,48 @@
 ---
 id: GREEN-L1-033
 track: GREEN
-officialTrackName: Impôts
+officialTrackName: "Taxes"
 level: 1
 lessonNumber: 33
 locale: fr-CA
-title: "Dividendes et intérêts : revenus de placement"
+source_locale: en-US
+title: "Qu'est-ce Que les Impôts ?"
 summary: "Explique ce concept fiscal et son application pratique."
-version: 1.0
-author: Waldemar M. Caban, JD MA
-date: 2026-08-09
+version: "1.0"
+author: "Waldemar M. Caban, JD MA"
 ---
 
-# Dividendes et intérêts : revenus de placement
+# GREEN-L1-033 : Qu'est-ce Que les Impôts ?
 
-## Objectifs d’apprentissage
-- Comprendre le concept.
-- L’appliquer avec discernement.
-- Vérifier les règles de la juridiction.
+## Objectifs d'Apprentissage
+1. Définir les impôts en termes simples.
+2. Expliquer l'objectif général des impôts.
+3. Reconnaître de grandes catégories courantes d'impôts.
 
-## Contenu principal
-Les dividendes et intérêts sont des formes de revenu de placement distinctes des gains réalisés lors de la vente d’un actif.
+## Contenu Principal
+*FAIT VÉRIFIÉ :* Les impôts sont des paiements obligatoires que les particuliers et les entreprises versent à un gouvernement, généralement utilisés pour financer des services publics comme l'éducation, les infrastructures, et la sécurité.
 
-Les taux, seuils, définitions et procédures peuvent changer selon la juridiction et le temps. Une décision importante doit donc reposer sur des renseignements actuels et applicables.
+*SUPPOSITION :* Les grandes catégories courantes d'impôts incluent l'impôt sur le revenu (basé sur le revenu gagné), les taxes de vente ou de consommation (basées sur les achats effectués), et les impôts fonciers (basés sur la valeur des biens immobiliers possédés) — la combinaison précise d'impôts varie considérablement selon le pays et la région.
 
-## Exemple pratique
-**Question :** Que faut-il vérifier avant d’agir?
-**Étudiant :** Les faits, les règles locales et la documentation.
-**Guide :** Exactement.
+## Exemple Pratique
+*EXEMPLE ILLUSTRATIF :* Quelqu'un qui gagne un salaire paie généralement de l'impôt sur le revenu sur ce revenu. Quand cette même personne achète des biens ou services, elle pourrait aussi payer une taxe de vente incluse dans le prix. Si cette personne possède aussi une maison, elle pourrait payer chaque année un impôt foncier basé sur la valeur estimée de cette demeure. Chacun de ces impôts contribue généralement à financer différents services publics.
 
-## Quiz pratique
-1. Les règles sont-elles universelles? A) Oui B) Non
-2. Faut-il vérifier les règles actuelles? A) Oui B) Non
-3. La documentation est-elle utile? A) Oui B) Non
-4. Une situation complexe peut-elle justifier des conseils professionnels? A) Oui B) Non
+## Quiz Pratique
+1. Qu'est-ce que les impôts ?
+2. Quel est l'objectif général des impôts ?
+3. Vrai/Faux : Tous les pays ont exactement la même combinaison d'impôts.
+4. Nomme une grande catégorie courante d'impôts.
 
 ## Corrigé
-1. B, 2. A, 3. A, 4. A
+1. Des paiements obligatoires que les particuliers et les entreprises versent à un gouvernement   2. Financer des services publics   3. Faux   4. Impôt sur le revenu, taxe de vente, ou impôt foncier (entre autres)
 
-## Réponses et explications
-1. Les juridictions diffèrent.
-2. Les règles évoluent.
-3. Les dossiers appuient les décisions.
-4. Une aide qualifiée peut réduire les risques.
+## Réponses et Explications
+1. Ceci est la définition fondamentale des impôts.
+2. Ceci est l'objectif général couramment cité des impôts.
+3. La combinaison précise d'impôts varie considérablement selon le pays et la région.
+4. Ce sont des catégories courantes couramment citées d'impôts.
 
-## Points clés
-- Comprenez le mécanisme.
-- Vérifiez la juridiction.
-- Conservez des dossiers.
-- Planifiez avant d’agir.
+## Points Clés à Retenir
+- Les impôts sont des paiements obligatoires qui financent généralement des services publics.
+- Les grandes catégories courantes incluent l'impôt sur le revenu, la taxe de vente, et l'impôt foncier.
+- La combinaison précise d'impôts varie considérablement selon le pays.
