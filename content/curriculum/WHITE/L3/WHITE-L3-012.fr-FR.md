@@ -12,6 +12,8 @@ slug: white-l3-012-dollar-cost-averaging
 seo_title: "Pourquoi l'investissement programmé réduit le risque de mauvais timing, et non le risque de l'investissement | Edunancial"
 meta_description: "Découvrez pourquoi investir un montant fixe à intervalles réguliers réduit le risque de mauvais timing, sans réduire le risque propre à l'investissement lui-même."
 author: "Waldemar M. Caban, JD MA"
+lessonNumber: 12
+summary: "Découvrez pourquoi investir un montant fixe à intervalles réguliers réduit le risque de mauvais timing, sans réduire le risque propre à l'investissement lui-même."
 ---
 
 # WHITE-L3-012: Pourquoi l'investissement programmé réduit le risque de mauvais timing, et non le risque de l'investissement

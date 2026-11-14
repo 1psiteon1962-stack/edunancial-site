@@ -12,6 +12,8 @@ slug: white-l3-008-selling-options-risk-profile
 seo_title: "Poukisa vann opsyon ranvèse pwofil risk la nèt | Edunancial"
 meta_description: "Aprann poukisa vann (ekri) yon opsyon mete w sou bò obligasyon kontra a, ak yon pwofil risk ki diferan anpil de lè w achte youn."
 author: "Waldemar M. Caban, JD MA"
+lessonNumber: 8
+summary: "Aprann poukisa vann (ekri) yon opsyon mete w sou bò obligasyon kontra a, ak yon pwofil risk ki diferan anpil de lè w achte youn."
 ---
 
 # WHITE-L3-008: Poukisa vann opsyon ranvèse pwofil risk la nèt

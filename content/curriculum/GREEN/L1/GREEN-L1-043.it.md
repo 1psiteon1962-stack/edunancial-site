@@ -12,6 +12,8 @@ slug: choosing-a-business-structure-a-tax-perspective
 seo_title: "Scegliere la forma d'impresa: una prospettiva fiscale | Edunancial"
 meta_description: "Riunisce i concetti di imposta sulle società, doppia imposizione e trasparenza in un modo di ragionare sulla scelta della forma d'impresa, mantenuto ad alto livello e accompagnato dal consiglio di consultare un professionista."
 author: "Waldemar M. Caban, JD MA"
+lessonNumber: 43
+summary: "Riunisce i concetti di imposta sulle società, doppia imposizione e trasparenza in un modo di ragionare sulla scelta della forma d'impresa, mantenuto ad alto livello e accompagnato dal consiglio di consultare un professionista."
 ---
 
 # GREEN-L1-043: Scegliere la forma d'impresa: una prospettiva fiscale

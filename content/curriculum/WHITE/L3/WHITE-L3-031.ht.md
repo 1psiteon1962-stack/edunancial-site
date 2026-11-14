@@ -12,6 +12,8 @@ slug: white-l3-031-currency-risk
 seo_title: "Poukisa risk lajan etranje afekte envestisman entènasyonal yo | Edunancial"
 meta_description: "Aprann poukisa envesti nan byen ki gen pri yo nan yon lajan etranje ajoute yon kouch risk ki separe de pèfòmans envestisman an li menm."
 author: "Waldemar M. Caban, JD MA"
+lessonNumber: 31
+summary: "Aprann poukisa envesti nan byen ki gen pri yo nan yon lajan etranje ajoute yon kouch risk ki separe de pèfòmans envestisman an li menm."
 ---
 
 # WHITE-L3-031: Poukisa risk lajan etranje afekte envestisman entènasyonal yo

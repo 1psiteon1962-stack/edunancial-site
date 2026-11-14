@@ -12,6 +12,8 @@ slug: filing-deadlines-and-why-they-matter
 seo_title: "Le scadenze della dichiarazione e perché contano | Edunancial"
 meta_description: "Tratta l'importanza pratica delle scadenze per la dichiarazione dei redditi e le conseguenze generali se non si rispettano."
 author: "Waldemar M. Caban, JD MA"
+lessonNumber: 21
+summary: "Tratta l'importanza pratica delle scadenze per la dichiarazione dei redditi e le conseguenze generali se non si rispettano."
 ---
 
 # GREEN-L1-021: Le scadenze della dichiarazione e perché contano

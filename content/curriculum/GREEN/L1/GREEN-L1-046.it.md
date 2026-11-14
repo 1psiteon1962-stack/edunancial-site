@@ -12,6 +12,8 @@ slug: audits-what-they-are-and-why-they-happen
 seo_title: "Verifiche fiscali: che cosa sono e perché avvengono | Edunancial"
 meta_description: "Demistifica il processo di verifica fiscale, presentandolo come una procedura di controllo e non come un'accusa automatica."
 author: "Waldemar M. Caban, JD MA"
+lessonNumber: 46
+summary: "Demistifica il processo di verifica fiscale, presentandolo come una procedura di controllo e non come un'accusa automatica."
 ---
 
 # GREEN-L1-046: Verifiche fiscali: che cosa sono e perché avvengono

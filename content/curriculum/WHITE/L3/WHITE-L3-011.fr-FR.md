@@ -12,6 +12,8 @@ slug: white-l3-011-short-selling-risk
 seo_title: "Pourquoi la vente à découvert comporte un risque théoriquement illimité | Edunancial"
 meta_description: "Découvrez comment fonctionne la vente à découvert, pourquoi elle rapporte quand le prix baisse, et pourquoi sa perte potentielle est structurellement illimitée."
 author: "Waldemar M. Caban, JD MA"
+lessonNumber: 11
+summary: "Découvrez comment fonctionne la vente à découvert, pourquoi elle rapporte quand le prix baisse, et pourquoi sa perte potentielle est structurellement illimitée."
 ---
 
 # WHITE-L3-011: Pourquoi la vente à découvert comporte un risque théoriquement illimité

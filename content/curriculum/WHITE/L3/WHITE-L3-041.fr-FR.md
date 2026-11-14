@@ -12,6 +12,8 @@ slug: white-l3-041-stop-loss-orders
 seo_title: "Pourquoi un ordre stop-loss ne garantit pas votre prix de sortie | Edunancial"
 meta_description: "Découvrez comment fonctionne un ordre stop-loss et pourquoi il déclenche un ordre au marché, sans garantir le prix exact que vous obtiendrez."
 author: "Waldemar M. Caban, JD MA"
+lessonNumber: 41
+summary: "Découvrez comment fonctionne un ordre stop-loss et pourquoi il déclenche un ordre au marché, sans garantir le prix exact que vous obtiendrez."
 ---
 
 # WHITE-L3-041: Pourquoi un ordre stop-loss ne garantit pas votre prix de sortie

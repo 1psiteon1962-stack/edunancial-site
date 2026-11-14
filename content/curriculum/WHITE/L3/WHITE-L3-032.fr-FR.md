@@ -12,6 +12,8 @@ slug: white-l3-032-reits
 seo_title: "Pourquoi les REIT vous permettent d'investir dans l'immobilier sans acheter de bien | Edunancial"
 meta_description: "Découvrez comment fonctionnent les REIT (sociétés d'investissement immobilier cotées), pourquoi elles s'échangent comme des actions et comment elles relient les parcours RED et WHITE de ce programme."
 author: "Waldemar M. Caban, JD MA"
+lessonNumber: 32
+summary: "Découvrez comment fonctionnent les REIT (sociétés d'investissement immobilier cotées), pourquoi elles s'échangent comme des actions et comment elles relient les parcours RED et WHITE de ce programme."
 ---
 
 # WHITE-L3-032: Pourquoi les REIT vous permettent d'investir dans l'immobilier sans acheter de bien

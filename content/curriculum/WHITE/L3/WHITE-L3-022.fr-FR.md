@@ -12,6 +12,8 @@ slug: white-l3-022-expense-ratios-compound
 seo_title: "Pourquoi les ratios de frais se cumulent sur des décennies | Edunancial"
 meta_description: "Découvrez pourquoi des frais annuels de fonds qui paraissent faibles peuvent coûter des dizaines de milliers de dollars sur un long horizon d'investissement, et pourquoi cet effet est facile à sous-estimer."
 author: "Waldemar M. Caban, JD MA"
+lessonNumber: 22
+summary: "Découvrez pourquoi des frais annuels de fonds qui paraissent faibles peuvent coûter des dizaines de milliers de dollars sur un long horizon d'investissement, et pourquoi cet effet est facile à sous-estimer."
 ---
 
 # WHITE-L3-022: Pourquoi les ratios de frais se cumulent sur des décennies

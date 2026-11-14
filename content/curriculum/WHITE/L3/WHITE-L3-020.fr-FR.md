@@ -12,6 +12,8 @@ slug: white-l3-020-credit-risk-vs-interest-rate-risk
 seo_title: "Pourquoi le risque de crédit et le risque de taux d'intérêt sont deux risques obligataires différents | Edunancial"
 meta_description: "Découvrez pourquoi une obligation peut perdre de la valeur pour deux raisons totalement différentes, et pourquoi savoir laquelle est en jeu change la façon dont vous devriez l'envisager."
 author: "Waldemar M. Caban, JD MA"
+lessonNumber: 20
+summary: "Découvrez pourquoi une obligation peut perdre de la valeur pour deux raisons totalement différentes, et pourquoi savoir laquelle est en jeu change la façon dont vous devriez l'envisager."
 ---
 
 # WHITE-L3-020: Pourquoi le risque de crédit et le risque de taux d'intérêt sont deux risques obligataires différents

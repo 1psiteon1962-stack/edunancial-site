@@ -12,6 +12,8 @@ slug: sin-taxes-and-excise-taxes
 seo_title: "Tasse sul peccato e accise | Edunancial"
 meta_description: "Introduce le accise, spesso chiamate \"tasse sul peccato\" quando si applicano a prodotti come alcol o tabacco, come categoria fiscale distinta motivata da politiche pubbliche."
 author: "Waldemar M. Caban, JD MA"
+lessonNumber: 38
+summary: "Introduce le accise, spesso chiamate \"tasse sul peccato\" quando si applicano a prodotti come alcol o tabacco, come categoria fiscale distinta motivata da politiche pubbliche."
 ---
 
 # GREEN-L1-038: Tasse sul peccato e accise

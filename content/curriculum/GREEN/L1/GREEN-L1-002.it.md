@@ -12,6 +12,8 @@ slug: where-your-tax-dollars-go-public-goods-and-services
 seo_title: "Dove vanno i soldi delle tue imposte: beni e servizi pubblici | Edunancial"
 meta_description: "Esplora come vengono di solito usate le entrate fiscali, introducendo il concetto di beni pubblici rispetto ai beni privati."
 author: "Waldemar M. Caban, JD MA"
+lessonNumber: 2
+summary: "Esplora come vengono di solito usate le entrate fiscali, introducendo il concetto di beni pubblici rispetto ai beni privati."
 ---
 
 # GREEN-L1-002: Dove vanno i soldi delle tue imposte: beni e servizi pubblici

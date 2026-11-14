@@ -12,6 +12,8 @@ slug: working-with-a-tax-professional-when-and-why
 seo_title: "Lavorare con un professionista fiscale: quando e perché | Edunancial"
 meta_description: "Trasforma l'analogia del medico in una guida pratica per decidere quando la situazione fiscale di una persona richiede un aiuto professionale."
 author: "Waldemar M. Caban, JD MA"
+lessonNumber: 48
+summary: "Trasforma l'analogia del medico in una guida pratica per decidere quando la situazione fiscale di una persona richiede un aiuto professionale."
 ---
 
 # GREEN-L1-048: Lavorare con un professionista fiscale: quando e perché

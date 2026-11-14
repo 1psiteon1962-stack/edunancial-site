@@ -12,6 +12,8 @@ slug: white-l3-005-options-rights-not-obligations
 seo_title: "Poukisa opsyon ba w dwa, pa obligasyon — e poukisa sa koute yon bagay | Edunancial"
 meta_description: "Aprann estrikti de baz kontra opsyon yo, poukisa achte yon opsyon ba w yon dwa sèlman, ak poukisa dwa sa a pa gratis."
 author: "Waldemar M. Caban, JD MA"
+lessonNumber: 5
+summary: "Aprann estrikti de baz kontra opsyon yo, poukisa achte yon opsyon ba w yon dwa sèlman, ak poukisa dwa sa a pa gratis."
 ---
 
 # WHITE-L3-005: Poukisa opsyon ba w dwa, pa obligasyon — e poukisa sa koute yon bagay

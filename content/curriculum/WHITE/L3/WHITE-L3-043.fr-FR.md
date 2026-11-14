@@ -12,6 +12,8 @@ slug: white-l3-043-market-vs-limit-orders
 seo_title: "Pourquoi les ordres au marché et les ordres à cours limité ont des objectifs différents | Edunancial"
 meta_description: "Découvrez la différence entre un ordre au marché et un ordre à cours limité, et pourquoi le bon choix dépend de ce que vous cherchez réellement à contrôler."
 author: "Waldemar M. Caban, JD MA"
+lessonNumber: 43
+summary: "Découvrez la différence entre un ordre au marché et un ordre à cours limité, et pourquoi le bon choix dépend de ce que vous cherchez réellement à contrôler."
 ---
 
 # WHITE-L3-043: Pourquoi les ordres au marché et les ordres à cours limité ont des objectifs différents

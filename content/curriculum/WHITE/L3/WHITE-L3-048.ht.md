@@ -12,6 +12,8 @@ slug: white-l3-048-position-sizing
 seo_title: "Poukisa gwosè pozisyon ou detèmine konbyen yon sèl move pari ka fè w mal | Edunancial"
 meta_description: "Aprann poukisa konbyen lajan ou envesti nan yon sèl pozisyon enpòtan otan ke si pozisyon sa a se yon bon lide, e poukisa gwosè pozisyon se yon fòm kontwòl risk."
 author: "Waldemar M. Caban, JD MA"
+lessonNumber: 48
+summary: "Aprann poukisa konbyen lajan ou envesti nan yon sèl pozisyon enpòtan otan ke si pozisyon sa a se yon bon lide, e poukisa gwosè pozisyon se yon fòm kontwòl risk."
 ---
 
 # WHITE-L3-048: Poukisa gwosè pozisyon ou detèmine konbyen yon sèl move pari ka fè w mal

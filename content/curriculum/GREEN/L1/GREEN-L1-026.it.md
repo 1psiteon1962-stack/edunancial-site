@@ -12,6 +12,8 @@ slug: home-office-deduction-basics
 seo_title: "Nozioni di base sulla deduzione per l'ufficio in casa | Edunancial"
 meta_description: "Introduce il concetto di dedurre una parte delle spese di casa quando una parte di essa è usata per l'attività, con attenzione alla logica principale dei requisiti."
 author: "Waldemar M. Caban, JD MA"
+lessonNumber: 26
+summary: "Introduce il concetto di dedurre una parte delle spese di casa quando una parte di essa è usata per l'attività, con attenzione alla logica principale dei requisiti."
 ---
 
 # GREEN-L1-026: Nozioni di base sulla deduzione per l'ufficio in casa

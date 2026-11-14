@@ -12,6 +12,8 @@ slug: white-l3-017-dividends-not-free-money
 seo_title: "Poukisa dividann pa \"lajan gratis\" | Edunancial"
 meta_description: "Aprann poukisa yon peman dividann fè pri yon aksyon desann apeprè menm kantite a, ak poukisa dividann se yon redistribisyon valè, pa yon bonis."
 author: "Waldemar M. Caban, JD MA"
+lessonNumber: 17
+summary: "Aprann poukisa yon peman dividann fè pri yon aksyon desann apeprè menm kantite a, ak poukisa dividann se yon redistribisyon valè, pa yon bonis."
 ---
 
 # WHITE-L3-017: Poukisa dividann pa "lajan gratis"

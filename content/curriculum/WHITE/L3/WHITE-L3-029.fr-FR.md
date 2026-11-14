@@ -12,6 +12,8 @@ slug: white-l3-029-inflation-and-safe-portfolios
 seo_title: "Pourquoi l'inflation érode le pouvoir d'achat, même dans un portefeuille « sûr » | Edunancial"
 meta_description: "Découvrez pourquoi détenir uniquement des actifs très stables et peu rémunérateurs peut quand même vous faire perdre du pouvoir d'achat au fil du temps, même sans aucune perte sur les marchés."
 author: "Waldemar M. Caban, JD MA"
+lessonNumber: 29
+summary: "Découvrez pourquoi détenir uniquement des actifs très stables et peu rémunérateurs peut quand même vous faire perdre du pouvoir d'achat au fil du temps, même sans aucune perte sur les marchés."
 ---
 
 # WHITE-L3-029: Pourquoi l'inflation érode le pouvoir d'achat, même dans un portefeuille « sûr »

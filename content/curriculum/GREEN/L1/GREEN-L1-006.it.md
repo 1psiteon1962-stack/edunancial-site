@@ -12,6 +12,8 @@ slug: property-tax-taxing-what-you-own
 seo_title: "Imposta sulla proprietà: tassare ciò che possiedi | Edunancial"
 meta_description: "Un'introduzione all'imposta sulla proprietà, applicata di solito agli immobili, e a come finanzia i servizi locali."
 author: "Waldemar M. Caban, JD MA"
+lessonNumber: 6
+summary: "Un'introduzione all'imposta sulla proprietà, applicata di solito agli immobili, e a come finanzia i servizi locali."
 ---
 
 # GREEN-L1-006: Imposta sulla proprietà: tassare ciò che possiedi

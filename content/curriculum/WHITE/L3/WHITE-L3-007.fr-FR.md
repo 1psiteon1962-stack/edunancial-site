@@ -12,6 +12,8 @@ slug: white-l3-007-time-decay
 seo_title: "Pourquoi l'érosion temporelle joue contre les acheteurs d'options | Edunancial"
 meta_description: "Découvrez pourquoi une option perd de la valeur du simple fait du temps qui passe, même si le prix de l'actif sous-jacent ne change pas."
 author: "Waldemar M. Caban, JD MA"
+lessonNumber: 7
+summary: "Découvrez pourquoi une option perd de la valeur du simple fait du temps qui passe, même si le prix de l'actif sous-jacent ne change pas."
 ---
 
 # WHITE-L3-007: Pourquoi l'érosion temporelle joue contre les acheteurs d'options

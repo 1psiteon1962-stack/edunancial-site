@@ -12,6 +12,8 @@ slug: white-l3-015-sequence-of-returns-risk
 seo_title: "Pourquoi le risque de séquence des rendements compte davantage à la retraite que pendant la phase d'accumulation | Edunancial"
 meta_description: "Découvrez pourquoi l'ordre dans lequel surviennent les rendements des investissements peut compter davantage que le rendement moyen lui-même, surtout une fois que vous commencez à retirer de l'argent."
 author: "Waldemar M. Caban, JD MA"
+lessonNumber: 15
+summary: "Découvrez pourquoi l'ordre dans lequel surviennent les rendements des investissements peut compter davantage que le rendement moyen lui-même, surtout une fois que vous commencez à retirer de l'argent."
 ---
 
 # WHITE-L3-015: Pourquoi le risque de séquence des rendements compte davantage à la retraite que pendant la phase d'accumulation

@@ -12,6 +12,8 @@ slug: record-keeping-basics-receipts-statements-and-documentation
 seo_title: "Nozioni di base sulla tenuta dei documenti: ricevute, estratti conto e documentazione | Edunancial"
 meta_description: "Introduce l'abitudine e la logica di conservare i documenti fiscali come protezione, non solo come burocrazia."
 author: "Waldemar M. Caban, JD MA"
+lessonNumber: 24
+summary: "Introduce l'abitudine e la logica di conservare i documenti fiscali come protezione, non solo come burocrazia."
 ---
 
 # GREEN-L1-024: Nozioni di base sulla tenuta dei documenti: ricevute, estratti conto e documentazione

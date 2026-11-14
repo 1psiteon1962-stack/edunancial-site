@@ -12,6 +12,8 @@ slug: white-l3-023-index-investing
 seo_title: "Poukisa envesti nan endèks parye sou mache a, pa sou yon manadjè | Edunancial"
 meta_description: "Aprann sou kisa envestisman nan endèks vrèman parye, ak poukisa se yon paryaj ki diferan nèt de chwazi aksyon endividyèl oswa manadjè fon aktif."
 author: "Waldemar M. Caban, JD MA"
+lessonNumber: 23
+summary: "Aprann sou kisa envestisman nan endèks vrèman parye, ak poukisa se yon paryaj ki diferan nèt de chwazi aksyon endividyèl oswa manadjè fon aktif."
 ---
 
 # WHITE-L3-023: Poukisa envesti nan endèks parye sou mache a, pa sou yon manadjè

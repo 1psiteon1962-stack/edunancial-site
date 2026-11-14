@@ -12,6 +12,8 @@ slug: white-l3-040-cost-basis
 seo_title: "Poukisa baz pri (cost basis) detèmine vrè benefis taksab ou | Edunancial"
 meta_description: "Aprann kisa baz pri (cost basis) vle di, poukisa li pa toujou senp tankou pri ou te achte a okòmansman, e poukisa li enpòtan pou w swiv li kòrèkteman."
 author: "Waldemar M. Caban, JD MA"
+lessonNumber: 40
+summary: "Aprann kisa baz pri (cost basis) vle di, poukisa li pa toujou senp tankou pri ou te achte a okòmansman, e poukisa li enpòtan pou w swiv li kòrèkteman."
 ---
 
 # WHITE-L3-040: Poukisa baz pri (cost basis) detèmine vrè benefis taksab ou

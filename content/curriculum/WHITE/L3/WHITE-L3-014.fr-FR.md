@@ -12,6 +12,8 @@ slug: white-l3-014-rebalancing
 seo_title: "Pourquoi le rééquilibrage vous force automatiquement à vendre haut et à acheter bas | Edunancial"
 meta_description: "Découvrez comment fonctionne le rééquilibrage d'un portefeuille, et pourquoi il intègre la discipline « acheter bas, vendre haut » dans un processus mécanique au lieu de compter sur la volonté."
 author: "Waldemar M. Caban, JD MA"
+lessonNumber: 14
+summary: "Découvrez comment fonctionne le rééquilibrage d'un portefeuille, et pourquoi il intègre la discipline « acheter bas, vendre haut » dans un processus mécanique au lieu de compter sur la volonté."
 ---
 
 # WHITE-L3-014: Pourquoi le rééquilibrage vous force automatiquement à vendre haut et à acheter bas

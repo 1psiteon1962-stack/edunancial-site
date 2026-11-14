@@ -12,6 +12,8 @@ slug: reading-your-paycheck-stub
 seo_title: "Leggere la tua busta paga | Edunancial"
 meta_description: "Una guida pratica per leggere una tipica busta paga, collegando concetti precedenti (lordo/netto, ritenuta, contributi sui salari) a un documento reale."
 author: "Waldemar M. Caban, JD MA"
+lessonNumber: 12
+summary: "Una guida pratica per leggere una tipica busta paga, collegando concetti precedenti (lordo/netto, ritenuta, contributi sui salari) a un documento reale."
 ---
 
 # GREEN-L1-012: Leggere la tua busta paga

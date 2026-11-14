@@ -12,6 +12,8 @@ slug: tax-planning-thinking-ahead-instead-of-reacting
 seo_title: "Pianificazione fiscale: pensare in anticipo invece di reagire | Edunancial"
 meta_description: "Introduce la pianificazione fiscale come mentalità rivolta al futuro — prendere decisioni tenendo conto delle conseguenze fiscali prima che accadano, invece di reagire dopo."
 author: "Waldemar M. Caban, JD MA"
+lessonNumber: 49
+summary: "Introduce la pianificazione fiscale come mentalità rivolta al futuro — prendere decisioni tenendo conto delle conseguenze fiscali prima che accadano, invece di reagire dopo."
 ---
 
 # GREEN-L1-049: Pianificazione fiscale: pensare in anticipo invece di reagire

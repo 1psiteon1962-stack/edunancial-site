@@ -12,6 +12,8 @@ slug: white-l3-024-active-management-vs-fees
 seo_title: "Pourquoi la gestion active doit surmonter ses propres frais pour créer de la valeur | Edunancial"
 meta_description: "Découvrez pourquoi un fonds à gestion active doit battre le marché de bien plus qu'un petit écart pour réellement obtenir un meilleur résultat qu'un fonds indiciel à faible coût."
 author: "Waldemar M. Caban, JD MA"
+lessonNumber: 24
+summary: "Découvrez pourquoi un fonds à gestion active doit battre le marché de bien plus qu'un petit écart pour réellement obtenir un meilleur résultat qu'un fonds indiciel à faible coût."
 ---
 
 # WHITE-L3-024: Pourquoi la gestion active doit surmonter ses propres frais pour créer de la valeur

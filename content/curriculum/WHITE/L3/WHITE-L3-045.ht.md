@@ -12,6 +12,8 @@ slug: white-l3-045-stock-buybacks
 seo_title: "Poukisa rachte aksyon (buyback) afekte aksyonè yo diferan de dividann | Edunancial"
 meta_description: "Aprann kijan yon konpayi ki rachte pwòp aksyon li remèt valè bay aksyonè yo diferan de yon dividann, e poukisa efè sou taks ak sou kantite aksyon yo diferan."
 author: "Waldemar M. Caban, JD MA"
+lessonNumber: 45
+summary: "Aprann kijan yon konpayi ki rachte pwòp aksyon li remèt valè bay aksyonè yo diferan de yon dividann, e poukisa efè sou taks ak sou kantite aksyon yo diferan."
 ---
 
 # WHITE-L3-045: Poukisa rachte aksyon (buyback) afekte aksyonè yo diferan de dividann

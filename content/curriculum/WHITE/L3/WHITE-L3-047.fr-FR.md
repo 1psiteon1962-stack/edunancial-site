@@ -12,6 +12,8 @@ slug: white-l3-047-asset-class-diversification
 seo_title: "Pourquoi diversifier entre classes d'actifs, et pas seulement entre actions, réduit le risque d'un portefeuille | Edunancial"
 meta_description: "Découvrez pourquoi associer des actions à d'autres classes d'actifs, comme les obligations ou l'immobilier, peut réduire le risque global d'un portefeuille d'une manière que la diversification entre actions seules ne permet pas."
 author: "Waldemar M. Caban, JD MA"
+lessonNumber: 47
+summary: "Découvrez pourquoi associer des actions à d'autres classes d'actifs, comme les obligations ou l'immobilier, peut réduire le risque global d'un portefeuille d'une manière que la diversification entre actions seules ne permet pas."
 ---
 
 # WHITE-L3-047: Pourquoi diversifier entre classes d'actifs, et pas seulement entre actions, réduit le risque d'un portefeuille

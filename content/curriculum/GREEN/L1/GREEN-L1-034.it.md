@@ -12,6 +12,8 @@ slug: tax-advantaged-retirement-accounts-the-basic-idea
 seo_title: "Conti pensionistici con vantaggi fiscali: l'idea di base | Edunancial"
 meta_description: "Introduce il concetto generale di conti pensionistici con vantaggi fiscali, senza legarlo ai nomi dei conti di un Paese specifico."
 author: "Waldemar M. Caban, JD MA"
+lessonNumber: 34
+summary: "Introduce il concetto generale di conti pensionistici con vantaggi fiscali, senza legarlo ai nomi dei conti di un Paese specifico."
 ---
 
 # GREEN-L1-034: Conti pensionistici con vantaggi fiscali: l'idea di base

@@ -12,6 +12,8 @@ slug: white-l3-001-buy-low-sell-high
 seo_title: "Poukisa \"Achte ba, vann wo\" pi difisil pou fè pase pou di | Edunancial"
 meta_description: "Aprann poukisa konsèy envestisman ki pi senp la se youn nan konsèy ki pi difisil pou swiv an reyalite, ak sa ki vrèman bloke w."
 author: "Waldemar M. Caban, JD MA"
+lessonNumber: 1
+summary: "Aprann poukisa konsèy envestisman ki pi senp la se youn nan konsèy ki pi difisil pou swiv an reyalite, ak sa ki vrèman bloke w."
 ---
 
 # WHITE-L3-001: Poukisa "Achte ba, vann wo" pi difisil pou fè pase pou di

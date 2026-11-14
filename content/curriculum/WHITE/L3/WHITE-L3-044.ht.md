@@ -12,6 +12,8 @@ slug: white-l3-044-ipo-risk
 seo_title: "Poukisa IPO yo gen yon risk espesyal konpare ak konpayi piblik ki deja etabli | Edunancial"
 meta_description: "Aprann poukisa achte aksyon nan yon konpayi ki fèk vin piblik diferan de envesti nan youn ki deja etabli, e poukisa yon istwa ki kout ajoute yon enserten espesifik."
 author: "Waldemar M. Caban, JD MA"
+lessonNumber: 44
+summary: "Aprann poukisa achte aksyon nan yon konpayi ki fèk vin piblik diferan de envesti nan youn ki deja etabli, e poukisa yon istwa ki kout ajoute yon enserten espesifik."
 ---
 
 # WHITE-L3-044: Poukisa IPO yo gen yon risk espesyal konpare ak konpayi piblik ki deja etabli

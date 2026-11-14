@@ -12,6 +12,8 @@ slug: progressive-vs-regressive-taxes
 seo_title: "Imposte progressive vs. regressive | Edunancial"
 meta_description: "Spiega la differenza tra strutture fiscali progressive e regressive con confronti semplici e facili da capire."
 author: "Waldemar M. Caban, JD MA"
+lessonNumber: 8
+summary: "Spiega la differenza tra strutture fiscali progressive e regressive con confronti semplici e facili da capire."
 ---
 
 # GREEN-L1-008: Imposte progressive vs. regressive

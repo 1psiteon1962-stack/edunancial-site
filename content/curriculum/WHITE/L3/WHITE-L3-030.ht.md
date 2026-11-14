@@ -12,6 +12,8 @@ slug: white-l3-030-assets-and-inflation
 seo_title: "Poukisa diferan byen reyaji diferan fason a enflasyon | Edunancial"
 meta_description: "Aprann poukisa kèk envestisman gen tandans kenbe pi byen pase lòt pandan peryòd enflasyon, e poukisa pa gen yon sèl pwoteksyon pafè kont enflasyon."
 author: "Waldemar M. Caban, JD MA"
+lessonNumber: 30
+summary: "Aprann poukisa kèk envestisman gen tandans kenbe pi byen pase lòt pandan peryòd enflasyon, e poukisa pa gen yon sèl pwoteksyon pafè kont enflasyon."
 ---
 
 # WHITE-L3-030: Poukisa diferan byen reyaji diferan fason a enflasyon

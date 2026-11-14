@@ -12,6 +12,8 @@ slug: tax-evasion-vs-tax-avoidance-a-critical-distinction
 seo_title: "Evasione fiscale vs. risparmio fiscale lecito: una distinzione fondamentale | Edunancial"
 meta_description: "Traccia una linea netta e fondamentale tra il risparmio fiscale lecito (usare le regole come sono scritte per pagare meno imposte) e l'evasione fiscale illegale (falsare i fatti per non pagare l'imposta dovuta)."
 author: "Waldemar M. Caban, JD MA"
+lessonNumber: 45
+summary: "Traccia una linea netta e fondamentale tra il risparmio fiscale lecito (usare le regole come sono scritte per pagare meno imposte) e l'evasione fiscale illegale (falsare i fatti per non pagare l'imposta dovuta)."
 ---
 
 # GREEN-L1-045: Evasione fiscale vs. risparmio fiscale lecito: una distinzione fondamentale

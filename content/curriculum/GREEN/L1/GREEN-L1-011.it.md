@@ -12,6 +12,8 @@ slug: gross-income-vs-net-income
 seo_title: "Reddito lordo vs. reddito netto | Edunancial"
 meta_description: "Chiarisce la differenza tra reddito lordo e netto, una distinzione di base per leggere la busta paga, fare un budget e capire le finanze di un'attività."
 author: "Waldemar M. Caban, JD MA"
+lessonNumber: 11
+summary: "Chiarisce la differenza tra reddito lordo e netto, una distinzione di base per leggere la busta paga, fare un budget e capire le finanze di un'attività."
 ---
 
 # GREEN-L1-011: Reddito lordo vs. reddito netto

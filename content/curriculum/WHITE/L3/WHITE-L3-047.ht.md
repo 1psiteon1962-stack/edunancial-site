@@ -12,6 +12,8 @@ slug: white-l3-047-asset-class-diversification
 seo_title: "Poukisa divèsifye atravè kategori byen, pa sèlman aksyon, diminye risk yon pòtfolyo | Edunancial"
 meta_description: "Aprann poukisa konbine aksyon ak lòt kategori byen tankou obligasyon oswa imobilye ka diminye risk total yon pòtfolyo yon fason divèsifye sèlman pami aksyon pa kapab."
 author: "Waldemar M. Caban, JD MA"
+lessonNumber: 47
+summary: "Aprann poukisa konbine aksyon ak lòt kategori byen tankou obligasyon oswa imobilye ka diminye risk total yon pòtfolyo yon fason divèsifye sèlman pami aksyon pa kapab."
 ---
 
 # WHITE-L3-047: Poukisa divèsifye atravè kategori byen, pa sèlman aksyon, diminye risk yon pòtfolyo

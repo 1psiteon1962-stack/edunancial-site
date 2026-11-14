@@ -12,6 +12,8 @@ slug: white-l3-010-margin-calls
 seo_title: "Poukisa yon margin call ka fòse w vann nan pi move moman posib | Edunancial"
 meta_description: "Aprann kisa yon margin call (apèl maj) ye, poukisa li rive otomatikman, ak poukisa li ka fòse w vann egzakteman lè pri yo deja ba."
 author: "Waldemar M. Caban, JD MA"
+lessonNumber: 10
+summary: "Aprann kisa yon margin call (apèl maj) ye, poukisa li rive otomatikman, ak poukisa li ka fòse w vann egzakteman lè pri yo deja ba."
 ---
 
 # WHITE-L3-010: Poukisa yon margin call ka fòse w vann nan pi move moman posib

@@ -12,6 +12,8 @@ slug: white-l3-019-bond-prices-and-rates
 seo_title: "Poukisa pri obligasyon ak to enterè bouje nan direksyon opoze | Edunancial"
 meta_description: "Aprann rezon mekanik ki fè to enterè k ap monte lakòz pri obligasyon ki deja egziste desann, ak poukisa relasyon sa a previzib, li pa o aza."
 author: "Waldemar M. Caban, JD MA"
+lessonNumber: 19
+summary: "Aprann rezon mekanik ki fè to enterè k ap monte lakòz pri obligasyon ki deja egziste desann, ak poukisa relasyon sa a previzib, li pa o aza."
 ---
 
 # WHITE-L3-019: Poukisa pri obligasyon ak to enterè bouje nan direksyon opoze

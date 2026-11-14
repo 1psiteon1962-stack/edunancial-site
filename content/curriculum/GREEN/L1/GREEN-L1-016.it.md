@@ -12,6 +12,8 @@ slug: standard-deduction-vs-itemized-deduction
 seo_title: "Deduzione standard vs. deduzione analitica | Edunancial"
 meta_description: "Spiega i due modi comuni di usare le deduzioni: un importo standard fisso oppure l'elenco dettagliato delle spese reali ammesse."
 author: "Waldemar M. Caban, JD MA"
+lessonNumber: 16
+summary: "Spiega i due modi comuni di usare le deduzioni: un importo standard fisso oppure l'elenco dettagliato delle spese reali ammesse."
 ---
 
 # GREEN-L1-016: Deduzione standard vs. deduzione analitica

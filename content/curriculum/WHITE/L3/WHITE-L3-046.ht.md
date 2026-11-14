@@ -12,6 +12,8 @@ slug: white-l3-046-beta-and-relative-volatility
 seo_title: "Poukisa beta mezire volatilite yon aksyon konpare ak mache a | Edunancial"
 meta_description: "Aprann kisa beta mezire, poukisa yon beta ki pi wo oswa pi ba pase 1.0 di w yon bagay espesifik sou jan yo atann yon aksyon konpòte l, e kisa beta pa kapte."
 author: "Waldemar M. Caban, JD MA"
+lessonNumber: 46
+summary: "Aprann kisa beta mezire, poukisa yon beta ki pi wo oswa pi ba pase 1.0 di w yon bagay espesifik sou jan yo atann yon aksyon konpòte l, e kisa beta pa kapte."
 ---
 
 # WHITE-L3-046: Poukisa beta mezire volatilite yon aksyon konpare ak mache a

@@ -12,6 +12,8 @@ slug: white-l3-018-bond-duration
 seo_title: "Poukisa dirasyon yon obligasyon mezire sansiblite l a to enterè | Edunancial"
 meta_description: "Aprann kisa dirasyon yon obligasyon mezire, poukisa obligasyon ki gen yon dirasyon pi long pi sansib a chanjman nan to enterè, ak poukisa sa enpòtan pou envestisè nan obligasyon."
 author: "Waldemar M. Caban, JD MA"
+lessonNumber: 18
+summary: "Aprann kisa dirasyon yon obligasyon mezire, poukisa obligasyon ki gen yon dirasyon pi long pi sansib a chanjman nan to enterè, ak poukisa sa enpòtan pou envestisè nan obligasyon."
 ---
 
 # WHITE-L3-018: Poukisa dirasyon yon obligasyon mezire sansiblite l a to enterè

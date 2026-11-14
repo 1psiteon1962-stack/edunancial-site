@@ -12,6 +12,8 @@ slug: white-l3-031-currency-risk
 seo_title: "Pourquoi le risque de change touche les investissements internationaux | Edunancial"
 meta_description: "Découvrez pourquoi investir dans des actifs libellés en devise étrangère ajoute un niveau de risque distinct de la performance propre de l'investissement."
 author: "Waldemar M. Caban, JD MA"
+lessonNumber: 31
+summary: "Découvrez pourquoi investir dans des actifs libellés en devise étrangère ajoute un niveau de risque distinct de la performance propre de l'investissement."
 ---
 
 # WHITE-L3-031: Pourquoi le risque de change touche les investissements internationaux

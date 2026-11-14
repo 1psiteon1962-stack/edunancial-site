@@ -12,6 +12,8 @@ slug: tariffs-taxes-on-imported-goods
 seo_title: "Dazi: imposte sui beni importati | Edunancial"
 meta_description: "Introduce i dazi come imposta sui beni che attraversano un confine, collegandoli alla politica commerciale a un livello concettuale di base."
 author: "Waldemar M. Caban, JD MA"
+lessonNumber: 39
+summary: "Introduce i dazi come imposta sui beni che attraversano un confine, collegandoli alla politica commerciale a un livello concettuale di base."
 ---
 
 # GREEN-L1-039: Dazi: imposte sui beni importati

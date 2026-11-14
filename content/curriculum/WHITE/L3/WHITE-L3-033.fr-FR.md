@@ -12,6 +12,8 @@ slug: white-l3-033-sector-concentration
 seo_title: "Pourquoi la concentration sectorielle augmente le risque, même dans un portefeuille qui semble diversifié | Edunancial"
 meta_description: "Découvrez pourquoi posséder de nombreuses actions concentrées dans le même secteur peut exposer un portefeuille à plus de risque qu'il n'y paraît au premier abord."
 author: "Waldemar M. Caban, JD MA"
+lessonNumber: 33
+summary: "Découvrez pourquoi posséder de nombreuses actions concentrées dans le même secteur peut exposer un portefeuille à plus de risque qu'il n'y paraît au premier abord."
 ---
 
 # WHITE-L3-033: Pourquoi la concentration sectorielle augmente le risque, même dans un portefeuille qui semble diversifié

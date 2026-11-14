@@ -12,6 +12,8 @@ slug: what-is-a-tax-return-and-why-do-you-file-one
 seo_title: "Che cos'è la dichiarazione dei redditi e perché la presenti? | Edunancial"
 meta_description: "Spiega lo scopo della dichiarazione dei redditi: confrontare i pagamenti stimati con l'imposta effettivamente dovuta per l'anno."
 author: "Waldemar M. Caban, JD MA"
+lessonNumber: 19
+summary: "Spiega lo scopo della dichiarazione dei redditi: confrontare i pagamenti stimati con l'imposta effettivamente dovuta per l'anno."
 ---
 
 # GREEN-L1-019: Che cos'è la dichiarazione dei redditi e perché la presenti?

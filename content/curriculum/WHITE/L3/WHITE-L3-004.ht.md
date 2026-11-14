@@ -12,6 +12,8 @@ slug: white-l3-004-volatility-vs-risk
 seo_title: "Poukisa volatilite ak risk pa egzakteman menm bagay | Edunancial"
 meta_description: "Aprann poukisa yon grafik pri ki monte desann pa otomatikman menm bagay ak vrè risk finansye, ak poukisa diferans lan enpòtan pou jan ou evalye yon envestisman."
 author: "Waldemar M. Caban, JD MA"
+lessonNumber: 4
+summary: "Aprann poukisa yon grafik pri ki monte desann pa otomatikman menm bagay ak vrè risk finansye, ak poukisa diferans lan enpòtan pou jan ou evalye yon envestisman."
 ---
 
 # WHITE-L3-004: Poukisa volatilite ak risk pa egzakteman menm bagay

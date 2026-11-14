@@ -12,6 +12,8 @@ slug: payroll-taxes-for-employers
 seo_title: "Contributi sui salari per i datori di lavoro | Edunancial"
 meta_description: "Estende la lezione precedente sui contributi sui salari alle responsabilità del datore di lavoro: trattenere, contribuire con la propria quota e versare."
 author: "Waldemar M. Caban, JD MA"
+lessonNumber: 29
+summary: "Estende la lezione precedente sui contributi sui salari alle responsabilità del datore di lavoro: trattenere, contribuire con la propria quota e versare."
 ---
 
 # GREEN-L1-029: Contributi sui salari per i datori di lavoro

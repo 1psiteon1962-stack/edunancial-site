@@ -12,6 +12,8 @@ slug: capital-gains-taxes-on-investment-profit
 seo_title: "Plusvalenze: imposte sui guadagni da investimento | Edunancial"
 meta_description: "Introduce il concetto di plusvalenza — il guadagno dalla vendita di un bene a un prezzo superiore a quello d'acquisto — e come si differenzia dal reddito ordinario."
 author: "Waldemar M. Caban, JD MA"
+lessonNumber: 31
+summary: "Introduce il concetto di plusvalenza — il guadagno dalla vendita di un bene a un prezzo superiore a quello d'acquisto — e come si differenzia dal reddito ordinario."
 ---
 
 # GREEN-L1-031: Plusvalenze: imposte sui guadagni da investimento

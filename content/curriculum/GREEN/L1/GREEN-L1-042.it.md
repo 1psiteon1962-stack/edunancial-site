@@ -12,6 +12,8 @@ slug: pass-through-entities-llcs-s-corps-and-sole-proprietorships
 seo_title: "Soggetti trasparenti: LLC, S-Corp e ditte individuali | Edunancial"
 meta_description: "Introduce il concetto generale di tassazione per trasparenza come alternativa allo schema di doppia imposizione delle società di capitali tradizionali."
 author: "Waldemar M. Caban, JD MA"
+lessonNumber: 42
+summary: "Introduce il concetto generale di tassazione per trasparenza come alternativa allo schema di doppia imposizione delle società di capitali tradizionali."
 ---
 
 # GREEN-L1-042: Soggetti trasparenti: LLC, S-Corp e ditte individuali

@@ -12,6 +12,8 @@ slug: white-l3-042-liquidity-differences
 seo_title: "Pourquoi la liquidité diffère entre une grande valeur de premier ordre et une action peu échangée | Edunancial"
 meta_description: "Découvrez ce que signifie la liquidité pour un titre, et pourquoi une action peu échangée peut être plus difficile et plus coûteuse à acheter ou à vendre que son seul cours ne le laisse penser."
 author: "Waldemar M. Caban, JD MA"
+lessonNumber: 42
+summary: "Découvrez ce que signifie la liquidité pour un titre, et pourquoi une action peu échangée peut être plus difficile et plus coûteuse à acheter ou à vendre que son seul cours ne le laisse penser."
 ---
 
 # WHITE-L3-042: Pourquoi la liquidité diffère entre une grande valeur de premier ordre et une action peu échangée

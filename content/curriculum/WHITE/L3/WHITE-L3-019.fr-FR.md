@@ -12,6 +12,8 @@ slug: white-l3-019-bond-prices-and-rates
 seo_title: "Pourquoi les prix des obligations et les taux d'intérêt évoluent en sens inverse | Edunancial"
 meta_description: "Découvrez la raison mécanique pour laquelle la hausse des taux d'intérêt fait baisser le prix des obligations existantes, et pourquoi cette relation est prévisible, et non aléatoire."
 author: "Waldemar M. Caban, JD MA"
+lessonNumber: 19
+summary: "Découvrez la raison mécanique pour laquelle la hausse des taux d'intérêt fait baisser le prix des obligations existantes, et pourquoi cette relation est prévisible, et non aléatoire."
 ---
 
 # WHITE-L3-019: Pourquoi les prix des obligations et les taux d'intérêt évoluent en sens inverse

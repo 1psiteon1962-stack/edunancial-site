@@ -12,6 +12,8 @@ slug: white-l3-016-safe-withdrawal-rate
 seo_title: "Pourquoi un taux de retrait « sûr » n'est pas une garantie | Edunancial"
 meta_description: "Découvrez ce qu'un taux de retrait sûr est censé représenter, et pourquoi c'est un repère historique, et non une promesse sur votre avenir personnel."
 author: "Waldemar M. Caban, JD MA"
+lessonNumber: 16
+summary: "Découvrez ce qu'un taux de retrait sûr est censé représenter, et pourquoi c'est un repère historique, et non une promesse sur votre avenir personnel."
 ---
 
 # WHITE-L3-016: Pourquoi un taux de retrait « sûr » n'est pas une garantie

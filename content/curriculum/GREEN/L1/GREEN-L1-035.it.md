@@ -12,6 +12,8 @@ slug: traditional-vs-roth-pay-taxes-now-or-later
 seo_title: "Traditional vs. Roth: pagare le imposte ora o dopo | Edunancial"
 meta_description: "Spiega il concetto generale dietro due strutture comuni di conti pensionistici — una tassata in uscita e una tassata in entrata — usando etichette generiche."
 author: "Waldemar M. Caban, JD MA"
+lessonNumber: 35
+summary: "Spiega il concetto generale dietro due strutture comuni di conti pensionistici — una tassata in uscita e una tassata in entrata — usando etichette generiche."
 ---
 
 # GREEN-L1-035: Traditional vs. Roth: pagare le imposte ora o dopo

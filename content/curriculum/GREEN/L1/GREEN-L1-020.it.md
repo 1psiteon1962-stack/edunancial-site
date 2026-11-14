@@ -12,6 +12,8 @@ slug: tax-refunds-why-getting-one-isn-t-always-a-win
 seo_title: "Rimborsi fiscali: perché riceverne uno non è sempre una vittoria | Edunancial"
 meta_description: "Ridimensiona l'entusiasmo comune per i rimborsi fiscali spiegando che cosa rappresenta davvero un rimborso dal punto di vista finanziario."
 author: "Waldemar M. Caban, JD MA"
+lessonNumber: 20
+summary: "Ridimensiona l'entusiasmo comune per i rimborsi fiscali spiegando che cosa rappresenta davvero un rimborso dal punto di vista finanziario."
 ---
 
 # GREEN-L1-020: Rimborsi fiscali: perché riceverne uno non è sempre una vittoria

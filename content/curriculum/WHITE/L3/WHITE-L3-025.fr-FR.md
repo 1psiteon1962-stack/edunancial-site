@@ -12,6 +12,8 @@ slug: white-l3-025-past-performance-not-predictive
 seo_title: "Pourquoi les performances passées d'un fonds ne prédisent pas ses performances futures | Edunancial"
 meta_description: "Découvrez pourquoi de bons résultats récents d'un fonds ne sont pas un signal fiable de la façon dont il se comportera à l'avenir."
 author: "Waldemar M. Caban, JD MA"
+lessonNumber: 25
+summary: "Découvrez pourquoi de bons résultats récents d'un fonds ne sont pas un signal fiable de la façon dont il se comportera à l'avenir."
 ---
 
 # WHITE-L3-025: Pourquoi les performances passées d'un fonds ne prédisent pas ses performances futures

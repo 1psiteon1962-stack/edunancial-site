@@ -12,6 +12,8 @@ slug: dividends-and-interest-how-investment-income-is-taxed
 seo_title: "Dividendi e interessi: come si tassano i redditi da investimento | Edunancial"
 meta_description: "Presenta dividendi e interessi come due forme comuni di reddito da investimento, diverse dalle plusvalenze perché nascono dal possesso di un bene, non dalla sua vendita."
 author: "Waldemar M. Caban, JD MA"
+lessonNumber: 33
+summary: "Presenta dividendi e interessi come due forme comuni di reddito da investimento, diverse dalle plusvalenze perché nascono dal possesso di un bene, non dalla sua vendita."
 ---
 
 # GREEN-L1-033: Dividendi e interessi: come si tassano i redditi da investimento

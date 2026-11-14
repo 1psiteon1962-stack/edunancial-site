@@ -12,6 +12,8 @@ slug: white-l3-038-wash-sale-rule
 seo_title: "Poukisa règ wash-sale la limite rekòlt pèt pou taks | Edunancial"
 meta_description: "Aprann kisa yon wash sale ye, poukisa règ sa a egziste, e poukisa li limite dirèkteman fason ou ka fè rekòlt pèt pou taks."
 author: "Waldemar M. Caban, JD MA"
+lessonNumber: 38
+summary: "Aprann kisa yon wash sale ye, poukisa règ sa a egziste, e poukisa li limite dirèkteman fason ou ka fè rekòlt pèt pou taks."
 ---
 
 # WHITE-L3-038: Poukisa règ wash-sale la limite rekòlt pèt pou taks

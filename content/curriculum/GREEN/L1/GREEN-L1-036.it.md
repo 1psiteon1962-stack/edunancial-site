@@ -12,6 +12,8 @@ slug: tax-implications-of-selling-a-home
 seo_title: "Implicazioni fiscali della vendita di una casa | Edunancial"
 meta_description: "Introduce le considerazioni fiscali generali che sorgono quando si vende l'abitazione principale, collegandole alle lezioni sulle plusvalenze."
 author: "Waldemar M. Caban, JD MA"
+lessonNumber: 36
+summary: "Introduce le considerazioni fiscali generali che sorgono quando si vende l'abitazione principale, collegandole alle lezioni sulle plusvalenze."
 ---
 
 # GREEN-L1-036: Implicazioni fiscali della vendita di una casa

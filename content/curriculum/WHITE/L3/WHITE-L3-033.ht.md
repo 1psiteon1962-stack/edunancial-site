@@ -12,6 +12,8 @@ slug: white-l3-033-sector-concentration
 seo_title: "Poukisa konsantrasyon nan yon sèl sektè ogmante risk menm nan yon pòtfolyo ki sanble divèsifye | Edunancial"
 meta_description: "Aprann poukisa posede anpil aksyon ki konsantre nan menm sektè a ka kite yon pòtfolyo pi ekspoze a risk pase sa li sanble premye fwa ou gade l."
 author: "Waldemar M. Caban, JD MA"
+lessonNumber: 33
+summary: "Aprann poukisa posede anpil aksyon ki konsantre nan menm sektè a ka kite yon pòtfolyo pi ekspoze a risk pase sa li sanble premye fwa ou gade l."
 ---
 
 # WHITE-L3-033: Poukisa konsantrasyon nan yon sèl sektè ogmante risk menm nan yon pòtfolyo ki sanble divèsifye

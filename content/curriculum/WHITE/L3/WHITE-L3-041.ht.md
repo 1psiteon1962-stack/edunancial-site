@@ -12,6 +12,8 @@ slug: white-l3-041-stop-loss-orders
 seo_title: "Poukisa yon lòd stop-loss pa garanti pri ou pral soti a | Edunancial"
 meta_description: "Aprann kijan yon lòd stop-loss mache, e poukisa se yon deklanchè pou yon lòd mache (market order), pa yon garanti pou pri egzak ou pral resevwa a."
 author: "Waldemar M. Caban, JD MA"
+lessonNumber: 41
+summary: "Aprann kijan yon lòd stop-loss mache, e poukisa se yon deklanchè pou yon lòd mache (market order), pa yon garanti pou pri egzak ou pral resevwa a."
 ---
 
 # WHITE-L3-041: Poukisa yon lòd stop-loss pa garanti pri ou pral soti a

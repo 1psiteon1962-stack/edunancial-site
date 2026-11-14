@@ -12,6 +12,8 @@ slug: white-l3-027-loss-aversion
 seo_title: "Pourquoi l'aversion aux pertes pousse les investisseurs à vendre trop tôt leurs gagnants et à garder trop longtemps leurs perdants | Edunancial"
 meta_description: "Découvrez pourquoi la douleur d'une perte a tendance à peser plus lourd que le plaisir d'un gain équivalent, et comment ce déséquilibre fausse les décisions d'investissement."
 author: "Waldemar M. Caban, JD MA"
+lessonNumber: 27
+summary: "Découvrez pourquoi la douleur d'une perte a tendance à peser plus lourd que le plaisir d'un gain équivalent, et comment ce déséquilibre fausse les décisions d'investissement."
 ---
 
 # WHITE-L3-027: Pourquoi l'aversion aux pertes pousse les investisseurs à vendre trop tôt leurs gagnants et à garder trop longtemps leurs perdants

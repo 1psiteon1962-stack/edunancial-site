@@ -12,6 +12,8 @@ slug: white-l3-021-etf-vs-mutual-fund
 seo_title: "Poukisa ETF ak fon mityèl diferan nan komès, taks, ak frè | Edunancial"
 meta_description: "Aprann diferans pratik ant ETF ak fon mityèl, ak poukisa diferans sa yo ka pi enpòtan pase sa yo genyen an komen an jeneral."
 author: "Waldemar M. Caban, JD MA"
+lessonNumber: 21
+summary: "Aprann diferans pratik ant ETF ak fon mityèl, ak poukisa diferans sa yo ka pi enpòtan pase sa yo genyen an komen an jeneral."
 ---
 
 # WHITE-L3-021: Poukisa ETF ak fon mityèl diferan nan komès, taks, ak frè

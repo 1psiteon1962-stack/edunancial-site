@@ -12,6 +12,8 @@ slug: white-l3-002-diversification-and-expected-return
 seo_title: "Poukisa divèsifikasyon diminye risk san li pa diminye rannman ou atann (otan ou ta panse) | Edunancial"
 meta_description: "Aprann poukisa gaye envestisman ou sou anpil pozisyon diminye risk pi efikasman pase li diminye rannman ou atann, ak poukisa gen yon limit nan benefis la."
 author: "Waldemar M. Caban, JD MA"
+lessonNumber: 2
+summary: "Aprann poukisa gaye envestisman ou sou anpil pozisyon diminye risk pi efikasman pase li diminye rannman ou atann, ak poukisa gen yon limit nan benefis la."
 ---
 
 # WHITE-L3-002: Poukisa divèsifikasyon diminye risk san li pa diminye rannman ou atann (otan ou ta panse)

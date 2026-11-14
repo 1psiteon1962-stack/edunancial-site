@@ -12,6 +12,8 @@ slug: white-l3-046-beta-and-relative-volatility
 seo_title: "Pourquoi le bêta mesure la volatilité d'une action par rapport au marché | Edunancial"
 meta_description: "Découvrez ce que mesure le bêta, pourquoi un bêta supérieur ou inférieur à 1,0 vous apprend quelque chose de précis sur le comportement attendu d'une action, et ce que le bêta ne prend pas en compte."
 author: "Waldemar M. Caban, JD MA"
+lessonNumber: 46
+summary: "Découvrez ce que mesure le bêta, pourquoi un bêta supérieur ou inférieur à 1,0 vous apprend quelque chose de précis sur le comportement attendu d'une action, et ce que le bêta ne prend pas en compte."
 ---
 
 # WHITE-L3-046: Pourquoi le bêta mesure la volatilité d'une action par rapport au marché

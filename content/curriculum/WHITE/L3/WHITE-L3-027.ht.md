@@ -12,6 +12,8 @@ slug: white-l3-027-loss-aversion
 seo_title: "Poukisa laperèz pèt fè envestisè yo vann sa k ap genyen twò bonè epi kenbe sa k ap pèdi twò lontan | Edunancial"
 meta_description: "Aprann poukisa doulè yon pèt souvan santi l pi fò pase plezi yon benefis ki menm gwosè, e kijan desekilib sa a defòme desizyon envestisman yo."
 author: "Waldemar M. Caban, JD MA"
+lessonNumber: 27
+summary: "Aprann poukisa doulè yon pèt souvan santi l pi fò pase plezi yon benefis ki menm gwosè, e kijan desekilib sa a defòme desizyon envestisman yo."
 ---
 
 # WHITE-L3-027: Poukisa laperèz pèt fè envestisè yo vann sa k ap genyen twò bonè epi kenbe sa k ap pèdi twò lontan

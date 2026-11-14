@@ -12,6 +12,8 @@ slug: white-l3-006-call-vs-straddle
 seo_title: "Pourquoi un call parie sur la direction et un straddle parie sur le mouvement | Edunancial"
 meta_description: "Découvrez la différence entre un pari directionnel avec des options et un straddle, qui profite d'un fort mouvement dans un sens comme dans l'autre."
 author: "Waldemar M. Caban, JD MA"
+lessonNumber: 6
+summary: "Découvrez la différence entre un pari directionnel avec des options et un straddle, qui profite d'un fort mouvement dans un sens comme dans l'autre."
 ---
 
 # WHITE-L3-006: Pourquoi un call parie sur la direction et un straddle parie sur le mouvement

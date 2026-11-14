@@ -12,6 +12,8 @@ slug: white-l3-049-written-investment-plan
 seo_title: "Pourquoi un plan d'investissement écrit vous protège de vos propres émotions | Edunancial"
 meta_description: "Découvrez pourquoi mettre votre plan d'investissement par écrit à l'avance vous protège des erreurs comportementales abordées tout au long de ce parcours, commises dans le feu de l'action."
 author: "Waldemar M. Caban, JD MA"
+lessonNumber: 49
+summary: "Découvrez pourquoi mettre votre plan d'investissement par écrit à l'avance vous protège des erreurs comportementales abordées tout au long de ce parcours, commises dans le feu de l'action."
 ---
 
 # WHITE-L3-049: Pourquoi un plan d'investissement écrit vous protège de vos propres émotions

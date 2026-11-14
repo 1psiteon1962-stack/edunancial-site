@@ -12,6 +12,8 @@ slug: white-l3-049-written-investment-plan
 seo_title: "Poukisa yon plan envestisman ekri pwoteje w kont pwòp emosyon ou | Edunancial"
 meta_description: "Aprann poukisa ekri plan envestisman ou davans pwoteje w kont erè konpòtman ki kouvri atravè tras sa a, erè moun fè nan chalè moman an."
 author: "Waldemar M. Caban, JD MA"
+lessonNumber: 49
+summary: "Aprann poukisa ekri plan envestisman ou davans pwoteje w kont erè konpòtman ki kouvri atravè tras sa a, erè moun fè nan chalè moman an."
 ---
 
 # WHITE-L3-049: Poukisa yon plan envestisman ekri pwoteje w kont pwòp emosyon ou

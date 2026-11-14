@@ -12,6 +12,8 @@ slug: white-l3-029-inflation-and-safe-portfolios
 seo_title: "Poukisa enflasyon manje pouvwa acha menm nan yon pòtfolyo \"san risk\" | Edunancial"
 meta_description: "Aprann poukisa si ou kenbe sèlman byen ki trè estab e ki bay ti rannman, ou ka toujou pèdi pouvwa acha avèk tan, menm san okenn pèt sou mache a."
 author: "Waldemar M. Caban, JD MA"
+lessonNumber: 29
+summary: "Aprann poukisa si ou kenbe sèlman byen ki trè estab e ki bay ti rannman, ou ka toujou pèdi pouvwa acha avèk tan, menm san okenn pèt sou mache a."
 ---
 
 # WHITE-L3-029: Poukisa enflasyon manje pouvwa acha menm nan yon pòtfolyo "san risk"

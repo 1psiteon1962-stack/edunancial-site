@@ -12,6 +12,8 @@ slug: white-l3-016-safe-withdrawal-rate
 seo_title: "Poukisa yon to retrè \"san danje\" pa yon garanti | Edunancial"
 meta_description: "Aprann kisa yon to retrè san danje sipoze reprezante, ak poukisa se yon gid ki baze sou istwa, pa yon pwomès sou avni pa w espesyalman."
 author: "Waldemar M. Caban, JD MA"
+lessonNumber: 16
+summary: "Aprann kisa yon to retrè san danje sipoze reprezante, ak poukisa se yon gid ki baze sou istwa, pa yon pwomès sou avni pa w espesyalman."
 ---
 
 # WHITE-L3-016: Poukisa yon to retrè "san danje" pa yon garanti

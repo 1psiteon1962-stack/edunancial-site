@@ -12,6 +12,8 @@ slug: short-term-vs-long-term-capital-gains
 seo_title: "Plusvalenze a breve termine vs. a lungo termine | Edunancial"
 meta_description: "Spiega perché molti sistemi tassano i guadagni in modo diverso a seconda di quanto a lungo un bene è stato posseduto prima della vendita."
 author: "Waldemar M. Caban, JD MA"
+lessonNumber: 32
+summary: "Spiega perché molti sistemi tassano i guadagni in modo diverso a seconda di quanto a lungo un bene è stato posseduto prima della vendita."
 ---
 
 # GREEN-L1-032: Plusvalenze a breve termine vs. a lungo termine

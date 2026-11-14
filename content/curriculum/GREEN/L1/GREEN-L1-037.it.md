@@ -12,6 +12,8 @@ slug: gift-tax-and-inheritance-basics
 seo_title: "Nozioni di base sull'imposta su donazioni e successioni | Edunancial"
 meta_description: "Introduce i concetti generali della tassazione di donazioni ed eredità, mantenuti ampi per via della grande varietà tra i sistemi."
 author: "Waldemar M. Caban, JD MA"
+lessonNumber: 37
+summary: "Introduce i concetti generali della tassazione di donazioni ed eredità, mantenuti ampi per via della grande varietà tra i sistemi."
 ---
 
 # GREEN-L1-037: Nozioni di base sull'imposta su donazioni e successioni

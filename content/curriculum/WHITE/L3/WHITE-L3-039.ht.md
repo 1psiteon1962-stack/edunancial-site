@@ -12,6 +12,8 @@ slug: white-l3-039-holding-period-and-capital-gains
 seo_title: "Poukisa benefis kapital yo peye taks diferan dapre konbyen tan ou kenbe envestisman an | Edunancial"
 meta_description: "Aprann poukisa konbyen tan ou kenbe yon envestisman anvan ou vann li ka afekte kijan yo mete taks sou nenpòt benefis, e poukisa sa kreye yon vrè motivasyon sou ki lè pou w vann."
 author: "Waldemar M. Caban, JD MA"
+lessonNumber: 39
+summary: "Aprann poukisa konbyen tan ou kenbe yon envestisman anvan ou vann li ka afekte kijan yo mete taks sou nenpòt benefis, e poukisa sa kreye yon vrè motivasyon sou ki lè pou w vann."
 ---
 
 # WHITE-L3-039: Poukisa benefis kapital yo peye taks diferan dapre konbyen tan ou kenbe envestisman an

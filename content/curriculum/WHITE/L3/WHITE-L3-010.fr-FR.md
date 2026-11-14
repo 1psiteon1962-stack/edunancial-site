@@ -12,6 +12,8 @@ slug: white-l3-010-margin-calls
 seo_title: "Pourquoi un appel de marge peut vous forcer à vendre au pire moment possible | Edunancial"
 meta_description: "Découvrez ce qu'est un appel de marge, pourquoi il se déclenche automatiquement, et pourquoi il peut forcer une vente précisément quand les prix ont déjà baissé."
 author: "Waldemar M. Caban, JD MA"
+lessonNumber: 10
+summary: "Découvrez ce qu'est un appel de marge, pourquoi il se déclenche automatiquement, et pourquoi il peut forcer une vente précisément quand les prix ont déjà baissé."
 ---
 
 # WHITE-L3-010: Pourquoi un appel de marge peut vous forcer à vendre au pire moment possible

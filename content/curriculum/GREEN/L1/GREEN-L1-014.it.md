@@ -12,6 +12,8 @@ slug: form-w-2-vs-form-1099-employee-or-contractor
 seo_title: "Modulo W-2 vs. modulo 1099: dipendente o collaboratore autonomo? | Edunancial"
 meta_description: "Presenta i due documenti di certificazione dei redditi più comuni nei sistemi che li usano, collegandoli direttamente alla distinzione tra dipendente e lavoratore autonomo vista in altri percorsi."
 author: "Waldemar M. Caban, JD MA"
+lessonNumber: 14
+summary: "Presenta i due documenti di certificazione dei redditi più comuni nei sistemi che li usano, collegandoli direttamente alla distinzione tra dipendente e lavoratore autonomo vista in altri percorsi."
 ---
 
 # GREEN-L1-014: Modulo W-2 vs. modulo 1099: dipendente o collaboratore autonomo?

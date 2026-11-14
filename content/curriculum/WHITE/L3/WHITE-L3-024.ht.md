@@ -12,6 +12,8 @@ slug: white-l3-024-active-management-vs-fees
 seo_title: "Poukisa jesyon aktif oblije depase pwòp frè li pou l ajoute valè | Edunancial"
 meta_description: "Aprann poukisa yon fon ki jere aktivman bezwen bat mache a pa plis pase yon ti kras pou l vrèman bay yon pi bon rezilta pase yon fon endèks ki pa koute chè."
 author: "Waldemar M. Caban, JD MA"
+lessonNumber: 24
+summary: "Aprann poukisa yon fon ki jere aktivman bezwen bat mache a pa plis pase yon ti kras pou l vrèman bay yon pi bon rezilta pase yon fon endèks ki pa koute chè."
 ---
 
 # WHITE-L3-024: Poukisa jesyon aktif oblije depase pwòp frè li pou l ajoute valè

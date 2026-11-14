@@ -12,6 +12,8 @@ slug: white-l3-034-asset-allocation-vs-stock-picking
 seo_title: "Poukisa repatisyon byen yo pi enpòtan pase chwazi aksyon endividyèl | Edunancial"
 meta_description: "Aprann poukisa melanj kategori byen nan yon pòtfolyo gen tandans detèmine rezilta alontèm yo plis pase aksyon espesifik ou chwazi nan chak kategori."
 author: "Waldemar M. Caban, JD MA"
+lessonNumber: 34
+summary: "Aprann poukisa melanj kategori byen nan yon pòtfolyo gen tandans detèmine rezilta alontèm yo plis pase aksyon espesifik ou chwazi nan chak kategori."
 ---
 
 # WHITE-L3-034: Poukisa repatisyon byen yo pi enpòtan pase chwazi aksyon endividyèl

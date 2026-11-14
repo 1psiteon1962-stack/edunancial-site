@@ -12,6 +12,8 @@ slug: corporate-taxes-how-businesses-are-taxed
 seo_title: "Imposte sulle società: come vengono tassate le imprese | Edunancial"
 meta_description: "Introduce il concetto generale di una società di capitali come soggetto tassabile distinto dai suoi proprietari."
 author: "Waldemar M. Caban, JD MA"
+lessonNumber: 40
+summary: "Introduce il concetto generale di una società di capitali come soggetto tassabile distinto dai suoi proprietari."
 ---
 
 # GREEN-L1-040: Imposte sulle società: come vengono tassate le imprese

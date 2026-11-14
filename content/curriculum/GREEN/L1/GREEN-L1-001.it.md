@@ -12,6 +12,8 @@ slug: what-is-a-tax-and-why-do-we-pay-them
 seo_title: "Che cos'è un'imposta e perché la paghiamo? | Edunancial"
 meta_description: "Un'introduzione al concetto base di tassazione: che cos'è un'imposta, chi la riscuote e perché gli Stati ne hanno bisogno per funzionare."
 author: "Waldemar M. Caban, JD MA"
+lessonNumber: 1
+summary: "Un'introduzione al concetto base di tassazione: che cos'è un'imposta, chi la riscuote e perché gli Stati ne hanno bisogno per funzionare."
 ---
 
 # GREEN-L1-001: Che cos'è un'imposta e perché la paghiamo?

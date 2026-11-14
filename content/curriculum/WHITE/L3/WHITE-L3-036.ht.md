@@ -12,6 +12,8 @@ slug: white-l3-036-tax-advantaged-accounts
 seo_title: "Poukisa kont ki gen avantaj taks chanje kalkil rannman apre taks | Edunancial"
 meta_description: "Aprann poukisa kalite kont ou itilize pou envesti a ka chanje rannman reyèl ou mete nan pòch ou yon fason ki enpòtan, separe de pèfòmans envestisman an li menm."
 author: "Waldemar M. Caban, JD MA"
+lessonNumber: 36
+summary: "Aprann poukisa kalite kont ou itilize pou envesti a ka chanje rannman reyèl ou mete nan pòch ou yon fason ki enpòtan, separe de pèfòmans envestisman an li menm."
 ---
 
 # WHITE-L3-036: Poukisa kont ki gen avantaj taks chanje kalkil rannman apre taks

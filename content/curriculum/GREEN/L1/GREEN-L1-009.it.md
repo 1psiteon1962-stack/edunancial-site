@@ -12,6 +12,8 @@ slug: marginal-tax-rates-why-earning-more-doesn-t-mean-losing-more
 seo_title: "Aliquote marginali: perché guadagnare di più non significa perdere di più | Edunancial"
 meta_description: "Chiarisce uno degli equivoci più comuni nella finanza personale: l'idea che salire in uno scaglione più alto faccia tassare tutto il reddito con l'aliquota maggiore."
 author: "Waldemar M. Caban, JD MA"
+lessonNumber: 9
+summary: "Chiarisce uno degli equivoci più comuni nella finanza personale: l'idea che salire in uno scaglione più alto faccia tassare tutto il reddito con l'aliquota maggiore."
 ---
 
 # GREEN-L1-009: Aliquote marginali: perché guadagnare di più non significa perdere di più

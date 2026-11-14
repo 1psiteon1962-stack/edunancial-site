@@ -12,6 +12,8 @@ slug: white-l3-017-dividends-not-free-money
 seo_title: "Pourquoi les dividendes ne sont pas de l'« argent gratuit » | Edunancial"
 meta_description: "Découvrez pourquoi le versement d'un dividende fait baisser le prix d'une action d'un montant à peu près équivalent, et pourquoi les dividendes sont une redistribution de valeur, et non une prime."
 author: "Waldemar M. Caban, JD MA"
+lessonNumber: 17
+summary: "Découvrez pourquoi le versement d'un dividende fait baisser le prix d'une action d'un montant à peu près équivalent, et pourquoi les dividendes sont une redistribution de valeur, et non une prime."
 ---
 
 # WHITE-L3-017: Pourquoi les dividendes ne sont pas de l'« argent gratuit »

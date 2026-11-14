@@ -12,6 +12,8 @@ slug: filing-status-single-married-head-of-household
 seo_title: "Stato civile ai fini fiscali: single, coniugato, capofamiglia | Edunancial"
 meta_description: "Introduce il concetto di stato civile ai fini della dichiarazione e perché la situazione familiare e coniugale può influire sul calcolo dell'imposta."
 author: "Waldemar M. Caban, JD MA"
+lessonNumber: 18
+summary: "Introduce il concetto di stato civile ai fini della dichiarazione e perché la situazione familiare e coniugale può influire sul calcolo dell'imposta."
 ---
 
 # GREEN-L1-018: Stato civile ai fini fiscali: single, coniugato, capofamiglia

@@ -12,6 +12,8 @@ slug: the-difference-between-a-tax-deduction-and-a-tax-credit
 seo_title: "La differenza tra una deduzione e un credito d'imposta | Edunancial"
 meta_description: "Chiarisce una delle coppie di termini più confuse nell'educazione fiscale: le deduzioni riducono il reddito imponibile, i crediti riducono direttamente l'imposta dovuta."
 author: "Waldemar M. Caban, JD MA"
+lessonNumber: 15
+summary: "Chiarisce una delle coppie di termini più confuse nell'educazione fiscale: le deduzioni riducono il reddito imponibile, i crediti riducono direttamente l'imposta dovuta."
 ---
 
 # GREEN-L1-015: La differenza tra una deduzione e un credito d'imposta

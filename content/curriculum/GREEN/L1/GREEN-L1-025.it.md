@@ -12,6 +12,8 @@ slug: common-deductible-business-expenses
 seo_title: "Spese aziendali deducibili comuni | Edunancial"
 meta_description: "Presenta categorie generali di spese aziendali che sono spesso deducibili, mantenute a livello concettuale per via delle differenze tra ordinamenti."
 author: "Waldemar M. Caban, JD MA"
+lessonNumber: 25
+summary: "Presenta categorie generali di spese aziendali che sono spesso deducibili, mantenute a livello concettuale per via delle differenze tra ordinamenti."
 ---
 
 # GREEN-L1-025: Spese aziendali deducibili comuni

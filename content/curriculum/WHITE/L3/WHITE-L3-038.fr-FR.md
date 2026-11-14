@@ -12,6 +12,8 @@ slug: white-l3-038-wash-sale-rule
 seo_title: "Pourquoi la règle de la vente fictive (wash sale) limite la récolte des pertes fiscales | Edunancial"
 meta_description: "Découvrez ce qu'est une vente fictive (wash sale), pourquoi cette règle existe et pourquoi elle limite directement la façon de mettre en œuvre la récolte des pertes fiscales."
 author: "Waldemar M. Caban, JD MA"
+lessonNumber: 38
+summary: "Découvrez ce qu'est une vente fictive (wash sale), pourquoi cette règle existe et pourquoi elle limite directement la façon de mettre en œuvre la récolte des pertes fiscales."
 ---
 
 # WHITE-L3-038: Pourquoi la règle de la vente fictive (wash sale) limite la récolte des pertes fiscales

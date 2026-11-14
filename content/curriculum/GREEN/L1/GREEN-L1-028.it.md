@@ -12,6 +12,8 @@ slug: sales-tax-collection-for-small-businesses
 seo_title: "Riscossione dell'imposta sulle vendite per le piccole imprese | Edunancial"
 meta_description: "Spiega la responsabilità pratica che una piccola impresa si assume quando riscuote l'imposta sulle vendite, partendo dalla lezione precedente dal punto di vista del consumatore."
 author: "Waldemar M. Caban, JD MA"
+lessonNumber: 28
+summary: "Spiega la responsabilità pratica che una piccola impresa si assume quando riscuote l'imposta sulle vendite, partendo dalla lezione precedente dal punto di vista del consumatore."
 ---
 
 # GREEN-L1-028: Riscossione dell'imposta sulle vendite per le piccole imprese

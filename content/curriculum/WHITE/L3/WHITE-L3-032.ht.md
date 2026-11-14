@@ -12,6 +12,8 @@ slug: white-l3-032-reits
 seo_title: "Poukisa REIT yo pèmèt ou envesti nan imobilye san ou pa achte pwopriyete | Edunancial"
 meta_description: "Aprann kijan REIT (Real Estate Investment Trust) yo mache, poukisa yo achte e vann tankou aksyon, e kijan yo konekte tras RED ak WHITE pwogram sa a."
 author: "Waldemar M. Caban, JD MA"
+lessonNumber: 32
+summary: "Aprann kijan REIT (Real Estate Investment Trust) yo mache, poukisa yo achte e vann tankou aksyon, e kijan yo konekte tras RED ak WHITE pwogram sa a."
 ---
 
 # WHITE-L3-032: Poukisa REIT yo pèmèt ou envesti nan imobilye san ou pa achte pwopriyete

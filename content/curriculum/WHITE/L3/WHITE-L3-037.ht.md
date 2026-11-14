@@ -12,6 +12,8 @@ slug: white-l3-037-tax-loss-harvesting
 seo_title: "Poukisa rekòlt pèt pou taks (tax-loss harvesting) fè yon pèt tounen yon avantaj pou pita | Edunancial"
 meta_description: "Aprann kijan rekòlt pèt pou taks mache, poukisa li fè yon pèt ki poko reyalize tounen yon avantaj taks ou ka itilize, e poukisa pwosesis la mande atansyon."
 author: "Waldemar M. Caban, JD MA"
+lessonNumber: 37
+summary: "Aprann kijan rekòlt pèt pou taks mache, poukisa li fè yon pèt ki poko reyalize tounen yon avantaj taks ou ka itilize, e poukisa pwosesis la mande atansyon."
 ---
 
 # WHITE-L3-037: Poukisa rekòlt pèt pou taks (tax-loss harvesting) fè yon pèt tounen yon avantaj pou pita

@@ -12,6 +12,8 @@ slug: white-l3-023-index-investing
 seo_title: "Pourquoi l'investissement indiciel parie sur le marché, et non sur un gérant | Edunancial"
 meta_description: "Découvrez sur quoi parie réellement l'investissement indiciel, et pourquoi c'est un pari fondamentalement différent du choix d'actions individuelles ou de gérants de fonds actifs."
 author: "Waldemar M. Caban, JD MA"
+lessonNumber: 23
+summary: "Découvrez sur quoi parie réellement l'investissement indiciel, et pourquoi c'est un pari fondamentalement différent du choix d'actions individuelles ou de gérants de fonds actifs."
 ---
 
 # WHITE-L3-023: Pourquoi l'investissement indiciel parie sur le marché, et non sur un gérant

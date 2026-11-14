@@ -12,6 +12,8 @@ slug: white-l3-008-selling-options-risk-profile
 seo_title: "Pourquoi vendre des options inverse complètement le profil de risque | Edunancial"
 meta_description: "Découvrez pourquoi vendre (émettre) une option vous place du côté « obligation » du contrat, avec un profil de risque très différent de celui de l'achat."
 author: "Waldemar M. Caban, JD MA"
+lessonNumber: 8
+summary: "Découvrez pourquoi vendre (émettre) une option vous place du côté « obligation » du contrat, avec un profil de risque très différent de celui de l'achat."
 ---
 
 # WHITE-L3-008: Pourquoi vendre des options inverse complètement le profil de risque

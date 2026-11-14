@@ -12,6 +12,8 @@ slug: white-l3-003-correlation-and-real-diversification
 seo_title: "Poukisa korelasyon detèmine vrè divèsifikasyon, pa sèlman kantite pozisyon | Edunancial"
 meta_description: "Aprann poukisa posede anpil envestisman pa menm bagay ak vrèman divèsifye, ak poukisa korelasyon se konsèp ki vrèman detèmine konbyen risk ou diminye."
 author: "Waldemar M. Caban, JD MA"
+lessonNumber: 3
+summary: "Aprann poukisa posede anpil envestisman pa menm bagay ak vrèman divèsifye, ak poukisa korelasyon se konsèp ki vrèman detèmine konbyen risk ou diminye."
 ---
 
 # WHITE-L3-003: Poukisa korelasyon detèmine vrè divèsifikasyon, pa sèlman kantite pozisyon

@@ -12,6 +12,8 @@ slug: white-l3-040-cost-basis
 seo_title: "Pourquoi le prix de revient détermine votre véritable gain imposable | Edunancial"
 meta_description: "Découvrez ce que signifie le prix de revient (cost basis), pourquoi il ne se limite pas toujours au prix d'achat initial et pourquoi il est important de le suivre avec précision."
 author: "Waldemar M. Caban, JD MA"
+lessonNumber: 40
+summary: "Découvrez ce que signifie le prix de revient (cost basis), pourquoi il ne se limite pas toujours au prix d'achat initial et pourquoi il est important de le suivre avec précision."
 ---
 
 # WHITE-L3-040: Pourquoi le prix de revient détermine votre véritable gain imposable

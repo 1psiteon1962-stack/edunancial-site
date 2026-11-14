@@ -12,6 +12,8 @@ slug: white-l3-012-dollar-cost-averaging
 seo_title: "Poukisa mwayèn kou an dola diminye risk tan, pa risk envestisman an | Edunancial"
 meta_description: "Aprann poukisa envesti yon kantite lajan fiks sou yon orè regilye diminye risk pou w chwazi move moman, san li pa diminye risk envestisman an li menm."
 author: "Waldemar M. Caban, JD MA"
+lessonNumber: 12
+summary: "Aprann poukisa envesti yon kantite lajan fiks sou yon orè regilye diminye risk pou w chwazi move moman, san li pa diminye risk envestisman an li menm."
 ---
 
 # WHITE-L3-012: Poukisa mwayèn kou an dola diminye risk tan, pa risk envestisman an

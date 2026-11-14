@@ -12,6 +12,8 @@ slug: common-tax-credits-for-individuals
 seo_title: "Crediti d'imposta comuni per le persone fisiche | Edunancial"
 meta_description: "Una panoramica delle categorie generali di crediti d'imposta che le persone incontrano spesso, mantenuta a livello concettuale anziché legata ai programmi di un solo Paese."
 author: "Waldemar M. Caban, JD MA"
+lessonNumber: 17
+summary: "Una panoramica delle categorie generali di crediti d'imposta che le persone incontrano spesso, mantenuta a livello concettuale anziché legata ai programmi di un solo Paese."
 ---
 
 # GREEN-L1-017: Crediti d'imposta comuni per le persone fisiche

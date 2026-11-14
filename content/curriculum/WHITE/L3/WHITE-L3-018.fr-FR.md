@@ -12,6 +12,8 @@ slug: white-l3-018-bond-duration
 seo_title: "Pourquoi la duration d'une obligation mesure sa sensibilité aux taux d'intérêt | Edunancial"
 meta_description: "Découvrez ce que mesure la duration d'une obligation, pourquoi les obligations à duration plus longue sont plus sensibles aux variations des taux d'intérêt, et pourquoi c'est important pour les investisseurs en obligations."
 author: "Waldemar M. Caban, JD MA"
+lessonNumber: 18
+summary: "Découvrez ce que mesure la duration d'une obligation, pourquoi les obligations à duration plus longue sont plus sensibles aux variations des taux d'intérêt, et pourquoi c'est important pour les investisseurs en obligations."
 ---
 
 # WHITE-L3-018: Pourquoi la duration d'une obligation mesure sa sensibilité aux taux d'intérêt

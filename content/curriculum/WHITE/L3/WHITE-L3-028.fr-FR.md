@@ -12,6 +12,8 @@ slug: white-l3-028-recency-bias
 seo_title: "Pourquoi le biais de récence fausse la perception du risque après un mouvement du marché | Edunancial"
 meta_description: "Découvrez pourquoi les investisseurs ont tendance à surpondérer les événements récents lorsqu'ils évaluent le risque, et pourquoi cela peut mener à des décisions mal synchronisées."
 author: "Waldemar M. Caban, JD MA"
+lessonNumber: 28
+summary: "Découvrez pourquoi les investisseurs ont tendance à surpondérer les événements récents lorsqu'ils évaluent le risque, et pourquoi cela peut mener à des décisions mal synchronisées."
 ---
 
 # WHITE-L3-028: Pourquoi le biais de récence fausse la perception du risque après un mouvement du marché

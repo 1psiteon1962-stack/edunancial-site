@@ -12,6 +12,8 @@ slug: estimated-taxes-for-the-self-employed
 seo_title: "Acconti d'imposta per i lavoratori autonomi | Edunancial"
 meta_description: "Introduce il concetto di pagamenti trimestrali di acconto d'imposta, conseguenza diretta del fatto che nessun datore di lavoro trattiene automaticamente l'imposta."
 author: "Waldemar M. Caban, JD MA"
+lessonNumber: 22
+summary: "Introduce il concetto di pagamenti trimestrali di acconto d'imposta, conseguenza diretta del fatto che nessun datore di lavoro trattiene automaticamente l'imposta."
 ---
 
 # GREEN-L1-022: Acconti d'imposta per i lavoratori autonomi

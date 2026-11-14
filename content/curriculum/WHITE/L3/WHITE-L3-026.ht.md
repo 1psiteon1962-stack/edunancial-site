@@ -12,6 +12,8 @@ slug: white-l3-026-behavioral-biases-cost
 seo_title: "Poukisa prejije konpòtman yo koute envestisè yo plis pase frè yo | Edunancial"
 meta_description: "Aprann poukisa sikoloji envestisè a, pa sèlman frè fon yo, souvan konsidere kòm youn nan pi gwo bagay ki rale rannman envestisman yo desann nan lavi reyèl."
 author: "Waldemar M. Caban, JD MA"
+lessonNumber: 26
+summary: "Aprann poukisa sikoloji envestisè a, pa sèlman frè fon yo, souvan konsidere kòm youn nan pi gwo bagay ki rale rannman envestisman yo desann nan lavi reyèl."
 ---
 
 # WHITE-L3-026: Poukisa prejije konpòtman yo koute envestisè yo plis pase frè yo

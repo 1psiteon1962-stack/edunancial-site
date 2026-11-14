@@ -12,6 +12,8 @@ slug: putting-it-together-building-your-personal-tax-literacy-habit
 seo_title: "Mettere tutto insieme: costruire la tua abitudine di educazione fiscale | Edunancial"
 meta_description: "Chiude il Livello 1 di GREEN riassumendo l'arco del percorso e stabilendo un'abitudine continua di educazione fiscale, seguendo lo schema delle lezioni finali degli altri percorsi."
 author: "Waldemar M. Caban, JD MA"
+lessonNumber: 50
+summary: "Chiude il Livello 1 di GREEN riassumendo l'arco del percorso e stabilendo un'abitudine continua di educazione fiscale, seguendo lo schema delle lezioni finali degli altri percorsi."
 ---
 
 # GREEN-L1-050: Mettere tutto insieme: costruire la tua abitudine di educazione fiscale

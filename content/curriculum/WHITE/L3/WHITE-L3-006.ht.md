@@ -12,6 +12,8 @@ slug: white-l3-006-call-vs-straddle
 seo_title: "Poukisa yon call parye sou direksyon e yon straddle parye sou mouvman | Edunancial"
 meta_description: "Aprann diferans ant yon paryaj opsyon sou direksyon ak yon straddle, ki fè pwofi sou yon gwo mouvman nan nenpòt direksyon."
 author: "Waldemar M. Caban, JD MA"
+lessonNumber: 6
+summary: "Aprann diferans ant yon paryaj opsyon sou direksyon ak yon straddle, ki fè pwofi sou yon gwo mouvman nan nenpòt direksyon."
 ---
 
 # WHITE-L3-006: Poukisa yon call parye sou direksyon e yon straddle parye sou mouvman

@@ -12,6 +12,8 @@ slug: white-l3-007-time-decay
 seo_title: "Poukisa pèt valè avèk tan travay kont moun ki achte opsyon | Edunancial"
 meta_description: "Aprann poukisa yon opsyon pèdi valè senpleman paske tan ap pase, menm si pri byen ki dèyè l la pa chanje."
 author: "Waldemar M. Caban, JD MA"
+lessonNumber: 7
+summary: "Aprann poukisa yon opsyon pèdi valè senpleman paske tan ap pase, menm si pri byen ki dèyè l la pa chanje."
 ---
 
 # WHITE-L3-007: Poukisa pèt valè avèk tan travay kont moun ki achte opsyon

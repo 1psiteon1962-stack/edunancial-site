@@ -12,6 +12,8 @@ slug: white-l3-014-rebalancing
 seo_title: "Poukisa reyekilibraj fòse w vann wo e achte ba otomatikman | Edunancial"
 meta_description: "Aprann ki jan reyekilibraj yon pòtfolyo mache, ak poukisa li mete disiplin \"achte ba, vann wo\" nan yon pwosesis mekanik olye li depann de volonte ou."
 author: "Waldemar M. Caban, JD MA"
+lessonNumber: 14
+summary: "Aprann ki jan reyekilibraj yon pòtfolyo mache, ak poukisa li mete disiplin \"achte ba, vann wo\" nan yon pwosesis mekanik olye li depann de volonte ou."
 ---
 
 # WHITE-L3-014: Poukisa reyekilibraj fòse w vann wo e achte ba otomatikman

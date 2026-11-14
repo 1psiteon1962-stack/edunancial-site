@@ -12,6 +12,8 @@ slug: white-l3-020-credit-risk-vs-interest-rate-risk
 seo_title: "Poukisa risk kredi ak risk to enterè se de risk diferan pou obligasyon | Edunancial"
 meta_description: "Aprann poukisa yon obligasyon ka pèdi valè pou de rezon totalman diferan, ak poukisa konprann kilès k ap rive a chanje jan ou ta dwe panse sou li."
 author: "Waldemar M. Caban, JD MA"
+lessonNumber: 20
+summary: "Aprann poukisa yon obligasyon ka pèdi valè pou de rezon totalman diferan, ak poukisa konprann kilès k ap rive a chanje jan ou ta dwe panse sou li."
 ---
 
 # WHITE-L3-020: Poukisa risk kredi ak risk to enterè se de risk diferan pou obligasyon

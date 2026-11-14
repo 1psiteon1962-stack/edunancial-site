@@ -12,6 +12,8 @@ slug: white-l3-013-lump-sum-vs-dca
 seo_title: "Poukisa envesti yon sèl kou souvan bay pi bon rezilta pase DCA (e poukisa moun toujou chwazi DCA) | Edunancial"
 meta_description: "Aprann poukisa envesti tout yon sèl kou, selon estatistik, gen tandans bay pi bon rezilta pase mwayèn kou an dola nan mache k ap monte, ak poukisa anpil envestisè toujou pito DCA kanmenm."
 author: "Waldemar M. Caban, JD MA"
+lessonNumber: 13
+summary: "Aprann poukisa envesti tout yon sèl kou, selon estatistik, gen tandans bay pi bon rezilta pase mwayèn kou an dola nan mache k ap monte, ak poukisa anpil envestisè toujou pito DCA kanmenm."
 ---
 
 # WHITE-L3-013: Poukisa envesti yon sèl kou souvan bay pi bon rezilta pase DCA (e poukisa moun toujou chwazi DCA)

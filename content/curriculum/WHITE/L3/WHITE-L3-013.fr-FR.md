@@ -12,6 +12,8 @@ slug: white-l3-013-lump-sum-vs-dca
 seo_title: "Pourquoi investir en une fois fait souvent mieux que l'investissement programmé (et pourquoi on choisit quand même l'investissement programmé) | Edunancial"
 meta_description: "Découvrez pourquoi investir tout d'un coup tend statistiquement à faire mieux que l'investissement programmé dans les marchés haussiers, et pourquoi beaucoup d'investisseurs préfèrent quand même l'investissement programmé."
 author: "Waldemar M. Caban, JD MA"
+lessonNumber: 13
+summary: "Découvrez pourquoi investir tout d'un coup tend statistiquement à faire mieux que l'investissement programmé dans les marchés haussiers, et pourquoi beaucoup d'investisseurs préfèrent quand même l'investissement programmé."
 ---
 
 # WHITE-L3-013: Pourquoi investir en une fois fait souvent mieux que l'investissement programmé (et pourquoi on choisit quand même l'investissement programmé)

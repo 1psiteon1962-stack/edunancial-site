@@ -12,6 +12,8 @@ slug: white-l3-005-options-rights-not-obligations
 seo_title: "Pourquoi les options vous donnent des droits, pas des obligations, et pourquoi cela a un coût | Edunancial"
 meta_description: "Découvrez la structure de base des contrats d'options, pourquoi acheter une option ne vous donne qu'un droit, et pourquoi ce droit n'est pas gratuit."
 author: "Waldemar M. Caban, JD MA"
+lessonNumber: 5
+summary: "Découvrez la structure de base des contrats d'options, pourquoi acheter une option ne vous donne qu'un droit, et pourquoi ce droit n'est pas gratuit."
 ---
 
 # WHITE-L3-005: Pourquoi les options vous donnent des droits, pas des obligations, et pourquoi cela a un coût

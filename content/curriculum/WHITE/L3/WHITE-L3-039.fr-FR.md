@@ -12,6 +12,8 @@ slug: white-l3-039-holding-period-and-capital-gains
 seo_title: "Pourquoi les plus-values sont imposées différemment selon la durée de détention | Edunancial"
 meta_description: "Découvrez pourquoi la durée pendant laquelle vous détenez un investissement avant de le vendre peut influencer l'imposition d'un gain, et pourquoi cela crée une véritable incitation liée au calendrier."
 author: "Waldemar M. Caban, JD MA"
+lessonNumber: 39
+summary: "Découvrez pourquoi la durée pendant laquelle vous détenez un investissement avant de le vendre peut influencer l'imposition d'un gain, et pourquoi cela crée une véritable incitation liée au calendrier."
 ---
 
 # WHITE-L3-039: Pourquoi les plus-values sont imposées différemment selon la durée de détention

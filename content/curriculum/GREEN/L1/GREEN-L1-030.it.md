@@ -12,6 +12,8 @@ slug: independent-contractor-vs-employee-the-business-owner-s-side
 seo_title: "Collaboratore autonomo vs. dipendente: il punto di vista del titolare | Edunancial"
 meta_description: "Riprende la distinzione tra dipendente e collaboratore autonomo dal punto di vista del titolare, concentrandosi sul perché una classificazione errata è un rischio serio."
 author: "Waldemar M. Caban, JD MA"
+lessonNumber: 30
+summary: "Riprende la distinzione tra dipendente e collaboratore autonomo dal punto di vista del titolare, concentrandosi sul perché una classificazione errata è un rischio serio."
 ---
 
 # GREEN-L1-030: Collaboratore autonomo vs. dipendente: il punto di vista del titolare

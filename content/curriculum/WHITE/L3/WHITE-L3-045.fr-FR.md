@@ -12,6 +12,8 @@ slug: white-l3-045-stock-buybacks
 seo_title: "Pourquoi les rachats d'actions touchent les actionnaires différemment des dividendes | Edunancial"
 meta_description: "Découvrez comment un rachat d'actions restitue de la valeur aux actionnaires autrement qu'un dividende, et pourquoi les effets fiscaux et sur le nombre d'actions diffèrent."
 author: "Waldemar M. Caban, JD MA"
+lessonNumber: 45
+summary: "Découvrez comment un rachat d'actions restitue de la valeur aux actionnaires autrement qu'un dividende, et pourquoi les effets fiscaux et sur le nombre d'actions diffèrent."
 ---
 
 # WHITE-L3-045: Pourquoi les rachats d'actions touchent les actionnaires différemment des dividendes

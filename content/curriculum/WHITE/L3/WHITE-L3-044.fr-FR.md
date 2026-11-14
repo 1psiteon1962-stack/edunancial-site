@@ -12,6 +12,8 @@ slug: white-l3-044-ipo-risk
 seo_title: "Pourquoi les introductions en Bourse comportent des risques particuliers par rapport aux sociétés cotées bien établies | Edunancial"
 meta_description: "Découvrez pourquoi acheter des actions d'une société nouvellement cotée diffère d'un investissement dans une société bien établie, et pourquoi un historique limité ajoute une incertitude particulière."
 author: "Waldemar M. Caban, JD MA"
+lessonNumber: 44
+summary: "Découvrez pourquoi acheter des actions d'une société nouvellement cotée diffère d'un investissement dans une société bien établie, et pourquoi un historique limité ajoute une incertitude particulière."
 ---
 
 # WHITE-L3-044: Pourquoi les introductions en Bourse comportent des risques particuliers par rapport aux sociétés cotées bien établies

@@ -12,6 +12,8 @@ slug: white-l3-035-glide-path
 seo_title: "Poukisa yon chemen desant (glide path) deplase risk pandan w ap vin pi gran | Edunancial"
 meta_description: "Aprann poukisa anpil estrateji envestisman alontèm chanje repatisyon byen yon pòtfolyo tou dousman, soti nan pi agresif pou rive nan pi konsèvatè avèk tan, e poukisa moman sa a enpòtan."
 author: "Waldemar M. Caban, JD MA"
+lessonNumber: 35
+summary: "Aprann poukisa anpil estrateji envestisman alontèm chanje repatisyon byen yon pòtfolyo tou dousman, soti nan pi agresif pou rive nan pi konsèvatè avèk tan, e poukisa moman sa a enpòtan."
 ---
 
 # WHITE-L3-035: Poukisa yon chemen desant (glide path) deplase risk pandan w ap vin pi gran

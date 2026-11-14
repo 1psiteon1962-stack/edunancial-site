@@ -12,6 +12,8 @@ slug: white-l3-048-position-sizing
 seo_title: "Pourquoi la taille des positions détermine à quel point un seul mauvais pari peut vous nuire | Edunancial"
 meta_description: "Découvrez pourquoi le montant que vous investissez dans une seule position compte autant que la qualité de l'idée elle-même, et pourquoi la taille des positions est une forme de contrôle du risque."
 author: "Waldemar M. Caban, JD MA"
+lessonNumber: 48
+summary: "Découvrez pourquoi le montant que vous investissez dans une seule position compte autant que la qualité de l'idée elle-même, et pourquoi la taille des positions est une forme de contrôle du risque."
 ---
 
 # WHITE-L3-048: Pourquoi la taille des positions détermine à quel point un seul mauvais pari peut vous nuire

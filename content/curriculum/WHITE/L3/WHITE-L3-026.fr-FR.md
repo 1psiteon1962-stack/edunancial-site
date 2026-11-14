@@ -12,6 +12,8 @@ slug: white-l3-026-behavioral-biases-cost
 seo_title: "Pourquoi les biais comportementaux coûtent plus cher aux investisseurs que les frais | Edunancial"
 meta_description: "Découvrez pourquoi la psychologie de l'investisseur, et pas seulement les frais des fonds, est souvent citée comme l'un des plus gros freins aux rendements réels des investissements."
 author: "Waldemar M. Caban, JD MA"
+lessonNumber: 26
+summary: "Découvrez pourquoi la psychologie de l'investisseur, et pas seulement les frais des fonds, est souvent citée comme l'un des plus gros freins aux rendements réels des investissements."
 ---
 
 # WHITE-L3-026: Pourquoi les biais comportementaux coûtent plus cher aux investisseurs que les frais

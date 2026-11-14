@@ -12,6 +12,8 @@ slug: double-taxation-what-it-means-for-corporations
 seo_title: "Doppia imposizione: che cosa significa per le società | Edunancial"
 meta_description: "Spiega il concetto di doppia imposizione — l'utile tassato una volta a livello societario e di nuovo quando viene distribuito agli azionisti — partendo direttamente dalla lezione precedente."
 author: "Waldemar M. Caban, JD MA"
+lessonNumber: 41
+summary: "Spiega il concetto di doppia imposizione — l'utile tassato una volta a livello societario e di nuovo quando viene distribuito agli azionisti — partendo direttamente dalla lezione precedente."
 ---
 
 # GREEN-L1-041: Doppia imposizione: che cosa significa per le società

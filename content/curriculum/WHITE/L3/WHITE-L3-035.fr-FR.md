@@ -12,6 +12,8 @@ slug: white-l3-035-glide-path
 seo_title: "Pourquoi une trajectoire de désensibilisation réduit le risque avec l'âge | Edunancial"
 meta_description: "Découvrez pourquoi de nombreuses stratégies d'investissement à long terme font passer progressivement l'allocation d'actifs d'un portefeuille d'une approche plus dynamique à une approche plus prudente, et pourquoi ce calendrier compte."
 author: "Waldemar M. Caban, JD MA"
+lessonNumber: 35
+summary: "Découvrez pourquoi de nombreuses stratégies d'investissement à long terme font passer progressivement l'allocation d'actifs d'un portefeuille d'une approche plus dynamique à une approche plus prudente, et pourquoi ce calendrier compte."
 ---
 
 # WHITE-L3-035: Pourquoi une trajectoire de désensibilisation réduit le risque avec l'âge

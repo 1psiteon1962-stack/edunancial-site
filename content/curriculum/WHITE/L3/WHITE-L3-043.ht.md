@@ -12,6 +12,8 @@ slug: white-l3-043-market-vs-limit-orders
 seo_title: "Poukisa lòd mache ak lòd limit sèvi pou diferan bagay | Edunancial"
 meta_description: "Aprann diferans ant yon lòd mache (market order) ak yon lòd limit (limit order), e poukisa chwazi bon lòd la depann de sa ou vrèman ap eseye kontwole."
 author: "Waldemar M. Caban, JD MA"
+lessonNumber: 43
+summary: "Aprann diferans ant yon lòd mache (market order) ak yon lòd limit (limit order), e poukisa chwazi bon lòd la depann de sa ou vrèman ap eseye kontwole."
 ---
 
 # WHITE-L3-043: Poukisa lòd mache ak lòd limit sèvi pou diferan bagay

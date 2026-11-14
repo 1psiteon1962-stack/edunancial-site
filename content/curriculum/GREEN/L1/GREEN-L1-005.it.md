@@ -12,6 +12,8 @@ slug: sales-tax-taxing-what-you-buy
 seo_title: "Imposta sulle vendite: tassare ciò che compri | Edunancial"
 meta_description: "Come funzionano le imposte sui consumi, chi le riscuote e perché l'acquirente di solito le vede aggiunte alla cassa."
 author: "Waldemar M. Caban, JD MA"
+lessonNumber: 5
+summary: "Come funzionano le imposte sui consumi, chi le riscuote e perché l'acquirente di solito le vede aggiunte alla cassa."
 ---
 
 # GREEN-L1-005: Imposta sulle vendite: tassare ciò che compri

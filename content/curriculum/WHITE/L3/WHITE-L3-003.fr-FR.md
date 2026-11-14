@@ -12,6 +12,8 @@ slug: white-l3-003-correlation-and-real-diversification
 seo_title: "Pourquoi c'est la corrélation qui détermine la vraie diversification, et pas seulement le nombre de positions | Edunancial"
 meta_description: "Découvrez pourquoi posséder de nombreux investissements n'équivaut pas à être réellement diversifié, et pourquoi la corrélation est le concept qui détermine vraiment votre réduction du risque."
 author: "Waldemar M. Caban, JD MA"
+lessonNumber: 3
+summary: "Découvrez pourquoi posséder de nombreux investissements n'équivaut pas à être réellement diversifié, et pourquoi la corrélation est le concept qui détermine vraiment votre réduction du risque."
 ---
 
 # WHITE-L3-003: Pourquoi c'est la corrélation qui détermine la vraie diversification, et pas seulement le nombre de positions

@@ -12,6 +12,8 @@ slug: white-l3-001-buy-low-sell-high
 seo_title: "Pourquoi « acheter bas, vendre haut » est plus difficile à appliquer qu'à dire | Edunancial"
 meta_description: "Découvrez pourquoi le conseil d'investissement le plus simple est aussi l'un des plus difficiles à suivre en pratique, et ce qui fait réellement obstacle."
 author: "Waldemar M. Caban, JD MA"
+lessonNumber: 1
+summary: "Découvrez pourquoi le conseil d'investissement le plus simple est aussi l'un des plus difficiles à suivre en pratique, et ce qui fait réellement obstacle."
 ---
 
 # WHITE-L3-001: Pourquoi « acheter bas, vendre haut » est plus difficile à appliquer qu'à dire

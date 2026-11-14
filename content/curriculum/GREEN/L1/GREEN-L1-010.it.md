@@ -12,6 +12,8 @@ slug: tax-brackets-explained
 seo_title: "Gli scaglioni d'imposta spiegati | Edunancial"
 meta_description: "Una spiegazione concreta, passo per passo, di come sono strutturati e applicati gli scaglioni d'imposta, costruita direttamente sul concetto di aliquota marginale."
 author: "Waldemar M. Caban, JD MA"
+lessonNumber: 10
+summary: "Una spiegazione concreta, passo per passo, di come sono strutturati e applicati gli scaglioni d'imposta, costruita direttamente sul concetto di aliquota marginale."
 ---
 
 # GREEN-L1-010: Gli scaglioni d'imposta spiegati

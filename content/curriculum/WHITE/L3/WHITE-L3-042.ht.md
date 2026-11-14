@@ -12,6 +12,8 @@ slug: white-l3-042-liquidity-differences
 seo_title: "Poukisa likidite diferan ant yon aksyon gwo konpayi (blue-chip) ak yon aksyon moun pa achte e vann anpil | Edunancial"
 meta_description: "Aprann kisa likidite vle di pou yon tit, e poukisa yon aksyon moun pa achte e vann anpil ka pi difisil e pi chè pou achte oswa vann pase sa pri li pou kont li sijere."
 author: "Waldemar M. Caban, JD MA"
+lessonNumber: 42
+summary: "Aprann kisa likidite vle di pou yon tit, e poukisa yon aksyon moun pa achte e vann anpil ka pi difisil e pi chè pou achte oswa vann pase sa pri li pou kont li sijere."
 ---
 
 # WHITE-L3-042: Poukisa likidite diferan ant yon aksyon gwo konpayi (blue-chip) ak yon aksyon moun pa achte e vann anpil

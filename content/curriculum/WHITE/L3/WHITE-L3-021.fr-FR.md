@@ -12,6 +12,8 @@ slug: white-l3-021-etf-vs-mutual-fund
 seo_title: "Pourquoi les ETF et les fonds communs de placement diffèrent en matière de négociation, de fiscalité et de coût | Edunancial"
 meta_description: "Découvrez les différences pratiques entre les ETF et les fonds communs de placement, et pourquoi ces différences peuvent compter davantage que leurs grandes ressemblances."
 author: "Waldemar M. Caban, JD MA"
+lessonNumber: 21
+summary: "Découvrez les différences pratiques entre les ETF et les fonds communs de placement, et pourquoi ces différences peuvent compter davantage que leurs grandes ressemblances."
 ---
 
 # WHITE-L3-021: Pourquoi les ETF et les fonds communs de placement diffèrent en matière de négociation, de fiscalité et de coût

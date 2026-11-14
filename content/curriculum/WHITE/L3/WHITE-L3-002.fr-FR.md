@@ -12,6 +12,8 @@ slug: white-l3-002-diversification-and-expected-return
 seo_title: "Pourquoi la diversification réduit le risque sans réduire le rendement attendu (autant que vous le pensez) | Edunancial"
 meta_description: "Découvrez pourquoi répartir vos investissements sur de nombreuses positions réduit le risque plus efficacement qu'il ne réduit le rendement attendu, et pourquoi cet avantage a une limite."
 author: "Waldemar M. Caban, JD MA"
+lessonNumber: 2
+summary: "Découvrez pourquoi répartir vos investissements sur de nombreuses positions réduit le risque plus efficacement qu'il ne réduit le rendement attendu, et pourquoi cet avantage a une limite."
 ---
 
 # WHITE-L3-002: Pourquoi la diversification réduit le risque sans réduire le rendement attendu (autant que vous le pensez)

@@ -12,6 +12,8 @@ slug: white-l3-022-expense-ratios-compound
 seo_title: "Poukisa ratio depans yo akimile sou plizyè deseni | Edunancial"
 meta_description: "Aprann poukisa yon ti frè anyèl fon ki sanble piti ka koute w plizyè di milye dola sou yon orizon envestisman long, ak poukisa li fasil pou w pa bay efè sa a ase enpòtans."
 author: "Waldemar M. Caban, JD MA"
+lessonNumber: 22
+summary: "Aprann poukisa yon ti frè anyèl fon ki sanble piti ka koute w plizyè di milye dola sou yon orizon envestisman long, ak poukisa li fasil pou w pa bay efè sa a ase enpòtans."
 ---
 
 # WHITE-L3-022: Poukisa ratio depans yo akimile sou plizyè deseni

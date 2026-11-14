@@ -12,6 +12,8 @@ slug: white-l3-028-recency-bias
 seo_title: "Poukisa prejije sa ki fèk pase defòme jan ou wè risk apre yon mouvman mache | Edunancial"
 meta_description: "Aprann poukisa envestisè yo gen tandans bay evènman ki fèk pase twòp pwa lè y ap jije risk, e poukisa sa ka mennen nan desizyon ki pran nan move moman."
 author: "Waldemar M. Caban, JD MA"
+lessonNumber: 28
+summary: "Aprann poukisa envestisè yo gen tandans bay evènman ki fèk pase twòp pwa lè y ap jije risk, e poukisa sa ka mennen nan desizyon ki pran nan move moman."
 ---
 
 # WHITE-L3-028: Poukisa prejije sa ki fèk pase defòme jan ou wè risk apre yon mouvman mache

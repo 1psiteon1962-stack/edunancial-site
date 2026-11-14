@@ -12,6 +12,8 @@ slug: white-l3-004-volatility-vs-risk
 seo_title: "Pourquoi la volatilité et le risque ne sont pas exactement la même chose | Edunancial"
 meta_description: "Découvrez pourquoi un graphique de prix mouvementé n'équivaut pas automatiquement à un véritable risque financier, et pourquoi cette différence compte dans la façon d'évaluer un investissement."
 author: "Waldemar M. Caban, JD MA"
+lessonNumber: 4
+summary: "Découvrez pourquoi un graphique de prix mouvementé n'équivaut pas automatiquement à un véritable risque financier, et pourquoi cette différence compte dans la façon d'évaluer un investissement."
 ---
 
 # WHITE-L3-004: Pourquoi la volatilité et le risque ne sont pas exactement la même chose

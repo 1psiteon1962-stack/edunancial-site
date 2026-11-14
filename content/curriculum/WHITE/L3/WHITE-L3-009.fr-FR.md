@@ -12,6 +12,8 @@ slug: white-l3-009-margin-and-leverage
 seo_title: "Pourquoi la marge amplifie les gains et les pertes comme l'effet de levier immobilier | Edunancial"
 meta_description: "Découvrez comment fonctionne l'achat d'actions sur marge, et pourquoi il multiplie à la fois les gains et les pertes d'une manière qui reflète l'effet de levier immobilier."
 author: "Waldemar M. Caban, JD MA"
+lessonNumber: 9
+summary: "Découvrez comment fonctionne l'achat d'actions sur marge, et pourquoi il multiplie à la fois les gains et les pertes d'une manière qui reflète l'effet de levier immobilier."
 ---
 
 # WHITE-L3-009: Pourquoi la marge amplifie les gains et les pertes comme l'effet de levier immobilier

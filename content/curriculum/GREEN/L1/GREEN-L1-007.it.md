@@ -12,6 +12,8 @@ slug: payroll-tax-social-security-and-medicare
 seo_title: "Contributi sui salari: Social Security e Medicare | Edunancial"
 meta_description: "Presenta i contributi sui salari come una categoria legata specificamente alle retribuzioni da lavoro, che spesso finanzia programmi pensionistici e sanitari."
 author: "Waldemar M. Caban, JD MA"
+lessonNumber: 7
+summary: "Presenta i contributi sui salari come una categoria legata specificamente alle retribuzioni da lavoro, che spesso finanzia programmi pensionistici e sanitari."
 ---
 
 # GREEN-L1-007: Contributi sui salari: Social Security e Medicare

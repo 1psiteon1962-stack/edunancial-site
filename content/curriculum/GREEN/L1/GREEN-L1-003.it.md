@@ -12,6 +12,8 @@ slug: types-of-taxes-an-overview
 seo_title: "Tipi di imposte: una panoramica | Edunancial"
 meta_description: "Una mappa delle principali categorie di imposte che si incontrano — reddito, vendite/consumi, proprietà e contributi sui salari — prima di approfondire ciascuna."
 author: "Waldemar M. Caban, JD MA"
+lessonNumber: 3
+summary: "Una mappa delle principali categorie di imposte che si incontrano — reddito, vendite/consumi, proprietà e contributi sui salari — prima di approfondire ciascuna."
 ---
 
 # GREEN-L1-003: Tipi di imposte: una panoramica

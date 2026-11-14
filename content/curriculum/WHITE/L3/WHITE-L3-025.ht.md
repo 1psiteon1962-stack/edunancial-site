@@ -12,6 +12,8 @@ slug: white-l3-025-past-performance-not-predictive
 seo_title: "Poukisa pèfòmans sot pase yon fon pa prevwa pèfòmans alavni li | Edunancial"
 meta_description: "Aprann poukisa bon rezilta resan yon fon pa yon siyal ou ka fè konfyans pou konnen ki jan li pral mache pita."
 author: "Waldemar M. Caban, JD MA"
+lessonNumber: 25
+summary: "Aprann poukisa bon rezilta resan yon fon pa yon siyal ou ka fè konfyans pou konnen ki jan li pral mache pita."
 ---
 
 # WHITE-L3-025: Poukisa pèfòmans sot pase yon fon pa prevwa pèfòmans alavni li

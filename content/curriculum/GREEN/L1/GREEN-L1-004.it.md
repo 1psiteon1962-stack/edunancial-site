@@ -12,6 +12,8 @@ slug: income-tax-taxing-what-you-earn
 seo_title: "Imposta sul reddito: tassare ciò che guadagni | Edunancial"
 meta_description: "Uno sguardo più da vicino all'imposta sul reddito — come si applica a stipendi, utili d'impresa e redditi da investimenti."
 author: "Waldemar M. Caban, JD MA"
+lessonNumber: 4
+summary: "Uno sguardo più da vicino all'imposta sul reddito — come si applica a stipendi, utili d'impresa e redditi da investimenti."
 ---
 
 # GREEN-L1-004: Imposta sul reddito: tassare ciò che guadagni

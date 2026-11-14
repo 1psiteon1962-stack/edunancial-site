@@ -12,6 +12,8 @@ slug: depreciation-spreading-a-cost-over-time
 seo_title: "Ammortamento: distribuire un costo nel tempo | Edunancial"
 meta_description: "Introduce l'ammortamento come il concetto di distribuire il costo di un bene aziendale durevole su più anni, invece di dedurlo tutto in una volta."
 author: "Waldemar M. Caban, JD MA"
+lessonNumber: 27
+summary: "Introduce l'ammortamento come il concetto di distribuire il costo di un bene aziendale durevole su più anni, invece di dedurlo tutto in una volta."
 ---
 
 # GREEN-L1-027: Ammortamento: distribuire un costo nel tempo

@@ -12,6 +12,8 @@ slug: self-employment-tax-what-freelancers-and-business-owners-owe
 seo_title: "L'imposta sul lavoro autonomo: che cosa devono freelance e titolari d'impresa | Edunancial"
 meta_description: "Parte dalla lezione sui contributi sui salari per spiegare perché i lavoratori autonomi pagano sia la quota del datore di lavoro sia quella del dipendente."
 author: "Waldemar M. Caban, JD MA"
+lessonNumber: 23
+summary: "Parte dalla lezione sui contributi sui salari per spiegare perché i lavoratori autonomi pagano sia la quota del datore di lavoro sia quella del dipendente."
 ---
 
 # GREEN-L1-023: L'imposta sul lavoro autonomo: che cosa devono freelance e titolari d'impresa

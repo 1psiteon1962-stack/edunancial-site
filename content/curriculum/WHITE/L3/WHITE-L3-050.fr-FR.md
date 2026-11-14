@@ -12,6 +12,8 @@ slug: white-l3-050-what-you-dont-need-to-predict
 seo_title: "Pourquoi maîtriser les actifs papier, c'est savoir ce que vous n'avez pas besoin de prédire | Edunancial"
 meta_description: "La leçon de clôture de ce parcours : pourquoi la véritable compétence en investissement dans les actifs papier consiste à structurer un plan autour de l'incertitude, et non à deviner le prochain mouvement du marché."
 author: "Waldemar M. Caban, JD MA"
+lessonNumber: 50
+summary: "La leçon de clôture de ce parcours : pourquoi la véritable compétence en investissement dans les actifs papier consiste à structurer un plan autour de l'incertitude, et non à deviner le prochain mouvement du marché."
 ---
 
 # WHITE-L3-050: Pourquoi maîtriser les actifs papier, c'est savoir ce que vous n'avez pas besoin de prédire

@@ -12,6 +12,8 @@ slug: tax-havens-and-why-countries-compete-for-business
 seo_title: "Paradisi fiscali e perché i Paesi competono per le imprese | Edunancial"
 meta_description: "Introduce il concetto di paradisi fiscali e di concorrenza fiscale tra Stati a un livello di base, neutrale e concettuale."
 author: "Waldemar M. Caban, JD MA"
+lessonNumber: 44
+summary: "Introduce il concetto di paradisi fiscali e di concorrenza fiscale tra Stati a un livello di base, neutrale e concettuale."
 ---
 
 # GREEN-L1-044: Paradisi fiscali e perché i Paesi competono per le imprese

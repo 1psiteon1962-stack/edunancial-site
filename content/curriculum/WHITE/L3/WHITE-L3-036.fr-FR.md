@@ -12,6 +12,8 @@ slug: white-l3-036-tax-advantaged-accounts
 seo_title: "Pourquoi les comptes fiscalement avantageux changent le calcul des rendements après impôts | Edunancial"
 meta_description: "Découvrez pourquoi le type de compte par lequel vous investissez peut changer sensiblement le rendement que vous gardez réellement, indépendamment de la performance propre de l'investissement."
 author: "Waldemar M. Caban, JD MA"
+lessonNumber: 36
+summary: "Découvrez pourquoi le type de compte par lequel vous investissez peut changer sensiblement le rendement que vous gardez réellement, indépendamment de la performance propre de l'investissement."
 ---
 
 # WHITE-L3-036: Pourquoi les comptes fiscalement avantageux changent le calcul des rendements après impôts

@@ -12,6 +12,8 @@ slug: white-l3-030-assets-and-inflation
 seo_title: "Pourquoi les différents actifs réagissent différemment à l'inflation | Edunancial"
 meta_description: "Découvrez pourquoi certains investissements ont tendance à mieux résister que d'autres pendant les périodes d'inflation, et pourquoi il n'existe pas de protection parfaite unique contre l'inflation."
 author: "Waldemar M. Caban, JD MA"
+lessonNumber: 30
+summary: "Découvrez pourquoi certains investissements ont tendance à mieux résister que d'autres pendant les périodes d'inflation, et pourquoi il n'existe pas de protection parfaite unique contre l'inflation."
 ---
 
 # WHITE-L3-030: Pourquoi les différents actifs réagissent différemment à l'inflation

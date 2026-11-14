@@ -12,6 +12,8 @@ slug: white-l3-011-short-selling-risk
 seo_title: "Poukisa vant a dekouvè (short selling) gen yon risk ki, an teyori, pa gen limit | Edunancial"
 meta_description: "Aprann ki jan vant a dekouvè mache, poukisa li fè pwofi lè pri a desann, ak poukisa pèt potansyèl li pa gen limit nan estrikti li."
 author: "Waldemar M. Caban, JD MA"
+lessonNumber: 11
+summary: "Aprann ki jan vant a dekouvè mache, poukisa li fè pwofi lè pri a desann, ak poukisa pèt potansyèl li pa gen limit nan estrikti li."
 ---
 
 # WHITE-L3-011: Poukisa vant a dekouvè (short selling) gen yon risk ki, an teyori, pa gen limit

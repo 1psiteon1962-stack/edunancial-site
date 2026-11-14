@@ -12,6 +12,8 @@ slug: white-l3-050-what-you-dont-need-to-predict
 seo_title: "Poukisa metrize byen an papye vle di konnen sa ou pa bezwen predi | Edunancial"
 meta_description: "Dènye leson tras sa a — poukisa vrè konpetans nan envesti nan byen an papye se nan òganize yon plan otou ensètitid, pa nan devine pwochen mouvman mache a."
 author: "Waldemar M. Caban, JD MA"
+lessonNumber: 50
+summary: "Dènye leson tras sa a — poukisa vrè konpetans nan envesti nan byen an papye se nan òganize yon plan otou ensètitid, pa nan devine pwochen mouvman mache a."
 ---
 
 # WHITE-L3-050: Poukisa metrize byen an papye vle di konnen sa ou pa bezwen predi

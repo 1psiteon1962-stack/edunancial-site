@@ -12,6 +12,8 @@ slug: white-l3-034-asset-allocation-vs-stock-picking
 seo_title: "Pourquoi l'allocation d'actifs compte plus que le choix des actions individuelles | Edunancial"
 meta_description: "Découvrez pourquoi la répartition entre les classes d'actifs d'un portefeuille tend à déterminer les résultats à long terme davantage que les actions précises choisies dans chaque classe."
 author: "Waldemar M. Caban, JD MA"
+lessonNumber: 34
+summary: "Découvrez pourquoi la répartition entre les classes d'actifs d'un portefeuille tend à déterminer les résultats à long terme davantage que les actions précises choisies dans chaque classe."
 ---
 
 # WHITE-L3-034: Pourquoi l'allocation d'actifs compte plus que le choix des actions individuelles

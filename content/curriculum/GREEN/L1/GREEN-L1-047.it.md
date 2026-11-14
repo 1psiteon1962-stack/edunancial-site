@@ -12,6 +12,8 @@ slug: penalties-and-interest-for-late-or-incorrect-filing
 seo_title: "Sanzioni e interessi per dichiarazioni tardive o errate | Edunancial"
 meta_description: "Spiega, a livello concettuale, perché esistono sanzioni e interessi e come tipicamente aumentano nel tempo il costo degli errori fiscali."
 author: "Waldemar M. Caban, JD MA"
+lessonNumber: 47
+summary: "Spiega, a livello concettuale, perché esistono sanzioni e interessi e come tipicamente aumentano nel tempo il costo degli errori fiscali."
 ---
 
 # GREEN-L1-047: Sanzioni e interessi per dichiarazioni tardive o errate

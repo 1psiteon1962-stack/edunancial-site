@@ -12,6 +12,8 @@ slug: white-l3-015-sequence-of-returns-risk
 seo_title: "Poukisa risk lòd rannman yo pi enpòtan nan retrèt pase pandan w ap akimile | Edunancial"
 meta_description: "Aprann poukisa lòd rannman envestisman yo rive a ka pi enpòtan pase rannman mwayèn nan li menm, sitou yon fwa ou kòmanse retire lajan."
 author: "Waldemar M. Caban, JD MA"
+lessonNumber: 15
+summary: "Aprann poukisa lòd rannman envestisman yo rive a ka pi enpòtan pase rannman mwayèn nan li menm, sitou yon fwa ou kòmanse retire lajan."
 ---
 
 # WHITE-L3-015: Poukisa risk lòd rannman yo pi enpòtan nan retrèt pase pandan w ap akimile

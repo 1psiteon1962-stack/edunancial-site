@@ -12,6 +12,8 @@ slug: what-is-withholding
 seo_title: "Che cos'è la ritenuta alla fonte? | Edunancial"
 meta_description: "Spiega la ritenuta d'imposta alla fonte — perché i datori di lavoro trattengono una stima dell'imposta prima di pagarti, invece di aspettare un unico pagamento più tardi."
 author: "Waldemar M. Caban, JD MA"
+lessonNumber: 13
+summary: "Spiega la ritenuta d'imposta alla fonte — perché i datori di lavoro trattengono una stima dell'imposta prima di pagarti, invece di aspettare un unico pagamento più tardi."
 ---
 
 # GREEN-L1-013: Che cos'è la ritenuta alla fonte?

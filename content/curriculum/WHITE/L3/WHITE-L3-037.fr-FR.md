@@ -12,6 +12,8 @@ slug: white-l3-037-tax-loss-harvesting
 seo_title: "Pourquoi la récolte des pertes fiscales transforme une perte en avantage futur | Edunancial"
 meta_description: "Découvrez comment fonctionne la récolte des pertes fiscales (tax-loss harvesting), pourquoi elle transforme une perte latente en avantage fiscal utilisable et pourquoi elle demande de la prudence."
 author: "Waldemar M. Caban, JD MA"
+lessonNumber: 37
+summary: "Découvrez comment fonctionne la récolte des pertes fiscales (tax-loss harvesting), pourquoi elle transforme une perte latente en avantage fiscal utilisable et pourquoi elle demande de la prudence."
 ---
 
 # WHITE-L3-037: Pourquoi la récolte des pertes fiscales transforme une perte en avantage futur

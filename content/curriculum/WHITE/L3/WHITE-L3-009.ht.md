@@ -12,6 +12,8 @@ slug: white-l3-009-margin-and-leverage
 seo_title: "Poukisa maj (margin) grandi pwofi ak pèt menm jan ak efè levye nan imobilye | Edunancial"
 meta_description: "Aprann ki jan achte aksyon sou maj mache, ak poukisa li miltipliye ni pwofi ni pèt yon fason ki sanble ak efè levye nan imobilye."
 author: "Waldemar M. Caban, JD MA"
+lessonNumber: 9
+summary: "Aprann ki jan achte aksyon sou maj mache, ak poukisa li miltipliye ni pwofi ni pèt yon fason ki sanble ak efè levye nan imobilye."
 ---
 
 # WHITE-L3-009: Poukisa maj (margin) grandi pwofi ak pèt menm jan ak efè levye nan imobilye
