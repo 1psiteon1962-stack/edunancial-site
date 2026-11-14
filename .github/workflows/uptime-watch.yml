@@ -28,13 +28,17 @@ jobs:
         run: |
           set -u
           fail=""
+          slow=""
           check() {
             local url="$1" expect="$2"
             for attempt in 1 2; do
               out=$(curl -sS -o /tmp/body -w '%{http_code} %{time_total}' --max-time 20 -A "EdunancialUptimeWatch/1.0" "$url" 2>&1) || out="000 0"
               code=${out%% *}; secs=${out##* }
               if [ "$code" = "200" ] && { [ -z "$expect" ] || grep -qi "$expect" /tmp/body; }; then
-                echo "OK   $url ${code} ${secs}s"; return 0
+                echo "OK   $url ${code} ${secs}s"
+                # Early warning: a page taking over 15 seconds usually precedes an outage.
+                if awk "BEGIN{exit !($secs > 15)}"; then slow="${slow}- ${url} took ${secs}s"$'\n'; fi
+                return 0
               fi
               sleep 30
             done
@@ -48,14 +52,26 @@ jobs:
             echo "failures<<EOF"
             printf '%s' "$fail"
             echo "EOF"
+            echo "slow<<EOF"
+            printf '%s' "$slow"
+            echo "EOF"
           } >> "$GITHUB_OUTPUT"
 
       - name: Open or close the site-down alert
         env:
           GH_TOKEN: ${{ github.token }}
           FAILURES: ${{ steps.probe.outputs.failures }}
+          SLOW: ${{ steps.probe.outputs.slow }}
         shell: bash
         run: |
+          gh label create site-slow --color FBCA04 --description "Early warning: live site responding slowly" --repo "$GITHUB_REPOSITORY" 2>/dev/null || true
+          slow_open=$(gh issue list --repo "$GITHUB_REPOSITORY" --label site-slow --state open --json number --jq '.[0].number // empty')
+          if [ -n "$SLOW" ] && [ -z "$FAILURES" ]; then
+            body=$(printf 'Early warning at %s: the site is up but responding slowly.\n\n%s\nThis often comes before an outage. It closes automatically when speed returns to normal.' "$(date -u '+%Y-%m-%d %H:%M UTC')" "$SLOW")
+            if [ -z "$slow_open" ]; then gh issue create --repo "$GITHUB_REPOSITORY" --label site-slow --title "WARNING: edunancial.com is slowing down" --body "$body"; else gh issue comment "$slow_open" --repo "$GITHUB_REPOSITORY" --body "$body"; fi
+          elif [ -z "$SLOW" ] && [ -n "$slow_open" ]; then
+            gh issue close "$slow_open" --repo "$GITHUB_REPOSITORY" --comment "Speed back to normal."
+          fi
           gh label create site-down --color B60205 --description "Live site failing uptime checks" --repo "$GITHUB_REPOSITORY" 2>/dev/null || true
           open=$(gh issue list --repo "$GITHUB_REPOSITORY" --label site-down --state open --json number --jq '.[0].number // empty')
           now=$(date -u '+%Y-%m-%d %H:%M UTC')
