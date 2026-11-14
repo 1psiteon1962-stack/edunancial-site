@@ -1,0 +1,72 @@
+name: Uptime watch
+
+# Checks the live site every 10 minutes. If it is down or failing, opens a
+# GitHub issue labelled "site-down" (GitHub emails the repository owner).
+# Closes the issue automatically when the site recovers.
+
+on:
+  schedule:
+    - cron: "*/10 * * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  issues: write
+
+concurrency:
+  group: uptime-watch
+  cancel-in-progress: false
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Check edunancial.com
+        id: probe
+        shell: bash
+        run: |
+          set -u
+          fail=""
+          check() {
+            local url="$1" expect="$2"
+            for attempt in 1 2; do
+              out=$(curl -sS -o /tmp/body -w '%{http_code} %{time_total}' --max-time 20 -A "EdunancialUptimeWatch/1.0" "$url" 2>&1) || out="000 0"
+              code=${out%% *}; secs=${out##* }
+              if [ "$code" = "200" ] && { [ -z "$expect" ] || grep -qi "$expect" /tmp/body; }; then
+                echo "OK   $url ${code} ${secs}s"; return 0
+              fi
+              sleep 30
+            done
+            echo "FAIL $url ${code} ${secs}s"; fail="${fail}- ${url} returned ${code} after ${secs}s"$'\n'
+          }
+          check "https://edunancial.com/" "Edunancial"
+          check "https://edunancial.com/api/health/live" ""
+          check "https://edunancial.com/curriculum" ""
+          check "https://edunancial.com/api/public/curriculum/catalog" ""
+          {
+            echo "failures<<EOF"
+            printf '%s' "$fail"
+            echo "EOF"
+          } >> "$GITHUB_OUTPUT"
+
+      - name: Open or close the site-down alert
+        env:
+          GH_TOKEN: ${{ github.token }}
+          FAILURES: ${{ steps.probe.outputs.failures }}
+        shell: bash
+        run: |
+          gh label create site-down --color B60205 --description "Live site failing uptime checks" --repo "$GITHUB_REPOSITORY" 2>/dev/null || true
+          open=$(gh issue list --repo "$GITHUB_REPOSITORY" --label site-down --state open --json number --jq '.[0].number // empty')
+          now=$(date -u '+%Y-%m-%d %H:%M UTC')
+          if [ -n "$FAILURES" ]; then
+            body=$(printf 'Uptime watch found problems at %s:\n\n%s\nThis issue closes automatically when the site recovers.' "$now" "$FAILURES")
+            if [ -z "$open" ]; then
+              gh issue create --repo "$GITHUB_REPOSITORY" --label site-down --title "ALERT: edunancial.com is failing ($now)" --body "$body"
+            else
+              gh issue comment "$open" --repo "$GITHUB_REPOSITORY" --body "$body"
+            fi
+            exit 1
+          elif [ -n "$open" ]; then
+            gh issue close "$open" --repo "$GITHUB_REPOSITORY" --comment "Recovered: all uptime checks passed at $now."
+          fi

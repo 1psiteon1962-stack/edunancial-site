@@ -1,0 +1,86 @@
+name: Weekly security check
+
+# Every Monday: known-vulnerable packages, leaked secrets in the public
+# repository, and the live site's browser security settings. Findings open a
+# GitHub issue labelled "security" (GitHub emails the repository owner).
+
+on:
+  schedule:
+    - cron: "23 13 * * 1"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  issues: write
+
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Known-vulnerable packages
+        id: audit
+        shell: bash
+        run: |
+          npm audit --omit=dev --json > audit.json 2>/dev/null || true
+          node -e '
+            const a = JSON.parse(require("fs").readFileSync("audit.json","utf8") || "{}");
+            const v = (a.metadata && a.metadata.vulnerabilities) || {};
+            const high = (v.high || 0) + (v.critical || 0);
+            const lines = Object.entries(a.vulnerabilities || {})
+              .filter(([, x]) => ["high","critical"].includes(x.severity))
+              .map(([name, x]) => `- ${name} (${x.severity})${x.fixAvailable ? " — fix available" : ""}`);
+            require("fs").writeFileSync("audit.md", high ? lines.join("\n") + "\n" : "");
+            console.log(`critical=${v.critical||0} high=${v.high||0} moderate=${v.moderate||0} low=${v.low||0}`);
+          '
+
+      - name: Leaked secrets in the repository
+        shell: bash
+        run: |
+          docker run --rm -v "$PWD:/repo" zricethezav/gitleaks:v8.21.2 detect --source /repo --no-banner --redact \
+            --report-format json --report-path /repo/gitleaks.json --exit-code 0 || true
+          node -e '
+            let f = [];
+            try { f = JSON.parse(require("fs").readFileSync("gitleaks.json","utf8")); } catch {}
+            const lines = f.slice(0, 50).map((x) => `- ${x.RuleID} in \`${x.File}\` (commit ${String(x.Commit).slice(0,8)})`);
+            require("fs").writeFileSync("secrets.md", lines.length ? lines.join("\n") + (f.length > 50 ? `\n- …and ${f.length - 50} more` : "") + "\n" : "");
+            console.log(`possible secrets: ${f.length}`);
+          '
+
+      - name: Live site browser security settings
+        shell: bash
+        run: |
+          curl -sSI --max-time 20 https://edunancial.com/ > headers.txt || true
+          : > headers.md
+          for h in strict-transport-security x-content-type-options x-frame-options referrer-policy permissions-policy; do
+            grep -qi "^$h:" headers.txt || echo "- Missing header: $h" >> headers.md
+          done
+          cat headers.txt
+
+      - name: Report
+        env:
+          GH_TOKEN: ${{ github.token }}
+        shell: bash
+        run: |
+          {
+            echo "## Weekly security check — $(date -u '+%Y-%m-%d')"
+            echo
+            echo "### Known-vulnerable packages (high/critical)"; [ -s audit.md ] && cat audit.md || echo "None found."
+            echo
+            echo "### Possible leaked secrets"; [ -s secrets.md ] && cat secrets.md || echo "None found."
+            echo
+            echo "### Browser security settings"; [ -s headers.md ] && cat headers.md || echo "All present."
+          } > report.md
+          cat report.md >> "$GITHUB_STEP_SUMMARY"
+          if [ -s audit.md ] || [ -s secrets.md ] || [ -s headers.md ]; then
+            gh label create security --color D93F0B --description "Security findings" --repo "$GITHUB_REPOSITORY" 2>/dev/null || true
+            gh issue create --repo "$GITHUB_REPOSITORY" --label security --title "Weekly security check found items ($(date -u '+%Y-%m-%d'))" --body-file report.md
+          fi
