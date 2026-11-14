@@ -12,6 +12,20 @@ function getSessionId(): string {
   return id;
 }
 
+/** Anonymous first-party ID so returning visitors are counted once. */
+function getVisitorId(): string | null {
+  try {
+    const key = "edunancial_kpi_visitor";
+    const existing = window.localStorage.getItem(key);
+    if (existing) return existing;
+    const id = crypto.randomUUID();
+    window.localStorage.setItem(key, id);
+    return id;
+  } catch {
+    return null;
+  }
+}
+
 export default function PageViewTracker() {
   const pathname = usePathname();
   const searchParams = useSearchParams();
@@ -28,7 +42,13 @@ export default function PageViewTracker() {
       utm_campaign: params.get("utm_campaign"),
       utm_term: params.get("utm_term"),
       utm_content: params.get("utm_content"),
-      metadata: { title: document.title },
+      metadata: {
+        title: document.title,
+        visitor_id: getVisitorId(),
+        site_locale: document.documentElement.lang || null,
+        browser_language: navigator.language || null,
+        screen: window.innerWidth < 768 ? "mobile" : window.innerWidth < 1100 ? "tablet" : "desktop",
+      },
     };
 
     void fetch("/api/kpi/track", {
