@@ -34,8 +34,7 @@ jobs:
   translate:
     runs-on: ubuntu-latest
     timeout-minutes: 300
-    env:
-      OPENAI_ORGANIZATION: org-5Mmp9o6SiLOFDfUWbzF7xoPI
+    # No OpenAI-Organization header: the API key's default organization is used.
     steps:
       - uses: actions/checkout@v4
         with:
