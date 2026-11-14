@@ -2,250 +2,56 @@
 id: BLACK-L1-003
 track: BLACK
 officialTrackName: "Leadership & Executive Management"
-color: BLACK
 level: 1
 lessonNumber: 3
 locale: es-ES
+source_locale: en-US
 title: "Fundamentos para definir una visión"
-summary: "Esta lección enseña a **convertir propósito en una imagen concreta del futuro**. El alumno aprenderá a convertir el concepto en una decisión observable, conectando personas, ejecución, riesgo y recursos financieros."
+summary: "Presenta cómo definir una visión clara que dé dirección a un equipo o a un proyecto."
+version: "1.0"
+author: "Waldemar M. Caban, JD MA"
+date: "2026-11-13"
 ---
 
-# 3. Fundamentos para definir una visión
-
-### BLACK-L1-003-MAIN
-## Resumen ejecutivo
-Esta lección enseña a **convertir propósito en una imagen concreta del futuro**. El alumno aprenderá a convertir el concepto en una decisión observable, conectando personas, ejecución, riesgo y recursos financieros.
+# Fundamentos para definir una visión
 
 ## Objetivos de aprendizaje
-- **Alfabetización financiera:** reconocer el efecto de la decisión sobre recursos.
-- **Competencia financiera:** relacionarla con coste, ingresos, margen, caja o productividad.
-- **Mejor criterio:** separar hechos, supuestos y alternativas.
-- **Mejores decisiones:** asignar responsable, plazo e indicador.
-- **Construcción de patrimonio:** proteger capital y capacidad de reinversión mediante mejores decisiones.
+- Definir qué es una visión en el contexto del liderazgo
+- Explicar por qué las visiones vagas no motivan a la gente
+- Redactar una declaración de visión básica para un proyecto o negocio sencillo
 
-## Prerrequisitos
-No se requiere formación empresarial previa; basta con aritmética básica y disposición para justificar decisiones.
+## Contenido principal
 
-## Lección principal
-### 1. Aplicación 1: Convertir propósito en una imagen concreta del futuro
-[HECHO VERIFICABLE] Una decisión de liderazgo puede evaluarse por sus consecuencias observables. En este tema, el líder empieza definiendo el resultado que pretende conseguir y la evidencia que permitiría reconocerlo. Después separa hechos de suposiciones, identifica a las personas afectadas y calcula qué recursos consume la alternativa.
+Una visión es una imagen clara de adónde intentas llegar y de por qué importa. Es distinta de un objetivo, que es una meta concreta y medible. Un objetivo podría ser «vender 500 unidades este trimestre». Una visión es la razón más grande que hay detrás de ese objetivo: «existimos para que las herramientas de calidad sean asequibles para quienes se han quedado fuera del mercado por precio».
 
-La disciplina consiste en preguntar: ¿qué problema resolvemos?, ¿qué sabemos?, ¿qué desconocemos?, ¿qué cuesta actuar?, ¿qué cuesta esperar?, ¿qué riesgo podemos soportar? y ¿quién será responsable del seguimiento? El objetivo práctico es **convertir propósito en una imagen concreta del futuro**. Una decisión sin fecha de revisión convierte una hipótesis en costumbre; una decisión revisable crea aprendizaje.
-### 2. Aplicación 2: Convertir propósito en una imagen concreta del futuro
-[HECHO VERIFICABLE] Una decisión de liderazgo puede evaluarse por sus consecuencias observables. En este tema, el líder empieza definiendo el resultado que pretende conseguir y la evidencia que permitiría reconocerlo. Después separa hechos de suposiciones, identifica a las personas afectadas y calcula qué recursos consume la alternativa.
+Una visión débil es tan vaga que no significa nada: «ser los mejores del sector». Nadie puede actuar a partir de eso. Una visión sólida es lo bastante concreta como para que quien la escuche entienda exactamente qué futuro estás construyendo y por qué merece su esfuerzo.
 
-La disciplina consiste en preguntar: ¿qué problema resolvemos?, ¿qué sabemos?, ¿qué desconocemos?, ¿qué cuesta actuar?, ¿qué cuesta esperar?, ¿qué riesgo podemos soportar? y ¿quién será responsable del seguimiento? El objetivo práctico es **convertir propósito en una imagen concreta del futuro**. Una decisión sin fecha de revisión convierte una hipótesis en costumbre; una decisión revisable crea aprendizaje.
-### 3. Aplicación 3: Convertir propósito en una imagen concreta del futuro
-[HECHO VERIFICABLE] Una decisión de liderazgo puede evaluarse por sus consecuencias observables. En este tema, el líder empieza definiendo el resultado que pretende conseguir y la evidencia que permitiría reconocerlo. Después separa hechos de suposiciones, identifica a las personas afectadas y calcula qué recursos consume la alternativa.
+La visión importa porque a la gente no la mantienen motivada solo las tareas: la mantiene motivada creer que esas tareas suman algo con sentido. Parte del trabajo de un líder es repetir y reforzar esa visión a menudo, porque el trabajo del día a día puede hacer que la gente pierda de vista el panorama general.
 
-La disciplina consiste en preguntar: ¿qué problema resolvemos?, ¿qué sabemos?, ¿qué desconocemos?, ¿qué cuesta actuar?, ¿qué cuesta esperar?, ¿qué riesgo podemos soportar? y ¿quién será responsable del seguimiento? El objetivo práctico es **convertir propósito en una imagen concreta del futuro**. Una decisión sin fecha de revisión convierte una hipótesis en costumbre; una decisión revisable crea aprendizaje.
-### 4. Aplicación 4: Convertir propósito en una imagen concreta del futuro
-[HECHO VERIFICABLE] Una decisión de liderazgo puede evaluarse por sus consecuencias observables. En este tema, el líder empieza definiendo el resultado que pretende conseguir y la evidencia que permitiría reconocerlo. Después separa hechos de suposiciones, identifica a las personas afectadas y calcula qué recursos consume la alternativa.
+## Ejemplo práctico
 
-La disciplina consiste en preguntar: ¿qué problema resolvemos?, ¿qué sabemos?, ¿qué desconocemos?, ¿qué cuesta actuar?, ¿qué cuesta esperar?, ¿qué riesgo podemos soportar? y ¿quién será responsable del seguimiento? El objetivo práctico es **convertir propósito en una imagen concreta del futuro**. Una decisión sin fecha de revisión convierte una hipótesis en costumbre; una decisión revisable crea aprendizaje.
-### 5. Aplicación 5: Convertir propósito en una imagen concreta del futuro
-[HECHO VERIFICABLE] Una decisión de liderazgo puede evaluarse por sus consecuencias observables. En este tema, el líder empieza definiendo el resultado que pretende conseguir y la evidencia que permitiría reconocerlo. Después separa hechos de suposiciones, identifica a las personas afectadas y calcula qué recursos consume la alternativa.
+Alguien que lanza un programa en una televisión local de acceso público podría describir su visión de forma vaga: «Quiero hacer un buen programa». Eso no entusiasma a nadie. Una visión más afilada sería: «Quiero dar a la gente de este barrio una plataforma real para que se la escuche sobre temas que nadie más cubre». Eso es lo bastante concreto como para que los posibles invitados y el equipo técnico se vean como parte de algo con sentido, y no como simples extras en el proyecto personal de otra persona.
 
-La disciplina consiste en preguntar: ¿qué problema resolvemos?, ¿qué sabemos?, ¿qué desconocemos?, ¿qué cuesta actuar?, ¿qué cuesta esperar?, ¿qué riesgo podemos soportar? y ¿quién será responsable del seguimiento? El objetivo práctico es **convertir propósito en una imagen concreta del futuro**. Una decisión sin fecha de revisión convierte una hipótesis en costumbre; una decisión revisable crea aprendizaje.
+## Cuestionario de práctica
 
-## Definiciones clave
-- **Resultado:** cambio observable que se pretende conseguir.
-- **Criterio:** regla utilizada para comparar alternativas.
-- **Riesgo:** posibilidad de que un resultado afecte negativamente al objetivo.
-- **Indicador:** medida utilizada para observar progreso o resultado.
-- **Responsable:** persona que debe ejecutar o rendir cuentas sobre una acción.
+1. ¿Cuál es la diferencia entre una visión y un objetivo?
+2. ¿Por qué una visión vaga no motiva a la gente?
+3. ¿Por qué es tarea del líder repetir la visión a menudo?
+4. Escribe en una frase la visión de un negocio que enseña educación financiera a niños.
 
-### BLACK-L1-003-EXAMPLES
-## Ejemplo desarrollado
-Una pequeña empresa detecta un problema relacionado con **convertir propósito en una imagen concreta del futuro**. En vez de reaccionar de inmediato, la responsable fija un resultado a 30 días, recoge tres datos relevantes, estima el coste de dos alternativas y define un indicador semanal. Elige una opción reversible, asigna responsable y programa una revisión. Si el indicador no mejora, cambia el método sin abandonar el objetivo.
+## Clave de respuestas
+1. Un objetivo es una meta concreta y medible; una visión es la razón más grande que hay detrás del objetivo.
+2. Porque no da a la gente nada concreto en lo que actuar ni en lo que creer.
+3. Porque las tareas del día a día pueden hacer que la gente pierda de vista el propósito más amplio.
+4. Las respuestas variarán (ejemplo: «Existimos para que ningún niño crezca sin entender cómo funciona realmente el dinero»).
 
-## Estudio de caso
-Un equipo de ocho personas lleva dos meses incumpliendo un resultado importante. La dirección ha celebrado más reuniones, pero no ha definido un único responsable ni una medida de éxito. El coste del retraso es de 1.200 € al mes entre horas improductivas, incidencias y oportunidades perdidas. El líder debe decidir si rediseña el proceso, reasigna responsabilidades o mantiene el sistema actual. Antes de conocer el desenlace, el alumno debe elegir una opción y justificarla con datos.
+## Respuestas y explicaciones
+1. Esta distinción aclara por qué la visión y los objetivos cumplen funciones distintas en el liderazgo.
+2. La vaguedad impide que la gente conecte emocional o prácticamente con la visión.
+3. La repetición contrarresta la tendencia natural a perder de vista el propósito durante el trabajo rutinario.
+4. Una respuesta correcta es lo bastante concreta como para dibujar una imagen clara del impacto que se busca.
 
-**Pregunta de decisión:** ¿qué harías y qué dato exigirías revisar dentro de 30 días?
-
-## Errores comunes
-- Actuar antes de definir el problema.
-- Confundir actividad con resultado.
-- No estimar el coste de esperar.
-- Delegar una tarea sin autoridad ni seguimiento.
-- Mantener una decisión porque ya se invirtió tiempo o dinero.
-
-## Preguntas frecuentes
-### ¿Un líder necesita certeza antes de decidir?
-No. Necesita información proporcional al riesgo y claridad sobre qué incertidumbre está aceptando.
-
-### ¿Toda decisión debe expresarse en euros?
-No, pero las decisiones relevantes deberían considerar su efecto sobre tiempo, capacidad, coste, ingresos, caja o riesgo cuando corresponda.
-
-### ¿Cambiar de decisión demuestra debilidad?
-No cuando nueva evidencia invalida los supuestos originales. Corregir con criterio es parte de la responsabilidad.
-
-## Puntos clave
-- El objetivo de esta lección es convertir propósito en una imagen concreta del futuro.
-- Los criterios deben definirse antes de enamorarse de una solución.
-- Toda decisión importante necesita responsable, plazo, indicador y revisión.
-- Personas, operaciones y finanzas están conectadas.
-
-### BLACK-L1-003-EXERCISE
-## Ejercicio práctico
-Elige una situación real vinculada a **convertir propósito en una imagen concreta del futuro**. Escribe el resultado deseado, cinco hechos, tres supuestos, dos alternativas, coste estimado, riesgo principal, responsable, indicador y fecha de revisión. Explica qué evidencia te haría cambiar de método.
-
-### BLACK-L1-003-AI
-## Guía socrática
-1. ¿Qué resultado intentas conseguir?
-2. ¿Qué hechos puedes demostrar?
-3. ¿Qué estás suponiendo?
-4. ¿Quién se verá afectado?
-5. ¿Qué cuesta actuar?
-6. ¿Qué cuesta esperar?
-7. ¿Qué alternativa es reversible?
-8. ¿Qué indicador mostraría progreso?
-9. ¿Quién debe responder del resultado?
-10. ¿Qué evidencia justificaría cambiar de rumbo?
-
-### BLACK-L1-003-ASSESSMENT
-## Evaluación de competencia — 10 preguntas
-### 1. Opción múltiple
-1. En relación con **convertir propósito en una imagen concreta del futuro**, ¿qué debería hacer primero un líder competente?
-A) Actuar por impulso. B) Definir resultado y criterios, revisar hechos y riesgos. C) Esperar certeza absoluta. D) Evitar asignar responsable.
-
-### 2. Aplicación
-2. En relación con **convertir propósito en una imagen concreta del futuro**, ¿qué debería hacer primero un líder competente?
-A) Actuar por impulso. B) Definir resultado y criterios, revisar hechos y riesgos. C) Esperar certeza absoluta. D) Evitar asignar responsable.
-
-### 3. Aplicación
-3. En relación con **convertir propósito en una imagen concreta del futuro**, ¿qué debería hacer primero un líder competente?
-A) Actuar por impulso. B) Definir resultado y criterios, revisar hechos y riesgos. C) Esperar certeza absoluta. D) Evitar asignar responsable.
-
-### 4. Aplicación
-4. En relación con **convertir propósito en una imagen concreta del futuro**, ¿qué debería hacer primero un líder competente?
-A) Actuar por impulso. B) Definir resultado y criterios, revisar hechos y riesgos. C) Esperar certeza absoluta. D) Evitar asignar responsable.
-
-### 5. Opción múltiple
-5. En relación con **convertir propósito en una imagen concreta del futuro**, ¿qué debería hacer primero un líder competente?
-A) Actuar por impulso. B) Definir resultado y criterios, revisar hechos y riesgos. C) Esperar certeza absoluta. D) Evitar asignar responsable.
-
-### 6. Aplicación
-6. En relación con **convertir propósito en una imagen concreta del futuro**, ¿qué debería hacer primero un líder competente?
-A) Actuar por impulso. B) Definir resultado y criterios, revisar hechos y riesgos. C) Esperar certeza absoluta. D) Evitar asignar responsable.
-
-### 7. Aplicación
-7. En relación con **convertir propósito en una imagen concreta del futuro**, ¿qué debería hacer primero un líder competente?
-A) Actuar por impulso. B) Definir resultado y criterios, revisar hechos y riesgos. C) Esperar certeza absoluta. D) Evitar asignar responsable.
-
-### 8. Aplicación
-8. En relación con **convertir propósito en una imagen concreta del futuro**, ¿qué debería hacer primero un líder competente?
-A) Actuar por impulso. B) Definir resultado y criterios, revisar hechos y riesgos. C) Esperar certeza absoluta. D) Evitar asignar responsable.
-
-### 9. Aplicación
-9. En relación con **convertir propósito en una imagen concreta del futuro**, ¿qué debería hacer primero un líder competente?
-A) Actuar por impulso. B) Definir resultado y criterios, revisar hechos y riesgos. C) Esperar certeza absoluta. D) Evitar asignar responsable.
-
-### 10. Aplicación
-10. En relación con **convertir propósito en una imagen concreta del futuro**, ¿qué debería hacer primero un líder competente?
-A) Actuar por impulso. B) Definir resultado y criterios, revisar hechos y riesgos. C) Esperar certeza absoluta. D) Evitar asignar responsable.
-
-### BLACK-L1-003-ANSWER-KEY
-## Clave de respuestas comentada
-### 1. Respuesta
-**Respuesta esperada:** B. Definir el resultado, los criterios, los hechos disponibles y los riesgos antes de ejecutar.
-
-**Competencia evaluada:** aplicación de convertir propósito en una imagen concreta del futuro.
-
-**Error frecuente:** confundir rapidez con calidad de decisión o repetir una idea sin convertirla en acción medible.
-
-### 2. Respuesta
-**Respuesta esperada:** B. Definir el resultado, los criterios, los hechos disponibles y los riesgos antes de ejecutar.
-
-**Competencia evaluada:** aplicación de convertir propósito en una imagen concreta del futuro.
-
-**Error frecuente:** confundir rapidez con calidad de decisión o repetir una idea sin convertirla en acción medible.
-
-### 3. Respuesta
-**Respuesta esperada:** B. Definir el resultado, los criterios, los hechos disponibles y los riesgos antes de ejecutar.
-
-**Competencia evaluada:** aplicación de convertir propósito en una imagen concreta del futuro.
-
-**Error frecuente:** confundir rapidez con calidad de decisión o repetir una idea sin convertirla en acción medible.
-
-### 4. Respuesta
-**Respuesta esperada:** B. Definir el resultado, los criterios, los hechos disponibles y los riesgos antes de ejecutar.
-
-**Competencia evaluada:** aplicación de convertir propósito en una imagen concreta del futuro.
-
-**Error frecuente:** confundir rapidez con calidad de decisión o repetir una idea sin convertirla en acción medible.
-
-### 5. Respuesta
-**Respuesta esperada:** B. Definir el resultado, los criterios, los hechos disponibles y los riesgos antes de ejecutar.
-
-**Competencia evaluada:** aplicación de convertir propósito en una imagen concreta del futuro.
-
-**Error frecuente:** confundir rapidez con calidad de decisión o repetir una idea sin convertirla en acción medible.
-
-### 6. Respuesta
-**Respuesta esperada:** B. Definir el resultado, los criterios, los hechos disponibles y los riesgos antes de ejecutar.
-
-**Competencia evaluada:** aplicación de convertir propósito en una imagen concreta del futuro.
-
-**Error frecuente:** confundir rapidez con calidad de decisión o repetir una idea sin convertirla en acción medible.
-
-### 7. Respuesta
-**Respuesta esperada:** B. Definir el resultado, los criterios, los hechos disponibles y los riesgos antes de ejecutar.
-
-**Competencia evaluada:** aplicación de convertir propósito en una imagen concreta del futuro.
-
-**Error frecuente:** confundir rapidez con calidad de decisión o repetir una idea sin convertirla en acción medible.
-
-### 8. Respuesta
-**Respuesta esperada:** B. Definir el resultado, los criterios, los hechos disponibles y los riesgos antes de ejecutar.
-
-**Competencia evaluada:** aplicación de convertir propósito en una imagen concreta del futuro.
-
-**Error frecuente:** confundir rapidez con calidad de decisión o repetir una idea sin convertirla en acción medible.
-
-### 9. Respuesta
-**Respuesta esperada:** B. Definir el resultado, los criterios, los hechos disponibles y los riesgos antes de ejecutar.
-
-**Competencia evaluada:** aplicación de convertir propósito en una imagen concreta del futuro.
-
-**Error frecuente:** confundir rapidez con calidad de decisión o repetir una idea sin convertirla en acción medible.
-
-### 10. Respuesta
-**Respuesta esperada:** B. Definir el resultado, los criterios, los hechos disponibles y los riesgos antes de ejecutar.
-
-**Competencia evaluada:** aplicación de convertir propósito en una imagen concreta del futuro.
-
-**Error frecuente:** confundir rapidez con calidad de decisión o repetir una idea sin convertirla en acción medible.
-
-### BLACK-L1-003-COMPETENCY
-## Estándar de competencia
-- **Dominio:** 8/10 (80 %).
-- Por debajo del 80 %, el alumno revisará el concepto fallado, resolverá un escenario nuevo y repetirá la comprobación.
-- Con dominio, se desbloquea la siguiente lección.
-
-## Lecturas complementarias
-Consultar fuentes fiables sobre liderazgo, comportamiento organizativo, finanzas empresariales y toma de decisiones; verificar autoría, fecha, evidencia y aplicabilidad.
-
-## Ruta de aprendizaje
-- **Anterior:** BLACK-L1-002
-- **Actual:** BLACK-L1-003
-- **Siguiente:** BLACK-L1-004
-
-### BLACK-L1-003-SEO
-## Bloque SEO
-- **Título:** Fundamentos para definir una visión | BLACK Nivel 1 | Edunancial
-- **Descripción:** Aprende a convertir propósito en una imagen concreta del futuro mediante criterios de decisión, responsabilidad y comprensión financiera.
-- **Palabras clave:** liderazgo, gestión, decisiones, finanzas empresariales, equipo, responsabilidad
-
-### BLACK-L1-003-AI
-## Apoyo de IA
-El tutor puede simplificar conceptos, formular preguntas y crear escenarios adicionales. No debe sustituir asesoramiento jurídico, fiscal, contable, financiero o profesional individualizado.
-
-### BLACK-L1-003-LOCALIZATION
-## Localización — España
-Contenido creado directamente en español de España. Cuando una decisión dependa de legislación, fiscalidad, contabilidad o relaciones laborales, debe comprobarse la norma española vigente y la situación concreta.
-
-### BLACK-L1-003-REFERENCES
-## Referencias y verificación
-Los principios de liderazgo se presentan con fines educativos. Las cifras de los casos son ejemplos ilustrativos. Cualquier regla jurídica, fiscal, contable o regulatoria debe verificarse en fuentes oficiales actualizadas antes de aplicarla.
+## Ideas clave
+- La visión es el gran «porqué» que hay detrás de los objetivos concretos.
+- Las visiones vagas no motivan porque no dan a la gente nada concreto a lo que agarrarse.
+- Los líderes tienen que repetir la visión a menudo, porque las tareas diarias pueden ocultar el panorama general.
