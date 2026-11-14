@@ -33,4 +33,5 @@ yarn-error.log*
 # Generated at prebuild by scripts/curriculum/generate-runtime-manifest.mjs
 content/generated/curriculum-runtime-manifest.json
 content/generated/curriculum-runtime-manifest.json.gz
+content/generated/curriculum-index/**/*.json.gz
 src/generated/curriculum-runtime-manifest.ts
