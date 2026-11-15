@@ -60,6 +60,6 @@ Antes de discutir uma possível joint venture com um negócio complementar, duas
 
 **7. Pontos-chave**
 - Um acordo de confidencialidade unilateral obriga só uma parte; um mútuo proíbe as duas partes de divulgar informações confidenciais.
-- A estrutura adequada depende de uma ou das duas partes compartilharem informações sensíveis.
+- A estrutura adequada depende de uma ou das duas partes partilharem informações sensíveis.
 - Escolher a estrutura errada pode deixar as informações confidenciais de uma parte realmente sem proteção.
 - Isso se baseia diretamente na introdução aos acordos de confidencialidade da trilha BLUE, acrescentando uma visão comparativa da sua estrutura.
