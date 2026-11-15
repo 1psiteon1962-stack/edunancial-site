@@ -4,7 +4,7 @@ track: BLUE
 officialTrackName: Business
 level: 2
 lessonNumber: 24
-title: "Criando sistemas: por que um negócio que depende de você não consegue crescer"
+title: "Criando sistemas: por que um negócio que depende só do dono não consegue crescer"
 summary: "Um negócio que depende do dono para tudo esbarra num limite rígido de crescimento — sistemas documentados e repetíveis e, mais tarde, uma equipa permitem ultrapassar esse limite."
 version: 1.0
 author: Edunancial Faculty
@@ -15,7 +15,7 @@ translationStatus: owner-accepted
 ---
 
 ## BLUE-L2-024
-### Criando sistemas: por que um negócio que depende de você não consegue crescer
+### Criando sistemas: por que um negócio que depende só do dono não consegue crescer
 
 **1. Objetivos de aprendizagem**
 No final desta lição, será capaz de:
@@ -29,7 +29,7 @@ Um negócio que depende totalmente da presença e do esforço pessoal do dono em
 Neste contexto, um sistema é um processo documentado e repetível que permite realizar uma tarefa sempre do mesmo forma, seja o dono quem a faça ou não — retomando os procedimentos operacionais padrão discutidos com mais detalhes na Lição 27. Criar sistemas não tem a ver com o dono se envolver menos por preguiça; tem a ver com registar de forma deliberada como o trabalho deve ser feito, para que a capacidade do negócio deixe de ser limitada apenas pela disponibilidade pessoal do dono.
 
 **3. Exemplo prático**
-Tocando sozinha o seu negócio de cupcakes, Marisol percebe que chegou a um limite: ela mesma prepara cada pedido, cuida de cada contacto com os clientes e administra cada parte do negócio, sem nenhuma capacidade sobrando para aceitar mais pedidos, por maior que seja a procura. Reconhecendo a revelação dos sistemas, ela começa a documentar as suas receitas, os seus processos e a sua forma de atender os clientes em procedimentos claros e repetíveis, justamente para que um futuro funcionário possa, um dia, realizar essas tarefas sempre do mesmo forma — o primeiro passo deliberado rumo a um negócio que não dependa totalmente da sua presença pessoal, com a mão na massa, em cada pedido.
+Cuidando sozinha do seu negócio de cupcakes, Marisol percebe que chegou a um limite: ela mesma prepara cada pedido, cuida de cada contacto com os clientes e administra cada parte do negócio, sem nenhuma capacidade sobrando para aceitar mais pedidos, por maior que seja a procura. Reconhecendo a revelação dos sistemas, ela começa a documentar as suas receitas, os seus processos e a sua forma de atender os clientes em procedimentos claros e repetíveis, justamente para que um futuro funcionário possa, um dia, realizar essas tarefas sempre do mesmo forma — o primeiro passo deliberado rumo a um negócio que não dependa totalmente da sua presença pessoal, com a mão na massa, em cada pedido.
 
 **4. Questionário prático**
 1. O que é a "revelação dos sistemas", conforme descrita nesta lição?
