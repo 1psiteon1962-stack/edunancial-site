@@ -47,7 +47,7 @@ Avant de subir une chirurgie prévue comportant un certain risque de convalescen
    a) Il voulait que les pouvoirs cessent d'être valides s'il devenait incapable
    b) Il voulait que les pouvoirs de sa conjointe demeurent valides justement pendant une période d'incapacité possible
    c) La loi exige une procuration permanente pour toutes les chirurgies
-   d) Il n'avait aucune inquiétude au sujet d'une inaptitude
+   d) Il n'avait aucune inquiétude au sujet d'une incapacité
 
 **5. Corrigé**
 1. b  2. b  3. Faux  4. b
