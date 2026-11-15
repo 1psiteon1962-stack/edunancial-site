@@ -5,7 +5,7 @@ officialTrackName: "Paper Assets"
 level: 2
 lessonNumber: 10
 title: "Como os juros e os preços dos títulos interagem"
-summary: "Os preços dos títulos existentes e as taxas de juro vigentes geralmente andam em direções opostas — isso importa sobretudo se você vender antes do vencimento, e prazos longos reagem mais."
+summary: "Os preços dos títulos existentes e as taxas de juro vigentes geralmente andam em direções opostas — isso importa sobretudo se vender antes do vencimento, e prazos longos reagem mais."
 version: "1.0"
 author: "Waldemar M. Caban, JD MA"
 date: "2026-11-13"

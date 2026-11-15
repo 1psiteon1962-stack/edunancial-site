@@ -31,7 +31,7 @@ Enquanto a lente do crescimento aceita um preço mais alto pelo potencial futuro
 Um risco dessa lente: uma renda atual alta às vezes pode sinalizar dificuldades na empresa, e não força. Uma empresa com perspectivas em queda pode manter um dividendo alto temporariamente, mesmo enquanto sua capacidade de sustentá-lo enfraquece — um problema às vezes chamado de "armadilha de dividendos", em referência à armadilha de valor da Lição 3.
 
 **3. Exemplo prático**
-Em busca de renda complementar para a semiaposentadoria, Beatrice monta uma carteira com peso em empresas e fundos com histórico consolidado de dividendos regulares, priorizando a constância em vez do maior rendimento atual possível. Ela evita de propósito uma empresa com rendimento de dividendos incomumente alto, depois de pesquisar e descobrir que esse rendimento estava elevado principalmente porque a cotação tinha caído muito por causa de dificuldades reais no negócio — uma possível armadilha de dividendos, e não sinal de uma oportunidade incomum.
+Em busca de renda complementar para a semirreforma, Beatrice monta uma carteira com peso em empresas e fundos com histórico consolidado de dividendos regulares, priorizando a constância em vez do maior rendimento atual possível. Ela evita de propósito uma empresa com rendimento de dividendos incomumente alto, depois de pesquisar e descobrir que esse rendimento estava elevado principalmente porque a cotação tinha caído muito por causa de dificuldades reais no negócio — uma possível armadilha de dividendos, e não sinal de uma oportunidade incomum.
 
 **4. Questionário prático**
 1. O que o investimento em renda geralmente prioriza?

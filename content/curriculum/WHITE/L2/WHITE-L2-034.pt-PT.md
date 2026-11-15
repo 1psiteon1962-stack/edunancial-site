@@ -59,7 +59,7 @@ Comparando a sua abordagem com a de um amigo, Xavier investe apenas com dinheiro
 4. A compra com margem costuma envolver juros contínuos sobre o valor emprestado, um custo extra a ser superado.
 
 **7. Pontos-chave**
-- A compra com margem permite comprar mais papéis com recursos emprestados, garantidos pelos investimentos que você já tem.
+- A compra com margem permite comprar mais papéis com recursos emprestados, garantidos pelos investimentos que já tem.
 - Isso é um paralelo direto do conceito de alavancagem da trilha Imobiliário (RED), ampliando ganhos e perdas.
 - O valor emprestado e os juros precisam ser pagos, seja qual for o desempenho do investimento.
 - A compra com margem traz custos contínuos de juros, que precisam ser superados para a estratégia dar lucro.

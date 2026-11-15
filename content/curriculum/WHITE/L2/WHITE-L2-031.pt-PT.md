@@ -21,7 +21,7 @@ translationStatus: owner-accepted
 No final desta lição, será capaz de:
 - Definir, de forma conceitual, o ganho de capital.
 - Diferenciar, de forma conceitual, ganhos de capital de curto e de longo prazo.
-- Explicar por que o tempo que você mantém um investimento pode pesar nas suas decisões.
+- Explicar por que o tempo durante o qual mantém um investimento pode pesar nas suas decisões.
 
 **2. Conteúdo principal**
 Ganho de capital é, em geral, o lucro obtido quando um investimento é vendido por mais do que o seu preço de compra original (no caso contrário, há uma perda de capital). Muitos países, incluindo os Estados Unidos, diferenciam ganhos de capital de curto prazo (em geral sobre ativos mantidos por um período mais curto, muitas vezes tributados de forma parecida com a renda comum) e ganhos de capital de longo prazo (em geral sobre ativos mantidos além de um prazo determinado, muitas vezes tributados com alíquotas diferentes, às vezes mais favoráveis) — mas os prazos e as alíquotas específicos variam de país para país, mudam com a legislação e precisam ser confirmados com um profissional atualizado, em vez de simplesmente presumidos.
