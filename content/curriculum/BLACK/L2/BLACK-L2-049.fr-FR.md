@@ -29,7 +29,7 @@ translationStatus: owner-accepted
 Comme pour les cadres des autres couleurs, il s'agit d'une habitude de pensée plutôt que d'une liste de vérification rigide : suivre délibérément les effets d'une décision de leadership sur le style, la confiance, la communication, la structure, la culture et la capacité, plutôt que d'agir seulement à l'instinct ou sous la pression de l'urgence, sans lien avec le cadre plus large de ce niveau.
 
 **3. Exemple pratique**
-Devant une décision de leadership importante concernant le rendement insuffisant d'un membre de son équipe, une leader parcourt délibérément ce cadre : elle réfléchit au style de leadership approprié pour cette personne et cette situation précises, se demande si elle a bâti une réelle confiance et une réelle influence auprès de ce membre de l'équipe et s'assure que sa communication a été réellement claire, avec une compréhension confirmée. Elle suit le processus structuré de gestion de la performance insuffisant plutôt que d'improviser, tient compte des répercussions plus larges de sa façon de gérer la situation sur la culture d'équipe et la sécurité psychologique, et s'assure de ne pas éviter cette conversation difficile nécessaire simplement par malaise.
+Devant une décision de leadership importante concernant la performance insuffisante d'un membre de son équipe, une leader parcourt délibérément ce cadre : elle réfléchit au style de leadership approprié pour cette personne et cette situation précises, se demande si elle a bâti une réelle confiance et une réelle influence auprès de ce membre de l'équipe et s'assure que sa communication a été réellement claire, avec une compréhension confirmée. Elle suit le processus structuré de gestion de la performance insuffisant plutôt que d'improviser, tient compte des répercussions plus larges de sa façon de gérer la situation sur la culture d'équipe et la sécurité psychologique, et s'assure de ne pas éviter cette conversation difficile nécessaire simplement par malaise.
 
 **4. Quiz d'entraînement**
 1. Quel est le but du cadre de leadership personnel présenté dans cette leçon?
@@ -43,7 +43,7 @@ Devant une décision de leadership importante concernant le rendement insuffisan
    c) Seulement l'humeur personnelle du leader ce jour-là
    d) Seulement les chiffres de revenus de l'organisation
 3. Vrai ou faux : ce cadre est censé être appliqué de façon mécanique, sans réelle analyse de la situation précise.
-4. Qu'a évalué la leader avant d'aborder le rendement insuffisant du membre de son équipe?
+4. Qu'a évalué la leader avant d'aborder la performance insuffisante du membre de son équipe?
    a) Seulement le titre du poste du membre de l'équipe
    b) L'adéquation du style à la situation, la confiance, la clarté de la communication, le processus structuré, les répercussions sur la culture et la vérification qu'elle n'évitait rien, tout cela ensemble
    c) Rien : elle a agi sans aucune analyse

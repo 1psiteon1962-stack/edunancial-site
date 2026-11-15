@@ -29,14 +29,14 @@ BLACK-L2 a commencé par la première interaction entre les pièces dans la tran
 Cette dernière leçon donne un aperçu de l'orientation de BLACK-L3 : passer du leadership de personnes et d'équipes (l'axe du niveau 2) à la stratégie de direction et aux défis de leadership à l'échelle de l'organisation. À l'image de la progression plus large de ce programme, BLACK-L3 explorera probablement des scénarios organisationnels de plus en plus complexes, en lien avec les thèmes de la dette stratégique annoncés dans RED-L3 et BLUE-L3 et avec la gestion de patrimoine plus poussée annoncée dans GOLD-L3. L'apprenant passera ainsi de « comment les pièces interagissent » (niveau 2) à « utiliser des combinaisons dans des décisions de plus en plus réalistes » (niveau 3), ce qui achève les bases du niveau 2 dans les huit couleurs d'Edunancial.
 
 **3. Exemple pratique**
-En repensant à tout ce que BLACK-L2 a abordé, un apprenant fait le point sur sa littératie croissante en leadership : au départ, il ne savait pas distinguer la gestion du leadership, et il dispose maintenant d'un cadre complet qui intègre la confiance, la communication, la gestion structurée du rendement, la construction de la culture et l'influence à l'échelle de l'organisation. Il reconnaît que BLACK-L3 s'appuiera sur ces bases en appliquant ces outils intégrés à des scénarios de direction et organisationnels de plus en plus complexes, tout comme le niveau 3 de chaque autre couleur s'appuie sur ses propres bases du niveau 2, et qu'avec l'achèvement de BLACK-L2, les huit couleurs d'Edunancial ont ensemble posé leurs bases du niveau 2 : « comment les pièces interagissent ».
+En repensant à tout ce que BLACK-L2 a abordé, un apprenant fait le point sur sa littératie croissante en leadership : au départ, il ne savait pas distinguer la gestion du leadership, et il dispose maintenant d'un cadre complet qui intègre la confiance, la communication, la gestion structurée de la performance, la construction de la culture et l'influence à l'échelle de l'organisation. Il reconnaît que BLACK-L3 s'appuiera sur ces bases en appliquant ces outils intégrés à des scénarios de direction et organisationnels de plus en plus complexes, tout comme le niveau 3 de chaque autre couleur s'appuie sur ses propres bases du niveau 2, et qu'avec l'achèvement de BLACK-L2, les huit couleurs d'Edunancial ont ensemble posé leurs bases du niveau 2 : « comment les pièces interagissent ».
 
 **4. Quiz d'entraînement**
 1. Selon le résumé de cette leçon, quel était l'axe principal de BLACK-L2?
    a) Exclusivement le droit avancé de la restructuration organisationnelle
    b) Le leadership de personnes et d'équipes, la confiance, la communication, la gestion de la performance et la culture
    c) Exclusivement le développement immobilier
-   d) Exclusivement la construction d'un portefeuille de placements
+   d) Exclusivement la construction d'un portefeuille d'investissements
 2. Selon cette leçon, quel passage BLACK-L3 annonce-t-il?
    a) Abandonner tout ce qui a été appris dans BLACK-L2
    b) Le passage à la stratégie de direction et aux défis de leadership à l'échelle de l'organisation
