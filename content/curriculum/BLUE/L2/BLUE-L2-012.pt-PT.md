@@ -29,7 +29,7 @@ O ponto de equilíbrio é o nível de vendas em que a receita total de um negóc
 Conhecer esse número importa tanto antes de abrir o negócio (para avaliar com realismo se a ideia é financeiramente viável, considerando os custos fixos prováveis e um volume de vendas que dê para esperar de forma razoável) quanto durante a operação (para entender o quanto o negócio está perto desse limite e o quanto ele é sensível a mudanças de preço, custo ou volume).
 
 **3. Exemplo prático**
-Planejando o seu negócio de cupcakes, Marisol calcula os custos fixos mensais (arrendamento, seguro, equipa básica) em US$ 4.000. Cada cupcake custa US$ 4 para o cliente, e o custo variável por cupcake (ingredientes, embalagem) é de US$ 1,50, o que deixa US$ 2,50 de contribuição para os custos fixos a cada cupcake vendido (margem de contribuição). Dividindo os US$ 4.000 de custos fixos pela margem de contribuição de US$ 2,50 por cupcake, Marisol calcula que precisa vender 1.600 cupcakes por mês só para empatar.
+Planeando o seu negócio de cupcakes, Marisol calcula os custos fixos mensais (arrendamento, seguro, equipa básica) em US$ 4.000. Cada cupcake custa US$ 4 para o cliente, e o custo variável por cupcake (ingredientes, embalagem) é de US$ 1,50, o que deixa US$ 2,50 de contribuição para os custos fixos a cada cupcake vendido (margem de contribuição). Dividindo os US$ 4.000 de custos fixos pela margem de contribuição de US$ 2,50 por cupcake, Marisol calcula que precisa vender 1.600 cupcakes por mês só para empatar.
 
 Esse número ajuda Marisol a avaliar com realismo a capacidade do mercado local antes de assinar o contrato de arrendamento e lhe dá uma meta mensal clara e concreta para acompanhar quando começar a operar.
 

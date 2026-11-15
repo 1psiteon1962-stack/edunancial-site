@@ -5,7 +5,7 @@ officialTrackName: Business
 level: 2
 lessonNumber: 13
 title: "Estratégia de preço: custo mais margem ou preço baseado em valor"
-summary: "No custo mais margem, você calcula o custo e soma uma margem; no preço baseado em valor, o que conta é o valor percebido pelo cliente — nenhuma das duas abordagens é sempre a certa."
+summary: "No custo mais margem, calcula-se o custo e soma-se uma margem; no preço baseado em valor, o que conta é o valor percebido pelo cliente — nenhuma das duas abordagens é sempre a certa."
 version: 1.0
 author: Edunancial Faculty
 date: 2026-09-15
