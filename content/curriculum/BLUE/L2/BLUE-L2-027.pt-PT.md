@@ -59,7 +59,7 @@ Ao escrever o seu primeiro SOP de uma receita de cupcake, Marisol produz, no in�
 4. O teste revelou conhecimento não escrito e pressuposto, que precisava ser acrescentado para que o SOP realmente apoiasse a delegação.
 
 **7. Pontos-chave**
-- Um SOP é um documento escrito, passo a passo, que registra como uma tarefa deve ser feita para obter resultados consistentes.
+- Um SOP é um documento escrito, passo a passo, que regista como uma tarefa deve ser feita para obter resultados consistentes.
 - SOPs eficazes são detalhados o bastante para que alguém que não conhece a tarefa consiga segui-los com sucesso.
 - Testar um SOP com alguém que não conhece a tarefa ajuda a revelar lacunas antes de confiar nele para delegar.
 - Os SOPs são documentos vivos, feitos para serem atualizados à medida que os processos e as circunstâncias evoluem.
