@@ -9,7 +9,7 @@ summary: "A lição final desta trilha — por que o verdadeiro domínio das fin
 version: "1.0"
 author: "Edunancial Faculty"
 date: "2026-09-09"
-locale: "pt-BR"
+locale: pt-PT
 source_locale: "en-US"
 ---
 # BLUE-L3-050: Por que dominar as finanças empresariais é saber qual crescimento vale a pena financiar

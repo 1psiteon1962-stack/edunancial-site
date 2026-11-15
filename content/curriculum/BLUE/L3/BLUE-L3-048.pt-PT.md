@@ -9,7 +9,7 @@ summary: "Entenda por que o trabalho depois do fecho do negócio da compra de um
 version: "1.0"
 author: "Edunancial Faculty"
 date: "2026-09-09"
-locale: "pt-BR"
+locale: pt-PT
 source_locale: "en-US"
 ---
 # BLUE-L3-048: Por que a integração depois da aquisição define se o negócio realmente compensa

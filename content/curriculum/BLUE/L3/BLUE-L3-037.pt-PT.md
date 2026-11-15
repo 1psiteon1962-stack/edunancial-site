@@ -9,7 +9,7 @@ summary: "Entenda como o crédito da empresa deveria funcionar de forma independ
 version: "1.0"
 author: "Edunancial Faculty"
 date: "2026-09-09"
-locale: "pt-BR"
+locale: pt-PT
 source_locale: "en-US"
 ---
 # BLUE-L3-037: Por que o crédito da empresa e o crédito pessoal são separados juridicamente (até deixarem de ser)

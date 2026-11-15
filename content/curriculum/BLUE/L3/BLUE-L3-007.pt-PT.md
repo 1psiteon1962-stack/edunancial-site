@@ -9,7 +9,7 @@ summary: "Entenda por que a due diligence é um processo estruturado de investig
 version: "1.0"
 author: "Edunancial Faculty"
 date: "2026-09-09"
-locale: "pt-BR"
+locale: pt-PT
 source_locale: "en-US"
 ---
 # BLUE-L3-007: Por que a due diligence existe para descobrir o que o vendedor não contou

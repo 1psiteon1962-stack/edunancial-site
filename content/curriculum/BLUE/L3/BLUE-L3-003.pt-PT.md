@@ -9,7 +9,7 @@ summary: "Entenda o que o EBITDA mede, por que ele é usado como ferramenta padr
 version: "1.0"
 author: "Edunancial Faculty"
 date: "2026-09-09"
-locale: "pt-BR"
+locale: pt-PT
 source_locale: "en-US"
 ---
 # BLUE-L3-003: Por que o EBITDA é a língua comum da avaliação de empresas

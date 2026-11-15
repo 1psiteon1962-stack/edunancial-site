@@ -9,7 +9,7 @@ summary: "Entenda por que o CAC e o LTV não fazem sentido isolados, e por que a
 version: "1.0"
 author: "Edunancial Faculty"
 date: "2026-09-09"
-locale: "pt-BR"
+locale: pt-PT
 source_locale: "en-US"
 ---
 # BLUE-L3-018: Por que o custo de aquisição de clientes e o valor do tempo de vida do cliente precisam de ser comparados juntos

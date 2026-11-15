@@ -9,7 +9,7 @@ summary: "Entenda por que uma empresa lucrativa ainda pode ficar sem dinheiro, e
 version: "1.0"
 author: "Edunancial Faculty"
 date: "2026-09-09"
-locale: "pt-BR"
+locale: pt-PT
 source_locale: "en-US"
 ---
 # BLUE-L3-013: Por que fluxo de caixa e lucro não são o mesmo número

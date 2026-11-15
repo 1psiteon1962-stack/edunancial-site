@@ -9,7 +9,7 @@ summary: "Entenda por que os elementos principais de um contrato protegem as dua
 version: "1.0"
 author: "Edunancial Faculty"
 date: "2026-09-09"
-locale: "pt-BR"
+locale: pt-PT
 source_locale: "en-US"
 ---
 # BLUE-L3-041: Por que os elementos essenciais de um contrato importam mais do que um acordo verbal

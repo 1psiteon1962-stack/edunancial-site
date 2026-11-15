@@ -9,7 +9,7 @@ summary: "Entenda por que escolher entre crescer com recursos próprios (bootstr
 version: "1.0"
 author: "Edunancial Faculty"
 date: "2026-09-09"
-locale: "pt-BR"
+locale: pt-PT
 source_locale: "en-US"
 ---
 # BLUE-L3-020: Por que crescer com recursos próprios e captar investimento são apostas diferentes sobre o controlo

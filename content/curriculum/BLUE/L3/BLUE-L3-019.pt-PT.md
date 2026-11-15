@@ -9,7 +9,7 @@ summary: "Entenda o que a taxa de queima de caixa e o runway medem, e por que co
 version: "1.0"
 author: "Edunancial Faculty"
 date: "2026-09-09"
-locale: "pt-BR"
+locale: pt-PT
 source_locale: "en-US"
 ---
 # BLUE-L3-019: Por que a taxa de queima e o runway determinam quanto tempo realmente tem

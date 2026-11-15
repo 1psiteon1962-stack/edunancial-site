@@ -9,7 +9,7 @@ summary: "Entenda por que uma empresa muitas vezes vale mais (ou menos) do que a
 version: "1.0"
 author: "Edunancial Faculty"
 date: "2026-09-09"
-locale: "pt-BR"
+locale: pt-PT
 source_locale: "en-US"
 ---
 # BLUE-L3-002: Por que avaliar uma empresa não é o mesmo que avaliar os ativos dela

@@ -9,7 +9,7 @@ summary: "Entenda como funcionam os cronogramas de vesting, por que eles existem
 version: "1.0"
 author: "Edunancial Faculty"
 date: "2026-09-09"
-locale: "pt-BR"
+locale: pt-PT
 source_locale: "en-US"
 ---
 # BLUE-L3-023: Por que os cronogramas de vesting protegem uma empresa de uma saída antecipada

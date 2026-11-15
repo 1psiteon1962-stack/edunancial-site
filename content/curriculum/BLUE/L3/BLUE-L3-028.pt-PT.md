@@ -9,7 +9,7 @@ summary: "Entenda por que uma campanha de financiamento coletivo pode confirmar 
 version: "1.0"
 author: "Edunancial Faculty"
 date: "2026-09-09"
-locale: "pt-BR"
+locale: pt-PT
 source_locale: "en-US"
 ---
 # BLUE-L3-028: Por que o financiamento coletivo é tanto um teste de marketing quanto uma ferramenta de financiamento

@@ -9,7 +9,7 @@ summary: "Entenda por que existem empréstimos com garantia do governo, como os 
 version: "1.0"
 author: "Edunancial Faculty"
 date: "2026-09-09"
-locale: "pt-BR"
+locale: pt-PT
 source_locale: "en-US"
 ---
 # BLUE-L3-010: Por que os empréstimos da SBA existem para cobrir uma lacuna de financiamento de quem compra pequenas empresas

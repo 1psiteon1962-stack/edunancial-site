@@ -9,7 +9,7 @@ summary: "Entenda por que o mesmo EBITDA pode ser avaliado de formas muito difer
 version: "1.0"
 author: "Edunancial Faculty"
 date: "2026-09-09"
-locale: "pt-BR"
+locale: pt-PT
 source_locale: "en-US"
 ---
 # BLUE-L3-045: Por que os múltiplos de avaliação variam tanto de um setor para outro

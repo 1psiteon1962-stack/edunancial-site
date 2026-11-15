@@ -9,7 +9,7 @@ summary: "Entenda por que a receita que se repete de forma previsível é mais v
 version: "1.0"
 author: "Edunancial Faculty"
 date: "2026-09-09"
-locale: "pt-BR"
+locale: pt-PT
 source_locale: "en-US"
 ---
 # BLUE-L3-046: Por que a receita recorrente vale um prêmio na avaliação de uma empresa

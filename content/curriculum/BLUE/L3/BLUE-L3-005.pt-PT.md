@@ -9,7 +9,7 @@ summary: "Entenda o que significa goodwill (ágio por expectativa de rentabilida
 version: "1.0"
 author: "Edunancial Faculty"
 date: "2026-09-09"
-locale: "pt-BR"
+locale: pt-PT
 source_locale: "en-US"
 ---
 # BLUE-L3-005: Por que o goodwill representa o que não dá para tocar

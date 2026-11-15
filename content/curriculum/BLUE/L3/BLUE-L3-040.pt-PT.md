@@ -9,7 +9,7 @@ summary: "Entenda por que o seguro empresarial funciona como transferência de r
 version: "1.0"
 author: "Edunancial Faculty"
 date: "2026-09-09"
-locale: "pt-BR"
+locale: pt-PT
 source_locale: "en-US"
 ---
 # BLUE-L3-040: Por que o seguro empresarial é uma transferência de risco, e não uma despesa para cortar primeiro

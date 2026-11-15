@@ -9,7 +9,7 @@ summary: "Entenda a diferença entre comprar os ativos de uma empresa e comprar 
 version: "1.0"
 author: "Edunancial Faculty"
 date: "2026-09-09"
-locale: "pt-BR"
+locale: pt-PT
 source_locale: "en-US"
 ---
 # BLUE-L3-004: Por que comprar os ativos e comprar as ações ou quotas são negócios fundamentalmente diferentes

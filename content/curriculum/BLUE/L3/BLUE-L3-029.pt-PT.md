@@ -9,7 +9,7 @@ summary: "Entenda como funciona o factoring (antecipação de recebíveis), por 
 version: "1.0"
 author: "Edunancial Faculty"
 date: "2026-09-09"
-locale: "pt-BR"
+locale: pt-PT
 source_locale: "en-US"
 ---
 # BLUE-L3-029: Por que o factoring transforma contas a receber em dinheiro imediato (com um custo)

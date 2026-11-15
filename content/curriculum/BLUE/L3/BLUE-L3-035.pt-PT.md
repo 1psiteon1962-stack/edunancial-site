@@ -9,7 +9,7 @@ summary: "Entenda por que a decisão de mudar o modelo de negócio deve se basea
 version: "1.0"
 author: "Edunancial Faculty"
 date: "2026-09-09"
-locale: "pt-BR"
+locale: pt-PT
 source_locale: "en-US"
 ---
 # BLUE-L3-035: Por que saber quando pivotar é uma decisão financeira, e não só estratégica

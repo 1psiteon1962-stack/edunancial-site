@@ -9,7 +9,7 @@ summary: "Entenda o que o mercado total, o mercado atendível e o mercado obten�
 version: "1.0"
 author: "Edunancial Faculty"
 date: "2026-09-09"
-locale: "pt-BR"
+locale: pt-PT
 source_locale: "en-US"
 ---
 # BLUE-L3-033: Por que TAM, SAM e SOM não são o mesmo número

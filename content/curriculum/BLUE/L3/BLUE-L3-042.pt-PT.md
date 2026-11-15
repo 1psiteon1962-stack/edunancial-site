@@ -9,7 +9,7 @@ summary: "Entenda para que serve um plano de participação acionária dos funci
 version: "1.0"
 author: "Edunancial Faculty"
 date: "2026-09-09"
-locale: "pt-BR"
+locale: pt-PT
 source_locale: "en-US"
 ---
 # BLUE-L3-042: Por que um plano de participação acionária dos funcionários os transforma em donos (e por que isso não é automático)

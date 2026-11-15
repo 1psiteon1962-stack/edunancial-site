@@ -9,7 +9,7 @@ summary: "Entenda como funciona um merchant cash advance (adiantamento sobre ven
 version: "1.0"
 author: "Edunancial Faculty"
 date: "2026-09-09"
-locale: "pt-BR"
+locale: pt-PT
 source_locale: "en-US"
 ---
 # BLUE-L3-030: Por que um adiantamento sobre vendas futuras pode ser a opção de financiamento mais cara

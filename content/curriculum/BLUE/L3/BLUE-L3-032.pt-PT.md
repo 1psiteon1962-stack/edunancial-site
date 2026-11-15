@@ -9,7 +9,7 @@ summary: "Entenda o que contém um documento de divulgação de franquia, e por 
 version: "1.0"
 author: "Edunancial Faculty"
 date: "2026-09-09"
-locale: "pt-BR"
+locale: pt-PT
 source_locale: "en-US"
 ---
 # BLUE-L3-032: Por que existe um documento de divulgação da franquia antes de assinar qualquer coisa

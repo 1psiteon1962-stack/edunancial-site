@@ -9,7 +9,7 @@ summary: "Entenda por que o risco de concentração de clientes reduz diretament
 version: "1.0"
 author: "Edunancial Faculty"
 date: "2026-09-09"
-locale: "pt-BR"
+locale: pt-PT
 source_locale: "en-US"
 ---
 # BLUE-L3-047: Por que a dependência de um único cliente é um sinal de alerta em qualquer venda de empresa

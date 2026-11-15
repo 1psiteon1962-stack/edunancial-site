@@ -9,7 +9,7 @@ summary: "Entenda por que o planeamento sucessório é essencial mesmo para dono
 version: "1.0"
 author: "Edunancial Faculty"
 date: "2026-09-09"
-locale: "pt-BR"
+locale: pt-PT
 source_locale: "en-US"
 ---
 # BLUE-L3-043: Por que o planeamento sucessório define o que acontece com uma empresa sem si

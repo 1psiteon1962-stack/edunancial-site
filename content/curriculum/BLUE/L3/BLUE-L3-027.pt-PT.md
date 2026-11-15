@@ -9,7 +9,7 @@ summary: "Entenda como funciona o financiamento baseado em receita, e por que el
 version: "1.0"
 author: "Edunancial Faculty"
 date: "2026-09-09"
-locale: "pt-BR"
+locale: pt-PT
 source_locale: "en-US"
 ---
 # BLUE-L3-027: Por que o financiamento baseado em receita fica no meio do caminho entre dívida e participação societária

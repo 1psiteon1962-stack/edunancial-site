@@ -9,7 +9,7 @@ summary: "Entenda por que um acordo de não concorrência costuma ser essencial 
 version: "1.0"
 author: "Edunancial Faculty"
 date: "2026-09-09"
-locale: "pt-BR"
+locale: pt-PT
 source_locale: "en-US"
 ---
 # BLUE-L3-009: Por que uma cláusula de não concorrência protege o valor que está realmente a comprar

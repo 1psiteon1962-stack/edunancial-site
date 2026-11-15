@@ -9,7 +9,7 @@ summary: "Entenda o que um term sheet faz numa captação de investimento com pa
 version: "1.0"
 author: "Edunancial Faculty"
 date: "2026-09-09"
-locale: "pt-BR"
+locale: pt-PT
 source_locale: "en-US"
 ---
 # BLUE-L3-025: Por que o term sheet define as condições antes de o contrato de verdade ser redigido

@@ -9,7 +9,7 @@ summary: "Entenda como calcular o ponto de equilíbrio, e por que ele muitas vez
 version: "1.0"
 author: "Edunancial Faculty"
 date: "2026-09-09"
-locale: "pt-BR"
+locale: pt-PT
 source_locale: "en-US"
 ---
 # BLUE-L3-015: Por que a análise do ponto de equilíbrio é o primeiro teste real de um plano de negócios

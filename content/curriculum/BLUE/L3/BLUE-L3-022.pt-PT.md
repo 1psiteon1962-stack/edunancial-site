@@ -9,7 +9,7 @@ summary: "Entenda o que é uma tabela de capitalização, por que ela precisa co
 version: "1.0"
 author: "Edunancial Faculty"
 date: "2026-09-09"
-locale: "pt-BR"
+locale: pt-PT
 source_locale: "en-US"
 ---
 # BLUE-L3-022: Por que uma cap table acompanha mais do que só quem é proprietário de quê

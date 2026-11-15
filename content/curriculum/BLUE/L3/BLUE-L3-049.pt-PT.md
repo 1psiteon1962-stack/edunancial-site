@@ -9,7 +9,7 @@ summary: "Uma lição de síntese que liga cada grande conceito de financiamento
 version: "1.0"
 author: "Edunancial Faculty"
 date: "2026-09-09"
-locale: "pt-BR"
+locale: pt-PT
 source_locale: "en-US"
 ---
 # BLUE-L3-049: Por que toda decisão de financiamento desta trilha deve voltar ao controlo e ao fôlego de caixa

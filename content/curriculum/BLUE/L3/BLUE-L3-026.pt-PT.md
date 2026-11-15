@@ -9,7 +9,7 @@ summary: "Entenda as diferenças gerais entre investidores-anjo e fundos de vent
 version: "1.0"
 author: "Edunancial Faculty"
 date: "2026-09-09"
-locale: "pt-BR"
+locale: pt-PT
 source_locale: "en-US"
 ---
 # BLUE-L3-026: Por que investidores-anjo e fundos de venture capital querem coisas fundamentalmente diferentes

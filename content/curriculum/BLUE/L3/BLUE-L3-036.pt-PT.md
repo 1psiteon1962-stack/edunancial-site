@@ -9,7 +9,7 @@ summary: "Entenda por que patentes, marcas e direitos de autor não são simples
 version: "1.0"
 author: "Edunancial Faculty"
 date: "2026-09-09"
-locale: "pt-BR"
+locale: pt-PT
 source_locale: "en-US"
 ---
 # BLUE-L3-036: Por que a proteção da propriedade intelectual faz parte do valor real de uma empresa

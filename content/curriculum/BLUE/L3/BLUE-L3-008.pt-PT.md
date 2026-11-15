@@ -9,7 +9,7 @@ summary: "Entenda como funciona um earnout (preço contingente) na venda de uma 
 version: "1.0"
 author: "Edunancial Faculty"
 date: "2026-09-09"
-locale: "pt-BR"
+locale: pt-PT
 source_locale: "en-US"
 ---
 # BLUE-L3-008: Por que um earnout liga parte do preço ao desempenho futuro

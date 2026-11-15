@@ -9,7 +9,7 @@ summary: "Entenda por que os credores quase sempre exigem uma garantia pessoal n
 version: "1.0"
 author: "Edunancial Faculty"
 date: "2026-09-09"
-locale: "pt-BR"
+locale: pt-PT
 source_locale: "en-US"
 ---
 # BLUE-L3-011: Por que as garantias pessoais acompanham os empréstimos para pequenas empresas quase em todo o lado

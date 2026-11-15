@@ -9,7 +9,7 @@ summary: "Entenda para que serve um acordo de compra e venda (buy-sell) entre s√
 version: "1.0"
 author: "Edunancial Faculty"
 date: "2026-09-09"
-locale: "pt-BR"
+locale: pt-PT
 source_locale: "en-US"
 ---
 # BLUE-L3-038: Por que um acordo de compra e venda entre s√≥cios deve existir antes de precisar dele

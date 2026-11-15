@@ -9,7 +9,7 @@ summary: "Entenda o que a margem bruta mede, por que duas empresas com a mesma r
 version: "1.0"
 author: "Edunancial Faculty"
 date: "2026-09-09"
-locale: "pt-BR"
+locale: pt-PT
 source_locale: "en-US"
 ---
 # BLUE-L3-016: Por que a margem bruta diz mais do que só a receita

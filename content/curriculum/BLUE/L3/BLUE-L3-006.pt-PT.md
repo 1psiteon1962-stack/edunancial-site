@@ -9,7 +9,7 @@ summary: "Entenda com o que uma carta de intenções compromete e com o que não
 version: "1.0"
 author: "Edunancial Faculty"
 date: "2026-09-09"
-locale: "pt-BR"
+locale: pt-PT
 source_locale: "en-US"
 ---
 # BLUE-L3-006: Por que uma carta de intenções não é um contrato de compra obrigatório

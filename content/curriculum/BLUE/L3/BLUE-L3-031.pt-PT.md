@@ -9,7 +9,7 @@ summary: "Entenda por que comprar uma franquia envolve um processo de financiame
 version: "1.0"
 author: "Edunancial Faculty"
 date: "2026-09-09"
-locale: "pt-BR"
+locale: pt-PT
 source_locale: "en-US"
 ---
 # BLUE-L3-031: Por que o financiamento de uma franquia tem as próprias regras

@@ -9,7 +9,7 @@ summary: "Entenda o que o seguro de pessoa-chave cobre, e por que algumas empres
 version: "1.0"
 author: "Edunancial Faculty"
 date: "2026-09-09"
-locale: "pt-BR"
+locale: pt-PT
 source_locale: "en-US"
 ---
 # BLUE-L3-039: Por que o seguro de pessoa-chave protege uma empresa contra a perda do seu ativo mais crítico
