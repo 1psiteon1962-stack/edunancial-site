@@ -26,16 +26,16 @@ No final desta lição, será capaz de:
 **2. Conteúdo principal**
 Nem todo acordo entre pessoas chega a ser um contrato juridicamente exigível. Um acordo ou entendimento geral pode refletir uma intenção real entre as partes, mas, sem certos elementos, um tribunal pode não fazê-lo valer se surgir uma disputa. Em geral, um contrato exigível requer oferta, aceitação e contraprestação (algo de valor trocado entre as partes, tema aprofundado na Lição 3), além da intenção comum das partes de se obrigarem juridicamente e da sua capacidade jurídica para firmar o acordo (como ser maior de idade e estar em pleno juízo).
 
-Essa diferença importa na prática: um acordo de boca, selado com um aperto de mão, para "ajudar num projeto qualquer dia" provavelmente não tem a precisão nem a intenção comum necessárias para ser juridicamente vinculante, enquanto um acordo escrito e detalhado, que especifica escopo, pagamento e prazos e é assinado pelas duas partes, tem muito mais chance de ser exigível se mais tarde surgir uma disputa. As regras específicas de exigibilidade variam conforme a jurisdição e o tipo de contrato, por isso a educação geral apresenta o conceito, mas uma disputa real exige um advogado qualificado.
+Essa diferença importa na prática: um acordo verbal, selado com um aperto de mão, para "ajudar num projeto qualquer dia" provavelmente não tem a precisão nem a intenção comum necessárias para ser juridicamente vinculante, enquanto um acordo escrito e detalhado, que especifica escopo, pagamento e prazos e é assinado pelas duas partes, tem muito mais chance de ser exigível se mais tarde surgir uma disputa. As regras específicas de exigibilidade variam conforme a jurisdição e o tipo de contrato, por isso a educação geral apresenta o conceito, mas uma disputa real exige um advogado qualificado.
 
 **3. Exemplo prático**
-Dois vizinhos combinam de boca que um vai ajudar o outro a carregar móveis "algum dia no mês que vem" em troca de "um jantar caprichado". Quando quem ia ajudar não pode e o outro vizinho fica chateado, provavelmente não existe aqui um contrato exigível — o acordo não tem a precisão, a clareza sobre a contraprestação e a intenção comum de se obrigar juridicamente que um tribunal procuraria. Isso é muito diferente de um contrato escrito que especifica uma data exata para a mudança, uma remuneração exata e as assinaturas das duas partes, que teria muito mais peso como obrigação de facto exigível se surgisse uma disputa.
+Dois vizinhos combinam verbalmente que um vai ajudar o outro a carregar móveis "algum dia no mês que vem" em troca de "um jantar caprichado". Quando quem ia ajudar não pode e o outro vizinho fica chateado, provavelmente não existe aqui um contrato exigível — o acordo não tem a precisão, a clareza sobre a contraprestação e a intenção comum de se obrigar juridicamente que um tribunal procuraria. Isso é muito diferente de um contrato escrito que especifica uma data exata para a mudança, uma remuneração exata e as assinaturas das duas partes, que teria muito mais peso como obrigação de facto exigível se surgisse uma disputa.
 
 **4. Questionário prático**
 1. O que geralmente é necessário para que um contrato seja exigível?
    a) Só uma promessa verbal
    b) Oferta, aceitação, contraprestação e intenção comum de se obrigar juridicamente
-   c) Um selo de cartório em todos os casos
+   c) Um selo notarial em todos os casos
    d) Nada — todos os acordos são automaticamente exigíveis
 2. Por que um acordo verbal vago pode não ser considerado um contrato exigível?
    a) Acordos verbais são sempre exigíveis, sejam quais forem os detalhes

@@ -5,7 +5,7 @@ officialTrackName: "Law"
 level: 2
 lessonNumber: 4
 title: "Contratos escritos e verbais: por que a proteção por escrito importa"
-summary: "Muitos contratos verbais são exigíveis, mas em várias jurisdições certos contratos precisam ser escritos — e, mesmo quando não é obrigatório, o contrato escrito cria uma base clara e evita brigas sobre o que cada um lembra."
+summary: "Muitos contratos verbais são exigíveis, mas em várias jurisdições certos contratos precisam ser escritos — e, mesmo quando não é obrigatório, o contrato escrito cria uma base clara e evita discussões sobre o que cada um lembra."
 version: "1.0"
 author: "Waldemar M. Caban, JD MA"
 date: "2026-11-13"
@@ -29,11 +29,11 @@ Muitos contratos verbais podem ser juridicamente exigíveis, desde que estejam p
 Além das exigências legais de exigibilidade, os contratos escritos trazem vantagens práticas importantes, mesmo quando a forma escrita não é estritamente obrigatória: eles criam um registo claro do que foi combinado, reduzindo o risco de disputas sobre o que cada um lembra ou sobre a interpretação, e obrigam as duas partes a pensar e definir detalhes importantes (prazos, soluções em caso de descumprimento) que um acordo verbal informal poderia deixar totalmente de lado.
 
 **3. Exemplo prático**
-Dois donos de negócio combinam de boca uma parceria de marketing que deve durar dezoito meses — um prazo maior do que um ano, o que, em muitas jurisdições, acionaria um Statute of Frauds e exigiria um contrato escrito para que fosse exigível. Percebendo isso, e independentemente de o acordo específico deles ser legalmente obrigado a ser escrito, eles redigem um acordo por escrito que especifica o escopo, a duração e as responsabilidades de cada parte, protegendo os dois com um registo claro, ao qual ambos podem recorrer, em vez de depender, meses depois, da lembrança de cada um sobre uma conversa informal.
+Dois donos de negócio combinam verbalmente uma parceria de marketing que deve durar dezoito meses — um prazo maior do que um ano, o que, em muitas jurisdições, acionaria um Statute of Frauds e exigiria um contrato escrito para que fosse exigível. Percebendo isso, e independentemente de o acordo específico deles ser legalmente obrigado a ser escrito, eles redigem um acordo por escrito que especifica o escopo, a duração e as responsabilidades de cada parte, protegendo os dois com um registo claro, ao qual ambos podem recorrer, em vez de depender, meses depois, da lembrança de cada um sobre uma conversa informal.
 
 **4. Questionário prático**
 1. O que um "Statute of Frauds" geralmente exige?
-   a) Que todos os contratos tenham firma reconhecida em cartório
+   a) Que todos os contratos tenham assinatura reconhecida pelo notário
    b) Que certas categorias de contratos sejam feitas por escrito para serem exigíveis
    c) Que todos os contratos sejam só verbais
    d) Nada — ele não tem efeito jurídico real

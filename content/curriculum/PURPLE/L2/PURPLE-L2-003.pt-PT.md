@@ -29,7 +29,7 @@ Partindo da Lição 2, esta lição examina mais de perto os três pilares funda
 As três geralmente precisam coincidir: uma oferta sem uma aceitação correspondente ainda não é um contrato, e um acordo sem contraprestação entre as partes (uma simples promessa de doação, sem nada em troca, por exemplo) geralmente não é tratado como contrato exigível, mesmo que as duas partes estejam a ser sinceras.
 
 **3. Exemplo prático**
-Um fotógrafo autônomo oferece fotografar o evento de um cliente por US$ 800 (a oferta). O cliente responde concordando em pagar US$ 800 pelo trabalho (uma aceitação que corresponde às condições da oferta) — nesse momento, provavelmente se formou um contrato, em que o pagamento de US$ 800 e o serviço de fotografia representam, cada um, a contraprestação trocada entre as duas partes. Se, em vez disso, o cliente tivesse respondido "Eu pago US$ 600", isso funcionaria como uma contraproposta, e não como aceitação, ou seja, ainda não existiria contrato até que uma das partes aceitasse as condições mais recentes da outra.
+Um fotógrafo independente oferece fotografar o evento de um cliente por US$ 800 (a oferta). O cliente responde concordando em pagar US$ 800 pelo trabalho (uma aceitação que corresponde às condições da oferta) — nesse momento, provavelmente se formou um contrato, em que o pagamento de US$ 800 e o serviço de fotografia representam, cada um, a contraprestação trocada entre as duas partes. Se, em vez disso, o cliente tivesse respondido "Eu pago US$ 600", isso funcionaria como uma contraproposta, e não como aceitação, ou seja, ainda não existiria contrato até que uma das partes aceitasse as condições mais recentes da outra.
 
 **4. Questionário prático**
 1. O que é uma "oferta" na formação de um contrato?
