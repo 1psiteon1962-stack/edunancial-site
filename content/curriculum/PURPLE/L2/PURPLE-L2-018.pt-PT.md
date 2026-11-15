@@ -42,7 +42,7 @@ Ao analisar sua nova proposta de emprego, Priya percebe que ela não inclui um c
    b) Um contrato específico define o prazo, os motivos de despedimento e muitas vezes cláusulas de indenização
    c) O emprego por contrato permite despedimento por qualquer motivo a qualquer momento
    d) O emprego "at will" sempre inclui indenização
-3. Verdadeiro ou falso: o emprego "at will" permite que o empregador demita um empregado por qualquer motivo, inclusive por motivos protegidos por lei, como certas formas de discriminação.
+3. Verdadeiro ou falso: o emprego "at will" permite que o empregador despeça um empregado por qualquer motivo, inclusive por motivos protegidos por lei, como certas formas de discriminação.
 4. O que diferenciava a proposta de emprego de Priya do contrato de executivo do colega dela?
    a) Eram acordos idênticos
    b) A de Priya provavelmente era um emprego "at will" padrão, enquanto o contrato do colega definia motivos específicos de despedimento e indenização
