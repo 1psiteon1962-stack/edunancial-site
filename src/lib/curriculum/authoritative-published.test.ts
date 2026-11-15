@@ -448,14 +448,14 @@ test("canonical US English is never replaced by an en-GB seed or template", asyn
 });
 
 test("Level 2 stored localized content is learner-visible when it is not an explicit placeholder", async () => {
-  // GOLD-L2-001 de has stored localized content but no committed Markdown translation yet.
-  // (BLUE-L2 and GREEN-L2 de now have committed Markdown translations, which correctly take precedence.)
-  const english = await getPublishedLesson("GOLD-L2-001", "en-US");
-  const german = await getPublishedLesson("GOLD-L2-001", "de");
+  // ORANGE-L2-001 de has stored localized content but no committed Markdown translation yet.
+  // (BLUE-L2, GREEN-L2 and GOLD-L2 de now have committed Markdown translations, which correctly take precedence.)
+  const english = await getPublishedLesson("ORANGE-L2-001", "en-US");
+  const german = await getPublishedLesson("ORANGE-L2-001", "de");
   assert.ok(english);
   assert.ok(german);
   assert.notEqual(german.body.trim(), english.body.trim(), "stored Level 2 localization must not be hidden by an English length heuristic");
-  assert.match(german.body, /Diese GOLD-Level-2-Lektion/u);
+  assert.match(german.body, /Diese ORANGE-Lektion der Stufe 2/u);
 });
 
 test("Level 2 committed Markdown translations are learner-visible (BLUE-L2 de)", async () => {
