@@ -29,7 +29,7 @@ En s'appuyant sur les leçons 9 à 13, cette leçon aborde un schéma d'éviteme
 Parmi les principes généraux pour aborder les conversations difficiles de façon constructive, on trouve : préparer à l'avance des points précis et factuels (à l'image de la discussion de la leçon 12 sur la précision), aborder la conversation avec une curiosité réelle et une écoute active (leçon 11) plutôt qu'avec une attitude purement accusatrice, et se concentrer sur le comportement ou le problème précis plutôt que sur des jugements généraux sur le caractère.
 
 **3. Exemple pratique**
-Consciente depuis plusieurs semaines d'un problème de rendement persistant chez un membre de son équipe, une leader se rend compte qu'elle évite la conversation nécessaire, en espérant que la situation se règle d'elle-même sans qu'elle ait à intervenir directement. Reconnaissant ce schéma d'évitement et ses coûts probables (un rendement toujours insuffisant, d'autres membres de l'équipe qui remarquent le problème non réglé et une conversation finalement plus difficile si le schéma se prolonge), elle prépare des points précis et factuels et amorce rapidement la conversation, en l'abordant avec une curiosité réelle pour la cause sous-jacente plutôt qu'avec une attitude accusatrice.
+Consciente depuis plusieurs semaines d'un problème de performance persistant chez un membre de son équipe, une leader se rend compte qu'elle évite la conversation nécessaire, en espérant que la situation se règle d'elle-même sans qu'elle ait à intervenir directement. Reconnaissant ce schéma d'évitement et ses coûts probables (un rendement toujours insuffisant, d'autres membres de l'équipe qui remarquent le problème non réglé et une conversation finalement plus difficile si le schéma se prolonge), elle prépare des points précis et factuels et amorce rapidement la conversation, en l'abordant avec une curiosité réelle pour la cause sous-jacente plutôt qu'avec une attitude accusatrice.
 
 **4. Quiz d'entraînement**
 1. Selon cette leçon, pourquoi éviter une conversation difficile mais nécessaire coûte-t-il généralement plus cher que de l'avoir?
@@ -47,7 +47,7 @@ Consciente depuis plusieurs semaines d'un problème de rendement persistant chez
    a) Elle voulait aborder la conversation avec une attitude purement accusatrice et sans préparation
    b) Cette préparation, à l'image de la discussion de la leçon 12 sur la précision, a favorisé une conversation constructive et factuelle plutôt que vague ou accusatrice
    c) La préparation n'a aucun lien avec le caractère constructif d'une conversation difficile
-   d) Elle n'avait aucun réel problème de rendement à aborder
+   d) Elle n'avait aucun réel problème de performance à aborder
 
 **5. Corrigé**
 1. b  2. b  3. Faux  4. b
