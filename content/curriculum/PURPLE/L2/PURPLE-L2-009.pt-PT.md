@@ -29,7 +29,7 @@ Uma cláusula de não concorrência geralmente proíbe uma parte (muitas vezes u
 A validade das cláusulas de não concorrência varia muito conforme a jurisdição — algumas as aplicam de forma bastante ampla, se o alcance for razoável, enquanto outras restringiram bastante ou até proibiram seu uso para funcionários, principalmente os de menor salário, refletindo visões políticas diferentes sobre como equilibrar a proteção das empresas e a liberdade dos trabalhadores de mudar de emprego. Os tribunais que aplicam essas cláusulas costumam avaliar se a área geográfica, o prazo e as atividades restritas são razoáveis e não mais amplos do que o necessário para proteger o interesse legítimo em jogo — uma cláusula ampla demais (prazo ilimitado, um país inteiro como área, para uma função sem contacto real com segredos comerciais) tem mais chance de ser considerada inválida, mesmo em jurisdições que geralmente aceitam cláusulas razoáveis.
 
 **3. Exemplo prático**
-Uma padaria regional pede a uma atendente de balcão recém-contratada que assine uma cláusula de não concorrência que a proíbe de trabalhar em qualquer padaria do país por cinco anos depois de sair. Considerando sua função limitada, sem contacto com segredos comerciais reais nem com formação exclusivo especializado, e a área e o prazo extremamente amplos em relação a qualquer interesse legítimo do negócio em jogo, essa cláusula provavelmente seria considerada inválida em muitas jurisdições, mesmo nas que geralmente aceitam acordos de alcance mais razoável — o que mostra por que o mesmo instrumento (uma cláusula de não concorrência) pode ser válido num contexto e totalmente inválido em outro, dependendo do seu alcance real e do interesse que diz proteger.
+Uma padaria regional pede a uma empregada de balcão recém-contratada que assine uma cláusula de não concorrência que a proíbe de trabalhar em qualquer padaria do país por cinco anos depois de sair. Considerando sua função limitada, sem contacto com segredos comerciais reais nem com formação exclusivo especializado, e a área e o prazo extremamente amplos em relação a qualquer interesse legítimo do negócio em jogo, essa cláusula provavelmente seria considerada inválida em muitas jurisdições, mesmo nas que geralmente aceitam acordos de alcance mais razoável — o que mostra por que o mesmo instrumento (uma cláusula de não concorrência) pode ser válido num contexto e totalmente inválido em outro, dependendo do seu alcance real e do interesse que diz proteger.
 
 **4. Questionário prático**
 1. Qual é a finalidade geral de uma cláusula de não concorrência?
@@ -43,11 +43,11 @@ Uma padaria regional pede a uma atendente de balcão recém-contratada que assin
    c) Só a preferência pessoal do funcionário
    d) Só o tamanho da empresa
 3. Verdadeiro ou falso: as regras sobre a validade das cláusulas de não concorrência são iguais em todas as jurisdições.
-4. Por que a cláusula de não concorrência da atendente da padaria provavelmente era inválida?
+4. Por que a cláusula de não concorrência da empregada de balcão da padaria provavelmente era inválida?
    a) Era restrita demais
    b) A área geográfica ampla, o prazo longo e a falta de relação com um interesse real a proteger a tornavam irrazoável
    c) Cláusulas de não concorrência são ilegais em todo o lado
-   d) A atendente tinha assinado, em vez disso, um acordo de confidencialidade mútuo
+   d) A empregada de balcão tinha assinado, em vez disso, um acordo de confidencialidade mútuo
 
 **5. Chave de Respostas**
 1. b  2. b  3. Falso  4. b
