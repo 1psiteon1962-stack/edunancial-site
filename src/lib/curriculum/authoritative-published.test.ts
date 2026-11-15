@@ -447,15 +447,35 @@ test("canonical US English is never replaced by an en-GB seed or template", asyn
   assert.ok(lesson.body.length > 1500, "US English must retain the complete canonical lesson");
 });
 
+const LEVEL2_STORED_TEST_LESSON_ID = "ORANGE-L2-099";
+
 test("Level 2 stored localized content is learner-visible when it is not an explicit placeholder", async () => {
-  // ORANGE-L2-001 de has stored localized content but no committed Markdown translation yet.
-  // (BLUE-L2, GREEN-L2 and GOLD-L2 de now have committed Markdown translations, which correctly take precedence.)
-  const english = await getPublishedLesson("ORANGE-L2-001", "en-US");
-  const german = await getPublishedLesson("ORANGE-L2-001", "de");
+  // Synthetic stored-content fixture: every real Level 2 lesson now has committed Markdown translations,
+  // which correctly take precedence, so the stored-content path is exercised with a dedicated test ID.
+  const englishBody = "## Learning Objectives\n\n" + "Canonical English Level 2 body. ".repeat(120);
+  mkdirSync(join(STORE_ROOT, "published"), { recursive: true });
+  writeFileSync(STATE_PATH, JSON.stringify({ schemaVersion: "1.0", initialized: true, updatedAt: new Date().toISOString(), lessons: {
+    [LEVEL2_STORED_TEST_LESSON_ID]: { id: LEVEL2_STORED_TEST_LESSON_ID, track: "ORANGE", trackName: "Sales & Marketing", level: 2, lessonNumber: 99, title: "From Product to Customer", summary: "English summary", author: "Edunancial Faculty", date: "2026-09-15", version: "1.0", status: "active", importedAt: new Date().toISOString(), metadata: {}, path: "content/curriculum/ORANGE/L2/ORANGE-L2-099.md", body: englishBody, frontMatter: {}, translations: {
+      de: { title: "Vom Produkt zum Kunden", summary: "Deutsche Zusammenfassung", body: "## Lernziele\n\nDiese ORANGE-Lektion der Stufe 2 ist kürzer als die englische Fassung." },
+      it: { title: "Segnaposto", body: "Localized curriculum content for ORANGE-L2-099 (it)." },
+    } }
+  }, batchLessonIds: {} }, null, 2), "utf8");
+  const english = await getPublishedLesson(LEVEL2_STORED_TEST_LESSON_ID, "en-US");
+  const german = await getPublishedLesson(LEVEL2_STORED_TEST_LESSON_ID, "de");
   assert.ok(english);
   assert.ok(german);
+  assert.ok(german.body.length < english.body.length, "fixture must be shorter than English to exercise the length heuristic");
   assert.notEqual(german.body.trim(), english.body.trim(), "stored Level 2 localization must not be hidden by an English length heuristic");
   assert.match(german.body, /Diese ORANGE-Lektion der Stufe 2/u);
+  const italian = await getPublishedLesson(LEVEL2_STORED_TEST_LESSON_ID, "it");
+  if (italian) assert.doesNotMatch(italian.body, /^Localized curriculum content for\b/iu, "explicit Level 2 placeholders must never be learner-visible");
+});
+
+test("Level 2 committed Markdown translations are learner-visible (ORANGE-L2 de)", async () => {
+  const german = await getPublishedLesson("ORANGE-L2-001", "de");
+  assert.ok(german);
+  assert.match(german.body, /Lernziele/u);
+  assert.ok(german.body.length > 1500, "committed German translation must be served in full");
 });
 
 test("Level 2 committed Markdown translations are learner-visible (BLUE-L2 de)", async () => {
