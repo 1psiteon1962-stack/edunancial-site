@@ -455,7 +455,7 @@ test("Level 2 stored localized content is learner-visible when it is not an expl
   assert.ok(english);
   assert.ok(german);
   assert.notEqual(german.body.trim(), english.body.trim(), "stored Level 2 localization must not be hidden by an English length heuristic");
-  assert.match(german.body, /Diese ORANGE-Level-2-Lektion/u);
+  assert.match(german.body, /Diese ORANGE-Lektion der Stufe 2/u);
 });
 
 test("Level 2 committed Markdown translations are learner-visible (BLUE-L2 de)", async () => {
