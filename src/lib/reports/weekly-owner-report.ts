@@ -106,7 +106,7 @@ export async function postReportToGithub(date: string, markdown: string) {
   const response = await fetch(`https://api.github.com/repos/${owner}/${repo}/issues`, {
     method: "POST",
     headers: { Authorization: `Bearer ${token}`, Accept: "application/vnd.github+json", "Content-Type": "application/json", "User-Agent": "edunancial-weekly-report" },
-    body: JSON.stringify({ title: `Weekly report — week ending ${date}`, body: markdown, labels: ["weekly-report"] }),
+    body: JSON.stringify({ title: `Edunancial weekly report — week ending ${date}`, body: markdown, labels: ["weekly-report"] }),
   });
   if (!response.ok) return { posted: false, reason: `GitHub ${response.status}: ${(await response.text()).slice(0, 200)}` };
   const issue = (await response.json()) as { html_url?: string };
