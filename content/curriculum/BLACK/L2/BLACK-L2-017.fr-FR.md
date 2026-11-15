@@ -24,7 +24,7 @@ translationStatus: owner-accepted
 - Appliquer cette notion à une décision de leadership hypothétique.
 
 **2. Contenu principal**
-En revenant sur la discussion de GOLD-L2-030 sur les décisions de placement dans une réelle incertitude, cette leçon applique la même réalité de fond aux décisions de leadership en général : les leaders doivent régulièrement décider avec une information incomplète, sous la pression du temps et sans le luxe d'une certitude quant aux résultats. C'est une réalité différente de celle d'un rôle purement technique ou analytique, qui pourrait disposer de plus de temps et d'une information complète avant de devoir prendre une décision.
+En revenant sur la discussion de GOLD-L2-030 sur les décisions d'investissement dans une réelle incertitude, cette leçon applique la même réalité de fond aux décisions de leadership en général : les leaders doivent régulièrement décider avec une information incomplète, sous la pression du temps et sans le luxe d'une certitude quant aux résultats. C'est une réalité différente de celle d'un rôle purement technique ou analytique, qui pourrait disposer de plus de temps et d'une information complète avant de devoir prendre une décision.
 
 Bien décider dans l'incertitude, à l'image de la distinction de GOLD-L2-030 entre risque calculé et spéculation imprudente, consiste à réunir la meilleure information disponible dans un délai raisonnable, à expliquer clairement le raisonnement derrière une décision (ce qui soutient la confiance abordée à la leçon 9, même quand le résultat est incertain) et à rester prêt à corriger le tir quand une nouvelle information apparaît. Il ne s'agit ni de rester figé indéfiniment en attendant une certitude complète qui n'arrivera peut-être jamais, ni de décider sur un coup de tête sans réellement tenir compte de l'information disponible.
 
@@ -34,9 +34,9 @@ Devant la décision d'aller de l'avant ou non avec une initiative stratégique i
 **4. Quiz d'entraînement**
 1. Sur quoi cette leçon revient-elle à partir de GOLD-L2-030?
    a) Une notion sans aucun lien avec la prise de décision dans l'incertitude
-   b) La discussion sur les décisions de placement dans l'incertitude, maintenant appliquée de façon générale aux décisions de leadership
-   c) Seulement une discussion sur la fraude en matière de placements
-   d) Seulement une discussion sur la répartition de l'actif
+   b) La discussion sur les décisions d'investissement dans l'incertitude, maintenant appliquée de façon générale aux décisions de leadership
+   c) Seulement une discussion sur la fraude en matière d'investissements
+   d) Seulement une discussion sur l'allocation d'actifs
 2. Selon cette leçon, qu'implique généralement le fait de bien décider dans l'incertitude comme leader?
    a) Rester figé indéfiniment en attendant une certitude complète avant toute décision
    b) Réunir la meilleure information disponible, expliquer clairement son raisonnement et rester prêt à corriger le tir quand une nouvelle information apparaît
@@ -53,7 +53,7 @@ Devant la décision d'aller de l'avant ou non avec une initiative stratégique i
 1. b  2. b  3. Faux  4. b
 
 **6. Réponses et explications**
-1. Cette leçon revient sur la discussion de GOLD-L2-030 sur les décisions de placement dans l'incertitude, appliquée de façon générale aux décisions de leadership.
+1. Cette leçon revient sur la discussion de GOLD-L2-030 sur les décisions d'investissement dans l'incertitude, appliquée de façon générale aux décisions de leadership.
 2. Bien décider consiste à réunir la meilleure information disponible, à expliquer clairement son raisonnement et à être prêt à corriger le tir quand une nouvelle information apparaît.
 3. Une certitude complète n'est généralement pas possible; les leaders doivent décider avec la meilleure information disponible dans un délai raisonnable.
 4. L'engagement de la leader à suivre des indicateurs reflétait, à juste titre, l'approche calculée et ajustable décrite dans GOLD-L2-030.

@@ -26,7 +26,7 @@ No final desta lição, será capaz de:
 **2. Conteúdo principal**
 Partindo diretamente da Lição 17, a capacidade de decisão geralmente envolve tomar uma decisão a tempo, com base numa consideração real das informações disponíveis dentro de um prazo razoável, enquanto a precipitação geralmente envolve decidir por impulso, sem consideração suficiente, confundindo a simples rapidez com capacidade de decisão real. Essa distinção importa porque tanto a hesitação excessiva (a paralisia indefinida discutida na Lição 17) quanto a precipitação prejudicam a eficácia da liderança, embora de formas diferentes: a hesitação pode fazer perder oportunidades e frustrar a equipa pela falta de direção, enquanto a precipitação pode gerar decisões mal pensadas, que criam problemas reais e precisam ser corrigidas depois.
 
-A capacidade de decisão real, ao contrário da precipitação, envolve um processo de reflexão deliberado e com prazo adequado — reunir as informações relevantes disponíveis, consultar as pessoas certas quando isso agrega valor e então se comprometer a tempo com uma decisão —, em vez de prolongar a reflexão indefinidamente ou pulá-la totalmente só para parecer decidido e rápido.
+A capacidade de decisão real, ao contrário da precipitação, envolve um processo de reflexão deliberado e com prazo adequado — reunir as informações relevantes disponíveis, consultar as pessoas certas quando isso agrega valor e então se comprometer a tempo com uma decisão —, em vez de prolongar a reflexão indefinidamente ou saltá-la totalmente só para parecer decidido e rápido.
 
 **3. Exemplo prático**
 Diante de uma decisão urgente, uma líder resiste a duas tentações: esperar indefinidamente por mais informações que talvez nunca resolvam totalmente sua incerteza e decidir de imediato, sem nenhuma reflexão real, só para parecer decidida e rápida. Em vez disso, reúne as informações disponíveis mais relevantes dentro de um prazo razoável e deliberadamente limitado, pede rapidamente a opinião de uma colega de confiança e então se compromete a tempo com uma decisão — capacidade de decisão real, diferente tanto da hesitação excessiva quanto da precipitação impulsiva.
@@ -61,5 +61,5 @@ Diante de uma decisão urgente, uma líder resiste a duas tentações: esperar i
 **7. Pontos-chave**
 - A capacidade de decisão envolve decisões tomadas a tempo depois de uma reflexão real e com prazo definido; a precipitação envolve decisões impulsivas, sem consideração suficiente.
 - Tanto a hesitação excessiva quanto a precipitação prejudicam a eficácia da liderança, de formas diferentes.
-- A capacidade de decisão real exige uma reflexão deliberada e com prazo definido, e não um adiamento indefinido nem uma reflexão pulada.
+- A capacidade de decisão real exige uma reflexão deliberada e com prazo definido, e não um adiamento indefinido nem uma reflexão saltada.
 - Isso parte diretamente da discussão da Lição 17 sobre decidir na incerteza.
