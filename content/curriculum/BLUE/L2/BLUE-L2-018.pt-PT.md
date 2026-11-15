@@ -24,7 +24,7 @@ No final desta lição, será capaz de:
 - Relacionar os prazos dos fornecedores à discussão sobre fluxo de caixa da Lição 11.
 
 **2. Conteúdo principal**
-Os prazos de pagamento de um fornecedor definem quando o negócio precisa pagar pelos produtos ou serviços recebidos — as formas mais comuns são o pagamento na entrega ou o prazo "líquido" (como "30 dias líquidos", em inglês "net 30", ou seja, o pagamento vence 30 dias depois da emissão da fatura), que na prática funciona como um período curto de financiamento sem juros e afeta diretamente o momento do fluxo de caixa discutido na Lição 11. Prazos favoráveis podem aliviar bastante a pressão sobre o fluxo de caixa, já que o negócio pode vender o estoque ou concluir os serviços e receber dos clientes antes de vencer o seu próprio pagamento ao fornecedor.
+Os prazos de pagamento de um fornecedor definem quando o negócio precisa pagar pelos produtos ou serviços recebidos — as formas mais comuns são o pagamento na entrega ou o prazo "líquido" (como "30 dias líquidos", em inglês "net 30", ou seja, o pagamento vence 30 dias depois da emissão da fatura), que na prática funciona como um período curto de financiamento sem juros e afeta diretamente o momento do fluxo de caixa discutido na Lição 11. Prazos favoráveis podem aliviar bastante a pressão sobre o fluxo de caixa, já que o negócio pode vender o stock ou concluir os serviços e receber dos clientes antes de vencer o seu próprio pagamento ao fornecedor.
 
 O poder de negociação de um negócio com os fornecedores geralmente melhora à medida que ele constrói um histórico de pagamentos confiáveis e em dia (retomando a discussão sobre crédito empresarial da Lição 16) e à medida que o volume de pedidos cresce, já que os fornecedores geralmente valorizam clientes maiores e mais confiáveis e podem oferecer prazos melhores justamente para não perdê-los. Negócios em fase inicial costumam ter menos poder de negociação e podem precisar aceitar prazos menos favoráveis (ou pagamento antecipado) até construírem esse histórico.
 
@@ -39,7 +39,7 @@ No início do negócio, o fornecedor de Marisol para os cupcakes exigia pagament
    d) Um tipo de empréstimo empresarial
 2. Como prazos favoráveis dos fornecedores podem aliviar a pressão sobre o fluxo de caixa?
    a) Eles não aliviam em nada o fluxo de caixa
-   b) Eles podem permitir que o negócio venda o estoque e receba antes de vencer o seu próprio pagamento ao fornecedor
+   b) Eles podem permitir que o negócio venda o stock e receba antes de vencer o seu próprio pagamento ao fornecedor
    c) Eles eliminam a necessidade de pagar os fornecedores
    d) Eles só valem para negócios de serviços
 3. Verdadeiro ou falso: o poder de negociação de um negócio com os fornecedores nunca muda com o tempo, seja qual for o seu histórico.
