@@ -4,7 +4,7 @@ track: BLACK
 officialTrackName: Leadership & Executive Management
 level: 2
 lessonNumber: 46
-title: "La rémunération et la motivation : ce qui stimule réellement le rendement (BLACK rencontre GREEN)"
+title: "La rémunération et la motivation : ce qui stimule réellement la performance (BLACK rencontre GREEN)"
 summary: "Une rémunération insuffisante peut miner la motivation, mais au-delà d'un seuil adéquat, la reconnaissance, un travail porteur de sens et l'autonomie pèsent souvent autant ou plus que d'autres hausses salariales."
 version: 1.0
 author: Edunancial Faculty
@@ -15,7 +15,7 @@ translationStatus: owner-accepted
 ---
 
 ## BLACK-L2-046
-### La rémunération et la motivation : ce qui stimule réellement le rendement (BLACK rencontre GREEN)
+### La rémunération et la motivation : ce qui stimule réellement la performance (BLACK rencontre GREEN)
 
 **1. Objectifs d'apprentissage**
 À la fin de cette leçon, vous serez en mesure de :
