@@ -1,4 +1,4 @@
-import { LANGUAGE_CATALOG } from "@/lib/international/languages";
+import { PUBLIC_LANGUAGE_CATALOG } from "@/lib/international/languages";
 
 export const AI_LEARNING_ADMIN_STORAGE_KEY = "edunancial:ai-learning-config";
 
@@ -33,7 +33,7 @@ export const DEFAULT_AI_LEARNING_CONFIG: AILearningAdminConfig = {
   // The server pipeline canonicalizes locale codes to lowercase (for example,
   // en-US -> en-us). Keep the allow-list in the same canonical form so valid
   // regional locales are not rejected before the model call.
-  supportedLanguages: LANGUAGE_CATALOG.map((language) => language.code.toLowerCase()),
+  supportedLanguages: PUBLIC_LANGUAGE_CATALOG.map((language) => language.code.toLowerCase()),
   publicAssistanceEnabled: true,
 };
 

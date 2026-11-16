@@ -5,7 +5,7 @@ import {
   DEFAULT_LANGUAGE_CODE,
   getStoredLanguageAdminSettings,
   isLanguageSupported,
-  normalizeLanguageCode,
+  normalizePublicLanguageCode,
 } from "./languages";
 import {
   countryFromTimezone,
@@ -119,7 +119,7 @@ function resolveCurrency(countryCode: string, region: string) {
 
 function resolveLanguage(browserLanguage: string) {
   const settings = getStoredLanguageAdminSettings();
-  const normalizedBrowserLanguage = normalizeLanguageCode(browserLanguage);
+  const normalizedBrowserLanguage = normalizePublicLanguageCode(browserLanguage);
 
   if (
     settings.enabledLanguages.includes(normalizedBrowserLanguage) &&
@@ -178,7 +178,7 @@ function toInternationalPreferences(
   }
 
   const country = (source.country ?? parseCountryCodeFromLanguageTag(rawLanguage) ?? "us").toLowerCase();
-  const preferredLanguage = normalizeLanguageCode(rawLanguage);
+  const preferredLanguage = normalizePublicLanguageCode(rawLanguage);
 
   return {
     preferredLanguage,

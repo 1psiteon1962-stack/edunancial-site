@@ -4,8 +4,8 @@ import { useMemo, useState } from "react";
 
 import {
   getStoredLanguageAdminSettings,
-  LANGUAGE_CATALOG,
-  normalizeLanguageCode,
+  PUBLIC_LANGUAGE_CATALOG,
+  normalizePublicLanguageCode,
 } from "@/lib/international/languages";
 import { useInternationalPreferences } from "@/components/international/InternationalPreferencesProvider";
 
@@ -28,7 +28,7 @@ export default function LanguagePreferenceSelector({
   const [searchValue, setSearchValue] = useState("");
   const settings = getStoredLanguageAdminSettings();
   const enabledLanguages = useMemo(() => {
-    return LANGUAGE_CATALOG.filter((language) =>
+    return PUBLIC_LANGUAGE_CATALOG.filter((language) =>
       settings.enabledLanguages.includes(language.code)
     );
   }, [settings.enabledLanguages]);
@@ -45,7 +45,7 @@ export default function LanguagePreferenceSelector({
     );
   }, [enabledLanguages, searchValue]);
   const selectedLanguage = useMemo(() => {
-    const normalized = normalizeLanguageCode(effectiveLanguage);
+    const normalized = normalizePublicLanguageCode(effectiveLanguage);
 
     return filteredLanguages.some((language) => language.code === normalized)
       ? normalized
