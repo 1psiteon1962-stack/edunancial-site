@@ -7,6 +7,7 @@ import { Suspense, useState } from "react";
 import { useInternationalPreferences } from "@/components/international/InternationalPreferencesProvider";
 import { PAID_PURCHASER_ATTESTATION } from "@/lib/age-consent";
 import { formatLocalizedPrice, getLocalizedCatalogPrice } from "@/lib/location/pricing";
+import { checkoutEndpointForCountry } from "@/lib/payments/stripe-countries";
 import { membershipPlans } from "@/types/membership";
 
 function CheckoutContent() {
@@ -47,7 +48,7 @@ function CheckoutContent() {
     setBillingPrompt(null);
 
     try {
-      const res = await fetch("/api/square/payment-link", {
+      const res = await fetch(checkoutEndpointForCountry(countryCode), {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({

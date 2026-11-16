@@ -25,6 +25,8 @@
     "src/lib/dashboard/dashboard-service.ts",
     "src/lib/dashboard/dashboard-service.test.ts",
     "src/app/api/square/**/*.ts",
+    "src/app/api/stripe/**/*.ts",
+    "src/lib/payments/stripe*.ts",
     "src/lib/positioning.ts",
     "src/lib/positioning.test.ts",
     "src/types/membership.ts",
