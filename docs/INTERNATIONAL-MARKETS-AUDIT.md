@@ -27,8 +27,8 @@ Audit started 2026-11-16. Last updated 2026-11-16 against `main` at 1f14ff2a.
 | Regional variant follows the network country (es-ES vs es-Caribbean, en-GB, fr-FR vs fr-CA, pt-PT vs pt-BR) | UNTESTED | `regionalLocaleForNetworkCountry` in `detection.ts`, applied client-side via `setDetectedRegionalLocale` (never overrides a manual choice) |
 | Country default language when the browser gives none (e.g. German browser in Berlin is fine; an English browser in Quebec stays English, which matches the spec) | PARTIAL | Server `getServerLanguage` passes no geo locale; `src/lib/i18n/geo-map.ts` is unused legacy (maps DO/PR/ES to bare `es`). Low impact because the client refines the regional variant. |
 | Haitian Creole hidden until approved | VERIFIED (fixed) | PR #1508, merged 2026-11-16; production curriculum smoke 17170/17170 |
-| Browser-facing locale tags are valid BCP 47 (`es-Caribbean` is internal) | TO CHECK | `document.documentElement.lang` is set to the internal code |
-| Account-level language preference | TO CHECK | |
+| Browser-facing locale tags are valid BCP 47 | GAP | `<html lang>` (root layout) and `document.documentElement.lang` are set to the internal code `es-Caribbean`, which is not a valid BCP 47 tag (variant subtags are 5–8 characters). Fix: emit `es-419`. |
+| Account-level language preference | MISSING | Preferences live in the browser (localStorage + cookie, user-scoped key when signed in). `getCurrentMember()` returns a hard-coded demo member; no server-side saved language or country per account. |
 
 ## 3. Currency and 6. Country pricing
 
@@ -59,8 +59,10 @@ Audit started 2026-11-16. Last updated 2026-11-16 against `main` at 1f14ff2a.
 | Item | Status | Evidence |
 |---|---|---|
 | 72-hour launch countdown | MISSING | No countdown code found. Must not start without owner approval. |
-| Account settings (language, country, billing country, plan, renewal, history, cancel) | TO CHECK | |
-| Admin panel for prices, countries, languages, revenue by country | TO CHECK | `LanguageAdministrationPanel` exists |
+| Account settings (language, country, billing country, plan, renewal, history, cancel) | PARTIAL | `/settings` has a Language tab that points to the header selector; `/account` links to Downloads and Membership. No billing country, renewal date, payment history or cancel controls yet (depends on live payments). |
+| Admin panel: prices | PARTIAL | `/admin/pricing` shows the US checkout catalog read-only and states regional prices are not editable. Country prices cannot be edited without a deploy. |
+| Admin panel: countries, languages, regional dashboards | UNTESTED | `/admin/regional-management`, `/admin/regions`, `/admin/languages`, `/admin/country-dashboard`, `/admin/site-access` exist |
+| Revenue / registrations / conversion by country | TO CHECK in a later pass | `/admin/country-dashboard`, KPI pages |
 
 ## Owner decisions needed (BLOCKED)
 
