@@ -1,4 +1,4 @@
-import { readFile } from "node:fs/promises";
+import { readFileAsync as readFile } from "@/lib/curriculum/curriculum-fs";
 import { join } from "node:path";
 
 import { verifyAdminPassword } from "@/lib/admin-content/auth";
