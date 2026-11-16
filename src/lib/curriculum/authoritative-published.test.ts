@@ -491,3 +491,48 @@ test("Level 3 administrative file header is metadata, not learner body", async (
   assert.ok(!lesson.body.startsWith("Filename:"), "learner body must not expose source-file metadata");
   assert.match(lesson.body, /^## Learning Objectives/u);
 });
+
+function writeGreenL1EsCaribbeanPackage(updatedAt: string) {
+  const dir = join(STORE_ROOT, "published", "atomic", "translation-packages");
+  mkdirSync(dir, { recursive: true });
+  const key = "GREEN-L1-es-Caribbean";
+  writeFileSync(join(dir, "index.json"), JSON.stringify([key], null, 2), "utf8");
+  writeFileSync(join(dir, `${key}.json`), JSON.stringify({
+    key, track: "GREEN", level: 1, locale: "es-Caribbean", updatedAt,
+    lessons: { "GREEN-L1-011": { title: "Título antiguo del almacén", summary: "Resumen antiguo", body: "## Objetivos de aprendizaje\n\nVersión antigua subida al almacén. ".repeat(40) } },
+  }, null, 2), "utf8");
+  invalidateTranslationPackageCache();
+}
+
+function committedGreenL1011EsCaribbeanTitle() {
+  const committed = readFileSync(join(process.cwd(), "content", "curriculum", "GREEN", "L1", "GREEN-L1-011.es-Caribbean.md"), "utf8");
+  return committed.match(/^title:\s*"?(.*?)"?\s*$/mu)?.[1] ?? "";
+}
+
+test("owner-retired stale stored translation yields to the committed Git locale file", async () => {
+  writeGreenL1EsCaribbeanPackage("2026-10-01T00:00:00.000Z");
+  try {
+    const lesson = await getPublishedLesson("GREEN-L1-011", "es-Caribbean");
+    assert.ok(lesson);
+    assert.equal(lesson.title, committedGreenL1011EsCaribbeanTitle());
+    assert.doesNotMatch(lesson.body, /Versión antigua subida al almacén/u);
+    const listed = findTrackLesson(await getPublishedTracks("es-Caribbean"), "GREEN", 1, "GREEN-L1-011");
+    assert.ok(listed);
+    assert.equal(listed.title, committedGreenL1011EsCaribbeanTitle());
+  } finally {
+    rmSync(join(STORE_ROOT, "published", "atomic", "translation-packages"), { recursive: true, force: true });
+    invalidateTranslationPackageCache();
+  }
+});
+
+test("an upload published after the retirement cutoff is learner-visible again", async () => {
+  writeGreenL1EsCaribbeanPackage("2030-01-01T00:00:00.000Z");
+  try {
+    const lesson = await getPublishedLesson("GREEN-L1-011", "es-Caribbean");
+    assert.ok(lesson);
+    assert.equal(lesson.title, "Título antiguo del almacén");
+  } finally {
+    rmSync(join(STORE_ROOT, "published", "atomic", "translation-packages"), { recursive: true, force: true });
+    invalidateTranslationPackageCache();
+  }
+});
