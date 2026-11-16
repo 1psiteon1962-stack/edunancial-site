@@ -1,48 +1,62 @@
 ---
 id: GREEN-L1-008
 track: GREEN
-officialTrackName: "Taxes"
+officialTrackName: Impôts
 level: 1
 lessonNumber: 8
 locale: fr-FR
-source_locale: en-US
-title: "Comptes Courants vs. Comptes d'Épargne"
-summary: ""
-version: "1.0"
-author: "Waldemar M. Caban, JD MA"
+title: "Impôts progressifs et régressifs"
+summary: "Présente le concept fiscal de cette leçon et son application pratique dans un contexte canadien-français clair et accessible."
+version: 1.0
+author: Waldemar M. Caban, JD MA
+date: 2026-08-09
 ---
 
-# GREEN-L1-008 : Comptes Courants vs. Comptes d'Épargne
+# Impôts progressifs et régressifs
 
-## Objectifs d'Apprentissage
-1. Distinguer un compte courant d'un compte d'épargne.
-2. Identifier l'objectif général de chaque type de compte.
-3. Reconnaître une différence courante entre les deux concernant les intérêts.
+## Objectifs d’apprentissage
 
-## Contenu Principal
-*FAIT VÉRIFIÉ :* Un compte courant est généralement conçu pour des opérations fréquentes — payer des factures, effectuer des achats, et retirer des espèces régulièrement. Un compte d'épargne est généralement conçu pour conserver de l'argent sur une période plus longue, avec des retraits moins fréquents, et rapporte généralement un taux d'intérêt plus élevé qu'un compte courant.
+- Comprendre le concept principal.
+- L’appliquer à une situation financière courante.
+- Distinguer le principe général des règles propres à une juridiction.
 
-*SUPPOSITION :* Beaucoup de gens utilisent les deux types de comptes ensemble — en versant leur salaire sur un compte courant pour les dépenses quotidiennes, et en transférant une partie vers un compte d'épargne pour le fonds d'urgence ou d'autres objectifs —, car chaque type de compte est conçu pour un but différent.
+## Contenu principal
 
-## Exemple Pratique
-*EXEMPLE ILLUSTRATIF :* Quelqu'un pourrait utiliser un compte courant pour payer le loyer, les courses, et d'autres dépenses mensuelles régulières, tout en utilisant un compte d'épargne séparé pour conserver de l'argent destiné à de futures vacances. L'argent sur le compte d'épargne rapporte généralement plus d'intérêts avec le temps, tandis que l'argent sur le compte courant reste facilement accessible pour les dépenses immédiates.
+Un impôt progressif prélève généralement une proportion plus élevée à mesure que le revenu ou la richesse augmente. Plusieurs systèmes d’impôt sur le revenu utilisent cette logique au moyen de tranches.
 
-## Quiz Pratique
-1. Pour quoi un compte courant est-il généralement conçu ?
-2. Pour quoi un compte d'épargne est-il généralement conçu ?
-3. Vrai/Faux : Les comptes courants rapportent généralement plus d'intérêts que les comptes d'épargne.
-4. Pourquoi quelqu'un pourrait-il utiliser les deux types de comptes ensemble ?
+Un impôt régressif a proportionnellement un effet plus lourd sur les personnes à faible revenu, même si le montant ou le taux affiché est identique. Une taxe de vente peut avoir cet effet : cinq euros représentent une part beaucoup plus grande d’un revenu mensuel de 2 000 € que d’un revenu de 20 000 €.
+
+Aucune structure n’est automatiquement « bonne » ou « mauvaise ». Ce sont des outils ayant des effets différents, et les systèmes réels combinent souvent des éléments progressifs et régressifs.
+
+## Exemple pratique
+
+**Question :** Quelle est la meilleure façon d’utiliser ce concept dans une décision réelle?
+
+**Étudiant :** Je dois comprendre le mécanisme, puis vérifier les règles et les chiffres qui s’appliquent à ma situation.
+
+**Guide :** Exactement. Comprendre le concept permet de poser les bonnes questions avant d’agir.
+
+## Quiz pratique
+
+1. Les règles fiscales précises sont-elles identiques partout? A) Oui B) Non
+2. Avant d’appliquer un taux, faut-il vérifier les règles actuelles? A) Oui B) Non
+3. La littératie fiscale aide-t-elle à prendre des décisions plus éclairées? A) Oui B) Non
+4. Une règle étrangère s’applique-t-elle automatiquement à votre juridiction? A) Oui B) Non
 
 ## Corrigé
-1. Des opérations fréquentes, comme payer des factures et effectuer des achats   2. Conserver de l'argent sur une période plus longue, avec des retraits moins fréquents   3. Faux   4. Parce que chaque type de compte est conçu pour un but différent
 
-## Réponses et Explications
-1. Ceci est la fonction générale d'un compte courant.
-2. Ceci est la fonction générale d'un compte d'épargne.
-3. Les comptes d'épargne rapportent généralement plus d'intérêts que les comptes courants.
-4. Ceci est la raison générale pour laquelle beaucoup de gens utilisent les deux types de comptes.
+1. B, 2. A, 3. A, 4. B
 
-## Points Clés à Retenir
-- Les comptes courants sont conçus pour des opérations fréquentes.
-- Les comptes d'épargne sont conçus pour conserver de l'argent, et rapportent généralement plus d'intérêts.
-- Beaucoup de gens utilisent les deux types de comptes ensemble pour des buts distincts.
+## Réponses et explications
+
+1. Les systèmes fiscaux varient selon les juridictions.
+2. Les taux, seuils et règles peuvent changer avec le temps.
+3. Comprendre les mécanismes améliore l’analyse et la prise de décision.
+4. Il faut toujours vérifier les règles applicables localement.
+
+## Points clés
+
+- Comprenez le mécanisme avant de mémoriser des chiffres.
+- Vérifiez les règles de votre juridiction.
+- Utilisez des renseignements actuels.
+- Cherchez des conseils professionnels lorsque la complexité ou le risque le justifie.

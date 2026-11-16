@@ -1,48 +1,60 @@
 ---
 id: GREEN-L1-024
 track: GREEN
-officialTrackName: "Taxes"
+officialTrackName: Impôts
 level: 1
 lessonNumber: 24
 locale: fr-FR
-source_locale: en-US
-title: "Épargner vs. Investir — La Différence"
-summary: ""
-version: "1.0"
-author: "Waldemar M. Caban, JD MA"
+title: "Tenue de dossiers : reçus, relevés et documentation"
+summary: "Explique ce concept fiscal en français canadien et montre comment l’appliquer de façon pratique et éclairée."
+version: 1.0
+author: Waldemar M. Caban, JD MA
+date: 2026-08-09
 ---
 
-# GREEN-L1-024 : Épargner vs. Investir — La Différence
+# Tenue de dossiers : reçus, relevés et documentation
 
-## Objectifs d'Apprentissage
-1. Distinguer l'épargne de l'investissement.
-2. Expliquer la différence générale de niveau de risque entre les deux.
-3. Reconnaître quand chacun est généralement plus approprié.
+## Objectifs d’apprentissage
 
-## Contenu Principal
-*FAIT VÉRIFIÉ :* Épargner implique généralement de conserver de l'argent de manière sûre et accessible, avec peu ou pas de risque de perdre le montant principal, mais aussi avec un rendement généralement faible. Investir implique généralement d'allouer de l'argent à des actifs pouvant prendre de la valeur avec le temps, mais comportant aussi le risque de perdre une partie ou la totalité du montant investi.
+- Comprendre le concept principal.
+- Reconnaître ses conséquences pratiques.
+- Vérifier les exigences propres à la juridiction avant d’agir.
 
-*SUPPOSITION :* L'épargne est généralement plus appropriée pour des objectifs à court terme ou pour de l'argent dont on pourrait avoir besoin bientôt, comme un fonds d'urgence, tandis que l'investissement est généralement plus approprié pour des objectifs à long terme, comme la retraite, où l'on a le temps de se remettre d'éventuelles baisses temporaires de valeur.
+## Contenu principal
 
-## Exemple Pratique
-*EXEMPLE ILLUSTRATIF :* Quelqu'un qui épargne pour payer le loyer du mois prochain devrait généralement conserver cet argent sur un compte d'épargne sûr et accessible, plutôt que de l'investir en actions, car il ne peut pas se permettre que la valeur chute juste au moment où il a besoin de l'argent. Cette même personne pourrait cependant investir de l'argent destiné à la retraite dans trente ans, car elle a largement le temps de se remettre d'éventuelles baisses temporaires du marché.
+Une bonne tenue de dossiers soutient les déductions, crédits et autres positions fiscales. Les documents pertinents peuvent comprendre reçus, relevés bancaires et de placement, talons de paie, factures et déclarations antérieures.
 
-## Quiz Pratique
-1. Qu'implique généralement épargner ?
-2. Qu'implique généralement investir ?
-3. Vrai/Faux : L'épargne comporte généralement le même niveau de risque que l'investissement.
-4. Pour quel type d'objectif l'épargne est-elle généralement plus appropriée ?
+L’approche la plus efficace consiste à organiser les documents au fur et à mesure. Un système simple de dossiers physiques ou numériques facilite la préparation et fournit des preuves si une autorité remet ultérieurement une information en question.
+
+## Exemple pratique
+
+**Question :** Quelle approche prudente faut-il adopter?
+
+**Étudiant :** Comprendre le mécanisme, conserver de bons dossiers et vérifier les règles actuelles.
+
+**Guide :** Exactement. Une bonne préparation réduit les erreurs et les mauvaises surprises.
+
+## Quiz pratique
+
+1. Les règles fiscales peuvent-elles varier selon la juridiction? A) Oui B) Non
+2. Faut-il conserver une documentation appropriée? A) Oui B) Non
+3. Les chiffres anciens devraient-ils être utilisés sans vérification? A) Oui B) Non
+4. Une situation complexe peut-elle justifier des conseils professionnels? A) Oui B) Non
 
 ## Corrigé
-1. Conserver de l'argent de manière sûre et accessible, avec peu de risque   2. Allouer de l'argent à des actifs pouvant prendre de la valeur, avec un risque de perte   3. Faux   4. Les objectifs à court terme ou l'argent dont on pourrait avoir besoin bientôt
 
-## Réponses et Explications
-1. Ceci est la définition générale fondamentale de l'épargne.
-2. Ceci est la définition générale fondamentale de l'investissement.
-3. L'épargne comporte généralement beaucoup moins de risque que l'investissement.
-4. Ceci est l'application générale couramment citée de l'épargne.
+1. A, 2. A, 3. B, 4. A
 
-## Points Clés à Retenir
-- Épargner implique de conserver de l'argent en sécurité avec un faible risque et un faible rendement.
-- Investir implique d'allouer de l'argent à des actifs à potentiel de croissance, mais avec un risque de perte.
-- L'épargne est généralement appropriée pour des objectifs à court terme ; l'investissement, pour des objectifs à long terme.
+## Réponses et explications
+
+1. Les règles et seuils diffèrent entre juridictions.
+2. La documentation permet d’appuyer les calculs et positions fiscales.
+3. Les règles évoluent et doivent être vérifiées.
+4. Une aide qualifiée peut être appropriée lorsque le risque ou la complexité augmente.
+
+## Points clés
+
+- Planifiez avant les échéances.
+- Conservez des dossiers clairs.
+- Vérifiez les règles applicables.
+- Distinguez les concepts généraux des exigences locales.

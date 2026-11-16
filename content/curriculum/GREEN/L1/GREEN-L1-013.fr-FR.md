@@ -1,48 +1,60 @@
 ---
 id: GREEN-L1-013
 track: GREEN
-officialTrackName: "Taxes"
+officialTrackName: Impôts
 level: 1
 lessonNumber: 13
 locale: fr-FR
-source_locale: en-US
-title: "Qu'est-ce Que le Crédit ?"
-summary: ""
-version: "1.0"
-author: "Waldemar M. Caban, JD MA"
+title: "Qu’est-ce que la retenue d’impôt?"
+summary: "Présente le concept fiscal de cette leçon et son application pratique dans un contexte canadien-français clair et accessible."
+version: 1.0
+author: Waldemar M. Caban, JD MA
+date: 2026-08-09
 ---
 
-# GREEN-L1-013 : Qu'est-ce Que le Crédit ?
+# Qu’est-ce que la retenue d’impôt?
 
-## Objectifs d'Apprentissage
-1. Définir le crédit en termes simples.
-2. Expliquer l'échange général qu'implique l'utilisation du crédit.
-3. Reconnaître pourquoi le crédit a généralement un coût.
+## Objectifs d’apprentissage
 
-## Contenu Principal
-*FAIT VÉRIFIÉ :* Le crédit est la capacité d'une personne à emprunter de l'argent ou à recevoir des biens et services maintenant, avec l'engagement de payer plus tard. Utiliser le crédit implique généralement un accord entre l'emprunteur et le prêteur sur le moment et la manière dont l'argent sera remboursé.
+- Comprendre le concept principal.
+- L’appliquer à une situation financière courante.
+- Distinguer le principe général des règles propres à une juridiction.
 
-*SUPPOSITION :* Le crédit a généralement un coût — habituellement sous forme d'intérêts — car le prêteur assume un risque en remettant de l'argent sans recevoir de paiement immédiat en retour, et ce risque est généralement compensé par l'intérêt facturé.
+## Contenu principal
 
-## Exemple Pratique
-*EXEMPLE ILLUSTRATIF :* Quelqu'un qui achète un électroménager avec une carte de crédit utilise le crédit — il reçoit le produit immédiatement, mais s'engage à payer le montant plus tard, généralement avec des intérêts s'il ne règle pas le solde complet avant la date limite. Cela diffère du paiement en espèces, où l'échange d'argent contre le produit se fait de manière immédiate et complète.
+La retenue est une somme qu’un employeur déduit de la paie et remet au gouvernement comme paiement anticipé estimatif de l’impôt. Au lieu d’attendre un seul paiement important, plusieurs systèmes perçoivent l’impôt progressivement pendant l’année.
 
-## Quiz Pratique
-1. Qu'est-ce que le crédit ?
-2. Quel échange général implique l'utilisation du crédit ?
-3. Vrai/Faux : Le crédit n'a généralement aucun coût associé.
-4. Pourquoi le crédit a-t-il généralement un coût ?
+La retenue demeure une estimation. À la fin de la période fiscale, l’obligation réelle est comparée aux montants déjà versés. Un trop-payé peut mener à un remboursement; un paiement insuffisant peut laisser un solde à payer. Les changements importants de situation constituent une bonne raison de revoir les paramètres applicables.
+
+## Exemple pratique
+
+**Question :** Quelle est la meilleure façon d’utiliser ce concept dans une décision réelle?
+
+**Étudiant :** Je dois comprendre le mécanisme, puis vérifier les règles et les chiffres qui s’appliquent à ma situation.
+
+**Guide :** Exactement. Comprendre le concept permet de poser les bonnes questions avant d’agir.
+
+## Quiz pratique
+
+1. Les règles fiscales précises sont-elles identiques partout? A) Oui B) Non
+2. Avant d’appliquer un taux, faut-il vérifier les règles actuelles? A) Oui B) Non
+3. La littératie fiscale aide-t-elle à prendre des décisions plus éclairées? A) Oui B) Non
+4. Une règle étrangère s’applique-t-elle automatiquement à votre juridiction? A) Oui B) Non
 
 ## Corrigé
-1. La capacité d'emprunter de l'argent ou de recevoir des biens et services maintenant, en payant plus tard   2. Recevoir quelque chose maintenant en échange de l'engagement de payer à l'avenir   3. Faux   4. Parce que le prêteur assume un risque en ne recevant pas de paiement immédiat
 
-## Réponses et Explications
-1. Ceci est la définition fondamentale du crédit.
-2. Ceci est l'échange général fondamental du crédit.
-3. Le crédit a généralement un coût, habituellement sous forme d'intérêts.
-4. Ceci est la raison générale couramment citée du coût du crédit.
+1. B, 2. A, 3. A, 4. B
 
-## Points Clés à Retenir
-- Le crédit permet de recevoir quelque chose maintenant avec l'engagement de payer plus tard.
-- Son utilisation implique généralement un accord entre emprunteur et prêteur.
-- Le crédit a généralement un coût, habituellement sous forme d'intérêts, qui compense le risque du prêteur.
+## Réponses et explications
+
+1. Les systèmes fiscaux varient selon les juridictions.
+2. Les taux, seuils et règles peuvent changer avec le temps.
+3. Comprendre les mécanismes améliore l’analyse et la prise de décision.
+4. Il faut toujours vérifier les règles applicables localement.
+
+## Points clés
+
+- Comprenez le mécanisme avant de mémoriser des chiffres.
+- Vérifiez les règles de votre juridiction.
+- Utilisez des renseignements actuels.
+- Cherchez des conseils professionnels lorsque la complexité ou le risque le justifie.

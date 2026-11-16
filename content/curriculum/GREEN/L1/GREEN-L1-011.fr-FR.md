@@ -1,48 +1,60 @@
 ---
 id: GREEN-L1-011
 track: GREEN
-officialTrackName: "Taxes"
+officialTrackName: Impôts
 level: 1
 lessonNumber: 11
 locale: fr-FR
-source_locale: en-US
-title: "Qu'est-ce Qu'une Banque ?"
-summary: ""
-version: "1.0"
-author: "Waldemar M. Caban, JD MA"
+title: "Revenu brut et revenu net"
+summary: "Présente le concept fiscal de cette leçon et son application pratique dans un contexte canadien-français clair et accessible."
+version: 1.0
+author: Waldemar M. Caban, JD MA
+date: 2026-08-09
 ---
 
-# GREEN-L1-011 : Qu'est-ce Qu'une Banque ?
+# Revenu brut et revenu net
 
-## Objectifs d'Apprentissage
-1. Définir une banque en termes simples.
-2. Expliquer le rôle général des banques dans l'économie.
-3. Reconnaître comment les banques génèrent généralement des revenus.
+## Objectifs d’apprentissage
 
-## Contenu Principal
-*FAIT VÉRIFIÉ :* Une banque est un établissement financier autorisé à recevoir des dépôts du public et à accorder des prêts. Les banques agissent généralement comme intermédiaires entre les personnes disposant d'argent à épargner et les personnes ou entreprises ayant besoin d'emprunter.
+- Comprendre le concept principal.
+- L’appliquer à une situation financière courante.
+- Distinguer le principe général des règles propres à une juridiction.
 
-*SUPPOSITION :* Les banques génèrent généralement des revenus en facturant un taux d'intérêt plus élevé sur les prêts qu'elles accordent que le taux d'intérêt qu'elles versent sur les dépôts qu'elles reçoivent — cette différence entre les deux taux est une source courante de profit pour la banque.
+## Contenu principal
 
-## Exemple Pratique
-*EXEMPLE ILLUSTRATIF :* Une banque pourrait verser à ses clients 1 % d'intérêt annuel sur l'argent déposé sur des comptes d'épargne, tout en facturant 6 % d'intérêt annuel aux personnes empruntant pour acheter une voiture. La différence entre ce qu'elle verse et ce qu'elle facture représente généralement une part importante de la manière dont la banque génère des profits, en plus de couvrir ses propres coûts opérationnels et risques.
+Le revenu brut est le montant total gagné avant toute soustraction. Le revenu net est ce qui reste après les impôts et d’autres retenues possibles, comme des cotisations de retraite ou des primes d’assurance.
 
-## Quiz Pratique
-1. Qu'est-ce qu'une banque ?
-2. Quel est le rôle général des banques dans l'économie ?
-3. Vrai/Faux : Les banques versent généralement le même taux d'intérêt qu'elles facturent.
-4. Comment les banques génèrent-elles généralement des revenus ?
+La même logique s’applique aux entreprises : le montant brut représente le point de départ, tandis que le montant net reflète ce qui reste après les coûts et obligations. Lorsqu’un chiffre est décrit comme « brut », demandez toujours ce qui doit encore être soustrait.
+
+## Exemple pratique
+
+**Question :** Quelle est la meilleure façon d’utiliser ce concept dans une décision réelle?
+
+**Étudiant :** Je dois comprendre le mécanisme, puis vérifier les règles et les chiffres qui s’appliquent à ma situation.
+
+**Guide :** Exactement. Comprendre le concept permet de poser les bonnes questions avant d’agir.
+
+## Quiz pratique
+
+1. Les règles fiscales précises sont-elles identiques partout? A) Oui B) Non
+2. Avant d’appliquer un taux, faut-il vérifier les règles actuelles? A) Oui B) Non
+3. La littératie fiscale aide-t-elle à prendre des décisions plus éclairées? A) Oui B) Non
+4. Une règle étrangère s’applique-t-elle automatiquement à votre juridiction? A) Oui B) Non
 
 ## Corrigé
-1. Un établissement financier autorisé à recevoir des dépôts et à accorder des prêts   2. Agir comme intermédiaires entre épargnants et emprunteurs   3. Faux   4. En facturant un taux d'intérêt plus élevé sur les prêts que celui versé sur les dépôts
 
-## Réponses et Explications
-1. Ceci est la définition fondamentale d'une banque.
-2. Ceci est le rôle général couramment cité des banques.
-3. Les banques facturent généralement plus qu'elles ne versent, générant ainsi un profit.
-4. Ceci est la source de revenus générale couramment citée des banques.
+1. B, 2. A, 3. A, 4. B
 
-## Points Clés à Retenir
-- Une banque reçoit des dépôts du public et accorde des prêts.
-- Les banques agissent comme intermédiaires entre épargnants et emprunteurs.
-- Elles génèrent des revenus en facturant généralement plus d'intérêts sur les prêts qu'elles n'en versent sur les dépôts.
+## Réponses et explications
+
+1. Les systèmes fiscaux varient selon les juridictions.
+2. Les taux, seuils et règles peuvent changer avec le temps.
+3. Comprendre les mécanismes améliore l’analyse et la prise de décision.
+4. Il faut toujours vérifier les règles applicables localement.
+
+## Points clés
+
+- Comprenez le mécanisme avant de mémoriser des chiffres.
+- Vérifiez les règles de votre juridiction.
+- Utilisez des renseignements actuels.
+- Cherchez des conseils professionnels lorsque la complexité ou le risque le justifie.

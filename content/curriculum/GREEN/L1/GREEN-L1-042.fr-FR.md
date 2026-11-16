@@ -1,48 +1,52 @@
 ---
 id: GREEN-L1-042
 track: GREEN
-officialTrackName: "Taxes"
+officialTrackName: Impôts
 level: 1
 lessonNumber: 42
 locale: fr-FR
-source_locale: en-US
-title: "La Fraude Financière — Signaux d'Alerte"
-summary: ""
-version: "1.0"
-author: "Waldemar M. Caban, JD MA"
+title: "Entités à imposition transférée : LLC, S corporation et entreprise individuelle"
+summary: "Explique ce concept fiscal en français canadien et l’intègre à une prise de décision financière éclairée."
+version: 1.0
+author: Waldemar M. Caban, JD MA
+date: 2026-08-09
 ---
 
-# GREEN-L1-042 : La Fraude Financière — Signaux d'Alerte
+# Entités à imposition transférée : LLC, S corporation et entreprise individuelle
 
-## Objectifs d'Apprentissage
-1. Définir la fraude financière en termes généraux.
-2. Reconnaître des signaux d'alerte couramment cités.
-3. Expliquer pourquoi les offres « trop belles pour être vraies » le sont généralement.
+## Objectifs d’apprentissage
+- Comprendre le concept principal.
+- Reconnaître ses conséquences pratiques.
+- Vérifier les règles applicables avant d’agir.
 
-## Contenu Principal
-La fraude financière est tout stratagème trompeur conçu pour obtenir de l'argent ou des informations financières d'une personne par la tromperie. *SUPPOSITION :* Les signaux d'alerte couramment cités incluent des promesses de rendements garantis et extraordinairement élevés, une pression pour agir immédiatement sans temps de réflexion, des demandes d'informations financières ou personnelles sans raison claire, et un contact non sollicité de la part de quelqu'un proposant une opportunité d'investissement.
+## Contenu principal
+Aux États-Unis, certaines structures permettent que des résultats fiscaux soient attribués directement aux propriétaires. Les LLC et S corporations sont des concepts juridiques ou fiscaux américains qui ne doivent pas être transposés automatiquement au Canada ou ailleurs. Chaque pays possède ses propres structures.
 
-*OPINION :* De nombreux experts financiers soutiennent couramment que les offres promettant des rendements garantis et extraordinairement élevés avec peu ou pas de risque sont généralement un signe de fraude, car tout investissement légitime comporte un certain niveau de risque, et personne ne peut honnêtement garantir un rendement exceptionnel sans ce risque.
+Les lois, taux, seuils et procédures varient selon la juridiction et peuvent changer. Les exemples pédagogiques ne remplacent pas la vérification des règles actuelles.
 
-## Exemple Pratique
-*EXEMPLE ILLUSTRATIF :* Quelqu'un qui reçoit un appel non sollicité proposant de doubler son argent en un mois avec « zéro risque » devrait généralement se méfier, car aucun investissement légitime ne peut honnêtement garantir ce type de rendement sans risque. La combinaison d'une promesse exagérée, d'une pression pour agir vite, et d'un contact non sollicité représente généralement plusieurs signaux d'alerte simultanés.
+## Exemple pratique
+**Question :** Quelle approche protège le mieux votre capacité de décider?
+**Étudiant :** Comprendre le concept, documenter les faits et vérifier les règles avant d’agir.
+**Guide :** Exactement. L’objectif est de décider avec information plutôt que de réagir après coup.
 
-## Quiz Pratique
-1. Qu'est-ce que la fraude financière ?
-2. Nomme un signal d'alerte couramment cité de fraude financière.
-3. Vrai/Faux : Les investissements légitimes peuvent généralement garantir des rendements élevés sans aucun risque.
-4. Dans l'exemple de l'appel non sollicité, quels signaux d'alerte sont présents ?
+## Quiz pratique
+1. Les règles fiscales sont-elles identiques partout? A) Oui B) Non
+2. La documentation peut-elle appuyer une position fiscale? A) Oui B) Non
+3. Faut-il planifier avant une transaction importante? A) Oui B) Non
+4. Une situation complexe peut-elle justifier un professionnel qualifié? A) Oui B) Non
 
 ## Corrigé
-1. Tout stratagème trompeur conçu pour obtenir de l'argent ou des informations par la tromperie   2. Promesses de rendements garantis et extraordinairement élevés, pression pour agir immédiatement, ou contact non sollicité (entre autres)   3. Faux   4. Promesse exagérée, pression pour agir vite, et contact non sollicité
+1. B, 2. A, 3. A, 4. A
 
-## Réponses et Explications
-1. Ceci est la définition générale de la fraude financière.
-2. Ce sont des signaux d'alerte couramment cités.
-3. Tout investissement légitime comporte un certain niveau de risque.
-4. Ce sont les signaux d'alerte présents dans l'exemple illustratif.
+## Réponses et explications
+1. Les juridictions ont leurs propres règles.
+2. Les dossiers permettent d’appuyer les faits et calculs.
+3. Planifier à l’avance préserve davantage d’options.
+4. Une aide qualifiée peut réduire les risques dans les situations complexes.
 
-## Points Clés à Retenir
-- La fraude financière est tout stratagème trompeur conçu pour obtenir de l'argent par la tromperie.
-- Les signaux d'alerte courants incluent des rendements garantis exagérés, la pression, et le contact non sollicité.
-- Aucun investissement légitime ne peut honnêtement garantir des rendements élevés sans aucun risque.
+## Points clés
+- Comprenez avant d’agir.
+- Conservez de bons dossiers.
+- Vérifiez les règles actuelles.
+- Planifiez les décisions importantes.
+- Utilisez l’information pour prendre vos propres décisions éclairées.

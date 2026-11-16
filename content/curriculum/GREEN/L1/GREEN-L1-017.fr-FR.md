@@ -1,48 +1,60 @@
 ---
 id: GREEN-L1-017
 track: GREEN
-officialTrackName: "Taxes"
+officialTrackName: Impôts
 level: 1
 lessonNumber: 17
 locale: fr-FR
-source_locale: en-US
-title: "Qu'est-ce Qu'un Prêt ?"
-summary: ""
-version: "1.0"
-author: "Waldemar M. Caban, JD MA"
+title: "Crédits d’impôt courants pour les particuliers"
+summary: "Explique ce concept fiscal en français canadien et montre comment l’appliquer de façon pratique et éclairée."
+version: 1.0
+author: Waldemar M. Caban, JD MA
+date: 2026-08-09
 ---
 
-# GREEN-L1-017 : Qu'est-ce Qu'un Prêt ?
+# Crédits d’impôt courants pour les particuliers
 
-## Objectifs d'Apprentissage
-1. Définir un prêt en termes simples.
-2. Identifier les éléments courants qu'un prêt inclut généralement.
-3. Reconnaître des types courants de prêts.
+## Objectifs d’apprentissage
 
-## Contenu Principal
-*FAIT VÉRIFIÉ :* Un prêt est une somme d'argent qu'un prêteur remet à un emprunteur, avec l'engagement que ce dernier la rembourse, généralement avec intérêts, selon un calendrier de paiement convenu. Les prêts incluent généralement un montant principal, un taux d'intérêt, et une durée de remboursement.
+- Comprendre le concept principal.
+- Reconnaître ses conséquences pratiques.
+- Vérifier les exigences propres à la juridiction avant d’agir.
 
-*SUPPOSITION :* Les types courants de prêts incluent les prêts personnels, les prêts automobiles, les prêts étudiants, et les prêts immobiliers — chaque type ayant généralement des caractéristiques distinctes liées à l'objectif du prêt, à la durée typique, et à la présence ou non d'une garantie.
+## Contenu principal
 
-## Exemple Pratique
-*EXEMPLE ILLUSTRATIF :* Quelqu'un qui contracte un prêt de 10 000 $ pour acheter une voiture pourrait convenir de rembourser cette somme plus intérêts sur une durée de cinq ans, avec des paiements mensuels fixes. Si cette personne cesse de payer, le prêteur a généralement le droit de reprendre la voiture comme garantie, puisque de nombreux prêts automobiles sont garantis par le véhicule lui-même.
+Les gouvernements utilisent des crédits d’impôt pour soutenir certains groupes ou encourager certains comportements. Ils peuvent concerner les enfants ou personnes à charge, l’éducation, l’efficacité énergétique ou le soutien aux travailleurs à revenu plus faible.
 
-## Quiz Pratique
-1. Qu'est-ce qu'un prêt ?
-2. Nomme un élément courant qu'un prêt inclut généralement.
-3. Vrai/Faux : Tous les prêts sont exactement identiques, quel que soit leur objectif.
-4. Que pourrait-il se passer si quelqu'un cesse de payer un prêt automobile garanti par le véhicule ?
+Les noms, montants et critères changent considérablement. La leçon durable est qu’un crédit peut réduire directement l’impôt afin de poursuivre un objectif de politique publique.
+
+## Exemple pratique
+
+**Question :** Quelle approche prudente faut-il adopter?
+
+**Étudiant :** Comprendre le mécanisme, conserver de bons dossiers et vérifier les règles actuelles.
+
+**Guide :** Exactement. Une bonne préparation réduit les erreurs et les mauvaises surprises.
+
+## Quiz pratique
+
+1. Les règles fiscales peuvent-elles varier selon la juridiction? A) Oui B) Non
+2. Faut-il conserver une documentation appropriée? A) Oui B) Non
+3. Les chiffres anciens devraient-ils être utilisés sans vérification? A) Oui B) Non
+4. Une situation complexe peut-elle justifier des conseils professionnels? A) Oui B) Non
 
 ## Corrigé
-1. Une somme d'argent remise avec l'engagement de la rembourser, généralement avec intérêts   2. Montant principal, taux d'intérêt, ou durée de remboursement (entre autres)   3. Faux   4. Le prêteur a généralement le droit de reprendre la voiture comme garantie
 
-## Réponses et Explications
-1. Ceci est la définition fondamentale d'un prêt.
-2. Ce sont des éléments courants qu'un prêt inclut généralement.
-3. Les différents types de prêts ont généralement des caractéristiques différentes.
-4. Ceci est la conséquence générale du non-remboursement d'un prêt garanti.
+1. A, 2. A, 3. B, 4. A
 
-## Points Clés à Retenir
-- Un prêt remet de l'argent avec l'engagement de le rembourser, généralement avec intérêts.
-- Il inclut généralement un montant principal, un taux d'intérêt, et une durée de remboursement.
-- Les types courants incluent les prêts personnels, automobiles, étudiants, et immobiliers.
+## Réponses et explications
+
+1. Les règles et seuils diffèrent entre juridictions.
+2. La documentation permet d’appuyer les calculs et positions fiscales.
+3. Les règles évoluent et doivent être vérifiées.
+4. Une aide qualifiée peut être appropriée lorsque le risque ou la complexité augmente.
+
+## Points clés
+
+- Planifiez avant les échéances.
+- Conservez des dossiers clairs.
+- Vérifiez les règles applicables.
+- Distinguez les concepts généraux des exigences locales.

@@ -1,48 +1,52 @@
 ---
 id: GREEN-L1-048
 track: GREEN
-officialTrackName: "Taxes"
+officialTrackName: Impôts
 level: 1
 lessonNumber: 48
 locale: fr-FR
-source_locale: en-US
-title: "Quand Consulter un Conseiller Financier"
-summary: ""
-version: "1.0"
-author: "Waldemar M. Caban, JD MA"
+title: "Travailler avec un fiscaliste : quand et pourquoi"
+summary: "Explique ce concept fiscal en français canadien et l’intègre à une prise de décision financière éclairée."
+version: 1.0
+author: Waldemar M. Caban, JD MA
+date: 2026-08-09
 ---
 
-# GREEN-L1-048 : Quand Consulter un Conseiller Financier
+# Travailler avec un fiscaliste : quand et pourquoi
 
-## Objectifs d'Apprentissage
-1. Identifier des signaux généraux indiquant qu'une situation pourrait nécessiter un conseiller financier.
-2. Expliquer la différence générale entre différents modes de rémunération des conseillers.
-3. Reconnaître une question couramment recommandée avant d'engager un conseiller.
+## Objectifs d’apprentissage
+- Comprendre le concept principal.
+- Reconnaître ses conséquences pratiques.
+- Vérifier les règles applicables avant d’agir.
 
-## Contenu Principal
-*SUPPOSITION :* Les signaux généraux indiquant qu'une situation pourrait nécessiter un conseiller financier incluent le fait de recevoir un héritage important, de planifier la retraite avec plusieurs sources de revenus, de gérer des investissements complexes, ou de traverser des changements de vie importants comme un divorce ou la vente d'une entreprise — des situations où la complexité dépasse généralement les connaissances financières de base d'une personne.
+## Contenu principal
+Créer ou restructurer une entreprise, vendre un actif important, recevoir une succession majeure, faire face à une vérification ou effectuer des opérations internationales peut justifier une aide professionnelle. La littératie fiscale aide alors à poser de meilleures questions et à évaluer les conseils reçus.
 
-*FAIT VÉRIFIÉ :* Les conseillers financiers sont généralement rémunérés de différentes manières — certains facturent des honoraires fixes ou horaires, d'autres facturent un pourcentage des actifs qu'ils gèrent, et d'autres reçoivent des commissions sur les produits financiers qu'ils recommandent. Demander directement comment un conseiller est rémunéré est une pratique couramment recommandée avant d'engager ses services.
+Les lois, taux, seuils et procédures varient selon la juridiction et peuvent changer. Les exemples pédagogiques ne remplacent pas la vérification des règles actuelles.
 
-## Exemple Pratique
-*EXEMPLE ILLUSTRATIF :* Quelqu'un recevant un héritage de 200 000 $ et n'étant pas certain de comment investir ou planifier les impôts sur cette somme pourrait bénéficier de consulter un conseiller financier. Avant de l'engager, demander s'il facture des honoraires fixes, un pourcentage des actifs gérés, ou des commissions sur des produits spécifiques aide généralement à comprendre si ses recommandations pourraient être influencées par sa rémunération.
+## Exemple pratique
+**Question :** Quelle approche protège le mieux votre capacité de décider?
+**Étudiant :** Comprendre le concept, documenter les faits et vérifier les règles avant d’agir.
+**Guide :** Exactement. L’objectif est de décider avec information plutôt que de réagir après coup.
 
-## Quiz Pratique
-1. Nomme un signal général indiquant qu'une situation pourrait nécessiter un conseiller financier.
-2. Nomme un mode courant de rémunération des conseillers financiers.
-3. Vrai/Faux : Tous les conseillers financiers sont rémunérés exactement de la même manière.
-4. Quelle question est couramment recommandée avant d'engager un conseiller ?
+## Quiz pratique
+1. Les règles fiscales sont-elles identiques partout? A) Oui B) Non
+2. La documentation peut-elle appuyer une position fiscale? A) Oui B) Non
+3. Faut-il planifier avant une transaction importante? A) Oui B) Non
+4. Une situation complexe peut-elle justifier un professionnel qualifié? A) Oui B) Non
 
 ## Corrigé
-1. Recevoir un héritage important, planifier une retraite complexe, ou traverser des changements de vie importants (entre autres)   2. Honoraires fixes ou horaires, pourcentage des actifs gérés, ou commissions (entre autres)   3. Faux   4. Comment le conseiller est rémunéré
+1. B, 2. A, 3. A, 4. A
 
-## Réponses et Explications
-1. Ce sont des signaux généraux couramment cités indiquant qu'un conseiller pourrait être nécessaire.
-2. Ce sont des modes courants de rémunération des conseillers financiers.
-3. Les conseillers financiers sont rémunérés de différentes manières, selon le modèle qu'ils utilisent.
-4. Ceci est la question couramment recommandée pour comprendre les influences possibles sur leurs recommandations.
+## Réponses et explications
+1. Les juridictions ont leurs propres règles.
+2. Les dossiers permettent d’appuyer les faits et calculs.
+3. Planifier à l’avance préserve davantage d’options.
+4. Une aide qualifiée peut réduire les risques dans les situations complexes.
 
-## Points Clés à Retenir
-- Des situations complexes comme un héritage ou une retraite à plusieurs sources de revenus pourraient nécessiter un conseiller financier.
-- Les conseillers sont rémunérés de différentes manières : honoraires fixes, pourcentage des actifs, ou commissions.
-- Demander comment un conseiller est rémunéré est une pratique couramment recommandée avant de l'engager.
+## Points clés
+- Comprenez avant d’agir.
+- Conservez de bons dossiers.
+- Vérifiez les règles actuelles.
+- Planifiez les décisions importantes.
+- Utilisez l’information pour prendre vos propres décisions éclairées.

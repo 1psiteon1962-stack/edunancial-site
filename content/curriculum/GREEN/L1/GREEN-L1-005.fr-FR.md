@@ -1,48 +1,81 @@
 ---
 id: GREEN-L1-005
 track: GREEN
-officialTrackName: "Taxes"
+officialTrackName: Impôts
 level: 1
 lessonNumber: 5
 locale: fr-FR
-source_locale: en-US
-title: "Le Fonds d'Urgence"
-summary: ""
-version: "1.0"
-author: "Waldemar M. Caban, JD MA"
+title: "Taxe de vente : imposer ce que vous achetez"
+summary: "Explique le fonctionnement des taxes à la consommation, qui les perçoit et pourquoi l’acheteur les voit souvent ajoutées au moment du paiement."
+version: 1.0
+author: Waldemar M. Caban, JD MA
+date: 2026-08-09
 ---
 
-# GREEN-L1-005 : Le Fonds d'Urgence
+# Taxe de vente : imposer ce que vous achetez
 
-## Objectifs d'Apprentissage
-1. Définir un fonds d'urgence en termes simples.
-2. Expliquer l'objectif général d'en posséder un.
-3. Reconnaître une règle couramment citée concernant sa taille.
+## Objectifs d’apprentissage
 
-## Contenu Principal
-Un fonds d'urgence est une somme d'argent mise de côté spécifiquement pour couvrir des dépenses inattendues ou imprévues, comme la perte d'un emploi, une réparation urgente, ou une urgence médicale. *FAIT VÉRIFIÉ :* Une règle couramment citée suggère de conserver entre trois et six mois de dépenses de base dans un fonds d'urgence, bien que le montant exact approprié varie selon la situation personnelle de chacun.
+- Comprendre et définir le concept principal de cette leçon.
+- L’appliquer à une situation financière courante.
+- Distinguer les principes généraux des règles propres à chaque juridiction.
 
-*SUPPOSITION :* L'objectif général d'un fonds d'urgence est d'éviter d'avoir à recourir à une dette à taux d'intérêt élevé, comme les cartes de crédit, lorsqu'une dépense imprévue survient, car dépendre de dettes dans ces moments-là peut généralement aggraver une difficulté financière temporaire.
+## Contenu principal
 
-## Exemple Pratique
-*EXEMPLE ILLUSTRATIF :* Quelqu'un ayant des dépenses mensuelles de 2 000 $ qui suit la règle couramment citée pourrait viser à disposer entre 6 000 $ et 12 000 $ dans un fonds d'urgence. Si cette personne perd soudainement son emploi, elle pourrait généralement couvrir ses dépenses de base pendant plusieurs mois en cherchant un nouvel emploi, plutôt que de dépendre immédiatement de cartes de crédit à taux d'intérêt élevé.
+La taxe de vente est ajoutée au prix de biens ou de services au moment de l’achat. Dans de nombreux systèmes, le vendeur la perçoit auprès de l’acheteur puis la remet au gouvernement. Le vendeur agit comme percepteur; c’est généralement l’acheteur qui supporte économiquement la taxe.
 
-## Quiz Pratique
-1. Qu'est-ce qu'un fonds d'urgence ?
-2. Quel est l'objectif général d'en posséder un ?
-3. Vrai/Faux : La règle couramment citée suggère d'épargner entre trois et six mois de dépenses de base.
-4. Quel risque un fonds d'urgence cherche-t-il généralement à éviter ?
+Les taux et les règles varient considérablement selon l’endroit, parfois même entre localités voisines. Certaines catégories, comme les aliments ou les médicaments, peuvent être exonérées ou imposées à un taux réduit.
+
+C’est pourquoi on parle aussi de taxe à la consommation : elle est liée à l’acte de dépenser plutôt qu’au fait de gagner un revenu ou de posséder un bien.
+
+## Exemple pratique
+
+**Question :** Comment appliquer ce concept avant de prendre une décision financière?
+
+**Étudiant :** Je dois d’abord comprendre le mécanisme, puis vérifier les règles qui s’appliquent réellement à ma situation.
+
+**Guide :** Exactement. La littératie fiscale permet de comprendre le concept; les décisions concrètes exigent des renseignements actuels et propres à votre juridiction.
+
+## Quiz pratique
+
+**Question 1.** Avant d’appliquer une règle fiscale, il faut :
+A) Supposer qu’elle est universelle
+B) Comprendre le concept et vérifier la règle applicable
+C) Utiliser des chiffres anciens
+D) Ignorer la juridiction
+
+**Question 2.** Les règles fiscales peuvent-elles varier selon le pays?
+A) Non
+B) Oui
+C) Seulement pour les entreprises
+D) Seulement pour les salariés
+
+**Question 3.** Une décision éclairée devrait reposer sur :
+A) Des règles applicables et des renseignements actuels
+B) Des rumeurs
+C) Une règle étrangère non vérifiée
+D) Aucune documentation
+
+**Question 4.** La littératie fiscale vise surtout à :
+A) Garantir un résultat
+B) Donner les outils nécessaires pour comprendre et évaluer les décisions
+C) Remplacer tout professionnel
+D) Éliminer les obligations légales
 
 ## Corrigé
-1. De l'argent mis de côté pour couvrir des dépenses inattendues ou imprévues   2. Éviter de devoir recourir à une dette à taux d'intérêt élevé en cas d'urgence   3. Vrai   4. Dépendre d'une dette à taux d'intérêt élevé, comme les cartes de crédit
 
-## Réponses et Explications
-1. Ceci est la définition fondamentale d'un fonds d'urgence.
-2. Ceci est l'objectif général couramment cité d'un fonds d'urgence.
-3. Ceci est la règle couramment citée concernant la taille d'un fonds d'urgence.
-4. Ceci est le risque qu'un fonds d'urgence aide généralement à éviter.
+1. B, 2. B, 3. A, 4. B
 
-## Points Clés à Retenir
-- Un fonds d'urgence couvre des dépenses inattendues ou imprévues.
-- Une règle couramment citée suggère entre trois et six mois de dépenses de base.
-- Son objectif général est d'éviter de dépendre d'une dette à taux d'intérêt élevé en cas d'urgence.
+## Réponses et explications
+
+**1.** Il faut comprendre le mécanisme avant d’appliquer une règle précise.
+**2.** Les systèmes fiscaux varient selon les juridictions et évoluent avec le temps.
+**3.** Les décisions doivent reposer sur des renseignements applicables et actuels.
+**4.** Comprendre les concepts améliore la capacité de décider sans garantir un résultat particulier.
+
+## Points clés
+
+- Comprenez le mécanisme avant de mémoriser des taux.
+- Vérifiez les règles de votre juridiction.
+- Distinguez les principes généraux des exigences propres à un pays.
+- Utilisez des renseignements actuels pour prendre vos décisions.

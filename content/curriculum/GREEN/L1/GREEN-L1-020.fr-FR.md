@@ -1,48 +1,60 @@
 ---
 id: GREEN-L1-020
 track: GREEN
-officialTrackName: "Taxes"
+officialTrackName: Impôts
 level: 1
 lessonNumber: 20
 locale: fr-FR
-source_locale: en-US
-title: "Comment Sortir de l'Endettement"
-summary: ""
-version: "1.0"
-author: "Waldemar M. Caban, JD MA"
+title: "Remboursements d’impôt : pourquoi en recevoir un n’est pas toujours un gain"
+summary: "Explique ce concept fiscal en français canadien et montre comment l’appliquer de façon pratique et éclairée."
+version: 1.0
+author: Waldemar M. Caban, JD MA
+date: 2026-08-09
 ---
 
-# GREEN-L1-020 : Comment Sortir de l'Endettement
+# Remboursements d’impôt : pourquoi en recevoir un n’est pas toujours un gain
 
-## Objectifs d'Apprentissage
-1. Reconnaître des stratégies générales couramment utilisées pour rembourser des dettes.
-2. Distinguer la méthode « boule de neige » de la méthode « avalanche ».
-3. Expliquer la logique générale derrière chaque méthode.
+## Objectifs d’apprentissage
 
-## Contenu Principal
-*SUPPOSITION :* Deux stratégies couramment citées pour rembourser plusieurs dettes sont la méthode « boule de neige » (rembourser d'abord la plus petite dette, quel que soit le taux d'intérêt, pour créer un élan motivationnel) et la méthode « avalanche » (rembourser d'abord la dette au taux d'intérêt le plus élevé, pour minimiser le coût total des intérêts payés).
+- Comprendre le concept principal.
+- Reconnaître ses conséquences pratiques.
+- Vérifier les exigences propres à la juridiction avant d’agir.
 
-*OPINION :* De nombreux éducateurs financiers soulignent que la méthode avalanche permet généralement d'économiser plus d'argent en intérêts à long terme, tandis que la méthode boule de neige offre généralement des bénéfices psychologiques en générant des victoires rapides — le choix entre les deux dépend généralement de ce qui motive le plus chaque personne à maintenir la discipline de remboursement.
+## Contenu principal
 
-## Exemple Pratique
-*EXEMPLE ILLUSTRATIF :* Quelqu'un avec trois dettes — 500 $ à 10 %, 2 000 $ à 22 %, et 1 000 $ à 15 % — qui suit la méthode boule de neige rembourserait d'abord la dette de 500 $ car elle est la plus petite, indépendamment de son taux. S'il suivait plutôt la méthode avalanche, il rembourserait d'abord la dette de 2 000 $ à 22 % car elle a le taux le plus élevé, ce qui aboutirait généralement à moins d'intérêts totaux payés, bien que cela prendrait plus de temps pour voir cette première dette entièrement remboursée.
+Un remboursement représente généralement des sommes versées en trop au cours de l’année et retournées après le calcul de l’obligation fiscale. Il ne s’agit donc pas automatiquement d’argent gratuit.
 
-## Quiz Pratique
-1. Qu'est-ce que la méthode « boule de neige » ?
-2. Qu'est-ce que la méthode « avalanche » ?
-3. Vrai/Faux : La méthode avalanche permet généralement d'économiser plus d'argent en intérêts que la méthode boule de neige.
-4. Quel avantage offre généralement la méthode boule de neige ?
+Un remboursement important peut indiquer que trop d’argent a été retenu, bien qu’il puisse aussi résulter de crédits ou d’autres règles. Certaines personnes préfèrent volontairement une retenue plus élevée comme forme d’épargne; l’essentiel est de comprendre le mécanisme et de faire un choix conscient.
+
+## Exemple pratique
+
+**Question :** Quelle approche prudente faut-il adopter?
+
+**Étudiant :** Comprendre le mécanisme, conserver de bons dossiers et vérifier les règles actuelles.
+
+**Guide :** Exactement. Une bonne préparation réduit les erreurs et les mauvaises surprises.
+
+## Quiz pratique
+
+1. Les règles fiscales peuvent-elles varier selon la juridiction? A) Oui B) Non
+2. Faut-il conserver une documentation appropriée? A) Oui B) Non
+3. Les chiffres anciens devraient-ils être utilisés sans vérification? A) Oui B) Non
+4. Une situation complexe peut-elle justifier des conseils professionnels? A) Oui B) Non
 
 ## Corrigé
-1. Rembourser d'abord la plus petite dette, quel que soit le taux d'intérêt   2. Rembourser d'abord la dette au taux d'intérêt le plus élevé   3. Vrai   4. Des bénéfices psychologiques en générant des victoires rapides
 
-## Réponses et Explications
-1. Ceci est la définition fondamentale de la méthode boule de neige.
-2. Ceci est la définition fondamentale de la méthode avalanche.
-3. La méthode avalanche minimise généralement le coût total des intérêts payés.
-4. Ceci est le bénéfice général couramment cité de la méthode boule de neige.
+1. A, 2. A, 3. B, 4. A
 
-## Points Clés à Retenir
-- La méthode boule de neige priorise la plus petite dette pour créer un élan motivationnel.
-- La méthode avalanche priorise la dette au taux d'intérêt le plus élevé pour minimiser les coûts.
-- Le choix entre les deux dépend généralement de ce qui motive le plus chaque personne.
+## Réponses et explications
+
+1. Les règles et seuils diffèrent entre juridictions.
+2. La documentation permet d’appuyer les calculs et positions fiscales.
+3. Les règles évoluent et doivent être vérifiées.
+4. Une aide qualifiée peut être appropriée lorsque le risque ou la complexité augmente.
+
+## Points clés
+
+- Planifiez avant les échéances.
+- Conservez des dossiers clairs.
+- Vérifiez les règles applicables.
+- Distinguez les concepts généraux des exigences locales.

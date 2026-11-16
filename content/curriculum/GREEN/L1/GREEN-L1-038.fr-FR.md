@@ -1,48 +1,52 @@
 ---
 id: GREEN-L1-038
 track: GREEN
-officialTrackName: "Taxes"
+officialTrackName: Impôts
 level: 1
 lessonNumber: 38
 locale: fr-FR
-source_locale: en-US
-title: "L'Assurance Automobile et Habitation"
-summary: ""
-version: "1.0"
-author: "Waldemar M. Caban, JD MA"
+title: "Taxes d’accise et taxes sur certains produits"
+summary: "Explique ce concept fiscal en français canadien et l’intègre à une prise de décision financière éclairée."
+version: 1.0
+author: Waldemar M. Caban, JD MA
+date: 2026-08-09
 ---
 
-# GREEN-L1-038 : L'Assurance Automobile et Habitation
+# Taxes d’accise et taxes sur certains produits
 
-## Objectifs d'Apprentissage
-1. Expliquer l'objectif général de l'assurance automobile.
-2. Expliquer l'objectif général de l'assurance habitation.
-3. Reconnaître que les deux couvrent généralement à la fois les dommages propres et la responsabilité civile.
+## Objectifs d’apprentissage
+- Comprendre le concept principal.
+- Reconnaître ses conséquences pratiques.
+- Vérifier les règles applicables avant d’agir.
 
-## Contenu Principal
-*SUPPOSITION :* L'assurance automobile couvre généralement deux grandes catégories : les dommages au véhicule lui-même (par accident, vol, ou autres événements), et la responsabilité civile (les coûts si cette personne cause un dommage à un autre véhicule ou à une personne). L'assurance habitation fonctionne de manière similaire, couvrant généralement les dommages au logement lui-même (par incendie, tempête, ou autres événements) et la responsabilité civile (si quelqu'un se blesse dans le logement).
+## Contenu principal
+Une taxe d’accise vise un produit ou une activité précise plutôt que la consommation générale. Lorsqu’elle touche des produits comme le tabac ou l’alcool, elle peut aussi chercher à modifier les comportements. Les catégories, taux et effets varient selon la juridiction.
 
-*RÈGLE SPÉCIFIQUE À LA RÉGION :* Les exigences légales concernant quels types d'assurance sont obligatoires varient considérablement selon le pays et la région ; cette leçon décrit uniquement des concepts généraux.
+Les lois, taux, seuils et procédures varient selon la juridiction et peuvent changer. Les exemples pédagogiques ne remplacent pas la vérification des règles actuelles.
 
-## Exemple Pratique
-*EXEMPLE ILLUSTRATIF :* Quelqu'un causant un accident de voiture serait généralement couvert par la partie responsabilité civile de son assurance pour payer les dommages à l'autre véhicule, tandis que la couverture des dommages propres paierait les réparations de sa propre voiture. De même, si un visiteur glisse et se blesse dans la maison de quelqu'un, la partie responsabilité civile de l'assurance habitation aiderait généralement à couvrir les coûts médicaux ou juridiques associés.
+## Exemple pratique
+**Question :** Quelle approche protège le mieux votre capacité de décider?
+**Étudiant :** Comprendre le concept, documenter les faits et vérifier les règles avant d’agir.
+**Guide :** Exactement. L’objectif est de décider avec information plutôt que de réagir après coup.
 
-## Quiz Pratique
-1. Que couvre généralement la partie dommages propres de l'assurance automobile ?
-2. Que couvre généralement la partie responsabilité civile de l'assurance automobile ?
-3. Vrai/Faux : L'assurance habitation ne couvre généralement que les dommages au logement, pas la responsabilité civile.
-4. Quelle situation illustre généralement la responsabilité civile de l'assurance habitation ?
+## Quiz pratique
+1. Les règles fiscales sont-elles identiques partout? A) Oui B) Non
+2. La documentation peut-elle appuyer une position fiscale? A) Oui B) Non
+3. Faut-il planifier avant une transaction importante? A) Oui B) Non
+4. Une situation complexe peut-elle justifier un professionnel qualifié? A) Oui B) Non
 
 ## Corrigé
-1. Les dommages au véhicule lui-même par accident, vol, ou autres événements   2. Les coûts si cette personne cause un dommage à un autre véhicule ou à une personne   3. Faux   4. Un visiteur se blessant dans le logement
+1. B, 2. A, 3. A, 4. A
 
-## Réponses et Explications
-1. Ceci est la couverture générale des dommages propres de l'assurance automobile.
-2. Ceci est la couverture générale de responsabilité civile de l'assurance automobile.
-3. L'assurance habitation couvre généralement à la fois les dommages au logement et la responsabilité civile.
-4. Ceci est l'exemple couramment cité de responsabilité civile dans l'assurance habitation.
+## Réponses et explications
+1. Les juridictions ont leurs propres règles.
+2. Les dossiers permettent d’appuyer les faits et calculs.
+3. Planifier à l’avance préserve davantage d’options.
+4. Une aide qualifiée peut réduire les risques dans les situations complexes.
 
-## Points Clés à Retenir
-- L'assurance automobile couvre généralement les dommages propres et la responsabilité civile envers des tiers.
-- L'assurance habitation fonctionne de manière similaire, couvrant le logement et la responsabilité civile.
-- Les exigences légales concernant ces assurances varient considérablement selon le pays et la région.
+## Points clés
+- Comprenez avant d’agir.
+- Conservez de bons dossiers.
+- Vérifiez les règles actuelles.
+- Planifiez les décisions importantes.
+- Utilisez l’information pour prendre vos propres décisions éclairées.
