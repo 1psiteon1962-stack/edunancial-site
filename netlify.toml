@@ -48,10 +48,10 @@ EDUNANCIAL_ENABLE_LEGACY_CURRICULUM_REGISTRY_FALLBACK = "true"
 # reads, so explicitly include the canonical curriculum sources in the deployed
 # server function instead of relying only on Next.js output-file tracing.
 # The raw files under content/courses and content/curriculum are shipped as one
-# gzipped archive (scripts/curriculum/generate-curriculum-archive.mjs, read by
+# compressed archive (scripts/curriculum/generate-curriculum-archive.mjs, read by
 # src/lib/curriculum/curriculum-fs.ts) to stay under the AWS Lambda 250 MB limit.
 [functions]
-included_files = ["content/generated/curriculum-archive.json.gz", "content/generated/curriculum-runtime-manifest.json.gz", "content/generated/curriculum-index/**/*.json.gz", "curriculum/seeds/translations/**", "curriculum/registry.json", "curriculum/stored-translation-retirements.json", "curriculum/tier-config.json"]
+included_files = ["content/generated/curriculum-archive.bin", "content/generated/curriculum-runtime-manifest.json.gz", "content/generated/curriculum-index/**/*.json.gz", "curriculum/seeds/translations/**", "curriculum/registry.json", "curriculum/stored-translation-retirements.json", "curriculum/tier-config.json"]
 
 [[plugins]]
 package = "@netlify/plugin-nextjs"

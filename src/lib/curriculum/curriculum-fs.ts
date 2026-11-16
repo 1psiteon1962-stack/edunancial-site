@@ -3,7 +3,7 @@
  *
  * The deployed Netlify server handler does not ship the raw files under
  * content/curriculum and content/courses (they exceeded the AWS Lambda 250 MB
- * unzipped limit). Instead it ships content/generated/curriculum-archive.json.gz,
+ * unzipped limit). Instead it ships content/generated/curriculum-archive.bin,
  * built at prebuild by scripts/curriculum/generate-curriculum-archive.mjs from the
  * same committed Git files.
  *
@@ -18,9 +18,16 @@ import { isAbsolute, join, relative, resolve, sep } from "node:path";
 import { gunzipSync } from "node:zlib";
 
 const ARCHIVED_ROOTS = ["content/curriculum", "content/courses"] as const;
+const MAGIC = "EDUARCH2";
 
-type ArchiveFile = { path: string; content: string; encoding?: "base64" };
-type Archive = { files: Map<string, ArchiveFile>; dirs: Map<string, Map<string, "file" | "dir">> };
+// [byte offset into the body, gzipped length, 1 when the original bytes are binary]
+type ArchiveEntry = [number, number, number];
+type Archive = {
+  fd: number | null;
+  bodyStart: number;
+  files: Map<string, ArchiveEntry>;
+  dirs: Map<string, Map<string, "file" | "dir">>;
+};
 
 let archive: Archive | null = null;
 let archivePathOverride: string | null = null;
@@ -30,26 +37,41 @@ function repoRoot(): string {
 }
 
 function archivePath(): string {
-  return archivePathOverride ?? join(repoRoot(), "content", "generated", "curriculum-archive.json.gz");
+  return archivePathOverride ?? join(repoRoot(), "content", "generated", "curriculum-archive.bin");
 }
 
+/**
+ * Loads only the archive's header (paths and offsets, about 1.5 MB). File contents
+ * stay compressed on disk and are inflated one file at a time by readArchived().
+ */
 function load(): Archive {
   if (archive) return archive;
-  const files = new Map<string, ArchiveFile>();
+  const files = new Map<string, ArchiveEntry>();
   const dirs = new Map<string, Map<string, "file" | "dir">>();
   const addEntry = (dir: string, name: string, kind: "file" | "dir") => {
     let entries = dirs.get(dir);
     if (!entries) dirs.set(dir, (entries = new Map()));
     if (entries.get(name) !== "dir") entries.set(name, kind);
   };
+  let fd: number | null = null;
+  let bodyStart = 0;
   try {
     const path = archivePath();
     if (fs.existsSync(path)) {
-      const parsed = JSON.parse(gunzipSync(fs.readFileSync(path)).toString("utf8")) as { files?: ArchiveFile[] };
-      for (const file of parsed.files ?? []) {
-        if (!file || typeof file.path !== "string" || typeof file.content !== "string") continue;
-        files.set(file.path, file);
-        const parts = file.path.split("/");
+      fd = fs.openSync(path, "r");
+      const prefix = Buffer.alloc(MAGIC.length + 4);
+      fs.readSync(fd, prefix, 0, prefix.length, 0);
+      if (prefix.toString("ascii", 0, MAGIC.length) !== MAGIC) throw new Error("not a curriculum archive");
+      const headerLength = prefix.readUInt32BE(MAGIC.length);
+      const header = Buffer.alloc(headerLength);
+      fs.readSync(fd, header, 0, headerLength, prefix.length);
+      bodyStart = prefix.length + headerLength;
+      const parsed = JSON.parse(header.toString("utf8")) as { files?: Array<[string, number, number, number]> };
+      for (const entry of parsed.files ?? []) {
+        const [filePath, offset, length, binary] = entry;
+        if (typeof filePath !== "string" || !Number.isFinite(offset) || !Number.isFinite(length)) continue;
+        files.set(filePath, [offset, length, binary ? 1 : 0]);
+        const parts = filePath.split("/");
         for (let i = 1; i < parts.length; i += 1) {
           addEntry(parts.slice(0, i - 1).join("/"), parts[i - 1]!, "dir");
         }
@@ -58,9 +80,24 @@ function load(): Archive {
     }
   } catch {
     // A missing or unreadable archive leaves disk access unchanged.
+    if (fd !== null) {
+      try { fs.closeSync(fd); } catch { /* ignore */ }
+    }
+    fd = null;
+    files.clear();
+    dirs.clear();
   }
-  archive = { files, dirs };
+  archive = { fd, bodyStart, files, dirs };
   return archive;
+}
+
+function readArchived(entry: ArchiveEntry): Buffer {
+  const current = load();
+  if (current.fd === null) throw new Error("curriculum archive is not open");
+  const [offset, length] = entry;
+  const packed = Buffer.alloc(length);
+  fs.readSync(current.fd, packed, 0, length, current.bodyStart + offset);
+  return gunzipSync(packed);
 }
 
 /** Repository-relative POSIX key for a path inside an archived root, else null. */
@@ -73,7 +110,7 @@ function archiveKey(path: fs.PathLike): string | null {
   return ARCHIVED_ROOTS.some((root) => key === root || key.startsWith(`${root}/`)) ? key : null;
 }
 
-function archivedFile(path: fs.PathLike): ArchiveFile | undefined {
+function archivedFile(path: fs.PathLike): ArchiveEntry | undefined {
   const key = archiveKey(path);
   return key ? load().files.get(key) : undefined;
 }
@@ -83,9 +120,6 @@ function archivedDir(path: fs.PathLike): Map<string, "file" | "dir"> | undefined
   return key ? load().dirs.get(key) : undefined;
 }
 
-function decode(file: ArchiveFile): Buffer {
-  return Buffer.from(file.content, file.encoding === "base64" ? "base64" : "utf8");
-}
 
 function enoent(path: fs.PathLike, syscall: string): NodeJS.ErrnoException {
   const error = new Error(`ENOENT: no such file or directory, ${syscall} '${String(path)}'`) as NodeJS.ErrnoException;
@@ -118,7 +152,7 @@ export function readFileSync(path: fs.PathLike, options?: Encoding): string | Bu
   } catch (error) {
     const file = archivedFile(path);
     if (!file || (error as NodeJS.ErrnoException).code !== "ENOENT") throw error;
-    const buffer = decode(file);
+    const buffer = readArchived(file);
     return encoding ? buffer.toString(encoding) : buffer;
   }
 }
@@ -128,7 +162,7 @@ type StatLike = { isFile(): boolean; isDirectory(): boolean; size: number };
 export function statSync(path: fs.PathLike): StatLike {
   if (fs.existsSync(path)) return fs.statSync(path);
   const file = archivedFile(path);
-  if (file) return { isFile: () => true, isDirectory: () => false, size: decode(file).length };
+  if (file) return { isFile: () => true, isDirectory: () => false, size: readArchived(file).length };
   if (archivedDir(path)) return { isFile: () => false, isDirectory: () => true, size: 0 };
   throw enoent(path, "stat");
 }
@@ -173,6 +207,9 @@ export async function readdirWithTypesAsync(path: fs.PathLike): Promise<DirentLi
 
 /** Test-only: point at a fixture archive (or null for the default) and drop the cache. */
 export function setCurriculumArchivePathForTests(path: string | null): void {
+  if (archive?.fd != null) {
+    try { fs.closeSync(archive.fd); } catch { /* ignore */ }
+  }
   archivePathOverride = path;
   archive = null;
 }

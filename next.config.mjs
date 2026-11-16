@@ -14,7 +14,7 @@ const securityHeaders = [
 // server reads them from this gzipped archive (src/lib/curriculum/curriculum-fs.ts),
 // which holds the same committed bytes in about a quarter of the space.
 const curriculumRuntimeFiles = [
-  "./content/generated/curriculum-archive.json.gz",
+  "./content/generated/curriculum-archive.bin",
   "./curriculum/registry.json",
   "./curriculum/stored-translation-retirements.json",
   "./curriculum/seeds/translations/**/*",
@@ -69,7 +69,7 @@ const nextConfig = {
       "./curriculum/reports/**/*",
       // Plain index shards are committed for tooling; the server reads the .json.gz copies.
       "./content/generated/curriculum-index/**/*.json",
-      // Served from content/generated/curriculum-archive.json.gz instead (~120 MB raw).
+      // Served from content/generated/curriculum-archive.bin instead (~120 MB raw).
       "./content/curriculum/**/*",
       "./content/courses/**/*",
       "./node_modules/typescript/**/*",
