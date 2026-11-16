@@ -49,7 +49,22 @@ export type LanguageAdminSettings = {
 };
 
 export function getLanguageByCode(code: string) { return LANGUAGE_CATALOG.find((language) => language.code === code); }
-export function isLanguageSupported(code: string): boolean { return Boolean(getLanguageByCode(code)); }
+
+/**
+ * Languages withheld from every public choice (pickers, browser/cookie detection, AI tutor)
+ * by owner directive on 2026-11-16: "Remove Haitian Creole as an option until I say otherwise."
+ * Curriculum files and the catalog entry stay in place; only public selection is disabled.
+ * To re-enable, remove the code from this list.
+ */
+export const PUBLICLY_HIDDEN_LANGUAGE_CODES: readonly string[] = ["ht"];
+export function isPubliclyHiddenLanguage(code: string | undefined | null): boolean {
+  if (!code) return false;
+  const lower = code.trim().toLowerCase();
+  return PUBLICLY_HIDDEN_LANGUAGE_CODES.some((hidden) => lower === hidden || lower.startsWith(`${hidden}-`));
+}
+/** Languages a visitor may choose or be auto-switched into. */
+export const PUBLIC_LANGUAGE_CATALOG = LANGUAGE_CATALOG.filter((language) => !isPubliclyHiddenLanguage(language.code));
+export function isLanguageSupported(code: string): boolean { return Boolean(getLanguageByCode(code)) && !isPubliclyHiddenLanguage(code); }
 export function canonicalizeLocaleTag(input: string | undefined | null): string | null {
   if (!input) return null;
   const segments = input.trim().replace(/_/g, "-").split("-").filter(Boolean);
@@ -72,6 +87,21 @@ export function normalizeLanguageCode(input: string | undefined | null): string 
   if (LANGUAGE_ALIAS_MAP[base]) return LANGUAGE_ALIAS_MAP[base];
   const fromBase = LANGUAGE_CATALOG.find((language) => language.code.toLowerCase().split("-")[0] === base);
   return fromBase?.code ?? DEFAULT_LANGUAGE_CODE;
+}
+/**
+ * Valid BCP 47 tag for the browser (`<html lang>`, `document.documentElement.lang`).
+ * Internal catalog codes that are not valid BCP 47 are mapped to the nearest
+ * standard tag: es-Caribbean -> es-419 (Latin American and Caribbean Spanish).
+ */
+export function toHtmlLangTag(code: string | undefined | null): string {
+  const normalized = normalizeLanguageCode(code);
+  if (normalized === "es-Caribbean") return "es-419";
+  return normalized;
+}
+/** Like normalizeLanguageCode, but never returns a publicly hidden language (falls back to the default). */
+export function normalizePublicLanguageCode(input: string | undefined | null): string {
+  const normalized = normalizeLanguageCode(input);
+  return isPubliclyHiddenLanguage(normalized) ? DEFAULT_LANGUAGE_CODE : normalized;
 }
 export function getBaseLanguageCode(input: string | undefined | null): string | null { const canonical = canonicalizeLocaleTag(input); return canonical?.split("-")[0] ?? null; }
 export function getLocaleFallbackChain(input: string | undefined | null): string[] {

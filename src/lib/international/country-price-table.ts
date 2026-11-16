@@ -9,7 +9,38 @@
  * local price and states that purchase is not yet open in that country. It
  * never shows a buy button that would charge a different (USD) amount.
  */
+import { getCountryArchitecture } from "@/lib/regions/architecture";
+
 import { getFormulaCountryPricing } from "./country-pricing-formula";
+
+/**
+ * Locale used only to format a price the way that country writes money
+ * (symbol position, thousands and decimal separators). Uses the country's
+ * first configured language when known, otherwise the country's regional
+ * defaults ("und-XX"), and never the visitor's display language.
+ */
+export function priceFormatLocaleForCountry(countryCode: string): string {
+  const code = String(countryCode ?? "").trim().toUpperCase();
+  if (!/^[A-Z]{2}$/u.test(code)) return "en-US";
+  const configured = getCountryArchitecture(code)?.country.languages?.[0]?.trim().toLowerCase().split("-")[0];
+  let likely: string | null = null;
+  try {
+    likely = new Intl.Locale(`und-${code}`).maximize().language;
+  } catch {
+    likely = null;
+  }
+  for (const language of [configured, likely]) {
+    if (!language || !/^[a-z]{2,3}$/u.test(language) || language === "und") continue;
+    try {
+      // Latin digits keep amounts readable everywhere; separators and symbol follow the country.
+      const [canonical] = Intl.getCanonicalLocales(`${language}-${code}-u-nu-latn`);
+      if (canonical) return canonical;
+    } catch {
+      // try the next candidate
+    }
+  }
+  return "en-US";
+}
 
 export type CountryPriceStatus = "DRAFT" | "APPROVED" | "ACTIVE" | "FORMULA";
 export type CountryPricedPlanId = "basic" | "premium" | "enterprise";
@@ -67,7 +98,7 @@ export function getDisplayCountryPrices(countryCode: string | null | undefined):
   return {
     countryCode: formula.countryCode,
     currency: formula.currency,
-    formatLocale: "en-US",
+    formatLocale: priceFormatLocaleForCountry(formula.countryCode),
     status: "FORMULA",
     version: `formula-${formula.asOf}`,
     effectiveDate: formula.asOf,

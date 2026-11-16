@@ -7,6 +7,7 @@ import { Suspense, useState } from "react";
 import { useInternationalPreferences } from "@/components/international/InternationalPreferencesProvider";
 import { PAID_PURCHASER_ATTESTATION } from "@/lib/age-consent";
 import { formatLocalizedPrice, getLocalizedCatalogPrice } from "@/lib/location/pricing";
+import { checkoutEndpointForCountry } from "@/lib/payments/stripe-countries";
 import { membershipPlans } from "@/types/membership";
 
 function CheckoutContent() {
@@ -20,6 +21,7 @@ function CheckoutContent() {
   const [discountCode, setDiscountCode] = useState("");
   const [error, setError] = useState<string | null>(null);
   const [authorized, setAuthorized] = useState(false);
+  const [billingPrompt, setBillingPrompt] = useState<{ selected: string; detected: string } | null>(null);
 
   const plan = membershipPlans.find((candidate) => candidate.id === planId);
   const displayName = plan?.name ?? "Edunancial Purchase";
@@ -31,7 +33,7 @@ function CheckoutContent() {
       ? "Unavailable for this country"
       : "Final price shown at secure checkout";
 
-  async function handleCheckout() {
+  async function handleCheckout(billingCountryConfirmed = false) {
     if (!ready || !countryCode || !countryPriceApproved) {
       setError("Checkout is not enabled until an approved price and country configuration are available for your location.");
       return;
@@ -43,18 +45,32 @@ function CheckoutContent() {
 
     setLoading(true);
     setError(null);
+    setBillingPrompt(null);
 
     try {
-      const res = await fetch("/api/square/payment-link", {
+      const res = await fetch(checkoutEndpointForCountry(countryCode), {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
           itemId,
           discountCode: discountCode.trim() || undefined,
           countryCode,
+          ...(billingCountryConfirmed ? { billingCountryConfirmed: true } : {}),
         }),
       });
-      const data = (await res.json()) as { success?: boolean; checkoutUrl?: string; error?: string };
+      const data = (await res.json()) as {
+        success?: boolean;
+        checkoutUrl?: string;
+        error?: string;
+        billingCountryConfirmationRequired?: boolean;
+        selectedCountry?: string;
+        detectedCountry?: string;
+      };
+      if (!billingCountryConfirmed && data.billingCountryConfirmationRequired && data.selectedCountry && data.detectedCountry) {
+        // A traveling member: ask them to confirm their billing country instead of blocking checkout.
+        setBillingPrompt({ selected: data.selectedCountry, detected: data.detectedCountry });
+        return;
+      }
       if (!res.ok || !data.success || !data.checkoutUrl) {
         throw new Error(data.error ?? "Checkout is unavailable. Please try again.");
       }
@@ -93,6 +109,21 @@ function CheckoutContent() {
           <input type="checkbox" checked={authorized} onChange={(event) => setAuthorized(event.target.checked)} className="mt-1 shrink-0" />
           <span>{PAID_PURCHASER_ATTESTATION}</span>
         </label>
+
+        {billingPrompt && (
+          <div role="alertdialog" aria-live="polite" className="mb-4 rounded-lg border border-amber-500/60 bg-amber-900/20 px-4 py-3 text-sm text-amber-100">
+            <p>
+              You appear to be connecting from {billingPrompt.detected}, but your selected country is {billingPrompt.selected}.
+              If {billingPrompt.selected} is your billing country (for example, you are traveling), confirm to continue.
+            </p>
+            <div className="mt-3 flex flex-wrap gap-2">
+              <button type="button" onClick={() => { void handleCheckout(true); }} disabled={loading} className="rounded-md bg-amber-500 px-3 py-2 font-semibold text-slate-950">
+                My billing country is {billingPrompt.selected}
+              </button>
+              <Link href="/settings" className="rounded-md border border-amber-300/60 px-3 py-2">Change country</Link>
+            </div>
+          </div>
+        )}
 
         {error && <div className="mb-4 rounded-lg border border-red-700 bg-red-900/30 px-4 py-3 text-sm text-red-300">{error}</div>}
 

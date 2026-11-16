@@ -16,7 +16,8 @@ import {
   getStoredLanguageAdminSettings,
   isLanguageSupported,
   isRtlLanguage,
-  normalizeLanguageCode,
+  normalizePublicLanguageCode,
+  toHtmlLangTag,
 } from "@/lib/international/languages";
 import {
   clearSavedLanguagePreference,
@@ -89,14 +90,14 @@ function createDefaultPreferences(initialLanguage?: string): InternationalPrefer
   return initialLanguage
     ? {
         ...detected,
-        preferredLanguage: normalizeLanguageCode(initialLanguage),
+        preferredLanguage: normalizePublicLanguageCode(initialLanguage),
       }
     : detected;
 }
 
 function writeLanguageCookie(language: string, persistent: boolean): void {
   if (typeof document === "undefined") return;
-  const normalizedLanguage = normalizeLanguageCode(language);
+  const normalizedLanguage = normalizePublicLanguageCode(language);
   const lifetime = persistent ? `; max-age=${365 * 24 * 60 * 60}` : "";
   document.cookie = `${LANGUAGE_COOKIE_NAME}=${encodeURIComponent(normalizedLanguage)}; path=/${lifetime}; SameSite=Lax`;
 }
@@ -156,7 +157,7 @@ export function InternationalPreferencesProvider({
     if (stored) {
       // Apply saved language preference over full stored preferences.
       const effectiveStored = savedLang
-        ? { ...stored, preferredLanguage: normalizeLanguageCode(savedLang) }
+        ? { ...stored, preferredLanguage: normalizePublicLanguageCode(savedLang) }
         : stored;
       setPreferences(effectiveStored);
     } else {
@@ -166,7 +167,7 @@ export function InternationalPreferencesProvider({
     }
 
     if (sessionLang) {
-      setSessionLanguageState(normalizeLanguageCode(sessionLang));
+      setSessionLanguageState(normalizePublicLanguageCode(sessionLang));
     }
 
     setShowDetectionBanner(!isInternationalBannerDismissed());
@@ -180,11 +181,12 @@ export function InternationalPreferencesProvider({
     saveInternationalPreferences(preferences);
 
     const langToApply = sessionLanguage ?? preferences.preferredLanguage;
-    const normalizedLanguage = normalizeLanguageCode(langToApply);
+    const normalizedLanguage = normalizePublicLanguageCode(langToApply);
     const isPersistentDefault =
       !sessionLanguage && preferences.languageSelectionSource === "user-confirmed";
 
-    document.documentElement.lang = normalizedLanguage;
+    document.documentElement.lang = toHtmlLangTag(normalizedLanguage);
+    document.documentElement.dataset.siteLocale = normalizedLanguage;
     document.documentElement.dir = isRtlLanguage(langToApply) ? "rtl" : "ltr";
     writeLanguageCookie(normalizedLanguage, isPersistentDefault);
   }, [preferences, sessionLanguage, ready]);
@@ -199,7 +201,7 @@ export function InternationalPreferencesProvider({
   }, []);
 
   const contextValue = useMemo<InternationalPreferencesContextValue>(() => {
-    const effectiveLanguage = sessionLanguage ?? preferences.preferredLanguage;
+    const effectiveLanguage = normalizePublicLanguageCode(sessionLanguage ?? preferences.preferredLanguage);
 
     // Determine how the active language was resolved.
     const savedLang = loadSavedLanguagePreference();
@@ -218,7 +220,7 @@ export function InternationalPreferencesProvider({
       languagePromptPending,
       showDetectionBanner,
       setLanguage: (language) => {
-        const normalizedLanguage = normalizeLanguageCode(language);
+        const normalizedLanguage = normalizePublicLanguageCode(language);
         // Write the request-visible cookie before refreshing Server Components.
         // Client-only state already re-renders immediately, while router.refresh()
         // makes server-rendered curriculum/course/lesson content use the same locale
@@ -252,7 +254,7 @@ export function InternationalPreferencesProvider({
         // Re-detect language from browser signals and synchronize the cookie used by
         // Server Components before refreshing them.
         const detected = detectInitialInternationalPreferences();
-        const detectedLanguage = normalizeLanguageCode(detected.preferredLanguage);
+        const detectedLanguage = normalizePublicLanguageCode(detected.preferredLanguage);
         writeLanguageCookie(detectedLanguage, false);
         setPreferences((previous) => ({
           ...previous,

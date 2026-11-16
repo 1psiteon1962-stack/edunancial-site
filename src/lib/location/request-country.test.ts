@@ -33,6 +33,25 @@ describe("request country resolution", () => {
     });
   });
 
+  test("a confirmed billing country wins over network geography and keeps it as evidence", () => {
+    const headers = new Headers({ "x-nf-country": "MX" });
+    assert.deepEqual(resolveRequestCountry(headers, "US", { billingCountryConfirmed: true }), {
+      countryCode: "US",
+      source: "billing-confirmed",
+      detectedCountryCode: "MX",
+      requestedCountryCode: "US",
+      mismatch: false,
+      networkCountryMismatch: true,
+    });
+  });
+
+  test("billing confirmation without a different selected country changes nothing", () => {
+    const headers = new Headers({ "x-nf-country": "MX" });
+    assert.equal(resolveRequestCountry(headers, "MX", { billingCountryConfirmed: true })?.source, "netlify-country");
+    assert.equal(resolveRequestCountry(headers, undefined, { billingCountryConfirmed: true })?.countryCode, "MX");
+    assert.equal(resolveRequestCountry(headers, "US", { billingCountryConfirmed: "yes" as unknown as boolean })?.mismatch, true);
+  });
+
   test("never invents a default country", () => {
     assert.equal(resolveRequestCountry(new Headers()), null);
   });

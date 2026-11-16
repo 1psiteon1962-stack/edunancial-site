@@ -24,7 +24,7 @@ export default function CaribbeanPage() {
           Caribbean: Discipline and enterprise across island nations.
         </h1>
         <p className="mt-8 max-w-4xl text-xl leading-9 text-slate-300">
-          Edunancial Caribbean is being built for founders and households across the Dominican Republic, Puerto Rico, Jamaica, Haiti, Cuba, Trinidad and Tobago, Barbados, and the entire island-nation region. Every curriculum track — RED, WHITE, and BLUE — will be localized in English, Spanish, French, and Haitian Creole.
+          Edunancial Caribbean is being built for founders and households across the Dominican Republic, Puerto Rico, Jamaica, Haiti, Cuba, Trinidad and Tobago, Barbados, and the entire island-nation region. Every curriculum track — RED, WHITE, and BLUE — will be localized in English, Spanish, and French.
         </p>
         <div className="mt-10 flex flex-wrap gap-4">
           <Link
@@ -73,7 +73,7 @@ export default function CaribbeanPage() {
             },
             {
               country: "Haiti",
-              detail: "Haitian Creole and French-language financial competency content.",
+              detail: "French-language financial competency content.",
             },
             {
               country: "Trinidad & Tobago",

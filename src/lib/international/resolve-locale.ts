@@ -2,6 +2,7 @@ import {
   DEFAULT_LANGUAGE_CODE,
   LANGUAGE_ALIAS_MAP,
   LANGUAGE_CATALOG,
+  isPubliclyHiddenLanguage,
 } from "./languages";
 
 export type ResolveLocaleInput = {
@@ -96,14 +97,17 @@ export function resolveLocale(input: ResolveLocaleInput): string {
     ...parseAcceptLanguage(input.acceptLanguageHeader),
   ];
 
+  // Publicly hidden languages (e.g. Haitian Creole, owner directive 2026-11-16) are never
+  // chosen automatically. An explicit request (steps 1-2) is still honoured so content
+  // APIs keep serving committed curriculum when it is asked for by code.
   for (const candidate of browserCandidates) {
     const matched = matchSupportedLocale(candidate);
-    if (matched) return matched;
+    if (matched && !isPubliclyHiddenLanguage(matched)) return matched;
   }
 
   // 4. Geographic region detection
   const geo = matchSupportedLocale(input.geoLocale);
-  if (geo) return geo;
+  if (geo && !isPubliclyHiddenLanguage(geo)) return geo;
 
   // 5. English (US) fallback
   return DEFAULT_LANGUAGE_CODE;

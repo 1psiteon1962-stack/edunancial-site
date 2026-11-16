@@ -45,7 +45,7 @@ export default function PageViewTracker() {
       metadata: {
         title: document.title,
         visitor_id: getVisitorId(),
-        site_locale: document.documentElement.lang || null,
+        site_locale: document.documentElement.dataset.siteLocale || document.documentElement.lang || null,
         browser_language: navigator.language || null,
         screen: window.innerWidth < 768 ? "mobile" : window.innerWidth < 1100 ? "tablet" : "desktop",
       },
