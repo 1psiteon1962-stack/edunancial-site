@@ -6,12 +6,12 @@ const baseRef = process.env.CURRICULUM_BASE_REF || process.argv[2] || 'origin/ma
 
 function filesAt(ref) {
   try {
-    return new Set(execFileSync('git', ['ls-tree','-r','--name-only',ref], {encoding:'utf8'})
+    return new Set(execFileSync('git', ['ls-tree','-r','--name-only',ref], { encoding: 'utf8', maxBuffer: 256 * 1024 * 1024 })
       .split(/\r?\n/u).filter(p => ROOTS.some(root => p.startsWith(root))));
   } catch { return new Set(); }
 }
 function filesHere() {
-  return new Set(execFileSync('git',['ls-files',...ROOTS],{encoding:'utf8'})
+  return new Set(execFileSync('git',['ls-files',...ROOTS],{ encoding: 'utf8', maxBuffer: 256 * 1024 * 1024 })
     .split(/\r?\n/u).filter(Boolean));
 }
 const base=filesAt(baseRef), head=filesHere();
