@@ -2,6 +2,7 @@ import {
   DEFAULT_LANGUAGE_CODE,
   LANGUAGE_ALIAS_MAP,
   LANGUAGE_CATALOG,
+  isPubliclyHiddenLanguage,
 } from "./languages";
 
 export type ResolveLocaleInput = {
@@ -49,6 +50,11 @@ export function parseAcceptLanguage(header?: string | null): string[] {
  *   4. First catalog entry whose base language matches
  */
 export function matchSupportedLocale(value?: string | null): string | null {
+  const matched = matchCatalogLocale(value);
+  return matched && !isPubliclyHiddenLanguage(matched) ? matched : null;
+}
+
+function matchCatalogLocale(value?: string | null): string | null {
   if (!value) return null;
   const normalized = value.trim().toLowerCase();
 

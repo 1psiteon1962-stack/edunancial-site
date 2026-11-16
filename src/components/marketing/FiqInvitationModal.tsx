@@ -6,7 +6,7 @@ import { useEffect, useMemo, useState } from "react";
 
 import { useInternationalPreferences } from "@/components/international/InternationalPreferencesProvider";
 import { getFiqInvitationCopy } from "@/lib/international/fiq-invitation-copy";
-import { getStoredLanguageAdminSettings, LANGUAGE_CATALOG, normalizeLanguageCode } from "@/lib/international/languages";
+import { getStoredLanguageAdminSettings, PUBLIC_LANGUAGE_CATALOG, normalizePublicLanguageCode } from "@/lib/international/languages";
 
 const SESSION_KEY = "edunancial-fiq-invitation-seen";
 
@@ -14,14 +14,14 @@ export default function FiqInvitationModal() {
   const pathname = usePathname();
   const { effectiveLanguage, setLanguage } = useInternationalPreferences();
   const [open, setOpen] = useState(false);
-  const [fiqLanguage, setFiqLanguage] = useState(normalizeLanguageCode(effectiveLanguage));
+  const [fiqLanguage, setFiqLanguage] = useState(normalizePublicLanguageCode(effectiveLanguage));
   const enabledLanguages = useMemo(() => {
     const settings = getStoredLanguageAdminSettings();
-    return LANGUAGE_CATALOG.filter((language) => settings.enabledLanguages.includes(language.code));
+    return PUBLIC_LANGUAGE_CATALOG.filter((language) => settings.enabledLanguages.includes(language.code));
   }, []);
 
   useEffect(() => {
-    setFiqLanguage(normalizeLanguageCode(effectiveLanguage));
+    setFiqLanguage(normalizePublicLanguageCode(effectiveLanguage));
   }, [effectiveLanguage]);
 
   useEffect(() => {
@@ -50,7 +50,7 @@ export default function FiqInvitationModal() {
   }
 
   function chooseFiqLanguage(value: string) {
-    const normalized = normalizeLanguageCode(value);
+    const normalized = normalizePublicLanguageCode(value);
     setFiqLanguage(normalized);
     setLanguage(normalized);
   }

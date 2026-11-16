@@ -1,4 +1,4 @@
-import { LANGUAGE_CATALOG, normalizeLanguageCode } from "@/lib/international/languages";
+import { PUBLIC_LANGUAGE_CATALOG, normalizeLanguageCode } from "@/lib/international/languages";
 import { REGION_ARCHITECTURE } from "@/lib/regions/architecture";
 
 export interface LanguageOption {
@@ -24,7 +24,7 @@ const activeLanguageCodes = new Set(
  * Availability is derived from currently ACTIVE country configuration rather
  * than maintained as a second hard-coded language list.
  */
-export const languages: LanguageOption[] = LANGUAGE_CATALOG.map((language) => ({
+export const languages: LanguageOption[] = PUBLIC_LANGUAGE_CATALOG.map((language) => ({
   code: language.code,
   name: language.label,
   enabled: activeLanguageCodes.has(language.code),
