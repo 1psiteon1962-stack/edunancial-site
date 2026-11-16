@@ -4,7 +4,8 @@ export type RequestCountrySource =
   | "vercel"
   | "cloudflare"
   | "cloudfront"
-  | "client";
+  | "client"
+  | "billing-confirmed";
 
 export interface ResolvedRequestCountry {
   countryCode: string;
@@ -12,6 +13,17 @@ export interface ResolvedRequestCountry {
   detectedCountryCode: string | null;
   requestedCountryCode: string | null;
   mismatch: boolean;
+  /** Present (true) only when the buyer confirmed a billing country that differs from network geography. */
+  networkCountryMismatch?: boolean;
+}
+
+export interface ResolveRequestCountryOptions {
+  /**
+   * The buyer explicitly confirmed that the selected country is their billing
+   * country (for example a member who is traveling). The confirmed country is
+   * then used and the network country is kept only as evidence.
+   */
+  billingCountryConfirmed?: boolean;
 }
 
 function normalizeCountryCode(value: string | null | undefined): string | null {
@@ -64,11 +76,28 @@ export function detectTrustedRequestCountry(headers: Headers): {
  * Network geography wins when present; a mismatch is surfaced so checkout can
  * refuse stale/spoofed client state instead of silently charging the wrong
  * country configuration. If no trusted geo signal exists, an explicit client
- * country may be used, but we never invent US/CA from item currency.
+ * country may be used, but we never invent US/CA from item currency. A buyer
+ * who explicitly confirms a different billing country (a traveling member)
+ * overrides network geography; the network country is retained as evidence.
  */
-export function resolveRequestCountry(headers: Headers, requestedCountryCode?: string | null): ResolvedRequestCountry | null {
+export function resolveRequestCountry(
+  headers: Headers,
+  requestedCountryCode?: string | null,
+  options: ResolveRequestCountryOptions = {},
+): ResolvedRequestCountry | null {
   const detected = detectTrustedRequestCountry(headers);
   const requested = normalizeCountryCode(requestedCountryCode);
+
+  if (detected && requested && requested !== detected.countryCode && options.billingCountryConfirmed === true) {
+    return {
+      countryCode: requested,
+      source: "billing-confirmed",
+      detectedCountryCode: detected.countryCode,
+      requestedCountryCode: requested,
+      mismatch: false,
+      networkCountryMismatch: true,
+    };
+  }
 
   if (detected) {
     return {
