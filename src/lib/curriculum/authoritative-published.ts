@@ -1,5 +1,5 @@
 import { Buffer } from "node:buffer";
-import { existsSync, readdirSync, readFileSync } from "node:fs";
+import { existsSync, readdirSync, readFileSync } from "@/lib/curriculum/curriculum-fs";
 import { join, relative } from "node:path";
 
 import type { ExtractedFile, UploadBatch } from "@/lib/admin-content/types";

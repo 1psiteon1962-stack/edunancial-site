@@ -1,4 +1,4 @@
-import { existsSync, readdirSync, readFileSync, statSync } from "node:fs";
+import { existsSync, readdirSync, readFileSync, statSync } from "@/lib/curriculum/curriculum-fs";
 import { join } from "node:path";
 import { gunzipSync } from "node:zlib";
 

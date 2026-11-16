@@ -1,4 +1,6 @@
-import { mkdir, readdir, readFile, writeFile } from "node:fs/promises";
+import { mkdir, writeFile } from "node:fs/promises";
+
+import { readFileAsync as readFile, readdirWithTypesAsync } from "@/lib/curriculum/curriculum-fs";
 import { dirname, extname, join } from "node:path";
 
 import { verifyDestinationPath } from "@/lib/admin-content/security";
@@ -20,7 +22,7 @@ const DESTINATION_ROOTS = ["content", "curriculum", "data", "assets"] as const;
 
 async function walkForDestinations(baseDirectory: string, relativeDirectory = ""): Promise<string[]> {
   const absoluteDirectory = join(baseDirectory, relativeDirectory);
-  const entries = await readdir(absoluteDirectory, { withFileTypes: true }).catch(() => []);
+  const entries = await readdirWithTypesAsync(absoluteDirectory).catch(() => []);
   const destinations: string[] = [];
 
   for (const entry of entries) {
