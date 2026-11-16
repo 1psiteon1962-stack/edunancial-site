@@ -1,9 +1,9 @@
 {
   "description": "Owner-approved retirements of stale stored (uploaded) translations. For a listed coordinate and locale, a stored translation published before retireStoredBefore is not shown when a learner-ready Git locale file for the same lesson exists; the committed Git file is served instead. Uploads published on or after retireStoredBefore are shown normally. Remove an entry to restore the previous behavior.",
   "retirements": [
-    { "coordinate": "GREEN-L1", "locale": "es-Caribbean", "retireStoredBefore": "2026-11-16T03:00:00Z", "approvedBy": "owner", "approvedOn": "2026-11-15", "reason": "Older upload differs from the committed Git translation; owner chose the Git version." },
-    { "coordinate": "GREEN-L1", "locale": "fr-FR", "retireStoredBefore": "2026-11-16T03:00:00Z", "approvedBy": "owner", "approvedOn": "2026-11-15", "reason": "Older upload titles carry a stray leading ': '; owner chose the Git version." },
-    { "coordinate": "BLACK-L1", "locale": "pt-BR", "retireStoredBefore": "2026-11-16T03:00:00Z", "approvedBy": "owner", "approvedOn": "2026-11-15", "reason": "Older upload titles carry numeric '1.' prefixes; owner chose the Git version." },
-    { "coordinate": "RED-L1", "locale": "fr-CA", "retireStoredBefore": "2026-11-16T03:00:00Z", "approvedBy": "owner", "approvedOn": "2026-11-15", "reason": "Older upload differs from the committed Git translation; owner chose the Git version." }
+    { "coordinate": "GREEN-L1", "locale": "es-Caribbean", "retireStoredBefore": "2026-11-16T01:00:00Z", "approvedBy": "owner", "approvedOn": "2026-11-15", "reason": "Older upload differs from the committed Git translation; owner chose the Git version." },
+    { "coordinate": "GREEN-L1", "locale": "fr-FR", "retireStoredBefore": "2026-11-16T01:00:00Z", "approvedBy": "owner", "approvedOn": "2026-11-15", "reason": "Older upload titles carry a stray leading ': '; owner chose the Git version." },
+    { "coordinate": "BLACK-L1", "locale": "pt-BR", "retireStoredBefore": "2026-11-16T01:00:00Z", "approvedBy": "owner", "approvedOn": "2026-11-15", "reason": "Older upload titles carry numeric '1.' prefixes; owner chose the Git version." },
+    { "coordinate": "RED-L1", "locale": "fr-CA", "retireStoredBefore": "2026-11-16T01:00:00Z", "approvedBy": "owner", "approvedOn": "2026-11-15", "reason": "Older upload differs from the committed Git translation; owner chose the Git version." }
   ]
 }
