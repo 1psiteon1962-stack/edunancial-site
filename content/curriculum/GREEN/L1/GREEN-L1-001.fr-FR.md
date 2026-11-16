@@ -1,48 +1,85 @@
 ---
 id: GREEN-L1-001
 track: GREEN
-officialTrackName: "Taxes"
+officialTrackName: Impôts
 level: 1
 lessonNumber: 1
 locale: fr-FR
-source_locale: en-US
-title: "Qu'est-ce Que l'Argent, Vraiment ?"
-summary: ""
-version: "1.0"
-author: "Waldemar M. Caban, JD MA"
+title: "Qu’est-ce qu’un impôt et pourquoi en payons-nous?"
+summary: "Une introduction au concept fondamental de l’impôt : ce qu’il est, qui le perçoit et pourquoi les gouvernements en ont besoin pour fonctionner."
+version: 1.0
+author: Waldemar M. Caban, JD MA
+date: 2026-08-09
 ---
 
-# GREEN-L1-001 : Qu'est-ce Que l'Argent, Vraiment ?
+# Qu’est-ce qu’un impôt et pourquoi en payons-nous?
 
-## Objectifs d'Apprentissage
-1. Définir l'argent en termes simples.
-2. Identifier les fonctions générales que remplit l'argent.
-3. Reconnaître que l'argent en lui-même n'a pas de valeur intrinsèque.
+## Objectifs d’apprentissage
 
-## Contenu Principal
-*FAIT VÉRIFIÉ :* L'argent est tout objet ou registre généralement accepté comme moyen de paiement pour des biens et services, et comme moyen d'éteindre des dettes. Il remplit généralement trois fonctions : intermédiaire des échanges (facilite le commerce), unité de compte (permet de comparer la valeur des choses), et réserve de valeur (permet de conserver du pouvoir d'achat pour l'avenir).
+- Comprendre et définir le concept principal de cette leçon.
+- L’appliquer à une situation financière courante.
+- Distinguer les principes généraux des règles propres à chaque juridiction.
 
-*SUPPOSITION :* L'argent en lui-même n'a généralement pas de valeur intrinsèque — un billet n'est que du papier —, mais sa valeur provient de la confiance collective que d'autres l'accepteront en échange de biens et de services à l'avenir.
+## Contenu principal
 
-## Exemple Pratique
-*EXEMPLE ILLUSTRATIF :* Avant l'existence de l'argent, les gens échangeaient généralement des biens directement (le troc) — par exemple, échanger des poules contre des chaussures. Cela était inefficace car cela exigeait que les deux parties veuillent exactement ce que l'autre proposait. L'argent résout ce problème en servant d'intermédiaire universellement accepté, permettant à quelqu'un de vendre des poules et d'utiliser cet argent pour acheter des chaussures à une personne complètement différente.
+Un impôt est une somme qu’un gouvernement oblige les particuliers et les entreprises à payer selon des règles établies. Il ne s’agit pas d’un choix comme un abonnement à un centre sportif. Lorsqu’un impôt est dû et n’est pas payé, des conséquences juridiques peuvent s’ensuivre.
 
-## Quiz Pratique
-1. Qu'est-ce que l'argent, en termes simples ?
-2. Nomme une des trois fonctions générales de l'argent.
-3. Vrai/Faux : L'argent a une valeur intrinsèque par lui-même.
-4. Quel problème l'argent résout-il par rapport au troc ?
+Les gouvernements perçoivent des impôts à différents niveaux. Dans la plupart des pays, on retrouve une combinaison d’impôts nationaux ou fédéraux, régionaux — provinciaux ou étatiques — et locaux — municipaux ou de comté. Chaque niveau finance des responsabilités différentes.
+
+La raison fondamentale est simple : certains biens et services fonctionnent mieux lorsque tous contribuent à un fonds commun. Les routes, les tribunaux, les écoles publiques et la défense nationale sont difficiles à financer individuellement, mais profitent largement à la société.
+
+Il faut distinguer le concept de l’impôt d’un taux ou d’une loi précise. Les taux et les règles changent selon le pays et l’année. Le principe demeure : une contribution obligatoire établie par une autorité publique pour financer des besoins collectifs.
+
+> **Remarque :** Les taux, organismes et seuils mentionnés dans ce parcours sont illustratifs. Vérifiez toujours les règles actuelles de votre juridiction avant de prendre une décision.
+
+## Exemple pratique
+
+**Question :** Comment appliquer ce concept avant de prendre une décision financière?
+
+**Étudiant :** Je dois d’abord comprendre le mécanisme, puis vérifier les règles qui s’appliquent réellement à ma situation.
+
+**Guide :** Exactement. La littératie fiscale permet de comprendre le concept; les décisions concrètes exigent des renseignements actuels et propres à votre juridiction.
+
+## Quiz pratique
+
+**Question 1.** Avant d’appliquer une règle fiscale, il faut :
+A) Supposer qu’elle est universelle
+B) Comprendre le concept et vérifier la règle applicable
+C) Utiliser des chiffres anciens
+D) Ignorer la juridiction
+
+**Question 2.** Les règles fiscales peuvent-elles varier selon le pays?
+A) Non
+B) Oui
+C) Seulement pour les entreprises
+D) Seulement pour les salariés
+
+**Question 3.** Une décision éclairée devrait reposer sur :
+A) Des règles applicables et des renseignements actuels
+B) Des rumeurs
+C) Une règle étrangère non vérifiée
+D) Aucune documentation
+
+**Question 4.** La littératie fiscale vise surtout à :
+A) Garantir un résultat
+B) Donner les outils nécessaires pour comprendre et évaluer les décisions
+C) Remplacer tout professionnel
+D) Éliminer les obligations légales
 
 ## Corrigé
-1. Tout objet ou registre généralement accepté comme moyen de paiement pour des biens et services   2. Intermédiaire des échanges, unité de compte, ou réserve de valeur   3. Faux   4. Il élimine la nécessité que les deux parties veuillent exactement ce que l'autre propose
 
-## Réponses et Explications
-1. Ceci est la définition fondamentale de l'argent.
-2. Ce sont les fonctions générales couramment citées de l'argent.
-3. La valeur de l'argent provient de la confiance collective, pas d'une valeur intrinsèque.
-4. Ceci est l'avantage général de l'argent par rapport au troc direct.
+1. B, 2. B, 3. A, 4. B
 
-## Points Clés à Retenir
-- L'argent est tout objet généralement accepté comme moyen de paiement pour des biens et services.
-- Il remplit les fonctions d'intermédiaire des échanges, d'unité de compte, et de réserve de valeur.
-- Sa valeur provient de la confiance collective, pas d'une valeur intrinsèque.
+## Réponses et explications
+
+**1.** Il faut comprendre le mécanisme avant d’appliquer une règle précise.
+**2.** Les systèmes fiscaux varient selon les juridictions et évoluent avec le temps.
+**3.** Les décisions doivent reposer sur des renseignements applicables et actuels.
+**4.** Comprendre les concepts améliore la capacité de décider sans garantir un résultat particulier.
+
+## Points clés
+
+- Comprenez le mécanisme avant de mémoriser des taux.
+- Vérifiez les règles de votre juridiction.
+- Distinguez les principes généraux des exigences propres à un pays.
+- Utilisez des renseignements actuels pour prendre vos décisions.

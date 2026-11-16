@@ -3,7 +3,7 @@
   "retirements": [
     { "coordinate": "GREEN-L1", "locale": "es-Caribbean", "retireStoredBefore": "2026-11-16T01:00:00Z", "approvedBy": "owner", "approvedOn": "2026-11-15", "reason": "Older upload differs from the committed Git translation; owner chose the Git version." },
     { "coordinate": "GREEN-L1", "locale": "fr-FR", "retireStoredBefore": "2026-11-16T01:00:00Z", "approvedBy": "owner", "approvedOn": "2026-11-15", "reason": "Older upload titles carry a stray leading ': '; owner chose the Git version." },
-    { "coordinate": "BLACK-L1", "locale": "pt-BR", "retireStoredBefore": "2026-11-16T01:00:00Z", "approvedBy": "owner", "approvedOn": "2026-11-15", "reason": "Older upload titles carry numeric '1.' prefixes; owner chose the Git version." },
+    { "coordinate": "BLACK-L1", "locale": "pt-BR", "retireStoredBefore": "2026-11-16T04:00:00Z", "approvedBy": "owner", "approvedOn": "2026-11-15", "reason": "Older upload titles carry numeric '1.' prefixes; owner chose the Git version." },
     { "coordinate": "RED-L1", "locale": "fr-CA", "retireStoredBefore": "2026-11-16T01:00:00Z", "approvedBy": "owner", "approvedOn": "2026-11-15", "reason": "Older upload differs from the committed Git translation; owner chose the Git version." }
   ]
 }

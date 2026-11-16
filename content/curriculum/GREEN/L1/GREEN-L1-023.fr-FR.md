@@ -1,48 +1,60 @@
 ---
 id: GREEN-L1-023
 track: GREEN
-officialTrackName: "Taxes"
+officialTrackName: Impôts
 level: 1
 lessonNumber: 23
 locale: fr-FR
-source_locale: en-US
-title: "Qu'est-ce Qu'Investir ?"
-summary: ""
-version: "1.0"
-author: "Waldemar M. Caban, JD MA"
+title: "Impôt et cotisations du travail autonome : ce que les pigistes et propriétaires doivent prévoir"
+summary: "Explique ce concept fiscal en français canadien et montre comment l’appliquer de façon pratique et éclairée."
+version: 1.0
+author: Waldemar M. Caban, JD MA
+date: 2026-08-09
 ---
 
-# GREEN-L1-023 : Qu'est-ce Qu'Investir ?
+# Impôt et cotisations du travail autonome : ce que les pigistes et propriétaires doivent prévoir
 
-## Objectifs d'Apprentissage
-1. Définir investir en termes simples.
-2. Expliquer l'objectif général d'investir.
-3. Reconnaître qu'investir implique généralement une certaine prise de risque.
+## Objectifs d’apprentissage
 
-## Contenu Principal
-*FAIT VÉRIFIÉ :* Investir consiste à allouer de l'argent avec l'attente de générer un rendement ou un gain avec le temps, généralement en achetant des actifs comme des actions, des obligations, de l'immobilier, ou d'autres instruments financiers.
+- Comprendre le concept principal.
+- Reconnaître ses conséquences pratiques.
+- Vérifier les exigences propres à la juridiction avant d’agir.
 
-*SUPPOSITION :* L'objectif général d'investir est de faire croître l'argent avec le temps au-delà de ce que permettrait la simple épargne, en profitant du potentiel de rendement de différents actifs — cela implique généralement une certaine prise de risque, puisque la valeur des investissements peut monter ou baisser.
+## Contenu principal
 
-## Exemple Pratique
-*EXEMPLE ILLUSTRATIF :* Quelqu'un qui investit 1 000 $ dans les actions d'une entreprise s'attend généralement à ce que la valeur de ces actions augmente avec le temps, ou que l'entreprise distribue une partie de ses bénéfices aux actionnaires. Cependant, contrairement à un compte d'épargne traditionnel, la valeur de ces actions pourrait aussi diminuer, ce qui illustre le risque généralement associé à l'investissement.
+Dans les systèmes où certaines cotisations liées à l’emploi sont partagées entre employeur et employé, le travailleur indépendant peut devoir assumer une charge différente ou plus grande directement.
 
-## Quiz Pratique
-1. Qu'est-ce qu'investir ?
-2. Quel est l'objectif général d'investir ?
-3. Vrai/Faux : Investir garantit généralement un gain sans aucun risque.
-4. Nomme un type courant d'actif dans lequel on peut investir.
+Comparer simplement les factures brutes d’un pigiste au salaire brut d’un employé peut donc être trompeur. Il faut connaître les obligations applicables et réserver suffisamment de fonds pour éviter un manque de liquidités au moment de payer.
+
+## Exemple pratique
+
+**Question :** Quelle approche prudente faut-il adopter?
+
+**Étudiant :** Comprendre le mécanisme, conserver de bons dossiers et vérifier les règles actuelles.
+
+**Guide :** Exactement. Une bonne préparation réduit les erreurs et les mauvaises surprises.
+
+## Quiz pratique
+
+1. Les règles fiscales peuvent-elles varier selon la juridiction? A) Oui B) Non
+2. Faut-il conserver une documentation appropriée? A) Oui B) Non
+3. Les chiffres anciens devraient-ils être utilisés sans vérification? A) Oui B) Non
+4. Une situation complexe peut-elle justifier des conseils professionnels? A) Oui B) Non
 
 ## Corrigé
-1. Allouer de l'argent avec l'attente de générer un rendement ou un gain avec le temps   2. Faire croître l'argent au-delà de ce que permettrait la simple épargne   3. Faux   4. Actions, obligations, ou immobilier (entre autres)
 
-## Réponses et Explications
-1. Ceci est la définition fondamentale d'investir.
-2. Ceci est l'objectif général couramment cité d'investir.
-3. Investir implique généralement une certaine prise de risque, sans garantie de gain.
-4. Ce sont des types courants d'actifs dans lesquels on peut investir.
+1. A, 2. A, 3. B, 4. A
 
-## Points Clés à Retenir
-- Investir consiste à allouer de l'argent avec l'attente de générer un rendement avec le temps.
-- Son objectif général est de faire croître l'argent au-delà de ce que permet la simple épargne.
-- Investir implique généralement une certaine prise de risque, puisque la valeur peut monter ou baisser.
+## Réponses et explications
+
+1. Les règles et seuils diffèrent entre juridictions.
+2. La documentation permet d’appuyer les calculs et positions fiscales.
+3. Les règles évoluent et doivent être vérifiées.
+4. Une aide qualifiée peut être appropriée lorsque le risque ou la complexité augmente.
+
+## Points clés
+
+- Planifiez avant les échéances.
+- Conservez des dossiers clairs.
+- Vérifiez les règles applicables.
+- Distinguez les concepts généraux des exigences locales.

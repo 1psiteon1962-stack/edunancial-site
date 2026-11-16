@@ -1,48 +1,60 @@
 ---
 id: GREEN-L1-016
 track: GREEN
-officialTrackName: "Taxes"
+officialTrackName: Impôts
 level: 1
 lessonNumber: 16
 locale: fr-FR
-source_locale: en-US
-title: "Cartes de Débit vs. Cartes de Crédit"
-summary: ""
-version: "1.0"
-author: "Waldemar M. Caban, JD MA"
+title: "Déduction de base ou déductions détaillées"
+summary: "Explique ce concept fiscal en français canadien et montre comment l’appliquer de façon pratique et éclairée."
+version: 1.0
+author: Waldemar M. Caban, JD MA
+date: 2026-08-09
 ---
 
-# GREEN-L1-016 : Cartes de Débit vs. Cartes de Crédit
+# Déduction de base ou déductions détaillées
 
-## Objectifs d'Apprentissage
-1. Distinguer une carte de débit d'une carte de crédit.
-2. Expliquer d'où provient généralement l'argent dans chaque cas.
-3. Reconnaître une différence clé liée au crédit.
+## Objectifs d’apprentissage
 
-## Contenu Principal
-*FAIT VÉRIFIÉ :* Une carte de débit est directement liée à un compte bancaire, et lorsqu'elle est utilisée, l'argent est immédiatement retiré de ce compte. Une carte de crédit, en revanche, permet d'emprunter de l'argent jusqu'à une limite déterminée, avec l'engagement de le rembourser plus tard.
+- Comprendre le concept principal.
+- Reconnaître ses conséquences pratiques.
+- Vérifier les exigences propres à la juridiction avant d’agir.
 
-*SUPPOSITION :* Une différence clé est qu'utiliser une carte de débit ne génère généralement pas de dette ni ne construit d'historique de crédit, puisqu'il s'agit d'utiliser son propre argent déjà disponible sur le compte, tandis qu'utiliser une carte de crédit de manière responsable peut généralement aider à construire un historique de crédit positif avec le temps.
+## Contenu principal
 
-## Exemple Pratique
-*EXEMPLE ILLUSTRATIF :* Quelqu'un qui fait ses courses avec une carte de débit voit l'argent quitter immédiatement son compte bancaire, de la même manière que s'il avait payé en espèces. Si cette même personne utilisait une carte de crédit pour le même achat, la banque émettrice de la carte paierait initialement le commerçant, et la personne se serait engagée à rembourser cet argent à la banque plus tard, généralement avant la date limite pour éviter les intérêts.
+Plusieurs systèmes fiscaux permettent une déduction de base — un montant déterminé sans avoir à détailler chaque dépense — ou permettent de détailler certaines dépenses admissibles.
 
-## Quiz Pratique
-1. Qu'est-ce qu'une carte de débit ?
-2. Qu'est-ce qu'une carte de crédit ?
-3. Vrai/Faux : Utiliser une carte de débit construit généralement un historique de crédit de la même manière qu'une carte de crédit.
-4. D'où provient généralement l'argent lors de l'utilisation d'une carte de débit ?
+La logique consiste à comparer les options permises. Si les déductions détaillées admissibles dépassent la déduction de base, elles peuvent être plus avantageuses. Sinon, la déduction de base peut être plus simple. Les montants et dépenses admissibles varient selon la juridiction.
+
+## Exemple pratique
+
+**Question :** Quelle approche prudente faut-il adopter?
+
+**Étudiant :** Comprendre le mécanisme, conserver de bons dossiers et vérifier les règles actuelles.
+
+**Guide :** Exactement. Une bonne préparation réduit les erreurs et les mauvaises surprises.
+
+## Quiz pratique
+
+1. Les règles fiscales peuvent-elles varier selon la juridiction? A) Oui B) Non
+2. Faut-il conserver une documentation appropriée? A) Oui B) Non
+3. Les chiffres anciens devraient-ils être utilisés sans vérification? A) Oui B) Non
+4. Une situation complexe peut-elle justifier des conseils professionnels? A) Oui B) Non
 
 ## Corrigé
-1. Une carte directement liée à un compte bancaire, retirant immédiatement l'argent   2. Une carte permettant d'emprunter de l'argent jusqu'à une limite, avec l'engagement de le rembourser   3. Faux   4. Du compte bancaire auquel la carte est liée
 
-## Réponses et Explications
-1. Ceci est la définition fondamentale d'une carte de débit.
-2. Ceci est la définition fondamentale d'une carte de crédit.
-3. Les cartes de débit ne construisent généralement pas d'historique de crédit, puisqu'elles n'impliquent pas d'emprunt.
-4. L'argent provient directement du compte bancaire lié à la carte de débit.
+1. A, 2. A, 3. B, 4. A
 
-## Points Clés à Retenir
-- Une carte de débit retire de l'argent directement d'un compte bancaire ; une carte de crédit permet d'emprunter de l'argent.
-- Utiliser une carte de débit ne construit généralement pas d'historique de crédit.
-- Utiliser une carte de crédit de manière responsable peut généralement aider à construire un historique de crédit positif.
+## Réponses et explications
+
+1. Les règles et seuils diffèrent entre juridictions.
+2. La documentation permet d’appuyer les calculs et positions fiscales.
+3. Les règles évoluent et doivent être vérifiées.
+4. Une aide qualifiée peut être appropriée lorsque le risque ou la complexité augmente.
+
+## Points clés
+
+- Planifiez avant les échéances.
+- Conservez des dossiers clairs.
+- Vérifiez les règles applicables.
+- Distinguez les concepts généraux des exigences locales.

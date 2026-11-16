@@ -1,48 +1,60 @@
 ---
 id: GREEN-L1-019
 track: GREEN
-officialTrackName: "Taxes"
+officialTrackName: Impôts
 level: 1
 lessonNumber: 19
 locale: fr-FR
-source_locale: en-US
-title: "La Bonne Dette vs. la Mauvaise Dette"
-summary: ""
-version: "1.0"
-author: "Waldemar M. Caban, JD MA"
+title: "Qu’est-ce qu’une déclaration de revenus et pourquoi la produire?"
+summary: "Explique ce concept fiscal en français canadien et montre comment l’appliquer de façon pratique et éclairée."
+version: 1.0
+author: Waldemar M. Caban, JD MA
+date: 2026-08-09
 ---
 
-# GREEN-L1-019 : La Bonne Dette vs. la Mauvaise Dette
+# Qu’est-ce qu’une déclaration de revenus et pourquoi la produire?
 
-## Objectifs d'Apprentissage
-1. Expliquer le concept général de bonne dette et de mauvaise dette.
-2. Reconnaître un exemple couramment cité de chaque type.
-3. Comprendre que cette distinction est généralement une simplification utile, pas une règle absolue.
+## Objectifs d’apprentissage
 
-## Contenu Principal
-*SUPPOSITION :* La « bonne dette » désigne généralement une dette utilisée pour acquérir quelque chose susceptible de prendre de la valeur ou de générer des revenus avec le temps, comme une formation ou un bien immobilier. La « mauvaise dette » désigne généralement une dette utilisée pour acheter des choses qui perdent rapidement de la valeur ou ne génèrent aucun bénéfice futur, comme des articles de luxe achetés par carte de crédit à des taux d'intérêt élevés.
+- Comprendre le concept principal.
+- Reconnaître ses conséquences pratiques.
+- Vérifier les exigences propres à la juridiction avant d’agir.
 
-*OPINION :* De nombreux éducateurs financiers considèrent cette distinction comme une simplification utile pour réfléchir aux décisions d'endettement, tout en reconnaissant qu'elle n'est pas une règle absolue — même la « bonne dette », comme un prêt étudiant, peut devenir problématique si le montant est disproportionné par rapport aux revenus futurs attendus.
+## Contenu principal
 
-## Exemple Pratique
-*EXEMPLE ILLUSTRATIF :* Un prêt pour financer une formation qui augmente généralement les opportunités de revenus futurs pourrait être considéré comme une bonne dette. En revanche, accumuler un solde élevé sur une carte de crédit avec un taux d'intérêt de 20 % pour acheter des vêtements ou d'autres articles perdant rapidement de la valeur serait généralement considéré comme une mauvaise dette, car le coût de l'intérêt dépasse généralement tout bénéfice de l'achat.
+Une déclaration fiscale communique à l’autorité compétente des renseignements comme le revenu, les déductions, les crédits et l’impôt calculé. Elle permet de rapprocher l’obligation finale des retenues et paiements déjà effectués.
 
-## Quiz Pratique
-1. Qu'est-ce que la « bonne dette » en général ?
-2. Qu'est-ce que la « mauvaise dette » en général ?
-3. Vrai/Faux : Cette distinction est une règle absolue sans exception.
-4. Pourquoi un prêt étudiant pourrait-il devenir problématique malgré son classement généralement comme bonne dette ?
+Un trop-payé peut mener à un remboursement et un paiement insuffisant peut laisser un solde. Les obligations de déclaration varient selon le revenu, la résidence, l’âge, l’activité et les règles locales.
+
+## Exemple pratique
+
+**Question :** Quelle approche prudente faut-il adopter?
+
+**Étudiant :** Comprendre le mécanisme, conserver de bons dossiers et vérifier les règles actuelles.
+
+**Guide :** Exactement. Une bonne préparation réduit les erreurs et les mauvaises surprises.
+
+## Quiz pratique
+
+1. Les règles fiscales peuvent-elles varier selon la juridiction? A) Oui B) Non
+2. Faut-il conserver une documentation appropriée? A) Oui B) Non
+3. Les chiffres anciens devraient-ils être utilisés sans vérification? A) Oui B) Non
+4. Une situation complexe peut-elle justifier des conseils professionnels? A) Oui B) Non
 
 ## Corrigé
-1. Une dette utilisée pour acquérir quelque chose susceptible de prendre de la valeur ou de générer des revenus   2. Une dette utilisée pour acheter des choses perdant rapidement de la valeur sans bénéfice futur   3. Faux   4. Si le montant est disproportionné par rapport aux revenus futurs attendus
 
-## Réponses et Explications
-1. Ceci est la définition générale couramment citée de la bonne dette.
-2. Ceci est la définition générale couramment citée de la mauvaise dette.
-3. Cette distinction est une simplification utile, pas une règle absolue.
-4. Ceci est une exception couramment citée à la généralisation de la bonne dette.
+1. A, 2. A, 3. B, 4. A
 
-## Points Clés à Retenir
-- La bonne dette finance généralement quelque chose qui prend de la valeur ou génère des revenus futurs.
-- La mauvaise dette finance généralement des achats qui perdent de la valeur sans aucun bénéfice futur.
-- Cette distinction est une simplification utile, pas une règle absolue sans exception.
+## Réponses et explications
+
+1. Les règles et seuils diffèrent entre juridictions.
+2. La documentation permet d’appuyer les calculs et positions fiscales.
+3. Les règles évoluent et doivent être vérifiées.
+4. Une aide qualifiée peut être appropriée lorsque le risque ou la complexité augmente.
+
+## Points clés
+
+- Planifiez avant les échéances.
+- Conservez des dossiers clairs.
+- Vérifiez les règles applicables.
+- Distinguez les concepts généraux des exigences locales.

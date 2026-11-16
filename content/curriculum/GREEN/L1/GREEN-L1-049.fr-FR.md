@@ -1,48 +1,52 @@
 ---
 id: GREEN-L1-049
 track: GREEN
-officialTrackName: "Taxes"
+officialTrackName: Impôts
 level: 1
 lessonNumber: 49
 locale: fr-FR
-source_locale: en-US
-title: "Outils et Applications Financières Courants"
-summary: ""
-version: "1.0"
-author: "Waldemar M. Caban, JD MA"
+title: "Planification fiscale : anticiper plutôt que réagir"
+summary: "Explique ce concept fiscal en français canadien et l’intègre à une prise de décision financière éclairée."
+version: 1.0
+author: Waldemar M. Caban, JD MA
+date: 2026-08-09
 ---
 
-# GREEN-L1-049 : Outils et Applications Financières Courants
+# Planification fiscale : anticiper plutôt que réagir
 
-## Objectifs d'Apprentissage
-1. Reconnaître des catégories courantes d'outils financiers numériques.
-2. Expliquer l'objectif général des applications de budget.
-3. Identifier une précaution générale lors de l'utilisation de ces outils.
+## Objectifs d’apprentissage
+- Comprendre le concept principal.
+- Reconnaître ses conséquences pratiques.
+- Vérifier les règles applicables avant d’agir.
 
-## Contenu Principal
-*SUPPOSITION :* Les catégories courantes d'outils financiers numériques incluent les applications de budget (qui aident à suivre les revenus et dépenses), les applications de banque mobile (qui permettent de gérer des comptes bancaires depuis un téléphone), et les plateformes d'investissement (qui permettent d'acheter et de vendre des actions ou d'autres actifs depuis un appareil mobile).
+## Contenu principal
+La planification fiscale consiste à examiner les conséquences avant d’exécuter une décision. Le moment d’une vente, la structure d’une entreprise, l’épargne-retraite, les retenues et les acomptes sont des exemples où l’anticipation peut préserver des options qui disparaissent après la transaction.
 
-*FAIT VÉRIFIÉ :* Beaucoup de ces outils exigent de connecter des comptes bancaires ou d'accorder l'accès à des informations financières sensibles, il est donc généralement important de vérifier la réputation et les mesures de sécurité d'une application avant de lui accorder ce niveau d'accès.
+Les lois, taux, seuils et procédures varient selon la juridiction et peuvent changer. Les exemples pédagogiques ne remplacent pas la vérification des règles actuelles.
 
-## Exemple Pratique
-*EXEMPLE ILLUSTRATIF :* Quelqu'un utilisant une application de budget pourrait connecter ses comptes bancaires afin que l'application classe automatiquement ses dépenses en logement, alimentation, transport, et autres catégories, l'aidant à repérer des habitudes de dépense difficiles à remarquer manuellement. Avant de connecter ces comptes, cependant, cette personne devrait généralement vérifier si l'application dispose de bonnes pratiques de sécurité et d'une réputation fiable.
+## Exemple pratique
+**Question :** Quelle approche protège le mieux votre capacité de décider?
+**Étudiant :** Comprendre le concept, documenter les faits et vérifier les règles avant d’agir.
+**Guide :** Exactement. L’objectif est de décider avec information plutôt que de réagir après coup.
 
-## Quiz Pratique
-1. Nomme une catégorie courante d'outil financier numérique.
-2. Quel est l'objectif général des applications de budget ?
-3. Vrai/Faux : Ces outils n'exigent généralement jamais l'accès à des informations financières sensibles.
-4. Quelle précaution générale est recommandée avant d'utiliser l'un de ces outils ?
+## Quiz pratique
+1. Les règles fiscales sont-elles identiques partout? A) Oui B) Non
+2. La documentation peut-elle appuyer une position fiscale? A) Oui B) Non
+3. Faut-il planifier avant une transaction importante? A) Oui B) Non
+4. Une situation complexe peut-elle justifier un professionnel qualifié? A) Oui B) Non
 
 ## Corrigé
-1. Applications de budget, banque mobile, ou plateformes d'investissement (entre autres)   2. Aider à suivre les revenus et les dépenses   3. Faux   4. Vérifier la réputation et les mesures de sécurité de l'application
+1. B, 2. A, 3. A, 4. A
 
-## Réponses et Explications
-1. Ce sont des catégories courantes d'outils financiers numériques.
-2. Ceci est l'objectif général des applications de budget.
-3. Beaucoup de ces outils exigent généralement l'accès à des informations financières sensibles.
-4. Ceci est la précaution générale couramment recommandée avant d'utiliser ces outils.
+## Réponses et explications
+1. Les juridictions ont leurs propres règles.
+2. Les dossiers permettent d’appuyer les faits et calculs.
+3. Planifier à l’avance préserve davantage d’options.
+4. Une aide qualifiée peut réduire les risques dans les situations complexes.
 
-## Points Clés à Retenir
-- Les outils financiers numériques courants incluent les applications de budget, la banque mobile, et les plateformes d'investissement.
-- Les applications de budget aident généralement à suivre les revenus et dépenses automatiquement.
-- Il est important de vérifier la sécurité et la réputation d'une application avant de lui accorder l'accès à des informations financières sensibles.
+## Points clés
+- Comprenez avant d’agir.
+- Conservez de bons dossiers.
+- Vérifiez les règles actuelles.
+- Planifiez les décisions importantes.
+- Utilisez l’information pour prendre vos propres décisions éclairées.

@@ -1,48 +1,52 @@
 ---
 id: GREEN-L1-044
 track: GREEN
-officialTrackName: "Taxes"
+officialTrackName: Impôts
 level: 1
 lessonNumber: 44
 locale: fr-FR
-source_locale: en-US
-title: "Acheter vs. Louer un Logement"
-summary: ""
-version: "1.0"
-author: "Waldemar M. Caban, JD MA"
+title: "Paradis fiscaux et concurrence fiscale entre juridictions"
+summary: "Explique ce concept fiscal en français canadien et l’intègre à une prise de décision financière éclairée."
+version: 1.0
+author: Waldemar M. Caban, JD MA
+date: 2026-08-09
 ---
 
-# GREEN-L1-044 : Acheter vs. Louer un Logement
+# Paradis fiscaux et concurrence fiscale entre juridictions
 
-## Objectifs d'Apprentissage
-1. Reconnaître des avantages généraux couramment cités d'acheter un logement.
-2. Reconnaître des avantages généraux couramment cités de louer un logement.
-3. Comprendre que la décision dépend généralement de la situation individuelle.
+## Objectifs d’apprentissage
+- Comprendre le concept principal.
+- Reconnaître ses conséquences pratiques.
+- Vérifier les règles applicables avant d’agir.
 
-## Contenu Principal
-*SUPPOSITION :* Acheter un logement offre généralement la possibilité de constituer un patrimoine avec le temps à mesure que le prêt immobilier est remboursé, et potentiellement de bénéficier si la valeur du bien augmente. Louer offre généralement plus de flexibilité pour déménager, et évite les responsabilités d'entretien et de réparations qui incombent généralement au propriétaire du bien.
+## Contenu principal
+Le terme « paradis fiscal » désigne souvent des juridictions offrant une faible fiscalité ou d’autres caractéristiques attirant des capitaux internationaux. Les partisans de la concurrence fiscale et ses critiques avancent des arguments différents. Les effets réels dépendent des règles et circonstances.
 
-*OPINION :* De nombreux conseillers financiers soutiennent couramment qu'il n'existe pas de réponse universelle sur la question de savoir si acheter ou louer est préférable — la décision dépend généralement de facteurs comme la durée pendant laquelle la personne prévoit de rester dans un endroit, sa situation financière actuelle, et les conditions du marché immobilier local.
+Les lois, taux, seuils et procédures varient selon la juridiction et peuvent changer. Les exemples pédagogiques ne remplacent pas la vérification des règles actuelles.
 
-## Exemple Pratique
-*EXEMPLE ILLUSTRATIF :* Quelqu'un s'attendant à changer de ville dans deux ans pour des raisons professionnelles pourrait généralement tirer davantage profit de la location, car les coûts d'achat et de vente d'un bien sur une période aussi courte dépassent généralement les avantages de la propriété. Quelqu'un prévoyant de rester dans la même zone pendant quinze ans ou plus, en revanche, aurait généralement plus de temps pour que les avantages d'acheter, comme la constitution d'un patrimoine, dépassent les coûts initiaux de l'achat.
+## Exemple pratique
+**Question :** Quelle approche protège le mieux votre capacité de décider?
+**Étudiant :** Comprendre le concept, documenter les faits et vérifier les règles avant d’agir.
+**Guide :** Exactement. L’objectif est de décider avec information plutôt que de réagir après coup.
 
-## Quiz Pratique
-1. Nomme un avantage général couramment cité d'acheter un logement.
-2. Nomme un avantage général couramment cité de louer un logement.
-3. Vrai/Faux : Il existe une réponse universelle sur la question de savoir si acheter ou louer est toujours préférable.
-4. Quel facteur pourrait rendre la location plus appropriée que l'achat ?
+## Quiz pratique
+1. Les règles fiscales sont-elles identiques partout? A) Oui B) Non
+2. La documentation peut-elle appuyer une position fiscale? A) Oui B) Non
+3. Faut-il planifier avant une transaction importante? A) Oui B) Non
+4. Une situation complexe peut-elle justifier un professionnel qualifié? A) Oui B) Non
 
 ## Corrigé
-1. Constituer un patrimoine avec le temps et bénéficier d'une éventuelle appréciation   2. Plus de flexibilité pour déménager et sans responsabilités d'entretien   3. Faux   4. Prévoir de déménager dans un délai court
+1. B, 2. A, 3. A, 4. A
 
-## Réponses et Explications
-1. Ceci est un avantage général couramment cité d'acheter.
-2. Ceci est un avantage général couramment cité de louer.
-3. La décision dépend généralement de la situation individuelle de chaque personne.
-4. Ceci est un facteur couramment cité qui favorise la location par rapport à l'achat.
+## Réponses et explications
+1. Les juridictions ont leurs propres règles.
+2. Les dossiers permettent d’appuyer les faits et calculs.
+3. Planifier à l’avance préserve davantage d’options.
+4. Une aide qualifiée peut réduire les risques dans les situations complexes.
 
-## Points Clés à Retenir
-- Acheter un logement permet généralement de constituer un patrimoine avec le temps.
-- Louer offre généralement plus de flexibilité et moins de responsabilités d'entretien.
-- La bonne décision dépend généralement de la situation individuelle de chaque personne.
+## Points clés
+- Comprenez avant d’agir.
+- Conservez de bons dossiers.
+- Vérifiez les règles actuelles.
+- Planifiez les décisions importantes.
+- Utilisez l’information pour prendre vos propres décisions éclairées.

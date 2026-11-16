@@ -1,48 +1,52 @@
 ---
 id: GREEN-L1-040
 track: GREEN
-officialTrackName: "Taxes"
+officialTrackName: Impôts
 level: 1
 lessonNumber: 40
 locale: fr-FR
-source_locale: en-US
-title: "Actifs vs. Passifs"
-summary: ""
-version: "1.0"
-author: "Waldemar M. Caban, JD MA"
+title: "Impôt des sociétés : comment les entreprises sont imposées"
+summary: "Explique ce concept fiscal en français canadien et l’intègre à une prise de décision financière éclairée."
+version: 1.0
+author: Waldemar M. Caban, JD MA
+date: 2026-08-09
 ---
 
-# GREEN-L1-040 : Actifs vs. Passifs
+# Impôt des sociétés : comment les entreprises sont imposées
 
-## Objectifs d'Apprentissage
-1. Définir un actif en termes simples.
-2. Définir un passif en termes simples.
-3. Reconnaître des exemples courants de chacun.
+## Objectifs d’apprentissage
+- Comprendre le concept principal.
+- Reconnaître ses conséquences pratiques.
+- Vérifier les règles applicables avant d’agir.
 
-## Contenu Principal
-*FAIT VÉRIFIÉ :* Un actif est quelque chose qu'une personne possède et qui a une valeur économique, comme des liquidités, des investissements, un logement, ou un véhicule. Un passif est quelque chose qu'une personne doit, comme un prêt, un solde de carte de crédit, ou un prêt immobilier en cours.
+## Contenu principal
+Dans plusieurs systèmes, une société est une entité distincte de ses actionnaires et peut payer de l’impôt sur ses propres bénéfices. Les propriétaires peuvent aussi avoir des obligations personnelles sur salaires, dividendes ou gains. Les formes d’entreprise ne sont pas toutes imposées de la même façon.
 
-*SUPPOSITION :* Certains actifs, comme un logement avec un prêt immobilier en cours, ont généralement à la fois une composante actif (la valeur du bien) et une composante passif associée (la dette du prêt) — la valeur nette de ce bien reflète généralement la différence entre les deux.
+Les lois, taux, seuils et procédures varient selon la juridiction et peuvent changer. Les exemples pédagogiques ne remplacent pas la vérification des règles actuelles.
 
-## Exemple Pratique
-*EXEMPLE ILLUSTRATIF :* Un logement évalué à 200 000 $ avec un prêt immobilier en cours de 150 000 $ représente généralement un actif de 200 000 $ et un passif de 150 000 $ en même temps — la valeur nette associée à ce bien serait généralement de 50 000 $, soit la différence entre les deux. Cela illustre comment un même bien peut impliquer à la fois un actif et un passif.
+## Exemple pratique
+**Question :** Quelle approche protège le mieux votre capacité de décider?
+**Étudiant :** Comprendre le concept, documenter les faits et vérifier les règles avant d’agir.
+**Guide :** Exactement. L’objectif est de décider avec information plutôt que de réagir après coup.
 
-## Quiz Pratique
-1. Qu'est-ce qu'un actif ?
-2. Qu'est-ce qu'un passif ?
-3. Vrai/Faux : Un bien avec un prêt immobilier en cours ne peut généralement pas avoir à la fois une composante actif et une composante passif en même temps.
-4. Dans l'exemple du logement, quelle serait la valeur nette associée ?
+## Quiz pratique
+1. Les règles fiscales sont-elles identiques partout? A) Oui B) Non
+2. La documentation peut-elle appuyer une position fiscale? A) Oui B) Non
+3. Faut-il planifier avant une transaction importante? A) Oui B) Non
+4. Une situation complexe peut-elle justifier un professionnel qualifié? A) Oui B) Non
 
 ## Corrigé
-1. Quelque chose qu'une personne possède avec une valeur économique   2. Quelque chose qu'une personne doit   3. Faux   4. 50 000 $
+1. B, 2. A, 3. A, 4. A
 
-## Réponses et Explications
-1. Ceci est la définition fondamentale d'un actif.
-2. Ceci est la définition fondamentale d'un passif.
-3. Un bien avec un prêt immobilier a généralement les deux composantes simultanément.
-4. 200 000 $ − 150 000 $ = 50 000 $.
+## Réponses et explications
+1. Les juridictions ont leurs propres règles.
+2. Les dossiers permettent d’appuyer les faits et calculs.
+3. Planifier à l’avance préserve davantage d’options.
+4. Une aide qualifiée peut réduire les risques dans les situations complexes.
 
-## Points Clés à Retenir
-- Un actif est quelque chose que l'on possède avec une valeur économique ; un passif est quelque chose que l'on doit.
-- Certains biens, comme un logement hypothéqué, impliquent généralement les deux composantes à la fois.
-- La valeur nette associée à un bien reflète la différence entre sa valeur en tant qu'actif et son passif associé.
+## Points clés
+- Comprenez avant d’agir.
+- Conservez de bons dossiers.
+- Vérifiez les règles actuelles.
+- Planifiez les décisions importantes.
+- Utilisez l’information pour prendre vos propres décisions éclairées.

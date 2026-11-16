@@ -1,48 +1,60 @@
 ---
 id: GREEN-L1-018
 track: GREEN
-officialTrackName: "Taxes"
+officialTrackName: Impôts
 level: 1
 lessonNumber: 18
 locale: fr-FR
-source_locale: en-US
-title: "Les Taux d'Intérêt des Prêts"
-summary: ""
-version: "1.0"
-author: "Waldemar M. Caban, JD MA"
+title: "Statut de déclaration : célibataire, marié et chef de famille"
+summary: "Explique ce concept fiscal en français canadien et montre comment l’appliquer de façon pratique et éclairée."
+version: 1.0
+author: Waldemar M. Caban, JD MA
+date: 2026-08-09
 ---
 
-# GREEN-L1-018 : Les Taux d'Intérêt des Prêts
+# Statut de déclaration : célibataire, marié et chef de famille
 
-## Objectifs d'Apprentissage
-1. Expliquer pourquoi le taux d'intérêt d'un prêt est important.
-2. Distinguer un taux fixe d'un taux variable.
-3. Reconnaître un facteur courant influençant généralement le taux proposé.
+## Objectifs d’apprentissage
 
-## Contenu Principal
-*FAIT VÉRIFIÉ :* Un taux d'intérêt **fixe** reste identique pendant toute la durée du prêt, tandis qu'un taux d'intérêt **variable** peut évoluer avec le temps selon les conditions du marché. Un taux fixe offre généralement des paiements prévisibles, tandis qu'un taux variable comporte généralement le risque que les paiements augmentent ou diminuent.
+- Comprendre le concept principal.
+- Reconnaître ses conséquences pratiques.
+- Vérifier les exigences propres à la juridiction avant d’agir.
 
-*SUPPOSITION :* Le score de crédit d'une personne influence généralement de manière significative le taux d'intérêt qu'un prêteur lui propose — un score plus élevé se traduit généralement par un taux plus bas, car le prêteur perçoit un risque moindre que la personne ne rembourse pas.
+## Contenu principal
 
-## Exemple Pratique
-*EXEMPLE ILLUSTRATIF :* Deux personnes contractant le même prêt pourraient recevoir des taux d'intérêt différents selon leur score de crédit — quelqu'un avec un score élevé pourrait recevoir un taux de 5 %, tandis que quelqu'un avec un score plus bas pourrait recevoir un taux de 12 % pour le même prêt, car le prêteur considère généralement qu'il est plus risqué de prêter à la seconde personne.
+Certains systèmes, notamment celui des États-Unis, utilisent la situation matrimoniale et familiale pour déterminer une catégorie de déclaration. Cette catégorie peut modifier les tranches, déductions ou autres calculs.
 
-## Quiz Pratique
-1. Qu'est-ce qu'un taux d'intérêt fixe ?
-2. Qu'est-ce qu'un taux d'intérêt variable ?
-3. Vrai/Faux : Le score de crédit n'influence généralement pas le taux d'intérêt proposé.
-4. Pourquoi un score de crédit plus élevé se traduit-il généralement par un taux plus bas ?
+Les catégories américaines ne sont pas universelles. Le Canada et d’autres pays utilisent leurs propres mécanismes. Il faut donc vérifier les règles de la juridiction concernée plutôt que transposer automatiquement des catégories étrangères.
+
+## Exemple pratique
+
+**Question :** Quelle approche prudente faut-il adopter?
+
+**Étudiant :** Comprendre le mécanisme, conserver de bons dossiers et vérifier les règles actuelles.
+
+**Guide :** Exactement. Une bonne préparation réduit les erreurs et les mauvaises surprises.
+
+## Quiz pratique
+
+1. Les règles fiscales peuvent-elles varier selon la juridiction? A) Oui B) Non
+2. Faut-il conserver une documentation appropriée? A) Oui B) Non
+3. Les chiffres anciens devraient-ils être utilisés sans vérification? A) Oui B) Non
+4. Une situation complexe peut-elle justifier des conseils professionnels? A) Oui B) Non
 
 ## Corrigé
-1. Un taux qui reste identique pendant toute la durée du prêt   2. Un taux qui peut évoluer avec le temps selon le marché   3. Faux   4. Parce que le prêteur perçoit un risque moindre que la personne ne rembourse pas
 
-## Réponses et Explications
-1. Ceci est la définition fondamentale d'un taux fixe.
-2. Ceci est la définition fondamentale d'un taux variable.
-3. Le score de crédit influence généralement de manière significative le taux proposé.
-4. Ceci est la raison générale couramment citée pour laquelle un meilleur score entraîne de meilleurs taux.
+1. A, 2. A, 3. B, 4. A
 
-## Points Clés à Retenir
-- Un taux fixe reste constant ; un taux variable peut évoluer avec le marché.
-- Le score de crédit influence généralement de manière significative le taux d'intérêt proposé.
-- Un score plus élevé se traduit généralement par des taux plus bas, car il implique un risque perçu moindre.
+## Réponses et explications
+
+1. Les règles et seuils diffèrent entre juridictions.
+2. La documentation permet d’appuyer les calculs et positions fiscales.
+3. Les règles évoluent et doivent être vérifiées.
+4. Une aide qualifiée peut être appropriée lorsque le risque ou la complexité augmente.
+
+## Points clés
+
+- Planifiez avant les échéances.
+- Conservez des dossiers clairs.
+- Vérifiez les règles applicables.
+- Distinguez les concepts généraux des exigences locales.

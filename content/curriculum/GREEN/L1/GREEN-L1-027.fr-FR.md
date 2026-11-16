@@ -1,48 +1,60 @@
 ---
 id: GREEN-L1-027
 track: GREEN
-officialTrackName: "Taxes"
+officialTrackName: Impôts
 level: 1
 lessonNumber: 27
 locale: fr-FR
-source_locale: en-US
-title: "Qu'est-ce Qu'une Obligation ?"
-summary: ""
-version: "1.0"
-author: "Waldemar M. Caban, JD MA"
+title: "Amortissement : répartir un coût dans le temps"
+summary: "Présente ce concept fiscal en français canadien avec une application pratique et une perspective adaptée aux différentes juridictions."
+version: 1.0
+author: Waldemar M. Caban, JD MA
+date: 2026-08-09
 ---
 
-# GREEN-L1-027 : Qu'est-ce Qu'une Obligation ?
+# Amortissement : répartir un coût dans le temps
 
-## Objectifs d'Apprentissage
-1. Définir une obligation en termes simples.
-2. Distinguer une obligation d'une action quant à ce qu'elle représente.
-3. Reconnaître pourquoi les obligations sont généralement considérées moins risquées que les actions.
+## Objectifs d’apprentissage
 
-## Contenu Principal
-*FAIT VÉRIFIÉ :* Une obligation est essentiellement un prêt qu'un investisseur accorde à une entité émettrice — comme un gouvernement ou une entreprise —, en échange de l'engagement de recevoir des paiements d'intérêts périodiques et le remboursement du montant principal à la fin d'une durée déterminée.
+- Comprendre le concept principal.
+- L’appliquer à une décision financière ou d’affaires.
+- Reconnaître les différences entre juridictions.
 
-*SUPPOSITION :* Contrairement à une action, qui représente une propriété dans une entreprise, une obligation représente une dette — l'acheteur de l'obligation est généralement un créancier, pas un propriétaire. Les obligations sont généralement considérées moins risquées que les actions car les paiements d'intérêts et le remboursement du principal sont généralement plus garantis, bien que le risque varie selon l'émetteur.
+## Contenu principal
 
-## Exemple Pratique
-*EXEMPLE ILLUSTRATIF :* Quelqu'un qui achète une obligation d'État de 1 000 $ avec un taux d'intérêt annuel de 4 % et une durée de dix ans recevrait généralement 40 $ d'intérêts chaque année pendant ces dix ans, et récupérerait à la fin de la durée les 1 000 $ d'origine. Cela contraste avec une action, où il n'existe aucun engagement garanti de rembourser le montant investi ni de verser un montant précis de manière périodique.
+Lorsqu’une entreprise achète un actif durable — véhicule, machine ou immeuble — les règles fiscales peuvent répartir son coût sur plusieurs années plutôt que permettre une déduction complète immédiate.
 
-## Quiz Pratique
-1. Qu'est-ce qu'une obligation ?
-2. En quoi une obligation diffère-t-elle d'une action quant à ce qu'elle représente ?
-3. Vrai/Faux : Les obligations sont généralement considérées plus risquées que les actions.
-4. Dans l'exemple de l'obligation d'État, combien d'intérêts seraient reçus chaque année ?
+L’idée consiste à associer le coût aux périodes pendant lesquelles l’actif contribue à produire un revenu. Les méthodes, durées et exceptions varient selon la juridiction.
+
+## Exemple pratique
+
+**Question :** Pourquoi faut-il vérifier la juridiction avant d’agir?
+
+**Étudiant :** Parce que les définitions, taux, comptes et exigences peuvent différer.
+
+**Guide :** Exactement. Le concept est transférable, mais la règle concrète doit être vérifiée.
+
+## Quiz pratique
+
+1. Les règles précises sont-elles universelles? A) Oui B) Non
+2. Faut-il conserver des dossiers adéquats? A) Oui B) Non
+3. L’impôt est-il toujours la seule variable d’une décision financière? A) Oui B) Non
+4. Faut-il vérifier les règles actuelles avant d’agir? A) Oui B) Non
 
 ## Corrigé
-1. Essentiellement un prêt qu'un investisseur accorde à une entité émettrice   2. Une obligation représente une dette ; une action représente une propriété   3. Faux   4. 40 $
 
-## Réponses et Explications
-1. Ceci est la définition fondamentale d'une obligation.
-2. Ceci est la distinction fondamentale entre une obligation et une action.
-3. Les obligations sont généralement considérées moins risquées que les actions.
-4. 1 000 $ × 0,04 = 40 $.
+1. B, 2. A, 3. B, 4. A
 
-## Points Clés à Retenir
-- Une obligation est essentiellement un prêt qu'un investisseur accorde à une entité émettrice.
-- Contrairement à une action, une obligation représente une dette, pas une propriété.
-- Les obligations sont généralement considérées moins risquées que les actions, bien que le risque varie selon l'émetteur.
+## Réponses et explications
+
+1. Les systèmes varient selon les juridictions.
+2. La documentation appuie les calculs et décisions.
+3. Le risque, les objectifs et la liquidité comptent également.
+4. Les règles et taux peuvent changer.
+
+## Points clés
+
+- Comprenez le mécanisme.
+- Vérifiez les règles locales.
+- Documentez les décisions importantes.
+- Considérez les impôts avec les autres facteurs financiers.

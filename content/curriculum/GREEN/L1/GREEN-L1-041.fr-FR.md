@@ -1,48 +1,52 @@
 ---
 id: GREEN-L1-041
 track: GREEN
-officialTrackName: "Taxes"
+officialTrackName: Impôts
 level: 1
 lessonNumber: 41
 locale: fr-FR
-source_locale: en-US
-title: "Établir des Objectifs Financiers"
-summary: ""
-version: "1.0"
-author: "Waldemar M. Caban, JD MA"
+title: "Double imposition : ce que cela signifie pour les sociétés"
+summary: "Explique ce concept fiscal en français canadien et l’intègre à une prise de décision financière éclairée."
+version: 1.0
+author: Waldemar M. Caban, JD MA
+date: 2026-08-09
 ---
 
-# GREEN-L1-041 : Établir des Objectifs Financiers
+# Double imposition : ce que cela signifie pour les sociétés
 
-## Objectifs d'Apprentissage
-1. Expliquer l'objectif général de l'établissement d'objectifs financiers.
-2. Reconnaître une caractéristique couramment citée des objectifs financiers efficaces.
-3. Distinguer les objectifs à court, moyen, et long terme.
+## Objectifs d’apprentissage
+- Comprendre le concept principal.
+- Reconnaître ses conséquences pratiques.
+- Vérifier les règles applicables avant d’agir.
 
-## Contenu Principal
-*SUPPOSITION :* Établir des objectifs financiers clairs aide généralement à donner une direction et une intention aux décisions concernant l'argent, plutôt que d'épargner ou de dépenser sans but précis en tête — cela facilite généralement le maintien de la discipline financière avec le temps.
+## Contenu principal
+Une société peut payer de l’impôt sur ses bénéfices puis ses actionnaires peuvent être imposés lorsqu’une partie de ces bénéfices leur est distribuée. Ce schéma est souvent appelé double imposition. Des mécanismes peuvent toutefois modifier ou atténuer cet effet selon la juridiction.
 
-*OPINION :* De nombreux éducateurs financiers recommandent couramment que les objectifs financiers soient spécifiques et mesurables — par exemple, « épargner 5 000 $ pour un fonds d'urgence en dix-huit mois » plutôt que simplement « épargner davantage » —, car les objectifs spécifiques sont généralement plus faciles à suivre et à savoir s'ils ont été atteints.
+Les lois, taux, seuils et procédures varient selon la juridiction et peuvent changer. Les exemples pédagogiques ne remplacent pas la vérification des règles actuelles.
 
-## Exemple Pratique
-*EXEMPLE ILLUSTRATIF :* Un objectif à court terme pourrait être d'épargner 1 000 $ pour réparer une voiture dans les six prochains mois. Un objectif à moyen terme pourrait être d'épargner l'apport pour un logement en cinq ans. Un objectif à long terme pourrait être d'accumuler suffisamment d'argent pour la retraite en trente ans. Chaque type d'objectif exige généralement une stratégie différente d'épargne ou d'investissement, selon le temps disponible.
+## Exemple pratique
+**Question :** Quelle approche protège le mieux votre capacité de décider?
+**Étudiant :** Comprendre le concept, documenter les faits et vérifier les règles avant d’agir.
+**Guide :** Exactement. L’objectif est de décider avec information plutôt que de réagir après coup.
 
-## Quiz Pratique
-1. Quel est l'objectif général de l'établissement d'objectifs financiers ?
-2. Quelle caractéristique est couramment recommandée pour les objectifs financiers efficaces ?
-3. Vrai/Faux : Tous les objectifs financiers exigent généralement la même stratégie, quelle que soit l'échéance.
-4. Donne un exemple d'objectif financier à court terme.
+## Quiz pratique
+1. Les règles fiscales sont-elles identiques partout? A) Oui B) Non
+2. La documentation peut-elle appuyer une position fiscale? A) Oui B) Non
+3. Faut-il planifier avant une transaction importante? A) Oui B) Non
+4. Une situation complexe peut-elle justifier un professionnel qualifié? A) Oui B) Non
 
 ## Corrigé
-1. Donner une direction et une intention aux décisions concernant l'argent   2. Qu'ils soient spécifiques et mesurables   3. Faux   4. Épargner 1 000 $ pour réparer une voiture en six mois (ou un autre exemple similaire)
+1. B, 2. A, 3. A, 4. A
 
-## Réponses et Explications
-1. Ceci est l'objectif général couramment cité de l'établissement d'objectifs financiers.
-2. Ceci est la caractéristique couramment recommandée des objectifs efficaces.
-3. Les objectifs à échéance différente exigent généralement des stratégies distinctes d'épargne ou d'investissement.
-4. Ceci est un exemple couramment cité d'objectif à court terme.
+## Réponses et explications
+1. Les juridictions ont leurs propres règles.
+2. Les dossiers permettent d’appuyer les faits et calculs.
+3. Planifier à l’avance préserve davantage d’options.
+4. Une aide qualifiée peut réduire les risques dans les situations complexes.
 
-## Points Clés à Retenir
-- Établir des objectifs financiers aide à donner une direction et une intention aux décisions concernant l'argent.
-- Les objectifs efficaces sont généralement spécifiques et mesurables.
-- Les objectifs à court, moyen, et long terme exigent généralement des stratégies différentes.
+## Points clés
+- Comprenez avant d’agir.
+- Conservez de bons dossiers.
+- Vérifiez les règles actuelles.
+- Planifiez les décisions importantes.
+- Utilisez l’information pour prendre vos propres décisions éclairées.

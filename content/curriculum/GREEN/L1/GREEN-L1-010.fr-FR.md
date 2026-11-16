@@ -1,48 +1,62 @@
 ---
 id: GREEN-L1-010
 track: GREEN
-officialTrackName: "Taxes"
+officialTrackName: Impôts
 level: 1
 lessonNumber: 10
 locale: fr-FR
-source_locale: en-US
-title: "Intérêt Simple vs. Intérêt Composé"
-summary: ""
-version: "1.0"
-author: "Waldemar M. Caban, JD MA"
+title: "Comprendre les tranches d’imposition"
+summary: "Présente le concept fiscal de cette leçon et son application pratique dans un contexte canadien-français clair et accessible."
+version: 1.0
+author: Waldemar M. Caban, JD MA
+date: 2026-08-09
 ---
 
-# GREEN-L1-010 : Intérêt Simple vs. Intérêt Composé
+# Comprendre les tranches d’imposition
 
-## Objectifs d'Apprentissage
-1. Distinguer l'intérêt simple de l'intérêt composé.
-2. Expliquer pourquoi l'intérêt composé croît généralement plus vite avec le temps.
-3. Calculer un exemple de base de chaque type.
+## Objectifs d’apprentissage
 
-## Contenu Principal
-*FAIT VÉRIFIÉ :* L'intérêt simple se calcule uniquement sur le montant principal d'origine. L'intérêt composé se calcule sur le montant principal plus tout intérêt précédemment gagné, ce qui signifie que l'intérêt généré au cours d'une période commence à générer de l'intérêt supplémentaire au cours des périodes suivantes.
+- Comprendre le concept principal.
+- L’appliquer à une situation financière courante.
+- Distinguer le principe général des règles propres à une juridiction.
 
-*SUPPOSITION :* En raison de cet effet cumulatif, l'intérêt composé fait généralement croître l'argent beaucoup plus vite que l'intérêt simple avec le temps, particulièrement sur de longues périodes — cette différence devient généralement plus marquée à mesure que le temps passe.
+## Contenu principal
 
-## Exemple Pratique
-*EXEMPLE ILLUSTRATIF :* 1 000 $ avec 5 % d'intérêt simple annuel généreraient 50 $ chaque année, soit 250 $ au bout de cinq ans. Ces mêmes 1 000 $ avec 5 % d'intérêt composé annuel généreraient 50 $ la première année, mais la deuxième année, l'intérêt serait calculé sur 1 050 $, générant 52,50 $, et ainsi de suite — au bout de cinq ans, l'intérêt composé aboutirait généralement à un montant légèrement supérieur à l'intérêt simple, et cette différence s'amplifierait considérablement sur des périodes plus longues.
+Prenons un exemple simplifié : de 0 € à 10 000 €, le taux est de 10 %; de 10 001 € à 40 000 €, il est de 20 %; au-delà de 40 000 €, il est de 30 %.
 
-## Quiz Pratique
-1. Comment se calcule l'intérêt simple ?
-2. Comment se calcule l'intérêt composé ?
-3. Vrai/Faux : L'intérêt simple et l'intérêt composé produisent généralement le même résultat à long terme.
-4. Pourquoi l'intérêt composé croît-il généralement plus vite avec le temps ?
+Avec un revenu de 50 000 €, les premiers 10 000 € produisent 1 000 € d’impôt; les 30 000 € suivants produisent 6 000 €; et les derniers 10 000 € produisent 3 000 €. L’impôt total est donc de 10 000 €, soit un taux effectif de 20 %, et non 30 %.
+
+> **Remarque :** Ces chiffres sont uniquement des exemples pédagogiques. Les tranches réelles varient selon la juridiction et changent avec le temps.
+
+## Exemple pratique
+
+**Question :** Quelle est la meilleure façon d’utiliser ce concept dans une décision réelle?
+
+**Étudiant :** Je dois comprendre le mécanisme, puis vérifier les règles et les chiffres qui s’appliquent à ma situation.
+
+**Guide :** Exactement. Comprendre le concept permet de poser les bonnes questions avant d’agir.
+
+## Quiz pratique
+
+1. Les règles fiscales précises sont-elles identiques partout? A) Oui B) Non
+2. Avant d’appliquer un taux, faut-il vérifier les règles actuelles? A) Oui B) Non
+3. La littératie fiscale aide-t-elle à prendre des décisions plus éclairées? A) Oui B) Non
+4. Une règle étrangère s’applique-t-elle automatiquement à votre juridiction? A) Oui B) Non
 
 ## Corrigé
-1. Uniquement sur le montant principal d'origine   2. Sur le montant principal plus l'intérêt précédemment gagné   3. Faux   4. Parce que l'intérêt généré commence à générer de l'intérêt supplémentaire au cours des périodes suivantes
 
-## Réponses et Explications
-1. Ceci est la définition fondamentale de l'intérêt simple.
-2. Ceci est la définition fondamentale de l'intérêt composé.
-3. L'intérêt composé produit généralement un résultat supérieur à long terme en raison de l'effet cumulatif.
-4. Ceci est la raison générale couramment citée de la croissance plus rapide de l'intérêt composé.
+1. B, 2. A, 3. A, 4. B
 
-## Points Clés à Retenir
-- L'intérêt simple se calcule uniquement sur le montant principal ; l'intérêt composé se calcule sur le principal plus l'intérêt accumulé.
-- L'intérêt composé fait généralement croître l'argent plus vite avec le temps.
-- La différence entre les deux devient plus marquée à mesure que la période s'allonge.
+## Réponses et explications
+
+1. Les systèmes fiscaux varient selon les juridictions.
+2. Les taux, seuils et règles peuvent changer avec le temps.
+3. Comprendre les mécanismes améliore l’analyse et la prise de décision.
+4. Il faut toujours vérifier les règles applicables localement.
+
+## Points clés
+
+- Comprenez le mécanisme avant de mémoriser des chiffres.
+- Vérifiez les règles de votre juridiction.
+- Utilisez des renseignements actuels.
+- Cherchez des conseils professionnels lorsque la complexité ou le risque le justifie.

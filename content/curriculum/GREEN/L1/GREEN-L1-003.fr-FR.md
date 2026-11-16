@@ -1,48 +1,83 @@
 ---
 id: GREEN-L1-003
 track: GREEN
-officialTrackName: "Taxes"
+officialTrackName: Impôts
 level: 1
 lessonNumber: 3
 locale: fr-FR
-source_locale: en-US
-title: "Qu'est-ce Qu'un Budget ?"
-summary: ""
-version: "1.0"
-author: "Waldemar M. Caban, JD MA"
+title: "Types d’impôts : vue d’ensemble"
+summary: "Une carte des principales catégories d’impôts rencontrées par les particuliers : revenu, vente ou consommation, propriété et masse salariale."
+version: 1.0
+author: Waldemar M. Caban, JD MA
+date: 2026-08-09
 ---
 
-# GREEN-L1-003 : Qu'est-ce Qu'un Budget ?
+# Types d’impôts : vue d’ensemble
 
-## Objectifs d'Apprentissage
-1. Définir un budget en termes simples.
-2. Identifier le objectif général de l'établissement d'un budget.
-3. Reconnaître les éléments de base qu'un budget inclut généralement.
+## Objectifs d’apprentissage
 
-## Contenu Principal
-*FAIT VÉRIFIÉ :* Un budget est un plan qui montre comment une personne s'attend à gagner et dépenser son argent pendant une période donnée, généralement un mois. Il aide à affecter les revenus à des catégories précises de dépenses, d'épargne, et d'investissement avant que l'argent ne soit dépensé.
+- Comprendre et définir le concept principal de cette leçon.
+- L’appliquer à une situation financière courante.
+- Distinguer les principes généraux des règles propres à chaque juridiction.
 
-*SUPPOSITION :* Le objectif général d'un budget est de donner à une personne un contrôle intentionnel sur son argent, plutôt que de simplement dépenser de manière réactive et de découvrir en fin de mois qu'il ne reste rien — un budget aide généralement à détecter à l'avance si les revenus suffisent à couvrir les dépenses prévues et les objectifs d'épargne.
+## Contenu principal
 
-## Exemple Pratique
-*EXEMPLE ILLUSTRATIF :* Quelqu'un qui gagne 2 500 $ par mois pourrait créer un budget allouant 1 000 $ au logement, 400 $ à l'alimentation, 300 $ au transport, 200 $ à l'épargne, et le reste à d'autres catégories. En planifiant cela à l'avance, la personne peut généralement voir si ses dépenses prévues dépassent ses revenus avant qu'un problème ne survienne, plutôt que de le découvrir après avoir dépensé l'argent.
+Avant d’étudier un impôt en profondeur, il est utile de voir l’ensemble. Dans de nombreux pays, les particuliers rencontrent une version de quatre grandes catégories.
 
-## Quiz Pratique
-1. Qu'est-ce qu'un budget ?
-2. Quel est le objectif général de l'établissement d'un budget ?
-3. Vrai/Faux : Un budget se fait généralement après avoir dépensé l'argent, pas avant.
-4. Quelles catégories courantes un budget pourrait-il inclure ?
+**Impôt sur le revenu** : porte sur l’argent gagné par l’emploi, une entreprise ou des placements. **Taxe de vente ou de consommation** : s’applique lors de l’achat de biens ou services. **Taxe foncière** : porte principalement sur les biens immobiliers détenus. **Cotisations ou taxes sur la masse salariale** : sont liées aux salaires et financent souvent des programmes de retraite, de santé ou d’assurance sociale.
+
+Une façon simple de les distinguer : le revenu demande combien vous avez gagné; la consommation, combien vous avez dépensé; la propriété, ce que vous possédez; et la masse salariale, ce que vous recevez par l’emploi.
+
+Les pays combinent ces sources différemment. Il n’existe pas une combinaison universelle; il s’agit de choix de politique publique comportant des compromis.
+
+## Exemple pratique
+
+**Question :** Comment appliquer ce concept avant de prendre une décision financière?
+
+**Étudiant :** Je dois d’abord comprendre le mécanisme, puis vérifier les règles qui s’appliquent réellement à ma situation.
+
+**Guide :** Exactement. La littératie fiscale permet de comprendre le concept; les décisions concrètes exigent des renseignements actuels et propres à votre juridiction.
+
+## Quiz pratique
+
+**Question 1.** Avant d’appliquer une règle fiscale, il faut :
+A) Supposer qu’elle est universelle
+B) Comprendre le concept et vérifier la règle applicable
+C) Utiliser des chiffres anciens
+D) Ignorer la juridiction
+
+**Question 2.** Les règles fiscales peuvent-elles varier selon le pays?
+A) Non
+B) Oui
+C) Seulement pour les entreprises
+D) Seulement pour les salariés
+
+**Question 3.** Une décision éclairée devrait reposer sur :
+A) Des règles applicables et des renseignements actuels
+B) Des rumeurs
+C) Une règle étrangère non vérifiée
+D) Aucune documentation
+
+**Question 4.** La littératie fiscale vise surtout à :
+A) Garantir un résultat
+B) Donner les outils nécessaires pour comprendre et évaluer les décisions
+C) Remplacer tout professionnel
+D) Éliminer les obligations légales
 
 ## Corrigé
-1. Un plan qui montre comment une personne s'attend à gagner et dépenser son argent   2. Donner un contrôle intentionnel sur l'argent plutôt que de dépenser de manière réactive   3. Faux   4. Logement, alimentation, transport, épargne (entre autres)
 
-## Réponses et Explications
-1. Ceci est la définition fondamentale d'un budget.
-2. Ceci est le objectif général couramment cité d'un budget.
-3. Un budget se planifie généralement à l'avance, avant de dépenser l'argent.
-4. Ce sont des catégories courantes qu'un budget inclut généralement.
+1. B, 2. B, 3. A, 4. B
 
-## Points Clés à Retenir
-- Un budget est un plan qui montre comment gagner et dépenser l'argent pendant une période donnée.
-- Son objectif général est de donner un contrôle intentionnel sur l'argent.
-- Un budget se planifie généralement à l'avance, avant que la dépense ne survienne.
+## Réponses et explications
+
+**1.** Il faut comprendre le mécanisme avant d’appliquer une règle précise.
+**2.** Les systèmes fiscaux varient selon les juridictions et évoluent avec le temps.
+**3.** Les décisions doivent reposer sur des renseignements applicables et actuels.
+**4.** Comprendre les concepts améliore la capacité de décider sans garantir un résultat particulier.
+
+## Points clés
+
+- Comprenez le mécanisme avant de mémoriser des taux.
+- Vérifiez les règles de votre juridiction.
+- Distinguez les principes généraux des exigences propres à un pays.
+- Utilisez des renseignements actuels pour prendre vos décisions.

@@ -1,48 +1,52 @@
 ---
 id: GREEN-L1-045
 track: GREEN
-officialTrackName: "Taxes"
+officialTrackName: Impôts
 level: 1
 lessonNumber: 45
 locale: fr-FR
-source_locale: en-US
-title: "Les Prêts Immobiliers Expliqués"
-summary: ""
-version: "1.0"
-author: "Waldemar M. Caban, JD MA"
+title: "Évasion fiscale et planification fiscale légale : distinction essentielle"
+summary: "Explique ce concept fiscal en français canadien et l’intègre à une prise de décision financière éclairée."
+version: 1.0
+author: Waldemar M. Caban, JD MA
+date: 2026-08-09
 ---
 
-# GREEN-L1-045 : Les Prêts Immobiliers Expliqués
+# Évasion fiscale et planification fiscale légale : distinction essentielle
 
-## Objectifs d'Apprentissage
-1. Définir un prêt immobilier en termes simples.
-2. Expliquer le concept général de l'apport initial.
-3. Reconnaître pourquoi la durée d'un prêt immobilier affecte généralement le coût total.
+## Objectifs d’apprentissage
+- Comprendre le concept principal.
+- Reconnaître ses conséquences pratiques.
+- Vérifier les règles applicables avant d’agir.
 
-## Contenu Principal
-*FAIT VÉRIFIÉ :* Un prêt immobilier est un prêt utilisé spécifiquement pour acheter un bien, où le bien lui-même sert généralement de garantie — si la personne cesse de payer, le prêteur a généralement le droit de reprendre le bien.
+## Contenu principal
+La planification fiscale légale utilise les choix permis par la loi pour réduire une obligation. L’évasion fiscale implique des actes illégaux, par exemple cacher un revenu, inventer une dépense ou falsifier des documents. La différence fondamentale repose sur la légalité et la véracité des faits.
 
-*SUPPOSITION :* L'apport initial est généralement une somme d'argent que l'acheteur verse à l'avance, représentant un pourcentage du prix total du bien, tandis que le reste est financé par le prêt immobilier. Une durée plus longue (comme trente ans plutôt que quinze) aboutit généralement à des mensualités plus basses, mais à un coût total d'intérêts considérablement plus élevé sur toute la durée du prêt.
+Les lois, taux, seuils et procédures varient selon la juridiction et peuvent changer. Les exemples pédagogiques ne remplacent pas la vérification des règles actuelles.
 
-## Exemple Pratique
-*EXEMPLE ILLUSTRATIF :* Quelqu'un qui achète une maison à 200 000 $ avec un apport initial de 20 % paierait 40 000 $ à l'avance, et financerait les 160 000 $ restants via un prêt immobilier. Si cette personne choisit une durée de trente ans plutôt que quinze, elle aurait généralement des mensualités plus basses, mais paierait considérablement plus d'intérêts au total sur la durée du prêt, en raison du temps supplémentaire pendant lequel la dette reste en cours.
+## Exemple pratique
+**Question :** Quelle approche protège le mieux votre capacité de décider?
+**Étudiant :** Comprendre le concept, documenter les faits et vérifier les règles avant d’agir.
+**Guide :** Exactement. L’objectif est de décider avec information plutôt que de réagir après coup.
 
-## Quiz Pratique
-1. Qu'est-ce qu'un prêt immobilier ?
-2. Qu'est-ce qui sert généralement de garantie pour un prêt immobilier ?
-3. Vrai/Faux : Une durée plus longue aboutit généralement à un coût total d'intérêts plus faible.
-4. Si quelqu'un achète une maison à 150 000 $ avec un apport initial de 10 %, combien paierait-il à l'avance ?
+## Quiz pratique
+1. Les règles fiscales sont-elles identiques partout? A) Oui B) Non
+2. La documentation peut-elle appuyer une position fiscale? A) Oui B) Non
+3. Faut-il planifier avant une transaction importante? A) Oui B) Non
+4. Une situation complexe peut-elle justifier un professionnel qualifié? A) Oui B) Non
 
 ## Corrigé
-1. Un prêt utilisé spécifiquement pour acheter un bien   2. Le bien lui-même   3. Faux   4. 15 000 $
+1. B, 2. A, 3. A, 4. A
 
-## Réponses et Explications
-1. Ceci est la définition fondamentale d'un prêt immobilier.
-2. Ceci est la garantie générale couramment associée à un prêt immobilier.
-3. Une durée plus longue aboutit généralement à un coût total d'intérêts plus élevé, pas plus faible.
-4. 150 000 $ × 0,10 = 15 000 $.
+## Réponses et explications
+1. Les juridictions ont leurs propres règles.
+2. Les dossiers permettent d’appuyer les faits et calculs.
+3. Planifier à l’avance préserve davantage d’options.
+4. Une aide qualifiée peut réduire les risques dans les situations complexes.
 
-## Points Clés à Retenir
-- Un prêt immobilier est un prêt utilisé spécifiquement pour acheter un bien, avec le bien lui-même comme garantie.
-- L'apport initial est une somme versée à l'avance, le reste étant financé via le prêt immobilier.
-- Une durée plus longue réduit généralement les mensualités mais augmente le coût total d'intérêts.
+## Points clés
+- Comprenez avant d’agir.
+- Conservez de bons dossiers.
+- Vérifiez les règles actuelles.
+- Planifiez les décisions importantes.
+- Utilisez l’information pour prendre vos propres décisions éclairées.
