@@ -1,48 +1,52 @@
 ---
 id: GREEN-L1-039
 track: GREEN
-officialTrackName: "Taxes"
+officialTrackName: Impôts
 level: 1
 lessonNumber: 39
 locale: fr-FR
-source_locale: en-US
-title: "Qu'est-ce Que la Valeur Nette ?"
-summary: ""
-version: "1.0"
-author: "Waldemar M. Caban, JD MA"
+title: "Tarifs douaniers : taxes sur les biens importés"
+summary: "Explique ce concept fiscal en français canadien et l’intègre à une prise de décision financière éclairée."
+version: 1.0
+author: Waldemar M. Caban, JD MA
+date: 2026-08-09
 ---
 
-# GREEN-L1-039 : Qu'est-ce Que la Valeur Nette ?
+# Tarifs douaniers : taxes sur les biens importés
 
-## Objectifs d'Apprentissage
-1. Définir la valeur nette en termes simples.
-2. Calculer une valeur nette simple.
-3. Expliquer pourquoi la valeur nette est un indicateur financier utile.
+## Objectifs d’apprentissage
+- Comprendre le concept principal.
+- Reconnaître ses conséquences pratiques.
+- Vérifier les règles applicables avant d’agir.
 
-## Contenu Principal
-*FAIT VÉRIFIÉ :* La valeur nette est la valeur totale de ce qu'une personne possède (ses actifs) moins la valeur totale de ce qu'elle doit (ses passifs). Valeur Nette = Actifs − Passifs.
+## Contenu principal
+Un tarif douanier est un prélèvement sur certains biens importés. L’importateur peut le verser officiellement, mais son coût économique peut être transmis aux acheteurs, absorbé dans les marges ou réparti dans la chaîne commerciale. L’effet dépend du marché.
 
-*SUPPOSITION :* La valeur nette est généralement un indicateur financier plus utile que le seul revenu, car quelqu'un pourrait avoir un salaire élevé mais une valeur nette faible ou négative s'il dépense plus qu'il ne gagne ou accumule beaucoup de dettes, tandis que quelqu'un avec un salaire modeste pourrait avoir une valeur nette solide s'il épargne et investit de manière constante.
+Les lois, taux, seuils et procédures varient selon la juridiction et peuvent changer. Les exemples pédagogiques ne remplacent pas la vérification des règles actuelles.
 
-## Exemple Pratique
-*EXEMPLE ILLUSTRATIF :* Quelqu'un avec 50 000 $ d'épargne et d'investissements, une voiture évaluée à 10 000 $, et une dette de carte de crédit de 5 000 $ aurait une valeur nette de 55 000 $ (60 000 $ d'actifs moins 5 000 $ de passifs). Ce chiffre offre généralement une image plus complète de la situation financière de cette personne que de simplement connaître son salaire mensuel.
+## Exemple pratique
+**Question :** Quelle approche protège le mieux votre capacité de décider?
+**Étudiant :** Comprendre le concept, documenter les faits et vérifier les règles avant d’agir.
+**Guide :** Exactement. L’objectif est de décider avec information plutôt que de réagir après coup.
 
-## Quiz Pratique
-1. Qu'est-ce que la valeur nette ?
-2. Quelle est la formule de la valeur nette ?
-3. Vrai/Faux : Un revenu élevé signifie toujours une valeur nette élevée.
-4. Si quelqu'un a 80 000 $ d'actifs et 30 000 $ de passifs, quelle est sa valeur nette ?
+## Quiz pratique
+1. Les règles fiscales sont-elles identiques partout? A) Oui B) Non
+2. La documentation peut-elle appuyer une position fiscale? A) Oui B) Non
+3. Faut-il planifier avant une transaction importante? A) Oui B) Non
+4. Une situation complexe peut-elle justifier un professionnel qualifié? A) Oui B) Non
 
 ## Corrigé
-1. La valeur totale des actifs moins la valeur totale des passifs   2. Valeur Nette = Actifs − Passifs   3. Faux   4. 50 000 $
+1. B, 2. A, 3. A, 4. A
 
-## Réponses et Explications
-1. Ceci est la définition fondamentale de la valeur nette.
-2. Ceci est la formule fondamentale de la valeur nette.
-3. Quelqu'un avec un revenu élevé pourrait avoir une valeur nette faible s'il dépense plus qu'il ne gagne.
-4. 80 000 $ − 30 000 $ = 50 000 $.
+## Réponses et explications
+1. Les juridictions ont leurs propres règles.
+2. Les dossiers permettent d’appuyer les faits et calculs.
+3. Planifier à l’avance préserve davantage d’options.
+4. Une aide qualifiée peut réduire les risques dans les situations complexes.
 
-## Points Clés à Retenir
-- La valeur nette est Actifs moins Passifs.
-- C'est généralement un indicateur financier plus complet que le seul revenu.
-- Quelqu'un avec un revenu modeste mais de bonnes habitudes d'épargne peut avoir une valeur nette solide.
+## Points clés
+- Comprenez avant d’agir.
+- Conservez de bons dossiers.
+- Vérifiez les règles actuelles.
+- Planifiez les décisions importantes.
+- Utilisez l’information pour prendre vos propres décisions éclairées.

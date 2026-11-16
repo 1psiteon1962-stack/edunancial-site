@@ -1,48 +1,60 @@
 ---
 id: GREEN-L1-022
 track: GREEN
-officialTrackName: "Taxes"
+officialTrackName: Impôts
 level: 1
 lessonNumber: 22
 locale: fr-FR
-source_locale: en-US
-title: "Le Pouvoir d'Achat Expliqué"
-summary: ""
-version: "1.0"
-author: "Waldemar M. Caban, JD MA"
+title: "Acomptes provisionnels pour les travailleurs indépendants"
+summary: "Explique ce concept fiscal en français canadien et montre comment l’appliquer de façon pratique et éclairée."
+version: 1.0
+author: Waldemar M. Caban, JD MA
+date: 2026-08-09
 ---
 
-# GREEN-L1-022 : Le Pouvoir d'Achat Expliqué
+# Acomptes provisionnels pour les travailleurs indépendants
 
-## Objectifs d'Apprentissage
-1. Définir le pouvoir d'achat en termes simples.
-2. Expliquer la relation générale entre le pouvoir d'achat et l'inflation.
-3. Reconnaître pourquoi maintenir le pouvoir d'achat exige généralement que l'argent génère un rendement.
+## Objectifs d’apprentissage
 
-## Contenu Principal
-Le pouvoir d'achat est la quantité de biens et services qu'une unité d'argent peut acheter à un moment donné. *FAIT VÉRIFIÉ :* Lorsque l'inflation augmente, le pouvoir d'achat de l'argent diminue généralement, car il faut plus d'argent pour acheter la même quantité de biens et services qu'auparavant.
+- Comprendre le concept principal.
+- Reconnaître ses conséquences pratiques.
+- Vérifier les exigences propres à la juridiction avant d’agir.
 
-*SUPPOSITION :* Pour maintenir ou augmenter le pouvoir d'achat avec le temps, l'argent doit généralement générer un rendement (par le biais de l'épargne rémunérée ou de l'investissement) égal ou supérieur au taux d'inflation — sinon, le pouvoir d'achat diminue généralement, même si le montant nominal d'argent reste identique ou croît lentement.
+## Contenu principal
 
-## Exemple Pratique
-*EXEMPLE ILLUSTRATIF :* Si quelqu'un conserve 1 000 $ en espèces pendant une année où l'inflation est de 4 %, et que cet argent ne génère aucun rendement, son pouvoir d'achat diminue généralement — ces 1 000 $ achèteraient généralement 4 % de moins de biens et services à la fin de l'année. Si en revanche ces 1 000 $ se trouvaient sur un compte générant 5 % d'intérêt annuel, le pouvoir d'achat augmenterait généralement légèrement, car le rendement dépasserait l'inflation.
+Lorsqu’un employeur ne retient pas automatiquement l’impôt, un travailleur indépendant peut devoir effectuer lui-même des paiements périodiques pendant l’année. Au Canada, certaines personnes peuvent être tenues de verser des acomptes provisionnels; d’autres juridictions utilisent leurs propres calendriers.
 
-## Quiz Pratique
-1. Qu'est-ce que le pouvoir d'achat ?
-2. Quelle relation générale existe entre l'inflation et le pouvoir d'achat ?
-3. Vrai/Faux : L'argent conservé sans générer de rendement maintient généralement son pouvoir d'achat en période d'inflation.
-4. Que faut-il généralement pour maintenir le pouvoir d'achat avec le temps ?
+Ne pas effectuer un paiement requis n’élimine pas l’impôt dû et peut entraîner des intérêts ou pénalités. Les seuils et dates doivent être vérifiés selon la juridiction.
+
+## Exemple pratique
+
+**Question :** Quelle approche prudente faut-il adopter?
+
+**Étudiant :** Comprendre le mécanisme, conserver de bons dossiers et vérifier les règles actuelles.
+
+**Guide :** Exactement. Une bonne préparation réduit les erreurs et les mauvaises surprises.
+
+## Quiz pratique
+
+1. Les règles fiscales peuvent-elles varier selon la juridiction? A) Oui B) Non
+2. Faut-il conserver une documentation appropriée? A) Oui B) Non
+3. Les chiffres anciens devraient-ils être utilisés sans vérification? A) Oui B) Non
+4. Une situation complexe peut-elle justifier des conseils professionnels? A) Oui B) Non
 
 ## Corrigé
-1. La quantité de biens et services qu'une unité d'argent peut acheter   2. Lorsque l'inflation augmente, le pouvoir d'achat diminue généralement   3. Faux   4. Que l'argent génère un rendement égal ou supérieur au taux d'inflation
 
-## Réponses et Explications
-1. Ceci est la définition fondamentale du pouvoir d'achat.
-2. Ceci est la relation générale fondamentale entre inflation et pouvoir d'achat.
-3. L'argent sans rendement perd généralement du pouvoir d'achat en période d'inflation.
-4. Ceci est la condition générale couramment citée pour maintenir le pouvoir d'achat.
+1. A, 2. A, 3. B, 4. A
 
-## Points Clés à Retenir
-- Le pouvoir d'achat est la quantité de biens et services que l'argent peut acheter.
-- L'inflation réduit généralement le pouvoir d'achat avec le temps.
-- Maintenir le pouvoir d'achat exige généralement que l'argent génère un rendement égal ou supérieur à l'inflation.
+## Réponses et explications
+
+1. Les règles et seuils diffèrent entre juridictions.
+2. La documentation permet d’appuyer les calculs et positions fiscales.
+3. Les règles évoluent et doivent être vérifiées.
+4. Une aide qualifiée peut être appropriée lorsque le risque ou la complexité augmente.
+
+## Points clés
+
+- Planifiez avant les échéances.
+- Conservez des dossiers clairs.
+- Vérifiez les règles applicables.
+- Distinguez les concepts généraux des exigences locales.

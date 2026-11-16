@@ -1,48 +1,52 @@
 ---
 id: GREEN-L1-036
 track: GREEN
-officialTrackName: "Taxes"
+officialTrackName: Impôts
 level: 1
 lessonNumber: 36
 locale: fr-FR
-source_locale: en-US
-title: "Qu'est-ce Qu'une Assurance ?"
-summary: ""
-version: "1.0"
-author: "Waldemar M. Caban, JD MA"
+title: "Conséquences fiscales de la vente d’une maison"
+summary: "Explique ce concept fiscal en français canadien et l’intègre à une prise de décision financière éclairée."
+version: 1.0
+author: Waldemar M. Caban, JD MA
+date: 2026-08-09
 ---
 
-# GREEN-L1-036 : Qu'est-ce Qu'une Assurance ?
+# Conséquences fiscales de la vente d’une maison
 
-## Objectifs d'Apprentissage
-1. Définir l'assurance en termes simples.
-2. Expliquer le concept général de mutualisation du risque.
-3. Reconnaître des termes de base courants liés à l'assurance.
+## Objectifs d’apprentissage
+- Comprendre le concept principal.
+- Reconnaître ses conséquences pratiques.
+- Vérifier les règles applicables avant d’agir.
 
-## Contenu Principal
-*FAIT VÉRIFIÉ :* L'assurance est un accord par lequel une personne verse une somme régulière (appelée prime) à un assureur, en échange de la couverture par celui-ci de certaines pertes financières spécifiques si un événement déterminé survient, comme un accident ou une maladie.
+## Contenu principal
+La vente d’une résidence peut produire un gain calculé à partir du prix de vente et de la base fiscale. Certaines juridictions accordent des exclusions ou traitements particuliers à une résidence principale. Les améliorations documentées peuvent influencer la base; les règles doivent être vérifiées localement.
 
-*SUPPOSITION :* L'assurance fonctionne généralement en mutualisant le risque entre de nombreuses personnes — l'assureur réunit les primes de nombreux assurés, et utilise ce fonds collectif pour couvrir les pertes de ceux qui subissent effectivement un événement couvert, plutôt que chaque personne doive assumer seule le coût total d'une perte grave.
+Les lois, taux, seuils et procédures varient selon la juridiction et peuvent changer. Les exemples pédagogiques ne remplacent pas la vérification des règles actuelles.
 
-## Exemple Pratique
-*EXEMPLE ILLUSTRATIF :* Mille personnes pourraient chacune verser 50 $ par mois pour une assurance couvrant les dommages d'incendie du logement. Si une seule de ces mille personnes subit un incendie cette année-là, et que le dommage coûte 40 000 $ en réparations, l'assureur peut généralement couvrir ce coût en utilisant le fonds collectif des primes versées par tous les assurés, plutôt que cette personne doive assumer seule cette dépense imprévue.
+## Exemple pratique
+**Question :** Quelle approche protège le mieux votre capacité de décider?
+**Étudiant :** Comprendre le concept, documenter les faits et vérifier les règles avant d’agir.
+**Guide :** Exactement. L’objectif est de décider avec information plutôt que de réagir après coup.
 
-## Quiz Pratique
-1. Qu'est-ce que l'assurance ?
-2. Comment appelle-t-on le paiement régulier versé à un assureur ?
-3. Vrai/Faux : L'assurance fonctionne généralement en faisant assumer à chaque personne seule le coût total de ses propres pertes.
-4. Quel concept général permet à l'assurance de fonctionner ?
+## Quiz pratique
+1. Les règles fiscales sont-elles identiques partout? A) Oui B) Non
+2. La documentation peut-elle appuyer une position fiscale? A) Oui B) Non
+3. Faut-il planifier avant une transaction importante? A) Oui B) Non
+4. Une situation complexe peut-elle justifier un professionnel qualifié? A) Oui B) Non
 
 ## Corrigé
-1. Un accord où l'on verse une prime en échange d'une couverture face à des pertes financières spécifiques   2. Prime   3. Faux   4. Mutualiser le risque entre de nombreuses personnes
+1. B, 2. A, 3. A, 4. A
 
-## Réponses et Explications
-1. Ceci est la définition fondamentale de l'assurance.
-2. Ceci est le terme technique couramment utilisé pour le paiement régulier de l'assurance.
-3. L'assurance fonctionne précisément en mutualisant le risque entre de nombreux assurés.
-4. Ceci est le concept général fondamental qui rend possible le fonctionnement de l'assurance.
+## Réponses et explications
+1. Les juridictions ont leurs propres règles.
+2. Les dossiers permettent d’appuyer les faits et calculs.
+3. Planifier à l’avance préserve davantage d’options.
+4. Une aide qualifiée peut réduire les risques dans les situations complexes.
 
-## Points Clés à Retenir
-- L'assurance couvre des pertes financières spécifiques en échange du paiement régulier d'une prime.
-- Elle fonctionne en mutualisant le risque entre de nombreuses personnes assurées.
-- Le fonds collectif de primes couvre généralement les pertes de ceux qui subissent un événement couvert.
+## Points clés
+- Comprenez avant d’agir.
+- Conservez de bons dossiers.
+- Vérifiez les règles actuelles.
+- Planifiez les décisions importantes.
+- Utilisez l’information pour prendre vos propres décisions éclairées.

@@ -1,48 +1,60 @@
 ---
 id: GREEN-L1-026
 track: GREEN
-officialTrackName: "Taxes"
+officialTrackName: Impôts
 level: 1
 lessonNumber: 26
 locale: fr-FR
-source_locale: en-US
-title: "Qu'est-ce Qu'une Action ?"
-summary: ""
-version: "1.0"
-author: "Waldemar M. Caban, JD MA"
+title: "Déduction pour bureau à domicile : notions de base"
+summary: "Présente ce concept fiscal en français canadien avec une application pratique et une perspective adaptée aux différentes juridictions."
+version: 1.0
+author: Waldemar M. Caban, JD MA
+date: 2026-08-09
 ---
 
-# GREEN-L1-026 : Qu'est-ce Qu'une Action ?
+# Déduction pour bureau à domicile : notions de base
 
-## Objectifs d'Apprentissage
-1. Définir une action en termes simples.
-2. Expliquer ce que représente généralement le fait de posséder une action.
-3. Reconnaître les deux façons courantes dont une action peut générer des gains.
+## Objectifs d’apprentissage
 
-## Contenu Principal
-*FAIT VÉRIFIÉ :* Une action représente une petite part de propriété dans une entreprise. En achetant une action, une personne devient généralement actionnaire partiel de cette entreprise, avec droit à une part proportionnelle de ses actifs et bénéfices futurs.
+- Comprendre le concept principal.
+- L’appliquer à une décision financière ou d’affaires.
+- Reconnaître les différences entre juridictions.
 
-*SUPPOSITION :* Les actions peuvent généralement générer des gains de deux façons : par l'appréciation du prix (lorsque la valeur de l'action augmente et qu'elle est vendue à un prix plus élevé qu'à l'achat), et par les dividendes (paiements périodiques que certaines entreprises distribuent à leurs actionnaires à partir de leurs bénéfices).
+## Contenu principal
 
-## Exemple Pratique
-*EXEMPLE ILLUSTRATIF :* Quelqu'un qui achète une action d'une entreprise pour 50 $ et la vend deux ans plus tard pour 70 $ réalise généralement un gain de 20 $ par appréciation du prix. Si en plus cette entreprise a versé 2 $ de dividendes par action pendant cette période, la personne aurait généralement obtenu 22 $ de gains totaux, en combinant l'appréciation du prix et les dividendes reçus.
+Lorsqu’une partie du domicile est utilisée pour une entreprise, certains systèmes permettent de déduire une portion de dépenses connexes. Les règles peuvent exiger un usage régulier, clairement lié aux activités professionnelles et parfois exclusif.
 
-## Quiz Pratique
-1. Qu'est-ce qu'une action ?
-2. Que représente généralement le fait de posséder une action ?
-3. Vrai/Faux : Les actions ne peuvent générer des gains que par les dividendes.
-4. Nomme les deux façons courantes dont une action peut générer des gains.
+Les critères, méthodes de calcul et dépenses admissibles varient. Une documentation claire de l’espace, de son utilisation et des coûts est donc essentielle.
+
+## Exemple pratique
+
+**Question :** Pourquoi faut-il vérifier la juridiction avant d’agir?
+
+**Étudiant :** Parce que les définitions, taux, comptes et exigences peuvent différer.
+
+**Guide :** Exactement. Le concept est transférable, mais la règle concrète doit être vérifiée.
+
+## Quiz pratique
+
+1. Les règles précises sont-elles universelles? A) Oui B) Non
+2. Faut-il conserver des dossiers adéquats? A) Oui B) Non
+3. L’impôt est-il toujours la seule variable d’une décision financière? A) Oui B) Non
+4. Faut-il vérifier les règles actuelles avant d’agir? A) Oui B) Non
 
 ## Corrigé
-1. Une petite part de propriété dans une entreprise   2. Une part proportionnelle des actifs et bénéfices futurs de l'entreprise   3. Faux   4. L'appréciation du prix et les dividendes
 
-## Réponses et Explications
-1. Ceci est la définition fondamentale d'une action.
-2. Ceci est l'explication générale de ce que représente le fait de posséder une action.
-3. Les actions peuvent aussi générer des gains par l'appréciation du prix.
-4. Ce sont les deux façons couramment citées dont une action peut générer des gains.
+1. B, 2. A, 3. B, 4. A
 
-## Points Clés à Retenir
-- Une action représente une petite part de propriété dans une entreprise.
-- Posséder une action donne droit à une part proportionnelle des actifs et bénéfices de l'entreprise.
-- Les actions peuvent générer des gains par l'appréciation du prix et les dividendes.
+## Réponses et explications
+
+1. Les systèmes varient selon les juridictions.
+2. La documentation appuie les calculs et décisions.
+3. Le risque, les objectifs et la liquidité comptent également.
+4. Les règles et taux peuvent changer.
+
+## Points clés
+
+- Comprenez le mécanisme.
+- Vérifiez les règles locales.
+- Documentez les décisions importantes.
+- Considérez les impôts avec les autres facteurs financiers.

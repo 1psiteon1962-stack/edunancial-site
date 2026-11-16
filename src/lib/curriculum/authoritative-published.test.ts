@@ -536,3 +536,21 @@ test("an upload published after the retirement cutoff is learner-visible again",
     invalidateTranslationPackageCache();
   }
 });
+
+test("a stored translation for another locale never outranks the committed exact-locale Git file", async () => {
+  const committed = readFileSync(join(process.cwd(), "content", "curriculum", "BLACK", "L1", "BLACK-L1-001.pt-PT.md"), "utf8");
+  const committedTitle = committed.match(/^title:\s*"?(.*?)"?\s*$/mu)?.[1] ?? "";
+  assert.ok(committedTitle);
+  mkdirSync(join(STORE_ROOT, "published"), { recursive: true });
+  writeFileSync(STATE_PATH, JSON.stringify({ schemaVersion: "1.0", initialized: true, updatedAt: new Date().toISOString(), lessons: {
+    "BLACK-L1-001": { id: "BLACK-L1-001", track: "BLACK", trackName: "Leadership", level: 1, lessonNumber: 1, title: "Leadership vs. Management: Two Different Skills", summary: "English summary", author: "Edunancial Faculty", date: "2026-08-05", version: "1.0", status: "active", importedAt: new Date().toISOString(), metadata: {}, path: "content/curriculum/BLACK/L1/BLACK-L1-001.md", body: "English body", frontMatter: {}, translations: { "pt-BR": { title: "1. Título antigo do Brasil", summary: "Resumo antigo", body: "## Objetivos de aprendizagem\n\nVersão antiga." } } },
+  }, batchLessonIds: {} }, null, 2), "utf8");
+  try {
+    const european = await getPublishedLesson("BLACK-L1-001", "pt-PT");
+    assert.ok(european);
+    assert.equal(european.title, committedTitle);
+    assert.doesNotMatch(european.body, /Versão antiga/u);
+  } finally {
+    rmSync(STATE_PATH, { force: true });
+  }
+});

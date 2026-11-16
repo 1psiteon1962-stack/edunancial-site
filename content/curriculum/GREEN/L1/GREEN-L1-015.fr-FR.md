@@ -1,48 +1,60 @@
 ---
 id: GREEN-L1-015
 track: GREEN
-officialTrackName: "Taxes"
+officialTrackName: Impôts
 level: 1
 lessonNumber: 15
 locale: fr-FR
-source_locale: en-US
-title: "Les Cartes de Crédit — Les Bases"
-summary: ""
-version: "1.0"
-author: "Waldemar M. Caban, JD MA"
+title: "La différence entre une déduction fiscale et un crédit d’impôt"
+summary: "Présente le concept fiscal de cette leçon et son application pratique dans un contexte canadien-français clair et accessible."
+version: 1.0
+author: Waldemar M. Caban, JD MA
+date: 2026-08-09
 ---
 
-# GREEN-L1-015 : Les Cartes de Crédit — Les Bases
+# La différence entre une déduction fiscale et un crédit d’impôt
 
-## Objectifs d'Apprentissage
-1. Définir une carte de crédit en termes simples.
-2. Expliquer le fonctionnement général du cycle de facturation.
-3. Reconnaître le risque général de ne payer que le minimum.
+## Objectifs d’apprentissage
 
-## Contenu Principal
-*FAIT VÉRIFIÉ :* Une carte de crédit permet à une personne d'emprunter de l'argent jusqu'à une limite déterminée pour effectuer des achats, avec l'engagement de rembourser cet argent, généralement mensuellement. Si le solde complet est réglé avant la date limite, aucun intérêt n'est généralement facturé ; s'il n'est pas réglé intégralement, des intérêts sont généralement facturés sur le solde restant.
+- Comprendre le concept principal.
+- L’appliquer à une situation financière courante.
+- Distinguer le principe général des règles propres à une juridiction.
 
-*SUPPOSITION :* Ne payer que le montant minimum requis chaque mois fait généralement en sorte que la dette prenne beaucoup plus de temps à être entièrement remboursée, et qu'une quantité importante d'intérêts supplémentaires s'accumule, car la majeure partie du paiement minimum couvre généralement les intérêts plutôt que le montant principal.
+## Contenu principal
 
-## Exemple Pratique
-*EXEMPLE ILLUSTRATIF :* Quelqu'un avec un solde de 1 000 $ sur sa carte de crédit qui ne paie que le minimum requis chaque mois pourrait mettre plusieurs années à rembourser entièrement cette dette, et finir par payer des centaines de dollars supplémentaires en intérêts, selon le taux. Si cette personne réglait plutôt le solde complet chaque mois, elle ne paierait généralement aucun intérêt du tout.
+Une déduction fiscale réduit le revenu sur lequel l’impôt est calculé. Un crédit d’impôt réduit directement l’impôt à payer. Les mécanismes sont donc différents.
 
-## Quiz Pratique
-1. Qu'est-ce qu'une carte de crédit ?
-2. Que se passe-t-il généralement si le solde complet est réglé avant la date limite ?
-3. Vrai/Faux : Ne payer que le minimum est généralement la façon la plus rapide de rembourser une dette de carte de crédit.
-4. Que couvre généralement la majeure partie d'un paiement minimum ?
+Dans un exemple illustratif, une personne ayant un taux marginal de 20 % pourrait économiser environ 200 € grâce à une déduction de 1 000 €. Un crédit de 1 000 € pourrait réduire directement l’impôt de 1 000 €, sous réserve des règles applicables. Les critères d’admissibilité et le caractère remboursable ou non de certains crédits varient selon la juridiction.
+
+## Exemple pratique
+
+**Question :** Quelle est la meilleure façon d’utiliser ce concept dans une décision réelle?
+
+**Étudiant :** Je dois comprendre le mécanisme, puis vérifier les règles et les chiffres qui s’appliquent à ma situation.
+
+**Guide :** Exactement. Comprendre le concept permet de poser les bonnes questions avant d’agir.
+
+## Quiz pratique
+
+1. Les règles fiscales précises sont-elles identiques partout? A) Oui B) Non
+2. Avant d’appliquer un taux, faut-il vérifier les règles actuelles? A) Oui B) Non
+3. La littératie fiscale aide-t-elle à prendre des décisions plus éclairées? A) Oui B) Non
+4. Une règle étrangère s’applique-t-elle automatiquement à votre juridiction? A) Oui B) Non
 
 ## Corrigé
-1. Un moyen d'emprunter de l'argent jusqu'à une limite déterminée, avec l'engagement de le rembourser   2. Aucun intérêt n'est généralement facturé   3. Faux   4. Les intérêts, plutôt que le montant principal
 
-## Réponses et Explications
-1. Ceci est la définition fondamentale d'une carte de crédit.
-2. Ceci est la conséquence générale du règlement du solde complet à temps.
-3. Ne payer que le minimum allonge généralement de manière significative le temps nécessaire pour rembourser la dette.
-4. Ceci est la raison générale couramment citée pour laquelle ne payer que le minimum est coûteux.
+1. B, 2. A, 3. A, 4. B
 
-## Points Clés à Retenir
-- Une carte de crédit permet d'emprunter de l'argent jusqu'à une limite, avec l'engagement de le rembourser.
-- Régler le solde complet à temps évite généralement la facturation d'intérêts.
-- Ne payer que le minimum allonge généralement la dette et augmente les intérêts payés avec le temps.
+## Réponses et explications
+
+1. Les systèmes fiscaux varient selon les juridictions.
+2. Les taux, seuils et règles peuvent changer avec le temps.
+3. Comprendre les mécanismes améliore l’analyse et la prise de décision.
+4. Il faut toujours vérifier les règles applicables localement.
+
+## Points clés
+
+- Comprenez le mécanisme avant de mémoriser des chiffres.
+- Vérifiez les règles de votre juridiction.
+- Utilisez des renseignements actuels.
+- Cherchez des conseils professionnels lorsque la complexité ou le risque le justifie.

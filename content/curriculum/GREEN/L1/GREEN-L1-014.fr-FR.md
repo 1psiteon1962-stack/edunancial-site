@@ -1,48 +1,60 @@
 ---
 id: GREEN-L1-014
 track: GREEN
-officialTrackName: "Taxes"
+officialTrackName: Impôts
 level: 1
 lessonNumber: 14
 locale: fr-FR
-source_locale: en-US
-title: "Le Score de Crédit Expliqué"
-summary: "Un score de crédit est un nombre représentant la probabilité qu'une personne rembourse ses dettes à temps, basé sur son historique financier."
-version: "1.0"
-author: "Waldemar M. Caban, JD MA"
+title: "Formulaire W-2 ou 1099 : employé ou travailleur indépendant?"
+summary: "Présente le concept fiscal de cette leçon et son application pratique dans un contexte canadien-français clair et accessible."
+version: 1.0
+author: Waldemar M. Caban, JD MA
+date: 2026-08-09
 ---
 
-# GREEN-L1-014 : Le Score de Crédit Expliqué
+# Formulaire W-2 ou 1099 : employé ou travailleur indépendant?
 
-## Objectifs d'Apprentissage
-1. Définir le score de crédit en termes simples.
-2. Identifier les facteurs courants qui l'influencent généralement.
-3. Reconnaître pourquoi un bon score de crédit est généralement utile.
+## Objectifs d’apprentissage
 
-## Contenu Principal
-*RÈGLE SPÉCIFIQUE À LA RÉGION :* Les systèmes spécifiques de score de crédit et leurs échelles exactes varient selon le pays ; cette leçon décrit uniquement le concept général.
+- Comprendre le concept principal.
+- L’appliquer à une situation financière courante.
+- Distinguer le principe général des règles propres à une juridiction.
 
-Un score de crédit est un nombre représentant la probabilité qu'une personne rembourse ses dettes à temps, basé sur son historique financier. *SUPPOSITION :* Les facteurs influençant généralement le score de crédit incluent l'historique de paiement, le montant de la dette actuelle par rapport au crédit disponible, la durée de l'historique de crédit, et le nombre de demandes récentes de crédit.
+## Contenu principal
 
-## Exemple Pratique
-*EXEMPLE ILLUSTRATIF :* Quelqu'un qui paie toutes ses factures à temps, maintient un solde bas sur ses cartes de crédit par rapport à sa limite, et possède un historique de crédit de plusieurs années aurait généralement un score de crédit plus élevé que quelqu'un ayant payé en retard plusieurs fois ou maintenant des soldes élevés proches de sa limite de crédit. Un score plus élevé facilite généralement l'obtention de prêts avec de meilleurs taux d'intérêt.
+Aux États-Unis, différents formulaires servent notamment à déclarer le revenu d’un employé et certains paiements versés à un entrepreneur indépendant. Le W-2 est généralement associé à l’emploi avec retenues, tandis que certains formulaires 1099 sont associés à des paiements où le travailleur doit gérer davantage ses propres obligations. Les autres pays utilisent des documents différents.
 
-## Quiz Pratique
-1. Qu'est-ce qu'un score de crédit ?
-2. Nomme un facteur qui influence généralement le score de crédit.
-3. Vrai/Faux : Payer ses factures en retard n'affecte généralement pas le score de crédit.
-4. Pourquoi est-il généralement utile d'avoir un bon score de crédit ?
+La distinction durable est celle entre employé et entrepreneur indépendant. La classification juridique dépend des faits et des règles de la juridiction; elle ne découle pas simplement du nom donné à la relation.
+
+## Exemple pratique
+
+**Question :** Quelle est la meilleure façon d’utiliser ce concept dans une décision réelle?
+
+**Étudiant :** Je dois comprendre le mécanisme, puis vérifier les règles et les chiffres qui s’appliquent à ma situation.
+
+**Guide :** Exactement. Comprendre le concept permet de poser les bonnes questions avant d’agir.
+
+## Quiz pratique
+
+1. Les règles fiscales précises sont-elles identiques partout? A) Oui B) Non
+2. Avant d’appliquer un taux, faut-il vérifier les règles actuelles? A) Oui B) Non
+3. La littératie fiscale aide-t-elle à prendre des décisions plus éclairées? A) Oui B) Non
+4. Une règle étrangère s’applique-t-elle automatiquement à votre juridiction? A) Oui B) Non
 
 ## Corrigé
-1. Un nombre représentant la probabilité qu'une personne rembourse ses dettes à temps   2. Historique de paiement, montant de la dette actuelle, durée de l'historique de crédit, ou demandes récentes (entre autres)   3. Faux   4. Cela facilite l'obtention de prêts avec de meilleurs taux d'intérêt
 
-## Réponses et Explications
-1. Ceci est la définition fondamentale d'un score de crédit.
-2. Ce sont des facteurs couramment cités influençant le score de crédit.
-3. Payer en retard affecte généralement négativement le score de crédit.
-4. Ceci est l'avantage général couramment cité d'avoir un bon score de crédit.
+1. B, 2. A, 3. A, 4. B
 
-## Points Clés à Retenir
-- Un score de crédit représente la probabilité que quelqu'un rembourse ses dettes à temps.
-- Les facteurs qui l'influencent incluent l'historique de paiement et le niveau de dette actuel, entre autres.
-- Un score plus élevé facilite généralement l'obtention de prêts avec de meilleurs taux d'intérêt.
+## Réponses et explications
+
+1. Les systèmes fiscaux varient selon les juridictions.
+2. Les taux, seuils et règles peuvent changer avec le temps.
+3. Comprendre les mécanismes améliore l’analyse et la prise de décision.
+4. Il faut toujours vérifier les règles applicables localement.
+
+## Points clés
+
+- Comprenez le mécanisme avant de mémoriser des chiffres.
+- Vérifiez les règles de votre juridiction.
+- Utilisez des renseignements actuels.
+- Cherchez des conseils professionnels lorsque la complexité ou le risque le justifie.

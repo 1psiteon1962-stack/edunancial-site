@@ -1,48 +1,52 @@
 ---
 id: GREEN-L1-043
 track: GREEN
-officialTrackName: "Taxes"
+officialTrackName: Impôts
 level: 1
 lessonNumber: 43
 locale: fr-FR
-source_locale: en-US
-title: "L'Usurpation d'Identité — Les Bases"
-summary: ""
-version: "1.0"
-author: "Waldemar M. Caban, JD MA"
+title: "Choisir une structure d’entreprise : perspective fiscale"
+summary: "Explique ce concept fiscal en français canadien et l’intègre à une prise de décision financière éclairée."
+version: 1.0
+author: Waldemar M. Caban, JD MA
+date: 2026-08-09
 ---
 
-# GREEN-L1-043 : L'Usurpation d'Identité — Les Bases
+# Choisir une structure d’entreprise : perspective fiscale
 
-## Objectifs d'Apprentissage
-1. Définir l'usurpation d'identité en termes simples.
-2. Reconnaître des conséquences générales courantes de l'usurpation d'identité.
-3. Identifier une pratique couramment recommandée pour réduire le risque.
+## Objectifs d’apprentissage
+- Comprendre le concept principal.
+- Reconnaître ses conséquences pratiques.
+- Vérifier les règles applicables avant d’agir.
 
-## Contenu Principal
-L'usurpation d'identité survient lorsque quelqu'un utilise les informations personnelles ou financières d'une autre personne sans autorisation, généralement pour obtenir de l'argent, du crédit, ou d'autres avantages de manière frauduleuse. *FAIT VÉRIFIÉ :* Les conséquences générales courantes de l'usurpation d'identité incluent des frais non autorisés sur des comptes existants, l'ouverture de nouveaux comptes de crédit au nom de la victime sans son consentement, et des dommages au score de crédit de la personne concernée.
+## Contenu principal
+La structure influence l’imposition, mais aussi la responsabilité, la gouvernance, la propriété, le financement et la succession. Une option avantageuse sur un seul plan fiscal peut être inadéquate globalement. Les décisions importantes de structure méritent une analyse juridique et fiscale adaptée.
 
-*SUPPOSITION :* Une pratique couramment recommandée pour réduire le risque d'usurpation d'identité consiste à vérifier régulièrement les relevés bancaires et de cartes de crédit à la recherche de transactions non reconnues, et à agir rapidement si une activité suspecte est détectée.
+Les lois, taux, seuils et procédures varient selon la juridiction et peuvent changer. Les exemples pédagogiques ne remplacent pas la vérification des règles actuelles.
 
-## Exemple Pratique
-*EXEMPLE ILLUSTRATIF :* Quelqu'un qui consulte son relevé mensuel et remarque un frais de 200 $ dans un magasin où il n'a jamais fait d'achat pourrait être en train de voir des preuves d'usurpation d'identité. Signaler rapidement cela à la banque permet généralement de résoudre le problème plus facilement que si la personne ne vérifiait pas ses comptes régulièrement et que le problème persistait sans être détecté pendant des mois.
+## Exemple pratique
+**Question :** Quelle approche protège le mieux votre capacité de décider?
+**Étudiant :** Comprendre le concept, documenter les faits et vérifier les règles avant d’agir.
+**Guide :** Exactement. L’objectif est de décider avec information plutôt que de réagir après coup.
 
-## Quiz Pratique
-1. Qu'est-ce que l'usurpation d'identité ?
-2. Nomme une conséquence générale courante de l'usurpation d'identité.
-3. Vrai/Faux : Vérifier régulièrement les relevés n'aide généralement pas à détecter l'usurpation d'identité.
-4. Quelle pratique est couramment recommandée pour réduire ce risque ?
+## Quiz pratique
+1. Les règles fiscales sont-elles identiques partout? A) Oui B) Non
+2. La documentation peut-elle appuyer une position fiscale? A) Oui B) Non
+3. Faut-il planifier avant une transaction importante? A) Oui B) Non
+4. Une situation complexe peut-elle justifier un professionnel qualifié? A) Oui B) Non
 
 ## Corrigé
-1. Lorsque quelqu'un utilise les informations personnelles ou financières d'une autre personne sans autorisation   2. Frais non autorisés, nouveaux comptes frauduleux, ou dommages au score de crédit (entre autres)   3. Faux   4. Vérifier régulièrement les relevés à la recherche de transactions non reconnues
+1. B, 2. A, 3. A, 4. A
 
-## Réponses et Explications
-1. Ceci est la définition fondamentale de l'usurpation d'identité.
-2. Ce sont des conséquences générales couramment citées de l'usurpation d'identité.
-3. Vérifier régulièrement les relevés aide généralement à détecter tôt l'usurpation d'identité.
-4. Ceci est la pratique couramment recommandée pour réduire ce risque.
+## Réponses et explications
+1. Les juridictions ont leurs propres règles.
+2. Les dossiers permettent d’appuyer les faits et calculs.
+3. Planifier à l’avance préserve davantage d’options.
+4. Une aide qualifiée peut réduire les risques dans les situations complexes.
 
-## Points Clés à Retenir
-- L'usurpation d'identité survient lorsque quelqu'un utilise des informations personnelles sans autorisation.
-- Les conséquences courantes incluent des frais non autorisés et des dommages au score de crédit.
-- Vérifier régulièrement les relevés est une pratique couramment recommandée pour détecter le problème tôt.
+## Points clés
+- Comprenez avant d’agir.
+- Conservez de bons dossiers.
+- Vérifiez les règles actuelles.
+- Planifiez les décisions importantes.
+- Utilisez l’information pour prendre vos propres décisions éclairées.

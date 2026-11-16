@@ -1,48 +1,81 @@
 ---
 id: GREEN-L1-004
 track: GREEN
-officialTrackName: "Taxes"
+officialTrackName: Impôts
 level: 1
 lessonNumber: 4
 locale: fr-FR
-source_locale: en-US
-title: "Besoins vs. Envies"
-summary: ""
-version: "1.0"
-author: "Waldemar M. Caban, JD MA"
+title: "Impôt sur le revenu : imposer ce que vous gagnez"
+summary: "Examine plus en détail l’impôt sur le revenu et son application possible aux salaires, bénéfices d’entreprise et revenus de placement."
+version: 1.0
+author: Waldemar M. Caban, JD MA
+date: 2026-08-09
 ---
 
-# GREEN-L1-004 : Besoins vs. Envies
+# Impôt sur le revenu : imposer ce que vous gagnez
 
-## Objectifs d'Apprentissage
-1. Distinguer un besoin d'une envie dans le contexte financier.
-2. Expliquer pourquoi cette distinction est importante pour établir un budget.
-3. Reconnaître que la frontière entre les deux peut être subjective.
+## Objectifs d’apprentissage
 
-## Contenu Principal
-*FAIT VÉRIFIÉ :* Un besoin est quelque chose d'essentiel à la survie ou au fonctionnement de base, comme le logement, l'alimentation, et les soins médicaux. Une envie est quelque chose qui améliore la qualité de vie sans être essentiel, comme les loisirs, les repas au restaurant, ou les vêtements de marque.
+- Comprendre et définir le concept principal de cette leçon.
+- L’appliquer à une situation financière courante.
+- Distinguer les principes généraux des règles propres à chaque juridiction.
 
-*SUPPOSITION :* Cette distinction est généralement importante pour établir un budget car, en période de difficulté financière, les dépenses liées aux envies peuvent généralement être réduites ou éliminées, tandis que les dépenses liées aux besoins ne peuvent généralement pas être réduites sans conséquences sérieuses — bien que la frontière entre les deux puisse être subjective et dépendre de la situation de chacun.
+## Contenu principal
 
-## Exemple Pratique
-*EXEMPLE ILLUSTRATIF :* L'alimentation en général est un besoin, mais dîner au restaurant plusieurs fois par semaine est généralement considéré comme une envie, puisque cuisiner chez soi satisfait le même besoin de base à moindre coût. Face à une baisse de revenus, quelqu'un pourrait généralement réduire les dîners au restaurant sans mettre en péril son bien-être de base, ce qu'il ne pourrait pas faire avec le logement ou les soins médicaux.
+L’impôt sur le revenu porte sur l’argent que vous gagnez. Le terme « revenu » est généralement plus large qu’un simple chèque de paie : il peut comprendre les salaires, les bénéfices d’une entreprise et des revenus de placement comme les intérêts ou les dividendes.
 
-## Quiz Pratique
-1. Qu'est-ce qu'un besoin ?
-2. Qu'est-ce qu'une envie ?
-3. Vrai/Faux : La frontière entre besoins et envies est toujours claire et objective.
-4. Pourquoi cette distinction est-elle utile en période de difficulté financière ?
+Chaque pays définit différemment le revenu imposable. La plupart des systèmes n’imposent pas nécessairement chaque euro au même taux; ils peuvent utiliser des tranches, déductions et crédits.
+
+L’idée essentielle est donc que l’impôt sur le revenu peut être déclenché par plusieurs formes de gains, et non seulement par un emploi traditionnel.
+
+## Exemple pratique
+
+**Question :** Comment appliquer ce concept avant de prendre une décision financière?
+
+**Étudiant :** Je dois d’abord comprendre le mécanisme, puis vérifier les règles qui s’appliquent réellement à ma situation.
+
+**Guide :** Exactement. La littératie fiscale permet de comprendre le concept; les décisions concrètes exigent des renseignements actuels et propres à votre juridiction.
+
+## Quiz pratique
+
+**Question 1.** Avant d’appliquer une règle fiscale, il faut :
+A) Supposer qu’elle est universelle
+B) Comprendre le concept et vérifier la règle applicable
+C) Utiliser des chiffres anciens
+D) Ignorer la juridiction
+
+**Question 2.** Les règles fiscales peuvent-elles varier selon le pays?
+A) Non
+B) Oui
+C) Seulement pour les entreprises
+D) Seulement pour les salariés
+
+**Question 3.** Une décision éclairée devrait reposer sur :
+A) Des règles applicables et des renseignements actuels
+B) Des rumeurs
+C) Une règle étrangère non vérifiée
+D) Aucune documentation
+
+**Question 4.** La littératie fiscale vise surtout à :
+A) Garantir un résultat
+B) Donner les outils nécessaires pour comprendre et évaluer les décisions
+C) Remplacer tout professionnel
+D) Éliminer les obligations légales
 
 ## Corrigé
-1. Quelque chose d'essentiel à la survie ou au fonctionnement de base   2. Quelque chose qui améliore la qualité de vie sans être essentiel   3. Faux   4. Les dépenses liées aux envies peuvent généralement être réduites avant celles liées aux besoins
 
-## Réponses et Explications
-1. Ceci est la définition fondamentale d'un besoin.
-2. Ceci est la définition fondamentale d'une envie.
-3. La frontière entre les deux peut être subjective et dépendre de la situation de chacun.
-4. Ceci est la raison générale pour laquelle cette distinction est utile lors de l'ajustement d'un budget.
+1. B, 2. B, 3. A, 4. B
 
-## Points Clés à Retenir
-- Un besoin est essentiel à la survie ; une envie améliore la qualité de vie sans être essentielle.
-- Cette distinction aide à prioriser les dépenses, surtout en période de difficulté.
-- La frontière entre besoins et envies peut être subjective selon la situation de chacun.
+## Réponses et explications
+
+**1.** Il faut comprendre le mécanisme avant d’appliquer une règle précise.
+**2.** Les systèmes fiscaux varient selon les juridictions et évoluent avec le temps.
+**3.** Les décisions doivent reposer sur des renseignements applicables et actuels.
+**4.** Comprendre les concepts améliore la capacité de décider sans garantir un résultat particulier.
+
+## Points clés
+
+- Comprenez le mécanisme avant de mémoriser des taux.
+- Vérifiez les règles de votre juridiction.
+- Distinguez les principes généraux des exigences propres à un pays.
+- Utilisez des renseignements actuels pour prendre vos décisions.
