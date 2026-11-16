@@ -24,15 +24,27 @@ const REAL_DIR = join(process.cwd(), "content", "curriculum", "RED", "L1");
 
 function writeFixtureArchive(): string {
   const dir = fs.mkdtempSync(join(tmpdir(), "curriculum-fs-"));
-  const path = join(dir, "archive.json.gz");
+  const path = join(dir, "archive.bin");
   const binary = gzipSync(Buffer.from("binary-payload"));
-  const files = [
-    { path: "content/curriculum/ZZARCHIVETEST/L9/ZZARCHIVETEST-L9-001.it.md", content: "# Lezione\n\nTesto italiano." },
-    { path: "content/curriculum/RED/L1/ZZARCHIVETEST-ONLY.md", content: "archive-only sibling" },
-    { path: "content/courses/zzarchivetest/level-9/bundle.json.gz", content: binary.toString("base64"), encoding: "base64" },
-    { path: "curriculum/registry.json", content: "{\"not\":\"archived root\"}" },
+  const files: Array<[string, Buffer]> = [
+    ["content/curriculum/ZZARCHIVETEST/L9/ZZARCHIVETEST-L9-001.it.md", Buffer.from("# Lezione\n\nTesto italiano.")],
+    ["content/curriculum/RED/L1/ZZARCHIVETEST-ONLY.md", Buffer.from("archive-only sibling")],
+    ["content/courses/zzarchivetest/level-9/bundle.json.gz", binary],
+    ["curriculum/registry.json", Buffer.from("{\"not\":\"archived root\"}")],
   ];
-  fs.writeFileSync(path, gzipSync(Buffer.from(JSON.stringify({ version: 1, files }))));
+  const entries: Array<[string, number, number, number]> = [];
+  const chunks: Buffer[] = [];
+  let offset = 0;
+  for (const [filePath, content] of files) {
+    const packed = gzipSync(content);
+    entries.push([filePath, offset, packed.length, 0]);
+    chunks.push(packed);
+    offset += packed.length;
+  }
+  const header = Buffer.from(JSON.stringify({ version: 2, files: entries }));
+  const length = Buffer.alloc(4);
+  length.writeUInt32BE(header.length, 0);
+  fs.writeFileSync(path, Buffer.concat([Buffer.from("EDUARCH2", "ascii"), length, header, ...chunks]));
   return path;
 }
 
@@ -84,6 +96,18 @@ test("missing paths still raise ENOENT", () => {
   assert.throws(() => readFileSync(missing, "utf8"), /ENOENT/u);
   assert.throws(() => statSync(missing), /ENOENT/u);
   assert.throws(() => readdirSync(join(process.cwd(), "content", "curriculum", "ZZNOPE")), /ENOENT/u);
+});
+
+test("an archive with the wrong format is ignored instead of misread", () => {
+  const dir = fs.mkdtempSync(join(tmpdir(), "curriculum-fs-bad-"));
+  const bad = join(dir, "archive.bin");
+  fs.writeFileSync(bad, gzipSync(Buffer.from("{}")));
+  setCurriculumArchivePathForTests(bad);
+  try {
+    assert.equal(existsSync(ARCHIVE_ONLY_FILE), false);
+  } finally {
+    setCurriculumArchivePathForTests(writeFixtureArchive());
+  }
 });
 
 test("promise helpers match the sync behaviour", async () => {
