@@ -14,6 +14,7 @@ const curriculumRuntimeFiles = [
   "./content/courses/**/*",
   "./content/curriculum/**/*",
   "./curriculum/registry.json",
+  "./curriculum/stored-translation-retirements.json",
   "./curriculum/seeds/translations/**/*",
   "./content/generated/curriculum-runtime-manifest.json.gz",
 ];
