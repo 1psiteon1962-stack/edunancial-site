@@ -1,5 +1,12 @@
 // Packs every committed file under content/curriculum and content/courses into one
-// gzipped archive that the deployed server reads when the raw files are not on disk.
+// archive that the deployed server reads when the raw files are not on disk.
+//
+// Format (v2, random access): "EDUARCH2" + uint32 BE header length + JSON header
+// {version, roots, files:[[path, offset, length, binary]]} + the files, each gzipped
+// on its own. The server reads only the small header up front and inflates a single
+// file per read, so memory stays at the level of reading raw files from disk. (v1
+// gzipped one big JSON document, which the server had to inflate and parse whole;
+// that cost hundreds of MB per cold start and made heavy routes crash with 502s.)
 //
 // Why: the Netlify server handler must stay under the AWS Lambda 250 MB (unzipped)
 // limit. Shipping ~120 MB of raw lesson Markdown/JSON pushed it over that limit once
@@ -8,13 +15,14 @@
 // reads committed files and never adds, removes, renames or edits a lesson.
 //
 // Runtime counterpart: src/lib/curriculum/curriculum-fs.ts (disk first, archive second).
-import { existsSync, mkdirSync, readFileSync, readdirSync, writeFileSync } from "node:fs";
+import { existsSync, mkdirSync, readFileSync, readdirSync, rmSync, writeFileSync } from "node:fs";
 import { dirname, join, relative } from "node:path";
 import { gzipSync } from "node:zlib";
 
 const ROOT = process.cwd();
 export const ARCHIVED_ROOTS = ["content/curriculum", "content/courses"];
-const OUTPUT = join(ROOT, "content", "generated", "curriculum-archive.json.gz");
+const OUTPUT = join(ROOT, "content", "generated", "curriculum-archive.bin");
+const LEGACY_OUTPUT = join(ROOT, "content", "generated", "curriculum-archive.json.gz");
 
 function walk(dir, files = []) {
   if (!existsSync(dir)) return files;
@@ -35,30 +43,35 @@ function isUtf8Text(buffer) {
   }
 }
 
-const records = [];
+const entries = [];
+const chunks = [];
+let offset = 0;
 let bytes = 0;
 for (const root of ARCHIVED_ROOTS) {
   for (const absolute of walk(join(ROOT, root)).sort((a, b) => a.localeCompare(b))) {
     const buffer = readFileSync(absolute);
     bytes += buffer.length;
     const path = relative(ROOT, absolute).replaceAll("\\", "/");
-    records.push(
-      isUtf8Text(buffer)
-        ? { path, content: buffer.toString("utf8") }
-        : { path, content: buffer.toString("base64"), encoding: "base64" },
-    );
+    const packed = gzipSync(buffer, { level: 9 });
+    entries.push([path, offset, packed.length, isUtf8Text(buffer) ? 0 : 1]);
+    chunks.push(packed);
+    offset += packed.length;
   }
 }
 
-const markdown = records.filter((record) => record.path.endsWith(".md")).length;
+const markdown = entries.filter(([path]) => path.endsWith(".md")).length;
 if (!markdown) {
   console.error("[curriculum-archive] refusing to write an archive with no lesson Markdown");
   process.exit(1);
 }
 
+const header = Buffer.from(JSON.stringify({ version: 2, roots: ARCHIVED_ROOTS, files: entries }), "utf8");
+const length = Buffer.alloc(4);
+length.writeUInt32BE(header.length, 0);
+const archive = Buffer.concat([Buffer.from("EDUARCH2", "ascii"), length, header, ...chunks]);
 mkdirSync(dirname(OUTPUT), { recursive: true });
-const gz = gzipSync(Buffer.from(JSON.stringify({ version: 1, roots: ARCHIVED_ROOTS, files: records })), { level: 9 });
-writeFileSync(OUTPUT, gz);
+writeFileSync(OUTPUT, archive);
+rmSync(LEGACY_OUTPUT, { force: true });
 console.log(
-  `[curriculum-archive] archived ${records.length} files (${markdown} Markdown, ${(bytes / 1e6).toFixed(1)} MB) into ${(gz.length / 1e6).toFixed(1)} MB`,
+  `[curriculum-archive] archived ${entries.length} files (${markdown} Markdown, ${(bytes / 1e6).toFixed(1)} MB) into ${(archive.length / 1e6).toFixed(1)} MB (header ${(header.length / 1e6).toFixed(2)} MB)`,
 );
