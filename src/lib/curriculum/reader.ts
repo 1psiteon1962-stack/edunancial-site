@@ -9,7 +9,7 @@
  * No code changes are needed when new lessons are added.
  */
 
-import { existsSync, readFileSync, readdirSync } from "node:fs";
+import { existsSync, readFileSync, readdirSync } from "@/lib/curriculum/curriculum-fs";
 import { basename, dirname, join } from "node:path";
 
 import {
