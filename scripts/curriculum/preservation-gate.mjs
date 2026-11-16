@@ -16,6 +16,7 @@ function gitText(ref, path) {
   try {
     return execFileSync('git', ['show', `${ref}:${path}`], {
       encoding: 'utf8',
+      maxBuffer: 256 * 1024 * 1024,
       stdio: ['ignore', 'pipe', 'ignore'],
     });
   } catch {
@@ -124,7 +125,7 @@ function refInventory(ref) {
 
   let files = [];
   try {
-    files = execFileSync('git', ['ls-tree', '-r', '--name-only', ref], { encoding: 'utf8' })
+    files = execFileSync('git', ['ls-tree', '-r', '--name-only', ref], { encoding: 'utf8', maxBuffer: 256 * 1024 * 1024 })
       .split(/\r?\n/u)
       .filter(Boolean);
   } catch {
