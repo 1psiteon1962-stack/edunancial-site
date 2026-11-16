@@ -491,3 +491,21 @@ test("Level 3 administrative file header is metadata, not learner body", async (
   assert.ok(!lesson.body.startsWith("Filename:"), "learner body must not expose source-file metadata");
   assert.match(lesson.body, /^## Learning Objectives/u);
 });
+
+test("Level 1 committed locale files outrank stale stored translations (repository Level 1 is authoritative)", async () => {
+  mkdirSync(join(STORE_ROOT, "published"), { recursive: true });
+  const staleBody = "## Objetivos de aprendizaje\n\nVersión antigua subida al almacén. ".repeat(40);
+  writeFileSync(STATE_PATH, JSON.stringify({ schemaVersion: "1.0", initialized: true, updatedAt: new Date().toISOString(), lessons: {
+    "GREEN-L1-011": { id: "GREEN-L1-011", track: "GREEN", trackName: "Taxes", level: 1, lessonNumber: 11, title: "Gross Income vs. Net Income", summary: "English summary", author: "Edunancial Faculty", date: "2026-08-05", version: "1.0", status: "active", importedAt: new Date().toISOString(), metadata: {}, path: "content/curriculum/GREEN/L1/GREEN-L1-011.md", body: "English body", frontMatter: {}, translations: {
+      "es-Caribbean": { title: "Título antiguo del almacén", summary: "Resumen antiguo", body: staleBody },
+    } },
+  }, batchLessonIds: {} }, null, 2), "utf8");
+  const committed = readFileSync(join(process.cwd(), "content", "curriculum", "GREEN", "L1", "GREEN-L1-011.es-Caribbean.md"), "utf8");
+  const committedTitle = committed.match(/^title:\s*"?(.*?)"?\s*$/mu)?.[1] ?? "";
+  const lesson = await getPublishedLesson("GREEN-L1-011", "es-Caribbean");
+  assert.ok(lesson);
+  assert.equal(lesson.title, committedTitle);
+  assert.notEqual(lesson.title, "Título antiguo del almacén");
+  assert.doesNotMatch(lesson.body, /Versión antigua subida al almacén/u);
+  assert.equal(lesson.servedSource, "git-locale-file");
+});
