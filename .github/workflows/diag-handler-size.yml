@@ -1,0 +1,32 @@
+name: diag-handler-size
+on:
+  push:
+    branches: [diag/handler-size]
+jobs:
+  measure:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        ref: [main, translate/l4-fast]
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ matrix.ref }}
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - run: npm ci
+      - run: npm run build
+      - name: Measure traced server files
+        run: |
+          node -e '
+          const fs=require("fs"),path=require("path");
+          const files=new Set();
+          function walk(d){for(const e of fs.readdirSync(d,{withFileTypes:true})){const p=path.join(d,e.name);if(e.isDirectory())walk(p);else if(p.endsWith(".nft.json")){const j=JSON.parse(fs.readFileSync(p));for(const f of j.files)files.add(path.resolve(path.dirname(p),f));}}}
+          walk(".next/server");
+          let total=0;const by={};
+          for(const f of files){let s=0;try{s=fs.statSync(f).size}catch{};total+=s;const r=path.relative(process.cwd(),f).split(path.sep);const k=r[0]==="node_modules"?r.slice(0,r[1]&&r[1].startsWith("@")?3:2).join("/"):r.slice(0,2).join("/");by[k]=(by[k]||0)+s;}
+          let srv=0;(function w(d){for(const e of fs.readdirSync(d,{withFileTypes:true})){const p=path.join(d,e.name);if(e.isDirectory())w(p);else srv+=fs.statSync(p).size}})(".next/server");
+          console.log("TRACED_MB",(total/1e6).toFixed(1),"FILES",files.size,"NEXT_SERVER_MB",(srv/1e6).toFixed(1));
+          Object.entries(by).sort((a,b)=>b[1]-a[1]).slice(0,25).forEach(([k,v])=>console.log("TOP",(v/1e6).toFixed(1),k));
+          '
