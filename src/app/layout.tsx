@@ -4,7 +4,7 @@ import { Suspense } from "react";
 
 import FiqInvitationModal from "@/components/marketing/FiqInvitationModal";
 import PageViewTracker from "@/components/kpi/PageViewTracker";
-import { isRtlLanguage } from "@/lib/international/languages";
+import { isRtlLanguage, toHtmlLangTag } from "@/lib/international/languages";
 import { EDUNANCIAL_IDENTITY, EDUNANCIAL_LONG_DESCRIPTION } from "@/lib/positioning";
 import { getServerLanguage } from "@/lib/international/server";
 
@@ -54,7 +54,7 @@ export default async function RootLayout({ children }: { children: React.ReactNo
   };
 
   return (
-    <html lang={savedLocale} dir={dir}>
+    <html lang={toHtmlLangTag(savedLocale)} data-site-locale={savedLocale} dir={dir}>
       <head>
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(orgSchema) }} />
       </head>

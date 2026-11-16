@@ -17,6 +17,7 @@ import {
   isLanguageSupported,
   isRtlLanguage,
   normalizePublicLanguageCode,
+  toHtmlLangTag,
 } from "@/lib/international/languages";
 import {
   clearSavedLanguagePreference,
@@ -184,7 +185,8 @@ export function InternationalPreferencesProvider({
     const isPersistentDefault =
       !sessionLanguage && preferences.languageSelectionSource === "user-confirmed";
 
-    document.documentElement.lang = normalizedLanguage;
+    document.documentElement.lang = toHtmlLangTag(normalizedLanguage);
+    document.documentElement.dataset.siteLocale = normalizedLanguage;
     document.documentElement.dir = isRtlLanguage(langToApply) ? "rtl" : "ltr";
     writeLanguageCookie(normalizedLanguage, isPersistentDefault);
   }, [preferences, sessionLanguage, ready]);
