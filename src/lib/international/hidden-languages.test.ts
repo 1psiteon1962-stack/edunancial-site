@@ -21,12 +21,17 @@ test("Haitian Creole stays in the catalog so curriculum files and tooling are un
   assert.equal(normalizeLanguageCode("ht"), "ht");
 });
 
-test("A saved, browser or session 'ht' falls back to the default language", () => {
+test("The site never switches a visitor into Haitian Creole on its own", () => {
   assert.equal(normalizePublicLanguageCode("ht"), DEFAULT_LANGUAGE_CODE);
   assert.equal(normalizePublicLanguageCode("ht-HT"), DEFAULT_LANGUAGE_CODE);
-  assert.equal(matchSupportedLocale("ht"), null);
-  assert.equal(resolveLocale({ savedPreference: "ht", acceptLanguageHeader: "ht-HT,ht;q=0.9" }), DEFAULT_LANGUAGE_CODE);
-  assert.equal(resolveLocale({ sessionOverride: "ht", acceptLanguageHeader: "fr-FR,fr;q=0.9" }), "fr-FR");
+  assert.equal(resolveLocale({ acceptLanguageHeader: "ht-HT,ht;q=0.9" }), DEFAULT_LANGUAGE_CODE);
+  assert.equal(resolveLocale({ acceptLanguageHeader: "ht-HT,fr-FR;q=0.8" }), "fr-FR");
+  assert.equal(resolveLocale({ geoLocale: "ht" }), DEFAULT_LANGUAGE_CODE);
+});
+
+test("An explicit request by code (content APIs) still resolves committed Haitian Creole curriculum", () => {
+  assert.equal(matchSupportedLocale("ht"), "ht");
+  assert.equal(resolveLocale({ savedPreference: "ht" }), "ht");
 });
 
 test("Every other launch language remains publicly available", () => {
