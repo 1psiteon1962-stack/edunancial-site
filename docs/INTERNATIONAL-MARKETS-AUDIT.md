@@ -50,7 +50,7 @@ Audit started 2026-11-16. Last updated 2026-11-16 against `main` at 1f14ff2a.
 | Activation by verified webhook, idempotent | UNTESTED | `src/app/api/square/webhook/route.ts`, `webhookIdempotency.ts` |
 | Checkout refuses when currency does not match the country | UNTESTED | 409 "country-specific catalog price must be configured" |
 | Checkout limited to US and CA | BLOCKED | Square is the only approved provider; other markets show prices with "purchase not yet open" |
-| Canadian checkout will fail: catalog items are USD but CA requires CAD | GAP | currency check above; needs CAD catalog items at the existing CA prices, and a Square account able to settle CAD |
+| Canadian checkout will fail: catalog items are USD but CA requires CAD | BUILT, SWITCHED OFF | Stripe Checkout adapter (`src/lib/payments/stripe.ts`, `/api/stripe/checkout`, `/api/stripe/webhook`) charges the exact approved CAD price; CA checkout is routed there, US stays on Square. Off until the owner completes the Stripe go-live steps below. |
 | Tax calculation (US adapter, Canada adapter) behind env flags | PARTIAL / BLOCKED | `src/lib/tax/*`; `EDUNANCIAL_RUNTIME_TAX_ENFORCEMENT_ENABLED`, `EDUNANCIAL_SQUARE_TAX_LINE_ITEM_ENABLED`. Registration decisions needed. |
 | Square production credentials | BLOCKED | owner to supply keys |
 
@@ -84,3 +84,14 @@ Audit started 2026-11-16. Last updated 2026-11-16 against `main` at 1f14ff2a.
 - Before: a member whose selected country differed from the network country (for example a US member traveling in Mexico) was refused at checkout with HTTP 409.
 - Now: the checkout asks the member to confirm their billing country. After an explicit confirmation the confirmed billing country is used; the network country is kept as evidence (`network_country_code`, `billing_country_confirmed` in Square order metadata and in the persisted checkout record).
 - Unchanged: country payment controls, approved currencies, server-side prices, Square US/CA-only restriction, tax rules and sanctions. A confirmed country that is not enabled for payment is still refused.
+
+## Stripe for Canada: owner go-live steps (nothing is live until all are done)
+
+1. Owner opens a Stripe account for Edunancial (USD payouts; Stripe converts CAD charges).
+2. Owner adds in Netlify env (never in chat or Git): `STRIPE_SECRET_KEY`, `STRIPE_WEBHOOK_SECRET`.
+3. Owner creates a Stripe webhook to `https://edunancial.com/api/stripe/webhook` for `checkout.session.completed` and `checkout.session.async_payment_succeeded`.
+4. Owner enables Canada payments in the country registry (`paymentsEnabled`) and runtime country controls.
+5. Owner decides Canadian tax (GST/HST) handling; while `EDUNANCIAL_RUNTIME_TAX_ENFORCEMENT_ENABLED=true`, Stripe checkout refuses to charge.
+6. Owner sets `EDUNANCIAL_STRIPE_CHECKOUT_ENABLED=true`.
+
+Known limits of this first version: one-time payment per period (no automatic Stripe renewal yet); discount codes are refused for CAD checkout; membership is granted only when the paid CAD amount equals the approved price exactly.
