@@ -88,6 +88,16 @@ export function normalizeLanguageCode(input: string | undefined | null): string 
   const fromBase = LANGUAGE_CATALOG.find((language) => language.code.toLowerCase().split("-")[0] === base);
   return fromBase?.code ?? DEFAULT_LANGUAGE_CODE;
 }
+/**
+ * Valid BCP 47 tag for the browser (`<html lang>`, `document.documentElement.lang`).
+ * Internal catalog codes that are not valid BCP 47 are mapped to the nearest
+ * standard tag: es-Caribbean -> es-419 (Latin American and Caribbean Spanish).
+ */
+export function toHtmlLangTag(code: string | undefined | null): string {
+  const normalized = normalizeLanguageCode(code);
+  if (normalized === "es-Caribbean") return "es-419";
+  return normalized;
+}
 /** Like normalizeLanguageCode, but never returns a publicly hidden language (falls back to the default). */
 export function normalizePublicLanguageCode(input: string | undefined | null): string {
   const normalized = normalizeLanguageCode(input);

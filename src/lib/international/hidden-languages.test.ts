@@ -8,6 +8,7 @@ import {
   isLanguageSupported,
   normalizeLanguageCode,
   normalizePublicLanguageCode,
+  toHtmlLangTag,
 } from "./languages";
 import { matchSupportedLocale, resolveLocale } from "./resolve-locale";
 
@@ -39,4 +40,11 @@ test("Every other launch language remains publicly available", () => {
     assert.equal(isLanguageSupported(code), true, code);
     assert.equal(normalizePublicLanguageCode(code), code);
   }
+});
+
+test("The browser receives a valid BCP 47 tag for Caribbean Spanish", () => {
+  assert.equal(toHtmlLangTag("es-Caribbean"), "es-419");
+  assert.equal(toHtmlLangTag("es-ES"), "es-ES");
+  assert.equal(toHtmlLangTag("pt-BR"), "pt-BR");
+  assert.deepEqual(Intl.getCanonicalLocales(toHtmlLangTag("es-Caribbean")), ["es-419"]);
 });

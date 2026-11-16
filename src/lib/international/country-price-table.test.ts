@@ -1,6 +1,6 @@
 import test from "node:test";
 import assert from "node:assert/strict";
-import { COUNTRY_PRICE_TABLE, formatCountryPrice, getDisplayCountryPrices } from "./country-price-table";
+import { COUNTRY_PRICE_TABLE, formatCountryPrice, getDisplayCountryPrices, priceFormatLocaleForCountry } from "./country-price-table";
 import { roundToCleanPrice } from "./country-pricing-formula";
 
 function prices(code: string) {
@@ -59,4 +59,22 @@ test("Clean rounding", () => {
   assert.equal(roundToCleanPrice(124.8), 119);
   assert.equal(roundToCleanPrice(1064), 1099);
   assert.equal(roundToCleanPrice(121773), 121999);
+});
+
+test("Formula country prices are formatted the way that country writes money", () => {
+  const brazil = getDisplayCountryPrices("BR");
+  assert.ok(brazil);
+  assert.equal(brazil.formatLocale.startsWith("pt-BR"), true);
+  assert.equal(formatCountryPrice(1234, brazil).replace(/\s/gu, " "), "R$ 1.234");
+
+  const germany = getDisplayCountryPrices("DE");
+  assert.ok(germany);
+  assert.equal(germany.formatLocale.startsWith("de-"), true);
+  assert.match(formatCountryPrice(12.99, germany), /12,99/u);
+});
+
+test("Countries outside the regional registry still get regional formatting, never en-US by default", () => {
+  assert.equal(priceFormatLocaleForCountry("DE").startsWith("de-DE"), true);
+  assert.equal(priceFormatLocaleForCountry("NG").startsWith("en-NG"), true);
+  assert.equal(priceFormatLocaleForCountry(""), "en-US");
 });
