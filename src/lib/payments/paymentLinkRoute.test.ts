@@ -103,3 +103,53 @@ test("payment-link route accepts square-payment-test-001, sends 100 cents, and p
   assert.equal(order.line_items[0].base_price_money.amount, 100); assert.equal(order.line_items[0].base_price_money.currency, "USD"); assert.equal(order.metadata.catalog_item_id, "square-payment-test-001"); assert.equal(order.metadata.item_type, "other"); assert.equal(order.metadata.productId, "square-payment-test-001"); assert.equal(order.metadata.purpose, "square-payment-test"); assert.equal(order.metadata.country_code, "US"); assert.equal(order.metadata.country_launch_state, "ACTIVE"); assert.equal(order.metadata.membership_plan_id, undefined); assert.ok(checkoutOptions.redirect_url.includes("/payment/success?item=square-payment-test-001&type=other"));
   assert.equal(persistedBodies.length, 1); assert.equal(persistedBodies[0].catalog_item_id, "square-payment-test-001"); assert.equal(persistedBodies[0].amount_requested, 1); assert.equal(persistedBodies[0].square_order_id, "square-order-1");
 });
+test("payment-link route asks a traveling member to confirm billing country instead of refusing outright", async () => {
+  let squareCalls = 0;
+  capturePersistence([]);
+  globalThis.fetch = countryAwareFetch(async () => {
+    squareCalls += 1;
+    return new Response(JSON.stringify({ payment_link: { id: "square-link-t", order_id: "square-order-t", url: "https://checkout.squareup.com/c/pay/travel-link" } }), { status: 200, headers: { "Content-Type": "application/json" } });
+  });
+
+  const { POST } = await import("../../app/api/square/payment-link/route.js");
+  const response = await POST(new Request("https://edunancial.com/api/square/payment-link", { method: "POST", headers: { "Content-Type": "application/json", "x-nf-country": "MX" }, body: JSON.stringify({ itemId: "membership-basic-monthly", countryCode: "US" }) }));
+  assert.equal(response.status, 409);
+  const body = (await response.json()) as Record<string, unknown>;
+  assert.equal(body.billingCountryConfirmationRequired, true);
+  assert.equal(body.selectedCountry, "US");
+  assert.equal(body.detectedCountry, "MX");
+  assert.equal(squareCalls, 0);
+});
+
+test("payment-link route uses a confirmed billing country and keeps the network country as evidence", async () => {
+  let capturedPayload: Record<string, unknown> | null = null;
+  const persistedBodies: Record<string, unknown>[] = [];
+  capturePersistence(persistedBodies);
+  globalThis.fetch = countryAwareFetch(async (_input, init) => {
+    capturedPayload = JSON.parse(String(init?.body ?? "{}")) as Record<string, unknown>;
+    return new Response(JSON.stringify({ payment_link: { id: "square-link-c", order_id: "square-order-c", url: "https://checkout.squareup.com/c/pay/confirmed-link" } }), { status: 200, headers: { "Content-Type": "application/json" } });
+  });
+
+  const { POST } = await import("../../app/api/square/payment-link/route.js");
+  const response = await POST(new Request("https://edunancial.com/api/square/payment-link", { method: "POST", headers: { "Content-Type": "application/json", "x-nf-country": "MX" }, body: JSON.stringify({ itemId: "membership-basic-monthly", countryCode: "US", billingCountryConfirmed: true }) }));
+  assert.equal(response.status, 200);
+  const order = (capturedPayload as unknown as { order: { metadata: Record<string, string> } }).order;
+  assert.equal(order.metadata.country_code, "US");
+  assert.equal(order.metadata.country_source, "billing-confirmed");
+  assert.equal(order.metadata.network_country_code, "MX");
+  assert.equal(order.metadata.billing_country_confirmed, "true");
+  const persistedMetadata = persistedBodies[0]?.metadata as Record<string, unknown>;
+  assert.equal(persistedMetadata.networkCountryCode, "MX");
+  assert.equal(persistedMetadata.billingCountryConfirmed, true);
+});
+
+test("a confirmed billing country never bypasses country payment controls", async () => {
+  let squareCalls = 0;
+  capturePersistence([]);
+  globalThis.fetch = countryAwareFetch(async () => { squareCalls += 1; return new Response("{}", { status: 200 }); });
+
+  const { POST } = await import("../../app/api/square/payment-link/route.js");
+  const response = await POST(new Request("https://edunancial.com/api/square/payment-link", { method: "POST", headers: { "Content-Type": "application/json", "x-nf-country": "US" }, body: JSON.stringify({ itemId: "membership-basic-monthly", countryCode: "IR", billingCountryConfirmed: true }) }));
+  assert.equal(response.status, 403);
+  assert.equal(squareCalls, 0);
+});

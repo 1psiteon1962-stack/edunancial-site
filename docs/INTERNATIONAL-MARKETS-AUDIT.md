@@ -76,3 +76,10 @@ Audit started 2026-11-16. Last updated 2026-11-16 against `main` at 1f14ff2a.
 1. Format formula-country prices with local conventions (`formatLocale` per country).
 2. Let a saved/account country win for market display, and confirm billing country at checkout instead of refusing on IP mismatch (Test H) — payment flow change, tested on preview with checkout still gated.
 3. Send a valid BCP 47 tag to the browser for internal codes such as `es-Caribbean`.
+
+
+## Update 2026-11-16: traveling members at checkout
+
+- Before: a member whose selected country differed from the network country (for example a US member traveling in Mexico) was refused at checkout with HTTP 409.
+- Now: the checkout asks the member to confirm their billing country. After an explicit confirmation the confirmed billing country is used; the network country is kept as evidence (`network_country_code`, `billing_country_confirmed` in Square order metadata and in the persisted checkout record).
+- Unchanged: country payment controls, approved currencies, server-side prices, Square US/CA-only restriction, tax rules and sanctions. A confirmed country that is not enabled for payment is still refused.
