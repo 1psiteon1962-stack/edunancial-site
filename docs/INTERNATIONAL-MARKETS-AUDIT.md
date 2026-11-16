@@ -38,7 +38,7 @@ Audit started 2026-11-16. Last updated 2026-11-16 against `main` at 1f14ff2a.
 | Dominican Republic owner-approved prices (DOP 399/3199, 699/5599, 999/7499), checkout disabled | UNTESTED | same file, `do-pilot-v1` |
 | All other countries priced by the owner-approved formula (2026-10-19): US price x income-group factor (1.0/0.45/0.3/0.2) x dated planning FX rate, clean rounding; sanctioned countries excluded | UNTESTED | `country-pricing-formula.ts`, `country-pricing-data.json` (as of 2026-10-19) |
 | Prices shown in the right currency but always formatted with `en-US` conventions for formula countries | GAP | `getDisplayCountryPrices` sets `formatLocale: "en-US"`. Requirement 5 asks for local symbols/separators. No owner decision needed. |
-| Canada uses a straight FX conversion (CAD 1.39 x US price) in a second, older pricing path | BLOCKED | `src/lib/location/pricing.ts`; formula exempts US/CA. Canadian prices need owner approval. |
+| Canada has approved CAD prices in the system since 2026-08-26 (US price x 1.39, rounded to .99: Basic CAD 20.99/166.99, Premium 34.99/277.99, Enterprise 55.99/416.99) | DONE | `src/lib/location/pricing.ts` (`ca-2026-q3-1.39`); formula exempts US/CA so these stay as-is. Corrected 2026-11-16: earlier draft wrongly listed these as needing approval. |
 | Prices editable by an admin without a deploy, versioned and audited | MISSING | Prices live in code/JSON; changes need a deploy. |
 
 ## 9–11. Payments, checkout, tax
@@ -50,7 +50,7 @@ Audit started 2026-11-16. Last updated 2026-11-16 against `main` at 1f14ff2a.
 | Activation by verified webhook, idempotent | UNTESTED | `src/app/api/square/webhook/route.ts`, `webhookIdempotency.ts` |
 | Checkout refuses when currency does not match the country | UNTESTED | 409 "country-specific catalog price must be configured" |
 | Checkout limited to US and CA | BLOCKED | Square is the only approved provider; other markets show prices with "purchase not yet open" |
-| Canadian checkout will fail: catalog items are USD but CA requires CAD | GAP | currency check above; needs CAD catalog items once CA prices are approved |
+| Canadian checkout will fail: catalog items are USD but CA requires CAD | GAP | currency check above; needs CAD catalog items at the existing CA prices, and a Square account able to settle CAD |
 | Tax calculation (US adapter, Canada adapter) behind env flags | PARTIAL / BLOCKED | `src/lib/tax/*`; `EDUNANCIAL_RUNTIME_TAX_ENFORCEMENT_ENABLED`, `EDUNANCIAL_SQUARE_TAX_LINE_ITEM_ENABLED`. Registration decisions needed. |
 | Square production credentials | BLOCKED | owner to supply keys |
 
@@ -66,7 +66,8 @@ Audit started 2026-11-16. Last updated 2026-11-16 against `main` at 1f14ff2a.
 
 ## Owner decisions needed (BLOCKED)
 
-- Canadian prices (today a straight FX conversion) and any other hand-set country prices.
+- Any hand-set country prices beyond the existing DO and CA prices.
+- Whether Canadian payments settle through a Canadian Square account (needed to charge CAD).
 - Payment processor for markets outside US/CA, and Square production credentials.
 - Tax registration and collection obligations by jurisdiction.
 - Approval to build and later start the 72-hour launch countdown.
