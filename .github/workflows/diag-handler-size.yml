@@ -7,7 +7,7 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        ref: [main, translate/l4-fast]
+        ref: [fix/curriculum-archive, verify/archive-plus-l4]
     steps:
       - uses: actions/checkout@v4
         with:
