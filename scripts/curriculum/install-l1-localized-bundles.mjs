@@ -18,6 +18,20 @@ if (!bundleDirs.length) process.exit(0);
 
 let bundles = 0;
 let lessons = 0;
+let preserved = 0;
+
+// Committed Git curriculum is the source of truth. Bundles only restore a
+// localized lesson file that is missing; they never overwrite one already
+// committed (an overwrite at build time made production serve stale bundle
+// text instead of the reviewed Git translation).
+function installIfMissing(path, markdown) {
+  if (existsSync(path)) {
+    preserved += 1;
+    return;
+  }
+  writeFileSync(path, markdown, "utf8");
+  lessons += 1;
+}
 
 const directoryEntries = existsSync(BUNDLE_DIR) ? readdirSync(BUNDLE_DIR).sort() : [];
 const chunkGroups = new Map();
@@ -253,8 +267,7 @@ function installRecoveryZip(filename) {
     if (!/^summary:\s*.+$/mu.test(markdown)) throw new Error(`${filename}: ${id} missing summary`);
 
     mkdirSync(destinationDir, { recursive: true });
-    writeFileSync(join(destinationDir, `${id}.${locale}.md`), markdown, "utf8");
-    lessons += 1;
+    installIfMissing(join(destinationDir, `${id}.${locale}.md`), markdown);
   }
   bundles += 1;
 }
@@ -292,8 +305,7 @@ for (const source of sources) {
       const canonicalPath = join(destinationDir, `${id}.md`);
       if (!existsSync(canonicalPath)) throw new Error(`${filename}: canonical lesson missing ${id}`);
       mkdirSync(destinationDir, { recursive: true });
-      writeFileSync(join(destinationDir, `${id}.${locale}.md`), markdown.endsWith("\n") ? markdown : `${markdown}\n`, "utf8");
-      lessons += 1;
+      installIfMissing(join(destinationDir, `${id}.${locale}.md`), markdown.endsWith("\n") ? markdown : `${markdown}\n`);
     }
     bundles += 1;
   }
@@ -303,4 +315,4 @@ for (const filename of directoryEntries.filter((name) => name.endsWith(".zip.b64
   installRecoveryZip(filename);
 }
 
-console.log(`[l1-localization] installed ${lessons} localized lesson files from ${bundles} bundles`);
+console.log(`[l1-localization] installed ${lessons} missing localized lesson files from ${bundles} bundles; preserved ${preserved} committed files`);
