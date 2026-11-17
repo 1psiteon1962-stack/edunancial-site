@@ -4,7 +4,7 @@ track: BLACK
 officialTrackName: "Leadership & Executive Management"
 level: 4
 lessonNumber: 29
-title: "Analisi della gestione degli stakeholder: perché i leader devono bilanciare interessi legittimi davvero in competenza tra loro"
+title: "Analisi della gestione degli stakeholder: perché i leader devono bilanciare interessi legittimi davvero in competizione tra loro"
 summary: "Comprendere perché un leader si trova spesso di fronte a interessi legittimi davvero in competizione tra i diversi stakeholder di un'organizzazione, e perché una buona gestione degli stakeholder richiede decisioni di compromesso trasparenti e fondate su principi, invece di fingere che questi interessi in competizione non esistano davvero."
 version: "1.0"
 author: "Edunancial Faculty"
@@ -12,7 +12,7 @@ date: "2026-10-19"
 locale: "it"
 source_locale: "en-US"
 ---
-# BLACK-L4-029: Analisi della gestione degli stakeholder: perché i leader devono bilanciare interessi legittimi davvero in competenza tra loro
+# BLACK-L4-029: Analisi della gestione degli stakeholder: perché i leader devono bilanciare interessi legittimi davvero in competizione tra loro
 
 ## Scenario di apertura
 IPOTESI/OPINIONE (scenario ipotetico solo a fini didattici): Immagini che un grande blocco commerciale imponga all'improvviso dazi elevati su un'ampia categoria di manufatti importati, facendo aumentare i costi per le imprese che dipendono da quelle importazioni come fattori produttivi. Mentre i dazi creano una tensione reale tra priorità organizzative in competizione — proteggere il rendimento per gli azionisti, mantenere le retribuzioni dei dipendenti e gestire i prezzi per i clienti —, i leader scoprono che questi interessi legittimi degli stakeholder, davvero in competizione tra loro, non possono essere tutti soddisfatti contemporaneamente e per intero, il che richiede decisioni di compromesso oneste e fondate su principi, invece di fingere che la tensione non esista davvero.
