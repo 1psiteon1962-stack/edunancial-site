@@ -55,7 +55,7 @@ D) Os cronogramas de vesting só servem para relatórios financeiros e não afet
 **P4. O que acontece com o pacote de ações de um funcionário que sai antes de chegar ao cliff de um ano?**
 A) Ele fica com o pacote inteiro, não importa quando saia
 B) Normalmente ele perde todo o pacote, porque não conquistou nada
-C) Ele recebe o dobro do pacote original como bônus de saída
+C) Ele recebe o dobro do pacote original como bónus de saída
 D) O cliff não afeta o que acontece em caso de saída antecipada
 
 **P5. No exemplo, por que o funcionário que saiu depois de 18 meses tinha só cerca de 13.750 opções conquistadas, e não o pacote todo de 40.000?**

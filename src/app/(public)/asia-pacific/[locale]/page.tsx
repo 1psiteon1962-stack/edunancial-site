@@ -3,8 +3,6 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { APAC_LOCALES, APAC_LOCALE_CONFIG, getApacHreflangAlternates } from "@/config/asia-pacific/index";
 import { getApacCountry } from "@/config/asia-pacific/countries";
-import { getApacPricing } from "@/config/asia-pacific/pricing";
-import { formatCurrency } from "@/lib/currencyEngine";
 import ApacLanguageSelector from "@/components/asia-pacific/LanguageSelector";
 
 type ApacLocale = (typeof APAC_LOCALES)[number];
@@ -70,7 +68,6 @@ export default async function ApacLocalePage({ params }: PageProps) {
   }
 
   const primaryMarketCountry = getApacCountry(localeConfig.primaryMarkets[0]);
-  const pricing = getApacPricing(localeConfig.defaultCurrency);
 
   const headings: Record<ApacLocale, { h1: string; subtitle: string }> = {
     en: {
@@ -141,25 +138,11 @@ export default async function ApacLocalePage({ params }: PageProps) {
            locale === "zh-Hans" ? "价格方案" :
            locale === "zh-Hant" ? "定價方案" :
            locale === "hi" ? "मूल्य योजनाएं" :
-           "Pricing Plans"} — {localeConfig.defaultCurrency}
+           "Pricing Plans"}
         </h2>
-        <div className="mt-8 grid gap-6 md:grid-cols-3">
-          {pricing.products.map((product) => (
-            <div
-              key={product.sku}
-              className="rounded-2xl border border-white/10 bg-slate-900 p-6"
-            >
-              <p className="text-lg font-bold text-white">{product.label}</p>
-              <p className="mt-2 text-3xl font-black text-yellow-400">
-                {formatCurrency(product.price, pricing.currency)}
-                <span className="ml-1 text-base font-normal text-slate-400">/mo</span>
-              </p>
-              {product.description && (
-                <p className="mt-3 text-slate-300">{product.description}</p>
-              )}
-            </div>
-          ))}
-        </div>
+        <p className="mt-8 text-slate-300">
+          Pricing for this region will be published when the region opens.
+        </p>
       </section>
 
       {primaryMarketCountry && (

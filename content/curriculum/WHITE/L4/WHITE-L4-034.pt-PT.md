@@ -5,7 +5,7 @@ officialTrackName: "Paper Assets"
 level: 4
 lessonNumber: 34
 title: "Análise do risco de liquidez: por que alguns ativos custam mais para vender rapidamente"
-summary: "Entenda o que significa risco de liquidez, por que ativos menos líquidos costumam oferecer um prêmio de retorno e por que a liquidez pode desaparecer de repente em momentos de estresse no mercado."
+summary: "Entenda o que significa risco de liquidez, por que ativos menos líquidos costumam oferecer um prémio de retorno e por que a liquidez pode desaparecer de repente em momentos de estresse no mercado."
 version: "1.0"
 author: "Edunancial Faculty"
 date: "2026-10-11"
@@ -20,13 +20,13 @@ SUPOSIÇÃO/OPINIÃO (cenário hipotético apenas para fins didáticos): imagine
 ## Objetivos de aprendizagem
 - Explicar o que o risco de liquidez significa para um investimento.
 - Explicar o conceito de spread entre compra e venda (bid-ask) como medida de liquidez.
-- Explicar por que ativos menos líquidos costumam oferecer um prêmio de retorno em relação a alternativas mais líquidas.
+- Explicar por que ativos menos líquidos costumam oferecer um prémio de retorno em relação a alternativas mais líquidas.
 - Explicar por que a liquidez pode cair bruscamente em períodos de estresse no mercado.
 
 ## Conteúdo principal
 O risco de liquidez é o risco de um investidor não conseguir vender um ativo rapidamente sem aceitar um desconto significativo em relação ao seu valor observado recentemente ou teórico. VERIFIED FACT: uma medida comum e observável de liquidez é o spread entre compra e venda (bid-ask) — a diferença entre o maior preço que um comprador está disposto a pagar no momento (a oferta de compra, ou bid) e o menor preço que um vendedor está disposto a aceitar no momento (a oferta de venda, ou ask) —, em que um spread estreito indica alta liquidez (muitos compradores e vendedores ativos) e um spread largo indica liquidez menor (menos participantes ativos, exigindo uma concessão de preço maior para concluir uma operação rapidamente).
 
-Eis o "porquê" de os ativos menos líquidos costumarem oferecer alguma forma de prêmio de retorno em relação a alternativas mais líquidas, mantidas as demais condições: os investidores geralmente exigem uma compensação adicional para aceitar o risco de não conseguir sair de uma posição rapidamente, ou sem uma concessão de preço relevante, se precisarem ou quiserem vender — isso às vezes é chamado de prêmio de iliquidez, conceitualmente relacionado à discussão sobre a iliquidez dos imóveis vista anteriormente neste currículo, já que ambos refletem o mesmo princípio de fundo: imobilizar capital num ativo mais difícil de vender tem um custo real, pelo qual o mercado oferece compensação.
+Eis o "porquê" de os ativos menos líquidos costumarem oferecer alguma forma de prémio de retorno em relação a alternativas mais líquidas, mantidas as demais condições: os investidores geralmente exigem uma compensação adicional para aceitar o risco de não conseguir sair de uma posição rapidamente, ou sem uma concessão de preço relevante, se precisarem ou quiserem vender — isso às vezes é chamado de prémio de iliquidez, conceitualmente relacionado à discussão sobre a iliquidez dos imóveis vista anteriormente neste currículo, já que ambos refletem o mesmo princípio de fundo: imobilizar capital num ativo mais difícil de vender tem um custo real, pelo qual o mercado oferece compensação.
 
 É por isso que a liquidez não é uma característica fixa e permanente de um ativo — ela pode cair de forma brusca e repentina em períodos de estresse no mercado, como descrito no cenário acima: durante um pânico sistêmico, muitos participantes do mercado que normalmente atuariam como compradores ficam relutantes ou impossibilitados de fazê-lo ao mesmo tempo, o que faz os spreads entre compra e venda se alargarem drasticamente e torna até ativos normalmente líquidos temporariamente muito mais difíceis de vender sem uma concessão de preço significativa. É por isso que a experiência habitual de um investidor com a liquidez de um ativo em mercados calmos pode ser um mau guia para como esse mesmo ativo se comportará durante uma crise real, justamente quando a capacidade de vender rapidamente pode importar mais.
 
@@ -46,7 +46,7 @@ B) A diferença entre o maior preço que um comprador pagaria no momento e o men
 C) A data exata de vencimento de um título
 D) O dividend yield de uma ação
 
-**P3. Por que ativos menos líquidos costumam oferecer um prêmio de retorno em relação a alternativas mais líquidas?**
+**P3. Por que ativos menos líquidos costumam oferecer um prémio de retorno em relação a alternativas mais líquidas?**
 A) Ativos ilíquidos sempre valem, por natureza, mais do que ativos líquidos
 B) Os investidores geralmente exigem uma compensação adicional para aceitar o risco de não conseguir sair de uma posição rapidamente ou sem uma concessão de preço relevante
 C) A liquidez não tem nenhuma relação com os retornos esperados de um investimento
@@ -76,7 +76,7 @@ P5: B
 
 **P2.** Um spread mais estreito sinaliza negociação mais ativa e liquidez maior, enquanto um spread mais largo sinaliza o contrário.
 
-**P3.** Esse prêmio de iliquidez compensa os investidores pelo risco e pelo inconveniente adicionais de manter um ativo mais difícil de vender.
+**P3.** Esse prémio de iliquidez compensa os investidores pelo risco e pelo inconveniente adicionais de manter um ativo mais difícil de vender.
 
 **P4.** Uma retração ampla e simultânea dos compradores durante uma crise pode reduzir de forma rápida e significativa a liquidez normal de negociação de um ativo.
 
@@ -85,5 +85,5 @@ P5: B
 ## Pontos-chave
 - O risco de liquidez é o risco de não conseguir vender um ativo rapidamente sem um desconto de preço significativo.
 - O spread entre compra e venda é uma medida comum e observável da liquidez atual de um ativo.
-- Ativos menos líquidos costumam oferecer um prêmio de retorno para compensar os investidores por esse risco adicional.
+- Ativos menos líquidos costumam oferecer um prémio de retorno para compensar os investidores por esse risco adicional.
 - A liquidez pode cair bruscamente em momentos de estresse no mercado, de modo que o comportamento normal de negociação de um ativo é um mau guia para o seu comportamento num período de crise.

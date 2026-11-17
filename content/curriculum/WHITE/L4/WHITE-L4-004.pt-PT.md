@@ -15,7 +15,7 @@ source_locale: "en-US"
 # WHITE-L4-004: Análise da curva de juros: por que as inversões sinalizam risco de recessão
 
 ## Cenário de abertura
-SUPOSIÇÃO/OPINIÃO (cenário hipotético apenas para fins didáticos): Imagine um banco central que eleva sua taxa básica de juros de forma forte e repetida ao longo de poucos meses para combater a inflação em alta. À medida que as taxas de curto prazo sobem rapidamente enquanto as taxas de longo prazo ficam para trás, a mídia financeira começa a falar em "inversão da curva de juros". Esta lição explica o que essa expressão realmente significa e por que os analistas a levam a sério.
+SUPOSIÇÃO/OPINIÃO (cenário hipotético apenas para fins didáticos): Imagine um banco central que eleva sua taxa básica de juros de forma forte e repetida ao longo de poucos meses para combater a inflação em alta. À medida que as taxas de curto prazo sobem rapidamente enquanto as taxas de longo prazo ficam para trás, a imprensa financeira começa a falar em "inversão da curva de juros". Esta lição explica o que essa expressão realmente significa e por que os analistas a levam a sério.
 
 ## Objetivos de aprendizagem
 - Explicar o que a curva de juros representa.
@@ -84,6 +84,6 @@ P5: B
 
 ## Pontos-chave
 - A curva de juros mostra as taxas de juro ao longo de diferentes vencimentos para títulos de qualidade de crédito semelhante.
-- Uma curva de juros normal é inclinada para cima, refletindo um prêmio exigido pela incerteza de longo prazo.
+- Uma curva de juros normal é inclinada para cima, refletindo um prémio exigido pela incerteza de longo prazo.
 - Uma curva de juros invertida reflete as expectativas do mercado de futuros cortes de juros ligados a uma fraqueza económica prevista.
 - A inversão da curva de juros tem forte associação histórica com recessões, mas é um sinal imperfeito e probabilístico, e não um marcador preciso de tempo.
