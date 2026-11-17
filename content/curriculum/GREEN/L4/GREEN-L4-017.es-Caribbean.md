@@ -57,8 +57,8 @@ C) La AMT se diseñó exclusivamente para gravar el ingreso de fuentes extranjer
 D) Para eliminar la necesidad de que los contribuyentes calculen su contribución regular
 
 **Q3. ¿Qué son las "partidas de preferencia contributiva" en el contexto del cálculo de la AMT?**
-A) Deducciones y ajustes que se permiten bajo el sistema regular pero que se tratan de otra forma, o se vuelven a sumar, en el cálculo paralelo de la AMT
-B) Las partidas de preferencia contributiva se refieren exclusivamente a los donativos caritativos, sin ninguna otra categoría
+A) Las partidas de preferencia contributiva se refieren exclusivamente a los donativos caritativos, sin ninguna otra categoría
+B) Deducciones y ajustes que se permiten bajo el sistema regular pero que se tratan de otra forma, o se vuelven a sumar, en el cálculo paralelo de la AMT
 C) Estas partidas no tienen ninguna relación real con cómo se calcula la AMT
 D) Las partidas de preferencia contributiva siempre reducen, en lugar de aumentar, la AMT de un contribuyente
 

@@ -57,8 +57,8 @@ C) L’AMT a été conçu exclusivement pour imposer le revenu de source étrang
 D) Éliminer le besoin pour les contribuables de calculer leur impôt ordinaire
 
 **Q3. Que sont les « éléments de préférence fiscale » dans le contexte du calcul de l’AMT?**
-A) Des déductions et des ajustements permis dans le régime ordinaire, mais traités autrement ou rajoutés dans le calcul parallèle de l’AMT
-B) Les éléments de préférence fiscale désignent exclusivement les dons de bienfaisance, sans aucune autre catégorie
+A) Les éléments de préférence fiscale désignent exclusivement les dons de bienfaisance, sans aucune autre catégorie
+B) Des déductions et des ajustements permis dans le régime ordinaire, mais traités autrement ou rajoutés dans le calcul parallèle de l’AMT
 C) Ces éléments n’ont aucun lien réel avec le calcul de l’AMT
 D) Les éléments de préférence fiscale réduisent toujours, plutôt qu’ils n’augmentent, l’AMT d’un contribuable
 
