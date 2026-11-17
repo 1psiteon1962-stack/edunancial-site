@@ -35,7 +35,7 @@ ILLUSTRATIVE EXAMPLE: Um comprador que está a adquirir uma loja especializada l
 
 ## Teste de prática
 **P1. O que é uma cláusula de não concorrência no contexto da venda de um negócio?**
-A) Uma cláusula que obriga o comprador a pagar ao vendedor um bônus adicional depois do fecho do negócio
+A) Uma cláusula que obriga o comprador a pagar ao vendedor um bónus adicional depois do fecho do negócio
 B) Uma cláusula contratual que proíbe o vendedor de abrir, administrar ou trabalhar para um negócio concorrente direto numa área geográfica e por um período determinados depois da venda
 C) Um acordo que não tem relação com a proteção do valor de um negócio que está a ser comprado
 D) Uma cláusula usada só em contratos de trabalho, nunca em operações de venda de negócios

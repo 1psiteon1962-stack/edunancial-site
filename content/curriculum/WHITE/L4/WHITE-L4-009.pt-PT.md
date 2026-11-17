@@ -61,7 +61,7 @@ D) Ele não tem nenhum benefício comportamental além do efeito matemático
 **P5. No exemplo, por que as unidades de participação compradas durante a queda do mercado contribuíram de forma desproporcional para os ganhos finais do investidor?**
 A) Essas unidades de participação foram compradas a um preço menor, então a mesma recuperação posterior produziu um ganho percentual maior justamente sobre elas
 B) Cotas compradas durante uma queda sempre valem menos, mesmo depois de uma recuperação
-C) O investidor recebeu um bônus por investir durante uma queda
+C) O investidor recebeu um bónus por investir durante uma queda
 D) O investimento periódico não tem efeito sobre quais unidades de participação têm o melhor desempenho
 
 ## Chave de Respostas

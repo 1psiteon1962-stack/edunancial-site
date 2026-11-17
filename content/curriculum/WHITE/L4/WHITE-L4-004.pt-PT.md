@@ -84,6 +84,6 @@ P5: B
 
 ## Pontos-chave
 - A curva de juros mostra as taxas de juro ao longo de diferentes vencimentos para títulos de qualidade de crédito semelhante.
-- Uma curva de juros normal é inclinada para cima, refletindo um prêmio exigido pela incerteza de longo prazo.
+- Uma curva de juros normal é inclinada para cima, refletindo um prémio exigido pela incerteza de longo prazo.
 - Uma curva de juros invertida reflete as expectativas do mercado de futuros cortes de juros ligados a uma fraqueza económica prevista.
 - A inversão da curva de juros tem forte associação histórica com recessões, mas é um sinal imperfeito e probabilístico, e não um marcador preciso de tempo.
