@@ -49,7 +49,7 @@ D) As corretoras absorvem automaticamente todas as perdas das posições com mar
 **P3. O que é uma chamada de margem (margin call)?**
 A) Um telefonema de um corretor oferecendo conselhos de investimento
 B) Uma exigência de depositar recursos adicionais, sob pena de venda forçada das posições, quando o valor da garantia da conta cai abaixo de um nível mínimo exigido
-C) Um bônus garantido por operações com margem bem-sucedidas
+C) Um bónus garantido por operações com margem bem-sucedidas
 D) Um formulário de imposto relacionado às contas de margem
 
 **P4. Por que uma chamada de margem pode ser especialmente prejudicial durante uma queda acentuada do mercado?**

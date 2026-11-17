@@ -1,4 +1,5 @@
 import { NextResponse } from "next/server";
+import { squareTimeoutSignal } from "@/lib/payments/square-timeout";
 
 import { requireAdminApiSession } from "@/lib/admin-content/auth";
 import { squareConfig, validateSquareConfig } from "@/lib/square";
@@ -86,6 +87,7 @@ export async function POST(request: Request) {
         },
         reason: reason ?? "Admin-initiated refund",
       }),
+      signal: squareTimeoutSignal(),
     });
 
     const squareData = (await squareResponse.json()) as SquareRefundResponse;

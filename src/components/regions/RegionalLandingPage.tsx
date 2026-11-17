@@ -99,21 +99,9 @@ export default function RegionalLandingPage({
 
           <div className="rounded-2xl border border-white/10 bg-slate-900 p-8">
             <h2 className="text-3xl font-black text-white">Regional pricing</h2>
-            <div className="mt-6 space-y-4">
-              {region.pricing.products.map((product) => (
-                <div
-                  key={product.sku}
-                  className="rounded-xl border border-white/10 bg-slate-950/70 p-4"
-                >
-                  <p className="text-lg font-bold text-white">
-                    {product.label} — {region.pricing.currency} {product.price}
-                  </p>
-                  <p className="mt-2 text-sm text-slate-300">
-                    {product.description}
-                  </p>
-                </div>
-              ))}
-            </div>
+            <p className="mt-6 text-slate-300">
+              Pricing for this region will be published when the region opens.
+            </p>
           </div>
         </div>
 

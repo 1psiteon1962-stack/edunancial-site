@@ -1,3 +1,4 @@
+import { squareTimeoutSignal } from "@/lib/payments/square-timeout";
 import { applyAuthoritativeMembershipEntitlement } from "@/lib/member/entitlements";
 import { squareConfig } from "@/lib/square";
 
@@ -24,6 +25,7 @@ export async function fulfillSquareMembershipPayment(payment: SquareCompletedPay
       Authorization: `Bearer ${squareConfig.accessToken}`,
       "Square-Version": "2026-07-15",
     },
+    signal: squareTimeoutSignal(),
   });
   if (!response.ok) throw new Error(`Unable to retrieve Square order ${payment.order_id}.`);
 

@@ -4,6 +4,7 @@ import { getAdminContentStorage } from "@/lib/admin-content/storage";
 import { unstable_cache } from "next/cache";
 
 import { getPublishedCourses } from "@/lib/curriculum/authoritative-published";
+import { catalogSnapshotKey } from "@/lib/curriculum/catalog-snapshot-key";
 import { resolveRequestLanguage } from "@/lib/international/server";
 
 export const dynamic = "force-dynamic";
@@ -29,7 +30,7 @@ export async function GET(request: Request) {
 
   // Persistent public-only catalog snapshots survive serverless cold starts.
   // A fresh snapshot avoids rebuilding thousands of lesson records per request.
-  const snapshotKey = `published/catalog-snapshots/v1/${encodeURIComponent(language)}.json`;
+  const snapshotKey = catalogSnapshotKey(language);
   const stored = await getAdminContentStorage().readBinary(snapshotKey).catch(() => null);
   type CatalogSnapshot = { builtAt: number; data: Awaited<ReturnType<typeof buildCatalog>> };
   let snapshot: CatalogSnapshot | null = null;
