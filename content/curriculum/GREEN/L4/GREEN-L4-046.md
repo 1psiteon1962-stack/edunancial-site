@@ -42,8 +42,8 @@ ILLUSTRATIVE EXAMPLE: An investor wants to realize a tax loss on a specific tech
 
 ## Practice Quiz
 **Q1. What does the wash sale rule generally disallow?**
-A) Claiming a tax loss on the sale of a security if the taxpayer purchases the same or a substantially identical security within 30 days before or after the sale
-B) The wash sale rule disallows any and all investment gains, regardless of any repurchase activity
+A) The wash sale rule disallows any and all investment gains, regardless of any repurchase activity
+B) Claiming a tax loss on the sale of a security if the taxpayer purchases the same or a substantially identical security within 30 days before or after the sale
 C) This rule only applies to real estate transactions, never to securities
 D) The wash sale rule has no relationship to the timing of any repurchase transaction
 
