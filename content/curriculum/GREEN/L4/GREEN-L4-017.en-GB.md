@@ -56,8 +56,8 @@ C) The AMT was designed exclusively to tax income from foreign sources
 D) To eliminate the need for taxpayers to ever calculate their regular income tax liability
 
 **Q3. What are 'tax preference items' in the context of the AMT calculation?**
-A) Deductions and adjustments allowed under the regular tax system but treated differently, or added back, under the parallel AMT calculation
-B) Tax preference items refer exclusively to charitable contributions, with no other category included
+A) Tax preference items refer exclusively to charitable contributions, with no other category included
+B) Deductions and adjustments allowed under the regular tax system but treated differently, or added back, under the parallel AMT calculation
 C) These items have no actual relationship to how the AMT is calculated
 D) Tax preference items always reduce, rather than increase, a taxpayer's AMT liability
 
