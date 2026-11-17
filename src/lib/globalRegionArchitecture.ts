@@ -1,12 +1,3 @@
-import type { Pricing } from "@/lib/pricing/types";
-import { AFRICA_PRICING } from "@/lib/pricing/africa";
-import { ASIA_PRICING } from "@/lib/pricing/asia";
-import { CARIBBEAN_PRICING } from "@/lib/pricing/caribbean";
-import { EUROPE_PRICING } from "@/lib/pricing/europe";
-import { LATAM_PRICING } from "@/lib/pricing/latam";
-import { MENA_PRICING } from "@/lib/pricing/mena";
-import { OCEANIA_PRICING } from "@/lib/pricing/oceania";
-import { US_PRICING } from "@/lib/pricing/us";
 
 export const REGION_SECTION_SLUGS = [
   "legal",
@@ -43,7 +34,6 @@ export type GlobalRegionArchitecture = {
   locale: string;
   timezone: string;
   securityModel: string;
-  pricing: Pricing;
   pricingKey: string;
   analyticsKey: string;
   curriculumUploadPath: string;
@@ -66,7 +56,6 @@ const REGION_ARCHITECTURE: readonly GlobalRegionArchitecture[] = [
     locale: "en-US",
     timezone: "America/New_York",
     securityModel: "North America shared privacy and payment controls.",
-    pricing: US_PRICING,
     pricingKey: "us",
     analyticsKey: "north-america",
     curriculumUploadPath: "curriculum/staging/regions/north-america",
@@ -92,7 +81,6 @@ const REGION_ARCHITECTURE: readonly GlobalRegionArchitecture[] = [
     locale: "en-GB",
     timezone: "Europe/Paris",
     securityModel: "Europe regional controls aligned to GDPR-first operations.",
-    pricing: EUROPE_PRICING,
     pricingKey: "europe",
     analyticsKey: "europe-2a",
     curriculumUploadPath: "curriculum/staging/regions/europe-2a",
@@ -119,7 +107,6 @@ const REGION_ARCHITECTURE: readonly GlobalRegionArchitecture[] = [
     locale: "en-GB",
     timezone: "Europe/Warsaw",
     securityModel: "Europe regional controls aligned to GDPR-first operations.",
-    pricing: EUROPE_PRICING,
     pricingKey: "europe",
     analyticsKey: "europe-2b",
     curriculumUploadPath: "curriculum/staging/regions/europe-2b",
@@ -147,7 +134,6 @@ const REGION_ARCHITECTURE: readonly GlobalRegionArchitecture[] = [
     timezone: "America/Mexico_City",
     securityModel:
       "Latin America shared routing with localized pricing and operational controls.",
-    pricing: LATAM_PRICING,
     pricingKey: "latam",
     analyticsKey: "latin-america-2a",
     curriculumUploadPath: "curriculum/staging/regions/latin-america-2a",
@@ -175,7 +161,6 @@ const REGION_ARCHITECTURE: readonly GlobalRegionArchitecture[] = [
     timezone: "America/Sao_Paulo",
     securityModel:
       "Latin America shared routing with localized pricing and operational controls.",
-    pricing: LATAM_PRICING,
     pricingKey: "latam",
     analyticsKey: "latin-america-2b",
     curriculumUploadPath: "curriculum/staging/regions/latin-america-2b",
@@ -201,7 +186,6 @@ const REGION_ARCHITECTURE: readonly GlobalRegionArchitecture[] = [
     locale: "en-029",
     timezone: "America/Santo_Domingo",
     securityModel: "Caribbean routing follows the shared Edunancial privacy model.",
-    pricing: CARIBBEAN_PRICING,
     pricingKey: "caribbean",
     analyticsKey: "caribbean",
     curriculumUploadPath: "curriculum/staging/regions/caribbean",
@@ -228,7 +212,6 @@ const REGION_ARCHITECTURE: readonly GlobalRegionArchitecture[] = [
     timezone: "Africa/Johannesburg",
     securityModel:
       "Africa routing uses the shared Edunancial legal and security controls.",
-    pricing: AFRICA_PRICING,
     pricingKey: "africa",
     analyticsKey: "africa",
     curriculumUploadPath: "curriculum/staging/regions/africa",
@@ -255,7 +238,6 @@ const REGION_ARCHITECTURE: readonly GlobalRegionArchitecture[] = [
     timezone: "Asia/Riyadh",
     securityModel:
       "Middle East routing follows shared privacy, legal, and operational controls.",
-    pricing: MENA_PRICING,
     pricingKey: "mena",
     analyticsKey: "middle-east",
     curriculumUploadPath: "curriculum/staging/regions/middle-east",
@@ -311,7 +293,6 @@ const REGION_ARCHITECTURE: readonly GlobalRegionArchitecture[] = [
     locale: "en-SG",
     timezone: "Asia/Singapore",
     securityModel: "Asia routing follows the shared Edunancial security baseline.",
-    pricing: ASIA_PRICING,
     pricingKey: "asia",
     analyticsKey: "asia",
     curriculumUploadPath: "curriculum/staging/regions/asia",
@@ -339,7 +320,6 @@ const REGION_ARCHITECTURE: readonly GlobalRegionArchitecture[] = [
     timezone: "Australia/Sydney",
     securityModel:
       "Oceania routing follows the shared Edunancial legal and privacy baseline.",
-    pricing: OCEANIA_PRICING,
     pricingKey: "oceania",
     analyticsKey: "oceania",
     curriculumUploadPath: "curriculum/staging/regions/oceania",

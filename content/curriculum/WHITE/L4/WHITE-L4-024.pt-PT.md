@@ -15,7 +15,7 @@ source_locale: "en-US"
 # WHITE-L4-024: Análise das contas de reforma: por que a escolha entre Traditional e Roth depende das hipóteses sobre as alíquotas de imposto
 
 ## Cenário de abertura
-SUPOSIÇÃO/OPINIÃO (cenário hipotético apenas para fins didáticos): Imagine um banco central que eleva sua taxa básica de juros de forma forte e repetida ao longo de poucos meses para combater a inflação em alta. Enquanto um banco central combate a inflação com juros bem mais altos, alguns analistas alertam que as alíquotas de imposto do governo talvez precisem subir no futuro para administrar o custo crescente do serviço da dívida. Esta lição examina por que uma hipótese macroeconômica desse tipo pesa diretamente sobre uma decisão bem pessoal a respeito da conta de reforma.
+SUPOSIÇÃO/OPINIÃO (cenário hipotético apenas para fins didáticos): Imagine um banco central que eleva sua taxa básica de juros de forma forte e repetida ao longo de poucos meses para combater a inflação em alta. Enquanto um banco central combate a inflação com juros bem mais altos, alguns analistas alertam que as alíquotas de imposto do governo talvez precisem subir no futuro para administrar o custo crescente do serviço da dívida. Esta lição examina por que uma hipótese macroeconómica desse tipo pesa diretamente sobre uma decisão bem pessoal a respeito da conta de reforma.
 
 ## Objetivos de aprendizagem
 - Explicar a diferença fundamental de tratamento tributário entre uma conta de reforma Traditional e uma conta Roth.

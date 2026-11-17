@@ -28,7 +28,7 @@ A hipótese do mercado eficiente (Efficient Market Hypothesis, HME) afirma que o
 
 Eis o "porquê" de isso se ligar diretamente ao ajuste súbito e rápido dos preços descrito no cenário acima: se uma grande perturbação se torna de conhecimento público e um grande número de participantes do mercado analisa ao mesmo tempo as suas consequências, com forte incentivo financeiro para agir rápido, os preços deveriam se ajustar rapidamente à nova informação, deixando pouca oportunidade para um investidor comum lucrar analisando depois essa mesma informação, agora amplamente disponível. Esse processo de ajuste rápido é um exemplo real da forma semiforte de eficiência do mercado em ação.
 
-É por isso que a HME, retomando a análise dos fundos de índice da Lição 18, oferece boa parte da base teórica para explicar por que o investimento passivo teve desempenho competitivo em relação à gestão ativa em longos períodos: se os mercados são em grande parte eficientes, o esforço e o custo da análise ativa de títulos enfrentam uma barreira muito alta para serem superados de forma consistente. OPINION e crítica importante: a HME enfrentou desafios acadêmicos e práticos consideráveis, incluindo a existência de bolhas e quebras de mercado documentadas que parecem difíceis de conciliar com uma formação de preços puramente racional, e alguns investidores ativos bem-sucedidos no longo prazo registraram históricos que, segundo alguns pesquisadores, são difíceis de explicar totalmente apenas pelo acaso. Isso significa que a HME é mais bem entendida como uma estrutura muito influente, bem sustentada por evidências e com real poder de previsão, e não como uma lei absoluta e universalmente aceita, sem debate legítimo.
+É por isso que a HME, retomando a análise dos fundos de índice da Lição 18, oferece boa parte da base teórica para explicar por que o investimento passivo teve desempenho competitivo em relação à gestão ativa em longos períodos: se os mercados são em grande parte eficientes, o esforço e o custo da análise ativa de títulos enfrentam uma barreira muito alta para serem superados de forma consistente. OPINION e crítica importante: a HME enfrentou desafios académicos e práticos consideráveis, incluindo a existência de bolhas e quebras de mercado documentadas que parecem difíceis de conciliar com uma formação de preços puramente racional, e alguns investidores ativos bem-sucedidos no longo prazo registraram históricos que, segundo alguns pesquisadores, são difíceis de explicar totalmente apenas pelo acaso. Isso significa que a HME é mais bem entendida como uma estrutura muito influente, bem sustentada por evidências e com real poder de previsão, e não como uma lei absoluta e universalmente aceita, sem debate legítimo.
 
 ## Exemplo prático
 ILLUSTRATIVE EXAMPLE: Poucos minutos depois do anúncio público de uma grande perturbação, os preços das ações das empresas com exposição significativa a essa perturbação se movem de forma acentuada para refletir a nova realidade, antes mesmo que a maioria dos investidores individuais tenha tempo de pesquisar a fundo as consequências. Um investidor individual que lê a notícia e tenta negociar com base nessa mesma informação pública uma hora depois descobre que os preços já se ajustaram em grande parte, o que ilustra a dificuldade prática de lucrar com informações públicas que um mercado grande e com muitos recursos já incorporou rapidamente.
@@ -59,10 +59,10 @@ C) A HME não tem nenhuma relação com o debate entre investimento ativo e pass
 D) A HME prova que a gestão ativa sempre tem desempenho superior ao da gestão passiva
 
 **P5. Qual é uma crítica legítima à hipótese do mercado eficiente?**
-A) A HME nunca enfrentou nenhum desafio acadêmico ou prático de qualquer tipo
+A) A HME nunca enfrentou nenhum desafio académico ou prático de qualquer tipo
 B) Bolhas e quebras de mercado documentadas, junto com alguns investidores ativos bem-sucedidos no longo prazo, representam desafios que, segundo alguns pesquisadores, são difíceis de conciliar totalmente com a eficiência pura do mercado
 C) A HME foi refutada de forma universal e completa e não tem mais nenhum apoio
-D) Não existem críticas legítimas à HME na literatura acadêmica
+D) Não existem críticas legítimas à HME na literatura académica
 
 ## Chave de Respostas
 P1: B

@@ -59,4 +59,55 @@ export const priorityExpansionCountries: CountryConfiguration[] = [
   planningCountry("IT", "Italy", "Europe", "EUR", "Italian"),
   planningCountry("NL", "Netherlands", "Europe", "EUR", "Dutch"),
   planningCountry("PT", "Portugal", "Europe", "EUR", "Portuguese"),
+
+  // Western Europe (owner-approved wave 4, 2026-11-17)
+  planningCountry("IE", "Ireland", "Europe", "EUR", "English"),
+  planningCountry("BE", "Belgium", "Europe", "EUR", "Dutch"),
+  planningCountry("LU", "Luxembourg", "Europe", "EUR", "French"),
+  planningCountry("MT", "Malta", "Europe", "EUR", "English"),
+  planningCountry("AT", "Austria", "Europe", "EUR", "German"),
+  planningCountry("CH", "Switzerland", "Europe", "CHF", "German"),
+  planningCountry("DK", "Denmark", "Europe", "DKK", "Danish"),
+  planningCountry("SE", "Sweden", "Europe", "SEK", "Swedish"),
+  planningCountry("NO", "Norway", "Europe", "NOK", "Norwegian"),
+  planningCountry("FI", "Finland", "Europe", "EUR", "Finnish"),
+  planningCountry("IS", "Iceland", "Europe", "ISK", "Icelandic"),
+  planningCountry("LI", "Liechtenstein", "Europe", "CHF", "German"),
+  planningCountry("MC", "Monaco", "Europe", "EUR", "French"),
+  planningCountry("AD", "Andorra", "Europe", "EUR", "Catalan"),
+  planningCountry("SM", "San Marino", "Europe", "EUR", "Italian"),
+
+  // Central Europe (owner-approved wave 4)
+  planningCountry("HU", "Hungary", "Europe", "HUF", "Hungarian"),
+  planningCountry("SI", "Slovenia", "Europe", "EUR", "Slovenian"),
+
+  // Middle East (owner-approved wave 4)
+  planningCountry("TR", "Turkey", "Middle East", "TRY", "Turkish"),
+
+  // Asia, fiscally sound (owner-approved wave 4)
+  planningCountry("TW", "Taiwan", "Asia", "TWD", "Chinese"),
+  planningCountry("HK", "Hong Kong", "Asia", "HKD", "Chinese"),
+  planningCountry("BN", "Brunei", "Asia", "BND", "Malay"),
+
+  // Eastern Europe (owner-approved wave 5)
+  planningCountry("HR", "Croatia", "Europe", "EUR", "Croatian"),
+  planningCountry("GR", "Greece", "Europe", "EUR", "Greek"),
+  planningCountry("CY", "Cyprus", "Europe", "EUR", "Greek"),
+  planningCountry("RS", "Serbia", "Europe", "RSD", "Serbian"),
+  planningCountry("BA", "Bosnia and Herzegovina", "Europe", "BAM", "Bosnian"),
+  planningCountry("ME", "Montenegro", "Europe", "EUR", "Montenegrin"),
+  planningCountry("MK", "North Macedonia", "Europe", "MKD", "Macedonian"),
+  planningCountry("AL", "Albania", "Europe", "ALL", "Albanian"),
+  planningCountry("XK", "Kosovo", "Europe", "EUR", "Albanian"),
+  planningCountry("MD", "Moldova", "Europe", "MDL", "Romanian"),
+  planningCountry("UA", "Ukraine", "Europe", "UAH", "Ukrainian"),
+  planningCountry("GE", "Georgia", "Europe", "GEL", "Georgian"),
+  planningCountry("AM", "Armenia", "Europe", "AMD", "Armenian"),
+  planningCountry("AZ", "Azerbaijan", "Europe", "AZN", "Azerbaijani"),
+
+  // Asia, expansion (owner-approved wave 5)
+  planningCountry("NP", "Nepal", "Asia", "NPR", "Nepali"),
+  planningCountry("KH", "Cambodia", "Asia", "KHR", "Khmer"),
+  planningCountry("MN", "Mongolia", "Asia", "MNT", "Mongolian"),
+  planningCountry("KZ", "Kazakhstan", "Asia", "KZT", "Kazakh"),
 ];

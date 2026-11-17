@@ -38,7 +38,7 @@ ILLUSTRATIVE EXAMPLE: US$ 100.000 investidos por 30 anos a um retorno bruto anua
 A) Uma taxa única paga apenas no momento da compra
 B) A taxa anual cobrada por um fundo, como percentagem do património sob gestão, pela sua gestão e operação
 C) O retorno histórico total do fundo
-D) Um imposto pago apenas quando as cotas são vendidas
+D) Um imposto pago apenas quando as unidades de participação são vendidas
 
 **P2. Por que uma diferença de 1 ponto percentual na taxa de despesas custa mais do que 1% do investimento total ao longo de muitos anos?**
 A) Não custa; o custo total é sempre exatamente proporcional ao percentual da taxa, independentemente do tempo
