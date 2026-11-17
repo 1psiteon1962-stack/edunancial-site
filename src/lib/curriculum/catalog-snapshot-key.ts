@@ -5,7 +5,10 @@
  */
 export function catalogSnapshotKey(
   language: string,
-  env: { CONTEXT?: string; DEPLOY_ID?: string } = process.env,
+  env: Partial<Record<"CONTEXT" | "DEPLOY_ID", string | undefined>> = {
+    CONTEXT: process.env.CONTEXT,
+    DEPLOY_ID: process.env.DEPLOY_ID,
+  },
 ): string {
   const file = `catalog-snapshots/v1/${encodeURIComponent(language)}.json`;
   if (env.CONTEXT === "production") return `published/${file}`;
