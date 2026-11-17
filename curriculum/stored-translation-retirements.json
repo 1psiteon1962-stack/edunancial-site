@@ -5,6 +5,10 @@
     {"coordinate": "GREEN-L1", "locale": "fr-FR", "retireStoredBefore": "2026-11-16T01:00:00Z", "approvedBy": "owner", "approvedOn": "2026-11-15", "reason": "Older upload titles carry a stray leading ': '; owner chose the Git version."},
     {"coordinate": "BLACK-L1", "locale": "pt-BR", "retireStoredBefore": "2026-11-17T00:00:00Z", "approvedBy": "owner", "approvedOn": "2026-11-15", "reason": "Older upload titles carry numeric '1.' prefixes; owner chose the Git version."},
     {"coordinate": "BLACK-L1", "locale": "pt-PT", "retireStoredBefore": "2026-11-17T00:00:00Z", "approvedBy": "owner", "approvedOn": "2026-11-15", "reason": "Older upload titles carry numeric '1.' prefixes and Brazilian wording; owner chose the Git version."},
-    {"coordinate": "RED-L1", "locale": "fr-CA", "retireStoredBefore": "2026-11-16T01:00:00Z", "approvedBy": "owner", "approvedOn": "2026-11-15", "reason": "Older upload differs from the committed Git translation; owner chose the Git version."}
+    {"coordinate": "RED-L1", "locale": "fr-CA", "retireStoredBefore": "2026-11-16T01:00:00Z", "approvedBy": "owner", "approvedOn": "2026-11-15", "reason": "Older upload differs from the committed Git translation; owner chose the Git version."},
+    {"coordinate": "GREEN-L4", "locale": "it", "retireStoredBefore": "2026-11-17T18:00:00Z", "approvedBy": "owner", "approvedOn": "2026-11-17", "reason": "Older stored upload serves English text for this locale; owner chose the new committed Git translation."},
+    {"coordinate": "GREEN-L4", "locale": "nl", "retireStoredBefore": "2026-11-17T18:00:00Z", "approvedBy": "owner", "approvedOn": "2026-11-17", "reason": "Older stored upload serves English text for this locale; owner chose the new committed Git translation."},
+    {"coordinate": "GREEN-L4", "locale": "pt-BR", "retireStoredBefore": "2026-11-17T18:00:00Z", "approvedBy": "owner", "approvedOn": "2026-11-17", "reason": "Older stored upload serves English text for this locale; owner chose the new committed Git translation."},
+    {"coordinate": "GREEN-L4", "locale": "pt-PT", "retireStoredBefore": "2026-11-17T18:00:00Z", "approvedBy": "owner", "approvedOn": "2026-11-17", "reason": "Older stored upload serves English text for this locale; owner chose the new committed Git translation."}
   ]
 }
