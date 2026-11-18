@@ -1,14 +1,93 @@
 {
   "description": "Owner-approved retirements of stale stored (uploaded) translations. For a listed coordinate and locale, a stored translation published before retireStoredBefore is not shown when a learner-ready Git locale file for the same lesson exists; the committed Git file is served instead. Uploads published on or after retireStoredBefore are shown normally. Remove an entry to restore the previous behavior.",
   "retirements": [
-    {"coordinate": "GREEN-L1", "locale": "es-Caribbean", "retireStoredBefore": "2026-11-16T01:00:00Z", "approvedBy": "owner", "approvedOn": "2026-11-15", "reason": "Older upload differs from the committed Git translation; owner chose the Git version."},
-    {"coordinate": "GREEN-L1", "locale": "fr-FR", "retireStoredBefore": "2026-11-16T01:00:00Z", "approvedBy": "owner", "approvedOn": "2026-11-15", "reason": "Older upload titles carry a stray leading ': '; owner chose the Git version."},
-    {"coordinate": "BLACK-L1", "locale": "pt-BR", "retireStoredBefore": "2026-11-17T00:00:00Z", "approvedBy": "owner", "approvedOn": "2026-11-15", "reason": "Older upload titles carry numeric '1.' prefixes; owner chose the Git version."},
-    {"coordinate": "BLACK-L1", "locale": "pt-PT", "retireStoredBefore": "2026-11-17T00:00:00Z", "approvedBy": "owner", "approvedOn": "2026-11-15", "reason": "Older upload titles carry numeric '1.' prefixes and Brazilian wording; owner chose the Git version."},
-    {"coordinate": "RED-L1", "locale": "fr-CA", "retireStoredBefore": "2026-11-16T01:00:00Z", "approvedBy": "owner", "approvedOn": "2026-11-15", "reason": "Older upload differs from the committed Git translation; owner chose the Git version."},
-    {"coordinate": "GREEN-L4", "locale": "it", "retireStoredBefore": "2027-01-01T00:00:00Z", "approvedBy": "owner", "approvedOn": "2026-11-17", "reason": "Older stored upload serves English text for this locale and its package is re-saved after the original cutoff (likely by automatic upload recovery); owner chose the new committed Git translation. Later cutoff keeps the Git text served; remove or shorten to restore."},
-    {"coordinate": "GREEN-L4", "locale": "nl", "retireStoredBefore": "2027-01-01T00:00:00Z", "approvedBy": "owner", "approvedOn": "2026-11-17", "reason": "Older stored upload serves English text for this locale and its package is re-saved after the original cutoff (likely by automatic upload recovery); owner chose the new committed Git translation. Later cutoff keeps the Git text served; remove or shorten to restore."},
-    {"coordinate": "GREEN-L4", "locale": "pt-BR", "retireStoredBefore": "2027-01-01T00:00:00Z", "approvedBy": "owner", "approvedOn": "2026-11-17", "reason": "Older stored upload serves English text for this locale and its package is re-saved after the original cutoff (likely by automatic upload recovery); owner chose the new committed Git translation. Later cutoff keeps the Git text served; remove or shorten to restore."},
-    {"coordinate": "GREEN-L4", "locale": "pt-PT", "retireStoredBefore": "2027-01-01T00:00:00Z", "approvedBy": "owner", "approvedOn": "2026-11-17", "reason": "Older stored upload serves English text for this locale and its package is re-saved after the original cutoff (likely by automatic upload recovery); owner chose the new committed Git translation. Later cutoff keeps the Git text served; remove or shorten to restore."}
+    {
+      "coordinate": "GREEN-L1",
+      "locale": "es-Caribbean",
+      "retireStoredBefore": "2026-11-16T01:00:00Z",
+      "approvedBy": "owner",
+      "approvedOn": "2026-11-15",
+      "reason": "Older upload differs from the committed Git translation; owner chose the Git version."
+    },
+    {
+      "coordinate": "GREEN-L1",
+      "locale": "fr-FR",
+      "retireStoredBefore": "2026-11-16T01:00:00Z",
+      "approvedBy": "owner",
+      "approvedOn": "2026-11-15",
+      "reason": "Older upload titles carry a stray leading ': '; owner chose the Git version."
+    },
+    {
+      "coordinate": "BLACK-L1",
+      "locale": "pt-BR",
+      "retireStoredBefore": "2026-11-17T00:00:00Z",
+      "approvedBy": "owner",
+      "approvedOn": "2026-11-15",
+      "reason": "Older upload titles carry numeric '1.' prefixes; owner chose the Git version."
+    },
+    {
+      "coordinate": "BLACK-L1",
+      "locale": "pt-PT",
+      "retireStoredBefore": "2026-11-17T00:00:00Z",
+      "approvedBy": "owner",
+      "approvedOn": "2026-11-15",
+      "reason": "Older upload titles carry numeric '1.' prefixes and Brazilian wording; owner chose the Git version."
+    },
+    {
+      "coordinate": "RED-L1",
+      "locale": "fr-CA",
+      "retireStoredBefore": "2026-11-16T01:00:00Z",
+      "approvedBy": "owner",
+      "approvedOn": "2026-11-15",
+      "reason": "Older upload differs from the committed Git translation; owner chose the Git version."
+    },
+    {
+      "coordinate": "GREEN-L4",
+      "locale": "it",
+      "retireStoredBefore": "2027-01-01T00:00:00Z",
+      "approvedBy": "owner",
+      "approvedOn": "2026-11-17",
+      "reason": "Older stored upload serves English text for this locale and its package is re-saved after the original cutoff (likely by automatic upload recovery); owner chose the new committed Git translation. Later cutoff keeps the Git text served; remove or shorten to restore."
+    },
+    {
+      "coordinate": "GREEN-L4",
+      "locale": "nl",
+      "retireStoredBefore": "2027-01-01T00:00:00Z",
+      "approvedBy": "owner",
+      "approvedOn": "2026-11-17",
+      "reason": "Older stored upload serves English text for this locale and its package is re-saved after the original cutoff (likely by automatic upload recovery); owner chose the new committed Git translation. Later cutoff keeps the Git text served; remove or shorten to restore."
+    },
+    {
+      "coordinate": "GREEN-L4",
+      "locale": "pt-BR",
+      "retireStoredBefore": "2027-01-01T00:00:00Z",
+      "approvedBy": "owner",
+      "approvedOn": "2026-11-17",
+      "reason": "Older stored upload serves English text for this locale and its package is re-saved after the original cutoff (likely by automatic upload recovery); owner chose the new committed Git translation. Later cutoff keeps the Git text served; remove or shorten to restore."
+    },
+    {
+      "coordinate": "GREEN-L4",
+      "locale": "pt-PT",
+      "retireStoredBefore": "2027-01-01T00:00:00Z",
+      "approvedBy": "owner",
+      "approvedOn": "2026-11-17",
+      "reason": "Older stored upload serves English text for this locale and its package is re-saved after the original cutoff (likely by automatic upload recovery); owner chose the new committed Git translation. Later cutoff keeps the Git text served; remove or shorten to restore."
+    },
+    {
+      "coordinate": "GOLD-L4",
+      "locale": "it",
+      "retireStoredBefore": "2027-01-01T00:00:00Z",
+      "approvedBy": "owner",
+      "approvedOn": "2026-11-17",
+      "reason": "Stale English stored upload outranked the committed Git translation for GOLD-L4 it; owner approved retirement. Nothing deleted; removing this entry restores the previous behavior."
+    },
+    {
+      "coordinate": "GOLD-L4",
+      "locale": "nl",
+      "retireStoredBefore": "2027-01-01T00:00:00Z",
+      "approvedBy": "owner",
+      "approvedOn": "2026-11-17",
+      "reason": "Stale English stored upload outranked the committed Git translation for GOLD-L4 nl; owner approved retirement. Nothing deleted; removing this entry restores the previous behavior."
+    }
   ]
 }
