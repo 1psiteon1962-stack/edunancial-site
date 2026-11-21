@@ -91,3 +91,4 @@ out/RED-L5-001-050-ht.zip 2026-11-20 RED-L5 Haitian Creole (ht) complete: 50 les
 out/WHITE-L5-001-050-en-GB.zip 2026-11-20 WHITE-L5 British English: spelling + UK notes (ISA/SIPP, CGT matching, gilts, W-8BEN, FCA, IHT pensions 2027)
 out/WHITE-L5-001-050-es-ES.zip 2026-11-20 WHITE-L5 Spain Spanish: from es-Caribbean, Spain notes (IRPF base del ahorro, regla 2 meses, modelos 720/721, CNMV/MiFID II, planes de pensiones, ISD/legitima)
 out/WHITE-L5-001-050-fr-FR.zip 2026-11-20 WHITE-L5 France French: from fr-CA, France notes (PFU, PEA, PER, assurance-vie, abus de droit, OAT, fiducie, MiCA/AMF, ORIAS, FGDR)
+out/WHITE-L5-001-050-pt-BR.zip 2026-11-21 WHITE pt-BR 50/50, Brazil notes hedged
