@@ -82,3 +82,4 @@ out/PURPLE-L4-001-050-de.zip 2026-11-13 DE-law rewrite
 out/RED-L5-001-050-en-GB.zip 2026-11-20 British spelling + UK notes
 out/RED-L5-001-050-es-ES.zip 2026-11-20 from es-Caribbean, Spain notes
 out/RED-L5-001-050-fr-FR.zip 2026-11-20 from fr-CA, France notes
+out/RED-L5-001-050-pt-BR.zip 2026-11-20 full translation, Brazil notes (IPTU, ITCMD, FII, alienação fiduciária, SUSEP, 180-day exemption)
