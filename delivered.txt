@@ -85,3 +85,4 @@ out/RED-L5-001-050-fr-FR.zip 2026-11-20 from fr-CA, France notes
 out/RED-L5-001-050-pt-BR.zip 2026-11-20 full translation, Brazil notes (IPTU, ITCMD, FII, alienação fiduciária, SUSEP, 180-day exemption)
 out/RED-L5-001-050-pt-PT.zip 2026-11-20 derived from pt-BR + Portugal notes (IMI/VPT, IMT, Imposto do Selo, mais-valias HPP, SIGI, AL, PERSI, ASF, PDM/RJUE)
 out/RED-L5-001-050-it.zip 2026-11-20 full translation, Italy notes (IMU/rendita catastale, cedolare secca, plusvalenza 5 anni, successione, SIIQ, SAL, IVASS, CONSOB, Codice della crisi)
+out/RED-L5-001-050-nl.zip 2026-11-20 RED L5 Dutch (Netherlands notes: OZB/WOZ bezwaar, box 3, Omgevingswet, parate executie, Kifid, AFM)
