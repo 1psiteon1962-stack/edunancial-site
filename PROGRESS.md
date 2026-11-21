@@ -10,7 +10,7 @@ How to resume (read first):
   Note scripts are color-specific: write a new one per color by grepping the source locale for local-law clauses.
 - Finish each pack: tools/finish.sh <C> L5 <loc> "note" ; then send zip to user. For a new color copy English
   content/curriculum/<C>/L5/*.md into sitecopy/content/curriculum/<C>/L5/ first.
-- Next up: RED COMPLETE for all 9 (de, ht delivered). START WHITE: copy English content/curriculum/WHITE/L5/*.md into sitecopy first (see How to resume). Order for WHITE: en-GB, es-ES, fr-FR, pt-BR, pt-PT, it, nl, de, ht. Tip: translate it/nl/de/ht from the pt-BR batches (faithful to English) and swap Brazil notes for local ones; keep plain OPINION counts equal to English (checker does not test them; run the opinion check in git log).
+- Next up: RED COMPLETE for all 9 (de, ht delivered). WHITE en-GB DONE. NEXT WHITE es-ES (es_es.py WHITE L5 + write tools/es_notes_WHITE.py; source es-Caribbean files in site repo WHITE/L5/*.es-Caribbean.md). Then fr-FR, fr-FR, pt-BR, pt-PT, it, nl, de, ht. Tip: translate it/nl/de/ht from the pt-BR batches (faithful to English) and swap Brazil notes for local ones; keep plain OPINION counts equal to English (checker does not test them; run the opinion check in git log).
 Status:
 - RED-L5 en-GB DONE 2026-11-20
 - RED-L5 es-ES DONE 2026-11-20
