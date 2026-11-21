@@ -10,7 +10,7 @@ How to resume (read first):
   Note scripts are color-specific: write a new one per color by grepping the source locale for local-law clauses.
 - Finish each pack: tools/finish.sh <C> L5 <loc> "note" ; then send zip to user. For a new color copy English
   content/curriculum/<C>/L5/*.md into sitecopy/content/curriculum/<C>/L5/ first.
-- Next up: RED COMPLETE for all 9 (de, ht delivered). WHITE en-GB DONE. WHITE es-ES DONE (used tools/es_es_paper.py = es_es without renta->alquiler). WHITE fr-FR DONE. WHITE pt-BR IN PROGRESS (b01-b02 done; next b03 = lessons 011-015: tools/show45.sh WHITE L5 11 15 > tmp_src.txt), then pt-PT (cp pt-BR + pt_notes_WHITE.py + pt_pt.py), it, nl, de, ht. Tip: translate it/nl/de/ht from the pt-BR batches (faithful to English) and swap Brazil notes for local ones; keep plain OPINION counts equal to English (checker does not test them; run the opinion check in git log).
+- Next up: RED COMPLETE for all 9 (de, ht delivered). WHITE en-GB DONE. WHITE es-ES DONE (used tools/es_es_paper.py = es_es without renta->alquiler). WHITE fr-FR DONE. WHITE pt-BR IN PROGRESS (b01-b03 done; next b04 = lessons 016-020: tools/show45.sh WHITE L5 16 20 > tmp_src.txt), then pt-PT (cp pt-BR + pt_notes_WHITE.py + pt_pt.py), it, nl, de, ht. Tip: translate it/nl/de/ht from the pt-BR batches (faithful to English) and swap Brazil notes for local ones; keep plain OPINION counts equal to English (checker does not test them; run the opinion check in git log).
 Status:
 - RED-L5 en-GB DONE 2026-11-20
 - RED-L5 es-ES DONE 2026-11-20
