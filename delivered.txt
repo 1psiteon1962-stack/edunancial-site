@@ -1,0 +1,81 @@
+BLACK-L1-001-050-es-Caribbean.zip
+BLACK-L2-001-050-es-Caribbean.zip
+BLACK-L2-001-050-fr-CA.zip
+BLACK-L3-001-050-fr-CA.zip
+BLACK-L4-001-050-es-Caribbean.zip
+BLACK-L4-001-050-fr-CA.zip
+BLUE-L2-001-050-fr-CA.zip
+BLUE-L3-001-050-es-Caribbean.zip
+BLUE-L3-001-050-fr-CA.zip
+BLUE-L4-001-050-es-Caribbean.zip
+BLUE-L4-001-050-fr-CA.zip
+BLUE-L5-001-050-es-Caribbean.zip
+BLUE-L5-001-050-fr-CA.zip
+GOLD-L2-001-050-es-Caribbean.zip
+GOLD-L2-001-050-fr-CA.zip
+GOLD-L3-001-050-fr-CA.zip
+GOLD-L4-001-050-es-Caribbean.zip
+GOLD-L4-001-050-fr-CA.zip
+GOLD-L5-001-050-es-Caribbean.zip
+GOLD-L5-001-050-fr-CA.zip
+GREEN-L1-001-050-es-Caribbean.zip
+GREEN-L2-001-050-es-Caribbean.zip
+GREEN-L2-001-050-fr-CA.zip
+GREEN-L3-001-050-fr-CA.zip
+GREEN-L4-001-050-es-Caribbean.zip
+GREEN-L4-001-050-fr-CA.zip
+GREEN-L5-001-050-es-Caribbean.zip
+GREEN-L5-001-050-fr-CA.zip
+ORANGE-L2-001-050-es-Caribbean.zip
+ORANGE-L2-001-050-fr-CA.zip
+ORANGE-L3-001-050-fr-CA.zip
+ORANGE-L4-001-050-es-Caribbean.zip
+ORANGE-L4-001-050-fr-CA.zip
+PURPLE-L2-001-050-en-US.zip
+PURPLE-L2-001-050-es-Caribbean.zip
+PURPLE-L2-001-050-fr-CA.zip
+PURPLE-L3-001-050-fr-CA.zip
+PURPLE-L4-001-050-es-Caribbean.zip
+PURPLE-L4-001-050-fr-CA.zip
+PURPLE-L5-001-050-es-Caribbean.zip
+PURPLE-L5-001-050-fr-CA.zip
+RED-L1-001-050-fr-CA.zip
+RED-L2-001-050-en-US.zip
+RED-L2-001-050-es-Caribbean.zip
+RED-L2-001-050-fr-CA.zip
+RED-L3-001-050-fr-CA.zip
+RED-L4-001-050-es-Caribbean.zip
+RED-L4-001-050-fr-CA.zip
+RED-L5-001-050-es-Caribbean.zip
+RED-L5-001-050-fr-CA.zip
+WHITE-L2-001-050-en-US.zip
+WHITE-L2-001-050-es-Caribbean.zip
+WHITE-L2-001-050-fr-CA.zip
+WHITE-L3-001-050-fr-CA.zip
+WHITE-L4-001-050-es-Caribbean.zip
+WHITE-L4-001-050-fr-CA.zip
+WHITE-L5-001-050-es-Caribbean.zip
+WHITE-L5-001-050-fr-CA.zip
+partial.zip
+out/ORANGE-L5-001-050-fr-CA.zip
+out/ORANGE-L5-001-050-es-Caribbean.zip
+out/BLACK-L5-001-050-fr-CA.zip
+out/BLACK-L5-001-050-es-Caribbean.zip
+out/GREEN-L1-001-050-en-GB.zip
+BLACK-L1-001-050-es-419.zip 2026-11-08 derived from es-Caribbean (faithful)
+RED-L1-001-050-es-419.zip 2026-11-08 translated from English
+WHITE-L1-001-050-es-419.zip 2026-11-09 translated from English
+GREEN-L1 de/it/nl/pt-PT/pt-BR 2026-11-09 repacked from Drive
+WHITE-L3-001-050-de.zip 2026-11-09 translated+DE-adapted
+BLUE-L3-001-050-de.zip 2026-11-09 translated+DE-adapted
+GREEN-L3-001-050-de.zip 2026-11-09 translated+DE-adapted
+GOLD-L3-001-050-de.zip 2026-11-09 translated+DE-adapted
+PURPLE-L3-001-050-de.zip 2026-11-10 translated+DE-adapted
+ORANGE-L3-001-050-de.zip 2026-11-10 translated+DE-adapted
+BLACK-L3-001-050-de.zip 2026-11-10 translated+DE-adapted
+RED-L4-001-050-de.zip 2026-11-10 translated+DE-adapted
+out/WHITE-L4-001-050-de.zip 2026-11-10 translated+DE-adapted
+out/BLUE-L4-001-050-de.zip 2026-11-11 translated+DE-adapted
+out/GREEN-L4-001-050-de.zip 2026-11-12 translated+DE-adapted
+out/GOLD-L4-001-050-de.zip 2026-11-12 translated+DE-adapted
+out/PURPLE-L4-001-050-de.zip 2026-11-13 DE-law rewrite

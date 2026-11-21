@@ -1,0 +1,425 @@
+===== WHITE-L2-035
+TITLE: Le risque des appels de marge
+SUMMARY: Comprends ce qu'est un appel de marge, pourquoi il peut forcer des ventes au pire moment et pourquoi ce risque s'aggrave pendant les baisses de marché.
+## WHITE-L2-035
+### Le risque des appels de marge
+
+**1. Objectifs d'apprentissage**
+À la fin de cette leçon, tu pourras :
+- Définir de façon conceptuelle un appel de marge.
+- Expliquer pourquoi les appels de marge peuvent forcer des ventes au mauvais moment.
+- Décrire comment ce risque s'aggrave pendant les baisses de marché.
+
+**2. Contenu principal**
+Dans la suite de la leçon précédente, un appel de marge se produit quand la valeur du compte sur marge d'un investisseur baisse assez pour ne plus respecter le niveau minimal de garantie exigé par le courtier. Le courtier exige alors que l'investisseur dépose de l'argent ou des titres supplémentaires, sinon une partie de ses placements sera vendue automatiquement (souvent sans autre consultation) pour remettre le compte en conformité.
+
+Ça crée un risque précis qui s'aggrave pendant les baisses de marché : à mesure que le prix des titres baisse, un investisseur qui utilise la marge peut être forcé de vendre ses placements exactement au pire moment possible — pendant une baisse — précisément pour répondre à un appel de marge. Ce qui aurait pu être une expérience de volatilité temporaire (leçon 26) devient alors une perte concrétisée, et il peut manquer complètement la reprise qui suit. Cette dynamique de vente forcée est une des principales raisons pour lesquelles on considère généralement que l'emprunt sur marge convient seulement aux investisseurs qui ont beaucoup d'expérience, une tolérance au risque élevée et la capacité financière de gérer ce risque précis.
+
+**3. Exemple pratique**
+Pendant une forte baisse du marché, le compte sur marge de Nadim tombe sous le niveau de maintien exigé par son courtier, ce qui déclenche un appel de marge. Comme il n'a pas d'argent supplémentaire facilement disponible pour y répondre, le courtier vend automatiquement une partie de ses placements aux prix actuels du marché, qui sont bas, pour remettre son compte en conformité. Des pertes sont ainsi concrétisées sur des positions qu'il aurait peut-être pu garder pendant la baisse et jusqu'à la reprise suivante, s'il n'avait pas utilisé la marge et n'avait donc pas été soumis à une vente forcée à ce moment précis, si mal choisi.
+
+**4. Quiz de pratique**
+1. Qu'est-ce qu'un appel de marge?
+   a) Un appel téléphonique d'un courtier qui offre des conseils de placement
+   b) Une demande du courtier pour une garantie supplémentaire quand la valeur d'un compte sur marge tombe sous un niveau exigé
+   c) Un type de paiement de dividende
+   d) Un avis fiscal gouvernemental
+2. Pourquoi les appels de marge peuvent-ils forcer des ventes au mauvais moment?
+   a) Ils ne surviennent que quand les prix montent
+   b) Ils surviennent souvent pendant les baisses, ce qui force à vendre à bas prix pour respecter l'exigence de garantie
+   c) Ils n'ont aucun lien avec le moment du marché
+   d) Ils garantissent une vente rentable
+3. Vrai ou faux : Un investisseur qui fait face à un appel de marge a toujours amplement le temps et les ressources pour éviter une vente forcée.
+4. Qu'est-il arrivé à Nadim à la suite de son appel de marge?
+   a) Ses placements ont été vendus à des prix élevés et avantageux
+   b) Une partie de ses placements a été vendue automatiquement à bas prix, ce qui a concrétisé des pertes
+   c) Il a plutôt reçu un dividende
+   d) Son compte n'a pas été touché
+
+**5. Corrigé**
+1. b  2. b  3. Faux  4. b
+
+**6. Réponses et explications**
+1. Un appel de marge est la demande d'un courtier pour une garantie supplémentaire quand un compte sur marge tombe sous un niveau de maintien exigé.
+2. Les appels de marge surviennent souvent pendant les baisses du marché, ce qui force des ventes à bas prix pour rétablir la conformité.
+3. Les investisseurs qui font face à un appel de marge peuvent manquer de temps ou de ressources pour éviter une vente forcée et mal synchronisée.
+4. Les placements de Nadim ont été vendus de force à bas prix pendant la baisse, ce qui a concrétisé des pertes qu'il aurait peut-être pu éviter autrement.
+
+**7. Points clés à retenir**
+- Un appel de marge exige une garantie supplémentaire quand la valeur d'un compte sur marge tombe sous un niveau exigé.
+- Les appels de marge surviennent souvent pendant les baisses, ce qui force des ventes exactement au pire moment possible.
+- Ça peut transformer une volatilité temporaire en perte permanente et concrétisée.
+- Ce risque de vente forcée est une des principales raisons pour lesquelles la marge convient généralement seulement aux investisseurs expérimentés et bien capitalisés.
+
+===== WHITE-L2-036
+TITLE: Les marchés baissiers et les corrections : de quoi s'agit-il
+SUMMARY: Apprends ce que veulent dire « correction » et « marché baissier », pourquoi ces termes décrivent une ampleur et non une durée, et ce que montre l'histoire des reprises.
+## WHITE-L2-036
+### Les marchés baissiers et les corrections : de quoi s'agit-il
+
+**1. Objectifs d'apprentissage**
+À la fin de cette leçon, tu pourras :
+- Définir les termes « correction » et « marché baissier » tels qu'on les emploie couramment.
+- Expliquer pourquoi ces termes décrivent une ampleur, et pas nécessairement une cause ou une durée.
+- Reconnaître la tendance historique à la reprise éventuelle, sans la considérer comme garantie pour un événement futur précis.
+
+**2. Contenu principal**
+Une « correction » est un terme couramment utilisé pour désigner une baisse d'environ 10 % ou plus par rapport à un sommet récent d'un large indice de marché; un « marché baissier » est un terme couramment utilisé pour une baisse d'environ 20 % ou plus par rapport à un sommet récent. Ce sont des étiquettes qui décrivent l'ampleur, pas des indicateurs de la cause, et elles ne disent rien en elles-mêmes sur la durée d'une baisse ni sur la rapidité (ou même la venue) d'une reprise : certaines corrections se règlent en quelques semaines, alors que certains marchés baissiers ont, historiquement, duré longtemps.
+
+Historiquement, les larges indices de marché de bien des grandes économies ont fini par se remettre des corrections et des marchés baissiers, en atteignant souvent de nouveaux sommets dans les années suivantes — une tendance qui se rattache aux discussions précédentes sur l'horizon de placement à long terme (leçon 27) et la discipline comportementale (leçon 28). Cette leçon présente cette tendance historique comme un fait, sans garantir qu'elle se répétera de la même façon pour une baisse future précise, puisque chaque période a ses propres circonstances.
+
+**3. Exemple pratique**
+En vivant son premier vrai marché baissier comme investisseur, Cyrus étudie des exemples historiques de marchés baissiers passés. Il découvre que, même si chacun avait ses propres causes et ses propres délais de reprise, les larges indices de marché ont historiquement fini par se redresser et atteindre de nouveaux sommets dans les années qui ont suivi les baisses passées. Il ne considère pas cette tendance historique comme une garantie pour sa situation actuelle précise, mais elle lui donne un contexte utile — en plus de son long horizon de placement et de son plan établi d'avance (leçon 28) — pour garder son calme et s'en tenir à sa stratégie plutôt que de réagir uniquement aux manchettes du moment.
+
+**4. Quiz de pratique**
+1. À quoi le terme « correction » se rapporte-t-il couramment?
+   a) À une baisse d'environ 10 % ou plus par rapport à un sommet récent
+   b) À n'importe quelle baisse, peu importe sa taille
+   c) À un événement futur garanti
+   d) À un type de défaut d'obligation
+2. À quoi le terme « marché baissier » se rapporte-t-il couramment?
+   a) À une hausse de 20 % ou plus
+   b) À une baisse d'environ 20 % ou plus par rapport à un sommet récent
+   c) À la faillite d'une entreprise précise
+   d) À une politique gouvernementale
+3. Vrai ou faux : Ces termes garantissent combien de temps durera une baisse ou à quelle vitesse se fera la reprise.
+4. Comment Cyrus a-t-il utilisé les tendances historiques des marchés baissiers pendant sa propre expérience?
+   a) Comme une garantie que sa situation actuelle se réglerait de la même façon
+   b) Comme un contexte utile, en plus de son propre plan, sans le considérer comme une garantie pour sa situation précise
+   c) Il a complètement ignoré l'histoire
+   d) Il a paniqué et vendu tout de suite
+
+**5. Corrigé**
+1. a  2. b  3. Faux  4. b
+
+**6. Réponses et explications**
+1. Une correction désigne couramment une baisse d'environ 10 % ou plus par rapport à un sommet récent.
+2. Un marché baissier désigne couramment une baisse d'environ 20 % ou plus par rapport à un sommet récent.
+3. Ces termes ne décrivent que l'ampleur; ils ne disent rien sur la durée ni sur la certitude d'un délai de reprise futur précis.
+4. Cyrus a eu raison d'utiliser le contexte historique comme information utile, sans le considérer comme une garantie pour sa propre situation.
+
+**7. Points clés à retenir**
+- Une « correction » désigne couramment une baisse d'environ 10 % ou plus; un « marché baissier », une baisse d'environ 20 % ou plus par rapport à un sommet récent.
+- Ces termes décrivent l'ampleur, pas la cause ni une durée garantie.
+- Les larges indices de marché se sont historiquement remis des baisses passées, mais ce n'est pas une garantie pour un événement futur précis.
+- Ce contexte historique, combiné à un long horizon de placement et à un plan établi, soutient la discipline comportementale pendant les baisses.
+
+===== WHITE-L2-037
+TITLE: Les cycles historiques du marché : une vue à long terme
+SUMMARY: Vois comment les marchés des actifs papier passent eux aussi par des cycles, comme l'immobilier, et pourquoi cette notion sert la patience plutôt que la prédiction.
+## WHITE-L2-037
+### Les cycles historiques du marché : une vue à long terme
+
+**1. Objectifs d'apprentissage**
+À la fin de cette leçon, tu pourras :
+- Expliquer le concept général des cycles du marché à long terme.
+- Relier ce concept à la discussion sur les cycles du marché du parcours RED.
+- Reconnaître les limites de l'utilisation des tendances historiques pour prédire des résultats futurs précis.
+
+**2. Contenu principal**
+Tout comme le parcours RED a présenté les cycles du marché immobilier (RED-L2-034), causés par l'interaction des taux, de l'offre et de la demande, les marchés des actifs papier passent aussi par des cycles à long terme d'expansion et de contraction, influencés entre autres par la croissance économique, les taux d'intérêt, l'évolution des bénéfices des entreprises et le sentiment des investisseurs. C'est un autre vrai parallèle entre les couleurs : les cycles ne sont pas propres à l'immobilier, mais forment une tendance plus large qu'on observe dans différentes catégories d'actifs, même si leur fonctionnement précis et leur moment diffèrent.
+
+Comme dans la discussion du parcours RED, cette leçon insiste sur le fait que reconnaître les cycles comme une tendance générale observée dans l'histoire est utile pour avoir des attentes réalistes, mais qu'utiliser les cycles historiques pour prédire avec précision le moment, la durée ou l'ampleur des cycles futurs reste vraiment difficile, même pour les investisseurs et les prévisionnistes professionnels. La valeur éducative est de comprendre que les marchés évoluent par phases, ce qui soutient la patience et la discipline (leçon 28), et non d'essayer de choisir le moment d'entrer et de sortir autour d'un cycle prédit.
+
+**3. Exemple pratique**
+En étudiant des données historiques du marché sur plusieurs décennies, une apprenante observe des tendances récurrentes : de longues périodes de croissance suivies de périodes de baisse, puis d'une reprise éventuelle, ce qui fait écho à ce qu'elle a appris sur les cycles immobiliers dans le parcours RED. Au lieu de conclure qu'elle peut maintenant prédire avec précision les points tournants du prochain cycle, elle conclut que cette tendance historique renforce l'importance d'un long horizon de placement et d'une stratégie disciplinée et constante (comme l'investissement périodique d'un montant fixe de la leçon 19), dont l'efficacité ne dépend pas de la capacité à prédire correctement le moment des cycles.
+
+**4. Quiz de pratique**
+1. Selon cette leçon, quels facteurs influencent les cycles à long terme des marchés des actifs papier?
+   a) Seulement la météo
+   b) La croissance économique, les taux d'intérêt, les bénéfices des entreprises et le sentiment des investisseurs, entre autres
+   c) Rien — les cycles n'existent pas dans les actifs papier
+   d) Seulement les directives gouvernementales
+2. Comment cette leçon se rattache-t-elle à la discussion sur les cycles du marché du parcours RED?
+   a) Elle n'a aucun lien
+   b) Elle montre que les cycles sont une tendance plus large qu'on observe dans différentes catégories d'actifs
+   c) L'immobilier et les actifs papier ne connaissent jamais de cycles
+   d) Seul l'immobilier connaît des cycles
+3. Vrai ou faux : Les cycles historiques du marché permettent de prédire avec précision le moment exact des cycles futurs.
+4. Qu'est-ce que l'apprenante a conclu de son étude des données historiques sur les cycles du marché?
+   a) Elle pouvait maintenant choisir parfaitement le moment d'entrer et de sortir du marché
+   b) La tendance renforçait la valeur d'un long horizon de placement et d'une stratégie disciplinée et constante
+   c) Les cycles du marché sont entièrement aléatoires et ne donnent aucune information utile
+   d) Seul l'immobilier suit des tendances cycliques
+
+**5. Corrigé**
+1. b  2. b  3. Faux  4. b
+
+**6. Réponses et explications**
+1. La croissance économique, les taux d'intérêt, les bénéfices des entreprises et le sentiment des investisseurs font partie des facteurs qui influencent les cycles des marchés des actifs papier.
+2. Cette leçon se rattache explicitement à la discussion sur les cycles du parcours RED, en montrant que les cycles sont une tendance commune à plusieurs catégories d'actifs.
+3. Les tendances historiques ne permettent pas de prédire avec précision le moment, la durée ou l'ampleur des cycles futurs.
+4. L'apprenante a eu raison d'utiliser les tendances historiques pour renforcer une stratégie disciplinée à long terme plutôt que d'essayer de choisir précisément le bon moment.
+
+**7. Points clés à retenir**
+- Les marchés des actifs papier passent par des cycles à long terme, influencés par l'économie, les taux, les bénéfices et le sentiment des investisseurs.
+- C'est un parallèle direct de la discussion sur les cycles immobiliers du parcours RED, qui illustre un vrai modèle commun entre les couleurs.
+- Les cycles historiques ne permettent pas de prédire avec précision le moment, la durée ou l'ampleur des cycles futurs.
+- La valeur éducative est de soutenir la patience et une stratégie disciplinée et constante, pas de choisir le moment du marché.
+
+===== WHITE-L2-038
+TITLE: Les FPI revisitées : WHITE rencontre RED
+SUMMARY: Revois les fiducies de placement immobilier du point de vue des actifs papier, comment les évaluer avec les lentilles du niveau et quelle place leur donner dans un portefeuille.
+## WHITE-L2-038
+### Les FPI revisitées : WHITE rencontre RED
+
+**1. Objectifs d'apprentissage**
+À la fin de cette leçon, tu pourras :
+- Renforcer le concept de la FPI comme pont entre les couleurs WHITE et RED.
+- Expliquer comment les FPI s'intègrent aux notions de répartition de l'actif et de diversification de ce niveau.
+- Appliquer le cadre des lentilles (leçons 2 à 7) à l'évaluation d'une FPI.
+
+**2. Contenu principal**
+La leçon RED-L2-037 a présenté les FPI du point de vue de l'immobilier; cette leçon les revisite explicitement du point de vue WHITE (actifs papier), ce qui renforce la conception entre les couleurs de ce programme. Une FPI détenue comme actif papier (souvent sous forme d'action ou de fonds coté en Bourse) peut être évaluée avec les mêmes lentilles présentées plus tôt dans ce niveau : une FPI qui verse des distributions importantes et fiables peut surtout plaire à travers la lentille du revenu (leçon 5); une FPI dans un secteur immobilier en forte croissance peut plaire à travers la lentille de la croissance (leçon 4).
+
+Du point de vue de la répartition de l'actif et de la diversification (leçons 16, 17 et 24), les FPI occupent une position intéressante : techniquement, ce sont des actifs papier (leurs parts s'achètent et se vendent comme des actions), mais leur performance sous-jacente est liée aux conditions du marché immobilier (RED-L2-034). Elles n'évoluent donc pas toujours parfaitement au même rythme que l'ensemble du marché boursier — un élément que certains investisseurs pèsent pour décider de l'avantage de diversification que les FPI peuvent leur apporter, même si cette relation n'est ni fixe ni garantie dans chaque période.
+
+**3. Exemple pratique**
+En décidant comment classer une FPI dans son analyse globale de diversification, Adaeze reconnaît qu'elle n'entre pas facilement dans une seule catégorie simple : elle se négocie comme un actif papier, avec ses actions et ses obligations, mais les facteurs qui déterminent sa performance sous-jacente sont étroitement liés aux conditions du marché immobilier. Elle la traite de façon réfléchie comme une pièce distincte dans sa répartition globale et applique la lentille du revenu pour évaluer son historique de distributions, plutôt que de simplement la mettre avec ses autres actions sans tenir compte de son exposition immobilière sous-jacente distincte.
+
+**4. Quiz de pratique**
+1. Qu'est-ce que cette leçon renforce explicitement au sujet des FPI?
+   a) Qu'elles n'ont rien à voir avec l'immobilier
+   b) Leur rôle de pont entre les couleurs WHITE (actifs papier) et RED (immobilier)
+   c) Qu'on ne peut les évaluer avec aucune lentille de placement
+   d) Qu'elles sont identiques aux obligations
+2. Quelle lentille pourrait plaire à un investisseur attiré par les distributions importantes et fiables d'une FPI?
+   a) Uniquement la lentille de la croissance
+   b) La lentille du revenu
+   c) Aucune lentille ne s'applique aux FPI
+   d) La lentille de la marge
+3. Vrai ou faux : Les FPI évoluent toujours exactement au même rythme que l'ensemble du marché boursier, dans chaque période.
+4. Pourquoi Adaeze a-t-elle traité sa FPI comme une pièce distincte dans son analyse de répartition?
+   a) Elle a ignoré ses caractéristiques uniques
+   b) La FPI combine une négociation d'actif papier et une performance sous-jacente liée à l'immobilier, ce qui justifie une considération distincte
+   c) Les FPI sont identiques à ses obligations
+   d) Elle l'a complètement exclue de son portefeuille
+
+**5. Corrigé**
+1. b  2. b  3. Faux  4. b
+
+**6. Réponses et explications**
+1. Cette leçon renforce le rôle des FPI comme vrai pont entre les notions des couleurs WHITE et RED.
+2. La lentille du revenu convient à un investisseur attiré par l'historique de distributions importantes et fiables d'une FPI.
+3. Les FPI n'évoluent pas toujours parfaitement au même rythme que l'ensemble du marché boursier, mais cette relation n'est ni fixe ni garantie.
+4. Adaeze a eu raison de reconnaître le mélange distinct de sa FPI : une structure d'actif papier et une performance liée à l'immobilier.
+
+**7. Points clés à retenir**
+- Les FPI font le pont entre les parcours WHITE et RED : elles se négocient comme des actifs papier, mais sont liées à la performance du marché immobilier.
+- Les lentilles de la valeur, de la croissance, du revenu et de la gestion passive de ce niveau peuvent toutes s'appliquer à l'évaluation des FPI.
+- Les FPI peuvent offrir un certain avantage de diversification par rapport à l'ensemble des actions, mais cette relation n'est ni fixe ni garantie.
+- Cette leçon renforce la conception volontaire entre les couleurs de ce programme.
+
+===== WHITE-L2-039
+TITLE: Les fonds à date cible et les fonds de cycle de vie
+SUMMARY: Comprends comment un fonds à date cible ajuste automatiquement sa répartition avec le temps et pourquoi deux fonds de même date peuvent avoir des trajectoires différentes.
+## WHITE-L2-039
+### Les fonds à date cible et les fonds de cycle de vie
+
+**1. Objectifs d'apprentissage**
+À la fin de cette leçon, tu pourras :
+- Expliquer le concept général d'un fonds à date cible ou de cycle de vie.
+- Décrire comment ces fonds ajustent automatiquement leur répartition avec le temps.
+- Nommer les éléments généraux à considérer pour évaluer si un tel fonds convient à la situation d'un investisseur.
+
+**2. Contenu principal**
+Un fonds à date cible (ou fonds de cycle de vie) est un fonds unique conçu pour ajuster automatiquement sa répartition de l'actif (leçon 16) avec le temps. Il devient généralement plus prudent (en passant d'une plus grande part en actions à une plus grande part en obligations et en liquidités) à mesure qu'il approche d'une date cible précise, souvent associée à l'année de retraite prévue de l'investisseur. Cette structure vise à simplifier les décisions de répartition de l'actif et de rééquilibrage (leçon 18) qui exigeraient autrement une gestion active continue de la part de l'investisseur.
+
+Les éléments généraux à considérer pour évaluer un fonds à date cible comprennent l'examen de sa « trajectoire » précise (la façon dont sa répartition change réellement avec le temps, puisque différents fonds ayant la même date cible peuvent avoir des trajectoires vraiment différentes), son ratio des frais (leçon 15) et la question de savoir si ses hypothèses de base sur la tolérance au risque et les besoins de dépenses à la retraite correspondent réellement à la situation précise de l'investisseur, puisqu'un seul fonds ne peut pas tenir compte de la situation unique de chaque personne, de ses autres sources de revenu ou des nuances de sa tolérance au risque.
+
+**3. Exemple pratique**
+En considérant un fonds à date cible aligné sur son année de retraite prévue, Simone étudie sa trajectoire précise et découvre qu'il devient nettement plus prudent plusieurs années plus tôt qu'un fonds concurrent ayant exactement la même année cible. Reconnaissant que sa tolérance personnelle au risque et les autres sources de revenu qu'elle prévoit à la retraite pourraient rendre une trajectoire un peu plus audacieuse plus appropriée pour sa situation précise, elle compare plusieurs fonds à date cible au lieu de supposer que tous les fonds qui partagent son année cible sont identiques en pratique.
+
+**4. Quiz de pratique**
+1. Que fait généralement un fonds à date cible avec le temps?
+   a) Il garde une répartition fixe pour toujours
+   b) Il ajuste automatiquement sa répartition et devient généralement plus prudent à l'approche de la date cible
+   c) Il n'investit qu'en obligations dès le départ
+   d) Il élimine le besoin de toute diversification
+2. Qu'est-ce qu'une « trajectoire » (*glide path*)?
+   a) Un type d'obligation
+   b) La façon dont la répartition d'un fonds à date cible change réellement avec le temps
+   c) Une date limite de déclaration de revenus
+   d) Un type de compte de courtage
+3. Vrai ou faux : Tous les fonds à date cible qui partagent la même année cible ont des trajectoires identiques et sont interchangeables en pratique.
+4. Pourquoi Simone a-t-elle comparé plusieurs fonds à date cible plutôt que de supposer qu'ils étaient interchangeables?
+   a) Elle n'avait aucun projet de retraite
+   b) Différents fonds ayant la même année cible peuvent avoir des trajectoires vraiment différentes qui conviennent à des investisseurs différents
+   c) Les fonds à date cible ne diffèrent pas vraiment les uns des autres
+   d) Elle n'aimait pas le rééquilibrage automatique
+
+**5. Corrigé**
+1. b  2. b  3. Faux  4. b
+
+**6. Réponses et explications**
+1. Un fonds à date cible ajuste automatiquement sa répartition et devient généralement plus prudent à l'approche de sa date cible.
+2. Une trajectoire décrit la façon dont la répartition précise d'un fonds à date cible change avec le temps.
+3. Différents fonds à date cible ayant la même année cible peuvent avoir des trajectoires et des ratios des frais vraiment différents.
+4. Simone a eu raison de reconnaître que des trajectoires différentes pouvaient convenir plus ou moins bien à sa propre situation.
+
+**7. Points clés à retenir**
+- Les fonds à date cible (de cycle de vie) ajustent automatiquement leur répartition avec le temps et deviennent généralement plus prudents près de la date cible.
+- Ça simplifie pour l'investisseur les décisions continues de répartition et de rééquilibrage.
+- Les trajectoires et les ratios des frais peuvent être vraiment différents entre des fonds qui partagent la même date cible.
+- Il reste important d'évaluer si les hypothèses de base d'un fonds correspondent à la situation réelle de chaque personne.
+
+===== WHITE-L2-040
+TITLE: Les robots-conseillers et l'investissement automatisé
+SUMMARY: Comprends ce qu'offre un robot-conseiller, ses avantages en frais et en accessibilité, et quand un conseiller humain convient mieux à une situation complexe.
+## WHITE-L2-040
+### Les robots-conseillers et l'investissement automatisé
+
+**1. Objectifs d'apprentissage**
+À la fin de cette leçon, tu pourras :
+- Expliquer le concept général d'un robot-conseiller.
+- Nommer les services généraux qu'offrent habituellement les robots-conseillers.
+- Comparer les compromis généraux entre les robots-conseillers et les conseillers financiers humains traditionnels.
+
+**2. Contenu principal**
+Un robot-conseiller est une plateforme numérique qui offre une gestion de placements automatisée. Elle utilise habituellement des algorithmes pour bâtir et gérer un portefeuille diversifié (souvent avec des stratégies passives ou indicielles, leçon 6) selon les objectifs, l'horizon de placement (leçon 27) et la tolérance au risque (leçon 26) déclarés par l'investisseur, souvent avec un rééquilibrage automatique (leçon 18) et parfois des stratégies fiscales automatisées.
+
+Les robots-conseillers offrent généralement des frais plus bas que les conseillers financiers humains traditionnels et des montants minimums de compte plus bas, ce qui rend les portefeuilles diversifiés gérés par des professionnels plus accessibles. Par rapport aux conseillers humains traditionnels, les compromis comprennent une planification financière globale généralement moins personnalisée (la planification successorale complète, les situations fiscales complexes ou les situations personnelles nuancées peuvent profiter d'un jugement humain que les approches algorithmiques actuelles ne reproduisent peut-être pas entièrement), et moins de capacité à offrir le genre d'accompagnement continu, fondé sur la relation, qu'un conseiller humain peut offrir pendant une crise financière personnelle ou un grand événement de vie.
+
+Aucune option n'est supérieure dans tous les cas; le bon choix dépend de la complexité de la situation financière de chaque personne et de sa préférence pour l'efficacité algorithmique ou l'accompagnement humain personnalisé.
+
+**3. Exemple pratique**
+Avec une situation financière simple — un emploi stable, un seul objectif de retraite clair et aucun enjeu complexe de succession ou d'entreprise —, Tobias choisit un robot-conseiller pour ses frais bas, son placement minimum bas et sa gestion automatisée qui ne demande presque aucune intervention, ce qui associe avec raison une solution plus simple à une situation relativement simple. Sa voisine, qui gère une situation complexe comprenant une petite entreprise, plusieurs propriétés et les besoins de planification successorale d'une famille recomposée, choisit plutôt de travailler avec un conseiller financier humain, en accordant de la valeur à l'accompagnement personnalisé et global qu'exige sa situation plus complexe.
+
+**4. Quiz de pratique**
+1. Qu'offre généralement un robot-conseiller?
+   a) Seulement des consultations humaines en personne
+   b) Une gestion de placements automatisée fondée sur des objectifs, un horizon et une tolérance au risque appliqués par algorithme
+   c) Des rendements de placement garantis
+   d) Seulement des conseils de placement immobilier
+2. Quel est un compromis général des robots-conseillers par rapport aux conseillers humains?
+   a) Les robots-conseillers ont toujours des frais plus élevés
+   b) Ils offrent généralement un accompagnement moins personnalisé pour les situations complexes
+   c) Ils ne peuvent pas du tout gérer un portefeuille diversifié
+   d) Ils exigent les montants minimums de compte les plus élevés
+3. Vrai ou faux : Un robot-conseiller est toujours objectivement le meilleur choix pour chaque investisseur, peu importe la complexité de sa situation.
+4. Pourquoi la voisine de Tobias a-t-elle choisi un conseiller humain plutôt qu'un robot-conseiller?
+   a) Sa situation financière était très simple
+   b) Ses besoins complexes liés à son entreprise et à sa planification successorale profitaient d'un accompagnement humain personnalisé et global
+   c) Elle n'aimait pas du tout la technologie
+   d) Les robots-conseillers sont illégaux pour sa situation
+
+**5. Corrigé**
+1. b  2. b  3. Faux  4. b
+
+**6. Réponses et explications**
+1. Un robot-conseiller offre une gestion de placements automatisée fondée sur les données de l'investisseur appliquées par algorithme.
+2. Les robots-conseillers offrent généralement un accompagnement moins personnalisé que les conseillers humains pour les situations financières ou successorales complexes.
+3. Le bon choix dépend de la complexité de la situation de chaque personne, pas d'une supériorité universelle de l'une ou l'autre option.
+4. Les besoins complexes de la voisine de Tobias en matière d'entreprise et de planification successorale étaient mieux servis par un accompagnement humain personnalisé.
+
+**7. Points clés à retenir**
+- Les robots-conseillers offrent une gestion de placements automatisée, menée par des algorithmes, selon les objectifs, l'horizon de placement et la tolérance au risque déclarés.
+- Ils offrent généralement des frais et des minimums plus bas, ce qui rend la gestion de portefeuilles diversifiés plus accessible.
+- Les conseillers humains offrent généralement un accompagnement plus personnalisé pour les situations financières complexes.
+- Le bon choix dépend de la complexité de la situation de chacun, pas d'une supériorité universelle de l'une ou l'autre approche.
+
+===== WHITE-L2-041
+TITLE: Lire le prospectus d'un fonds
+SUMMARY: Découvre à quoi sert un prospectus, quelles sections examiner et comment sa lecture peut révéler des frais et des risques que le nom du fonds ne montre pas.
+## WHITE-L2-041
+### Lire le prospectus d'un fonds
+
+**1. Objectifs d'apprentissage**
+À la fin de cette leçon, tu pourras :
+- Expliquer le but général du prospectus d'un fonds.
+- Nommer les principales sections qu'on trouve habituellement dans un prospectus.
+- Appliquer cette compétence pour évaluer un fonds avant d'investir.
+
+**2. Contenu principal**
+Un prospectus est un document juridique officiel que les fonds sont généralement tenus de fournir; il divulgue les renseignements clés dont les investisseurs ont besoin pour prendre une décision éclairée. Les principales sections comprennent habituellement l'objectif et la stratégie de placement du fonds (est-ce qu'il suit une approche de valeur, de croissance, de revenu ou de gestion passive, en lien avec les leçons 2 à 7?), sa structure de frais, y compris le ratio des frais (leçon 15) et les autres frais, son rendement historique (présenté avec les mises en garde obligatoires selon lesquelles le rendement passé ne garantit pas les résultats futurs), ses facteurs de risque et ses titres en portefeuille ou sa composition générale.
+
+Lire un prospectus, même sous forme résumée (beaucoup de fonds offrent un document plus court, comme un « prospectus simplifié » ou un aperçu du fonds), est une compétence pratique de niveau 2 qui transforme les notions abstraites de tout ce niveau en exercice d'évaluation concret : un investisseur peut vérifier directement la stratégie, les frais et les risques déclarés d'un fonds plutôt que de se fier seulement au matériel promotionnel ou au nom du fonds, qui ne reflète pas toujours entièrement sa vraie stratégie sous-jacente ou son profil de risque.
+
+**3. Exemple pratique**
+Avant d'investir dans un fonds qu'il ne connaît pas et qu'un ami lui a recommandé, Wendell lit son prospectus simplifié au lieu de se fier seulement à son nom et à la description informelle de son ami. Il découvre que le ratio des frais réel du fonds est plus élevé qu'il ne le pensait, et que sa stratégie de placement déclarée comporte des positions plus concentrées et plus risquées que ce que laissait entendre le matériel promotionnel général du fonds. Avec ce portrait plus complet, Wendell décide de chercher un autre fonds dont la stratégie et les frais réellement documentés correspondent mieux à ses propres objectifs et à sa tolérance au risque.
+
+**4. Quiz de pratique**
+1. Qu'est-ce qu'un prospectus?
+   a) Une brochure promotionnelle informelle
+   b) Un document juridique officiel qui divulgue les renseignements clés d'un fonds pour aider les investisseurs à décider
+   c) Un type d'obligation
+   d) Un formulaire fiscal
+2. Que peut révéler la lecture d'un prospectus que le matériel promotionnel ou le nom du fonds seuls ne montrent pas toujours?
+   a) Rien de nouveau
+   b) Le vrai ratio des frais, ainsi que les détails de la stratégie et des risques
+   c) Seulement le symbole boursier du fonds
+   d) Les opinions personnelles du gestionnaire du fonds
+3. Vrai ou faux : Le nom d'un fonds reflète toujours entièrement et exactement sa vraie stratégie sous-jacente et son profil de risque.
+4. Qu'est-ce que Wendell a découvert en lisant le prospectus simplifié du fonds?
+   a) Rien de différent de ce qu'il attendait
+   b) Un ratio des frais plus élevé et une stratégie plus concentrée et plus risquée que ce que laissait entendre le matériel promotionnel
+   c) Que le fonds n'avait aucuns frais
+   d) Que le fonds était sans risque
+
+**5. Corrigé**
+1. b  2. b  3. Faux  4. b
+
+**6. Réponses et explications**
+1. Un prospectus est un document juridique officiel qui divulgue les renseignements clés dont les investisseurs ont besoin pour prendre une décision éclairée.
+2. Lire un prospectus peut révéler le vrai ratio des frais, les détails de la stratégie et des risques que le matériel promotionnel ou le nom du fonds ne montrent pas entièrement.
+3. Le nom d'un fonds ne reflète pas toujours entièrement ni exactement sa vraie stratégie sous-jacente ou son profil de risque.
+4. L'examen du prospectus par Wendell a révélé un ratio des frais plus élevé et une stratégie plus risquée qu'il ne l'avait supposé au départ.
+
+**7. Points clés à retenir**
+- Un prospectus est un document juridique officiel qui divulgue la stratégie, les frais, le rendement et les facteurs de risque d'un fonds.
+- Les principales sections comprennent l'objectif de placement, la structure des frais, le rendement historique et les facteurs de risque.
+- Lire un prospectus transforme les notions abstraites de ce niveau en compétence d'évaluation concrète et pratique.
+- Le nom ou le matériel promotionnel d'un fonds ne reflète pas toujours entièrement sa stratégie et ses risques réellement documentés.
+
+===== WHITE-L2-042
+TITLE: Comprendre les frais au-delà du ratio des frais
+SUMMARY: Découvre les autres frais qui peuvent réduire tes rendements — commissions, frais de compte, frais de conseil et frais d'acquisition — et pourquoi il faut regarder le coût total.
+## WHITE-L2-042
+### Comprendre les frais au-delà du ratio des frais
+
+**1. Objectifs d'apprentissage**
+À la fin de cette leçon, tu pourras :
+- Nommer les types de frais, autres que le ratio des frais, qui peuvent toucher les rendements de placement.
+- Expliquer le but général de chaque type de frais.
+- Renforcer l'importance de la conscience du coût total présentée à la leçon 15.
+
+**2. Contenu principal**
+Dans la suite de la discussion sur les ratios des frais de la leçon 15, cette leçon présente d'autres types de frais qu'il vaut la peine de comprendre. Les commissions de négociation (des frais facturés à chaque transaction, même si bien des courtiers les ont réduites ou éliminées pour de nombreux types de transactions) peuvent compter pour les investisseurs qui font souvent des transactions. Les frais de tenue de compte (des frais périodiques pour détenir un compte, parfois annulés à certaines conditions) peuvent s'appliquer dans certaines institutions. Les frais de conseil (facturés par des conseillers financiers humains ou des robots-conseillers, leçon 40, habituellement en pourcentage de l'actif géré) rémunèrent l'accompagnement et la gestion professionnels.
+
+Certains fonds facturent aussi des « frais d'acquisition » — des frais de vente appliqués à l'achat (frais d'entrée) ou à la vente (frais de sortie) de parts de fonds, distincts du ratio des frais continu. C'est une structure de frais que les investisseurs devraient surveiller précisément, puisque le portrait global des coûts d'un fonds est incomplet tant qu'on ne tient pas compte de tous les types de frais applicables ensemble, et non du seul ratio des frais.
+
+**3. Exemple pratique**
+En comparant deux fonds communs de placement semblables, Odalys suppose d'abord qu'ils coûtent la même chose parce que leurs ratios des frais sont presque identiques. En examinant de plus près la divulgation complète des frais de chaque fonds, elle découvre que l'un d'eux facture aussi des frais d'entrée — des frais de vente déduits dès l'achat —, alors que l'autre n'en facture pas, ce qui change de façon importante la vraie comparaison du coût total entre les deux fonds, malgré leurs ratios des frais semblables.
+
+**4. Quiz de pratique**
+1. Dans le contexte des frais d'un fonds, que sont des « frais d'acquisition »?
+   a) La même chose qu'un ratio des frais
+   b) Des frais de vente appliqués à l'achat ou à la vente de parts de fonds, distincts du ratio des frais continu
+   c) Un impôt gouvernemental
+   d) Un type de dividende
+2. Pourquoi est-il important de regarder au-delà du seul ratio des frais quand on compare des fonds?
+   a) Le ratio des frais est le seul type de frais qui existe
+   b) D'autres frais, comme les frais d'acquisition ou de conseil, peuvent changer de façon importante le vrai coût total
+   c) Tous les fonds ont des structures de frais identiques
+   d) Les frais n'ont aucun effet sur les rendements
+3. Vrai ou faux : Deux fonds aux ratios des frais presque identiques ont toujours une structure de coût total identique.
+4. Qu'est-ce qu'Odalys a découvert qui a changé sa comparaison des coûts entre les deux fonds?
+   a) Rien — les fonds avaient exactement le même coût
+   b) Un des fonds facturait des frais d'entrée que l'autre ne facturait pas
+   c) Les deux fonds n'avaient aucuns frais
+   d) Les ratios des frais étaient très différents
+
+**5. Corrigé**
+1. b  2. b  3. Faux  4. b
+
+**6. Réponses et explications**
+1. Les frais d'acquisition sont des frais de vente appliqués à l'achat ou à la vente de parts de fonds, distincts du ratio des frais continu.
+2. D'autres frais, comme les frais d'acquisition et de conseil, peuvent changer de façon importante le vrai coût total d'un fonds ou d'un compte, au-delà du seul ratio des frais.
+3. Des ratios des frais semblables ne garantissent pas une structure de coût total identique une fois les autres frais pris en compte.
+4. L'examen plus approfondi des frais par Odalys a révélé, pour un des fonds, des frais d'entrée qui ont changé de façon importante la vraie comparaison des coûts.
+
+**7. Points clés à retenir**
+- Les frais au-delà du ratio des frais comprennent les commissions de négociation, les frais de tenue de compte, les frais de conseil et les frais d'acquisition.
+- Le vrai coût total d'un fonds exige de considérer ensemble tous les types de frais applicables, pas seulement le ratio des frais.
+- Les frais d'acquisition sont des frais de vente appliqués à l'achat ou à la vente, distincts des frais annuels continus.
+- La conscience du coût total, présentée à la leçon 15, s'étend à toute cette gamme de frais possibles.

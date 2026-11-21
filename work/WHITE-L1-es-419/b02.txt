@@ -1,0 +1,354 @@
+===== WHITE-L1-006
+TITLE: ¿Qué es un dividendo?
+SUMMARY: Aprende qué es un dividendo, cómo se paga y por qué nunca está garantizado.
+# ¿Qué es un dividendo?
+
+## Objetivos de aprendizaje
+
+Al terminar esta lección, deberías poder:
+
+- Definir un dividendo en palabras sencillas.
+- Explicar cómo se pagan normalmente los dividendos.
+- Explicar por qué los dividendos nunca están garantizados.
+
+## Contenido principal
+
+### Qué es un dividendo
+
+Un dividendo es una parte de las utilidades de una empresa que se reparte entre los accionistas, en proporción a cuántas acciones tiene cada uno.
+
+### Cómo se pagan normalmente
+
+Los dividendos comúnmente se pagan en efectivo, con una periodicidad regular (muchas veces trimestral), directamente a los accionistas según cuántas acciones tengan en una fecha de registro específica.
+
+### Por qué nunca están garantizados
+
+El consejo de administración (o junta directiva) de una empresa decide si se paga un dividendo y de cuánto; no existe una obligación legal de pagarlo. Las empresas pueden reducir, suspender o nunca empezar a pagar dividendos, muchas veces según su rentabilidad y sus planes de crecimiento.
+
+## Ejemplo práctico
+
+Un inversionista que tiene 100 acciones de una empresa que paga un dividendo trimestral de $0.50 por acción recibiría $50 ese trimestre: un monto que podría cambiar en trimestres futuros, a criterio de la empresa.
+
+## Prueba de práctica
+
+1. Un dividendo es:
+   A. Un pago fijo garantizado
+   B. Una parte de las utilidades de la empresa que se reparte entre los accionistas
+   C. Un tipo de pago de intereses de un bono
+   D. Un impuesto que se debe por tener acciones
+2. Verdadero o falso: Las empresas están legalmente obligadas a pagar dividendos.
+3. ¿Quién decide si se paga un dividendo y de cuánto?
+   A. Cada accionista
+   B. El consejo de administración de la empresa
+   C. La bolsa de valores
+   D. El gobierno
+
+## Clave de respuestas
+
+1. B
+2. Falso
+3. B
+
+## Respuestas y explicaciones
+
+### Pregunta 1
+
+Respuesta correcta: B. Un dividendo es un reparto de utilidades entre los accionistas.
+
+### Pregunta 2
+
+Respuesta correcta: Falso. El pago de dividendos es discrecional, no una obligación legal.
+
+### Pregunta 3
+
+Respuesta correcta: B. El consejo de administración decide sobre el pago de dividendos.
+
+## Puntos clave
+
+- Un dividendo es una parte de las utilidades que se reparte entre los accionistas.
+- Normalmente los pagos son en efectivo y con una periodicidad regular.
+- Los dividendos nunca están garantizados: son una decisión del consejo de administración.
+
+===== WHITE-L1-007
+TITLE: ¿Qué es el precio de una acción y qué lo mueve?
+SUMMARY: Aprende qué determina día a día el precio de una acción, más allá de solo "la oferta y la demanda".
+# ¿Qué es el precio de una acción y qué lo mueve?
+
+## Objetivos de aprendizaje
+
+Al terminar esta lección, deberías poder:
+
+- Definir el precio de una acción en palabras sencillas.
+- Explicar el mecanismo básico de oferta y demanda detrás de los cambios de precio.
+- Nombrar factores que pueden cambiar esa oferta y esa demanda.
+
+## Contenido principal
+
+### Qué es el precio de una acción
+
+El precio de una acción es el monto actual al que se negocia una acción en el mercado: el precio que acordaron el comprador y el vendedor más recientes.
+
+### El mecanismo básico
+
+En el fondo, el precio de una acción se mueve por la oferta y la demanda: si hay más compradores que vendedores a cierto precio, el precio tiende a subir; si hay más vendedores que compradores, tiende a bajar.
+
+### Qué cambia la oferta y la demanda
+
+Las noticias específicas de la empresa (resultados, productos nuevos, cambios en la dirección), las condiciones económicas generales, las tendencias de la industria y el ánimo de los inversionistas pueden cambiar cuántas personas quieren comprar o vender a cierto precio; por eso los precios pueden moverse aunque no cambie nada en la empresa misma.
+
+## Ejemplo práctico
+
+Una empresa reporta utilidades mejores de lo esperado. Hay más inversionistas que quieren comprar acciones al precio actual que vendedores dispuestos a vender, y eso empuja el precio hacia arriba hasta que se alcanza un nuevo equilibrio.
+
+## Prueba de práctica
+
+1. En el fondo, el precio de una acción se mueve por:
+   A. Reglas fijadas por el gobierno
+   B. La oferta y la demanda
+   C. La fecha de fundación de la empresa
+   D. El símbolo bursátil de la acción
+2. Verdadero o falso: El precio de una acción solo puede cambiar si cambia algo en la empresa misma.
+3. ¿Cuál es un factor que puede cambiar la oferta y la demanda de una acción?
+   A. Las noticias sobre los resultados de la empresa
+   B. El símbolo bursátil de la acción
+   C. La fecha de fundación de la empresa
+   D. El color del logotipo de la empresa
+
+## Clave de respuestas
+
+1. B
+2. Falso
+3. A
+
+## Respuestas y explicaciones
+
+### Pregunta 1
+
+Respuesta correcta: B. En el fondo, la oferta y la demanda mueven el precio de una acción.
+
+### Pregunta 2
+
+Respuesta correcta: Falso. Las condiciones generales del mercado y el ánimo de los inversionistas pueden mover los precios sin ningún cambio específico en la empresa.
+
+### Pregunta 3
+
+Respuesta correcta: A. Las noticias sobre los resultados son una causa común de cambios en la oferta y la demanda.
+
+## Puntos clave
+
+- El precio de una acción refleja el precio de la operación acordada más reciente.
+- En el fondo, la oferta y la demanda mueven el precio.
+- Las noticias de la empresa, las condiciones económicas y el ánimo de los inversionistas pueden cambiar la oferta y la demanda.
+
+===== WHITE-L1-008
+TITLE: ¿Qué es la capitalización de mercado?
+SUMMARY: Aprende qué mide la capitalización de mercado, cómo se calcula y por qué no es lo mismo que el efectivo o el valor total de una empresa.
+# ¿Qué es la capitalización de mercado?
+
+## Objetivos de aprendizaje
+
+Al terminar esta lección, deberías poder:
+
+- Enunciar la fórmula de la capitalización de mercado.
+- Calcular la capitalización de mercado a partir del precio de la acción y de las acciones en circulación.
+- Explicar por qué la capitalización de mercado no es lo mismo que el efectivo o los activos totales de una empresa.
+
+## Contenido principal
+
+### La fórmula
+
+Capitalización de mercado = Precio de la acción × Total de acciones en circulación. Representa el valor de mercado total de todas las acciones de una empresa juntas.
+
+### Qué mide realmente
+
+La capitalización de mercado refleja lo que los inversionistas, en conjunto, creen que vale la propiedad de la empresa en este momento: una estimación del mercado en tiempo real, no una cifra auditada ni fija.
+
+### Por qué no es lo mismo que el efectivo o el valor total
+
+La capitalización de mercado no es lo mismo que el efectivo que tiene una empresa, sus ingresos totales ni siquiera sus activos totales. Una empresa puede tener una capitalización de mercado grande y relativamente poco efectivo disponible, porque la capitalización de mercado refleja lo que esperan los inversionistas sobre el valor futuro, no una foto actual del balance general.
+
+## Ejemplo práctico
+
+Una empresa con 10,000,000 de acciones en circulación que se negocian a $50 por acción tiene una capitalización de mercado de 10,000,000 × $50 = $500,000,000, sin importar cuánto efectivo real tenga la empresa.
+
+## Prueba de práctica
+
+1. La capitalización de mercado se calcula como:
+   A. Ingresos totales × número de empleados
+   B. Precio de la acción × total de acciones en circulación
+   C. Activos totales − pasivos totales
+   D. Utilidad anual ÷ acciones en circulación
+2. Verdadero o falso: La capitalización de mercado es lo mismo que el efectivo disponible de una empresa.
+3. Una empresa tiene 2,000,000 de acciones en circulación que se negocian a $30 por acción. ¿Cuál es su capitalización de mercado?
+   A. $6,000
+   B. $60,000
+   C. $6,000,000
+   D. $60,000,000
+
+## Clave de respuestas
+
+1. B
+2. Falso
+3. D
+
+## Respuestas y explicaciones
+
+### Pregunta 1
+
+Respuesta correcta: B. Capitalización de mercado = precio de la acción × acciones en circulación.
+
+### Pregunta 2
+
+Respuesta correcta: Falso. La capitalización de mercado refleja el valor de mercado, no el efectivo que se tiene.
+
+### Pregunta 3
+
+Respuesta correcta: D. 2,000,000 × $30 = $60,000,000.
+
+## Puntos clave
+
+- Capitalización de mercado = Precio de la acción × Total de acciones en circulación.
+- Refleja la valuación conjunta que hace el mercado de toda la propiedad de la empresa.
+- No es lo mismo que el efectivo, los ingresos ni los activos totales de una empresa.
+
+===== WHITE-L1-009
+TITLE: ¿Qué es un ETF? (Una canasta, no una sola acción)
+SUMMARY: Aprende qué es un ETF, en qué se diferencia de comprar una sola acción y por qué importa esa estructura de canasta.
+# ¿Qué es un ETF? (Una canasta, no una sola acción)
+
+## Objetivos de aprendizaje
+
+Al terminar esta lección, deberías poder:
+
+- Definir un ETF en palabras sencillas.
+- Explicar en qué se diferencia de comprar una sola acción.
+- Explicar un beneficio práctico de la estructura de canasta.
+
+## Contenido principal
+
+### Qué es un ETF
+
+Un ETF (fondo cotizado en bolsa, por sus siglas en inglés) es un fondo que tiene un conjunto de activos (muchas veces numerosas acciones o bonos), con participaciones que se negocian en una bolsa durante todo el día, de forma parecida a una acción individual.
+
+### En qué se diferencia de una sola acción
+
+Comprar una acción de una sola empresa te da exposición solo a esa empresa. Comprar una participación de un ETF te da exposición a todo lo que hay dentro de esa canasta a la vez: posiblemente decenas o cientos de inversiones subyacentes, con una sola compra.
+
+### Un beneficio práctico de la estructura de canasta
+
+Como un ETF reparte la exposición entre muchas inversiones a la vez, el mal desempeño de cualquiera de ellas tiene un impacto menor en el ETF completo del que tendría si fuera la única inversión del inversionista: una forma básica de diversificación, que se ve con más detalle en una lección posterior.
+
+## Ejemplo práctico
+
+En lugar de escoger una sola empresa para invertir, un inversionista compra una participación de un ETF que tiene acciones de 500 empresas distintas: reparte su exposición entre las 500 con una sola compra.
+
+## Prueba de práctica
+
+1. La mejor descripción de un ETF es:
+   A. La acción de una sola empresa
+   B. Un fondo que tiene un conjunto de activos y se negocia como una acción
+   C. Un tipo de cuenta de ahorro
+   D. Un bono del gobierno
+2. Verdadero o falso: Comprar una participación de un ETF solo da exposición a una empresa subyacente.
+3. ¿Cuál es un beneficio práctico de la estructura de canasta de un ETF?
+   A. Garantiza una ganancia
+   B. Reparte la exposición entre muchas inversiones a la vez
+   C. Elimina todo el riesgo de inversión
+   D. Exige escoger acciones individuales
+
+## Clave de respuestas
+
+1. B
+2. Falso
+3. B
+
+## Respuestas y explicaciones
+
+### Pregunta 1
+
+Respuesta correcta: B. Un ETF es un fondo negociable que tiene varios activos.
+
+### Pregunta 2
+
+Respuesta correcta: Falso. Normalmente una participación de un ETF da exposición a muchas inversiones subyacentes a la vez.
+
+### Pregunta 3
+
+Respuesta correcta: B. Repartir la exposición entre muchas inversiones es el beneficio central.
+
+## Puntos clave
+
+- Un ETF es un fondo que tiene un conjunto de activos y se negocia como una acción.
+- Una participación de un ETF puede dar exposición a muchas inversiones subyacentes a la vez.
+- Esta estructura de canasta da una forma básica de diversificación.
+
+===== WHITE-L1-010
+TITLE: ¿Qué es un fondo de inversión (fondo mutuo) y en qué se diferencia de un ETF?
+SUMMARY: Aprende qué es un fondo de inversión y las diferencias prácticas clave entre los fondos de inversión y los ETF.
+# ¿Qué es un fondo de inversión (fondo mutuo) y en qué se diferencia de un ETF?
+
+## Objetivos de aprendizaje
+
+Al terminar esta lección, deberías poder:
+
+- Definir un fondo de inversión en palabras sencillas.
+- Explicar en qué se parecen los fondos de inversión y los ETF.
+- Nombrar al menos una diferencia práctica entre ellos.
+
+## Contenido principal
+
+### Qué es un fondo de inversión
+
+Igual que un ETF, un fondo de inversión (también llamado fondo mutuo) junta el dinero de muchos inversionistas para comprar un conjunto de activos. Ambos comparten el concepto básico de "canasta" de la lección anterior.
+
+### En qué se parecen
+
+Tanto los fondos de inversión como los ETF ofrecen exposición diversificada a una canasta de inversiones mediante una sola inversión, y ambos pueden administrarse de forma activa o pasiva.
+
+### Una diferencia práctica clave
+
+A diferencia de los ETF, que se negocian durante todo el día en una bolsa a precios que cambian constantemente, las participaciones de los fondos de inversión normalmente se valúan y se negocian solo una vez al día, después del cierre de los mercados, con base en el valor calculado de ese día.
+
+## Ejemplo práctico
+
+Un inversionista que compra un ETF puede ver cómo cambia su precio minuto a minuto durante el horario del mercado. Un inversionista que compra un fondo de inversión hace su orden y recibe un precio calculado al final de esa jornada de operaciones, no en tiempo real.
+
+## Prueba de práctica
+
+1. Un fondo de inversión es:
+   A. La acción de una sola empresa
+   B. Un fondo común que invierte en un conjunto de activos, parecido en concepto a un ETF
+   C. Exclusivamente un tipo de bono
+   D. Un programa de ahorro del gobierno
+2. Verdadero o falso: Las participaciones de los fondos de inversión se negocian de forma continua durante todo el día, como las de los ETF.
+3. ¿Cuál es una diferencia práctica clave entre los fondos de inversión y los ETF?
+   A. Los fondos de inversión no pueden tener acciones
+   B. Los fondos de inversión normalmente se valúan una vez al día; los ETF se negocian durante todo el día
+   C. Los ETF no pueden estar diversificados
+   D. No hay ninguna diferencia real
+
+## Clave de respuestas
+
+1. B
+2. Falso
+3. B
+
+## Respuestas y explicaciones
+
+### Pregunta 1
+
+Respuesta correcta: B. Un fondo de inversión junta dinero en una canasta diversificada, parecida en concepto a un ETF.
+
+### Pregunta 2
+
+Respuesta correcta: Falso. A diferencia de los ETF, los fondos de inversión normalmente se valúan una vez al día.
+
+### Pregunta 3
+
+Respuesta correcta: B. La frecuencia de valuación es una diferencia práctica clave.
+
+## Puntos clave
+
+- Un fondo de inversión junta el dinero de los inversionistas en una canasta diversificada, parecida a un ETF.
+- Ambos ofrecen exposición diversificada mediante una sola inversión.
+- Los fondos de inversión normalmente se valúan una vez al día; los ETF se negocian durante todo el día.

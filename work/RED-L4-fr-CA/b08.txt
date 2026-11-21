@@ -1,0 +1,461 @@
+===== RED-L4-039
+TITLE: L'analyse de la rénovation-revente : pourquoi le risque lié à l'échéancier peut effacer le profit
+SUMMARY: Découvrez tous les coûts d'un projet de rénovation-revente et pourquoi les retards, par les frais de détention qu'ils ajoutent chaque jour, peuvent effacer le profit prévu.
+KEYWORDS: rénovation-revente, risque lié à l'échéancier, frais de détention, budget de rénovation, revente rapide d'immeubles
+# L'analyse de la rénovation-revente : pourquoi le risque lié à l'échéancier peut effacer le profit
+
+## Objectifs d'apprentissage
+- Calculer une projection de profit simple pour une rénovation-revente en incluant toutes les catégories de coûts.
+- Expliquer pourquoi les frais de détention s'accumulent à mesure qu'un projet de rénovation-revente s'étire.
+- Repérer les causes courantes des dépassements d'échéancier dans un projet de rénovation-revente.
+- Expliquer pourquoi une estimation prudente de l'échéancier est aussi importante qu'une estimation prudente du budget.
+
+## Contenu principal
+Une projection de profit pour une rénovation-revente doit tenir compte du prix d'achat, du coût des rénovations, des frais de détention (intérêts du prêt, impôts fonciers, assurance et services publics pendant la rénovation et la mise en vente) et des frais de vente (commissions des courtiers, frais de clôture), par rapport au prix de revente prévu. FAIT VÉRIFIÉ : beaucoup de personnes qui font leur première rénovation-revente se concentrent sur l'estimation exacte du coût des rénovations, mais sous-estiment les frais de détention et, surtout, le temps que le projet prendra réellement.
+
+Voici pourquoi le risque lié à l'échéancier peut effacer le profit même quand le budget de rénovation lui-même est exact : les frais de détention s'accumulent chaque jour où l'immeuble n'est pas vendu, que ce temps serve aux travaux prévus ou à des retards imprévus. Les causes courantes des dépassements d'échéancier comprennent les délais d'obtention des permis, les conflits d'horaire avec les entrepreneurs, les problèmes imprévus découverts pendant les travaux (comme des problèmes cachés de structure ou de plomberie) et une vente plus lente que prévu une fois l'immeuble mis en vente. Chaque mois de retard ajoute un mois complet d'intérêts, d'impôts, d'assurance et de services publics, ce qui gruge directement la marge de profit que le projet devait produire.
+
+C'est pourquoi les personnes expérimentées en rénovation-revente prévoient une marge d'échéancier dans leurs projections (souvent en ajoutant de 20 à 30 % à leur estimation initiale, ESTIMATION propre à chaque projet) et prennent cette marge aussi au sérieux que leur marge de budget de rénovation, au lieu de supposer que tout se déroulera exactement selon le calendrier.
+
+## Exemple pratique
+EXEMPLE ILLUSTRATIF : On prévoit qu'une rénovation-revente prendra quatre mois entre l'achat et la vente, avec des frais de détention de 2 000 $ par mois, pour des frais de détention estimés à 8 000 $ au total. Des délais d'obtention des permis et un conflit d'horaire avec un entrepreneur font passer l'échéancier réel à sept mois. Les trois mois supplémentaires ajoutent 6 000 $ de frais de détention imprévus, ce qui, combiné à une marge de profit prévue déjà modeste, peut transformer un projet qui semblait rentable sur papier en un projet qui fait tout juste ses frais, ou qui perd de l'argent, une fois l'échéancier réel pris en compte.
+
+## Questionnaire pratique
+**Q1. Quelle catégorie de coûts les personnes qui font leur première rénovation-revente sous-estiment-elles le plus souvent?**
+A) Le coût des rénovations, qui est presque toujours surestimé
+B) Les frais de détention et l'échéancier du projet, qui s'accumulent à mesure que le projet s'étire
+C) Les frais de vente, qui sont habituellement fixes peu importe l'échéancier
+D) Le prix d'achat, qui ne peut pas être mal évalué puisqu'il est fixé par contrat
+
+**Q2. Pourquoi les frais de détention représentent-ils un risque particulier pour la rentabilité d'une rénovation-revente?**
+A) Les frais de détention sont une dépense unique qui ne dépend pas de la durée du projet
+B) Ils s'accumulent chaque jour où l'immeuble n'est pas vendu; tout dépassement d'échéancier ajoute donc directement un coût imprévu qui gruge le profit
+C) Les frais de détention diminuent à mesure que le projet s'étire
+D) Les frais de détention ne s'appliquent qu'aux immeubles achetés comptant
+
+**Q3. Lequel des éléments suivants est une cause courante de dépassement d'échéancier dans un projet de rénovation-revente?**
+A) Un budget de rénovation respecté exactement comme prévu
+B) Les délais d'obtention des permis, les conflits d'horaire avec les entrepreneurs et les problèmes imprévus découverts pendant les travaux
+C) Un immeuble qui se vend plus vite que prévu
+D) Payer comptant au lieu d'utiliser du financement
+
+**Q4. Dans l'exemple, comment le dépassement d'échéancier a-t-il touché le profit prévu de la rénovation-revente?**
+A) Il n'a eu aucun effet, puisque le coût des rénovations est resté le même
+B) Il a ajouté 6 000 $ de frais de détention imprévus, ce qui pourrait transformer un profit prévu modeste en un résultat nul ou en une perte
+C) Il a augmenté le profit prévu en prolongeant la période de vente
+D) Il a éliminé tous les frais de vente liés au projet
+
+**Q5. Pourquoi les personnes expérimentées en rénovation-revente prévoient-elles une marge d'échéancier dans leurs projections?**
+A) La loi exige une marge d'échéancier pour tous les projets de rénovation-revente
+B) Elle tient compte de la probabilité réaliste de retards, ce qui empêche un dépassement d'effacer la projection de profit
+C) Les marges garantissent que le projet se terminera plus tôt
+D) Les marges éliminent complètement le besoin d'un budget de rénovation
+
+## Corrigé
+Q1: B
+Q2: B
+Q3: B
+Q4: B
+Q5: B
+
+## Réponses et explications
+**Q1.** L'échéancier et les frais de détention qui s'y rattachent sont souvent sous-estimés par rapport au budget de rénovation, qui reçoit habituellement plus d'attention.
+
+**Q2.** Comme ces coûts dépendent du temps, tout retard augmente directement et proportionnellement les dépenses totales du projet.
+
+**Q3.** Ce sont des sources de retard typiques, bien réelles, qui prolongent l'échéancier d'une rénovation-revente au-delà des projections initiales.
+
+**Q4.** Les trois mois additionnels de frais de détention ont directement réduit la marge de profit réelle du projet sous ce qui avait été prévu au départ.
+
+**Q5.** Une marge d'échéancier donne une marge de sécurité face au risque courant et réaliste que des retards nuisent à la rentabilité globale.
+
+## Points clés
+- Une projection complète de rénovation-revente doit inclure le prix d'achat, le coût des rénovations, les frais de détention et les frais de vente.
+- Les frais de détention s'accumulent chaque jour; les dépassements d'échéancier peuvent donc gruger le profit même quand le budget de rénovation est exact.
+- Les délais d'obtention des permis, les problèmes avec les entrepreneurs et les découvertes imprévues pendant les travaux sont des causes courantes de dépassement d'échéancier.
+- Prévoir une marge d'échéancier réaliste est aussi important que prévoir une marge de budget réaliste pour la rentabilité d'une rénovation-revente.
+
+===== RED-L4-040
+TITLE: L'analyse de la réserve foncière : pourquoi la patience est la stratégie
+SUMMARY: Découvrez ce qu'est la constitution d'une réserve foncière, pourquoi un terrain brut ne rapporte presque rien pendant la détention et quels éléments déclencheurs justifient ce genre de placement.
+KEYWORDS: réserve foncière, placement dans des terrains bruts, stratégie immobilière à long terme, frais de détention
+# L'analyse de la réserve foncière : pourquoi la patience est la stratégie
+
+## Objectifs d'apprentissage
+- Expliquer ce qu'est la constitution d'une réserve foncière comme stratégie de placement.
+- Expliquer pourquoi une réserve foncière produit habituellement peu ou pas de revenu pendant la période de détention.
+- Repérer le principal coût continu et le principal risque liés à la détention d'un terrain brut.
+- Expliquer quels éléments déclencheurs justifient habituellement une thèse de placement en réserve foncière.
+
+## Contenu principal
+Constituer une réserve foncière (en anglais, « land banking »), c'est acheter un terrain brut ou peu développé sur le chemin d'une croissance future prévue, puis le conserver, souvent pendant des années ou des décennies, jusqu'à ce que le développement atteigne le secteur et que la valeur du terrain monte de façon importante; on peut alors le vendre ou le développer. FAIT VÉRIFIÉ : contrairement à la plupart des autres stratégies vues dans ce niveau, un terrain brut produit habituellement peu ou pas de revenu pendant la période de détention, puisqu'il n'y a généralement ni locataire, ni loyer, et souvent aucun RNE à proprement parler.
+
+Voici pourquoi la patience est la caractéristique déterminante de cette stratégie : comme il n'y a aucun revenu pour compenser, la réserve foncière est en somme un pari pur sur une plus-value future portée par un élément déclencheur précis, comme le prolongement prévu d'une autoroute, un nouvel employeur qui s'installe dans le secteur, l'expansion des infrastructures municipales ou simplement l'avancée vers l'extérieur du front de développement d'une région métropolitaine voisine. Sans revenu continu, les frais de détention (surtout les impôts fonciers et, si le terrain est financé, les intérêts du prêt) doivent être payés entièrement de sa poche aussi longtemps que le placement met à mûrir, ce qui peut prendre de nombreuses années, et il existe un vrai risque que la croissance prévue soit retardée, se dirige ailleurs ou ne se concrétise jamais.
+
+C'est pourquoi une thèse crédible de réserve foncière exige plus qu'une affirmation générale comme « la ville grandit » : elle exige de repérer un élément déclencheur précis et bien appuyé, de comprendre l'échéancier réaliste de cet élément déclencheur, et d'avoir la capacité financière de conserver le terrain, sans revenu pour compenser, possiblement plus longtemps que prévu au départ.
+
+## Exemple pratique
+EXEMPLE ILLUSTRATIF : Un investisseur achète un terrain brut le long d'un corridor où l'État a publié des plans de prolongement d'une autoroute qui devrait être terminé dans sept ans. L'investisseur paie environ 3 000 $ par année d'impôts fonciers sur la parcelle, sans aucun revenu pour compenser pendant toute la période de détention. Si l'autoroute est terminée à temps et que le développement suit comme lors de prolongements semblables par le passé, la valeur du terrain pourrait augmenter de façon importante. Mais si le projet d'autoroute est retardé de plusieurs années, comme c'est souvent le cas pour les projets d'infrastructure, l'investisseur doit être prêt à continuer de payer les frais de détention, sans revenu, pendant cette période prolongée et incertaine.
+
+## Questionnaire pratique
+**Q1. Qu'est-ce qui distingue la réserve foncière de la plupart des autres stratégies immobilières vues dans ce niveau?**
+A) La réserve foncière produit toujours les liquidités les plus élevées de toutes les stratégies
+B) La réserve foncière produit habituellement peu ou pas de revenu pendant la période de détention, contrairement aux stratégies d'immeubles générateurs de revenus
+C) La réserve foncière n'exige aucun investissement de capital
+D) La réserve foncière ne peut être combinée à aucune stratégie de sortie
+
+**Q2. Pourquoi dit-on que la patience est la caractéristique déterminante d'une stratégie de réserve foncière?**
+A) La valeur des terrains augmente toujours immédiatement après l'achat
+B) La thèse de placement dépend d'un élément déclencheur futur qui peut prendre des années ou des décennies à se concrétiser, sans revenu entre-temps
+C) La réserve foncière garantit un rendement en moins d'un an
+D) La patience n'a aucune influence sur la réussite de cette stratégie
+
+**Q3. Quel est le principal coût continu lié à la détention d'un terrain brut?**
+A) Les frais de gestion des locataires
+B) Les impôts fonciers, et les intérêts du prêt si le terrain est financé
+C) Des coûts de rénovation et d'entretien identiques à ceux d'un immeuble locatif
+D) Les coûts des services publics de logements occupés par des locataires
+
+**Q4. Qu'est-ce qui est nécessaire à une thèse crédible de réserve foncière, au-delà de la croyance générale qu'un secteur est en croissance?**
+A) Aucune justification précise n'est nécessaire au-delà d'un optimisme général
+B) Repérer un élément déclencheur précis et bien appuyé ainsi qu'un échéancier réaliste, et avoir la capacité financière de conserver le terrain sans revenu
+C) Une garantie de l'administration locale que le développement se fera selon le calendrier
+D) Un revenu de location immédiat tiré du terrain lui-même
+
+**Q5. Quel risque l'exemple illustre-t-il au sujet de l'élément déclencheur du prolongement de l'autoroute?**
+A) Les projets d'infrastructure sont toujours terminés exactement selon le calendrier
+B) Les projets d'infrastructure, comme le prolongement de l'autoroute, sont souvent retardés, ce qui peut prolonger la période de détention sans revenu au-delà des attentes initiales
+C) L'investisseur ne courait plus aucun risque une fois le plan de l'autoroute publié
+D) Les impôts fonciers diminuent automatiquement pendant l'attente de la fin des infrastructures
+
+## Corrigé
+Q1: B
+Q2: B
+Q3: B
+Q4: B
+Q5: B
+
+## Réponses et explications
+**Q1.** L'absence de revenu continu, contrairement aux stratégies locatives, est la caractéristique structurelle déterminante qui façonne le profil de risque de cette stratégie.
+
+**Q2.** La réussite de la stratégie est liée à une plus-value à long terme provenant d'un élément déclencheur futur, ce qui oblige l'investisseur à conserver le terrain sans revenu pendant une période prolongée et parfois incertaine.
+
+**Q3.** Comme un terrain brut n'a habituellement ni locataires ni bâtiments à entretenir, les impôts fonciers et les éventuels coûts de financement sont les principales dépenses continues.
+
+**Q4.** Une thèse crédible repose sur des éléments déclencheurs identifiables et des échéanciers réalistes, combinés à la capacité financière de tenir le coup malgré les retards.
+
+**Q5.** Les retards sont un risque réaliste et courant pour les éléments déclencheurs qui dépendent des infrastructures, ce qui prolonge la période où l'investisseur doit conserver le terrain sans revenu.
+
+## Points clés
+- La réserve foncière est une stratégie à long horizon qui produit habituellement peu ou pas de revenu pendant la période de détention.
+- La stratégie dépend d'un élément déclencheur futur précis qui stimule la plus-value, ce qui peut prendre des années et n'est pas garanti.
+- Les impôts fonciers et les coûts de financement doivent être payés de sa poche pendant toute la période de détention, sans revenu pour compenser.
+- Une thèse crédible de réserve foncière exige un élément déclencheur précis et bien appuyé, et la capacité financière de tenir le coup malgré les retards.
+
+===== RED-L4-041
+TITLE: Commercial ou résidentiel : pourquoi la durée des baux change le profil de risque
+SUMMARY: Découvrez comment la durée habituelle des baux commerciaux et résidentiels change la stabilité du revenu, et pourquoi un long bail commercial est une arme à double tranchant.
+KEYWORDS: immobilier commercial, immobilier résidentiel, durée du bail, stabilité du revenu, profil de risque
+# Commercial ou résidentiel : pourquoi la durée des baux change le profil de risque
+
+## Objectifs d'apprentissage
+- Comparer la durée habituelle des baux résidentiels et commerciaux.
+- Expliquer pourquoi des baux commerciaux plus longs peuvent offrir une plus grande stabilité du revenu.
+- Expliquer pourquoi des baux plus longs comportent aussi leur propre risque si un locataire fait défaut ou que le marché change.
+- Appliquer la notion de risque lié à la durée des baux pour comparer une occasion résidentielle et une occasion commerciale.
+
+## Contenu principal
+Les baux résidentiels durent habituellement un an, avec un roulement régulier et la possibilité de rajuster le loyer au prix du marché assez souvent. Les baux commerciaux, surtout pour les espaces de commerce de détail, de bureaux et industriels, durent souvent cinq, dix, voire vingt ans, parfois avec des hausses de loyer prévues pendant la durée du bail. FAIT VÉRIFIÉ : cette différence de fond dans la durée habituelle des baux explique une grande partie des différences de risque et d'analyse entre les deux types d'immeubles.
+
+Voici pourquoi les longs baux commerciaux touchent le risque dans les deux directions : d'un côté, un bail à long terme avec un locataire solvable procure un revenu très prévisible, semblable à celui d'une obligation, pendant des années, ce qui réduit le risque d'inoccupation et de roulement auquel les propriétaires résidentiels font face chaque année. De l'autre, cette même longue durée est une arme à double tranchant : si le locataire fait défaut ou que l'espace se libère, le propriétaire peut devoir faire une recherche longue et coûteuse pour trouver un autre locataire commercial (les locaux commerciaux vacants mettent souvent beaucoup plus de temps à se louer que les logements résidentiels), et si les loyers du marché montent fortement pendant un long bail, le propriétaire reste pris avec l'ancien loyer, maintenant sous le prix du marché, jusqu'à la fin du bail ou jusqu'à ce qu'une clause d'indexation rattrape l'écart.
+
+C'est pourquoi on décrit souvent le risque de l'immobilier commercial comme plus « binaire » que celui du résidentiel : de longues périodes de revenu très stable et prévisible, ponctuées d'événements d'inoccupation ou de défaut de locataire plus lourds de conséquences et plus longs, alors que le risque de l'immobilier résidentiel est plus fréquent, mais plus petit à chaque fois, compte tenu des cycles de bail plus courts et du plus grand nombre de locataires indépendants habituellement répartis dans un portefeuille résidentiel.
+
+## Exemple pratique
+EXEMPLE ILLUSTRATIF : Un propriétaire commercial signe un bail de 10 ans avec un détaillant national à un loyer fixe assorti de hausses annuelles modestes. Pendant des années, cela lui procure un revenu très prévisible sans aucune activité de location. La sixième année, le locataire ferme ce magasin de façon inattendue et fait défaut pour le reste de la durée du bail. Le propriétaire doit maintenant faire une recherche coûteuse, et possiblement longue, pour trouver un nouveau locataire commercial, ce qui pourrait exiger d'importantes allocations pour améliorations locatives afin d'en attirer un; une expérience de risque très différente de celle d'un propriétaire résidentiel aux prises avec un seul logement vacant et un bassin beaucoup plus grand et plus rapide de locataires potentiels.
+
+## Questionnaire pratique
+**Q1. Comment la durée habituelle des baux résidentiels se compare-t-elle à celle des baux commerciaux?**
+A) Les baux résidentiels sont habituellement beaucoup plus longs que les baux commerciaux
+B) Les baux résidentiels durent habituellement environ un an, alors que les baux commerciaux durent souvent de cinq à vingt ans
+C) Les deux ont habituellement la même durée
+D) Les baux commerciaux sont toujours au mois
+
+**Q2. Quel est le principal avantage de stabilité du revenu d'un bail commercial à long terme avec un locataire solvable?**
+A) Il garantit que l'immeuble ne connaîtra jamais d'inoccupation
+B) Il procure un revenu très prévisible, semblable à celui d'une obligation, pendant une longue période, ce qui réduit les risques fréquents de roulement et d'inoccupation
+C) Il élimine le besoin de toute assurance
+D) Il augmente automatiquement le loyer chaque année, sans limite
+
+**Q3. Quel est un risque clé d'un bail commercial à long terme si le locataire fait défaut?**
+A) Il n'y a aucun risque, puisque les locataires commerciaux ne font jamais défaut
+B) Le propriétaire peut devoir faire une recherche longue et coûteuse pour trouver un autre locataire, puisque les locaux commerciaux vacants mettent souvent plus de temps à se louer que les logements résidentiels
+C) Le bail est automatiquement transféré à un nouveau locataire sans intervention du propriétaire
+D) Le défaut d'un locataire commercial n'a aucune incidence financière sur le propriétaire
+
+**Q4. Pourquoi un propriétaire pourrait-il être désavantagé si les loyers du marché montent fortement pendant un long bail commercial à loyer fixe?**
+A) La hausse des loyers du marché augmente automatiquement le revenu du propriétaire avec un bail fixe
+B) Le propriétaire peut rester pris avec l'ancien loyer, sous le prix du marché, jusqu'à la fin du bail ou jusqu'à ce qu'une clause d'indexation rattrape l'écart
+C) La hausse des loyers du marché n'a aucun effet sur les baux existants
+D) Le locataire est tenu de payer la différence immédiatement
+
+**Q5. Pourquoi décrit-on parfois le risque de l'immobilier commercial comme plus binaire que celui du résidentiel?**
+A) Les immeubles commerciaux sont exposés au risque exactement comme les immeubles résidentiels
+B) Le risque commercial tend à comporter de longues périodes de stabilité ponctuées d'événements d'inoccupation ou de défaut plus lourds de conséquences et plus longs, contrairement au risque de roulement résidentiel, plus fréquent et à plus petite échelle
+C) L'immobilier résidentiel ne comporte aucun risque
+D) Le risque binaire ne s'applique qu'aux immeubles sans locataires
+
+## Corrigé
+Q1: B
+Q2: B
+Q3: B
+Q4: B
+Q5: B
+
+## Réponses et explications
+**Q1.** Cette différence dans la durée habituelle des baux est une distinction fondamentale entre les deux types d'immeubles.
+
+**Q2.** S'assurer d'un locataire à long terme procure un revenu prolongé et prévisible, par rapport au cycle de roulement plus fréquent des baux résidentiels.
+
+**Q3.** La même structure à long terme qui procure la stabilité veut aussi dire qu'un défaut peut entraîner une période d'inoccupation longue et coûteuse.
+
+**Q4.** Un long bail à loyer fixe peut empêcher le propriétaire de profiter de la hausse des loyers du marché jusqu'à la fin du bail ou jusqu'à l'application d'une hausse prévue.
+
+**Q5.** Le contraste entre de longues périodes stables et des événements d'inoccupation ou de défaut à fort impact caractérise le risque commercial différemment du risque de roulement résidentiel, plus fréquent et progressif.
+
+## Points clés
+- Les baux commerciaux sont habituellement beaucoup plus longs que les baux résidentiels : souvent de cinq à vingt ans, contre environ un an.
+- Les baux commerciaux à long terme procurent un revenu très prévisible, mais créent un risque plus long et plus coûteux si un locataire fait défaut.
+- Les longs baux à loyer fixe peuvent aussi laisser un propriétaire pris avec un loyer sous le prix du marché pendant les périodes de hausse des loyers.
+- Le risque commercial tend à être plus binaire (stable, puis lourd de conséquences), alors que le risque résidentiel est plus fréquent, mais plus petit à chaque fois.
+
+===== RED-L4-042
+TITLE: L'analyse des projets à usage mixte : pourquoi des sources de revenus diversifiées réduisent le risque
+SUMMARY: Découvrez comment un projet à usage mixte combine plusieurs types d'immeubles, pourquoi cela diversifie le risque à l'intérieur d'un seul immeuble et quelle complexité cela ajoute.
+KEYWORDS: projet à usage mixte, diversification des revenus, risque de développement immobilier
+# L'analyse des projets à usage mixte : pourquoi des sources de revenus diversifiées réduisent le risque
+
+## Objectifs d'apprentissage
+- Expliquer ce que combine un projet à usage mixte.
+- Expliquer pourquoi combiner plusieurs types d'usages dans un même immeuble diversifie le risque, comme le concept de diversification de portefeuille de la leçon 21.
+- Repérer la complexité additionnelle qu'un projet à usage mixte ajoute par rapport à un immeuble à usage unique.
+- Expliquer comment les projets à usage mixte peuvent créer des synergies entre les usages.
+
+## Contenu principal
+Un projet à usage mixte combine deux types d'immeubles ou plus dans un seul projet : souvent des logements résidentiels au-dessus de commerces au rez-de-chaussée, ou une combinaison de bureaux, de logements et de commerces dans un même complexe. FAIT VÉRIFIÉ : c'est différent d'un immeuble à usage unique, qui tire 100 % de son revenu d'un seul type d'immeuble et d'une seule catégorie de locataires.
+
+Voici pourquoi cela réduit le risque, en écho au principe de diversification de la leçon 21 : si la composante commerciale d'un projet à usage mixte connaît un ralentissement (disons un virage général qui délaisse les commerces physiques dans cette catégorie), le revenu de la composante résidentielle n'est pas directement lié à ce même facteur de risque, et l'inverse est aussi vrai. C'est une diversification à l'intérieur d'un seul immeuble, plutôt qu'entre plusieurs immeubles distincts, qui procure une partie du même avantage de réduction du risque que celui vu à l'échelle du portefeuille.
+
+Cet avantage s'accompagne d'une vraie complexité additionnelle : un projet à usage mixte exige de gérer différentes structures de bail (des baux commerciaux pour les commerces, selon les leçons 25 et 41, en même temps que des baux résidentiels habituellement plus courts), différentes relations avec les locataires, et souvent des arrangements de zonage et de financement plus complexes qu'un immeuble à usage unique, puisque moins de prêteurs se spécialisent dans la souscription des projets à usage mixte que dans le financement résidentiel ou commercial habituel. Les projets à usage mixte réussis créent aussi souvent de vraies synergies : les commerces du rez-de-chaussée peuvent profiter d'une clientèle intégrée, formée des résidents des étages, et les locataires résidentiels peuvent apprécier d'avoir des commodités à distance de marche, ce qui pourrait soutenir des loyers plus élevés pour les deux composantes que s'ils étaient construits comme des immeubles distincts à usage unique.
+
+## Exemple pratique
+EXEMPLE ILLUSTRATIF : Un immeuble à usage mixte comprend des commerces au rez-de-chaussée (un café et une petite épicerie) et quarante logements au-dessus. Quand une tendance nationale réduit l'achalandage d'une certaine catégorie de commerces qui n'a rien à voir avec ceux de l'immeuble, cet immeuble est moins exposé, parce que ses commerces servent la clientèle résidentielle immédiate des étages plutôt que de dépendre de l'achalandage commercial régional en général, et le revenu résidentiel continue d'entrer régulièrement, peu importe les tendances du secteur du commerce de détail; ce qui illustre l'avantage de la diversification à l'intérieur d'un seul immeuble.
+
+## Questionnaire pratique
+**Q1. Qu'est-ce qui définit un projet à usage mixte?**
+A) Un immeuble à usage unique qui ne compte que des logements résidentiels
+B) Un projet qui combine deux types d'immeubles ou plus, comme du résidentiel et du commercial, dans un même développement
+C) Un immeuble utilisé exclusivement pour l'entreposage industriel
+D) Un immeuble sans aucun locataire
+
+**Q2. Comment un projet à usage mixte obtient-il un avantage de diversification semblable à la diversification à l'échelle du portefeuille?**
+A) Il n'obtient aucun avantage de diversification
+B) Les différentes composantes, comme le commercial et le résidentiel, sont exposées à des facteurs de risque différents; un ralentissement dans l'une ne touche donc pas nécessairement l'autre
+C) Toutes les composantes d'un projet à usage mixte évoluent toujours en parfaite corrélation
+D) La diversification ne s'applique qu'entre des immeubles distincts, jamais à l'intérieur d'un même immeuble
+
+**Q3. Quelle complexité additionnelle un projet à usage mixte ajoute-t-il habituellement par rapport à un immeuble à usage unique?**
+A) Aucune complexité additionnelle; un projet à usage mixte se gère exactement comme un immeuble à usage unique
+B) La gestion de différentes structures de bail, de différentes relations avec les locataires, et souvent d'un zonage et d'un financement plus complexes
+C) Les projets à usage mixte sont toujours plus faciles à financer que les immeubles à usage unique
+D) Les projets à usage mixte ne peuvent légalement pas comprendre d'espaces commerciaux
+
+**Q4. Quel avantage de synergie possible des projets à usage mixte la leçon mentionne-t-elle?**
+A) Les commerces du rez-de-chaussée peuvent profiter d'une clientèle intégrée formée des résidents des étages, ce qui pourrait soutenir des loyers plus élevés pour les deux composantes
+B) Les immeubles à usage mixte ont toujours un loyer total plus bas que les immeubles à usage unique
+C) Aucune synergie n'est possible entre différents usages dans un même immeuble
+D) La synergie ne se produit que si les composantes commerciale et résidentielle sont gérées par des entreprises différentes
+
+**Q5. Pourquoi la composante commerciale de l'exemple est-elle restée relativement à l'abri d'une tendance nationale plus large du commerce de détail?**
+A) Elle n'a été touchée par aucune condition du marché
+B) Ses locataires servaient surtout la clientèle résidentielle immédiate des étages plutôt que de dépendre de l'achalandage commercial régional en général
+C) L'espace commercial était vacant et n'a donc pas été touché
+D) Les tendances nationales du commerce de détail touchent toujours tous les immeubles commerciaux de la même façon
+
+## Corrigé
+Q1: B
+Q2: B
+Q3: B
+Q4: A
+Q5: B
+
+## Réponses et explications
+**Q1.** Les projets à usage mixte combinent volontairement plusieurs types d'immeubles et d'usages dans un seul projet.
+
+**Q2.** Combiner des usages aux facteurs de risque différents dans un seul projet reproduit la logique de réduction du risque de la diversification entre des immeubles distincts.
+
+**Q3.** Combiner différents types d'usages exige de gérer en même temps des normes de bail, des besoins de locataires et des considérations de financement distincts.
+
+**Q4.** La proximité entre les résidents et les commerces peut créer des avantages mutuels de clientèle et de commodité qui soutiennent les loyers des deux usages.
+
+**Q5.** Servir une clientèle locale et intégrée a réduit l'exposition de cette composante commerciale à la tendance générale qui touchait d'autres immeubles commerciaux.
+
+## Points clés
+- Un projet à usage mixte combine plusieurs types d'immeubles, comme du résidentiel et du commercial, dans un seul projet.
+- Combiner des usages aux facteurs de risque différents dans un même immeuble reproduit les avantages de la diversification à l'échelle du portefeuille.
+- Cet avantage s'accompagne d'une vraie complexité additionnelle dans la gestion des baux, les relations avec les locataires, le zonage et le financement.
+- Les projets à usage mixte réussis peuvent aussi créer de vraies synergies qui soutiennent les loyers de l'ensemble des usages combinés.
+
+===== RED-L4-043
+TITLE: L'analyse du moment du marché : pourquoi attendre le creux coûte habituellement plus cher
+SUMMARY: Découvrez pourquoi le creux d'un cycle immobilier ne se reconnaît vraiment qu'après coup, ce que coûte l'attente du moment parfait et pourquoi une analyse rigoureuse vaut mieux que le choix du moment.
+KEYWORDS: moment du marché, cycles immobiliers, coût d'opportunité de l'attente, placement discipliné
+# L'analyse du moment du marché : pourquoi attendre le creux coûte habituellement plus cher
+
+## Objectifs d'apprentissage
+- Expliquer pourquoi il est extrêmement difficile de repérer en temps réel le creux exact d'un cycle du marché.
+- Expliquer le coût d'opportunité de l'attente d'un creux du marché qui pourrait ne pas arriver comme prévu.
+- Distinguer l'achat discipliné, fondé sur l'analyse, de la simple tentative de choisir le moment du marché.
+- Expliquer pourquoi une affaire bien analysée peut avoir du sens à différents moments d'un cycle.
+
+## Contenu principal
+Rappelez-vous la leçon 5 : les marchés passent par des phases de reprise, d'expansion, d'offre excédentaire et de récession. Il est tentant de croire qu'un investisseur devrait simplement attendre d'acheter au creux exact du cycle, mais voici pourquoi c'est beaucoup plus difficile en pratique qu'il n'y paraît : le creux d'un cycle ne se reconnaît clairement qu'après coup, une fois que les prix ont déjà commencé à remonter. Attendre une confirmation sans équivoque que « le creux est passé » veut habituellement dire rater la première période d'achat, souvent la plus intéressante sur le plan du prix, puisqu'au moment où le creux est évident pour tout le monde, les prix ont généralement déjà commencé à monter.
+
+Cela crée un vrai coût d'opportunité (rappelez-vous la leçon 15) quand on attend indéfiniment le moment parfait : le capital qui reste sur les lignes de côté ne rapporte aucun rendement immobilier, et un marché qui « devrait » bientôt toucher le fond selon les attentes générales peut continuer de baisser, ou se redresser de façon étonnamment rapide, ce qui déjoue les tentatives de choisir le moment avec précision. HYPOTHÈSE : cette discussion suppose qu'un investisseur ne peut pas prédire avec précision et de façon fiable les retournements du marché à court terme; une hypothèse raisonnable, vu à quel point c'est difficile même pour les analystes de marché professionnels à temps plein.
+
+C'est pourquoi l'achat discipliné, fondé sur l'analyse (axé sur les fondamentaux de chaque affaire, comme les mesures vues tout au long de ce niveau : taux de capitalisation, RCSD, taux d'occupation de rentabilité, rendement ajusté au risque), tend à faire mieux que la simple tentative de choisir le moment du marché au cours d'une carrière d'investisseur. Une affaire bien analysée, qui génère des liquidités de façon prudente et comporte un effet de levier gérable, peut avoir du sens à plusieurs moments d'un cycle, alors qu'une affaire mal analysée est risquée peu importe à quel point l'investisseur croit avoir bien choisi le moment du marché.
+
+## Exemple pratique
+EXEMPLE ILLUSTRATIF : Un investisseur décide d'attendre des « signes clairs » qu'un marché en baisse a touché le fond avant d'acheter. Au moment où les taux d'inoccupation se stabilisent clairement et que les loyers commencent visiblement à remonter (le « signe clair » qu'il attendait), les immeubles à bon prix dans les secteurs recherchés ont déjà été achetés par des acheteurs moins hésitants, et l'investisseur finit par acheter à un prix nettement plus élevé que celui qui était offert pendant la première partie de la reprise, plus incertaine, mais finalement plus intéressante sur le plan du prix.
+
+## Questionnaire pratique
+**Q1. Pourquoi est-il si difficile de repérer en temps réel le creux exact d'un cycle immobilier?**
+A) Les creux de cycle sont toujours annoncés publiquement à l'avance par les organismes gouvernementaux
+B) Les creux ne se reconnaissent habituellement clairement qu'après coup, une fois que les prix ont déjà commencé à remonter
+C) Les marchés immobiliers ne touchent jamais vraiment le fond
+D) Tous les marchés touchent le fond exactement au même moment à l'échelle nationale
+
+**Q2. Quel est le coût d'opportunité d'attendre indéfiniment un creux du marché parfaitement choisi?**
+A) Il n'y a aucun coût d'opportunité à attendre le point d'entrée parfait
+B) Le capital qui reste sur les lignes de côté ne rapporte aucun rendement immobilier pendant l'attente, et la période idéale peut passer avant d'être repérée avec assurance
+C) Attendre donne toujours un prix d'achat final plus bas
+D) Le coût d'opportunité ne s'applique qu'aux placements boursiers
+
+**Q3. Qu'est-il arrivé à l'investisseur de l'exemple qui attendait des signes clairs d'un creux du marché?**
+A) Il a acheté au prix le plus bas possible en attendant la confirmation
+B) Il a fini par acheter à un prix nettement plus élevé, après que les immeubles à bon prix ont déjà été achetés par des acheteurs moins hésitants
+C) Il a évité complètement le marché sans conséquence
+D) L'attente n'a eu aucun effet sur le prix qu'il a finalement payé
+
+**Q4. Sur quoi l'achat discipliné, fondé sur l'analyse, se concentre-t-il plutôt que sur le simple choix du moment du marché?**
+A) Choisir des immeubles au hasard, sans analyse
+B) Les fondamentaux de chaque affaire, comme le taux de capitalisation, le RCSD, le taux d'occupation de rentabilité et le rendement ajusté au risque
+C) Attendre uniquement que les médias confirment qu'un marché a touché le fond
+D) Acheter seulement au prix le plus bas exact de l'histoire
+
+**Q5. Pourquoi une affaire bien analysée peut-elle avoir du sens à plusieurs moments d'un cycle du marché?**
+A) Les affaires bien analysées ne fonctionnent qu'au creux absolu d'un marché
+B) Des liquidités prudentes et un effet de levier gérable peuvent procurer une résistance peu importe la phase du cycle, alors qu'une affaire mal analysée reste risquée peu importe le moment
+C) La qualité de l'analyse n'a aucune influence sur la performance d'une affaire selon les phases du cycle
+D) La phase du cycle n'a aucune importance pour les décisions de placement immobilier
+
+## Corrigé
+Q1: B
+Q2: B
+Q3: B
+Q4: B
+Q5: B
+
+## Réponses et explications
+**Q1.** La confirmation qu'un creux a eu lieu ne devient habituellement claire qu'une fois la reprise commencée, ce qui mine les tentatives de choisir le moment avec précision.
+
+**Q2.** Le capital inactif renonce à des rendements potentiels, et au moment où un creux est confirmé, une grande partie des prix intéressants pourrait déjà avoir disparu.
+
+**Q3.** Au moment où la reprise a été clairement confirmée, les occasions les plus intéressantes sur le plan du prix, offertes pendant la phase plus incertaine du début, avaient déjà été saisies.
+
+**Q4.** Fonder ses décisions sur des mesures précises liées à chaque affaire est une base plus fiable que d'essayer de prédire les points de retournement du cycle.
+
+**Q5.** Des fondamentaux solides procurent une marge de sécurité qui réduit la dépendance à un choix parfait du moment dans le cycle du marché.
+
+## Points clés
+- Le creux d'un cycle immobilier ne se reconnaît habituellement clairement qu'après coup, ce qui rend le choix précis du moment très difficile.
+- Attendre indéfiniment un creux confirmé comporte un vrai coût d'opportunité, notamment celui de rater les premiers prix intéressants.
+- Une analyse disciplinée, fondée sur les fondamentaux, tend à faire mieux avec le temps que les tentatives de choisir précisément le moment du marché.
+- Une affaire bien analysée peut performer raisonnablement à plusieurs phases du cycle, alors qu'une mauvaise affaire reste risquée peu importe le moment.
+
+===== RED-L4-044
+TITLE: L'analyse de la protection contre l'inflation : pourquoi l'immobilier réagit autrement que les actions
+SUMMARY: Découvrez comment la dette hypothécaire à taux fixe et la hausse des loyers aident l'immobilier à se protéger contre l'inflation, et dans quelles conditions cette protection s'affaiblit.
+KEYWORDS: protection contre l'inflation, immobilier et inflation, dette à taux fixe, croissance des loyers
+# L'analyse de la protection contre l'inflation : pourquoi l'immobilier réagit autrement que les actions
+
+## Objectifs d'apprentissage
+- Repérer les mécanismes par lesquels l'immobilier peut protéger contre l'inflation.
+- Expliquer pourquoi la dette hypothécaire à taux fixe devient relativement moins coûteuse pendant les périodes d'inflation.
+- Expliquer pourquoi les loyers peuvent s'ajuster à la hausse avec l'inflation plus facilement que certaines autres sources de revenus.
+- Expliquer dans quelles conditions les propriétés de protection contre l'inflation de l'immobilier sont plus faibles.
+
+## Contenu principal
+On décrit souvent l'immobilier comme une protection contre l'inflation, c'est-à-dire qu'il tend à aider à préserver le pouvoir d'achat pendant les périodes de hausse générale des prix, grâce à quelques mécanismes précis. FAIT VÉRIFIÉ : la dette hypothécaire à taux fixe est un mécanisme évident. Quand l'inflation monte, la valeur réelle (corrigée de l'inflation) des versements futurs d'un prêt à taux fixe diminue, ce qui veut dire que l'emprunteur rembourse en fait son prêt avec des dollars qui valent moins que ceux qu'il a empruntés au départ; un avantage direct pour un propriétaire immobilier endetté pendant les périodes d'inflation.
+
+Voici pourquoi les loyers constituent un deuxième mécanisme, et pourquoi l'immobilier peut réagir autrement que les actions : les baux résidentiels se renouvellent habituellement chaque année, et même les baux commerciaux plus longs comprennent souvent des clauses d'indexation du loyer, ce qui permet au revenu de location de s'ajuster à la hausse assez rapidement en réaction à l'inflation générale. Ce n'est pas le cas du cours de l'action d'une entreprise, qui reflète un mélange plus complexe de facteurs (croissance des bénéfices, taux d'intérêt, sentiment des investisseurs) qui ne suivent pas toujours l'inflation aussi directement ou de façon aussi prévisible que la capacité d'un propriétaire d'augmenter le loyer à chaque renouvellement de bail.
+
+Cette protection contre l'inflation n'est toutefois ni automatique ni garantie. RÈGLE PROPRE À LA RÉGION et mise en garde importante : les marchés où les loyers sont contrôlés, ou soumis à d'autres limites réglementaires sur les hausses, peuvent affaiblir fortement ce mécanisme, et les périodes d'inflation coïncident souvent avec une hausse des taux d'intérêt (rappelez-vous la leçon 7), qui peut pousser les taux de capitalisation vers le haut et la valeur des immeubles vers le bas, même pendant que les loyers eux-mêmes augmentent. L'avantage de protection contre l'inflation que procurent la hausse des loyers et le remboursement d'une dette moins coûteuse peut donc être en partie annulé par la pression sur la valeur causée par la hausse des taux de capitalisation.
+
+## Exemple pratique
+EXEMPLE ILLUSTRATIF : Un investisseur détient un immeuble financé par un prêt à taux fixe dont le versement est de 2 000 $ par mois. Pendant une période de forte inflation, ce versement de 2 000 $ reste fixe en dollars nominaux, mais son poids réel, corrigé de l'inflation, diminue chaque année, alors que le revenu de location de l'immeuble augmente à 2 800 $ par mois au cours de la même période, grâce à des renouvellements de bail portés par l'inflation. La combinaison d'un versement fixe, dont le poids réel diminue, et d'un revenu de location en hausse illustre directement le mécanisme de protection contre l'inflation, même si ce même contexte inflationniste pourrait en même temps faire monter les taux de capitalisation et les taux d'intérêt, ce qui crée une pression contraire sur la valeur globale de l'immeuble.
+
+## Questionnaire pratique
+**Q1. Comment la dette hypothécaire à taux fixe procure-t-elle un avantage de protection contre l'inflation au propriétaire d'un immeuble financé?**
+A) Les versements à taux fixe augmentent automatiquement avec l'inflation, ce qui avantage le prêteur, et non l'emprunteur
+B) La valeur réelle, corrigée de l'inflation, des versements futurs fixes diminue quand l'inflation monte, ce qui veut dire que l'emprunteur rembourse avec des dollars qui valent moins avec le temps
+C) La dette à taux fixe n'a aucun lien avec l'inflation
+D) Les prêts à taux fixe sont automatiquement convertis en prêts à taux variable pendant les périodes d'inflation
+
+**Q2. Pourquoi le revenu de location peut-il s'ajuster à l'inflation de façon plus prévisible que le cours de l'action d'une entreprise?**
+A) Le cours des actions suit toujours parfaitement l'inflation
+B) Les renouvellements de bail, surtout les baux résidentiels annuels, permettent de rajuster les loyers assez rapidement et directement, contrairement au cours des actions, qui reflète de nombreux autres facteurs
+C) La loi exige que le revenu de location augmente avec l'inflation dans tous les marchés
+D) Le cours des actions et le revenu de location évoluent toujours de façon identique
+
+**Q3. Qu'est-ce qui peut affaiblir, dans certains marchés, le mécanisme de hausse des loyers de la protection contre l'inflation de l'immobilier?**
+A) Rien ne peut limiter ce mécanisme dans aucun marché
+B) Le contrôle des loyers ou d'autres limites réglementaires sur les hausses de loyer
+C) Les prêts hypothécaires à taux fixe éliminent toujours ce mécanisme
+D) Seuls les immeubles commerciaux sont touchés par cette limite
+
+**Q4. Pourquoi la hausse des taux d'intérêt pendant une période d'inflation pourrait-elle annuler en partie les avantages de protection contre l'inflation de l'immobilier?**
+A) La hausse des taux d'intérêt n'a aucun effet sur la valeur des immeubles
+B) La hausse des taux peut pousser les taux de capitalisation vers le haut, ce qui fait pression sur la valeur des immeubles à la baisse, même pendant que les loyers augmentent
+C) La hausse des taux d'intérêt fait toujours monter directement la valeur des immeubles
+D) Les taux d'intérêt et l'inflation n'ont aucun lien
+
+**Q5. Dans l'exemple, quels deux mécanismes se sont combinés pour illustrer le comportement de protection contre l'inflation de l'immobilier?**
+A) Des loyers en baisse et des versements de prêt en hausse
+B) Un versement de prêt fixe dont le poids réel a diminué, combiné à un revenu de location qui a augmenté grâce à des renouvellements de bail portés par l'inflation
+C) Un prêt à taux variable et un revenu de location stable
+D) Des impôts fonciers en baisse et des coûts d'assurance en hausse
+
+## Corrigé
+Q1: B
+Q2: B
+Q3: B
+Q4: B
+Q5: B
+
+## Réponses et explications
+**Q1.** Comme le versement nominal reste fixe pendant que les prix en général augmentent, le poids réel du remboursement de cette dette diminue avec le temps sous l'effet de l'inflation.
+
+**Q2.** Le cycle régulier de renouvellement des baux donne aux propriétaires un mécanisme assez direct et fréquent pour ajuster leur revenu en fonction de l'inflation, contrairement aux facteurs plus complexes derrière le cours des actions.
+
+**Q3.** Les plafonds réglementaires sur les loyers peuvent empêcher directement les propriétaires d'ajuster les loyers au rythme de l'inflation, ce qui affaiblit ce mécanisme de protection en particulier.
+
+**Q4.** La pression sur les taux de capitalisation causée par la hausse des taux, vue à la leçon 7, peut aller à l'encontre des effets favorables de la hausse des loyers sur la valeur pendant la même période d'inflation.
+
+**Q5.** La combinaison d'une obligation de dette fixe, dont le poids diminue en réalité, et d'un revenu de location en hausse démontre ensemble le mécanisme de protection contre l'inflation.
+
+## Points clés
+- La dette hypothécaire à taux fixe devient relativement moins coûteuse en termes réels quand l'inflation monte, ce qui avantage les propriétaires endettés.
+- Les renouvellements de bail réguliers permettent au revenu de location de s'ajuster à l'inflation plus directement que les sources de revenus de nombreuses autres catégories d'actifs.
+- Le contrôle des loyers et d'autres limites réglementaires peuvent affaiblir, dans certains marchés, le mécanisme de hausse des loyers de cette protection contre l'inflation.
+- La hausse des taux d'intérêt pendant les périodes d'inflation peut annuler en partie ces avantages en faisant pression sur les taux de capitalisation et la valeur des immeubles.

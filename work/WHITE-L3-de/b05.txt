@@ -1,0 +1,183 @@
+===== WHITE-L3-017
+TITLE: Warum Dividenden kein „geschenktes Geld“ sind
+SUMMARY: Erfahre, warum eine Dividendenzahlung den Aktienkurs ungefähr um denselben Betrag senkt und warum Dividenden eine Umverteilung von Wert sind, kein Bonus.
+# WHITE-L3-017: Warum Dividenden kein „geschenktes Geld“ sind
+
+## Lernziele
+Am Ende dieser Lektion kannst du:
+- erklären, warum der Aktienkurs am Ex-Dividenden-Tag typischerweise ungefähr um den Dividendenbetrag fällt
+- erklären, warum eine Dividende eine Umverteilung bestehenden Werts ist und kein neu geschaffenes Vermögen
+- erklären, warum die „Gesamtrendite“ der vollständigere Maßstab für die Bewertung einer dividendenzahlenden Anlage ist
+
+## Hauptinhalt
+
+Man stellt sich eine Dividendenzahlung leicht als zusätzliches Geld obendrauf auf den bestehenden Wert einer Aktie vor – eine Belohnung dafür, die Aktie zu halten. Hier das „Warum“, weshalb diese Sichtweise irreführt: Ein Unternehmen zahlt Dividenden aus seinen eigenen liquiden Mitteln, was sein verbleibendes Vermögen verringert. [VERIFIED FACT] Am Ex-Dividenden-Tag fällt der Aktienkurs typischerweise ungefähr um den ausgeschütteten Dividendenbetrag (der sogenannte Dividendenabschlag) – ein Zeichen dafür, dass das Unternehmen jetzt etwas weniger wert ist, weil es einen Teil seiner liquiden Mittel an die Aktionärinnen und Aktionäre ausgeschüttet hat.
+
+Eine Dividende ist also kein neues Vermögen, das aus dem Nichts entsteht – sie ist eine Umverteilung von Wert, der bereits im Unternehmen steckte und nun als Bargeld in die Tasche der Aktionäre wandert, statt Teil des Aktienkurses zu bleiben. Die Aktionärin ist im Moment der Auszahlung nicht spürbar reicher; sie hält einfach denselben Gesamtwert, aufgeteilt auf einen etwas niedrigeren Aktienkurs und die erhaltene Bardividende.
+
+Deshalb ist die **Gesamtrendite** – Kurssteigerung und Dividenden zusammen – der vollständigere Maßstab für die tatsächliche Wertentwicklung einer Anlage, statt Dividendeneinnahmen oder Kurssteigerung isoliert zu betrachten.
+
+## Durchgerechnetes Beispiel
+
+[ILLUSTRATIVE EXAMPLE] Eine Aktie notiert am Tag vor der Zahlung einer Dividende von 2 € je Aktie bei 100 €. Am Ex-Dividenden-Tag passt sich der Kurs bei sonst gleichen Bedingungen typischerweise auf ungefähr 98 € an – ein Spiegel der 2 € je Aktie, die das Unternehmen gerade als Barzahlung verlassen haben. Eine Anlegerin mit einer Aktie hält nun 98 € in der Aktie plus 2 € in bar – insgesamt immer noch 100 €, genauso viel wie vor der Dividendenzahlung. Die Dividende hat kein neues Vermögen geschaffen; sie hat nur 2 € bestehenden Aktienwert in 2 € Bargeld umgewandelt.
+
+## Übungsquiz
+1. Was passiert typischerweise am Ex-Dividenden-Tag mit dem Aktienkurs, und warum?
+2. Warum versteht man eine Dividende besser als Umverteilung von Wert statt als neu geschaffenes Vermögen?
+3. Warum gilt die „Gesamtrendite“ als vollständigerer Maßstab der Wertentwicklung, als nur die Dividenden zu betrachten?
+
+## Lösungsschlüssel
+1. Der Kurs fällt typischerweise ungefähr um den Dividendenbetrag, weil die liquiden Mittel des Unternehmens – und damit sein Gesamtwert – um genau diesen Betrag gesunken sind.
+2. Weil der Gesamtwert der Aktionärin (Aktienkurs plus erhaltene Dividende) unmittelbar nach der Zahlung ungefähr gleich bleibt – die Dividende wandelt nur einen Teil des bestehenden Aktienwerts in Bargeld um, statt neuen Wert hinzuzufügen.
+3. Weil sie Kurssteigerung und Dividendeneinnahmen zusammenfasst und so die vollständige Wertentwicklung der Anlage erfasst, statt nur einen Teil davon.
+
+## Antworten und Erklärungen
+1. Das ist die mechanische Tatsache, um die die ganze Lektion aufgebaut ist.
+2. Das ist der zentrale Perspektivwechsel, den die Lektion vermitteln soll.
+3. Das führt den vollständigeren Bewertungsrahmen ein, auf den das Konzept hinausläuft.
+
+## Das Wichtigste in Kürze
+- Der Aktienkurs fällt am Ex-Dividenden-Tag typischerweise ungefähr um den Dividendenbetrag.
+- Eine Dividende verteilt bestehenden Unternehmenswert als Bargeld an die Aktionäre um – sie schafft für sich allein kein neues Vermögen.
+- Die Gesamtrendite aus Kurssteigerung und Dividenden ist ein vollständigerer Maßstab für die tatsächliche Wertentwicklung einer Anlage.
+
+## Hinweis zum Bildungszweck
+Diese Lektion dient ausschließlich der allgemeinen finanziellen Bildung und ist keine individuelle Finanz-, Anlage-, Steuer- oder Rechtsberatung. Alle Zahlen sind veranschaulichende Schätzungen, keine Garantien. Wende dich vor Anlageentscheidungen an eine zugelassene Fachperson, etwa eine unabhängige Anlage- oder Honorarberatung.
+
+===== WHITE-L3-018
+TITLE: Warum die Duration einer Anleihe ihre Zinsempfindlichkeit misst
+SUMMARY: Erfahre, was die Duration einer Anleihe misst, warum Anleihen mit längerer Duration empfindlicher auf Zinsänderungen reagieren und warum das für Anleiheanleger wichtig ist.
+# WHITE-L3-018: Warum die Duration einer Anleihe ihre Zinsempfindlichkeit misst
+
+## Lernziele
+Am Ende dieser Lektion kannst du:
+- die Duration einer Anleihe definieren
+- erklären, warum Anleihen mit längerer Duration empfindlicher auf Zinsänderungen reagieren
+- erklären, warum zwei Anleihen mit demselben Fälligkeitstermin unterschiedliche Durationen haben können
+
+## Hauptinhalt
+
+Die **Duration** ist ein Maß für die Empfindlichkeit einer Anleihe gegenüber Zinsänderungen. Sie wird in einer Form ausgedrückt, die an Jahre erinnert, steht aber für etwas Genaueres: grob gesagt, wie stark sich der Kurs einer Anleihe bei einer bestimmten Zinsänderung voraussichtlich verändert.
+
+Hier das „Warum“, weshalb eine längere Duration mehr Empfindlichkeit bedeutet: Eine Anleihe, deren Zahlungen erst später eingehen, wird stärker von einer Änderung des Marktzinses beeinflusst, weil mehr ihres Werts von weiter in der Zukunft liegenden Zahlungen abhängt – und diese werden stärker von einer Änderung des Zinssatzes beeinflusst, mit dem man sie heute bewertet (ein Konzept, das mit dem Zusammenhang zwischen Zinsen und Anleihekursen aus der nächsten Lektion zusammenhängt).
+
+[VERIFIED FACT] Die Duration ist nicht identisch mit der Laufzeit einer Anleihe – auch der Kupon (die zwischendurch gezahlten Zinsen) beeinflusst die Duration. Eine Anleihe mit größeren regelmäßigen Zahlungen gibt mehr von ihrem Wert früher zurück und hat daher im Allgemeinen eine etwas kürzere Duration als eine Anleihe mit demselben Fälligkeitstermin, aber kleineren oder gar keinen regelmäßigen Zahlungen (eine Nullkuponanleihe zum Beispiel hat eine Duration, die ihrer vollen Laufzeit entspricht, weil sie ihren gesamten Wert erst ganz am Ende zurückzahlt).
+
+## Durchgerechnetes Beispiel
+
+[ILLUSTRATIVE EXAMPLE] Zwei Anleihen werden beide in 10 Jahren fällig. Anleihe A zahlt zwischendurch regelmäßig spürbare Zinsen und gibt dem Anleger so einen Teil ihres Werts schon vor der Fälligkeit zurück – ihre Duration ist daher etwas kürzer als 10 Jahre. Anleihe B ist eine Nullkuponanleihe, zahlt bis zur Fälligkeit nichts und gibt ihren gesamten Wert erst nach 10 Jahren zurück – ihre Duration entspricht der vollen Laufzeit von 10 Jahren. [ASSUMPTION] Steigen die Zinsen um denselben Betrag, würde man typischerweise erwarten, dass der Kurs von Anleihe B stärker fällt als der von Anleihe A – allein wegen ihrer längeren Duration, obwohl beide zum selben Zeitpunkt fällig werden.
+
+## Übungsquiz
+1. Was misst die Duration einer Anleihe?
+2. Warum bedeutet eine längere Duration im Allgemeinen eine größere Empfindlichkeit gegenüber Zinsänderungen?
+3. Warum können zwei Anleihen mit demselben Fälligkeitstermin unterschiedliche Durationen haben?
+
+## Lösungsschlüssel
+1. Die Empfindlichkeit einer Anleihe gegenüber Zinsänderungen – grob gesagt, wie stark sich ihr Kurs bei einer bestimmten Zinsänderung voraussichtlich verändert.
+2. Weil mehr vom Wert der Anleihe von weiter in der Zukunft liegenden Zahlungen abhängt, die stärker von einer Änderung des Zinssatzes beeinflusst werden, mit dem man sie heute bewertet.
+3. Weil die Duration auch von der Höhe und dem Zeitpunkt der regelmäßigen Zinszahlungen abhängt – eine Anleihe, die mehr Wert früher zurückgibt (höhere Kuponzahlungen), hat eine kürzere Duration als eine, die den Großteil oder ihren gesamten Wert erst bei Fälligkeit zurückgibt.
+
+## Antworten und Erklärungen
+1. Das ist die grundlegende Definition, die man für den Rest der Lektion braucht.
+2. Das ist der zentrale Mechanismus, der den Zusammenhang zwischen Duration und Zinsempfindlichkeit erklärt.
+3. Das ergänzt eine wichtige Feinheit, die die Duration von der bloßen Laufzeit unterscheidet.
+
+## Das Wichtigste in Kürze
+- Die Duration misst die Empfindlichkeit einer Anleihe gegenüber Zinsänderungen und ist nicht dasselbe wie ihr Fälligkeitstermin.
+- Anleihen mit längerer Duration reagieren im Allgemeinen empfindlicher auf Zinsänderungen als Anleihen mit kürzerer Duration.
+- Die Kuponzahlungen einer Anleihe beeinflussen ihre Duration – höhere und häufigere Zahlungen verkürzen die Duration im Verhältnis zur Laufzeit im Allgemeinen.
+
+## Hinweis zum Bildungszweck
+Diese Lektion dient ausschließlich der allgemeinen finanziellen Bildung und ist keine individuelle Finanz-, Anlage-, Steuer- oder Rechtsberatung. Alle Zahlen sind veranschaulichende Schätzungen, keine Garantien. Wende dich vor Anlageentscheidungen an eine zugelassene Fachperson, etwa eine unabhängige Anlage- oder Honorarberatung.
+
+===== WHITE-L3-019
+TITLE: Warum sich Anleihekurse und Zinsen in entgegengesetzte Richtungen bewegen
+SUMMARY: Erfahre den mechanischen Grund, warum steigende Zinsen die Kurse bestehender Anleihen fallen lassen, und warum dieser Zusammenhang vorhersehbar und nicht zufällig ist.
+# WHITE-L3-019: Warum sich Anleihekurse und Zinsen in entgegengesetzte Richtungen bewegen
+
+## Lernziele
+Am Ende dieser Lektion kannst du:
+- erklären, warum Anleihekurse fallen, wenn die Zinsen steigen
+- erklären, warum Anleihekurse steigen, wenn die Zinsen fallen
+- erklären, warum dieser Zusammenhang eine Frage des Vergleichs ist und kein unternehmensspezifisches Risiko
+
+## Hauptinhalt
+
+Anleihen zahlen einen festen Zinssatz (den Kupon), der bei der Ausgabe festgelegt wird. Die Zinsen am Gesamtmarkt verändern sich dagegen mit der Zeit. Hier das „Warum“, weshalb das einen vorhersehbaren, gegenläufigen Zusammenhang zwischen den Kursen bestehender Anleihen und den aktuellen Zinsen erzeugt: Die festen Zahlungen einer bestehenden Anleihe werden mehr oder weniger attraktiv, je nachdem, was neue Anleihen gerade bieten.
+
+Steigen die Zinsen nach der Ausgabe einer Anleihe, kommen neue Anleihen mit höheren festen Zahlungen auf den Markt als der feste Satz der älteren Anleihe – die ältere, niedriger verzinste Anleihe wird im Vergleich weniger attraktiv. Damit sie für mögliche Käufer wettbewerbsfähig bleibt, muss ihr Kurs fallen, was ihre Rendite (den Ertrag im Verhältnis zu ihrem Kurs) an die aktuellen Marktbedingungen anpasst. Fallen die Zinsen, passiert das Gegenteil: Die vergleichsweise höheren festen Zahlungen der älteren Anleihe wirken attraktiver als das, was neu erhältlich ist, also steigt ihr Kurs.
+
+[VERIFIED FACT] Dieser Zusammenhang betrifft den Kurs einer Anleihe, wenn sie vor der Fälligkeit verkauft wird – wer eine Anleihe bis zur vollen Fälligkeit hält, erhält weiterhin die ursprünglichen festen Zahlungen und die Rückzahlung des Nennwerts wie versprochen (sofern kein Zahlungsausfall eintritt), egal was in der Zwischenzeit mit den Zinsen oder dem Kurs der Anleihe passiert.
+
+## Durchgerechnetes Beispiel
+
+[ILLUSTRATIVE EXAMPLE] Eine Anlegerin hält eine Anleihe mit einem festen Zinssatz von 3 %. Danach steigen die Zinsen am Gesamtmarkt, und neue, vergleichbare Anleihen bieten nun 5 %. Wollte sie ihre 3-%-Anleihe vor der Fälligkeit verkaufen, müsste sie sie zu einem niedrigeren Kurs anbieten, als sie bezahlt hat, denn ein Käufer könnte sonst einfach eine neue 5-%-Anleihe kaufen – erst die Kursanpassung macht ihre ältere, niedriger verzinste Anleihe wieder wettbewerbsfähig. Hält sie die Anleihe dagegen bis zur Fälligkeit, erhält sie weiterhin die ursprünglichen Zahlungen von 3 % und wie versprochen ihren Nennwert zurück – unberührt davon, was in der Zwischenzeit mit den Marktzinsen geschehen ist.
+
+## Übungsquiz
+1. Warum fällt der Kurs einer Anleihe, wenn die Zinsen steigen?
+2. Warum steigt der Kurs einer Anleihe, wenn die Zinsen fallen?
+3. Betrifft dieser Kurszusammenhang eine Anlegerin, die eine Anleihe bis zur Fälligkeit hält? Warum oder warum nicht?
+
+## Lösungsschlüssel
+1. Weil neue Anleihen höhere feste Zahlungen bieten und die ältere, niedriger verzinste Anleihe dadurch weniger attraktiv wird, solange ihr Kurs nicht so weit fällt, dass ihre effektive Rendite wettbewerbsfähig ist.
+2. Weil die vergleichsweise höheren festen Zahlungen der älteren Anleihe attraktiver werden als die neu erhältlichen niedrigeren Zinsen, was die Nachfrage nach ihr erhöht und ihren Kurs steigen lässt.
+3. Nein, was die versprochenen Zahlungen angeht – wer bis zur Fälligkeit hält, erhält weiterhin die ursprünglichen festen Zahlungen und den Nennwert wie versprochen (sofern kein Zahlungsausfall eintritt), unabhängig von Kursschwankungen unterwegs.
+
+## Antworten und Erklärungen
+1. Das ist der zentrale Mechanismus, der den gegenläufigen Zusammenhang erklärt.
+2. Das bestätigt das Verständnis des Zusammenhangs in der Gegenrichtung.
+3. Das ist eine wichtige Klarstellung, die das Marktpreisrisiko von den vertraglichen Zahlungsbedingungen der Anleihe unterscheidet.
+
+## Das Wichtigste in Kürze
+- Anleihekurse und Zinsen bewegen sich in entgegengesetzte Richtungen: Zinsen hoch, Kurse bestehender Anleihen runter – und umgekehrt.
+- Das passiert, weil die festen Zahlungen bestehender Anleihen im Vergleich zu den neu erhältlichen Zinsen mehr oder weniger attraktiv werden.
+- Dieser Kurszusammenhang betrifft den Verkauf einer Anleihe vor der Fälligkeit; wer bis zur Fälligkeit hält, erhält trotzdem die ursprünglich versprochenen Zahlungen, unabhängig von Zinsänderungen unterwegs.
+
+## Hinweis zum Bildungszweck
+Diese Lektion dient ausschließlich der allgemeinen finanziellen Bildung und ist keine individuelle Finanz-, Anlage-, Steuer- oder Rechtsberatung. Alle Zahlen sind veranschaulichende Schätzungen, keine Garantien. Wende dich vor Anlageentscheidungen an eine zugelassene Fachperson, etwa eine unabhängige Anlage- oder Honorarberatung.
+
+===== WHITE-L3-020
+TITLE: Warum Kreditrisiko und Zinsänderungsrisiko zwei verschiedene Anleiherisiken sind
+SUMMARY: Erfahre, warum eine Anleihe aus zwei völlig unterschiedlichen Gründen an Wert verlieren kann – und warum es deine Sichtweise verändert, welcher davon gerade wirkt.
+# WHITE-L3-020: Warum Kreditrisiko und Zinsänderungsrisiko zwei verschiedene Anleiherisiken sind
+
+## Lernziele
+Am Ende dieser Lektion kannst du:
+- bei Anleihen zwischen Kreditrisiko und Zinsänderungsrisiko unterscheiden
+- erklären, warum diese beiden Risiken den Kurs einer Anleihe unabhängig voneinander beeinflussen können
+- erklären, warum ein Anleiherating vor allem das Kreditrisiko widerspiegelt und nicht das Zinsänderungsrisiko
+
+## Hauptinhalt
+
+Lektion 19 hat erklärt, wie sich Anleihekurse gegenläufig zu den allgemeinen Zinsen bewegen – das ist das **Zinsänderungsrisiko**, und es betrifft praktisch alle Anleihen, selbst die sichersten. Es gibt ein zweites, eigenständiges Risiko, das Anleihekurse ebenfalls beeinflusst: das **Kreditrisiko** (Bonitäts- oder Ausfallrisiko) – das Risiko, dass der Emittent der Anleihe seine versprochenen Zahlungen wegen finanzieller Schwierigkeiten oder eines Zahlungsausfalls überhaupt nicht leisten kann.
+
+Hier das „Warum“, weshalb man beide getrennt halten sollte: Der Kurs einer Anleihe kann fallen, weil die allgemeinen Zinsen steigen, ohne dass sich an der finanziellen Lage des Emittenten irgendetwas geändert hat – das ist Zinsänderungsrisiko, und es trifft selbst Anleihen der finanziell solidesten Emittenten. Der Kurs einer Anleihe kann aber auch fallen, weil der Markt sich Sorgen um die Zahlungsfähigkeit genau dieses Emittenten macht, selbst wenn sich die allgemeinen Zinsen nicht bewegt haben – das ist Kreditrisiko, und es betrifft nur diesen Emittenten.
+
+[VERIFIED FACT] Anleiheratings, die von unabhängigen Ratingagenturen vergeben werden, sollen das Kreditrisiko eines Emittenten widerspiegeln – die Wahrscheinlichkeit eines Zahlungsausfalls –, nicht die Empfindlichkeit seiner Anleihe gegenüber Zinsänderungen. Ein sehr gutes Rating (ein Hinweis auf geringes Kreditrisiko) kann daher auch für eine Anleihe mit erheblichem Zinsänderungsrisiko gelten, wenn sie eine lange Duration hat (Lektion 18).
+
+## Durchgerechnetes Beispiel
+
+[ILLUSTRATIVE EXAMPLE] Bei zwei Anleihen fällt im selben Zeitraum der Kurs. Der Emittent von Anleihe A bleibt finanziell stark und unverändert, aber der Rückgang entstand, weil die allgemeinen Zinsen gestiegen sind – ein reines Ereignis des Zinsänderungsrisikos. Der Emittent von Anleihe B hat dagegen beunruhigende Finanznachrichten veröffentlicht, die echte Zweifel an seiner Fähigkeit wecken, künftige Zahlungen zu leisten – ein Ereignis des Kreditrisikos, das den Kurs unabhängig von der Zinsentwicklung fallen lässt. [ASSUMPTION] Wer diese beiden Ursachen verwechselt, könnte fälschlich annehmen, der Kursrückgang von Anleihe B sei wie bei Anleihe A vorübergehend und zinsbedingt, obwohl er in Wahrheit ein ernsteres, emittentenspezifisches Problem widerspiegelt.
+
+## Übungsquiz
+1. Was ist bei Anleihen der Unterschied zwischen Kreditrisiko und Zinsänderungsrisiko?
+2. Warum kann der Kurs einer Anleihe wegen des Zinsänderungsrisikos fallen, auch wenn sich die finanzielle Lage des Emittenten nicht verändert hat?
+3. Was spiegelt ein Anleiherating laut dieser Lektion vor allem wider?
+
+## Lösungsschlüssel
+1. Das Zinsänderungsrisiko ist das Risiko von Kursänderungen durch allgemeine Zinsbewegungen und betrifft praktisch alle Anleihen; das Kreditrisiko ist das Risiko, dass ein bestimmter Emittent seine versprochenen Zahlungen nicht leisten kann, unabhängig von den allgemeinen Zinsen.
+2. Weil das Zinsänderungsrisiko widerspiegelt, wie die festen Zahlungen einer Anleihe im Vergleich zu den neu erhältlichen Marktzinsen abschneiden – ein Faktor, der völlig unabhängig von der finanziellen Lage des Emittenten ist.
+3. Das Kreditrisiko des Emittenten – die Wahrscheinlichkeit eines Zahlungsausfalls –, nicht die Empfindlichkeit der Anleihe gegenüber Zinsänderungen.
+
+## Antworten und Erklärungen
+1. Das ist die zentrale Unterscheidung, um die die Lektion aufgebaut ist.
+2. Das knüpft direkt an den in Lektion 19 erklärten Mechanismus an.
+3. Das klärt einen häufigen Irrtum – auch eine Anleihe mit sehr gutem Rating kann ein erhebliches Zinsänderungsrisiko tragen.
+
+## Das Wichtigste in Kürze
+- Das Zinsänderungsrisiko betrifft fast alle Anleihen und entsteht durch allgemeine Zinsbewegungen, unabhängig von der finanziellen Lage des Emittenten.
+- Das Kreditrisiko betrifft einen bestimmten Emittenten und spiegelt die Wahrscheinlichkeit wider, dass er versprochene Zahlungen nicht leistet.
+- Anleiheratings spiegeln gezielt das Kreditrisiko wider, nicht die Empfindlichkeit einer Anleihe gegenüber Zinsänderungen.
+
+## Hinweis zum Bildungszweck
+Diese Lektion dient ausschließlich der allgemeinen finanziellen Bildung und ist keine individuelle Finanz-, Anlage-, Steuer- oder Rechtsberatung. Alle Zahlen sind veranschaulichende Schätzungen, keine Garantien. Wende dich vor Anlageentscheidungen an eine zugelassene Fachperson, etwa eine unabhängige Anlage- oder Honorarberatung.

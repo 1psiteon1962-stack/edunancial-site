@@ -1,0 +1,403 @@
+===== GREEN-L1-011
+TITLE: Gross Income vs. Net Income
+SUMMARY: Clarifies the difference between gross and net income, a foundational distinction for reading payslips, budgeting, and business finances.
+# Gross Income vs. Net Income
+
+## Learning Objectives
+
+- Define gross income and net income.
+- Explain what typically causes the gap between the two.
+- Apply the distinction to a pay scenario.
+
+## Core Content
+
+Gross income is the total amount earned before anything is subtracted. Net income is what's left after subtractions — taxes, and often other deductions like pension contributions or student loan repayments — are taken out. The gap between gross and net is where most people get surprised the first time they see a real payslip. (In the UK, for example, the usual deductions from an employee's gross pay are Income Tax, National Insurance, workplace pension contributions and, for some people, student loan repayments.)
+
+This distinction matters far beyond pay. Businesses talk about gross revenue versus net profit using the same underlying logic: gross is the top-line total, net is what remains after costs and obligations are subtracted. Whenever you hear a number described as 'gross,' the first question worth asking is: gross of what, exactly, and how much smaller will net be?
+
+## Worked Example
+
+**Question:** A job offer says the salary is £60,000. Is that the amount that will actually land in the bank account each year?
+
+**Student:** I'd guess no, since taxes and other deductions come out first.
+
+**Guide:** Right — what would you call the £60,000 figure, and what would you call the amount that actually lands in the account?
+
+**Student:** The £60,000 is gross income, and the amount left after taxes and deductions is net income.
+
+**Guide:** Exactly — always budget based on net, not gross.
+
+## Practice Quiz
+
+**Question 1.** Gross income is:
+
+A) The amount after all deductions
+B) The total amount earned before any deductions
+C) Only investment income
+D) Always equal to net income
+
+**Question 2.** Net income is:
+
+A) The amount before deductions
+B) What remains after taxes and other deductions are subtracted
+C) Unrelated to gross income
+D) Always higher than gross income
+
+**Question 3.** Why does the gap between gross and net matter for budgeting?
+
+A) It doesn't matter
+B) Budgeting on gross instead of net can lead to overestimating available money
+C) Net is always higher than gross
+D) Gross is irrelevant to businesses
+
+**Question 4.** Businesses use a similar gross vs. net distinction for:
+
+A) Revenue versus profit
+B) Nothing — it's personal-finance-only
+C) Only employee headcount
+D) Only marketing spend
+
+## Answer Key
+
+1. B, 2. B, 3. B, 4. A
+
+## Answers and Explanations
+
+**1.** Gross is the top-line, pre-deduction total — the headline number.
+
+**2.** Net is the actual amount left after taxes and other subtractions, and it's what actually reaches your account.
+
+**3.** Planning around the gross figure risks assuming you have more spendable money than you actually will.
+
+**4.** Businesses apply the identical logic to revenue (gross) versus profit (net).
+
+## Key Takeaways
+
+- Gross income is the total before deductions; net income is what's left after them.
+- The gap is typically taxes plus other deductions like pension contributions or student loan repayments.
+- Always budget based on net income, not gross.
+- The same gross-versus-net logic applies to business revenue and profit.
+
+===== GREEN-L1-012
+TITLE: Reading Your Payslip
+SUMMARY: A practical walkthrough of how to read a typical payslip, connecting earlier concepts (gross/net, tax deducted at source, payroll tax) to a real document.
+# Reading Your Payslip
+
+## Learning Objectives
+
+- Identify the major sections of a typical payslip.
+- Locate gross pay, deductions, and net pay on a sample payslip.
+- Explain why reviewing a payslip regularly is a good habit.
+
+## Core Content
+
+A payslip is the document, paper or digital, that breaks down your pay for each pay period. While formats vary by employer and country, most payslips share a common structure: gross pay at the top, a list of deductions in the middle (taxes, pension contributions, other deductions), and net pay — the amount actually paid into your account — at the bottom.
+
+The deductions section usually separates different categories: income tax, payroll tax (in the UK, National Insurance), and any voluntary or agreed deductions, like extra pension contributions. A payslip also typically shows year-to-date totals, which let you track your cumulative earnings and deductions across the tax year, not just for a single pay period. (UK payslips also usually show your tax code and National Insurance number; an unexpected change in your tax code is worth checking with HMRC.)
+
+Reviewing your payslip regularly is a practical habit, not just a bureaucratic exercise. It's how you catch errors — wrong hours, the wrong tax code, a missed pay rise — before they compound over months. It's also how you build a running, real sense of the gap between what you earn and what you take home, which feeds directly into budgeting.
+
+## Worked Example
+
+**Question:** A worker glances at their payslip and sees a 'YTD' column. What does that likely mean, and why would it matter?
+
+**Student:** I'd guess YTD stands for 'year to date' — the running total since the start of the tax year.
+
+**Guide:** Right. Why would that running total be useful, beyond just this one month's numbers?
+
+**Student:** It lets you track total earnings and total tax deducted over time, which helps you catch mistakes or plan ahead instead of only seeing one pay period at a time.
+
+**Guide:** Exactly — a single payslip is a snapshot; YTD gives you the trend.
+
+## Practice Quiz
+
+**Question 1.** A payslip typically shows:
+
+A) Only the net pay amount
+B) Gross pay, deductions, and net pay
+C) Only tax owed for the year
+D) Nothing related to taxes
+
+**Question 2.** 'YTD' on a payslip most likely stands for:
+
+A) Yearly Tax Deduction
+B) Year to Date
+C) Your Total Debt
+D) Yield to Date
+
+**Question 3.** Reviewing payslips regularly helps you:
+
+A) Nothing useful
+B) Catch errors like wrong hours or an incorrect tax code
+C) Avoid paying any taxes
+D) Increase your gross pay automatically
+
+**Question 4.** The deductions section of a payslip commonly includes:
+
+A) Only voluntary purchases
+B) Income tax, payroll tax, and voluntary deductions
+C) Only holiday days
+D) Nothing related to tax
+
+## Answer Key
+
+1. B, 2. B, 3. B, 4. B
+
+## Answers and Explanations
+
+**1.** A standard payslip walks from gross pay through deductions to the final net pay figure.
+
+**2.** YTD (year to date) totals give a running picture across the tax year, not just one pay period.
+
+**3.** Catching a payroll error early — before it repeats for months — is one of the most practical reasons to check payslips.
+
+**4.** Deductions typically bundle required tax deductions with any elective contributions the employee has set up.
+
+## Key Takeaways
+
+- Payslips generally move from gross pay, through deductions, to net pay.
+- YTD figures track cumulative totals across the tax year, not just one pay period.
+- Regularly reviewing payslips helps catch payroll errors early.
+- Understanding your payslip connects directly to the gross/net and tax-deduction concepts from earlier lessons.
+
+===== GREEN-L1-013
+TITLE: What Is Withholding (Tax Deducted at Source)?
+SUMMARY: Explains withholding, or tax deducted at source — why employers take out estimated tax before you're paid, rather than waiting for one lump sum later.
+# What Is Withholding (Tax Deducted at Source)?
+
+## Learning Objectives
+
+- Define withholding in plain terms.
+- Explain why withholding exists as a pay-as-you-go system.
+- Recognise withholding as an estimate, not a final tax bill.
+
+## Core Content
+
+Withholding — often called tax deducted at source — is money an employer takes out of your pay in advance and sends directly to the government on your behalf, as a payment toward your tax bill. Instead of waiting until the end of the year for a single large tax payment, most systems collect tax gradually, pay packet by pay packet, throughout the year. (In the UK, for example, this is the Pay As You Earn system, known as PAYE.)
+
+It's important to understand that withholding is an estimate, not the final word. At the end of the tax year, your actual tax liability is worked out based on your total income, allowances, and reliefs — and that number is compared to what was deducted. If too much was deducted, you typically get money back (a refund). If too little was deducted, you typically owe more. The amount deducted is usually based on information held about you — in the UK, your tax code — which is why life changes (a new job, a second job, a change in benefits or allowances) are a good reason to check that your tax code is right.
+
+## Worked Example
+
+**Question:** A worker's employer deducts tax from every pay packet all year. At year-end, is there still anything to reconcile?
+
+**Student:** I'd assume no, since the tax was already taken out.
+
+**Guide:** But is withholding the same as your exact final tax bill?
+
+**Student:** No — you said it's an estimate. So someone still needs to compare what was deducted against what was actually owed.
+
+**Guide:** Exactly — the estimate has to be reconciled with the real number, which is why refunds and amounts owed both exist. In some systems, like the US, employees file an annual return to do this; in the UK, most PAYE employees don't file a return, but HMRC still checks and may send a calculation showing an underpayment or overpayment.
+
+## Practice Quiz
+
+**Question 1.** Withholding is best described as:
+
+A) Your final tax bill
+B) An estimated advance payment toward your eventual tax liability
+C) A voluntary donation
+D) Money you never get back
+
+**Question 2.** If too much tax is deducted during the year, the typical result is:
+
+A) A penalty
+B) A refund
+C) Nothing happens
+D) You owe double
+
+**Question 3.** If too little tax is deducted, the typical result is:
+
+A) A refund
+B) You may owe additional tax once the year is reconciled
+C) Nothing happens
+D) Your job is terminated
+
+**Question 4.** A good reason to check your tax code or withholding settings is:
+
+A) A major life change like a new or second job
+B) Never — settings can't be changed
+C) Only if you're self-employed
+D) Only once, at your first job
+
+## Answer Key
+
+1. B, 2. B, 3. B, 4. A
+
+## Answers and Explanations
+
+**1.** Withholding is a pay-as-you-go estimate collected throughout the year, not the final calculation.
+
+**2.** Overpayment through withholding is returned to you as a refund once the numbers are reconciled.
+
+**3.** Underpayment means the shortfall is typically owed when the actual tax liability is worked out, sometimes collected later through a tax code adjustment.
+
+**4.** Because withholding is based on information held about you, major life changes are a natural trigger to check it.
+
+## Key Takeaways
+
+- Withholding is an estimated, ongoing tax payment taken from pay throughout the year.
+- It is not the same as your final tax bill — the year-end reconciliation compares the two.
+- Over-deduction produces a refund; under-deduction produces an amount owed.
+- Life changes are a good prompt to check your tax code or withholding settings.
+
+===== GREEN-L1-014
+TITLE: Employed or Self-Employed? PAYE vs. Self Assessment
+SUMMARY: Introduces how employee income and self-employed income are reported and taxed differently, tying directly into the employee-vs-self-employed distinction from earlier tracks.
+# Employed or Self-Employed? PAYE vs. Self Assessment
+
+## Learning Objectives
+
+- Explain the general difference between employee-type income reporting and self-employed income reporting.
+- Connect this distinction to the self-employment vs. business ownership concept from earlier tracks.
+- Recognise why this classification affects who handles deducting tax.
+
+## Core Content
+
+Most tax systems treat employees and independent workers differently. In the UK, for example, employees are taxed through PAYE, where the employer deducts tax and National Insurance throughout the year and gives the employee a year-end summary (a P60). Self-employed people, by contrast, usually register with HMRC, report their income through a Self Assessment tax return, and pay their own tax and National Insurance, often through payments on account. Other countries use different labels — in the US, for example, the W-2 and 1099 forms reflect a similar split — but the underlying distinction, employee versus independent contractor, shows up almost everywhere.
+
+This maps directly onto the self-employment concept from earlier in your curriculum: an employee has taxes deducted automatically by someone else, while an independent contractor is functioning more like a self-employed person and must proactively set aside and pay their own taxes. Misunderstanding which category you fall into is one of the most common and costly tax mistakes — a contractor who spends their full payment without setting aside anything for taxes can face a painful surprise when the bill arrives. (Employment status can also have legal and tax consequences of its own, so check HMRC's employment status guidance if you're unsure.)
+
+## Worked Example
+
+**Question:** A young web designer works for several different clients, sets her own hours, and uses her own equipment. Is she more likely an employee or an independent contractor?
+
+**Student:** Since she sets her own hours and works for multiple clients, she sounds more like an independent contractor.
+
+**Guide:** If that's true, who is responsible for setting aside her tax payments during the year?
+
+**Student:** She is — since no employer is deducting tax for her, she has to do that herself.
+
+**Guide:** Exactly, which is why contractors need to actively plan for taxes instead of assuming it's handled automatically.
+
+## Practice Quiz
+
+**Question 1.** Employee-type income reporting typically reflects:
+
+A) No taxes deducted
+B) Taxes deducted throughout the year by the employer
+C) Only business profit
+D) Only investment income
+
+**Question 2.** An independent contractor is generally responsible for:
+
+A) Nothing — taxes are automatic
+B) Setting aside and paying their own tax
+C) Only VAT
+D) Filing no paperwork ever
+
+**Question 3.** This employee vs. contractor distinction connects most directly to which earlier concept?
+
+A) Public goods
+B) Self-employment vs. business ownership
+C) Marginal tax bands
+D) Property tax
+
+**Question 4.** A common costly mistake for new contractors is:
+
+A) Filing too early
+B) Spending all income without setting aside money for taxes
+C) Having too much tax deducted
+D) Owning too much property
+
+## Answer Key
+
+1. B, 2. B, 3. B, 4. B
+
+## Answers and Explanations
+
+**1.** Employee-type reporting generally comes with automatic tax deductions handled by the employer.
+
+**2.** Without an employer deducting tax on their behalf, contractors must proactively manage their own tax payments.
+
+**3.** This is the tax-system expression of the self-employment concept covered earlier in the curriculum.
+
+**4.** Spending 100% of contractor income without reserving a portion for taxes is one of the most common early mistakes.
+
+## Key Takeaways
+
+- Employee-type income generally has tax deducted automatically; self-employed income generally does not.
+- This distinction mirrors the self-employment vs. employment concept from earlier lessons.
+- Contractors must proactively set aside money for taxes throughout the year.
+- Misclassifying yourself, or not planning for the difference, is a common and costly mistake.
+
+===== GREEN-L1-015
+TITLE: The Difference Between a Tax Deduction and a Tax Credit
+SUMMARY: Clarifies one of the most commonly confused pairs of terms in tax literacy: deductions reduce taxable income, credits reduce tax owed directly.
+# The Difference Between a Tax Deduction and a Tax Credit
+
+## Learning Objectives
+
+- Define a tax deduction.
+- Define a tax credit.
+- Explain why a credit is generally more valuable pound for pound than a deduction.
+
+## Core Content
+
+A tax deduction reduces the amount of income that gets taxed. A tax credit reduces the actual tax bill directly, pound for pound. These sound similar but have meaningfully different impact.
+
+Say someone is in a 20% marginal band. A £1,000 deduction reduces their taxable income by £1,000, which saves them roughly £200 in tax (20% of £1,000). A £1,000 credit, by contrast, reduces their tax bill by the full £1,000, regardless of their band. That's why, pound for pound, credits are generally more valuable than deductions — a credit's value doesn't depend on your tax rate the way a deduction's does.
+
+Both tools reduce what you owe, just through different mechanisms: deductions shrink the base that gets taxed, credits shrink the final bill itself. (UK tax rules often use the words 'allowances' and 'reliefs' instead; some, like the Personal Allowance, reduce the income that is taxed, while others, like the Marriage Allowance, reduce the tax bill directly. Note that UK 'tax credits' also refers to certain benefits, which is a different thing.)
+
+## Worked Example
+
+**Question:** A friend says, 'A £1,000 deduction and a £1,000 credit are basically the same thing.' Are they right?
+
+**Student:** I don't think so — one reduces taxable income, the other reduces the tax bill directly.
+
+**Guide:** Which one tends to save more money, and why?
+
+**Student:** The credit, because it removes the full £1,000 from what's owed, while the deduction only removes a percentage of £1,000 based on your tax rate.
+
+**Guide:** Exactly — same amount, different mechanism, different impact.
+
+## Practice Quiz
+
+**Question 1.** A tax deduction reduces:
+
+A) Taxable income
+B) The tax bill directly, pound for pound
+C) Nothing
+D) Only sales tax
+
+**Question 2.** A tax credit reduces:
+
+A) Taxable income
+B) The tax bill directly, pound for pound
+C) Nothing
+D) Only property tax
+
+**Question 3.** Pound for pound, which is generally more valuable?
+
+A) A deduction
+B) A credit
+C) They're always identical
+D) Neither has value
+
+**Question 4.** A £1,000 deduction for someone in a 20% band saves approximately:
+
+A) £1,000
+B) £200
+C) £0
+D) £2,000
+
+## Answer Key
+
+1. A, 2. B, 3. B, 4. B
+
+## Answers and Explanations
+
+**1.** Deductions work by shrinking the amount of income subject to tax.
+
+**2.** Credits work by directly cutting the final tax bill, regardless of tax rate.
+
+**3.** Because a credit's value doesn't depend on your band, it's generally more valuable per pound than a deduction.
+
+**4.** 20% of a £1,000 deduction is roughly £200 in actual tax savings, versus a full £1,000 for a credit.
+
+## Key Takeaways
+
+- Deductions reduce taxable income; credits reduce the tax bill directly.
+- A credit's value doesn't depend on your tax band; a deduction's value does.
+- Pound for pound, credits are generally more valuable than deductions.
+- Both tools lower what you owe, but through different mechanisms.

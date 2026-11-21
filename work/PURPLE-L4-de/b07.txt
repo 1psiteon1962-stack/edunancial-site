@@ -1,0 +1,319 @@
+===== PURPLE-L4-025
+TITLE: Analyse des Lauterkeitsrechts: Warum das Verbot unlauterer geschäftlicher Handlungen weit mehr erfasst als offenen Betrug
+SUMMARY: Erfahre, warum das Gesetz gegen den unlauteren Wettbewerb nicht nur Betrug, sondern auch Irreführung, das Verschweigen wesentlicher Informationen und aggressive Verkaufsmethoden verbietet, wer diese Verbote durchsetzen kann, warum Verbraucher seit 2022 einen eigenen Schadensersatzanspruch haben und warum Unternehmen ihre Werbung sorgfältig prüfen sollten.
+KEYWORDS: UWG, Irreführung, aggressive geschäftliche Handlung, Abmahnung, Verbraucherschutz
+# Analyse des Lauterkeitsrechts: Warum das Verbot unlauterer geschäftlicher Handlungen weit mehr erfasst als offenen Betrug
+
+## Einstiegsszenario
+ANNAHME/MEINUNG (hypothetisches Szenario nur zu Lehrzwecken): Stell dir vor, eine Zentralbank erhöht ihren Leitzins innerhalb weniger Monate kräftig und wiederholt, um die steigende Inflation zu bekämpfen. Während die Kaufkraft sinkt, werben viele Anbieter mit immer aggressiveren Rabatten, „nur heute gültigen“ Angeboten und kleingedruckten Zusatzkosten. Manche Unternehmer halten das für zulässig, solange sie nichts ausdrücklich Falsches behaupten – und erhalten dann Abmahnungen von Wettbewerbern und Verbraucherverbänden. Diese Lektion untersucht, warum das Lauterkeitsrecht weit mehr erfasst als offenen Betrug.
+
+## Lernziele
+- Erklären, welche Arten unlauterer geschäftlicher Handlungen das Gesetz gegen den unlauteren Wettbewerb (UWG) verbietet.
+- Erklären, warum auch technisch wahre, aber irreführende Angaben und das Verschweigen wesentlicher Informationen unlauter sein können.
+- Erklären, wer die Verbote durchsetzen kann und welche Ansprüche Verbraucher selbst haben.
+- Erklären, warum Unternehmen ihre Werbung vor der Veröffentlichung sorgfältig prüfen sollten.
+
+## Hauptinhalt
+GEPRÜFTE TATSACHE: Das UWG verbietet unlautere geschäftliche Handlungen; dazu gehören insbesondere irreführende geschäftliche Handlungen, die unwahre oder sonstige zur Täuschung geeignete Angaben enthalten (§ 5 UWG), die Irreführung durch Unterlassen, bei der einem Verbraucher wesentliche Informationen vorenthalten werden, die er für eine informierte geschäftliche Entscheidung benötigt (§ 5a UWG), und aggressive geschäftliche Handlungen, die die Entscheidungsfreiheit durch Belästigung, Nötigung oder unzulässige Beeinflussung erheblich beeinträchtigen (§ 4a UWG). Eine „schwarze Liste“ im Anhang des Gesetzes nennt zudem bestimmte Praktiken, die gegenüber Verbrauchern stets unzulässig sind.
+
+Hier das „Warum“, weshalb auch technisch wahre, aber irreführende Angaben verboten sind: Maßstab ist nicht, ob jede einzelne Aussage für sich genommen stimmt, sondern welchen Gesamteindruck sie bei einem durchschnittlich informierten, aufmerksamen und verständigen Verbraucher hervorruft. Ein „Rabatt von 50 %“ auf einen Preis, der vorher nie ernsthaft verlangt wurde, eine Werbung mit „inklusive“ Leistungen, die nur gegen Aufpreis erhältlich sind, oder ein Endpreis, in dem unvermeidbare Zusatzkosten fehlen, können täuschen, obwohl keine einzelne Aussage nachweislich falsch ist. Dasselbe gilt für das Weglassen wesentlicher Informationen. MEINUNG und eine in der wettbewerbsrechtlichen Praxis verbreitete Einschätzung, gerade diese Grauzonen – nicht offene Lügen – machen den Großteil der Streitigkeiten aus, weil Unternehmen sie fälschlich für unbedenklich halten.
+
+Deshalb sind auch aggressive Methoden erfasst: Eine Verkaufsmethode kann unlauter sein, ohne zu täuschen, etwa wenn ein Verbraucher durch ständige unerwünschte Anrufe, künstlich erzeugten Zeitdruck oder die Ausnutzung einer Notlage zu einer Entscheidung gedrängt wird, die er sonst nicht getroffen hätte. Deshalb ist der Kreis derer, die die Verbote durchsetzen können, weit, LÄNDERSPEZIFISCHE REGEL, die aktuellen Anspruchsberechtigungen und Voraussetzungen prüfen: Mitbewerber, qualifizierte Verbraucherverbände wie die Verbraucherzentralen, bestimmte Wirtschaftsverbände sowie Industrie- und Handelskammern können Unterlassung und Beseitigung verlangen; meist beginnt dies mit einer Abmahnung, verbunden mit der Aufforderung, eine strafbewehrte Unterlassungserklärung abzugeben, und endet sonst häufig in einer einstweiligen Verfügung. Seit 2022 haben Verbraucher außerdem einen eigenen Anspruch auf Schadensersatz, wenn sie durch eine schuldhafte unlautere geschäftliche Handlung zu einer Entscheidung veranlasst wurden, die sie sonst nicht getroffen hätten (§ 9 Abs. 2 UWG). Daneben gibt es Verbandsklagen, mit denen Verbraucherverbände Ansprüche vieler Verbraucher gebündelt geltend machen können. Deshalb sollten Unternehmen ihre Werbung vor der Veröffentlichung sorgfältig prüfen, LÄNDERSPEZIFISCHE REGEL, die geltenden Preisangabe- und Kennzeichnungsvorschriften prüfen: Neben dem UWG gelten besondere Regeln, etwa die Preisangabenverordnung, nach der bei Preisermäßigungen grundsätzlich der niedrigste Preis der letzten 30 Tage anzugeben ist, und Vorgaben für Umweltaussagen. Eine Abmahnung verursacht schnell Kosten, und eine Unterlassungserklärung bindet in der Regel dauerhaft.
+
+## Durchgerechnetes Beispiel
+BEISPIEL ZUR VERANSCHAULICHUNG: Ein Online-Händler wirbt mit „Waschmaschine statt 899 € jetzt nur 449 € – nur heute!“. Tatsächlich hat er die Maschine in den letzten Wochen für 499 € verkauft, das Angebot gilt seit Monaten jeden Tag, und die Versand- und Anschlusskosten von 79 € werden erst im letzten Bestellschritt angezeigt. Keine einzelne Zahl ist erfunden, doch der Gesamteindruck täuscht über die Höhe des Rabatts, erzeugt künstlichen Zeitdruck und verschleiert den tatsächlichen Endpreis. Ein Wettbewerber und eine Verbraucherzentrale mahnen ihn ab; er muss eine strafbewehrte Unterlassungserklärung abgeben und die Abmahnkosten tragen. Ein Kunde, der nachweisen kann, dass er nur wegen des vermeintlichen Tagesrabatts gekauft hat, kann unter den Voraussetzungen von § 9 Abs. 2 UWG zusätzlich Schadensersatz verlangen.
+
+## Übungsquiz
+**Q1. Welche Arten unlauterer geschäftlicher Handlungen verbietet das UWG insbesondere?**
+A) Nur ausdrücklich erfundene Behauptungen
+B) Irreführende geschäftliche Handlungen, die Irreführung durch Unterlassen wesentlicher Informationen und aggressive geschäftliche Handlungen; zudem bestimmte stets unzulässige Praktiken der schwarzen Liste
+C) Jede Form von Werbung
+D) Nur Preissenkungen
+
+**Q2. Warum können auch technisch wahre Angaben irreführend sein?**
+A) Weil das Gesetz jede Zahl in der Werbung verbietet
+B) Weil es auf den Gesamteindruck bei einem durchschnittlich informierten, aufmerksamen und verständigen Verbraucher ankommt, sodass etwa ein Rabatt auf einen nie verlangten Preis oder verschwiegene Zusatzkosten täuschen können
+C) Weil nur der Wortlaut einzelner Sätze zählt
+D) Weil Verbraucher grundsätzlich als unaufmerksam gelten
+
+**Q3. Warum ist eine aggressive geschäftliche Handlung unlauter, auch wenn sie nicht täuscht?**
+A) Weil sie immer eine Lüge enthält
+B) Weil sie die Entscheidungsfreiheit des Verbrauchers durch Belästigung, Nötigung, künstlichen Zeitdruck oder Ausnutzung einer Notlage erheblich beeinträchtigen kann
+C) Weil jede Werbung als aggressiv gilt
+D) Weil nur Wettbewerber vor Aggressivität geschützt sind
+
+**Q4. Wer kann die Verbote durchsetzen, und welche Ansprüche haben Verbraucher selbst?**
+A) Nur die Staatsanwaltschaft, Verbraucher haben keine Ansprüche
+B) Mitbewerber, Verbraucherverbände, bestimmte Wirtschaftsverbände und Kammern können Unterlassung verlangen, meist per Abmahnung; Verbraucher haben seit 2022 einen eigenen Schadensersatzanspruch bei schuldhaften unlauteren Handlungen
+C) Nur der betroffene Verbraucher, niemand sonst
+D) Niemand; das UWG enthält keine Durchsetzungsregeln
+
+**Q5. Warum war die Werbung des Händlers im Beispiel unlauter, obwohl keine einzelne Zahl erfunden war?**
+A) Weil Waschmaschinen nicht beworben werden dürfen
+B) Weil der Gesamteindruck über die Höhe des Rabatts täuschte, künstlichen Zeitdruck erzeugte und der tatsächliche Endpreis wegen verschwiegener Zusatzkosten verschleiert wurde
+C) Weil Online-Händler keine Rabatte geben dürfen
+D) Weil die Werbung zu kurz war
+
+## Lösungsschlüssel
+Q1: B
+Q2: B
+Q3: B
+Q4: B
+Q5: B
+
+## Antworten und Erklärungen
+**Q1.** Irreführung, Irreführung durch Unterlassen, aggressive Handlungen und die schwarze Liste sind genau die Bausteine des Verbots unlauterer geschäftlicher Handlungen.
+
+**Q2.** Der Gesamteindruck beim durchschnittlichen Verbraucher ist genau der Maßstab, nach dem auch technisch wahre Angaben irreführen können.
+
+**Q3.** Die erhebliche Beeinträchtigung der Entscheidungsfreiheit ist genau der Grund, warum aggressive Handlungen auch ohne Täuschung unlauter sind.
+
+**Q4.** Der weite Kreis der Anspruchsberechtigten und der neue individuelle Schadensersatzanspruch sind genau die Durchsetzungsinstrumente des Lauterkeitsrechts.
+
+**Q5.** Diese Verbindung aus irreführendem Gesamteindruck, künstlichem Zeitdruck und verschleiertem Endpreis zeigt genau, warum das Gesetz weit mehr erfasst als offenen Betrug.
+
+## Das Wichtigste in Kürze
+- Das UWG verbietet irreführende und aggressive geschäftliche Handlungen sowie das Vorenthalten wesentlicher Informationen.
+- Maßstab ist der Gesamteindruck beim durchschnittlichen Verbraucher; auch technisch wahre Angaben können täuschen.
+- Mitbewerber, Verbände und Kammern können per Abmahnung und Klage Unterlassung verlangen; Verbraucher haben seit 2022 einen eigenen Schadensersatzanspruch.
+- Unternehmen sollten Werbung, Rabatte und Preisangaben vor der Veröffentlichung sorgfältig prüfen.
+
+===== PURPLE-L4-026
+TITLE: Analyse des Kartellrechts: Warum der Missbrauch einer marktbeherrschenden Stellung mehr verlangt als bloße Marktmacht
+SUMMARY: Erfahre, warum das europäische und deutsche Kartellrecht eine marktbeherrschende Stellung als solche nicht verbietet, sondern nur ihren Missbrauch, wie Marktbeherrschung festgestellt wird, welche Verhaltensweisen typischerweise als Missbrauch gelten und welche besonderen Regeln für große Digitalplattformen gelten.
+KEYWORDS: Kartellrecht, Marktbeherrschung, Missbrauchsverbot, Bundeskartellamt, Digital Markets Act
+# Analyse des Kartellrechts: Warum der Missbrauch einer marktbeherrschenden Stellung mehr verlangt als bloße Marktmacht
+
+## Einstiegsszenario
+ANNAHME/MEINUNG (hypothetisches Szenario nur zu Lehrzwecken): Stell dir vor, ein systemrelevantes Finanzinstitut legt plötzlich einen großen, bisher verschwiegenen Verlust offen, und die Sorge vor Ansteckungsrisiken im gesamten Bankensystem wächst. Während viele kleinere Anbieter in der Krise vom Markt verschwinden, wachsen einige große Unternehmen und erreichen in ihren Märkten eine dominierende Stellung. Kleinere Wettbewerber fordern, diese Unternehmen allein wegen ihrer Größe zu zerschlagen, während die Unternehmen selbst meinen, sie dürften ihre Stärke uneingeschränkt nutzen. Diese Lektion untersucht, wo das Kartellrecht tatsächlich die Grenze zieht.
+
+## Lernziele
+- Erklären, warum das Kartellrecht eine marktbeherrschende Stellung als solche nicht verbietet, sondern nur ihren Missbrauch.
+- Erklären, wie Marktbeherrschung festgestellt wird und welche Rolle der relevante Markt und Marktanteile spielen.
+- Typische Verhaltensweisen erkennen, die als Missbrauch einer marktbeherrschenden Stellung gelten.
+- Erklären, warum für große Digitalplattformen zusätzliche, besondere Regeln gelten.
+
+## Hauptinhalt
+GEPRÜFTE TATSACHE: Nach Art. 102 des Vertrags über die Arbeitsweise der Europäischen Union und § 19 des Gesetzes gegen Wettbewerbsbeschränkungen (GWB) ist die missbräuchliche Ausnutzung einer marktbeherrschenden Stellung verboten; das Erreichen oder Innehaben einer solchen Stellung ist dagegen nicht verboten. Nach § 18 GWB wird vermutet, dass ein Unternehmen marktbeherrschend ist, wenn es einen Marktanteil von mindestens 40 % hat.
+
+Hier das „Warum“, weshalb nicht schon die Marktmacht verboten ist: Unternehmen sollen durch bessere Produkte, niedrigere Preise und Innovation wachsen dürfen; würde das Recht jeden Erfolg bestrafen, der zu einer starken Marktstellung führt, gäbe es keinen Anreiz mehr, besser zu sein als die Konkurrenz. Problematisch wird es erst, wenn ein Unternehmen seine Stellung nicht mehr durch Leistung verteidigt, sondern dazu nutzt, den Wettbewerb zu verhindern oder Abnehmer und Lieferanten auszubeuten. Deshalb ist zunächst festzustellen, auf welchem sachlich und räumlich relevanten Markt das Unternehmen tätig ist – also welche Produkte aus Sicht der Abnehmer austauschbar sind und in welchem Gebiet –, und ob es dort keinem wesentlichen Wettbewerb ausgesetzt ist oder eine überragende Marktstellung hat. Marktanteile sind ein wichtiges, aber nicht das einzige Indiz; berücksichtigt werden etwa auch Finanzkraft, Zugang zu Beschaffungs- und Absatzmärkten, Marktzutrittsschranken und der Zugang zu Daten.
+
+Deshalb gelten bestimmte Verhaltensweisen typischerweise als Missbrauch: etwa die Forderung unangemessen hoher Preise oder Bedingungen, die bei wirksamem Wettbewerb nicht durchsetzbar wären (Ausbeutungsmissbrauch), Preise unterhalb der eigenen Kosten mit dem Ziel, Wettbewerber zu verdrängen, Treuerabatte, die Kunden an das Unternehmen binden, die Kopplung eines Produkts an ein anderes, die Diskriminierung einzelner Abnehmer ohne sachlichen Grund oder die Verweigerung des Zugangs zu einer wesentlichen Einrichtung, ohne die Wettbewerber nicht tätig werden können. Bei Verstößen kann die Europäische Kommission oder das Bundeskartellamt Abstellungsverfügungen erlassen und Geldbußen von bis zu 10 % des weltweiten Jahresumsatzes verhängen; Geschädigte können Schadensersatz verlangen. MEINUNG und ein in der Kartellrechtspraxis vielfach diskutierter Punkt, die Abgrenzung zwischen hartem, aber zulässigem Leistungswettbewerb und verbotenem Behinderungsmissbrauch ist im Einzelfall oft schwierig und Gegenstand langwieriger Verfahren. Deshalb gelten für große Digitalplattformen zusätzliche Regeln, LÄNDERSPEZIFISCHE REGEL, die aktuellen Benennungen und Pflichten nach dem Digital Markets Act und § 19a GWB prüfen: Weil Netzwerkeffekte und Daten große Plattformen schnell unangreifbar machen können, erlaubt § 19a GWB dem Bundeskartellamt, Unternehmen mit überragender marktübergreifender Bedeutung für den Wettbewerb bestimmte Verhaltensweisen schon vorbeugend zu untersagen, und der europäische Digital Markets Act legt sogenannten Torwächtern unmittelbar geltende Pflichten auf, etwa das Verbot, eigene Angebote in Rankings zu bevorzugen.
+
+## Durchgerechnetes Beispiel
+BEISPIEL ZUR VERANSCHAULICHUNG: Zwei Unternehmen erreichen nach der Krise in ihren Märkten jeweils einen Marktanteil von rund 60 %. Das erste hat diesen Anteil erreicht, weil seine Produkte zuverlässiger und günstiger sind, und setzt seinen Erfolg fort, indem es weiter investiert und die Preise senkt, soweit seine Kosten es zulassen; das ist zulässiger Leistungswettbewerb, auch wenn kleinere Wettbewerber darunter leiden. Das zweite gewährt seinen Händlern hohe Rabatte nur unter der Bedingung, dass sie keine Produkte von Wettbewerbern führen, und verkauft in Regionen, in denen ein neuer Anbieter auftaucht, gezielt unter den eigenen Kosten, bis dieser aufgibt. Das Bundeskartellamt sieht darin einen Missbrauch der marktbeherrschenden Stellung, untersagt die Praktiken und verhängt eine Geldbuße. Das zeigt genau, dass nicht die Größe, sondern ihr Missbrauch verboten ist.
+
+## Übungsquiz
+**Q1. Was verbietet das Kartellrecht in Bezug auf marktbeherrschende Unternehmen?**
+A) Das Erreichen einer marktbeherrschenden Stellung als solches
+B) Die missbräuchliche Ausnutzung einer marktbeherrschenden Stellung, nicht aber das Erreichen oder Innehaben einer solchen Stellung
+C) Jedes Wachstum über eine bestimmte Unternehmensgröße hinaus
+D) Gar nichts; marktbeherrschende Unternehmen unterliegen keinen Regeln
+
+**Q2. Warum ist nicht schon die Marktmacht selbst verboten?**
+A) Weil Marktmacht nie entsteht
+B) Weil Unternehmen durch bessere Leistung wachsen dürfen sollen und ein Verbot jeden Erfolg bestrafen würde; problematisch ist erst die Nutzung der Stellung, um Wettbewerb zu verhindern oder andere auszubeuten
+C) Weil Kartellbehörden keine Marktanteile messen können
+D) Weil nur ausländische Unternehmen Marktmacht haben können
+
+**Q3. Wie wird Marktbeherrschung festgestellt?**
+A) Allein anhand der Zahl der Beschäftigten
+B) Durch Abgrenzung des sachlich und räumlich relevanten Marktes und Prüfung, ob das Unternehmen dort keinem wesentlichen Wettbewerb ausgesetzt ist; ab 40 % Marktanteil wird Marktbeherrschung vermutet, daneben zählen etwa Finanzkraft, Marktzutrittsschranken und Datenzugang
+C) Allein anhand des Börsenwerts
+D) Durch eine Umfrage unter Wettbewerbern
+
+**Q4. Welche Verhaltensweisen gelten typischerweise als Missbrauch?**
+A) Bessere Produkte und niedrigere Preise aufgrund geringerer Kosten
+B) Unangemessen hohe Preise, Verdrängungspreise unter den eigenen Kosten, Treuerabatte, Kopplung, Diskriminierung ohne sachlichen Grund und die Verweigerung des Zugangs zu wesentlichen Einrichtungen
+C) Investitionen in Forschung und Entwicklung
+D) Werbung für eigene Produkte
+
+**Q5. Warum handelte im Beispiel nur das zweite Unternehmen kartellrechtswidrig, obwohl beide denselben Marktanteil hatten?**
+A) Weil das zweite Unternehmen größer war
+B) Weil das erste seine Stellung durch Leistung verteidigte, während das zweite Händler durch Ausschließlichkeitsrabatte band und neue Anbieter durch gezielte Preise unter den eigenen Kosten verdrängte
+C) Weil Marktanteile von 60 % immer verboten sind
+D) Weil das erste Unternehmen nicht marktbeherrschend war
+
+## Lösungsschlüssel
+Q1: B
+Q2: B
+Q3: B
+Q4: B
+Q5: B
+
+## Antworten und Erklärungen
+**Q1.** Das Verbot des Missbrauchs, nicht der Stellung selbst, ist genau der Kern von Art. 102 AEUV und § 19 GWB.
+
+**Q2.** Weil Wachstum durch Leistung erwünscht ist, setzt das Recht genau dort an, wo die Stellung zur Verhinderung von Wettbewerb oder zur Ausbeutung genutzt wird.
+
+**Q3.** Marktabgrenzung, fehlender wesentlicher Wettbewerb, die 40-%-Vermutung und weitere Strukturmerkmale sind genau die Prüfschritte zur Feststellung von Marktbeherrschung.
+
+**Q4.** Ausbeutung, Verdrängung, Bindung, Kopplung, Diskriminierung und Zugangsverweigerung sind genau die typischen Erscheinungsformen des Missbrauchs.
+
+**Q5.** Dieser Gegensatz zwischen Leistungswettbewerb und gezielter Behinderung zeigt genau, warum nicht die Größe, sondern ihr Missbrauch verboten ist.
+
+## Das Wichtigste in Kürze
+- Das Kartellrecht verbietet nicht die marktbeherrschende Stellung, sondern ihre missbräuchliche Ausnutzung.
+- Marktbeherrschung wird anhand des relevanten Marktes, der Marktanteile und weiterer Strukturmerkmale festgestellt; ab 40 % wird sie vermutet.
+- Typische Missbräuche sind überhöhte Preise, Verdrängungspreise, Treuerabatte, Kopplung, Diskriminierung und Zugangsverweigerung.
+- Für große Digitalplattformen gelten mit § 19a GWB und dem Digital Markets Act zusätzliche, vorbeugende Regeln.
+
+===== PURPLE-L4-027
+TITLE: Analyse des Kapitalmarktrechts: Warum ein öffentliches Angebot von Wertpapieren in der Regel einen Prospekt oder eine Ausnahme verlangt
+SUMMARY: Erfahre, warum ein öffentliches Angebot von Wertpapieren in der EU grundsätzlich einen von der Aufsicht gebilligten Prospekt verlangt, welche Ausnahmen es gibt, welche Erleichterungen für kleinere Emissionen und Schwarmfinanzierungen gelten und warum Fehler bei Prospekt oder Informationsblatt zu einer Haftung gegenüber den Anlegern führen können.
+KEYWORDS: Prospektpflicht, Wertpapierprospekt, Wertpapier-Informationsblatt, BaFin, Prospekthaftung
+# Analyse des Kapitalmarktrechts: Warum ein öffentliches Angebot von Wertpapieren in der Regel einen Prospekt oder eine Ausnahme verlangt
+
+## Einstiegsszenario
+ANNAHME/MEINUNG (hypothetisches Szenario nur zu Lehrzwecken): Stell dir vor, eine Zentralbank erhöht ihren Leitzins innerhalb weniger Monate kräftig und wiederholt, um die steigende Inflation zu bekämpfen. Während Bankkredite teurer und knapper werden, wollen viele junge Unternehmen Kapital direkt bei Anlegern einsammeln – über Anleihen, Aktien oder Beteiligungen, beworben in sozialen Netzwerken. Manche Gründer gehen davon aus, sie könnten ihre Papiere einfach jedem anbieten, der Interesse zeigt, und erfahren erst später, dass sie einen Prospekt gebraucht hätten. Diese Lektion untersucht, warum.
+
+## Lernziele
+- Erklären, warum ein öffentliches Angebot von Wertpapieren in der EU grundsätzlich einen gebilligten Prospekt verlangt.
+- Wichtige Ausnahmen von der Prospektpflicht erkennen.
+- Erklären, welche Erleichterungen für kleinere Emissionen, Vermögensanlagen und Schwarmfinanzierungen gelten.
+- Erklären, warum fehlerhafte Prospekte und Informationsblätter zu einer Haftung gegenüber den Anlegern führen können.
+
+## Hauptinhalt
+GEPRÜFTE TATSACHE: Nach der EU-Prospektverordnung dürfen Wertpapiere in der Union grundsätzlich nur nach vorheriger Veröffentlichung eines Prospekts öffentlich angeboten oder zum Handel an einem geregelten Markt zugelassen werden; in Deutschland prüft und billigt die Bundesanstalt für Finanzdienstleistungsaufsicht (BaFin) den Prospekt, wobei sie auf Vollständigkeit, Kohärenz und Verständlichkeit prüft, nicht aber, ob die Anlage wirtschaftlich sinnvoll ist.
+
+Hier das „Warum“, weshalb ein Prospekt verlangt wird: Wer Wertpapiere eines Unternehmens kauft, kann dessen Geschäftsmodell, Finanzlage und Risiken in der Regel nicht selbst prüfen und ist auf die Angaben des Emittenten angewiesen. Der Prospekt soll alle Informationen enthalten, die ein Anleger braucht, um sich ein fundiertes Urteil über die Vermögens-, Finanz- und Ertragslage, die Aussichten und die Risiken zu bilden, und zwar in einer standardisierten, vergleichbaren Form. So wird das Informationsgefälle zwischen Emittent und Anleger verringert. Die Billigung durch die Aufsicht bedeutet allerdings keine Empfehlung und keine Garantie für den Erfolg der Anlage.
+
+Deshalb gibt es Ausnahmen, LÄNDERSPEZIFISCHE REGEL, die aktuellen Schwellenwerte prüfen, die unter anderem durch den EU Listing Act angepasst werden: Kein Prospekt ist etwa erforderlich für Angebote, die sich nur an qualifizierte Anleger richten, für Angebote an weniger als 150 nicht qualifizierte Anleger je Mitgliedstaat, für Angebote mit einer Mindestanlage von 100.000 € je Anleger und für Angebote unterhalb bestimmter Gesamtbeträge, für die die Mitgliedstaaten eigene Schwellen festlegen können. In Deutschland genügt bei kleineren öffentlichen Angeboten unterhalb des nationalen Schwellenwerts statt eines vollständigen Prospekts ein kurzes, von der BaFin gestattetes Wertpapier-Informationsblatt. Deshalb gelten für andere Anlageformen eigene Regeln, LÄNDERSPEZIFISCHE REGEL, die jeweils einschlägigen Gesetze prüfen: Vermögensanlagen, die keine Wertpapiere sind, etwa Nachrangdarlehen oder bestimmte Beteiligungen, unterliegen dem Vermögensanlagengesetz mit eigenen Prospekt- und Informationspflichten; für Schwarmfinanzierungen über zugelassene Plattformen gilt eine eigene EU-Verordnung mit einem kurzen Anlagebasisinformationsblatt bis zu einem Höchstbetrag je Projekt. Deshalb können Fehler zu einer Haftung führen: Sind wesentliche Angaben in einem Prospekt unrichtig oder unvollständig, können Anleger von den Verantwortlichen unter bestimmten Voraussetzungen die Übernahme der Wertpapiere gegen Erstattung des Erwerbspreises verlangen; wird ein erforderlicher Prospekt gar nicht veröffentlicht, haften Emittent und Anbieter ebenfalls. MEINUNG und eine unter Kapitalmarktrechtlern verbreitete Einschätzung, für junge Unternehmen ist dieses Haftungsrisiko oft bedeutsamer als die Kosten des Prospekts selbst, weil ein gescheitertes Projekt sonst schnell zu Rückforderungen aller Anleger führen kann. Daneben drohen Bußgelder der Aufsicht.
+
+## Durchgerechnetes Beispiel
+BEISPIEL ZUR VERANSCHAULICHUNG: Zwei Gründer wollen jeweils 1,5 Mio. € für ihr Unternehmen einsammeln. Der erste bietet über soziale Netzwerke jedem Interessierten Anleihen seiner GmbH mit einer Mindestanlage von 500 € an, ohne einen Prospekt oder ein Informationsblatt zu erstellen. Als das Unternehmen scheitert, verlangen die Anleger ihr Geld zurück und berufen sich auf die fehlende Veröffentlichung; zugleich leitet die BaFin ein Bußgeldverfahren ein. Der zweite lässt sich vorher beraten, erstellt ein Wertpapier-Informationsblatt, lässt dessen Veröffentlichung von der BaFin gestatten und stellt darin die Risiken klar und vollständig dar. Als sein Unternehmen später ebenfalls in Schwierigkeiten gerät, verlieren seine Anleger zwar Geld, doch weil er die Informationspflichten erfüllt hat, haftet er nicht wegen fehlender oder falscher Angaben.
+
+## Übungsquiz
+**Q1. Was verlangt die EU-Prospektverordnung grundsätzlich für ein öffentliches Angebot von Wertpapieren?**
+A) Nichts; Wertpapiere dürfen jederzeit frei angeboten werden
+B) Die vorherige Veröffentlichung eines Prospekts, der in Deutschland von der BaFin auf Vollständigkeit, Kohärenz und Verständlichkeit geprüft und gebilligt wird
+C) Eine Garantie der BaFin, dass die Anlage erfolgreich ist
+D) Nur die mündliche Information der Anleger
+
+**Q2. Warum wird ein Prospekt verlangt?**
+A) Damit die Aufsicht die Anlage empfiehlt
+B) Weil Anleger die Lage des Emittenten meist nicht selbst prüfen können und der Prospekt alle für ein fundiertes Urteil nötigen Informationen in standardisierter Form liefern und so das Informationsgefälle verringern soll
+C) Weil Prospekte die Rendite der Anlage erhöhen
+D) Weil nur Banken Prospekte lesen dürfen
+
+**Q3. Welche Ausnahmen von der Prospektpflicht gibt es insbesondere?**
+A) Keine; jedes Angebot braucht einen vollständigen Prospekt
+B) Angebote nur an qualifizierte Anleger, an weniger als 150 nicht qualifizierte Anleger je Mitgliedstaat, mit Mindestanlage von 100.000 € je Anleger oder unterhalb bestimmter Gesamtbeträge, wobei in Deutschland für kleinere Angebote ein Wertpapier-Informationsblatt genügen kann
+C) Angebote über soziale Netzwerke sind immer prospektfrei
+D) Angebote von GmbHs sind immer prospektfrei
+
+**Q4. Warum können Fehler bei Prospekt oder Informationsblatt zu einer Haftung führen?**
+A) Weil Anleger nie Ansprüche haben
+B) Weil Anleger bei unrichtigen oder unvollständigen wesentlichen Angaben oder bei fehlendem erforderlichen Prospekt von den Verantwortlichen unter bestimmten Voraussetzungen die Erstattung des Erwerbspreises verlangen können
+C) Weil jede Verlustanlage automatisch zu einer Haftung führt
+D) Weil nur die BaFin haftet
+
+**Q5. Warum haftete im Beispiel der erste Gründer, der zweite aber nicht?**
+A) Weil der zweite Gründer mehr Geld einsammelte
+B) Weil der erste ohne Prospekt oder Informationsblatt öffentlich anbot, während der zweite ein gestattetes Informationsblatt mit vollständiger Risikodarstellung veröffentlichte; ein bloßer Verlust der Anleger begründet keine Prospekthaftung
+C) Weil beide Gründer gleichermaßen hafteten
+D) Weil Anleihen nie unter die Prospektpflicht fallen
+
+## Lösungsschlüssel
+Q1: B
+Q2: B
+Q3: B
+Q4: B
+Q5: B
+
+## Antworten und Erklärungen
+**Q1.** Die Pflicht zur Veröffentlichung eines gebilligten Prospekts ist genau der Grundsatz der EU-Prospektverordnung; die Billigung ist keine Erfolgsgarantie.
+
+**Q2.** Die Verringerung des Informationsgefälles durch standardisierte, vollständige Information ist genau der Zweck der Prospektpflicht.
+
+**Q3.** Qualifizierte Anleger, kleiner Personenkreis, hohe Mindestanlage und niedrige Gesamtbeträge sind genau die wichtigsten Ausnahmen, ergänzt um das deutsche Wertpapier-Informationsblatt.
+
+**Q4.** Die Erstattung des Erwerbspreises bei fehlerhaften oder fehlenden Angaben ist genau der Kern der Prospekthaftung.
+
+**Q5.** Dieser Gegensatz zwischen einem Angebot ohne jede Information und einem ordnungsgemäß veröffentlichten Informationsblatt zeigt genau, warum die Erfüllung der Informationspflichten vor Haftung schützt.
+
+## Das Wichtigste in Kürze
+- Ein öffentliches Angebot von Wertpapieren verlangt in der EU grundsätzlich einen von der Aufsicht gebilligten Prospekt.
+- Der Prospekt soll das Informationsgefälle zwischen Emittent und Anlegern verringern; seine Billigung ist keine Empfehlung.
+- Es gibt Ausnahmen, etwa für qualifizierte Anleger, kleine Kreise oder kleinere Emissionen, für die in Deutschland ein Wertpapier-Informationsblatt genügen kann.
+- Fehlende oder fehlerhafte Angaben können zur Haftung gegenüber den Anlegern führen; für Vermögensanlagen und Schwarmfinanzierungen gelten eigene Regeln.
+
+===== PURPLE-L4-028
+TITLE: Analyse des Datenschutzrechts: Warum unterschiedliche Regelwerke demselben Unternehmen ganz unterschiedliche Pflichten auferlegen
+SUMMARY: Erfahre, warum die Datenschutz-Grundverordnung für jede Verarbeitung personenbezogener Daten eine Rechtsgrundlage verlangt, warum sie auch für Unternehmen außerhalb der EU gelten kann, wie sie sich von US-amerikanischen Regelungen unterscheidet, welche Regeln für Datenübermittlungen in Drittländer gelten und welche Bußgelder drohen.
+KEYWORDS: Datenschutz-Grundverordnung, DSGVO, Rechtsgrundlage, Drittlandübermittlung, Bußgeld
+# Analyse des Datenschutzrechts: Warum unterschiedliche Regelwerke demselben Unternehmen ganz unterschiedliche Pflichten auferlegen
+
+## Einstiegsszenario
+ANNAHME/MEINUNG (hypothetisches Szenario nur zu Lehrzwecken): Stell dir vor, eine weitreichende Störung der öffentlichen Gesundheit legt den weltweiten Schiffsverkehr und die Produktion über längere Zeit lahm und bringt die Lieferketten vieler Branchen gleichzeitig durcheinander. Während Geschäfte schließen und der Handel ins Internet wandert, beginnen viele Unternehmen, Kundendaten in großem Umfang zu sammeln und mit Dienstleistern in verschiedenen Ländern zu teilen. Ein amerikanischer Onlinehändler, der nach Deutschland verkauft, geht davon aus, dass für ihn dieselben Regeln gelten wie zu Hause, und erhält dann Post von einer deutschen Datenschutzaufsichtsbehörde. Diese Lektion untersucht, warum verschiedene Regelwerke demselben Unternehmen unterschiedliche Pflichten auferlegen.
+
+## Lernziele
+- Erklären, warum die Datenschutz-Grundverordnung (DSGVO) für jede Verarbeitung personenbezogener Daten eine Rechtsgrundlage verlangt.
+- Erklären, warum die DSGVO auch für Unternehmen außerhalb der EU gelten kann.
+- Den grundlegenden Unterschied zwischen dem europäischen Ansatz und US-amerikanischen Regelungen erklären.
+- Erklären, welche Regeln für die Übermittlung personenbezogener Daten in Drittländer gelten und welche Bußgelder drohen.
+
+## Hauptinhalt
+GEPRÜFTE TATSACHE: Nach Art. 6 DSGVO ist die Verarbeitung personenbezogener Daten nur rechtmäßig, wenn mindestens eine gesetzlich genannte Rechtsgrundlage vorliegt – etwa eine Einwilligung der betroffenen Person, die Erforderlichkeit für die Erfüllung eines Vertrags, eine rechtliche Verpflichtung oder ein berechtigtes Interesse des Verantwortlichen, das die Interessen der betroffenen Person nicht überwiegt; bei Verstößen können Geldbußen von bis zu 20 Mio. € oder bis zu 4 % des weltweiten Jahresumsatzes verhängt werden, je nachdem, welcher Betrag höher ist.
+
+Hier das „Warum“, weshalb der europäische Ansatz eine Rechtsgrundlage für jede Verarbeitung verlangt: In der EU ist der Schutz personenbezogener Daten ein Grundrecht. Die DSGVO geht deshalb von einem Verbot mit Erlaubnisvorbehalt aus: Wer Daten verarbeitet, muss begründen können, warum er es darf, die Betroffenen informieren, die Daten auf das Notwendige beschränken und ihnen Rechte auf Auskunft, Berichtigung, Löschung, Datenübertragbarkeit und Widerspruch einräumen. In Deutschland ergänzt das Bundesdatenschutzgesetz die Verordnung in einzelnen Punkten. In den Vereinigten Staaten gibt es dagegen kein umfassendes Bundesdatenschutzgesetz, sondern eine Reihe von Bundesgesetzen für einzelne Bereiche und eine wachsende Zahl einzelstaatlicher Gesetze wie das kalifornische, die häufig eher auf Transparenz und Widerspruchsrechte setzen; dort ist die Verarbeitung oft zulässig, solange der Verbraucher nicht widerspricht, während sie in der EU ohne Rechtsgrundlage von vornherein unzulässig ist.
+
+Deshalb kann die DSGVO auch für Unternehmen außerhalb der EU gelten, LÄNDERSPEZIFISCHE REGEL, den räumlichen Anwendungsbereich im Einzelfall prüfen: Sie gilt nicht nur für Verantwortliche mit Niederlassung in der EU, sondern auch für solche außerhalb, wenn sie Personen in der EU Waren oder Dienstleistungen anbieten oder deren Verhalten in der EU beobachten, etwa durch Tracking auf einer Website (Art. 3 Abs. 2 DSGVO); solche Unternehmen müssen in der Regel einen Vertreter in der EU benennen. Deshalb unterliegt dasselbe Unternehmen je nach Kundenkreis unterschiedlichen Regeln, LÄNDERSPEZIFISCHE REGEL, die jeweils anwendbaren Gesetze aller betroffenen Länder und Bundesstaaten prüfen: Ein Unternehmen mit Kunden in der EU und in mehreren US-Bundesstaaten muss mehrere Regelwerke gleichzeitig einhalten und richtet sich in der Praxis oft nach dem strengsten. Deshalb gelten besondere Regeln für die Übermittlung in Drittländer, LÄNDERSPEZIFISCHE REGEL, den aktuellen Stand der Angemessenheitsbeschlüsse prüfen: Personenbezogene Daten dürfen in ein Land außerhalb des Europäischen Wirtschaftsraums nur übermittelt werden, wenn die EU-Kommission ein angemessenes Schutzniveau festgestellt hat oder geeignete Garantien wie Standardvertragsklauseln bestehen. Für die Vereinigten Staaten besteht seit 2023 ein Angemessenheitsbeschluss für Unternehmen, die sich nach dem EU-US Data Privacy Framework zertifiziert haben; frühere Regelungen hat der Europäische Gerichtshof allerdings zweimal für unwirksam erklärt, sodass Unternehmen die Entwicklung beobachten sollten.
+
+## Durchgerechnetes Beispiel
+BEISPIEL ZUR VERANSCHAULICHUNG: Ein Onlinehändler mit Sitz in Kalifornien verkauft Kleidung an Kunden in den USA und in Deutschland. Auf seiner Website setzt er für alle Besucher sofort Tracking- und Werbe-Cookies und gibt die Daten an Werbepartner weiter; kalifornischen Kunden bietet er einen Link „Meine Daten nicht verkaufen“ an. Für die deutschen Kunden genügt das nicht: Weil er Personen in der EU Waren anbietet und ihr Verhalten beobachtet, gilt für ihn die DSGVO; für das Werbe-Tracking braucht er grundsätzlich eine vorherige Einwilligung, er muss eine verständliche Datenschutzerklärung bereitstellen, einen Vertreter in der EU benennen und die Übermittlung an seine Werbepartner auf eine taugliche Grundlage stützen. Nach einer Beschwerde verlangt die Aufsichtsbehörde die Anpassung und droht ein Bußgeld an. Der Händler stellt daraufhin für EU-Besucher auf ein Einwilligungsbanner um und ordnet seine Verträge mit Dienstleistern neu.
+
+## Übungsquiz
+**Q1. Was verlangt die DSGVO für jede Verarbeitung personenbezogener Daten?**
+A) Nichts, solange die Daten nicht verkauft werden
+B) Eine gesetzlich genannte Rechtsgrundlage wie Einwilligung, Vertragserfüllung, rechtliche Verpflichtung oder ein nicht überwiegendes berechtigtes Interesse
+C) Ausschließlich eine Einwilligung in jedem Fall
+D) Nur eine Anmeldung bei der Polizei
+
+**Q2. Wie unterscheidet sich der europäische Ansatz grundlegend von vielen US-amerikanischen Regelungen?**
+A) Es gibt keinen Unterschied
+B) Die DSGVO geht von einem Verbot mit Erlaubnisvorbehalt aus, sodass Verarbeitung ohne Rechtsgrundlage unzulässig ist, während viele US-Regelungen eher auf Transparenz und Widerspruchsrechte setzen und Verarbeitung oft zulassen, solange nicht widersprochen wird
+C) In den USA ist jede Datenverarbeitung verboten
+D) Die DSGVO gilt nur für Behörden
+
+**Q3. Warum kann die DSGVO auch für Unternehmen außerhalb der EU gelten?**
+A) Weil sie für alle Unternehmen weltweit ohne Bezug zur EU gilt
+B) Weil sie auch Verantwortliche ohne EU-Niederlassung erfasst, wenn sie Personen in der EU Waren oder Dienstleistungen anbieten oder deren Verhalten in der EU beobachten
+C) Weil nur Unternehmen mit Sitz in Deutschland betroffen sind
+D) Weil sie nur bei Zustimmung des Unternehmens gilt
+
+**Q4. Welche Regeln gelten für die Übermittlung personenbezogener Daten in Drittländer?**
+A) Daten dürfen frei in jedes Land übermittelt werden
+B) Sie ist nur zulässig, wenn ein Angemessenheitsbeschluss der EU-Kommission vorliegt oder geeignete Garantien wie Standardvertragsklauseln bestehen; für die USA gilt seit 2023 ein Beschluss für nach dem Data Privacy Framework zertifizierte Unternehmen
+C) Übermittlungen in Drittländer sind ausnahmslos verboten
+D) Nur Übermittlungen nach Asien sind geregelt
+
+**Q5. Warum musste der kalifornische Händler im Beispiel seine Praxis für deutsche Kunden ändern?**
+A) Weil kalifornisches Recht in Deutschland gilt
+B) Weil für ihn als Anbieter an Personen in der EU, der deren Verhalten beobachtet, die DSGVO gilt, die für Werbe-Tracking grundsätzlich eine vorherige Einwilligung, Transparenz, einen EU-Vertreter und eine taugliche Grundlage für Übermittlungen verlangt
+C) Weil Onlinehandel in Deutschland verboten ist
+D) Weil der Link „Meine Daten nicht verkaufen“ in jedem Land ausreicht
+
+## Lösungsschlüssel
+Q1: B
+Q2: B
+Q3: B
+Q4: B
+Q5: B
+
+## Antworten und Erklärungen
+**Q1.** Eine der gesetzlich genannten Rechtsgrundlagen nach Art. 6 DSGVO ist genau die Voraussetzung jeder rechtmäßigen Verarbeitung.
+
+**Q2.** Dieser Gegensatz zwischen Verbot mit Erlaubnisvorbehalt und einem eher widerspruchsbasierten Ansatz ist genau der grundlegende Unterschied zwischen den Regelwerken.
+
+**Q3.** Das Anbieten an oder Beobachten von Personen in der EU ist genau der Anknüpfungspunkt, über den die DSGVO auch Unternehmen außerhalb der EU erfasst.
+
+**Q4.** Angemessenheitsbeschlüsse und geeignete Garantien sind genau die Voraussetzungen, unter denen Daten in Drittländer übermittelt werden dürfen.
+
+**Q5.** Diese Anwendung der DSGVO auf einen Anbieter außerhalb der EU zeigt genau, warum unterschiedliche Regelwerke demselben Unternehmen unterschiedliche Pflichten auferlegen.
+
+## Das Wichtigste in Kürze
+- Die DSGVO verlangt für jede Verarbeitung personenbezogener Daten eine Rechtsgrundlage und sieht Bußgelder bis zu 20 Mio. € oder 4 % des weltweiten Umsatzes vor.
+- Viele US-Regelungen setzen eher auf Transparenz und Widerspruch; ein Unternehmen mit Kunden in beiden Rechtsräumen muss mehrere Regelwerke einhalten.
+- Die DSGVO gilt auch für Unternehmen außerhalb der EU, die Personen in der EU Waren anbieten oder deren Verhalten beobachten.
+- Übermittlungen in Drittländer brauchen einen Angemessenheitsbeschluss oder geeignete Garantien; der Stand für die USA sollte laufend beobachtet werden.

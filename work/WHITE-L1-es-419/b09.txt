@@ -1,0 +1,354 @@
+===== WHITE-L1-041
+TITLE: ¿Qué es un asesor robot (robo-advisor)?
+SUMMARY: Aprende qué hace un asesor robot y la disyuntiva básica frente a un asesor financiero humano.
+# ¿Qué es un asesor robot (robo-advisor)?
+
+## Objetivos de aprendizaje
+
+Al terminar esta lección, deberías poder:
+
+- Definir un asesor robot en palabras sencillas.
+- Explicar cómo arma normalmente un portafolio.
+- Identificar una disyuntiva básica frente a un asesor humano.
+
+## Contenido principal
+
+### Qué es un asesor robot
+
+Un asesor robot (robo-advisor) es un servicio automatizado que arma y administra un portafolio de inversión según las metas y la tolerancia al riesgo del inversionista, generalmente con algoritmos en lugar de un asesor humano que toma decisiones individuales.
+
+### Cómo arma normalmente un portafolio
+
+Un asesor robot normalmente hace una serie de preguntas sobre las metas, el horizonte de tiempo y la comodidad con el riesgo, y luego reparte el dinero de forma automática entre una mezcla de inversiones (muchas veces ETF, que se vieron antes en este nivel) que corresponde a ese perfil.
+
+### La disyuntiva básica frente a un asesor humano
+
+Los asesores robot generalmente ofrecen comisiones más bajas y un acceso más fácil que un asesor financiero humano, pero normalmente dan una orientación menos personalizada para situaciones financieras complejas e individuales: una disyuntiva real entre costo y personalización.
+
+## Ejemplo práctico
+
+Un inversionista con una meta sencilla (como el ahorro general para el retiro a largo plazo) y una tolerancia moderada al riesgo podría usar un asesor robot para armar y mantener de forma automática un portafolio adecuado, a un costo menor que el de contratar a un asesor humano.
+
+## Prueba de práctica
+
+1. Un asesor robot es:
+   A. Un asesor financiero humano que trabaja a distancia
+   B. Un servicio automatizado que arma y administra un portafolio con algoritmos
+   C. Un tipo de bono
+   D. Un programa de retiro del gobierno
+2. Verdadero o falso: Los asesores robot generalmente cobran comisiones más altas que los asesores financieros humanos.
+3. ¿Cuál es una disyuntiva básica de usar un asesor robot en lugar de un asesor humano?
+   A. No existe ninguna disyuntiva
+   B. Comisiones más bajas y acceso más fácil, pero normalmente una orientación menos personalizada
+   C. Los asesores robot garantizan rendimientos más altos
+   D. Los asesores humanos siempre son gratis
+
+## Clave de respuestas
+
+1. B
+2. Falso
+3. B
+
+## Respuestas y explicaciones
+
+### Pregunta 1
+
+Respuesta correcta: B. Un asesor robot automatiza la administración del portafolio con algoritmos.
+
+### Pregunta 2
+
+Respuesta correcta: Falso. Los asesores robot generalmente cobran comisiones más bajas que los asesores humanos.
+
+### Pregunta 3
+
+Respuesta correcta: B. El menor costo y el acceso más fácil se cambian por una orientación personalizada.
+
+## Puntos clave
+
+- Un asesor robot automatiza el armado y la administración del portafolio.
+- Normalmente reparte las inversiones según las metas y la tolerancia al riesgo.
+- Generalmente cambia un costo menor por una orientación menos personalizada que la de un asesor humano.
+
+===== WHITE-L1-042
+TITLE: ¿Qué es una anualidad? (Versión introductoria)
+SUMMARY: Aprende la idea básica de una anualidad: convertir una suma de dinero en una serie de pagos futuros.
+# ¿Qué es una anualidad? (Versión introductoria)
+
+## Objetivos de aprendizaje
+
+Al terminar esta lección, deberías poder:
+
+- Definir una anualidad en palabras sencillas.
+- Explicar la idea básica de convertir una suma total en pagos.
+- Reconocer que las anualidades varían mucho en estructura y complejidad.
+
+## Contenido principal
+
+### Qué es una anualidad
+
+Una anualidad (en algunos países, renta vitalicia) es un producto financiero, normalmente ofrecido por una compañía de seguros, en el que una persona paga una suma total (o una serie de pagos) a cambio de una serie de pagos futuros, muchas veces como fuente de ingresos para el retiro.
+
+### La idea básica
+
+El concepto central es convertir una cantidad de dinero de hoy en un ingreso definido más adelante, lo que da previsibilidad: algo atractivo para quienes temen que se les acaben sus otros ahorros antes de tiempo.
+
+### Existe una complejidad real
+
+*SUPUESTO (con fines didácticos):* Las anualidades tienen muchas estructuras distintas, con comisiones, condiciones y garantías variables. Esta lección introductoria cubre solo el concepto básico: la variedad y la complejidad reales de estos productos van más allá del alcance de este nivel.
+
+## Ejemplo práctico
+
+Una persona jubilada le paga una suma total a una compañía de seguros a cambio de un pago mensual garantizado por el resto de su vida: cambia una suma grande hoy por un ingreso predecible después.
+
+## Prueba de práctica
+
+1. Una anualidad generalmente implica:
+   A. Comprar una sola acción
+   B. Convertir una suma total en una serie de pagos futuros
+   C. Un tipo de compra de bienes raíces
+   D. Una devolución de impuestos del gobierno
+2. Verdadero o falso: Todas las anualidades tienen estructuras, comisiones y condiciones idénticas.
+3. ¿Por qué alguien podría considerar una anualidad?
+   A. Para evitar para siempre todo riesgo financiero
+   B. Por un ingreso predecible, muchas veces en el retiro
+   C. Para no pagar impuestos nunca
+   D. Para eliminar la necesidad de cualquier otro ahorro
+
+## Clave de respuestas
+
+1. B
+2. Falso
+3. B
+
+## Respuestas y explicaciones
+
+### Pregunta 1
+
+Respuesta correcta: B. Una anualidad convierte una suma total en pagos futuros.
+
+### Pregunta 2
+
+Respuesta correcta: Falso. Las estructuras, comisiones y condiciones de las anualidades varían mucho.
+
+### Pregunta 3
+
+Respuesta correcta: B. El ingreso predecible es su atractivo central.
+
+## Puntos clave
+
+- Una anualidad convierte una suma total en una serie de pagos futuros.
+- Muchas veces se usa como fuente de ingresos predecibles para el retiro.
+- Las estructuras de las anualidades varían mucho: este es solo un concepto introductorio.
+
+===== WHITE-L1-043
+TITLE: ¿Qué es la asignación de activos?
+SUMMARY: Aprende qué significa la asignación de activos y en qué se diferencia de la diversificación dentro de un solo tipo de activo.
+# ¿Qué es la asignación de activos?
+
+## Objetivos de aprendizaje
+
+Al terminar esta lección, deberías poder:
+
+- Definir la asignación de activos en palabras sencillas.
+- Distinguirla de la diversificación dentro de una categoría de activos.
+- Explicar por qué muchas veces se describe como una decisión fundamental del portafolio.
+
+## Contenido principal
+
+### Qué es la asignación de activos
+
+La asignación de activos se refiere a cómo divide un inversionista su portafolio total entre distintas categorías amplias de activos —como acciones, bonos y efectivo—, más que a qué inversiones específicas elegir dentro de cada categoría.
+
+### En qué se diferencia de la diversificación
+
+La diversificación (que se vio antes en este nivel) generalmente se refiere a repartir las inversiones dentro de una categoría, como tener muchas acciones distintas. La asignación de activos funciona un nivel más arriba: decide cuánto va a acciones en total, frente a bonos en total, frente a efectivo en total.
+
+### Por qué es fundamental
+
+La asignación de activos muchas veces se describe como una de las decisiones más importantes al armar un portafolio, porque la mezcla amplia entre categorías de activos (no solo qué acciones específicas se eligen) tiene un efecto importante en el riesgo total y en el rendimiento potencial.
+
+## Ejemplo práctico
+
+Un inversionista podría decidir una asignación de 70 % en acciones, 25 % en bonos y 5 % en efectivo: una decisión que se toma antes de elegir qué acciones o bonos específicos tener dentro de esa estructura.
+
+## Prueba de práctica
+
+1. La asignación de activos se refiere a:
+   A. Elegir acciones individuales específicas
+   B. Dividir un portafolio entre categorías amplias como acciones, bonos y efectivo
+   C. Un tipo de dividendo
+   D. Un programa de retiro del gobierno
+2. Verdadero o falso: La asignación de activos y la diversificación dentro de una categoría significan exactamente lo mismo.
+3. ¿Por qué la asignación de activos muchas veces se describe como una decisión fundamental?
+   A. Tiene poco efecto en un portafolio
+   B. La mezcla amplia entre categorías afecta de forma importante el riesgo y el rendimiento totales
+   C. Solo importa para los bonos
+   D. Reemplaza la necesidad de cualquier otra decisión de inversión
+
+## Clave de respuestas
+
+1. B
+2. Falso
+3. B
+
+## Respuestas y explicaciones
+
+### Pregunta 1
+
+Respuesta correcta: B. La asignación de activos es la división de un portafolio a nivel de categorías amplias.
+
+### Pregunta 2
+
+Respuesta correcta: Falso. La asignación se hace por categoría; la diversificación, dentro de cada categoría.
+
+### Pregunta 3
+
+Respuesta correcta: B. La mezcla amplia de categorías afecta de forma importante el comportamiento total del portafolio.
+
+## Puntos clave
+
+- La asignación de activos es cómo se divide un portafolio entre categorías amplias.
+- Es una decisión distinta y de nivel más alto que la diversificación dentro de una categoría.
+- Se considera una decisión fundamental al armar un portafolio.
+
+===== WHITE-L1-044
+TITLE: ¿Qué es rebalancear un portafolio?
+SUMMARY: Aprende qué significa rebalancear, por qué la asignación se desvía con el tiempo y la mecánica básica para corregir esa desviación.
+# ¿Qué es rebalancear un portafolio?
+
+## Objetivos de aprendizaje
+
+Al terminar esta lección, deberías poder:
+
+- Definir el rebalanceo en palabras sencillas.
+- Explicar por qué la asignación de un portafolio se desvía con el tiempo.
+- Explicar la mecánica básica para corregir esa desviación.
+
+## Contenido principal
+
+### Qué es rebalancear
+
+Rebalancear significa ajustar de forma periódica un portafolio para devolverlo a su asignación de activos objetivo original (que se vio en la lección anterior), después de que los movimientos del mercado lo alejaron de ese objetivo.
+
+### Por qué la asignación se desvía con el tiempo
+
+Si las acciones crecen más rápido que los bonos durante un periodo, un portafolio que empezó con 70 % en acciones y 30 % en bonos podría desviarse a 80 % en acciones y 20 % en bonos solo por los movimientos del mercado, aunque el inversionista nunca haya cambiado nada de forma activa.
+
+### La mecánica básica
+
+Rebalancear generalmente implica vender una parte de lo que creció hasta quedar sobreponderado y comprar más de lo que quedó subponderado, para acercar el portafolio otra vez a sus porcentajes objetivo originales.
+
+## Ejemplo práctico
+
+Un portafolio se desvía de un objetivo de 70/30 entre acciones y bonos a 80/20 después de que las acciones tienen un mejor desempeño. Rebalancear significa vender suficientes acciones y comprar suficientes bonos para acercar la mezcla otra vez al objetivo original de 70/30.
+
+## Prueba de práctica
+
+1. Rebalancear significa:
+   A. Elegir nuevas acciones individuales
+   B. Ajustar un portafolio para devolverlo a su asignación objetivo original
+   C. Cerrar una cuenta de inversión
+   D. Aumentar el riesgo total de forma permanente
+2. Verdadero o falso: La asignación de un portafolio se mantiene exactamente igual con el tiempo sin hacer nada.
+3. Si las acciones crecen más rápido que los bonos, ¿qué pasa normalmente con la asignación a acciones de un portafolio si no se rebalancea?
+   A. Baja automáticamente
+   B. Sube y queda sobreponderada en relación con el objetivo original
+   C. Se mantiene exactamente igual
+   D. En su lugar, los bonos suben automáticamente
+
+## Clave de respuestas
+
+1. B
+2. Falso
+3. B
+
+## Respuestas y explicaciones
+
+### Pregunta 1
+
+Respuesta correcta: B. Rebalancear devuelve un portafolio a su mezcla objetivo original.
+
+### Pregunta 2
+
+Respuesta correcta: Falso. Los movimientos del mercado hacen que la asignación se desvíe con el tiempo.
+
+### Pregunta 3
+
+Respuesta correcta: B. Si las acciones crecen más rápido, su parte del portafolio aumenta si no se hace nada.
+
+## Puntos clave
+
+- Rebalancear devuelve un portafolio a su asignación objetivo original.
+- La asignación se desvía con el tiempo solo por los movimientos del mercado.
+- Rebalancear implica vender los activos sobreponderados y comprar los subponderados.
+
+===== WHITE-L1-045
+TITLE: ¿Qué es un fondo con fecha objetivo (target-date fund)?
+SUMMARY: Aprende qué hace de forma automática un fondo con fecha objetivo y por qué su asignación cambia a medida que se acerca la fecha objetivo.
+# ¿Qué es un fondo con fecha objetivo (target-date fund)?
+
+## Objetivos de aprendizaje
+
+Al terminar esta lección, deberías poder:
+
+- Definir un fondo con fecha objetivo en palabras sencillas.
+- Explicar cómo cambia su asignación con el tiempo.
+- Explicar por qué esto se relaciona con el concepto de rebalanceo.
+
+## Contenido principal
+
+### Qué es un fondo con fecha objetivo
+
+Un fondo con fecha objetivo (target-date fund; en algunos sistemas de pensiones de América Latina existen fondos de "ciclo de vida" con una lógica parecida) es un fondo construido alrededor de una fecha futura específica (muchas veces un año de retiro planeado), que administra de forma automática su propia asignación de activos para ajustarse al horizonte de tiempo del inversionista.
+
+### Cómo cambia su asignación con el tiempo
+
+Un fondo con fecha objetivo normalmente empieza con una asignación más alta en acciones (por su potencial de crecimiento, dado el horizonte largo) y poco a poco se mueve hacia más bonos y efectivo a medida que se acerca la fecha objetivo (para tener más estabilidad cuando la meta está más cerca), de forma automática, sin que el inversionista tenga que hacer ese ajuste a mano.
+
+### La relación con el rebalanceo
+
+En esencia, un fondo con fecha objetivo automatiza en un solo producto tanto el rebalanceo como la estrategia de asignación que cambia poco a poco: el inversionista no necesita rebalancearlo de forma periódica por su cuenta, como lo haría con un portafolio armado a mano.
+
+## Ejemplo práctico
+
+Un inversionista que planea jubilarse en 30 años podría elegir un fondo con fecha objetivo para ese año. Al principio, tiene sobre todo acciones; a medida que se acerca el año objetivo, se mueve de forma automática hacia una mezcla más conservadora de bonos y efectivo.
+
+## Prueba de práctica
+
+1. Un fondo con fecha objetivo está construido alrededor de:
+   A. La acción de una sola empresa
+   B. Una fecha futura específica, muchas veces un año de retiro planeado
+   C. Exclusivamente un tipo de bono
+   D. Una fecha límite del gobierno para presentar impuestos
+2. Verdadero o falso: La asignación de un fondo con fecha objetivo se mantiene exactamente igual de principio a fin.
+3. ¿Qué pasa generalmente con la asignación de un fondo con fecha objetivo a medida que se acerca la fecha objetivo?
+   A. Se mueve hacia más acciones
+   B. Se mueve hacia más bonos y efectivo, para tener estabilidad
+   C. Se vuelve de inmediato todo efectivo
+   D. No cambia nada
+
+## Clave de respuestas
+
+1. B
+2. Falso
+3. B
+
+## Respuestas y explicaciones
+
+### Pregunta 1
+
+Respuesta correcta: B. Un fondo con fecha objetivo está construido alrededor de una fecha futura específica.
+
+### Pregunta 2
+
+Respuesta correcta: Falso. Su asignación cambia de forma automática con el tiempo.
+
+### Pregunta 3
+
+Respuesta correcta: B. Se vuelve poco a poco más conservador a medida que se acerca la fecha.
+
+## Puntos clave
+
+- Un fondo con fecha objetivo está construido alrededor de una fecha futura específica.
+- Su asignación cambia de forma automática, de un enfoque de crecimiento a uno más conservador, con el tiempo.
+- Automatiza en un solo producto tanto el cambio de asignación como el rebalanceo.

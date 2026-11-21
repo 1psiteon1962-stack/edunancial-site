@@ -1,0 +1,329 @@
+===== ORANGE-L4-041
+TITLE: Análisis de la conversión freemium y de pruebas gratis: por qué el embudo de gratis a pagado requiere su propio diseño distinto
+SUMMARY: Aprenda por qué adquirir un usuario gratis es distinto de convertirlo en cliente pagado, qué es el momento de activación, por qué darle seguimiento a la conversión de gratis a pagado como un embudo propio y por qué una tasa de conversión baja no es necesariamente un fracaso.
+KEYWORDS: conversión freemium, embudo de prueba a pagado, momento de activación, diseño de embudo distinto
+# Análisis de la conversión freemium y de pruebas gratis: por qué el embudo de gratis a pagado requiere su propio diseño distinto
+
+## Escenario inicial
+SUPUESTO/OPINIÓN (escenario hipotético solo con fines educativos): Imagine una crisis de salud pública generalizada que paraliza el transporte marítimo y la manufactura a nivel mundial durante un período prolongado, enredando a la vez las cadenas de suministro de muchas industrias. Mientras una disrupción generalizada empuja a muchos negocios hacia modelos freemium y de prueba gratis para bajar la barrera del primer uso, algunos descubren que adquirir un gran número de usuarios gratis significa muy poco si su proceso específico para convertir a esos mismos usuarios en clientes que pagan nunca se diseñó de forma separada y deliberada.
+
+## Objetivos de aprendizaje
+- Explicar por qué adquirir un usuario gratis o de prueba es un logro verdaderamente distinto de convertir a ese mismo usuario en cliente que paga, lo que se conecta con la discusión de la Lección 4 de este nivel sobre las etapas del embudo.
+- Explicar el concepto de "momento de activación" — el punto específico en que un usuario gratis experimenta por primera vez el valor central genuino del producto — y por qué alcanzarlo predice con fuerza una conversión eventual.
+- Explicar por qué un negocio debe darle seguimiento a la conversión de gratis a pagado como su propio embudo distinto, separado del embudo de adquisición que trajo al usuario.
+- Explicar por qué una base grande de usuarios gratis con una tasa de conversión baja no necesariamente indica una estrategia fallida, siempre que la economía de fondo todavía funcione.
+
+## Contenido principal
+Partiendo de la discusión de la Lección 4 de este nivel sobre las etapas del embudo, DATO VERIFICADO, adquirir un usuario gratis o de prueba representa solo la porción de conocimiento a conversión de un embudo verdaderamente distinto del que luego tiene que convertir a ese mismo usuario gratis en un cliente que realmente paga — un negocio que ofrece un modelo freemium o de prueba gratis ha insertado, en la práctica, toda una etapa adicional entre la adquisición inicial y la conversión pagada eventual, de modo que las tácticas que lograron atraer al usuario gratis no logran automáticamente, ni siquiera por lo general, la tarea separada de convertir a ese mismo usuario en cliente que paga.
+
+Este es el porqué de que el "momento de activación" — el punto específico en que un usuario gratis experimenta por primera vez el valor central genuino del producto — prediga con fuerza una conversión eventual: los usuarios que nunca llegan realmente al punto de experimentar el valor central real del producto (quizás porque la incorporación fue confusa, o porque nunca usaron la función específica que realmente entrega el beneficio genuino del producto) por lo general tienen poca base para juzgar si valdría la pena pagar por la versión completa, de modo que un usuario gratis que nunca alcanza este momento de activación es poco probable que se convierta, sin importar cuán atractivas pudieran ser de otro modo las funciones del nivel pagado, mientras que un usuario gratis que sí alcanza este momento ha experimentado directamente la propuesta de valor específica (según el enfoque de trabajos por realizar de la Lección 23) por la que la conversión pagada realmente le pide que pague.
+
+Por eso un negocio debe darle seguimiento a la conversión de gratis a pagado como su propio embudo distinto, separado del embudo de adquisición que trajo al usuario: medir solo el volumen de inscripciones gratis, sin darle seguimiento por separado a qué porcentaje de esas inscripciones alcanza el momento de activación y qué porcentaje de usuarios activados luego se convierte en pagado, no ofrece ninguna visibilidad sobre dónde está funcionando o fallando el embudo real de gratis a pagado, en eco con la discusión de la Lección 9 de este nivel sobre por qué el seguimiento etapa por etapa revela lo que una cifra agregada oculta — un negocio debe aplicar esa misma disciplina etapa por etapa específicamente a este camino de gratis a pagado, tratándolo como un embudo verdaderamente distinto que requiere su propio análisis dedicado. Por eso una base grande de usuarios gratis con una tasa de conversión baja no necesariamente indica una estrategia fallida, siempre que la economía de fondo todavía funcione: como un modelo freemium o de prueba gratis está diseñado específicamente para bajar la barrera del uso inicial, atraer una base amplia de usuarios gratis que quizás nunca se conviertan es una parte esperada, y a menudo económicamente sensata, del modelo, de modo que la pregunta relevante no es si el porcentaje bruto de conversión se ve alto por sí solo, sino si el número real de clientes que pagan que produce el embudo, al costo real de mantener el nivel gratis, produce un retorno económico general sensato — un negocio debe evaluar este embudo de gratis a pagado según su economía genuina, y no según si su porcentaje de conversión por sí solo se ve impresionante comparado con el de un negocio sin ningún nivel gratis.
+
+## Ejemplo práctico
+EJEMPLO ILUSTRATIVO: Un negocio que ofrece una prueba gratis descubre que solo el 8% de los usuarios de la prueba gratis llega a convertirse en pagado, lo que al principio parece desalentador. Al desglosar más esta cifra, el negocio encuentra que los usuarios que completan un paso específico de incorporación, alcanzando el momento de activación genuino del producto, se convierten a una tasa considerablemente más alta que los usuarios que nunca completan ese paso, y que solo una minoría de los usuarios gratis alcanza actualmente este momento de activación. En lugar de concluir que el propio modelo freemium fracasó, el negocio enfoca su esfuerzo de mejora específicamente en aumentar el porcentaje de usuarios gratis que alcanzan la activación, lo que mejora de forma directa y medible la conversión general. Esto ilustra precisamente por qué tratar el camino de gratis a pagado como su propio embudo distinto y rastreable revela una palanca específica y accionable que un solo porcentaje de conversión agregado no habría revelado.
+
+## Prueba práctica
+**Q1. ¿Por qué adquirir un usuario gratis o de prueba es un logro verdaderamente distinto de convertir a ese usuario en pagado, en conexión con la Lección 4?**
+A) Adquirir un usuario gratis y convertir a ese usuario en pagado son logros idénticos que requieren tácticas idénticas
+B) Un modelo freemium o de prueba gratis inserta toda una etapa adicional del embudo entre la adquisición y la conversión pagada, de modo que las tácticas que atrajeron al usuario gratis no logran automáticamente la tarea separada de convertir a ese usuario en pagado
+
+**Q2. ¿Por qué alcanzar el "momento de activación" predice con fuerza la conversión pagada eventual?**
+A) El momento de activación no tiene relación real con si un usuario gratis termina convirtiéndose en pagado
+B) Un usuario que nunca experimenta el valor central genuino del producto tiene poca base para juzgar si valdría la pena pagar, mientras que un usuario que alcanza este momento ha experimentado directamente la propuesta de valor por la que la conversión pagada realmente le pide que pague
+
+**Q3. ¿Por qué se le debe dar seguimiento a la conversión de gratis a pagado como su propio embudo distinto, separado del embudo de adquisición?**
+A) Darle seguimiento solo al total de inscripciones gratis ofrece una información idéntica a darle seguimiento por separado a la activación y la conversión
+B) Medir solo el volumen de inscripciones gratis no ofrece ninguna visibilidad sobre dónde está funcionando o fallando el camino real de gratis a pagado, en eco con la discusión anterior sobre por qué el seguimiento etapa por etapa revela lo que una cifra agregada oculta
+
+**Q4. ¿Por qué una base grande de usuarios gratis con una tasa de conversión baja no necesariamente indica una estrategia fallida?**
+A) Un porcentaje de conversión bajo siempre indica una estrategia freemium fallida, sin importar ninguna otra consideración
+B) Un modelo freemium está diseñado específicamente para bajar la barrera del uso inicial, de modo que se espera una base amplia de usuarios gratis que quizás nunca se conviertan, y la pregunta relevante es si los clientes que pagan que realmente resultan, al costo real del nivel gratis, producen un retorno económico general sensato
+
+**Q5. En el ejemplo, ¿por qué el negocio enfocó su esfuerzo de mejora específicamente en el paso de activación en lugar de concluir que su modelo freemium había fracasado?**
+A) El negocio encontró que la activación no tenía relación real con la conversión pagada eventual
+B) Desglosar el embudo reveló que los usuarios que completaban un paso específico de incorporación, alcanzando la activación, se convertían a una tasa considerablemente más alta, y que solo una minoría de los usuarios gratis alcanzaba actualmente ese paso, lo que apuntaba directamente a una palanca de mejora específica y accionable
+
+## Clave de respuestas
+Q1: B
+Q2: B
+Q3: B
+Q4: B
+Q5: B
+
+## Respuestas y explicaciones
+**Q1.** Esta inserción de una etapa adicional verdaderamente distinta es precisamente la razón por la que la adquisición y la conversión pagada requieren tácticas y una evaluación separadas.
+**Q2.** Esta experiencia directa del valor central genuino, o la falta de ella, es precisamente la razón por la que alcanzar el momento de activación predice con tanta fuerza si un usuario gratis termina convirtiéndose.
+**Q3.** Esta conexión directa con la discusión anterior sobre el seguimiento etapa por etapa es precisamente la razón por la que el camino de gratis a pagado merece su propio seguimiento dedicado y detallado, en lugar de quedar incluido en las métricas generales de adquisición.
+**Q4.** Este enfoque en la economía de fondo genuina, y no en el porcentaje bruto de conversión por sí solo, es precisamente la razón por la que una tasa de conversión baja no indica automáticamente una estrategia fallida.
+**Q5.** Esta ilustración directa de un seguimiento detallado del embudo que revela una palanca específica y accionable demuestra precisamente por qué tratar la conversión de gratis a pagado como su propio embudo distinto importa para lograr una mejora genuina.
+
+## Puntos clave
+- Adquirir un usuario gratis o de prueba es un logro verdaderamente distinto de convertir a ese usuario en pagado, y requiere su propio diseño de embudo dedicado.
+- Alcanzar el momento de activación genuino del producto predice con fuerza la conversión pagada eventual, ya que ofrece una experiencia directa del valor que se vende.
+- Se le debe dar seguimiento a la conversión de gratis a pagado como su propio embudo distinto, etapa por etapa, en lugar de incluirla en las métricas generales de adquisición.
+- Un porcentaje de conversión bajo no necesariamente indica un fracaso, siempre que la economía de fondo de los clientes que pagan que resultan siga siendo sensata.
+
+===== ORANGE-L4-042
+TITLE: Análisis del anclaje en la presentación de precios: por qué el orden y el enfoque de los precios moldean el valor percibido
+SUMMARY: Aprenda cómo el sesgo de anclaje aplica a la presentación de precios, por qué mostrar primero una opción más cara hace más razonable la opción meta, para qué sirve una opción señuelo y dónde está la línea ética entre un contexto honesto y ahorros falsos.
+KEYWORDS: anclaje de precios, orden de presentación de precios, precio señuelo, enfoque del valor percibido
+# Análisis del anclaje en la presentación de precios: por qué el orden y el enfoque de los precios moldean el valor percibido
+
+## Escenario inicial
+SUPUESTO/OPINIÓN (escenario hipotético solo con fines educativos): Imagine que los mercados de bienes raíces y de crédito al consumidor de un país muy poblado, después de años de expansión rápida, empiezan a mostrar señales de una corrección marcada a medida que aumentan los impagos. Mientras un auge alimentado por el crédito se deshace y los compradores sensibles al precio examinan cada precio con más cuidado, los negocios descubren que exactamente el mismo precio por exactamente el mismo producto puede sentirse caro o razonable dependiendo por completo de qué otro precio se muestre a su lado, lo que se conecta directamente con la discusión de la ruta GOLD-L4 sobre el sesgo de anclaje.
+
+## Objetivos de aprendizaje
+- Aplicar la discusión de la ruta GOLD-L4 sobre el sesgo de anclaje específicamente a la forma en que se le presenta inicialmente un precio a un posible comprador.
+- Explicar por qué mostrar primero una opción de precio más alto, antes de una opción meta, tiende a hacer que esa opción meta se sienta más razonable en comparación.
+- Explicar el concepto de una opción de precio "señuelo", y por qué su propósito es mover la preferencia del comprador hacia una opción meta específica y no venderse por sí misma en un volumen significativo.
+- Explicar la importante distinción ética entre usar el anclaje para presentar un precio verdaderamente justo en contexto y usarlo para crear una impresión engañosa de ahorros que en realidad no existen.
+
+## Contenido principal
+Partiendo directamente de la discusión de la ruta GOLD-L4 sobre el sesgo de anclaje, DATO VERIFICADO, el sesgo de anclaje — la tendencia bien documentada a depender demasiado de una información inicial al hacer un juicio posterior — aplica directamente a la forma en que un posible comprador percibe un precio específico, de modo que exactamente el mismo precio puede sentirse caro o razonable dependiendo en buena medida de qué otro precio o punto de referencia se presente a su lado.
+
+Este es el porqué de que mostrar primero una opción de precio más alto, antes de una opción meta, tienda a hacer que esa opción meta se sienta más razonable en comparación: una vez que un comprador ha quedado anclado a un precio inicial más alto, un precio meta más bajo que se presenta después se juzga en relación con ese ancla inicial y no de forma completamente aislada, de modo que el mismo precio meta que podría haberse sentido caro si se hubiera presentado solo, sin ningún ancla más alta mostrada primero, puede sentirse como un valor comparativamente razonable, e incluso atractivo, una vez que el comprador ya quedó anclado a un punto de referencia más alto — precisamente por eso muchos negocios presentan deliberadamente sus opciones de precio más alto antes de su opción meta, en lugar de presentar las opciones en orden ascendente de precio.
+
+Por eso una opción de precio "señuelo" existe específicamente para mover la preferencia del comprador hacia una opción meta específica, y no para venderse por sí misma en un volumen significativo: una opción señuelo tiene un precio y una estructura diseñados específicamente para que otra opción meta particular parezca claramente la mejor selección en comparación (un señuelo con un precio apenas por debajo de una opción premium, pero que ofrece considerablemente menos valor, hace que la opción premium parezca el mejor trato relativo), de modo que el volumen real de ventas del propio señuelo por lo general no es en absoluto la razón para incluirlo — su función es específicamente mover el ancla comparativa de una forma que dirija la preferencia del comprador hacia la opción que el negocio realmente quiere vender más. Por eso la importante distinción ética entre usar el anclaje para presentar un precio verdaderamente justo en contexto y usarlo para crear una impresión engañosa de ahorros que en realidad no existen importa considerablemente, en eco con la discusión de la Lección 17 de este nivel sobre la escasez genuina frente a la fabricada: presentar primero una opción premium de valor verdaderamente más alto, lo que le permite al comprador juzgar con precisión el valor relativo real de una opción meta, es una aplicación legítima del anclaje, mientras que fabricar un "precio original" inflado artificialmente que nunca se cobró en realidad, específicamente para crear una falsa impresión de ahorro en un precio "rebajado" posterior, manipula el ancla del comprador con información falsa en lugar de con un contexto genuino — esta es exactamente la misma distinción que trazó la discusión anterior de este nivel sobre la urgencia genuina frente a la fabricada, y aplica con la misma fuerza al anclaje de precios en particular.
+
+## Ejemplo práctico
+EJEMPLO ILUSTRATIVO: Un negocio ofrece tres niveles de servicio y presenta deliberadamente primero su nivel más caro y completo, seguido de su opción intermedia, que es precisamente la opción que el negocio más quiere vender. Tras quedar anclados al precio inicial más alto, los posibles compradores por lo general perciben la opción intermedia como un valor comparativamente razonable, lo que aumenta su tasa de selección frente a cuando los mismos tres niveles se presentaban antes en orden ascendente de precio. El negocio se asegura de que el precio indicado de cada nivel refleje un precio genuino que realmente se ofrece, en lugar de fabricar un precio de referencia inflado que nunca se cobró en realidad. Esto ilustra precisamente la distinción entre una aplicación legítima del anclaje y el tipo de comparación engañosa y fabricada contra la que advierte esta lección.
+
+## Prueba práctica
+**Q1. ¿Cómo aplica directamente el sesgo de anclaje, según la discusión de la ruta GOLD-L4, a la presentación de precios?**
+A) El sesgo de anclaje no tiene relación real con la forma en que un posible comprador percibe un precio específico
+B) Exactamente el mismo precio puede sentirse caro o razonable dependiendo en buena medida de qué otro precio o punto de referencia se presente a su lado, ya que un precio presentado después se juzga en relación con el ancla inicial que se mostró primero
+
+**Q2. ¿Por qué mostrar primero una opción de precio más alto tiende a hacer que una opción meta posterior se sienta más razonable?**
+A) Mostrar primero una opción de precio más alto siempre hace que cada opción posterior se sienta más cara en comparación
+B) Una vez anclado a un precio inicial más alto, un comprador juzga un precio más bajo presentado después en relación con esa ancla y no de forma aislada, de modo que el mismo precio meta puede sentirse más razonable de lo que se habría sentido si se hubiera presentado solo, sin ninguna ancla más alta mostrada primero
+
+**Q3. ¿Cuál es el propósito de una opción de precio "señuelo"?**
+A) Una opción señuelo está diseñada específicamente para venderse en el mayor volumen posible, más que cualquier otra opción ofrecida
+B) Una opción señuelo tiene un precio y una estructura diseñados específicamente para que otra opción meta particular parezca claramente la mejor selección en comparación, y su propio volumen real de ventas por lo general no es la razón para incluirla
+
+**Q4. ¿Qué importante distinción ética traza esta lección sobre el anclaje de precios, en eco con la Lección 17?**
+A) No hay ninguna distinción ética significativa en la forma en que se puede aplicar el anclaje a la presentación de precios
+B) Presentar primero una opción premium de valor verdaderamente más alto, lo que permite un juicio relativo preciso, es un uso legítimo del anclaje, mientras que fabricar un precio de referencia inflado artificialmente que nunca se cobró en realidad manipula al comprador con información falsa, en eco con la distinción anterior entre urgencia genuina y fabricada
+
+**Q5. En el ejemplo, ¿por qué el uso del anclaje por parte del negocio se consideró una aplicación legítima y no engañosa?**
+A) El negocio había fabricado un precio de referencia inflado para su nivel premium que nunca se le cobró en realidad a ningún cliente
+B) El precio indicado de cada nivel reflejaba un precio genuino que realmente se ofrecía, de modo que el efecto de anclaje resultante en la percepción del comprador se basaba en un contexto de precios real y preciso y no en una comparación fabricada
+
+## Clave de respuestas
+Q1: B
+Q2: B
+Q3: B
+Q4: B
+Q5: B
+
+## Respuestas y explicaciones
+**Q1.** Esta aplicación directa del sesgo de anclaje a la percepción del precio es precisamente la razón por la que el orden y el enfoque de los precios moldean la forma en que un comprador realmente vive un precio determinado.
+**Q2.** Este juicio relativo, basado en el ancla, en lugar de una evaluación aislada, es precisamente la razón por la que presentar primero una opción más alta tiende a hacer que una opción meta posterior se sienta comparativamente más razonable.
+**Q3.** Esta función de mover la preferencia comparativa hacia una opción meta específica, en lugar de venderse por sí misma, es precisamente el propósito que cumple una opción de precio señuelo.
+**Q4.** Este paralelo con la discusión anterior sobre la escasez y la urgencia genuinas frente a las fabricadas es precisamente la distinción ética que traza esta lección para el anclaje de precios en particular.
+**Q5.** Esta ilustración directa del anclaje aplicado mediante opciones genuinas y con precios precisos demuestra precisamente el uso legítimo de esta técnica que esta lección distingue de las comparaciones de precios engañosas y fabricadas.
+
+## Puntos clave
+- El sesgo de anclaje aplica directamente a la presentación de precios, ya que el mismo precio puede sentirse caro o razonable según el punto de referencia que se muestre a su lado.
+- Presentar primero una opción de precio más alto tiende a hacer que una opción meta mostrada después se sienta más razonable en comparación.
+- Una opción de precio señuelo está diseñada para mover la preferencia del comprador hacia una opción meta específica, y no para venderse por sí misma en un volumen significativo.
+- Usar el anclaje con opciones genuinas y con precios precisos es legítimo, mientras que fabricar un precio de referencia inflado para crear una falsa impresión de ahorro cruza la misma línea ética trazada en la discusión anterior sobre la urgencia genuina frente a la fabricada.
+
+===== ORANGE-L4-043
+TITLE: Análisis de las campañas de recuperación: por qué reactivar a un cliente inactivo es distinto de adquirir uno nuevo
+SUMMARY: Aprenda por qué un excliente ocupa una posición distinta a la de un prospecto nuevo, por qué primero hay que entender la razón específica por la que se fue, por qué una oferta dirigida supera a un descuento genérico y por qué la recuperación puede ser eficiente.
+KEYWORDS: campaña de recuperación, reactivación de clientes inactivos, diagnóstico de la razón del abandono, diseño de la oferta de reactivación
+# Análisis de las campañas de recuperación: por qué reactivar a un cliente inactivo es distinto de adquirir uno nuevo
+
+## Escenario inicial
+SUPUESTO/OPINIÓN (escenario hipotético solo con fines educativos): Imagine que los mercados de bienes raíces y de crédito al consumidor de un país muy poblado, después de años de expansión rápida, empiezan a mostrar señales de una corrección marcada a medida que aumentan los impagos. Mientras un auge alimentado por el crédito se deshace y los negocios buscan recuperar ingresos de forma eficiente, algunos descubren que un excliente inactivo, alguien que ya conoce el producto y decidió irse, requiere un enfoque de reconexión verdaderamente distinto al de un prospecto completamente nuevo que nunca ha usado el producto.
+
+## Objetivos de aprendizaje
+- Explicar por qué un excliente inactivo ocupa una posición verdaderamente distinta a la de un prospecto completamente nuevo, ya que se ha formado una opinión específica e informada basada en una experiencia pasada real.
+- Explicar por qué una campaña de recuperación eficaz por lo general requiere entender primero la razón específica por la que un cliente particular realmente se fue, en lugar de aplicar una sola oferta de reactivación genérica a todos.
+- Explicar por qué una oferta de recuperación que atiende la razón real por la que un cliente se fue tiene más probabilidad de éxito que un descuento genérico por sí solo.
+- Explicar por qué las campañas de recuperación pueden ser un uso verdaderamente eficiente de los recursos de mercadeo en comparación con adquirir un cliente completamente nuevo, lo que se conecta con la discusión de la Lección 5 de este nivel sobre el costo de adquisición de clientes.
+
+## Contenido principal
+DATO VERIFICADO: un excliente inactivo ocupa una posición verdaderamente distinta a la de un prospecto completamente nuevo que nunca ha usado el producto, ya que el cliente inactivo ya se ha formado una opinión específica e informada basada en una experiencia directa real con el negocio, de modo que no es simplemente un prospecto que no conoce el producto y que necesita educación inicial y construcción de confianza (según la discusión de la Lección 4 de este nivel sobre la etapa de conocimiento), sino alguien que tomó la decisión informada de dejar de comprar, por alguna razón específica, que un esfuerzo de recuperación realmente tiene que atender.
+
+Este es el porqué de que una campaña de recuperación eficaz por lo general requiera entender primero la razón específica por la que un cliente particular realmente se fue, en lugar de aplicar una sola oferta de reactivación genérica a todos: los clientes se vuelven inactivos por razones específicas verdaderamente distintas — insatisfacción con una experiencia pasada específica, un cambio a un competidor específico, un cambio en sus propias circunstancias que redujo su necesidad, o simplemente una desconexión gradual sin ningún evento específico que la detonara — y un solo mensaje u oferta de recuperación genérico aplicado de manera uniforme a todos los clientes inactivos, sin importar su razón específica para irse, no atiende la causa de fondo genuina de la salida de ningún cliente específico, en eco con la discusión de la Lección 11 de este nivel sobre por qué atender solo la presentación superficial, sin entender una preocupación de fondo, por lo general no logra resolverla realmente.
+
+Por eso una oferta de recuperación que atiende la razón real por la que un cliente se fue tiene más probabilidad de éxito que un descuento genérico por sí solo: un cliente que se fue específicamente por un problema de servicio genuino que ya se resolvió tiene más probabilidad de responder a un mensaje que reconozca y atienda específicamente ese problema resuelto que a una oferta de descuento sin relación, mientras que un cliente que se fue por un cambio genuino en sus propias circunstancias (ya no necesita el producto en absoluto) es poco probable que responda a ninguna oferta de reactivación, por muy bien dirigida que esté, ya que el asunto de fondo no tiene nada que ver con el precio ni con una insatisfacción pasada específica, de modo que diagnosticar correctamente la razón real y específica detrás de un segmento determinado de clientes inactivos importa considerablemente para diseñar un enfoque de recuperación que de verdad tenga probabilidad de éxito con ese segmento particular. Por eso las campañas de recuperación pueden ser un uso verdaderamente eficiente de los recursos de mercadeo en comparación con adquirir un cliente completamente nuevo, lo que se conecta con la discusión de la Lección 5 de este nivel sobre el costo de adquisición de clientes: un cliente inactivo ya conoce el producto de primera mano y, en muchos casos, ya demostró que estaba dispuesto a pagar por él, de modo que reactivar con éxito a este tipo de cliente a menudo puede lograrse a un costo considerablemente menor que adquirir un prospecto completamente nuevo y que no conoce el producto a través de todo el embudo de conocimiento a conversión discutido en la Lección 4, lo que hace que un esfuerzo de recuperación bien dirigido sea un complemento verdaderamente eficiente al gasto en adquisición de clientes nuevos, siempre que el enfoque de reactivación específico realmente atienda la razón genuina por la que cada segmento inactivo se fue en primer lugar.
+
+## Ejemplo práctico
+EJEMPLO ILUSTRATIVO: Un negocio segmenta a sus clientes inactivos según la razón probable por la que se fueron, basándose en el historial de cuenta disponible, e identifica un grupo que se fue tras un problema de servicio específico que ya se resolvió, y otro grupo aparte que simplemente redujo su uso general de forma gradual sin ningún evento específico que lo detonara. El negocio le envía al primer grupo un mensaje que reconoce específicamente el problema resuelto y lo invita a regresar, y le envía al segundo grupo un mensaje distinto que destaca las funciones nuevas que se añadieron desde su salida, en lugar de aplicar una oferta de descuento genérica idéntica a ambos grupos — este enfoque segmentado y específico según la razón produce resultados de reactivación considerablemente mejores que los que probablemente habría logrado un solo mensaje de recuperación genérico con ambos grupos, verdaderamente distintos.
+
+## Prueba práctica
+**Q1. ¿Por qué un excliente inactivo ocupa una posición verdaderamente distinta a la de un prospecto completamente nuevo?**
+A) Un cliente inactivo y un prospecto completamente nuevo requieren exactamente el mismo enfoque de mercadeo, sin distinción significativa entre ellos
+B) El cliente inactivo ya se ha formado una opinión específica e informada basada en una experiencia directa real, de modo que no es un prospecto que no conoce el producto y necesita educación inicial, sino alguien que tomó la decisión informada de dejar de comprar por alguna razón específica que un esfuerzo de recuperación realmente tiene que atender
+
+**Q2. ¿Por qué una campaña de recuperación eficaz por lo general requiere entender primero la razón específica por la que un cliente se fue?**
+A) Todo cliente inactivo siempre se va exactamente por la misma razón, lo que hace innecesario un diagnóstico individual
+B) Los clientes se vuelven inactivos por razones específicas verdaderamente distintas, y un solo enfoque de reactivación genérico aplicado de manera uniforme no atiende la causa de fondo genuina de la salida de ningún cliente específico, en eco con la discusión anterior sobre atender la presentación superficial sin entender la preocupación de fondo
+
+**Q3. ¿Por qué una oferta de recuperación que atiende la razón real por la que un cliente se fue tiene más probabilidad de éxito que un descuento genérico por sí solo?**
+A) Un descuento genérico siempre tiene éxito sin importar la razón específica real por la que un cliente se fue
+B) Un cliente que se fue por un problema específico que ya se resolvió tiene más probabilidad de responder a un mensaje que atienda directamente ese problema que a un descuento sin relación, mientras que un cliente que se fue porque su necesidad se redujo es poco probable que responda a ninguna oferta, sin importar cómo se presente
+
+**Q4. ¿Por qué las campañas de recuperación pueden ser un uso verdaderamente eficiente de los recursos de mercadeo en comparación con la adquisición de clientes nuevos, en conexión con la Lección 5?**
+A) Las campañas de recuperación siempre son más costosas y menos eficientes que adquirir un cliente completamente nuevo
+B) Un cliente inactivo ya conoce el producto directamente y a menudo ya demostró que estaba dispuesto a pagar, de modo que una reactivación exitosa a menudo puede lograrse a un costo considerablemente menor que adquirir un prospecto completamente nuevo y que no conoce el producto a través de todo el embudo de adquisición
+
+**Q5. En el ejemplo, ¿por qué el enfoque segmentado y específico según la razón superó a un solo mensaje de recuperación genérico?**
+A) Ambos grupos de clientes inactivos en realidad se fueron exactamente por la misma razón de fondo
+B) El negocio atendió específicamente la razón genuina por la que cada grupo se fue — el problema de servicio resuelto para un grupo y las funciones nuevas para el otro — en lugar de aplicar una oferta de descuento genérica idéntica que no habría atendido la razón de fondo real de la salida de ninguno de los dos grupos
+
+## Clave de respuestas
+Q1: B
+Q2: B
+Q3: B
+Q4: B
+Q5: B
+
+## Respuestas y explicaciones
+**Q1.** Esta experiencia previa e informada y esta decisión de irse son precisamente la razón por la que un cliente inactivo requiere un enfoque de reconexión verdaderamente distinto al de un prospecto completamente nuevo que no conoce el producto.
+**Q2.** Esta variación genuina en las razones por las que distintos clientes realmente se van, y la necesidad de atender esa causa específica, es precisamente la razón por la que el diagnóstico importa antes de diseñar un enfoque de recuperación.
+**Q3.** Esta conexión entre atender la causa de fondo genuina y la probabilidad de una reactivación exitosa es precisamente la razón por la que un enfoque dirigido y específico según la razón supera a una oferta de descuento genérica.
+**Q4.** Este conocimiento existente y esta disposición a pagar ya demostrada son precisamente la razón por la que los esfuerzos de recuperación bien dirigidos pueden ser un complemento verdaderamente eficiente al gasto en adquisición de clientes nuevos.
+**Q5.** Esta ilustración directa de una reactivación segmentada y específica según la razón que supera a un enfoque genérico demuestra precisamente por qué entender la razón real por la que un cliente inactivo se fue importa para diseñar una campaña de recuperación eficaz.
+
+## Puntos clave
+- Un cliente inactivo ocupa una posición verdaderamente distinta a la de un prospecto nuevo, ya que se formó una opinión informada y tomó la decisión deliberada de irse.
+- Las campañas de recuperación eficaces por lo general requieren entender primero la razón específica por la que un cliente se fue, en lugar de aplicar una sola oferta genérica a todos.
+- Una oferta de recuperación que atiende la razón real por la que un cliente se fue tiene más probabilidad de éxito que un descuento genérico sin relación.
+- Las campañas de recuperación pueden ser verdaderamente eficientes en comparación con la adquisición de clientes nuevos, ya que los clientes inactivos ya conocen el producto y ya demostraron que estaban dispuestos a pagar.
+
+===== ORANGE-L4-044
+TITLE: Análisis del mercadeo conjunto y las alianzas: por qué las colaboraciones con audiencias compartidas pueden bajar el costo de adquisición para ambas partes
+SUMMARY: Aprenda qué es una alianza de mercadeo conjunto entre negocios que no compiten, por qué puede bajar el costo de adquisición de ambos, por qué escoger un socio complementario es esencial y por qué conlleva un riesgo de asociación de marca.
+KEYWORDS: alianza de mercadeo conjunto, colaboración con audiencia compartida, negocio complementario que no compite, alineación de los socios
+# Análisis del mercadeo conjunto y las alianzas: por qué las colaboraciones con audiencias compartidas pueden bajar el costo de adquisición para ambas partes
+
+## Escenario inicial
+SUPUESTO/OPINIÓN (escenario hipotético solo con fines educativos): Imagine una crisis de salud pública generalizada que paraliza el transporte marítimo y la manufactura a nivel mundial durante un período prolongado, enredando a la vez las cadenas de suministro de muchas industrias. Mientras una disrupción generalizada aprieta los presupuestos de mercadeo en muchas industrias, los negocios descubren cada vez más que aliarse con otro negocio distinto, que no compite con ellos y que atiende a una audiencia meta similar, puede bajar considerablemente el costo de llegar a esa audiencia compartida para ambas partes.
+
+## Objetivos de aprendizaje
+- Explicar el concepto general de una alianza de mercadeo conjunto entre dos negocios que no compiten y que comparten una audiencia meta similar.
+- Explicar por qué este tipo de colaboración puede bajar el costo de adquisición de clientes de ambos negocios participantes, lo que se conecta con la discusión de la Lección 5 de este nivel.
+- Explicar por qué escoger un socio verdaderamente complementario y que no compite, en lugar de uno sin relación o mal emparejado, importa considerablemente para que este enfoque realmente funcione.
+- Explicar por qué una alianza de mercadeo conjunto también conlleva un riesgo específico de asociación de marca, en eco con la discusión de la Lección 36 de este nivel sobre los socios de canal.
+
+## Contenido principal
+Una alianza de mercadeo conjunto involucra a dos negocios que no compiten, cada uno con una audiencia meta similar o que se superpone, que colaboran en un esfuerzo de mercadeo conjunto (un seminario web conjunto, una oferta combinada, un contenido compartido o una presentación mutua a sus audiencias) específicamente para llegar a la audiencia existente del otro a un costo menor del que cualquiera de los dos podría lograr de forma independiente. DATO VERIFICADO: este enfoque funciona específicamente porque cada socio ya tiene una relación establecida y de confianza con una audiencia a la que el otro socio también quiere llegar, de modo que la colaboración le da a cada negocio una presentación genuina a un nuevo segmento de audiencia relevante a través de un intermediario que ya goza de confianza, en lugar de obligar a cualquiera de los dos negocios a construir esa misma relación con la audiencia completamente por su cuenta desde cero.
+
+Este es el porqué de que esta colaboración pueda bajar el costo de adquisición de clientes de ambos negocios participantes, en conexión con la discusión de la Lección 5 de este nivel: como cada socio le presenta al otro una audiencia que ya ha invertido en construir y cultivar con el tiempo, el costo específico de esta presentación particular por lo general es considerablemente menor que el costo en que cualquiera de los dos negocios incurriría de otro modo para adquirir ese mismo segmento de audiencia de forma independiente a través de sus propios canales pagados, de modo que una alianza de mercadeo conjunto bien estructurada puede funcionar como un canal de adquisición verdaderamente de bajo costo para ambas partes, lo que se conecta directamente con el análisis de la eficiencia del costo de adquisición de clientes por canal que presentó la Lección 5.
+
+Por eso escoger un socio verdaderamente complementario y que no compite importa considerablemente para que este enfoque realmente funcione: la colaboración depende específicamente de que la audiencia existente de cada socio encuentre de verdad relevante y valiosa la oferta del otro socio, de modo que una alianza entre dos negocios cuyas audiencias en realidad no se superponen de forma significativa, o entre dos negocios que son competidores directos por el mismo dólar específico del cliente, por lo general no ofrece el beneficio mutuo que se busca — un socio verdaderamente complementario (que atiende a la misma audiencia con un producto o servicio distinto y que no compite, que esa audiencia también valora) es esencial para que este enfoque entregue el valor que se busca para ambas partes. Por eso una alianza de mercadeo conjunto también conlleva un riesgo específico de asociación de marca, en eco con la discusión de la Lección 36 de este nivel sobre los socios de canal: como una colaboración de mercadeo conjunto asocia la marca de cada negocio con la marca de su socio ante los ojos de la audiencia compartida, un socio cuya conducta, reputación o calidad luego resulte problemática puede crear también una asociación real y no deseada para el otro socio, de modo que un negocio que considera este tipo de colaboración debe aplicar a la selección del socio el mismo tipo de diligencia cuidadosa que la Lección 36 recomendó para una relación con un socio de canal, en lugar de suponer que cualquier socio que comparta una audiencia similar representa automáticamente una colaboración segura y sin riesgo.
+
+## Ejemplo práctico
+EJEMPLO ILUSTRATIVO: Un negocio que vende software de contabilidad para pequeños negocios se alía con otro negocio aparte, que no compite con él y que vende seguros comerciales a la misma audiencia de pequeños negocios, y juntos ofrecen un seminario web sobre un tema de interés común para sus audiencias, que se superponen. Cada negocio le presenta al otro su propia relación existente y de confianza con su audiencia, lo que les permite a ambos llegar a prospectos nuevos y relevantes a un costo considerablemente menor del que cualquiera de los dos habría logrado de forma independiente solo con adquisición pagada. Antes de cerrar esta alianza, cada negocio también confirma la reputación y la calidad del servicio del otro, reconociendo que este tipo de colaboración crearía una asociación de marca real que ninguno de los dos querría si la reputación del otro socio luego resultara problemática.
+
+## Prueba práctica
+**Q1. ¿Qué es una alianza de mercadeo conjunto?**
+A) Un acuerdo entre dos competidores directos específicamente para eliminar la competencia entre ellos
+B) Una colaboración entre dos negocios que no compiten y que comparten una audiencia meta similar, para llegar en conjunto a la audiencia existente del otro a un costo menor del que cualquiera de los dos podría lograr de forma independiente
+
+**Q2. ¿Por qué este tipo de colaboración puede bajar el costo de adquisición de clientes de ambos negocios participantes, en conexión con la Lección 5?**
+A) Las alianzas de mercadeo conjunto siempre aumentan, en lugar de bajar, el costo de adquisición de clientes de ambas partes
+B) Cada socio le presenta al otro una audiencia que ya ha invertido en construir, de modo que el costo de esta presentación específica por lo general es menor que adquirir ese mismo segmento de audiencia de forma independiente, lo que se conecta directamente con la discusión anterior sobre la eficiencia del costo de adquisición de clientes por canal
+
+**Q3. ¿Por qué escoger un socio verdaderamente complementario y que no compite importa considerablemente para que este enfoque funcione?**
+A) Cualquier par de negocios, sin importar la superposición de sus audiencias ni su relación competitiva, siempre se beneficiará por igual de una alianza de mercadeo conjunto
+B) La colaboración depende de que la audiencia existente de cada socio encuentre de verdad relevante y valiosa la oferta del otro socio, de modo que una alianza entre negocios sin una superposición significativa de audiencias, o entre competidores directos, por lo general no ofrece el beneficio mutuo que se busca
+
+**Q4. ¿Por qué una alianza de mercadeo conjunto conlleva un riesgo específico de asociación de marca, en eco con la Lección 36?**
+A) Las alianzas de mercadeo conjunto no conllevan ningún tipo de riesgo de asociación de marca para ninguno de los negocios participantes
+B) La colaboración asocia la marca de cada negocio con la marca de su socio ante los ojos de la audiencia compartida, de modo que un socio cuya conducta o reputación luego resulte problemática puede crear una asociación no deseada, en eco con la discusión anterior sobre la diligencia con los socios de canal
+
+**Q5. En el ejemplo, ¿por qué los dos negocios aplicaron una diligencia cuidadosa antes de cerrar su alianza?**
+A) Los dos negocios en realidad eran competidores directos por el mismo dólar específico del cliente
+B) Los negocios reconocieron que la colaboración crearía una asociación de marca real, y confirmaron la reputación y la calidad del servicio del otro antes de cerrar la alianza, de forma coherente con la diligencia cuidadosa que recomienda esta lección dado el riesgo de asociación de marca que implica
+
+## Clave de respuestas
+Q1: B
+Q2: B
+Q3: B
+Q4: B
+Q5: B
+
+## Respuestas y explicaciones
+**Q1.** Esta presentación colaborativa a una relación con una audiencia que ya goza de confianza es precisamente lo que implica una alianza de mercadeo conjunto.
+**Q2.** Este acceso de menor costo a una relación con una audiencia ya cultivada y de confianza es precisamente la razón por la que el mercadeo conjunto puede funcionar como un canal de adquisición eficiente, en eco con la discusión anterior sobre el costo de adquisición de clientes.
+**Q3.** Esta dependencia de una relevancia genuina para la audiencia y de una complementariedad sin competencia es precisamente la razón por la que la selección del socio importa considerablemente para el éxito real de una alianza de mercadeo conjunto.
+**Q4.** Esta conexión directa con la preocupación por la asociación de marca de la discusión anterior sobre los socios de canal es precisamente la razón por la que las alianzas de mercadeo conjunto justifican el mismo tipo de diligencia cuidadosa con los socios que recomendó la Lección 36.
+**Q5.** Esta ilustración directa de aplicar una diligencia cuidadosa con el socio antes de cerrar una colaboración de mercadeo conjunto demuestra precisamente por qué esta lección recomienda este tipo de escrutinio dado el riesgo real de asociación de marca que implica.
+
+## Puntos clave
+- Una alianza de mercadeo conjunto es una colaboración con un negocio que no compite y que comparte una audiencia meta similar, para llegar a la audiencia del otro a un costo menor que el de la adquisición independiente.
+- Este enfoque puede bajar el costo de adquisición de clientes de ambas partes, lo que se conecta directamente con la discusión anterior sobre la eficiencia del costo de adquisición por canal.
+- Escoger un socio verdaderamente complementario, que no compita y con una superposición real de audiencias importa considerablemente para que este enfoque realmente funcione.
+- Las alianzas de mercadeo conjunto conllevan un riesgo específico de asociación de marca, en eco con el énfasis de la discusión anterior sobre los socios de canal en la diligencia cuidadosa con los socios.
+
+===== ORANGE-L4-045
+TITLE: Análisis del mercadeo de afiliados: por qué la compensación por desempeño alinea los incentivos de forma distinta a la publicidad tradicional
+SUMMARY: Aprenda la estructura del mercadeo de afiliados, por qué la compensación por desempeño vincula el gasto con los resultados reales, por qué los métodos de los afiliados aun así requieren supervisión y por qué su conducta conlleva un riesgo para la reputación.
+KEYWORDS: mercadeo de afiliados, compensación por desempeño, alineación de incentivos, requisito de supervisión de afiliados
+# Análisis del mercadeo de afiliados: por qué la compensación por desempeño alinea los incentivos de forma distinta a la publicidad tradicional
+
+## Escenario inicial
+SUPUESTO/OPINIÓN (escenario hipotético solo con fines educativos): Imagine una crisis de salud pública generalizada que paraliza el transporte marítimo y la manufactura a nivel mundial durante un período prolongado, enredando a la vez las cadenas de suministro de muchas industrias. Mientras una disrupción generalizada vuelve a los negocios más cautelosos a la hora de comprometer por adelantado un presupuesto publicitario con un retorno incierto, muchos recurren a acuerdos de mercadeo de afiliados específicamente porque esta estructura de compensación solo requiere pago una vez que ya ocurrió un resultado real y medible.
+
+## Objetivos de aprendizaje
+- Explicar la estructura general del mercadeo de afiliados: compensar a afiliados independientes específicamente por resultados reales, y no solo por la exposición o las impresiones.
+- Explicar por qué esta estructura de compensación por desempeño vincula el gasto de mercadeo de un negocio con los resultados reales de forma más directa que el pago tradicional por adelantado de la publicidad.
+- Explicar por qué los afiliados son negocios independientes con sus propios incentivos, de modo que sus métodos promocionales específicos aun así requieren supervisión.
+- Explicar el riesgo para la reputación que acepta un negocio cuando la conducta promocional de un afiliado deja mal parado al negocio que se promueve, en eco con la discusión de la Lección 36 de este nivel sobre los socios de canal.
+
+## Contenido principal
+El mercadeo de afiliados es un acuerdo en el que afiliados independientes promueven los productos o servicios de un negocio y reciben una compensación basada específicamente en los resultados reales y medibles que genera su promoción (una venta completada, un prospecto calificado u otra acción definida específicamente), en lugar de recibir pago simplemente por mostrar un anuncio o generar impresiones, sin importar si esas impresiones realmente producen algún resultado. DATO VERIFICADO: esta estructura de compensación por desempeño significa que un negocio por lo general solo paga una vez que ya ocurrió un resultado real y definido, en lugar de comprometer el pago por adelantado con un retorno incierto.
+
+Este es el porqué de que esta estructura de compensación por desempeño vincule el gasto de mercadeo de un negocio con los resultados reales de forma más directa que el pago tradicional por adelantado de la publicidad: la publicidad tradicional por lo general requiere pago por la exposición o las impresiones sin importar si esa exposición realmente produce algún resultado medible, de modo que el negocio asume todo el riesgo económico de que una ubicación publicitaria específica no genere resultados significativos, mientras que el mercadeo de afiliados traslada una parte significativa de ese riesgo al propio afiliado, ya que el afiliado solo recibe compensación si su esfuerzo promocional específico realmente produce el resultado definido, de modo que el gasto de mercadeo del negocio bajo esta estructura queda vinculado de forma inherente y directa al desempeño real y medible, y no a la mera exposición.
+
+Por eso los afiliados son negocios independientes con sus propios incentivos, de modo que sus métodos promocionales específicos aun así requieren supervisión: como un afiliado recibe compensación específicamente por generar el resultado definido, tiene un incentivo genuino para usar cualquier método promocional que realmente funcione mejor para generar ese resultado, lo cual no siempre coincide con la forma en que el negocio que se promueve preferiría que lo representaran — un afiliado podría usar afirmaciones, tácticas o canales promocionales que el propio negocio no habría escogido ni aprobado, de modo que un negocio que depende de afiliados debe establecer pautas claras sobre las prácticas promocionales aceptables y supervisar la conducta real de los afiliados, en lugar de suponer que la estructura de compensación por desempeño por sí sola garantiza automáticamente un comportamiento promocional apropiado. Por eso un negocio acepta un riesgo genuino para su reputación cuando la conducta promocional de un afiliado deja mal parado al negocio que se promueve, en eco con la discusión de la Lección 36 de este nivel sobre los socios de canal: como un prospecto que se encuentra con el contenido promocional de un afiliado por lo general lo asocia con el negocio que realmente se promueve, un afiliado que usa afirmaciones engañosas o tácticas promocionales inapropiadas, o que se conduce de cualquier otra forma incoherente con las normas genuinas del negocio, puede dañar la reputación de ese negocio precisamente entre los prospectos a los que la relación con el afiliado pretendía llegar, de modo que la misma diligencia cuidadosa con los socios y la misma supervisión continua que la Lección 36 recomendó para los socios de canal aplican con la misma fuerza también a las relaciones de un negocio con sus afiliados.
+
+## Ejemplo práctico
+EJEMPLO ILUSTRATIVO: Un negocio establece un programa de afiliados que compensa a los afiliados específicamente por cada venta completada que genera su enlace de referido único, lo que vincula el gasto de mercadeo del negocio directamente con los resultados reales en lugar de con una exposición publicitaria por adelantado e incierta. El negocio también establece pautas claras sobre las afirmaciones promocionales aceptables y revisa con regularidad el contenido promocional real de los afiliados, y descubre que un afiliado específico había estado haciendo afirmaciones exageradas y engañosas sobre el producto para generar más referidos — una conducta que el negocio atiende de inmediato al exigirle al afiliado que corrija su contenido promocional. Esto ilustra precisamente por qué la compensación por desempeño por sí sola no elimina la necesidad de una supervisión continua de cómo los afiliados realmente representan al negocio que se promueve.
+
+## Prueba práctica
+**Q1. ¿Qué implica la estructura general de compensación del mercadeo de afiliados?**
+A) Pagarles a los afiliados una cantidad fija sin importar si su promoción genera algún resultado real
+B) Compensar a afiliados independientes específicamente según los resultados reales y medibles que genera su promoción, en lugar de por mostrar anuncios o generar impresiones sin importar el resultado obtenido
+
+**Q2. ¿Por qué esta estructura de compensación por desempeño vincula el gasto de mercadeo con los resultados reales de forma más directa que la publicidad tradicional?**
+A) La compensación por desempeño y el pago de la publicidad tradicional siempre se vinculan de forma idéntica con los resultados reales
+B) La publicidad tradicional requiere pago por la exposición sin importar el resultado obtenido, mientras que el mercadeo de afiliados traslada una parte significativa de ese riesgo al afiliado, ya que la compensación depende específicamente de que la promoción del afiliado realmente produzca el resultado definido
+
+**Q3. ¿Por qué los métodos promocionales propios de los afiliados aun así requieren supervisión, a pesar de la estructura de compensación por desempeño?**
+A) La compensación por desempeño siempre garantiza automáticamente un comportamiento promocional apropiado, sin necesidad de ninguna otra supervisión
+B) Un afiliado tiene un incentivo genuino para usar cualquier método que realmente funcione mejor para generar compensación, lo cual no siempre coincide con la forma en que el negocio que se promueve preferiría que lo representaran, de modo que la supervisión de la conducta real de los afiliados sigue siendo necesaria
+
+**Q4. ¿Por qué un negocio acepta un riesgo genuino para su reputación a través de sus relaciones con afiliados, en eco con la Lección 36?**
+A) La conducta promocional de los afiliados no tiene relación real con la forma en que los prospectos perciben la reputación de un negocio
+B) Un prospecto que se encuentra con el contenido promocional de un afiliado por lo general lo asocia con el negocio que se promueve, de modo que un afiliado que usa afirmaciones engañosas o tácticas inapropiadas puede dañar la reputación de ese negocio, en eco con la discusión anterior sobre la asociación de marca con los socios de canal
+
+**Q5. En el ejemplo, ¿por qué el negocio tuvo que atender la conducta promocional específica de un afiliado a pesar de su estructura de compensación por desempeño, por lo demás sensata?**
+A) Las afirmaciones exageradas y engañosas del afiliado en realidad no tuvieron ningún efecto en la forma en que los prospectos percibían la reputación del negocio
+B) La revisión regular del contenido promocional real de los afiliados reveló que el afiliado había estado haciendo afirmaciones exageradas y engañosas para generar más referidos, una conducta que el negocio tenía que atender directamente, lo que ilustra por qué la compensación por desempeño por sí sola no elimina la necesidad de una supervisión continua
+
+## Clave de respuestas
+Q1: B
+Q2: B
+Q3: B
+Q4: B
+Q5: B
+
+## Respuestas y explicaciones
+**Q1.** Esta estructura de compensación basada en resultados, y no en la exposición, es precisamente lo que define el enfoque general del mercadeo de afiliados.
+**Q2.** Este traslado al propio afiliado del riesgo de incertidumbre en los resultados es precisamente la razón por la que la compensación por desempeño vincula el gasto con los resultados reales de forma más directa que el pago tradicional por adelantado de la publicidad.
+**Q3.** Este posible desajuste entre el incentivo propio del afiliado para generar resultados y la representación que prefiere el negocio es precisamente la razón por la que la supervisión continua sigue siendo necesaria a pesar de la estructura de compensación por desempeño.
+**Q4.** Esta conexión directa con la preocupación por la asociación de marca de la discusión anterior sobre los socios de canal es precisamente la razón por la que las relaciones con afiliados conllevan un riesgo genuino para la reputación que requiere el mismo tipo de supervisión cuidadosa.
+**Q5.** Esta ilustración directa de una supervisión que detecta una conducta problemática de un afiliado demuestra precisamente por qué esta lección destaca que la compensación por desempeño, por sí sola, no elimina la necesidad de una supervisión genuina y continua de los afiliados.
+
+## Puntos clave
+- El mercadeo de afiliados compensa a afiliados independientes específicamente según resultados reales y medibles, y no solo por la exposición o las impresiones.
+- Esta estructura de compensación por desempeño vincula el gasto de mercadeo con los resultados reales de forma más directa al trasladar al afiliado el riesgo de incertidumbre en los resultados.
+- Los afiliados siguen siendo negocios independientes con sus propios incentivos, de modo que sus métodos promocionales específicos aun así requieren supervisión y pautas claras.
+- Un negocio acepta un riesgo genuino para su reputación a través de sus relaciones con afiliados, ya que los prospectos asocian la conducta de un afiliado con el negocio que se promueve, en eco con la discusión anterior sobre la diligencia con los socios de canal.

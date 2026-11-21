@@ -1,0 +1,449 @@
+===== PURPLE-L5-006
+TITLE: Propiedad económica frente a control de la empresa
+SUMMARY: Ser dueño de parte del valor de una empresa no equivale a controlar sus decisiones; las clases de acciones, los votos por acción y las preferencias de liquidación separan esos derechos, y hay que entenderlos antes de firmar.
+KEYWORDS: derechos de voto frente a derechos económicos, clases de acciones, control del fundador, acciones de doble clase, preferencia de liquidación
+# Propiedad económica frente a control de la empresa
+
+## Escenario inicial
+SUPUESTO/OPINIÓN (escenario hipotético solo con fines educativos): Imagine dos grandes potencias económicas que intensifican los controles de exportación entre sí sobre una categoría de componentes tecnológicos avanzados que se usan en muchas industrias.
+Aplíquelo aquí: Unos controles de exportación dejan de repente a una empresa tecnológica sin un proveedor clave. La junta debe decidir rápido si rediseña el producto o vende la empresa. Pregunte en varios colores: ¿quién tiene realmente la última palabra (MORADO/NEGRO)? ¿Las personas que más dinero invirtieron (BLANCO/AZUL), o las que tienen más votos? No siempre son las mismas personas.
+
+## Objetivos de aprendizaje
+- Distinguir los derechos económicos de los derechos de voto y de control
+- Explicar cómo las clases de acciones y las preferencias de liquidación los separan
+- Evaluar las ventajas y desventajas de las estructuras de control del fundador para los fundadores y los inversionistas
+
+## Contenido principal
+El Marco Filosófico de los cursos avanzados destaca un punto que sorprende a muchos estudiantes: ser dueño de parte del dinero de una empresa no es lo mismo que controlar lo que hace la empresa.
+Los derechos de propiedad pueden dividirse en paquetes separados:
+- Derechos económicos: el derecho a participar en las ganancias, los dividendos y el producto de una venta.
+- Derechos de voto: el derecho a elegir a los directores o administradores y a aprobar las decisiones importantes.
+- Derechos de liquidación: el orden en que se les paga a los dueños si la empresa se vende o se liquida.
+- Derechos de información: el derecho a ver los estados financieros y los registros.
+DATO VERIFICADO: Muchos sistemas legales permiten que las compañías emitan distintas clases de acciones con distintas combinaciones de esos derechos. Por ejemplo, una clase puede tener más votos por acción, mientras otra tiene preferencia para cobrar primero en una venta.
+Cómo coordina esto los colores:
+- BLANCO: Un inversionista en una compañía que cotiza en bolsa con varias clases de acciones puede tener valor económico pero poco poder de voto. Eso afecta cuánto puede influir en la gerencia.
+- AZUL: Los fundadores que recaudan dinero pueden vender valor económico y mantener el control mediante acciones con voto o asientos en la junta. Pero los inversionistas a menudo piden disposiciones de protección, como un veto sobre la venta de la empresa.
+- MORADO: Los estatutos de la compañía y los acuerdos de accionistas son donde se pone todo esto por escrito.
+- NEGRO: El control determina quién dirige durante una crisis, como la del escenario.
+La preferencia de liquidación merece atención especial. EJEMPLO ILUSTRATIVO: Si un inversionista tiene una preferencia de 1x sobre 2 millones de dólares, recupera sus 2 millones antes de que los accionistas comunes reciban algo en una venta. Si la empresa se vende por 3 millones de dólares, los accionistas comunes se reparten solo el millón restante, aunque «sean dueños» de la mayoría de las acciones.
+SUPUESTO/OPINIÓN: El control del fundador puede proteger una visión de largo plazo frente a la presión de corto plazo. También puede proteger a un liderazgo débil de la rendición de cuentas. Ninguna de las dos posturas tiene razón automáticamente. Lo clave es entender qué cede o qué obtiene usted antes de firmar.
+
+## Ejemplo práctico
+EJEMPLO ILUSTRATIVO: Ana funda una empresa y recauda dinero dos veces. Después de ambas rondas:
+- Ana tiene el 40 % de las acciones, todas de clase B, con 10 votos por acción.
+- Los inversionistas tienen el 60 % de las acciones, todas preferidas de clase A, con 1 voto por acción y una preferencia de liquidación de 1x sobre los 5 millones de dólares que invirtieron.
+Votos: Ana tiene 40 x 10 = 400 unidades de voto. Los inversionistas tienen 60 x 1 = 60 unidades de voto. Ana controla cerca del 87 % de los votos aunque solo tiene el 40 % del valor económico.
+Entonces llega el escenario. Un comprador ofrece 6 millones de dólares.
+- Los inversionistas cobran primero su preferencia de 5 millones de dólares.
+- El millón restante se reparte según los estatutos. Si las acciones de los inversionistas también participan en el resto (preferidas participantes), la parte de Ana de ese resto se reduce todavía más.
+Ana tiene los votos para rechazar la venta. Pero los inversionistas pueden tener un veto de protección sobre otras decisiones clave. SUPUESTO/OPINIÓN: El poder real de Ana no es solo su número de votos. Es la combinación completa de las condiciones de los estatutos, las disposiciones de protección y su relación con su junta.
+
+## Prueba práctica
+**Q1. ¿Cuál es la diferencia entre los derechos económicos y los derechos de voto?**
+A) No hay ninguna diferencia
+B) Los derechos económicos participan del dinero; los derechos de voto deciden quién controla las decisiones
+C) Los derechos de voto pagan dividendos
+D) Los derechos económicos eligen a la junta
+
+**Q2. ¿Qué significa una preferencia de liquidación de 1x?**
+A) Al inversionista se le paga de último
+B) El inversionista recupera su inversión antes de que los accionistas comunes reciban algo en una venta
+C) El inversionista obtiene 1 voto
+D) El inversionista nunca puede vender
+
+**Q3. En el ejemplo práctico, ¿por qué Ana controla la mayoría de los votos aunque tiene el 40 % de las acciones?**
+A) Ella invirtió más dinero
+B) Los inversionistas le cedieron sus votos
+C) La ley les da el control a los fundadores
+D) Sus acciones de clase B tienen 10 votos cada una
+
+**Q4. ¿Dónde se ponen normalmente por escrito estos derechos?**
+A) En un plan de mercadeo
+B) Solo en las planillas contributivas
+C) En los estatutos de la compañía y los acuerdos de accionistas
+D) En los estados bancarios
+
+**Q5. ¿Cuál es una visión equilibrada del control del fundador?**
+A) Siempre es bueno
+B) Es ilegal
+C) Siempre es malo
+D) Puede proteger una visión de largo plazo, pero también puede proteger a un liderazgo débil de la rendición de cuentas
+
+## Clave de respuestas
+Q1: B
+Q2: B
+Q3: D
+Q4: C
+Q5: D
+
+## Respuestas y explicaciones
+**Q1.** Son paquetes separados que pueden estar en manos de personas distintas.
+**Q2.** Una preferencia de 1x le devuelve primero el dinero al inversionista.
+**Q3.** Las acciones de voto múltiple separan el control de la propiedad económica.
+**Q4.** Los estatutos y los acuerdos de accionistas definen las clases de acciones y sus derechos.
+**Q5.** Esto lleva la etiqueta SUPUESTO/OPINIÓN porque personas razonables no están de acuerdo.
+
+## Puntos clave
+- La propiedad económica y el control de la empresa son paquetes de derechos separados
+- Las clases de acciones, los votos por acción y las preferencias de liquidación los dividen
+- Los estatutos y los acuerdos de accionistas definen quién decide realmente
+- Entienda qué cede o qué obtiene antes de firmar
+
+===== PURPLE-L5-007
+TITLE: La dilución, la antidilución y la protección de la posición del fundador
+SUMMARY: Emitir acciones nuevas reduce su porcentaje, y una cláusula antidilución de trinquete completo puede pasarles mucha propiedad a los primeros inversionistas en una ronda a la baja; negocie la fórmula con tanto cuidado como la valoración.
+KEYWORDS: dilución, disposiciones antidilución, ronda a la baja, trinquete completo, promedio ponderado, participación del fundador
+# La dilución, la antidilución y la protección de la posición del fundador
+
+## Escenario inicial
+SUPUESTO/OPINIÓN (escenario hipotético solo con fines educativos): Imagine una institución financiera de importancia sistémica que revela de repente una pérdida importante que no se había divulgado, lo que hace temer que el riesgo de contraparte se propague por todo el sistema bancario.
+Aplíquelo aquí: La pérdida oculta de un gran banco sacude la confianza de los inversionistas, y el financiamiento para empresas emergentes se seca. Una empresa que recaudó dinero el año pasado a una valoración alta ahora tiene que recaudar de nuevo a una más baja. Pregunte en varios colores: ¿la participación de quién se reduce más (AZUL)? ¿Qué dicen las condiciones del contrato (MORADO)? ¿Cómo debe negociar el fundador (NARANJA)?
+
+## Objetivos de aprendizaje
+- Calcular cómo una nueva inversión diluye a los dueños existentes
+- Explicar cómo funcionan las cláusulas antidilución en una ronda a la baja
+- Negociar las condiciones de financiamiento usando el panorama completo de la dilución y el control
+
+## Contenido principal
+DATO VERIFICADO: Cuando una compañía emite acciones nuevas, el porcentaje de cada dueño existente baja, aunque el número de acciones que tiene siga siendo el mismo. A esto se le llama dilución.
+La dilución no es automáticamente mala. Si el dinero nuevo ayuda a la empresa a crecer, un porcentaje menor de una empresa más grande puede valer más. La pregunta del nivel 5 es si las condiciones que vienen con el dinero le pasan a usted más riesgo del que se imagina.
+Las cláusulas antidilución protegen a los inversionistas si la empresa vende más adelante acciones a un precio más bajo (una «ronda a la baja»). Dos formas comunes:
+- Trinquete completo: El precio del inversionista anterior se ajusta hasta el nuevo precio más bajo, como si hubiera comprado a ese precio desde el principio. Esto puede quitarles una gran parte de la propiedad a los fundadores y a los empleados.
+- Promedio ponderado: El precio del inversionista anterior se ajusta en parte a la baja, según cuánto dinero nuevo entra y a qué precio. Normalmente es menos severo.
+Esto coordina varios colores:
+- AZUL: ¿Cuánto dinero hace falta realmente, y podría funcionar una recaudación más pequeña?
+- MORADO: ¿Qué fórmula antidilución aparece en los documentos, y hay excepciones (por ejemplo, para las acciones que se emiten a los empleados)?
+- NARANJA: El poder de negociación. Los fundadores con alternativas (un MAAN sólido, según ORANGE-L4) obtienen mejores condiciones.
+- BLANCO: La lógica de la valoración. Una valoración anterior muy alta puede preparar una ronda a la baja dolorosa más adelante.
+- NEGRO: El ánimo de los empleados. Si las opciones de los empleados pierden valor, la retención puede verse afectada.
+SUPUESTO/OPINIÓN: Un fundador que persigue la valoración más alta posible en un buen mercado puede tenderse una trampa para un mal mercado. Una valoración justa y defendible con condiciones claras suele envejecer mejor.
+
+## Ejemplo práctico
+EJEMPLO ILUSTRATIVO: Una empresa tiene 1,000,000 de acciones. El fundador tiene 800,000 (80 %). Un inversionista compró 200,000 acciones a 5 dólares cada una (20 %, 1,000,000 de dólares).
+Un año después, llega el escenario. La empresa recauda 500,000 dólares a 2.50 dólares por acción y emite 200,000 acciones nuevas.
+Sin antidilución: Total de acciones = 1,200,000. Fundador = 800,000 / 1,200,000 = 66.7 %. Primer inversionista = 16.7 %. Nuevo inversionista = 16.7 %.
+Con trinquete completo: El precio del primer inversionista se ajusta a 2.50 dólares. Su 1,000,000 de dólares ahora se convierte en 400,000 acciones en lugar de 200,000. Total = 1,400,000. Fundador = 800,000 / 1,400,000 = cerca del 57.1 %. Primer inversionista = cerca del 28.6 %. Nuevo inversionista = cerca del 14.3 %.
+Con una cláusula de promedio ponderado, el ajuste del primer inversionista quedaría en algún punto entre esos dos resultados.
+SUPUESTO/OPINIÓN: La diferencia entre el 66.7 % y el 57.1 % es grande. Hasta puede cambiar quién controla la junta. Por eso la fórmula antidilución merece tanta atención en la negociación como la propia valoración.
+
+## Prueba práctica
+**Q1. ¿Qué es la dilución?**
+A) La reducción del porcentaje de un dueño cuando se emiten acciones nuevas
+B) Perder acciones por un robo
+C) Una penalidad contributiva
+D) Una caída de los ingresos
+
+**Q2. ¿Qué es una ronda a la baja?**
+A) Una ronda de golf
+B) Un fraccionamiento de acciones
+C) El pago de un préstamo
+D) Recaudar dinero a un precio por acción más bajo que el anterior
+
+**Q3. ¿Qué fórmula antidilución suele ser más severa con los fundadores?**
+A) El promedio ponderado
+B) El trinquete completo
+C) No tener antidilución
+D) Son idénticas
+
+**Q4. En el ejemplo, ¿cuál era la participación del fundador después de la ronda a la baja con trinquete completo?**
+A) 80 %
+B) Cerca del 66.7 %
+C) Cerca del 57.1 %
+D) Cerca del 28.6 %
+
+**Q5. ¿Por qué perseguir la valoración más alta puede ser riesgoso?**
+A) Las valoraciones altas son ilegales
+B) Los inversionistas nunca las aceptan
+C) Puede preparar una ronda a la baja dolorosa más adelante si las condiciones empeoran
+D) Aumenta las contribuciones
+
+## Clave de respuestas
+Q1: A
+Q2: D
+Q3: B
+Q4: C
+Q5: C
+
+## Respuestas y explicaciones
+**Q1.** Su número de acciones sigue igual, pero su porcentaje baja a medida que sube el total de acciones.
+**Q2.** Las rondas a la baja ocurren cuando caen las valoraciones, a menudo en mercados de financiamiento estrechos.
+**Q3.** El trinquete completo ajusta el precio del inversionista anterior hasta abajo.
+**Q4.** 800,000 dividido entre 1,400,000 da cerca del 57.1 %.
+**Q5.** Un precio anterior inflado hace más probables las rondas a la baja y los ajustes antidilución posteriores.
+
+## Puntos clave
+- La dilución reduce el porcentaje, no el número de acciones
+- Las cláusulas antidilución pasan el riesgo de una ronda a la baja de los inversionistas a los fundadores y a los empleados
+- El trinquete completo es más severo que el promedio ponderado
+- Negocie la fórmula con tanto cuidado como la valoración
+
+===== PURPLE-L5-008
+TITLE: Los acuerdos de compraventa financiados con seguro
+SUMMARY: Un acuerdo de compraventa entre socios establece quién compra la participación de un socio que muere, queda incapacitado o se va, a qué precio y con qué dinero; el seguro aporta los fondos y una valoración al día evita pleitos.
+KEYWORDS: acuerdo de compraventa entre socios, compra cruzada, redención por la entidad, seguro de persona clave, financiamiento de la sucesión del negocio
+# Los acuerdos de compraventa financiados con seguro
+
+## Escenario inicial
+SUPUESTO/OPINIÓN (escenario hipotético solo con fines educativos): Imagine una interrupción generalizada de salud pública que detiene el transporte marítimo y la manufactura a nivel mundial durante un periodo prolongado, lo que paraliza las cadenas de suministro de muchas industrias a la vez.
+Aplíquelo aquí: Durante una interrupción generalizada de salud pública, unos dueños de negocio se dan cuenta de que la enfermedad repentina o la muerte de un dueño podría dejar a los socios, a las familias y a los empleados en el caos. Pregunte en varios colores: ¿un acuerdo de compraventa escrito (MORADO) dice quién compra la participación? ¿De dónde sale el dinero (AZUL/BLANCO)? ¿Cómo tributa el pago (VERDE)?
+
+## Objetivos de aprendizaje
+- Explicar el propósito de un acuerdo de compraventa entre socios
+- Comparar las estructuras de compra cruzada y de redención por la entidad
+- Describir cómo el seguro financia una compra de participación y por qué importan las condiciones de valoración
+
+## Contenido principal
+Un acuerdo de compraventa entre socios responde a una pregunta dolorosa pero necesaria: si un dueño muere, queda incapacitado, se retira o se va, ¿quién compra su participación, a qué precio y con qué dinero?
+Sin un acuerdo, la participación de un dueño fallecido puede pasar a un cónyuge o a un hijo que no tiene interés ni destreza para dirigir el negocio. Los dueños sobrevivientes pueden terminar con un socio que no querían. La familia puede quedarse atrapada con parte de una empresa que no puede vender. Los empleados pueden perder su trabajo mientras todos discuten.
+Estructuras comunes:
+- Compra cruzada: Los dueños acuerdan comprarse mutuamente sus participaciones. Cada dueño suele tener un seguro sobre la vida de los demás.
+- Redención por la entidad: La propia compañía le recompra la participación al dueño que se va. La compañía suele tener el seguro.
+- Híbrida: Una mezcla, que a veces le da la primera opción a la compañía y la segunda a los dueños.
+Esto coordina varios colores:
+- MORADO: El acuerdo fija los eventos que lo activan (muerte, incapacidad, divorcio, retiro, incumplimiento), el método de valoración y las condiciones de pago.
+- AZUL/DORADO: El seguro de vida y el de incapacidad aportan efectivo en el momento en que hace falta. Sin financiamiento, un acuerdo de compraventa es solo una promesa que nadie puede darse el lujo de cumplir.
+- VERDE: REGLA ESPECÍFICA DE LA REGIÓN: La estructura afecta cómo tributa el producto del seguro, cuál es la nueva base de los compradores y si el pago se trata como una venta o como una distribución; en Puerto Rico, por ejemplo, el producto de un seguro de vida por muerte generalmente no tributa ante Hacienda, pero la compra de la participación sí puede tener consecuencias para el comprador y para el vendedor, por lo que conviene confirmarlo con un CPA.
+- NEGRO: El acuerdo mantiene estable el liderazgo y les da tranquilidad a los empleados, a los prestamistas y a los clientes.
+La valoración es donde fracasan muchos acuerdos. Un precio fijo escrito hace años puede estar muy lejos del valor de hoy. Mejores opciones incluyen una fórmula ligada a las ganancias, un valor acordado cada año que los dueños realmente actualicen, o una tasación independiente en el momento del evento que lo activa.
+SUPUESTO/OPINIÓN: Una cláusula de valoración desactualizada es una de las fuentes más comunes de pleitos entre la familia y los socios en los negocios pequeños.
+
+## Ejemplo práctico
+EJEMPLO ILUSTRATIVO: Luis y Mei tienen cada uno el 50 % de un taller de maquinaria valorado en cerca de 1.2 millones de dólares. Firman un acuerdo de compraventa de compra cruzada:
+- Evento que lo activa: muerte o incapacidad prolongada.
+- Precio: tasación independiente en el momento del evento.
+- Financiamiento: cada uno tiene una póliza de vida de 600,000 dólares y una póliza de incapacidad para la compra sobre el otro.
+Tres años después, Mei muere de forma inesperada. Luis recibe 600,000 dólares de la póliza y los usa para comprarle a su sucesión las acciones de Mei. Su familia recibe el valor justo en efectivo. Luis ahora tiene el 100 % y mantiene el taller funcionando. Los empleados conservan su trabajo.
+Una complicación: la tasación sale en 1.4 millones de dólares, así que la parte de Mei es de 700,000 dólares. El acuerdo dice que cualquier cantidad por encima del seguro se paga en cinco años mediante un pagaré. SUPUESTO/OPINIÓN: Como habían previsto esa diferencia por escrito, la brecha causó un ajuste, no un pleito.
+
+## Prueba práctica
+**Q1. ¿Qué pregunta responde un acuerdo de compraventa entre socios?**
+A) Quién compra la participación de un dueño que se va, a qué precio y con qué dinero
+B) Cómo mercadear el negocio
+C) Cómo bajar las contribuciones cada año
+D) Quiénes son los clientes de la compañía
+
+**Q2. En una estructura de compra cruzada, ¿quién compra la participación del dueño que se va?**
+A) Los dueños que quedan
+B) La compañía
+C) El gobierno
+D) Los empleados del dueño que se va
+
+**Q3. ¿Por qué el seguro es importante para un acuerdo de compraventa?**
+A) Aumenta el valor del negocio
+B) Sustituye el acuerdo
+C) Aporta efectivo cuando hace falta la compra
+D) Es obligatorio por ley en todas partes
+
+**Q4. ¿Cuál es una debilidad común de los acuerdos de compraventa?**
+A) Usar tasaciones independientes
+B) Tener seguro
+C) Incluir la incapacidad como evento que lo activa
+D) Una valoración fija desactualizada
+
+**Q5. ¿Cómo manejó el acuerdo de Luis y Mei la diferencia entre el seguro y el valor?**
+A) Un pagaré pagado en cinco años
+B) La ignoraron
+C) La pagaron los empleados
+D) La decidió un tribunal
+
+## Clave de respuestas
+Q1: A
+Q2: A
+Q3: C
+Q4: D
+Q5: A
+
+## Respuestas y explicaciones
+**Q1.** Planifica la transición de la propiedad antes de que ocurra el evento que la activa.
+**Q2.** En la compra cruzada, los dueños se compran directamente las participaciones entre sí.
+**Q3.** Sin financiamiento, los dueños podrían no poder pagar la compra.
+**Q4.** Un precio fijado hace años puede estar muy lejos del valor actual y provocar disputas.
+**Q5.** Prever la diferencia por escrito evitó una disputa.
+
+## Puntos clave
+- Un acuerdo de compraventa planifica el traspaso de la propiedad antes de una crisis
+- La compra cruzada y la redención por la entidad tienen efectos legales y contributivos distintos
+- El seguro convierte la promesa en efectivo cuando hace falta
+- Mantenga al día las condiciones de valoración y prevea las brechas de financiamiento
+
+===== PURPLE-L5-009
+TITLE: Las garantías personales en los préstamos a negocios
+SUMMARY: Una garantía personal le permite al prestamista alcanzar sus bienes personales por ese préstamo específico; negocie una garantía limitada o que se extinga, tenga cuidado con la responsabilidad solidaria y firme un acuerdo de reembolso con sus socios.
+KEYWORDS: garantía personal, garantía de préstamo comercial, garantía limitada, cláusula de extinción, negociación con el prestamista
+# Las garantías personales en los préstamos a negocios
+
+## Escenario inicial
+SUPUESTO/OPINIÓN (escenario hipotético solo con fines educativos): Imagine un banco central que sube su tasa de interés de referencia de forma marcada y repetida en apenas unos meses para combatir el alza de la inflación.
+Aplíquelo aquí: Un banco central sube las tasas de forma marcada, y el pago del préstamo de tasa variable de un pequeño negocio se dispara. Pregunte en varios colores: si el negocio no puede pagar, ¿puede el prestamista alcanzar la casa del dueño (ROJO) y sus ahorros (BLANCO), aunque el préstamo esté a nombre de la compañía (AZUL)? La respuesta depende de lo que firmó el dueño (MORADO).
+
+## Objetivos de aprendizaje
+- Explicar cómo una garantía personal afecta la protección contra la responsabilidad de una entidad
+- Comparar las garantías ilimitadas, limitadas y que se extinguen
+- Negociar las condiciones de una garantía como parte de una decisión de financiamiento completa
+
+## Contenido principal
+En el nivel 2, usted aprendió que una LLC o una corporación puede separar las deudas del negocio de los bienes personales. En el nivel 5, aprende la forma más común en que los dueños devuelven esa protección: la garantía personal.
+DATO VERIFICADO: Muchos prestamistas, sobre todo con negocios pequeños y nuevos, exigen que los dueños garanticen personalmente el préstamo. Si el negocio incumple, el prestamista puede ir tras los bienes personales del garantizador, sujeto a la ley local.
+Eso significa que la entidad todavía lo protege de muchos otros riesgos, como algunas reclamaciones de clientes o disputas con suplidores. Pero para ese préstamo específico, el muro entre los bienes del negocio y los personales tiene una puerta, y usted le dio la llave al prestamista.
+Tipos de garantías:
+- Ilimitada: Usted garantiza el préstamo completo más los intereses y los costos de cobro.
+- Limitada: Usted garantiza solo una cantidad de dinero o un porcentaje fijado.
+- Que se extingue: La garantía se reduce o termina cuando el negocio cumple ciertas metas, como un número de pagos a tiempo o una razón de deuda a ingreso.
+- Mancomunada o solidaria: Cuando hay varios dueños, una garantía «solidaria» normalmente significa que el prestamista puede cobrarle la cantidad completa a cualquiera de los garantizadores. REGLA ESPECÍFICA DE LA REGIÓN.
+Esto coordina varios colores:
+- AZUL: El tamaño, la tasa y el plazo del préstamo.
+- MORADO: Las condiciones de la garantía, las reglas sobre el consentimiento del cónyuge y qué bienes pueden estar protegidos por las leyes locales de exención (REGLA ESPECÍFICA DE LA REGIÓN; en Puerto Rico, por ejemplo, la ley de hogar seguro protege hasta cierto punto la residencia principal frente a muchos acreedores, aunque no frente a la hipoteca de la propia casa, por lo que conviene confirmarlo con un abogado).
+- ROJO: Si el prestamista también quiere un gravamen sobre su casa.
+- BLANCO: Si sus cuentas de ahorro o de inversión pueden alcanzarse.
+- NEGRO: Cuánto riesgo personal está usted dispuesto a asumir por este negocio.
+SUPUESTO/OPINIÓN: Las garantías suelen ser negociables, sobre todo para los negocios con historial. Una garantía limitada o que se extingue puede costar una tasa un poco más alta, y ese intercambio puede valer mucho la pena.
+
+## Ejemplo práctico
+EJEMPLO ILUSTRATIVO: La compañía de Sofía toma prestados 300,000 dólares para abrir un segundo local. El primer borrador del prestamista pide una garantía personal ilimitada de Sofía y de su socio, solidaria, más un gravamen sobre la casa de Sofía.
+La contraoferta de Sofía, preparada con su abogada:
+- Garantía limitada al 50 % del saldo pendiente.
+- La garantía se extingue después de 36 pagos a tiempo si el negocio mantiene una razón de cobertura del servicio de la deuda fijada.
+- Ningún gravamen sobre su casa; en cambio, el prestamista obtiene un gravamen sobre el equipo del nuevo local.
+- Cada socio garantiza su propia parte (mancomunada), no la cantidad completa.
+El prestamista acepta el límite y la extinción, pero insiste en la responsabilidad solidaria. A cambio, le añade un 0.25 % a la tasa.
+SUPUESTO/OPINIÓN: Sofía paga un poco más de intereses, pero pone un tope a su exposición personal y deja su casa fuera del negocio. También firma un acuerdo escrito con su socio según el cual cada uno le reembolsará al otro cualquier cantidad pagada por encima de su parte.
+
+## Prueba práctica
+**Q1. ¿Qué hace una garantía personal?**
+A) Le permite al prestamista ir tras los bienes personales del dueño si el negocio incumple
+B) Baja la tasa de interés automáticamente
+C) Hace que el préstamo no tribute
+D) Pone fin a la existencia de la entidad
+
+**Q2. ¿Qué es una garantía que se extingue?**
+A) Una garantía que se duplica con el tiempo
+B) Una garantía sobre el seguro contra incendio
+C) Una garantía que se reduce o termina cuando el negocio cumple metas fijadas
+D) Una garantía sin límites
+
+**Q3. ¿Qué significa normalmente una garantía «solidaria» cuando hay varios garantizadores?**
+A) Cada uno paga solo su parte
+B) Nadie tiene que pagar
+C) El prestamista puede cobrarle la cantidad completa a cualquiera de los garantizadores
+D) Solo paga la compañía
+
+**Q4. ¿Qué cedió Sofía para obtener una garantía limitada y que se extingue?**
+A) Su casa
+B) Su participación en la propiedad
+C) Una tasa de interés un poco más alta
+D) Nada
+
+**Q5. ¿Por qué Sofía firmó un acuerdo aparte con su socio?**
+A) Para evitar contribuciones
+B) Para que cada uno le reembolsara al otro los pagos por encima de su parte
+C) Para vender el negocio
+D) Porque el prestamista lo exigió
+
+## Clave de respuestas
+Q1: A
+Q2: C
+Q3: C
+Q4: C
+Q5: B
+
+## Respuestas y explicaciones
+**Q1.** Una garantía vuelve a abrir la exposición personal para esa deuda específica.
+**Q2.** Las condiciones de extinción reducen la exposición personal a medida que el negocio demuestra su solidez.
+**Q3.** Cada garantizador puede ser responsable de la deuda completa. REGLA ESPECÍFICA DE LA REGIÓN.
+**Q4.** Aceptó un 0.25 % más de interés a cambio de una exposición con tope.
+**Q5.** Ese acuerdo protege a cada socio si el prestamista le cobra a uno solo.
+
+## Puntos clave
+- Una garantía personal vuelve a abrir la exposición personal para ese préstamo específico
+- Las garantías ilimitadas, limitadas y que se extinguen conllevan riesgos muy distintos
+- La responsabilidad solidaria puede hacer que un socio pague por todos
+- Las condiciones de una garantía suelen ser negociables; un pequeño aumento de la tasa puede valer un tope
+
+===== PURPLE-L5-010
+TITLE: Mantener el muro en pie: las formalidades corporativas y el descorrimiento del velo corporativo
+SUMMARY: La protección de una entidad solo se sostiene si se trata como realmente separada; mezclar fondos, dejarla sin capital suficiente o ignorar las formalidades puede permitir que un tribunal alcance sus bienes personales.
+KEYWORDS: descorrer el velo corporativo, formalidades corporativas, mezcla de fondos, alter ego, falta de capitalización
+# Mantener el muro en pie: las formalidades corporativas y el descorrimiento del velo corporativo
+
+## Escenario inicial
+SUPUESTO/OPINIÓN (escenario hipotético solo con fines educativos): Imagine el gobierno soberano de un país de tamaño mediano que da señales de que podría no poder hacer un próximo pago de sus bonos, lo que aumenta el riesgo de impago de su deuda.
+Aplíquelo aquí: A medida que se agrava la crisis de deuda de un gobierno, los prestamistas y los suplidores se vuelven más agresivos para cobrarles a los negocios en apuros. Pregunte en varios colores: si un acreedor demanda, ¿aguantará la entidad de la compañía (MORADO)? ¿O una contabilidad descuidada (VERDE) y unas cuentas bancarias mezcladas (AZUL) le permitirán al acreedor alcanzar los bienes personales del dueño (ROJO/BLANCO)?
+
+## Objetivos de aprendizaje
+- Explicar qué es descorrer el velo corporativo y por qué lo usan los tribunales
+- Identificar los comportamientos comunes que debilitan la protección de una entidad
+- Crear una rutina sencilla que mantenga fuerte la separación de la entidad
+
+## Contenido principal
+Cada estructura de las primeras nueve lecciones de este nivel depende de una sola cosa: la entidad debe tratarse realmente como separada de sus dueños. Si no se trata así, un tribunal puede decidir que tampoco merece que la traten como separada.
+DATO VERIFICADO: Muchos sistemas legales permiten que los tribunales, en ciertas situaciones, pasen por alto una entidad y hagan personalmente responsables a sus dueños. A esto se le llama comúnmente «descorrer el velo corporativo». La prueba exacta es una REGLA ESPECÍFICA DE LA REGIÓN; en Puerto Rico, por ejemplo, los tribunales descorren el velo corporativo cuando la entidad se usa para cometer fraude o evadir obligaciones, por lo que conviene confirmarlo con un abogado; pero los tribunales suelen fijarse en señales de alerta parecidas.
+Señales de alerta comunes:
+- Mezcla de fondos: El dinero personal y el del negocio se mezclan en la misma cuenta, o el efectivo del negocio se usa para cuentas personales sin registros.
+- Falta de capitalización: El negocio se creó con muy poco dinero o seguro para cumplir sus obligaciones previsibles.
+- Formalidades que faltan: No hay registros de las decisiones importantes, ni radicaciones anuales, ni contratos separados.
+- Alter ego: El dueño trata la compañía como una extensión de sí mismo y no como una persona separada ante la ley.
+- Fraude o injusticia: La entidad se usó para engañar a los acreedores.
+Aquí es donde los colores trabajan juntos:
+- VERDE: Unos libros limpios y una documentación adecuada de los retiros, los salarios y los préstamos del dueño también protegen la separación legal.
+- AZUL: Una cuenta bancaria del negocio aparte, una tarjeta de crédito del negocio y un capital inicial suficiente.
+- MORADO: Firmar los contratos a nombre de la compañía y con el cargo («Jane Lee, Administradora, Lee Services LLC»), llevar actas o consentimientos escritos para las decisiones importantes y radicar los informes anuales.
+- ROJO: Si la entidad es dueña de una propiedad, los cánones y los gastos pasan por la cuenta de la entidad.
+SUPUESTO/OPINIÓN: El fallo más común no es el fraude. Es el descuido común y corriente. Los dueños pagan una cuenta personal desde la cuenta del negocio «solo esta vez», hasta que se vuelve una costumbre.
+
+## Ejemplo práctico
+EJEMPLO ILUSTRATIVO: Dos dueños, dos resultados.
+La dueña A tiene una LLC de contratista. Tiene una cuenta del negocio aparte, se paga mediante retiros documentados, firma los contratos como «Administradora», guarda una carpeta de consentimientos escritos para las decisiones importantes y radica los informes anuales a tiempo. Tiene un seguro de responsabilidad. Un cliente demanda por más de lo que cubre la póliza. El tribunal trata la LLC como separada. La reclamación se limita a los bienes de la compañía.
+El dueño B tiene una LLC parecida. Paga su hipoteca y su préstamo del carro desde la cuenta del negocio, deposita algunos cheques de clientes en su cuenta personal, nunca radica los informes anuales y empezó la compañía casi sin capital ni seguro. Un cliente demanda. El abogado del cliente muestra las cuentas mezcladas y las radicaciones que faltan. El tribunal determina que la LLC era su alter ego y permite que la reclamación alcance sus bienes personales.
+SUPUESTO/OPINIÓN: Ambos dueños tenían el mismo tipo de entidad. La diferencia fue el comportamiento. Una rutina mensual sencilla (cuadrar las cuentas, registrar los retiros, radicar lo que venza) es un seguro barato.
+
+## Prueba práctica
+**Q1. ¿Qué es «descorrer el velo corporativo»?**
+A) Abrir una nueva corporación
+B) Que un tribunal pase por alto una entidad y haga personalmente responsables a sus dueños
+C) Radicar las planillas temprano
+D) Vender acciones de la compañía
+
+**Q2. ¿Cuál de estas es una señal de alerta común para descorrer el velo corporativo?**
+A) Una cuenta bancaria del negocio aparte
+B) Mezclar el dinero personal con el del negocio
+C) Radicar los informes anuales
+D) Tener un seguro de responsabilidad
+
+**Q3. ¿Qué significa la falta de capitalización?**
+A) Crear un negocio con muy poco dinero o seguro para sus obligaciones previsibles
+B) Tener demasiado dinero
+C) Pagar demasiadas contribuciones
+D) Tener demasiados dueños
+
+**Q4. ¿Cómo debe firmar un dueño los contratos para apoyar la separación?**
+A) Solo con su nombre personal
+B) A nombre de la compañía y con su cargo
+C) Sin ningún nombre
+D) Con un apodo
+
+**Q5. Según la lección, ¿cuál es la causa más común de los problemas con el velo corporativo?**
+A) El fraude
+B) Las contribuciones altas
+C) Demasiados abogados
+D) El descuido común y corriente que se vuelve costumbre
+
+## Clave de respuestas
+Q1: B
+Q2: B
+Q3: A
+Q4: B
+Q5: D
+
+## Respuestas y explicaciones
+**Q1.** Los tribunales pueden pasar por alto la entidad en ciertas situaciones. La prueba varía según la región.
+**Q2.** Mezclar fondos sugiere que la entidad no está realmente separada.
+**Q3.** Los tribunales pueden ver una entidad sin fondos suficientes como creada para evadir responsabilidades.
+**Q4.** Firmar como oficial de la compañía muestra que la parte es la compañía, no la persona.
+**Q5.** Los pequeños atajos, repetidos, debilitan la separación con el tiempo.
+
+## Puntos clave
+- La protección de una entidad depende de tratarla como realmente separada
+- La mezcla de fondos, la falta de capitalización y las formalidades que faltan son señales de alerta
+- Unos libros limpios (VERDE) y unas cuentas separadas (AZUL) protegen el muro legal (MORADO)
+- Una rutina mensual sencilla es un seguro barato

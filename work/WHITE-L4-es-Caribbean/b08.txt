@@ -1,0 +1,399 @@
+===== WHITE-L4-036
+TITLE: El análisis de los mercados emergentes: por qué un mayor potencial de crecimiento viene con más volatilidad
+SUMMARY: Aprenda qué caracteriza a un mercado emergente, por qué estos mercados han ofrecido más potencial de crecimiento y qué riesgos propios explican su mayor volatilidad.
+KEYWORDS: mercados emergentes, potencial de crecimiento, riesgo político, volatilidad de los mercados emergentes
+# El análisis de los mercados emergentes: por qué un mayor potencial de crecimiento viene con más volatilidad
+
+## Escenario inicial
+SUPUESTO/OPINIÓN (escenario hipotético solo con fines educativos): Imagine que la moneda de una economía de tamaño mediano pierde una gran parte de su valor frente a las principales monedas de reserva en pocos meses, impulsada por la fuga de capital del país y la pérdida de confianza de los inversionistas. Mientras la moneda de una economía emergente de tamaño mediano se mueve fuertemente por la fuga de capital, algunos inversionistas reconsideran por completo su asignación a mercados emergentes, mientras que otros ven una oportunidad a largo plazo que el miedo a corto plazo está valorando mal por un tiempo. Esta lección examina la relación particular entre riesgo y rendimiento de esta categoría de activos.
+
+## Objetivos de aprendizaje
+- Explicar qué caracteriza a una economía de mercado emergente en un contexto de inversión.
+- Explicar por qué los mercados emergentes históricamente han ofrecido más potencial de crecimiento a largo plazo.
+- Identificar factores de riesgo propios de invertir en mercados emergentes, además de los que hay en los mercados desarrollados.
+- Explicar por qué la volatilidad de los mercados emergentes históricamente ha superado la de los mercados desarrollados.
+
+## Contenido principal
+Los mercados emergentes son economías que están en una fase de transición en su desarrollo: en general crecen más rápido que las economías maduras y desarrolladas, pero con una infraestructura de mercados financieros, instituciones políticas y marcos regulatorios menos establecidos. DATO VERIFICADO: entre los factores que comúnmente se usan para clasificar un mercado como "emergente" están el ingreso por persona, la accesibilidad del mercado para los inversionistas extranjeros y la liquidez y madurez regulatoria del mercado, aunque las clasificaciones específicas pueden variar entre distintos proveedores de índices y cambiar con el tiempo a medida que las economías se desarrollan.
+
+Este es el "por qué" los mercados emergentes históricamente han ofrecido más potencial de crecimiento a largo plazo: las economías en desarrollo a menudo tienen más espacio para un crecimiento rápido del PIB (desde una base más baja), una clase media en expansión con un consumo que va en aumento y ventajas demográficas como poblaciones más jóvenes, y todo eso puede traducirse en un crecimiento de las ganancias de las empresas más rápido que en las economías desarrolladas, más maduras y de crecimiento más lento.
+
+Este potencial de crecimiento viene con una volatilidad bastante más alta y con factores de riesgo propios, además de lo que normalmente implica invertir en mercados desarrollados: el riesgo político (gobiernos menos estables, políticas impredecibles, posibilidad de cambios regulatorios repentinos), el riesgo cambiario (lección 35), que tiende a ser más marcado en las monedas de mercados emergentes, que pueden tener movimientos más bruscos como el del escenario anterior, protecciones legales y regulatorias menos maduras para los accionistas minoritarios, y en general menos liquidez de mercado (lección 34), lo que significa que los diferenciales entre compra y venta pueden ser más amplios y que las transacciones grandes pueden mover más los precios. Por eso invertir en mercados emergentes exige aceptar una volatilidad bastante más alta, incluidas a veces caídas fuertes y repentinas ligadas a eventos políticos o cambiarios que no tienen que ver con los fundamentos de las empresas, a cambio del potencial de crecimiento histórico que estos mercados han ofrecido.
+
+## Ejemplo práctico
+EJEMPLO ILUSTRATIVO: Un índice de mercados emergentes históricamente ha dado rendimientos anuales promedio más altos en períodos de varias décadas que un índice de mercados desarrollados, lo que refleja el crecimiento más rápido de las economías subyacentes. Sin embargo, en ese mismo período, el índice de mercados emergentes también ha tenido caídas anuales bastante más grandes, incluidas caídas fuertes ligadas a eventos específicos de inestabilidad política y a crisis cambiarias parecidas al escenario descrito anteriormente, eventos que un índice comparable de mercados desarrollados, con instituciones y monedas más estables, no sufrió en la misma medida durante el mismo período.
+
+## Prueba práctica
+**Q1. ¿Qué caracteriza en general a una economía de mercado emergente en un contexto de inversión?**
+A) Una economía más desarrollada y estable que cualquier mercado desarrollado
+B) Una economía en una fase de transición en su desarrollo, que en general crece más rápido que las economías maduras pero con una infraestructura financiera y regulatoria menos establecida
+C) Una economía que no tiene ningún tipo de mercado de acciones
+D) Una economía definida exclusivamente por su ubicación geográfica
+
+**Q2. ¿Por qué los mercados emergentes históricamente han ofrecido más potencial de crecimiento a largo plazo que los mercados desarrollados?**
+A) Los mercados emergentes no tienen relación con las tasas de crecimiento económico
+B) Las economías en desarrollo a menudo tienen más espacio para un crecimiento rápido del PIB desde una base más baja, una clase media en expansión y una demografía favorable, lo que apoya un crecimiento más rápido de las ganancias de las empresas
+C) Los mercados desarrollados siempre crecen más rápido que los emergentes
+D) El potencial de crecimiento no tiene relación con la etapa de desarrollo de una economía
+
+**Q3. ¿Cuál de los siguientes es un factor de riesgo propio, más marcado en los mercados emergentes que en los desarrollados?**
+A) La ausencia total de cualquier riesgo cambiario
+B) El riesgo político, incluidos gobiernos menos estables y la posibilidad de cambios regulatorios repentinos
+C) Una liquidez garantizada más alta que en los mercados desarrollados
+D) La eliminación de toda la volatilidad del mercado
+
+**Q4. ¿Por qué el riesgo cambiario de los mercados emergentes, visto en la lección anterior, tiende a ser más marcado que en los mercados desarrollados?**
+A) El riesgo cambiario no tiene relación con la etapa de desarrollo económico de un país
+B) Las monedas de mercados emergentes pueden tener movimientos más bruscos, como los ligados a la fuga de capital o a cambios repentinos de confianza, que las monedas más establecidas de los mercados desarrollados
+C) Las monedas de los mercados desarrollados siempre son más volátiles que las de los mercados emergentes
+D) Los mercados emergentes no usan ninguna moneda
+
+**Q5. ¿Cuál es la relación fundamental entre riesgo y rendimiento de invertir en mercados emergentes que describe esta lección?**
+A) Los mercados emergentes ofrecen menos potencial de crecimiento y menos volatilidad que los desarrollados
+B) Los mercados emergentes históricamente han ofrecido más potencial de crecimiento a largo plazo a cambio de una volatilidad bastante más alta y de factores de riesgo propios
+C) Los mercados emergentes ofrecen rendimientos garantizados sin ningún riesgo
+D) No hay una diferencia importante en las características de riesgo y rendimiento entre los mercados emergentes y los desarrollados
+
+## Clave de respuestas
+Q1: B
+Q2: B
+Q3: B
+Q4: B
+Q5: B
+
+## Respuestas y explicaciones
+**Q1.** Los mercados emergentes se caracterizan por su etapa de desarrollo, que ofrece potencial de crecimiento junto con una infraestructura institucional y de mercado menos madura.
+
+**Q2.** Estos motores estructurales de crecimiento son razones que comúnmente se mencionan para explicar la trayectoria de crecimiento a largo plazo históricamente más fuerte de los mercados emergentes frente a las economías maduras.
+
+**Q3.** La inestabilidad política y la imprevisibilidad regulatoria son factores de riesgo que tienden a pesar más en los mercados emergentes que en las economías desarrolladas más establecidas.
+
+**Q4.** La inestabilidad relativa de algunos sistemas financieros y de la confianza de los inversionistas en mercados emergentes puede llevar a movimientos cambiarios más grandes que los que normalmente se ven en los mercados desarrollados.
+
+**Q5.** Esta relación, más potencial de crecimiento junto con más volatilidad y riesgos propios, es el tema central que une todos los factores vistos en esta lección.
+
+## Puntos clave
+- Los mercados emergentes son economías en transición en su desarrollo, que en general crecen más rápido pero con una infraestructura financiera y regulatoria menos madura.
+- Un crecimiento más rápido del PIB, una clase media en expansión y una demografía favorable históricamente han apoyado más potencial de crecimiento a largo plazo en los mercados emergentes.
+- El riesgo político, un riesgo cambiario más marcado y menos liquidez son factores de riesgo propios, además de los típicos de los mercados desarrollados.
+- Invertir en mercados emergentes implica aceptar una volatilidad bastante más alta a cambio de este potencial de crecimiento histórico.
+
+===== WHITE-L4-037
+TITLE: El análisis de ETF frente a fondo mutuo: por qué la estructura cambia el costo y la eficiencia contributiva
+SUMMARY: Aprenda la diferencia en cómo se negocian un ETF y un fondo mutuo, por qué los ETF suelen ser más eficientes en impuestos y cómo se comparan sus cargos.
+KEYWORDS: ETF, fondo mutuo, estructura del fondo, eficiencia contributiva, negociación durante el día
+# El análisis de ETF frente a fondo mutuo: por qué la estructura cambia el costo y la eficiencia contributiva
+
+## Escenario inicial
+SUPUESTO/OPINIÓN (escenario hipotético solo con fines educativos): Imagine una interrupción de salud pública generalizada que detiene el transporte marítimo y la manufactura a nivel mundial por un período largo y enreda las cadenas de suministro de muchas industrias a la vez. Durante un período de interrupción generalizada del mercado, algunos inversionistas quieren reaccionar de inmediato a los movimientos de precio durante el día, mientras que otros están cómodos haciendo transacciones solo una vez al día a un precio fijo. Esta lección explica en qué se diferencian las estructuras de los ETF y de los fondos mutuos de formas que importan mucho más allá de esta flexibilidad para negociar.
+
+## Objetivos de aprendizaje
+- Explicar la diferencia estructural clave en cómo se negocian los ETF y los fondos mutuos.
+- Explicar por qué los ETF históricamente han tendido a ser más eficientes en impuestos que fondos mutuos de gestión activa comparables.
+- Comparar las tasas de gastos típicas de los ETF y de los fondos mutuos en estrategias parecidas.
+- Identificar situaciones en que la estructura de un fondo mutuo todavía podría preferirse a la de un ETF.
+
+## Contenido principal
+Los fondos cotizados en bolsa (ETF, por sus siglas en inglés) se negocian en una bolsa de valores durante todo el día a precios de mercado que se actualizan continuamente, igual que las acciones individuales, mientras que los fondos mutuos tradicionales se valoran y se negocian solo una vez al día, después del cierre del mercado, al valor neto de los activos (NAV) calculado ese día. DATO VERIFICADO: esta es la diferencia estructural más visible, pero una diferencia menos visible, y a menudo más importante económicamente, tiene que ver con la eficiencia contributiva típica de cada estructura.
+
+Este es el "por qué" los ETF históricamente han tendido a ser más eficientes en impuestos que fondos mutuos de gestión activa comparables, algo especialmente importante durante un período de transacciones provocadas por una interrupción como la del escenario anterior: la estructura de los ETF generalmente permite un proceso de creación y redención "en especie" (un mecanismo mediante el cual grandes participantes institucionales intercambian directamente valores subyacentes por participaciones del ETF, y al revés, en lugar de que el propio fondo compre o venda valores por efectivo) que normalmente evita provocar una distribución tributable de ganancias de capital a los demás accionistas del fondo. En cambio, cuando los fondos mutuos tradicionales tienen que vender valores subyacentes para atender las solicitudes de redención de los accionistas (salidas de efectivo del fondo), pueden provocar ganancias de capital que hay que distribuir a todos los accionistas que quedan, y que les tributan, incluso a los que no vendieron ninguna de sus propias participaciones y no querían realizar un evento tributable ese año.
+
+Por eso un inversionista que tiene un fondo mutuo tradicional en una cuenta tributable puede recibir una distribución tributable de ganancias de capital no deseada, a veces grande, en un año en que otros accionistas del fondo redimieron mucho, aunque sus propias participaciones no se tocaran y aun, en algunos casos, si el precio general de las participaciones del fondo en realidad bajó ese año. Por eso también, conectado con el análisis de la tasa de gastos de la lección 5, los ETF con frecuencia, aunque no siempre, tienen tasas de gastos más bajas que fondos mutuos comparables, sobre todo en estrategias pasivas que siguen un índice, aunque esta diferencia de costo se ha reducido con el tiempo porque la competencia también ha bajado los cargos de los fondos mutuos.
+
+## Ejemplo práctico
+EJEMPLO ILUSTRATIVO: Durante un período de muchas redenciones en un fondo mutuo tradicional de gestión activa en medio de una interrupción del mercado, el administrador del fondo tiene que vender algunas inversiones subyacentes que subieron de valor para conseguir el efectivo necesario para atender esas solicitudes de redención, lo que provoca una distribución de ganancias de capital que todos los accionistas que quedan tienen que informar como ingreso tributable ese año, incluso los que mantuvieron sus participaciones todo el tiempo y aunque el valor general del fondo bajó ese año por la interrupción general. Un ETF comparable, usando su mecanismo de redención en especie durante la misma interrupción, en gran parte evita provocar este tipo de distribución tributable para los accionistas que le quedan.
+
+## Prueba práctica
+**Q1. ¿Cuál es la diferencia estructural más visible en cómo se negocian los ETF y los fondos mutuos?**
+A) Los ETF solo pueden comprarse a través de un asesor financiero, y los fondos mutuos no
+B) Los ETF se negocian durante todo el día a precios de mercado que se actualizan continuamente, mientras que los fondos mutuos se valoran y se negocian una vez al día después del cierre del mercado
+C) Los fondos mutuos se negocian continuamente durante todo el día, mientras que los ETF solo se negocian una vez al día
+D) No hay diferencia en cómo se negocian las dos estructuras
+
+**Q2. ¿Qué mecanismo les permite a los ETF en general evitar provocar distribuciones de ganancias de capital por la actividad de los accionistas?**
+A) Por ley, los ETF están exentos de pagar cualquier impuesto sobre ganancias de capital
+B) El proceso de creación y redención en especie, que intercambia directamente valores subyacentes en lugar de obligar al fondo a vender valores por efectivo
+C) Los ETF nunca tienen valores que puedan subir de valor
+D) Los fondos mutuos y los ETF usan mecanismos de redención idénticos
+
+**Q3. ¿Por qué un accionista de un fondo mutuo podría recibir una distribución tributable de ganancias de capital aunque nunca haya vendido ninguna de sus propias participaciones?**
+A) Los accionistas de fondos mutuos nunca pueden recibir una distribución tributable bajo ninguna circunstancia
+B) Si el fondo tiene que vender valores que subieron de valor para atender las solicitudes de redención de otros accionistas, las ganancias de capital que resultan se distribuyen a todos los accionistas que quedan y les tributan
+C) Solo los accionistas de ETF pueden recibir distribuciones tributables, nunca los de fondos mutuos
+D) Las distribuciones tributables solo ocurren cuando el valor de un fondo mutuo sube en el año
+
+**Q4. En el ejemplo, ¿por qué los accionistas que quedaban en el fondo mutuo debían impuestos aunque el valor general del fondo bajó ese año?**
+A) Es imposible deber impuestos sobre ganancias de capital cuando el valor de un fondo ha bajado
+B) El fondo tuvo que vender algunas inversiones subyacentes que subieron de valor para atender las redenciones, lo que provocó una distribución tributable de ganancias de capital independiente del desempeño general del fondo al final del año
+C) El administrador del fondo cometió un error al calcular el valor del fondo
+D) Los ETF sufrieron exactamente la misma consecuencia contributiva en este mismo escenario
+
+**Q5. ¿Cómo se han comparado históricamente las tasas de gastos típicas de los ETF y de los fondos mutuos, sobre todo en estrategias pasivas?**
+A) Los fondos mutuos siempre han sido mucho más baratos que los ETF, sin excepciones
+B) Los ETF con frecuencia, aunque no siempre, han tenido tasas de gastos más bajas que fondos mutuos comparables, aunque esta diferencia se ha reducido con el tiempo
+C) Los ETF y los fondos mutuos siempre han cobrado exactamente los mismos cargos
+D) Las tasas de gastos no importan en la comparación entre los dos tipos de fondo
+
+## Clave de respuestas
+Q1: B
+Q2: B
+Q3: B
+Q4: B
+Q5: B
+
+## Respuestas y explicaciones
+**Q1.** Esta diferencia entre negociar durante el día y negociar una vez al día es la diferencia estructural más visible de inmediato entre los dos tipos de fondo.
+
+**Q2.** Este mecanismo estructural es la razón principal por la que los ETF históricamente han sido más eficientes en impuestos que los fondos mutuos tradicionales con una actividad parecida de los accionistas.
+
+**Q3.** Esta consecuencia contributiva que se traspasa por la actividad de redención de otros accionistas es una característica distintiva de la estructura tradicional de los fondos mutuos.
+
+**Q4.** Las ganancias realizadas al vender inversiones específicas que subieron de valor para atender redenciones pueden provocar una distribución tributable sin importar cómo se comportó el precio general de las participaciones del fondo en el año.
+
+**Q5.** Aunque los ETF a menudo han tenido una ventaja de costo, sobre todo en estrategias pasivas, la mayor competencia ha reducido esta diferencia en muchos casos con el tiempo.
+
+## Puntos clave
+- Los ETF se negocian durante el día a precios de mercado; los fondos mutuos tradicionales se negocian una vez al día al valor neto de los activos del cierre.
+- El mecanismo de creación y redención en especie de los ETF en general evita provocar distribuciones tributables de ganancias de capital como pueden hacerlo las redenciones de los fondos mutuos tradicionales.
+- Los accionistas de fondos mutuos pueden recibir una distribución tributable por la actividad de redención de otros accionistas, aun sin vender sus propias participaciones.
+- Los ETF a menudo, aunque no siempre, han tenido tasas de gastos más bajas que fondos mutuos comparables, aunque esta diferencia de costo se ha reducido con el tiempo.
+
+===== WHITE-L4-038
+TITLE: El análisis de los ETF apalancados: por qué el reajuste diario erosiona los rendimientos a largo plazo
+SUMMARY: Aprenda qué busca un ETF apalancado, cómo funciona su reajuste diario y por qué la capitalización diaria hace que sus rendimientos a largo plazo se desvíen.
+KEYWORDS: ETF apalancado, reajuste diario, erosión por volatilidad, instrumentos de negociación a corto plazo
+# El análisis de los ETF apalancados: por qué el reajuste diario erosiona los rendimientos a largo plazo
+
+## Escenario inicial
+SUPUESTO/OPINIÓN (escenario hipotético solo con fines educativos): Imagine una interrupción de salud pública generalizada que detiene el transporte marítimo y la manufactura a nivel mundial por un período largo y enreda las cadenas de suministro de muchas industrias a la vez. Mientras los mercados se mueven violentamente durante un período de interrupción generalizada, un inversionista que compró un ETF apalancado esperando duplicar su exposición a largo plazo a un mercado en recuperación se sorprende al ver que su resultado real no se parece en nada al doble del rendimiento del índice durante el año siguiente. Esta lección explica la razón mecánica.
+
+## Objetivos de aprendizaje
+- Explicar para qué está diseñado un ETF apalancado.
+- Explicar el mecanismo de reajuste diario que usan la mayoría de los ETF apalancados.
+- Explicar por qué este mecanismo de reajuste diario hace que los rendimientos a largo plazo se desvíen mucho de un simple múltiplo del rendimiento a largo plazo del índice subyacente.
+- Explicar por qué los ETF apalancados en general se consideran herramientas de negociación a corto plazo y no inversiones a largo plazo.
+
+## Contenido principal
+Un ETF apalancado está diseñado para dar un múltiplo (como 2x o 3x) del rendimiento diario de un índice subyacente, usando derivados financieros y otras técnicas para lograr esta exposición diaria amplificada. DATO VERIFICADO: la palabra clave aquí es "diario": casi todos los ETF apalancados están estructurados para reajustar su razón de apalancamiento cada día de negociación, lo que significa que el fondo está diseñado para dar su múltiplo declarado del rendimiento de ese único día, no un múltiplo del rendimiento del índice en un período más largo como un mes, un año o un ciclo de mercado completo.
+
+Este es el "por qué" este mecanismo de reajuste diario hace que el desempeño real a más largo plazo de un ETF apalancado se desvíe, a menudo mucho, de lo que un inversionista ingenuo podría esperar (simplemente duplicar o triplicar el rendimiento a más largo plazo del índice): como la razón de apalancamiento se reajusta cada día según el valor inicial de ese día, capitalizar una serie de rendimientos diarios con un apalancamiento de 2x o 3x durante muchos días produce un resultado matemáticamente distinto a 2x o 3x el rendimiento capitalizado del índice subyacente en ese mismo período. Esta desviación, a veces llamada "erosión por volatilidad" (en inglés, "volatility decay" o "beta slippage"), tiende a empeorar mientras más volátil sea el índice subyacente, aun si la dirección general a largo plazo del índice es exactamente la que el inversionista anticipó correctamente, como en el escenario anterior.
+
+Por eso los ETF apalancados en general se consideran, tanto por sus propios emisores como por la mayoría de los profesionales financieros, herramientas de negociación a corto plazo diseñadas para inversionistas sofisticados que manejan activamente una posición durante unos días, no inversiones a largo plazo para comprar y mantener. OPINIÓN y advertencia muy compartida entre reguladores financieros y analistas: un inversionista que mantiene un ETF apalancado por meses o años, sobre todo durante un período volátil, puede tener un resultado bastante peor de lo que sugeriría el desempeño real del índice subyacente, aun cuando haya predicho correctamente la dirección general a largo plazo de ese índice.
+
+## Ejemplo práctico
+EJEMPLO ILUSTRATIVO: Un índice subyacente cae 10% un día y luego sube 11.1% al día siguiente, y termina prácticamente donde empezó (un resultado más o menos plano en dos días, porque una caída de 10% seguida de una subida de 11.1% se compensan aproximadamente). Un ETF apalancado diario de 2x que sigue ese índice cae 20% el primer día y luego sube 22.2% el segundo día (2x cada movimiento diario), pero como la ganancia de 22.2% del segundo día se calcula sobre la base ya reducida después de la pérdida de 20% del primer día, el ETF apalancado termina el período de dos días con una baja de alrededor de 2.2%, no plano como el índice subyacente. Esto ilustra cómo la capitalización diaria en un mercado volátil y de altas y bajas erosiona el desempeño a largo plazo de un ETF apalancado aun cuando el índice subyacente no tiene ningún cambio neto.
+
+## Prueba práctica
+**Q1. ¿Qué está diseñado para dar un ETF apalancado?**
+A) Un rendimiento anual fijo garantizado sin importar las condiciones del mercado
+B) Un múltiplo, como 2x o 3x, del rendimiento diario de un índice subyacente
+C) Exactamente el mismo rendimiento que el índice subyacente, sin amplificación
+D) Un múltiplo del rendimiento del índice subyacente en cualquier período que el inversionista escoja
+
+**Q2. ¿Por qué el mecanismo de reajuste diario hace que el desempeño a largo plazo de un ETF apalancado se desvíe de un simple múltiplo del rendimiento a largo plazo del índice?**
+A) Los reajustes diarios no tienen ningún efecto en los resultados de la capitalización a largo plazo
+B) Capitalizar una serie de rendimientos diarios apalancados produce un resultado matemáticamente distinto a aplicar el mismo múltiplo de apalancamiento al rendimiento capitalizado del índice durante todo el período, sobre todo en mercados volátiles
+C) Los ETF apalancados se recalculan solo una vez al año, no a diario
+D) El mecanismo de reajuste diario solo afecta a los fondos indexados sin apalancamiento, no a los ETF apalancados
+
+**Q3. ¿Qué es la "erosión por volatilidad" en el contexto de los ETF apalancados?**
+A) Una garantía de que los ETF apalancados siempre superarán su múltiplo declarado en cualquier período
+B) La tendencia de que el desempeño a más largo plazo de un ETF apalancado quede por debajo de un simple múltiplo del rendimiento del índice, y que empeore a medida que aumenta la volatilidad subyacente
+C) Un beneficio contributivo exclusivo de las estructuras de ETF apalancados
+D) Un cargo que solo se cobra cuando un ETF apalancado se vende en menos de un año
+
+**Q4. En el ejemplo, ¿por qué el ETF apalancado de 2x terminó con una baja de alrededor de 2.2% en dos días cuando el índice subyacente terminó prácticamente plano?**
+A) La ganancia del segundo día del ETF apalancado se calculó sobre una base ya reducida después de la pérdida apalancada más grande del primer día, lo que hizo que los dos días no se compensaran por completo
+B) El ejemplo describe un error en los datos, porque los ETF apalancados siempre igualan exactamente el rendimiento del índice en cualquier período
+C) Fue el índice subyacente el que en realidad perdió mucho valor en los dos días, no el ETF apalancado
+D) Los ETF apalancados se recalculan solo al final de cada mes, no a diario
+
+**Q5. ¿Por qué los ETF apalancados en general se consideran herramientas de negociación a corto plazo y no inversiones a largo plazo?**
+A) Sus emisores diseñan y venden los ETF apalancados específicamente para invertir a largo plazo y mantener
+B) Mantenerlos durante un período volátil puede producir un resultado bastante peor de lo que sugeriría el desempeño real del índice subyacente, aun cuando se haya predicho correctamente la dirección general del índice
+C) Por ley, los ETF apalancados no pueden mantenerse más de un día de negociación
+D) Los períodos cortos y largos producen resultados idénticos en los ETF apalancados
+
+## Clave de respuestas
+Q1: B
+Q2: B
+Q3: B
+Q4: A
+Q5: B
+
+## Respuestas y explicaciones
+**Q1.** El diseño busca específicamente un múltiplo del rendimiento de ese único día de negociación, no del rendimiento de un período más largo.
+
+**Q2.** Las matemáticas de la capitalización diaria con una razón de apalancamiento fija no se trasladan simplemente al mismo múltiplo en períodos más largos, sobre todo si son volátiles.
+
+**Q3.** Este término describe la erosión matemática específica de los rendimientos a largo plazo causada por la capitalización diaria de una exposición apalancada en un mercado volátil.
+
+**Q4.** El efecto de capitalización de una pérdida porcentual más grande seguida de una ganancia porcentual todavía mayor que hay que lograr sobre una base más pequeña es la razón mecánica principal de esta desviación.
+
+**Q5.** La desviación, causada por la capitalización, frente al desempeño esperado a largo plazo es precisamente la razón por la que muchos consideran estos instrumentos inadecuados para períodos largos.
+
+## Puntos clave
+- Los ETF apalancados están diseñados para dar un múltiplo del rendimiento del índice subyacente en un solo día de negociación, con reajuste diario.
+- La capitalización diaria de rendimientos apalancados produce un resultado matemáticamente distinto al mismo múltiplo aplicado al rendimiento capitalizado del índice a más largo plazo.
+- Esta desviación, conocida como erosión por volatilidad, empeora a medida que aumenta la volatilidad del índice subyacente, aun sin cambios en su dirección a largo plazo.
+- Los ETF apalancados se consideran ampliamente herramientas de negociación a corto plazo, no inversiones adecuadas a largo plazo, por este efecto de capitalización.
+
+===== WHITE-L4-039
+TITLE: El análisis de las recompras de acciones: por qué pueden indicar confianza o ingeniería financiera
+SUMMARY: Aprenda cómo una recompra de acciones aumenta las ganancias por acción, por qué importa su fuente de financiamiento y qué señales de alerta distinguen una recompra financiada con deuda.
+KEYWORDS: recompras de acciones, readquisición de acciones, ganancias por acción, asignación de capital
+# El análisis de las recompras de acciones: por qué pueden indicar confianza o ingeniería financiera
+
+## Escenario inicial
+SUPUESTO/OPINIÓN (escenario hipotético solo con fines educativos): Imagine que, después de años de expansión rápida, los mercados de bienes raíces y de crédito al consumo de un país muy poblado empiezan a mostrar señales de una corrección fuerte a medida que aumentan los atrasos en los pagos. Como el crédito fácil durante un período de auge hace que tomar prestado sea barato, algunas empresas aumentan mucho sus recompras de acciones, en algunos casos financiadas con deuda nueva en lugar de con el flujo de efectivo que ya tienen. Esta lección examina cómo distinguir una recompra que refleja confianza real de una que levanta preguntas.
+
+## Objetivos de aprendizaje
+- Explicar cómo una recompra de acciones afecta mecánicamente las ganancias por acción.
+- Explicar por qué una recompra puede reflejar una verdadera disciplina en el manejo del capital o un motivo menos sustancial.
+- Identificar señales de alerta que distinguen una recompra financiada con deuda de una financiada con flujo de efectivo libre.
+- Explicar por qué evaluar la fuente de financiamiento de una recompra importa más que el anuncio de la recompra.
+
+## Contenido principal
+Una recompra de acciones ocurre cuando una empresa usa su propio efectivo para comprar y retirar acciones propias, lo que reduce el número total de acciones en circulación. DATO VERIFICADO: reducir el número de acciones aumenta mecánicamente las ganancias por acción (EPS, por sus siglas en inglés), porque el mismo ingreso neto total ahora se divide entre menos acciones en circulación, aunque la ganancia total real de la empresa no haya crecido en nada.
+
+Este es el "por qué" este mismo efecto mecánico puede reflejar una verdadera disciplina en el manejo del capital o un motivo menos sustancial, conectado con el análisis del flujo de efectivo libre que se ve más adelante en este nivel: cuando una empresa recompra acciones con verdadero flujo de efectivo libre sobrante (el dinero que queda después de financiar todas las operaciones, inversiones y obligaciones de deuda necesarias), esto puede reflejar la visión confiada y disciplinada de la gerencia de que las propias acciones de la empresa son un mejor uso de ese capital sobrante que otras inversiones, lo que beneficia a los accionistas que quedan con el mayor porcentaje de propiedad por acción que resulta.
+
+Por eso la fuente de financiamiento de una recompra importa más que el anuncio de la recompra: una recompra financiada con deuda nueva, en lugar de con verdadero flujo de efectivo libre (algo que puede volverse más común cuando el crédito está barato y disponible, como en el escenario anterior), levanta otro tipo de preguntas, porque aumenta el apalancamiento financiero y el riesgo de la empresa (recuerde el análisis de apalancamiento de la lección 17) solo para mejorar una medida por acción (un EPS más alto), sin ningún aumento correspondiente en la capacidad real de generar ganancias de la empresa. Por eso algunos analistas ven las recompras financiadas con deuda con más escepticismo que las financiadas con efectivo, ya que las financiadas con deuda pueden embellecer los resultados por acción informados a corto plazo mientras añaden un riesgo financiero real que solo se nota si las condiciones del negocio empeoran más adelante y se hace más difícil pagar la deuda añadida.
+
+## Ejemplo práctico
+EJEMPLO ILUSTRATIVO: La empresa A genera un flujo de efectivo libre considerable después de financiar todas sus operaciones e inversiones, y usa parte de ese efectivo sobrante para recomprar acciones, lo que reduce su número de acciones en circulación sin aumentar su nivel de deuda. La empresa B, con un flujo de efectivo libre subyacente más débil pero aprovechando un crédito muy barato, toma prestado mucho para financiar una recompra de tamaño parecido y logra un aumento en las ganancias por acción parecido al de la empresa A, pero en el proceso también aumenta mucho su carga de deuda y su gasto de intereses. Un inversionista que solo mirara la mejora informada del EPS, sin examinar la fuente de financiamiento, probablemente pasaría por alto esta diferencia por completo.
+
+## Prueba práctica
+**Q1. ¿Cómo afecta mecánicamente una recompra de acciones las ganancias por acción?**
+A) No tiene ningún efecto en las ganancias por acción bajo ninguna circunstancia
+B) Reducir el número de acciones en circulación aumenta el EPS, porque el mismo ingreso neto total ahora se divide entre menos acciones
+C) Las recompras siempre aumentan directamente el ingreso neto total de una empresa
+D) El EPS no tiene relación con el número de acciones en circulación
+
+**Q2. ¿Por qué una recompra financiada con verdadero flujo de efectivo libre puede reflejar una sana disciplina en el manejo del capital?**
+A) Las recompras financiadas con flujo de efectivo libre siempre perjudican a los accionistas que quedan
+B) Puede reflejar la visión confiada de la gerencia de que recomprar acciones es un buen uso del capital sobrante, sin añadir riesgo financiero a la empresa
+C) Las recompras financiadas con flujo de efectivo libre son ilegales en la mayoría de las jurisdicciones
+D) Este tipo de recompra no tiene ningún efecto en el valor para los accionistas
+
+**Q3. ¿Por qué una recompra financiada con deuda podría levantar más preocupación analítica que una financiada con efectivo?**
+A) Las recompras financiadas con deuda siempre son ilegales bajo las leyes de valores
+B) Aumenta el apalancamiento financiero y el riesgo de la empresa solo para mejorar una medida por acción, sin ningún aumento correspondiente en la capacidad real de generar ganancias de la empresa
+C) Las recompras financiadas con deuda y con efectivo son funcionalmente idénticas, sin ninguna diferencia
+D) Las recompras financiadas con deuda siempre aumentan la rentabilidad total de una empresa
+
+**Q4. En el ejemplo, ¿qué diferencia clave había entre las recompras de la empresa A y de la empresa B, a pesar de un aumento parecido en el EPS?**
+A) La recompra de la empresa A aumentó su deuda mucho más que la de la empresa B
+B) La empresa B financió su recompra con deuda en lugar de con flujo de efectivo libre, lo que aumentó su carga de deuda y su gasto de intereses, a diferencia del enfoque financiado con efectivo de la empresa A
+C) No había ninguna diferencia importante entre las recompras de las dos empresas
+D) La empresa A en realidad no redujo su número de acciones
+
+**Q5. ¿Por qué evaluar la fuente de financiamiento de una recompra importa más que solo notar que hubo una recompra?**
+A) La fuente de financiamiento no influye en las implicaciones de la recompra para el riesgo financiero ni para el valor de los accionistas
+B) La fuente de financiamiento determina si la recompra refleja una verdadera disciplina en el manejo del capital o si añade riesgo financiero solo para embellecer una medida por acción informada
+C) Todas las recompras se financian igual sin importar la situación financiera de la empresa
+D) Una mejora en el EPS siempre significa exactamente lo mismo sin importar cómo se financió la recompra
+
+## Clave de respuestas
+Q1: B
+Q2: B
+Q3: B
+Q4: B
+Q5: B
+
+## Respuestas y explicaciones
+**Q1.** Este es un efecto matemático directo de reducir el denominador (las acciones en circulación) en el cálculo del EPS, independiente de cualquier cambio en la rentabilidad real.
+
+**Q2.** Usar efectivo sobrante, en lugar de fondos prestados, para una recompra evita añadir riesgo financiero y aun así beneficia a los accionistas que quedan.
+
+**Q3.** Añadir deuda específicamente para financiar una recompra aumenta el riesgo financiero sin mejorar la rentabilidad de fondo de la empresa, una diferencia que importa en un análisis cuidadoso.
+
+**Q4.** La fuente de financiamiento, y no la mejora del EPS que resultó, fue la diferencia importante de riesgo financiero entre dos recompras que de otra forma se veían parecidas.
+
+**Q5.** Como el efecto informado en el EPS puede verse parecido sin importar la fuente de financiamiento, examinar cómo se pagó realmente la recompra revela si refleja una fortaleza real o un riesgo añadido.
+
+## Puntos clave
+- Una recompra de acciones aumenta mecánicamente el EPS al reducir las acciones en circulación, independientemente de cualquier cambio en la rentabilidad real.
+- Una recompra financiada con verdadero flujo de efectivo libre puede reflejar una asignación de capital disciplinada y la confianza de la gerencia.
+- Una recompra financiada con deuda nueva aumenta el riesgo financiero y el apalancamiento solo para embellecer una medida por acción, sin mejorar la capacidad real de generar ganancias.
+- Evaluar la fuente de financiamiento de una recompra es esencial para distinguir una verdadera disciplina en el manejo del capital de una mejora por acción menos sustancial.
+
+===== WHITE-L4-040
+TITLE: El análisis de la calidad de las ganancias: por qué no todas las ganancias valen lo mismo
+SUMMARY: Aprenda qué es la calidad de las ganancias, qué partidas no recurrentes pueden distorsionar las ganancias informadas y cómo interpretar unos resultados que superan las expectativas.
+KEYWORDS: calidad de las ganancias, análisis contable, partidas no recurrentes, ganancias sostenibles
+# El análisis de la calidad de las ganancias: por qué no todas las ganancias valen lo mismo
+
+## Escenario inicial
+SUPUESTO/OPINIÓN (escenario hipotético solo con fines educativos): Imagine un gran bloque comercial que de pronto impone aranceles altos sobre una amplia categoría de productos manufacturados importados, lo que sube los costos de las empresas que dependen de esas importaciones como insumos. Mientras los aranceles suben los costos de los insumos de muchas empresas a la vez, algunas informan ganancias que superan las expectativas, pero una mirada más de cerca revela que ese resultado vino de una ganancia de una sola vez que no tiene que ver con sus operaciones continuas. Esta lección explica por qué la composición de las ganancias importa tanto como el número total.
+
+## Objetivos de aprendizaje
+- Explicar qué significa la calidad de las ganancias como concepto analítico.
+- Identificar ejemplos comunes de partidas no recurrentes o no operacionales que pueden distorsionar las ganancias informadas.
+- Explicar por qué las ganancias que vienen de las operaciones principales y recurrentes en general se consideran de mejor calidad que las que vienen de partidas de una sola vez.
+- Aplicar el análisis de la calidad de las ganancias para interpretar unos resultados que superan las expectativas.
+
+## Contenido principal
+La calidad de las ganancias se refiere a qué tan bien las ganancias informadas de una empresa reflejan su desempeño operacional real, sostenible y continuo, en lugar de estar infladas o distorsionadas por eventos de una sola vez, decisiones contables agresivas o partidas que no tienen que ver con las operaciones principales y recurrentes del negocio. DATO VERIFICADO: el ingreso neto informado de una empresa puede incluir una gran variedad de partidas (una ganancia de una sola vez por vender una división o una propiedad, un beneficio contributivo de una sola vez, un acuerdo con una aseguradora o la reversión de un gasto registrado antes) que suben la ganancia informada de ese período específico sin reflejar nada sobre la capacidad continua y repetible de la empresa de generar ganancias.
+
+Este es el "por qué" la composición de las ganancias importa tanto como el número total, algo especialmente importante durante un período de presión general sobre los costos como el escenario de aranceles anterior: una empresa que informa ganancias que igualan o superan las expectativas principalmente por el desempeño de sus operaciones principales (más ventas, buen control de costos, una mejora real en los márgenes) ha demostrado algo sostenible que probablemente continuará, si todo lo demás es igual. Una empresa que informa un resultado que se ve parecido, pero que viene principalmente de una ganancia de una sola vez que no tiene que ver con sus operaciones continuas, en realidad no ha demostrado ninguna mejora en su capacidad sostenible de generar ganancias, aunque los números principales de las dos empresas se vean idénticos para un inversionista que solo lee la cifra principal.
+
+Por eso un análisis cuidadoso implica examinar el estado de ingresos de una empresa con más detalle, buscando específicamente las partidas no recurrentes o no operacionales que se informan por separado (a menudo identificadas como tales, o explicadas en los comentarios de la empresa sobre sus resultados y en las notas de los estados financieros), y calcular cómo se habrían visto las ganancias sin esas partidas de una sola vez (lo que a veces se llama ganancias "básicas" o "ajustadas") para evaluar la verdadera tendencia sostenible debajo de la cifra informada. Por eso también la reacción de una acción a unos resultados que superan las expectativas a veces puede parecer irracional, o revertirse poco después, cuando analistas más cuidadosos publican desgloses detallados que revelan que el resultado vino de partidas no recurrentes de menor calidad y no de una verdadera fortaleza operacional.
+
+## Ejemplo práctico
+EJEMPLO ILUSTRATIVO: Una empresa informa ganancias por acción de $2.10, por encima de las expectativas de los analistas de $1.90, y su acción sube al principio con la noticia. Una mirada más de cerca al informe de ganancias revela que $0.35 de esos $2.10 vinieron de una ganancia de una sola vez por la venta de una planta de manufactura, que no tiene que ver con las operaciones principales continuas de la empresa, que en realidad estuvieron presionadas por el aumento en los costos de los insumos causado por los aranceles durante el mismo período. Sin esa partida de una sola vez, las ganancias operacionales básicas de la empresa, de $1.75 por acción, en realidad quedaron por debajo de la expectativa de $1.90; analistas más detallistas señalan esta diferencia, lo que lleva a reevaluar la reacción positiva inicial del mercado cuando se entiende mejor la menor calidad de ese resultado.
+
+## Prueba práctica
+**Q1. ¿A qué se refiere la calidad de las ganancias?**
+A) La cantidad total en dólares del ingreso neto informado de una empresa
+B) Qué tan bien las ganancias informadas de una empresa reflejan su desempeño operacional real, sostenible y continuo, en lugar de partidas de una sola vez o que distorsionan
+C) La calificación de crédito de una empresa otorgada por una agencia calificadora
+D) El número de años que una empresa lleva cotizándose en bolsa
+
+**Q2. ¿Cuál de los siguientes es un ejemplo de partida no recurrente que podría distorsionar las ganancias informadas?**
+A) Los ingresos mensuales regulares por ventas de la línea principal de productos de la empresa
+B) Una ganancia de una sola vez por vender una división o una propiedad
+C) Los salarios continuos que se les pagan a los empleados regulares
+D) El costo de los bienes vendidos rutinario y recurrente
+
+**Q3. ¿Por qué el crecimiento de las ganancias que viene de las operaciones principales en general se considera de mejor calidad que el que viene de una partida de una sola vez?**
+A) Las ganancias de las operaciones principales y las de partidas de una sola vez siempre son idénticas en calidad y sostenibilidad
+B) El desempeño de las operaciones principales refleja algo sostenible que probablemente continuará, mientras que una partida de una sola vez no representa una capacidad repetible y continua de generar ganancias
+C) Las partidas de una sola vez siempre representan ganancias de mejor calidad que las operaciones principales
+D) La calidad de las ganancias no tiene relación con si una partida es recurrente o no recurrente
+
+**Q4. En el ejemplo, ¿por qué los resultados de la empresa que superaron las expectativas resultaron ser de menor calidad al analizarlos más de cerca?**
+A) Todos los $2.10 de ganancias vinieron de operaciones principales reales y sostenibles
+B) Una parte importante de las ganancias informadas vino de una ganancia de una sola vez por la venta de una planta y, sin ella, las ganancias operacionales básicas en realidad quedaron por debajo de las expectativas
+C) Las operaciones principales de la empresa superaron por mucho las expectativas por sí solas
+D) La partida de una sola vez no tuvo ningún efecto en la cifra de ganancias informada por la empresa
+
+**Q5. ¿Por qué la reacción positiva inicial de una acción a unos resultados que superan las expectativas podría revertirse después?**
+A) Los precios de las acciones nunca reaccionan a ningún tipo de anuncio de ganancias
+B) Un análisis más detallado que revela que el resultado vino de partidas no recurrentes de menor calidad y no de una verdadera fortaleza operacional puede llevar a reevaluar la reacción inicial
+C) La calidad de las ganancias no tiene relación con cómo responde el precio de una acción a un informe de ganancias
+D) Los resultados que superan las expectativas siempre se reflejan de inmediato, con exactitud y para siempre en el precio de las acciones, sin posibilidad de reevaluarlos después
+
+## Clave de respuestas
+Q1: B
+Q2: B
+Q3: B
+Q4: B
+Q5: B
+
+## Respuestas y explicaciones
+**Q1.** La calidad de las ganancias se refiere específicamente a la composición y la sostenibilidad de las ganancias informadas, no solo a su tamaño.
+
+**Q2.** Una ganancia de una sola vez por la venta de un activo es un ejemplo clásico de partida no recurrente que no tiene que ver con las operaciones continuas y repetibles de una empresa.
+
+**Q3.** Un desempeño operacional sostenible y repetible da una señal más confiable de la capacidad futura de generar ganancias que una partida de una sola vez que no se repetirá.
+
+**Q4.** Una vez excluida la ganancia no recurrente, el desempeño operacional real de la empresa contaba una historia bastante distinta y más débil que la que sugería la cifra principal.
+
+**Q5.** A medida que el mercado asimila información más detallada sobre la composición de las ganancias, una reacción inicial favorable basada solo en la cifra principal puede revisarse cuando salen a la luz los problemas de calidad.
+
+## Puntos clave
+- La calidad de las ganancias evalúa si las ganancias informadas reflejan un desempeño operacional real y sostenible o partidas de una sola vez y no recurrentes.
+- Las partidas no recurrentes, como las ganancias de una sola vez por la venta de activos, pueden inflar las ganancias informadas sin reflejar una mejora en la capacidad continua de generar ganancias.
+- Las ganancias operacionales básicas y recurrentes en general se consideran de mejor calidad que las ganancias infladas por partidas de una sola vez.
+- Un análisis cuidadoso de la composición de las ganancias puede revelar un resultado de menor calidad que el mercado podría al principio interpretar como una fortaleza real.

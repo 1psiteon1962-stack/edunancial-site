@@ -1,0 +1,454 @@
+===== PURPLE-L5-011
+TITLE: Testamento o fideicomiso en vida revocable: sucesión judicial, privacidad y costo
+SUMMARY: Un testamento suele pasar por un proceso judicial público, mientras que un fideicomiso revocable bien dotado suele transferir los bienes con más rapidez y discreción; el paso que la mayoría olvida es traspasarle realmente los bienes.
+KEYWORDS: testamento o fideicomiso en vida, fideicomiso revocable, evitar el proceso sucesorio, conceptos de planificación sucesoral, dotar un fideicomiso
+# Testamento o fideicomiso en vida revocable: sucesión judicial, privacidad y costo
+
+## Escenario inicial
+SUPUESTO/OPINIÓN (escenario hipotético solo con fines educativos): Imagine que los mercados inmobiliario y de crédito al consumo de un país muy poblado, tras años de expansión rápida, comienzan a mostrar señales de una corrección marcada a medida que aumentan los impagos.
+Aplíquelo aquí: Durante una corrección inmobiliaria marcada, muere un propietario. Pregunte desde varios colores: ¿podrá la familia vender o refinanciar la propiedad rápidamente (ROJO), o quedará atrapada en un proceso judicial durante meses? ¿Se transferirán sin tropiezos las cuentas de inversión (BLANCO)? ¿Cambia la respuesta según el propietario haya usado un testamento o un fideicomiso (MORADO)?
+
+## Objetivos de aprendizaje
+- Comparar cómo los testamentos y los fideicomisos revocables transfieren los bienes
+- Explicar el proceso sucesorio judicial y por qué la gente planifica en torno a él
+- Detectar el paso que la mayoría olvida: dotar el fideicomiso
+
+## Contenido principal
+En el nivel 2 aprendió qué son los testamentos y los fideicomisos. En el nivel 5 los compara como herramientas que coordinan bienes raíces, inversiones y participaciones en negocios al momento de la muerte o la incapacidad.
+Un testamento es un documento legal que indica quién recibe sus bienes y quién administra su herencia. En muchos lugares, un testamento pasa por el proceso sucesorio judicial (probate), un procedimiento supervisado por un tribunal que confirma el testamento, paga las deudas y transfiere los bienes.
+Un fideicomiso en vida revocable es un arreglo legal en el que usted (como fiduciario) tiene la titularidad de los bienes para su propio beneficio mientras vive, y luego un fiduciario sucesor asume el control a su muerte o en caso de incapacidad. Como es el fideicomiso, y no usted personalmente, quien tiene los bienes, estos suelen transferirse sin proceso sucesorio judicial. Usted puede modificar o cancelar un fideicomiso revocable mientras vive.
+DATO VERIFICADO: Los expedientes del proceso sucesorio son públicos en muchas jurisdicciones. La administración de un fideicomiso suele ser más privada.
+Cómo se conectan los colores:
+- ROJO: Una propiedad que está en un fideicomiso a menudo puede ser vendida o administrada por el fiduciario sucesor sin esperar a un tribunal. Tener propiedades en más de un estado o país puede provocar más de un proceso sucesorio si no están en un fideicomiso. REGLA ESPECÍFICA DE LA REGIÓN; en Puerto Rico, por ejemplo, el testamento abierto se otorga ante notario y la herencia suele tramitarse con una declaratoria de herederos o ante notario en lugar de un probate al estilo estadounidense, mientras que una propiedad en otro estado puede requerir un proceso allí, por lo que conviene confirmarlo con un abogado o notario.
+- BLANCO: Las cuentas de corretaje pueden ponerse a nombre del fideicomiso o llevar una designación de transferencia al morir, según la ley local.
+- AZUL: Las participaciones en un negocio pueden requerir permiso según el acuerdo operacional antes de transferirse a un fideicomiso.
+- VERDE: REGLA ESPECÍFICA DE LA REGIÓN: En muchos sistemas, un fideicomiso revocable no cambia el impuesto sobre los ingresos mientras usted vive ni reduce por sí solo los impuestos sobre la herencia.
+El fallo más común: la dotación. Un fideicomiso solo controla los bienes que realmente se le han traspasado. La gente firma un fideicomiso, le paga al abogado y nunca cambia la titularidad de la casa ni de las cuentas. Al morir, esos bienes pueden pasar igualmente por el proceso sucesorio.
+SUPUESTO/OPINIÓN: Un fideicomiso suele costar más al principio; el proceso sucesorio puede costar más después. Para alguien con bienes en varias jurisdicciones, participaciones en negocios o preocupaciones de privacidad, un fideicomiso suele tener sentido. Para alguien con una herencia sencilla en un lugar donde el proceso es rápido y barato, un testamento puede bastar. La mayoría de los planes basados en un fideicomiso incluyen igualmente un testamento "de vertido" (pour-over) para recoger cualquier cosa que se haya pasado por alto.
+
+## Ejemplo práctico
+EJEMPLO ILUSTRATIVO: Elena tiene una casa, una propiedad de alquiler en otro estado, una cuenta de corretaje y el 30 % de una LLC de un restaurante familiar.
+Opción 1: Solo testamento. Su herencia podría tener que pasar por el proceso sucesorio en su estado de residencia y por un segundo proceso donde está la propiedad de alquiler. Su parte del restaurante se transfiere según el testamento, sujeto al acuerdo operacional.
+Opción 2: Fideicomiso revocable con testamento de vertido. Traspasa la titularidad de ambas propiedades al fideicomiso, designa al fideicomiso en su cuenta de corretaje (o usa una designación de transferencia al morir) y obtiene el consentimiento por escrito de sus socios del restaurante para ceder su participación en la LLC al fideicomiso.
+Cuando muere, su fiduciario sucesor puede administrar la propiedad de alquiler, seguir cobrando las rentas y vender la casa sin esperar la aprobación de un tribunal. Los socios del restaurante ya habían aceptado el traspaso, así que no hay disputa.
+SUPUESTO/OPINIÓN: Los honorarios legales iniciales de Elena son más altos, pero evita dos procesos sucesorios y mantiene sus asuntos en privado. La clave no fue firmar el fideicomiso. Fue terminar la dotación.
+
+## Prueba práctica
+**Q1. ¿Qué es el proceso sucesorio judicial (probate)?**
+A) Un impuesto sobre los ingresos
+B) Un procedimiento supervisado por un tribunal para confirmar un testamento, pagar las deudas y transferir los bienes
+C) Un tipo de fideicomiso
+D) Una licencia comercial
+
+**Q2. ¿Por qué un fideicomiso revocable a menudo puede evitar el proceso sucesorio?**
+A) Es ilegal someter un fideicomiso al proceso sucesorio
+B) Los tribunales ignoran los fideicomisos
+C) Los fideicomisos no pagan impuestos
+D) Es el fideicomiso, y no la persona, quien tiene los bienes que se le traspasaron
+
+**Q3. ¿Cuál es el fallo más común con los fideicomisos revocables?**
+A) Nunca traspasar bienes al fideicomiso
+B) Elegir el nombre equivocado de fiduciario
+C) Usar un testamento de vertido
+D) Mantenerlo en privado
+
+**Q4. ¿Por qué necesitaba Elena el consentimiento de sus socios del restaurante?**
+A) Era una regla contributiva
+B) El banco lo exigía
+C) Los fideicomisos no pueden tener negocios
+D) El acuerdo operacional puede restringir la transferencia de participaciones en una LLC
+
+**Q5. ¿Qué hace un testamento de vertido?**
+A) Transfiere dinero a un banco
+B) Recoge los bienes que quedaron fuera del fideicomiso y los envía a este
+C) Cancela el fideicomiso
+D) Paga los impuestos sobre la herencia
+
+## Clave de respuestas
+Q1: B
+Q2: D
+Q3: A
+Q4: D
+Q5: B
+
+## Respuestas y explicaciones
+**Q1.** El proceso sucesorio es el procedimiento judicial por el que pasan muchas herencias, sobre todo las que se transfieren por testamento.
+**Q2.** Los bienes a nombre del fideicomiso se transfieren según los términos del fideicomiso.
+**Q3.** Un fideicomiso sin dotar no controla nada.
+**Q4.** Muchos acuerdos operacionales limitan las transferencias, incluso al propio fideicomiso del dueño.
+**Q5.** Es una red de seguridad para todo lo que no se traspasó al fideicomiso en vida.
+
+## Puntos clave
+- Los testamentos suelen pasar por el proceso sucesorio; los fideicomisos revocables dotados suelen evitarlo
+- El proceso sucesorio suele ser público; la administración de un fideicomiso suele ser más privada
+- Un fideicomiso solo funciona si los bienes se le traspasan realmente
+- Las participaciones en un negocio pueden requerir el consentimiento de los socios antes de transferirse
+
+===== PURPLE-L5-012
+TITLE: Los fideicomisos irrevocables y el intercambio del control
+SUMMARY: Un fideicomiso irrevocable cambia el control por posibles beneficios contributivos, de protección y de legado; nunca debe usarse para burlar a acreedores existentes, y solo debe recibir lo que uno realmente puede ceder.
+KEYWORDS: fideicomiso irrevocable, ceder el control, planificación del impuesto sobre la herencia, fideicomiso con cláusula de protección, protección mediante fideicomiso
+# Los fideicomisos irrevocables y el intercambio del control
+
+## Escenario inicial
+SUPUESTO/OPINIÓN (escenario hipotético solo con fines educativos): Imagine que la moneda de una economía mediana pierde gran parte de su valor frente a las principales monedas de reserva en cuestión de meses, impulsada por la salida de capitales del país y el deterioro de la confianza de los inversionistas.
+Aplíquelo aquí: La moneda nacional de una familia pierde gran parte de su valor en pocos meses. Algunos miembros de la familia quieren mover bienes al extranjero o convertirlos rápidamente en otras formas. Pregunte desde varios colores: si esos bienes están en un fideicomiso irrevocable (MORADO), ¿puede la familia moverlos libremente? ¿En qué permite el documento del fideicomiso que invierta el fiduciario (BLANCO/DORADO)? ¿Cuáles son los efectos contributivos (VERDE)?
+
+## Objetivos de aprendizaje
+- Explicar la diferencia entre los fideicomisos revocables e irrevocables
+- Describir los beneficios que surgen de ceder el control
+- Evaluar si el intercambio se ajusta a las metas de una familia
+
+## Contenido principal
+Un fideicomiso revocable (PURPLE-L5-011) le permite conservar el control total. Puede modificarlo o cancelarlo. Como usted conserva el control, la ley de muchos sistemas trata los bienes como si todavía fueran suyos a efectos contributivos y frente a los acreedores.
+Un fideicomiso irrevocable es diferente. Una vez traspasados los bienes, la persona que lo creó (el fideicomitente) normalmente no puede recuperarlos ni cambiar los términos sin cumplir condiciones legales específicas. REGLA ESPECÍFICA DE LA REGIÓN.
+¿Por qué alguien cedería el control? Porque, en muchos sistemas, esa misma pérdida de control es lo que crea ciertos beneficios:
+- VERDE: Los bienes traspasados a ciertos fideicomisos irrevocables pueden dejar de formar parte de la herencia sujeta a impuestos del fideicomitente. El crecimiento futuro puede ocurrir fuera de la herencia. REGLA ESPECÍFICA DE LA REGIÓN: Las reglas, los montos de exención y las tasas contributivas de los fideicomisos varían y cambian; en Puerto Rico, por ejemplo, los fideicomisos se rigen por la Ley de Fideicomisos de 2012 y tienen su propio tratamiento ante Hacienda, además de las reglas federales que puedan aplicar, por lo que conviene confirmarlo con un CPA.
+- MORADO: Los bienes en ciertos fideicomisos bien estructurados, establecidos con antelación y no para burlar a acreedores existentes, pueden quedar protegidos frente a los acreedores futuros de los beneficiarios. Muchos fideicomisos incluyen una cláusula de "protección" (spendthrift) que impide que un beneficiario empeñe o venda su derecho futuro.
+- STEWARD: Un fideicomiso puede transmitir bienes de una generación a otra según reglas escritas, como financiar los estudios, igualar los ingresos ganados o pagar por etapas.
+A qué se renuncia:
+- El control de los bienes.
+- La flexibilidad si la vida cambia.
+- A menudo, una contabilidad contributiva más sencilla. En algunos sistemas, los fideicomisos pueden pagar tasas contributivas más altas con niveles de ingreso más bajos.
+Límites: El Marco Filosófico es claro. Los fideicomisos se enseñan solo con fines legales. Traspasar bienes a un fideicomiso para evadir a un acreedor al que ya se le debe, una sentencia o una reclamación legal de un cónyuge puede anularse como transferencia fraudulenta y acarrear penalidades.
+SUPUESTO/OPINIÓN: Un fideicomiso irrevocable es poderoso cuando las metas de la familia son a largo plazo y estables. Puede sentirse como una jaula si la situación de la familia cambia rápidamente, como en el escenario. Una buena redacción incorpora cierta flexibilidad, como un protector del fideicomiso o amplias facultades de inversión.
+
+## Ejemplo práctico
+EJEMPLO ILUSTRATIVO: Gabriel, de 60 años, tiene inversiones por varios millones. Quiere financiar los estudios de sus nietos y mantener el crecimiento fuera de su herencia sujeta a impuestos.
+Con la ayuda de un asesor legal, crea un fideicomiso irrevocable:
+- Traspasa 1 millón de dólares en fondos indexados.
+- El fiduciario es un primo de confianza, junto con un cofiduciario profesional.
+- Distribuciones: la matrícula y los libros se pagan directamente a las instituciones; después de los 30 años, cada nieto puede recibir un pago igual a lo que ganó con su trabajo ese año.
+- Un protector del fideicomiso puede actualizar las reglas de inversión y trasladar el domicilio legal del fideicomiso si cambian las leyes.
+Diez años después, el fondo ha llegado a 1.9 millones de dólares. Según las reglas locales, ese crecimiento puede estar fuera de la herencia de Gabriel. La cláusula de protección resguarda la parte de cada nieto frente a sus acreedores futuros.
+Pero cuando Gabriel enfrenta una gran factura médica, no puede sacar dinero del fideicomiso. SUPUESTO/OPINIÓN: Gabriel aceptó ese intercambio a sabiendas y mantuvo suficientes bienes fuera del fideicomiso para sus propias necesidades. Esa es la esencia de usar bien los fideicomisos irrevocables: traspasar solo lo que uno realmente puede ceder.
+
+## Prueba práctica
+**Q1. ¿Cuál es una diferencia clave entre los fideicomisos revocables e irrevocables?**
+A) Los fideicomisos irrevocables pueden cancelarse en cualquier momento
+B) No hay ninguna diferencia
+C) Los fideicomisos revocables no pagan impuestos
+D) El fideicomitente de un fideicomiso irrevocable normalmente no puede recuperar los bienes ni cambiar libremente los términos
+
+**Q2. ¿Por qué ceder el control puede crear beneficios?**
+A) En muchos sistemas, los bienes que usted ya no controla pueden dejar de considerarse suyos a efectos de la herencia o frente a los acreedores
+B) Las leyes premian la confusión
+C) Los fideicomisos son invisibles
+D) Los bancos los prefieren
+
+**Q3. ¿Qué hace una cláusula de protección (spendthrift)?**
+A) Permite que los beneficiarios gasten libremente
+B) Cancela el fideicomiso
+C) Impide que un beneficiario empeñe o venda su derecho futuro
+D) Fija las reglas de inversión
+
+**Q4. ¿Cuándo puede anularse un traspaso a un fideicomiso?**
+A) Cuando el fideicomiso gana dinero
+B) Cuando cambia el fiduciario
+C) Cuando se hizo para evadir a un acreedor existente o una reclamación legal
+D) Nunca
+
+**Q5. ¿Cuál fue la regla clave de Gabriel para usar un fideicomiso irrevocable?**
+A) Traspasarlo todo
+B) Traspasar solo lo que uno realmente puede ceder
+C) Nunca nombrar fiduciario
+D) Evitar la ayuda profesional
+
+## Clave de respuestas
+Q1: D
+Q2: A
+Q3: C
+Q4: C
+Q5: B
+
+## Respuestas y explicaciones
+**Q1.** Ceder el control es la característica que define a un fideicomiso irrevocable.
+**Q2.** Es la pérdida de control lo que puede sacar los bienes de la herencia del fideicomitente. REGLA ESPECÍFICA DE LA REGIÓN.
+**Q3.** Ayuda a proteger la parte de un beneficiario frente a sus propios acreedores.
+**Q4.** Los traspasos hechos para burlar a acreedores existentes pueden anularse como transferencias fraudulentas.
+**Q5.** Mantuvo suficientes bienes fuera del fideicomiso para sus propias necesidades.
+
+## Puntos clave
+- Los fideicomisos irrevocables cambian el control por posibles beneficios contributivos, de protección y de legado
+- Los beneficios y las reglas varían según la región y cambian con el tiempo
+- Los fideicomisos son herramientas legales, nunca una forma de burlar a acreedores existentes
+- Traspase solo lo que realmente puede ceder e incorpore flexibilidad en la redacción
+
+===== PURPLE-L5-013
+TITLE: Cómo tiene la titularidad de una propiedad lo cambia todo
+SUMMARY: La forma de titularidad de una propiedad determina quién la hereda, si un copropietario puede forzar la venta y cómo tributa; un acuerdo de copropiedad por escrito permite reemplazar las reglas supletorias por sus intenciones reales.
+KEYWORDS: titularidad de bienes raíces, tenencia conjunta con derecho de supervivencia, tenencia en común, formas de propiedad, titularidad y herencia
+# Cómo tiene la titularidad de una propiedad lo cambia todo
+
+## Escenario inicial
+SUPUESTO/OPINIÓN (escenario hipotético solo con fines educativos): Imagine un banco central que sube su tasa de interés de referencia de forma marcada y repetida en pocos meses para combatir el aumento de la inflación.
+Aplíquelo aquí: El alza de las tasas lleva a dos hermanos copropietarios de una propiedad de alquiler a no ponerse de acuerdo: uno quiere vender y el otro quiere conservarla. Pregunte desde varios colores: ¿puede uno de ellos forzar la venta (MORADO)? Si uno muere, ¿su parte va al otro o a sus propios hijos? ¿Qué pasa con el préstamo (AZUL) y con la base contributiva (VERDE)?
+
+## Objetivos de aprendizaje
+- Comparar las formas comunes de titularidad de bienes raíces
+- Explicar cómo la titularidad afecta la herencia, la responsabilidad y los impuestos
+- Elegir una forma de titularidad adecuada a una meta concreta
+
+## Contenido principal
+Mucha gente firma los documentos de cierre sin prestar atención a una sola línea: cómo se tiene la titularidad de la propiedad. Esa sola línea decide quién hereda, si un copropietario puede forzar una venta, cómo pueden alcanzar la propiedad los acreedores y cómo tributa cuando se transfiere.
+Formas comunes (los nombres y las reglas son una REGLA ESPECÍFICA DE LA REGIÓN):
+- Propiedad exclusiva: Una sola persona es dueña. Al morir, la propiedad se transfiere por testamento, por fideicomiso o según la ley sucesoria local.
+- Tenencia conjunta con derecho de supervivencia: Los copropietarios la tienen juntos. Cuando uno muere, su parte suele pasar automáticamente a los sobrevivientes, fuera del testamento.
+- Tenencia en común: Cada copropietario tiene una parte separada (que puede ser desigual). Cuando uno muere, su parte pasa a sus propios herederos, no automáticamente a los demás dueños.
+- Formas matrimoniales: Algunas jurisdicciones tienen formas especiales para parejas casadas, como la propiedad ganancial o la tenencia por la totalidad, con sus propias reglas frente a los acreedores y en la herencia.
+- Titularidad en fideicomiso: El fiduciario tiene la titularidad para los beneficiarios (vea PURPLE-L5-011 y -012).
+- Titularidad mediante una entidad: Una LLC o corporación tiene la titularidad (vea PURPLE-L5-004).
+Cómo se conectan los colores:
+- ROJO: ¿Puede un copropietario forzar una venta? En muchos lugares, los copropietarios pueden pedirle a un tribunal que divida o venda la propiedad ("división de comunidad" o partición), a menos que un acuerdo disponga otra cosa.
+- AZUL: Los prestamistas pueden exigir que todos los titulares firmen la hipoteca. Cambiar la titularidad puede activar cláusulas del préstamo.
+- VERDE: REGLA ESPECÍFICA DE LA REGIÓN: En algunos sistemas, los herederos pueden recibir una base contributiva "ajustada" al valor en la fecha de la muerte, mientras que un bien regalado en vida conserva la base original. La forma de titularidad puede cambiar cuánta base se ajusta; en Puerto Rico, por ejemplo, la tenencia conjunta con derecho de supervivencia al estilo estadounidense no es la norma: los copropietarios suelen tener una comunidad de bienes y los cónyuges una sociedad legal de gananciales, cuya parte pasa a los herederos, por lo que conviene confirmarlo con un abogado o CPA.
+- MORADO: Un acuerdo de copropiedad por escrito puede dejar de lado los derechos supletorios de partición y fijar las condiciones de compra de la parte del otro.
+SUPUESTO/OPINIÓN: La tenencia conjunta con derecho de supervivencia se usa a menudo entre cónyuges por sencillez, pero entre hermanos o socios de negocio puede producir resultados sorprendentes, como que la familia de un socio no reciba nada.
+
+## Ejemplo práctico
+EJEMPLO ILUSTRATIVO: Nia y su hermano Jordan compran juntos un dúplex.
+Versión 1: Tienen la titularidad en tenencia conjunta con derecho de supervivencia. Jordan muere. Su mitad pasa automáticamente a Nia. Los dos hijos de Jordan no reciben nada del dúplex, aunque su testamento les deje "todo". En muchas jurisdicciones, el testamento no rige un bien tenido en tenencia conjunta con derecho de supervivencia.
+Versión 2: Tienen la titularidad en tenencia en común, 50/50, y firman un acuerdo de copropiedad:
+- Ninguno puede forzar una venta durante cinco años.
+- Después, cualquiera de los dos puede ofrecer comprar la parte del otro a un precio fijado por tasación.
+- Si uno muere, su parte pasa a sus herederos, y el sobreviviente tiene un derecho de primera compra.
+Jordan muere. Sus hijos heredan su mitad. Nia tiene el derecho de primera compra al precio tasado. Los hijos pueden recibir dinero en efectivo en lugar de quedar como copropietarios de una propiedad de alquiler con su tía.
+SUPUESTO/OPINIÓN: La versión 2 requirió un documento adicional y unas horas con un abogado. Coincidía con lo que los hermanos realmente querían.
+
+## Prueba práctica
+**Q1. En la tenencia conjunta con derecho de supervivencia, ¿qué suele pasar cuando muere uno de los dueños?**
+A) Su parte va a sus herederos
+B) El banco la toma
+C) La propiedad debe venderse
+D) Su parte pasa automáticamente a los dueños sobrevivientes
+
+**Q2. ¿En qué se diferencia la tenencia en común de la tenencia conjunta con derecho de supervivencia?**
+A) La parte de cada dueño pasa a sus propios herederos, no automáticamente a los demás
+B) Las partes deben ser iguales
+C) Solo las parejas casadas pueden usarla
+D) No hay ninguna diferencia
+
+**Q3. ¿Qué es la partición?**
+A) Una pared dentro de un edificio
+B) Un impuesto
+C) Un tipo de hipoteca
+D) Una división o venta ordenada por un tribunal de un bien en copropiedad
+
+**Q4. ¿Por qué los hijos de Jordan no recibieron nada en la versión 1?**
+A) Su testamento era inválido
+B) El banco tomó su parte
+C) La tenencia conjunta con derecho de supervivencia pasó su parte a Nia fuera del testamento
+D) Los hijos la rechazaron
+
+**Q5. ¿Qué añadió el acuerdo de copropiedad de la versión 2?**
+A) Límites a la venta forzada, condiciones de compra y un derecho de primera compra
+B) Impuestos más altos
+C) Una segunda hipoteca
+D) Un nuevo dueño
+
+## Clave de respuestas
+Q1: D
+Q2: A
+Q3: D
+Q4: C
+Q5: A
+
+## Respuestas y explicaciones
+**Q1.** El derecho de supervivencia transfiere la parte fuera del testamento en muchas jurisdicciones.
+**Q2.** Los copropietarios en común tienen partes separadas que pueden heredarse.
+**Q3.** En muchos lugares, los copropietarios pueden pedirle a un tribunal que divida o venda el bien.
+**Q4.** El derecho de supervivencia suele prevalecer sobre un testamento para ese bien.
+**Q5.** El acuerdo reemplazó las reglas supletorias por los deseos reales de los hermanos.
+
+## Puntos clave
+- La forma de titularidad determina la herencia, los derechos de los copropietarios y los resultados contributivos
+- La tenencia conjunta con derecho de supervivencia suele prevalecer sobre un testamento para ese bien
+- La tenencia en común con un acuerdo por escrito da más control
+- Confirme siempre las reglas de titularidad localmente antes de firmar en el cierre
+
+===== PURPLE-L5-014
+TITLE: Las designaciones de beneficiario: los formularios que prevalecen sobre su testamento
+SUMMARY: Las cuentas de retiro, las pólizas de seguro y algunas cuentas de inversión suelen pagarse directamente al beneficiario designado, diga lo que diga su testamento; mantenga una lista al día y revísela después de cada gran acontecimiento de vida.
+KEYWORDS: designación de beneficiario, transferencia al morir, pagadero al morir, beneficiario de cuenta de retiro, coordinación del plan sucesoral
+# Las designaciones de beneficiario: los formularios que prevalecen sobre su testamento
+
+## Escenario inicial
+SUPUESTO/OPINIÓN (escenario hipotético solo con fines educativos): Imagine una institución financiera de importancia sistémica que revela de repente una pérdida grande que no se había divulgado, lo que despierta el temor de que el riesgo de contraparte se propague por todo el sistema bancario.
+Aplíquelo aquí: Los problemas de una institución financiera llevan a muchas personas a mover sus cuentas a otro lugar. Pregunte desde varios colores: cuando se mueve una cuenta (BLANCO), ¿la designación de beneficiario anterior la sigue, o la nueva cuenta empieza en blanco (MORADO)? Si empieza en blanco, ¿a dónde va el dinero al morir? ¿Qué efecto tiene en los impuestos de los herederos (VERDE)?
+
+## Objetivos de aprendizaje
+- Explicar por qué las designaciones de beneficiario suelen prevalecer sobre un testamento
+- Identificar las cuentas que usan formularios de designación de beneficiario
+- Crear una rutina para mantener las designaciones alineadas con el plan sucesoral
+
+## Contenido principal
+DATO VERIFICADO: Muchas cuentas financieras se transfieren por contrato, no por testamento. Cuando usted designa a un beneficiario en una cuenta de retiro, una póliza de seguro de vida, una anualidad o una cuenta pagadera al morir o transferible al morir, la institución generalmente le paga a esa persona directamente, diga lo que diga su testamento. REGLA ESPECÍFICA DE LA REGIÓN: La disponibilidad y las excepciones varían.
+Esto es poderoso y peligroso. Poderoso porque evita el proceso sucesorio y el pago es rápido. Peligroso porque los formularios desactualizados prevalecen en silencio sobre planes redactados con cuidado.
+Problemas comunes:
+- Un excónyuge sigue designado años después de un divorcio.
+- Un beneficiario murió primero y no se designó ningún beneficiario contingente.
+- Se designa directamente a un hijo menor de edad, lo que puede requerir que un tutor supervisado por un tribunal administre el dinero. REGLA ESPECÍFICA DE LA REGIÓN.
+- Se designa a "mi herencia", lo que devuelve el dinero al proceso sucesorio y puede hacer perder beneficios contributivos.
+- Una cuenta se mueve a una nueva institución y nunca se llena un formulario nuevo.
+Cómo se conectan los colores:
+- BLANCO: Las cuentas de retiro y de corretaje tienen los saldos más grandes de muchas familias.
+- VERDE: REGLA ESPECÍFICA DE LA REGIÓN: Las cuentas de retiro heredadas suelen tener calendarios de retiro y un tratamiento contributivo específicos. Designar un fideicomiso en lugar de una persona puede cambiar esos calendarios; en Puerto Rico, por ejemplo, las cuentas IRA locales y los planes de retiro cualificados bajo el Código de Rentas Internas de Puerto Rico tienen sus propias reglas de distribución ante Hacienda, y en la herencia hay que tener en cuenta la legítima de los herederos forzosos, por lo que conviene confirmarlo con un CPA o abogado.
+- DORADO: El producto del seguro suele ser el efectivo más rápido al que tiene acceso una familia después de una muerte.
+- MORADO: El testamento y el fideicomiso fijan el plan; los formularios de designación de beneficiario deben coincidir con el plan.
+El hábito de nivel 5: mantener una sola lista de cada cuenta, de los beneficiarios principal y contingente designados y de la fecha de la última revisión. Revísela después de cada gran acontecimiento de vida: matrimonio, divorcio, nacimiento, muerte y traslado de cuentas.
+SUPUESTO/OPINIÓN: Para muchas familias, los formularios de designación de beneficiario controlan más dinero que el testamento. Merecen la misma atención.
+
+## Ejemplo práctico
+EJEMPLO ILUSTRATIVO: Carlos redacta un testamento que deja todo en partes iguales a sus tres hijos adultos. También tiene:
+- Una cuenta de retiro que designa a su primera esposa, de quien se divorció hace 12 años.
+- Una póliza de seguro de vida que designa solo a su hijo mayor, de antes de que nacieran los otros dos.
+- Una cuenta de corretaje sin beneficiario.
+Cuando muere:
+- La cuenta de retiro puede ir a su exesposa, según las reglas locales sobre el divorcio y los formularios de designación de beneficiario. REGLA ESPECÍFICA DE LA REGIÓN.
+- El seguro va completo a su hijo mayor.
+- Solo la cuenta de corretaje sigue el testamento, a través del proceso sucesorio.
+El plan de "partes iguales" de su testamento controla solo una pequeña parte de su patrimonio.
+Solución: Carlos revisa cada cuenta con su planificador. Designa a sus tres hijos como beneficiarios principales en partes iguales en la cuenta de retiro y en la póliza, añade su fideicomiso revocable como beneficiario contingente y añade una designación de transferencia al morir a la cuenta de corretaje. SUPUESTO/OPINIÓN: Una tarde de papeleo hizo realidad la intención de su testamento.
+
+## Prueba práctica
+**Q1. ¿Por qué las designaciones de beneficiario suelen prevalecer sobre un testamento?**
+A) Esas cuentas se transfieren por contrato directamente al beneficiario designado
+B) Los testamentos siempre son inválidos
+C) Los bancos ignoran los testamentos por costumbre
+D) Los tribunales prefieren los formularios
+
+**Q2. ¿Qué es un beneficiario contingente?**
+A) El beneficiario principal
+B) Un sustituto que recibe el dinero si el beneficiario principal no puede
+C) Un empleado del banco
+D) El albacea
+
+**Q3. ¿Por qué designar a "mi herencia" como beneficiario puede ser un problema?**
+A) Puede devolver el dinero al proceso sucesorio y hacer perder beneficios contributivos
+B) Es ilegal
+C) Paga demasiado rápido
+D) Designa a demasiadas personas
+
+**Q4. En el ejemplo práctico, ¿qué parte del patrimonio de Carlos controlaba realmente su testamento?**
+A) Todo
+B) Solo la cuenta de corretaje sin beneficiario
+C) Solo el seguro
+D) Nada
+
+**Q5. ¿Cuándo deben revisarse las designaciones de beneficiario?**
+A) Una sola vez, al abrir la cuenta
+B) Después de cada gran acontecimiento de vida y al trasladar cuentas
+C) Cada 20 años
+D) Nunca
+
+## Clave de respuestas
+Q1: A
+Q2: B
+Q3: A
+Q4: B
+Q5: B
+
+## Respuestas y explicaciones
+**Q1.** El contrato de la cuenta decide quién recibe el dinero.
+**Q2.** Designar un beneficiario contingente evita vacíos si el beneficiario principal ha muerto.
+**Q3.** Designar la herencia anula la ventaja de evitar el proceso sucesorio.
+**Q4.** Los formularios de designación de beneficiario controlaban el resto.
+**Q5.** El matrimonio, el divorcio, los nacimientos, las muertes y los traslados de cuentas exigen una revisión.
+
+## Puntos clave
+- Los formularios de designación de beneficiario suelen prevalecer sobre el testamento para esas cuentas
+- Los formularios desactualizados deshacen en silencio planes sucesorales cuidadosos
+- Designe beneficiarios contingentes y evite designar directamente a menores o a "mi herencia"
+- Mantenga una lista de cada cuenta y revísela después de cada acontecimiento de vida
+
+===== PURPLE-L5-015
+TITLE: La planificación de la sucesión para dueños de negocio
+SUMMARY: Todo dueño acaba saliendo de su negocio; un plan de sucesión iniciado con años de antelación coordina la preparación de un sucesor, los documentos legales, el financiamiento del comprador y el momento contributivo.
+KEYWORDS: planificación de la sucesión empresarial, transición de un negocio familiar, venta a los empleados, sucesión en la gerencia, planificación de la salida
+# La planificación de la sucesión para dueños de negocio
+
+## Escenario inicial
+SUPUESTO/OPINIÓN (escenario hipotético solo con fines educativos): Imagine una alteración generalizada de salud pública que interrumpe el transporte marítimo y la manufactura a nivel mundial durante un período prolongado, paralizando a la vez las cadenas de suministro de muchas industrias.
+Aplíquelo aquí: Una alteración prolongada obliga a un dueño de edad avanzada a retirarse de forma inesperada. Pregunte desde varios colores: ¿hay alguien preparado para dirigir (NEGRO)? ¿Dicen los documentos legales (MORADO) quién toma el control? ¿Hay una manera de pagarle al dueño de forma justa (AZUL) sin aplastar al negocio con deudas? ¿Cuál es el costo contributivo de cada camino (VERDE)?
+
+## Objetivos de aprendizaje
+- Comparar los principales caminos de sucesión de un negocio
+- Coordinar los pasos legales, contributivos, de financiamiento y de liderazgo en un solo plan
+- Explicar por qué la planificación de la sucesión debe empezar años antes de la salida
+
+## Contenido principal
+Todo dueño de negocio acaba saliendo, ya sea por decisión propia, por salud o por muerte. La planificación de la sucesión decide si el negocio sobrevive a ese momento y si el dueño y su familia reciben un valor justo.
+Caminos principales:
+1. Transferencia a la familia.
+2. Venta a empleados clave o a un equipo gerencial.
+3. Venta al conjunto de los empleados, mediante una estructura de propiedad de los empleados donde exista. REGLA ESPECÍFICA DE LA REGIÓN.
+4. Venta a un comprador externo o a un competidor.
+5. Liquidación ordenada.
+Cada camino coordina varios colores:
+- NEGRO: ¿Está listo un sucesor? El liderazgo tarda años en construirse. Aplica la epifanía de los sistemas de niveles anteriores: un negocio que depende por completo de su dueño no puede venderse por su valor total, porque el comprador está comprando un empleo, no un negocio.
+- MORADO: Los acuerdos de compraventa entre socios (PURPLE-L5-008), los acuerdos operacionales actualizados, los poderes en caso de incapacidad y los documentos sucesorales.
+- AZUL: ¿Cómo pagará el comprador? Financiamiento del vendedor, préstamos bancarios, pagos condicionados a resultados o ventas a plazos. Los compradores familiares y los empleados rara vez tienen el efectivo necesario.
+- VERDE: REGLA ESPECÍFICA DE LA REGIÓN: Vender o regalar, el calendario de los pagos a plazos y vender activos o acciones producen cada uno resultados contributivos distintos; en Puerto Rico, por ejemplo, la venta de acciones o de activos tiene su propio tratamiento de ganancia de capital ante Hacienda, y las estructuras de propiedad de los empleados son menos comunes que en otras jurisdicciones, por lo que conviene confirmarlo con un CPA y un abogado.
+- STEWARD: En las transferencias familiares, la siguiente generación debe prepararse como custodia del patrimonio, no solo como beneficiaria.
+¿Por qué empezar temprano? Porque los mejores resultados requieren tiempo: tiempo para formar a un sucesor, para documentar los sistemas, para poner en orden los libros de modo que un comprador confíe en ellos y para usar una planificación contributiva que abarque varios años.
+SUPUESTO/OPINIÓN: Muchos dueños evitan la planificación de la sucesión porque los obliga a imaginar su salida. Esa demora es la decisión más costosa que toman muchos dueños. Un plan hecho a los 55 años ofrece opciones que un plan hecho en plena crisis a los 70 no ofrece.
+
+## Ejemplo práctico
+EJEMPLO ILUSTRATIVO: Héctor, de 58 años, es dueño de un negocio de suministros de plomería que vale unos 2 millones de dólares. Su hija trabaja en el negocio, pero no está lista para dirigirlo. Dos gerentes con muchos años en la empresa son competentes.
+Su plan a siete años, hecho con un abogado, un CPA y un planificador financiero:
+- Años 1 a 3 (NEGRO): Documentar los sistemas, dar autoridad real a los gerentes y poner a su hija a cargo de una sucursal.
+- Año 2 (MORADO): Actualizar el acuerdo operacional, firmar un acuerdo de compraventa financiado con seguro y preparar poderes.
+- Años 4 a 7 (AZUL + VERDE): Vender el 40 % a los dos gerentes mediante un pagaré financiado por el vendedor y pagado con las ganancias del negocio. Transferir gradualmente el 30 % a su hija mediante una combinación de venta y regalos planificados, según las reglas locales. Conservar el 30 % hasta el retiro definitivo.
+Cuando Héctor tiene un problema de salud en el quinto año, el negocio sigue funcionando con normalidad porque el liderazgo y los documentos ya están en su lugar.
+SUPUESTO/OPINIÓN: El plan combinó el desarrollo del liderazgo, los documentos legales, el financiamiento y el momento contributivo. Ninguno de esos elementos habría bastado por sí solo.
+
+## Prueba práctica
+**Q1. ¿Por qué un negocio que depende por completo de su dueño es difícil de vender por su valor total?**
+A) Los compradores prefieren los negocios pequeños
+B) Los impuestos son más altos
+C) Tiene demasiados sistemas
+D) El comprador está comprando un empleo, no un negocio
+
+**Q2. ¿Cuál de los siguientes NO es un camino de sucesión principal mencionado en la lección?**
+A) La transferencia a la familia
+B) La venta a empleados clave
+C) Ignorar el asunto hasta el retiro
+D) La venta a un comprador externo
+
+**Q3. ¿Por qué los compradores familiares y los empleados suelen necesitar financiamiento del vendedor o herramientas similares?**
+A) Rara vez tienen suficiente efectivo para comprar al contado
+B) Prefieren las deudas
+C) Lo exige la ley
+D) Los bancos rechazan todos los préstamos
+
+**Q4. ¿Por qué la planificación de la sucesión debe empezar años antes de la salida?**
+A) Formar sucesores, documentar los sistemas y planificar los impuestos a lo largo de varios años requieren tiempo
+B) Los abogados cobran menos temprano
+C) Lo exige la ley
+D) Reduce el valor del negocio
+
+**Q5. ¿Qué hizo que el plan de Héctor funcionara durante su problema de salud?**
+A) La suerte
+B) Su hija asumió el control de la noche a la mañana
+C) Lo vendió todo de inmediato
+D) El liderazgo y los documentos legales ya estaban en su lugar
+
+## Clave de respuestas
+Q1: D
+Q2: C
+Q3: A
+Q4: A
+Q5: D
+
+## Respuestas y explicaciones
+**Q1.** Sin sistemas ni líderes, el valor se va con el dueño.
+**Q2.** Ignorarlo no es un camino. Es la opción más costosa.
+**Q3.** Las herramientas de financiamiento permiten que los compradores internos compren gradualmente con las ganancias del negocio.
+**Q4.** Las mejores opciones requieren tiempo.
+**Q5.** La planificación previa permitió que el negocio siguiera funcionando con normalidad.
+
+## Puntos clave
+- Todo dueño acaba saliendo; el plan decide si el negocio sobrevive
+- La sucesión coordina el liderazgo, los documentos legales, el financiamiento y el momento contributivo
+- Los negocios que dependen de su dueño se venden por menos
+- Empiece con años de antelación; una crisis elimina opciones

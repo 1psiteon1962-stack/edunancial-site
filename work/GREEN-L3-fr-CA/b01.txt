@@ -1,0 +1,342 @@
+===== GREEN-L3-001
+TITLE: Pourquoi le taux d'imposition marginal n'impose pas tout ton revenu au même taux
+SUMMARY: Découvre pourquoi passer à une tranche d'imposition plus élevée ne veut pas dire que tout ton revenu est soudainement imposé à ce taux plus élevé.
+# GREEN-L3-001 : Pourquoi le taux d'imposition marginal n'impose pas tout ton revenu au même taux
+
+## Objectifs d'apprentissage
+À la fin de cette leçon, tu pourras :
+- Expliquer ce que veut dire un taux d'imposition marginal
+- Expliquer pourquoi seul le revenu compris dans une tranche précise est imposé au taux de cette tranche
+- Corriger une idée fausse courante sur le passage à une tranche d'imposition plus élevée
+
+## Contenu principal
+
+Beaucoup de gens croient que passer à une tranche d'imposition plus élevée veut dire que tout leur revenu est soudainement imposé à ce taux plus élevé — une croyance qui amène certains à penser qu'une augmentation de salaire ou une prime pourrait en fait leur laisser moins d'argent après impôt. C'est un malentendu courant et compréhensible, mais ce n'est pas comme ça que fonctionne généralement un régime à **taux d'imposition marginal**.
+
+Voici « pourquoi » seule une partie de ton revenu est imposée au taux plus élevé : [VERIFIED FACT] dans un régime d'imposition marginal, le revenu est divisé en tranches, et chaque portion du revenu est imposée au taux attribué à cette tranche précise — et non la totalité du revenu au taux de la tranche la plus élevée atteinte. Donc, si une tranche plus élevée commence à un certain seuil de revenu, seul le revenu gagné au-delà de ce seuil est imposé au taux plus élevé; tout le revenu sous ce seuil continue d'être imposé aux taux plus bas attribués à chacune des tranches précédentes.
+
+Cette structure veut dire que gagner plus d'argent, même assez pour passer à une nouvelle tranche plus élevée, ne donne jamais moins de revenu après impôt au total — la « pénalité » du taux plus élevé s'applique seulement au revenu supplémentaire compris dans cette nouvelle tranche, et non rétroactivement à tout ce qui a déjà été gagné.
+
+## Exemple pratique
+
+[ILLUSTRATIVE EXAMPLE] Imagine un régime simplifié avec un taux de 10 % sur la première tranche de 10 000 $ de revenu et un taux de 20 % sur le revenu au-delà de 10 000 $. Une personne qui gagne 12 000 $ ne paie pas 20 % sur la totalité des 12 000 $. Elle paie 10 % sur les premiers 10 000 $ (1 000 $) et 20 % seulement sur les 2 000 $ restants (400 $), pour un impôt total de 1 400 $ — et non les 2 400 $ qu'un taux uniforme de 20 % sur le montant total laisserait croire. [ASSUMPTION] Si cette même personne obtenait ensuite une augmentation qui fait passer son revenu à 15 000 $, les 3 000 $ supplémentaires seraient imposés à 20 % (600 $), alors que l'impôt sur ses premiers 12 000 $ resterait exactement le même — l'augmentation ne réduit jamais son revenu après impôt total.
+
+## Quiz de pratique
+
+1. Quelle est une idée fausse courante sur le passage à une tranche d'imposition plus élevée?
+2. Comment un régime à taux d'imposition marginal applique-t-il réellement les taux plus élevés?
+3. Gagner plus d'argent peut-il, dans ce régime, donner moins de revenu après impôt au total?
+
+## Corrigé
+
+1. Que tout ton revenu est soudainement imposé au taux de la tranche plus élevée dès que tu y passes.
+2. Chaque portion du revenu est imposée au taux attribué à sa tranche précise; seul le revenu compris dans une tranche plus élevée est imposé au taux de cette tranche, et non tout ce qui a été gagné.
+3. Non — comme seul le revenu supplémentaire compris dans une nouvelle tranche plus élevée est imposé au taux plus élevé, gagner plus donne toujours un revenu après impôt égal ou supérieur, jamais inférieur, dans cette structure.
+
+## Réponses et explications
+
+1. Ça nomme l'idée fausse précise que la leçon vise à corriger.
+2. C'est l'explication mécanique centrale du fonctionnement réel des taux marginaux.
+3. Ça réfute directement le mythe courant, ce qui renforce l'idée centrale de la leçon.
+
+## Points clés à retenir
+- Un taux d'imposition marginal s'applique seulement à la portion du revenu comprise dans une tranche précise, et non à tout le revenu une fois cette tranche atteinte.
+- Ça veut dire que passer à une tranche plus élevée ne réduit jamais ton revenu après impôt total.
+- Comprendre cette distinction corrige une idée fausse très courante, et souvent source d'anxiété, au sujet des augmentations et des primes.
+
+## Avis pédagogique
+Cette leçon sert uniquement à l'éducation financière générale et ne constitue pas un conseil financier, de placement, fiscal ou juridique personnalisé. Les taux et les tranches d'imposition varient selon le territoire et changent avec le temps; consulte un fiscaliste autorisé pour obtenir des conseils adaptés à ta situation.
+
+===== GREEN-L3-002
+TITLE: Pourquoi le taux d'imposition effectif raconte une autre histoire que ta tranche d'imposition
+SUMMARY: Découvre ce que mesure le taux d'imposition effectif, pourquoi il est habituellement plus bas que ta tranche marginale la plus élevée, et pourquoi c'est le chiffre le plus utile pour une vraie planification.
+# GREEN-L3-002 : Pourquoi le taux d'imposition effectif raconte une autre histoire que ta tranche d'imposition
+
+## Objectifs d'apprentissage
+À la fin de cette leçon, tu pourras :
+- Définir le taux d'imposition effectif
+- Expliquer pourquoi le taux d'imposition effectif est toujours inférieur ou égal à ton taux marginal le plus élevé
+- Expliquer pourquoi le taux d'imposition effectif est souvent le chiffre le plus utile pour une vraie planification financière
+
+## Contenu principal
+
+La leçon 1 a expliqué que seul le revenu compris dans une tranche donnée est imposé au taux de cette tranche. Le **taux d'imposition effectif** va un peu plus loin : c'est le taux moyen que tu paies réellement sur l'ensemble de ton revenu, calculé en divisant l'impôt total payé par le revenu total.
+
+Voici « pourquoi » ce chiffre est presque toujours nettement plus bas que ton taux marginal le plus élevé : comme les tranches inférieures sont imposées à des taux plus bas en chemin vers ta tranche la plus élevée, la combinaison de tous ces taux en une seule moyenne fait toujours descendre le taux effectif global sous le taux marginal le plus élevé, qui ne s'applique qu'à tes derniers dollars gagnés.
+
+[VERIFIED FACT] C'est pourquoi on considère souvent le taux d'imposition effectif comme un chiffre plus utile pour une vraie planification financière et pour comparer le fardeau fiscal entre différents niveaux de revenu ou différentes périodes : il reflète ton fardeau fiscal global réel, plutôt que seulement le taux qui s'applique à ton dollar le mieux rémunéré, ce qui peut faire paraître la situation fiscale d'une personne plus lourde qu'elle ne l'est réellement si on confond le taux marginal avec le taux global.
+
+## Exemple pratique
+
+[ILLUSTRATIVE EXAMPLE] Avec la même structure de tranches simplifiée que dans la leçon 1 (10 % sur les premiers 10 000 $, 20 % au-delà), une personne qui gagne 15 000 $ paie 1 000 $ (10 % de 10 000 $) plus 1 000 $ (20 % des 5 000 $ restants), pour un total de 2 000 $ d'impôt. Son taux marginal le plus élevé est de 20 %, mais son taux d'imposition effectif est de 2 000 $ divisés par 15 000 $, soit environ 13,3 % — nettement plus bas que le taux marginal de 20 %, qui pourrait faire paraître sa situation fiscale plus lourde qu'elle ne l'est réellement.
+
+## Quiz de pratique
+
+1. Que mesure le taux d'imposition effectif, et comment le calcule-t-on?
+2. Pourquoi le taux d'imposition effectif est-il toujours inférieur ou égal à ton taux marginal le plus élevé?
+3. Pourquoi considère-t-on souvent le taux d'imposition effectif comme plus utile pour la planification financière que le taux marginal?
+
+## Corrigé
+
+1. Le taux d'imposition moyen réellement payé sur l'ensemble de ton revenu, calculé en divisant l'impôt total payé par le revenu total.
+2. Parce que les tranches inférieures, imposées à des taux plus bas, sont intégrées à la moyenne avec la tranche la plus élevée, ce qui fait toujours descendre la moyenne globale sous le taux marginal le plus élevé.
+3. Parce qu'il reflète le fardeau fiscal global réel plutôt que seulement le taux qui s'applique au dollar le mieux rémunéré, ce qui donne un portrait plus exact pour une vraie planification et des comparaisons.
+
+## Réponses et explications
+
+1. C'est la définition de base de la leçon.
+2. C'est la relation mathématique centrale qui explique pourquoi les deux chiffres diffèrent.
+3. Ça renforce la valeur pratique d'utiliser le taux effectif pour de vraies décisions.
+
+## Points clés à retenir
+- Le taux d'imposition effectif est le taux moyen payé sur le revenu total, distinct du taux de la tranche marginale la plus élevée.
+- Il est toujours inférieur ou égal au taux marginal le plus élevé, puisque les tranches moins imposées sont intégrées à la moyenne.
+- Le taux d'imposition effectif est souvent plus utile pour une vraie planification financière, puisqu'il reflète le fardeau fiscal global réel.
+
+## Avis pédagogique
+Cette leçon sert uniquement à l'éducation financière générale et ne constitue pas un conseil financier, de placement, fiscal ou juridique personnalisé. Les taux et les tranches d'imposition varient selon le territoire et changent avec le temps; consulte un fiscaliste autorisé pour obtenir des conseils adaptés à ta situation.
+
+===== GREEN-L3-003
+TITLE: Pourquoi l'impôt progressif est structuré comme il l'est
+SUMMARY: Découvre le raisonnement général derrière les régimes d'impôt progressif, pourquoi les revenus plus élevés sont imposés à des taux marginaux plus élevés, et les différents points de vue sur cette approche.
+# GREEN-L3-003 : Pourquoi l'impôt progressif est structuré comme il l'est
+
+## Objectifs d'apprentissage
+À la fin de cette leçon, tu pourras :
+- Expliquer le principe général de l'impôt progressif
+- Décrire le principal argument de politique publique souvent invoqué en faveur de cette structure
+- Expliquer qu'il existe d'autres structures fiscales qui comportent des compromis différents
+
+## Contenu principal
+
+Un **régime d'impôt progressif** — où les taux marginaux augmentent à mesure que le revenu augmente, comme on l'a vu à la leçon 1 — est l'une des approches possibles pour structurer l'imposition; d'autres comprennent les régimes d'impôt à taux unique (un seul taux appliqué à tous les niveaux de revenu) et les structures régressives (où le taux diminue en fait à mesure que le revenu augmente, ce dont on parle parfois dans le contexte de certaines taxes à la consommation).
+
+Voici un « pourquoi » souvent invoqué pour expliquer la conception de l'impôt progressif : on le justifie souvent par un **principe de capacité de payer** — l'idée qu'à mesure que le revenu augmente, chaque dollar supplémentaire représente généralement une plus petite part des besoins de base et des ressources globales d'une personne, de sorte qu'imposer ces dollars de revenu plus élevé à un taux plus élevé répartirait le fardeau fiscal davantage selon la capacité réelle de payer de chaque personne, sans obliger quiconque à assumer une charge proportionnellement comparable à un besoin de subsistance.
+
+C'est un domaine de politique fiscale réellement contesté, avec différents points de vue sur l'équité, les effets économiques et le degré de progressivité approprié d'un régime fiscal. [VERIFIED FACT] Des personnes raisonnables et différentes traditions politiques et économiques sont en désaccord sur ces questions, et les structures fiscales précises varient beaucoup d'un territoire à l'autre et changent avec le temps selon les décisions politiques — cette leçon présente la notion générale et sa justification souvent invoquée, sans appuyer une structure ou un niveau de taux en particulier.
+
+## Exemple pratique
+
+[ILLUSTRATIVE EXAMPLE] Dans un régime progressif, une personne qui gagne un revenu modeste pourrait payer un taux effectif global bas, alors qu'une personne qui gagne un revenu très élevé paie un taux effectif nettement plus élevé, même si les deux sont assujetties à la même structure de tranches décrite aux leçons 1 et 2. Les partisans de cette approche soutiennent qu'elle reflète une répartition équitable du fardeau fiscal global selon la capacité réelle de payer de chaque personne. Les critiques d'un degré de progressivité plus élevé soulèvent d'autres préoccupations, dont les effets possibles sur l'incitation à gagner un revenu supplémentaire à des niveaux élevés — un vrai débat de politique publique, toujours en cours, que cette leçon ne cherche pas à trancher.
+
+## Quiz de pratique
+
+1. Quels sont les trois types généraux de structures de taux d'imposition mentionnés dans cette leçon?
+2. Qu'est-ce que le principe de « capacité de payer » souvent invoqué pour justifier l'impôt progressif?
+3. Le degré approprié de progressivité fiscale est-il une question réglée ou contestée?
+
+## Corrigé
+
+1. La structure progressive (les taux augmentent avec le revenu), la structure à taux unique (un seul taux pour tout le revenu) et la structure régressive (le taux effectif diminue à mesure que le revenu augmente).
+2. L'idée qu'un revenu supplémentaire à des niveaux plus élevés représente une plus petite part des besoins de base et des ressources, de sorte que l'imposer à un taux plus élevé répartit le fardeau davantage selon la capacité réelle de payer.
+3. Contestée — des personnes raisonnables et différentes traditions politiques et économiques sont en désaccord sur l'équité et le degré de progressivité approprié d'un régime fiscal.
+
+## Réponses et explications
+
+1. Ça établit le portrait général des structures de taux d'imposition possibles.
+2. Ça explique la justification de politique publique souvent invoquée, présentée de façon neutre.
+3. C'est un point de conclusion important et volontairement équilibré, qui évite de prendre parti sur une question de politique publique réellement contestée.
+
+## Points clés à retenir
+- L'impôt progressif est l'une des structures de taux d'imposition possibles, avec les approches à taux unique et régressives.
+- On le justifie souvent par un principe de capacité de payer, qui reflète la capacité différente de chaque personne à assumer le fardeau fiscal.
+- Le degré approprié de progressivité fiscale reste une question de politique publique réellement contestée, avec des points de vue légitimes de plusieurs côtés.
+
+## Avis pédagogique
+Cette leçon sert uniquement à l'éducation financière générale et présente des notions générales de politique publique de façon neutre, sans appuyer de position politique ou économique particulière. Elle ne constitue pas un conseil financier, de placement, fiscal ou juridique personnalisé. Consulte un fiscaliste autorisé pour obtenir des conseils adaptés à ta situation.
+
+===== GREEN-L3-004
+TITLE: Pourquoi les charges sociales et l'impôt sur le revenu servent des buts différents
+SUMMARY: Découvre pourquoi les charges sociales sont calculées et utilisées différemment de l'impôt sur le revenu, et pourquoi elles apparaissent comme des lignes distinctes sur un talon de paie.
+# GREEN-L3-004 : Pourquoi les charges sociales et l'impôt sur le revenu servent des buts différents
+
+## Objectifs d'apprentissage
+À la fin de cette leçon, tu pourras :
+- Distinguer les charges sociales de l'impôt sur le revenu
+- Expliquer pourquoi les charges sociales sont généralement liées à des programmes précis et désignés
+- Expliquer pourquoi les charges sociales s'appliquent habituellement à un taux fixe jusqu'à un certain niveau de revenu, contrairement à l'impôt progressif sur le revenu
+
+## Contenu principal
+
+L'**impôt sur le revenu** finance les activités générales du gouvernement et se calcule selon la structure de tranches progressives abordée aux leçons 1 à 3. Les **charges sociales** (dans le contexte américain, elles comprennent couramment les cotisations à la sécurité sociale et à Medicare; au Canada, les cotisations au RPC ou au RRQ et à l'assurance-emploi jouent un rôle semblable) forment une catégorie distincte, habituellement calculée comme un pourcentage fixe du salaire et désignée précisément pour financer des programmes particuliers.
+
+Voici « pourquoi » on les traite de façon distincte : les charges sociales sont généralement structurées pour financer directement les programmes précis dont elles portent le nom — la sécurité sociale et Medicare dans le contexte américain —, plutôt que d'alimenter les revenus généraux du gouvernement comme le fait l'impôt sur le revenu. [VERIFIED FACT] C'est aussi pourquoi la cotisation à la sécurité sociale, dans le contexte américain, ne s'applique habituellement que jusqu'à un plafond de salaire précis chaque année (un montant rajusté périodiquement) — le revenu au-delà de ce plafond n'est pas assujetti à la portion sécurité sociale, une caractéristique structurelle très différente des tranches illimitées et toujours croissantes du régime progressif d'impôt sur le revenu. (Les cotisations canadiennes au RPC, au RRQ et à l'assurance-emploi comportent elles aussi un maximum annuel.)
+
+Cette distinction compte pour comprendre un talon de paie complet : la retenue d'impôt sur le revenu et la retenue des charges sociales sont calculées séparément, selon des règles entièrement différentes, et toutes deux apparaissent comme des retenues distinctes sur la paie brute.
+
+## Exemple pratique
+
+[ILLUSTRATIVE EXAMPLE] Le talon de paie d'un employé montre des retenues distinctes : la retenue d'impôt fédéral sur le revenu, calculée selon des tranches progressives et la situation fiscale précise de l'employé, et, séparément, les retenues pour la sécurité sociale et Medicare, chacune calculée comme un pourcentage fixe du salaire. [ASSUMPTION] Si le salaire annuel de cet employé dépasse le plafond de salaire de la sécurité sociale pour l'année, la retenue de la sécurité sociale cesserait d'être prélevée sur ses paies une fois ce plafond atteint pour l'année, même si la retenue d'impôt sur le revenu continue sur tout le salaire restant, ce qui illustre le traitement structurellement différent de ces deux catégories d'impôt.
+
+## Quiz de pratique
+
+1. Quelle est la principale différence structurelle entre le calcul de l'impôt sur le revenu et celui des charges sociales?
+2. Pourquoi dit-on généralement que les charges sociales sont désignées pour des programmes précis, contrairement à l'impôt général sur le revenu?
+3. Dans le contexte américain, qu'arrive-t-il à la retenue de la sécurité sociale une fois que le salaire dépasse le plafond annuel?
+
+## Corrigé
+
+1. L'impôt sur le revenu utilise une structure de tranches progressives dont les taux augmentent aux niveaux de revenu plus élevés; les charges sociales sont habituellement calculées comme un pourcentage fixe du salaire, souvent seulement jusqu'à un plafond précis.
+2. Parce que les charges sociales sont structurées pour financer directement des programmes précis et nommés comme la sécurité sociale et Medicare, plutôt que d'alimenter les revenus généraux du gouvernement.
+3. La retenue de cette cotisation précise cesse une fois le plafond de salaire atteint pour l'année, puisque le salaire au-delà de ce plafond n'est pas assujetti à cette charge sociale particulière.
+
+## Réponses et explications
+
+1. C'est la distinction structurelle centrale autour de laquelle la leçon est construite.
+2. Ça explique la logique de financement désigné derrière le traitement différent des charges sociales.
+3. Ça applique la notion précise de plafond de salaire à une situation concrète de talon de paie.
+
+## Points clés à retenir
+- Les charges sociales sont habituellement calculées comme un pourcentage fixe du salaire et désignées pour des programmes précis, contrairement à l'impôt général et progressif sur le revenu.
+- Dans le contexte américain, la cotisation à la sécurité sociale ne s'applique habituellement que jusqu'à un plafond de salaire annuel, une caractéristique structurelle distincte des tranches illimitées de l'impôt sur le revenu.
+- Les retenues d'impôt sur le revenu et de charges sociales sont calculées séparément, selon des règles entièrement différentes, et apparaissent toutes deux sur un talon de paie.
+
+## Avis pédagogique
+Cette leçon sert uniquement à l'éducation financière générale et ne constitue pas un conseil financier, de placement, fiscal ou juridique personnalisé. Les règles, les taux et les plafonds fiscaux varient selon le territoire et changent avec le temps; consulte un fiscaliste autorisé pour obtenir des conseils adaptés à ta situation.
+
+===== GREEN-L3-005
+TITLE: Pourquoi la retenue d'impôt est une estimation, et non une facture finale
+SUMMARY: Découvre pourquoi l'impôt retenu sur ta paie n'est qu'une estimation de ce que tu devras réellement, et pourquoi le rapprochement final se fait au moment de produire ta déclaration de revenus.
+# GREEN-L3-005 : Pourquoi la retenue d'impôt est une estimation, et non une facture finale
+
+## Objectifs d'apprentissage
+À la fin de cette leçon, tu pourras :
+- Expliquer ce que représente généralement la retenue d'impôt
+- Expliquer pourquoi la retenue n'est qu'une estimation plutôt qu'un calcul final
+- Expliquer pourquoi le montant retenu peut finir par être plus élevé ou plus bas que ce qui est réellement dû
+
+## Contenu principal
+
+La **retenue d'impôt** est le montant qu'un employeur prélève sur chaque paie et envoie directement aux autorités fiscales au nom d'un employé, selon l'information fournie par l'employé (comme le formulaire W-4 dans le contexte américain, ou le formulaire TD1 au Canada) et des tables de calcul des retenues normalisées.
+
+Voici « pourquoi » ce chiffre n'est qu'une estimation, et non la facture d'impôt finale réelle : les calculs de retenue reposent sur des hypothèses quant au revenu de l'employé pour l'année complète, à sa situation fiscale et à d'autres facteurs au moment où les choix de retenue sont faits — ils ne tiennent pas compte de chaque détail précis de la situation fiscale finale réelle d'une personne, y compris les déductions, les crédits, les revenus supplémentaires provenant d'autres sources ou les changements de situation pendant l'année.
+
+[VERIFIED FACT] C'est pourquoi la déclaration de revenus réelle, produite en fin d'année, rapproche le montant retenu pendant l'année de l'impôt réellement dû, calculé à partir du portrait complet et final du revenu et de la situation de cette année-là — si on a trop retenu par rapport à l'impôt réel, la différence revient habituellement sous forme de remboursement (un sujet examiné de façon critique dans la prochaine leçon); si on n'a pas assez retenu, la différence doit habituellement être payée au moment de produire la déclaration, et peut parfois entraîner les pénalités pour paiement insuffisant abordées dans une leçon plus loin.
+
+## Exemple pratique
+
+[ILLUSTRATIVE EXAMPLE] La retenue d'une employée pendant l'année repose sur des hypothèses normalisées quant à son revenu et à un seul emploi. Si elle gagne aussi un revenu supplémentaire important grâce à un projet parallèle pendant l'année, qui n'a pas été pris en compte dans ses choix de retenue, ses retenues sur la paie sous-estiment probablement l'impôt total qu'elle doit réellement pour l'année. [ASSUMPTION] Quand elle produit sa déclaration de revenus, en rapprochant son revenu et son impôt réels pour l'année complète des montants retenus, elle pourrait constater qu'elle doit un montant supplémentaire au-delà de ce qui a déjà été retenu — non pas parce que quelque chose s'est mal passé, mais parce que la retenue n'a toujours été qu'une estimation fondée sur une information incomplète au sujet de son portrait financier complet.
+
+## Quiz de pratique
+
+1. Que représente généralement la retenue d'impôt?
+2. Pourquoi la retenue n'est-elle qu'une estimation plutôt qu'un calcul d'impôt final et exact?
+3. Qu'arrive-t-il si la retenue se révèle insuffisante par rapport à l'impôt réellement dû?
+
+## Corrigé
+
+1. Le montant prélevé sur chaque paie et envoyé aux autorités fiscales, selon des choix de retenue normalisés et des tables de calcul.
+2. Parce qu'elle est calculée à partir d'hypothèses et d'une information incomplète au moment où les choix sont faits, sans tenir compte de chaque détail précis de la situation fiscale finale réelle.
+3. La différence doit habituellement être payée au moment de produire la déclaration et, dans certains cas, peut entraîner des pénalités pour paiement insuffisant.
+
+## Réponses et explications
+
+1. C'est la définition de base de la leçon.
+2. C'est le « pourquoi » central qui explique la nature estimée et provisoire de la retenue.
+3. Ça donne un aperçu de la conséquence pratique et prépare les leçons plus loin sur les remboursements et les pénalités.
+
+## Points clés à retenir
+- La retenue est une estimation de l'impôt à payer, fondée sur des hypothèses et des choix normalisés, et non un calcul final.
+- La déclaration de revenus réelle rapproche la retenue de l'impôt réel dû pour l'année complète.
+- Une retenue trop élevée donne habituellement un remboursement; une retenue insuffisante oblige à payer de l'impôt supplémentaire, possiblement avec des pénalités.
+
+## Avis pédagogique
+Cette leçon sert uniquement à l'éducation financière générale et ne constitue pas un conseil financier, de placement, fiscal ou juridique personnalisé. Les règles fiscales varient selon le territoire et changent avec le temps; consulte un fiscaliste autorisé pour obtenir des conseils adaptés à ta situation.
+
+===== GREEN-L3-006
+TITLE: Pourquoi un remboursement d'impôt n'est pas de l'argent gratuit
+SUMMARY: Découvre pourquoi un remboursement d'impôt représente en fait un prêt sans intérêt que tu as consenti au gouvernement, et pourquoi ça change ta façon de voir un remboursement important.
+# GREEN-L3-006 : Pourquoi un remboursement d'impôt n'est pas de l'argent gratuit
+
+## Objectifs d'apprentissage
+À la fin de cette leçon, tu pourras :
+- Expliquer ce que représente réellement un remboursement d'impôt, en lien avec la leçon 5
+- Expliquer pourquoi un remboursement important n'est pas forcément un bon résultat financier
+- Expliquer pourquoi certaines personnes acceptent volontairement un plus petit remboursement (ou un solde à payer) par choix délibéré
+
+## Contenu principal
+
+La leçon 5 a établi que la retenue n'est qu'une estimation. Un **remboursement d'impôt** se produit quand cette estimation a fait retenir plus d'argent pendant l'année que ce qui était réellement dû — le gouvernement rend l'excédent une fois que la déclaration de revenus finale a rapproché les deux chiffres.
+
+Voici « pourquoi » ce n'est pas l'aubaine que ça peut sembler être : un remboursement d'impôt est, en fait, de l'argent qui appartenait au contribuable depuis le début, prêté au gouvernement tout au long de l'année sous forme de **prêt sans intérêt**, pour être rendu plus tard sans aucun intérêt. [VERIFIED FACT] Si ce même argent était plutôt resté sur la paie du contribuable pendant l'année, il aurait pu être utilisé, épargné ou investi pendant cette même période — ce qui veut dire qu'un remboursement important reflète souvent un coût d'opportunité, et non un gain financier, même si recevoir la somme forfaitaire peut sembler gratifiant.
+
+C'est pourquoi certains contribuables bien informés ajustent volontairement leur retenue pour qu'elle corresponde de plus près à l'impôt qu'ils s'attendent réellement à devoir, en visant un petit remboursement ou un petit solde à payer, plutôt que de surpayer volontairement pendant l'année pour recevoir plus tard une somme forfaitaire plus importante.
+
+## Exemple pratique
+
+[ILLUSTRATIVE EXAMPLE] Deux contribuables ont exactement le même impôt réel à payer pour l'année. L'une a une retenue nettement trop élevée pendant l'année et reçoit un remboursement de 3 000 $ au moment de produire sa déclaration — de l'argent qui est resté entre les mains du gouvernement, hors de sa portée, pendant des mois, sans rapporter d'intérêts. L'autre a ajusté sa retenue plus précisément pour qu'elle corresponde à l'impôt qu'elle s'attendait réellement à devoir; ses paies, réduites d'une retenue moins élevée, étaient plus grosses pendant l'année, et elle ne doit qu'un petit montant (ou reçoit un petit remboursement) au moment de produire sa déclaration. [ASSUMPTION] La deuxième contribuable a eu accès à cette différence de 3 000 $ pendant toute l'année, et a pu l'utiliser à ses propres fins, alors que le montant identique de la première est resté inactif entre les mains du gouvernement pendant tout ce temps — le même argent au total, mais une disponibilité pratique très différente.
+
+## Quiz de pratique
+
+1. Que représente réellement un remboursement d'impôt, en lien avec la leçon 5?
+2. Pourquoi un remboursement d'impôt important n'est-il pas forcément un bon résultat financier?
+3. Pourquoi un contribuable bien informé pourrait-il ajuster volontairement sa retenue pour réduire le remboursement attendu?
+
+## Corrigé
+
+1. De l'argent retenu en trop pendant l'année par rapport à l'impôt réellement dû, rendu par le gouvernement après le rapprochement final — en fait, un prêt sans intérêt que le contribuable a consenti au gouvernement.
+2. Parce que cet argent aurait pu être à la disposition du contribuable pendant l'année pour d'autres usages, ce qui représente un coût d'opportunité plutôt qu'un gain financier, même si la somme forfaitaire semble gratifiante.
+3. Pour avoir un accès plus juste à son propre argent pendant l'année, plutôt que de consentir un prêt sans intérêt au gouvernement et de recevoir plus tard une somme forfaitaire sans aucun avantage pour la période où elle a été retenue.
+
+## Réponses et explications
+
+1. Ça relie directement la leçon à la notion de retenue de la leçon 5.
+2. C'est le changement de perspective central autour duquel la leçon est construite.
+3. Ça explique le choix financier pratique et délibéré que font certains contribuables en se fondant sur cette compréhension.
+
+## Points clés à retenir
+- Un remboursement d'impôt représente de l'argent retenu en trop pendant l'année et rendu sans intérêt — un prêt sans intérêt au gouvernement.
+- Un remboursement important n'est pas forcément un bon résultat, puisque cet argent aurait pu être disponible pour d'autres usages pendant l'année.
+- Ajuster sa retenue pour qu'elle corresponde de plus près à l'impôt réellement dû préserve l'accès à son propre argent pendant l'année, au lieu de le reporter à une somme forfaitaire plus tard.
+
+## Avis pédagogique
+Cette leçon sert uniquement à l'éducation financière générale et ne constitue pas un conseil financier, de placement, fiscal ou juridique personnalisé. Tous les chiffres sont des estimations à titre d'illustration, et non des garanties. Consulte un fiscaliste autorisé avant de modifier tes choix de retenue d'impôt.
+
+===== GREEN-L3-007
+TITLE: Pourquoi les déductions et les crédits d'impôt ne sont pas la même chose
+SUMMARY: Découvre la différence fondamentale entre une déduction fiscale et un crédit d'impôt, et pourquoi un crédit a généralement plus de valeur, dollar pour dollar.
+# GREEN-L3-007 : Pourquoi les déductions et les crédits d'impôt ne sont pas la même chose
+
+## Objectifs d'apprentissage
+À la fin de cette leçon, tu pourras :
+- Expliquer la différence entre une déduction fiscale et un crédit d'impôt
+- Expliquer pourquoi un crédit d'impôt a généralement plus de valeur qu'une déduction du même montant en dollars
+- Calculer l'avantage fiscal réel d'une déduction par rapport à un crédit dans un exemple simple
+
+## Contenu principal
+
+Une **déduction fiscale** réduit le montant du revenu assujetti à l'impôt (le revenu imposable) avant que le calcul de l'impôt soit appliqué. Un **crédit d'impôt** réduit directement l'impôt à payer, dollar pour dollar, une fois le calcul de l'impôt déjà fait.
+
+Voici « pourquoi » un crédit a généralement plus de valeur qu'une déduction du même montant en dollars : la valeur réelle d'une déduction dépend du taux d'imposition marginal du contribuable (leçon 1) — une déduction de 1 000 $ ne réduit l'impôt réellement dû que de 1 000 $ multipliés par le taux marginal du contribuable, et non de la totalité des 1 000 $. Un crédit de 1 000 $, au contraire, réduit l'impôt dû de la totalité des 1 000 $, peu importe le taux marginal du contribuable.
+
+[VERIFIED FACT] C'est pourquoi, quand on évalue des avantages fiscaux, il est important de bien distinguer les deux — un « allègement fiscal de 1 000 $ » décrit de façon vague pourrait représenter des économies réelles très différentes selon qu'il prend la forme d'une déduction ou d'un crédit, et certains crédits et certaines déductions ont leurs propres règles d'admissibilité et, dans certains cas, des seuils de réduction progressive (un sujet abordé dans une leçon plus loin) qui influent encore sur leur valeur réelle pour un contribuable donné. (À noter : au Canada, de nombreux crédits d'impôt non remboursables sont calculés en multipliant un montant par le taux de la tranche la plus basse, ce qui modifie un peu cette comparaison.)
+
+## Exemple pratique
+
+[ILLUSTRATIVE EXAMPLE] Une contribuable dont le taux marginal est de 22 % a le choix (de façon hypothétique) entre une déduction de 1 000 $ et un crédit de 1 000 $. La déduction de 1 000 $ réduit son revenu imposable de 1 000 $, ce qui, à son taux marginal de 22 %, réduit son impôt réellement dû de 220 $ (22 % de 1 000 $). Le crédit de 1 000 $ réduit directement son impôt réellement dû de la totalité des 1 000 $. [ASSUMPTION] Même si les deux sont décrits comme des « allègements fiscaux de 1 000 $ », le crédit vaut plus de quatre fois plus en économies d'impôt réelles pour cette contribuable, ce qui montre pourquoi la distinction entre ces deux types d'avantages fiscaux compte beaucoup.
+
+## Quiz de pratique
+
+1. Quelle est la principale différence structurelle entre une déduction fiscale et un crédit d'impôt?
+2. Pourquoi un crédit d'impôt a-t-il généralement plus de valeur qu'une déduction du même montant en dollars?
+3. Dans l'exemple pratique, pourquoi la déduction de 1 000 $ n'a-t-elle fait économiser que 220 $ d'impôt réel?
+
+## Corrigé
+
+1. Une déduction réduit le revenu imposable avant que le calcul de l'impôt soit appliqué; un crédit réduit directement l'impôt réellement dû, dollar pour dollar, après le calcul.
+2. Parce que la valeur d'une déduction dépend du taux d'imposition marginal du contribuable et ne réduit l'impôt réel que d'une fraction du montant de la déduction, alors qu'un crédit réduit l'impôt dû de son plein montant en dollars, peu importe le taux d'imposition.
+3. Parce que la déduction a réduit le revenu imposable de 1 000 $, et qu'à son taux marginal de 22 %, cette réduction du revenu imposable s'est traduite par une réduction de 220 $ de l'impôt réellement dû, et non de la totalité des 1 000 $.
+
+## Réponses et explications
+
+1. C'est la distinction de base sur laquelle toute la leçon est construite.
+2. C'est le « pourquoi » central qui explique la valeur généralement plus grande des crédits.
+3. Ça reprend le calcul précis pour renforcer la différence mécanique.
+
+## Points clés à retenir
+- Une déduction fiscale réduit le revenu imposable avant le calcul de l'impôt; un crédit d'impôt réduit directement l'impôt réellement dû.
+- Un crédit d'impôt a généralement plus de valeur qu'une déduction du même montant en dollars, puisque la valeur d'une déduction dépend du taux marginal du contribuable.
+- Comprendre cette distinction est essentiel pour évaluer avec justesse la valeur réelle de tout avantage fiscal précis.
+
+## Avis pédagogique
+Cette leçon sert uniquement à l'éducation financière générale et ne constitue pas un conseil financier, de placement, fiscal ou juridique personnalisé. Tous les chiffres sont des estimations à titre d'illustration, et non des garanties. Consulte un fiscaliste autorisé pour obtenir des conseils adaptés à ta situation.

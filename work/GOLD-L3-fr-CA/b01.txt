@@ -1,0 +1,342 @@
+===== GOLD-L3-001
+TITLE: Pourquoi le risque et le rendement sont liés, et non des décisions distinctes
+SUMMARY: Découvre pourquoi un rendement potentiel plus élevé exige généralement d'accepter un risque plus élevé, et pourquoi traiter ces deux éléments comme des choix distincts et sans lien mène à de mauvaises décisions de placement.
+# GOLD-L3-001 : Pourquoi le risque et le rendement sont liés, et non des décisions distinctes
+
+## Objectifs d'apprentissage
+À la fin de cette leçon, tu pourras :
+- Expliquer la relation générale entre le risque et le rendement potentiel
+- Expliquer pourquoi un placement qui promet un rendement élevé avec peu de risque devrait soulever des questions
+- Expliquer pourquoi évaluer le rendement sans tenir compte du risque donne un portrait incomplet
+
+## Contenu principal
+
+Un principe fondamental traverse tout ce parcours GOLD : le risque et le rendement potentiel sont généralement liés, et ne sont pas des variables indépendantes qu'un investisseur peut optimiser librement chacune de son côté. Voici le « pourquoi » de cette relation : les placements dont le résultat est plus incertain — plus risqués — doivent généralement offrir un rendement potentiel plus élevé pour attirer des capitaux, puisque les investisseurs exigent une compensation pour assumer cette incertitude supplémentaire. Un placement qui offrirait un rendement potentiel élevé avec très peu de risque réel attirerait, dans un marché qui fonctionne raisonnablement bien, tellement de capitaux à la recherche de cette combinaison avantageuse que son prix augmenterait généralement jusqu'à ce que le rendement excédentaire disparaisse en grande partie.
+
+[VERIFIED FACT] C'est pourquoi les promesses de rendement élevé avec un risque minime doivent être accueillies avec un scepticisme particulier — soit le risque est sous-estimé ou mal compris, soit quelque chose d'autre dans la situation ne correspond pas au schéma normal que décrit cette relation. Ça ne veut pas dire que chaque placement risqué rapporte automatiquement un rendement élevé — bien des placements risqués font tout simplement perdre de l'argent —, mais ça veut dire que les occasions vraiment peu risquées offrent rarement des rendements exceptionnels de façon soutenue.
+
+Ce principe explique pourquoi évaluer le rendement d'un placement isolément, sans se demander quel risque a été pris pour l'obtenir, donne un portrait incomplet et potentiellement trompeur — un sujet approfondi tout au long de ce parcours.
+
+## Exemple pratique
+
+[ILLUSTRATIVE EXAMPLE] On présente deux occasions à une investisseuse : l'une offre des rendements modestes et stables, avec un profil de risque limité et bien compris, et l'autre promet des rendements beaucoup plus élevés avec le même faible niveau de risque déclaré. [ASSUMPTION] Compte tenu de la relation générale entre le risque et le rendement, la promesse de la deuxième occasion devrait l'amener à faire un examen attentif — soit son risque réel est plus élevé que ce qui est présenté, soit ses promesses de rendement sont irréalistes ou exagérées, soit il y a un autre problème (peut-être même une fraude) qui ne correspond pas au schéma normal que cette relation prévoirait pour une occasion légitime et durable.
+
+## Quiz de pratique
+
+1. Quelle est la relation générale entre le risque et le rendement potentiel?
+2. Pourquoi un placement qui promet un rendement élevé avec un risque minime devrait-il soulever des questions?
+3. Ce principe veut-il dire que chaque placement risqué rapporte automatiquement un rendement élevé?
+
+## Corrigé
+
+1. Les placements plus incertains doivent généralement offrir un rendement potentiel plus élevé pour attirer des capitaux, puisque les investisseurs exigent une compensation pour assumer ce risque supplémentaire.
+2. Parce que dans un marché qui fonctionne raisonnablement bien, des occasions vraiment peu risquées et très rentables attireraient tellement de capitaux que le rendement excédentaire disparaîtrait généralement — une promesse inhabituelle laisse croire à un risque mal compris ou à un autre problème.
+3. Non — bien des placements risqués font tout simplement perdre de l'argent; la relation décrit un schéma général de compensation exigée pour le risque, et non une garantie que prendre des risques rapporte.
+
+## Réponses et explications
+
+1. C'est le principe fondamental sur lequel repose toute la leçon, et une grande partie de ce parcours.
+2. C'est la mise en garde centrale et pratique sur laquelle la leçon insiste.
+3. C'est une précision importante qui évite une lecture trop simpliste du genre « le risque rapporte toujours ».
+
+## Points clés à retenir
+- Le risque et le rendement potentiel sont généralement liés, et ne sont pas des variables qu'on peut optimiser indépendamment.
+- Les promesses de rendement élevé avec un risque minime doivent être accueillies avec un scepticisme particulier.
+- Cette relation décrit la compensation exigée pour assumer un risque, et non une garantie que prendre des risques produit des rendements élevés.
+
+## Avis pédagogique
+Cette leçon sert uniquement à l'éducation financière générale et ne constitue pas un conseil financier, de placement, fiscal ou juridique personnalisé. Tous les chiffres sont des estimations illustratives, et non des garanties. Consulte un professionnel autorisé en finances avant de prendre des décisions de placement.
+
+===== GOLD-L3-002
+TITLE: Pourquoi le « risque » veut dire des choses différentes selon l'investisseur
+SUMMARY: Découvre pourquoi le risque n'est pas une notion unique et universelle, et pourquoi un même placement peut être vraiment risqué pour un investisseur et raisonnable pour un autre.
+# GOLD-L3-002 : Pourquoi le « risque » veut dire des choses différentes selon l'investisseur
+
+## Objectifs d'apprentissage
+À la fin de cette leçon, tu pourras :
+- Expliquer pourquoi le « risque » n'est pas une notion unique et fixe pour tout le monde
+- Nommer plusieurs dimensions différentes du risque qui comptent pour différents investisseurs
+- Expliquer pourquoi un même placement peut être raisonnable pour un investisseur et déraisonnable pour un autre
+
+## Contenu principal
+
+La leçon 1 a établi la relation générale entre le risque et le rendement. Voici « pourquoi » cette leçon va plus loin : le « risque » lui-même n'est pas une notion unique et fixe pour tout le monde — il veut vraiment dire des choses différentes selon la situation, les objectifs et l'horizon de placement précis de chaque investisseur.
+
+Pour un investisseur, le risque pourrait vouloir dire la possibilité d'une perte de capital permanente et irrécupérable. Pour un autre, qui aura bientôt besoin de l'argent pour un objectif précis à court terme, le risque pourrait vouloir dire une volatilité à court terme qui pourrait l'obliger à vendre au mauvais moment (en lien avec la distinction entre volatilité et risque abordée dans le parcours WHITE de ce programme). Pour une personne qui mise sur un revenu de retraite, le risque pourrait surtout vouloir dire la possibilité que son revenu ne suive pas l'inflation pendant des décennies. [VERIFIED FACT] Ces différentes façons de voir le risque ne se contredisent pas — elles reflètent le fait que le risque porte fondamentalement sur la possibilité de ne pas atteindre un objectif précis, et que les investisseurs ont des objectifs différents.
+
+C'est pourquoi un même placement précis peut être vraiment risqué pour un investisseur et tout à fait raisonnable pour un autre : un placement de croissance volatil à long terme pourrait être un risque raisonnable pour une jeune investisseuse à des décennies de la retraite, mais un vrai risque pour une personne qui a besoin de cet argent précis l'année prochaine.
+
+## Exemple pratique
+
+[ILLUSTRATIVE EXAMPLE] Une jeune investisseuse, à des décennies de la retraite et avec une source de revenu diversifiée, voit un placement volatil axé sur la croissance comme un risque raisonnable, puisqu'elle a amplement le temps de se remettre des baisses à court terme et que son objectif principal est la croissance à long terme. Une personne retraitée qui compte sur ce même portefeuille pour ses dépenses courantes à court terme verrait un placement identique de façon très différente — la même volatilité, qui est un risque raisonnable pour la jeune investisseuse, représente une vraie menace pour la stabilité financière à court terme de la retraitée. [ASSUMPTION] Aucune des deux n'a tort au sujet du risque du placement; chacune évalue correctement le risque par rapport à ses propres objectifs et à son propre horizon de placement, qui sont réellement différents.
+
+## Quiz de pratique
+
+1. Pourquoi le « risque » n'est-il pas une notion unique et fixe pour tout le monde?
+2. Selon cette leçon, sur quoi porte fondamentalement le risque?
+3. Pourquoi un même placement précis peut-il être raisonnable pour un investisseur et vraiment risqué pour un autre?
+
+## Corrigé
+
+1. Parce qu'il veut dire des choses différentes selon la situation, les objectifs et l'horizon de placement précis de chaque investisseur — une perte permanente, une volatilité à court terme ou un revenu qui ne suit pas l'inflation, entre autres façons de le voir.
+2. Sur la possibilité de ne pas atteindre un objectif précis, ce qui veut dire que l'évaluation du risque dépend de ce qu'est réellement cet objectif.
+3. Parce que leurs objectifs et leurs horizons de placement précis sont réellement différents, ce qui change ce que le « risque » veut dire concrètement pour chacun.
+
+## Réponses et explications
+
+1. C'est le recadrage central sur lequel la leçon est construite, qui prolonge la notion de base de la leçon 1.
+2. C'est la définition unificatrice qui relie les différentes façons de voir le risque décrites.
+3. Ça applique la notion à une comparaison concrète et facile à comprendre entre deux situations d'investisseurs différentes.
+
+## Points clés à retenir
+- Le « risque » n'est pas une notion unique et universelle — il prend différentes formes concrètes selon les objectifs précis de chaque investisseur.
+- Le risque porte fondamentalement sur la possibilité de ne pas atteindre un objectif précis, quel que soit cet objectif pour un investisseur donné.
+- Un même placement peut être un risque raisonnable pour un investisseur et un vrai risque pour un autre, selon des horizons de placement et des objectifs différents.
+
+## Avis pédagogique
+Cette leçon sert uniquement à l'éducation financière générale et ne constitue pas un conseil financier, de placement, fiscal ou juridique personnalisé. Consulte un professionnel autorisé en finances avant de prendre des décisions de placement.
+
+===== GOLD-L3-003
+TITLE: Pourquoi l'horizon de placement change le niveau de risque raisonnable
+SUMMARY: Découvre pourquoi le temps qu'il te reste avant d'avoir besoin de ton argent détermine directement le niveau de risque de placement qu'il est raisonnable de prendre.
+# GOLD-L3-003 : Pourquoi l'horizon de placement change le niveau de risque raisonnable
+
+## Objectifs d'apprentissage
+À la fin de cette leçon, tu pourras :
+- Expliquer pourquoi l'horizon de placement influe directement sur le niveau de risque de placement raisonnable
+- Expliquer pourquoi un horizon de placement plus long permet généralement d'absorber plus de volatilité
+- Relier cette notion à la discussion sur la trajectoire de répartition (glide path) du parcours WHITE de ce programme
+
+## Contenu principal
+
+La leçon 2 a établi que le risque dépend beaucoup des objectifs et de la situation précis d'un investisseur. L'**horizon de placement** — le temps qui reste avant d'avoir réellement besoin de l'argent investi — est l'un des facteurs les plus importants pour déterminer ce que cette situation exige réellement.
+
+Voici « pourquoi » un horizon de placement plus long permet généralement de prendre plus de risques : un placement qui connaît une volatilité importante à court terme a besoin de temps pour potentiellement se remettre d'une baisse avant que l'argent doive réellement être retiré. Un investisseur qui a des décennies devant lui avant d'avoir besoin de l'argent peut généralement se permettre de traverser plusieurs cycles de marché, en tenant bon pendant des baisses qui seraient vraiment dommageables pour une personne qui doit retirer des fonds pendant cette même baisse. [VERIFIED FACT] C'est précisément la logique derrière la notion de trajectoire de répartition abordée dans le parcours WHITE de ce programme — se tourner graduellement vers des placements plus prudents à mesure qu'une date cible approche, précisément parce qu'un horizon de placement qui raccourcit réduit la capacité de simplement attendre la fin d'une baisse.
+
+C'est pourquoi la question « combien de risque devrais-je prendre? » est vraiment incomplète si on ne précise pas aussi « pour quel objectif, et quand aurai-je besoin de cet argent? » — l'horizon de placement n'est pas un détail secondaire, c'est un élément central de toute évaluation raisonnable du risque.
+
+## Exemple pratique
+
+[ILLUSTRATIVE EXAMPLE] Une investisseuse qui épargne pour un objectif dans 25 ans peut raisonnablement accepter une volatilité importante à court terme dans l'espoir d'un potentiel de croissance à long terme plus élevé, puisqu'elle a amplement le temps de se remettre des baisses en cours de route. La même investisseuse, qui épargne pour un autre objectif dans un an seulement, choisirait raisonnablement une approche beaucoup plus prudente pour cet argent précis, puisqu'une baisse au cours de la prochaine année pourrait nuire directement et immédiatement à sa capacité d'atteindre cet objectif à court terme, sans qu'il lui reste de temps pour s'en remettre avant d'avoir besoin de l'argent. [ASSUMPTION] La même investisseuse, avec deux objectifs différents selon deux échéanciers différents, prend raisonnablement deux décisions de risque très différentes — ce qui montre que l'horizon de placement, et pas seulement la tolérance personnelle au risque, détermine en grande partie le niveau de risque qui a réellement du sens pour une somme d'argent précise.
+
+## Quiz de pratique
+
+1. Pourquoi l'horizon de placement influe-t-il directement sur le niveau de risque de placement raisonnable?
+2. Pourquoi un investisseur qui a des décennies devant lui avant un objectif peut-il généralement accepter plus de volatilité qu'un investisseur qui n'a qu'un an?
+3. Comment cette leçon se relie-t-elle à la notion de trajectoire de répartition abordée dans le parcours WHITE?
+
+## Corrigé
+
+1. Parce qu'un placement a besoin de temps pour potentiellement se remettre de la volatilité à court terme avant que l'argent soit réellement retiré — un horizon de placement plus long donne plus de chances à cette reprise.
+2. Parce que l'investisseur à long horizon peut traverser plusieurs cycles de marché avant d'avoir besoin de l'argent, alors que l'investisseur à court horizon n'a plus de temps pour se remettre d'une baisse avant qu'elle touche directement son objectif.
+3. Une trajectoire de répartition réduit graduellement le risque à mesure qu'une date cible approche, ce qui applique directement le principe central de cette leçon : un horizon de placement qui raccourcit réduit la capacité d'absorber la volatilité, ce qui exige une approche plus prudente.
+
+## Réponses et explications
+
+1. C'est le « pourquoi » central sur lequel la leçon est construite.
+2. Ça ancre le principe abstrait dans une comparaison concrète et facile à comprendre.
+3. Ça relie explicitement la leçon à une notion parallèle abordée ailleurs dans ce programme.
+
+## Points clés à retenir
+- L'horizon de placement est un élément central pour déterminer le niveau de risque de placement raisonnable pour une somme d'argent précise.
+- Un horizon de placement plus long permet généralement de prendre plus de risques, puisqu'il y a plus de temps pour se remettre de la volatilité à court terme.
+- Un même investisseur peut raisonnablement prendre des décisions de risque très différentes pour des objectifs différents ayant des échéanciers différents.
+
+## Avis pédagogique
+Cette leçon sert uniquement à l'éducation financière générale et ne constitue pas un conseil financier, de placement, fiscal ou juridique personnalisé. Consulte un professionnel autorisé en finances avant de prendre des décisions de placement.
+
+===== GOLD-L3-004
+TITLE: Pourquoi l'or et les métaux précieux sont évalués différemment des actifs productifs
+SUMMARY: Découvre pourquoi la valeur de l'or ne vient pas d'un revenu qu'il génère, comme c'est le cas pour une entreprise ou une obligation, et pourquoi on le juge selon une tout autre norme.
+# GOLD-L3-004 : Pourquoi l'or et les métaux précieux sont évalués différemment des actifs productifs
+
+## Objectifs d'apprentissage
+À la fin de cette leçon, tu pourras :
+- Expliquer pourquoi l'or est généralement classé comme un actif non productif
+- Expliquer en quoi la proposition de valeur de l'or diffère de celle d'une action, d'une obligation ou d'un immeuble locatif
+- Expliquer pourquoi cette distinction compte pour la façon d'évaluer l'or
+
+## Contenu principal
+
+Une action représente la propriété d'une entreprise qui génère des profits; une obligation représente un prêt qui génère des intérêts; un immeuble locatif (comme on l'a vu dans le parcours RED de ce programme) génère des revenus de location. Chacun de ces éléments est un **actif productif** — sa valeur est fondamentalement liée au revenu ou aux flux de trésorerie qu'il génère avec le temps. L'**or**, au contraire, est généralement considéré comme un **actif non productif** : il ne génère ni revenu, ni dividende, ni intérêt, ni loyer du simple fait d'être détenu.
+
+Voici « pourquoi » la proposition de valeur de l'or est fondamentalement différente : la valeur de l'or vient surtout du fait qu'il est vu comme une réserve de valeur — quelque chose de largement reconnu et, historiquement, digne de confiance pour conserver le pouvoir d'achat sur de longues périodes, surtout en période d'instabilité économique ou monétaire —, plutôt que d'un revenu qu'il produirait, puisqu'il n'en produit aucun.
+
+[VERIFIED FACT] Ça veut dire que les cadres d'évaluation utilisés pour les actifs productifs — l'analyse des flux de trésorerie, des bénéfices ou des revenus de location, comme on l'a vu ailleurs dans ce programme — ne s'appliquent pas à l'or de la même façon. Le prix de l'or est déterminé par l'offre et la demande liées à son rôle perçu de réserve de valeur, de protection contre l'instabilité monétaire, à la demande industrielle et de la bijouterie, et au sentiment général des investisseurs, plutôt que par un flux calculable de flux de trésorerie futurs, comme on peut le faire pour une action ou une obligation.
+
+## Exemple pratique
+
+[ILLUSTRATIVE EXAMPLE] Une investisseuse qui analyse une action peut examiner les bénéfices, les perspectives de croissance et les flux de trésorerie de l'entreprise pour se faire une opinion sur la question de savoir si son prix représente une bonne valeur, au moyen des cadres abordés ailleurs dans ce programme. Cette même investisseuse, lorsqu'elle analyse l'or, n'a aucun chiffre équivalent de bénéfices ou de flux de trésorerie à examiner — l'or ne génère rien du simple fait d'être détenu. [ASSUMPTION] Sa décision de détenir de l'or repose plutôt sur un tout autre type de raisonnement : son opinion sur le rôle de l'or comme réserve de valeur, comme protection potentielle contre l'instabilité monétaire ou économique, ou simplement comme forme de diversification — un processus d'évaluation fondamentalement différent de l'analyse fondée sur les flux de trésorerie utilisée pour les actifs productifs.
+
+## Quiz de pratique
+
+1. Quelle est la différence clé entre un actif productif et l'or, en tant qu'actif non productif?
+2. D'où vient surtout la proposition de valeur de l'or, si ce n'est pas d'un revenu qu'il génère?
+3. Pourquoi les cadres d'évaluation utilisés pour les actions, les obligations ou les immeubles locatifs ne s'appliquent-ils pas à l'or de la même façon?
+
+## Corrigé
+
+1. Un actif productif génère un revenu, des dividendes, des intérêts ou des loyers; l'or ne génère rien de tout ça du simple fait d'être détenu.
+2. Du fait qu'il est largement reconnu et, historiquement, digne de confiance comme réserve de valeur, surtout en période d'instabilité économique ou monétaire, ainsi que de la demande industrielle et de la bijouterie et du sentiment général.
+3. Parce que ces cadres analysent les flux de trésorerie ou les bénéfices, et que l'or n'a aucun flux équivalent et calculable de flux de trésorerie futurs à analyser.
+
+## Réponses et explications
+
+1. C'est la distinction de base sur laquelle la leçon est construite.
+2. Ça explique la proposition de valeur réelle de l'or, distincte de l'évaluation des actifs productifs.
+3. Ça renforce pourquoi une approche d'évaluation fondamentalement différente est nécessaire pour ce type d'actif précis.
+
+## Points clés à retenir
+- L'or est généralement classé comme un actif non productif, contrairement aux actions, aux obligations ou aux immeubles locatifs.
+- Sa proposition de valeur vient surtout de son rôle perçu de réserve de valeur, et non d'un revenu qu'il génère.
+- Les cadres d'évaluation fondés sur les flux de trésorerie utilisés pour les actifs productifs ne s'appliquent pas à l'or de la même façon.
+
+## Avis pédagogique
+Cette leçon sert uniquement à l'éducation financière générale et ne constitue pas un conseil financier, de placement, fiscal ou juridique personnalisé. Consulte un professionnel autorisé en finances avant de prendre des décisions de placement.
+
+===== GOLD-L3-005
+TITLE: Pourquoi les marchandises ne génèrent pas de flux de trésorerie comme les entreprises
+SUMMARY: Découvre pourquoi les marchandises comme le pétrole, le blé et les métaux industriels partagent la nature non productive de l'or, et pourquoi leurs prix sont déterminés par l'offre et la demande plutôt que par des bénéfices.
+# GOLD-L3-005 : Pourquoi les marchandises ne génèrent pas de flux de trésorerie comme les entreprises
+
+## Objectifs d'apprentissage
+À la fin de cette leçon, tu pourras :
+- Expliquer pourquoi les marchandises ne génèrent généralement pas de flux de trésorerie comme les entreprises
+- Expliquer ce qui détermine réellement le prix des marchandises, en l'absence de bénéfices
+- Relier cette notion à la discussion de la leçon 4 sur l'or comme actif non productif
+
+## Contenu principal
+
+La leçon 4 a classé l'or comme un actif non productif. Les **marchandises** (ou matières premières) en général — le pétrole, le blé, les métaux industriels et d'autres matières brutes semblables — partagent généralement cette même caractéristique : posséder un baril de pétrole ou un boisseau de blé ne génère aucun revenu du simple fait de le détenir, contrairement au fait de posséder des actions d'une entreprise qui utilise ce pétrole ou ce blé pour produire quelque chose.
+
+Voici « pourquoi » le prix des marchandises est déterminé par un mécanisme complètement différent de celui des actions ou des obligations : comme il n'y a aucun rapport de bénéfices ni aucun versement d'intérêts à analyser, le prix des marchandises est surtout déterminé par l'équilibre entre l'offre et la demande réelles de cette ressource physique — la météo qui touche le rendement d'une récolte, les événements géopolitiques qui touchent la production ou le transport du pétrole, les changements de la demande industrielle, ou les contraintes d'entreposage et de transport. [VERIFIED FACT] Ça veut dire que l'analyse du prix des marchandises porte généralement sur les niveaux de production, les données sur les stocks, les prévisions de demande et d'autres indicateurs semblables de l'offre et de la demande, plutôt que sur l'analyse fondée sur les bénéfices utilisée pour les actions.
+
+C'est pourquoi on aborde souvent les marchandises aux côtés de l'or comme une catégorie distincte d'une stratégie de placement plus large — elles partagent la caractéristique non productive, mais chacune a aussi son propre ensemble de facteurs de prix précis, liés à sa dynamique particulière d'offre et de demande, qui peuvent être très différents des facteurs précis qui influent sur l'or.
+
+## Exemple pratique
+
+[ILLUSTRATIVE EXAMPLE] Une investisseuse qui analyse l'action d'une société pétrolière peut examiner les coûts de production, les revenus de vente et les marges bénéficiaires de l'entreprise pour se faire une opinion sur sa valeur. Une investisseuse qui détient directement du pétrole (au moyen d'un contrat à terme ou d'un instrument semblable) n'a aucun chiffre de bénéfices équivalent à analyser — le prix de ce pétrole est plutôt déterminé par des facteurs réels d'offre et de demande mondiales : les niveaux de production des grands producteurs, l'activité économique mondiale qui influe sur la demande et toute perturbation de la production ou du transport. [ASSUMPTION] Ce sont des types d'analyse fondamentalement différents, même si les deux se rapportent finalement à la même marchandise sous-jacente, ce qui montre pourquoi « investir dans le pétrole » au moyen de l'action de l'entreprise et « investir dans le pétrole » au moyen de la marchandise physique elle-même exigent des approches d'évaluation vraiment différentes.
+
+## Quiz de pratique
+
+1. Pourquoi les marchandises ne génèrent-elles généralement pas de flux de trésorerie comme les entreprises?
+2. Qu'est-ce qui détermine réellement le prix des marchandises, en l'absence de bénéfices?
+3. Comment cette leçon se relie-t-elle à la discussion de la leçon 4 sur l'or?
+
+## Corrigé
+
+1. Parce que le simple fait de détenir une marchandise physique comme le pétrole ou le blé ne génère aucun revenu, contrairement au fait de posséder des actions d'une entreprise qui utilise cette marchandise pour produire quelque chose.
+2. L'équilibre réel entre l'offre et la demande physiques — les niveaux de production, les données sur les stocks, les prévisions de demande et des facteurs comme la météo ou les événements géopolitiques qui touchent l'offre.
+3. Les marchandises partagent la caractéristique non productive de l'or, ce qui veut dire que leur prix est lui aussi déterminé par la dynamique de l'offre et de la demande plutôt que par une analyse fondée sur les bénéfices, même si chaque marchandise a ses propres facteurs de prix précis.
+
+## Réponses et explications
+
+1. Ça étend la notion d'actif non productif de la leçon 4 aux marchandises en général.
+2. Ça explique le mécanisme précis qui détermine le prix des marchandises, par opposition à l'analyse fondée sur les bénéfices.
+3. Ça relie explicitement la leçon à la leçon 4, ce qui renforce la structure intégrée du parcours.
+
+## Points clés à retenir
+- Les marchandises partagent généralement la caractéristique non productive de l'or — elles ne génèrent pas de revenu du simple fait d'être détenues.
+- Le prix des marchandises est déterminé par des facteurs réels d'offre et de demande physiques, et non par des bénéfices.
+- Chaque marchandise a ses propres facteurs précis d'offre et de demande, distincts de ceux de l'or, même si toutes partagent la classification plus large d'actif non productif.
+
+## Avis pédagogique
+Cette leçon sert uniquement à l'éducation financière générale et ne constitue pas un conseil financier, de placement, fiscal ou juridique personnalisé. Consulte un professionnel autorisé en finances avant de prendre des décisions de placement.
+
+===== GOLD-L3-006
+TITLE: Pourquoi les actifs de réserve de valeur et les actifs de croissance servent des buts différents
+SUMMARY: Découvre pourquoi détenir de l'or et détenir des actions de croissance répondent à deux questions de placement différentes, et pourquoi un portefeuille réfléchi pourrait raisonnablement contenir les deux.
+# GOLD-L3-006 : Pourquoi les actifs de réserve de valeur et les actifs de croissance servent des buts différents
+
+## Objectifs d'apprentissage
+À la fin de cette leçon, tu pourras :
+- Expliquer les buts différents que servent les actifs de réserve de valeur et les actifs de croissance
+- Expliquer pourquoi comparer directement le rendement de l'or à celui d'un indice boursier passe à côté de l'essentiel
+- Expliquer pourquoi un portefeuille pourrait raisonnablement détenir les deux types d'actifs en même temps
+
+## Contenu principal
+
+Dans le prolongement de la discussion des leçons 4 et 5 sur les actifs non productifs : une façon courante, mais erronée, d'évaluer l'or consiste à comparer directement son rendement historique à celui d'un placement axé sur la croissance, comme un indice boursier, pour conclure que l'or est un mauvais placement parce que ses rendements ont souvent été inférieurs sur de longues périodes.
+
+Voici « pourquoi » cette comparaison passe à côté de l'essentiel : l'or et un placement en actions axé sur la croissance visent généralement à jouer des rôles différents dans un portefeuille, et non à se faire concurrence directement pour le même but. Un **actif de croissance** vise surtout à bâtir de la richesse avec le temps grâce à l'appréciation du capital et, dans bien des cas, au revenu. Un **actif de réserve de valeur** comme l'or vise surtout à préserver le pouvoir d'achat et à offrir une stabilité potentielle, surtout pendant les périodes où les actifs de croissance pourraient être sous pression — et non à maximiser la croissance à long terme.
+
+[VERIFIED FACT] Évaluer l'or uniquement selon son rendement de croissance, et le trouver insuffisant par rapport aux actions sur de longues périodes historiques, revient à comparer deux actifs selon une norme qu'un seul d'entre eux essaie réellement d'atteindre. C'est pourquoi un portefeuille réfléchi pourrait raisonnablement détenir les deux : des actifs de croissance pour bâtir de la richesse avec le temps, et une certaine part d'un actif de réserve de valeur pour le rôle différent et complémentaire qu'il doit jouer, plutôt que de traiter la décision comme un choix exclusif entre des options concurrentes pour la même tâche.
+
+## Exemple pratique
+
+[ILLUSTRATIVE EXAMPLE] Une investisseuse compare le rendement annuel moyen de l'or sur plusieurs décennies au rendement annuel moyen d'un indice boursier sur la même période, et conclut que l'or était un mauvais choix de placement parce que sa croissance a été nettement inférieure. [ASSUMPTION] Cette comparaison oublie que l'or n'était pas détenu dans son portefeuille pour faire concurrence aux actions sur le plan de la croissance — il était détenu précisément pour son potentiel de préservation de la valeur et de stabilité pendant les périodes où ses placements en actions pourraient être sous forte pression, un rôle qu'une comparaison fondée uniquement sur le rendement de croissance ne saisit pas et ne reconnaît pas du tout.
+
+## Quiz de pratique
+
+1. Quel but différent sert un actif de réserve de valeur par rapport à un actif de croissance?
+2. Pourquoi comparer directement le rendement de l'or à celui d'un indice boursier passe-t-il à côté de l'essentiel?
+3. Pourquoi un portefeuille pourrait-il raisonnablement détenir les deux types d'actifs en même temps?
+
+## Corrigé
+
+1. Un actif de croissance vise surtout à bâtir de la richesse grâce à l'appréciation et au revenu; un actif de réserve de valeur vise surtout à préserver le pouvoir d'achat et à offrir de la stabilité, surtout en période de tension.
+2. Parce qu'elle évalue l'or selon une norme de croissance qu'il n'a jamais été censé atteindre, plutôt que selon le rôle différent et complémentaire qu'il doit réellement jouer dans un portefeuille.
+3. Parce qu'ils servent des buts différents et complémentaires — les actifs de croissance pour bâtir de la richesse avec le temps, et une part de réserve de valeur pour la stabilité et la préservation pendant les périodes où les actifs de croissance pourraient avoir du mal.
+
+## Réponses et explications
+
+1. C'est la distinction de base sur laquelle la leçon est construite.
+2. C'est la mise en garde centrale contre une approche d'évaluation courante, mais erronée.
+3. Ça renforce le rôle pratique et complémentaire que les deux types d'actifs peuvent jouer ensemble.
+
+## Points clés à retenir
+- Les actifs de réserve de valeur comme l'or et les actifs de croissance comme les actions servent généralement des buts différents dans un portefeuille.
+- Comparer directement le rendement de l'or au rendement de croissance d'un indice boursier revient à l'évaluer selon une norme qu'il n'a jamais été censé atteindre.
+- Un portefeuille réfléchi pourrait raisonnablement détenir les deux, en appréciant chacun pour le rôle différent et complémentaire qu'il joue.
+
+## Avis pédagogique
+Cette leçon sert uniquement à l'éducation financière générale et ne constitue pas un conseil financier, de placement, fiscal ou juridique personnalisé. Les rendements passés ne garantissent pas les résultats futurs. Consulte un professionnel autorisé en finances avant de prendre des décisions de placement.
+
+===== GOLD-L3-007
+TITLE: Pourquoi se protéger contre l'inflation et investir pour la croissance ne sont pas le même objectif
+SUMMARY: Découvre pourquoi un actif choisi pour se protéger contre l'inflation et un actif choisi pour faire croître sa richesse répondent à deux questions de placement vraiment différentes.
+# GOLD-L3-007 : Pourquoi se protéger contre l'inflation et investir pour la croissance ne sont pas le même objectif
+
+## Objectifs d'apprentissage
+À la fin de cette leçon, tu pourras :
+- Expliquer la différence entre investir pour la croissance et investir pour se protéger contre l'inflation
+- Expliquer pourquoi un actif peut être une protection raisonnable contre l'inflation tout en étant un mauvais placement de croissance
+- Relier cette notion aux différentes réactions des actifs à l'inflation abordées dans le parcours WHITE de ce programme
+
+## Contenu principal
+
+La leçon 6 a établi que les actifs de réserve de valeur et les actifs de croissance servent des buts différents dans un portefeuille. Cette leçon précise cette distinction autour d'un objectif précis : la **protection contre l'inflation** — protéger son pouvoir d'achat contre la hausse des prix — n'est pas le même objectif que l'**investissement axé sur la croissance** — bâtir de la richesse grâce à l'appréciation avec le temps —, même si on aborde souvent les deux ensemble et qu'on les confond.
+
+Voici « pourquoi » cette distinction compte : un actif peut raisonnablement servir de protection contre l'inflation, en ayant tendance à conserver ou à augmenter sa valeur quand les prix augmentent de façon générale, tout en offrant une croissance à long terme modeste ou ordinaire par rapport à d'autres options de placement. On aborde souvent l'or exactement sous cet angle — [VERIFIED FACT] historiquement parfois cité comme protection potentielle contre l'inflation sur certaines périodes, tout en ayant historiquement eu un rendement inférieur à celui des actifs axés sur la croissance, comme les actions, sur de nombreuses longues périodes — ces deux observations peuvent être vraies en même temps, parce qu'elles répondent à des questions différentes sur le même actif.
+
+Ça se relie directement à la discussion du parcours WHITE de ce programme sur la façon dont différents actifs réagissent différemment à l'inflation — cette leçon plus large s'applique ici précisément à l'or et aux métaux précieux, ce qui renforce le fait que « est-ce que ça protège contre l'inflation? » et « est-ce que ça bâtit de la richesse à long terme? » sont des questions distinctes, qui exigent chacune leur propre évaluation.
+
+## Exemple pratique
+
+[ILLUSTRATIVE EXAMPLE] Une investisseuse qui détient de l'or précisément comme protection partielle contre l'inflation voit sa valeur tenir raisonnablement bien pendant une période de hausse des prix, ce qui remplit le rôle précis qu'elle lui avait attribué dans son portefeuille. [ASSUMPTION] Sur cette même période de plusieurs décennies, ses placements distincts en actions axés sur la croissance offrent des rendements totaux nettement plus élevés que son or — ça ne veut pas dire que sa part en or a « échoué », puisqu'elle n'avait pas été choisie pour faire concurrence à ses actions sur le plan de la croissance; elle avait été choisie pour un but différent et précis, qu'elle a peut-être raisonnablement bien rempli, jugée selon ses propres critères plutôt que selon un indice de référence de croissance qu'elle n'a jamais été censée battre.
+
+## Quiz de pratique
+
+1. Quelle est la différence entre investir pour la croissance et investir pour se protéger contre l'inflation?
+2. Pourquoi un actif peut-il raisonnablement servir de protection contre l'inflation tout en étant un placement de croissance relativement faible à long terme?
+3. Comment cette leçon se relie-t-elle à la discussion sur la réaction des actifs à l'inflation abordée dans le parcours WHITE?
+
+## Corrigé
+
+1. L'investissement axé sur la croissance vise à bâtir de la richesse grâce à l'appréciation avec le temps; la protection contre l'inflation vise à protéger le pouvoir d'achat contre la hausse des prix — ce sont des objectifs différents qui peuvent mener à des choix d'actifs différents.
+2. Parce que ce sont des questions distinctes sur le même actif — la capacité d'un actif à conserver sa valeur pendant l'inflation ne détermine pas son potentiel de croissance à long terme par rapport à d'autres placements, et n'est pas la même chose.
+3. Cette leçon applique cette notion plus large du parcours WHITE précisément à l'or et aux métaux précieux, ce qui renforce le fait que la capacité de protection contre l'inflation et le potentiel de croissance à long terme sont des questions d'évaluation distinctes.
+
+## Réponses et explications
+
+1. C'est la distinction de base sur laquelle la leçon est construite.
+2. C'est le point central, souvent confondu, que la leçon clarifie.
+3. Ça relie explicitement la leçon à une discussion parallèle ailleurs dans le programme.
+
+## Points clés à retenir
+- La protection contre l'inflation et l'investissement axé sur la croissance sont des objectifs différents, même si on les aborde souvent ensemble.
+- Un actif peut raisonnablement servir de protection contre l'inflation tout en ayant un rendement inférieur à celui des placements axés sur la croissance à long terme.
+- Ce sont des questions d'évaluation distinctes, et on ne devrait pas juger qu'un actif a « échoué » par rapport à un objectif qu'il n'a jamais été censé atteindre.
+
+## Avis pédagogique
+Cette leçon sert uniquement à l'éducation financière générale et ne constitue pas un conseil financier, de placement, fiscal ou juridique personnalisé. Les rendements passés ne garantissent pas les résultats futurs. Consulte un professionnel autorisé en finances avant de prendre des décisions de placement.

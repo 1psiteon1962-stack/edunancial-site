@@ -1,0 +1,1197 @@
+{
+"RED-L1": {
+"en": {
+"n": 50,
+"boil": 1,
+"thin": 0,
+"noh1": 1
+},
+"en-GB": {
+"ok": 49,
+"boil": 1,
+"n": 50
+},
+"es-419": null,
+"es-Caribbean": {
+"struct": 46,
+"short": 14,
+"ok": 3,
+"boil": 1,
+"n": 50
+},
+"es-ES": {
+"struct": 49,
+"ok": 1,
+"n": 50
+},
+"fr-CA": {
+"english": 39,
+"boil": 1,
+"struct": 5,
+"ok": 6,
+"n": 50
+},
+"fr-FR": {
+"english": 39,
+"struct": 5,
+"ok": 6,
+"boil": 1,
+"n": 50
+},
+"pt-BR": null,
+"pt-PT": null,
+"de": null,
+"it": {
+"struct": 34,
+"short": 34,
+"ok": 15,
+"boil": 1,
+"n": 50
+},
+"nl": null,
+"ht": null
+},
+"RED-L2": {
+"en": {
+"n": 2,
+"boil": 0,
+"thin": 0,
+"noh1": 2
+},
+"en-GB": null,
+"es-419": null,
+"es-Caribbean": null,
+"es-ES": null,
+"fr-CA": null,
+"fr-FR": null,
+"pt-BR": {
+"short": 1,
+"n": 1
+},
+"pt-PT": {
+"short": 1,
+"n": 1
+},
+"de": null,
+"it": null,
+"nl": null,
+"ht": null
+},
+"RED-L3": {
+"en": {
+"n": 50,
+"boil": 0,
+"thin": 0,
+"noh1": 50
+},
+"en-GB": null,
+"es-419": null,
+"es-Caribbean": {
+"ok": 50,
+"n": 50
+},
+"es-ES": {
+"ok": 50,
+"n": 50
+},
+"fr-CA": null,
+"fr-FR": null,
+"pt-BR": null,
+"pt-PT": null,
+"de": {
+"ok": 50,
+"n": 50
+},
+"it": null,
+"nl": null,
+"ht": null
+},
+"RED-L4": {
+"en": {
+"n": 50,
+"boil": 0,
+"thin": 0,
+"noh1": 0
+},
+"en-GB": null,
+"es-419": null,
+"es-Caribbean": {
+"ok": 50,
+"n": 50
+},
+"es-ES": null,
+"fr-CA": {
+"ok": 50,
+"n": 50
+},
+"fr-FR": null,
+"pt-BR": null,
+"pt-PT": null,
+"de": null,
+"it": null,
+"nl": null,
+"ht": null
+},
+"RED-L5": {
+"en": {
+"n": 50,
+"boil": 0,
+"thin": 0,
+"noh1": 0
+},
+"en-GB": null,
+"es-419": null,
+"es-Caribbean": null,
+"es-ES": null,
+"fr-CA": null,
+"fr-FR": null,
+"pt-BR": null,
+"pt-PT": null,
+"de": null,
+"it": null,
+"nl": null,
+"ht": null
+},
+"WHITE-L1": {
+"en": {
+"n": 50,
+"boil": 0,
+"thin": 0,
+"noh1": 0
+},
+"en-GB": {
+"ok": 50,
+"n": 50
+},
+"es-419": null,
+"es-Caribbean": {
+"ph": 15,
+"struct": 50,
+"short": 6,
+"n": 50
+},
+"es-ES": {
+"ph": 15,
+"struct": 50,
+"short": 6,
+"n": 50
+},
+"fr-CA": {
+"ph": 15,
+"struct": 50,
+"short": 5,
+"n": 50
+},
+"fr-FR": {
+"struct": 50,
+"ph": 15,
+"short": 5,
+"n": 50
+},
+"pt-BR": {
+"struct": 50,
+"short": 47,
+"n": 50
+},
+"pt-PT": {
+"struct": 50,
+"short": 47,
+"n": 50
+},
+"de": {
+"ok": 18,
+"struct": 32,
+"short": 28,
+"n": 50
+},
+"it": {
+"struct": 50,
+"ph": 15,
+"short": 4,
+"n": 50
+},
+"nl": {
+"struct": 50,
+"short": 9,
+"n": 50
+},
+"ht": null
+},
+"WHITE-L2": {
+"en": {
+"n": 0,
+"boil": 0,
+"thin": 0,
+"noh1": 0
+},
+"en-GB": null,
+"es-419": null,
+"es-Caribbean": null,
+"es-ES": null,
+"fr-CA": null,
+"fr-FR": null,
+"pt-BR": null,
+"pt-PT": null,
+"de": null,
+"it": null,
+"nl": null,
+"ht": null
+},
+"WHITE-L3": {
+"en": {
+"n": 50,
+"boil": 0,
+"thin": 0,
+"noh1": 50
+},
+"en-GB": {
+"ok": 50,
+"n": 50
+},
+"es-419": null,
+"es-Caribbean": {
+"ok": 50,
+"n": 50
+},
+"es-ES": null,
+"fr-CA": null,
+"fr-FR": null,
+"pt-BR": {
+"ok": 50,
+"n": 50
+},
+"pt-PT": null,
+"de": null,
+"it": {
+"ok": 50,
+"n": 50
+},
+"nl": {
+"ok": 50,
+"n": 50
+},
+"ht": null
+},
+"WHITE-L4": {
+"en": {
+"n": 50,
+"boil": 0,
+"thin": 0,
+"noh1": 0
+},
+"en-GB": null,
+"es-419": null,
+"es-Caribbean": {
+"ok": 50,
+"n": 50
+},
+"es-ES": null,
+"fr-CA": {
+"ok": 50,
+"n": 50
+},
+"fr-FR": null,
+"pt-BR": null,
+"pt-PT": null,
+"de": null,
+"it": null,
+"nl": null,
+"ht": null
+},
+"WHITE-L5": {
+"en": {
+"n": 50,
+"boil": 0,
+"thin": 0,
+"noh1": 0
+},
+"en-GB": null,
+"es-419": null,
+"es-Caribbean": null,
+"es-ES": null,
+"fr-CA": null,
+"fr-FR": null,
+"pt-BR": null,
+"pt-PT": null,
+"de": null,
+"it": null,
+"nl": null,
+"ht": null
+},
+"BLUE-L1": {
+"en": {
+"n": 50,
+"boil": 30,
+"thin": 0,
+"noh1": 0
+},
+"en-GB": {
+"boil": 30,
+"ok": 20,
+"n": 50
+},
+"es-419": null,
+"es-Caribbean": {
+"ok": 30,
+"struct": 20,
+"short": 9,
+"n": 50
+},
+"es-ES": {
+"ok": 30,
+"struct": 20,
+"short": 9,
+"n": 50
+},
+"fr-CA": {
+"ok": 30,
+"struct": 20,
+"short": 7,
+"n": 50
+},
+"fr-FR": {
+"ok": 30,
+"struct": 20,
+"short": 7,
+"n": 50
+},
+"pt-BR": null,
+"pt-PT": {
+"struct": 20,
+"short": 17,
+"ok": 30,
+"n": 50
+},
+"de": {
+"ok": 36,
+"struct": 9,
+"short": 7,
+"thin": 5,
+"n": 50
+},
+"it": {
+"struct": 20,
+"short": 9,
+"ok": 30,
+"n": 50
+},
+"nl": {
+"ok": 45,
+"struct": 5,
+"short": 5,
+"n": 50
+},
+"ht": null
+},
+"BLUE-L2": {
+"en": {
+"n": 50,
+"boil": 0,
+"thin": 0,
+"noh1": 50
+},
+"en-GB": null,
+"es-419": null,
+"es-Caribbean": {
+"struct": 50,
+"n": 50
+},
+"es-ES": null,
+"fr-CA": null,
+"fr-FR": null,
+"pt-BR": null,
+"pt-PT": null,
+"de": null,
+"it": null,
+"nl": null,
+"ht": null
+},
+"BLUE-L3": {
+"en": {
+"n": 50,
+"boil": 0,
+"thin": 0,
+"noh1": 50
+},
+"en-GB": null,
+"es-419": null,
+"es-Caribbean": null,
+"es-ES": null,
+"fr-CA": null,
+"fr-FR": null,
+"pt-BR": null,
+"pt-PT": null,
+"de": null,
+"it": null,
+"nl": null,
+"ht": null
+},
+"BLUE-L4": {
+"en": {
+"n": 50,
+"boil": 0,
+"thin": 0,
+"noh1": 0
+},
+"en-GB": null,
+"es-419": null,
+"es-Caribbean": {
+"ok": 50,
+"n": 50
+},
+"es-ES": null,
+"fr-CA": {
+"ok": 50,
+"n": 50
+},
+"fr-FR": null,
+"pt-BR": null,
+"pt-PT": null,
+"de": null,
+"it": null,
+"nl": null,
+"ht": null
+},
+"BLUE-L5": {
+"en": {
+"n": 50,
+"boil": 0,
+"thin": 0,
+"noh1": 0
+},
+"en-GB": null,
+"es-419": null,
+"es-Caribbean": null,
+"es-ES": null,
+"fr-CA": null,
+"fr-FR": null,
+"pt-BR": null,
+"pt-PT": null,
+"de": null,
+"it": null,
+"nl": null,
+"ht": null
+},
+"GREEN-L1": {
+"en": {
+"n": 50,
+"boil": 0,
+"thin": 0,
+"noh1": 0
+},
+"en-GB": {
+"ok": 50,
+"n": 50
+},
+"es-419": null,
+"es-Caribbean": {
+"short": 40,
+"ok": 5,
+"english": 5,
+"n": 50
+},
+"es-ES": {
+"struct": 50,
+"n": 50
+},
+"fr-CA": {
+"short": 49,
+"struct": 47,
+"ok": 1,
+"n": 50
+},
+"fr-FR": null,
+"pt-BR": null,
+"pt-PT": null,
+"de": null,
+"it": null,
+"nl": null,
+"ht": null
+},
+"GREEN-L2": {
+"en": {
+"n": 50,
+"boil": 0,
+"thin": 0,
+"noh1": 50
+},
+"en-GB": null,
+"es-419": null,
+"es-Caribbean": null,
+"es-ES": null,
+"fr-CA": null,
+"fr-FR": null,
+"pt-BR": null,
+"pt-PT": null,
+"de": null,
+"it": null,
+"nl": null,
+"ht": null
+},
+"GREEN-L3": {
+"en": {
+"n": 50,
+"boil": 0,
+"thin": 0,
+"noh1": 50
+},
+"en-GB": null,
+"es-419": null,
+"es-Caribbean": {
+"ok": 50,
+"n": 50
+},
+"es-ES": null,
+"fr-CA": {
+"ok": 50,
+"n": 50
+},
+"fr-FR": null,
+"pt-BR": null,
+"pt-PT": null,
+"de": null,
+"it": null,
+"nl": null,
+"ht": null
+},
+"GREEN-L4": {
+"en": {
+"n": 50,
+"boil": 0,
+"thin": 0,
+"noh1": 0
+},
+"en-GB": null,
+"es-419": null,
+"es-Caribbean": {
+"ok": 50,
+"n": 50
+},
+"es-ES": null,
+"fr-CA": {
+"ok": 50,
+"n": 50
+},
+"fr-FR": null,
+"pt-BR": null,
+"pt-PT": null,
+"de": null,
+"it": null,
+"nl": null,
+"ht": null
+},
+"GREEN-L5": {
+"en": {
+"n": 50,
+"boil": 0,
+"thin": 0,
+"noh1": 0
+},
+"en-GB": null,
+"es-419": null,
+"es-Caribbean": null,
+"es-ES": null,
+"fr-CA": null,
+"fr-FR": null,
+"pt-BR": null,
+"pt-PT": null,
+"de": null,
+"it": null,
+"nl": null,
+"ht": null
+},
+"GOLD-L1": {
+"en": {
+"n": 50,
+"boil": 0,
+"thin": 0,
+"noh1": 0
+},
+"en-GB": {
+"struct": 50,
+"n": 50
+},
+"es-419": null,
+"es-Caribbean": {
+"short": 40,
+"ok": 9,
+"struct": 1,
+"n": 50
+},
+"es-ES": {
+"short": 48,
+"struct": 1,
+"ok": 1,
+"n": 50
+},
+"fr-CA": {
+"short": 48,
+"ok": 2,
+"n": 50
+},
+"fr-FR": {
+"short": 50,
+"n": 50
+},
+"pt-BR": {
+"short": 50,
+"n": 50
+},
+"pt-PT": {
+"short": 50,
+"n": 50
+},
+"de": {
+"struct": 50,
+"n": 50
+},
+"it": null,
+"nl": {
+"short": 50,
+"n": 50
+},
+"ht": null
+},
+"GOLD-L2": {
+"en": {
+"n": 50,
+"boil": 0,
+"thin": 0,
+"noh1": 50
+},
+"en-GB": null,
+"es-419": null,
+"es-Caribbean": null,
+"es-ES": null,
+"fr-CA": null,
+"fr-FR": null,
+"pt-BR": null,
+"pt-PT": null,
+"de": null,
+"it": null,
+"nl": null,
+"ht": null
+},
+"GOLD-L3": {
+"en": {
+"n": 50,
+"boil": 0,
+"thin": 0,
+"noh1": 50
+},
+"en-GB": null,
+"es-419": null,
+"es-Caribbean": {
+"ok": 50,
+"n": 50
+},
+"es-ES": null,
+"fr-CA": {
+"ok": 50,
+"n": 50
+},
+"fr-FR": null,
+"pt-BR": null,
+"pt-PT": null,
+"de": null,
+"it": null,
+"nl": null,
+"ht": null
+},
+"GOLD-L4": {
+"en": {
+"n": 50,
+"boil": 0,
+"thin": 0,
+"noh1": 0
+},
+"en-GB": null,
+"es-419": null,
+"es-Caribbean": {
+"ok": 50,
+"n": 50
+},
+"es-ES": null,
+"fr-CA": {
+"ok": 50,
+"n": 50
+},
+"fr-FR": null,
+"pt-BR": null,
+"pt-PT": null,
+"de": null,
+"it": null,
+"nl": null,
+"ht": null
+},
+"GOLD-L5": {
+"en": {
+"n": 50,
+"boil": 0,
+"thin": 0,
+"noh1": 0
+},
+"en-GB": null,
+"es-419": null,
+"es-Caribbean": {
+"ok": 50,
+"n": 50
+},
+"es-ES": null,
+"fr-CA": {
+"ok": 50,
+"n": 50
+},
+"fr-FR": null,
+"pt-BR": null,
+"pt-PT": null,
+"de": null,
+"it": null,
+"nl": null,
+"ht": null
+},
+"PURPLE-L1": {
+"en": {
+"n": 50,
+"boil": 0,
+"thin": 0,
+"noh1": 0
+},
+"en-GB": {
+"struct": 50,
+"short": 50,
+"n": 50
+},
+"es-419": null,
+"es-Caribbean": {
+"struct": 50,
+"short": 50,
+"n": 50
+},
+"es-ES": {
+"struct": 50,
+"short": 50,
+"n": 50
+},
+"fr-CA": {
+"struct": 50,
+"short": 50,
+"n": 50
+},
+"fr-FR": {
+"struct": 50,
+"short": 50,
+"n": 50
+},
+"pt-BR": {
+"struct": 50,
+"short": 50,
+"n": 50
+},
+"pt-PT": {
+"struct": 50,
+"short": 50,
+"n": 50
+},
+"de": {
+"struct": 50,
+"short": 50,
+"n": 50
+},
+"it": {
+"struct": 50,
+"short": 50,
+"n": 50
+},
+"nl": {
+"struct": 50,
+"short": 50,
+"n": 50
+},
+"ht": null
+},
+"PURPLE-L2": {
+"en": {
+"n": 0,
+"boil": 0,
+"thin": 0,
+"noh1": 0
+},
+"en-GB": null,
+"es-419": null,
+"es-Caribbean": null,
+"es-ES": null,
+"fr-CA": null,
+"fr-FR": null,
+"pt-BR": null,
+"pt-PT": null,
+"de": null,
+"it": null,
+"nl": null,
+"ht": null
+},
+"PURPLE-L3": {
+"en": {
+"n": 50,
+"boil": 0,
+"thin": 0,
+"noh1": 50
+},
+"en-GB": null,
+"es-419": null,
+"es-Caribbean": {
+"ok": 50,
+"n": 50
+},
+"es-ES": null,
+"fr-CA": {
+"ok": 50,
+"n": 50
+},
+"fr-FR": null,
+"pt-BR": null,
+"pt-PT": null,
+"de": null,
+"it": null,
+"nl": null,
+"ht": null
+},
+"PURPLE-L4": {
+"en": {
+"n": 50,
+"boil": 0,
+"thin": 0,
+"noh1": 0
+},
+"en-GB": null,
+"es-419": null,
+"es-Caribbean": {
+"ok": 50,
+"n": 50
+},
+"es-ES": null,
+"fr-CA": {
+"ok": 50,
+"n": 50
+},
+"fr-FR": null,
+"pt-BR": null,
+"pt-PT": null,
+"de": null,
+"it": null,
+"nl": null,
+"ht": null
+},
+"PURPLE-L5": {
+"en": {
+"n": 50,
+"boil": 0,
+"thin": 0,
+"noh1": 0
+},
+"en-GB": null,
+"es-419": null,
+"es-Caribbean": null,
+"es-ES": null,
+"fr-CA": null,
+"fr-FR": null,
+"pt-BR": null,
+"pt-PT": null,
+"de": null,
+"it": null,
+"nl": null,
+"ht": null
+},
+"ORANGE-L1": {
+"en": {
+"n": 50,
+"boil": 0,
+"thin": 0,
+"noh1": 0
+},
+"en-GB": {
+"ok": 50,
+"n": 50
+},
+"es-419": null,
+"es-Caribbean": {
+"short": 36,
+"ok": 14,
+"n": 50
+},
+"es-ES": {
+"short": 36,
+"ok": 14,
+"n": 50
+},
+"fr-CA": {
+"ok": 46,
+"short": 4,
+"n": 50
+},
+"fr-FR": {
+"ok": 46,
+"short": 4,
+"n": 50
+},
+"pt-BR": {
+"ok": 50,
+"n": 50
+},
+"pt-PT": {
+"ok": 50,
+"n": 50
+},
+"de": {
+"ok": 50,
+"n": 50
+},
+"it": {
+"ok": 50,
+"n": 50
+},
+"nl": {
+"ok": 50,
+"n": 50
+},
+"ht": null
+},
+"ORANGE-L2": {
+"en": {
+"n": 50,
+"boil": 0,
+"thin": 0,
+"noh1": 50
+},
+"en-GB": null,
+"es-419": null,
+"es-Caribbean": null,
+"es-ES": null,
+"fr-CA": null,
+"fr-FR": null,
+"pt-BR": null,
+"pt-PT": null,
+"de": null,
+"it": null,
+"nl": null,
+"ht": null
+},
+"ORANGE-L3": {
+"en": {
+"n": 50,
+"boil": 0,
+"thin": 0,
+"noh1": 50
+},
+"en-GB": null,
+"es-419": null,
+"es-Caribbean": {
+"ok": 50,
+"n": 50
+},
+"es-ES": null,
+"fr-CA": {
+"ok": 50,
+"n": 50
+},
+"fr-FR": null,
+"pt-BR": null,
+"pt-PT": null,
+"de": null,
+"it": null,
+"nl": null,
+"ht": null
+},
+"ORANGE-L4": {
+"en": {
+"n": 50,
+"boil": 0,
+"thin": 0,
+"noh1": 0
+},
+"en-GB": null,
+"es-419": null,
+"es-Caribbean": {
+"ok": 50,
+"n": 50
+},
+"es-ES": null,
+"fr-CA": {
+"ok": 50,
+"n": 50
+},
+"fr-FR": null,
+"pt-BR": null,
+"pt-PT": null,
+"de": null,
+"it": null,
+"nl": null,
+"ht": null
+},
+"ORANGE-L5": {
+"en": {
+"n": 50,
+"boil": 0,
+"thin": 0,
+"noh1": 0
+},
+"en-GB": null,
+"es-419": null,
+"es-Caribbean": {
+"ok": 50,
+"n": 50
+},
+"es-ES": null,
+"fr-CA": {
+"ok": 50,
+"n": 50
+},
+"fr-FR": null,
+"pt-BR": null,
+"pt-PT": null,
+"de": null,
+"it": null,
+"nl": null,
+"ht": null
+},
+"BLACK-L1": {
+"en": {
+"n": 50,
+"boil": 0,
+"thin": 0,
+"noh1": 0
+},
+"en-GB": {
+"struct": 50,
+"n": 50
+},
+"es-419": null,
+"es-Caribbean": {
+"ok": 50,
+"n": 50
+},
+"es-ES": {
+"struct": 50,
+"n": 50
+},
+"fr-CA": {
+"ok": 43,
+"short": 7,
+"n": 50
+},
+"fr-FR": {
+"struct": 50,
+"n": 50
+},
+"pt-BR": {
+"struct": 50,
+"n": 50
+},
+"pt-PT": {
+"struct": 50,
+"n": 50
+},
+"de": {
+"struct": 50,
+"n": 50
+},
+"it": {
+"struct": 50,
+"n": 50
+},
+"nl": {
+"struct": 50,
+"n": 50
+},
+"ht": null
+},
+"BLACK-L2": {
+"en": {
+"n": 50,
+"boil": 0,
+"thin": 0,
+"noh1": 50
+},
+"en-GB": null,
+"es-419": null,
+"es-Caribbean": null,
+"es-ES": null,
+"fr-CA": null,
+"fr-FR": null,
+"pt-BR": null,
+"pt-PT": null,
+"de": null,
+"it": null,
+"nl": null,
+"ht": null
+},
+"BLACK-L3": {
+"en": {
+"n": 50,
+"boil": 0,
+"thin": 0,
+"noh1": 50
+},
+"en-GB": null,
+"es-419": null,
+"es-Caribbean": {
+"ok": 50,
+"n": 50
+},
+"es-ES": null,
+"fr-CA": null,
+"fr-FR": null,
+"pt-BR": null,
+"pt-PT": null,
+"de": null,
+"it": null,
+"nl": null,
+"ht": null
+},
+"BLACK-L4": {
+"en": {
+"n": 50,
+"boil": 0,
+"thin": 0,
+"noh1": 0
+},
+"en-GB": null,
+"es-419": null,
+"es-Caribbean": null,
+"es-ES": null,
+"fr-CA": null,
+"fr-FR": null,
+"pt-BR": null,
+"pt-PT": null,
+"de": null,
+"it": null,
+"nl": null,
+"ht": null
+},
+"BLACK-L5": {
+"en": {
+"n": 50,
+"boil": 0,
+"thin": 0,
+"noh1": 0
+},
+"en-GB": null,
+"es-419": null,
+"es-Caribbean": {
+"ok": 50,
+"n": 50
+},
+"es-ES": null,
+"fr-CA": {
+"ok": 50,
+"n": 50
+},
+"fr-FR": null,
+"pt-BR": null,
+"pt-PT": null,
+"de": null,
+"it": null,
+"nl": null,
+"ht": null
+}
+}

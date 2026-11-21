@@ -1,0 +1,120 @@
+RED-L4-013 Q4: English key says B but correct text is option A; translation swaps A/B so key B is correct
+RED-L4-018 Q5: English key says B but correct text is option A; translation swaps A/B so key B is correct
+- BLUE-L4-040 Q2: English key says B but B is the wrong text (correct definition is A). Options A/B swapped in translations so key B is correct.
+- GREEN-L4-046 Q1: English key says B but B is the wrong text (correct statement is A). Options A/B swapped in translations so key B is correct.
+QUEUE (user 2026-11-01): After ALL L4-L5 fr-CA/es done -> German lessons only (report D), from queued_German_report_2026-11-01.txt. Existing de: content/courses/{black,blue,gold,green,orange,purple,white}/level-2/de + white/level-3/de (400 lessons). No RED de in repo. No new IDs; don't overwrite approved lessons.
+DRIVE: user wants all zips auto-saved to Drive via linked computer (Drive for desktop folder). Until linked, SendUserFile every zip.
+- GOLD-L4-049 math: English says $100,000 at 7% gross for 30 yrs grows to ~$761,000 (0.10% fee) vs ~$568,000 (1.10% fee), gap ~$193,000. $761,000 is the zero-fee figure. Correct: ~$740,000 vs ~$558,000, gap ~$182,000 (about 25%). Example: $500,000 for 25 yrs at 0.15% vs 1.15% gives a gap of ~$549,000, not "exceeding $600,000". Translations use the corrected figures (Q2 option B and Q5 option B adjusted; key unchanged). English source should be fixed too.
+PURPLE-L4-031 Q3: English source has only options A and B (C, D missing). Translations mirror the English (2 options); key B unchanged. Recommend adding two distractors in the English master.
+PURPLE-L4-040 Q1: English source has only options A and B (C, D missing). Translations mirror the English; key B unchanged. Recommend adding two distractors in the English master.
+PURPLE-L4-049 Q2 and Q4: English source has only options A and B. Translations mirror; keys B unchanged. Non-B keys preserved in PURPLE-L4: 046 Q4:A, 047 Q1:A.
+ORANGE-L4-005 Q5: English source has only options A and B. Translations mirror; key B unchanged.
+ORANGE-L4 2-option questions in English source (mirrored, keys B): 006 Q4, 007 Q5, 008 Q2, 009 Q5, 010 Q5.
+ORANGE-L4 2-option questions (mirrored): 011 Q5, 012 Q5, 013 Q5, 014 Q5, 015 Q2, 015 Q5.
+ORANGE-L4 2-option questions (mirrored): 016 Q2,Q5; 017 Q5; 018 Q1,Q3,Q5; 019 Q1,Q3,Q5; 020 Q5.
+ORANGE 2-opt: 021 Q5; 022 Q5; 023 Q1,Q3,Q5; 024 Q2,Q3,Q5; 025 Q3,Q5 (keys B)
+ORANGE 2-opt: 026 Q1,Q2,Q5; 027 Q2,Q5; 028 Q2,Q5; 029 Q1,Q3,Q5; 030 Q2,Q3,Q4,Q5 (keys B)
+ORANGE 2-opt: 031 Q2,Q5; 032 Q1,Q5; 033 Q2,Q4,Q5; 034 Q5; 035 Q1,Q2,Q3,Q5 (keys B)
+ORANGE 2-opt: 036 Q1,Q3,Q5; 037 Q1-Q5; 038 Q1-Q5; 039 Q2-Q5; 040 Q1-Q5 (keys B)
+ORANGE 2-opt: 041-045 all Q1-Q5 (keys B)
+ORANGE 2-opt: 046-050 all Q1-Q5 (keys B); 046 has 'VERIFIED FACT and OPINION combined' (VF1+OP1)
+FIX BLACK-L4-003: English says psychological safety is 'later Lesson 6'; it is Lesson 5 (BLACK-L4-005). fr/es say leçon 5 / Lección 5.
+BLACK 2-opt: 011 Q5; 012-015 all Q1-Q5 (keys B). 001-010 all 4-option.
+BLACK 2-opt: 016-018 all; 019 Q3-Q5; 020 all (keys B)
+BLACK 021-025: all Q1-Q5 2-option, keys all B
+BLACK 026-030: all 2-option, keys B
+BLACK 031-035: all 4-option
+BLACK 036-040: all 4-option
+BLACK 041-045: all 4-option
+BLACK 046-050: all 4-option; 046 VF+OP combined
+=== L5 RED 001: Q1 4-opt, Q2-5 2-opt; 002-005 all 2-opt. RSR: 004=1 (entity tax), 005=7. L5 adds ESTIMATE/PRINCIPLE tags (none in 001-005)
+RED L5 006-010 all 2-opt; 009 Q1,Q2 key=A (correct option is A); no RSR
+RED L5 011-015 all 2-opt; RSR 014=3 (OZ: US federal, no CA equivalent; PR mostly designated), 015=7 (QC: demande de révision avant 1er mai / 60j, TAQ, date de référence 1er juillet; PR: CRIM, valores 1957)
+RED L5 016-020: all 2-opt, keys B; OP 016/017/018=1; RSR 017=3 (obj1+core2). fr 017 note: Canada deemed disposition at death, spousal rollover; es 017 note: PR legítima + confirm CPA
+RED L5 021-025: all 2-opt keys B; OP 021=1; RSR 024=2 (obj+core). fr 024 note: FPI distributions components, no 1031 equivalent in Canada
+RED L5 026-030: all 2-opt; 026 Q2 key A; OP 026/027=1; RSR 026=2 (obj+core), 027=3 (obj+core2). fr notes: 026 Quebec LAU/approbation référendaire/CPTAQ; 027 Quebec préavis 60j, prise en paiement, LFI. es notes: 026 OGPe/Junta de Planificación; 027 PR ejecución judicial + mediación compulsoria Ley 184-2012
+RED L5 031-035: all 2-opt keys B; no OP; RSR 034=3 (obj+core2), 035=1. fr notes 034 Canada no REP status, DPA can't create rental loss; 035 Canada treaties, FTC, T1135 >100k. es notes 034 PR bona fide residents PR code; 035 PR confirm US treaty applicability, PR foreign tax credit
+RED L5 036-040: all 2-opt keys B; no OP; RSR 037=1 (fr AMF experts en sinistre; es OCS ajustadores públicos)
+RED L5 041-045: all 2-opt keys B; no OP; RSR 041=2 (fr DPA recapture 100% income, no 1031 Canada; es PR code confirm CPA)
+RED L5 046-050: all 2-opt keys B; 046 VF+OP combined; no RSR
+=== WHITE L5
+WHITE L5 001: all 4-opt; 002-005 2-opt; keys B; OP 003=2, 004=1, 005=1; RSR 005=4 (obj2+core2). fr 005: Canada cap losses vs gains only, carry 3 back; superficial loss 30d incl spouse/RRSP/TFSA. es 005: PR code own rules confirm CPA
+WHITE L5 006-010: all 2-opt keys B; OP 006=2, 007=1; no RSR
+WHITE L5 011-015: 2-opt keys B; OP 011/013/014=1; RSR 012=2, 013=2, 015=2 (obj+core each). fr: 012 REER/CELI; 013 deemed disposition, RRSP in income, Quebec RRSP beneficiary by will; 015 US-Canada treaty 15%, RRSP exempt not TFSA. es: 012 PR IRA own rules, Roth limits bona fide; 013 legitima+PR code; 015 PR code foreign credit
+NOTE: WHITE-L5-012 and 023 English SUMMARY contains a tag (counts x2 w/ meta) -> include tag in SUMMARY
+WHITE L5 016-020: all 2-opt, keys B. OP: 016=2, 018=2, 019=1, 020=1. RSR 2 each in 017 (dividends), 019 (equity comp). No summary tags.
+ fr notes: 017 dividendes déterminés, majoration + crédit d'impôt pour dividendes (fédéral et Québec), dividendes étrangers = revenu ordinaire; 019 avantage lié aux options = revenu d'emploi à l'exercice, UAR imposées à l'acquisition, déduction pour options (taux Québec peut différer).
+ es notes: 017 Código de Rentas Internas PR, posible tasa preferencial para ciertos dividendos; 019 reglas propias de PR para opciones/acciones restringidas, confirme con CPA.
+WHITE L5 021-025: 2-opt, keys B. OP 021=2. RSR: 023=2 (+summary tag!), 024=2, 025=1 (core only). 
+ fr: 023 Canada n'a pas d'obligations municipales exonérées; intérêts des obligations imposés comme revenu ordinaire; muni US imposables pour un résident canadien. 024 fiducie: imposée au taux marginal le plus élevé sauf revenu attribué aux bénéficiaires; règle des 21 ans; Québec fiducie = patrimoine d'affectation (CcQ). 025 ARC: cryptoactifs = bien, gain en capital ou revenu d'entreprise.
+ es: 023 PR: intereses de bonos del ELA/municipios de PR exentos bajo CRI y triple exención federal… cautious; 024 PR fideicomisos: Ley de Fideicomisos de PR (Ley 219-2012), tratamiento contributivo propio; 025 PR: tratamiento de activos digitales bajo CRI, confirm CPA.
+WHITE L5 026-030: 2-opt keys B. OP 026=1. No RSR, no summary tags. No local notes.
+WHITE L5 031-035: 2-opt keys B. OP 031=1, 033=2. RSR 034=3 (obj+2 core), 035=2. No summary tags.
+ fr: 034 pas de statut de négociateur au Canada; ARC juge revenu d'entreprise vs gain en capital selon les faits; 035 FCPI couvre courtiers canadiens, pas étrangers; T1135 si coût > 100 000 $.
+ es: 034 PR: CRI determina si la actividad constituye industria o negocio; 035 SIPC cubre corredores de EE.UU., no extranjeros; FBAR/FATCA pueden aplicar.
+WHITE L5 036-040: 2-opt keys B. No OP. RSR 038=2. No summary tags.
+ fr 038: réformes axées sur le client (ACVM) — conflits réglés au mieux des intérêts du client, pas d'obligation fiduciaire complète partout; AMF au Québec.
+ es 038: OCIF regula asesores de inversión en PR; Reg BI (corredores) vs asesores registrados con deber fiduciario.
+WHITE L5 041-045: 2-opt keys B. OP 041=1, 044=1. No RSR, no summary tags.
+WHITE L5 046-050: 2-opt keys B. 046 has 'VERIFIED FACT and OPINION combined' (OP 1). No RSR. 050 chess analogy closing.
+=== BLUE L5 === no summary tags anywhere in BLUE L5.
+BLUE L5 001-005: keys B. 001 4-opt; others 2-opt. RSR 003=2, 004=3 (obj + 2 in core, double 'RSR...: RSR, confirm'), 005=2.
+ fr: 003 PFPEC (financement petites entreprises du Canada), BDC; 004 pas de SARL/S-corp au Canada: entreprise individuelle, société de personnes (SENC au Québec), société par actions (SPCC, déduction pour petite entreprise, intégration); 005 provision pour gain en capital sur solde de prix de vente (5 ans en général).
+ es: 003 programas SBA aplican en PR; 004 CRI PR: corporación de individuos, sociedad especial, LLC con elección; 005 ventas a plazos bajo CRI PR.
+BLUE L5 006-010: 2-opt keys B. OP 008=1, 009=1. No RSR. 010 mentions 1031 exchange.
+BLUE L5 011-015: 2-opt keys B. OP 011=1, 013=1, 014=1. RSR 015=2.
+ fr 015: réseau de conventions fiscales du Canada; règles sur les sociétés étrangères affiliées.
+ es 015: corporación de PR se considera extranjera para fines federales; tratados de EE. UU. pueden no aplicar; CRI PR crédito por contribuciones extranjeras.
+BLUE 016-020: no summary tags; RSR 017=4 (2 obj,2 core), 019=2; OP 020=1; all B, 2-opt
+BLUE 021-025: OP 021=1; RSR 024=2 (obj,core), 025=1 (core); all B 2-opt
+BLUE 026-030: OP 026=1; RSR 028=2 (obj,core); all B 2-opt
+BLUE 031-035: RSR 034=2, 035=2 (obj,core); no OP; all B 2-opt
+BLUE 036-040: RSR 037=1 (core); no OP; all B 2-opt
+BLUE 041-045: RSR 041=3 (obj, core x2); OP 044=1; all B 2-opt
+BLUE 046-050: OP 046=1 (VF+OP combined); no RSR; all B 2-opt
+GREEN L5 (Taxes): no summary tags (001-005 checked). 001 4-opt. 002 OP1, 003 OP1 RSR2 (obj,core), 004 RSR3 (obj, core x2), 005 OP1. all B
+GREEN 006-010: RSR 006=2, 007=1(core), 008=3 (obj, core x2) OP 008=1; all B 2-opt
+GREEN 011-015: RSR 011=2,012=2,013=2(OP1),014=3,015=2; all B 2-opt
+GREEN 016-020: OP 016=1,017=1,019=1(VF+OP combined start); RSR 017=2,018=3,019=2,020=2; all B 2-opt
+GREEN 021-025: RSR 2 each (obj+core); no OP; all B 2-opt
+GREEN 026-030: RSR 027=5 (obj1,obj3,core start,threshold,penalty); others 0; no OP; all B 2-opt
+GREEN 031-035: RSR 031=4(obj1,obj4,core,timing),032=2(obj2,core mid),034=1(core),035=2(obj2,core); no OP; all B 2-opt
+GREEN 036-040: RSR 037=4(obj1,obj3,core,relief); others 0; no OP; all B 2-opt
+GREEN 041-045: 041 RSR1 (core, after VF) OP1; 044 OP1; others 0; all B 2-opt
+GREEN 046-050: 046 OP1 (VF+OP combined); no RSR; all B 2-opt
+GOLD-L5 start
+GOLD 001-005: 001 4-opt keys B; 003 OP1; 004 RSR2 (obj2, core start); others 2-opt all B. Terms: achat périodique par sommes fixes / promedio del costo en dólares; placement forfaitaire / inversión de suma global
+GOLD 006-010: 006 OP1; 009 RSR2 (obj1, core start); all 2-opt B
+GOLD 011: RSR 2 (obj1 + core start; CA note NI 45-106 investisseur qualifié / PR SEC acreditado + OCIF). 012 OP1. 013 OP1 (STEWARD). 014 OP1. 015: RSR 2 (obj3 + core 3rd sentence; customs note CA ASFC / PR CBP). All 2 opts keys B.
+GOLD 016-019 no tags beyond base; 020 OP1. 018 'WHITE-track' -> piste BLANCHE / pista BLANCA.
+GOLD 021-025: no RSR/OP/EST.
+GOLD 026,027,029 plain. 028 RSR2 (obj2 + core para2; CA REER/CELI lingots / PR IRA). 030 RSR1 core para2 (CA biens meubles déterminés / PR 28% federal vs Hacienda).
+GOLD 031-033 plain. 034 RSR1 core para2 (CA ARC revenu vs capital / PR negociante vs inversionista). 035 RSR2 obj2 + core para2 (CA ASFC nouvel arrivant / PR CBP).
+GOLD 036-040 plain. 038 ORANGE-track BATNA -> piste ORANGE MESORE / pista NARANJA MAAN.
+GOLD 041 RSR2 (obj1 + core start; CA pas de taux distinct, BMD / PR 28% IRS vs Hacienda). 042 plain (BLACK-track). 043 plain. 044 OP1. 045 plain (BLACK-track x4).
+GOLD 046 OP1 (VF and OPINION combined; knife-fight; Cadre philosophique). 047-050 plain. 050 chess analogy.
+PURPLE-L5 format: short lessons, Scenario has "Apply it here:" 2nd para; 4 options; VARIED keys; ASSUMPTION/OPINION used mid-body; lists in core. Track names: RED->ROUGE/ROJO etc, PURPLE->VIOLET/MORADO; "this track"->cette piste/esta pista. Takeaway "REGION-SPECIFIC" without RULE -> no tag. LLC kept as LLC.
+001 RSR2 (core + expl Q3). 002 RSR1. 003 RSR2 (GREEN bullet + example). 004 RSR4 (series, BLUE, GREEN, expl? no: Q2 text). 005 RSR2 (core VF + expl Q3).
+PURPLE 006 no RSR, A/O x4 incl expl Q5 'labeled ASSUMPTION/OPINION'. 007 no RSR (BATNA ORANGE-L4). 008 RSR1 GREEN (CA CDC assurance vie / PR seguro vida). 009 RSR3 (J&S, PURPLE bullet note, expl Q3; CA caution solidaire Québec / PR Hogar Seguro). 010 RSR1 VF (CA lever voile rare / PR fraude).
+PURPLE 011 RSR2 (RED note probate Qc notarié/Ont EAT; PR testamento abierto). 012 RSR3 (core, GREEN note CA 21 ans / PR fideicomisos 2012, expl Q2). 013 RSR2 (forms header, GREEN note CA dispo réputée+Qc no JT / PR comunidad). 014 RSR4 (VF, minor, GREEN note REER Qc testament / PR, example). 015 RSR2 (path3, GREEN note CA ECGC+FCE / PR).
+PURPLE 016 RSR2 (exempt, lookback note Qc inopposabilité/LFI; PR acción pauliana). 017 RSR1 (VF line, note AMF / PR Comisionado de Seguros). 018 RSR4 (habitability note Qc TAL / PR Código Civil, fair housing, VF, expl Q2). 019 RSR3 (institutional, VF qualify note LFI REER / PR ERISA, worked). 020 RSR4 (VF note Qc patrimoine familial / PR gananciales capitulaciones, limits, GREEN, expl Q3).
+PURPLE 021 RSR1 GREEN note ARC/Hacienda. 022 RSR1 regulatory note ICA+LLEI+Loi25 / PR OGPe. 023 RSR5 (assign, successor, GREEN note ECGC+DPA / PR Hacienda+Ley60, worked, expl Q3). 024 RSR4 (RE note Qc hypothèque notariée / PR escritura+Registro, business, remedies, GREEN); takeaway bare REGION-SPECIFIC plain. 025 RSR1 note OACIQ / PR opción+arras.
+PURPLE 026 RSR2 (terminology, GREEN note DPA / PR). 027 RSR2 (header note Qc TAL/Ont, expl Q2); takeaway bare. 028 RSR3 (types header, GREEN note RS&DE / PR Código Incentivos, worked). 029 VF1 RSR5 (VF, customs note ASFC / PR CBP, GREEN, worked, expl Q2). 030 RSR6 (QC, GREEN, franchise note Ont/Qc / PR Ley 75, worked, expl Q3 Q4); takeaway bare.
+PURPLE 031 VF1 RSR1 note ARC/RQ/CNESST / PR Ley 4-2017. 032 RSR3 (main note Ont 2021/Qc 2089 / PR Arthur Young v Vega, worked, expl Q4); takeaway bare. 033 VF1 RSR4 (VF note AMF/45-106 / PR OCIF Ley Uniforme de Valores, exempt header, worked, expl Q2). 034 RSR4 (rewards, equity note 45-110 / PR Reg CF, ongoing, expl Q2). 035 VF1 RSR4 (VF note Concurrence/OPC / PR DACO+FTC, testimonials, env, worked).
+PURPLE 036 RSR3 (header, consent note LCAP+Loi25 / PR CAN-SPAM+Ley 111-2005, expl Q2). 037 none. 038 VF1 RSR2 (choice-of-law note Qc+NY Conv / PR, worked). 039 RSR3 (list, doctrines note 1470 / PR caso fortuito rebus, expl Q2). 040 RSR2 (litigation note Qc CPC jury 15000 / PR no civil jury, GREEN). BATNA=MESORE/MAAN.
+PURPLE 041 VF1 RSR4 (fees note dépens/Qc / PR costas temeridad, GREEN, worked x2); takeaway bare. 042 RSR2 (fiduciary note Qc IQPF / PR OCIF, worked). 043 RSR1 annual filings note Corporations Canada+REQ / PR Depto Estado informe anual. 044 RSR2 (LLC note no LLC Canada gel / PR LLC familiar, GREEN). 045 RSR4 (header, GREEN note crédit don titres / PR Hacienda certificadas, worked, expl Q3); takeaway bare.
+PURPLE 046 RSR2 (deadlines note Qc 3 ans/Ont 2 / PR, first-file). 047 none. 048 RSR1 note CSC/CAQ / PR TSPR. 049 VF1 RSR3 (transparency, frivolous note CPC abus / PR temeridad, expl Q2). 050 none.
+ORANGE-L5: 4 options varied keys (not 2-opt like L4). 001 RSR2 (GREEN note TPS/TVQ 30000 / PR IVU, worked). 002 RSR3 (GREEN note provision services/TPS / PR IVU, PURPLE, worked); takeaway bare. 003 RSR1 GREEN note pub déductible / PR; EX2 (ratio line) OP4 (ratio line end). 004 RSR4 (PURPLE note vices cachés OACIQ / PR vivienda justa vicios, GREEN, worked, expl Q3). 005 RSR2 (PURPLE note notice d'offre AMF / PR OCIF, GREEN).
+ORANGE 006 RSR1 worked note DPA/ECGC / PR Hacienda. BATNA Q1 options: invent plausible French/Spanish expansions for distractors A-C. 007 RSR3 (seller priorities, GREEN note provision 5 ans / PR plazos, worked). 008 RSR3 (PURPLE, GREEN note RPC/RRQ AE / PR SS Medicare, worked); takeaway bare. 009 RSR4 (PURPLE note no indemnité préavis / PR Ley 21-1990, GREEN, worked, expl Q4). 010 RSR3 (WHITE note IFRS / PR GAAP, GREEN, expl Q3).
+ORANGE 011 RSR2 (comm note Concurrence/LPC / PR DACO, GREEN). 012 RSR1 GREEN note pertes 3/20 / PR arrastre pérdidas; OP4. 013 RSR2 (pricing note no federal gouging / PR DACO congelación, expl Q4). 014 RSR5 (legal, tax note TPS numérique / PR IVU remotos, worked x2, expl Q3). 015 RSR1 GREEN note change revenu/capital / PR USD Hacienda.
+ORANGE 016 RSR3 (PURPLE note prix revente Concurrence / PR Ley 77 antimonopolio, GREEN, worked). 017 RSR4 EX2 (PURPLE note LPC exécution successive / PR DACO cargos recurrentes, GREEN, worked, expl Q3); takeaway bare. 018 RSR1 financing note marge 90 jours / PR bancos cooperativas; OP4. 019 RSR1 GREEN note contenu déductible / PR. 020 RSR3 (endorser note Bureau influence / PR FTC Endorsement Guides, influencer, expl Q3).
+PRIORITY (user 2026-11-08): finish es-Caribbean L4/L5 (ORANGE-L5, BLACK-L5; fr-CA alongside). THEN L1+L2 all 13 site languages = 108 packs (queue_L12.txt). THEN German L3-L5 per report, then other languages L3-L5.
+ORANGE 021 RSR2 (PURPLE note LPRPDE/Loi25 / PR sin ley general+Ley111, worked). 022 RSR4 (PURPLE note cartels / PR Ley 77+Sherman, GREEN, worked, expl Q3). 023 RSR5 (franchise note 14 jours Qc none / PR FTC Franchise Rule+Ley75, GREEN, worked x2, expl Q2); takeaway bare. 024 RSR1 GREEN note ECGC / PR. 025 RSR1 GREEN note recouvrement coût+provision / PR plazos.
+ORANGE 026 RSR2 (PURPLE note CANAFE / PR FinCEN BSA, GREEN). 027 RSR4 (header, testimonials, GREEN, worked note SADC/AMF/FCPI / PR FDIC COSSEC SIPC). 028 RSR2 EX2 (BLUE note affacturage EDC / PR factoraje Ex-Im, GREEN). 029 RSR4 (credit info, security note RDPRM / PR declaración financiamiento Depto Estado, GREEN, worked). 030 RSR6 (header, BLUE note paiement rapide 2023 / PR ASG RUL, GREEN, worked, expl Q1 Q4).
+ORANGE 031 none. 032 RSR9 (gift card note Qc LPC / PR gifts note entretenimiento limit at business gifts line). 033 RSR7 (marketplace note plateformes 2021 / PR marketplace facilitator IVU). 034 RSR2 (PURPLE note LCSPC Santé Canada 2 jours+Ontario Apology / PR CPSC 24h, worked). 035 none.
+ORANGE 036 RSR1 (Loi concurrence témoignages+Loi 25 / FTC endorsement guides PR). 037 RSR3 note on worked tax (TPS/TVH non-résidents 30k + TVQ / PR IVU digital+remote). 038 RSR1 (LEEPC + Charte langue / FDA labeling PR). 039 none. 040 RSR2 note on GREEN line (ACEUM ASFC / PR CBP).
+ORANGE 041 RSR4 (Règl 45-106 AMF / Ley Uniforme Valores OCIF). 042 RSR1 (LPC paiement non demandé + cadre fédéral financier / DACO+OCS). 043 RSR2 (LIR art.19 médias étrangers / PR anuncios deducibles, comidas límites). 044 none. 045 RSR3 (fr: CSA/ULC certification line; es: SURI/IVU tax line 8).
+ORANGE 046 RSR1 (acomptes provisionnels ARC/RQ / PR contribución estimada Hacienda). 047 048 050 none. 049 RSR3 (Loi concurrence fixation prix criminelle + abus position dominante / Ley Monopolios PR + federal).
+BLACK-L5: no RSR in any lesson -> no local notes. Format: PRINCIPLE: -> PRINCIPE : / PRINCIPIO:. No Apply-it line.
+DONE L4/L5 fr-CA + es-Caribbean all colors 2026-11-08. Next: queue_L12.txt
+NOTE: RED-L1-021 English source is a generic template placeholder (no H1, no quiz); translated as-is. Flag for owner.

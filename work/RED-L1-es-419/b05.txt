@@ -1,0 +1,340 @@
+===== RED-L1-021
+TITLE: Fundamentos de los bienes raíces comerciales
+SUMMARY: Los bienes raíces comerciales funcionan con reglas distintas a las de los residenciales. Esta lección presenta las propiedades comerciales de oficinas, locales comerciales, industriales y multifamiliares, y los indicadores clave que usan los inversionistas para evaluarlas.
+## Objetivos de aprendizaje
+
+Al terminar esta lección podrás:
+
+- Identificar los conceptos centrales que se tratan en Fundamentos de los bienes raíces comerciales
+- Aplicar los principios básicos de esta lección a decisiones financieras de la vida real
+- Explicar las ideas clave a otras personas en lenguaje sencillo
+
+## Introducción
+
+Los bienes raíces comerciales funcionan con reglas distintas a las de los residenciales. Esta lección presenta las propiedades comerciales de oficinas, locales comerciales, industriales y multifamiliares, y los indicadores clave que usan los inversionistas para evaluarlas.
+
+Esta lección se apoya en las bases que se establecieron en las lecciones anteriores de Bienes Raíces y fortalece tu competencia práctica en esta área.
+
+## Contenido principal
+
+Los siguientes principios forman la base de esta lección. Cada concepto se apoya en el anterior, así que revísalos en orden antes de pasar a los ejercicios de aplicación.
+
+### Concepto 1 — Fundamentos
+
+Toda persona que trabaja en esta área tiene que entender los principios fundamentales que la rigen. Estos principios no cambian con las condiciones del mercado ni con los ciclos económicos. Se aplican de manera constante y confiable.
+
+### Concepto 2 — Aplicación
+
+Conocer un principio es solo el comienzo. Esta sección conecta la teoría con la aplicación en la vida real y muestra cómo quienes trabajan en esta área usan realmente estas ideas en la práctica.
+
+### Concepto 3 — Errores comunes
+
+Entender lo que funciona es solo la mitad del aprendizaje. Reconocer y evitar los errores más comunes acelera la competencia y previene errores costosos.
+
+## Aplicación práctica
+
+Aplica lo que aprendiste resolviendo los siguientes ejercicios:
+
+1. Identifica un ejemplo de tu propia vida en el que los conceptos de esta lección se apliquen ahora o se vayan a aplicar en el futuro.
+2. Escribe un párrafo que explique la idea principal de esta lección como si se la explicaras a alguien que nunca ha estudiado Bienes Raíces.
+3. Enumera tres acciones que podrías tomar en los próximos 30 días y que reflejen los principios de esta lección.
+
+## Puntos clave
+
+- Los conceptos de esta lección son fundamentales para la competencia en Bienes Raíces.
+- La aplicación práctica importa más que el conocimiento teórico.
+- Seguir construyendo sobre esta lección en los niveles siguientes multiplicará tu comprensión y tu capacidad.
+
+## Qué sigue
+
+Continúa con la siguiente lección para seguir construyendo sobre las bases que se establecieron aquí.
+
+===== RED-L1-022
+TITLE: ¿Qué es el flujo de efectivo en bienes raíces?
+SUMMARY: Aprende cómo se calcula el flujo de efectivo de una propiedad en renta, y por qué un flujo de efectivo positivo no está garantizado solo porque se cobra la renta.
+# ¿Qué es el flujo de efectivo en bienes raíces?
+
+## Objetivos de aprendizaje
+
+Al terminar esta lección, deberías poder:
+
+- Definir el flujo de efectivo en el contexto de los bienes raíces.
+- Calcular un flujo de efectivo básico a partir de los ingresos y los gastos.
+- Explicar por qué cobrar la renta no garantiza un flujo de efectivo positivo.
+
+## Contenido principal
+
+### Qué significa el flujo de efectivo
+
+El flujo de efectivo es el dinero que queda de una propiedad en renta después de restar todos los gastos (el pago de la hipoteca, los impuestos, el seguro, el mantenimiento y más) a los ingresos por renta cobrados.
+
+### La fórmula básica
+
+Flujo de efectivo = Ingresos por renta − Gastos totales.
+
+Si una propiedad cobra $2,000 de renta y tiene $1,700 de gastos mensuales totales, su flujo de efectivo es de $300: un flujo de efectivo positivo. Si los gastos son mayores que los ingresos, el flujo de efectivo es negativo.
+
+### Por qué no basta con cobrar la renta
+
+Una propiedad puede cobrar una renta considerable y aun así tener un flujo de efectivo negativo si los gastos son lo bastante altos. Los inversionistas nuevos a veces solo miran los ingresos por renta sin tomar en cuenta por completo gastos como las reservas para mantenimiento o los periodos en que la propiedad está desocupada, y eso les da una imagen demasiado optimista.
+
+## Ejemplo práctico
+
+Una propiedad en renta cobra $1,800 al mes. Los gastos suman $1,600 al mes (hipoteca, impuestos, seguro y una reserva para mantenimiento). Flujo de efectivo = $1,800 − $1,600 = $200 al mes, positivo.
+
+## Prueba de práctica
+
+1. El flujo de efectivo se calcula como:
+   A. Los ingresos por renta más los gastos
+   B. Los ingresos por renta menos los gastos totales
+   C. El valor total de la propiedad
+   D. El monto del pago inicial
+2. Verdadero o falso: Cobrar la renta garantiza automáticamente un flujo de efectivo positivo.
+3. Si una propiedad cobra $2,200 de renta y tiene $2,400 de gastos totales, ¿cuál es el flujo de efectivo?
+   A. $200 positivo
+   B. $200 negativo
+   C. $0
+   D. $4,600
+
+## Clave de respuestas
+
+1. B
+2. Falso
+3. B
+
+## Respuestas y explicaciones
+
+### Pregunta 1
+
+Respuesta correcta: B. Flujo de efectivo = ingresos por renta menos gastos totales.
+
+### Pregunta 2
+
+Respuesta correcta: Falso. Unos gastos lo bastante altos pueden producir de todos modos un flujo de efectivo negativo.
+
+### Pregunta 3
+
+Respuesta correcta: B. $2,200 − $2,400 = −$200, un flujo de efectivo negativo.
+
+## Puntos clave
+
+- Flujo de efectivo = Ingresos por renta − Gastos totales.
+- Un flujo de efectivo positivo no está garantizado solo porque se cobra la renta.
+- Tomar en cuenta todos los gastos reales, no solo la hipoteca, es esencial para tener una imagen precisa.
+
+===== RED-L1-023
+TITLE: ¿Qué es la tasa de capitalización (cap rate)? (Versión introductoria)
+SUMMARY: Aprende la fórmula básica de la tasa de capitalización y qué estima, como introducción a un concepto que se trata con más profundidad en el Nivel 2.
+# ¿Qué es la tasa de capitalización (cap rate)? (Versión introductoria)
+
+## Objetivos de aprendizaje
+
+Al terminar esta lección, deberías poder:
+
+- Enunciar la fórmula básica de la tasa de capitalización.
+- Explicar qué estima la tasa de capitalización.
+- Reconocer que la tasa de capitalización es una herramienta inicial de comparación, no un método completo de valuación.
+
+## Contenido principal
+
+### La fórmula básica
+
+Tasa de capitalización = Ingreso operativo neto ÷ Valor de la propiedad.
+
+El ingreso operativo neto (NOI, por sus siglas en inglés) es el ingreso de una propiedad después de los gastos de operación, pero antes de los pagos de la hipoteca; en el Nivel 2 hay una introducción más detallada al NOI.
+
+### Qué estima
+
+La tasa de capitalización da una estimación aproximada del rendimiento potencial de una propiedad como inversión pagada totalmente en efectivo, expresada como porcentaje. Es útil para comparar rápidamente varias propiedades sobre una base parecida.
+
+### Un punto de partida, no la imagen completa
+
+*SUPUESTO (con fines didácticos):* La tasa de capitalización es una herramienta útil para una primera comparación, pero no toma en cuenta los detalles del financiamiento, la plusvalía futura ni el riesgo propio de cada propiedad; en el Nivel 2 se trata de forma más completa.
+
+## Ejemplo práctico
+
+Una propiedad con $24,000 de ingreso operativo neto anual y un valor de $300,000 tiene una tasa de capitalización de $24,000 ÷ $300,000 = 8 %.
+
+## Prueba de práctica
+
+1. La fórmula básica de la tasa de capitalización es:
+   A. Ingresos por renta ÷ Pago inicial
+   B. Ingreso operativo neto ÷ Valor de la propiedad
+   C. Valor de la propiedad ÷ Saldo de la hipoteca
+   D. Gastos totales ÷ Ingresos por renta
+2. Verdadero o falso: La tasa de capitalización toma en cuenta los detalles del financiamiento hipotecario.
+3. ¿Para qué se usa generalmente la tasa de capitalización?
+   A. Para calcular el impuesto predial
+   B. Para comparar rápidamente el rendimiento potencial de varias propiedades
+   C. Para determinar el costo de una inspección de vivienda
+   D. Para fijar una cuota de la asociación de propietarios
+
+## Clave de respuestas
+
+1. B
+2. Falso
+3. B
+
+## Respuestas y explicaciones
+
+### Pregunta 1
+
+Respuesta correcta: B. Tasa de capitalización = NOI ÷ Valor de la propiedad.
+
+### Pregunta 2
+
+Respuesta correcta: Falso. La tasa de capitalización se calcula antes de tomar en cuenta los costos del financiamiento.
+
+### Pregunta 3
+
+Respuesta correcta: B. Es una herramienta rápida para comparar propiedades.
+
+## Puntos clave
+
+- Tasa de capitalización = Ingreso operativo neto ÷ Valor de la propiedad.
+- Estima el rendimiento potencial como si la propiedad se hubiera comprado en efectivo.
+- Es un punto de partida útil para comparar, no un método completo de valuación.
+
+===== RED-L1-024
+TITLE: ¿Qué es el rendimiento sobre el efectivo invertido (cash-on-cash)?
+SUMMARY: Aprende en qué se diferencia el rendimiento sobre el efectivo invertido de la tasa de capitalización, al tomar en cuenta el efectivo que el inversionista realmente puso en la operación.
+# ¿Qué es el rendimiento sobre el efectivo invertido (cash-on-cash)?
+
+## Objetivos de aprendizaje
+
+Al terminar esta lección, deberías poder:
+
+- Enunciar la fórmula del rendimiento sobre el efectivo invertido.
+- Explicar en qué se diferencia de la tasa de capitalización.
+- Calcular un rendimiento básico sobre el efectivo invertido.
+
+## Contenido principal
+
+### La fórmula
+
+Rendimiento sobre el efectivo invertido = Flujo de efectivo anual antes de impuestos ÷ Efectivo total invertido.
+
+A diferencia de la tasa de capitalización, que supone una compra totalmente en efectivo, el rendimiento sobre el efectivo invertido mide el rendimiento específicamente sobre el efectivo que el inversionista realmente puso en la operación, tomando en cuenta el financiamiento.
+
+### En qué se diferencia de la tasa de capitalización
+
+La tasa de capitalización ignora por completo el financiamiento. El rendimiento sobre el efectivo invertido lo toma en cuenta específicamente, porque la mayoría de los inversionistas no pagan todo en efectivo: dan una parte y financian el resto, y este indicador mide el rendimiento solo sobre esa parte invertida.
+
+### Por qué importa la distinción
+
+Dos propiedades idénticas pueden tener rendimientos sobre el efectivo invertido muy distintos según cómo se financien, aunque su tasa de capitalización sea la misma, porque el rendimiento sobre el efectivo invertido refleja el capital real que el inversionista tiene en riesgo, no el valor total de la propiedad.
+
+## Ejemplo práctico
+
+Un inversionista da $50,000 de pago inicial (más $5,000 de gastos de cierre) por una propiedad, con un total de $55,000 de efectivo invertido. La propiedad genera $6,600 de flujo de efectivo anual antes de impuestos. Rendimiento sobre el efectivo invertido = $6,600 ÷ $55,000 = 12 %.
+
+## Prueba de práctica
+
+1. El rendimiento sobre el efectivo invertido mide específicamente el rendimiento sobre:
+   A. El valor total de la propiedad
+   B. El efectivo que el inversionista realmente puso en la operación
+   C. El ingreso operativo neto de la propiedad
+   D. La tasa local del impuesto predial
+2. Verdadero o falso: El rendimiento sobre el efectivo invertido, a diferencia de la tasa de capitalización, toma en cuenta el financiamiento.
+3. Un inversionista pone $40,000 de efectivo en total en una operación y recibe $4,800 de flujo de efectivo anual antes de impuestos. ¿Cuál es el rendimiento sobre el efectivo invertido?
+   A. 8 %
+   B. 10 %
+   C. 12 %
+   D. 20 %
+
+## Clave de respuestas
+
+1. B
+2. Verdadero
+3. C
+
+## Respuestas y explicaciones
+
+### Pregunta 1
+
+Respuesta correcta: B. Mide el rendimiento sobre el efectivo que el inversionista realmente invirtió.
+
+### Pregunta 2
+
+Respuesta correcta: Verdadero. Esta es la distinción clave frente a la tasa de capitalización.
+
+### Pregunta 3
+
+Respuesta correcta: C. $4,800 ÷ $40,000 = 12 %.
+
+## Puntos clave
+
+- Rendimiento sobre el efectivo invertido = Flujo de efectivo anual antes de impuestos ÷ Efectivo total invertido.
+- Toma en cuenta el financiamiento, a diferencia de la tasa de capitalización.
+- Propiedades idénticas pueden tener rendimientos sobre el efectivo invertido distintos según cómo se financien.
+
+===== RED-L1-025
+TITLE: ¿Qué es la plusvalía y por qué no está garantizada?
+SUMMARY: Aprende qué significa la plusvalía de una propiedad, qué suele impulsarla y por qué nunca debe darse por hecha.
+# ¿Qué es la plusvalía y por qué no está garantizada?
+
+## Objetivos de aprendizaje
+
+Al terminar esta lección, deberías poder:
+
+- Definir la plusvalía en palabras sencillas.
+- Nombrar factores que comúnmente influyen en ella.
+- Explicar por qué nunca debe darse por hecho que la plusvalía está garantizada.
+
+## Contenido principal
+
+### Qué es la plusvalía
+
+La plusvalía (o apreciación) es un aumento del valor de mercado de una propiedad con el tiempo. Es una de las dos formas principales en que los bienes raíces pueden generar patrimonio para el dueño; la otra son los ingresos por renta o el flujo de efectivo.
+
+### Qué suele impulsarla
+
+En la plusvalía influyen comúnmente factores como la demanda local, las condiciones económicas generales, el desarrollo del vecindario y los ciclos generales del mercado, y ningún dueño individual controla directamente ninguno de ellos.
+
+### Por qué nunca está garantizada
+
+Los valores de las propiedades también pueden bajar, a veces de forma importante, sobre todo en periodos más cortos o durante caídas generales del mercado. Tratar la plusvalía como algo seguro es un supuesto común y riesgoso; las lecciones posteriores sobre los ciclos del mercado lo exploran con más profundidad.
+
+## Ejemplo práctico
+
+Una vivienda comprada en $300,000 podría valer $340,000 cinco años después por la demanda local y las condiciones del mercado, o podría valer $280,000 si, en cambio, el mercado local cayera. Ninguno de los dos resultados está garantizado de antemano.
+
+## Prueba de práctica
+
+1. La plusvalía se refiere a:
+   A. Los ingresos mensuales por renta
+   B. Un aumento del valor de mercado de una propiedad con el tiempo
+   C. Una inspección de vivienda obligatoria
+   D. Un tipo de seguro hipotecario
+2. Verdadero o falso: La plusvalía de una propiedad está garantizada en cualquier periodo.
+3. ¿Cuál es un factor que comúnmente influye en la plusvalía?
+   A. El color de la puerta de entrada
+   B. La demanda local y las condiciones generales del mercado
+   C. Los ingresos personales del comprador
+   D. El nombre del prestamista hipotecario
+
+## Clave de respuestas
+
+1. B
+2. Falso
+3. B
+
+## Respuestas y explicaciones
+
+### Pregunta 1
+
+Respuesta correcta: B. La plusvalía es un aumento del valor de mercado con el tiempo.
+
+### Pregunta 2
+
+Respuesta correcta: Falso. Los valores también pueden bajar; la plusvalía nunca está garantizada.
+
+### Pregunta 3
+
+Respuesta correcta: B. La demanda local y las condiciones del mercado son factores comunes que la impulsan.
+
+## Puntos clave
+
+- La plusvalía es un aumento del valor de mercado de una propiedad con el tiempo.
+- En ella influyen factores que ningún dueño individual controla.
+- Nunca debe darse por hecho que está garantizada: los valores también pueden bajar.

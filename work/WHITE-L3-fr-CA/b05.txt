@@ -1,0 +1,340 @@
+===== WHITE-L3-029
+TITLE: Pourquoi l'inflation gruge le pouvoir d'achat même dans un portefeuille « sûr »
+SUMMARY: Découvre pourquoi détenir uniquement des actifs très stables et peu rentables peut quand même te faire perdre du pouvoir d'achat avec le temps, même sans aucune perte de marché.
+# WHITE-L3-029 : Pourquoi l'inflation gruge le pouvoir d'achat même dans un portefeuille « sûr »
+
+## Objectifs d'apprentissage
+À la fin de cette leçon, tu pourras :
+- Expliquer la différence entre le rendement nominal et le rendement réel (rajusté selon l'inflation)
+- Expliquer pourquoi un portefeuille « sûr » et peu rentable peut quand même perdre du pouvoir d'achat avec le temps
+- Relier cette notion à la discussion sur la monnaie fiduciaire abordée ailleurs dans ce programme
+
+## Contenu principal
+
+Le **rendement nominal** d'un placement est son gain annoncé en pourcentage, sans rajustement pour l'inflation. Son **rendement réel** soustrait l'inflation de ce chiffre nominal et montre la variation réelle du pouvoir d'achat. Cette distinction se relie directement à la discussion sur la monnaie fiduciaire ailleurs dans ce programme : si le pouvoir d'achat de la monnaie fiduciaire a tendance à diminuer avec le temps, un placement qui ne dépasse pas cette diminution perd de la valeur réelle, même si son solde nominal augmente techniquement ou reste stable.
+
+Voici « pourquoi » un portefeuille « sûr » peut quand même être risqué en termes réels : des actifs très stables et peu rentables — de l'argent comptant dans un compte à faible taux d'intérêt, par exemple — peuvent éviter complètement la volatilité du marché, mais si leur rendement ne suit pas l'inflation, le pouvoir d'achat de cet argent diminue chaque année, même si le montant nominal en dollars ne baisse pas du tout. [VERIFIED FACT] On appelle parfois ça le risque d'inflation, et il est facile de le négliger parce qu'il n'apparaît pas comme une perte visible sur un relevé de compte, comme le ferait une baisse du marché — le chiffre lui-même ne baisse pas, mais ce qu'il permet d'acheter, oui.
+
+## Exemple pratique
+
+[ILLUSTRATIVE EXAMPLE] Un investisseur garde 50 000 $ en argent comptant, à un taux d'intérêt très bas, précisément pour éviter tout risque de marché. [ASSUMPTION] Si l'inflation est nettement plus élevée que ce taux d'intérêt pendant plusieurs années, le solde de 50 000 $ lui-même ne diminue pas — il pourrait même augmenter un peu grâce aux intérêts —, mais les biens et les services que ces 50 000 $ permettent d'acheter ont discrètement diminué, puisque les prix ont augmenté plus vite que le compte. Le relevé de compte n'affiche jamais de « perte », ce qui rend cette érosion facile à manquer par rapport à une baisse visible du marché.
+
+## Quiz de pratique
+
+1. Quelle est la différence entre le rendement nominal et le rendement réel?
+2. Pourquoi un portefeuille « sûr » et peu rentable peut-il quand même perdre de la valeur réelle avec le temps?
+3. Pourquoi le risque d'inflation est-il facile à négliger par rapport au risque de marché?
+
+## Corrigé
+
+1. Le rendement nominal est le gain annoncé en pourcentage, sans rajustement pour l'inflation; le rendement réel soustrait l'inflation pour montrer la variation réelle du pouvoir d'achat.
+2. Parce que, si le rendement ne suit pas l'inflation, le pouvoir d'achat de l'argent diminue même si sa valeur nominale en dollars est stable ou augmente.
+3. Parce que le solde du compte lui-même ne diminue pas de façon visible comme lors d'une baisse du marché — l'érosion se produit dans ce que l'argent permet d'acheter, et non dans le chiffre affiché sur un relevé.
+
+## Réponses et explications
+
+1. C'est la distinction de base autour de laquelle la leçon est construite.
+2. C'est le risque central, facile à négliger, que la leçon met en lumière.
+3. Ça explique pourquoi ce risque précis est psychologiquement facile à manquer par rapport à une perte de marché.
+
+## Points clés à retenir
+- C'est le rendement réel, et non le rendement nominal, qui reflète la variation réelle du pouvoir d'achat d'un placement.
+- Un portefeuille « sûr » et peu rentable peut quand même perdre de la valeur réelle avec le temps si son rendement ne suit pas l'inflation.
+- Le risque d'inflation est facile à négliger parce qu'il n'apparaît pas comme une perte visible sur un relevé de compte.
+
+## Avis pédagogique
+Cette leçon sert uniquement à l'éducation financière générale et ne constitue pas un conseil financier, de placement, fiscal ou juridique personnalisé. Tous les chiffres sont des estimations à titre d'illustration, et non des garanties. Consulte un professionnel de la finance autorisé avant de prendre des décisions de placement.
+
+===== WHITE-L3-030
+TITLE: Pourquoi différents actifs réagissent différemment à l'inflation
+SUMMARY: Découvre pourquoi certains placements ont tendance à mieux résister que d'autres pendant les périodes d'inflation, et pourquoi il n'existe aucune protection parfaite contre l'inflation.
+# WHITE-L3-030 : Pourquoi différents actifs réagissent différemment à l'inflation
+
+## Objectifs d'apprentissage
+À la fin de cette leçon, tu pourras :
+- Expliquer pourquoi les actifs à revenu fixe sont généralement plus vulnérables à l'inflation que les actifs qui ont un potentiel de croissance
+- Nommer des exemples de types d'actifs souvent présentés comme des protections possibles contre l'inflation
+- Expliquer pourquoi aucun actif n'est une protection garantie et parfaite contre l'inflation
+
+## Contenu principal
+
+La leçon 29 a établi que l'inflation gruge le pouvoir d'achat. Voici « pourquoi » différents types d'actifs réagissent différemment à cette érosion : les actifs qui versent des paiements fixes et immuables — comme la plupart des obligations traditionnelles — n'ont aucun mécanisme intégré pour augmenter leurs versements si l'inflation monte, ce qui expose directement leur valeur réelle au risque d'inflation. Les actifs liés à des revenus, à des profits ou à une valeur physique qui croissent — des actions d'entreprises capables d'augmenter leurs prix, de l'immobilier dont les loyers peuvent être ajustés, ou certaines obligations gouvernementales conçues précisément pour s'ajuster à l'inflation — ont plus de chances de suivre la hausse des prix avec le temps.
+
+[VERIFIED FACT] Les protections possibles contre l'inflation souvent citées comprennent les actions (en particulier celles d'entreprises qui ont un pouvoir de fixation des prix), l'immobilier, certaines marchandises et les obligations gouvernementales indexées à l'inflation — mais aucune n'est une protection garantie ou parfaite dans chaque période d'inflation; chacune peut aussi être touchée par d'autres facteurs (taux d'intérêt, conditions économiques, enjeux propres à un secteur) qui peuvent compenser, voire dépasser, tout avantage lié à l'inflation pendant une période donnée.
+
+C'est pourquoi se demander « quel actif unique protège contre l'inflation » simplifie trop la notion — une approche plus réaliste traite la résistance à l'inflation comme un facteur parmi plusieurs à évaluer dans un portefeuille diversifié, plutôt que comme un problème réglé par un seul placement.
+
+## Exemple pratique
+
+[ILLUSTRATIVE EXAMPLE] Pendant une période de hausse de l'inflation, une entreprise capable de refiler ses coûts plus élevés à ses clients en augmentant ses prix peut mieux maintenir ses marges de profit et la valeur de son action qu'une obligation qui verse un taux fixe établi avant le début de la période d'inflation. [ASSUMPTION] Toutefois, si cette même période d'inflation s'accompagne aussi d'une hausse des taux d'intérêt qui nuit à l'évaluation des actions en général (un facteur distinct), le rendement de l'action pourrait ne pas refléter uniquement l'avantage de protection contre l'inflation — ce qui montre pourquoi aucun actif ne réagit à l'inflation de façon complètement isolée de tout ce qui se passe sur le marché au même moment.
+
+## Quiz de pratique
+
+1. Pourquoi les actifs à revenu fixe, comme les obligations traditionnelles, sont-ils généralement plus vulnérables à l'inflation que les actifs qui ont un potentiel de croissance?
+2. Nomme deux types d'actifs souvent présentés comme des protections possibles contre l'inflation.
+3. Pourquoi aucun actif n'est-il considéré comme une protection garantie et parfaite contre l'inflation?
+
+## Corrigé
+
+1. Parce que leurs paiements sont fixes et ne s'ajustent pas à la hausse si l'inflation monte, ce qui expose directement leur valeur réelle à l'érosion causée par l'inflation.
+2. Deux parmi les suivants : les actions (surtout celles d'entreprises qui ont un pouvoir de fixation des prix), l'immobilier, certaines marchandises, les obligations gouvernementales indexées à l'inflation.
+3. Parce que chaque type d'actif peut aussi être touché par d'autres facteurs sans lien (comme les variations des taux d'intérêt ou des conditions propres à un secteur) qui peuvent compenser ou dépasser tout avantage lié à l'inflation pendant une période donnée.
+
+## Réponses et explications
+
+1. Ça se relie directement à la vulnérabilité des paiements fixes décrite de façon plus générale à la leçon 29.
+2. Ça fournit des exemples concrets tirés de catégories souvent citées.
+3. C'est une mise en garde importante et nuancée contre une vision trop simple des stratégies de protection contre l'inflation.
+
+## Points clés à retenir
+- Les actifs à revenu fixe sont généralement plus vulnérables à l'inflation, puisque leurs paiements ne s'ajustent pas à la hausse.
+- Les actions, l'immobilier, les marchandises et les obligations indexées à l'inflation sont souvent présentés comme des protections possibles contre l'inflation.
+- Aucun actif n'est une protection garantie et parfaite contre l'inflation, puisque d'autres facteurs peuvent compenser ou dépasser tout avantage lié à l'inflation.
+
+## Avis pédagogique
+Cette leçon sert uniquement à l'éducation financière générale et ne constitue pas un conseil financier, de placement, fiscal ou juridique personnalisé. Tous les chiffres sont des estimations à titre d'illustration, et non des garanties. Consulte un professionnel de la finance autorisé avant de prendre des décisions de placement.
+
+===== WHITE-L3-031
+TITLE: Pourquoi le risque de change touche les placements internationaux
+SUMMARY: Découvre pourquoi investir dans des actifs libellés en devise étrangère ajoute une couche de risque distincte du rendement du placement lui-même.
+# WHITE-L3-031 : Pourquoi le risque de change touche les placements internationaux
+
+## Objectifs d'apprentissage
+À la fin de cette leçon, tu pourras :
+- Expliquer ce qu'est le risque de change
+- Expliquer pourquoi le rendement d'un placement international dépend de deux facteurs distincts
+- Expliquer pourquoi les mouvements des devises peuvent aider ou nuire au rendement, indépendamment du rendement du placement sous-jacent
+
+## Contenu principal
+
+Quand un investisseur achète un placement international — une action ou une obligation étrangère, par exemple —, ce placement est habituellement évalué dans sa devise locale. Reconvertir les rendements dans la devise du pays de l'investisseur ajoute un facteur distinct : le **risque de change**, soit le risque que les mouvements du taux de change entre les deux devises influent sur le rendement réel de l'investisseur, indépendamment du rendement du placement sous-jacent lui-même.
+
+Voici « pourquoi » ça crée deux facteurs distincts dans le rendement total : le placement pourrait avoir un bon rendement dans sa devise locale, mais si cette devise locale s'affaiblit fortement par rapport à la devise de l'investisseur avant la conversion, une partie ou la totalité de ce gain pourrait être annulée. À l'inverse, un rendement modeste en devise locale, combiné à une devise qui se raffermit par rapport à celle de l'investisseur, pourrait donner un meilleur rendement total que ce que le rendement local seul laisserait croire.
+
+[VERIFIED FACT] Les mouvements des devises peuvent être difficiles à prévoir et dépendent de nombreux facteurs, dont les écarts de taux d'intérêt entre les pays, les conditions économiques et le climat général du marché — certains fonds internationaux offrent des versions couvertes contre le risque de change, conçues précisément pour réduire ce risque en rapprochant le rendement de l'investisseur du seul rendement local du placement sous-jacent, même si la couverture comporte elle-même des coûts et des compromis.
+
+## Exemple pratique
+
+[ILLUSTRATIVE EXAMPLE] Une investisseuse achète des actions d'une entreprise étrangère qui montent de 10 % dans leur devise locale en un an. Si cette devise locale s'affaiblit de 8 % par rapport à la devise de l'investisseuse pendant la même période, son rendement réel, une fois reconverti, se rapproche plutôt de 2 % — la majeure partie du gain local a été annulée par le mouvement défavorable de la devise. [ASSUMPTION] Si cette devise locale s'était plutôt raffermie de 8 % par rapport à sa devise, son rendement converti aurait pu se rapprocher de 18 % — le mouvement de la devise jouant en sa faveur en plus du gain sous-jacent de 10 %.
+
+## Quiz de pratique
+
+1. Qu'est-ce que le risque de change?
+2. Pourquoi le rendement total d'un placement international dépend-il de deux facteurs distincts?
+3. À quoi sert un fonds couvert contre le risque de change?
+
+## Corrigé
+
+1. Le risque que les mouvements du taux de change entre la devise de l'investisseur et la devise locale du placement influent sur le rendement réel de l'investisseur, indépendamment du rendement du placement lui-même.
+2. Parce que le rendement dépend à la fois du rendement du placement sous-jacent dans sa devise locale et de l'évolution de la valeur de cette devise locale par rapport à la devise de l'investisseur avant la conversion.
+3. À réduire le risque de change en rapprochant le rendement de l'investisseur du rendement du placement sous-jacent en devise locale, même si ça comporte des coûts et des compromis.
+
+## Réponses et explications
+
+1. C'est la définition de base de la leçon.
+2. C'est la notion centrale des « deux facteurs » qu'explique la leçon.
+3. Ça présente l'outil conçu pour gérer ce risque précis, avec une mise en garde honnête sur ses compromis.
+
+## Points clés à retenir
+- Le risque de change est le risque que les mouvements du taux de change influent sur le rendement d'un placement international, indépendamment du rendement du placement lui-même.
+- Le rendement total d'un placement international dépend à la fois du rendement en devise locale et du mouvement de cette devise par rapport à celle de l'investisseur.
+- Les fonds couverts contre le risque de change sont conçus pour réduire ce risque précis, même si la couverture comporte des coûts et des compromis.
+
+## Avis pédagogique
+Cette leçon sert uniquement à l'éducation financière générale et ne constitue pas un conseil financier, de placement, fiscal ou juridique personnalisé. Tous les chiffres sont des estimations à titre d'illustration, et non des garanties. Consulte un professionnel de la finance autorisé avant de prendre des décisions de placement.
+
+===== WHITE-L3-032
+TITLE: Pourquoi les FPI te permettent d'investir en immobilier sans acheter de propriété
+SUMMARY: Découvre comment fonctionnent les fiducies de placement immobilier, pourquoi elles se négocient comme des actions et comment elles relient les parcours RED et WHITE de ce programme.
+# WHITE-L3-032 : Pourquoi les FPI te permettent d'investir en immobilier sans acheter de propriété
+
+## Objectifs d'apprentissage
+À la fin de cette leçon, tu pourras :
+- Expliquer ce qu'est une FPI
+- Expliquer pourquoi les FPI permettent aux investisseurs d'être exposés à l'immobilier sans détenir directement de propriété
+- Relier cette notion aux concepts d'effet de levier et de flux de trésorerie abordés dans le parcours RED de ce programme
+
+## Contenu principal
+
+Une **FPI (fiducie de placement immobilier)** est une entité qui possède, exploite ou finance de l'immobilier productif de revenus, et dont les parts peuvent être achetées et vendues en bourse, comme n'importe quelle autre action cotée — ce qui fait le pont entre les parcours RED (Immobilier) et WHITE (Actifs papier) de ce programme.
+
+Voici « pourquoi » les FPI offrent une expérience différente de l'achat direct d'une propriété, tel qu'abordé tout au long du parcours RED : un investisseur dans une FPI achète des parts qui représentent une participation dans un portefeuille diversifié de propriétés (souvent de nombreuses propriétés dans divers marchés), sans gérer directement les locataires, s'occuper de l'entretien ou organiser le financement de chaque propriété — ces responsabilités relèvent de l'équipe de gestion de la FPI. En échange, l'investisseur renonce habituellement au contrôle direct et aux traitements fiscaux précis (comme l'amortissement, abordé dans le parcours RED) dont peut profiter un propriétaire direct.
+
+[VERIFIED FACT] Les FPI sont généralement tenues de distribuer une grande majorité de leur revenu imposable à leurs porteurs de parts, ce qui explique en partie pourquoi elles sont souvent reconnues pour des rendements de distribution relativement élevés par rapport à de nombreuses autres catégories d'actions — même si, comme on l'a vu à la leçon 17, une distribution représente toujours une redistribution de valeur, et non une prime qui s'y ajoute.
+
+## Exemple pratique
+
+[ILLUSTRATIVE EXAMPLE] Une investisseuse veut être exposée à l'immobilier commercial, mais n'a ni le capital, ni le temps, ni l'envie de gérer directement un immeuble locatif financé par effet de levier, comme on le décrit tout au long du parcours RED de ce programme. Elle achète plutôt des parts d'une FPI qui possède un grand portefeuille d'immeubles de bureaux et de commerces. Elle obtient une exposition au revenu et à l'appréciation possible de l'immobilier, reçoit des distributions régulières tirées des revenus locatifs de la FPI, et peut acheter ou vendre ses parts en bourse en tout temps pendant les heures de marché — une expérience très différente de l'« investissement immobilier » qui consiste à financer et à gérer directement un immeuble locatif.
+
+## Quiz de pratique
+
+1. Qu'est-ce qu'une FPI?
+2. Qu'est-ce qu'un investisseur dans une FPI gagne, et à quoi renonce-t-il, par rapport à la détention directe d'une propriété?
+3. Pourquoi les FPI sont-elles souvent reconnues pour des rendements de distribution relativement élevés?
+
+## Corrigé
+
+1. Une entité qui possède, exploite ou finance de l'immobilier productif de revenus, dont les parts se négocient en bourse comme d'autres actions cotées.
+2. Il obtient une exposition diversifiée à l'immobilier sans responsabilités de gestion directe ni décisions de financement propriété par propriété, mais renonce au contrôle direct et à certains traitements fiscaux (comme l'amortissement) dont peut profiter un propriétaire direct.
+3. Parce que les FPI sont généralement tenues de distribuer une grande majorité de leur revenu imposable à leurs porteurs de parts.
+
+## Réponses et explications
+
+1. C'est la définition de base qui relie les notions des parcours RED et WHITE.
+2. C'est le compromis central que met en lumière la leçon entre le placement dans une FPI et la détention directe d'une propriété.
+3. Ça se relie à une exigence structurelle propre aux FPI, tout en rappelant la mise en garde de la leçon 17 sur les dividendes.
+
+## Points clés à retenir
+- Les FPI permettent aux investisseurs d'être exposés à l'immobilier au moyen de parts cotées en bourse, sans les responsabilités liées à la détention directe d'une propriété.
+- Elles échangent le contrôle direct et certains avantages fiscaux contre la liquidité et la diversification.
+- L'obligation des FPI de distribuer une grande partie de leur revenu explique pourquoi elles sont souvent reconnues pour des rendements de distribution relativement élevés.
+
+## Avis pédagogique
+Cette leçon sert uniquement à l'éducation financière générale et ne constitue pas un conseil financier, de placement, fiscal ou juridique personnalisé. Consulte un professionnel de la finance autorisé avant de prendre des décisions de placement.
+
+===== WHITE-L3-033
+TITLE: Pourquoi la concentration sectorielle augmente le risque même dans un portefeuille qui semble diversifié
+SUMMARY: Découvre pourquoi détenir de nombreuses actions concentrées dans le même secteur peut laisser un portefeuille plus exposé au risque qu'il n'y paraît à première vue.
+# WHITE-L3-033 : Pourquoi la concentration sectorielle augmente le risque même dans un portefeuille qui semble diversifié
+
+## Objectifs d'apprentissage
+À la fin de cette leçon, tu pourras :
+- Expliquer ce que veut dire la concentration sectorielle
+- Expliquer pourquoi un portefeuille peut sembler diversifié par le nombre de titres tout en étant concentré dans un secteur
+- Relier cette notion à la discussion sur la corrélation de la leçon 3
+
+## Contenu principal
+
+La leçon 3 a établi que c'est la corrélation, et pas seulement le nombre de titres, qui détermine la vraie diversification. La **concentration sectorielle** est une façon précise et courante dont le risque de corrélation se manifeste : un portefeuille qui détient de nombreuses entreprises différentes, toutes actives dans la même industrie ou le même secteur.
+
+Voici « pourquoi » ça compte : les entreprises d'un même secteur réagissent souvent à bon nombre des mêmes forces économiques et réglementaires — les entreprises technologiques touchées par les mêmes changements dans les dépenses technologiques, les entreprises énergétiques touchées par les mêmes mouvements des prix des marchandises, les entreprises de soins de santé touchées par les mêmes changements réglementaires. [VERIFIED FACT] Cette sensibilité commune veut dire qu'un portefeuille peut détenir un grand nombre d'actions individuelles et quand même se comporter, dans l'ensemble, un peu comme un pari concentré sur le sort de ce seul secteur — la corrélation entre les titres mine l'avantage de diversification que suggérerait leur simple nombre.
+
+C'est pourquoi l'évaluation de la diversification d'un portefeuille devrait inclure un examen précis de l'exposition sectorielle, et pas seulement un simple décompte du nombre d'entreprises détenues.
+
+## Exemple pratique
+
+[ILLUSTRATIVE EXAMPLE] Une investisseuse détient 25 actions différentes et se sent bien diversifiée en se fiant à ce seul nombre. En regardant de plus près, 20 de ces 25 actions sont des entreprises technologiques. Si une baisse générale touche précisément le secteur technologique — une variation des taux d'intérêt qui nuit particulièrement à l'évaluation des entreprises technologiques à forte croissance, par exemple —, la grande majorité de son portefeuille est exposée à cette même pression en même temps, malgré un nombre de titres qui semble diversifié. [ASSUMPTION] Un portefeuille qui compterait les mêmes 25 titres au total, mais répartis de façon plus équilibrée entre plusieurs secteurs différents, subirait probablement un effet global plus petit de cette même baisse propre à un secteur.
+
+## Quiz de pratique
+
+1. Qu'est-ce que la concentration sectorielle?
+2. Pourquoi un portefeuille qui détient de nombreuses actions individuelles peut-il quand même se comporter comme un pari concentré?
+3. Comment cette leçon se relie-t-elle à la notion de corrélation de la leçon 3?
+
+## Corrigé
+
+1. Un portefeuille qui détient de nombreuses entreprises concentrées dans la même industrie ou le même secteur, plutôt que réparties entre différents secteurs.
+2. Parce que les entreprises d'un même secteur réagissent souvent à bon nombre des mêmes forces économiques et réglementaires, ce qui rend leurs rendements fortement corrélés même s'il s'agit techniquement d'entreprises différentes.
+3. La concentration sectorielle est un exemple courant et précis du problème de corrélation présenté à la leçon 3 — de nombreux titres qui évoluent ensemble procurent beaucoup moins de vraie diversification que leur nombre seul le laisse croire.
+
+## Réponses et explications
+
+1. C'est la définition de base de la leçon.
+2. Ça applique directement la notion de corrélation de la leçon 3 à une situation concrète et courante.
+3. Ça boucle explicitement la boucle entre les deux leçons, ce qui renforce la structure intégrée du parcours.
+
+## Points clés à retenir
+- La concentration sectorielle veut dire que les titres d'un portefeuille sont regroupés dans la même industrie, même si le nombre total de titres semble diversifié.
+- Les entreprises d'un même secteur ont tendance à être fortement corrélées, ce qui mine l'avantage de diversification que suggérerait le seul nombre de titres.
+- La diversification d'un portefeuille devrait être évaluée selon l'exposition sectorielle, et pas seulement selon le nombre d'entreprises détenues.
+
+## Avis pédagogique
+Cette leçon sert uniquement à l'éducation financière générale et ne constitue pas un conseil financier, de placement, fiscal ou juridique personnalisé. Consulte un professionnel de la finance autorisé avant de prendre des décisions de placement.
+
+===== WHITE-L3-034
+TITLE: Pourquoi la répartition de l'actif compte plus que le choix d'actions individuelles
+SUMMARY: Découvre pourquoi la composition des catégories d'actifs d'un portefeuille a tendance à influencer davantage les résultats à long terme que les actions précises choisies dans chaque catégorie.
+# WHITE-L3-034 : Pourquoi la répartition de l'actif compte plus que le choix d'actions individuelles
+
+## Objectifs d'apprentissage
+À la fin de cette leçon, tu pourras :
+- Définir la répartition de l'actif
+- Expliquer pourquoi la recherche a généralement constaté que la répartition de l'actif influence davantage les résultats d'un portefeuille à long terme que le choix des titres individuels
+- Expliquer pourquoi ça ne veut pas dire que les choix de placement individuels n'ont aucune importance
+
+## Contenu principal
+
+La **répartition de l'actif** désigne la façon dont un portefeuille est divisé entre de grandes catégories de placements — actions, obligations, immobilier, encaisse et autres —, plutôt que les titres précis choisis dans chaque catégorie.
+
+Voici « pourquoi » la répartition a tendance à compter plus que les choix individuels pour la plupart des investisseurs à long terme : [VERIFIED FACT] diverses recherches universitaires et de l'industrie sur le rendement des portefeuilles ont généralement constaté que les grandes décisions de répartition de l'actif expliquent une part importante de la variation du rendement à long terme des portefeuilles d'un investisseur à l'autre, davantage que les titres précis choisis dans chaque catégorie d'actifs — même si les constats et les méthodes varient d'une étude à l'autre, et que le choix des titres individuels peut quand même influer de façon importante sur les résultats à l'intérieur d'une répartition donnée.
+
+Ça se relie aux notions abordées tout au long de ce parcours : puisque la diversification à l'intérieur d'une catégorie d'actifs (leçons 2 et 3) réduit déjà une grande partie du risque propre aux entreprises, le principal facteur restant du profil de risque et de rendement global d'un portefeuille devient la composition générale entre des catégories d'actifs aux caractéristiques de risque et de rendement vraiment différentes — les actions offrant généralement un plus grand potentiel de croissance à long terme avec plus de volatilité, les obligations offrant généralement plus de stabilité avec un potentiel de croissance à long terme plus faible, et ainsi de suite.
+
+## Exemple pratique
+
+[ILLUSTRATIVE EXAMPLE] Deux investisseurs détiennent tous deux des portefeuilles bien diversifiés à l'intérieur des catégories d'actifs qu'ils ont choisies, mais l'investisseur A répartit 80 % en actions et 20 % en obligations, alors que l'investisseur B répartit 30 % en actions et 70 % en obligations. [ASSUMPTION] Sur une longue période, la différence de rendement et de volatilité globaux de leurs portefeuilles dépendra probablement en grande partie de cet écart de répartition générale, plutôt que des actions ou des obligations précises que chacun a choisies à l'intérieur de sa répartition — même si les deux ont fait des choix individuels raisonnablement judicieux.
+
+## Quiz de pratique
+
+1. Que désigne la répartition de l'actif?
+2. Qu'a généralement constaté la recherche sur l'importance relative de la répartition de l'actif par rapport au choix des titres individuels pour les résultats d'un portefeuille à long terme?
+3. Est-ce que ça veut dire que le choix des titres individuels n'a aucune importance? Pourquoi?
+
+## Corrigé
+
+1. La façon dont un portefeuille est divisé entre de grandes catégories de placements, comme les actions, les obligations, l'immobilier et l'encaisse.
+2. Que les décisions de répartition de l'actif ont tendance à expliquer une part importante de la variation du rendement à long terme des portefeuilles, davantage que les titres précis choisis dans chaque catégorie d'actifs, même si les constats varient d'une étude à l'autre.
+3. Non — le choix des titres individuels peut quand même influer de façon importante sur les résultats à l'intérieur d'une répartition donnée; la leçon insiste sur l'importance relative, et non sur le fait que les choix individuels seraient sans importance.
+
+## Réponses et explications
+
+1. C'est la définition de base de la leçon.
+2. C'est l'affirmation centrale, fondée sur la recherche et nuancée, autour de laquelle la leçon est construite.
+3. Ça évite une conclusion trop simple selon laquelle les choix individuels n'ont pas d'importance à l'intérieur d'une répartition.
+
+## Points clés à retenir
+- La répartition de l'actif désigne la façon dont un portefeuille est divisé entre de grandes catégories de placements comme les actions, les obligations et l'encaisse.
+- La recherche a généralement constaté que les décisions de répartition influencent davantage les résultats à long terme d'un portefeuille que le choix des titres individuels, même si les deux comptent.
+- Ça se relie aux notions de diversification des leçons précédentes — une fois le risque propre aux entreprises réduit par la diversification, la composition générale des actifs devient un facteur plus important des résultats.
+
+## Avis pédagogique
+Cette leçon sert uniquement à l'éducation financière générale et ne constitue pas un conseil financier, de placement, fiscal ou juridique personnalisé. Le rendement passé ne garantit pas les résultats futurs. Consulte un professionnel de la finance autorisé avant de prendre des décisions de placement.
+
+===== WHITE-L3-035
+TITLE: Pourquoi une trajectoire de répartition réduit le risque à mesure que tu vieillis
+SUMMARY: Découvre pourquoi de nombreuses stratégies de placement à long terme font passer graduellement la répartition d'un portefeuille d'une composition plus dynamique à une composition plus prudente, et pourquoi ce moment compte.
+# WHITE-L3-035 : Pourquoi une trajectoire de répartition réduit le risque à mesure que tu vieillis
+
+## Objectifs d'apprentissage
+À la fin de cette leçon, tu pourras :
+- Expliquer ce que désigne une « trajectoire de répartition » (*glide path*) dans une stratégie de placement
+- Expliquer pourquoi le passage graduel à une répartition plus prudente se relie au risque de séquence des rendements
+- Expliquer la logique générale qui consiste à réduire le risque à l'approche d'une date cible (comme la retraite)
+
+## Contenu principal
+
+Une **trajectoire de répartition** décrit un plan établi d'avance pour faire passer graduellement la répartition de l'actif d'un portefeuille (leçon 34) d'une composition plus dynamique, axée sur la croissance, à une composition plus prudente, axée sur la stabilité, à mesure qu'un investisseur approche d'une date cible précise — le plus souvent la retraite. Les fonds à date cible sont un exemple courant de produit de placement fondé sur cette notion.
+
+Voici « pourquoi » ce moment compte, en lien direct avec le risque de séquence des rendements de la leçon 15 : un portefeuille dont on n'aura pas besoin avant de nombreuses années a plus de temps pour se remettre d'une baisse, de sorte qu'il peut habituellement se permettre de détenir plus d'actions pour leur plus grand potentiel de croissance à long terme. À mesure que la date cible approche et que le temps pour se remettre d'une baisse possible diminue, passer graduellement à des actifs plus stables (comme les obligations) réduit le risque de subir une forte baisse mal synchronisée juste avant d'avoir besoin de l'argent — précisément le risque décrit à la leçon 15.
+
+[VERIFIED FACT] Les différentes trajectoires de répartition varient selon la vitesse, plus ou moins prudente, à laquelle elles évoluent avec le temps, et selon que le changement se poursuit ou non après la date cible — il n'existe pas de trajectoire universelle unique, et le bon rythme d'ajustement dépend de la situation personnelle et de la tolérance au risque.
+
+## Exemple pratique
+
+[ILLUSTRATIVE EXAMPLE] Un fonds à date cible conçu pour une personne qui prendra sa retraite dans environ 30 ans pourrait commencer avec un portefeuille fortement axé sur les actions, en profitant du long horizon pour se remettre éventuellement des baisses en cours de route. À mesure que la date de retraite cible approche au fil des décennies, le fonds augmente graduellement sa part d'obligations et réduit son exposition aux actions, dans le but de rendre le portefeuille moins vulnérable à une baisse mal synchronisée au moment où l'investisseur pourrait devoir commencer à retirer des fonds.
+
+## Quiz de pratique
+
+1. Que décrit une « trajectoire de répartition »?
+2. Pourquoi un portefeuille passe-t-il habituellement d'une composition plus dynamique à une composition plus prudente à l'approche d'une date cible?
+3. Comment cette notion se relie-t-elle directement au risque de séquence des rendements de la leçon 15?
+
+## Corrigé
+
+1. Un plan établi d'avance pour faire passer graduellement la répartition de l'actif d'un portefeuille d'une composition plus dynamique à une composition plus prudente à l'approche d'une date cible, comme la retraite.
+2. Parce qu'il reste moins de temps pour se remettre d'une baisse possible à mesure que la date cible approche, de sorte que réduire l'exposition aux actifs plus volatils aide à protéger contre une baisse mal synchronisée juste avant d'avoir besoin de l'argent.
+3. Le risque de séquence des rendements a montré que de mauvais rendements juste avant ou pendant les retraits peuvent causer des dégâts disproportionnés — une trajectoire de répartition est conçue précisément pour réduire la vulnérabilité à ce risque en diminuant l'exposition à la volatilité à l'approche de la date cible.
+
+## Réponses et explications
+
+1. C'est la définition de base de la leçon.
+2. Ça explique la logique de fond qui relie l'horizon de placement au niveau de risque approprié.
+3. Ça relie explicitement la notion à la leçon 15, ce qui renforce la structure intégrée du parcours.
+
+## Points clés à retenir
+- Une trajectoire de répartition fait passer graduellement la répartition d'un portefeuille d'une composition plus dynamique à une composition plus prudente à l'approche d'une date cible.
+- Ce moment répond directement au risque de séquence des rendements, en réduisant la vulnérabilité à une baisse mal synchronisée près de la date cible.
+- Les trajectoires de répartition varient, et le bon rythme d'ajustement dépend de la situation personnelle et de la tolérance au risque.
+
+## Avis pédagogique
+Cette leçon sert uniquement à l'éducation financière générale et ne constitue pas un conseil financier, de placement, fiscal ou juridique personnalisé. Consulte un professionnel de la finance autorisé avant de prendre des décisions de placement.

@@ -1,0 +1,399 @@
+===== GREEN-L1-031
+TITLE: Capital Gains: Taxes on Investment Profit
+SUMMARY: Introduces the concept of capital gains — profit from selling an asset for more than its purchase price — and how it differs from ordinary income.
+# Capital Gains: Taxes on Investment Profit
+
+## Learning Objectives
+
+- Define a capital gain in plain terms.
+- Explain the basic calculation of a capital gain.
+- Recognise why gains are only realised (and typically taxed) upon sale, not while simply holding an asset.
+
+## Core Content
+
+A capital gain is the profit made when you sell an asset — like shares or a property — for more than you paid for it. The basic calculation is simple: sale price minus purchase price (often called the 'base cost' or 'basis') equals the gain. If the asset sold for less than its base cost, that's a capital loss instead. (In the UK, for example, gains may be subject to Capital Gains Tax above an annual tax-free allowance, but your main home is usually exempt and investments held inside an ISA are free of Capital Gains Tax. Check HMRC for current rules and allowances.)
+
+An important nuance: in most systems, a gain is only 'realised,' and generally only taxable, when the asset is actually sold or otherwise disposed of. If a share's value doubles but you never sell it, you generally don't owe capital gains tax on that increase yet — it's an unrealised, or 'paper,' gain. This distinction matters for investment planning, because selling an appreciated asset is often a deliberate, timeable decision with tax consequences, not something that happens automatically just because the asset's value went up.
+
+## Worked Example
+
+**Question:** An investor buys shares for £1,000. Two years later they're worth £3,000, but she hasn't sold them. Does she owe capital gains tax right now?
+
+**Student:** Based on this lesson, probably not yet, since the gain hasn't been realised through a sale.
+
+**Guide:** What would trigger the tax, and how would it be calculated if she sold at £3,000?
+
+**Student:** Selling would trigger it — the gain would be £3,000 minus her £1,000 base cost, so a £2,000 capital gain.
+
+**Guide:** Exactly — and that timing is something she has some control over, which is a real planning lever.
+
+## Practice Quiz
+
+**Question 1.** A capital gain is calculated as:
+
+A) Purchase price minus sale price
+B) Sale price minus purchase price (base cost)
+C) Only the purchase price
+D) A fixed government-set amount
+
+**Question 2.** If an asset is sold for less than its base cost, that's called a:
+
+A) Capital gain
+B) Capital loss
+C) Tax credit
+D) Refund
+
+**Question 3.** A capital gain is generally taxed:
+
+A) The moment the asset's value increases, regardless of sale
+B) When the gain is realised, typically upon sale
+C) Never
+D) Only if the asset is property
+
+**Question 4.** An unrealised, or 'paper,' gain refers to:
+
+A) A gain that has already been taxed
+B) An increase in value that hasn't yet been locked in through a sale
+C) A type of tax credit
+D) A capital loss
+
+## Answer Key
+
+1. B, 2. B, 3. B, 4. B
+
+## Answers and Explanations
+
+**1.** The gain calculation compares what you sold the asset for against what you originally paid.
+
+**2.** A loss is simply the mirror image of a gain — selling for less than the original base cost.
+
+**3.** Realisation through sale is the general trigger for capital gains tax in most systems.
+
+**4.** Value can rise on paper without triggering tax, since nothing has actually been sold yet.
+
+## Key Takeaways
+
+- A capital gain is sale price minus purchase price (base cost).
+- Selling below base cost produces a capital loss instead.
+- Gains are generally taxed upon realisation — typically when the asset is sold.
+- Unrealised gains aren't taxed yet, which makes the timing of a sale a real planning decision.
+
+===== GREEN-L1-032
+TITLE: Short-Term vs. Long-Term Capital Gains
+SUMMARY: Explains why some systems tax gains differently depending on how long an asset was held before sale.
+# Short-Term vs. Long-Term Capital Gains
+
+## Learning Objectives
+
+- Define short-term versus long-term capital gains.
+- Explain the general policy reasoning behind favouring longer holding periods.
+- Recognise holding period as a planning consideration where it applies.
+
+## Core Content
+
+Many tax systems distinguish between short-term capital gains (from assets held for a shorter period, often under a year) and long-term capital gains (from assets held longer), often taxing long-term gains at a more favourable rate. The exact holding-period threshold and rate difference vary by country and change over time, but the general pattern — reward for patience — is common. (The UK, for example, does not generally tax gains differently by holding period; instead, the rate of Capital Gains Tax depends mainly on your income and the type of asset. The US is a well-known example of a system that does make the distinction.)
+
+The general policy reasoning is to encourage longer-term investment and discourage excessive short-term trading, though reasonable people debate how well this actually works in practice. For an individual investor in a system that uses this distinction, the practical takeaway is that holding period is a genuine planning lever: selling an asset just a little earlier or later than a key threshold can meaningfully change the tax outcome, which is why investors sometimes deliberately time a sale around a holding-period milestone.
+
+## Worked Example
+
+**Question:** An investor in a system with a long-term threshold is close to that threshold on a profitable shareholding and is deciding whether to sell now or wait a few more weeks. What should she consider?
+
+**Student:** Based on this lesson, waiting until she crosses the long-term threshold could mean a more favourable tax rate on the gain.
+
+**Guide:** Should tax treatment be the only factor in that decision?
+
+**Student:** Probably not — the share price could also move in the meantime, so it's a real trade-off between tax timing and investment risk, not a pure tax decision.
+
+**Guide:** Exactly — tax planning is one input, not the whole decision.
+
+## Practice Quiz
+
+**Question 1.** Short-term capital gains generally come from assets:
+
+A) Held for a longer period
+B) Held for a shorter period, often under a year
+C) Never sold
+D) Only property
+
+**Question 2.** Long-term capital gains are often taxed:
+
+A) At a less favourable rate than short-term gains
+B) At a more favourable rate than short-term gains, in many systems
+C) Exactly the same as short-term gains everywhere
+D) Not at all, ever
+
+**Question 3.** The general policy reasoning behind this distinction is to:
+
+A) Punish long-term investors
+B) Encourage longer-term investment over excessive short-term trading
+C) Increase government revenue with no other purpose
+D) Simplify the tax code
+
+**Question 4.** Holding period is best understood as:
+
+A) Irrelevant to tax planning
+B) A genuine planning lever that can affect the tax outcome of a sale, in systems that use it
+C) Fixed and unchangeable
+D) Only relevant to businesses
+
+## Answer Key
+
+1. B, 2. B, 3. B, 4. B
+
+## Answers and Explanations
+
+**1.** Short-term gains generally come from assets held for a relatively brief period before sale.
+
+**2.** Many systems apply a more favourable rate to long-term gains as a matter of policy, although some, such as the UK, do not.
+
+**3.** The general aim is nudging investors toward patience rather than frequent short-term trading, though its real-world effectiveness is debated.
+
+**4.** Because timing can shift tax outcomes in these systems, holding period is a factor investors can deliberately plan around.
+
+## Key Takeaways
+
+- Short-term gains typically come from assets held briefly; long-term gains from assets held longer.
+- Long-term gains are often taxed more favourably, though specifics vary, change, and don't apply in every country.
+- The policy goal is generally to encourage patient, longer-term investment.
+- Where it applies, holding period is a real, controllable planning lever for investors.
+
+===== GREEN-L1-033
+TITLE: Dividends and Interest: How Investment Income Is Taxed
+SUMMARY: Introduces dividends and interest as two common forms of investment income distinct from capital gains, since they're generated by holding an asset, not selling it.
+# Dividends and Interest: How Investment Income Is Taxed
+
+## Learning Objectives
+
+- Distinguish dividends and interest from capital gains.
+- Explain that dividend and interest income is generally taxable in the year received.
+- Recognise these as ongoing income streams, not one-time sale events.
+
+## Core Content
+
+So far this track has focused heavily on capital gains — profit from selling an asset. But two other common forms of investment income don't require selling anything at all: dividends (a share of a company's profits paid out to shareholders, often periodically) and interest (payments earned on money lent out, such as through a savings account or a bond).
+
+Unlike capital gains, which are typically triggered by a sale, dividend and interest income is generally taxable in the year it's received, regardless of whether the underlying investment is ever sold. An investor holding dividend-paying shares for decades without selling a single one will still generally owe tax each year on the dividends received during that time. Recognising these as distinct, ongoing income streams — separate from the sale-triggered mechanics of capital gains — rounds out the basic picture of how investment income gets taxed. (In the UK, for example, many people have a tax-free dividend allowance and personal savings allowance, and dividends and interest earned inside an ISA are tax-free; the allowances change, so check HMRC's current figures.)
+
+## Worked Example
+
+**Question:** An investor holds shares for 15 years without ever selling them, but the company pays a dividend every quarter. Does she avoid all tax on those shares by never selling?
+
+**Student:** Based on this lesson, no — the dividends themselves are generally taxable each year she receives them, even without a sale, unless they're covered by an allowance or held in a tax-free account.
+
+**Guide:** So what's actually being taxed each year, versus what would only be taxed if she eventually sold?
+
+**Student:** The dividends are taxed as they're received. The shares' price rise would only become a taxable capital gain if and when she actually sells.
+
+**Guide:** Exactly — two different income streams, two different triggers.
+
+## Practice Quiz
+
+**Question 1.** A dividend is:
+
+A) A type of loan
+B) A share of a company's profits paid out to shareholders
+C) The same as a capital gain
+D) A government tax credit
+
+**Question 2.** Interest is generally:
+
+A) Profit from selling an asset
+B) Payment earned on money lent out, such as through savings or bonds
+C) The same as a dividend
+D) Only relevant to businesses
+
+**Question 3.** Unlike capital gains, dividend and interest income is generally taxable:
+
+A) Only upon sale of the underlying asset
+B) In the year it's received, regardless of sale
+C) Never
+D) Only after ten years
+
+**Question 4.** Can an investor avoid all tax on shares simply by never selling them?
+
+A) Yes, always
+B) No — dividends received along the way are still generally taxable
+C) Only if the shares lose value
+D) Only for bonds
+
+## Answer Key
+
+1. B, 2. B, 3. B, 4. B
+
+## Answers and Explanations
+
+**1.** A dividend is a distribution of company profit to shareholders, distinct from a sale transaction.
+
+**2.** Interest is compensation for lending money, whether through a bank account, bond, or similar instrument.
+
+**3.** These income types are taxed as received, unlike capital gains, which wait for a sale to trigger tax.
+
+**4.** Ongoing income like dividends keeps generating potential tax obligations year to year, independent of whether the asset is ever sold.
+
+## Key Takeaways
+
+- Dividends and interest are investment income types separate from capital gains.
+- They're generally taxed in the year received, not upon sale.
+- Holding an asset without selling doesn't avoid tax on the income it generates along the way.
+- Recognising these as distinct, ongoing streams completes the basic investment-income picture.
+
+===== GREEN-L1-034
+TITLE: Tax-Advantaged Retirement Accounts: The Basic Idea
+SUMMARY: Introduces the general concept of tax-advantaged pension and retirement accounts without tying it to one country's specific account names.
+# Tax-Advantaged Retirement Accounts: The Basic Idea
+
+## Learning Objectives
+
+- Explain the general purpose of tax-advantaged retirement accounts.
+- Identify the basic mechanism: some tax benefit in exchange for restrictions on access.
+- Recognise this as a policy tool to encourage long-term saving.
+
+## Core Content
+
+Many governments offer special account types that provide some kind of tax benefit — money going in isn't taxed yet, or money coming out later isn't taxed, or investment growth inside the account isn't taxed along the way — specifically to encourage people to save for retirement. In exchange for this benefit, these accounts typically come with restrictions, most commonly limits on withdrawing money before a certain age without a penalty. (In the UK, for example, workplace and personal pensions receive tax relief on contributions, but you normally can't access the money until a minimum pension age set by law, currently 55 and due to rise to 57 in 2028; check current rules.)
+
+The underlying trade is straightforward: the government forgoes some tax revenue now (or later) in exchange for encouraging behaviour — long-term saving — that reduces future reliance on public support systems. Specific account names, contribution limits, and rules vary enormously by country and change over time, but the basic shape — tax benefit paired with an access restriction, aimed at encouraging retirement saving — is a pattern worth recognising wherever you encounter it.
+
+## Worked Example
+
+**Question:** A friend asks why a pension would restrict or penalise them for taking their own money out early. What's the general logic?
+
+**Student:** Based on this lesson, the tax benefit is basically a trade — you get an advantage in exchange for committing to leave the money for retirement.
+
+**Guide:** Why would a government care whether the money is used for retirement specifically?
+
+**Student:** Because encouraging long-term saving reduces future reliance on public support systems, so it's worth the government giving up some tax revenue now.
+
+**Guide:** Exactly — the restriction isn't arbitrary, it's tied to the purpose of the benefit.
+
+## Practice Quiz
+
+**Question 1.** Tax-advantaged retirement accounts generally offer:
+
+A) No benefit at all
+B) Some form of tax benefit tied to saving for retirement
+C) Unlimited penalty-free withdrawals at any time
+D) Only benefits for businesses
+
+**Question 2.** In exchange for the tax benefit, these accounts typically include:
+
+A) No restrictions whatsoever
+B) Restrictions, commonly limits on early withdrawal without penalty
+C) A requirement to spend the money immediately
+D) Higher sales tax
+
+**Question 3.** Why might a government offer this kind of benefit?
+
+A) No real reason
+B) To encourage long-term saving, reducing future reliance on public support
+C) To increase short-term tax revenue
+D) Only to benefit banks
+
+**Question 4.** Do specific account names and rules stay consistent across countries and time?
+
+A) Yes, always
+B) No — they vary widely and change over time
+C) Only in wealthy countries
+D) They've never existed
+
+## Answer Key
+
+1. B, 2. B, 3. B, 4. B
+
+## Answers and Explanations
+
+**1.** The core offering across most systems is some form of tax advantage tied specifically to retirement saving.
+
+**2.** Early-withdrawal restrictions are the common trade-off for receiving the tax benefit.
+
+**3.** Encouraging saving reduces the future burden on public pension and support systems, which is the policy logic.
+
+**4.** As with credits, the specifics here are jurisdiction- and time-dependent, so the pattern matters more than any one account's rules.
+
+## Key Takeaways
+
+- Tax-advantaged retirement accounts trade a tax benefit for saving restrictions.
+- Early withdrawal is typically limited or penalised.
+- The policy goal is encouraging long-term saving to reduce future reliance on public support.
+- Specific account rules vary by country and change over time — the pattern is the transferable lesson.
+
+===== GREEN-L1-035
+TITLE: Pay Tax Now or Later: 'Traditional' vs. 'Roth' Style Accounts
+SUMMARY: Explains the general concept behind two common retirement-saving structures — one taxed going in, one taxed coming out — using generic labels and UK examples rather than one country's programme names alone.
+# Pay Tax Now or Later: 'Traditional' vs. 'Roth' Style Accounts
+
+## Learning Objectives
+
+- Explain the 'pay now vs. pay later' choice found in many retirement-saving systems.
+- Identify the basic trade-off between the two approaches.
+- Recognise that the better choice can depend on expected future tax rates.
+
+## Core Content
+
+Many retirement-saving systems offer a choice between two structures, often generically described as 'traditional' and 'Roth' style, after US account names, regardless of the exact local names. In a traditional-style account, contributions typically reduce taxable income now, but withdrawals in retirement are taxed. In a Roth-style account, contributions are made with already-taxed money now, but withdrawals in retirement are typically tax-free. (In the UK, for example, a pension works broadly like the traditional style, with tax relief on contributions and tax on most withdrawals, though usually part can be taken tax-free; an ISA works broadly like the Roth style, with taxed money going in and tax-free withdrawals.)
+
+The core trade-off is timing: pay tax now at your current rate, or pay tax later at your future rate. If you expect your tax rate to be lower in retirement than it is now, a traditional-style approach often comes out ahead. If you expect your rate to be similar or higher in retirement — common for younger people early in their careers with room to grow — a Roth-style approach can come out ahead. There's no universally correct answer; it depends on assumptions about the future, which is exactly why this is a common area to seek professional guidance rather than guess.
+
+## Worked Example
+
+**Question:** A 22-year-old just starting her career is deciding between a traditional-style and Roth-style account. What's the general reasoning she should think through?
+
+**Student:** Based on this lesson, she should think about whether her tax rate now is likely lower or higher than it will be later in her career.
+
+**Guide:** Given that she's early in her career, what's a reasonable assumption about her future income and tax rate?
+
+**Student:** Her income, and likely her tax rate, will probably rise over time — so paying tax now at a lower rate, through a Roth-style account, could make sense.
+
+**Guide:** That's a reasonable line of thinking — though it's still an assumption about the future, not a guarantee, and other features such as employer pension contributions also matter, which is why this is worth discussing with a professional for a specific plan.
+
+## Practice Quiz
+
+**Question 1.** In a traditional-style account, contributions typically:
+
+A) Are taxed twice
+B) Reduce taxable income now, with withdrawals taxed later
+C) Are never taxed at all
+D) Have no effect on taxes
+
+**Question 2.** In a Roth-style account, contributions are typically:
+
+A) Made with already-taxed money, with tax-free withdrawals later
+B) Deducted from current taxable income
+C) Taxed twice
+D) Illegal
+
+**Question 3.** The core trade-off between the two approaches is:
+
+A) There is no trade-off
+B) Paying tax now versus paying tax later
+C) One approach never involves taxes
+D) Only businesses can choose
+
+**Question 4.** Which approach tends to favour someone expecting a lower tax rate in retirement than today?
+
+A) Roth-style
+B) Traditional-style
+C) Neither matters
+D) Only sales-tax-based accounts
+
+## Answer Key
+
+1. B, 2. A, 3. B, 4. B
+
+## Answers and Explanations
+
+**1.** The traditional-style structure defers tax, offering a benefit today at the cost of tax owed on withdrawals later.
+
+**2.** The Roth-style structure front-loads the tax, so qualifying withdrawals later are generally untaxed.
+
+**3.** This is fundamentally a timing decision about when you'd rather pay tax, based on assumptions about future rates.
+
+**4.** If today's rate is higher than the expected future rate, deferring tax (traditional-style) is often more advantageous.
+
+## Key Takeaways
+
+- Traditional-style accounts defer tax to withdrawal; Roth-style accounts tax contributions now, not withdrawals.
+- The core trade-off is paying tax now versus later.
+- The better choice depends on assumptions about your current versus future tax rate.
+- This is a common, legitimate area to seek professional guidance rather than guess.

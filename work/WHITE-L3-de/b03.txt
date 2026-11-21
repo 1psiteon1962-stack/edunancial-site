@@ -1,0 +1,183 @@
+===== WHITE-L3-009
+TITLE: Warum ein Wertpapierkredit Gewinne und Verluste verstärkt wie der Hebel bei Immobilien
+SUMMARY: Erfahre, wie der Kauf von Aktien auf Kredit (auf Margin) funktioniert und warum er Gewinne und Verluste auf eine Weise vervielfacht, die dem Hebel bei Immobilien entspricht.
+# WHITE-L3-009: Warum ein Wertpapierkredit Gewinne und Verluste verstärkt wie der Hebel bei Immobilien
+
+## Lernziele
+Am Ende dieser Lektion kannst du:
+- erklären, wie der Kauf von Aktien auf Kredit (auf Margin) funktioniert
+- erklären, warum ein Wertpapierkredit Gewinne und Verluste gleichermaßen verstärkt
+- dieses Konzept mit dem Hebel bei Immobilien verbinden, der an anderer Stelle in diesem Lehrplan behandelt wird
+
+## Hauptinhalt
+
+Mit einem **Wertpapierkredit** (auch Lombardkredit oder Margin-Kredit genannt) leiht sich eine Anlegerin oder ein Anleger Geld beim Broker oder der Bank, um mehr Wertpapiere zu kaufen, als das eigene Geld allein erlauben würde – die Wertpapiere im Depot dienen dabei als Sicherheit für den Kredit. Dieses Konzept entspricht dem Hebel bei Immobilien, der im RED-Track dieses Lehrplans behandelt wird: Geliehenes Geld lässt dich mit weniger eigenem Kapital eine größere Position steuern.
+
+Hier das „Warum“, weshalb derselbe Vervielfachungseffekt gilt: Deine prozentuale Rendite wird im Verhältnis zu deinem eigenen eingesetzten Geld berechnet, nicht zur gesamten Positionsgröße. Gewinnt die Position an Wert, wird dieser Gewinn an einer kleineren Basis gemessen – deine prozentuale Rendite wird verstärkt. Verliert die Position an Wert, verstärkt dieselbe Rechnung deinen prozentualen Verlust genau auf die gleiche Weise, und du schuldest weiterhin den vollen geliehenen Betrag, egal wie sich die Anlage entwickelt.
+
+[VERIFIED FACT] Für Wertpapierkredite fallen in der Regel Zinsen an, die laufende Kosten verursachen, und Broker verlangen, dass im Depot ein Mindestanteil an Eigenkapital gehalten wird – fällt der Depotwert zu stark, kann das eine Nachschussforderung (Margin Call) auslösen, die in der nächsten Lektion behandelt wird.
+
+## Durchgerechnetes Beispiel
+
+[ILLUSTRATIVE EXAMPLE] Ein Anleger hat 10.000 € Eigenkapital und kauft mit einem Wertpapierkredit Aktien im Wert von 20.000 € (die anderen 10.000 € sind geliehen). Steigt die Aktie um 10 %, gewinnt die Position 2.000 € – eine Rendite von 20 % auf seine ursprünglichen 10.000 €, nicht 10 %. Fällt die Aktie stattdessen um 10 %, verliert die Position 2.000 € – ein Verlust von 20 % auf die ursprünglichen 10.000 €, und er schuldet weiterhin die vollen geliehenen 10.000 €, unabhängig vom neuen, niedrigeren Wert der Aktie.
+
+## Übungsquiz
+1. Was ermöglicht der Kauf auf Kredit (auf Margin) einem Anleger?
+2. Warum verstärkt ein Wertpapierkredit prozentuale Gewinne und Verluste im Vergleich zu einem Kauf nur mit Eigenkapital?
+3. Welche laufenden Kosten verursacht ein Wertpapierkredit in der Regel, zusätzlich zum verstärkten Risiko?
+
+## Lösungsschlüssel
+1. Sich beim Broker Geld zu leihen, um mehr Wertpapiere zu kaufen, als das eigene Geld allein erlauben würde, wobei die Depotbestände als Sicherheit dienen.
+2. Weil die Rendite am kleineren eigenen Einsatz statt an der gesamten Positionsgröße gemessen wird, sodass derselbe Gewinn oder Verlust in Euro zu einer größeren prozentualen Veränderung wird.
+3. Zinsen auf den Wertpapierkredit, die unabhängig von der Entwicklung der Anlage laufende Kosten verursachen.
+
+## Antworten und Erklärungen
+1. Das ist die begriffliche Grundlage der Lektion.
+2. Das ist derselbe Vervielfachungsmechanismus wie beim Immobilienhebel, hier angewandt auf Anlagen mit Wertpapierkredit.
+3. Das ergänzt eine Kostenseite, die typisch für den Wertpapierkredit ist und im Zusammenhang mit dem Immobilienhebel keine ganz so direkte Entsprechung hat.
+
+## Das Wichtigste in Kürze
+- Ein Wertpapierkredit erlaubt es, mit geliehenem Geld mehr Wertpapiere zu kaufen, als das eigene Geld allein erlauben würde; das Depot dient als Sicherheit.
+- Das verstärkt Gewinne und Verluste gleichermaßen – genau wie der Hebeleffekt bei Immobilien.
+- Wertpapierkredite kosten laufend Zinsen und verlangen einen Mindestanteil an Eigenkapital im Depot; fällt der Depotwert zu stark, droht eine Nachschussforderung.
+
+## Hinweis zum Bildungszweck
+Diese Lektion dient ausschließlich der allgemeinen finanziellen Bildung und ist keine individuelle Finanz-, Anlage-, Steuer- oder Rechtsberatung. Der Handel auf Kredit ist mit erheblichen Risiken verbunden, bis hin zum Verlust von mehr als dem ursprünglich eingesetzten Kapital. Wende dich vor dem Handel auf Kredit an eine zugelassene Fachperson.
+
+===== WHITE-L3-010
+TITLE: Warum eine Nachschussforderung dich zum Verkauf im denkbar schlechtesten Moment zwingen kann
+SUMMARY: Erfahre, was eine Nachschussforderung (Margin Call) ist, warum sie automatisch eintritt und warum sie zum Verkauf zwingen kann, gerade wenn die Kurse bereits gefallen sind.
+# WHITE-L3-010: Warum eine Nachschussforderung dich zum Verkauf im denkbar schlechtesten Moment zwingen kann
+
+## Lernziele
+Am Ende dieser Lektion kannst du:
+- erklären, was eine Nachschussforderung auslöst
+- erklären, warum eine Nachschussforderung zu einem Verkauf zu einem besonders schlechten Zeitpunkt zwingen kann
+- erklären, warum dieses Risiko mit der Höhe des eingesetzten Hebels wächst
+
+## Hauptinhalt
+
+Lektion 9 hat die verstärkende Wirkung eines Wertpapierkredits auf Gewinne und Verluste vorgestellt. Diese Lektion behandelt den konkreten Mechanismus, der eine verlustreiche, kreditfinanzierte Position in einen erzwungenen und oft schlecht getimten Verkauf verwandelt: die **Nachschussforderung (Margin Call)**.
+
+Broker verlangen, dass in einem Kreditdepot ein Mindestanteil an Eigenkapital gehalten wird (die Mindestsicherheitsleistung oder Maintenance Margin). Fällt der Wert einer Position so stark, dass das Eigenkapital im Depot unter dieses Minimum sinkt, stellt der Broker eine Nachschussforderung – die Aufforderung, zusätzliches Geld oder weitere Wertpapiere einzuzahlen oder einen Teil der Position zu verkaufen, um die Vorgaben wieder zu erfüllen.
+
+Hier das „Warum“, weshalb das besonders schädlich ist: Eine Nachschussforderung wird durch fallende Kurse ausgelöst. Sie kommt also typischerweise genau dann, wenn die Anlegerin oder der Anleger bereits Verluste erleidet – und wer nicht schnell genug zusätzliche Mittel einbringen kann oder will, dessen Bestände kann der Broker automatisch verkaufen, oft ohne weitere Rücksprache, um das geforderte Eigenkapitalniveau wiederherzustellen. [VERIFIED FACT] Das kann einen Verkauf zu einem gedrückten Kurs erzwingen und die Verluste genau in dem Moment festschreiben, in dem sich – ähnlich wie in Lektion 1 besprochen – sonst vielleicht gerade eine Gelegenheit zum „günstigen Kaufen“ bilden würde: Der Hebel nimmt dir die Wahl, einfach abzuwarten.
+
+## Durchgerechnetes Beispiel
+
+[ILLUSTRATIVE EXAMPLE] Eine Anlegerin kauft mit einem Wertpapierkredit eine größere Aktienposition, als ihr Eigenkapital allein erlauben würde. Die Aktie fällt stark, das Eigenkapital in ihrem Depot sinkt unter die Mindestanforderung des Brokers, und eine Nachschussforderung wird ausgelöst. [ASSUMPTION] Weil sie nicht schnell genug zusätzliche Mittel einzahlen kann, verkauft der Broker automatisch einen Teil ihrer Position, um die Vorgaben wieder zu erfüllen – und schreibt ihre Verluste zum gedrückten Kurs fest, obwohl sich die Aktie später erholt. Eine Anlegerin, die dieselbe Aktie ohne Kredit hält, hätte die Wahl gehabt, den Abschwung einfach auszusitzen, weil für ihre Position ohne Hebel kein erzwungener Verkauf galt.
+
+## Übungsquiz
+1. Was löst eine Nachschussforderung aus?
+2. Warum gilt eine Nachschussforderung als besonders schlecht getimt?
+3. Welche Wahl verliert eine Anlegerin mit Wertpapierkredit, die eine Anlegerin ohne Hebel in einem Abschwung noch hat?
+
+## Lösungsschlüssel
+1. Dass das Eigenkapital im Depot unter die vom Broker verlangte Mindestsicherheitsleistung fällt, meist wegen eines Wertverlusts der kreditfinanzierten Position.
+2. Weil sie durch fallende Kurse ausgelöst wird – sie zwingt also genau dann zum Handeln, wenn die Anlegerin bereits Verluste erleidet, und kann diese Verluste zu einem gedrückten Kurs festschreiben.
+3. Die Wahl, einen Abschwung einfach auszusitzen und auf eine mögliche Erholung zu warten – der Wertpapierkredit kann einen Verkauf erzwingen, auch wenn sie lieber abwarten würde.
+
+## Antworten und Erklärungen
+1. Das ist der mechanische Auslöser, auf dem der Rest der Lektion beruht.
+2. Das ist das zentrale „Warum“ – die zeitliche Unstimmigkeit zwischen dem Eintreten einer Nachschussforderung und dem Zeitpunkt, zu dem man idealerweise verkaufen möchte.
+3. Das knüpft direkt an das Thema aus Lektion 1 an: wie schwer es ist, günstig zu kaufen und Abschwünge durchzuhalten.
+
+## Das Wichtigste in Kürze
+- Eine Nachschussforderung wird ausgelöst, wenn das Eigenkapital im Depot unter die vom Broker verlangte Mindestgrenze fällt.
+- Weil sie durch fallende Kurse ausgelöst wird, kann sie einen Verkauf zu einem gedrückten Kurs erzwingen und Verluste zu einem schlechten Zeitpunkt festschreiben.
+- Ein Wertpapierkredit nimmt dir die Wahl, einen Abschwung einfach auszusitzen – eine Wahl, die Anlegerinnen und Anleger ohne Hebel haben.
+
+## Hinweis zum Bildungszweck
+Diese Lektion dient ausschließlich der allgemeinen finanziellen Bildung und ist keine individuelle Finanz-, Anlage-, Steuer- oder Rechtsberatung. Der Handel auf Kredit ist mit erheblichen Risiken verbunden, einschließlich der Zwangsverwertung von Vermögenswerten. Wende dich vor dem Handel auf Kredit an eine zugelassene Fachperson.
+
+===== WHITE-L3-011
+TITLE: Warum Leerverkäufe ein theoretisch unbegrenztes Risiko haben
+SUMMARY: Erfahre, wie Leerverkäufe funktionieren, warum sie von fallenden Kursen profitieren und warum ihr möglicher Verlust strukturell unbegrenzt ist.
+# WHITE-L3-011: Warum Leerverkäufe ein theoretisch unbegrenztes Risiko haben
+
+## Lernziele
+Am Ende dieser Lektion kannst du:
+- erklären, wie ein Leerverkauf technisch funktioniert
+- erklären, warum der maximale Gewinn eines Leerverkäufers begrenzt, sein möglicher Verlust aber theoretisch unbegrenzt ist
+- erklären, was ein Short Squeeze ist und warum er Verluste beschleunigen kann
+
+## Hauptinhalt
+
+Bei einem **Leerverkauf** leiht man sich Aktien (in der Regel über einen Broker), verkauft sie sofort zum aktuellen Kurs und kauft sie später (hoffentlich zu einem niedrigeren Kurs) zurück, um sie dem Verleiher zurückzugeben – fällt der Kurs, gewinnt man die Differenz. (In der EU legt die Leerverkaufsverordnung fest, unter welchen Bedingungen Leerverkäufe von Aktien zulässig sind; ungedeckte Leerverkäufe ohne Wertpapierleihe oder entsprechende Vereinbarung sind dort grundsätzlich verboten.)
+
+Hier das „Warum“, weshalb Leerverkäufe ein grundlegend anderes Risikoprofil haben als der bloße Besitz einer Aktie: Der Kurs einer Aktie kann höchstens auf null fallen, deshalb ist der maximal mögliche Gewinn eines Leerverkäufers begrenzt (der volle Wert der Aktie, wenn sie auf null fällt). Nach oben hat der Kurs einer Aktie dagegen keine theoretische Grenze – er kann immer weiter steigen. Der mögliche Verlust des Leerverkäufers, der die geliehenen Aktien irgendwann zu dem Kurs zurückkaufen muss, auf den sie gestiegen sind, ist deshalb theoretisch unbegrenzt.
+
+[VERIFIED FACT] Dieses Risiko kann sich durch einen **Short Squeeze** beschleunigen: Beginnt der Kurs einer stark leerverkauften Aktie zu steigen, können Leerverkäufer mit wachsenden Verlusten gezwungen sein (manchmal über Mechanismen ähnlich einer Nachschussforderung, Lektion 10), Aktien zurückzukaufen, um ihre Verluste zu begrenzen – und genau dieser Kaufdruck kann den Kurs weiter nach oben treiben, sodass weitere Leerverkäufer dasselbe tun müssen, in einem sich selbst verstärkenden Kreislauf.
+
+## Durchgerechnetes Beispiel
+
+[ILLUSTRATIVE EXAMPLE] Ein Anleger leiht sich 100 Aktien, die bei 50 € notieren, und verkauft sie leer, weil er fallende Kurse erwartet. Fällt der Kurs tatsächlich auf 30 €, kann er die Aktien für 3.000 € zurückkaufen und zurückgeben und behält die Differenz von 2.000 € (vor Kosten) – ein ordentlicher, aber begrenzter Gewinn, weil die Aktie höchstens auf null fallen konnte. Steigt die Aktie dagegen unerwartet auf 150 €, müsste er 15.000 € aufwenden, um die Aktien zurückzukaufen, die er für 5.000 € verkauft hat – ein Verlust von 10.000 €, und würde der Kurs weiter steigen, würde dieser Verlust ohne Obergrenze weiter wachsen.
+
+## Übungsquiz
+1. Wie funktioniert ein Leerverkauf technisch?
+2. Warum ist der maximal mögliche Gewinn eines Leerverkäufers begrenzt, sein möglicher Verlust aber theoretisch unbegrenzt?
+3. Was ist ein Short Squeeze, und wie kann er die Verluste eines Leerverkäufers beschleunigen?
+
+## Lösungsschlüssel
+1. Man leiht sich Aktien, verkauft sie zum aktuellen Kurs und kauft sie später zurück, um sie dem Verleiher zurückzugeben; man gewinnt, wenn der Rückkaufkurs unter dem Verkaufskurs liegt.
+2. Der Kurs einer Aktie kann höchstens auf null fallen (das begrenzt den Gewinn), hat aber keine theoretische Obergrenze, wie hoch er steigen kann (das lässt das Verlustpotenzial unbegrenzt).
+3. Ein sich selbst verstärkender Kreislauf, in dem steigende Kurse Leerverkäufer zum Rückkauf von Aktien zwingen, um Verluste zu begrenzen, und dieser Kaufdruck die Kurse weiter steigen lässt, was weitere erzwungene Käufe auslöst.
+
+## Antworten und Erklärungen
+1. Das ist die technische Grundlage der gesamten Lektion.
+2. Das ist das zentrale asymmetrische Risikoprofil, das Leerverkäufe vom gewöhnlichen Aktienbesitz unterscheidet.
+3. Das erklärt einen realen, historisch beobachteten Beschleunigungsmechanismus, der mit dem oben beschriebenen unbegrenzten Verlustrisiko zusammenhängt.
+
+## Das Wichtigste in Kürze
+- Ein Leerverkauf profitiert von einem fallenden Aktienkurs: Man leiht sich Aktien, verkauft sie und kauft sie später (hoffentlich) günstiger zurück.
+- Der maximale Gewinn ist begrenzt, weil eine Aktie höchstens auf null fallen kann; der mögliche Verlust ist theoretisch unbegrenzt, weil der Kurs keine Obergrenze hat.
+- Ein Short Squeeze kann Verluste durch einen sich selbst verstärkenden Kreislauf erzwungener Käufe bei steigenden Kursen beschleunigen.
+
+## Hinweis zum Bildungszweck
+Diese Lektion dient ausschließlich der allgemeinen finanziellen Bildung und ist keine individuelle Finanz-, Anlage-, Steuer- oder Rechtsberatung. Leerverkäufe sind mit erheblichen, möglicherweise unbegrenzten Risiken verbunden und nicht für alle Anlegerinnen und Anleger geeignet. Wende dich vor Leerverkäufen an eine zugelassene Fachperson.
+
+===== WHITE-L3-012
+TITLE: Warum ein Sparplan das Timing-Risiko senkt, nicht das Anlagerisiko
+SUMMARY: Erfahre, warum das regelmäßige Anlegen eines festen Betrags das Risiko eines schlechten Einstiegszeitpunkts senkt, ohne das zugrunde liegende Risiko der Anlage selbst zu senken.
+# WHITE-L3-012: Warum ein Sparplan das Timing-Risiko senkt, nicht das Anlagerisiko
+
+## Lernziele
+Am Ende dieser Lektion kannst du:
+- erklären, wie regelmäßiges Investieren mit festen Beträgen (Durchschnittskosteneffekt, englisch Dollar-Cost Averaging) funktioniert
+- erklären, welche konkrete Art von Risiko dadurch sinkt
+- erklären, warum das zugrunde liegende Risiko der Anlage selbst dadurch nicht sinkt
+
+## Hauptinhalt
+
+Beim **regelmäßigen Investieren mit festen Beträgen** – in Deutschland meist über einen Wertpapier- oder ETF-Sparplan – legst du in festen Abständen, zum Beispiel monatlich, einen festen Geldbetrag an, unabhängig vom jeweiligen Kurs, statt eine größere Summe auf einmal zu investieren. Der dabei entstehende Ausgleich der Einstiegskurse wird oft Durchschnittskosteneffekt (Cost-Average-Effekt) genannt.
+
+Hier das „Warum“, weshalb das gezielt das Timing-Risiko anspricht – in Verbindung mit Lektion 1: Weil du über die Zeit zu vielen verschiedenen Kursen kaufst, vermeidest du das Risiko, deinen gesamten Betrag direkt vor einem deutlichen, ungünstig getimten Abschwung anzulegen. Manche Käufe erfolgen zu höheren Kursen, manche zu niedrigeren, und die durchschnittlichen Kosten je Anteil glätten sich über den Anlagezeitraum.
+
+[VERIFIED FACT] Ein Sparplan senkt nicht das tatsächliche Risiko oder die Volatilität der zugrunde liegenden Anlage – die Aktie, der Fonds oder der Vermögenswert, den du kaufst, behält dieselben grundlegenden Risikoeigenschaften, egal wie du deine Käufe zeitlich verteilst. Was sich ändert, ist, wie stark du einem einzelnen schlechten Einstiegszeitpunkt ausgesetzt bist – nicht das Verhalten der Anlage, sobald du sie besitzt.
+
+## Durchgerechnetes Beispiel
+
+[ILLUSTRATIVE EXAMPLE] Eine Anlegerin möchte 12.000 € anlegen. Würde sie alles als Einmalbetrag direkt vor einem starken Markteinbruch investieren, wäre der gesamte Betrag sofort diesem Rückgang ausgesetzt. Legt sie stattdessen 12 Monate lang je 1.000 € an, sind nur die frühesten Einzahlungen dem vollen Rückgang ausgesetzt, falls er früh in diesem Zeitraum eintritt – spätere Einzahlungen kaufen zu den nun niedrigeren Kursen und gleichen ihren durchschnittlichen Einstandspreis aus. [ASSUMPTION] Steigt der Markt dagegen während der 12 Monate stetig, hätte der Sparplan zu einem höheren Durchschnittspreis geführt als die sofortige Anlage des gesamten Betrags – ein Sparplan schützt vor einem bestimmten Szenario mit schlechtem Timing, garantiert aber nicht in jedem Szenario ein besseres Ergebnis als eine Einmalanlage (dieser Vergleich ist direkt Thema der nächsten Lektion).
+
+## Übungsquiz
+1. Wie funktioniert regelmäßiges Investieren mit festen Beträgen?
+2. Welche konkrete Art von Risiko spricht diese Methode an?
+3. Senkt diese Methode das zugrunde liegende Risiko der Anlage selbst? Warum oder warum nicht?
+
+## Lösungsschlüssel
+1. Man legt in regelmäßigen Abständen einen festen Betrag an, unabhängig vom Kurs, statt eine Summe auf einmal zu investieren.
+2. Das Timing-Risiko – das Risiko, eine große Summe direkt vor einem ungünstig getimten Abschwung anzulegen.
+3. Nein – die Risiko- und Volatilitätseigenschaften der Anlage selbst bleiben unverändert; die Methode verändert nur, wie stark man einem einzelnen, möglicherweise schlecht getimten Einstiegszeitpunkt ausgesetzt ist.
+
+## Antworten und Erklärungen
+1. Das ist die technische Definition, die man für den Rest der Lektion braucht.
+2. Das ist die zentrale, präzise Unterscheidung der Lektion – regelmäßiges Investieren ist ein Werkzeug gegen schlechtes Timing, kein Werkzeug, das das Risiko der Anlage selbst senkt.
+3. Das bekräftigt die Unterscheidung und bereitet die Abwägung vor, die in der nächsten Lektion untersucht wird.
+
+## Das Wichtigste in Kürze
+- Beim regelmäßigen Investieren legt man einen festen Betrag in regelmäßigen Abständen an statt alles auf einmal.
+- Es senkt gezielt das Timing-Risiko – das Risiko einer einzelnen, schlecht getimten großen Anlage.
+- Es verändert nicht das zugrunde liegende Risiko oder die Volatilität der Anlage selbst, sondern nur, wie stark man einem schlechten Einstiegszeitpunkt ausgesetzt ist.
+
+## Hinweis zum Bildungszweck
+Diese Lektion dient ausschließlich der allgemeinen finanziellen Bildung und ist keine individuelle Finanz-, Anlage-, Steuer- oder Rechtsberatung. Alle Zahlen sind veranschaulichende Schätzungen, keine Garantien. Wende dich vor Anlageentscheidungen an eine zugelassene Fachperson, etwa eine unabhängige Anlage- oder Honorarberatung.

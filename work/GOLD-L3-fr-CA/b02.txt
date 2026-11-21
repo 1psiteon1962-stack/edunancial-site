@@ -1,0 +1,342 @@
+===== GOLD-L3-008
+TITLE: Pourquoi les cadres d'évaluation diffèrent d'une catégorie d'actifs à l'autre
+SUMMARY: Découvre pourquoi il n'existe pas une seule « bonne » façon d'évaluer n'importe quel placement, et pourquoi utiliser le mauvais cadre pour un type d'actif donné mène à de mauvaises conclusions.
+# GOLD-L3-008 : Pourquoi les cadres d'évaluation diffèrent d'une catégorie d'actifs à l'autre
+
+## Objectifs d'apprentissage
+À la fin de cette leçon, tu pourras :
+- Expliquer pourquoi différentes catégories d'actifs exigent des cadres d'évaluation vraiment différents
+- Nommer des exemples de cadres adaptés à différents types d'actifs
+- Expliquer pourquoi appliquer le mauvais cadre à un actif mène à des conclusions erronées
+
+## Contenu principal
+
+Les leçons 4 à 7 ont mené à un point central : différents types d'actifs doivent être évalués avec des outils différents, parce qu'ils créent de la valeur de façons fondamentalement différentes. Cette leçon rend ce principe explicite et général.
+
+Voici « pourquoi » il n'existe pas de cadre d'évaluation unique et universel : la valeur d'une action est raisonnablement liée à ses bénéfices et à ses perspectives de croissance (des cadres comme le ratio cours-bénéfice, abordé dans le parcours WHITE de ce programme). La valeur d'une obligation est liée à ses paiements fixes et aux taux d'intérêt en vigueur. La valeur d'un immeuble locatif se rattache à ses revenus de location et à son taux de capitalisation (comme on l'a vu dans le parcours RED). L'or et bien des marchandises, n'ayant aucun flux de trésorerie, exigent un tout autre angle — l'offre, la demande et leur rôle de réserve de valeur, comme l'ont établi les leçons 4 et 5.
+
+[VERIFIED FACT] Appliquer un cadre fondé sur les flux de trésorerie à l'or (se demander « quel est le ratio cours-bénéfice de l'or? ») donne un résultat absurde, puisque l'or n'a pas de bénéfices. Appliquer un cadre fondé uniquement sur l'offre et la demande à une entreprise stable et rentable, en ignorant ses bénéfices réels, passerait de la même façon à côté de l'information la plus pertinente pour ce type d'actif précis. C'est pourquoi la première étape de l'évaluation de tout placement consiste à bien déterminer à quelle catégorie il appartient et quel cadre s'applique réellement — une étape facile à sauter, mais essentielle pour obtenir une réponse qui a du sens.
+
+## Exemple pratique
+
+[ILLUSTRATIVE EXAMPLE] Une investisseuse qui découvre les placements non traditionnels essaie d'appliquer un cadre de ratio cours-bénéfice, appris en analysant des actions, pour déterminer si l'or est actuellement « bon marché » ou « cher ». [ASSUMPTION] Cette tentative échoue immédiatement, puisque l'or n'a aucun bénéfice sur lequel calculer un ratio — le bon cadre consiste plutôt à examiner le comportement historique du prix de l'or par rapport à l'inflation, aux conditions monétaires et aux facteurs plus larges d'offre et de demande, un type d'analyse complètement différent de celui qui fonctionne bien pour évaluer une action.
+
+## Quiz de pratique
+
+1. Pourquoi un cadre d'évaluation unique et universel ne fonctionne-t-il pas pour toutes les catégories d'actifs?
+2. Donne deux exemples de cadres d'évaluation différents adaptés à différents types d'actifs.
+3. Selon cette leçon, quelle est la première étape essentielle de l'évaluation de tout placement?
+
+## Corrigé
+
+1. Parce que différents types d'actifs créent de la valeur de façons fondamentalement différentes — certains au moyen de flux de trésorerie et de bénéfices, d'autres par leur rôle de réserve de valeur ou par la dynamique de l'offre et de la demande —, ce qui exige des outils d'analyse vraiment différents.
+2. Deux parmi les suivants : une analyse de type ratio cours-bénéfice pour les actions, une analyse du taux de capitalisation pour les immeubles locatifs, une analyse des paiements fixes et des taux d'intérêt pour les obligations, une analyse de l'offre et de la demande pour l'or et les marchandises.
+3. Bien déterminer à quelle catégorie un actif appartient et quel cadre d'évaluation s'y applique réellement.
+
+## Réponses et explications
+
+1. C'est le « pourquoi » central et unificateur sur lequel la leçon est construite.
+2. Ça vérifie si le lecteur peut se rappeler et appliquer des cadres précis abordés dans ce programme.
+3. Ça renforce la leçon pratique et applicable.
+
+## Points clés à retenir
+- Différentes catégories d'actifs exigent des cadres d'évaluation vraiment différents, puisqu'elles créent de la valeur de façons fondamentalement différentes.
+- Appliquer le mauvais cadre à un actif — comme une analyse des flux de trésorerie à l'or — donne des résultats vides de sens ou trompeurs.
+- Bien déterminer la catégorie d'un actif est la première étape essentielle avant d'appliquer tout cadre d'évaluation.
+
+## Avis pédagogique
+Cette leçon sert uniquement à l'éducation financière générale et ne constitue pas un conseil financier, de placement, fiscal ou juridique personnalisé. Consulte un professionnel autorisé en finances avant de prendre des décisions de placement.
+
+===== GOLD-L3-009
+TITLE: Pourquoi comparer des actifs exige un cadre commun
+SUMMARY: Découvre pourquoi comparer directement des types d'actifs vraiment différents exige de les ramener à une base commune, et pourquoi sauter cette étape mène à de mauvaises décisions.
+# GOLD-L3-009 : Pourquoi comparer des actifs exige un cadre commun
+
+## Objectifs d'apprentissage
+À la fin de cette leçon, tu pourras :
+- Expliquer pourquoi comparer différents types d'actifs exige de les ramener à une base de comparaison commune
+- Nommer le rendement ajusté au risque comme l'un des cadres communs utilisés pour faire ce genre de comparaison
+- Expliquer pourquoi sauter cette étape de conversion mène à de mauvaises décisions de placement
+
+## Contenu principal
+
+La leçon 8 a établi que différents actifs exigent différents cadres d'évaluation. Voici « pourquoi » ça crée un vrai défi lorsqu'un investisseur doit réellement choisir entre différents types d'actifs, et non seulement les évaluer chacun de son côté : si on analyse une action d'une façon et l'or d'une autre, comment un investisseur peut-il comparer les deux de façon significative pour décider comment répartir ses capitaux entre eux?
+
+[VERIFIED FACT] On règle généralement ce problème en ramenant les différents actifs à une base de comparaison commune, plutôt que de comparer directement leurs indicateurs propres. Le **rendement ajusté au risque** — qui tient compte non seulement du rendement attendu d'un placement, mais aussi de ce rendement par rapport au risque pris pour l'obtenir — est l'un de ces cadres courants, qui permet de comparer des types d'actifs très différents sur une base plus équivalente que la seule comparaison des rendements bruts.
+
+C'est pourquoi conclure « l'actif A a eu un meilleur rendement que l'actif B, donc l'actif A était le meilleur placement » peut être trompeur si on ne tient pas compte des différents niveaux de risque en jeu — une comparaison qui ignore l'ajustement au risque saute exactement l'étape de conversion décrite dans cette leçon, et peut mener à favoriser systématiquement les actifs plus risqués simplement parce qu'un risque plus élevé est parfois, mais pas toujours, associé à des rendements bruts plus élevés, en écho à la relation fondamentale entre le risque et le rendement de la leçon 1.
+
+## Exemple pratique
+
+[ILLUSTRATIVE EXAMPLE] Une investisseuse compare deux placements sur la même période : l'un a donné un rendement brut plus élevé, mais avec beaucoup plus de volatilité et d'incertitude en cours de route; l'autre a donné un rendement brut un peu plus faible, mais avec beaucoup plus de stabilité et de prévisibilité. [ASSUMPTION] Comparer seulement les rendements bruts favoriserait le premier placement, mais une comparaison ajustée au risque — qui tient compte du risque pris pour obtenir chaque rendement — pourrait révéler que le deuxième placement a en fait donné un résultat ajusté au risque plus avantageux, une conclusion très différente de celle que suggérerait la seule comparaison des rendements bruts.
+
+## Quiz de pratique
+
+1. Pourquoi comparer différents types d'actifs exige-t-il de les ramener à une base de comparaison commune?
+2. Qu'est-ce que le rendement ajusté au risque, et pourquoi l'utilise-t-on pour ce genre de comparaison?
+3. Pourquoi comparer seulement les rendements bruts, sans ajustement au risque, peut-il être trompeur?
+
+## Corrigé
+
+1. Parce que différents actifs sont évalués avec leurs propres cadres (leçon 8), de sorte qu'une comparaison directe, sur un pied d'égalité, exige une base commune qui s'applique à tous les types d'actifs.
+2. Un cadre qui tient compte du rendement d'un placement par rapport au risque pris pour l'obtenir; on l'utilise parce qu'il permet une comparaison plus équivalente entre des types d'actifs très différents que la seule comparaison des rendements bruts.
+3. Parce qu'elle peut favoriser systématiquement les actifs plus risqués simplement parce qu'ils produisent parfois des rendements bruts plus élevés, sans tenir compte du risque supplémentaire pris pour obtenir ce rendement.
+
+## Réponses et explications
+
+1. Ça prolonge directement la notion de la leçon 8 au défi pratique de comparer différents types d'actifs.
+2. Ça présente le cadre commun précis sur lequel porte la leçon.
+3. C'est la mise en garde centrale, qui se relie à la relation entre le risque et le rendement de la leçon 1.
+
+## Points clés à retenir
+- Comparer de façon significative différents types d'actifs exige de les ramener à une base commune, puisque chacun utilise son propre cadre d'évaluation.
+- Le rendement ajusté au risque est l'un des cadres courants utilisés pour rendre ces comparaisons plus équivalentes.
+- Comparer seulement les rendements bruts, sans ajustement au risque, peut être trompeur et favoriser les actifs plus risqués sans justification complète.
+
+## Avis pédagogique
+Cette leçon sert uniquement à l'éducation financière générale et ne constitue pas un conseil financier, de placement, fiscal ou juridique personnalisé. Les rendements passés ne garantissent pas les résultats futurs. Consulte un professionnel autorisé en finances avant de prendre des décisions de placement.
+
+===== GOLD-L3-010
+TITLE: Pourquoi la liquidité varie énormément d'un type de placement à l'autre
+SUMMARY: Découvre pourquoi certains placements peuvent être vendus en quelques secondes alors que d'autres prennent des mois ou des années, et pourquoi cette différence est un vrai facteur de risque, et non un simple inconvénient.
+# GOLD-L3-010 : Pourquoi la liquidité varie énormément d'un type de placement à l'autre
+
+## Objectifs d'apprentissage
+À la fin de cette leçon, tu pourras :
+- Définir la liquidité dans le contexte de la comparaison de différents types de placements
+- Expliquer pourquoi la liquidité varie énormément d'une catégorie d'actifs à l'autre
+- Expliquer pourquoi l'illiquidité est un vrai facteur de risque, et non un simple inconvénient
+
+## Contenu principal
+
+Le parcours WHITE de ce programme a présenté la liquidité dans le contexte de la comparaison d'actions individuelles. Voici la même notion appliquée plus largement aux catégories d'actifs : la **liquidité** — la rapidité et la facilité avec lesquelles un actif peut être converti en argent sans trop toucher son prix — varie énormément non seulement d'un titre à l'autre, mais aussi entre des catégories entières de placements.
+
+Une action cotée en bourse peut généralement être vendue en quelques secondes pendant les heures de marché. L'or physique peut généralement être vendu assez rapidement par l'intermédiaire de négociants établis, mais avec certaines frictions et certains coûts. Une participation dans une entreprise privée, un immeuble ou une part dans un fonds de placement privé peuvent prendre des mois, voire, dans certains cas, des années à vendre, si on trouve un acheteur.
+
+[VERIFIED FACT] Voici « pourquoi » ça compte comme un vrai risque, et non comme un simple inconvénient : un investisseur qui a besoin d'argent de façon imprévue, mais qui détient surtout des actifs illiquides, pourrait être forcé de vendre à un prix défavorable, d'accepter des conditions défavorables ou tout simplement être incapable d'accéder à temps aux fonds dont il a besoin — un vrai risque, distinct de la qualité sous-jacente du placement ou de son rendement attendu.
+
+## Exemple pratique
+
+[ILLUSTRATIVE EXAMPLE] Une investisseuse détient un portefeuille diversifié, mais une part importante est immobilisée dans un placement dans une entreprise privée, sans marché actif ni possibilité de vendre rapidement. [ASSUMPTION] Si elle a un besoin d'argent imprévu, elle peut accéder assez rapidement à ses placements liquides (actions, or), mais pas à son placement privé illiquide — elle pourrait devoir attendre longtemps, accepter un prix défavorable d'un nombre limité d'acheteurs intéressés, ou tout simplement être incapable d'accéder à cette partie de sa richesse au moment où elle en a besoin, ce qui montre pourquoi la liquidité est un vrai facteur de risque à considérer en plus du rendement attendu d'un placement et de ses autres caractéristiques.
+
+## Quiz de pratique
+
+1. Que mesure généralement la liquidité, dans le contexte de la comparaison des types de placements?
+2. Donne un exemple de type de placement très liquide et un exemple de type de placement très illiquide, tirés de cette leçon.
+3. Pourquoi considère-t-on l'illiquidité comme un vrai risque, et non comme un simple inconvénient?
+
+## Corrigé
+
+1. La rapidité et la facilité avec lesquelles un actif peut être converti en argent sans trop toucher son prix.
+2. Très liquide : une action cotée en bourse. Très illiquide : une participation dans une entreprise privée, un immeuble ou une part dans un fonds de placement privé.
+3. Parce qu'un investisseur qui a besoin d'argent de façon imprévue pourrait être forcé de vendre à un prix défavorable, d'accepter de mauvaises conditions ou être incapable d'accéder à temps aux fonds — un vrai risque distinct de la qualité sous-jacente du placement.
+
+## Réponses et explications
+
+1. C'est la définition de base de la leçon, qui prolonge une notion présentée ailleurs dans ce programme.
+2. Ça ancre la notion abstraite dans des exemples concrets d'un bout à l'autre de l'éventail de liquidité.
+3. C'est le « pourquoi » central qui recadre l'illiquidité comme un vrai facteur de risque.
+
+## Points clés à retenir
+- La liquidité varie énormément d'un type de placement à l'autre, des titres publics très liquides aux placements privés très illiquides.
+- Cette différence est un vrai facteur de risque, distinct du rendement attendu ou de la qualité sous-jacente d'un placement.
+- Les besoins de liquidité globaux d'un investisseur devraient influer sur la part d'un portefeuille raisonnablement consacrée aux placements illiquides.
+
+## Avis pédagogique
+Cette leçon sert uniquement à l'éducation financière générale et ne constitue pas un conseil financier, de placement, fiscal ou juridique personnalisé. Consulte un professionnel autorisé en finances avant de prendre des décisions de placement.
+
+===== GOLD-L3-011
+TITLE: Pourquoi les placements non traditionnels échangent souvent la liquidité contre un potentiel de rendement
+SUMMARY: Découvre pourquoi de nombreux placements non traditionnels sont structurés pour être illiquides, et pourquoi cette illiquidité est souvent directement liée à leur potentiel de rendement, plutôt que d'être accessoire.
+# GOLD-L3-011 : Pourquoi les placements non traditionnels échangent souvent la liquidité contre un potentiel de rendement
+
+## Objectifs d'apprentissage
+À la fin de cette leçon, tu pourras :
+- Définir de façon générale les placements non traditionnels
+- Expliquer pourquoi de nombreux placements non traditionnels sont volontairement structurés pour être illiquides
+- Avoir un aperçu de la notion de prime d'illiquidité approfondie dans une leçon plus loin
+
+## Contenu principal
+
+Les **placements non traditionnels** (aussi appelés placements alternatifs) désignent généralement une vaste catégorie de placements qui ne font pas partie des actions et des obligations traditionnelles cotées en bourse — le capital-investissement, le capital de risque, les fonds de couverture, les fonds immobiliers et d'autres véhicules semblables, dont plusieurs sont approfondis dans les prochaines leçons.
+
+Voici « pourquoi » bon nombre de ces véhicules sont volontairement structurés avec une liquidité limitée, en lien direct avec la discussion sur la liquidité de la leçon 10 : immobiliser les capitaux des investisseurs pendant une période définie, souvent de plusieurs années, permet au gestionnaire du fonds de poursuivre des stratégies de placement qui ne seraient pas pratiques avec des capitaux pouvant être retirés à court préavis — investir dans des entreprises ou des projets qui prennent des années à arriver à maturité, sans devoir garder des réserves d'argent pour répondre à d'éventuelles demandes de retrait des investisseurs à tout moment.
+
+[VERIFIED FACT] Cette illiquidité structurelle est souvent directement liée au potentiel de rendement que ces véhicules sont conçus pour rechercher, et n'est pas simplement un effet secondaire malheureux — la stratégie elle-même dépend souvent du fait que le gestionnaire dispose de capitaux sûrs et à long terme, plutôt que d'argent qui pourrait être retiré à tout moment. C'est pourquoi on présente souvent les placements non traditionnels comme un échange de liquidité contre un rendement potentiellement plus élevé — un vrai compromis, qui annonce la notion de prime d'illiquidité abordée plus loin dans ce parcours.
+
+## Exemple pratique
+
+[ILLUSTRATIVE EXAMPLE] Un fonds de capital-investissement immobilise les capitaux de ses investisseurs pendant plusieurs années et utilise ce financement sûr et à long terme pour acquérir et améliorer des entreprises selon un échéancier de plusieurs années, avant de finir par les vendre. [ASSUMPTION] Si les investisseurs pouvaient retirer leurs capitaux à court préavis, le gestionnaire du fonds ne pourrait pas exécuter de façon fiable ce genre de stratégie à long terme, puisque des demandes de retrait imprévues pourraient forcer des ventes prématurées et mal synchronisées des placements sous-jacents du fonds — c'est l'illiquidité elle-même qui rend possible la stratégie sous-jacente, ce qui relie directement la structure du fonds à son potentiel de rendement visé.
+
+## Quiz de pratique
+
+1. Que désignent généralement les « placements non traditionnels »?
+2. Pourquoi de nombreux véhicules de placement non traditionnels sont-ils volontairement structurés avec une liquidité limitée?
+3. Pourquoi cette illiquidité est-elle souvent directement liée au potentiel de rendement du véhicule, plutôt que d'être simplement un effet secondaire malheureux?
+
+## Corrigé
+
+1. Une vaste catégorie de placements qui ne font pas partie des actions et des obligations traditionnelles cotées en bourse, dont le capital-investissement, le capital de risque, les fonds de couverture et d'autres véhicules semblables.
+2. Pour permettre au gestionnaire du fonds de poursuivre des stratégies à long terme sans devoir maintenir de la liquidité pour répondre à d'éventuelles demandes de retrait des investisseurs à tout moment.
+3. Parce que la stratégie de placement sous-jacente dépend souvent du fait que le gestionnaire dispose de capitaux sûrs et à long terme — l'illiquidité rend structurellement possible la stratégie dont dépend le potentiel de rendement.
+
+## Réponses et explications
+
+1. C'est la définition de base de la leçon.
+2. C'est le « pourquoi » central qui explique ce choix de structure volontaire.
+3. Ça renforce le lien entre la structure et la stratégie, et annonce la notion de prime d'illiquidité abordée plus loin.
+
+## Points clés à retenir
+- Les placements non traditionnels couvrent de façon générale les véhicules qui ne font pas partie des actions et des obligations traditionnelles cotées en bourse.
+- Bon nombre sont volontairement structurés avec une liquidité limitée pour permettre des stratégies de placement à long terme.
+- Cette illiquidité est souvent directement liée au potentiel de rendement du véhicule, ce qui représente un vrai compromis plutôt qu'un inconvénient accessoire.
+
+## Avis pédagogique
+Cette leçon sert uniquement à l'éducation financière générale et ne constitue pas un conseil financier, de placement, fiscal ou juridique personnalisé. Consulte un professionnel autorisé en finances avant de prendre des décisions de placement.
+
+===== GOLD-L3-012
+TITLE: Pourquoi le capital-investissement et le capital de risque immobilisent les capitaux pendant des années
+SUMMARY: Découvre pourquoi les fonds de capital-investissement et de capital de risque exigent généralement des engagements de plusieurs années, et pourquoi cet échéancier est lié à la stratégie de placement sous-jacente.
+# GOLD-L3-012 : Pourquoi le capital-investissement et le capital de risque immobilisent les capitaux pendant des années
+
+## Objectifs d'apprentissage
+À la fin de cette leçon, tu pourras :
+- Expliquer la structure et l'échéancier généraux des fonds de capital-investissement et de capital de risque
+- Expliquer pourquoi ces fonds exigent généralement des engagements de capitaux de plusieurs années
+- Relier cette notion à la discussion sur l'illiquidité de la leçon 11
+
+## Contenu principal
+
+Les fonds de **capital-investissement** (en anglais, *private equity*) acquièrent généralement des participations dans des entreprises privées établies, souvent arrivées à maturité, dans le but d'améliorer leur exploitation et leur valeur avant de finir par les vendre. Les fonds de **capital de risque**, abordés ailleurs dans le parcours BLUE de ce programme du point de vue du fondateur, investissent généralement dans des entreprises en démarrage à fort potentiel de croissance, en acceptant un taux d'échec plus élevé parmi les placements individuels en échange du potentiel de rendements exceptionnels provenant des réussites.
+
+Voici « pourquoi » les deux types de fonds exigent généralement que les investisseurs engagent leurs capitaux pendant une longue période, souvent une décennie ou plus : [VERIFIED FACT] les deux stratégies dépendent d'une vraie transformation ou d'une vraie croissance d'entreprise qui se produit sur une période réelle — améliorer l'exploitation d'une entreprise acquise, ou faire d'une entreprise en démarrage une entreprise mature et prospère —, des processus qu'on ne peut tout simplement pas précipiter ni synchroniser de façon fiable avec les besoins de liquidité individuels, potentiellement à plus court terme, d'un investisseur.
+
+Ça illustre directement la notion de la leçon 11 : l'immobilisation sur plusieurs années n'est pas un inconvénient arbitraire — elle est structurellement nécessaire pour que le fonds poursuive exactement le genre de création de valeur à long terme autour duquel ces stratégies sont construites, sans risquer d'être forcé à des sorties prématurées en raison de demandes de retrait des investisseurs.
+
+## Exemple pratique
+
+[ILLUSTRATIVE EXAMPLE] Une investisseuse engage des capitaux dans un fonds de capital-investissement dont l'horizon de placement prévu est de plusieurs années. Pendant cette période, le fonds utilise les capitaux qu'elle a engagés, ainsi que les engagements d'autres investisseurs, pour acquérir et améliorer plusieurs entreprises, en prévoyant les vendre une fois leur valeur augmentée de façon importante. [ASSUMPTION] Si elle avait besoin de retirer ses capitaux plus tôt, avant l'échéancier de sortie prévu du fonds, elle aurait généralement très peu d'options pour le faire — la structure du fonds suppose et exige précisément ces capitaux engagés, ce qui montre pourquoi ce type de placement ne convient qu'à des capitaux qu'un investisseur peut vraiment engager pour toute la période prévue sans avoir besoin d'y accéder plus tôt.
+
+## Quiz de pratique
+
+1. Quelle est la différence générale entre ce dans quoi investissent habituellement les fonds de capital-investissement et les fonds de capital de risque?
+2. Pourquoi les deux types de fonds exigent-ils généralement que les investisseurs engagent leurs capitaux pendant une longue période de plusieurs années?
+3. Comment cette leçon illustre-t-elle directement la notion présentée à la leçon 11?
+
+## Corrigé
+
+1. Le capital-investissement acquiert généralement des participations dans des entreprises privées établies et matures; le capital de risque investit généralement dans des entreprises en démarrage à fort potentiel de croissance.
+2. Parce que les deux stratégies dépendent d'une vraie transformation ou d'une vraie croissance d'entreprise qui se produit sur une période réelle, un processus qu'on ne peut pas précipiter ni synchroniser de façon fiable avec des besoins de liquidité à plus court terme des investisseurs.
+3. L'immobilisation sur plusieurs années rend structurellement possible la stratégie de création de valeur à long terme de ces fonds, ce qui illustre directement pourquoi l'illiquidité et le potentiel de rendement sont liés, et non accessoires, comme l'a établi la leçon 11.
+
+## Réponses et explications
+
+1. C'est la distinction de base de la leçon.
+2. C'est le « pourquoi » central qui explique la nécessité de la période d'immobilisation.
+3. Ça relie explicitement la leçon à la leçon 11, ce qui renforce la structure intégrée du parcours.
+
+## Points clés à retenir
+- Le capital-investissement vise généralement des entreprises établies; le capital de risque vise généralement des entreprises en démarrage à forte croissance.
+- Les deux exigent généralement des engagements de capitaux de plusieurs années, puisque leurs stratégies sous-jacentes ont besoin de temps réel pour la transformation ou la croissance de l'entreprise.
+- Ça illustre le lien direct entre l'illiquidité et le potentiel de rendement présenté à la leçon 11.
+
+## Avis pédagogique
+Cette leçon sert uniquement à l'éducation financière générale et ne constitue pas un conseil financier, de placement, fiscal ou juridique personnalisé. Consulte un professionnel autorisé en finances avant de prendre des décisions de placement.
+
+===== GOLD-L3-013
+TITLE: Pourquoi le contrôle diligent est différent pour les placements illiquides
+SUMMARY: Découvre pourquoi évaluer un placement illiquide exige un contrôle diligent initial plus poussé qu'une action cotée en bourse, puisqu'il n'y a pas de sortie facile si quelque chose tourne mal.
+# GOLD-L3-013 : Pourquoi le contrôle diligent est différent pour les placements illiquides
+
+## Objectifs d'apprentissage
+À la fin de cette leçon, tu pourras :
+- Expliquer pourquoi les placements illiquides exigent un contrôle diligent initial plus poussé que les placements liquides
+- Expliquer pourquoi l'absence de sortie facile change les enjeux de la décision initiale
+- Relier cette notion à la discussion sur le contrôle diligent du parcours BLUE de ce programme
+
+## Contenu principal
+
+Le parcours BLUE de ce programme aborde le contrôle diligent (ou vérification diligente) dans le contexte de l'acquisition d'une entreprise — une enquête approfondie avant d'engager des capitaux dans une transaction qu'on ne peut pas facilement annuler. Voici « pourquoi » cette même rigueur d'examen s'applique de façon générale aux placements illiquides, en lien avec la discussion sur la liquidité de la leçon 10 : avec une action cotée en bourse, une erreur peut souvent être corrigée assez facilement et à peu de frais — si de nouveaux renseignements apparaissent ou que la thèse de départ se révèle fausse, la position peut généralement être vendue rapidement. Avec un placement illiquide — un fonds privé, une participation directe dans une entreprise ou un véhicule semblable —, une telle correction facile n'existe pas une fois les capitaux engagés.
+
+[VERIFIED FACT] Ça veut dire que le processus de contrôle diligent avant d'engager des capitaux dans un placement illiquide doit être beaucoup plus poussé que pour un placement liquide, puisqu'il pourrait être la principale occasion de repérer un problème avant qu'il soit trop tard pour agir de façon utile. Pour un placement dans un fonds en particulier, ça comprend non seulement l'évaluation de la stratégie de placement déclarée du fonds, mais aussi les antécédents, la réputation et les modalités précises du gestionnaire du fonds — un sujet approfondi dans une leçon plus loin.
+
+C'est pourquoi « je vais simplement vendre si ça ne marche pas » n'est pas un filet de sécurité offert pour les placements illiquides comme il l'est souvent pour les placements liquides — la décision d'engager des capitaux doit être la bonne, ou du moins mûrement réfléchie, en grande partie dès le départ.
+
+## Exemple pratique
+
+[ILLUSTRATIVE EXAMPLE] Une investisseuse qui envisage une action cotée en bourse peut commencer par une position modeste, suivre les nouveaux renseignements à mesure qu'ils apparaissent, et rajuster sa position ou en sortir assez rapidement si sa thèse de départ se révèle fausse. Une investisseuse qui envisage un engagement de plusieurs années dans un fonds de capital-investissement n'a pas cette même souplesse — [ASSUMPTION] une fois les capitaux engagés, elle est généralement liée, peu importe les nouveaux renseignements qui apparaissent plus tard, ce qui veut dire que son contrôle diligent initial sur la stratégie, le gestionnaire et les modalités du fonds doit être beaucoup plus poussé que la recherche initiale qu'elle pourrait faire avant un achat d'actions plus petit et facile à rajuster.
+
+## Quiz de pratique
+
+1. Pourquoi une erreur dans un placement liquide a-t-elle tendance à être plus facile à corriger qu'une erreur dans un placement illiquide?
+2. Pourquoi cette différence exige-t-elle un contrôle diligent initial plus poussé pour les placements illiquides?
+3. Comment cette leçon se relie-t-elle à la notion de contrôle diligent abordée dans le parcours BLUE de ce programme?
+
+## Corrigé
+
+1. Parce qu'un placement liquide peut généralement être vendu assez facilement et rapidement si de nouveaux renseignements apparaissent ou que la thèse de départ se révèle fausse, alors qu'un placement illiquide ne peut généralement pas l'être.
+2. Parce que le processus de contrôle diligent initial pourrait être la principale occasion de repérer un problème avant qu'il soit trop tard pour agir de façon utile, compte tenu de l'absence de sortie facile par la suite.
+3. Elle applique la même rigueur d'examen initial qu'exige le processus de contrôle diligent d'une acquisition d'entreprise (parcours BLUE), généralisée aux placements illiquides, compte tenu de leur caractéristique commune : pas de sortie facile une fois les capitaux engagés.
+
+## Réponses et explications
+
+1. Ça se relie directement à la discussion sur la liquidité de la leçon 10.
+2. C'est le « pourquoi » central qui explique la norme plus élevée de contrôle diligent.
+3. Ça relie explicitement la leçon à une notion parallèle ailleurs dans le programme, ce qui renforce l'apprentissage entre les parcours.
+
+## Points clés à retenir
+- Les placements illiquides exigent un contrôle diligent initial beaucoup plus poussé que les placements liquides, puisque les erreurs sont beaucoup plus difficiles à corriger après coup.
+- Pour les placements dans des fonds en particulier, ça comprend l'évaluation des antécédents et des modalités du gestionnaire du fonds, et pas seulement de la stratégie déclarée.
+- « Je vais simplement vendre si ça ne marche pas » n'est généralement pas une option pour les placements illiquides, ce qui augmente les enjeux de la décision initiale.
+
+## Avis pédagogique
+Cette leçon sert uniquement à l'éducation financière générale et ne constitue pas un conseil financier, de placement, fiscal ou juridique personnalisé. Consulte un professionnel autorisé en finances avant de prendre des décisions de placement.
+
+===== GOLD-L3-014
+TITLE: Pourquoi les cycles économiques touchent les catégories d'actifs différemment
+SUMMARY: Découvre pourquoi les actions, les obligations, l'immobilier et l'or ne réagissent pas tous de la même façon aux mêmes conditions économiques, et pourquoi cette différence est à la base de la diversification.
+# GOLD-L3-014 : Pourquoi les cycles économiques touchent les catégories d'actifs différemment
+
+## Objectifs d'apprentissage
+À la fin de cette leçon, tu pourras :
+- Expliquer la notion générale de cycle économique
+- Expliquer pourquoi différentes catégories d'actifs ont tendance à réagir différemment aux mêmes conditions économiques
+- Relier cette notion à la discussion sur la diversification entre les catégories d'actifs du parcours WHITE de ce programme
+
+## Contenu principal
+
+Les économies traversent généralement des cycles — des périodes d'expansion (croissance, hausse de l'emploi, augmentation de l'activité des entreprises) et des périodes de contraction (ralentissement, hausse du chômage, baisse de l'activité des entreprises), influencés par de nombreux facteurs qui interagissent. [VERIFIED FACT] Le moment, la durée et la gravité précis d'un cycle donné ne sont pas prévisibles de façon fiable à l'avance, même si le schéma général de cycles qui se succèdent avec le temps est une observation économique bien établie.
+
+Voici « pourquoi » différentes catégories d'actifs ont tendance à réagir différemment au même moment de ce cycle : les actions reflètent généralement les attentes quant aux profits futurs des entreprises, et ont souvent un bon rendement pendant l'expansion et de la difficulté pendant la contraction. Les obligations, surtout celles de grande qualité, se comportent parfois relativement mieux pendant les contractions, puisque les investisseurs recherchent une sécurité relative et que les taux d'intérêt évoluent souvent d'une façon qui peut favoriser le prix des obligations existantes (en lien avec la relation entre les taux d'intérêt et le prix des obligations abordée dans le parcours WHITE). L'immobilier réagit souvent à ses propres facteurs d'offre et de demande, plus locaux, en plus des conditions économiques générales. L'or, compte tenu du rôle abordé dans les leçons précédentes, se comporte parfois relativement bien pendant les périodes de tension économique ou monétaire importante.
+
+C'est la raison de fond derrière la notion de diversification entre les catégories d'actifs abordée dans le parcours WHITE : comme différentes catégories d'actifs ont tendance à réagir différemment aux mêmes conditions économiques, détenir un mélange de ces catégories peut lisser le rendement global du portefeuille sur l'ensemble du cycle, plutôt que d'être entièrement exposé à la phase qui désavantage, à un moment donné, un seul choix d'actif concentré.
+
+## Exemple pratique
+
+[ILLUSTRATIVE EXAMPLE] Pendant une période d'expansion économique, les placements en actions d'une investisseuse ont un bon rendement, ce qui reflète la croissance des profits des entreprises et l'optimisme. Pendant la contraction économique qui suit, ces mêmes placements en actions ont de la difficulté, mais sa part distincte en obligations de grande qualité et une modeste position en or se comportent relativement mieux pendant cette même période, ce qui compense en partie la baisse des actions. [ASSUMPTION] Sur l'ensemble du cycle, son mélange diversifié de catégories d'actifs lui offre probablement une expérience globale plus stable que si elle avait été entièrement concentrée en actions, ce qui illustre la valeur pratique de la notion de diversification entre les catégories d'actifs à laquelle cette leçon se rattache.
+
+## Quiz de pratique
+
+1. Quelle est la notion générale de cycle économique?
+2. Pourquoi différentes catégories d'actifs ont-elles tendance à réagir différemment au même moment de ce cycle?
+3. Comment cette leçon se relie-t-elle à la notion de diversification entre les catégories d'actifs abordée dans le parcours WHITE?
+
+## Corrigé
+
+1. Les économies traversent généralement des périodes d'expansion et de contraction, influencées par de nombreux facteurs qui interagissent, dont le moment et la gravité ne sont pas prévisibles de façon fiable à l'avance.
+2. Parce que la valeur de chaque catégorie d'actifs est déterminée par des facteurs sous-jacents différents — les profits des entreprises pour les actions, les taux d'intérêt et la recherche de sécurité pour les obligations, l'offre et la demande locales pour l'immobilier, et la dynamique de tension et de réserve de valeur pour l'or —, qui réagissent différemment aux mêmes conditions économiques générales.
+3. Cette leçon explique le raisonnement économique de fond qui fait que la diversification entre les catégories d'actifs, abordée dans le parcours WHITE, peut lisser le rendement global du portefeuille sur l'ensemble d'un cycle économique.
+
+## Réponses et explications
+
+1. Ça établit la notion économique générale sur laquelle repose la leçon.
+2. C'est le « pourquoi » central qui explique la réaction différente des catégories d'actifs.
+3. Ça relie explicitement la leçon à une notion parallèle abordée ailleurs dans le programme, ce qui renforce l'apprentissage entre les parcours.
+
+## Points clés à retenir
+- Les économies traversent généralement des cycles d'expansion et de contraction, dont le moment n'est pas prévisible de façon fiable.
+- Différentes catégories d'actifs ont tendance à réagir différemment au même moment de ce cycle, selon leurs propres facteurs de valeur sous-jacents.
+- Cette réaction différente est le raisonnement économique de fond qui explique la valeur de la diversification entre les catégories d'actifs.
+
+## Avis pédagogique
+Cette leçon sert uniquement à l'éducation financière générale et ne constitue pas un conseil financier, de placement, fiscal ou juridique personnalisé. Les rendements passés ne garantissent pas les résultats futurs. Consulte un professionnel autorisé en finances avant de prendre des décisions de placement.

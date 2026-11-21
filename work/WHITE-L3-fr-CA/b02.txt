@@ -1,0 +1,342 @@
+===== WHITE-L3-008
+TITLE: Pourquoi vendre des options inverse complètement le profil de risque
+SUMMARY: Découvre pourquoi vendre (émettre) une option te place du côté de l'obligation du contrat, avec un profil de risque très différent de celui de l'achat.
+# WHITE-L3-008 : Pourquoi vendre des options inverse complètement le profil de risque
+
+## Objectifs d'apprentissage
+À la fin de cette leçon, tu pourras :
+- Expliquer pourquoi vendre une option crée une obligation plutôt qu'un droit
+- Expliquer pourquoi le gain maximal du vendeur d'une option est plafonné alors que son risque peut être beaucoup plus grand
+- Distinguer une position d'option couverte d'une position non couverte (« à découvert »)
+
+## Contenu principal
+
+La leçon 5 a établi qu'acheter une option donne un droit, avec une perte limitée (la prime) et un gain possible plus grand. Vendre — ou « émettre » — une option inverse complètement cette structure : le vendeur encaisse la prime au départ, mais prend l'**obligation** de respecter le contrat si l'acheteur choisit de l'exercer.
+
+Voici « pourquoi » ça inverse le profil de risque : le gain maximal du vendeur est plafonné à la prime encaissée — c'est le maximum qu'il peut gagner sur la position. Mais sa perte possible, surtout pour un vendeur qui ne détient pas déjà l'actif sous-jacent (une position « à découvert » ou non couverte), peut être beaucoup plus grande, puisque le prix sous-jacent peut évoluer fortement contre lui et qu'il reste obligé de respecter le contrat.
+
+[VERIFIED FACT] Une **option d'achat couverte** — vendre une option d'achat sur une action que le vendeur détient déjà — limite le risque pratique de cette position précise, puisque si l'acheteur exerce l'option, le vendeur livre simplement des actions qu'il détient déjà, au lieu de devoir les acheter à un prix du marché potentiellement beaucoup plus élevé. Vendre des options sans détenir déjà l'actif sous-jacent (la vente « à découvert ») comporte un risque nettement plus grand et est généralement considéré comme une stratégie avancée.
+
+## Exemple pratique
+
+[ILLUSTRATIVE EXAMPLE] Une investisseuse vend une option d'achat couverte sur une action qu'elle détient déjà, qui se négocie actuellement à 50 $, avec un prix d'exercice de 55 $, et encaisse une prime de 2 $. Si l'action reste sous 55 $, l'option expire sans valeur, et elle garde la prime de 2 $ comme profit net, tout en conservant ses actions. Si l'action monte à 70 $, l'acheteur exerce l'option, et elle est obligée de vendre ses actions à 55 $ — elle rate le gain supplémentaire au-delà de 55 $, mais son risque était limité puisqu'elle détenait déjà les actions vendues. Compare avec un vendeur d'option d'achat à découvert qui ne détient aucune action : à 70 $, il serait obligé d'acheter des actions au prix actuel du marché simplement pour les livrer à 55 $, une perte potentiellement importante, sans plafond en principe.
+
+## Quiz de pratique
+
+1. En quoi le profil de risque de la vente d'une option diffère-t-il de celui de l'achat?
+2. Qu'est-ce qu'une option d'achat couverte, et pourquoi limite-t-elle le risque pratique par rapport à une option d'achat à découvert?
+3. Quel est le gain maximal possible pour le vendeur d'une option?
+
+## Corrigé
+
+1. Vendre une option crée l'obligation de respecter le contrat s'il est exercé, avec un gain maximal plafonné (la prime), mais un risque potentiellement beaucoup plus grand — l'inverse de la perte limitée et du gain possible plus grand de l'acheteur.
+2. Une option d'achat couverte consiste à vendre une option d'achat sur des actions que le vendeur détient déjà; elle limite le risque parce que, si l'option est exercée, le vendeur livre des actions qu'il détient déjà au lieu de devoir les acheter à un prix du marché potentiellement beaucoup plus élevé.
+3. La prime encaissée au moment de la vente de l'option — c'est le profit maximal possible sur la position, peu importe à quel point l'actif sous-jacent évolue favorablement pour le vendeur.
+
+## Réponses et explications
+
+1. C'est la notion centrale d'inversion du profil de risque autour de laquelle la leçon est construite.
+2. Ça distingue les deux façons de vendre et explique pourquoi le fait d'être « couvert » réduit précisément le risque pratique.
+3. Ça renforce le côté gain plafonné du profil de risque asymétrique du vendeur.
+
+## Points clés à retenir
+- Vendre une option crée une obligation, et non un droit, avec un gain maximal plafonné (la prime) et un risque potentiellement beaucoup plus grand.
+- Une option d'achat couverte, vendue sur des actions déjà détenues, limite le risque pratique par rapport à une option à découvert (non couverte).
+- La vente d'options à découvert comporte un risque nettement plus grand et est généralement considérée comme une stratégie avancée.
+
+## Avis pédagogique
+Cette leçon sert uniquement à l'éducation financière générale et ne constitue pas un conseil financier, de placement, fiscal ou juridique personnalisé. La négociation d'options comporte des risques importants et ne convient pas à tous les investisseurs. Consulte un professionnel de la finance autorisé avant de négocier des options.
+
+===== WHITE-L3-009
+TITLE: Pourquoi l'achat sur marge amplifie les gains et les pertes comme l'effet de levier en immobilier
+SUMMARY: Découvre comment fonctionne l'achat d'actions sur marge, et pourquoi il multiplie à la fois les gains et les pertes, à la manière de l'effet de levier en immobilier.
+# WHITE-L3-009 : Pourquoi l'achat sur marge amplifie les gains et les pertes comme l'effet de levier en immobilier
+
+## Objectifs d'apprentissage
+À la fin de cette leçon, tu pourras :
+- Expliquer comment fonctionne l'achat d'actions sur marge
+- Expliquer pourquoi la marge amplifie proportionnellement les gains et les pertes
+- Relier cette notion à l'effet de levier en immobilier abordé ailleurs dans ce programme
+
+## Contenu principal
+
+La **marge** permet à un investisseur d'emprunter de l'argent à une maison de courtage pour acheter plus de titres que son seul argent comptant ne le permettrait, en utilisant les titres du compte comme garantie du prêt. Cette notion reflète l'effet de levier en immobilier abordé ailleurs dans le parcours RED de ce programme : l'argent emprunté te permet de contrôler une position plus grande avec un montant plus petit de ton propre capital.
+
+Voici « pourquoi » le même effet multiplicateur s'applique : ton rendement en pourcentage se calcule par rapport à ton propre argent investi, et non à la taille totale de la position — donc si la position prend de la valeur, ce gain est mesuré par rapport à une base plus petite, ce qui amplifie ton rendement en pourcentage. Si la position perd de la valeur, le même calcul amplifie ta perte en pourcentage exactement de la même façon, et tu dois quand même rembourser la totalité du montant emprunté, peu importe le rendement du placement.
+
+[VERIFIED FACT] Les prêts sur marge comportent habituellement des intérêts, ce qui ajoute un coût continu à la position, et les maisons de courtage exigent le maintien d'un niveau minimal d'avoir dans le compte — si la valeur du compte baisse trop, ça peut déclencher un appel de marge, abordé dans la prochaine leçon.
+
+## Exemple pratique
+
+[ILLUSTRATIVE EXAMPLE] Un investisseur a 10 000 $ comptant et utilise la marge pour acheter pour 20 000 $ d'actions (en empruntant les 10 000 $ restants). Si l'action monte de 10 %, la position gagne 2 000 $ — un rendement de 20 % sur les 10 000 $ de départ de l'investisseur, et non de 10 %. Si l'action baisse plutôt de 10 %, la position perd 2 000 $ — une perte de 20 % sur les 10 000 $ de départ, et l'investisseur doit quand même rembourser la totalité des 10 000 $ empruntés, peu importe la nouvelle valeur, plus basse, de l'action.
+
+## Quiz de pratique
+
+1. Qu'est-ce que l'achat sur marge permet à un investisseur de faire?
+2. Pourquoi la marge amplifie-t-elle les gains et les pertes en pourcentage par rapport à un achat entièrement au comptant?
+3. Quel coût continu la marge ajoute-t-elle habituellement, en plus du risque amplifié?
+
+## Corrigé
+
+1. Emprunter de l'argent à une maison de courtage pour acheter plus de titres que son seul argent comptant ne le permettrait, en utilisant les avoirs du compte comme garantie.
+2. Parce que les rendements sont mesurés par rapport au montant plus petit que l'investisseur a lui-même investi plutôt qu'à la taille totale de la position, le même gain ou la même perte en dollars devient une variation plus grande en pourcentage.
+3. Les intérêts exigés sur le prêt sur marge, qui ajoutent un coût continu peu importe le rendement du placement.
+
+## Réponses et explications
+
+1. C'est la base de définition de la leçon.
+2. C'est le même mécanisme multiplicateur que l'effet de levier en immobilier, appliqué ici au placement sur marge.
+3. Ça ajoute une dimension de coût propre à la marge, qui n'a pas d'équivalent aussi direct dans la discussion sur l'effet de levier en immobilier.
+
+## Points clés à retenir
+- La marge permet d'emprunter pour acheter plus de titres que l'argent comptant seul ne le permettrait, en utilisant le compte comme garantie.
+- Elle amplifie proportionnellement les gains et les pertes, à la manière de l'effet multiplicateur du levier en immobilier.
+- Les prêts sur marge comportent des intérêts continus et exigent le maintien d'un avoir minimal dans le compte, avec le risque d'un appel de marge si la valeur du compte baisse trop.
+
+## Avis pédagogique
+Cette leçon sert uniquement à l'éducation financière générale et ne constitue pas un conseil financier, de placement, fiscal ou juridique personnalisé. La négociation sur marge comporte des risques importants, y compris la possibilité de perdre plus que ton placement initial. Consulte un professionnel de la finance autorisé avant de négocier sur marge.
+
+===== WHITE-L3-010
+TITLE: Pourquoi un appel de marge peut te forcer à vendre au pire moment possible
+SUMMARY: Découvre ce qu'est un appel de marge, pourquoi il se déclenche automatiquement et pourquoi il peut forcer une vente précisément quand les prix ont déjà baissé.
+# WHITE-L3-010 : Pourquoi un appel de marge peut te forcer à vendre au pire moment possible
+
+## Objectifs d'apprentissage
+À la fin de cette leçon, tu pourras :
+- Expliquer ce qui déclenche un appel de marge
+- Expliquer pourquoi un appel de marge peut forcer une vente à un moment particulièrement mauvais
+- Expliquer pourquoi ce risque augmente avec le niveau de levier utilisé
+
+## Contenu principal
+
+La leçon 9 a présenté l'effet amplificateur de la marge sur les gains comme sur les pertes. Cette leçon aborde le mécanisme précis qui transforme une position sur marge perdante en vente forcée, souvent mal synchronisée : l'**appel de marge**.
+
+Les maisons de courtage exigent qu'un niveau minimal d'avoir soit maintenu dans un compte sur marge (l'exigence de marge de maintien). Si la valeur d'une position baisse assez pour que l'avoir du compte passe sous ce minimum, la maison de courtage fait un appel de marge — une demande de déposer plus d'argent comptant ou de titres, ou de vendre une partie de la position, pour que le compte respecte de nouveau l'exigence.
+
+Voici « pourquoi » c'est particulièrement dommageable : un appel de marge est déclenché par une baisse des prix, ce qui veut dire qu'il survient habituellement exactement au moment où l'investisseur subit déjà des pertes — et s'il ne peut pas ajouter de fonds rapidement, ou ne le fait pas, la maison de courtage peut vendre automatiquement ses avoirs, souvent sans le consulter davantage, pour rétablir le niveau d'avoir exigé. [VERIFIED FACT] Ça peut forcer une vente à un prix déprimé, en concrétisant les pertes au moment précis où, comme dans la discussion de la leçon 1, une occasion d'« acheter bas » pourrait autrement être en train de se former — le levier enlève le choix de simplement attendre que ça passe.
+
+## Exemple pratique
+
+[ILLUSTRATIVE EXAMPLE] Une investisseuse utilise la marge pour acheter une position en actions plus grande que ce que son argent comptant seul lui permettrait. L'action chute fortement, et l'avoir de son compte passe sous l'exigence de maintien de la maison de courtage, ce qui déclenche un appel de marge. [ASSUMPTION] Incapable de déposer des fonds supplémentaires assez rapidement, elle voit la maison de courtage vendre automatiquement une partie de sa position pour que le compte respecte de nouveau l'exigence — ce qui concrétise ses pertes au prix déprimé, même si l'action se redresse plus tard. Une investisseuse qui détiendrait la même action sans marge aurait eu le choix de simplement garder ses titres pendant la baisse, puisqu'aucune exigence de vente forcée ne s'appliquait à sa position sans levier.
+
+## Quiz de pratique
+
+1. Qu'est-ce qui déclenche un appel de marge?
+2. Pourquoi considère-t-on qu'un appel de marge survient à un moment particulièrement mauvais?
+3. Quel choix un investisseur sur marge perd-il, alors qu'un investisseur sans levier le garde pendant une baisse?
+
+## Corrigé
+
+1. L'avoir du compte qui passe sous le niveau de marge de maintien exigé par la maison de courtage, habituellement à cause d'une baisse de la valeur de la position à effet de levier.
+2. Parce qu'il est déclenché par une baisse des prix, ce qui force à agir exactement au moment où l'investisseur subit déjà des pertes, et peut concrétiser ces pertes à un prix déprimé.
+3. Le choix de simplement garder ses titres pendant une baisse et d'attendre une reprise possible — la marge peut forcer une vente, peu importe la préférence de l'investisseur d'attendre.
+
+## Réponses et explications
+
+1. C'est le déclencheur mécanique sur lequel repose le reste de la leçon.
+2. C'est le « pourquoi » central — le décalage entre le moment où survient un appel de marge et le moment où un investisseur voudrait idéalement vendre.
+3. Ça se relie directement au thème de la leçon 1 sur la difficulté d'acheter bas et de tenir bon pendant les baisses.
+
+## Points clés à retenir
+- Un appel de marge se déclenche quand l'avoir d'un compte passe sous le niveau de maintien exigé par la maison de courtage.
+- Comme il est déclenché par une baisse des prix, il peut forcer une vente à un prix déprimé, ce qui concrétise les pertes à un mauvais moment.
+- La marge enlève à l'investisseur le choix de simplement tenir bon pendant une baisse, un choix que gardent les investisseurs sans levier.
+
+## Avis pédagogique
+Cette leçon sert uniquement à l'éducation financière générale et ne constitue pas un conseil financier, de placement, fiscal ou juridique personnalisé. La négociation sur marge comporte des risques importants, y compris la liquidation forcée d'actifs. Consulte un professionnel de la finance autorisé avant de négocier sur marge.
+
+===== WHITE-L3-011
+TITLE: Pourquoi la vente à découvert comporte un risque théoriquement illimité
+SUMMARY: Découvre comment fonctionne la vente à découvert, pourquoi elle profite d'une baisse de prix et pourquoi sa perte possible est structurellement illimitée.
+# WHITE-L3-011 : Pourquoi la vente à découvert comporte un risque théoriquement illimité
+
+## Objectifs d'apprentissage
+À la fin de cette leçon, tu pourras :
+- Expliquer le fonctionnement mécanique de la vente à découvert
+- Expliquer pourquoi le gain maximal d'un vendeur à découvert est plafonné alors que sa perte possible est théoriquement illimitée
+- Expliquer ce qu'est un resserrement des positions à découvert (*short squeeze*) et pourquoi il peut accélérer les pertes
+
+## Contenu principal
+
+La **vente à découvert** consiste à emprunter des actions (habituellement par l'entremise d'une maison de courtage), à les vendre immédiatement au prix actuel, puis à les racheter plus tard (en espérant que ce soit à un prix plus bas) pour les rendre au prêteur — en profitant de la différence si le prix baisse.
+
+Voici « pourquoi » la vente à découvert a une forme de risque fondamentalement différente de la simple détention d'une action : le prix d'une action peut seulement baisser jusqu'à zéro, donc le gain maximal possible d'un vendeur à découvert est plafonné (la valeur totale de l'action, si elle tombe à zéro). Mais le prix d'une action n'a aucune limite supérieure théorique — il peut continuer de monter indéfiniment, ce qui veut dire que la perte possible du vendeur à découvert, qui devra finir par racheter les actions empruntées au prix atteint, est théoriquement illimitée.
+
+[VERIFIED FACT] Ce risque peut s'accélérer par un **resserrement des positions à découvert** — si le prix d'une action fortement vendue à découvert commence à monter, les vendeurs à découvert qui subissent des pertes croissantes peuvent être forcés (parfois par des mécanismes semblables à un appel de marge, leçon 10) de racheter des actions pour limiter leurs pertes, et cette pression acheteuse peut elle-même faire monter encore le prix, poussant d'autres vendeurs à découvert à faire de même dans un cycle qui s'auto-alimente.
+
+## Exemple pratique
+
+[ILLUSTRATIVE EXAMPLE] Un investisseur emprunte et vend à découvert 100 actions qui se négocient à 50 $, en s'attendant à ce que le prix baisse. Si le prix baisse effectivement à 30 $, il peut racheter les actions pour 3 000 $ et les rendre, en empochant la différence de 2 000 $ (avant les frais) — un gain solide, mais plafonné, puisque l'action pouvait au plus tomber à zéro. Si l'action monte plutôt de façon inattendue à 150 $, il devrait dépenser 15 000 $ pour racheter les actions qu'il a vendues 5 000 $ — une perte de 10 000 $, et si le prix continuait de grimper, cette perte continuerait d'augmenter sans limite supérieure.
+
+## Quiz de pratique
+
+1. Comment fonctionne la vente à découvert, sur le plan mécanique?
+2. Pourquoi le gain maximal possible d'un vendeur à découvert est-il plafonné, alors que sa perte possible est théoriquement illimitée?
+3. Qu'est-ce qu'un resserrement des positions à découvert, et comment peut-il accélérer les pertes d'un vendeur à découvert?
+
+## Corrigé
+
+1. Emprunter des actions, les vendre au prix actuel, puis les racheter plus tard pour les rendre au prêteur, en profitant de l'opération si le prix de rachat est plus bas que le prix de vente.
+2. Le prix d'une action peut seulement baisser jusqu'à zéro (ce qui plafonne le gain), mais il n'a aucune limite supérieure théorique (ce qui laisse la perte possible illimitée).
+3. Un cycle qui s'auto-alimente, où la hausse des prix force les vendeurs à découvert à racheter des actions pour limiter leurs pertes, et où cette pression acheteuse fait monter encore les prix, déclenchant d'autres rachats forcés.
+
+## Réponses et explications
+
+1. C'est la base mécanique de toute la leçon.
+2. C'est la forme de risque asymétrique centrale qui distingue la vente à découvert de la détention ordinaire d'actions.
+3. Ça explique un mécanisme d'accélération réel, observé historiquement, lié au risque de perte illimitée décrit plus haut.
+
+## Points clés à retenir
+- La vente à découvert profite d'une baisse du prix d'une action en empruntant, en vendant, puis en rachetant plus tard les actions à un prix (espérons-le) plus bas.
+- Le gain maximal est plafonné puisqu'une action peut seulement tomber à zéro, mais la perte possible est théoriquement illimitée puisque le prix n'a pas de limite supérieure.
+- Un resserrement des positions à découvert peut accélérer les pertes par un cycle de rachats forcés qui s'auto-alimente à mesure que les prix montent.
+
+## Avis pédagogique
+Cette leçon sert uniquement à l'éducation financière générale et ne constitue pas un conseil financier, de placement, fiscal ou juridique personnalisé. La vente à découvert comporte des risques importants, potentiellement illimités, et ne convient pas à tous les investisseurs. Consulte un professionnel de la finance autorisé avant de vendre à découvert.
+
+===== WHITE-L3-012
+TITLE: Pourquoi l'achat périodique par sommes fixes réduit le risque lié au moment, et non le risque du placement
+SUMMARY: Découvre pourquoi investir un montant fixe à intervalles réguliers réduit le risque de mal choisir son moment, sans réduire le risque propre au placement lui-même.
+# WHITE-L3-012 : Pourquoi l'achat périodique par sommes fixes réduit le risque lié au moment, et non le risque du placement
+
+## Objectifs d'apprentissage
+À la fin de cette leçon, tu pourras :
+- Expliquer comment fonctionne l'achat périodique par sommes fixes
+- Expliquer le type précis de risque que réduit cette méthode
+- Expliquer pourquoi cette méthode ne réduit pas le risque sous-jacent du placement lui-même
+
+## Contenu principal
+
+L'**achat périodique par sommes fixes** (en anglais, *dollar-cost averaging* ou DCA) consiste à investir un montant d'argent fixe à intervalles réguliers — chaque mois, par exemple —, peu importe le prix à chaque intervalle, plutôt que d'investir une somme plus importante en une seule fois.
+
+Voici « pourquoi » cette méthode s'attaque précisément au risque lié au moment, en lien avec la leçon 1 : comme tu achètes à de nombreux prix différents au fil du temps, tu évites le risque d'investir tout ton montant juste avant une baisse importante et mal synchronisée. Certains achats se font à des prix plus élevés, d'autres à des prix plus bas, et le coût moyen par action se lisse sur la période de placement.
+
+[VERIFIED FACT] L'achat périodique par sommes fixes ne réduit pas le risque ni la volatilité réels du placement sous-jacent — l'action, le fonds ou l'actif que tu achètes conserve les mêmes caractéristiques de risque fondamentales, peu importe comment tu étales tes achats. Ce que la méthode change, c'est ton exposition à un seul mauvais point d'entrée, et non le comportement propre du placement une fois que tu le détiens.
+
+## Exemple pratique
+
+[ILLUSTRATIVE EXAMPLE] Une investisseuse a 12 000 $ à placer. Tout investir en une seule somme juste avant une forte baisse du marché voudrait dire que le montant entier serait immédiatement exposé à cette chute. Investir plutôt 1 000 $ par mois pendant 12 mois veut dire que seules les premières contributions sont exposées à toute la baisse si elle survient tôt dans la période — les contributions suivantes achètent aux prix maintenant plus bas, ce qui fait baisser le coût de base moyen de l'investisseuse. [ASSUMPTION] Si le marché monte plutôt de façon constante pendant les 12 mois, l'achat périodique aurait donné un coût moyen plus élevé que d'investir toute la somme immédiatement — la méthode protège contre un scénario précis de mauvais moment, mais ne garantit pas un meilleur résultat que l'investissement d'une somme forfaitaire dans tous les scénarios (une comparaison abordée directement dans la prochaine leçon).
+
+## Quiz de pratique
+
+1. Comment fonctionne l'achat périodique par sommes fixes?
+2. Quel type précis de risque cette méthode cible-t-elle?
+3. Cette méthode réduit-elle le risque sous-jacent du placement lui-même? Pourquoi?
+
+## Corrigé
+
+1. On investit un montant fixe à intervalles réguliers, peu importe le prix, plutôt que d'investir une somme forfaitaire en une seule fois.
+2. Le risque lié au moment — le risque d'investir une somme importante juste avant une baisse mal synchronisée.
+3. Non — les caractéristiques de risque et de volatilité du placement restent les mêmes; la méthode change seulement ton exposition à un seul point d'entrée potentiellement mal choisi.
+
+## Réponses et explications
+
+1. C'est la définition mécanique nécessaire pour le reste de la leçon.
+2. C'est la distinction centrale et précise que fait la leçon — l'achat périodique est un outil de synchronisation, et non un outil de réduction du risque du placement lui-même.
+3. Ça renforce la distinction et annonce le compromis examiné dans la prochaine leçon.
+
+## Points clés à retenir
+- L'achat périodique par sommes fixes consiste à investir un montant fixe à intervalles réguliers plutôt que tout en une seule fois.
+- Il réduit précisément le risque lié au moment — le risque d'un seul placement important mal synchronisé.
+- Il ne change pas le risque ni la volatilité sous-jacents du placement lui-même, seulement ton exposition à un mauvais point d'entrée.
+
+## Avis pédagogique
+Cette leçon sert uniquement à l'éducation financière générale et ne constitue pas un conseil financier, de placement, fiscal ou juridique personnalisé. Tous les chiffres sont des estimations à titre d'illustration, et non des garanties. Consulte un professionnel de la finance autorisé avant de prendre des décisions de placement.
+
+===== WHITE-L3-013
+TITLE: Pourquoi investir une somme forfaitaire donne souvent de meilleurs résultats que l'achat périodique (et pourquoi on choisit quand même l'achat périodique)
+SUMMARY: Découvre pourquoi investir tout d'un coup tend statistiquement à faire mieux que l'achat périodique dans des marchés haussiers, et pourquoi de nombreux investisseurs préfèrent quand même l'achat périodique.
+# WHITE-L3-013 : Pourquoi investir une somme forfaitaire donne souvent de meilleurs résultats que l'achat périodique (et pourquoi on choisit quand même l'achat périodique)
+
+## Objectifs d'apprentissage
+À la fin de cette leçon, tu pourras :
+- Expliquer pourquoi investir une somme forfaitaire tend à faire mieux que l'achat périodique dans un marché généralement haussier
+- Expliquer pourquoi de nombreux investisseurs choisissent quand même l'achat périodique malgré cette tendance statistique
+- Expliquer pourquoi il s'agit d'un compromis légitime, et non simplement d'une erreur de calcul des investisseurs qui choisissent l'achat périodique
+
+## Contenu principal
+
+La leçon 12 a montré que l'achat périodique par sommes fixes protège contre un scénario précis de mauvais moment. Voici « pourquoi » cette leçon va plus loin : comme les marchés ont historiquement monté plus souvent qu'ils n'ont baissé sur la plupart des longues périodes, investir une somme forfaitaire immédiatement, plutôt que de l'étaler, a plus souvent qu'autrement donné un meilleur résultat — puisqu'une plus grande partie de ton argent est investie et exposée aux gains possibles pendant plus longtemps, au lieu de rester en partie non investie pendant qu'on la déploie graduellement.
+
+[VERIFIED FACT] Il s'agit d'une tendance statistique fondée sur des données historiques, et non d'une garantie pour une période future précise — il y a eu des périodes où l'achat périodique aurait fait mieux qu'une somme forfaitaire, en particulier celles qui commençaient peu avant une baisse importante.
+
+Alors pourquoi de nombreux investisseurs choisissent-ils quand même l'achat périodique, même en comprenant cette tendance? La raison se relie au thème comportemental de la leçon 1 : l'achat périodique réduit le risque émotionnel d'investir une somme importante juste avant une baisse puis, sous l'effet du regret ou de la peur, d'abandonner complètement la stratégie. Un investisseur qui choisit l'achat périodique et s'en tient à son plan, même si ça donne un résultat attendu statistiquement plus faible, pourrait s'en tirer mieux qu'un investisseur qui choisit la somme forfaitaire, mais panique et vend pendant une baisse qui suit.
+
+## Exemple pratique
+
+[ILLUSTRATIVE EXAMPLE] Une investisseuse reçoit un héritage important et doit choisir entre tout investir immédiatement ou l'étaler sur un an par achat périodique. [ASSUMPTION] Historiquement, pour une année choisie au hasard, investir la somme forfaitaire immédiatement aurait fait mieux que l'achat périodique plus souvent qu'autrement, puisque les marchés ont monté pendant la plupart des périodes historiques. Mais cette investisseuse sait par expérience qu'un placement important et soudain suivi d'une baisse du marché lui causerait probablement beaucoup d'anxiété et pourrait l'amener à vendre à perte. Choisir l'achat périodique, même avec un rendement attendu statistiquement plus faible, pourrait être la meilleure décision pour elle précisément, si ça augmente ses chances de s'en tenir à son plan de placement malgré les fluctuations du marché.
+
+## Quiz de pratique
+
+1. Pourquoi investir une somme forfaitaire tend-il statistiquement à faire mieux que l'achat périodique sur la plupart des périodes historiques?
+2. Cette tendance est-elle une garantie pour une période future précise? Pourquoi?
+3. Pourquoi un investisseur pourrait-il rationnellement choisir quand même l'achat périodique, malgré cette tendance statistique?
+
+## Corrigé
+
+1. Parce que les marchés ont historiquement monté plus souvent qu'ils n'ont baissé sur de longues périodes, de sorte qu'avoir plus d'argent investi plus longtemps permet habituellement de profiter davantage de cette tendance à la hausse que d'investir l'argent graduellement.
+2. Non — elle repose sur des données historiques, et il y a eu des périodes précises, en particulier celles qui commençaient avant une baisse importante, où l'achat périodique aurait donné de meilleurs résultats.
+3. Parce que l'achat périodique peut réduire le risque émotionnel d'un mauvais moment et d'une vente sous l'effet de la panique, ce qui peut mener à un meilleur résultat réel qu'une stratégie statistiquement supérieure que l'investisseur risquerait d'abandonner pendant une baisse.
+
+## Réponses et explications
+
+1. C'est le raisonnement statistique central derrière le titre de la leçon.
+2. C'est une mise en garde importante et nuancée contre un excès de confiance dans les données historiques.
+3. Ça relie la décision à la psychologie de l'investisseur, en renforçant l'idée que le « meilleur » choix sur papier n'est pas toujours le meilleur choix pour le comportement d'une personne en particulier.
+
+## Points clés à retenir
+- Investir une somme forfaitaire a historiquement fait mieux que l'achat périodique plus souvent qu'autrement, puisque les marchés ont eu tendance à monter sur la plupart des longues périodes.
+- Il s'agit d'une tendance statistique, et non d'une garantie pour une période précise.
+- De nombreux investisseurs choisissent rationnellement l'achat périodique malgré tout, parce qu'il peut réduire le risque émotionnel d'un mauvais moment et augmenter les chances de s'en tenir à un plan de placement à long terme.
+
+## Avis pédagogique
+Cette leçon sert uniquement à l'éducation financière générale et ne constitue pas un conseil financier, de placement, fiscal ou juridique personnalisé. Le rendement passé ne garantit pas les résultats futurs. Consulte un professionnel de la finance autorisé avant de prendre des décisions de placement.
+
+===== WHITE-L3-014
+TITLE: Pourquoi le rééquilibrage te force automatiquement à vendre haut et à acheter bas
+SUMMARY: Découvre comment fonctionne le rééquilibrage d'un portefeuille, et pourquoi il intègre la discipline « acheter bas, vendre haut » dans un processus mécanique au lieu de compter sur la volonté.
+# WHITE-L3-014 : Pourquoi le rééquilibrage te force automatiquement à vendre haut et à acheter bas
+
+## Objectifs d'apprentissage
+À la fin de cette leçon, tu pourras :
+- Expliquer ce que veut dire rééquilibrer un portefeuille
+- Expliquer pourquoi le rééquilibrage force mécaniquement à vendre les gagnants relatifs et à acheter les perdants relatifs
+- Relier cette notion au défi central de la leçon 1
+
+## Contenu principal
+
+La leçon 1 a ouvert ce parcours avec la difficulté d'appliquer réellement « acheter bas, vendre haut ». Le **rééquilibrage** offre une solution partielle et mécanique : il consiste à ramener périodiquement un portefeuille à sa répartition cible initiale (par exemple, 60 % d'actions et 40 % d'obligations) après que les mouvements du marché ont éloigné ces proportions de la cible.
+
+Voici « pourquoi » ça intègre automatiquement le comportement souhaité : si les actions ont eu un bon rendement et représentent maintenant 70 % du portefeuille au lieu de la cible de 60 %, rééquilibrer veut dire vendre une partie des actions (dont la valeur relative a augmenté) et acheter plus d'obligations (qui ont pris du retard) pour revenir à la cible initiale — en vendant mécaniquement une partie de ce qui a monté et en achetant une partie de ce qui n'a pas monté, sans avoir besoin de prédire le prochain mouvement du marché.
+
+[VERIFIED FACT] Le rééquilibrage peut se faire selon un calendrier fixe (par exemple, chaque année) ou être déclenché quand la répartition s'écarte au-delà d'un certain seuil — dans les deux cas, on retire la prise de décision émotionnelle du processus pour la remplacer par une règle établie d'avance.
+
+## Exemple pratique
+
+[ILLUSTRATIVE EXAMPLE] Un investisseur commence avec un portefeuille composé à 60 % d'actions et à 40 % d'obligations. Après une bonne année pour les actions, le portefeuille a dérivé vers 72 % d'actions et 28 % d'obligations. Rééquilibrer veut dire vendre assez d'actions et acheter assez d'obligations pour revenir à la cible de 60/40 — en encaissant mécaniquement une partie des profits de la catégorie d'actifs gagnante et en ajoutant à celle qui a pris du retard, selon une règle établie d'avance plutôt qu'une prédiction de ce qui arrivera ensuite. [ASSUMPTION] Si les actions continuent de monter par la suite, ce rééquilibrage a « coûté » à l'investisseur une partie du gain supplémentaire; si les actions reculent plutôt, le rééquilibrage semble clairvoyant après coup — mais dans les deux cas, le processus a été suivi de façon constante plutôt qu'en réaction aux événements.
+
+## Quiz de pratique
+
+1. Que veut dire rééquilibrer un portefeuille?
+2. Pourquoi le rééquilibrage mène-t-il mécaniquement à vendre des actifs au rendement relativement meilleur et à acheter des actifs au rendement relativement moins bon?
+3. Pourquoi ça retire la prise de décision émotionnelle du processus?
+
+## Corrigé
+
+1. Ramener périodiquement un portefeuille à sa répartition d'actifs cible initiale après que les mouvements du marché ont éloigné les proportions réelles de cette cible.
+2. Parce qu'une catégorie d'actifs qui a eu un bon rendement finit par représenter une plus grande part du portefeuille que prévu, de sorte que revenir à la répartition cible exige d'en vendre une partie; l'inverse s'applique à une catégorie d'actifs moins performante, à laquelle il faut ajouter.
+3. Parce que la décision de vendre ou d'acheter repose sur une règle établie d'avance (la répartition cible et un calendrier ou un seuil de rééquilibrage) plutôt que sur un jugement en temps réel sur la direction que prendra le marché.
+
+## Réponses et explications
+
+1. C'est la base de définition pour le reste de la leçon.
+2. Ça explique le mécanisme précis qui intègre la discipline « acheter bas, vendre haut » dans le processus.
+3. Ça relie le processus mécanique au défi comportemental présenté à la leçon 1.
+
+## Points clés à retenir
+- Le rééquilibrage ramène périodiquement un portefeuille à sa répartition d'actifs cible initiale.
+- Il mène mécaniquement à vendre des actifs qui ont eu un rendement relativement bon et à acheter ceux qui ont pris du retard, sans avoir besoin de prédire le rendement futur.
+- Suivre un calendrier ou un seuil établi d'avance retire la prise de décision émotionnelle du processus.
+
+## Avis pédagogique
+Cette leçon sert uniquement à l'éducation financière générale et ne constitue pas un conseil financier, de placement, fiscal ou juridique personnalisé. Tous les chiffres sont des estimations à titre d'illustration, et non des garanties. Consulte un professionnel de la finance autorisé avant de prendre des décisions de placement.

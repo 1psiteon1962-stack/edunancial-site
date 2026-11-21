@@ -1,0 +1,658 @@
+===== RED-L1-024
+TITLE: Qu'est-ce que le rendement sur la mise de fonds (cash-on-cash)?
+SUMMARY: Découvrez en quoi le rendement sur la mise de fonds diffère du taux de capitalisation, en tenant compte de l'argent réellement investi par l'investisseur dans une transaction.
+# Qu'est-ce que le rendement sur la mise de fonds (cash-on-cash)?
+
+## Objectifs d'apprentissage
+
+À la fin de cette leçon, vous devriez pouvoir :
+
+- Énoncer la formule du rendement sur la mise de fonds.
+- Expliquer en quoi il diffère du taux de capitalisation.
+- Calculer un rendement de base sur la mise de fonds.
+
+## Contenu principal
+
+### La formule
+
+Rendement sur la mise de fonds = Flux de trésorerie annuel avant impôts ÷ Total des fonds investis.
+
+Contrairement au taux de capitalisation, qui suppose un achat entièrement payé comptant, le rendement sur la mise de fonds (en anglais, *cash-on-cash return*) mesure le rendement précisément sur l'argent réellement investi par l'investisseur dans la transaction, en tenant compte du financement.
+
+### En quoi il diffère du taux de capitalisation
+
+Le taux de capitalisation ne tient aucunement compte du financement. Le rendement sur la mise de fonds en tient précisément compte, puisque la plupart des investisseurs ne paient pas tout comptant : ils versent une partie et financent le reste, et cet indicateur mesure le rendement sur cette seule partie investie.
+
+### Pourquoi la distinction compte
+
+Deux propriétés identiques peuvent avoir des rendements sur la mise de fonds très différents selon la façon dont elles sont financées, même si leur taux de capitalisation est le même, parce que le rendement sur la mise de fonds reflète le capital réellement exposé au risque par l'investisseur, et non la valeur totale de la propriété.
+
+## Exemple pratique
+
+Une investisseuse verse une mise de fonds de 50 000 $ (plus 5 000 $ de frais de clôture) sur une propriété, pour un total de 55 000 $ investis. La propriété génère un flux de trésorerie annuel avant impôts de 6 600 $. Rendement sur la mise de fonds = 6 600 $ ÷ 55 000 $ = 12 %.
+
+## Questionnaire pratique
+
+1. Le rendement sur la mise de fonds mesure précisément le rendement sur :
+   A. La valeur totale de la propriété
+   B. L'argent réellement investi par l'investisseur dans la transaction
+   C. Le revenu net d'exploitation de la propriété
+   D. Le taux local d'impôt foncier
+
+2. Vrai ou faux : Le rendement sur la mise de fonds, contrairement au taux de capitalisation, tient compte du financement.
+
+3. Un investisseur investit 40 000 $ au total dans une transaction et reçoit un flux de trésorerie annuel avant impôts de 4 800 $. Quel est son rendement sur la mise de fonds?
+   A. 8 %
+   B. 10 %
+   C. 12 %
+   D. 20 %
+
+## Corrigé
+
+1. B
+2. Vrai
+3. C
+
+## Réponses et explications
+
+### Question 1
+
+Bonne réponse : B. Il mesure le rendement sur l'argent réellement investi par l'investisseur.
+
+### Question 2
+
+Bonne réponse : Vrai. C'est la distinction clé par rapport au taux de capitalisation.
+
+### Question 3
+
+Bonne réponse : C. 4 800 $ ÷ 40 000 $ = 12 %.
+
+## Points clés
+
+- Rendement sur la mise de fonds = Flux de trésorerie annuel avant impôts ÷ Total des fonds investis.
+- Il tient compte du financement, contrairement au taux de capitalisation.
+- Des propriétés identiques peuvent avoir des rendements sur la mise de fonds différents selon leur financement.
+
+===== RED-L1-025
+TITLE: Qu'est-ce que l'appréciation et pourquoi n'est-elle pas garantie?
+SUMMARY: Découvrez ce que veut dire l'appréciation d'une propriété, ce qui tend à la stimuler et pourquoi il ne faut jamais la tenir pour acquise.
+# Qu'est-ce que l'appréciation et pourquoi n'est-elle pas garantie?
+
+## Objectifs d'apprentissage
+
+À la fin de cette leçon, vous devriez pouvoir :
+
+- Définir l'appréciation en termes simples.
+- Nommer des facteurs qui l'influencent couramment.
+- Expliquer pourquoi il ne faut jamais tenir l'appréciation pour garantie.
+
+## Contenu principal
+
+### Ce qu'est l'appréciation
+
+L'appréciation est une augmentation de la valeur marchande d'une propriété avec le temps. C'est l'une des deux principales façons dont l'immobilier peut enrichir un propriétaire, l'autre étant les revenus de location et le flux de trésorerie.
+
+### Ce qui tend à la stimuler
+
+L'appréciation est couramment influencée par des facteurs comme la demande locale, la conjoncture économique générale, le développement du quartier et les cycles plus larges du marché, dont aucun n'est directement contrôlé par un propriétaire en particulier.
+
+### Pourquoi elle n'est jamais garantie
+
+La valeur des propriétés peut aussi baisser, parfois de façon importante, surtout sur de courtes périodes ou pendant des ralentissements généraux du marché. Considérer l'appréciation comme une certitude est une hypothèse courante et risquée; des leçons ultérieures sur les cycles du marché approfondiront ce sujet.
+
+## Exemple pratique
+
+Une maison achetée 300 000 $ pourrait valoir 340 000 $ cinq ans plus tard en raison de la demande locale et des conditions du marché, ou elle pourrait valoir 280 000 $ si le marché local avait plutôt baissé. Aucun de ces résultats n'est garanti d'avance.
+
+## Questionnaire pratique
+
+1. L'appréciation désigne :
+   A. Les revenus de location mensuels
+   B. Une augmentation de la valeur marchande d'une propriété avec le temps
+   C. Une inspection préachat obligatoire
+   D. Un type d'assurance prêt hypothécaire
+
+2. Vrai ou faux : L'appréciation d'une propriété est garantie sur n'importe quelle période.
+
+3. Quel est un facteur qui influence couramment l'appréciation?
+   A. La couleur de la porte d'entrée
+   B. La demande locale et les conditions générales du marché
+   C. Le revenu personnel de l'acheteur
+   D. Le nom du prêteur hypothécaire
+
+## Corrigé
+
+1. B
+2. Faux
+3. B
+
+## Réponses et explications
+
+### Question 1
+
+Bonne réponse : B. L'appréciation est une augmentation de la valeur marchande avec le temps.
+
+### Question 2
+
+Bonne réponse : Faux. Les valeurs peuvent aussi baisser; l'appréciation n'est jamais garantie.
+
+### Question 3
+
+Bonne réponse : B. La demande locale et les conditions du marché sont des moteurs courants.
+
+## Points clés
+
+- L'appréciation est une augmentation de la valeur marchande d'une propriété avec le temps.
+- Elle est influencée par des facteurs hors du contrôle de tout propriétaire.
+- Il ne faut jamais la tenir pour garantie : les valeurs peuvent aussi baisser.
+
+===== RED-L1-026
+TITLE: Qu'est-ce que l'amortissement fiscal et pourquoi une perte sur papier pourrait-elle vous aider?
+SUMMARY: Découvrez ce que veut dire l'amortissement comme notion fiscale en immobilier, et pourquoi une perte sur papier peut procurer un avantage réel.
+# Qu'est-ce que l'amortissement fiscal et pourquoi une perte sur papier pourrait-elle vous aider?
+
+## Objectifs d'apprentissage
+
+À la fin de cette leçon, vous devriez pouvoir :
+
+- Définir l'amortissement comme notion fiscale en immobilier.
+- Expliquer pourquoi on le décrit comme une perte « sur papier ».
+- Expliquer, de façon simple, pourquoi il peut procurer un avantage fiscal.
+
+## Contenu principal
+
+### Ce que veut dire l'amortissement ici
+
+*(RÈGLE PROPRE À LA RÉGION : cette leçon décrit une notion fiscale américaine; son traitement varie considérablement d'un pays à l'autre.)* En immobilier, l'amortissement (en anglais, *depreciation*) est une déduction fiscale qui permet à un propriétaire de déduire une partie du coût d'une propriété locative au fil du temps, selon l'idée que les bâtiments s'usent, même si la valeur marchande de la propriété augmente en réalité. (Au Canada, l'équivalent est la déduction pour amortissement, ou DPA; elle est facultative, ne peut généralement pas créer ni augmenter une perte locative, et une partie peut être récupérée et imposée à la vente si le bâtiment est vendu plus cher que sa valeur amortie.)
+
+### Pourquoi on parle d'une perte « sur papier »
+
+La propriété n'a pas besoin de perdre réellement de la valeur pour que le propriétaire demande l'amortissement : il s'agit d'une déduction fiscale prévue selon un calendrier, fondée sur le coût de la propriété et distincte de l'évolution de sa valeur marchande réelle. C'est pourquoi on l'appelle souvent une perte sur papier : elle réduit le revenu imposable sans exiger de sortie de fonds réelle.
+
+### Pourquoi il peut procurer un avantage réel
+
+Comme l'amortissement réduit le revenu de location imposable, il peut diminuer l'impôt d'un propriétaire pendant des années où la propriété pourrait en fait prendre de la valeur sur le marché : un avantage réel et légal propre à l'investissement immobilier, distinct du rendement réel de la propriété.
+
+## Exemple pratique
+
+Une propriété locative génère 10 000 $ de revenu de location imposable avant amortissement. Après une déduction pour amortissement de 8 000 $, le revenu imposable de cette propriété tombe à 2 000 $, même si la valeur marchande de la propriété a pu augmenter la même année.
+
+## Questionnaire pratique
+
+1. L'amortissement, dans ce contexte, est :
+   A. Une inspection préachat obligatoire
+   B. Une déduction fiscale qui reflète le coût d'un bâtiment au fil du temps
+   C. Un type d'assurance prêt hypothécaire
+   D. Une augmentation de la valeur marchande
+
+2. Vrai ou faux : Une propriété doit réellement perdre de la valeur marchande pour que le propriétaire puisse demander l'amortissement.
+
+3. Pourquoi l'amortissement est-il parfois appelé une perte « sur papier »?
+   A. Il exige d'imprimer des documents physiques
+   B. Il réduit le revenu imposable sans exiger de sortie de fonds réelle
+   C. Il s'applique seulement aux entreprises de papier
+   D. Il n'a aucun effet réel sur l'impôt
+
+## Corrigé
+
+1. B
+2. Faux
+3. B
+
+## Réponses et explications
+
+### Question 1
+
+Bonne réponse : B. L'amortissement est une déduction fiscale prévue selon un calendrier, fondée sur le coût, et non sur la valeur marchande.
+
+### Question 2
+
+Bonne réponse : Faux. L'amortissement peut être demandé peu importe l'évolution réelle de la valeur marchande de la propriété.
+
+### Question 3
+
+Bonne réponse : B. C'est une déduction sur papier qui réduit le revenu imposable sans coût réel en argent.
+
+## Points clés
+
+- L'amortissement est une déduction fiscale fondée sur le coût d'une propriété au fil du temps.
+- Il est indépendant de l'évolution réelle de la valeur marchande de la propriété.
+- Il peut réduire de façon importante le revenu imposable d'un propriétaire.
+
+===== RED-L1-027
+TITLE: Qu'est-ce qu'un échange 1031? (Ce que c'est, en termes simples)
+SUMMARY: Découvrez l'idée de base derrière un échange 1031 : reporter l'impôt sur la vente d'un immeuble de placement en réinvestissant le produit de la vente.
+# Qu'est-ce qu'un échange 1031? (Ce que c'est, en termes simples)
+
+## Objectifs d'apprentissage
+
+À la fin de cette leçon, vous devriez pouvoir :
+
+- Expliquer l'idée de base derrière un échange 1031.
+- Expliquer ce que veut dire « reporter » l'impôt, par opposition à l'éliminer.
+- Reconnaître que des règles et des délais stricts s'appliquent.
+
+## Contenu principal
+
+### L'idée de base
+
+*(RÈGLE PROPRE À LA RÉGION : il s'agit d'une disposition fiscale américaine; elle n'existe pas dans d'autres pays.)* Un échange 1031 permet à un investisseur de vendre un immeuble de placement et de réinvestir le produit de la vente dans un autre immeuble « de même nature », en reportant l'impôt sur le gain en capital qui serait normalement exigible sur la vente. (Le Canada n'a pas d'équivalent général pour les immeubles locatifs : le gain en capital et la récupération de l'amortissement sont habituellement imposés l'année de la vente.)
+
+### Reporter, et non éliminer
+
+C'est une distinction essentielle : l'impôt n'est pas effacé, il est reporté. Le gain reporté est généralement transféré dans le nouvel immeuble, et de l'impôt pourrait finir par être exigible plus tard, selon ce qui se passera lors des transactions futures.
+
+### Des règles strictes s'appliquent
+
+*HYPOTHÈSE (à des fins pédagogiques) :* Les échanges 1031 comportent des délais précis de désignation et de conclusion, ainsi que des exigences de procédure. Cette leçon d'introduction ne couvre pas ces détails : l'objectif ici est de comprendre la notion de base avant les mécanismes.
+
+## Exemple pratique
+
+Un investisseur vend une propriété locative avec un gain important et, plutôt que de payer immédiatement l'impôt sur le gain en capital, utilise un échange 1031 pour transférer le produit de la vente dans une nouvelle propriété locative, ce qui reporte cette facture d'impôt plutôt que de la payer tout de suite.
+
+## Questionnaire pratique
+
+1. Un échange 1031 permet principalement à un investisseur de :
+   A. Éliminer de façon permanente l'impôt sur le gain en capital
+   B. Reporter l'impôt sur le gain en capital en réinvestissant dans un immeuble de même nature
+   C. Éviter complètement l'impôt foncier
+   D. Se passer d'une inspection préachat
+
+2. Vrai ou faux : Un échange 1031 élimine l'impôt exigible plutôt que de le reporter.
+
+3. À quoi renvoie généralement l'expression « de même nature » dans ce contexte?
+   A. À deux maisons identiques
+   B. À des immeubles de placement admissibles au traitement d'échange selon les règles
+   C. À deux actifs quelconques de même prix
+   D. À une marque précise de propriété
+
+## Corrigé
+
+1. B
+2. Faux
+3. B
+
+## Réponses et explications
+
+### Question 1
+
+Bonne réponse : B. Un échange 1031 reporte l'impôt sur le gain en capital; il ne l'élimine pas.
+
+### Question 2
+
+Bonne réponse : Faux. L'impôt est reporté, et non effacé.
+
+### Question 3
+
+Bonne réponse : B. « De même nature » renvoie aux types d'immeubles de placement admissibles selon les règles applicables, et non à des propriétés identiques.
+
+## Points clés
+
+- Un échange 1031 reporte l'impôt sur le gain en capital en réinvestissant le produit de la vente dans un autre immeuble admissible.
+- Reporter l'impôt n'est pas la même chose que l'éliminer.
+- Des règles et des délais stricts s'appliquent; ils sont approfondis dans des leçons ultérieures.
+
+===== RED-L1-028
+TITLE: Les bases du rôle de propriétaire-bailleur : de quoi êtes-vous réellement responsable?
+SUMMARY: Découvrez les responsabilités de base qu'assume un propriétaire-bailleur, distinctes de celles des locataires.
+# Les bases du rôle de propriétaire-bailleur : de quoi êtes-vous réellement responsable?
+
+## Objectifs d'apprentissage
+
+À la fin de cette leçon, vous devriez pouvoir :
+
+- Nommer les responsabilités de base d'un propriétaire-bailleur.
+- Distinguer les responsabilités du propriétaire-bailleur de celles du locataire.
+- Expliquer pourquoi il compte de comprendre ce partage avant de louer une propriété.
+
+## Contenu principal
+
+### Les responsabilités de base du propriétaire-bailleur
+
+*(RÈGLE PROPRE À LA RÉGION : les obligations exactes varient selon l'État, la province ou le pays et selon les conditions du bail.)* Les propriétaires-bailleurs sont généralement responsables de maintenir la propriété en bon état d'habitabilité, ce qui comprend habituellement les systèmes principaux (plomberie, chauffage, problèmes structurels) et le respect des codes du logement locaux. (Au Québec, ces obligations sont prévues au Code civil, et les litiges relèvent du Tribunal administratif du logement; en Ontario, de la Commission de la location immobilière.)
+
+### Ce dont les locataires sont habituellement responsables
+
+Les locataires sont généralement responsables de l'entretien quotidien de leur logement, du respect des conditions du bail et, souvent, du signalement rapide des problèmes; le partage précis est habituellement énoncé dans le bail lui-même.
+
+### Pourquoi ce partage compte
+
+Un nouveau propriétaire-bailleur qui ne comprend pas ces responsabilités s'expose à des risques juridiques (s'il manque à ses obligations d'habitabilité) ou à des coûts inutiles (s'il assume des éléments qui relevaient en réalité du locataire). Des conditions de bail claires aident à prévenir les différends des deux côtés.
+
+## Exemple pratique
+
+Un locataire signale un appareil de chauffage brisé en plein hiver. Il s'agit habituellement d'une responsabilité du propriétaire-bailleur (un système principal qui touche l'habitabilité), et non de quelque chose que le locataire devrait réparer lui-même.
+
+## Questionnaire pratique
+
+1. Les propriétaires-bailleurs sont généralement responsables :
+   A. De la propreté quotidienne du logement du locataire
+   B. De maintenir la propriété en bon état d'habitabilité, y compris les systèmes principaux
+   C. Des biens personnels du locataire
+   D. De la situation d'emploi du locataire
+
+2. Vrai ou faux : Le partage exact des responsabilités entre le propriétaire-bailleur et le locataire est identique partout, peu importe l'endroit ou le bail.
+
+3. Pourquoi est-il important pour un nouveau propriétaire-bailleur de comprendre ce partage des responsabilités?
+   A. Ce n'est pas important du tout
+   B. Ça l'aide à éviter des risques juridiques et des coûts inutiles
+   C. Ça compte seulement pour les propriétés commerciales
+   D. Ça n'a aucun lien avec le bail
+
+## Corrigé
+
+1. B
+2. Faux
+3. B
+
+## Réponses et explications
+
+### Question 1
+
+Bonne réponse : B. Les propriétaires-bailleurs s'occupent généralement de l'habitabilité et des systèmes principaux.
+
+### Question 2
+
+Bonne réponse : Faux. Les responsabilités varient selon l'endroit et les conditions du bail.
+
+### Question 3
+
+Bonne réponse : B. Comprendre ce partage aide à éviter des problèmes juridiques et financiers.
+
+## Points clés
+
+- Les propriétaires-bailleurs s'occupent généralement de l'habitabilité et des systèmes principaux.
+- Les locataires s'occupent généralement de l'entretien quotidien et du respect des conditions du bail.
+- Des conditions de bail claires aident à prévenir les différends sur les responsabilités.
+
+===== RED-L1-029
+TITLE: Qu'est-ce qu'un bail et que devrait-il contenir?
+SUMMARY: Découvrez ce qu'est réellement un bail sur le plan juridique, et les conditions de base que tout bail devrait aborder clairement.
+# Qu'est-ce qu'un bail et que devrait-il contenir?
+
+## Objectifs d'apprentissage
+
+À la fin de cette leçon, vous devriez pouvoir :
+
+- Définir un bail en termes simples.
+- Nommer les conditions de base qu'un bail devrait aborder.
+- Expliquer pourquoi une entente verbale représente un vrai risque.
+
+## Contenu principal
+
+### Ce qu'est un bail
+
+Un bail est un contrat juridiquement contraignant entre un propriétaire-bailleur et un locataire, qui fixe les conditions selon lesquelles le locataire peut occuper la propriété. (Au Québec, le bail de logement doit être rédigé sur le formulaire obligatoire du Tribunal administratif du logement; l'Ontario impose aussi un bail type pour la plupart des logements.)
+
+### Les conditions de base qu'un bail devrait aborder
+
+Un bail solide aborde habituellement le montant du loyer et sa date d'échéance, la durée du bail, les conditions du dépôt de garantie, les responsabilités d'entretien et les règles sur des sujets comme les animaux ou la sous-location. Des conditions vagues ou manquantes sont une source courante de différends.
+
+### Pourquoi « on verra bien » est un vrai risque
+
+Une entente verbale ou informelle, sans conditions écrites claires, laisse le propriétaire-bailleur et le locataire exposés si un désaccord survient plus tard : il n'existe aucune trace claire de ce qui a réellement été convenu. Un bail écrit protège les deux parties, et pas seulement le propriétaire-bailleur.
+
+## Exemple pratique
+
+Un propriétaire-bailleur et un locataire s'entendent verbalement sur le loyer, mais ne documentent jamais d'exigence de préavis de départ. Lorsque le locataire part sans préavis, le propriétaire-bailleur n'a aucune clause écrite sur laquelle s'appuyer, ce qui crée un vrai différend qu'un bail clair aurait pu éviter.
+
+## Questionnaire pratique
+
+1. Un bail est :
+   A. Une entente informelle conclue par une poignée de main
+   B. Un contrat juridiquement contraignant qui fixe les conditions d'occupation
+   C. Un type d'impôt foncier
+   D. Une subvention gouvernementale au logement
+
+2. Vrai ou faux : Une entente de bail verbale offre la même protection qu'un bail écrit clair.
+
+3. Laquelle de ces conditions est une condition de base qu'un bail devrait habituellement aborder?
+   A. La couleur préférée du locataire
+   B. Le montant du loyer et sa date d'échéance
+   C. Les passe-temps personnels du propriétaire-bailleur
+   D. Les prévisions météorologiques
+
+## Corrigé
+
+1. B
+2. Faux
+3. B
+
+## Réponses et explications
+
+### Question 1
+
+Bonne réponse : B. Un bail est un contrat juridiquement contraignant.
+
+### Question 2
+
+Bonne réponse : Faux. Un bail écrit offre une protection beaucoup plus claire qu'une entente verbale.
+
+### Question 3
+
+Bonne réponse : B. Le montant du loyer et sa date d'échéance sont des conditions de base d'un bail.
+
+## Points clés
+
+- Un bail est un contrat juridiquement contraignant qui fixe les conditions d'occupation.
+- Les conditions de base comprennent le loyer, la durée, les dépôts et les responsabilités.
+- Un bail écrit protège le propriétaire-bailleur et le locataire bien mieux qu'une entente verbale.
+
+===== RED-L1-030
+TITLE: Les dépôts de garantie : ce que les propriétaires-bailleurs peuvent faire et ne pas faire
+SUMMARY: Découvrez l'objectif de base d'un dépôt de garantie et pourquoi les propriétaires-bailleurs ne peuvent généralement pas l'utiliser comme bon leur semble.
+# Les dépôts de garantie : ce que les propriétaires-bailleurs peuvent faire et ne pas faire
+
+## Objectifs d'apprentissage
+
+À la fin de cette leçon, vous devriez pouvoir :
+
+- Définir un dépôt de garantie en termes simples.
+- Expliquer ce qu'il est généralement censé couvrir.
+- Reconnaître que les propriétaires-bailleurs font face à de vraies limites juridiques quant à son utilisation.
+
+## Contenu principal
+
+### Ce qu'est un dépôt de garantie
+
+Un dépôt de garantie est une somme payée d'avance par un locataire et détenue par le propriétaire-bailleur pour couvrir un éventuel loyer impayé ou des dommages à la propriété allant au-delà de l'usure normale, à la fin de la location.
+
+### Ce qu'il est généralement censé couvrir
+
+Les dépôts de garantie sont habituellement destinés à couvrir un loyer impayé ou des dommages réels, et non l'usure normale qui découle naturellement de la vie courante (comme une légère usure du tapis ou de petits trous de clous laissés par des cadres).
+
+### De vraies limites juridiques
+
+*(RÈGLE PROPRE À LA RÉGION : les limites, les délais et les règles précis varient considérablement selon l'État, la province ou le pays.)* Bien des territoires limitent par la loi le montant des dépôts, exigent que les retenues soient détaillées et fixent des délais pour rembourser le dépôt après le départ du locataire. Un propriétaire-bailleur qui ignore ces règles peut faire face à de vraies conséquences juridiques. (Au Canada, ces règles sont provinciales : au Québec, par exemple, le propriétaire ne peut pas exiger de dépôt de garantie, seulement le premier mois de loyer; en Ontario, un dépôt est généralement limité au loyer du dernier mois.)
+
+## Exemple pratique
+
+Une locataire part après deux ans en laissant une légère usure du tapis due à un usage normal. Un propriétaire-bailleur qui tente de retenir le coût complet d'un nouveau tapis sur le dépôt pourrait dépasser ses droits : l'usure normale n'est habituellement pas une retenue valable.
+
+## Questionnaire pratique
+
+1. Un dépôt de garantie est généralement censé couvrir :
+   A. Les dépenses personnelles du propriétaire-bailleur
+   B. Un loyer impayé ou des dommages réels allant au-delà de l'usure normale
+   C. L'usure normale découlant de la vie courante
+   D. Les frais d'emménagement du prochain locataire
+
+2. Vrai ou faux : Les propriétaires-bailleurs peuvent généralement faire des retenues pour toute usure de la propriété, y compris l'usure normale.
+
+3. Qu'est-ce qui s'applique souvent à la façon et au moment de rembourser un dépôt?
+   A. Rien : c'est entièrement à la discrétion du propriétaire-bailleur
+   B. Des limites et des délais prévus par la loi, qui varient selon le territoire
+   C. Une règle mondiale fixe qui s'applique de façon identique partout
+   D. Seulement la loi fédérale, sans variation selon l'État
+
+## Corrigé
+
+1. B
+2. Faux
+3. B
+
+## Réponses et explications
+
+### Question 1
+
+Bonne réponse : B. Les dépôts couvrent généralement un loyer impayé ou des dommages réels, et non l'usure normale.
+
+### Question 2
+
+Bonne réponse : Faux. L'usure normale n'est habituellement pas une retenue valable.
+
+### Question 3
+
+Bonne réponse : B. Les limites et les délais prévus par la loi varient selon le territoire.
+
+## Points clés
+
+- Un dépôt de garantie couvre un loyer impayé ou des dommages réels, et non l'usure normale.
+- Les propriétaires-bailleurs font face à de vraies limites juridiques quant à l'utilisation des dépôts.
+- Les règles et les délais de remboursement des dépôts varient selon l'endroit.
+
+===== RED-L1-031
+TITLE: Qu'est-ce que l'expulsion et pourquoi est-ce un dernier recours, et non une première étape?
+SUMMARY: Découvrez ce qu'est réellement l'expulsion sur le plan juridique, pourquoi elle exige une procédure officielle et pourquoi elle est habituellement un dernier recours pour les propriétaires-bailleurs.
+# Qu'est-ce que l'expulsion et pourquoi est-ce un dernier recours, et non une première étape?
+
+## Objectifs d'apprentissage
+
+À la fin de cette leçon, vous devriez pouvoir :
+
+- Définir l'expulsion en termes simples.
+- Expliquer pourquoi elle exige une procédure juridique officielle.
+- Expliquer pourquoi elle est généralement traitée comme un dernier recours.
+
+## Contenu principal
+
+### Ce qu'est l'expulsion
+
+L'expulsion est la procédure juridique officielle qui permet de faire sortir un locataire d'une propriété locative, habituellement en raison de manquements au bail comme un loyer impayé.
+
+### Pourquoi elle exige une procédure officielle
+
+*(RÈGLE PROPRE À LA RÉGION : les procédures exactes varient considérablement selon l'endroit.)* Un propriétaire-bailleur ne peut généralement pas simplement faire sortir un locataire ou retirer ses biens sans passer par la procédure juridique d'expulsion : le faire (ce qu'on appelle « se faire justice soi-même ») peut l'exposer à une grave responsabilité juridique, même si le locataire est vraiment en retard dans son loyer. (Au Québec, la résiliation du bail et l'expulsion doivent être ordonnées par le Tribunal administratif du logement; en Ontario, par la Commission de la location immobilière.)
+
+### Pourquoi c'est un dernier recours
+
+L'expulsion prend du temps, coûte cher et perturbe les deux parties. La plupart des propriétaires-bailleurs expérimentés la traitent comme une dernière étape, une fois les autres options épuisées (communication, entente de paiement, avis officiels), et non comme une première réaction à un paiement manqué.
+
+## Exemple pratique
+
+Un locataire manque un paiement de loyer. Plutôt que de déposer immédiatement une demande d'expulsion, une propriétaire-bailleuse expérimentée pourrait d'abord envoyer un avis officiel et tenter de régler le problème directement, en réservant l'expulsion aux situations qui restent sans solution.
+
+## Questionnaire pratique
+
+1. L'expulsion est :
+   A. Une demande informelle de quitter les lieux
+   B. Une procédure juridique officielle pour faire sortir un locataire
+   C. Un type de renouvellement de bail
+   D. Une décision personnelle du propriétaire-bailleur qui n'exige aucune procédure juridique
+
+2. Vrai ou faux : Un propriétaire-bailleur peut légalement retirer les biens d'un locataire sans passer par la procédure officielle d'expulsion.
+
+3. Pourquoi bien des propriétaires-bailleurs traitent-ils l'expulsion comme un dernier recours?
+   A. Elle est rapide et peu coûteuse
+   B. Elle prend du temps, coûte cher et perturbe les deux parties
+   C. Elle est obligatoire après chaque paiement manqué
+   D. Elle n'est assortie d'aucune exigence juridique
+
+## Corrigé
+
+1. B
+2. Faux
+3. B
+
+## Réponses et explications
+
+### Question 1
+
+Bonne réponse : B. L'expulsion est une procédure juridique officielle.
+
+### Question 2
+
+Bonne réponse : Faux. Se faire justice soi-même (en contournant la procédure juridique) peut exposer un propriétaire-bailleur à une vraie responsabilité.
+
+### Question 3
+
+Bonne réponse : B. Le coût, le temps et la perturbation en font un dernier recours pour la plupart des propriétaires-bailleurs.
+
+## Points clés
+
+- L'expulsion est une procédure juridique officielle, et non une sortie informelle.
+- Contourner cette procédure peut créer une vraie responsabilité juridique pour un propriétaire-bailleur.
+- La plupart des propriétaires-bailleurs traitent l'expulsion comme un dernier recours, une fois les autres options épuisées.
+
+===== RED-L1-032
+TITLE: Qu'est-ce qu'un gestionnaire immobilier et quand en avez-vous besoin?
+SUMMARY: Découvrez ce que fait un gestionnaire immobilier, ce qu'il coûte habituellement et quand il commence à être logique d'en engager un.
+# Qu'est-ce qu'un gestionnaire immobilier et quand en avez-vous besoin?
+
+## Objectifs d'apprentissage
+
+À la fin de cette leçon, vous devriez pouvoir :
+
+- Définir ce que fait un gestionnaire immobilier.
+- Expliquer le compromis de base sur le plan des coûts lorsqu'on en engage un.
+- Nommer une situation où il pourrait être logique d'en engager un.
+
+## Contenu principal
+
+### Ce que fait un gestionnaire immobilier
+
+Un gestionnaire immobilier s'occupe des responsabilités quotidiennes du propriétaire-bailleur au nom du propriétaire : percevoir les loyers, coordonner les réparations, sélectionner les locataires et gérer les communications avec eux, par exemple.
+
+### Le compromis de base sur le plan des coûts
+
+Les gestionnaires immobiliers facturent habituellement un pourcentage des loyers perçus (souvent dans une vaste fourchette, selon le marché et les services) à titre d'honoraires. C'est un vrai compromis : moins de temps et d'efforts directs pour le propriétaire, en échange d'un revenu net réduit.
+
+### Quand ça commence à être logique
+
+Les propriétaires qui ont plusieurs propriétés, des propriétés éloignées de leur lieu de résidence ou peu de temps ou d'intérêt pour la gestion directe trouvent souvent que les honoraires d'un gestionnaire immobilier en valent la peine. Une seule propriété locative à proximité, qu'un propriétaire aime gérer lui-même, pourrait ne pas en avoir besoin du tout : c'est une vraie décision individuelle, et non une règle universelle.
+
+## Exemple pratique
+
+Une investisseuse qui possède des propriétés locatives dans trois villes différentes, loin de chez elle, engage des gestionnaires immobiliers locaux dans chaque ville plutôt que d'essayer de régler elle-même, à distance, les problèmes des locataires et les réparations.
+
+## Questionnaire pratique
+
+1. Un gestionnaire immobilier, habituellement :
+   A. Possède la propriété avec l'investisseur
+   B. S'occupe des responsabilités quotidiennes du propriétaire-bailleur au nom du propriétaire
+   C. Fournit la mise de fonds pour un achat
+   D. Fixe les taux locaux d'impôt foncier
+
+2. Vrai ou faux : Les gestionnaires immobiliers travaillent habituellement gratuitement, sans honoraires.
+
+3. Quelle est une situation où il est souvent logique d'engager un gestionnaire immobilier?
+   A. Posséder une seule propriété à proximité que le propriétaire aime gérer
+   B. Posséder plusieurs propriétés loin du lieu de résidence du propriétaire
+   C. Ne jamais posséder de propriété locative
+   D. Habiter juste à côté d'une seule propriété locative
+
+## Corrigé
+
+1. B
+2. Faux
+3. B
+
+## Réponses et explications
+
+### Question 1
+
+Bonne réponse : B. Un gestionnaire immobilier s'occupe des responsabilités quotidiennes pour le propriétaire.
+
+### Question 2
+
+Bonne réponse : Faux. Les gestionnaires immobiliers facturent habituellement des honoraires, souvent un pourcentage des loyers perçus.
+
+### Question 3
+
+Bonne réponse : B. La distance et le nombre de propriétés rendent souvent un gestionnaire immobilier rentable.
+
+## Points clés
+
+- Un gestionnaire immobilier s'occupe des tâches quotidiennes du propriétaire-bailleur, moyennant des honoraires.
+- Le compromis est un revenu net réduit en échange de moins d'efforts directs.
+- La pertinence d'en engager un dépend de la situation du propriétaire, et non d'une règle universelle.

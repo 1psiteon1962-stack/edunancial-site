@@ -1,0 +1,230 @@
+===== RED-L4-021
+TITLE: Streuung innerhalb von Immobilien: Warum eine einzige Objektart noch kein Portfolio ist
+SUMMARY: Erfahre, warum mehrere ähnliche Immobilien am selben Ort kein echtes Portfolio sind, entlang welcher Dimensionen du Immobilien wirklich streuen kannst und warum Streuung das Risiko senkt, ohne zwingend die Rendite zu senken.
+KEYWORDS: Streuung, Diversifikation, Portfolioaufbau, Objektart, Klumpenrisiko
+# Streuung innerhalb von Immobilien: Warum eine einzige Objektart noch kein Portfolio ist
+
+## Lernziele
+- Erklären, warum der Besitz mehrerer ähnlicher Immobilien das Klumpenrisiko nicht beseitigt.
+- Die verschiedenen Dimensionen erkennen, entlang derer Immobilien gestreut werden können.
+- Erklären, warum Streuung das Risiko senkt, ohne zwingend die Rendite zu senken.
+- Das Denken in Streuung anwenden, um ein hypothetisches Portfolio zu bewerten.
+
+## Hauptinhalt
+Fünf vermietete Eigentumswohnungen im selben Vorort zu besitzen fühlt sich gestreut an, weil es fünf getrennte Immobilien sind. Aus Risikosicht ist es aber eher eine einzige große Wette – alle fünf hängen am selben lokalen Arbeitsmarkt, am selben lokalen Verhältnis von Angebot und Nachfrage und an denselben regionalen wirtschaftlichen Schocks. GEPRÜFTE TATSACHE: Echte Streuung verlangt, dass du verschiedenen, idealerweise nicht miteinander verbundenen Risikotreibern ausgesetzt bist, und nicht nur eine größere Zahl ähnlicher Vermögenswerte besitzt.
+
+Hier das „Warum“, weshalb das wichtig ist: Wenn der dominierende Arbeitgeber in diesem Vorort einen großen Teil seiner Belegschaft entlässt, können alle fünf Immobilien ungefähr gleichzeitig mit steigendem Leerstand und fallenden Mieten konfrontiert sein, weil sie denselben zugrunde liegenden Risikotreiber teilen. Echte Streuung innerhalb von Immobilien kann über die Objektart (Wohnen, Büro, Einzelhandel, Logistik), die Lage (verschiedene Städte oder Regionen mit unterschiedlichen wirtschaftlichen Treibern), das Mieterprofil (verschiedene Einkommensgruppen oder Branchen) und die Vertragsstruktur (kurze oder lange Laufzeiten) entstehen. Wer nur kleine Beträge anlegt, kann eine solche Streuung oft nicht über Direktbesitz erreichen; offene Immobilienfonds oder börsennotierte Immobiliengesellschaften sind dann eine Möglichkeit, bringen aber eigene Risiken mit, etwa Rückgabefristen oder Kursschwankungen.
+
+Deshalb denken erfahrene Anleger über Streuung entlang dieser Dimensionen nach und nicht nur über die Zahl ihrer Wohneinheiten. Ein Portfolio aus zehn Einheiten, die alle derselben Art angehören, im selben Viertel liegen und dasselbe Mieterprofil haben, trägt ein deutlich höheres Klumpenrisiko als ein gleich großes Portfolio, das über verschiedene Objektarten oder Regionen verteilt ist.
+
+## Durchgerechnetes Beispiel
+BEISPIEL ZUR VERANSCHAULICHUNG: Ein Anleger besitzt fünf vermietete Häuser, alle im Umkreis von drei Kilometern um ein einziges Werk, das einen großen Teil der Arbeitskräfte der Region beschäftigt. Als das Werk einen erheblichen Stellenabbau ankündigt, steigen bei allen fünf Immobilien innerhalb desselben Jahres der Leerstand und sinken die Mieten, weil das zugrunde liegende Risiko – die Abhängigkeit von diesem einen Arbeitgeber – im gesamten Portfolio geteilt war. Ein Portfolio, das über zwei verschiedene Ballungsräume mit unterschiedlichen dominierenden Branchen verteilt gewesen wäre, wäre von diesem einen Ereignis nicht in gleicher Weise getroffen worden.
+
+## Übungsquiz
+**Q1. Warum gilt der Besitz von fünf ähnlichen Immobilien im selben Vorort nicht als echte Streuung?**
+A) Er gilt unabhängig von der Lage immer als vollständige Streuung
+B) Alle fünf Immobilien teilen dieselben lokalen wirtschaftlichen und marktbezogenen Risikotreiber
+C) Streuung gilt nur für börsennotierte Aktien
+D) Mehr Immobilien zu besitzen senkt das Risiko immer automatisch
+
+**Q2. Was davon ist eine sinnvolle Dimension der Streuung bei Immobilien?**
+A) Die Zahl der Ziffern in der Hausnummer
+B) Objektart, Lage, Mieterprofil und Vertragsstruktur
+C) Die Farbe der Fassade
+D) Der Makler, der die Immobilie angeboten hat
+
+**Q3. Was geschah im Beispiel mit den fünf Immobilien, als das örtliche Werk Entlassungen ankündigte?**
+A) Nichts, weil Immobilien von der örtlichen Beschäftigung unberührt bleiben
+B) Bei allen fünf stiegen ungefähr gleichzeitig der Leerstand und sanken die Mieten, wegen der gemeinsamen Abhängigkeit von einem Arbeitgeber
+C) Nur eine Immobilie war betroffen, während sich die anderen verbesserten
+D) Die Mieten stiegen, weil es weniger Konkurrenz um Wohnungen gab
+
+**Q4. Warum ist die räumliche Streuung in einem Immobilienportfolio wertvoll?**
+A) Verschiedene Ballungsräume haben oft unterschiedliche wirtschaftliche Treiber, was die Wahrscheinlichkeit verringert, dass ein Ereignis das ganze Portfolio trifft
+B) Räumliche Streuung hat keinen Einfluss auf das Risiko
+C) Sie garantiert in jedem Markt höhere Renditen
+D) Sie macht eine Hausverwaltung überflüssig
+
+**Q5. Was ist das Hauptrisiko einer Konzentration in einem Immobilienportfolio?**
+A) Konzentration verbessert die Gesamtrendite immer ohne Nachteil
+B) Ein einzelner gemeinsamer Risikotreiber, etwa ein dominierender örtlicher Arbeitgeber, kann das gesamte Portfolio auf einmal treffen
+C) Konzentration macht Versicherungen überflüssig
+D) Konzentration zählt nur bei Portfolios mit weniger als drei Immobilien
+
+## Lösungsschlüssel
+Q1: B
+Q2: B
+Q3: B
+Q4: A
+Q5: B
+
+## Antworten und Erklärungen
+**Q1.** Wenn alle Immobilien denselben lokalen Risikotreibern ausgesetzt sind, bewegen sie sich tendenziell gemeinsam, statt ihr Risiko gegenseitig auszugleichen.
+
+**Q2.** Diese Dimensionen stehen für wirklich unterschiedliche, oft weniger miteinander verbundene Risiken in einem Portfolio.
+
+**Q3.** Weil alle fünf denselben zugrunde liegenden wirtschaftlichen Risikotreiber teilten, wurden sie gleichzeitig vom selben Ereignis getroffen.
+
+**Q4.** Wer Immobilien über verschiedene Wirtschaftsregionen verteilt, verringert die Wahrscheinlichkeit, dass ein einzelnes lokales Ereignis das gesamte Portfolio trifft.
+
+**Q5.** Klumpenrisiko bedeutet, dass ein einziges ungünstiges Ereignis gleichzeitig mehrere Bestände treffen kann, die dasselbe zugrunde liegende Risiko teilen.
+
+## Das Wichtigste in Kürze
+- Mehr Immobilien derselben Art im selben Gebiet zu besitzen, beseitigt das Klumpenrisiko nicht.
+- Echte Streuung entsteht durch die Verteilung über Objektart, Lage, Mieterprofil und Vertragsstruktur.
+- Ein gemeinsamer Risikotreiber, etwa die Abhängigkeit von einem örtlichen Arbeitgeber, kann ein konzentriertes Portfolio auf einmal treffen.
+- Das Portfoliorisiko sollte nach den zugrunde liegenden Risikotreibern bewertet werden und nicht nach der Zahl der Immobilien.
+
+===== RED-L4-022
+TITLE: Analyse der räumlichen Streuung: Warum sich lokale Märkte nicht gemeinsam bewegen
+SUMMARY: Erfahre, warum Immobilienmärkte zutiefst lokal sind, welche Faktoren Regionen unabhängig voneinander bewegen und welchen Nutzen und welchen Preis eine Streuung über mehrere Märkte hat.
+KEYWORDS: räumliche Streuung, regionale Immobilienmärkte, Marktkorrelation, Portfoliorisiko, Standortanalyse
+# Analyse der räumlichen Streuung: Warum sich lokale Märkte nicht gemeinsam bewegen
+
+## Lernziele
+- Erklären, warum Immobilienmärkte von Natur aus lokal und nicht national sind.
+- Faktoren erkennen, die verschiedene Regionen unabhängig voneinander bewegen.
+- Den Nutzen erklären, Immobilien in Märkten mit unterschiedlichen wirtschaftlichen Treibern zu halten.
+- Die Zielkonflikte der räumlichen Streuung erkennen, etwa höheren Verwaltungsaufwand.
+
+## Hauptinhalt
+Anders als manche Anlageklassen, die sich national oder weltweit weitgehend im Gleichschritt bewegen, sind Immobilienmärkte zutiefst lokal. GEPRÜFTE TATSACHE: Zwei Ballungsräume können gleichzeitig entgegengesetzte Bedingungen erleben – einer boomt wegen des Beschäftigungswachstums in einer bestimmten Branche, ein anderer schwächelt wegen einer lokalen wirtschaftlichen Störung –, weil der Immobilienmarkt jedes Ballungsraums vor allem vom lokalen Angebot, der lokalen Nachfrage und der lokalen Wirtschaftsstruktur bestimmt wird und nicht von einer einzigen nationalen Kraft. In Deutschland sieht man das etwa am Unterschied zwischen wachsenden Universitäts- und Dienstleistungsstädten und Regionen, deren Wirtschaft stark an einer einzigen Industrie wie der Automobil- oder Zulieferindustrie hängt.
+
+Hier das „Warum“, weshalb das einen echten Streuungsnutzen schafft: Ein Portfolio, das über Ballungsräume mit unterschiedlichen dominierenden Branchen verteilt ist (etwa Technologie, Energie, Gesundheitswesen und Industrie), wird weniger wahrscheinlich von einem einzigen wirtschaftlichen Schock getroffen als ein Portfolio, das in einem einzigen, von einer Branche abhängigen Ballungsraum konzentriert ist. Gerät die Energiebranche in einen Abschwung, ist ein Portfolio mit nennenswertem Anteil in einem von Technologie oder Gesundheitswesen geprägten Ballungsraum besser geschützt als eines, das vollständig in einer energieabhängigen Region liegt.
+
+Umsonst ist dieser Nutzen allerdings nicht. LÄNDERSPEZIFISCHE REGEL und praktischer Zielkonflikt: Immobilien in mehreren weit entfernten Märkten zu verwalten erhöht die Komplexität – es ist schwerer, sie persönlich zu beaufsichtigen, man ist auf örtliche Hausverwaltungen und Marktkenntnis angewiesen, und es können höhere Reise- und Abstimmungskosten entstehen. In Deutschland kommt hinzu, dass sich Regeln wie Grunderwerbsteuersätze, Mietpreisbremse oder Zweckentfremdungsverbote je nach Bundesland und Gemeinde unterscheiden. Deshalb ergibt eine räumliche Streuung meist erst dann mehr Sinn, wenn ein Portfolio groß genug ist, um die zusätzliche Komplexität zu rechtfertigen.
+
+## Durchgerechnetes Beispiel
+BEISPIEL ZUR VERANSCHAULICHUNG: Eine Anlegerin hält Immobilien in einem Ballungsraum, der stark von Arbeitsplätzen in der Energiebranche abhängt, und in einem Ballungsraum, der von Krankenhäusern und Hochschulen geprägt ist. Als die Energiepreise stark fallen und im energieabhängigen Ballungsraum der Leerstand steigt und die Mieten sinken, entwickelt sich der von Gesundheitswesen und Bildung geprägte Ballungsraum, der von den Energiepreisen weitgehend unabhängig ist, weiter stabil – das verringert die Abhängigkeit des Gesamtportfolios von dem branchenspezifischen Schock, der nur einen der beiden Märkte getroffen hat.
+
+## Übungsquiz
+**Q1. Warum gelten Immobilienmärkte als zutiefst lokal, statt sich national im Gleichschritt zu bewegen?**
+A) Immobilienmärkte bewegen sich im ganzen Land immer identisch
+B) Lokales Angebot, lokale Nachfrage und die lokale Wirtschaftsstruktur bestimmen vor allem die Marktbedingungen jedes Ballungsraums
+C) Immobilien haben keinen Zusammenhang mit lokalen wirtschaftlichen Bedingungen
+D) Nur die Zinsen der Zentralbank zählen
+
+**Q2. Was ist der wichtigste Streuungsnutzen, wenn du Immobilien in Ballungsräumen mit unterschiedlichen dominierenden Branchen hältst?**
+A) Er garantiert dieselbe Entwicklung aller Immobilien
+B) Er verringert die Wahrscheinlichkeit, dass ein einzelner branchenspezifischer Schock das gesamte Portfolio trifft
+C) Er beseitigt jedes Risiko am Immobilienmarkt vollständig
+D) Er hat keinen messbaren Nutzen
+
+**Q3. Was geschah im Beispiel mit dem von Gesundheitswesen und Bildung geprägten Ballungsraum, als die Energiepreise fielen?**
+A) Er brach wegen des Energiepreisrückgangs ebenfalls stark ein
+B) Er blieb weitgehend geschützt, weil er nicht von Arbeitsplätzen in der Energiebranche abhing
+C) Dort durften keine Mietimmobilien mehr besessen werden
+D) Die Mieten fielen auf null
+
+**Q4. Was ist ein wesentlicher Zielkonflikt der räumlichen Streuung über weit entfernte Märkte?**
+A) Es gibt überhaupt keine Zielkonflikte
+B) Ein höherer Verwaltungsaufwand, der die Abhängigkeit von örtlichen Hausverwaltungen und Marktkenntnis erhöht
+C) Sie erhöht automatisch die Miete jeder Immobilie
+D) Sie macht Versicherungen überflüssig
+
+**Q5. Warum ergibt räumliche Streuung meist mehr Sinn, wenn ein Portfolio größer wird?**
+A) Größere Portfolios sind vom lokalen Marktrisiko vollständig befreit
+B) Bei größerem Umfang lässt sich die zusätzliche Komplexität mehrerer Märkte leichter gegen den Streuungsnutzen rechtfertigen
+C) Kleinere Portfolios dürfen gesetzlich keine Immobilien in mehr als einem Markt halten
+D) Die Größe eines Portfolios hat keinen Einfluss auf die Streuungsstrategie
+
+## Lösungsschlüssel
+Q1: B
+Q2: B
+Q3: B
+Q4: B
+Q5: B
+
+## Antworten und Erklärungen
+**Q1.** Lokale wirtschaftliche Treiber und nicht eine einzige nationale Kraft prägen vor allem die Immobilienbedingungen in einem bestimmten Ballungsraum.
+
+**Q2.** Unterschiedliche Wirtschaftsstrukturen verringern die Wahrscheinlichkeit, dass ein branchenspezifisches Ereignis gleichzeitig jede Immobilie im Portfolio trifft.
+
+**Q3.** Weil die Wirtschaft dieses Ballungsraums nicht an die Energiepreise gebunden war, blieb er von dem branchenspezifischen Schock weitgehend unberührt.
+
+**Q4.** Weit entfernte, unbekannte Märkte zu verwalten bringt im Vergleich zur Konzentration auf ein lokales Gebiet echten zusätzlichen Aufwand mit sich.
+
+**Q5.** Bei größerem Umfang überwiegt der risikomindernde Nutzen der räumlichen Streuung deutlicher den zusätzlichen Verwaltungsaufwand.
+
+## Das Wichtigste in Kürze
+- Immobilienmärkte werden vor allem von lokalen und nicht von nationalen wirtschaftlichen Bedingungen bestimmt.
+- Eine Streuung über Ballungsräume mit unterschiedlichen dominierenden Branchen verringert die Anfälligkeit für einzelne branchenspezifische Schocks.
+- Dieser Nutzen hat einen echten Preis, vor allem mehr Verwaltungsaufwand über weit entfernte Märkte und je nach Region unterschiedliche Regeln.
+- Räumliche Streuung lohnt sich meist umso mehr, je größer und professioneller ein Portfolio wird.
+
+===== RED-L4-023
+TITLE: Analyse der Hausverwaltung: Warum Selbstverwaltung nicht immer günstiger ist
+SUMMARY: Erfahre, welche direkten und versteckten Kosten die Selbstverwaltung einer Immobilie hat, warum die eingesparte Verwaltergebühr nicht das ganze Bild ist und wann Selbstverwaltung trotzdem sinnvoll sein kann.
+KEYWORDS: Hausverwaltung, Mietverwaltung, Selbstverwaltung, Verwaltungskosten, Opportunitätskosten
+# Analyse der Hausverwaltung: Warum Selbstverwaltung nicht immer günstiger ist
+
+## Lernziele
+- Die direkten und indirekten Kosten der Selbstverwaltung einer Immobilie erkennen.
+- Erklären, warum die eingesparte Verwaltergebühr nicht das ganze finanzielle Bild ist.
+- Selbstverwaltung und professionelle Verwaltung mit dem Denkmodell der Opportunitätskosten vergleichen.
+- Situationen erkennen, in denen Selbstverwaltung eher sinnvoll ist.
+
+## Hauptinhalt
+Eine professionelle Mietverwaltung kostet in Deutschland häufig eine Pauschale pro Wohnung und Monat, die je nach Miethöhe grob 4 bis 8 % der Nettokaltmiete entspricht (SCHÄTZUNG, schwankt je nach Markt, Objektgröße und Leistungsumfang erheblich). Es ist verlockend, die Selbstverwaltung als reine Ersparnis in Höhe dieser Gebühr zu betrachten. Das greift zu kurz. Bei Eigentumswohnungen ist außerdem zu unterscheiden: Die Verwaltung des Gemeinschaftseigentums durch die WEG-Verwaltung ist ohnehin vorhanden, hier geht es um die Verwaltung deines Mietverhältnisses.
+
+Hier das „Warum“, weshalb Selbstverwaltung nicht automatisch günstiger ist: Sie hat echte Kosten, die einfach auf keiner Rechnung stehen – die eigene Zeit des Anlegers für die Vermarktung leerer Wohnungen, die Auswahl von Mietern, die Koordination von Reparaturen, Notrufe am späten Abend, die jährliche Betriebskostenabrechnung und das Auf-dem-Laufenden-Bleiben im Mietrecht. Nach dem Denkmodell der Opportunitätskosten aus Lektion 15 hat diese Zeit alternative Verwendungen, ob für das nächste Geschäft, den Hauptberuf oder einfach mehr Freizeit. Es gibt außerdem echte finanzielle Risiken: Ein unerfahrener Selbstverwalter prüft Mieter womöglich weniger gründlich, reagiert langsamer auf Instandhaltungsprobleme oder macht rechtliche Fehler bei Mietvertragsklauseln, Mieterhöhungen, Betriebskostenabrechnungen oder Kündigungen – Fehler, die einer professionellen, im aktuellen Mietrecht versierten Verwaltung seltener unterlaufen. Gerade unwirksame Formularklauseln oder eine verspätete Betriebskostenabrechnung können in Deutschland bares Geld kosten.
+
+Deshalb lautet der richtige Vergleich nicht „eingesparte Verwaltergebühr“ gegen „null“, sondern die eingesparte Gebühr gegen den Wert der Zeit des Anlegers, das Risiko teurer Verwaltungsfehler und seine eigenen Fähigkeiten und seine Verfügbarkeit. Selbstverwaltung ergibt eher Sinn für Anleger mit wenigen Einheiten, mehr verfügbarer Zeit, guter Ortskenntnis und echtem Interesse an der operativen Seite des Geschäfts.
+
+## Durchgerechnetes Beispiel
+BEISPIEL ZUR VERANSCHAULICHUNG: Ein Anleger verwaltet ein Vierfamilienhaus selbst, um geschätzt 3.000 € Verwaltergebühren pro Jahr zu sparen (7,5 % von 40.000 € eingenommener Miete). Im Laufe des Jahres verbringt er rund 150 Stunden mit Mieteranliegen, der Koordination von Reparaturen, Mieterwechseln und der Betriebskostenabrechnung. Könnte diese Zeit in seinem Hauptberuf oder bei der Suche nach neuen Geschäften sonst 50 € pro Stunde einbringen, betragen die tatsächlichen Opportunitätskosten der Selbstverwaltung rund 7.500 € – die „Ersparnis“ durch den Verzicht auf eine Verwaltergebühr von 3.000 € kostet den Anleger also mehr, sobald seine eigene Zeit richtig bewertet wird.
+
+## Übungsquiz
+**Q1. Welche Spanne ist eine übliche Schätzung für die Kosten einer professionellen Mietverwaltung in Deutschland, umgerechnet auf die Miete?**
+A) 0,1 bis 0,5 % der Nettokaltmiete
+B) Grob 4 bis 8 % der Nettokaltmiete
+C) 25 bis 30 % der Nettokaltmiete
+D) 50 % der Nettokaltmiete
+
+**Q2. Warum ist die eingesparte Verwaltergebühr nicht das ganze finanzielle Bild der Selbstverwaltung?**
+A) Verwaltergebühren sind immer gleich, egal wer die Immobilie verwaltet
+B) Selbstverwaltung hat echte, nicht ausgewiesene Kosten wie die eigene Zeit des Anlegers und das Risiko teurer Fehler
+C) Selbstverwaltung kostet immer genau so viel wie professionelle Verwaltung
+D) Selbstverwaltung kostet außer Fahrtkosten nichts
+
+**Q3. Warum könnte die Selbstverwaltung den Anleger im Beispiel tatsächlich mehr kosten als eine Verwaltergebühr?**
+A) Weil Verwaltergebühren in den meisten Bundesländern verboten sind
+B) Weil der Wert der Zeit, die der Anleger für die Selbstverwaltung aufwendete, die eingesparte Gebühr überstieg
+C) Weil Mieter selbstverwaltenden Vermietern immer weniger Miete zahlen
+D) Weil Selbstverwaltung immer zu mehr Leerstand führt
+
+**Q4. Welcher Anleger profitiert eher von der Selbstverwaltung?**
+A) Ein Anleger mit vielen Einheiten, wenig Freizeit und ohne Interesse am operativen Geschäft
+B) Ein Anleger mit wenigen Einheiten, mehr verfügbarer Zeit, guter Ortskenntnis und echtem Interesse am operativen Geschäft
+C) Nur Anleger, die Bürogebäude besitzen
+D) Nur Anleger, die weit entfernt vom Markt der Immobilie wohnen
+
+**Q5. Welches Risiko kann ein unerfahrener Selbstverwalter mit sich bringen, das eine professionelle Verwaltung eher vermeidet?**
+A) In jedem Fall garantiert höhere Mieten
+B) Rechtliche Fehler bei Mietvertragsklauseln, Abrechnungen oder Kündigungen, weil er das aktuelle Mietrecht nicht gut kennt
+C) Eine automatische Befreiung von der Grundsteuer
+D) Schutz vor Beschwerden von Mietern
+
+## Lösungsschlüssel
+Q1: B
+Q2: B
+Q3: B
+Q4: B
+Q5: B
+
+## Antworten und Erklärungen
+**Q1.** Die Kosten einer Mietverwaltung entsprechen umgerechnet häufig grob 4 bis 8 % der Nettokaltmiete, auch wenn das je nach Markt und Leistungsumfang schwankt und oft als Pauschale pro Einheit abgerechnet wird.
+
+**Q2.** Die tatsächlichen Kosten der Selbstverwaltung umfassen die Opportunitätskosten der Zeit des Anlegers und das Risiko von Fehlern aus Unerfahrenheit.
+
+**Q3.** Wird die Zeit des Anlegers mit seinem alternativen Stundenverdienst bewertet, übersteigen die tatsächlichen Kosten der Selbstverwaltung die vermiedene Gebühr.
+
+**Q4.** Selbstverwaltung passt eher, wenn verfügbare Zeit, Fähigkeiten und Interesse zu den operativen Anforderungen passen.
+
+**Q5.** Professionelle Verwaltungen kennen das aktuelle Mietrecht meist besser, was das Risiko teurer rechtlicher Fehler verringert.
+
+## Das Wichtigste in Kürze
+- Die tatsächlichen Kosten der Selbstverwaltung umfassen die Zeit des Anlegers und das Risiko von Fehlern, nicht nur die vermiedene Verwaltergebühr.
+- Die Entscheidung sollte mit dem Denkmodell der Opportunitätskosten getroffen werden, das die Zeit des Anlegers nach ihrer alternativen Verwendung bewertet.
+- Unerfahrene Selbstverwaltung trägt echte rechtliche und operative Risiken, die eine professionelle Verwaltung verringern kann.
+- Selbstverwaltung ergibt eher Sinn bei wenigen Einheiten, mehr verfügbarer Zeit und echtem Interesse am operativen Geschäft.

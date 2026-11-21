@@ -1,0 +1,384 @@
+===== WHITE-L2-014
+TITLE: Le fonctionnement des FNB : création, rachat et écart de suivi
+SUMMARY: Comprends de façon conceptuelle comment le mécanisme de création et de rachat garde le prix d'un FNB près de sa valeur, et ce qu'est l'écart de suivi.
+## WHITE-L2-014
+### Le fonctionnement des FNB : création, rachat et écart de suivi
+
+**1. Objectifs d'apprentissage**
+À la fin de cette leçon, tu pourras :
+- Expliquer de façon conceptuelle comment le mécanisme de création et de rachat des FNB aide à garder leur prix aligné sur la valeur sous-jacente.
+- Définir en termes généraux l'« écart de suivi ».
+- Reconnaître que ce mécanisme fonctionne surtout en coulisse pour l'investisseur moyen.
+
+**2. Contenu principal**
+Dans la suite de la comparaison de la leçon précédente, cette leçon explique de façon conceptuelle pourquoi le prix des FNB suit généralement de près la valeur de leurs actifs sous-jacents tout au long de la journée. Des participants institutionnels spécialisés (souvent appelés « participants autorisés ») peuvent créer de nouvelles parts de FNB en remettant au fonds un panier des actifs sous-jacents, ou racheter des parts de FNB en recevant en retour les actifs sous-jacents, par gros blocs. Ce mécanisme crée un incitatif fondé sur l'arbitrage : si le prix de négociation d'un FNB s'éloigne trop de sa valeur sous-jacente, ces participants peuvent faire un profit en créant ou en rachetant des parts, ce qui tend à ramener le prix du FNB vers sa valeur sous-jacente.
+
+Pour la plupart des investisseurs ordinaires, ce mécanisme se passe complètement en coulisse et n'exige aucun geste direct ni aucune connaissance particulière pour utiliser efficacement un FNB. Il aide simplement à expliquer pourquoi le prix des FNB reste généralement assez proche de leur valeur sous-jacente pendant la journée de négociation, au lieu de s'en éloigner au hasard.
+
+L'« écart de suivi » désigne la mesure dans laquelle la performance réelle d'un FNB (ou d'un fonds commun indiciel) s'écarte de celle de son indice cible au fil du temps — idéalement petit, mais jamais garanti d'être exactement nul, à cause des frais, des coûts de transaction et d'autres facteurs structurels.
+
+**3. Exemple pratique**
+En étudiant deux FNB qui suivent le même indice, Kwame remarque que l'un a toujours eu un écart de suivi plus petit que l'autre au fil du temps; autrement dit, ses rendements réels se sont rapprochés davantage de ceux de l'indice sous-jacent. Sans avoir besoin de comprendre tout le fonctionnement des participants autorisés et du processus de création et de rachat, Kwame utilise cette comparaison de l'écart de suivi comme un facteur pratique parmi d'autres (avec le ratio des frais, vu à la prochaine leçon) pour choisir entre deux FNB par ailleurs semblables.
+
+**4. Quiz de pratique**
+1. Quel est le but général du mécanisme de création et de rachat des FNB?
+   a) Garantir un prix précis
+   b) Aider à garder le prix de négociation d'un FNB aligné sur la valeur de ses actifs sous-jacents
+   c) Éliminer tous les frais
+   d) Empêcher toute négociation pendant la journée
+2. Qu'est-ce que l'« écart de suivi »?
+   a) Un type de défaut d'obligation
+   b) La mesure dans laquelle la performance réelle d'un fonds s'écarte de celle de son indice cible
+   c) Un placement minimum de fonds commun
+   d) Une pénalité fiscale
+3. Vrai ou faux : Les investisseurs ordinaires doivent comprendre personnellement le mécanisme de création et de rachat, et y participer, pour utiliser efficacement les FNB.
+4. Comment Kwame a-t-il utilisé l'écart de suivi dans sa décision?
+   a) Il l'a complètement ignoré
+   b) Il l'a utilisé comme un facteur pratique pour comparer deux FNB semblables
+   c) Il a supposé que l'écart de suivi était toujours exactement nul
+   d) Il a seulement tenu compte du nom du fonds
+
+**5. Corrigé**
+1. b  2. b  3. Faux  4. b
+
+**6. Réponses et explications**
+1. Le mécanisme de création et de rachat aide à garder le prix de négociation d'un FNB aligné sur la valeur de ses actifs sous-jacents grâce à un processus fondé sur l'arbitrage.
+2. L'écart de suivi mesure à quel point les rendements réels d'un fonds correspondent à ceux de son indice cible.
+3. Ce mécanisme fonctionne en coulisse grâce aux participants autorisés; les investisseurs ordinaires n'ont pas besoin d'y participer directement.
+4. Kwame a utilisé l'écart de suivi comme un facteur de comparaison pratique, avec le ratio des frais, pour choisir entre des FNB semblables.
+
+**7. Points clés à retenir**
+- Les participants autorisés utilisent un mécanisme de création et de rachat qui aide à garder le prix des FNB aligné sur leur valeur sous-jacente.
+- Ce processus est en grande partie invisible pour les investisseurs ordinaires, mais il explique le comportement du prix des FNB pendant la journée.
+- L'écart de suivi mesure à quel point la performance réelle d'un fonds correspond à son indice cible.
+- Un plus petit écart de suivi est généralement préférable, même s'il n'est jamais garanti d'être exactement nul.
+
+===== WHITE-L2-015
+TITLE: Les ratios des frais : le coût discret qui se compose
+SUMMARY: Comprends ce qu'est le ratio des frais d'un fonds, pourquoi il passe facilement inaperçu et comment une petite différence peut devenir énorme sur plusieurs décennies.
+## WHITE-L2-015
+### Les ratios des frais : le coût discret qui se compose
+
+**1. Objectifs d'apprentissage**
+À la fin de cette leçon, tu pourras :
+- Définir le ratio des frais et expliquer comment il est prélevé.
+- Expliquer pourquoi de petites différences de ratio des frais peuvent se composer de façon importante sur de longues périodes.
+- Comparer les ratios des frais comme un facteur parmi d'autres pour évaluer un fonds.
+
+**2. Contenu principal**
+Le ratio des frais (souvent appelé ratio des frais de gestion, ou RFG, au Canada) correspond aux frais annuels qu'un fonds prélève, exprimés en pourcentage de l'actif, pour couvrir ses coûts d'exploitation. Il est généralement déduit automatiquement et graduellement des rendements du fonds, au lieu d'être facturé comme un montant séparé et visible — ce qui fait que les investisseurs sous-estiment facilement son effet à long terme, puisqu'ils ne voient jamais de facture explicite.
+
+Comme ces frais se composent avec le temps, en même temps que le placement lui-même, des différences qui semblent petites (par exemple 0,05 % contre 0,75 % par année) peuvent s'accumuler en une différence importante dans la valeur finale du portefeuille sur de longues périodes, surtout sur des horizons de la durée d'une retraite, comme ceux que planifient bien des investisseurs du parcours WHITE. C'est une application directe de la notion de composition vue au niveau 1, appliquée ici à un coût discret plutôt qu'à un gain visible.
+
+Le ratio des frais n'est pas le seul facteur pour choisir un fonds — l'écart de suivi (leçon 14), la stratégie et la lentille précises (leçons 2 à 7) et les objectifs de l'investisseur comptent aussi —, mais il mérite une attention réfléchie précisément parce que son effet est facile à oublier.
+
+**3. Exemple pratique**
+En comparant deux fonds qui suivent le même large indice, le fonds A a un ratio des frais annuel de 0,05 % et le fonds B, un ratio des frais annuel de 0,75 %. En modélisant un placement hypothétique à long terme détenu pendant plusieurs décennies, un investisseur peut voir que cette différence qui semble petite se compose en une différence importante dans la valeur finale du portefeuille sur cette période, uniquement à cause de la différence de coûts continus — en supposant une performance sous-jacente par ailleurs semblable, puisque les deux fonds suivent exactement le même indice.
+
+Cet exercice aide l'investisseur à comprendre pourquoi le ratio des frais, même s'il est discret et facile à oublier, mérite la même attention réfléchie que les décisions de placement plus visibles.
+
+**4. Quiz de pratique**
+1. Qu'est-ce qu'un ratio des frais?
+   a) Des frais d'achat uniques
+   b) Les frais annuels qu'un fonds prélève, en pourcentage de l'actif, pour couvrir ses coûts d'exploitation
+   c) Un impôt gouvernemental
+   d) Un rendement garanti
+2. Pourquoi de petites différences de ratio des frais peuvent-elles compter beaucoup sur de longues périodes?
+   a) Elles ne comptent pas du tout
+   b) Le coût se compose avec le temps, en même temps que le placement lui-même
+   c) Les ratios des frais ne sont prélevés qu'une seule fois
+   d) Ils sont toujours identiques d'un fonds à l'autre
+3. Vrai ou faux : Le ratio des frais est habituellement facturé à l'investisseur sous forme de facture séparée et très visible.
+4. Qu'est-ce que l'exemple pratique a démontré à propos du fonds A et du fonds B?
+   a) Leur différence de ratio des frais n'a eu aucun effet avec le temps
+   b) Une différence de ratio des frais qui semblait petite s'est composée en une différence importante de valeur finale
+   c) Le fonds B a toujours fait mieux que le fonds A malgré ses frais plus élevés
+   d) Les ratios des frais n'ont aucune importance pour les fonds indiciels
+
+**5. Corrigé**
+1. b  2. b  3. Faux  4. b
+
+**6. Réponses et explications**
+1. Un ratio des frais, ce sont les frais annuels, calculés selon l'actif, qu'un fonds prélève pour couvrir ses coûts d'exploitation.
+2. Comme ces frais se composent avec le temps en même temps que le placement, même de petites différences peuvent s'accumuler de façon importante.
+3. Les ratios des frais sont généralement déduits discrètement des rendements du fonds, au lieu d'être facturés séparément et de façon visible.
+4. L'exemple pratique a montré comment une petite différence de ratio des frais se compose en un écart important sur une longue période.
+
+**7. Points clés à retenir**
+- Le ratio des frais, ce sont les frais annuels, en pourcentage, qu'un fonds prélève pour ses coûts d'exploitation.
+- Comme il est déduit discrètement au lieu d'être facturé de façon visible, son effet à long terme est facile à sous-estimer.
+- De petites différences de ratio des frais se composent de façon importante sur de longues périodes.
+- Le ratio des frais est un facteur important parmi d'autres : la stratégie, l'écart de suivi et les objectifs personnels comptent aussi.
+
+===== WHITE-L2-016
+TITLE: La répartition de l'actif : combiner actions, obligations et liquidités
+SUMMARY: Comprends ce qu'est la répartition de l'actif, son lien avec la tolérance au risque et l'horizon de placement, et pourquoi il n'existe pas de formule universelle.
+## WHITE-L2-016
+### La répartition de l'actif : combiner actions, obligations et liquidités
+
+**1. Objectifs d'apprentissage**
+À la fin de cette leçon, tu pourras :
+- Définir de façon conceptuelle la répartition de l'actif.
+- Expliquer le lien entre la répartition de l'actif, la tolérance au risque et l'horizon de placement.
+- Reconnaître qu'il n'existe pas de formule de répartition universelle.
+
+**2. Contenu principal**
+La répartition de l'actif désigne la façon dont un investisseur divise son portefeuille entre de grandes catégories d'actifs — souvent les actions, les obligations et les liquidités (ou équivalents de trésorerie) —, ce qui reprend la discussion de la leçon 8 sur les comportements différents de ces catégories. Selon une recherche souvent discutée, la répartition de l'actif est l'un des principaux facteurs qui déterminent le risque global et le profil de rendement à long terme d'un portefeuille, sans doute plus que le choix de titres précis dans chaque catégorie.
+
+En général, une plus grande part en actions est associée à un potentiel de rendement à long terme plus élevé, avec plus de volatilité, alors qu'une plus grande part en obligations et en liquidités est associée à plus de stabilité et à une volatilité attendue plus faible, avec un potentiel de rendement à long terme habituellement plus bas. La « bonne » répartition dépend de l'horizon de placement précis (leçon 27) et de la tolérance au risque (leçon 26) de chaque investisseur. Il n'existe pas de formule universelle, malgré certaines règles empiriques populaires qui simplifient trop cette décision très personnelle.
+
+**3. Exemple pratique**
+Deux investisseurs d'âges différents réfléchissent à leur répartition de l'actif. Une femme de 25 ans, qui a des décennies devant elle avant la retraite et qui se dit très tolérante à la volatilité à court terme, place une grande majorité de son portefeuille en actions, en acceptant plus de volatilité en échange d'un potentiel de croissance à long terme plus élevé sur son long horizon. Un homme de 62 ans, qui prendra sa retraite d'ici quelques années, choisit un mélange plus équilibré entre actions et obligations, en donnant la priorité à plus de stabilité, vu l'horizon plus court qu'il lui reste avant de commencer à tirer un revenu de son portefeuille.
+
+Aucune des deux répartitions n'est la « bonne » dans tous les cas : chacune reflète l'horizon de placement et la tolérance au risque propres à chaque investisseur.
+
+**4. Quiz de pratique**
+1. À quoi la répartition de l'actif se rapporte-t-elle généralement?
+   a) Seulement au choix d'actions individuelles
+   b) À la façon dont un portefeuille est divisé entre de grandes catégories comme les actions, les obligations et les liquidités
+   c) À un type de déclaration fiscale
+   d) À un seul fonds précis
+2. La répartition de l'actif est largement considérée comme un facteur important de quoi?
+   a) De rien d'important
+   b) Du risque global et du profil de rendement à long terme d'un portefeuille
+   c) Seulement des variations de prix quotidiennes à court terme
+   d) Des taux d'imposition
+3. Vrai ou faux : Il existe une seule formule de répartition de l'actif universelle qui convient à chaque investisseur.
+4. Pourquoi les deux investisseurs de l'exemple pratique ont-ils choisi des répartitions différentes?
+   a) L'un des deux a fait une erreur
+   b) Leurs horizons de placement et leurs tolérances au risque différents demandaient des répartitions différentes
+   c) La répartition de l'actif n'a pas vraiment d'importance
+   d) La loi les obligeait à avoir des répartitions différentes
+
+**5. Corrigé**
+1. b  2. b  3. Faux  4. b
+
+**6. Réponses et explications**
+1. La répartition de l'actif désigne la façon dont un portefeuille est divisé entre de grandes catégories comme les actions, les obligations et les liquidités.
+2. La répartition de l'actif est largement considérée comme un facteur important du risque global et du profil de rendement à long terme d'un portefeuille.
+3. La bonne répartition dépend de l'horizon de placement et de la tolérance au risque de chaque personne; il n'y a pas de formule universelle.
+4. Les horizons de placement et les tolérances au risque différents des deux investisseurs les ont menés, avec raison, à des répartitions différentes.
+
+**7. Points clés à retenir**
+- La répartition de l'actif, c'est la façon dont un portefeuille est divisé entre actions, obligations et liquidités.
+- Elle est largement considérée comme l'un des principaux facteurs du risque et du rendement global d'un portefeuille.
+- Une plus grande part en actions veut généralement dire plus de potentiel de rendement et plus de volatilité; une plus grande part en obligations et en liquidités veut généralement dire plus de stabilité.
+- La bonne répartition dépend de l'horizon de placement et de la tolérance au risque de chaque personne; il n'y a pas de formule universelle.
+
+===== WHITE-L2-017
+TITLE: La diversification à l'intérieur des actifs papier
+SUMMARY: Distingue la diversification à l'intérieur d'une catégorie d'actifs de la répartition entre catégories, et vois pourquoi un grand nombre de titres ne garantit pas la diversification.
+## WHITE-L2-017
+### La diversification à l'intérieur des actifs papier
+
+**1. Objectifs d'apprentissage**
+À la fin de cette leçon, tu pourras :
+- Faire la différence entre la diversification à l'intérieur d'une catégorie d'actifs et la répartition de l'actif entre les catégories.
+- Expliquer le but général de la diversification.
+- Nommer des exemples de diversification à l'intérieur des actions et à l'intérieur des obligations.
+
+**2. Contenu principal**
+Alors que la répartition de l'actif (leçon 16) porte sur la façon dont un portefeuille se divise entre de grandes catégories, la diversification porte sur la façon dont un portefeuille répartit le risque à l'intérieur d'une catégorie donnée, en écho à la discussion du parcours RED sur la diversification immobilière (RED-L2-038). Pour les actions, ça peut vouloir dire détenir de nombreuses entreprises différentes, dans différents secteurs (leçon 24) et différentes régions (leçon 25), plutôt que de se concentrer fortement dans quelques entreprises seulement. Pour les obligations, ça peut vouloir dire détenir des titres d'émetteurs de qualité de crédit, d'échéance et de type différents, plutôt que de se concentrer sur un seul émetteur ou une seule obligation.
+
+Le but général de la diversification est de réduire l'effet de la mauvaise performance d'un seul placement sur l'ensemble du portefeuille : si une entreprise ou un émetteur d'obligations a des difficultés, un portefeuille bien diversifié en ressent un effet relativement plus petit qu'un portefeuille concentré. Ça n'élimine pas le risque de l'ensemble du marché (une baisse générale du marché touche quand même un portefeuille diversifié), mais ça réduit le risque propre à une entreprise ou à un émetteur.
+
+**3. Exemple pratique**
+En examinant ses actions, Amara se rend compte qu'il détient vingt entreprises différentes, mais que dix-huit d'entre elles sont concentrées dans un seul secteur d'activité. Reconnaissant qu'il s'agit d'une diversification insuffisante malgré le nombre apparemment élevé de titres, il restructure son portefeuille pour répartir son exposition aux actions entre plusieurs secteurs, ce qui réduit sa vulnérabilité à un ralentissement qui toucherait ce secteur en particulier — même si son nombre total de titres individuels n'a pas besoin de changer beaucoup pour obtenir cette amélioration.
+
+**4. Quiz de pratique**
+1. Selon cette leçon, en quoi la diversification diffère-t-elle de la répartition de l'actif?
+   a) Ce sont des notions identiques
+   b) La répartition de l'actif divise entre de grandes catégories; la diversification répartit le risque à l'intérieur d'une catégorie
+   c) La diversification ne s'applique qu'à l'immobilier
+   d) La répartition de l'actif ne s'applique qu'aux obligations
+2. Quel est le but général de la diversification?
+   a) Garantir un profit
+   b) Réduire l'effet de la mauvaise performance d'un seul placement sur l'ensemble du portefeuille
+   c) Éliminer tout risque de marché
+   d) Concentrer le risque dans une seule entreprise
+3. Vrai ou faux : Détenir vingt actions garantit automatiquement une diversification suffisante, peu importe la concentration par secteur.
+4. Quel problème Amara a-t-il repéré dans son propre portefeuille?
+   a) Trop peu de titres au total
+   b) Une forte concentration dans un seul secteur d'activité malgré un nombre de titres apparemment élevé
+   c) Trop d'obligations
+   d) Aucune action
+
+**5. Corrigé**
+1. b  2. b  3. Faux  4. b
+
+**6. Réponses et explications**
+1. La répartition de l'actif porte sur la division entre de grandes catégories; la diversification porte sur la répartition du risque à l'intérieur d'une catégorie donnée.
+2. La diversification réduit l'effet relatif de la mauvaise performance d'un seul placement sur l'ensemble du portefeuille.
+3. Un grand nombre de titres concentrés dans un seul secteur ne permet pas d'obtenir une diversification suffisante.
+4. Les titres d'Amara, malgré leur nombre, étaient fortement concentrés dans un seul secteur, ce qui minait une vraie diversification.
+
+**7. Points clés à retenir**
+- La diversification répartit le risque à l'intérieur d'une catégorie d'actifs, ce qui la distingue de la répartition de l'actif entre grandes catégories.
+- Elle réduit le risque propre à une entreprise ou à un émetteur, sans éliminer le risque général du marché.
+- Un grand nombre de titres ne garantit pas la diversification s'ils sont concentrés dans des secteurs ou des émetteurs semblables.
+- Cette notion fait écho à la discussion sur la diversification du parcours RED, appliquée ici aux actifs papier.
+
+===== WHITE-L2-018
+TITLE: Le rééquilibrage : garder le portefeuille sur la cible
+SUMMARY: Comprends pourquoi la répartition d'un portefeuille dérive avec le temps et comment le rééquilibrage, selon un calendrier ou des seuils, la ramène vers la cible.
+## WHITE-L2-018
+### Le rééquilibrage : garder le portefeuille sur la cible
+
+**1. Objectifs d'apprentissage**
+À la fin de cette leçon, tu pourras :
+- Expliquer le concept général du rééquilibrage d'un portefeuille.
+- Décrire pourquoi la répartition d'un portefeuille peut dériver avec le temps sans rééquilibrage.
+- Nommer des approches courantes de rééquilibrage.
+
+**2. Contenu principal**
+Comme les différentes catégories d'actifs ont des performances différentes avec le temps, la répartition réelle d'un portefeuille s'éloigne naturellement de sa répartition cible d'origine (leçon 16), puisque certains placements grandissent plus vite que d'autres. Le rééquilibrage est le processus périodique qui consiste à ramener un portefeuille vers sa répartition cible, habituellement en vendant une partie des placements qui ont grandi au-delà de leur pourcentage cible et en achetant davantage de ceux qui sont tombés sous leur pourcentage cible.
+
+Les approches de rééquilibrage courantes comprennent le rééquilibrage selon un calendrier (revoir et ajuster à des intervalles fixes, par exemple chaque année) et le rééquilibrage selon des seuils (ajuster dès qu'une part s'écarte de sa cible au-delà d'un pourcentage précis, peu importe le moment). Le rééquilibrage sert autant à gérer le risque qu'à chercher du rendement : sans lui, un portefeuille peut devenir graduellement plus audacieux (si les actions ont mieux performé et dominent maintenant la répartition) ou plus prudent (si c'est l'inverse) que prévu au départ, sans que l'investisseur ait pris de décision volontaire en ce sens.
+
+**3. Exemple pratique**
+Sanjay avait fixé au départ une répartition cible de 70 % en actions et de 30 % en obligations. Après plusieurs années de forte performance des actions, il vérifie son portefeuille et découvre qu'il est passé à 82 % en actions et 18 % en obligations — non pas parce qu'il a décidé de devenir plus audacieux, mais simplement parce que les actions ont grandi plus vite que les obligations pendant cette période.
+
+Reconnaissant que cette dérive ne correspond pas à sa tolérance au risque et à son plan d'origine, Sanjay rééquilibre son portefeuille en vendant une partie de ses actions et en achetant des obligations, ce qui le ramène plus près de sa cible d'origine de 70/30 — un geste réfléchi et discipliné plutôt que de simplement « surfer sur la vague » de la performance récente des actions.
+
+**4. Quiz de pratique**
+1. Pourquoi la répartition d'un portefeuille dérive-t-elle avec le temps sans rééquilibrage?
+   a) Elle ne dérive jamais
+   b) Les différentes catégories d'actifs ont des performances différentes, ce qui fait grandir certaines plus vite que d'autres
+   c) Toutes les catégories d'actifs grandissent toujours exactement au même rythme
+   d) Le rééquilibrage se fait automatiquement sans aucun geste
+2. En quoi consiste généralement le rééquilibrage?
+   a) Ignorer complètement le portefeuille
+   b) Vendre les placements qui dépassent leur part cible et acheter ceux qui sont sous leur cible
+   c) Toujours acheter, sans jamais vendre
+   d) Éliminer toutes les obligations
+3. Vrai ou faux : La répartition d'un portefeuille reste toujours exactement à sa cible d'origine, sans aucun geste de l'investisseur.
+4. Pourquoi le portefeuille de Sanjay est-il passé à 82 % en actions sans décision active de sa part?
+   a) Il avait volontairement choisi cette répartition
+   b) Les actions ont grandi plus vite que les obligations pendant cette période, ce qui a déplacé naturellement la répartition
+   c) Ses obligations avaient été vendues automatiquement
+   d) Sa cible d'origine était déjà de 82 % en actions
+
+**5. Corrigé**
+1. b  2. b  3. Faux  4. b
+
+**6. Réponses et explications**
+1. Les performances différentes des catégories d'actifs font dériver la répartition réelle d'un portefeuille par rapport à sa cible d'origine avec le temps.
+2. Le rééquilibrage consiste à vendre les placements au-dessus de leur cible et à acheter ceux sous leur cible pour rétablir la répartition prévue.
+3. Sans rééquilibrage actif, la répartition dérive naturellement à cause des performances différentes des catégories d'actifs.
+4. La répartition de Sanjay a dérivé uniquement à cause de la différence de performance entre les actions et les obligations, pas d'une décision active.
+
+**7. Points clés à retenir**
+- La répartition d'un portefeuille dérive naturellement avec le temps, puisque les catégories d'actifs ont des performances différentes.
+- Le rééquilibrage ramène un portefeuille vers sa répartition cible d'origine.
+- Les approches courantes comprennent le rééquilibrage selon un calendrier et selon des seuils.
+- Le rééquilibrage gère le risque en empêchant une dérive de la répartition non voulue, qui se produit sans décision volontaire de l'investisseur.
+
+===== WHITE-L2-019
+TITLE: L'investissement périodique d'un montant fixe : investir malgré la volatilité
+SUMMARY: Comprends comment investir le même montant à intervalles réguliers peut réduire ton coût moyen par part et enlever la pression de choisir le bon moment.
+## WHITE-L2-019
+### L'investissement périodique d'un montant fixe : investir malgré la volatilité
+
+**1. Objectifs d'apprentissage**
+À la fin de cette leçon, tu pourras :
+- Définir de façon conceptuelle l'investissement périodique d'un montant fixe (*dollar-cost averaging*).
+- Expliquer comment cette stratégie interagit avec la volatilité du marché.
+- Reconnaître l'attrait psychologique et pratique de cette approche.
+
+**2. Contenu principal**
+L'investissement périodique d'un montant fixe (souvent appelé méthode de l'achat périodique par sommes fixes) consiste à investir un montant fixe en dollars à intervalles réguliers (par exemple chaque mois), peu importe le prix de l'actif à chaque intervalle, plutôt que d'investir une somme forfaitaire d'un coup ou d'essayer de choisir le moment de ses achats selon des prix qu'on croit favorables. Comme le montant fixe achète plus de parts quand les prix sont bas et moins de parts quand ils sont élevés, cette approche peut donner un coût moyen par part plus bas avec le temps, comparativement à l'investissement du même montant total à un seul moment, possiblement mal choisi — même si cet avantage n'est pas garanti dans tous les scénarios, surtout dans un marché qui monte de façon constante (on y revient à la prochaine leçon).
+
+Au-delà de l'effet purement mathématique, cette approche a un attrait psychologique et pratique important : elle enlève la pression d'essayer de trouver le moment « parfait » pour investir (en écho au paradoxe du choix de la leçon 1), et elle correspond naturellement à la façon dont bien des gens reçoivent réellement leur argent — par des paies régulières. C'est donc une approche par défaut pratique pour les cotisations continues, comme les cotisations à un compte de retraite prélevées sur chaque paie.
+
+**3. Exemple pratique**
+En versant un montant fixe dans son compte de retraite à chaque paie pendant une année volatile, Layla finit par acheter plus de parts les mois où les prix baissent et moins de parts les mois où ils montent, sans avoir à prendre elle-même de décision sur le moment. En examinant ses résultats à la fin de l'année, elle constate que son coût moyen par part est plus bas que le niveau de prix moyen de l'année — une conséquence mathématique de son rythme d'achat constant et sans émotion à travers les hauts et les bas du marché. Elle reconnaît aussi que ce résultat reflète le profil de cette année volatile précise, pas une garantie pour chaque année à venir.
+
+**4. Quiz de pratique**
+1. En quoi consiste généralement l'investissement périodique d'un montant fixe?
+   a) Investir une somme forfaitaire d'un coup
+   b) Investir un montant fixe en dollars à intervalles réguliers, peu importe le prix
+   c) Investir seulement quand les prix baissent
+   d) Éviter complètement d'investir
+2. Pourquoi l'investissement périodique d'un montant fixe peut-il, dans certains scénarios, donner un coût moyen par part plus bas?
+   a) Il garantit toujours le prix le plus bas possible
+   b) Un montant fixe achète plus de parts quand les prix sont bas et moins quand ils sont élevés
+   c) Il n'a aucun lien avec le prix
+   d) Il ne fonctionne que si les prix montent toujours
+3. Vrai ou faux : L'investissement périodique d'un montant fixe garantit de meilleurs résultats qu'un placement forfaitaire dans tous les scénarios de marché possibles.
+4. Quel attrait pratique cette approche a-t-elle au-delà de son effet mathématique?
+   a) Elle exige de grosses sommes d'argent au départ
+   b) Elle enlève la pression du choix du moment et correspond naturellement aux cotisations faites à chaque paie
+   c) Elle élimine tout risque de placement
+   d) Elle exige des décisions de négociation actives chaque jour
+
+**5. Corrigé**
+1. b  2. b  3. Faux  4. b
+
+**6. Réponses et explications**
+1. L'investissement périodique d'un montant fixe consiste à investir un montant fixe à intervalles réguliers, peu importe le prix à chaque intervalle.
+2. Acheter plus de parts à des prix bas et moins à des prix élevés peut réduire le coût moyen par part, même si ce n'est pas garanti pour tous les profils de marché.
+3. L'avantage de cette approche par rapport à une somme forfaitaire dépend du profil de prix qui se produit, sans garantie dans tous les scénarios.
+4. Cette approche enlève la pression du choix du moment et correspond naturellement à la façon dont bien des gens reçoivent et investissent leur argent, par des paies régulières.
+
+**7. Points clés à retenir**
+- L'investissement périodique d'un montant fixe investit le même montant à intervalles réguliers, peu importe le prix.
+- Il peut réduire le coût moyen par part dans des marchés volatils ou en baisse, sans garantie dans tous les scénarios.
+- Il enlève la pression du choix du moment, ce qui répond au paradoxe du choix vu à la leçon 1.
+- Il correspond naturellement aux revenus réguliers, comme les cotisations de retraite prélevées sur chaque paie.
+
+===== WHITE-L2-020
+TITLE: Somme forfaitaire ou investissement périodique : les compromis
+SUMMARY: Compare l'investissement d'une somme forfaitaire et l'investissement périodique, ce que montre la recherche historique et pourquoi ton tempérament compte aussi.
+## WHITE-L2-020
+### Somme forfaitaire ou investissement périodique : les compromis
+
+**1. Objectifs d'apprentissage**
+À la fin de cette leçon, tu pourras :
+- Comparer directement l'investissement d'une somme forfaitaire et l'investissement périodique d'un montant fixe.
+- Expliquer les conclusions générales de la recherche sur leur performance historique relative.
+- Reconnaître les facteurs psychologiques qui peuvent compter plus que les considérations purement mathématiques.
+
+**2. Contenu principal**
+Dans la suite de la leçon précédente, cette leçon compare directement l'investissement d'une somme forfaitaire (investir un gros montant d'un coup) et l'investissement périodique d'un montant fixe. Selon une recherche souvent discutée, en moyenne, sur les périodes historiques, l'investissement d'une somme forfaitaire a souvent fait mieux que l'investissement périodique quand l'investisseur avait déjà le montant complet disponible. C'est surtout parce que les marchés ont historiquement eu tendance à monter sur la plupart des longues périodes; « attendre » pour investir graduellement une somme forfaitaire a donc plus souvent voulu dire manquer du temps sur le marché qu'éviter une baisse.
+
+Par contre, cette moyenne historique ne veut pas dire que l'investissement d'une somme forfaitaire fait toujours mieux pendant chaque période précise, et elle ne tient pas compte d'un facteur psychologique important : un investisseur qui ressentirait beaucoup d'anxiété ou de regret en investissant une grosse somme juste avant une baisse du marché pourrait réellement profiter — dans son comportement réel et sa capacité à s'en tenir à son plan — de l'expérience émotionnelle plus douce de l'investissement périodique, même si cette stratégie n'est pas, en moyenne, mathématiquement optimale.
+
+Ce qu'il faut retenir au niveau 2, c'est que le « bon » choix entre ces approches dépend non seulement des moyennes historiques, mais aussi du tempérament de l'investisseur et de la probabilité qu'il suive réellement son plan avec l'une ou l'autre approche.
+
+**3. Exemple pratique**
+Owen vient de recevoir un gros héritage et se demande s'il doit l'investir d'un coup ou l'étaler sur plusieurs mois. Il examine la recherche générale selon laquelle l'investissement d'une somme forfaitaire a, en moyenne, donné de meilleurs résultats historiques dans la plupart des périodes, mais il évalue aussi honnêtement son propre tempérament : il reconnaît qu'il ressentirait probablement beaucoup d'anxiété et de doute s'il investissait tout tout de suite et que le marché baissait peu après.
+
+Owen choisit finalement une voie mitoyenne : il investit la majorité tout de suite et étale le reste sur plusieurs mois, en reconnaissant explicitement qu'il donne la priorité à sa propre capacité psychologique de s'en tenir au plan plutôt qu'au résultat moyen historique strict — un compromis personnalisé et éclairé, au lieu de suivre aveuglément l'une ou l'autre approche.
+
+**4. Quiz de pratique**
+1. Que suggère la recherche souvent discutée au sujet de la performance historique moyenne?
+   a) L'investissement périodique fait toujours mieux que l'investissement d'une somme forfaitaire
+   b) L'investissement d'une somme forfaitaire a, en moyenne, souvent fait mieux que l'investissement périodique dans l'histoire
+   c) Les deux approches donnent toujours des résultats identiques
+   d) Aucune des deux approches n'a jamais été étudiée
+2. Pourquoi l'investissement périodique pourrait-il quand même profiter à certains investisseurs, même si la moyenne historique favorise la somme forfaitaire?
+   a) Il garantit un rendement plus élevé
+   b) Il peut mieux correspondre à la capacité psychologique d'un investisseur de s'en tenir à son plan
+   c) Il n'a aucune dimension psychologique
+   d) La loi l'exige
+3. Vrai ou faux : L'investissement d'une somme forfaitaire fait mieux que l'investissement périodique dans chaque période historique, sans exception.
+4. Quel compromis Owen a-t-il finalement privilégié dans sa décision?
+   a) S'en tenir strictement au résultat moyen historique seulement
+   b) Sa propre capacité psychologique de s'en tenir au plan, en tenant compte aussi de la recherche historique
+   c) Ignorer complètement la recherche
+   d) Ne pas investir du tout
+
+**5. Corrigé**
+1. b  2. b  3. Faux  4. b
+
+**6. Réponses et explications**
+1. La recherche suggère généralement que l'investissement d'une somme forfaitaire a, en moyenne, fait mieux que l'investissement périodique dans l'histoire, mais pas dans chaque période.
+2. L'investissement périodique peut mieux soutenir la capacité psychologique de certains investisseurs à s'en tenir à leur plan, même s'il n'est pas optimal en moyenne sur le plan mathématique.
+3. Les moyennes historiques ne veulent pas dire que l'investissement d'une somme forfaitaire fait mieux pendant chaque période précise.
+4. Owen a volontairement équilibré la recherche historique avec une évaluation honnête de son propre tempérament.
+
+**7. Points clés à retenir**
+- L'investissement d'une somme forfaitaire a, en moyenne, fait mieux que l'investissement périodique dans la plupart des périodes historiques, à cause de la tendance générale des marchés à monter à long terme.
+- Cette moyenne ne garantit pas que la somme forfaitaire fera mieux pendant chaque période précise.
+- L'investissement périodique peut mieux soutenir la capacité psychologique de certains investisseurs à suivre leur plan.
+- Le bon choix dépend à la fois de la recherche historique et d'une évaluation honnête de son propre tempérament.

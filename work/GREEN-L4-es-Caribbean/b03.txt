@@ -1,0 +1,399 @@
+===== GREEN-L4-011
+TITLE: El análisis contributivo de la selección de entidad: por qué el negocio individual, la LLC, la corporación S y la corporación C tributan distinto
+SUMMARY: Aprenda cómo tributa un negocio individual, cómo la elección de corporación S afecta la contribución sobre trabajo por cuenta propia y qué es la doble tributación de una corporación C en el sistema federal de EE. UU.
+KEYWORDS: selección de entidad, negocio individual, corporación S, corporación C, estructura contributiva del negocio
+# El análisis contributivo de la selección de entidad: por qué el negocio individual, la LLC, la corporación S y la corporación C tributan distinto
+
+## Escenario inicial
+SUPUESTO/OPINIÓN (escenario hipotético solo con fines educativos): Imagine que un banco central sube su tasa de interés de referencia de forma brusca y repetida en un periodo corto de meses para combatir el alza en la inflación. Mientras suben los costos de tomar dinero prestado y los dueños de negocios que trabajan por cuenta propia buscan todas las maneras posibles de manejar su carga contributiva general, algunos descubren que con solo cambiar la estructura legal y contributiva de su negocio, sin cambiar nada del negocio en sí, pueden afectar de forma importante su contribución total. Esta lección examina por qué eso es así.
+
+## Objetivos de aprendizaje
+- Explicar el tratamiento contributivo básico de un negocio individual.
+- Explicar cómo la elección de tributar como corporación S puede afectar el tratamiento de la contribución sobre trabajo por cuenta propia del ingreso de negocio.
+- Explicar el concepto de doble tributación asociado con una corporación C tradicional.
+- Explicar por qué la selección de entidad es una verdadera decisión de planificación contributiva específica para cada negocio y no una respuesta que sirve para todos.
+
+## Contenido principal
+En el sistema contributivo federal de EE. UU., el negocio individual es la estructura más sencilla y la que aplica por defecto a un dueño individual que no ha hecho ninguna elección formal de entidad: todos los ingresos y gastos del negocio se reportan directamente en la planilla personal del dueño, y el dueño paga la contribución sobre trabajo por cuenta propia (Lección 13) sobre todo el ingreso neto del negocio, además de la contribución sobre ingreso ordinario. DATO VERIFICADO: una LLC (compañía de responsabilidad limitada) es una entidad legal creada bajo la ley estatal que, para fines contributivos federales, por defecto generalmente tributa como negocio individual (si tiene un solo dueño) o como sociedad (si tiene varios dueños), aunque una LLC puede elegir tributar como corporación S o como corporación C. Eso significa que "LLC" describe una estructura de responsabilidad legal, no automáticamente un tratamiento contributivo federal distinto.
+
+Este es el "por qué" la elección de corporación S puede afectar de forma importante el tratamiento de la contribución sobre trabajo por cuenta propia del ingreso de negocio, en conexión directa con el análisis de la Lección 13: el dueño de una corporación S que trabaja activamente en el negocio tiene que pagarse un "salario razonable" (sujeto a contribuciones sobre nómina, como cualquier empleado), pero cualquier ganancia adicional que se distribuya por encima de ese salario razonable generalmente no está sujeta a la contribución sobre trabajo por cuenta propia de la misma manera que lo estaría en un negocio individual o en una LLC que tributa por defecto. Esta diferencia estructural específica es la razón por la que muchos dueños que trabajan activamente y tienen ganancias considerables por encima de un salario razonable consideran la elección de corporación S, específicamente para reducir su carga general de contribución sobre trabajo por cuenta propia — REGLA ESPECÍFICA DE LA REGIÓN y advertencia importante, ya que el IRS exige que el salario pagado sea verdaderamente "razonable" para el trabajo que se hace, y los salarios demasiado bajos diseñados para reducir al mínimo las contribuciones sobre nómina pueden llamar la atención y ser impugnados.
+
+Por eso una corporación C tradicional enfrenta el problema distinto de la "doble tributación": una corporación C paga contribución sobre ingresos a nivel corporativo sobre sus ganancias y luego, si esas ganancias después de contribuciones se distribuyen a los accionistas como dividendos, los accionistas pagan una segunda capa de contribución sobre esos dividendos en sus propias planillas (en conexión con el tratamiento contributivo de los dividendos visto en la Lección 17). Eso significa que las ganancias de una corporación C que al final se distribuyen a los dueños pueden enfrentar dos capas separadas de tributación, a diferencia de la sola capa que aplica al ingreso de las entidades de flujo directo (discusión de la deducción QBI de la Lección 10). Por eso la selección de entidad es una verdadera decisión de planificación contributiva específica para cada negocio, y no una sola respuesta correcta para todos: la opción adecuada depende de factores como el nivel de ganancias del negocio, si las ganancias se van a retener en el negocio o a distribuir a los dueños, la necesidad del dueño de ciertos beneficios marginales más accesibles con una estructura de corporación C, y las tasas y reglas contributivas específicas de un año dado. Por eso esta decisión generalmente amerita la orientación de un profesional de contribuciones cualificado que conozca las circunstancias específicas del negocio.
+
+## Ejemplo práctico
+EJEMPLO ILUSTRATIVO: El dueño de un negocio individual con $150,000 de ingreso neto de negocio paga la contribución sobre trabajo por cuenta propia sobre los $150,000 completos. El mismo dueño, después de elegir que su LLC tribute como corporación S con números de negocio idénticos, se paga un salario razonable de $80,000 (sujeto a contribuciones sobre nómina) y toma los $70,000 restantes como una distribución no sujeta a la contribución sobre trabajo por cuenta propia. Esto produce una reducción importante en la carga total de contribución sobre trabajo por cuenta propia y sobre nómina del dueño en comparación con la estructura de negocio individual, aunque el negocio generó exactamente la misma ganancia de $150,000 en ambas estructuras.
+
+## Prueba práctica
+**Q1. ¿Cómo tributa generalmente el ingreso de un negocio individual?**
+A) Tributa primero a nivel de una entidad separada antes de cualquier tributación adicional del dueño
+B) Todos los ingresos y gastos del negocio se reportan directamente en la planilla personal del dueño, y el dueño paga la contribución sobre trabajo por cuenta propia sobre todo el ingreso neto del negocio además de la contribución sobre ingreso ordinario
+C) El ingreso de un negocio individual está totalmente exento de toda forma de tributación
+D) Los negocios individuales siempre tributan como corporaciones C por defecto
+
+**Q2. ¿Cómo puede la elección de corporación S afectar el tratamiento de la contribución sobre trabajo por cuenta propia del ingreso de negocio?**
+A) La elección de corporación S no tiene ningún efecto en la contribución sobre trabajo por cuenta propia
+B) El dueño de una corporación S paga contribuciones sobre nómina solo sobre un salario razonable, mientras que la ganancia adicional distribuida por encima de ese salario generalmente no está sujeta de la misma manera a la contribución sobre trabajo por cuenta propia
+C) Los dueños de corporaciones S tienen que pagar la contribución sobre trabajo por cuenta propia sobre todo su ingreso de negocio, sin distinción entre salario y distribuciones
+D) La elección de corporación S siempre aumenta la carga total de contribución sobre trabajo por cuenta propia del dueño en comparación con un negocio individual
+
+**Q3. ¿Qué es el problema de la "doble tributación" asociado con una corporación C tradicional?**
+A) Las ganancias de una corporación C nunca tributan a ningún nivel
+B) Una corporación C paga contribución sobre ingresos a nivel corporativo sobre sus ganancias, y luego los accionistas pagan una segunda capa de contribución sobre los dividendos distribuidos de esas ganancias después de contribuciones
+C) La doble tributación se refiere a que una corporación C paga su contribución corporativa dos veces en el mismo año
+D) Solo las entidades de flujo directo, nunca las corporaciones C, están sujetas a algún tipo de doble tributación
+
+**Q4. ¿Por qué la selección de entidad se considera una verdadera decisión de planificación contributiva específica para cada negocio y no una sola respuesta correcta para todos?**
+A) Todo negocio siempre debe escoger la misma estructura de entidad, sin importar sus circunstancias específicas
+B) La opción adecuada depende de factores como el nivel de ganancias, si las ganancias se retienen o se distribuyen y las necesidades específicas de beneficios marginales, lo que generalmente requiere orientación profesional ajustada al negocio específico
+C) La selección de entidad no tiene ningún efecto real en el resultado contributivo de un negocio
+D) Solo los negocios muy grandes tienen que considerar la selección de entidad como una decisión de planificación contributiva
+
+**Q5. En el ejemplo, ¿por qué la elección de corporación S redujo la carga total de contribución sobre trabajo por cuenta propia y sobre nómina del dueño en comparación con el negocio individual?**
+A) El ingreso total del negocio del dueño en realidad bajó después de hacer la elección de corporación S
+B) Solo el salario razonable de $80,000 estaba sujeto a contribuciones sobre nómina, mientras que la distribución restante de $70,000 no estaba sujeta a la contribución sobre trabajo por cuenta propia de la manera en que lo habría estado bajo el negocio individual
+C) Las elecciones de corporación S siempre aumentan, en lugar de reducir, la carga contributiva total del dueño
+D) El negocio individual y la corporación S produjeron resultados contributivos idénticos en este ejemplo
+
+## Clave de respuestas
+Q1: B
+Q2: B
+Q3: B
+Q4: B
+Q5: B
+
+## Respuestas y explicaciones
+**Q1.** Este paso directo a la planilla personal del dueño, junto con la exposición completa a la contribución sobre trabajo por cuenta propia sobre el ingreso neto, es el tratamiento contributivo que define al negocio individual.
+
+**Q2.** Esta distinción estructural específica entre salario y distribución es precisamente la razón por la que la elección de corporación S puede reducir la exposición total de un dueño activo a la contribución sobre trabajo por cuenta propia.
+
+**Q3.** Esta tributación en dos capas de las ganancias corporativas que al final se distribuyen a los accionistas es el problema específico que describe el término "doble tributación".
+
+**Q4.** La variación real de los factores pertinentes de un negocio a otro es precisamente la razón por la que esta decisión requiere un análisis caso por caso con orientación profesional, y no una regla que sirva para todos.
+
+**Q5.** Este contraste directo en cómo tributaron los mismos $150,000 de ingreso de negocio bajo cada estructura ilustra precisamente el beneficio de planificación de la contribución sobre trabajo por cuenta propia que puede dar una elección de corporación S a un dueño que trabaja activamente.
+
+## Puntos clave
+- El ingreso de un negocio individual pasa directamente a la planilla personal del dueño, quien paga la contribución sobre trabajo por cuenta propia sobre todo el ingreso neto.
+- La elección de corporación S puede reducir la exposición a la contribución sobre trabajo por cuenta propia, ya que solo un salario razonable está sujeto a contribuciones sobre nómina, mientras que la ganancia adicional distribuida generalmente no.
+- Una corporación C tradicional enfrenta doble tributación: contribución a nivel corporativo sobre las ganancias, más contribución individual sobre los dividendos que se distribuyan de esas ganancias.
+- La selección de entidad es una verdadera decisión de planificación contributiva específica para cada negocio, que depende del nivel de ganancias, los planes de distribución y otros factores, y generalmente amerita orientación profesional.
+
+===== GREEN-L4-012
+TITLE: El análisis de la doble tributación corporativa: por qué el mismo dólar de ganancia puede tributar dos veces
+SUMMARY: Aprenda las dos capas de contribución sobre las ganancias de una corporación C distribuidas como dividendos, cómo calcular la tasa combinada y por qué retener ganancias o recomprar acciones evita la segunda capa inmediata.
+KEYWORDS: doble tributación corporativa, contribución sobre dividendos, estructura de corporación C, ganancias retenidas
+# El análisis de la doble tributación corporativa: por qué el mismo dólar de ganancia puede tributar dos veces
+
+## Escenario inicial
+SUPUESTO/OPINIÓN (escenario hipotético solo con fines educativos): Imagine que, después de años de expansión rápida, los mercados de bienes raíces y de crédito al consumo de un país muy poblado empiezan a mostrar señales de una corrección brusca a medida que aumentan los incumplimientos de pago. Mientras un auge alimentado por el crédito se desinfla, algunas corporaciones C presionadas por sus accionistas para devolverles efectivo reconsideran si tiene más sentido aumentar los dividendos, retener las ganancias para reinvertirlas o recomprar acciones (según el análisis de recompras de la ruta WHITE-L4), una vez se toma en cuenta como es debido el costo de la doble tributación de los dividendos. Esta lección examina ese mecanismo contributivo específico con más profundidad.
+
+## Objetivos de aprendizaje
+- Explicar las dos capas distintas de contribución que aplican a las ganancias de una corporación C que al final se distribuyen como dividendos.
+- Calcular la tasa contributiva efectiva combinada sobre un dólar de ganancia de una corporación C que al final se distribuye como dividendo.
+- Explicar por qué retener ganancias dentro de una corporación C, o usarlas para una recompra de acciones, evita activar la segunda capa de tributación de la misma manera inmediata que un dividendo.
+- Relacionar la doble tributación con el análisis de selección de entidad de la Lección 11 y con el tratamiento contributivo de los dividendos de la Lección 17.
+
+## Contenido principal
+A partir de la introducción a la doble tributación de la Lección 11, la ganancia de una corporación C tributa primero a nivel corporativo a la tasa contributiva corporativa aplicable (REGLA ESPECÍFICA DE LA REGIÓN, confirme la tasa corporativa vigente). DATO VERIFICADO: si la corporación luego distribuye su ganancia después de contribuciones a los accionistas como dividendo, ese dividendo tributa otra vez en la planilla individual del accionista (ya sea a tasas de ingreso ordinario o a las tasas de "dividendos cualificados", generalmente más favorables, según los requisitos de periodo de tenencia y otros, en conexión con el análisis de la tributación de dividendos de la Lección 17). Eso significa que la tasa contributiva efectiva combinada sobre un dólar de ganancia corporativa que al final se distribuye como dividendo es igual a la tasa corporativa más la tasa adicional del accionista aplicada a la cantidad restante después de contribuciones.
+
+Este es el "por qué" esta tasa efectiva combinada puede ser bastante más alta que la tasa que aplicaría a la misma ganancia obtenida por medio de una entidad de flujo directo (discusión de la QBI de la Lección 10), que tributa una sola vez a nivel del dueño individual: un dólar de ganancia de una corporación C distribuido como dividendo puede enfrentar esta estructura de dos capas, mientras que un dólar de ganancia de un negocio de flujo directo distribuido a su dueño enfrenta solo una capa de contribución individual (más, posiblemente, la contribución sobre trabajo por cuenta propia según las circunstancias, según la Lección 13). Esta diferencia estructural es una consideración central en el análisis de selección de entidad de la Lección 11, ya que la política de distribución esperada del negocio (si las ganancias se van a distribuir con regularidad a los dueños como dividendos, o se van a retener y reinvertir en el negocio) afecta de forma importante cuál estructura de entidad produce un resultado contributivo general más favorable.
+
+Por eso retener ganancias dentro de una corporación C, o usar el efectivo de la corporación para una recompra de acciones (en conexión con el análisis de recompras de la ruta WHITE-L4) en lugar de un dividendo, evita activar la segunda capa de tributación a nivel del accionista de la misma manera inmediata que una distribución de dividendos: las ganancias retenidas dentro de la corporación y reinvertidas en el negocio no tributan ahora una segunda vez a nivel del accionista (aunque los accionistas podrían beneficiarse eventualmente de ese valor retenido mediante la subida del precio de la acción, que solo tributa si y cuando el accionista vende sus acciones, a tasas de ganancias de capital según la Lección 5). Una recompra de acciones, en lugar de distribuir efectivo directamente a todos los accionistas como un dividendo tributable, permite que los accionistas que no participan en la recompra difieran por completo cualquier consecuencia contributiva, mientras que los que sí le venden acciones a la compañía tributan solo sobre su ganancia de capital específica en esa venta, no sobre la cantidad completa de la recompra.
+
+## Ejemplo práctico
+EJEMPLO ILUSTRATIVO: Una corporación C obtiene $1,000,000 de ganancia antes de contribuciones y paga una tasa corporativa hipotética de 21%, lo que deja $790,000 de ganancia después de contribuciones. Si los $790,000 completos se distribuyen como dividendo cualificado a accionistas en el tramo de 20% sobre dividendos, los accionistas pagan $158,000 adicionales de contribución, lo que les deja $632,000 en sus manos después de ambas capas — una tasa contributiva efectiva combinada de aproximadamente 36.8% sobre el $1,000,000 original de ganancia corporativa. Si, en cambio, la corporación retiene esos $790,000 para reinvertirlos en el negocio en lugar de distribuirlos como dividendo, no se activa ninguna segunda capa de contribución a nivel del accionista en ese momento, lo que ilustra la diferencia contributiva importante entre una distribución inmediata de dividendos y unas ganancias retenidas y reinvertidas.
+
+## Prueba práctica
+**Q1. ¿Cuáles son las dos capas distintas de contribución que aplican a las ganancias de una corporación C que al final se distribuyen como dividendos?**
+A) Una sola capa de contribución que aplica solo a nivel del accionista, sin ninguna contribución a nivel corporativo
+B) La contribución sobre ingresos a nivel corporativo sobre la ganancia de la corporación, seguida de la contribución individual sobre cualquier dividendo distribuido a los accionistas de esa ganancia después de contribuciones
+C) Una sola capa de contribución que aplica solo a nivel corporativo, sin ninguna contribución adicional cuando se distribuyen dividendos
+D) Las ganancias de una corporación C están totalmente exentas de contribución tanto a nivel corporativo como individual
+
+**Q2. ¿Por qué la tasa efectiva combinada sobre la ganancia distribuida de una corporación C puede pasar de la tasa sobre la misma ganancia obtenida por medio de una entidad de flujo directo?**
+A) La ganancia de una entidad de flujo directo siempre tributa a una tasa combinada más alta que la ganancia de una corporación C distribuida como dividendo
+B) Un dólar de ganancia de una corporación C distribuido como dividendo enfrenta contribución a nivel corporativo y a nivel individual, mientras que un dólar de ganancia de flujo directo enfrenta solo una capa de contribución individual
+C) La ganancia de una corporación C y la de una entidad de flujo directo siempre tributan a tasas combinadas idénticas en todos los casos
+D) La doble tributación solo aplica a las entidades de flujo directo, nunca a las corporaciones C
+
+**Q3. ¿Por qué retener ganancias dentro de una corporación C evita activar de inmediato la segunda capa de tributación a nivel del accionista?**
+A) Las ganancias retenidas siempre tributan a nivel del accionista, se distribuyan o no
+B) Las ganancias retenidas y reinvertidas dentro de la corporación no tributan ahora una segunda vez a nivel del accionista, aunque los accionistas podrían beneficiarse eventualmente mediante la subida del precio de la acción, que solo tributa al venderla
+C) Retener ganancias dentro de una corporación es ilegal bajo la ley contributiva actual
+D) No hay ninguna diferencia de tratamiento contributivo entre las ganancias retenidas y los dividendos distribuidos
+
+**Q4. ¿En qué se diferencia generalmente una recompra de acciones de un dividendo en cuanto a activar la contribución a nivel del accionista?**
+A) Una recompra de acciones y un dividendo siempre producen consecuencias contributivas idénticas para todo accionista
+B) Una recompra permite que los accionistas que no participan difieran por completo cualquier consecuencia contributiva, mientras que los que participan tributan solo sobre su ganancia de capital específica en la venta, a diferencia de un dividendo, que tributa de inmediato para todos los accionistas que lo reciben
+C) Las recompras de acciones siempre tributan a una tasa más alta que una distribución de dividendos equivalente
+D) Las recompras son ilegales para cualquier corporación C como forma de devolverles efectivo a los accionistas
+
+**Q5. En el ejemplo, ¿por qué los accionistas terminaron con $632,000 después de ambas capas de contribución sobre el $1,000,000 original de ganancia corporativa distribuida como dividendo?**
+A) En realidad se aplicó una sola capa de contribución en este ejemplo, contrario al concepto de doble tributación que describe esta lección
+B) El $1,000,000 primero se redujo a $790,000 después de la contribución corporativa, y luego se redujo otros $158,000 por la contribución sobre dividendos a nivel del accionista, lo que refleja el efecto combinado de ambas capas
+C) El ejemplo describe una situación sin ninguna contribución aplicada ni a nivel corporativo ni a nivel del accionista
+D) Los accionistas en realidad recibieron el $1,000,000 original completo, sin ninguna reducción por ninguna de las dos capas
+
+## Clave de respuestas
+Q1: B
+Q2: B
+Q3: B
+Q4: B
+Q5: B
+
+## Respuestas y explicaciones
+**Q1.** Esta estructura de dos capas — primero la contribución corporativa y luego la contribución individual sobre el dividendo distribuido después de contribuciones — es precisamente lo que define la doble tributación corporativa.
+
+**Q2.** La diferencia estructural entre una capa de contribución (flujo directo) y dos capas (dividendo de corporación C) explica directamente por qué la tasa efectiva combinada puede variar de forma importante entre estos dos tipos de entidad.
+
+**Q3.** Como no ocurre ninguna distribución de efectivo, no se activa ninguna contribución sobre dividendos en ese momento, lo que distingue las ganancias retenidas de la doble tributación inmediata que aplica a una distribución real de dividendos.
+
+**Q4.** Esta diferencia en cómo cada método afecta el momento y el alcance de la contribución del accionista es una distinción clave que conecta esta lección con el análisis más amplio de las recompras de acciones visto en otras partes de este currículo.
+
+**Q5.** Este cálculo paso a paso ilustra directamente el efecto acumulado de las capas de contribución a nivel corporativo y a nivel individual sobre el mismo dólar de ganancia original.
+
+## Puntos clave
+- Las ganancias de una corporación C tributan primero a nivel corporativo y luego otra vez a nivel individual si se distribuyen a los accionistas como dividendos.
+- Esta tasa efectiva combinada de dos capas puede pasar de la tasa de una sola capa que aplica a la misma ganancia obtenida por medio de una entidad de flujo directo.
+- Retener ganancias para reinvertirlas, o usar efectivo para una recompra de acciones, generalmente evita activar la segunda capa inmediata de contribución a nivel del accionista que crea una distribución de dividendos.
+- Esta característica estructural es una consideración central tanto en la selección de entidad como en la política de una corporación sobre dividendos, retención de ganancias y recompras.
+
+===== GREEN-L4-013
+TITLE: El análisis de la contribución sobre trabajo por cuenta propia: por qué ser su propio jefe trae una contribución adicional
+SUMMARY: Aprenda qué cubre la contribución federal sobre trabajo por cuenta propia, por qué quien trabaja por su cuenta paga la parte del empleado y la del patrono, y por qué hay que planificarla.
+KEYWORDS: contribución sobre trabajo por cuenta propia, FICA, contribuciones al Seguro Social y Medicare, planificación contributiva del dueño de negocio
+# El análisis de la contribución sobre trabajo por cuenta propia: por qué ser su propio jefe trae una contribución adicional
+
+## Escenario inicial
+SUPUESTO/OPINIÓN (escenario hipotético solo con fines educativos): Imagine que una interrupción de salud pública a gran escala paraliza el transporte marítimo y la manufactura a nivel mundial por un periodo prolongado, enredando las cadenas de suministro de muchas industrias a la vez. Mientras una interrupción generalizada empuja a muchos trabajadores a trabajar por cuenta propia por primera vez, algunos se sorprenden al descubrir una obligación contributiva adicional específica que un empleado tradicional, que recibe un cheque regular, nunca tuvo que pensar directamente. Esta lección explica exactamente qué cubre la contribución sobre trabajo por cuenta propia y por qué existe.
+
+## Objetivos de aprendizaje
+- Explicar qué cubre la contribución sobre trabajo por cuenta propia y cómo se compara su tasa con las retenciones normales de nómina.
+- Explicar por qué una persona que trabaja por cuenta propia paga, en la práctica, tanto la parte "del empleado" como la parte "del patrono" del Seguro Social y Medicare.
+- Explicar la relación específica entre la contribución sobre trabajo por cuenta propia y la división tradicional del FICA entre patrono y empleado (en conexión con el análisis de contribuciones sobre nómina de la Lección 15).
+- Explicar por qué entender esta obligación importa específicamente para alguien que pasa de un empleo tradicional a trabajar por cuenta propia.
+
+## Contenido principal
+La contribución sobre trabajo por cuenta propia es una contribución federal específica de EE. UU. que cubre las aportaciones al Seguro Social y a Medicare (conocidas en conjunto como contribuciones FICA cuando aplican a un empleo tradicional, según la Lección 15), y que se aplica al ingreso neto de una persona que trabaja por cuenta propia. DATO VERIFICADO: para un empleado tradicional, la contribución FICA se divide entre el empleado (que se le retiene directamente del cheque) y el patrono (que la paga aparte a nombre del empleado, generalmente invisible para el empleado porque no le reduce el cheque), y cada parte generalmente paga la mitad de la tasa FICA combinada.
+
+Este es el "por qué" una persona que trabaja por cuenta propia paga, en la práctica, tanto la parte "del empleado" como la parte "del patrono" de esa misma contribución combinada: como no tiene un patrono aparte que pague la otra mitad a su nombre, la contribución sobre trabajo por cuenta propia le exige pagar la tasa combinada completa — tanto la parte que normalmente se le retendría a un empleado como la parte que normalmente pagaría aparte un patrono. Eso significa que la tasa de la contribución sobre trabajo por cuenta propia es aproximadamente el doble de la tasa que un empleado tradicional ve retenida directamente de su propio cheque, una obligación contributiva adicional verdaderamente importante que alguien que recién empieza a trabajar por su cuenta después de un empleo tradicional, como en el escenario, quizás no anticipó del todo.
+
+Por eso entender esta obligación específica importa mucho para la planificación financiera al pasar a trabajar por cuenta propia, en conexión directa con el análisis de los pagos de contribución estimada trimestrales de la Lección 14: quien recién empieza a trabajar por su cuenta tiene que tomar en cuenta tanto la contribución sobre trabajo por cuenta propia como la contribución sobre ingreso ordinario de sus ganancias de negocio, y como ninguna de las dos se retiene automáticamente como lo haría un patrono tradicional, generalmente tiene que apartar fondos de forma proactiva y hacer pagos de contribución estimada trimestrales (Lección 14) que cubran ambas obligaciones, en lugar de suponer que su situación contributiva se parecerá a la que tenía como empleado con un cheque regular y las contribuciones ya retenidas — REGLA ESPECÍFICA DE LA REGIÓN, note que una parte de la contribución sobre trabajo por cuenta propia pagada es deducible al calcular el ingreso bruto ajustado, lo que compensa en parte, pero no del todo, esta carga adicional.
+
+## Ejemplo práctico
+EJEMPLO ILUSTRATIVO: Un trabajador que antes ganaba $80,000 como empleado tradicional, con la mitad de la tasa FICA combinada retenida directamente de su cheque y la otra mitad pagada aparte, sin que él lo viera, por su patrono, pasa a trabajar por cuenta propia y gana los mismos $80,000 de ingreso neto de negocio. Ahora que trabaja por su cuenta, tiene que pagar él mismo la tasa combinada completa de la contribución sobre trabajo por cuenta propia sobre ese ingreso, ya que no hay un patrono aparte que cubra la otra mitad — una obligación contributiva directa bastante mayor sobre los mismos $80,000 que la que tenía como empleado tradicional, aunque su ingreso bruto y la tasa combinada equivalente al FICA son, en la práctica, los mismos en ambos casos.
+
+## Prueba práctica
+**Q1. ¿Qué cubre la contribución sobre trabajo por cuenta propia?**
+A) Solo la contribución federal sobre ingresos que se debe sobre las ganancias de negocio
+B) Las aportaciones al Seguro Social y a Medicare (las mismas categorías que cubre el FICA para los empleados tradicionales), aplicadas al ingreso neto de una persona que trabaja por cuenta propia
+C) Una contribución que aplica exclusivamente a negocios con empleados, nunca a negocios individuales
+D) La contribución sobre trabajo por cuenta propia no tiene ninguna relación con el Seguro Social ni con Medicare
+
+**Q2. ¿Por qué una persona que trabaja por cuenta propia paga, en la práctica, tanto la parte "del empleado" como la parte "del patrono" de la contribución equivalente al FICA?**
+A) Las personas que trabajan por cuenta propia están exentas de pagar tanto la parte del empleado como la del patrono
+B) Como no tiene un patrono aparte que pague la mitad del patrono a su nombre, tiene que pagar ella misma la tasa combinada completa que cubre ambas partes
+C) Los empleados tradicionales también pagan la parte del empleado y la del patrono directamente de su propio cheque
+D) La parte del patrono del FICA no existe de verdad como obligación contributiva
+
+**Q3. ¿Por qué la tasa de la contribución sobre trabajo por cuenta propia es aproximadamente el doble de la tasa que un empleado tradicional ve retenida de su propio cheque?**
+A) La contribución sobre trabajo por cuenta propia no tiene ninguna relación real con la tasa de retención FICA del empleado tradicional
+B) La retención del cheque de un empleado tradicional cubre solo su propia mitad de la tasa FICA combinada, mientras que quien trabaja por cuenta propia tiene que cubrir ambas mitades, lo que duplica aproximadamente la tasa que paga directamente
+C) Las personas que trabajan por cuenta propia en realidad pagan una tasa general más baja que los empleados tradicionales sobre ingresos idénticos
+D) La tasa de la contribución sobre trabajo por cuenta propia se fija a un porcentaje completamente distinto y sin relación con la tasa FICA
+
+**Q4. ¿Por qué esta obligación importa mucho para alguien que pasa de un empleo tradicional a trabajar por cuenta propia?**
+A) La contribución sobre trabajo por cuenta propia no tiene ningún impacto financiero real en quien recién empieza a trabajar por su cuenta
+B) Quien recién empieza a trabajar por su cuenta tiene que tomar en cuenta de forma proactiva y apartar fondos tanto para la contribución sobre trabajo por cuenta propia como para la contribución sobre ingreso ordinario, ya que ninguna se retiene automáticamente como lo haría el sistema de nómina de un patrono
+C) Las personas que trabajan por cuenta propia nunca tienen que pagar ninguna contribución sobre ingresos ni sobre trabajo por cuenta propia
+D) Los empleados tradicionales y quienes trabajan por cuenta propia tienen obligaciones contributivas idénticas, retenidas automáticamente, sin ninguna diferencia en la planificación
+
+**Q5. En el ejemplo, ¿por qué el trabajador enfrentó una obligación contributiva directa bastante mayor sobre sus $80,000 de ingreso por cuenta propia que sobre los mismos $80,000 como empleado tradicional?**
+A) Su tasa contributiva real bajó de forma importante después de pasar a trabajar por cuenta propia
+B) Al trabajar por cuenta propia, tuvo que pagar él mismo la tasa combinada completa de la contribución sobre trabajo por cuenta propia, ya que no había un patrono aparte que cubriera la otra mitad, a diferencia de su situación anterior como empleado tradicional
+C) El ingreso por cuenta propia en realidad no está sujeto a ninguna obligación de Seguro Social ni de Medicare
+D) Su ingreso bruto en realidad bajó de forma importante después de pasar a trabajar por cuenta propia
+
+## Clave de respuestas
+Q1: B
+Q2: B
+Q3: B
+Q4: B
+Q5: B
+
+## Respuestas y explicaciones
+**Q1.** La contribución sobre trabajo por cuenta propia financia específicamente los mismos programas de Seguro Social y Medicare que financia el FICA para los empleados tradicionales, solo que estructurada de otra forma para quienes trabajan por su cuenta.
+
+**Q2.** La falta de un patrono aparte que cubra la mitad de la contribución combinada es precisamente la razón por la que toda la obligación recae solo en la persona que trabaja por cuenta propia.
+
+**Q3.** La comparación directa entre cubrir solo la mitad del empleado y cubrir ambas mitades es lo que produce esta tasa efectiva aproximadamente doble para quien trabaja por cuenta propia.
+
+**Q4.** El cambio de la retención automática de nómina a una planificación proactiva y autogestionada de los pagos de contribución es un ajuste importante, que a menudo se subestima, para alguien que recién empieza a trabajar por su cuenta.
+
+**Q5.** Esta comparación directa ilustra precisamente el mecanismo central que describe esta lección: el paso de una carga contributiva compartida entre patrono y empleado a una obligación que asume por completo quien trabaja por cuenta propia.
+
+## Puntos clave
+- La contribución sobre trabajo por cuenta propia cubre las aportaciones al Seguro Social y a Medicare, las mismas categorías que cubre el FICA para los empleados tradicionales.
+- Como no hay un patrono aparte que pague la mitad de la contribución combinada, quien trabaja por cuenta propia paga él mismo la parte del empleado y la del patrono.
+- Eso hace que la tasa de la contribución sobre trabajo por cuenta propia sea aproximadamente el doble de lo que un empleado tradicional ve retenido de su propio cheque.
+- Quien recién empieza a trabajar por su cuenta tiene que planificar de forma proactiva y apartar fondos tanto para la contribución sobre trabajo por cuenta propia como para la contribución sobre ingreso ordinario, ya que ninguna se retiene automáticamente.
+
+===== GREEN-L4-014
+TITLE: El análisis de la contribución estimada trimestral: por qué pagar sobre la marcha no es opcional para muchos contribuyentes
+SUMMARY: Aprenda el principio de pagar sobre la marcha del sistema federal de EE. UU., por qué el ingreso sin retención requiere pagos estimados trimestrales y cómo evitar la penalidad por pago insuficiente.
+KEYWORDS: contribución estimada trimestral, sistema de pago sobre la marcha, penalidad por pago insuficiente, planificación contributiva por cuenta propia
+# El análisis de la contribución estimada trimestral: por qué pagar sobre la marcha no es opcional para muchos contribuyentes
+
+## Escenario inicial
+SUPUESTO/OPINIÓN (escenario hipotético solo con fines educativos): Imagine que un gran bloque comercial impone de repente aranceles altos sobre una amplia categoría de productos manufacturados importados, lo que sube los costos de las empresas que dependen de esas importaciones como insumos. Mientras los aranceles aprietan de forma impredecible el ingreso de negocio de un consultor que trabaja por cuenta propia durante todo el año, este se da cuenta de que necesita un sistema confiable para apartar y pagar con regularidad la contribución sobre ese ingreso, en lugar de esperar a la fecha límite para rendir la planilla anual y saldar todo de una vez. Esta lección explica por qué el sistema contributivo de EE. UU. generalmente exige exactamente este tipo de pago continuo.
+
+## Objetivos de aprendizaje
+- Explicar el principio de "pagar sobre la marcha" en el que se basa el sistema contributivo federal de EE. UU.
+- Explicar por qué las personas con ingresos que no están sujetos a retención, como el ingreso por cuenta propia, generalmente tienen que hacer pagos de contribución estimada trimestrales.
+- Explicar el riesgo de penalidad por pago insuficiente que conlleva no pagar suficiente contribución durante el año.
+- Relacionar la planificación de la contribución estimada trimestral con el análisis de la contribución sobre trabajo por cuenta propia de la Lección 13.
+
+## Contenido principal
+El sistema contributivo federal de EE. UU. funciona con el principio de "pagar sobre la marcha", lo que significa que generalmente se espera que la contribución se pague durante todo el año a medida que se gana el ingreso, y no en un solo pago global cuando se rinde la planilla anual el año siguiente. DATO VERIFICADO: para los empleados tradicionales, este requisito generalmente se cumple de forma automática mediante la retención de nómina del patrono, que envía una parte de cada cheque directamente a las autoridades contributivas durante el año a nombre del empleado. Pero el ingreso que no está sujeto a ese tipo de retención automática — como el ingreso por cuenta propia (Lección 13), un ingreso importante de inversiones u otros ingresos sin mecanismo de retención — generalmente requiere que el contribuyente haga directamente pagos de contribución estimada trimestrales (REGLA ESPECÍFICA DE LA REGIÓN, confirme las fechas de vencimiento trimestrales y las reglas de cálculo de puerto seguro vigentes).
+
+Este es el "por qué" no pagar suficiente contribución durante el año, ya sea por retención o por pagos estimados trimestrales, crea una exposición real a penalidades, en conexión directa con la situación del consultor por cuenta propia del escenario: las autoridades contributivas generalmente imponen una penalidad por pago insuficiente al contribuyente que no ha pagado al menos una cantidad mínima requerida de su responsabilidad contributiva total durante el año mediante retención y/o pagos trimestrales. Esa cantidad se calcula según reglas específicas de "puerto seguro" (que comúnmente exigen pagar al menos un porcentaje específico de la responsabilidad del año en curso o un porcentaje específico de la del año anterior, la que dé una meta más favorable, generalmente más baja; REGLA ESPECÍFICA DE LA REGIÓN, los porcentajes y las reglas exactos deben confirmarse con las reglas vigentes). Esta penalidad aplica aunque el contribuyente termine pagando toda su responsabilidad cuando rinde la planilla anual, ya que la penalidad por pago insuficiente atiende específicamente el momento de los pagos durante el año, y no solo la cantidad total que al final se paga.
+
+Por eso la planificación de la contribución estimada trimestral se conecta directamente con el análisis de la contribución sobre trabajo por cuenta propia de la Lección 13: quien trabaja por cuenta propia generalmente tiene que estimar y pagar cada trimestre, durante todo el año, no solo la contribución sobre ingreso ordinario esperada, sino también la contribución sobre trabajo por cuenta propia esperada sobre su ingreso de negocio. Eso significa que la cantidad total de cada pago trimestral tiene que tomar en cuenta ambas obligaciones juntas — una tarea de planificación proactiva verdaderamente más compleja que el proceso de retención automática, mayormente invisible, que generalmente vive un empleado tradicional. Esta tarea se vuelve especialmente difícil cuando el propio ingreso del negocio fluctúa de forma impredecible durante el año, como el ingreso de consultoría afectado por los aranceles que describe el escenario, lo que obliga al contribuyente a reevaluar y ajustar periódicamente sus pagos estimados trimestrales a medida que su ingreso real se va aclarando durante el año.
+
+## Ejemplo práctico
+EJEMPLO ILUSTRATIVO: Un consultor que trabaja por cuenta propia estima al principio del año su responsabilidad contributiva anual total (combinando la contribución sobre ingreso ordinario y la contribución sobre trabajo por cuenta propia) y divide ese estimado en cuatro pagos trimestrales, que envía en las fechas de vencimiento requeridas durante el año. Cuando una baja repentina en la demanda de sus clientes, causada por los aranceles, reduce de forma importante su ingreso en el tercer trimestre, recalcula su obligación estimada restante a base de su ingreso anual esperado, actualizado y más bajo, y reduce su pago del cuarto trimestre en consecuencia, en lugar de seguir pagando según su estimado original, ya desactualizado. Ese ajuste lo ayuda a evitar tanto pagar de más sin necesidad como enfrentar una penalidad por haber pagado muy poco en relación con su responsabilidad contributiva total real y actualizada del año.
+
+## Prueba práctica
+**Q1. ¿Qué significa el principio de "pagar sobre la marcha" del sistema contributivo federal de EE. UU.?**
+A) La contribución solo se debe en un solo pago global cuando se rinde la planilla anual el año siguiente
+B) Generalmente se espera que la contribución se pague durante todo el año a medida que se gana el ingreso, y no toda al momento de rendir la planilla anual
+C) Pagar sobre la marcha solo aplica a los negocios, nunca a los contribuyentes individuales
+D) El principio de pagar sobre la marcha se eliminó del sistema contributivo actual de EE. UU.
+
+**Q2. ¿Por qué las personas con ingreso por cuenta propia generalmente tienen que hacer pagos de contribución estimada trimestrales?**
+A) El ingreso por cuenta propia está sujeto automáticamente a la misma retención de nómina que tiene un empleado tradicional
+B) El ingreso por cuenta propia no tiene un mecanismo de retención automática como la retención de nómina de un patrono tradicional, así que el contribuyente tiene que hacer pagos estimados directamente y de forma proactiva para cumplir con el requisito de pagar sobre la marcha
+C) Los pagos de contribución estimada trimestrales son totalmente opcionales y no tienen ninguna relación con ninguna obligación contributiva
+D) Las personas que trabajan por cuenta propia están exentas del principio de pagar sobre la marcha que aplica a los empleados tradicionales
+
+**Q3. ¿Qué activa una penalidad por pago insuficiente bajo las reglas de contribución estimada?**
+A) Una penalidad por pago insuficiente se activa solo si el contribuyente no rinde ninguna planilla anual
+B) No haber pagado al menos una cantidad mínima requerida de la responsabilidad contributiva total durante el año mediante retención y/o pagos trimestrales, según reglas específicas de cálculo de puerto seguro
+C) Las penalidades por pago insuficiente aplican automáticamente a todo contribuyente, sin importar cuánto haya pagado durante el año
+D) Pagar toda la responsabilidad contributiva al rendir la planilla anual siempre evita cualquier penalidad por pago insuficiente, sin importar los pagos hechos durante el año
+
+**Q4. ¿Por qué la penalidad por pago insuficiente aplica aunque el contribuyente termine pagando toda su responsabilidad al rendir la planilla anual?**
+A) La penalidad por pago insuficiente nunca se aplica bajo ninguna circunstancia si al final se paga toda la responsabilidad
+B) La penalidad atiende específicamente el momento de los pagos durante el año, y no solo la cantidad total que al final se paga cuando se rinde la planilla
+C) Las penalidades por pago insuficiente solo aplican a contribuyentes que nunca pagan ninguna parte de su responsabilidad contributiva
+D) Pagar toda la responsabilidad contributiva al rendir la planilla siempre cumple automáticamente y de forma retroactiva el requisito de pagar sobre la marcha
+
+**Q5. En el ejemplo, ¿por qué el consultor redujo su pago estimado del cuarto trimestre?**
+A) Su ingreso en realidad había aumentado de forma importante durante el tercer trimestre
+B) Una baja en la demanda de sus clientes, causada por los aranceles, redujo de forma importante su ingreso, lo que lo llevó a recalcular su obligación estimada restante a base de su ingreso anual esperado, actualizado y más bajo
+C) Los pagos de contribución estimada trimestrales no se pueden ajustar legalmente una vez empieza el año
+D) El consultor hizo este ajuste por razones sin ninguna relación con su ingreso de negocio real
+
+## Clave de respuestas
+Q1: B
+Q2: B
+Q3: B
+Q4: B
+Q5: B
+
+## Respuestas y explicaciones
+**Q1.** Esta expectativa de pagos continuos durante todo el año es la característica que define el principio de pagar sobre la marcha en el que se basa el sistema contributivo de EE. UU.
+
+**Q2.** La falta de retención automática sobre el ingreso por cuenta propia es precisamente la razón por la que el contribuyente tiene que asumir él mismo esta responsabilidad proactiva de pagos trimestrales.
+
+**Q3.** La penalidad atiende específicamente el pago insuficiente durante el año en relación con el límite de puerto seguro aplicable, y no simplemente si al final se paga la cantidad completa.
+
+**Q4.** Esta distinción entre el momento de los pagos y el pago total final es exactamente la razón por la que la penalidad puede aplicar incluso a un contribuyente que salda por completo su responsabilidad al rendir la planilla, si pagó muy poco y muy tarde durante el año.
+
+**Q5.** Este recálculo proactivo ante un cambio real en el ingreso ilustra directamente el enfoque de planificación adaptable que esta lección recomienda a los contribuyentes con ingresos que fluctúan.
+
+## Puntos clave
+- El sistema contributivo de EE. UU. funciona con el principio de pagar sobre la marcha, y generalmente espera que la contribución se pague durante todo el año a medida que se gana el ingreso.
+- El ingreso sin retención automática, como el ingreso por cuenta propia, generalmente requiere que el contribuyente haga pagos de contribución estimada trimestrales directamente.
+- Puede aplicar una penalidad por pago insuficiente si se paga muy poca contribución durante el año en relación con las reglas de puerto seguro, aunque al final se pague toda la responsabilidad al rendir la planilla.
+- Quienes trabajan por cuenta propia deben estimar y ajustar periódicamente sus pagos trimestrales para cubrir tanto la contribución sobre ingreso ordinario como la contribución sobre trabajo por cuenta propia, sobre todo cuando el ingreso fluctúa durante el año.
+
+===== GREEN-L4-015
+TITLE: El análisis de las contribuciones sobre nómina: el FICA y la división que nadie ve
+SUMMARY: Aprenda qué financia el FICA en EE. UU., por qué la parte del patrono es un costo real de emplear a alguien y cómo esa división explica la contribución sobre trabajo por cuenta propia.
+KEYWORDS: contribuciones sobre nómina, FICA, división entre patrono y empleado, financiamiento del Seguro Social y Medicare
+# El análisis de las contribuciones sobre nómina: el FICA y la división que nadie ve
+
+## Escenario inicial
+SUPUESTO/OPINIÓN (escenario hipotético solo con fines educativos): Imagine que una interrupción de salud pública a gran escala paraliza el transporte marítimo y la manufactura a nivel mundial por un periodo prolongado, enredando las cadenas de suministro de muchas industrias a la vez. Mientras una interrupción generalizada obliga a muchos negocios a revisar cada partida de sus costos de mano de obra, algunos patronos se dan cuenta de lo grande que es en realidad su parte de las contribuciones sobre nómina como un costo real de tener empleados, un costo en el que la mayoría de los empleados, enfocados solo en los descuentos de su propio cheque, rara vez piensan desde el lado del patrono. Esta lección examina la estructura completa de esta contribución y por qué es de verdad una obligación compartida entre dos partes.
+
+## Objetivos de aprendizaje
+- Explicar qué financia el FICA y cómo se divide generalmente la tasa combinada entre patrono y empleado.
+- Explicar por qué la parte del patrono del FICA es un costo real de emplear a alguien, aunque no aparezca en los descuentos del talonario del empleado.
+- Relacionar la división del FICA entre patrono y empleado con el análisis de la contribución sobre trabajo por cuenta propia de la Lección 13.
+- Explicar por qué las contribuciones sobre nómina representan un costo importante en el análisis general de costos de mano de obra de un negocio.
+
+## Contenido principal
+El FICA (Federal Insurance Contributions Act) financia los programas de Seguro Social y Medicare y, como se vio en la Lección 13, la tasa FICA combinada generalmente se divide en partes iguales entre el empleado (que se le retiene directamente de cada cheque) y el patrono (que la paga aparte, calculada como un porcentaje del salario del empleado, además del salario mismo). DATO VERIFICADO: eso significa que el cheque de un empleado tradicional, y lo que el propio empleado percibe como "contribuciones sobre nómina", generalmente refleja solo la mitad de la obligación FICA total que de verdad genera su empleo — la mitad equivalente del patrono es un pago aparte que el patrono hace directamente a las autoridades contributivas, invisible en el talonario del empleado, pero un costo adicional real que el patrono asume precisamente porque emplea a ese trabajador.
+
+Este es el "por qué" este costo del lado del patrono importa para entender el costo real y completo de emplear a un trabajador, algo directamente relacionado con la revisión de los costos de mano de obra del escenario: el costo total para un patrono de emplear a un trabajador a cierto salario no es simplemente ese salario — incluye la aportación FICA equivalente del patrono (más, a menudo, otros costos como el seguro por desempleo, las primas del seguro de compensación por accidentes del trabajo y los beneficios que ofrezca el patrono). Eso significa que el costo total real de mano de obra por empleado es bastante más alto de lo que sugiere el salario por sí solo, una distinción que se vuelve especialmente pertinente cuando un negocio está evaluando y manejando de cerca cada componente de sus costos de mano de obra durante un periodo de presión financiera general.
+
+Por eso la división del FICA entre patrono y empleado se conecta directamente con el análisis de la contribución sobre trabajo por cuenta propia de la Lección 13: como quien trabaja por cuenta propia no tiene un patrono aparte que pague la mitad equivalente, en la práctica tiene que cubrir ambas mitades mediante la contribución sobre trabajo por cuenta propia. Eso significa que la "parte del patrono" que el negocio de un empleado tradicional absorbe de forma invisible a su nombre se convierte en un costo directo y visible que la persona que trabaja por su cuenta tiene que asumir personalmente — este es precisamente el mecanismo que explica por qué la tasa combinada de la contribución sobre trabajo por cuenta propia es aproximadamente el doble de la retención FICA que un empleado tradicional ve en su propio cheque, y une estas dos lecciones como dos caras de exactamente la misma estructura contributiva.
+
+## Ejemplo práctico
+EJEMPLO ILUSTRATIVO: Un negocio le paga a un empleado un salario anual de $70,000. El empleado ve una cantidad específica de FICA retenida directamente de cada uno de sus cheques durante el año, que representa su propia mitad de la obligación FICA combinada. Aparte, y sin que el empleado lo vea, el negocio paga una cantidad equivalente directamente a las autoridades contributivas como la mitad del patrono. Eso significa que el costo total real relacionado con el FICA por emplear a este trabajador es el doble de lo que aparece en los descuentos del talonario del empleado — un costo que el negocio tiene que incluir en su costo total real de emplear a este trabajador específico, mucho más allá del salario visible de $70,000.
+
+## Prueba práctica
+**Q1. ¿Qué financia el FICA?**
+A) Proyectos generales de infraestructura del gobierno, sin ningún propósito específico
+B) Los programas de Seguro Social y Medicare
+C) Una contribución que financia solo los beneficios del seguro por desempleo
+D) El FICA no tiene ningún propósito de financiamiento específico
+
+**Q2. ¿Cómo se divide generalmente la tasa FICA combinada entre un patrono y un empleado?**
+A) El empleado paga toda la tasa FICA combinada, sin ninguna aportación del patrono
+B) La tasa combinada generalmente se divide en partes iguales: la mitad del empleado se le retiene directamente del cheque y la mitad equivalente del patrono la paga aparte el patrono
+C) El patrono paga toda la tasa FICA combinada, sin ninguna retención del cheque del empleado
+D) El FICA no se divide en realidad entre patrono y empleado de ninguna manera específica
+
+**Q3. ¿Por qué la parte del patrono del FICA es un costo real de emplear a alguien, aunque no aparezca en el talonario del empleado?**
+A) La parte del patrono no es un costo real y no tiene ningún efecto financiero en el negocio
+B) El patrono paga esta cantidad equivalente aparte y directamente a las autoridades contributivas como un costo adicional real en que incurre precisamente porque emplea a ese trabajador, distinto de la cantidad retenida al empleado
+C) La parte del patrono en realidad la paga el empleado mediante un descuento escondido en su cheque
+D) Las aportaciones FICA del patrono son totalmente opcionales y los negocios rara vez las pagan
+
+**Q4. ¿Cómo se conecta la división del FICA entre patrono y empleado con el análisis de la contribución sobre trabajo por cuenta propia de la Lección 13?**
+A) El FICA y la contribución sobre trabajo por cuenta propia son conceptos contributivos totalmente separados, sin ninguna estructura de fondo en común
+B) Como quien trabaja por cuenta propia no tiene un patrono aparte que pague la mitad equivalente, tiene que cubrir ambas mitades mediante la contribución sobre trabajo por cuenta propia, lo que explica por qué esa tasa es aproximadamente el doble de la tasa FICA visible en el cheque de un empleado tradicional
+C) Las personas que trabajan por cuenta propia están totalmente exentas de cualquier obligación equivalente al FICA
+D) La parte del patrono del FICA no existe de verdad como obligación contributiva en ninguno de los dos contextos
+
+**Q5. En el ejemplo, ¿por qué el costo total real relacionado con el FICA por emplear al trabajador fue el doble de lo que aparecía en los descuentos del talonario del empleado?**
+A) El negocio en realidad no pagó ningún FICA relacionado con este empleado específico
+B) El negocio pagó una aportación FICA equivalente aparte directamente a las autoridades contributivas, además de la cantidad retenida del cheque del empleado; juntas representan la obligación FICA combinada completa que generó el empleo
+C) Los descuentos del talonario del empleado en realidad reflejaban toda la obligación FICA del negocio, sin ninguna aportación aparte del patrono
+D) El FICA no tiene ninguna relación con el costo total real de emplear a un trabajador
+
+## Clave de respuestas
+Q1: B
+Q2: B
+Q3: B
+Q4: B
+Q5: B
+
+## Respuestas y explicaciones
+**Q1.** El FICA está dedicado específicamente a financiar estos dos programas federales, lo que lo distingue de los recaudos generales de la contribución sobre ingresos.
+
+**Q2.** Esta división en partes iguales, en la que cada parte responde por la mitad de la obligación combinada, es la estructura estándar del FICA para el empleo tradicional.
+
+**Q3.** Este pago aparte, que asume el patrono, representa un costo adicional real de mano de obra, aunque no reduzca directamente el cheque visible del empleado.
+
+**Q4.** Esta conexión estructural directa — la persona que trabaja por cuenta propia absorbe ambas mitades que de otro modo se dividirían entre patrono y empleado — une estas dos lecciones como reflejo del mismo marco contributivo de fondo.
+
+**Q5.** Esta ilustración directa de la aportación equivalente y aparte del patrono, junto con la cantidad retenida al empleado, muestra precisamente por qué el costo FICA total real del empleo pasa de lo que aparece en el talonario del empleado por sí solo.
+
+## Puntos clave
+- El FICA financia el Seguro Social y Medicare, y su tasa combinada generalmente se divide en partes iguales entre patrono y empleado.
+- La aportación FICA equivalente del patrono es un costo adicional real de emplear a un trabajador, aunque a menudo los empleados no lo vean.
+- Quien trabaja por cuenta propia, al no tener un patrono aparte, tiene que cubrir él mismo ambas mitades de esta obligación combinada mediante la contribución sobre trabajo por cuenta propia.
+- El costo total real de mano de obra por empleado pasa del salario por sí solo, ya que incluye la aportación FICA equivalente del patrono y otros costos relacionados.

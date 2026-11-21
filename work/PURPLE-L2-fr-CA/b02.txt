@@ -1,0 +1,370 @@
+===== PURPLE-L2-007
+TITLE: Les recours en cas d'inexécution : dommages-intérêts, exécution en nature et annulation
+SUMMARY: Découvre les trois grands recours en cas d'inexécution d'un contrat et pourquoi le bon recours dépend de la nature du préjudice et de ce qui avait été promis.
+## PURPLE-L2-007
+### Les recours en cas d'inexécution : dommages-intérêts, exécution en nature et annulation
+
+**1. Objectifs d'apprentissage**
+À la fin de cette leçon, tu pourras :
+- Nommer les recours juridiques courants en cas d'inexécution d'un contrat.
+- Distinguer de façon conceptuelle les dommages-intérêts, l'exécution en nature et l'annulation.
+- Expliquer pourquoi le recours approprié dépend de la situation précise.
+
+**2. Contenu principal**
+Dans la suite de la leçon 6, cette leçon présente les recours généraux possibles en cas d'inexécution. Les dommages-intérêts — une compensation en argent qui vise à placer la partie qui a respecté ses obligations dans la situation où elle aurait été si le contrat avait été exécuté — sont le recours le plus courant. L'exécution en nature (*specific performance*) est une ordonnance du tribunal qui oblige la partie fautive à remplir réellement son obligation contractuelle; on la réserve généralement aux situations où des dommages-intérêts en argent ne répareraient pas adéquatement le préjudice, comme un contrat pour un immeuble unique ou un objet unique en son genre, où aucune somme d'argent ne peut vraiment remplacer la chose précise promise. L'annulation (*rescission*) met fin au contrat au complet et ramène généralement les deux parties, autant que possible, à leur situation d'avant la formation du contrat; on l'utilise souvent quand un contrat a été formé à la suite d'une fraude, d'une fausse déclaration ou d'une erreur importante.
+
+Le recours approprié dépend beaucoup des faits précis, du type de contrat et de la nature du préjudice. Les tribunaux privilégient généralement les dommages-intérêts comme recours par défaut et réservent l'exécution en nature et l'annulation aux situations où les dommages-intérêts seuls ne répareraient pas adéquatement le préjudice.
+
+**3. Exemple pratique**
+Un acheteur signe un contrat pour acheter un terrain précis et unique, qui a une caractéristique géologique rare, mais le vendeur ne respecte pas le contrat et refuse de transférer la propriété. Comme ce terrain précis ne peut pas être facilement remplacé, peu importe la somme d'argent, un tribunal pourrait ordonner l'exécution en nature et obliger le vendeur à transférer réellement la propriété comme convenu au départ, plutôt que d'accorder seulement des dommages-intérêts en argent qui ne pourraient pas vraiment remplacer cet actif unique. Ça contraste avec une inexécution plus typique portant sur des biens facilement disponibles et remplaçables, où des dommages-intérêts en argent (qui couvrent le coût, pour l'acheteur, d'acheter un bien de remplacement ailleurs) seraient généralement le recours approprié et suffisant.
+
+**4. Quiz de pratique**
+1. Quel est le recours contractuel le plus courant?
+   a) L'exécution en nature
+   b) Les dommages-intérêts, une compensation en argent pour l'inexécution
+   c) L'annulation
+   d) L'emprisonnement
+2. Quand un tribunal pourrait-il ordonner l'exécution en nature plutôt que des dommages-intérêts?
+   a) Dans chaque cas d'inexécution
+   b) Quand l'objet du contrat est unique et que des dommages-intérêts en argent ne répareraient pas adéquatement le préjudice
+   c) Jamais — l'exécution en nature n'existe pas
+   d) Seulement pour les contrats de moins de 100 $
+3. Vrai ou faux : Les tribunaux privilégient généralement l'exécution en nature plutôt que les dommages-intérêts pour tous les types d'inexécution.
+4. Pourquoi l'exécution en nature pourrait-elle être appropriée pour le terrain unique, mais pas pour des biens remplaçables typiques?
+   a) Un terrain n'est jamais unique
+   b) Le terrain unique ne peut pas être facilement remplacé par de l'argent, contrairement aux biens remplaçables typiques
+   c) L'exécution en nature coûte toujours moins cher que les dommages-intérêts
+   d) Les biens remplaçables ont toujours plus de valeur qu'un terrain
+
+**5. Corrigé**
+1. b  2. b  3. Faux  4. b
+
+**6. Réponses et explications**
+1. Les dommages-intérêts, une compensation en argent pour l'inexécution, sont le recours contractuel le plus courant.
+2. L'exécution en nature est généralement réservée aux situations où l'objet du contrat est unique et où les dommages-intérêts ne répareraient pas adéquatement le préjudice.
+3. Les tribunaux privilégient généralement les dommages-intérêts comme recours par défaut et réservent l'exécution en nature à des circonstances particulières.
+4. Le caractère unique du terrain voulait dire qu'aucune somme d'argent ne pouvait vraiment le remplacer, contrairement à des biens facilement remplaçables.
+
+**7. Points clés à retenir**
+- Les dommages-intérêts, l'exécution en nature et l'annulation sont les principaux recours en cas d'inexécution d'un contrat.
+- Les dommages-intérêts offrent une compensation en argent et sont le recours par défaut le plus courant.
+- L'exécution en nature ordonne de remplir réellement l'obligation et est généralement réservée aux objets uniques.
+- L'annulation met fin au contrat au complet et sert souvent en cas de fraude, de fausse déclaration ou d'erreur importante.
+
+===== PURPLE-L2-008
+TITLE: Les ententes de confidentialité comparées : réciproques ou unilatérales
+SUMMARY: Distingue une entente de confidentialité unilatérale d'une entente réciproque et vois pourquoi choisir la mauvaise structure peut laisser des renseignements sensibles sans protection.
+## PURPLE-L2-008
+### Les ententes de confidentialité comparées : réciproques ou unilatérales
+
+**1. Objectifs d'apprentissage**
+À la fin de cette leçon, tu pourras :
+- Distinguer une entente de confidentialité réciproque d'une entente unilatérale.
+- Expliquer quand chaque type convient généralement.
+- Relier cette notion à la discussion sur les ententes de confidentialité du parcours BLUE (BLUE-L2-029).
+
+**2. Contenu principal**
+Dans la suite de la présentation des ententes de confidentialité (souvent appelées NDA, de l'anglais *non-disclosure agreement*) dans BLUE-L2-029, cette leçon compare deux structures générales. Une entente de confidentialité unilatérale interdit à une seule partie de divulguer des renseignements confidentiels; on l'utilise généralement quand une seule partie partage des renseignements sensibles avec l'autre — par exemple, une entreprise qui partage des détails exclusifs avec un fournisseur potentiel qui n'a pas de renseignements confidentiels comparables à partager en retour. Une entente de confidentialité réciproque (ou bilatérale) interdit aux deux parties de divulguer les renseignements confidentiels de l'autre; on l'utilise généralement quand les deux parties vont échanger des renseignements sensibles, comme deux entreprises qui explorent un partenariat ou une fusion possible (en écho à BLUE-L2-039).
+
+Choisir la mauvaise structure peut créer un vrai déséquilibre, même s'il passe souvent inaperçu : une entente unilatérale dans une situation où les deux parties partagent réellement des renseignements sensibles laisse les renseignements confidentiels d'une partie sans protection, puisque les restrictions de l'entente ne lient que l'autre partie.
+
+**3. Exemple pratique**
+Avant de discuter d'une coentreprise possible avec une entreprise complémentaire, deux entreprises reçoivent d'abord une entente de confidentialité unilatérale rédigée par l'une d'elles, qui aurait interdit seulement à l'autre partie de partager des renseignements confidentiels, alors que les deux entreprises avaient l'intention de partager des renseignements sensibles pendant leurs discussions. Remarquant ce décalage, l'avocat de l'une des entreprises signale le déséquilibre et négocie plutôt une entente de confidentialité réciproque, ce qui assure une protection égale des renseignements confidentiels des deux entreprises pendant leurs discussions exploratoires.
+
+**4. Quiz de pratique**
+1. Qu'est-ce qu'une entente de confidentialité unilatérale interdit généralement?
+   a) Aux deux parties également
+   b) À une seule partie de divulguer des renseignements confidentiels
+   c) À aucune des parties
+   d) À un organisme gouvernemental
+2. Quand une entente de confidentialité réciproque convient-elle généralement mieux?
+   a) Quand une seule partie partage des renseignements sensibles
+   b) Quand les deux parties vont échanger des renseignements sensibles
+   c) Quand aucun renseignement confidentiel n'est en jeu
+   d) Les ententes réciproques ne conviennent jamais
+3. Vrai ou faux : Une entente de confidentialité unilatérale et une entente réciproque offrent une protection identique, peu importe quelle partie partage réellement des renseignements.
+4. Pourquoi l'avocat a-t-il signalé l'entente unilatérale de départ comme un problème?
+   a) Les ententes unilatérales sont toujours illégales
+   b) Les deux entreprises avaient réellement l'intention de partager des renseignements sensibles, ce qui exigeait une protection réciproque
+   c) L'entreprise n'aimait pas les ententes de confidentialité en général
+   d) Aucun renseignement sensible n'était partagé
+
+**5. Corrigé**
+1. b  2. b  3. Faux  4. b
+
+**6. Réponses et explications**
+1. Une entente de confidentialité unilatérale interdit à une seule partie de divulguer les renseignements confidentiels de l'autre.
+2. Une entente de confidentialité réciproque convient généralement mieux quand les deux parties vont échanger des renseignements sensibles.
+3. Les deux structures offrent une protection vraiment différente selon la partie qui partage réellement des renseignements sensibles.
+4. L'avocat a reconnu que les besoins réels de partage de renseignements des deux entreprises exigeaient une protection réciproque, et non unilatérale.
+
+**7. Points clés à retenir**
+- Une entente de confidentialité unilatérale lie une seule partie; une entente réciproque interdit aux deux parties de divulguer des renseignements confidentiels.
+- La structure appropriée dépend du fait qu'une seule partie ou les deux partageront des renseignements sensibles.
+- Choisir la mauvaise structure peut laisser les renseignements confidentiels d'une partie réellement sans protection.
+- Cette leçon s'appuie directement sur la présentation des ententes de confidentialité du parcours BLUE en y ajoutant une lentille de comparaison structurelle.
+
+===== PURPLE-L2-009
+TITLE: Les clauses de non-concurrence : but, limites et caractère exécutoire
+SUMMARY: Comprends à quoi servent les clauses de non-concurrence, ce que les tribunaux examinent et pourquoi leur caractère exécutoire varie énormément d'un endroit à l'autre.
+## PURPLE-L2-009
+### Les clauses de non-concurrence : but, limites et caractère exécutoire
+
+**1. Objectifs d'apprentissage**
+À la fin de cette leçon, tu pourras :
+- Expliquer le but général d'une clause de non-concurrence.
+- Nommer les facteurs courants que les tribunaux examinent pour évaluer son caractère exécutoire.
+- Reconnaître que c'est un domaine fortement propre à chaque juridiction, avec des règles très variables.
+
+**2. Contenu principal**
+Une clause (ou entente) de non-concurrence empêche généralement une partie (souvent un ancien employé ou le vendeur d'une entreprise) d'exercer des activités concurrentes dans une région et pendant une période précises après la fin d'une relation. Le but général est de protéger des intérêts d'affaires légitimes, comme des secrets commerciaux (leçon 24), des relations avec la clientèle ou des investissements dans une formation spécialisée, pour éviter qu'ils servent immédiatement à faire directement concurrence à l'entreprise même qui les a fournis.
+
+Le caractère exécutoire des clauses de non-concurrence varie énormément selon la juridiction : certaines juridictions les font respecter assez largement si leur portée est raisonnable, alors que d'autres ont beaucoup limité ou même interdit leur utilisation pour les employés, surtout les travailleurs à faible salaire, ce qui reflète des points de vue politiques différents sur l'équilibre entre la protection des entreprises et la mobilité des travailleurs. Les tribunaux qui font respecter les clauses de non-concurrence évaluent souvent si la portée géographique, la durée et les activités restreintes sont raisonnables et pas plus larges que nécessaire pour protéger l'intérêt d'affaires légitime en jeu. Une clause de non-concurrence trop large (une durée illimitée, la portée géographique d'un pays entier, pour un poste qui n'a aucun accès réel à des secrets commerciaux) risque davantage d'être jugée inexécutoire, même dans les juridictions qui sont généralement prêtes à faire respecter des clauses raisonnables.
+
+**3. Exemple pratique**
+Une boulangerie régionale demande à une nouvelle employée au comptoir de signer une clause de non-concurrence qui lui interdit de travailler dans n'importe quelle boulangerie du pays pendant cinq ans après son départ. Vu son rôle limité, sans accès à de vrais secrets commerciaux ni à une formation exclusive spécialisée, et la portée géographique et temporelle extrêmement large par rapport à tout intérêt d'affaires légitime en jeu, cette clause de non-concurrence serait probablement jugée inexécutoire dans bien des juridictions, même celles qui sont généralement prêtes à faire respecter des ententes de portée plus raisonnable. Ça montre pourquoi le même instrument (une clause de non-concurrence) peut être exécutoire dans un contexte et complètement inexécutoire dans un autre, selon sa portée réelle et l'intérêt qu'il prétend protéger.
+
+**4. Quiz de pratique**
+1. Quel est le but général d'une clause de non-concurrence?
+   a) Garantir un emploi à vie
+   b) Protéger des intérêts d'affaires légitimes, comme des secrets commerciaux ou des relations avec la clientèle, contre une concurrence immédiate
+   c) Éliminer pour toujours toute concurrence dans un secteur
+   d) Un type de formulaire fiscal
+2. Qu'est-ce que les tribunaux évaluent souvent pour juger du caractère exécutoire d'une clause de non-concurrence?
+   a) Rien — toutes les clauses de non-concurrence sont automatiquement exécutoires
+   b) Si la portée géographique, la durée et les activités restreintes sont raisonnables par rapport à l'intérêt légitime
+   c) Seulement la préférence personnelle de l'employé
+   d) Seulement la taille de l'entreprise
+3. Vrai ou faux : Les règles sur le caractère exécutoire des clauses de non-concurrence sont identiques dans toutes les juridictions.
+4. Pourquoi la clause de non-concurrence de l'employée au comptoir de la boulangerie était-elle probablement inexécutoire?
+   a) Sa portée était trop étroite
+   b) Sa large portée géographique, sa longue durée et l'absence de lien avec un vrai intérêt à protéger la rendaient déraisonnable
+   c) Les clauses de non-concurrence sont illégales partout
+   d) L'employée avait plutôt signé une entente de confidentialité réciproque
+
+**5. Corrigé**
+1. b  2. b  3. Faux  4. b
+
+**6. Réponses et explications**
+1. Les clauses de non-concurrence visent généralement à protéger des intérêts d'affaires légitimes contre une concurrence immédiate après la fin d'une relation.
+2. Les tribunaux évaluent souvent si la portée géographique, la durée et les activités restreintes sont raisonnables par rapport à l'intérêt à protéger.
+3. Le caractère exécutoire des clauses de non-concurrence varie énormément selon la juridiction; certaines interdisent ou limitent fortement leur utilisation.
+4. La portée excessive de la clause de la boulangerie, compte tenu du rôle limité et de l'absence de vrai intérêt à protéger, la rendait probablement inexécutoire.
+
+**7. Points clés à retenir**
+- Les clauses de non-concurrence visent généralement à protéger des intérêts d'affaires légitimes contre une concurrence immédiate après la fin d'une relation.
+- Leur caractère exécutoire varie énormément selon la juridiction, ce qui reflète des points de vue différents sur la protection des entreprises et la mobilité des travailleurs.
+- Les tribunaux évaluent souvent si la portée, la durée et les restrictions sont raisonnables par rapport à l'intérêt réellement en jeu.
+- Une clause de non-concurrence trop large risque davantage d'être jugée inexécutoire, même là où ces ententes sont généralement permises.
+
+===== PURPLE-L2-010
+TITLE: Non-concurrence, non-sollicitation et non-dénigrement : une comparaison
+SUMMARY: Distingue trois clauses restrictives proches et vois pourquoi les clauses de non-sollicitation et de non-dénigrement sont souvent plus faciles à faire respecter.
+## PURPLE-L2-010
+### Non-concurrence, non-sollicitation et non-dénigrement : une comparaison
+
+**1. Objectifs d'apprentissage**
+À la fin de cette leçon, tu pourras :
+- Distinguer les clauses de non-concurrence, de non-sollicitation et de non-dénigrement.
+- Expliquer pourquoi les clauses de non-sollicitation et de non-dénigrement sont souvent plus faciles à faire respecter que les clauses de non-concurrence.
+- Appliquer cette comparaison au scénario hypothétique d'un employé qui quitte son poste.
+
+**2. Contenu principal**
+Dans la suite de la leçon 9, cette leçon compare trois engagements restrictifs liés, mais distincts. Une clause de non-concurrence (leçon 9) interdit de travailler pour une entreprise ou dans un secteur concurrent. Une clause de non-sollicitation interdit à la partie qui part de solliciter les clients ou les employés de l'ancien employeur pour qu'ils la suivent, sans nécessairement lui interdire de travailler dans le même secteur. Une clause de non-dénigrement interdit à une partie de faire des déclarations publiques négatives ou nuisibles au sujet de l'autre partie.
+
+Comme les clauses de non-sollicitation et de non-dénigrement ont généralement une portée plus étroite — elles interdisent des gestes nuisibles précis plutôt qu'une catégorie entière d'emploi ou d'activité commerciale —, elles sont souvent plus faciles à faire respecter dans un plus grand nombre de juridictions que les clauses de non-concurrence, même dans celles qui limitent fortement ou interdisent les clauses de non-concurrence en général. C'est pourquoi bien des contrats de travail combinent les trois, ou comptent davantage sur la non-sollicitation et le non-dénigrement, surtout dans les juridictions où les clauses de non-concurrence font face à d'importantes restrictions.
+
+**3. Exemple pratique**
+En quittant son poste dans une agence de marketing, dans une juridiction qui limite beaucoup les clauses de non-concurrence, Farida n'est pas empêchée de travailler pour une agence concurrente (une large clause de non-concurrence y serait probablement inexécutoire), mais elle reste liée par une clause de non-sollicitation qui l'empêche de recruter activement ses anciens collègues pour son nouvel employeur, et par une clause de non-dénigrement qui l'empêche de critiquer publiquement son ancien employeur. Cette combinaison donne à son ancien employeur une protection réelle, même sans clause de non-concurrence exécutoire, puisque les restrictions plus étroites visent des gestes nuisibles précis plutôt que sa capacité générale à travailler dans le secteur.
+
+**4. Quiz de pratique**
+1. Qu'est-ce qu'une clause de non-sollicitation interdit généralement?
+   a) De travailler pour n'importe quelle entreprise concurrente
+   b) De solliciter les clients ou les employés de l'ancien employeur pour qu'ils partent
+   c) De faire quelque déclaration publique que ce soit
+   d) Rien d'important sur le plan juridique
+2. Pourquoi les clauses de non-sollicitation et de non-dénigrement sont-elles souvent plus faciles à faire respecter que les clauses de non-concurrence?
+   a) Leur portée est plus large
+   b) Elles sont généralement plus étroites et interdisent des gestes nuisibles précis plutôt qu'une catégorie entière d'activités
+   c) Elles n'ont aucun fondement juridique
+   d) Elles ne s'appliquent qu'aux clauses de non-concurrence
+3. Vrai ou faux : Les clauses de non-concurrence, de non-sollicitation et de non-dénigrement ont une portée et un caractère exécutoire identiques.
+4. Pourquoi l'ancien employeur de Farida pouvait-il quand même obtenir une certaine protection malgré la clause de non-concurrence inexécutoire dans sa juridiction?
+   a) Aucune protection n'était possible
+   b) Les clauses plus étroites de non-sollicitation et de non-dénigrement restaient exécutoires
+   c) La loi lui interdisait complètement de travailler en marketing
+   d) Les clauses de non-sollicitation n'existent pas
+
+**5. Corrigé**
+1. b  2. b  3. Faux  4. b
+
+**6. Réponses et explications**
+1. Les clauses de non-sollicitation interdisent généralement de solliciter les clients ou les employés d'un ancien employeur, pas d'occuper un emploi concurrent en général.
+2. Leur portée plus étroite, qui vise des gestes nuisibles précis, rend les clauses de non-sollicitation et de non-dénigrement plus faciles à faire respecter dans différentes juridictions.
+3. Ces trois engagements restrictifs ont une portée vraiment différente et, par conséquent, un caractère exécutoire général différent.
+4. Les clauses de non-sollicitation et de non-dénigrement, plus étroites et plus faciles à faire respecter, ont offert une certaine protection malgré la clause de non-concurrence inexécutoire.
+
+**7. Points clés à retenir**
+- La non-concurrence interdit largement l'emploi concurrent; la non-sollicitation interdit le recrutement de clients ou d'employés; le non-dénigrement interdit les déclarations publiques négatives.
+- Les clauses de non-sollicitation et de non-dénigrement sont généralement plus étroites et souvent plus faciles à faire respecter que les clauses de non-concurrence.
+- Bien des ententes combinent les trois et comptent davantage sur les restrictions plus étroites là où les clauses de non-concurrence ont des limites légales.
+- Comparer ces instruments liés permet de voir quelles protections restent possibles même là où des restrictions plus larges sont inexécutoires.
+
+===== PURPLE-L2-011
+TITLE: Le testament : l'instrument juridique de base pour transmettre ses biens
+SUMMARY: Comprends ce qu'est un testament, ce qu'il contient habituellement et pourquoi le non-respect des formalités de ta juridiction peut le rendre invalide.
+## PURPLE-L2-011
+### Le testament : l'instrument juridique de base pour transmettre ses biens
+
+**1. Objectifs d'apprentissage**
+À la fin de cette leçon, tu pourras :
+- Définir de façon conceptuelle un testament.
+- Nommer les éléments généraux qu'on trouve habituellement dans un testament.
+- Reconnaître que les exigences d'un testament sont propres à chaque juridiction.
+
+**2. Contenu principal**
+Un testament est un document juridique qui précise comment les biens d'une personne doivent être répartis après son décès; il nomme souvent un exécuteur testamentaire (aussi appelé liquidateur de la succession, la personne chargée d'exécuter les instructions du testament) et, s'il y a lieu, des tuteurs pour les enfants mineurs. Dans la suite de la présentation des notions de planification successorale dans RED-L2-040 et WHITE-L2-046, cette leçon examine le testament lui-même comme instrument juridique de base.
+
+Les éléments généraux qu'on trouve habituellement dans un testament sont : l'identification de la personne qui fait le testament (le « testateur »), les instructions de répartition de biens précis ou de l'ensemble de la succession, la nomination d'un exécuteur testamentaire et, s'il y a lieu, la désignation de tuteurs pour les enfants mineurs. Pour être valide, un testament doit généralement respecter des formalités précises, propres à chaque juridiction — par exemple, être fait par écrit, être signé par le testateur et être signé devant un nombre précis de témoins qui n'héritent pas en vertu du testament. Ne pas respecter ces formalités peut rendre juridiquement invalide un testament par ailleurs clair et bien intentionné.
+
+**3. Exemple pratique**
+En rédigeant son premier testament avec une avocate, un père précise comment ses biens doivent être partagés entre ses enfants, nomme sa sœur comme exécutrice testamentaire pour gérer le processus et désigne son frère et sa belle-sœur comme tuteurs de ses enfants mineurs, au cas où lui et sa conjointe ne pourraient plus s'en occuper. Son avocate s'assure que le testament respecte les exigences précises de signature et de témoins de son État, puisqu'un testament qui semble complet sur le fond, mais qui ne respecte pas ces formalités, pourrait être contesté ou complètement annulé, peu importe à quel point il exprime clairement ses vraies volontés.
+
+**4. Quiz de pratique**
+1. Qu'est-ce qu'un testament?
+   a) Un type de contrat d'affaires
+   b) Un document juridique qui précise comment les biens d'une personne doivent être répartis après son décès
+   c) Un type de police d'assurance
+   d) Un formulaire de déclaration fiscale
+2. Qu'est-ce qu'un « exécuteur testamentaire »?
+   a) Un type d'obligation
+   b) La personne chargée d'exécuter les instructions d'un testament
+   c) Un organisme fiscal gouvernemental
+   d) Un type de fiducie
+3. Vrai ou faux : Les exigences précises de signature et de témoins d'un testament sont identiques dans toutes les juridictions et n'ont jamais besoin d'être vérifiées.
+4. Pourquoi l'avocate du père s'est-elle assurée que le testament respectait les formalités précises de son État?
+   a) Les formalités n'ont aucune importance pour la validité d'un testament
+   b) Ne pas respecter les formalités propres à la juridiction pourrait rendre juridiquement invalide un testament par ailleurs clair
+   c) Tous les testaments sont automatiquement valides, peu importe leur forme
+   d) Seul le contenu compte, jamais la forme
+
+**5. Corrigé**
+1. b  2. b  3. Faux  4. b
+
+**6. Réponses et explications**
+1. Un testament est un document juridique qui précise comment les biens d'une personne doivent être répartis après son décès.
+2. L'exécuteur testamentaire est la personne chargée d'exécuter les instructions d'un testament.
+3. Les formalités d'un testament varient selon la juridiction et doivent être vérifiées pour qu'un testament précis soit valide.
+4. Ne pas respecter certaines formalités précises peut invalider un testament par ailleurs clair et bien intentionné.
+
+**7. Points clés à retenir**
+- Le testament est un instrument juridique de base qui précise la répartition des biens et nomme souvent un exécuteur testamentaire et des tuteurs.
+- Ses éléments généraux comprennent l'identification du testateur, les instructions de répartition, la nomination d'un exécuteur et la désignation de tuteurs.
+- Un testament doit généralement respecter des formalités précises propres à chaque juridiction pour être valide, comme les exigences de signature et de témoins.
+- Ne pas respecter ces formalités peut invalider un testament par ailleurs clair et bien intentionné.
+
+===== PURPLE-L2-012
+TITLE: La fiducie : en quoi elle diffère d'un testament
+SUMMARY: Comprends le rôle du constituant, du fiduciaire et du bénéficiaire, et pourquoi une fiducie peut gérer des biens dans le temps alors qu'un testament agit une seule fois.
+## PURPLE-L2-012
+### La fiducie : en quoi elle diffère d'un testament
+
+**1. Objectifs d'apprentissage**
+À la fin de cette leçon, tu pourras :
+- Définir de façon conceptuelle une fiducie.
+- Expliquer les rôles généraux du constituant, du fiduciaire et du bénéficiaire.
+- Distinguer la fonction de base d'une fiducie de celle d'un testament.
+
+**2. Contenu principal**
+Une fiducie est un arrangement juridique dans lequel une partie (le « constituant ») transfère des biens pour qu'ils soient détenus et gérés par une autre partie (le « fiduciaire ») au profit de bénéficiaires désignés, selon les conditions établies par le constituant. Contrairement à un testament, qui ne prend généralement effet et ne dirige la répartition qu'après le décès, une fiducie peut prendre effet du vivant du constituant et gérer et distribuer activement des biens selon ses conditions pendant que le constituant est encore en vie, en plus (ou à la place) de diriger la répartition après le décès.
+
+Ça crée une différence fonctionnelle importante par rapport à un testament : une fiducie peut assurer une gestion continue des biens — utile, par exemple, si un bénéficiaire est mineur, a des besoins particuliers, ou si le constituant veut que les distributions se fassent graduellement avec le temps plutôt que d'un coup —, alors qu'un testament donne généralement une instruction de répartition unique qui ne prend effet qu'au décès, sans ce genre de capacité de gestion continue.
+
+**3. Exemple pratique**
+Au lieu de simplement laisser une somme globale à ses jeunes petits-enfants par testament, ce qui leur serait généralement transféré directement (ou à un tuteur nommé par le tribunal) à son décès, une grand-mère établit une fiducie qui nomme un fiduciaire chargé de gérer les fonds et de faire des distributions graduelles avec le temps — pour les frais d'études maintenant, et des distributions plus importantes quand les petits-enfants atteindront certains âges. Cette structure de gestion continue, qui n'est pas possible avec un simple testament, reflète son objectif précis d'orienter comment et quand les fonds seront réellement utilisés, plutôt que de faire une distribution immédiate et unique d'une somme globale.
+
+**4. Quiz de pratique**
+1. Qu'est-ce qu'une fiducie?
+   a) Un type de police d'assurance
+   b) Un arrangement juridique où un fiduciaire détient et gère des biens pour des bénéficiaires, selon les conditions du constituant
+   c) Un formulaire fiscal gouvernemental
+   d) Un type de contrat réservé aux entreprises
+2. Quelle différence fonctionnelle distingue une fiducie d'un testament?
+   a) Elles sont identiques sur le plan fonctionnel
+   b) Une fiducie peut assurer une gestion et des distributions continues avec le temps, alors qu'un testament donne généralement une répartition unique après le décès
+   c) Les testaments peuvent gérer des biens du vivant de la personne, alors que les fiducies ne le peuvent pas
+   d) Les fiducies n'ont aucune fonction juridique
+3. Vrai ou faux : Un testament et une fiducie ont des fonctions identiques, sans différence importante.
+4. Pourquoi la grand-mère a-t-elle choisi une fiducie plutôt qu'un simple testament pour ses petits-enfants?
+   a) Elle voulait une distribution immédiate et unique d'une somme globale
+   b) Elle voulait une gestion continue et des distributions graduelles avec le temps, ce qu'une fiducie pouvait offrir
+   c) Les fiducies sont toujours plus simples que les testaments
+   d) Elle n'avait aucun objectif précis pour l'utilisation des fonds
+
+**5. Corrigé**
+1. b  2. b  3. Faux  4. b
+
+**6. Réponses et explications**
+1. Une fiducie est un arrangement juridique où un fiduciaire détient et gère des biens pour des bénéficiaires selon les conditions du constituant.
+2. Une fiducie peut assurer une gestion et des distributions continues avec le temps, contrairement à la répartition généralement unique et après le décès d'un testament.
+3. Les testaments et les fiducies ont des fonctions vraiment différentes, même s'ils sont tous les deux des outils de planification successorale.
+4. L'objectif de la grand-mère, des distributions graduelles et encadrées avec le temps, était mieux servi par la capacité de gestion continue d'une fiducie.
+
+**7. Points clés à retenir**
+- Une fiducie implique un fiduciaire qui détient et gère des biens pour des bénéficiaires selon les conditions du constituant.
+- Contrairement à un testament, une fiducie peut prendre effet du vivant du constituant et assurer une gestion continue.
+- Ça rend les fiducies utiles pour des distributions graduelles, des bénéficiaires mineurs ou des situations de besoins particuliers.
+- Un testament donne généralement une instruction de répartition unique qui ne prend effet qu'après le décès.
+
+===== PURPLE-L2-013
+TITLE: Fiducies révocables ou irrévocables : une comparaison
+SUMMARY: Compare les fiducies révocables et irrévocables et comprends le compromis entre la souplesse et la protection des biens, une décision qui exige un conseil professionnel.
+## PURPLE-L2-013
+### Fiducies révocables ou irrévocables : une comparaison
+
+**1. Objectifs d'apprentissage**
+À la fin de cette leçon, tu pourras :
+- Distinguer les fiducies révocables des fiducies irrévocables.
+- Expliquer les compromis généraux entre la souplesse et la protection des biens pour chaque type.
+- Reconnaître que c'est une décision personnalisée qui exige un encadrement professionnel.
+
+**2. Contenu principal**
+Dans la suite de la leçon 12, cette leçon compare deux grandes catégories de fiducies. Une fiducie révocable (parfois appelée « fiducie entre vifs » ou *living trust*) permet généralement au constituant de la modifier ou de la révoquer complètement de son vivant; il garde ainsi beaucoup de souplesse et de contrôle, mais la fiducie offre généralement une protection des biens ou des avantages fiscaux plus limités, puisque le contrôle continu du constituant fait que les biens sont souvent encore considérés comme les siens à certaines fins juridiques et fiscales. Une fiducie irrévocable ne peut généralement pas être facilement modifiée ni révoquée une fois établie; le constituant renonce donc à beaucoup de contrôle, mais ce contrôle réduit peut, selon la structure précise et la juridiction, offrir une meilleure protection des biens ou des avantages fiscaux, puisque les biens sont plus clairement considérés comme séparés du constituant une fois transférés.
+
+C'est un vrai compromis entre la souplesse et la protection, et non un type supérieur à l'autre dans tous les cas. Le bon choix dépend des objectifs précis du constituant, de sa tolérance au fait de renoncer au contrôle et des protections ou avantages recherchés, ce qui exige l'encadrement d'un avocat ou d'un notaire qualifié en planification successorale, vu les conséquences importantes, et parfois difficiles à renverser, de ce choix.
+
+**3. Exemple pratique**
+En comparant les options de fiducie avec son avocat en planification successorale, Renata considère une fiducie révocable, qui lui permettrait de garder le plein contrôle et la souplesse de faire des changements à mesure que sa situation évolue, et une fiducie irrévocable, qui offrirait possiblement une meilleure protection des biens pour un objectif précis qu'elle a en tête, mais qui l'obligerait à renoncer à la possibilité de modifier ou de récupérer les biens une fois transférés. Comme sa priorité est de garder de la souplesse pendant une période de grands changements dans sa vie, elle choisit une fiducie révocable pour l'instant, et son avocat note que cette décision pourrait être revue avec l'ensemble de sa planification successorale quand sa situation se sera stabilisée.
+
+**4. Quiz de pratique**
+1. Que permet généralement une fiducie révocable au constituant?
+   a) Rien — elle ne peut pas être changée une fois créée
+   b) La modifier ou la révoquer de son vivant
+   c) Éviter automatiquement tous les impôts
+   d) Transférer des biens sans aucune formalité juridique
+2. Quel est un compromis général d'une fiducie irrévocable?
+   a) Il n'y a aucun compromis
+   b) Un contrôle réduit du constituant en échange d'une protection des biens ou d'avantages fiscaux possiblement meilleurs
+   c) Une souplesse complète, sans perte de contrôle
+   d) L'élimination garantie de tous les impôts successoraux
+3. Vrai ou faux : Un type de fiducie est supérieur à l'autre pour chaque constituant et chaque situation.
+4. Pourquoi Renata a-t-elle choisi une fiducie révocable pour sa situation actuelle?
+   a) Elle voulait renoncer à tout contrôle tout de suite
+   b) Elle donnait la priorité à la souplesse pendant une période de grands changements dans sa vie
+   c) La loi exige toujours des fiducies révocables
+   d) Elle n'avait aucun objectif précis
+
+**5. Corrigé**
+1. b  2. b  3. Faux  4. b
+
+**6. Réponses et explications**
+1. Une fiducie révocable permet généralement au constituant de la modifier ou de la révoquer de son vivant.
+2. Une fiducie irrévocable échange généralement un contrôle réduit du constituant contre une protection des biens ou des avantages fiscaux possiblement meilleurs.
+3. Le bon choix dépend des objectifs et de la situation précise du constituant, pas d'une supériorité universelle de l'un ou l'autre type.
+4. La priorité de Renata pour la souplesse pendant une période de changement faisait de la fiducie révocable le meilleur choix pour sa situation actuelle.
+
+**7. Points clés à retenir**
+- Les fiducies révocables permettent des modifications continues et le maintien du contrôle, mais offrent généralement une protection des biens plus limitée.
+- Les fiducies irrévocables réduisent le contrôle du constituant, mais peuvent offrir une meilleure protection des biens ou des avantages fiscaux, selon leur structure.
+- C'est un vrai compromis entre la souplesse et la protection, pas une supériorité universelle d'un type sur l'autre.
+- Cette décision exige l'encadrement d'un avocat ou d'un notaire qualifié en planification successorale, vu ses conséquences importantes et parfois irréversibles.

@@ -1,0 +1,181 @@
+===== WHITE-L3-029
+TITLE: Warum Inflation die Kaufkraft selbst in einem „sicheren“ Portfolio aufzehrt
+SUMMARY: Erfahre, warum du mit ausschließlich sehr stabilen Anlagen mit geringer Rendite über die Zeit trotzdem Kaufkraft verlieren kannst – auch ganz ohne Kursverluste.
+# WHITE-L3-029: Warum Inflation die Kaufkraft selbst in einem „sicheren“ Portfolio aufzehrt
+
+## Lernziele
+Am Ende dieser Lektion kannst du:
+- den Unterschied zwischen nominaler Rendite und realer (inflationsbereinigter) Rendite erklären
+- erklären, warum ein „sicheres“ Portfolio mit geringer Rendite über die Zeit trotzdem Kaufkraft verlieren kann
+- dieses Konzept mit der Diskussion über Fiatgeld verbinden, die an anderer Stelle in diesem Lehrplan geführt wird
+
+## Hauptinhalt
+
+Die **nominale Rendite** einer Anlage ist ihr ausgewiesener prozentualer Zuwachs ohne Berücksichtigung der Inflation. Die **reale Rendite** zieht die Inflation von diesem Nominalwert ab und zeigt die tatsächliche Veränderung der Kaufkraft. Diese Unterscheidung hängt direkt mit der Diskussion über Fiatgeld an anderer Stelle in diesem Lehrplan zusammen: Wenn die Kaufkraft von Fiatgeld über die Zeit tendenziell schrumpft, verliert eine Anlage, die diesen Schwund nicht übertrifft, an realem Wert – selbst wenn ihr Nominalbetrag technisch wächst oder gleich bleibt.
+
+Hier das „Warum“, weshalb ein „sicheres“ Portfolio real betrachtet trotzdem riskant sein kann: Sehr stabile Anlagen mit geringer Rendite – etwa Bargeld auf einem niedrig verzinsten Konto – vermeiden zwar jede Marktschwankung. Hält ihre Rendite aber nicht mit der Inflation Schritt, schrumpft die Kaufkraft dieses Geldes jedes Jahr, obwohl der Nominalbetrag in Euro überhaupt nicht sinkt. [VERIFIED FACT] Man spricht hier manchmal vom Inflationsrisiko, und es wird leicht übersehen, weil es auf dem Kontoauszug nicht als sichtbarer Verlust erscheint wie ein Kursrückgang – die Zahl selbst wird nicht kleiner, wohl aber das, was man dafür kaufen kann.
+
+## Durchgerechnetes Beispiel
+
+[ILLUSTRATIVE EXAMPLE] Eine Anlegerin hält 50.000 € als Bargeld zu einem sehr niedrigen Zinssatz, gerade um jedes Marktrisiko zu vermeiden. [ASSUMPTION] Liegt die Inflation über mehrere Jahre spürbar über diesem Zinssatz, sinkt der Kontostand von 50.000 € selbst nicht – durch die Zinsen wächst er vielleicht sogar leicht –, aber die Waren und Dienstleistungen, die man für diese 50.000 € tatsächlich kaufen kann, sind still und leise weniger geworden, weil die Preise schneller gestiegen sind als das Konto. Der Kontoauszug zeigt nie einen „Verlust“, deshalb übersieht man diesen Schwund leichter als einen sichtbaren Kursrückgang.
+
+## Übungsquiz
+1. Was ist der Unterschied zwischen nominaler und realer Rendite?
+2. Warum kann ein „sicheres“ Portfolio mit geringer Rendite über die Zeit trotzdem an realem Wert verlieren?
+3. Warum wird das Inflationsrisiko im Vergleich zum Marktrisiko leicht übersehen?
+
+## Lösungsschlüssel
+1. Die nominale Rendite ist der ausgewiesene prozentuale Zuwachs ohne Inflationsbereinigung; die reale Rendite zieht die Inflation ab und zeigt die tatsächliche Veränderung der Kaufkraft.
+2. Weil die Kaufkraft des Geldes schrumpft, wenn die Rendite nicht mit der Inflation Schritt hält – selbst wenn sein Nominalwert in Euro stabil bleibt oder wächst.
+3. Weil der Kontostand selbst nicht sichtbar sinkt wie bei einem Kursrückgang – der Schwund betrifft das, was man mit dem Geld kaufen kann, nicht die auf dem Kontoauszug angezeigte Zahl.
+
+## Antworten und Erklärungen
+1. Das ist die grundlegende Unterscheidung, um die die Lektion aufgebaut ist.
+2. Das ist das zentrale, leicht übersehene Risiko, das die Lektion hervorhebt.
+3. Das erklärt, warum gerade dieses Risiko psychologisch leicht übersehen wird, verglichen mit einem Kursverlust.
+
+## Das Wichtigste in Kürze
+- Die reale Rendite, nicht die nominale, spiegelt die tatsächliche Veränderung der Kaufkraft einer Anlage wider.
+- Ein „sicheres“ Portfolio mit geringer Rendite kann über die Zeit trotzdem an realem Wert verlieren, wenn seine Rendite nicht mit der Inflation Schritt hält.
+- Das Inflationsrisiko wird leicht übersehen, weil es auf dem Kontoauszug nicht als sichtbarer Verlust erscheint.
+
+## Hinweis zum Bildungszweck
+Diese Lektion dient ausschließlich der allgemeinen finanziellen Bildung und ist keine individuelle Finanz-, Anlage-, Steuer- oder Rechtsberatung. Alle Zahlen sind veranschaulichende Schätzungen, keine Garantien. Wende dich vor Anlageentscheidungen an eine zugelassene Fachperson, etwa eine unabhängige Anlage- oder Honorarberatung.
+
+===== WHITE-L3-030
+TITLE: Warum verschiedene Anlagen unterschiedlich auf Inflation reagieren
+SUMMARY: Erfahre, warum manche Anlagen in Inflationsphasen tendenziell besser bestehen als andere – und warum es keinen einzigen perfekten Inflationsschutz gibt.
+# WHITE-L3-030: Warum verschiedene Anlagen unterschiedlich auf Inflation reagieren
+
+## Lernziele
+Am Ende dieser Lektion kannst du:
+- erklären, warum festverzinsliche Anlagen im Allgemeinen anfälliger für Inflation sind als Anlagen mit Wachstumspotenzial
+- Beispiele für Anlagearten nennen, die oft als möglicher Inflationsschutz diskutiert werden
+- erklären, warum keine einzelne Anlage ein garantierter, perfekter Inflationsschutz ist
+
+## Hauptinhalt
+
+Lektion 29 hat gezeigt, dass Inflation die Kaufkraft aufzehrt. Hier das „Warum“, weshalb verschiedene Anlagearten unterschiedlich auf diesen Schwund reagieren: Anlagen mit festen, unveränderlichen Zahlungen – wie die meisten klassischen Anleihen – haben keinen eingebauten Mechanismus, um ihre Auszahlungen bei steigender Inflation zu erhöhen; ihr realer Wert ist dem Inflationsrisiko daher direkt ausgesetzt. Anlagen, die an wachsende Umsätze, Gewinne oder Sachwerte gebunden sind – Aktien von Unternehmen, die ihre Preise erhöhen können, Immobilien mit anpassbaren Mieten oder bestimmte Staatsanleihen, die eigens an die Inflation gekoppelt sind –, haben mehr Potenzial, mit steigenden Preisen über die Zeit Schritt zu halten.
+
+[VERIFIED FACT] Häufig diskutierte mögliche Absicherungen gegen Inflation sind Aktien (besonders von Unternehmen mit Preissetzungsmacht), Immobilien, bestimmte Rohstoffe und inflationsindexierte Staatsanleihen – aber keine davon ist in jeder Inflationsphase ein garantierter oder perfekter Schutz. Jede kann auch von anderen Faktoren beeinflusst werden (Zinsen, Konjunktur, branchenspezifische Probleme), die einen inflationsbedingten Vorteil in einem bestimmten Zeitraum ausgleichen oder sogar übertreffen können.
+
+Deshalb vereinfacht das Denken in der Frage „Welche einzelne Anlage schützt vor Inflation?“ das Konzept zu stark – realistischer ist es, die Widerstandsfähigkeit gegen Inflation als einen von mehreren Faktoren zu sehen, die man über ein diversifiziertes Portfolio hinweg abwägt, statt als Problem, das eine einzelne Position löst.
+
+## Durchgerechnetes Beispiel
+
+[ILLUSTRATIVE EXAMPLE] In einer Phase steigender Inflation kann ein Unternehmen, das höhere Kosten über Preiserhöhungen an seine Kunden weitergeben kann, seine Gewinnmargen und seinen Aktienwert besser halten als eine Anleihe mit einem festen Zinssatz, der vor Beginn der Inflationsphase festgelegt wurde. [ASSUMPTION] Geht dieselbe Inflationsphase aber auch mit steigenden Zinsen einher, die die Bewertungen von Aktien allgemein drücken (ein eigenständiger Faktor), spiegelt die Wertentwicklung der Aktie womöglich nicht sauber nur den Vorteil als Inflationsschutz wider – ein Beispiel dafür, dass keine Anlage völlig losgelöst von allem anderen auf Inflation reagiert, was gleichzeitig am Markt passiert.
+
+## Übungsquiz
+1. Warum sind festverzinsliche Anlagen wie klassische Anleihen im Allgemeinen anfälliger für Inflation als Anlagen mit Wachstumspotenzial?
+2. Nenne zwei Anlagearten, die häufig als möglicher Inflationsschutz diskutiert werden.
+3. Warum gilt keine einzelne Anlage als garantierter, perfekter Inflationsschutz?
+
+## Lösungsschlüssel
+1. Weil ihre Zahlungen fest sind und bei steigender Inflation nicht nach oben angepasst werden, sodass ihr realer Wert dem Schwund durch Inflation direkt ausgesetzt ist.
+2. Zwei beliebige aus: Aktien (besonders von Unternehmen mit Preissetzungsmacht), Immobilien, bestimmte Rohstoffe, inflationsindexierte Staatsanleihen.
+3. Weil jede Anlageart auch von anderen, unabhängigen Faktoren beeinflusst werden kann (wie Zinsänderungen oder branchenspezifischen Bedingungen), die einen inflationsbedingten Vorteil in einem bestimmten Zeitraum ausgleichen oder übertreffen können.
+
+## Antworten und Erklärungen
+1. Das knüpft direkt an die Anfälligkeit fester Zahlungen an, die in Lektion 29 allgemeiner beschrieben wurde.
+2. Das liefert konkrete Beispiele aus häufig diskutierten Kategorien.
+3. Das ist eine wichtige, angemessen vorsichtige Warnung davor, Strategien zum Inflationsschutz zu stark zu vereinfachen.
+
+## Das Wichtigste in Kürze
+- Festverzinsliche Anlagen sind im Allgemeinen anfälliger für Inflation, weil ihre Zahlungen nicht nach oben angepasst werden.
+- Aktien, Immobilien, Rohstoffe und inflationsindexierte Anleihen werden häufig als möglicher Inflationsschutz diskutiert.
+- Keine einzelne Anlage ist ein garantierter, perfekter Inflationsschutz, weil andere Faktoren einen inflationsbedingten Vorteil ausgleichen oder übertreffen können.
+
+## Hinweis zum Bildungszweck
+Diese Lektion dient ausschließlich der allgemeinen finanziellen Bildung und ist keine individuelle Finanz-, Anlage-, Steuer- oder Rechtsberatung. Alle Zahlen sind veranschaulichende Schätzungen, keine Garantien. Wende dich vor Anlageentscheidungen an eine zugelassene Fachperson, etwa eine unabhängige Anlage- oder Honorarberatung.
+
+===== WHITE-L3-031
+TITLE: Warum das Währungsrisiko internationale Anlagen beeinflusst
+SUMMARY: Erfahre, warum Anlagen in einer Fremdwährung eine zusätzliche Risikoebene mitbringen, die unabhängig von der Wertentwicklung der Anlage selbst ist.
+# WHITE-L3-031: Warum das Währungsrisiko internationale Anlagen beeinflusst
+
+## Lernziele
+Am Ende dieser Lektion kannst du:
+- erklären, was Währungsrisiko ist
+- erklären, warum die Rendite einer internationalen Anlage von zwei getrennten Faktoren abhängt
+- erklären, warum Wechselkursbewegungen die Rendite unabhängig von der Wertentwicklung der zugrunde liegenden Anlage verbessern oder verschlechtern können
+
+## Hauptinhalt
+
+Wenn eine Anlegerin eine internationale Anlage kauft – zum Beispiel eine Aktie oder Anleihe aus dem Ausland –, wird diese Anlage in der Regel in ihrer Landeswährung bewertet, etwa eine US-Aktie in US-Dollar. Die spätere Umrechnung der Erträge zurück in die Heimatwährung der Anlegerin (für Anlegerinnen in Deutschland: den Euro) bringt einen eigenständigen Faktor ins Spiel: das **Währungsrisiko** – das Risiko, dass Wechselkursbewegungen zwischen den beiden Währungen die tatsächliche Rendite beeinflussen, unabhängig davon, wie sich die Anlage selbst entwickelt hat.
+
+Hier das „Warum“, weshalb die Gesamtrendite so von zwei getrennten Faktoren abhängt: Die Anlage kann sich in ihrer Landeswährung gut entwickeln – schwächt sich diese Währung vor der Umrechnung aber deutlich gegenüber der Heimatwährung ab, kann ein Teil oder der gesamte Gewinn aufgezehrt werden. Umgekehrt kann eine bescheidene Rendite in der Landeswährung zusammen mit einer Währung, die gegenüber der Heimatwährung aufwertet, zu einer besseren Gesamtrendite führen, als die lokale Wertentwicklung allein vermuten ließe.
+
+[VERIFIED FACT] Wechselkursbewegungen sind schwer vorherzusagen und werden von vielen Faktoren beeinflusst, darunter Zinsunterschiede zwischen Ländern, die Wirtschaftslage und die allgemeine Marktstimmung. Manche internationalen Fonds bieten währungsgesicherte Varianten an, die gezielt dieses Risiko verringern sollen, sodass die Rendite näher an der Wertentwicklung der Anlage in ihrer Landeswährung liegt – die Absicherung selbst hat aber eigene Kosten und Nachteile.
+
+## Durchgerechnetes Beispiel
+
+[ILLUSTRATIVE EXAMPLE] Eine Anlegerin kauft Aktien eines ausländischen Unternehmens, die in ihrer Landeswährung über ein Jahr um 10 % steigen. Wertet diese Landeswährung im selben Zeitraum gegenüber dem Euro um 8 % ab, liegt ihre tatsächliche Rendite nach der Umrechnung viel näher bei ungefähr 2 % – der größte Teil des lokalen Gewinns wurde durch die ungünstige Währungsbewegung aufgezehrt. [ASSUMPTION] Hätte diese Landeswährung dagegen gegenüber dem Euro um 8 % aufgewertet, hätte ihre umgerechnete Rendite eher bei etwa 18 % liegen können – die Währungsbewegung hätte zusätzlich zum zugrunde liegenden Gewinn von 10 % zu ihren Gunsten gewirkt.
+
+## Übungsquiz
+1. Was ist Währungsrisiko?
+2. Warum hängt die Gesamtrendite einer internationalen Anlage von zwei getrennten Faktoren ab?
+3. Wofür ist ein währungsgesicherter Fonds gedacht?
+
+## Lösungsschlüssel
+1. Das Risiko, dass Wechselkursbewegungen zwischen der Heimatwährung der Anlegerin und der Landeswährung der Anlage ihre tatsächliche Rendite beeinflussen, unabhängig von der Wertentwicklung der Anlage selbst.
+2. Weil die Rendite sowohl davon abhängt, wie sich die zugrunde liegende Anlage in ihrer Landeswährung entwickelt, als auch davon, wie sich der Wert dieser Landeswährung bis zur Umrechnung gegenüber der Heimatwährung verändert.
+3. Das Währungsrisiko zu verringern, indem die Rendite näher an die Wertentwicklung der Anlage in ihrer Landeswährung herangeführt wird – allerdings mit eigenen Kosten und Nachteilen.
+
+## Antworten und Erklärungen
+1. Das ist die grundlegende Definition der Lektion.
+2. Das ist das zentrale Konzept der „zwei Faktoren“, das die Lektion erklärt.
+3. Das stellt das Werkzeug vor, mit dem sich dieses konkrete Risiko steuern lässt, zusammen mit einem ehrlichen Hinweis auf seine Nachteile.
+
+## Das Wichtigste in Kürze
+- Das Währungsrisiko ist das Risiko, dass Wechselkursbewegungen die Rendite einer internationalen Anlage beeinflussen, getrennt von der Wertentwicklung der Anlage selbst.
+- Die Gesamtrendite einer internationalen Anlage hängt sowohl von der Wertentwicklung in der Landeswährung als auch von der Bewegung dieser Währung gegenüber der Heimatwährung ab.
+- Währungsgesicherte Fonds sollen gezielt dieses Risiko verringern, wobei die Absicherung eigene Kosten und Nachteile hat.
+
+## Hinweis zum Bildungszweck
+Diese Lektion dient ausschließlich der allgemeinen finanziellen Bildung und ist keine individuelle Finanz-, Anlage-, Steuer- oder Rechtsberatung. Alle Zahlen sind veranschaulichende Schätzungen, keine Garantien. Wende dich vor Anlageentscheidungen an eine zugelassene Fachperson, etwa eine unabhängige Anlage- oder Honorarberatung.
+
+===== WHITE-L3-032
+TITLE: Warum REITs dich in Immobilien investieren lassen, ohne eine Immobilie zu kaufen
+SUMMARY: Erfahre, wie Real Estate Investment Trusts (REITs) funktionieren, warum sie wie Aktien gehandelt werden und wie sie den RED- und den WHITE-Track dieses Lehrplans verbinden.
+# WHITE-L3-032: Warum REITs dich in Immobilien investieren lassen, ohne eine Immobilie zu kaufen
+
+## Lernziele
+Am Ende dieser Lektion kannst du:
+- erklären, was ein REIT ist
+- erklären, warum REITs Anlegerinnen und Anlegern Zugang zu Immobilien ermöglichen, ohne direkt eine Immobilie zu besitzen
+- dieses Konzept mit den Themen Hebel und Cashflow aus dem RED-Track dieses Lehrplans verbinden
+
+## Hauptinhalt
+
+Ein **REIT (Real Estate Investment Trust)** ist ein Unternehmen, das ertragbringende Immobilien besitzt, betreibt oder finanziert und dessen Aktien wie andere börsennotierte Aktien an einer Börse gekauft und verkauft werden können – eine Brücke zwischen dem RED-Track (Immobilien) und dem WHITE-Track (Papiervermögen) dieses Lehrplans. In Deutschland gibt es seit 2007 die Rechtsform des deutschen REIT (REIT-Aktiengesellschaft); daneben investieren viele Anlegerinnen und Anleger hier auch über offene Immobilienfonds oder Immobilienaktien indirekt in Immobilien.
+
+Hier das „Warum“, weshalb REITs eine andere Erfahrung bieten als der direkte Kauf einer Immobilie, wie er im gesamten RED-Track behandelt wird: Wer in einen REIT investiert, kauft Anteile an einem diversifizierten Immobilienportfolio (oft viele Objekte in verschiedenen Märkten), ohne selbst Mieter zu betreuen, sich um die Instandhaltung zu kümmern oder die Finanzierung einzelner Objekte zu organisieren – diese Aufgaben liegen beim Management des REIT. Im Gegenzug verzichtet man in der Regel auf die direkte Kontrolle und auf bestimmte steuerliche Behandlungen (wie die Abschreibung, in Deutschland die AfA, die im RED-Track behandelt wird), die einem direkten Immobilieneigentümer zur Verfügung stehen.
+
+[VERIFIED FACT] REITs müssen in der Regel einen großen Teil ihres steuerpflichtigen Gewinns als Dividende an die Aktionäre ausschütten – deutsche REITs zum Beispiel mindestens 90 % –, was ein Grund dafür ist, dass REITs im Vergleich zu vielen anderen Aktienkategorien oft für relativ hohe Dividendenrenditen bekannt sind. Wie in Lektion 17 besprochen, bleibt eine Dividende aber eine Ausschüttung von Wert und kein Bonus obendrauf.
+
+## Durchgerechnetes Beispiel
+
+[ILLUSTRATIVE EXAMPLE] Eine Anlegerin möchte in Gewerbeimmobilien investieren, hat aber weder das Kapital noch die Zeit noch den Wunsch, eine fremdfinanzierte Mietimmobilie selbst zu verwalten, wie es im RED-Track dieses Lehrplans beschrieben wird. Stattdessen kauft sie Aktien eines REIT, der ein großes Portfolio aus Büro- und Einzelhandelsimmobilien besitzt. Sie erhält Zugang zu den Erträgen und möglichen Wertsteigerungen von Immobilien, bekommt regelmäßige Dividendenausschüttungen aus den Mieteinnahmen des REIT und kann ihre Aktien während der Börsenzeiten jederzeit kaufen oder verkaufen – eine ganz andere Erfahrung von „Immobilieninvestment“, als eine einzelne Mietimmobilie direkt zu finanzieren und zu verwalten.
+
+## Übungsquiz
+1. Was ist ein REIT?
+2. Was gewinnt eine REIT-Anlegerin im Vergleich zum direkten Immobilieneigentum, und worauf verzichtet sie?
+3. Warum sind REITs oft für relativ hohe Dividendenrenditen bekannt?
+
+## Lösungsschlüssel
+1. Ein Unternehmen, das ertragbringende Immobilien besitzt, betreibt oder finanziert und dessen Aktien wie andere börsennotierte Aktien an einer Börse gehandelt werden.
+2. Sie gewinnt einen diversifizierten Zugang zu Immobilien ohne direkte Verwaltungsaufgaben oder Finanzierungsentscheidungen auf Objektebene, verzichtet aber auf die direkte Kontrolle und bestimmte steuerliche Behandlungen (wie die Abschreibung), die einem direkten Eigentümer zur Verfügung stehen.
+3. Weil REITs in der Regel einen großen Teil ihres steuerpflichtigen Gewinns als Dividende an die Aktionäre ausschütten müssen.
+
+## Antworten und Erklärungen
+1. Das ist die grundlegende Definition, die Konzepte aus dem RED- und dem WHITE-Track verbindet.
+2. Das ist die zentrale Abwägung zwischen einer REIT-Anlage und direktem Immobilieneigentum, die die Lektion hervorhebt.
+3. Das knüpft an eine REIT-spezifische strukturelle Vorgabe an und verweist zugleich auf die Warnung zu Dividenden aus Lektion 17.
+
+## Das Wichtigste in Kürze
+- REITs ermöglichen einen Zugang zu Immobilien über börsengehandelte Aktien, ohne die Pflichten eines direkten Immobilieneigentümers.
+- Dafür verzichtet man auf direkte Kontrolle und bestimmte Steuervorteile und gewinnt Liquidität und Streuung.
+- Die vorgeschriebene hohe Gewinnausschüttung ist der Grund, warum REITs oft für relativ hohe Dividendenrenditen bekannt sind.
+
+## Hinweis zum Bildungszweck
+Diese Lektion dient ausschließlich der allgemeinen finanziellen Bildung und ist keine individuelle Finanz-, Anlage-, Steuer- oder Rechtsberatung. Wende dich vor Anlageentscheidungen an eine zugelassene Fachperson, etwa eine unabhängige Anlage- oder Honorarberatung.

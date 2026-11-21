@@ -1,0 +1,399 @@
+===== WHITE-L4-006
+TITLE: Análisis de la correlación: por qué la diversificación requiere activos sin correlación
+SUMMARY: Conozca lo que mide la correlación, por qué tener muchos activos no garantiza la diversificación y por qué las correlaciones suben durante las crisis.
+KEYWORDS: correlación, diversificación, riesgo del portafolio, correlación de activos, teoría moderna del portafolio
+# Análisis de la correlación: por qué la diversificación requiere activos sin correlación
+
+## Escenario inicial
+SUPUESTO/OPINIÓN (escenario hipotético solo con fines educativos): Imagine una institución financiera de importancia sistémica que de repente revela una pérdida grande que no se había divulgado, lo que despierta el miedo de que el riesgo de contraparte se riegue por todo el sistema bancario. Cuando el miedo al riesgo de contraparte se riega por el sistema financiero, muchas clases de activos que normalmente se mueven de forma bastante independiente pueden de repente empezar a caer juntas. Esta lección explica por qué pasa eso y qué significa para la diversificación.
+
+## Objetivos de aprendizaje
+- Definir la correlación en el contexto de armar un portafolio.
+- Explicar por qué tener muchos activos distintos no garantiza la diversificación.
+- Explicar por qué las correlaciones entre los activos pueden subir mucho durante los periodos de tensión en el mercado.
+- Aplicar el concepto de la correlación para evaluar si un portafolio está realmente diversificado.
+
+## Contenido principal
+La correlación mide qué tan de cerca se mueven los rendimientos de dos activos uno en relación con el otro, en una escala de -1 (movimientos perfectamente opuestos) a +1 (movimientos perfectamente idénticos). DATO VERIFICADO: el verdadero beneficio de la diversificación viene de combinar activos con correlación baja o negativa, porque cuando un activo baja, un activo sin correlación o con correlación negativa tiene más probabilidad de mantenerse firme o subir, lo que amortigua el portafolio completo.
+
+Aquí está el "porqué" tener muchos activos distintos no garantiza una diversificación real, igual que el principio de concentración del portafolio inmobiliario de otros cursos: diez acciones de diez compañías distintas todavía pueden estar muy correlacionadas entre sí si comparten el mismo factor de riesgo de fondo, por ejemplo, formar parte del mismo mercado de valores en general, del mismo ciclo económico o de la misma sensibilidad de su industria a las tasas de interés. Una diversificación que valga la pena requiere activos cuyos rendimientos los muevan factores realmente distintos, como combinar acciones con bonos, activos locales con internacionales, o acciones con activos reales como los bienes raíces o las materias primas.
+
+Por eso, las correlaciones no son números fijos: pueden cambiar y cambian, y ese es un riesgo crítico que a menudo no se aprecia lo suficiente. Durante un evento de tensión financiera sistémica como el que se describe en el escenario de arriba, activos que normalmente tienen poca correlación pueden de repente moverse juntos porque el miedo provoca ventas generales y sin distinción en todas las clases de activos (una frase común para este fenómeno es que "las correlaciones se van a uno"). Por eso, la diversificación, aunque vale mucho, no es un escudo perfecto ni permanente contra todo tipo de caída del mercado, sobre todo en los pánicos sistémicos fuertes.
+
+## Ejemplo práctico
+EJEMPLO ILUSTRATIVO: Un inversionista tiene un portafolio de veinte acciones de compañías grandes de distintas industrias, y cree que está bien diversificado. En condiciones normales del mercado, estas acciones muestran movimientos independientes importantes. Pero durante un evento repentino de tensión financiera sistémica, casi las veinte acciones caen juntas en los mismos pocos días, porque las ventas por pánico afectan a todo el mercado como un solo factor de riesgo correlacionado, lo que revela que la diversificación del portafolio era más limitada de lo que sugería su número de acciones.
+
+## Prueba práctica
+**Q1. ¿Qué mide la correlación en el contexto de un portafolio?**
+A) El número total de activos que hay en un portafolio
+B) Qué tan de cerca se mueven los rendimientos de dos activos uno en relación con el otro
+C) El rendimiento absoluto en dólares de un activo
+D) La clasificación de crédito del emisor de un bono
+
+**Q2. ¿Por qué tener muchas acciones distintas no garantiza una verdadera diversificación?**
+A) Tener más acciones siempre garantiza una diversificación perfecta
+B) Las acciones pueden compartir el mismo factor de riesgo de fondo, como la exposición al mercado en general o al ciclo económico, lo que las hace estar muy correlacionadas aunque sean compañías distintas
+C) La diversificación solo requiere tener por lo menos diez activos distintos
+D) La correlación no influye en la diversificación
+
+**Q3. ¿Qué combinación de activos tiende a dar un beneficio de diversificación que valga la pena?**
+A) Diez acciones distintas, todas de la misma industria
+B) Activos cuyos rendimientos los mueven factores realmente distintos, como acciones combinadas con bonos o con activos reales
+C) Cualquier par de activos, sin importar qué mueve sus rendimientos
+D) Efectivo guardado en una sola moneda
+
+**Q4. ¿Qué describe la frase "las correlaciones se van a uno"?**
+A) Un estado de correlación permanente que nunca cambia entre todos los activos
+B) La tendencia de activos que normalmente tienen poca correlación a moverse juntos durante un pánico sistémico, por las ventas generales y sin distinción
+C) Una situación en que todos los activos siempre ganan rendimientos idénticos
+D) Un tipo específico de bono que se emite durante una recesión
+
+**Q5. ¿Qué le pasó al portafolio de veinte acciones del ejemplo durante el evento de tensión sistémica?**
+A) Las acciones siguieron moviéndose de forma independiente como antes
+B) Casi las veinte acciones cayeron juntas, lo que reveló que la diversificación del portafolio era más limitada de lo que sugería el número de acciones
+C) El portafolio no se afectó para nada por el evento sistémico
+D) Solo una acción del portafolio se afectó
+
+## Clave de respuestas
+Q1: B
+Q2: B
+Q3: B
+Q4: B
+Q5: B
+
+## Respuestas y explicaciones
+**Q1.** La correlación mide hasta qué punto dos activos tienden a moverse juntos o de forma independiente.
+
+**Q2.** La exposición compartida a factores de riesgo comunes puede mantener muy correlacionadas acciones que parecen distintas, lo que socava una diversificación real.
+
+**Q3.** El beneficio de la diversificación viene de combinar activos expuestos a distintos factores de rendimiento de fondo, no solo de tener un número mayor de activos.
+
+**Q4.** Durante una tensión sistémica fuerte, las ventas por miedo pueden hacer que muchos activos caigan juntos, lo que borra por un tiempo gran parte de su beneficio normal de diversificación.
+
+**Q5.** La caída general y correlacionada durante el pánico mostró que el número de acciones por sí solo no daba la diversificación que el inversionista creía tener.
+
+## Puntos clave
+- La correlación mide qué tan de cerca se mueven juntos los rendimientos de dos activos, de -1 a +1.
+- La verdadera diversificación requiere combinar activos con factores de rendimiento de fondo realmente distintos, no solo un número grande de acciones.
+- Las correlaciones pueden subir mucho durante la tensión sistémica en el mercado, lo que reduce el beneficio de la diversificación justo cuando más se necesita.
+- La diversificación vale mucho, pero no es un escudo perfecto contra todo tipo de caída del mercado, sobre todo en los pánicos sistémicos fuertes.
+
+===== WHITE-L4-007
+TITLE: Análisis de la beta: por qué la volatilidad no es lo mismo que el riesgo
+SUMMARY: Conozca lo que mide la beta de una acción, por qué solo capta el riesgo ligado al mercado y por qué una volatilidad baja no siempre significa un riesgo bajo.
+KEYWORDS: beta, volatilidad, riesgo sistemático, medición del riesgo de las acciones
+# Análisis de la beta: por qué la volatilidad no es lo mismo que el riesgo
+
+## Escenario inicial
+SUPUESTO/OPINIÓN (escenario hipotético solo con fines educativos): Imagine dos grandes potencias económicas que aumentan los controles de exportación entre sí sobre una categoría de componentes tecnológicos avanzados que se usan en muchas industrias. Mientras estas dos grandes potencias comerciales aprietan las restricciones una contra la otra, ciertas acciones del sector de tecnología suben y bajan sin control de un día para otro, mientras que otras compañías, que parecen "aburridas", casi no se mueven. Esta lección explica lo que la beta capta de esa diferencia, y lo que deja fuera.
+
+## Objetivos de aprendizaje
+- Explicar lo que mide la beta.
+- Interpretar un valor de beta mayor que 1, menor que 1 e igual a 1.
+- Explicar por qué la beta solo capta el riesgo sistemático (ligado al mercado) y no el riesgo propio de la compañía.
+- Explicar por qué una volatilidad baja no siempre significa un riesgo total bajo.
+
+## Contenido principal
+La beta mide la volatilidad de una acción en relación con el mercado en general, y al propio mercado se le asigna una beta de 1. DATO VERIFICADO: una acción con una beta de 1.5 históricamente se ha movido, en promedio, 50% más que el mercado en cualquier dirección, mientras que una acción con una beta de 0.6 históricamente se ha movido alrededor de 60% de lo que se mueve el mercado.
+
+Aquí está el "porqué" la beta solo capta parte del cuadro del riesgo: la beta mide el riesgo sistemático, la parte del movimiento de una acción atada a los vaivenes generales del mercado, como la volatilidad de todo un sector que se describe en el escenario de arriba. No capta el riesgo propio de la compañía (no sistemático), que es el riesgo de que una compañía en particular reciba malas noticias que no tienen que ver con el mercado en general, como un escándalo de contabilidad, el fracaso del lanzamiento de un producto o la salida de un ejecutivo clave. Una acción podría tener una beta baja y verse calmada frente al mercado, y aun así tener un riesgo propio importante que la beta simplemente no mide.
+
+Por eso, igualar una volatilidad baja (una beta baja) con un riesgo total bajo es una forma común pero incompleta de pensar en el riesgo. Una compañía de beta baja que enfrenta una amenaza real a la existencia de su negocio, sin relación con los movimientos generales del mercado, todavía puede perder la mayor parte o todo su valor, un riesgo que la beta por sí sola nunca habría señalado, porque el riesgo propio de la compañía funciona en un eje completamente distinto al del movimiento común con el mercado que la beta está diseñada para captar.
+
+## Ejemplo práctico
+EJEMPLO ILUSTRATIVO: Una acción tiene una beta de 0.7, lo que sugiere una sensibilidad relativamente baja a los vaivenes generales del mercado, y un inversionista supone que eso la convierte en una inversión "segura". Luego la compañía revela una irregularidad de contabilidad importante, propia de la compañía y sin relación con ninguna condición general del mercado, y la acción pierde 40% de su valor en un solo día: un riesgo del que la beta, que solo mide el movimiento común ligado al mercado, no daba ninguna señal.
+
+## Prueba práctica
+**Q1. ¿Qué indica una beta de 1.5 sobre una acción?**
+A) La acción históricamente se ha movido alrededor de 150% en relación con ella misma, sin compararla con el mercado
+B) La acción históricamente se ha movido, en promedio, 50% más que el mercado en general en cualquier dirección
+C) La acción tiene garantizado subir 1.5% todos los años
+D) La acción tiene una razón precio-ganancia de 1.5
+
+**Q2. ¿Qué tipo de riesgo mide específicamente la beta?**
+A) El riesgo propio de la compañía, sin relación con el mercado en general
+B) El riesgo sistemático, la parte del movimiento de una acción atada a los vaivenes generales del mercado
+C) Solo el riesgo cambiario
+D) El riesgo de incumplimiento de crédito
+
+**Q3. ¿Por qué una acción de beta baja todavía puede tener un riesgo importante?**
+A) Las acciones de beta baja siempre están completamente libres de riesgo
+B) La beta no capta el riesgo propio de la compañía, como los escándalos o los productos fracasados, que pueden afectar mucho una acción sin importar los movimientos del mercado
+C) La beta mide todas las formas de riesgo a la perfección
+D) Una beta baja garantiza que la compañía no tiene deuda
+
+**Q4. ¿Qué le pasó a la acción con una beta de 0.7 en el ejemplo?**
+A) Se mantuvo perfectamente estable gracias a su beta baja
+B) Perdió 40% de su valor en un solo día por un problema propio de la compañía, sin relación con las condiciones generales del mercado
+C) Su beta baja la protegió de cualquier caída en un solo día
+D) La beta de la compañía impidió que ocurriera el problema de contabilidad
+
+**Q5. ¿Por qué igualar una volatilidad baja con un riesgo total bajo se considera una forma incompleta de pensar en el riesgo?**
+A) La volatilidad y el riesgo siempre son exactamente lo mismo, sin ninguna diferencia
+B) La beta solo capta el riesgo ligado al mercado, y deja sin medir por completo los riesgos propios de la compañía, que pueden ser igual de dañinos
+C) Una volatilidad baja siempre elimina todas las formas de riesgo
+D) El riesgo total no se puede analizar con ninguna medida cuantitativa
+
+## Clave de respuestas
+Q1: B
+Q2: B
+Q3: B
+Q4: B
+Q5: B
+
+## Respuestas y explicaciones
+**Q1.** Una beta mayor que 1 indica una sensibilidad histórica a los movimientos de todo el mercado mayor que la del propio mercado.
+
+**Q2.** La beta aísla la parte sistemática, ligada al mercado, de la volatilidad de una acción, no los riesgos propios de cada compañía.
+
+**Q3.** Una acción puede haber sido históricamente estable frente al mercado y aun así enfrentar riesgos propios importantes que la beta no toma en cuenta.
+
+**Q4.** La beta baja reflejaba una estabilidad histórica ligada al mercado, pero no daba ninguna protección contra un evento de riesgo propio de la compañía.
+
+**Q5.** Como la beta ignora el riesgo propio de la compañía, fiarse solo de ella puede crear una falsa sensación de seguridad sobre la exposición total al riesgo de una acción.
+
+## Puntos clave
+- La beta mide la volatilidad histórica de una acción en relación con el mercado en general, y el propio mercado es igual a 1.
+- La beta solo capta el riesgo sistemático, ligado al mercado, no el riesgo propio de la compañía por eventos sin relación con el mercado en general.
+- Una acción de beta baja todavía puede tener un riesgo importante si enfrenta amenazas propias que la beta no mide.
+- Igualar una volatilidad baja con un riesgo total bajo pasa por alto una dimensión importante del riesgo que la beta simplemente no se diseñó para captar.
+
+===== WHITE-L4-008
+TITLE: Análisis de la razón de Sharpe: por qué el rendimiento ajustado al riesgo vale más que el rendimiento bruto
+SUMMARY: Conozca lo que mide la razón de Sharpe, cómo calcularla y por qué dos inversiones con el mismo rendimiento bruto pueden tener razones muy distintas.
+KEYWORDS: razón de Sharpe, rendimiento ajustado al riesgo, medición del desempeño del portafolio
+# Análisis de la razón de Sharpe: por qué el rendimiento ajustado al riesgo vale más que el rendimiento bruto
+
+## Escenario inicial
+SUPUESTO/OPINIÓN (escenario hipotético solo con fines educativos): Imagine que, después de años de expansión rápida, los mercados de bienes raíces y de crédito al consumidor de un país muy poblado empiezan a mostrar señales de una corrección fuerte a medida que suben los impagos. Mientras se desinfla un mercado impulsado por el crédito, algunos fondos que mostraron rendimientos espectaculares durante los años de auge resultan haber tomado mucho más riesgo que sus competidores para lograrlo. Esta lección presenta la herramienta que usan los analistas para ver con claridad esa toma de riesgo, después de que pasa e, idealmente, antes.
+
+## Objetivos de aprendizaje
+- Explicar lo que mide la razón de Sharpe.
+- Calcular una razón de Sharpe básica a partir del rendimiento, la tasa libre de riesgo y la desviación estándar.
+- Explicar por qué dos inversiones con el mismo rendimiento bruto pueden tener razones de Sharpe muy distintas.
+- Aplicar el concepto de la razón de Sharpe para comparar dos estrategias de inversión hipotéticas.
+
+## Contenido principal
+La razón de Sharpe mide el rendimiento que se gana por cada unidad de riesgo que se toma, y se calcula como (el rendimiento de la inversión menos la tasa libre de riesgo) dividido entre la desviación estándar de la inversión (una medida común de la volatilidad). DATO VERIFICADO: una razón de Sharpe más alta indica un rendimiento ajustado al riesgo más favorable: más rendimiento generado por cada unidad de riesgo asumida.
+
+Aquí está el "porqué" esto importa más que comparar solo los rendimientos brutos, lo que se conecta directamente con el principio del rendimiento ajustado al riesgo del análisis inmobiliario: dos estrategias de inversión pueden producir rendimientos brutos idénticos en un periodo, pero si una logró ese rendimiento con mucha más volatilidad (subidas y bajadas más grandes en el camino) que la otra, la estrategia más pareja y de menos volatilidad tiene una razón de Sharpe más alta y generalmente se considera la mejor armada, o la más segura, de las dos, aunque sus rendimientos anunciados se vean iguales.
+
+Por eso, correr detrás del rendimiento histórico bruto más alto, sin examinar la volatilidad y el riesgo que se tomó para lograrlo, puede llevar a un inversionista hacia estrategias que se ven impresionantes en los periodos buenos (como la expansión impulsada por el crédito del escenario de arriba), pero que esconden una fragilidad que solo se ve cuando las condiciones se viran, ya que la toma de riesgo que infló el rendimiento bruto también amplifica la caída que llega después.
+
+## Ejemplo práctico
+EJEMPLO ILUSTRATIVO: El fondo A rinde 12% al año con una desviación estándar de 8%, mientras que el fondo B también rinde 12% al año, pero con una desviación estándar de 20%, suponiendo una tasa libre de riesgo de 3%. La razón de Sharpe del fondo A es (12 - 3) / 8 = 1.13, mientras que la del fondo B es (12 - 3) / 20 = 0.45. A pesar de tener rendimientos brutos idénticos, el fondo A logró ese rendimiento de forma mucho más eficiente, con mucho menos riesgo por cada unidad de rendimiento, lo que lo hace el más atractivo de los dos en rendimiento ajustado al riesgo.
+
+## Prueba práctica
+**Q1. ¿Qué mide la razón de Sharpe?**
+A) El rendimiento total en dólares durante un periodo fijo
+B) El rendimiento que se gana por cada unidad de riesgo que se toma, en relación con una tasa libre de riesgo
+C) El rendimiento por dividendos de un portafolio de acciones
+D) La correlación entre dos activos
+
+**Q2. Dos fondos tienen rendimientos brutos idénticos, pero el fondo X tiene una desviación estándar mucho más baja que el fondo Y. ¿Qué fondo tiene la razón de Sharpe más alta?**
+A) El fondo Y, porque más volatilidad siempre produce una razón de Sharpe más alta
+B) El fondo X, porque logró el mismo rendimiento con menos riesgo
+C) Siempre tendrán razones de Sharpe idénticas, sin importar la volatilidad
+D) La razón de Sharpe no se puede calcular cuando los rendimientos son idénticos
+
+**Q3. Con una tasa libre de riesgo de 2%, un fondo rinde 10% con una desviación estándar de 10%. ¿Cuál es su razón de Sharpe?**
+A) 0.5
+B) 0.8
+C) 1.0
+D) 1.2
+
+**Q4. ¿Por qué podría ser arriesgado correr detrás del rendimiento histórico bruto más alto sin examinar la volatilidad?**
+A) El rendimiento bruto siempre refleja a la perfección lo segura que es una estrategia de inversión
+B) Un rendimiento bruto alto puede haberse logrado con una toma de riesgo importante y escondida que solo se ve cuando las condiciones se ponen malas
+C) La volatilidad no influye en el riesgo futuro de una estrategia de inversión
+D) Los rendimientos brutos altos siempre se logran con muy poco riesgo
+
+**Q5. ¿Por qué se dice que la razón de Sharpe se conecta con el principio del rendimiento ajustado al riesgo del análisis inmobiliario?**
+A) El análisis inmobiliario y el de la bolsa no tienen nada en común
+B) Los dos insisten en evaluar el rendimiento de una inversión frente al riesgo que se tomó para lograrlo, en vez de juzgar los números de rendimiento por sí solos
+C) La razón de Sharpe solo se puede aplicar a inversiones inmobiliarias
+D) El análisis ajustado al riesgo es exclusivo de los valores de renta fija
+
+## Clave de respuestas
+Q1: B
+Q2: B
+Q3: B
+Q4: B
+Q5: B
+
+## Respuestas y explicaciones
+**Q1.** La razón de Sharpe expresa el rendimiento adicional (por encima de la tasa libre de riesgo) en relación con la volatilidad que se asumió para lograrlo.
+
+**Q2.** Como la razón de Sharpe divide el rendimiento adicional entre la volatilidad, una volatilidad más baja con el mismo rendimiento da una razón más alta y más favorable.
+
+**Q3.** (10 - 2) / 10 = 0.8, ya que el rendimiento adicional de 8 puntos porcentuales se divide entre una desviación estándar de 10.
+
+**Q4.** Las estrategias que muestran rendimientos fuertes en condiciones favorables pueden esconder una fragilidad por tomar demasiado riesgo, que sale a la luz durante una caída.
+
+**Q5.** El principio de fondo (que el rendimiento hay que sopesarlo frente al riesgo que se tomó, y no mirarlo solo) aplica a todas las clases de activos, incluidos los bienes raíces y las acciones.
+
+## Puntos clave
+- La razón de Sharpe mide el rendimiento que se gana por cada unidad de riesgo que se toma, en relación con una tasa libre de riesgo.
+- Dos inversiones con rendimientos brutos idénticos pueden tener razones de Sharpe muy distintas si su volatilidad es distinta.
+- Una razón de Sharpe más alta indica un uso más eficiente del riesgo, mejor ajustado, para generar rendimiento.
+- Juzgar las estrategias solo por el rendimiento bruto puede esconder una toma de riesgo que solo se ve cuando las condiciones se ponen malas.
+
+===== WHITE-L4-009
+TITLE: Análisis de la inversión periódica en cantidades fijas: por qué tratar de adivinar el momento del mercado es un juego perdido
+SUMMARY: Conozca cómo invertir una cantidad fija a intervalos regulares elimina la necesidad de predecir el mercado y por qué esa disciplina ayuda a evitar errores por las emociones.
+KEYWORDS: inversión periódica en cantidades fijas, dollar-cost averaging, momento del mercado, disciplina de inversión, inversión sistemática
+# Análisis de la inversión periódica en cantidades fijas: por qué tratar de adivinar el momento del mercado es un juego perdido
+
+## Escenario inicial
+SUPUESTO/OPINIÓN (escenario hipotético solo con fines educativos): Imagine una crisis de salud pública generalizada que paraliza el transporte marítimo y la manufactura en todo el mundo por un periodo largo, lo que enreda las cadenas de suministro de muchas industrias a la vez. Mientras los mercados suben y bajan sin control durante un periodo de trastornos generalizados, muchos inversionistas se paralizan, sin saber si comprar en la baja o esperar un fondo más claro. Esta lección explica por qué una forma disciplinada y mecánica de invertir tiende a rendir mejor que tratar de adivinar el próximo movimiento del mercado.
+
+## Objetivos de aprendizaje
+- Explicar lo que significa la inversión periódica en cantidades fijas.
+- Explicar por qué la inversión periódica en cantidades fijas elimina la necesidad de predecir la dirección del mercado a corto plazo.
+- Explicar por qué adivinar el momento del mercado con éxito de forma constante ha resultado muy difícil, incluso para los profesionales.
+- Identificar el beneficio emocional de una forma de invertir sistemática durante los periodos volátiles.
+
+## Contenido principal
+La inversión periódica en cantidades fijas (en inglés, "dollar-cost averaging") significa invertir una cantidad fija de dinero a intervalos regulares (como cada mes), sin importar si el mercado está arriba o abajo en ese momento, en vez de tratar de invertir una suma grande de una vez en lo que se considera el "mejor" momento. DATO VERIFICADO: matemáticamente, esta forma de invertir hace que se compren más acciones cuando los precios están bajos y menos acciones cuando los precios están altos, sin que el inversionista tenga que predecir de antemano cuál es cuál.
+
+Aquí está el "porqué" esto es mejor que tratar de adivinar el momento del mercado, igual que el análisis del momento del mercado en bienes raíces (lección 43 del curso RED): identificar en tiempo real los fondos y los picos del mercado es extremadamente difícil, y una cantidad grande de datos de desempeño a largo plazo muestra que la mayoría de los inversionistas, profesionales e individuales, que tratan de adivinar el momento del mercado rinden menos que si simplemente se hubieran quedado invertidos y hubieran seguido comprando de forma constante, en gran parte porque las reacciones emocionales (vender por pánico durante caídas como la del escenario de arriba, o comprar con euforia durante las subidas) tienden a jugar en contra del inversionista, no a su favor.
+
+Por eso, la inversión periódica en cantidades fijas ofrece una ventaja real de comportamiento, no solo matemática: elimina la decisión emocionalmente difícil de "¿invierto ahora o espero?" en cada compra, y la reemplaza con un calendario disciplinado y fijado por adelantado que sigue funcionando incluso en los periodos de miedo o de euforia, cuando más probable es que la emoción del momento nuble el juicio del inversionista.
+
+## Ejemplo práctico
+EJEMPLO ILUSTRATIVO: Un inversionista se compromete a invertir $1,000 todos los meses sin importar las condiciones del mercado. Durante una caída fuerte del mercado, esos mismos $1,000 compran bastantes más acciones que el mes anterior, y cuando el mercado finalmente se recupera, esas acciones adicionales que se compraron durante la caída aportan de forma desproporcionada a las ganancias totales del inversionista. Es un beneficio que solo tiene un inversionista que siguió comprando durante la caída en vez de detener sus aportaciones por miedo, esperando un "mejor" momento que es imposible identificar con seguridad por adelantado.
+
+## Prueba práctica
+**Q1. ¿Qué significa la inversión periódica en cantidades fijas?**
+A) Invertir una suma grande de una vez solo cuando el mercado parece estar en su punto más bajo
+B) Invertir una cantidad fija a intervalos regulares, sin importar las condiciones del mercado
+C) Invertir solo cuando un asesor financiero confirma que el mercado tocó fondo
+D) Vender todas las inversiones cada vez que el mercado baja más de 10%
+
+**Q2. ¿Por qué la inversión periódica en cantidades fijas hace, matemáticamente, que se compren más acciones cuando los precios están bajos?**
+A) Una cantidad fija en dólares compra más acciones cuando el precio por acción es más bajo, y menos acciones cuando el precio es más alto
+B) Esta forma de invertir siempre exige invertir un número fijo de acciones en vez de una cantidad fija en dólares
+C) Los precios no tienen importancia en cuántas acciones puede comprar una cantidad fija en dólares
+D) Esta forma de invertir garantiza que el inversionista siempre compre en el fondo exacto del mercado
+
+**Q3. ¿Por qué adivinar el momento del mercado de forma constante ha resultado difícil, incluso para los inversionistas profesionales?**
+A) Adivinar el momento del mercado es fácil para todo el mundo y siempre les sale bien a los profesionales
+B) Predecir con exactitud, en tiempo real, los picos y los fondos del mercado a corto plazo es extremadamente difícil, y las reacciones emocionales a menudo juegan en contra de los inversionistas que lo intentan
+C) La ley les prohíbe a los inversionistas profesionales tratar de adivinar el momento del mercado
+D) Ningún inversionista profesional ha tratado nunca de adivinar el momento del mercado
+
+**Q4. ¿Qué ventaja de comportamiento ofrece la inversión periódica en cantidades fijas, además de su efecto matemático?**
+A) Elimina la decisión emocionalmente difícil de cuándo invertir, lo que da disciplina en los periodos de miedo o de euforia
+B) Garantiza rendimientos más altos que cualquier otra estrategia de inversión, en todas las circunstancias
+C) Elimina la necesidad de revisar alguna vez el desempeño de las inversiones
+D) No tiene ningún beneficio de comportamiento aparte de su efecto matemático
+
+**Q5. En el ejemplo, ¿por qué las acciones que se compraron durante la caída del mercado aportaron de forma desproporcionada a las ganancias finales del inversionista?**
+A) Esas acciones se compraron a un precio más bajo, así que la misma recuperación produjo una ganancia porcentual mayor en esas acciones en particular
+B) Las acciones que se compran durante una caída siempre valen menos, incluso después de una recuperación
+C) El inversionista recibió un bono por invertir durante una caída
+D) La inversión periódica en cantidades fijas no tiene efecto sobre qué acciones rinden mejor
+
+## Clave de respuestas
+Q1: B
+Q2: A
+Q3: B
+Q4: A
+Q5: A
+
+## Respuestas y explicaciones
+**Q1.** Es una forma sistemática de invertir que consiste en inversiones constantes y programadas con regularidad, sin importar los movimientos del mercado a corto plazo.
+
+**Q2.** Como la cantidad en dólares es fija, el número de acciones que se compran cambia de forma natural al revés del precio por acción.
+
+**Q3.** Lo impredecible que son los movimientos del mercado a corto plazo, junto con los sesgos emocionales, hace que adivinar el momento con éxito de forma constante sea raro incluso entre los profesionales.
+
+**Q4.** Al reemplazar cada decisión de momento con un calendario fijado por adelantado, esta forma de invertir ayuda a los inversionistas a evitar errores impulsados por las emociones en los periodos volátiles.
+
+**Q5.** Las acciones compradas a precios más bajos durante la caída tenían más espacio para subir de valor durante la recuperación siguiente, lo que aumentó su aportación a los rendimientos totales.
+
+## Puntos clave
+- La inversión periódica en cantidades fijas invierte una cantidad fija a intervalos regulares, sin importar las condiciones del mercado.
+- Matemáticamente, esta forma de invertir hace que se compren más acciones a precios bajos y menos a precios altos, sin necesidad de predecir el mercado.
+- Adivinar el momento del mercado de forma constante ha resultado muy difícil, incluso para los inversionistas profesionales, por lo impredecible que es y por los sesgos emocionales.
+- Esta forma de invertir da una ventaja real de comportamiento al eliminar las decisiones de momento emocionalmente difíciles durante los periodos volátiles.
+
+===== WHITE-L4-010
+TITLE: Análisis de la rotación de sectores: por qué distintos sectores van al frente en distintas etapas del ciclo
+SUMMARY: Conozca por qué los sectores cíclicos y defensivos de la bolsa rinden de forma distinta según la etapa del ciclo económico, y por qué este patrón es una tendencia y no una regla.
+KEYWORDS: rotación de sectores, ciclo económico, desempeño de los sectores, acciones cíclicas y defensivas
+# Análisis de la rotación de sectores: por qué distintos sectores van al frente en distintas etapas del ciclo
+
+## Escenario inicial
+SUPUESTO/OPINIÓN (escenario hipotético solo con fines educativos): Imagine un banco central que sube su tasa de interés de referencia con fuerza y una y otra vez en pocos meses para combatir una inflación que va en aumento. Mientras un banco central sube las tasas de forma agresiva para combatir la inflación, ciertos sectores de la bolsa empiezan a rendir mucho peor, mientras que otros aguantan mucho mejor. Esta lección explica el patrón que se repite detrás de esa diferencia.
+
+## Objetivos de aprendizaje
+- Explicar el concepto de la rotación de sectores a lo largo del ciclo económico.
+- Distinguir entre sectores cíclicos y defensivos.
+- Explicar por qué ciertos sectores tienden a ir al frente durante la expansión económica y otros durante la contracción.
+- Aplicar el concepto de la rotación de sectores para interpretar las condiciones económicas actuales.
+
+## Contenido principal
+La rotación de sectores se refiere a la tendencia de distintos segmentos de la bolsa (como la tecnología, los servicios financieros, el consumo discrecional, los servicios públicos, la salud y el consumo básico) a rendir mejor o peor en distintas etapas del ciclo económico. DATO VERIFICADO: los sectores cíclicos (como el consumo discrecional y los servicios financieros) tienden a ser más sensibles al crecimiento económico y a las tasas de interés, mientras que los sectores defensivos (como los servicios públicos, la salud y el consumo básico) tienden a tener una demanda más estable sin importar las condiciones económicas, ya que la gente sigue necesitando electricidad, medicamentos y artículos básicos del hogar incluso durante una caída.
+
+Aquí está el "porqué" este patrón se repite de un ciclo a otro, lo que se conecta con el análisis del ciclo del mercado inmobiliario que vimos antes en este programa: durante la expansión económica, los inversionistas prefieren los sectores cíclicos, que están en posición de beneficiarse de un consumo fuerte y de la inversión de las empresas. Cuando un banco central sube las tasas de interés con fuerza para combatir la inflación (como en el escenario de arriba), los sectores sensibles a los costos de tomar prestado y al gasto discrecional de los consumidores, como ciertas compañías de tecnología y de consumo discrecional, a menudo rinden peor, mientras que los sectores defensivos, con una demanda estable y menos sensible a las tasas, tienden a aguantar relativamente mejor.
+
+Por eso, entender más o menos en qué punto del ciclo está la economía puede orientar, aunque nunca garantizar, cómo un inversionista se posiciona en los sectores. SUPUESTO/OPINIÓN: los patrones de rotación de sectores son tendencias que se han observado históricamente, no reglas fijas, y los acontecimientos inesperados (como un gran avance tecnológico en un sector o un cambio en la regulación) pueden imponerse al patrón cíclico típico en cualquier periodo.
+
+## Ejemplo práctico
+EJEMPLO ILUSTRATIVO: Durante un ciclo agresivo de alzas en las tasas de interés, un índice de un sector con mucha tecnología que había ido al frente del mercado durante la expansión anterior de tasas bajas cae bastante más que el mercado en general, ya que muchas de sus compañías dependen de expectativas de crecimiento futuro que valen menos con tasas de descuento más altas, y de tomar prestado barato para financiar su expansión. Mientras tanto, un índice del sector de servicios públicos, cuya demanda y flujos de efectivo están mucho menos atados al gasto discrecional o a las expectativas de crecimiento, cae mucho menos en el mismo periodo, lo que ilustra la diferencia clásica entre lo cíclico y lo defensivo.
+
+## Prueba práctica
+**Q1. ¿Qué es la rotación de sectores?**
+A) La práctica de una compañía de cambiar su clasificación de industria
+B) La tendencia de distintos sectores del mercado a rendir mejor o peor en distintas etapas del ciclo económico
+C) Un requisito de regulación para diversificar las inversiones de un fondo mutuo
+D) Una estrategia contributiva de reorganización de empresas
+
+**Q2. ¿Qué distingue a un sector cíclico de uno defensivo?**
+A) Los sectores cíclicos son más sensibles al crecimiento económico y a las tasas de interés, mientras que los defensivos tienen una demanda más estable sin importar las condiciones económicas
+B) No hay ninguna diferencia importante entre los sectores cíclicos y los defensivos
+C) Los sectores defensivos solo existen durante las recesiones
+D) Los sectores cíclicos siempre rinden mejor que los defensivos, en todos los periodos
+
+**Q3. ¿Por qué los sectores de tecnología y de consumo discrecional podrían rendir peor durante un ciclo agresivo de alzas en las tasas?**
+A) Estos sectores no se ven afectados para nada por los cambios en las tasas de interés
+B) A menudo dependen de expectativas de crecimiento futuro y de tomar prestado más barato, dos cosas que se vuelven menos favorables cuando suben las tasas
+C) Las alzas en las tasas siempre benefician más a los sectores enfocados en el crecimiento
+D) Estos sectores no tienen relación con los cambios en las tasas de interés
+
+**Q4. ¿Por qué los sectores defensivos, como los servicios públicos y el consumo básico, tienden a aguantar mejor durante las caídas económicas?**
+A) La demanda de sus bienes y servicios se mantiene relativamente estable, ya que la gente los necesita sin importar las condiciones económicas
+B) La ley protege a los sectores defensivos contra cualquier baja de precio
+C) Estos sectores no tienen exposición a la bolsa
+D) Los sectores defensivos siempre rinden mejor que los cíclicos, sin importar la etapa del ciclo económico
+
+**Q5. ¿Por qué se describe la rotación de sectores como una tendencia observada históricamente y no como una regla fija?**
+A) La rotación de sectores siempre ocurre de forma idéntica en cada ciclo económico, sin excepciones
+B) Los acontecimientos inesperados, como un gran avance tecnológico o un cambio en la regulación, pueden imponerse al patrón cíclico típico en cualquier periodo
+C) La rotación de sectores nunca se ha observado de verdad en los datos del mercado
+D) Solo un sector puede verse afectado por los cambios en el ciclo económico
+
+## Clave de respuestas
+Q1: B
+Q2: A
+Q3: B
+Q4: A
+Q5: B
+
+## Respuestas y explicaciones
+**Q1.** La rotación de sectores describe el patrón que se repite en que el liderazgo pasa de un sector del mercado a otro a medida que cambian las condiciones económicas.
+
+**Q2.** La diferencia de fondo está en lo sensibles que son la demanda y la rentabilidad de cada sector al ciclo económico en general.
+
+**Q3.** Las tasas más altas reducen el valor presente del crecimiento futuro y suben los costos de tomar prestado, dos efectos que afectan sobre todo a los sectores cíclicos enfocados en el crecimiento.
+
+**Q4.** Una demanda esencial y menos discrecional por los productos y servicios de los sectores defensivos da un desempeño más estable durante la tensión económica.
+
+**Q5.** Aunque el patrón se ha repetido históricamente, no está garantizado, y los eventos fuera de lo común pueden romper la relación típica entre los sectores y el ciclo económico.
+
+## Puntos clave
+- La rotación de sectores describe la tendencia de distintos sectores del mercado a ir al frente o quedarse atrás en distintas etapas del ciclo económico.
+- Los sectores cíclicos son más sensibles al crecimiento y a las tasas de interés; los defensivos tienen una demanda más estable y que depende menos del ciclo.
+- Los ciclos de alzas en las tasas tienden a presionar más a los sectores cíclicos enfocados en el crecimiento que a los defensivos.
+- La rotación de sectores es una tendencia observada históricamente, no una regla garantizada, y los eventos inesperados pueden imponerse al patrón típico.

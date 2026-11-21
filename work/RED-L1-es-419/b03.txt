@@ -1,0 +1,355 @@
+===== RED-L1-011
+TITLE: Estados con certificados de gravamen fiscal frente a estados con escrituras fiscales: ¿cuál es la diferencia real?
+SUMMARY: Aprende cómo los estados de EE. UU. con certificados de gravamen fiscal y los estados con escrituras fiscales manejan de forma distinta los impuestos prediales no pagados, y qué recibe realmente un inversionista en cada caso.
+# Estados con certificados de gravamen fiscal frente a estados con escrituras fiscales: ¿cuál es la diferencia real?
+
+## Objetivos de aprendizaje
+
+Al terminar esta lección, deberías poder:
+
+- Explicar qué pasa en un estado con certificados de gravamen fiscal cuando no se pagan los impuestos prediales.
+- Explicar qué pasa en un estado con escrituras fiscales cuando no se pagan los impuestos prediales.
+- Identificar la diferencia central entre lo que recibe un inversionista en cada caso.
+
+## Contenido principal
+
+### Estados con certificados de gravamen fiscal (tax lien)
+
+*(REGLA ESPECÍFICA POR REGIÓN: esto varía según el estado de EE. UU.; no todos los estados usan este sistema. En América Latina, el cobro de impuestos prediales atrasados sigue reglas propias de cada país y no suele funcionar con estos certificados.)* En un estado con certificados de gravamen fiscal, cuando un dueño no paga los impuestos prediales, el gobierno local le vende un certificado de gravamen a un inversionista, que paga los impuestos atrasados en nombre del dueño. El inversionista no recibe la propiedad: recibe el derecho a cobrar la deuda más los intereses que fija la ley. Si el dueño no paga dentro de un periodo de redención establecido, el inversionista puede pedirle al tribunal el título de la propiedad.
+
+### Estados con escrituras fiscales (tax deed)
+
+En un estado con escrituras fiscales, los impuestos prediales no pagados pueden llevar a que la propiedad misma se venda en una subasta. Por lo general, quien gana la subasta se convierte en el nuevo dueño, a veces de inmediato y a veces después de un periodo de redención corto, según el estado.
+
+### La diferencia central
+
+En un estado con certificados de gravamen, el inversionista primero compra una deuda, no la propiedad. En un estado con escrituras fiscales, el inversionista puja por la propiedad misma. Los periodos de redención y las reglas específicas varían mucho según el estado; esta lección explica el mecanismo general, no los plazos específicos de ningún estado.
+
+## Ejemplo práctico
+
+Un inversionista en un estado con certificados de gravamen fiscal paga $2,000 para cubrir los impuestos no pagados de un propietario. Ahora el inversionista tiene un gravamen que genera los intereses que fija la ley. Si el dueño no paga dentro del periodo de redención del estado, el inversionista puede buscar el título a través de los tribunales.
+
+## Prueba de práctica
+
+1. En un estado con certificados de gravamen fiscal, ¿qué recibe primero un inversionista al pagar los impuestos atrasados de otra persona?
+   A. La propiedad del inmueble de inmediato
+   B. Un certificado de gravamen que representa la deuda, más intereses
+   C. Un contrato de arrendamiento con el dueño
+   D. Una hipoteca sobre otra propiedad
+2. Verdadero o falso: En un estado con escrituras fiscales, normalmente la propiedad misma se subasta por los impuestos no pagados.
+3. ¿Qué es un periodo de redención?
+   A. Un plazo durante el cual el dueño que no pagó puede pagar y conservar la propiedad
+   B. La duración del plazo de una hipoteca
+   C. Un plazo obligatorio para la inspección de la vivienda
+   D. Un tipo de exención del impuesto predial
+
+## Clave de respuestas
+
+1. B
+2. Verdadero
+3. A
+
+## Respuestas y explicaciones
+
+### Pregunta 1
+
+Respuesta correcta: B. En un estado con certificados de gravamen, el inversionista compra la deuda (mediante un certificado de gravamen), no la propiedad en sí.
+
+### Pregunta 2
+
+Respuesta correcta: Verdadero. Los estados con escrituras fiscales normalmente subastan la propiedad directamente.
+
+### Pregunta 3
+
+Respuesta correcta: A. El periodo de redención le da al dueño original un plazo para pagar antes de perder la propiedad.
+
+## Puntos clave
+
+- Los estados con certificados de gravamen fiscal venden la deuda (un gravamen); los estados con escrituras fiscales venden la propiedad misma.
+- Los inversionistas en gravámenes ganan intereses y, si no se les paga, con el tiempo pueden buscar el título.
+- Los inversionistas en escrituras fiscales pueden convertirse en dueños de forma más directa, muchas veces más rápido.
+- Las reglas y los periodos de redención varían mucho según el estado.
+
+===== RED-L1-012
+TITLE: ¿Qué es un avalúo y por qué no es lo mismo que el precio?
+SUMMARY: Aprende qué mide realmente el avalúo de una propiedad, quién lo solicita y por qué el valor de avalúo y el precio de venta pueden ser distintos.
+# ¿Qué es un avalúo y por qué no es lo mismo que el precio?
+
+## Objetivos de aprendizaje
+
+Al terminar esta lección, deberías poder:
+
+- Definir un avalúo en palabras sencillas.
+- Explicar quién solicita normalmente un avalúo y por qué.
+- Explicar por qué el valor de avalúo y el precio de venta pueden ser cifras distintas.
+
+## Contenido principal
+
+### Qué es un avalúo
+
+Un avalúo es una estimación profesional e independiente del valor de una propiedad, hecha por un valuador (perito tasador) con licencia o certificación. Se basa en factores como las ventas comparables, el estado de la propiedad y su ubicación.
+
+### Quién lo solicita y por qué
+
+Normalmente los prestamistas exigen un avalúo antes de aprobar una hipoteca, para confirmar que la propiedad vale aproximadamente lo que se está pidiendo prestado con ella como garantía. Así protegen su garantía, no solo ayudan al comprador.
+
+### Por qué las cifras pueden ser distintas
+
+El valor de avalúo y el precio de venta acordado son dos cifras distintas que se determinan de dos formas distintas: el precio de venta es lo que acordaron el comprador y el vendedor, mientras que el avalúo es una estimación profesional independiente. Si una vivienda se valúa por debajo del precio de venta acordado, puede crear un problema real para el financiamiento, porque por lo general el prestamista no presta más de lo que respalda el valor de avalúo.
+
+## Ejemplo práctico
+
+Un comprador acepta pagar $320,000 por una vivienda, pero el avalúo sale en $305,000. Normalmente el prestamista solo financiará con base en el valor de avalúo más bajo, lo que significa que el comprador podría necesitar un pago inicial más grande o que habría que renegociar el precio de venta.
+
+## Prueba de práctica
+
+1. Un avalúo es:
+   A. El precio que acuerdan un comprador y un vendedor
+   B. Una estimación profesional e independiente del valor de una propiedad
+   C. Un tipo de seguro para propietarios
+   D. Una valuación del gobierno para fines fiscales
+2. Verdadero o falso: Normalmente los prestamistas exigen un avalúo para proteger su propia garantía, no solo para ayudar al comprador.
+3. ¿Qué puede pasar si una vivienda se valúa por debajo del precio de venta acordado?
+   A. Nada; la venta sigue exactamente como se acordó
+   B. El prestamista podría financiar solo hasta el valor de avalúo, lo que deja una brecha de financiamiento
+   C. El avalúo se anula automáticamente
+   D. Baja el impuesto predial
+
+## Clave de respuestas
+
+1. B
+2. Verdadero
+3. B
+
+## Respuestas y explicaciones
+
+### Pregunta 1
+
+Respuesta correcta: B. Un avalúo es una estimación de valor profesional e independiente, separada del precio negociado.
+
+### Pregunta 2
+
+Respuesta correcta: Verdadero. El avalúo protege la posición de garantía del prestamista en el préstamo.
+
+### Pregunta 3
+
+Respuesta correcta: B. Un avalúo bajo puede crear una brecha de financiamiento que el comprador, el vendedor o ambos tienen que resolver.
+
+## Puntos clave
+
+- Un avalúo es una estimación independiente del valor, no el precio de venta.
+- Los prestamistas lo exigen para proteger su propia garantía.
+- Un avalúo bajo en comparación con el precio de venta puede crear problemas reales de financiamiento.
+
+===== RED-L1-013
+TITLE: ¿Qué es un comparable? (Las ventas comparables, explicadas)
+SUMMARY: Aprende cómo se usan las ventas comparables para estimar el valor de una propiedad, y qué hace que un comparable sea realmente útil o, por el contrario, engañoso.
+# ¿Qué es un comparable? (Las ventas comparables, explicadas)
+
+## Objetivos de aprendizaje
+
+Al terminar esta lección, deberías poder:
+
+- Definir un comparable en palabras sencillas.
+- Nombrar los factores que hacen que un comparable sea realmente útil.
+- Explicar por qué un comparable mal elegido puede ser engañoso.
+
+## Contenido principal
+
+### Qué es un comparable
+
+Un comparable (abreviatura de "venta comparable"; en inglés, "comp") es una propiedad vendida recientemente que se usa como punto de referencia para estimar el valor de otra propiedad. Los comparables son fundamentales tanto en los avalúos como en las decisiones de precio que toman todos los días compradores y vendedores.
+
+### Qué hace útil a un comparable
+
+Un comparable realmente útil normalmente está cerca en ubicación (muchas veces a uno o dos kilómetros o millas), es parecido en tamaño y características (recámaras o dormitorios, baños, metros o pies cuadrados) y se vendió hace poco (muchas veces en los últimos seis a doce meses), porque los mercados y el estado de las propiedades cambian con el tiempo.
+
+### Por qué engaña un mal comparable
+
+Usar un comparable que está demasiado lejos, que es demasiado distinto en tamaño o estado, o que se vendió hace demasiado tiempo puede dar una estimación de valor muy distorsionada. Una casa remodelada de cinco recámaras no es un comparable confiable para una casa de dos recámaras que necesita reparaciones, aunque estén en la misma calle.
+
+## Ejemplo práctico
+
+Para valuar una casa de 3 recámaras y 2 baños, un valuador busca casas de 3 recámaras y 2 baños vendidas recientemente en un radio de uno o dos kilómetros o millas, y hace ajustes por diferencias como un sótano terminado o una cochera adicional, en lugar de compararla con una propiedad muy distinta solo porque está cerca.
+
+## Prueba de práctica
+
+1. Un comparable es:
+   A. Un tipo de hipoteca
+   B. Una propiedad vendida recientemente que se usa como referencia para estimar el valor
+   C. Un registro del gobierno sobre el impuesto predial
+   D. Un documento legal que transfiere la propiedad
+2. Verdadero o falso: Cualquier propiedad vendida cerca es un buen comparable, sin importar su tamaño o estado.
+3. ¿Por qué importa qué tan reciente es un comparable?
+   A. No importa en absoluto
+   B. Los mercados y las condiciones cambian con el tiempo, así que las ventas más antiguas pueden no reflejar el valor actual
+   C. Los comparables más antiguos siempre son más precisos
+   D. Que sea reciente solo importa en las propiedades comerciales
+
+## Clave de respuestas
+
+1. B
+2. Falso
+3. B
+
+## Respuestas y explicaciones
+
+### Pregunta 1
+
+Respuesta correcta: B. Un comparable es una propiedad parecida, vendida recientemente, que se usa como referencia de valor.
+
+### Pregunta 2
+
+Respuesta correcta: Falso. Un comparable útil tiene que ser parecido en tamaño, estado y ubicación, no solo estar cerca.
+
+### Pregunta 3
+
+Respuesta correcta: B. Los mercados cambian con el tiempo, así que una venta de hace varios años puede no reflejar el valor actual.
+
+## Puntos clave
+
+- Un comparable es una propiedad parecida, vendida recientemente, que se usa para estimar el valor.
+- Los comparables útiles están cerca, son parecidos en tamaño y estado, y son recientes.
+- Un comparable mal elegido puede dar una estimación de valor engañosa.
+
+===== RED-L1-014
+TITLE: ¿Qué revisa realmente una inspección de vivienda?
+SUMMARY: Aprende qué cubre una inspección de vivienda, por qué es distinta de un avalúo y qué significa para los siguientes pasos del comprador.
+# ¿Qué revisa realmente una inspección de vivienda?
+
+## Objetivos de aprendizaje
+
+Al terminar esta lección, deberías poder:
+
+- Definir una inspección de vivienda en palabras sencillas.
+- Explicar en qué se diferencia de un avalúo.
+- Explicar qué puede hacer un comprador con los resultados de la inspección.
+
+## Contenido principal
+
+### Qué es una inspección de vivienda
+
+Una inspección de vivienda es una evaluación profesional del estado físico de una propiedad: se revisan sistemas como el techo, los cimientos, la plomería, la instalación eléctrica y la climatización (calefacción, ventilación y aire acondicionado) para detectar problemas actuales o posibles.
+
+### En qué se diferencia de un avalúo
+
+Un avalúo estima el valor; una inspección evalúa el estado. Una vivienda puede valuarse en un monto alto y aun así tener problemas físicos importantes que el avalúo no necesariamente detectaría con el mismo detalle: responden preguntas distintas.
+
+### Qué puede hacer un comprador con los resultados
+
+Según el contrato de compraventa, un comprador que recibe un informe de inspección preocupante podría negociar reparaciones, pedir una reducción del precio o, en algunos casos, retirarse del trato; las opciones específicas dependen de las condiciones del contrato acordadas de antemano.
+
+## Ejemplo práctico
+
+Una inspección revela un techo viejo que probablemente habrá que reemplazar dentro de pocos años. El comprador puede usar esta información para negociar una reducción del precio o pedirle al vendedor que lo arregle antes del cierre, según lo que permita el contrato de compraventa.
+
+## Prueba de práctica
+
+1. Una inspección de vivienda evalúa principalmente:
+   A. El valor de mercado de la propiedad
+   B. El estado físico de la propiedad
+   C. La solvencia crediticia del comprador
+   D. La tasa local del impuesto predial
+2. Verdadero o falso: Un avalúo y una inspección de vivienda responden la misma pregunta.
+3. Según el contrato, ¿qué podría hacer un comprador después de recibir un informe de inspección preocupante?
+   A. Nada en absoluto
+   B. Negociar reparaciones, una reducción del precio o posiblemente retirarse
+   C. Cancelar automáticamente la hipoteca
+   D. Obligar al vendedor a bajar el impuesto predial
+
+## Clave de respuestas
+
+1. B
+2. Falso
+3. B
+
+## Respuestas y explicaciones
+
+### Pregunta 1
+
+Respuesta correcta: B. Una inspección de vivienda evalúa el estado físico, no el valor de mercado.
+
+### Pregunta 2
+
+Respuesta correcta: Falso. Un avalúo estima el valor; una inspección evalúa el estado: tienen propósitos distintos.
+
+### Pregunta 3
+
+Respuesta correcta: B. Según las condiciones del contrato, un comprador puede tener varias opciones después de una inspección preocupante.
+
+## Puntos clave
+
+- Una inspección de vivienda evalúa el estado físico, no el valor.
+- Tiene un propósito distinto al de un avalúo.
+- Los resultados de la inspección pueden darle al comprador un poder de negociación real, según el contrato.
+
+===== RED-L1-015
+TITLE: ¿Qué es el título de propiedad y por qué importa que esté "limpio"?
+SUMMARY: Aprende qué significa realmente el título de propiedad, por qué tiene que estar limpio para cerrar una venta y qué puede ponerlo en duda.
+# ¿Qué es el título de propiedad y por qué importa que esté "limpio"?
+
+## Objetivos de aprendizaje
+
+Al terminar esta lección, deberías poder:
+
+- Definir el título de propiedad en palabras sencillas.
+- Explicar qué significa un "título limpio".
+- Nombrar un problema común que puede afectar un título.
+
+## Contenido principal
+
+### Qué es realmente el título
+
+El título es el concepto legal de la propiedad: el derecho reconocido sobre un inmueble. Es distinto de la escritura, que es el documento físico que transfiere el título de una parte a otra.
+
+### Qué significa un "título limpio"
+
+Un título limpio significa que no hay reclamos en competencia, gravámenes sin resolver ni disputas sobre la propiedad ligadas al inmueble. Los compradores y los prestamistas por lo general exigen un título limpio antes de que se pueda cerrar una venta, porque un título dudoso crea un riesgo legal real para quien se quede con la propiedad.
+
+### Qué puede afectar un título
+
+Un título puede quedar "afectado" (o "nublado") por cosas como un gravamen sin resolver, una disputa de linderos, un error en los registros públicos o un heredero que no apareció y que tiene un derecho legal sobre la herencia de un dueño anterior. Normalmente estos problemas tienen que resolverse antes de que una venta pueda avanzar sin complicaciones.
+
+## Ejemplo práctico
+
+Una búsqueda de título sobre una propiedad revela un gravamen antiguo de un contratista al que un dueño anterior nunca le pagó y que nunca se resolvió. Esto afecta el título y tiene que eliminarse antes de que pueda cerrarse la venta actual.
+
+## Prueba de práctica
+
+1. El título se refiere a:
+   A. El documento físico que transfiere la propiedad
+   B. El concepto legal de la propiedad en sí
+   C. Un tipo de seguro de propiedad
+   D. Un registro fiscal del gobierno
+2. Verdadero o falso: Un título limpio significa que no hay reclamos en competencia ni problemas sin resolver sobre la propiedad.
+3. ¿Qué es algo que puede afectar un título?
+   A. Una pintura reciente
+   B. Un gravamen sin resolver de un dueño anterior
+   C. Un techo nuevo
+   D. Un cambio en la tasa del impuesto predial
+
+## Clave de respuestas
+
+1. B
+2. Verdadero
+3. B
+
+## Respuestas y explicaciones
+
+### Pregunta 1
+
+Respuesta correcta: B. El título es el concepto legal de la propiedad; la escritura es el documento que lo transfiere.
+
+### Pregunta 2
+
+Respuesta correcta: Verdadero. Un título limpio significa que no hay reclamos en competencia ni problemas sin resolver.
+
+### Pregunta 3
+
+Respuesta correcta: B. Un gravamen sin resolver es un ejemplo común de algo que afecta un título.
+
+## Puntos clave
+
+- El título es el derecho legal de propiedad, distinto del documento de la escritura.
+- Un título limpio significa que no hay reclamos en competencia ni problemas sin resolver.
+- Los gravámenes, las disputas o los errores en los registros pueden afectar un título y normalmente tienen que resolverse antes de cerrar una venta.

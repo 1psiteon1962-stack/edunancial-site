@@ -1,0 +1,340 @@
+===== GREEN-L3-015
+TITLE: Pourquoi les acomptes provisionnels trimestriels existent pour le revenu sans retenue
+SUMMARY: Découvre pourquoi les personnes qui ont un revenu non assujetti à une retenue automatique doivent souvent verser des acomptes d'impôt pendant l'année plutôt qu'au moment de produire leur déclaration.
+# GREEN-L3-015 : Pourquoi les acomptes provisionnels trimestriels existent pour le revenu sans retenue
+
+## Objectifs d'apprentissage
+À la fin de cette leçon, tu pourras :
+- Expliquer pourquoi les acomptes provisionnels trimestriels sont généralement exigés pour certains types de revenu
+- Expliquer le principe de « paiement au fur et à mesure » qui sous-tend cette exigence
+- Relier cette notion à la discussion sur la retenue d'impôt de la leçon 5
+
+## Contenu principal
+
+La leçon 5 a établi que la retenue d'impôt fonctionne comme une estimation continue de l'impôt à payer, versée tout au long de l'année plutôt qu'en une seule somme au moment de produire la déclaration. Le revenu qui n'est pas automatiquement assujetti à une retenue — le revenu de travail autonome, certains revenus de placement et d'autres sources — ne dispose pas de ce mécanisme automatique. Les **acomptes provisionnels trimestriels** (en anglais, *quarterly estimated tax payments*) existent pour appliquer le même principe de fond à ce type de revenu.
+
+Voici « pourquoi » cette exigence existe : dans bien des territoires, le régime fiscal dans son ensemble est généralement conçu autour d'un principe de **paiement au fur et à mesure** — l'impôt est censé être payé tout au long de l'année, à mesure que le revenu est gagné, et non mis de côté et payé entièrement au moment de produire la déclaration. [VERIFIED FACT] Pour le revenu assujetti à une retenue, ça se fait automatiquement par les retenues sur la paie; pour le revenu sans retenue automatique, les acomptes provisionnels trimestriels sont le mécanisme utilisé pour obtenir le même effet de paiement au fur et à mesure, généralement à verser à des moments précis pendant l'année plutôt que d'un seul coup.
+
+Ne pas verser des acomptes suffisants pendant l'année, lorsqu'ils sont exigés, peut entraîner les pénalités pour paiement insuffisant abordées dans la prochaine leçon — ce régime existe précisément pour éviter que des contribuables passent une année entière sans rien payer de l'impôt dû sur ce type de revenu.
+
+## Exemple pratique
+
+[ILLUSTRATIVE EXAMPLE] Une consultante autonome gagne un revenu tout au long de l'année sans qu'aucun employeur ne retienne automatiquement d'impôt en son nom. Pour respecter le principe de paiement au fur et à mesure, elle calcule et verse des acomptes provisionnels à des moments précis pendant l'année, selon son revenu et son impôt annuels prévus, plutôt que d'attendre de payer tout son impôt en une seule somme au moment de produire sa déclaration l'année suivante. [ASSUMPTION] Ça reproduit, pour son revenu sans retenue, le même rythme de paiement continu que la retenue sur la paie d'un employé assure automatiquement pour le revenu d'emploi, ce qui la maintient généralement en conformité avec l'exigence de fond du régime de paiement au fur et à mesure.
+
+## Quiz de pratique
+
+1. Pourquoi les acomptes provisionnels trimestriels existent-ils pour certains types de revenu?
+2. Qu'est-ce que le principe de « paiement au fur et à mesure » décrit dans cette leçon?
+3. Comment cette leçon se relie-t-elle à la notion de retenue d'impôt présentée à la leçon 5?
+
+## Corrigé
+
+1. Parce que le revenu qui n'est pas automatiquement assujetti à une retenue doit quand même respecter le régime fiscal de paiement au fur et à mesure, et que les acomptes trimestriels sont le mécanisme utilisé pour y arriver pour ce type de revenu.
+2. Le principe général selon lequel l'impôt est censé être payé tout au long de l'année, à mesure que le revenu est gagné, et non mis de côté et payé entièrement au moment de produire la déclaration.
+3. Les acomptes provisionnels trimestriels appliquent le même principe de fond de paiement au fur et à mesure que la retenue assure automatiquement pour le revenu d'emploi, ici au revenu sans retenue automatique.
+
+## Réponses et explications
+
+1. C'est le « pourquoi » de base qui explique l'existence de l'exigence.
+2. Ça nomme et explique le principe de fond qui s'applique à l'ensemble du régime.
+3. Ça relie explicitement la leçon à la leçon 5, ce qui renforce la structure intégrée du parcours.
+
+## Points clés à retenir
+- Les acomptes provisionnels trimestriels existent pour le revenu qui n'est pas automatiquement assujetti à une retenue, comme le revenu de travail autonome.
+- Ils maintiennent le principe plus large de paiement au fur et à mesure qui sous-tend de nombreux régimes fiscaux, en exigeant que l'impôt soit payé pendant l'année à mesure que le revenu est gagné.
+- Ils reproduisent, pour le revenu sans retenue, la même fonction de paiement continu que la retenue sur la paie assure automatiquement pour le revenu d'emploi.
+
+## Avis pédagogique
+Cette leçon sert uniquement à l'éducation financière générale et ne constitue pas un conseil financier, de placement, fiscal ou juridique personnalisé. Les règles et les échéances des acomptes provisionnels varient selon le territoire et changent avec le temps; consulte un fiscaliste autorisé pour obtenir des conseils adaptés à ta situation.
+
+===== GREEN-L3-016
+TITLE: Pourquoi les pénalités pour paiement insuffisant sanctionnent un mauvais étalement des paiements
+SUMMARY: Découvre pourquoi les autorités fiscales peuvent pénaliser des paiements d'impôt inégaux pendant l'année, même si le montant total dû est finalement payé à temps.
+# GREEN-L3-016 : Pourquoi les pénalités pour paiement insuffisant sanctionnent un mauvais étalement des paiements
+
+## Objectifs d'apprentissage
+À la fin de cette leçon, tu pourras :
+- Expliquer pourquoi une pénalité pour paiement insuffisant peut s'appliquer même si la facture d'impôt totale est finalement payée en entier
+- Expliquer la notion générale d'une règle « refuge » (*safe harbor*)
+- Relier cette notion au principe de paiement au fur et à mesure de la leçon 15
+
+## Contenu principal
+
+La leçon 15 a établi le principe de paiement au fur et à mesure qui sous-tend les acomptes provisionnels trimestriels. Voici « pourquoi » une pénalité peut s'appliquer même à un contribuable qui finit par payer toute sa facture d'impôt : comme le régime est précisément conçu autour du paiement de l'impôt pendant l'année, à mesure que le revenu est gagné, payer trop peu pendant l'année — même si l'écart est entièrement payé au moment de produire la déclaration — peut entraîner une **pénalité pour paiement insuffisant**, puisque, dans ce régime, c'est le moment des paiements lui-même qui compte, et pas seulement le montant total final. (Au Canada, ce sont surtout des intérêts sur les acomptes insuffisants ou en retard, et parfois une pénalité, qui jouent ce rôle.)
+
+[VERIFIED FACT] De nombreux régimes fiscaux prévoient une règle **refuge**, qui permet généralement à un contribuable d'éviter cette pénalité si le total de ses retenues et de ses acomptes pendant l'année atteint certains seuils — souvent fondés sur un pourcentage de l'impôt de l'année en cours ou sur un pourcentage de l'impôt de l'année précédente, selon le calcul qui s'applique en vertu des règles précises en vigueur. Comprendre ces seuils refuges et planifier en conséquence est une stratégie de planification fiscale courante et légitime, précisément pour éviter les pénalités pour paiement insuffisant, surtout chez les contribuables dont le revenu est variable ou imprévisible.
+
+## Exemple pratique
+
+[ILLUSTRATIVE EXAMPLE] Une contribuable autonome connaît un dernier trimestre très fort, ce qui donne une facture d'impôt importante qu'elle paie en entier au moment de produire sa déclaration, à temps et pour le bon montant. [ASSUMPTION] Toutefois, si ses acomptes provisionnels des premiers trimestres de l'année étaient trop bas par rapport à son revenu de l'époque — et qu'elle n'a pas atteint un seuil refuge applicable —, elle pourrait quand même faire face à une pénalité pour paiement insuffisant pour ces premiers trimestres, même si elle a fini par payer correctement et à temps tout l'impôt qu'elle devait, ce qui montre que le régime sanctionne le moment des paiements, et pas seulement le montant total final dû.
+
+## Quiz de pratique
+
+1. Pourquoi une pénalité pour paiement insuffisant peut-elle s'appliquer même à un contribuable qui finit par payer toute sa facture d'impôt à temps?
+2. À quoi sert généralement une règle « refuge »?
+3. Comment cette leçon se relie-t-elle au principe de paiement au fur et à mesure de la leçon 15?
+
+## Corrigé
+
+1. Parce que le régime est conçu autour du paiement de l'impôt pendant l'année, à mesure que le revenu est gagné, de sorte que payer trop peu pendant l'année, même si c'est corrigé au moment de produire la déclaration, peut entraîner une pénalité fondée sur ce manque antérieur.
+2. À permettre à un contribuable d'éviter la pénalité pour paiement insuffisant si ses retenues et ses acomptes pendant l'année atteignent certains seuils, souvent fondés sur l'impôt de l'année en cours ou de l'année précédente.
+3. Cette leçon explique le mécanisme d'application (la pénalité) qui existe précisément pour renforcer le principe de paiement au fur et à mesure décrit à la leçon 15.
+
+## Réponses et explications
+
+1. C'est l'idée centrale, un peu contre-intuitive, autour de laquelle la leçon est construite.
+2. Ça présente le mécanisme de protection précis qui permet d'éviter la pénalité.
+3. Ça relie explicitement la leçon à la leçon 15, ce qui renforce la structure intégrée du parcours.
+
+## Points clés à retenir
+- Les pénalités pour paiement insuffisant peuvent s'appliquer selon le moment des paiements d'impôt pendant l'année, et pas seulement selon le montant total final dû.
+- Les règles refuges permettent généralement d'éviter cette pénalité si les retenues et les acomptes atteignent certains seuils liés à l'impôt de l'année en cours ou de l'année précédente.
+- Cette structure de pénalité existe précisément pour renforcer le principe de paiement au fur et à mesure qui sous-tend l'ensemble du régime fiscal.
+
+## Avis pédagogique
+Cette leçon sert uniquement à l'éducation financière générale et ne constitue pas un conseil financier, de placement, fiscal ou juridique personnalisé. Les règles sur les pénalités pour paiement insuffisant et les seuils refuges varient selon le territoire et changent avec le temps; consulte un fiscaliste autorisé pour obtenir des conseils adaptés à ta situation.
+
+===== GREEN-L3-017
+TITLE: Pourquoi la structure d'une entreprise change la façon dont son revenu est imposé
+SUMMARY: Découvre pourquoi un même profit d'entreprise peut être imposé très différemment selon que l'entreprise est une entreprise individuelle, une société de personnes ou une société par actions.
+# GREEN-L3-017 : Pourquoi la structure d'une entreprise change la façon dont son revenu est imposé
+
+## Objectifs d'apprentissage
+À la fin de cette leçon, tu pourras :
+- Expliquer pourquoi le choix de la structure d'une entreprise influe directement sur l'imposition de ses profits
+- Décrire les différences générales de traitement fiscal entre les structures d'entreprise courantes
+- Avoir un aperçu des notions d'entités transparentes et de double imposition abordées dans les deux prochaines leçons
+
+## Contenu principal
+
+La structure juridique d'une entreprise — entreprise individuelle, société de personnes, société par actions ou autres formes offertes, qui varient selon le territoire — n'est pas seulement une question juridique ou de responsabilité; elle détermine aussi directement la façon dont les profits de l'entreprise sont imposés.
+
+Voici « pourquoi » ça compte autant, sinon plus, que d'autres considérations liées à la création d'une entreprise : les différentes structures sont imposées selon des règles vraiment différentes. [VERIFIED FACT] Certaines structures (souvent appelées entités transparentes ou intermédiaires, abordées dans la prochaine leçon) font « passer » les profits de l'entreprise directement dans les déclarations de revenus personnelles des propriétaires, où ils sont imposés une seule fois, au niveau individuel. D'autres structures (comme une société par actions traditionnelle, abordée dans la leçon suivante) peuvent être imposées comme une entité distincte à part entière, ce qui peut créer une situation où un même profit est imposé au niveau de la société, puis de nouveau au moment de sa distribution aux propriétaires.
+
+C'est pourquoi choisir une structure d'entreprise est, en plus d'autres considérations importantes comme la protection en responsabilité, aussi fondamentalement une décision de planification fiscale — une même entreprise, qui génère le même profit, peut faire face à un fardeau fiscal total nettement différent uniquement selon la structure sous laquelle elle est organisée.
+
+## Exemple pratique
+
+[ILLUSTRATIVE EXAMPLE] Deux entreprises génèrent un profit annuel identique, mais sont organisées sous des structures juridiques différentes. L'une, structurée comme une entité transparente, voit ce profit imposé une seule fois, directement dans la déclaration de revenus personnelle du propriétaire, aux taux d'imposition individuels de celui-ci. L'autre, structurée comme une société par actions traditionnelle, voit ce même profit potentiellement imposé une fois au niveau de la société, puis de nouveau si et quand il est distribué au propriétaire sous forme de dividende. [ASSUMPTION] Malgré un rendement d'entreprise sous-jacent identique, ces deux entreprises pourraient connaître des résultats fiscaux totaux nettement différents uniquement à cause de la structure juridique choisie — une différence qu'il vaut la peine de comprendre avant, et non après, de choisir comment organiser une nouvelle entreprise.
+
+## Quiz de pratique
+
+1. Pourquoi le choix de la structure d'une entreprise influe-t-il directement sur l'imposition de ses profits?
+2. Quelle est la différence générale de traitement fiscal entre une entité transparente et une société par actions traditionnelle, telle que présentée dans cette leçon?
+3. Pourquoi considère-t-on le choix d'une structure d'entreprise comme une décision de planification fiscale, et pas seulement comme une question de responsabilité?
+
+## Corrigé
+
+1. Parce que les différentes structures juridiques sont imposées selon des règles vraiment différentes — certaines font passer les profits dans les déclarations personnelles des propriétaires, d'autres peuvent être imposées comme une entité distincte.
+2. Une entité transparente voit ses profits imposés une seule fois, dans les déclarations personnelles des propriétaires; une société par actions traditionnelle peut être imposée au niveau de la société, et potentiellement de nouveau lorsque les profits sont distribués aux propriétaires.
+3. Parce qu'une même entreprise, avec le même profit, peut faire face à un fardeau fiscal total nettement différent uniquement selon la structure choisie, ce qui en fait une vraie considération de planification fiscale en plus de la protection en responsabilité.
+
+## Réponses et explications
+
+1. C'est le « pourquoi » central qui explique la prémisse de base de la leçon.
+2. Ça donne un aperçu des notions précises abordées dans les deux prochaines leçons.
+3. Ça renforce la double nature pratique de la décision sur la structure d'entreprise.
+
+## Points clés à retenir
+- La structure d'une entreprise détermine directement la façon dont ses profits sont imposés, et pas seulement sa protection en responsabilité.
+- Les entités transparentes voient leurs profits imposés une seule fois, dans les déclarations personnelles des propriétaires; les sociétés par actions traditionnelles peuvent être imposées séparément, ce qui peut créer une double imposition.
+- Le choix de la structure d'entreprise devrait être traité comme une vraie décision de planification fiscale, qu'il vaut la peine de comprendre avant la création de l'entreprise.
+
+## Avis pédagogique
+Cette leçon sert uniquement à l'éducation financière générale et ne constitue pas un conseil financier, de placement, fiscal ou juridique personnalisé. Les règles fiscales applicables aux entités commerciales varient selon le territoire et changent avec le temps; consulte des professionnels autorisés en droit et en fiscalité avant de choisir une structure d'entreprise.
+
+===== GREEN-L3-018
+TITLE: Pourquoi les entités transparentes évitent la double imposition
+SUMMARY: Découvre comment les structures d'entreprise transparentes évitent d'imposer deux fois les profits, et pourquoi elles sont un choix courant pour de nombreuses petites entreprises.
+# GREEN-L3-018 : Pourquoi les entités transparentes évitent la double imposition
+
+## Objectifs d'apprentissage
+À la fin de cette leçon, tu pourras :
+- Expliquer comment les profits d'une entité transparente sont imposés
+- Expliquer pourquoi cette structure évite la possibilité de double imposition présentée à la leçon 17
+- Nommer des exemples courants de types d'entités transparentes
+
+## Contenu principal
+
+Une **entité transparente** (ou intermédiaire; en anglais, *pass-through entity*) — les exemples courants comprennent les entreprises individuelles, les sociétés de personnes et, dans de nombreux territoires, les LLC qui choisissent ce traitement — ne paie pas d'impôt sur le revenu comme entité distincte. Les profits de l'entreprise « passent » plutôt directement aux propriétaires, qui les déclarent et paient l'impôt sur ces profits dans leur propre déclaration de revenus personnelle.
+
+Voici « pourquoi » ça évite la situation de double imposition présentée à la leçon 17 : comme l'entreprise elle-même n'est pas imposée comme une entité distincte, il n'y a pas de première couche d'impôt au niveau de l'entreprise avant même que le profit atteigne le propriétaire — le profit est imposé exactement une fois, au taux personnel du propriétaire, peu importe que ce profit soit réellement distribué au propriétaire en argent ou simplement conservé dans l'entreprise.
+
+[VERIFIED FACT] Cette imposition à une seule couche est une raison importante pour laquelle les structures transparentes sont courantes pour de nombreuses petites et moyennes entreprises, même si les règles fiscales précises, dont la façon dont l'impôt sur le travail autonome (leçon 14) s'applique et l'admissibilité d'une entreprise précise à certaines déductions comme la déduction pour revenu d'entreprise admissible (abordée dans une leçon plus loin), varient selon le type précis d'entité transparente et le territoire.
+
+## Exemple pratique
+
+[ILLUSTRATIVE EXAMPLE] Une petite entreprise organisée en LLC qui a choisi le traitement fiscal transparent génère 100 000 $ de profit annuel. Ces 100 000 $ sont déclarés dans la déclaration de revenus personnelle du propriétaire et imposés une seule fois, aux taux d'imposition individuels du propriétaire, peu importe que celui-ci ait réellement retiré ce profit en argent ou qu'il l'ait réinvesti dans l'entreprise. [ASSUMPTION] Aucun impôt distinct au niveau de la société ne s'applique à ces 100 000 $ avant qu'ils atteignent la déclaration personnelle du propriétaire — ce qui illustre l'imposition à une seule couche qui distingue le traitement transparent de la possibilité de double imposition abordée pour les sociétés par actions traditionnelles dans la prochaine leçon.
+
+## Quiz de pratique
+
+1. Comment les profits d'une entité transparente sont-ils généralement imposés?
+2. Pourquoi cette structure évite-t-elle la situation de double imposition présentée à la leçon 17?
+3. Nomme deux exemples courants de types d'entités transparentes.
+
+## Corrigé
+
+1. Les profits passent directement aux propriétaires, qui les déclarent et paient l'impôt sur ces profits dans leur propre déclaration de revenus personnelle, plutôt que l'entreprise soit imposée séparément comme sa propre entité.
+2. Parce qu'il n'y a pas d'impôt distinct au niveau de l'entité commerciale — le profit est imposé exactement une fois, au taux personnel du propriétaire, qu'il soit distribué ou conservé.
+3. Deux parmi les suivants : les entreprises individuelles, les sociétés de personnes, les LLC qui choisissent le traitement transparent.
+
+## Réponses et explications
+
+1. C'est la définition de base de la leçon.
+2. Ça explique directement le mécanisme d'imposition à une seule couche, par opposition à la situation de double imposition de la leçon 17.
+3. Ça ancre la notion abstraite dans des exemples concrets et courants.
+
+## Points clés à retenir
+- Les profits d'une entité transparente sont imposés une seule fois, directement dans les déclarations personnelles des propriétaires, et non au niveau de l'entité commerciale.
+- Ça évite la possibilité de double imposition qui peut s'appliquer aux sociétés par actions traditionnelles.
+- Les structures transparentes courantes comprennent les entreprises individuelles, les sociétés de personnes et les LLC qui choisissent ce traitement.
+
+## Avis pédagogique
+Cette leçon sert uniquement à l'éducation financière générale et ne constitue pas un conseil financier, de placement, fiscal ou juridique personnalisé. Les règles fiscales applicables aux entités commerciales varient selon le territoire et changent avec le temps; consulte un fiscaliste autorisé pour obtenir des conseils adaptés à ta situation.
+
+===== GREEN-L3-019
+TITLE: Pourquoi les sociétés de type C font face à une double imposition (et pourquoi ça peut quand même avoir du sens)
+SUMMARY: Découvre pourquoi les profits d'une société par actions traditionnelle peuvent être imposés deux fois, et pourquoi cette structure peut quand même être le bon choix pour certaines entreprises.
+# GREEN-L3-019 : Pourquoi les sociétés de type C font face à une double imposition (et pourquoi ça peut quand même avoir du sens)
+
+## Objectifs d'apprentissage
+À la fin de cette leçon, tu pourras :
+- Expliquer comment se produit la double imposition dans une société de type C traditionnelle
+- Expliquer pourquoi cette structure peut quand même avoir du sens pour certaines entreprises malgré la double imposition
+- Comparer directement cette structure au traitement transparent abordé à la leçon 18
+
+## Contenu principal
+
+Une **société de type C** (*C-corporation*, une expression américaine courante pour désigner une structure de société par actions traditionnelle imposée comme une entité distincte) paie généralement l'impôt sur le revenu sur ses propres profits, au niveau de l'entité. Si ces profits après impôt sont ensuite distribués aux actionnaires sous forme de dividendes, les actionnaires doivent généralement payer de nouveau de l'impôt sur ce revenu de dividendes au niveau individuel — ce qui crée la situation de **double imposition** présentée à la leçon 17, par opposition directe au traitement transparent à une seule couche de la leçon 18. (Au Canada, le mécanisme de majoration et de crédit d'impôt pour dividendes vise à atténuer en bonne partie cette double imposition.)
+
+Voici « pourquoi » cette structure peut quand même avoir du sens pour certaines entreprises, malgré cet apparent désavantage fiscal : les sociétés de type C offrent des avantages précis dans d'autres domaines — un accès potentiellement plus facile à certains types de capitaux d'investissement et de structures de capital (ce qui se relie aux notions abordées dans le parcours BLUE de ce programme sur le capital de risque et les catégories multiples d'actions), un traitement potentiellement avantageux des bénéfices non répartis qui ne sont pas distribués en dividendes, et des avantages ou des exigences précis liés à certains modèles d'affaires ou plans de croissance.
+
+[VERIFIED FACT] De plus, le fardeau réel de la double imposition d'une entreprise dépend beaucoup de la part des profits conservée dans l'entreprise par rapport à celle distribuée en dividendes, et des taux d'imposition précis applicables au niveau de la société et au niveau individuel — ce qui veut dire que l'effet pratique de la double imposition varie considérablement selon la situation précise de l'entreprise, plutôt que d'être une pénalité fixe et universelle.
+
+## Exemple pratique
+
+[ILLUSTRATIVE EXAMPLE] Une entreprise en croissance rapide prévoit avoir besoin de capitaux d'investissement externes importants et compte réinvestir la plus grande partie de ses profits dans sa croissance plutôt que de distribuer des dividendes au cours de ses premières années. Se structurer en société de type C pourrait mieux soutenir sa stratégie de levée de capitaux (en lien avec les notions de capital de risque abordées ailleurs dans ce programme), et comme elle ne distribue pas de dividendes importants pour l'instant, l'effet pratique de la double imposition est minime pendant ces premières années. [ASSUMPTION] Une entreprise plus petite et plus mature, qui souhaite surtout distribuer chaque année la plus grande partie de ses profits directement à ses propriétaires-exploitants, pourrait plutôt trouver le traitement transparent (leçon 18) plus avantageux sur le plan fiscal dans sa situation précise, ce qui montre pourquoi la « meilleure » structure dépend réellement de la situation et des plans précis de chaque entreprise.
+
+## Quiz de pratique
+
+1. Comment se produit la double imposition dans une société de type C traditionnelle?
+2. Pourquoi une structure de société de type C pourrait-elle quand même avoir du sens pour certaines entreprises malgré la double imposition?
+3. Quel facteur influe beaucoup sur le fardeau réel et pratique de la double imposition d'une entreprise?
+
+## Corrigé
+
+1. La société paie l'impôt sur ses profits au niveau de l'entité, et les actionnaires paient de nouveau de l'impôt, au niveau individuel, sur tout dividende distribué à partir de ces profits après impôt.
+2. Parce que les sociétés de type C peuvent offrir des avantages dans des domaines comme la levée de capitaux et la structuration du capital, et que l'effet pratique de la double imposition peut être minime si les profits sont conservés plutôt que distribués en dividendes.
+3. La part des profits conservée dans l'entreprise par rapport à celle distribuée en dividendes, ainsi que les taux d'imposition précis applicables au niveau de la société et au niveau individuel.
+
+## Réponses et explications
+
+1. C'est le mécanisme de base de la leçon, directement relié à la mise en contexte de la leçon 17.
+2. Ça apporte un contexte important et équilibré contre l'idée qu'une structure de société de type C serait automatiquement désavantageuse.
+3. Ça renforce le fait que l'effet pratique varie selon la situation précise, et n'est pas un résultat fixe et universel.
+
+## Points clés à retenir
+- Les sociétés de type C peuvent faire face à une double imposition : une fois au niveau de la société, puis de nouveau sur les dividendes au niveau individuel.
+- Malgré ça, la structure de société de type C peut quand même avoir du sens pour les entreprises qui privilégient la souplesse de levée de capitaux ou qui conservent la plupart de leurs profits pour les réinvestir.
+- L'effet réel et pratique de la double imposition dépend beaucoup de la part des profits distribuée en dividendes par rapport à celle conservée.
+
+## Avis pédagogique
+Cette leçon sert uniquement à l'éducation financière générale et ne constitue pas un conseil financier, de placement, fiscal ou juridique personnalisé. Les règles fiscales applicables aux entités commerciales varient selon le territoire et changent avec le temps; consulte des professionnels autorisés en droit et en fiscalité avant de choisir une structure d'entreprise.
+
+===== GREEN-L3-020
+TITLE: Pourquoi la déduction pour revenu d'entreprise admissible existe
+SUMMARY: Découvre le but général d'une déduction visant le revenu des entreprises transparentes, et pourquoi elle comble en partie un écart de taux d'imposition entre les types d'entreprises.
+# GREEN-L3-020 : Pourquoi la déduction pour revenu d'entreprise admissible existe
+
+## Objectifs d'apprentissage
+À la fin de cette leçon, tu pourras :
+- Expliquer le but général d'une déduction de type « revenu d'entreprise admissible » (QBI)
+- Expliquer pourquoi ce genre de déduction vise précisément le revenu des entreprises transparentes
+- Expliquer pourquoi les règles d'admissibilité et de calcul de ce type de déduction ont tendance à être complexes
+
+## Contenu principal
+
+Dans le contexte américain, une **déduction pour revenu d'entreprise admissible** (en anglais, *Qualified Business Income deduction* ou QBI) permet généralement aux propriétaires admissibles d'entreprises transparentes (leçon 18) de déduire une partie de leur revenu d'entreprise admissible dans le calcul de leur revenu imposable personnel. [VERIFIED FACT] Les exigences d'admissibilité, les seuils de revenu et les règles de calcul précis de ce type de déduction sont fixés par la loi fiscale, sont particulièrement complexes, varient selon le type d'entreprise et le niveau de revenu, et peuvent être modifiés par le législateur — il faut vérifier directement les règles actuelles plutôt que de les supposer.
+
+Voici le « pourquoi » général pour lequel une déduction comme celle-ci pourrait être introduite : on la présente parfois comme une façon d'aider à combler l'écart de taux d'imposition entre le revenu des entreprises transparentes (imposé aux taux individuels, comme on l'a vu à la leçon 18) et le revenu des sociétés (qui peut être imposé selon une structure de taux différente, comme on l'a vu à la leçon 19) — en offrant aux propriétaires d'entreprises transparentes une forme d'allègement fiscal destinée à rapprocher quelque peu leur traitement fiscal effectif de celui des sociétés.
+
+Cette leçon évite volontairement de préciser des seuils d'admissibilité ou des formules de calcul exacts, puisque ce genre de disposition est particulièrement susceptible d'être modifié par le législateur et varie beaucoup selon le territoire — c'est le but conceptuel (un allègement partiel visant précisément le revenu des entreprises transparentes) qui constitue la leçon durable et transférable ici, et non un détail chiffré précis.
+
+## Exemple pratique
+
+[ILLUSTRATIVE EXAMPLE] Une propriétaire de petite entreprise qui exploite une entité transparente génère un revenu d'entreprise admissible et, si elle respecte les exigences d'admissibilité en vigueur pour sa situation précise, pourrait déduire une partie de ce revenu avant de calculer son revenu imposable personnel — ce qui lui procure un certain allègement destiné à aider à combler l'écart de taux d'imposition entre son traitement transparent et le traitement que pourrait recevoir une société tout aussi rentable. [ASSUMPTION] Comme les détails d'admissibilité et de calcul de ce genre de déduction sont complexes et peuvent changer, elle travaille chaque année avec un fiscaliste pour confirmer exactement comment les règles en vigueur s'appliquent à son entreprise et à son niveau de revenu précis, plutôt que de se fier uniquement à une compréhension générale.
+
+## Quiz de pratique
+
+1. Quel est le but général d'une déduction de type « revenu d'entreprise admissible » (QBI)?
+2. Pourquoi ce type de déduction vise-t-il précisément le revenu des entreprises transparentes plutôt que celui des sociétés?
+3. Pourquoi cette leçon évite-t-elle de préciser des seuils d'admissibilité ou des formules de calcul exacts?
+
+## Corrigé
+
+1. Permettre aux propriétaires admissibles d'entreprises transparentes de déduire une partie de leur revenu d'entreprise admissible, ce qui leur procure un certain allègement fiscal.
+2. Parce qu'elle vise généralement à aider à combler l'écart de taux d'imposition entre le revenu des entreprises transparentes (imposé aux taux individuels) et le revenu des sociétés, qui peut être imposé différemment.
+3. Parce que ces dispositions sont particulièrement susceptibles d'être modifiées par le législateur et varient beaucoup selon le territoire, ce qui fait du but conceptuel la leçon durable, plutôt que des détails chiffrés précis.
+
+## Réponses et explications
+
+1. C'est le but conceptuel général de la leçon, présenté avec les nuances appropriées.
+2. Ça relie directement le but de la déduction à la comparaison entre entités transparentes et sociétés des leçons 18 et 19.
+3. C'est une note méthodologique importante, qui renforce pourquoi la leçon reste au niveau conceptuel.
+
+## Points clés à retenir
+- Une déduction de type « revenu d'entreprise admissible » procure généralement un allègement fiscal visant précisément le revenu admissible des entreprises transparentes.
+- Elle vise souvent à aider à combler l'écart de taux d'imposition entre le traitement des entreprises transparentes et celui des sociétés.
+- Les règles d'admissibilité et de calcul précises de ce type de disposition sont complexes, varient selon le territoire et changent avec le temps — il faut toujours vérifier directement les règles actuelles.
+
+## Avis pédagogique
+Cette leçon sert uniquement à l'éducation financière générale et ne constitue pas un conseil financier, de placement, fiscal ou juridique personnalisé. Les règles et les exigences d'admissibilité des déductions varient beaucoup selon le territoire et changent avec le temps; consulte un fiscaliste autorisé pour obtenir des conseils adaptés à ta situation.
+
+===== GREEN-L3-021
+TITLE: Pourquoi la récupération de l'amortissement reprend un avantage fiscal antérieur
+SUMMARY: Découvre pourquoi l'avantage fiscal de l'amortissement n'est pas toujours permanent, et pourquoi vendre un bien amorti peut entraîner la récupération de cet avantage antérieur.
+# GREEN-L3-021 : Pourquoi la récupération de l'amortissement reprend un avantage fiscal antérieur
+
+## Objectifs d'apprentissage
+À la fin de cette leçon, tu pourras :
+- Expliquer ce que veut généralement dire la récupération de l'amortissement
+- Expliquer pourquoi vendre un bien amorti peut entraîner cette conséquence fiscale précise
+- Relier cette notion à la discussion sur l'amortissement abordée ailleurs dans ce programme
+
+## Contenu principal
+
+Le parcours RED de ce programme explique comment l'amortissement permet aux propriétaires d'immeubles de déduire chaque année une partie de la valeur d'un immeuble comme dépense hors trésorerie, ce qui réduit le revenu imposable sans toucher les flux de trésorerie. La **récupération de l'amortissement** (en anglais, *depreciation recapture*; au Canada, on parle de récupération de la déduction pour amortissement) porte sur ce qu'il advient de cet avantage fiscal accumulé quand l'immeuble finit par être vendu.
+
+Voici « pourquoi » la récupération existe : les déductions pour amortissement reposaient sur l'hypothèse que le bien perdait de la valeur avec le temps. Si le bien est plus tard vendu avec un gain — ce qui veut dire qu'il n'a pas réellement perdu de valeur comme les déductions pour amortissement le supposaient —, [VERIFIED FACT] les règles fiscales de nombreux territoires exigent qu'une partie de ce gain de vente, jusqu'à concurrence du montant d'amortissement déduit auparavant, soit imposée différemment (souvent à un taux précis, parfois plus élevé que celui des gains en capital à long terme ordinaires) — ce qui « récupère » en fait une partie de l'avantage fiscal antérieur fondé sur une hypothèse que le résultat de la vente n'a pas confirmée.
+
+C'est pourquoi il ne faut pas voir l'amortissement comme un avantage fiscal permanent et sans condition — il vaut mieux le comprendre comme un avantage qui peut être en partie annulé lors d'une vente future plus rentable que prévu, une nuance directement pertinente pour la discussion sur l'échange 1031 de la leçon 22.
+
+## Exemple pratique
+
+[ILLUSTRATIVE EXAMPLE] Une investisseuse déduit de l'amortissement sur un immeuble locatif pendant plusieurs années, ce qui réduit chaque année son revenu imposable en se fondant sur l'hypothèse que la structure de l'immeuble perdait graduellement de la valeur. Quand elle finit par vendre l'immeuble avec un gain important — qui reflète une vraie appréciation, et non une perte de valeur —, une partie de ce gain, jusqu'à concurrence du total de l'amortissement qu'elle avait déduit, est assujettie aux règles de récupération de l'amortissement et imposée différemment du reste de son gain en capital. [ASSUMPTION] Cette récupération reprend en fait une partie de l'avantage fiscal qu'elle a reçu pendant ses années de propriété, ce qui reflète le fait que l'immeuble n'a pas réellement perdu de valeur comme les déductions pour amortissement l'avaient supposé.
+
+## Quiz de pratique
+
+1. Sur quoi porte généralement la récupération de l'amortissement?
+2. Pourquoi vendre un bien amorti avec un gain entraîne-t-il cette conséquence fiscale précise?
+3. Pourquoi ne faut-il pas voir l'amortissement comme un avantage fiscal permanent et sans condition?
+
+## Corrigé
+
+1. Sur ce qu'il advient de l'avantage fiscal accumulé grâce aux déductions pour amortissement quand un bien amorti finit par être vendu, en particulier avec un gain.
+2. Parce que les déductions pour amortissement supposaient que le bien perdait de la valeur, et qu'un gain à la vente laisse croire que cette hypothèse n'était pas exacte, ce qui déclenche des règles qui récupèrent une partie de l'avantage fiscal antérieur.
+3. Parce qu'il peut être en partie annulé lors d'une vente future plus rentable que prévu, plutôt que d'être un avantage fixe et conservé en permanence.
+
+## Réponses et explications
+
+1. C'est la notion de base de la leçon, reliée à la discussion antérieure sur l'amortissement du parcours RED.
+2. C'est le « pourquoi » central qui explique le mécanisme de récupération.
+3. Ça renforce la façon juste et plus nuancée de voir la nature réelle et conditionnelle de l'amortissement.
+
+## Points clés à retenir
+- La récupération de l'amortissement s'applique quand un bien amorti est vendu avec un gain, ce qui annule une partie de l'avantage fiscal antérieur.
+- Elle existe parce que l'amortissement initial supposait une perte de valeur qu'un gain à la vente laisse croire qui ne s'est pas réellement produite.
+- Il faut comprendre l'amortissement comme un avantage fiscal conditionnel, qui peut être en partie annulé, et non comme un avantage permanent.
+
+## Avis pédagogique
+Cette leçon sert uniquement à l'éducation financière générale et ne constitue pas un conseil financier, de placement, fiscal ou juridique personnalisé. Les règles d'amortissement et de récupération varient selon le territoire et changent avec le temps; consulte un fiscaliste autorisé pour obtenir des conseils adaptés à ta situation.

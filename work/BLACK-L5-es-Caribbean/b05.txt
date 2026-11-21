@@ -1,0 +1,379 @@
+===== BLACK-L5-021
+TITLE: La transformación tecnológica: orquestar la inversión, el manejo del cambio y el riesgo operacional
+SUMMARY: La tecnología solo crea valor cuando las personas y los procesos cambian con ella; coordine las personas, los procesos, los datos y el riesgo, presupueste el costo completo del cambio, avance por etapas y nombre a un responsable interno.
+KEYWORDS: transformación digital, adopción de tecnología, manejo del cambio, implementación de un programa, riesgo operacional
+# La transformación tecnológica: orquestar la inversión, el manejo del cambio y el riesgo operacional
+
+## Escenario inicial
+SUPUESTO/OPINIÓN (escenario hipotético solo con fines educativos): Un distribuidor al por mayor compra un nuevo sistema caro de inventario y pedidos. Seis meses después, el personal todavía lleva registros en papel "por si acaso", los errores en los pedidos han aumentado y el proveedor del sistema culpa a los procesos de la empresa.
+
+## Objetivos de aprendizaje
+- Explicar por qué los proyectos de tecnología suelen fracasar en la adopción más que en la instalación.
+- Identificar los elementos de personas, procesos, datos y riesgo de un cambio tecnológico.
+- Explicar cómo avanzar por etapas en un cambio tecnológico para proteger las operaciones.
+- Aplicar un plan orquestado para una transformación tecnológica.
+
+## Contenido principal
+PRINCIPIO: La tecnología cambia la forma en que la gente trabaja. Si las personas y los procesos no cambian con ella, la tecnología rara vez entrega el valor prometido. El nivel 4 explicó que muchos esfuerzos de cambio fracasan en la adopción; los proyectos de tecnología son un ejemplo común.
+Los líderes deben coordinar cuatro elementos. Las personas: los usuarios necesitan entender por qué importa el cambio, recibir un buen adiestramiento y tener voz en la configuración del sistema. Los procesos: el sistema debe apoyar procesos mejorados, no simplemente automatizar procesos viejos e ineficientes. Los datos: la información existente debe limpiarse y trasladarse con exactitud, o el sistema nuevo empezará con datos malos. El riesgo: las operaciones deben continuar durante la transición, así que los planes de respaldo y las pruebas son esenciales.
+La inversión incluye más que el precio de compra. El tiempo de adiestramiento, la pérdida temporal de productividad, los consultores, la migración de los datos y el apoyo continuo pertenecen al presupuesto. Subestimar estos costos lleva a implementaciones apresuradas.
+Avanzar por etapas reduce el riesgo. Un piloto con un equipo, un local o una línea de productos revela los problemas mientras todavía son pequeños. Operar el sistema viejo y el nuevo en paralelo por un tiempo limitado puede proteger las operaciones críticas, aunque requiere un esfuerzo adicional. Las medidas de éxito claras muestran cuándo la organización está lista para seguir.
+La responsabilidad importa. Un proyecto necesita un líder dentro del negocio — no solo el proveedor — que responda por los resultados y tenga autoridad para tomar decisiones.
+
+## Ejemplo práctico
+EJEMPLO ILUSTRATIVO: El dueño del distribuidor reinicia el proyecto. Un supervisor de almacén respetado se convierte en el líder interno del proyecto. El equipo traza cómo fluyen en realidad los pedidos y elimina tres pasos de aprobación innecesarios antes de reconfigurar el sistema. Los datos de inventario se limpian y se vuelven a contar. Un almacén hace el cambio completo mientras el segundo mantiene el proceso viejo durante seis semanas. El personal recibe adiestramiento práctico y una guía de ayuda sencilla. Cuando el piloto cumple su meta de exactitud, el segundo almacén hace el cambio. Los errores en los pedidos bajan por debajo de su nivel original.
+
+## Prueba práctica
+**Q1. ¿Por qué suelen fracasar los proyectos de tecnología?**
+A) Los programas nunca funcionan
+B) La tecnología siempre es demasiado barata
+C) Las personas y los procesos no cambian con la tecnología
+D) Los proveedores nunca ofrecen adiestramiento
+
+**Q2. ¿Por qué deben mejorarse los procesos antes de automatizarlos?**
+A) Los procesos nunca necesitan mejorarse
+B) Automatizar un proceso ineficiente solo hace más rápida la ineficiencia
+C) Los programas arreglan automáticamente cualquier proceso
+D) Lo exige el proveedor
+
+**Q3. ¿Qué costos pertenecen al presupuesto de tecnología además del precio de compra?**
+A) El adiestramiento, la pérdida de productividad, la migración de los datos, los consultores y el apoyo continuo
+B) Ninguno
+C) Solo el cargo de licencia del proveedor
+D) Solo el equipo físico
+
+**Q4. ¿Por qué es útil un piloto?**
+A) Retrasa el proyecto de forma indefinida
+B) Elimina la necesidad de adiestramiento
+C) Garantiza el éxito
+D) Revela los problemas mientras todavía son pequeños
+
+**Q5. En el ejemplo, ¿quién dirigió el reinicio del proyecto?**
+A) El proveedor
+B) Solo un consultor externo
+C) Un supervisor de almacén respetado dentro del negocio
+D) Nadie
+
+## Clave de respuestas
+Q1: C
+Q2: B
+Q3: A
+Q4: D
+Q5: C
+
+## Respuestas y explicaciones
+**Q1.** El valor viene del cambio de conducta, no solo del programa instalado.
+**Q2.** La automatización amplifica cualquier proceso que apoye, sea bueno o malo.
+**Q3.** El costo completo incluye el esfuerzo humano y el de la transición.
+**Q4.** Las pruebas a pequeña escala revelan los problemas antes de que afecten a todo el negocio.
+**Q5.** Un responsable interno con credibilidad impulsó la adopción y la rendición de cuentas.
+
+## Puntos clave
+- La tecnología solo entrega valor cuando las personas y los procesos cambian con ella.
+- Coordine las personas, los procesos, los datos y el riesgo.
+- Presupueste el costo completo del cambio, no solo el precio de compra.
+- Haga un piloto, avance por etapas y asigne a un responsable interno que responda por los resultados.
+
+===== BLACK-L5-022
+TITLE: El manejo de riesgos ejecutivo: orquestar los riesgos de seguros, legales, financieros y de reputación
+SUMMARY: Asuma riesgos a sabiendas manteniendo una lista práctica y actualizada de los riesgos principales; cubra los riesgos operacionales, financieros, legales, de seguridad, tecnológicos y de reputación, y responda evitándolos, reduciéndolos, transfiriéndolos o aceptándolos, a menudo combinando respuestas.
+KEYWORDS: manejo de riesgos empresariales, seguros de negocio, evaluación de riesgos, riesgo de reputación, reservas financieras
+# El manejo de riesgos ejecutivo: orquestar los riesgos de seguros, legales, financieros y de reputación
+
+## Escenario inicial
+SUPUESTO/OPINIÓN (escenario hipotético solo con fines educativos): Una empresa de planificación de eventos ha crecido rápido. La dueña se da cuenta de que la empresa nunca ha considerado de manera formal qué podría salir mal: un festival cancelado, un invitado lesionado, una violación de la seguridad de los datos o la pérdida de un empleado clave.
+
+## Objetivos de aprendizaje
+- Explicar el propósito de una evaluación de riesgos de la organización.
+- Identificar las categorías principales de riesgo del negocio.
+- Explicar las cuatro respuestas básicas al riesgo: evitarlo, reducirlo, transferirlo y aceptarlo.
+- Aplicar un enfoque orquestado para crear un plan de riesgos práctico.
+
+## Contenido principal
+PRINCIPIO: Toda organización asume riesgos; la meta es asumirlos a sabiendas. Una lista sencilla y actualizada con regularidad de los riesgos principales ayuda a los líderes a prepararse en lugar de reaccionar.
+Las categorías comunes de riesgo incluyen los riesgos operacionales (fallas del equipo, problemas con suplidores, dependencia de una persona clave), los riesgos financieros (escasez de efectivo, clientes que no pagan, cambios en las tasas de interés), los riesgos legales y de cumplimiento (contratos, reglamentos, disputas), los riesgos de seguridad (lesiones de empleados o clientes), los riesgos tecnológicos (pérdida de datos, ataques cibernéticos) y los riesgos de reputación (quejas públicas, críticas en las redes sociales, fallas éticas).
+Los líderes pueden responder a cada riesgo de cuatro maneras. Evitarlo, al no participar en la actividad riesgosa. Reducirlo, mediante controles, adiestramiento y mejores procesos. Transferirlo, mediante seguros o contratos que trasladen la responsabilidad. Aceptarlo cuando el costo de atenderlo supera su impacto probable, por lo general con reservas que lo respalden.
+Orquestar significa elegir respuestas que funcionen juntas. Un seguro (una transferencia) es más efectivo cuando se combina con prácticas de seguridad (una reducción). Los contratos revisados por asesores legales (MORADO) pueden repartir el riesgo con los clientes y los suplidores. Las reservas de efectivo (BLANCO y AZUL) absorben los riesgos aceptados. La reputación se protege con una conducta ética y un plan de comunicación de crisis.
+Los planes de riesgo deben revisarse periódicamente y después de cambios importantes, como entrar a un mercado nuevo o lanzar un servicio nuevo.
+
+## Ejemplo práctico
+EJEMPLO ILUSTRATIVO: La dueña de la empresa de planificación de eventos hace un taller de riesgos de medio día con su equipo y hace una lista de los diez riesgos principales. Para las lesiones de invitados, la empresa mejora sus listas de verificación de seguridad (reducir) y revisa su seguro de responsabilidad (transferir). Para las cancelaciones, los contratos con los clientes se actualizan con términos de cancelación claros después de una revisión legal (transferir). Para el riesgo de persona clave, se adiestra a dos empleados para atender las cuentas de clientes principales (reducir). Para las pérdidas pequeñas de equipo, la empresa acepta el riesgo y crea una reserva. La lista se revisa cada seis meses.
+
+## Prueba práctica
+**Q1. ¿Cuál es la meta principal del manejo de riesgos?**
+A) Eliminar todo riesgo
+B) Asumir riesgos a sabiendas y prepararse para ellos
+C) Evitar toda oportunidad nueva
+D) Depender solo de los seguros
+
+**Q2. ¿Qué respuesta traslada a otra parte la responsabilidad por un riesgo?**
+A) La transferencia, por ejemplo, mediante seguros o contratos
+B) Evitarlo
+C) Reducirlo
+D) Aceptarlo
+
+**Q3. ¿Cuándo podría un líder aceptar un riesgo?**
+A) Nunca
+B) Solo cuando no hay seguro disponible
+C) Cuando es el riesgo más grande que enfrenta la empresa
+D) Cuando el costo de atenderlo supera su impacto probable, por lo general con reservas que lo respalden
+
+**Q4. ¿Por qué deben coordinarse las respuestas a los riesgos?**
+A) La coordinación no hace falta
+B) Solo se debe usar una respuesta
+C) Las respuestas funcionan mejor juntas, como un seguro combinado con prácticas de seguridad
+D) La coordinación aumenta el riesgo
+
+**Q5. En el ejemplo, ¿cómo atendió la empresa el riesgo de persona clave?**
+A) Comprando más equipo
+B) Adiestrando a empleados para atender las cuentas de clientes principales
+C) Cancelando eventos
+D) Ignorándolo
+
+## Clave de respuestas
+Q1: B
+Q2: A
+Q3: D
+Q4: C
+Q5: B
+
+## Respuestas y explicaciones
+**Q1.** El riesgo no se puede eliminar, pero se puede entender y manejar.
+**Q2.** Transferir un riesgo traslada sus consecuencias financieras a otra parte.
+**Q3.** Los riesgos pequeños o poco probables pueden ser más baratos de absorber que de asegurar o prevenir.
+**Q4.** Las respuestas combinadas se refuerzan entre sí y cubren más de la exposición.
+**Q5.** El adiestramiento cruzado redujo la dependencia de una sola persona.
+
+## Puntos clave
+- Asuma riesgos a sabiendas manteniendo una lista práctica y actualizada de los riesgos principales.
+- Cubra los riesgos operacionales, financieros, legales, de seguridad, tecnológicos y de reputación.
+- Responda evitándolos, reduciéndolos, transfiriéndolos o aceptándolos, a menudo combinando respuestas.
+- Revise el plan de riesgos con regularidad y después de cambios importantes.
+
+===== BLACK-L5-023
+TITLE: El liderazgo en reglamentación y cumplimiento: orquestar el derecho, la cultura y el costo
+SUMMARY: El cumplimiento depende del entendimiento, los sistemas y la cultura, no solo de las reglas; cree programas con políticas claras, adiestramiento, sistemas prácticos, monitoreo y una forma segura de informar problemas, y diseñe el cumplimiento de forma eficiente.
+KEYWORDS: liderazgo en cumplimiento, cumplimiento reglamentario, ética y cumplimiento, cultura de cumplimiento, reglamentación de negocios
+# El liderazgo en reglamentación y cumplimiento: orquestar el derecho, la cultura y el costo
+
+## Escenario inicial
+SUPUESTO/OPINIÓN (escenario hipotético solo con fines educativos): Una agencia de cuidado de salud en el hogar recibe una advertencia de un regulador porque varios cuidadores no completaron la documentación requerida. La dueña descubre que el personal consideraba el papeleo "opcional cuando hay mucho trabajo".
+
+## Objetivos de aprendizaje
+- Explicar por qué el cumplimiento depende de la cultura y los sistemas, no solo de las reglas.
+- Identificar los componentes de un programa de cumplimiento práctico.
+- Explicar cómo los líderes balancean el costo del cumplimiento con el riesgo.
+- Aplicar un enfoque orquestado para fortalecer el cumplimiento.
+
+## Contenido principal
+PRINCIPIO: Las reglas en papel no aseguran el cumplimiento. La gente sigue las reglas de forma consistente cuando entiende por qué importan, cuando los sistemas hacen práctico el cumplimiento y cuando los líderes tratan el cumplimiento como parte de hacer bien el trabajo.
+Un programa de cumplimiento práctico incluye: saber qué leyes y reglamentos aplican (con consejo profesional, MORADO); políticas claras escritas en lenguaje sencillo; adiestramiento que explique tanto el qué como el porqué; sistemas que faciliten la acción correcta, como listas de verificación o campos obligatorios en un programa; monitoreo para detectar los problemas temprano; y una forma segura para que los empleados planteen sus preocupaciones.
+La cultura es decisiva. Si los líderes elogian los resultados sin importar cómo se lograron, los empleados aprenden que los atajos son aceptables. Si los líderes modelan y premian la conducta de cumplimiento, esta se vuelve normal.
+El costo importa, pero el incumplimiento suele costar mucho más en penalidades, licencias perdidas, demandas y daño a la reputación. Los líderes deben diseñar el cumplimiento de forma eficiente, eliminando el papeleo innecesario y protegiendo lo que se exige.
+El cumplimiento también es una ventaja competitiva. Los clientes, los socios y los reguladores confían en las organizaciones con un historial confiable.
+
+## Ejemplo práctico
+EJEMPLO ILUSTRATIVO: La dueña de la agencia trabaja con un asesor para aclarar los requisitos de documentación. Los formularios en papel se reemplazan con una aplicación móvil que exige llenar los campos clave antes de poder cerrar una visita. Los cuidadores asisten a un adiestramiento corto que explica cómo la documentación protege a los pacientes y sus propios empleos. Los supervisores revisan cada semana una muestra de registros y reconocen a los equipos con la documentación completa. La dueña también elimina dos formularios repetidos que añadían trabajo sin ningún propósito legal. La documentación se completa en casi todas las visitas, y la próxima revisión del regulador no encuentra problemas.
+
+## Prueba práctica
+**Q1. ¿Por qué las reglas en papel no garantizan el cumplimiento?**
+A) La gente sigue las reglas de forma consistente cuando las entiende y los sistemas hacen práctico el cumplimiento
+B) Las reglas siempre son confusas
+C) Los empleados nunca leen las políticas
+D) Los reguladores no hacen cumplir las reglas
+
+**Q2. ¿Cuál es un componente de un programa de cumplimiento práctico?**
+A) Evitar el adiestramiento para ahorrar tiempo
+B) Mantener las políticas en secreto para los empleados
+C) Castigar a cualquiera que plantee preocupaciones
+D) Sistemas que faciliten la acción correcta
+
+**Q3. ¿Cómo moldean los líderes la cultura de cumplimiento?**
+A) Elogiando los resultados sin importar cómo se lograron
+B) Dejándoles el cumplimiento por completo a los abogados
+C) Modelando y premiando la conducta de cumplimiento
+D) Ignorando las violaciones pequeñas
+
+**Q4. ¿Por qué el incumplimiento suele costar más que el cumplimiento?**
+A) El cumplimiento siempre es gratis
+B) Las penalidades, las licencias perdidas, las demandas y el daño a la reputación pueden superar los costos del cumplimiento
+C) El incumplimiento no tiene consecuencias
+D) Los reguladores premian el incumplimiento
+
+**Q5. En el ejemplo, ¿qué facilitó la documentación?**
+A) Una aplicación móvil que exige los campos clave antes de cerrar una visita
+B) Más formularios en papel
+C) Eliminar todos los requisitos de documentación
+D) Contratar más reguladores
+
+## Clave de respuestas
+Q1: A
+Q2: D
+Q3: C
+Q4: B
+Q5: A
+
+## Respuestas y explicaciones
+**Q1.** El entendimiento y los sistemas prácticos impulsan una conducta consistente.
+**Q2.** Los sistemas bien diseñados guían a la gente hacia las acciones de cumplimiento.
+**Q3.** Lo que los líderes modelan y premian define lo que los empleados consideran normal.
+**Q4.** Las consecuencias de las violaciones pueden ser graves y duraderas.
+**Q5.** Los campos obligatorios integraron el cumplimiento al flujo de trabajo.
+
+## Puntos clave
+- El cumplimiento depende del entendimiento, los sistemas y la cultura, no solo de las reglas.
+- Cree programas con políticas claras, adiestramiento, sistemas prácticos, monitoreo y una forma segura de informar.
+- Los líderes moldean el cumplimiento con lo que modelan y premian.
+- Diseñe el cumplimiento de forma eficiente; el incumplimiento suele costar mucho más.
+
+===== BLACK-L5-024
+TITLE: La orquestación de la reputación: coordinar la comunicación, la ética, la exposición legal y los grupos de interés
+SUMMARY: La reputación se construye despacio con la conducta y puede dañarse rápido; comuníquese de forma consistente con todos los grupos de interés, investigue en serio, reconozca los errores y actúe de forma visible, porque la ética es lo que protege la reputación.
+KEYWORDS: manejo de la reputación, reputación corporativa, comunicación con los grupos de interés, ética, relaciones públicas
+# La orquestación de la reputación: coordinar la comunicación, la ética, la exposición legal y los grupos de interés
+
+## Escenario inicial
+SUPUESTO/OPINIÓN (escenario hipotético solo con fines educativos): Un gimnasio local muy popular recibe una publicación viral en línea que lo acusa de ignorar quejas de hostigamiento. Los socios están haciendo preguntas, un medio de noticias local está interesado y el personal está molesto.
+
+## Objetivos de aprendizaje
+- Explicar cómo se construye la reputación y por qué puede dañarse rápido.
+- Identificar los grupos de interés cuya confianza moldea la reputación.
+- Explicar cómo los líderes balancean la comunicación honesta con la cautela legal.
+- Aplicar una respuesta orquestada a un reto de reputación.
+
+## Contenido principal
+PRINCIPIO: La reputación es la suma de lo que la gente cree sobre una organización según su conducta a lo largo del tiempo. Se construye despacio con acciones consistentes y puede dañarse rápido por un solo incidente mal manejado.
+Los grupos de interés incluyen a los clientes, los empleados, los suplidores, los inversionistas, los reguladores y la comunidad. Cada grupo puede necesitar información y garantías distintas, pero el mensaje central debe ser consistente.
+Cuando la reputación se pone en duda, los líderes deben primero averiguar los hechos, rápido y en serio. Restarles importancia a las preocupaciones o responder a la defensiva suele empeorar las cosas. Si la organización cometió errores, reconocerlos y explicar las acciones correctivas genera credibilidad.
+El consejo legal (MORADO) ayuda a evitar declaraciones que creen responsabilidad innecesaria o que violen la privacidad. Sin embargo, la cautela legal no debe convertirse en silencio ni en evasión. La mayoría de las recuperaciones de reputación combinan honestidad, rendición de cuentas y acciones específicas.
+A largo plazo, la reputación se protege con la ética, no con las relaciones públicas. Las organizaciones que tratan a la gente con justicia, cumplen sus promesas y corrigen sus errores crean una reserva de confianza que las ayuda en los momentos difíciles.
+
+## Ejemplo práctico
+EJEMPLO ILUSTRATIVO: El dueño del gimnasio responde en pocas horas con una declaración pública corta que reconoce las preocupaciones y anuncia una revisión independiente. Con consejo legal, protege la privacidad de las personas mientras comunica abiertamente cómo será el proceso. El personal se reúne con el dueño ese mismo día. La revisión encuentra que las quejas no se elevaban de forma adecuada, así que el gimnasio introduce un nuevo proceso para informar quejas, adiestra a todo el personal y publica un resumen de los cambios. Muchos socios agradecen la transparencia, y la cantidad de socios se estabiliza.
+
+## Prueba práctica
+**Q1. ¿Cómo se construye la reputación?**
+A) Con una sola campaña de publicidad
+B) Evitando toda comunicación
+C) Solo con declaraciones legales
+D) Con una conducta consistente a lo largo del tiempo
+
+**Q2. ¿Qué deben hacer primero los líderes cuando se pone en duda la reputación?**
+A) Negarlo todo de inmediato
+B) Ignorar la preocupación hasta que desaparezca
+C) Averiguar los hechos rápido y en serio
+D) Culpar a la persona que se quejó
+
+**Q3. ¿Cómo deben relacionarse la cautela legal y la comunicación honesta?**
+A) La cautela legal siempre debe significar silencio
+B) El consejo legal debe ayudar a dar forma a una comunicación honesta sin convertirse en evasión
+C) La honestidad debe ignorar la privacidad y las preocupaciones legales
+D) Solo los abogados deben comunicarse
+
+**Q4. ¿Qué protege más la reputación a largo plazo?**
+A) La conducta ética, el trato justo y el cumplimiento de las promesas
+B) Las campañas de relaciones públicas por sí solas
+C) Evitar a los clientes
+D) Las respuestas agresivas a las críticas
+
+**Q5. En el ejemplo, ¿qué hizo el gimnasio después de la revisión?**
+A) Cerró para siempre
+B) Ignoró los hallazgos
+C) Despidió a todo el personal
+D) Introdujo un nuevo proceso para informar quejas, adiestró al personal y publicó un resumen de los cambios
+
+## Clave de respuestas
+Q1: D
+Q2: C
+Q3: B
+Q4: A
+Q5: D
+
+## Respuestas y explicaciones
+**Q1.** La reputación refleja la experiencia acumulada de cómo se comporta una organización.
+**Q2.** Responder sin los hechos arriesga errores y la pérdida de credibilidad.
+**Q3.** La orientación legal debe apoyar la comunicación honesta, no reemplazarla.
+**Q4.** La ética consistente crea una confianza que sobrevive los momentos difíciles.
+**Q5.** Las acciones correctivas visibles mostraron que las preocupaciones se tomaron en serio.
+
+## Puntos clave
+- La reputación se construye despacio con la conducta y puede dañarse rápido.
+- Comuníquese de forma consistente con cada grupo de interés.
+- Investigue en serio, reconozca los errores y tome acciones correctivas visibles.
+- A largo plazo, la reputación se protege con la ética, no con las relaciones públicas.
+
+===== BLACK-L5-025
+TITLE: La estrategia de talento: orquestar la compensación, el desarrollo, la cultura y la planificación de la fuerza laboral
+SUMMARY: Las organizaciones superan a su gente antes que a su estrategia; planifique las capacidades futuras a partir del plan de negocio, combine a propósito desarrollar, contratar, tomar prestado y retener, y recuerde que la retención depende de la paga, el crecimiento, la cultura y una buena gerencia.
+KEYWORDS: estrategia de talento, planificación de la fuerza laboral, desarrollo de empleados, retención, estrategia de contratación, liderazgo
+# La estrategia de talento: orquestar la compensación, el desarrollo, la cultura y la planificación de la fuerza laboral
+
+## Escenario inicial
+SUPUESTO/OPINIÓN (escenario hipotético solo con fines educativos): Una firma regional de ingeniería gana proyectos más grandes cada año, pero vuelve a tener problemas para encontrar gerentes de proyecto con experiencia. Cada vacante se llena a la carrera, a menudo con contrataciones externas que se van antes de dos años.
+
+## Objetivos de aprendizaje
+- Explicar la diferencia entre la contratación reactiva y una estrategia de talento.
+- Identificar los elementos de la planificación de la fuerza laboral.
+- Explicar por qué el desarrollo interno puede ser más efectivo que las contrataciones externas repetidas.
+- Aplicar un plan de talento orquestado y conectado con las metas del negocio.
+
+## Contenido principal
+PRINCIPIO: Las organizaciones rara vez superan su estrategia; superan a su gente. Una estrategia de talento pregunta qué capacidades necesitará la organización en el futuro y crea un plan para tenerlas.
+La planificación de la fuerza laboral empieza con el plan de negocio. ¿Qué proyectos, mercados o servicios se esperan? ¿Qué puestos se necesitarán y cuántos? ¿Qué destrezas escasean? ¿Dónde es probable que haya retiros o salidas?
+Luego, los líderes deciden cómo cubrir esas necesidades: desarrollar (formar a los empleados actuales), contratar (buscar talento externo), tomar prestado (contratistas o socios) o retener (mantener a las personas críticas). La mayoría de las organizaciones usa una combinación.
+El desarrollo suele producir resultados más fuertes a largo plazo. Los empleados que crecen dentro de la organización entienden su cultura, sus clientes y sus sistemas. Las rutas de carrera claras, la mentoría, el adiestramiento y las asignaciones retadoras hacen que el desarrollo sea intencional.
+La compensación y la cultura afectan la retención. La paga competitiva importa, pero la gente también se queda por un trabajo con sentido, el respeto, las oportunidades de crecimiento y los buenos gerentes. Las entrevistas de salida y las encuestas de compromiso revelan por qué se va la gente.
+
+## Ejemplo práctico
+EJEMPLO ILUSTRATIVO: La firma de ingeniería crea un plan de talento a tres años. Identifica a diez ingenieros con potencial de liderazgo y empieza un programa de desarrollo en gerencia de proyectos con mentoría y responsabilidades cada vez mayores. Ajusta la paga de los gerentes de proyecto a los niveles del mercado e introduce una escala de carrera clara. La contratación externa continúa para los puestos especializados, pero los ascensos internos se convierten en la fuente principal de gerentes de proyecto. En tres años, la rotación en esos puestos baja de forma importante y la entrega de los proyectos mejora.
+
+## Prueba práctica
+**Q1. ¿Cuál es la diferencia principal entre la contratación reactiva y una estrategia de talento?**
+A) No hay diferencia
+B) La contratación reactiva siempre es más barata
+C) Una estrategia de talento planifica las capacidades futuras en lugar de llenar las vacantes una por una
+D) Las estrategias de talento nunca incluyen contrataciones
+
+**Q2. ¿Qué significa "desarrollar" en la planificación del talento?**
+A) Construir oficinas nuevas
+B) Formar a los empleados actuales
+C) Contratar solo candidatos externos
+D) Usar solo contratistas
+
+**Q3. ¿Por qué el desarrollo interno puede producir resultados más fuertes a largo plazo?**
+A) Los empleados internos ya entienden la cultura, los clientes y los sistemas
+B) Los empleados internos nunca se van
+C) El desarrollo no tiene costo
+D) Los candidatos externos nunca están cualificados
+
+**Q4. Además de la paga, ¿qué ayuda a la retención?**
+A) Jornadas de trabajo más largas
+B) Menos oportunidades de carrera
+C) Menos comunicación
+D) Un trabajo con sentido, el respeto, las oportunidades de crecimiento y los buenos gerentes
+
+**Q5. En el ejemplo, ¿qué se convirtió en la fuente principal de gerentes de proyecto?**
+A) Los reclutadores externos
+B) Los contratistas
+C) Los ascensos internos mediante un programa de desarrollo
+D) Los competidores
+
+## Clave de respuestas
+Q1: C
+Q2: B
+Q3: A
+Q4: D
+Q5: C
+
+## Respuestas y explicaciones
+**Q1.** La estrategia de talento conecta las necesidades futuras del negocio con los planes de personal.
+**Q2.** Desarrollar significa hacer crecer las capacidades dentro del equipo existente.
+**Q3.** El conocimiento y las relaciones existentes aceleran la efectividad.
+**Q4.** La gente se queda donde se siente valorada y ve un futuro.
+**Q5.** Un programa de desarrollo deliberado creó una cantera interna confiable.
+
+## Puntos clave
+- Las organizaciones superan a su gente antes que a su estrategia.
+- Planifique las capacidades futuras a partir del plan de negocio.
+- Combine a propósito las estrategias de desarrollar, contratar, tomar prestado y retener.
+- La retención depende de la paga, el crecimiento, la cultura y una buena gerencia.

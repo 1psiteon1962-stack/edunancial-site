@@ -1,0 +1,358 @@
+===== WHITE-L1-046
+TITLE: ¿Qué es una recompra de acciones? (Versión introductoria; un análisis más profundo, en el Nivel 2)
+SUMMARY: Aprende a nivel introductorio qué es una recompra de acciones y por qué puede afectar las cifras por acción sin cambiar el negocio.
+# ¿Qué es una recompra de acciones? (Versión introductoria; un análisis más profundo, en el Nivel 2)
+
+## Objetivos de aprendizaje
+
+Al terminar esta lección, deberías poder:
+
+- Definir una recompra de acciones en palabras sencillas.
+- Explicar el efecto mecánico básico sobre las acciones en circulación.
+- Reconocer que en el Nivel 2 se ve con más profundidad su efecto sobre las razones financieras.
+
+## Contenido principal
+
+### Qué es una recompra de acciones
+
+Una recompra de acciones ocurre cuando una empresa vuelve a comprar sus propias acciones en el mercado abierto, lo que reduce el número de acciones en circulación (un concepto que se presentó antes en este nivel).
+
+### El efecto mecánico básico
+
+Con menos acciones en circulación y la misma utilidad total de la empresa, cada acción que queda representa una rebanada un poco más grande de la empresa, lo que se conecta con la UPA (utilidad por acción) que vimos antes en este nivel.
+
+### Un adelanto del Nivel 2
+
+*SUPUESTO (con fines didácticos):* Esta lección introductoria cubre solo la mecánica básica. El Nivel 2 explica con más profundidad cómo las recompras pueden hacer que las cifras por acción, como la UPA y la relación P/U, se vean mejor sin que el negocio de fondo realmente mejore.
+
+## Ejemplo práctico
+
+Una empresa con 1,000,000 de acciones en circulación recompra 100,000 acciones y le quedan 900,000. Con la misma utilidad neta total, la UPA sube simplemente porque esa utilidad ahora se divide entre menos acciones.
+
+## Prueba de práctica
+
+1. Una recompra de acciones significa:
+   A. Que una empresa emite acciones completamente nuevas
+   B. Que una empresa vuelve a comprar sus propias acciones en el mercado
+   C. Un split de acciones
+   D. Un pago de dividendos
+2. Verdadero o falso: Una recompra aumenta el número total de acciones en circulación.
+3. Con la misma utilidad neta, ¿qué pasa con la UPA después de que una recompra reduce las acciones en circulación?
+   A. La UPA baja
+   B. La UPA sube, porque la utilidad ahora se divide entre menos acciones
+   C. La UPA se mantiene exactamente igual
+   D. La UPA se vuelve cero
+
+## Clave de respuestas
+
+1. B
+2. Falso
+3. B
+
+## Respuestas y explicaciones
+
+### Pregunta 1
+
+Respuesta correcta: B. Una recompra es cuando una empresa vuelve a comprar sus propias acciones.
+
+### Pregunta 2
+
+Respuesta correcta: Falso. Una recompra reduce, no aumenta, las acciones en circulación.
+
+### Pregunta 3
+
+Respuesta correcta: B. Menos acciones que dividen la misma utilidad suben la UPA de forma mecánica.
+
+## Puntos clave
+
+- Una recompra es cuando una empresa vuelve a comprar sus propias acciones, lo que reduce las acciones en circulación.
+- Esto sube la UPA de forma mecánica, aunque la utilidad total no cambie.
+- El Nivel 2 explica con más profundidad cómo esto puede distorsionar las razones por acción.
+
+===== WHITE-L1-047
+TITLE: ¿Qué es una trampa bajista o una trampa de valor? (Por qué "barato" puede ser una señal de alerta)
+SUMMARY: Aprende qué es una trampa de valor y por qué un precio bajo, por sí solo, no significa que una acción sea una ganga.
+# ¿Qué es una trampa bajista o una trampa de valor? (Por qué "barato" puede ser una señal de alerta)
+
+## Objetivos de aprendizaje
+
+Al terminar esta lección, deberías poder:
+
+- Definir una trampa de valor en palabras sencillas.
+- Explicar por qué un precio bajo, por sí solo, no indica una buena oportunidad.
+- Conectar este concepto con la lección sobre la relación P/U.
+
+## Contenido principal
+
+### Qué es una trampa de valor
+
+Una trampa de valor (value trap) es una acción que parece barata según indicadores sencillos (como una relación P/U baja, que vimos antes en este nivel), pero que en realidad está barata por una razón real y duradera: el deterioro de los fundamentos del negocio, no un error temporal de precio.
+
+### Por qué un precio bajo no basta
+
+Que el precio o una razón de una acción estén más bajos que antes no significa automáticamente que sea una ganga. A veces un precio más bajo refleja con precisión una caída real y continua en las perspectivas del negocio de la empresa: el mercado está valuando correctamente un problema auténtico, no cometiendo un error.
+
+### La relación con la P/U
+
+Una relación P/U baja puede significar que una acción está subvaluada, o puede significar que el mercado espera que caigan las utilidades futuras, lo que hace que el precio bajo actual sea adecuado y no una ganga. Distinguir entre ambos casos exige ver más allá de la razón por sí sola.
+
+## Ejemplo práctico
+
+El precio de una acción baja de forma importante y su relación P/U se ve atractivamente baja en comparación con su historia. Si esa caída refleja un deterioro real y continuo del negocio central de la empresa, y no una reacción exagerada temporal, comprarla como "ganga" podría ser caer en una trampa de valor.
+
+## Prueba de práctica
+
+1. Una trampa de valor es:
+   A. Una acción que de verdad está subvaluada y es una buena oportunidad
+   B. Una acción que parece barata, pero está barata por una razón real y duradera
+   C. Un tipo de bono
+   D. Una inversión con ganancias garantizadas
+2. Verdadero o falso: Una relación P/U baja siempre significa que una acción es una ganga.
+3. ¿Por qué un precio bajo podría reflejar con precisión un problema real y no una ganga?
+   A. Los precios nunca reflejan problemas reales
+   B. El mercado podría estar valuando correctamente un deterioro en las perspectivas del negocio
+   C. Los precios bajos siempre son errores
+   D. Esto nunca pasa en los mercados reales
+
+## Clave de respuestas
+
+1. B
+2. Falso
+3. B
+
+## Respuestas y explicaciones
+
+### Pregunta 1
+
+Respuesta correcta: B. Una trampa de valor parece barata, pero refleja un problema real y duradero.
+
+### Pregunta 2
+
+Respuesta correcta: Falso. Una P/U baja puede reflejar una caída real y merecida, no solo una ganga.
+
+### Pregunta 3
+
+Respuesta correcta: B. Los mercados pueden valuar correctamente problemas auténticos y continuos.
+
+## Puntos clave
+
+- Una trampa de valor parece barata, pero está barata por una razón real y duradera.
+- Un precio bajo o una razón baja, por sí solos, no garantizan una ganga.
+- Una P/U baja puede reflejar una subvaluación o una caída auténtica y merecida.
+
+===== WHITE-L1-048
+TITLE: ¿Qué es el rendimiento ponderado por dinero frente al rendimiento ponderado por tiempo? (Por qué dos personas pueden tener rendimientos distintos en la "misma" inversión)
+SUMMARY: Aprende por qué dos inversionistas en el mismo fondo pueden tener rendimientos personales realmente distintos, según cuándo agregaron o retiraron dinero.
+# ¿Qué es el rendimiento ponderado por dinero frente al rendimiento ponderado por tiempo? (Por qué dos personas pueden tener rendimientos distintos en la "misma" inversión)
+
+## Objetivos de aprendizaje
+
+Al terminar esta lección, deberías poder:
+
+- Definir en palabras sencillas el rendimiento ponderado por tiempo y el rendimiento ponderado por dinero.
+- Explicar por qué pueden dar cifras distintas para el mismo fondo.
+- Reconocer por qué el momento de las aportaciones importa para el rendimiento personal.
+
+## Contenido principal
+
+### Rendimiento ponderado por tiempo
+
+El rendimiento ponderado por tiempo mide cómo se desempeñó la inversión en sí durante un periodo, sin importar cuándo se agregó o se retiró dinero: es la cifra que normalmente reporta el propio fondo.
+
+### Rendimiento ponderado por dinero
+
+El rendimiento ponderado por dinero mide el rendimiento personal real de un inversionista individual, que depende mucho de CUÁNDO agregó o retiró dinero: el mismo fondo puede dar rendimientos ponderados por dinero muy distintos para distintos inversionistas, según el momento personal de cada uno.
+
+### Por qué pueden ser distintos
+
+*EJEMPLO ILUSTRATIVO:* Si un inversionista agrega una suma grande justo antes de una caída, su rendimiento personal ponderado por dinero será peor que el rendimiento ponderado por tiempo del propio fondo en ese periodo, aunque esté invertido exactamente en el mismo fondo que alguien que invirtió antes.
+
+## Ejemplo práctico
+
+Un fondo reporta un rendimiento ponderado por tiempo del 10 % en el año. Un inversionista que agregó una suma grande justo antes de una caída breve dentro de ese año, y luego mantuvo la inversión durante la recuperación, podría tener un rendimiento personal ponderado por dinero notablemente distinto de ese 10 % reportado: el mismo fondo, una experiencia personal muy distinta según el momento.
+
+## Prueba de práctica
+
+1. El rendimiento ponderado por tiempo mide:
+   A. El rendimiento personal de un inversionista individual según su momento
+   B. El desempeño propio de la inversión, sin importar el momento de las aportaciones
+   C. Solo el ingreso por dividendos
+   D. La capitalización de mercado de una empresa
+2. Verdadero o falso: El rendimiento ponderado por dinero no se ve afectado por cuándo un inversionista agrega o retira dinero.
+3. ¿Por qué dos inversionistas en el mismo fondo pueden tener rendimientos personales distintos?
+   A. Los fondos reportan cifras distintas a cada inversionista
+   B. Su rendimiento personal ponderado por dinero depende del momento de sus aportaciones
+   C. Esto nunca pasa en realidad
+   D. Solo las comisiones del fondo son distintas entre inversionistas
+
+## Clave de respuestas
+
+1. B
+2. Falso
+3. B
+
+## Respuestas y explicaciones
+
+### Pregunta 1
+
+Respuesta correcta: B. El rendimiento ponderado por tiempo mide el desempeño propio del fondo, sin importar el momento de las aportaciones.
+
+### Pregunta 2
+
+Respuesta correcta: Falso. El rendimiento ponderado por dinero depende específicamente del momento de las aportaciones.
+
+### Pregunta 3
+
+Respuesta correcta: B. El momento personal de las aportaciones explica las diferencias en el rendimiento ponderado por dinero.
+
+## Puntos clave
+
+- El rendimiento ponderado por tiempo mide el desempeño propio de la inversión.
+- El rendimiento ponderado por dinero mide el rendimiento personal de un individuo, que depende del momento de sus aportaciones.
+- Dos inversionistas en el mismo fondo pueden tener rendimientos personales realmente distintos.
+
+===== WHITE-L1-049
+TITLE: Cómo leer un estado de cuenta de inversión: ¿qué estás viendo realmente?
+SUMMARY: Aprende a leer las secciones centrales de un estado de cuenta de una casa de bolsa, uniendo términos de todo este nivel.
+# Cómo leer un estado de cuenta de inversión: ¿qué estás viendo realmente?
+
+## Objetivos de aprendizaje
+
+Al terminar esta lección, deberías poder:
+
+- Identificar las secciones centrales de un estado de cuenta típico de una casa de bolsa.
+- Explicar qué te dice realmente cada sección.
+- Conectar los términos del estado de cuenta con conceptos que vimos antes en este nivel.
+
+## Contenido principal
+
+### Las secciones centrales de un estado de cuenta
+
+Un estado de cuenta típico de una casa de bolsa generalmente incluye: las posiciones de la cuenta (qué se tiene y cuánto), el historial de movimientos (compras, ventas y dividendos recientes) y un resumen de desempeño, aunque el formato exacto varía según la casa de bolsa.
+
+### Qué te dice cada sección
+
+La sección de posiciones muestra lo que tienes actualmente y su valor de mercado. El historial de movimientos muestra la actividad reciente, incluidos los pagos de dividendos (que vimos antes en este nivel). El resumen de desempeño muchas veces reporta algo como un rendimiento ponderado por tiempo (que vimos en la lección anterior), no necesariamente la experiencia personal ponderada por dinero del inversionista.
+
+### Conectar con los conceptos de este nivel
+
+Leer bien un estado de cuenta significa reconocer términos que ya vimos: las acciones que tienes, el valor de mercado, los dividendos recibidos y la diferencia entre el rendimiento reportado del fondo y el rendimiento personal real de cada quien, según el momento de sus propias aportaciones.
+
+## Ejemplo práctico
+
+Un inversionista revisa su estado de cuenta y ve que tiene acciones de un ETF, nota un pago de dividendos reciente en el historial de movimientos y ve un rendimiento reportado en lo que va del año. Reconoce que esa cifra probablemente refleja el desempeño ponderado por tiempo, no necesariamente su rendimiento personal exacto, si agregó dinero a mitad del año.
+
+## Prueba de práctica
+
+1. La sección de posiciones de un estado de cuenta normalmente muestra:
+   A. Solo las comisiones de la casa de bolsa
+   B. Lo que se tiene actualmente y su valor de mercado
+   C. Solo la declaración de impuestos del inversionista
+   D. Una lista de empresas sin relación
+2. Verdadero o falso: El resumen de desempeño de un estado de cuenta siempre refleja el rendimiento personal exacto, ponderado por dinero, del inversionista.
+3. ¿Qué incluye normalmente la sección de historial de movimientos?
+   A. Solo las operaciones planeadas a futuro
+   B. Compras, ventas y pagos de dividendos recientes
+   C. Los estados financieros completos de una empresa
+   D. Declaraciones de impuestos ante el gobierno
+
+## Clave de respuestas
+
+1. B
+2. Falso
+3. B
+
+## Respuestas y explicaciones
+
+### Pregunta 1
+
+Respuesta correcta: B. Las posiciones muestran lo que se tiene actualmente y su valor de mercado.
+
+### Pregunta 2
+
+Respuesta correcta: Falso. El desempeño reportado muchas veces está ponderado por tiempo, no es necesariamente el rendimiento personal ponderado por dinero del inversionista.
+
+### Pregunta 3
+
+Respuesta correcta: B. El historial de movimientos cubre la actividad reciente de la cuenta.
+
+## Puntos clave
+
+- Un estado de cuenta de una casa de bolsa normalmente incluye posiciones, historial de movimientos y un resumen de desempeño.
+- El desempeño reportado muchas veces está ponderado por tiempo, no es automáticamente el rendimiento personal del inversionista.
+- Leer bien un estado de cuenta usa conceptos que se vieron a lo largo de este nivel.
+
+===== WHITE-L1-050
+TITLE: Proyecto final: cómo armar tu primer portafolio sencillo, paso a paso
+SUMMARY: Aplica todo lo de WHITE Nivel 1 recorriendo, de principio a fin, cómo armar un primer portafolio de inversión sencillo.
+# Proyecto final: cómo armar tu primer portafolio sencillo, paso a paso
+
+## Objetivos de aprendizaje
+
+Al terminar esta lección, deberías poder:
+
+- Aplicar los conceptos centrales de WHITE Nivel 1 a un escenario conectado.
+- Identificar qué concepto de este nivel se aplica en cada paso.
+- Explicar cómo encajan las piezas de armar un portafolio como un todo.
+
+## Contenido principal
+
+### El escenario
+
+Jaime quiere empezar a invertir por primera vez. Quiere entender lo que realmente está haciendo en cada paso, no solo seguir instrucciones a ciegas.
+
+### El recorrido
+
+Primero, Jaime se asegura de tener un fondo de emergencia (Lección 35) en un lugar líquido y de bajo riesgo antes de invertir cualquier otra cosa. Abre una cuenta en una casa de bolsa (Lección 21), entendiendo que es distinta de una cuenta de retiro, y por separado revisa si su empleador ofrece una aportación equivalente en un 401(k) (Lección 18) que valga la pena aprovechar primero.
+
+Decide invertir en un ETF (Lección 9) en lugar de elegir acciones individuales, porque valora la diversificación (Lección 13) que le da. Revisa su índice de gastos (Lección 12), entendiendo que las pequeñas diferencias de porcentaje se acumulan con el tiempo. Decide usar el promedio del costo en dólares (Lección 22), invirtiendo un monto fijo cada mes en lugar de tratar de adivinar el momento del mercado.
+
+Define una asignación de activos (Lección 43) con mayoría en acciones, dado su horizonte de tiempo largo, y entiende que tendrá que rebalancear (Lección 44) de forma periódica a medida que el mercado cambie esa mezcla. Sabe que su estado de cuenta (Lección 49) mostrará posiciones, movimientos y una cifra de desempeño que quizá no coincida exactamente con su rendimiento personal ponderado por dinero (Lección 48), porque está aportando poco a poco con el tiempo.
+
+### Por qué esto importa
+
+En un portafolio real, ninguna de estas decisiones ocurre de forma aislada: se conectan como un solo proceso, basado en entender, no solo en seguir pasos a ciegas.
+
+## Ejemplo práctico
+
+Si Jaime invierte $300 al mes con el promedio del costo en dólares en un ETF diversificado con un índice de gastos bajo, dentro de una cuenta estándar en una casa de bolsa, después de haber formado su fondo de emergencia y de aprovechar cualquier aportación equivalente disponible de su empleador, habrá aplicado casi todos los conceptos importantes de este nivel en un solo plan conectado.
+
+## Prueba de práctica
+
+1. ¿Por qué Jaime se aseguró de tener un fondo de emergencia antes de seguir invirtiendo?
+   A. En realidad no es necesario
+   B. Protege sus otros planes financieros de verse interrumpidos por gastos inesperados
+   C. Los fondos de emergencia garantizan rendimientos de inversión
+   D. No tiene ninguna relación con invertir
+2. Verdadero o falso: El desempeño reportado de la cuenta de Jaime siempre coincidirá exactamente con su rendimiento personal ponderado por dinero.
+3. ¿Por qué Jaime eligió un ETF en lugar de elegir acciones individuales?
+   A. Los ETF garantizan rendimientos más altos
+   B. Valoró la diversificación que le da
+   C. Los ETF no tienen índice de gastos
+   D. Las acciones individuales son ilegales para principiantes
+
+## Clave de respuestas
+
+1. B
+2. Falso
+3. B
+
+## Respuestas y explicaciones
+
+### Pregunta 1
+
+Respuesta correcta: B. Un fondo de emergencia protege los planes de largo plazo de las interrupciones de corto plazo, como se vio en la Lección 35.
+
+### Pregunta 2
+
+Respuesta correcta: Falso. El desempeño reportado muchas veces está ponderado por tiempo, no es su rendimiento personal exacto ponderado por dinero, como se vio en las Lecciones 48 y 49.
+
+### Pregunta 3
+
+Respuesta correcta: B. La diversificación fue la razón que dio Jaime, lo que se conecta con la Lección 13.
+
+## Puntos clave
+
+- Armar un primer portafolio conecta casi todos los conceptos de este nivel en un solo proceso.
+- El orden importa: primero el fondo de emergencia, luego el tipo de cuenta, luego la elección de inversión y luego la administración continua.
+- Este proyecto final marca el cierre de WHITE Nivel 1; el Nivel 2 se apoya en esta base con conceptos más profundos de valuación y filosofía de inversión.

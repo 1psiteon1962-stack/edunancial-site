@@ -1,0 +1,493 @@
+===== ORANGE-L5-006
+TITLE: Négocier l'acquisition d'une entreprise en gardant tout l'échiquier en vue
+SUMMARY: Une acquisition se négocie sur le prix, la forme de paiement, la structure, les protections et la transition; la MESORE détermine le pouvoir de négociation, et échanger des conditions que chaque partie valorise différemment crée de la valeur pour les deux.
+KEYWORDS: négocier l'acquisition d'une entreprise, MESORE et acquisition, négociation d'une transaction, conditions du prix d'achat, négociation d'un paiement conditionnel
+# Négocier l'acquisition d'une entreprise en gardant tout l'échiquier en vue
+
+## Mise en situation
+HYPOTHÈSE/OPINION (scénario hypothétique à des fins pédagogiques seulement) : Imaginez un grand bloc commercial qui impose soudainement des droits de douane élevés sur une vaste catégorie de produits manufacturés importés, ce qui augmente les coûts des entreprises qui dépendent de ces importations comme intrants.
+Appliquez-le ici : De nouveaux droits de douane rendent une petite entreprise d'importation moins rentable, et son propriétaire veut vendre. Un acheteur y voit une occasion. Posez la question pour plusieurs couleurs : quelle est la meilleure solution de rechange de chaque partie (ORANGE)? Comment le prix devrait-il être réparti entre l'argent comptant, le financement par le vendeur et un paiement conditionnel (BLEU)? Quelles protections juridiques comptent le plus (VIOLET)? Quelle structure fiscale avantage les deux parties (VERT)?
+
+## Objectifs d'apprentissage
+- Appliquer la MESORE et l'ancrage à la négociation d'une acquisition
+- Faire des échanges entre le prix, les conditions, les protections et la structure
+- Négocier d'une façon qui préserve la relation après la clôture
+
+## Contenu principal
+Au niveau 4, l'ORANGE a couvert les notions de base de la négociation : la MESORE (meilleure solution de rechange à un accord négocié), l'ancrage, le prix de réserve et la création de valeur par les compromis. Au niveau 5, vous les utilisez dans l'une des négociations les plus complexes des affaires : l'achat d'une entreprise.
+Ce qui peut se négocier dans une acquisition :
+- Le prix (ORANGE/BLANC) : la valeur affichée.
+- La forme de paiement (BLEU) : l'argent comptant à la clôture, le financement par le vendeur, des paiements conditionnels liés au rendement futur ou des actions de l'entreprise de l'acheteur.
+- La structure (VERT/VIOLET) : l'achat d'actifs ou d'actions (PURPLE-L5-023 dans la piste du droit), qui influe sur les impôts des deux parties.
+- Les protections (VIOLET) : les déclarations, les garanties, les indemnités, les entiercements et les plafonds (PURPLE-L5-021).
+- La transition (NOIR) : combien de temps le vendeur reste pour aider, et dans quel rôle.
+- La non-concurrence (VIOLET) : si le vendeur peut faire concurrence par la suite.
+- Les employés (NOIR) : si les employés clés restent et à quelles conditions.
+La création de valeur par les compromis : comme les acheteurs et les vendeurs accordent une valeur différente aux diverses conditions, une transaction peut être meilleure pour les deux qu'un simple marchandage sur le prix. Un vendeur qui tient surtout au prix total peut accepter un paiement conditionnel. Un acheteur qui tient surtout à limiter le risque peut payer un prix plus élevé en échange d'un entiercement plus important.
+La MESORE dans une acquisition :
+- La MESORE du vendeur : un autre acheteur, continuer d'exploiter l'entreprise ou la liquider.
+- La MESORE de l'acheteur : une autre cible d'acquisition, partir de zéro ou ne pas acheter.
+Une MESORE plus forte donne plus de pouvoir de négociation. Les droits de douane du scénario peuvent affaiblir la MESORE du vendeur si continuer l'exploitation devient moins attrayant.
+HYPOTHÈSE/OPINION : Trop presser un vendeur peut se retourner contre l'acheteur. Si le vendeur reste pour la transition ou détient un billet du vendeur, un vendeur rancunier peut rendre la transition plus difficile. Les transactions équitables produisent souvent de meilleurs résultats après la clôture.
+
+## Exemple pratique
+EXEMPLE ILLUSTRATIF : Tomas veut acheter une entreprise d'importation. Le vendeur demande 1,2 million de dollars. Les droits de douane ont réduit les profits.
+Analyse de la MESORE :
+- Le vendeur : aucun autre acheteur sérieux. Continuer signifie des profits plus faibles sous les droits de douane. Sa MESORE est faible.
+- Tomas : deux autres entreprises à l'étude, quoique moins attrayantes. Sa MESORE est moyenne.
+L'offre de Tomas : 950 000 $, structurée ainsi :
+- 500 000 $ comptant à la clôture.
+- Un billet du vendeur de 250 000 $ sur 5 ans à un taux équitable.
+- Un paiement conditionnel pouvant atteindre 250 000 $ si les revenus reviennent aux niveaux d'avant les droits de douane d'ici 2 ans.
+- Un achat d'actifs au bénéfice fiscal de Tomas. RÈGLE PROPRE À LA RÉGION; au Canada, par exemple, l'acheteur d'actifs peut amortir l'équipement au moyen de la déduction pour amortissement sur un nouveau coût, alors que le vendeur pourrait préférer vendre ses actions pour profiter de l'exonération cumulative des gains en capital, à confirmer avec un fiscaliste.
+- Un entiercement de 10 % pendant 18 mois.
+- Le vendeur reste 6 mois comme consultant rémunéré.
+Le vendeur fait une contre-offre à 1,1 million de dollars au total. Ils s'entendent à 1,05 million de dollars : 500 000 $ comptant, un billet de 300 000 $ et un paiement conditionnel pouvant atteindre 250 000 $. Le vendeur reçoit plus de valeur totale si l'entreprise se redresse. Tomas limite son argent comptant initial et partage le risque avec le vendeur.
+HYPOTHÈSE/OPINION : Le paiement conditionnel a comblé leur désaccord sur l'avenir. Le vendeur croyait la reprise probable; Tomas en était moins sûr. Le paiement conditionnel a permis aux deux d'avoir raison.
+
+## Questionnaire pratique
+**Q1. Que signifie MESORE?**
+A) Meilleure entente sur le solde ordinaire de remboursement
+B) Mesure essentielle de sécurité ou de risque en entreprise
+C) Méthode d'évaluation des sociétés à revendre
+D) Meilleure solution de rechange à un accord négocié
+
+**Q2. Comment une transaction peut-elle être meilleure pour les deux parties qu'un simple marchandage sur le prix?**
+A) En échangeant des conditions que chaque partie valorise différemment
+B) En mentant
+C) En ignorant les impôts
+D) En évitant les avocats
+
+**Q3. Quel a été l'effet des droits de douane sur la MESORE du vendeur?**
+A) Ils l'ont renforcée
+B) Ils ont éliminé les options de l'acheteur
+C) Ils n'ont eu aucun effet
+D) Ils l'ont affaiblie, parce que continuer l'exploitation est devenu moins attrayant
+
+**Q4. Quel rôle a joué le paiement conditionnel?**
+A) Il a réduit les impôts
+B) Il a remplacé l'entiercement
+C) Il a comblé le désaccord sur le redressement de l'entreprise
+D) Il a payé l'acheteur
+
+**Q5. Pourquoi trop presser un vendeur peut-il se retourner contre l'acheteur?**
+A) Les vendeurs ne peuvent pas être pressés
+B) Cela augmente les impôts
+C) Un vendeur rancunier qui détient un billet ou aide à la transition peut compliquer les choses
+D) C'est illégal
+
+## Corrigé
+Q1: D
+Q2: A
+Q3: D
+Q4: C
+Q5: C
+
+## Réponses et explications
+**Q1.** La MESORE est votre meilleure option si la transaction échoue.
+**Q2.** La création de valeur vient de priorités différentes.
+**Q3.** Une solution de rechange plus faible réduit le pouvoir de négociation.
+**Q4.** Les paiements conditionnels permettent aux acheteurs et aux vendeurs de partager l'incertitude.
+**Q5.** Les relations après la clôture comptent.
+
+## Points clés
+- Les acquisitions portent sur le prix, la forme de paiement, la structure, les protections et la transition
+- La MESORE détermine le pouvoir de négociation
+- Échanger des conditions valorisées différemment crée de la valeur pour les deux parties
+- Les transactions équitables fonctionnent souvent mieux après la clôture
+
+===== ORANGE-L5-007
+TITLE: Négocier un achat immobilier avec financement par le vendeur
+SUMMARY: Le financement par le vendeur fait du vendeur un prêteur; négociez ensemble le prix, la mise de fonds, le taux, la durée et les garanties, et concentrez-vous sur ce dont chaque partie a réellement besoin, surtout quand les taux bancaires sont élevés.
+KEYWORDS: négociation du financement par le vendeur, financement par le propriétaire en immobilier, négocier des transactions immobilières, conditions de financement créatives
+# Négocier un achat immobilier avec financement par le vendeur
+
+## Mise en situation
+HYPOTHÈSE/OPINION (scénario hypothétique à des fins pédagogiques seulement) : Imaginez une banque centrale qui relève son taux directeur de façon marquée et répétée en quelques mois seulement pour combattre la hausse de l'inflation.
+Appliquez-le ici : Avec des taux bancaires élevés, un acheteur n'a pas les moyens d'obtenir un prêt conventionnel pour un petit immeuble à logements, et la vendeuse ne trouve pas d'autres acheteurs. Posez la question pour plusieurs couleurs : de quoi chaque partie a-t-elle réellement besoin (ORANGE)? Un financement par la vendeuse à un taux plus bas pourrait-il rendre la transaction possible (BLEU/ROUGE)? Quels documents protègent la vendeuse (VIOLET)? Quel effet un traitement par versements échelonnés pourrait-il avoir sur ses impôts (VERT)?
+
+## Objectifs d'apprentissage
+- Repérer les priorités de chaque partie dans une transaction financée par le vendeur
+- Faire des compromis entre le prix et le taux, la mise de fonds et la durée
+- Structurer une transaction qui protège le vendeur et convient à l'acheteur
+
+## Contenu principal
+Au niveau 2, le ROUGE a présenté le financement créatif. Au niveau 3, le BLEU a couvert le financement par le vendeur pour l'acquisition d'entreprises. Au niveau 5, l'ORANGE montre comment négocier ces transactions pour que les deux parties y gagnent.
+Dans le financement par le vendeur, le vendeur agit comme prêteur et reçoit des paiements au fil du temps plutôt que la totalité en argent comptant à la clôture.
+Ce que chaque partie veut souvent :
+- L'acheteur : une mise de fonds plus faible, un taux d'intérêt plus bas, une durée plus longue, de la souplesse.
+- Le vendeur : un prix total plus élevé, des paiements fiables, une garantie, d'éventuels avantages fiscaux en étalant le gain dans le temps (RÈGLE PROPRE À LA RÉGION), et parfois un revenu régulier à la retraite.
+Variables clés de la négociation :
+- Le prix
+- La mise de fonds
+- Le taux d'intérêt
+- La durée et l'amortissement (y compris les paiements forfaitaires à l'échéance)
+- Les droits de remboursement anticipé
+- La garantie et les cautionnements personnels
+Le principe du compromis : un vendeur peut accepter un taux d'intérêt plus bas en échange d'un prix plus élevé, ou un prix plus bas en échange d'une mise de fonds plus importante. Un acheteur peut accepter un prix plus élevé en échange d'un taux plus bas qui rend les paiements mensuels abordables.
+Comment les couleurs sont reliées :
+- ROUGE : le revenu de l'immeuble doit soutenir les paiements.
+- BLEU : comparez le taux du vendeur aux taux bancaires. Quand les taux bancaires sont élevés, le financement par le vendeur peut être un avantage majeur pour les acheteurs.
+- VIOLET : le billet à ordre, l'hypothèque ou l'acte de fiducie et les clauses de défaut (PURPLE-L5-024). Vérifiez si le vendeur a une hypothèque existante assortie d'une clause d'exigibilité en cas de vente.
+- VERT : les vendeurs peuvent parfois étaler l'impôt sur le gain sur la période de paiement. L'intérêt doit souvent respecter des taux minimaux. RÈGLE PROPRE À LA RÉGION; au Canada, par exemple, un vendeur qui reçoit le prix sur plusieurs années peut généralement demander une provision pour gains en capital qui étale l'imposition du gain sur un maximum de cinq ans, à confirmer avec un fiscaliste.
+- BLANC : pour le vendeur, le billet devient un placement. Comparez son rendement attendu et son risque à ceux d'autres options.
+HYPOTHÈSE/OPINION : Dans les marchés à taux élevés, le financement par le vendeur peut transformer une vente bloquée en transaction. La clé est de se concentrer sur ce dont chaque partie a réellement besoin, et pas seulement sur le prix affiché.
+
+## Exemple pratique
+EXEMPLE ILLUSTRATIF : Rosa, 68 ans, possède sans dette un immeuble de 6 logements. Elle veut prendre sa retraite et l'a inscrit à 900 000 $ depuis des mois sans recevoir d'offre acceptable. Les taux bancaires sont élevés.
+Ben veut acheter, mais ne peut se permettre les paiements que si le taux est plus bas que celui des banques.
+Négociation :
+- Les priorités de Rosa : la valeur totale, un revenu mensuel fiable et l'étalement des impôts dans le temps.
+- Les priorités de Ben : des paiements mensuels abordables et une mise de fonds raisonnable.
+Transaction :
+- Prix : 920 000 $ (plus que son prix demandé).
+- Mise de fonds : 20 % (184 000 $).
+- Billet de la vendeuse : 736 000 $ à 5,5 % (sous les taux bancaires), amortissement sur 25 ans avec un paiement forfaitaire après 10 ans.
+- Garantie : une hypothèque publiée sur l'immeuble. Ben fournit un cautionnement personnel limité.
+- Défaut : une période de correction de 30 jours.
+Rosa reçoit plus de valeur totale et un revenu mensuel régulier. Ben obtient des paiements abordables. Le CPA de Rosa lui explique comment le traitement par versements échelonnés peut étaler ses impôts. RÈGLE PROPRE À LA RÉGION.
+HYPOTHÈSE/OPINION : Un prix de 920 000 $ à un taux de 5,5 % a mieux fonctionné pour les deux qu'un prix de 880 000 $ avec un financement bancaire que Ben n'aurait pas pu se permettre.
+
+## Questionnaire pratique
+**Q1. Dans le financement par le vendeur, qui agit comme prêteur?**
+A) Le vendeur
+B) La banque
+C) Le gouvernement
+D) Le courtier immobilier
+
+**Q2. Quel compromis un vendeur pourrait-il accepter?**
+A) Aucun paiement du tout
+B) Un taux d'intérêt plus bas en échange d'un prix plus élevé
+C) Donner l'immeuble
+D) Aucune garantie
+
+**Q3. Pourquoi le financement par le vendeur peut-il être particulièrement utile quand les taux bancaires sont élevés?**
+A) Les banques refusent tous les prêts
+B) Les vendeurs peuvent offrir des taux plus bas qui rendent les paiements abordables
+C) Il permet d'éviter tous les impôts
+D) Il n'exige aucun document
+
+**Q4. Que faut-il vérifier si le vendeur a une hypothèque existante?**
+A) La couleur de la peinture
+B) Les loisirs de l'acheteur
+C) Le revenu du locataire
+D) Si elle comporte une clause d'exigibilité en cas de vente
+
+**Q5. Pourquoi Rosa a-t-elle accepté un taux d'intérêt inférieur à celui des banques?**
+A) Elle y a été forcée
+B) Elle n'aimait pas les banques
+C) Elle n'avait pas le choix
+D) Elle a obtenu un prix plus élevé, un revenu régulier et un possible étalement de ses impôts
+
+## Corrigé
+Q1: A
+Q2: B
+Q3: B
+Q4: D
+Q5: D
+
+## Réponses et explications
+**Q1.** Le vendeur reçoit des paiements au fil du temps.
+**Q2.** Les vendeurs peuvent échanger du taux contre du prix.
+**Q3.** Des taux plus bas offerts par le vendeur peuvent débloquer des transactions.
+**Q4.** Les prêts existants peuvent restreindre le financement par le vendeur.
+**Q5.** Ses priorités ont été respectées grâce à des compromis.
+
+## Points clés
+- Le financement par le vendeur fait du vendeur un prêteur
+- Négociez ensemble le prix, la mise de fonds, le taux, la durée et la garantie
+- Dans les marchés à taux élevés, le financement par le vendeur peut débloquer des transactions
+- Concentrez-vous sur ce dont chaque partie a réellement besoin
+
+===== ORANGE-L5-008
+TITLE: La rémunération des ventes : incitatifs, fiscalité et qualification
+SUMMARY: La rémunération oriente les comportements; récompensez les ventes payées, rentables, durables et honnêtes, rédigez clairement le régime, y compris les récupérations et les départs, et vérifiez les règles locales de qualification et de retenues.
+KEYWORDS: régime de rémunération des ventes, structure des commissions, incitatifs de vente, fiscalité des commissions, rémunération de l'équipe de vente
+# La rémunération des ventes : incitatifs, fiscalité et qualification
+
+## Mise en situation
+HYPOTHÈSE/OPINION (scénario hypothétique à des fins pédagogiques seulement) : Imaginez que les marchés immobilier et du crédit à la consommation d'un pays très peuplé, après des années d'expansion rapide, commencent à montrer des signes d'une correction marquée à mesure que les défauts de paiement augmentent.
+Appliquez-le ici : Alors qu'un marché du crédit se corrige, l'équipe de vente d'un prêteur continue d'être payée selon le volume de prêts, même si les défauts augmentent. Posez la question pour plusieurs couleurs : quel comportement le régime de rémunération récompense-t-il (ORANGE/NOIR)? Les vendeurs sont-ils des employés ou des travailleurs autonomes (VIOLET)? Comment les commissions sont-elles imposées et quand sont-elles dues (VERT)? L'entreprise peut-elle se permettre le régime si les ventes ralentissent (BLEU)?
+
+## Objectifs d'apprentissage
+- Concevoir une rémunération qui récompense les bons comportements
+- Relier la conception de la rémunération aux règles fiscales et de qualification
+- Aligner la rémunération des ventes sur les flux de trésorerie et la valeur à long terme des clients
+
+## Contenu principal
+La rémunération des ventes façonne les comportements plus puissamment que presque tout autre outil de gestion. Les gens ont tendance à faire ce pour quoi ils sont payés.
+Structures courantes :
+- Le salaire seulement : stable, il encourage le travail d'équipe et le service, mais peut réduire le sentiment d'urgence.
+- La commission seulement : une forte motivation, mais un revenu instable, et elle peut encourager des tactiques agressives.
+- Le salaire plus la commission : un équilibre entre stabilité et motivation.
+- Les primes : liées à des objectifs comme les cibles d'équipe, la fidélisation des clients ou le profit.
+- Les récupérations : des commissions remboursées si un client annule ou ne paie pas dans un certain délai.
+Que devrait récompenser la rémunération? Au niveau 5, la réponse touche toute l'entreprise :
+- Les ventes payées, et pas seulement les ventes signées (les flux de trésorerie BLEUS).
+- Les ventes rentables, et pas seulement les revenus (la marge).
+- Les clients qui restent (la valeur à vie d'ORANGE-L5-003).
+- Des pratiques de vente honnêtes (VIOLET et NOIR).
+Comment les couleurs sont reliées :
+- VIOLET : les travailleurs payés uniquement à la commission peuvent quand même être des employés selon les critères de qualification (PURPLE-L5-031 dans la piste du droit). Les régimes de commission devraient être rédigés clairement, y compris le moment où les commissions sont gagnées et ce qui arrive quand quelqu'un part. RÈGLE PROPRE À LA RÉGION : Certains territoires ont des règles précises sur le paiement des commissions.
+- VERT : les commissions versées aux employés sont généralement soumises aux charges sociales et aux retenues à la source. RÈGLE PROPRE À LA RÉGION; au Canada, par exemple, l'employeur doit retenir l'impôt, l'assurance-emploi et les cotisations au RPC, ou au RRQ au Québec, sur les commissions versées à ses employés, à confirmer avec un comptable.
+- BLEU : la rémunération variable fluctue avec les ventes, ce qui protège les flux de trésorerie pendant les périodes lentes. Mais payer des commissions avant que les clients paient peut mettre les liquidités sous pression.
+- NOIR : la rémunération reflète les valeurs de l'entreprise. Un régime qui récompense le fait de pousser des produits à des clients qui n'en ont pas besoin peut nuire à la culture et à la réputation.
+HYPOTHÈSE/OPINION : Un régime de rémunération qui récompense le volume à court terme au détriment de la qualité des clients peut créer des problèmes qui apparaissent des mois plus tard, comme le montre le scénario.
+
+## Exemple pratique
+EXEMPLE ILLUSTRATIF : Marco dirige une entreprise d'installation de panneaux solaires. Ses vendeurs touchent une commission de 8 % sur les contrats signés.
+Des problèmes apparaissent :
+- Certains clients signés annulent plus tard ou n'obtiennent pas leur financement.
+- Certaines ventes sont faites avec de gros rabais qui laissent peu de marge.
+- Quelques vendeurs exagèrent les économies d'énergie pour conclure des ventes.
+Nouveau régime :
+- Un salaire de base plus une commission, ce qui clarifie la structure de rémunération et appuie la qualification d'employé. RÈGLE PROPRE À LA RÉGION.
+- Une commission versée en deux parties : 50 % quand le financement du client est approuvé, 50 % après l'installation et le paiement.
+- Un taux de commission lié à la marge : une commission plus élevée pour les ventes au prix standard, une commission plus faible pour les ventes avec rabais.
+- Une prime trimestrielle pour un faible taux d'annulation et des avis positifs des clients.
+- Un régime écrit clair, y compris les règles de récupération et ce qui arrive aux commissions impayées quand quelqu'un part.
+- Une formation sur les affirmations exactes en matière d'économies (voir PURPLE-L5-035 dans la piste du droit).
+Le volume des ventes baisse légèrement, mais les annulations diminuent, les marges augmentent et les plaintes reculent. HYPOTHÈSE/OPINION : L'entreprise de Marco est devenue plus rentable et a gagné la confiance, même avec moins de contrats signés au total.
+
+## Questionnaire pratique
+**Q1. Pourquoi la rémunération des ventes est-elle un outil de gestion si puissant?**
+A) La loi l'exige
+B) Elle réduit les impôts
+C) Les gens ont tendance à faire ce pour quoi ils sont payés
+D) Elle remplace la formation
+
+**Q2. Qu'est-ce qu'une récupération?**
+A) Des commissions remboursées si un client annule ou ne paie pas
+B) Une prime
+C) Un type de salaire
+D) Un impôt
+
+**Q3. Pourquoi la rémunération devrait-elle récompenser les ventes payées plutôt que les ventes signées?**
+A) Les ventes signées sont illégales
+B) Les ventes payées reflètent l'argent qui entre réellement dans l'entreprise
+C) C'est plus facile à suivre
+D) Les clients le préfèrent
+
+**Q4. Comment Marco a-t-il réduit les rabais?**
+A) Il a interdit les rabais
+B) Il a congédié des vendeurs
+C) Il a lié les taux de commission à la marge
+D) Il a augmenté les prix
+
+**Q5. Quel a été le résultat du nouveau régime de Marco?**
+A) Un effondrement des ventes
+B) Plus d'annulations
+C) Aucun changement
+D) Un volume légèrement plus faible, mais des marges plus élevées, moins d'annulations et moins de plaintes
+
+## Corrigé
+Q1: C
+Q2: A
+Q3: B
+Q4: C
+Q5: D
+
+## Réponses et explications
+**Q1.** La rémunération façonne les comportements.
+**Q2.** Les récupérations alignent la rémunération sur les résultats réels.
+**Q3.** Les flux de trésorerie dépendent des paiements, et non des signatures.
+**Q4.** Des commissions fondées sur la marge ont découragé les gros rabais.
+**Q5.** De meilleurs incitatifs ont amélioré la santé globale de l'entreprise.
+
+## Points clés
+- La rémunération oriente les comportements; concevez-la délibérément
+- Récompensez les ventes payées, rentables, durables et honnêtes
+- Les règles de qualification, de charges sociales et de commissions varient selon la région
+- Rédigez clairement les régimes, y compris les récupérations et les départs
+
+===== ORANGE-L5-009
+TITLE: Bâtir une équipe de vente ou impartir les ventes
+SUMMARY: Une équipe interne offre le contrôle; l'impartition offre la souplesse et des coûts fixes plus bas; les contrats d'agents et de distributeurs doivent régler le territoire, la résiliation et la propriété des clients, et la responsabilité de l'employeur fait partie de la décision.
+KEYWORDS: bâtir ou impartir les ventes, agents de vente, équipe de vente interne, ventes imparties, distributeur ou vente directe
+# Bâtir une équipe de vente ou impartir les ventes
+
+## Mise en situation
+HYPOTHÈSE/OPINION (scénario hypothétique à des fins pédagogiques seulement) : Imaginez une perturbation de santé publique généralisée qui interrompt le transport maritime et la fabrication à l'échelle mondiale pendant une longue période, ce qui paralyse les chaînes d'approvisionnement de nombreuses industries à la fois.
+Appliquez-le ici : Après une longue perturbation, une entreprise doit rebâtir ses ventes rapidement. Posez la question pour plusieurs couleurs : devrait-elle embaucher des employés (NOIR) ou faire appel à des agents externes (ORANGE)? Quelle option coûte le moins cher au départ et avec le temps (BLEU)? Quelles questions de contrats et de qualification se posent (VIOLET)? Quel effet chaque option a-t-elle sur les familles des personnes concernées?
+
+## Objectifs d'apprentissage
+- Comparer les équipes de vente internes et les options d'impartition
+- Évaluer les compromis entre coût, contrôle et souplesse
+- Tenir compte des obligations juridiques et de la responsabilité de l'employeur
+
+## Contenu principal
+Une entreprise peut vendre par l'entremise de ses propres employés ou de tiers. Chaque approche a ses forces.
+L'équipe de vente interne :
+- Un plein contrôle de la formation, des messages et de l'expérience client.
+- Une connaissance approfondie des produits et une loyauté qui se bâtit avec le temps.
+- Des coûts fixes plus élevés : salaires, avantages sociaux, charges sociales, gestion.
+- Des responsabilités d'employeur (NOIR/VIOLET).
+Les options d'impartition :
+- Les agents ou représentants de vente indépendants : payés surtout à la commission. Des coûts fixes plus bas, mais moins de contrôle, et ils représentent souvent aussi d'autres entreprises.
+- Les distributeurs : ils achètent les produits et les revendent. Ils assument le risque lié aux stocks, mais prennent aussi une marge et les relations avec les clients.
+- Les entreprises de vente imparties : elles fournissent des équipes formées moyennant des honoraires.
+Comment les couleurs sont reliées :
+- BLEU : l'impartition réduit les coûts fixes et l'investissement initial. Les équipes internes coûtent habituellement plus cher au départ, mais peuvent être plus efficaces à grande échelle.
+- VIOLET : les contrats d'agents et de distributeurs devraient couvrir le territoire, l'exclusivité, la commission, la résiliation et la propriété des relations avec les clients. RÈGLE PROPRE À LA RÉGION : Certains territoires accordent aux agents de vente ou aux distributeurs des protections particulières, comme une indemnité en cas de résiliation. Les agents qui travaillent comme des employés pourraient devoir être qualifiés d'employés (PURPLE-L5-031); au Canada, par exemple, il n'existe généralement pas d'indemnité légale de fin de contrat pour les agents comme en Europe, mais les tribunaux peuvent exiger un préavis raisonnable de résiliation, à confirmer avec un avocat.
+- VERT : les employés entraînent des charges sociales. Les paiements aux travailleurs autonomes et aux agents sont soumis à des règles de déclaration différentes. RÈGLE PROPRE À LA RÉGION.
+- NOIR : le thème de la responsabilité de l'employeur : embaucher du personnel directement soutient leurs familles, surtout dans les économies où les emplois formels sont rares. Les employés méritent la dignité et un traitement équitable.
+- BLANC : les entreprises qui possèdent leurs relations avec les clients sont souvent évaluées plus cher que celles qui dépendent de distributeurs.
+Un parcours courant : commencer avec des agents ou des distributeurs pour tester les marchés à faible coût, puis bâtir une équipe interne là où les ventes sont prouvées et où le volume le justifie.
+HYPOTHÈSE/OPINION : Impartir les ventes peut être judicieux au début, mais une entreprise qui ne bâtit jamais ses propres relations avec les clients peut découvrir que son véritable actif appartient à quelqu'un d'autre.
+
+## Exemple pratique
+EXEMPLE ILLUSTRATIF : L'entreprise de Kemi fabrique de l'équipement de cuisine pour les restaurants. Après une longue perturbation, elle doit rebâtir ses ventes dans trois régions.
+Option 1 : embaucher 6 vendeurs. Coût annuel : environ 480 000 $ en salaires, avantages sociaux et charges sociales, plus le temps de gestion.
+Option 2 : faire appel à des agents indépendants dans les trois régions, payés 10 % de commission.
+Option 3 : une approche mixte.
+Elle choisit l'option 3 :
+- Région A (son plus grand marché) : elle embauche 3 employés. Elle veut le contrôle et des relations directes avec les clients.
+- Régions B et C : elle signe des contrats d'agents de 2 ans, avec des conditions claires sur le territoire, la commission, la résiliation et la propriété des clients. Son avocat vérifie les règles locales de protection des agents. RÈGLE PROPRE À LA RÉGION.
+- Elle établit un plan pour évaluer la conversion de la région B à des employés si les ventes dépassent un seuil fixé.
+Les employés de la région A touchent un revenu stable, et Kemi investit dans leur formation. Les agents assurent rapidement une présence dans les petites régions sans coûts fixes importants.
+HYPOTHÈSE/OPINION : Kemi a adapté chaque modèle de vente à la taille et à l'importance stratégique de chaque marché, plutôt que de choisir un seul modèle pour tout.
+
+## Questionnaire pratique
+**Q1. Quel est un avantage clé d'une équipe de vente interne?**
+A) Un plein contrôle de la formation, des messages et de l'expérience client
+B) Aucun coût
+C) Aucune obligation juridique
+D) Aucune gestion nécessaire
+
+**Q2. Quel est un avantage clé des agents de vente indépendants?**
+A) Un contrôle complet
+B) Une loyauté garantie
+C) Aucun contrat nécessaire
+D) Des coûts fixes plus bas
+
+**Q3. Pourquoi les contrats d'agents devraient-ils régler la propriété des clients?**
+A) Pour éviter les impôts
+B) Pour que l'entreprise garde ses relations avec les clients si l'agent part
+C) Les agents l'exigent
+D) C'est décoratif
+
+**Q4. Quelle protection particulière certains territoires accordent-ils aux agents de vente?**
+A) Une indemnité en cas de résiliation
+B) Un logement gratuit
+C) La propriété automatique
+D) Des exonérations fiscales
+
+**Q5. Pourquoi Kemi a-t-elle choisi une approche mixte?**
+A) Elle a adapté chaque modèle de vente à la taille et à l'importance de chaque marché
+B) C'était le moins cher
+C) La loi l'exigeait
+D) Elle n'arrivait pas à décider
+
+## Corrigé
+Q1: A
+Q2: D
+Q3: B
+Q4: A
+Q5: A
+
+## Réponses et explications
+**Q1.** Les équipes internes offrent le contrôle et la loyauté.
+**Q2.** Les agents sont payés surtout selon les résultats.
+**Q3.** Les relations avec les clients sont des actifs précieux.
+**Q4.** Les protections des agents varient. RÈGLE PROPRE À LA RÉGION.
+**Q5.** Des marchés différents justifiaient des modèles différents.
+
+## Points clés
+- Les équipes internes offrent le contrôle; l'impartition offre la souplesse et des coûts fixes plus bas
+- Les contrats d'agents et de distributeurs doivent régler le territoire, la résiliation et la propriété des clients
+- La responsabilité de l'employeur fait partie de la décision
+- Adaptez le modèle de vente à chaque marché
+
+===== ORANGE-L5-010
+TITLE: La marque comme actif : la bâtir, l'évaluer et la protéger
+SUMMARY: Une marque crée un pouvoir de fixation des prix, de la fidélité, de la résilience et des revenus de licence; sa protection juridique est essentielle, et elle se bâtit en tenant ses promesses de façon constante, et non par la seule publicité.
+KEYWORDS: valeur de la marque, la marque comme actif, capital de marque, protection de la marque de commerce, évaluation de la marque
+# La marque comme actif : la bâtir, l'évaluer et la protéger
+
+## Mise en situation
+HYPOTHÈSE/OPINION (scénario hypothétique à des fins pédagogiques seulement) : Imaginez la monnaie d'une économie de taille moyenne qui perd une grande part de sa valeur par rapport aux principales monnaies de réserve en quelques mois, sous l'effet de la fuite des capitaux hors du pays et de l'érosion de la confiance des investisseurs.
+Appliquez-le ici : Dans un pays dont la monnaie s'est effondrée, une marque locale bien connue garde ses clients fidèles même si les prix augmentent, alors que les concurrents génériques perdent des ventes. Posez la question pour plusieurs couleurs : qu'est-ce qui a donné de la valeur à la marque (ORANGE)? Est-elle protégée juridiquement (VIOLET)? Quel effet la force de la marque a-t-elle sur la valeur de l'entreprise aux yeux des investisseurs (BLANC)? La marque peut-elle faire l'objet de licences à l'étranger pour un revenu en monnaie plus forte (BLEU)?
+
+## Objectifs d'apprentissage
+- Expliquer comment les marques créent de la valeur financière
+- Décrire comment la valeur d'une marque est protégée juridiquement et par le marketing
+- Relier la force de la marque au pouvoir de fixation des prix et à l'évaluation de l'entreprise
+
+## Contenu principal
+Une marque est plus qu'un logo. C'est l'ensemble des attentes que les clients ont à l'égard d'une entreprise : la qualité, la fiabilité, les valeurs et l'expérience. Quand ces attentes sont positives et constantes, la marque crée une valeur financière réelle.
+Comment les marques créent de la valeur :
+- Le pouvoir de fixation des prix : les clients peuvent payer plus cher pour une marque de confiance.
+- La fidélité : les clients réguliers coûtent moins cher à servir que les nouveaux (ORANGE-L5-003).
+- La résilience : dans les moments difficiles, les clients restent souvent fidèles aux marques auxquelles ils font confiance, comme dans le scénario.
+- L'expansion : une marque forte peut s'étendre plus facilement à de nouveaux produits ou marchés.
+- Les licences : la marque peut générer un revenu provenant d'autres entreprises (PURPLE-L5-030 dans la piste du droit).
+Comment les couleurs sont reliées :
+- VIOLET : l'enregistrement et l'application de la marque de commerce protègent juridiquement la marque (PURPLE-L5-028 et -029). Sans protection, des concurrents ou des contrefacteurs peuvent utiliser le nom.
+- BLANC : les investisseurs évaluent souvent plus cher les entreprises aux marques fortes en raison de leur pouvoir de fixation des prix et de la stabilité de leurs bénéfices. RÈGLE PROPRE À LA RÉGION : La façon dont la valeur d'une marque apparaît dans les états financiers dépend des règles comptables. Les marques bâties à l'interne ne sont souvent pas comptabilisées à leur pleine valeur, alors que les marques achetées peuvent l'être; au Canada, par exemple, les normes IFRS et les normes comptables pour les entreprises à capital fermé interdisent généralement de comptabiliser une marque générée à l'interne, alors qu'une marque acquise est inscrite au coût, à confirmer avec un comptable.
+- BLEU : les investissements dans la marque (publicité, service à la clientèle, contrôle de la qualité) coûtent de l'argent maintenant pour une valeur future.
+- VERT : RÈGLE PROPRE À LA RÉGION : Les dépenses liées à la marque et les revenus de licence ont un traitement fiscal; la propriété d'une marque entre sociétés liées soulève des questions de prix de transfert.
+- NOIR : une marque se bâtit par un comportement constant dans toute l'entreprise, et pas seulement par le marketing.
+Une marque peut être endommagée rapidement : un problème de qualité, une affirmation trompeuse ou un mauvais traitement des clients peuvent effacer des années de confiance.
+HYPOTHÈSE/OPINION : Les marques les plus durables se bâtissent en tenant leurs promesses à répétition avec le temps. La publicité peut faire connaître une marque, mais seule une livraison constante la soutient.
+
+## Exemple pratique
+EXEMPLE ILLUSTRATIF : Deux torréfacteurs de café exercent leurs activités dans un pays qui traverse un effondrement de sa monnaie.
+Le torréfacteur A a bâti une marque sur 15 ans : une qualité constante, un traitement équitable des producteurs et un emballage clair. Sa marque de commerce est enregistrée dans son pays et dans deux marchés d'exportation.
+Le torréfacteur B vend du café sans marque à bas prix.
+Quand la monnaie s'effondre et que les coûts d'importation montent en flèche :
+- Le torréfacteur A augmente ses prix de 30 %. La plupart des clients restent, parce qu'ils font confiance à sa qualité.
+- Le torréfacteur B augmente ses prix de 30 %. Beaucoup de clients passent à l'option la moins chère.
+Le torréfacteur A concède aussi une licence sur sa marque à un distributeur d'un marché d'exportation dont la monnaie est plus forte, en échange de redevances (PURPLE-L5-030), ce qui lui procure un revenu en devises étrangères.
+Deux ans plus tard, un investisseur évalue le torréfacteur A à un multiple des bénéfices beaucoup plus élevé que le torréfacteur B, en invoquant la force de la marque, la fidélité des clients et le revenu de licence.
+HYPOTHÈSE/OPINION : La marque du torréfacteur A s'est bâtie lentement grâce à une qualité constante et à des pratiques équitables. Cet investissement a surtout rapporté pendant la crise, quand les clients ont dû décider à qui faire confiance.
+
+## Questionnaire pratique
+**Q1. Selon la leçon, qu'est-ce qu'une marque?**
+A) L'ensemble des attentes que les clients ont à l'égard d'une entreprise
+B) Simplement un logo
+C) Un type d'impôt
+D) Une entité juridique
+
+**Q2. Comment une marque crée-t-elle un pouvoir de fixation des prix?**
+A) Les clients peuvent payer plus cher pour une marque de confiance
+B) En réduisant les coûts
+C) En évitant légalement la concurrence
+D) En réduisant les impôts
+
+**Q3. Pourquoi les marques bâties à l'interne ne sont-elles souvent pas comptabilisées à leur pleine valeur dans les états financiers?**
+A) Elles n'ont aucune valeur
+B) Elles sont secrètes
+C) Elles sont illégales
+D) Les règles comptables les traitent souvent différemment des marques achetées
+
+**Q4. Pourquoi le torréfacteur A a-t-il gardé la plupart de ses clients après avoir augmenté ses prix?**
+A) Les clients faisaient confiance à sa qualité constante
+B) Il n'avait aucun concurrent
+C) Le gouvernement l'exigeait
+D) Il a réduit la qualité
+
+**Q5. Selon la leçon, qu'est-ce qui soutient une marque?**
+A) Seulement une publicité intense
+B) Un logo astucieux
+C) Le fait de tenir ses promesses de façon constante avec le temps
+D) Des prix bas
+
+## Corrigé
+Q1: A
+Q2: A
+Q3: D
+Q4: A
+Q5: C
+
+## Réponses et explications
+**Q1.** Les marques se bâtissent à partir des attentes des clients.
+**Q2.** La confiance soutient des prix plus élevés.
+**Q3.** Le traitement comptable varie. RÈGLE PROPRE À LA RÉGION.
+**Q4.** La confiance envers la marque a créé de la résilience.
+**Q5.** La livraison soutient ce que la publicité fait connaître.
+
+## Points clés
+- Les marques créent un pouvoir de fixation des prix, de la fidélité, de la résilience et des revenus de licence
+- La protection juridique est essentielle à la valeur d'une marque
+- La force de la marque influe sur l'évaluation de l'entreprise
+- Les marques se bâtissent par une livraison constante, et pas seulement par la publicité

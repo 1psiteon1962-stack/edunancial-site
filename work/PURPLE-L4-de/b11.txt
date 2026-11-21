@@ -1,0 +1,399 @@
+===== PURPLE-L4-041
+TITLE: Analyse der internationalen und örtlichen Zuständigkeit: Warum ein Gericht mehr braucht als einen klagewilligen Kläger
+SUMMARY: Erfahre, warum ein Gericht einen Fall nur entscheiden darf, wenn es örtlich und international zuständig ist, warum der Beklagte grundsätzlich an seinem Wohnsitz verklagt werden muss, welche besonderen Gerichtsstände etwa am Erfüllungsort oder am Ort einer unerlaubten Handlung bestehen und warum die Zuständigkeit auch für die spätere Vollstreckung wichtig ist.
+KEYWORDS: Zuständigkeit, Gerichtsstand, Brüssel-Ia-Verordnung, Wohnsitz des Beklagten, besonderer Gerichtsstand
+# Analyse der internationalen und örtlichen Zuständigkeit: Warum ein Gericht mehr braucht als einen klagewilligen Kläger
+
+## Einstiegsszenario
+ANNAHME/MEINUNG (hypothetisches Szenario nur zu Lehrzwecken): Stell dir vor, eine weitreichende Störung der öffentlichen Gesundheit legt den weltweiten Schiffsverkehr und die Produktion über längere Zeit lahm und bringt die Lieferketten vieler Branchen gleichzeitig durcheinander. Während Unternehmen in der Krise mit Lieferanten und Kunden in vielen Ländern streiten, wollen sie am liebsten an ihrem eigenen Sitz klagen, vor dem vertrauten Gericht und in ihrer eigenen Sprache. Manche reichen Klagen ein und erfahren dann, dass das Gericht sie als unzulässig abweist, weil es gar nicht zuständig ist. Diese Lektion untersucht, warum ein Gericht mehr braucht als einen Kläger, der dort klagen möchte.
+
+## Lernziele
+- Erklären, warum ein Gericht einen Fall nur entscheiden darf, wenn es örtlich und, bei Auslandsbezug, international zuständig ist.
+- Erklären, warum der Beklagte grundsätzlich an seinem Wohnsitz oder Sitz verklagt werden muss.
+- Wichtige besondere Gerichtsstände erkennen, etwa am Erfüllungsort, am Ort einer unerlaubten Handlung und für Verbraucher.
+- Erklären, warum die Wahl des Gerichtsstands auch für die spätere Anerkennung und Vollstreckung eines Urteils wichtig ist.
+
+## Hauptinhalt
+GEPRÜFTE TATSACHE: Nach der Brüssel-Ia-Verordnung sind Personen, die ihren Wohnsitz im Hoheitsgebiet eines EU-Mitgliedstaats haben, grundsätzlich vor den Gerichten dieses Mitgliedstaats zu verklagen (Art. 4); in einem anderen Mitgliedstaat können sie nur verklagt werden, wenn ein besonderer Gerichtsstand der Verordnung besteht, etwa in Vertragssachen am Erfüllungsort der Verpflichtung (Art. 7 Nr. 1) oder bei unerlaubten Handlungen am Ort, an dem das schädigende Ereignis eingetreten ist oder einzutreten droht (Art. 7 Nr. 2). Innerhalb Deutschlands regelt die Zivilprozessordnung die örtliche Zuständigkeit nach demselben Grundgedanken: Der allgemeine Gerichtsstand einer Person ist ihr Wohnsitz, der einer Gesellschaft ihr Sitz (§§ 12, 13, 17 ZPO).
+
+Hier das „Warum“, weshalb der Beklagte grundsätzlich an seinem Wohnsitz verklagt werden muss: Der Kläger entscheidet, ob und wann ein Prozess beginnt; der Beklagte wird in das Verfahren hineingezogen. Es wäre unfair, wenn der Kläger ihn zusätzlich zwingen könnte, sich vor einem weit entfernten, fremden Gericht in einer fremden Sprache zu verteidigen. Der Grundsatz „Der Kläger folgt dem Beklagten“ schützt deshalb den Beklagten und macht zugleich vorhersehbar, wo man verklagt werden kann. Ein Gericht, das nicht zuständig ist, muss die Klage als unzulässig abweisen oder sie, wenn der Kläger es beantragt, innerhalb Deutschlands an das zuständige Gericht verweisen; auf die Frage, ob der Anspruch in der Sache besteht, kommt es dann gar nicht an.
+
+Deshalb gibt es besondere Gerichtsstände, wo ein anderer Ort eine engere Verbindung zum Streit hat: Am Erfüllungsort lassen sich Beweise über die Lieferung oder Leistung oft besser erheben; am Ort einer unerlaubten Handlung kann ein Geschädigter dort klagen, wo der Schaden verursacht wurde oder eingetreten ist. Verbraucher, deren Vertragspartner seine Tätigkeit auf ihren Wohnsitzstaat ausrichtet, können dort klagen und grundsätzlich nur dort verklagt werden (Lektion 29). Hinzu kommen ausschließliche Gerichtsstände, etwa für Rechte an Grundstücken am Ort der belegenen Sache, und die Möglichkeit, einen Gerichtsstand zu vereinbaren. Lässt sich der Beklagte auf eine Klage vor einem eigentlich unzuständigen Gericht rügelos ein, wird dieses Gericht in vielen Fällen zuständig. Deshalb ist die Zuständigkeit auch für die spätere Vollstreckung wichtig, LÄNDERSPEZIFISCHE REGEL, die Anerkennungs- und Vollstreckungsregeln im Zielstaat prüfen: Innerhalb der EU werden Urteile eines zuständigen Gerichts in den anderen Mitgliedstaaten grundsätzlich ohne besonderes Verfahren anerkannt und vollstreckt; außerhalb der EU hängt die Vollstreckung deutscher Urteile von den Regeln des jeweiligen Staates und von Staatsverträgen ab und kann schwierig sein. Wer gegen einen Beklagten mit Vermögen nur im Ausland klagt, sollte deshalb von Anfang an prüfen, ob ein Urteil dort überhaupt durchsetzbar ist.
+
+## Durchgerechnetes Beispiel
+BEISPIEL ZUR VERANSCHAULICHUNG: Ein Hamburger Unternehmen will einen Kunden mit Sitz in Lyon auf Zahlung von 80.000 € für gelieferte Maschinen verklagen und reicht die Klage beim Landgericht Hamburg ein, weil es dort seinen Sitz hat. Der Vertrag enthält keine Gerichtsstandsvereinbarung. Weil der Kunde seinen Sitz in Frankreich hat, ist grundsätzlich ein französisches Gericht zuständig; ein besonderer Gerichtsstand in Deutschland käme nur in Betracht, wenn der Erfüllungsort der Lieferpflicht in Deutschland läge. Da die Maschinen vertragsgemäß in Lyon zu liefern waren, liegt auch der Erfüllungsort in Frankreich, und das Landgericht Hamburg weist die Klage als unzulässig ab, ohne über den Zahlungsanspruch zu entscheiden. Bei einem späteren Vertrag mit einem anderen französischen Kunden vereinbart das Unternehmen ausdrücklich Hamburg als Gerichtsstand und kann dort klagen; das Urteil kann es in Frankreich ohne besonderes Verfahren vollstrecken.
+
+## Übungsquiz
+**Q1. Warum darf ein Gericht nicht jeden Fall entscheiden, den ein Kläger dort einreicht?**
+A) Weil Gerichte frei wählen, welche Fälle sie mögen
+B) Weil es nur entscheiden darf, wenn es örtlich und bei Auslandsbezug auch international zuständig ist; sonst muss es die Klage als unzulässig abweisen oder verweisen, ohne über den Anspruch zu entscheiden
+C) Weil nur der Beklagte bestimmen darf, welches Gericht entscheidet
+D) Weil Zuständigkeit nur im Strafrecht eine Rolle spielt
+
+**Q2. Warum muss der Beklagte grundsätzlich an seinem Wohnsitz oder Sitz verklagt werden?**
+A) Weil der Kläger immer im Ausland wohnt
+B) Weil der Beklagte in das Verfahren hineingezogen wird und es unfair wäre, ihn zusätzlich zu einer Verteidigung vor einem fernen, fremden Gericht zu zwingen; der Grundsatz schafft zudem Vorhersehbarkeit
+C) Weil Gerichte am Wohnsitz des Klägers grundsätzlich unzuständig sind
+D) Weil der Beklagte immer reicher ist als der Kläger
+
+**Q3. Welche besonderen Gerichtsstände gibt es unter anderem?**
+A) Keine; es gilt ausnahmslos der Wohnsitz des Beklagten
+B) Etwa den Erfüllungsort in Vertragssachen, den Ort des schädigenden Ereignisses bei unerlaubten Handlungen, den Verbrauchergerichtsstand und ausschließliche Gerichtsstände etwa für Grundstücke
+C) Immer den Wohnsitz des Klägers
+D) Den Ort, an dem der Anwalt des Klägers seine Kanzlei hat
+
+**Q4. Warum ist die Zuständigkeit auch für die spätere Vollstreckung wichtig?**
+A) Weil Urteile nie vollstreckt werden
+B) Weil Urteile eines zuständigen Gerichts innerhalb der EU grundsätzlich ohne besonderes Verfahren anerkannt und vollstreckt werden, während die Vollstreckung außerhalb der EU vom jeweiligen Staat abhängt und schwierig sein kann
+C) Weil nur Urteile des Bundesgerichtshofs vollstreckbar sind
+D) Weil die Vollstreckung immer am Wohnsitz des Klägers erfolgt
+
+**Q5. Warum wies das Landgericht Hamburg im Beispiel die erste Klage als unzulässig ab?**
+A) Weil der Zahlungsanspruch unbegründet war
+B) Weil der Kunde seinen Sitz in Frankreich hatte, kein Gerichtsstand vereinbart war und auch der Erfüllungsort in Frankreich lag, sodass kein deutsches Gericht zuständig war
+C) Weil Maschinenverkäufe nicht eingeklagt werden dürfen
+D) Weil das Unternehmen zu spät geklagt hatte
+
+## Lösungsschlüssel
+Q1: B
+Q2: B
+Q3: B
+Q4: B
+Q5: B
+
+## Antworten und Erklärungen
+**Q1.** Die Zuständigkeit als eigene Zulässigkeitsvoraussetzung vor jeder Sachentscheidung ist genau der Grund, warum ein klagewilliger Kläger allein nicht genügt.
+
+**Q2.** Der Schutz des Beklagten und die Vorhersehbarkeit sind genau die Gründe für den allgemeinen Gerichtsstand am Wohnsitz oder Sitz.
+
+**Q3.** Erfüllungsort, Deliktsort, Verbrauchergerichtsstand und ausschließliche Gerichtsstände sind genau wichtige besondere Gerichtsstände.
+
+**Q4.** Die vereinfachte Anerkennung innerhalb der EU und die Unsicherheit außerhalb sind genau der Grund, die Vollstreckbarkeit schon bei der Wahl des Gerichts zu bedenken.
+
+**Q5.** Diese Abweisung ohne Sachentscheidung zeigt genau, warum ein Gericht mehr braucht als einen Kläger, der dort klagen möchte.
+
+## Das Wichtigste in Kürze
+- Ein Gericht darf nur entscheiden, wenn es örtlich und bei Auslandsbezug international zuständig ist; sonst wird die Klage abgewiesen oder verwiesen.
+- Grundsätzlich ist der Beklagte an seinem Wohnsitz oder Sitz zu verklagen.
+- Besondere Gerichtsstände bestehen etwa am Erfüllungsort, am Ort einer unerlaubten Handlung und für Verbraucher; ein Gerichtsstand kann auch vereinbart werden.
+- Die Wahl des Gerichts sollte auch die spätere Anerkennung und Vollstreckung des Urteils berücksichtigen.
+
+===== PURPLE-L4-042
+TITLE: Analyse von Rechtsweg und sachlicher Zuständigkeit: Warum jedes Gericht nur bestimmte Arten von Fällen entscheiden darf
+SUMMARY: Erfahre, warum das deutsche Gerichtssystem in fünf Gerichtsbarkeiten gegliedert ist, warum ein Streit vor das Gericht des richtigen Rechtswegs gehört, wie innerhalb der ordentlichen Gerichtsbarkeit Amtsgericht und Landgericht abgegrenzt werden und warum ein Fehler beim Rechtsweg anders als im US-amerikanischen Recht meist zur Verweisung statt zur Abweisung führt.
+KEYWORDS: Rechtsweg, sachliche Zuständigkeit, ordentliche Gerichtsbarkeit, Arbeitsgericht, Verweisung
+# Analyse von Rechtsweg und sachlicher Zuständigkeit: Warum jedes Gericht nur bestimmte Arten von Fällen entscheiden darf
+
+## Einstiegsszenario
+ANNAHME/MEINUNG (hypothetisches Szenario nur zu Lehrzwecken): Stell dir vor, die Immobilien- und Verbraucherkreditmärkte eines bevölkerungsreichen Landes zeigen nach Jahren schneller Expansion Anzeichen einer scharfen Korrektur, während die Kreditausfälle zu steigen beginnen. Während viele Menschen ihre Arbeit verlieren, Sozialleistungen beantragen, Steuerbescheide anfechten und mit Vermietern und Banken streiten, wissen viele nicht, an welches Gericht sie sich wenden müssen. Manche reichen eine Kündigungsschutzklage beim Landgericht oder eine Klage gegen das Jobcenter beim Amtsgericht ein. Diese Lektion untersucht, warum jedes Gericht nur bestimmte Arten von Fällen entscheiden darf.
+
+## Lernziele
+- Die fünf Gerichtsbarkeiten des deutschen Gerichtssystems und ihre Zuständigkeitsbereiche unterscheiden.
+- Erklären, warum ein Streit vor das Gericht des richtigen Rechtswegs gehört.
+- Erklären, wie innerhalb der ordentlichen Gerichtsbarkeit Amtsgericht und Landgericht sachlich abgegrenzt werden.
+- Erklären, warum ein Fehler beim Rechtsweg oder bei der sachlichen Zuständigkeit meist zur Verweisung und nicht zur endgültigen Abweisung führt.
+
+## Hauptinhalt
+GEPRÜFTE TATSACHE: Das Grundgesetz sieht neben der Verfassungsgerichtsbarkeit fünf Gerichtsbarkeiten mit jeweils eigenen obersten Bundesgerichten vor: die ordentliche Gerichtsbarkeit für Zivil- und Strafsachen, die Arbeitsgerichtsbarkeit, die Verwaltungsgerichtsbarkeit, die Sozialgerichtsbarkeit und die Finanzgerichtsbarkeit (Art. 95 GG). Welche Gerichtsbarkeit zuständig ist, bestimmt sich nach der Art des Streits – etwa bürgerlich-rechtliche Streitigkeiten zwischen Privaten vor den ordentlichen Gerichten, Streitigkeiten aus dem Arbeitsverhältnis vor den Arbeitsgerichten, öffentlich-rechtliche Streitigkeiten in der Regel vor den Verwaltungsgerichten, Streitigkeiten über Sozialleistungen vor den Sozialgerichten und über Steuern vor den Finanzgerichten.
+
+Hier das „Warum“, weshalb ein Streit vor das Gericht des richtigen Rechtswegs gehört: Die einzelnen Gerichtsbarkeiten haben spezialisierte Richter, eigene Verfahrensordnungen und unterschiedliche Kostenregeln, die auf die jeweiligen Streitigkeiten zugeschnitten sind. Vor den Arbeitsgerichten wirken etwa ehrenamtliche Richter aus Arbeitgeber- und Arbeitnehmerkreisen mit, und in der ersten Instanz trägt jede Partei ihre eigenen Anwaltskosten selbst; vor den Sozialgerichten ist das Verfahren für Versicherte in der Regel gerichtskostenfrei, und das Gericht ermittelt den Sachverhalt von Amts wegen. Diese Unterschiede sollen gewährleisten, dass jede Art von Streit von besonders sachkundigen Richtern nach einem passenden Verfahren entschieden wird.
+
+Deshalb gibt es auch innerhalb der ordentlichen Gerichtsbarkeit eine sachliche Zuständigkeit, LÄNDERSPEZIFISCHE REGEL, die aktuellen Streitwertgrenzen und Sonderzuweisungen prüfen: Für Zivilsachen ist in erster Instanz in der Regel bei Streitwerten bis 10.000 € das Amtsgericht zuständig, darüber das Landgericht (Lektion 37); daneben gibt es streitwertunabhängige Zuweisungen, etwa Streitigkeiten über Wohnraummietverhältnisse und Familiensachen an das Amtsgericht und Amtshaftungsansprüche gegen den Staat an das Landgericht. Deshalb führt ein Fehler meist zur Verweisung statt zur endgültigen Abweisung, LÄNDERSPEZIFISCHE REGEL, die Verweisungsregeln im Einzelfall prüfen: Hält ein Gericht den beschrittenen Rechtsweg für unzulässig, spricht es dies von Amts wegen aus und verweist den Rechtsstreit an das zuständige Gericht des zulässigen Rechtswegs, das an die Verweisung gebunden ist (§ 17a GVG); ist es innerhalb der ordentlichen Gerichtsbarkeit sachlich oder örtlich unzuständig, verweist es auf Antrag des Klägers an das zuständige Gericht (§ 281 ZPO). Anders als bei US-amerikanischen Bundesgerichten mit begrenzter „subject matter jurisdiction“, die eine unzuständig eingereichte Klage oft abweisen, geht die Klage in Deutschland also in der Regel nicht verloren. Dennoch kostet ein Fehler Zeit und unter Umständen zusätzliche Kosten, und besondere Klagefristen – etwa die dreiwöchige Frist für die Kündigungsschutzklage – werden nicht immer durch die Klage beim falschen Gericht gewahrt, sodass man sich vorher vergewissern sollte.
+
+## Durchgerechnetes Beispiel
+BEISPIEL ZUR VERANSCHAULICHUNG: Ein Lagerarbeiter wird während der Kreditkrise gekündigt; zugleich lehnt das Jobcenter einen Antrag seiner Familie auf Bürgergeld ab, und sein Vermieter verlangt 3.000 € Mietrückstand. Er reicht alle drei Klagen beim örtlichen Amtsgericht ein. Das Amtsgericht ist nur für die Mietsache zuständig, weil Streitigkeiten über Wohnraummiete dort unabhängig vom Streitwert hingehören. Die Kündigungsschutzklage verweist es an das Arbeitsgericht und die Klage gegen das Jobcenter an das Sozialgericht, die jeweils daran gebunden sind. Weil er die Kündigungsschutzklage innerhalb der Drei-Wochen-Frist erhoben und das Gericht sie verwiesen hat, kann er seinen Anspruch weiterverfolgen; er verliert aber einige Wochen und hätte sich mit einer kurzen Rechtsberatung den Umweg sparen können.
+
+## Übungsquiz
+**Q1. Welche fünf Gerichtsbarkeiten sieht das Grundgesetz neben der Verfassungsgerichtsbarkeit vor?**
+A) Nur eine einheitliche Gerichtsbarkeit für alle Streitigkeiten
+B) Die ordentliche Gerichtsbarkeit, die Arbeits-, die Verwaltungs-, die Sozial- und die Finanzgerichtsbarkeit
+C) Nur Straf- und Familiengerichte
+D) Nur Bundes- und Landesgerichte ohne weitere Unterscheidung
+
+**Q2. Warum gehört ein Streit vor das Gericht des richtigen Rechtswegs?**
+A) Weil alle Gerichte nach denselben Regeln mit denselben Richtern entscheiden
+B) Weil die Gerichtsbarkeiten spezialisierte Richter, eigene Verfahrensordnungen und angepasste Kostenregeln haben, damit jede Art von Streit sachkundig und nach einem passenden Verfahren entschieden wird
+C) Weil der Kläger sich das Gericht frei aussuchen darf
+D) Weil nur Arbeitsgerichte Urteile fällen dürfen
+
+**Q3. Wie werden innerhalb der ordentlichen Gerichtsbarkeit Amtsgericht und Landgericht in Zivilsachen abgegrenzt?**
+A) Allein nach dem Wohnort des Richters
+B) In der Regel nach dem Streitwert, bis 10.000 € Amtsgericht und darüber Landgericht, ergänzt um streitwertunabhängige Zuweisungen etwa für Wohnraummiete an das Amtsgericht und für Amtshaftung an das Landgericht
+C) Allein nach dem Alter der Parteien
+D) Es gibt keine Abgrenzung
+
+**Q4. Was geschieht in der Regel, wenn eine Klage beim Gericht des falschen Rechtswegs eingereicht wird?**
+A) Die Klage wird endgültig abgewiesen und der Anspruch geht verloren
+B) Das Gericht spricht die Unzulässigkeit des Rechtswegs von Amts wegen aus und verweist den Rechtsstreit an das zuständige Gericht, das an die Verweisung gebunden ist
+C) Das Gericht entscheidet trotzdem in der Sache
+D) Der Kläger muss eine Strafe zahlen
+
+**Q5. Warum entschied das Amtsgericht im Beispiel nur über die Mietsache?**
+A) Weil die Mietforderung die höchste war
+B) Weil Streitigkeiten über Wohnraummiete streitwertunabhängig dem Amtsgericht zugewiesen sind, während die Kündigungsschutzklage zum Arbeitsgericht und die Klage gegen das Jobcenter zum Sozialgericht gehören und dorthin verwiesen wurden
+C) Weil Amtsgerichte keine Arbeits- und Sozialsachen kennen dürfen
+D) Weil der Arbeiter die anderen Klagen zurücknahm
+
+## Lösungsschlüssel
+Q1: B
+Q2: B
+Q3: B
+Q4: B
+Q5: B
+
+## Antworten und Erklärungen
+**Q1.** Ordentliche, Arbeits-, Verwaltungs-, Sozial- und Finanzgerichtsbarkeit sind genau die fünf Gerichtsbarkeiten nach Art. 95 GG.
+
+**Q2.** Spezialisierung, eigene Verfahrensordnungen und angepasste Kostenregeln sind genau der Grund, warum der richtige Rechtsweg wichtig ist.
+
+**Q3.** Streitwertgrenze und streitwertunabhängige Zuweisungen sind genau die Kriterien der sachlichen Zuständigkeit zwischen Amts- und Landgericht.
+
+**Q4.** Die bindende Verweisung von Amts wegen ist genau die deutsche Lösung bei einem falschen Rechtsweg, sodass die Klage in der Regel nicht verloren geht.
+
+**Q5.** Diese Aufteilung auf Amtsgericht, Arbeitsgericht und Sozialgericht zeigt genau, warum jedes Gericht nur bestimmte Arten von Fällen entscheiden darf.
+
+## Das Wichtigste in Kürze
+- Neben der Verfassungsgerichtsbarkeit gibt es fünf Gerichtsbarkeiten: ordentliche, Arbeits-, Verwaltungs-, Sozial- und Finanzgerichtsbarkeit.
+- Jede Gerichtsbarkeit hat spezialisierte Richter, eigene Verfahrensregeln und angepasste Kostenregeln.
+- In Zivilsachen entscheidet in der Regel bis 10.000 € das Amtsgericht, darüber das Landgericht; es gibt streitwertunabhängige Zuweisungen.
+- Bei falschem Rechtsweg oder unzuständigem Gericht wird meist verwiesen, doch Zeit und besondere Klagefristen sollten beachtet werden.
+
+===== PURPLE-L4-043
+TITLE: Analyse der Beweisbedürftigkeit im Zivilprozess: Warum nur bestrittene, entscheidungserhebliche Tatsachen eine Beweisaufnahme auslösen
+SUMMARY: Erfahre, warum es im deutschen Zivilprozess kein „summary judgment“ nach US-Vorbild gibt, warum das Gericht trotzdem ohne Beweisaufnahme entscheiden kann, wenn die wesentlichen Tatsachen nicht bestritten sind, warum nicht bestrittene Tatsachen als zugestanden gelten und welche schnellen Verfahren wie der Urkundenprozess und das Versäumnisurteil es gibt.
+KEYWORDS: Beweisaufnahme, Bestreiten, entscheidungserhebliche Tatsache, Urkundenprozess, Versäumnisurteil
+# Analyse der Beweisbedürftigkeit im Zivilprozess: Warum nur bestrittene, entscheidungserhebliche Tatsachen eine Beweisaufnahme auslösen
+
+## Einstiegsszenario
+ANNAHME/MEINUNG (hypothetisches Szenario nur zu Lehrzwecken): Stell dir vor, die Regierung eines mittelgroßen Staates deutet an, eine bevorstehende Zahlung auf ihre Anleihen möglicherweise nicht leisten zu können, und das Ausfallrisiko ihrer Schulden steigt. Während viele Unternehmen in Zahlungsschwierigkeiten geraten, verzögern sie Zahlungen, indem sie Klagen ihrer Gläubiger mit pauschalen Einwänden bestreiten, in der Hoffnung, dass sich der Prozess lange hinzieht. Gläubiger fragen sich, ob ein Gericht einen solchen Fall schnell entscheiden kann, ohne monatelang Zeugen zu hören. Diese Lektion untersucht, wann der deutsche Zivilprozess eine Beweisaufnahme verlangt und wann nicht.
+
+## Lernziele
+- Erklären, warum es im deutschen Zivilprozess kein eigenes „summary judgment“ gibt und warum das Gericht trotzdem ohne Beweisaufnahme entscheiden kann.
+- Erklären, warum nicht bestrittene Tatsachen als zugestanden gelten und warum pauschales Bestreiten nicht immer genügt.
+- Erklären, warum nur entscheidungserhebliche Tatsachen bewiesen werden müssen.
+- Schnelle Verfahren wie den Urkundenprozess und das Versäumnisurteil erkennen.
+
+## Hauptinhalt
+In den Vereinigten Staaten kann ein Gericht durch „summary judgment“ ohne Verhandlung vor einer Jury entscheiden, wenn es keinen echten Streit über eine wesentliche Tatsache gibt. GEPRÜFTE TATSACHE: Der deutsche Zivilprozess kennt kein solches eigenes Verfahren, weil ohnehin der Richter und nicht eine Jury über Tatsachen und Recht entscheidet; nach § 138 Abs. 3 ZPO sind aber Tatsachen, die nicht ausdrücklich bestritten werden, als zugestanden anzusehen, wenn die Absicht, sie zu bestreiten, nicht aus den übrigen Erklärungen der Partei hervorgeht, und Beweis wird nur über bestrittene Tatsachen erhoben, auf die es für die Entscheidung ankommt.
+
+Hier das „Warum“, weshalb nur bestrittene, entscheidungserhebliche Tatsachen eine Beweisaufnahme auslösen: Eine Beweisaufnahme mit Zeugen, Sachverständigen und Urkunden kostet Zeit und Geld. Sie ist nur sinnvoll, wenn die Parteien über eine Tatsache tatsächlich uneinig sind und das Ergebnis des Rechtsstreits davon abhängt. Das Gericht prüft deshalb zunächst, ob die Klage nach dem Vortrag des Klägers überhaupt begründet wäre (Schlüssigkeit) und ob die Einwände des Beklagten erheblich sind. Sind die entscheidenden Tatsachen unstreitig oder kommt es auf die streitigen Tatsachen nach der Rechtslage gar nicht an, entscheidet das Gericht ohne Beweisaufnahme. So erreicht der deutsche Prozess über die Prüfung der Schlüssigkeit und Erheblichkeit ein ähnliches Ergebnis wie das „summary judgment“.
+
+Deshalb genügt ein pauschales Bestreiten nicht immer: Die Parteien müssen sich über tatsächliche Umstände vollständig und wahrheitsgemäß erklären, und eine Partei, die Vorgänge in ihrem eigenen Wahrnehmungsbereich – etwa den Empfang einer Lieferung – nur pauschal bestreitet, kann damit unbeachtlich sein; über Tatsachen, die weder eigene Handlungen noch Gegenstand eigener Wahrnehmung sind, ist eine Erklärung mit Nichtwissen zulässig. Wer substantiiert bestreitet, muss konkrete Gegenumstände darlegen. Deshalb gibt es zusätzlich schnelle Verfahren: Im Urkundenprozess kann ein Kläger einen Anspruch auf Zahlung einer Geldsumme, den er vollständig durch Urkunden beweisen kann, etwa aus einem unterschriebenen Vertrag oder Schuldanerkenntnis, in einem beschleunigten Verfahren geltend machen, in dem andere Beweismittel weitgehend ausgeschlossen sind; der Beklagte kann seine weiteren Einwände erst in einem Nachverfahren vorbringen, während der Kläger aus dem Vorbehaltsurteil bereits vorläufig vollstrecken kann. Erscheint eine Partei nicht oder verteidigt sie sich nicht fristgerecht, kann ein Versäumnisurteil ergehen, und erkennt der Beklagte den Anspruch an, ergeht ein Anerkenntnisurteil.
+
+## Durchgerechnetes Beispiel
+BEISPIEL ZUR VERANSCHAULICHUNG: Ein Lieferant klagt gegen einen Abnehmer auf Zahlung von 30.000 € für eine Lieferung von Stahl, belegt durch einen unterschriebenen Vertrag, einen vom Abnehmer unterzeichneten Lieferschein und eine Rechnung. Der Abnehmer bestreitet in seiner Klageerwiderung pauschal, „die Forderung bestehe nicht“, ohne den Empfang der Lieferung oder ihre Qualität konkret anzugreifen. Das Gericht weist darauf hin, dass ein solches Bestreiten von Vorgängen im eigenen Wahrnehmungsbereich unbeachtlich ist; weil der Abnehmer nichts Konkretes nachträgt, sind die maßgeblichen Tatsachen unstreitig, und das Gericht verurteilt ihn ohne Beweisaufnahme nach der ersten mündlichen Verhandlung. Ein anderer Abnehmer, der konkret darlegt, dass ein bestimmter Teil der Lieferung nicht der vereinbarten Stahlgüte entsprach, und dafür ein Prüfprotokoll vorlegt, löst dagegen eine Beweisaufnahme durch einen Sachverständigen aus, weil diese Tatsache bestritten und entscheidungserheblich ist.
+
+## Übungsquiz
+**Q1. Wie erreicht der deutsche Zivilprozess ohne eigenes „summary judgment“ eine schnelle Entscheidung?**
+A) Gar nicht; jeder Fall erfordert eine umfangreiche Beweisaufnahme
+B) Das Gericht prüft Schlüssigkeit und Erheblichkeit und erhebt Beweis nur über bestrittene, entscheidungserhebliche Tatsachen; sind diese unstreitig, entscheidet es ohne Beweisaufnahme
+C) Eine Jury entscheidet in einem Schnellverfahren
+D) Der Kläger entscheidet allein über den Ausgang
+
+**Q2. Warum werden nur bestrittene, entscheidungserhebliche Tatsachen bewiesen?**
+A) Weil Beweise grundsätzlich unzulässig sind
+B) Weil eine Beweisaufnahme Zeit und Geld kostet und nur sinnvoll ist, wenn die Parteien über eine Tatsache uneinig sind und das Ergebnis davon abhängt
+C) Weil der Richter alle Tatsachen schon kennt
+D) Weil nur unbestrittene Tatsachen relevant sind
+
+**Q3. Warum genügt ein pauschales Bestreiten nicht immer?**
+A) Weil Bestreiten grundsätzlich verboten ist
+B) Weil die Parteien sich vollständig und wahrheitsgemäß erklären müssen und das pauschale Bestreiten von Vorgängen im eigenen Wahrnehmungsbereich unbeachtlich sein kann, sodass die Tatsache als zugestanden gilt
+C) Weil das Gericht jedes Bestreiten ignoriert
+D) Weil nur der Kläger bestreiten darf
+
+**Q4. Welche schnellen Verfahren gibt es neben der Entscheidung ohne Beweisaufnahme?**
+A) Keine
+B) Etwa den Urkundenprozess für urkundlich belegbare Geldforderungen mit Vorbehaltsurteil und Nachverfahren, das Versäumnisurteil und das Anerkenntnisurteil
+C) Nur das Strafverfahren
+D) Nur eine Entscheidung durch das Los
+
+**Q5. Warum entschied das Gericht im Beispiel über die erste Klage ohne Beweisaufnahme, während die zweite eine Beweisaufnahme auslöste?**
+A) Weil die erste Forderung niedriger war
+B) Weil der erste Abnehmer nur pauschal bestritt, sodass die maßgeblichen Tatsachen unstreitig waren, während der zweite die Stahlgüte konkret und mit einem Prüfprotokoll bestritt, eine entscheidungserhebliche Tatsache
+C) Weil Lieferanten immer gewinnen
+D) Weil Sachverständige nur auf Wunsch des Klägers beauftragt werden
+
+## Lösungsschlüssel
+Q1: B
+Q2: B
+Q3: B
+Q4: B
+Q5: B
+
+## Antworten und Erklärungen
+**Q1.** Die Prüfung von Schlüssigkeit und Erheblichkeit mit Beweisaufnahme nur über streitige, erhebliche Tatsachen ist genau der deutsche Weg zu einer schnellen Entscheidung.
+
+**Q2.** Weil eine Beweisaufnahme aufwendig ist, beschränkt sie sich genau auf die streitigen Tatsachen, auf die es ankommt.
+
+**Q3.** Die Erklärungspflicht und die Unbeachtlichkeit pauschalen Bestreitens im eigenen Wahrnehmungsbereich sind genau der Grund, warum solche Tatsachen als zugestanden gelten können.
+
+**Q4.** Urkundenprozess, Versäumnisurteil und Anerkenntnisurteil sind genau weitere Wege zu einer schnellen Entscheidung.
+
+**Q5.** Dieser Gegensatz zwischen pauschalem und substantiiertem Bestreiten zeigt genau, wann eine Beweisaufnahme nötig ist.
+
+## Das Wichtigste in Kürze
+- Der deutsche Zivilprozess kennt kein eigenes „summary judgment“, entscheidet aber ohne Beweisaufnahme, wenn die erheblichen Tatsachen unstreitig sind.
+- Nicht bestrittene Tatsachen gelten als zugestanden; pauschales Bestreiten eigener Wahrnehmungen kann unbeachtlich sein.
+- Beweis wird nur über bestrittene Tatsachen erhoben, auf die es für die Entscheidung ankommt.
+- Urkundenprozess, Versäumnisurteil und Anerkenntnisurteil ermöglichen zusätzlich schnelle Entscheidungen.
+
+===== PURPLE-L4-044
+TITLE: Analyse der Rechtskraft: Warum ein rechtskräftiges Urteil einen Streit in der Regel endgültig beendet – und wo seine Bindung endet
+SUMMARY: Erfahre, warum ein rechtskräftiges Urteil eine erneute Klage über denselben Streitgegenstand ausschließt, warum die Rechtskraft im deutschen Recht grundsätzlich nur die Entscheidung über den geltend gemachten Anspruch und nicht die Begründung erfasst, warum das anders ist als die US-amerikanische „issue preclusion“ und warum eine Wiederaufnahme nur in engen Ausnahmefällen möglich ist.
+KEYWORDS: Rechtskraft, Streitgegenstand, Teilklage, Zwischenfeststellungsklage, Wiederaufnahme
+# Analyse der Rechtskraft: Warum ein rechtskräftiges Urteil einen Streit in der Regel endgültig beendet – und wo seine Bindung endet
+
+## Einstiegsszenario
+ANNAHME/MEINUNG (hypothetisches Szenario nur zu Lehrzwecken): Stell dir vor, die Immobilien- und Verbraucherkreditmärkte eines bevölkerungsreichen Landes zeigen nach Jahren schneller Expansion Anzeichen einer scharfen Korrektur, während die Kreditausfälle zu steigen beginnen. Während viele Prozesse über Kredite, Bauverträge und Mieten verloren werden, versuchen manche unterlegene Parteien, denselben Streit mit neuen Argumenten oder vor einem anderen Gericht noch einmal zu führen. Andere wundern sich, dass ein Gericht in einem neuen Prozess eine Vorfrage anders beurteilt als im ersten. Diese Lektion untersucht, wie weit die Bindung eines rechtskräftigen Urteils im deutschen Recht reicht.
+
+## Lernziele
+- Erklären, warum ein rechtskräftiges Urteil eine erneute Klage über denselben Streitgegenstand ausschließt.
+- Erklären, warum die Rechtskraft im deutschen Recht grundsätzlich nur die Entscheidung über den geltend gemachten Anspruch und nicht die Urteilsgründe erfasst.
+- Den Unterschied zur US-amerikanischen „issue preclusion“ erklären und wie man eine Vorfrage dennoch verbindlich klären lassen kann.
+- Erklären, warum eine Wiederaufnahme des Verfahrens nur in engen Ausnahmefällen möglich ist.
+
+## Hauptinhalt
+GEPRÜFTE TATSACHE: Nach § 322 Abs. 1 ZPO sind Urteile der Rechtskraft nur insoweit fähig, als über den durch die Klage erhobenen Anspruch entschieden ist; ist ein Urteil formell rechtskräftig, also mit Rechtsmitteln nicht mehr anfechtbar, darf über denselben Streitgegenstand zwischen denselben Parteien grundsätzlich nicht erneut entschieden werden, und Tatsachen, die schon im ersten Verfahren hätten vorgebracht werden können, sind für eine erneute Klage über denselben Streitgegenstand ausgeschlossen.
+
+Hier das „Warum“, weshalb ein rechtskräftiges Urteil den Streit beendet: Ohne Rechtskraft könnte eine unterlegene Partei denselben Streit immer wieder vor Gericht bringen, und die obsiegende Partei könnte sich nie auf ihr Urteil verlassen. Die Rechtskraft dient deshalb dem Rechtsfrieden, der Rechtssicherheit und der Entlastung der Gerichte. Wer neue Argumente oder Beweise hat, muss sie im laufenden Verfahren und in den Rechtsmittelinstanzen vorbringen; nach Eintritt der Rechtskraft ist das grundsätzlich zu spät. MEINUNG und eine unter Prozessrechtlern verbreitete Einschätzung, gerade diese Endgültigkeit zwingt die Parteien, ihren Fall von Anfang an vollständig vorzubereiten.
+
+Deshalb ist die Reichweite der Rechtskraft genau zu bestimmen: Sie erfasst den Streitgegenstand, also den konkreten Antrag auf Grundlage des vorgetragenen Lebenssachverhalts, nicht aber die Gründe, auf denen das Urteil beruht. Entscheidet ein Gericht etwa, dass eine bestimmte Mietzahlung geschuldet ist, weil der Mietvertrag wirksam sei, ist in einem späteren Prozess über eine andere Monatsmiete die Wirksamkeit des Vertrags nicht bindend festgestellt. Das unterscheidet das deutsche Recht spürbar vom US-amerikanischen Recht, das mit der „collateral estoppel“ oder „issue preclusion“ auch die Entscheidung über tatsächlich streitige und notwendig entschiedene Einzelfragen in späteren Verfahren bindend werden lässt. Wer im deutschen Recht eine solche Vorfrage verbindlich klären lassen will, kann eine Zwischenfeststellungsklage erheben oder von vornherein auf Feststellung des Rechtsverhältnisses klagen. Bei einer Teilklage, in der nur ein Teil einer Forderung eingeklagt wird, erfasst die Rechtskraft grundsätzlich nur diesen Teil, sodass der Rest später noch geltend gemacht werden kann, sofern er nicht verjährt ist. Deshalb ist eine Wiederaufnahme nur in engen Ausnahmefällen möglich: Ein rechtskräftig abgeschlossenes Verfahren kann nur unter strengen gesetzlichen Voraussetzungen wieder aufgenommen werden, etwa wenn das Urteil auf einer gefälschten Urkunde oder einer strafbaren falschen Zeugenaussage beruht oder die Partei eine Urkunde auffindet, die eine ihr günstigere Entscheidung herbeigeführt haben würde; dafür gelten kurze Fristen.
+
+## Durchgerechnetes Beispiel
+BEISPIEL ZUR VERANSCHAULICHUNG: Ein Vermieter klagt gegen einen gewerblichen Mieter auf die Miete für Januar über 5.000 €; das Gericht weist die Klage ab, weil es den Mietvertrag wegen eines Formfehlers für wirksam gekündigt hält, und das Urteil wird rechtskräftig. Der Vermieter kann die Januarmiete nicht noch einmal mit neuen Argumenten einklagen, weil über diesen Streitgegenstand rechtskräftig entschieden ist. Klagt er später die Miete für Februar ein, ist das zweite Gericht an die Begründung des ersten Urteils, der Vertrag sei beendet, dagegen nicht gebunden und kann die Kündigung anders beurteilen – anders als es in den USA unter der „issue preclusion“ häufig der Fall wäre. Hätte der Vermieter im ersten Prozess zusätzlich die Feststellung beantragt, dass der Mietvertrag fortbesteht, wäre diese Frage für beide Seiten verbindlich geklärt worden.
+
+## Übungsquiz
+**Q1. Welche Wirkung hat ein rechtskräftiges Urteil?**
+A) Es kann jederzeit mit neuen Argumenten erneut angegriffen werden
+B) Über denselben Streitgegenstand zwischen denselben Parteien darf grundsätzlich nicht erneut entschieden werden, und Tatsachen, die im ersten Verfahren hätten vorgebracht werden können, sind insoweit ausgeschlossen
+C) Es bindet nur den Richter, nicht die Parteien
+D) Es gilt nur für ein Jahr
+
+**Q2. Warum beendet ein rechtskräftiges Urteil den Streit?**
+A) Weil Gerichte keine Fehler machen
+B) Weil sonst Streitigkeiten endlos wiederholt werden könnten; die Rechtskraft dient Rechtsfrieden, Rechtssicherheit und der Entlastung der Gerichte
+C) Weil neue Beweise nie vorkommen
+D) Weil der Gewinner immer recht hat
+
+**Q3. Was erfasst die Rechtskraft im deutschen Recht grundsätzlich?**
+A) Alle in den Urteilsgründen beurteilten Vorfragen
+B) Nur die Entscheidung über den durch die Klage erhobenen Anspruch, also den Streitgegenstand, nicht aber die Gründe, auf denen sie beruht
+C) Nur die Kostenentscheidung
+D) Alle künftigen Streitigkeiten zwischen den Parteien
+
+**Q4. Wie unterscheidet sich das deutsche Recht von der US-amerikanischen „issue preclusion“?**
+A) Es gibt keinen Unterschied
+B) In den USA können auch entschiedene Einzelfragen in späteren Verfahren binden, während im deutschen Recht grundsätzlich nur der Streitgegenstand bindet; eine Vorfrage lässt sich aber durch Zwischenfeststellungs- oder Feststellungsklage verbindlich klären
+C) Das deutsche Recht bindet stärker als das US-amerikanische
+D) Im deutschen Recht gibt es keine Rechtskraft
+
+**Q5. Warum war das zweite Gericht im Beispiel bei der Februarmiete nicht an die Begründung des ersten Urteils gebunden?**
+A) Weil das erste Urteil nicht rechtskräftig war
+B) Weil die Rechtskraft nur den Streitgegenstand – die Januarmiete – erfasste und nicht die Vorfrage, ob der Mietvertrag beendet war; diese hätte nur durch einen zusätzlichen Feststellungsantrag verbindlich geklärt werden können
+C) Weil Mietsachen nie rechtskräftig werden
+D) Weil der Vermieter das Gericht gewechselt hatte
+
+## Lösungsschlüssel
+Q1: B
+Q2: B
+Q3: B
+Q4: B
+Q5: B
+
+## Antworten und Erklärungen
+**Q1.** Der Ausschluss einer erneuten Entscheidung über denselben Streitgegenstand samt Präklusion ist genau die Wirkung der materiellen Rechtskraft.
+
+**Q2.** Rechtsfrieden, Rechtssicherheit und Entlastung der Gerichte sind genau die Zwecke der Rechtskraft.
+
+**Q3.** Die Beschränkung auf den erhobenen Anspruch ohne die Urteilsgründe ist genau die Reichweite der Rechtskraft nach § 322 ZPO.
+
+**Q4.** Dieser Gegensatz zwischen Bindung an Einzelfragen in den USA und Beschränkung auf den Streitgegenstand in Deutschland ist genau der wichtige Unterschied.
+
+**Q5.** Diese Beschränkung der Bindung auf die Januarmiete zeigt genau, wo die Bindung eines rechtskräftigen Urteils endet.
+
+## Das Wichtigste in Kürze
+- Ein rechtskräftiges Urteil schließt eine erneute Entscheidung über denselben Streitgegenstand zwischen denselben Parteien aus.
+- Die Rechtskraft dient Rechtsfrieden und Rechtssicherheit; neue Argumente gehören ins laufende Verfahren.
+- Im deutschen Recht bindet grundsätzlich nur die Entscheidung über den Anspruch, nicht die Begründung; Vorfragen lassen sich durch Feststellungsanträge klären.
+- Eine Wiederaufnahme ist nur in engen Ausnahmefällen wie gefälschten Urkunden oder Falschaussagen möglich.
+
+===== PURPLE-L4-045
+TITLE: Analyse des Franchiserechts: Warum vorvertragliche Aufklärungspflichten ein echtes Informationsgefälle ausgleichen sollen
+SUMMARY: Erfahre, warum es in Deutschland anders als in den USA kein eigenes Franchisegesetz mit vorgeschriebenem Offenlegungsdokument gibt, warum Franchisegeber trotzdem vor Vertragsschluss umfassend und richtig aufklären müssen, welche Folgen fehlerhafte Rentabilitätsangaben haben können und welche weiteren Schutzregeln für Existenzgründer gelten.
+KEYWORDS: Franchise, vorvertragliche Aufklärung, Rentabilitätsprognose, Existenzgründer, Widerrufsrecht
+# Analyse des Franchiserechts: Warum vorvertragliche Aufklärungspflichten ein echtes Informationsgefälle ausgleichen sollen
+
+## Einstiegsszenario
+ANNAHME/MEINUNG (hypothetisches Szenario nur zu Lehrzwecken): Stell dir vor, die Immobilien- und Verbraucherkreditmärkte eines bevölkerungsreichen Landes zeigen nach Jahren schneller Expansion Anzeichen einer scharfen Korrektur, während die Kreditausfälle zu steigen beginnen. Während viele Menschen ihre Stelle verlieren und mit ihren Abfindungen ein eigenes Geschäft gründen wollen, werben Franchisesysteme mit erprobten Konzepten und attraktiven Umsatzerwartungen. Einige Gründer stellen nach Vertragsschluss fest, dass die versprochenen Umsätze an ihrem Standort völlig unrealistisch waren. Diese Lektion untersucht, wie das deutsche Recht dieses Informationsgefälle ausgleicht.
+
+## Lernziele
+- Erklären, worin das Informationsgefälle zwischen Franchisegeber und Franchisenehmer besteht.
+- Erklären, warum es in Deutschland kein eigenes Franchisegesetz mit vorgeschriebenem Offenlegungsdokument gibt und welche Regeln stattdessen gelten.
+- Erklären, welche Folgen unrichtige oder unvollständige Rentabilitätsangaben haben können.
+- Weitere Schutzregeln für Franchisenehmer, insbesondere für Existenzgründer, erkennen.
+
+## Hauptinhalt
+Bei einem Franchise erhält ein selbstständiger Unternehmer, der Franchisenehmer, gegen Gebühren das Recht, ein erprobtes Geschäftskonzept, eine Marke und das Know-how des Franchisegebers zu nutzen. In den Vereinigten Staaten verpflichtet eine bundesrechtliche Regelung der Federal Trade Commission Franchisegeber, künftigen Franchisenehmern spätestens 14 Tage vor Vertragsschluss ein standardisiertes Offenlegungsdokument zu übergeben. GEPRÜFTE TATSACHE: In Deutschland gibt es kein eigenes Franchisegesetz und kein vorgeschriebenes Offenlegungsdokument; die Rechtsprechung leitet aber aus dem vorvertraglichen Schuldverhältnis (§ 311 Abs. 2 in Verbindung mit § 241 Abs. 2 BGB) eine Pflicht des Franchisegebers ab, den künftigen Franchisenehmer vor Vertragsschluss richtig und vollständig über die für seine Entscheidung wesentlichen Umstände aufzuklären, und eine schuldhafte Verletzung dieser Pflicht kann zu Schadensersatz führen.
+
+Hier das „Warum“, weshalb ein echtes Informationsgefälle besteht: Der Franchisegeber kennt die Zahlen seines Systems – Umsätze und Kosten bestehender Betriebe, Schließungsquoten, Anlaufzeiten –, während ein Gründer, oft ohne unternehmerische Erfahrung, diese Informationen nicht selbst beschaffen kann. Er investiert häufig seine Ersparnisse oder eine Abfindung, nimmt Kredite auf und bindet sich für viele Jahre. MEINUNG und eine unter Franchiseberatern verbreitete Einschätzung, gerade dieses Gefälle macht unrealistische Umsatzerwartungen zur häufigsten Ursache gescheiterter Franchisebetriebe.
+
+Deshalb haben unrichtige Rentabilitätsangaben besondere Folgen, LÄNDERSPEZIFISCHE REGEL, die aktuelle Rechtsprechung zu Aufklärungspflichten prüfen: Der Franchisegeber ist nicht verpflichtet, eine Rentabilitätsberechnung vorzulegen; legt er aber Zahlen zu erwartenden Umsätzen und Gewinnen vor, müssen diese sorgfältig ermittelt, nachvollziehbar und richtig sein, und er muss auf wesentliche Risiken und Abweichungen hinweisen. Sind sie es nicht, kann der Franchisenehmer verlangen, so gestellt zu werden, als hätte er den Vertrag nicht geschlossen, also im Ergebnis seine Investitionen gegen Rückgabe des Erlangten ersetzt bekommen; ein Mitverschulden des Franchisenehmers, etwa bei offensichtlich unrealistischen Erwartungen, kann den Anspruch mindern. Deshalb gibt es weitere Schutzregeln, LÄNDERSPEZIFISCHE REGEL, die einschlägigen Vorschriften im Einzelfall prüfen: Enthält ein Franchisevertrag eine Pflicht zum wiederkehrenden Bezug von Waren, kann er als Ratenlieferungsvertrag gelten, sodass ein Existenzgründer unter bestimmten Voraussetzungen ein gesetzliches Widerrufsrecht hat, das schriftlich belehrt werden muss; wurde nicht ordnungsgemäß belehrt, kann sich die Widerrufsfrist erheblich verlängern. Daneben begrenzt das Kartellrecht bestimmte Vorgaben, etwa zu Wiederverkaufspreisen, und stark weisungsgebundene Franchisenehmer können unter Umständen sogar als Arbeitnehmer gelten (Lektion 12). Viele Systeme orientieren sich zudem freiwillig an den Ethikregeln des Deutschen Franchiseverbands.
+
+## Durchgerechnetes Beispiel
+BEISPIEL ZUR VERANSCHAULICHUNG: Ein Gründer, der nach seiner Entlassung eine Abfindung von 120.000 € erhalten hat, schließt einen Franchisevertrag für ein Bistro. Der Franchisegeber hatte ihm eine Rentabilitätsberechnung mit einem erwarteten Jahresumsatz von 600.000 € vorgelegt, die auf den drei besten Standorten des Systems in Großstadtlagen beruhte, ohne darauf hinzuweisen, dass Betriebe in Kleinstädten wie der seines Standorts im Durchschnitt nur rund 300.000 € erzielen. Nach zwei Jahren hohen Verlusten muss er schließen. Weil die vorgelegten Zahlen nicht sorgfältig ermittelt und die wesentlichen Abweichungen verschwiegen worden waren, verlangt er erfolgreich Schadensersatz in Höhe seiner Investitionen, gemindert um einen Anteil, weil auch er die Zahlen nicht kritisch hinterfragt hatte. Ein anderer Gründer, dem derselbe Franchisegeber ehrliche Durchschnittszahlen für Kleinstadtlagen samt Risiken vorgelegt hatte, trägt das unternehmerische Risiko dagegen selbst.
+
+## Übungsquiz
+**Q1. Worin besteht das Informationsgefälle zwischen Franchisegeber und Franchisenehmer?**
+A) Der Franchisenehmer kennt das System besser als der Franchisegeber
+B) Der Franchisegeber kennt die Zahlen und Risiken seines Systems, während der oft unerfahrene Gründer diese nicht selbst beschaffen kann, aber erhebliche Mittel investiert und sich langfristig bindet
+C) Es gibt kein Informationsgefälle
+D) Nur Banken kennen die Zahlen eines Franchisesystems
+
+**Q2. Welche Regeln gelten in Deutschland anstelle eines eigenen Franchisegesetzes?**
+A) Gar keine Regeln
+B) Die Rechtsprechung leitet aus dem vorvertraglichen Schuldverhältnis eine Pflicht zur richtigen und vollständigen Aufklärung über wesentliche Umstände ab, deren schuldhafte Verletzung zu Schadensersatz führen kann
+C) Ein vorgeschriebenes Offenlegungsdokument wie in den USA
+D) Eine Genehmigung jedes Franchisevertrags durch die BaFin
+
+**Q3. Welche Folgen können unrichtige Rentabilitätsangaben haben?**
+A) Keine, weil Prognosen nie haftungsrelevant sind
+B) Legt der Franchisegeber Zahlen vor, müssen sie sorgfältig ermittelt und richtig sein; sonst kann der Franchisenehmer verlangen, so gestellt zu werden, als hätte er den Vertrag nicht geschlossen, gegebenenfalls gemindert um ein Mitverschulden
+C) Der Franchisenehmer muss immer alle Verluste allein tragen
+D) Der Franchisegeber muss immer den doppelten Umsatz garantieren
+
+**Q4. Welche weiteren Schutzregeln können für Franchisenehmer gelten?**
+A) Keine weiteren
+B) Etwa ein Widerrufsrecht für Existenzgründer bei Verträgen mit wiederkehrenden Bezugspflichten, Grenzen durch das Kartellrecht und unter Umständen der Arbeitnehmerschutz bei stark weisungsgebundenen Franchisenehmern
+C) Ein Anspruch auf einen garantierten Gewinn
+D) Ein Verbot jeder Franchisegebühr
+
+**Q5. Warum erhielt der erste Gründer im Beispiel Schadensersatz, der zweite aber nicht?**
+A) Weil der erste Gründer eine höhere Abfindung hatte
+B) Weil der Franchisegeber dem ersten eine nicht sorgfältig ermittelte Berechnung auf Basis der besten Standorte vorlegte und wesentliche Abweichungen verschwieg, während er dem zweiten ehrliche Durchschnittszahlen samt Risiken nannte
+C) Weil Bistros nie erfolgreich sein können
+D) Weil der zweite Gründer keinen Vertrag geschlossen hatte
+
+## Lösungsschlüssel
+Q1: B
+Q2: B
+Q3: B
+Q4: B
+Q5: B
+
+## Antworten und Erklärungen
+**Q1.** Das Wissen des Franchisegebers über sein System gegenüber der fehlenden Information des Gründers ist genau das Informationsgefälle, das ausgeglichen werden soll.
+
+**Q2.** Die von der Rechtsprechung entwickelte vorvertragliche Aufklärungspflicht ist genau der deutsche Ersatz für ein Franchisegesetz mit Offenlegungsdokument.
+
+**Q3.** Die Pflicht zu sorgfältigen, richtigen Zahlen und der Anspruch, so gestellt zu werden, als wäre der Vertrag nicht geschlossen, sind genau die Folgen fehlerhafter Rentabilitätsangaben.
+
+**Q4.** Widerrufsrecht für Existenzgründer, kartellrechtliche Grenzen und möglicher Arbeitnehmerschutz sind genau weitere Schutzregeln.
+
+**Q5.** Dieser Gegensatz zwischen geschönten und ehrlichen Zahlen zeigt genau, warum vorvertragliche Aufklärungspflichten das Informationsgefälle ausgleichen sollen.
+
+## Das Wichtigste in Kürze
+- Zwischen Franchisegeber und Gründer besteht ein echtes Informationsgefälle über Zahlen und Risiken des Systems.
+- Deutschland hat kein Franchisegesetz mit Offenlegungsdokument, aber eine von der Rechtsprechung entwickelte Pflicht zur richtigen und vollständigen vorvertraglichen Aufklärung.
+- Vorgelegte Rentabilitätszahlen müssen sorgfältig ermittelt und richtig sein; sonst drohen Schadensersatzansprüche.
+- Existenzgründer können je nach Vertrag ein Widerrufsrecht haben; Kartellrecht und Arbeitnehmerschutz setzen weitere Grenzen.

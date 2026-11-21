@@ -1,0 +1,344 @@
+===== WHITE-L3-015
+TITLE: Pourquoi le risque de séquence des rendements compte plus à la retraite que pendant l'accumulation
+SUMMARY: Découvre pourquoi l'ordre dans lequel les rendements surviennent peut compter plus que le rendement moyen lui-même, surtout une fois que tu commences à retirer de l'argent.
+# WHITE-L3-015 : Pourquoi le risque de séquence des rendements compte plus à la retraite que pendant l'accumulation
+
+## Objectifs d'apprentissage
+À la fin de cette leçon, tu pourras :
+- Expliquer ce que veut dire le risque de séquence des rendements
+- Expliquer pourquoi un même rendement moyen peut donner des résultats très différents selon l'ordre des rendements
+- Expliquer pourquoi ce risque est beaucoup plus petit pendant la phase d'accumulation que pendant les retraits à la retraite
+
+## Contenu principal
+
+La plupart des discussions sur le rendement des placements portent sur le rendement annuel moyen d'une période. Le **risque de séquence des rendements** met en lumière quelque chose que la moyenne seule cache : l'*ordre* dans lequel ces rendements surviennent peut changer de façon importante le résultat final, surtout quand des retraits réguliers sont en jeu.
+
+Voici « pourquoi » l'ordre compte autant pendant les retraits : si un portefeuille connaît de mauvais rendements au début d'une période de retraits, l'investisseur est forcé de vendre plus d'unités (ou un plus grand pourcentage du portefeuille) à des prix déprimés pour financer chaque retrait, ce qui réduit de façon permanente la base d'actifs restante qui pourra profiter d'une éventuelle reprise du marché. Les mêmes mauvais rendements, s'ils surviennent plus tard, après quelques années de retraits, font moins de dégâts — il reste simplement moins de temps pour que des dommages précoces s'aggravent en s'accumulant.
+
+[VERIFIED FACT] Pendant la phase d'accumulation (quand un investisseur ajoute de l'argent au lieu d'en retirer), la séquence des rendements compte beaucoup moins, puisqu'il n'y a pas de vente forcée pendant une baisse — l'investisseur peut simplement continuer de cotiser et attendre une reprise sans être forcé de concrétiser des pertes par des retraits.
+
+## Exemple pratique
+
+[ILLUSTRATIVE EXAMPLE] Deux retraités commencent chacun avec la même valeur de portefeuille et font le même retrait annuel, et tous deux obtiennent exactement le même rendement annuel moyen sur 20 ans — mais dans un ordre différent. La retraitée A connaît de mauvais rendements dans les premières années de sa retraite, ce qui l'oblige à faire des retraits plus importants (en pourcentage d'un portefeuille qui rétrécit) pendant cette baisse. Le retraité B connaît les mêmes mauvaises années, mais plus tard dans la période de 20 ans, après que son portefeuille a déjà grossi grâce à de bonnes années au début. [ASSUMPTION] Malgré des rendements moyens identiques, le portefeuille de la retraitée A pourrait s'épuiser bien avant celui du retraité B, uniquement à cause du moment où les mauvais rendements sont survenus par rapport au calendrier de retraits.
+
+## Quiz de pratique
+
+1. Que décrit le risque de séquence des rendements?
+2. Pourquoi de mauvais rendements au début d'une période de retraits peuvent-ils causer beaucoup plus de dégâts que les mêmes mauvais rendements plus tard?
+3. Pourquoi le risque de séquence des rendements compte-t-il beaucoup moins pendant la phase d'accumulation?
+
+## Corrigé
+
+1. Le risque que l'ordre dans lequel les rendements surviennent — et pas seulement leur moyenne — influence de façon importante le résultat d'un portefeuille, surtout quand il y a des retraits réguliers.
+2. Parce que de mauvais rendements précoces forcent des retraits plus importants en pourcentage d'un portefeuille qui rétrécit déjà, ce qui réduit de façon permanente la base d'actifs qui pourra profiter d'une reprise ultérieure.
+3. Parce que, sans retraits forcés, un investisseur peut simplement continuer de cotiser et attendre la fin d'une baisse sans devoir vendre pendant celle-ci, de sorte que l'ordre des rendements n'a pas le même effet cumulatif.
+
+## Réponses et explications
+
+1. C'est la définition de base de la leçon.
+2. C'est le mécanisme central qui explique pourquoi le moment, et pas seulement le rendement moyen, compte autant à la retraite.
+3. Ça compare directement les phases d'accumulation et de retraits, en précisant quand ce risque est le plus pertinent.
+
+## Points clés à retenir
+- Le risque de séquence des rendements veut dire que l'ordre des rendements peut compter autant que leur moyenne, surtout quand il y a des retraits.
+- De mauvais rendements au début d'une période de retraits font des dégâts disproportionnés, puisqu'ils forcent à vendre une plus grande part d'un portefeuille qui rétrécit.
+- Ce risque est beaucoup plus petit pendant l'accumulation, puisqu'il n'y a pas de vente forcée qui concrétise les pertes précoces.
+
+## Avis pédagogique
+Cette leçon sert uniquement à l'éducation financière générale et ne constitue pas un conseil financier, de placement, fiscal ou juridique personnalisé. Tous les chiffres sont des estimations à titre d'illustration, et non des garanties. Consulte un professionnel de la finance autorisé avant de prendre des décisions de planification de la retraite.
+
+===== WHITE-L3-016
+TITLE: Pourquoi un taux de retrait « sécuritaire » n'est pas une garantie
+SUMMARY: Découvre ce qu'un taux de retrait sécuritaire est censé représenter, et pourquoi il s'agit d'une ligne directrice historique, et non d'une promesse sur ton avenir précis.
+# WHITE-L3-016 : Pourquoi un taux de retrait « sécuritaire » n'est pas une garantie
+
+## Objectifs d'apprentissage
+À la fin de cette leçon, tu pourras :
+- Expliquer ce qu'un « taux de retrait sécuritaire » est conçu pour estimer
+- Expliquer pourquoi il repose sur des tests historiques, et non sur une formule garantie
+- Relier cette notion au risque de séquence des rendements de la leçon 15
+
+## Contenu principal
+
+Un **taux de retrait sécuritaire** est une ligne directrice souvent citée qui propose un pourcentage d'un portefeuille de retraite qui aurait pu historiquement être retiré chaque année (rajusté selon l'inflation) avec une forte probabilité que le portefeuille dure pendant une retraite de durée typique, d'après l'étude des données historiques des marchés.
+
+Voici « pourquoi » ce n'est pas une garantie : ces lignes directrices sont établies en testant des stratégies de retrait sur des séquences de rendements historiques (ce qui se relie directement à la leçon 15) — des périodes qui ont déjà eu lieu. [VERIFIED FACT] Un taux qui aurait fonctionné dans la plupart, voire dans la totalité, des périodes historiques étudiées ne garantit pas qu'il fonctionnera pour la retraite future réelle d'une personne précise, puisque les conditions futures du marché, l'inflation et les séquences de rendements n'ont aucune obligation de ressembler aux périodes historiques utilisées dans l'analyse.
+
+C'est pourquoi traiter un pourcentage de retrait sécuritaire précis comme un chiffre fixe et garanti peut être trompeur — il vaut mieux le voir comme un point de départ éclairé par l'histoire, que de nombreux retraités et planificateurs financiers ajustent selon le rendement réel du marché pendant la retraite, la souplesse des dépenses et d'autres circonstances personnelles, au lieu de le suivre de façon rigide peu importe ce qui arrive.
+
+## Exemple pratique
+
+[ILLUSTRATIVE EXAMPLE] Un retraité planifie ses retraits selon une ligne directrice historique souvent citée, en s'attendant à ce que son portefeuille dure confortablement pendant toute sa retraite. [ASSUMPTION] S'il prend sa retraite au début d'une séquence de rendements nettement pire que la plupart des périodes historiques utilisées pour établir cette ligne directrice — en écho au risque de séquence des rendements de la leçon 15 —, un plan de retraits rigide et non ajusté fondé sur ce taux pourrait épuiser son portefeuille plus vite que l'analyse historique ne le laissait croire. Une approche plus souple, qui ajuste un peu les retraits selon le rendement réel du portefeuille en cours de route, pourrait mieux le protéger contre ce risque précis.
+
+## Quiz de pratique
+
+1. Qu'est-ce qu'un taux de retrait sécuritaire tente d'estimer?
+2. Pourquoi un taux de retrait sécuritaire établi à partir de l'histoire n'est-il pas une garantie pour la retraite réelle d'une personne?
+3. Comment cette leçon se relie-t-elle au risque de séquence des rendements de la leçon 15?
+
+## Corrigé
+
+1. Un pourcentage d'un portefeuille de retraite qui aurait pu historiquement être retiré chaque année (rajusté selon l'inflation) avec une forte probabilité de durer pendant une retraite typique, d'après les données historiques.
+2. Parce qu'il est établi à partir de tests sur des séquences de rendements passées, et que les conditions futures du marché, l'inflation et les séquences de rendements n'ont aucune obligation de ressembler aux périodes historiques étudiées.
+3. Un taux de retrait qui a fonctionné historiquement pourrait quand même échouer pour une personne qui connaît une séquence de rendements particulièrement défavorable au début de sa propre retraite — exactement le risque que décrit la leçon 15.
+
+## Réponses et explications
+
+1. Ça établit le but de base de la notion.
+2. C'est la mise en garde centrale autour de laquelle la leçon est construite — un succès historique ne garantit pas le succès futur d'une personne.
+3. Ça relie explicitement les deux leçons, ce qui renforce la structure intégrée du parcours.
+
+## Points clés à retenir
+- Un taux de retrait sécuritaire est une ligne directrice éclairée par l'histoire, et non une formule garantie pour l'avenir d'une personne.
+- Il est établi à partir de tests sur des séquences de rendements passées, auxquelles les conditions futures n'ont aucune obligation de ressembler.
+- La souplesse dans les retraits, ajustés selon le rendement réel du portefeuille, peut aider à gérer le risque qu'un taux historique fixe ne se concrétise pas comme prévu.
+
+## Avis pédagogique
+Cette leçon sert uniquement à l'éducation financière générale et ne constitue pas un conseil financier, de placement, fiscal ou juridique personnalisé. Le rendement passé ne garantit pas les résultats futurs. Consulte un professionnel de la finance autorisé avant de prendre des décisions de planification de la retraite.
+
+===== WHITE-L3-017
+TITLE: Pourquoi les dividendes ne sont pas de « l'argent gratuit »
+SUMMARY: Découvre pourquoi le versement d'un dividende réduit le prix d'une action d'environ le même montant, et pourquoi les dividendes redistribuent de la valeur au lieu d'être une prime.
+# WHITE-L3-017 : Pourquoi les dividendes ne sont pas de « l'argent gratuit »
+
+## Objectifs d'apprentissage
+À la fin de cette leçon, tu pourras :
+- Expliquer pourquoi le prix d'une action baisse habituellement d'environ le montant du dividende à la date ex-dividende
+- Expliquer pourquoi un dividende est une redistribution de valeur existante, et non une richesse nouvellement créée
+- Expliquer pourquoi le « rendement total » est la façon la plus complète d'évaluer un placement qui verse des dividendes
+
+## Contenu principal
+
+Il est facile de voir le versement d'un dividende comme de l'argent en plus de la valeur existante d'une action — une prime pour avoir détenu l'action. Voici « pourquoi » cette façon de voir est trompeuse : une entreprise verse des dividendes à partir de sa propre trésorerie, ce qui réduit les actifs qui lui restent. [VERIFIED FACT] À la date ex-dividende, le prix d'une action baisse habituellement d'environ le montant du dividende versé, ce qui reflète le fait que l'entreprise vaut maintenant un peu moins, après avoir distribué une partie de sa trésorerie aux actionnaires.
+
+Ça veut dire qu'un dividende n'est pas une richesse nouvellement créée qui apparaît de nulle part — c'est une redistribution de valeur qui existait déjà dans l'entreprise, déplacée maintenant dans la poche de l'actionnaire sous forme d'argent comptant au lieu de rester dans le prix de l'action. L'actionnaire n'est pas réellement plus riche au moment où le dividende est versé; il détient simplement la même valeur totale, répartie entre un prix d'action un peu plus bas et le dividende reçu en argent.
+
+C'est pourquoi le **rendement total** — qui combine l'appréciation du prix et les dividendes — est la mesure la plus complète du rendement réel d'un placement, plutôt que de regarder isolément le revenu de dividendes ou l'appréciation du prix.
+
+## Exemple pratique
+
+[ILLUSTRATIVE EXAMPLE] Une action se négocie à 100 $ la veille du versement d'un dividende de 2 $ par action. À la date ex-dividende, toutes choses égales par ailleurs, le prix de l'action s'ajuste habituellement à environ 98 $, ce qui reflète les 2 $ par action qui viennent de quitter l'entreprise sous forme de versement en argent. Un investisseur qui détient une action a maintenant 98 $ en actions plus 2 $ en argent — toujours 100 $ de valeur totale, comme avant le versement du dividende. Le dividende n'a pas créé de nouvelle richesse; il a simplement converti 2 $ de valeur d'action existante en 2 $ d'argent comptant.
+
+## Quiz de pratique
+
+1. Qu'arrive-t-il habituellement au prix d'une action à la date ex-dividende, et pourquoi?
+2. Pourquoi vaut-il mieux voir un dividende comme une redistribution de valeur plutôt que comme une richesse nouvellement créée?
+3. Pourquoi considère-t-on le « rendement total » comme une mesure de rendement plus complète que les seuls dividendes?
+
+## Corrigé
+
+1. Le prix baisse habituellement d'environ le montant du dividende, parce que la trésorerie de l'entreprise — et donc sa valeur globale — a diminué de ce même montant.
+2. Parce que la valeur totale de l'actionnaire (le prix de l'action plus le dividende reçu) reste à peu près la même immédiatement après le versement — le dividende convertit simplement une partie de la valeur existante de l'action en argent comptant, au lieu d'ajouter une nouvelle valeur.
+3. Parce qu'il combine l'appréciation du prix et le revenu de dividendes, ce qui reflète le rendement complet du placement plutôt qu'une seule de ses composantes.
+
+## Réponses et explications
+
+1. C'est le fait mécanique sur lequel toute la leçon est construite.
+2. C'est le changement de perspective central que la leçon vise à enseigner.
+3. Ça présente le cadre d'évaluation plus complet vers lequel mène cette notion.
+
+## Points clés à retenir
+- Le prix d'une action baisse habituellement d'environ le montant du dividende à la date ex-dividende.
+- Un dividende redistribue aux actionnaires, sous forme d'argent comptant, une valeur qui existait déjà dans l'entreprise — il ne crée pas à lui seul de nouvelle richesse.
+- Le rendement total, qui combine l'appréciation du prix et les dividendes, est une façon plus complète d'évaluer le rendement réel d'un placement.
+
+## Avis pédagogique
+Cette leçon sert uniquement à l'éducation financière générale et ne constitue pas un conseil financier, de placement, fiscal ou juridique personnalisé. Tous les chiffres sont des estimations à titre d'illustration, et non des garanties. Consulte un professionnel de la finance autorisé avant de prendre des décisions de placement.
+
+===== WHITE-L3-018
+TITLE: Pourquoi la durée d'une obligation mesure sa sensibilité aux taux d'intérêt
+SUMMARY: Découvre ce que mesure la durée d'une obligation, pourquoi les obligations à plus longue durée sont plus sensibles aux variations des taux d'intérêt, et pourquoi ça compte pour les investisseurs.
+# WHITE-L3-018 : Pourquoi la durée d'une obligation mesure sa sensibilité aux taux d'intérêt
+
+## Objectifs d'apprentissage
+À la fin de cette leçon, tu pourras :
+- Définir la durée d'une obligation
+- Expliquer pourquoi les obligations à plus longue durée sont plus sensibles aux variations des taux d'intérêt
+- Expliquer pourquoi deux obligations qui ont la même date d'échéance peuvent avoir des durées différentes
+
+## Contenu principal
+
+La **durée** est une mesure de la sensibilité d'une obligation aux variations des taux d'intérêt, exprimée d'une façon qui ressemble à un nombre d'années, mais qui représente quelque chose de plus précis : en gros, à quel point le prix d'une obligation devrait varier pour une variation donnée des taux d'intérêt.
+
+Voici « pourquoi » une durée plus longue veut dire une plus grande sensibilité : une obligation dont les flux de trésorerie seront reçus plus tard est plus touchée par une variation des taux en vigueur, parce qu'une plus grande partie de sa valeur dépend de flux de trésorerie éloignés dans le temps, qui sont davantage touchés par un changement du taux utilisé pour les évaluer aujourd'hui (une notion liée à la relation entre les taux d'intérêt et le prix des obligations abordée dans la prochaine leçon).
+
+[VERIFIED FACT] La durée n'est pas identique à l'échéance d'une obligation — le taux du coupon d'une obligation (les paiements d'intérêts versés en cours de route) influe aussi sur la durée; une obligation qui verse des paiements réguliers plus importants rend une plus grande partie de sa valeur plus tôt, ce qui lui donne généralement une durée un peu plus courte qu'une obligation qui a la même date d'échéance, mais des paiements réguliers plus petits ou nuls (une obligation à coupon zéro, par exemple, a une durée égale à son échéance complète, puisque toute sa valeur est remise à la toute fin).
+
+## Exemple pratique
+
+[ILLUSTRATIVE EXAMPLE] Deux obligations arrivent toutes deux à échéance dans 10 ans. L'obligation A verse des paiements d'intérêts réguliers et appréciables en cours de route, ce qui remet une partie de sa valeur à l'investisseur avant l'échéance — et lui donne une durée un peu plus courte que 10 ans. L'obligation B est une obligation à coupon zéro, qui ne verse rien avant son échéance et remet toute sa valeur seulement au bout de 10 ans — ce qui lui donne une durée égale à son échéance complète de 10 ans. [ASSUMPTION] Si les taux d'intérêt augmentent du même montant, le prix de l'obligation B devrait habituellement baisser davantage que celui de l'obligation A, uniquement à cause de sa durée plus longue, même si les deux obligations arrivent à échéance au même moment.
+
+## Quiz de pratique
+
+1. Que mesure la durée d'une obligation?
+2. Pourquoi une durée plus longue veut-elle généralement dire une plus grande sensibilité aux variations des taux d'intérêt?
+3. Pourquoi deux obligations qui ont la même date d'échéance peuvent-elles avoir des durées différentes?
+
+## Corrigé
+
+1. La sensibilité d'une obligation aux variations des taux d'intérêt — en gros, à quel point son prix devrait varier pour une variation donnée des taux.
+2. Parce qu'une plus grande partie de la valeur de l'obligation dépend de flux de trésorerie éloignés dans le temps, qui sont davantage touchés par un changement du taux utilisé pour les évaluer aujourd'hui.
+3. Parce que la durée dépend aussi de la taille et du moment des paiements d'intérêts réguliers d'une obligation — une obligation qui remet plus de valeur plus tôt (des paiements de coupon plus importants) a une durée plus courte qu'une obligation qui remet la plus grande partie, ou la totalité, de sa valeur seulement à l'échéance.
+
+## Réponses et explications
+
+1. C'est la définition de base nécessaire pour le reste de la leçon.
+2. C'est le mécanisme central qui explique le lien entre la durée et la sensibilité aux taux d'intérêt.
+3. Ça ajoute une nuance importante qui distingue la durée de la simple durée jusqu'à l'échéance.
+
+## Points clés à retenir
+- La durée mesure la sensibilité d'une obligation aux variations des taux d'intérêt, ce qui est distinct de sa date d'échéance.
+- Les obligations à plus longue durée sont généralement plus sensibles aux variations des taux d'intérêt que les obligations à plus courte durée.
+- Les paiements de coupon d'une obligation influent sur sa durée — des paiements plus importants et plus fréquents raccourcissent généralement la durée par rapport à l'échéance.
+
+## Avis pédagogique
+Cette leçon sert uniquement à l'éducation financière générale et ne constitue pas un conseil financier, de placement, fiscal ou juridique personnalisé. Tous les chiffres sont des estimations à titre d'illustration, et non des garanties. Consulte un professionnel de la finance autorisé avant de prendre des décisions de placement.
+
+===== WHITE-L3-019
+TITLE: Pourquoi le prix des obligations et les taux d'intérêt évoluent en sens inverse
+SUMMARY: Découvre la raison mécanique pour laquelle une hausse des taux d'intérêt fait baisser le prix des obligations existantes, et pourquoi cette relation est prévisible, et non aléatoire.
+# WHITE-L3-019 : Pourquoi le prix des obligations et les taux d'intérêt évoluent en sens inverse
+
+## Objectifs d'apprentissage
+À la fin de cette leçon, tu pourras :
+- Expliquer pourquoi le prix des obligations baisse quand les taux d'intérêt montent
+- Expliquer pourquoi le prix des obligations monte quand les taux d'intérêt baissent
+- Expliquer pourquoi cette relation est une question de comparaison, et non de risque propre à une entreprise
+
+## Contenu principal
+
+Les obligations versent un taux d'intérêt fixe (le coupon) établi au moment de leur émission. Les taux d'intérêt de l'ensemble du marché, eux, changent avec le temps. Voici « pourquoi » ça crée une relation inverse et prévisible entre le prix des obligations existantes et les taux d'intérêt actuels : les paiements fixes d'une obligation existante deviennent plus ou moins attrayants selon ce qu'offrent actuellement les nouvelles obligations.
+
+Si les taux d'intérêt montent après l'émission d'une obligation, de nouvelles obligations sont émises avec des paiements fixes plus élevés que le taux fixe de l'ancienne obligation — ce qui rend l'ancienne obligation, qui paie moins, moins attrayante en comparaison. Pour que l'ancienne obligation reste concurrentielle aux yeux d'un acheteur potentiel, son prix doit baisser, ce qui fait monter son rendement (le rendement par rapport à son prix) pour qu'il corresponde aux conditions actuelles du marché. L'inverse se produit si les taux d'intérêt baissent : les paiements fixes relativement plus élevés de l'ancienne obligation semblent plus attrayants que ce qui est maintenant offert, donc son prix monte.
+
+[VERIFIED FACT] Cette relation s'applique au prix d'une obligation vendue avant l'échéance — un investisseur qui garde une obligation jusqu'à son échéance reçoit quand même les paiements fixes d'origine et le remboursement du capital comme promis (en l'absence de défaut), peu importe ce qui arrive aux taux d'intérêt ou au prix de l'obligation entre-temps.
+
+## Exemple pratique
+
+[ILLUSTRATIVE EXAMPLE] Une investisseuse détient une obligation qui verse un taux fixe de 3 %. Les taux d'intérêt de l'ensemble du marché montent ensuite, et de nouvelles obligations semblables offrent maintenant 5 %. Si elle voulait vendre son obligation à 3 % avant l'échéance, elle devrait l'offrir à un prix inférieur à celui qu'elle a payé, puisqu'un acheteur pourrait autrement simplement acheter une nouvelle obligation à 5 % — c'est l'ajustement du prix qui rend son ancienne obligation, qui paie moins, de nouveau concurrentielle. Si elle garde plutôt l'obligation jusqu'à l'échéance, elle continue de recevoir les paiements d'origine de 3 % et récupère son capital comme promis, sans être touchée par ce qui est arrivé aux taux en vigueur entre-temps.
+
+## Quiz de pratique
+
+1. Pourquoi le prix d'une obligation baisse-t-il quand les taux d'intérêt montent?
+2. Pourquoi le prix d'une obligation monte-t-il quand les taux d'intérêt baissent?
+3. Cette relation de prix touche-t-elle un investisseur qui garde une obligation jusqu'à l'échéance? Pourquoi?
+
+## Corrigé
+
+1. Parce que de nouvelles obligations commencent à offrir des paiements fixes plus élevés, ce qui rend l'ancienne obligation, qui paie moins, moins attrayante à moins que son prix baisse pour rendre son rendement effectif concurrentiel.
+2. Parce que les paiements fixes relativement plus élevés de l'ancienne obligation deviennent plus attrayants que les taux plus bas maintenant offerts, ce qui augmente la demande et fait monter son prix.
+3. Non, en ce qui concerne les paiements promis — un investisseur qui la garde jusqu'à l'échéance reçoit quand même les paiements fixes d'origine et son capital comme promis (en l'absence de défaut), peu importe les fluctuations de prix en cours de route.
+
+## Réponses et explications
+
+1. C'est le mécanisme central qui explique la relation inverse.
+2. Ça confirme la compréhension de la relation dans le sens inverse.
+3. C'est une précision importante qui distingue le risque de prix du marché des conditions de paiement prévues au contrat de l'obligation.
+
+## Points clés à retenir
+- Le prix des obligations et les taux d'intérêt évoluent en sens inverse : quand les taux montent, le prix des obligations existantes baisse, et inversement.
+- Ça se produit parce que les paiements fixes des obligations existantes deviennent plus ou moins attrayants par rapport aux nouveaux taux offerts.
+- Cette relation de prix touche la vente d'une obligation avant l'échéance; la garder jusqu'à l'échéance procure quand même les paiements promis à l'origine, peu importe les variations de taux en cours de route.
+
+## Avis pédagogique
+Cette leçon sert uniquement à l'éducation financière générale et ne constitue pas un conseil financier, de placement, fiscal ou juridique personnalisé. Tous les chiffres sont des estimations à titre d'illustration, et non des garanties. Consulte un professionnel de la finance autorisé avant de prendre des décisions de placement.
+
+===== WHITE-L3-020
+TITLE: Pourquoi le risque de crédit et le risque de taux d'intérêt sont deux risques obligataires différents
+SUMMARY: Découvre pourquoi une obligation peut perdre de la valeur pour deux raisons complètement différentes, et pourquoi savoir laquelle est en cause change ta façon d'y réfléchir.
+# WHITE-L3-020 : Pourquoi le risque de crédit et le risque de taux d'intérêt sont deux risques obligataires différents
+
+## Objectifs d'apprentissage
+À la fin de cette leçon, tu pourras :
+- Distinguer le risque de crédit du risque de taux d'intérêt dans les obligations
+- Expliquer pourquoi ces deux risques peuvent influer sur le prix d'une obligation indépendamment l'un de l'autre
+- Expliquer pourquoi la cote d'une obligation reflète surtout le risque de crédit, et non le risque de taux d'intérêt
+
+## Contenu principal
+
+La leçon 19 a expliqué comment le prix des obligations évolue à l'inverse des taux d'intérêt de l'ensemble du marché — c'est le **risque de taux d'intérêt**, qui s'applique à pratiquement toutes les obligations, même les plus sûres. Il existe un deuxième risque, distinct, qui influe aussi sur le prix des obligations : le **risque de crédit** — le risque que l'émetteur de l'obligation soit incapable de faire les paiements promis, à cause de difficultés financières ou d'un défaut.
+
+Voici « pourquoi » il est important de les garder séparés : le prix d'une obligation peut baisser parce que les taux d'intérêt de l'ensemble du marché montent, sans aucun changement de la santé financière de l'émetteur — c'est le risque de taux d'intérêt, qui touche même les obligations des émetteurs les plus solides financièrement. Le prix d'une obligation peut aussi baisser parce que le marché s'inquiète de la capacité de cet émetteur précis à payer, même si les taux d'intérêt de l'ensemble du marché n'ont pas bougé — c'est le risque de crédit, et il est propre à cet émetteur.
+
+[VERIFIED FACT] Les cotes de crédit des obligations, attribuées par des agences de notation indépendantes, sont conçues pour refléter le risque de crédit d'un émetteur — la probabilité de défaut —, et non la sensibilité de son obligation aux variations des taux d'intérêt; une cote de crédit très élevée (un signe de faible risque de crédit) peut quand même être attribuée à une obligation qui comporte un risque de taux d'intérêt important si elle a une longue durée (leçon 18).
+
+## Exemple pratique
+
+[ILLUSTRATIVE EXAMPLE] Deux obligations voient leur prix baisser pendant la même période. L'émetteur de l'obligation A reste financièrement solide et rien ne change de son côté, mais la baisse s'est produite parce que les taux d'intérêt de l'ensemble du marché ont monté — un pur événement de risque de taux d'intérêt. L'émetteur de l'obligation B, de son côté, a publié des nouvelles financières inquiétantes qui soulèvent de vrais doutes sur sa capacité à faire ses paiements futurs — un événement de risque de crédit, qui fait baisser son prix indépendamment de ce qu'ont fait les taux d'intérêt. [ASSUMPTION] Un investisseur qui confond ces deux causes pourrait croire à tort que la baisse de prix de l'obligation B est temporaire et liée aux taux, comme celle de l'obligation A, alors qu'elle reflète en réalité un problème plus grave, propre à l'émetteur.
+
+## Quiz de pratique
+
+1. Quelle est la différence entre le risque de crédit et le risque de taux d'intérêt dans les obligations?
+2. Pourquoi le prix d'une obligation peut-il baisser à cause du risque de taux d'intérêt même si la santé financière de l'émetteur n'a pas changé?
+3. Selon cette leçon, que reflète surtout la cote de crédit d'une obligation?
+
+## Corrigé
+
+1. Le risque de taux d'intérêt est le risque de variation de prix causée par les mouvements des taux d'intérêt de l'ensemble du marché, qui touche pratiquement toutes les obligations; le risque de crédit est le risque qu'un émetteur précis soit incapable de faire les paiements promis, indépendamment des taux de l'ensemble du marché.
+2. Parce que le risque de taux d'intérêt reflète la comparaison entre les paiements fixes d'une obligation et les nouveaux taux offerts sur le marché, un facteur entièrement distinct de la situation financière de l'émetteur.
+3. Le risque de crédit de l'émetteur — la probabilité de défaut —, et non la sensibilité de l'obligation aux variations des taux d'intérêt.
+
+## Réponses et explications
+
+1. C'est la distinction centrale autour de laquelle la leçon est construite.
+2. Ça se relie directement au mécanisme expliqué à la leçon 19.
+3. Ça clarifie une source de confusion courante — une obligation très bien cotée peut quand même comporter un risque de taux d'intérêt important.
+
+## Points clés à retenir
+- Le risque de taux d'intérêt touche presque toutes les obligations et découle des mouvements des taux de l'ensemble du marché, peu importe la santé financière de l'émetteur.
+- Le risque de crédit est propre à un émetteur et reflète la possibilité qu'il ne fasse pas les paiements promis.
+- Les cotes de crédit des obligations reflètent précisément le risque de crédit, et non la sensibilité d'une obligation aux variations des taux d'intérêt.
+
+## Avis pédagogique
+Cette leçon sert uniquement à l'éducation financière générale et ne constitue pas un conseil financier, de placement, fiscal ou juridique personnalisé. Tous les chiffres sont des estimations à titre d'illustration, et non des garanties. Consulte un professionnel de la finance autorisé avant de prendre des décisions de placement.
+
+===== WHITE-L3-021
+TITLE: Pourquoi les FNB et les fonds communs de placement diffèrent sur le plan de la négociation, de l'impôt et des coûts
+SUMMARY: Découvre les différences pratiques entre les FNB et les fonds communs de placement, et pourquoi elles peuvent compter plus que leurs grandes ressemblances.
+# WHITE-L3-021 : Pourquoi les FNB et les fonds communs de placement diffèrent sur le plan de la négociation, de l'impôt et des coûts
+
+## Objectifs d'apprentissage
+À la fin de cette leçon, tu pourras :
+- Expliquer comment les FNB et les fonds communs de placement diffèrent dans leur façon d'être négociés
+- Expliquer pourquoi les FNB sont souvent plus avantageux sur le plan fiscal que des fonds communs de placement comparables
+- Expliquer pourquoi les structures de coûts peuvent différer entre les deux
+
+## Contenu principal
+
+Les **FNB (fonds négociés en bourse)** et les **fonds communs de placement** mettent tous deux en commun l'argent des investisseurs dans un panier diversifié de titres, et tous deux peuvent suivre des stratégies ou des indices semblables — mais ils diffèrent sur certains points pratiques qu'il vaut la peine de comprendre.
+
+Voici « pourquoi » la négociation diffère : les FNB se négocient en bourse tout au long de la journée, comme des actions individuelles, à des prix qui fluctuent continuellement selon l'activité du marché. Les fonds communs de placement sont habituellement évalués et négociés une seule fois par jour, après la fermeture du marché, à la valeur liquidative calculée ce jour-là — tu ne connais pas le prix d'exécution exact quand tu passes un ordre de fonds commun pendant la journée de négociation.
+
+[VERIFIED FACT] Les FNB sont aussi souvent plus avantageux sur le plan fiscal que des fonds communs de placement comparables, en grande partie à cause d'un mécanisme structurel dans la façon dont les parts de FNB sont créées et rachetées, qui tend à générer moins de distributions de gains en capital imposables pour les porteurs de parts que le processus utilisé par de nombreux fonds communs — même si ça varie selon le fonds et n'est pas automatique pour chaque FNB.
+
+Les structures de coûts peuvent aussi différer : de nombreux FNB, surtout ceux qui suivent des indices larges, ont tendance à avoir des ratios de frais plus bas que les fonds communs de placement à gestion active, mais il existe aussi des fonds communs indiciels à faibles coûts — il faut comparer les coûts fonds par fonds plutôt que de les supposer selon le seul type de structure.
+
+## Exemple pratique
+
+[ILLUSTRATIVE EXAMPLE] Une investisseuse veut acheter des parts d'un fonds indiciel qui suit le S&P 500. Si elle choisit la version FNB, elle peut passer un ordre pendant les heures de marché et voir immédiatement le prix d'exécution, comme pour l'achat d'une action. Si elle choisit plutôt la version fonds commun de placement, son ordre est exécuté à la valeur liquidative du fonds calculée après la fermeture du marché ce jour-là — elle ne connaîtra pas le prix exact avant la fin de la journée de négociation. [ASSUMPTION] Sur plusieurs années, si la version FNB génère moins de distributions de gains en capital imposables grâce à son mécanisme structurel, l'investisseuse dans le FNB pourrait obtenir un rendement après impôt un peu meilleur, même si les placements sous-jacents et le rendement avant impôt des fonds sont très semblables.
+
+## Quiz de pratique
+
+1. En quoi la négociation des FNB pendant la journée diffère-t-elle de celle des fonds communs de placement?
+2. Pourquoi les FNB sont-ils souvent plus avantageux sur le plan fiscal que des fonds communs de placement comparables?
+3. Est-il juste de supposer que tous les FNB coûtent moins cher que tous les fonds communs de placement? Pourquoi?
+
+## Corrigé
+
+1. Les FNB se négocient tout au long de la journée à des prix qui fluctuent continuellement, comme des actions; les fonds communs de placement sont habituellement évalués et négociés une fois par jour, après la fermeture du marché, à la valeur liquidative de la journée.
+2. En grande partie à cause d'un mécanisme structurel dans la façon dont les parts de FNB sont créées et rachetées, qui tend à générer moins de distributions de gains en capital imposables que les processus de nombreux fonds communs de placement.
+3. Non — même si les FNB et les fonds indiciels ont généralement tendance à coûter moins cher que les fonds à gestion active, il existe aussi des fonds communs indiciels à faibles coûts, de sorte qu'il faut comparer les coûts fonds par fonds plutôt que de les supposer selon le seul type de structure.
+
+## Réponses et explications
+
+1. C'est la principale distinction structurelle entre les deux types de fonds.
+2. C'est le mécanisme central d'efficacité fiscale, accompagné de la nuance qu'il n'est pas automatique pour chaque FNB.
+3. Ça corrige une généralisation trop simple sur les coûts, qui ne tient pas toujours.
+
+## Points clés à retenir
+- Les FNB se négocient tout au long de la journée comme des actions; les fonds communs de placement se négocient une fois par jour à une valeur liquidative calculée.
+- Les FNB sont souvent, mais pas toujours, plus avantageux sur le plan fiscal grâce à leur structure de création et de rachat de parts.
+- Il faut comparer les coûts fonds par fonds, puisqu'il existe des options à faibles coûts dans les deux structures, FNB et fonds communs de placement.
+
+## Avis pédagogique
+Cette leçon sert uniquement à l'éducation financière générale et ne constitue pas un conseil financier, de placement, fiscal ou juridique personnalisé. Consulte un professionnel de la finance autorisé avant de prendre des décisions de placement.

@@ -1,0 +1,399 @@
+===== BLACK-L1-024
+TITLE: Tomar decisiones en modo de crisis
+SUMMARY: Enseña cómo los líderes deben abordar las decisiones de otra manera cuando operan bajo una presión de tiempo aguda.
+# Tomar decisiones en modo de crisis
+
+## Objetivos de aprendizaje
+
+- Explicar cómo las condiciones de crisis cambian el enfoque adecuado para tomar decisiones
+- Identificar los balances entre la rapidez y la minuciosidad bajo una presión aguda
+- Practicar cómo aplicar un marco de decisión simplificado con limitaciones de tiempo
+
+## Contenido principal
+
+La mayoría de los marcos de toma de decisiones vistos hasta ahora suponen que hay al menos algo de tiempo para pensar, recoger opiniones y sopesar las opciones. Una crisis genuina —en la que hay que tomar una decisión rápido, con consecuencias reales en cualquier caso— requiere un enfoque distinto y más comprimido.
+
+Bajo una presión de tiempo aguda, una simplificación útil es: identificar rápidamente las dos o tres opciones más plausibles, descartar cualquier opción que sería catastrófica e irreversible si saliera mal, y elegir la mejor opción disponible entre las que quedan, en lugar de buscar una opción perfecta que no existe en el tiempo disponible. En una crisis, la rapidez misma a menudo reduce el riesgo, porque demorarse buscando una respuesta perfecta puede costar más que actuar rápido con una respuesta suficientemente buena.
+
+Una vez que pasa la crisis, un líder debe volver sobre ella con una revisión más tranquila y minuciosa, no para cuestionar injustamente la decisión tomada bajo presión, sino para extraer lecciones reales que permitan manejar mejor la próxima crisis.
+
+## Ejemplo práctico
+
+Una falla repentina de un equipo amenaza con detener una pequeña tanda de producción cuya fecha límite con un cliente vence en pocas horas. Un líder en modo de crisis no tiene tiempo para el extenso análisis de riesgo que se usó antes para la decisión del arrendamiento. En cambio: descarta cualquier opción que arriesgue un daño permanente al equipo (catastrófica e irreversible), identifica rápidamente dos arreglos temporales viables y elige el que tiene más probabilidades de aguantar hasta la fecha límite, en lugar de pasar una hora comparando todas las opciones posibles. Una vez que pasa la crisis, el líder revisa con calma lo ocurrido para mejorar el mantenimiento del equipo de ahí en adelante.
+
+## Prueba práctica
+
+1. ¿Cómo cambia una crisis genuina el enfoque adecuado para tomar decisiones?
+2. ¿Cuál es el marco simplificado para las crisis que describe esta lección?
+3. ¿Por qué la rapidez misma puede reducir el riesgo en una crisis?
+4. ¿Qué debe hacer un líder una vez que pasa una crisis?
+
+## Clave de respuestas
+
+1. Requiere un proceso más rápido y comprimido que los marcos minuciosos que se usan para las decisiones que no son urgentes.
+2. Identificar rápidamente unas pocas opciones plausibles, descartar las catastróficas e irreversibles, y elegir la mejor disponible en lugar de una opción perfecta.
+3. Porque demorarse buscando una respuesta perfecta puede costar más que actuar rápido con una respuesta suficientemente buena.
+4. Volver sobre ella con una revisión más tranquila para extraer lecciones reales que permitan manejar mejor la próxima crisis.
+
+## Respuestas y explicaciones
+
+1. Las condiciones de crisis reducen el tiempo disponible para la deliberación más profunda que se usa en las decisiones no urgentes.
+2. Este marco ofrece un proceso de decisión práctico y rápido, adecuado específicamente a la presión de tiempo aguda.
+3. La parálisis por análisis durante una crisis puede causar más daño que una decisión imperfecta, pero oportuna.
+4. La revisión posterior a la crisis extrae aprendizajes sin cuestionar injustamente las decisiones tomadas bajo una presión de tiempo legítima.
+
+## Puntos clave
+
+- Las crisis genuinas requieren un enfoque de decisión más rápido y comprimido que las circunstancias normales.
+- Descarte rápidamente las opciones catastróficas e irreversibles y luego elija la mejor opción disponible en lugar de buscar la perfección.
+- Revise con calma las decisiones de crisis después, para extraer lecciones sin cuestionar injustamente los juicios hechos bajo presión.
+
+===== BLACK-L1-025
+TITLE: Lo básico de la estructura organizativa para un pequeño negocio
+SUMMARY: Presenta conceptos básicos de estructura organizativa, adaptados a la escala de un equipo pequeño.
+# Lo básico de la estructura organizativa para un pequeño negocio
+
+## Objetivos de aprendizaje
+
+- Explicar por qué incluso los equipos pequeños se benefician de una estructura organizativa básica
+- Identificar la pregunta central que responde la estructura organizativa
+- Practicar cómo esbozar una estructura sencilla para un pequeño negocio
+
+## Contenido principal
+
+La estructura organizativa suena como algo que solo necesitan las empresas grandes, pero incluso un equipo de tres o cuatro personas se beneficia de tener una claridad básica al respecto. En el fondo, la estructura organizativa responde una sola pregunta: ¿quién decide qué, y quién le rinde cuentas a quién? Sin ninguna estructura, incluso un equipo pequeño puede terminar confundido sobre quién es realmente responsable de un área determinada, lo que lleva a duplicar esfuerzos o, peor aún, a que cosas importantes se queden sin hacer porque todo el mundo supuso que otra persona se estaba encargando.
+
+Para un pequeño negocio, la estructura no tiene que ser elaborada: solo tiene que ser clara. Incluso una lista sencilla de quién se encarga de qué área (operaciones, ventas, finanzas, producto) y de quién toma la decisión final cuando hay desacuerdo evita mucha confusión a medida que el equipo crece más allá de una o dos personas.
+
+La estructura también debe adaptarse a medida que crece el negocio. Lo que funciona para tres personas a menudo hay que revisarlo cuando son diez, y otra vez cuando son treinta: la meta no es una estructura permanente, sino una estructura que se ajuste al tamaño y la complejidad actuales del equipo.
+
+## Ejemplo práctico
+
+Una empresa emergente de tres personas funciona al principio sin ninguna estructura formal: todos hacen un poco de todo. Cuando el equipo crece a seis personas, empieza a aparecer la confusión: dos personas creen que ambas son responsables del servicio al cliente, mientras que nadie es claramente responsable de llevar las finanzas. La fundadora introduce una claridad sencilla: una persona se encarga del servicio al cliente, otra de las finanzas y otra del producto, y ella toma las decisiones finales sobre cualquier asunto sin resolver. No es una jerarquía rígida: es una claridad básica que elimina la confusión que estaba frenando al equipo.
+
+## Prueba práctica
+
+1. ¿Qué pregunta central responde la estructura organizativa?
+2. ¿Por qué incluso los equipos pequeños se benefician de tener alguna estructura?
+3. ¿Tiene que ser elaborada la estructura de un pequeño negocio?
+4. ¿Por qué debe cambiar la estructura a medida que crece un negocio?
+
+## Clave de respuestas
+
+1. Quién decide qué, y quién le rinde cuentas a quién.
+2. Sin ella, los equipos pueden duplicar esfuerzos o dejar sin hacer tareas importantes porque no está clara la responsabilidad.
+3. No: solo tiene que ser clara, aunque sea sencilla.
+4. Porque lo que funciona para un equipo pequeño a menudo crea nuevas confusiones a un tamaño mayor, lo que exige que la estructura se ajuste a la complejidad actual.
+
+## Respuestas y explicaciones
+
+1. Esto define el propósito fundamental de la estructura organizativa a cualquier escala.
+2. La claridad sobre las responsabilidades evita los tipos de fallas específicos que describe la lección.
+3. Para los equipos pequeños, se pone el énfasis en la sencillez y la claridad por encima de una jerarquía elaborada.
+4. La estructura se presenta como algo que debe evolucionar con la organización, no como una decisión fija de una sola vez.
+
+## Puntos clave
+
+- La estructura organizativa responde quién decide qué y quién le rinde cuentas a quién, incluso en los equipos pequeños.
+- Sin una claridad básica, los equipos corren el riesgo de duplicar esfuerzos o de dejar vacíos donde nadie se encarga de una tarea importante.
+- La estructura debe ser sencilla, pero clara, y debe evolucionar a medida que el equipo crece en tamaño y complejidad.
+
+===== BLACK-L1-026
+TITLE: Puestos y personas: por qué el puesto importa más que quien lo ocupa
+SUMMARY: Enseña la distinción entre diseñar puestos duraderos y construir la estructura en torno a personas específicas.
+# Puestos y personas: por qué el puesto importa más que quien lo ocupa
+
+## Objetivos de aprendizaje
+
+- Distinguir entre un puesto y la persona específica que lo ocupa en este momento
+- Explicar por qué estructurar en torno a las personas en lugar de los puestos crea fragilidad
+- Practicar cómo definir un puesto con independencia de una persona específica
+
+## Contenido principal
+
+Es natural, sobre todo en un pequeño negocio, construir la estructura en torno a personas específicas: «María se encarga de todas las relaciones con los clientes», en lugar de «existe un puesto de relaciones con los clientes, que en este momento ocupa María». La distinción parece sutil, pero importa muchísimo para la resiliencia de la organización. Si María se va, se enferma o quiere pasar a otro puesto, un negocio estructurado específicamente en torno a «María» tiene muchas más dificultades para adaptarse que uno estructurado en torno a un puesto claramente definido que María casualmente ocupa en este momento.
+
+Definir los puestos con independencia de la persona que los ocupa significa documentar lo que el puesto realmente requiere —las responsabilidades, las relaciones clave, las destrezas necesarias— por separado de la forma particular en que lo hace esa persona específica. Esto hace que el negocio sea más resistente a la rotación y tenga más claro lo que realmente tiene que darse para que alguien tenga éxito en ese puesto, en lugar de depender por completo de la personalidad o los hábitos específicos de María.
+
+Esto no significa tratar a las personas como intercambiables ni ignorar las fortalezas individuales. Significa que las funciones centrales del negocio no deben estar tan atadas a una persona específica que perderla cree una crisis estructural en lugar de una transición manejable.
+
+## Ejemplo práctico
+
+Un pequeño negocio siempre ha dependido de un empleado que «simplemente sabe» cómo funcionan las relaciones con los suplidores, sin nada documentado. Cuando ese empleado se va de forma inesperada, el negocio no solo pierde a una persona, sino toda la función, porque el puesto nunca se definió realmente: existía solo en la cabeza de esa persona. Un negocio que hubiera documentado el puesto de relaciones con los suplidores (contactos clave, patrones de negociación, calendarios de renovación) con independencia de ese empleado específico podría haber incorporado a un reemplazo con mucha más facilidad.
+
+## Prueba práctica
+
+1. ¿Cuál es la diferencia entre un puesto y la persona que lo ocupa en este momento?
+2. ¿Por qué estructurar en torno a personas específicas crea fragilidad?
+3. ¿Significa definir los puestos de forma independiente tratar a las personas como intercambiables?
+4. En el ejemplo práctico, ¿qué causó específicamente las dificultades del negocio después de que se fue el empleado?
+
+## Clave de respuestas
+
+1. Un puesto es un conjunto definido de responsabilidades y requisitos; la persona es quien ocupa ese puesto en este momento.
+2. Porque perder a esa persona específica crea una crisis estructural en lugar de una transición manejable.
+3. No: significa que las funciones centrales del negocio no deben depender por completo del conocimiento no documentado de una sola persona.
+4. La función de relaciones con los suplidores existía solo en la cabeza de ese empleado, sin nada documentado con independencia de él.
+
+## Respuestas y explicaciones
+
+1. Esta distinción es el concepto central que presenta la lección para la resiliencia de la organización.
+2. Las funciones no documentadas y dependientes de una persona crean puntos únicos de falla para el negocio.
+3. La lección separa de forma explícita la definición de los puestos de restarle importancia al valor o a las fortalezas individuales.
+4. Esto ilustra el costo práctico de no separar nunca el puesto de la persona específica que lo ocupa.
+
+## Puntos clave
+
+- Distinga el puesto (responsabilidades definidas) de la persona que lo ocupa en este momento.
+- Estructurar en torno a personas específicas en lugar de puestos definidos crea fragilidad y puntos únicos de falla.
+- Documentar los puestos con independencia de las personas hace que un negocio sea más resistente a la rotación y a las transiciones.
+
+===== BLACK-L1-027
+TITLE: Fijar indicadores clave (KPI) que pueda usar alguien sin una maestría en negocios
+SUMMARY: Presenta los indicadores clave de desempeño en términos sencillos y prácticos para líderes sin formación formal en negocios.
+# Fijar indicadores clave (KPI) que pueda usar alguien sin una maestría en negocios
+
+## Objetivos de aprendizaje
+
+- Definir un KPI en términos sencillos y prácticos
+- Identificar las cualidades de un KPI útil
+- Practicar cómo fijar un KPI básico para una meta de negocio sencilla
+
+## Contenido principal
+
+KPI son las siglas en inglés de *Key Performance Indicator*, es decir, indicador clave de desempeño: un número específico que se puede seguir y que le dice si algo importante va bien o no. Suena a jerga corporativa, pero la idea de fondo es sencilla: escoja un número que realmente refleje el avance hacia una meta y revíselo con regularidad, para saber si va por buen camino sin tener que adivinar.
+
+Un KPI útil es específico, medible y está vinculado directamente con algo que importa. «Hacer crecer el negocio» no es un KPI: es un deseo vago. «Clientes nuevos por mes» o «tasa de conversión de propuestas a cierres» son KPI, porque son números específicos que se pueden seguir y comparar a lo largo del tiempo.
+
+El error que hay que evitar es escoger demasiados KPI a la vez, o escoger algunos que son fáciles de medir, pero que en realidad no reflejan lo que importa (una «métrica de vanidad», como los seguidores en las redes sociales, cuando la verdadera meta son los ingresos). Unos pocos KPI que de verdad reflejen la salud real del negocio son más útiles que un tablero lleno de números que en realidad no se conectan con nada importante.
+
+## Ejemplo práctico
+
+Un pequeño negocio de consultoría quiere crecer. En lugar de una meta vaga como «conseguir más clientes», el dueño escoge tres KPI específicos: la cantidad de propuestas nuevas enviadas por mes, la tasa de conversión de propuestas a cierres y el ingreso promedio por cliente. Estos tres números, que se siguen mes a mes, le dicen exactamente dónde enfocarse: si se envían muchas propuestas, pero la conversión es baja, el problema está en el proceso de ventas, no en la generación de clientes potenciales. Esto es mucho más útil que una sensación vaga de que «el negocio está lento este mes».
+
+## Prueba práctica
+
+1. Defina KPI en términos sencillos.
+2. Según esta lección, ¿qué hace útil a un KPI?
+3. ¿Qué es una «métrica de vanidad» y por qué es un error depender de una?
+4. Fije un KPI básico para una panadería que intenta reducir el desperdicio de alimentos.
+
+## Clave de respuestas
+
+1. Un número específico que se puede seguir y que le dice si algo importante va bien o no.
+2. Que sea específico, medible y esté vinculado directamente con algo que realmente importa.
+3. Una métrica fácil de medir, pero que no refleja lo que realmente importa para las metas reales del negocio, como los seguidores en lugar de los ingresos.
+4. Las respuestas variarán (por ejemplo: «porcentaje de los alimentos preparados que se desecha al final del día, medido cada semana»).
+
+## Respuestas y explicaciones
+
+1. Esto define el KPI en términos accesibles y sin jerga.
+2. La especificidad, la posibilidad de medirlo y la relevancia son las tres cualidades que hacen que un KPI sea realmente útil.
+3. Las métricas de vanidad se ven bien sin reflejar necesariamente la salud real del negocio, lo que puede llevar a decisiones equivocadas.
+4. Una respuesta correcta escoge un número específico y medible, vinculado directamente con la meta planteada (reducir el desperdicio).
+
+## Puntos clave
+
+- Un KPI es simplemente un número específico que se puede seguir y que refleja el avance hacia algo que importa.
+- Los KPI útiles son específicos, medibles y están vinculados directamente con metas reales del negocio, no con métricas de vanidad.
+- Unos pocos KPI significativos son mejores que un tablero lleno de números que no se conectan con lo que realmente importa.
+
+===== BLACK-L1-028
+TITLE: La disciplina en las reuniones
+SUMMARY: Enseña cómo dirigir reuniones que realmente produzcan decisiones en lugar de desperdiciar el tiempo colectivo.
+# La disciplina en las reuniones
+
+## Objetivos de aprendizaje
+
+- Explicar por qué las reuniones mal dirigidas son un costo oculto para la organización
+- Identificar los componentes de una reunión disciplinada y eficaz
+- Practicar cómo estructurar una agenda de reunión sencilla
+
+## Contenido principal
+
+Las reuniones son una de las formas más comunes en que una organización desperdicia tiempo en silencio, porque el costo se reparte entre muchas personas a la vez y rara vez se lleva el control como se haría con una partida del presupuesto. Una reunión de una hora con seis personas no cuesta una hora: cuesta seis horas de tiempo colectivo y, si esa reunión no produce una decisión o un resultado claros, ese tiempo prácticamente se pierde sin nada que mostrar.
+
+Una reunión disciplinada tiene un propósito claro anunciado de antemano (tomar decisiones, generar ideas, informar avances: cada uno requiere un formato distinto), una agenda específica para que los participantes sepan qué se va a tratar, y termina con próximos pasos y responsables claros, no solo con una vaga sensación de que «fue una buena conversación». Las reuniones sin un propósito declarado tienden a desviarse y a tratar lo que vaya surgiendo, en lugar de lo que realmente necesita una decisión.
+
+Una disciplina útil: antes de convocar una reunión, pregúntese si esto realmente requiere una conversación en tiempo real, o si el mismo resultado podría lograrse con un informe por escrito. No todo necesita una reunión, y recurrir por defecto a reuniones para cosas que no las necesitan es una de las fuentes más comunes de desperdicio de tiempo en una organización.
+
+## Ejemplo práctico
+
+Un equipo tiene una reunión fija semanal de una hora que se ha convertido casi por completo en informes de avance que fácilmente podrían compartirse por escrito. Una líder la reestructura: los informes de avance pasan a un documento compartido por escrito, que se revisa en distintos momentos, y la reunión se reduce a 20 minutos, enfocada solo en las decisiones que realmente necesitan una conversación en tiempo real. El equipo recupera 40 minutos cada semana, y la reunión misma se vuelve más enfocada y útil porque ya no está rellena de contenido que no necesitaba una conversación en vivo.
+
+## Prueba práctica
+
+1. ¿Por qué se consideran las reuniones mal dirigidas un costo oculto para la organización?
+2. Nombre los tres componentes de una reunión disciplinada.
+3. ¿Qué pregunta debe hacerse antes de convocar una reunión?
+4. En el ejemplo práctico, ¿qué cambio le devolvió tiempo al equipo sin perder nada importante?
+
+## Clave de respuestas
+
+1. Porque el costo se multiplica por el tiempo de cada participante y a menudo no se controla como otros costos.
+2. Un propósito claro y declarado, una agenda específica, y próximos pasos y responsables claros al final.
+3. ¿Requiere esto realmente una conversación en tiempo real, o podría lograrse el mismo resultado con un informe por escrito?
+4. Pasar los informes de avance a un documento compartido por escrito y reducir la reunión para tratar solo los asuntos que necesitan una conversación en tiempo real.
+
+## Respuestas y explicaciones
+
+1. Multiplicar el costo de tiempo por cada participante hace que las reuniones sean un gasto organizacional mayor de lo que parecen.
+2. Estos tres elementos estructuran una reunión para que produzca un resultado real y no solo conversación.
+3. Esta pregunta filtra las reuniones que en realidad no requieren tiempo simultáneo.
+4. Este ejemplo muestra una aplicación práctica del filtro de «¿esto necesita una reunión?».
+
+## Puntos clave
+
+- El costo de tiempo de una reunión se multiplica por cada participante, lo que hace de las reuniones mal dirigidas un costo oculto importante.
+- Las reuniones disciplinadas tienen un propósito claro, una agenda específica y terminan con próximos pasos y responsables claros.
+- Antes de convocar una reunión, pregúntese si realmente requiere una conversación en tiempo real o si podría ser un informe por escrito.
+
+===== BLACK-L1-029
+TITLE: Lo básico de la asignación de recursos
+SUMMARY: Presenta la disciplina de liderazgo de decidir hacia dónde deben ir el tiempo, el dinero y las personas, que son limitados.
+# Lo básico de la asignación de recursos
+
+## Objetivos de aprendizaje
+
+- Explicar por qué la asignación de recursos es una responsabilidad central del liderazgo
+- Identificar el balance que implica toda decisión de asignación
+- Practicar cómo priorizar recursos limitados entre necesidades que compiten
+
+## Contenido principal
+
+Toda organización, sin importar su tamaño, tiene un tiempo, un dinero y unas personas limitados, y decidir hacia dónde van esos recursos limitados es una de las responsabilidades más importantes y constantes de un líder. Cada dólar o cada hora que se gasta en una prioridad, por definición, no está disponible para otra, lo que significa que la asignación de recursos es en realidad una serie de decisiones de balance, piense el líder en ella de esa forma explícita o no.
+
+Una buena asignación de recursos empieza por tener claras las prioridades: lo que realmente importa más ahora mismo, según las metas reales del negocio, y no solo lo que se siente más urgente en el momento. Lo urgente y lo importante no son lo mismo, y un líder que asigna los recursos solo según lo más ruidoso o lo más reciente a menudo descuida cosas que, en silencio, son más importantes.
+
+Una disciplina sencilla: antes de asignar un recurso escaso, pregúntese a qué renuncia al asignarlo aquí en lugar de en otra parte. Hacer explícito ese balance, en lugar de dejarlo sin examinar, lleva a decisiones más deliberadas y defendibles.
+
+## Ejemplo práctico
+
+La dueña de un pequeño negocio tiene un presupuesto de mercadeo limitado y debe decidir entre una campaña de anuncios pagados e invertir el mismo dinero en mejorar el producto según las quejas recientes de los clientes. La opción ruidosa y urgente es más anuncios para atraer clientes nuevos. La opción más callada, y posiblemente más importante, es corregir el problema del producto que está alejando a los clientes que ya se consiguieron. Una líder que sopesa de forma explícita el balance —«si gasto esto en anuncios en lugar de corregir el problema del producto, estoy escogiendo conseguir clientes nuevos en lugar de retener a los que ya tengo»— toma una decisión más deliberada que una que escoge por defecto la opción que se siente más urgente.
+
+## Prueba práctica
+
+1. ¿Por qué la asignación de recursos es una responsabilidad constante del liderazgo?
+2. ¿Qué balance implica toda decisión de asignación?
+3. ¿Por qué es un error asignar los recursos solo según lo que se siente más urgente?
+4. ¿Qué disciplina sugiere esta lección antes de asignar un recurso escaso?
+
+## Clave de respuestas
+
+1. Porque los recursos siempre son limitados, y decidir hacia dónde van es una decisión continua e importante.
+2. Lo que se gana en un área es, por definición, lo que no se gasta en otra.
+3. Porque lo urgente y lo importante no son lo mismo, y las prioridades importantes, pero calladas, pueden quedar descuidadas.
+4. Preguntarse de forma explícita a qué se renuncia al asignar el recurso aquí en lugar de en otra parte.
+
+## Respuestas y explicaciones
+
+1. Los recursos limitados hacen de la asignación una función de liderazgo recurrente e inevitable.
+2. Este planteamiento del balance es el lente central que la lección aplica a las decisiones sobre recursos.
+3. La urgencia ruidosa puede desplazar prioridades más calladas, pero de mayor impacto, si la asignación no es deliberada.
+4. Esta pregunta explícita sobre el balance es la disciplina práctica que la lección recomienda aplicar de forma constante.
+
+## Puntos clave
+
+- La asignación de recursos es una responsabilidad constante del liderazgo, porque el tiempo, el dinero y las personas siempre son limitados.
+- Toda decisión de asignación es un balance: gastar aquí significa no gastar en otra parte.
+- Preguntarse de forma explícita a qué se renuncia lleva a decisiones de asignación más deliberadas y defendibles.
+
+===== BLACK-L1-030
+TITLE: Lo fundamental de la resolución de conflictos
+SUMMARY: Presenta un enfoque básico para resolver de forma constructiva los conflictos entre miembros del equipo.
+# Lo fundamental de la resolución de conflictos
+
+## Objetivos de aprendizaje
+
+- Explicar por qué un conflicto sin resolver cuesta más que la incomodidad de atenderlo
+- Identificar los pasos básicos de una resolución constructiva de conflictos
+- Practicar cómo facilitar un escenario sencillo de conflicto entre dos personas
+
+## Contenido principal
+
+El conflicto entre miembros de un equipo es normal e inevitable en cualquier grupo de personas que trabajan de cerca. El error que cometen muchos líderes es evitarlo, con la esperanza de que se resuelva solo. Un conflicto sin resolver rara vez desaparece: normalmente se encona y afecta el ánimo, la colaboración y, con el tiempo, el desempeño, a menudo de maneras más difíciles de arreglar de lo que habría sido el desacuerdo original.
+
+Un enfoque constructivo básico: escuchar primero a ambas partes por separado, sin suponer quién tiene la razón antes de entender el panorama completo; identificar el problema de fondo real, que a menudo es distinto de la queja superficial; y facilitar una conversación enfocada en un camino a seguir, en lugar de volver a discutir exactamente quién tuvo más culpa.
+
+El papel del líder no es necesariamente decidir quién tiene la razón, sino ayudar a ambas personas a pasar de una posición estancada y de enfrentamiento a una resolución viable, de forma similar a la distinción entre intereses y posiciones vista en la lección sobre negociación, aplicada aquí a un conflicto interpersonal en lugar de a un trato.
+
+## Ejemplo práctico
+
+Dos miembros del equipo tienen una tensión continua sobre cómo debe manejarse un proyecto compartido: uno siente que el otro va demasiado lento, y el otro se siente apresurado y sin apoyo. Un líder que evita el conflicto deja que siga afectando el ánimo de todo el equipo. Un líder que aplica una resolución constructiva escucha primero a cada persona por separado, descubre que el verdadero problema de fondo es que no está clara la responsabilidad sobre tareas específicas (no simplemente un choque de personalidades) y facilita una conversación para aclarar de ahí en adelante quién se encarga de cada tarea, lo que resuelve la causa de fondo real en lugar de solo decirles que «se lleven bien».
+
+## Prueba práctica
+
+1. ¿Por qué un conflicto sin resolver a menudo termina costando más que atenderlo directamente?
+2. Nombre los tres pasos básicos de la resolución constructiva de conflictos que describe esta lección.
+3. ¿Es necesariamente el papel del líder decidir quién tiene la razón en un conflicto?
+4. En el ejemplo práctico, ¿cuál era el verdadero problema de fondo detrás de la tensión superficial?
+
+## Clave de respuestas
+
+1. Porque se encona y afecta el ánimo y el desempeño de maneras que a menudo son más difíciles de arreglar que el desacuerdo original.
+2. Escuchar a ambas partes por separado, identificar el problema de fondo real, facilitar una conversación enfocada en un camino a seguir.
+3. No: su papel es ayudar a ambas personas a avanzar hacia una resolución viable, no necesariamente repartir culpas.
+4. Que no estaba clara la responsabilidad sobre las tareas, y no simplemente un choque de personalidades, como sugería el planteamiento superficial.
+
+## Respuestas y explicaciones
+
+1. Evitar el conflicto no lo elimina: normalmente agrava su costo con el tiempo.
+2. Esta estructura de tres pasos ofrece un marco práctico para la resolución constructiva de conflictos.
+3. Esto replantea el papel del líder: lo aleja del juicio y lo acerca a la facilitación.
+4. Esto muestra cómo descubrir el verdadero problema de fondo llevó a una resolución más eficaz y duradera.
+
+## Puntos clave
+
+- Un conflicto sin resolver tiende a enconarse y a costar más de lo que habría costado atenderlo directamente.
+- La resolución constructiva implica escuchar a ambas partes, identificar el problema de fondo real y facilitar un camino a seguir.
+- En un conflicto, el papel del líder a menudo es facilitar la resolución, no necesariamente decidir quién tenía la razón.
+
+===== BLACK-L1-031
+TITLE: Marcos para delegar
+SUMMARY: Ofrece un marco práctico para decidir cuánta supervisión aplicar al delegar una tarea.
+# Marcos para delegar
+
+## Objetivos de aprendizaje
+
+- Identificar distintos niveles de delegación y cuándo usar cada uno
+- Explicar por qué importa ajustar el nivel de supervisión al riesgo de la tarea y a la experiencia de la persona
+- Practicar cómo escoger un nivel de delegación adecuado para un escenario determinado
+
+## Contenido principal
+
+No toda delegación debe verse igual. Delegar una tarea de poco riesgo a un miembro del equipo con experiencia requiere un nivel de supervisión muy distinto del que requiere delegar una tarea de mucho riesgo a alguien más nuevo en el puesto. Un marco útil tiene varios niveles: «hazlo y cuéntame lo que hiciste» (autonomía total, adecuada para personas con experiencia en tareas de menor riesgo), «hazlo, pero consúltame antes de finalizar» (autonomía parcial, adecuada para tareas de más riesgo o para personas con menos experiencia) y «hagámoslo juntos» (colaboración cercana, adecuada para situaciones nuevas, de mucho riesgo o inusualmente complejas).
+
+Escoger el nivel equivocado, en cualquier dirección, causa problemas. Demasiada supervisión en una tarea que alguien es perfectamente capaz de manejar desperdicia el tiempo de ambas personas y puede sentirse como falta de confianza. Muy poca supervisión en una tarea en la que alguien de verdad necesita más apoyo puede llevar a errores costosos y a una experiencia desalentadora para la persona a la que no se le dieron las condiciones para tener éxito.
+
+El nivel adecuado no es fijo para siempre: a medida que alguien gana experiencia y demuestra confiabilidad en un tipo de tarea, el nivel de supervisión adecuado debe disminuir con el tiempo, lo cual es en sí mismo una forma de invertir en su crecimiento.
+
+## Ejemplo práctico
+
+A una persona recién contratada se le asigna una tarea frente al cliente, con ingresos reales en juego, en el nivel de «hazlo y cuéntame lo que hiciste», sin una preparación adecuada, y comete un error costoso que un nivel más apropiado de «hagámoslo juntos» habría detectado. Compare eso con exigirle a un miembro del equipo con experiencia que consulte cada pequeña decisión en una tarea rutinaria que ha manejado con éxito docenas de veces: eso desperdicia tiempo y puede empezar a sentirse como falta de confianza. Ajustar el nivel de delegación tanto a lo que está en juego en la tarea como a la experiencia real de la persona evita ambos tipos de falla.
+
+## Prueba práctica
+
+1. Nombre los tres niveles de delegación que describe esta lección.
+2. ¿Qué dos factores deben determinar qué nivel es el adecuado?
+3. ¿Qué pasa cuando se aplica demasiada supervisión a una persona capaz en una tarea de poco riesgo?
+4. ¿Qué pasa cuando se aplica muy poca supervisión a alguien que necesita más apoyo?
+
+## Clave de respuestas
+
+1. «Hazlo y cuéntame», «hazlo, pero consúltame antes de finalizar» y «hagámoslo juntos».
+2. Lo que está en juego o el nivel de riesgo de la tarea, y la experiencia real de la persona con ese tipo de tarea.
+3. Desperdicia el tiempo de ambas personas y puede sentirse como falta de confianza.
+4. Puede llevar a errores costosos y a una experiencia desalentadora para alguien a quien no se le dieron las condiciones para tener éxito.
+
+## Respuestas y explicaciones
+
+1. Estos tres niveles representan un espectro práctico de supervisión al delegar.
+2. Ajustar la supervisión tanto al riesgo de la tarea como a la experiencia de la persona es el principio central del marco.
+3. El exceso de supervisión tiene costos reales, no solo la falta de supervisión, que suele ser el tipo de falla del que más se habla.
+4. La falta de supervisión en una tarea realmente difícil o de mucho riesgo crea sus propios riesgos reales.
+
+## Puntos clave
+
+- La delegación debe adaptarse a distintos niveles de supervisión, desde la autonomía total hasta la colaboración cercana.
+- El nivel adecuado depende tanto de lo que está en juego en la tarea como de la experiencia real de la persona con ese tipo de trabajo.
+- El nivel de supervisión debe disminuir con el tiempo a medida que alguien demuestra confiabilidad, lo cual es en sí mismo una inversión en su crecimiento.

@@ -1,0 +1,286 @@
+===== RED-L2-007
+TITLE: L'interaction entre l'effet de levier et le risque
+SUMMARY: Comprends comment l'effet de levier amplifie autant les gains que les pertes, et quels risques augmentent quand on emprunte davantage.
+## RED-L2-007
+### L'interaction entre l'effet de levier et le risque
+
+**1. Objectifs d'apprentissage**
+À la fin de cette leçon, tu pourras :
+- Définir l'effet de levier dans un contexte immobilier.
+- Expliquer comment l'effet de levier amplifie autant les gains que les pertes.
+- Nommer au moins deux risques qui augmentent quand l'effet de levier augmente.
+
+**2. Contenu principal**
+L'effet de levier, c'est utiliser de l'argent emprunté pour contrôler un actif plus gros que ce que ton argent seul pourrait acheter. Une mise de fonds de 50 000 $ qui contrôle une propriété de 250 000 $, c'est un levier de 5 fois. L'effet de levier est une pièce puissante : il amplifie le rendement sur l'argent réellement investi, mais il amplifie les pertes de la même façon.
+
+Si une propriété de 250 000 $ prend 10 % de valeur (25 000 $), un investisseur qui a mis 50 000 $ comptant a en pratique obtenu un rendement de 50 % sur son capital investi (avant les frais). Mais si la propriété perd 10 % de sa valeur, ce même investisseur a perdu 50 % de son capital investi — la dette, elle, ne rapetisse pas avec la valeur de la propriété.
+
+L'effet de levier augmente aussi les obligations fixes : un paiement hypothécaire doit être fait, que la propriété produise un revenu ou non. Ça augmente le risque de défaut pendant une période d'inoccupation, des réparations ou une baisse du marché. Plus de levier, c'est moins de marge d'erreur.
+
+**3. Exemple pratique**
+Deux investisseurs achètent chacun une propriété de 300 000 $. L'investisseur A paie tout comptant. L'investisseur B verse 20 % de mise de fonds (60 000 $) et finance le reste. Les deux propriétés perdent 15 % de leur valeur pendant un ralentissement.
+
+L'investisseur A a perdu 45 000 $ sur un placement de 300 000 $ — une perte de 15 %. L'investisseur B a perdu 45 000 $ sur un placement de 60 000 $ — une perte de 75 % de son capital investi, et il doit encore le plein solde restant du prêt hypothécaire, peu importe la nouvelle valeur de la propriété. L'effet de levier de l'investisseur B a transformé la même perte en dollars en une perte beaucoup plus grande en pourcentage.
+
+**4. Quiz de pratique**
+1. L'effet de levier, c'est :
+   a) Payer entièrement comptant
+   b) Utiliser de l'argent emprunté pour contrôler un actif plus gros
+   c) Éviter toute dette
+   d) Un type d'assurance
+2. L'effet de levier amplifie :
+   a) Seulement les gains
+   b) Seulement les pertes
+   c) Les gains et les pertes
+   d) Ni l'un ni l'autre
+3. Vrai ou faux : Un paiement hypothécaire est généralement exigé, que la propriété produise un revenu ou non.
+4. Dans l'exemple pratique, pourquoi l'investisseur B a-t-il subi une perte plus grande en pourcentage que l'investisseur A?
+   a) La propriété de l'investisseur B a perdu plus de valeur
+   b) L'investisseur B avait moins d'argent investi par rapport au montant de la perte
+   c) L'investisseur A avait un meilleur gestionnaire immobilier
+   d) L'investisseur B n'avait pas d'assurance
+
+**5. Corrigé**
+1. b  2. c  3. Vrai  4. b
+
+**6. Réponses et explications**
+1. L'effet de levier, c'est l'utilisation de fonds empruntés pour contrôler un actif plus gros que ce que l'argent comptant seul permettrait.
+2. L'effet de levier amplifie autant les résultats positifs que négatifs par rapport à l'argent réellement investi.
+3. Les obligations hypothécaires sont habituellement fixes, peu importe le revenu, ce qui explique en partie pourquoi l'effet de levier est risqué.
+4. La même perte en dollars représentait un pourcentage beaucoup plus élevé du capital investi, plus petit, de l'investisseur B.
+
+**7. Points clés à retenir**
+- L'effet de levier, c'est contrôler grâce à une dette un actif plus gros que ce que ton argent seul pourrait acheter.
+- Il amplifie autant les gains que les pertes en pourcentage sur le capital investi.
+- Les obligations hypothécaires fixes continuent peu importe le revenu, ce qui augmente le risque de défaut pendant les ralentissements.
+- Plus de levier veut dire moins de marge d'erreur — un compromis risque-rendement fondamental en investissement immobilier.
+
+===== RED-L2-008
+TITLE: Augmenter le levier : ce qui arrive au flux de trésorerie, aux réserves et à la survie
+SUMMARY: Vois comment une plus petite mise de fonds réduit ta marge mensuelle, rend les réserves plus importantes et teste ta capacité à passer à travers une période d'inoccupation.
+## RED-L2-008
+### Augmenter le levier : ce qui arrive au flux de trésorerie, aux réserves et à la survie
+
+**1. Objectifs d'apprentissage**
+À la fin de cette leçon, tu pourras :
+- Expliquer comment l'augmentation du levier sur une propriété change le flux de trésorerie mensuel.
+- Décrire pourquoi les réserves deviennent plus importantes à mesure que le levier augmente.
+- Évaluer comment le levier influence la capacité d'un investisseur à passer à travers une période d'inoccupation.
+
+**2. Contenu principal**
+Dans la suite de la leçon précédente, augmenter le levier — verser une plus petite mise de fonds par rapport au prix d'une propriété — n'augmente pas seulement le risque de façon abstraite. Ça change des chiffres précis du quotidien : le paiement hypothécaire mensuel monte, le flux de trésorerie disponible après les dépenses diminue et le coussin nécessaire pour survivre à un mauvais mois se rétrécit.
+
+Une propriété fortement financée par levier peut quand même générer un flux de trésorerie positif sur papier pendant les mois normaux, mais avec moins de marge. Un seul loyer non payé, une réparation imprévue ou une inoccupation plus longue que prévu peut faire passer un mince flux de trésorerie positif dans le négatif. C'est pourquoi les réserves — de l'argent mis de côté spécialement pour une propriété, séparé des revenus de location — deviennent plus essentielles quand le levier augmente. Les réserves sont le coussin entre un revers temporaire et un paiement hypothécaire manqué.
+
+La vraie question que les investisseurs de niveau 2 devraient se poser, c'est celle de la capacité de survie : non pas « est-ce que ça génère un flux de trésorerie positif pendant un bon mois? », mais « est-ce que cette propriété, et moi, pouvons survivre à trois mauvais mois de suite? ».
+
+**3. Exemple pratique**
+Deux versions du même immeuble locatif de 300 000 $ : le scénario A utilise une mise de fonds de 30 %, ce qui donne un paiement hypothécaire plus bas et un flux de trésorerie positif de 400 $ par mois. Le scénario B utilise une mise de fonds de 10 %, ce qui donne un paiement hypothécaire plus élevé et un flux de trésorerie positif de seulement 75 $ par mois.
+
+Les deux scénarios ont l'air « rentables » sur papier. Mais quand survient une inoccupation de deux mois, le propriétaire du scénario A a plus de coussin intégré et des réserves plus solides par rapport à un prêt hypothécaire plus petit. Le propriétaire du scénario B, avec une marge mensuelle plus mince et un paiement fixe plus gros, doit s'appuyer beaucoup plus sur ses réserves — et si elles sont minces, il court un vrai risque de manquer un paiement hypothécaire.
+
+**4. Quiz de pratique**
+1. Quand le levier augmente, toutes choses étant égales par ailleurs, qu'arrive-t-il généralement au flux de trésorerie mensuel?
+   a) Il augmente
+   b) Il diminue
+   c) Il reste exactement le même
+   d) Il n'a plus d'importance
+2. Quel est le but principal des réserves?
+   a) Payer des vacances
+   b) Servir de coussin contre les inoccupations, les réparations ou les manques de revenus
+   c) Augmenter la mise de fonds
+   d) Éviter d'avoir un jour un prêt hypothécaire
+3. Vrai ou faux : Une propriété qui génère un flux de trésorerie positif pendant un mois normal est automatiquement à l'abri de tout risque futur.
+4. Quelle est la question clé sur la capacité de survie que cette leçon recommande de poser?
+   a) Est-ce que ça génère un flux de trésorerie positif pendant un bon mois?
+   b) Est-ce que cette propriété peut survivre à plusieurs mauvais mois de suite?
+   c) Est-ce la propriété la moins chère sur le marché?
+   d) Est-ce que le marché va toujours monter?
+
+**5. Corrigé**
+1. b  2. b  3. Faux  4. b
+
+**6. Réponses et explications**
+1. Un levier plus élevé veut dire un prêt plus gros et habituellement un paiement hypothécaire plus élevé, ce qui réduit le flux de trésorerie.
+2. Les réserves existent précisément pour absorber les coûts imprévus ou les manques de revenus sans manquer à ses obligations.
+3. Une mince marge positive pendant les bons mois peut vite devenir négative pendant une mauvaise période.
+4. La pensée de niveau 2 déplace la question du meilleur scénario vers la capacité de survie dans le pire scénario.
+
+**7. Points clés à retenir**
+- Un levier plus élevé augmente le paiement hypothécaire et réduit la marge du flux de trésorerie.
+- Les réserves deviennent plus essentielles quand le levier augmente; elles servent de coussin contre les revers.
+- Une propriété qui semble rentable pendant un mois normal peut ne pas survivre à plusieurs mauvais mois sans réserves.
+- La vraie question de niveau 2, c'est la capacité de survie, pas seulement la rentabilité dans le meilleur des cas.
+
+===== RED-L2-009
+TITLE: Réserves et inoccupation : se préparer à la pièce qui pourrait ne pas bouger
+SUMMARY: Apprends ce qu'est le taux d'inoccupation, comment on dimensionne habituellement les réserves et pourquoi le levier rend chaque mois vide plus coûteux.
+## RED-L2-009
+### Réserves et inoccupation : se préparer à la pièce qui pourrait ne pas bouger
+
+**1. Objectifs d'apprentissage**
+À la fin de cette leçon, tu pourras :
+- Définir le taux d'inoccupation et expliquer son impact financier.
+- Expliquer comment on dimensionne habituellement les réserves par rapport aux dépenses.
+- Décrire comment l'inoccupation interagit avec le levier et le flux de trésorerie.
+
+**2. Contenu principal**
+Toute propriété locative restera vide à un moment ou à un autre entre deux locataires; c'est normal, ce n'est pas un signe d'échec. La question, c'est de savoir si l'investisseur l'avait prévu. Le taux d'inoccupation est le pourcentage du temps (ou des logements, dans un immeuble à logements multiples) pendant lequel une propriété n'est pas louée sur une période donnée.
+
+On bâtit habituellement les réserves en fonction d'un certain nombre de mois de dépenses — prêt hypothécaire, taxes, assurance et entretien estimé — gardés en argent comptant spécialement pour la propriété. Une pratique courante chez bien des investisseurs est de viser de trois à six mois de dépenses en réserve, mais le bon montant dépend de la propriété, du marché et de la situation financière globale de l'investisseur; ce n'est pas une règle universelle fixe.
+
+L'inoccupation interagit directement avec le levier : une propriété fortement financée par levier a une obligation mensuelle fixe plus élevée, ce qui veut dire qu'un mois d'inoccupation coûte plus cher en dollars et vide les réserves plus vite que la même inoccupation sur une propriété moins endettée.
+
+**3. Exemple pratique**
+Wanda possède un immeuble locatif dont le paiement mensuel d'hypothèque, de taxes et d'assurance est de 1 600 $. Elle garde 9 600 $ en réserve — six mois de ce paiement — mis de côté spécialement pour cette propriété, séparément de ses économies personnelles.
+
+Quand sa locataire déménage et que le logement reste vide pendant deux mois, le temps de trouver quelqu'un d'autre, Wanda puise 3 200 $ dans ses réserves pour couvrir l'hypothèque pendant cette période, sans manquer de paiement ni toucher à son fonds d'urgence personnel. Comme elle avait prévu cette « pièce qui pourrait ne pas bouger », l'inoccupation a été un inconvénient, pas une crise.
+
+**4. Quiz de pratique**
+1. Qu'est-ce que le taux d'inoccupation?
+   a) Le taux d'intérêt sur une propriété vide
+   b) Le pourcentage du temps pendant lequel une propriété n'est pas louée
+   c) Un type d'assurance
+   d) Une déduction fiscale
+2. Une cible de réserve souvent citée (mais pas universelle) est :
+   a) Une semaine de dépenses
+   b) De trois à six mois de dépenses
+   c) Dix ans de dépenses
+   d) Aucune réserve n'est jamais nécessaire
+3. Vrai ou faux : Un levier plus élevé veut dire qu'un mois d'inoccupation coûte moins cher en dollars.
+4. Dans l'exemple de Wanda, qu'est-ce qui lui a permis de gérer l'inoccupation sans stress financier?
+   a) Elle a sauté son paiement hypothécaire
+   b) Elle avait financé d'avance des réserves propres à la propriété
+   c) La locataire a payé le loyer quand même
+   d) Elle a vendu la propriété tout de suite
+
+**5. Corrigé**
+1. b  2. b  3. Faux  4. b
+
+**6. Réponses et explications**
+1. Le taux d'inoccupation mesure à quelle fréquence une propriété (ou un logement) n'est pas louée au fil du temps.
+2. De trois à six mois de dépenses est une cible de réserve souvent mentionnée, même si elle varie selon la situation.
+3. Un levier plus élevé veut généralement dire un paiement fixe plus gros; une inoccupation coûte donc plus cher en dollars, pas moins.
+4. Les réserves financées d'avance et propres à la propriété ont absorbé la période sans perturber son prêt hypothécaire ni ses finances personnelles.
+
+**7. Points clés à retenir**
+- L'inoccupation est une partie normale et prévisible de la propriété locative, pas un signe d'échec.
+- On dimensionne habituellement les réserves en nombre de mois de dépenses, souvent de trois à six, selon la situation.
+- Un levier plus élevé augmente le coût en dollars d'un mois d'inoccupation, ce qui rend les réserves encore plus importantes.
+- Prévoir l'inoccupation d'avance transforme un événement prévisible en un inconvénient gérable plutôt qu'en crise.
+
+===== RED-L2-010
+TITLE: La gestion immobilière : gérer soi-même ou embaucher — ce qui change
+SUMMARY: Compare l'autogestion et la gestion professionnelle sur le plan des coûts, du temps et du risque, et vois comment la taille du portefeuille change la décision.
+## RED-L2-010
+### La gestion immobilière : gérer soi-même ou embaucher — ce qui change
+
+**1. Objectifs d'apprentissage**
+À la fin de cette leçon, tu pourras :
+- Comparer l'autogestion et la gestion immobilière professionnelle.
+- Nommer ce qui change sur le plan des coûts, du temps et du risque entre les deux approches.
+- Expliquer comment la taille du portefeuille et la situation personnelle influencent cette décision.
+
+**2. Contenu principal**
+Posséder une propriété locative demande de la gestion : trouver des locataires, percevoir les loyers, faire faire les réparations et régler les problèmes. Un investisseur peut gérer lui-même ou embaucher un gestionnaire immobilier professionnel, et ce choix change plusieurs pièces à la fois.
+
+L'autogestion fait économiser les frais de gestion — souvent un pourcentage des loyers perçus, dans une fourchette que les investisseurs devraient vérifier localement —, mais elle coûte du temps, exige que le propriétaire soit joignable (ou qu'il ait un système) en cas d'urgence et demande une certaine connaissance du droit du logement, qui varie beaucoup d'une juridiction à l'autre.
+
+La gestion professionnelle coûte de l'argent, mais elle peut faire gagner du temps, apporter une connaissance du marché et un réseau de fournisseurs, et créer une distance entre le propriétaire et les conflits avec les locataires. Elle prend de plus en plus de valeur quand le portefeuille d'un investisseur dépasse ce qu'il peut gérer lui-même, ou quand la propriété est loin de là où il habite.
+
+Aucun des deux choix n'est bon dans tous les cas. Une seule propriété tout près peut très bien se gérer seul; un portefeuille de propriétés réparties dans plusieurs États exige habituellement une gestion professionnelle, ou au moins quelqu'un sur place.
+
+**3. Exemple pratique**
+Raj possède une propriété locative à quinze minutes de chez lui et aime s'occuper lui-même des communications avec la locataire. Il gère lui-même, économise les frais de gestion et s'est bâti un petit réseau local d'entrepreneurs fiables pour les réparations.
+
+Quand Raj passe à cinq propriétés réparties dans deux États sur plusieurs années, les calculs changent. Il ne peut plus sélectionner lui-même les locataires, coordonner les réparations et répondre aux appels d'urgence dans plusieurs fuseaux horaires tout en gardant son emploi à temps plein. Il embauche une entreprise de gestion immobilière pour les propriétés à l'extérieur de son État, en voyant les frais de gestion comme le prix à payer pour grandir au-delà du temps dont il dispose personnellement.
+
+**4. Quiz de pratique**
+1. Qu'est-ce que l'autogestion permet habituellement d'économiser?
+   a) Les taxes foncières
+   b) Les frais de gestion immobilière
+   c) Les primes d'assurance
+   d) Les frais de clôture
+2. Quel est un avantage clé de la gestion immobilière professionnelle quand un portefeuille grandit?
+   a) Elle élimine toutes les dépenses
+   b) Elle remplace le temps limité du propriétaire par un service dédié
+   c) Elle garantit des loyers plus élevés
+   d) Elle élimine le besoin d'assurance
+3. Vrai ou faux : La gestion professionnelle est toujours le meilleur choix, peu importe la taille du portefeuille ou l'emplacement.
+4. Pourquoi Raj a-t-il embauché un gestionnaire pour ses propriétés hors de l'État, mais pas pour sa propriété locale?
+   a) Il n'aimait plus gérer des propriétés
+   b) Son temps et la distance ne lui permettaient plus de gérer lui-même à cette échelle
+   c) La loi l'exigeait
+   d) La propriété locale avait plus de valeur
+
+**5. Corrigé**
+1. b  2. b  3. Faux  4. b
+
+**6. Réponses et explications**
+1. L'autogestion fait surtout économiser les frais qui iraient autrement à un gestionnaire immobilier.
+2. Quand un portefeuille grandit, la gestion professionnelle remplace le temps et la présence locale que le propriétaire n'a peut-être plus.
+3. Le bon choix dépend de la taille du portefeuille, de l'emplacement et de la capacité personnelle du propriétaire — ce n'est pas une règle universelle.
+4. La décision de Raj suivait l'évolution de sa capacité et de la géographie, pas seulement un changement dans ses préférences.
+
+**7. Points clés à retenir**
+- L'autogestion fait économiser de l'argent, mais coûte du temps et exige des connaissances en droit du logement.
+- La gestion professionnelle coûte de l'argent, mais peut faire gagner du temps et apporter de l'expertise, surtout à grande échelle ou à distance.
+- Le bon choix dépend de la taille du portefeuille, de la proximité, ainsi que du temps et de l'expertise dont dispose le propriétaire.
+- Il faut revoir cette décision quand la situation change — pas seulement quand les préférences changent.
+
+===== RED-L2-011
+TITLE: L'assurance comme pièce : responsabilité civile, biens et assurance parapluie
+SUMMARY: Distingue l'assurance des biens, l'assurance responsabilité civile et l'assurance parapluie, et vois pourquoi un immeuble locatif a besoin d'une couverture propre aux propriétaires-bailleurs.
+## RED-L2-011
+### L'assurance comme pièce : responsabilité civile, biens et assurance parapluie
+
+**1. Objectifs d'apprentissage**
+À la fin de cette leçon, tu pourras :
+- Faire la différence entre l'assurance des biens, l'assurance responsabilité civile et l'assurance parapluie.
+- Expliquer pourquoi les propriétés locatives ont souvent besoin d'une couverture différente de celle d'une résidence principale.
+- Décrire comment l'assurance interagit avec le levier et les réserves.
+
+**2. Contenu principal**
+L'assurance est une pièce qui protège d'autres pièces. En immobilier, trois couches courantes sont l'assurance des biens (qui couvre les dommages à la structure physique), l'assurance responsabilité civile (qui couvre les réclamations si quelqu'un se blesse sur la propriété ou si le propriétaire est autrement tenu responsable) et l'assurance parapluie (une couverture de responsabilité supplémentaire au-delà des limites des polices de base, souvent utile pour les propriétaires de plusieurs immeubles ou ayant une valeur nette plus élevée).
+
+Une propriété locative a généralement besoin d'une police de propriétaire-bailleur, pas d'une police habitation ordinaire, parce que le profil de risque est différent : le propriétaire n'y habite pas, et le risque de responsabilité lié aux locataires ou de perte de revenus de location après un sinistre couvert est une préoccupation distincte qu'une assurance habitation ordinaire ne couvre peut-être pas.
+
+L'assurance interagit avec le levier et les réserves : les prêteurs exigent habituellement une assurance des biens suffisante comme condition du prêt, puisqu'elle protège aussi leur garantie. Et une propriété bien assurée peut réduire la pression sur les réserves : un incendie couvert devient une réclamation, pas seulement une ponction dans les réserves, même si les franchises et les trous de couverture s'appliquent encore.
+
+**3. Exemple pratique**
+Deja possède deux propriétés locatives, chacune avec une police de propriétaire-bailleur qui couvre la structure et la perte de revenus de location après un sinistre couvert, en plus d'une couverture de responsabilité civile. À mesure que son portefeuille et sa valeur nette grandissent, son courtier d'assurance lui recommande une police parapluie qui ajoute une couche de protection de responsabilité pour toutes ses propriétés, à un coût supplémentaire relativement bas par rapport à la protection offerte.
+
+Quand un livreur se blesse sur une de ses propriétés et dépose une réclamation en responsabilité qui dépasse la limite de responsabilité de sa police de propriétaire-bailleur, la police parapluie couvre le montant restant, ce qui évite que les autres actifs de Deja soient exposés dans la réclamation.
+
+**4. Quiz de pratique**
+1. Que couvre habituellement l'assurance des biens?
+   a) Les frais juridiques pour des poursuites sans rapport
+   b) Les dommages à la structure physique
+   c) La sélection des locataires
+   d) Les taux d'intérêt hypothécaires
+2. Quel est le but de l'assurance parapluie?
+   a) Remplacer le besoin de toute autre assurance
+   b) Fournir une couverture de responsabilité supplémentaire au-delà des limites des polices de base
+   c) Couvrir précisément les réparations de toiture
+   d) Réduire les taxes foncières
+3. Vrai ou faux : Une police d'assurance habitation ordinaire est généralement suffisante pour une propriété locative.
+4. Dans l'exemple de Deja, qu'est-ce que la police parapluie a protégé?
+   a) Seulement ses revenus de location
+   b) Ses autres actifs, une fois que la réclamation en responsabilité a dépassé la limite de sa police de base
+   c) Son taux hypothécaire
+   d) Les biens de sa locataire
+
+**5. Corrigé**
+1. b  2. b  3. Faux  4. b
+
+**6. Réponses et explications**
+1. L'assurance des biens couvre les dommages à la structure physique elle-même.
+2. L'assurance parapluie ajoute une couche de protection de responsabilité au-delà de ce que les polices de base offrent.
+3. Les propriétés locatives exigent habituellement une police de propriétaire-bailleur, distincte de l'assurance habitation ordinaire.
+4. La police parapluie a pris le relais une fois que la réclamation a dépassé la limite de responsabilité de sa police de propriétaire-bailleur, ce qui a protégé l'ensemble de ses actifs.
+
+**7. Points clés à retenir**
+- L'assurance des biens, l'assurance responsabilité civile et l'assurance parapluie ont des buts différents et complémentaires.
+- Les propriétés locatives exigent généralement des polices propres aux propriétaires-bailleurs, pas une assurance habitation ordinaire.
+- Les prêteurs exigent habituellement une assurance suffisante comme condition du prêt, ce qui relie cette pièce au financement.
+- L'assurance parapluie prend de la valeur à mesure que le portefeuille et l'exposition en responsabilité d'un investisseur grandissent.

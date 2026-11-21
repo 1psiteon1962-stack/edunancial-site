@@ -1,0 +1,399 @@
+===== WHITE-L4-011
+TITLE: La sensibilité des obligations et des actions aux taux d'intérêt : pourquoi elles réagissent différemment
+SUMMARY: Découvrez comment la hausse des taux touche directement le prix des obligations et, par le taux d'actualisation, l'évaluation des actions, et pourquoi les actions de croissance y sont plus sensibles.
+KEYWORDS: sensibilité aux taux d'intérêt, obligations et actions, taux d'actualisation, construction de portefeuille
+# La sensibilité des obligations et des actions aux taux d'intérêt : pourquoi elles réagissent différemment
+
+## Mise en situation
+HYPOTHÈSE/OPINION (scénario hypothétique à des fins pédagogiques seulement) : Imaginez une banque centrale qui relève son taux directeur fortement et à répétition en quelques mois pour combattre une inflation en hausse. Quand une banque centrale relève ses taux de façon agressive, le prix des obligations et le cours des actions n'évoluent pas toujours dans la même direction ni dans la même mesure. Cette leçon décortique les différents mécanismes à l'œuvre dans chaque marché.
+
+## Objectifs d'apprentissage
+- Expliquer comment la hausse des taux d'intérêt touche directement le prix des obligations.
+- Expliquer comment la hausse des taux d'intérêt touche l'évaluation des actions par le mécanisme du taux d'actualisation.
+- Expliquer pourquoi les actions de croissance sont habituellement plus sensibles aux taux que les actions de valeur ou à dividendes.
+- Appliquer cette compréhension pour prévoir comment un cycle de hausses des taux pourrait toucher un portefeuille mixte.
+
+## Contenu principal
+Rappelez-vous la leçon 3 : le prix des obligations évolue à l'inverse des taux d'intérêt par le mécanisme de la duration; les obligations existantes à taux fixe deviennent moins attrayantes, et leur prix baisse donc, quand de nouvelles obligations sont émises à des taux plus élevés. FAIT VÉRIFIÉ : c'est une relation directe et mécanique, puisque les paiements de coupon fixes d'une obligation valent moins par rapport à de nouvelles options au rendement plus élevé.
+
+Voici le « pourquoi » les actions réagissent aux variations des taux par un mécanisme différent, moins direct : l'évaluation des actions est souvent modélisée comme la valeur actuelle des flux de trésorerie futurs attendus d'une société, ramenés à aujourd'hui à l'aide d'un taux d'actualisation qui monte et descend avec les taux d'intérêt en vigueur. Quand les taux montent, comme dans le scénario ci-dessus, la valeur actuelle de ces flux de trésorerie futurs baisse, toutes choses étant égales par ailleurs, et cet effet est plus grand pour les sociétés dont la valeur dépend beaucoup de flux de trésorerie attendus loin dans le futur (bien des sociétés de croissance) que pour les sociétés qui génèrent dès aujourd'hui d'importants flux de trésorerie (bien des sociétés de valeur et à dividendes).
+
+C'est pourquoi les actions de croissance, comme les obligations à longue duration de la leçon 3, tendent à être plus sensibles à la hausse des taux que les actions de valeur : le mécanisme est conceptuellement parallèle (une plus grande part de la valeur se situe plus loin dans le temps; elle est donc actualisée plus lourdement), même si les actifs sous-jacents (une participation au capital d'une part, des créances à revenu fixe de l'autre) sont fondamentalement différents. C'est pourquoi un cycle de hausses des taux peut faire pression à la fois sur les obligations et sur les actions de croissance, même si le mécanisme précis diffère entre ces deux catégories d'actifs.
+
+## Exemple pratique
+EXEMPLE ILLUSTRATIF : Pendant un cycle de hausses des taux, un fonds d'obligations gouvernementales à longue duration baisse de 12 % à cause du mécanisme d'actualisation directe de la leçon 3, alors qu'un indice composé surtout d'actions de croissance baisse de 18 % au cours de la même période, parce que les investisseurs appliquent un taux d'actualisation plus élevé à des sociétés dont les profits sont attendus surtout dans les années futures, et qu'un indice composé surtout d'actions de valeur, qui génèrent d'importants flux de trésorerie actuels, ne baisse que de 4 % au cours de la même période. Cela illustre comment un même cycle de hausses des taux touche différents types d'actifs par des mécanismes liés, mais distincts, et à des degrés différents.
+
+## Questionnaire pratique
+**Q1. Pourquoi le prix des obligations baisse-t-il quand les taux d'intérêt montent?**
+A) Les obligations existantes à taux fixe deviennent moins attrayantes que les nouvelles obligations à rendement plus élevé
+B) La hausse des taux augmente toujours automatiquement le paiement de coupon d'une obligation
+C) Le prix des obligations n'a aucun lien avec les variations des taux d'intérêt
+D) La hausse des taux élimine l'obligation de l'émetteur de payer des intérêts
+
+**Q2. Par quel mécanisme la hausse des taux d'intérêt fait-elle habituellement pression sur l'évaluation des actions?**
+A) La hausse des taux augmente le taux d'actualisation appliqué aux flux de trésorerie futurs attendus d'une société, ce qui réduit leur valeur actuelle
+B) La hausse des taux n'a aucun effet sur les modèles d'évaluation des actions
+C) La hausse des taux augmente toujours les bénéfices de l'année en cours d'une société
+D) L'évaluation des actions est entièrement fixée par la réglementation gouvernementale
+
+**Q3. Pourquoi les actions de croissance sont-elles habituellement plus sensibles à la hausse des taux que les actions de valeur?**
+A) Les actions de croissance n'ont aucune exposition aux variations des taux d'intérêt
+B) Une plus grande part de la valeur d'une action de croissance dépend de flux de trésorerie attendus plus loin dans le futur, qui sont actualisés plus lourdement quand les taux montent
+C) Les actions de valeur ne sont touchées par aucune condition économique
+D) Les actions de croissance versent toujours des dividendes plus élevés que les actions de valeur
+
+**Q4. Dans l'exemple, pourquoi l'indice d'actions de croissance a-t-il baissé plus que l'indice d'actions de valeur pendant le cycle de hausses des taux?**
+A) L'indice d'actions de valeur n'avait aucune exposition au cycle de hausses des taux
+B) La valeur de l'indice de croissance dépendait davantage de flux de trésorerie futurs, actualisés plus lourdement quand les taux ont monté, contrairement aux importants flux de trésorerie actuels de l'indice de valeur
+C) Les actions de croissance sont toujours à l'abri des variations des taux d'intérêt
+D) L'indice de valeur était situé dans un autre pays, non touché par la variation des taux
+
+**Q5. Pourquoi un cycle de hausses des taux peut-il faire pression à la fois sur les obligations et sur les actions de croissance, malgré leurs mécanismes sous-jacents différents?**
+A) Les obligations et les actions de croissance sont techniquement le même type d'actif
+B) Les deux sont touchées par des mécanismes d'actualisation conceptuellement liés : les obligations directement par la comparaison avec des coupons fixes, et les actions de croissance par l'évaluation des flux de trésorerie futurs actualisés
+C) Les taux d'intérêt ne touchent qu'une seule catégorie d'actifs à la fois
+D) Les hausses de taux n'ont aucun lien avec l'une ou l'autre de ces catégories d'actifs
+
+## Corrigé
+Q1: A
+Q2: A
+Q3: B
+Q4: B
+Q5: B
+
+## Réponses et explications
+**Q1.** Le coupon fixe des obligations existantes devient relativement moins attrayant à mesure que de nouvelles obligations offrent des rendements plus élevés, ce qui pousse le prix des obligations existantes vers le bas.
+
+**Q2.** Des taux d'actualisation plus élevés réduisent la valeur actuelle des flux de trésorerie futurs, qui sont au cœur de la plupart des modèles d'évaluation des actions.
+
+**Q3.** Comme les obligations à longue duration, la valeur des actions de croissance est concentrée plus loin dans le futur, ce qui les rend plus sensibles aux variations du taux d'actualisation.
+
+**Q4.** La sensibilité différente tenait à la part de la valeur de chaque indice qui dépendait des flux de trésorerie futurs plutôt qu'actuels.
+
+**Q5.** Même si les mécanismes précis diffèrent, les obligations et les actions de croissance sont touchées par le principe général selon lequel la hausse des taux d'actualisation réduit la valeur actuelle des flux de trésorerie futurs.
+
+## Points clés
+- Le prix des obligations baisse quand les taux montent, parce que les coupons fixes existants deviennent moins attrayants que ceux des nouvelles obligations à rendement plus élevé.
+- La hausse des taux fait pression sur l'évaluation des actions par un taux d'actualisation plus élevé appliqué aux flux de trésorerie futurs attendus.
+- Les actions de croissance tendent à être plus sensibles aux taux que les actions de valeur, parce qu'une plus grande part de leur valeur se situe plus loin dans le futur.
+- Un cycle de hausses des taux peut faire pression à la fois sur les obligations et sur les actions de croissance par des mécanismes d'actualisation liés, mais distincts.
+
+===== WHITE-L4-012
+TITLE: L'analyse de la cote de crédit : pourquoi une décote ne veut pas toujours dire un défaut
+SUMMARY: Découvrez ce que représente une cote de crédit, pourquoi une décote fait baisser le prix d'une obligation même sans défaut et pourquoi les cotes devraient éclairer votre analyse sans la remplacer.
+KEYWORDS: cote de crédit, décote d'une obligation, risque de défaut, analyse du risque de crédit
+# L'analyse de la cote de crédit : pourquoi une décote ne veut pas toujours dire un défaut
+
+## Mise en situation
+HYPOTHÈSE/OPINION (scénario hypothétique à des fins pédagogiques seulement) : Imaginez le gouvernement d'un pays de taille moyenne qui laisse entendre qu'il pourrait ne pas être en mesure d'effectuer un prochain paiement sur ses obligations, ce qui augmente le risque de défaut sur sa dette. Quand les finances d'un gouvernement sont sous tension, les agences de notation abaissent souvent la cote de ses obligations bien avant qu'un paiement soit réellement manqué. Cette leçon explique ce qu'une décote signale vraiment, et ce qu'elle ne signale pas.
+
+## Objectifs d'apprentissage
+- Expliquer ce que représente une cote de crédit.
+- Expliquer la différence entre une décote et un vrai défaut de paiement.
+- Expliquer pourquoi une décote touche habituellement le prix d'une obligation, même sans défaut.
+- Repérer les limites de se fier uniquement aux cotes de crédit pour évaluer le risque.
+
+## Contenu principal
+Une cote de crédit, attribuée par des agences qui évaluent la capacité d'un emprunteur (une société ou un gouvernement) à respecter ses obligations de dette, va des cotes de haute qualité, dites « de première qualité » (en anglais, « investment grade »), jusqu'à des catégories de plus en plus risquées, dites « spéculatives » ou « à rendement élevé ». FAIT VÉRIFIÉ : une cote est une évaluation de la probabilité et de la gravité relatives d'un défaut, et non une garantie ou une prédiction précise d'un résultat futur précis.
+
+Voici le « pourquoi » une décote ne veut pas toujours dire qu'un vrai défaut est imminent, ni même probable : les agences de notation abaissent la cote d'un émetteur quand elles jugent que le risque de crédit a augmenté (peut-être à cause de finances qui s'affaiblissent, comme dans le scénario de tension souveraine ci-dessus), mais une probabilité de défaut accrue reste souvent une probabilité absolue assez faible. Bien des obligations décotées continuent d'être remboursées au complet et finissent par voir leur cote relevée à mesure que les conditions s'améliorent, sans jamais faire défaut.
+
+C'est pourquoi une décote compte quand même beaucoup pour le prix des obligations et la stratégie de portefeuille, même sans défaut réel : le prix des obligations baisse habituellement lors d'une décote parce que le marché exige un rendement plus élevé (et accepte donc un prix plus bas, selon la relation inverse entre le prix et le rendement de la leçon 3) pour compenser le risque perçu, maintenant plus élevé, et parce que certains investisseurs institutionnels sont tenus, par leur propre mandat de placement, de vendre les obligations qui tombent sous la catégorie de première qualité, ce qui crée une pression vendeuse additionnelle indépendante de la capacité réelle de l'émetteur à payer. C'est pourquoi les cotes de crédit devraient éclairer, sans la remplacer, l'évaluation du risque faite par l'investisseur lui-même : les cotes peuvent être en retard sur les développements en temps réel et, OPINION : certains analystes soutiennent que les agences de notation ont parfois tardé à abaisser la cote d'émetteurs dont la qualité de crédit se détériorait déjà de façon visible.
+
+## Exemple pratique
+EXEMPLE ILLUSTRATIF : Les obligations d'un gouvernement passent de la catégorie de première qualité à la catégorie spéculative après des mois de tension budgétaire. Le prix des obligations chute fortement à l'annonce de la décote, en partie parce que certains grands fonds institutionnels sont tenus de vendre toute obligation qui tombe sous la catégorie de première qualité, peu importe leur propre opinion sur les perspectives de l'émetteur. Le gouvernement met ensuite en œuvre des réformes, continue d'effectuer tous ses paiements selon le calendrier, et les obligations retrouvent la catégorie de première qualité dix-huit mois plus tard. Cela illustre que la décote reflétait un risque accru et une pression vendeuse forcée, et non un vrai défaut, qui ne s'est jamais produit.
+
+## Questionnaire pratique
+**Q1. Que représente une cote de crédit?**
+A) Une prédiction garantie qu'un emprunteur fera défaut ou non
+B) Une évaluation de la probabilité et de la gravité relatives d'un défaut sur les obligations de dette d'un emprunteur
+C) Le taux d'intérêt exact que versera une obligation
+D) Une mesure de la volatilité du cours de l'action d'une société
+
+**Q2. Pourquoi une décote ne veut-elle pas nécessairement dire qu'un défaut est imminent?**
+A) Les décotes sont attribuées au hasard, sans lien avec le risque réel
+B) Une décote reflète un risque évalué plus élevé, mais la probabilité de défaut qui en résulte peut rester relativement faible, et bien des émetteurs décotés continuent de payer au complet
+C) Selon la définition réglementaire, toutes les obligations décotées font défaut en moins d'un an
+D) Les décotes ne s'appliquent qu'aux obligations qui ont déjà fait défaut
+
+**Q3. Pourquoi le prix d'une obligation baisse-t-il habituellement lors d'une décote, même sans défaut réel?**
+A) Le prix des obligations n'est pas touché par les cotes de crédit
+B) Le marché exige un rendement plus élevé pour compenser le risque perçu accru, et certains investisseurs institutionnels sont tenus de vendre les obligations décotées, ce qui crée une pression vendeuse additionnelle
+C) Une décote déclenche automatiquement le remboursement complet de l'obligation
+D) Le prix des obligations ne change que lorsqu'un défaut se produit réellement
+
+**Q4. Qu'est-il arrivé aux obligations gouvernementales de l'exemple après la décote?**
+A) Le gouvernement a fait défaut sur toute sa dette en cours
+B) Le gouvernement a continué d'effectuer tous ses paiements selon le calendrier, a mis en œuvre des réformes, et les obligations ont fini par retrouver la catégorie de première qualité
+C) Les obligations ont été interdites de négociation pour toujours
+D) La décote n'a eu aucun effet sur le prix des obligations
+
+**Q5. Pourquoi les cotes de crédit devraient-elles éclairer, plutôt que remplacer, l'évaluation du risque faite par l'investisseur lui-même?**
+A) Les cotes de crédit sont toujours parfaitement exactes et n'exigent aucune analyse indépendante
+B) Les cotes peuvent être en retard sur les développements en temps réel, et certains analystes soutiennent que les agences ont parfois tardé à refléter une qualité de crédit qui se détériorait
+C) L'évaluation indépendante du risque est illégale pour les investisseurs particuliers
+D) Les cotes de crédit ne changent jamais une fois attribuées
+
+## Corrigé
+Q1: B
+Q2: B
+Q3: B
+Q4: B
+Q5: B
+
+## Réponses et explications
+**Q1.** Les cotes de crédit sont des évaluations du risque, et non des garanties ou des prédictions précises d'un résultat futur précis.
+
+**Q2.** Une décote signale un risque élevé, et non une certitude, et bien des emprunteurs décotés continuent de respecter leurs obligations sans jamais faire défaut.
+
+**Q3.** La réévaluation du risque par le marché et les ventes forcées des investisseurs institutionnels limités par leur mandat contribuent toutes deux à la baisse de prix lors d'une décote.
+
+**Q4.** La décote reflétait un risque accru et a déclenché des ventes forcées, mais l'émetteur n'a jamais réellement fait défaut et a vu sa cote relevée plus tard, à mesure que les conditions s'amélioraient.
+
+**Q5.** Comme les cotes peuvent être en retard sur les conditions réelles, les compléter par une analyse indépendante donne un portrait du risque plus complet.
+
+## Points clés
+- Une cote de crédit évalue la probabilité et la gravité relatives d'un défaut; ce n'est pas une prédiction garantie d'un résultat précis.
+- Une décote signale un risque accru, mais bien des émetteurs décotés continuent de payer au complet et ne font jamais réellement défaut.
+- Le prix des obligations baisse habituellement lors d'une décote, à cause à la fois du risque perçu accru et des ventes forcées des investisseurs limités par leur mandat.
+- Les cotes de crédit devraient éclairer, sans la remplacer, l'évaluation indépendante du risque faite par l'investisseur, puisqu'elles peuvent être en retard sur les développements en temps réel.
+
+===== WHITE-L4-013
+TITLE: L'analyse des titres protégés contre l'inflation : pourquoi les TIPS ne sont pas une protection parfaite
+SUMMARY: Découvrez comment les obligations protégées contre l'inflation ajustent leur capital, ce qu'est le rendement réel et pourquoi ces titres comportent encore un risque de taux d'intérêt.
+KEYWORDS: TIPS, titres protégés contre l'inflation, obligations à rendement réel, protection contre l'inflation, rendement réel
+# L'analyse des titres protégés contre l'inflation : pourquoi les TIPS ne sont pas une protection parfaite
+
+## Mise en situation
+HYPOTHÈSE/OPINION (scénario hypothétique à des fins pédagogiques seulement) : Imaginez une banque centrale qui relève son taux directeur fortement et à répétition en quelques mois pour combattre une inflation en hausse. Pendant que l'inflation est forte et que la banque centrale réagit de façon agressive, les investisseurs axés sur le revenu commencent à se demander si les obligations protégées contre l'inflation peuvent protéger entièrement leur pouvoir d'achat. Cette leçon examine ce que ces titres font réellement, et où s'arrête leur protection.
+
+## Objectifs d'apprentissage
+- Expliquer comment les titres du Trésor protégés contre l'inflation (TIPS) s'ajustent à l'inflation.
+- Expliquer la différence entre le rendement nominal et le rendement réel.
+- Repérer les limites des TIPS comme protection contre l'inflation.
+- Expliquer pourquoi les TIPS comportent encore un risque de taux d'intérêt malgré leur mécanisme d'ajustement à l'inflation.
+
+## Contenu principal
+Les titres du Trésor protégés contre l'inflation (TIPS, en anglais « Treasury Inflation-Protected Securities ») sont des obligations du gouvernement américain dont la valeur du capital s'ajuste selon les variations d'un indice d'inflation désigné (aux États-Unis, l'indice des prix à la consommation). FAIT VÉRIFIÉ : quand l'indice monte, le capital de l'obligation augmente, et les paiements d'intérêts, calculés selon un taux fixe appliqué à ce capital ajusté, augmentent aussi, ce qui lie directement les paiements de l'obligation à l'inflation mesurée, contrairement à une obligation nominale ordinaire, qui a un capital fixe et un coupon fixe.
+
+Voici le « pourquoi » les TIPS ne sont pas une protection parfaite ou complète contre l'inflation, malgré ce lien direct : les TIPS protègent contre les variations de l'indice d'inflation précis auquel ils sont liés, mais cet indice peut ne pas refléter parfaitement les hausses réelles du coût de la vie d'un investisseur en particulier, qui peuvent différer selon ses habitudes de dépenses (le logement, les soins de santé, l'éducation et d'autres catégories peuvent augmenter à des rythmes différents de l'indice général). Il peut aussi y avoir un délai entre le moment où l'inflation se produit réellement et le moment où elle est reflétée dans l'indice publié qui sert à ajuster l'obligation.
+
+C'est pourquoi les TIPS comportent encore un vrai risque de taux d'intérêt, distinct du risque d'inflation : les TIPS versent un rendement « réel » (un rendement au-delà de l'inflation), et ce rendement réel fluctue lui-même selon les conditions du marché; il peut monter ou baisser indépendamment de l'ajustement à l'inflation. Le prix d'une obligation TIPS peut donc quand même baisser si les rendements réels montent fortement, même pendant une période d'inflation élevée, comme le risque de duration que comporte toute obligation (leçon 3). C'est pourquoi les TIPS traitent précisément le risque d'inflation, mais n'éliminent pas le risque de taux d'intérêt et ne garantissent pas une détention tranquille et sans soucis pendant un cycle de hausses des taux comme celui du scénario ci-dessus.
+
+## Exemple pratique
+EXEMPLE ILLUSTRATIF : Un investisseur achète une obligation TIPS pendant une période d'inflation élevée en s'attendant à une protection complète de son pouvoir d'achat. L'inflation mesurée fait bel et bien monter le capital et les paiements d'intérêts de l'obligation, comme prévu. Cependant, au cours de la même période, les rendements réels montent fortement à mesure que la banque centrale resserre sa politique de façon agressive, et le prix de marché de l'obligation TIPS baisse à cause de cette hausse du taux d'intérêt réel, même si son mécanisme d'ajustement à l'inflation a fonctionné exactement comme prévu. Cela illustre que les TIPS traitent précisément le risque d'inflation, mais ne protègent pas un investisseur contre le risque de taux d'intérêt réel.
+
+## Questionnaire pratique
+**Q1. Comment le capital d'une obligation TIPS change-t-il au cours de sa vie?**
+A) Le capital reste complètement fixe, peu importe l'inflation
+B) Le capital s'ajuste à la hausse ou à la baisse selon les variations d'un indice d'inflation désigné
+C) Le capital ne change que si l'obligation est vendue avant l'échéance
+D) Le capital est déterminé uniquement par la cote de crédit de l'obligation
+
+**Q2. Pourquoi l'indice d'inflation auquel sont liés les TIPS pourrait-il ne pas refléter parfaitement les hausses réelles du coût de la vie d'un investisseur en particulier?**
+A) L'indice d'inflation correspond toujours exactement aux habitudes de dépenses de chaque personne
+B) Les habitudes de dépenses de chacun dans des catégories comme le logement, les soins de santé et l'éducation peuvent augmenter à des rythmes différents de l'indice général
+C) Les TIPS ne sont en fait liés à aucun indice d'inflation
+D) Les hausses du coût de la vie sont identiques pour chaque personne d'un même pays
+
+**Q3. Qu'est-ce que le « rendement réel » dans le contexte des TIPS?**
+A) Le paiement d'intérêts nominal total de l'obligation avant tout ajustement à l'inflation
+B) Un rendement au-delà de l'inflation, qui fluctue selon les conditions du marché indépendamment du mécanisme d'ajustement à l'inflation
+C) La cote de crédit attribuée à l'obligation
+D) Le prix d'achat initial de l'obligation
+
+**Q4. Pourquoi le prix d'une obligation TIPS peut-il quand même baisser, même pendant une période d'inflation élevée et mesurée avec exactitude?**
+A) Le prix des TIPS est fixé par la loi et ne peut jamais changer
+B) Si les rendements réels montent fortement, le prix de l'obligation peut baisser à cause du risque de taux d'intérêt, indépendamment du bon fonctionnement du mécanisme d'ajustement à l'inflation
+C) Les obligations TIPS sont à l'abri de toute forme de risque de taux d'intérêt
+D) La hausse de l'inflation garantit toujours, sans exception, une hausse du prix des obligations TIPS
+
+**Q5. Quel est le principal enseignement au sujet des TIPS comme protection contre l'inflation?**
+A) Les TIPS offrent une protection complète et parfaite contre tous les risques possibles d'un investisseur
+B) Les TIPS traitent précisément le risque d'inflation lié à un indice désigné, mais n'éliminent pas le risque de taux d'intérêt réel et ne correspondent pas parfaitement à l'expérience d'inflation personnelle de chacun
+C) Les TIPS n'offrent aucune protection contre l'inflation
+D) Les TIPS sont identiques en tous points aux obligations gouvernementales nominales ordinaires
+
+## Corrigé
+Q1: B
+Q2: B
+Q3: B
+Q4: B
+Q5: B
+
+## Réponses et explications
+**Q1.** Les TIPS sont conçus précisément pour ajuster la valeur de leur capital selon un indice d'inflation mesuré.
+
+**Q2.** Comme l'indice général fait une moyenne de nombreuses catégories de dépenses, l'inflation réellement vécue par une personne peut différer de l'indice publié.
+
+**Q3.** Le rendement réel reflète le rendement additionnel que les investisseurs exigent au-delà de la compensation pour l'inflation, et il peut évoluer indépendamment de l'ajustement à l'inflation lui-même.
+
+**Q4.** Les TIPS comportent encore un risque de taux d'intérêt réel, comme le risque de duration de toute obligation, qui peut faire baisser leur prix indépendamment des ajustements liés à l'inflation.
+
+**Q5.** Les TIPS sont un outil ciblé pour un type de risque précis (l'inflation mesurée), mais ils laissent d'autres risques, comme les variations des taux réels, sans réponse.
+
+## Points clés
+- Les TIPS ajustent leur capital et leurs paiements d'intérêts selon un indice d'inflation désigné, contrairement aux obligations nominales ordinaires.
+- Cet indice d'inflation peut ne pas correspondre parfaitement aux variations réelles du coût de la vie personnel d'un investisseur.
+- Les TIPS comportent encore un risque de taux d'intérêt réel, puisque leur rendement réel peut monter ou baisser indépendamment de l'ajustement à l'inflation.
+- Les TIPS traitent précisément le risque d'inflation, mais ils n'éliminent pas le risque de taux d'intérêt et ne garantissent pas une protection complète.
+
+===== WHITE-L4-014
+TITLE: Les bases des options : pourquoi une option d'achat n'est pas un pari, mais un droit
+SUMMARY: Découvrez comment fonctionne une option d'achat, pourquoi c'est un droit et non une obligation, et pourquoi la perte maximale de l'acheteur se limite à la prime payée.
+KEYWORDS: options d'achat, bases des options, négociation d'options, notions de base sur les produits dérivés
+# Les bases des options : pourquoi une option d'achat n'est pas un pari, mais un droit
+
+## Mise en situation
+HYPOTHÈSE/OPINION (scénario hypothétique à des fins pédagogiques seulement) : Imaginez deux grandes puissances économiques qui intensifient leurs contrôles des exportations l'une contre l'autre sur une catégorie de composantes technologiques avancées utilisées dans de nombreuses industries. Pendant que ces deux grandes économies durcissent leurs restrictions technologiques mutuelles, certains investisseurs veulent se positionner en vue d'une possible remontée dans un secteur précis sans engager tout leur capital dans l'achat direct d'actions. Cette leçon présente l'outil conçu précisément pour ce genre de positionnement asymétrique.
+
+## Objectifs d'apprentissage
+- Expliquer la structure et la terminologie de base d'une option d'achat.
+- Expliquer pourquoi une option d'achat représente un droit, et non une obligation.
+- Expliquer le profil de perte maximale et de gain théoriquement illimité d'une position acheteuse sur une option d'achat.
+- Expliquer pourquoi la prime d'une option est le coût de ce droit, et non un pari placé directement sur le prix.
+
+## Contenu principal
+Une option d'achat (en anglais, « call ») donne à son acheteur le droit, mais non l'obligation, d'acheter un nombre précis d'actions d'un titre sous-jacent à un prix fixé d'avance (le prix d'exercice) au plus tard à une date précise (la date d'échéance), en échange d'un paiement initial (la prime). FAIT VÉRIFIÉ : c'est une structure fondamentalement différente du simple achat ou de la simple vente directe d'une action, parce que l'acheteur d'une option d'achat peut choisir de ne pas exercer ce droit s'il n'est pas avantageux de le faire, ce qui limite sa perte à la prime payée.
+
+Voici le « pourquoi » cette structure de « droit, et non d'obligation » est si importante pour comprendre le risque : un investisseur qui achète une option d'achat parce qu'il prévoit une remontée dans un secteur touché par le genre de tension commerciale du scénario ci-dessus ne risque que la prime payée pour l'option, peu importe jusqu'où l'action pourrait tomber sous le prix d'exercice; c'est une perte maximale fixe et connue. Si l'action monte plutôt bien au-dessus du prix d'exercice avant l'échéance, la valeur de l'option d'achat peut augmenter de façon importante, ce qui offre un potentiel de gain théoriquement illimité, puisqu'il n'y a aucune limite à la hausse du cours d'une action.
+
+C'est pourquoi la prime d'une option d'achat ne devrait pas être vue simplement comme « un pari sur la hausse de l'action », de la même façon qu'un achat direct d'action : c'est le prix de marché d'un droit précis, défini par contrat, et ce prix est influencé par plusieurs facteurs au-delà de la seule direction que l'investisseur prévoit pour l'action : la volatilité actuelle de l'action, le temps qui reste avant l'échéance et l'écart entre le prix d'exercice et le cours actuel de l'action, des sujets traités plus en détail dans les leçons sur les options qui suivent celle-ci.
+
+## Exemple pratique
+EXEMPLE ILLUSTRATIF : Un investisseur achète une option d'achat sur une action qui se négocie actuellement à 50 $, avec un prix d'exercice de 55 $ et une prime de 2 $ par action (200 $ au total pour un contrat standard de 100 actions). Si l'action tombe à 30 $, la perte maximale de l'investisseur est la prime de 200 $ payée : il n'exerce tout simplement pas l'option, qui ne vaut plus rien. Si l'action monte plutôt à 70 $ avant l'échéance, la valeur de l'option monte pour refléter l'écart de 15 $ entre le cours de l'action et le prix d'exercice, ce qui transforme un placement de 200 $ en une position qui vaut environ 1 500 $. Cela illustre la structure asymétrique de risque et de rendement qu'un achat direct d'action n'offre pas de la même façon.
+
+## Questionnaire pratique
+**Q1. Quel droit une option d'achat donne-t-elle à son acheteur?**
+A) L'obligation de vendre des actions à un prix fixé d'avance
+B) Le droit, mais non l'obligation, d'acheter des actions à un prix d'exercice fixé d'avance, au plus tard à l'échéance
+C) La propriété garantie de la société sous-jacente
+D) Le droit de voter sur les décisions du conseil d'administration
+
+**Q2. Quelle est la perte maximale possible pour l'acheteur d'une option d'achat?**
+A) Illimitée, puisque l'action pourrait théoriquement tomber à zéro
+B) La prime payée pour l'option, puisque l'acheteur peut simplement choisir de ne pas exercer une option défavorable
+C) Le double de la prime payée
+D) Il n'y a aucune perte possible quand on achète une option d'achat
+
+**Q3. Pourquoi la prime d'une option d'achat n'est-elle pas simplement « un pari sur la hausse de l'action », de la même façon qu'un achat d'action?**
+A) La prime est entièrement fixée par la réglementation gouvernementale, sans influence du marché
+B) La prime reflète le prix de marché d'un droit contractuel précis, influencé par la volatilité, le temps qui reste avant l'échéance et le rapport entre le prix d'exercice et le cours actuel, et pas seulement par une attente de direction
+C) Les primes des options d'achat sont toujours identiques, peu importe les conditions du marché
+D) Il n'y a aucune différence importante entre acheter une option d'achat et acheter une action
+
+**Q4. Dans l'exemple, pourquoi la perte maximale de l'investisseur était-elle limitée à 200 $, même si l'action est tombée à 30 $?**
+A) L'investisseur était légalement tenu de vendre l'action à 30 $
+B) L'investisseur pouvait simplement choisir de ne pas exercer l'option, puisqu'elle n'avait aucune valeur sous le prix d'exercice de 55 $, ce qui limitait la perte à la prime payée
+C) Les options d'achat garantissent un remboursement complet si le cours de l'action baisse
+D) La chute de l'action à 30 $ n'a aucun lien avec la valeur de l'option
+
+**Q5. Pourquoi une position acheteuse sur une option d'achat offre-t-elle un potentiel de gain théoriquement illimité?**
+A) Il y a une limite fixe à ce qu'un acheteur d'option d'achat peut gagner
+B) Comme il n'y a aucune limite à la hausse du cours d'une action, la hausse possible de la valeur de l'option est elle aussi sans limite
+C) Les options d'achat expirent automatiquement sans valeur dès que l'action monte au-dessus du prix d'exercice
+D) Le potentiel de gain n'a aucun lien avec la hauteur que peut atteindre le cours de l'action
+
+## Corrigé
+Q1: B
+Q2: B
+Q3: B
+Q4: B
+Q5: B
+
+## Réponses et explications
+**Q1.** Une option d'achat est définie par ce droit précis et facultatif d'acheter, ce qui la distingue d'un achat direct d'action ou d'une obligation.
+
+**Q2.** Comme l'exercice est facultatif, la perte de l'acheteur est plafonnée au montant payé pour l'option elle-même, peu importe jusqu'où l'action baisse.
+
+**Q3.** Plusieurs facteurs de prix, au-delà de la simple attente de direction, déterminent la prime d'une option, ce qui la distingue d'un simple pari directionnel sur une action.
+
+**Q4.** Le caractère facultatif de l'exercice de l'option d'achat a fait en sorte que la perte de l'investisseur était plafonnée à la prime, peu importe la baisse de l'action.
+
+**Q5.** Comme la valeur de l'option suit le cours de l'action au-delà du prix d'exercice, et que le cours des actions n'a pas de plafond théorique, le gain possible est lui aussi sans limite.
+
+## Points clés
+- Une option d'achat donne à l'acheteur le droit, mais non l'obligation, d'acheter des actions à un prix d'exercice fixé d'avance.
+- La perte maximale de l'acheteur est limitée à la prime payée, peu importe jusqu'où l'action sous-jacente baisse.
+- Une position acheteuse sur une option d'achat offre un potentiel de gain théoriquement illimité, puisqu'il n'y a aucune limite à la hausse du cours d'une action.
+- La prime d'une option reflète plusieurs facteurs de prix au-delà de l'attente de direction, ce qui la distingue d'un simple pari directionnel.
+
+===== WHITE-L4-015
+TITLE: L'analyse des options de vente : pourquoi elles fonctionnent comme une assurance
+SUMMARY: Découvrez comment une option de vente protège une action que vous possédez contre une baisse, comment fonctionne la stratégie de l'option de vente de protection et quel en est le coût.
+KEYWORDS: options de vente, assurance de portefeuille, protection contre la baisse, stratégie de couverture
+# L'analyse des options de vente : pourquoi elles fonctionnent comme une assurance
+
+## Mise en situation
+HYPOTHÈSE/OPINION (scénario hypothétique à des fins pédagogiques seulement) : Imaginez une institution financière d'importance systémique qui révèle soudainement une perte importante jusque-là cachée, ce qui fait craindre que le risque de contrepartie se propage dans l'ensemble du système bancaire. Pendant que la peur du risque de contrepartie se répand dans les marchés financiers, certains investisseurs veulent protéger les actions qu'ils détiennent déjà contre une nouvelle baisse sans avoir à les vendre. Cette leçon explique l'outil conçu précisément pour ce genre de protection.
+
+## Objectifs d'apprentissage
+- Expliquer la structure de base d'une option de vente.
+- Expliquer le parallèle entre une option de vente et une police d'assurance.
+- Expliquer comment fonctionne une stratégie d'option de vente de protection pour couvrir une position en actions existante.
+- Repérer le compromis de coût lié à l'utilisation d'options de vente pour protéger un portefeuille.
+
+## Contenu principal
+Une option de vente (en anglais, « put ») donne à son acheteur le droit, mais non l'obligation, de vendre un nombre précis d'actions à un prix d'exercice fixé d'avance, au plus tard à l'échéance, en échange d'une prime initiale. FAIT VÉRIFIÉ : c'est l'image inversée de la structure de l'option d'achat de la leçon 14 : là où une option d'achat donne le droit d'acheter, une option de vente donne le droit de vendre, et la valeur d'une option de vente augmente habituellement quand le cours de l'action sous-jacente baisse.
+
+Voici le « pourquoi » une option de vente fonctionne un peu comme une police d'assurance : tout comme un propriétaire paie une prime d'assurance pour avoir le droit d'être indemnisé si sa maison est endommagée, un investisseur qui détient une action peut payer une prime d'option pour avoir le droit de vendre cette action à un prix d'exercice garanti, ce qui le protège contre une baisse sous ce niveau, comme celle qui pourrait survenir pendant une période de tension du système financier semblable à celle du scénario ci-dessus. Si l'action ne baisse pas, l'option de vente expire sans valeur, tout comme une police d'assurance « gaspille » sa prime si aucune réclamation n'est jamais faite; mais l'investisseur était protégé pendant la période où l'assurance (ou l'option de vente) était en vigueur.
+
+C'est pourquoi la stratégie de l'« option de vente de protection » (acheter une option de vente sur une action qu'on possède déjà) est une technique de couverture courante : elle permet à l'investisseur de garder la propriété de l'action (et de profiter de toute hausse supplémentaire) tout en limitant le risque de baisse à un montant connu et défini (l'écart entre le cours actuel et le prix d'exercice, plus la prime payée), un peu comme l'assurance habitation limite la perte maximale d'un propriétaire à une franchise tout en lui laissant la pleine propriété de sa maison. Le compromis, comme pour toute assurance, est le coût récurrent de la prime, qui réduit le rendement global du portefeuille si la protection finit par ne pas servir.
+
+## Exemple pratique
+EXEMPLE ILLUSTRATIF : Un investisseur possède 100 actions d'un titre qui se négocie actuellement à 80 $ et, inquiet d'une possible nouvelle baisse en pleine tension du système financier, il achète une option de vente avec un prix d'exercice de 75 $, pour une prime de 3 $ par action (300 $ au total). Si l'action tombe à 50 $, l'investisseur peut exercer l'option de vente et vendre ses actions à 75 $ au lieu du cours du marché, beaucoup plus bas, ce qui limite sa perte à 5 $ par action plus la prime de 3 $, au lieu de la baisse complète de 30 $ par action qu'il aurait subie sans protection. Si l'action monte plutôt à 95 $, l'option de vente expire sans valeur, ce qui coûte à l'investisseur la prime de 300 $, mais il profite quand même pleinement de la hausse de l'action jusqu'à 95 $.
+
+## Questionnaire pratique
+**Q1. Quel droit une option de vente donne-t-elle à son acheteur?**
+A) Le droit d'acheter des actions à un prix fixé d'avance
+B) Le droit, mais non l'obligation, de vendre des actions à un prix d'exercice fixé d'avance
+C) Des paiements de dividendes garantis de la société sous-jacente
+D) L'obligation d'acheter des actions additionnelles
+
+**Q2. En quoi une option de vente ressemble-t-elle à une police d'assurance?**
+A) Les deux garantissent un profit, peu importe les conditions du marché
+B) Les deux supposent de payer une prime pour se protéger contre un résultat défavorable, une protection qui peut ne pas servir si l'événement défavorable ne se produit pas
+C) Les options de vente et les polices d'assurance n'ont aucune ressemblance importante
+D) Les polices d'assurance donnent aussi à leur titulaire le droit de vendre des actions
+
+**Q3. En quoi consiste la stratégie de l'« option de vente de protection »?**
+A) Vendre immédiatement toutes les actions possédées pour éviter tout risque
+B) Acheter une option de vente sur une action qu'un investisseur possède déjà, pour limiter le risque de baisse tout en conservant le potentiel de hausse
+C) Acheter une option d'achat au lieu de posséder des actions
+D) Emprunter de l'argent pour acheter plus d'actions du même titre
+
+**Q4. Dans l'exemple, quelle a été la perte approximative par action de l'investisseur si l'action tombait à 50 $, compte tenu de l'option de vente de protection?**
+A) La baisse complète de 30 $ par action
+B) Environ 5 $ par action plus la prime de 3 $, puisque l'option de vente permettait de vendre au prix d'exercice de 75 $ au lieu du cours du marché
+C) Aucune perte
+D) L'investisseur a été forcé d'acheter plus d'actions à 50 $
+
+**Q5. Quel est le principal compromis de l'utilisation d'options de vente pour protéger un portefeuille?**
+A) Il n'y a aucun compromis; les options de vente offrent une protection entièrement gratuite
+B) Le coût récurrent de la prime réduit le rendement global du portefeuille si la protection finit par ne pas servir, comme une assurance qu'on ne réclame pas
+C) Les options de vente éliminent pour toujours tout risque de placement
+D) Acheter des options de vente exige de vendre tous les autres placements du portefeuille
+
+## Corrigé
+Q1: B
+Q2: B
+Q3: B
+Q4: B
+Q5: B
+
+## Réponses et explications
+**Q1.** Une option de vente accorde précisément le droit facultatif de vendre au prix d'exercice, l'image inversée du droit d'acheter d'une option d'achat.
+
+**Q2.** Les deux structures supposent de payer un coût initial pour une protection contre la baisse dont on pourrait avoir besoin ou non.
+
+**Q3.** Cette stratégie combine une position en actions existante et une option de vente pour plafonner le risque de baisse tout en préservant la participation aux gains futurs.
+
+**Q4.** L'option de vente a plafonné la perte à l'écart entre le prix d'achat et le prix d'exercice, plus la prime payée, plutôt qu'à la baisse complète du marché.
+
+**Q5.** Comme pour l'assurance, le coût continu de la prime freine réellement les rendements quand la protection finit par ne pas être nécessaire.
+
+## Points clés
+- Une option de vente donne à l'acheteur le droit, mais non l'obligation, de vendre des actions à un prix d'exercice fixé d'avance.
+- Les options de vente fonctionnent un peu comme une assurance : on paie une prime pour une protection qui peut ne pas servir si aucune baisse ne se produit.
+- Une stratégie d'option de vente de protection plafonne le risque de baisse d'une action qu'on possède tout en préservant la participation à la hausse.
+- Le coût récurrent de la prime est le principal compromis, puisqu'il réduit le rendement global si la protection finit par ne pas être nécessaire.

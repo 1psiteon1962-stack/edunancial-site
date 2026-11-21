@@ -1,0 +1,14 @@
+QUEUE v3 (2026-11-09, corrected audit)
+DONE today: GREEN-L1 de, it, nl, pt-PT, pt-BR (repacked from Drive Sept 24, index-validated)
+L1 GENUINE WORK:
+- es-419: WHITE (in progress), BLUE, GREEN, GOLD, PURPLE, ORANGE
+- WHITE: es-Caribbean, es-ES, fr-CA, fr-FR, it, nl (old lesson list)
+- PURPLE: en-GB, fr-FR, pt-BR, pt-PT, de, it, nl (old list); es-ES (file is French); es-Caribbean 25 thin; fr-CA 9 thin
+- BLUE: English 30 template lessons first; then es-C, es-ES, fr-CA, fr-FR, it (old list for 20 real); pt-PT/de/nl 30 thin = template English
+- ORANGE: lessons 002-015 in en-GB, pt-BR, pt-PT, de, it, nl
+- GOLD: thin/filler in fr-CA 26, fr-FR 21, pt-BR 36, pt-PT 50, nl 49, es-C 6; it missing (it-IT strays condensed). Drive Aug-30 packs are templated rewrites, NOT usable
+- GREEN: fr-FR (Drive Aug pack is old list), fr-CA 40 thin
+- RED: fr-FR 45 untranslated; it 17 thin; de, nl missing
+- ht: all colors
+SITE BUG: RED-L1 009-050 legacy empty json overrides good files (8 locales)
+L2: 10 languages x 8 colors (es-C, fr-CA done; BLUE es-C needed)

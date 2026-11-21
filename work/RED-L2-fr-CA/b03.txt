@@ -1,0 +1,345 @@
+===== RED-L2-012
+TITLE: La structure d'entreprise en immobilier : les LLC et la protection en responsabilité
+SUMMARY: Comprends à quoi sert une LLC pour détenir de l'immobilier, pourquoi sa protection n'est ni automatique ni absolue, et pourquoi il faut l'aide d'un professionnel.
+## RED-L2-012
+### La structure d'entreprise en immobilier : les LLC et la protection en responsabilité
+
+**1. Objectifs d'apprentissage**
+À la fin de cette leçon, tu pourras :
+- Expliquer le but général de détenir de l'immobilier dans une LLC (société à responsabilité limitée).
+- Décrire de façon simple la notion de protection en responsabilité.
+- Reconnaître que la structuration d'entreprise dépend de la juridiction et exige l'aide d'un professionnel.
+
+**2. Contenu principal**
+Bien des investisseurs immobiliers détiennent leurs propriétés locatives dans une LLC (*Limited Liability Company*, une forme de société à responsabilité limitée aux États-Unis) plutôt qu'à leur nom personnel. Le but général, c'est la protection en responsabilité : si elle est bien structurée et bien maintenue, une LLC peut aider à séparer les dettes et obligations d'une propriété des biens personnels du propriétaire. Une poursuite liée à la propriété pourrait alors se limiter aux actifs de la LLC au lieu d'atteindre les économies, la maison ou les autres propriétés du propriétaire.
+
+Cette protection n'est ni automatique ni absolue. Elle dépend de la bonne constitution et du bon maintien de la LLC : comptes bancaires séparés, tenue de livres appropriée, capitalisation suffisante et respect des formalités. Les tribunaux peuvent parfois « lever le voile corporatif » si une LLC n'est pas bien maintenue, ce qui expose finalement les biens personnels du propriétaire. Les règles qui encadrent la constitution, l'imposition et la protection en responsabilité des LLC varient beaucoup d'un État et d'un pays à l'autre; c'est donc clairement une RÈGLE PROPRE À UNE RÉGION qui exige un avocat en droit immobilier et un fiscaliste.
+
+Le choix de l'entité interagit aussi avec le financement (certains prêteurs ont des exigences ou des taux différents pour les propriétés détenues par une LLC) et avec les impôts (le traitement fiscal des LLC varie). C'est pourquoi la structuration d'entreprise ne devrait jamais être traitée comme une simple formalité.
+
+**3. Exemple pratique**
+Deux investisseurs, Ben et Carlos, achètent chacun une propriété locative. Ben la détient à son nom personnel. Carlos constitue une LLC, ouvre un compte bancaire d'entreprise séparé pour elle, tient des registres minutieux et consulte un avocat pour s'assurer qu'elle est bien maintenue.
+
+Quand une poursuite pour une chute est déposée à la suite de la blessure d'un invité d'un locataire dans chacune des propriétés, les biens personnels de Ben sont directement exposés dans sa poursuite. Grâce à la structure de LLC bien maintenue de Carlos, la réclamation se limite généralement aux actifs de la LLC — à condition que la LLC ait été bien constituée et bien maintenue, et c'est justement pour ça que Carlos a pris les formalités au sérieux au lieu de voir la LLC comme un simple nom sur papier.
+
+**4. Quiz de pratique**
+1. Quel est le but général de détenir de l'immobilier dans une LLC?
+   a) Ne plus payer de taxes foncières du tout
+   b) Aider à séparer les obligations liées à la propriété des biens personnels
+   c) Garantir des revenus de location plus élevés
+   d) Éliminer le besoin d'assurance
+2. Qu'est-ce qui peut arriver si une LLC n'est pas bien maintenue?
+   a) Rien ne change
+   b) Un tribunal pourrait « lever le voile corporatif » et exposer les biens personnels
+   c) La propriété prend automatiquement de la valeur
+   d) Les taxes foncières sont éliminées
+3. Vrai ou faux : Les règles de constitution des LLC et de protection en responsabilité sont identiques dans tous les États et tous les pays.
+4. Pourquoi la LLC de Carlos lui a-t-elle offert une meilleure protection que la propriété personnelle de Ben?
+   a) La propriété de Carlos valait plus cher
+   b) Carlos a bien constitué la LLC et en a respecté les formalités
+   c) Ben n'avait pas d'assurance
+   d) Carlos avait un meilleur locataire
+
+**5. Corrigé**
+1. b  2. b  3. Faux  4. b
+
+**6. Réponses et explications**
+1. On utilise couramment les LLC pour aider à séparer les obligations d'une propriété des biens personnels du propriétaire.
+2. Si on ne respecte pas les formalités d'une LLC, un tribunal peut ne pas tenir compte de sa séparation, ce qui expose le propriétaire personnellement.
+3. Ces règles varient beaucoup selon la juridiction et exigent l'aide d'un professionnel.
+4. C'est la rigueur de Carlos dans le respect des formalités de la LLC qui a préservé sa fonction de bouclier en responsabilité.
+
+**7. Points clés à retenir**
+- En immobilier, on utilise couramment les LLC pour aider à séparer les obligations liées aux propriétés des biens personnels.
+- Cette protection dépend d'une bonne constitution et d'un maintien continu, pas seulement des papiers remplis au départ.
+- Les règles qui encadrent les LLC varient selon la juridiction et exigent un avocat et un fiscaliste qualifiés.
+- La structure d'entreprise interagit avec le financement et l'imposition; c'est une décision importante, pas une formalité.
+
+===== RED-L2-013
+TITLE: Comment le choix de l'entité change le financement, les impôts et la responsabilité
+SUMMARY: Vois comment une seule décision de structure — détenir une propriété à ton nom ou dans une entité — se répercute sur le financement, la fiscalité et la responsabilité.
+## RED-L2-013
+### Comment le choix de l'entité change le financement, les impôts et la responsabilité
+
+**1. Objectifs d'apprentissage**
+À la fin de cette leçon, tu pourras :
+- Expliquer comment le fait de détenir une propriété dans une entité plutôt qu'à son nom personnel influence les options de financement.
+- Décrire de façon conceptuelle les différences générales de traitement fiscal.
+- Renforcer l'idée qu'un seul choix de structure se répercute sur plusieurs pièces.
+
+**2. Contenu principal**
+Dans la suite de la leçon précédente, le choix de l'entité est un exemple clair d'une décision qui fait bouger plusieurs pièces à la fois. Financement : certains programmes de prêts résidentiels conventionnels sont conçus pour des emprunteurs individuels et ne sont peut-être pas offerts aux LLC, ce qui pousse les propriétés détenues par une entité vers un financement de type commercial, avec des taux, des conditions et des exigences de mise de fonds qui peuvent être différents. Certains investisseurs financent d'abord à leur nom personnel, puis transfèrent la propriété dans une LLC après la clôture; cette stratégie comporte elle-même des éléments à considérer, y compris les conséquences possibles de la clause d'exigibilité en cas de vente (vue à la leçon 5) et des mises à jour du financement et de l'assurance qu'un professionnel devrait examiner.
+
+Impôts : le type d'entité influence la façon de déclarer les revenus et les dépenses de location, et les règles varient selon la juridiction et le choix fiscal précis de l'entité. Ce n'est pas un endroit pour les suppositions : un fiscaliste devrait confirmer le traitement applicable à la situation précise de l'investisseur.
+
+Responsabilité : comme on l'a vu à la leçon précédente, une bonne structuration d'entreprise peut aider à séparer la responsabilité personnelle de celle liée à la propriété, mais seulement si elle est maintenue correctement.
+
+Ce qu'il faut retenir au niveau 2, c'est que le choix de l'entité est un seul levier relié à trois systèmes distincts — le financement, l'imposition et la responsabilité —, chacun avec ses propres règles et son propre professionnel à consulter.
+
+**3. Exemple pratique**
+Yuki se demande comment détenir une nouvelle propriété locative. Elle fait des recherches et découvre que financer directement au nom d'une LLC voudrait dire un prêt de type commercial, avec une plus grosse mise de fonds et un taux plus élevé que ce que lui offrirait un prêt hypothécaire résidentiel conventionnel à son nom personnel.
+
+Elle discute des options avec son prêteur, son avocat et son fiscaliste. Ensemble, ils établissent un plan : financer la propriété à son nom personnel pour avoir accès à des conditions résidentielles plus avantageuses, puis transférer le titre dans sa LLC par la suite — son avocat s'occupe de faire le transfert correctement et de confirmer que les exigences de l'assureur et du prêteur sont respectées, et son fiscaliste confirme l'effet de ce choix sur ses déclarations de revenus à l'avenir.
+
+**4. Quiz de pratique**
+1. Pourquoi financer directement une propriété détenue par une LLC pourrait-il coûter plus cher?
+   a) Les LLC sont illégales
+   b) Ça relève souvent d'un financement de type commercial, avec des conditions différentes
+   c) Les LLC éliminent le besoin de mise de fonds
+   d) On ne peut pas assurer une LLC
+2. Qu'est-ce qui devrait déterminer le traitement fiscal précis d'un investisseur dans une structure d'entité?
+   a) Des suppositions générales tirées de cette leçon
+   b) La confirmation d'un fiscaliste qualifié pour sa situation précise
+   c) Ce qu'un ami a fait
+   d) Le prix d'achat de la propriété à lui seul
+3. Vrai ou faux : Transférer une propriété financée dans une LLC après la clôture ne comporte aucun élément juridique ou contractuel à considérer.
+4. Quelle est la principale leçon de niveau 2 ici?
+   a) Le choix de l'entité ne touche que la responsabilité
+   b) Le choix de l'entité est un seul levier relié à la fois au financement, aux impôts et à la responsabilité
+   c) On ne devrait jamais utiliser de LLC en immobilier
+   d) Les conditions de financement sont identiques peu importe l'entité
+
+**5. Corrigé**
+1. b  2. b  3. Faux  4. b
+
+**6. Réponses et explications**
+1. Les propriétés détenues par une LLC exigent souvent un financement de type commercial, dont les conditions peuvent différer de celles des prêts résidentiels.
+2. Le traitement fiscal dépend des faits propres à l'investisseur et devrait être confirmé par un professionnel, pas supposé à partir d'une formation générale.
+3. Le transfert du titre peut déclencher la clause d'exigibilité en cas de vente et d'autres éléments contractuels qui exigent l'examen d'un professionnel.
+4. Le point central de cette leçon, c'est que le choix de l'entité touche en même temps le financement, les impôts et la responsabilité — trois systèmes reliés entre eux.
+
+**7. Points clés à retenir**
+- Le choix de l'entité influence les options de financement et pousse souvent les propriétés détenues par une LLC vers des prêts de type commercial.
+- Le traitement fiscal varie selon le type d'entité et la juridiction, et devrait être confirmé par un professionnel.
+- Transférer une propriété dans une LLC après le financement comporte des éléments juridiques et contractuels à considérer.
+- Une seule décision de structure — le choix de l'entité — est reliée en même temps au financement, aux impôts et à la responsabilité.
+
+===== RED-L2-014
+TITLE: Les taxes foncières et l'évaluation : le coût récurrent caché
+SUMMARY: Comprends comment on calcule généralement les taxes foncières, pourquoi la valeur d'évaluation peut changer après un achat et comment ces hausses grugent le flux de trésorerie.
+## RED-L2-014
+### Les taxes foncières et l'évaluation : le coût récurrent caché
+
+**1. Objectifs d'apprentissage**
+À la fin de cette leçon, tu pourras :
+- Expliquer de façon conceptuelle comment on calcule généralement les taxes foncières.
+- Décrire comment la valeur d'évaluation peut changer indépendamment du prix d'achat.
+- Expliquer pourquoi la hausse des taxes foncières influence le flux de trésorerie avec le temps.
+
+**2. Contenu principal**
+Les taxes foncières sont un coût récurrent fondé sur la valeur d'évaluation d'une propriété, multipliée par un taux de taxation local — deux éléments qui varient beaucoup selon la juridiction, ce qui fait de ce sujet un thème fortement PROPRE À UNE RÉGION. La valeur d'évaluation n'est pas toujours la même que la valeur marchande ou le prix d'achat : les évaluateurs locaux réévaluent les propriétés périodiquement, et les valeurs peuvent monter (ou parfois baisser) indépendamment de ce que le propriétaire a réellement payé.
+
+C'est important pour la pensée de niveau 2, parce qu'on traite souvent les taxes foncières comme un chiffre fixe au moment de l'achat, alors qu'en réalité elles peuvent augmenter avec le temps — parfois beaucoup après une vente, si une juridiction réévalue la propriété selon le nouveau prix d'achat. Une propriété qui génère un bon flux de trésorerie la première année pourrait avoir des marges plus minces la cinquième année si les taxes montent plus vite que les loyers.
+
+Certaines juridictions offrent des exemptions, des plafonds ou des processus de contestation de l'évaluation foncière; les investisseurs devraient apprendre les règles locales et, au besoin, travailler avec un professionnel pour s'assurer de ne pas payer trop à cause d'une évaluation inexacte.
+
+**3. Exemple pratique**
+Oscar achète une propriété locative évaluée à une valeur modérée, et il inclut les taxes foncières dans ses projections initiales de flux de trésorerie. Deux ans plus tard, l'évaluateur local réévalue la propriété près de son prix d'achat réel (plus élevé), et le compte de taxes foncières d'Oscar augmente beaucoup.
+
+Comme Oscar n'avait prévu qu'une petite hausse annuelle dans ses projections de départ, son flux de trésorerie réel est nettement plus mince que prévu. Il s'informe sur le processus de contestation de sa juridiction et, documents à l'appui, obtient une baisse modeste — mais l'expérience lui apprend à prévoir des hypothèses de hausse des taxes plus prudentes dans ses analyses futures.
+
+**4. Quiz de pratique**
+1. De façon générale, qu'est-ce qui détermine le compte de taxes foncières?
+   a) Le revenu du locataire
+   b) La valeur d'évaluation multipliée par un taux de taxation local
+   c) Le pointage de crédit du propriétaire
+   d) La prime d'assurance
+2. La valeur d'évaluation peut-elle être différente du prix d'achat?
+   a) Non, elles sont toujours identiques
+   b) Oui, la valeur d'évaluation est fixée de façon indépendante et peut changer avec le temps
+   c) Seulement pour les immeubles commerciaux
+   d) Seulement si le propriétaire le demande
+3. Vrai ou faux : Les taxes foncières restent toujours fixes pendant toute la durée de la propriété.
+4. Qu'est-ce que l'expérience d'Oscar lui a appris?
+   a) Que les taxes foncières ne changent jamais
+   b) À prévoir des hypothèses de hausse des taxes plus prudentes dans ses projections futures
+   c) À éviter de posséder une propriété qui a un évaluateur
+   d) Que les contestations ne fonctionnent jamais
+
+**5. Corrigé**
+1. b  2. b  3. Faux  4. b
+
+**6. Réponses et explications**
+1. Le compte de taxes foncières est généralement le produit de la valeur d'évaluation et d'un taux de taxation local.
+2. La valeur d'évaluation peut être révisée par les évaluateurs locaux et peut être bien différente du prix d'achat ou de la valeur marchande.
+3. Les taxes foncières augmentent souvent avec le temps, parfois beaucoup quand une vente entraîne une réévaluation.
+4. Oscar a appris, par son expérience réelle, à faire des analyses plus prudentes pour les hausses de taxes à venir.
+
+**7. Points clés à retenir**
+- Les taxes foncières sont fondées sur la valeur d'évaluation et sur un taux de taxation local, qui varient tous les deux selon la juridiction.
+- La valeur d'évaluation peut changer indépendamment du prix d'achat et parfois monter fortement après une vente.
+- La hausse des taxes foncières peut gruger tranquillement le flux de trésorerie avec le temps si on ne la prévoit pas.
+- Les investisseurs devraient comprendre les exemptions, les plafonds et les processus de contestation locaux plutôt que de supposer un compte de taxes qui ne bouge pas.
+
+===== RED-L2-015
+TITLE: L'amortissement comme pièce financière
+SUMMARY: Découvre le concept d'amortissement d'un bâtiment, pourquoi il a des effets fiscaux et pourquoi les chiffres précis relèvent toujours d'un fiscaliste qualifié.
+## RED-L2-015
+### L'amortissement comme pièce financière
+
+**1. Objectifs d'apprentissage**
+À la fin de cette leçon, tu pourras :
+- Définir de façon conceptuelle l'amortissement dans un contexte immobilier.
+- Expliquer pourquoi on traite l'amortissement comme une pièce ayant des effets fiscaux, et non comme un conseil de placement.
+- Reconnaître l'importance d'un conseil fiscal professionnel pour l'amortissement.
+
+**2. Contenu principal**
+Dans un contexte immobilier et fiscal général, l'amortissement (souvent appelé *depreciation* aux États-Unis) est un concept qui permet de comptabiliser le coût de certains biens (habituellement le bâtiment, pas le terrain) au fil du temps, pour refléter l'idée qu'une structure s'use. Dans bien des juridictions, ça peut avoir des effets fiscaux pour les propriétaires, mais les règles précises, les calendriers et l'admissibilité varient beaucoup et changent avec le temps.
+
+Cette leçon présente l'amortissement uniquement comme un concept éducatif — une pièce sur l'échiquier qui interagit avec les impôts — et non comme un conseil fiscal précis. Le traitement exact de l'amortissement, y compris la récupération de l'amortissement quand une propriété finit par être vendue, relève d'un fiscaliste qualifié, puisque les règles dépendent de la juridiction, changent avec les lois et dépendent de la situation individuelle du propriétaire.
+
+Comprendre que cette pièce existe — et qu'elle peut avoir un effet important sur la situation fiscale globale d'une propriété — est une compétence de niveau 2. Connaître les chiffres exacts pour la situation d'une personne, c'est quelque chose que ce programme ne tentera jamais de calculer ou de recommander.
+
+**3. Exemple pratique**
+Fatima possède une propriété locative et a entendu d'autres investisseurs parler de l'amortissement comme d'un avantage fiscal. Au lieu de supposer qu'elle comprend comment il s'applique à elle, elle apporte ses documents de clôture et les dossiers de sa propriété à un fiscaliste qualifié, qui lui explique comment l'amortissement pourrait s'appliquer à sa situation précise, y compris l'effet possible sur ses impôts si elle vend la propriété un jour.
+
+Fatima sort de la rencontre en comprenant clairement le concept général, mais en se fiant entièrement à son fiscaliste — et non au contenu général du programme ou aux suppositions d'autres investisseurs — pour les chiffres réels qui s'appliquent à elle.
+
+**4. Quiz de pratique**
+1. Dans ce contexte, à quoi l'amortissement se rapporte-t-il généralement?
+   a) Aux paiements de loyer du locataire
+   b) À la comptabilisation du coût d'une structure au fil du temps, avec des effets fiscaux possibles
+   c) À la prime d'assurance de la propriété
+   d) Seulement à la valeur d'évaluation du terrain
+2. Pourquoi cette leçon évite-t-elle de donner des chiffres ou des conseils précis sur l'amortissement?
+   a) L'amortissement n'existe pas vraiment
+   b) Les règles dépendent de la juridiction, changent avec le temps et dépendent de la situation de chacun
+   c) Ça ne concerne pas l'immobilier
+   d) C'est illégal d'enseigner l'amortissement
+3. Vrai ou faux : Cette leçon recommande une stratégie d'amortissement chiffrée précise que l'apprenant doit suivre.
+4. Qu'a fait Fatima pour comprendre sa propre situation d'amortissement?
+   a) Elle a supposé que l'information générale s'appliquait directement à elle
+   b) Elle a consulté un fiscaliste qualifié avec ses documents précis
+   c) Elle a complètement ignoré le sujet
+   d) Elle a demandé à son locataire
+
+**5. Corrigé**
+1. b  2. b  3. Faux  4. b
+
+**6. Réponses et explications**
+1. L'amortissement se rapporte généralement à la comptabilisation du coût d'une structure au fil du temps, avec des effets fiscaux dans bien des juridictions.
+2. Comme ces règles dépendent de la juridiction, changent avec les lois et dépendent des faits propres à chacun, une formation générale ne peut pas, de façon responsable, donner des chiffres précis.
+3. Cette leçon évite volontairement de prescrire une stratégie d'amortissement précise et reste au niveau conceptuel et éducatif.
+4. Fatima a eu raison de chercher un conseil personnalisé auprès d'un professionnel qualifié plutôt que de généraliser à partir de l'expérience des autres.
+
+**7. Points clés à retenir**
+- L'amortissement est un concept qui permet de comptabiliser le coût d'une structure au fil du temps et qui peut avoir des effets fiscaux.
+- Les règles précises, les calendriers et l'admissibilité varient selon la juridiction et changent avec le temps.
+- Ce programme enseigne le concept, pas des chiffres ou des stratégies précises — ceux-ci exigent un fiscaliste qualifié.
+- Reconnaître où s'arrête la formation générale et où commence le conseil professionnel personnalisé est en soi une compétence de niveau 2.
+
+===== RED-L2-016
+TITLE: Les échanges 1031 : reporter, pas éviter
+SUMMARY: Comprends le concept américain de l'échange 1031, la différence entre reporter et éviter un impôt, et pourquoi ses délais stricts exigent des professionnels.
+## RED-L2-016
+### Les échanges 1031 : reporter, pas éviter
+
+**1. Objectifs d'apprentissage**
+À la fin de cette leçon, tu pourras :
+- Expliquer de façon conceptuelle le principe général d'un échange 1031.
+- Faire la différence entre reporter et éviter une obligation fiscale.
+- Reconnaître les règles strictes et l'encadrement professionnel nécessaires pour utiliser cette stratégie.
+
+**2. Contenu principal**
+Un « échange 1031 » désigne une disposition fiscale américaine qui, dans des conditions précises, peut permettre à un investisseur de vendre un immeuble de placement et de réinvestir le produit de la vente dans un autre immeuble « de même nature » (*like-kind*), tout en reportant certaines obligations fiscales qui seraient autrement exigibles sur la vente. C'est un concept PROPRE À UNE RÉGION, qui n'existe qu'aux États-Unis; et même là, il comporte des délais stricts, l'obligation de passer par un intermédiaire qualifié et des règles d'admissibilité que cette leçon ne tentera pas de détailler au complet.
+
+La distinction éducative clé, c'est entre reporter et éviter : quand il s'applique, un échange 1031 retarde généralement une obligation fiscale plutôt que de l'éliminer. Si l'investisseur finit par vendre sans faire un autre échange admissible, le montant reporté peut alors devenir exigible, selon les règles en vigueur à ce moment-là.
+
+C'est un exemple clair d'un domaine où Edunancial enseigne le concept et son but — permettre aux investisseurs de déplacer leur capital d'une propriété à l'autre sans qu'un impôt immédiat les force à réinvestir un montant plus petit — sans donner de conseil fiscal personnalisé, qui doit venir d'un fiscaliste qualifié et d'un intermédiaire qualifié qui a de l'expérience dans ce genre de transactions.
+
+**3. Exemple pratique**
+Grace vend une propriété locative qu'elle possède depuis des années et veut réinvestir le produit dans une propriété plus grande, sans qu'un impôt réduise tout de suite le capital qu'elle peut réinvestir. Elle apprend qu'un échange 1031 pourrait s'appliquer à sa situation, mais aussi qu'il comporte des échéances strictes (par exemple, désigner une propriété de remplacement dans un nombre de jours fixé) et qu'un intermédiaire qualifié doit détenir le produit de la vente — elle ne peut pas simplement recevoir l'argent elle-même et le réinvestir.
+
+Grace fait appel à un intermédiaire qualifié et à un fiscaliste bien avant la clôture de sa vente, en sachant que manquer une seule exigence de procédure pourrait rendre l'échange complètement inadmissible. Elle va de l'avant seulement parce qu'elle a l'encadrement professionnel qui confirme sa situation précise et son échéancier.
+
+**4. Quiz de pratique**
+1. Dans des conditions précises, qu'est-ce qu'un échange 1031 permet généralement?
+   a) D'éviter l'impôt pour toujours
+   b) De reporter certaines obligations fiscales en réinvestissant dans un immeuble de même nature
+   c) D'obtenir une assurance habitation gratuite
+   d) D'avoir un prêt approuvé à coup sûr
+2. Quelle est la distinction clé que fait cette leçon?
+   a) Reporter ou éviter une obligation fiscale
+   b) Louer ou être propriétaire
+   c) Payer comptant ou à crédit
+   d) Résidentiel ou commercial
+3. Vrai ou faux : Un échange 1031 s'applique de la même façon dans tous les pays.
+4. Pourquoi Grace a-t-elle fait appel à des professionnels bien avant la clôture de sa vente?
+   a) C'était facultatif et peu important
+   b) Des échéances et des exigences de procédure strictes pouvaient rendre l'échange inadmissible si elles étaient manquées
+   c) Pour augmenter le loyer de sa propriété
+   d) Pour éviter d'embaucher un courtier
+
+**5. Corrigé**
+1. b  2. a  3. Faux  4. b
+
+**6. Réponses et explications**
+1. Dans des conditions précises, un échange 1031 peut reporter certaines obligations fiscales quand on réinvestit le produit dans un immeuble de même nature.
+2. La leçon insiste sur le fait que le report retarde une obligation, alors que l'évitement l'éliminerait — ce n'est pas la même chose.
+3. C'est une disposition fiscale propre aux États-Unis; les autres pays ont leurs propres règles, différentes, s'ils en ont.
+4. Les délais stricts et les exigences de procédure d'un échange 1031 rendent essentiel de faire appel tôt à des professionnels.
+
+**7. Points clés à retenir**
+- Selon des règles américaines précises, un échange 1031 peut permettre de reporter certaines obligations fiscales quand on réinvestit dans un immeuble de même nature.
+- Reporter, ce n'est pas éviter : l'obligation peut quand même devenir exigible plus tard.
+- Cette stratégie comporte des délais stricts et exige un intermédiaire qualifié.
+- C'est propre aux États-Unis et ça exige un encadrement professionnel; ce n'est pas une stratégie à faire soi-même.
+
+===== RED-L2-017
+TITLE: Le refinancement : avec retrait d'équité ou pour le taux et la durée
+SUMMARY: Distingue le refinancement avec retrait d'équité du refinancement qui change seulement le taux ou la durée, et vois comment chacun touche le solde, le paiement et l'équité.
+## RED-L2-017
+### Le refinancement : avec retrait d'équité ou pour le taux et la durée
+
+**1. Objectifs d'apprentissage**
+À la fin de cette leçon, tu pourras :
+- Faire la différence entre un refinancement avec retrait d'équité et un refinancement pour le taux et la durée.
+- Expliquer le but général de chacun.
+- Nommer comment chaque type change différemment le solde du prêt, le paiement et l'équité.
+
+**2. Contenu principal**
+Refinancer, c'est remplacer un prêt hypothécaire existant par un nouveau. Deux types courants sont le refinancement pour le taux et la durée (*rate-and-term*) et le refinancement avec retrait d'équité (*cash-out*).
+
+Un refinancement pour le taux et la durée change le taux d'intérêt, la durée du prêt, ou les deux, sans augmenter de façon importante le solde au-delà de ce qui est dû (plus les frais de clôture applicables). Son but général est de réduire le paiement mensuel, de raccourcir ou d'allonger la période de remboursement, ou de passer d'une structure de prêt à une autre (par exemple, d'un taux variable à un taux fixe), sans retirer d'argent supplémentaire de l'équité de la propriété.
+
+Un refinancement avec retrait d'équité remplace le prêt hypothécaire existant par un prêt plus gros, et la différence est versée à l'emprunteur en argent. Ça retire de l'équité de la propriété et retransforme une partie d'un actif non liquide en fonds dépensables, mais ça augmente le solde du prêt et, en général, le paiement mensuel.
+
+Choisir entre les deux — ou ni l'un ni l'autre — dépend de l'objectif précis de l'emprunteur : réduire les coûts (taux et durée) ou avoir accès à du capital (retrait d'équité), et chacun comporte ses propres compromis sur la position d'équité et le montant du paiement.
+
+**3. Exemple pratique**
+Deux propriétaires pensent à refinancer dans le même contexte de taux d'intérêt. Hana refinance son prêt hypothécaire d'un taux plus élevé à un taux plus bas, en gardant à peu près le même solde — un refinancement pour le taux et la durée qui réduit nettement son paiement mensuel sans toucher à son équité.
+
+Leon, qui a besoin de capital pour rénover une propriété locative, fait plutôt un refinancement avec retrait d'équité sur cette propriété : il prend un solde de prêt plus élevé et retire une partie de son équité en argent. Son paiement mensuel augmente, mais il a maintenant les fonds pour faire des rénovations qui, selon lui, augmenteront les revenus de location et la valeur de la propriété.
+
+**4. Quiz de pratique**
+1. Quel est le but général d'un refinancement pour le taux et la durée?
+   a) Retirer de l'équité en argent
+   b) Changer le taux ou la durée, ou les deux, sans augmenter le solde de façon importante
+   c) Vendre la propriété
+   d) Éviter les taxes foncières
+2. Qu'arrive-t-il au solde du prêt dans un refinancement avec retrait d'équité?
+   a) Il diminue
+   b) Il augmente généralement
+   c) Il reste exactement le même
+   d) Il tombe à zéro
+3. Vrai ou faux : Un refinancement avec retrait d'équité laisse habituellement le paiement mensuel inchangé.
+4. Pourquoi Leon a-t-il choisi un refinancement avec retrait d'équité plutôt qu'un refinancement pour le taux et la durée?
+   a) Il voulait seulement un paiement mensuel plus bas
+   b) Il avait besoin de capital pour des rénovations
+   c) Il voulait vendre la propriété
+   d) Son taux était déjà au plus bas possible
+
+**5. Corrigé**
+1. b  2. b  3. Faux  4. b
+
+**6. Réponses et explications**
+1. Le refinancement pour le taux et la durée vise à ajuster le taux ou la durée sans augmenter le solde du prêt de façon importante.
+2. Un refinancement avec retrait d'équité augmente le solde du prêt, parce que l'emprunteur reçoit la différence en argent.
+3. Le solde plus élevé d'un refinancement avec retrait d'équité fait généralement monter le paiement mensuel.
+4. Le besoin précis de Leon en capital pour des rénovations faisait du retrait d'équité l'outil approprié, malgré le paiement plus élevé.
+
+**7. Points clés à retenir**
+- Le refinancement pour le taux et la durée ajuste le taux ou la durée sans augmenter le solde du prêt de façon importante.
+- Le refinancement avec retrait d'équité transforme de l'équité en argent en augmentant le solde du prêt.
+- Chacun sert un objectif différent : réduire les coûts ou avoir accès à du capital.
+- Le bon choix dépend de l'objectif financier précis de l'emprunteur, pas d'une règle universelle.

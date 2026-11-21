@@ -1,0 +1,399 @@
+===== BLUE-L4-011
+TITLE: El análisis del apalancamiento operacional: por qué los negocios con muchos costos fijos se mueven más fuerte en ambas direcciones
+SUMMARY: Aprenda qué mide el apalancamiento operacional, por qué una proporción alta de costos fijos amplifica el efecto de los cambios en los ingresos sobre la ganancia y por qué es un verdadero sacrificio.
+KEYWORDS: apalancamiento operacional, estructura de costos fijos, sensibilidad de la ganancia, riesgo del negocio
+# El análisis del apalancamiento operacional: por qué los negocios con muchos costos fijos se mueven más fuerte en ambas direcciones
+
+## Escenario inicial
+SUPUESTO/OPINIÓN (escenario hipotético solo con fines educativos): Imagine una interrupción de salud pública generalizada que detiene el transporte marítimo y la manufactura a nivel mundial por un período largo y enreda las cadenas de suministro de muchas industrias a la vez. Mientras una interrupción generalizada reduce fuertemente el volumen de ventas en toda una industria, algunos negocios ven que sus ganancias se desploman mucho más de lo que sugeriría la sola caída de sus ingresos, mientras que otros aguantan de forma relativamente proporcional. Esta lección explica la característica específica de la estructura de costos detrás de esa diferencia.
+
+## Objetivos de aprendizaje
+- Explicar qué mide el apalancamiento operacional en un negocio.
+- Explicar por qué un negocio con una proporción más alta de costos fijos tiene una ganancia más sensible a los cambios en los ingresos.
+- Comparar el perfil de riesgo de un negocio con muchos costos fijos con el de un negocio con muchos costos variables durante una caída de los ingresos.
+- Explicar el sacrificio entre la amplificación al alza del apalancamiento operacional y su riesgo a la baja.
+
+## Contenido principal
+El apalancamiento operacional se refiere a qué tanto la estructura de costos de un negocio depende de costos fijos (que no cambian con el volumen de ventas, como se vio en el análisis del punto de equilibrio de la lección 4) frente a costos variables (que aumentan directamente con el volumen de ventas). DATO VERIFICADO: un negocio con un apalancamiento operacional alto, es decir, una proporción grande de costos fijos frente a costos variables, tiene un efecto amplificado en su ganancia por cualquier cambio porcentual en sus ingresos, porque los costos fijos no bajan cuando bajan los ingresos, lo que significa que una caída en los ingresos pasa casi por completo a la ganancia, que cae en un porcentaje mucho mayor.
+
+Este es el "por qué" este efecto de amplificación explica los resultados distintos descritos en el escenario anterior: un negocio con muchos costos fijos (como uno con costos grandes de equipo, instalaciones o personal asalariado que no bajan cuando bajan las ventas) recibe muy poco alivio en sus costos cuando sus ingresos caen fuertemente durante una interrupción, porque la mayoría de sus costos siguen sin importar el volumen de ventas, lo que hace que su ganancia caiga en un porcentaje mucho mayor que sus ingresos. Un negocio con muchos costos variables (cuyos costos están más directamente ligados a cada unidad producida o vendida) ve que sus costos bajan más o menos en proporción a la caída de sus ingresos, lo que amortigua, en comparación, el efecto en su ganancia.
+
+Por eso el apalancamiento operacional representa un verdadero sacrificio, y no solo un riesgo que hay que evitar: el mismo efecto de amplificación que hace que la ganancia caiga más fuerte que los ingresos durante una baja también hace que la ganancia suba más fuerte que los ingresos durante una recuperación, porque los costos fijos tampoco suben, lo que significa que cualquier crecimiento de los ingresos por encima del punto de equilibrio pasa a la ganancia a un ritmo más alto en un negocio con muchos costos fijos que en uno con muchos costos variables. Por eso el grado adecuado de apalancamiento operacional de un negocio es una verdadera decisión estratégica, conectada con el análisis del punto de equilibrio de la lección 4, que debe tomar en cuenta qué tan predecibles y estables probablemente serán los ingresos de ese negocio específico: un negocio que enfrenta mucha volatilidad en sus ingresos, como el tipo de interrupción de la demanda del escenario anterior, en general tiene más riesgo con una estructura muy cargada de costos fijos que un negocio comparable con costos más flexibles y variables.
+
+## Ejemplo práctico
+EJEMPLO ILUSTRATIVO: La empresa A tiene principalmente costos fijos (una planta de manufactura grande que es suya, personal asalariado), mientras que la empresa B, en una industria parecida, depende más de costos variables (producción subcontratada que se paga por unidad, un equipo de ventas que cobra mayormente por comisión). Cuando la demanda de toda la industria baja 20% durante una interrupción generalizada, la ganancia de la empresa A baja 45%, porque sus costos fijos no bajaron con el menor volumen de ventas, mientras que la ganancia de la empresa B baja solo 22%, porque una gran parte de sus costos bajó más o menos en proporción al menor volumen de ventas. Esto ilustra cómo el apalancamiento operacional amplificó la caída de la empresa A mucho más que la de la empresa B, aunque las dos empresas tuvieron exactamente la misma caída porcentual de ingresos.
+
+## Prueba práctica
+**Q1. ¿Qué mide el apalancamiento operacional?**
+A) La deuda total de un negocio en relación con su capital
+B) Qué tanto la estructura de costos de un negocio depende de costos fijos frente a costos variables
+C) La tasa de crecimiento de los ingresos totales de un negocio con el tiempo
+D) La tasa de interés que un negocio paga por sus préstamos pendientes
+
+**Q2. ¿Por qué un negocio con un apalancamiento operacional alto tiene un efecto amplificado en su ganancia por un cambio porcentual dado en sus ingresos?**
+A) Un apalancamiento operacional alto no tiene relación con cómo responde la ganancia a los cambios en los ingresos
+B) Los costos fijos no bajan cuando bajan los ingresos, así que una caída en los ingresos pasa casi por completo a la ganancia, lo que causa una caída porcentual mayor en la ganancia que en los ingresos
+C) Los costos fijos siempre bajan automáticamente en proporción a cualquier caída de los ingresos
+D) Los negocios con apalancamiento operacional alto nunca tienen cambios en su ganancia sin importar los cambios en sus ingresos
+
+**Q3. En el ejemplo, ¿por qué la ganancia de la empresa A bajó en un porcentaje mayor que la de la empresa B, a pesar de una caída idéntica en los ingresos?**
+A) Los costos de la empresa A eran principalmente variables, mientras que los de la empresa B eran principalmente fijos
+B) La estructura de costos principalmente fija de la empresa A no bajó con su menor volumen de ventas, mientras que la estructura de costos más variable de la empresa B bajó más o menos en proporción a su propia caída de ingresos
+C) Las empresas A y B en realidad tuvieron caídas porcentuales de ingresos distintas
+D) El apalancamiento operacional no tuvo ningún efecto en la ganancia de ninguna de las dos empresas
+
+**Q4. ¿Por qué el apalancamiento operacional también amplifica el crecimiento de la ganancia durante un período de ingresos en aumento?**
+A) El apalancamiento operacional solo amplifica el riesgo a la baja, nunca el potencial al alza
+B) Como los costos fijos tampoco suben con el crecimiento de los ingresos, el crecimiento de los ingresos por encima del punto de equilibrio pasa a la ganancia a un ritmo más alto en un negocio con muchos costos fijos
+C) Los costos fijos siempre suben en proporción directa a cualquier crecimiento de los ingresos
+D) El apalancamiento operacional no tiene relación con cómo se beneficia un negocio del crecimiento de sus ingresos
+
+**Q5. ¿Por qué un negocio que enfrenta mucha volatilidad en sus ingresos podría querer tener cuidado antes de adoptar una estructura muy cargada de costos fijos?**
+A) La volatilidad de los ingresos no tiene relación con el grado adecuado de apalancamiento operacional de un negocio
+B) Una estructura muy cargada de costos fijos tiene más riesgo a la baja durante una interrupción de la demanda, porque los costos fijos no bajarán aunque los ingresos caigan fuertemente
+C) Los negocios con muchos costos fijos siempre son más seguros que los negocios con muchos costos variables, sin importar la volatilidad de sus ingresos
+D) Las decisiones sobre el apalancamiento operacional no influyen en el perfil de riesgo general de un negocio
+
+## Clave de respuestas
+Q1: B
+Q2: B
+Q3: B
+Q4: B
+Q5: B
+
+## Respuestas y explicaciones
+**Q1.** El apalancamiento operacional se refiere específicamente a la proporción de los costos de un negocio que son fijos frente a variables, lo que determina qué tan sensible es la ganancia a los cambios en los ingresos.
+
+**Q2.** Como los costos fijos se mantienen constantes sin importar los ingresos, los cambios en los ingresos afectan de forma desproporcionada la ganancia que queda después de cubrir esos costos.
+
+**Q3.** Las estructuras de costos distintas explican directamente por qué la misma caída en los ingresos produjo resultados tan distintos en la ganancia de las dos empresas.
+
+**Q4.** El mismo mecanismo que amplifica las pérdidas durante una baja también amplifica las ganancias durante una recuperación, porque los costos fijos se mantienen constantes en ambas direcciones.
+
+**Q5.** Dado el riesgo a la baja amplificado durante una caída de los ingresos, un negocio que anticipa mucha volatilidad debe pesar este riesgo frente a los posibles beneficios al alza de tener costos fijos más altos.
+
+## Puntos clave
+- El apalancamiento operacional mide la proporción de la estructura de costos de un negocio que es fija frente a variable.
+- Un apalancamiento operacional alto amplifica el efecto de los cambios en los ingresos sobre la ganancia, porque los costos fijos no se ajustan al volumen de ventas.
+- Un negocio con muchos costos fijos tiene cambios porcentuales de ganancia más grandes, en ambas direcciones, que un negocio comparable con muchos costos variables.
+- El grado adecuado de apalancamiento operacional es una decisión estratégica que debe tomar en cuenta la estabilidad o volatilidad esperada de los ingresos de un negocio.
+
+===== BLUE-L4-012
+TITLE: El análisis del riesgo de concentración de clientes: por qué depender de unos pocos clientes grandes corta para ambos lados
+SUMMARY: Aprenda qué es el riesgo de concentración de clientes, por qué existe aun cuando las relaciones son fuertes y cómo manejarlo diversificando la clientela.
+KEYWORDS: riesgo de concentración de clientes, diversificación de ingresos, dependencia de un cliente clave, evaluación del riesgo del negocio
+# El análisis del riesgo de concentración de clientes: por qué depender de unos pocos clientes grandes corta para ambos lados
+
+## Escenario inicial
+SUPUESTO/OPINIÓN (escenario hipotético solo con fines educativos): Imagine un gran bloque comercial que de pronto impone aranceles altos sobre una amplia categoría de productos manufacturados importados, lo que sube los costos de las empresas que dependen de esas importaciones como insumos. Mientras los aranceles nuevos alteran los flujos comerciales, un negocio que depende mucho de solo dos clientes grandes para la mayoría de sus ingresos mira con preocupación cómo esos clientes reconsideran sus propias estrategias de compra como reacción. Esta lección examina el riesgo específico que crea ese tipo de concentración de clientes.
+
+## Objetivos de aprendizaje
+- Explicar qué significa el riesgo de concentración de clientes para un negocio.
+- Calcular un porcentaje básico de concentración de clientes.
+- Explicar por qué la concentración de clientes crea riesgo aun cuando las relaciones concentradas son fuertes y rentables en este momento.
+- Identificar estrategias que un negocio puede usar para manejar o reducir el riesgo de concentración de clientes.
+
+## Contenido principal
+El riesgo de concentración de clientes se refiere al riesgo que enfrenta un negocio cuando un porcentaje grande de sus ingresos totales depende de un número pequeño de clientes, lo que significa que perder aunque sea una o dos de esas relaciones clave podría tener un efecto grave y desproporcionado en la salud financiera general del negocio. DATO VERIFICADO: un umbral que se usa comúnmente, aunque no está estandarizado en todas partes, en contextos de valoración de negocios y de préstamos es cuando un solo cliente representa más de alrededor de 10% de los ingresos totales, o cuando un pequeño grupo de clientes juntos representan la mayoría de los ingresos totales, situaciones que en general se considera que merecen un examen de riesgo más de cerca.
+
+Este es el "por qué" la concentración de clientes crea un riesgo real aun cuando las relaciones concentradas son fuertes, rentables y parecen estables en este momento, algo directamente relevante para el escenario de alteración comercial anterior: el desempeño y la rentabilidad de un negocio pueden depender mucho de decisiones que toman terceros (los clientes concentrados) que el negocio mismo no controla. Un cambio en la estrategia de compra, la situación financiera, los dueños o las prioridades estratégicas de ese cliente, provocado posiblemente por algo totalmente fuera del control del negocio que vende (como un cambio en las decisiones de compra del cliente causado por los aranceles), puede afectar de repente y gravemente los ingresos del negocio, que tiene poca capacidad para reemplazar rápido esos ingresos perdidos por lo concentrados que estaban.
+
+Por eso la concentración de clientes es un factor específico, y a menudo de mucho peso, en la valoración de negocios (conectado con el análisis de múltiplos de valoración de la lección 8) y en las decisiones de préstamos: un negocio con exactamente los mismos ingresos y la misma rentabilidad actuales, pero con esos ingresos repartidos en una clientela amplia y diversificada, en general se considera de menos riesgo, y a menudo consigue un múltiplo de valoración más alto y un acceso más fácil al financiamiento, que un negocio por lo demás idéntico con los mismos ingresos concentrados en solo una o dos cuentas clave. Por eso trabajar activamente para diversificar la clientela, aun cuando las relaciones concentradas se sienten seguras en el presente, es una práctica de manejo de riesgo que se recomienda comúnmente, parecida en su lógica de fondo a los principios de diversificación de activos vistos en otras partes de este currículo, pero aplicada a la concentración de las relaciones con clientes en lugar de a las inversiones.
+
+## Ejemplo práctico
+EJEMPLO ILUSTRATIVO: Un negocio de manufactura genera 65% de sus ingresos totales con solo dos clientes grandes. Cuando los aranceles nuevos alteran las propias cadenas de suministro de esos dos clientes, los dos deciden por su cuenta reestructurar sus estrategias de compra, y uno de ellos pasa una parte importante de sus compras a otro suplidor que no tiene la misma exposición a los aranceles. Esta sola decisión, que toma totalmente el cliente y fuera del control del negocio de manufactura, reduce de inmediato los ingresos totales del manufacturero en casi 30%, un efecto que un negocio de tamaño parecido con una clientela más diversificada, en la que ningún cliente representa más de 5% de los ingresos totales, no habría sufrido ni de cerca en la misma medida por la misma alteración comercial externa.
+
+## Prueba práctica
+**Q1. ¿Qué describe el riesgo de concentración de clientes?**
+A) El riesgo de que un negocio tenga demasiados clientes distintos para manejarlos bien
+B) El riesgo que enfrenta un negocio cuando un porcentaje grande de sus ingresos totales depende de un número pequeño de clientes, cuya pérdida podría afectar gravemente al negocio
+C) El riesgo de tener demasiado efectivo en el balance de un negocio
+D) Un riesgo que solo aplica a negocios que no tienen ningún cliente
+
+**Q2. ¿Por qué la concentración de clientes crea riesgo aun cuando las relaciones concentradas son fuertes y rentables en este momento?**
+A) Las relaciones fuertes y rentables con los clientes eliminan cualquier posibilidad de riesgo en el futuro
+B) El desempeño del negocio depende mucho de decisiones que toman terceros que no controla, y un cambio repentino en la situación o la estrategia de esos terceros podría afectar gravemente al negocio, con poca capacidad para reemplazar rápido los ingresos perdidos
+C) El riesgo de concentración de clientes solo aplica a negocios con relaciones débiles y poco rentables con sus clientes
+D) El riesgo de concentración no tiene relación con las decisiones que toman los propios clientes
+
+**Q3. ¿Por qué los negocios con clientelas concentradas a menudo reciben múltiplos de valoración más bajos o tienen un financiamiento más difícil que negocios por lo demás idénticos con clientelas diversificadas?**
+A) La concentración de clientes no tiene relación con la valoración de un negocio ni con su acceso al financiamiento
+B) Una clientela concentrada en general se considera de más riesgo, porque perder aunque sea una o dos cuentas clave podría afectar gravemente los ingresos y la rentabilidad del negocio
+C) Las clientelas concentradas siempre dan valoraciones más altas que las diversificadas
+D) Los prestamistas y los inversionistas nunca toman en cuenta la concentración de clientes al evaluar un negocio
+
+**Q4. En el ejemplo, ¿por qué el negocio de manufactura tuvo una caída tan grande en sus ingresos por la alteración causada por los aranceles?**
+A) El negocio tenía una clientela muy diversificada, sin ningún cliente que representara una parte importante de los ingresos
+B) La gran dependencia del negocio de solo dos clientes grandes hizo que la decisión independiente de un cliente de cambiar su estrategia de compra tuviera un efecto desproporcionado en los ingresos totales del negocio
+C) Los aranceles redujeron directamente la capacidad de producción del negocio de manufactura
+D) La concentración de clientes no tuvo relación con la caída de ingresos que sufrió el negocio
+
+**Q5. ¿Cuál es una estrategia que se recomienda comúnmente para manejar el riesgo de concentración de clientes?**
+A) Aumentar a propósito la dependencia de un número todavía más pequeño de clientes clave
+B) Trabajar activamente para diversificar la clientela, aun cuando las relaciones concentradas actuales se sientan seguras, con una lógica parecida a los principios de diversificación de activos
+C) Ignorar por completo la concentración de clientes, porque no influye en el riesgo del negocio
+D) Negarse a hacer negocios con cualquier cliente grande bajo cualquier circunstancia
+
+## Clave de respuestas
+Q1: B
+Q2: B
+Q3: B
+Q4: B
+Q5: B
+
+## Respuestas y explicaciones
+**Q1.** El riesgo de concentración de clientes se refiere específicamente a la vulnerabilidad que crea depender de un número pequeño de cuentas clave para los ingresos.
+
+**Q2.** La vulnerabilidad viene de depender de factores fuera del control del negocio, sin importar qué tan positiva parezca la relación actual.
+
+**Q3.** El mayor riesgo asociado con la concentración es un factor de peso común en las decisiones de valoración y de préstamos, que en general juega en contra de los negocios muy concentrados.
+
+**Q4.** La gravedad del efecto fue una consecuencia directa de lo concentrados que estaban los ingresos del negocio en un número pequeño de relaciones con clientes.
+
+**Q5.** Diversificar la clientela de forma proactiva es una práctica muy recomendada para reducir este tipo específico de riesgo del negocio, como eco de principios de diversificación más amplios aplicados en otras partes de este currículo.
+
+## Puntos clave
+- El riesgo de concentración de clientes describe la vulnerabilidad que se crea cuando una parte grande de los ingresos depende de un número pequeño de clientes.
+- Este riesgo existe aun cuando las relaciones concentradas son fuertes en este momento, porque el negocio depende de decisiones que toman terceros que no controla.
+- En contextos de valoración y de préstamos, las clientelas concentradas en general se consideran de más riesgo que las diversificadas.
+- Diversificar activamente la clientela es una estrategia de manejo de riesgo que se recomienda comúnmente, aun cuando las relaciones concentradas actuales se sientan seguras.
+
+===== BLUE-L4-013
+TITLE: El análisis del riesgo de concentración de suplidores: por qué depender de un solo suplidor es el reflejo del riesgo de concentración de clientes
+SUMMARY: Aprenda qué es el riesgo de concentración de suplidores, por qué depender de una sola fuente crea una vulnerabilidad operacional y cómo ayuda diversificar los suplidores.
+KEYWORDS: concentración de suplidores, riesgo de la cadena de suministro, suplidor único, diversificación de suplidores
+# El análisis del riesgo de concentración de suplidores: por qué depender de un solo suplidor es el reflejo del riesgo de concentración de clientes
+
+## Escenario inicial
+SUPUESTO/OPINIÓN (escenario hipotético solo con fines educativos): Imagine una interrupción de salud pública generalizada que detiene el transporte marítimo y la manufactura a nivel mundial por un período largo y enreda las cadenas de suministro de muchas industrias a la vez. Mientras una interrupción generalizada de la cadena de suministro detiene la manufactura en varias regiones al mismo tiempo, los negocios que dependían de un solo suplidor para un componente crítico descubren que no tienen ninguna otra fuente inmediata, mientras que los competidores con varios suplidores cualificados se adaptan mucho más rápido. Esta lección examina el riesgo que se crea al concentrarse demasiado en un solo suplidor.
+
+## Objetivos de aprendizaje
+- Explicar qué significa el riesgo de concentración de suplidores para un negocio.
+- Explicar el paralelo entre el riesgo de concentración de suplidores y el riesgo de concentración de clientes (lección 12).
+- Explicar por qué depender de una sola fuente para un componente o material crítico crea una vulnerabilidad operacional específica.
+- Identificar estrategias que un negocio puede usar para manejar el riesgo de concentración de suplidores.
+
+## Contenido principal
+El riesgo de concentración de suplidores se refiere al riesgo que enfrenta un negocio cuando depende mucho de un solo suplidor, o de un número muy pequeño de suplidores, para un insumo, componente o material crítico que necesita para producir su propio producto o dar su propio servicio. DATO VERIFICADO: este riesgo es parecido en su estructura al riesgo de concentración de clientes (lección 12), y se puede ver como su imagen en el espejo: en lugar de que los ingresos de un negocio dependan demasiado de un número pequeño de clientes, la capacidad misma del negocio de operar depende demasiado de un número pequeño de suplidores.
+
+Este es el "por qué" esto crea una vulnerabilidad operacional específica, que ilustra directamente el escenario de interrupción generalizada anterior: si el suplidor único o principal de un negocio para un insumo crítico sufre su propia interrupción (por un desastre natural, una disputa laboral, una quiebra o una interrupción general de la cadena de suministro que afecte a toda una región o industria), el negocio que depende de esa sola fuente no tiene ninguna alternativa inmediata y puede enfrentar una paralización grave de su producción, sin poder conseguir el insumo necesario en otro sitio lo bastante rápido para evitar daños operacionales y financieros importantes, aunque sus propias operaciones y sus finanzas estén por lo demás totalmente sanas.
+
+Por eso mantener relaciones con varios suplidores cualificados para los insumos críticos, aun cuando un solo suplidor "principal" ofrezca hoy el mejor precio o los mejores términos, es una práctica de manejo de riesgo que se recomienda comúnmente, parecida en su lógica de fondo al principio de diversificación de clientes de la lección 12: un negocio con dos o tres suplidores alternos cualificados para un componente crítico puede pasar volumen a otra fuente relativamente rápido si su suplidor principal sufre una interrupción, mientras que un negocio con una sola fuente cualificada no tiene esa opción y simplemente tiene que esperar a que pase la interrupción, y posiblemente perder ventas y relaciones con clientes importantes en el proceso. OPINIÓN y un verdadero sacrificio que vale la pena reconocer: mantener varias relaciones con suplidores puede implicar algún costo o complejidad adicional frente a concentrar las compras con un solo suplidor preferido para lograr los mayores descuentos por volumen, lo que significa que el grado correcto de diversificación de suplidores, igual que el sacrificio del apalancamiento operacional de la lección 11, depende de la evaluación que haga el negocio de los riesgos relevantes y de su tolerancia a posibles interrupciones.
+
+## Ejemplo práctico
+EJEMPLO ILUSTRATIVO: Dos manufactureros que compiten entre sí dependen de un componente especializado específico para su producto principal. El manufacturero A consigue este componente exclusivamente de un solo suplidor en el extranjero, mientras que el manufacturero B mantiene relaciones cualificadas con dos suplidores distintos en regiones diferentes para el mismo componente. Cuando una interrupción generalizada detiene la manufactura y el transporte en la región donde opera el único suplidor del manufacturero A, este enfrenta una paralización grave de su producción sin ninguna otra fuente inmediata y pierde ventas importantes durante la interrupción. El manufacturero B, que enfrenta la misma interrupción general, logra pasar relativamente rápido una parte mayor de sus compras a su segundo suplidor, que no fue afectado, lo que le permite seguir produciendo con solo una interrupción modesta y temporal de sus propias operaciones.
+
+## Prueba práctica
+**Q1. ¿Qué describe el riesgo de concentración de suplidores?**
+A) El riesgo de que un negocio tenga demasiados suplidores distintos para manejarlos bien
+B) El riesgo que enfrenta un negocio cuando depende mucho de un solo suplidor, o de un número muy pequeño de suplidores, para un insumo crítico
+C) El riesgo de que los clientes de un negocio estén demasiado diversificados
+D) Un riesgo que solo aplica a negocios que no tienen ningún suplidor
+
+**Q2. ¿En qué se parece el riesgo de concentración de suplidores al riesgo de concentración de clientes de la lección anterior?**
+A) Los dos riesgos son conceptos totalmente distintos, sin ningún parecido en su estructura
+B) El riesgo de concentración de suplidores es la imagen en el espejo del riesgo de concentración de clientes: en lugar de que los ingresos dependan demasiado de pocos clientes, la capacidad de operar depende demasiado de pocos suplidores
+C) El riesgo de concentración de clientes y el de suplidores describen exactamente la misma relación de negocio
+D) Solo la concentración de clientes, y no la de suplidores, es un riesgo de negocio reconocido
+
+**Q3. ¿Por qué depender de un solo suplidor para un insumo crítico crea una vulnerabilidad operacional grave?**
+A) Depender de una sola fuente para un insumo crítico no tiene relación con el riesgo operacional de un negocio
+B) Si el único suplidor sufre una interrupción, el negocio no tiene ninguna otra fuente inmediata y puede enfrentar una paralización grave de su producción, aunque sus propias operaciones estén por lo demás sanas
+C) Depender de una sola fuente siempre garantiza un suministro más confiable que trabajar con varios suplidores
+D) Los negocios que dependen de un solo suplidor siempre están protegidos de cualquier interrupción del suministro
+
+**Q4. En el ejemplo, ¿por qué el manufacturero B pudo seguir produciendo con más éxito que el manufacturero A durante la interrupción generalizada?**
+A) El manufacturero B no fue afectado de ninguna manera por la interrupción
+B) Las relaciones del manufacturero B con dos suplidores en regiones distintas le permitieron pasar sus compras a su suplidor no afectado, mientras que el manufacturero A no tenía ninguna alternativa a su único suplidor afectado
+C) El manufacturero A en realidad tenía más suplidores que el manufacturero B
+D) La interrupción solo afectó a los clientes del manufacturero A, no a sus suplidores
+
+**Q5. ¿Cuál es un verdadero sacrificio de mantener varias relaciones con suplidores en lugar de concentrar las compras con un solo suplidor preferido?**
+A) No hay ningún sacrificio en mantener varias relaciones con suplidores
+B) Mantener varias relaciones puede implicar algún costo o complejidad adicional frente a los posibles descuentos por volumen de concentrar las compras con un solo suplidor, lo que significa que el grado correcto de diversificación depende de la evaluación de riesgo de cada negocio
+C) Varias relaciones con suplidores siempre cuestan mucho menos que una sola relación con un suplidor
+D) Diversificar los suplidores elimina todas las formas de riesgo del negocio sin ningún lado negativo
+
+## Clave de respuestas
+Q1: B
+Q2: B
+Q3: B
+Q4: B
+Q5: B
+
+## Respuestas y explicaciones
+**Q1.** El riesgo de concentración de suplidores se refiere específicamente a la vulnerabilidad que crea depender de un número pequeño de suplidores para insumos críticos.
+
+**Q2.** Los dos riesgos comparten la misma vulnerabilidad estructural de fondo, que es depender demasiado de un número pequeño de terceros externos, solo que en lados opuestos de la relación de negocio.
+
+**Q3.** La falta de una fuente alterna significa que cualquier interrupción del único suplidor pasa directamente y con gravedad a la capacidad operacional del negocio que depende de él.
+
+**Q4.** La diversificación de suplidores del manufacturero B le permitió directamente responder mejor a la misma interrupción generalizada que afectó gravemente al manufacturero A, que dependía de una sola fuente.
+
+**Q5.** Igual que el sacrificio del apalancamiento operacional visto antes en este nivel, la decisión implica balancear la posible eficiencia en costos con la reducción del riesgo, lo que exige un juicio propio de cada negocio.
+
+## Puntos clave
+- El riesgo de concentración de suplidores describe la vulnerabilidad que se crea cuando un negocio depende mucho de uno o de muy pocos suplidores.
+- Este riesgo es el reflejo del riesgo de concentración de clientes, pero aplica al lado del suministro y no al lado de los ingresos en las relaciones de un negocio.
+- Depender de una sola fuente para un insumo crítico crea una vulnerabilidad operacional grave, porque una interrupción del suplidor no deja ninguna alternativa inmediata.
+- Mantener varios suplidores cualificados, a pesar de algún costo o complejidad adicional, es una forma comúnmente recomendada de manejar este riesgo.
+
+===== BLUE-L4-014
+TITLE: El análisis del riesgo de persona clave: por qué el valor de un negocio puede depender demasiado de una sola persona
+SUMMARY: Aprenda qué es el riesgo de persona clave, por qué es más marcado en los negocios pequeños dirigidos por su fundador y cómo reducirlo.
+KEYWORDS: riesgo de persona clave, dependencia del fundador, continuidad del negocio, seguro de persona clave
+# El análisis del riesgo de persona clave: por qué el valor de un negocio puede depender demasiado de una sola persona
+
+## Escenario inicial
+SUPUESTO/OPINIÓN (escenario hipotético solo con fines educativos): Imagine una institución financiera de importancia sistémica que de pronto revela una pérdida grande que no había divulgado, lo que despierta temores de que el riesgo de contraparte se extienda por todo el sistema bancario. Mientras esos temores se extienden por el sistema financiero, un negocio pequeño y muy exitoso, construido casi por completo alrededor de las relaciones y la experiencia de su único fundador, enfrenta un tipo de vulnerabilidad muy distinto al de sus competidores más grandes y con una estructura más institucional. Esta lección examina ese riesgo específico.
+
+## Objetivos de aprendizaje
+- Explicar qué significa el riesgo de persona clave en el contexto de un negocio.
+- Explicar por qué el riesgo de persona clave es especialmente marcado en negocios pequeños, dirigidos por su fundador o muy especializados.
+- Identificar estrategias que un negocio puede usar para reducir su riesgo de persona clave.
+- Explicar por qué el riesgo de persona clave es un factor que afecta la valoración del negocio y la planificación de la sucesión.
+
+## Contenido principal
+El riesgo de persona clave se refiere al riesgo que enfrenta un negocio cuando su éxito, sus operaciones o su valor continuos dependen de forma desproporcionada de una persona específica (comúnmente un fundador, un experto técnico especializado o una persona que tiene relaciones críticas con clientes), de modo que perder a esa persona, por su salida, una incapacidad o su muerte, le haría mucho daño al negocio. DATO VERIFICADO: este concepto se conecta directamente con la diferencia entre un sistema de negocio y el trabajo por cuenta propia vista en otras partes del material básico de este currículo: un negocio que no puede funcionar bien sin la participación personal y continua de una persona específica todavía no ha hecho por completo la transición de un arreglo de trabajo por cuenta propia a un negocio escalable y resistente en lo institucional.
+
+Este es el "por qué" el riesgo de persona clave es especialmente marcado en negocios pequeños, dirigidos por su fundador o muy especializados, algo particularmente relevante en períodos de incertidumbre general como el escenario de estrés financiero anterior, cuando los compradores, los prestamistas y los socios en general se vuelven más cautelosos ante el riesgo: es más probable que un negocio pequeño haya concentrado sus relaciones críticas, su conocimiento propio y su autoridad para tomar decisiones en una o en unas pocas personas, sin los procesos institucionales, los procedimientos documentados y la experiencia repartida que las organizaciones más grandes y maduras normalmente han desarrollado con el tiempo. Eso significa que la pérdida repentina de esa persona clave puede afectar las operaciones mucho más grave e inmediatamente que una pérdida parecida en una organización más grande, con capacidades más repartidas.
+
+Por eso el riesgo de persona clave es un factor importante en la valoración de un negocio (conectado con la lección 8) y en la planificación de la sucesión: un posible comprador o inversionista que evalúa un negocio normalmente lo examinará con más cuidado, y a veces le aplicará un múltiplo de valoración más bajo, si tiene un riesgo de persona clave importante y sin atender, porque el desempeño futuro del negocio es menos seguro y menos transferible a dueños nuevos sin la participación continua de esa persona. Por eso las estrategias para reducir el riesgo de persona clave (documentar los procesos y las relaciones críticas, adiestrar a propósito a otros empleados para que puedan asumir funciones, formar un verdadero equipo gerencial con autoridad real para decidir más allá del fundador y, en algunos casos, comprar un seguro de vida o de incapacidad sobre la persona clave, una póliza que es del propio negocio y que le paga una cantidad para ayudarlo a manejar el efecto financiero si la persona clave ya no puede trabajar) son pasos que se recomiendan comúnmente a cualquier dueño de negocio que planifique crecer, vender o una sucesión a largo plazo.
+
+## Ejemplo práctico
+EJEMPLO ILUSTRATIVO: Un negocio de consultoría especializada ha crecido con éxito alrededor de las relaciones únicas de su fundador en la industria y de su experiencia técnica, y el fundador maneja personalmente casi todas las relaciones con los clientes grandes y el desarrollo del negocio. Cuando el fundador de pronto no puede trabajar por un período largo debido a un problema de salud, el negocio tiene grandes dificultades, porque ningún otro miembro del equipo tiene las mismas relaciones con los clientes ni la misma reputación en la industria, y varios clientes grandes empiezan a buscar en otro sitio durante la interrupción. Un negocio de consultoría parecido que había formado de forma proactiva un equipo más amplio, con relaciones con clientes repartidas y procesos documentados, anticipando exactamente este tipo de riesgo, logra seguir operando con solo una interrupción modesta y más manejable cuando uno de sus ejecutivos se va inesperadamente más o menos al mismo tiempo.
+
+## Prueba práctica
+**Q1. ¿Qué describe el riesgo de persona clave?**
+A) El riesgo de que un negocio tenga demasiados empleados para manejarlos bien
+B) El riesgo que enfrenta un negocio cuando su éxito o su valor dependen de forma desproporcionada de una persona específica, de modo que perderla le haría mucho daño al negocio
+C) Un riesgo que solo aplica a las grandes corporaciones que se cotizan en bolsa
+D) El riesgo de que un negocio tenga demasiado efectivo a la mano
+
+**Q2. ¿Por qué el riesgo de persona clave es especialmente marcado en los negocios pequeños dirigidos por su fundador?**
+A) Los negocios pequeños nunca tienen riesgo de persona clave bajo ninguna circunstancia
+B) Es más probable que los negocios pequeños hayan concentrado sus relaciones críticas, su conocimiento propio y su autoridad para decidir en una o en pocas personas, sin los procesos institucionales que normalmente desarrollan las organizaciones más grandes
+C) El riesgo de persona clave solo afecta a negocios con más de 1,000 empleados
+D) Los negocios dirigidos por su fundador siempre están estructurados para eliminar automáticamente el riesgo de persona clave
+
+**Q3. ¿Por qué el riesgo de persona clave afecta la valoración de un negocio?**
+A) El riesgo de persona clave no tiene relación con cómo valoran un negocio los posibles compradores o inversionistas
+B) Un posible comprador o inversionista normalmente examinará con más cuidado, y a veces le aplicará un múltiplo de valoración más bajo, a un negocio con un riesgo de persona clave importante y sin atender, porque el desempeño futuro es menos seguro sin esa persona
+C) Los negocios con un riesgo de persona clave importante siempre reciben valoraciones más altas que los que no lo tienen
+D) Los múltiplos de valoración no tienen ninguna relación con ninguna persona dentro del negocio
+
+**Q4. ¿Cuál de las siguientes es una estrategia que se recomienda comúnmente para reducir el riesgo de persona clave?**
+A) Concentrar todavía más relaciones críticas y autoridad para decidir en una sola persona
+B) Documentar los procesos y las relaciones críticas, adiestrar a otros empleados, formar un verdadero equipo gerencial y posiblemente comprar un seguro de persona clave
+C) Evitar documentar los procesos del negocio para mantener la flexibilidad
+D) Negarse a contratar a cualquier empleado adicional además del fundador original
+
+**Q5. En el ejemplo, ¿por qué el negocio de consultoría con relaciones con clientes repartidas y procesos documentados manejó mejor la salida de su propia persona clave que el negocio que dependía de su fundador?**
+A) El negocio con relaciones repartidas no tenía ninguna medida para reducir el riesgo de persona clave
+B) Había formado de forma proactiva un equipo más amplio con relaciones repartidas y procesos documentados, lo que reducía su dependencia de cualquier persona, a diferencia del negocio que dependía de su fundador
+C) Los dos negocios tuvieron interrupciones idénticas e igual de graves por sus salidas respectivas
+D) El negocio con relaciones repartidas en realidad no perdió a ningún miembro del equipo durante el mismo período
+
+## Clave de respuestas
+Q1: B
+Q2: B
+Q3: B
+Q4: B
+Q5: B
+
+## Respuestas y explicaciones
+**Q1.** El riesgo de persona clave se refiere específicamente a la vulnerabilidad que crea depender demasiado de la participación continua de una sola persona.
+
+**Q2.** La concentración de las funciones críticas del negocio en un número pequeño de personas, común en negocios más pequeños y dirigidos por su fundador, crea directamente esta mayor vulnerabilidad.
+
+**Q3.** Como el desempeño futuro de un negocio y su transferibilidad a dueños nuevos son menos seguros cuando depende mucho de una sola persona, este riesgo comúnmente se refleja en una valoración más cautelosa.
+
+**Q4.** Estos pasos específicos atacan directamente la concentración de conocimiento y relaciones que crea el riesgo de persona clave en primer lugar.
+
+**Q5.** Las medidas proactivas que tomó el segundo negocio redujeron directamente la gravedad de la interrupción operacional frente al negocio que dependía de su fundador y que no había atendido su riesgo de persona clave.
+
+## Puntos clave
+- El riesgo de persona clave describe la vulnerabilidad que se crea cuando el éxito de un negocio depende de forma desproporcionada de una persona específica.
+- Este riesgo es especialmente marcado en negocios pequeños o dirigidos por su fundador que han concentrado las relaciones y la experiencia en pocas personas.
+- El riesgo de persona clave afecta la valoración de un negocio, porque los compradores y los inversionistas examinan con más cuidado a los negocios que dependen mucho de una sola persona.
+- Documentar los procesos, adiestrar a otros empleados, formar un verdadero equipo gerencial y el seguro de persona clave son estrategias comunes para reducirlo.
+
+===== BLUE-L4-015
+TITLE: El análisis de la economía de una franquicia: por qué comprar una franquicia cambia independencia por un sistema probado
+SUMMARY: Aprenda la estructura económica de una franquicia, qué recibe el franquiciado a cambio de los cargos y las regalías, y por qué cada oportunidad hay que evaluarla con cuidado.
+KEYWORDS: economía de una franquicia, cargos de franquicia, estructura de regalías, sacrificios de ser dueño de un negocio
+# El análisis de la economía de una franquicia: por qué comprar una franquicia cambia independencia por un sistema probado
+
+## Escenario inicial
+SUPUESTO/OPINIÓN (escenario hipotético solo con fines educativos): Imagine que, después de años de expansión rápida, los mercados de bienes raíces y de crédito al consumo de un país muy poblado empiezan a mostrar señales de una corrección fuerte a medida que aumentan los atrasos en los pagos. Mientras un auge económico alimentado por el crédito anima a mucha gente a pensar en empezar un negocio por primera vez, algunos escogen comprar una franquicia de un sistema establecido en lugar de construir algo totalmente desde cero. Esta lección examina los sacrificios económicos específicos de esa decisión.
+
+## Objetivos de aprendizaje
+- Explicar la estructura económica básica de un acuerdo de franquicia, incluidos los tipos de cargos comunes.
+- Explicar qué recibe un franquiciado a cambio de los cargos de franquicia y las regalías continuas.
+- Comparar el perfil de riesgo de ser dueño de una franquicia con el de empezar un negocio totalmente independiente.
+- Explicar por qué la economía de las franquicias varía mucho entre distintos sistemas de franquicia e industrias.
+
+## Contenido principal
+Un acuerdo de franquicia le permite a una persona (el franquiciado) operar un negocio usando la marca, el modelo de negocio y los sistemas operacionales de una empresa establecida (el franquiciador), normalmente a cambio de un cargo inicial de franquicia y de pagos continuos de regalías, que comúnmente se calculan como un porcentaje de los ingresos del franquiciado. DATO VERIFICADO: los acuerdos de franquicia también suelen incluir otras obligaciones, como aportaciones obligatorias a un fondo de mercadeo, relaciones obligatorias con ciertos suplidores (a veces a precios que fija el franquiciador) y requisitos operacionales estandarizados que el franquiciado tiene que seguir, todo especificado en un acuerdo de franquicia que obliga legalmente y que un posible franquiciado debe hacer revisar con cuidado, idealmente con la ayuda de profesionales legales y financieros.
+
+Este es el "por qué" un franquiciado acepta estos cargos y requisitos a cambio de lo que le da un sistema de franquicia, algo relevante para alguien que considera este camino durante un período de optimismo económico como el escenario anterior: un franquiciado consigue acceso a un modelo de negocio probado y al reconocimiento de una marca (lo que reduce parte de la incertidumbre de las preguntas sobre "qué va a funcionar de verdad" que el fundador de un negocio totalmente independiente tiene que contestar desde cero), a sistemas operacionales y adiestramiento establecidos y, a menudo, a cierto apoyo continuo del franquiciador, a cambio de renunciar a una parte importante de su independencia y a una parte de sus ingresos continuos que un dueño de negocio independiente no tendría que pagarle a nadie.
+
+Por eso la economía de las franquicias varía muchísimo entre distintos sistemas de franquicia e industrias, y un posible franquiciado debe evaluar con cuidado los números específicos de cada oportunidad de franquicia en lugar de suponer que las franquicias en general son una opción segura o arriesgada: algunos sistemas de franquicia tienen un buen historial de rentabilidad para sus franquiciados y dan un valor continuo importante gracias a la fuerza de su marca y a su apoyo operacional, lo que justifica su estructura de cargos, mientras que otros imponen cargos altos y requisitos restrictivos sin un historial igual de bueno de éxito de sus franquiciados. Esa diferencia exige el mismo tipo de investigación cuidadosa (revisar los documentos de divulgación que exige la ley para la franquicia, hablar directamente con franquiciados actuales y anteriores sobre su experiencia real y calcular la economía por unidad específica, como eco de la lección 1, de ese concepto de franquicia en particular) que merecería cualquier otra decisión importante de inversión en un negocio.
+
+## Ejemplo práctico
+EJEMPLO ILUSTRATIVO: Un posible franquiciado compara dos opciones: la franquicia A cobra un cargo inicial de $40,000 y una regalía continua de 6%, pero tiene un historial fuerte y bien documentado de rentabilidad para sus franquiciados y da un apoyo importante de mercadeo y operaciones. La franquicia B cobra un cargo inicial parecido de $35,000 y una regalía comparable de 6%, pero tiene un historial mucho más débil, con muchos franquiciados actuales y anteriores que informan una rentabilidad decepcionante y poco apoyo real del franquiciador a pesar de los cargos que se exigen. Una investigación cuidadosa (revisar los documentos de divulgación de franquicia que se exigen y hablar directamente con varios franquiciados actuales y anteriores de cada sistema) revela esta gran diferencia en el valor que realmente se da, aunque las estructuras de cargos de las dos franquicias se ven parecidas a simple vista en papel.
+
+## Prueba práctica
+**Q1. ¿Qué paga normalmente un franquiciado a cambio de operar bajo la marca y el sistema de un franquiciador?**
+A) Nada; los acuerdos de franquicia nunca implican ningún cargo
+B) Un cargo inicial de franquicia y pagos continuos de regalías, que comúnmente se calculan como un porcentaje de los ingresos, entre otros cargos posibles
+C) Solo un pago único, sin ninguna obligación financiera continua
+D) Un salario fijo que se le paga al franquiciador cada año sin importar los ingresos del franquiciado
+
+**Q2. ¿Qué consigue en general un franquiciado a cambio de estos cargos y obligaciones?**
+A) Independencia completa y sin restricciones, sin ningún requisito operacional
+B) Acceso a un modelo de negocio probado, reconocimiento de marca, sistemas operacionales y adiestramiento establecidos y, a menudo, apoyo continuo del franquiciador
+C) Rentabilidad garantizada sin importar cómo se opere realmente la unidad de franquicia específica
+D) La propiedad completa de la marca general y la marca registrada del franquiciador
+
+**Q3. ¿Por qué un posible franquiciado debe evaluar la economía específica de una oportunidad de franquicia en particular en lugar de suponer que las franquicias en general son seguras o arriesgadas?**
+A) Todas las oportunidades de franquicia tienen una economía y un historial idénticos
+B) La economía de las franquicias varía muchísimo entre distintos sistemas e industrias: algunas dan un valor importante gracias a la fuerza de su marca y a su apoyo, mientras que otras imponen cargos sin un historial de éxito igual de bueno
+C) Los documentos de divulgación de franquicia nunca sirven para evaluar una oportunidad específica
+D) Los negocios independientes siempre tienen mejor economía que cualquier oportunidad de franquicia
+
+**Q4. ¿Qué pasos de investigación se recomiendan antes de comprar una franquicia específica?**
+A) Depender solo del material de mercadeo que da directamente el franquiciador
+B) Revisar los documentos de divulgación que exige la ley, hablar directamente con franquiciados actuales y anteriores y calcular la economía por unidad específica de ese concepto de franquicia
+C) Saltarse toda la investigación y firmar el acuerdo de franquicia lo más rápido posible
+D) Suponer que un cargo de franquicia más alto siempre indica una mejor oportunidad de negocio
+
+**Q5. En el ejemplo, ¿por qué las dos oportunidades de franquicia que parecían similares representaban propuestas de valor real muy distintas?**
+A) Las dos franquicias tenían estructuras de cargos idénticas e historiales idénticos de éxito de sus franquiciados
+B) La franquicia A tenía un historial fuerte y bien documentado de rentabilidad para sus franquiciados y un apoyo importante, mientras que la franquicia B tenía un historial mucho más débil a pesar de cobrar cargos parecidos
+C) La franquicia B en realidad cobraba cargos mucho más altos que la franquicia A
+D) No había ninguna diferencia importante entre las dos oportunidades de franquicia al examinarlas más de cerca
+
+## Clave de respuestas
+Q1: B
+Q2: B
+Q3: B
+Q4: B
+Q5: B
+
+## Respuestas y explicaciones
+**Q1.** La combinación de un cargo inicial y regalías continuas basadas en los ingresos es la estructura financiera básica normal de la mayoría de los acuerdos de franquicia.
+
+**Q2.** La estructura de cargos y regalías se da a cambio, específicamente, de la menor incertidumbre y el apoyo que pueden ofrecer un sistema probado y una marca establecida.
+
+**Q3.** Dada la gran variación en el valor que realmente dan los distintos sistemas de franquicia, es esencial una evaluación cuidadosa caso por caso, en lugar de una suposición general en cualquier dirección.
+
+**Q4.** Estos pasos específicos de investigación atienden directamente la variación en los resultados reales de los franquiciados entre distintos sistemas de franquicia, y dan información más confiable que el material de mercadeo por sí solo.
+
+**Q5.** A pesar de estructuras de cargos que se parecían a simple vista, el historial de fondo y el valor que realmente daba cada franquiciador eran muy distintos, algo que solo se vio con una investigación cuidadosa.
+
+## Puntos clave
+- Un acuerdo de franquicia normalmente implica un cargo inicial y pagos continuos de regalías a cambio de usar una marca y un sistema de negocio establecidos.
+- Los franquiciados consiguen un modelo de negocio probado, reconocimiento de marca y apoyo operacional a cambio de cargos y de menos independencia.
+- La economía de las franquicias varía mucho entre sistemas, así que evaluar el historial y los números de la oportunidad específica importa más que suponer que las franquicias en general son seguras o arriesgadas.
+- Una investigación cuidadosa, incluida la revisión de los documentos de divulgación y conversaciones directas con franquiciados actuales y anteriores, es esencial antes de comprar cualquier franquicia específica.

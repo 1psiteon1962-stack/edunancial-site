@@ -1,0 +1,391 @@
+===== WHITE-L3-043
+TITLE: Pourquoi les ordres au marché et les ordres à cours limité servent des buts différents
+SUMMARY: Découvre la différence entre un ordre au marché et un ordre à cours limité, et pourquoi le bon choix dépend de ce que tu cherches réellement à contrôler.
+# WHITE-L3-043 : Pourquoi les ordres au marché et les ordres à cours limité servent des buts différents
+
+## Objectifs d'apprentissage
+À la fin de cette leçon, tu pourras :
+- Expliquer la différence entre un ordre au marché et un ordre à cours limité
+- Expliquer pourquoi chaque type d'ordre privilégie une variable différente — la rapidité ou le prix
+- Relier cette notion à la discussion sur la liquidité de la leçon 42
+
+## Contenu principal
+
+Un **ordre au marché** demande à un courtier d'acheter ou de vendre un titre immédiatement, au meilleur prix offert à ce moment-là. Un **ordre à cours limité** demande à un courtier d'acheter ou de vendre seulement à un prix précis ou à un meilleur prix, quitte à attendre pour être exécuté (ou à ne pas l'être du tout) si ce prix n'est pas offert.
+
+Voici « pourquoi » le choix entre les deux dépend de ce que tu privilégies : un ordre au marché privilégie la rapidité et la certitude d'exécution — il sera presque toujours exécuté rapidement, mais tu ne connais pas le prix exact d'avance, surtout pour un titre moins liquide (ce qui se relie directement à la discussion sur l'écart acheteur-vendeur de la leçon 42) ou en période de mouvements rapides. Un ordre à cours limité privilégie le contrôle du prix — tu connais le pire prix que tu accepteras —, mais tu renonces à la certitude d'exécution, puisque l'ordre pourrait ne jamais être exécuté si le marché n'atteint pas le prix que tu as fixé.
+
+[VERIFIED FACT] Pour les titres très liquides à faible écart acheteur-vendeur, la différence pratique entre un ordre au marché et un ordre à cours limité raisonnablement placé est souvent petite; la distinction devient plus importante pour les titres moins liquides, les ordres plus gros ou pendant les périodes de forte volatilité, où l'incertitude sur le prix d'un ordre au marché peut être plus grande.
+
+## Exemple pratique
+
+[ILLUSTRATIVE EXAMPLE] Une investisseuse veut acheter des actions d'une entreprise peu négociée (comme dans l'exemple de la leçon 42). Un ordre au marché garantit que l'achat se fera rapidement, mais l'écart acheteur-vendeur plus large veut dire qu'elle pourrait payer un prix nettement plus élevé que ce que laissait croire le dernier cours. Un ordre à cours limité, fixé à un prix maximal précis qu'elle est prête à payer, la protège plutôt contre un prix d'exécution étonnamment élevé — mais si le prix de l'action s'éloigne de sa limite avant qu'assez d'actions soient offertes à ce prix, son ordre pourrait ne pas être exécuté du tout, et elle pourrait rater l'occasion d'acheter.
+
+## Quiz de pratique
+
+1. Quelle est la principale différence entre un ordre au marché et un ordre à cours limité?
+2. Qu'est-ce qu'un ordre au marché privilégie, et à quoi renonce-t-il en échange?
+3. Selon cette leçon, dans quels types de situations le choix entre un ordre au marché et un ordre à cours limité devient-il plus important?
+
+## Corrigé
+
+1. Un ordre au marché est exécuté immédiatement au meilleur prix offert; un ordre à cours limité est exécuté seulement à un prix précis ou à un meilleur prix, et pourrait ne pas être exécuté du tout.
+2. Il privilégie la rapidité et la certitude d'exécution, et renonce à la certitude quant au prix d'exécution exact.
+3. Les titres moins liquides, les ordres plus gros ou les périodes de forte volatilité — des situations où l'incertitude sur le prix d'un ordre au marché devient plus grande, ce qui se relie à la discussion sur la liquidité de la leçon 42.
+
+## Réponses et explications
+
+1. C'est la distinction de base de la leçon.
+2. Ça précise le compromis propre aux ordres au marché.
+3. Ça relie directement la décision sur le type d'ordre à la notion de liquidité de la leçon précédente.
+
+## Points clés à retenir
+- Un ordre au marché privilégie la rapidité et la certitude d'exécution plutôt que la certitude sur le prix.
+- Un ordre à cours limité privilégie le contrôle du prix, mais comporte le risque de ne pas être exécuté du tout.
+- Ce compromis devient particulièrement important pour les titres moins liquides, les gros ordres ou les marchés volatils.
+
+## Avis pédagogique
+Cette leçon sert uniquement à l'éducation financière générale et ne constitue pas un conseil financier, de placement, fiscal ou juridique personnalisé. Consulte un professionnel de la finance autorisé avant de prendre des décisions de placement.
+
+===== WHITE-L3-044
+TITLE: Pourquoi les PAPE comportent un risque particulier par rapport aux sociétés cotées bien établies
+SUMMARY: Découvre pourquoi acheter des actions d'une société nouvellement inscrite en bourse diffère d'investir dans une société bien établie, et pourquoi un historique limité ajoute une incertitude précise.
+# WHITE-L3-044 : Pourquoi les PAPE comportent un risque particulier par rapport aux sociétés cotées bien établies
+
+## Objectifs d'apprentissage
+À la fin de cette leçon, tu pourras :
+- Expliquer ce qu'est un PAPE
+- Expliquer pourquoi une société nouvellement inscrite en bourse comporte des risques différents de ceux d'une société bien établie
+- Expliquer pourquoi une forte volatilité des prix est courante après un PAPE
+
+## Contenu principal
+
+Un **PAPE (premier appel public à l'épargne**, en anglais *IPO*) est le processus par lequel une société privée vend des actions au public pour la première fois et devient une société cotée en bourse. Voici « pourquoi » investir autour d'un PAPE comporte un risque distinct par rapport à l'achat d'une société cotée bien établie : une société nouvellement inscrite en bourse a habituellement un historique public beaucoup plus court — moins de données historiques sur la façon dont son action se négocie, sur la façon dont sa direction communique avec les actionnaires publics et sur le rendement de l'entreprise sous l'examen et les obligations d'information qu'implique le fait d'être cotée en bourse.
+
+[VERIFIED FACT] Le prix des actions lors d'un PAPE est habituellement fixé d'après les projections de la société elle-même et les évaluations des banques d'investissement, plutôt que d'après une longue période de négociation réelle sur le marché public, et les actions nouvellement inscrites ont historiquement souvent connu une forte volatilité pendant leur première période de négociation, le temps que le marché se forme sa propre opinion indépendante de la valeur de la société, qui peut différer nettement du prix du PAPE.
+
+Ça se relie à la distinction entre volatilité et risque de la leçon 4 : cette volatilité initiale ne reflète pas forcément un changement de l'entreprise sous-jacente — elle peut simplement refléter le processus de découverte du prix par le marché, qui se fait avec beaucoup moins d'information publique que pour une société bien établie.
+
+## Exemple pratique
+
+[ILLUSTRATIVE EXAMPLE] Une société termine son PAPE à un prix d'offre fixé. [ASSUMPTION] Pendant ses premières semaines et ses premiers mois de négociation publique, l'action pourrait fluctuer fortement au-dessus et en dessous de ce prix d'offre, à mesure que différents investisseurs se forment des opinions variées sur sa valeur, avec peu de données historiques de négociation pour ancrer ces opinions. Un investisseur qui achète immédiatement au prix du PAPE est exposé à cette volatilité initiale de découverte du prix d'une façon à laquelle n'est habituellement pas exposé un investisseur qui achète des actions d'une société qui a des années d'historique de négociation publique.
+
+## Quiz de pratique
+
+1. Qu'est-ce qu'un PAPE?
+2. Pourquoi une société nouvellement inscrite en bourse comporte-t-elle un risque différent de celui d'une société cotée bien établie?
+3. Pourquoi les actions nouvellement inscrites connaissent-elles souvent une forte volatilité au début?
+
+## Corrigé
+
+1. Le processus par lequel une société privée vend des actions au public pour la première fois et devient une société cotée en bourse.
+2. Parce qu'elle a un historique public beaucoup plus court — moins de données historiques sur la négociation de son action, la communication de sa direction et son rendement sous les obligations d'information publique.
+3. Parce que le prix du PAPE est fixé sans longue période de négociation publique réelle, et que le marché a besoin de temps pour se former sa propre opinion indépendante de la valeur de la société, qui peut différer nettement du prix d'offre initial.
+
+## Réponses et explications
+
+1. C'est la définition de base de la leçon.
+2. C'est la distinction de risque centrale que met en lumière la leçon.
+3. Ça relie l'explication de la volatilité au cadre plus général de la leçon 4 sur la volatilité et le risque.
+
+## Points clés à retenir
+- Un PAPE est le moment où une société privée vend des actions au public pour la première fois.
+- Les sociétés nouvellement inscrites en bourse comportent un risque distinct à cause d'un historique de négociation publique limité et d'une information moins éprouvée par le marché.
+- La volatilité des prix après un PAPE reflète souvent le processus de découverte du prix par le marché, et pas forcément un changement de l'entreprise sous-jacente.
+
+## Avis pédagogique
+Cette leçon sert uniquement à l'éducation financière générale et ne constitue pas un conseil financier, de placement, fiscal ou juridique personnalisé. Consulte un professionnel de la finance autorisé avant de prendre des décisions de placement.
+
+===== WHITE-L3-045
+TITLE: Pourquoi les rachats d'actions touchent les actionnaires différemment des dividendes
+SUMMARY: Découvre comment un rachat d'actions remet de la valeur aux actionnaires autrement qu'un dividende, et pourquoi les effets sur l'impôt et le nombre d'actions diffèrent.
+# WHITE-L3-045 : Pourquoi les rachats d'actions touchent les actionnaires différemment des dividendes
+
+## Objectifs d'apprentissage
+À la fin de cette leçon, tu pourras :
+- Expliquer ce qu'est un rachat d'actions
+- Expliquer comment un rachat remet de la valeur aux actionnaires autrement qu'un dividende
+- Expliquer une différence clé, sur le plan fiscal, entre les deux approches
+
+## Contenu principal
+
+Un **rachat d'actions** se produit quand une société utilise sa propre trésorerie pour racheter ses propres actions sur le marché, ce qui réduit le nombre total d'actions en circulation. C'est un mécanisme différent des versements de dividendes abordés à la leçon 17 pour remettre de la valeur aux actionnaires.
+
+Voici « pourquoi » l'effet d'un rachat diffère de celui d'un dividende : au lieu de distribuer directement de l'argent aux actionnaires (ce qui, comme l'a expliqué la leçon 17, correspond à une baisse à peu près équivalente du prix de l'action), un rachat réduit le nombre d'actions en circulation — ce qui veut dire que chaque action restante représente une part de propriété un peu plus grande dans la société. [VERIFIED FACT] Si la valeur globale et les bénéfices de la société restent les mêmes pendant que le nombre d'actions diminue, les principaux indicateurs par action, comme le bénéfice par action, ont tendance à augmenter, ce qui peut soutenir un prix d'action plus élevé, toutes choses égales par ailleurs.
+
+Une différence importante, sur le plan fiscal, entre les deux approches : un dividende crée généralement un événement imposable immédiat pour l'actionnaire qui le reçoit (sous réserve des règles fiscales applicables), alors qu'un rachat ne crée pas directement d'événement imposable pour les actionnaires qui ne vendent pas — tout avantage se traduit par une augmentation possible de la valeur des actions restantes, que les actionnaires réalisent (et sur laquelle ils pourraient devoir payer de l'impôt) seulement s'ils choisissent de vendre, et au moment où ils le font.
+
+## Exemple pratique
+
+[ILLUSTRATIVE EXAMPLE] Une société a un bénéfice de 1 million de dollars et 1 million d'actions en circulation, soit un bénéfice par action de 1 $. Si elle utilise la trésorerie disponible pour racheter 100 000 actions, ce qui ramène le nombre d'actions à 900 000, ce même bénéfice de 1 million de dollars correspond maintenant à environ 1,11 $ par action — un chiffre plus élevé uniquement grâce à la réduction du nombre d'actions, en supposant que le bénéfice reste le même. Une actionnaire qui ne vend aucune action ne reçoit pas de versement en argent immédiat (contrairement à un dividende) et ne fait face à aucun événement imposable immédiat, mais ses actions existantes pourraient valoir un peu plus si le marché tient compte de l'amélioration des indicateurs par action.
+
+## Quiz de pratique
+
+1. Qu'est-ce qu'un rachat d'actions?
+2. En quoi le mécanisme par lequel un rachat remet de la valeur diffère-t-il de celui d'un dividende?
+3. Quelle est une différence clé, sur le plan fiscal, entre un rachat et un dividende pour un actionnaire qui ne vend pas?
+
+## Corrigé
+
+1. Une société qui utilise sa propre trésorerie pour racheter ses propres actions, ce qui réduit le nombre total d'actions en circulation.
+2. Un dividende distribue directement de l'argent aux actionnaires (avec une baisse de prix correspondante, selon la leçon 17); un rachat réduit le nombre d'actions, ce qui augmente la part de propriété proportionnelle de chaque action restante sans distribution directe d'argent.
+3. Un dividende crée généralement un événement imposable immédiat pour l'actionnaire; un rachat ne crée pas directement d'événement imposable pour un actionnaire qui ne vend pas, puisque tout avantage se traduit seulement par une augmentation possible de la valeur des actions qu'il détient encore.
+
+## Réponses et explications
+
+1. C'est la définition de base de la leçon.
+2. C'est la distinction mécanique centrale entre les deux approches, comparée directement à la leçon 17.
+3. Ça met en lumière une différence pratique importante quant à la façon et au moment où l'impôt touche les actionnaires.
+
+## Points clés à retenir
+- Un rachat d'actions réduit le nombre d'actions en circulation, ce qui augmente la part de propriété proportionnelle de chaque action restante.
+- C'est mécaniquement différent d'un dividende, qui distribue directement de l'argent avec un ajustement de prix correspondant.
+- Contrairement aux dividendes, les rachats ne créent généralement pas d'événement imposable immédiat pour les actionnaires qui ne vendent pas.
+
+## Avis pédagogique
+Cette leçon sert uniquement à l'éducation financière générale et ne constitue pas un conseil financier, de placement, fiscal ou juridique personnalisé. Les règles fiscales varient beaucoup d'un pays à l'autre; consulte un fiscaliste autorisé pour obtenir des conseils adaptés à ta situation.
+
+===== WHITE-L3-046
+TITLE: Pourquoi le bêta mesure la volatilité d'une action par rapport au marché
+SUMMARY: Découvre ce que mesure le bêta, pourquoi un bêta supérieur ou inférieur à 1,0 t'apprend quelque chose de précis sur le comportement attendu d'une action, et ce que le bêta ne mesure pas.
+# WHITE-L3-046 : Pourquoi le bêta mesure la volatilité d'une action par rapport au marché
+
+## Objectifs d'apprentissage
+À la fin de cette leçon, tu pourras :
+- Définir le bêta comme une mesure de volatilité relative
+- Interpréter ce qu'un bêta supérieur, inférieur ou égal à 1,0 laisse généralement entendre
+- Expliquer une limite du bêta comme mesure du risque
+
+## Contenu principal
+
+Le **bêta** est une mesure statistique qui décrit la façon dont le prix d'une action a eu tendance à évoluer par rapport à l'ensemble du marché — habituellement un indice de référence. Un bêta de 1,0 laisse entendre qu'une action a historiquement évolué à peu près comme le marché. Un bêta supérieur à 1,0 laisse entendre une volatilité historiquement plus grande que celle du marché (des mouvements plus prononcés dans le même sens que le marché); un bêta inférieur à 1,0 laisse entendre une volatilité historiquement moins grande que celle du marché.
+
+Voici « pourquoi » ça peut être un outil utile, quoique limité : le bêta donne une façon rapide et normalisée de comparer à quel point différentes actions ont été sensibles aux mouvements généraux du marché — ce qui est utile pour réfléchir à la façon dont une action pourrait contribuer à la volatilité globale d'un portefeuille (en lien avec les notions de diversification et de corrélation des leçons 2 et 3).
+
+[VERIFIED FACT] Le bêta est calculé à partir de données de prix historiques et reflète la volatilité relative passée, sans garantir le comportement futur — et il mesure précisément la sensibilité aux mouvements généraux du marché, et non le risque total d'une action, ce qui veut dire que deux actions qui ont le même bêta pourraient quand même avoir des profils de risque propres à l'entreprise très différents (leçon 2), que le bêta seul ne mesure pas.
+
+## Exemple pratique
+
+[ILLUSTRATIVE EXAMPLE] L'action A a un bêta de 1,5, ce qui laisse entendre qu'elle a historiquement évolué environ 50 % plus que l'ensemble du marché, dans un sens comme dans l'autre — si le marché monte de 10 %, l'action A pourrait historiquement avoir monté d'environ 15 %, et l'inverse lors d'une baisse. L'action B a un bêta de 0,6, ce qui laisse entendre des mouvements historiquement plus modérés par rapport au marché. [ASSUMPTION] Une investisseuse qui bâtit un portefeuille pourrait utiliser ces bêtas historiques comme un élément parmi d'autres pour réfléchir à la façon dont chaque action pourrait contribuer à la volatilité globale du portefeuille — tout en se rappelant que le bêta reflète des tendances passées et ne mesure pas les risques précis et individuels de chaque entreprise, distincts des mouvements généraux du marché.
+
+## Quiz de pratique
+
+1. Que mesure le bêta?
+2. Qu'est-ce qu'un bêta supérieur à 1,0 laisse généralement entendre sur la volatilité historique d'une action par rapport au marché?
+3. Quelle limite cette leçon relève-t-elle quant à l'utilisation du bêta comme mesure complète du risque?
+
+## Corrigé
+
+1. La façon dont le prix d'une action a eu tendance à évoluer par rapport à l'ensemble du marché, habituellement un indice de référence.
+2. Que l'action a historiquement évolué avec une volatilité plus grande que le marché — avec des mouvements plus prononcés dans le même sens que ceux du marché.
+3. Le bêta reflète précisément la volatilité relative passée par rapport aux mouvements généraux du marché, sans garantir le comportement futur, et il ne mesure pas le risque propre à l'entreprise, distinct de l'ensemble du marché.
+
+## Réponses et explications
+
+1. C'est la définition de base de la leçon.
+2. Ça confirme l'interprétation du seuil numérique précis.
+3. C'est une mise en garde importante contre le fait de traiter le bêta comme une mesure complète du risque total d'une action.
+
+## Points clés à retenir
+- Le bêta mesure la volatilité historique d'une action par rapport à l'ensemble du marché, 1,0 représentant une volatilité égale à celle du marché.
+- Un bêta supérieur à 1,0 laisse entendre une volatilité relative historiquement plus grande; un bêta inférieur à 1,0, une volatilité historiquement moindre.
+- Le bêta reflète des tendances passées et précisément la volatilité liée au marché — il ne mesure pas le risque propre à l'entreprise et ne garantit pas le comportement futur.
+
+## Avis pédagogique
+Cette leçon sert uniquement à l'éducation financière générale et ne constitue pas un conseil financier, de placement, fiscal ou juridique personnalisé. Le rendement passé ne garantit pas les résultats futurs. Consulte un professionnel de la finance autorisé avant de prendre des décisions de placement.
+
+===== WHITE-L3-047
+TITLE: Pourquoi diversifier entre catégories d'actifs, et pas seulement entre actions, réduit le risque d'un portefeuille
+SUMMARY: Découvre pourquoi combiner des actions avec d'autres catégories d'actifs, comme les obligations ou l'immobilier, peut réduire le risque global d'un portefeuille d'une façon impossible avec une diversification limitée aux actions.
+# WHITE-L3-047 : Pourquoi diversifier entre catégories d'actifs, et pas seulement entre actions, réduit le risque d'un portefeuille
+
+## Objectifs d'apprentissage
+À la fin de cette leçon, tu pourras :
+- Expliquer pourquoi diversifier entre catégories d'actifs s'attaque à un type de risque que la seule diversification entre actions ne peut pas régler
+- Relier cette notion à la discussion sur la corrélation de la leçon 3
+- Expliquer pourquoi combiner des actifs aux comportements historiquement différents peut adoucir le rendement global d'un portefeuille
+
+## Contenu principal
+
+Les leçons 2 et 3 ont abordé la diversification et la corrélation à l'intérieur d'une catégorie de placements semblables — surtout les actions. Cette leçon étend la même logique à un niveau plus large : diversifier entre des **catégories d'actifs** complètement différentes — actions, obligations, immobilier (les FPI de la leçon 32, par exemple), encaisse et autres.
+
+Voici « pourquoi » ça s'attaque à un type de risque que la diversification limitée aux actions ne peut pas régler : même un portefeuille d'actions bien diversifié, réparti entre de nombreuses entreprises et de nombreux secteurs, reste exposé au risque de marché qui touche les actions en général (comme l'a établi la leçon 2) — une baisse générale du marché boursier touche presque toutes les actions en même temps, peu importe à quel point le choix des actions est diversifié. [VERIFIED FACT] Les différentes catégories d'actifs ont historiquement montré des relations variées entre elles, parfois faiblement ou négativement corrélées, selon les conditions de marché — les obligations, par exemple, ont parfois eu un comportement différent de celui des actions pendant des baisses du marché boursier, même si cette relation n'est ni fixe ni garantie et peut changer selon le contexte économique précis (en lien avec la discussion sur les cycles de taux de la leçon 43 du parcours RED).
+
+Combiner des catégories d'actifs aux comportements vraiment différents, plutôt que de diversifier seulement à l'intérieur d'une catégorie d'actifs, s'attaque au risque de marché que la diversification limitée aux actions ne peut précisément pas réduire.
+
+## Exemple pratique
+
+[ILLUSTRATIVE EXAMPLE] Une investisseuse détient un portefeuille bien diversifié de 50 actions différentes dans de nombreux secteurs. Pendant une baisse générale du marché boursier, presque tous ses titres baissent ensemble, puisque la baisse reflète un risque de marché contre lequel sa diversification en actions, aussi poussée soit-elle, ne peut pas la protéger. [ASSUMPTION] Si elle avait aussi réparti une partie de son portefeuille en obligations, et que ces obligations avaient eu un comportement différent pendant cette même baisse — comme ça s'est produit pendant certaines périodes historiques —, la baisse globale de son portefeuille aurait pu être nettement plus petite que celle d'un portefeuille composé uniquement d'actions, même extrêmement bien diversifié à l'intérieur de la seule catégorie des actions.
+
+## Quiz de pratique
+
+1. À quel type de risque la diversification entre catégories d'actifs s'attaque-t-elle, alors que la diversification limitée aux actions ne le peut pas?
+2. Pourquoi même un portefeuille d'actions très bien diversifié peut-il quand même subir des baisses importantes pendant une baisse générale du marché?
+3. La relation entre le rendement des différentes catégories d'actifs pendant une baisse est-elle fixe et garantie? Pourquoi?
+
+## Corrigé
+
+1. Le risque de marché — le risque qui touche toute une catégorie d'actifs (comme les actions) de façon générale, peu importe à quel point les titres individuels de cette catégorie sont diversifiés.
+2. Parce que le risque de marché touche presque toutes les actions en même temps, et que la diversification entre actions s'attaque surtout au risque propre aux entreprises (leçon 2), et non à ce risque plus large lié au marché.
+3. Non — le rendement relatif des différentes catégories d'actifs dans diverses conditions de marché a varié historiquement et n'est ni fixe ni garanti, de sorte qu'il faut voir cet avantage comme une tendance historique, et non comme un résultat assuré.
+
+## Réponses et explications
+
+1. C'est la distinction centrale autour de laquelle la leçon est construite, qui étend le cadre des leçons 2 et 3 à une plus grande échelle.
+2. Ça renforce directement la notion de risque de marché présentée pour la première fois à la leçon 2.
+3. C'est une mise en garde importante et nuancée contre un excès de confiance dans les relations historiques entre catégories d'actifs.
+
+## Points clés à retenir
+- Diversifier entre catégories d'actifs s'attaque au risque de marché, ce que la diversification à l'intérieur d'une seule catégorie d'actifs (comme les actions) ne peut pas faire.
+- Les différentes catégories d'actifs ont historiquement montré des corrélations variées entre elles, parfois faibles ou négatives, selon les conditions.
+- Cette relation n'est ni fixe ni garantie, et peut changer selon le contexte économique général.
+
+## Avis pédagogique
+Cette leçon sert uniquement à l'éducation financière générale et ne constitue pas un conseil financier, de placement, fiscal ou juridique personnalisé. Le rendement passé ne garantit pas les résultats futurs. Consulte un professionnel de la finance autorisé avant de prendre des décisions de placement.
+
+===== WHITE-L3-048
+TITLE: Pourquoi la taille des positions détermine à quel point un seul mauvais pari peut te nuire
+SUMMARY: Découvre pourquoi le montant que tu investis dans une seule position compte autant que la qualité de l'idée, et pourquoi la taille des positions est une forme de contrôle du risque.
+# WHITE-L3-048 : Pourquoi la taille des positions détermine à quel point un seul mauvais pari peut te nuire
+
+## Objectifs d'apprentissage
+À la fin de cette leçon, tu pourras :
+- Expliquer ce que veut dire la taille des positions
+- Expliquer pourquoi une bonne idée de placement peut quand même nuire à un portefeuille si la position est trop grande
+- Relier cette notion à l'idée d'ajustement du risque par fractions d'actions utilisée ailleurs dans ce programme
+
+## Contenu principal
+
+La **taille des positions** désigne la part d'un portefeuille consacrée à un seul placement. C'est une décision distincte de la question de *quels* placements choisir — même une excellente idée de placement peut créer un risque démesuré pour un portefeuille si une trop grande part du capital total y est engagée.
+
+Voici « pourquoi » la taille des positions est une forme de contrôle du risque à part entière, distincte de la qualité du choix des placements : aucune thèse de placement, aussi bien documentée soit-elle, n'est garantie de fonctionner — des événements inattendus, une nouvelle information ou simplement la malchance peuvent toucher même une position choisie avec soin. Si cette position représente une petite partie d'un portefeuille, un résultat décevant est un revers gérable. Si elle en représente une très grande partie, le même résultat décevant peut nuire sérieusement à tout le portefeuille, peu importe à quel point le raisonnement de départ était solide.
+
+[VERIFIED FACT] Ça se relie à un principe plus large utilisé ailleurs dans ce programme, qui consiste à structurer le risque de façon à ce que les pertes soient réelles et ressenties, pour qu'elles enseignent de vraies leçons, sans jamais devenir catastrophiques pour la situation financière globale — la taille des positions est l'un des outils les plus directs et les plus contrôlables dont dispose un investisseur pour garder la perte possible d'une seule position dans une fourchette tolérable.
+
+## Exemple pratique
+
+[ILLUSTRATIVE EXAMPLE] Une investisseuse repère ce qu'elle croit être une excellente occasion de placement après une recherche approfondie. Si elle y consacre 5 % de son portefeuille et que ça tourne mal — même s'il s'agissait d'une perte totale sur cette position —, les dommages à son portefeuille global sont limités et récupérables. [ASSUMPTION] Si elle consacre 50 % de son portefeuille à la même idée, sur la base de la même recherche et de la même conviction, ce même mauvais résultat pourrait faire reculer sérieusement toute sa situation financière — la qualité de l'idée de départ n'a pas changé, mais la taille de la position a changé de façon spectaculaire à quel point ce résultat précis pouvait lui nuire.
+
+## Quiz de pratique
+
+1. Que désigne la taille des positions?
+2. Pourquoi même une idée de placement bien documentée peut-elle créer un risque démesuré pour un portefeuille?
+3. Comment la taille des positions sert-elle d'outil de contrôle du risque, distinct du choix des placements?
+
+## Corrigé
+
+1. La part d'un portefeuille consacrée à un seul placement.
+2. Parce qu'aucune thèse de placement n'est garantie de fonctionner, et que si une position qui performe mal représente une trop grande part du portefeuille, les dommages qui en résultent peuvent être importants, peu importe à quel point le raisonnement de départ était solide.
+3. En limitant à quel point le résultat d'une seule position — bon ou mauvais — peut influer sur le portefeuille global, la taille des positions contrôle directement la perte possible, indépendamment de la qualité du choix de placement lui-même.
+
+## Réponses et explications
+
+1. C'est la définition de base de la leçon.
+2. C'est l'idée centrale de gestion du risque autour de laquelle la leçon est construite.
+3. Ça renforce le fait que la taille des positions et le choix des placements sont deux décisions distinctes, toutes deux importantes.
+
+## Points clés à retenir
+- La taille des positions détermine la part d'un portefeuille consacrée à un seul placement.
+- Même une idée bien documentée peut causer des dommages démesurés au portefeuille si la position est trop grande, peu importe le raisonnement qui la sous-tend.
+- La taille des positions est un outil de gestion du risque direct et contrôlable, distinct de la qualité du choix des placements lui-même.
+
+## Avis pédagogique
+Cette leçon sert uniquement à l'éducation financière générale et ne constitue pas un conseil financier, de placement, fiscal ou juridique personnalisé. Consulte un professionnel de la finance autorisé avant de prendre des décisions de placement.
+
+===== WHITE-L3-049
+TITLE: Pourquoi un plan de placement écrit te protège de tes propres émotions
+SUMMARY: Découvre pourquoi mettre ton plan de placement par écrit à l'avance te protège contre les erreurs comportementales vues tout au long de ce parcours, commises sous le coup de l'émotion.
+# WHITE-L3-049 : Pourquoi un plan de placement écrit te protège de tes propres émotions
+
+## Objectifs d'apprentissage
+À la fin de cette leçon, tu pourras :
+- Expliquer le but général d'un plan de placement écrit
+- Expliquer pourquoi décider des choses à l'avance protège contre des décisions émotionnelles prises sur le moment
+- Résumer comment ce plan rassemble plusieurs notions comportementales vues plus tôt dans ce parcours
+
+## Contenu principal
+
+Ce parcours a abordé plusieurs façons précises dont les émotions et la psychologie peuvent fausser les décisions de placement : l'aversion aux pertes (leçon 27), le biais de récence (leçon 28), le fait de courir après le rendement (leçon 25) et l'écart comportemental plus large qu'ils créent ensemble (leçon 26). Un **plan de placement écrit** — parfois appelé énoncé de politique de placement — est un outil pratique conçu pour contrer tous ces biais à la fois.
+
+Voici « pourquoi » il est important de mettre un plan par écrit à l'avance : les décisions prises calmement, d'avance, avant qu'un événement de marché précis ait déclenché une réaction émotionnelle, ont tendance à mieux correspondre aux vrais objectifs à long terme d'un investisseur que les décisions prises en réaction, au milieu d'une baisse stressante ou d'une hausse grisante. Un plan écrit — qui précise la répartition de l'actif cible (leçon 34), les règles de rééquilibrage (leçon 14) et des critères généraux pour acheter ou vendre — donne à l'investisseur un point de référence établi d'avance auquel revenir, plutôt que d'improviser une réaction pendant que les émotions sont à leur comble.
+
+[VERIFIED FACT] Cette approche n'élimine pas l'expérience émotionnelle de la volatilité des marchés, mais elle peut réduire la probabilité d'agir sous le coup de cette émotion d'une façon qui contredit les objectifs et la stratégie que l'investisseur avait lui-même énoncés auparavant, après une réflexion calme.
+
+## Exemple pratique
+
+[ILLUSTRATIVE EXAMPLE] Une investisseuse rédige un plan de placement pendant une période calme, en précisant sa répartition de l'actif cible, son intention de rééquilibrer chaque année et les critères qu'elle utilisera avant d'apporter tout changement important à sa stratégie. [ASSUMPTION] Des mois plus tard, pendant une forte baisse du marché, elle ressent une forte envie de tout vendre et de passer à l'encaisse. Le fait de revenir à son plan écrit — rédigé avant ce moment émotionnel précis — lui rappelle son raisonnement d'origine à long terme et ses règles de rééquilibrage, ce qui pourrait l'aider à éviter une décision réactive que sa version plus calme d'avant avait justement prévue et s'était engagée à refuser.
+
+## Quiz de pratique
+
+1. Quel est le but général d'un plan de placement écrit?
+2. Pourquoi les décisions prises calmement à l'avance ont-elles tendance à mieux correspondre aux objectifs à long terme que les décisions prises en réaction, sur le moment?
+3. Nomme deux notions comportementales précises, vues plus tôt dans ce parcours, qu'un plan écrit est conçu pour aider à contrer.
+
+## Corrigé
+
+1. Servir de point de référence établi d'avance qui précise la répartition cible, les règles de rééquilibrage et les critères de décision d'un investisseur, afin de guider son comportement de façon constante dans le temps.
+2. Parce que les décisions prises en réaction, pendant un événement de marché stressant ou grisant, risquent davantage d'être influencées par l'émotion (aversion aux pertes, biais de récence) que par les vrais objectifs à long terme de l'investisseur, réfléchis calmement.
+3. Deux parmi les suivantes : l'aversion aux pertes, le biais de récence, le fait de courir après le rendement, l'écart comportemental plus large.
+
+## Réponses et explications
+
+1. C'est le but de base autour duquel la leçon est construite.
+2. C'est le raisonnement psychologique central qui explique la valeur de la planification à l'avance.
+3. Ça vérifie si l'apprenant peut rassembler des notions de plusieurs leçons précédentes dans cet outil final et intégrateur.
+
+## Points clés à retenir
+- Un plan de placement écrit sert de point de référence établi d'avance pour la répartition, le rééquilibrage et les critères de décision.
+- Les décisions prises calmement à l'avance ont tendance à mieux correspondre aux objectifs à long terme que les décisions réactives, dictées par l'émotion.
+- Cet outil s'attaque directement à plusieurs notions comportementales vues tout au long de ce parcours, dont l'aversion aux pertes, le biais de récence et le fait de courir après le rendement.
+
+## Avis pédagogique
+Cette leçon sert uniquement à l'éducation financière générale et ne constitue pas un conseil financier, de placement, fiscal ou juridique personnalisé. Consulte un professionnel de la finance autorisé avant de prendre des décisions de placement.
+
+===== WHITE-L3-050
+TITLE: Pourquoi maîtriser les actifs papier, c'est savoir ce qu'on n'a pas besoin de prédire
+SUMMARY: La leçon de clôture de ce parcours — pourquoi la vraie compétence en placement dans les actifs papier consiste à bâtir un plan qui tient compte de l'incertitude, et non à deviner le prochain mouvement du marché.
+# WHITE-L3-050 : Pourquoi maîtriser les actifs papier, c'est savoir ce qu'on n'a pas besoin de prédire
+
+## Objectifs d'apprentissage
+À la fin de cette leçon, tu pourras :
+- Expliquer pourquoi ce parcours a insisté à plusieurs reprises sur la structure et la discipline plutôt que sur la prédiction
+- Nommer plusieurs outils de ce parcours qui réduisent la dépendance à la prédiction du prochain mouvement du marché
+- Résumer le fil conducteur central qui relie les 50 leçons de ce parcours
+
+## Contenu principal
+
+Ce parcours a commencé en reconnaissant à quel point « acheter bas, vendre haut » est difficile à appliquer (leçon 1), précisément parce qu'il faut pour ça prédire correctement quelque chose que personne ne peut prédire de façon fiable : le prochain mouvement du marché. Il se termine par un changement de perspective volontaire, en écho à la leçon de clôture du parcours RED : maîtriser les actifs papier, ce n'est pas d'abord apprendre à mieux prédire les marchés — c'est bâtir une structure qui réduit à quel point ton succès dépend réellement de la prédiction.
+
+Regarde l'ensemble de ce parcours : la diversification et la corrélation (leçons 2 et 3) réduisent la dépendance au fait de bien choisir les gagnants individuels. L'achat périodique par sommes fixes et le rééquilibrage (leçons 12 et 14) réduisent la dépendance au fait de bien choisir le moment d'entrer et de sortir. La répartition de l'actif et les trajectoires de répartition (leçons 34 et 35) réduisent la dépendance au fait de bien prévoir quelle catégorie d'actifs fera mieux une année donnée. Le placement indiciel (leçon 23) élimine la dépendance au fait de bien choisir un gestionnaire actif. Un plan de placement écrit (leçon 49) réduit la dépendance au fait de rester rationnel en temps réel, exactement aux moments où la rationalité est la plus difficile à garder.
+
+[VERIFIED FACT] Aucun de ces outils n'élimine l'incertitude sur l'avenir — les marchés restent réellement imprévisibles à court terme. Ce qu'ils font, c'est réduire à quel point le résultat d'un investisseur dépend du fait de deviner correctement ce parcours imprévisible à court terme.
+
+## Exemple pratique
+
+[ILLUSTRATIVE EXAMPLE] Une investisseuse qui a intégré tout ce parcours bâtit un portefeuille fondé sur une répartition générale de l'actif entre actions, obligations et autres catégories d'actifs (leçons 34 et 47), en grande partie au moyen de fonds indiciels à faibles coûts (leçon 23), investis par une combinaison d'achat périodique par sommes fixes et de rééquilibrage périodique (leçons 12 et 14), avec des positions de taille telle qu'aucune position ni aucun pari ne soit assez gros pour être catastrophique (leçon 48), le tout guidé par un plan écrit rédigé pendant une période calme (leçon 49). Elle ne sait pas ce que fera le marché l'an prochain — personne ne le sait de façon fiable —, mais son approche n'a pas besoin de cette connaissance pour fonctionner raisonnablement bien sur son véritable horizon de placement.
+
+## Quiz de pratique
+
+1. Quel changement de perspective central cette leçon de clôture propose-t-elle sur ce que veut dire « maîtriser » les actifs papier?
+2. Nomme trois outils de ce parcours qui réduisent précisément la dépendance au fait de bien prédire les mouvements du marché.
+3. Cette approche élimine-t-elle l'incertitude sur le rendement futur des marchés? Pourquoi?
+
+## Corrigé
+
+1. Que la maîtrise consiste à bâtir une structure qui réduit à quel point ton succès dépend de la prédiction, plutôt qu'à apprendre à prédire les marchés avec plus de précision.
+2. Trois parmi les suivants : la gestion de la diversification et de la corrélation, l'achat périodique par sommes fixes, le rééquilibrage, la répartition de l'actif, les trajectoires de répartition, le placement indiciel, un plan de placement écrit.
+3. Non — les marchés restent réellement imprévisibles à court terme; ces outils réduisent à quel point le résultat d'un investisseur dépend du fait de deviner correctement ce parcours imprévisible, plutôt que d'éliminer l'incertitude elle-même.
+
+## Réponses et explications
+
+1. C'est la thèse centrale de la leçon de clôture, qui recadre le but de tout le parcours.
+2. Ça vérifie si l'apprenant peut rassembler des outils précis enseignés séparément dans de nombreuses leçons précédentes.
+3. Ça termine le parcours par un énoncé honnête et nuancé — le but est la résilience face à l'incertitude, et non son élimination.
+
+## Points clés à retenir
+- La vraie maîtrise du placement dans les actifs papier consiste à bâtir une structure qui réduit la dépendance à la prédiction du prochain mouvement du marché, et non à améliorer la prédiction elle-même.
+- La diversification, l'achat périodique par sommes fixes, le rééquilibrage, la répartition de l'actif, le placement indiciel et un plan écrit réduisent chacun la dépendance à un type différent de prédiction.
+- Cette approche n'élimine pas l'incertitude des marchés — elle change à quel point le succès d'un investisseur dépend du fait de deviner correctement un parcours à court terme intrinsèquement imprévisible.
+
+## Avis pédagogique
+Cette leçon sert uniquement à l'éducation financière générale et ne constitue pas un conseil financier, de placement, fiscal ou juridique personnalisé. Consulte un professionnel de la finance autorisé avant de prendre des décisions de placement.

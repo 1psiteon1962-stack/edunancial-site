@@ -1,0 +1,463 @@
+===== PURPLE-L5-016
+TITLE: La protection légale du patrimoine et ses limites strictes
+SUMMARY: KEEP signifie protéger son patrimoine par des outils légaux mis en place à l'avance; les transferts faits pour échapper à des créanciers existants peuvent être annulés et aggraver la situation.
+KEYWORDS: protection légale du patrimoine, transfert frauduleux, opération annulable, étape KEEP, protection contre les créanciers
+# La protection légale du patrimoine et ses limites strictes
+
+## Mise en situation
+HYPOTHÈSE/OPINION (scénario hypothétique à des fins pédagogiques seulement) : Imaginez le gouvernement d'un pays de taille moyenne qui laisse entendre qu'il pourrait ne pas être en mesure d'effectuer un prochain paiement sur ses obligations, ce qui accroît le risque de défaut sur sa dette.
+Appliquez-le ici : À mesure qu'une crise de la dette souveraine se propage, des entreprises font faillite et les poursuites s'accumulent. Certains propriétaires paniquent et commencent à transférer des biens à des proches. Posez la question pour plusieurs couleurs : quelles protections ont été correctement mises en place à l'avance (assurance VIOLET/OR)? Quels transferts de dernière minute un tribunal pourrait-il annuler? Quelles sont les pénalités fiscales et juridiques (VERT)?
+
+## Objectifs d'apprentissage
+- Décrire les outils légaux de protection du patrimoine
+- Expliquer les règles sur les transferts frauduleux ou annulables
+- Distinguer la planification préalable de la dissimulation de dernière minute
+
+## Contenu principal
+Le modèle de patrimoine en quatre étapes du Cadre philosophique comprend KEEP : protéger ce que vous avez bâti. KEEP ne s'enseigne qu'au moyen d'outils légaux. Cela ne signifie jamais cacher des biens à des créanciers, à des tribunaux ou à un conjoint.
+Les outils légaux, habituellement superposés :
+1. L'assurance : responsabilité civile, biens, responsabilité complémentaire (parapluie), responsabilité professionnelle et invalidité. C'est habituellement la première couche et la moins coûteuse.
+2. Les entités : des LLC et des sociétés qui séparent les risques d'entreprise (PURPLE-L5-002 à -010).
+3. Les biens insaisissables : RÈGLE PROPRE À LA RÉGION : De nombreux territoires protègent par la loi certains biens contre les créanciers, comme certains comptes de retraite, une partie de la valeur nette d'une maison ou certaines valeurs d'assurance.
+4. Les fiducies : des fiducies bien structurées, mises en place à l'avance pour des raisons légitimes (PURPLE-L5-012).
+5. Les titres et les contrats : un choix soigné de la forme de titre (PURPLE-L5-013) et la limitation des garanties personnelles (PURPLE-L5-009).
+La limite stricte : les règles sur les transferts frauduleux ou annulables. FAIT VÉRIFIÉ : De nombreux systèmes juridiques permettent aux créanciers de faire annuler les transferts faits dans l'intention de nuire aux créanciers, de les retarder ou de les frauder, ou les transferts faits pour moins que leur juste valeur alors que la personne était insolvable ou sur le point de le devenir. Les tribunaux recherchent souvent des « indices de fraude », comme :
+- Des transferts à des membres de la famille ou à des initiés.
+- Des transferts effectués juste après qu'une poursuite a été annoncée ou intentée.
+- Le fait de garder le contrôle ou l'usage du bien après l'avoir « donné ».
+- Le transfert de presque tout.
+- Le fait de recevoir peu ou rien en retour.
+RÈGLE PROPRE À LA RÉGION : Les périodes de rétrospection et les pénalités varient. À certains endroits, la personne qui aide au transfert peut aussi engager sa responsabilité; au Canada, par exemple, le Code civil du Québec permet au créancier d'intenter une action en inopposabilité et la Loi sur la faillite et l'insolvabilité vise les opérations sous-évaluées, à confirmer avec un avocat.
+La différence clé tient au moment et au but. Une protection mise en place des années à l'avance, pour des raisons légitimes, pendant qu'on est solvable, c'est de la planification. Déplacer des biens après l'apparition de difficultés est souvent annulable et peut aggraver la situation.
+HYPOTHÈSE/OPINION : Le meilleur moment pour bâtir une protection, c'est quand on n'en a pas besoin. Le pire moment, c'est la semaine qui suit la réception d'une mise en demeure.
+
+## Exemple pratique
+EXEMPLE ILLUSTRATIF : Deux propriétaires d'entreprise font face à la même crise économique.
+La propriétaire A, il y a des années et alors qu'elle était en bonne santé financière : elle a souscrit une assurance responsabilité complémentaire, placé ses immeubles locatifs dans des LLC dotées de comptes distincts, versé les cotisations maximales à un compte de retraite protégé par la loi locale et gardé son entreprise convenablement assurée. Lorsqu'un client poursuit son entreprise, l'assurance règle la majeure partie de la réclamation et ses biens personnels restent protégés. Rien de ce qu'elle a fait n'est annulable, parce que tout a été fait ouvertement, à l'avance et pour une juste valeur.
+Le propriétaire B, trois semaines après avoir reçu une mise en demeure : il cède sa maison à son frère pour 1 $, transfère 200 000 $ dans le compte d'un cousin et continue d'habiter la maison. L'avocat du créancier relève plusieurs indices de fraude : des transferts à des initiés, un moment situé juste après la menace, peu de valeur reçue et un usage continu. Le tribunal annule les transferts. Le propriétaire B fait maintenant aussi face à des frais juridiques et a perdu sa crédibilité aux yeux du juge.
+HYPOTHÈSE/OPINION : Le propriétaire B a essayé de pratiquer KEEP avec ses biens et a rendu sa situation bien pire. Les choix plus discrets et plus précoces de la propriétaire A ont fonctionné.
+
+## Questionnaire pratique
+**Q1. Quelle est habituellement la première couche de protection du patrimoine, et la moins coûteuse?**
+A) Une fiducie à l'étranger
+B) La fermeture des comptes bancaires
+C) Le transfert de biens à la famille
+D) L'assurance
+
+**Q2. Que permet une règle sur les transferts frauduleux ou annulables?**
+A) À n'importe qui de prendre vos biens
+B) De payer moins d'impôt
+C) Aux créanciers de faire annuler les transferts faits pour leur nuire ou les frauder
+D) Une homologation plus rapide
+
+**Q3. Lequel des éléments suivants est un « indice de fraude »?**
+A) Avoir souscrit une assurance il y a des années
+B) Transférer une maison à un proche juste après l'annonce d'une poursuite
+C) Payer la juste valeur marchande
+D) Garder des comptes d'entreprise distincts
+
+**Q4. Quelle est la différence clé entre planifier et cacher?**
+A) Le moment et le but : à l'avance, légitimement, pendant qu'on est solvable, ou après l'apparition de difficultés
+B) La taille des biens
+C) L'avocat choisi
+D) Le fait que ce soit par écrit
+
+**Q5. Selon le Cadre philosophique, que ne signifie jamais KEEP?**
+A) Cacher des biens à des créanciers, à des tribunaux ou à un conjoint
+B) Utiliser des LLC
+C) Souscrire une assurance
+D) Utiliser des fiducies
+
+## Corrigé
+Q1: D
+Q2: C
+Q3: B
+Q4: A
+Q5: A
+
+## Réponses et explications
+**Q1.** L'assurance règle la plupart des réclamations au coût le plus bas.
+**Q2.** Un tribunal peut annuler de tels transferts.
+**Q3.** Des transferts à des initiés effectués après une menace sont des signaux d'alarme classiques.
+**Q4.** La planification préalable et légitime est légale; les transferts de dernière minute sont souvent annulables.
+**Q5.** KEEP ne couvre que la protection légale.
+
+## Points clés
+- KEEP signifie une protection légale : assurance, entités, biens insaisissables, fiducies, choix soigné des titres
+- Les transferts faits pour échapper à des créanciers existants peuvent être annulés
+- Les indices de fraude comprennent les transferts à des initiés, le mauvais moment et le maintien du contrôle
+- Bâtissez votre protection tôt, pendant que vous êtes solvable, pour des raisons légitimes
+
+===== PURPLE-L5-017
+TITLE: L'assurance, première ligne de défense légale
+SUMMARY: L'assurance est un contrat qui règle la plupart des réclamations courantes; le libellé de la police, ses exclusions et ses limites doivent concorder avec les contrats que vous signez et avec l'entité qui les signe.
+KEYWORDS: types d'assurance d'entreprise, assurance responsabilité civile, assurance de personne clé, assurance et protection du patrimoine, clause d'indemnisation
+# L'assurance, première ligne de défense légale
+
+## Mise en situation
+HYPOTHÈSE/OPINION (scénario hypothétique à des fins pédagogiques seulement) : Imaginez une grande région productrice d'énergie frappée par un conflit régional soudain qui met hors service du jour au lendemain une grande part de sa capacité de production, resserrant l'offre mondiale d'énergie presque sans avertissement.
+Appliquez-le ici : Un choc énergétique soudain fait grimper les coûts et perturbe les activités de nombreuses entreprises. Posez la question pour plusieurs couleurs : l'assurance de l'entreprise (OR/VIOLET) couvre-t-elle l'interruption causée par ce genre d'événement, ou la police l'exclut-elle? Les contrats avec les clients (BLEU) promettent-ils des livraisons que l'entreprise ne peut plus effectuer? Qui assume la perte?
+
+## Objectifs d'apprentissage
+- Repérer les principaux types d'assurance pour les propriétaires et les investisseurs
+- Expliquer comment l'assurance fonctionne avec les contrats et les entités
+- Lire les parties clés d'une police : la couverture, les exclusions et les limites
+
+## Contenu principal
+L'assurance est un contrat (VIOLET) qui transfère certains risques à un assureur en échange d'une prime. Pour la plupart des propriétaires, c'est la première couche de protection : elle règle les réclamations courantes, de sorte que les entités et les fiducies ne comptent que dans des cas rares et graves.
+Principaux types :
+- Responsabilité civile générale : les blessures ou les dommages matériels causés à autrui par l'entreprise.
+- Biens : les dommages aux immeubles, à l'équipement et aux stocks.
+- Interruption des affaires : la perte de revenus lorsque les activités cessent en raison d'un événement couvert.
+- Responsabilité professionnelle (erreurs et omissions) : les fautes dans la prestation de services professionnels.
+- Responsabilité complémentaire (parapluie) : une couverture de responsabilité supplémentaire au-dessus des autres polices.
+- Personne clé : verse une somme à l'entreprise si une personne essentielle décède ou devient invalide.
+- Polices pour propriétaires bailleurs : une couverture propre aux immeubles locatifs (ROUGE).
+Comment les couleurs sont reliées :
+- VIOLET : Le libellé d'une police détermine tout. Trois parties comptent le plus : ce qui est couvert, ce qui est exclu et les limites.
+- BLEU : Les contrats avec les clients et les fournisseurs transfèrent souvent le risque au moyen de clauses d'indemnisation (« vous couvrirez mes pertes si… ») et exigent certaines assurances. Une entreprise peut promettre plus dans un contrat que ce que son assurance couvre.
+- ROUGE : Les prêteurs exigent souvent une assurance des biens qui les désigne comme bénéficiaires en cas de sinistre.
+- OR/BLANC : L'assurance empêche qu'un seul événement anéantisse le capital investi.
+FAIT VÉRIFIÉ : Les polices contiennent couramment des exclusions. Certaines excluent certaines catastrophes, les pandémies, la guerre ou les événements qui n'ont causé aucun dommage matériel. RÈGLE PROPRE À LA RÉGION : Les règles de couverture et les exigences des organismes de réglementation varient; au Canada, par exemple, l'assurance relève surtout des provinces, et au Québec l'Autorité des marchés financiers encadre les assureurs et les courtiers, à confirmer avec un courtier d'assurance.
+Le réflexe de niveau 5 consiste à faire concorder trois documents : les contrats que vous signez, l'assurance que vous détenez et l'entité qui signe. Si un contrat promet de couvrir les pertes d'un client, votre police couvre-t-elle cette promesse?
+HYPOTHÈSE/OPINION : Beaucoup de propriétaires n'apprennent ce que leur police exclut qu'après le refus d'une réclamation. Lire les exclusions une fois par année avec un courtier est l'une des heures les plus rentables qu'un propriétaire puisse consacrer.
+
+## Exemple pratique
+EXEMPLE ILLUSTRATIF : Aisha dirige une entreprise de distribution alimentaire. Elle détient une assurance responsabilité civile générale, une assurance des biens et une assurance contre l'interruption des affaires.
+Le choc énergétique survient. Ses coûts de carburant doublent, et un fournisseur ferme pendant deux mois. Elle présente une réclamation pour interruption des affaires. L'assureur la refuse : la police ne couvre que l'interruption causée par des dommages matériels à ses propres biens, et il n'y en a eu aucun.
+Pendant ce temps, un contrat avec un client important prévoit qu'Aisha doit livrer à temps ou payer les pertes du client. Le contrat ne comporte aucune clause de force majeure (voir PURPLE-L5-039). Sa police de responsabilité ne couvre pas les pénalités contractuelles.
+Après la crise, Aisha :
+- Ajoute une couverture contre l'interruption des affaires indirecte (qui couvre la fermeture d'un fournisseur clé), lorsqu'elle est offerte.
+- Renégocie ses contrats avec les clients pour y ajouter une clause de force majeure et plafonner sa responsabilité.
+- Transfère les contrats avec les clients dans sa société d'exploitation, distincte de la société qui possède son entrepôt.
+HYPOTHÈSE/OPINION : La première erreur d'Aisha n'a pas été d'acheter trop peu d'assurance. Elle a été de signer des contrats qui promettaient plus que ce que son assurance et sa structure pouvaient soutenir.
+
+## Questionnaire pratique
+**Q1. Pourquoi l'assurance est-elle habituellement la première couche de protection?**
+A) Elle règle la plupart des réclamations courantes avant qu'on ait besoin d'entités ou de fiducies
+B) Elle est gratuite
+C) Elle remplace tous les contrats
+D) Elle est obligatoire pour tous les biens
+
+**Q2. Quelles sont les trois parties d'une police qui comptent le plus?**
+A) La couleur, la police de caractères et le nombre de pages
+B) Le nom du courtier, la date et l'adresse
+C) La couverture, les exclusions et les limites
+D) La prime, le logo et le numéro de téléphone
+
+**Q3. Qu'est-ce qu'une clause d'indemnisation?**
+A) Une déduction fiscale
+B) Une condition de prêt
+C) Un type d'assurance des biens
+D) Une promesse contractuelle de couvrir les pertes d'une autre partie
+
+**Q4. Pourquoi la réclamation d'Aisha pour interruption des affaires a-t-elle été refusée?**
+A) Elle avait payé en retard
+B) Les chocs énergétiques sont illégaux
+C) Sa police exigeait des dommages matériels à ses propres biens
+D) Elle n'avait pas de police
+
+**Q5. Selon la leçon, quelle a été la plus grande erreur d'Aisha?**
+A) Acheter de l'assurance
+B) Posséder un entrepôt
+C) Signer des contrats qui promettaient plus que ce que son assurance et sa structure pouvaient soutenir
+D) Utiliser une entité distincte
+
+## Corrigé
+Q1: A
+Q2: C
+Q3: D
+Q4: C
+Q5: C
+
+## Réponses et explications
+**Q1.** L'assurance couvre les pertes ordinaires à un coût connu.
+**Q2.** Ces éléments définissent ce qui est payé, ce qui ne l'est pas et dans quelle mesure.
+**Q3.** L'indemnisation transfère les pertes d'une partie à une autre par contrat.
+**Q4.** Le déclencheur prévu par la police était un dommage matériel, qui ne s'est pas produit.
+**Q5.** Ses contrats, son assurance et son entité n'étaient pas alignés.
+
+## Points clés
+- L'assurance est un contrat; le libellé détermine la couverture
+- Lisez la couverture, les exclusions et les limites chaque année
+- Faites concorder les contrats, l'assurance et l'entité qui signe
+- Ne promettez jamais dans un contrat plus que ce que votre protection peut soutenir
+
+===== PURPLE-L5-018
+TITLE: La responsabilité du propriétaire bailleur et l'assurance complémentaire
+SUMMARY: Les propriétaires bailleurs engagent leur responsabilité par l'état et la sécurité de leurs immeubles; l'entretien est une gestion du risque, et l'assurance complémentaire doit correspondre à la façon dont les immeubles sont détenus.
+KEYWORDS: responsabilité du propriétaire bailleur, assurance complémentaire pour propriétaires, poursuites liées aux immeubles locatifs, conditions du bail, habitabilité
+# La responsabilité du propriétaire bailleur et l'assurance complémentaire
+
+## Mise en situation
+HYPOTHÈSE/OPINION (scénario hypothétique à des fins pédagogiques seulement) : Imaginez que les marchés immobilier et du crédit à la consommation d'un pays très peuplé, après des années d'expansion rapide, commencent à montrer des signes d'une correction marquée à mesure que les défauts de paiement augmentent.
+Appliquez-le ici : Pendant une correction immobilière, des propriétaires bailleurs réduisent leur budget d'entretien pour préserver leurs liquidités. Posez la question pour plusieurs couleurs : l'entretien reporté (ROUGE) augmente-t-il l'exposition juridique (VIOLET) si un locataire se blesse? L'assurance du propriétaire couvre-t-elle cette situation? La réclamation peut-elle atteindre d'autres immeubles ou l'épargne personnelle (BLANC)?
+
+## Objectifs d'apprentissage
+- Repérer les sources courantes de responsabilité du propriétaire bailleur
+- Expliquer comment les lois sur l'habitabilité et la sécurité influent sur l'exposition
+- Coordonner l'assurance, la structure d'entités et les baux pour limiter le risque
+
+## Contenu principal
+Un immeuble locatif crée des obligations juridiques. Les propriétaires bailleurs peuvent être tenus responsables lorsque leur immeuble ou leur conduite cause un préjudice. Au niveau 5, la question est de savoir comment coordonner l'assurance, les entités, les conditions du bail et l'entretien pour qu'un seul incident ne menace pas tout le portefeuille.
+Sources courantes de responsabilité du propriétaire bailleur :
+- Les blessures dues à des conditions dangereuses : escaliers brisés, mauvais éclairage, câblage défectueux.
+- Le non-respect des normes d'habitabilité : chauffage, eau, extermination, équipement de sécurité. RÈGLE PROPRE À LA RÉGION; au Canada, par exemple, le Code civil du Québec oblige le locateur à délivrer et à maintenir le logement en bon état d'habitabilité, et le Tribunal administratif du logement tranche les litiges entre locateurs et locataires, à confirmer avec un avocat.
+- Les plaintes de discrimination en vertu des lois sur le logement équitable. RÈGLE PROPRE À LA RÉGION.
+- Les différends sur les dépôts de garantie et les procédures d'expulsion irrégulières.
+- Les problèmes environnementaux comme la peinture au plomb ou la moisissure dans certains territoires.
+Comment les couleurs sont reliées :
+- ROUGE : L'entretien n'est pas qu'un coût. C'est de la gestion du risque. L'entretien reporté peut transformer une petite facture de réparation en une réclamation juridique importante.
+- VIOLET : Les baux peuvent confier certaines responsabilités aux locataires (comme signaler rapidement les problèmes), mais de nombreux territoires ne permettent pas qu'un bail écarte les obligations de base en matière d'habitabilité ou de sécurité.
+- OR/BLEU : Les polices pour propriétaires bailleurs et l'assurance complémentaire. Une police complémentaire (parapluie) ajoute une couverture de responsabilité au-dessus des polices de base, souvent à faible coût par million de couverture.
+- BLANC : Si les réclamations dépassent la couverture et que l'immeuble est détenu personnellement, l'épargne et les placements peuvent être exposés.
+FAIT VÉRIFIÉ : De nombreuses polices complémentaires exigent une couverture minimale sur les polices de base. Certaines polices complémentaires ne couvrent pas les immeubles détenus par des LLC à moins que la LLC soit désignée. RÈGLE PROPRE À LA RÉGION.
+HYPOTHÈSE/OPINION : Réduire l'entretien pour préserver ses liquidités pendant un ralentissement est souvent une fausse économie. L'exposition juridique augmente précisément au moment où le propriétaire a le moins de liquidités pour faire face à une réclamation.
+
+## Exemple pratique
+EXEMPLE ILLUSTRATIF : Tariq possède six logements répartis dans trois immeubles. Pendant un ralentissement, il reporte le remplacement d'une rampe d'escalier usée pour économiser 1 200 $.
+L'invité d'un locataire fait une chute et se blesse gravement. La réclamation s'élève à 1,5 million de dollars.
+Sa structure :
+- Chaque immeuble dans sa propre LLC (PURPLE-L5-004).
+- Une couverture de responsabilité de 1 million de dollars par immeuble.
+- Une police complémentaire de 2 millions de dollars, mais qui ne désigne que Tariq personnellement, et non les LLC.
+L'assureur couvre 1 million de dollars. L'assureur de la police complémentaire conteste qu'elle couvre la LLC. L'avocat de Tariq finit par régler la question, mais seulement après des mois de stress et de frais juridiques.
+Leçons que Tariq applique par la suite :
+- Mettre à jour la police complémentaire pour y désigner chaque LLC.
+- Établir un calendrier d'entretien et consigner chaque demande de réparation des locataires avec les dates.
+- Garder une réserve pour les réparations afin que les ralentissements ne retardent pas les travaux de sécurité.
+HYPOTHÈSE/OPINION : La rampe de 1 200 $ était la décision de gestion du risque la moins coûteuse que Tariq aurait pu prendre. La structure de LLC a aidé à limiter les dégâts, mais la vraie leçon était que la prévention coûte moins cher que la protection.
+
+## Questionnaire pratique
+**Q1. Pourquoi l'entretien reporté est-il une question juridique, et pas seulement une question de coût?**
+A) Il augmente l'impôt foncier
+B) Des conditions dangereuses peuvent engager la responsabilité si quelqu'un se blesse
+C) Les locataires paient l'entretien
+D) Les prêteurs l'exigent
+
+**Q2. Un bail peut-il habituellement écarter les obligations de base du propriétaire en matière d'habitabilité?**
+A) Oui, toujours
+B) Seulement pour les immeubles commerciaux
+C) Dans de nombreux territoires, non
+D) Seulement si le locataire y consent verbalement
+
+**Q3. Que fait une police complémentaire (parapluie)?**
+A) Elle ajoute une couverture de responsabilité au-dessus des polices de base
+B) Elle couvre les dommages causés par la pluie
+C) Elle remplace l'assurance des biens
+D) Elle paie les versements hypothécaires
+
+**Q4. Quelle lacune a causé des problèmes à Tariq avec sa police complémentaire?**
+A) Elle était expirée
+B) Elle le désignait personnellement, mais pas ses LLC
+C) Elle n'avait pas de limite
+D) Elle ne couvrait que l'incendie
+
+**Q5. Que dit la leçon au sujet de la réduction de l'entretien pendant un ralentissement?**
+A) C'est toujours sage
+B) C'est souvent une fausse économie, parce que l'exposition juridique augmente
+C) C'est exigé par la loi
+D) Cela améliore les flux de trésorerie de façon permanente
+
+## Corrigé
+Q1: B
+Q2: C
+Q3: A
+Q4: B
+Q5: B
+
+## Réponses et explications
+**Q1.** L'entretien prévient les conditions qui donnent lieu aux réclamations.
+**Q2.** De nombreux endroits ne permettent pas que les baux écartent les obligations de base en matière de sécurité. RÈGLE PROPRE À LA RÉGION.
+**Q3.** La couverture complémentaire prolonge les limites de responsabilité au-delà des polices de base.
+**Q4.** Les polices complémentaires peuvent devoir désigner chaque entité qui possède un immeuble.
+**Q5.** L'exposition juridique augmente au moment où les liquidités sont les plus serrées.
+
+## Points clés
+- La responsabilité du propriétaire bailleur découle de manquements en matière de sécurité, d'habitabilité, de discrimination et de procédure
+- L'entretien est de la gestion du risque, et pas seulement un coût
+- La couverture complémentaire doit correspondre à la façon dont les immeubles sont détenus
+- La prévention coûte moins cher que la protection
+
+===== PURPLE-L5-019
+TITLE: Les comptes de retraite, la protection contre les créanciers et la structure juridique
+SUMMARY: La protection des institutions et la protection contre les créanciers sont deux choses différentes; de nombreux systèmes protègent certains comptes de retraite contre les créanciers, et des cotisations régulières combinent avantages fiscaux et bouclier juridique.
+KEYWORDS: protection des comptes de retraite contre les créanciers, biens insaisissables, retraite et poursuites, épargne protégée
+# Les comptes de retraite, la protection contre les créanciers et la structure juridique
+
+## Mise en situation
+HYPOTHÈSE/OPINION (scénario hypothétique à des fins pédagogiques seulement) : Imaginez une institution financière d'importance systémique qui révèle soudainement une perte importante jusque-là non divulguée, ce qui fait craindre que le risque de contrepartie se propage dans l'ensemble du système bancaire.
+Appliquez-le ici : Une alerte bancaire amène les gens à se demander où leur épargne est la plus en sécurité. Posez la question pour plusieurs couleurs : quels comptes sont protégés par l'assurance-dépôts ou par des régimes de protection des investisseurs (BLANC)? Lesquels sont protégés par la loi contre les poursuites ou la faillite (VIOLET)? Quelles sont les pénalités fiscales en cas de retrait anticipé (VERT)?
+
+## Objectifs d'apprentissage
+- Expliquer pourquoi certains comptes de retraite bénéficient d'une protection spéciale contre les créanciers
+- Distinguer la protection des institutions de la protection contre les créanciers
+- Coordonner l'épargne-retraite avec la planification juridique et fiscale
+
+## Contenu principal
+Deux types de protection très différents sont souvent confondus :
+1. La protection des institutions : qu'arrive-t-il si la banque ou la maison de courtage fait faillite? RÈGLE PROPRE À LA RÉGION : De nombreux pays ont une assurance-dépôts pour les comptes bancaires et des régimes distincts de protection des investisseurs pour les comptes de courtage, chacun avec ses limites.
+2. La protection contre les créanciers : qu'arrive-t-il si vous êtes poursuivi ou faites faillite? Un créancier peut-il prendre l'argent du compte?
+Cette leçon porte sur le deuxième type. FAIT VÉRIFIÉ : De nombreux systèmes juridiques accordent à certains comptes de retraite une protection spéciale contre les créanciers, souvent parce que les législateurs veulent que les gens aient un revenu à la vieillesse. RÈGLE PROPRE À LA RÉGION : Les comptes admissibles, le caractère illimité ou plafonné de la protection et son application à l'intérieur ou à l'extérieur d'une faillite varient tous; au Canada, par exemple, la Loi sur la faillite et l'insolvabilité soustrait généralement les REER et les FERR à la saisie en cas de faillite, sauf les cotisations des 12 derniers mois, et au Québec les régimes de retraite et certains produits d'assurance comportant une désignation de bénéficiaire sont insaisissables, à confirmer avec un avocat ou un syndic autorisé en insolvabilité.
+Comment les couleurs sont reliées :
+- BLANC : Les comptes de retraite contiennent souvent une grande part des placements d'une famille.
+- VERT : Les cotisations peuvent être fiscalement avantageuses, et les retraits anticipés peuvent entraîner des impôts et des pénalités.
+- VIOLET : Le statut juridique du compte détermine la protection contre les créanciers. Dans certains territoires, les comptes de retraite hérités peuvent ne pas conserver la même protection.
+- BLEU : Un propriétaire d'entreprise peut avoir le choix du type de régime de retraite que l'entreprise offre. Certains régimes peuvent offrir une protection plus forte que d'autres.
+Points de planification :
+- Transférer de l'argent d'un type de compte à un autre peut changer sa protection. Vérifiez avant de le déplacer.
+- Retirer de l'argent d'un compte protégé pour payer un créancier qu'on n'est peut-être pas légalement tenu de payer peut être une erreur coûteuse.
+- Les cotisations versées juste avant une faillite ou un jugement, surtout si elles sont inhabituellement élevées, peuvent faire l'objet d'un examen comme possibles transferts frauduleux (voir PURPLE-L5-016).
+HYPOTHÈSE/OPINION : Pour de nombreuses familles ordinaires, des cotisations de retraite régulières et à long terme bâtissent discrètement à la fois un avantage fiscal et un bouclier juridique. C'est un bon exemple du VERT et du VIOLET qui travaillent ensemble sans aucune structure complexe.
+
+## Exemple pratique
+EXEMPLE ILLUSTRATIF : Jin est un entrepreneur travailleur autonome. Il a 400 000 $ dans un compte de retraite admissible, 80 000 $ dans un compte de courtage ordinaire et 30 000 $ d'épargne.
+Un client le poursuit pour un montant important après un différend sur un projet. Son assurance responsabilité couvre une partie de la réclamation, mais le jugement dépasse la couverture.
+Selon la loi locale (RÈGLE PROPRE À LA RÉGION) :
+- Son compte de retraite admissible est protégé contre ce jugement.
+- Son compte de courtage et son épargne ne le sont pas.
+Le premier réflexe de Jin était d'encaisser une partie de son compte de retraite pour payer le jugement et « en finir ». Son avocat lui fait remarquer que le compte est protégé et que l'encaissement entraînerait de l'impôt sur le revenu et des pénalités pour retrait anticipé. Jin négocie plutôt un règlement au moyen de ses biens non protégés et d'un plan de paiement.
+HYPOTHÈSE/OPINION : Les cotisations de retraite régulières de Jin sur 15 ans n'avaient pas été conçues comme une protection du patrimoine. Elles ont quand même fonctionné comme protection du patrimoine.
+
+## Questionnaire pratique
+**Q1. Quelle est la différence entre la protection des institutions et la protection contre les créanciers?**
+A) Elles sont identiques
+B) La première protège contre la faillite de l'institution; la seconde protège contre les poursuites ou la faillite personnelle
+C) La protection contre les créanciers ne s'applique qu'aux banques
+D) La protection des institutions couvre les poursuites
+
+**Q2. Pourquoi de nombreux systèmes juridiques protègent-ils les comptes de retraite contre les créanciers?**
+A) Pour que les gens aient un revenu à la vieillesse
+B) Pour aider les banques
+C) Pour augmenter les impôts
+D) Pour récompenser les poursuites
+
+**Q3. Pourquoi faut-il vérifier avant de transférer de l'argent d'un type de compte à un autre?**
+A) Les transferts sont illégaux
+B) Cela réduit les rendements
+C) Les banques facturent des frais élevés
+D) Le transfert peut changer la protection de l'argent contre les créanciers
+
+**Q4. Pourquoi l'avocat de Jin lui a-t-il déconseillé d'encaisser son compte de retraite?**
+A) Il était vide
+B) Il était protégé, et l'encaissement entraînerait des impôts et des pénalités
+C) Le tribunal l'interdisait
+D) L'argent était déjà dépensé
+
+**Q5. Quelles cotisations peuvent faire l'objet d'un examen?**
+A) Les cotisations mensuelles régulières sur de nombreuses années
+B) Les cotisations versées à 25 ans
+C) Les cotisations de contrepartie de l'employeur
+D) Les cotisations inhabituellement élevées versées juste avant un jugement ou une faillite
+
+## Corrigé
+Q1: B
+Q2: A
+Q3: D
+Q4: B
+Q5: D
+
+## Réponses et explications
+**Q1.** Ce sont deux types de protection distincts.
+**Q2.** L'objectif de la politique est de préserver le revenu de retraite.
+**Q3.** Différents types de comptes peuvent comporter des protections différentes.
+**Q4.** Utiliser de l'argent protégé pour payer une réclamation non protégée peut être une erreur coûteuse.
+**Q5.** Des transferts importants de dernière minute peuvent ressembler à des tentatives d'échapper aux créanciers.
+
+## Points clés
+- La protection des institutions et la protection contre les créanciers sont différentes
+- De nombreux systèmes protègent certains comptes de retraite contre les créanciers
+- Les transferts entre comptes et l'héritage peuvent changer la protection
+- Des cotisations régulières à long terme combinent les avantages fiscaux VERTS et la protection VIOLETTE
+
+===== PURPLE-L5-020
+TITLE: Les conventions matrimoniales et la propriété d'une entreprise
+SUMMARY: Le mariage a des conséquences sur les biens qui peuvent toucher les associés et les employés; un contrat de mariage rédigé de bonne foi, avec divulgation complète et des avocats indépendants, protège les deux conjoints et l'entreprise.
+KEYWORDS: contrat de mariage et entreprise, convention postnuptiale, participation dans une entreprise et biens matrimoniaux, protéger une entreprise familiale
+# Les conventions matrimoniales et la propriété d'une entreprise
+
+## Mise en situation
+HYPOTHÈSE/OPINION (scénario hypothétique à des fins pédagogiques seulement) : Imaginez la monnaie d'une économie de taille moyenne qui perd une grande part de sa valeur par rapport aux principales monnaies de réserve en quelques mois, sous l'effet de la fuite des capitaux hors du pays et de l'érosion de la confiance des investisseurs.
+Appliquez-le ici : Une crise monétaire fait fluctuer fortement la valeur d'une entreprise familiale. Les mariages des propriétaires, et les droits de leurs conjoints, influent soudain sur la stabilité de l'entreprise. Posez la question pour plusieurs couleurs : si un propriétaire divorce, une partie de l'entreprise pourrait-elle passer à l'ex-conjoint (VIOLET)? Comment la valeur de l'entreprise serait-elle établie (BLEU)? L'entreprise pourrait-elle être forcée de vendre des actifs pour payer un règlement (ROUGE/BLANC)?
+
+## Objectifs d'apprentissage
+- Expliquer comment le mariage et le divorce peuvent toucher la propriété d'une entreprise
+- Décrire ce que les conventions matrimoniales peuvent et ne peuvent habituellement pas faire
+- Coordonner les conventions matrimoniales avec les conventions d'exploitation et les conditions de rachat
+
+## Contenu principal
+Cette leçon porte sur la planification, et non sur la méfiance. Le mariage est une relation juridique qui a des conséquences sur les biens. Lorsqu'un conjoint possède une entreprise, des immeubles ou des placements importants, ces conséquences peuvent toucher des associés, des employés et des membres de la famille qui n'ont jamais fait partie du mariage.
+FAIT VÉRIFIÉ : De nombreux systèmes juridiques ont des règles pour partager les biens en cas de divorce ou de décès. Certains traitent la plupart des biens acquis pendant le mariage comme communs. D'autres partagent les biens selon des critères d'équité. RÈGLE PROPRE À LA RÉGION : Les règles diffèrent beaucoup; au Canada, par exemple, le droit de la famille relève surtout des provinces, et au Québec le patrimoine familial (résidences, régimes de retraite, véhicules) se partage obligatoirement entre époux et ne peut pas être écarté d'avance par contrat de mariage, alors qu'une entreprise peut généralement être exclue du régime matrimonial choisi, à confirmer avec un notaire ou un avocat.
+Une convention prénuptiale (avant le mariage) ou postnuptiale (pendant le mariage) permet à un couple de décider à l'avance comment certains biens seront traités. Utilisations courantes :
+- Établir qu'une entreprise ou un bien détenu avant le mariage est un bien propre.
+- Décider comment la croissance de la valeur d'une entreprise pendant le mariage sera partagée.
+- Fixer d'avance une méthode d'évaluation.
+- Prévoir d'autres façons de pourvoir aux besoins d'un conjoint, comme d'autres biens ou des paiements, tout en gardant l'entreprise intacte.
+Limites : RÈGLE PROPRE À LA RÉGION : De nombreux territoires exigent une divulgation financière complète, un avocat indépendant pour chaque conjoint, du temps pour examiner la convention et l'équité. Certaines questions, comme la pension alimentaire pour enfants, ne peuvent souvent pas faire l'objet d'une renonciation à l'avance.
+Comment les couleurs sont reliées :
+- BLEU : Les associés et les investisseurs peuvent craindre qu'un ex-conjoint devienne copropriétaire.
+- VIOLET : Les conventions d'exploitation et les conventions de rachat (PURPLE-L5-008) prévoient souvent le divorce comme événement déclencheur, ce qui permet à l'entreprise ou aux associés de racheter toute participation attribuée à un ex-conjoint.
+- VERT : Les transferts entre conjoints lors d'un divorce peuvent bénéficier d'un traitement fiscal particulier. RÈGLE PROPRE À LA RÉGION.
+- NOIR : La stabilité rassure les employés et les prêteurs.
+HYPOTHÈSE/OPINION : Les conventions matrimoniales les plus respectueuses protègent les deux conjoints. Elles donnent de la certitude au propriétaire d'entreprise et un traitement juste et clair à l'autre conjoint. Rédigées de bonne foi, avec des conseils indépendants, elles peuvent réduire les conflits plutôt qu'en créer.
+
+## Exemple pratique
+EXEMPLE ILLUSTRATIF : Ines est copropriétaire d'une entreprise de construction avec deux associés. Elle prévoit épouser Daniel, qui est enseignant.
+Avec des avocats distincts et une divulgation financière complète, ils signent une convention prénuptiale :
+- La participation d'Ines à la date du mariage demeure son bien propre.
+- La croissance de la valeur de l'entreprise pendant le mariage est partagée selon une formule établie, payée en argent ou en d'autres biens, et non en actions de l'entreprise.
+- Ils conviennent de recourir à un évaluateur indépendant au besoin.
+- Daniel reçoit une juste part de leur maison et de leur épargne commune, ainsi qu'un paiement précis si le mariage prend fin.
+La convention d'exploitation de l'entreprise prévoit séparément que si la participation d'un associé est transférée en raison d'un divorce, l'entreprise peut la racheter à sa valeur évaluée.
+Des années plus tard, le mariage prend fin à l'amiable. Daniel reçoit sa part en argent et en valeur nette de la maison. La propriété de l'entreprise reste intacte. Les associés d'Ines et les 40 employés ne sont pas touchés. HYPOTHÈSE/OPINION : Les deux conventions ont fonctionné ensemble parce qu'elles avaient été rédigées de bonne foi, à l'avance et avec des conseils indépendants.
+
+## Questionnaire pratique
+**Q1. Pourquoi le mariage peut-il toucher les autres associés d'une entreprise?**
+A) Les associés doivent approuver tous les mariages
+B) Il ne peut pas les toucher
+C) Les entreprises paient un impôt sur le mariage
+D) Le divorce ou le décès peut créer des réclamations sur la participation d'un propriétaire dans l'entreprise
+
+**Q2. Que peut couramment faire une convention matrimoniale?**
+A) Renoncer à la pension alimentaire pour enfants partout
+B) Éviter tous les impôts
+C) Remplacer une convention d'exploitation
+D) Établir qu'un bien est un bien propre et fixer la façon dont la croissance de l'entreprise est partagée
+
+**Q3. Quelles exigences de nombreux territoires imposent-ils aux conventions matrimoniales?**
+A) Aucune
+B) Seulement une signature
+C) Une divulgation complète, des avocats indépendants, un délai d'examen et l'équité
+D) L'approbation des associés
+
+**Q4. Comment une convention d'exploitation appuie-t-elle cette planification?**
+A) Elle peut permettre le rachat de toute participation transférée en raison d'un divorce
+B) Elle interdit le mariage
+C) Elle paie directement les conjoints
+D) Elle réduit les impôts
+
+**Q5. Selon la leçon, qu'est-ce qui rend une convention matrimoniale respectueuse?**
+A) Protéger seulement le propriétaire de l'entreprise
+B) La signer rapidement
+C) La garder secrète
+D) Protéger les deux conjoints par un traitement juste et clair
+
+## Corrigé
+Q1: D
+Q2: D
+Q3: C
+Q4: A
+Q5: D
+
+## Réponses et explications
+**Q1.** Les règles sur les biens matrimoniaux peuvent atteindre les participations dans une entreprise.
+**Q2.** Ces conventions définissent à l'avance le traitement des biens, dans les limites de la loi.
+**Q3.** Les exigences varient, mais comprennent couramment ces garanties. RÈGLE PROPRE À LA RÉGION.
+**Q4.** Le divorce comme événement déclencheur d'un rachat maintient la stabilité de la propriété.
+**Q5.** Les conventions conclues de bonne foi donnent de la certitude aux deux parties.
+
+## Points clés
+- Le mariage a des conséquences sur les biens qui peuvent toucher les associés et les employés
+- Les conventions prénuptiales et postnuptiales peuvent définir à l'avance le traitement de l'entreprise
+- La divulgation, les conseils indépendants et l'équité sont couramment exigés
+- Coordonnez les conventions matrimoniales avec les conventions d'exploitation et de rachat

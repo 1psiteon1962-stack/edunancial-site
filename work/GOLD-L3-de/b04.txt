@@ -1,0 +1,183 @@
+===== GOLD-L3-013
+TITLE: Warum die Prüfung illiquider Anlagen anders aussieht
+SUMMARY: Erfahre, warum die Beurteilung einer illiquiden Anlage eine gründlichere Prüfung im Voraus verlangt als eine börsennotierte Aktie – weil es keinen einfachen Ausstieg gibt, wenn etwas schiefgeht.
+# GOLD-L3-013: Warum die Prüfung illiquider Anlagen anders aussieht
+
+## Lernziele
+Am Ende dieser Lektion kannst du:
+- erklären, warum illiquide Anlagen eine gründlichere Prüfung im Voraus erfordern als liquide
+- erklären, warum das Fehlen eines einfachen Ausstiegs die Tragweite der ersten Entscheidung verändert
+- dieses Konzept mit der Diskussion über Due Diligence im BLUE-Track dieses Lehrplans verbinden
+
+## Hauptinhalt
+
+Der BLUE-Track dieses Lehrplans behandelt die Due Diligence beim Unternehmenskauf – eine gründliche Prüfung, bevor Kapital in ein Geschäft fließt, das sich nicht leicht rückgängig machen lässt. Hier das „Warum“, weshalb dieselbe Gründlichkeit allgemein für illiquide Anlagen gilt, anknüpfend an die Diskussion über Liquidität in Lektion 10: Bei einer börsennotierten Aktie lässt sich ein Fehler oft relativ einfach und günstig korrigieren – tauchen neue Informationen auf oder erweist sich die ursprüngliche Annahme als falsch, kann die Position meist schnell verkauft werden. Bei einer illiquiden Anlage – einem privaten Fonds, einer direkten Unternehmensbeteiligung oder einem ähnlichen Vehikel – gibt es eine solche einfache Korrektur nicht mehr, sobald das Kapital gebunden ist.
+
+[VERIFIED FACT] Das bedeutet, dass die Prüfung vor der Kapitalbindung bei einer illiquiden Anlage deutlich gründlicher sein muss als bei einer liquiden, weil sie womöglich die wichtigste Gelegenheit ist, ein Problem zu erkennen, bevor es zu spät ist, noch sinnvoll darauf zu reagieren. Bei einer Fondsanlage gehört dazu nicht nur die Beurteilung der angegebenen Anlagestrategie, sondern auch der Erfolgsbilanz, des Rufs und der konkreten Bedingungen der Fondsmanagerin – ein Thema, das eine spätere Lektion vertieft.
+
+Deshalb ist „Ich verkaufe einfach, wenn es nicht klappt“ bei illiquiden Anlagen kein verfügbares Sicherheitsnetz, wie es bei liquiden oft der Fall ist – die Entscheidung, Kapital zu binden, muss weitgehend schon im Voraus richtig oder zumindest sorgfältig durchdacht sein.
+
+## Durchgerechnetes Beispiel
+
+[ILLUSTRATIVE EXAMPLE] Eine Anlegerin, die eine börsennotierte Aktie in Betracht zieht, kann mit einer kleinen Position beginnen, neue Informationen verfolgen und relativ schnell anpassen oder aussteigen, wenn sich ihre ursprüngliche Annahme als falsch erweist. Eine Anlegerin, die eine mehrjährige Kapitalzusage an einen Private-Equity-Fonds erwägt, hat diese Flexibilität nicht – [ASSUMPTION] ist das Kapital einmal zugesagt, ist sie grundsätzlich gebunden, egal welche neuen Informationen später auftauchen. Ihre Prüfung von Strategie, Managerin und Bedingungen des Fonds im Voraus muss deshalb deutlich gründlicher sein als die erste Recherche, die sie vor einem kleineren, leicht anpassbaren Aktienkauf anstellen würde.
+
+## Übungsquiz
+1. Warum lässt sich ein Fehler bei einer liquiden Anlage meist leichter korrigieren als bei einer illiquiden?
+2. Warum erfordert dieser Unterschied bei illiquiden Anlagen eine gründlichere Prüfung im Voraus?
+3. Wie hängt diese Lektion mit dem Konzept der Due Diligence aus dem BLUE-Track dieses Lehrplans zusammen?
+
+## Lösungsschlüssel
+1. Weil sich eine liquide Anlage meist relativ einfach und schnell verkaufen lässt, wenn neue Informationen auftauchen oder sich die ursprüngliche Annahme als falsch erweist, eine illiquide Anlage grundsätzlich nicht.
+2. Weil die erste Prüfung womöglich die wichtigste Gelegenheit ist, ein Problem zu erkennen, bevor es zu spät ist, noch sinnvoll darauf zu reagieren – mangels eines einfachen späteren Ausstiegs.
+3. Sie wendet dieselbe Gründlichkeit im Voraus, die die Due Diligence beim Unternehmenskauf (BLUE-Track) verlangt, allgemein auf illiquide Anlagen an, weil beide gemeinsam haben, dass es nach der Kapitalbindung keinen einfachen Ausstieg gibt.
+
+## Antworten und Erklärungen
+1. Das knüpft direkt an die Diskussion über Liquidität in Lektion 10 an.
+2. Das ist das zentrale „Warum“, das den höheren Prüfmaßstab erklärt.
+3. Das verbindet die Lektion ausdrücklich mit einem entsprechenden Konzept an anderer Stelle im Lehrplan und stärkt das trackübergreifende Lernen.
+
+## Das Wichtigste in Kürze
+- Illiquide Anlagen erfordern eine deutlich gründlichere Prüfung im Voraus als liquide, weil sich Fehler im Nachhinein viel schwerer korrigieren lassen.
+- Bei Fondsanlagen gehört dazu die Beurteilung der Erfolgsbilanz und der Bedingungen der Fondsmanagerin, nicht nur der angegebenen Strategie.
+- „Ich verkaufe einfach, wenn es nicht klappt“ ist bei illiquiden Anlagen grundsätzlich keine Option, was die Tragweite der ersten Entscheidung erhöht.
+
+## Hinweis zum Bildungszweck
+Diese Lektion dient ausschließlich der allgemeinen finanziellen Bildung und ist keine individuelle Finanz-, Anlage-, Steuer- oder Rechtsberatung. Wende dich vor Anlageentscheidungen an eine zugelassene Fachperson, etwa eine unabhängige Anlage- oder Honorarberatung.
+
+===== GOLD-L3-014
+TITLE: Warum Konjunkturzyklen Anlageklassen unterschiedlich treffen
+SUMMARY: Erfahre, warum Aktien, Anleihen, Immobilien und Gold nicht alle gleich auf dieselben wirtschaftlichen Bedingungen reagieren und warum dieser Unterschied die Grundlage der Streuung ist.
+# GOLD-L3-014: Warum Konjunkturzyklen Anlageklassen unterschiedlich treffen
+
+## Lernziele
+Am Ende dieser Lektion kannst du:
+- das allgemeine Konzept eines Konjunkturzyklus erklären
+- erklären, warum verschiedene Anlageklassen tendenziell unterschiedlich auf dieselben wirtschaftlichen Bedingungen reagieren
+- dieses Konzept mit der Streuung über Anlageklassen hinweg aus dem WHITE-Track dieses Lehrplans verbinden
+
+## Hauptinhalt
+
+Volkswirtschaften durchlaufen grundsätzlich Zyklen – Phasen des Aufschwungs (Wachstum, steigende Beschäftigung, zunehmende Geschäftstätigkeit) und Phasen des Abschwungs (Verlangsamung, steigende Arbeitslosigkeit, geringere Geschäftstätigkeit), beeinflusst von vielen zusammenwirkenden Faktoren. [VERIFIED FACT] Zeitpunkt, Dauer und Stärke eines bestimmten Zyklus lassen sich im Voraus nicht verlässlich vorhersagen, auch wenn das allgemeine Muster wiederkehrender Zyklen eine gut belegte wirtschaftliche Beobachtung ist.
+
+Hier das „Warum“, weshalb verschiedene Anlageklassen tendenziell unterschiedlich auf denselben Punkt in diesem Zyklus reagieren: Aktien spiegeln grundsätzlich Erwartungen an künftige Unternehmensgewinne wider, laufen im Aufschwung oft gut und tun sich im Abschwung schwer. Anleihen, besonders solche hoher Qualität, entwickeln sich in Abschwüngen manchmal vergleichsweise besser, weil Anleger relative Sicherheit suchen und sich die Zinsen oft so bewegen, dass die Kurse bestehender Anleihen davon profitieren können (anknüpfend an den Zusammenhang zwischen Zinsen und Anleihekursen im WHITE-Track). Immobilien reagieren oft neben der allgemeinen Wirtschaftslage auf eigene, stärker örtliche Angebots- und Nachfragefaktoren. Gold entwickelt sich angesichts seiner in früheren Lektionen besprochenen Rolle manchmal in Phasen erheblicher wirtschaftlicher oder währungsbezogener Belastung vergleichsweise gut.
+
+Das ist der eigentliche Grund hinter dem Konzept der Streuung über Anlageklassen aus dem WHITE-Track: Weil verschiedene Anlageklassen tendenziell unterschiedlich auf dieselben wirtschaftlichen Bedingungen reagieren, kann eine Mischung über diese Klassen hinweg die Entwicklung des gesamten Depots über den vollen Zyklus glätten, statt vollständig der Phase ausgesetzt zu sein, die eine einzelne, konzentrierte Anlage gerade benachteiligt.
+
+## Durchgerechnetes Beispiel
+
+[ILLUSTRATIVE EXAMPLE] In einer Phase des wirtschaftlichen Aufschwungs entwickeln sich die Aktien einer Anlegerin stark und spiegeln wachsende Unternehmensgewinne und Zuversicht wider. In einem anschließenden Abschwung tun sich dieselben Aktien schwer, doch ihr getrennter Anteil an hochwertigen Anleihen und eine kleine Goldposition entwickeln sich im selben Zeitraum vergleichsweise besser und gleichen den Kursrückgang der Aktien teilweise aus. [ASSUMPTION] Über den gesamten Zyklus bringt ihre gestreute Mischung aus Anlageklassen wahrscheinlich einen ruhigeren Gesamtverlauf, als es eine vollständige Konzentration auf Aktien getan hätte – ein Beispiel für den praktischen Wert der Streuung über Anlageklassen, mit der diese Lektion verbunden ist.
+
+## Übungsquiz
+1. Was ist das allgemeine Konzept eines Konjunkturzyklus?
+2. Warum reagieren verschiedene Anlageklassen tendenziell unterschiedlich auf denselben Punkt in diesem Zyklus?
+3. Wie hängt diese Lektion mit der Streuung über Anlageklassen aus dem WHITE-Track zusammen?
+
+## Lösungsschlüssel
+1. Volkswirtschaften durchlaufen grundsätzlich Phasen des Aufschwungs und Abschwungs, beeinflusst von vielen zusammenwirkenden Faktoren, wobei Zeitpunkt und Stärke im Voraus nicht verlässlich vorhersagbar sind.
+2. Weil der Wert jeder Anlageklasse von anderen zugrunde liegenden Faktoren bestimmt wird – Unternehmensgewinne bei Aktien, Zinsen und Sicherheitsstreben bei Anleihen, örtliches Angebot und örtliche Nachfrage bei Immobilien, Belastungs- und Wertaufbewahrungsdynamik bei Gold –, die unterschiedlich auf dieselben allgemeinen wirtschaftlichen Bedingungen reagieren.
+3. Diese Lektion erklärt die wirtschaftliche Begründung dafür, warum die Streuung über Anlageklassen aus dem WHITE-Track die Entwicklung des gesamten Depots über einen vollen Konjunkturzyklus glätten kann.
+
+## Antworten und Erklärungen
+1. Das legt das allgemeine wirtschaftliche Konzept fest, auf dem die Lektion beruht.
+2. Das ist das zentrale „Warum“, das die unterschiedlichen Reaktionen der Anlageklassen erklärt.
+3. Das verbindet die Lektion ausdrücklich mit einem entsprechenden Konzept an anderer Stelle im Lehrplan und stärkt das trackübergreifende Lernen.
+
+## Das Wichtigste in Kürze
+- Volkswirtschaften durchlaufen grundsätzlich Zyklen aus Aufschwung und Abschwung, deren Zeitpunkt sich nicht verlässlich vorhersagen lässt.
+- Verschiedene Anlageklassen reagieren tendenziell unterschiedlich auf denselben Punkt in diesem Zyklus, je nach ihren eigenen Werttreibern.
+- Diese unterschiedliche Reaktion ist die wirtschaftliche Begründung für den Wert der Streuung über Anlageklassen.
+
+## Hinweis zum Bildungszweck
+Diese Lektion dient ausschließlich der allgemeinen finanziellen Bildung und ist keine individuelle Finanz-, Anlage-, Steuer- oder Rechtsberatung. Frühere Wertentwicklungen sind kein verlässlicher Indikator für künftige Ergebnisse. Wende dich vor Anlageentscheidungen an eine zugelassene Fachperson, etwa eine unabhängige Anlage- oder Honorarberatung.
+
+===== GOLD-L3-015
+TITLE: Warum Zinsänderungen alle Anlageklassen gleichzeitig erfassen
+SUMMARY: Erfahre, warum eine einzige Zinsänderung gleichzeitig Aktien, Anleihen, Immobilien und Gold beeinflussen kann, obwohl jede Anlageklasse über einen anderen Mechanismus reagiert.
+# GOLD-L3-015: Warum Zinsänderungen alle Anlageklassen gleichzeitig erfassen
+
+## Lernziele
+Am Ende dieser Lektion kannst du:
+- erklären, warum eine einzige Zinsänderung gleichzeitig mehrere, scheinbar unverbundene Anlageklassen beeinflussen kann
+- den unterschiedlichen Mechanismus benennen, über den jede Anlageklasse auf Zinsänderungen reagiert
+- erklären, warum Zinsen deshalb zu den am genauesten beobachteten allgemeinen Marktindikatoren gehören
+
+## Hauptinhalt
+
+Lektion 14 hat gezeigt, dass verschiedene Anlageklassen über unterschiedliche Mechanismen auf wirtschaftliche Bedingungen reagieren. Zinsen veranschaulichen das besonders deutlich: Eine einzige Änderung des allgemeinen Zinsniveaus wirkt fast gleichzeitig auf jede Anlageklasse, allerdings über wirklich unterschiedliche Wege.
+
+Hier das „Warum“, weshalb das so ist: Anleihekurse bewegen sich über den im WHITE-Track behandelten direkten Mechanismus entgegengesetzt zu den Zinsen. Immobilien, die stark von Baufinanzierungen abhängen, wie im gesamten RED-Track behandelt, werden mit veränderten Zinsen mehr oder weniger erschwinglich, was Immobilienwerte und Vergleiche der Kapitalisierungsrate beeinflusst (ebenfalls im RED-Track behandelt). Aktien sind betroffen, weil höhere Zinsen die Kreditkosten von Unternehmen erhöhen und künftige Unternehmensgewinne im Barwert weniger attraktiv machen können, verglichen mit nun höher verzinsten, sichereren Anleihen. Gold, das selbst keine Zinsen bringt, kann vergleichsweise weniger attraktiv werden, wenn verzinste Alternativen mehr abwerfen – auch wenn dieser Zusammenhang, wie andere bei Gold, von weiteren gleichzeitigen Faktoren wie allgemeiner wirtschaftlicher Belastung überlagert werden kann.
+
+[VERIFIED FACT] Genau deshalb gehören Zinsentscheidungen und Zinserwartungen – in der Eurozone vor allem die Leitzinsentscheidungen der Europäischen Zentralbank – zu den am genauesten beobachteten allgemeinen Wirtschaftsindikatoren für Anleger aller Anlageklassen. Eine einzige Zinsänderung beeinflusst tatsächlich fast alles, auch wenn sich Mechanismus, Richtung und Stärke der Wirkung je nach Anlageart deutlich unterscheiden. Für die eigene Planung heißt das: Wer verstehen will, wie empfindlich das eigene Depot auf Zinsänderungen reagiert, sollte jede Anlageklasse einzeln betrachten – etwa die Laufzeit der gehaltenen Anleihen, die Finanzierung der eigenen Immobilien und den Anteil an Gold –, statt eine einzige Gesamtreaktion anzunehmen.
+
+## Durchgerechnetes Beispiel
+
+[ILLUSTRATIVE EXAMPLE] Eine deutliche Änderung des allgemeinen Zinsniveaus wirkt gleichzeitig auf das gestreute Vermögen einer Anlegerin: Ihre Anleihekurse bewegen sich wegen des direkten Zinszusammenhangs, ihre Immobilien sind von der veränderten Erschwinglichkeit von Baufinanzierungen betroffen, ihre Aktien reagieren auf veränderte Kreditkosten und die veränderte relative Attraktivität im Vergleich zu nun anderen Anleiherenditen, und ihr Gold reagiert auf seine veränderte relative Anziehungskraft im Vergleich zu verzinsten Alternativen. [ASSUMPTION] Jede dieser vier Reaktionen läuft über einen wirklich anderen Mechanismus, doch alle werden durch dieselbe einzelne Zinsänderung ausgelöst – ein Beispiel dafür, warum dieser eine wirtschaftliche Faktor in jedem Teil eines gestreuten Depots gleichzeitig so genau beobachtet wird.
+
+## Übungsquiz
+1. Warum kann eine einzige Zinsänderung gleichzeitig Aktien, Anleihen, Immobilien und Gold beeinflussen?
+2. Nenne zwei unterschiedliche konkrete Mechanismen, über die verschiedene Anlageklassen auf eine Zinsänderung reagieren.
+3. Warum gehören Zinsentscheidungen zu den am genauesten beobachteten allgemeinen Wirtschaftsindikatoren?
+
+## Lösungsschlüssel
+1. Weil jede Anlageklasse eine eigene Empfindlichkeit gegenüber Zinsen hat und über unterschiedliche Mechanismen reagiert, alle aber gleichzeitig von derselben zugrunde liegenden Zinsänderung ausgelöst werden.
+2. Zwei beliebige aus: direkte, entgegengesetzte Bewegung der Anleihekurse, Wirkung der Finanzierungskosten auf Immobilien, Wirkung von Kreditkosten und relativer Bewertung auf Aktien, Wirkung der relativen Attraktivität von Gold gegenüber verzinsten Alternativen.
+3. Weil eine einzige Zinsänderung tatsächlich fast jede Anlageklasse gleichzeitig beeinflusst, auch wenn sich Mechanismus, Richtung und Stärke der Wirkung je nach Anlageart unterscheiden.
+
+## Antworten und Erklärungen
+1. Das ist das zentrale, verbindende „Warum“, auf dem die Lektion aufbaut.
+2. Das prüft das Verständnis der unterschiedlichen Mechanismen, die im Lehrplan für jede Anlageart behandelt werden.
+3. Das unterstreicht die breite, praktische Bedeutung dieses einzelnen wirtschaftlichen Faktors.
+
+## Das Wichtigste in Kürze
+- Eine einzige Zinsänderung wirkt gleichzeitig auf Aktien, Anleihen, Immobilien und Gold, jeweils über einen anderen Mechanismus.
+- Anleihekurse bewegen sich direkt und entgegengesetzt; Immobilien sind über die Finanzierungskosten betroffen, Aktien über Kreditkosten und relative Bewertung, Gold über seine relative Attraktivität gegenüber verzinsten Alternativen.
+- Deshalb gehören Zinsänderungen und Zinserwartungen zu den am genauesten beobachteten Indikatoren über alle Anlageklassen hinweg.
+
+## Hinweis zum Bildungszweck
+Diese Lektion dient ausschließlich der allgemeinen finanziellen Bildung und ist keine individuelle Finanz-, Anlage-, Steuer- oder Rechtsberatung. Wende dich vor Anlageentscheidungen an eine zugelassene Fachperson, etwa eine unabhängige Anlage- oder Honorarberatung.
+
+===== GOLD-L3-016
+TITLE: Warum die Korrelation zwischen Anlageklassen nicht dauerhaft feststeht
+SUMMARY: Erfahre, warum sich zwei Anlageklassen, die sich historisch unabhängig voneinander bewegt haben, plötzlich gemeinsam bewegen können und warum diese wechselnde Beziehung die Streuung erschwert.
+# GOLD-L3-016: Warum die Korrelation zwischen Anlageklassen nicht dauerhaft feststeht
+
+## Lernziele
+Am Ende dieser Lektion kannst du:
+- erklären, warum sich die Korrelation zwischen Anlageklassen im Lauf der Zeit verändern kann, statt konstant zu bleiben
+- erklären, warum diese Korrelation besonders in Phasen von Marktstress tendenziell steigt
+- dieses Konzept mit der Diskussion über Korrelation im WHITE-Track dieses Lehrplans verbinden
+
+## Hauptinhalt
+
+Der WHITE-Track dieses Lehrplans hat die Korrelation als Maß dafür eingeführt, wie eng sich die Renditen zweier Anlagen gemeinsam bewegen, und darauf hingewiesen, dass diese Beziehung nicht für immer feststeht. Hier das „Warum“, weshalb das auf der Ebene der Anlageklassen in diesem GOLD-Track besonders wichtig ist: Eine Streuungsstrategie, die auf der historischen Beobachtung beruht, dass sich etwa Aktien und eine bestimmte alternative Anlage in der Vergangenheit eher unabhängig voneinander bewegt haben, setzt voraus, dass diese Beziehung auch künftig hält – eine Annahme, die nicht garantiert ist.
+
+[VERIFIED FACT] Es wurde in verschiedenen historischen Phasen beobachtet, dass sich die Korrelation zwischen Anlageklassen im Lauf der Zeit deutlich verändert und besonders in Phasen schwerer, breiter Marktbelastung tendenziell steigt – also genau dann, wenn Anleger am stärksten auf die Streuung setzen, um Verluste zu begrenzen. Anlagen, die sich normalerweise eher unabhängig bewegen, können sich in einer echten Krise gemeinsam bewegen, weil breiter, wahlloser Verkaufsdruck fast alles gleichzeitig erfasst, unabhängig von den normalen, eigenen Treibern jeder Anlage.
+
+Deshalb sollte Streuung, auch wenn sie als allgemeiner Grundsatz des Risikomanagements wirklich wertvoll ist (wie im gesamten Lehrplan behandelt), nicht als Garantie verstanden werden, dass ein gestreutes Depot unter allen denkbaren Marktbedingungen erhebliche Verluste vermeidet – die Schutzwirkung selbst kann gerade in den Phasen schwächer werden, in denen man am meisten auf sie zählt.
+
+## Durchgerechnetes Beispiel
+
+[ILLUSTRATIVE EXAMPLE] Eine Anlegerin stellt ihr Depot teilweise auf Basis der historischen Beobachtung zusammen, dass sich eine bestimmte alternative Anlageklasse unter normalen Marktbedingungen eher unabhängig von ihren Aktien bewegt hat. [ASSUMPTION] In einer schweren, breiten Marktkrise fallen jedoch sowohl ihre Aktien als auch diese alternative Anlage gemeinsam, weil weit verbreiteter, wahlloser Verkaufsdruck fast jede Anlageklasse gleichzeitig erfasst – der historische Streuungsvorteil, auf den sie gezählt hatte, wurde genau in der Phase deutlich schwächer, in der sie ihn am meisten brauchte. Das zeigt, warum Annahmen über Korrelationen nicht als dauerhafte Garantien behandelt werden sollten.
+
+## Übungsquiz
+1. Warum bleibt die Korrelation zwischen Anlageklassen nicht dauerhaft gleich?
+2. In welcher Art von Phase steigt die Korrelation zwischen normalerweise unabhängigen Anlageklassen tendenziell?
+3. Warum ist das wichtig dafür, wie Streuung realistisch verstanden werden sollte?
+
+## Lösungsschlüssel
+1. Weil sich die Beziehungen, wie verschiedene Anlagen auf Marktbedingungen reagieren, im Lauf der Zeit je nach wechselnder wirtschaftlicher und marktbezogener Dynamik deutlich verändern können.
+2. In Phasen schwerer, breiter Marktbelastung, wenn weit verbreiteter Verkaufsdruck fast alles gleichzeitig erfassen kann, unabhängig von den normalen eigenen Treibern jeder Anlage.
+3. Streuung sollte als wirklich wertvoller allgemeiner Grundsatz des Risikomanagements verstanden werden, aber nicht als Garantie gegen erhebliche Verluste unter allen denkbaren Marktbedingungen, weil ihre Schutzwirkung in schweren Krisen schwächer werden kann.
+
+## Antworten und Erklärungen
+1. Das überträgt das Konzept der Korrelation aus dem WHITE-Track direkt auf die Ebene der Anlageklassen.
+2. Das ist der zentrale, wichtige Vorbehalt, den die Lektion hervorhebt.
+3. Das unterstreicht ein realistisches, nicht übermäßig selbstsicheres Verständnis der tatsächlichen Grenzen der Streuung.
+
+## Das Wichtigste in Kürze
+- Die Korrelation zwischen Anlageklassen steht nicht dauerhaft fest und kann sich mit wechselnder Marktdynamik verändern.
+- Die Korrelation steigt in Phasen schwerer Marktbelastung tendenziell und schwächt die Schutzwirkung der Streuung genau dann, wenn man am meisten auf sie zählt.
+- Streuung bleibt ein wertvoller allgemeiner Grundsatz, sollte aber nicht als Garantie gegen Verluste unter allen denkbaren Marktbedingungen behandelt werden.
+
+## Hinweis zum Bildungszweck
+Diese Lektion dient ausschließlich der allgemeinen finanziellen Bildung und ist keine individuelle Finanz-, Anlage-, Steuer- oder Rechtsberatung. Frühere Wertentwicklungen sind kein verlässlicher Indikator für künftige Ergebnisse. Wende dich vor Anlageentscheidungen an eine zugelassene Fachperson, etwa eine unabhängige Anlage- oder Honorarberatung.

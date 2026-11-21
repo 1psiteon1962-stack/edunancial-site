@@ -1,0 +1,423 @@
+===== PURPLE-L2-043
+TITLE: Le devoir fiduciaire : ce qu'il veut dire et qui le doit
+SUMMARY: Comprends ce qu'est un devoir fiduciaire, dans quelles relations il apparaît et ce que veulent dire le devoir de diligence et le devoir de loyauté.
+## PURPLE-L2-043
+### Le devoir fiduciaire : ce qu'il veut dire et qui le doit
+
+**1. Objectifs d'apprentissage**
+À la fin de cette leçon, tu pourras :
+- Définir de façon conceptuelle le devoir fiduciaire.
+- Nommer les relations courantes où naît un devoir fiduciaire.
+- Expliquer les composantes générales du devoir fiduciaire, comme le devoir de diligence et le devoir de loyauté.
+
+**2. Contenu principal**
+Dans la suite de la présentation de la leçon 42, un devoir fiduciaire est une obligation juridique renforcée qui exige qu'une partie (le fiduciaire) agisse dans le meilleur intérêt d'une autre partie (le bénéficiaire du devoir). Il naît généralement dans des relations qui comportent beaucoup de confiance, de dépendance ou de contrôle sur les intérêts d'une autre personne. Les relations courantes qui comportent des devoirs fiduciaires comprennent celles des administrateurs et des dirigeants envers leur société et ses actionnaires (leçon 42), des fiduciaires envers les bénéficiaires d'une fiducie (en écho à la discussion sur les fiducies de la leçon 12) et des avocats envers leurs clients.
+
+Le devoir fiduciaire comprend généralement un devoir de diligence (agir avec la compétence et le soin qu'une personne raisonnablement prudente exercerait dans une situation semblable) et un devoir de loyauté (faire passer les intérêts du bénéficiaire avant ses propres intérêts personnels, en évitant les transactions intéressées et les conflits d'intérêts). Cette norme renforcée, qui va bien au-delà des obligations contractuelles ou délictuelles ordinaires, reflète la confiance et la dépendance importantes propres à ces relations précises.
+
+**3. Exemple pratique**
+Comme administrateur au conseil d'une société par actions, un homme d'affaires se voit offrir personnellement l'occasion d'acheter, à un prix intéressant, une propriété que la société elle-même pourrait raisonnablement vouloir acquérir pour ses propres activités. Reconnaissant son devoir fiduciaire de loyauté envers la société, il ne l'achète pas simplement pour lui-même sans d'abord divulguer l'occasion au conseil et permettre à la société de la saisir si elle est vraiment intéressée. Le devoir fiduciaire d'un administrateur interdit généralement de détourner une occasion d'affaires de la société à son profit personnel sans divulgation appropriée et, s'il y a lieu, sans que la société renonce à l'occasion.
+
+**4. Quiz de pratique**
+1. Qu'est-ce qu'un devoir fiduciaire?
+   a) Une obligation contractuelle ordinaire, identique à tout autre contrat
+   b) Une obligation juridique renforcée d'agir dans le meilleur intérêt d'une autre partie
+   c) Un type de protection de la propriété intellectuelle
+   d) Une exigence de déclaration fiscale gouvernementale
+2. Qu'exige généralement le devoir de loyauté?
+   a) Faire passer ses propres intérêts personnels avant tout
+   b) Faire passer les intérêts du bénéficiaire avant ses propres intérêts personnels, en évitant les transactions intéressées
+   c) Rien de précis
+   d) Il ne s'applique qu'aux fiduciaires, jamais aux administrateurs de société
+3. Vrai ou faux : Le devoir fiduciaire est identique à une obligation contractuelle ordinaire et n'en diffère en rien.
+4. Pourquoi l'administrateur a-t-il divulgué l'occasion d'achat au conseil plutôt que d'acheter la propriété lui-même?
+   a) Son devoir fiduciaire de loyauté lui interdisait généralement de détourner une occasion d'affaires de la société à son profit personnel sans divulgation appropriée
+   b) Il n'avait aucun devoir fiduciaire
+   c) La propriété n'avait aucune valeur pour la société
+   d) La divulgation était purement facultative, sans importance juridique
+
+**5. Corrigé**
+1. b  2. b  3. Faux  4. a
+
+**6. Réponses et explications**
+1. Un devoir fiduciaire est une obligation juridique renforcée d'agir dans le meilleur intérêt d'une autre partie.
+2. Le devoir de loyauté exige de faire passer les intérêts du bénéficiaire avant ses propres intérêts personnels.
+3. Le devoir fiduciaire représente une norme renforcée qui va bien au-delà des obligations contractuelles ordinaires.
+4. Le devoir fiduciaire de loyauté de l'administrateur exigeait une divulgation appropriée avant de saisir une occasion personnelle que la société pourrait raisonnablement vouloir.
+
+**7. Points clés à retenir**
+- Le devoir fiduciaire est une obligation juridique renforcée d'agir dans le meilleur intérêt d'une autre partie, qui naît dans des relations de grande confiance.
+- Les relations fiduciaires courantes comprennent celles des administrateurs et dirigeants, des fiduciaires et des avocats envers leurs bénéficiaires respectifs.
+- Le devoir fiduciaire comprend généralement un devoir de diligence et un devoir de loyauté.
+- Cette norme renforcée reflète la confiance et la dépendance importantes propres à ces relations précises.
+
+===== PURPLE-L2-044
+TITLE: La levée du voile corporatif : quand la protection en responsabilité échoue
+SUMMARY: Comprends comment un tribunal peut lever le voile d'une entité pour atteindre les biens personnels de son propriétaire, et pourquoi le respect continu des formalités est la meilleure défense.
+## PURPLE-L2-044
+### La levée du voile corporatif : quand la protection en responsabilité échoue
+
+**1. Objectifs d'apprentissage**
+À la fin de cette leçon, tu pourras :
+- Définir de façon conceptuelle la « levée du voile corporatif ».
+- Renforcer, du point de vue d'un litige, les discussions sur les formalités de RED-L2-012 et de BLUE-L2-005 et 030.
+- Nommer les facteurs courants que les tribunaux examinent dans les affaires de levée du voile.
+
+**2. Contenu principal**
+Cette leçon rassemble les fils sur la protection en responsabilité de RED-L2-012, BLUE-L2-005 et BLUE-L2-030, en examinant la « levée du voile corporatif » comme le mécanisme juridique précis par lequel un tribunal peut ne pas tenir compte du statut juridique distinct d'une entité et tenir un propriétaire personnellement responsable des obligations de l'entité, malgré la protection en responsabilité officielle de celle-ci. Les tribunaux examinent souvent des facteurs comme le respect réel des formalités de la société ou de la LLC (comptes bancaires séparés, tenue de registres appropriée, capitalisation suffisante), l'utilisation de l'entité pour commettre une fraude ou une injustice, et le fait que les finances et les activités de l'entité et du propriétaire étaient tellement mélangées (en écho à BLUE-L2-005) que l'entité n'avait, en pratique, aucune existence distincte et réelle.
+
+C'est l'aboutissement, dans un contexte de litige, d'un thème qui traverse tout ce programme : la protection en responsabilité n'est pas le résultat automatique du dépôt des documents de constitution, mais une discipline continue que les tribunaux examineront de près si une personne demanderesse cherche à lever le voile — précisément dans les moments, après une réclamation importante en responsabilité, où la protection compte le plus.
+
+**3. Exemple pratique**
+Après qu'une importante réclamation en responsabilité est déposée contre une petite LLC, l'avocat de la personne demanderesse examine si le voile de la LLC peut être levé pour atteindre les biens personnels de la propriétaire, en étudiant exactement les facteurs décrits dans cette leçon : des comptes bancaires distincts ont-ils réellement été tenus? Les formalités de la LLC ont-elles été respectées? L'entité était-elle suffisamment capitalisée pour ses activités? Les finances personnelles et d'entreprise de la propriétaire étaient-elles mélangées? Une propriétaire qui, comme Yolanda et Carlos dans des leçons précédentes des parcours BLUE et RED, a maintenu avec rigueur une vraie séparation et respecté les formalités appropriées pendant toute l'existence de l'entité a beaucoup plus de chances de préserver sa protection en responsabilité qu'un propriétaire qui a traité l'entité comme une simple formalité, sans vraie séparation dans ses activités.
+
+**4. Quiz de pratique**
+1. Que permet généralement la « levée du voile corporatif » à un tribunal?
+   a) Rien — elle n'a aucun effet juridique réel
+   b) Ne pas tenir compte du statut juridique distinct d'une entité et tenir un propriétaire personnellement responsable
+   c) Dissoudre automatiquement l'entité
+   d) Accorder à l'entité une protection en responsabilité supplémentaire
+2. Quel est un facteur que les tribunaux examinent souvent dans les affaires de levée du voile?
+   a) Le nom commercial choisi par l'entité
+   b) Le respect réel des formalités de la société ou de la LLC, y compris la séparation des finances
+   c) Les loisirs personnels du propriétaire
+   d) Le budget de marketing de l'entité
+3. Vrai ou faux : La protection en responsabilité est un résultat automatique et permanent du simple dépôt des documents de constitution, peu importe la façon dont l'entité est ensuite exploitée.
+4. Pourquoi une propriétaire qui a maintenu avec rigueur de vraies formalités aurait-elle plus de chances de préserver sa protection en responsabilité?
+   a) Les formalités n'ont aucun effet sur l'analyse de la levée du voile
+   b) Le respect réel des formalités répond directement aux facteurs que les tribunaux examinent dans les affaires de levée du voile
+   c) Seul le nom de l'entité compte dans ces affaires
+   d) La levée du voile n'arrive jamais dans de vraies affaires
+
+**5. Corrigé**
+1. b  2. b  3. Faux  4. b
+
+**6. Réponses et explications**
+1. La levée du voile corporatif permet à un tribunal de ne pas tenir compte du statut distinct d'une entité et d'imposer une responsabilité personnelle au propriétaire.
+2. Le respect réel des formalités, y compris la séparation des finances, est un facteur clé que les tribunaux examinent dans l'analyse de la levée du voile.
+3. La protection en responsabilité exige un maintien réel et continu des formalités, et pas seulement les documents de constitution de départ.
+4. Le maintien rigoureux des formalités répond directement aux facteurs précis que les tribunaux examinent dans les affaires de levée du voile.
+
+**7. Points clés à retenir**
+- La levée du voile corporatif permet à un tribunal de ne pas tenir compte du statut distinct d'une entité et d'imposer une responsabilité personnelle au propriétaire.
+- Les tribunaux examinent des facteurs comme le respect des formalités, la fraude ou l'injustice, et le mélange des finances.
+- Ça rassemble les thèmes de protection en responsabilité de RED-L2-012 et de BLUE-L2-005 et 030 dans leur aboutissement en contexte de litige.
+- Le maintien réel et continu des formalités est la meilleure défense contre une réclamation de levée du voile.
+
+===== PURPLE-L2-045
+TITLE: Les bases du droit international : pourquoi la compétence compte
+SUMMARY: Comprends ce qu'est la compétence juridique, pourquoi les questions qui traversent les frontières ajoutent de la complexité et pourquoi elles exigent un conseiller spécialisé.
+## PURPLE-L2-045
+### Les bases du droit international : pourquoi la compétence compte
+
+**1. Objectifs d'apprentissage**
+À la fin de cette leçon, tu pourras :
+- Définir de façon conceptuelle la compétence juridique.
+- Expliquer pourquoi les questions juridiques transfrontalières ajoutent de la complexité.
+- Reconnaître que les questions juridiques internationales exigent une expertise spécialisée.
+
+**2. Contenu principal**
+La compétence (*jurisdiction*) désigne le pouvoir juridique d'un tribunal ou d'un gouvernement d'entendre une affaire ou de faire appliquer une loi, généralement lié à l'emplacement géographique, aux liens des parties avec cet endroit ou à un domaine précis. Tout au long de ce niveau, des notes de RÈGLE PROPRE À UNE RÉGION ont souligné à quel point les règles juridiques varient, même à l'intérieur d'un seul pays; les questions internationales ajoutent encore à cette complexité, puisque les différents pays ont des systèmes juridiques, des structures judiciaires et des mécanismes d'exécution complètement distincts, sans autorité unique qui régit la plupart des litiges privés entre pays.
+
+Les questions juridiques d'affaires ou personnelles qui traversent les frontières — un contrat entre des parties de pays différents, une propriété détenue dans un pays étranger ou un litige qui implique des parties situées dans des juridictions différentes — exigent généralement de déterminer quelle loi nationale s'applique (un sujet approfondi dans la discussion sur le choix de la loi applicable de la leçon 46) et quels tribunaux nationaux ont le pouvoir d'entendre le litige. Ces questions peuvent elles-mêmes être complexes et contestées, ce qui rend essentiel un conseiller juridique qualifié et spécialisé en droit international pour toute question qui comporte de vrais éléments transfrontaliers.
+
+**3. Exemple pratique**
+En concluant une relation d'affaires avec une entreprise établie dans un autre pays, une propriétaire d'entreprise reconnaît que cet arrangement comporte une vraie complexité juridique transfrontalière qui dépasse son expérience des affaires au pays : quelle loi nationale régirait un litige possible, quels tribunaux nationaux pourraient réellement entendre ce litige, et comment un jugement éventuel pourrait réellement être exécuté de l'autre côté de la frontière si l'autre partie ne s'y conformait pas volontairement. Au lieu de supposer que ses connaissances juridiques nationales et ses modèles de contrats standards répondraient adéquatement à ces questions transfrontalières, elle fait appel à une avocate qui a une expérience précise en droit international des affaires pour bien structurer la relation.
+
+**4. Quiz de pratique**
+1. De façon conceptuelle, qu'est-ce que la compétence juridique?
+   a) Un type de clause contractuelle
+   b) Le pouvoir juridique d'un tribunal ou d'un gouvernement d'entendre une affaire ou de faire appliquer une loi
+   c) Un type de propriété intellectuelle
+   d) Une exigence de déclaration fiscale
+2. Pourquoi la complexité juridique internationale ajoute-t-elle aux défis propres à chaque juridiction déjà vus dans ce niveau?
+   a) Les questions internationales n'ajoutent aucune complexité
+   b) Les différents pays ont des systèmes juridiques, des structures judiciaires et des mécanismes d'exécution complètement distincts
+   c) Tous les pays partagent un système juridique identique
+   d) Les questions internationales sont toujours plus simples que les questions nationales
+3. Vrai ou faux : Les connaissances juridiques nationales et les modèles de contrats standards suffisent toujours pour de vraies relations d'affaires transfrontalières.
+4. Pourquoi la propriétaire d'entreprise a-t-elle fait appel à une avocate qui a une expérience précise en droit international?
+   a) Ses connaissances juridiques nationales suffisaient entièrement pour la relation transfrontalière
+   b) La vraie complexité juridique transfrontalière exigeait une expertise spécialisée qui dépassait son expérience nationale
+   c) Le droit international n'existe pas vraiment
+   d) Elle n'avait aucune relation d'affaires transfrontalière à gérer
+
+**5. Corrigé**
+1. b  2. b  3. Faux  4. b
+
+**6. Réponses et explications**
+1. La compétence désigne le pouvoir juridique d'un tribunal ou d'un gouvernement d'entendre une affaire ou de faire appliquer une loi.
+2. Les systèmes juridiques et les mécanismes d'exécution complètement distincts des différents pays ajoutent à la complexité juridique transfrontalière.
+3. Les vraies relations transfrontalières exigent généralement une expertise spécialisée qui dépasse les connaissances juridiques nationales et les modèles standards.
+4. La propriétaire d'entreprise a eu raison, en reconnaissant une vraie complexité transfrontalière, de chercher un conseiller juridique spécialisé en droit international.
+
+**7. Points clés à retenir**
+- La compétence désigne le pouvoir juridique d'un tribunal ou d'un gouvernement d'entendre une affaire ou de faire appliquer une loi.
+- Les questions internationales ajoutent à la complexité propre à chaque juridiction vue dans ce niveau, puisque les pays ont des systèmes juridiques complètement distincts.
+- Les questions transfrontalières exigent de déterminer à la fois la loi applicable et les tribunaux qui ont le pouvoir d'entendre un litige.
+- Les vraies questions juridiques transfrontalières exigent un conseiller juridique spécialisé en droit international, et non des suppositions fondées sur le droit national.
+
+===== PURPLE-L2-046
+TITLE: Les clauses de choix de la loi applicable et du tribunal compétent
+SUMMARY: Comprends à quoi servent les clauses qui fixent d'avance la loi applicable et le lieu de règlement des litiges, et pourquoi elles réduisent l'incertitude.
+## PURPLE-L2-046
+### Les clauses de choix de la loi applicable et du tribunal compétent
+
+**1. Objectifs d'apprentissage**
+À la fin de cette leçon, tu pourras :
+- Définir les clauses de choix de la loi applicable et de choix du tribunal compétent.
+- Expliquer pourquoi les parties incluent souvent ces clauses de façon proactive dans leurs contrats.
+- Relier cette notion à la discussion sur la compétence de la leçon 45.
+
+**2. Contenu principal**
+En s'appuyant directement sur la leçon 45, une clause de choix de la loi applicable précise quelle loi juridictionnelle régira l'interprétation et l'exécution d'un contrat, et une clause de choix du tribunal compétent (ou d'élection de for) précise où (devant quel tribunal ou à quel lieu d'arbitrage) tout litige doit être réglé. Les parties incluent souvent ces clauses de façon proactive précisément pour éviter la complexité et l'incertitude décrites à la leçon 45 : au lieu de laisser ces questions être contestées et tranchées après la naissance d'un litige, les parties s'entendent d'avance, ce qui réduit l'imprévisibilité pour les deux côtés.
+
+Ces clauses sont particulièrement utiles dans les contrats entre des parties de différents États, provinces ou pays, en écho à la discussion transfrontalière de la leçon 45, mais elles peuvent être incluses dans n'importe quel contrat pour apporter de la clarté et de la prévisibilité. Les tribunaux respectent et font généralement respecter, même si ce n'est pas universel, les clauses raisonnables de choix de la loi applicable et du tribunal compétent que les parties ont librement négociées; leur caractère exécutoire peut toutefois dépendre de règles juridictionnelles précises et du fait que la clause était réellement équitable, et non le résultat du pouvoir de négociation écrasant et inéquitable d'une partie.
+
+**3. Exemple pratique**
+En négociant un contrat avec une entreprise établie dans un autre État, deux propriétaires d'entreprise incluent de façon proactive une clause de choix de la loi applicable qui précise que la loi de leur propre État régira l'entente, et une clause de choix du tribunal compétent qui précise que tout litige doit être réglé devant un tribunal précis situé dans ce même État. Grâce à cette entente proactive, si un litige survient plus tard, les deux parties savent déjà quelle loi s'applique et où toute procédure juridique aurait lieu, ce qui évite la bataille juridictionnelle coûteuse et incertaine qui pourrait autrement survenir si ces questions restaient sans réponse jusqu'à ce qu'un litige se concrétise.
+
+**4. Quiz de pratique**
+1. Que précise généralement une clause de choix de la loi applicable?
+   a) L'endroit physique où un litige doit être réglé
+   b) Quelle loi juridictionnelle régira l'interprétation et l'exécution du contrat
+   c) Les dommages-intérêts précis possibles
+   d) Un type de protection de la propriété intellectuelle
+2. Que précise généralement une clause de choix du tribunal compétent?
+   a) Quelle loi de fond s'applique
+   b) Où (devant quel tribunal ou à quel lieu d'arbitrage) tout litige doit être réglé
+   c) Les conditions de paiement du contrat
+   d) Un type d'exigence d'assurance
+3. Vrai ou faux : Les clauses de choix de la loi applicable et du tribunal compétent garantissent toujours un caractère exécutoire absolu, peu importe comment elles ont été négociées.
+4. Pourquoi les deux propriétaires d'entreprise ont-ils inclus ces clauses de façon proactive dans leur contrat?
+   a) Pour créer le plus d'incertitude possible en cas de litige
+   b) Pour éviter la bataille juridictionnelle coûteuse et incertaine qui pourrait autrement survenir après la naissance d'un litige
+   c) Ces clauses n'ont aucune utilité pratique
+   d) Ils voulaient empêcher tout règlement de litige
+
+**5. Corrigé**
+1. b  2. b  3. Faux  4. b
+
+**6. Réponses et explications**
+1. Une clause de choix de la loi applicable précise quelle loi juridictionnelle régit l'interprétation et l'exécution du contrat.
+2. Une clause de choix du tribunal compétent précise où tout litige doit être réglé.
+3. Le caractère exécutoire peut dépendre de règles juridictionnelles précises et du fait que la clause était réellement équitable; il n'est pas automatique dans tous les cas.
+4. Inclure ces clauses de façon proactive a réduit l'incertitude et évité une bataille juridictionnelle coûteuse si un litige survenait plus tard.
+
+**7. Points clés à retenir**
+- Une clause de choix de la loi applicable précise quelle loi régit un contrat; une clause de choix du tribunal compétent précise où les litiges seront réglés.
+- Les parties incluent souvent ces clauses de façon proactive pour réduire l'incertitude décrite à la leçon 45.
+- Ces clauses sont particulièrement utiles dans les contrats entre différents États, provinces ou pays.
+- Leur caractère exécutoire dépend généralement de leur caractère raisonnable et d'une négociation équitable; il n'est pas automatique en toutes circonstances.
+
+===== PURPLE-L2-047
+TITLE: Travailler avec un avocat : la lettre de mandat et sa portée
+SUMMARY: Comprends à quoi sert une lettre de mandat, ce qu'elle contient et pourquoi il faut vérifier sa portée avant de supposer qu'une question est couverte.
+## PURPLE-L2-047
+### Travailler avec un avocat : la lettre de mandat et sa portée
+
+**1. Objectifs d'apprentissage**
+À la fin de cette leçon, tu pourras :
+- Expliquer le but général d'une lettre de mandat d'avocat.
+- Nommer les éléments clés qu'on trouve habituellement dans une lettre de mandat.
+- Renforcer, du point de vue du client, la discussion de BLUE-L2-033 sur la relation continue avec un avocat.
+
+**2. Contenu principal**
+Dans la suite de la discussion de BLUE-L2-033 sur les relations continues avec un avocat, cette leçon examine la lettre de mandat (*engagement letter*), le document qui officialise la portée précise, les conditions et la structure des honoraires d'une relation avocat-client pour un dossier donné. Les éléments clés comprennent habituellement la portée précise du mandat (ce que l'avocat prendra en charge et ce qu'il ne prendra pas en charge), la structure des honoraires (à l'heure, forfaitaire, à pourcentage ou un autre arrangement), les conditions de facturation et de paiement, et les responsabilités générales de chaque partie.
+
+Comprendre et examiner attentivement une lettre de mandat est important pour les mêmes raisons que la liste de vérification de lecture de contrat de la leçon 5 s'applique de façon générale : une portée de mandat vague ou trop étroite peut créer de la confusion plus tard sur ce dont l'avocat est réellement responsable, et des conditions d'honoraires floues peuvent créer des litiges ou des surprises de facturation. Les clients devraient se sentir à l'aise de poser des questions de clarification sur une lettre de mandat avant de la signer, comme ce niveau l'a souligné tout au long pour tout contrat important.
+
+**3. Exemple pratique**
+Avant d'embaucher une avocate pour un dossier d'affaires précis, une propriétaire d'entreprise lit attentivement la lettre de mandat proposée et remarque que la portée du mandat est définie de façon étroite : elle couvre seulement la négociation de contrat en cours, et non des conseils juridiques continus plus larges. Reconnaissant cette limite de portée, elle demande à l'avocate si une autre question liée qu'elle a sur la structure de son entité ferait partie de ce mandat ou exigerait un arrangement distinct, ce qui lui évite la surprise de découvrir plus tard qu'une question qu'elle croyait couverte était en fait hors de la portée définie du mandat.
+
+**4. Quiz de pratique**
+1. Qu'officialise généralement une lettre de mandat d'avocat?
+   a) Une déclaration fiscale gouvernementale
+   b) La portée précise, les conditions et la structure des honoraires d'une relation avocat-client pour un dossier donné
+   c) Un type de protection de la propriété intellectuelle
+   d) Une entente de marketing
+2. Selon cette leçon, pourquoi la section sur la portée du mandat est-elle importante?
+   a) Elle n'a aucune importance pratique
+   b) Une portée vague ou trop étroite peut créer de la confusion sur ce dont l'avocat est réellement responsable
+   c) La portée du mandat n'est jamais incluse dans les lettres de mandat
+   d) Seules les conditions d'honoraires comptent dans une lettre de mandat
+3. Vrai ou faux : Les clients devraient éviter de poser des questions de clarification sur une lettre de mandat avant de la signer.
+4. Pourquoi la propriétaire d'entreprise a-t-elle demandé si sa question sur la structure de son entité faisait partie de son mandat actuel?
+   a) Elle supposait que tout était automatiquement couvert
+   b) Elle a reconnu que la portée définie pourrait ne pas inclure cette question supplémentaire et voulait une clarification avant de supposer qu'elle était couverte
+   c) Les lettres de mandat ne définissent jamais de portée
+   d) Elle n'avait aucune autre question
+
+**5. Corrigé**
+1. b  2. b  3. Faux  4. b
+
+**6. Réponses et explications**
+1. Une lettre de mandat officialise la portée, les conditions et la structure des honoraires d'une relation avocat-client pour un dossier donné.
+2. Une portée vague ou étroite peut créer de la confusion sur ce dont l'avocat est réellement responsable.
+3. Les clients devraient se sentir à l'aise de poser des questions de clarification sur une lettre de mandat avant de la signer.
+4. La question de clarification de la propriétaire d'entreprise a réglé, à juste titre, un écart de portée possible avant de supposer une couverture qui pourrait ne pas exister.
+
+**7. Points clés à retenir**
+- Une lettre de mandat officialise la portée, les conditions et la structure des honoraires d'une relation avocat-client précise.
+- Les éléments clés comprennent la portée du mandat, la structure des honoraires, les conditions de facturation et les responsabilités de chaque partie.
+- Une portée vague ou étroite peut créer de la confusion sur ce que l'avocat prendra réellement en charge.
+- Les clients devraient examiner attentivement les lettres de mandat et poser des questions de clarification, en écho à la discipline de lecture de contrat plus large de ce niveau.
+
+===== PURPLE-L2-048
+TITLE: Lire les documents juridiques de façon critique : un cadre pratique
+SUMMARY: Rassemble les compétences de lecture de ce niveau en un cadre simple qui s'applique à tout document juridique et t'aide à mieux profiter d'une consultation professionnelle.
+## PURPLE-L2-048
+### Lire les documents juridiques de façon critique : un cadre pratique
+
+**1. Objectifs d'apprentissage**
+À la fin de cette leçon, tu pourras :
+- Rassembler les leçons de lecture de documents de ce niveau en un cadre pratique.
+- Appliquer ce cadre aux contrats, aux documents successoraux et aux autres instruments juridiques.
+- Expliquer pourquoi cette compétence s'applique largement à chaque type d'instrument juridique vu dans ce niveau.
+
+**2. Contenu principal**
+Cette leçon rassemble les compétences de lecture de documents bâties tout au long de PURPLE-L2 — la liste de vérification des clauses de contrat de la leçon 5, les limites des renonciations de la leçon 26, l'examen des clauses d'indemnisation de la leçon 27 et l'examen des lettres de mandat de la leçon 47 — en un seul cadre général qui s'applique à presque tout document juridique : déterminer de quel type d'instrument il s'agit et quel est son but général; déterminer les obligations précises que chaque partie prend; déterminer ce qui arrive si quelque chose tourne mal (recours, résiliation, règlement des différends); repérer les conditions inhabituelles, inattendues ou floues qui méritent une clarification précise; et déterminer si la complexité ou les enjeux du document justifient un examen professionnel avant de le signer ou de s'y fier.
+
+Ce cadre ne remplace pas les conseils juridiques professionnels pour les questions importantes, mais il outille l'apprenant pour profiter beaucoup plus efficacement de cet encadrement professionnel — en arrivant à une consultation avec des questions précises et éclairées plutôt qu'avec une vague impression d'inconnu, et en repérant les problèmes possibles dans des documents à enjeux plus faibles qui ne justifient pas toujours un examen professionnel complet.
+
+**3. Exemple pratique**
+En examinant un nouveau contrat avec un fournisseur à l'aide de ce cadre combiné, une propriétaire d'entreprise détermine le type et le but du document, fait la carte des obligations précises de chaque partie, vérifie les dispositions sur les recours et la résiliation, signale une clause d'indemnisation inhabituelle à clarifier et détermine que les enjeux financiers du contrat justifient un bref examen par une avocate avant la signature, malgré sa propre lecture initiale déjà approfondie. Elle arrive à cette consultation avec des questions précises déjà repérées, ce qui rend la consultation plus efficace et plus productive que si elle avait simplement remis un document non lu pour que l'avocate l'examine à partir de zéro.
+
+**4. Quiz de pratique**
+1. Qu'est-ce que le cadre combiné de cette leçon aide un apprenant à faire?
+   a) Remplacer complètement tous les conseils juridiques professionnels
+   b) Aborder plus efficacement n'importe quel document juridique, et l'encadrement professionnel au besoin
+   c) Éviter de devoir lire un document juridique
+   d) Garantir un résultat favorable dans chaque question juridique
+2. Quelle est une étape de ce cadre de lecture combiné?
+   a) Ignorer le but déclaré du document
+   b) Déterminer ce qui arrive si quelque chose tourne mal — recours, résiliation, règlement des différends
+   c) Sauter les conditions inhabituelles ou floues
+   d) Supposer que chaque document exige le même niveau d'examen professionnel
+3. Vrai ou faux : Ce cadre vise à remplacer complètement le besoin d'un examen juridique professionnel dans toutes les situations.
+4. Comment l'utilisation de ce cadre par la propriétaire d'entreprise a-t-elle amélioré sa consultation avec l'avocate?
+   a) Elle a rendu la consultation moins productive
+   b) Elle est arrivée avec des questions précises déjà repérées, ce qui a rendu la consultation plus efficace
+   c) Elle a évité complètement de consulter une avocate
+   d) Ça n'a eu aucun effet sur la qualité de la consultation
+
+**5. Corrigé**
+1. b  2. b  3. Faux  4. b
+
+**6. Réponses et explications**
+1. Ce cadre aide l'apprenant à aborder plus efficacement les documents juridiques, ainsi que l'encadrement professionnel quand il est justifié.
+2. Déterminer les dispositions sur les recours, la résiliation et le règlement des différends est une étape clé de ce cadre combiné.
+3. Ce cadre appuie l'examen juridique professionnel pour les questions importantes, au lieu de le remplacer.
+4. Arriver avec des questions précises déjà repérées a rendu la consultation de la propriétaire d'entreprise plus efficace et plus productive.
+
+**7. Points clés à retenir**
+- Cette leçon rassemble les compétences de lecture de documents bâties dans PURPLE-L2 en un seul cadre général et pratique.
+- Le cadre consiste à déterminer le type et le but du document, les obligations, les recours et la résiliation, les conditions floues et le besoin d'un examen professionnel.
+- Il ne remplace pas les conseils juridiques professionnels, mais il outille l'apprenant pour mieux en profiter.
+- Cette compétence pratique s'applique largement aux contrats, aux documents successoraux et à tout autre type d'instrument juridique.
+
+===== PURPLE-L2-049
+TITLE: Bâtir un cadre de décision juridique personnel et d'affaires
+SUMMARY: Rassemble les questions clés de tout le niveau en un cadre de décision juridique pratique et vois comment l'appliquer à une occasion de partenariat d'affaires.
+## PURPLE-L2-049
+### Bâtir un cadre de décision juridique personnel et d'affaires
+
+**1. Objectifs d'apprentissage**
+À la fin de cette leçon, tu pourras :
+- Rassembler un ensemble structuré de questions tirées de tout ce niveau pour en faire un cadre de décision juridique.
+- Appliquer ce cadre à une décision juridique hypothétique.
+- Expliquer comment ce cadre incarne la pensée de niveau 2 des « pièces d'échecs ».
+
+**2. Contenu principal**
+En écho aux cadres de décision des parcours RED, WHITE et BLUE, cette leçon rassemble PURPLE-L2 en un cadre de décision juridique pratique, structuré autour de questions tirées des leçons précédentes : quel type d'instrument juridique est en jeu, et respecte-t-il les exigences de base pour être exécutoire (leçons 2 à 7)? Cette situation exige-t-elle un instrument spécialisé, comme une entente de confidentialité, une clause de non-concurrence, un testament, une fiducie ou une procuration (leçons 8 à 17)? Quels éléments de droit du travail ou de propriété intellectuelle s'appliquent (leçons 18 à 25)? Quelles dispositions de responsabilité, d'indemnisation ou de règlement des différends sont pertinentes (leçons 26 à 31)? Quel fondement juridique de base — contractuel, délictuel ou réglementaire — régit réellement cette situation (leçons 32 à 41)? Et quelles questions de gouvernance, de compétence ou de mandat professionnel cette décision soulève-t-elle (leçons 42 à 48)?
+
+Comme pour les cadres des autres couleurs, c'est une habitude d'esprit plutôt qu'une liste rigide : suivre volontairement les effets d'une question juridique sur le type d'instrument, les protections spécialisées, la responsabilité, le fondement juridique de base et l'encadrement professionnel, plutôt que de traiter un seul document ou une seule question juridique isolément du paysage juridique plus large que ce niveau a cartographié.
+
+**3. Exemple pratique**
+En envisageant une nouvelle occasion de partenariat d'affaires, une fondatrice passe volontairement à travers ce cadre : elle confirme que la convention de partenariat elle-même respecte les exigences de base pour être exécutoire, se demande si une entente de confidentialité ou une clause de non-concurrence est nécessaire vu les renseignements sensibles en jeu, règle les questions de propriété intellectuelle sur le travail que produira le partenariat, examine attentivement les dispositions de responsabilité et d'indemnisation, détermine si cette relation soulève surtout des questions de droit des contrats ou aussi des questions possibles de conformité réglementaire propres au secteur, et confirme si la structure du partenariat soulève des questions de gouvernance qui exigent un encadrement professionnel précis avant d'aller de l'avant.
+
+**4. Quiz de pratique**
+1. Quel est le but du cadre de décision juridique présenté dans cette leçon?
+   a) Remplacer tous les conseils juridiques professionnels
+   b) Offrir une habitude structurée pour suivre les effets d'une décision juridique sur plusieurs pièces de ce niveau
+   c) Garantir un résultat juridique favorable
+   d) Éliminer le besoin de faire des recherches
+2. Lequel des éléments suivants fait partie du cadre?
+   a) Le type d'instrument et son caractère exécutoire, les protections spécialisées, la responsabilité et le règlement des différends, le fondement juridique de base et l'encadrement professionnel
+   b) Seulement le nombre de pages du document
+   c) Seulement la personnalité de l'autre partie
+   d) Seulement la couleur du papier utilisé
+3. Vrai ou faux : Ce cadre est fait pour être appliqué mécaniquement, sans vraie analyse de la situation précise.
+4. Qu'a évalué la fondatrice avant d'aller de l'avant avec le nouveau partenariat d'affaires?
+   a) Seulement le nom du partenariat
+   b) Le caractère exécutoire, les protections spécialisées, la propriété intellectuelle, la responsabilité, le fondement juridique de base et les questions de gouvernance, ensemble
+   c) Rien — elle est allée de l'avant sans aucune analyse
+   d) Seulement sa préférence personnelle
+
+**5. Corrigé**
+1. b  2. a  3. Faux  4. b
+
+**6. Réponses et explications**
+1. Ce cadre développe l'habitude de suivre au complet les effets d'une décision juridique sur plusieurs pièces; il ne garantit pas les résultats.
+2. Le cadre couvre le type d'instrument et son caractère exécutoire, les protections spécialisées, la responsabilité et le règlement des différends, le fondement juridique et l'encadrement professionnel.
+3. Le cadre sert à provoquer une vraie analyse propre à chaque situation, pas à cocher des cases mécaniquement.
+4. L'évaluation systématique de la fondatrice sur plusieurs pièces juridiques a remplacé une décision fondée sur un seul document ou une seule question pris isolément.
+
+**7. Points clés à retenir**
+- Cette leçon rassemble PURPLE-L2 en un cadre pratique qui couvre le type d'instrument, les protections spécialisées, la responsabilité, le fondement juridique et l'encadrement professionnel.
+- Le cadre est une habitude d'esprit, en écho à la structure des cadres des parcours RED, WHITE et BLUE.
+- L'appliquer de façon systématique aide à éviter de traiter un seul document ou une seule question juridique isolément.
+- Ce cadre incarne la pensée complète des « pièces d'échecs » que tout ce niveau a construite.
+
+===== PURPLE-L2-050
+TITLE: Regarder vers l'avant : la complexité juridique et la structuration stratégique (pont vers le niveau 3)
+SUMMARY: Résume tout le parcours de PURPLE-L2 et découvre comment PURPLE-L3 combinera ces instruments dans des décisions de structuration juridique plus réalistes.
+## PURPLE-L2-050
+### Regarder vers l'avant : la complexité juridique et la structuration stratégique (pont vers le niveau 3)
+
+**1. Objectifs d'apprentissage**
+À la fin de cette leçon, tu pourras :
+- Résumer la progression générale de PURPLE-L2, de la leçon 1 à la leçon 49.
+- Expliquer le passage général des instruments de base à la structuration juridique stratégique.
+- Avoir un aperçu de l'orientation de PURPLE-L3.
+
+**2. Contenu principal**
+PURPLE-L2 a commencé avec la première interaction entre les pièces lors de la signature d'un contrat simple, puis s'est élargi : formation des contrats et recours (leçons 2 à 7), instruments de protection spécialisés — ententes de confidentialité, clauses de non-concurrence, testaments, fiducies, procurations (leçons 8 à 17) —, droit du travail (leçons 18 et 19), propriété intellectuelle (leçons 20 à 25), dispositions de responsabilité et de transfert du risque (leçons 26 et 27), voies de règlement des différends (leçons 28 à 31), fondements de la responsabilité délictuelle (leçons 32 à 36), cadres réglementaires et ponts entre les couleurs (leçons 37 à 41), gouvernance d'entreprise et devoir fiduciaire (leçons 42 à 44), éléments internationaux et de compétence (leçons 45 et 46), et enfin mandat professionnel et cadres de décision pratiques (leçons 47 à 49).
+
+Cette dernière leçon donne un aperçu de l'orientation de PURPLE-L3 : passer de la compréhension des instruments juridiques de base un par un (niveau 2) à des décisions de structuration juridique de plus en plus réalistes et intégrées, où plusieurs instruments et éléments travaillent ensemble. En écho à l'approche de comparaison plus large de ce programme, PURPLE-L3 explorera probablement des combinaisons d'instruments plus complexes (comme des plans successoraux complets qui combinent testaments, fiducies et procurations, ou des structures d'entreprise qui combinent plusieurs types d'entités et plusieurs niveaux de gouvernance) dans des scénarios de plus en plus réalistes, ce qui fera passer l'apprenant de « comment les pièces interagissent » (niveau 2) à « utiliser des combinaisons dans des décisions de plus en plus réalistes » (niveau 3).
+
+**3. Exemple pratique**
+En réfléchissant à tout ce qui a été vu dans PURPLE-L2, un apprenant fait le bilan de sa littératie juridique grandissante : au départ, il n'arrivait pas à distinguer un contrat exécutoire d'une entente vague, et il comprend maintenant des instruments de base qui touchent les contrats, la planification successorale, l'emploi, la propriété intellectuelle et le règlement des différends, ainsi que les fondements juridiques de base (contractuel, délictuel, réglementaire) qui régissent différentes situations. Il reconnaît que PURPLE-L3 s'appuiera sur cette base en combinant ces instruments individuels dans des décisions de structuration plus complexes et réalistes, tout comme RED-L3, WHITE-L3 et BLUE-L3 s'appuient sur leur propre base de niveau 2.
+
+**4. Quiz de pratique**
+1. Selon le résumé de cette leçon, quel était le cœur de PURPLE-L2?
+   a) Uniquement une stratégie avancée de litige international
+   b) Les instruments juridiques de base, les cadres de responsabilité et les liens juridiques entre les couleurs
+   c) Uniquement le développement immobilier
+   d) La construction d'un portefeuille de placements
+2. Selon cette leçon, quel changement PURPLE-L3 annonce-t-il?
+   a) Abandonner tout ce qui a été appris dans PURPLE-L2
+   b) Aller vers des décisions de structuration juridique de plus en plus réalistes et intégrées qui combinent plusieurs instruments
+   c) Revenir uniquement aux définitions du niveau 1
+   d) Se concentrer seulement sur le droit immobilier
+3. Vrai ou faux : PURPLE-L2 met complètement fin à la discussion sur les instruments juridiques, sans lien avec les niveaux suivants.
+4. Sur quoi PURPLE-L3 s'appuiera-t-il directement à partir des thèmes de cette leçon?
+   a) Rien en lien avec PURPLE-L2
+   b) La base de PURPLE-L2, appliquée à des scénarios de structuration juridique plus complexes et intégrés
+   c) Seulement le fonctionnement des obligations
+   d) Seulement le droit de la publicité
+
+**5. Corrigé**
+1. b  2. b  3. Faux  4. b
+
+**6. Réponses et explications**
+1. Le cœur de PURPLE-L2 couvrait les instruments de base, les cadres de responsabilité et les liens juridiques entre les couleurs.
+2. On annonce que PURPLE-L3 ira vers des décisions de structuration juridique plus complexes et intégrées qui combinent plusieurs instruments.
+3. Cette leçon fait explicitement le pont vers la suite du développement de ces thèmes juridiques au niveau 3.
+4. On annonce que PURPLE-L3 s'appuiera directement sur la base de PURPLE-L2, appliquée à des scénarios plus complexes et intégrés.
+
+**7. Points clés à retenir**
+- PURPLE-L2 est passé de la formation de base des contrats aux instruments spécialisés, à la propriété intellectuelle, à la responsabilité, au règlement des différends et à la gouvernance.
+- Le niveau s'est conclu par un cadre de décision juridique complet, en écho aux structures des parcours RED, WHITE et BLUE.
+- PURPLE-L3 s'appuiera sur cette base en combinant des instruments individuels dans des décisions de structuration plus complexes et réalistes.
+- Cette progression reflète le cadre général des pièces d'échecs du programme, du niveau 1 au niveau 5.

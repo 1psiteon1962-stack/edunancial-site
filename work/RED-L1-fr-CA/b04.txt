@@ -1,0 +1,656 @@
+===== RED-L1-033
+TITLE: Qu'est-ce que le zonage et pourquoi ne pouvez-vous pas construire n'importe quoi, n'importe où?
+SUMMARY: Découvrez ce que contrôlent les règles de zonage, pourquoi elles existent et comment elles peuvent limiter ce qu'un propriétaire peut faire de sa propre propriété.
+# Qu'est-ce que le zonage et pourquoi ne pouvez-vous pas construire n'importe quoi, n'importe où?
+
+## Objectifs d'apprentissage
+
+À la fin de cette leçon, vous devriez pouvoir :
+
+- Définir le zonage en termes simples.
+- Expliquer ce que le zonage contrôle habituellement.
+- Expliquer pourquoi le zonage limite les droits de propriété.
+
+## Contenu principal
+
+### Ce qu'est le zonage
+
+Le zonage est un ensemble de règles de l'administration locale qui divise le territoire en catégories désignées (comme résidentielle, commerciale ou industrielle) et qui contrôle ce qui peut être construit et la façon dont le terrain peut être utilisé dans chaque catégorie. (Au Canada, ces règles sont surtout prévues dans les règlements de zonage municipaux.)
+
+### Ce qu'il contrôle habituellement
+
+Les règles de zonage portent couramment sur des éléments comme la hauteur des bâtiments, la superficie des terrains, la distance minimale entre une construction et la limite de la propriété (les marges de recul) et les types d'activités permises (usage résidentiel ou commercial, par exemple).
+
+### Pourquoi il limite les droits de propriété
+
+Même un propriétaire qui détient un titre juridique complet ne peut pas automatiquement construire ou exploiter ce qu'il veut : les règles de zonage sont une vraie limite aux droits de propriété, comme l'évoquait déjà la toute première leçon de ce parcours. Il est possible de modifier un zonage dans certains cas, mais ça exige habituellement une demande officielle et un processus d'approbation.
+
+## Exemple pratique
+
+Un propriétaire dans une zone exclusivement résidentielle veut ouvrir une petite boutique de détail chez lui. Les règles de zonage pourraient interdire complètement cet usage, ou exiger un permis spécial, peu importe les souhaits personnels du propriétaire.
+
+## Questionnaire pratique
+
+1. Le zonage est :
+   A. Un type d'assurance de biens
+   B. Un ensemble de règles de l'administration locale qui contrôle l'utilisation du sol et la construction
+   C. Un impôt fédéral sur l'immobilier
+   D. Une inspection préachat obligatoire
+
+2. Vrai ou faux : Un propriétaire peut construire ou exploiter ce qu'il veut sur son terrain, peu importe le zonage.
+
+3. Lequel de ces éléments le zonage contrôle-t-il couramment?
+   A. Le revenu personnel du propriétaire
+   B. La hauteur des bâtiments, la superficie des terrains et les usages permis
+   C. Le taux d'intérêt hypothécaire
+   D. Le prix de revente de la propriété
+
+## Corrigé
+
+1. B
+2. Faux
+3. B
+
+## Réponses et explications
+
+### Question 1
+
+Bonne réponse : B. Le zonage est un système de contrôle de l'utilisation du sol par l'administration locale.
+
+### Question 2
+
+Bonne réponse : Faux. Le zonage est une limite juridique réelle à ce qu'un propriétaire peut faire.
+
+### Question 3
+
+Bonne réponse : B. Le zonage porte couramment sur les caractéristiques des bâtiments et les usages permis.
+
+## Points clés
+
+- Le zonage est un système de l'administration locale qui contrôle l'utilisation du sol.
+- Il réglemente couramment les caractéristiques des bâtiments et les activités permises.
+- C'est une vraie limite aux droits de propriété, et non une simple suggestion.
+
+===== RED-L1-034
+TITLE: Immobilier résidentiel ou commercial : qu'est-ce qui change réellement?
+SUMMARY: Découvrez les différences de base entre l'immobilier résidentiel et l'immobilier commercial, au-delà du simple type de propriété.
+# Immobilier résidentiel ou commercial : qu'est-ce qui change réellement?
+
+## Objectifs d'apprentissage
+
+À la fin de cette leçon, vous devriez pouvoir :
+
+- Définir l'immobilier résidentiel et l'immobilier commercial.
+- Nommer au moins une façon dont le financement diffère entre les deux.
+- Nommer au moins une façon dont l'évaluation diffère entre les deux.
+
+## Contenu principal
+
+### Ce que veut généralement dire chaque catégorie
+
+L'immobilier résidentiel est généralement destiné à l'habitation. L'immobilier commercial est généralement destiné à un usage d'affaires : les immeubles de bureaux, les espaces commerciaux et les grands immeubles multilogements (souvent de cinq logements ou plus, abordés plus en profondeur au niveau 2) sont couramment classés comme commerciaux.
+
+### En quoi le financement diffère
+
+*(RÈGLE PROPRE À LA RÉGION : les détails varient selon le prêteur et l'endroit.)* Le financement commercial est généralement analysé différemment du financement résidentiel : il exige souvent des mises de fonds plus élevées et des durées de prêt plus courtes, et met davantage l'accent sur la capacité de la propriété à générer des revenus.
+
+### En quoi l'évaluation diffère
+
+Les propriétés résidentielles sont couramment évaluées à l'aide de comparables (ventes comparables). Les propriétés commerciales sont souvent évaluées davantage selon leur potentiel de revenus (comme le taux de capitalisation, présenté plus tôt dans ce parcours), ce qui reflète leur objectif sous-jacent différent.
+
+## Exemple pratique
+
+La valeur d'une maison unifamiliale est estimée en la comparant à des maisons semblables vendues récemment à proximité. La valeur d'un immeuble de bureaux est plus susceptible d'être estimée selon son potentiel de revenus de location par rapport à son prix.
+
+## Questionnaire pratique
+
+1. L'immobilier commercial est généralement destiné :
+   A. Seulement à l'habitation personnelle
+   B. À un usage d'affaires
+   C. Seulement au logement public
+   D. Exclusivement à l'usage agricole
+
+2. Vrai ou faux : Les propriétés résidentielles et commerciales sont habituellement financées et évaluées exactement de la même façon.
+
+3. Les propriétés résidentielles sont couramment évaluées à l'aide :
+   A. Exclusivement du taux de capitalisation
+   B. Des ventes comparables (comparables)
+   C. Seulement de la catégorie de zonage
+   D. Du revenu personnel du propriétaire
+
+## Corrigé
+
+1. B
+2. Faux
+3. B
+
+## Réponses et explications
+
+### Question 1
+
+Bonne réponse : B. L'immobilier commercial est généralement destiné à un usage d'affaires.
+
+### Question 2
+
+Bonne réponse : Faux. Les approches de financement et d'évaluation diffèrent couramment entre les deux catégories.
+
+### Question 3
+
+Bonne réponse : B. Les comparables sont l'approche d'évaluation résidentielle courante.
+
+## Points clés
+
+- L'immobilier résidentiel sert à l'habitation; l'immobilier commercial sert à un usage d'affaires.
+- Les approches de financement diffèrent couramment entre les deux.
+- Les méthodes d'évaluation diffèrent aussi couramment : les comparables pour le résidentiel, le potentiel de revenus pour le commercial.
+
+===== RED-L1-035
+TITLE: Qu'est-ce qu'une FPI? (L'immobilier sans posséder directement une propriété)
+SUMMARY: Découvrez ce qu'est une FPI, comment elle permet aux investisseurs d'accéder aux rendements immobiliers sans posséder de propriété physique, et le vrai compromis qu'elle comporte.
+# Qu'est-ce qu'une FPI? (L'immobilier sans posséder directement une propriété)
+
+## Objectifs d'apprentissage
+
+À la fin de cette leçon, vous devriez pouvoir :
+
+- Définir une FPI en termes simples.
+- Expliquer en quoi elle diffère de la propriété directe d'un bien physique.
+- Nommer un compromis lié à l'investissement au moyen d'une FPI.
+
+## Contenu principal
+
+### Ce qu'est une FPI
+
+Une FPI (fiducie ou fonds de placement immobilier; en anglais, *Real Estate Investment Trust* ou REIT) est une entité qui possède et exploite habituellement des immeubles générateurs de revenus, dont les parts se négocient un peu comme des actions. Acheter des parts d'une FPI donne à un investisseur une exposition aux rendements immobiliers sans acheter ni gérer directement de propriété physique. (Au Canada, la plupart des FPI cotées en Bourse sont structurées comme des fiducies de fonds commun de placement.)
+
+### En quoi elle diffère de la propriété directe
+
+Un investisseur dans une FPI ne s'occupe pas personnellement des locataires, des réparations ni de la gestion immobilière : c'est la FPI elle-même qui s'en charge. Ça renvoie à la notion d'actif papier de la boîte WHITE : une part de FPI est un actif papier qui offre des rendements liés à l'immobilier, ce qui combine les boîtes RED et WHITE.
+
+### Un vrai compromis
+
+En échange de cette commodité sans intervention directe, l'investisseur dans une FPI renonce au contrôle direct sur les propriétés précises qui sont achetées, vendues ou gérées, et sur la façon de le faire : ces décisions sont prises par la direction de la FPI plutôt que par l'investisseur individuel.
+
+## Exemple pratique
+
+Une investisseuse qui veut une exposition à l'immobilier, mais qui ne veut pas gérer de locataires ni de réparations, achète des parts d'une FPI plutôt que d'acheter directement une propriété locative : elle échange le contrôle direct contre la commodité.
+
+## Questionnaire pratique
+
+1. Une FPI est :
+   A. Un type de prêt hypothécaire
+   B. Une entité qui possède des immeubles générateurs de revenus, dont les parts sont négociables
+   C. Un programme gouvernemental de logement
+   D. Une inspection préachat obligatoire
+
+2. Vrai ou faux : Un investisseur dans une FPI gère personnellement les propriétés que possède la FPI.
+
+3. Quel est un compromis lié à l'investissement au moyen d'une FPI plutôt qu'à l'achat direct d'une propriété?
+   A. Il n'y a aucun compromis
+   B. L'investisseur renonce au contrôle direct sur les décisions liées aux propriétés précises
+   C. Les FPI garantissent des rendements plus élevés que la propriété directe
+   D. Les FPI éliminent tout risque de placement
+
+## Corrigé
+
+1. B
+2. Faux
+3. B
+
+## Réponses et explications
+
+### Question 1
+
+Bonne réponse : B. Une FPI est une entité qui possède des immeubles, dont les parts sont négociables.
+
+### Question 2
+
+Bonne réponse : Faux. C'est la direction de la FPI qui prend les décisions liées aux propriétés, et non les porteurs de parts individuels.
+
+### Question 3
+
+Bonne réponse : B. Les investisseurs échangent le contrôle direct contre une commodité sans intervention directe.
+
+## Points clés
+
+- Une FPI offre une exposition à l'immobilier au moyen de parts négociables.
+- Elle combine les boîtes RED et WHITE : un actif papier lié à l'immobilier.
+- Les investisseurs renoncent au contrôle direct des propriétés en échange de la commodité.
+
+===== RED-L1-036
+TITLE: Qu'est-ce que le « house hacking »?
+SUMMARY: Découvrez ce que veut dire le « house hacking », comment il peut réduire les coûts de logement et une vraie limite à prendre en considération.
+# Qu'est-ce que le « house hacking »?
+
+## Objectifs d'apprentissage
+
+À la fin de cette leçon, vous devriez pouvoir :
+
+- Définir le « house hacking » en termes simples.
+- Expliquer comment il peut réduire les coûts de logement d'un propriétaire.
+- Nommer une vraie limite de cette stratégie.
+
+## Contenu principal
+
+### Ce qu'est le « house hacking »
+
+Le « house hacking » consiste à habiter une partie d'une propriété tout en louant une autre partie : on le fait couramment en achetant un petit immeuble multilogement (comme un duplex ou un triplex), en habitant un logement et en louant les autres. (Au Québec, c'est la formule bien connue du propriétaire occupant d'un « plex ».)
+
+### Comment il réduit les coûts de logement
+
+Les revenus de location des autres logements peuvent compenser une partie ou la totalité du paiement hypothécaire du propriétaire, ce qui réduit dans les faits (ou, dans certains cas, élimine) son coût de logement personnel pendant qu'il accumule de la valeur nette.
+
+### Une vraie limite
+
+Le « house hacking » exige de vivre près de ses locataires, ce qui n'est ni attrayant ni pratique pour tout le monde, et il comporte quand même de vraies responsabilités de propriétaire-bailleur (abordées plus tôt dans ce parcours), même si le propriétaire habite aussi sur place.
+
+## Exemple pratique
+
+Un propriétaire achète un duplex, habite un logement et loue l'autre 1 400 $ par mois. Si son paiement hypothécaire total est de 1 800 $ par mois, son coût de logement réellement payé de sa poche tombe à 400 $ par mois.
+
+## Questionnaire pratique
+
+1. Le « house hacking » veut généralement dire :
+   A. Louer une propriété entière tout en habitant ailleurs
+   B. Habiter une partie d'une propriété tout en louant une autre partie
+   C. Revendre des propriétés rapidement pour faire un profit
+   D. Éviter complètement l'impôt foncier
+
+2. Vrai ou faux : Le « house hacking » peut réduire le coût de logement réel d'un propriétaire grâce aux revenus de location.
+
+3. Quelle est une vraie limite du « house hacking »?
+   A. Il est illégal dans la plupart des endroits
+   B. Il exige de vivre près de ses locataires et comporte quand même des responsabilités de propriétaire-bailleur
+   C. Il garantit que le propriétaire ne paiera jamais de prêt hypothécaire
+   D. Il fonctionne seulement pour les propriétés commerciales
+
+## Corrigé
+
+1. B
+2. Vrai
+3. B
+
+## Réponses et explications
+
+### Question 1
+
+Bonne réponse : B. Le « house hacking » consiste à habiter une partie d'une propriété tout en louant le reste.
+
+### Question 2
+
+Bonne réponse : Vrai. Les revenus de location peuvent compenser le coût de logement du propriétaire.
+
+### Question 3
+
+Bonne réponse : B. La proximité des locataires et les responsabilités continues de propriétaire-bailleur sont de vraies limites.
+
+## Points clés
+
+- Le « house hacking » consiste à habiter une partie d'une propriété tout en louant le reste.
+- Il peut réduire de façon importante le coût de logement réel d'un propriétaire.
+- Il comporte quand même de vraies responsabilités de propriétaire-bailleur et la proximité des locataires.
+
+===== RED-L1-037
+TITLE: Qu'est-ce que le « wholesaling » en immobilier?
+SUMMARY: Découvrez ce que veut dire le « wholesaling », en quoi il diffère de l'achat d'une propriété et pourquoi il dépend beaucoup de la capacité à trouver des vendeurs motivés.
+# Qu'est-ce que le « wholesaling » en immobilier?
+
+## Objectifs d'apprentissage
+
+À la fin de cette leçon, vous devriez pouvoir :
+
+- Définir le « wholesaling » en termes simples.
+- Expliquer en quoi il diffère de l'achat réel d'une propriété.
+- Expliquer pourquoi la stratégie dépend de la capacité à trouver des vendeurs motivés.
+
+## Contenu principal
+
+### Ce qu'est le « wholesaling »
+
+Le « wholesaling » (une forme de revente de contrat) consiste à obtenir une promesse d'achat acceptée sur une propriété à un prix avantageux, puis à céder (vendre) ce contrat à un autre acheteur moyennant des frais, souvent sans que le « wholesaler » devienne jamais réellement propriétaire. (Au Canada, ce genre d'activité peut être encadré par les lois provinciales sur le courtage immobilier; il vaut la peine de vérifier les règles applicables avant de s'y lancer.)
+
+### En quoi il diffère de l'achat d'une propriété
+
+Un investisseur traditionnel achète une propriété pour la garder ou la rénover. Un « wholesaler » ne devient généralement jamais propriétaire : son profit vient de la différence entre le prix prévu au contrat et ce que l'acheteur final paie pour obtenir le contrat, un sujet abordé plus en détail dans une leçon ultérieure sur la cession de contrat.
+
+### Pourquoi il dépend des vendeurs motivés
+
+Le « wholesaling » fonctionne généralement seulement lorsqu'un vendeur est prêt à vendre sous la valeur marchande habituelle, souvent en raison d'une urgence (difficultés financières, propriété reçue en héritage ou besoin de vendre rapidement). Trouver ces vendeurs de façon constante est la compétence de base dont dépend la stratégie.
+
+## Exemple pratique
+
+Un « wholesaler » trouve une propriété en difficulté, obtient une promesse d'achat acceptée à 150 000 $, puis cède ce contrat à un investisseur prêt à payer 160 000 $ pour le reprendre : le « wholesaler » réalise un profit de 10 000 $ sans jamais devenir propriétaire.
+
+## Questionnaire pratique
+
+1. Le « wholesaling » en immobilier consiste généralement à :
+   A. Acheter et rénover personnellement une propriété
+   B. Obtenir un contrat d'achat sur une propriété et céder ce contrat à un autre acheteur moyennant des frais
+   C. Louer une propriété à long terme
+   D. Gérer une propriété au nom d'un autre propriétaire
+
+2. Vrai ou faux : Un « wholesaler » devient habituellement pleinement propriétaire de la propriété avant de la revendre.
+
+3. De quoi le « wholesaling » dépend-il généralement?
+   A. Seulement d'acheteurs ayant un excellent crédit
+   B. De vendeurs motivés prêts à vendre sous la valeur marchande habituelle
+   C. De propriétés n'ayant absolument aucun problème juridique
+   D. De subventions gouvernementales
+
+## Corrigé
+
+1. B
+2. Faux
+3. B
+
+## Réponses et explications
+
+### Question 1
+
+Bonne réponse : B. Le « wholesaling » consiste à céder un contrat d'achat moyennant des frais.
+
+### Question 2
+
+Bonne réponse : Faux. Les « wholesalers » ne deviennent habituellement jamais propriétaires.
+
+### Question 3
+
+Bonne réponse : B. Les vendeurs motivés prêts à vendre sous la valeur marchande sont au cœur de la stratégie.
+
+## Points clés
+
+- Le « wholesaling » consiste à céder un contrat d'achat moyennant des frais, et non à acheter la propriété.
+- Le « wholesaler » ne devient habituellement jamais propriétaire.
+- La stratégie dépend beaucoup de la capacité à trouver des vendeurs motivés.
+
+===== RED-L1-038
+TITLE: Qu'est-ce que la revente rapide (« flip ») et qu'est-ce qui peut mal tourner?
+SUMMARY: Découvrez ce que veut dire la revente rapide d'une propriété, et les vrais risques qui peuvent transformer un projet prometteur en perte.
+# Qu'est-ce que la revente rapide (« flip ») et qu'est-ce qui peut mal tourner?
+
+## Objectifs d'apprentissage
+
+À la fin de cette leçon, vous devriez pouvoir :
+
+- Définir la revente rapide en termes simples.
+- Nommer au moins deux vrais risques liés à la revente rapide.
+- Expliquer pourquoi la revente rapide exige une participation plus active que bien d'autres stratégies.
+
+## Contenu principal
+
+### Ce qu'est la revente rapide
+
+La revente rapide (en anglais, *flipping*) consiste à acheter une propriété, habituellement à l'améliorer par des réparations ou des rénovations, puis à la revendre assez rapidement pour faire un profit.
+
+### Ce qui peut mal tourner
+
+La revente rapide comporte de vrais risques : les coûts de rénovation dépassent couramment le budget, les échéanciers s'allongent souvent au-delà de ce qui était prévu (ce qui augmente les frais de possession, comme le prêt hypothécaire et les impôts fonciers), et le marché local peut changer entre l'achat et la vente, ce qui modifie la valeur de revente prévue. (Au Canada, les profits d'une revente rapide sont souvent imposés comme un revenu d'entreprise plutôt que comme un gain en capital, et une règle fédérale vise précisément les propriétés résidentielles revendues moins de 12 mois après leur achat.)
+
+### Pourquoi elle exige une participation active
+
+Contrairement à l'investissement locatif à long terme, la revente rapide est une stratégie active et concrète qui exige une vraie compétence en gestion de projet (ou une relation de confiance bien gérée avec un entrepreneur), et non un placement passif.
+
+## Exemple pratique
+
+Un investisseur achète une maison à rénover en prévoyant trois mois de travaux et une revente rapide. Des réparations structurelles imprévues allongent le projet à sept mois, et le marché local s'affaiblit légèrement pendant cette période : un profit prévu se transforme en une marge beaucoup plus mince.
+
+## Questionnaire pratique
+
+1. La revente rapide veut généralement dire :
+   A. Louer une propriété à long terme
+   B. Acheter, améliorer et revendre rapidement une propriété pour faire un profit
+   C. Garder une propriété indéfiniment sans la modifier
+   D. Céder un contrat d'achat sans devenir propriétaire
+
+2. Vrai ou faux : La revente rapide est généralement considérée comme une stratégie de placement passive.
+
+3. Quel est un vrai risque couramment lié à la revente rapide?
+   A. Un profit garanti, peu importe les coûts
+   B. Des coûts de rénovation et des échéanciers qui dépassent le budget
+   C. Aucune exposition aux changements du marché
+   D. Aucuns frais de possession
+
+## Corrigé
+
+1. B
+2. Faux
+3. B
+
+## Réponses et explications
+
+### Question 1
+
+Bonne réponse : B. La revente rapide consiste à acheter, à améliorer et à revendre rapidement pour faire un profit.
+
+### Question 2
+
+Bonne réponse : Faux. La revente rapide est une stratégie active et concrète.
+
+### Question 3
+
+Bonne réponse : B. Les dépassements de coûts et d'échéanciers sont des risques réels courants.
+
+## Points clés
+
+- La revente rapide consiste à acheter, à améliorer et à revendre rapidement pour faire un profit.
+- Les vrais risques comprennent les dépassements de coûts, les retards d'échéancier et les changements du marché.
+- La revente rapide est une stratégie active, et non passive.
+
+===== RED-L1-039
+TITLE: Qu'est-ce qu'une soumission d'entrepreneur et pourquoi varient-elles autant?
+SUMMARY: Découvrez ce que représente réellement une soumission d'entrepreneur, et pourquoi il compte d'en obtenir plusieurs.
+# Qu'est-ce qu'une soumission d'entrepreneur et pourquoi varient-elles autant?
+
+## Objectifs d'apprentissage
+
+À la fin de cette leçon, vous devriez pouvoir :
+
+- Définir une soumission d'entrepreneur en termes simples.
+- Expliquer pourquoi les soumissions de différents entrepreneurs peuvent varier beaucoup.
+- Expliquer pourquoi il est courant d'obtenir plusieurs soumissions.
+
+## Contenu principal
+
+### Ce qu'est une soumission d'entrepreneur
+
+Une soumission (ou estimation) d'entrepreneur est un coût prévu pour un projet de rénovation ou de réparation précis, fourni avant le début des travaux. C'est une estimation, et pas nécessairement un prix final garanti, à moins qu'elle soit structurée comme un contrat à prix forfaitaire.
+
+### Pourquoi les soumissions varient autant
+
+Différents entrepreneurs peuvent utiliser des taux de main-d'œuvre, des sources d'approvisionnement en matériaux, des échéanciers et des hypothèses sur l'étendue des travaux différents, ce qui peut produire des chiffres très différents pour ce qui semble être le même travail.
+
+### Pourquoi plusieurs soumissions comptent
+
+Obtenir plusieurs soumissions pour le même projet aide un propriétaire à repérer une fourchette de prix raisonnable et à détecter les valeurs aberrantes (soit étonnamment basses, ce qui peut signaler qu'on rognera sur la qualité, soit déraisonnablement élevées). C'est une forme de base de vérification diligente avant de s'engager dans une dépense importante. (Au Québec, il vaut aussi la peine de vérifier que l'entrepreneur détient une licence de la Régie du bâtiment du Québec.)
+
+## Exemple pratique
+
+Une propriétaire obtient trois soumissions pour la rénovation de sa cuisine : 18 000 $, 22 000 $ et 35 000 $. L'écart important lui indique qu'elle doit comprendre ce qui est réellement inclus dans chaque soumission avant de choisir, plutôt que de prendre par défaut le chiffre le plus bas.
+
+## Questionnaire pratique
+
+1. Une soumission d'entrepreneur est :
+   A. Un prix final garanti dans tous les cas
+   B. Un coût prévu pour un projet, fourni avant le début des travaux
+   C. Un type d'assurance de biens
+   D. Un prix de rénovation fixé par le gouvernement
+
+2. Vrai ou faux : Différents entrepreneurs fourniront habituellement des soumissions identiques pour le même projet.
+
+3. Pourquoi est-il courant d'obtenir plusieurs soumissions?
+   A. C'est exigé par la loi dans tous les cas
+   B. Ça aide à repérer une fourchette de prix raisonnable et à détecter les valeurs aberrantes
+   C. Ça garantit que le prix le plus bas sera le meilleur choix
+   D. Ça n'a aucun avantage réel
+
+## Corrigé
+
+1. B
+2. Faux
+3. B
+
+## Réponses et explications
+
+### Question 1
+
+Bonne réponse : B. Une soumission est un coût prévu, et pas automatiquement un prix garanti.
+
+### Question 2
+
+Bonne réponse : Faux. Les soumissions varient couramment en raison d'hypothèses et de prix différents.
+
+### Question 3
+
+Bonne réponse : B. Plusieurs soumissions aident à repérer une fourchette raisonnable et à détecter les valeurs aberrantes.
+
+## Points clés
+
+- Une soumission d'entrepreneur est un coût prévu, et pas toujours un prix garanti.
+- Les soumissions varient en raison de taux, de sources d'approvisionnement et d'hypothèses sur l'étendue des travaux différents.
+- Obtenir plusieurs soumissions est une forme de base et précieuse de vérification diligente.
+
+===== RED-L1-040
+TITLE: Qu'est-ce qu'une cotisation spéciale d'une association de propriétaires?
+SUMMARY: Découvrez ce qu'est une cotisation spéciale d'une association de propriétaires, pourquoi elle survient et pourquoi c'est un coût réel et imprévu dont les propriétaires devraient être conscients.
+# Qu'est-ce qu'une cotisation spéciale d'une association de propriétaires?
+
+## Objectifs d'apprentissage
+
+À la fin de cette leçon, vous devriez pouvoir :
+
+- Définir une cotisation spéciale d'une association de propriétaires en termes simples.
+- Expliquer pourquoi elle pourrait survenir.
+- La reconnaître comme un risque de coût réel et imprévu lié à la propriété au sein d'une association.
+
+## Contenu principal
+
+### Ce qu'est une cotisation spéciale
+
+Une cotisation spéciale est un montant supplémentaire et ponctuel qu'une association de propriétaires (ou un syndicat de copropriété) exige de ses membres, en plus des frais réguliers, habituellement pour couvrir une dépense imprévue ou importante que le budget régulier ne couvre pas.
+
+### Pourquoi elle pourrait survenir
+
+Les déclencheurs courants comprennent des réparations majeures imprévues (comme une toiture ou une structure commune), un fonds de réserve insuffisant pour un projet prévu ou des dommages causés par un événement comme une tempête. Si les frais réguliers et le fonds de réserve de l'association ne suffisent pas, une cotisation spéciale comble l'écart.
+
+### Pourquoi c'est un vrai risque à connaître
+
+Comme une cotisation spéciale peut être une dépense importante et imprévue, un acheteur qui envisage une propriété relevant d'une association devrait examiner au préalable sa santé financière et l'état de son fonds de réserve : un fonds de réserve sain réduit (sans l'éliminer) le risque d'une importante cotisation surprise. (Au Québec, les syndicats de copropriété doivent maintenant tenir un fonds de prévoyance fondé sur une étude et un carnet d'entretien; demandez à consulter ces documents avant d'acheter.)
+
+## Exemple pratique
+
+La toiture d'un immeuble en copropriété doit être remplacée, et le fonds de réserve de l'association ne couvre qu'une partie du coût. L'association impose une cotisation spéciale qui oblige chaque copropriétaire à payer plusieurs milliers de dollars en plus de ses frais mensuels habituels.
+
+## Questionnaire pratique
+
+1. Une cotisation spéciale d'une association de propriétaires est :
+   A. Des frais mensuels réguliers de l'association
+   B. Un montant supplémentaire et ponctuel pour couvrir une dépense imprévue ou importante
+   C. Un impôt foncier gouvernemental
+   D. Des frais exigés seulement des nouveaux propriétaires
+
+2. Vrai ou faux : Un fonds de réserve bien garni peut réduire le risque d'une importante cotisation spéciale.
+
+3. Qu'est-ce qui pourrait déclencher une cotisation spéciale?
+   A. Une dépense courante entièrement budgétée
+   B. Une réparation majeure imprévue non couverte par les frais réguliers et les réserves
+   C. Une hausse du revenu personnel du propriétaire
+   D. Un changement des taux d'intérêt hypothécaires
+
+## Corrigé
+
+1. B
+2. Vrai
+3. B
+
+## Réponses et explications
+
+### Question 1
+
+Bonne réponse : B. Une cotisation spéciale est un montant ponctuel exigé pour une dépense imprévue ou importante.
+
+### Question 2
+
+Bonne réponse : Vrai. Un fonds de réserve sain réduit ce risque (sans l'éliminer).
+
+### Question 3
+
+Bonne réponse : B. Les réparations majeures imprévues sont un déclencheur courant.
+
+## Points clés
+
+- Une cotisation spéciale est un montant ponctuel qui s'ajoute aux frais réguliers de l'association.
+- Elle est habituellement déclenchée par des dépenses majeures imprévues ou mal financées.
+- Examiner la santé financière d'une association avant d'acheter peut réduire ce risque.
+
+===== RED-L1-041
+TITLE: Que couvre réellement l'assurance habitation (et que ne couvre-t-elle pas)?
+SUMMARY: Découvrez ce que couvre habituellement une police d'assurance habitation standard, et une lacune courante que les propriétaires devraient connaître.
+# Que couvre réellement l'assurance habitation (et que ne couvre-t-elle pas)?
+
+## Objectifs d'apprentissage
+
+À la fin de cette leçon, vous devriez pouvoir :
+
+- Nommer les catégories courantes que couvre une police d'assurance habitation standard.
+- Repérer une lacune courante dans la couverture standard.
+- Expliquer pourquoi il compte de lire les détails de la police.
+
+## Contenu principal
+
+### Ce qu'elle couvre habituellement
+
+*(RÈGLE PROPRE À LA RÉGION : la couverture exacte varie selon la police et l'endroit.)* Une police d'assurance habitation standard couvre couramment le bâtiment lui-même, les biens personnels, la responsabilité civile pour les blessures subies sur la propriété et les frais de subsistance supplémentaires si la maison devient temporairement inhabitable à la suite d'un sinistre couvert.
+
+### Une lacune courante
+
+Les polices standard excluent couramment certains événements, comme les inondations, qui exigent souvent une police entièrement distincte, abordée dans une leçon ultérieure. Supposer que « l'assurance habitation couvre tout » est un malentendu courant et coûteux. (Au Canada, la protection contre les inondations par eaux de surface est généralement offerte comme avenant facultatif à la police habitation, et non automatiquement incluse.)
+
+### Pourquoi il compte de lire les détails
+
+Les limites de couverture, les exclusions et les franchises varient considérablement d'une police et d'un assureur à l'autre. Une police qui semble semblable en surface peut offrir une protection réelle très différente selon ses conditions précises.
+
+## Exemple pratique
+
+Une propriétaire suppose que sa police standard couvre les dommages causés par une inondation. Lorsqu'une inondation survient, elle découvre que les inondations sont exclues de sa police standard et qu'il aurait fallu une assurance inondation distincte pour être couverte.
+
+## Questionnaire pratique
+
+1. Une police d'assurance habitation standard couvre couramment :
+   A. Rien qui touche le bâtiment lui-même
+   B. Le bâtiment, les biens, la responsabilité civile et les frais de subsistance supplémentaires
+   C. Seulement le terrain, et non le bâtiment
+   D. Les dommages causés par une inondation, automatiquement, dans tous les cas
+
+2. Vrai ou faux : L'assurance habitation standard inclut automatiquement la protection contre les inondations.
+
+3. Pourquoi est-il important de lire les détails de la police?
+   A. Ce ne l'est pas : toutes les polices sont identiques
+   B. Les limites de couverture et les exclusions varient considérablement d'une police à l'autre
+   C. Seul le prix compte, et non la couverture
+   D. Les polices n'ont jamais d'exclusions
+
+## Corrigé
+
+1. B
+2. Faux
+3. B
+
+## Réponses et explications
+
+### Question 1
+
+Bonne réponse : B. La couverture standard comprend couramment ces catégories de base.
+
+### Question 2
+
+Bonne réponse : Faux. La protection contre les inondations est une exclusion standard courante.
+
+### Question 3
+
+Bonne réponse : B. La couverture varie de façon importante d'une police et d'un assureur à l'autre.
+
+## Points clés
+
+- L'assurance habitation standard couvre le bâtiment, les biens, la responsabilité civile et les frais de subsistance.
+- L'inondation est une exclusion courante qui exige une protection distincte.
+- Il compte de lire les détails de la police, parce que la couverture varie considérablement.

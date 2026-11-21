@@ -1,0 +1,399 @@
+===== GREEN-L1-036
+TITLE: Tax Implications of Selling a Home
+SUMMARY: Introduces the general tax considerations that arise when selling a main home, connecting back to the capital gains lessons.
+# Tax Implications of Selling a Home
+
+## Learning Objectives
+
+- Connect home sales to the earlier capital gains concept.
+- Explain why many systems offer some favourable treatment for a main home.
+- Recognise the importance of tracking a home's base cost over time.
+
+## Core Content
+
+Selling a home is, at its core, another example of the capital gains concept covered earlier: sale price minus base cost (roughly, purchase price plus certain qualifying improvements) equals gain. But because a main home is such a common, significant life event rather than a pure investment transaction, many tax systems offer some favourable treatment — such as excluding some or all of the gain from tax — specifically for a main home, distinct from how they'd treat, say, a buy-to-let property. (In the UK, for example, Private Residence Relief usually means no Capital Gains Tax is due when you sell your only or main home, though the relief can be reduced if part of the home was let out or used exclusively for business; second homes and rental properties are usually taxable.)
+
+This is a strong real-world example of why tracking your base cost matters over time. If a homeowner makes significant qualifying improvements over the years — an extension, a major renovation — those costs can often increase the base cost, which reduces the taxable gain when the property eventually sells. Without records of those improvements, an owner may end up paying more tax than necessary simply because they can't document what they actually spent.
+
+## Worked Example
+
+**Question:** An owner of a buy-to-let flat pays for a major extension early on but never keeps records of the cost. Years later, they sell the flat at a large gain. What might this cost them?
+
+**Student:** Based on this lesson, without records of the extension's cost, they might not be able to increase their base cost, which could mean paying tax on a larger gain than necessary.
+
+**Guide:** What would have prevented this problem?
+
+**Student:** Keeping receipts and records of the improvement costs as they happened, tying back to the earlier record-keeping lesson.
+
+**Guide:** Exactly — this is a very concrete, expensive example of why that habit matters.
+
+## Practice Quiz
+
+**Question 1.** Selling a home is fundamentally an example of:
+
+A) Sales tax
+B) The capital gains concept — sale price minus base cost
+C) Payroll tax
+D) A tax credit
+
+**Question 2.** Why might many systems offer favourable treatment for a main home specifically?
+
+A) No real reason
+B) It's treated as a common, significant life event rather than a pure investment
+C) Homes are never sold
+D) Only investment properties get favourable treatment
+
+**Question 3.** Qualifying improvements can generally:
+
+A) Decrease the property's base cost
+B) Increase the property's base cost, reducing the taxable gain later
+C) Have no effect on base cost
+D) Only matter for rental properties
+
+**Question 4.** Without records of improvement costs, an owner risks:
+
+A) Nothing
+B) Paying more tax than necessary on the eventual sale
+C) An automatic refund
+D) Losing ownership of the home
+
+## Answer Key
+
+1. B, 2. B, 3. B, 4. B
+
+## Answers and Explanations
+
+**1.** A home sale follows the same basic gain calculation as any other capital asset sale.
+
+**2.** Main homes are often treated differently, reflecting their role as a life necessity rather than a pure investment vehicle.
+
+**3.** Qualifying improvements generally add to base cost, which can meaningfully lower the taxable gain upon sale.
+
+**4.** Missing documentation directly translates into a higher taxable gain and a larger unnecessary tax bill.
+
+## Key Takeaways
+
+- Selling a home follows the same basic capital gains logic as other asset sales.
+- Main homes often receive some favourable tax treatment.
+- Qualifying improvements can increase base cost, reducing the taxable gain later.
+- Poor record-keeping on property improvements can be a costly, avoidable mistake.
+
+===== GREEN-L1-037
+TITLE: Gift Tax and Inheritance Basics
+SUMMARY: Introduces the general concepts of gift and inheritance-related taxation, kept broad given wide variation across systems.
+# Gift Tax and Inheritance Basics
+
+## Learning Objectives
+
+- Explain the general concept behind gift-related taxation.
+- Explain the general concept behind inheritance/estate-related taxation.
+- Recognise that these rules vary enormously and are highly jurisdiction-specific.
+
+## Core Content
+
+Some tax systems apply rules to large gifts made during a person's lifetime and to assets transferred after death (often called inheritance or estate taxation). The general concern policymakers are addressing is the transfer of wealth outside of the income-earning system — since a gift or inheritance isn't 'earned' in the traditional sense, it raises different policy questions than a pay packet does. (In the UK, for example, Inheritance Tax may be due on an estate above a tax-free threshold, there is usually no tax between spouses or civil partners, and some lifetime gifts can still count towards the estate if the giver dies within seven years. Thresholds and reliefs change, so check GOV.UK.)
+
+This is an area where generalising too specifically would be misleading: the existence of these taxes, the thresholds at which they apply, who owes them (giver, receiver or estate), and the rates involved vary enormously by country, and many countries have no such tax at all, or apply it only above high thresholds that affect a small percentage of transfers. The practical lesson here isn't a rule to memorise — it's a flag: if you're the giver, receiver, or heir in a genuinely large gift or inheritance situation, this is squarely the kind of scenario that calls for professional guidance rather than assumptions.
+
+## Worked Example
+
+**Question:** A family is planning to pass a large family business down to the next generation. Should they assume the tax rules they've heard about from a friend in another country apply to them?
+
+**Student:** Based on this lesson, definitely not — these rules vary enormously by country and situation.
+
+**Guide:** What would be the responsible next step for this family?
+
+**Student:** Get advice from a qualified professional familiar with their specific country's rules, rather than relying on second-hand information from somewhere else.
+
+**Guide:** Exactly — this is a textbook 'see a professional' situation, using the doctor analogy from earlier in the curriculum.
+
+## Practice Quiz
+
+**Question 1.** Gift and inheritance-related taxes generally concern:
+
+A) Regular pay packets
+B) Transfers of wealth outside the normal income-earning system
+C) Sales tax on groceries
+D) Payroll tax deductions
+
+**Question 2.** Do all countries apply the same gift/inheritance tax rules?
+
+A) Yes, universally
+B) No — rules vary enormously, and many countries have no such tax or high thresholds
+C) Only wealthy countries have any rules
+D) These taxes have never existed anywhere
+
+**Question 3.** The practical lesson from this topic is:
+
+A) Memorise one country's specific thresholds
+B) Recognise this as a flag for seeking professional guidance in real situations
+C) Ignore large gifts entirely
+D) Assume no tax ever applies anywhere
+
+**Question 4.** This lesson connects to which earlier curriculum concept?
+
+A) The doctor analogy — consulting a professional for complex situations
+B) Public goods
+C) Sales tax collection
+D) Marginal tax bands
+
+## Answer Key
+
+1. B, 2. B, 3. B, 4. A
+
+## Answers and Explanations
+
+**1.** These taxes generally target wealth moving outside the typical earned-income framework.
+
+**2.** Enormous variation, including many countries with no such tax at all, makes broad generalisation unreliable here.
+
+**3.** The durable takeaway is recognising when a situation calls for expert help, not memorising rules that may not even apply.
+
+**4.** This is a direct, concrete application of the earlier lesson comparing legal/tax risk consultation to seeing a doctor.
+
+## Key Takeaways
+
+- Gift and inheritance taxes concern wealth transfers outside normal earned income.
+- Rules vary enormously by country — many have none, or apply only above high thresholds.
+- The key lesson is recognising when to seek professional guidance, not memorising specific rules.
+- Large or complex gift/inheritance situations are a clear case for professional consultation.
+
+===== GREEN-L1-038
+TITLE: Sin Taxes and Excise Duties
+SUMMARY: Introduces excise taxes and duties, often called 'sin taxes' when applied to specific goods like alcohol or tobacco, as a distinct policy-driven tax category.
+# Sin Taxes and Excise Duties
+
+## Learning Objectives
+
+- Define an excise tax or duty.
+- Explain the term 'sin tax' and the policy reasoning behind it.
+- Distinguish excise taxes from general sales tax.
+
+## Core Content
+
+An excise tax — in the UK usually called a duty — is a tax applied to a specific good or activity, rather than to purchases in general the way a broad sales tax or VAT is. When an excise tax targets a good considered harmful in excess — alcohol, tobacco, and sometimes sugary drinks are common examples — it's often informally called a 'sin tax.' (In the UK, for example, there are duties on alcohol, tobacco and fuel, and the Soft Drinks Industry Levy is charged on producers and importers of drinks with added sugar; VAT is then usually charged on top of the duty-inclusive price.)
+
+The policy reasoning behind sin taxes usually has two parts: raising revenue, and discouraging consumption of the taxed good by making it more expensive. Unlike general sales tax, which applies broadly and neutrally across most purchases, excise taxes are deliberately narrow and targeted, reflecting a specific policy judgement about that particular good or activity. Whether sin taxes actually reduce consumption effectively, and whether they disproportionately burden lower-income consumers, are genuinely debated questions rather than settled facts.
+
+## Worked Example
+
+**Question:** A government adds an extra tax specifically on sugary fizzy drinks, on top of the regular sales tax that applies to most retail purchases. What kind of tax is the extra charge?
+
+**Student:** Based on this lesson, that sounds like an excise tax, since it's targeted specifically at one product rather than purchases in general.
+
+**Guide:** What's the likely dual purpose behind that kind of targeted tax?
+
+**Student:** Raising revenue, and also discouraging consumption of those drinks by making them more expensive.
+
+**Guide:** Exactly — and it's worth noting that both of those effects, and their fairness, are genuinely debated.
+
+## Practice Quiz
+
+**Question 1.** An excise tax is best described as:
+
+A) A broad tax on all purchases
+B) A tax targeted at a specific good or activity
+C) The same as income tax
+D) A type of property tax
+
+**Question 2.** A 'sin tax' is:
+
+A) Unrelated to excise taxes
+B) An informal term for an excise tax on goods considered harmful in excess
+C) A tax on income only
+D) A type of tax credit
+
+**Question 3.** The typical dual purpose behind sin taxes is:
+
+A) No purpose at all
+B) Raising revenue and discouraging consumption
+C) Only discouraging consumption, never raising revenue
+D) Only raising revenue, with no behavioural goal
+
+**Question 4.** Is the effectiveness and fairness of sin taxes a settled question?
+
+A) Yes, universally agreed
+B) No — it's a genuinely debated policy question
+C) Only debated in one country
+D) It's never been discussed
+
+## Answer Key
+
+1. B, 2. B, 3. B, 4. B
+
+## Answers and Explanations
+
+**1.** Excise taxes zero in on a specific product or activity rather than applying broadly.
+
+**2.** The 'sin tax' label reflects the targeted good being considered harmful in excess, like alcohol or tobacco.
+
+**3.** Revenue generation and discouraging the behaviour are the two commonly cited goals behind these targeted taxes.
+
+**4.** Reasonable people disagree about how well sin taxes work and who actually bears their burden.
+
+## Key Takeaways
+
+- Excise taxes target specific goods or activities, unlike broad general sales tax.
+- 'Sin tax' is an informal term for excise taxes on goods considered harmful in excess.
+- The typical goals are revenue and discouraging consumption.
+- Effectiveness and fairness of sin taxes remain genuinely debated.
+
+===== GREEN-L1-039
+TITLE: Tariffs: Taxes on Imported Goods
+SUMMARY: Introduces tariffs, or customs duties, as a tax on goods crossing a border, connecting to trade policy at a basic conceptual level.
+# Tariffs: Taxes on Imported Goods
+
+## Learning Objectives
+
+- Define a tariff.
+- Explain who typically ends up bearing the cost of a tariff.
+- Recognise tariffs as both a revenue tool and a trade policy tool.
+
+## Core Content
+
+A tariff, also called a customs duty, is a tax applied to goods when they're imported into a country from abroad. Unlike sales tax, which applies to purchases generally, or excise duty, which targets specific goods regardless of origin, a tariff specifically targets goods crossing a border into the country. (In the UK, for example, customs duty rates are set out in the UK Global Tariff, and many goods from countries with a trade agreement with the UK can be imported at reduced or zero rates if they meet the rules of origin.)
+
+Tariffs serve two commonly cited purposes: generating government revenue, and protecting domestic industries by making imported goods more expensive relative to domestically produced alternatives. An important, often-overlooked point is that while tariffs are technically charged to the importing business, the added cost is frequently passed along to consumers through higher prices — meaning the people paying more at the till may be far removed from any conversation about trade policy. Whether a given tariff actually helps or hurts a country's overall economy is a heavily debated question in economics, with real trade-offs on both sides.
+
+## Worked Example
+
+**Question:** A country adds a tariff on imported steel to protect domestic steel manufacturers. Who is likely to ultimately feel the cost of that tariff?
+
+**Student:** Based on this lesson, it's technically charged to the importing businesses, but the cost is often passed along to consumers through higher prices.
+
+**Guide:** So who might end up paying more, even if they never directly deal with steel imports themselves?
+
+**Student:** Consumers buying products made with that steel — cars, appliances, construction — could see higher prices, even though the tariff itself was charged to a business.
+
+**Guide:** Exactly — tariffs have ripple effects well beyond the specific businesses directly taxed.
+
+## Practice Quiz
+
+**Question 1.** A tariff is a tax applied to:
+
+A) All domestic purchases
+B) Goods imported into a country from abroad
+C) Only services, never goods
+D) Investment income
+
+**Question 2.** Tariffs are commonly used to:
+
+A) Generate revenue and protect domestic industries
+B) Eliminate all trade
+C) Only benefit foreign companies
+D) Reduce domestic prices
+
+**Question 3.** Who often ends up bearing the real cost of a tariff, even though it's charged to importers?
+
+A) No one — tariffs have no downstream cost
+B) Consumers, through higher prices
+C) Only foreign governments
+D) Only the importing business, with no pass-through
+
+**Question 4.** Is the overall economic effect of tariffs a settled question?
+
+A) Yes, always beneficial
+B) Yes, always harmful
+C) No — it's a heavily debated question with real trade-offs
+D) Tariffs have no economic effect
+
+## Answer Key
+
+1. B, 2. A, 3. B, 4. C
+
+## Answers and Explanations
+
+**1.** Tariffs are specifically tied to the act of importing goods across a border, distinguishing them from broader taxes.
+
+**2.** Revenue generation and domestic industry protection are the two purposes most commonly cited for tariffs.
+
+**3.** Cost pass-through means the practical burden often lands on everyday consumers, not just the businesses directly taxed.
+
+**4.** Economists genuinely disagree about the net effects of tariffs, which involve real trade-offs between different groups.
+
+## Key Takeaways
+
+- Tariffs tax goods imported across a border.
+- They're commonly used to raise revenue and protect domestic industries.
+- The real cost is often passed to consumers, even though tariffs are charged to importers.
+- The overall economic impact of tariffs is a genuinely debated question.
+
+===== GREEN-L1-040
+TITLE: Corporation Tax: How Companies Are Taxed
+SUMMARY: Introduces the general concept of a company as a taxable entity separate from its owners.
+# Corporation Tax: How Companies Are Taxed
+
+## Learning Objectives
+
+- Explain the concept of a company as a distinct taxable entity.
+- Distinguish company-level tax from tax owed by the company's owners.
+- Set up the concept of double taxation, covered in the next lesson.
+
+## Core Content
+
+In many legal and tax systems, a company (or corporation) is treated as its own distinct legal entity — separate from the people who own it. One consequence of this is that a company can itself be subject to tax on its profits, independent of any tax the company's owners (shareholders) might separately owe. (In the UK, for example, a limited company pays Corporation Tax on its taxable profits and files its own Company Tax Return with HMRC.)
+
+This is a meaningfully different structure than a sole trader business, where the business and the owner are the same for tax purposes, and business profit simply flows through to the owner's personal tax return. A company, by contrast, files and pays tax on its own profit first, as its own taxpayer. This sets up an important concept covered in the next lesson: what happens when that same profit is later distributed to shareholders, who may then owe their own tax on it — a scenario known as double taxation.
+
+## Worked Example
+
+**Question:** A friend is confused why a company would pay its own taxes, separate from the people who own it. How would you explain it?
+
+**Student:** Based on this lesson, a company is treated as its own separate legal entity, distinct from its owners.
+
+**Guide:** How does that differ from a sole trader?
+
+**Student:** For a sole trader, the business and owner are the same for tax purposes, so profit flows straight to the owner's personal return. A company is taxed separately, as its own taxpayer.
+
+**Guide:** Exactly — and that separation is exactly what sets up the double taxation issue covered next.
+
+## Practice Quiz
+
+**Question 1.** A company is generally treated as:
+
+A) The same entity as its owners
+B) A distinct legal entity, separate from its owners
+C) Not a taxable entity at all
+D) Only relevant outside the tax system
+
+**Question 2.** A company's profits can be subject to:
+
+A) No tax at all
+B) Tax at the company level, independent of the owners' own tax
+C) Only sales tax
+D) Only payroll tax
+
+**Question 3.** How does a sole trader business differ from a company for tax purposes?
+
+A) There's no difference
+B) For a sole trader, profit flows directly to the owner's personal return; a company is taxed separately first
+C) Sole traders pay Corporation Tax too
+D) Companies never pay any tax
+
+**Question 4.** This lesson sets up which upcoming concept?
+
+A) Sales tax
+B) Double taxation
+C) Property tax
+D) Payroll tax deductions
+
+## Answer Key
+
+1. B, 2. B, 3. B, 4. B
+
+## Answers and Explanations
+
+**1.** Legal separation between a company and its owners is the foundational concept behind company-level taxation.
+
+**2.** Corporation Tax applies to the entity's own profits, separately from whatever tax owners owe personally.
+
+**3.** Sole trader businesses collapse the business and owner into one taxpayer; companies do not.
+
+**4.** This structural separation is exactly what creates the double taxation issue explored in the next lesson.
+
+## Key Takeaways
+
+- A company is generally treated as a distinct legal entity from its owners.
+- This means a company can owe its own tax on profits, separate from its owners.
+- This differs from a sole trader, where profit flows directly to the owner's personal return.
+- This structure sets up the double taxation concept covered next.

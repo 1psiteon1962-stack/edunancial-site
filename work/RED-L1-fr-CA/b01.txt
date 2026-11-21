@@ -1,0 +1,657 @@
+===== RED-L1-006
+TITLE: Qu'est-ce qu'une mise de fonds et pourquoi est-elle si importante?
+SUMMARY: Découvrez ce que fait réellement une mise de fonds — au-delà de simplement « réduire le prêt au départ » — et comment elle influe sur le risque, autant pour l'acheteur que pour le prêteur.
+# Qu'est-ce qu'une mise de fonds et pourquoi est-elle si importante?
+
+## Objectifs d'apprentissage
+
+À la fin de cette leçon, vous devriez pouvoir :
+
+- Définir une mise de fonds en termes simples.
+- Expliquer comment le montant de la mise de fonds influe sur le prêt et sur le paiement mensuel.
+- Expliquer pourquoi les prêteurs s'intéressent au montant de la mise de fonds au-delà des calculs.
+
+## Contenu principal
+
+### Ce qu'est une mise de fonds
+
+Une mise de fonds est la partie du prix d'achat d'une propriété qui est payée d'avance, comptant, plutôt qu'empruntée. Si une maison coûte 300 000 $ et que l'acheteur paie 30 000 $ d'avance, il s'agit d'une mise de fonds de 10 %, et les 270 000 $ restants sont financés au moyen d'un prêt hypothécaire.
+
+### L'effet sur le prêt
+
+Une mise de fonds plus élevée veut dire un montant de prêt plus petit, ce qui signifie généralement un paiement mensuel moins élevé et moins d'intérêts payés pendant la durée du prêt. Elle change directement les chiffres, et pas seulement le niveau de confort de l'acheteur.
+
+### Pourquoi les prêteurs s'y intéressent au-delà des calculs
+
+Une mise de fonds plus élevée signifie aussi que l'acheteur détient déjà une vraie valeur nette (et de l'argent réel) dans la propriété dès le premier jour, ce qui réduit le risque du prêteur : un acheteur qui a une valeur nette importante a davantage à perdre s'il cesse de payer. C'est en partie pourquoi les mises de fonds plus petites entraînent souvent des coûts supplémentaires, comme l'assurance prêt hypothécaire, abordée dans la prochaine leçon. (Au Canada, la mise de fonds minimale pour une résidence principale est généralement de 5 % sur la première tranche du prix, et plus élevée au-delà; les règles précises changent, alors vérifiez-les au moment de votre achat.)
+
+## Exemple pratique
+
+Une maison de 300 000 $ achetée avec une mise de fonds de 20 % (60 000 $) exige de financer 240 000 $. La même maison achetée avec une mise de fonds de 5 % (15 000 $) exige de financer 285 000 $ : un prêt plus important, un paiement mensuel plus élevé et plus d'intérêts payés au total avec le temps.
+
+## Questionnaire pratique
+
+1. Une mise de fonds est :
+   A. Des frais mensuels payés au prêteur
+   B. La partie du prix d'achat payée d'avance, comptant
+   C. Un type d'assurance habitation
+   D. Une taxe payée à la conclusion de la vente
+
+2. Vrai ou faux : Une mise de fonds plus élevée donne généralement un paiement hypothécaire mensuel moins élevé.
+
+3. Pourquoi les prêteurs considèrent-ils généralement qu'une mise de fonds plus élevée présente un risque moindre?
+   A. Elle garantit que la valeur de la maison augmentera
+   B. L'acheteur a davantage de son propre argent et de sa valeur nette en jeu
+   C. Elle élimine la nécessité d'une vérification de crédit
+   D. Elle raccourcit automatiquement la durée du prêt
+
+## Corrigé
+
+1. B
+2. Vrai
+3. B
+
+## Réponses et explications
+
+### Question 1
+
+Bonne réponse : B. Une mise de fonds est la partie du prix d'achat payée comptant, d'avance.
+
+### Question 2
+
+Bonne réponse : Vrai. Une mise de fonds plus élevée réduit le montant du prêt, ce qui réduit le paiement mensuel.
+
+### Question 3
+
+Bonne réponse : B. Lorsque l'acheteur a davantage de son propre argent en jeu, le risque de défaut de paiement pour le prêteur diminue.
+
+## Points clés
+
+- Une mise de fonds est la partie payée comptant, d'avance, lors de l'achat d'une maison.
+- Une mise de fonds plus élevée veut dire un prêt plus petit, des paiements moins élevés et moins d'intérêts au total.
+- Les prêteurs considèrent que les mises de fonds plus élevées présentent un risque moindre, parce que l'acheteur a davantage en jeu.
+
+===== RED-L1-007
+TITLE: Prêt hypothécaire à taux fixe ou à taux variable
+SUMMARY: Découvrez la vraie différence entre les prêts hypothécaires à taux fixe et à taux variable, et le compromis que représente chacun.
+# Prêt hypothécaire à taux fixe ou à taux variable
+
+## Objectifs d'apprentissage
+
+À la fin de cette leçon, vous devriez pouvoir :
+
+- Définir un prêt hypothécaire à taux fixe et un prêt hypothécaire à taux variable.
+- Expliquer le compromis entre la prévisibilité et les économies possibles.
+- Nommer un risque propre aux prêts hypothécaires à taux variable.
+
+## Contenu principal
+
+### Les prêts hypothécaires à taux fixe
+
+Un prêt hypothécaire à taux fixe garantit le même taux d'intérêt pendant toute la durée du prêt. Le paiement mensuel de capital et d'intérêts reste le même du premier au dernier paiement, ce qui rend le budget prévisible.
+
+### Les prêts hypothécaires à taux variable
+
+Un prêt hypothécaire à taux variable (ou rajustable) commence souvent avec un taux plus bas qu'un taux fixe comparable, mais ce taux peut changer périodiquement après une période initiale fixe, selon l'évolution générale des taux d'intérêt. Les paiements peuvent augmenter ou diminuer avec le temps. (Au Canada, le taux est habituellement garanti pour un « terme », souvent de cinq ans, plus court que la période d'amortissement totale; à chaque renouvellement, le taux est renégocié, même pour un prêt à taux fixe.)
+
+### Le vrai compromis
+
+Les prêts à taux fixe échangent un taux de départ potentiellement plus élevé contre une prévisibilité à long terme. Les prêts à taux variable échangent la prévisibilité contre un coût de départ potentiellement plus bas, avec le risque réel que les paiements augmentent plus tard. Aucun n'est meilleur dans tous les cas : tout dépend de la durée pendant laquelle une personne prévoit garder le prêt et de sa tolérance à l'incertitude quant à ses paiements.
+
+## Exemple pratique
+
+Un emprunteur à taux fixe paie le même montant la première année et la quinzième année. Un emprunteur à taux variable pourrait payer moins que l'emprunteur à taux fixe la première année, mais si les taux augmentent, il pourrait payer davantage dès la sixième année; l'inverse exact pourrait aussi se produire si les taux baissent.
+
+## Questionnaire pratique
+
+1. Un prêt hypothécaire à taux fixe :
+   A. Change automatiquement de taux chaque année
+   B. Garde le même taux d'intérêt pendant toute la durée du prêt
+   C. Est offert seulement aux premiers acheteurs
+   D. Comporte toujours un paiement plus élevé qu'un prêt à taux variable
+
+2. Vrai ou faux : Le paiement d'un prêt hypothécaire à taux variable ne peut jamais augmenter après la période initiale.
+
+3. Quel est le principal compromis entre les prêts hypothécaires à taux fixe et à taux variable?
+   A. La prévisibilité par rapport à un coût de départ potentiellement plus bas, avec un risque de changement
+   B. Des types de prêts légaux par rapport à des types de prêts illégaux
+   C. Des prêts garantis par l'État par rapport à des prêts privés
+   D. Une propriété à court terme par rapport à une propriété à long terme
+
+## Corrigé
+
+1. B
+2. Faux
+3. A
+
+## Réponses et explications
+
+### Question 1
+
+Bonne réponse : B. Un prêt hypothécaire à taux fixe garde le même taux pendant toute la durée du prêt.
+
+### Question 2
+
+Bonne réponse : Faux. Les paiements d'un prêt à taux variable peuvent augmenter (ou diminuer) après la période initiale fixe, selon l'évolution des taux.
+
+### Question 3
+
+Bonne réponse : A. Le compromis de base oppose la prévisibilité à long terme à un coût de départ potentiellement plus bas, assorti d'un risque lié aux taux futurs.
+
+## Points clés
+
+- Les prêts hypothécaires à taux fixe offrent un taux garanti et prévisible pendant toute la durée.
+- Les prêts à taux variable commencent souvent plus bas, mais peuvent changer après une période initiale.
+- Le bon choix dépend de la durée pendant laquelle une personne prévoit garder le prêt et de son aisance face à l'incertitude des paiements.
+
+===== RED-L1-008
+TITLE: Qu'est-ce que l'assurance prêt hypothécaire (PMI) et quand la payez-vous?
+SUMMARY: Découvrez ce que protège l'assurance prêt hypothécaire, qui elle protège réellement et quand elle s'applique à un prêt hypothécaire.
+# Qu'est-ce que l'assurance prêt hypothécaire (PMI) et quand la payez-vous?
+
+## Objectifs d'apprentissage
+
+À la fin de cette leçon, vous devriez pouvoir :
+
+- Définir l'assurance prêt hypothécaire en termes simples.
+- Expliquer qui l'assurance prêt hypothécaire protège réellement.
+- Expliquer quand l'assurance prêt hypothécaire est habituellement exigée, et quand elle peut disparaître.
+
+## Contenu principal
+
+### Ce qu'est l'assurance prêt hypothécaire
+
+L'assurance prêt hypothécaire privée (en anglais, *Private Mortgage Insurance* ou PMI) est une assurance qui protège le prêteur, et non l'emprunteur, si l'emprunteur cesse de rembourser le prêt. Aux États-Unis, il s'agit d'un coût mensuel supplémentaire ajouté au paiement hypothécaire.
+
+### Qui elle protège réellement
+
+C'est la partie la plus mal comprise : l'assurance prêt hypothécaire ne protège pas le propriétaire contre la perte de sa maison. Elle existe pour réduire le risque du prêteur sur les prêts où l'acheteur dispose d'un coussin de valeur nette plus mince, afin que le prêteur soit plus disposé à approuver le prêt au départ.
+
+### Quand elle est exigée, et quand elle prend fin
+
+Aux États-Unis, la PMI est habituellement exigée sur les prêts conventionnels lorsque la mise de fonds est inférieure à un certain seuil (souvent 20 %), parce qu'une mise de fonds plus petite signifie un coussin de valeur nette plus mince pour le prêteur. Elle peut souvent être retirée une fois que la valeur nette de l'emprunteur dans la maison atteint un seuil semblable, grâce aux paiements ou à l'appréciation. (Au Canada, l'assurance prêt hypothécaire, offerte notamment par la SCHL, est généralement obligatoire lorsque la mise de fonds est inférieure à 20 %; la prime est habituellement payée une seule fois et ajoutée au solde du prêt plutôt que facturée chaque mois, et elle ne disparaît pas à mesure que la valeur nette augmente.)
+
+## Exemple pratique
+
+Une acheteuse verse une mise de fonds de 10 % plutôt que de 20 % sur une maison. Comme son coussin de valeur nette est plus mince, le prêteur exige une assurance prêt hypothécaire comme condition d'approbation du prêt : un coût mensuel supplémentaire jusqu'à ce qu'elle ait accumulé assez de valeur nette.
+
+## Questionnaire pratique
+
+1. L'assurance prêt hypothécaire protège principalement :
+   A. Le propriétaire
+   B. Le prêteur
+   C. Le courtier immobilier
+   D. L'administration municipale
+
+2. Vrai ou faux : L'assurance prêt hypothécaire est habituellement exigée lorsque la mise de fonds est inférieure à un certain seuil, souvent 20 %.
+
+3. L'assurance prêt hypothécaire (PMI) peut-elle un jour être retirée d'un prêt?
+   A. Non, elle dure pendant toute la durée du prêt
+   B. Oui, souvent une fois qu'une valeur nette suffisante a été accumulée
+   C. Seulement si l'emprunteur refinance auprès d'un autre prêteur
+   D. Seulement une fois le prêt entièrement remboursé
+
+## Corrigé
+
+1. B
+2. Vrai
+3. B
+
+## Réponses et explications
+
+### Question 1
+
+Bonne réponse : B. L'assurance prêt hypothécaire protège le prêteur contre son risque, et non le propriétaire.
+
+### Question 2
+
+Bonne réponse : Vrai. Les mises de fonds plus petites (sous environ 20 % pour bien des prêts conventionnels) entraînent souvent l'obligation de souscrire une assurance prêt hypothécaire.
+
+### Question 3
+
+Bonne réponse : B. Aux États-Unis, la PMI peut souvent être retirée une fois que la valeur nette atteint un seuil suffisant.
+
+## Points clés
+
+- L'assurance prêt hypothécaire protège le prêteur, et non le propriétaire.
+- Elle est habituellement exigée lorsque la mise de fonds est inférieure à un certain seuil.
+- Aux États-Unis, la PMI peut souvent être retirée une fois qu'une valeur nette suffisante a été accumulée.
+
+===== RED-L1-009
+TITLE: Qu'est-ce que l'impôt foncier et qui le fixe?
+SUMMARY: Découvrez comment l'impôt foncier est calculé, qui fixe réellement le taux et pourquoi il peut changer même si le propriétaire ne fait rien.
+# Qu'est-ce que l'impôt foncier et qui le fixe?
+
+## Objectifs d'apprentissage
+
+À la fin de cette leçon, vous devriez pouvoir :
+
+- Expliquer ce que finance généralement l'impôt foncier.
+- Expliquer les facteurs de base qui déterminent le compte d'impôt foncier.
+- Expliquer pourquoi un compte d'impôt foncier peut changer sans que le propriétaire fasse quoi que ce soit.
+
+## Contenu principal
+
+### Ce que finance généralement l'impôt foncier
+
+L'impôt foncier est un impôt récurrent que les propriétaires paient à l'administration locale, selon la valeur de leur propriété. Il finance couramment des services locaux comme les écoles, les routes et les services d'urgence, bien que les utilisations exactes varient selon l'endroit. (Au Québec, on parle souvent de taxes municipales et de taxes scolaires.)
+
+### Ce qui détermine le compte
+
+*(RÈGLE PROPRE À LA RÉGION : les régimes d'impôt foncier varient considérablement d'un pays à l'autre, et même d'une administration locale à l'autre; ce qui suit décrit des mécanismes courants aux États-Unis.)* Un compte d'impôt foncier est généralement calculé en multipliant la valeur imposable de la propriété par un taux de taxation local, fixé par des organismes publics locaux (comme un comté ou un district scolaire), et non par le propriétaire. (Au Canada, le principe est semblable : la valeur inscrite au rôle d'évaluation est multipliée par les taux fixés par la municipalité et, selon la province, par l'autorité scolaire.)
+
+### Pourquoi le compte peut changer sans que le propriétaire fasse quoi que ce soit
+
+Si une administration locale augmente son taux de taxation, ou si la valeur imposable de la propriété augmente à la suite d'une nouvelle évaluation locale, le compte d'impôt peut augmenter même si le propriétaire n'a rien changé à sa propriété.
+
+## Exemple pratique
+
+Une maison évaluée à 250 000 $ dans un territoire où le taux de taxation est de 1,2 % devrait environ 3 000 $ par année en impôt foncier, avant toute exemption ou tout rajustement.
+
+## Questionnaire pratique
+
+1. L'impôt foncier est généralement payé :
+   A. Au gouvernement fédéral
+   B. À l'administration locale
+   C. Directement au prêteur hypothécaire, sans intervention de l'administration locale
+   D. À la compagnie d'assurance habitation du propriétaire
+
+2. Vrai ou faux : Le compte d'impôt foncier d'un propriétaire peut augmenter même s'il n'a apporté aucun changement à sa propriété.
+
+3. Quels sont les deux facteurs qui déterminent généralement un compte d'impôt foncier?
+   A. Le revenu et le pointage de crédit du propriétaire
+   B. La valeur imposable de la propriété et le taux de taxation local
+   C. Le taux d'intérêt hypothécaire et la durée du prêt
+   D. Le montant de la mise de fonds
+
+## Corrigé
+
+1. B
+2. Vrai
+3. B
+
+## Réponses et explications
+
+### Question 1
+
+Bonne réponse : B. L'impôt foncier est un impôt perçu par l'administration locale.
+
+### Question 2
+
+Bonne réponse : Vrai. Une hausse du taux ou une nouvelle évaluation peut augmenter le compte, indépendamment de ce que fait le propriétaire.
+
+### Question 3
+
+Bonne réponse : B. La valeur imposable et le taux de taxation local sont les éléments de base du calcul.
+
+## Points clés
+
+- L'impôt foncier est un impôt local récurrent fondé sur la valeur de la propriété.
+- Il est calculé à partir de la valeur imposable et d'un taux de taxation local.
+- Le compte peut changer en raison de décisions locales, et pas seulement des actions du propriétaire.
+
+===== RED-L1-010
+TITLE: Qu'est-ce qu'un privilège sur une propriété?
+SUMMARY: Découvrez ce qu'est réellement un privilège, comment il se rattache à une propriété et pourquoi il peut bloquer une vente tant qu'il n'est pas réglé.
+# Qu'est-ce qu'un privilège sur une propriété?
+
+## Objectifs d'apprentissage
+
+À la fin de cette leçon, vous devriez pouvoir :
+
+- Définir un privilège en termes simples.
+- Nommer au moins deux types courants de privilèges.
+- Expliquer pourquoi un privilège peut nuire à la vente d'une propriété.
+
+## Contenu principal
+
+### Ce qu'est un privilège
+
+Un privilège (en anglais, *lien*) est un droit juridique sur une propriété, qui garantit habituellement une dette. Parmi les exemples courants, on trouve l'hypothèque du prêteur (abordée plus tôt), le privilège fiscal (pour des impôts fonciers impayés) et le privilège de construction (le droit d'un entrepreneur impayé pour des travaux effectués sur la propriété). (Au Québec, le Code civil parle plutôt d'hypothèques, dont l'hypothèque légale de la construction, et de priorités, comme celle des créances municipales pour les impôts fonciers.)
+
+### Comment un privilège se rattache
+
+Un privilège est habituellement inscrit auprès d'un registre public, comme le registre foncier, et se rattache à la propriété elle-même plutôt qu'au propriétaire personnellement : il peut donc suivre la propriété, même lors d'une vente, s'il n'est pas réglé avant.
+
+### Pourquoi il peut bloquer une vente
+
+Comme un privilège est rattaché à la propriété, la plupart des acheteurs et des prêteurs exigeront qu'il soit radié avant la conclusion de la vente. Un privilège non réglé est une raison courante pour laquelle la vente d'une propriété est retardée ou échoue.
+
+## Exemple pratique
+
+Une propriétaire engage un entrepreneur pour une rénovation et ne paie pas la facture finale. L'entrepreneur peut inscrire un privilège de construction contre la propriété, qui devra être réglé avant que la maison puisse être vendue avec un titre libre de toute charge.
+
+## Questionnaire pratique
+
+1. Un privilège se décrit le mieux comme :
+   A. Un type d'assurance habitation
+   B. Un droit juridique sur une propriété, qui garantit habituellement une dette
+   C. Une subvention gouvernementale pour les acheteurs de maison
+   D. Une inspection obligatoire de la maison
+
+2. Vrai ou faux : Un privilège touche seulement le propriétaire actuel personnellement, et non la propriété elle-même.
+
+3. Qu'est-ce qu'un privilège de construction?
+   A. Un droit inscrit par un entrepreneur impayé pour des travaux effectués sur la propriété
+   B. Un type de prêt automobile
+   C. Une taxe gouvernementale sur les nouvelles constructions
+   D. Une forme d'assurance titres
+
+## Corrigé
+
+1. B
+2. Faux
+3. A
+
+## Réponses et explications
+
+### Question 1
+
+Bonne réponse : B. Un privilège est un droit juridique sur une propriété, habituellement lié à une dette.
+
+### Question 2
+
+Bonne réponse : Faux. Les privilèges se rattachent à la propriété elle-même, ce qui explique pourquoi ils peuvent la suivre lors d'une vente.
+
+### Question 3
+
+Bonne réponse : A. Un privilège de construction est inscrit par un entrepreneur impayé pour des travaux effectués sur la propriété.
+
+## Points clés
+
+- Un privilège est un droit juridique sur une propriété, qui garantit habituellement une dette.
+- Les privilèges se rattachent à la propriété, et pas seulement au propriétaire personnellement.
+- Les privilèges non réglés bloquent ou retardent couramment la vente de propriétés.
+
+===== RED-L1-011
+TITLE: États à certificats de privilège fiscal ou États à actes fiscaux : quelle est la vraie différence?
+SUMMARY: Découvrez comment les États américains à certificats de privilège fiscal et les États à actes fiscaux traitent différemment les impôts fonciers impayés, et ce qu'un investisseur reçoit réellement dans chaque cas.
+# États à certificats de privilège fiscal ou États à actes fiscaux : quelle est la vraie différence?
+
+## Objectifs d'apprentissage
+
+À la fin de cette leçon, vous devriez pouvoir :
+
+- Expliquer ce qui se passe dans un État à certificats de privilège fiscal lorsque les impôts fonciers ne sont pas payés.
+- Expliquer ce qui se passe dans un État à actes fiscaux lorsque les impôts fonciers ne sont pas payés.
+- Nommer la différence de base entre ce qu'un investisseur reçoit dans chaque cas.
+
+## Contenu principal
+
+### Les États à certificats de privilège fiscal
+
+*(RÈGLE PROPRE À LA RÉGION : ce régime varie d'un État américain à l'autre; tous les États n'utilisent pas ce système.)* Dans un État à certificats de privilège fiscal (en anglais, *tax lien state*), lorsqu'un propriétaire ne paie pas ses impôts fonciers, l'administration locale vend un certificat de privilège à un investisseur, qui paie les impôts en souffrance au nom du propriétaire. L'investisseur n'obtient pas la propriété : il obtient le droit de recouvrer la dette, plus les intérêts prévus par la loi. Si le propriétaire ne rembourse pas pendant une période de rachat déterminée, l'investisseur peut demander au tribunal le titre de la propriété.
+
+### Les États à actes fiscaux
+
+Dans un État à actes fiscaux (en anglais, *tax deed state*), des impôts fonciers impayés peuvent mener à la vente de la propriété elle-même aux enchères. Le plus offrant devient généralement le nouveau propriétaire, parfois immédiatement et parfois après une courte période de rachat, selon l'État. (Au Canada, ce système de certificats n'existe pas; les municipalités peuvent plutôt vendre une propriété pour non-paiement de taxes, et le Québec, par exemple, accorde à l'ancien propriétaire un délai d'un an pour exercer son droit de retrait.)
+
+### La différence de base
+
+Dans un État à certificats de privilège, l'investisseur achète d'abord une dette, et non la propriété. Dans un État à actes fiscaux, l'investisseur fait une offre sur la propriété elle-même. Les périodes de rachat et les règles précises varient considérablement d'un État à l'autre : cette leçon couvre le mécanisme général, et non l'échéancier particulier d'un État.
+
+## Exemple pratique
+
+Un investisseur dans un État à certificats de privilège fiscal paie 2 000 $ pour couvrir les impôts impayés d'un propriétaire. L'investisseur détient maintenant un privilège qui rapporte des intérêts prévus par la loi. Si le propriétaire ne rembourse pas pendant la période de rachat prévue par l'État, l'investisseur peut chercher à obtenir le titre devant les tribunaux.
+
+## Questionnaire pratique
+
+1. Dans un État à certificats de privilège fiscal, que reçoit d'abord un investisseur en payant les impôts en souffrance d'une autre personne?
+   A. La propriété immédiate du bien
+   B. Un certificat de privilège représentant la dette, plus les intérêts
+   C. Un bail avec le propriétaire
+   D. Un prêt hypothécaire sur une autre propriété
+
+2. Vrai ou faux : Dans un État à actes fiscaux, la propriété elle-même est habituellement vendue aux enchères pour des impôts impayés.
+
+3. Qu'est-ce qu'une période de rachat?
+   A. Un délai pendant lequel un propriétaire en défaut peut rembourser et garder sa propriété
+   B. La durée d'un prêt hypothécaire
+   C. Un délai obligatoire pour l'inspection d'une maison
+   D. Un type d'exemption d'impôt foncier
+
+## Corrigé
+
+1. B
+2. Vrai
+3. A
+
+## Réponses et explications
+
+### Question 1
+
+Bonne réponse : B. Dans un État à certificats de privilège, l'investisseur achète la dette (au moyen d'un certificat de privilège), et non la propriété elle-même.
+
+### Question 2
+
+Bonne réponse : Vrai. Les États à actes fiscaux vendent habituellement la propriété directement aux enchères.
+
+### Question 3
+
+Bonne réponse : A. Une période de rachat donne au propriétaire initial un délai pour rembourser avant de perdre sa propriété.
+
+## Points clés
+
+- Les États à certificats de privilège fiscal vendent la dette (un privilège); les États à actes fiscaux vendent la propriété elle-même.
+- Les investisseurs qui détiennent un privilège touchent des intérêts et peuvent finir par chercher à obtenir le titre si la dette n'est pas payée.
+- Les investisseurs dans les États à actes fiscaux peuvent devenir propriétaires plus directement, souvent plus rapidement.
+- Les règles et les périodes de rachat varient considérablement d'un État à l'autre.
+
+===== RED-L1-012
+TITLE: Qu'est-ce qu'une évaluation et pourquoi n'est-elle pas la même chose que le prix?
+SUMMARY: Découvrez ce que mesure réellement l'évaluation d'une propriété, qui la commande et pourquoi la valeur évaluée et le prix de vente peuvent différer.
+# Qu'est-ce qu'une évaluation et pourquoi n'est-elle pas la même chose que le prix?
+
+## Objectifs d'apprentissage
+
+À la fin de cette leçon, vous devriez pouvoir :
+
+- Définir une évaluation en termes simples.
+- Expliquer qui commande habituellement une évaluation et pourquoi.
+- Expliquer pourquoi la valeur évaluée et le prix de vente peuvent être des chiffres différents.
+
+## Contenu principal
+
+### Ce qu'est une évaluation
+
+Une évaluation est une estimation professionnelle et indépendante de la valeur d'une propriété, réalisée par un évaluateur agréé. Elle repose sur des facteurs comme les ventes comparables, l'état de la propriété et son emplacement.
+
+### Qui la commande, et pourquoi
+
+Les prêteurs exigent habituellement une évaluation avant d'approuver un prêt hypothécaire, afin de confirmer que la propriété vaut à peu près le montant emprunté sur sa garantie : l'évaluation protège la garantie du prêteur, et ne sert pas seulement à aider l'acheteur.
+
+### Pourquoi les chiffres peuvent différer
+
+La valeur évaluée et le prix de vente convenu sont deux chiffres distincts, établis de deux façons distinctes : le prix de vente est le montant sur lequel l'acheteur et le vendeur se sont entendus, alors que l'évaluation est une estimation professionnelle indépendante. Si une maison est évaluée sous le prix de vente convenu, ça peut créer un vrai problème de financement, puisque le prêteur ne prêtera généralement pas davantage que ce que justifie la valeur évaluée.
+
+## Exemple pratique
+
+Un acheteur accepte de payer 320 000 $ pour une maison, mais l'évaluation arrive à 305 000 $. Le prêteur financera habituellement le prêt en fonction de la valeur évaluée la plus basse, ce qui veut dire que l'acheteur pourrait devoir verser une mise de fonds plus élevée ou que le prix de vente pourrait devoir être renégocié.
+
+## Questionnaire pratique
+
+1. Une évaluation est :
+   A. Le prix sur lequel l'acheteur et le vendeur s'entendent
+   B. Une estimation professionnelle indépendante de la valeur d'une propriété
+   C. Un type d'assurance habitation
+   D. Une évaluation foncière municipale
+
+2. Vrai ou faux : Les prêteurs exigent habituellement une évaluation pour protéger leur propre garantie, et pas seulement pour aider l'acheteur.
+
+3. Que peut-il se passer si une maison est évaluée sous le prix de vente convenu?
+   A. Rien : la vente se conclut exactement comme convenu
+   B. Le prêteur pourrait financer seulement jusqu'à la valeur évaluée, ce qui crée un écart de financement
+   C. L'évaluation est automatiquement annulée
+   D. L'impôt foncier est réduit
+
+## Corrigé
+
+1. B
+2. Vrai
+3. B
+
+## Réponses et explications
+
+### Question 1
+
+Bonne réponse : B. Une évaluation est une estimation de valeur professionnelle et indépendante, distincte du prix négocié.
+
+### Question 2
+
+Bonne réponse : Vrai. L'évaluation protège la position du prêteur quant à la garantie du prêt.
+
+### Question 3
+
+Bonne réponse : B. Une évaluation basse peut créer un écart de financement que l'acheteur, le vendeur ou les deux doivent combler.
+
+## Points clés
+
+- Une évaluation est une estimation indépendante de la valeur, et non le prix de vente.
+- Les prêteurs l'exigent pour protéger leur propre garantie.
+- Une évaluation basse par rapport au prix de vente peut créer de vrais problèmes de financement.
+
+===== RED-L1-013
+TITLE: Qu'est-ce qu'un comparable? (Les ventes comparables expliquées)
+SUMMARY: Découvrez comment les ventes comparables servent à estimer la valeur d'une propriété, et ce qui rend un comparable vraiment utile plutôt que trompeur.
+# Qu'est-ce qu'un comparable? (Les ventes comparables expliquées)
+
+## Objectifs d'apprentissage
+
+À la fin de cette leçon, vous devriez pouvoir :
+
+- Définir un comparable en termes simples.
+- Nommer les facteurs qui rendent un comparable vraiment utile.
+- Expliquer pourquoi un comparable mal choisi peut être trompeur.
+
+## Contenu principal
+
+### Ce qu'est un comparable
+
+Un comparable (abréviation de « vente comparable ») est une propriété vendue récemment qui sert de point de référence pour estimer la valeur d'une autre propriété. Les comparables sont au cœur des évaluations, mais aussi des décisions de prix courantes des acheteurs et des vendeurs.
+
+### Ce qui rend un comparable utile
+
+Un comparable vraiment utile est habituellement situé à proximité (souvent dans un rayon de un ou deux kilomètres), semblable en taille et en caractéristiques (chambres, salles de bain, superficie) et vendu récemment (souvent au cours des six à douze derniers mois), parce que les marchés et l'état des propriétés changent avec le temps.
+
+### Pourquoi un mauvais comparable est trompeur
+
+Utiliser un comparable trop éloigné, trop différent en taille ou en état, ou vendu il y a trop longtemps peut produire une estimation de valeur très faussée. Une maison rénovée de cinq chambres n'est pas un comparable fiable pour une maison de deux chambres à rénover, même si elles se trouvent dans la même rue.
+
+## Exemple pratique
+
+Pour évaluer une maison de trois chambres et deux salles de bain, un évaluateur cherche des maisons de trois chambres et deux salles de bain vendues récemment, dans un rayon de un ou deux kilomètres, en faisant des rajustements pour des différences comme un sous-sol aménagé ou un garage supplémentaire, plutôt que de la comparer à une propriété très différente simplement parce qu'elle est à proximité.
+
+## Questionnaire pratique
+
+1. Un comparable est :
+   A. Un type de prêt hypothécaire
+   B. Une propriété vendue récemment qui sert de référence pour estimer une valeur
+   C. Un dossier municipal d'impôt foncier
+   D. Un document juridique qui transfère la propriété
+
+2. Vrai ou faux : N'importe quelle propriété vendue à proximité est un bon comparable, peu importe sa taille ou son état.
+
+3. Pourquoi le caractère récent de la vente compte-t-il pour un comparable?
+   A. Ça ne compte pas du tout
+   B. Les marchés et les conditions changent avec le temps, alors des ventes plus anciennes pourraient ne pas refléter la valeur actuelle
+   C. Les comparables plus anciens sont toujours plus exacts
+   D. Le caractère récent ne compte que pour les propriétés commerciales
+
+## Corrigé
+
+1. B
+2. Faux
+3. B
+
+## Réponses et explications
+
+### Question 1
+
+Bonne réponse : B. Un comparable est une propriété semblable, vendue récemment, qui sert de référence de valeur.
+
+### Question 2
+
+Bonne réponse : Faux. Un comparable utile doit être semblable en taille, en état et en emplacement, et pas seulement situé à proximité.
+
+### Question 3
+
+Bonne réponse : B. Les marchés évoluent avec le temps, alors une vente conclue il y a plusieurs années pourrait ne pas refléter la valeur actuelle.
+
+## Points clés
+
+- Un comparable est une propriété semblable, vendue récemment, qui sert à estimer une valeur.
+- Les comparables utiles sont situés à proximité, semblables en taille et en état, et récents.
+- Un comparable mal choisi peut produire une estimation de valeur trompeuse.
+
+===== RED-L1-014
+TITLE: Que vérifie réellement une inspection préachat?
+SUMMARY: Découvrez ce que couvre une inspection préachat, en quoi elle diffère d'une évaluation et ce qu'elle signifie pour les prochaines étapes de l'acheteur.
+# Que vérifie réellement une inspection préachat?
+
+## Objectifs d'apprentissage
+
+À la fin de cette leçon, vous devriez pouvoir :
+
+- Définir une inspection préachat en termes simples.
+- Expliquer en quoi elle diffère d'une évaluation.
+- Expliquer ce qu'un acheteur peut faire avec les résultats de l'inspection.
+
+## Contenu principal
+
+### Ce qu'est une inspection préachat
+
+Une inspection préachat est une évaluation professionnelle de l'état physique d'une propriété, qui vérifie des systèmes comme la toiture, les fondations, la plomberie, l'électricité et le chauffage, la ventilation et la climatisation, afin de repérer des problèmes existants ou potentiels.
+
+### En quoi elle diffère d'une évaluation
+
+Une évaluation estime la valeur; une inspection examine l'état. Une maison peut être évaluée à une valeur élevée tout en ayant d'importants problèmes physiques qu'une évaluation ne relèverait pas nécessairement avec le même niveau de détail : elles répondent à des questions différentes.
+
+### Ce qu'un acheteur peut faire avec les résultats
+
+Selon la promesse d'achat, un acheteur qui reçoit un rapport d'inspection préoccupant peut être en mesure de négocier des réparations, de demander une réduction de prix ou, dans certains cas, de se retirer de la transaction : les options précises dépendent des conditions du contrat convenues au préalable.
+
+## Exemple pratique
+
+Une inspection révèle une toiture vieillissante qui devra probablement être remplacée d'ici quelques années. L'acheteur peut utiliser cette information pour négocier une réduction de prix ou demander au vendeur de régler le problème avant la conclusion de la vente, selon ce que permet la promesse d'achat.
+
+## Questionnaire pratique
+
+1. Une inspection préachat évalue principalement :
+   A. La valeur marchande de la propriété
+   B. L'état physique de la propriété
+   C. La solvabilité de l'acheteur
+   D. Le taux local d'impôt foncier
+
+2. Vrai ou faux : Une évaluation et une inspection préachat répondent à la même question.
+
+3. Que pourrait faire un acheteur après un rapport d'inspection préoccupant, selon le contrat?
+   A. Rien du tout
+   B. Négocier des réparations, une réduction de prix ou peut-être se retirer de la transaction
+   C. Annuler automatiquement le prêt hypothécaire
+   D. Obliger le vendeur à réduire l'impôt foncier
+
+## Corrigé
+
+1. B
+2. Faux
+3. B
+
+## Réponses et explications
+
+### Question 1
+
+Bonne réponse : B. Une inspection préachat évalue l'état physique, et non la valeur marchande.
+
+### Question 2
+
+Bonne réponse : Faux. Une évaluation estime la valeur; une inspection examine l'état : leurs objectifs sont différents.
+
+### Question 3
+
+Bonne réponse : B. Selon les conditions du contrat, un acheteur peut avoir plusieurs options après un rapport d'inspection préoccupant.
+
+## Points clés
+
+- Une inspection préachat évalue l'état physique, et non la valeur.
+- Elle sert un objectif différent de celui d'une évaluation.
+- Les résultats de l'inspection peuvent donner à un acheteur un vrai levier de négociation, selon le contrat.

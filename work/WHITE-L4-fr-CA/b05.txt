@@ -1,0 +1,399 @@
+===== WHITE-L4-021
+TITLE: L'analyse de la récolte de pertes fiscales : pourquoi réaliser des pertes peut améliorer le rendement après impôt
+SUMMARY: Découvrez comment vendre un placement en perte peut compenser des gains en capital, ce qu'est la règle de la vente fictive et pourquoi cette stratégie améliore le rendement après impôt.
+KEYWORDS: récolte de pertes fiscales, compensation des gains en capital, règle de la vente fictive, rendement après impôt
+# L'analyse de la récolte de pertes fiscales : pourquoi réaliser des pertes peut améliorer le rendement après impôt
+
+## Mise en situation
+HYPOTHÈSE/OPINION (scénario hypothétique à des fins pédagogiques seulement) : Imaginez qu'après des années d'expansion rapide, les marchés de l'immobilier et du crédit à la consommation d'un pays populeux commencent à montrer des signes de correction brutale, à mesure que les défauts de paiement augmentent. Pendant qu'un boom alimenté par le crédit se dégonfle et que certains placements tombent bien sous leur prix d'achat, un investisseur discipliné voit une occasion cachée dans ces pertes. Cette leçon explique quelle est cette occasion et la règle qui encadre la bonne façon d'en profiter.
+
+## Objectifs d'apprentissage
+- Expliquer ce que signifie la récolte de pertes fiscales.
+- Expliquer comment des pertes en capital réalisées peuvent compenser des gains en capital réalisés aux fins de l'impôt.
+- Expliquer la règle de la vente fictive et pourquoi elle existe.
+- Expliquer pourquoi la récolte de pertes fiscales améliore le rendement après impôt, et non le rendement avant impôt.
+
+## Contenu principal
+La récolte de pertes fiscales (en anglais, « tax-loss harvesting ») consiste à vendre volontairement un placement qui a baissé sous son prix d'achat pour réaliser une perte en capital, qui peut ensuite servir, aux fins de l'impôt, à compenser des gains en capital réalisés ailleurs dans le portefeuille de l'investisseur. FAIT VÉRIFIÉ : aux États-Unis, les pertes en capital réalisées peuvent compenser les gains en capital réalisés dollar pour dollar, et si les pertes dépassent les gains au cours d'une année, une partie limitée de l'excédent (souvent jusqu'à 3 000 $, RÈGLE PROPRE À LA RÉGION, confirmez la limite actuelle) peut habituellement compenser le revenu ordinaire, tout excédent restant étant reporté aux années d'imposition suivantes.
+
+Voici le « pourquoi » cette stratégie améliore le rendement après impôt sans nécessairement changer l'exposition réelle de l'investisseur au marché : un investisseur qui a à la fois une position perdante (à cause d'une baisse comme celle du scénario ci-dessus) et une position gagnante ailleurs dans son portefeuille peut vendre la position perdante pour réaliser la perte et s'en servir pour compenser l'impôt dû sur le gain de la position gagnante, tout en réinvestissant souvent tout de suite le produit de la vente dans un placement semblable (mais pas identique) pour garder à peu près la même exposition au marché pendant tout le processus.
+
+C'est pourquoi la règle de la vente fictive existe et doit être respectée avec soin : FAIT VÉRIFIÉ, aux États-Unis, si un investisseur vend un titre à perte et achète le même titre, ou un titre « essentiellement identique », dans les 30 jours avant ou après la vente, la perte est refusée aux fins de l'impôt selon la règle de la vente fictive (en anglais, « wash sale rule »), précisément pour empêcher les investisseurs de réclamer une perte fiscale sans jamais vraiment changer leur position économique. C'est pourquoi la récolte de pertes fiscales exige de bien choisir un placement de remplacement vraiment différent, quoique semblable, et pourquoi cette stratégie améliore le résultat après impôt d'un plan de placement plutôt que de changer ses qualités de placement de fond avant impôt.
+
+## Exemple pratique
+EXEMPLE ILLUSTRATIF : Un investisseur détient une action qui affiche un gain non réalisé de 10 000 $ et, à la suite d'une forte baisse sectorielle, une position distincte dans un fonds qui affiche une perte non réalisée de 6 000 $. En vendant la position perdante dans le fonds, en réalisant la perte de 6 000 $ et en réinvestissant tout de suite le produit dans un fonds semblable, mais pas essentiellement identique, l'investisseur peut utiliser cette perte de 6 000 $ pour compenser 6 000 $ du gain si l'action gagnante est aussi vendue, ce qui réduit le gain imposable à 4 000 $, tout en gardant une exposition au marché à peu près semblable tout au long du processus, puisque le fonds de remplacement suit un segment comparable du marché.
+
+## Questionnaire pratique
+**Q1. En quoi consiste la récolte de pertes fiscales?**
+A) Éviter de vendre tout placement qui a perdu de la valeur
+B) Vendre volontairement un placement à perte pour compenser des gains en capital réalisés aux fins de l'impôt
+C) Vendre seulement des placements qui ont beaucoup pris de valeur
+D) Une stratégie réservée aux comptes de retraite
+
+**Q2. Comment des pertes en capital réalisées peuvent-elles servir aux fins de l'impôt?**
+A) Elles ne peuvent servir à aucune fin fiscale
+B) Elles peuvent compenser des gains en capital réalisés dollar pour dollar, et une partie limitée des pertes excédentaires peut compenser le revenu ordinaire
+C) Elles augmentent automatiquement la facture d'impôt d'un investisseur
+D) Elles ne peuvent servir qu'à compenser les gains du même placement exact
+
+**Q3. Qu'est-ce que la règle de la vente fictive vise à empêcher?**
+A) Les investisseurs de vendre un jour un placement perdant
+B) Les investisseurs de réclamer une perte fiscale tout en rachetant immédiatement le même titre ou un titre essentiellement identique, sans vraiment changer leur position économique
+C) Les investisseurs de réaliser un jour des gains en capital
+D) Les sociétés de courtage d'exiger des commissions sur les opérations
+
+**Q4. Pourquoi un placement de remplacement doit-il être vraiment différent, quoique semblable, après une vente de récolte de pertes fiscales?**
+A) N'importe quel placement de remplacement est acceptable, peu importe la ressemblance
+B) Acheter le même titre ou un titre essentiellement identique pendant la période visée par la règle de la vente fictive fait refuser la perte aux fins de l'impôt
+C) Les placements de remplacement ne sont jamais permis, en aucune circonstance
+D) La règle de la vente fictive ne s'applique qu'aux obligations, pas aux actions
+
+**Q5. Pourquoi la récolte de pertes fiscales améliore-t-elle le rendement après impôt plutôt que les qualités de placement avant impôt?**
+A) Elle change la qualité de placement de fond des actifs en cause
+B) Elle réduit l'impôt à payer de l'investisseur sans nécessairement changer son exposition au marché ou sa stratégie de placement de fond
+C) Elle augmente toujours le rendement avant impôt d'un portefeuille
+D) La récolte de pertes fiscales n'a aucun effet sur les résultats après impôt
+
+## Corrigé
+Q1: B
+Q2: B
+Q3: B
+Q4: B
+Q5: B
+
+## Réponses et explications
+**Q1.** La stratégie consiste précisément à réaliser une perte par une vente, afin d'utiliser cette perte pour réduire des gains imposables ailleurs.
+
+**Q2.** Les pertes réalisées réduisent directement les gains réalisés aux fins de l'impôt, et une compensation additionnelle limitée contre le revenu ordinaire est permise.
+
+**Q3.** La règle empêche de réclamer un avantage fiscal pour une perte quand la position réelle de l'investisseur sur le marché reste essentiellement la même.
+
+**Q4.** Choisir un placement de remplacement semblable, mais pas essentiellement identique, aide à garder l'exposition au marché tout en respectant la règle de la vente fictive.
+
+**Q5.** La stratégie est précisément un outil d'efficacité fiscale qui réduit le frein fiscal sur les rendements, et non un changement de la thèse de placement de fond ou de l'exposition.
+
+## Points clés
+- La récolte de pertes fiscales réalise une perte de placement pour compenser des gains en capital réalisés aux fins de l'impôt.
+- Aux États-Unis, les pertes compensent les gains dollar pour dollar, avec une compensation additionnelle limitée contre le revenu ordinaire et un report de tout excédent.
+- La règle de la vente fictive fait refuser la perte si un titre essentiellement identique est racheté pendant une période définie autour de la vente.
+- Cette stratégie améliore le rendement après impôt en réduisant le frein fiscal, alors qu'un placement de remplacement semblable (mais pas identique) peut préserver l'exposition au marché.
+
+===== WHITE-L4-022
+TITLE: L'analyse de la répartition de l'actif : pourquoi la répartition compte plus que le choix de chaque action
+SUMMARY: Découvrez pourquoi la répartition d'un portefeuille entre les grandes catégories d'actifs explique une très grande part des écarts de rendement à long terme, plus que le choix de chaque titre.
+KEYWORDS: répartition de l'actif, construction de portefeuille, sélection des titres, rendements à long terme
+# L'analyse de la répartition de l'actif : pourquoi la répartition compte plus que le choix de chaque action
+
+## Mise en situation
+HYPOTHÈSE/OPINION (scénario hypothétique à des fins pédagogiques seulement) : Imaginez une grande région productrice d'énergie frappée par un conflit régional soudain qui met hors service, du jour au lendemain, une grande partie de sa capacité de production, ce qui resserre l'offre mondiale d'énergie presque sans avertissement. Après qu'un choc d'approvisionnement en énergie se répercute sur les marchés, certains investisseurs consacrent énormément d'efforts à choisir chaque action de leur portefeuille, alors que d'autres se concentrent presque uniquement sur leur combinaison générale d'actions, d'obligations et d'autres catégories d'actifs. Cette leçon examine quelle décision a historiquement compté le plus.
+
+## Objectifs d'apprentissage
+- Expliquer ce que signifie la répartition de l'actif comme décision de portefeuille.
+- Expliquer pourquoi la recherche a montré que la répartition de l'actif est un facteur majeur des écarts de rendement des portefeuilles à long terme.
+- Expliquer pourquoi cela ne veut pas dire que la sélection de chaque titre n'a aucune importance.
+- Appliquer cette compréhension pour bien répartir l'effort consacré aux décisions de portefeuille.
+
+## Contenu principal
+La répartition de l'actif désigne la division générale d'un portefeuille entre les grandes catégories d'actifs (comme les actions, les obligations, l'immobilier et l'argent comptant), par opposition à la décision plus détaillée de savoir quels titres précis détenir dans chaque catégorie. FAIT VÉRIFIÉ : des recherches universitaires influentes sur la performance des portefeuilles ont montré que la politique de répartition de l'actif explique une très grande part des écarts de rendement entre différents portefeuilles diversifiés au fil du temps, généralement plus que les décisions précises de sélection de titres prises dans chaque catégorie d'actifs.
+
+Voici le « pourquoi » cette constatation est logique, ce qui rejoint les principes de corrélation et de diversification vus plus tôt dans ce niveau : comme les catégories d'actifs comme les actions et les obligations réagissent très différemment aux grands événements économiques (comme le choc d'approvisionnement en énergie décrit dans le scénario ci-dessus, qui pourrait toucher le marché des actions et celui des obligations de façons très différentes), la décision générale de la part à détenir dans chaque catégorie d'actifs a un effet démesuré sur les caractéristiques globales de risque et de rendement d'un portefeuille, simplement parce qu'elle détermine l'exposition du portefeuille à chacune de ces sources de risque et de rendement fondamentalement différentes.
+
+Cette constatation ne veut pas dire que la sélection de chaque titre n'a aucune importance : une action mal choisie peut quand même faire nettement moins bien, et une sélection de titres habile peut quand même ajouter de la valeur à l'intérieur d'une catégorie d'actifs. OPINION et nuance importante : la recherche suggère plutôt que, pour la plupart des investisseurs, consacrer un temps et un effort démesurés au choix de chaque action tout en négligeant la décision plus générale de répartition de l'actif revient probablement à mal répartir son effort d'analyse par rapport à ce qui a historiquement compté le plus pour les résultats d'un portefeuille à long terme.
+
+## Exemple pratique
+EXEMPLE ILLUSTRATIF : Deux investisseurs détiennent chacun un portefeuille d'actions et d'obligations individuelles. L'investisseur A consacre la majeure partie de son effort d'analyse à choisir des actions précises à l'intérieur de sa répartition de 70 % en actions, en ignorant en grande partie sa répartition globale de 70/30 entre actions et obligations. L'investisseur B consacre plus d'effort à fixer avec soin sa répartition globale de 60/40 selon sa tolérance au risque et son horizon de placement, et utilise des fonds indiciels à faible coût pour la sélection des titres sous-jacents dans chaque catégorie d'actifs. Sur plusieurs décennies couvrant plusieurs cycles de marché, la recherche sur ce type de comparaison suggère que l'approche de l'investisseur B a plus de chances d'avoir déterminé la plus grande part des écarts de rendement global de son portefeuille, même sans aucun talent pour choisir des actions.
+
+## Questionnaire pratique
+**Q1. Que désigne la répartition de l'actif?**
+A) Les actions précises choisies dans un portefeuille
+B) La division générale d'un portefeuille entre les grandes catégories d'actifs comme les actions, les obligations et l'argent comptant
+C) La répartition du budget interne d'une seule société
+D) Le traitement fiscal d'un compte de placement précis
+
+**Q2. Qu'ont montré des recherches influentes sur le lien entre la répartition de l'actif et les écarts de rendement des portefeuilles?**
+A) La sélection de chaque titre explique presque tous les écarts de rendement des portefeuilles
+B) La politique de répartition de l'actif explique une très grande part des écarts de rendement entre portefeuilles diversifiés, généralement plus que la sélection de chaque titre
+C) La répartition de l'actif n'a aucun lien avec les rendements des portefeuilles
+D) La répartition de l'actif et la sélection des titres se sont révélées aussi peu importantes l'une que l'autre
+
+**Q3. Pourquoi la combinaison générale des catégories d'actifs a-t-elle un effet aussi démesuré sur les résultats d'un portefeuille?**
+A) Toutes les catégories d'actifs réagissent toujours de façon identique aux événements économiques
+B) Les différentes catégories d'actifs réagissent très différemment aux grands événements économiques; la décision de répartition détermine donc l'exposition globale à ces sources de risque et de rendement fondamentalement différentes
+C) La répartition de l'actif n'a aucun lien avec la façon dont un portefeuille réagit aux événements économiques
+D) Seules les actions sont touchées par les événements économiques, jamais les obligations
+
+**Q4. Cette constatation de la recherche veut-elle dire que la sélection de chaque titre n'a aucune importance?**
+A) Oui, la sélection de chaque titre n'a absolument aucun effet sur aucun résultat de portefeuille
+B) Non, un titre mal choisi peut quand même faire moins bien, et une sélection habile peut quand même ajouter de la valeur, mais la répartition a historiquement compté davantage pour les écarts de rendement global
+C) Oui, seule la répartition de l'actif compte et rien d'autre ne touche les rendements
+D) Non, selon cette recherche, la sélection de chaque titre est en fait plus importante que la répartition de l'actif
+
+**Q5. Quelle est la conséquence pratique de cette recherche sur la façon dont les investisseurs pourraient répartir leur effort d'analyse?**
+A) Les investisseurs devraient ignorer complètement la répartition de l'actif et se concentrer uniquement sur le choix des actions
+B) Pour la plupart des investisseurs, fixer avec soin la répartition générale de l'actif mérite au moins autant d'attention que la sélection de chaque titre
+C) Les décisions de répartition de l'actif devraient être prises au hasard, sans analyse
+D) La sélection de chaque titre ne devrait jamais être envisagée, en aucune circonstance
+
+## Corrigé
+Q1: B
+Q2: B
+Q3: B
+Q4: B
+Q5: B
+
+## Réponses et explications
+**Q1.** La répartition de l'actif est la décision de plus haut niveau sur la part à détenir dans chaque grande catégorie de placements, distincte du choix de chaque titre.
+
+**Q2.** C'est une constatation bien établie de la recherche en gestion de portefeuille au sujet de l'importance relative de ces deux types de décisions.
+
+**Q3.** Comme les catégories d'actifs réagissent différemment aux mêmes événements, la décision de la part à détenir dans chacune façonne une grande partie du comportement global d'un portefeuille.
+
+**Q4.** La constatation porte sur l'importance relative et l'effet habituel, et non sur l'affirmation que la sélection des titres n'a aucun effet sur les résultats.
+
+**Q5.** Vu l'importance historique des décisions de répartition, y consacrer un effort d'analyse significatif est une conclusion pratique raisonnable, éclairée par les données.
+
+## Points clés
+- La répartition de l'actif est la division générale d'un portefeuille entre les grandes catégories d'actifs, distincte de la sélection de chaque titre.
+- Des recherches influentes ont montré que la répartition de l'actif explique une très grande part des écarts de rendement des portefeuilles à long terme.
+- C'est parce que les différentes catégories d'actifs réagissent différemment aux grands événements économiques, ce qui façonne le comportement global du portefeuille.
+- Cette constatation suggère que la plupart des investisseurs devraient accorder à la décision générale de répartition au moins autant d'attention qu'au choix de chaque action.
+
+===== WHITE-L4-023
+TITLE: L'analyse du risque de séquence des rendements : pourquoi l'ordre des rendements compte à la retraite
+SUMMARY: Découvrez pourquoi l'ordre dans lequel les rendements surviennent peut changer complètement le résultat d'un retraité qui fait des retraits, et comment réduire ce risque.
+KEYWORDS: risque de séquence des rendements, retraits à la retraite, longévité du portefeuille, planification de la retraite
+# L'analyse du risque de séquence des rendements : pourquoi l'ordre des rendements compte à la retraite
+
+## Mise en situation
+HYPOTHÈSE/OPINION (scénario hypothétique à des fins pédagogiques seulement) : Imaginez qu'après des années d'expansion rapide, les marchés de l'immobilier et du crédit à la consommation d'un pays populeux commencent à montrer des signes de correction brutale, à mesure que les défauts de paiement augmentent. Imaginez deux retraités dont le rendement moyen de leurs placements est identique sur une retraite de 20 ans, mais l'un prend sa retraite juste avant un fort ralentissement du marché du crédit, et l'autre juste après la fin de ce ralentissement. Cette leçon explique pourquoi ces deux retraités peuvent obtenir des résultats très différents malgré des rendements moyens identiques.
+
+## Objectifs d'apprentissage
+- Expliquer ce que signifie le risque de séquence des rendements.
+- Expliquer pourquoi l'ordre des rendements compte davantage pendant une période de retraits réguliers que pendant une période d'accumulation pure.
+- Comparer deux retraités hypothétiques aux rendements moyens identiques, mais aux séquences de rendements différentes.
+- Repérer des stratégies qui peuvent aider à réduire le risque de séquence des rendements.
+
+## Contenu principal
+Le risque de séquence des rendements décrit le risque que l'ordre précis dans lequel les rendements de placement surviennent, et pas seulement leur moyenne dans le temps, puisse toucher fortement le résultat d'un investisseur, surtout une personne qui retire régulièrement de l'argent de son portefeuille, comme un retraité. FAIT VÉRIFIÉ : pendant une phase d'accumulation pure (on ajoute régulièrement de l'argent, sans en retirer), l'ordre des rendements n'a aucun effet sur la valeur finale, puisque la capitalisation fonctionne de la même façon peu importe la séquence quand aucun retrait ni ajout ne change le montant de base en cours de route.
+
+Voici le « pourquoi » tout cela change complètement dès que les retraits réguliers commencent, comme à la retraite : retirer un montant fixe en dollars d'un portefeuille qui vient de subir une baisse importante (comme le ralentissement du marché du crédit dans le scénario ci-dessus) veut dire vendre une plus grande proportion des parts restantes pour obtenir ce même montant, ce qui réduit pour de bon le nombre de parts qui restent pour profiter d'une éventuelle remontée du marché. Un retraité qui obtient de bons rendements au début de sa retraite, suivis de rendements plus faibles plus tard, s'en sort habituellement beaucoup mieux qu'un retraité au rendement moyen identique, mais qui subit une forte baisse au début de sa retraite, précisément à cause de la façon dont les retraits interagissent avec une base d'actifs réduite pendant les premières années de baisse.
+
+C'est pourquoi plusieurs stratégies pratiques existent pour aider à réduire le risque de séquence des rendements, ce qui rejoint des leçons précédentes de ce niveau : garder une réserve d'argent comptant ou d'obligations (en écho aux principes de seuil de rentabilité et de réserve d'autres parcours) qui peut couvrir quelques années de retraits sans avoir à vendre des actions dépréciées pendant un ralentissement, garder la souplesse de réduire le montant des retraits pendant les périodes de marché faible, et fixer avec soin la répartition initiale de l'actif (leçon 22) pour gérer le risque de volatilité précisément autour de la transition vers la retraite, quand le risque de séquence des rendements est le plus élevé.
+
+## Exemple pratique
+EXEMPLE ILLUSTRATIF : Le retraité A subit une baisse de 25 % de son portefeuille au cours de sa première année de retraite, suivie de nombreuses années de bons rendements moyens; le retraité B obtient exactement la même série de rendements annuels, mais dans l'ordre inverse, la baisse de 25 % survenant plutôt au cours de la dernière année d'une retraite de 20 ans. Même si les deux retraités ont obtenu un rendement annuel moyen mathématiquement identique sur les 20 ans, le retraité A, qui retirait un montant fixe en dollars chaque année, manque d'argent des années plus tôt que le retraité B, parce que les retraits du retraité A pendant l'année de baisse ont réduit pour de bon les parts qui pouvaient profiter de la remontée suivante, alors que le portefeuille du retraité B avait déjà beaucoup grossi avant de subir la même baisse tard dans la retraite.
+
+## Questionnaire pratique
+**Q1. Que décrit le risque de séquence des rendements?**
+A) Le risque que les rendements moyens des placements soient trop faibles sur toute une période de placement
+B) Le risque que l'ordre précis dans lequel les rendements surviennent, et pas seulement leur moyenne, puisse toucher fortement le résultat d'un investisseur, surtout pendant une phase de retraits
+C) Le risque qu'une seule action fasse moins bien que l'ensemble du marché
+D) Le risque associé au choix d'un fonds à gestion active plutôt qu'un fonds indiciel
+
+**Q2. Pourquoi l'ordre des rendements n'a-t-il pas d'importance pendant une phase d'accumulation pure, sans retraits?**
+A) La capitalisation produit la même valeur finale peu importe la séquence précise quand aucun retrait ni ajout ne change le montant de base en cours de route
+B) L'ordre des rendements compte toujours, même sans retraits
+C) Les phases d'accumulation n'ont jamais de rendements de placement
+D) Le risque de séquence des rendements ne s'applique qu'aux obligations, pas aux actions
+
+**Q3. Pourquoi retirer de l'argent pendant une baisse du marché réduit-il pour de bon le potentiel de remontée futur d'un retraité?**
+A) Les retraits pendant une baisse n'ont aucun effet sur le nombre de parts qui restent dans le portefeuille
+B) Obtenir le même retrait fixe en dollars d'un portefeuille déprécié exige de vendre une plus grande proportion des parts restantes, ce qui laisse moins de parts pour profiter d'une remontée subséquente
+C) Les retraits pendant une baisse augmentent toujours le nombre de parts dans le portefeuille
+D) Les baisses du marché éliminent le besoin de tout retrait futur
+
+**Q4. Dans l'exemple, pourquoi le retraité A a-t-il manqué d'argent des années plus tôt que le retraité B, malgré des rendements moyens identiques?**
+A) La baisse précoce du retraité A, combinée à des retraits continus, a réduit pour de bon les parts qui pouvaient profiter de la remontée plus tard, contrairement au retraité B, qui n'a subi la même baisse qu'après des années de croissance
+B) Le retraité B n'a jamais vraiment subi la baisse de 25 %
+C) Le retraité A a retiré beaucoup plus d'argent au total que le retraité B
+D) Les deux retraités avaient des rendements moyens différents, même si la leçon dit qu'ils étaient identiques
+
+**Q5. Laquelle des stratégies suivantes est une façon pratique de réduire le risque de séquence des rendements?**
+A) Retirer chaque année un pourcentage fixe plus élevé du portefeuille, peu importe les conditions du marché
+B) Garder une réserve d'argent comptant ou d'obligations pour couvrir plusieurs années de retraits sans avoir à vendre des actions dépréciées pendant un ralentissement
+C) Investir tout le portefeuille dans une seule action volatile
+D) Ignorer complètement la répartition de l'actif pendant la transition vers la retraite
+
+## Corrigé
+Q1: B
+Q2: A
+Q3: B
+Q4: A
+Q5: B
+
+## Réponses et explications
+**Q1.** Ce risque porte précisément sur la façon dont le moment des rendements interagit avec les flux d'argent de l'investisseur, et pas seulement sur le rendement moyen obtenu.
+
+**Q2.** Sans flux d'argent qui interagissent avec le solde du portefeuille, multiplier la même série de rendements dans n'importe quel ordre donne un résultat final identique.
+
+**Q3.** Vendre plus de parts pour répondre à un besoin de retrait fixe pendant une baisse fige un plus petit nombre de parts restantes, ce qui fait rater une plus grande partie de toute remontée future.
+
+**Q4.** C'est le moment de la baisse par rapport au calendrier des retraits, et non le rendement moyen lui-même, qui explique les résultats très différents des deux retraités.
+
+**Q5.** Une réserve tampon peut réduire le besoin de vendre des actifs dépréciés pendant un ralentissement, ce qui s'attaque directement au mécanisme central du risque de séquence des rendements.
+
+## Points clés
+- Le risque de séquence des rendements veut dire que l'ordre dans lequel surviennent les rendements, et pas seulement leur moyenne, peut toucher fortement le résultat d'une personne qui fait des retraits.
+- Pendant l'accumulation, sans retraits, l'ordre n'a aucun effet sur la valeur finale; pendant les phases de retraits, il compte énormément.
+- Une baisse au début de la retraite, combinée à des retraits fixes, réduit pour de bon les parts disponibles pour une remontée plus tard.
+- Garder une réserve d'argent comptant ou d'obligations et fixer une répartition réfléchie autour de la transition vers la retraite sont des stratégies clés pour réduire ce risque.
+
+===== WHITE-L4-024
+TITLE: L'analyse des comptes de retraite : pourquoi le choix entre un compte traditionnel et un compte Roth dépend des hypothèses sur les taux d'imposition
+SUMMARY: Découvrez la différence de traitement fiscal entre un compte de retraite traditionnel et un compte Roth aux États-Unis, et pourquoi le bon choix dépend de vos taux d'imposition actuels et futurs.
+KEYWORDS: IRA traditionnel, Roth IRA, traitement fiscal des comptes de retraite, hypothèses sur les taux d'imposition
+# L'analyse des comptes de retraite : pourquoi le choix entre un compte traditionnel et un compte Roth dépend des hypothèses sur les taux d'imposition
+
+## Mise en situation
+HYPOTHÈSE/OPINION (scénario hypothétique à des fins pédagogiques seulement) : Imaginez une banque centrale qui relève son taux directeur fortement et à répétition en quelques mois pour combattre une inflation en hausse. Pendant qu'une banque centrale combat l'inflation avec des taux d'intérêt nettement plus élevés, certains analystes préviennent que les taux d'imposition futurs du gouvernement pourraient devoir augmenter pour gérer la hausse des coûts du service de la dette. Cette leçon examine pourquoi ce genre d'hypothèse macroéconomique touche directement une décision très personnelle sur un compte de retraite.
+
+## Objectifs d'apprentissage
+- Expliquer la différence de fond dans le traitement fiscal entre un compte de retraite traditionnel et un compte Roth.
+- Expliquer pourquoi le choix entre un compte traditionnel et un compte Roth repose fondamentalement sur la comparaison des taux d'imposition actuels et futurs prévus.
+- Repérer d'autres facteurs, au-delà de la simple comparaison des taux, qui peuvent influencer cette décision.
+- Appliquer ce cadre pour réfléchir à une décision hypothétique entre un compte traditionnel et un compte Roth.
+
+## Contenu principal
+Aux États-Unis, un compte de retraite traditionnel (comme un IRA traditionnel ou un 401(k)) permet habituellement des cotisations avant impôt, ce qui réduit le revenu imposable de l'année de la cotisation, et les retraits à la retraite sont imposés comme un revenu ordinaire. Un compte Roth (Roth IRA ou Roth 401(k)) exige habituellement des cotisations après impôt (sans déduction au départ), mais FAIT VÉRIFIÉ : les retraits admissibles à la retraite, y compris toute la croissance des placements, sont entièrement libres d'impôt selon la loi américaine actuelle. À noter : ces comptes sont propres au régime fiscal américain; d'autres pays ont des régimes aux règles différentes.
+
+Voici le « pourquoi » cette décision se résume fondamentalement à comparer les taux d'imposition d'aujourd'hui à ceux de l'avenir : si un investisseur s'attend à être dans une tranche d'imposition plus basse à la retraite que pendant ses années de travail (une hypothèse courante chez beaucoup d'épargnants, mais pas tous), la déduction initiale d'un compte traditionnel, prise au taux d'imposition plus élevé d'aujourd'hui, a généralement plus de valeur que de payer l'impôt maintenant (par un compte Roth) à ce même taux plus élevé. À l'inverse, si un investisseur s'attend à être dans une tranche d'imposition semblable ou plus élevée à la retraite (peut-être grâce à une solide rente, à d'autres revenus de retraite importants, ou, comme le suggère la pression budgétaire générale évoquée dans le scénario ci-dessus, parce qu'il croit que les taux d'imposition futurs en général pourraient monter peu importe son propre niveau de revenu), un compte Roth, qui fige le taux d'imposition d'aujourd'hui sur les cotisations, peut être plus avantageux.
+
+C'est pourquoi la décision exige de formuler une vraie hypothèse (HYPOTHÈSE/OPINION, puisque les taux d'imposition futurs et le revenu futur d'une personne ne peuvent pas être connus avec certitude) au sujet de sa propre tranche d'imposition future et de l'orientation générale de la politique fiscale, plutôt que de suivre une seule réponse valable pour tout le monde. D'autres facteurs comptent aussi : selon la loi actuelle, les comptes Roth ne sont pas soumis aux retraits minimaux obligatoires du vivant du titulaire initial, ce qui offre plus de souplesse, et se diversifier entre les deux types de comptes peut protéger contre l'incertitude réelle qui entoure la prévision des taux d'imposition des décennies à l'avance.
+
+## Exemple pratique
+EXEMPLE ILLUSTRATIF : Un jeune travailleur en début de carrière, actuellement dans une tranche d'imposition relativement basse, cotise à un compte Roth : il paie l'impôt maintenant à son taux actuellement bas, en échange d'une croissance et de retraits entièrement libres d'impôt des décennies plus tard, quand il s'attend à être dans une tranche nettement plus élevée grâce à l'avancement de sa carrière. Un autre travailleur, actuellement dans ses meilleures années de revenu et dans une tranche d'imposition élevée, privilégie plutôt un compte traditionnel : il prend la précieuse déduction maintenant, à son taux élevé actuel, en s'attendant à une tranche plus basse une fois à la retraite, avec un revenu réduit. Cela illustre comment la même décision sur le type de compte peut raisonnablement différer selon la trajectoire précise des taux d'imposition de chaque personne.
+
+## Questionnaire pratique
+**Q1. Quelle est la différence de fond dans le traitement fiscal entre un compte de retraite traditionnel et un compte Roth?**
+A) Les deux types de comptes sont imposés de façon identique en tous points
+B) Les comptes traditionnels offrent habituellement une déduction fiscale initiale et des retraits imposables plus tard, alors que les comptes Roth utilisent des cotisations après impôt et des retraits admissibles libres d'impôt
+C) Les comptes Roth exigent toujours une cotisation minimale plus élevée que les comptes traditionnels
+D) Les comptes traditionnels ne sont offerts qu'aux travailleurs autonomes
+
+**Q2. Si un investisseur s'attend à être dans une tranche d'imposition plus basse à la retraite que pendant ses années de travail, quel type de compte est généralement plus avantageux?**
+A) Un compte Roth, puisque payer l'impôt maintenant est toujours mieux, peu importe la tranche future
+B) Un compte traditionnel, puisque la déduction initiale est prise au taux d'imposition plus élevé d'aujourd'hui, plutôt que de payer inutilement l'impôt maintenant à ce même taux plus élevé
+C) Aucun des deux types de comptes n'offre d'avantage fiscal dans ce scénario
+D) Ce scénario n'a aucune influence sur le choix entre un compte traditionnel et un compte Roth
+
+**Q3. Pourquoi la conviction que les taux d'imposition futurs en général vont monter, peu importe le niveau de revenu personnel, pourrait-elle favoriser un compte Roth?**
+A) La hausse des taux d'imposition futurs n'a aucune influence sur le choix entre un compte traditionnel et un compte Roth
+B) Figer le taux d'imposition d'aujourd'hui sur les cotisations grâce à un compte Roth évite l'exposition à des taux d'imposition possiblement plus élevés sur les retraits futurs
+C) Les comptes Roth ajustent automatiquement leur traitement fiscal selon les changements futurs des lois fiscales
+D) Les comptes traditionnels sont toujours à l'abri des changements futurs des taux d'imposition
+
+**Q4. Quel est un avantage structurel clé des comptes Roth, au-delà du traitement libre d'impôt des retraits?**
+A) Les comptes Roth garantissent un rendement de placement plus élevé que les comptes traditionnels
+B) Selon la loi actuelle, les comptes Roth ne sont pas soumis aux retraits minimaux obligatoires du vivant du titulaire initial, ce qui offre plus de souplesse
+C) Les comptes Roth n'ont aucune limite de cotisation
+D) Les comptes Roth ne peuvent être ouverts qu'après le début de la retraite
+
+**Q5. Pourquoi le choix entre un compte traditionnel et un compte Roth exige-t-il de formuler une vraie hypothèse incertaine plutôt que de suivre une seule réponse valable pour tout le monde?**
+A) La tranche d'imposition personnelle future et l'orientation future de la politique fiscale ne peuvent pas être connues avec certitude des décennies à l'avance
+B) Les comptes traditionnels et les comptes Roth donnent toujours des résultats identiques, peu importe l'hypothèse
+C) Les taux d'imposition ne changent jamais, ce qui rend cette décision simple pour tout le monde
+D) Seule la politique budgétaire du gouvernement compte, et non la trajectoire de revenu personnelle
+
+## Corrigé
+Q1: B
+Q2: B
+Q3: B
+Q4: B
+Q5: A
+
+## Réponses et explications
+**Q1.** C'est la différence structurelle de fond quant au moment où l'impôt est payé : au départ pour le compte Roth, au retrait pour le compte traditionnel.
+
+**Q2.** Prendre la déduction à un taux actuel plus élevé, plutôt que de payer l'impôt maintenant à ce même taux plus élevé, favorise généralement un compte traditionnel quand on s'attend à des taux futurs plus bas.
+
+**Q3.** Un compte Roth fixe le coût fiscal aujourd'hui, ce qui protège contre la possibilité d'une hausse générale des taux d'imposition futurs, peu importe la tranche personnelle de l'épargnant.
+
+**Q4.** Cette souplesse additionnelle, distincte de la différence de fond dans le traitement fiscal, est un avantage structurel important des comptes Roth selon la loi actuelle.
+
+**Q5.** Comme la décision repose sur des variables futures qu'on ne peut pas connaître, elle exige par nature une hypothèse plutôt qu'une réponse certaine et universelle.
+
+## Points clés
+- Les comptes traditionnels offrent une déduction initiale et des retraits imposables plus tard; les comptes Roth utilisent des cotisations après impôt et des retraits admissibles libres d'impôt.
+- Le bon choix dépend de la comparaison entre le taux d'imposition actuel d'une personne et son taux d'imposition futur prévu.
+- La conviction que les taux d'imposition futurs en général pourraient monter, peu importe le revenu personnel, peut favoriser le fait de figer le taux d'aujourd'hui grâce à un compte Roth.
+- Comme les taux d'imposition et le revenu futurs ne peuvent pas être connus avec certitude, cette décision exige une vraie hypothèse, et se diversifier entre les deux types de comptes peut protéger contre cette incertitude.
+
+===== WHITE-L4-025
+TITLE: L'analyse des retraits minimaux obligatoires : pourquoi les RMD façonnent la stratégie de retrait à la retraite
+SUMMARY: Découvrez ce que sont les retraits minimaux obligatoires des comptes de retraite traditionnels aux États-Unis, pourquoi ils existent, comment on les calcule et comment planifier en conséquence.
+KEYWORDS: retraits minimaux obligatoires, RMD, stratégie de retrait à la retraite, règles de l'IRA traditionnel
+# L'analyse des retraits minimaux obligatoires : pourquoi les RMD façonnent la stratégie de retrait à la retraite
+
+## Mise en situation
+HYPOTHÈSE/OPINION (scénario hypothétique à des fins pédagogiques seulement) : Imaginez une banque centrale qui relève son taux directeur fortement et à répétition en quelques mois pour combattre une inflation en hausse. Pendant que les taux d'intérêt montent fortement, certains retraités constatent que le solde de leurs comptes de retraite traditionnels a grossi malgré un marché agité, et sont surpris d'apprendre qu'ils doivent commencer à retirer un montant précis chaque année, qu'ils aient besoin de l'argent ou non. Cette leçon explique pourquoi.
+
+## Objectifs d'apprentissage
+- Expliquer ce qu'est un retrait minimal obligatoire (RMD).
+- Expliquer pourquoi les RMD existent sur le plan des politiques publiques.
+- Expliquer comment le montant des RMD est généralement calculé.
+- Repérer les conséquences des RMD pour la planification fiscale de la stratégie de retrait à la retraite.
+
+## Contenu principal
+Aux États-Unis, un retrait minimal obligatoire (RMD, en anglais « required minimum distribution ») est le montant minimal qui doit être retiré chaque année de la plupart des comptes de retraite traditionnels (comme un IRA traditionnel ou un 401(k)) à partir d'un âge précis fixé par la loi en vigueur. FAIT VÉRIFIÉ : l'âge des RMD et leurs règles de calcul sont fixés par la loi fédérale et ont changé au fil du temps; l'âge et les règles précises en vigueur devraient donc toujours être confirmés directement, comme RÈGLE PROPRE À LA RÉGION et détail qui dépend de la date, plutôt que supposés à partir des exigences d'une année précédente.
+
+Voici le « pourquoi » les RMD existent sur le plan des politiques publiques : comme les cotisations aux comptes traditionnels ont donné droit à une déduction fiscale au départ (voir la leçon 24), le gouvernement n'a encore jamais perçu d'impôt sur cet argent ni sur sa croissance. Les RMD existent pour s'assurer que les comptes à impôt reporté ne reportent pas simplement l'impôt indéfiniment, ou ne passent pas d'une génération à l'autre, sans que le gouvernement perçoive jamais l'impôt que ces déductions étaient censées finir par générer : le report a une fin intégrée, liée à l'âge du titulaire initial du compte.
+
+C'est pourquoi les RMD façonnent directement la planification de la stratégie de retrait à la retraite : le montant du RMD est généralement calculé en divisant le solde du compte à la fin de l'année précédente par un facteur d'espérance de vie publié par les autorités fiscales, ce qui veut dire que le montant du retrait exigé n'est pas fixe, mais change chaque année selon le solde du compte et l'âge du titulaire, et que ce retrait forcé est imposable comme un revenu ordinaire l'année où il est fait, que les fonds soient nécessaires ou non pour les dépenses courantes. C'est pourquoi certains retraités font de la planification fiscale avant l'âge des RMD, par exemple des conversions partielles stratégiques vers un compte Roth (transférer de l'argent d'un compte traditionnel vers un compte Roth, en payant l'impôt sur le montant converti, les années où leur tranche d'imposition est plus favorable) pour réduire la taille des retraits obligatoires futurs et leur effet fiscal.
+
+## Exemple pratique
+EXEMPLE ILLUSTRATIF : Le solde de l'IRA traditionnel d'un retraité est de 500 000 $ à la fin de l'année précédente, et le facteur d'espérance de vie applicable à son âge est de 25,6. Son RMD pour l'année en cours se calcule ainsi : 500 000 $ / 25,6, soit environ 19 531 $, qui doivent être retirés et déclarés comme revenu ordinaire imposable cette année-là, que le retraité ait réellement besoin de dépenser cet argent ou non, ce qui pourrait le faire passer dans une tranche d'imposition plus élevée s'il s'ajoute à d'autres sources de revenus reçues la même année.
+
+## Questionnaire pratique
+**Q1. Qu'est-ce qu'un retrait minimal obligatoire (RMD)?**
+A) Un retrait facultatif que le titulaire d'un compte peut choisir de faire en tout temps
+B) Le montant minimal qui doit être retiré chaque année de la plupart des comptes de retraite traditionnels à partir d'un âge précis
+C) Un retrait unique exigé seulement à l'ouverture d'un compte
+D) Une pénalité imposée pour avoir trop cotisé à un compte de retraite
+
+**Q2. Pourquoi les RMD existent-ils sur le plan de la politique fiscale?**
+A) Les RMD existent uniquement pour générer des frais additionnels pour les institutions financières
+B) Comme les cotisations aux comptes traditionnels ont donné droit à une déduction fiscale au départ, les RMD font en sorte que le gouvernement finisse par percevoir l'impôt sur cet argent et sa croissance plutôt que de permettre un report indéfini
+C) Les RMD n'existent que pour les comptes Roth, pas pour les comptes traditionnels
+D) Les RMD n'ont aucun lien avec la façon dont les comptes traditionnels ont été alimentés
+
+**Q3. Comment le montant d'un RMD est-il généralement calculé?**
+A) C'est un montant fixe en dollars établi une fois et jamais ajusté
+B) En divisant le solde du compte à la fin de l'année précédente par un facteur d'espérance de vie publié par les autorités fiscales
+C) En multipliant le solde du compte par la tranche d'imposition actuelle du titulaire
+D) Le montant des RMD est déterminé uniquement selon la préférence personnelle du titulaire
+
+**Q4. Pourquoi est-il important de confirmer directement l'âge et les règles actuels des RMD plutôt que de se fier à l'information d'une année précédente?**
+A) Les règles des RMD n'ont jamais changé et ne changeront jamais
+B) L'âge des RMD et leurs règles de calcul sont fixés par la loi fédérale et ont changé au fil du temps, ce qui rend la vérification à jour essentielle
+C) Les règles des RMD sont identiques en tous points à celles des comptes Roth
+D) Les RMD ne s'appliquent qu'aux comptes ouverts avant une certaine année
+
+**Q5. Pourquoi un retraité pourrait-il envisager une conversion partielle stratégique vers un compte Roth avant d'atteindre l'âge des RMD?**
+A) Les conversions vers un compte Roth n'ont aucun effet sur le montant des RMD futurs
+B) Convertir une partie des fonds d'un compte traditionnel vers un compte Roth les années où la situation fiscale est favorable peut réduire la taille des retraits obligatoires futurs et leur effet fiscal
+C) Les conversions vers un compte Roth sont interdites pour toute personne qui approche de l'âge des RMD
+D) Les RMD ne peuvent être réduits par aucune stratégie de planification
+
+## Corrigé
+Q1: B
+Q2: B
+Q3: B
+Q4: B
+Q5: B
+
+## Réponses et explications
+**Q1.** Les RMD sont des retraits annuels obligatoires exigés par la loi une fois que le titulaire d'un compte atteint l'âge applicable.
+
+**Q2.** Les RMD bouclent la boucle du report d'impôt qu'offrent les comptes traditionnels, en s'assurant que l'impôt finit par être payé sur les cotisations déduites et leur croissance.
+
+**Q3.** Cette méthode de calcul fait en sorte que le retrait exigé change chaque année selon le solde du compte et le facteur d'espérance de vie applicable.
+
+**Q4.** Vu les changements documentés des règles des RMD au fil du temps, se fier à une information périmée pourrait mener à une erreur de conformité coûteuse.
+
+**Q5.** Transférer de façon proactive des fonds vers un compte Roth, qui n'est pas soumis aux RMD du vivant du titulaire initial, peut réduire le solde du compte traditionnel visé par les retraits obligatoires futurs.
+
+## Points clés
+- Un RMD est le retrait annuel minimal exigé par la loi de la plupart des comptes de retraite traditionnels à partir d'un âge précis.
+- Les RMD existent pour s'assurer que le gouvernement finit par percevoir l'impôt sur les cotisations déduites et leur croissance.
+- Le montant du RMD est recalculé chaque année selon le solde du compte et un facteur d'espérance de vie, et il est imposable comme un revenu ordinaire.
+- Une planification stratégique, comme des conversions partielles vers un compte Roth avant l'âge des RMD, peut aider à gérer l'effet fiscal futur des retraits obligatoires.

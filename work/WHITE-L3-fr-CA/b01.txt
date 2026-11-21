@@ -1,0 +1,345 @@
+===== WHITE-L3-001
+TITLE: Pourquoi « acheter bas, vendre haut » est plus facile à dire qu'à faire
+SUMMARY: Découvre pourquoi le conseil de placement le plus simple est aussi l'un des plus difficiles à suivre en pratique, et ce qui nous en empêche vraiment.
+# WHITE-L3-001 : Pourquoi « acheter bas, vendre haut » est plus facile à dire qu'à faire
+
+## Objectifs d'apprentissage
+À la fin de cette leçon, tu pourras :
+- Expliquer pourquoi « acheter bas, vendre haut » est simple en théorie, mais difficile sur le plan du comportement
+- Nommer les obstacles émotionnels et informationnels qui vont à l'encontre de ce conseil
+- Expliquer pourquoi le « bas » et le « haut » ne sont clairs qu'après coup
+
+## Contenu principal
+
+Presque tout le monde a déjà entendu le conseil « acheter bas, vendre haut ». C'est vrai — et c'est presque inutile à lui seul, parce qu'il suppose que tu peux reconnaître le « bas » et le « haut » pendant que tu les vis, et pas seulement en regardant un graphique après coup.
+
+Voici le « pourquoi » de cette difficulté : une baisse de prix qui ressemble à un « bas » après coup ne donne habituellement pas l'impression d'être une occasion pendant qu'elle se produit — elle ressemble plutôt à de l'incertitude, à de mauvaises nouvelles et à une vraie douleur financière. [VERIFIED FACT] Historiquement, les marchés baissent fortement pendant les périodes de stress ou d'incertitude économique importants, soit exactement au moment où acheter peut sembler le plus difficile, même si ces périodes ont souvent précédé une reprise. De la même façon, un prix qui ressemble à un « haut » après coup donne souvent, sur le moment, l'impression d'un élan impossible à arrêter — tout le monde semble faire de l'argent, et vendre donne l'impression de laisser des gains sur la table.
+
+C'est pourquoi il vaut mieux voir « acheter bas, vendre haut » comme la description d'un résultat souhaité que comme un conseil applicable à lui seul. Les leçons suivantes de ce parcours examinent des outils, des notions et des comportements précis qui permettent plus facilement d'agir rationnellement quand tes instincts te poussent dans l'autre direction.
+
+## Exemple pratique
+
+[ILLUSTRATIVE EXAMPLE] Pendant une forte baisse du marché, une investisseuse voit la valeur de son portefeuille diminuer considérablement. Après coup, cette période s'est révélée une excellente occasion d'achat à long terme. Mais pendant qu'elle la vivait, elle lisait des manchettes décourageantes, voyait le solde de son compte baisser chaque jour et ressentait une vraie anxiété face à d'autres pertes possibles — exactement le contraire d'une impression confortable du genre « c'est clairement le bas ». [ASSUMPTION] Les investisseurs qui ont acheté malgré ce malaise, au lieu d'attendre la confirmation que le creux était passé, ont historiquement profité d'une plus grande part de la reprise — mais il fallait pour ça agir à l'encontre de ce qu'on ressentait vraiment sur le moment.
+
+## Quiz de pratique
+
+1. Pourquoi « acheter bas, vendre haut » est-il plus facile à dire qu'à faire?
+2. Pourquoi une vraie occasion d'achat peut-elle sembler inconfortable plutôt qu'évidente pendant qu'elle se produit?
+3. Pourquoi une période de fort élan peut-elle sembler un mauvais moment pour vendre, même si elle se révèle plus tard avoir été un sommet?
+
+## Corrigé
+
+1. Parce que le « bas » et le « haut » ne se reconnaissent clairement qu'après coup — sur le moment, les prix bas s'accompagnent habituellement d'incertitude et de mauvaises nouvelles, et les prix élevés, d'un élan apparent.
+2. Parce qu'elle coïncide habituellement avec des manchettes négatives, des comptes qui perdent de la valeur et une vraie incertitude quant à la possibilité que les prix baissent encore.
+3. Parce qu'un fort élan peut donner l'impression que d'autres gains sont probables, ce qui rend émotionnellement difficile de vendre pendant une force apparente.
+
+## Réponses et explications
+
+1. C'est le paradoxe central que présente la leçon.
+2. Ça explique l'expérience émotionnelle précise qui rend le « bas » difficile à reconnaître en temps réel.
+3. Ça reflète la réponse précédente dans le sens inverse, du côté « haut » du conseil.
+
+## Points clés à retenir
+- « Acheter bas, vendre haut » décrit un résultat souhaité, et non une stratégie applicable à elle seule.
+- Les vrais creux semblent souvent incertains et inconfortables pendant qu'ils se produisent, et non comme des occasions évidentes.
+- Les vrais sommets ressemblent souvent à un fort élan, ce qui rend la vente difficile.
+- La suite de ce parcours présente des outils et des notions précis qui rendent ce conseil plus facile à appliquer.
+
+## Avis pédagogique
+Cette leçon sert uniquement à l'éducation financière générale et ne constitue pas un conseil financier, de placement, fiscal ou juridique personnalisé. Le rendement passé ne garantit pas les résultats futurs. Consulte un professionnel de la finance autorisé avant de prendre des décisions de placement.
+
+===== WHITE-L3-002
+TITLE: Pourquoi la diversification réduit le risque sans réduire le rendement attendu (autant qu'on le pense)
+SUMMARY: Découvre pourquoi répartir tes placements sur de nombreux titres réduit le risque plus efficacement qu'il ne réduit le rendement attendu, et pourquoi cet avantage a une limite.
+# WHITE-L3-002 : Pourquoi la diversification réduit le risque sans réduire le rendement attendu (autant qu'on le pense)
+
+## Objectifs d'apprentissage
+À la fin de cette leçon, tu pourras :
+- Expliquer pourquoi la diversification réduit le risque sans réduire proportionnellement le rendement attendu
+- Distinguer le risque propre à une entreprise du risque qui touche l'ensemble du marché
+- Expliquer pourquoi les avantages de la diversification diminuent au-delà d'un certain point
+
+## Contenu principal
+
+On pourrait croire que répartir ton argent sur de nombreux placements au lieu de le concentrer dans un seul répartirait — et réduirait — aussi ton rendement attendu. Ce n'est pas tout à fait comme ça que ça fonctionne, et comprendre pourquoi est au cœur de cette leçon.
+
+Le risque d'une action individuelle vient de deux sources : le risque propre à cette entreprise (de mauvais résultats financiers, le rappel d'un produit, une poursuite) et le risque qui touche l'ensemble du marché (une récession, des variations générales des taux d'intérêt). La diversification — détenir de nombreuses actions différentes au lieu d'une seule — annule une grande partie du risque propre aux entreprises, parce qu'une mauvaise nouvelle dans une entreprise a peu de chances de toucher tous tes titres en même temps. Elle fait toutefois très peu pour annuler le risque de marché, puisque celui-ci touche presque tout en même temps.
+
+Voici « pourquoi » ça ne réduit pas proportionnellement le rendement attendu : tu ne dilues pas tes meilleures idées avec des moins bonnes d'une façon qui réduirait forcément ton résultat moyen attendu — tu élimines le risque précis, non rémunéré, de la malchance d'une seule entreprise, tout en gardant ton exposition attendue au rendement global du marché. [VERIFIED FACT] Cet avantage a des rendements décroissants — l'effet de réduction du risque obtenu en ajoutant d'autres titres diminue nettement une fois qu'un portefeuille compte un nombre modéré d'entreprises différentes, puisque la plupart du risque restant à ce stade est le risque de marché, que la diversification ne peut pas éliminer.
+
+## Exemple pratique
+
+[ILLUSTRATIVE EXAMPLE] Une investisseuse qui ne détient les actions que d'une seule entreprise est exposée au risque propre à cette entreprise — un scandale, un produit raté ou une poursuite pourrait nuire fortement à son portefeuille même si le marché dans son ensemble se porte bien. Une investisseuse qui détient des actions de 30 entreprises différentes dans des secteurs différents est beaucoup moins exposée aux mauvaises nouvelles d'une seule entreprise; un problème chez un des titres freine un peu le portefeuille total au lieu de causer une perte importante. [ASSUMPTION] Passer de 30 à 300 titres ajoute habituellement beaucoup moins de réduction du risque que de passer de 1 à 30 titres — la plus grande partie de la réduction possible du risque propre aux entreprises a déjà été obtenue.
+
+## Quiz de pratique
+
+1. Quelles sont les deux sources de risque d'une action individuelle décrites dans cette leçon?
+2. Pourquoi la diversification ne réduit-elle pas le rendement attendu dans la même proportion qu'elle réduit le risque?
+3. Pourquoi ajouter de plus en plus de titres finit-il par produire des avantages décroissants en matière de réduction du risque?
+
+## Corrigé
+
+1. Le risque propre à l'entreprise (particulier à une seule entreprise) et le risque de marché (qui touche presque tout en même temps).
+2. Parce que la diversification élimine surtout le risque propre aux entreprises, qui n'est pas rémunéré, plutôt que de diluer l'exposition globale attendue au rendement du marché.
+3. Parce que la plus grande partie du risque propre aux entreprises est déjà réduite après un nombre modéré de titres, et que le risque restant est surtout un risque de marché, que la diversification entre actions individuelles ne peut pas éliminer.
+
+## Réponses et explications
+
+1. Cette distinction est la base sur laquelle repose toute la leçon.
+2. C'est le « pourquoi » central de la leçon, souvent mal compris.
+3. Ça explique la tendance aux rendements décroissants et annonce pourquoi la diversification entre catégories d'actifs (une leçon plus loin) compte pour le risque de marché que la diversification entre actions individuelles ne peut pas toucher.
+
+## Points clés à retenir
+- La diversification réduit surtout le risque propre aux entreprises, et non le risque de marché.
+- C'est pourquoi elle peut réduire le risque sans réduire proportionnellement le rendement attendu — elle élimine surtout un risque non rémunéré, et non le potentiel de hausse.
+- L'avantage de réduction du risque obtenu en ajoutant d'autres titres diminue nettement après un nombre modéré d'entreprises différentes.
+
+## Avis pédagogique
+Cette leçon sert uniquement à l'éducation financière générale et ne constitue pas un conseil financier, de placement, fiscal ou juridique personnalisé. Tous les chiffres sont des estimations à titre d'illustration, et non des garanties. Consulte un professionnel de la finance autorisé avant de prendre des décisions de placement.
+
+===== WHITE-L3-003
+TITLE: Pourquoi c'est la corrélation qui détermine la vraie diversification, et pas seulement le nombre de titres
+SUMMARY: Découvre pourquoi détenir de nombreux placements n'équivaut pas à être vraiment diversifié, et pourquoi la corrélation est la notion qui détermine réellement ta réduction du risque.
+# WHITE-L3-003 : Pourquoi c'est la corrélation qui détermine la vraie diversification, et pas seulement le nombre de titres
+
+## Objectifs d'apprentissage
+À la fin de cette leçon, tu pourras :
+- Définir la corrélation dans le contexte des rendements de placement
+- Expliquer pourquoi détenir de nombreux titres qui évoluent ensemble n'est pas une vraie diversification
+- Expliquer pourquoi une corrélation faible ou négative entre des actifs procure de plus grands avantages de diversification
+
+## Contenu principal
+
+La leçon 2 a établi que la diversification réduit le risque propre aux entreprises. Cette leçon ajoute une précision importante : il ne suffit pas de détenir de nombreux titres différents — ce qui compte, c'est la façon dont ces titres évoluent les uns par rapport aux autres, une notion appelée **corrélation**.
+
+La corrélation mesure à quel point deux placements ont tendance à évoluer ensemble. Des actifs fortement corrélés ont tendance à monter et à baisser en même temps, pour des raisons semblables. Des actifs faiblement ou négativement corrélés ont tendance à réagir différemment aux mêmes événements — l'un peut rester stable ou même monter pendant que l'autre baisse.
+
+Voici « pourquoi » ça compte plus que le simple nombre de titres : [ILLUSTRATIVE EXAMPLE] un investisseur qui détient 50 actions technologiques différentes est diversifié en nombre sur de nombreuses entreprises, mais si ces 50 titres sont fortement corrélés — et donc susceptibles de baisser ensemble pendant un repli général du secteur technologique —, l'avantage réel de la diversification est bien plus petit que ce que le chiffre « 50 » laisse croire. Une vraie réduction du risque vient du fait de combiner des actifs qui ne réagissent pas tous de la même façon aux mêmes événements.
+
+[VERIFIED FACT] La corrélation entre des actifs n'est pas fixe pour toujours — elle peut changer avec le temps et, fait notable, elle a tendance à augmenter pendant les périodes de forte tension sur les marchés, quand des actifs qui évoluent normalement de façon assez indépendante peuvent commencer à baisser ensemble, ce qui réduit l'effet protecteur de la diversification exactement au moment où on en a le plus besoin.
+
+## Exemple pratique
+
+[ILLUSTRATIVE EXAMPLE] Un investisseur bâtit un portefeuille de 40 actions, toutes dans le même secteur et la même région géographique. Malgré le grand nombre de titres, elles ont tendance à réagir de façon semblable aux variations des taux d'intérêt, aux nouvelles réglementaires et aux changements économiques plus larges qui touchent ce secteur — ce qui veut dire que le portefeuille se comporte davantage comme un pari concentré que comme un portefeuille diversifié. Un deuxième investisseur détient seulement 15 actions, mais réparties entre des secteurs, des régions et des types d'actifs différents, historiquement moins corrélés entre eux. [ASSUMPTION] Même s'il détient moins de titres au total, le portefeuille du deuxième investisseur pourrait connaître un rendement plus régulier et plus vraiment diversifié pendant un repli propre à un secteur que le portefeuille plus gros, mais fortement corrélé, du premier investisseur.
+
+## Quiz de pratique
+
+1. Que mesure la corrélation entre deux placements?
+2. Pourquoi un portefeuille qui compte de nombreux titres peut-il quand même manquer de vraie diversification?
+3. Pourquoi les avantages de la diversification peuvent-ils s'affaiblir précisément pendant les périodes de forte tension sur les marchés?
+
+## Corrigé
+
+1. Le degré auquel les rendements de deux placements ont tendance à évoluer ensemble.
+2. Si ces titres sont fortement corrélés — susceptibles de réagir de façon semblable aux mêmes événements —, le portefeuille se comporte davantage comme un pari concentré que comme un portefeuille vraiment diversifié, peu importe le nombre de titres.
+3. Parce que la corrélation entre les actifs a tendance à augmenter pendant les périodes de forte tension sur les marchés, ce qui veut dire que des actifs auparavant moins corrélés peuvent commencer à évoluer ensemble, réduisant l'effet protecteur au moment précis où on en a le plus besoin.
+
+## Réponses et explications
+
+1. C'est la définition de base nécessaire pour le reste de la leçon.
+2. Ça prolonge et précise directement la notion de diversification de la leçon 2.
+3. C'est une mise en garde importante et honnête sur les limites de la diversification pendant une crise.
+
+## Points clés à retenir
+- Une vraie diversification dépend de la corrélation entre les titres, et pas seulement du nombre total de titres.
+- De nombreux titres fortement corrélés réduisent beaucoup moins le risque que leur nombre seul le laisse croire.
+- La corrélation peut changer avec le temps et augmente souvent pendant les périodes de forte tension sur les marchés, ce qui affaiblit l'effet protecteur de la diversification exactement quand il compte le plus.
+
+## Avis pédagogique
+Cette leçon sert uniquement à l'éducation financière générale et ne constitue pas un conseil financier, de placement, fiscal ou juridique personnalisé. Tous les chiffres sont des estimations à titre d'illustration, et non des garanties. Consulte un professionnel de la finance autorisé avant de prendre des décisions de placement.
+
+===== WHITE-L3-004
+TITLE: Pourquoi la volatilité et le risque ne sont pas tout à fait la même chose
+SUMMARY: Découvre pourquoi un graphique de prix en dents de scie n'équivaut pas automatiquement à un vrai risque financier, et pourquoi cette différence compte dans ta façon d'évaluer un placement.
+# WHITE-L3-004 : Pourquoi la volatilité et le risque ne sont pas tout à fait la même chose
+
+## Objectifs d'apprentissage
+À la fin de cette leçon, tu pourras :
+- Distinguer la volatilité (les fluctuations de prix) du risque (la possibilité d'une perte permanente)
+- Expliquer pourquoi un placement volatil n'est pas automatiquement un placement risqué
+- Expliquer pourquoi un placement peu volatil peut quand même comporter un risque important
+
+## Contenu principal
+
+Dans le langage courant du placement, on emploie souvent « volatilité » et « risque » comme des synonymes. Ça vaut la peine de bien les distinguer. La **volatilité** décrit l'ampleur et la fréquence des hausses et des baisses d'un prix — c'est une caractéristique statistique et mesurable de l'historique des prix. Le **risque**, au sens qui compte le plus pour un investisseur, est la possibilité d'une vraie perte permanente de capital ou de ne pas atteindre tes objectifs financiers.
+
+Voici « pourquoi » ce n'est pas la même chose : une action peut être très volatile — monter et descendre de façon importante — tout en étant en bonne voie de procurer de solides rendements à long terme, pourvu que l'entreprise sous-jacente reste saine et que tu n'aies pas besoin de vendre pendant une baisse. À l'inverse, un placement peut sembler calme et peu volatil en surface tout en comportant un vrai risque de perte permanente — par exemple, une obligation d'un émetteur en difficulté financière qui se négocie à un prix stable jusqu'au moment où il fait réellement défaut.
+
+[VERIFIED FACT] Cette distinction compte surtout pour la façon dont un investisseur devrait réagir aux mouvements de prix : la volatilité seule, sans changement des données fondamentales sous-jacentes ou de ton propre horizon de placement, n'est pas forcément un signal de vente — mais un vrai changement du risque de perte permanente d'un placement est un signal beaucoup plus sérieux, qui justifie d'agir.
+
+## Exemple pratique
+
+[ILLUSTRATIVE EXAMPLE] L'action A monte et descend fortement d'un mois à l'autre, mais appartient à une entreprise financièrement solide et en croissance; un investisseur qui la garde à long terme, sans se laisser déranger par les fluctuations à court terme, pourrait obtenir de solides rendements avec le temps, malgré un parcours mouvementé. L'action B se négocie dans une fourchette de prix étroite et stable pendant des mois, ce qui donne une impression de sécurité — mais l'entreprise sous-jacente accumule discrètement une dette insoutenable. [ASSUMPTION] Quand ce problème d'endettement devient finalement public, le prix « stable » de l'action B pourrait chuter fortement et de façon permanente — la faible volatilité qui a précédé masquait un vrai risque grandissant plutôt que de refléter une vraie sécurité.
+
+## Quiz de pratique
+
+1. Quelle est la principale différence entre la volatilité et le risque, selon les définitions de cette leçon?
+2. Pourquoi un placement très volatil n'est-il pas forcément « risqué » au sens qui compte le plus?
+3. Pourquoi un placement peu volatil peut-il quand même comporter un risque caché important?
+
+## Corrigé
+
+1. La volatilité mesure l'ampleur des fluctuations d'un prix; le risque désigne la possibilité d'une vraie perte permanente de capital ou de ne pas atteindre ses objectifs financiers.
+2. Parce que les fluctuations de prix à court terme ne reflètent pas forcément un changement de la solidité de l'entreprise sous-jacente ni de ta capacité à les traverser sans devoir vendre.
+3. Parce qu'un prix stable ne garantit pas que les données fondamentales sous-jacentes sont saines — des problèmes peuvent s'accumuler discrètement avant de finir par causer une baisse de prix forte et permanente.
+
+## Réponses et explications
+
+1. C'est la distinction de base autour de laquelle la leçon est construite.
+2. Ça corrige la supposition courante selon laquelle toute volatilité équivaut à un danger.
+3. Ça corrige la supposition tout aussi courante selon laquelle la stabilité des prix équivaut à la sécurité.
+
+## Points clés à retenir
+- La volatilité mesure les fluctuations de prix; le risque désigne la possibilité d'une perte permanente ou de ne pas atteindre ses objectifs financiers.
+- Un placement volatil n'est pas automatiquement risqué si les données fondamentales sous-jacentes restent saines et que tu peux traverser les fluctuations.
+- Un placement qui semble stable peut quand même comporter un vrai risque caché si des problèmes sous-jacents ne se reflètent pas encore dans le prix.
+
+## Avis pédagogique
+Cette leçon sert uniquement à l'éducation financière générale et ne constitue pas un conseil financier, de placement, fiscal ou juridique personnalisé. Tous les chiffres sont des estimations à titre d'illustration, et non des garanties. Consulte un professionnel de la finance autorisé avant de prendre des décisions de placement.
+
+===== WHITE-L3-005
+TITLE: Pourquoi les options te donnent des droits, et non des obligations — et pourquoi ça a un coût
+SUMMARY: Découvre la structure de base des contrats d'options, pourquoi acheter une option te donne seulement un droit, et pourquoi ce droit n'est pas gratuit.
+# WHITE-L3-005 : Pourquoi les options te donnent des droits, et non des obligations — et pourquoi ça a un coût
+
+## Objectifs d'apprentissage
+À la fin de cette leçon, tu pourras :
+- Définir une option d'achat et une option de vente
+- Expliquer pourquoi acheter une option donne un droit, et non une obligation
+- Expliquer pourquoi ce droit exige le paiement d'une prime
+
+## Contenu principal
+
+Une **option** est un contrat qui donne à l'acheteur le droit, mais non l'obligation, d'acheter ou de vendre un actif sous-jacent (comme une action) à un prix précis (le prix d'exercice) au plus tard à une date précise (la date d'échéance). Une **option d'achat** (*call*) donne le droit d'acheter au prix d'exercice; une **option de vente** (*put*) donne le droit de vendre au prix d'exercice.
+
+Voici « pourquoi » c'est différent de simplement détenir l'action : comme tu n'es obligé d'agir que si c'est à ton avantage, la perte possible de l'acheteur d'une option se limite à ce qu'il a payé pour le contrat — appelé la **prime** —, alors que le gain possible peut être important si l'actif sous-jacent évolue favorablement. Cette asymétrie (une perte limitée, un gain possible plus grand) est exactement ce pour quoi l'acheteur paie.
+
+[VERIFIED FACT] Le vendeur (ou « émetteur ») d'une option se trouve de l'autre côté de cette transaction : il prend l'obligation de respecter le contrat si l'acheteur choisit d'exercer son droit — c'est pourquoi la vente d'options comporte un profil de risque fondamentalement différent, abordé dans une leçon plus loin. La prime n'est pas arbitraire; elle reflète le prix actuel de l'actif sous-jacent, le prix d'exercice, le temps qui reste avant l'échéance et la volatilité attendue de l'actif.
+
+## Exemple pratique
+
+[ILLUSTRATIVE EXAMPLE] Une investisseuse achète une option d'achat sur une action qui se négocie actuellement à 50 $, avec un prix d'exercice de 55 $, en payant une prime de 2 $ par action. Si l'action monte à 65 $ avant l'échéance, elle peut exercer son droit d'acheter à 55 $ — bien en dessous du prix du marché — pour un profit appréciable, moins la prime de 2 $ payée. Si l'action reste sous 55 $ ou baisse, elle laisse simplement l'option expirer, et sa perte totale se limite à la prime de 2 $ qu'elle a payée — elle n'a jamais été obligée d'acheter à 55 $ si ça n'avait pas de sens.
+
+## Quiz de pratique
+
+1. Quelle est la principale différence entre détenir une option et être obligé d'y donner suite?
+2. Qu'est-ce qu'une option d'achat donne le droit de faire à l'acheteur?
+3. Pourquoi la perte possible de l'acheteur d'une option reste-t-elle limitée à la prime payée, même si l'actif sous-jacent évolue fortement contre lui?
+
+## Corrigé
+
+1. Détenir (acheter) une option donne un droit, et non une obligation — l'acheteur peut choisir de l'exercer ou non, contrairement à la détention directe de l'action, qui ne comporte aucun choix quant à l'« activation » de la position.
+2. Le droit d'acheter l'actif sous-jacent au prix d'exercice au plus tard à la date d'échéance.
+3. Parce que l'acheteur n'est pas obligé d'exercer l'option — si elle est défavorable, il la laisse simplement expirer et ne perd que la prime déjà payée, sans plus.
+
+## Réponses et explications
+
+1. C'est la distinction de base qui sous-tend toutes les autres leçons sur les options de ce parcours.
+2. C'est la définition précise d'une option d'achat, par opposition à une option de vente.
+3. Ça explique la raison mécanique de l'asymétrie de perte limitée décrite dans le contenu principal.
+
+## Points clés à retenir
+- Une option donne à l'acheteur le droit, et non l'obligation, d'acheter (option d'achat) ou de vendre (option de vente) un actif à un prix fixé avant l'échéance.
+- Comme l'exercice est facultatif, la perte possible de l'acheteur se limite à la prime payée, alors que le gain possible peut être plus grand.
+- Le vendeur de l'option assume le côté obligation du contrat, ce qui comporte un profil de risque différent abordé dans une leçon plus loin.
+
+## Avis pédagogique
+Cette leçon sert uniquement à l'éducation financière générale et ne constitue pas un conseil financier, de placement, fiscal ou juridique personnalisé. La négociation d'options comporte des risques importants et ne convient pas à tous les investisseurs. Consulte un professionnel de la finance autorisé avant de négocier des options.
+
+===== WHITE-L3-006
+TITLE: Pourquoi une option d'achat parie sur la direction et un straddle parie sur le mouvement
+SUMMARY: Découvre la différence entre un pari directionnel avec des options et un straddle, qui profite d'un grand mouvement dans un sens ou dans l'autre.
+# WHITE-L3-006 : Pourquoi une option d'achat parie sur la direction et un straddle parie sur le mouvement
+
+## Objectifs d'apprentissage
+À la fin de cette leçon, tu pourras :
+- Expliquer ce qu'est une stratégie de straddle
+- Distinguer un pari sur la direction d'un pari sur le mouvement ou la volatilité
+- Reconnaître une situation où un straddle conviendrait mieux qu'une simple option d'achat ou de vente
+
+## Contenu principal
+
+La leçon 5 a présenté les options d'achat et de vente comme des paris directionnels : une option d'achat est profitable si l'actif sous-jacent monte, une option de vente est profitable s'il baisse. Mais que faire si tu es convaincu qu'un événement important va se produire — des résultats financiers, une annonce majeure — tout en étant vraiment incertain de la direction que prendra le prix?
+
+Un **straddle** combine l'achat d'une option d'achat et d'une option de vente sur le même actif sous-jacent, au même prix d'exercice et à la même échéance. Voici « pourquoi » ça change la nature du pari : au lieu de parier sur la direction, un straddle parie sur **l'ampleur du mouvement** — il est profitable si l'actif sous-jacent évolue fortement dans un sens ou dans l'autre, assez pour couvrir le coût combiné des deux primes, et il perd de la valeur si le prix reste relativement stable, puisque les deux options expireraient alors avec peu de valeur.
+
+[VERIFIED FACT] Comme un straddle consiste à acheter deux options au lieu d'une, il coûte plus cher au départ qu'une seule option d'achat ou de vente — ce qui veut dire que l'actif sous-jacent doit évoluer davantage, dans un sens ou dans l'autre, simplement pour atteindre le seuil de rentabilité de la position combinée.
+
+## Exemple pratique
+
+[ILLUSTRATIVE EXAMPLE] Une investisseuse s'attend à ce que l'annonce prochaine des résultats d'une entreprise provoque une forte variation de prix, mais n'a aucune opinion ferme quant à savoir si la nouvelle sera bonne ou mauvaise. Au lieu d'acheter seulement une option d'achat (parier sur une hausse) ou seulement une option de vente (parier sur une baisse), elle achète un straddle — une option d'achat et une option de vente au même prix d'exercice. [ASSUMPTION] Si l'action bondit fortement après les résultats, l'option d'achat gagne assez de valeur pour plus que compenser la perte de l'option de vente et la prime totale payée, ce qui donne un profit. Si l'action chute plutôt fortement, l'option de vente joue le même rôle en sens inverse. Mais si l'action bouge à peine dans un sens ou dans l'autre, les deux options pourraient expirer en valant peu, et elle perdrait la plus grande partie, sinon la totalité, de la prime combinée payée.
+
+## Quiz de pratique
+
+1. Sur le plan de la structure, que combine un straddle?
+2. En quoi parier sur le « mouvement » est-il différent de parier sur la « direction »?
+3. Pourquoi un straddle a-t-il besoin d'un plus grand mouvement de prix pour devenir profitable qu'une seule option d'achat ou de vente?
+
+## Corrigé
+
+1. L'achat d'une option d'achat et d'une option de vente sur le même actif sous-jacent, au même prix d'exercice et à la même échéance.
+2. Parier sur la direction veut dire être profitable seulement si le prix évolue dans un sens précis (à la hausse pour une option d'achat, à la baisse pour une option de vente); parier sur le mouvement veut dire profiter d'un grand mouvement dans un sens ou dans l'autre, peu importe lequel.
+3. Parce que le coût combiné de l'achat de deux options (l'option d'achat et l'option de vente) est plus élevé que celui d'une seule, de sorte que le prix doit évoluer davantage pour couvrir cette prime totale plus importante avant que la position devienne profitable.
+
+## Réponses et explications
+
+1. C'est la définition structurelle nécessaire pour comprendre le reste de la leçon.
+2. C'est la distinction conceptuelle centrale autour de laquelle la leçon est construite.
+3. Ça renforce le compromis de coût lié au fait de combiner deux positions au lieu d'une.
+
+## Points clés à retenir
+- Un straddle combine une option d'achat et une option de vente au même prix d'exercice et à la même échéance, en pariant sur le mouvement plutôt que sur la direction.
+- Il profite d'un grand mouvement de prix dans un sens ou dans l'autre et perd de la valeur si le prix reste relativement stable.
+- Comme il coûte plus cher qu'une seule option, il exige un plus grand mouvement pour devenir profitable.
+
+## Avis pédagogique
+Cette leçon sert uniquement à l'éducation financière générale et ne constitue pas un conseil financier, de placement, fiscal ou juridique personnalisé. La négociation d'options comporte des risques importants et ne convient pas à tous les investisseurs. Consulte un professionnel de la finance autorisé avant de négocier des options.
+
+===== WHITE-L3-007
+TITLE: Pourquoi l'érosion du temps joue contre les acheteurs d'options
+SUMMARY: Découvre pourquoi une option perd de la valeur simplement avec le passage du temps, même si le prix de l'actif sous-jacent ne change pas.
+# WHITE-L3-007 : Pourquoi l'érosion du temps joue contre les acheteurs d'options
+
+## Objectifs d'apprentissage
+À la fin de cette leçon, tu pourras :
+- Expliquer ce qu'est l'érosion du temps et pourquoi elle touche précisément les options
+- Expliquer pourquoi l'érosion du temps s'accélère à l'approche de l'échéance
+- Expliquer pourquoi l'érosion du temps joue contre les acheteurs d'options et en faveur des vendeurs d'options
+
+## Contenu principal
+
+La valeur d'une option a deux composantes : la valeur intrinsèque (à quel point le prix d'exercice est déjà avantageux par rapport au prix actuel du marché) et la valeur temps (la valeur supplémentaire qui reflète la possibilité que l'option devienne plus profitable avant l'échéance). À l'approche de l'échéance, cette composante de valeur temps diminue — un processus appelé **érosion du temps**.
+
+Voici « pourquoi » ça se produit : moins il reste de temps, moins le prix de l'actif sous-jacent a d'occasions d'évoluer favorablement avant l'échéance de l'option. Une option qui a six mois avant l'échéance a beaucoup plus de temps pour devenir potentiellement profitable qu'une option identique à qui il reste une semaine — elle vaut donc plus, toutes choses égales par ailleurs, uniquement grâce à ce temps supplémentaire.
+
+[VERIFIED FACT] L'érosion du temps n'est pas linéaire — elle s'accélère habituellement à l'approche de l'échéance, ce qui veut dire qu'une option peut perdre une grande partie de sa valeur temps restante dans ses dernières semaines ou ses derniers jours, même si le prix de l'actif sous-jacent n'a pas bougé du tout. C'est pourquoi les acheteurs d'options travaillent contre une horloge qui rétrécit constamment, alors que les vendeurs d'options (abordés dans la prochaine leçon) profitent généralement de ce même passage du temps.
+
+## Exemple pratique
+
+[ILLUSTRATIVE EXAMPLE] Un investisseur achète une option d'achat qui a trois mois avant l'échéance. Le prix de l'action sous-jacente reste parfaitement stable pendant les deux premiers mois. Même sans aucun mouvement de prix, la valeur de l'option a quand même diminué de façon appréciable pendant ces deux mois, uniquement à cause de l'érosion du temps — il reste simplement moins de temps pour que l'action fasse le mouvement qui rendrait l'option profitable. [ASSUMPTION] Pendant le dernier mois, à l'approche de l'échéance, cette érosion de la valeur temps s'accélère encore, de sorte que même un petit retard supplémentaire dans le mouvement de l'action peut nuire de façon appréciable à la valeur restante de l'option.
+
+## Quiz de pratique
+
+1. Quelles sont les deux composantes de la valeur d'une option?
+2. Pourquoi la valeur temps d'une option diminue-t-elle à l'approche de l'échéance, même si le prix sous-jacent ne bouge pas?
+3. Pourquoi l'érosion du temps s'accélère-t-elle au lieu de progresser à un rythme régulier et constant?
+
+## Corrigé
+
+1. La valeur intrinsèque (à quel point le prix d'exercice est avantageux par rapport au prix actuel du marché) et la valeur temps (qui reflète l'occasion restante d'un mouvement favorable avant l'échéance).
+2. Parce que moins il reste de temps, moins le prix sous-jacent a d'occasions d'évoluer favorablement, ce qui réduit la valeur de l'option même sans aucun changement de prix.
+3. Parce qu'à l'approche de l'échéance, il reste proportionnellement beaucoup moins de temps pour qu'un mouvement favorable se produise, ce qui fait s'éroder la valeur temps restante plus rapidement dans le dernier droit qu'au début de la vie de l'option.
+
+## Réponses et explications
+
+1. Ça établit la structure de valeur en deux parties sur laquelle repose le reste de la leçon.
+2. C'est le mécanisme central de l'érosion du temps.
+3. Ça ajoute la nuance importante de l'accélération, qui prépare la dynamique favorable aux vendeurs abordée dans la prochaine leçon.
+
+## Points clés à retenir
+- La valeur d'une option combine la valeur intrinsèque et la valeur temps; la valeur temps diminue à l'approche de l'échéance.
+- Cette « érosion du temps » se produit même sans aucun mouvement du prix de l'actif sous-jacent.
+- L'érosion du temps s'accélère à l'approche de l'échéance, ce qui joue contre les acheteurs d'options et en faveur des vendeurs d'options.
+
+## Avis pédagogique
+Cette leçon sert uniquement à l'éducation financière générale et ne constitue pas un conseil financier, de placement, fiscal ou juridique personnalisé. La négociation d'options comporte des risques importants et ne convient pas à tous les investisseurs. Consulte un professionnel de la finance autorisé avant de négocier des options.

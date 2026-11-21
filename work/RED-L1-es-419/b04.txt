@@ -1,0 +1,354 @@
+===== RED-L1-016
+TITLE: ¿Qué es el seguro de título?
+SUMMARY: Aprende contra qué protege el seguro de título, quién lo paga normalmente y por qué es un costo único y no periódico.
+# ¿Qué es el seguro de título?
+
+## Objetivos de aprendizaje
+
+Al terminar esta lección, deberías poder:
+
+- Definir el seguro de título en palabras sencillas.
+- Explicar contra qué protege.
+- Explicar por qué normalmente es un costo único.
+
+## Contenido principal
+
+### Qué es el seguro de título
+
+El seguro de título protege al dueño (y, por separado, al prestamista) contra pérdidas económicas causadas por problemas en el título que ya existían antes de la compra pero que no se descubrieron durante la búsqueda de título, como un heredero no declarado, un documento falsificado en la historia de la propiedad o un error en los registros públicos. *(Este seguro es muy común en EE. UU.; en muchos países de América Latina la seguridad del título descansa sobre todo en el notario público y en el registro de la propiedad, y el seguro de título es menos común.)*
+
+### Contra qué protege
+
+A diferencia de la mayoría de los seguros, que cubren eventos futuros, el seguro de título cubre problemas pasados que no se habían descubierto. Si un problema cubierto aparece después del cierre, la póliza puede cubrir los costos legales y las pérdidas económicas relacionadas con defender o resolver el reclamo.
+
+### Por qué es un costo único
+
+Como el seguro de título cubre un riesgo histórico y no un riesgo continuo, normalmente se paga una sola vez, al cierre, en lugar de pagarse como una prima periódica, como el seguro de la vivienda.
+
+## Ejemplo práctico
+
+Dos años después de comprar una vivienda, un heredero desconocido de un dueño anterior presenta un reclamo sobre la propiedad. La póliza de seguro de título del comprador cubre los costos legales para resolver el reclamo.
+
+## Prueba de práctica
+
+1. El seguro de título protege principalmente contra:
+   A. Daños futuros por tormentas
+   B. Problemas de título pasados que no se habían descubierto
+   C. Una caída del valor de mercado
+   D. Pagos atrasados de la hipoteca
+2. Verdadero o falso: El seguro de título normalmente se paga como una prima mensual periódica, como el seguro de la vivienda.
+3. ¿Cuál de estos es un ejemplo de algo que el seguro de título podría cubrir?
+   A. Un techo nuevo que se necesita después de una tormenta
+   B. Un heredero no declarado con un reclamo que viene del pasado de la propiedad
+   C. Una baja en el mercado inmobiliario local
+   D. Un cargo por pago atrasado de la hipoteca
+
+## Clave de respuestas
+
+1. B
+2. Falso
+3. B
+
+## Respuestas y explicaciones
+
+### Pregunta 1
+
+Respuesta correcta: B. El seguro de título cubre problemas pasados que no se habían descubierto, no eventos futuros como los daños por tormentas.
+
+### Pregunta 2
+
+Respuesta correcta: Falso. Normalmente es un pago único al cierre.
+
+### Pregunta 3
+
+Respuesta correcta: B. Un heredero no declarado es un ejemplo clásico de un problema histórico de título que cubre este seguro.
+
+## Puntos clave
+
+- El seguro de título cubre problemas de título pasados que no se habían descubierto.
+- Normalmente es un pago único que se hace al cierre.
+- Protege contra pérdidas económicas y costos legales si más adelante aparece un problema cubierto.
+
+===== RED-L1-017
+TITLE: ¿Qué es el escrow (depósito en garantía)?
+SUMMARY: Aprende qué significa el escrow (depósito en garantía) en una operación de bienes raíces, y las dos formas distintas en que se usa el término.
+# ¿Qué es el escrow (depósito en garantía)?
+
+## Objetivos de aprendizaje
+
+Al terminar esta lección, deberías poder:
+
+- Definir el escrow en palabras sencillas.
+- Explicar los dos usos comunes del término en bienes raíces.
+- Explicar por qué interviene un tercero neutral.
+
+## Contenido principal
+
+### El escrow, en general
+
+El escrow (depósito en garantía) se refiere a dinero o documentos que guarda un tercero neutral hasta que se cumplan ciertas condiciones. En bienes raíces, el término se usa de dos formas relacionadas pero distintas.
+
+### El escrow durante una compra
+
+Durante la compra de una vivienda, una compañía o un agente de escrow guarda el depósito del comprador y los documentos correspondientes hasta que se cumplen todas las condiciones de la venta (como las inspecciones y el financiamiento), y luego entrega los fondos y los documentos para completar el cierre. *(En varios países de América Latina, una función parecida la cumplen el notario público o una cuenta de garantía o fideicomiso bancario.)*
+
+### El escrow después de la compra (para impuestos y seguros)
+
+Después del cierre, muchos prestamistas hipotecarios mantienen una cuenta de escrow permanente: cobran una parte del impuesto predial y del seguro de la vivienda con cada pago mensual, y luego pagan esas facturas en nombre del propietario cuando vencen.
+
+## Ejemplo práctico
+
+El depósito de buena fe (arras) de un comprador se guarda en escrow durante el proceso de compra. Después del cierre, su nuevo prestamista también abre una cuenta de escrow permanente para cobrar y pagar automáticamente cada año los impuestos prediales y el seguro.
+
+## Prueba de práctica
+
+1. El escrow se refiere a:
+   A. Un tipo de inspección de vivienda
+   B. Dinero o documentos que guarda un tercero neutral hasta que se cumplan ciertas condiciones
+   C. Un impuesto predial del gobierno
+   D. Una forma de seguro de título
+2. Verdadero o falso: El escrow solo se usa durante el proceso de compra de una vivienda, nunca después.
+3. ¿Para qué se podría usar una cuenta de escrow hipotecaria permanente?
+   A. Para pagar las compras del supermercado del propietario
+   B. Para cobrar y pagar el impuesto predial y el seguro
+   C. Para cubrir el pago inicial
+   D. Para pagar la comisión del agente inmobiliario
+
+## Clave de respuestas
+
+1. B
+2. Falso
+3. B
+
+## Respuestas y explicaciones
+
+### Pregunta 1
+
+Respuesta correcta: B. El escrow es un arreglo en el que un tercero neutral guarda dinero o documentos.
+
+### Pregunta 2
+
+Respuesta correcta: Falso. El escrow también se usa comúnmente de forma permanente para pagar impuestos y seguros después del cierre.
+
+### Pregunta 3
+
+Respuesta correcta: B. Las cuentas de escrow permanentes comúnmente se encargan de los pagos del impuesto predial y del seguro.
+
+## Puntos clave
+
+- El escrow es un arreglo en el que un tercero neutral guarda dinero o documentos.
+- Se usa tanto durante una compra como, muchas veces, de forma permanente para impuestos y seguros.
+- El tercero neutral protege tanto al comprador como al vendedor (o al prestamista y al deudor) durante el proceso.
+
+===== RED-L1-018
+TITLE: Gastos de cierre: ¿qué estás pagando realmente?
+SUMMARY: Aprende qué incluyen normalmente los gastos de cierre, más o menos qué tan altos pueden ser y por qué son aparte del pago inicial.
+# Gastos de cierre: ¿qué estás pagando realmente?
+
+## Objetivos de aprendizaje
+
+Al terminar esta lección, deberías poder:
+
+- Nombrar varias categorías comunes de gastos de cierre.
+- Explicar por qué los gastos de cierre son aparte del pago inicial.
+- Reconocer que los gastos de cierre normalmente se pagan al momento del cierre o antes.
+
+## Contenido principal
+
+### Qué incluyen normalmente los gastos de cierre
+
+Los gastos de cierre (también llamados gastos de escrituración) son los cargos relacionados con formalizar una operación de bienes raíces, aparte del precio de la propiedad. Algunas categorías comunes son las comisiones por apertura del préstamo, el avalúo, el seguro de título, los cargos de escrow y los derechos de inscripción en el registro, aunque la lista exacta varía según la operación y el lugar. *(En muchos países de América Latina también suelen incluir los honorarios del notario y los impuestos por la transferencia de la propiedad.)*
+
+### Por qué son aparte del pago inicial
+
+El pago inicial se destina al precio de compra de la propiedad. Los gastos de cierre pagan los servicios y trámites necesarios para completar la operación: son un gasto realmente aparte que los compradores tienen que presupuestar además del pago inicial.
+
+### Cuándo se pagan
+
+*(REGLA ESPECÍFICA POR REGIÓN: las prácticas exactas varían según el lugar.)* Normalmente los gastos de cierre se pagan al momento del cierre o poco antes, y los compradores deberían planearlos como una necesidad real de efectivo por adelantado, junto con el pago inicial.
+
+## Ejemplo práctico
+
+Un comprador ahorra $30,000 para el pago inicial, pero se sorprende al descubrir que también necesita varios miles de dólares más para los gastos de cierre: un error de presupuesto común entre quienes compran por primera vez y solo planean en torno al pago inicial.
+
+## Prueba de práctica
+
+1. Los gastos de cierre son:
+   A. Lo mismo que el pago inicial
+   B. Cargos relacionados con formalizar la operación, aparte del precio de compra
+   C. Un tipo de impuesto predial
+   D. Opcionales y casi nunca se exigen
+2. Verdadero o falso: Normalmente los gastos de cierre se pagan mucho después de cerrar la venta, muchas veces un año después.
+3. ¿Cuál de estas es una categoría común de gastos de cierre?
+   A. Los gastos del supermercado
+   B. Las comisiones por apertura del préstamo
+   C. El costo de los muebles
+   D. La jardinería
+
+## Clave de respuestas
+
+1. B
+2. Falso
+3. B
+
+## Respuestas y explicaciones
+
+### Pregunta 1
+
+Respuesta correcta: B. Los gastos de cierre son cargos aparte de la operación, distintos del precio de compra y del pago inicial.
+
+### Pregunta 2
+
+Respuesta correcta: Falso. Normalmente los gastos de cierre se pagan al momento del cierre o poco antes.
+
+### Pregunta 3
+
+Respuesta correcta: B. Las comisiones por apertura del préstamo son un gasto de cierre común.
+
+## Puntos clave
+
+- Los gastos de cierre son cargos aparte que se necesitan para formalizar una operación.
+- Se suman al pago inicial; no forman parte de él.
+- Los compradores deberían presupuestarlos como una necesidad real de efectivo por adelantado.
+
+===== RED-L1-019
+TITLE: ¿Qué es una asociación de propietarios (HOA) y qué poder tiene?
+SUMMARY: Aprende qué es realmente una asociación de propietarios, qué puede hacer cumplir y qué revisar antes de comprar en una comunidad que tiene una.
+# ¿Qué es una asociación de propietarios (HOA) y qué poder tiene?
+
+## Objetivos de aprendizaje
+
+Al terminar esta lección, deberías poder:
+
+- Definir una asociación de propietarios en palabras sencillas.
+- Explicar qué puede hacer cumplir normalmente una asociación de propietarios.
+- Explicar por qué las cuotas y las reglas de la asociación importan antes de comprar.
+
+## Contenido principal
+
+### Qué es una asociación de propietarios
+
+Una asociación de propietarios (en EE. UU., HOA; en América Latina, figuras parecidas son la administración del condominio o la junta de copropietarios) es una organización que administra reglas comunes y, muchas veces, espacios o servicios compartidos dentro de una comunidad. Son comunes en desarrollos planificados, condominios y algunos fraccionamientos o urbanizaciones.
+
+### Qué puede hacer cumplir
+
+Normalmente las asociaciones de propietarios tienen autoridad legal real para hacer cumplir las reglas de la comunidad (sobre cosas como el aspecto exterior, el ruido o las mascotas) y cobrar las cuotas obligatorias. No pagar las cuotas o no seguir las reglas puede llevar a multas y, en algunos casos, incluso a un gravamen sobre la propiedad.
+
+### Qué revisar antes de comprar
+
+Como las reglas y las cuotas de la asociación son legalmente obligatorias para los dueños de la comunidad, vale la pena revisar el reglamento, la estructura de cuotas y la salud financiera de la asociación antes de comprar una propiedad que esté bajo una. Un error de principiante es tratar las cuotas de la asociación como algo opcional o menor.
+
+## Ejemplo práctico
+
+Un comprador adquiere un departamento en condominio sin revisar los documentos de la asociación y luego descubre una regla estricta que prohíbe el negocio desde casa que pensaba operar en la unidad: un conflicto que se habría podido identificar antes del cierre.
+
+## Prueba de práctica
+
+1. Una asociación de propietarios es:
+   A. Una agencia fiscal del gobierno
+   B. Una organización que administra reglas comunes y muchas veces espacios compartidos en una comunidad
+   C. Un tipo de prestamista hipotecario
+   D. Un servicio obligatorio de inspección de viviendas
+2. Verdadero o falso: Las cuotas de la asociación de propietarios por lo general son opcionales y casi nunca se hacen cumplir.
+3. ¿Qué puede pasar si un dueño no paga las cuotas obligatorias de la asociación?
+   A. Nada en absoluto
+   B. Multas y posiblemente un gravamen sobre la propiedad
+   C. La pérdida automática de la hipoteca
+   D. Una reducción del impuesto predial
+
+## Clave de respuestas
+
+1. B
+2. Falso
+3. B
+
+## Respuestas y explicaciones
+
+### Pregunta 1
+
+Respuesta correcta: B. Una asociación de propietarios administra las reglas de la comunidad y muchas veces los espacios o servicios compartidos.
+
+### Pregunta 2
+
+Respuesta correcta: Falso. Normalmente las cuotas de la asociación son legalmente obligatorias y exigibles.
+
+### Pregunta 3
+
+Respuesta correcta: B. Las cuotas no pagadas pueden llevar a multas e incluso a un gravamen.
+
+## Puntos clave
+
+- Una asociación de propietarios administra las reglas de la comunidad y muchas veces los servicios compartidos.
+- Las cuotas y las reglas de la asociación normalmente son legalmente obligatorias, no opcionales.
+- Revisar los documentos de la asociación antes de comprar puede evitar sorpresas reales más adelante.
+
+===== RED-L1-020
+TITLE: Vivienda unifamiliar frente a multifamiliar: ¿cuál es la diferencia real para el dueño?
+SUMMARY: Aprende en qué se diferencian para el dueño las propiedades unifamiliares y las multifamiliares, más allá del número de unidades.
+# Vivienda unifamiliar frente a multifamiliar: ¿cuál es la diferencia real para el dueño?
+
+## Objetivos de aprendizaje
+
+Al terminar esta lección, deberías poder:
+
+- Definir las propiedades unifamiliares y las multifamiliares.
+- Explicar en qué se diferencia el potencial de ingresos de ambas.
+- Explicar en qué se diferencia la responsabilidad de administración de ambas.
+
+## Contenido principal
+
+### Qué es cada tipo
+
+Una propiedad unifamiliar aloja a un hogar en una unidad independiente. Una propiedad multifamiliar tiene varias unidades separadas (como un dúplex, un tríplex o un cuádruplex) dentro de una misma propiedad, y cada una puede alojar a un hogar distinto.
+
+### Potencial de ingresos
+
+Una vivienda unifamiliar generalmente genera ingresos por renta de una sola fuente (si es que se renta). Una propiedad multifamiliar puede generar ingresos de varias unidades al mismo tiempo, lo que puede significar más ingresos totales, aunque también depende de que se logren rentar y mantener más unidades.
+
+### Responsabilidad de administración
+
+Más unidades generalmente significan más administración diaria: más inquilinos, más posibles solicitudes de mantenimiento y más cambios de inquilino. Esta disyuntiva entre el potencial de ingresos y la complejidad de la administración es una consideración real al comparar tipos de propiedad, no solo una diferencia de precio.
+
+## Ejemplo práctico
+
+Una vivienda unifamiliar rentada genera un pago de renta al mes. Un cuádruplex genera hasta cuatro pagos de renta al mes en la misma propiedad, pero también hasta cuatro inquilinos con sus solicitudes de mantenimiento y sus cambios que administrar.
+
+## Prueba de práctica
+
+1. La mejor descripción de una propiedad multifamiliar es:
+   A. Una propiedad con una sola unidad de vivienda independiente
+   B. Una propiedad que tiene varias unidades de vivienda separadas
+   C. Una propiedad sin unidades de vivienda
+   D. Un tipo de edificio comercial de oficinas
+2. Verdadero o falso: Las propiedades multifamiliares generalmente implican más administración diaria que las unifamiliares.
+3. ¿Cuál es una disyuntiva real entre ser dueño de una propiedad unifamiliar y de una multifamiliar?
+   A. No hay ninguna disyuntiva; la multifamiliar siempre es mejor
+   B. La multifamiliar ofrece más potencial de ingresos, pero generalmente más complejidad de administración
+   C. La unifamiliar siempre genera más ingresos totales
+   D. Las propiedades multifamiliares no se pueden rentar
+
+## Clave de respuestas
+
+1. B
+2. Verdadero
+3. B
+
+## Respuestas y explicaciones
+
+### Pregunta 1
+
+Respuesta correcta: B. Las propiedades multifamiliares tienen varias unidades de vivienda separadas.
+
+### Pregunta 2
+
+Respuesta correcta: Verdadero. Más unidades generalmente significan más inquilinos y más responsabilidad de administración.
+
+### Pregunta 3
+
+Respuesta correcta: B. Un mayor potencial de ingresos normalmente viene con más complejidad de administración.
+
+## Puntos clave
+
+- Las propiedades unifamiliares tienen una unidad; las multifamiliares tienen varias.
+- Las propiedades multifamiliares ofrecen más potencial de ingresos por tener varias unidades.
+- Ese potencial de ingresos viene con disyuntivas reales en la complejidad de la administración.

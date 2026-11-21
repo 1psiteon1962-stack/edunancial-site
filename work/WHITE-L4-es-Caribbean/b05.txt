@@ -1,0 +1,399 @@
+===== WHITE-L4-021
+TITLE: El análisis de la cosecha de pérdidas fiscales: por qué realizar pérdidas puede mejorar el rendimiento después de impuestos
+SUMMARY: Aprenda cómo vender una inversión con pérdida puede compensar ganancias de capital, qué es la regla de venta ficticia y por qué esta estrategia mejora el rendimiento después de impuestos.
+KEYWORDS: cosecha de pérdidas fiscales, compensación de ganancias de capital, regla de venta ficticia, rendimiento después de impuestos
+# El análisis de la cosecha de pérdidas fiscales: por qué realizar pérdidas puede mejorar el rendimiento después de impuestos
+
+## Escenario inicial
+SUPUESTO/OPINIÓN (escenario hipotético solo con fines educativos): Imagine que, después de años de expansión rápida, los mercados de bienes raíces y de crédito al consumo de un país muy poblado empiezan a mostrar señales de una corrección fuerte a medida que aumentan los atrasos en los pagos. Mientras se desinfla un auge alimentado por el crédito y algunas inversiones caen muy por debajo de su precio de compra, un inversionista disciplinado ve una oportunidad escondida en esas pérdidas. Esta lección explica cuál es esa oportunidad y la regla que rige cómo aprovecharla correctamente.
+
+## Objetivos de aprendizaje
+- Explicar qué significa la cosecha de pérdidas fiscales.
+- Explicar cómo las pérdidas de capital realizadas pueden compensar ganancias de capital realizadas para fines contributivos.
+- Explicar la regla de venta ficticia y por qué existe.
+- Explicar por qué la cosecha de pérdidas fiscales mejora el rendimiento después de impuestos, no el rendimiento antes de impuestos.
+
+## Contenido principal
+La cosecha de pérdidas fiscales (en inglés, "tax-loss harvesting") consiste en vender a propósito una inversión que ha bajado por debajo de su precio de compra para realizar una pérdida de capital, que luego puede usarse, para fines contributivos, para compensar ganancias de capital realizadas en otras partes de la cartera del inversionista. DATO VERIFICADO: en los Estados Unidos, las pérdidas de capital realizadas pueden compensar ganancias de capital realizadas dólar por dólar y, si las pérdidas superan las ganancias en un año, una parte limitada del exceso (a menudo hasta $3,000, REGLA ESPECÍFICA DE LA REGIÓN, confirme el límite vigente) normalmente puede compensar ingreso ordinario, y cualquier exceso restante se arrastra a años contributivos futuros.
+
+Este es el "por qué" esta estrategia mejora el rendimiento después de impuestos sin cambiar necesariamente la exposición real del inversionista al mercado: un inversionista que tiene una posición perdedora (por una caída como la del escenario anterior) y una posición ganadora en otra parte de su cartera puede vender la posición perdedora para realizar la pérdida y usarla para compensar los impuestos que debe por la ganancia de la posición ganadora, y a menudo reinvierte de inmediato lo recibido en una inversión similar (pero no idéntica) para mantener más o menos la misma exposición al mercado durante todo el proceso.
+
+Por eso existe la regla de venta ficticia y hay que cumplirla con cuidado: DATO VERIFICADO, en los Estados Unidos, si un inversionista vende un valor con pérdida y compra el mismo valor, o uno "sustancialmente idéntico", dentro de los 30 días antes o después de la venta, la pérdida no se permite para fines contributivos según la regla de venta ficticia (en inglés, "wash sale rule"), precisamente para evitar que los inversionistas reclamen una pérdida contributiva sin cambiar realmente su posición económica. Por eso la cosecha de pérdidas fiscales exige elegir con cuidado una inversión de reemplazo que sea realmente distinta, aunque similar, y por eso esta estrategia mejora el resultado después de impuestos de un plan de inversión en lugar de cambiar sus cualidades de inversión de fondo antes de impuestos.
+
+## Ejemplo práctico
+EJEMPLO ILUSTRATIVO: Un inversionista tiene una acción con una ganancia no realizada de $10,000 y, después de una caída fuerte en un sector, una posición separada en un fondo con una pérdida no realizada de $6,000. Al vender la posición perdedora en el fondo, realizar la pérdida de $6,000 y reinvertir de inmediato lo recibido en un fondo similar, pero no sustancialmente idéntico, el inversionista puede usar esa pérdida de $6,000 para compensar $6,000 de la ganancia si también vende la acción ganadora, lo que reduce la ganancia tributable a $4,000, mientras mantiene una exposición al mercado más o menos similar durante todo el proceso, porque el fondo de reemplazo sigue un segmento comparable del mercado.
+
+## Prueba práctica
+**Q1. ¿En qué consiste la cosecha de pérdidas fiscales?**
+A) Evitar vender cualquier inversión que haya perdido valor
+B) Vender a propósito una inversión con pérdida para compensar ganancias de capital realizadas para fines contributivos
+C) Vender solo inversiones que hayan subido mucho de valor
+D) Una estrategia que solo se usa en cuentas de retiro
+
+**Q2. ¿Cómo pueden usarse las pérdidas de capital realizadas para fines contributivos?**
+A) No pueden usarse para ningún fin contributivo
+B) Pueden compensar ganancias de capital realizadas dólar por dólar, y una parte limitada del exceso de pérdidas puede compensar ingreso ordinario
+C) Aumentan automáticamente la factura contributiva del inversionista
+D) Solo pueden usarse para compensar ganancias de la misma inversión exacta
+
+**Q3. ¿Qué busca evitar la regla de venta ficticia?**
+A) Que los inversionistas vendan alguna vez una inversión perdedora
+B) Que los inversionistas reclamen una pérdida contributiva mientras recompran de inmediato el mismo valor o uno sustancialmente idéntico, sin cambiar realmente su posición económica
+C) Que los inversionistas realicen alguna vez ganancias de capital
+D) Que las casas de corretaje cobren comisiones por las transacciones
+
+**Q4. ¿Por qué una inversión de reemplazo debe ser realmente distinta, aunque similar, después de una venta de cosecha de pérdidas fiscales?**
+A) Cualquier inversión de reemplazo es aceptable, sin importar cuán similar sea
+B) Comprar el mismo valor o uno sustancialmente idéntico dentro del período de la regla de venta ficticia hace que la pérdida no se permita para fines contributivos
+C) Las inversiones de reemplazo nunca se permiten bajo ninguna circunstancia
+D) La regla de venta ficticia solo aplica a bonos, no a acciones
+
+**Q5. ¿Por qué la cosecha de pérdidas fiscales mejora el rendimiento después de impuestos y no las cualidades de inversión antes de impuestos?**
+A) Cambia la calidad de inversión de fondo de los activos en cuestión
+B) Reduce la carga contributiva del inversionista sin cambiar necesariamente su exposición al mercado ni su estrategia de inversión de fondo
+C) Siempre aumenta el rendimiento antes de impuestos de una cartera
+D) La cosecha de pérdidas fiscales no tiene ningún efecto en los resultados después de impuestos
+
+## Clave de respuestas
+Q1: B
+Q2: B
+Q3: B
+Q4: B
+Q5: B
+
+## Respuestas y explicaciones
+**Q1.** La estrategia consiste precisamente en realizar una pérdida mediante una venta para usar esa pérdida y reducir ganancias tributables en otra parte.
+
+**Q2.** Las pérdidas realizadas reducen directamente las ganancias realizadas para fines contributivos, y se permite una compensación adicional limitada contra el ingreso ordinario.
+
+**Q3.** La regla impide reclamar un beneficio contributivo por una pérdida cuando la posición real del inversionista en el mercado sigue siendo esencialmente la misma.
+
+**Q4.** Elegir un reemplazo similar, pero no sustancialmente idéntico, ayuda a mantener la exposición al mercado y a la vez cumplir con la regla de venta ficticia.
+
+**Q5.** La estrategia es precisamente una herramienta de eficiencia contributiva que reduce el peso de los impuestos sobre los rendimientos, no un cambio en la tesis de inversión de fondo ni en la exposición.
+
+## Puntos clave
+- La cosecha de pérdidas fiscales realiza una pérdida de inversión para compensar ganancias de capital realizadas para fines contributivos.
+- En los Estados Unidos, las pérdidas compensan las ganancias dólar por dólar, con una compensación adicional limitada contra el ingreso ordinario y el arrastre de cualquier exceso.
+- La regla de venta ficticia hace que la pérdida no se permita si se recompra un valor sustancialmente idéntico dentro de un período definido alrededor de la venta.
+- Esta estrategia mejora el rendimiento después de impuestos al reducir el peso de los impuestos, mientras que un reemplazo similar (pero no idéntico) puede preservar la exposición al mercado.
+
+===== WHITE-L4-022
+TITLE: El análisis de la asignación de activos: por qué la asignación importa más que escoger cada acción
+SUMMARY: Aprenda por qué la división de una cartera entre las grandes clases de activos explica una gran parte de las diferencias de rendimiento a largo plazo, más que la selección de cada valor.
+KEYWORDS: asignación de activos, construcción de carteras, selección de valores, rendimientos a largo plazo
+# El análisis de la asignación de activos: por qué la asignación importa más que escoger cada acción
+
+## Escenario inicial
+SUPUESTO/OPINIÓN (escenario hipotético solo con fines educativos): Imagine una gran región productora de energía golpeada por un conflicto regional repentino que deja fuera de servicio, de la noche a la mañana, una parte importante de su capacidad de producción y aprieta la oferta mundial de energía casi sin aviso. Después de que un choque en el suministro de energía se extiende por los mercados, algunos inversionistas dedican muchísimo esfuerzo a escoger cada acción de su cartera, mientras que otros se enfocan casi por completo en su combinación general de acciones, bonos y otras clases de activos. Esta lección examina cuál de esas decisiones ha importado más históricamente.
+
+## Objetivos de aprendizaje
+- Explicar qué significa la asignación de activos como decisión de cartera.
+- Explicar por qué la investigación ha demostrado que la asignación de activos es un factor principal en las diferencias de rendimiento de las carteras a largo plazo.
+- Explicar por qué esto no significa que la selección de cada valor no tenga importancia.
+- Aplicar este entendimiento para distribuir bien el esfuerzo en las decisiones de cartera.
+
+## Contenido principal
+La asignación de activos se refiere a la división general de una cartera entre las grandes clases de activos (como acciones, bonos, bienes raíces y efectivo), a diferencia de la decisión más detallada de qué valores específicos tener dentro de cada clase. DATO VERIFICADO: investigaciones académicas influyentes sobre el desempeño de las carteras han demostrado que la política de asignación de activos explica una gran parte de las diferencias de rendimiento entre distintas carteras diversificadas a lo largo del tiempo, generalmente más que las decisiones específicas de selección de valores dentro de cada clase de activos.
+
+Este es el "por qué" este hallazgo tiene sentido, y se conecta con los principios de correlación y diversificación vistos antes en este nivel: como las clases de activos como las acciones y los bonos reaccionan de forma muy distinta a los grandes eventos económicos (como el choque en el suministro de energía del escenario anterior, que podría afectar el mercado de acciones y el de bonos de maneras muy diferentes), la decisión general de cuánto tener en cada clase de activos tiene un efecto desproporcionado en las características generales de riesgo y rendimiento de una cartera, sencillamente porque determina la exposición de la cartera a cada una de esas fuentes de riesgo y rendimiento fundamentalmente distintas.
+
+Este hallazgo no significa que la selección de cada valor no importe: una acción mal escogida todavía puede rendir mucho menos, y una selección hábil de valores todavía puede añadir valor dentro de una clase de activos. OPINIÓN y matiz importante: más bien, la investigación sugiere que, para la mayoría de los inversionistas, dedicar un tiempo y un esfuerzo desproporcionados a escoger cada acción mientras descuidan la decisión más amplia de asignación de activos probablemente es una mala distribución del esfuerzo analítico frente a lo que históricamente ha importado más para los resultados de una cartera a largo plazo.
+
+## Ejemplo práctico
+EJEMPLO ILUSTRATIVO: Dos inversionistas tienen cada uno una cartera de acciones y bonos individuales. El inversionista A dedica la mayor parte de su esfuerzo analítico a escoger acciones específicas dentro de su asignación de 70% en acciones, y casi ignora su asignación general de 70/30 entre acciones y bonos. El inversionista B dedica más esfuerzo a fijar con cuidado su asignación general de 60/40 según su tolerancia al riesgo y su horizonte de inversión, y usa fondos indexados de bajo costo para la selección de los valores subyacentes dentro de cada clase de activos. A lo largo de varias décadas y varios ciclos de mercado, la investigación sobre este tipo de comparación sugiere que el enfoque del inversionista B tiene más probabilidades de haber determinado la mayor parte de la diferencia en el rendimiento general de su cartera, aun sin ningún talento para escoger acciones.
+
+## Prueba práctica
+**Q1. ¿A qué se refiere la asignación de activos?**
+A) Las acciones específicas escogidas dentro de una cartera
+B) La división general de una cartera entre las grandes clases de activos, como acciones, bonos y efectivo
+C) La distribución del presupuesto interno de una sola empresa
+D) El trato contributivo de una cuenta de inversión específica
+
+**Q2. ¿Qué ha demostrado la investigación influyente sobre la relación entre la asignación de activos y las diferencias de rendimiento de las carteras?**
+A) La selección de cada valor explica casi todas las diferencias de rendimiento de las carteras
+B) La política de asignación de activos explica una gran parte de las diferencias de rendimiento entre carteras diversificadas, generalmente más que la selección de cada valor
+C) La asignación de activos no tiene relación con los rendimientos de las carteras
+D) Se encontró que la asignación de activos y la selección de valores son igual de poco importantes
+
+**Q3. ¿Por qué la combinación general de clases de activos tiene un efecto tan desproporcionado en los resultados de una cartera?**
+A) Todas las clases de activos siempre reaccionan de forma idéntica a los eventos económicos
+B) Las distintas clases de activos reaccionan de forma muy diferente a los grandes eventos económicos, así que la decisión de asignación determina la exposición general a esas fuentes de riesgo y rendimiento fundamentalmente distintas
+C) La asignación de activos no tiene relación con cómo reacciona una cartera a los eventos económicos
+D) Solo las acciones se ven afectadas por los eventos económicos, nunca los bonos
+
+**Q4. ¿Este hallazgo de la investigación significa que la selección de cada valor no tiene ninguna importancia?**
+A) Sí, la selección de cada valor no tiene absolutamente ningún efecto en ningún resultado de la cartera
+B) No, un valor mal escogido todavía puede rendir menos y una selección hábil todavía puede añadir valor, pero la asignación históricamente ha importado más para las diferencias de rendimiento general
+C) Sí, solo importa la asignación de activos y nada más afecta los rendimientos
+D) No, según esta investigación, la selección de cada valor es en realidad más importante que la asignación de activos
+
+**Q5. ¿Cuál es la consecuencia práctica de esta investigación para la forma en que los inversionistas podrían distribuir su esfuerzo analítico?**
+A) Los inversionistas deberían ignorar por completo la asignación de activos y enfocarse solo en escoger acciones
+B) Para la mayoría de los inversionistas, fijar con cuidado la asignación general de activos merece por lo menos tanta atención como la selección de cada valor
+C) Las decisiones de asignación de activos deberían tomarse al azar, sin análisis
+D) La selección de cada valor nunca debería considerarse bajo ninguna circunstancia
+
+## Clave de respuestas
+Q1: B
+Q2: B
+Q3: B
+Q4: B
+Q5: B
+
+## Respuestas y explicaciones
+**Q1.** La asignación de activos es la decisión de más alto nivel sobre cuánto tener en cada gran clase de inversión, distinta de escoger cada valor.
+
+**Q2.** Este es un hallazgo bien establecido de la investigación sobre carteras acerca de la importancia relativa de estos dos tipos de decisiones.
+
+**Q3.** Como las clases de activos reaccionan de forma distinta a los mismos eventos, la decisión de cuánto tener en cada una moldea gran parte del comportamiento general de una cartera.
+
+**Q4.** El hallazgo se refiere a la importancia relativa y al efecto típico, no a afirmar que la selección de valores no tenga ningún efecto en los resultados.
+
+**Q5.** Dada la importancia histórica de las decisiones de asignación, dedicarles un esfuerzo analítico significativo es una conclusión práctica razonable basada en la evidencia.
+
+## Puntos clave
+- La asignación de activos es la división general de una cartera entre las grandes clases de activos, distinta de la selección de cada valor.
+- La investigación influyente ha demostrado que la asignación de activos explica una gran parte de las diferencias de rendimiento de las carteras a largo plazo.
+- Esto se debe a que las distintas clases de activos reaccionan de forma diferente a los grandes eventos económicos, lo que moldea el comportamiento general de la cartera.
+- Este hallazgo sugiere que la mayoría de los inversionistas deberían darle a la decisión general de asignación por lo menos tanta atención como a escoger cada acción.
+
+===== WHITE-L4-023
+TITLE: El análisis del riesgo de secuencia de rendimientos: por qué el orden de los rendimientos importa en el retiro
+SUMMARY: Aprenda por qué el orden en que llegan los rendimientos puede cambiar por completo el resultado de un retirado que hace retiros, y cómo reducir ese riesgo.
+KEYWORDS: riesgo de secuencia de rendimientos, retiros en el retiro, duración de la cartera, planificación del retiro
+# El análisis del riesgo de secuencia de rendimientos: por qué el orden de los rendimientos importa en el retiro
+
+## Escenario inicial
+SUPUESTO/OPINIÓN (escenario hipotético solo con fines educativos): Imagine que, después de años de expansión rápida, los mercados de bienes raíces y de crédito al consumo de un país muy poblado empiezan a mostrar señales de una corrección fuerte a medida que aumentan los atrasos en los pagos. Imagine a dos retirados con el mismo rendimiento promedio de sus inversiones durante un retiro de 20 años, pero uno se retira justo antes de una caída fuerte del mercado de crédito y el otro justo después de que esa caída termina. Esta lección explica por qué esos dos retirados pueden terminar con resultados muy distintos a pesar de tener rendimientos promedio idénticos.
+
+## Objetivos de aprendizaje
+- Explicar qué significa el riesgo de secuencia de rendimientos.
+- Explicar por qué el orden de los rendimientos importa más durante un período de retiros regulares que durante un período de pura acumulación.
+- Comparar a dos retirados hipotéticos con rendimientos promedio idénticos pero con secuencias de rendimientos distintas.
+- Identificar estrategias que pueden ayudar a reducir el riesgo de secuencia de rendimientos.
+
+## Contenido principal
+El riesgo de secuencia de rendimientos describe el riesgo de que el orden específico en que llegan los rendimientos de inversión, y no solo su promedio a lo largo del tiempo, pueda afectar mucho el resultado de un inversionista, sobre todo el de alguien que retira dinero regularmente de su cartera, como un retirado. DATO VERIFICADO: durante una fase de pura acumulación (se añade dinero regularmente sin retirar nada), el orden de los rendimientos no tiene ningún efecto en el valor final, porque la capitalización funciona igual sin importar la secuencia cuando ningún retiro ni aportación cambia el monto base en el camino.
+
+Este es el "por qué" todo cambia por completo cuando empiezan los retiros regulares, como en el retiro: sacar una cantidad fija en dólares de una cartera que acaba de sufrir una caída importante (como la caída del mercado de crédito del escenario anterior) significa vender una proporción mayor de las participaciones que quedan para obtener esa misma cantidad, lo que reduce de forma permanente el número de participaciones que quedan para beneficiarse de una eventual recuperación del mercado. Un retirado que recibe buenos rendimientos al principio del retiro, seguidos de rendimientos más débiles después, normalmente termina mucho mejor que un retirado con el mismo rendimiento promedio pero que sufre una caída fuerte al principio del retiro, precisamente por cómo interactúan los retiros con una base de activos reducida durante esos primeros años de caída.
+
+Por eso existen varias estrategias prácticas para ayudar a reducir el riesgo de secuencia de rendimientos, conectadas con lecciones anteriores de este nivel: mantener una reserva de efectivo o bonos (como eco de los principios de punto de equilibrio y de reserva de otras rutas) que pueda cubrir algunos años de retiros sin tener que vender acciones depreciadas durante una caída, mantener la flexibilidad de reducir los retiros durante los períodos de mercado débil, y fijar con cuidado la asignación de activos inicial (lección 22) para manejar el riesgo de volatilidad precisamente alrededor de la transición al retiro, cuando el riesgo de secuencia de rendimientos es mayor.
+
+## Ejemplo práctico
+EJEMPLO ILUSTRATIVO: El retirado A sufre una caída de 25% en su cartera durante su primer año de retiro, seguida de muchos años de buenos rendimientos promedio; el retirado B recibe exactamente la misma serie de rendimientos anuales, pero en orden inverso, con la caída de 25% en el último año de un retiro de 20 años. Aunque los dos retirados obtuvieron un rendimiento anual promedio matemáticamente idéntico durante los 20 años, el retirado A, que retiraba una cantidad fija en dólares cada año, se queda sin dinero años antes que el retirado B, porque los retiros del retirado A durante el año de la caída redujeron de forma permanente las participaciones que podían beneficiarse de la recuperación posterior, mientras que la cartera del retirado B ya había crecido mucho antes de sufrir la misma caída al final del retiro.
+
+## Prueba práctica
+**Q1. ¿Qué describe el riesgo de secuencia de rendimientos?**
+A) El riesgo de que los rendimientos promedio de las inversiones sean demasiado bajos durante todo un período de inversión
+B) El riesgo de que el orden específico en que llegan los rendimientos, y no solo su promedio, pueda afectar mucho el resultado de un inversionista, sobre todo durante una fase de retiros
+C) El riesgo de que una sola acción rinda menos que el mercado en general
+D) El riesgo de escoger un fondo de gestión activa en lugar de un fondo indexado
+
+**Q2. ¿Por qué el orden de los rendimientos no importa durante una fase de pura acumulación, sin retiros?**
+A) La capitalización produce el mismo valor final sin importar la secuencia específica cuando ningún retiro ni aportación cambia el monto base en el camino
+B) El orden de los rendimientos siempre importa, aun sin retiros
+C) Las fases de acumulación nunca tienen rendimientos de inversión
+D) El riesgo de secuencia de rendimientos solo aplica a bonos, no a acciones
+
+**Q3. ¿Por qué retirar dinero durante una caída del mercado reduce de forma permanente el potencial de recuperación futuro de un retirado?**
+A) Los retiros durante una caída no tienen ningún efecto en el número de participaciones que quedan en la cartera
+B) Obtener el mismo retiro fijo en dólares de una cartera depreciada exige vender una proporción mayor de las participaciones restantes, lo que deja menos participaciones para beneficiarse de una recuperación posterior
+C) Los retiros durante una caída siempre aumentan el número de participaciones en la cartera
+D) Las caídas del mercado eliminan la necesidad de cualquier retiro futuro
+
+**Q4. En el ejemplo, ¿por qué el retirado A se quedó sin dinero años antes que el retirado B, a pesar de tener rendimientos promedio idénticos?**
+A) La caída temprana del retirado A, combinada con retiros continuos, redujo de forma permanente las participaciones que podían beneficiarse de la recuperación posterior, a diferencia del retirado B, que sufrió la misma caída solo después de años de crecimiento
+B) El retirado B nunca sufrió realmente la caída de 25%
+C) El retirado A retiró mucho más dinero en total que el retirado B
+D) Los dos retirados tenían rendimientos promedio distintos, aunque la lección dice que eran idénticos
+
+**Q5. ¿Cuál de las siguientes es una forma práctica de reducir el riesgo de secuencia de rendimientos?**
+A) Retirar cada año un porcentaje fijo más alto de la cartera, sin importar las condiciones del mercado
+B) Mantener una reserva de efectivo o bonos que cubra varios años de retiros sin tener que vender acciones depreciadas durante una caída
+C) Invertir toda la cartera en una sola acción volátil
+D) Ignorar por completo la asignación de activos durante la transición al retiro
+
+## Clave de respuestas
+Q1: B
+Q2: A
+Q3: B
+Q4: A
+Q5: B
+
+## Respuestas y explicaciones
+**Q1.** Este riesgo trata precisamente de cómo el momento de los rendimientos interactúa con el flujo de dinero del inversionista, y no solo del rendimiento promedio obtenido.
+
+**Q2.** Sin flujos de dinero que interactúen con el saldo de la cartera, multiplicar la misma serie de rendimientos en cualquier orden da un resultado final idéntico.
+
+**Q3.** Vender más participaciones para cubrir una necesidad de retiro fija durante una caída deja fijo un número menor de participaciones, que se pierden una mayor parte de cualquier recuperación futura.
+
+**Q4.** Es el momento de la caída frente al calendario de retiros, y no el rendimiento promedio en sí, lo que explica los resultados tan distintos de los dos retirados.
+
+**Q5.** Una reserva puede reducir la necesidad de vender activos depreciados durante una caída, lo que ataca directamente el mecanismo central del riesgo de secuencia de rendimientos.
+
+## Puntos clave
+- El riesgo de secuencia de rendimientos significa que el orden en que llegan los rendimientos, y no solo su promedio, puede afectar mucho el resultado de alguien que hace retiros.
+- Durante la acumulación sin retiros, el orden no afecta el valor final; durante las fases de retiro, importa muchísimo.
+- Una caída al principio del retiro, combinada con retiros fijos, reduce de forma permanente las participaciones disponibles para una recuperación posterior.
+- Mantener una reserva de efectivo o bonos y fijar una asignación bien pensada alrededor de la transición al retiro son estrategias clave para reducir este riesgo.
+
+===== WHITE-L4-024
+TITLE: El análisis de las cuentas de retiro: por qué escoger entre una cuenta tradicional y una Roth depende de los supuestos sobre las tasas contributivas
+SUMMARY: Aprenda la diferencia en el trato contributivo entre una cuenta de retiro tradicional y una Roth en los Estados Unidos, y por qué la decisión correcta depende de sus tasas contributivas actuales y futuras.
+KEYWORDS: IRA tradicional, Roth IRA, trato contributivo de cuentas de retiro, supuestos sobre tasas contributivas
+# El análisis de las cuentas de retiro: por qué escoger entre una cuenta tradicional y una Roth depende de los supuestos sobre las tasas contributivas
+
+## Escenario inicial
+SUPUESTO/OPINIÓN (escenario hipotético solo con fines educativos): Imagine un banco central que sube su tasa de interés de referencia de forma fuerte y repetida en pocos meses para combatir una inflación en aumento. Mientras un banco central combate la inflación con tasas de interés mucho más altas, algunos analistas advierten que las tasas contributivas futuras del gobierno podrían tener que subir para manejar el aumento en el costo del servicio de la deuda. Esta lección examina por qué este tipo de supuesto macroeconómico afecta directamente una decisión muy personal sobre una cuenta de retiro.
+
+## Objetivos de aprendizaje
+- Explicar la diferencia de fondo en el trato contributivo entre una cuenta de retiro tradicional y una Roth.
+- Explicar por qué escoger entre una cuenta tradicional y una Roth depende, en el fondo, de comparar las tasas contributivas actuales con las futuras esperadas.
+- Identificar otros factores, además de la simple comparación de tasas, que pueden influir en esta decisión.
+- Aplicar este marco para analizar una decisión hipotética entre una cuenta tradicional y una Roth.
+
+## Contenido principal
+En los Estados Unidos, una cuenta de retiro tradicional (como un IRA tradicional o un 401(k)) normalmente permite aportaciones antes de impuestos, lo que reduce el ingreso tributable del año de la aportación, y los retiros durante el retiro tributan como ingreso ordinario. Una cuenta Roth (Roth IRA o Roth 401(k)) normalmente exige aportaciones después de impuestos (sin deducción al principio), pero DATO VERIFICADO: los retiros que cualifican durante el retiro, incluido todo el crecimiento de las inversiones, están completamente libres de impuestos bajo la ley actual de los Estados Unidos. Nota: estas cuentas son propias del sistema contributivo de los Estados Unidos; otros países tienen sistemas con reglas distintas.
+
+Este es el "por qué" esta decisión se reduce, en el fondo, a comparar las tasas contributivas de hoy con las del futuro: si un inversionista espera estar en una tasa contributiva más baja en el retiro que durante sus años de trabajo (un supuesto común en muchos ahorradores, pero no en todos), la deducción inicial de una cuenta tradicional, tomada a la tasa más alta de hoy, generalmente vale más que pagar los impuestos ahora (mediante una Roth) a esa misma tasa más alta. Al contrario, si un inversionista espera estar en una tasa contributiva similar o más alta en el retiro (tal vez por una buena pensión, otros ingresos de retiro importantes o, como sugiere la presión fiscal general del escenario anterior, porque cree que las tasas contributivas futuras en general podrían subir sin importar su propio nivel de ingreso), una cuenta Roth, que asegura la tasa contributiva de hoy sobre las aportaciones, puede ser más ventajosa.
+
+Por eso la decisión exige formular un supuesto real (SUPUESTO/OPINIÓN, ya que las tasas contributivas futuras y el ingreso futuro de una persona no pueden saberse con certeza) sobre su propia tasa contributiva futura y la dirección general de la política contributiva, en lugar de seguir una sola respuesta que sirva para todo el mundo. Otros factores también importan: bajo la ley actual, las cuentas Roth no están sujetas a distribuciones mínimas requeridas en vida del dueño original, lo que da más flexibilidad, y diversificar entre los dos tipos de cuenta puede proteger contra la incertidumbre real de predecir las tasas contributivas con décadas de anticipación.
+
+## Ejemplo práctico
+EJEMPLO ILUSTRATIVO: Un trabajador joven, al principio de su carrera y hoy en una tasa contributiva relativamente baja, aporta a una cuenta Roth: paga los impuestos ahora a su tasa actual baja a cambio de crecimiento y retiros completamente libres de impuestos décadas después, cuando espera estar en una tasa mucho más alta gracias al avance de su carrera. Otro trabajador, que hoy está en sus mejores años de ingreso y en una tasa contributiva alta, prefiere una cuenta tradicional: toma la valiosa deducción ahora, a su tasa alta actual, y espera estar en una tasa más baja una vez retirado, con un ingreso menor. Esto ilustra cómo la misma decisión sobre el tipo de cuenta puede diferir razonablemente según la trayectoria específica de tasas contributivas de cada persona.
+
+## Prueba práctica
+**Q1. ¿Cuál es la diferencia de fondo en el trato contributivo entre una cuenta de retiro tradicional y una Roth?**
+A) Los dos tipos de cuenta tributan de forma idéntica en todos los aspectos
+B) Las cuentas tradicionales normalmente ofrecen una deducción contributiva inicial y retiros tributables después, mientras que las Roth usan aportaciones después de impuestos y retiros que cualifican libres de impuestos
+C) Las cuentas Roth siempre exigen una aportación mínima más alta que las tradicionales
+D) Las cuentas tradicionales solo están disponibles para trabajadores por cuenta propia
+
+**Q2. Si un inversionista espera estar en una tasa contributiva más baja en el retiro que durante sus años de trabajo, ¿qué tipo de cuenta suele ser más ventajosa?**
+A) Una cuenta Roth, porque pagar los impuestos ahora siempre es mejor, sin importar la tasa futura
+B) Una cuenta tradicional, porque la deducción inicial se toma a la tasa más alta de hoy, en lugar de pagar los impuestos ahora innecesariamente a esa misma tasa más alta
+C) Ninguno de los dos tipos de cuenta ofrece ventaja contributiva en este escenario
+D) Este escenario no influye en la decisión entre una cuenta tradicional y una Roth
+
+**Q3. ¿Por qué la creencia de que las tasas contributivas futuras en general subirán, sin importar el nivel de ingreso personal, podría favorecer una cuenta Roth?**
+A) El aumento de las tasas contributivas futuras no influye en la decisión entre una cuenta tradicional y una Roth
+B) Asegurar la tasa contributiva de hoy sobre las aportaciones mediante una Roth evita la exposición a tasas posiblemente más altas sobre los retiros futuros
+C) Las cuentas Roth ajustan automáticamente su trato contributivo según los cambios futuros en las leyes contributivas
+D) Las cuentas tradicionales siempre están protegidas contra los cambios futuros en las tasas contributivas
+
+**Q4. ¿Cuál es una ventaja estructural clave de las cuentas Roth, además del trato libre de impuestos de los retiros?**
+A) Las cuentas Roth garantizan un rendimiento de inversión más alto que las tradicionales
+B) Bajo la ley actual, las cuentas Roth no están sujetas a distribuciones mínimas requeridas en vida del dueño original, lo que da más flexibilidad
+C) Las cuentas Roth no tienen límites de aportación
+D) Las cuentas Roth solo pueden abrirse después de empezar el retiro
+
+**Q5. ¿Por qué escoger entre una cuenta tradicional y una Roth exige formular un supuesto real e incierto en lugar de seguir una sola respuesta que sirva para todo el mundo?**
+A) La tasa contributiva personal futura y la dirección futura de la política contributiva no pueden saberse con certeza con décadas de anticipación
+B) Las cuentas tradicionales y las Roth siempre producen resultados idénticos sin importar el supuesto
+C) Las tasas contributivas nunca cambian, lo que hace que la decisión sea sencilla para todo el mundo
+D) Solo importa la política fiscal del gobierno, no la trayectoria de ingreso personal
+
+## Clave de respuestas
+Q1: B
+Q2: B
+Q3: B
+Q4: B
+Q5: A
+
+## Respuestas y explicaciones
+**Q1.** Esta es la diferencia estructural de fondo sobre cuándo se pagan los impuestos: al principio en la Roth, al retirar en la tradicional.
+
+**Q2.** Tomar la deducción a una tasa actual más alta, en lugar de pagar los impuestos ahora a esa misma tasa más alta, generalmente favorece una cuenta tradicional cuando se esperan tasas futuras más bajas.
+
+**Q3.** Una cuenta Roth fija el costo contributivo hoy, lo que protege contra la posibilidad de que las tasas contributivas futuras suban en general, sin importar la tasa personal del ahorrador.
+
+**Q4.** Esta flexibilidad adicional, distinta de la diferencia de fondo en el trato contributivo, es una ventaja estructural importante de las cuentas Roth bajo la ley actual.
+
+**Q5.** Como la decisión depende de variables futuras que no se pueden conocer, por naturaleza exige un supuesto y no una respuesta cierta y universal.
+
+## Puntos clave
+- Las cuentas tradicionales ofrecen una deducción inicial y retiros tributables después; las Roth usan aportaciones después de impuestos y retiros que cualifican libres de impuestos.
+- La decisión correcta depende de comparar la tasa contributiva actual de la persona con su tasa contributiva futura esperada.
+- La creencia de que las tasas contributivas futuras en general podrían subir, sin importar el ingreso personal, puede favorecer asegurar la tasa de hoy mediante una Roth.
+- Como las tasas contributivas y el ingreso futuros no pueden saberse con certeza, esta decisión exige un supuesto real, y diversificar entre los dos tipos de cuenta puede proteger contra esa incertidumbre.
+
+===== WHITE-L4-025
+TITLE: El análisis de las distribuciones mínimas requeridas: por qué las RMD moldean la estrategia de retiros en el retiro
+SUMMARY: Aprenda qué son las distribuciones mínimas requeridas de las cuentas de retiro tradicionales en los Estados Unidos, por qué existen, cómo se calculan y cómo planificar en consecuencia.
+KEYWORDS: distribuciones mínimas requeridas, RMD, estrategia de retiros en el retiro, reglas del IRA tradicional
+# El análisis de las distribuciones mínimas requeridas: por qué las RMD moldean la estrategia de retiros en el retiro
+
+## Escenario inicial
+SUPUESTO/OPINIÓN (escenario hipotético solo con fines educativos): Imagine un banco central que sube su tasa de interés de referencia de forma fuerte y repetida en pocos meses para combatir una inflación en aumento. Mientras las tasas de interés suben fuertemente, algunos retirados notan que el saldo de sus cuentas de retiro tradicionales creció a pesar de un mercado turbulento, y se sorprenden al saber que tienen que empezar a retirar una cantidad específica cada año, la necesiten o no. Esta lección explica por qué.
+
+## Objetivos de aprendizaje
+- Explicar qué es una distribución mínima requerida (RMD).
+- Explicar por qué existen las RMD desde el punto de vista de la política pública.
+- Explicar cómo se calcula generalmente la cantidad de las RMD.
+- Identificar las consecuencias de las RMD para la planificación contributiva de la estrategia de retiros en el retiro.
+
+## Contenido principal
+En los Estados Unidos, una distribución mínima requerida (RMD, en inglés "required minimum distribution") es la cantidad mínima que hay que retirar cada año de la mayoría de las cuentas de retiro tradicionales (como un IRA tradicional o un 401(k)) a partir de una edad específica fijada por la ley vigente. DATO VERIFICADO: la edad de las RMD y sus reglas de cálculo las fija la ley federal y han cambiado con el tiempo, así que la edad y las reglas específicas vigentes siempre deben confirmarse directamente, como REGLA ESPECÍFICA DE LA REGIÓN y detalle que depende de la fecha, en lugar de suponerlas a partir de los requisitos de un año anterior.
+
+Este es el "por qué" existen las RMD desde el punto de vista de la política pública: como las aportaciones a las cuentas tradicionales recibieron una deducción contributiva al principio (vea la lección 24), el gobierno todavía no ha cobrado impuestos sobre ese dinero ni sobre su crecimiento. Las RMD existen para asegurar que las cuentas con impuestos diferidos no difieran los impuestos indefinidamente, ni pasen de una generación a otra, sin que el gobierno cobre nunca los impuestos que esas deducciones debían generar con el tiempo: el diferimiento tiene un final incorporado, ligado a la edad del dueño original de la cuenta.
+
+Por eso las RMD moldean directamente la planificación de la estrategia de retiros en el retiro: la cantidad de la RMD generalmente se calcula dividiendo el saldo de la cuenta al final del año anterior entre un factor de expectativa de vida publicado por las autoridades contributivas, lo que significa que el retiro requerido no es fijo, sino que cambia cada año según el saldo de la cuenta y la edad del dueño, y que este retiro forzado tributa como ingreso ordinario en el año en que se hace, se necesiten o no los fondos para gastos corrientes. Por eso algunos retirados hacen planificación contributiva antes de la edad de las RMD, como conversiones parciales estratégicas a una Roth (pasar dinero de una cuenta tradicional a una Roth, pagando impuestos sobre la cantidad convertida, en años con una tasa contributiva más favorable) para reducir el tamaño de los retiros requeridos futuros y su efecto contributivo.
+
+## Ejemplo práctico
+EJEMPLO ILUSTRATIVO: El saldo del IRA tradicional de un retirado es de $500,000 al final del año anterior, y el factor de expectativa de vida que aplica a su edad es 25.6. Su RMD para el año en curso se calcula así: $500,000 / 25.6, o aproximadamente $19,531, que hay que retirar e informar como ingreso ordinario tributable ese año, la necesite el retirado para gastar o no, lo que podría subirlo a una tasa contributiva más alta si se suma a otras fuentes de ingreso recibidas ese mismo año.
+
+## Prueba práctica
+**Q1. ¿Qué es una distribución mínima requerida (RMD)?**
+A) Un retiro opcional que el dueño de una cuenta puede escoger hacer en cualquier momento
+B) La cantidad mínima que hay que retirar cada año de la mayoría de las cuentas de retiro tradicionales a partir de una edad específica
+C) Un retiro único que solo se exige al abrir una cuenta
+D) Una penalidad por aportar de más a una cuenta de retiro
+
+**Q2. ¿Por qué existen las RMD desde el punto de vista de la política contributiva?**
+A) Las RMD existen solo para generar cargos adicionales para las instituciones financieras
+B) Como las aportaciones a las cuentas tradicionales recibieron una deducción contributiva al principio, las RMD aseguran que el gobierno termine cobrando impuestos sobre ese dinero y su crecimiento en lugar de permitir un diferimiento indefinido
+C) Las RMD solo existen para las cuentas Roth, no para las tradicionales
+D) Las RMD no tienen relación con cómo se alimentaron las cuentas tradicionales
+
+**Q3. ¿Cómo se calcula generalmente la cantidad de una RMD?**
+A) Es una cantidad fija en dólares establecida una vez y nunca ajustada
+B) Dividiendo el saldo de la cuenta al final del año anterior entre un factor de expectativa de vida publicado por las autoridades contributivas
+C) Multiplicando el saldo de la cuenta por la tasa contributiva actual del dueño
+D) La cantidad de las RMD se determina solo por la preferencia personal del dueño
+
+**Q4. ¿Por qué es importante confirmar directamente la edad y las reglas vigentes de las RMD en lugar de confiar en la información de un año anterior?**
+A) Las reglas de las RMD nunca han cambiado y nunca cambiarán
+B) La edad de las RMD y sus reglas de cálculo las fija la ley federal y han cambiado con el tiempo, lo que hace esencial verificarlas al día
+C) Las reglas de las RMD son idénticas en todos los aspectos a las de las cuentas Roth
+D) Las RMD solo aplican a cuentas abiertas antes de cierto año
+
+**Q5. ¿Por qué un retirado podría considerar una conversión parcial estratégica a una Roth antes de llegar a la edad de las RMD?**
+A) Las conversiones a una Roth no tienen ningún efecto en la cantidad de las RMD futuras
+B) Convertir parte de los fondos de una cuenta tradicional a una Roth en años con una situación contributiva favorable puede reducir el tamaño de los retiros requeridos futuros y su efecto contributivo
+C) Las conversiones a una Roth están prohibidas para cualquier persona que se acerque a la edad de las RMD
+D) Las RMD no pueden reducirse con ninguna estrategia de planificación
+
+## Clave de respuestas
+Q1: B
+Q2: B
+Q3: B
+Q4: B
+Q5: B
+
+## Respuestas y explicaciones
+**Q1.** Las RMD son retiros anuales obligatorios que exige la ley una vez que el dueño de una cuenta llega a la edad que aplica.
+
+**Q2.** Las RMD cierran el ciclo del diferimiento contributivo que ofrecen las cuentas tradicionales, asegurando que se terminen pagando impuestos sobre las aportaciones deducidas y su crecimiento.
+
+**Q3.** Este método de cálculo hace que el retiro requerido cambie cada año según el saldo de la cuenta y el factor de expectativa de vida que aplique.
+
+**Q4.** Dados los cambios documentados en las reglas de las RMD con el tiempo, confiar en información vieja podría llevar a un error de cumplimiento costoso.
+
+**Q5.** Pasar fondos de forma proactiva a una Roth, que no está sujeta a RMD en vida del dueño original, puede reducir el saldo de la cuenta tradicional sujeto a retiros requeridos futuros.
+
+## Puntos clave
+- Una RMD es el retiro anual mínimo que exige la ley de la mayoría de las cuentas de retiro tradicionales a partir de una edad específica.
+- Las RMD existen para asegurar que el gobierno termine cobrando impuestos sobre las aportaciones deducidas y su crecimiento.
+- La cantidad de la RMD se recalcula cada año según el saldo de la cuenta y un factor de expectativa de vida, y tributa como ingreso ordinario.
+- La planificación estratégica, como conversiones parciales a una Roth antes de la edad de las RMD, puede ayudar a manejar el efecto contributivo futuro de los retiros requeridos.

@@ -1,0 +1,183 @@
+===== WHITE-L3-005
+TITLE: Warum Optionen dir Rechte geben, keine Pflichten – und warum das etwas kostet
+SUMMARY: Lerne den grundlegenden Aufbau von Optionskontrakten kennen und erfahre, warum der Kauf einer Option dir nur ein Recht gibt – und warum dieses Recht nicht kostenlos ist.
+# WHITE-L3-005: Warum Optionen dir Rechte geben, keine Pflichten – und warum das etwas kostet
+
+## Lernziele
+Am Ende dieser Lektion kannst du:
+- eine Kaufoption (Call) und eine Verkaufsoption (Put) definieren
+- erklären, warum der Kauf einer Option ein Recht und keine Pflicht verschafft
+- erklären, warum dieses Recht die Zahlung einer Prämie erfordert
+
+## Hauptinhalt
+
+Eine **Option** ist ein Vertrag, der dem Käufer das Recht, aber nicht die Pflicht gibt, einen zugrunde liegenden Vermögenswert (den Basiswert, etwa eine Aktie) zu einem festgelegten Preis (dem Basispreis) bis zu oder an einem festgelegten Termin (dem Verfallstag) zu kaufen oder zu verkaufen. Eine **Kaufoption (Call)** gibt das Recht, zum Basispreis zu kaufen; eine **Verkaufsoption (Put)** gibt das Recht, zum Basispreis zu verkaufen.
+
+Hier das „Warum“, weshalb sich das vom bloßen Besitz der Aktie unterscheidet: Weil du nur handeln musst, wenn es dir nützt, ist der mögliche Verlust des Optionskäufers auf das begrenzt, was er für den Kontrakt bezahlt hat – die sogenannte **Prämie** –, während der mögliche Gewinn erheblich sein kann, wenn sich der Basiswert günstig entwickelt. Genau diese Asymmetrie (begrenztes Verlustrisiko, größeres Gewinnpotenzial) ist das, wofür der Käufer bezahlt.
+
+[VERIFIED FACT] Der Verkäufer einer Option (auch „Stillhalter“ genannt) steht auf der anderen Seite dieses Geschäfts und übernimmt die Pflicht, den Vertrag zu erfüllen, wenn der Käufer sein Recht ausübt – deshalb hat der Verkauf von Optionen ein grundlegend anderes Risikoprofil, das in einer späteren Lektion behandelt wird. Die Prämie ist nicht willkürlich; sie spiegelt den aktuellen Kurs des Basiswerts, den Basispreis, die Restlaufzeit bis zum Verfall und die erwartete Volatilität des Basiswerts wider.
+
+## Durchgerechnetes Beispiel
+
+[ILLUSTRATIVE EXAMPLE] Eine Anlegerin kauft eine Kaufoption auf eine Aktie, die derzeit bei 50 € notiert, mit einem Basispreis von 55 €, und zahlt eine Prämie von 2 € je Aktie. Steigt die Aktie vor dem Verfall auf 65 €, kann sie ihr Recht ausüben, zu 55 € zu kaufen – deutlich unter dem Marktpreis – und erzielt nach Abzug der gezahlten Prämie von 2 € einen spürbaren Gewinn. Bleibt die Aktie unter 55 € oder fällt sie, lässt sie die Option einfach verfallen, und ihr Gesamtverlust ist auf die gezahlte Prämie von 2 € begrenzt – sie war nie verpflichtet, zu 55 € zu kaufen, wenn das keinen Sinn ergab.
+
+## Übungsquiz
+1. Was ist der zentrale Unterschied zwischen dem Besitz einer Option und einer Pflicht, danach zu handeln?
+2. Wozu berechtigt eine Kaufoption (Call) den Käufer?
+3. Warum bleibt der Verlust des Optionskäufers auf die gezahlte Prämie begrenzt, selbst wenn sich der Basiswert stark gegen ihn bewegt?
+
+## Lösungsschlüssel
+1. Der Besitz (Kauf) einer Option verschafft ein Recht, keine Pflicht – der Käufer kann wählen, ob er sie ausübt; anders als beim direkten Besitz der Aktie, bei dem es keine Wahl gibt, ob die Position „aktiviert“ wird.
+2. Zum Recht, den Basiswert bis zu oder am Verfallstag zum Basispreis zu kaufen.
+3. Weil der Käufer nicht verpflichtet ist, die Option auszuüben – ist sie ungünstig, lässt er sie einfach verfallen und verliert nur die bereits gezahlte Prämie, nicht mehr.
+
+## Antworten und Erklärungen
+1. Das ist die grundlegende Unterscheidung hinter allen weiteren Lektionen zu Optionen in diesem Track.
+2. Das ist die konkrete Definition einer Kaufoption im Gegensatz zu einer Verkaufsoption.
+3. Das erklärt den Mechanismus hinter der im Hauptinhalt beschriebenen Asymmetrie des begrenzten Verlustrisikos.
+
+## Das Wichtigste in Kürze
+- Eine Option gibt dem Käufer das Recht, aber nicht die Pflicht, einen Vermögenswert vor dem Verfall zu einem festgelegten Preis zu kaufen (Call) oder zu verkaufen (Put).
+- Weil die Ausübung freiwillig ist, ist das Verlustrisiko des Käufers auf die gezahlte Prämie begrenzt, während das Gewinnpotenzial größer sein kann.
+- Der Verkäufer der Option übernimmt die Pflichtseite des Vertrags, die ein anderes Risikoprofil hat – Thema einer späteren Lektion.
+
+## Hinweis zum Bildungszweck
+Diese Lektion dient ausschließlich der allgemeinen finanziellen Bildung und ist keine individuelle Finanz-, Anlage-, Steuer- oder Rechtsberatung. Der Handel mit Optionen ist mit erheblichen Risiken verbunden und nicht für alle Anlegerinnen und Anleger geeignet. Wende dich vor dem Handel mit Optionen an eine zugelassene Fachperson.
+
+===== WHITE-L3-006
+TITLE: Warum ein Call auf die Richtung setzt und ein Straddle auf die Bewegung
+SUMMARY: Lerne den Unterschied zwischen einer Richtungswette mit Optionen und einem Straddle kennen, der von einer großen Bewegung in beide Richtungen profitiert.
+# WHITE-L3-006: Warum ein Call auf die Richtung setzt und ein Straddle auf die Bewegung
+
+## Lernziele
+Am Ende dieser Lektion kannst du:
+- erklären, was eine Straddle-Strategie ist
+- zwischen einer Wette auf die Richtung und einer Wette auf Bewegung bzw. Volatilität unterscheiden
+- ein Szenario erkennen, in dem ein Straddle besser passt als ein einfacher Call oder Put
+
+## Hauptinhalt
+
+Lektion 5 hat Calls und Puts als Richtungswetten vorgestellt: Ein Call gewinnt, wenn der Basiswert steigt, ein Put gewinnt, wenn er fällt. Was aber, wenn du überzeugt bist, dass gleich etwas Großes passiert – Quartalszahlen, eine wichtige Ankündigung –, aber wirklich nicht weißt, in welche Richtung sich der Kurs bewegen wird?
+
+Ein **Straddle** kombiniert den Kauf eines Calls und eines Puts auf denselben Basiswert, mit demselben Basispreis und demselben Verfallstag. Hier das „Warum“, weshalb sich damit die Wette verschiebt: Statt auf die Richtung setzt ein Straddle auf das **Ausmaß der Bewegung** – er gewinnt, wenn sich der Basiswert deutlich in eine der beiden Richtungen bewegt, und zwar stark genug, um die Summe beider Prämien zu decken; er verliert an Wert, wenn der Kurs weitgehend seitwärts läuft, weil dann beide Optionen mit geringem Wert verfallen würden.
+
+[VERIFIED FACT] Weil ein Straddle den Kauf von zwei Optionen statt einer erfordert, kostet er zu Beginn mehr als ein einzelner Call oder Put – der Basiswert muss sich also weiter bewegen, in die eine oder andere Richtung, nur damit die Gesamtposition die Gewinnschwelle erreicht.
+
+## Durchgerechnetes Beispiel
+
+[ILLUSTRATIVE EXAMPLE] Eine Anlegerin erwartet, dass die anstehenden Quartalszahlen eines Unternehmens einen großen Kursausschlag auslösen, hat aber keine klare Meinung, ob die Nachricht positiv oder negativ ausfällt. Statt nur einen Call (Wette auf steigende Kurse) oder nur einen Put (Wette auf fallende Kurse) zu kaufen, kauft sie einen Straddle – einen Call und einen Put zum selben Basispreis. [ASSUMPTION] Springt die Aktie nach den Zahlen stark nach oben, gewinnt der Call so viel an Wert, dass er den Verlust des Puts und die gesamte gezahlte Prämie mehr als ausgleicht – es entsteht ein Gewinn. Fällt die Aktie stattdessen stark, erfüllt der Put dieselbe Funktion in umgekehrter Richtung. Bewegt sich die Aktie aber kaum, können beide Optionen nahezu wertlos verfallen, und sie verliert den Großteil oder die gesamte gezahlte Prämie.
+
+## Übungsquiz
+1. Was kombiniert ein Straddle vom Aufbau her?
+2. Wie unterscheidet sich eine Wette auf „Bewegung“ von einer Wette auf „Richtung“?
+3. Warum braucht ein Straddle eine größere Kursbewegung, um profitabel zu werden, als ein einzelner Call oder Put?
+
+## Lösungsschlüssel
+1. Den Kauf eines Calls und eines Puts auf denselben Basiswert, mit demselben Basispreis und demselben Verfallstag.
+2. Bei einer Wette auf die Richtung gewinnt man nur, wenn sich der Kurs in eine bestimmte Richtung bewegt (nach oben beim Call, nach unten beim Put); bei einer Wette auf Bewegung gewinnt man bei einer großen Bewegung in beide Richtungen, egal in welche.
+3. Weil die Gesamtkosten für den Kauf von zwei Optionen (Call und Put) höher sind als für eine einzige, sodass sich der Kurs weiter bewegen muss, um diese höhere Gesamtprämie zu decken, bevor die Position Gewinn bringt.
+
+## Antworten und Erklärungen
+1. Das ist die Definition des Aufbaus, die man für den Rest der Lektion braucht.
+2. Das ist die zentrale gedankliche Unterscheidung, um die die Lektion aufgebaut ist.
+3. Das unterstreicht den Kostennachteil, wenn man zwei Positionen statt einer kombiniert.
+
+## Das Wichtigste in Kürze
+- Ein Straddle kombiniert einen Call und einen Put mit gleichem Basispreis und Verfallstag und setzt auf Bewegung statt auf Richtung.
+- Er gewinnt bei einer großen Kursbewegung in eine der beiden Richtungen und verliert an Wert, wenn der Kurs weitgehend seitwärts läuft.
+- Weil er mehr kostet als eine einzelne Option, braucht er eine größere Bewegung, um profitabel zu werden.
+
+## Hinweis zum Bildungszweck
+Diese Lektion dient ausschließlich der allgemeinen finanziellen Bildung und ist keine individuelle Finanz-, Anlage-, Steuer- oder Rechtsberatung. Der Handel mit Optionen ist mit erheblichen Risiken verbunden und nicht für alle Anlegerinnen und Anleger geeignet. Wende dich vor dem Handel mit Optionen an eine zugelassene Fachperson.
+
+===== WHITE-L3-007
+TITLE: Warum der Zeitwertverfall gegen Optionskäufer arbeitet
+SUMMARY: Erfahre, warum eine Option allein durch den Lauf der Zeit an Wert verliert, selbst wenn sich der Kurs des Basiswerts nicht verändert.
+# WHITE-L3-007: Warum der Zeitwertverfall gegen Optionskäufer arbeitet
+
+## Lernziele
+Am Ende dieser Lektion kannst du:
+- erklären, was Zeitwertverfall ist und warum er gerade Optionen betrifft
+- erklären, warum sich der Zeitwertverfall kurz vor dem Verfall beschleunigt
+- erklären, warum der Zeitwertverfall gegen Optionskäufer und zugunsten von Optionsverkäufern wirkt
+
+## Hauptinhalt
+
+Der Wert einer Option setzt sich aus zwei Bestandteilen zusammen: dem inneren Wert (wie günstig der Basispreis im Vergleich zum aktuellen Marktpreis bereits ist) und dem Zeitwert (dem zusätzlichen Wert, der die Chance widerspiegelt, dass die Option vor dem Verfall noch profitabler wird). Je näher der Verfall rückt, desto kleiner wird dieser Zeitwert – ein Vorgang, der **Zeitwertverfall** heißt.
+
+Hier das „Warum“, weshalb das passiert: Weniger Restlaufzeit bedeutet weniger Gelegenheit, dass sich der Kurs des Basiswerts vor dem Verfall günstig entwickelt. Eine Option mit sechs Monaten Restlaufzeit hat viel mehr Zeit, möglicherweise profitabel zu werden, als eine identische Option mit nur noch einer Woche – sie ist daher bei sonst gleichen Bedingungen mehr wert, allein wegen der zusätzlichen Zeit.
+
+[VERIFIED FACT] Der Zeitwertverfall verläuft nicht linear – er beschleunigt sich in der Regel, je näher der Verfall rückt. Eine Option kann also in ihren letzten Wochen oder Tagen einen großen Teil ihres verbleibenden Zeitwerts verlieren, selbst wenn sich der Kurs des Basiswerts überhaupt nicht bewegt hat. Deshalb arbeiten Optionskäufer gegen eine ständig ablaufende Uhr, während Optionsverkäufer (Thema der nächsten Lektion) im Allgemeinen vom selben Zeitablauf profitieren.
+
+## Durchgerechnetes Beispiel
+
+[ILLUSTRATIVE EXAMPLE] Ein Anleger kauft eine Kaufoption mit drei Monaten Restlaufzeit. Der Kurs der zugrunde liegenden Aktie bleibt in den ersten zwei Monaten exakt unverändert. Obwohl sich der Kurs überhaupt nicht bewegt hat, ist der Wert der Option in diesen zwei Monaten spürbar gesunken – allein durch den Zeitwertverfall, denn es bleibt einfach weniger Zeit, in der die Aktie die Bewegung machen kann, die die Option profitabel machen würde. [ASSUMPTION] Im letzten Monat, kurz vor dem Verfall, beschleunigt sich dieser Abbau des Zeitwerts weiter, sodass selbst eine kleine weitere Verzögerung der Kursbewegung den verbleibenden Wert der Option spürbar schmälern kann.
+
+## Übungsquiz
+1. Aus welchen zwei Bestandteilen setzt sich der Wert einer Option zusammen?
+2. Warum schrumpft der Zeitwert einer Option kurz vor dem Verfall, selbst wenn sich der Kurs des Basiswerts nicht bewegt?
+3. Warum beschleunigt sich der Zeitwertverfall, statt gleichmäßig und konstant zu verlaufen?
+
+## Lösungsschlüssel
+1. Dem inneren Wert (wie günstig der Basispreis im Vergleich zum aktuellen Marktpreis ist) und dem Zeitwert (der die verbleibende Chance auf eine günstige Bewegung vor dem Verfall widerspiegelt).
+2. Weil weniger Restlaufzeit weniger Gelegenheit für eine günstige Kursbewegung bedeutet, was den Wert der Option auch ohne jede Kursveränderung senkt.
+3. Weil kurz vor dem Verfall anteilig viel weniger Zeit für eine günstige Bewegung bleibt, sodass der verbleibende Zeitwert auf der letzten Strecke schneller abnimmt als früher in der Laufzeit der Option.
+
+## Antworten und Erklärungen
+1. Das legt die zweiteilige Wertstruktur fest, auf der der Rest der Lektion beruht.
+2. Das ist der zentrale Mechanismus des Zeitwertverfalls.
+3. Das ergänzt die wichtige Feinheit der Beschleunigung und bereitet die verkäuferfreundliche Dynamik aus der nächsten Lektion vor.
+
+## Das Wichtigste in Kürze
+- Der Wert einer Option besteht aus innerem Wert und Zeitwert; der Zeitwert schrumpft, je näher der Verfall rückt.
+- Dieser „Zeitwertverfall“ tritt auch ohne jede Kursbewegung des Basiswerts auf.
+- Der Zeitwertverfall beschleunigt sich kurz vor dem Verfall und wirkt gegen Optionskäufer und zugunsten von Optionsverkäufern.
+
+## Hinweis zum Bildungszweck
+Diese Lektion dient ausschließlich der allgemeinen finanziellen Bildung und ist keine individuelle Finanz-, Anlage-, Steuer- oder Rechtsberatung. Der Handel mit Optionen ist mit erheblichen Risiken verbunden und nicht für alle Anlegerinnen und Anleger geeignet. Wende dich vor dem Handel mit Optionen an eine zugelassene Fachperson.
+
+===== WHITE-L3-008
+TITLE: Warum der Verkauf von Optionen das Risikoprofil komplett umkehrt
+SUMMARY: Erfahre, warum dich der Verkauf (das Schreiben) einer Option auf die Pflichtseite des Vertrags stellt – mit einem ganz anderen Risikoprofil als beim Kauf.
+# WHITE-L3-008: Warum der Verkauf von Optionen das Risikoprofil komplett umkehrt
+
+## Lernziele
+Am Ende dieser Lektion kannst du:
+- erklären, warum der Verkauf einer Option eine Pflicht statt eines Rechts begründet
+- erklären, warum der maximale Gewinn eines Optionsverkäufers begrenzt ist, während das Risiko viel größer sein kann
+- zwischen einer gedeckten und einer ungedeckten („nackten“) Optionsposition unterscheiden
+
+## Hauptinhalt
+
+Lektion 5 hat gezeigt, dass der Kauf einer Option ein Recht verschafft – mit begrenztem Verlustrisiko (der Prämie) und größerem Gewinnpotenzial. Der Verkauf – auch „Schreiben“ einer Option genannt – kehrt diese Struktur komplett um: Der Verkäufer (Stillhalter) erhält die Prämie im Voraus, übernimmt aber die **Pflicht**, den Vertrag zu erfüllen, wenn der Käufer ihn ausübt.
+
+Hier das „Warum“, weshalb sich das Risikoprofil umkehrt: Der maximale Gewinn des Verkäufers ist auf die erhaltene Prämie begrenzt – mehr kann er mit der Position nie verdienen. Sein möglicher Verlust kann aber viel größer sein, besonders wenn er den Basiswert nicht bereits besitzt (eine „nackte“ oder ungedeckte Position), weil sich der Kurs deutlich gegen ihn bewegen kann und er trotzdem verpflichtet bleibt, den Vertrag zu erfüllen.
+
+[VERIFIED FACT] Ein **gedeckter Call (Covered Call)** – also der Verkauf einer Kaufoption auf eine Aktie, die der Verkäufer bereits besitzt – begrenzt das praktische Risiko dieser konkreten Position: Übt der Käufer aus, liefert der Verkäufer einfach Aktien, die er schon hält, statt sie womöglich zu einem viel höheren Marktpreis kaufen zu müssen. Der Verkauf von Optionen, ohne den Basiswert bereits zu besitzen („nackter“ Verkauf), ist mit deutlich mehr Risiko verbunden und gilt im Allgemeinen als fortgeschrittene Strategie.
+
+## Durchgerechnetes Beispiel
+
+[ILLUSTRATIVE EXAMPLE] Eine Anlegerin verkauft einen gedeckten Call auf eine Aktie, die sie bereits besitzt und die derzeit bei 50 € notiert, mit einem Basispreis von 55 €, und erhält dafür eine Prämie von 2 €. Bleibt die Aktie unter 55 €, verfällt die Option wertlos, und sie behält die 2 € Prämie als reinen Gewinn – zusätzlich zu ihren weiterhin gehaltenen Aktien. Steigt die Aktie auf 70 €, übt der Käufer die Option aus, und sie ist verpflichtet, ihre Aktien zu 55 € zu verkaufen – ihr entgeht der zusätzliche Gewinn über 55 €, aber ihr Risiko war begrenzt, weil sie die verkauften Aktien bereits besaß. Im Vergleich dazu müsste ein Verkäufer eines nackten Calls ohne eigene Aktien bei 70 € Aktien zum aktuellen Marktpreis kaufen, nur um sie zu 55 € zu liefern – ein möglicherweise großer Verlust, der grundsätzlich nach oben nicht begrenzt ist.
+
+## Übungsquiz
+1. Wie unterscheidet sich das Risikoprofil beim Verkauf einer Option von dem beim Kauf?
+2. Was ist ein gedeckter Call, und warum begrenzt er das praktische Risiko im Vergleich zu einem nackten Call?
+3. Was ist der höchstmögliche Gewinn eines Optionsverkäufers?
+
+## Lösungsschlüssel
+1. Der Verkauf einer Option begründet die Pflicht, den Vertrag bei Ausübung zu erfüllen – mit begrenztem maximalem Gewinn (der Prämie), aber möglicherweise viel größerem Risiko; das Gegenteil des begrenzten Verlustrisikos und größeren Gewinnpotenzials eines Käufers.
+2. Bei einem gedeckten Call wird eine Kaufoption auf Aktien verkauft, die der Verkäufer bereits besitzt; das begrenzt das Risiko, weil er bei Ausübung Aktien liefert, die er schon hält, statt sie möglicherweise zu einem viel höheren Marktpreis kaufen zu müssen.
+3. Die beim Verkauf der Option erhaltene Prämie – das ist der höchstmögliche Gewinn der Position, egal wie günstig sich der Basiswert für den Verkäufer entwickelt.
+
+## Antworten und Erklärungen
+1. Das ist das zentrale Konzept der Umkehrung des Risikoprofils, um das die Lektion aufgebaut ist.
+2. Das unterscheidet die beiden Verkaufsansätze und erklärt, warum gerade die „Deckung“ das praktische Risiko senkt.
+3. Das unterstreicht die begrenzte Gewinnseite des asymmetrischen Risikoprofils des Verkäufers.
+
+## Das Wichtigste in Kürze
+- Der Verkauf einer Option begründet eine Pflicht, kein Recht – mit begrenztem maximalem Gewinn (der Prämie) und möglicherweise viel größerem Risiko.
+- Ein gedeckter Call, verkauft auf bereits gehaltene Aktien, begrenzt das praktische Risiko im Vergleich zu einer nackten (ungedeckten) Option.
+- Der nackte Verkauf von Optionen ist mit deutlich mehr Risiko verbunden und gilt im Allgemeinen als fortgeschrittene Strategie.
+
+## Hinweis zum Bildungszweck
+Diese Lektion dient ausschließlich der allgemeinen finanziellen Bildung und ist keine individuelle Finanz-, Anlage-, Steuer- oder Rechtsberatung. Der Handel mit Optionen ist mit erheblichen Risiken verbunden und nicht für alle Anlegerinnen und Anleger geeignet. Wende dich vor dem Handel mit Optionen an eine zugelassene Fachperson.

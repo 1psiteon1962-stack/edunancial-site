@@ -1,0 +1,185 @@
+===== ORANGE-L3-013
+TITLE: Warum A/B-Tests die wissenschaftliche Methode auf Marketingentscheidungen anwenden
+SUMMARY: Erfahre, warum ein A/B-Test funktioniert, indem er eine einzige Variable isoliert, und warum ohne diese Disziplin aus einem Test eine Anekdote statt eines Belegs wird.
+# ORANGE-L3-013: Warum A/B-Tests die wissenschaftliche Methode auf Marketingentscheidungen anwenden
+
+## Lernziele
+Am Ende dieser Lektion kannst du:
+- das Grundprinzip eines A/B-Tests erklären
+- erklären, warum die Isolierung einer einzigen Variable für eine gültige Schlussfolgerung unverzichtbar ist
+- erklären, warum ein schlecht aufgebauter Test zu einer selbstsicheren, aber falschen Schlussfolgerung führen kann
+
+## Hauptinhalt
+
+Ein **A/B-Test** vergleicht grundsätzlich zwei Versionen von etwas – einer Anzeige, einer Webseite, einer E-Mail-Betreffzeile –, um herauszufinden, welche besser abschneidet, indem jede Version einer vergleichbaren Gruppe gezeigt und das Ergebnis gemessen wird. Hier das „Warum“, weshalb das wirklich die wissenschaftliche Methode angewandt auf Marketing ist: Ein gültiger Test verlangt, eine einzige Variable zu isolieren und zwischen Version A und Version B nur eine Sache zu ändern, damit jeder Unterschied im Ergebnis mit Zuversicht genau dieser Änderung zugeschrieben werden kann und nicht einem anderen, nicht kontrollierten Unterschied zwischen den beiden Gruppen.
+
+Hier das Risiko, wenn man diese Disziplin überspringt: Ändert ein Unternehmen mehrere Elemente gleichzeitig – eine neue Überschrift, ein neues Bild und einen neuen Button für die Handlungsaufforderung, alles im selben Test – und schneidet Version B besser ab, lässt sich nicht feststellen, welche konkrete Änderung die Verbesserung tatsächlich bewirkt hat oder ob eine Änderung geholfen und eine andere geschadet hat und der Gesamteffekt nur zufällig positiv ausfiel. Eine selbstsichere Schlussfolgerung aus einem solchen Test ist eher eine Anekdote als ein echter Beleg.
+
+Bevor du ein A/B-Testergebnis als echte Erkenntnis behandelst: Welche einzelne Variable wurde genau verändert, und waren Stichprobengröße und Testzeitraum tatsächlich groß genug, um einen echten Effekt von zufälligen Schwankungen zu unterscheiden? In Europa kommt hinzu, dass die Messung auf Webseiten oft eine Einwilligung der Nutzer in Cookies oder Tracking voraussetzt – wer nur die einwilligenden Besucher misst, sollte prüfen, ob diese Gruppe für alle Kunden repräsentativ ist.
+
+## Durchgerechnetes Beispiel
+
+[ILLUSTRATIVE EXAMPLE] Ein Marketingteam führt einen Test durch, bei dem es Überschrift, Bild und Button-Farbe einer Anzeige gleichzeitig ändert, und die neue Version schneidet besser ab. [ASSUMPTION] Das Team schließt daraus, dass die neue Überschrift der entscheidende Faktor war, und setzt sie überall ein – doch weil drei Variablen gleichzeitig geändert wurden, kann es tatsächlich nicht verlässlich wissen, ob die Überschrift, das Bild oder die Button-Farbe die Verbesserung bewirkt hat oder ob eine dieser Änderungen der Leistung sogar geschadet hat, während eine andere noch stärker geholfen hat – eine Unklarheit, die ein ordentlich isolierter Test mit einer einzigen Variable vollständig vermieden hätte.
+
+## Übungsquiz
+1. Was ist das Grundprinzip eines A/B-Tests?
+2. Warum ist die Isolierung einer einzigen Variable für eine gültige Schlussfolgerung unverzichtbar?
+3. Was passiert, wenn mehrere Variablen gleichzeitig geändert werden und sich das Ergebnis verbessert?
+
+## Lösungsschlüssel
+1. Zwei Versionen von etwas werden vergleichbaren Gruppen gezeigt, um herauszufinden, welche besser abschneidet.
+2. Weil nur so ein Unterschied im Ergebnis mit Zuversicht genau dieser Änderung zugeschrieben werden kann und nicht einem nicht kontrollierten, verzerrenden Unterschied.
+3. Es lässt sich nicht verlässlich feststellen, welche konkrete Änderung die Verbesserung bewirkt hat oder ob eine Änderung geholfen und eine andere geschadet hat und der Gesamteffekt nur zufällig positiv war.
+
+## Antworten und Erklärungen
+1. Das ist die grundlegende Definition dieser Lektion.
+2. Das ist der zentrale methodische Grundsatz, auf dem die Lektion aufbaut.
+3. Das unterstreicht das praktische Risiko, wenn man einen ordentlichen Testaufbau überspringt.
+
+## Das Wichtigste in Kürze
+- Ein A/B-Test vergleicht zwei Versionen unter ansonsten vergleichbaren Bedingungen, um herauszufinden, welche besser abschneidet.
+- Ein gültiger Test verlangt die Isolierung einer einzigen Variable, damit sich ein Unterschied mit Zuversicht genau dieser Änderung zuschreiben lässt.
+- Werden mehrere Variablen gleichzeitig geändert, entsteht eine Anekdote statt eines verlässlichen Belegs, selbst wenn das Ergebnis positiv aussieht.
+
+## Hinweis zum Bildungszweck
+Diese Lektion dient ausschließlich der allgemeinen wirtschaftlichen Bildung und ist keine individuelle Finanz-, Anlage-, Steuer- oder Rechtsberatung. Wende dich vor Entscheidungen über deine Marketingstrategie an eine qualifizierte Fachperson, etwa eine Unternehmensberatung.
+
+===== ORANGE-L3-014
+TITLE: Warum die Zuordnung von Verkäufen schwieriger ist, als sie aussieht
+SUMMARY: Erfahre, warum es wirklich schwierig ist, einen Verkauf einem bestimmten Marketingkontakt zuzuschreiben, wenn ein Kunde vor dem Kauf über viele Kanäle mit einem Unternehmen in Berührung kommt.
+# ORANGE-L3-014: Warum die Zuordnung von Verkäufen schwieriger ist, als sie aussieht
+
+## Lernziele
+Am Ende dieser Lektion kannst du:
+- erklären, warum es wirklich schwierig ist, einen Verkauf einem einzigen Marketingkontakt zuzuschreiben
+- das allgemeine Problem speziell der „Last-Click“-Zuordnung erklären
+- erklären, warum verschiedene Zuordnungsmodelle zu unterschiedlichen, gleichermaßen vertretbaren Schlussfolgerungen führen können
+
+## Hauptinhalt
+
+**Attribution** (Zuordnung) bedeutet grundsätzlich festzustellen, welchem konkreten Marketingkontakt (einer Anzeige, einer E-Mail, einem Beitrag in sozialen Medien) ein daraus folgender Verkauf gutgeschrieben werden soll. Hier das „Warum“, weshalb das wirklich schwieriger ist, als es klingt: Die meisten Kunden kommen vor dem Kauf über mehrere Kontaktpunkte mit einem Unternehmen in Berührung – sie sehen eine Anzeige, lesen später eine Bewertung, klicken dann auf einen Link in einer E-Mail und kaufen schließlich –, und ein einfacher Zuordnungsansatz muss irgendwie entscheiden, welcher dieser Kontakte den Verkauf gutgeschrieben bekommt, obwohl der Verkauf wahrscheinlich von der Kombination abhing.
+
+Ein verbreiteter, aber begrenzter Ansatz, die **„Last-Click“-Zuordnung**, schreibt den Verkauf nur dem letzten Kontakt vor dem Kauf zu – [VERIFIED FACT] das unterbewertet systematisch frühere Kontaktpunkte (etwa die erste Anzeige, die Aufmerksamkeit geschaffen hat), die womöglich unverzichtbar dafür waren, dass der Verkauf überhaupt zustande kam, auch wenn sie nicht der letzte Klick waren. Verschiedene Zuordnungsmodelle (First-Click, Multi-Touch, zeitlicher Verfall und andere) führen aus denselben zugrunde liegenden Daten zum Kundenverhalten grundsätzlich zu unterschiedlichen Schlussfolgerungen darüber, welche Kanäle Anerkennung und Budget verdienen. In Europa wird die Zuordnung zusätzlich dadurch erschwert, dass die geräte- und kanalübergreifende Verfolgung einzelner Nutzer nach dem Datenschutzrecht in der Regel eine Einwilligung voraussetzt, sodass ein Teil der Kundenreise oft gar nicht sichtbar ist.
+
+Wenn dein Unternehmen derzeit auf die „Last-Click“-Zuordnung setzt: Welche Marketingaktivität in einer früheren Phase wird womöglich systematisch unterbewertet und läuft Gefahr, dass ihr Budget gekürzt wird, obwohl sie im Stillen unverzichtbare Arbeit leistet?
+
+## Durchgerechnetes Beispiel
+
+[ILLUSTRATIVE EXAMPLE] Ein Kunde sieht eine Anzeige in sozialen Medien, liest später eine Online-Bewertung und klickt schließlich auf einen Link in einer E-Mail, bevor er den Kauf abschließt. Bei der „Last-Click“-Zuordnung erhält die E-Mail die volle Anerkennung für den Verkauf. [ASSUMPTION] Entscheidet das Unternehmen auf Grundlage dieser Zuordnung, die Ausgaben für die Anzeigen in sozialen Medien zu kürzen, die die erste Aufmerksamkeit tatsächlich geschaffen haben, verringert es womöglich unbewusst einen unverzichtbaren Teil seiner Kundenreise – die E-Mail hat nur funktioniert, weil die früheren Kontaktpunkte bereits Interesse aufgebaut hatten, ein Beitrag, den die „Last-Click“-Zuordnung vollständig übersieht.
+
+## Übungsquiz
+1. Warum ist es wirklich schwierig, einen Verkauf einem einzigen Marketingkontakt zuzuschreiben?
+2. Was ist das allgemeine Problem speziell der „Last-Click“-Zuordnung?
+3. Warum können verschiedene Zuordnungsmodelle aus denselben Daten zu unterschiedlichen, gleichermaßen vertretbaren Schlussfolgerungen führen?
+
+## Lösungsschlüssel
+1. Weil die meisten Kunden vor dem Kauf mit mehreren Kontaktpunkten in Berührung kommen und der Verkauf wahrscheinlich von der Kombination abhing und nicht von einem einzelnen.
+2. Sie unterbewertet systematisch frühere Kontaktpunkte, die womöglich unverzichtbar dafür waren, dass der Verkauf überhaupt zustande kam, weil sie nur den letzten Klick berücksichtigt.
+3. Weil jedes Modell eine andere Annahme darüber trifft, wie die Anerkennung über die Kundenreise verteilt werden soll, und es keine einzige objektiv „richtige“ Art gibt, diese Anerkennung aufzuteilen.
+
+## Antworten und Erklärungen
+1. Das ist das zentrale „Warum“, das die echte Schwierigkeit der Zuordnung erklärt.
+2. Das ist die konkrete, häufig genannte Einschränkung, auf die sich die Lektion konzentriert.
+3. Das unterstreicht, dass die Zuordnung echte Auslegungsentscheidungen erfordert und keine einzige objektive Antwort hat.
+
+## Das Wichtigste in Kürze
+- Einen Verkauf einem einzigen Kontaktpunkt zuzuschreiben, ist wirklich schwierig, weil die meisten Kunden vor dem Kauf mit mehreren Kontaktpunkten in Berührung kommen.
+- Die „Last-Click“-Zuordnung unterbewertet systematisch frühere Kontaktpunkte, die für den späteren Verkauf womöglich unverzichtbar waren.
+- Verschiedene Zuordnungsmodelle können aus denselben zugrunde liegenden Daten zu unterschiedlichen, gleichermaßen vertretbaren Schlussfolgerungen führen.
+
+## Hinweis zum Bildungszweck
+Diese Lektion dient ausschließlich der allgemeinen wirtschaftlichen Bildung und ist keine individuelle Finanz-, Anlage-, Steuer- oder Rechtsberatung. Wende dich vor Entscheidungen über dein Marketingbudget an eine qualifizierte Fachperson, etwa eine Unternehmensberatung.
+
+===== ORANGE-L3-015
+TITLE: Warum eine Prognose der Vertriebspipeline eine wahrscheinlichkeitsgewichtete Schätzung ist
+SUMMARY: Erfahre, warum eine gut aufgebaute Absatzprognose jedes Geschäft nach seiner Abschlusswahrscheinlichkeit gewichtet und warum das bloße Aufaddieren aller „offenen“ Geschäftswerte eine stark überhöhte Zahl ergibt.
+# ORANGE-L3-015: Warum eine Prognose der Vertriebspipeline eine wahrscheinlichkeitsgewichtete Schätzung ist
+
+## Lernziele
+Am Ende dieser Lektion kannst du:
+- erklären, warum eine solide Absatzprognose jedes Geschäft nach seiner Abschlusswahrscheinlichkeit gewichtet
+- erklären, warum das bloße Aufaddieren aller offenen Geschäftswerte den wahrscheinlichen Umsatz überschätzt
+- dieses Konzept mit der Behandlung von Wahrscheinlichkeiten in Lektion 3 verbinden
+
+## Hauptinhalt
+
+Lektion 3 hat gezeigt, dass die Umwandlungsquoten eines Vertriebstrichters Wahrscheinlichkeiten und keine Gewissheiten sind. Eine **Prognose der Vertriebspipeline** wendet denselben Grundsatz auf der Ebene einzelner Geschäfte an: Statt einfach den Gesamtwert aller derzeit „laufenden“ Geschäfte aufzuaddieren, gewichtet eine solide Prognose jedes Geschäft nach seiner geschätzten Wahrscheinlichkeit, tatsächlich abgeschlossen zu werden, abhängig von seiner aktuellen Phase – ein Geschäft in einer frühen Phase wird vielleicht mit 10 % gewichtet, ein Geschäft in einer späten Phase kurz vor der Unterschrift mit 80 %.
+
+Hier das „Warum“, weshalb ohne diese Gewichtung eine stark überhöhte Prognose entsteht: [ILLUSTRATIVE EXAMPLE] Hat ein Unternehmen Geschäfte in verschiedenen Phasen mit einem Gesamtwert von 1 Million € in der Pipeline, unterstellt die bloße Meldung „1 Million € in der Pipeline“ einen erwarteten Umsatz, den die tatsächliche wahrscheinlichkeitsgewichtete Rechnung nicht trägt – der tatsächliche Erwartungswert, sobald jedes Geschäft nach seiner realistischen Abschlusswahrscheinlichkeit gewichtet ist, könnte eher bei 300.000 € liegen, eine dramatisch andere und für die tatsächliche Finanzplanung weit nützlichere Zahl. Für die Liquiditätsplanung zählt außerdem, wann das Geld tatsächlich eingeht: Ein Abschluss im Dezember mit 60 Tagen Zahlungsziel bringt erst im Februar Geld aufs Konto.
+
+Bevor du dich auf einen Ausgabenplan auf Grundlage deiner Pipeline festlegst: Ist die Zahl, die du verwendest, der rohe Gesamtwert der offenen Geschäfte oder der wahrscheinlichkeitsgewichtete Erwartungswert? Das sind sehr unterschiedliche Zahlen, und nur eine davon sollte eine finanzielle Verpflichtung steuern.
+
+## Durchgerechnetes Beispiel
+
+[ILLUSTRATIVE EXAMPLE] Ein Vertriebsteam meldet der Geschäftsführung „1 Million € in der Pipeline“, und die Geschäftsführung plant auf dieser Grundlage die Einstellungen für das nächste Quartal. [ASSUMPTION] Der tatsächliche wahrscheinlichkeitsgewichtete Erwartungswert derselben Pipeline liegt, sobald Phase und realistische Abschlusswahrscheinlichkeit jedes Geschäfts berücksichtigt sind, eher bei 300.000 € – ein Unternehmen, das seine Einstellungen nach der rohen Zahl von 1 Million € geplant hat, hat sich zu Kosten verpflichtet, die auf einer Zahl beruhen, die mehr als dreimal so hoch ist wie das realistisch Erwartbare. Das spiegelt denselben Planungsfehler im Umgang mit Wahrscheinlichkeiten wider, der in Lektion 3 behandelt wurde.
+
+## Übungsquiz
+1. Warum gewichtet eine solide Absatzprognose jedes Geschäft nach seiner Abschlusswahrscheinlichkeit?
+2. Was passiert, wenn ein Unternehmen einfach den Gesamtwert aller offenen Geschäfte in der Pipeline ohne Gewichtung aufaddiert?
+3. Wie knüpft diese Lektion an die Behandlung von Wahrscheinlichkeiten im Vertriebstrichter in Lektion 3 an?
+
+## Lösungsschlüssel
+1. Weil nicht jedes offene Geschäft tatsächlich abgeschlossen wird und die Gewichtung nach realistischer Wahrscheinlichkeit einen weit genaueren erwarteten Umsatz ergibt als die rohe Summe.
+2. Es entsteht eine stark überhöhte Prognose, weil jedes offene Geschäft so behandelt wird, als würde es sicher abgeschlossen, unabhängig von seiner tatsächlichen Phase oder Wahrscheinlichkeit.
+3. Diese Lektion wendet denselben Kerngrundsatz aus Lektion 3 – Umwandlungsquoten im Trichter sind Wahrscheinlichkeiten, keine Gewissheiten – auf der Ebene einzelner Geschäfte in der Pipeline an.
+
+## Antworten und Erklärungen
+1. Das ist das zentrale „Warum“, auf dem die Lektion aufbaut.
+2. Das ist das konkrete, praktische Risiko, wenn man die Wahrscheinlichkeitsgewichtung überspringt.
+3. Das verknüpft die Lektion ausdrücklich mit Lektion 3 und stärkt den zusammenhängenden Aufbau dieses Lernpfads.
+
+## Das Wichtigste in Kürze
+- Eine solide Prognose der Vertriebspipeline gewichtet jedes Geschäft nach seiner realistischen Abschlusswahrscheinlichkeit, abhängig von seiner aktuellen Phase.
+- Das bloße Aufaddieren des rohen Pipelinewerts überschätzt den erwarteten Umsatz, manchmal dramatisch.
+- Das ist eine direkte Anwendung des Wahrscheinlichkeitsgrundsatzes, der in Lektion 3 für Vertriebstrichter eingeführt wurde, auf der Ebene einzelner Geschäfte.
+
+## Hinweis zum Bildungszweck
+Diese Lektion dient ausschließlich der allgemeinen wirtschaftlichen Bildung und ist keine individuelle Finanz-, Anlage-, Steuer- oder Rechtsberatung. Alle Zahlen sind veranschaulichende Schätzungen und keine Garantien. Wende dich vor Entscheidungen über deine Geschäftsplanung an eine qualifizierte Fachperson, etwa eine Steuerberaterin, einen Steuerberater oder eine Unternehmensberatung.
+
+===== ORANGE-L3-016
+TITLE: Warum überzogene Versprechen im Vertrieb nachgelagerte rechtliche und Reputationsrisiken schaffen
+SUMMARY: Erfahre, warum das mündliche oder schriftliche Versprechen eines Verkäufers, mit dem ein Abschluss erreicht werden soll, rechtliche Risiken und Reputationsschäden verursachen kann, lange nachdem der Verkauf selbst abgeschlossen ist.
+# ORANGE-L3-016: Warum überzogene Versprechen im Vertrieb nachgelagerte rechtliche und Reputationsrisiken schaffen
+
+## Lernziele
+Am Ende dieser Lektion kannst du:
+- erklären, warum das mündliche oder schriftliche Versprechen eines Verkäufers rechtliche Risiken schaffen kann
+- dieses Konzept mit den Grundsätzen zu falschen Darstellungen und zum Vertragsrecht aus dem LILA Lernpfad dieses Lehrplans verbinden
+- erklären, warum überzogene Versprechen auch ohne rechtlichen Anspruch ein Reputationsrisiko schaffen
+
+## Hauptinhalt
+
+Lektion 7 dieses Lernpfads hat die rechtlichen Risiken von Werbeaussagen behandelt; hier geht es um denselben Grundsatz, angewendet auf einzelne Verkaufsgespräche. Ein Verkäufer, der unbedingt abschließen will, verspricht womöglich etwas – einen Liefertermin, ein bestimmtes Ergebnis, ein bestimmtes Maß an Unterstützung –, das über das hinausgeht, was das Unternehmen tatsächlich verlässlich leisten kann. Hier das „Warum“, weshalb das ein echtes Risiko schafft, in direkter Verbindung mit den Grundsätzen zum Vertragsrecht und zu falschen Darstellungen aus dem LILA Lernpfad: Ein konkretes Versprechen im Verkaufsprozess kann, selbst wenn es nur mündlich gegeben wurde, womöglich Teil der tatsächlichen Vereinbarung werden oder zumindest als Beleg für einen Anspruch dienen, wenn es nicht eingehalten wird.
+
+Im deutschen Recht ist das besonders greifbar: Individuelle Absprachen haben Vorrang vor vorformulierten Geschäftsbedingungen (§ 305b BGB) – eine Klausel „Mündliche Nebenabreden gelten nicht“ schützt also nicht zuverlässig vor dem, was der Verkäufer zugesagt hat. Beim Kauf können zudem auch öffentliche Äußerungen des Verkäufers über Eigenschaften der Ware bestimmen, welche Beschaffenheit der Käufer erwarten darf, und wer bewusst täuscht, riskiert, dass der Kunde den Vertrag wegen arglistiger Täuschung anficht (§ 123 BGB).
+
+Neben dem rechtlichen Risiko schaffen überzogene Versprechen ein zweites, eigenständiges Risiko: einen Reputationsschaden (Lektion 4), der auch dann eintritt, wenn nie ein rechtlicher Anspruch geltend gemacht wird – ein Kunde, der sich getäuscht fühlt, wird diese Erfahrung grundsätzlich weitererzählen, und anders als ein Rechtsstreit, der womöglich vertraulich beigelegt wird, kann sich ein durch ein gebrochenes Verkaufsversprechen beschädigter Ruf weit über den betroffenen Kunden hinaus verbreiten.
+
+Bevor ein Verkäufer ein konkretes Versprechen macht, um einen Abschluss zu erreichen: Ist dieses Versprechen etwas, das das Unternehmen tatsächlich verlässlich leisten kann – und wenn nicht, was wäre die ehrliche Alternative?
+
+## Durchgerechnetes Beispiel
+
+[ILLUSTRATIVE EXAMPLE] Ein Verkäufer, der unbedingt abschließen will, verspricht mündlich einen Liefertermin, den die Betriebsabteilung des Unternehmens nicht bestätigt hat. [ASSUMPTION] Als sich die Lieferung weit über diesen versprochenen Termin hinaus verzögert, fühlt sich der Kunde getäuscht, macht womöglich einen rechtlichen Anspruch geltend, der an die Grundsätze zu falschen Darstellungen aus dem LILA Lernpfad anknüpft, und teilt gesondert seine negative Erfahrung öffentlich – so entstehen aus einem einzigen überzogenen Versprechen sowohl ein rechtliches als auch ein Reputationsrisiko. Das zeigt, warum Ehrlichkeit im Vertrieb weit über das einzelne Geschäft hinaus zählt.
+
+## Übungsquiz
+1. Warum kann das Versprechen eines Verkäufers, selbst ein mündliches, ein rechtliches Risiko schaffen?
+2. Wie knüpft das an die Grundsätze zu falschen Darstellungen und zum Vertragsrecht aus dem LILA Lernpfad an?
+3. Welches zweite, eigenständige Risiko schaffen überzogene Versprechen über eine mögliche rechtliche Haftung hinaus?
+
+## Lösungsschlüssel
+1. Weil ein konkretes Versprechen im Verkaufsprozess womöglich Teil der tatsächlichen Vereinbarung wird oder als Beleg für einen Anspruch dienen kann, wenn es nicht eingehalten wird.
+2. Überzogene Versprechen im Vertrieb sind ein konkreter Fall des umfassenderen Risikos falscher Darstellungen, das im gesamten LILA Lernpfad behandelt wird, angewendet auf das Verkaufsgespräch selbst.
+3. Einen Reputationsschaden, der auch ohne jeden rechtlichen Anspruch eintreten und sich verbreiten kann, weil ein Kunde, der sich getäuscht fühlt, diese Erfahrung grundsätzlich weitererzählt.
+
+## Antworten und Erklärungen
+1. Das ist das zentrale rechtliche Risiko, auf dem die Lektion aufbaut.
+2. Das verknüpft die Lektion ausdrücklich mit den Grundsätzen zum Vertragsrecht und zu falschen Darstellungen aus dem LILA Lernpfad.
+3. Das führt die Dimension der Reputation ein und knüpft an die Behandlung der Verwundbarkeit einer Marke in Lektion 4 an.
+
+## Das Wichtigste in Kürze
+- Das konkrete Versprechen eines Verkäufers kann, selbst mündlich, rechtliche Risiken schaffen, in Verbindung mit den Grundsätzen zu falschen Darstellungen aus dem LILA Lernpfad; individuelle Absprachen gehen in Deutschland vorformulierten Bedingungen vor.
+- Überzogene Versprechen schaffen auch ein Reputationsrisiko, das sich verbreiten und dem Unternehmen schaden kann, selbst wenn nie ein rechtlicher Anspruch geltend gemacht wird.
+- Ehrlichkeit im Vertrieb – nur zu versprechen, was tatsächlich verlässlich geleistet werden kann – schützt vor beiden Risiken zugleich.
+
+## Hinweis zum Bildungszweck
+Diese Lektion dient ausschließlich der allgemeinen wirtschaftlichen Bildung und ist keine individuelle Rechtsberatung. Wende dich für deine Vertriebspraxis und deine Verträge an eine Rechtsanwältin oder einen Rechtsanwalt.

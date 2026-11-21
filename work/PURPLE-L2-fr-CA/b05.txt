@@ -1,0 +1,370 @@
+===== PURPLE-L2-028
+TITLE: Arbitrage ou poursuite judiciaire : comparer les voies de règlement des différends
+SUMMARY: Compare l'arbitrage et la poursuite devant les tribunaux, leurs compromis en matière de rapidité, de confidentialité et d'appel, et pourquoi une clause d'arbitrage mérite réflexion.
+## PURPLE-L2-028
+### Arbitrage ou poursuite judiciaire : comparer les voies de règlement des différends
+
+**1. Objectifs d'apprentissage**
+À la fin de cette leçon, tu pourras :
+- Comparer de façon conceptuelle l'arbitrage et la poursuite judiciaire.
+- Nommer les compromis généraux de chaque voie.
+- Expliquer pourquoi bien des contrats comprennent une clause de règlement des différends qui précise une voie.
+
+**2. Contenu principal**
+Quand un litige juridique survient, les parties le règlent généralement par une poursuite judiciaire (une procédure devant un tribunal, généralement publique, qui suit des règles de procédure formelles et qui offre, dans bien des circonstances, le droit de porter une décision en appel devant un tribunal supérieur) ou par l'arbitrage (une procédure privée devant un ou plusieurs arbitres, généralement moins formelle sur le plan de la procédure, avec des délais de règlement plus courts, plus de confidentialité et, dans bien des circonstances, des motifs plus limités pour faire appel de la décision de l'arbitre).
+
+Bien des contrats comprennent une clause précise de règlement des différends qui exige l'arbitrage plutôt que la poursuite judiciaire pour tout litige découlant du contrat. Ça reflète un compromis volontaire : l'arbitrage peut offrir un règlement plus rapide, plus confidentiel et parfois moins coûteux, mais les droits d'appel limités font qu'une partie est généralement plus solidement liée par la décision de l'arbitre, même si elle croit qu'elle est erronée, par rapport aux possibilités d'appel plus larges d'une poursuite judiciaire. Accepter ou non une clause d'arbitrage obligatoire pendant la négociation d'un contrat est une décision qui vaut la peine d'être prise de façon réfléchie, plutôt que d'accepter un texte standard sans comprendre ce vrai compromis.
+
+**3. Exemple pratique**
+En négociant un contrat important avec un fournisseur, une propriétaire d'entreprise remarque une clause d'arbitrage obligatoire qui exige que tout litige soit réglé par arbitrage privé plutôt que devant les tribunaux, avec une capacité très limitée de faire appel de la décision de l'arbitre. Reconnaissant le vrai compromis que ça représente — un règlement plus rapide et plus confidentiel en échange de droits d'appel réduits —, elle en discute précisément avec son avocate au lieu de l'accepter comme du texte standard de routine. Elle décide finalement que le compromis est acceptable pour cette relation en particulier, mais seulement après avoir compris ce qu'elle abandonnerait en échange des autres avantages de l'arbitrage.
+
+**4. Quiz de pratique**
+1. Par rapport à l'arbitrage, quelle est une caractéristique générale de la poursuite judiciaire?
+   a) Elle est généralement privée et confidentielle
+   b) Elle est généralement publique, suit des règles de procédure formelles et offre des droits d'appel plus larges
+   c) Elle ne permet jamais aucun appel, peu importe les circonstances
+   d) Elle est toujours plus rapide que l'arbitrage
+2. Quel est un compromis général quand on accepte l'arbitrage obligatoire?
+   a) Il n'y a aucun compromis
+   b) Un règlement possiblement plus rapide et plus confidentiel en échange de droits d'appel plus limités
+   c) L'arbitrage garantit toujours un résultat favorable
+   d) La poursuite judiciaire et l'arbitrage sont identiques en pratique
+3. Vrai ou faux : L'arbitrage et la poursuite judiciaire offrent des droits d'appel et un formalisme de procédure identiques.
+4. Pourquoi la propriétaire d'entreprise a-t-elle discuté de la clause d'arbitrage obligatoire avec son avocate au lieu de l'accepter comme une routine?
+   a) Elle voulait éviter de comprendre la clause
+   b) Elle a reconnu un vrai compromis entre les avantages de l'arbitrage et ses droits d'appel limités, qui valait la peine d'être compris avant d'accepter
+   c) Les clauses d'arbitrage n'ont aucun effet juridique réel
+   d) Les conditions de règlement des différends du contrat ne l'intéressaient pas
+
+**5. Corrigé**
+1. b  2. b  3. Faux  4. b
+
+**6. Réponses et explications**
+1. La poursuite judiciaire est généralement publique, suit des procédures formelles et offre des droits d'appel plus larges que l'arbitrage.
+2. L'arbitrage obligatoire échange généralement un règlement plus rapide et plus confidentiel contre des droits d'appel plus limités.
+3. L'arbitrage et la poursuite judiciaire diffèrent vraiment sur le plan du formalisme de la procédure, de la confidentialité et des droits d'appel.
+4. L'examen réfléchi de la propriétaire d'entreprise reflétait une bonne pratique : comprendre un vrai compromis avant de l'accepter.
+
+**7. Points clés à retenir**
+- La poursuite judiciaire est généralement publique, formelle et offre des droits d'appel plus larges; l'arbitrage est généralement privé, plus rapide et plus limité en matière d'appel.
+- Bien des contrats comprennent une clause de règlement des différends qui fait de l'arbitrage la voie obligatoire en cas de litige.
+- Accepter l'arbitrage obligatoire implique un vrai compromis réfléchi, pas une simple formalité.
+- Comprendre ce compromis avant de signer permet une négociation de contrat plus éclairée.
+
+===== PURPLE-L2-029
+TITLE: La médiation : une autre façon de régler les différends
+SUMMARY: Comprends le rôle d'un médiateur, en quoi la médiation diffère de l'arbitrage et de la poursuite judiciaire, et pourquoi elle aide souvent à préserver les relations.
+## PURPLE-L2-029
+### La médiation : une autre façon de régler les différends
+
+**1. Objectifs d'apprentissage**
+À la fin de cette leçon, tu pourras :
+- Définir de façon conceptuelle la médiation.
+- Distinguer la médiation de l'arbitrage et de la poursuite judiciaire.
+- Expliquer pourquoi on utilise souvent la médiation avant d'autres voies de règlement des différends ou en même temps.
+
+**2. Contenu principal**
+Dans la suite de la comparaison de la leçon 28, la médiation présente une troisième voie générale : un tiers neutre (le médiateur) facilite la communication et la négociation entre les parties en conflit, en les aidant à arriver elles-mêmes à une solution acceptable pour les deux, plutôt que d'imposer une décision qui lie les parties, comme le ferait un juge (poursuite judiciaire) ou un arbitre (arbitrage). La médiation ne lie généralement pas les parties tant qu'elles n'ont pas conclu et officialisé leur propre entente : le médiateur n'a aucun pouvoir d'imposer un résultat précis, seulement d'aider les parties à en trouver un elles-mêmes.
+
+C'est pourquoi on utilise souvent la médiation avant une poursuite judiciaire ou un arbitrage, ou en même temps, parfois comme première étape obligatoire prévue dans la clause de règlement des différends d'un contrat, ou simplement comme une option moins coûteuse, plus rapide et moins conflictuelle que les parties peuvent choisir d'essayer avant de s'engager dans un processus plus formel et contraignant. La médiation peut mieux préserver les relations d'affaires ou personnelles qu'une poursuite judiciaire ou un arbitrage conflictuels, puisqu'elle met l'accent sur la résolution de problèmes en collaboration plutôt que sur une décision gagnant-perdant prise par un tiers.
+
+**3. Exemple pratique**
+Devant un litige contractuel avec un partenaire d'affaires de longue date, deux parties choisissent d'essayer la médiation avant de passer à l'arbitrage (que leur contrat prévoit comme prochaine étape obligatoire si la médiation échoue). En travaillant avec un médiateur neutre, elles arrivent à une solution acceptable pour les deux qui répond aux préoccupations de fond de chacune. Elles préservent ainsi leur relation d'affaires, qu'un arbitrage ou une poursuite plus conflictuels auraient pu abîmer, et évitent les coûts et le temps qu'aurait exigés un arbitrage formel.
+
+**4. Quiz de pratique**
+1. Que fait généralement un médiateur?
+   a) Il impose aux parties une décision qui les lie
+   b) Il facilite la communication et la négociation, en aidant les parties à trouver leur propre solution acceptable pour les deux
+   c) Il agit comme juge dans une procédure judiciaire formelle
+   d) Il n'a aucun rôle dans le processus de règlement des différends
+2. Pourquoi pourrait-on utiliser la médiation avant l'arbitrage ou la poursuite judiciaire, ou en même temps?
+   a) Elle n'a aucun avantage pratique
+   b) Elle peut offrir une voie moins coûteuse, plus rapide et moins conflictuelle, et peut être une première étape contractuelle obligatoire
+   c) La médiation est toujours obligatoire et ne peut pas être tentée volontairement
+   d) Les résultats de la médiation lient toujours automatiquement les parties
+3. Vrai ou faux : Un médiateur a le pouvoir d'imposer aux parties en conflit une solution précise qui les lie.
+4. Pourquoi les partenaires d'affaires ont-ils choisi d'essayer la médiation avant de passer à l'arbitrage?
+   a) Ils voulaient un processus conflictuel
+   b) La médiation offrait une voie de collaboration qui pouvait préserver leur relation d'affaires et éviter les coûts et le temps de l'arbitrage
+   c) Leur contrat interdisait toute forme de médiation
+   d) Ils ne voulaient pas régler le litige
+
+**5. Corrigé**
+1. b  2. b  3. Faux  4. b
+
+**6. Réponses et explications**
+1. Un médiateur facilite la communication et la négociation, en aidant les parties à trouver leur propre solution plutôt que de leur en imposer une.
+2. La médiation peut offrir une voie moins coûteuse, plus rapide et moins conflictuelle, et elle est parfois une première étape contractuelle obligatoire.
+3. La médiation ne lie généralement pas les parties, à moins qu'elles concluent et officialisent elles-mêmes une entente.
+4. La nature collaborative de la médiation, qui préserve les relations, ainsi que les économies possibles de coûts et de temps, ont motivé le choix des partenaires.
+
+**7. Points clés à retenir**
+- La médiation fait intervenir un tiers neutre qui facilite la négociation, sans imposer de décision qui lie les parties.
+- Elle se distingue de la poursuite judiciaire et de l'arbitrage, où un tiers impose une décision.
+- On utilise souvent la médiation avant des processus plus formels ou en même temps, parfois comme première étape contractuelle obligatoire.
+- La médiation peut mieux préserver les relations que les processus conflictuels, grâce à son approche collaborative.
+
+===== PURPLE-L2-030
+TITLE: Les petites créances : une voie juridique pratique pour les enjeux modestes
+SUMMARY: Comprends le but de la cour des petites créances, en quoi elle diffère d'une poursuite ordinaire et pourquoi ses limites de montant varient selon l'endroit.
+## PURPLE-L2-030
+### Les petites créances : une voie juridique pratique pour les enjeux modestes
+
+**1. Objectifs d'apprentissage**
+À la fin de cette leçon, tu pourras :
+- Expliquer le but général et la structure de la cour des petites créances.
+- Nommer les caractéristiques générales qui la distinguent d'une poursuite judiciaire ordinaire.
+- Reconnaître que c'est une option propre à chaque juridiction, avec des limites de montant variables.
+
+**2. Contenu principal**
+La cour des petites créances (ou division des petites créances) est un processus judiciaire spécialisé et simplifié, conçu pour régler des litiges de valeur relativement modeste de façon plus rapide, moins formelle et moins coûteuse qu'une poursuite judiciaire ordinaire (leçon 28). Elle permet généralement aux parties de se représenter elles-mêmes sans avocat (et, dans certaines juridictions, elle limite ou décourage précisément la représentation par avocat pour garder le processus accessible et équilibré entre les parties). Les limites de montant qu'on peut réclamer aux petites créances varient beaucoup selon la juridiction; c'est donc un autre détail PROPRE À UNE RÉGION qu'il faut vérifier directement pour une situation précise.
+
+Cette voie peut être une option pratique pour les litiges trop petits pour justifier raisonnablement le coût et la complexité d'une poursuite judiciaire ordinaire ou d'un arbitrage, comme un litige sur un dépôt de garantie, un désaccord contractuel plus petit ou des dommages mineurs à des biens — des situations où les mécanismes de règlement des différends vus aux leçons 28 et 29 pourraient être trop coûteux ou trop lents par rapport au montant réellement en jeu.
+
+**3. Exemple pratique**
+Après qu'un propriétaire a retenu de façon injustifiée une partie de son dépôt de garantie, une ancienne locataire examine ses options. Vu le montant relativement modeste en litige, une poursuite judiciaire ordinaire ou un arbitrage lui coûteraient probablement plus en temps et en frais juridiques possibles que le montant réellement en jeu. Elle dépose plutôt une demande aux petites créances de sa juridiction et se représente elle-même dans un processus simplifié et plus rapide, conçu précisément pour les litiges de cette taille, ce qui lui évite le coût disproportionné d'un processus juridique plus formel pour une réclamation relativement modeste.
+
+**4. Quiz de pratique**
+1. À quoi la cour des petites créances est-elle généralement destinée?
+   a) Traiter les litiges juridiques les plus gros et les plus complexes
+   b) Régler des litiges de valeur relativement modeste de façon plus rapide, moins formelle et moins coûteuse
+   c) Remplacer complètement toutes les autres formes de règlement des différends
+   d) Traiter seulement des affaires criminelles
+2. Dans bien des juridictions, quelle est une caractéristique courante de la cour des petites créances?
+   a) La représentation par avocat est toujours obligatoire
+   b) Les parties peuvent généralement se représenter elles-mêmes, sans avocat
+   c) Elle n'a aucune limite de montant pour les réclamations
+   d) Elle prend plus de temps qu'une poursuite judiciaire ordinaire
+3. Vrai ou faux : Les limites de montant de la cour des petites créances sont identiques dans toutes les juridictions.
+4. Pourquoi l'ancienne locataire a-t-elle choisi les petites créances pour son litige sur le dépôt de garantie?
+   a) Elle voulait le processus juridique le plus coûteux et le plus complexe possible
+   b) Le montant relativement modeste en litige rendait un processus plus rapide et moins coûteux plus pratique qu'une poursuite ordinaire
+   c) Les petites créances n'existent pas pour les litiges entre propriétaires et locataires
+   d) Elle n'avait aucune réclamation valable
+
+**5. Corrigé**
+1. b  2. b  3. Faux  4. b
+
+**6. Réponses et explications**
+1. La cour des petites créances est généralement conçue pour régler plus rapidement et à moindre coût des litiges de valeur relativement modeste.
+2. Dans bien des juridictions, les parties peuvent généralement se représenter elles-mêmes aux petites créances, sans avocat.
+3. Les limites de montant de la cour des petites créances varient beaucoup selon la juridiction.
+4. Le montant modeste de la réclamation de la locataire faisait du processus plus rapide et moins coûteux des petites créances un choix pratique et proportionné.
+
+**7. Points clés à retenir**
+- La cour des petites créances règle des litiges de valeur relativement modeste de façon plus rapide, moins formelle et moins coûteuse qu'une poursuite ordinaire.
+- Dans bien des juridictions, les parties peuvent généralement se représenter elles-mêmes, sans avoir besoin d'un avocat.
+- Les limites de montant varient beaucoup selon la juridiction et doivent être vérifiées pour chaque situation.
+- Cette voie convient aux litiges trop petits pour justifier raisonnablement le coût et la complexité d'une poursuite ordinaire ou d'un arbitrage.
+
+===== PURPLE-L2-031
+TITLE: La prescription : pourquoi les délais juridiques comptent
+SUMMARY: Comprends ce qu'est un délai de prescription, pourquoi il existe et pourquoi le manquer peut faire perdre une réclamation valable, d'où l'importance de consulter rapidement.
+## PURPLE-L2-031
+### La prescription : pourquoi les délais juridiques comptent
+
+**1. Objectifs d'apprentissage**
+À la fin de cette leçon, tu pourras :
+- Définir de façon conceptuelle le délai de prescription.
+- Expliquer pourquoi ces délais existent et leur conséquence générale si on les manque.
+- Reconnaître que les délais précis dépendent de la juridiction et du type de réclamation.
+
+**2. Contenu principal**
+Un délai de prescription (*statute of limitations*) est une règle de droit qui fixe une date limite pour déposer une réclamation juridique. Une fois ce délai passé, la réclamation devient généralement complètement irrecevable, peu importe son bien-fondé : une réclamation qui aurait pu être tout à fait valable et gagnable peut devenir complètement inexécutoire simplement parce que le délai de dépôt est passé. Ces délais existent pour plusieurs raisons d'intérêt public : encourager le règlement rapide des litiges pendant que les preuves et les souvenirs sont encore frais, et offrir une certitude et une fin éventuelles aux défendeurs possibles, qui pourraient autrement faire face à des réclamations indéfiniment.
+
+Les délais de prescription précis varient beaucoup selon la juridiction et selon le type de réclamation (les litiges contractuels, les réclamations pour blessures et d'autres catégories ont souvent des délais différents, même dans une même juridiction), et le calcul du moment exact où le délai commence à courir peut lui-même être une question juridique qui dépend des faits dans certaines situations. C'est pourquoi il est important de consulter rapidement un avocat dès qu'on croit avoir une réclamation juridique, puisque retarder cette consultation fait courir le risque que la réclamation soit prescrite avant même d'avoir été déposée.
+
+**3. Exemple pratique**
+Croyant avoir une réclamation contractuelle valable contre un ancien partenaire d'affaires, une propriétaire d'entreprise attend plus d'un an avant de consulter un avocat, en essayant d'abord de régler le problème seule, de façon informelle. Quand elle consulte finalement un avocat, elle apprend que le délai de prescription de sa juridiction pour ce type de réclamation contractuelle était plus court qu'elle ne le pensait, et que sa fenêtre pour déposer sa réclamation est peut-être déjà fermée, ou dangereusement près de l'être — un risque qu'une consultation rapide au départ aurait permis de repérer et de gérer avant qu'elle risque de perdre complètement sa capacité de faire valoir sa réclamation.
+
+**4. Quiz de pratique**
+1. Qu'est-ce qu'un délai de prescription?
+   a) Une règle qui garantit qu'une réclamation réussira toujours
+   b) Une règle de droit qui fixe une date limite pour déposer une réclamation juridique
+   c) Un type de clause contractuelle
+   d) Une exigence de déclaration fiscale
+2. Qu'arrive-t-il généralement si une réclamation est déposée après l'expiration du délai de prescription?
+   a) Rien — les délais n'ont aucun effet réel
+   b) La réclamation devient généralement complètement irrecevable, peu importe son bien-fondé
+   c) Le délai est automatiquement prolongé indéfiniment
+   d) La réclamation est automatiquement renforcée
+3. Vrai ou faux : Les délais de prescription sont identiques pour tous les types de réclamations dans toutes les juridictions.
+4. Pourquoi le retard de la propriétaire d'entreprise à consulter un avocat a-t-il créé un risque pour sa réclamation possible?
+   a) Un retard ne crée jamais de risque pour une réclamation juridique
+   b) Le délai de prescription de sa juridiction était peut-être déjà expiré ou dangereusement près de l'être pendant son retard
+   c) Les délais de prescription ne s'appliquent pas aux litiges contractuels
+   d) Elle avait un temps illimité pour déposer sa réclamation, peu importe le délai
+
+**5. Corrigé**
+1. b  2. b  3. Faux  4. b
+
+**6. Réponses et explications**
+1. Un délai de prescription fixe une date limite pour déposer une réclamation juridique.
+2. Manquer ce délai rend généralement la réclamation complètement irrecevable, peu importe son bien-fondé.
+3. Les délais de prescription varient beaucoup selon la juridiction et le type de réclamation.
+4. Le retard de la propriétaire d'entreprise faisait courir le risque que sa réclamation soit prescrite avant même qu'elle consulte un avocat pour comprendre le délai applicable.
+
+**7. Points clés à retenir**
+- Un délai de prescription fixe une date limite de dépôt; après ce délai, une réclamation devient généralement irrecevable, peu importe son bien-fondé.
+- Ces délais encouragent le règlement rapide des litiges et offrent une certitude éventuelle aux défendeurs possibles.
+- Les délais précis varient beaucoup selon la juridiction et le type de réclamation, et le calcul de leur point de départ peut lui-même être complexe.
+- Consulter rapidement un avocat dès qu'on croit avoir une réclamation aide à éviter le risque qu'elle soit prescrite.
+
+===== PURPLE-L2-032
+TITLE: Responsabilité civile délictuelle ou contrat : deux fondements juridiques différents
+SUMMARY: Distingue les obligations qui viennent d'un contrat de celles qui viennent d'un devoir général envers les autres, et vois comment une même situation peut toucher les deux.
+## PURPLE-L2-032
+### Responsabilité civile délictuelle ou contrat : deux fondements juridiques différents
+
+**1. Objectifs d'apprentissage**
+À la fin de cette leçon, tu pourras :
+- Distinguer de façon conceptuelle le droit de la responsabilité délictuelle (*tort law*) du droit des contrats.
+- Expliquer la source générale de chaque type d'obligation juridique.
+- Appliquer cette distinction à un scénario hypothétique qui touche les deux.
+
+**2. Contenu principal**
+Cette leçon présente la responsabilité délictuelle (appelée *tort* en common law, ou responsabilité extracontractuelle en droit civil québécois) comme un fondement juridique distinct du droit des contrats vu aux leçons 1 à 10. Une obligation contractuelle découle généralement d'une entente que les parties ont conclue volontairement (leçons 2 et 3) : les devoirs précis existent parce que les parties les ont acceptés. Un délit civil est une faute civile qui cause un préjudice à une autre personne; l'obligation juridique qui en découle (compenser le préjudice) ne vient d'aucune entente entre les parties, mais d'un devoir juridique général envers les autres, qu'il existe ou non une relation contractuelle entre eux.
+
+Une même situation peut parfois donner lieu aux deux types de réclamations en même temps : un entrepreneur qui ne respecte pas un contrat de rénovation (une réclamation contractuelle, leçon 6) peut aussi avoir été négligent d'une façon qui a causé des dommages matériels au-delà de la portée du contrat (une réclamation délictuelle, leçon 33). Une personne demanderesse pourrait possiblement faire valoir les deux types de réclamations à partir de la même situation de base, même si ce sont les faits précis et le droit applicable qui déterminent les réclamations réellement possibles.
+
+**3. Exemple pratique**
+Un entrepreneur embauché pour rénover une cuisine ne termine pas les travaux prévus à la date convenue (une inexécution du contrat, leçon 6) et, séparément, cause par négligence une fuite d'eau qui endommage le plancher d'une partie de la maison complètement en dehors de la portée des travaux prévus au contrat (une réclamation délictuelle possible pour négligence, leçon 33). La réclamation contractuelle de la propriétaire porte sur le fait que l'entrepreneur n'a pas rempli les obligations de rénovation précises qu'il avait acceptées; la réclamation délictuelle possible porte sur son devoir général et distinct d'éviter de causer un préjudice par négligence, peu importe ce que disait le contrat de rénovation précis — deux fondements juridiques distincts qui peuvent découler de la même situation globale.
+
+**4. Quiz de pratique**
+1. Quelle est la source générale d'une obligation contractuelle?
+   a) Un devoir juridique général envers tout le monde
+   b) Une entente que les parties ont conclue volontairement
+   c) Un règlement gouvernemental sans lien avec une entente
+   d) Une loi criminelle
+2. Qu'est-ce qu'un délit civil?
+   a) Un type de contrat exécutoire
+   b) Une faute civile qui cause un préjudice, dont l'obligation découle d'un devoir juridique général, et non d'une entente
+   c) Un type de propriété intellectuelle
+   d) Une déclaration fiscale gouvernementale
+3. Vrai ou faux : Une même situation ne peut jamais donner lieu à la fois à une réclamation contractuelle et à une réclamation délictuelle.
+4. Dans l'exemple pratique, qu'est-ce qui distinguait la réclamation contractuelle de la réclamation délictuelle possible?
+   a) Elles étaient identiques à tous points de vue
+   b) La réclamation contractuelle portait sur les obligations convenues précises; la réclamation délictuelle, sur un devoir général distinct d'éviter de causer un préjudice par négligence
+   c) Seule la réclamation délictuelle avait un fondement juridique
+   d) L'entrepreneur n'avait aucune obligation contractuelle
+
+**5. Corrigé**
+1. b  2. b  3. Faux  4. b
+
+**6. Réponses et explications**
+1. Une obligation contractuelle découle généralement de l'entente volontaire des parties.
+2. Un délit civil est une faute civile qui cause un préjudice; l'obligation découle d'un devoir juridique général plutôt que d'une entente.
+3. Une même situation peut possiblement donner lieu à la fois à des réclamations contractuelles et délictuelles, selon les faits précis.
+4. La réclamation contractuelle et la réclamation délictuelle possible reposaient sur des fondements juridiques vraiment différents, découlant de la même situation globale.
+
+**7. Points clés à retenir**
+- Les obligations contractuelles découlent d'une entente volontaire; les obligations délictuelles, d'un devoir juridique général envers les autres.
+- Une même situation peut possiblement donner lieu à la fois à des réclamations contractuelles et délictuelles.
+- Distinguer ces fondements aide à clarifier quels devoirs juridiques et quels recours précis pourraient s'appliquer à une situation donnée.
+- Cette distinction prépare la discussion sur la négligence de la leçon 33, qui examine la responsabilité délictuelle plus en profondeur.
+
+===== PURPLE-L2-033
+TITLE: La négligence : les éléments de base d'une réclamation délictuelle
+SUMMARY: Apprends les quatre éléments d'une réclamation pour négligence — devoir, manquement, lien de causalité et préjudice — et pourquoi ils doivent tous être présents.
+## PURPLE-L2-033
+### La négligence : les éléments de base d'une réclamation délictuelle
+
+**1. Objectifs d'apprentissage**
+À la fin de cette leçon, tu pourras :
+- Nommer les éléments généraux d'une réclamation pour négligence.
+- Expliquer comment chaque élément doit généralement être établi.
+- Appliquer ces éléments à un scénario hypothétique.
+
+**2. Contenu principal**
+Dans la suite de la présentation de la responsabilité délictuelle de la leçon 32, la négligence est l'une des réclamations délictuelles les plus courantes. Elle exige généralement que la personne demanderesse établisse quatre éléments : le devoir (le défendeur avait un devoir juridique de diligence raisonnable envers elle), le manquement (le défendeur n'a pas respecté cette norme de diligence raisonnable), le lien de causalité (le manquement du défendeur a réellement causé le préjudice de la personne demanderesse) et le préjudice (la personne demanderesse a subi un préjudice réel, reconnu par la loi, en conséquence).
+
+Chaque élément doit généralement être établi, et pas seulement un ou deux : un défendeur qui a manqué à un devoir de diligence, mais dont le manquement n'a causé aucun préjudice réel à la personne demanderesse, ne serait généralement pas responsable pour négligence, puisque les éléments du lien de causalité et du préjudice manqueraient, même si le devoir et le manquement étaient clairement présents. Ce cadre structuré à plusieurs éléments explique pourquoi les réclamations pour négligence exigent souvent une analyse attentive des faits et, au besoin, d'experts pour bien établir chaque pièce, plutôt que de s'appuyer sur une impression générale que « quelqu'un a fait quelque chose de mal ».
+
+**3. Exemple pratique**
+Le propriétaire d'un magasin ne nettoie pas un liquide renversé sur le plancher pendant une longue période, même s'il est au courant (ce qui pourrait établir le devoir et le manquement : un devoir de diligence raisonnable envers les clients, auquel il a manqué en ne s'occupant pas d'un danger connu). Si une cliente glisse ensuite sur le liquide et subit une vraie blessure qui exige des soins médicaux (ce qui établit le lien de causalité — le manquement a directement causé le préjudice — et le préjudice — un préjudice réel et reconnu par la loi), les quatre éléments de la négligence seraient probablement présents. Si, au contraire, aucun client n'avait jamais été blessé par le liquide, malgré le manquement du propriétaire à son devoir en le laissant là, aucune réclamation pour négligence ne réussirait généralement, puisque les éléments du lien de causalité et du préjudice manqueraient complètement.
+
+**4. Quiz de pratique**
+1. Quels sont les quatre éléments généraux d'une réclamation pour négligence?
+   a) L'offre, l'acceptation, la contrepartie et l'intention
+   b) Le devoir, le manquement, le lien de causalité et le préjudice
+   c) Seulement le préjudice, sans autre exigence
+   d) Seulement l'intention, sans autre exigence
+2. Qu'arrive-t-il si un défendeur manque à un devoir de diligence, mais que son manquement ne cause aucun préjudice réel à la personne demanderesse?
+   a) La responsabilité pour négligence s'applique automatiquement quand même
+   b) Une réclamation pour négligence ne réussirait généralement pas, puisque les éléments du lien de causalité et du préjudice manqueraient
+   c) L'élément du manquement devient sans importance
+   d) Le devoir n'est plus exigé dans cette situation
+3. Vrai ou faux : Établir un seul des quatre éléments de la négligence suffit généralement pour qu'une réclamation pour négligence réussisse.
+4. Pourquoi le scénario de la cliente qui glisse établissait-il probablement les quatre éléments de la négligence?
+   a) Seul le devoir était présent
+   b) Le devoir connu du magasin, le manquement en laissant le danger et la blessure réelle de la cliente qui en a résulté établissaient ensemble les quatre éléments
+   c) Aucun préjudice n'était survenu
+   d) Les éléments n'ont aucun lien avec ce scénario
+
+**5. Corrigé**
+1. b  2. b  3. Faux  4. b
+
+**6. Réponses et explications**
+1. Les quatre éléments généraux d'une réclamation pour négligence sont le devoir, le manquement, le lien de causalité et le préjudice.
+2. Sans lien de causalité réel et sans préjudice qui en découle, une réclamation pour négligence ne réussit généralement pas, même si le devoir et le manquement sont présents.
+3. Les quatre éléments doivent généralement être établis ensemble pour qu'une réclamation pour négligence réussisse.
+4. Le danger connu du scénario (devoir et manquement), combiné à la blessure réelle de la cliente (lien de causalité et préjudice), établissait les quatre éléments.
+
+**7. Points clés à retenir**
+- La négligence exige généralement d'établir ensemble le devoir, le manquement, le lien de causalité et le préjudice.
+- Les quatre éléments doivent généralement être présents; s'il en manque un seul, la réclamation échoue généralement.
+- Ce cadre structuré exige une analyse attentive des faits, et non seulement une impression générale que quelque chose a mal tourné.
+- Comprendre ces éléments aide à voir pourquoi certains comportements qui semblent négligents n'entraînent pas de responsabilité pour négligence quand aucun préjudice réel n'en a résulté.
+
+===== PURPLE-L2-034
+TITLE: Responsabilité stricte ou négligence : une comparaison
+SUMMARY: Comprends la responsabilité stricte, en quoi elle diffère de la négligence et dans quels contextes, comme les produits défectueux, la loi l'applique.
+## PURPLE-L2-034
+### Responsabilité stricte ou négligence : une comparaison
+
+**1. Objectifs d'apprentissage**
+À la fin de cette leçon, tu pourras :
+- Définir de façon conceptuelle la responsabilité stricte.
+- Comparer la responsabilité stricte à la négligence (leçon 33).
+- Nommer les contextes généraux où la responsabilité stricte s'applique souvent.
+
+**2. Contenu principal**
+Dans la suite du cadre de la négligence de la leçon 33, la responsabilité stricte (ou responsabilité sans faute) représente une norme juridique différente : la responsabilité peut être imposée, que le défendeur ait fait preuve de diligence raisonnable ou non. La personne demanderesse n'a donc généralement pas à établir un manquement à un devoir de diligence (le deuxième élément de la leçon 33). Le simple fait d'exercer l'activité ou d'adopter le comportement précis que la loi soumet à la responsabilité stricte, combiné au préjudice qui en résulte, peut suffire pour engager la responsabilité, même si le défendeur a pris toutes les précautions raisonnables.
+
+La responsabilité stricte s'applique souvent dans des contextes précis et définis, comme certaines réclamations liées à des produits défectueux (en écho aux thèmes de protection du consommateur de la leçon 37) et des activités considérées comme anormalement dangereuses, peu importe le soin pris (comme certaines utilisations d'explosifs). C'est un choix politique volontaire dans ces contextes précis : la loi fait porter le risque de préjudice à la partie qui exerce l'activité intrinsèquement risquée ou qui met en circulation le produit défectueux, plutôt que d'exiger de la personne blessée qu'elle prouve un manquement précis à la diligence raisonnable, ce qui peut être particulièrement difficile à établir dans ces contextes.
+
+**3. Exemple pratique**
+Un fabricant produit un article qui a un vrai défaut de conception et qui blesse un consommateur qui l'utilise comme prévu, même si le fabricant a suivi des procédures de fabrication et d'essai généralement raisonnables tout au long de la production. Selon les principes de responsabilité stricte du fait des produits qui s'appliquent dans bien des juridictions, le fabricant pourrait quand même être tenu responsable du préjudice qui en résulte, sans que le consommateur blessé ait besoin de prouver que le fabricant a été négligent au sens traditionnel (leçon 33). La simple existence du défaut et le préjudice qui en résulte peuvent suffire, dans ce contexte juridique précis, pour engager la responsabilité, ce qui reflète le choix politique de faire porter ce risque au fabricant plutôt qu'au consommateur.
+
+**4. Quiz de pratique**
+1. Contrairement à la négligence, qu'est-ce que la responsabilité stricte n'exige généralement pas de la personne demanderesse?
+   a) Un quelconque préjudice
+   b) Un manquement à un devoir de diligence raisonnable
+   c) L'identité du défendeur
+   d) Une réclamation juridique, quelle qu'elle soit
+2. Dans quel type de contexte la responsabilité stricte s'applique-t-elle souvent?
+   a) Seulement dans les litiges contractuels ordinaires
+   b) Certaines réclamations liées à des produits défectueux et les activités anormalement dangereuses
+   c) Tous les types de réclamations juridiques possibles, sans exception
+   d) Seulement dans les litiges en emploi
+3. Vrai ou faux : La responsabilité stricte exige que la personne demanderesse prouve que le défendeur n'a pas fait preuve de diligence raisonnable, exactement comme la négligence.
+4. Pourquoi le fabricant pourrait-il être tenu responsable selon la responsabilité stricte du fait des produits, même s'il a suivi des procédures raisonnables?
+   a) La responsabilité stricte n'exige aucune preuve de préjudice
+   b) Le contexte juridique précis (un défaut de produit) n'exige pas de prouver une négligence au sens traditionnel
+   c) Le fabricant a reconnu sa négligence
+   d) Aucune responsabilité n'a réellement été établie
+
+**5. Corrigé**
+1. b  2. b  3. Faux  4. b
+
+**6. Réponses et explications**
+1. La responsabilité stricte n'exige généralement pas que la personne demanderesse établisse un manquement à un devoir de diligence raisonnable.
+2. La responsabilité stricte s'applique souvent dans des contextes comme certaines réclamations liées à des produits défectueux et les activités anormalement dangereuses.
+3. La responsabilité stricte n'exige justement pas de prouver un manquement à la diligence raisonnable, contrairement à la négligence.
+4. Le contexte précis de responsabilité stricte qui s'applique aux défauts de produits permettait d'engager la responsabilité sans exiger la preuve d'une négligence traditionnelle.
+
+**7. Points clés à retenir**
+- La responsabilité stricte peut engager la responsabilité, que la diligence raisonnable ait été exercée ou non, contrairement à la négligence.
+- Cette norme s'applique souvent dans des contextes précis, comme les réclamations liées à des produits défectueux et les activités anormalement dangereuses.
+- Ça reflète un choix politique volontaire de faire porter certains risques à des parties précises, plutôt que d'exiger la preuve d'un manque de diligence.
+- Comparer la responsabilité stricte à la négligence permet de clarifier ces deux normes distinctes de responsabilité civile.

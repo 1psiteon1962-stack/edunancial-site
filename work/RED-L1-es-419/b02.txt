@@ -1,0 +1,354 @@
+===== RED-L1-006
+TITLE: ¿Qué es el pago inicial (enganche) y por qué importa tanto?
+SUMMARY: Aprende qué hace realmente el pago inicial —más allá de "empezar con un préstamo más pequeño"— y cómo afecta el riesgo tanto para el comprador como para el prestamista.
+# ¿Qué es el pago inicial (enganche) y por qué importa tanto?
+
+## Objetivos de aprendizaje
+
+Al terminar esta lección, deberías poder:
+
+- Definir el pago inicial en palabras sencillas.
+- Explicar cómo el tamaño del pago inicial afecta el préstamo y el pago mensual.
+- Explicar por qué a los prestamistas les importa el tamaño del pago inicial más allá de las cuentas.
+
+## Contenido principal
+
+### Qué es el pago inicial
+
+El pago inicial (también llamado pago inicial o cuota inicial) es la parte del precio de compra de una propiedad que se paga al principio, en efectivo, en lugar de pedirse prestada. Si una vivienda cuesta $300,000 y el comprador paga $30,000 al principio, ese es un pago inicial del 10 %, y los $270,000 restantes se financian con una hipoteca.
+
+### Cómo afecta el préstamo
+
+Un pago inicial más grande significa un préstamo más pequeño, lo que generalmente significa un pago mensual menor y menos intereses pagados a lo largo de la vida del préstamo. Cambia directamente las cifras, no solo la tranquilidad del comprador.
+
+### Por qué les importa a los prestamistas más allá de las cuentas
+
+Un pago inicial más grande también significa que el comprador ya tiene equity real (y dinero real) en la propiedad desde el primer día, lo que reduce el riesgo del prestamista: un comprador con un equity importante tiene más que perder si deja de pagar. Esta es parte de la razón por la que los pagos iniciales más pequeños suelen venir con costos adicionales, como el PMI, que se verá en la siguiente lección.
+
+## Ejemplo práctico
+
+Una vivienda de $300,000 con un pago inicial del 20 % ($60,000) requiere financiar $240,000. La misma vivienda con un pago inicial del 5 % ($15,000) requiere financiar $285,000: un préstamo más grande, un pago mensual más alto y más intereses totales pagados con el tiempo.
+
+## Prueba de práctica
+
+1. El pago inicial es:
+   A. Una cuota mensual que se le paga al prestamista
+   B. La parte del precio de compra que se paga al principio en efectivo
+   C. Un tipo de seguro de vivienda
+   D. Un impuesto que se paga al cierre
+2. Verdadero o falso: Un pago inicial más grande generalmente da como resultado un pago mensual de hipoteca más bajo.
+3. ¿Por qué los prestamistas suelen considerar que un pago inicial más grande representa menos riesgo?
+   A. Garantiza que el valor de la vivienda va a subir
+   B. El comprador tiene más dinero propio y más equity en juego
+   C. Elimina la necesidad de revisar el historial crediticio
+   D. Acorta automáticamente el plazo del préstamo
+
+## Clave de respuestas
+
+1. B
+2. Verdadero
+3. B
+
+## Respuestas y explicaciones
+
+### Pregunta 1
+
+Respuesta correcta: B. El pago inicial es la parte del precio de compra que se paga al principio en efectivo.
+
+### Pregunta 2
+
+Respuesta correcta: Verdadero. Un pago inicial más grande reduce el monto del préstamo, y eso reduce el pago mensual.
+
+### Pregunta 3
+
+Respuesta correcta: B. Que el comprador tenga más dinero propio en juego reduce el riesgo de incumplimiento para el prestamista.
+
+## Puntos clave
+
+- El pago inicial es la parte de la compra de una vivienda que se paga al principio en efectivo.
+- Un pago inicial más grande significa un préstamo más pequeño, pagos más bajos y menos intereses en total.
+- Los prestamistas consideran que los pagos iniciales más grandes son de menor riesgo porque el comprador tiene más en juego.
+
+===== RED-L1-007
+TITLE: Hipotecas de tasa fija frente a hipotecas de tasa variable
+SUMMARY: Aprende la diferencia real entre las hipotecas de tasa fija y las de tasa variable, y la disyuntiva que representa cada una.
+# Hipotecas de tasa fija frente a hipotecas de tasa variable
+
+## Objetivos de aprendizaje
+
+Al terminar esta lección, deberías poder:
+
+- Definir una hipoteca de tasa fija y una hipoteca de tasa variable.
+- Explicar la disyuntiva entre la previsibilidad y el posible ahorro.
+- Identificar un riesgo propio de las hipotecas de tasa variable.
+
+## Contenido principal
+
+### Hipotecas de tasa fija
+
+Una hipoteca de tasa fija mantiene la misma tasa de interés durante todo el plazo del préstamo. El pago mensual de capital e intereses es el mismo desde el primer pago hasta el último, lo que hace que el presupuesto sea predecible.
+
+### Hipotecas de tasa variable (ARM)
+
+Una hipoteca de tasa variable (en inglés, ARM) empieza con una tasa que muchas veces es más baja que una tasa fija comparable, pero esa tasa puede cambiar periódicamente después de un periodo inicial fijo, según las condiciones generales de las tasas de interés. Los pagos pueden subir o bajar con el tiempo.
+
+### La verdadera disyuntiva
+
+Los préstamos de tasa fija cambian una tasa inicial posiblemente más alta por previsibilidad a largo plazo. Las hipotecas de tasa variable cambian previsibilidad por un costo inicial posiblemente más bajo, con el riesgo real de que los pagos suban después. Ninguna es mejor en todos los casos; depende de cuánto tiempo piense alguien conservar el préstamo y de cuánta incertidumbre en el pago pueda tolerar.
+
+## Ejemplo práctico
+
+Una persona con tasa fija paga lo mismo en el año 1 y en el año 15. Una persona con tasa variable podría pagar menos en el año 1 que la de tasa fija, pero si las tasas suben, podría estar pagando más para el año 6; si las tasas bajan, también podría pasar exactamente lo contrario.
+
+## Prueba de práctica
+
+1. Una hipoteca de tasa fija:
+   A. Cambia de tasa automáticamente cada año
+   B. Mantiene la misma tasa de interés durante todo el plazo del préstamo
+   C. Solo está disponible para quienes compran por primera vez
+   D. Siempre tiene un pago más alto que una hipoteca de tasa variable
+2. Verdadero o falso: El pago de una hipoteca de tasa variable nunca puede aumentar después del periodo inicial.
+3. ¿Cuál es la principal disyuntiva entre las hipotecas de tasa fija y las de tasa variable?
+   A. Previsibilidad frente a un costo inicial posiblemente más bajo con riesgo de cambio
+   B. Tipos de préstamo legales frente a ilegales
+   C. Préstamos respaldados por el gobierno frente a préstamos privados
+   D. Propiedad de corto plazo frente a propiedad de largo plazo
+
+## Clave de respuestas
+
+1. B
+2. Falso
+3. A
+
+## Respuestas y explicaciones
+
+### Pregunta 1
+
+Respuesta correcta: B. Una hipoteca de tasa fija mantiene la misma tasa durante todo el plazo del préstamo.
+
+### Pregunta 2
+
+Respuesta correcta: Falso. Los pagos de una hipoteca de tasa variable pueden subir (o bajar) después del periodo inicial fijo, según las condiciones de las tasas.
+
+### Pregunta 3
+
+Respuesta correcta: A. La disyuntiva central es la previsibilidad a largo plazo frente a un costo inicial posiblemente más bajo con riesgo futuro de tasa.
+
+## Puntos clave
+
+- Las hipotecas de tasa fija ofrecen una tasa asegurada y predecible durante todo el plazo.
+- Las hipotecas de tasa variable muchas veces empiezan más bajas, pero pueden cambiar después de un periodo inicial.
+- La elección correcta depende de cuánto tiempo piense alguien conservar el préstamo y de qué tan cómodo se sienta con la incertidumbre en el pago.
+
+===== RED-L1-008
+TITLE: ¿Qué es el PMI (seguro hipotecario privado) y cuándo se paga?
+SUMMARY: Aprende qué protege el PMI, a quién protege realmente y cuándo se aplica a una hipoteca.
+# ¿Qué es el PMI (seguro hipotecario privado) y cuándo se paga?
+
+## Objetivos de aprendizaje
+
+Al terminar esta lección, deberías poder:
+
+- Definir el PMI en palabras sencillas.
+- Explicar a quién protege realmente el PMI.
+- Explicar cuándo se exige normalmente el PMI y cuándo puede eliminarse.
+
+## Contenido principal
+
+### Qué es el PMI
+
+El seguro hipotecario privado (PMI, por sus siglas en inglés, usado en EE. UU.; en otros países existen seguros parecidos con otros nombres) es un seguro que protege al prestamista —no al deudor— si el deudor deja de pagar el préstamo. Es un costo mensual adicional que se suma al pago de la hipoteca.
+
+### A quién protege realmente
+
+Esta es la parte que más se malinterpreta: el PMI no protege al propietario de perder su vivienda. Existe para reducir el riesgo del prestamista en préstamos en los que el comprador tiene menos colchón de equity, para que el prestamista esté más dispuesto a aprobar el préstamo desde un principio.
+
+### Cuándo se exige y cuándo termina
+
+Normalmente el PMI se exige en los préstamos convencionales cuando el pago inicial está por debajo de cierto límite (muchas veces el 20 %), porque un pago inicial más pequeño significa menos colchón de equity para el prestamista. Muchas veces puede eliminarse cuando el equity del deudor en la vivienda llega a un límite parecido, ya sea por los pagos o por la plusvalía.
+
+## Ejemplo práctico
+
+Un comprador da un pago inicial del 10 % en lugar del 20 % para una vivienda. Como su colchón de equity es más pequeño, el prestamista exige PMI como condición para aprobar el préstamo: un costo mensual adicional hasta que se acumule suficiente equity.
+
+## Prueba de práctica
+
+1. El PMI protege principalmente:
+   A. Al propietario
+   B. Al prestamista
+   C. Al agente inmobiliario
+   D. Al gobierno local
+2. Verdadero o falso: Normalmente el PMI se exige cuando el pago inicial está por debajo de cierto límite, muchas veces el 20 %.
+3. ¿Se puede eliminar alguna vez el PMI de un préstamo?
+   A. No, dura todo el plazo del préstamo
+   B. Sí, muchas veces cuando se ha acumulado suficiente equity
+   C. Solo si el deudor refinancia con otro prestamista
+   D. Solo después de que el préstamo se haya pagado por completo
+
+## Clave de respuestas
+
+1. B
+2. Verdadero
+3. B
+
+## Respuestas y explicaciones
+
+### Pregunta 1
+
+Respuesta correcta: B. El PMI protege el riesgo del prestamista, no al propietario.
+
+### Pregunta 2
+
+Respuesta correcta: Verdadero. Los pagos iniciales más pequeños (por debajo de aproximadamente el 20 % en muchos préstamos convencionales) muchas veces hacen que se exija el PMI.
+
+### Pregunta 3
+
+Respuesta correcta: B. Muchas veces el PMI puede eliminarse cuando el equity llega a un límite suficiente.
+
+## Puntos clave
+
+- El PMI protege al prestamista, no al propietario.
+- Normalmente se exige cuando el pago inicial está por debajo de cierto límite.
+- Muchas veces el PMI puede eliminarse cuando se ha acumulado suficiente equity.
+
+===== RED-L1-009
+TITLE: ¿Qué es el impuesto predial y quién lo fija?
+SUMMARY: Aprende cómo se calcula el impuesto predial (impuesto sobre la propiedad), quién fija realmente la tasa y por qué puede cambiar aunque el dueño no haga nada.
+# ¿Qué es el impuesto predial y quién lo fija?
+
+## Objetivos de aprendizaje
+
+Al terminar esta lección, deberías poder:
+
+- Explicar qué financia por lo general el impuesto predial.
+- Explicar los factores básicos que determinan el monto del impuesto predial.
+- Explicar por qué el monto del impuesto predial puede cambiar sin que el dueño haga nada.
+
+## Contenido principal
+
+### Qué financia por lo general el impuesto predial
+
+El impuesto predial (también llamado impuesto sobre la propiedad o sobre bienes inmuebles) es un impuesto periódico que los dueños le pagan al gobierno local, con base en el valor de su propiedad. Comúnmente financia servicios locales como escuelas, calles y servicios de emergencia, aunque los usos exactos varían según el lugar.
+
+### Qué determina el monto
+
+*(REGLA ESPECÍFICA POR REGIÓN: los sistemas de impuesto predial varían mucho según el país e incluso según la jurisdicción local; lo que sigue describe el funcionamiento común en EE. UU. En América Latina, el valor de referencia suele llamarse avalúo catastral o valor fiscal, y lo fija el municipio o la autoridad correspondiente de cada país.)* El monto del impuesto predial generalmente se calcula multiplicando el valor catastral (o valor de avalúo) de la propiedad por una tasa local de impuesto, que fijan los órganos del gobierno local (como un condado, un municipio o un distrito escolar), no el propietario.
+
+### Por qué el monto puede cambiar sin que el dueño haga nada
+
+Si un gobierno local sube su tasa de impuesto, o si el valor catastral de la propiedad sube por una revaluación local, el monto del impuesto puede aumentar aunque el dueño no haya cambiado nada de la propiedad.
+
+## Ejemplo práctico
+
+Una vivienda con un valor catastral de $250,000 en una jurisdicción con una tasa de impuesto del 1.2 % pagaría aproximadamente $3,000 al año de impuesto predial, antes de cualquier exención o ajuste.
+
+## Prueba de práctica
+
+1. El impuesto predial generalmente se le paga:
+   A. Al gobierno federal o nacional
+   B. Al gobierno local
+   C. Directamente al prestamista hipotecario, sin intervención del gobierno local
+   D. A la compañía de seguros de la vivienda
+2. Verdadero o falso: El monto del impuesto predial de un propietario puede subir aunque no haya hecho ningún cambio a la propiedad.
+3. ¿Qué dos factores determinan generalmente el monto del impuesto predial?
+   A. Los ingresos y el puntaje de crédito del propietario
+   B. El valor catastral de la propiedad y la tasa local de impuesto
+   C. La tasa de interés de la hipoteca y el plazo del préstamo
+   D. El tamaño del pago inicial
+
+## Clave de respuestas
+
+1. B
+2. Verdadero
+3. B
+
+## Respuestas y explicaciones
+
+### Pregunta 1
+
+Respuesta correcta: B. El impuesto predial es un impuesto del gobierno local.
+
+### Pregunta 2
+
+Respuesta correcta: Verdadero. Un aumento de la tasa o una revaluación puede subir el monto sin importar lo que haga el dueño.
+
+### Pregunta 3
+
+Respuesta correcta: B. El valor catastral y la tasa local de impuesto son los datos básicos del cálculo.
+
+## Puntos clave
+
+- El impuesto predial es un impuesto local periódico basado en el valor de la propiedad.
+- Se calcula a partir del valor catastral y de una tasa local de impuesto.
+- El monto puede cambiar por decisiones locales, no solo por lo que haga el dueño.
+
+===== RED-L1-010
+TITLE: ¿Qué es un gravamen sobre una propiedad?
+SUMMARY: Aprende qué es realmente un gravamen, cómo queda ligado a una propiedad y por qué puede bloquear una venta hasta que se resuelva.
+# ¿Qué es un gravamen sobre una propiedad?
+
+## Objetivos de aprendizaje
+
+Al terminar esta lección, deberías poder:
+
+- Definir un gravamen en palabras sencillas.
+- Nombrar al menos dos tipos comunes de gravámenes.
+- Explicar por qué un gravamen puede afectar la venta de una propiedad.
+
+## Contenido principal
+
+### Qué es un gravamen
+
+Un gravamen es un derecho legal que alguien tiene sobre una propiedad, normalmente para garantizar una deuda. Algunos ejemplos comunes son el gravamen hipotecario (el derecho del prestamista, que vimos antes), el gravamen fiscal (por impuestos prediales no pagados) y el gravamen de constructor o contratista (el derecho de un contratista al que no le pagaron el trabajo que hizo en la propiedad).
+
+### Cómo queda ligado un gravamen
+
+Normalmente un gravamen se inscribe en un registro del gobierno local (como el registro público de la propiedad) y queda ligado a la propiedad misma, no solo al dueño en lo personal. Eso significa que puede seguir a la propiedad incluso después de una venta si no se resuelve antes.
+
+### Por qué puede bloquear una venta
+
+Como el gravamen está ligado a la propiedad, la mayoría de los compradores y prestamistas exigen que se elimine antes de que se cierre una venta. Un gravamen sin resolver es una razón común por la que la venta de una propiedad se retrasa o se cae.
+
+## Ejemplo práctico
+
+Un propietario contrata a un contratista para una remodelación y no le paga la factura final. El contratista puede presentar un gravamen de constructor sobre la propiedad, que tendría que resolverse antes de que la vivienda pudiera venderse con un título limpio.
+
+## Prueba de práctica
+
+1. La mejor descripción de un gravamen es:
+   A. Un tipo de seguro para propietarios
+   B. Un derecho legal sobre una propiedad, normalmente para garantizar una deuda
+   C. Un subsidio del gobierno para compradores de vivienda
+   D. Una inspección obligatoria de la vivienda
+2. Verdadero o falso: Un gravamen solo afecta en lo personal al dueño actual, no a la propiedad en sí.
+3. ¿Qué es un gravamen de constructor?
+   A. Un derecho que presenta un contratista al que no le pagaron el trabajo hecho en la propiedad
+   B. Un tipo de préstamo para auto
+   C. Un impuesto del gobierno sobre construcciones nuevas
+   D. Una forma de seguro de título
+
+## Clave de respuestas
+
+1. B
+2. Falso
+3. A
+
+## Respuestas y explicaciones
+
+### Pregunta 1
+
+Respuesta correcta: B. Un gravamen es un derecho legal sobre una propiedad, normalmente ligado a una deuda.
+
+### Pregunta 2
+
+Respuesta correcta: Falso. Los gravámenes quedan ligados a la propiedad misma, por eso pueden seguirla después de una venta.
+
+### Pregunta 3
+
+Respuesta correcta: A. El gravamen de constructor lo presenta un contratista al que no le pagaron el trabajo hecho en la propiedad.
+
+## Puntos clave
+
+- Un gravamen es un derecho legal sobre una propiedad, normalmente para garantizar una deuda.
+- Los gravámenes quedan ligados a la propiedad, no solo al dueño en lo personal.
+- Los gravámenes sin resolver muchas veces bloquean o retrasan la venta de una propiedad.

@@ -1,0 +1,559 @@
+===== GREEN-L1-029
+TITLE: Los impuestos sobre la nómina para los patronos
+SUMMARY: Amplía la lección anterior sobre el impuesto sobre la nómina hacia las responsabilidades operativas del patrono: retener, aportar su parte y remitir.
+# Los impuestos sobre la nómina para los patronos
+
+## Objetivos de aprendizaje
+
+- Describir el papel del patrono en la administración del impuesto sobre la nómina.
+- Explicar el concepto de la «aportación equivalente» del patrono.
+- Reconocer el cumplimiento del impuesto sobre la nómina como una responsabilidad operativa continua, no como una tarea de una sola vez.
+
+## Contenido principal
+
+Cuando un negocio tiene empleados, asume responsabilidades operativas reales en torno al impuesto sobre la nómina: retener la parte del empleado de cada cheque, a menudo aportar una parte equivalente como patrono y remitirlo todo al gobierno según un calendario fijado por ley, no cuando le resulte conveniente al negocio.
+
+Esta es una responsabilidad recurrente y continua, no un evento anual como presentar una planilla individual. No cumplir una fecha de remisión del impuesto sobre la nómina se toma muy en serio en muchos sistemas, en parte porque el gobierno considera que los fondos retenidos a los empleados se guardan en fideicomiso para el empleado y la autoridad tributaria; es decir, no se trata igual que si el negocio simplemente se atrasara en pagarle la factura a un suplidor común. Los dueños de pequeños negocios que contratan a su primer empleado deben tratar el cumplimiento del impuesto sobre la nómina como una responsabilidad operativa central e innegociable desde el primer día, no como algo secundario.
+
+## Ejemplo práctico
+
+**Pregunta:** La dueña de un negocio nuevo contrata a su primer empleado y luego dice: «Me ocuparé de los impuestos sobre la nómina cuando el flujo de efectivo lo permita». ¿Qué tiene de arriesgado ese plan?
+
+**Estudiante:** Según esta lección, el impuesto sobre la nómina no es opcional ni flexible como la factura de un suplidor; tiene un calendario exigido por ley.
+
+**Guía:** ¿Por qué no cumplir ese calendario podría tomarse más en serio que atrasarse, por ejemplo, en una factura de materiales de oficina?
+
+**Estudiante:** Porque una parte de ese dinero se le retuvo al empleado de su propio pago y, en esencia, se guarda en fideicomiso: no es del todo dinero del negocio que se pueda atrasar.
+
+**Guía:** Exactamente. Por eso el cumplimiento del impuesto sobre la nómina debe tratarse como innegociable desde el primer día.
+
+## Prueba práctica
+
+**Pregunta 1.** Cuando un negocio tiene empleados, normalmente debe:
+
+A) Ignorar por completo el impuesto sobre la nómina
+B) Retener, a menudo aportar una parte equivalente y remitir el impuesto sobre la nómina según un calendario fijo
+C) Pagar el impuesto sobre la nómina solo una vez al año
+D) Dejar que los empleados se encarguen ellos mismos
+
+**Pregunta 2.** La «aportación equivalente» del patrono se refiere a:
+
+A) Que los empleados eligen su propia tasa de impuesto
+B) Que el patrono paga una parte adicional además de lo que se retiene del salario
+C) Un descuento en el impuesto sobre las ventas
+D) Un tipo de crédito contributivo
+
+**Pregunta 3.** ¿Por qué la remisión tardía del impuesto sobre la nómina se toma a menudo más en serio que una factura común atrasada a un suplidor?
+
+A) No se toma en serio
+B) Los fondos retenidos a los empleados se consideran guardados en fideicomiso, no simple efectivo del negocio
+C) A los suplidores siempre se les paga antes que a la nómina
+D) No hay ninguna diferencia legal
+
+**Pregunta 4.** El cumplimiento del impuesto sobre la nómina debe tratarse como:
+
+A) Algo secundario y ocasional
+B) Una responsabilidad operativa central y continua desde el primer día
+C) Algo opcional para los pequeños negocios
+D) Algo relevante solo para las grandes corporaciones
+
+## Clave de respuestas
+
+1. B, 2. B, 3. B, 4. B
+
+## Respuestas y explicaciones
+
+**1.** Los patronos asumen las responsabilidades de retener, a menudo aportar una parte equivalente y remitir desde el momento en que tienen empleados.
+
+**2.** La aportación equivalente es un pago adicional del lado del patrono que se suma a la parte retenida al propio empleado.
+
+**3.** Como los fondos retenidos se consideran guardados para el empleado y la autoridad tributaria, el atraso trae consecuencias más graves en muchos sistemas.
+
+**4.** Esta responsabilidad comienza en el momento en que un negocio contrata a su primer empleado, no después de que esté «establecido».
+
+## Puntos clave
+
+- Los patronos retienen, a menudo aportan una parte equivalente y remiten el impuesto sobre la nómina según un calendario fijado por ley.
+- La aportación equivalente del patrono es un costo adicional que se suma a la retención del empleado.
+- La remisión tardía del impuesto sobre la nómina a menudo se toma más en serio que una factura común atrasada.
+- El cumplimiento del impuesto sobre la nómina es una responsabilidad operativa central desde el momento de contratar.
+
+===== GREEN-L1-030
+TITLE: Contratista independiente o empleado: el lado del dueño del negocio
+SUMMARY: Retoma la distinción entre empleado y contratista desde la perspectiva del dueño del negocio, con énfasis en por qué la clasificación errónea es un riesgo serio.
+# Contratista independiente o empleado: el lado del dueño del negocio
+
+## Objetivos de aprendizaje
+
+- Explicar por qué las decisiones de clasificación importan al negocio, no solo al trabajador.
+- Identificar el riesgo general de la clasificación errónea.
+- Conectar esta lección con la lección anterior sobre el W-2 y el 1099.
+
+## Contenido principal
+
+Antes, este curso examinó la distinción entre empleado y contratista desde el lado del trabajador. Ahora considere el lado del dueño del negocio: la forma en que se clasifica a un trabajador determina si el negocio debe impuesto sobre la nómina, si tiene que retener el impuesto sobre la renta y si asume otras obligaciones de patrono. Clasificar como contratista a un trabajador que legalmente debería tratarse como empleado se llama clasificación errónea, y es un riesgo serio para un negocio, no un atajo inofensivo de papeleo.
+
+La tentación de clasificar erróneamente es comprensible: tratar a todos como contratistas evita las obligaciones del impuesto sobre la nómina y el papeleo. Pero la clasificación no es algo que el negocio pueda elegir libremente: en general depende de factores reales, como cuánto control ejerce el negocio sobre cómo, cuándo y dónde se hace el trabajo. Si una autoridad tributaria determina más adelante que un trabajador estaba mal clasificado, el negocio puede enfrentar impuestos atrasados, penalidades e intereses, a veces por varios trabajadores durante varios años. Este es exactamente el tipo de riesgo que se conecta con la analogía del médico: una consulta rápida con un profesional cualificado antes de tomar decisiones de clasificación a gran escala cuesta mucho menos que las posibles consecuencias.
+
+## Ejemplo práctico
+
+**Pregunta:** La dueña de un negocio en crecimiento clasifica a sus diez nuevos trabajadores como contratistas para evitar el papeleo del impuesto sobre la nómina, aunque ella fija sus horarios y supervisa de cerca su trabajo. ¿Qué riesgo está asumiendo?
+
+**Estudiante:** Según esta lección, se arriesga a una clasificación errónea, porque el nivel de control que se describe se parece más a una relación de empleo.
+
+**Guía:** ¿Qué podría pasar si una autoridad tributaria no está de acuerdo más adelante con su clasificación?
+
+**Estudiante:** Podría deber impuestos atrasados, penalidades e intereses, posiblemente por los diez trabajadores y por todos los años que haya durado la clasificación errónea.
+
+**Guía:** Exactamente. Por eso este es un caso en el que obtener asesoría desde el principio cuesta mucho menos que corregirlo después.
+
+## Prueba práctica
+
+**Pregunta 1.** La clasificación de un trabajador determina, entre otras cosas:
+
+A) Nada relevante para el negocio
+B) Si el negocio tiene obligaciones de impuesto sobre la nómina y de retención
+C) Solo el título del puesto del trabajador
+D) Solo los días de vacaciones del trabajador
+
+**Pregunta 2.** La clasificación errónea se refiere a:
+
+A) Una decisión inofensiva de papeleo
+B) Clasificar incorrectamente como contratista a un trabajador que legalmente debería ser empleado
+C) Pagarle demasiado a un trabajador
+D) Un tipo de crédito contributivo
+
+**Pregunta 3.** La clasificación generalmente depende de:
+
+A) Solo la libre preferencia del negocio
+B) Factores reales, como el nivel de control sobre cómo, cuándo y dónde se hace el trabajo
+C) Solo la edad del trabajador
+D) Una asignación al azar
+
+**Pregunta 4.** ¿Cuál es una consecuencia realista de una clasificación errónea si se descubre más adelante?
+
+A) Ninguna
+B) Impuestos atrasados, penalidades e intereses, posiblemente por varios trabajadores y años
+C) Un reintegro automático
+D) Un crédito contributivo
+
+## Clave de respuestas
+
+1. B, 2. B, 3. B, 4. B
+
+## Respuestas y explicaciones
+
+**1.** La clasificación no es solo una etiqueta: activa obligaciones reales y continuas para el negocio.
+
+**2.** La clasificación errónea consiste en tratar como relación de contratista una relación que legalmente se parece a la de un empleado, a menudo para esquivar las obligaciones del patrono.
+
+**3.** El control sobre el trabajo —horario, supervisión, métodos— es un factor clave que examinan las autoridades tributarias, no solo el nombre que el negocio le da al acuerdo.
+
+**4.** Como la exposición se multiplica por trabajadores y por años, esta es un área de alto riesgo que conviene hacer bien desde el principio.
+
+## Puntos clave
+
+- La clasificación de los trabajadores determina obligaciones tributarias reales y continuas para el negocio.
+- La clasificación errónea es un riesgo legal y financiero serio, no un atajo inofensivo.
+- La clasificación depende de factores reales, sobre todo del grado de control sobre el trabajo, no solo de la preferencia del negocio.
+- Obtener orientación profesional desde el principio cuesta mucho menos que el posible costo de una determinación posterior de clasificación errónea.
+
+===== GREEN-L1-031
+TITLE: Las ganancias de capital: impuestos sobre la ganancia de las inversiones
+SUMMARY: Presenta el concepto de ganancia de capital —la ganancia que se obtiene al vender un bien por más de lo que costó— y en qué se diferencia del ingreso ordinario.
+# Las ganancias de capital: impuestos sobre la ganancia de las inversiones
+
+## Objetivos de aprendizaje
+
+- Definir una ganancia de capital en términos sencillos.
+- Explicar el cálculo básico de una ganancia de capital.
+- Reconocer por qué las ganancias solo se realizan (y normalmente se gravan) al vender, no mientras simplemente se conserva un bien.
+
+## Contenido principal
+
+Una ganancia de capital es la ganancia que se obtiene cuando usted vende un bien —como una acción o una propiedad inmueble— por más de lo que pagó por él. El cálculo básico es sencillo: precio de venta menos precio de compra (a menudo llamado la «base») es igual a la ganancia. Si el bien se vendió por menos que su base, se trata en cambio de una pérdida de capital.
+
+Un matiz importante: en la mayoría de los sistemas, una ganancia solo se «realiza», y en general solo tributa, cuando el bien se vende de verdad. Si el valor de una acción se duplica pero usted nunca la vende, en general todavía no debe impuesto sobre ganancias de capital por ese aumento: es una ganancia no realizada, o «en papel». Esta distinción importa para la planificación de las inversiones, porque vender un bien que ha subido de valor suele ser una decisión deliberada, cuyo momento se puede escoger y que tiene consecuencias tributarias, no algo que ocurre automáticamente solo porque subió el valor del bien.
+
+## Ejemplo práctico
+
+**Pregunta:** Una inversionista compra una acción por $1,000. Dos años después vale $3,000, pero no la ha vendido. ¿Debe impuesto sobre ganancias de capital ahora mismo?
+
+**Estudiante:** Según esta lección, probablemente todavía no, porque la ganancia no se ha realizado mediante una venta.
+
+**Guía:** ¿Qué activaría el impuesto y cómo se calcularía si vendiera a $3,000?
+
+**Estudiante:** Venderla lo activaría: la ganancia sería $3,000 menos su base de $1,000, es decir, una ganancia de capital de $2,000.
+
+**Guía:** Exactamente. Y ella tiene cierto control sobre ese momento, lo cual es una herramienta de planificación real.
+
+## Prueba práctica
+
+**Pregunta 1.** Una ganancia de capital se calcula como:
+
+A) Precio de compra menos precio de venta
+B) Precio de venta menos precio de compra (base)
+C) Solo el precio de compra
+D) Una cantidad fija que establece el gobierno
+
+**Pregunta 2.** Si un bien se vende por menos que su base, eso se llama:
+
+A) Ganancia de capital
+B) Pérdida de capital
+C) Crédito contributivo
+D) Reintegro
+
+**Pregunta 3.** Una ganancia de capital generalmente tributa:
+
+A) En el momento en que sube el valor del bien, se venda o no
+B) Cuando la ganancia se realiza, normalmente al vender
+C) Nunca
+D) Solo si el bien es una propiedad inmueble
+
+**Pregunta 4.** Una ganancia no realizada, o «en papel», se refiere a:
+
+A) Una ganancia que ya tributó
+B) Un aumento de valor que todavía no se ha asegurado mediante una venta
+C) Un tipo de crédito contributivo
+D) Una pérdida de capital
+
+## Clave de respuestas
+
+1. B, 2. B, 3. B, 4. B
+
+## Respuestas y explicaciones
+
+**1.** El cálculo de la ganancia compara el precio al que usted vendió el bien con lo que pagó originalmente.
+
+**2.** Una pérdida es simplemente lo opuesto de una ganancia: vender por menos que la base original.
+
+**3.** La realización mediante una venta es el detonante general del impuesto sobre ganancias de capital en la mayoría de los sistemas.
+
+**4.** El valor puede subir en papel sin activar el impuesto, porque todavía no se ha vendido nada.
+
+## Puntos clave
+
+- Una ganancia de capital es el precio de venta menos el precio de compra (base).
+- Vender por debajo de la base produce, en cambio, una pérdida de capital.
+- Las ganancias generalmente tributan al realizarse, normalmente cuando se vende el bien.
+- Las ganancias no realizadas todavía no tributan, lo que convierte el momento de la venta en una verdadera decisión de planificación.
+
+===== GREEN-L1-032
+TITLE: Ganancias de capital a corto plazo y a largo plazo
+SUMMARY: Explica por qué muchos sistemas gravan las ganancias de forma distinta según cuánto tiempo se conservó un bien antes de venderlo.
+# Ganancias de capital a corto plazo y a largo plazo
+
+## Objetivos de aprendizaje
+
+- Definir las ganancias de capital a corto plazo y a largo plazo.
+- Explicar el razonamiento general de política pública detrás de favorecer los periodos de tenencia más largos.
+- Reconocer el periodo de tenencia como una consideración de planificación.
+
+## Contenido principal
+
+Muchos sistemas tributarios distinguen entre las ganancias de capital a corto plazo (de bienes conservados por un periodo más corto, a menudo menos de un año) y las ganancias de capital a largo plazo (de bienes conservados por más tiempo), y a menudo gravan las de largo plazo a una tasa más favorable. El umbral exacto del periodo de tenencia y la diferencia de tasas varían según el país y cambian con el tiempo, pero el patrón general —premiar la paciencia— es común.
+
+El razonamiento general de política pública es fomentar la inversión a largo plazo y desalentar la compraventa excesiva a corto plazo, aunque hay personas razonables que debaten qué tan bien funciona esto en la práctica. Para un inversionista individual, la conclusión práctica es que el periodo de tenencia es una verdadera herramienta de planificación: vender un bien un poco antes o un poco después de un umbral clave puede cambiar de forma significativa el resultado tributario, y por eso los inversionistas a veces programan deliberadamente una venta en torno a un hito del periodo de tenencia.
+
+## Ejemplo práctico
+
+**Pregunta:** Una inversionista está cerca del umbral de largo plazo con una acción que le ha dado ganancias y está decidiendo si vender ahora o esperar unas semanas más. ¿Qué debería considerar?
+
+**Estudiante:** Según esta lección, esperar hasta cruzar el umbral de largo plazo podría significar una tasa de impuesto más favorable sobre la ganancia.
+
+**Guía:** ¿Debería ser el tratamiento tributario el único factor de esa decisión?
+
+**Estudiante:** Probablemente no: el precio de la acción también podría moverse mientras tanto, así que es un verdadero balance entre el momento tributario y el riesgo de la inversión, no una decisión puramente tributaria.
+
+**Guía:** Exactamente. La planificación tributaria es un elemento más, no toda la decisión.
+
+## Prueba práctica
+
+**Pregunta 1.** Las ganancias de capital a corto plazo generalmente provienen de bienes:
+
+A) Conservados por un periodo más largo
+B) Conservados por un periodo más corto, a menudo menos de un año
+C) Que nunca se venden
+D) Solo de propiedades inmuebles
+
+**Pregunta 2.** Las ganancias de capital a largo plazo a menudo tributan:
+
+A) A una tasa menos favorable que las de corto plazo
+B) A una tasa más favorable que las de corto plazo, en muchos sistemas
+C) Exactamente igual que las de corto plazo en todas partes
+D) Nunca, en ningún caso
+
+**Pregunta 3.** El razonamiento general de política pública detrás de esta distinción es:
+
+A) Castigar a los inversionistas a largo plazo
+B) Fomentar la inversión a largo plazo frente a la compraventa excesiva a corto plazo
+C) Aumentar la recaudación del gobierno sin ningún otro propósito
+D) Simplificar el código tributario
+
+**Pregunta 4.** El periodo de tenencia se entiende mejor como:
+
+A) Algo irrelevante para la planificación tributaria
+B) Una verdadera herramienta de planificación que puede afectar el resultado tributario de una venta
+C) Algo fijo e inmodificable
+D) Algo relevante solo para los negocios
+
+## Clave de respuestas
+
+1. B, 2. B, 3. B, 4. B
+
+## Respuestas y explicaciones
+
+**1.** Las ganancias a corto plazo generalmente provienen de bienes conservados por un periodo relativamente breve antes de la venta.
+
+**2.** Muchos sistemas aplican, por política pública, una tasa más favorable a las ganancias a largo plazo.
+
+**3.** El objetivo general es empujar a los inversionistas hacia la paciencia en lugar de la compraventa frecuente a corto plazo, aunque se debate su eficacia real.
+
+**4.** Como el momento puede cambiar el resultado tributario, el periodo de tenencia es un factor en torno al cual los inversionistas pueden planificar deliberadamente.
+
+## Puntos clave
+
+- Las ganancias a corto plazo suelen provenir de bienes conservados brevemente; las de largo plazo, de bienes conservados por más tiempo.
+- Las ganancias a largo plazo a menudo tributan de forma más favorable, aunque los detalles varían y cambian.
+- El objetivo de política pública suele ser fomentar una inversión paciente y a largo plazo.
+- El periodo de tenencia es una herramienta de planificación real y controlable para los inversionistas.
+
+===== GREEN-L1-033
+TITLE: Dividendos e intereses: cómo tributan los ingresos de inversión
+SUMMARY: Presenta los dividendos y los intereses como dos formas comunes de ingreso de inversión distintas de las ganancias de capital, porque se generan al conservar un bien, no al venderlo.
+# Dividendos e intereses: cómo tributan los ingresos de inversión
+
+## Objetivos de aprendizaje
+
+- Distinguir los dividendos y los intereses de las ganancias de capital.
+- Explicar que el ingreso por dividendos e intereses generalmente tributa en el año en que se recibe.
+- Reconocer que son fuentes de ingreso continuas, no eventos de venta de una sola vez.
+
+## Contenido principal
+
+Hasta ahora, este curso se ha enfocado mucho en las ganancias de capital: la ganancia que se obtiene al vender un bien. Pero otras dos formas comunes de ingreso de inversión no requieren vender nada: los dividendos (una parte de las ganancias de una empresa que se paga a los accionistas, a menudo de forma periódica) y los intereses (pagos que se ganan por prestar dinero, como mediante una cuenta de ahorros o un bono).
+
+A diferencia de las ganancias de capital, que normalmente se activan con una venta, el ingreso por dividendos e intereses generalmente tributa en el año en que se recibe, se venda o no la inversión de fondo. Una inversionista que conserva durante décadas una acción que paga dividendos, sin vender ni una sola acción, en general seguirá debiendo impuestos cada año sobre los dividendos recibidos durante ese tiempo. Reconocer que estas son fuentes de ingreso distintas y continuas —separadas de la mecánica de las ganancias de capital, que se activa con una venta— completa la imagen básica de cómo tributan los ingresos de inversión.
+
+## Ejemplo práctico
+
+**Pregunta:** Una inversionista conserva una acción durante 15 años sin venderla nunca, pero la empresa paga un dividendo cada trimestre. ¿Evita todo impuesto sobre esa acción por no venderla nunca?
+
+**Estudiante:** Según esta lección, no: los dividendos en sí generalmente tributan cada año en que los recibe, aunque no haya venta.
+
+**Guía:** Entonces, ¿qué tributa realmente cada año, frente a lo que solo tributaría si ella llegara a vender?
+
+**Estudiante:** Los dividendos tributan a medida que se reciben. El aumento del precio de la acción solo se convertiría en una ganancia de capital tributable si ella la vende y cuando la venda.
+
+**Guía:** Exactamente: dos fuentes de ingreso distintas, dos detonantes distintos.
+
+## Prueba práctica
+
+**Pregunta 1.** Un dividendo es:
+
+A) Un tipo de préstamo
+B) Una parte de las ganancias de una empresa que se paga a los accionistas
+C) Lo mismo que una ganancia de capital
+D) Un crédito contributivo del gobierno
+
+**Pregunta 2.** Los intereses son, en general:
+
+A) La ganancia por vender un bien
+B) Un pago que se gana por prestar dinero, como mediante ahorros o bonos
+C) Lo mismo que un dividendo
+D) Algo relevante solo para los negocios
+
+**Pregunta 3.** A diferencia de las ganancias de capital, el ingreso por dividendos e intereses generalmente tributa:
+
+A) Solo al vender el bien de fondo
+B) En el año en que se recibe, haya venta o no
+C) Nunca
+D) Solo después de diez años
+
+**Pregunta 4.** ¿Puede una inversionista evitar todo impuesto sobre una acción simplemente no vendiéndola nunca?
+
+A) Sí, siempre
+B) No: los dividendos que recibe en el camino siguen tributando en general
+C) Solo si la acción pierde valor
+D) Solo en el caso de los bonos
+
+## Clave de respuestas
+
+1. B, 2. B, 3. B, 4. B
+
+## Respuestas y explicaciones
+
+**1.** Un dividendo es una distribución de las ganancias de la empresa a los accionistas, distinta de una transacción de venta.
+
+**2.** Los intereses son la compensación por prestar dinero, ya sea mediante una cuenta bancaria, un bono o un instrumento similar.
+
+**3.** Estos tipos de ingreso tributan a medida que se reciben, a diferencia de las ganancias de capital, que esperan una venta para activar el impuesto.
+
+**4.** Los ingresos continuos, como los dividendos, siguen generando obligaciones tributarias año tras año, se venda o no el bien.
+
+## Puntos clave
+
+- Los dividendos y los intereses son tipos de ingreso de inversión distintos de las ganancias de capital.
+- Generalmente tributan en el año en que se reciben, no al vender.
+- Conservar un bien sin venderlo no evita el impuesto sobre el ingreso que genera en el camino.
+- Reconocer que son fuentes distintas y continuas completa la imagen básica de los ingresos de inversión.
+
+===== GREEN-L1-034
+TITLE: Las cuentas de retiro con ventajas tributarias: la idea básica
+SUMMARY: Presenta el concepto general de las cuentas de retiro con ventajas tributarias sin atarlo a los nombres de cuentas específicos de un país.
+# Las cuentas de retiro con ventajas tributarias: la idea básica
+
+## Objetivos de aprendizaje
+
+- Explicar el propósito general de las cuentas de retiro con ventajas tributarias.
+- Identificar el mecanismo básico: un beneficio tributario a cambio de restricciones al acceso.
+- Reconocer esto como una herramienta de política pública para fomentar el ahorro a largo plazo.
+
+## Contenido principal
+
+Muchos gobiernos ofrecen tipos de cuenta especiales que dan algún tipo de beneficio tributario —el dinero que entra todavía no tributa, o el dinero que sale más tarde no tributa, o el crecimiento de la inversión dentro de la cuenta no tributa en el camino— específicamente para fomentar que las personas ahorren para el retiro. A cambio de este beneficio, estas cuentas suelen tener restricciones, con mayor frecuencia límites para retirar dinero antes de cierta edad sin una penalidad. (En Puerto Rico, por ejemplo, existen cuentas de retiro individual reguladas por el código tributario local; en la República Dominicana, el sistema de pensiones funciona mediante las AFP.)
+
+El intercambio de fondo es sencillo: el gobierno renuncia a parte de la recaudación ahora (o después) a cambio de fomentar una conducta —el ahorro a largo plazo— que reduce la dependencia futura de los sistemas de apoyo público. Los nombres de las cuentas, los límites de aportación y las reglas específicas varían enormemente según el país y cambian con el tiempo, pero la forma básica —un beneficio tributario combinado con una restricción al acceso, con el fin de fomentar el ahorro para el retiro— es un patrón que vale la pena reconocer dondequiera que lo encuentre.
+
+## Ejemplo práctico
+
+**Pregunta:** Un amigo pregunta por qué una cuenta de retiro lo penalizaría por sacar su propio dinero antes de tiempo. ¿Cuál es la lógica general?
+
+**Estudiante:** Según esta lección, el beneficio tributario es básicamente un intercambio: usted obtiene una ventaja a cambio de comprometerse a dejar el dinero para el retiro.
+
+**Guía:** ¿Por qué le importaría a un gobierno que el dinero se use específicamente para el retiro?
+
+**Estudiante:** Porque fomentar el ahorro a largo plazo reduce la dependencia futura de los sistemas de apoyo público, así que al gobierno le conviene renunciar ahora a parte de la recaudación.
+
+**Guía:** Exactamente. La restricción no es arbitraria: está vinculada al propósito del beneficio.
+
+## Prueba práctica
+
+**Pregunta 1.** Las cuentas de retiro con ventajas tributarias generalmente ofrecen:
+
+A) Ningún beneficio en absoluto
+B) Algún tipo de beneficio tributario vinculado al ahorro para el retiro
+C) Retiros ilimitados y sin penalidad en cualquier momento
+D) Beneficios solo para los negocios
+
+**Pregunta 2.** A cambio del beneficio tributario, estas cuentas normalmente incluyen:
+
+A) Ninguna restricción
+B) Restricciones, comúnmente límites para retirar antes de tiempo sin penalidad
+C) La obligación de gastar el dinero de inmediato
+D) Un impuesto sobre las ventas más alto
+
+**Pregunta 3.** ¿Por qué un gobierno podría ofrecer este tipo de beneficio?
+
+A) Por ninguna razón real
+B) Para fomentar el ahorro a largo plazo y reducir la dependencia futura del apoyo público
+C) Para aumentar la recaudación a corto plazo
+D) Solo para beneficiar a los bancos
+
+**Pregunta 4.** ¿Se mantienen iguales los nombres y las reglas específicos de las cuentas entre países y a lo largo del tiempo?
+
+A) Sí, siempre
+B) No: varían mucho y cambian con el tiempo
+C) Solo en los países ricos
+D) Nunca han existido
+
+## Clave de respuestas
+
+1. B, 2. B, 3. B, 4. B
+
+## Respuestas y explicaciones
+
+**1.** Lo que ofrecen en esencia la mayoría de los sistemas es algún tipo de ventaja tributaria vinculada específicamente al ahorro para el retiro.
+
+**2.** Las restricciones a los retiros anticipados son el intercambio común por recibir el beneficio tributario.
+
+**3.** Fomentar el ahorro reduce la carga futura sobre los sistemas públicos de retiro y de apoyo, y esa es la lógica de la política pública.
+
+**4.** Igual que con los créditos, los detalles aquí dependen de la jurisdicción y del momento, así que el patrón importa más que las reglas de una cuenta en particular.
+
+## Puntos clave
+
+- Las cuentas de retiro con ventajas tributarias intercambian un beneficio tributario por restricciones al ahorro.
+- Los retiros anticipados suelen estar limitados o penalizados.
+- El objetivo de política pública es fomentar el ahorro a largo plazo para reducir la dependencia futura del apoyo público.
+- Las reglas específicas de las cuentas varían según el país y cambian con el tiempo: el patrón es la lección transferible.
+
+===== GREEN-L1-035
+TITLE: Tradicional o Roth: pagar impuestos ahora o después
+SUMMARY: Explica el concepto general detrás de dos estructuras comunes de cuentas de retiro —una que tributa al entrar y otra que tributa al salir— con etiquetas genéricas en lugar de los nombres de los programas específicos de un país.
+# Tradicional o Roth: pagar impuestos ahora o después
+
+## Objetivos de aprendizaje
+
+- Explicar la elección entre «pagar ahora o pagar después» que existe en muchos sistemas de cuentas de retiro.
+- Identificar el balance básico entre ambos enfoques.
+- Reconocer que la mejor opción puede depender de las tasas de impuesto que se esperen en el futuro.
+
+## Contenido principal
+
+Muchos sistemas de cuentas de retiro ofrecen una elección entre dos estructuras, a menudo descritas de forma genérica como de estilo «tradicional» y de estilo «Roth», sin importar los nombres locales exactos. En una cuenta de estilo tradicional, las aportaciones suelen reducir el ingreso tributable ahora, pero los retiros durante el retiro tributan. En una cuenta de estilo Roth, las aportaciones se hacen ahora con dinero que ya tributó, pero los retiros durante el retiro normalmente están libres de impuestos.
+
+El balance central es el momento: pagar impuestos ahora a su tasa actual o pagarlos después a su tasa futura. Si usted espera que su tasa de impuesto sea más baja en el retiro que ahora, un enfoque de estilo tradicional a menudo resulta mejor. Si espera que su tasa sea similar o más alta en el retiro —algo común en las personas jóvenes que empiezan su carrera con espacio para crecer—, un enfoque de estilo Roth puede resultar mejor. No hay una respuesta correcta para todos: depende de suposiciones sobre el futuro, y precisamente por eso es un área común en la que conviene buscar orientación profesional en lugar de adivinar.
+
+## Ejemplo práctico
+
+**Pregunta:** Una joven de 22 años que apenas comienza su carrera está decidiendo entre una cuenta de retiro de estilo tradicional y una de estilo Roth. ¿Cuál es el razonamiento general que debería considerar?
+
+**Estudiante:** Según esta lección, debería pensar si su tasa de impuesto ahora probablemente es más baja o más alta de lo que será más adelante en su carrera.
+
+**Guía:** Como está al comienzo de su carrera, ¿cuál es una suposición razonable sobre su ingreso y su tasa de impuesto en el futuro?
+
+**Estudiante:** Su ingreso, y probablemente su tasa de impuesto, tenderán a subir con el tiempo, así que pagar impuestos ahora a una tasa más baja, mediante una cuenta de estilo Roth, podría tener sentido.
+
+**Guía:** Es un razonamiento sensato, aunque sigue siendo una suposición sobre el futuro y no una garantía; por eso vale la pena conversarlo con un profesional para un plan específico.
+
+## Prueba práctica
+
+**Pregunta 1.** En una cuenta de estilo tradicional, las aportaciones normalmente:
+
+A) Tributan dos veces
+B) Reducen el ingreso tributable ahora, y los retiros tributan después
+C) Nunca tributan
+D) No tienen ningún efecto sobre los impuestos
+
+**Pregunta 2.** En una cuenta de estilo Roth, las aportaciones normalmente:
+
+A) Se hacen con dinero que ya tributó, y los retiros posteriores están libres de impuestos
+B) Se deducen del ingreso tributable actual
+C) Tributan dos veces
+D) Son ilegales
+
+**Pregunta 3.** El balance central entre ambos enfoques es:
+
+A) No hay ningún balance
+B) Pagar impuestos ahora frente a pagarlos después
+C) Uno de los enfoques nunca involucra impuestos
+D) Solo los negocios pueden elegir
+
+**Pregunta 4.** ¿Qué enfoque tiende a favorecer a alguien que espera una tasa de impuesto más baja en el retiro que hoy?
+
+A) El de estilo Roth
+B) El de estilo tradicional
+C) Ninguno importa
+D) Solo las cuentas basadas en el impuesto sobre las ventas
+
+## Clave de respuestas
+
+1. B, 2. A, 3. B, 4. B
+
+## Respuestas y explicaciones
+
+**1.** La estructura de estilo tradicional difiere el impuesto: ofrece un beneficio hoy a cambio del impuesto que se deberá por los retiros después.
+
+**2.** La estructura de estilo Roth adelanta el impuesto, de modo que los retiros que cualifiquen más tarde generalmente no tributan.
+
+**3.** Es, en el fondo, una decisión sobre el momento en que usted prefiere pagar impuestos, basada en suposiciones sobre las tasas futuras.
+
+**4.** Si la tasa de hoy es más alta que la tasa futura esperada, diferir el impuesto (estilo tradicional) a menudo es más ventajoso.
+
+## Puntos clave
+
+- Las cuentas de estilo tradicional difieren el impuesto hasta el retiro; las de estilo Roth gravan las aportaciones ahora, no los retiros.
+- El balance central es pagar impuestos ahora frente a pagarlos después.
+- La mejor opción depende de las suposiciones sobre su tasa de impuesto actual frente a la futura.
+- Es un área común y legítima en la que conviene buscar orientación profesional en lugar de adivinar.

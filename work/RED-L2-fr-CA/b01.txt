@@ -1,0 +1,427 @@
+===== RED-L2-001
+TITLE: De locataire à propriétaire : la première interaction entre les pièces
+SUMMARY: Découvre comment une seule décision d'achat touche en même temps ton flux de trésorerie, ton crédit, tes liquidités, ta valeur nette et parfois tes impôts.
+## RED-L2-001
+### De locataire à propriétaire : la première interaction entre les pièces
+
+**1. Objectifs d'apprentissage**
+À la fin de cette leçon, tu pourras :
+- Expliquer comment la décision d'acheter une maison change plus d'une « pièce » financière à la fois.
+- Nommer au moins quatre aspects financiers touchés par une décision d'achat (flux de trésorerie, crédit, impôts et valeur nette).
+- Décrire pourquoi la pensée de niveau 2 consiste à se demander « qu'est-ce qui bouge d'autre? » avant de prendre une décision immobilière.
+
+**2. Contenu principal**
+Au niveau 1, tu as appris ce qu'est un prêt hypothécaire, ce que veut dire l'équité et à quoi sert une mise de fonds. Ce sont des pièces d'échecs individuelles posées sur l'échiquier. Le niveau 2 consiste à observer ce qui arrive au reste de l'échiquier dès que tu en déplaces une.
+
+Pense à la décision d'acheter une première maison. En surface, ça ressemble à une seule transaction : tu échanges tes économies et un prêt contre une propriété. Mais ce seul mouvement touche plusieurs autres pièces en même temps.
+
+*Flux de trésorerie.* Le loyer disparaît et il est remplacé par un paiement hypothécaire, des taxes foncières, de l'assurance et de l'entretien. Ces montants ne sont pas toujours égaux au loyer et, contrairement au loyer, plusieurs de ces coûts ne sont pas fixes : les taxes foncières peuvent monter, les primes d'assurance peuvent augmenter et quelque chose finira par briser.
+
+*Crédit.* Un nouveau prêt hypothécaire apparaît dans ton dossier de crédit comme un gros prêt à tempérament. Bien géré, des paiements faits à temps bâtissent ton historique de crédit avec le temps. Mal géré — même un seul paiement en retard de 30 jours —, il peut faire de vrais dégâts, parce que l'historique de paiement hypothécaire pèse lourd dans les modèles de pointage de crédit.
+
+*Liquidités.* L'argent utilisé pour la mise de fonds et les frais de clôture n'est plus dans un compte bancaire. Il fait maintenant partie de l'équité d'une propriété, et l'équité n'est pas liquide : tu ne peux pas la dépenser à l'épicerie sans vendre la maison ou emprunter dessus.
+
+*Valeur nette.* L'équité de la maison devient un actif dans ton bilan personnel. Mais la valeur nette, ce n'est pas de l'argent que tu peux dépenser, et elle est aussi exposée au risque du marché. Si la valeur des propriétés baisse, cette partie de ta valeur nette peut fondre.
+
+*Impôts.* Selon l'endroit où tu vis, certains aspects de la propriété peuvent avoir un effet sur ta situation fiscale. Ça dépend de la juridiction et ça change avec le temps; c'est donc un endroit où Edunancial t'apprend à consulter un fiscaliste qualifié plutôt que de supposer qu'une règle précise s'applique à toi.
+
+La compétence de niveau 2, ce n'est pas d'apprendre cette liste par cœur. C'est de prendre l'habitude de te demander, avant tout geste financier : *qu'est-ce que ça touche d'autre?* Un locataire qui devient propriétaire a changé son flux de trésorerie, son profil de crédit, ses liquidités, sa valeur nette et peut-être sa situation fiscale — tout ça avec une seule décision. Aucun de ces changements n'est automatiquement bon ou mauvais. Ce sont simplement des pièces qui interagissent maintenant autrement.
+
+**3. Exemple pratique**
+Maria loue un appartement à 1 600 $ par mois. Elle pense acheter un condo dont le paiement mensuel total serait de 1 900 $ (prêt hypothécaire, taxes, assurance et frais de copropriété combinés).
+
+Avant de décider, Maria fait la carte des pièces :
+- Flux de trésorerie : son coût de logement mensuel augmente de 300 $, mais elle obtient un paiement hypothécaire à taux fixe (la partie taxes et frais de copropriété peut quand même augmenter) au lieu d'un loyer que son propriétaire pourrait aussi augmenter.
+- Liquidités : ses 25 000 $ d'économies tombent à 5 000 $ après la mise de fonds et les frais de clôture, ce qui réduit son coussin en cas d'urgence.
+- Crédit : un nouveau prêt hypothécaire de 310 000 $ apparaîtra dans son dossier de crédit. Si elle le gère bien, il peut aider son profil de crédit avec le temps.
+- Valeur nette : elle a maintenant un actif (le condo) et un passif correspondant (le prêt hypothécaire) dans son bilan personnel, au lieu de payer un loyer sans rien garder en retour.
+
+La décision de Maria n'est pas seulement « est-ce que j'ai les moyens de payer 1 900 $ par mois? ». C'est plutôt « qu'est-ce qui arrive à mon coussin de liquidités, à mon exposition au crédit et à la structure de ma valeur nette si je fais ce geste? ». Elle décide d'attendre six mois et de rebâtir son coussin d'épargne à 15 000 $ avant d'acheter, pour que la mise de fonds ne la laisse pas financièrement à découvert.
+
+**4. Quiz de pratique**
+1. Lequel des éléments suivants n'est PAS une des quatre principales pièces généralement touchées par l'achat d'une maison, selon cette leçon?
+   a) Le flux de trésorerie
+   b) Le crédit
+   c) L'épicerie préférée
+   d) Les liquidités
+
+2. Vrai ou faux : L'équité d'une maison est généralement considérée comme un actif liquide qu'on peut dépenser tout de suite, sans aucune étape de plus.
+
+3. Dans l'exemple pratique, pourquoi Maria a-t-elle décidé d'attendre six mois avant d'acheter?
+   a) Les taux d'intérêt étaient trop élevés
+   b) Elle voulait rebâtir son coussin de liquidités
+   c) Le syndicat de copropriété avait refusé sa demande
+   d) Son pointage de crédit était trop bas
+
+4. Quelle est la compétence de base de niveau 2 que cette leçon veut développer?
+   a) Calculer exactement les paiements hypothécaires
+   b) Se demander « qu'est-ce que ce geste touche d'autre? » avant d'agir
+   c) Éviter complètement l'immobilier
+   d) Apprendre par cœur les formules de pointage de crédit
+
+**5. Corrigé**
+1. c
+2. Faux
+3. b
+4. b
+
+**6. Réponses et explications**
+1. L'épicerie préférée n'a aucun lien financier direct avec l'achat d'une maison; les trois autres sont des pièces directement touchées.
+2. L'équité d'une maison n'est pas liquide. Pour la transformer en argent dépensable, il faut vendre la propriété ou emprunter dessus (par exemple avec une marge de crédit hypothécaire, vue plus loin dans ce niveau), et les deux options prennent du temps et comportent leurs propres coûts et risques.
+3. Maria a compris qu'un petit coussin de liquidités après la mise de fonds l'exposait financièrement; elle a donc choisi de renforcer cette pièce avant d'avancer — un exemple où l'on place ses décisions dans le bon ordre au lieu de réagir seulement au prix affiché.
+4. Cette leçon ne porte pas d'abord sur les calculs hypothécaires. Elle vise à bâtir l'habitude de suivre une seule décision à travers plusieurs aspects financiers à la fois, ce qui est la base de la compétence de niveau 2.
+
+**7. Points clés à retenir**
+- Une décision immobilière n'est jamais isolée : elle touche en même temps le flux de trésorerie, le crédit, les liquidités, la valeur nette et souvent les impôts.
+- Aucun de ces effets n'est automatiquement positif ou négatif; ce sont simplement des pièces qui bougent maintenant autrement.
+- Bâtir un coussin de liquidités avant un gros achat te protège contre le fait d'être financièrement à découvert à cause d'un seul geste.
+- Penser au niveau 2, c'est se demander systématiquement « qu'est-ce que ça touche d'autre? » avant de prendre une décision financière — une habitude qui s'appliquera à chaque couleur de ce programme.
+
+===== RED-L2-002
+TITLE: Comparer les voies de financement : prêts conventionnels, FHA et VA
+SUMMARY: Compare la mise de fonds, l'assurance prêt hypothécaire et l'admissibilité de trois types de prêts américains, et vois pourquoi le taux affiché ne dit pas tout.
+## RED-L2-002
+### Comparer les voies de financement : prêts conventionnels, FHA et VA
+
+**1. Objectifs d'apprentissage**
+À la fin de cette leçon, tu pourras :
+- Décrire la structure de base et le but des prêts conventionnels, FHA et VA.
+- Comparer en quoi la mise de fonds, l'assurance prêt hypothécaire et les critères d'admissibilité diffèrent entre ces trois voies.
+- Expliquer comment le choix d'une voie de financement change d'autres pièces sur l'échiquier, comme le flux de trésorerie mensuel et le coût à long terme.
+
+**2. Contenu principal**
+Les prêts hypothécaires ne sont pas tous bâtis de la même façon, et la voie de financement choisie par un acheteur touche bien plus que le taux d'intérêt. Aux États-Unis, trois voies courantes sont les prêts conventionnels, les prêts FHA et les prêts VA. Cette leçon est éducative; ce n'est pas une recommandation d'un prêt ou d'un prêteur précis. La bonne voie dépend de l'admissibilité, des objectifs et de la situation de chaque personne.
+
+*Les prêts conventionnels* ne sont pas garantis par un organisme gouvernemental. Ils sont offerts par des prêteurs privés et suivent en général des normes de souscription fixées par des entités parrainées par le gouvernement qui rachètent une grande partie de ces prêts sur le marché secondaire. La mise de fonds peut varier beaucoup et, si elle est sous un certain seuil, le prêteur exige habituellement une assurance prêt hypothécaire privée (PMI) pour se protéger contre le risque de défaut. On peut souvent faire retirer la PMI plus tard, une fois qu'assez d'équité a été accumulée.
+
+*Les prêts FHA* sont assurés par la Federal Housing Administration. Ils visent à élargir l'accès à la propriété, en permettant souvent une mise de fonds plus basse et des exigences de crédit plus souples que les prêts conventionnels. En échange, les prêts FHA exigent généralement des primes d'assurance prêt hypothécaire (MIP) qui, selon les conditions du prêt, peuvent durer toute la vie du prêt au lieu de pouvoir être retirées une fois un certain seuil d'équité atteint.
+
+*Les prêts VA* sont offerts aux anciens combattants admissibles, aux militaires en service actif et à certains conjoints survivants, avec la garantie du département américain des Anciens Combattants (Department of Veterans Affairs). Une caractéristique clé : bien des prêts VA permettent aux emprunteurs admissibles d'acheter sans aucune mise de fonds, et ils n'exigent habituellement pas d'assurance prêt hypothécaire mensuelle — mais ils comportent généralement des frais de financement uniques, qui peuvent eux-mêmes varier selon des facteurs comme le montant de la mise de fonds et l'utilisation antérieure d'un prêt VA.
+
+C'est ici qu'entre en jeu la pensée de niveau 2 : le « meilleur » prêt n'est pas celui qui a le taux affiché le plus bas. C'est celui dont l'ensemble des effets — paiement mensuel, assurance prêt hypothécaire, frais de financement, restrictions d'admissibilité et coût à long terme — correspond à la situation réelle de l'emprunteur. Un ancien combattant admissible à un prêt VA qui choisit plutôt un prêt conventionnel avec PMI paie peut-être pour une protection d'assurance dont il n'avait pas besoin. Un acheteur civil qui n'a pas beaucoup économisé pour la mise de fonds peut découvrir qu'un prêt FHA lui ouvre une porte qu'un prêt conventionnel aurait gardée fermée, même si la voie FHA peut coûter plus cher en assurance prêt hypothécaire avec le temps.
+
+**3. Exemple pratique**
+James, un ancien combattant, et sa voisine Carla, une civile, achètent chacun une maison de 300 000 $.
+
+James est admissible à un prêt VA : aucune mise de fonds exigée, aucune assurance prêt hypothécaire mensuelle, mais des frais de financement uniques ajoutés au prêt. Son paiement mensuel se compose presque entièrement de capital, d'intérêts, de taxes et d'assurance habitation — sans ligne de MIP ou de PMI en plus.
+
+Carla verse une mise de fonds de 5 % sur un prêt conventionnel. Comme sa mise de fonds est sous le seuil qui permet d'éviter la PMI, son prêteur ajoute des frais mensuels de PMI en plus du capital, des intérêts, des taxes et de l'assurance. Elle pourra faire retirer cette PMI plus tard, quand son équité dépassera le seuil exigé, mais d'ici là, c'est un coût mensuel de plus.
+
+Aucun des deux prêts n'est « meilleur » dans l'absolu. James a utilisé un avantage lié à son service; Carla n'a pas accès à cette voie, mais elle a trouvé sa propre façon d'acheter avec une mise de fonds modeste. Le point de niveau 2, c'est que les deux ont fait un choix éclairé en comparant le coût mensuel total et la structure à long terme — pas seulement le taux d'intérêt affiché.
+
+**4. Quiz de pratique**
+1. Quel type de prêt est habituellement garanti par le département américain des Anciens Combattants?
+   a) Conventionnel
+   b) FHA
+   c) VA
+   d) Aucun de ces prêts n'est garanti par le gouvernement
+
+2. À quoi la PMI est-elle généralement associée?
+   a) Uniquement aux prêts FHA
+   b) Aux prêts conventionnels avec une petite mise de fonds
+   c) Aux prêts VA sans mise de fonds
+   d) À tous les prêts hypothécaires, peu importe le type
+
+3. Vrai ou faux : Le « meilleur » type de prêt est toujours celui qui a le taux d'intérêt affiché le plus bas.
+
+4. Pourquoi un prêt conventionnel avec PMI peut-il quand même avoir du sens pour certains acheteurs, même si la PMI est un coût de plus?
+   a) La PMI disparaît toujours automatiquement après un an
+   b) C'est peut-être la voie accessible pour eux, compte tenu de leur mise de fonds et de leur profil de crédit
+   c) La PMI fait baisser le taux d'intérêt
+   d) La loi l'exige pour tous les acheteurs
+
+**5. Corrigé**
+1. c
+2. b
+3. Faux
+4. b
+
+**6. Réponses et explications**
+1. Les prêts VA sont garantis par le département des Anciens Combattants et offerts aux anciens combattants, aux militaires et à certains conjoints survivants admissibles.
+2. La PMI est généralement liée aux prêts conventionnels quand la mise de fonds est sous un seuil donné; les prêts FHA utilisent une autre structure d'assurance (la MIP), et bien des prêts VA n'exigent ni l'une ni l'autre.
+3. Le portrait complet — assurance prêt hypothécaire, frais de financement, admissibilité et coût à long terme — compte plus que le taux affiché à lui seul.
+4. Pour un acheteur qui n'a pas accès aux avantages VA ni à une grosse mise de fonds, un prêt conventionnel avec PMI peut quand même être la voie la plus réaliste vers la propriété, malgré le coût mensuel ajouté.
+
+**7. Points clés à retenir**
+- Les prêts conventionnels, FHA et VA diffèrent par la mise de fonds exigée, la structure de l'assurance prêt hypothécaire et l'admissibilité.
+- Les prêts VA permettent souvent aux emprunteurs admissibles d'acheter sans mise de fonds et sans assurance prêt hypothécaire mensuelle, mais ils comportent habituellement des frais de financement.
+- Les prêts FHA élargissent l'accès avec des exigences plus souples, mais ils comportent souvent une assurance prêt hypothécaire qui dure longtemps.
+- Comparer les voies de financement, c'est regarder toute la structure des coûts mensuels et à long terme, pas seulement le taux d'intérêt — une application directe de « qu'est-ce que ce geste touche d'autre? ».
+
+===== RED-L2-003
+TITLE: Le seuil de 5 logements : là où le résidentiel devient commercial
+SUMMARY: Vois comment le passage de 1 à 4 logements à 5 logements ou plus change à la fois le financement, la méthode d'évaluation et la gestion d'un immeuble.
+## RED-L2-003
+### Le seuil de 5 logements : là où le résidentiel devient commercial
+
+**1. Objectifs d'apprentissage**
+À la fin de cette leçon, tu pourras :
+- Expliquer l'importance générale de la ligne entre les immeubles résidentiels de 1 à 4 logements et ceux de 5 logements ou plus dans le financement immobilier américain.
+- Décrire comment le fait de franchir ce seuil change les options de financement, les méthodes d'évaluation et les attentes de gestion.
+- Reconnaître que ce seuil dépend de la juridiction et du prêteur, et qu'il n'est pas une règle universelle.
+
+**2. Contenu principal**
+Dans une grande partie du monde du financement immobilier aux États-Unis, les immeubles de un à quatre logements sont généralement traités comme « résidentiels » aux fins du prêt, même quand on les achète comme placement. Dès qu'un immeuble atteint cinq logements ou plus, il passe habituellement dans la catégorie de l'immobilier « commercial ». C'est une RÈGLE PROPRE À UNE RÉGION liée aux pratiques de prêt courantes aux États-Unis; d'autres pays, et même certains prêteurs américains, peuvent tracer ces lignes autrement. Vérifie donc toujours auprès d'un professionnel autorisé, avec des renseignements à jour, avant de considérer cette règle comme fixe.
+
+Pourquoi ce seuil est-il si important? Parce qu'il change plusieurs pièces à la fois :
+
+*Financement.* Les prêts résidentiels (1 à 4 logements) suivent souvent une souscription normalisée, peuvent parfois donner accès à des programmes pour propriétaires-occupants (y compris certaines voies FHA et VA si l'acheteur habite un des logements) et sont souvent évalués surtout selon le revenu personnel et le crédit de l'acheteur. Les prêts commerciaux (5 logements ou plus) sont habituellement évalués davantage selon le potentiel de revenus de l'immeuble lui-même, exigent souvent une plus grosse mise de fonds, peuvent avoir des structures d'amortissement différentes et comportent en général des taux d'intérêt différents (parfois plus élevés).
+
+*Évaluation.* Un immeuble de 1 à 4 logements est couramment évalué à l'aide de ventes comparables, c'est-à-dire le prix auquel des immeubles semblables du secteur se sont vendus récemment. Un immeuble de 5 logements ou plus est plus souvent évalué selon la méthode du revenu, qui regarde le revenu net d'exploitation de l'immeuble et applique un taux de capitalisation (une notion présentée plus loin dans ce niveau) pour estimer sa valeur. La valeur d'un immeuble commercial est donc liée plus directement à sa performance financière, pas seulement à ce qui se passe sur le marché autour.
+
+*Complexité de gestion.* Quand un immeuble atteint cette taille, les obligations de gestion, d'entretien et de conformité augmentent habituellement, et les prêteurs peuvent exiger que l'emprunteur démontre une expérience pertinente ou qu'il embauche une firme de gestion immobilière professionnelle.
+
+Ce seuil est un exemple clair de pensée « pièces d'échecs » : ce n'est pas une seule règle, mais une ligne de partage qui transforme en même temps les pièces du financement, de l'évaluation et de la gestion dès qu'un acheteur la franchit. Un acheteur à l'aise de gérer un duplex ne devrait pas supposer que cette aisance se transfère automatiquement à un immeuble de 12 logements, parce que les règles de base du jeu ont changé.
+
+**3. Exemple pratique**
+Devon possède un immeuble résidentiel de 4 logements financé par un prêt hypothécaire résidentiel standard, accordé en partie selon son revenu personnel. Il envisage maintenant d'acheter un immeuble de 6 logements tout près.
+
+Avant de supposer que le processus sera semblable, Devon cherche ce qui change :
+- Financement : l'immeuble de 6 logements exigera probablement un prêt commercial, évalué en bonne partie selon le revenu net d'exploitation de l'immeuble plutôt que surtout selon son revenu personnel.
+- Évaluation : au lieu de comparer les ventes récentes d'immeubles semblables, le prêteur examinera de près le relevé des loyers, les dépenses et le revenu qui en résulte pour estimer la valeur.
+- Mise de fonds : les prêts commerciaux exigent souvent un pourcentage de mise de fonds plus élevé que son prêt résidentiel.
+- Gestion : avec plus de logements, la gestion informelle par lui-même devient plus difficile à maintenir; Devon commence donc à chercher le coût d'une gestion immobilière et l'inclut dans son analyse, au lieu de traiter la gestion comme si elle était gratuite.
+
+Devon ne conclut pas que l'immeuble de 6 logements est automatiquement meilleur ou pire que son 4 logements. Il conclut qu'il joue maintenant une version vraiment différente du même jeu et qu'il a besoin de nouveaux renseignements — vérifiés auprès d'un prêteur commercial et d'un professionnel qualifié — avant d'aller plus loin.
+
+**4. Quiz de pratique**
+1. Dans la pratique courante du prêt aux États-Unis, quel est généralement le nombre maximal de logements pour qu'un immeuble soit encore classé « résidentiel » aux fins du financement?
+   a) 2
+   b) 4
+   c) 6
+   d) 10
+
+2. Quelle méthode d'évaluation est plus souvent utilisée pour les immeubles commerciaux de 5 logements ou plus?
+   a) Les ventes comparables seulement
+   b) La méthode du revenu, fondée sur le revenu net d'exploitation et le taux de capitalisation
+   c) Le coût de remplacement seulement
+   d) Il n'existe aucune méthode d'évaluation pour l'immobilier commercial
+
+3. Vrai ou faux : Le seuil de 1 à 4 logements par rapport à 5 logements ou plus est une règle universelle et immuable qui s'applique de la même façon partout.
+
+4. Quelle est la principale leçon de niveau 2 tirée de l'exemple de Devon?
+   a) Les gros immeubles sont toujours un mauvais placement
+   b) Franchir le seuil de logements change en même temps le financement, l'évaluation et la gestion
+   c) Les prêts commerciaux coûtent toujours moins cher que les prêts résidentiels
+   d) La gestion immobilière n'est jamais nécessaire au-delà de 4 logements
+
+**5. Corrigé**
+1. b
+2. b
+3. Faux
+4. b
+
+**6. Réponses et explications**
+1. Quatre logements est le plafond le plus souvent cité pour la classification résidentielle dans les pratiques de prêt américaines; cinq logements ou plus font habituellement passer un immeuble au traitement commercial.
+2. Les immeubles commerciaux sont plus souvent évalués selon la méthode du revenu, puisque leur valeur est étroitement liée aux revenus qu'ils génèrent.
+3. C'est explicitement une RÈGLE PROPRE À UNE RÉGION qui peut varier selon le prêteur et la juridiction; confirme toujours les règles à jour avec un professionnel autorisé.
+4. L'exemple de Devon montre que ce seuil n'est pas une règle isolée : il transforme d'un coup les exigences de financement, d'évaluation et de gestion.
+
+**7. Points clés à retenir**
+- Dans la pratique courante du prêt aux États-Unis, de 1 à 4 logements, c'est généralement du résidentiel, et 5 logements ou plus, du commercial, aux fins du financement.
+- Franchir ce seuil change ensemble la structure du financement, la méthode d'évaluation, la mise de fonds attendue et la complexité de la gestion.
+- C'est une pratique qui dépend de la juridiction et du prêteur, pas une loi universelle fixe; vérifie toujours les règles à jour avec un professionnel qualifié.
+- Reconnaître des seuils comme celui-ci est une compétence de base du niveau 2 : certaines lignes financières changent plusieurs pièces de l'échiquier à la fois.
+
+===== RED-L2-004
+TITLE: Le financement créatif I : les bases du financement par le vendeur
+SUMMARY: Apprends comment fonctionne le financement par le vendeur, ce qu'il offre à l'acheteur et au vendeur, et pourquoi un avocat est essentiel des deux côtés.
+## RED-L2-004
+### Le financement créatif I : les bases du financement par le vendeur
+
+**1. Objectifs d'apprentissage**
+À la fin de cette leçon, tu pourras :
+- Définir le financement par le vendeur et expliquer en quoi il diffère d'un prêt hypothécaire bancaire traditionnel.
+- Nommer les avantages et les risques possibles du financement par le vendeur, pour l'acheteur comme pour le vendeur.
+- Expliquer comment le financement par le vendeur interagit avec d'autres pièces, comme le titre de propriété, le taux d'intérêt et la documentation juridique.
+
+**2. Contenu principal**
+La plupart des achats immobiliers passent par une banque ou un prêteur hypothécaire placé entre l'acheteur et le vendeur. Le financement par le vendeur retire cette pièce du milieu : c'est le vendeur lui-même qui agit comme prêteur et qui permet à l'acheteur de lui faire des paiements directement, au fil du temps, selon des conditions convenues, à la place d'un prêt hypothécaire traditionnel ou en plus de celui-ci.
+
+C'est une forme de « financement créatif », une catégorie de structures de financement qui sortent du cadre d'un prêt hypothécaire bancaire standard. Le financement par le vendeur peut prendre différentes formes, comme un « contrat de vente à tempérament » (*land contract* ou *contract for deed*) dans certaines juridictions, mais les structures juridiques exactes et le vocabulaire varient d'un endroit à l'autre — une autre RÈGLE PROPRE À UNE RÉGION qui exige l'examen d'un avocat en droit immobilier local.
+
+Pourquoi un vendeur accepterait-il ça? Les raisons varient : il peut vouloir étaler l'impact fiscal d'une vente sur plusieurs années, préférer toucher des intérêts sur le solde au lieu de recevoir tout l'argent d'un coup, ou vendre une propriété qui aurait de la difficulté à se qualifier pour un financement traditionnel (par exemple, une propriété qui a besoin de grosses réparations).
+
+Pourquoi un acheteur voudrait-il ça? Un acheteur qui a un accès limité au financement traditionnel, une situation de revenu inhabituelle ou une bonne relation avec le vendeur peut trouver dans le financement par le vendeur une des rares voies qui s'offrent à lui. Selon l'entente, ça peut aussi comporter moins des obstacles de qualification normalisés qu'une banque imposerait.
+
+Mais cette pièce interagit avec plusieurs autres. Le taux d'intérêt, la durée et la mise de fonds sont négociés en privé; ils peuvent donc être plus ou moins avantageux qu'un prêt bancaire, selon la façon dont l'entente est structurée. Les protections juridiques diffèrent : sans une entente bien rédigée et enregistrée, le droit de propriété de l'acheteur pourrait être moins solide qu'avec un acte de vente et un prêt hypothécaire standards. De son côté, le vendeur prend le risque que l'acheteur ne paie plus, et le processus pour reprendre la propriété dans ce cas est régi par les lois de l'État et les lois locales, qui varient beaucoup.
+
+Le financement par le vendeur n'est ni plus sûr ni plus risqué en soi qu'un prêt hypothécaire bancaire. C'est une structure différente, avec un ensemble différent de pièces qui interagissent, et qui exige la participation d'un avocat en droit immobilier qualifié pour être faite en toute sécurité des deux côtés.
+
+**3. Exemple pratique**
+Priya veut vendre un petit immeuble locatif qui a besoin d'une nouvelle toiture, ce qui rend difficile pour un acheteur d'obtenir un prêt hypothécaire conventionnel tant que la réparation n'est pas faite. Tomas veut l'acheter, mais il n'a pas l'argent pour la réparation ni un dossier de crédit assez solide pour un prêt conventionnel en ce moment.
+
+Priya et Tomas, chacun représenté par son propre avocat, s'entendent sur un financement par le vendeur : Tomas verse une mise de fonds modeste et fait des paiements mensuels directement à Priya pendant cinq ans, à un taux d'intérêt convenu, et le solde restant au complet est payable à la fin de la période (ce qu'on appelle parfois un « paiement ballon »). L'entente est correctement rédigée et enregistrée selon les exigences de leur État.
+
+Cette structure change les pièces en jeu : au lieu des normes de souscription d'une banque, Tomas et Priya ont négocié leurs propres conditions. Au lieu d'une assurance prêt hypothécaire mensuelle, Priya assume elle-même le risque de crédit, en échange de revenus d'intérêts et de la possibilité de vendre la propriété dans son état actuel. Les deux parties comprenaient qu'au bout de cinq ans, Tomas aurait besoin d'un plan — probablement un refinancement avec un prêt hypothécaire traditionnel — pour faire le paiement ballon, et ils ont intégré cette attente dans l'entente dès le départ.
+
+**4. Quiz de pratique**
+1. Dans le financement par le vendeur, qui agit comme prêteur?
+   a) Une banque traditionnelle
+   b) Le vendeur de la propriété
+   c) Le gouvernement
+   d) Seulement une caisse ou coopérative de crédit
+
+2. Qu'est-ce qu'un « paiement ballon » dans ce contexte?
+   a) Un paiement mensuel qui change avec l'inflation
+   b) Un gros solde restant payable à la fin de la durée du prêt
+   c) Un type d'assurance habitation
+   d) Une subvention gouvernementale
+
+3. Vrai ou faux : Les conditions d'un financement par le vendeur, comme le taux d'intérêt et la mise de fonds, sont normalisées et identiques partout.
+
+4. Pourquoi un avocat en droit immobilier qualifié est-il important dans une entente de financement par le vendeur?
+   a) Les avocats ne sont nécessaires que pour les prêts bancaires
+   b) Pour aider à bien rédiger et enregistrer l'entente, puisque les structures et protections juridiques varient selon la juridiction
+   c) Les avocats fixent le taux d'intérêt selon la loi
+   d) Ils ne sont pas nécessaires puisqu'aucune banque n'est impliquée
+
+**5. Corrigé**
+1. b
+2. b
+3. Faux
+4. b
+
+**6. Réponses et explications**
+1. Dans le financement par le vendeur, le vendeur prend le rôle du prêteur et reçoit les paiements directement de l'acheteur.
+2. Un paiement ballon est une grosse somme forfaitaire payable à la fin de la période convenue, courante dans bien des ententes de financement par le vendeur.
+3. Les conditions du financement par le vendeur sont négociées en privé et varient beaucoup d'une entente à l'autre et d'une juridiction à l'autre.
+4. Comme les structures juridiques, les exigences d'enregistrement et les protections de l'acheteur et du vendeur varient selon l'endroit, un avocat qualifié aide à s'assurer que l'entente est exécutoire et juste pour les deux parties.
+
+**7. Points clés à retenir**
+- Le financement par le vendeur remplace le prêteur bancaire par le vendeur de la propriété, qui reçoit les paiements directement de l'acheteur.
+- Il peut ouvrir des portes aux acheteurs ou aux vendeurs qui ne correspondent pas aux critères bancaires standards, mais il déplace le risque et exige une structure juridique soignée.
+- Les conditions comme le taux d'intérêt, la mise de fonds et les paiements ballons sont négociées en privé et varient beaucoup.
+- Un avocat en droit immobilier qualifié est essentiel des deux côtés, puisque les protections et les structures juridiques dépendent de la juridiction.
+
+===== RED-L2-005
+TITLE: Le financement créatif II : l'option d'achat et l'achat « subject-to »
+SUMMARY: Compare l'option d'achat et l'achat « subject-to » au financement par le vendeur, en termes de risque, de contrôle et de complexité juridique.
+## RED-L2-005
+### Le financement créatif II : l'option d'achat et l'achat « subject-to »
+
+**1. Objectifs d'apprentissage**
+À la fin de cette leçon, tu pourras :
+- Expliquer comment fonctionne une location avec option d'achat et en quoi elle diffère d'un bail ordinaire.
+- Décrire le concept de base d'un achat « subject-to » (sous réserve du prêt existant) et les risques qu'il comporte pour les deux parties.
+- Comparer ces structures au financement par le vendeur sur le plan du risque, du contrôle et de la complexité juridique.
+
+**2. Contenu principal**
+Dans la suite du financement par le vendeur, deux autres structures de financement créatif sont la location avec option d'achat et l'achat « subject-to ». Les deux sont plus complexes et plus risquées que les structures vues jusqu'ici, et les deux exigent un examen juridique attentif avant d'être utilisées.
+
+Une *location avec option d'achat* combine un bail ordinaire avec une entente distincte qui donne au locataire le droit — mais pas l'obligation — d'acheter la propriété plus tard, habituellement à un prix fixé d'avance, en échange de « frais d'option » payés au départ. Selon l'entente, une partie du loyer mensuel peut aussi être créditée sur une future mise de fonds. Ça donne à un acheteur potentiel le temps d'améliorer son crédit, d'économiser ou simplement de « faire l'essai » de la propriété, tandis que le vendeur reçoit un revenu de location et a un acheteur potentiel engagé.
+
+Un *achat « subject-to »* est une structure plus avancée et plus délicate sur le plan juridique. Dans cet arrangement, l'acheteur devient propriétaire alors que le prêt hypothécaire existant du vendeur reste en place, au nom du vendeur : l'acheteur fait les paiements « sous réserve » (*subject to*) de ce prêt existant au lieu d'en obtenir un nouveau. Ça peut permettre d'acquérir une propriété sans se qualifier pour un nouveau financement, mais ça crée un vrai risque : la plupart des prêts hypothécaires contiennent une clause d'exigibilité en cas de vente (*due-on-sale*), qui peut, dans certaines conditions, permettre au prêteur d'exiger le remboursement complet du prêt si la propriété change de mains sans son approbation. Que ce risque se concrétise ou non, et de quelle façon, dépend beaucoup du prêt, du prêteur et de la juridiction; c'est donc une structure qui exige absolument l'examen d'un avocat en droit immobilier avant d'être utilisée.
+
+Les comparer au financement par le vendeur aide à clarifier les pièces en jeu :
+
+- Financement par le vendeur : le vendeur détient et administre directement un nouveau prêt consenti à l'acheteur.
+- Location avec option d'achat : le vendeur reste propriétaire et garde son prêt hypothécaire existant; le locataire a un droit futur d'acheter, pas encore un droit de propriété.
+- Subject-to : l'acheteur devient propriétaire tout de suite, mais le prêt sous-jacent reste, sur papier, l'obligation du vendeur, ce qui crée le risque lié à la clause d'exigibilité en cas de vente.
+
+Aucune de ces structures n'est un raccourci pour éviter les responsabilités financières normales. Chacune est un arrangement différent du risque, du contrôle et du moment entre les deux mêmes parties, et chacune déplace plusieurs pièces — la propriété, la responsabilité du financement et l'exposition juridique — de façon différente.
+
+**3. Exemple pratique**
+Prends deux acheteurs différents, Nia et Marcus, qui explorent des voies créatives dans le même quartier.
+
+Nia signe une location avec option d'achat pour une maison : elle paie des frais d'option et un loyer pendant deux ans, et une partie de son loyer est créditée sur une future mise de fonds, pendant qu'elle travaille à améliorer son crédit. Elle n'est pas encore propriétaire; elle a le droit d'acheter la maison plus tard à un prix convenu d'avance. Si elle décide de ne pas exercer l'option, elle perd généralement les frais d'option, et peut-être certains crédits de loyer, selon l'entente.
+
+Marcus conclut un achat subject-to pour une autre maison : il prend en charge les paiements du prêt hypothécaire existant du vendeur et devient propriétaire, mais le prêt reste au nom du vendeur. Avant de signer quoi que ce soit, Marcus et le vendeur consultent chacun un avocat en droit immobilier pour comprendre le risque lié à la clause d'exigibilité en cas de vente et pour bien documenter la transaction, y compris la façon dont les paiements et les responsabilités futures seront gérés et divulgués.
+
+La structure de Nia retarde la propriété, mais limite son risque aux frais d'option et aux crédits de loyer. Celle de Marcus le rend propriétaire plus vite, mais l'expose — lui et le vendeur — à plus de complexité juridique et à des risques liés au prêteur. Aucune des deux voies n'est bonne ou mauvaise dans l'absolu; chacune convient à une situation, à une tolérance au risque et à un contexte juridique différents.
+
+**4. Quiz de pratique**
+1. Dans une location avec option d'achat, qu'est-ce que le locataire reçoit habituellement?
+   a) La propriété immédiate de la maison
+   b) Le droit, mais pas l'obligation, d'acheter plus tard
+   c) Un prêt hypothécaire garanti par une banque
+   d) Le plein titre de propriété dès le premier jour
+
+2. Quel est un risque clé associé précisément aux achats « subject-to »?
+   a) Des hausses de loyer
+   b) Une clause d'exigibilité en cas de vente qui pourrait permettre au prêteur d'exiger le remboursement complet
+   c) Des taxes foncières qui doublent automatiquement
+   d) Il n'y a aucun risque de plus par rapport à un achat normal
+
+3. Vrai ou faux : Dans un achat subject-to, le prêt hypothécaire d'origine est transféré au nom du nouvel acheteur.
+
+4. Qu'ont en commun la location avec option d'achat et l'achat subject-to, selon cette leçon?
+   a) Les deux donnent à l'acheteur la pleine propriété tout de suite
+   b) Les deux déplacent le risque, le contrôle et le moment entre l'acheteur et le vendeur, et exigent un examen juridique
+   c) Les deux éliminent le besoin de toute documentation juridique
+   d) Les deux ne sont utilisés que par les premiers acheteurs
+
+**5. Corrigé**
+1. b
+2. b
+3. Faux
+4. b
+
+**6. Réponses et explications**
+1. Une location avec option d'achat donne au locataire un droit facultatif d'acheter plus tard, pas la propriété immédiate.
+2. La clause d'exigibilité en cas de vente est le risque juridique central des transactions subject-to, puisqu'elle peut permettre à un prêteur d'exiger le remboursement du prêt quand la propriété change de mains, dans certaines conditions.
+3. Dans un achat subject-to, le prêt hypothécaire existant reste au nom du vendeur; l'acheteur fait les paiements sans prendre officiellement le prêt à sa charge ni le refinancer.
+4. Les deux structures réorganisent qui détient la propriété, la responsabilité du financement et le risque, et les deux exigent un examen juridique attentif vu leur complexité.
+
+**7. Points clés à retenir**
+- Une location avec option d'achat donne au locataire un droit futur d'acheter, avec parfois une partie du loyer créditée sur une future mise de fonds.
+- Un achat subject-to transfère la propriété tout de suite, alors que le prêt hypothécaire d'origine reste au nom du vendeur, ce qui crée un risque lié à la clause d'exigibilité en cas de vente.
+- Ces structures sont plus complexes qu'un achat standard, et même que le financement par le vendeur; les deux exigent l'examen d'un avocat en droit immobilier qualifié.
+- Le financement créatif est un éventail de compromis entre le risque, le contrôle et le moment — pas une technique unique, et pas un raccourci pour éviter la vérification diligente.
+
+===== RED-L2-006
+TITLE: Flux de trésorerie ou plus-value : deux objectifs, une propriété
+SUMMARY: Distingue l'investissement axé sur le flux de trésorerie de celui axé sur la plus-value, et apprends à reconnaître quel objectif une propriété sert vraiment.
+## RED-L2-006
+### Flux de trésorerie ou plus-value : deux objectifs, une propriété
+
+**1. Objectifs d'apprentissage**
+À la fin de cette leçon, tu pourras :
+- Faire la différence entre l'investissement axé sur le flux de trésorerie et l'investissement axé sur la plus-value.
+- Expliquer comment ces deux objectifs peuvent orienter le choix d'une propriété dans des directions différentes.
+- Reconnaître comment une propriété peut servir les deux objectifs dans des proportions différentes.
+
+**2. Contenu principal**
+Les investisseurs immobiliers visent généralement un de deux résultats, souvent dans un certain mélange : le flux de trésorerie mensuel (des revenus de location plus élevés que toutes les dépenses) ou la plus-value (la hausse de la valeur de la propriété avec le temps). Ces objectifs ne sont pas opposés, mais ils mènent souvent vers des types de propriétés différents.
+
+Une propriété qui produit un bon flux de trésorerie mensuel — souvent dans des marchés moins chers où le rapport loyer-prix est élevé — peut prendre de la valeur plus lentement. Une propriété dans un secteur en forte croissance et très en demande peut prendre de la valeur rapidement, mais produire un flux de trésorerie mince, ou même négatif, au moment de l'achat; l'investisseur parie alors sur la valeur future et la hausse des loyers plutôt que sur un revenu immédiat.
+
+Aucun des deux objectifs n'est supérieur en soi; ils répondent à des situations différentes. Un investisseur qui a besoin d'un revenu d'appoint maintenant penche vers le flux de trésorerie. Un investisseur qui a un long horizon et d'autres sources de revenus peut accepter un flux de trésorerie plus mince en échange d'un potentiel de plus-value. Penser au niveau 2, c'est reconnaître quel objectif une propriété sert réellement — et ne pas supposer qu'une propriété est bonne simplement parce qu'*un* chiffre sur papier a l'air attrayant.
+
+**3. Exemple pratique**
+Elena compare deux propriétés locatives. La propriété A, dans un marché modeste du Midwest américain, se loue 1 800 $ par mois pour un prix d'achat de 210 000 $, ce qui produit un bon flux de trésorerie mensuel après les dépenses. La propriété B, dans une banlieue côtière en pleine croissance, se loue 2 400 $ par mois pour un prix d'achat de 480 000 $; le flux de trésorerie est à peu près nul après les dépenses, mais le secteur a connu une forte hausse des prix depuis dix ans.
+
+Elena est à 15 ans de la retraite et veut un revenu d'appoint mensuel dès maintenant. Elle choisit la propriété A. Son collègue Sam, qui investit des capitaux excédentaires avec un horizon de 25 ans, choisit la propriété B, en mettant la priorité sur la croissance de l'équité à long terme plutôt que sur un revenu immédiat. Les deux choix sont raisonnables — pour des objectifs différents.
+
+**4. Quiz de pratique**
+1. À quoi l'investissement axé sur le flux de trésorerie donne-t-il la priorité?
+   a) Seulement à la plus-value à long terme
+   b) Aux revenus de location mensuels plus élevés que les dépenses
+   c) À l'absence totale de risque
+   d) Aux subventions gouvernementales
+2. Une propriété dans un secteur en forte croissance, avec un flux de trésorerie mensuel mince, est probablement achetée pour :
+   a) Un revenu immédiat
+   b) Son potentiel de plus-value
+   c) Des pénalités fiscales
+   d) Aucune de ces réponses
+3. Vrai ou faux : Les objectifs de flux de trésorerie et de plus-value mènent toujours exactement à la même propriété.
+4. Pourquoi Elena a-t-elle choisi la propriété A plutôt que la propriété B?
+   a) Elle prenait de la valeur plus vite
+   b) Elle répondait à son besoin de revenu à court terme
+   c) Elle ne comportait aucun risque
+   d) Son prêteur la lui avait recommandée
+
+**5. Corrigé**
+1. b  2. b  3. Faux  4. b
+
+**6. Réponses et explications**
+1. L'investissement axé sur le flux de trésorerie mise sur des revenus mensuels plus élevés que les dépenses.
+2. Un flux de trésorerie mince combiné à un fort potentiel de croissance indique habituellement une stratégie axée sur la plus-value.
+3. Ces objectifs mènent souvent à des types de propriétés et à des marchés différents, même si une propriété peut offrir un peu des deux.
+4. Le besoin de revenu à court terme d'Elena correspondait au profil de flux de trésorerie de la propriété A, pas au profil de croissance de la propriété B.
+
+**7. Points clés à retenir**
+- Le flux de trésorerie et la plus-value sont deux objectifs immobiliers distincts qui favorisent souvent des propriétés différentes.
+- Aucun des deux n'est meilleur en soi : le bon choix dépend de l'horizon de l'investisseur et de ses besoins de revenu.
+- Une propriété peut combiner les deux objectifs dans des proportions différentes.
+- Penser au niveau 2, c'est déterminer quel objectif une propriété sert vraiment avant de l'évaluer.

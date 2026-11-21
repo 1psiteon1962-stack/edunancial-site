@@ -1,0 +1,181 @@
+===== BLUE-L3-037
+TITLE: Warum Unternehmensbonität und private Bonität rechtlich getrennt sind (bis sie es nicht mehr sind)
+SUMMARY: Erfahre, wie die Bonität eines Unternehmens unabhängig von der privaten Bonität funktionieren soll und warum eine persönliche Bürgschaft diese Trennung verwischen kann.
+# BLUE-L3-037: Warum Unternehmensbonität und private Bonität rechtlich getrennt sind (bis sie es nicht mehr sind)
+
+## Lernziele
+Am Ende dieser Lektion kannst du:
+- das allgemeine Konzept einer Unternehmensbonität als etwas von der privaten Bonität Getrenntes erklären
+- erklären, warum eine persönliche Bürgschaft (Lektion 11) diese Trennung verwischt
+- erklären, warum der Aufbau einer eigenständigen Unternehmensbonität Zeit und gezielten Einsatz erfordert
+
+## Hauptinhalt
+
+Die **Unternehmensbonität** bezeichnet grundsätzlich eine Kredithistorie und ein Bonitätsprofil, das dem Unternehmen selbst zugeordnet ist, getrennt von der privaten Kredithistorie und dem Score der Inhaberin oder des Inhabers. In Deutschland führen Wirtschaftsauskunfteien wie Creditreform oder die SCHUFA eigene Auskünfte über Unternehmen, die sich unter anderem auf Handelsregisterdaten, veröffentlichte Jahresabschlüsse und das Zahlungsverhalten stützen. Theoretisch kann ein gut etabliertes Unternehmen mit starker eigener Bonität Finanzierung auf Basis seiner eigenen Erfolgsbilanz erhalten, ohne auf die private Bonität der Inhaberin oder des Inhabers angewiesen zu sein.
+
+Hier das „Warum“, weshalb diese Trennung bei vielen kleinen Unternehmen eher theoretisch als absolut ist: Wie in Lektion 11 behandelt, verlangen Banken bei der Finanzierung kleinerer oder jüngerer Unternehmen sehr häufig eine persönliche Bürgschaft, die die private finanzielle Lage der Inhaberin oder des Inhabers direkt mit den Schulden des Unternehmens verknüpft – egal, wie die Unternehmensbonität formal aufgebaut ist. [VERIFIED FACT] Der Aufbau eines wirklich eigenständigen Bonitätsprofils – so stark, dass Kreditgeber ohne persönliche Bürgschaft Kredit gewähren – braucht in der Regel viel Zeit und gezielten Einsatz: Lieferantenkredite, Geschäftskonten und eine Zahlungshistorie unter dem eigenen Namen des Unternehmens. Selbst dann bevorzugen oder verlangen viele Kreditgeber bei kleineren Unternehmen weiterhin persönliche Bürgschaften.
+
+## Durchgerechnetes Beispiel
+
+[ILLUSTRATIVE EXAMPLE] Ein Inhaber eines jungen Unternehmens möchte eine wirklich eigenständige Unternehmensbonität aufbauen, um irgendwann ohne persönliche Bürgschaft an Finanzierung zu kommen. Er richtet gezielt Lieferantenkonten auf den Namen des Unternehmens ein, achtet darauf, dass Rechnungen pünktlich bezahlt werden, veröffentlicht seine Jahresabschlüsse fristgerecht und baut über mehrere Jahre schrittweise eine Erfolgsbilanz auf. [ASSUMPTION] Selbst nach mehreren Jahren dieses gezielten Einsatzes verlangen manche Kreditgeber für größere Finanzierungen weiterhin eine persönliche Bürgschaft, besonders bei einem Unternehmen seiner Größe. Das zeigt, dass selbst eine gut entwickelte Unternehmensbonität die in Lektion 11 besprochene Bürgschaftsanforderung nicht immer vollständig beseitigt, auch wenn sie die Bedingungen verbessern und die Abhängigkeit davon mit der Zeit verringern kann.
+
+## Übungsquiz
+1. Was bezeichnet die Unternehmensbonität grundsätzlich?
+2. Warum hält die theoretische Trennung zwischen Unternehmensbonität und privater Bonität bei kleineren Unternehmen in der Praxis oft nicht?
+3. Was erfordert der Aufbau einer eigenständigen Unternehmensbonität in der Regel?
+
+## Lösungsschlüssel
+1. Eine Kredithistorie und ein Bonitätsprofil, das dem Unternehmen selbst zugeordnet ist, getrennt von der privaten Kredithistorie der Inhaberin oder des Inhabers.
+2. Weil Kreditgeber bei der Finanzierung kleinerer oder jüngerer Unternehmen sehr häufig eine persönliche Bürgschaft verlangen, die die private finanzielle Lage der Inhaberin oder des Inhabers unabhängig vom Aufbau der Unternehmensbonität direkt mit den Verpflichtungen des Unternehmens verknüpft.
+3. Viel Zeit und gezielten Einsatz, um Lieferantenkredite, Geschäftskonten und eine Zahlungshistorie unter dem eigenen Namen des Unternehmens aufzubauen.
+
+## Antworten und Erklärungen
+1. Das ist die grundlegende Definition dieser Lektion.
+2. Das knüpft direkt an die Diskussion über persönliche Bürgschaften in Lektion 11 an.
+3. Das unterstreicht, dass der Aufbau einer eigenständigen Unternehmensbonität ein gezielter, zeitaufwendiger Prozess ist und nicht automatisch aus der bloßen Gründung einer Gesellschaft folgt.
+
+## Das Wichtigste in Kürze
+- Die Unternehmensbonität ist theoretisch ein eigenes Bonitätsprofil, das dem Unternehmen selbst zugeordnet ist.
+- Persönliche Bürgschaften, die bei Krediten an kleinere Unternehmen üblich sind, verwischen diese Trennung direkt, weil sie die private Lage der Inhaberin oder des Inhabers an die Unternehmensschulden knüpfen.
+- Der Aufbau einer wirklich eigenständigen Unternehmensbonität braucht viel Zeit und gezielten Einsatz und beseitigt Bürgschaftsanforderungen womöglich trotzdem nicht vollständig.
+
+## Hinweis zum Bildungszweck
+Diese Lektion dient ausschließlich der allgemeinen finanziellen Bildung und ist keine individuelle Finanz-, Anlage-, Steuer- oder Rechtsberatung. Lass dich vor Entscheidungen zu Unternehmenskrediten oder Finanzierungen von einer zugelassenen Fachperson beraten.
+
+===== BLUE-L3-038
+TITLE: Warum eine Ausstiegsregelung unter Gesellschaftern existieren sollte, bevor du sie brauchst
+SUMMARY: Erfahre, was eine Ausstiegs- und Nachfolgeregelung (Buy-Sell Agreement) für Mitgesellschafter leistet und warum es viel zu spät ist, sie erst nach einem auslösenden Ereignis zu verhandeln.
+# BLUE-L3-038: Warum eine Ausstiegsregelung unter Gesellschaftern existieren sollte, bevor du sie brauchst
+
+## Lernziele
+Am Ende dieser Lektion kannst du:
+- erklären, wofür eine Ausstiegsregelung (Buy-Sell Agreement) gedacht ist
+- übliche auslösende Ereignisse nennen, die eine solche Regelung vorwegnehmen sollte
+- erklären, warum es wirksamer ist, diese Regelung im Voraus zu verhandeln als nach einem auslösenden Ereignis
+
+## Hauptinhalt
+
+Eine **Ausstiegsregelung** (im Englischen **Buy-Sell Agreement**) ist eine Vereinbarung zwischen Mitgesellschaftern oder Miteigentümern eines Unternehmens, die im Voraus festlegt, was mit dem Anteil eines Gesellschafters geschieht, wenn ein bestimmtes auslösendes Ereignis eintritt – ein Gesellschafter will freiwillig aussteigen, stirbt oder wird berufsunfähig, lässt sich scheiden, oder es kommt zu einem ernsten, unlösbaren Streit zwischen den Gesellschaftern. In Deutschland stehen solche Regelungen meist im Gesellschaftsvertrag oder in einer Gesellschaftervereinbarung, etwa als Vorkaufsrechte, Einziehungs- und Abtretungsklauseln oder Abfindungsregeln; da GmbH-Anteile nach § 15 Abs. 1 GmbHG vererblich sind, regeln sie oft auch, was beim Tod eines Gesellschafters gelten soll.
+
+Hier das „Warum“, weshalb das einem Konzept aus dem RED-Track dieses Lehrplans zu Schulden bei Partnerschaften und Joint Ventures so ähnlich ist: Gesellschafter gründen ein Unternehmen oft mit großem Vertrauen und gleichgerichteten Zielen, doch die Umstände ändern sich mit der Zeit. Ohne vorab getroffene Vereinbarung kann ein auslösendes Ereignis zu ernsten Konflikten führen – Streit darüber, was der Anteil eines ausscheidenden Gesellschafters tatsächlich wert ist, wer das Recht (oder die Pflicht) hat, ihn zu kaufen, und zu welchen Bedingungen.
+
+[VERIFIED FACT] Eine gut formulierte Ausstiegsregelung behandelt in der Regel die Bewertungsmethode (wie das Unternehmen oder der Anteil eines ausscheidenden Gesellschafters bei Eintritt eines Ereignisses bewertet wird), die Finanzierung (wie der Kaufpreis oder die Abfindung tatsächlich bezahlt wird, manchmal einschließlich einer Lebensversicherung gerade für den Todesfall) und das konkrete Verfahren – alles in Ruhe und im Voraus verhandelt, bevor ein tatsächliches Ereignis emotionalen oder finanziellen Druck erzeugt, der faire Verhandlungen viel schwieriger macht.
+
+## Durchgerechnetes Beispiel
+
+[ILLUSTRATIVE EXAMPLE] Zwei Gesellschafter gründen gemeinsam ein Unternehmen, sind eng befreundet und treffen keine förmliche Ausstiegsregelung. Jahre später will einer der beiden aus persönlichen Gründen unerwartet aussteigen. Ohne vorab getroffene Vereinbarung geraten sie in eine schwierige, emotional aufgeladene Verhandlung darüber, was der Anteil des Ausscheidenden tatsächlich wert ist und wie der verbleibende Gesellschafter den Kauf finanzieren soll – ein Streit, der sich ganz hätte vermeiden lassen, wenn sie Jahre zuvor klare Bewertungs- und Finanzierungsregeln in einer Ausstiegsregelung festgelegt hätten, bevor die konkreten Umstände oder Interessen eines der beiden bei dieser Verhandlung auf dem Spiel standen.
+
+## Übungsquiz
+1. Wofür ist eine Ausstiegsregelung gedacht?
+2. Nenne zwei übliche auslösende Ereignisse, die eine Ausstiegsregelung vorwegnehmen sollte.
+3. Warum ist es wirksamer, diese Regelung im Voraus zu verhandeln, als nachdem ein auslösendes Ereignis eingetreten ist?
+
+## Lösungsschlüssel
+1. Dafür, im Voraus unter Mitgesellschaftern oder Miteigentümern festzulegen, was mit dem Anteil eines Gesellschafters geschieht, wenn ein bestimmtes auslösendes Ereignis eintritt.
+2. Zwei beliebige aus: freiwilliger Ausstieg eines Gesellschafters, Tod oder Berufsunfähigkeit eines Gesellschafters, Scheidung oder ein ernster, unlösbarer Streit zwischen den Gesellschaftern.
+3. Weil die Verhandlung im Voraus in Ruhe stattfindet, bevor ein tatsächliches Ereignis emotionalen oder finanziellen Druck erzeugt, der faire Verhandlungen für alle Beteiligten viel schwieriger macht.
+
+## Antworten und Erklärungen
+1. Das ist die grundlegende Definition dieser Lektion.
+2. Das prüft das Verständnis für den praktischen Umfang der Situationen, die diese Regelung abdecken sollte.
+3. Das ist die zentrale praktische Begründung dafür, diese Regelung vorausschauend statt erst im Nachhinein zu treffen.
+
+## Das Wichtigste in Kürze
+- Eine Ausstiegsregelung legt im Voraus fest, was mit dem Anteil eines Gesellschafters geschieht, wenn ein bestimmtes auslösendes Ereignis eintritt.
+- Übliche Auslöser sind der freiwillige Ausstieg eines Gesellschafters, Tod, Berufsunfähigkeit, Scheidung oder ein unlösbarer Streit.
+- Diese Regelung in Ruhe im Voraus zu verhandeln vermeidet die schwierigen Verhandlungen unter Druck, die entstehen, wenn ein Auslöser ohne vorab festgelegten Plan eintritt.
+
+## Hinweis zum Bildungszweck
+Diese Lektion dient ausschließlich der allgemeinen finanziellen Bildung und ist keine individuelle Finanz-, Anlage-, Steuer- oder Rechtsberatung. Lass dich vor der Gestaltung eines Gesellschaftsvertrags oder einer Gesellschaftervereinbarung von einer Rechtsanwältin, einem Rechtsanwalt oder einer Notarin beraten.
+
+===== BLUE-L3-039
+TITLE: Warum eine Keyman-Versicherung ein Unternehmen vor dem Verlust seines wichtigsten Kopfes schützt
+SUMMARY: Erfahre, was eine Keyman-Versicherung (Schlüsselpersonenversicherung) abdeckt und warum manche Unternehmen beim Ausfall einer einzigen entscheidenden Person einem überproportionalen Risiko ausgesetzt sind.
+# BLUE-L3-039: Warum eine Keyman-Versicherung ein Unternehmen vor dem Verlust seines wichtigsten Kopfes schützt
+
+## Lernziele
+Am Ende dieser Lektion kannst du:
+- erklären, wovor eine Keyman-Versicherung schützen soll
+- erklären, warum manche Unternehmen diesem besonderen Risiko besonders stark ausgesetzt sind
+- dieses Konzept mit der Ausstiegsregelung aus Lektion 38 verbinden
+
+## Hauptinhalt
+
+Eine **Keyman-Versicherung** (Schlüsselpersonenversicherung) ist eine Lebens- (oder manchmal Berufsunfähigkeits-)Versicherung, die ein Unternehmen auf eine entscheidende Person im Unternehmen abschließt – oft eine Gründerin, den besten Vertriebsmitarbeiter oder jemanden mit hochspezialisiertem Wissen oder Beziehungen, die sich nur schwer schnell ersetzen ließen. Bezugsberechtigt ist das Unternehmen selbst, falls diese Person stirbt oder berufsunfähig wird. In Deutschland wird sie meist als Risikolebensversicherung gestaltet, bei der das Unternehmen Versicherungsnehmer, Beitragszahler und Bezugsberechtigter ist; wie Beiträge und Leistungen steuerlich behandelt werden, hängt von der konkreten Gestaltung ab und sollte vorab geklärt werden.
+
+Hier das „Warum“, weshalb dieses besondere Risiko eine eigene Absicherung verdient: Manche Unternehmen hängen überproportional von einer einzigen oder wenigen Personen ab – der einzigen Person mit engen Beziehungen zu allen wichtigen Kunden, dem technischen Gründer mit entscheidendem, schwer ersetzbarem Wissen über ein Kernsystem. Der plötzliche, unerwartete Verlust dieser Person kann sowohl eine echte betriebliche Störung als auch eine reale finanzielle Lücke verursachen – genau in dem Moment, in dem das Unternehmen sie am wenigsten verkraften kann.
+
+[VERIFIED FACT] Die Versicherungsleistung soll in der Regel helfen, die finanziellen Folgen dieses Verlusts aufzufangen – die Kosten für die Suche und Einarbeitung eines Ersatzes, entgangene Umsätze während einer Störungsphase oder, direkt anknüpfend an Lektion 38, möglicherweise die Finanzierung einer Kaufpflicht oder Abfindung aus einer Ausstiegsregelung, wenn die Schlüsselperson zugleich Gesellschafterin war und ihr Anteil nach ihrem Tod übernommen werden muss.
+
+## Durchgerechnetes Beispiel
+
+[ILLUSTRATIVE EXAMPLE] Ein kleines Unternehmen ist stark von seiner technischen Gründerin abhängig, die über spezialisiertes Wissen verfügt, das für das Kernprodukt entscheidend ist; derzeit kann kein anderer Mitarbeiter diese Expertise vollständig ersetzen. Das Unternehmen schließt eine Keyman-Versicherung auf die Gründerin ab und setzt sich selbst als Bezugsberechtigten ein. [ASSUMPTION] Verstirbt die Gründerin unerwartet, könnte die Versicherungsleistung dem Unternehmen helfen, die Suche nach einem Ersatz und dessen Einarbeitung zu finanzieren, mögliche Umsatzeinbußen in der Übergangszeit aufzufangen und – wenn die Gründerin zugleich Mitgesellschafterin war – die Übernahme ihres Anteils nach der Ausstiegsregelung (Lektion 38) zu finanzieren, statt das Unternehmen zusätzlich zur betrieblichen Störung sofort in eine finanzielle Krise zu stürzen.
+
+## Übungsquiz
+1. Wovor soll eine Keyman-Versicherung schützen?
+2. Warum sind manche Unternehmen diesem besonderen Risiko besonders stark ausgesetzt?
+3. Wie hängt die Keyman-Versicherung mit der Ausstiegsregelung aus Lektion 38 zusammen?
+
+## Lösungsschlüssel
+1. Vor den finanziellen und betrieblichen Folgen des Verlusts einer entscheidenden Person im Unternehmen durch Tod oder Berufsunfähigkeit.
+2. Weil sie überproportional von einer einzigen oder wenigen Personen mit schwer ersetzbaren Beziehungen, Kenntnissen oder Fähigkeiten abhängen.
+3. War die Schlüsselperson zugleich Gesellschafterin, kann die Versicherungsleistung helfen, die Kaufpflicht oder Abfindung zu finanzieren, die eine Ausstiegsregelung nach ihrem Tod auslöst.
+
+## Antworten und Erklärungen
+1. Das ist der grundlegende Zweck dieser Lektion.
+2. Das erklärt, welche Arten von Unternehmen diesem Risiko am stärksten ausgesetzt sind – meist kleinere, inhabergeprägte Betriebe, in denen Wissen und Kundenbeziehungen auf wenige Köpfe konzentriert sind.
+3. Das verknüpft die Lektion ausdrücklich mit der Ausstiegsregelung aus Lektion 38.
+
+## Das Wichtigste in Kürze
+- Eine Keyman-Versicherung schützt ein Unternehmen vor den finanziellen Folgen, wenn eine entscheidende Person durch Tod oder Berufsunfähigkeit ausfällt.
+- Unternehmen, die stark von einer oder wenigen Personen mit schwer ersetzbarem Wissen oder Beziehungen abhängen, sind diesem Risiko besonders stark ausgesetzt.
+- Die Versicherungsleistung kann die Suche nach einem Ersatz finanzieren, Umsatzeinbußen auffangen oder die Übernahme eines Anteils aus einer Ausstiegsregelung finanzieren.
+
+## Hinweis zum Bildungszweck
+Diese Lektion dient ausschließlich der allgemeinen finanziellen Bildung und ist keine individuelle Finanz-, Anlage-, Steuer- oder Rechtsberatung. Lass dich vor Entscheidungen über betriebliche Versicherungen von einer zugelassenen Versicherungsberaterin oder einem Versicherungsmakler beraten.
+
+===== BLUE-L3-040
+TITLE: Warum betriebliche Versicherungen Risikotransfer sind und keine Ausgabe, die man zuerst streicht
+SUMMARY: Erfahre, warum betriebliche Versicherungen als Risikotransfer wirken und warum es ein Unternehmen katastrophalen Verlusten aussetzen kann, sie als frei kürzbare Kosten zu behandeln.
+# BLUE-L3-040: Warum betriebliche Versicherungen Risikotransfer sind und keine Ausgabe, die man zuerst streicht
+
+## Lernziele
+Am Ende dieser Lektion kannst du:
+- das allgemeine Konzept der Versicherung als Risikotransfer erklären
+- erklären, warum es ein Fehler sein kann, Versicherungen als rein frei kürzbare Kosten zu behandeln
+- dieses Konzept mit dem Thema Risikomanagement verbinden, das sich durch diesen Track zieht
+
+## Hauptinhalt
+
+**Betriebliche Versicherungen** in ihren verschiedenen Formen (Betriebshaftpflicht, Inhalts- und Gebäudeversicherung, Berufs- oder Vermögensschadenhaftpflicht und weitere, je nach Unternehmen) wirken als **Risikotransfer**: Gegen eine planbare, bekannte Prämie überträgt das Unternehmen das finanzielle Risiko eines bestimmten, möglicherweise viel größeren, unvorhersehbaren Schadens auf eine Versicherungsgesellschaft.
+
+Hier das „Warum“, weshalb das mit dem übergreifenden Thema Risikomanagement in diesem Track zusammenhängt: Eine Unternehmerin, besonders eine mit knapper Liquidität (Lektion 13), könnte versucht sein, Versicherungsprämien als frei kürzbare Kosten zu sehen, um kurzfristig Geld zu sparen. Dabei wird übersehen, was die Versicherung eigentlich leistet: Sie verwandelt kleine, planbare, budgetierbare Kosten in einen Schutz vor einem großen, unvorhersehbaren Schaden, der sonst das Überleben des Unternehmens gefährden könnte – eine Klage, ein Brand, ein erheblicher Haftpflichtanspruch.
+
+[VERIFIED FACT] Welche Versicherungsarten und Deckungssummen für ein bestimmtes Unternehmen angemessen sind, hängt stark von Branche, Größe und den konkreten Risiken ab – es gibt kein einheitliches Versicherungspaket für alle. Für manche Berufe, etwa Rechtsanwälte oder Steuerberater, ist eine Berufshaftpflichtversicherung in Deutschland sogar gesetzlich vorgeschrieben. Der Versicherungsbedarf sollte mit einer zugelassenen Fachperson auf Basis des tatsächlichen Risikoprofils des Unternehmens geprüft werden.
+
+## Durchgerechnetes Beispiel
+
+[ILLUSTRATIVE EXAMPLE] Ein Kleinunternehmer will in einer Phase knapper Liquidität seine monatlichen Ausgaben senken und überlegt, seine Betriebshaftpflichtversicherung zu kündigen, um die monatliche Prämie zu sparen. [ASSUMPTION] Verletzt sich später ein Kunde in den Geschäftsräumen und macht einen erheblichen Schadenersatzanspruch geltend, könnte das Unternehmen – ohne Versicherung, die genau dieses Risiko übernimmt – einen finanziellen Schaden erleiden, der die bescheidene Prämienersparnis um ein Vielfaches übersteigt und womöglich sein Überleben gefährdet. Die Prämie, richtig verstanden als Risikotransfer und nicht als rein frei kürzbare Ausgabe, schützte genau vor dieser Art von unwahrscheinlichem, aber möglicherweise katastrophalem Ereignis.
+
+## Übungsquiz
+1. Als was wirkt eine betriebliche Versicherung in der Sichtweise dieser Lektion?
+2. Warum kann es ein Fehler sein, Versicherungsprämien als rein frei kürzbare Kosten zu behandeln?
+3. Warum gibt es kein einheitliches Versicherungspaket, das für jedes Unternehmen passt?
+
+## Lösungsschlüssel
+1. Als Risikotransfer – sie verwandelt eine kleine, planbare Prämie in einen Schutz vor einem großen, unvorhersehbaren möglichen Schaden.
+2. Weil dadurch der Schutz vor genau der Art von unwahrscheinlichem, aber möglicherweise katastrophalem Ereignis wegfällt, das sonst das Überleben des Unternehmens gefährden könnte.
+3. Weil angemessene Versicherungsarten und Deckungssummen stark von der Branche, der Größe und den konkreten Risiken eines Unternehmens abhängen, die von Unternehmen zu Unternehmen sehr unterschiedlich sind.
+
+## Antworten und Erklärungen
+1. Das ist die grundlegende neue Sichtweise, auf der die Lektion aufbaut.
+2. Das ist die zentrale Warnung davor, Versicherungen als einfache, kürzbare Ausgabenposition zu behandeln.
+3. Das unterstreicht die Notwendigkeit individueller, fachkundiger Beratung statt allgemeiner Annahmen.
+
+## Das Wichtigste in Kürze
+- Betriebliche Versicherungen wirken als Risikotransfer und verwandeln eine planbare Prämie in einen Schutz vor einem großen, unvorhersehbaren möglichen Schaden.
+- Prämien als rein frei kürzbare Kosten zu behandeln kann ein Unternehmen katastrophalen, möglicherweise existenzbedrohenden Risiken aussetzen.
+- Der angemessene Versicherungsschutz hängt stark von Branche, Größe und konkreten Risiken eines Unternehmens ab und erfordert individuelle, fachkundige Beratung.
+
+## Hinweis zum Bildungszweck
+Diese Lektion dient ausschließlich der allgemeinen finanziellen Bildung und ist keine individuelle Finanz-, Anlage-, Steuer- oder Rechtsberatung. Lass dich für Fragen zu deinem Unternehmen von einer zugelassenen Versicherungsberaterin oder einem Versicherungsmakler beraten.

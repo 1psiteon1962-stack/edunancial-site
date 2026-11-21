@@ -1,0 +1,559 @@
+===== GREEN-L1-022
+TITLE: Los impuestos estimados de quienes trabajan por cuenta propia
+SUMMARY: Presenta el concepto de los pagos trimestrales de impuestos estimados, una consecuencia directa de no tener un patrono que retenga impuestos automáticamente.
+# Los impuestos estimados de quienes trabajan por cuenta propia
+
+## Objetivos de aprendizaje
+
+- Explicar por qué las personas que trabajan por cuenta propia a menudo necesitan hacer pagos de impuestos estimados.
+- Describir el ritmo general de los pagos estimados (periódicos, no una vez al año).
+- Conectar esto con la lección anterior sobre el W-2 y el 1099.
+
+## Contenido principal
+
+Cuando usted es empleado, su patrono le retiene impuestos automáticamente durante el año. Cuando trabaja por cuenta propia, nadie lo hace por usted, y precisamente por eso muchos sistemas exigen que las personas que trabajan por cuenta propia hagan pagos de impuestos estimados de forma periódica durante el año, a menudo trimestralmente, en lugar de pagarlo todo de una sola vez al presentar la planilla.
+
+Esta es una consecuencia práctica y directa de la distinción entre empleado y contratista vista antes. El gobierno sigue esperando que el impuesto se pague más o menos a medida que se gana el ingreso, no todo junto al final del año, así que la responsabilidad que el sistema de nómina de un patrono maneja automáticamente para un empleado pasa por completo a la persona que trabaja por cuenta propia. Saltarse los pagos estimados no elimina el impuesto adeudado; solo expone a penalidades por pago insuficiente, además del propio impuesto, cuando finalmente se concilia el año.
+
+## Ejemplo práctico
+
+**Pregunta:** Una diseñadora gráfica que acaba de empezar a trabajar por cuenta propia supone que puede pagar todos sus impuestos de una sola vez cuando presente su planilla el año próximo. ¿Qué riesgo crea eso?
+
+**Estudiante:** Según esta lección, podría deber penalidades por no pagar durante el año, además del propio impuesto.
+
+**Guía:** ¿Por qué el sistema espera que se pague durante el año y no todo de una vez?
+
+**Estudiante:** Porque así funciona también para los empleados, solo que de forma automática mediante la retención; la versión por cuenta propia simplemente lo convierte en una responsabilidad manual en lugar de automática.
+
+**Guía:** Exactamente. La expectativa de fondo no cambia; solo cambia quién es responsable de actuar.
+
+## Prueba práctica
+
+**Pregunta 1.** Los pagos de impuestos estimados son más relevantes para:
+
+A) Los empleados con retención automática
+B) Las personas que trabajan por cuenta propia, sin un patrono que les retenga
+C) Solo las personas retiradas
+D) Solo las grandes corporaciones
+
+**Pregunta 2.** Los pagos estimados normalmente se hacen:
+
+A) Una vez, al final del año
+B) De forma periódica durante el año, a menudo trimestralmente
+C) Nunca
+D) Solo si el gobierno los solicita
+
+**Pregunta 3.** Saltarse los pagos estimados normalmente:
+
+A) Elimina el impuesto adeudado
+B) Expone a penalidades por pago insuficiente, además del propio impuesto
+C) No tiene consecuencias
+D) Produce un reintegro automático
+
+**Pregunta 4.** ¿Con qué tema anterior se conecta más directamente esta lección?
+
+A) El impuesto sobre la propiedad
+B) El W-2 y el 1099 / empleado frente a contratista
+C) Los bienes públicos
+D) El impuesto sobre las ventas
+
+## Clave de respuestas
+
+1. B, 2. B, 3. B, 4. B
+
+## Respuestas y explicaciones
+
+**1.** Como ningún patrono les retiene, las personas que trabajan por cuenta propia deben estimar y pagar sus impuestos de forma proactiva.
+
+**2.** Los pagos periódicos durante el año reflejan la expectativa de pago sobre la marcha que tienen incorporada la mayoría de los sistemas.
+
+**3.** Las penalidades por pago insuficiente existen precisamente para desalentar que se espere al final del año para pagarlo todo de una vez.
+
+**4.** Esta lección es, en esencia, la consecuencia práctica de la distinción anterior entre empleado y contratista.
+
+## Puntos clave
+
+- Las personas que trabajan por cuenta propia generalmente deben hacer ellas mismas los pagos de impuestos estimados.
+- Estos pagos suelen ser periódicos (a menudo trimestrales), no un solo pago grande al final del año.
+- Saltarse los pagos estimados expone a penalidades, aunque el impuesto se siga debiendo al final.
+- Esto es una consecuencia directa de no tener el sistema de retención automática de un patrono.
+
+===== GREEN-L1-023
+TITLE: El impuesto sobre el trabajo por cuenta propia: lo que deben los trabajadores independientes y los dueños de negocio
+SUMMARY: A partir de la lección sobre el impuesto sobre la nómina, explica por qué las personas que trabajan por cuenta propia a menudo deben tanto la parte del patrono como la del empleado de los impuestos de tipo nómina.
+# El impuesto sobre el trabajo por cuenta propia: lo que deben los trabajadores independientes y los dueños de negocio
+
+## Objetivos de aprendizaje
+
+- Recordar cómo se divide el impuesto sobre la nómina entre el patrono y el empleado.
+- Explicar por qué una persona que trabaja por cuenta propia a menudo debe ambas mitades.
+- Reconocer esto como una consideración de planificación clave para los trabajadores independientes y los dueños de pequeños negocios.
+
+## Contenido principal
+
+Antes aprendió que el impuesto sobre la nómina a menudo se divide entre el patrono y el empleado: una parte se retiene del salario y otra la paga por separado el patrono. Cuando usted trabaja por cuenta propia, en la práctica es a la vez el patrono y el empleado. Muchos sistemas lo tienen en cuenta exigiendo que las personas que trabajan por cuenta propia paguen una versión del impuesto sobre la nómina que cubre ambas mitades, a veces llamada impuesto sobre el trabajo por cuenta propia. (En Puerto Rico, por ejemplo, quienes trabajan por cuenta propia generalmente pagan al IRS federal el impuesto para Seguro Social y Medicare que cubre ambas partes.)
+
+Este es uno de los costos del trabajo por cuenta propia que más se subestiman. Una persona que empieza a trabajar como independiente y compara el total de sus facturas con lo que muestra el cheque de un empleado equivalente puede subestimar gravemente su verdadera carga tributaria si olvida que, como negocio de una sola persona, cubre ambos lados de este impuesto. Entender esto de antemano —y reservar dinero en consecuencia— evita una sorpresa desagradable al presentar la planilla.
+
+## Ejemplo práctico
+
+**Pregunta:** Una trabajadora independiente compara sus $80,000 anuales en facturas con el empleo asalariado de $80,000 de una amiga y supone que su situación tributaria es básicamente la misma. ¿Lo es?
+
+**Estudiante:** Probablemente no, porque el patrono de su amiga cubre automáticamente la mitad del impuesto de tipo nómina.
+
+**Guía:** ¿Qué significa eso para la verdadera carga tributaria de la trabajadora independiente en comparación con la de su amiga?
+
+**Estudiante:** Que probablemente debe más en total de impuestos de tipo nómina, porque es responsable de las partes del patrono y del empleado.
+
+**Guía:** Exactamente: el mismo ingreso de la línea superior, una realidad tributaria significativamente distinta.
+
+## Prueba práctica
+
+**Pregunta 1.** El impuesto sobre el trabajo por cuenta propia generalmente cubre:
+
+A) Solo la parte del empleado del impuesto de tipo nómina
+B) Tanto la parte del patrono como la del empleado del impuesto de tipo nómina
+C) Solo el impuesto sobre las ventas
+D) Solo el impuesto sobre la propiedad
+
+**Pregunta 2.** ¿Por qué una persona que trabaja por cuenta propia a menudo debe más impuesto de tipo nómina que un empleado equivalente?
+
+A) Gana más automáticamente
+B) Debe cubrir ella misma las partes del patrono y del empleado
+C) A quienes trabajan por cuenta propia se les grava con tasas al azar
+D) No es así: las cantidades siempre son idénticas
+
+**Pregunta 3.** ¿Cuál es una consecuencia práctica de subestimar el impuesto sobre el trabajo por cuenta propia?
+
+A) Ninguna consecuencia
+B) Una sorpresa desagradable o un faltante al presentar la planilla
+C) Un reintegro automático
+D) Un estado civil para la planilla más bajo
+
+**Pregunta 4.** ¿Cuál es la forma recomendada de evitar esta sorpresa?
+
+A) Ignorarlo hasta presentar la planilla
+B) Entender de antemano la verdadera carga y reservar dinero en consecuencia
+C) Gastar de inmediato todo el ingreso de las facturas
+D) Evitar todo trabajo por cuenta propia
+
+## Clave de respuestas
+
+1. B, 2. B, 3. B, 4. B
+
+## Respuestas y explicaciones
+
+**1.** El impuesto sobre el trabajo por cuenta propia es, en esencia, el mecanismo para cobrar a una sola persona ambas mitades del impuesto de tipo nómina.
+
+**2.** Actuar como patrono y como empleado a la vez significa que la persona que trabaja por cuenta propia responde por ambas partes.
+
+**3.** Subestimar este costo es una trampa común que lleva a una factura mayor de la esperada al presentar la planilla.
+
+**4.** La conciencia y el ahorro proactivos, en lugar de reaccionar después, son la defensa práctica.
+
+## Puntos clave
+
+- Las personas que trabajan por cuenta propia a menudo deben tanto la parte del patrono como la del empleado del impuesto de tipo nómina.
+- Esto significa que el ingreso por cuenta propia tiene una carga tributaria significativamente distinta de la de un ingreso asalariado equivalente.
+- Este es uno de los costos del trabajo por cuenta propia que más se subestiman.
+- Planificar con anticipación y reservar dinero evita una sorpresa desagradable al presentar la planilla.
+
+===== GREEN-L1-024
+TITLE: Lo básico para llevar registros: recibos, estados de cuenta y documentación
+SUMMARY: Presenta el hábito y la lógica de llevar registros tributarios como una protección, no solo como papeleo.
+# Lo básico para llevar registros: recibos, estados de cuenta y documentación
+
+## Objetivos de aprendizaje
+
+- Explicar por qué llevar registros importa para los impuestos.
+- Identificar categorías comunes de documentos que vale la pena guardar.
+- Describir un hábito sencillo para mantenerse organizado durante el año.
+
+## Contenido principal
+
+Llevar buenos registros es la base silenciosa de casi todos los demás temas tributarios de este curso: las deducciones, los créditos y las reclamaciones por trabajo por cuenta propia solo se sostienen si usted puede respaldarlos con documentación. Entre las categorías comunes que vale la pena guardar están los recibos de compras deducibles, los estados de cuenta bancarios y de inversiones, los talonarios de pago, las facturas (para quienes trabajan por cuenta propia) y las planillas de años anteriores.
+
+El hábito que separa a quienes manejan esto sin problemas de quienes corren cada año es sencillo: recopile y organice la documentación a medida que ocurre, no meses después, al momento de presentar la planilla. Una sola carpeta (física o digital) que se abra al comienzo del año, en la que se vayan echando los documentos a medida que surgen, es mejor que tratar de reconstruir de memoria y con prisa un año de actividad financiera antes de una fecha límite. Los buenos registros no solo le ayudan a presentar con exactitud: son su protección si alguna vez se cuestiona una reclamación.
+
+## Ejemplo práctico
+
+**Pregunta:** El dueño de un pequeño negocio echa todos sus recibos en una caja de zapatos durante el año, sin ningún orden. ¿Es eso mejor que nada, y podría mejorarse?
+
+**Estudiante:** Es mejor que perder los recibos por completo, pero igual suena desordenado para trabajar con ellos después.
+
+**Guía:** ¿Cómo sería una pequeña mejora, sin necesidad de un sistema completamente pulido?
+
+**Estudiante:** Tal vez solo separar los recibos en unas cuantas categorías básicas a medida que llegan, en lugar de tener una sola pila grande que ordenar de una vez.
+
+**Guía:** Correcto. La meta no es la perfección, sino facilitarle el trabajo a su yo del futuro.
+
+## Prueba práctica
+
+**Pregunta 1.** Llevar registros importa sobre todo porque:
+
+A) Se exige sin ninguna razón
+B) Respalda las deducciones, los créditos y las reclamaciones si alguna vez se cuestionan
+C) No tiene nada que ver con los impuestos
+D) Solo las empresas lo necesitan
+
+**Pregunta 2.** Entre los documentos comunes que vale la pena guardar están:
+
+A) Recibos, estados de cuenta, talonarios de pago, facturas
+B) Solo publicaciones en redes sociales
+C) Nada: los registros digitales no cuentan
+D) Solo las contraseñas del banco
+
+**Pregunta 3.** El hábito recomendado es:
+
+A) Reconstruirlo todo de memoria al momento de presentar la planilla
+B) Recopilar y organizar la documentación a medida que ocurre durante el año
+C) Botar todos los documentos de inmediato
+D) Guardar registros solo en el caso de las personas ricas
+
+**Pregunta 4.** Los buenos registros sirven como:
+
+A) Decoración
+B) Protección si alguna vez se cuestiona una reclamación
+C) Un sustituto de la planilla
+D) Nada útil
+
+## Clave de respuestas
+
+1. B, 2. A, 3. B, 4. B
+
+## Respuestas y explicaciones
+
+**1.** Toda deducción, crédito o reclamación necesita, en última instancia, estar respaldada por documentación real si alguna vez se revisa.
+
+**2.** Los recibos, los estados de cuenta, los talonarios de pago y las facturas forman la columna vertebral de un sistema sólido de registros.
+
+**3.** Recopilar de forma continua y con poco esfuerzo es mejor que una carrera estresante de fin de año para reconstruir el historial financiero.
+
+**4.** La documentación es lo que respalda una reclamación si una autoridad tributaria alguna vez hace preguntas sobre ella.
+
+## Puntos clave
+
+- Llevar registros respalda cada deducción, crédito y reclamación que usted haga.
+- Guarde los recibos, los estados de cuenta, los talonarios de pago y las facturas a medida que surgen.
+- La organización continua es mejor que la reconstrucción de último minuto.
+- Los buenos registros son su protección si alguna vez se cuestiona una reclamación.
+
+===== GREEN-L1-025
+TITLE: Gastos de negocio comúnmente deducibles
+SUMMARY: Repasa las categorías generales de gastos de negocio que comúnmente son deducibles, a nivel conceptual, dada la variación entre jurisdicciones.
+# Gastos de negocio comúnmente deducibles
+
+## Objetivos de aprendizaje
+
+- Explicar el principio general detrás de los gastos de negocio deducibles.
+- Identificar categorías comunes de gastos deducibles.
+- Reconocer por qué los gastos personales generalmente no cualifican.
+
+## Contenido principal
+
+La mayoría de los sistemas tributarios permite a los negocios deducir los gastos que son «ordinarios y necesarios» para operar el negocio, es decir, normales para ese tipo de negocio y realmente necesarios para operar, no lujosos ni puramente personales. Entre las categorías comunes, descritas de forma general, están los suministros y materiales, el alquiler del local del negocio, los viajes relacionados con el negocio, el mercadeo y la publicidad, los servicios profesionales (como un abogado o un contador) y el equipo.
+
+Una prueba útil que conviene recordar: ¿existiría este gasto si el negocio no existiera? Una computadora portátil comprada específicamente para trabajos de clientes pasa esa prueba con más claridad que unas vacaciones justificadas vagamente como «networking». Mezclar gastos personales y de negocio sin una línea clara es uno de los errores más comunes de los nuevos dueños de negocio, y precisamente por eso la lección anterior sobre llevar registros importa tanto aquí: una documentación limpia hace defendible la línea entre lo personal y lo del negocio.
+
+## Ejemplo práctico
+
+**Pregunta:** El dueño de un negocio compra una computadora portátil que usa exclusivamente para trabajos de diseño para clientes. Más tarde, también registra como gasto unas vacaciones familiares y las llama «networking». ¿Se tratan ambas cosas de la misma manera?
+
+**Estudiante:** No lo creo: la computadora está claramente vinculada al trabajo real del negocio.
+
+**Guía:** ¿Qué prueba aplicaría usted a las vacaciones?
+
+**Estudiante:** ¿Existiría ese gasto si el negocio no existiera? La computadora probablemente no se habría comprado sin el negocio; las vacaciones probablemente se habrían hecho de todos modos.
+
+**Guía:** Exactamente. Ese es el tipo de razonamiento que separa un gasto de negocio legítimo de un gasto personal disfrazado de gasto de negocio.
+
+## Prueba práctica
+
+**Pregunta 1.** Un criterio general común para los gastos de negocio deducibles es:
+
+A) Cualquier gasto, sea personal o no
+B) Que sea ordinario y necesario para el negocio
+C) Solo los gastos de más de $10,000
+D) Solo los gastos pagados en efectivo
+
+**Pregunta 2.** Entre las categorías comunes de gastos de negocio deducibles están:
+
+A) Suministros, alquiler, viajes, mercadeo, servicios profesionales y equipo
+B) Solo la compra de comida para la casa
+C) Solo las vacaciones
+D) Solo la ropa personal
+
+**Pregunta 3.** Una prueba útil para saber si un gasto está relacionado con el negocio es:
+
+A) ¿Existiría este gasto si el negocio no existiera?
+B) ¿Es caro?
+C) ¿Se pagó en efectivo?
+D) ¿Ocurrió en un día de semana?
+
+**Pregunta 4.** Mezclar gastos personales y de negocio sin una línea clara:
+
+A) Se recomienda
+B) Es un error común y arriesgado de los nuevos dueños de negocio
+C) No tiene consecuencias
+D) Solo importa para las grandes corporaciones
+
+## Clave de respuestas
+
+1. B, 2. A, 3. A, 4. B
+
+## Respuestas y explicaciones
+
+**1.** «Ordinario y necesario» es un criterio general de uso amplio, aunque las reglas exactas varían según la jurisdicción.
+
+**2.** Estas categorías representan los costos operativos típicos de la mayoría de los tipos de negocio.
+
+**3.** Esta prueba ayuda a separar los gastos realmente vinculados al negocio de los gastos personales que se reetiquetan vagamente.
+
+**4.** Desdibujar la línea entre lo personal y lo del negocio sin documentación es una trampa común que llevar registros ayuda a evitar.
+
+## Puntos clave
+
+- Los gastos de negocio deducibles son, en general, los que son ordinarios y necesarios para el negocio.
+- Entre las categorías comunes están los suministros, el alquiler, los viajes, el mercadeo, los servicios profesionales y el equipo.
+- Una prueba útil: ¿existiría el gasto sin el negocio?
+- Mezclar gastos personales y de negocio sin una línea clara es un error común y arriesgado.
+
+===== GREEN-L1-026
+TITLE: Lo básico de la deducción por oficina en el hogar
+SUMMARY: Presenta el concepto de deducir una parte de los gastos del hogar cuando una parte de la casa se usa para el negocio, con énfasis en la lógica básica de elegibilidad.
+# Lo básico de la deducción por oficina en el hogar
+
+## Objetivos de aprendizaje
+
+- Explicar la lógica general de una deducción por oficina en el hogar.
+- Identificar el principio de elegibilidad común (uso regular y exclusivo).
+- Reconocer por qué esta deducción requiere una documentación cuidadosa.
+
+## Contenido principal
+
+Cuando una parte de la casa se usa de forma regular y exclusiva para el negocio, muchos sistemas permiten deducir una parte de los costos relacionados con el hogar —como el alquiler, los servicios públicos o una parte de los intereses de la hipoteca—, en proporción a cuánto de la casa se usa para el negocio. La idea de elegibilidad básica en la mayoría de los sistemas es el «uso regular y exclusivo»: el espacio debe usarse de forma constante para el negocio y, en general, solo para el negocio, no como un cuarto de visitas que de vez en cuando sirve de oficina.
+
+Esta deducción es valiosa, pero históricamente ha sido un área de escrutinio adicional en algunos sistemas tributarios, precisamente porque la línea entre el uso personal y el uso de negocio de una casa puede volverse borrosa. Eso la convierte en un buen ejemplo práctico de por qué importa la lección anterior sobre llevar registros: una documentación clara del uso exclusivo para el negocio del espacio, y de cómo se calculó la proporción deducible, es lo que hace defendible esta deducción.
+
+## Ejemplo práctico
+
+**Pregunta:** Un trabajador independiente trabaja desde un cuarto adicional que también se usa para visitas dos veces al año. ¿Cumple claramente ese cuarto con un criterio de «uso regular y exclusivo»?
+
+**Estudiante:** Parece dudoso, porque no se usa solo para el negocio.
+
+**Guía:** ¿Qué haría el caso más claro, en un sentido o en otro?
+
+**Estudiante:** Si el cuarto se usara solo para trabajar, con un escritorio dedicado y ningún otro uso, cualificaría claramente. El uso ocasional para visitas lo enturbia.
+
+**Guía:** Correcto. Esta es exactamente la clase de zona gris donde más importan la documentación y una organización clara y constante.
+
+## Prueba práctica
+
+**Pregunta 1.** La deducción por oficina en el hogar generalmente aplica cuando un espacio:
+
+A) Se usa de vez en cuando para cualquier cosa
+B) Se usa de forma regular y exclusiva para el negocio
+C) Se usa solo los fines de semana
+D) Es propio y no alquilado
+
+**Pregunta 2.** ¿Qué se puede deducir normalmente, de forma proporcional, bajo esta regla?
+
+A) Todos los gastos de la casa, sin importar el uso para el negocio
+B) Una parte de costos como el alquiler, los servicios públicos o los intereses de la hipoteca, según la proporción de uso para el negocio
+C) Nada relacionado con la vivienda
+D) Solo la compra de muebles
+
+**Pregunta 3.** ¿Por qué esta deducción ha atraído históricamente un escrutinio adicional en algunos sistemas?
+
+A) Casi nunca se usa
+B) La línea entre el uso personal y el de negocio puede ser borrosa
+C) En realidad no existe
+D) Solo aplica a las grandes corporaciones
+
+**Pregunta 4.** ¿Qué lección anterior es especialmente relevante para defender esta deducción?
+
+A) Los bienes públicos
+B) Llevar registros
+C) El impuesto sobre las ventas
+D) El estado civil para la planilla
+
+## Clave de respuestas
+
+1. B, 2. B, 3. B, 4. B
+
+## Respuestas y explicaciones
+
+**1.** El «uso regular y exclusivo» es el principio de elegibilidad común en muchos de los sistemas que ofrecen esta deducción.
+
+**2.** La deducción es generalmente proporcional: está vinculada a cuánto de la casa se usa realmente para el negocio.
+
+**3.** Como en una casa el uso personal y el de negocio pueden superponerse, esta área suele recibir una revisión más cuidadosa.
+
+**4.** Una documentación sólida es exactamente lo que hace defendible una deducción por oficina en el hogar si alguna vez se cuestiona.
+
+## Puntos clave
+
+- Las deducciones por oficina en el hogar generalmente requieren un uso regular y exclusivo del espacio para el negocio.
+- La deducción es proporcional a cuánto de la casa se usa para el negocio.
+- Esta área suele recibir un escrutinio adicional porque el uso personal y el de negocio pueden confundirse.
+- Una documentación cuidadosa es esencial para defender esta deducción.
+
+===== GREEN-L1-027
+TITLE: La depreciación: repartir un costo a lo largo del tiempo
+SUMMARY: Presenta la depreciación como el concepto de repartir el costo de un bien duradero del negocio a lo largo de varios años, en lugar de deducirlo todo de una vez.
+# La depreciación: repartir un costo a lo largo del tiempo
+
+## Objetivos de aprendizaje
+
+- Definir la depreciación en términos sencillos.
+- Explicar por qué existe la depreciación como concepto.
+- Distinguir los bienes que probablemente se deprecien de los que normalmente se registran como gasto de inmediato.
+
+## Contenido principal
+
+Cuando un negocio compra algo que usará durante años —un vehículo, maquinaria, un edificio—, normalmente no tiene sentido deducir todo el costo en el año de la compra. En cambio, muchos sistemas tributarios exigen o permiten que ese costo se reparta, o se deprecie, a lo largo de la vida útil del bien, de modo que la deducción coincida con los años en que el bien realmente ayuda a generar ingresos.
+
+La lógica refleja el sentido contable básico: si un equipo se usará durante diez años, tratar todo su costo como un gasto de un solo año subestimaría la ganancia del primer año y la sobrestimaría en cada uno de los años siguientes. La depreciación suaviza eso. En cambio, los gastos de negocio de consumo cotidiano —los materiales de oficina, por ejemplo— normalmente se registran como gasto completo de inmediato, porque no aportan valor durante varios años como lo hace el equipo duradero.
+
+## Ejemplo práctico
+
+**Pregunta:** Una panadería compra un horno comercial que se espera dure diez años. ¿Debe deducirse todo el costo de inmediato o repartirse?
+
+**Estudiante:** Según esta lección, parece que debe repartirse, porque el horno se usará durante muchos años.
+
+**Guía:** ¿Por qué repartirlo da una imagen más exacta que deducirlo todo de una vez?
+
+**Estudiante:** Porque el horno ayuda a generar ingresos durante los diez años, no solo el año en que se compró, así que asignar el costo a esos años es más exacto.
+
+**Guía:** Exactamente. Esa es la lógica central de la depreciación.
+
+## Prueba práctica
+
+**Pregunta 1.** La depreciación se describe mejor como:
+
+A) Deducir de inmediato todo el costo de un bien
+B) Repartir el costo de un bien a lo largo de su vida útil
+C) Ignorar por completo el costo de los bienes del negocio
+D) Un tipo de impuesto sobre las ventas
+
+**Pregunta 2.** La depreciación normalmente se aplica a:
+
+A) Bienes duraderos como equipo, vehículos o edificios
+B) Los materiales de oficina de uso diario
+C) Los pagos del impuesto sobre las ventas
+D) La retención de la nómina
+
+**Pregunta 3.** ¿Por qué no deducir en el primer año todo el costo de un bien que dura diez años?
+
+A) Es ilegal comprar equipo
+B) Distorsionaría la ganancia de los años en que el bien realmente ayuda a generar ingresos
+C) No hay razón; es arbitrario
+D) La depreciación no aplica a los negocios
+
+**Pregunta 4.** Los materiales de consumo cotidiano normalmente:
+
+A) Se deprecian a lo largo de diez años
+B) Se registran como gasto completo de inmediato
+C) Nunca son deducibles
+D) Se tratan igual que los bienes raíces
+
+## Clave de respuestas
+
+1. B, 2. A, 3. B, 4. B
+
+## Respuestas y explicaciones
+
+**1.** La depreciación hace coincidir el costo de un bien con los años en que realmente aporta valor, en lugar de concentrarlo en un solo año.
+
+**2.** Los bienes duraderos son los candidatos típicos a la depreciación, a diferencia de los materiales de consumo de corta duración.
+
+**3.** Repartir el costo evita distorsionar la imagen de la ganancia en el año de la compra frente a los años posteriores.
+
+**4.** Los materiales se consumen rápido, así que registrarlos como gasto de inmediato refleja mejor su valor a corto plazo.
+
+## Puntos clave
+
+- La depreciación reparte el costo de un bien a lo largo de su vida útil en lugar de deducirlo todo de una vez.
+- Se aplica a bienes duraderos como equipo, vehículos y edificios.
+- Esto produce una imagen más exacta, año por año, de la ganancia del negocio.
+- Los gastos de consumo cotidiano normalmente se deducen de inmediato.
+
+===== GREEN-L1-028
+TITLE: El cobro del impuesto sobre las ventas en los pequeños negocios
+SUMMARY: Explica la responsabilidad práctica que asume un pequeño negocio cuando se convierte en recaudador del impuesto sobre las ventas, a partir de la lección anterior sobre este impuesto desde el punto de vista del consumidor.
+# El cobro del impuesto sobre las ventas en los pequeños negocios
+
+## Objetivos de aprendizaje
+
+- Explicar el papel del negocio como recaudador del impuesto sobre las ventas.
+- Describir por qué el impuesto sobre las ventas cobrado no es ingreso del negocio.
+- Reconocer el riesgo de tratar el impuesto cobrado como ingreso disponible para gastar.
+
+## Contenido principal
+
+Antes, este curso abordó el impuesto sobre las ventas desde el punto de vista del comprador. Ahora considérelo desde el lado del negocio: cuando un negocio cobra el impuesto sobre las ventas a sus clientes, está guardando temporalmente dinero que le pertenece al gobierno, no dinero que ganó. Esa distinción importa muchísimo para la forma en que un negocio debe manejar su efectivo. (En Puerto Rico, por ejemplo, los comerciantes cobran y remiten el IVU a Hacienda; en la República Dominicana, los contribuyentes cobran y declaran el ITBIS ante la DGII.)
+
+Un error común y serio de los nuevos dueños de pequeños negocios es tratar todo el efectivo que entra —incluida la parte del impuesto sobre las ventas— como disponible para gastar, y luego descubrir, al momento de declarar o remitir, que el dinero del impuesto ya se gastó en otras cosas. Como el negocio está obligado por ley a remitir ese impuesto sin importar su propia situación de efectivo, los negocios disciplinados suelen separar de inmediato el impuesto cobrado, a veces en una cuenta dedicada, en lugar de mezclarlo con los fondos generales de operación.
+
+## Ejemplo práctico
+
+**Pregunta:** El dueño de una tienda nueva deposita todas las ventas del día, incluido el impuesto cobrado, en una sola cuenta general y gasta libremente de ella. ¿Qué riesgo crea eso?
+
+**Estudiante:** Según esta lección, podría gastar sin darse cuenta el dinero del impuesto que en realidad le pertenece al gobierno.
+
+**Guía:** ¿Cómo sería un enfoque más disciplinado?
+
+**Estudiante:** Separar de inmediato el impuesto cobrado en su propia cuenta, para que nunca se confunda con ingreso del negocio disponible para gastar.
+
+**Guía:** Exactamente. Tratarlo desde el primer día como dinero ya comprometido evita la trampa.
+
+## Prueba práctica
+
+**Pregunta 1.** Cuando un negocio cobra el impuesto sobre las ventas, ese dinero es:
+
+A) Ingreso propio ganado por el negocio
+B) Dinero que guarda temporalmente en nombre del gobierno
+C) Un regalo de los clientes
+D) Automáticamente libre de impuestos
+
+**Pregunta 2.** Un error común de los nuevos pequeños negocios es:
+
+A) Separar de inmediato el impuesto sobre las ventas
+B) Gastar el impuesto cobrado como si fuera ingreso general de operación
+C) Cobrar muy poco impuesto sobre las ventas
+D) No cobrar nunca el impuesto sobre las ventas
+
+**Pregunta 3.** ¿Por qué es serio este error?
+
+A) No es serio
+B) El negocio sigue obligado por ley a remitir el impuesto, aunque ya lo haya gastado
+C) El impuesto sobre las ventas es opcional
+D) Los clientes son los responsables
+
+**Pregunta 4.** Una práctica disciplinada para evitar este error es:
+
+A) Ignorar el impuesto sobre las ventas hasta fin de año
+B) Separar de inmediato el impuesto cobrado, a veces en una cuenta dedicada
+C) Gastarlo primero y preocuparse después
+D) Negarse a cobrar el impuesto sobre las ventas
+
+## Clave de respuestas
+
+1. B, 2. B, 3. B, 4. B
+
+## Respuestas y explicaciones
+
+**1.** El negocio es un recaudador en nombre del gobierno, no el dueño final de ese dinero.
+
+**2.** Mezclar el impuesto cobrado con los ingresos generales es uno de los errores de manejo de efectivo más comunes de los nuevos dueños de negocio.
+
+**3.** La obligación de remitir no desaparece solo porque el efectivo se haya gastado en otra cosa.
+
+**4.** La separación inmediata es una disciplina sencilla y eficaz que evita exactamente este problema.
+
+## Puntos clave
+
+- El impuesto sobre las ventas cobrado le pertenece al gobierno, no al negocio.
+- Tratarlo como ingreso disponible para gastar es un error común y arriesgado.
+- El negocio sigue obligado a remitirlo sin importar su propia situación de efectivo.
+- Separar de inmediato el impuesto cobrado es una buena práctica disciplinada.

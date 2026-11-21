@@ -1,0 +1,399 @@
+===== WHITE-L4-016
+TITLE: Análisis del straddle: por qué apostar a la volatilidad es distinto a apostar a la dirección
+SUMMARY: Conozca cómo un straddle combina una opción de compra y una de venta para ganar con un movimiento fuerte en cualquier dirección, y por qué pierde dinero si el precio se queda quieto.
+KEYWORDS: straddle de opciones, negociación de la volatilidad, dirección incierta, estrategia de opciones
+# Análisis del straddle: por qué apostar a la volatilidad es distinto a apostar a la dirección
+
+## Escenario inicial
+SUPUESTO/OPINIÓN (escenario hipotético solo con fines educativos): Imagine que la moneda de una economía de tamaño mediano pierde una gran parte de su valor frente a las principales monedas de reserva en unos pocos meses, por la salida de capital del país y una confianza de los inversionistas que se va desgastando. Mientras la moneda de esta economía se mueve de forma impredecible en medio de la fuga de capital, un inversionista que sigue una acción relacionada y expuesta a esa moneda cree que viene un movimiento fuerte de precio, pero no tiene una idea firme de en qué dirección. Esta lección presenta la estrategia diseñada precisamente para ese tipo de incertidumbre.
+
+## Objetivos de aprendizaje
+- Explicar la estructura de una estrategia de opciones llamada straddle comprado.
+- Explicar por qué un straddle gana con un movimiento fuerte de precio en cualquier dirección.
+- Identificar las condiciones en las que un straddle probablemente pierda dinero.
+- Distinguir una apuesta a la dirección de una apuesta a la volatilidad con el ejemplo del straddle.
+
+## Contenido principal
+Un straddle comprado combina la compra de una opción de compra y una opción de venta sobre la misma acción subyacente, con el mismo precio de ejercicio y la misma fecha de vencimiento. DATO VERIFICADO: como la posición incluye a la vez una opción de compra (que gana valor cuando la acción sube) y una opción de venta (que gana valor cuando la acción baja), un straddle puede volverse rentable si la acción hace un movimiento fuerte en cualquier dirección, lo que lo distingue de fondo de una simple apuesta a la dirección, como comprar solo una opción de compra (lección 14) o solo una opción de venta (lección 15).
+
+Aquí está el "porqué" a esta estrategia se le describe como una apuesta a la volatilidad y no a la dirección: un inversionista que no sabe hacia dónde se va a mover una acción expuesta a una moneda, en medio de la incertidumbre del escenario de arriba, pero que está seguro de que viene un movimiento importante, en un sentido o en el otro, puede usar un straddle para posicionarse ante esa volatilidad esperada sin tener que adivinar la dirección correcta. La prima combinada que paga por la opción de compra y la opción de venta representa el costo total de esta posición, y la acción tiene que moverse lo suficiente en cualquier dirección para cubrir ese costo combinado antes de que la posición dé ganancia.
+
+Por eso, un straddle pierde dinero si la acción se queda relativamente quieta, aunque el inversionista haya tenido "razón" en que había incertidumbre: tanto la opción de compra como la de venta pierden valor con el tiempo (un concepto que se llama desgaste por el paso del tiempo, que se ve más a fondo en lecciones de opciones más avanzadas) si el movimiento fuerte que se esperaba no ocurre antes del vencimiento. Por eso, es mejor entender el straddle como una apuesta pura a la volatilidad: el inversionista apuesta a que el tamaño del movimiento será mayor que lo que el mercado de opciones incluyó en los precios, no a ninguna dirección en particular.
+
+## Ejemplo práctico
+EJEMPLO ILUSTRATIVO: Una acción se cotiza en $100. Un inversionista compra a la vez una opción de compra y una de venta con un precio de ejercicio de $100, y paga una prima combinada de $8 por acción ($800 en total por contratos normales). Si la acción sube a $130 al vencimiento, la opción de compra vale $30 (mucho más que el costo combinado de $8), lo que da una buena ganancia aunque la opción de venta venza sin valor. Si en cambio la acción baja a $70, la opción de venta vale $30, lo que da una ganancia parecida aunque la opción de compra venza sin valor. Pero si la acción simplemente se queda en $102 al vencimiento, las dos opciones valen muy poco, y el inversionista pierde la mayor parte o toda la prima combinada de $800. Esto ilustra que la estrategia necesitaba un movimiento fuerte, en cualquier dirección, para tener éxito.
+
+## Prueba práctica
+**Q1. ¿Qué combina un straddle comprado?**
+A) Dos opciones de compra con distintos precios de ejercicio
+B) Una opción de compra y una opción de venta sobre la misma acción, con el mismo precio de ejercicio y el mismo vencimiento
+C) Vender una opción de compra y comprar una acción
+D) Solo una opción de venta, sin ninguna opción de compra
+
+**Q2. ¿Por qué se describe un straddle como una apuesta a la volatilidad y no a la dirección?**
+A) Solo da ganancia si la acción sube, igual que una opción de compra sola
+B) Puede volverse rentable con un movimiento fuerte de precio en cualquier dirección, ya que combina una opción de compra y una de venta
+C) Solo da ganancia si la acción se queda perfectamente quieta
+D) Los straddles no tienen ninguna relación con el movimiento del precio
+
+**Q3. ¿En qué condición un straddle comprado normalmente pierde dinero?**
+A) Cuando la acción hace un movimiento muy fuerte en cualquier dirección
+B) Cuando la acción se queda relativamente quieta, ya que ni la opción de compra ni la de venta ganan suficiente valor para cubrir la prima combinada que se pagó
+C) Los straddles siempre dan ganancia, sin importar el movimiento de la acción
+D) Cuando el inversionista predice bien la dirección de la acción
+
+**Q4. En el ejemplo, ¿por qué el inversionista ganó dinero cuando la acción subió a $130, aunque la opción de venta venció sin valor?**
+A) La ganancia de $30 de la opción de compra fue mucho mayor que la prima combinada de $8 que se pagó por las dos opciones
+B) La opción de venta también subió de valor al mismo tiempo
+C) Al inversionista le devolvieron la prima de la opción de venta sin valor
+D) La ganancia no tuvo relación con el valor de la opción de compra
+
+**Q5. ¿Por qué el straddle perdió dinero cuando la acción se quedó en $102 en el ejemplo?**
+A) Un movimiento de $2 era mucho más que suficiente para ganar con cualquiera de las dos opciones
+B) Ni la opción de compra ni la de venta ganaron suficiente valor con un movimiento tan pequeño para cubrir los $800 de prima combinada que se pagaron
+C) La estrategia del straddle siempre pierde dinero, sin importar el movimiento de la acción
+D) El inversionista estaba obligado a ejercer las dos opciones al mismo tiempo
+
+## Clave de respuestas
+Q1: B
+Q2: B
+Q3: B
+Q4: A
+Q5: B
+
+## Respuestas y explicaciones
+**Q1.** Un straddle une específicamente una opción de compra y una de venta con el mismo precio de ejercicio y el mismo vencimiento para posicionarse ante un movimiento fuerte en cualquier dirección.
+
+**Q2.** Como sus partes de compra y de venta le permiten a la posición ganar con un movimiento grande sin importar la dirección, apunta al tamaño del movimiento y no a su dirección.
+
+**Q3.** Si el precio no se mueve lo suficiente, ninguna de las dos partes del straddle gana suficiente valor para compensar la prima total que se pagó por las dos opciones.
+
+**Q4.** La ganancia grande de la opción de compra por sí sola bastó para compensar con creces el costo total de las dos opciones, aunque la opción de venta venció sin valor.
+
+**Q5.** El movimiento pequeño del precio se quedó corto de lo que hacía falta para que cualquiera de las dos opciones generara una ganancia suficiente para compensar el costo total de la prima.
+
+## Puntos clave
+- Un straddle comprado combina una opción de compra y una de venta con el mismo precio de ejercicio y el mismo vencimiento sobre la misma acción subyacente.
+- Esta estructura puede ganar con un movimiento fuerte de precio en cualquier dirección, lo que la convierte en una apuesta a la volatilidad y no a la dirección.
+- Un straddle pierde dinero si la acción se queda relativamente quieta, ya que ninguna de las opciones gana suficiente valor para cubrir la prima combinada.
+- Un straddle tiene éxito cuando el movimiento real del precio supera lo que había anticipado el precio combinado de las opciones, sin importar la dirección.
+
+===== WHITE-L4-017
+TITLE: Análisis de comprar a margen: por qué el dinero prestado amplifica tanto las ganancias como las pérdidas de un portafolio
+SUMMARY: Conozca cómo comprar acciones a margen amplifica las ganancias y las pérdidas sobre su capital, y por qué una llamada de margen puede obligar a vender en el peor momento.
+KEYWORDS: comprar a margen, apalancamiento, llamada de margen, riesgo del portafolio
+# Análisis de comprar a margen: por qué el dinero prestado amplifica tanto las ganancias como las pérdidas de un portafolio
+
+## Escenario inicial
+SUPUESTO/OPINIÓN (escenario hipotético solo con fines educativos): Imagine que, después de años de expansión rápida, los mercados de bienes raíces y de crédito al consumidor de un país muy poblado empiezan a mostrar señales de una corrección fuerte a medida que suben los impagos. Mientras se desinfla un auge del mercado impulsado por el crédito y el valor de los activos cae fuertemente, los inversionistas que tomaron mucho dinero prestado para comprar acciones viven algo muy distinto a los que pagaron en efectivo. Esta lección explica por qué.
+
+## Objetivos de aprendizaje
+- Explicar lo que significa comprar a margen en el contexto de un portafolio de acciones.
+- Explicar por qué el margen amplifica tanto las ganancias como las pérdidas porcentuales sobre el capital invertido.
+- Explicar qué es una llamada de margen y por qué puede obligar a vender en el peor momento posible.
+- Comparar el riesgo de una posición en acciones comprada a margen con el de una posición del mismo tamaño sin apalancamiento.
+
+## Contenido principal
+Comprar acciones a margen significa tomar dinero prestado de una casa de corretaje para comprar más acciones de las que el inversionista podría comprar solo con su efectivo, usando los valores comprados (y a menudo otros activos de la cuenta) como garantía del préstamo. DATO VERIFICADO: en su concepto, es el mismo mecanismo de apalancamiento del análisis de la razón préstamo-valor de bienes raíces: el capital propio del inversionista (su "capital" en la posición) se vuelve una parte más pequeña de la posición total, lo que amplifica las ganancias y las pérdidas porcentuales sobre ese capital en las dos direcciones.
+
+Aquí está el "porqué" el margen corta por los dos lados, de una forma muy parecida al apalancamiento en bienes raíces: si una acción comprada a margen sube, la ganancia se mide contra la cantidad más pequeña de efectivo que el inversionista realmente invirtió, lo que da un rendimiento porcentual más alto que una compra de la misma acción completamente en efectivo. Pero si la acción baja, como podría pasar durante el tipo de desinflamiento del mercado de crédito que se describe en el escenario de arriba, la pérdida se mide contra esa misma base pequeña de capital, y una baja que sería manejable en una posición pagada en efectivo puede borrar una parte mucho mayor, o todo, el capital del inversionista que compró a margen.
+
+Por eso, comprar a margen trae un riesgo que va más allá del simple cálculo del apalancamiento: la llamada de margen. DATO VERIFICADO: si el valor de la garantía de la cuenta de margen baja de un nivel de mantenimiento requerido, la casa de corretaje puede exigirle al inversionista que deposite más fondos de inmediato o venderá a la fuerza sus inversiones para que la cuenta vuelva a cumplir, a menudo en el peor momento posible, durante una caída fuerte del mercado. Esto convierte lo que pudo haber sido una pérdida en papel recuperable en una pérdida realizada para siempre, ya que la venta forzada ocurre sin importar lo que opine el inversionista sobre las perspectivas de recuperación de la acción.
+
+## Ejemplo práctico
+EJEMPLO ILUSTRATIVO: Un inversionista compra $20,000 en acciones con $10,000 de su propio efectivo y $10,000 prestados a margen. Si la acción sube 20%, la posición gana $4,000: un rendimiento de 40% sobre los $10,000 de capital original del inversionista. Pero si en cambio la acción baja 30%, la posición pierde $6,000, lo que borra 60% del capital original del inversionista, y si la caída es lo bastante fuerte para pasar el requisito de margen de mantenimiento del corredor, el inversionista podría recibir una llamada de margen que lo obligue a vender al precio deprimido, lo que fija la pérdida en vez de darle tiempo a una posible recuperación.
+
+## Prueba práctica
+**Q1. ¿Qué significa comprar acciones a margen?**
+A) Pagar completamente en efectivo, sin fondos prestados
+B) Tomar dinero prestado de una casa de corretaje para comprar más acciones de las que el inversionista podría comprar solo con su efectivo
+C) Comprar solo acciones que pagan dividendos
+D) Comprar acciones solo mediante una cuenta de retiro
+
+**Q2. ¿Por qué el margen amplifica las ganancias y las pérdidas porcentuales en comparación con una compra completamente en efectivo?**
+A) Las ganancias y las pérdidas se miden contra la aportación de capital más pequeña del inversionista y no contra el tamaño completo de la posición
+B) El margen no tiene ningún efecto sobre las ganancias o las pérdidas porcentuales
+C) El margen solo amplifica las ganancias, nunca las pérdidas
+D) Las casas de corretaje absorben automáticamente todas las pérdidas de las posiciones a margen
+
+**Q3. ¿Qué es una llamada de margen?**
+A) Una llamada de un corredor para ofrecer consejos de inversión
+B) Un requisito de depositar más fondos o enfrentar la venta forzada de las inversiones cuando el valor de la garantía de la cuenta baja de un nivel de mantenimiento requerido
+C) Un bono garantizado por las operaciones a margen exitosas
+D) Un formulario contributivo relacionado con las cuentas de margen
+
+**Q4. ¿Por qué una llamada de margen puede ser especialmente dañina durante una caída fuerte del mercado?**
+A) Las llamadas de margen nunca ocurren durante las caídas del mercado
+B) Puede obligar a vender a un precio deprimido sin importar lo que opine el inversionista sobre la recuperación de la acción, lo que convierte una pérdida en papel en una pérdida permanente
+C) Las llamadas de margen siempre le dan una ganancia garantizada al inversionista
+D) Las ventas forzadas en una llamada de margen siempre ocurren a precios favorables
+
+**Q5. En el ejemplo, ¿cuál fue la pérdida porcentual del inversionista sobre su capital original cuando la acción bajó 30%?**
+A) 30%
+B) 40%
+C) 60%
+D) 100%
+
+## Clave de respuestas
+Q1: B
+Q2: A
+Q3: B
+Q4: B
+Q5: C
+
+## Respuestas y explicaciones
+**Q1.** Comprar a margen consiste específicamente en usar fondos prestados de una casa de corretaje para aumentar el tamaño de una posición en acciones más allá del efectivo disponible.
+
+**Q2.** Como el capital propio del inversionista es una parte más pequeña de la posición total, el mismo movimiento en dólares produce un efecto porcentual mayor sobre su capital.
+
+**Q3.** Una llamada de margen se activa cuando el valor de la cuenta baja demasiado, lo que obliga al inversionista a añadir fondos o enfrentar la liquidación involuntaria de su posición.
+
+**Q4.** Lo forzado e involuntario de la venta hace que el inversionista pierda la opción de esperar una posible recuperación, lo que fija las pérdidas en un mal momento.
+
+**Q5.** Una pérdida de $6,000 sobre los $10,000 de capital original representa una pérdida de 60% de ese capital, aunque la acción en sí solo bajó 30%.
+
+## Puntos clave
+- Comprar a margen usa fondos prestados para aumentar el tamaño de una posición, en un concepto parecido al apalancamiento en bienes raíces.
+- Esto amplifica tanto las ganancias como las pérdidas porcentuales sobre el capital propio que invirtió el inversionista.
+- Una llamada de margen puede obligar a vender a un precio deprimido durante una caída, lo que convierte una pérdida en papel recuperable en una permanente.
+- El riesgo de una posición a margen es bastante mayor que el de una posición equivalente pagada completamente en efectivo, sin apalancamiento.
+
+===== WHITE-L4-018
+TITLE: Análisis de los fondos indexados: por qué es raro ganarle al mercado de forma constante
+SUMMARY: Conozca lo que hace un fondo indexado y por qué la mayoría de los administradores activos no le ganan a su índice de referencia a largo plazo, sobre todo después de los cargos.
+KEYWORDS: fondos indexados, eficiencia del mercado, desempeño de la administración activa, inversión pasiva
+# Análisis de los fondos indexados: por qué es raro ganarle al mercado de forma constante
+
+## Escenario inicial
+SUPUESTO/OPINIÓN (escenario hipotético solo con fines educativos): Imagine una crisis de salud pública generalizada que paraliza el transporte marítimo y la manufactura en todo el mundo por un periodo largo, lo que enreda las cadenas de suministro de muchas industrias a la vez. Durante un periodo de trastornos generalizados en el mercado, algunos fondos de administración activa se atribuyen el mérito de haber navegado bien el caos, mientras que los fondos indexados simplemente siguieron al mercado hacia abajo y de vuelta hacia arriba. Esta lección mira lo que de verdad muestran los datos de desempeño a largo plazo sobre el historial de la administración activa.
+
+## Objetivos de aprendizaje
+- Explicar para qué está diseñado un fondo indexado.
+- Explicar por qué ganarle a un índice amplio del mercado de forma constante ha resultado difícil para la mayoría de los administradores profesionales.
+- Identificar las razones clave detrás de este patrón persistente de bajo desempeño.
+- Distinguir entre la destreza y la suerte al evaluar el historial a corto plazo de un administrador de fondos.
+
+## Contenido principal
+Un fondo indexado está diseñado para seguir lo más de cerca posible el desempeño de un índice del mercado específico (como un índice amplio de la bolsa), en vez de tratar de escoger valores individuales que se espera rindan más que los demás. DATO VERIFICADO: los estudios a largo plazo sobre el desempeño de los fondos de administración activa han mostrado de forma constante que la mayoría de estos fondos rinden menos que su índice de referencia en periodos largos (los estudios que se citan con frecuencia muestran que esa mayoría aumenta en horizontes más largos, como 10 a 15 años), incluso antes de considerar la ineficiencia contributiva que puede venir de las operaciones más frecuentes de los fondos de administración activa.
+
+Aquí está el "porqué" existe este patrón persistente, lo que nos lleva de vuelta al análisis de la razón de gastos de la lección 5: la administración activa cuesta más (razones de gastos más altas para pagar la investigación y las operaciones), y ese costo más alto crea un obstáculo de desempeño que cada fondo de administración activa tiene que pasar solo para igualar el rendimiento neto de un fondo indexado de bajo costo, ni hablar de ganarle. Además del costo, los mercados también son muy competitivos: muchísimos inversionistas profesionales con destreza y recursos analizan la misma información pública, lo que hace muy difícil que un solo administrador encuentre y aproveche de forma constante valores con un precio equivocado antes que los demás, un concepto que se explora más en la lección sobre la hipótesis de los mercados eficientes, más adelante en este nivel.
+
+Por eso, un buen historial a corto plazo de un administrador de fondos, aunque sea de varios años, no predice de forma confiable que vaya a seguir rindiendo más. OPINIÓN y advertencia estadística importante: como existe una cantidad enorme de fondos de administración activa, algunos rendirán más que los demás en cualquier periodo por pura casualidad, igual que en un grupo muy grande algunas personas que tiran una moneda sacarán cara muchas veces seguidas por pura suerte, sin que eso refleje ninguna destreza real para predecir cómo va a caer la moneda.
+
+## Ejemplo práctico
+EJEMPLO ILUSTRATIVO: En un periodo de 15 años que incluye el trastorno que se describe en el escenario de arriba y lo que vino después, un fondo indexado de bajo costo que sigue al mercado en general rinde 9% al año después de los cargos. De una muestra grande de fondos de administración activa que existían al principio de ese periodo, la mayoría rinde menos que ese 9% neto una vez se toman en cuenta sus cargos más altos, aunque muchos administradores de esa muestra rindieron más en algunos años. Esto ilustra lo difícil que es mantener un mejor desempeño de forma constante durante un ciclo completo del mercado.
+
+## Prueba práctica
+**Q1. ¿Para qué está diseñado un fondo indexado?**
+A) Para tratar de escoger de forma constante acciones que se espera rindan más que el mercado
+B) Para seguir lo más de cerca posible el desempeño de un índice del mercado específico
+C) Para garantizar un rendimiento anual fijo, sin importar las condiciones del mercado
+D) Para invertir solo en la acción de una sola compañía
+
+**Q2. ¿Qué han mostrado de forma constante los estudios a largo plazo sobre el desempeño de los fondos de administración activa frente a sus índices de referencia?**
+A) La gran mayoría de los fondos de administración activa le ganan de forma constante a su índice de referencia en periodos largos
+B) La mayoría de los fondos de administración activa rinden menos que su índice de referencia en periodos largos, sobre todo en 10 a 15 años o más
+C) Los fondos de administración activa y los fondos indexados siempre rinden de forma idéntica
+D) Los fondos de administración activa no tienen ningún cargo
+
+**Q3. ¿Por qué una razón de gastos más alta crea un obstáculo de desempeño para los fondos de administración activa?**
+A) La razón de gastos no tiene relación con el desempeño neto de un fondo
+B) El costo adicional hay que superarlo solo para igualar el rendimiento neto de un fondo indexado de bajo costo, ni hablar de ganarle
+C) Los cargos más altos siempre garantizan mejor investigación y rendimientos más altos
+D) Los fondos activos están exentos de pagar cualquier cargo
+
+**Q4. ¿Por qué es difícil que administradores profesionales con destreza encuentren y aprovechen de forma constante valores con un precio equivocado?**
+A) Ningún inversionista profesional analiza la información pública del mercado
+B) Muchísimos profesionales con destreza y recursos analizan la misma información, lo que hace difícil aprovechar de forma constante errores de precio que duren
+C) No existen valores con un precio equivocado en ningún mercado
+D) Solo los inversionistas sin destreza tratan de encontrar valores con un precio equivocado
+
+**Q5. ¿Por qué un buen historial a corto plazo de un administrador de fondos no predice de forma confiable que vaya a seguir rindiendo más?**
+A) Los historiales a corto plazo siempre predicen a la perfección el desempeño futuro
+B) Como existen muchísimos fondos, algunos rendirán más que los demás en cualquier periodo por pura casualidad, igual que en la analogía de la moneda, sin que eso refleje una destreza garantizada
+C) La ley obliga a los administradores de fondos a rendir menos después de un buen periodo
+D) El mejor desempeño a corto plazo siempre continúa para siempre
+
+## Clave de respuestas
+Q1: B
+Q2: B
+Q3: B
+Q4: B
+Q5: B
+
+## Respuestas y explicaciones
+**Q1.** Los fondos indexados buscan copiar de cerca el desempeño de un índice de referencia en vez de escoger valores de forma activa.
+
+**Q2.** Este patrón de bajo desempeño es un hallazgo persistente y bien documentado en muchos estudios a largo plazo.
+
+**Q3.** Como se estableció en la lección sobre la razón de gastos, los costos más altos reducen directamente los rendimientos netos del inversionista, lo que exige un mejor desempeño bruto solo para mantenerse al nivel de las alternativas de menor costo.
+
+**Q4.** La competencia intensa entre participantes del mercado bien informados hace difícil que un solo administrador encuentre una y otra vez, de forma confiable, oportunidades que los demás no vieron.
+
+**Q5.** Por la enorme cantidad de fondos, se espera estadísticamente que haya algo de mejor desempeño por casualidad, lo que hace difícil distinguir la verdadera destreza de la suerte en un historial limitado.
+
+## Puntos clave
+- Los fondos indexados buscan seguir de cerca un índice de referencia en vez de tratar de escoger valores que rindan más.
+- Históricamente, la mayoría de los fondos de administración activa han rendido menos que su índice de referencia en periodos largos, sobre todo después de los cargos.
+- Los costos más altos y la competencia intensa entre profesionales con destreza contribuyen a este patrón persistente de bajo desempeño.
+- Un buen historial a corto plazo no predice de forma confiable que se seguirá rindiendo más, ya que algunos fondos rendirán más por pura casualidad.
+
+===== WHITE-L4-019
+TITLE: Administración activa frente a pasiva: por qué los cargos son el mejor indicador del rendimiento neto
+SUMMARY: Conozca por qué, en estudios grandes, la razón de gastos ha resultado ser uno de los mejores indicadores del desempeño neto relativo de un fondo, más confiable que su historial.
+KEYWORDS: administración activa, administración pasiva, cargos de los fondos, predicción del rendimiento neto
+# Administración activa frente a pasiva: por qué los cargos son el mejor indicador del rendimiento neto
+
+## Escenario inicial
+SUPUESTO/OPINIÓN (escenario hipotético solo con fines educativos): Imagine una crisis de salud pública generalizada que paraliza el transporte marítimo y la manufactura en todo el mundo por un periodo largo, lo que enreda las cadenas de suministro de muchas industrias a la vez. Después de un trastorno grande en el mercado, los investigadores financieros que estudian muestras grandes de datos sobre el desempeño de los fondos señalan de forma constante una variable que predijo los resultados relativos mejor que casi cualquier otra. Esta lección explica cuál es esa variable y por qué funciona de forma tan confiable.
+
+## Objetivos de aprendizaje
+- Explicar la diferencia de fondo entre la administración activa y la pasiva de los fondos.
+- Explicar por qué la razón de gastos ha resultado ser un indicador fuerte del desempeño neto relativo de los fondos.
+- Explicar por qué esta relación se mantiene aunque la destreza y el método claramente importan en principio.
+- Aplicar este entendimiento a los criterios para escoger un fondo.
+
+## Contenido principal
+La administración activa consiste en que un administrador o un equipo de un fondo toman decisiones a propósito sobre qué valores comprar, mantener o vender, tratando de rendir más que un índice de referencia. La administración pasiva, que vimos en la lección 18, simplemente sigue un índice de referencia. DATO VERIFICADO: en estudios académicos y de la industria grandes sobre el desempeño de los fondos, la razón de gastos ha salido una y otra vez como uno de los indicadores más fuertes del desempeño neto futuro relativo de un fondo dentro de su categoría; más confiable, en promedio, que el desempeño pasado, el tiempo que lleva el administrador u otros criterios de selección que se citan a menudo.
+
+Aquí está el "porqué" esto se mantiene aunque la destreza y el método claramente importan en principio: dentro de cualquier categoría de fondos, los rendimientos brutos (antes de los cargos) tienden a agruparse bastante cerca unos de otros en periodos largos, ya que, como explicó la lección 18, es realmente difícil que un administrador rinda de forma constante y bastante más que sus competidores cuando todos analizan el mismo mercado competitivo. Cuando los rendimientos brutos son parecidos entre muchos fondos de una categoría, el cargo que cobra cada fondo se convierte en el factor principal que separa los rendimientos netos: el fondo que le deja una parte mayor del rendimiento bruto al inversionista, y no a la compañía del fondo, tiende a dar el mejor resultado neto, casi sin importar la destreza de un administrador en particular.
+
+Por eso, el nivel de los cargos, a diferencia de la destreza o el desempeño futuros de un administrador (que por naturaleza no se pueden predecir de antemano), es una variable conocida, fija y que se puede controlar al momento de invertir. Por eso, muchos analistas financieros, OPINIÓN: incluida una parte importante de la comunidad profesional de investigación de inversiones, tratan la razón de gastos como uno de los criterios de selección más útiles y mejor respaldados por la evidencia al comparar fondos parecidos, precisamente porque se conoce de antemano, mientras que el mejor desempeño futuro no.
+
+## Ejemplo práctico
+EJEMPLO ILUSTRATIVO: Unos investigadores que estudian una muestra grande de fondos de administración activa de una sola categoría los ordenan en grupos según su razón de gastos, del más barato al más caro. El grupo más barato da, en promedio, rendimientos netos bastante más altos a los inversionistas que el grupo más caro en un periodo de 10 años, aunque algunos fondos del grupo más caro tuvieron a veces buenos resultados en años específicos. Esto demuestra que, en promedio y con el tiempo, el nivel de los cargos predijo el resultado neto de forma más confiable que cualquier otra característica que se examinó.
+
+## Prueba práctica
+**Q1. ¿Cuál es la diferencia de fondo entre la administración activa y la pasiva?**
+A) La administración activa sigue exactamente un índice de referencia, mientras que la pasiva trata de ganarle
+B) La administración activa escoge valores a propósito para tratar de ganarle a un índice de referencia, mientras que la pasiva simplemente sigue ese índice
+C) No hay ninguna diferencia importante entre las dos formas
+D) La administración pasiva siempre cobra cargos más altos que la activa
+
+**Q2. ¿Por qué la razón de gastos ha resultado ser un indicador tan fuerte del desempeño neto relativo de los fondos?**
+A) La razón de gastos en realidad no tiene relación con el desempeño de los fondos
+B) Como los rendimientos brutos tienden a agruparse de cerca dentro de una categoría, el cargo que cobra cada fondo se convierte en el factor principal que separa los rendimientos netos
+C) Los cargos más altos siempre producen rendimientos brutos proporcionalmente más altos
+D) La razón de gastos solo importa en los fondos de bonos, no en los de acciones
+
+**Q3. ¿Por qué la razón de gastos se considera un criterio de selección más útil que el desempeño pasado?**
+A) El desempeño pasado siempre predice a la perfección los resultados futuros
+B) La razón de gastos es una variable conocida, fija y que se puede controlar al momento de invertir, mientras que la destreza y el desempeño futuros de un administrador por naturaleza no se pueden predecir
+C) La razón de gastos no influye en las decisiones de inversión
+D) El desempeño pasado y la razón de gastos son exactamente la misma medida
+
+**Q4. En el ejemplo, ¿qué encontraron los investigadores al comparar los grupos de fondos baratos y caros en 10 años?**
+A) Los fondos caros siempre rindieron más que los baratos, en todos los años
+B) El grupo barato dio, en promedio, rendimientos netos bastante más altos, aunque algunos fondos caros tuvieron buenos resultados en años específicos
+C) No hubo ninguna diferencia entre los dos grupos
+D) Los fondos baratos siempre rindieron menos, sin importar el periodo
+
+**Q5. ¿Por qué muchos analistas tratan la razón de gastos como un criterio de selección especialmente útil y respaldado por la evidencia?**
+A) Porque garantiza un mejor desempeño en cada caso
+B) Porque es una característica conocida y fija que se puede saber de antemano, a diferencia del mejor desempeño futuro de un administrador, que no se puede predecir
+C) Porque los investigadores nunca han estudiado la razón de gastos
+D) Porque los cargos no importan para los resultados netos de los inversionistas
+
+## Clave de respuestas
+Q1: B
+Q2: B
+Q3: B
+Q4: B
+Q5: B
+
+## Respuestas y explicaciones
+**Q1.** La diferencia de fondo está en si el fondo trata de ganarle a un índice de referencia con decisiones activas o simplemente lo copia.
+
+**Q2.** Cuando los fondos de una categoría producen rendimientos brutos parecidos, la diferencia en los cargos se convierte en la causa principal de las diferencias en lo que los inversionistas realmente se quedan.
+
+**Q3.** Como el nivel de los cargos se conoce de antemano y el desempeño futuro no, la razón de gastos da una base más confiable para comparar en el momento en que hay que tomar una decisión.
+
+**Q4.** El resultado promedio a largo plazo favoreció al grupo barato, aunque algunos fondos caros tuvieron años buenos aislados.
+
+**Q5.** Que se pueda predecir y controlar, frente a lo impredecible que son los rendimientos futuros, la convierte en una herramienta de selección práctica y respaldada por la evidencia.
+
+## Puntos clave
+- La administración activa trata de ganarle a un índice de referencia escogiendo valores a propósito; la pasiva lo sigue directamente.
+- En estudios grandes, la razón de gastos ha salido una y otra vez como uno de los indicadores más fuertes del desempeño neto relativo de los fondos.
+- Esto se mantiene porque los rendimientos brutos tienden a agruparse dentro de una categoría, lo que hace del nivel de los cargos el factor principal que separa los resultados netos.
+- Como los cargos se conocen y se pueden controlar de antemano, a diferencia del desempeño futuro, son un criterio especialmente útil para escoger un fondo.
+
+===== WHITE-L4-020
+TITLE: Análisis del rebalanceo: por qué vender lo que gana y comprar lo que se queda atrás no es ir contra la corriente, sino disciplina
+SUMMARY: Conozca por qué la distribución de un portafolio se desvía con el tiempo y por qué el rebalanceo, que vende lo que va ganando y compra lo que va atrás, es una disciplina de manejo del riesgo.
+KEYWORDS: rebalanceo del portafolio, disciplina de distribución de activos, comprar bajo y vender alto, manejo del riesgo
+# Análisis del rebalanceo: por qué vender lo que gana y comprar lo que se queda atrás no es ir contra la corriente, sino disciplina
+
+## Escenario inicial
+SUPUESTO/OPINIÓN (escenario hipotético solo con fines educativos): Imagine que, después de años de expansión rápida, los mercados de bienes raíces y de crédito al consumidor de un país muy poblado empiezan a mostrar señales de una corrección fuerte a medida que suben los impagos. Mientras una clase de activo en pleno auge, impulsada por el crédito, sigue subiendo por años, la distribución original de 60/40 entre acciones y bonos de un inversionista se desvía calladamente a 85/15 a medida que las acciones superan a los bonos. Esta lección explica por qué devolver esa distribución a su meta, aunque el auge siga, es cuestión de disciplina y no de pesimismo.
+
+## Objetivos de aprendizaje
+- Explicar lo que significa rebalancear un portafolio.
+- Explicar por qué la distribución de un portafolio que no se administra se aleja de su meta original con el tiempo.
+- Explicar por qué el rebalanceo consiste de forma sistemática en vender lo que va ganando y comprar lo que se va quedando atrás.
+- Explicar por qué esta práctica se basa en una disciplina de manejo del riesgo y no en una predicción del mercado.
+
+## Contenido principal
+Rebalancear un portafolio significa ajustar periódicamente sus inversiones para devolverlas a una distribución de activos meta fijada por adelantado (como 60% en acciones y 40% en bonos), un concepto que repite directamente el análisis del rebalanceo del portafolio inmobiliario que vimos antes en este programa, aplicado ahora a un portafolio de inversión con varias clases de activos. DATO VERIFICADO: como las distintas clases de activos producen rendimientos distintos con el tiempo, la distribución real de un portafolio que no se administra se va a alejar de su meta original; una subida fuerte y sostenida de las acciones, como la que se menciona en el escenario de arriba, puede llevar un portafolio de 60/40 a 80/20 o más, solo porque las acciones rindieron más que los bonos, sin que el inversionista hiciera nada a propósito.
+
+Aquí está el "porqué" el rebalanceo consiste de forma sistemática en vender lo que va ganando y comprar lo que se va quedando atrás: devolver un portafolio de 80/20 a su meta de 60/40 requiere vender parte de las acciones, que ahora pesan de más (lo que ganó recientemente), y comprar más bonos (lo que se quedó atrás recientemente), lo que impone de forma mecánica una disciplina de "comprar bajo, vender alto" sin que el inversionista tenga que predecir qué activo va a rendir más después. Esto puede sentirse incómodo, ya que significa recortar una clase de activo que ha rendido bien y añadirle a una que se ha quedado atrás, pero la disciplina se basa en el manejo del riesgo, no en una predicción de que la tendencia está por virarse.
+
+Por eso, el rebalanceo es de fondo una práctica de control del riesgo y no una apuesta al momento del mercado: un portafolio de 80/20 tiene bastante más riesgo que la distribución de 60/40 que el inversionista quería al principio, sigan subiendo las acciones o terminen bajando, y el rebalanceo existe para mantener el nivel de riesgo real del portafolio alineado con la tolerancia al riesgo que quiere el inversionista, no para predecir la dirección del mercado a corto plazo.
+
+## Ejemplo práctico
+EJEMPLO ILUSTRATIVO: Un inversionista empieza con un portafolio de 60/40 entre acciones y bonos. Después de varios años de una subida fuerte de las acciones, la distribución se desvió a 82/18. Devolverla a 60/40 requiere vender una parte de las acciones (cerca de sus máximos recientes) y añadir a los bonos (que se quedaron atrás). Si después las acciones bajan fuertemente, el portafolio rebalanceado de 60/40 tiene una pérdida total más pequeña que la que habría tenido el portafolio desviado de 82/18, lo que ilustra cómo la disciplina protegió el nivel de riesgo que quería el inversionista, sin importar el momento exacto de la caída que llegó después.
+
+## Prueba práctica
+**Q1. ¿Qué significa rebalancear un portafolio en este contexto?**
+A) Comprar solo la clase de activo que mejor está rindiendo
+B) Ajustar periódicamente las inversiones de un portafolio para devolverlas a una distribución de activos meta fijada por adelantado
+C) Vender todo el portafolio y pasarse a efectivo para siempre
+D) Ignorar por completo la distribución de un portafolio una vez se fija
+
+**Q2. ¿Por qué la distribución de un portafolio que no se administra se aleja de su meta original con el tiempo?**
+A) La distribución de un portafolio nunca cambia una vez se fija
+B) Las distintas clases de activos producen rendimientos distintos con el tiempo, lo que hace que el activo que mejor rinde llegue a representar una parte mayor del portafolio total
+C) El rebalanceo ocurre automáticamente, sin que el inversionista haga nada
+D) La desviación de la distribución solo ocurre en portafolios que solo tienen bonos
+
+**Q3. ¿Por qué el rebalanceo consiste de forma mecánica en vender lo que ganó recientemente y comprar lo que se quedó atrás recientemente?**
+A) El rebalanceo exige adivinar qué activo va a rendir más después
+B) Devolver un activo que pesa de más a su meta significa necesariamente vender parte de él y añadirle al activo que pesa de menos
+C) El rebalanceo siempre significa vender por completo el activo que peor rinde
+D) Este patrón solo ocurre en portafolios de bonos, no de acciones
+
+**Q4. ¿Por qué el rebalanceo se considera una práctica de manejo del riesgo y no una apuesta al momento del mercado?**
+A) Exige predecir con exactitud el próximo movimiento del mercado
+B) Existe para mantener el nivel de riesgo real del portafolio alineado con la tolerancia al riesgo que quiere el inversionista, siga o se vire la tendencia
+C) El rebalanceo garantiza rendimientos más altos que no rebalancear
+D) El manejo del riesgo y adivinar el momento del mercado son el mismo concepto
+
+**Q5. En el ejemplo, ¿por qué el portafolio rebalanceado de 60/40 tuvo una pérdida más pequeña que el portafolio desviado de 82/18 durante la caída de las acciones que vino después?**
+A) El portafolio rebalanceado tenía una distribución más baja en acciones y por lo tanto menos exposición a la caída de las acciones
+B) El portafolio desviado no tenía ninguna exposición a las acciones
+C) El rebalanceo eliminó por completo todo el riesgo de inversión del portafolio
+D) Los dos portafolios tenían distribuciones idénticas al momento de la caída
+
+## Clave de respuestas
+Q1: B
+Q2: B
+Q3: B
+Q4: B
+Q5: A
+
+## Respuestas y explicaciones
+**Q1.** El rebalanceo devuelve específicamente un portafolio a la mezcla de clases de activos que se quería al principio.
+
+**Q2.** Las diferencias de desempeño entre las clases de activos mueven naturalmente las proporciones de un portafolio lejos de sus metas originales si no se rebalancea a propósito.
+
+**Q3.** Devolver las proporciones meta requiere matemáticamente recortar lo que creció de más y añadirle a lo que se quedó atrás, sin importar lo que se espere del futuro.
+
+**Q4.** La disciplina se enfoca en controlar la exposición al riesgo del portafolio frente a una meta fijada por adelantado, no en pronosticar la dirección del mercado a corto plazo.
+
+**Q5.** Al devolver la distribución en acciones a un nivel más bajo, el portafolio rebalanceado tenía proporcionalmente menos exposición a la caída de la bolsa que vino después que el portafolio desviado, cargado de acciones.
+
+## Puntos clave
+- El rebalanceo devuelve un portafolio a su distribución de activos meta fijada por adelantado después de que el desempeño del mercado lo desvió.
+- Los portafolios que no se administran se desvían de forma natural, ya que las distintas clases de activos producen rendimientos distintos con el tiempo.
+- El rebalanceo impone de forma mecánica vender lo que va ganando y comprar lo que se va quedando atrás, sin necesidad de predecir el mercado.
+- Esta disciplina se basa en manejar el nivel de riesgo real del portafolio, no en adivinar el momento ni predecir la dirección futura del mercado.

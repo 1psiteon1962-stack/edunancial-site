@@ -1,0 +1,342 @@
+===== WHITE-L3-022
+TITLE: Pourquoi les ratios de frais s'accumulent sur des décennies
+SUMMARY: Découvre pourquoi des frais annuels de fonds qui semblent modestes peuvent coûter des dizaines de milliers de dollars sur un long horizon de placement, et pourquoi cet effet est facile à sous-estimer.
+# WHITE-L3-022 : Pourquoi les ratios de frais s'accumulent sur des décennies
+
+## Objectifs d'apprentissage
+À la fin de cette leçon, tu pourras :
+- Expliquer ce qu'est un ratio de frais
+- Expliquer pourquoi un petit écart de frais en pourcentage devient un grand écart en dollars sur des décennies
+- Expliquer pourquoi les frais sont l'une des rares variables de placement qu'un investisseur peut entièrement contrôler
+
+## Contenu principal
+
+Un **ratio de frais** est le montant annuel qu'un fonds facture, exprimé en pourcentage de l'actif investi — par exemple, un ratio de frais de 1 % veut dire 10 $ par année pour chaque tranche de 1 000 $ investie. À lui seul, un chiffre de 1 % semble petit. Voici « pourquoi » il ne l'est pas : ces frais sont facturés chaque année, et non une seule fois, et ils réduisent le montant qui fructifie pour toi pendant toute la période où tu détiens le fonds.
+
+[ILLUSTRATIVE EXAMPLE] Si on compare deux fonds au rendement sous-jacent identique avant frais — l'un qui facture 0,05 % et l'autre 1 % — sur une période de détention de plusieurs décennies, l'écart de frais se transforme en un écart important dans la valeur finale du compte, puisque le fonds aux frais plus élevés rapporte en fait un peu moins chaque année, et que ce manque à gagner s'accumule contre toi de la même façon que les rendements s'accumulent en ta faveur.
+
+C'est pourquoi de nombreux investisseurs expérimentés portent une attention particulière aux frais des fonds : contrairement aux rendements futurs du marché, que personne ne peut contrôler ni prédire, les frais que tu paies sont connus d'avance et entièrement sous ton contrôle, selon le fonds que tu choisis. [VERIFIED FACT] Toutes choses égales par ailleurs, un ratio de frais plus bas augmente directement ton rendement net, mais il faut évaluer les frais avec d'autres facteurs pertinents comme la stratégie, les placements et l'efficacité fiscale d'un fonds (leçon 21), et non de façon complètement isolée.
+
+## Exemple pratique
+
+[ILLUSTRATIVE EXAMPLE] Une investisseuse place 10 000 $ dans un fonds sans rien ajouter par la suite, et une version à faibles coûts et une version plus coûteuse du fonds ont des rendements identiques avant frais sur une période de 30 ans. [ASSUMPTION] Même un écart de frais annuels qui semble modeste, de 0,95 point de pourcentage, accumulé sur 30 ans, pourrait donner un solde final nettement plus bas pour le fonds aux frais plus élevés — potentiellement un écart assez grand pour représenter des années de revenu de retraite, ce qui montre comment un petit pourcentage annuel devient un montant important en dollars sur un horizon assez long.
+
+## Quiz de pratique
+
+1. Que représente un ratio de frais?
+2. Pourquoi un petit écart de frais en pourcentage compte-t-il autant sur une période de plusieurs décennies?
+3. Pourquoi de nombreux investisseurs expérimentés portent-ils une attention particulière aux frais, par rapport à d'autres facteurs de placement?
+
+## Corrigé
+
+1. Les frais annuels qu'un fonds facture, exprimés en pourcentage de l'actif investi.
+2. Parce que les frais sont facturés chaque année et réduisent le montant qui fructifie avec le temps, et que ce manque à gagner s'accumule contre l'investisseur de la même façon que les rendements s'accumulent en sa faveur.
+3. Parce que les frais sont connus d'avance et entièrement sous le contrôle de l'investisseur, contrairement aux rendements futurs du marché, qui ne peuvent être ni prédits ni contrôlés.
+
+## Réponses et explications
+
+1. C'est la base de définition de la leçon.
+2. C'est l'idée centrale d'accumulation autour de laquelle la leçon est construite.
+3. Ça renforce pourquoi l'attention aux frais est un levier particulièrement contrôlable en placement.
+
+## Points clés à retenir
+- Un ratio de frais correspond à des frais annuels facturés en pourcentage de l'actif investi.
+- Même un petit écart de frais en pourcentage devient un grand écart en dollars sur une période de plusieurs décennies.
+- Les frais sont l'un des rares facteurs de placement entièrement sous le contrôle de l'investisseur, ce qui justifie d'y porter une attention particulière.
+
+## Avis pédagogique
+Cette leçon sert uniquement à l'éducation financière générale et ne constitue pas un conseil financier, de placement, fiscal ou juridique personnalisé. Tous les chiffres sont des estimations à titre d'illustration, et non des garanties. Consulte un professionnel de la finance autorisé avant de prendre des décisions de placement.
+
+===== WHITE-L3-023
+TITLE: Pourquoi le placement indiciel parie sur le marché, et non sur un gestionnaire
+SUMMARY: Découvre sur quoi parie réellement le placement indiciel, et pourquoi c'est un pari fondamentalement différent du choix d'actions individuelles ou de gestionnaires de fonds actifs.
+# WHITE-L3-023 : Pourquoi le placement indiciel parie sur le marché, et non sur un gestionnaire
+
+## Objectifs d'apprentissage
+À la fin de cette leçon, tu pourras :
+- Expliquer ce que fait un fonds indiciel
+- Expliquer le pari précis que fait un investisseur indiciel, par rapport à un investisseur actif
+- Expliquer pourquoi cette approche élimine le risque lié au choix du gestionnaire
+
+## Contenu principal
+
+Un **fonds indiciel** est conçu pour suivre un indice de marché précis (comme un indice boursier général) en détenant les mêmes titres, dans des proportions à peu près semblables, que cet indice — plutôt que de confier à un gestionnaire le choix actif des titres à acheter ou à vendre pour tenter de faire mieux que l'indice.
+
+Voici « pourquoi » c'est un pari fondamentalement différent : un investisseur indiciel ne parie pas sur une entreprise en particulier, ni sur le talent d'un gestionnaire de fonds pour choisir des actions — il parie sur la croissance globale, à long terme, du marché (ou du segment de marché) que représente l'indice. Ça élimine toute une couche de risque que comporte le placement actif : le risque que les actions que tu as choisies, ou celles qu'a choisies ton gestionnaire, aient un rendement inférieur à celui du marché dans son ensemble.
+
+[VERIFIED FACT] Ça ne veut pas dire que le placement indiciel élimine tout risque — les fonds indiciels comportent toujours le risque d'une baisse du marché lui-même, puisqu'ils sont précisément conçus pour évoluer avec ce marché, et non pour protéger contre ses baisses.
+
+## Exemple pratique
+
+[ILLUSTRATIVE EXAMPLE] Une investisseuse qui choisit un fonds à gestion active parie implicitement que le gestionnaire du fonds peut choisir des titres qui, ensemble, feront mieux que le marché après frais — un pari sur le talent et les décisions de ce gestionnaire précis. Une investisseuse qui choisit plutôt un fonds indiciel général parie que le marché dans son ensemble va croître avec le temps, sans avoir besoin de savoir quelles entreprises précises ni quel gestionnaire précis feront les bons choix. [ASSUMPTION] Si le marché dans son ensemble monte pendant sa période de détention, l'investisseuse indicielle profite de cette croissance, peu importe quelles entreprises l'ont entraînée — elle n'a pas eu besoin de repérer d'avance les gagnants précis.
+
+## Quiz de pratique
+
+1. Que cherche à faire un fonds indiciel?
+2. Quel pari précis fait un investisseur indiciel, par rapport à un investisseur dans un fonds actif?
+3. Le placement indiciel élimine-t-il complètement le risque de placement? Pourquoi?
+
+## Corrigé
+
+1. Suivre un indice de marché précis en détenant les mêmes titres dans des proportions à peu près semblables, plutôt que de confier à un gestionnaire le choix actif des placements.
+2. Un pari sur la croissance globale du marché ou d'un segment de marché, plutôt qu'un pari sur le talent d'un gestionnaire ou d'un investisseur pour choisir des actions.
+3. Non — les fonds indiciels comportent toujours le risque d'une baisse du marché dans son ensemble, puisqu'ils sont conçus pour suivre les mouvements de ce marché, et non pour protéger contre ses baisses.
+
+## Réponses et explications
+
+1. C'est la définition de base de la leçon.
+2. C'est la distinction conceptuelle centrale entre le placement indiciel et le placement actif.
+3. C'est une précision importante qui corrige l'idée trop simple que « les fonds indiciels sont sans risque ».
+
+## Points clés à retenir
+- Les fonds indiciels suivent un indice de marché au lieu de compter sur le choix actif d'actions par un gestionnaire.
+- Le placement indiciel parie sur la croissance du marché dans son ensemble, et non sur le talent ou les choix d'actions d'un gestionnaire en particulier.
+- Les fonds indiciels comportent toujours un risque de marché — ils évoluent avec le marché, y compris pendant les baisses.
+
+## Avis pédagogique
+Cette leçon sert uniquement à l'éducation financière générale et ne constitue pas un conseil financier, de placement, fiscal ou juridique personnalisé. Consulte un professionnel de la finance autorisé avant de prendre des décisions de placement.
+
+===== WHITE-L3-024
+TITLE: Pourquoi la gestion active doit surmonter ses propres frais pour ajouter de la valeur
+SUMMARY: Découvre pourquoi un fonds à gestion active doit battre le marché par plus qu'une petite marge pour donner réellement un meilleur résultat qu'un fonds indiciel à faibles coûts.
+# WHITE-L3-024 : Pourquoi la gestion active doit surmonter ses propres frais pour ajouter de la valeur
+
+## Objectifs d'apprentissage
+À la fin de cette leçon, tu pourras :
+- Expliquer pourquoi battre le marché avant frais n'équivaut pas à le battre après frais
+- Expliquer pourquoi la gestion active comporte un obstacle de rendement intégré par rapport au placement indiciel
+- Expliquer pourquoi cet obstacle s'accumule avec le temps, comme l'effet du ratio de frais de la leçon 22
+
+## Contenu principal
+
+La leçon 22 a montré comment les frais s'accumulent contre l'investisseur avec le temps. Voici « pourquoi » ça crée un défi précis pour les fonds à gestion active : comme les fonds actifs facturent généralement des frais plus élevés que les fonds indiciels (leçon 21), un gestionnaire n'a pas seulement besoin de choisir des placements qui font mieux que le marché — il doit faire assez mieux pour couvrir cet écart de frais, sinon l'investisseur s'en tire moins bien qu'en détenant simplement un fonds indiciel à faibles coûts, même si les choix du gestionnaire ont techniquement « battu le marché » avant frais.
+
+[VERIFIED FACT] Battre le marché de façon constante, après frais, sur de longues périodes s'est historiquement révélé difficile pour le fonds à gestion active moyen, selon des études qui comparent le rendement des fonds actifs aux indices de référence pertinents sur des périodes de plusieurs années — même si certains fonds et gestionnaires peuvent faire mieux, et le font, pendant des périodes précises, et que les résultats varient selon le fonds, la stratégie et la période.
+
+C'est pourquoi la question à se poser pour évaluer un fonds actif ne devrait pas être « le gestionnaire a-t-il choisi de bons placements? », mais plutôt « les choix du gestionnaire ont-ils fait assez mieux pour surmonter l'écart de frais par rapport à une solution indicielle comparable à faibles coûts? » — une barre nettement plus haute que simplement battre le marché.
+
+## Exemple pratique
+
+[ILLUSTRATIVE EXAMPLE] Un fonds à gestion active facture un ratio de frais de 1,2 %; un fonds indiciel comparable facture 0,05 % — un écart d'environ 1,15 point de pourcentage par année. Si les choix d'actions sous-jacents du fonds actif font 0,8 % de mieux que l'indice avant frais pendant une année donnée, le fonds a quand même eu un rendement inférieur à la solution indicielle à faibles coûts une fois les frais pris en compte, parce que la surperformance du gestionnaire n'était pas assez grande pour combler l'écart de frais. [ASSUMPTION] Sur de nombreuses années, un fonds actif devrait faire mieux que cet écart de frais de façon constante, et non seulement à l'occasion ou par une petite marge, pour vraiment ajouter une valeur nette par rapport à la solution indicielle.
+
+## Quiz de pratique
+
+1. Pourquoi battre le marché avant frais n'équivaut-il pas à le battre après frais?
+2. Quelle barre de rendement précise un gestionnaire de fonds actif doit-il franchir pour ajouter de la valeur par rapport à un fonds indiciel comparable?
+3. Qu'ont généralement constaté les recherches historiques sur la capacité du fonds à gestion active moyen à franchir cette barre de façon constante sur de longues périodes?
+
+## Corrigé
+
+1. Parce que les frais plus élevés du fonds sont soustraits des rendements, de sorte qu'une surperformance avant frais peut être entièrement ou partiellement annulée par l'écart de frais par rapport à une solution indicielle moins coûteuse.
+2. Faire mieux que le marché par plus que l'écart de frais entre le fonds actif et un fonds indiciel comparable à faibles coûts, et pas seulement battre le marché.
+3. Que le faire de façon constante, sur de longues périodes, s'est historiquement révélé difficile pour le fonds à gestion active moyen, même si les résultats varient selon le fonds, la stratégie et la période.
+
+## Réponses et explications
+
+1. C'est la distinction centrale autour de laquelle la leçon est construite.
+2. Ça reformule la norme d'évaluation de la gestion active de façon plus précise et plus utile.
+3. Ça fournit un contexte nuancé, tiré de la recherche historique, sans exagérer une règle universelle.
+
+## Points clés à retenir
+- Les frais plus élevés de la gestion active créent un obstacle de rendement intégré par rapport au placement indiciel moins coûteux.
+- Un gestionnaire doit faire mieux que l'écart de frais, et pas seulement battre le marché, pour ajouter une valeur nette.
+- Historiquement, le fonds à gestion active moyen a trouvé difficile d'y arriver de façon constante sur de longues périodes, même si les résultats individuels varient.
+
+## Avis pédagogique
+Cette leçon sert uniquement à l'éducation financière générale et ne constitue pas un conseil financier, de placement, fiscal ou juridique personnalisé. Le rendement passé ne garantit pas les résultats futurs. Consulte un professionnel de la finance autorisé avant de prendre des décisions de placement.
+
+===== WHITE-L3-025
+TITLE: Pourquoi le rendement passé d'un fonds ne prédit pas son rendement futur
+SUMMARY: Découvre pourquoi de solides résultats récents d'un fonds ne sont pas un signal fiable de son rendement à venir.
+# WHITE-L3-025 : Pourquoi le rendement passé d'un fonds ne prédit pas son rendement futur
+
+## Objectifs d'apprentissage
+À la fin de cette leçon, tu pourras :
+- Expliquer pourquoi le rendement passé d'un fonds a une valeur prédictive limitée pour son rendement futur
+- Expliquer ce que veut dire « courir après le rendement » et pourquoi ça peut nuire aux rendements
+- Expliquer pourquoi cette notion se relie au biais de récence abordé plus loin dans ce parcours
+
+## Contenu principal
+
+Il est intuitif de supposer qu'un fonds qui a eu un bon rendement récemment continuera probablement d'en avoir un — après tout, il doit bien faire quelque chose de bien. Voici « pourquoi » cette intuition ne tient souvent pas la route : [VERIFIED FACT] de nombreuses recherches qui comparent le classement historique du rendement des fonds sur différentes périodes ont généralement constaté une faible persistance — c'est-à-dire que les fonds les plus performants d'une période ne sont pas, de façon fiable, les plus performants de la période suivante. Les autorités de réglementation ont relevé cette tendance, ce qui explique en partie pourquoi les documents d'information normalisés précisent que le rendement passé ne garantit pas les résultats futurs.
+
+Plusieurs facteurs expliquent cette faible persistance : un bon rendement récent peut refléter un contexte temporairement favorable au style ou au secteur particulier du fonds, plutôt qu'un avantage de compétence reproductible; les stratégies ou les secteurs qui réussissent voient souvent les conditions changer ou deviennent plus encombrés, ce qui réduit l'avantage futur; et les changements de gestionnaire, la croissance de l'actif et d'autres facteurs peuvent tous influer sur les résultats futurs d'un fonds, indépendamment de son historique.
+
+C'est pourquoi le fait de poursuivre les fonds les plus performants récemment — déplacer son argent vers le fonds qui a eu les meilleurs résultats dernièrement — est souvent décrit comme **courir après le rendement**, et peut amener les investisseurs à acheter constamment après de fortes hausses (potentiellement près d'un sommet) et à vendre après des périodes décevantes (potentiellement près d'un creux), ce qui correspond à une version, à l'échelle des fonds, de l'erreur « acheter haut, vendre bas » abordée au début de ce parcours.
+
+## Exemple pratique
+
+[ILLUSTRATIVE EXAMPLE] Un investisseur remarque qu'un fonds a affiché les meilleurs rendements de sa catégorie au cours des trois dernières années et décide d'y investir massivement en se fiant à cet historique. [ASSUMPTION] Si le bon rendement de ce fonds venait surtout d'un contexte temporairement favorable à son style de placement précis, et que ce contexte change dans les années suivantes, le fonds pourrait avoir un rendement inférieur par la suite — ce qui laisserait à l'investisseur une expérience décevante, même s'il l'avait choisi en se fiant à un historique impressionnant.
+
+## Quiz de pratique
+
+1. Qu'ont généralement constaté les recherches sur la persistance du rendement des meilleurs fonds d'une période à l'autre?
+2. Qu'est-ce que « courir après le rendement », et pourquoi ça peut poser problème?
+3. Pourquoi un bon rendement récent peut-il refléter un contexte temporaire plutôt qu'une compétence reproductible du gestionnaire?
+
+## Corrigé
+
+1. Une persistance généralement faible — les meilleurs fonds d'une période ne sont pas, de façon fiable, les meilleurs de la période suivante.
+2. Déplacer son argent vers les fonds les plus performants récemment; ça peut mener à acheter après qu'une forte hausse a déjà eu lieu et à vendre après une période faible, potentiellement près d'un sommet et d'un creux respectivement.
+3. Parce que le style de placement ou le secteur précis d'un fonds a peut-être simplement été favorisé par les conditions de cette période, plutôt que le gestionnaire ait démontré un avantage de compétence reproductible susceptible de durer.
+
+## Réponses et explications
+
+1. C'est le constat de recherche central autour duquel la leçon est construite.
+2. Ça définit et explique le comportement risqué contre lequel la leçon met en garde.
+3. Ça explique la raison de fond pour laquelle la persistance du rendement est souvent faible.
+
+## Points clés à retenir
+- Selon les recherches disponibles, le rendement passé d'un fonds a généralement montré une faible valeur prédictive de son rendement futur.
+- Courir après le rendement — acheter les fonds les plus performants récemment — peut mener à une version, à l'échelle des fonds, du fait d'acheter haut et de vendre bas.
+- Un bon rendement récent peut refléter des conditions temporairement favorables plutôt qu'un avantage de compétence reproductible du gestionnaire.
+
+## Avis pédagogique
+Cette leçon sert uniquement à l'éducation financière générale et ne constitue pas un conseil financier, de placement, fiscal ou juridique personnalisé. Le rendement passé ne garantit pas les résultats futurs. Consulte un professionnel de la finance autorisé avant de prendre des décisions de placement.
+
+===== WHITE-L3-026
+TITLE: Pourquoi les biais comportementaux coûtent plus cher aux investisseurs que les frais
+SUMMARY: Découvre pourquoi la psychologie de l'investisseur, et pas seulement les frais des fonds, est souvent citée comme l'un des plus grands freins aux rendements réels.
+# WHITE-L3-026 : Pourquoi les biais comportementaux coûtent plus cher aux investisseurs que les frais
+
+## Objectifs d'apprentissage
+À la fin de cette leçon, tu pourras :
+- Expliquer ce que désigne l'« écart comportemental » en placement
+- Expliquer pourquoi le comportement d'un investisseur peut coûter plus cher que les frais, selon cette leçon
+- Avoir un aperçu des biais précis abordés dans les deux prochaines leçons
+
+## Contenu principal
+
+La leçon 22 a montré comment les frais s'accumulent contre les rendements. Cette leçon présente un frein apparenté, et même plus grand selon certaines analyses, aux rendements réels des investisseurs : le comportement lui-même.
+
+L'**écart comportemental** désigne la différence entre les rendements que génère réellement un placement (comme un fonds ou le marché dans son ensemble) et les rendements que l'investisseur moyen dans ce même placement obtient réellement. [VERIFIED FACT] Diverses études de l'industrie qui analysent cet écart ont constaté que les rendements de l'investisseur moyen sont souvent inférieurs à ceux du placement sous-jacent, ce qu'on attribue en grande partie à des achats et à des ventes mal synchronisés, provoqués par des réactions émotionnelles aux mouvements du marché — acheter après qu'un fonds ou le marché a déjà monté (courir après le rendement, leçon 25) et vendre après qu'il a déjà baissé (en écho au défi central de la leçon 1).
+
+Voici « pourquoi » ça compte plus qu'une simple comparaison de frais : un fonds au ratio de frais peu élevé ne protège pas un investisseur contre cet écart comportemental — un investisseur qui vend en panique pendant une baisse et rachète une fois la reprise déjà commencée peut obtenir un rendement bien inférieur au rendement déclaré du fonds lui-même, peu importe à quel point les frais de ce fonds étaient bas.
+
+## Exemple pratique
+
+[ILLUSTRATIVE EXAMPLE] Un fonds indiciel général déclare un solide rendement annuel moyen sur une période de 20 ans. [ASSUMPTION] Des études sur le comportement de l'investisseur moyen dans ce même fonds pourraient toutefois montrer que les investisseurs, dans leur ensemble, ont obtenu un rendement moyen nettement plus faible sur la même période — non pas parce que le fonds a eu un rendement différent selon les investisseurs, mais parce que beaucoup d'investisseurs ont fait entrer et sortir leur argent à des moments défavorables, ratant certaines des meilleures journées du fonds parce qu'ils étaient hors du marché pendant les reprises, et subissant davantage ses pires journées parce qu'ils étaient investis pendant les baisses.
+
+## Quiz de pratique
+
+1. Que désigne l'« écart comportemental »?
+2. Pourquoi un fonds aux frais peu élevés peut-il quand même donner un mauvais résultat réel à un investisseur?
+3. Quels sont les deux comportements précis que cette leçon nomme comme causes fréquentes de l'écart comportemental?
+
+## Corrigé
+
+1. La différence entre le rendement déclaré d'un placement et le rendement réel obtenu par l'investisseur moyen dans ce placement.
+2. Parce que les frais peu élevés du fonds ne protègent pas contre des achats et des ventes mal synchronisés, provoqués par des réactions émotionnelles aux mouvements du marché — c'est le comportement, et non les frais, qui peut être le plus grand frein aux résultats réels.
+3. Acheter après qu'un fonds ou le marché a déjà monté (courir après le rendement) et vendre après qu'il a déjà baissé, sous l'effet de réactions émotionnelles plutôt que d'un plan constant.
+
+## Réponses et explications
+
+1. C'est la définition de base de la leçon.
+2. C'est l'idée centrale qui distingue l'écart comportemental du coût lié aux frais abordé à la leçon 22.
+3. Ça donne un aperçu des biais précis examinés plus en profondeur dans les deux prochaines leçons.
+
+## Points clés à retenir
+- L'écart comportemental décrit la différence entre le rendement réel d'un placement et ce que l'investisseur moyen y obtient réellement.
+- Les études ont généralement attribué cet écart à des achats et à des ventes mal synchronisés, provoqués par des réactions émotionnelles.
+- Des frais bas ne protègent pas, à eux seuls, contre cet écart — le comportement de l'investisseur peut freiner les rendements réels autant ou plus que les frais.
+
+## Avis pédagogique
+Cette leçon sert uniquement à l'éducation financière générale et ne constitue pas un conseil financier, de placement, fiscal ou juridique personnalisé. Le rendement passé ne garantit pas les résultats futurs. Consulte un professionnel de la finance autorisé avant de prendre des décisions de placement.
+
+===== WHITE-L3-027
+TITLE: Pourquoi l'aversion aux pertes pousse les investisseurs à vendre leurs gagnants trop tôt et à garder leurs perdants trop longtemps
+SUMMARY: Découvre pourquoi la douleur d'une perte a tendance à peser plus lourd que le plaisir d'un gain équivalent, et comment ce déséquilibre fausse les décisions de placement.
+# WHITE-L3-027 : Pourquoi l'aversion aux pertes pousse les investisseurs à vendre leurs gagnants trop tôt et à garder leurs perdants trop longtemps
+
+## Objectifs d'apprentissage
+À la fin de cette leçon, tu pourras :
+- Définir l'aversion aux pertes
+- Expliquer l'« effet de disposition » et comment il découle de l'aversion aux pertes
+- Expliquer pourquoi ce comportement peut nuire systématiquement aux rendements à long terme
+
+## Contenu principal
+
+L'**aversion aux pertes** décrit un comportement bien documenté : pour la plupart des gens, la douleur émotionnelle de perdre un certain montant d'argent a tendance à peser plus lourd que le plaisir émotionnel de gagner ce même montant. Cette asymétrie, bien qu'elle fasse partie normale de la psychologie humaine, peut fausser les décisions de placement d'une façon précise et prévisible.
+
+Voici « pourquoi » ça mène à une erreur courante appelée l'**effet de disposition** : les investisseurs influencés par l'aversion aux pertes ont tendance à vendre leurs placements gagnants trop tôt, en concrétisant un gain modeste pour « se sentir bien » et éviter le risque de voir ce gain disparaître — tout en gardant leurs placements perdants bien plus longtemps que les données fondamentales ne le justifieraient, en espérant éviter de « matérialiser » la perte simplement en ne vendant pas, même quand les perspectives du placement se sont réellement détériorées.
+
+[VERIFIED FACT] Ce comportement a été documenté dans de grands ensembles de données sur les opérations réelles d'investisseurs, qui montrent une tendance générale à vendre les gagnants plus souvent que les perdants, compte tenu du rendement réel de chaque position — un comportement qui, s'il est suivi de façon constante, peut nuire systématiquement aux rendements à long terme en coupant trop tôt les positions gagnantes et en laissant courir les positions perdantes.
+
+## Exemple pratique
+
+[ILLUSTRATIVE EXAMPLE] Une investisseuse détient deux positions : l'une a gagné 15 %, l'autre a perdu 15 %. Influencée par l'aversion aux pertes, elle vend la position gagnante pour « encaisser » le gain et ressentir un sentiment d'accomplissement, et garde la position perdante en se disant qu'elle la vendra une fois qu'elle sera « revenue à l'équilibre », pour ne pas avoir à accepter la perte. [ASSUMPTION] Si la position gagnante continue de bien performer après sa vente, et que la position perdante continue de baisser pendant qu'elle la garde en attendant un rebond qui pourrait ne jamais venir, ce comportement — provoqué par l'asymétrie émotionnelle de l'aversion aux pertes plutôt que par les perspectives réelles de chaque placement — lui a coûté plus cher qu'une décision fondée uniquement sur les données fondamentales de chaque position.
+
+## Quiz de pratique
+
+1. Que décrit l'aversion aux pertes?
+2. Qu'est-ce que l'« effet de disposition », et comment découle-t-il de l'aversion aux pertes?
+3. Pourquoi suivre ce comportement de façon constante peut-il nuire aux rendements à long terme?
+
+## Corrigé
+
+1. La tendance de la douleur émotionnelle d'une perte à peser plus lourd que le plaisir émotionnel d'un gain équivalent.
+2. La tendance à vendre ses placements gagnants trop tôt (pour concrétiser un sentiment agréable) et à garder ses placements perdants trop longtemps (pour éviter l'inconfort de matérialiser une perte) — une conséquence comportementale directe de l'aversion aux pertes.
+3. Parce qu'il coupe systématiquement les positions gagnantes avant qu'elles aient fini leur course, tout en laissant les positions perdantes continuer de baisser, au lieu de fonder les décisions de vente sur les perspectives réelles de chaque placement.
+
+## Réponses et explications
+
+1. C'est la notion psychologique de base de la leçon.
+2. C'est le comportement de placement précis, et nommé, qui découle de l'aversion aux pertes.
+3. Ça explique la conséquence pratique de ce comportement, qui nuit aux rendements.
+
+## Points clés à retenir
+- L'aversion aux pertes décrit la tendance des pertes à être plus douloureuses que des gains équivalents sont agréables.
+- Elle peut mener à l'effet de disposition : vendre ses gagnants trop tôt et garder ses perdants trop longtemps.
+- Ce comportement, bien documenté dans les données d'opérations réelles, peut nuire systématiquement aux rendements à long terme s'il est suivi de façon constante.
+
+## Avis pédagogique
+Cette leçon sert uniquement à l'éducation financière générale et ne constitue pas un conseil financier, de placement, fiscal ou juridique personnalisé. Consulte un professionnel de la finance autorisé avant de prendre des décisions de placement.
+
+===== WHITE-L3-028
+TITLE: Pourquoi le biais de récence fausse la perception du risque après un mouvement de marché
+SUMMARY: Découvre pourquoi les investisseurs ont tendance à accorder trop de poids aux événements récents quand ils évaluent le risque, et pourquoi ça peut mener à des décisions mal synchronisées.
+# WHITE-L3-028 : Pourquoi le biais de récence fausse la perception du risque après un mouvement de marché
+
+## Objectifs d'apprentissage
+À la fin de cette leçon, tu pourras :
+- Définir le biais de récence
+- Expliquer pourquoi les événements récents du marché semblent plus prédictifs de l'avenir qu'ils ne le sont réellement
+- Expliquer comment le biais de récence peut pousser les investisseurs vers des décisions mal synchronisées, autant dans les marchés en hausse que dans les marchés en baisse
+
+## Contenu principal
+
+Le **biais de récence** décrit la tendance à accorder plus de poids aux événements récents quand on forme ses attentes sur l'avenir, par rapport au poids que justifierait réellement un portrait historique plus complet.
+
+Voici « pourquoi » ça fausse les décisions de placement : après une longue période de fortes hausses du marché, le biais de récence peut faire paraître la poursuite de rendements élevés comme la situation normale attendue — ce qui amène les investisseurs à prendre plus de risques ou à investir de façon plus agressive au moment même où les conditions pourraient être en train de changer. Après une longue baisse, le même biais peut faire paraître la poursuite des baisses comme inévitable, ce qui amène les investisseurs à vendre ou à éviter d'investir au moment même où les tendances historiques (et la discussion de la leçon 1 sur les « creux » évidents après coup) pourraient laisser croire qu'une reprise finira par suivre.
+
+[VERIFIED FACT] Ce biais est un comportement bien documenté dans la recherche comportementale, distinct d'une mise à jour rationnelle des attentes fondée sur une information vraiment nouvelle — le biais de récence accorde précisément trop de poids à la tendance *la plus récente*, au lieu de tenir compte de l'ensemble plus large des résultats historiques et de leurs probabilités variables.
+
+## Exemple pratique
+
+[ILLUSTRATIVE EXAMPLE] Après plusieurs années de hausses du marché fortes et régulières, un investisseur en vient à considérer ce rythme de croissance comme l'attente normale pour l'avenir, ce qui l'amène à prendre plus de risques de placement qu'il ne l'avait prévu au départ. Après une forte baisse qui suit, cette impression s'inverse — la baisse récente semble maintenant devoir simplement se poursuivre, ce qui l'amène à vendre près du creux et à éviter de réinvestir même quand les conditions commencent à se stabiliser. [ASSUMPTION] Dans les deux cas, ses attentes ont été façonnées de façon disproportionnée par la période la plus récente plutôt que par une perspective historique plus complète sur la façon dont les marchés ont traversé, avec le temps, des cycles de hausse et de baisse.
+
+## Quiz de pratique
+
+1. Que décrit le biais de récence?
+2. Comment le biais de récence peut-il influencer le comportement des investisseurs après une longue période de fortes hausses du marché?
+3. Comment le biais de récence peut-il influencer le comportement des investisseurs après une longue baisse?
+
+## Corrigé
+
+1. La tendance à accorder un poids disproportionné aux événements récents quand on forme ses attentes sur l'avenir, par rapport à un portrait historique plus complet.
+2. Il peut faire paraître la poursuite de rendements élevés comme la situation normale attendue, ce qui amène les investisseurs à prendre plus de risques au moment même où les conditions pourraient être en train de changer.
+3. Il peut faire paraître la poursuite des baisses comme inévitable, ce qui amène les investisseurs à vendre ou à éviter d'investir au moment même où les tendances historiques pourraient laisser croire qu'une reprise finira par suivre.
+
+## Réponses et explications
+
+1. C'est la définition de base de la leçon.
+2. Ça applique le biais au scénario de hausse, en le reliant à une prise de risque excessive.
+3. Ça applique le biais au scénario de baisse, en le reliant au défi central de la leçon 1.
+
+## Points clés à retenir
+- Le biais de récence accorde un poids disproportionné aux événements récents quand on forme ses attentes sur l'avenir.
+- Après de fortes hausses, il peut mener à une prise de risque excessive; après des baisses, il peut mener à vendre à des moments mal choisis.
+- Ce biais accorde trop de poids à la tendance la plus récente au lieu de tenir compte de l'ensemble plus large des comportements historiques du marché.
+
+## Avis pédagogique
+Cette leçon sert uniquement à l'éducation financière générale et ne constitue pas un conseil financier, de placement, fiscal ou juridique personnalisé. Le rendement passé ne garantit pas les résultats futurs. Consulte un professionnel de la finance autorisé avant de prendre des décisions de placement.

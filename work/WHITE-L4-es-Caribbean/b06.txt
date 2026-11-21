@@ -1,0 +1,399 @@
+===== WHITE-L4-026
+TITLE: El análisis de la escalera de bonos: por qué escalonar los vencimientos reduce el riesgo de reinversión
+SUMMARY: Aprenda qué es una escalera de bonos, qué significa el riesgo de reinversión y por qué escalonar los vencimientos reduce ese riesgo, con sus ventajas y desventajas.
+KEYWORDS: escalera de bonos, riesgo de reinversión, estrategia de renta fija, vencimientos escalonados
+# El análisis de la escalera de bonos: por qué escalonar los vencimientos reduce el riesgo de reinversión
+
+## Escenario inicial
+SUPUESTO/OPINIÓN (escenario hipotético solo con fines educativos): Imagine un banco central que sube su tasa de interés de referencia de forma fuerte y repetida en pocos meses para combatir una inflación en aumento. Mientras un banco central cambia las tasas fuertemente en poco tiempo, un inversionista que tiene un solo bono grande que vence todo de una vez se preocupa por verse obligado a reinvertir toda la cantidad a la tasa que haya ese día específico. Esta lección presenta una estrategia diseñada para reducir exactamente esa preocupación.
+
+## Objetivos de aprendizaje
+- Explicar qué es una escalera de bonos.
+- Explicar qué significa el riesgo de reinversión para un inversionista en bonos.
+- Explicar cómo escalonar los vencimientos de los bonos reduce el riesgo de reinversión.
+- Identificar las ventajas y desventajas de una escalera de bonos frente a tener una sola posición grande en bonos.
+
+## Contenido principal
+Una escalera de bonos es una estrategia de construcción de cartera en la que el inversionista tiene varios bonos con fechas de vencimiento escalonadas (por ejemplo, bonos que vencen en 1, 2, 3, 4 y 5 años) en lugar de concentrarse en un solo bono o una sola fecha de vencimiento. DATO VERIFICADO: a medida que vence cada "peldaño" de la escalera, el inversionista reinvierte ese dinero en un nuevo bono a más largo plazo, lo que mantiene la estructura de la escalera con el tiempo.
+
+Este es el "por qué" esta estrategia reduce el riesgo de reinversión, es decir, el riesgo de que el dinero de un bono que vence tenga que reinvertirse a la tasa de interés que haya en ese momento específico: un inversionista que tiene un solo bono grande que vence por completo en una fecha queda totalmente expuesto al ambiente de tasas que exista exactamente ese día, que, según el escenario anterior, podría ser un momento particularmente desfavorable si las tasas se han movido fuertemente en la dirección equivocada. Una escalera de bonos reparte este riesgo entre varias fechas futuras, así que solo una parte de la cartera total queda expuesta al riesgo de reinversión en cualquier momento, lo que suaviza la tasa de reinversión general que el inversionista obtiene en toda la escalera en lugar de apostarlo todo al ambiente de tasas de un solo día.
+
+Por eso una escalera de bonos ofrece un camino intermedio entre el riesgo de tasa de interés de tener solo bonos de larga duración (la mayor sensibilidad de precio de la lección 3) y el riesgo de reinversión de tener solo bonos de corta duración (exposición frecuente y concentrada a las tasas que haya en cada vencimiento cercano): al tener a la vez una mezcla de vencimientos, el inversionista se diversifica en el tiempo, de una forma conceptualmente parecida a los principios de diversificación geográfica y por clase de activos vistos en otras partes de este nivel, y cambia parte de la optimización posible del rendimiento por más previsibilidad y flexibilidad.
+
+## Ejemplo práctico
+EJEMPLO ILUSTRATIVO: Un inversionista construye una escalera de bonos de cinco peldaños, con $20,000 en bonos que vencen en cada uno de los próximos cinco años. Cuando vence el bono de 1 año, sus $20,000 se reinvierten en un nuevo bono de 5 años, lo que extiende la escalera. Si las tasas están inusualmente bajas el año en que vence el bono de 1 año, solo esos $20,000 (una quinta parte de la cartera total) se reinvierten a la tasa desfavorable, mientras que las cuatro quintas partes restantes siguen ganando las tasas más altas aseguradas antes: un resultado mucho más estable que si los $100,000 del inversionista hubieran estado concentrados en un solo bono que venciera ese mismo año.
+
+## Prueba práctica
+**Q1. ¿Qué es una escalera de bonos?**
+A) Una sola posición grande en bonos con una sola fecha de vencimiento
+B) Una cartera de varios bonos con fechas de vencimiento escalonadas
+C) Una estrategia que evita tener cualquier bono
+D) Un tipo de fondo indexado de acciones
+
+**Q2. ¿Qué es el riesgo de reinversión?**
+A) El riesgo de que el emisor de un bono no cumpla con sus pagos
+B) El riesgo de que el dinero de un bono que vence tenga que reinvertirse a la tasa de interés que haya en ese momento específico, que puede ser desfavorable
+C) El riesgo de que baje el precio de una acción
+D) El riesgo de que aumente la tasa de gastos de un fondo
+
+**Q3. ¿Cómo reduce una escalera de bonos el riesgo de reinversión frente a una sola posición grande en bonos?**
+A) Elimina por completo todo el riesgo de tasa de interés
+B) Reparte la exposición a la reinversión entre varias fechas futuras, así que solo una parte de la cartera queda expuesta al ambiente de tasas de un solo día
+C) Garantiza que el inversionista siempre reinvertirá a la tasa más alta posible
+D) Una escalera de bonos no tiene ningún efecto en el riesgo de reinversión
+
+**Q4. En el ejemplo, ¿qué fracción de la cartera total quedó expuesta a la tasa de reinversión desfavorable?**
+A) Toda la cartera
+B) Una quinta parte de la cartera total
+C) La mitad de la cartera total
+D) Ninguna parte de la cartera quedó expuesta
+
+**Q5. ¿Cómo coloca una escalera de bonos al inversionista entre los riesgos de tener solo bonos de larga duración y de tener solo bonos de corta duración?**
+A) Elimina por completo tanto el riesgo de tasa de interés como el riesgo de reinversión
+B) Diversifica en el tiempo, cambiando parte de la optimización posible del rendimiento por más previsibilidad y menos concentración en cualquiera de los dos tipos de riesgo
+C) Tiene características de riesgo idénticas a tener solo bonos de larga duración
+D) Una escalera de bonos solo reduce el riesgo de tasa de interés, no el riesgo de reinversión
+
+## Clave de respuestas
+Q1: B
+Q2: B
+Q3: B
+Q4: B
+Q5: B
+
+## Respuestas y explicaciones
+**Q1.** Una escalera de bonos consiste precisamente en tener bonos repartidos en una serie de fechas de vencimiento distintas y escalonadas.
+
+**Q2.** El riesgo de reinversión se refiere precisamente a la incertidumbre del ambiente de tasas en el momento en que hay que reinvertir.
+
+**Q3.** Al escalonar los vencimientos, solo una fracción de la cartera total enfrenta el riesgo de reinversión en un momento dado, lo que suaviza la experiencia general.
+
+**Q4.** Solo el peldaño de $20,000 que vencía ese año, que representa una quinta parte de la escalera total de $100,000, se reinvirtió a la tasa desfavorable.
+
+**Q5.** La estructura escalonada equilibra la exposición a los dos tipos de riesgo en lugar de aceptar o evitar uno por completo, como otras estrategias de diversificación vistas en este nivel.
+
+## Puntos clave
+- Una escalera de bonos tiene varios bonos con fechas de vencimiento escalonadas en lugar de concentrarse en un solo vencimiento.
+- El riesgo de reinversión es el riesgo de tener que reinvertir el dinero de bonos que vencen a una tasa desfavorable.
+- Escalonar reparte este riesgo entre varias fechas futuras, así que solo una parte de la cartera queda expuesta en un momento dado.
+- Esta estrategia ofrece un camino intermedio entre los riesgos de tener solo bonos de larga duración y solo bonos de corta duración, cambiando parte de la optimización del rendimiento por previsibilidad.
+
+===== WHITE-L4-027
+TITLE: El análisis de los bonos municipales: por qué el rendimiento equivalente tributable cambia la comparación
+SUMMARY: Aprenda por qué los intereses de los bonos municipales en los Estados Unidos tienen ventaja contributiva, cómo calcular el rendimiento equivalente tributable y por qué comparar rendimientos sin ajustar puede confundir.
+KEYWORDS: bonos municipales, rendimiento equivalente tributable, ingreso exento de impuestos, comparación de bonos
+# El análisis de los bonos municipales: por qué el rendimiento equivalente tributable cambia la comparación
+
+## Escenario inicial
+SUPUESTO/OPINIÓN (escenario hipotético solo con fines educativos): Imagine un banco central que sube su tasa de interés de referencia de forma fuerte y repetida en pocos meses para combatir una inflación en aumento. Mientras las tasas de interés suben en general, un inversionista que compara un bono municipal que rinde 3.5% con un bono corporativo que rinde 5% supone que el bono corporativo es claramente el mejor negocio. Esta lección explica por qué esa comparación, hecha sin ajustar por impuestos, puede confundir.
+
+## Objetivos de aprendizaje
+- Explicar qué hace que los intereses de los bonos municipales tengan, en general, ventaja contributiva.
+- Calcular el rendimiento equivalente tributable a partir del rendimiento de un bono municipal y la tasa contributiva del inversionista.
+- Explicar por qué comparar directamente los rendimientos de bonos municipales y bonos tributables, sin ajustar, puede confundir.
+- Explicar cómo la tasa contributiva del inversionista afecta el atractivo relativo de los bonos municipales.
+
+## Contenido principal
+Los bonos municipales (en inglés, "munis") son valores de deuda emitidos por gobiernos estatales y locales en los Estados Unidos, y DATO VERIFICADO: los intereses de la mayoría de los bonos municipales están exentos del impuesto federal sobre ingresos, y a menudo también del impuesto estatal y local sobre ingresos si el inversionista reside en el estado emisor (REGLA ESPECÍFICA DE LA REGIÓN, confirme el trato contributivo específico del estado, porque varía).
+
+Este es el "por qué" comparar directamente el rendimiento declarado de un bono municipal con el rendimiento declarado de un bono tributable, sin ajustar, confunde al inversionista: como los intereses de los bonos municipales en general evitan el impuesto federal (y a veces el estatal), un rendimiento declarado más bajo en un bono municipal todavía puede dejarle al inversionista más ingreso después de impuestos que un rendimiento declarado más alto en un bono totalmente tributable, según la tasa contributiva específica del inversionista. El rendimiento equivalente tributable es el cálculo que corrige esto: convierte el rendimiento exento de un bono municipal en el rendimiento equivalente que un bono tributable tendría que ofrecer para producir el mismo ingreso después de impuestos, y se calcula como el rendimiento municipal dividido entre (1 menos la tasa contributiva marginal del inversionista).
+
+Por eso los bonos municipales en general son más atractivos para inversionistas en tasas contributivas más altas, y esta relación no es fija: a medida que cambia el ambiente de tasas del escenario, los rendimientos de los bonos municipales y de los tributables pueden moverse, y el inversionista debe recalcular el rendimiento equivalente tributable con las condiciones actuales en lugar de confiar en una comparación vieja, porque el atractivo relativo de los municipales frente a los tributables cambia tanto con el nivel de los rendimientos vigentes como con la situación contributiva específica de cada inversionista, que también puede cambiar con el tiempo (por ejemplo, al retirarse, cuando la tasa contributiva del inversionista puede bajar).
+
+## Ejemplo práctico
+EJEMPLO ILUSTRATIVO: Un inversionista en una tasa contributiva federal de 32% compara un bono municipal que rinde 3.5% con un bono corporativo que rinde 5%. El rendimiento equivalente tributable del bono municipal es 3.5% / (1 - 0.32) = 3.5% / 0.68 ≈ 5.15%. Como este rendimiento equivalente tributable supera el rendimiento tributable de 5% del bono corporativo, el bono municipal en realidad le da más ingreso después de impuestos a este inversionista específico, a pesar de su rendimiento declarado antes de impuestos más bajo: una conclusión que el inversionista habría pasado por alto al comparar directamente los dos rendimientos declarados.
+
+## Prueba práctica
+**Q1. ¿Cuál es la principal ventaja contributiva de la mayoría de los bonos municipales?**
+A) Los intereses de los bonos municipales siempre tributan a una tasa más alta que los de otros bonos
+B) Los intereses de la mayoría de los bonos municipales están exentos del impuesto federal sobre ingresos, y a menudo también del impuesto estatal y local
+C) Los bonos municipales no pagan ningún interés
+D) Los bonos municipales solo están disponibles para empleados del gobierno
+
+**Q2. ¿Por qué comparar directamente el rendimiento declarado de un bono municipal con el de un bono tributable puede confundir?**
+A) Los rendimientos declarados siempre son idénticos para los bonos municipales y los tributables
+B) Un rendimiento municipal declarado más bajo todavía puede producir más ingreso después de impuestos que un rendimiento tributable declarado más alto, según la tasa contributiva del inversionista
+C) Los bonos municipales nunca les pagan intereses de verdad a los inversionistas
+D) El trato contributivo no tiene ningún efecto en el ingreso real después de impuestos del inversionista
+
+**Q3. ¿Cómo se calcula el rendimiento equivalente tributable?**
+A) El rendimiento municipal multiplicado por la tasa contributiva del inversionista
+B) El rendimiento municipal dividido entre (1 menos la tasa contributiva marginal del inversionista)
+C) El rendimiento tributable dividido entre el rendimiento municipal
+D) El rendimiento municipal más la tasa contributiva marginal del inversionista
+
+**Q4. En el ejemplo, ¿por qué el bono municipal era en realidad la mejor opción para el inversionista a pesar de su rendimiento declarado más bajo?**
+A) Su rendimiento equivalente tributable de aproximadamente 5.15% superaba el rendimiento de 5% del bono corporativo tributable, lo que significa que daba más ingreso después de impuestos en la tasa contributiva de este inversionista
+B) Los bonos municipales siempre pagan rendimientos declarados más altos que los bonos corporativos
+C) El bono corporativo en realidad no era tributable en este ejemplo
+D) La tasa contributiva del inversionista no tuvo ningún efecto en la comparación
+
+**Q5. ¿Por qué los bonos municipales en general son más atractivos para inversionistas en tasas contributivas más altas?**
+A) Las tasas contributivas más altas no afectan el atractivo relativo del ingreso exento de impuestos
+B) El valor de evitar impuestos sobre los intereses aumenta a medida que sube la tasa contributiva marginal del inversionista, lo que aumenta el rendimiento equivalente tributable
+C) Por ley, los bonos municipales solo están disponibles para inversionistas en tasas contributivas altas
+D) Los inversionistas en tasas contributivas más bajas siempre obtienen un rendimiento equivalente tributable más alto que los de tasas más altas
+
+## Clave de respuestas
+Q1: B
+Q2: B
+Q3: B
+Q4: A
+Q5: B
+
+## Respuestas y explicaciones
+**Q1.** Este trato exento de impuestos es la característica que distingue a los bonos municipales de la mayoría de los demás valores de renta fija.
+
+**Q2.** Sin ajustar por el trato exento de impuestos, una comparación directa de rendimientos no refleja el ingreso real después de impuestos que daría cada bono.
+
+**Q3.** Esta fórmula convierte un rendimiento exento de impuestos en el rendimiento equivalente que un bono tributable tendría que ofrecer para igualarlo después de impuestos.
+
+**Q4.** Una vez ajustado por la tasa contributiva específica del inversionista, el rendimiento equivalente después de impuestos del bono municipal superó el rendimiento declarado de la alternativa tributable.
+
+**Q5.** Como la fórmula del rendimiento equivalente tributable divide entre (1 menos la tasa contributiva), una tasa más alta produce un rendimiento equivalente tributable mayor para el mismo rendimiento municipal declarado, lo que hace más valiosa la exención.
+
+## Puntos clave
+- Los intereses de los bonos municipales en general están exentos del impuesto federal sobre ingresos, y a menudo del estatal y local.
+- El rendimiento equivalente tributable convierte el rendimiento de un bono municipal en el rendimiento tributable equivalente necesario para igualarlo después de impuestos.
+- Comparar directamente los rendimientos declarados, sin este ajuste, puede llevar a una conclusión equivocada sobre qué bono da más ingreso después de impuestos.
+- Los bonos municipales tienden a ser más atractivos para inversionistas en tasas contributivas más altas, y la comparación debe recalcularse a medida que cambian las tasas y la situación contributiva personal.
+
+===== WHITE-L4-028
+TITLE: El análisis de los bonos convertibles: por qué los valores híbridos combinan el riesgo de la deuda y el de las acciones
+SUMMARY: Aprenda la estructura de un bono convertible, por qué a veces se comporta como un bono y a veces como una acción, y por qué su cupón suele ser más bajo.
+KEYWORDS: bonos convertibles, valores híbridos, combinación de deuda y capital, opción de conversión
+# El análisis de los bonos convertibles: por qué los valores híbridos combinan el riesgo de la deuda y el de las acciones
+
+## Escenario inicial
+SUPUESTO/OPINIÓN (escenario hipotético solo con fines educativos): Imagine dos grandes potencias económicas que intensifican los controles de exportación entre sí sobre una categoría de componentes tecnológicos avanzados que se usan en muchas industrias. Mientras el aumento de las restricciones tecnológicas crea incertidumbre para las empresas orientadas al crecimiento, algunas de esas empresas emiten bonos convertibles en lugar de deuda común o acciones comunes. Esta lección explica por qué esta estructura híbrida puede atraer tanto a los emisores como a los inversionistas en períodos de incertidumbre.
+
+## Objetivos de aprendizaje
+- Explicar la estructura básica de un bono convertible.
+- Explicar por qué un bono convertible se comporta más como un bono común cuando el precio de la acción está bajo, y más como una acción cuando el precio está alto.
+- Explicar por qué los bonos convertibles normalmente ofrecen una tasa de cupón más baja que bonos comunes comparables.
+- Identificar lo que acepta el inversionista en bonos convertibles a cambio de la opción de conversión.
+
+## Contenido principal
+Un bono convertible es un bono corporativo que le da a su tenedor la opción de convertirlo en un número predeterminado de acciones de la empresa emisora, en lugar de recibir el repago normal en efectivo del bono al vencimiento. DATO VERIFICADO: esta opción de conversión es un derecho, no una obligación, con una estructura parecida al mecanismo de la opción de compra de la lección 14, que le da al tenedor la decisión de convertir solo si le conviene financieramente.
+
+Este es el "por qué" el comportamiento de un bono convertible cambia según el precio de la acción subyacente: cuando el precio de la acción de la empresa emisora está bajo, muy por debajo del precio que haría atractiva la conversión, el bono convertible se comporta en gran parte como un bono común, porque la opción de conversión tiene poco valor práctico y la preocupación principal del inversionista son los pagos regulares de intereses y el repago final. Cuando el precio de la acción sube muy por encima del umbral que hace conveniente la conversión, el valor del bono depende cada vez más del valor de las acciones en que podría convertirse, lo que hace que se comporte más como la acción subyacente misma.
+
+Por eso los bonos convertibles normalmente ofrecen una tasa de cupón más baja que un bono común comparable del mismo emisor: los inversionistas aceptan menos ingreso corriente a cambio del valor futuro posible de la opción de conversión incorporada, de forma parecida a como el comprador de una opción paga una prima (lección 14) por un derecho valioso. Esta estructura híbrida puede atraer a una empresa que enfrenta condiciones inciertas, como las restricciones tecnológicas del escenario anterior, porque normalmente le permite tomar prestado a un costo de intereses más bajo que el que exigiría un bono común, mientras que los inversionistas aceptan el rendimiento corriente más bajo a cambio de la posible participación en el alza de las acciones de la empresa si el negocio va bien.
+
+## Ejemplo práctico
+EJEMPLO ILUSTRATIVO: Una empresa de tecnología que enfrenta incertidumbre en su sector emite un bono convertible con un cupón de 2% (frente a un estimado de 6% que la empresa probablemente tendría que pagar en un bono común comparable) y un precio de conversión de $50 por acción, mientras la acción se cotiza hoy a $30. Si la acción se queda por debajo de $50, los inversionistas valoran el bono principalmente como un bono común y aceptan el modesto cupón de 2% a cambio de que se les devuelva el principal al vencimiento. Si la acción sube a $80, muy por encima del precio de conversión de $50, los inversionistas probablemente convertirían sus bonos en acciones y capturarían el alza: un valor que la estructura de un bono común por sí sola nunca habría dado.
+
+## Prueba práctica
+**Q1. ¿Qué derecho le da un bono convertible a su tenedor?**
+A) El derecho de exigir el repago inmediato en cualquier momento
+B) El derecho, pero no la obligación, de convertir el bono en un número predeterminado de acciones de la empresa emisora
+C) El derecho de votar de inmediato por la junta de directores de la empresa al comprar
+D) La obligación de convertir el bono en acciones sin importar el precio de la acción
+
+**Q2. ¿Por qué un bono convertible se comporta como un bono común cuando el precio de la acción subyacente está bajo?**
+A) Los bonos convertibles siempre se comportan igual que las acciones, sin importar el precio de la acción subyacente
+B) La opción de conversión tiene poco valor práctico con un precio bajo, así que la preocupación principal del inversionista pasan a ser los pagos regulares de intereses y el repago, como en un bono común
+C) Los precios bajos de la acción activan automáticamente una conversión obligatoria
+D) Los bonos convertibles no pagan ningún interés bajo ninguna circunstancia
+
+**Q3. ¿Por qué los bonos convertibles normalmente ofrecen una tasa de cupón más baja que un bono común comparable del mismo emisor?**
+A) La ley obliga a los bonos convertibles a pagar tasas de interés más bajas
+B) Los inversionistas aceptan menos ingreso corriente a cambio del valor futuro posible de la opción de conversión incorporada
+C) Los bonos convertibles siempre tienen más riesgo de crédito que los bonos comunes
+D) Las tasas de cupón más bajas no tienen relación con la opción de conversión
+
+**Q4. En el ejemplo, ¿qué pasó con el atractivo del bono convertible cuando la acción subió a $80?**
+A) El bono perdió todo su valor porque ya no podía redimirse como un bono común
+B) Los inversionistas probablemente convertirían sus bonos en acciones y capturarían un alza que la estructura de un bono común nunca habría dado
+C) La tasa de cupón subió automáticamente para igualar el desempeño de la acción
+D) El valor del bono no tenía relación con el precio de la acción en ningún nivel
+
+**Q5. ¿Por qué una empresa que enfrenta condiciones de negocio inciertas podría preferir emitir un bono convertible en lugar de un bono común?**
+A) Los bonos convertibles siempre cuestan más de emitir que los bonos comunes
+B) Un bono convertible normalmente le permite a la empresa tomar prestado a un costo de intereses más bajo que el que exigiría un bono común, por el valor adicional que la opción de conversión tiene para los inversionistas
+C) La ley prohíbe a las empresas que enfrentan incertidumbre emitir bonos comunes
+D) Los bonos convertibles no le dan ningún beneficio de financiamiento a la empresa emisora
+
+## Clave de respuestas
+Q1: B
+Q2: B
+Q3: B
+Q4: B
+Q5: B
+
+## Respuestas y explicaciones
+**Q1.** La opción de conversión es un derecho opcional que el tenedor puede ejercer solo si le conviene financieramente, con una estructura parecida a una opción.
+
+**Q2.** Cuando es poco probable que convenga convertir, el valor del bono depende principalmente de sus características de deuda y no de la opción sobre acciones.
+
+**Q3.** El valioso derecho opcional de conversión compensa a los inversionistas por aceptar un cupón corriente más bajo, como eco del concepto de prima de opción de lecciones anteriores.
+
+**Q4.** Una vez que el precio de la acción subió muy por encima del precio de conversión, convertir para capturar la ganancia en acciones se volvió la opción más atractiva para los tenedores.
+
+**Q5.** El costo de préstamo más bajo, posible gracias a la valiosa opción de conversión que se les ofrece a los inversionistas, puede ser especialmente atractivo en períodos de incertidumbre para el negocio.
+
+## Puntos clave
+- Un bono convertible le da al tenedor el derecho opcional de convertirlo en un número predeterminado de acciones en lugar de recibir el repago en efectivo.
+- El bono se comporta como deuda común cuando el precio de la acción está bajo, y cada vez más como acción cuando el precio sube muy por encima del umbral de conversión.
+- Los bonos convertibles normalmente tienen un cupón más bajo que bonos comunes comparables, y los inversionistas se compensan con la opción de conversión incorporada.
+- Esta estructura híbrida puede darles a las empresas costos de préstamo más bajos y a los inversionistas una posible participación en el alza de las acciones.
+
+===== WHITE-L4-029
+TITLE: El análisis de las acciones preferidas: por qué se ubican entre los bonos y las acciones comunes
+SUMMARY: Aprenda dónde se ubican las acciones preferidas en la estructura de capital, por qué sus dividendos van antes que los de las acciones comunes pero después de los intereses de los bonos, y qué riesgos propios tienen.
+KEYWORDS: acciones preferidas, estructura de capital, prioridad de dividendos, valores híbridos
+# El análisis de las acciones preferidas: por qué se ubican entre los bonos y las acciones comunes
+
+## Escenario inicial
+SUPUESTO/OPINIÓN (escenario hipotético solo con fines educativos): Imagine una institución financiera de importancia sistémica que de pronto revela una pérdida grande que no había divulgado, lo que despierta temores de que el riesgo de contraparte se extienda por todo el sistema bancario. Mientras esos temores se extienden por el sistema financiero, algunos inversionistas enfocados en ingresos se van a las acciones preferidas de instituciones financieras, creyendo que ofrecen una posición más segura que las acciones comunes. Esta lección examina exactamente dónde se ubican las acciones preferidas en la jerarquía de riesgo, y dónde no.
+
+## Objetivos de aprendizaje
+- Explicar las características básicas de las acciones preferidas.
+- Explicar la posición de las acciones preferidas en la estructura de capital de una empresa frente a los bonos y las acciones comunes.
+- Explicar por qué los dividendos preferidos tienen prioridad sobre los dividendos comunes pero quedan detrás de los pagos de intereses de los bonos.
+- Identificar los riesgos que enfrentan los accionistas preferidos y que los bonistas generalmente no enfrentan.
+
+## Contenido principal
+Las acciones preferidas son una clase de propiedad de una empresa que se ubica entre los bonos y las acciones comunes en la estructura de capital; normalmente pagan un dividendo fijo (parecido al cupón fijo de un bono), pero representan una participación de capital y no una reclamación de deuda. DATO VERIFICADO: los accionistas preferidos generalmente tienen prioridad sobre los accionistas comunes en el pago de dividendos y, en caso de liquidación, en las reclamaciones sobre los activos de la empresa, pero quedan detrás de los bonistas y otros acreedores en ambos aspectos, porque los intereses y el principal de los bonos son obligaciones contractuales de deuda que hay que cumplir antes de que cualquier dueño de capital, preferido o común, reciba algo.
+
+Este es el "por qué" esta posición intermedia crea un perfil de riesgo y rendimiento distinto: como los dividendos preferidos quedan detrás de los pagos de intereses de los bonos, una empresa con problemas financieros (como la institución que enfrenta temores de contraparte en el escenario anterior) está obligada por ley a hacer sus pagos de intereses de los bonos antes de poder pagar cualquier dividendo preferido, lo que significa que los accionistas preferidos tienen más riesgo de que se les deje de pagar que los bonistas de la misma empresa, aunque los dividendos preferidos tengan prioridad sobre los dividendos de las acciones comunes.
+
+Por eso las acciones preferidas no son simplemente "una versión más segura de las acciones comunes" ni "un bono un poco más arriesgado": tienen características realmente distintas. A diferencia de un bono, la mayoría de las acciones preferidas no tienen una fecha de vencimiento que obligue a repagar el principal, lo que significa que un accionista preferido podría nunca recuperar su inversión original mediante un repago programado (a diferencia del repago del principal de un bono al vencimiento), y muchas acciones preferidas son "acumulativas", es decir, los dividendos no pagados se acumulan y hay que pagarlos antes de que pueda reanudarse cualquier dividendo común futuro; pero un dividendo preferido suspendido sigue representando una pérdida real, aunque posiblemente temporal, del ingreso esperado, algo que la obligación contractual de pagar intereses a un bonista generalmente no conlleva en la misma medida.
+
+## Ejemplo práctico
+EJEMPLO ILUSTRATIVO: Una institución financiera con problemas graves tiene que darles prioridad a sus pagos de intereses de los bonos para cumplir con sus obligaciones de deuda, y suspende su dividendo de acciones preferidas para conservar efectivo, aunque el dividendo preferido tenía prioridad sobre el dividendo de las acciones comunes (que también se suspendió). Los accionistas preferidos, que esperaban un ingreso estable parecido al de un bono, sufren en cambio una interrupción inesperada de ese ingreso, lo que muestra que la prioridad del dividendo preferido sobre las acciones comunes no da la misma protección contractual que tienen los pagos de intereses de los bonistas.
+
+## Prueba práctica
+**Q1. ¿Dónde se ubican normalmente las acciones preferidas en la estructura de capital de una empresa?**
+A) Por encima de los bonos y antes que todos los acreedores en todos los aspectos
+B) Entre los bonos y las acciones comunes: detrás de los bonistas y acreedores, pero generalmente antes que los accionistas comunes en dividendos y reclamaciones de liquidación
+C) Exactamente al mismo nivel que los bonos en todos los aspectos legales
+D) Por debajo de las acciones comunes en todos los aspectos
+
+**Q2. ¿Por qué una empresa tiene que pagar los intereses de sus bonos antes que cualquier dividendo preferido?**
+A) Los intereses y el principal de los bonos son obligaciones contractuales de deuda que hay que cumplir antes de que cualquier dueño de capital, preferido o común, reciba un pago
+B) Bajo la ley corporativa común, los dividendos preferidos siempre se pagan antes que los intereses de los bonos
+C) No hay ningún orden de prioridad requerido entre los bonos y las acciones preferidas
+D) Los accionistas preferidos siempre tienen la misma prioridad legal que los bonistas
+
+**Q3. En el ejemplo, ¿qué les pasó a los accionistas preferidos cuando la institución financiera tuvo problemas?**
+A) Recibieron sus dividendos completos sin interrupción
+B) Se les suspendió el dividendo, porque la empresa les dio prioridad a sus pagos de intereses de los bonos sobre el dividendo preferido para conservar efectivo
+C) Recibieron pago con prioridad sobre los bonistas de la empresa
+D) Los accionistas preferidos no se vieron afectados en nada por los problemas financieros de la institución
+
+**Q4. ¿Cuál es una diferencia estructural clave entre las acciones preferidas y un bono?**
+A) Las acciones preferidas siempre tienen una fecha de vencimiento fija que exige repagar el principal, igual que un bono
+B) La mayoría de las acciones preferidas no tienen una fecha de vencimiento que exija repagar el principal, a diferencia del repago programado del principal de un bono al vencimiento
+C) Los bonos y las acciones preferidas son funcionalmente idénticos en todos los aspectos
+D) Las acciones preferidas siempre pagan un dividendo variable e impredecible, mientras que los bonos pagan intereses fijos
+
+**Q5. ¿Qué significa que una acción preferida sea "acumulativa"?**
+A) Las acciones preferidas acumulativas garantizan que los dividendos nunca se suspenderán bajo ninguna circunstancia
+B) Los dividendos no pagados se acumulan y hay que pagarlos antes de que pueda reanudarse cualquier dividendo común futuro
+C) Las acciones preferidas acumulativas se convierten automáticamente en bonos durante problemas financieros
+D) "Acumulativo" se refiere a la capitalización de intereses de un bono, no a las acciones preferidas
+
+## Clave de respuestas
+Q1: B
+Q2: A
+Q3: B
+Q4: B
+Q5: B
+
+## Respuestas y explicaciones
+**Q1.** Las acciones preferidas ocupan una posición intermedia distinta, con prioridad sobre las acciones comunes pero subordinadas a las obligaciones de deuda.
+
+**Q2.** La prioridad legal de las obligaciones de deuda sobre las reclamaciones de capital, incluido el capital preferido, significa que los intereses de los bonos hay que pagarlos primero.
+
+**Q3.** A pesar de la prioridad de las acciones preferidas sobre las comunes, su dividendo seguía subordinado a las obligaciones de intereses de los bonos, lo que llevó a un pago suspendido durante el período de problemas.
+
+**Q4.** La falta de una fecha de vencimiento distingue a las acciones preferidas de un bono, lo que significa que no hay una devolución garantizada del principal mediante un repago programado.
+
+**Q5.** Esta característica da cierta protección al exigir que los dividendos no pagados acumulados se pongan al día antes de que los accionistas comunes puedan recibir cualquier dividendo futuro.
+
+## Puntos clave
+- Las acciones preferidas se ubican entre los bonos y las acciones comunes: generalmente con prioridad sobre el capital común, pero subordinadas a las obligaciones de deuda.
+- Como los intereses de los bonos son una obligación contractual que se paga primero, los accionistas preferidos tienen más riesgo de que se les deje de pagar que los bonistas de la misma empresa.
+- A diferencia de un bono, la mayoría de las acciones preferidas no tienen una fecha de vencimiento que exija un repago programado del principal.
+- Una característica acumulativa puede exigir que se paguen los dividendos preferidos atrasados antes de reanudar los dividendos comunes, pero no elimina el riesgo real de un pago suspendido.
+
+===== WHITE-L4-030
+TITLE: El análisis de la capitalización de mercado: por qué el tamaño de una empresa cambia las expectativas de riesgo y rendimiento
+SUMMARY: Aprenda qué mide la capitalización de mercado, cómo se clasifican las empresas por tamaño y por qué las empresas pequeñas históricamente han sido más volátiles, con una prima por tamaño poco confiable.
+KEYWORDS: capitalización de mercado, baja capitalización, alta capitalización, prima por tamaño, riesgo por tamaño de empresa
+# El análisis de la capitalización de mercado: por qué el tamaño de una empresa cambia las expectativas de riesgo y rendimiento
+
+## Escenario inicial
+SUPUESTO/OPINIÓN (escenario hipotético solo con fines educativos): Imagine una interrupción de salud pública generalizada que detiene el transporte marítimo y la manufactura a nivel mundial por un período largo y enreda las cadenas de suministro de muchas industrias a la vez. Mientras una interrupción generalizada detiene el transporte y la manufactura, las empresas pequeñas y menos establecidas y las empresas grandes con muchos recursos no aguantan la crisis de la misma manera. Esta lección examina por qué el tamaño mismo de una empresa históricamente se ha asociado con patrones distintos de riesgo y rendimiento.
+
+## Objetivos de aprendizaje
+- Explicar qué mide la capitalización de mercado.
+- Distinguir entre empresas de baja, mediana y alta capitalización.
+- Explicar por qué las empresas de baja capitalización históricamente han mostrado más volatilidad y, en algunos períodos largos, una prima por tamaño en sus rendimientos promedio.
+- Explicar por qué las empresas pequeñas fueron más vulnerables durante la interrupción descrita en el escenario.
+
+## Contenido principal
+La capitalización de mercado es igual al precio actual de la acción de una empresa multiplicado por el número total de sus acciones en circulación, y representa el valor total de mercado del capital de la empresa. DATO VERIFICADO: las empresas comúnmente se agrupan en categorías de tamaño (baja, mediana y alta capitalización) según umbrales de capitalización de mercado muy usados, aunque los límites exactos en dólares pueden variar un poco entre distintos sistemas de clasificación y cambiar con el tiempo a medida que crece el valor general del mercado.
+
+Este es el "por qué" el tamaño de una empresa históricamente se ha asociado con características distintas de riesgo y rendimiento: las empresas pequeñas generalmente tienen menos acceso a capital, fuentes de ingreso menos diversificadas (a menudo concentradas en menos productos, clientes o mercados), reservas de efectivo más pequeñas y posiciones competitivas menos establecidas que las empresas de alta capitalización, y todo eso tiende a hacerlas más vulnerables en períodos de estrés económico generalizado, como la interrupción de las cadenas de suministro del escenario anterior, que puede golpear mucho más fuerte a las empresas pequeñas con menos colchón financiero que a los competidores grandes y bien capitalizados.
+
+Por eso las acciones de baja capitalización históricamente han mostrado más volatilidad que las de alta capitalización, y algunas investigaciones académicas a largo plazo han identificado una "prima por tamaño" histórica: una tendencia, en algunos períodos largos, de que las acciones de baja capitalización den rendimientos promedio más altos que las de alta capitalización, lo que en teoría compensa a los inversionistas por ese riesgo adicional. OPINIÓN y advertencia importante: esta prima por tamaño histórica no ha sido constante en todos los períodos, y algunos investigadores han debatido su persistencia y magnitud en las décadas más recientes, así que debe verse como un patrón histórico observado e imperfectamente confiable entre las distintas características de las acciones vistas en este nivel, y no como una característica garantizada de invertir en empresas pequeñas en el futuro.
+
+## Ejemplo práctico
+EJEMPLO ILUSTRATIVO: Durante una interrupción grave de las cadenas de suministro a nivel mundial, una empresa grande y bien capitalizada, con suplidores diversificados en varias regiones y reservas de efectivo importantes, aguanta la crisis con solo un efecto modesto y temporal en sus ganancias. Un competidor más pequeño de la misma industria, que depende de un solo suplidor y tiene reservas de efectivo más pequeñas, batalla para conseguir materiales, se come su limitado colchón de efectivo y ve el precio de su acción caer mucho más fuerte y tardar mucho más en recuperarse, lo que ilustra la mayor vulnerabilidad que pueden enfrentar las empresas pequeñas en períodos de estrés económico generalizado.
+
+## Prueba práctica
+**Q1. ¿Qué mide la capitalización de mercado?**
+A) Los ingresos anuales totales de una empresa
+B) El precio actual de la acción de una empresa multiplicado por el número total de sus acciones en circulación
+C) La deuda total pendiente de una empresa
+D) El número de empleados que tiene una empresa
+
+**Q2. ¿Por qué las empresas pequeñas tienden a ser más vulnerables en períodos de estrés económico generalizado?**
+A) Las empresas pequeñas siempre tienen fuentes de ingreso más diversificadas que las grandes
+B) Las empresas pequeñas generalmente tienen menos acceso a capital, ingresos menos diversificados y reservas de efectivo más pequeñas que las empresas de alta capitalización
+C) El tamaño de la empresa no tiene relación con su vulnerabilidad durante el estrés económico
+D) Las empresas grandes siempre son más vulnerables que las pequeñas durante cualquier interrupción
+
+**Q3. ¿Qué es la "prima por tamaño" histórica que menciona esta lección?**
+A) Un cargo adicional garantizado que se cobra en los fondos mutuos de baja capitalización
+B) Una tendencia, observada en algunos períodos históricos largos, de que las acciones de baja capitalización den rendimientos promedio más altos que las de alta capitalización, lo que en teoría compensa un riesgo adicional
+C) Un impuesto que se cobra específicamente a las empresas pequeñas
+D) Una regla que obliga a las empresas de baja capitalización a pagar dividendos más altos que las de alta capitalización
+
+**Q4. ¿Por qué la prima por tamaño histórica debe verse como un patrón imperfectamente confiable y no como una característica garantizada de invertir?**
+A) La prima por tamaño ha sido perfectamente constante en cada período histórico sin excepción
+B) El patrón no ha sido constante en todos los períodos, y los investigadores han debatido su persistencia y magnitud en las décadas más recientes
+C) La capitalización de mercado no tiene relación con los rendimientos históricos de las acciones
+D) Las acciones de baja capitalización nunca han superado a las de alta capitalización en ningún período
+
+**Q5. En el ejemplo, ¿por qué la acción del competidor más pequeño cayó más fuerte que la de la empresa grande durante la interrupción de las cadenas de suministro?**
+A) La empresa pequeña no tenía ninguna exposición a la interrupción
+B) Su dependencia de un solo suplidor y sus reservas de efectivo más pequeñas la dejaron más vulnerable a la interrupción que la empresa grande, más diversificada y mejor capitalizada
+C) La capitalización de mercado no influye en cómo una empresa aguanta una interrupción
+D) La empresa grande en realidad salió más perjudicada que la pequeña
+
+## Clave de respuestas
+Q1: B
+Q2: B
+Q3: B
+Q4: B
+Q5: B
+
+## Respuestas y explicaciones
+**Q1.** La capitalización de mercado representa el valor total actual de mercado de las acciones en circulación de una empresa.
+
+**Q2.** Estas desventajas estructurales tienden a dejarles a las empresas pequeñas menos colchón financiero para absorber golpes que a los competidores más grandes y establecidos.
+
+**Q3.** Se refiere al patrón de rendimiento observado históricamente asociado con el tamaño pequeño de una empresa, entendido como compensación por los riesgos adicionales que tienen las empresas pequeñas.
+
+**Q4.** Dada la inconsistencia documentada y el debate que continúa entre los investigadores, la prima por tamaño debe entenderse como una tendencia histórica y no como un resultado futuro asegurado.
+
+**Q5.** Las vulnerabilidades estructurales típicas de las empresas pequeñas, como cadenas de suministro concentradas y reservas de efectivo más pequeñas, explican directamente el efecto más fuerte que sufrió durante la interrupción.
+
+## Puntos clave
+- La capitalización de mercado mide el valor total del capital de una empresa, y se usa comúnmente para clasificar a las empresas por categorías de tamaño.
+- Las empresas pequeñas generalmente tienen menos acceso a capital, ingresos menos diversificados y reservas de efectivo más pequeñas que las de alta capitalización.
+- Esto históricamente se ha asociado con más volatilidad en las de baja capitalización y, en algunos períodos, con una prima por tamaño en los rendimientos promedio.
+- La prima por tamaño es un patrón histórico observado e imperfectamente confiable, no una característica garantizada de invertir en empresas pequeñas.

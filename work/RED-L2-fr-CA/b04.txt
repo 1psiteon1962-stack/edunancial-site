@@ -1,0 +1,400 @@
+===== RED-L2-018
+TITLE: Comment un refinancement se répercute sur le flux de trésorerie, l'équité et le risque
+SUMMARY: Apprends à évaluer un refinancement avec tout le portrait — durée, frais de clôture, intérêts totaux et équité — plutôt qu'avec le seul taux d'intérêt.
+## RED-L2-018
+### Comment un refinancement se répercute sur le flux de trésorerie, l'équité et le risque
+
+**1. Objectifs d'apprentissage**
+À la fin de cette leçon, tu pourras :
+- Suivre comment une décision de refinancement touche ensemble le flux de trésorerie, la position d'équité et le risque.
+- Expliquer pourquoi le refinancement est une décision à plusieurs pièces, pas une décision fondée sur un seul chiffre.
+- Évaluer un scénario de refinancement à l'aide de plus que le seul nouveau taux d'intérêt.
+
+**2. Contenu principal**
+On parle souvent du refinancement en fonction d'un seul chiffre — le nouveau taux d'intérêt —, mais la pensée de niveau 2 exige de suivre ses effets en chaîne. Un taux plus bas peut réduire le paiement mensuel (le flux de trésorerie s'améliore), mais les frais de clôture réduisent l'argent disponible au départ, et recommencer une nouvelle durée de prêt peut vouloir dire payer plus d'intérêts au total avec le temps, même à un taux plus bas, selon l'avancement du prêt d'origine.
+
+Un refinancement avec retrait d'équité va encore plus loin : l'équité diminue tout de suite (puisqu'un prêt plus gros pèse maintenant sur la même valeur de propriété), le paiement mensuel augmente probablement, et le risque augmente si l'argent retiré n'est pas utilisé d'une façon qui compense le coût ajouté — par exemple, financer des rénovations qui augmentent les revenus de location, plutôt que dépenser l'argent pour quelque chose qui n'a aucun lien avec la performance de la propriété.
+
+La compétence de base, c'est de résister à l'envie d'évaluer un refinancement seulement par son taux, et de se demander plutôt ce qui arrive ensemble au flux de trésorerie, à l'équité, aux intérêts totaux payés et au risque.
+
+**3. Exemple pratique**
+On offre à Marcus un refinancement avec un taux d'intérêt nettement plus bas que celui de son prêt actuel. Enthousiasmé par ce taux, il est sur le point d'accepter tout de suite. Avant, il fait la carte complète : le taux plus bas réduirait son paiement mensuel, mais il en est seulement à sept ans d'un prêt sur lequel il paie déjà des intérêts depuis des années, et recommencer un nouveau prêt sur une pleine durée voudrait dire payer des intérêts sur une nouvelle période plus longue, ce qui pourrait augmenter le total des intérêts payés sur la vie du prêt, malgré le taux plus bas.
+
+Marcus négocie plutôt une durée de prêt plus courte, qui réduit quand même un peu son paiement mensuel tout en limitant la hausse des intérêts totaux, après avoir comparé plusieurs scénarios avec son prêteur au lieu d'accepter la première offre en se fiant seulement au taux.
+
+**4. Quiz de pratique**
+1. Pourquoi ne devrait-on pas évaluer un refinancement seulement par son taux d'intérêt?
+   a) Le taux d'intérêt n'a aucune importance
+   b) D'autres facteurs, comme la durée du prêt, les frais de clôture et l'effet sur l'équité, comptent aussi
+   c) Les taux d'intérêt ne changent jamais
+   d) Le refinancement n'a aucun autre effet
+2. Qu'arrive-t-il à l'équité tout de suite après un refinancement avec retrait d'équité?
+   a) Elle augmente
+   b) Elle diminue, puisque le solde du prêt augmente par rapport à la même valeur de propriété
+   c) Elle reste la même
+   d) Elle devient illimitée
+3. Vrai ou faux : Un taux d'intérêt plus bas garantit toujours un total d'intérêts payés plus bas sur la vie du prêt.
+4. Qu'est-ce que Marcus a fait autrement après avoir fait la carte complète?
+   a) Il a accepté la première offre tout de suite
+   b) Il a comparé plusieurs scénarios en tenant compte de la durée et des intérêts totaux, pas seulement du taux
+   c) Il a annulé tous ses projets de refinancement
+   d) Il a ignoré les frais de clôture
+
+**5. Corrigé**
+1. b  2. b  3. Faux  4. b
+
+**6. Réponses et explications**
+1. Un refinancement touche plusieurs pièces — la durée, les frais de clôture, l'équité —, pas seulement le taux affiché.
+2. Le refinancement avec retrait d'équité augmente le solde du prêt par rapport à la même valeur de propriété, ce qui réduit tout de suite l'équité.
+3. Un taux plus bas combiné à une nouvelle durée plus longue peut quand même augmenter le total des intérêts payés sur la vie du prêt.
+4. Marcus a élargi son évaluation pour inclure la durée et le coût total des intérêts, ce qui lui a évité une décision fondée sur le taux seulement.
+
+**7. Points clés à retenir**
+- Le refinancement touche ensemble le flux de trésorerie, l'équité, le coût total des intérêts et le risque, pas seulement le taux mensuel.
+- Recommencer une durée de prêt peut augmenter le total des intérêts sur la vie du prêt, même à un taux plus bas.
+- Le refinancement avec retrait d'équité réduit tout de suite l'équité en échange d'un capital accessible.
+- Évalue une offre de refinancement avec le portrait complet, pas seulement avec le taux annoncé.
+
+===== RED-L2-019
+TITLE: Les marges de crédit hypothécaires (HELOC) et l'équité : une deuxième pièce sur le même échiquier
+SUMMARY: Comprends ce qu'est une marge de crédit garantie par l'équité d'une maison, en quoi elle diffère d'un refinancement et pourquoi elle met la maison en jeu.
+## RED-L2-019
+### Les marges de crédit hypothécaires (HELOC) et l'équité : une deuxième pièce sur le même échiquier
+
+**1. Objectifs d'apprentissage**
+À la fin de cette leçon, tu pourras :
+- Définir de façon conceptuelle une marge de crédit hypothécaire (HELOC).
+- Faire la différence entre une HELOC et un refinancement avec retrait d'équité.
+- Expliquer les risques d'emprunter sur l'équité d'une maison.
+
+**2. Contenu principal**
+Une marge de crédit hypothécaire (*Home Equity Line of Credit*, ou HELOC) est une marge de crédit renouvelable garantie par l'équité d'une propriété, qui s'ajoute généralement au prêt hypothécaire existant au lieu de le remplacer. Contrairement à un refinancement avec retrait d'équité, qui remplace tout le premier prêt hypothécaire par un nouveau prêt plus gros, une HELOC est habituellement un deuxième prêt distinct sur la même propriété, souvent à taux variable, avec une période de tirage pendant laquelle l'emprunteur peut utiliser des fonds au besoin, suivie d'une période de remboursement.
+
+Comme une HELOC est garantie par la propriété, manquer des paiements comporte le même risque de base que manquer un paiement hypothécaire : la possibilité d'une saisie, puisque la maison sert de garantie pour les deux prêts. Emprunter sur l'équité de sa maison, ce n'est pas de « l'argent gratuit » : c'est une dette garantie par un bien dont l'emprunteur a besoin, qui ajoute une deuxième obligation en plus du premier prêt hypothécaire.
+
+On utilise souvent les HELOC pour des rénovations, un fonds d'urgence ou d'autres besoins de capital où la souplesse (retirer ce dont on a besoin, quand on en a besoin) a de la valeur; mais la pensée de niveau 2 exige de comparer cette souplesse au risque ajouté d'une deuxième charge sur la propriété.
+
+**3. Exemple pratique**
+Simone a beaucoup d'équité dans sa résidence principale et ouvre une HELOC pour financer la rénovation de sa cuisine. Elle prévoit retirer les fonds petit à petit, à mesure que les factures de l'entrepreneur arrivent, plutôt que de prendre une somme globale d'un coup. Ça lui donne plus de souplesse qu'un refinancement avec retrait d'équité, qui l'aurait obligée à emprunter tout le montant de la rénovation d'avance, avant même de connaître tous les coûts.
+
+Par contre, Simone comprend que sa maison garantit maintenant deux prêts — son prêt hypothécaire d'origine et la HELOC — et que manquer des paiements sur l'un ou l'autre pourrait mettre sa maison en danger. Elle bâtit son plan de remboursement selon son budget réel, pas selon la limite de crédit disponible, et traite la HELOC comme une dette à gérer avec soin, pas comme de l'argent de poche supplémentaire.
+
+**4. Quiz de pratique**
+1. Qu'est-ce qui garantit une HELOC?
+   a) La carte de crédit de l'emprunteur
+   b) L'équité de la propriété
+   c) L'employeur de l'emprunteur
+   d) Rien — elle n'est pas garantie
+2. En quoi une HELOC diffère-t-elle généralement d'un refinancement avec retrait d'équité?
+   a) Une HELOC remplace complètement le premier prêt hypothécaire
+   b) Une HELOC est habituellement une marge de crédit distincte qui s'ajoute au prêt hypothécaire existant
+   c) Une HELOC n'a pas de taux d'intérêt
+   d) Ils sont identiques à tous points de vue
+3. Vrai ou faux : Ne pas rembourser une HELOC ne comporte aucun risque pour la propriété, puisque c'est une marge de crédit et non un prêt hypothécaire.
+4. Pourquoi Simone a-t-elle choisi une HELOC plutôt qu'un refinancement avec retrait d'équité pour sa rénovation?
+   a) Elle avait besoin du montant complet tout de suite
+   b) Elle voulait la souplesse de retirer les fonds petit à petit, à mesure que les coûts se précisaient
+   c) Les HELOC ne comportent aucun risque
+   d) Son prêteur l'y obligeait
+
+**5. Corrigé**
+1. b  2. b  3. Faux  4. b
+
+**6. Réponses et explications**
+1. Une HELOC est garantie par l'équité de la propriété.
+2. Contrairement à un refinancement avec retrait d'équité, une HELOC s'ajoute généralement au prêt hypothécaire existant comme marge de crédit distincte.
+3. Comme une HELOC est garantie par la maison, manquer des paiements comporte un vrai risque de saisie, comme pour un prêt hypothécaire.
+4. Simone tenait à la souplesse de retirer des fonds au besoin plutôt que d'emprunter une somme globale d'avance.
+
+**7. Points clés à retenir**
+- Une HELOC est une marge de crédit renouvelable garantie par l'équité de la maison, habituellement distincte du premier prêt hypothécaire.
+- Elle offre la souplesse de retirer des fonds au besoin, souvent à taux variable.
+- Comme elle est garantie par la propriété, les paiements manqués comportent un vrai risque de saisie.
+- Il faut traiter une HELOC comme une dette à gérer avec soin, pas comme de l'argent « en extra » accessible.
+
+===== RED-L2-020
+TITLE: Utiliser son équité sans perdre sa maison
+SUMMARY: Résume les outils pour accéder à l'équité d'une maison, compare leurs risques et apprends un cadre simple pour les utiliser de façon responsable.
+## RED-L2-020
+### Utiliser son équité sans perdre sa maison
+
+**1. Objectifs d'apprentissage**
+À la fin de cette leçon, tu pourras :
+- Résumer les principaux outils vus jusqu'ici pour accéder à l'équité d'une maison.
+- Comparer leur niveau de risque et les situations où ils conviennent.
+- Formuler un cadre pour utiliser son équité de façon responsable.
+
+**2. Contenu principal**
+Cette leçon rassemble les outils d'accès à l'équité vus dans ce niveau : le refinancement avec retrait d'équité (leçon 17) et les HELOC (leçon 19), en plus des notions plus larges sur l'effet de levier des leçons précédentes. Tous ces outils ont un point commun : ils transforment une équité non liquide en capital utilisable en ajoutant de la dette garantie par la propriété, ou en la restructurant.
+
+Le cadre de niveau 2 pour utiliser son équité de façon responsable consiste à se poser ces questions avant de recourir à l'un de ces outils : à quoi va servir l'argent? Est-ce qu'il améliore la propriété ou la situation financière de l'emprunteur (par exemple, en finançant des rénovations qui augmentent la valeur ou les revenus), ou est-ce qu'il sert à de la consommation qui n'apporte aucun avantage financier en retour? Quel est le plan de remboursement réaliste, sans compter sur l'hypothèse que la propriété continuera de prendre de la valeur? Et quel est le pire scénario si le revenu baisse ou si les taux montent (pour les outils à taux variable, comme bien des HELOC)?
+
+L'équité d'une maison, c'est une vraie richesse, mais c'est aussi la valeur du toit au-dessus de la tête de quelqu'un. La traiter comme une tirelire pour les mauvais jours, sans plan de remboursement, est une des erreurs financières les plus courantes et les plus coûteuses que font les investisseurs et les propriétaires.
+
+**3. Exemple pratique**
+Deux voisins puisent dans l'équité de leur maison la même année. L'un utilise une HELOC pour financer de longues vacances et des dépenses courantes, sans plan de remboursement précis à part faire les paiements minimums et espérer une prime au travail. L'autre utilise un refinancement avec retrait d'équité précisément pour financer un agrandissement qui augmente la surface habitable et la valeur évaluée de sa maison, avec un plan clair qui montre comment le paiement ajouté entre dans son budget actuel.
+
+Les deux ont techniquement « utilisé leur équité ». L'un a ajouté de la dette sans amélioration d'actif en retour ni plan de remboursement clair. L'autre a ajouté de la dette, mais aussi de la valeur, et il avait un plan précis et budgété avant d'emprunter.
+
+**4. Quiz de pratique**
+1. Quelle question cette leçon recommande-t-elle de se poser avant d'utiliser l'équité de sa maison?
+   a) Qu'est-ce que fait la Bourse en ce moment?
+   b) À quoi va servir l'argent, et y a-t-il un plan de remboursement réaliste?
+   c) De quelle couleur devrais-je peindre la maison?
+   d) Est-ce que le voisin le fait aussi?
+2. Quelle erreur courante et coûteuse cette leçon mentionne-t-elle?
+   a) Ne jamais utiliser l'équité de sa maison
+   b) Traiter l'équité de sa maison comme une tirelire pour les mauvais jours, sans plan de remboursement
+   c) Rembourser son prêt hypothécaire plus tôt
+   d) Bâtir des réserves
+3. Vrai ou faux : Toutes les façons d'utiliser l'équité d'une maison comportent exactement le même niveau de risque et d'avantage financier.
+4. Qu'est-ce qui distinguait la façon dont les deux voisins ont utilisé leur équité dans l'exemple?
+   a) L'un avait plus d'équité que l'autre
+   b) L'un avait un plan de remboursement précis et une utilisation qui améliorait l'actif; l'autre non
+   c) L'un a utilisé une HELOC et l'autre de l'argent comptant
+   d) Ils étaient identiques à tous points de vue
+
+**5. Corrigé**
+1. b  2. b  3. Faux  4. b
+
+**6. Réponses et explications**
+1. Le cadre de cette leçon repose sur le but de l'emprunt et sur le plan de remboursement avant de puiser dans l'équité.
+2. Utiliser son équité sans plan de remboursement, comme si c'était de l'argent à dépenser gratuitement, est présenté comme une erreur courante et coûteuse.
+3. Les utilisations varient beaucoup selon leur but, la planification du remboursement et le fait que les fonds empruntés améliorent ou non l'actif ou la situation de départ.
+4. La différence clé, c'était la planification réfléchie et une utilisation qui améliorait l'actif, par rapport à des dépenses de consommation non planifiées.
+
+**7. Points clés à retenir**
+- Le refinancement avec retrait d'équité et les HELOC transforment tous les deux l'équité d'une maison en capital utilisable en ajoutant de la dette garantie.
+- Une utilisation responsable commence par se demander à quoi va servir l'argent et s'il existe un plan de remboursement réaliste.
+- Utiliser son équité pour améliorer la propriété ou sa situation financière, c'est très différent de l'utiliser pour de la consommation non planifiée.
+- L'équité d'une maison est une vraie richesse liée à la valeur d'un logement; elle mérite la même discipline de planification que toute autre grande décision financière.
+
+===== RED-L2-021
+TITLE: Rénover pour revendre ou acheter pour garder : des jeux différents, des échiquiers différents
+SUMMARY: Compare la stratégie de rénover pour revendre et celle d'acheter pour garder à long terme, avec leurs compétences, leurs échéanciers et leurs risques propres.
+## RED-L2-021
+### Rénover pour revendre ou acheter pour garder : des jeux différents, des échiquiers différents
+
+**1. Objectifs d'apprentissage**
+À la fin de cette leçon, tu pourras :
+- Comparer les stratégies de rénovation-revente (*fix-and-flip*) et d'achat pour garder (*buy-and-hold*).
+- Nommer les compétences, les échéanciers et les risques différents de chacune.
+- Expliquer comment chaque stratégie change différemment les pièces en jeu.
+
+**2. Contenu principal**
+La rénovation-revente consiste à acheter une propriété (souvent sous la valeur marchande ou ayant besoin de réparations), à la rénover et à la revendre assez rapidement avec profit. L'achat pour garder consiste à acheter une propriété et à la conserver sur une plus longue période, en tirant des revenus de location et en profitant de la plus-value possible à long terme et du remboursement graduel de la dette.
+
+Ces stratégies exigent des compétences différentes et exposent les investisseurs à des risques différents. La rénovation-revente dépend beaucoup de la capacité à bien estimer les coûts et les délais de rénovation, à comprendre le marché local de la revente et à gérer un financement à court terme (souvent plus cher, puisque la période de détention est brève, mais pressante). Les dépassements de coûts ou de délais grugent directement le profit, puisqu'il n'y a pas de revenu de location continu pour absorber les retards.
+
+L'achat pour garder dépend davantage de la gestion du flux de trésorerie à long terme, des relations avec les locataires, de l'entretien continu et de la patience à travers les cycles du marché. Il est moins exposé au moment d'une seule revente, mais il exige une gestion soutenue pendant des années, pas des mois.
+
+Aucune stratégie n'est supérieure; elles conviennent à des compétences, à des capitaux disponibles, à du temps à consacrer et à des objectifs différents — et certains investisseurs utilisent les deux, à des moments différents ou avec des propriétés différentes.
+
+**3. Exemple pratique**
+Deux investisseurs achètent chacun une propriété en mauvais état dans le même quartier. Ravi rénove la sienne et la vend en moins de six mois, en profitant de l'écart entre son coût total (achat, rénovation, financement et frais de vente) et le prix de vente — mais il est exposé au risque que des retards de rénovation ou un marché qui ralentit réduisent ou effacent ce profit.
+
+Ana rénove une propriété semblable, mais la garde comme logement locatif et la finance avec un prêt hypothécaire à plus long terme. Son rendement arrive graduellement grâce au flux de trésorerie locatif et à l'accumulation d'équité sur des années; elle est moins exposée au moment d'une seule revente, mais plus exposée à des années de gestion des locataires et de l'entretien.
+
+**4. Quiz de pratique**
+1. Quel est le but général de la rénovation-revente?
+   a) Des revenus de location à long terme
+   b) Rénover et revendre assez rapidement avec profit
+   c) Ne jamais vendre la propriété
+   d) Éviter toute rénovation
+2. Quel est un risque clé propre à la rénovation-revente?
+   a) Le roulement des locataires à long terme
+   b) Des dépassements de coûts et de délais qui grugent le profit, sans revenu de location pour compenser
+   c) La hausse des taxes foncières sur des décennies
+   d) Aucun — c'est sans risque
+3. Vrai ou faux : L'achat pour garder et la rénovation-revente exigent exactement les mêmes compétences et la même tolérance au risque.
+4. Qu'est-ce qui diffère le plus entre l'approche de Ravi et celle d'Ana pour des propriétés semblables?
+   a) Le quartier
+   b) Leur échéancier de sortie et la nature de leur exposition au risque
+   c) Le prix d'achat
+   d) Rien — leurs stratégies étaient identiques
+
+**5. Corrigé**
+1. b  2. b  3. Faux  4. b
+
+**6. Réponses et explications**
+1. La rénovation-revente consiste à rénover et à revendre assez rapidement avec profit.
+2. Comme il n'y a pas de revenu de location pendant une rénovation-revente, les dépassements de coûts ou de délais grugent directement le profit.
+3. Ces stratégies exigent des compétences, des échéanciers et des expositions au risque différents.
+4. Le risque de Ravi tournait autour du moment d'une seule revente et du contrôle des coûts; celui d'Ana, autour d'une gestion soutenue pendant des années.
+
+**7. Points clés à retenir**
+- La rénovation-revente vise un profit assez rapide en rénovant puis en vendant; l'achat pour garder vise des revenus et une plus-value à long terme.
+- Le risque de la rénovation-revente se concentre sur le contrôle des coûts et des délais, sans revenu de location pour compenser.
+- Le risque de l'achat pour garder s'étale sur des années de gestion, de locataires et de cycles du marché.
+- Aucune stratégie n'est meilleure dans tous les cas : elles conviennent à des compétences, des capitaux, des échéanciers et des objectifs différents.
+
+===== RED-L2-022
+TITLE: La location à court terme : de nouveaux revenus, de nouvelles réglementations
+SUMMARY: Comprends le modèle de location à court terme, en quoi sa gestion diffère d'un bail ordinaire et pourquoi la réglementation locale peut tout changer.
+## RED-L2-022
+### La location à court terme : de nouveaux revenus, de nouvelles réglementations
+
+**1. Objectifs d'apprentissage**
+À la fin de cette leçon, tu pourras :
+- Expliquer le modèle général de la location à court terme.
+- Nommer en quoi la location à court terme diffère de la location traditionnelle à long terme sur le plan des revenus et de la gestion.
+- Reconnaître l'importance de la réglementation locale pour la viabilité de la location à court terme.
+
+**2. Contenu principal**
+La location à court terme — des propriétés louées pour quelques jours ou quelques semaines à la fois, souvent par l'entremise de plateformes en ligne — peut générer des revenus bruts par nuit plus élevés qu'un bail traditionnel à long terme, mais elle comporte des exigences de gestion vraiment différentes : un roulement plus fréquent, du ménage, des communications avec les voyageurs et, souvent, une implication quotidienne plus active ou un service de gestion spécialisé.
+
+La variable la plus importante que les investisseurs de niveau 2 doivent étudier avant de se lancer dans la location à court terme, c'est la réglementation locale. Beaucoup de villes et de municipalités ont adopté des règles qui restreignent la location à court terme ou qui l'assujettissent à un permis — parfois en la limitant aux propriétés occupées par leur propriétaire, en plafonnant le nombre de nuits de location par année ou en l'interdisant complètement dans certaines zones. Ces règles changent souvent et varient énormément d'un endroit à l'autre, ce qui en fait un des sujets les plus PROPRES À UNE RÉGION de ce programme. Une propriété rentable en location à court terme aujourd'hui pourrait devenir non conforme, ou beaucoup moins rentable, après un changement de réglementation.
+
+Les revenus de location à court terme peuvent aussi être plus instables que les revenus de location à long terme, variant selon les saisons, les événements locaux et les changements d'algorithme des plateformes — des facteurs dont un bail à long terme protège en bonne partie le propriétaire.
+
+**3. Exemple pratique**
+Avant d'acheter une propriété spécialement pour la location à court terme, Julia étudie le règlement actuel de la ville visée. Elle découvre qu'il permet présentement la location à court terme de propriétés non occupées par leur propriétaire, avec un permis et un plafond de nuits de location par année. Elle bâtit ses projections financières autour de ce plafond, au lieu de supposer un nombre illimité de nuits, et réserve une partie de son budget de recherche pour surveiller les changements de réglementation, puisqu'un vote du conseil municipal pourrait changer les règles avec peu de préavis.
+
+En faisant son analyse selon le plafond légal actuel plutôt que selon le meilleur scénario, Julia garde des projections plus réalistes — et elle a un plan de rechange (passer à la location à long terme) si la réglementation se resserre encore.
+
+**4. Quiz de pratique**
+1. Quelle est une caractéristique courante de la gestion de la location à court terme par rapport à la location à long terme?
+   a) Un roulement moins fréquent
+   b) Un roulement, du ménage et des communications avec les voyageurs plus fréquents
+   c) Aucune gestion nécessaire
+   d) La même chose qu'un bail de 30 ans
+2. Selon la leçon, quelle est la variable la plus importante à étudier avant de se lancer dans la location à court terme?
+   a) Les tendances de couleurs de peinture
+   b) La réglementation locale
+   c) Les antécédents d'emploi du locataire
+   d) Seulement les taux d'intérêt nationaux
+3. Vrai ou faux : Les règlements sur la location à court terme sont uniformes et ne changent pas d'une ville à l'autre.
+4. Pourquoi Julia a-t-elle fait son analyse selon le plafond légal actuel plutôt que selon le meilleur scénario?
+   a) Elle voulait surestimer ses revenus
+   b) La réglementation peut changer, et tenir compte de la limite légale actuelle donnait des projections plus réalistes
+   c) Le plafond était plus rentable que des locations illimitées
+   d) Son prêteur l'y obligeait
+
+**5. Corrigé**
+1. b  2. b  3. Faux  4. b
+
+**6. Réponses et explications**
+1. La location à court terme exige habituellement un roulement plus fréquent et une gestion plus directe que la location à long terme.
+2. La réglementation locale est présentée comme le facteur le plus important et le plus variable pour la viabilité de la location à court terme.
+3. Les règlements sur la location à court terme varient énormément d'une ville à l'autre et changent souvent, ce qui en fait un sujet fortement propre à chaque région.
+4. L'analyse prudente de Julia, fondée sur le plafond légal actuel, a protégé ses projections contre un optimisme exagéré sur le nombre de nuits de location possibles.
+
+**7. Points clés à retenir**
+- La location à court terme peut générer des revenus bruts plus élevés, mais elle exige une gestion plus active et plus fréquente.
+- La réglementation locale est le facteur le plus important et le plus variable pour la viabilité de la location à court terme.
+- Les règles sur la location à court terme changent souvent et diffèrent énormément d'un endroit à l'autre; vérifie toujours la loi locale en vigueur.
+- Une analyse prudente fondée sur les limites légales actuelles, avec un plan de rechange, protège contre les changements de réglementation.
+
+===== RED-L2-023
+TITLE: Le zonage, les permis et la réglementation : des pièces qui limitent l'échiquier
+SUMMARY: Comprends le rôle du zonage et des permis, comment ils limitent ce que tu peux faire d'une propriété et pourquoi les travaux sans permis coûtent souvent plus cher.
+## RED-L2-023
+### Le zonage, les permis et la réglementation : des pièces qui limitent l'échiquier
+
+**1. Objectifs d'apprentissage**
+À la fin de cette leçon, tu pourras :
+- Expliquer le but général du zonage et des permis.
+- Décrire comment le zonage limite ce qu'un propriétaire peut faire d'une propriété.
+- Reconnaître les permis comme une pièce qui interagit avec les rénovations, les coûts et l'échéancier.
+
+**2. Contenu principal**
+Le zonage est un outil des administrations locales qui détermine comment les terrains d'un secteur peuvent être utilisés : résidentiel, commercial, industriel, mixte, avec diverses sous-catégories. Le zonage limite ce qu'un propriétaire peut légalement faire d'une propriété, peu importe ce qu'il pourrait faire financièrement ou physiquement. Une propriété zonée strictement résidentielle ne peut généralement pas être transformée en commerce de détail sans un changement de zonage ou une dérogation, un processus qui peut être long, incertain et propre à chaque juridiction locale.
+
+Les permis sont des autorisations obligatoires pour certains travaux — agrandissements, modifications structurales, travaux d'électricité ou de plomberie, et plus encore — qui visent à s'assurer que les travaux respectent les normes de sécurité et le code du bâtiment. Sauter les permis obligatoires pour gagner du temps ou de l'argent peut créer de gros problèmes plus tard : des travaux sans permis peuvent compliquer une vente future, faire refuser certaines réclamations d'assurance ou exiger des correctifs coûteux pour se mettre en conformité.
+
+Le zonage et les permis sont des pièces qui limitent tout l'échiquier : un investisseur ne peut pas simplement choisir l'utilisation la meilleure et la plus rentable d'une propriété de façon isolée; il doit agir dans ce que les règles locales permettent en ce moment, et ces règles varient selon la juridiction et peuvent changer.
+
+**3. Exemple pratique**
+Avant d'acheter une propriété dans l'espoir d'aménager un logement au sous-sol pour obtenir un revenu de location supplémentaire, Tobias étudie les exigences locales de zonage et de permis. Il apprend que le zonage de la propriété permet les logements accessoires, mais seulement avec des permis précis qui touchent les fenêtres d'évacuation, la hauteur des plafonds et des installations de services publics séparées.
+
+Au lieu de supposer qu'il peut simplement construire le logement sans permis pour économiser, Tobias prévoit dès le départ dans son budget les permis et les inspections nécessaires, en comprenant que des travaux sans permis pourraient compromettre sa couverture d'assurance, son financement futur et la valeur de revente, même s'ils semblent faire économiser à court terme.
+
+**4. Quiz de pratique**
+1. Qu'est-ce que le zonage détermine généralement?
+   a) Le taux d'intérêt d'un prêt hypothécaire
+   b) Comment les terrains d'un secteur peuvent être utilisés
+   c) La prime d'assurance de la propriété
+   d) Le pointage de crédit du locataire
+2. Quel est un risque de sauter les permis obligatoires?
+   a) Aucun risque
+   b) Des complications lors d'une vente future, avec l'assurance, ou des correctifs coûteux
+   c) Des déductions fiscales automatiques
+   d) Une hausse garantie de la valeur de la propriété
+3. Vrai ou faux : Un propriétaire peut toujours utiliser sa propriété comme il le veut, peu importe le zonage local.
+4. Pourquoi Tobias a-t-il prévu des permis dans son budget plutôt que de construire sans permis?
+   a) Les permis sont une décoration facultative
+   b) Des travaux sans permis pourraient compromettre l'assurance, le financement et la valeur de revente
+   c) C'était moins cher d'obtenir des permis
+   d) Son prêteur ne l'exigeait pas
+
+**5. Corrigé**
+1. b  2. b  3. Faux  4. b
+
+**6. Réponses et explications**
+1. Le zonage détermine comment les terrains d'un secteur peuvent légalement être utilisés.
+2. Des travaux sans permis peuvent créer de vrais problèmes plus tard avec l'assurance, la vente et la conformité.
+3. Le zonage limite légalement ce qu'un propriétaire peut faire de sa propriété, peu importe ses préférences personnelles.
+4. Tobias a compris que sauter les permis pour économiser à court terme pouvait créer de plus gros risques à long terme.
+
+**7. Points clés à retenir**
+- Le zonage détermine l'utilisation des terrains permise par la loi et limite ce qu'un propriétaire peut faire de sa propriété.
+- Les permis assurent que les travaux respectent les normes de sécurité et le code; les sauter crée de vrais risques plus tard.
+- Ces règles varient selon la juridiction et doivent être vérifiées localement avant des rénovations ou un changement d'usage.
+- Le zonage et les permis sont des pièces qui limitent tout l'échiquier, peu importe la capacité financière ou physique.
+
+===== RED-L2-024
+TITLE: Travailler avec des entrepreneurs : les interactions entre l'étendue, le coût et l'échéancier
+SUMMARY: Comprends comment l'étendue des travaux, le coût et l'échéancier sont liés, d'où viennent les dépassements et comment encadrer une relation avec un entrepreneur.
+## RED-L2-024
+### Travailler avec des entrepreneurs : les interactions entre l'étendue, le coût et l'échéancier
+
+**1. Objectifs d'apprentissage**
+À la fin de cette leçon, tu pourras :
+- Expliquer la relation entre l'étendue des travaux, le coût et l'échéancier dans un projet de rénovation.
+- Nommer les causes courantes des dépassements de coûts et de délais.
+- Décrire des étapes concrètes pour gérer de façon responsable une relation avec un entrepreneur.
+
+**2. Contenu principal**
+L'étendue des travaux, le coût et l'échéancier sont trois pièces reliées dans tout projet de rénovation — on les décrit souvent comme un triangle où changer un côté en touche habituellement au moins un autre. Élargir l'étendue (ajouter des travaux) tend à augmenter à la fois le coût et l'échéancier. Raccourcir l'échéancier (vouloir que les travaux soient faits plus vite) augmente souvent le coût (frais d'urgence, heures supplémentaires) ou force à réduire l'étendue. Couper les coûts de façon agressive peut allonger l'échéancier (moins de travailleurs, matériaux moins chers avec des délais de livraison plus longs) ou forcer à réduire l'étendue.
+
+Les causes courantes de dépassement comprennent les ententes floues ou seulement verbales, l'élargissement graduel des travaux (de petits ajouts qui semblent mineurs un par un, mais qui s'accumulent), les conditions imprévues découvertes pendant les travaux (comme des problèmes derrière les murs) et les entrepreneurs qui jonglent avec trop de projets en même temps.
+
+Parmi les étapes concrètes de gestion : des contrats écrits détaillés qui précisent l'étendue et les matériaux, des calendriers de paiement liés à des étapes terminées plutôt que de gros paiements d'avance, un budget de contingence (souvent de 10 à 20 %, même si ça varie selon le projet) pour les imprévus, et des visites ou des suivis réguliers sur le chantier au lieu de tout vérifier seulement à la fin.
+
+**3. Exemple pratique**
+Avant de commencer la rénovation de sa cuisine, Bea obtient un contrat écrit détaillé qui précise les matériaux exacts, un calendrier de paiement lié à des étapes (pas un gros dépôt d'avance) et un processus écrit d'avenants pour tout ajout de travaux. Elle met aussi de côté un budget de contingence de 15 % en plus du prix prévu au contrat.
+
+À mi-chemin, l'entrepreneur découvre derrière un mur un filage désuet qu'il faut corriger pour des raisons de sécurité. Comme Bea avait un budget de contingence et un processus d'avenants clair déjà en place, cette découverte imprévue devient un ajustement gérable et documenté, plutôt qu'une crise budgétaire ou un conflit sur des attentes floues.
+
+**4. Quiz de pratique**
+1. Qu'arrive-t-il généralement au coût et à l'échéancier quand l'étendue des travaux augmente?
+   a) Les deux tendent à diminuer
+   b) Ils tendent à augmenter
+   c) Ni l'un ni l'autre ne change
+   d) Le coût diminue alors que l'échéancier augmente
+2. Qu'est-ce que l'élargissement graduel des travaux (*scope creep*)?
+   a) Un problème d'extermination
+   b) De petits ajouts de travaux qui semblent mineurs un par un, mais qui s'accumulent au fil d'un projet
+   c) Un type de financement
+   d) Une infraction au zonage
+3. Vrai ou faux : Les ententes verbales sont généralement suffisantes et protègent autant que des contrats écrits détaillés pour des projets de rénovation.
+4. Pourquoi Bea a-t-elle pu gérer facilement la découverte imprévue du filage?
+   a) Elle n'avait aucun contrat
+   b) Elle avait déjà en place un budget de contingence et un processus d'avenants clair
+   c) Elle avait payé tout le montant à l'entrepreneur d'avance
+   d) Le problème de filage n'en était pas vraiment un
+
+**5. Corrigé**
+1. b  2. b  3. Faux  4. b
+
+**6. Réponses et explications**
+1. Élargir l'étendue des travaux augmente généralement le coût et l'échéancier, toutes choses étant égales par ailleurs.
+2. L'élargissement graduel des travaux désigne de petits ajouts qui s'accumulent jusqu'à créer des coûts et des délais importants non prévus.
+3. Les contrats écrits détaillés offrent beaucoup plus de protection et de clarté que les ententes seulement verbales.
+4. La planification de Bea à l'avance — budget de contingence et processus d'avenants — a transformé une surprise en ajustement gérable.
+
+**7. Points clés à retenir**
+- L'étendue des travaux, le coût et l'échéancier sont reliés; changer l'un touche habituellement les autres.
+- Les causes courantes de dépassement comprennent l'élargissement graduel des travaux, les ententes floues et les découvertes imprévues.
+- Des contrats écrits détaillés, des paiements liés à des étapes et un budget de contingence permettent de gérer ces risques.
+- Une planification proactive transforme les imprévus en ajustements gérables plutôt qu'en crises.

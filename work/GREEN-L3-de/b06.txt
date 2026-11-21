@@ -1,0 +1,183 @@
+===== GREEN-L3-021
+TITLE: Warum Abschreibungen beim Verkauf einen früheren Steuervorteil zurückholen können
+SUMMARY: Erfahre, warum der Steuervorteil aus Abschreibungen nicht immer dauerhaft ist und warum der Verkauf eines abgeschriebenen Vermögenswerts einen Teil dieses früheren Vorteils wieder einholen kann.
+# GREEN-L3-021: Warum Abschreibungen beim Verkauf einen früheren Steuervorteil zurückholen können
+
+## Lernziele
+Am Ende dieser Lektion kannst du:
+- erklären, was das Zurückholen von Abschreibungen (in den USA „depreciation recapture“) grundsätzlich bedeutet
+- erklären, warum der Verkauf eines abgeschriebenen Vermögenswerts diese besondere steuerliche Folge auslösen kann
+- dieses Konzept mit der Diskussion über Abschreibungen an anderer Stelle im Lehrplan verbinden
+
+## Hauptinhalt
+
+Der RED-Track dieses Lehrplans zeigt, wie Abschreibungen (in Deutschland die Absetzung für Abnutzung, kurz AfA) es Immobilieneigentümern ermöglichen, jedes Jahr einen Teil des Gebäudewerts als nicht zahlungswirksamen Aufwand abzuziehen und so das zu versteuernde Einkommen zu senken, ohne dass sich der Cashflow ändert. Das **Zurückholen von Abschreibungen** betrifft die Frage, was mit diesem angesammelten Steuervorteil geschieht, wenn die Immobilie schließlich verkauft wird.
+
+Hier das „Warum“, weshalb es das gibt: Abschreibungen beruhten auf der Annahme, dass der Vermögenswert im Lauf der Zeit an Wert verliert. Wird er später mit Gewinn verkauft – hat er also gar nicht so an Wert verloren, wie die Abschreibungen angenommen hatten –, [VERIFIED FACT] sehen die Steuerregeln vieler Länder vor, dass ein Teil dieses Veräußerungsgewinns bis zur Höhe der früher geltend gemachten Abschreibungen besonders behandelt wird. In den USA geschieht das über eigene „recapture“-Sätze. In Deutschland mindern die Abschreibungen die Anschaffungskosten: Verkaufst du eine privat vermietete Immobilie innerhalb der zehnjährigen Spekulationsfrist, erhöhen die bereits abgezogenen Abschreibungen deshalb den steuerpflichtigen Veräußerungsgewinn; bei Betriebsvermögen wird der Gewinn ohnehin vom abgeschriebenen Buchwert aus berechnet. Nach Ablauf der zehn Jahre ist der Verkauf einer privat gehaltenen Immobilie dagegen grundsätzlich steuerfrei, sodass der frühere Vorteil dann bestehen bleibt.
+
+Deshalb solltest du Abschreibungen nicht als dauerhaften Steuervorteil ohne Bedingungen sehen – genauer betrachtet ist es ein Vorteil, der je nach Land, Haltedauer und Art des Vermögens bei einem späteren, profitableren Verkauf als angenommen teilweise wieder eingeholt werden kann. Diese Feinheit ist direkt wichtig für die Diskussion über aufgeschobene Veräußerungsgewinne in Lektion 22.
+
+## Durchgerechnetes Beispiel
+
+[ILLUSTRATIVE EXAMPLE] Eine Anlegerin macht über mehrere Jahre Abschreibungen auf eine vermietete Wohnung geltend und senkt damit jedes Jahr ihr zu versteuerndes Einkommen, ausgehend von der Annahme, dass das Gebäude nach und nach an Wert verliert. Verkauft sie die Wohnung acht Jahre nach dem Kauf – also innerhalb der Spekulationsfrist – mit einem deutlichen Gewinn, der eine echte Wertsteigerung und keinen Wertverlust widerspiegelt, wird der Veräußerungsgewinn von den um die Abschreibungen geminderten Anschaffungskosten aus berechnet. [ASSUMPTION] Die früher abgezogenen Abschreibungen erhöhen damit den steuerpflichtigen Gewinn und holen einen Teil des Steuervorteils aus ihren Jahren als Eigentümerin wieder ein – ein Ausdruck dessen, dass die Immobilie gar nicht so an Wert verloren hat, wie die Abschreibungen angenommen hatten.
+
+## Übungsquiz
+1. Womit befasst sich das Zurückholen von Abschreibungen grundsätzlich?
+2. Warum kann der Verkauf eines abgeschriebenen Vermögenswerts mit Gewinn diese besondere steuerliche Folge auslösen?
+3. Warum solltest du Abschreibungen nicht als dauerhaften Steuervorteil ohne Bedingungen sehen?
+
+## Lösungsschlüssel
+1. Damit, was mit dem angesammelten Steuervorteil aus Abschreibungen geschieht, wenn ein abgeschriebener Vermögenswert schließlich verkauft wird, besonders mit Gewinn.
+2. Weil die Abschreibungen einen Wertverlust angenommen haben und ein Veräußerungsgewinn zeigt, dass diese Annahme nicht stimmte; deshalb sehen Regeln vor, einen Teil des früheren Steuervorteils wieder einzuholen – in Deutschland etwa über die geminderten Anschaffungskosten bei einem Verkauf innerhalb der Spekulationsfrist.
+3. Weil er bei einem späteren, profitableren Verkauf als angenommen teilweise wieder eingeholt werden kann, statt ein fester, dauerhaft behaltener Vorteil zu sein.
+
+## Antworten und Erklärungen
+1. Das ist das grundlegende Konzept dieser Lektion, anknüpfend an die Diskussion über Abschreibungen im RED-Track.
+2. Das ist das zentrale „Warum“, das den Mechanismus erklärt.
+3. Das unterstreicht die richtige, differenziertere Sicht auf den bedingten Charakter von Abschreibungen.
+
+## Das Wichtigste in Kürze
+- Wird ein abgeschriebener Vermögenswert mit Gewinn verkauft, kann ein Teil des früheren Steuervorteils wieder eingeholt werden.
+- Das liegt daran, dass die ursprünglichen Abschreibungen einen Wertverlust angenommen haben, den ein Veräußerungsgewinn widerlegt.
+- Abschreibungen sind deshalb als bedingter, möglicherweise teilweise umkehrbarer Steuervorteil zu verstehen – in Deutschland abhängig etwa von Haltedauer und Art des Vermögens.
+
+## Hinweis zum Bildungszweck
+Diese Lektion dient ausschließlich der allgemeinen finanziellen Bildung und ist keine individuelle Finanz-, Anlage-, Steuer- oder Rechtsberatung. Regeln zu Abschreibungen und Veräußerungsgewinnen unterscheiden sich je nach Land und ändern sich im Lauf der Zeit; wende dich für deine Situation an eine Steuerberaterin oder einen Steuerberater.
+
+===== GREEN-L3-022
+TITLE: Warum eine Reinvestitionsrücklage die Steuer aufschiebt und nicht beseitigt
+SUMMARY: Erfahre, warum Regeln zur steuerneutralen Reinvestition – in den USA der 1031 Exchange, in Deutschland die Rücklage nach § 6b EStG – die Steuer auf Veräußerungsgewinne nur verschieben, statt sie verschwinden zu lassen.
+# GREEN-L3-022: Warum eine Reinvestitionsrücklage die Steuer aufschiebt und nicht beseitigt
+
+## Lernziele
+Am Ende dieser Lektion kannst du:
+- erklären, warum ein 1031 Exchange in den USA oder eine Reinvestitionsrücklage in Deutschland die Steuer aufschiebt, statt sie zu beseitigen
+- dieses Konzept mit der Unterscheidung zwischen aufgeschoben und steuerfrei aus Lektion 11 verbinden
+- erklären, wie die zurückgeholten Abschreibungen aus Lektion 21 dabei eine Rolle spielen
+
+## Hauptinhalt
+
+Der RED-Track dieses Lehrplans hat den US-amerikanischen **1031 Exchange** vorgestellt, mit dem ein Anleger die Steuer auf Veräußerungsgewinne aufschieben kann, indem er den Erlös in eine gleichartige Immobilie reinvestiert. In Deutschland gibt es dafür kein direktes Gegenstück für Privatanleger; im **Betriebsvermögen** erlaubt aber § 6b EStG unter bestimmten Voraussetzungen, den Gewinn aus dem Verkauf bestimmter Wirtschaftsgüter – etwa Grundstücke und Gebäude, die mindestens sechs Jahre zum Betriebsvermögen gehörten – auf neu angeschaffte Wirtschaftsgüter zu übertragen oder vorübergehend in eine Rücklage einzustellen. Hier das „Warum“, weshalb der Titel dieser Lektion bewusst „aufschieben“ sagt – direkt anknüpfend an Lektion 11: Beide Instrumente lassen die Steuerpflicht nicht verschwinden, sondern verschieben sie. Der übertragene Gewinn mindert die Anschaffungskosten des neuen Wirtschaftsguts; die aufgeschobene Steuer folgt dem Anleger also in den Ersatz, statt beseitigt zu werden.
+
+[VERIFIED FACT] Das gilt auch für die in Lektion 21 besprochenen Abschreibungen: Weil der übertragene Gewinn auch die bisher abgeschriebenen Beträge widerspiegelt und die Anschaffungskosten des neuen Wirtschaftsguts mindert, werden die künftigen Abschreibungen auf das neue Objekt niedriger – sowohl die Steuer auf den Veräußerungsgewinn als auch der Effekt früherer Abschreibungen werden in die Basis des Ersatzobjekts weitergetragen, statt zum Zeitpunkt der Reinvestition erledigt zu sein.
+
+Deshalb baut jemand, der solche Übertragungen über viele Jahre wiederholt, mit jedem Mal eine wachsende aufgeschobene Steuerlast auf – eine Last, die irgendwann fällig wird, wenn das Objekt schließlich in einem voll steuerpflichtigen Vorgang verkauft wird, statt erneut übertragen zu werden, sofern sie nicht auf anderem Weg aufgelöst wird (in den USA etwa durch die Neubewertung der Basis im Erbfall, Thema einer späteren Lektion).
+
+## Durchgerechnetes Beispiel
+
+[ILLUSTRATIVE EXAMPLE] Eine Unternehmerin verkauft ein Betriebsgrundstück, das seit vielen Jahren zu ihrem Betriebsvermögen gehört, mit einem Gewinn von 100.000 € und überträgt diesen Gewinn nach § 6b EStG auf ein neu angeschafftes Betriebsgebäude. Die Steuer auf die 100.000 € fällt damit zunächst nicht an. [ASSUMPTION] Diese aufgeschobene Last verschwindet aber nicht; sie steckt in den um 100.000 € geminderten Anschaffungskosten des neuen Gebäudes. Das bedeutet niedrigere Abschreibungen in den Folgejahren und einen entsprechend höheren steuerpflichtigen Gewinn, wenn sie das neue Gebäude Jahre später in einem voll steuerpflichtigen Vorgang verkauft, ohne erneut zu übertragen – ein Beispiel dafür, warum „aufgeschoben“ das zutreffende Wort ist und nicht „beseitigt“.
+
+## Übungsquiz
+1. Warum schiebt ein 1031 Exchange oder eine Reinvestitionsrücklage die Steuer auf, statt sie zu beseitigen?
+2. Wie hängt das mit der Unterscheidung zwischen aufgeschoben und steuerfrei aus Lektion 11 zusammen?
+3. Wird dabei nur die Steuer auf den Veräußerungsgewinn aufgeschoben, oder wirkt sich das auch auf frühere und künftige Abschreibungen aus?
+
+## Lösungsschlüssel
+1. Weil die Steuerpflicht verschoben wird – der Gewinn mindert grundsätzlich die Anschaffungskosten oder die Basis des Ersatzobjekts –, statt vollständig zu verschwinden.
+2. Es ist ein direktes, praktisches Beispiel für aufgeschobene Besteuerung im Sinne von Lektion 11 – die Steuerpflicht besteht weiter und wird unter bestimmten künftigen Umständen fällig, statt steuerfrei zu sein.
+3. Beides – weil die geminderte Basis des Ersatzobjekts die künftigen Abschreibungen verringert und den späteren Veräußerungsgewinn erhöht, wird auch der Effekt früherer Abschreibungen aus Lektion 21 weitergetragen.
+
+## Antworten und Erklärungen
+1. Das ist das zentrale „Warum“, auf dem der Titel der Lektion aufbaut.
+2. Das verknüpft die Lektion ausdrücklich mit dem Rahmen aus aufgeschoben und steuerfrei aus Lektion 11.
+3. Das prüft, ob du das Konzept dieser Lektion mit der unmittelbar vorangehenden Lektion zu Abschreibungen verbindest.
+
+## Das Wichtigste in Kürze
+- Ein 1031 Exchange oder eine Reinvestitionsrücklage schiebt die Steuer auf Veräußerungsgewinne auf, statt sie zu beseitigen, und trägt sie in die Basis des Ersatzobjekts weiter.
+- Das ist ein konkretes, praktisches Beispiel für das in Lektion 11 eingeführte Konzept der aufgeschobenen Besteuerung.
+- Wiederholte Übertragungen bauen eine wachsende aufgeschobene Steuerlast auf, die irgendwann fällig wird, sofern sie nicht auf anderem Weg aufgelöst wird.
+
+## Hinweis zum Bildungszweck
+Diese Lektion dient ausschließlich der allgemeinen finanziellen Bildung und ist keine individuelle Finanz-, Anlage-, Steuer- oder Rechtsberatung. Regeln zur steuerneutralen Reinvestition unterscheiden sich je nach Land und ändern sich im Lauf der Zeit; wende dich für deine Situation an eine Steuerberaterin oder einen Steuerberater.
+
+===== GREEN-L3-023
+TITLE: Warum Kapitalerträge und Arbeitseinkommen unterschiedlich besteuert werden
+SUMMARY: Erfahre, warum Gewinne aus dem Verkauf von Geldanlagen oft anders besteuert werden als Löhne und Gehälter und welche Rolle die Haltedauer dabei spielt – oder in Deutschland bei Wertpapieren gerade nicht mehr spielt.
+# GREEN-L3-023: Warum Kapitalerträge und Arbeitseinkommen unterschiedlich besteuert werden
+
+## Lernziele
+Am Ende dieser Lektion kannst du:
+- die grundsätzliche Unterscheidung zwischen Kapitalerträgen und Arbeitseinkommen erklären
+- erklären, warum die Haltedauer in vielen Ländern bestimmt, welcher Steuersatz auf Veräußerungsgewinne gilt, und wie das in Deutschland geregelt ist
+- dieses Konzept mit der Diskussion über die Haltedauer im WHITE-Track dieses Lehrplans verbinden
+
+## Hauptinhalt
+
+**Arbeitseinkommen** umfasst grundsätzlich Löhne, Gehälter und andere typische Erwerbseinkommen, die nach dem progressiven Tarif aus Lektion 1 besteuert werden. **Kapitalerträge** – darunter Gewinne aus dem Verkauf einer Geldanlage oder eines anderen Vermögenswerts – werden oft nach eigenen Regeln besteuert, die sich deutlich von der Besteuerung des Arbeitseinkommens unterscheiden können.
+
+Hier das „Warum“, weshalb es diese Unterscheidung häufig gibt – eng verwandt mit einem Konzept aus dem WHITE-Track: Viele Steuersysteme wenden je nach **Haltedauer** – wie lange der Vermögenswert vor dem Verkauf gehalten wurde – unterschiedliche Sätze an. Gewinne aus kurz gehaltenen Vermögenswerten werden dort oft ähnlich wie Arbeitseinkommen besteuert, Gewinne aus länger gehaltenen günstiger – mit dem erklärten Ziel, langfristige Geldanlage gegenüber häufigem kurzfristigem Handel zu fördern. Deutschland geht bei Wertpapieren einen anderen Weg: Seit 2009 unterliegen Kapitalerträge, auch Veräußerungsgewinne aus Aktien und Fonds, unabhängig von der Haltedauer der **Abgeltungsteuer** von 25 % zuzüglich Solidaritätszuschlag und gegebenenfalls Kirchensteuer – einem festen Satz, der vom progressiven Tarif getrennt ist. Eine Rolle spielt die Haltedauer in Deutschland dagegen bei privaten Veräußerungsgeschäften, etwa bei vermieteten Immobilien (zehn Jahre) oder physischem Gold (ein Jahr).
+
+[VERIFIED FACT] Die konkreten Haltefristen, die geltenden Sätze und das Zusammenspiel von Kapitalerträgen und übrigem Einkommen bei der Gesamtberechnung der Steuer sind gesetzlich festgelegt, unterscheiden sich je nach Land erheblich und ändern sich im Lauf der Zeit – es ist wertvoll, die grundsätzliche Unterscheidung zu kennen, doch die genauen Zahlen sollten für die konkrete Lage und das jeweilige Land geprüft werden.
+
+## Durchgerechnetes Beispiel
+
+[ILLUSTRATIVE EXAMPLE] In einem Land mit haltedauerabhängigen Sätzen verkauft eine Anlegerin eine Aktie, die sie nur kurz gehalten hat; ihr Gewinn wird ähnlich wie ihr Arbeitseinkommen mit ihrem normalen Grenzsteuersatz (Lektion 1) besteuert. Eine andere Anlegerin verkauft eine ähnliche Aktie nach viel längerer Haltedauer, und ihr Gewinn wird mit einem günstigeren Satz für langfristige Gewinne besteuert. [ASSUMPTION] Obwohl beide genau denselben Gewinn erzielt haben, können sie allein wegen der Haltedauer zu spürbar unterschiedlichen Steuerergebnissen kommen. In Deutschland würden dagegen beide Aktiengewinne der Abgeltungsteuer unterliegen, unabhängig davon, wie lange die Aktien gehalten wurden – ein Beispiel dafür, wie unterschiedlich Länder dieselbe Frage lösen.
+
+## Übungsquiz
+1. Was ist die grundsätzliche Unterscheidung zwischen Kapitalerträgen und Arbeitseinkommen?
+2. Warum bestimmt die Haltedauer in vielen Ländern, welcher Steuersatz auf Veräußerungsgewinne gilt, und wie ist das in Deutschland bei Wertpapieren?
+3. Wie hängt diese Lektion mit einem ähnlichen Konzept aus dem WHITE-Track dieses Lehrplans zusammen?
+
+## Lösungsschlüssel
+1. Arbeitseinkommen umfasst Löhne und typische Erwerbseinkommen, die nach dem progressiven Tarif besteuert werden; Kapitalerträge umfassen unter anderem Gewinne aus dem Verkauf einer Geldanlage oder eines Vermögenswerts und werden oft nach eigenen Regeln besteuert.
+2. Weil viele Steuersysteme Gewinne aus länger gehaltenen Vermögenswerten günstiger besteuern, um langfristige Geldanlage gegenüber häufigem kurzfristigem Handel zu fördern; in Deutschland unterliegen Wertpapiergewinne dagegen unabhängig von der Haltedauer der Abgeltungsteuer.
+3. Sie spiegelt direkt die Diskussion über haltedauerabhängige Besteuerung von Veräußerungsgewinnen aus dem WHITE-Track wider und wendet dasselbe Grundprinzip im steuerlichen Zusammenhang dieses GREEN-Tracks an.
+
+## Antworten und Erklärungen
+1. Das ist die grundlegende Unterscheidung dieser Lektion.
+2. Das erklärt die zugrunde liegende Begründung für haltedauerabhängige Sätze und den abweichenden deutschen Ansatz.
+3. Das verknüpft die Lektion ausdrücklich mit einer entsprechenden Diskussion an anderer Stelle im Lehrplan und stärkt das trackübergreifende Lernen.
+
+## Das Wichtigste in Kürze
+- Arbeitseinkommen und Kapitalerträge werden oft nach unterschiedlichen Regeln besteuert; viele Länder begünstigen dabei längere Haltedauern.
+- In Deutschland unterliegen Wertpapiergewinne seit 2009 unabhängig von der Haltedauer der Abgeltungsteuer; Haltefristen gelten aber etwa für Immobilien und Gold.
+- Konkrete Haltefristen und Sätze unterscheiden sich je nach Land erheblich und ändern sich im Lauf der Zeit.
+
+## Hinweis zum Bildungszweck
+Diese Lektion dient ausschließlich der allgemeinen finanziellen Bildung und ist keine individuelle Finanz-, Anlage-, Steuer- oder Rechtsberatung. Die Besteuerung von Kapitalerträgen unterscheidet sich je nach Land und ändert sich im Lauf der Zeit; wende dich für deine Situation an eine Steuerberaterin oder einen Steuerberater.
+
+===== GREEN-L3-024
+TITLE: Warum Verlustverrechnung und Regeln gegen Scheinverkäufe zusammenwirken
+SUMMARY: Erfahre, wie die steuerliche Nutzung realisierter Verluste und Regeln wie die US-amerikanische Wash-Sale-Rule zusammenwirken – und wie Deutschland Verluste über eigene Verlustverrechnungstöpfe begrenzt.
+# GREEN-L3-024: Warum Verlustverrechnung und Regeln gegen Scheinverkäufe zusammenwirken
+
+## Lernziele
+Am Ende dieser Lektion kannst du:
+- erklären, wie ein realisierter Verlust steuerlich mit Gewinnen verrechnet werden kann
+- erklären, warum die US-amerikanische Wash-Sale-Rule diese Strategie auf eine bestimmte Weise begrenzt und welche Grenzen in Deutschland gelten
+- dieses Konzept mit der entsprechenden Diskussion im WHITE-Track dieses Lehrplans verbinden
+
+## Hauptinhalt
+
+Der WHITE-Track dieses Lehrplans behandelt die gezielte Realisierung von Verlusten (Tax-Loss Harvesting) und die Wash-Sale-Rule aus Sicht der Anlagestrategie. Hier dasselbe Konzept aus steuerlicher Sicht: Ein **realisierter Verlust** – also einer, der durch einen Verkauf tatsächlich festgeschrieben wurde, nicht nur ein Buchverlust – kann grundsätzlich steuerlich mit Gewinnen verrechnet werden. In den USA kann ein begrenzter Teil eines verbleibenden Nettoverlusts zudem mit Arbeitseinkommen verrechnet werden. In Deutschland ist das nicht möglich: Verluste aus Kapitalvermögen dürfen nach § 20 Abs. 6 EStG nur mit positiven Kapitalerträgen verrechnet werden, und Verluste aus Aktienverkäufen sogar nur mit Gewinnen aus Aktienverkäufen. Die Bank führt dafür eigene **Verlustverrechnungstöpfe**; nicht verbrauchte Verluste werden zeitlich unbegrenzt in Folgejahre vorgetragen.
+
+Hier das „Warum“, weshalb die **Wash-Sale-Rule** diese Strategie in den USA gezielt begrenzt: [VERIFIED FACT] Dort wird ein geltend gemachter Verlust nicht anerkannt, wenn dasselbe oder ein im Wesentlichen identisches Wertpapier innerhalb eines bestimmten Zeitfensters um den Verkauf herum zurückgekauft wird, weil der Steuerpflichtige sonst einen Steuerverlust geltend machen könnte, während er faktisch genau dieselbe Anlageposition behält. In Deutschland gibt es keine vergleichbare Wash-Sale-Rule; hier begrenzen vor allem die strikte Trennung der Verlusttöpfe und die fehlende Verrechnung mit anderen Einkunftsarten den Nutzen realisierter Verluste.
+
+Deshalb betont die steuerliche Sicht auf diese Strategie genaue Zeitplanung und Dokumentation: Wer in den USA Verluste realisiert, muss nicht nur festhalten, dass ein Verlust entstanden ist, sondern auch sicherstellen, dass innerhalb des Zeitfensters kein schädlicher Rückkauf erfolgt ist. Wer in Deutschland Verluste realisiert, sollte prüfen, in welchen Topf sie fallen und ob es dort überhaupt Gewinne gibt, mit denen sie verrechnet werden können – bei mehreren Depots gegebenenfalls über eine Verlustbescheinigung und die Steuererklärung.
+
+## Durchgerechnetes Beispiel
+
+[ILLUSTRATIVE EXAMPLE] Eine Anlegerin in den USA realisiert einen Verlust, indem sie eine gefallene Anlage verkauft, und will diesen Verlust steuerlich mit Gewinnen an anderer Stelle in ihrem Depot verrechnen. Kauft sie dieselbe oder eine im Wesentlichen identische Anlage innerhalb des Wash-Sale-Zeitfensters zurück, kann die Steuerbehörde den geltend gemachten Verlust für dieses Jahr nicht anerkennen, obwohl sie ihn ernsthaft nutzen wollte. [ASSUMPTION] Eine Anlegerin in Deutschland, die einen Aktienverlust realisiert, hat dieses Rückkaufproblem nicht, kann den Verlust aber nur mit Aktiengewinnen verrechnen – erzielt sie im selben Jahr nur Zinsen oder Fondserträge, wird der Verlust in Folgejahre vorgetragen, statt ihre Steuer sofort zu senken. In beiden Fällen ist sorgfältiges Nachverfolgen nötig, damit der Verlust, auf den sie zählt, tatsächlich die erwartete Wirkung hat.
+
+## Übungsquiz
+1. Womit kann ein realisierter Verlust steuerlich grundsätzlich verrechnet werden, und welche Einschränkungen gelten in Deutschland?
+2. Was untersagt die US-amerikanische Wash-Sale-Rule konkret?
+3. Warum ergibt sich daraus für Steuerpflichtige, die diese Strategie nutzen, eine konkrete, praktische Pflicht zum Nachverfolgen?
+
+## Lösungsschlüssel
+1. Mit Gewinnen und in den USA in begrenztem Umfang auch mit Arbeitseinkommen; in Deutschland nur mit positiven Kapitalerträgen, Aktienverluste sogar nur mit Aktiengewinnen, wobei nicht verbrauchte Verluste unbegrenzt vorgetragen werden.
+2. Die Anerkennung eines geltend gemachten Steuerverlusts, wenn dasselbe oder ein im Wesentlichen identisches Wertpapier innerhalb eines bestimmten Zeitfensters um den Verkauf herum zurückgekauft wird.
+3. Weil Steuerpflichtige sicherstellen müssen, dass ein Verlust tatsächlich anerkannt wird und verrechnet werden kann – in den USA durch das Vermeiden schädlicher Rückkäufe, in Deutschland durch den Blick auf die passenden Verlusttöpfe und verrechenbare Gewinne.
+
+## Antworten und Erklärungen
+1. Das legt den steuerlichen Mechanismus fest, wie ein realisierter Verlust genutzt werden kann, einschließlich der deutschen Besonderheiten.
+2. Das ist die zentrale begrenzende Regel, auf die sich die Lektion in den USA konzentriert.
+3. Das unterstreicht die praktische, steuerrechtliche Dimension dieser Strategie.
+
+## Das Wichtigste in Kürze
+- Ein realisierter Verlust kann steuerlich grundsätzlich mit Gewinnen verrechnet werden; in Deutschland gelten dafür getrennte Verlustverrechnungstöpfe, und eine Verrechnung mit Arbeitseinkommen ist nicht möglich.
+- Die US-amerikanische Wash-Sale-Rule versagt einen Verlust, wenn dasselbe oder ein im Wesentlichen identisches Wertpapier innerhalb eines bestimmten Zeitfensters zurückgekauft wird; in Deutschland gibt es keine vergleichbare Regel.
+- Das erfordert sorgfältiges Nachverfolgen von Verkäufen, Rückkäufen und Verlusttöpfen, damit ein geltend gemachter Verlust tatsächlich wirkt.
+
+## Hinweis zum Bildungszweck
+Diese Lektion dient ausschließlich der allgemeinen finanziellen Bildung und ist keine individuelle Finanz-, Anlage-, Steuer- oder Rechtsberatung. Regeln zur Verlustverrechnung unterscheiden sich je nach Land und ändern sich im Lauf der Zeit; wende dich für deine Situation an eine Steuerberaterin oder einen Steuerberater.

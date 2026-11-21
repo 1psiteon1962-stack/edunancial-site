@@ -1,0 +1,344 @@
+===== WHITE-L3-036
+TITLE: Pourquoi les comptes à avantages fiscaux changent le calcul du rendement après impôt
+SUMMARY: Découvre pourquoi le type de compte par lequel tu investis peut changer de façon importante ton rendement net réel, indépendamment du rendement du placement lui-même.
+# WHITE-L3-036 : Pourquoi les comptes à avantages fiscaux changent le calcul du rendement après impôt
+
+## Objectifs d'apprentissage
+À la fin de cette leçon, tu pourras :
+- Expliquer la notion générale derrière les comptes de placement à avantages fiscaux
+- Expliquer pourquoi un même placement peut donner des résultats après impôt différents selon le type de compte
+- Expliquer pourquoi le choix du type de compte est une décision distincte du choix des placements à détenir
+
+## Contenu principal
+
+De nombreux pays offrent certains types de comptes de placement — souvent associés à l'épargne-retraite — qui procurent des avantages fiscaux précis, comme une croissance à impôt différé (on paie l'impôt plus tard, souvent à la retraite) ou une croissance libre d'impôt (sous certaines conditions d'admissibilité précises). [VERIFIED FACT] Les types de comptes offerts, les règles, les plafonds de cotisation et les traitements fiscaux varient beaucoup d'un pays à l'autre et changent avec le temps selon la législation; les détails précis de chaque programme doivent donc être vérifiés directement et dépassent la portée de cette leçon générale.
+
+Voici « pourquoi » c'est une notion distincte du choix des placements : exactement le même placement sous-jacent — la même action ou le même fonds — peut donner un résultat après impôt nettement différent selon qu'il est détenu dans un compte imposable ordinaire ou dans un compte qui offre une forme d'avantage fiscal. C'est un niveau de décision entièrement distinct de la question de *quels* placements détenir — il s'agit de savoir *où* (dans quel type de compte) ces placements sont détenus.
+
+C'est pourquoi les investisseurs expérimentés voient souvent le choix du compte et le choix des placements comme deux décisions liées, mais distinctes : choisir une répartition globale de l'actif et des placements précis bien adaptés (leçon 34 et précédentes) et, séparément, choisir les types de comptes offerts à utiliser pour détenir ces placements de façon efficace sur le plan fiscal, selon sa propre situation et les règles précises qui s'appliquent.
+
+## Exemple pratique
+
+[ILLUSTRATIVE EXAMPLE] Une investisseuse a accès à un compte de retraite à avantages fiscaux qui offre une croissance à impôt différé, ainsi qu'à un compte de courtage imposable ordinaire. [ASSUMPTION] Détenir le même placement dans le compte à avantages fiscaux plutôt que dans le compte imposable pourrait donner un résultat après impôt nettement différent sur une longue période de détention, uniquement à cause de la différence de traitement fiscal — même si le placement sous-jacent, son rendement et son risque sont identiques dans les deux cas. Ça montre pourquoi la décision sur le type de compte mérite une réflexion distincte et volontaire, en plus de la décision sur le choix des placements.
+
+## Quiz de pratique
+
+1. Quelle est la notion générale derrière un compte de placement à avantages fiscaux?
+2. Pourquoi un même placement peut-il donner des résultats après impôt différents selon le type de compte?
+3. Pourquoi faut-il considérer le choix du compte comme une décision distincte du choix des placements?
+
+## Corrigé
+
+1. C'est un type de compte qui offre des avantages fiscaux précis, comme une croissance à impôt différé ou libre d'impôt, souvent associé à l'épargne-retraite, avec des règles précises qui varient selon le pays.
+2. Parce que le traitement fiscal de la croissance des placements et des retraits diffère selon le type de compte, de sorte qu'un même rendement avant impôt peut donner un résultat après impôt différent selon l'endroit où le placement est détenu.
+3. Parce qu'il s'agit de deux choix liés, mais distincts — quels placements détenir et dans quel type de compte les détenir —, et qu'optimiser l'un n'optimise pas automatiquement l'autre.
+
+## Réponses et explications
+
+1. C'est la base conceptuelle générale, nuancée compte tenu des différences d'un pays à l'autre.
+2. C'est le « pourquoi » central de la leçon.
+3. Ça renforce le cadre de décision pratique à deux niveaux que présente la leçon.
+
+## Points clés à retenir
+- Les comptes à avantages fiscaux offrent des avantages précis, comme une croissance à impôt différé ou libre d'impôt, avec des règles qui varient beaucoup selon le pays.
+- Un même placement sous-jacent peut donner des résultats après impôt différents selon le type de compte dans lequel il est détenu.
+- Le choix du compte et le choix des placements sont des décisions liées, mais distinctes, qui méritent toutes deux une réflexion volontaire.
+
+## Avis pédagogique
+Cette leçon sert uniquement à l'éducation financière générale et ne constitue pas un conseil financier, de placement, fiscal ou juridique personnalisé. Les règles fiscales varient beaucoup d'un pays à l'autre et changent avec le temps; consulte un fiscaliste autorisé pour obtenir des conseils adaptés à ta situation.
+
+===== WHITE-L3-037
+TITLE: Pourquoi la récolte de pertes fiscales transforme une perte en avantage futur
+SUMMARY: Découvre comment fonctionne la récolte de pertes fiscales, pourquoi elle transforme une perte non réalisée en avantage fiscal utilisable, et pourquoi le processus exige de la prudence.
+# WHITE-L3-037 : Pourquoi la récolte de pertes fiscales transforme une perte en avantage futur
+
+## Objectifs d'apprentissage
+À la fin de cette leçon, tu pourras :
+- Expliquer la notion générale de la récolte de pertes fiscales
+- Expliquer pourquoi il faut « réaliser » une perte en vendant pour pouvoir l'utiliser à des fins fiscales
+- Expliquer pourquoi cette stratégie exige de comprendre une règle abordée dans la prochaine leçon
+
+## Contenu principal
+
+La **récolte de pertes fiscales** est une stratégie générale qui consiste à vendre volontairement un placement qui a perdu de la valeur afin de « réaliser » la perte — c'est-à-dire d'en faire une perte réelle et comptabilisée à des fins fiscales plutôt qu'une simple perte non réalisée sur papier —, perte qui pourra ensuite servir à compenser des gains imposables ailleurs dans le portefeuille, sous réserve des règles fiscales précises qui s'appliquent dans un pays donné.
+
+Voici « pourquoi » ça exige une vente réelle : tant qu'un placement est simplement détenu à une valeur inférieure à son prix d'achat, on considère généralement qu'il s'agit d'une perte non réalisée — elle existe sur papier, mais n'a pas encore été « cristallisée » par une transaction, et dans de nombreux régimes fiscaux, seule une perte réalisée peut être utilisée à des fins fiscales. Vendre la position transforme cette perte sur papier en perte réalisée.
+
+[VERIFIED FACT] Comme de nombreux investisseurs veulent conserver leur exposition globale au marché ou leur stratégie de placement tout en récoltant une perte, ils réinvestissent souvent le produit de la vente immédiatement dans un placement semblable (mais pas identique) — ce qui fait intervenir une règle importante, abordée dans la prochaine leçon, qui limite la rapidité avec laquelle on peut racheter un placement essentiellement identique tout en pouvant déduire la perte fiscale.
+
+## Exemple pratique
+
+[ILLUSTRATIVE EXAMPLE] Une investisseuse détient un fonds qui a perdu beaucoup de valeur depuis son achat. Au lieu de simplement continuer à le détenir, elle vend la position, ce qui réalise la perte à des fins fiscales, et réinvestit le produit dans un fonds semblable, mais pas identique, pour conserver à peu près la même exposition au marché. [ASSUMPTION] La perte réalisée pourrait servir, sous réserve des règles fiscales applicables, à compenser d'autres gains imposables qu'elle a réalisés ailleurs dans son portefeuille cette année-là, ce qui transforme un résultat qui semblait purement négatif en un avantage fiscal pratique, au moins partiel.
+
+## Quiz de pratique
+
+1. De façon générale, qu'est-ce que la récolte de pertes fiscales?
+2. Pourquoi le simple fait de détenir un placement qui a baissé ne crée-t-il pas une perte fiscale utilisable dans de nombreux régimes fiscaux?
+3. Pourquoi un investisseur pourrait-il réinvestir dans un placement semblable, mais pas identique, après avoir récolté une perte?
+
+## Corrigé
+
+1. Vendre volontairement un placement qui a baissé pour réaliser la perte à des fins fiscales, ce qui peut compenser des gains imposables ailleurs, sous réserve des règles applicables.
+2. Parce qu'une perte non réalisée (sur papier) n'a pas été « cristallisée » par une transaction réelle, et que de nombreux régimes fiscaux exigent qu'une perte soit réalisée par une vente avant de pouvoir être utilisée.
+3. Pour conserver à peu près la même exposition globale au marché ou la même stratégie de placement tout en réalisant la perte fiscale, plutôt que de simplement garder l'argent comptant ou de sortir complètement de cette partie du marché.
+
+## Réponses et explications
+
+1. C'est la définition de base de la leçon.
+2. Ça explique la raison mécanique pour laquelle une vente est nécessaire, une notion clé pour comprendre la stratégie.
+3. Ça présente la raison pratique pour laquelle les investisseurs réinvestissent habituellement rapidement, ce qui introduit la contrainte abordée dans la prochaine leçon.
+
+## Points clés à retenir
+- La récolte de pertes fiscales réalise volontairement une perte par une vente, ce qui peut compenser d'autres gains imposables, sous réserve des règles fiscales applicables.
+- Dans de nombreux régimes fiscaux, seule une perte réalisée, et non une perte non réalisée sur papier, peut habituellement être utilisée à des fins fiscales.
+- Les investisseurs réinvestissent souvent dans un placement semblable pour conserver leur exposition au marché, ce qui fait intervenir une règle de délai importante abordée ensuite.
+
+## Avis pédagogique
+Cette leçon sert uniquement à l'éducation financière générale et ne constitue pas un conseil financier, de placement, fiscal ou juridique personnalisé. Les règles fiscales varient beaucoup d'un pays à l'autre; consulte un fiscaliste autorisé avant de mettre en œuvre toute stratégie fiscale.
+
+===== WHITE-L3-038
+TITLE: Pourquoi la règle sur les pertes apparentes limite la récolte de pertes fiscales
+SUMMARY: Découvre ce qu'est une perte apparente (*wash sale*), pourquoi cette règle existe et pourquoi elle limite directement la façon de faire la récolte de pertes fiscales.
+# WHITE-L3-038 : Pourquoi la règle sur les pertes apparentes limite la récolte de pertes fiscales
+
+## Objectifs d'apprentissage
+À la fin de cette leçon, tu pourras :
+- Expliquer la notion générale derrière une règle de type « perte apparente »
+- Expliquer pourquoi cette règle existe
+- Expliquer comment cette règle limite directement la stratégie de récolte de pertes fiscales de la leçon 37
+
+## Contenu principal
+
+La leçon 37 a expliqué que les investisseurs veulent souvent réinvestir rapidement après avoir récolté une perte fiscale, pour conserver leur exposition au marché. De nombreux régimes fiscaux prévoient une règle — souvent appelée règle sur les pertes apparentes (en anglais, *wash sale*) — conçue précisément pour empêcher un certain type d'abus de la récolte de pertes fiscales.
+
+Voici « pourquoi » cette règle existe : sans elle, un investisseur pourrait vendre un placement uniquement pour réaliser une perte fiscale, puis racheter immédiatement exactement le même placement (ou un placement essentiellement identique), en conservant en fait exactement la même position tout en déduisant un avantage fiscal — ce que de nombreuses autorités fiscales considèrent comme un abus de la notion de réalisation d'une perte, plutôt que comme un vrai changement de position de placement.
+
+[VERIFIED FACT] Les modalités précises d'une règle de type « perte apparente » — y compris la période exacte pendant laquelle le rachat du même titre ou d'un titre essentiellement identique fait refuser la perte, et la définition de « essentiellement identique » — varient selon le pays et sont fixées par des lois fiscales précises; dans ce domaine, des conseils à jour et propres à chaque pays comptent donc plus que des suppositions générales.
+
+C'est pourquoi la récolte de pertes fiscales, telle que présentée à la leçon 37, consiste habituellement à réinvestir dans un placement réellement différent (même s'il est semblable sur le plan de la stratégie ou de l'exposition), plutôt que dans exactement le même placement, afin de respecter ce type de règle tout en conservant une position comparable sur le marché.
+
+## Exemple pratique
+
+[ILLUSTRATIVE EXAMPLE] Une investisseuse vend un fonds à perte pour profiter de l'avantage fiscal, puis rachète exactement le même fonds dès le lendemain, avec l'intention de déduire la perte dans sa déclaration de revenus. [ASSUMPTION] Si une règle de type « perte apparente » dans son pays refuse les pertes en cas de rachat du même titre ou d'un titre essentiellement identique pendant une certaine période, cette transaction pourrait ne pas procurer l'avantage fiscal voulu — la perte pourrait être refusée en vertu de cette règle, malgré son intention de la récolter. Acheter plutôt un fonds réellement différent, mais positionné de façon semblable, éviterait habituellement ce problème précis, sous réserve des règles applicables.
+
+## Quiz de pratique
+
+1. Qu'est-ce qu'une règle de type « perte apparente » vise généralement à empêcher?
+2. Selon cette leçon, pourquoi cette règle existe-t-elle?
+3. Comment cette règle façonne-t-elle la façon de faire habituellement la récolte de pertes fiscales en pratique?
+
+## Corrigé
+
+1. Qu'un investisseur vende un placement uniquement pour réaliser une perte fiscale, puis rachète immédiatement le même placement ou un placement essentiellement identique tout en déduisant l'avantage fiscal.
+2. Parce que ça permettrait en fait de conserver exactement la même position de placement tout en déduisant une perte, ce que de nombreuses autorités fiscales considèrent comme un abus de la notion de réalisation d'une perte.
+3. Elle fait en sorte que les investisseurs réinvestissent habituellement le produit dans un placement réellement différent, mais positionné de façon semblable, plutôt que dans exactement le même, pour respecter la règle tout en conservant une exposition comparable au marché.
+
+## Réponses et explications
+
+1. C'est la notion de base derrière ce type de règle.
+2. Ça explique la raison d'être de la règle sur le plan des politiques.
+3. Ça se relie directement à la stratégie pratique décrite à la leçon 37, en montrant comment les deux notions fonctionnent ensemble.
+
+## Points clés à retenir
+- Une règle de type « perte apparente » refuse généralement une perte fiscale si le même placement, ou un placement essentiellement identique, est racheté pendant une certaine période.
+- Cette règle existe pour empêcher les investisseurs de déduire une perte fiscale tout en conservant en fait exactement la même position de placement.
+- Les modalités précises varient beaucoup selon le pays, ce qui rend des conseils professionnels à jour particulièrement importants dans ce domaine.
+
+## Avis pédagogique
+Cette leçon sert uniquement à l'éducation financière générale et ne constitue pas un conseil financier, de placement, fiscal ou juridique personnalisé. Les règles fiscales varient beaucoup d'un pays à l'autre; consulte un fiscaliste autorisé avant de mettre en œuvre toute stratégie fiscale.
+
+===== WHITE-L3-039
+TITLE: Pourquoi les gains en capital sont imposés différemment selon la période de détention
+SUMMARY: Découvre pourquoi la durée pendant laquelle tu détiens un placement avant de le vendre peut influer sur l'imposition d'un gain, et pourquoi ça crée un vrai incitatif lié au moment de la vente.
+# WHITE-L3-039 : Pourquoi les gains en capital sont imposés différemment selon la période de détention
+
+## Objectifs d'apprentissage
+À la fin de cette leçon, tu pourras :
+- Expliquer la notion générale d'un traitement des gains en capital fondé sur la période de détention
+- Expliquer pourquoi de nombreux régimes fiscaux traitent différemment les périodes de détention plus courtes et plus longues
+- Expliquer pourquoi ça crée un vrai incitatif, voulu, lié au moment des placements
+
+## Contenu principal
+
+De nombreux régimes fiscaux distinguent les gains sur des placements détenus pendant une période plus courte de ceux sur des placements détenus plus longtemps avant leur vente, en appliquant souvent des taux d'imposition différents à chaque catégorie. [VERIFIED FACT] Les seuils de période de détention et les taux d'imposition applicables varient beaucoup selon le pays et sont fixés par des lois fiscales précises — connaître la notion de façon générale est utile, mais les chiffres exacts doivent être vérifiés pour une situation et un pays précis. (À noter : certains régimes, comme celui du Canada, n'appliquent pas ce type de distinction selon la durée de détention.)
+
+Voici « pourquoi » cette distinction existe couramment : de nombreux régimes fiscaux sont conçus, au moins en partie, pour encourager la détention de placements à plus long terme plutôt que les opérations fréquentes à court terme, souvent en imposant à un taux plus élevé les gains sur des placements détenus moins longtemps que les gains sur des placements détenus plus longtemps.
+
+Ça crée un vrai incitatif, voulu, qu'il vaut la peine de comprendre : un investisseur qui se demande s'il doit vendre un placement qui approche d'un seuil de période de détention pertinent peut raisonnablement tenir compte de l'écart d'impôt possible dans sa décision sur le moment de vendre — non pas comme seul critère, mais comme un facteur pertinent parmi d'autres, avec les perspectives du placement lui-même et ses objectifs plus larges.
+
+## Exemple pratique
+
+[ILLUSTRATIVE EXAMPLE] Une investisseuse envisage de vendre un placement qui a pris beaucoup de valeur, et elle est sur le point d'atteindre un seuil de détention plus long qui, dans son pays, appliquerait un taux d'imposition plus avantageux au gain. [ASSUMPTION] Si ses perspectives globales sur ce placement n'ont pas vraiment changé, attendre un peu plus longtemps pour franchir ce seuil pourrait réduire l'impôt total à payer lors de la vente — même s'il faut peser cette option par rapport à sa vision réelle des perspectives et du risque du placement à court terme, et ne pas la traiter comme une règle qui l'emporte automatiquement sur ces considérations.
+
+## Quiz de pratique
+
+1. Quelle distinction générale de nombreux régimes fiscaux font-ils au sujet des gains en capital?
+2. Selon cette leçon, pourquoi de nombreux régimes fiscaux appliquent-ils ce type de distinction?
+3. Comment cette distinction peut-elle raisonnablement influer sur la décision d'un investisseur quant au moment de vendre?
+
+## Corrigé
+
+1. Une distinction entre les gains sur des placements détenus pendant une période plus courte et ceux sur des placements détenus plus longtemps, souvent imposés à des taux différents.
+2. Pour encourager la détention de placements à plus long terme plutôt que les opérations fréquentes à court terme, souvent en appliquant un taux d'imposition plus élevé aux gains sur des placements détenus moins longtemps.
+3. Un investisseur sur le point d'atteindre un seuil de détention plus long peut raisonnablement tenir compte de l'avantage fiscal possible d'attendre, comme un facteur pertinent parmi d'autres, avec les perspectives du placement et ses objectifs plus larges — et non comme seul critère de décision.
+
+## Réponses et explications
+
+1. C'est la base conceptuelle générale de la leçon, nuancée compte tenu des différences d'un pays à l'autre.
+2. Ça explique la raison d'être générale souvent invoquée pour ce type de distinction.
+3. Ça applique la notion de façon pratique tout en mettant en garde contre le fait de laisser les considérations fiscales l'emporter entièrement sur un bon jugement de placement.
+
+## Points clés à retenir
+- De nombreux régimes fiscaux appliquent des taux différents aux gains selon la durée pendant laquelle un placement a été détenu avant sa vente.
+- Cette distinction vise souvent à encourager la détention à plus long terme plutôt que les opérations fréquentes à court terme.
+- Le moment lié à la période de détention peut raisonnablement influer sur une décision de vente, mais doit être pesé avec les perspectives du placement, et non l'emporter automatiquement sur elles.
+
+## Avis pédagogique
+Cette leçon sert uniquement à l'éducation financière générale et ne constitue pas un conseil financier, de placement, fiscal ou juridique personnalisé. Les règles fiscales varient beaucoup d'un pays à l'autre; consulte un fiscaliste autorisé pour obtenir des conseils adaptés à ta situation.
+
+===== WHITE-L3-040
+TITLE: Pourquoi le prix de base détermine ton vrai gain imposable
+SUMMARY: Découvre ce que veut dire le prix de base, pourquoi il n'est pas toujours aussi simple que le prix d'achat initial, et pourquoi il est important d'en faire un suivi exact.
+# WHITE-L3-040 : Pourquoi le prix de base détermine ton vrai gain imposable
+
+## Objectifs d'apprentissage
+À la fin de cette leçon, tu pourras :
+- Définir le prix de base
+- Expliquer pourquoi le prix de base peut être plus complexe que le seul prix d'achat initial
+- Expliquer pourquoi un suivi exact du prix de base influe directement sur le calcul du gain imposable
+
+## Contenu principal
+
+Le **prix de base** (ou coût de base) désigne généralement la valeur d'origine utilisée pour déterminer un gain ou une perte imposable au moment où un placement est finalement vendu — dans sa forme la plus simple, le prix d'achat. Voici « pourquoi » c'est souvent plus complexe que cette simple description : le prix de base peut être ajusté par plusieurs facteurs pendant la période de détention, dont les dividendes réinvestis (leçon 17) qui ont servi à acheter des parts supplémentaires, puisque chaque réinvestissement établit habituellement son propre prix de base au prix de cet achat.
+
+[VERIFIED FACT] Faire un suivi exact du prix de base compte directement, parce qu'il détermine le gain imposable calculé (prix de vente moins prix de base) lors de la vente d'un placement — sous-estimer le prix de base surestime le gain imposable, ce qui peut faire payer plus d'impôt que nécessaire, alors que surestimer le prix de base sous-estime le gain, ce qui peut créer des problèmes de conformité.
+
+Dans de nombreux pays, les maisons de courtage doivent suivre et déclarer l'information sur le prix de base pour de nombreux types de comptes, ce qui en a fait un fardeau moins manuel pour les investisseurs qu'autrefois — mais comprendre la notion de fond reste utile, surtout dans les situations qui comportent plusieurs achats au fil du temps, des dividendes réinvestis, ou des comptes et des situations où le suivi du prix de base est moins automatisé.
+
+## Exemple pratique
+
+[ILLUSTRATIVE EXAMPLE] Une investisseuse achète des parts d'un fonds sur plusieurs années, en ajoutant à sa position à différents moments, et ses dividendes sont aussi réinvestis automatiquement en parts supplémentaires en cours de route. Chacun de ces achats — les achats d'origine et chaque réinvestissement de dividendes — établit son propre prix de base au prix de cette transaction précise. [ASSUMPTION] Quand elle finit par vendre une partie de sa position totale, le gain imposable calculé dépend des parts précises (et de leur prix de base) considérées comme vendues, selon la méthode comptable utilisée — ce qui montre pourquoi le simple fait d'utiliser le tout premier prix d'achat comme « le » prix de base de toute la position serait probablement inexact. (Au Canada, par exemple, on utilise plutôt un prix de base rajusté moyen pour des parts identiques.)
+
+## Quiz de pratique
+
+1. Que désigne généralement le prix de base?
+2. Pourquoi le prix de base peut-il être plus complexe que le simple prix d'achat initial?
+3. Qu'arrive-t-il si le prix de base est sous-estimé lors du calcul d'un gain imposable?
+
+## Corrigé
+
+1. La valeur d'origine utilisée pour déterminer un gain ou une perte imposable lors de la vente d'un placement.
+2. Parce que les achats supplémentaires au fil du temps, y compris les dividendes réinvestis, établissent chacun leur propre prix de base, ce qui fait du prix de base de la position totale une combinaison de plusieurs transactions plutôt qu'un seul chiffre.
+3. Le gain imposable calculé est surestimé, ce qui peut faire payer plus d'impôt que réellement nécessaire.
+
+## Réponses et explications
+
+1. C'est la définition de base de la leçon.
+2. C'est la complexité centrale que met en lumière la leçon, directement reliée à la notion de dividendes réinvestis de la leçon 17.
+3. Ça renforce l'importance pratique d'un suivi exact du prix de base.
+
+## Points clés à retenir
+- Le prix de base est la valeur d'origine utilisée pour calculer le gain ou la perte imposable lors d'une vente, et il est souvent plus complexe qu'un seul prix d'achat.
+- Les dividendes réinvestis et les achats multiples au fil du temps établissent chacun leur propre prix de base, ce qui exige un suivi attentif.
+- Un suivi exact du prix de base influe directement sur le gain imposable calculé, avec de vraies conséquences s'il est surestimé ou sous-estimé.
+
+## Avis pédagogique
+Cette leçon sert uniquement à l'éducation financière générale et ne constitue pas un conseil financier, de placement, fiscal ou juridique personnalisé. Les règles fiscales varient beaucoup d'un pays à l'autre; consulte un fiscaliste autorisé pour obtenir des conseils adaptés à ta situation.
+
+===== WHITE-L3-041
+TITLE: Pourquoi un ordre stop ne garantit pas ton prix de sortie
+SUMMARY: Découvre comment fonctionne un ordre stop de protection, et pourquoi il déclenche un ordre au marché plutôt que de garantir le prix exact que tu obtiendras.
+# WHITE-L3-041 : Pourquoi un ordre stop ne garantit pas ton prix de sortie
+
+## Objectifs d'apprentissage
+À la fin de cette leçon, tu pourras :
+- Expliquer comment fonctionne un ordre stop de protection
+- Expliquer pourquoi il ne garantit pas l'exécution au prix de déclenchement indiqué
+- Expliquer ce qu'un ordre stop à cours limité change à ce compromis
+
+## Contenu principal
+
+Un **ordre stop de protection** (*stop-loss*) est une instruction de vendre automatiquement un titre si son prix baisse jusqu'à un niveau précis, conçue pour aider à limiter les pertes sur une position sans que l'investisseur ait à surveiller le prix constamment.
+
+Voici « pourquoi » il ne garantit pas un prix de sortie exact : une fois le prix de déclenchement atteint, un ordre stop ordinaire se transforme habituellement en **ordre au marché** — un ordre de vendre immédiatement au meilleur prix offert à ce moment-là, et non précisément au prix de déclenchement. Si le prix évolue rapidement, ou si le titre ouvre en forte baisse (en sautant par-dessus le prix de déclenchement sans aucune négociation entre les deux, ce qui peut arriver autour d'annonces importantes), l'ordre peut être exécuté à un prix nettement moins bon que le prix de déclenchement.
+
+[VERIFIED FACT] Un **ordre stop à cours limité** est une variante qui fixe à la fois un prix de déclenchement (qui active l'ordre) et un cours limite (le pire prix que l'investisseur est prêt à accepter) — ça protège contre un prix d'exécution étonnamment mauvais, mais crée un risque différent : si le prix dépasse trop rapidement le cours limite, l'ordre pourrait ne pas être exécuté du tout, ce qui laisse la position invendue pendant la baisse même contre laquelle l'investisseur voulait se protéger.
+
+## Exemple pratique
+
+[ILLUSTRATIVE EXAMPLE] Une investisseuse place un ordre stop de protection à 45 $ sur une action qui se négocie actuellement à 50 $, afin de limiter sa perte si le prix baisse. [ASSUMPTION] Si une mauvaise nouvelle fait ouvrir l'action en forte baisse le lendemain, à 38 $, sans aucune négociation entre 45 $ et 38 $, son ordre stop serait déclenché et exécuté près du nouveau prix d'ouverture, plus bas — et non au prix de 45 $ qu'elle visait —, ce qui donnerait une perte plus grande que celle contre laquelle elle croyait peut-être être protégée.
+
+## Quiz de pratique
+
+1. Que fait un ordre stop de protection?
+2. Pourquoi un ordre stop ordinaire ne garantit-il pas l'exécution exactement au prix de déclenchement indiqué?
+3. Quel compromis un ordre stop à cours limité crée-t-il par rapport à un ordre stop ordinaire?
+
+## Corrigé
+
+1. Il déclenche automatiquement une vente si le prix d'un titre baisse jusqu'à un niveau précis, ce qui aide à limiter les pertes sans surveillance constante du prix.
+2. Parce qu'une fois déclenché, il se transforme habituellement en ordre au marché, exécuté au meilleur prix offert à ce moment-là — qui peut être nettement moins bon que le prix de déclenchement en période de mouvements rapides ou d'ouverture en forte baisse.
+3. Il fixe une limite au pire prix d'exécution acceptable, ce qui protège contre une mauvaise exécution, mais comporte le risque que l'ordre ne soit pas exécuté du tout si le prix dépasse trop rapidement cette limite.
+
+## Réponses et explications
+
+1. C'est la définition de base de la leçon.
+2. C'est le mécanisme central qui explique la mise en garde « aucune garantie » du titre de la leçon.
+3. Ça présente l'autre type d'ordre et son propre compromis.
+
+## Points clés à retenir
+- Un ordre stop de protection déclenche automatiquement une vente quand un prix précis est atteint, mais il est habituellement exécuté comme un ordre au marché au meilleur prix offert, pas forcément au prix de déclenchement.
+- Une ouverture en forte baisse peut donner un prix d'exécution nettement moins bon que le prix de déclenchement.
+- Un ordre stop à cours limité fixe un pire prix acceptable, ce qui protège contre une mauvaise exécution, mais comporte le risque de ne pas être exécuté du tout si le prix évolue trop vite.
+
+## Avis pédagogique
+Cette leçon sert uniquement à l'éducation financière générale et ne constitue pas un conseil financier, de placement, fiscal ou juridique personnalisé. Consulte un professionnel de la finance autorisé avant de prendre des décisions de placement.
+
+===== WHITE-L3-042
+TITLE: Pourquoi la liquidité diffère entre une action de premier ordre et une action peu négociée
+SUMMARY: Découvre ce que veut dire la liquidité d'un titre, et pourquoi une action peu négociée peut être plus difficile et plus coûteuse à acheter ou à vendre que son seul prix ne le laisse croire.
+# WHITE-L3-042 : Pourquoi la liquidité diffère entre une action de premier ordre et une action peu négociée
+
+## Objectifs d'apprentissage
+À la fin de cette leçon, tu pourras :
+- Définir la liquidité dans le contexte d'un titre négocié
+- Expliquer pourquoi une faible liquidité peut élargir l'écart entre le cours acheteur et le cours vendeur
+- Expliquer pourquoi le risque de liquidité compte même pour un investisseur qui ne prévoit pas faire d'opérations fréquentes
+
+## Contenu principal
+
+La **liquidité** décrit la facilité avec laquelle un actif peut être acheté ou vendu sans influer de façon importante sur son prix, ce qui reflète généralement le niveau d'activité de négociation régulière (le volume) sur ce titre. Une action bien connue et largement négociée est habituellement très liquide : un grand nombre d'actions changent de mains constamment, et les ordres d'achat et de vente peuvent habituellement être exécutés rapidement à des prix très proches du dernier cours.
+
+Voici « pourquoi » un titre peu négocié se comporte différemment : avec moins d'acheteurs et de vendeurs actifs, l'**écart acheteur-vendeur** (la différence entre le prix le plus élevé qu'un acheteur est prêt à payer à ce moment-là et le prix le plus bas qu'un vendeur est prêt à accepter) a tendance à être plus large. [VERIFIED FACT] Un écart plus large veut dire qu'un investisseur qui achète puis revend immédiatement un titre peu négocié perdrait généralement plus à cause de cet écart qu'avec un titre très liquide, avant même de tenir compte de tout mouvement de prix — c'est un coût implicite de la négociation dans un marché moins liquide.
+
+Le risque de liquidité compte même pour un investisseur à long terme qui fait peu d'opérations : si tu dois un jour vendre une position peu négociée, surtout en grande quantité ou pendant une période de tension sur les marchés, tu pourrais devoir accepter un prix moins avantageux, ou vendre plus graduellement, pour éviter de faire baisser encore le prix par tes propres ventes.
+
+## Exemple pratique
+
+[ILLUSTRATIVE EXAMPLE] L'action d'une grande entreprise bien connue se négocie à raison de millions d'actions par jour, avec un écart acheteur-vendeur de quelques cents seulement — un investisseur peut généralement acheter ou vendre une position typique rapidement, avec un coût d'écart minime. L'action d'une petite entreprise peu négociée pourrait ne s'échanger qu'à raison de quelques milliers d'actions par jour habituel, avec un écart beaucoup plus large. [ASSUMPTION] Une investisseuse qui doit vendre une position importante dans cette action peu négociée pourrait constater que ses propres ventes font baisser le prix davantage qu'une vente comparable de l'action très liquide, simplement parce qu'il y a moins d'acheteurs disponibles pour absorber les actions au prix actuel.
+
+## Quiz de pratique
+
+1. Que décrit la liquidité dans le contexte d'un titre négocié?
+2. Pourquoi une faible liquidité a-t-elle tendance à élargir l'écart acheteur-vendeur?
+3. Pourquoi le risque de liquidité compte-t-il même pour un investisseur qui ne prévoit pas faire d'opérations fréquentes?
+
+## Corrigé
+
+1. La facilité avec laquelle un actif peut être acheté ou vendu sans influer de façon importante sur son prix, ce qui reflète généralement le niveau d'activité de négociation régulière sur ce titre.
+2. Parce qu'avec moins d'acheteurs et de vendeurs actifs, l'écart entre ce que les acheteurs sont prêts à payer et ce que les vendeurs sont prêts à accepter a tendance à s'élargir, ce qui reflète une activité de négociation réduite.
+3. Parce que vendre un jour une position peu négociée, surtout en grande quantité ou pendant une période de tension sur les marchés, peut obliger à accepter un prix moins avantageux ou à vendre plus graduellement, puisqu'il y a moins d'acheteurs disponibles pour absorber les actions.
+
+## Réponses et explications
+
+1. C'est la définition de base de la leçon.
+2. Ça explique le mécanisme précis qui relie la liquidité au coût de négociation.
+3. Ça élargit la notion à l'investisseur à long terme, et pas seulement au négociateur actif, ce qui en accroît la pertinence.
+
+## Points clés à retenir
+- La liquidité décrit la facilité avec laquelle un titre peut être acheté ou vendu sans influer de façon importante sur son prix.
+- Les titres peu négociés ont tendance à avoir des écarts acheteur-vendeur plus larges, un coût implicite de la négociation dans un marché moins liquide.
+- Le risque de liquidité compte même pour les investisseurs à long terme, puisque vendre un jour une position importante ou peu négociée peut obliger à accepter un prix moins avantageux.
+
+## Avis pédagogique
+Cette leçon sert uniquement à l'éducation financière générale et ne constitue pas un conseil financier, de placement, fiscal ou juridique personnalisé. Consulte un professionnel de la finance autorisé avant de prendre des décisions de placement.

@@ -1,0 +1,354 @@
+===== WHITE-L1-021
+TITLE: ¿Qué es una cuenta de inversión en una casa de bolsa? (¿Y en qué se diferencia de una cuenta de retiro?)
+SUMMARY: Aprende qué es una cuenta de inversión estándar en una casa de bolsa y en qué se diferencia, en propósito y flexibilidad, de una cuenta de retiro.
+# ¿Qué es una cuenta de inversión en una casa de bolsa? (¿Y en qué se diferencia de una cuenta de retiro?)
+
+## Objetivos de aprendizaje
+
+Al terminar esta lección, deberías poder:
+
+- Definir una cuenta de inversión en una casa de bolsa en palabras sencillas.
+- Explicar en qué se diferencia de una cuenta de retiro como un 401(k) o una IRA.
+- Explicar la disyuntiva básica entre flexibilidad y ventajas fiscales.
+
+## Contenido principal
+
+### Qué es una cuenta en una casa de bolsa
+
+Una cuenta en una casa de bolsa (brokerage account) es una cuenta de inversión estándar que permite a una persona comprar y vender acciones, bonos, ETF y otros activos en papel, sin las reglas fiscales específicas para el retiro de un 401(k) o una IRA.
+
+### En qué se diferencia de una cuenta de retiro
+
+A diferencia de las cuentas de retiro, una cuenta estándar en una casa de bolsa generalmente no tiene ventajas fiscales especiales, pero tampoco tiene restricciones sobre cuándo se puede retirar el dinero: hay flexibilidad total para meter o sacar dinero en cualquier momento.
+
+### La disyuntiva entre flexibilidad y ventaja fiscal
+
+Las cuentas de retiro cambian algo de flexibilidad (muchas veces restringen el acceso fácil antes de cierta edad) por beneficios fiscales reales. Las cuentas en casa de bolsa cambian esos beneficios fiscales por flexibilidad total. Muchos inversionistas usan ambas, para propósitos distintos.
+
+## Ejemplo práctico
+
+Un inversionista que ahorra específicamente para un retiro que está a décadas de distancia podría darle prioridad a un 401(k) o a una IRA por los beneficios fiscales. Ese mismo inversionista, si ahorra para una meta de los próximos años y necesita acceso flexible, podría usar mejor una cuenta estándar en una casa de bolsa.
+
+## Prueba de práctica
+
+1. Una cuenta en una casa de bolsa es:
+   A. Exclusivamente para el ahorro para el retiro
+   B. Una cuenta de inversión estándar sin reglas fiscales específicas para el retiro
+   C. Un tipo de bono de ahorro
+   D. Algo que solo está disponible para empleadores
+2. Verdadero o falso: Una cuenta estándar en una casa de bolsa tiene las mismas restricciones para retirar dinero que un 401(k).
+3. ¿Cuál es la disyuntiva básica entre las cuentas de retiro y las cuentas estándar en casa de bolsa?
+   A. No hay ninguna disyuntiva
+   B. Ventajas fiscales con acceso restringido frente a flexibilidad total con menos beneficios fiscales
+   C. Las cuentas en casa de bolsa son ilegales
+   D. Las cuentas de retiro no tienen ningún beneficio fiscal
+
+## Clave de respuestas
+
+1. B
+2. Falso
+3. B
+
+## Respuestas y explicaciones
+
+### Pregunta 1
+
+Respuesta correcta: B. Una cuenta en una casa de bolsa es una cuenta de inversión estándar y flexible.
+
+### Pregunta 2
+
+Respuesta correcta: Falso. Las cuentas en casa de bolsa generalmente permiten retirar en cualquier momento, a diferencia de las cuentas de retiro.
+
+### Pregunta 3
+
+Respuesta correcta: B. Esta es la disyuntiva central entre los dos tipos de cuenta.
+
+## Puntos clave
+
+- Una cuenta en una casa de bolsa es una cuenta de inversión estándar, sin reglas específicas para el retiro.
+- Ofrece flexibilidad total, pero generalmente sin ventajas fiscales especiales.
+- Las cuentas de retiro cambian algo de flexibilidad por beneficios fiscales reales.
+
+===== WHITE-L1-022
+TITLE: ¿Qué es el promedio del costo en dólares (dollar-cost averaging)?
+SUMMARY: Aprende qué es el promedio del costo en dólares y por qué invertir un monto fijo de forma regular puede suavizar la volatilidad de los precios.
+# ¿Qué es el promedio del costo en dólares (dollar-cost averaging)?
+
+## Objetivos de aprendizaje
+
+Al terminar esta lección, deberías poder:
+
+- Definir el promedio del costo en dólares en palabras sencillas.
+- Explicar cómo se relaciona con la volatilidad de los precios.
+- Reconocerlo como una estrategia, no como una garantía de ganancia.
+
+## Contenido principal
+
+### Qué es el promedio del costo en dólares
+
+El promedio del costo en dólares (dollar-cost averaging) significa invertir un monto fijo de dinero en intervalos regulares (por ejemplo, cada mes), sin importar el precio del momento, en lugar de invertir una suma grande de una sola vez.
+
+### Cómo se relaciona con la volatilidad
+
+Como el monto invertido se mantiene fijo, se compran más acciones cuando los precios están más bajos y menos acciones cuando están más altos: esto promedia de forma natural el precio de compra con el tiempo, sin que el inversionista tenga que predecir los movimientos de precio.
+
+### No es una garantía
+
+El promedio del costo en dólares no garantiza una ganancia ni protege contra pérdidas: es una forma disciplinada de invertir con el tiempo, no una manera de eliminar todo el riesgo.
+
+## Ejemplo práctico
+
+Un inversionista pone $200 en una inversión cada mes. Cuando el precio está bajo, esos $200 compran más acciones; cuando el precio está alto, compran menos: a lo largo de un año, esto produce un precio de compra promedio sin que el inversionista tenga que adivinar el momento del mercado.
+
+## Prueba de práctica
+
+1. El promedio del costo en dólares significa:
+   A. Invertir una suma grande de una sola vez
+   B. Invertir un monto fijo en intervalos regulares, sin importar el precio
+   C. Invertir solo cuando los precios están bajos
+   D. Evitar todos los activos en papel
+2. Verdadero o falso: El promedio del costo en dólares garantiza una ganancia.
+3. Con el promedio del costo en dólares, ¿qué pasa con el número de acciones que se compran cuando el precio está más bajo?
+   A. Se compran menos acciones
+   B. Se compran más acciones con el mismo monto fijo
+   C. No se compra ninguna acción
+   D. El monto invertido aumenta automáticamente
+
+## Clave de respuestas
+
+1. B
+2. Falso
+3. B
+
+## Respuestas y explicaciones
+
+### Pregunta 1
+
+Respuesta correcta: B. Monto fijo, intervalos regulares, sin importar el precio.
+
+### Pregunta 2
+
+Respuesta correcta: Falso. Es una estrategia disciplinada, no una garantía.
+
+### Pregunta 3
+
+Respuesta correcta: B. Un monto fijo en dólares compra más acciones cuando el precio está más bajo.
+
+## Puntos clave
+
+- El promedio del costo en dólares significa invertir un monto fijo en intervalos regulares.
+- De forma natural compra más acciones cuando los precios están bajos y menos cuando están altos.
+- Es una estrategia disciplinada, no una garantía contra pérdidas.
+
+===== WHITE-L1-023
+TITLE: ¿Qué es un split (división) de acciones?
+SUMMARY: Aprende qué cambia y qué no cambia en el valor de una empresa con un split de acciones.
+# ¿Qué es un split (división) de acciones?
+
+## Objetivos de aprendizaje
+
+Al terminar esta lección, deberías poder:
+
+- Definir un split de acciones en palabras sencillas.
+- Explicar qué cambia y qué no cambia en un split.
+- Calcular un número básico de acciones y un precio después del split.
+
+## Contenido principal
+
+### Qué es un split de acciones
+
+Un split de acciones divide cada acción existente en varias acciones nuevas, lo que reduce proporcionalmente el precio por acción y aumenta el número de acciones en circulación.
+
+### Qué cambia y qué no
+
+Aumenta el número de acciones que tiene un inversionista, y el precio por acción baja de forma proporcional. Lo que NO cambia: el valor total de lo que tiene el inversionista ni la capitalización de mercado total de la empresa: el pastel se corta en más rebanadas, pero el pastel sigue siendo del mismo tamaño.
+
+### Por qué lo hacen las empresas
+
+A veces las empresas dividen sus acciones para bajar el precio por acción a un rango más accesible para los inversionistas, aunque esto no cambia en absoluto el valor de fondo de la empresa.
+
+## Ejemplo práctico
+
+Un inversionista que tiene 10 acciones de $100 cada una ($1,000 en total) pasa por un split de 2 por 1. Ahora tiene 20 acciones de $50 cada una: siguen siendo $1,000 en total, solo que divididos en más acciones, más baratas.
+
+## Prueba de práctica
+
+1. Un split de acciones:
+   A. Aumenta el valor de mercado total de una empresa
+   B. Divide las acciones existentes en más acciones a un precio proporcionalmente más bajo
+   C. Reduce el número de acciones en circulación
+   D. Cambia el negocio de fondo de la empresa
+2. Verdadero o falso: Un split de acciones cambia el valor total de lo que tiene un inversionista.
+3. Un inversionista tiene 5 acciones de $200 cada una. Después de un split de 2 por 1, ¿cuántas acciones tiene y a qué precio?
+   A. 5 acciones a $400
+   B. 10 acciones a $100
+   C. 2.5 acciones a $200
+   D. 10 acciones a $200
+
+## Clave de respuestas
+
+1. B
+2. Falso
+3. B
+
+## Respuestas y explicaciones
+
+### Pregunta 1
+
+Respuesta correcta: B. Un split divide las acciones de forma proporcional sin cambiar el valor total.
+
+### Pregunta 2
+
+Respuesta correcta: Falso. El valor total de lo que se tiene se mantiene igual inmediatamente después de un split.
+
+### Pregunta 3
+
+Respuesta correcta: B. 5 acciones × 2 = 10 acciones; $200 ÷ 2 = $100 por acción.
+
+## Puntos clave
+
+- Un split de acciones divide las acciones en más acciones a un precio proporcionalmente más bajo.
+- El valor total de lo que se tiene y la capitalización de mercado no cambian por el split en sí.
+- Las empresas dividen sus acciones principalmente para que el precio por acción sea más accesible.
+
+===== WHITE-L1-024
+TITLE: ¿Qué son las acciones fraccionadas?
+SUMMARY: Aprende qué son las acciones fraccionadas, cómo reducen la barrera para invertir y cómo pueden usarse para dimensionar el riesgo de forma adecuada para un principiante.
+# ¿Qué son las acciones fraccionadas?
+
+## Objetivos de aprendizaje
+
+Al terminar esta lección, deberías poder:
+
+- Definir una acción fraccionada en palabras sencillas.
+- Explicar el problema de acceso que resuelven las acciones fraccionadas.
+- Explicar cómo las acciones fraccionadas pueden usarse para dimensionar el riesgo de forma adecuada, no solo para poder pagar una acción de precio alto.
+
+## Contenido principal
+
+### Qué son las acciones fraccionadas
+
+Una acción fraccionada es una porción de una sola acción, más pequeña que una acción completa, que permite a un inversionista comprar menos de una acción entera a la vez.
+
+### El problema de acceso que resuelven
+
+Antes de que las acciones fraccionadas estuvieran ampliamente disponibles, un inversionista necesitaba dinero suficiente para comprar al menos una acción completa: una barrera real en las acciones de precio más alto. Las acciones fraccionadas permiten que un inversionista con menos dinero obtenga de todos modos una exposición proporcional a esa misma acción.
+
+### Un segundo uso, menos obvio: dimensionar el riesgo a propósito
+
+Pregúntate: si le estás enseñando a alguien a invertir por primera vez —quizá a una persona joven con muy poco dinero—, ¿cuál es el verdadero peligro? No es solo "no poder pagar una acción". Es la posibilidad de una pérdida lo bastante grande como para hacerle daño de verdad. Una madre o un padre que le enseña a invertir a un adolescente, por ejemplo, podría usar una cuenta de acciones fraccionadas justamente para que una pérdida real se mantenga lo bastante pequeña como para ser una lección auténtica, y no un desastre. El tamaño de la posición, no solo lo que se puede pagar, es una decisión deliberada.
+
+## Ejemplo práctico
+
+Imagina a un padre que abre una pequeña cuenta de acciones fraccionadas para su hijo adolescente. ¿Por qué fraccionadas, en lugar de esperar a que el hijo pudiera pagar una acción completa? No solo para que técnicamente fuera dueño de una parte de una acción cara, sino para que, si la inversión perdía valor, la pérdida fuera lo bastante pequeña como para absorberla y aprender de ella, y no algo que pudiera atrasarlo seriamente. La lección no era solo "ya puedes darte el lujo de invertir", sino "puedes darte el lujo de equivocarte, sin peligro, mientras todavía estás aprendiendo".
+
+## Prueba de práctica
+
+1. Una acción fraccionada es:
+   A. Una acción completa
+   B. Una porción de una sola acción, más pequeña que una acción completa
+   C. Un tipo de bono
+   D. Un pago de dividendos garantizado
+2. Verdadero o falso: Las acciones fraccionadas exigen que el inversionista tenga dinero suficiente para al menos una acción completa.
+3. Además de que sean accesibles, ¿qué otra razón real podría tener alguien para elegir acciones fraccionadas para un inversionista principiante?
+   A. Garantizar una ganancia
+   B. Dimensionar la posición para que una posible pérdida se mantenga lo bastante pequeña como para ser una lección real y segura
+   C. No perder dinero nunca
+   D. Eliminar la necesidad de investigar
+
+## Clave de respuestas
+
+1. B
+2. Falso
+3. B
+
+## Respuestas y explicaciones
+
+### Pregunta 1
+
+Respuesta correcta: B. Una acción fraccionada es menos de una acción completa.
+
+### Pregunta 2
+
+Respuesta correcta: Falso. Las acciones fraccionadas eliminan justamente ese requisito.
+
+### Pregunta 3
+
+Respuesta correcta: B. Dimensionar una posición para que una pérdida sea soportable y educativa, y no dañina, es un uso deliberado y real de la inversión fraccionada.
+
+## Puntos clave
+
+- Una acción fraccionada es una porción de una acción completa.
+- Elimina la barrera de necesitar el precio de una acción completa para invertir.
+- También puede usarse de forma deliberada para dimensionar una posición y que el riesgo sea adecuado, algo especialmente importante al enseñarle a un principiante.
+
+===== WHITE-L1-025
+TITLE: ¿Qué es la utilidad por acción (UPA o EPS)?
+SUMMARY: Aprende qué mide la utilidad por acción y cómo se calcula, como base para las lecciones de valuación más adelante.
+# ¿Qué es la utilidad por acción (UPA o EPS)?
+
+## Objetivos de aprendizaje
+
+Al terminar esta lección, deberías poder:
+
+- Enunciar la fórmula de la UPA.
+- Calcular una UPA básica a partir de la utilidad neta y las acciones en circulación.
+- Explicar en palabras sencillas qué representa la UPA.
+
+## Contenido principal
+
+### La fórmula de la UPA
+
+Utilidad por acción (UPA; en inglés, EPS) = Utilidad neta ÷ Acciones en circulación. Reparte la utilidad total de una empresa entre cada acción individual.
+
+### Qué representa la UPA
+
+La UPA representa cuánta utilidad le corresponde a cada acción: una forma de expresar la utilidad total de una empresa por acción, lo que facilita comparar empresas de distintos tamaños.
+
+### Por qué esto importa más adelante
+
+La UPA es la base de varios conceptos de valuación que se ven con más profundidad en el Nivel 2: entender ahora lo que mide prepara ese material posterior.
+
+## Ejemplo práctico
+
+Una empresa con $5,000,000 de utilidad neta y 1,000,000 de acciones en circulación tiene una UPA de $5,000,000 ÷ 1,000,000 = $5.00 por acción.
+
+## Prueba de práctica
+
+1. La UPA se calcula como:
+   A. Precio de la acción ÷ utilidad neta
+   B. Utilidad neta ÷ acciones en circulación
+   C. Ingresos totales ÷ gastos totales
+   D. Acciones en circulación ÷ utilidad neta
+2. Verdadero o falso: La UPA representa la utilidad total de una empresa, no una cifra por acción.
+3. Una empresa tiene $2,000,000 de utilidad neta y 500,000 acciones en circulación. ¿Cuál es su UPA?
+   A. $0.25
+   B. $2.50
+   C. $4.00
+   D. $250
+
+## Clave de respuestas
+
+1. B
+2. Falso
+3. C
+
+## Respuestas y explicaciones
+
+### Pregunta 1
+
+Respuesta correcta: B. UPA = Utilidad neta ÷ Acciones en circulación.
+
+### Pregunta 2
+
+Respuesta correcta: Falso. La UPA expresa específicamente la utilidad por acción.
+
+### Pregunta 3
+
+Respuesta correcta: C. $2,000,000 ÷ 500,000 = $4.00.
+
+## Puntos clave
+
+- UPA = Utilidad neta ÷ Acciones en circulación.
+- Expresa la utilidad de una empresa por acción.
+- Es la base de conceptos de valuación que se ven con más profundidad más adelante.

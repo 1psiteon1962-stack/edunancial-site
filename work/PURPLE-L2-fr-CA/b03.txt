@@ -1,0 +1,370 @@
+===== PURPLE-L2-014
+TITLE: Testaments ou fiducies : homologation, confidentialité et contrôle comparés
+SUMMARY: Compare le testament et la fiducie sur le plan de l'homologation, de la confidentialité et du contrôle, et vois pourquoi bien des plans successoraux utilisent les deux.
+## PURPLE-L2-014
+### Testaments ou fiducies : homologation, confidentialité et contrôle comparés
+
+**1. Objectifs d'apprentissage**
+À la fin de cette leçon, tu pourras :
+- Comparer les testaments et les fiducies sur le plan de l'homologation, de la confidentialité et du contrôle.
+- Expliquer le concept général de l'homologation.
+- Appliquer cette comparaison à un scénario hypothétique de planification successorale.
+
+**2. Contenu principal**
+Dans la suite des leçons 11 à 13, cette leçon compare directement les testaments et les fiducies sur trois aspects pratiques. L'homologation (*probate*) est le processus supervisé par un tribunal qui valide un testament et encadre la répartition d'une succession. Un testament doit généralement passer par ce processus, qui peut entraîner des frais de justice, des délais et — puisque les procédures d'homologation font généralement partie des dossiers publics — une perte de confidentialité sur le contenu et la répartition de la succession. Une fiducie correctement financée (c'est-à-dire dans laquelle les biens ont réellement été transférés, et pas seulement mentionnés dans ses conditions) peut souvent permettre aux biens de passer aux bénéficiaires sans homologation, ce qui peut offrir une répartition plus rapide et plus de confidentialité, puisque les conditions et l'administration d'une fiducie restent généralement privées au lieu de devenir des dossiers judiciaires publics.
+
+Le contrôle diffère aussi selon les types de fiducies vus à la leçon 13 : une fiducie révocable conserve beaucoup de contrôle pour le constituant de son vivant, alors qu'un testament n'offre aucun mécanisme de contrôle continu; il ne prend effet qu'une seule fois, comme instruction après le décès. Cette comparaison ne veut pas dire que les fiducies sont supérieures aux testaments dans tous les cas : bien des plans successoraux utilisent les deux instruments ensemble, avec un testament qui couvre les biens non transférés dans la fiducie, et la bonne combinaison dépend des biens, des objectifs et de la juridiction de chaque personne.
+
+**3. Exemple pratique**
+En comparant ses options avec son avocate, une propriétaire d'entreprise reconnaît que se fier uniquement à un testament voudrait dire que sa succession, y compris des détails sensibles sur la propriété de son entreprise, ferait partie du dossier public d'homologation après son décès, et que l'homologation pourrait retarder le transfert de la propriété de son entreprise pendant une période possiblement vulnérable. Elle établit plutôt une fiducie révocable correctement financée pour détenir ses participations dans l'entreprise, ce qui permet un transfert plus rapide et plus confidentiel à sa relève, tout en gardant un simple testament « de transfert » (*pour-over will*) pour couvrir les biens qui n'auraient pas été officiellement transférés dans la fiducie avant son décès.
+
+**4. Quiz de pratique**
+1. Qu'est-ce que l'homologation?
+   a) Un type de fiducie
+   b) Le processus supervisé par un tribunal qui valide un testament et encadre la répartition d'une succession
+   c) Un formulaire fiscal
+   d) Un type de prêt d'entreprise
+2. Sur le plan de la confidentialité, quel est un avantage général d'une fiducie correctement financée par rapport à un testament?
+   a) Les fiducies sont toujours plus publiques que les testaments
+   b) Les conditions et l'administration d'une fiducie restent généralement privées, contrairement aux procédures publiques d'homologation
+   c) Il n'y a aucune différence de confidentialité entre les deux
+   d) Les testaments ne font jamais partie d'un dossier public
+3. Vrai ou faux : Les fiducies sont supérieures aux testaments dans toutes les situations, ce qui rend les testaments complètement inutiles.
+4. Pourquoi la propriétaire d'entreprise a-t-elle établi une fiducie en plus d'un simple testament?
+   a) Elle voulait que les détails de son entreprise deviennent publics
+   b) Elle voulait un transfert plus rapide et plus confidentiel de la propriété de son entreprise, en évitant les délais d'homologation
+   c) La loi exige des fiducies pour tous les propriétaires d'entreprise
+   d) Elle n'avait aucune participation dans une entreprise à protéger
+
+**5. Corrigé**
+1. b  2. b  3. Faux  4. b
+
+**6. Réponses et explications**
+1. L'homologation est le processus supervisé par un tribunal qui valide un testament et encadre la répartition d'une succession.
+2. Une fiducie correctement financée permet généralement aux biens d'éviter l'homologation publique, ce qui offre plus de confidentialité qu'un testament seul.
+3. Bien des plans successoraux utilisent ensemble des testaments et des fiducies, et la bonne combinaison dépend de la situation de chacun.
+4. La fiducie de la propriétaire d'entreprise a permis un transfert plus rapide et plus confidentiel de ses participations sensibles dans l'entreprise, en évitant l'homologation.
+
+**7. Points clés à retenir**
+- L'homologation est le processus supervisé par un tribunal, et généralement public, par lequel un testament doit passer pour être validé et exécuté.
+- Une fiducie correctement financée peut souvent éviter l'homologation, ce qui offre une répartition plus rapide et plus de confidentialité.
+- Le contrôle diffère aussi : une fiducie révocable conserve le contrôle du constituant de son vivant, alors qu'un testament ne prend effet qu'après le décès.
+- Bien des plans successoraux utilisent les deux instruments ensemble, et la bonne combinaison dépend de la situation de chacun.
+
+===== PURPLE-L2-015
+TITLE: La procuration : types et but général
+SUMMARY: Comprends ce qu'est une procuration, la différence entre une procuration générale et une procuration durable, et pourquoi elle sert à planifier l'inaptitude, pas seulement le décès.
+## PURPLE-L2-015
+### La procuration : types et but général
+
+**1. Objectifs d'apprentissage**
+À la fin de cette leçon, tu pourras :
+- Définir de façon conceptuelle la procuration.
+- Distinguer la procuration générale de la procuration durable.
+- Expliquer pourquoi cet instrument vise l'inaptitude, et pas seulement le décès.
+
+**2. Contenu principal**
+Une procuration est un document juridique qui donne à une personne (le « mandataire » ou « fondé de pouvoir ») le pouvoir d'agir au nom d'une autre personne (le « mandant »), généralement pour des questions financières ou juridiques. Contrairement aux testaments et à bien des dispositions de fiducie, qui portent surtout sur ce qui arrive après le décès, une procuration vise des situations du vivant du mandant, particulièrement l'inaptitude — une maladie ou une blessure grave qui empêche le mandant de gérer lui-même ses affaires.
+
+Une procuration générale donne habituellement des pouvoirs étendus, mais elle devient généralement invalide si le mandant devient inapte — précisément la situation où ces pouvoirs pourraient être le plus nécessaires —, à moins que le document contienne expressément une clause de « durabilité ». Une procuration durable (*durable power of attorney*; au Québec, on parle plutôt de mandat de protection, ou mandat en cas d'inaptitude) contient précisément des dispositions qui garantissent que les pouvoirs restent valides même si le mandant devient inapte. C'est donc l'instrument le plus souvent recommandé pour planifier l'inaptitude en particulier, puisqu'une procuration ordinaire, non durable, peut cesser d'être valide exactement au moment où on en aurait le plus besoin.
+
+**3. Exemple pratique**
+Avant une opération prévue qui comporte un certain risque de convalescence difficile, un homme établit une procuration durable qui nomme sa conjointe pour gérer ses affaires financières — payer les factures, gérer les comptes —, en s'assurant précisément que ces pouvoirs resteraient valides même si des complications l'empêchaient temporairement de gérer lui-même ces questions. S'il avait plutôt signé seulement une procuration générale non durable, les pouvoirs de sa conjointe d'agir en son nom auraient pu devenir invalides exactement au moment où son inaptitude les rendait le plus nécessaires, ce qui aurait annulé tout l'intérêt d'avoir organisé ces pouvoirs d'avance.
+
+**4. Quiz de pratique**
+1. Qu'est-ce qu'une procuration?
+   a) Un type de testament
+   b) Un document juridique qui donne à une personne le pouvoir d'agir au nom d'une autre
+   c) Un type de fiducie réservé aux entreprises
+   d) Un formulaire de déclaration fiscale
+2. Qu'est-ce que la « durabilité » ajoute à une procuration?
+   a) Rien d'important
+   b) Des dispositions qui garantissent que les pouvoirs restent valides même si le mandant devient inapte
+   c) Une garantie que le document n'expire jamais, peu importe les circonstances
+   d) Une valeur financière supplémentaire pour la succession
+3. Vrai ou faux : Une procuration ordinaire, non durable, reste valide même si le mandant devient inapte.
+4. Pourquoi l'homme a-t-il choisi précisément une procuration durable avant son opération?
+   a) Il voulait que les pouvoirs deviennent invalides s'il devenait inapte
+   b) Il voulait que les pouvoirs de sa conjointe restent valides précisément pendant une période d'inaptitude possible
+   c) La loi exige une procuration durable pour toutes les opérations
+   d) Il n'avait aucune inquiétude au sujet de l'inaptitude
+
+**5. Corrigé**
+1. b  2. b  3. Faux  4. b
+
+**6. Réponses et explications**
+1. Une procuration donne à une personne le pouvoir juridique d'agir au nom d'une autre.
+2. La durabilité garantit que les pouvoirs de la procuration restent valides même si le mandant devient inapte.
+3. Une procuration ordinaire, non durable, devient généralement invalide quand le mandant devient inapte.
+4. La procuration durable de l'homme garantissait que les pouvoirs de sa conjointe resteraient valides précisément pendant une période d'inaptitude possible.
+
+**7. Points clés à retenir**
+- Une procuration donne à un mandataire le pouvoir d'agir au nom d'un mandant, généralement pour des questions financières ou juridiques.
+- Contrairement aux testaments, une procuration vise des situations du vivant du mandant, particulièrement l'inaptitude.
+- Une procuration générale non durable devient généralement invalide en cas d'inaptitude, sauf si elle contient des dispositions de durabilité.
+- La procuration durable est généralement l'instrument recommandé précisément pour planifier l'inaptitude.
+
+===== PURPLE-L2-016
+TITLE: Les directives médicales anticipées et le testament de vie : un autre type d'instrument
+SUMMARY: Comprends ce que sont la procuration en matière de soins de santé et le testament de vie, et pourquoi ils couvrent les décisions médicales plutôt que financières.
+## PURPLE-L2-016
+### Les directives médicales anticipées et le testament de vie : un autre type d'instrument
+
+**1. Objectifs d'apprentissage**
+À la fin de cette leçon, tu pourras :
+- Définir de façon conceptuelle une directive en matière de soins de santé et un testament de vie.
+- Distinguer ces instruments d'une procuration financière (leçon 15).
+- Expliquer pourquoi ces instruments portent sur des décisions médicales, et non financières.
+
+**2. Contenu principal**
+Dans la suite de la discussion sur la procuration financière de la leçon 15, cette leçon présente une catégorie d'instruments liée, mais distincte, qui porte sur les décisions médicales plutôt que financières en cas d'inaptitude. Une procuration en matière de soins de santé (parfois appelée mandataire aux soins) désigne une personne précise pour prendre des décisions médicales au nom du mandant s'il devient incapable de les prendre lui-même. Un testament de vie (parfois appelé directive médicale anticipée) consigne précisément les propres volontés du mandant concernant certains traitements médicaux — comme les mesures de maintien de la vie —, ce qui guide à la fois le mandataire désigné et les professionnels de la santé, même en l'absence d'indications précises du mandataire.
+
+Ces instruments ont une fonction différente de celle de la procuration financière de la leçon 15 : les procurations financières visent le paiement des factures et la gestion des biens, alors que les directives en matière de soins de santé visent les décisions de traitement médical. Un plan complet en cas d'inaptitude comprend généralement les deux types, puisqu'ils couvrent des catégories de décisions fondamentalement différentes.
+
+**3. Exemple pratique**
+Dans le cadre d'une planification successorale et d'inaptitude complète, une femme établit à la fois une procuration financière durable (leçon 15), qui nomme son frère pour gérer ses finances au besoin, et, séparément, une procuration en matière de soins de santé qui nomme sa sœur pour prendre des décisions médicales en son nom, ainsi qu'un testament de vie qui consigne ses volontés précises au sujet des traitements de maintien de la vie dans certaines circonstances définies. Cette approche complète assure que ses affaires financières et médicales sont prises en charge par des personnes de confiance, avec des indications claires, au lieu de compter sur un seul document pour couvrir ces catégories de décisions fondamentalement différentes.
+
+**4. Quiz de pratique**
+1. Que désigne généralement une procuration en matière de soins de santé?
+   a) Une personne pour gérer des comptes financiers
+   b) Une personne pour prendre des décisions médicales au nom du mandant s'il devient incapable de le faire
+   c) Un type de police d'assurance
+   d) Un statut de déclaration fiscale
+2. Que consigne généralement un testament de vie?
+   a) Comment les biens doivent être répartis après le décès
+   b) Les propres volontés du mandant concernant certains traitements médicaux
+   c) Des instructions de transfert de la propriété d'une entreprise
+   d) Les conditions précises d'une procuration financière
+3. Vrai ou faux : Une procuration financière et une procuration en matière de soins de santé portent sur les mêmes catégories de décisions.
+4. Pourquoi la femme a-t-elle établi les deux types de procurations, en plus d'un testament de vie?
+   a) Un seul document aurait couvert toutes les décisions possibles
+   b) Les décisions financières et médicales sont des catégories fondamentalement différentes qui exigent des instruments distincts
+   c) Elle n'avait besoin d'aucune indication pour les décisions médicales
+   d) Le testament de vie remplace complètement le besoin d'une procuration en matière de soins de santé
+
+**5. Corrigé**
+1. b  2. b  3. Faux  4. b
+
+**6. Réponses et explications**
+1. Une procuration en matière de soins de santé désigne une personne pour prendre des décisions médicales au nom du mandant en cas d'inaptitude.
+2. Un testament de vie consigne les propres volontés du mandant concernant certains traitements médicaux.
+3. Les procurations financières et en matière de soins de santé portent sur des catégories de décisions fondamentalement différentes.
+4. L'approche complète de la femme couvrait à la fois les décisions financières et médicales, en reconnaissant qu'elles exigent des instruments distincts.
+
+**7. Points clés à retenir**
+- Une procuration en matière de soins de santé désigne une personne pour prendre des décisions médicales en cas d'inaptitude.
+- Un testament de vie consigne les propres volontés du mandant concernant des traitements médicaux précis.
+- Ces instruments portent sur des décisions médicales, ce qui les distingue de la procuration financière vue à la leçon 15.
+- Un plan complet en cas d'inaptitude comprend généralement des instruments financiers et des instruments de soins de santé.
+
+===== PURPLE-L2-017
+TITLE: Désignations de bénéficiaire ou testament : lequel l'emporte?
+SUMMARY: Revois du point de vue juridique pourquoi une désignation de bénéficiaire l'emporte généralement sur un testament contradictoire, et pourquoi il faut la mettre à jour directement auprès de chaque institution.
+## PURPLE-L2-017
+### Désignations de bénéficiaire ou testament : lequel l'emporte?
+
+**1. Objectifs d'apprentissage**
+À la fin de cette leçon, tu pourras :
+- Renforcer, du point de vue des instruments juridiques, la discussion de WHITE-L2-046 sur les désignations de bénéficiaire.
+- Expliquer la règle générale de priorité entre les désignations de bénéficiaire et les testaments.
+- Appliquer cette notion à un scénario hypothétique de planification successorale.
+
+**2. Contenu principal**
+En reprenant la discussion de WHITE-L2-046 sur les désignations de bénéficiaire, cette leçon examine plus directement la relation juridique entre ces désignations et un testament. Certains biens — comptes de retraite, polices d'assurance vie et certains comptes bancaires ou de courtage comportant une désignation « payable au décès » ou « transférable au décès » — passent généralement directement au bénéficiaire nommé au décès du titulaire du compte, selon la désignation inscrite auprès de l'institution, en grande partie indépendamment de ce qu'un testament pourrait dire séparément au sujet de ce même bien.
+
+Ça veut dire qu'une désignation de bénéficiaire l'emporte généralement sur une disposition contradictoire d'un testament pour ce bien précis : une désignation désuète (qui nomme un ex-conjoint, par exemple) peut l'emporter même sur les instructions d'un testament plus récent et soigneusement rédigé pour ce compte précis — exactement l'écart illustré dans l'exemple de WHITE-L2-046. C'est une réalité juridique essentielle, et parfois sous-estimée : une planification successorale complète exige de revoir et de mettre à jour les désignations de bénéficiaire directement auprès de chaque institution, et pas seulement de mettre un testament à jour en supposant qu'il couvre tout.
+
+**3. Exemple pratique**
+Après avoir rédigé un nouveau testament complet qui reflète ses volontés actuelles à la suite d'un remariage, un homme suppose que sa planification successorale est terminée. Lors d'un examen avec son avocat, ils découvrent que son compte de retraite nomme encore son ex-conjointe comme bénéficiaire désignée, une désignation faite des années plus tôt, qui déterminerait juridiquement la répartition de ce compte précis, peu importe ce que dit son nouveau testament soigneusement rédigé. Il met immédiatement à jour la désignation de bénéficiaire directement auprès du fournisseur de son compte de retraite, ce qui comble un écart que son nouveau testament seul n'aurait pas pu corriger.
+
+**4. Quiz de pratique**
+1. Qu'est-ce qui détermine généralement la répartition d'un bien qui comporte une désignation de bénéficiaire valide, comme un compte de retraite?
+   a) Le testament, peu importe toute désignation de bénéficiaire
+   b) La désignation de bénéficiaire inscrite auprès de l'institution, en grande partie indépendamment du testament
+   c) Ni le testament ni la désignation n'ont d'effet juridique
+   d) Un tribunal les écarte toujours automatiquement tous les deux
+2. Pourquoi est-il important de mettre à jour les désignations de bénéficiaire directement auprès de chaque institution?
+   a) C'est inutile une fois le testament mis à jour
+   b) Une désignation l'emporte généralement sur une disposition contradictoire d'un testament pour ce bien précis
+   c) Les désignations de bénéficiaire n'ont aucune importance juridique
+   d) Les testaments l'emportent toujours automatiquement sur les désignations
+3. Vrai ou faux : Mettre à jour un testament met automatiquement à jour toutes les désignations de bénéficiaire des comptes de retraite et des polices d'assurance.
+4. Quel écart l'avocat de l'homme a-t-il découvert lors de l'examen de sa planification successorale?
+   a) Son testament était invalide
+   b) Son compte de retraite nommait encore son ex-conjointe comme bénéficiaire, malgré son nouveau testament
+   c) Il n'avait aucun compte de retraite
+   d) Sa nouvelle conjointe était déjà correctement nommée
+
+**5. Corrigé**
+1. b  2. b  3. Faux  4. b
+
+**6. Réponses et explications**
+1. Une désignation de bénéficiaire détermine généralement la répartition de ce bien précis, en grande partie indépendamment des dispositions du testament.
+2. Comme les désignations l'emportent généralement sur un testament contradictoire pour ce bien, il est essentiel de les mettre à jour directement auprès de chaque institution.
+3. Mettre à jour un testament ne met pas automatiquement à jour les désignations de bénéficiaire tenues séparément par chaque institution.
+4. La désignation désuète du compte de retraite de l'homme aurait déterminé la répartition, malgré les intentions différentes de son testament mis à jour.
+
+**7. Points clés à retenir**
+- Certains biens passent selon les désignations de bénéficiaire, en grande partie indépendamment de ce que dit un testament.
+- Une désignation de bénéficiaire l'emporte généralement sur une disposition contradictoire d'un testament pour ce bien précis.
+- Mettre à jour un testament ne met pas automatiquement à jour les désignations de bénéficiaire tenues séparément.
+- Une planification successorale complète exige de revoir et de mettre à jour les désignations directement auprès de chaque institution concernée.
+
+===== PURPLE-L2-018
+TITLE: Les contrats de travail : emploi « à volonté » ou emploi contractuel
+SUMMARY: Comprends ce qu'est l'emploi « à volonté », courant aux États-Unis, en quoi il diffère d'un emploi encadré par un contrat, et pourquoi les règles varient beaucoup selon l'endroit.
+## PURPLE-L2-018
+### Les contrats de travail : emploi « à volonté » ou emploi contractuel
+
+**1. Objectifs d'apprentissage**
+À la fin de cette leçon, tu pourras :
+- Définir de façon conceptuelle l'emploi « à volonté » (*at-will employment*).
+- Distinguer l'emploi à volonté de l'emploi contractuel.
+- Reconnaître qu'il s'agit d'une règle juridique par défaut propre à chaque juridiction, qui comporte des exceptions importantes.
+
+**2. Contenu principal**
+Dans bien des juridictions américaines, la relation d'emploi par défaut est l'emploi « à volonté » : l'employeur ou l'employé peut généralement mettre fin à la relation en tout temps, pour presque n'importe quelle raison (ou sans raison déclarée), sans avoir à établir une « cause juste », sous réserve d'exceptions importantes. Par exemple, même dans un emploi à volonté, un employeur ne peut généralement pas congédier un employé pour un motif protégé par la loi (comme certaines formes de discrimination). Cette règle par défaut contraste avec l'emploi contractuel, où un contrat de travail précis définit les conditions de la relation, y compris la durée, les motifs de fin d'emploi et souvent des dispositions d'indemnité de départ. Il faut alors généralement un motif précis, défini dans le contrat (ou l'arrivée à échéance naturelle du contrat), pour mettre fin à la relation, au lieu de pouvoir y mettre fin pour n'importe quelle raison.
+
+C'est une règle par défaut PROPRE À UNE RÉGION : les juridictions à l'extérieur des États-Unis ont souvent des protections d'emploi par défaut vraiment différentes (au Canada, par exemple, l'emploi à volonté n'est pas la règle par défaut, et un préavis ou une indemnité de fin d'emploi est généralement exigé), et même aux États-Unis, les exceptions à l'emploi à volonté (lois contre la discrimination, exceptions d'ordre public, exceptions de contrat implicite dans certaines juridictions) peuvent être importantes et dépendre des faits.
+
+**3. Exemple pratique**
+En examinant sa nouvelle offre d'emploi, Priya remarque qu'elle ne comprend pas de contrat de travail précis définissant une durée fixe ou des motifs précis nécessaires pour mettre fin à l'emploi; elle est donc probablement embauchée selon le cadre par défaut de l'emploi à volonté de sa juridiction, où elle ou son employeur peut généralement mettre fin à la relation en tout temps. Ça contraste avec une collègue de la même entreprise, embauchée en vertu d'un contrat de travail de cadre précis de deux ans, qui définit précisément les motifs nécessaires pour mettre fin à l'emploi et prévoit une indemnité de départ si l'entreprise met fin à la relation sans respecter ces motifs — un arrangement vraiment différent, et plus protecteur, que le cadre par défaut de l'emploi à volonté dans lequel Priya se trouve.
+
+**4. Quiz de pratique**
+1. Que veut généralement dire l'« emploi à volonté »?
+   a) On ne peut mettre fin à l'emploi que pour une cause précise et définie
+   b) L'une ou l'autre partie peut généralement mettre fin à la relation en tout temps, pour presque n'importe quelle raison, sous réserve d'exceptions importantes
+   c) Un contrat de travail est exigé dans tous les cas
+   d) La fin d'emploi est illégale en toutes circonstances
+2. En quoi l'emploi contractuel diffère-t-il généralement de l'emploi à volonté?
+   a) Ils sont identiques à tous points de vue
+   b) Un contrat précis définit la durée, les motifs de fin d'emploi et souvent les indemnités de départ
+   c) L'emploi contractuel permet de mettre fin à l'emploi pour n'importe quelle raison, en tout temps
+   d) L'emploi à volonté comprend toujours des indemnités de départ
+3. Vrai ou faux : L'emploi à volonté permet à un employeur de congédier un employé pour n'importe quelle raison, y compris des motifs protégés par la loi, comme certaines formes de discrimination.
+4. Qu'est-ce qui distinguait l'offre d'emploi de Priya du contrat de travail de cadre de sa collègue?
+   a) C'étaient des arrangements identiques
+   b) L'emploi de Priya relevait probablement de l'emploi à volonté par défaut, alors que le contrat de sa collègue définissait des motifs de fin d'emploi et une indemnité de départ précis
+   c) Priya avait un arrangement plus protecteur que sa collègue
+   d) Aucun des deux arrangements n'avait d'importance juridique
+
+**5. Corrigé**
+1. b  2. b  3. Faux  4. b
+
+**6. Réponses et explications**
+1. L'emploi à volonté permet généralement à l'une ou l'autre partie de mettre fin à la relation en tout temps, pour presque n'importe quelle raison, sous réserve d'exceptions importantes.
+2. L'emploi contractuel définit des conditions précises, y compris les motifs de fin d'emploi et souvent une indemnité de départ, ce qui le distingue de la règle par défaut de l'emploi à volonté.
+3. L'emploi à volonté ne permet pas de congédier pour des motifs protégés par la loi, comme certaines formes de discrimination, même s'il accorde par ailleurs une grande latitude.
+4. L'arrangement probablement à volonté de Priya contrastait avec l'emploi contractuel de sa collègue, mieux défini et plus protecteur.
+
+**7. Points clés à retenir**
+- L'emploi à volonté est une règle par défaut courante aux États-Unis qui permet à l'une ou l'autre partie de mettre fin à la relation en tout temps, sous réserve d'exceptions importantes.
+- L'emploi contractuel définit des conditions précises, y compris les motifs de fin d'emploi et souvent des indemnités de départ.
+- Les exceptions importantes à l'emploi à volonté comprennent les protections contre la discrimination et, dans certaines juridictions, d'autres limites légales.
+- C'est un cadre juridique fortement propre à chaque juridiction, avec des règles par défaut vraiment différentes à l'extérieur des États-Unis.
+
+===== PURPLE-L2-019
+TITLE: Les manuels de l'employé : politique ou contrat qui engage
+SUMMARY: Comprends le statut juridique d'un manuel de l'employé, pourquoi certaines formulations peuvent créer des obligations contractuelles non voulues et l'utilité d'un avis de non-responsabilité clair.
+## PURPLE-L2-019
+### Les manuels de l'employé : politique ou contrat qui engage
+
+**1. Objectifs d'apprentissage**
+À la fin de cette leçon, tu pourras :
+- Expliquer le statut juridique général d'un manuel de l'employé.
+- Nommer pourquoi la formulation d'un manuel peut parfois créer des obligations contractuelles non voulues.
+- Reconnaître l'utilité d'un avis de non-responsabilité clair dans un manuel.
+
+**2. Contenu principal**
+Un manuel de l'employé sert généralement de document de politique qui communique les attentes, les procédures et les renseignements sur les avantages sociaux d'un employeur. Il vise généralement à rester un ensemble de lignes directrices souples et non contraignantes plutôt qu'un contrat qui engage — une distinction importante par rapport à l'emploi contractuel vu à la leçon 18. Par contre, des tribunaux de certaines juridictions ont jugé que des formulations précises qui ressemblent à des promesses (comme des procédures disciplinaires progressives détaillées et obligatoires, présentées comme des étapes garanties avant tout congédiement) peuvent, dans certaines circonstances, créer une obligation contractuelle implicite, ce qui pourrait limiter la relation d'emploi à volonté (leçon 18) qui s'appliquerait autrement.
+
+À cause de ce risque, on conseille généralement aux employeurs d'inclure dans leur manuel un avis de non-responsabilité clair et explicite qui confirme que le manuel ne crée pas de contrat et que l'emploi à volonté reste en vigueur, et d'éviter les formulations trop précises, qui ressemblent à des garanties, au sujet des procédures disciplinaires ou de la sécurité d'emploi, à moins qu'une relation contractuelle soit réellement voulue.
+
+**3. Exemple pratique**
+En rédigeant un manuel de l'employé pour son entreprise en croissance, une propriétaire d'entreprise inclut d'abord une formulation détaillée qui décrit un processus disciplinaire précis, en plusieurs étapes, qui doit toujours avoir lieu avant tout congédiement — une formulation qui pourrait, dans certaines juridictions, être interprétée comme une promesse contractuelle implicite limitant sa capacité à mettre fin plus librement à l'emploi d'employés à volonté. Son avocat lui recommande de revoir cette formulation pour décrire le processus disciplinaire comme une ligne directrice générale plutôt que comme une procédure obligatoire et garantie, et d'ajouter un avis de non-responsabilité explicite confirmant que le manuel ne crée pas de contrat et que l'emploi à volonté reste en vigueur. Elle protège ainsi sa souplesse tout en communiquant clairement ses attentes aux employés.
+
+**4. Quiz de pratique**
+1. Qu'est-ce qu'un manuel de l'employé vise généralement à être?
+   a) Un contrat de travail contraignant et immuable
+   b) Un document de politique souple qui communique les attentes et les procédures
+   c) Un type de police d'assurance
+   d) Une déclaration fiscale gouvernementale
+2. Pourquoi une formulation précise qui ressemble à une promesse dans un manuel pourrait-elle créer un risque juridique pour un employeur?
+   a) Elle n'a aucune importance juridique
+   b) Des tribunaux de certaines juridictions pourraient l'interpréter comme créant une obligation contractuelle implicite, ce qui limiterait la souplesse de l'emploi à volonté
+   c) Toutes les formulations d'un manuel sont automatiquement non contraignantes, peu importe les mots utilisés
+   d) La loi exige toujours que les manuels soient des contrats contraignants
+3. Vrai ou faux : Un avis de non-responsabilité clair dans un manuel n'a aucune importance juridique pour le statut d'emploi à volonté.
+4. Quel changement l'avocat a-t-il recommandé pour la formulation disciplinaire du manuel de la propriétaire d'entreprise?
+   a) Rendre la formulation plus précise et plus proche d'une garantie
+   b) Décrire le processus comme une ligne directrice générale et ajouter un avis explicite sur l'emploi à volonté
+   c) Retirer complètement toute mention de la discipline
+   d) Faire passer tout de suite tous les employés à un emploi contractuel
+
+**5. Corrigé**
+1. b  2. b  3. Faux  4. b
+
+**6. Réponses et explications**
+1. Un manuel de l'employé vise généralement à être un document de politique souple, et non un contrat de travail contraignant.
+2. Une formulation précise qui ressemble à une promesse peut, dans certaines juridictions, créer une obligation contractuelle implicite qui limite la souplesse de l'emploi à volonté.
+3. Un avis de non-responsabilité clair aide à confirmer que le manuel ne crée pas de contrat, ce qui soutient le maintien de l'emploi à volonté.
+4. Les révisions recommandées par l'avocat ont protégé la souplesse de la propriétaire d'entreprise tout en maintenant une communication claire avec les employés.
+
+**7. Points clés à retenir**
+- Les manuels de l'employé visent généralement à être des documents de politique souples, et non des contrats contraignants.
+- Une formulation précise qui ressemble à une promesse peut, dans certaines juridictions, créer des obligations contractuelles implicites non voulues.
+- Un avis de non-responsabilité clair et explicite aide à préserver l'emploi à volonté quand c'est l'intention.
+- Ça se rattache directement à la distinction entre l'emploi à volonté et l'emploi contractuel de la leçon 18.
+
+===== PURPLE-L2-020
+TITLE: Survol de la propriété intellectuelle : brevets, marques de commerce, droits d'auteur et secrets commerciaux comparés
+SUMMARY: Compare les quatre grandes catégories de propriété intellectuelle, ce que chacune protège et pourquoi une entreprise en utilise souvent plusieurs à la fois.
+## PURPLE-L2-020
+### Survol de la propriété intellectuelle : brevets, marques de commerce, droits d'auteur et secrets commerciaux comparés
+
+**1. Objectifs d'apprentissage**
+À la fin de cette leçon, tu pourras :
+- Comparer les quatre grandes catégories de protection de la propriété intellectuelle.
+- Nommer ce que chaque catégorie protège généralement.
+- Expliquer pourquoi il est important de choisir le bon type de protection.
+
+**2. Contenu principal**
+Cette leçon présente un survol comparatif avant que les leçons 21 à 24 examinent chaque catégorie en profondeur. Un brevet protège généralement des inventions — des procédés, des machines ou des compositions de matières nouveaux, utiles et non évidents — pendant une période limitée, en échange de la divulgation publique de l'invention. Une marque de commerce protège généralement des signes distinctifs d'une marque — noms, logos, slogans — qui distinguent les biens ou les services d'une partie de ceux d'une autre. Un droit d'auteur protège généralement des œuvres originales créatives et écrites — livres, musique, code logiciel, œuvres d'art — contre la copie ou l'utilisation non autorisées. Un secret commercial protège généralement des renseignements d'affaires confidentiels (formules, procédés, listes de clients) par le secret lui-même, plutôt que par un enregistrement public.
+
+Choisir le bon type de protection est important, parce que ces catégories ne sont pas interchangeables : essayer de protéger un nom de marque par le droit d'auteur, par exemple, serait généralement un mauvais choix, puisque le droit d'auteur protège l'expression créative, et non les signes distinctifs d'une marque, dont s'occupe précisément le droit des marques de commerce. Bien des entreprises utilisent plusieurs types de protection de la propriété intellectuelle en même temps pour différents aspects de leurs activités : une entreprise de logiciels peut breveter un procédé technique nouveau, enregistrer son nom comme marque de commerce, protéger par droit d'auteur sa documentation écrite et son code, et protéger ses algorithmes internes comme secrets commerciaux, tout ça en même temps.
+
+**3. Exemple pratique**
+En lançant un nouveau logiciel, une fondatrice travaille avec une avocate en propriété intellectuelle pour déterminer la protection appropriée à chaque aspect distinct de l'entreprise : enregistrer le nom et le logo du produit comme marques de commerce, protéger par droit d'auteur le code sous-jacent et la documentation d'utilisation, explorer si un procédé technique nouveau dans le logiciel pourrait être admissible à la protection par brevet, et garder certains algorithmes internes comme secrets commerciaux plutôt que de les divulguer publiquement dans une demande de brevet, à la suite d'un jugement d'affaires selon lequel le secret sert mieux la valeur concurrentielle de cet actif en particulier.
+
+**4. Quiz de pratique**
+1. Que protège généralement un brevet?
+   a) Les noms de marque et les logos
+   b) Les inventions nouvelles, utiles et non évidentes
+   c) Uniquement les œuvres créatives et écrites
+   d) Les renseignements confidentiels gardés secrets
+2. Que protège généralement une marque de commerce?
+   a) Les inventions
+   b) Les signes distinctifs d'une marque qui distinguent les biens ou services d'une partie de ceux d'une autre
+   c) Les formules confidentielles
+   d) Uniquement les livres écrits
+3. Vrai ou faux : Les quatre catégories de propriété intellectuelle sont interchangeables et protègent exactement les mêmes choses.
+4. Pourquoi la fondatrice du logiciel a-t-elle utilisé plusieurs types de protection de la propriété intellectuelle en même temps?
+   a) Une entreprise n'a jamais accès qu'à un seul type de protection
+   b) Les différents aspects de l'entreprise (marque, code, procédés techniques, algorithmes) exigeaient chacun un type de protection différent et approprié
+   c) La protection de la propriété intellectuelle est inutile pour les entreprises de logiciels
+   d) Les marques de commerce protègent à elles seules tout ce dont une entreprise a besoin
+
+**5. Corrigé**
+1. b  2. b  3. Faux  4. b
+
+**6. Réponses et explications**
+1. Les brevets protègent généralement les inventions nouvelles, utiles et non évidentes.
+2. Les marques de commerce protègent généralement les signes distinctifs d'une marque qui distinguent les biens ou les services d'une partie de ceux d'une autre.
+3. Ces quatre catégories protègent des types distincts de propriété intellectuelle et ne sont pas interchangeables.
+4. Les différents aspects de l'entreprise de la fondatrice exigeaient chacun un type de protection de la propriété intellectuelle différent et bien adapté.
+
+**7. Points clés à retenir**
+- Les brevets, les marques de commerce, les droits d'auteur et les secrets commerciaux protègent chacun des catégories distinctes de propriété intellectuelle.
+- Les brevets protègent les inventions; les marques de commerce, les signes distinctifs d'une marque; les droits d'auteur, les œuvres créatives; les secrets commerciaux, les renseignements confidentiels, par le secret.
+- Ces catégories ne sont pas interchangeables, et choisir le mauvais type de protection crée un vrai décalage.
+- Bien des entreprises utilisent plusieurs types de protection de la propriété intellectuelle en même temps pour différents aspects de leurs activités.

@@ -1,0 +1,399 @@
+===== WHITE-L4-016
+TITLE: L'analyse du straddle : pourquoi parier sur la volatilité n'est pas parier sur la direction
+SUMMARY: Découvrez comment un straddle combine une option d'achat et une option de vente pour profiter d'un fort mouvement dans un sens ou dans l'autre, et pourquoi il perd de l'argent si le cours reste stable.
+KEYWORDS: straddle sur options, négociation de la volatilité, direction incertaine, stratégie d'options
+# L'analyse du straddle : pourquoi parier sur la volatilité n'est pas parier sur la direction
+
+## Mise en situation
+HYPOTHÈSE/OPINION (scénario hypothétique à des fins pédagogiques seulement) : Imaginez la devise d'une économie de taille moyenne qui perd une grande partie de sa valeur par rapport aux principales monnaies de réserve en quelques mois, sous l'effet de capitaux qui fuient le pays et d'une confiance des investisseurs qui s'effrite. Pendant que la devise de cette économie fluctue de façon imprévisible en pleine fuite des capitaux, un investisseur qui suit une action liée et exposée à cette devise croit qu'un fort mouvement de prix s'en vient, mais n'a aucune conviction solide quant à sa direction. Cette leçon présente la stratégie conçue précisément pour ce genre d'incertitude.
+
+## Objectifs d'apprentissage
+- Expliquer la structure d'une stratégie d'options appelée straddle acheteur.
+- Expliquer pourquoi un straddle profite d'un fort mouvement de prix dans un sens ou dans l'autre.
+- Repérer les conditions dans lesquelles un straddle risque de perdre de l'argent.
+- Distinguer un pari sur la direction d'un pari sur la volatilité à l'aide de l'exemple du straddle.
+
+## Contenu principal
+Un straddle acheteur combine l'achat d'une option d'achat et d'une option de vente sur la même action sous-jacente, avec le même prix d'exercice et la même date d'échéance. FAIT VÉRIFIÉ : comme la position comprend à la fois une option d'achat (qui prend de la valeur quand l'action monte) et une option de vente (qui prend de la valeur quand l'action baisse), un straddle peut devenir rentable si l'action fait un fort mouvement dans un sens ou dans l'autre, ce qui le distingue fondamentalement d'un simple pari sur la direction, comme l'achat d'une option d'achat seule (leçon 14) ou d'une option de vente seule (leçon 15).
+
+Voici le « pourquoi » on décrit cette stratégie comme un pari sur la volatilité plutôt que sur la direction : un investisseur qui ne sait pas dans quel sens évoluera une action exposée à une devise, en pleine incertitude comme dans le scénario ci-dessus, mais qui est convaincu qu'un mouvement important s'en vient, dans un sens ou dans l'autre, peut utiliser un straddle pour se positionner en fonction de cette volatilité attendue sans avoir besoin de deviner la bonne direction. La prime combinée payée pour l'option d'achat et l'option de vente représente le coût total de cette position, et l'action doit bouger assez loin dans un sens ou dans l'autre pour couvrir ce coût combiné avant que la position devienne rentable.
+
+C'est pourquoi un straddle perd de l'argent si l'action reste relativement stable, même si l'investisseur avait « raison » de croire qu'il y avait de l'incertitude : l'option d'achat et l'option de vente perdent toutes deux de la valeur avec le temps (une notion appelée érosion temporelle, approfondie dans des leçons plus avancées sur les options) si le fort mouvement prévu ne se produit pas avant l'échéance. C'est pourquoi il vaut mieux comprendre le straddle comme un pur pari sur la volatilité : l'investisseur parie que l'ampleur du mouvement dépassera ce que le marché des options a intégré dans les prix, et non sur une direction en particulier.
+
+## Exemple pratique
+EXEMPLE ILLUSTRATIF : Une action se négocie à 100 $. Un investisseur achète à la fois une option d'achat et une option de vente au prix d'exercice de 100 $, pour une prime combinée de 8 $ par action (800 $ au total pour des contrats standards). Si l'action monte à 130 $ à l'échéance, l'option d'achat vaut 30 $ (bien au-delà du coût combiné de 8 $), ce qui produit un bon profit malgré l'option de vente qui expire sans valeur. Si l'action tombe plutôt à 70 $, l'option de vente vaut 30 $, ce qui produit un profit semblable malgré l'option d'achat qui expire sans valeur. Mais si l'action reste simplement à 102 $ à l'échéance, les deux options valent très peu, et l'investisseur perd la plus grande partie ou la totalité des 800 $ de prime combinée. Cela illustre que la stratégie avait besoin d'un fort mouvement, dans un sens ou dans l'autre, pour réussir.
+
+## Questionnaire pratique
+**Q1. Que combine un straddle acheteur?**
+A) Deux options d'achat à des prix d'exercice différents
+B) Une option d'achat et une option de vente sur la même action, avec le même prix d'exercice et la même échéance
+C) La vente d'une option d'achat et l'achat d'une action
+D) Seulement une option de vente, sans option d'achat
+
+**Q2. Pourquoi décrit-on un straddle comme un pari sur la volatilité plutôt que sur la direction?**
+A) Il ne rapporte que si l'action monte, comme une option d'achat seule
+B) Il peut devenir rentable grâce à un fort mouvement de prix dans un sens ou dans l'autre, puisqu'il combine une option d'achat et une option de vente
+C) Il ne rapporte que si l'action reste parfaitement stable
+D) Les straddles n'ont aucun lien avec les mouvements de prix
+
+**Q3. Dans quelle condition un straddle acheteur perd-il habituellement de l'argent?**
+A) Quand l'action fait un très fort mouvement dans un sens ou dans l'autre
+B) Quand l'action reste relativement stable, puisque ni l'option d'achat ni l'option de vente ne prend assez de valeur pour couvrir la prime combinée payée
+C) Les straddles rapportent toujours, peu importe le mouvement de l'action
+D) Quand l'investisseur prédit correctement la direction de l'action
+
+**Q4. Dans l'exemple, pourquoi l'investisseur a-t-il fait un profit quand l'action est montée à 130 $, malgré l'option de vente qui a expiré sans valeur?**
+A) Le gain de 30 $ de l'option d'achat dépassait de loin la prime combinée de 8 $ payée pour les deux options
+B) L'option de vente a aussi pris de la valeur en même temps
+C) L'investisseur a été remboursé de la prime de l'option de vente sans valeur
+D) Le profit n'avait aucun lien avec la valeur de l'option d'achat
+
+**Q5. Pourquoi le straddle a-t-il perdu de l'argent quand l'action s'est stabilisée à 102 $ dans l'exemple?**
+A) Un mouvement de 2 $ était bien plus que suffisant pour profiter de l'une ou l'autre option
+B) Ni l'option d'achat ni l'option de vente n'a pris assez de valeur grâce à un si petit mouvement pour couvrir les 800 $ de prime combinée payée
+C) La stratégie du straddle perd toujours de l'argent, peu importe le mouvement de l'action
+D) L'investisseur était tenu d'exercer les deux options en même temps
+
+## Corrigé
+Q1: B
+Q2: B
+Q3: B
+Q4: A
+Q5: B
+
+## Réponses et explications
+**Q1.** Un straddle associe précisément une option d'achat et une option de vente au même prix d'exercice et à la même échéance pour se positionner en vue d'un fort mouvement dans un sens ou dans l'autre.
+
+**Q2.** Comme ses composantes d'achat et de vente permettent à la position de profiter d'un fort mouvement peu importe la direction, il vise l'ampleur du mouvement plutôt que sa direction.
+
+**Q3.** Un mouvement de prix insuffisant veut dire qu'aucune des deux jambes du straddle ne prend assez de valeur pour compenser la prime totale payée pour les deux options.
+
+**Q4.** Le gain important de l'option d'achat suffisait à lui seul à plus que compenser le coût total des deux options, même avec l'option de vente qui a expiré sans valeur.
+
+**Q5.** Le petit mouvement de prix était insuffisant pour que l'une ou l'autre option génère un gain capable de compenser le coût total de la prime.
+
+## Points clés
+- Un straddle acheteur combine une option d'achat et une option de vente au même prix d'exercice et à la même échéance, sur la même action sous-jacente.
+- Cette structure peut profiter d'un fort mouvement de prix dans un sens ou dans l'autre, ce qui en fait un pari sur la volatilité plutôt que sur la direction.
+- Un straddle perd de l'argent si l'action reste relativement stable, puisqu'aucune des options ne prend assez de valeur pour couvrir la prime combinée.
+- Un straddle réussit quand le mouvement réel du prix dépasse ce que le prix combiné des options avait prévu, peu importe la direction.
+
+===== WHITE-L4-017
+TITLE: L'analyse de l'achat sur marge : pourquoi l'argent emprunté amplifie à la fois les gains et les pertes d'un portefeuille
+SUMMARY: Découvrez comment l'achat d'actions sur marge amplifie les gains et les pertes sur votre mise de fonds, et pourquoi un appel de marge peut forcer une vente au pire moment.
+KEYWORDS: achat sur marge, effet de levier, appel de marge, risque de portefeuille
+# L'analyse de l'achat sur marge : pourquoi l'argent emprunté amplifie à la fois les gains et les pertes d'un portefeuille
+
+## Mise en situation
+HYPOTHÈSE/OPINION (scénario hypothétique à des fins pédagogiques seulement) : Imaginez qu'après des années d'expansion rapide, les marchés de l'immobilier et du crédit à la consommation d'un pays populeux commencent à montrer des signes de correction brutale, à mesure que les défauts de paiement augmentent. Pendant qu'un boom alimenté par le crédit se dégonfle et que la valeur des actifs chute fortement, les investisseurs qui ont beaucoup emprunté pour acheter des actions vivent une expérience très différente de ceux qui ont payé comptant. Cette leçon explique pourquoi.
+
+## Objectifs d'apprentissage
+- Expliquer ce que signifie l'achat sur marge dans le contexte d'un portefeuille d'actions.
+- Expliquer pourquoi la marge amplifie à la fois les gains et les pertes en pourcentage sur le capital investi.
+- Expliquer ce qu'est un appel de marge et pourquoi il peut forcer une vente au pire moment possible.
+- Comparer le risque d'une position en actions achetée sur marge à celui d'une position de même taille sans effet de levier.
+
+## Contenu principal
+Acheter des actions sur marge, c'est emprunter de l'argent à une société de courtage pour acheter plus d'actions que l'argent comptant de l'investisseur ne le permettrait à lui seul, en utilisant les titres achetés (et souvent d'autres actifs du compte) comme garantie du prêt. FAIT VÉRIFIÉ : c'est, sur le plan conceptuel, le même mécanisme d'effet de levier que l'analyse du ratio prêt-valeur vue en immobilier : le capital propre de l'investisseur (sa « valeur nette » dans la position) devient une plus petite part de la position totale, ce qui amplifie les gains et les pertes en pourcentage sur ce capital, dans les deux directions.
+
+Voici le « pourquoi » la marge est une arme à double tranchant, d'une façon très semblable à l'effet de levier en immobilier : si une action achetée sur marge monte, le gain est mesuré par rapport au plus petit montant d'argent comptant que l'investisseur a réellement investi, ce qui donne un rendement en pourcentage plus élevé qu'un achat entièrement comptant de la même action. Mais si l'action baisse, comme elle pourrait le faire pendant le genre de dégonflement du marché du crédit décrit dans le scénario ci-dessus, la perte est mesurée par rapport à cette même petite base de capital, et une baisse qui serait gérable dans une position payée comptant peut effacer une part beaucoup plus grande, voire la totalité, du capital de l'investisseur qui achète sur marge.
+
+C'est pourquoi l'achat sur marge introduit un risque qui dépasse le simple calcul de l'effet de levier : l'appel de marge. FAIT VÉRIFIÉ : si la valeur de la garantie du compte sur marge tombe sous un niveau de maintien exigé, la société de courtage peut exiger que l'investisseur dépose immédiatement des fonds additionnels, ou elle vendra d'office ses placements pour rendre le compte de nouveau conforme, souvent au pire moment possible, pendant une forte baisse du marché. Cela transforme ce qui aurait pu être une perte sur papier récupérable en une perte réalisée pour de bon, puisque la vente forcée a lieu peu importe ce que pense l'investisseur des perspectives de remontée de l'action.
+
+## Exemple pratique
+EXEMPLE ILLUSTRATIF : Un investisseur achète pour 20 000 $ d'actions avec 10 000 $ de son propre argent et 10 000 $ empruntés sur marge. Si l'action monte de 20 %, la position gagne 4 000 $, soit un rendement de 40 % sur les 10 000 $ de capital initial de l'investisseur. Mais si l'action baisse plutôt de 30 %, la position perd 6 000 $, ce qui efface 60 % du capital initial de l'investisseur, et si la baisse est assez forte pour franchir l'exigence de marge de maintien du courtier, l'investisseur pourrait recevoir un appel de marge qui le force à vendre au prix déprimé, ce qui fige la perte au lieu de laisser le temps à une remontée possible.
+
+## Questionnaire pratique
+**Q1. Que signifie acheter des actions sur marge?**
+A) Payer entièrement comptant, sans aucun fonds emprunté
+B) Emprunter de l'argent à une société de courtage pour acheter plus d'actions que l'argent comptant de l'investisseur ne le permettrait à lui seul
+C) Acheter seulement des actions qui versent un dividende
+D) Acheter des actions uniquement dans un compte de retraite
+
+**Q2. Pourquoi la marge amplifie-t-elle les gains et les pertes en pourcentage par rapport à un achat entièrement comptant?**
+A) Les gains et les pertes sont mesurés par rapport à la plus petite mise de fonds de l'investisseur plutôt qu'à la taille complète de la position
+B) La marge n'a aucun effet sur les gains ou les pertes en pourcentage
+C) La marge n'amplifie que les gains, jamais les pertes
+D) Les sociétés de courtage absorbent automatiquement toutes les pertes des positions sur marge
+
+**Q3. Qu'est-ce qu'un appel de marge?**
+A) Un appel d'un courtier qui offre des conseils de placement
+B) L'obligation de déposer des fonds additionnels, sinon les placements seront vendus d'office, quand la valeur de la garantie du compte tombe sous un niveau de maintien exigé
+C) Une prime garantie pour les opérations sur marge réussies
+D) Un formulaire fiscal lié aux comptes sur marge
+
+**Q4. Pourquoi un appel de marge peut-il être particulièrement dommageable pendant une forte baisse du marché?**
+A) Les appels de marge ne se produisent jamais pendant les baisses du marché
+B) Il peut forcer une vente à un prix déprimé, peu importe ce que pense l'investisseur des perspectives de remontée de l'action, ce qui transforme une perte sur papier en perte permanente
+C) Les appels de marge donnent toujours un profit garanti à l'investisseur
+D) Les ventes forcées lors d'un appel de marge se font toujours à des prix favorables
+
+**Q5. Dans l'exemple, quelle a été la perte en pourcentage de l'investisseur sur son capital initial quand l'action a baissé de 30 %?**
+A) 30 %
+B) 40 %
+C) 60 %
+D) 100 %
+
+## Corrigé
+Q1: B
+Q2: A
+Q3: B
+Q4: B
+Q5: C
+
+## Réponses et explications
+**Q1.** L'achat sur marge consiste précisément à utiliser des fonds empruntés à une société de courtage pour augmenter la taille d'une position en actions au-delà de l'argent comptant disponible.
+
+**Q2.** Comme le capital propre de l'investisseur est une plus petite part de la position totale, un même mouvement en dollars produit un effet en pourcentage plus grand sur sa mise de fonds.
+
+**Q3.** Un appel de marge est déclenché quand la valeur du compte baisse trop, ce qui oblige l'investisseur à ajouter des fonds, sinon sa position sera liquidée contre son gré.
+
+**Q4.** Le caractère forcé et involontaire de la vente fait perdre à l'investisseur la possibilité d'attendre une remontée, ce qui fige les pertes à un moment inopportun.
+
+**Q5.** Une perte de 6 000 $ sur un capital initial de 10 000 $ représente une perte de 60 % de ce capital, même si l'action elle-même n'a baissé que de 30 %.
+
+## Points clés
+- L'achat sur marge utilise des fonds empruntés pour augmenter la taille d'une position, sur le même principe que l'effet de levier en immobilier.
+- Cela amplifie à la fois les gains et les pertes en pourcentage sur le capital propre investi par l'investisseur.
+- Un appel de marge peut forcer une vente à un prix déprimé pendant une baisse, ce qui transforme une perte sur papier récupérable en perte permanente.
+- Le risque d'une position sur marge dépasse nettement celui d'une position équivalente payée entièrement comptant, sans effet de levier.
+
+===== WHITE-L4-018
+TITLE: L'analyse des fonds indiciels : pourquoi battre le marché de façon constante est rare
+SUMMARY: Découvrez ce que fait un fonds indiciel et pourquoi la plupart des gestionnaires actifs ne battent pas leur indice de référence à long terme, surtout après les frais.
+KEYWORDS: fonds indiciels, efficience des marchés, performance de la gestion active, placement passif
+# L'analyse des fonds indiciels : pourquoi battre le marché de façon constante est rare
+
+## Mise en situation
+HYPOTHÈSE/OPINION (scénario hypothétique à des fins pédagogiques seulement) : Imaginez une perturbation de santé publique généralisée qui paralyse le transport maritime et la fabrication à l'échelle mondiale pendant une longue période, ce qui bloque les chaînes d'approvisionnement de nombreuses industries à la fois. Pendant une période de perturbation généralisée des marchés, certains fonds à gestion active s'attribuent le mérite d'avoir bien traversé le chaos, alors que les fonds indiciels ont simplement suivi le marché à la baisse puis à la hausse. Cette leçon examine ce que les données de performance à long terme montrent réellement au sujet des résultats de la gestion active.
+
+## Objectifs d'apprentissage
+- Expliquer ce qu'un fonds indiciel est conçu pour faire.
+- Expliquer pourquoi battre un grand indice de marché de façon constante s'est révélé difficile pour la plupart des gestionnaires professionnels.
+- Repérer les principales raisons de ce modèle persistant de sous-performance.
+- Distinguer le talent de la chance quand on évalue les résultats à court terme d'un gestionnaire de fonds.
+
+## Contenu principal
+Un fonds indiciel est conçu pour suivre le plus fidèlement possible la performance d'un indice de marché précis (comme un grand indice boursier), plutôt que d'essayer de choisir des titres qui devraient faire mieux que les autres. FAIT VÉRIFIÉ : les études à long terme sur la performance des fonds à gestion active ont montré de façon constante qu'une majorité de ces fonds font moins bien que leur indice de référence sur de longues périodes (les études souvent citées montrent que cette majorité augmente sur des horizons plus longs, comme 10 à 15 ans), et ce, avant même de tenir compte de l'inefficacité fiscale qui peut découler des opérations plus fréquentes des fonds à gestion active.
+
+Voici le « pourquoi » ce modèle persiste, ce qui nous ramène à l'analyse du ratio des frais de gestion de la leçon 5 : la gestion active coûte plus cher (des ratios des frais plus élevés pour payer la recherche et les opérations), et ce coût plus élevé crée un obstacle de performance que chaque fonds à gestion active doit franchir simplement pour égaler le rendement net d'un fonds indiciel à faible coût, sans parler de le battre. Au-delà du coût, les marchés sont aussi très concurrentiels : un grand nombre d'investisseurs professionnels talentueux et bien outillés analysent tous la même information publique, ce qui rend très difficile pour un seul gestionnaire de trouver et d'exploiter de façon constante des titres mal évalués avant les autres, une notion approfondie dans la leçon sur l'hypothèse de l'efficience des marchés, plus loin dans ce niveau.
+
+C'est pourquoi de bons résultats à court terme d'un gestionnaire de fonds, même sur plusieurs années, ne prédisent pas de façon fiable une surperformance continue. OPINION et mise en garde statistique importante : vu le très grand nombre de fonds à gestion active qui existent, certains feront mieux que les autres sur n'importe quelle période par pur hasard, un peu comme, dans un très grand groupe, certaines personnes qui lancent une pièce de monnaie obtiendront pile plusieurs fois de suite par pure chance, sans que cela reflète un quelconque talent pour prédire le résultat d'un lancer.
+
+## Exemple pratique
+EXEMPLE ILLUSTRATIF : Sur une période de 15 ans qui comprend la perturbation décrite dans le scénario ci-dessus et ses suites, un fonds indiciel à faible coût qui suit l'ensemble du marché rapporte 9 % par année, après les frais. Parmi un grand échantillon de fonds à gestion active qui existaient au début de cette période, la majorité font moins bien que ce rendement net de 9 % une fois leurs frais plus élevés pris en compte, même si de nombreux gestionnaires de cet échantillon ont fait mieux certaines années. Cela illustre la difficulté de maintenir une surperformance de façon constante sur un cycle de marché complet.
+
+## Questionnaire pratique
+**Q1. Qu'est-ce qu'un fonds indiciel est conçu pour faire?**
+A) Essayer de choisir de façon constante des actions qui devraient faire mieux que le marché
+B) Suivre le plus fidèlement possible la performance d'un indice de marché précis
+C) Garantir un rendement annuel fixe, peu importe les conditions du marché
+D) Investir seulement dans l'action d'une seule société
+
+**Q2. Qu'ont montré de façon constante les études à long terme au sujet de la performance des fonds à gestion active par rapport à leurs indices de référence?**
+A) La grande majorité des fonds à gestion active battent constamment leur indice de référence sur de longues périodes
+B) Une majorité de fonds à gestion active font moins bien que leur indice de référence sur de longues périodes, surtout sur 10 à 15 ans ou plus
+C) Les fonds à gestion active et les fonds indiciels performent toujours de façon identique
+D) Les fonds à gestion active n'ont aucuns frais
+
+**Q3. Pourquoi un ratio des frais plus élevé crée-t-il un obstacle de performance pour les fonds à gestion active?**
+A) Le ratio des frais n'a aucun lien avec la performance nette d'un fonds
+B) Le coût additionnel doit être compensé simplement pour égaler le rendement net d'un fonds indiciel à faible coût, sans parler de le battre
+C) Des frais plus élevés garantissent toujours une meilleure recherche et des rendements plus élevés
+D) Les fonds actifs sont exemptés de tous frais
+
+**Q4. Pourquoi est-il difficile pour des gestionnaires professionnels talentueux de trouver et d'exploiter de façon constante des titres mal évalués?**
+A) Aucun investisseur professionnel n'analyse l'information publique sur le marché
+B) Un grand nombre de professionnels talentueux et bien outillés analysent tous la même information, ce qui rend difficile d'exploiter de façon constante des erreurs de prix persistantes
+C) Les titres mal évalués n'existent dans aucun marché
+D) Seuls les investisseurs sans talent essaient de trouver des titres mal évalués
+
+**Q5. Pourquoi de bons résultats à court terme d'un gestionnaire de fonds ne prédisent-ils pas de façon fiable une surperformance continue?**
+A) Les résultats à court terme prédisent toujours parfaitement la performance future
+B) Comme il existe un grand nombre de fonds, certains feront mieux que les autres sur n'importe quelle période par pur hasard, comme dans l'analogie de la pièce de monnaie, sans que cela reflète un talent garanti
+C) La loi oblige les gestionnaires de fonds à faire moins bien après une bonne période
+D) La surperformance à court terme continue toujours indéfiniment
+
+## Corrigé
+Q1: B
+Q2: B
+Q3: B
+Q4: B
+Q5: B
+
+## Réponses et explications
+**Q1.** Les fonds indiciels visent à reproduire fidèlement la performance d'un indice de référence plutôt qu'à sélectionner activement des titres.
+
+**Q2.** Ce modèle de sous-performance est une constatation persistante et bien documentée dans de nombreuses études à long terme.
+
+**Q3.** Comme l'a établi la leçon sur le ratio des frais, des coûts plus élevés réduisent directement les rendements nets des investisseurs, ce qui exige une meilleure performance brute simplement pour suivre le rythme des options moins coûteuses.
+
+**Q4.** La forte concurrence entre des acteurs du marché bien informés rend difficile pour un seul gestionnaire de trouver, de façon fiable et répétée, des occasions que les autres ont ratées.
+
+**Q5.** Vu le nombre même de fonds, on s'attend statistiquement à ce qu'une certaine surperformance survienne par hasard, ce qui rend difficile de distinguer le vrai talent de la chance dans un historique limité.
+
+## Points clés
+- Les fonds indiciels visent à suivre fidèlement un indice de référence plutôt qu'à sélectionner des titres qui feront mieux.
+- Historiquement, une majorité de fonds à gestion active ont fait moins bien que leur indice de référence sur de longues périodes, surtout après les frais.
+- Des coûts plus élevés et une forte concurrence entre professionnels talentueux contribuent tous deux à ce modèle persistant de sous-performance.
+- De bons résultats à court terme ne prédisent pas de façon fiable une surperformance continue, puisque certains fonds feront mieux par pur hasard.
+
+===== WHITE-L4-019
+TITLE: Gestion active ou passive : pourquoi les frais sont le meilleur indicateur du rendement net
+SUMMARY: Découvrez pourquoi, dans de grandes études, le ratio des frais de gestion s'est révélé l'un des meilleurs indicateurs de la performance nette relative d'un fonds, plus fiable que les résultats passés.
+KEYWORDS: gestion active, gestion passive, frais des fonds, prévision du rendement net
+# Gestion active ou passive : pourquoi les frais sont le meilleur indicateur du rendement net
+
+## Mise en situation
+HYPOTHÈSE/OPINION (scénario hypothétique à des fins pédagogiques seulement) : Imaginez une perturbation de santé publique généralisée qui paralyse le transport maritime et la fabrication à l'échelle mondiale pendant une longue période, ce qui bloque les chaînes d'approvisionnement de nombreuses industries à la fois. Après une perturbation majeure des marchés, les chercheurs en finance qui étudient de grands échantillons de données sur la performance des fonds montrent de façon constante une variable qui a prédit les résultats relatifs mieux que presque tout le reste. Cette leçon explique quelle est cette variable et pourquoi elle fonctionne de façon si fiable.
+
+## Objectifs d'apprentissage
+- Expliquer la différence de fond entre la gestion active et la gestion passive des fonds.
+- Expliquer pourquoi le ratio des frais de gestion s'est révélé un indicateur solide de la performance nette relative des fonds.
+- Expliquer pourquoi cette relation tient, même si le talent et la méthode comptent clairement en principe.
+- Appliquer cette compréhension aux critères de choix d'un fonds.
+
+## Contenu principal
+La gestion active consiste pour un gestionnaire ou une équipe de fonds à prendre des décisions délibérées sur les titres à acheter, à conserver ou à vendre, dans le but de faire mieux qu'un indice de référence. La gestion passive, vue à la leçon 18, se contente de suivre un indice de référence. FAIT VÉRIFIÉ : dans de grandes études universitaires et de l'industrie sur la performance des fonds, le ratio des frais de gestion est ressorti à maintes reprises comme l'un des indicateurs les plus solides de la performance nette future relative d'un fonds dans sa catégorie, plus fiable, en moyenne, que les résultats passés, l'ancienneté du gestionnaire ou d'autres critères de choix souvent cités.
+
+Voici le « pourquoi » cela tient, même si le talent et la méthode comptent clairement en principe : dans une catégorie de fonds donnée, les rendements bruts (avant les frais) tendent à se regrouper assez près les uns des autres sur de longues périodes, puisque, comme l'a expliqué la leçon 18, il est vraiment difficile pour un gestionnaire donné de faire mieux que ses concurrents de façon constante et importante quand ils analysent tous le même marché concurrentiel. Quand les rendements bruts sont semblables pour de nombreux fonds d'une même catégorie, les frais que demande chaque fonds deviennent le facteur dominant qui sépare les rendements nets : le fonds qui garde une plus grande part du rendement brut pour l'investisseur, plutôt que pour la société de fonds, tend à donner le meilleur résultat net, presque indépendamment du talent d'un gestionnaire en particulier.
+
+C'est pourquoi le niveau des frais, contrairement au talent ou à la performance future d'un gestionnaire (qui sont imprévisibles par nature), est une variable connue, fixe et contrôlable au moment du placement. C'est pourquoi de nombreux analystes financiers, OPINION : y compris une part importante du milieu professionnel de la recherche en placement, considèrent le ratio des frais comme l'un des critères de sélection les plus utiles et les mieux appuyés par les données pour comparer des fonds semblables, précisément parce qu'il est connu d'avance, alors que la surperformance future ne l'est pas.
+
+## Exemple pratique
+EXEMPLE ILLUSTRATIF : Des chercheurs qui étudient un grand échantillon de fonds à gestion active dans une même catégorie les classent en groupes selon leur ratio des frais, du moins coûteux au plus coûteux. Le groupe le moins coûteux donne, en moyenne, des rendements nets nettement plus élevés aux investisseurs que le groupe le plus coûteux sur une période de 10 ans, même si certains fonds du groupe le plus coûteux ont parfois affiché de bons résultats certaines années. Cela démontre qu'en moyenne et avec le temps, le niveau des frais a prédit le résultat net de façon plus fiable que toute autre caractéristique examinée.
+
+## Questionnaire pratique
+**Q1. Quelle est la différence de fond entre la gestion active et la gestion passive?**
+A) La gestion active suit exactement un indice de référence, alors que la gestion passive essaie de le battre
+B) La gestion active repose sur une sélection délibérée de titres pour essayer de battre un indice de référence, alors que la gestion passive se contente de le suivre
+C) Il n'y a aucune différence importante entre les deux approches
+D) La gestion passive demande toujours des frais plus élevés que la gestion active
+
+**Q2. Pourquoi le ratio des frais s'est-il révélé un indicateur si solide de la performance nette relative des fonds?**
+A) Le ratio des frais n'a en fait aucun lien avec la performance des fonds
+B) Comme les rendements bruts tendent à se regrouper de près dans une catégorie, les frais de chaque fonds deviennent le facteur dominant qui sépare les rendements nets
+C) Des frais plus élevés produisent toujours des rendements bruts proportionnellement plus élevés
+D) Le ratio des frais ne compte que pour les fonds d'obligations, pas pour les fonds d'actions
+
+**Q3. Pourquoi le ratio des frais est-il considéré comme un critère de sélection plus utile que les résultats passés?**
+A) Les résultats passés prédisent toujours parfaitement les résultats futurs
+B) Le ratio des frais est une variable connue, fixe et contrôlable au moment du placement, alors que le talent et la performance futurs d'un gestionnaire sont imprévisibles par nature
+C) Le ratio des frais n'a aucune influence sur les décisions de placement
+D) Les résultats passés et le ratio des frais sont exactement la même mesure
+
+**Q4. Dans l'exemple, qu'ont constaté les chercheurs en comparant les groupes de fonds à faible coût et à coût élevé sur 10 ans?**
+A) Les fonds à coût élevé ont toujours fait mieux que les fonds à faible coût, chaque année
+B) Le groupe à faible coût a donné, en moyenne, des rendements nets nettement plus élevés, même si certains fonds à coût élevé ont affiché de bons résultats certaines années
+C) Il n'y avait aucune différence entre les deux groupes
+D) Les fonds à faible coût ont toujours fait moins bien, peu importe la période
+
+**Q5. Pourquoi de nombreux analystes considèrent-ils le ratio des frais comme un critère de sélection particulièrement utile et appuyé par les données?**
+A) Parce qu'il garantit une surperformance dans chaque cas
+B) Parce que c'est une caractéristique connue et fixe, qu'on peut connaître d'avance, contrairement à la surperformance future imprévisible d'un gestionnaire
+C) Parce que le ratio des frais n'a jamais été étudié par les chercheurs
+D) Parce que les frais n'ont aucune importance pour les résultats nets des investisseurs
+
+## Corrigé
+Q1: B
+Q2: B
+Q3: B
+Q4: B
+Q5: B
+
+## Réponses et explications
+**Q1.** La distinction de fond consiste à savoir si le fonds essaie de battre un indice de référence par des décisions actives ou s'il se contente de le reproduire.
+
+**Q2.** Quand les fonds d'une catégorie produisent des rendements bruts semblables, la différence de frais devient le principal facteur des différences dans ce que les investisseurs gardent réellement.
+
+**Q3.** Comme le niveau des frais est connu d'avance et que la performance future ne l'est pas, le ratio des frais offre une base de comparaison plus fiable au moment où il faut prendre une décision.
+
+**Q4.** Le résultat moyen à long terme a favorisé le groupe à faible coût, même si certains fonds à coût élevé ont connu de bonnes années isolées.
+
+**Q5.** Sa prévisibilité et le fait qu'on puisse le contrôler, par opposition à l'imprévisibilité des rendements futurs, en font un outil de sélection pratique et appuyé par les données.
+
+## Points clés
+- La gestion active essaie de battre un indice de référence par une sélection délibérée de titres; la gestion passive le suit directement.
+- Dans de grandes études, le ratio des frais est ressorti à maintes reprises comme l'un des indicateurs les plus solides de la performance nette relative des fonds.
+- C'est le cas parce que les rendements bruts tendent à se regrouper dans une catégorie, ce qui fait du niveau des frais le facteur dominant qui sépare les résultats nets.
+- Comme les frais sont connus et contrôlables d'avance, contrairement à la performance future, ils constituent un critère de choix de fonds particulièrement utile.
+
+===== WHITE-L4-020
+TITLE: L'analyse du rééquilibrage : pourquoi vendre ses gagnants et acheter ses perdants n'est pas de l'anticonformisme, mais de la discipline
+SUMMARY: Découvrez pourquoi la répartition d'un portefeuille dérive avec le temps et pourquoi le rééquilibrage, qui vend les gagnants et achète les retardataires, est une discipline de gestion du risque.
+KEYWORDS: rééquilibrage de portefeuille, discipline de répartition de l'actif, acheter bas et vendre haut, gestion du risque
+# L'analyse du rééquilibrage : pourquoi vendre ses gagnants et acheter ses perdants n'est pas de l'anticonformisme, mais de la discipline
+
+## Mise en situation
+HYPOTHÈSE/OPINION (scénario hypothétique à des fins pédagogiques seulement) : Imaginez qu'après des années d'expansion rapide, les marchés de l'immobilier et du crédit à la consommation d'un pays populeux commencent à montrer des signes de correction brutale, à mesure que les défauts de paiement augmentent. Pendant qu'une catégorie d'actifs en plein boom, alimentée par le crédit, continue de grimper pendant des années, la répartition initiale de 60/40 entre actions et obligations d'un investisseur dérive discrètement vers 85/15, à mesure que les actions devancent les obligations. Cette leçon explique pourquoi ramener cette répartition à sa cible, même pendant que le boom se poursuit, est une question de discipline plutôt que de pessimisme.
+
+## Objectifs d'apprentissage
+- Expliquer ce que signifie rééquilibrer un portefeuille.
+- Expliquer pourquoi la répartition d'un portefeuille non géré s'éloigne de sa cible initiale avec le temps.
+- Expliquer pourquoi le rééquilibrage consiste systématiquement à vendre les gagnants relatifs et à acheter les retardataires relatifs.
+- Expliquer pourquoi cette pratique repose sur une discipline de gestion du risque plutôt que sur une prédiction du marché.
+
+## Contenu principal
+Rééquilibrer un portefeuille, c'est ramener périodiquement ses placements à une répartition de l'actif cible fixée d'avance (comme 60 % d'actions et 40 % d'obligations), une notion qui fait directement écho à l'analyse du rééquilibrage d'un portefeuille immobilier vue plus tôt dans ce programme, appliquée maintenant à un portefeuille de placements composé de plusieurs catégories d'actifs. FAIT VÉRIFIÉ : comme les différentes catégories d'actifs produisent des rendements différents avec le temps, la répartition réelle d'un portefeuille non géré s'éloignera de sa cible initiale; une forte remontée soutenue des actions, comme celle évoquée dans le scénario ci-dessus, peut faire passer un portefeuille de 60/40 à 80/20 ou plus, uniquement à cause de la meilleure performance des actions par rapport aux obligations, sans aucune action délibérée de l'investisseur.
+
+Voici le « pourquoi » le rééquilibrage consiste systématiquement à vendre les gagnants relatifs et à acheter les retardataires relatifs : ramener un portefeuille de 80/20 à sa cible de 60/40 exige de vendre une partie des actions, maintenant surpondérées (le gagnant récent), et d'acheter plus d'obligations (le retardataire relatif récent), ce qui impose mécaniquement une discipline d'« acheter bas, vendre haut » sans exiger que l'investisseur prédise quel actif fera mieux ensuite. Cela peut être émotionnellement inconfortable, puisque cela veut dire réduire une catégorie d'actifs qui a bien performé et ajouter à une autre qui a pris du retard, mais cette discipline repose sur la gestion du risque, et non sur une prédiction que la tendance est sur le point de s'inverser.
+
+C'est pourquoi le rééquilibrage est fondamentalement une pratique de contrôle du risque plutôt qu'un pari sur le moment du marché : un portefeuille de 80/20 comporte nettement plus de risque que la répartition de 60/40 voulue au départ par l'investisseur, que les actions continuent de grimper ou qu'elles finissent par reculer, et le rééquilibrage existe pour garder le niveau de risque réel du portefeuille aligné sur la tolérance au risque voulue par l'investisseur, et non pour prédire la direction du marché à court terme.
+
+## Exemple pratique
+EXEMPLE ILLUSTRATIF : Un investisseur commence avec un portefeuille de 60/40 entre actions et obligations. Après plusieurs années de forte remontée des actions, la répartition a dérivé vers 82/18. Revenir à 60/40 exige de vendre une partie des actions (près de leurs récents sommets) et d'ajouter aux obligations (qui ont pris du retard). Si les actions baissent ensuite fortement, le portefeuille rééquilibré de 60/40 subit une perte globale plus petite que celle qu'aurait subie le portefeuille dérivé de 82/18, ce qui illustre comment la discipline a protégé le niveau de risque voulu par l'investisseur, peu importe le moment précis de la baisse qui a fini par arriver.
+
+## Questionnaire pratique
+**Q1. Que signifie rééquilibrer un portefeuille dans ce contexte?**
+A) Acheter seulement la catégorie d'actifs la plus performante
+B) Ramener périodiquement les placements d'un portefeuille à une répartition de l'actif cible fixée d'avance
+C) Vendre tout le portefeuille et passer à l'argent comptant pour de bon
+D) Ne plus du tout se soucier de la répartition d'un portefeuille une fois qu'elle est fixée
+
+**Q2. Pourquoi la répartition d'un portefeuille non géré s'éloigne-t-elle de sa cible initiale avec le temps?**
+A) La répartition d'un portefeuille ne change jamais une fois fixée
+B) Les différentes catégories d'actifs produisent des rendements différents avec le temps, ce qui fait que l'actif le plus performant finit par représenter une plus grande part du portefeuille total
+C) Le rééquilibrage se fait automatiquement, sans aucune action de l'investisseur
+D) La dérive de la répartition ne se produit que dans les portefeuilles composés uniquement d'obligations
+
+**Q3. Pourquoi le rééquilibrage consiste-t-il mécaniquement à vendre les gagnants récents et à acheter les retardataires relatifs récents?**
+A) Le rééquilibrage exige de deviner quel actif fera mieux ensuite
+B) Ramener un actif surpondéré à sa cible veut nécessairement dire en vendre une partie et ajouter à l'actif sous-pondéré
+C) Le rééquilibrage veut toujours dire vendre complètement l'actif le moins performant
+D) Ce modèle ne se produit que dans les portefeuilles d'obligations, pas dans les portefeuilles d'actions
+
+**Q4. Pourquoi le rééquilibrage est-il considéré comme une pratique de gestion du risque plutôt qu'un pari sur le moment du marché?**
+A) Il exige de prédire avec exactitude le prochain mouvement du marché
+B) Il existe pour garder le niveau de risque réel du portefeuille aligné sur la tolérance au risque voulue par l'investisseur, que la tendance se poursuive ou s'inverse
+C) Le rééquilibrage garantit des rendements plus élevés que l'absence de rééquilibrage
+D) La gestion du risque et le choix du moment du marché sont la même notion
+
+**Q5. Dans l'exemple, pourquoi le portefeuille rééquilibré de 60/40 a-t-il subi une perte plus petite que le portefeuille dérivé de 82/18 pendant la baisse des actions qui a suivi?**
+A) Le portefeuille rééquilibré avait une répartition en actions plus faible et donc moins d'exposition à la baisse des actions
+B) Le portefeuille dérivé n'avait aucune exposition aux actions
+C) Le rééquilibrage a éliminé complètement tout risque de placement du portefeuille
+D) Les deux portefeuilles avaient des répartitions identiques au moment de la baisse
+
+## Corrigé
+Q1: B
+Q2: B
+Q3: B
+Q4: B
+Q5: A
+
+## Réponses et explications
+**Q1.** Le rééquilibrage rétablit précisément la combinaison de catégories d'actifs initialement visée par un portefeuille.
+
+**Q2.** Les différences de performance entre les catégories d'actifs déplacent naturellement les proportions d'un portefeuille loin de ses cibles initiales, en l'absence de rééquilibrage délibéré.
+
+**Q3.** Rétablir les proportions cibles exige mathématiquement de réduire ce qui a grossi de façon disproportionnée et d'ajouter à ce qui a pris du retard, peu importe les attentes futures.
+
+**Q4.** Cette discipline se concentre sur le contrôle de l'exposition au risque du portefeuille par rapport à une cible fixée d'avance, et non sur la prévision de la direction du marché à court terme.
+
+**Q5.** En rétablissant une répartition en actions plus faible, le portefeuille rééquilibré avait proportionnellement moins d'exposition à la baisse boursière qui a suivi que le portefeuille dérivé, chargé en actions.
+
+## Points clés
+- Le rééquilibrage ramène un portefeuille à sa répartition de l'actif cible fixée d'avance après que la performance du marché l'a fait dériver.
+- Les portefeuilles non gérés dérivent naturellement, puisque les différentes catégories d'actifs produisent des rendements différents avec le temps.
+- Le rééquilibrage impose mécaniquement la vente des gagnants relatifs et l'achat des retardataires relatifs, sans exiger de prédictions du marché.
+- Cette discipline repose sur la gestion du niveau de risque réel du portefeuille, et non sur le choix du moment ou la prédiction de la direction future du marché.

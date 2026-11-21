@@ -1,0 +1,317 @@
+===== PURPLE-L4-029
+TITLE: Analyse internationaler Verträge: Warum Rechtswahl und Gerichtsstandsvereinbarung bestimmen, welche Regeln tatsächlich gelten
+SUMMARY: Erfahre, warum in grenzüberschreitenden Verträgen zuerst zu klären ist, welches Recht gilt und welches Gericht zuständig ist, wie die Rom-I-Verordnung und die Brüssel-Ia-Verordnung diese Fragen innerhalb der EU regeln, warum das UN-Kaufrecht oft unbemerkt anwendbar ist und warum Verbraucher besonders geschützt sind.
+KEYWORDS: Rechtswahl, Gerichtsstandsvereinbarung, Rom-I-Verordnung, UN-Kaufrecht, internationaler Vertrag
+# Analyse internationaler Verträge: Warum Rechtswahl und Gerichtsstandsvereinbarung bestimmen, welche Regeln tatsächlich gelten
+
+## Einstiegsszenario
+ANNAHME/MEINUNG (hypothetisches Szenario nur zu Lehrzwecken): Stell dir vor, eine weitreichende Störung der öffentlichen Gesundheit legt den weltweiten Schiffsverkehr und die Produktion über längere Zeit lahm und bringt die Lieferketten vieler Branchen gleichzeitig durcheinander. Während Unternehmen hektisch neue Lieferanten in anderen Ländern suchen, schließen sie Verträge per E-Mail, oft ohne eine Klausel dazu, welches Recht gilt und wo gestritten wird. Als die ersten Lieferungen ausbleiben, stellen beide Seiten fest, dass sie schon darüber streiten, ob ein deutsches, italienisches oder chinesisches Gericht zuständig ist – bevor sie überhaupt über die Sache selbst reden können. Diese Lektion untersucht, warum Rechtswahl und Gerichtsstand so entscheidend sind.
+
+## Lernziele
+- Erklären, warum bei grenzüberschreitenden Verträgen zuerst das anwendbare Recht und das zuständige Gericht zu klären sind.
+- Erklären, wie die Rom-I-Verordnung das anwendbare Recht bestimmt, mit und ohne Rechtswahl.
+- Erklären, warum das UN-Kaufrecht bei internationalen Warenkäufen oft unbemerkt gilt und wie es ausgeschlossen werden kann.
+- Erklären, warum Verbraucher bei Rechtswahl und Gerichtsstand besonders geschützt sind.
+
+## Hauptinhalt
+GEPRÜFTE TATSACHE: Nach Art. 3 der Rom-I-Verordnung unterliegt ein vertragliches Schuldverhältnis in der EU grundsätzlich dem von den Parteien gewählten Recht; haben die Parteien keine Wahl getroffen, bestimmt Art. 4 das anwendbare Recht, bei Kaufverträgen über bewegliche Sachen grundsätzlich das Recht des Staates, in dem der Verkäufer seinen gewöhnlichen Aufenthalt hat. Welches Gericht zuständig ist, regelt innerhalb der EU die Brüssel-Ia-Verordnung, die den Parteien ebenfalls erlaubt, einen Gerichtsstand zu vereinbaren (Art. 25).
+
+Hier das „Warum“, weshalb diese Fragen zuerst zu klären sind: Dieselbe Pflichtverletzung kann nach verschiedenen Rechtsordnungen ganz unterschiedliche Folgen haben – etwa bei Verjährung, Haftungsbegrenzung, Vertragsstrafen oder dem Recht, sich wegen Lieferverzögerungen vom Vertrag zu lösen. Ebenso wichtig ist, wo gestritten wird: Ein Prozess in einem fremden Land bedeutet eine fremde Sprache, ausländische Anwälte, ein unbekanntes Verfahren und oft deutlich höhere Kosten. Ohne klare Vereinbarung müssen die Gerichte das anwendbare Recht und ihre Zuständigkeit erst nach den gesetzlichen Regeln ermitteln, was Zeit kostet und für die Parteien schwer vorherzusehen ist. Eine klare Rechtswahl- und Gerichtsstandsklausel schafft dagegen von Anfang an Planungssicherheit.
+
+Deshalb ist auch das UN-Kaufrecht wichtig: Das Übereinkommen der Vereinten Nationen über Verträge über den internationalen Warenkauf (CISG) gilt in Deutschland und vielen anderen Staaten automatisch für Kaufverträge über Waren zwischen Unternehmen mit Niederlassung in verschiedenen Vertragsstaaten, und zwar als Teil des gewählten deutschen Rechts. Wer „deutsches Recht“ vereinbart, vereinbart damit häufig unbemerkt das UN-Kaufrecht, das in manchen Punkten vom BGB abweicht, etwa bei den Rügepflichten und den Voraussetzungen für eine Vertragsaufhebung. MEINUNG und eine unter Vertragsjuristen verbreitete Praxis, viele Unternehmen schließen das UN-Kaufrecht deshalb ausdrücklich aus, um beim vertrauten BGB und HGB zu bleiben, während andere es wegen seiner internationalen Bekanntheit bewusst beibehalten. Deshalb sind Verbraucher besonders geschützt, LÄNDERSPEZIFISCHE REGEL, die zwingenden Verbraucherschutzvorschriften und Zuständigkeitsregeln im Einzelfall prüfen: Schließt ein Unternehmen, das seine Tätigkeit auf das Land eines Verbrauchers ausrichtet, mit diesem einen Vertrag, darf eine Rechtswahl dem Verbraucher nicht den Schutz der zwingenden Vorschriften seines Aufenthaltsstaats entziehen (Art. 6 Rom-I-Verordnung), und der Verbraucher kann in der Regel nur in seinem eigenen Wohnsitzstaat verklagt werden; abweichende Gerichtsstandsvereinbarungen vor Entstehung der Streitigkeit sind ihm gegenüber weitgehend unwirksam. Außerhalb der EU gelten andere Regeln; dort kann die Vollstreckung eines Urteils schwierig sein, weshalb in internationalen Verträgen häufig Schiedsklauseln vereinbart werden (Lektion 17).
+
+## Durchgerechnetes Beispiel
+BEISPIEL ZUR VERANSCHAULICHUNG: Ein deutsches Unternehmen kauft während der Lieferkrise Bauteile bei einem italienischen Hersteller, ohne Rechtswahl oder Gerichtsstand zu vereinbaren. Als die Lieferung ausbleibt, gilt mangels Wahl grundsätzlich das Recht am Sitz des Verkäufers, also italienisches Recht, einschließlich des UN-Kaufrechts, und es entsteht Streit, ob das Unternehmen in Deutschland oder in Italien klagen muss. Bei einem zweiten Liefervertrag mit einem spanischen Hersteller hat das Unternehmen dagegen vereinbart: „Es gilt deutsches Recht unter Ausschluss des UN-Kaufrechts; ausschließlicher Gerichtsstand ist München.“ Als es auch hier zu Verzögerungen kommt, weiß das Unternehmen sofort, nach welchen Regeln sich seine Rechte richten und wo es klagen kann, und kann sich auf die eigentliche Sachfrage konzentrieren.
+
+## Übungsquiz
+**Q1. Welches Recht gilt nach der Rom-I-Verordnung für einen Vertrag?**
+A) Immer das Recht des Landes, in dem der Vertrag unterschrieben wurde
+B) Grundsätzlich das von den Parteien gewählte Recht; ohne Wahl bestimmt die Verordnung das Recht, bei Warenkäufen grundsätzlich das Recht am gewöhnlichen Aufenthalt des Verkäufers
+C) Immer das Recht des Käufers
+D) Kein bestimmtes Recht; die Gerichte entscheiden nach Belieben
+
+**Q2. Warum sollten anwendbares Recht und zuständiges Gericht zuerst geklärt werden?**
+A) Weil alle Rechtsordnungen genau gleiche Ergebnisse liefern
+B) Weil dieselbe Pflichtverletzung nach verschiedenen Rechtsordnungen unterschiedliche Folgen haben kann und ein Prozess im Ausland Sprache, Verfahren und Kosten erheblich verändert; eine klare Klausel schafft Planungssicherheit
+C) Weil Gerichte ohne Klausel grundsätzlich nicht entscheiden
+D) Weil die Frage nur für Verbraucher wichtig ist
+
+**Q3. Warum gilt das UN-Kaufrecht oft unbemerkt?**
+A) Weil es nur für Verträge zwischen Privatpersonen gilt
+B) Weil es für internationale Warenkäufe zwischen Unternehmen in Vertragsstaaten automatisch als Teil des gewählten Rechts gilt, sodass die Vereinbarung „deutsches Recht“ es häufig einschließt, sofern es nicht ausdrücklich ausgeschlossen wird
+C) Weil es nur nach einer Eintragung beim Handelsregister gilt
+D) Weil es nur für Dienstleistungen gilt
+
+**Q4. Warum sind Verbraucher bei Rechtswahl und Gerichtsstand besonders geschützt?**
+A) Weil Verbraucher keine Verträge mit ausländischen Unternehmen schließen dürfen
+B) Weil eine Rechtswahl ihnen nicht den Schutz der zwingenden Vorschriften ihres Aufenthaltsstaats entziehen darf und sie in der Regel nur in ihrem Wohnsitzstaat verklagt werden können
+C) Weil für Verbraucher immer das Recht des Unternehmens gilt
+D) Weil Verbraucher nie klagen dürfen
+
+**Q5. Warum konnte sich das Unternehmen im Beispiel beim zweiten Vertrag sofort auf die Sachfrage konzentrieren?**
+A) Weil spanische Hersteller nie verklagt werden können
+B) Weil es eine klare Rechtswahl unter Ausschluss des UN-Kaufrechts und einen ausschließlichen Gerichtsstand vereinbart hatte, sodass anwendbares Recht und Zuständigkeit von vornherein feststanden
+C) Weil beim ersten Vertrag deutsches Recht galt
+D) Weil Lieferverzögerungen rechtlich keine Rolle spielen
+
+## Lösungsschlüssel
+Q1: B
+Q2: B
+Q3: B
+Q4: B
+Q5: B
+
+## Antworten und Erklärungen
+**Q1.** Die freie Rechtswahl und die gesetzlichen Ersatzregeln ohne Wahl sind genau das, was die Rom-I-Verordnung für das anwendbare Recht vorsieht.
+
+**Q2.** Unterschiedliche Rechtsfolgen und die erheblichen Auswirkungen des Gerichtsorts sind genau der Grund, warum diese Fragen zuerst geklärt werden sollten.
+
+**Q3.** Die automatische Geltung als Teil des gewählten Rechts ist genau der Grund, warum das UN-Kaufrecht oft unbemerkt anwendbar ist, wenn es nicht ausgeschlossen wird.
+
+**Q4.** Der Schutz der zwingenden Vorschriften des Aufenthaltsstaats und der Verbrauchergerichtsstand sind genau die besonderen Sicherungen zugunsten von Verbrauchern.
+
+**Q5.** Dieser Gegensatz zwischen einem Vertrag ohne Klausel und einem Vertrag mit klarer Rechtswahl und Gerichtsstandsvereinbarung zeigt genau, warum diese Klauseln bestimmen, welche Regeln tatsächlich gelten.
+
+## Das Wichtigste in Kürze
+- In der EU können die Parteien das anwendbare Recht und einen Gerichtsstand grundsätzlich frei vereinbaren; ohne Wahl greifen gesetzliche Ersatzregeln.
+- Rechtswahl und Gerichtsstand bestimmen die Rechtsfolgen und die praktischen Bedingungen eines Streits und schaffen Planungssicherheit.
+- Das UN-Kaufrecht gilt bei internationalen Warenkäufen zwischen Unternehmen oft automatisch und muss bei Bedarf ausdrücklich ausgeschlossen werden.
+- Verbraucher behalten den Schutz ihres Aufenthaltsstaats und können in der Regel nur dort verklagt werden.
+
+===== PURPLE-L4-030
+TITLE: Analyse von Genehmigungs- und Erlaubnispflichten: Warum eine Tätigkeit ohne erforderliche Erlaubnis mehr Risiken birgt als ein einfaches Bußgeld
+SUMMARY: Erfahre, warum in Deutschland zwar fast jedes Gewerbe angezeigt werden muss, bestimmte Tätigkeiten aber zusätzlich eine Erlaubnis, eine Eintragung oder einen Qualifikationsnachweis verlangen, welche Folgen eine Tätigkeit ohne Erlaubnis haben kann – von Bußgeld und Untersagung bis zu Strafbarkeit und Abmahnungen – und warum man die Erlaubnispflicht vor dem Start klären sollte.
+KEYWORDS: Gewerbeanzeige, Erlaubnispflicht, Handwerksrolle, BaFin-Erlaubnis, Untersagung
+# Analyse von Genehmigungs- und Erlaubnispflichten: Warum eine Tätigkeit ohne erforderliche Erlaubnis mehr Risiken birgt als ein einfaches Bußgeld
+
+## Einstiegsszenario
+ANNAHME/MEINUNG (hypothetisches Szenario nur zu Lehrzwecken): Stell dir vor, die Immobilien- und Verbraucherkreditmärkte eines bevölkerungsreichen Landes zeigen nach Jahren schneller Expansion Anzeichen einer scharfen Korrektur, während die Kreditausfälle zu steigen beginnen. Während viele Menschen ihre Arbeit verlieren und sich selbstständig machen, bieten sie Dienstleistungen an, die sie gut beherrschen – als Immobilienvermittler, Finanzberater, Elektroinstallateur oder Kreditvermittler über das Internet. Manche gehen davon aus, eine einfache Gewerbeanmeldung genüge, und erfahren erst nach einer Abmahnung oder einem Schreiben der Behörde, dass ihre Tätigkeit eine besondere Erlaubnis verlangt. Diese Lektion untersucht, warum das mehr ist als ein Formfehler.
+
+## Lernziele
+- Erklären, warum die Gewerbeanzeige allein nicht genügt, wenn eine Tätigkeit erlaubnispflichtig ist.
+- Wichtige Beispiele erlaubnispflichtiger oder zulassungspflichtiger Tätigkeiten erkennen.
+- Die verschiedenen Folgen einer Tätigkeit ohne erforderliche Erlaubnis erklären.
+- Erklären, warum die Erlaubnispflicht vor dem Start einer Tätigkeit geklärt werden sollte.
+
+## Hauptinhalt
+GEPRÜFTE TATSACHE: Wer in Deutschland ein stehendes Gewerbe beginnt, muss dies nach § 14 der Gewerbeordnung der zuständigen Behörde anzeigen; bestimmte Tätigkeiten bedürfen darüber hinaus einer Erlaubnis, etwa die Vermittlung von Immobilien und Darlehen (§ 34c GewO), von Versicherungen (§ 34d GewO) oder von bestimmten Finanzanlagen (§ 34f GewO), und wer Bankgeschäfte gewerbsmäßig betreiben oder Finanzdienstleistungen erbringen will, braucht nach dem Kreditwesengesetz eine schriftliche Erlaubnis der BaFin.
+
+Hier das „Warum“, weshalb die Gewerbeanzeige allein nicht genügt: Die Gewerbeanzeige dient vor allem der Information der Behörden – etwa des Finanzamts und der Kammern – und ist grundsätzlich bei jedem Gewerbe möglich. Eine Erlaubnis verlangt der Gesetzgeber dagegen dort, wo eine Tätigkeit besondere Gefahren für Kunden oder die Allgemeinheit mit sich bringt und deshalb nur von zuverlässigen, sachkundigen und finanziell geordneten Personen ausgeübt werden soll. Je nach Tätigkeit wird deshalb geprüft, ob der Antragsteller zuverlässig ist, in geordneten Vermögensverhältnissen lebt, seine Sachkunde nachweisen kann und eine Berufshaftpflichtversicherung hat. Im Handwerk müssen Betriebe zulassungspflichtiger Handwerke, etwa des Elektrotechniker- oder Installateurhandwerks, in die Handwerksrolle eingetragen sein, was in der Regel einen Meistertitel oder eine gleichwertige Qualifikation voraussetzt.
+
+Deshalb hat eine Tätigkeit ohne erforderliche Erlaubnis Folgen, die weit über ein Bußgeld hinausgehen, LÄNDERSPEZIFISCHE REGEL, die für die konkrete Tätigkeit geltenden Vorschriften und Sanktionen prüfen: Die Behörde kann die Fortsetzung der Tätigkeit untersagen; je nach Bereich drohen Bußgelder, und das Betreiben von Bankgeschäften oder Finanzdienstleistungen ohne Erlaubnis ist sogar eine Straftat. Wettbewerber und Verbände können zudem wegen Rechtsbruchs nach dem Lauterkeitsrecht abmahnen und Unterlassung verlangen (Lektion 25). Hinzu kommen zivilrechtliche Risiken: Eine Berufshaftpflichtversicherung fehlt oder deckt den Schaden nicht, und in bestimmten Konstellationen – etwa bei Schwarzarbeit – können Vergütungsansprüche ganz entfallen. Wer ohne Erlaubnis Bankgeschäfte betreibt, muss außerdem damit rechnen, dass die BaFin die Abwicklung der Geschäfte anordnet. Deshalb sollte die Erlaubnispflicht vor dem Start geklärt werden, LÄNDERSPEZIFISCHE REGEL, die zuständigen Stellen wie Gewerbeamt, Industrie- und Handelskammer, Handwerkskammer oder BaFin frühzeitig befragen: Die Grenze zwischen erlaubnisfreier und erlaubnispflichtiger Tätigkeit ist oft fein – etwa zwischen allgemeiner Information über Geldanlagen und der Vermittlung konkreter Produkte oder zwischen erlaubten einfachen Tätigkeiten und wesentlichen Tätigkeiten eines zulassungspflichtigen Handwerks. Viele Kammern bieten dazu Beratung an. Auch digitale Geschäftsmodelle, etwa Plattformen, die Kredite oder Anlagen vermitteln, fallen häufig unter Erlaubnispflichten, obwohl ihre Gründer sich eher als Technologie- denn als Finanzunternehmen sehen.
+
+## Durchgerechnetes Beispiel
+BEISPIEL ZUR VERANSCHAULICHUNG: Zwei Gründer starten in der Krise jeweils eine Website, die Verbrauchern hilft, Kredite zu finden. Der erste meldet nur ein Gewerbe an und vermittelt gegen Provision konkrete Darlehen verschiedener Banken. Nach einigen Monaten erhält er eine Abmahnung eines Wettbewerbers wegen fehlender Erlaubnis nach § 34c GewO, die Behörde untersagt die weitere Vermittlung, und er muss die Kosten der Abmahnung tragen; einige Provisionsforderungen sind zudem streitig. Der zweite lässt sich vor dem Start von der Industrie- und Handelskammer beraten, beantragt die erforderliche Erlaubnis, weist seine Zuverlässigkeit und geordneten Vermögensverhältnisse nach und schließt eine Berufshaftpflichtversicherung ab. Er kann sein Geschäft ohne Unterbrechung aufbauen und mit seiner Erlaubnis sogar gegenüber Banken und Kunden werben.
+
+## Übungsquiz
+**Q1. Warum genügt eine Gewerbeanzeige nicht für jede Tätigkeit?**
+A) Weil Gewerbeanzeigen in Deutschland abgeschafft wurden
+B) Weil die Anzeige vor allem der Information der Behörden dient, während bestimmte Tätigkeiten wegen besonderer Gefahren für Kunden zusätzlich eine Erlaubnis, eine Eintragung oder einen Qualifikationsnachweis verlangen
+C) Weil jede Tätigkeit eine BaFin-Erlaubnis braucht
+D) Weil nur Großunternehmen ein Gewerbe anzeigen dürfen
+
+**Q2. Welche Tätigkeiten sind beispielsweise erlaubnis- oder zulassungspflichtig?**
+A) Nur der Verkauf von Lebensmitteln
+B) Etwa die Vermittlung von Immobilien, Darlehen, Versicherungen und Finanzanlagen, Bankgeschäfte und Finanzdienstleistungen sowie zulassungspflichtige Handwerke wie das Elektrotechnikerhandwerk
+C) Keine; alle Tätigkeiten sind erlaubnisfrei
+D) Nur Tätigkeiten im Ausland
+
+**Q3. Welche Folgen kann eine Tätigkeit ohne erforderliche Erlaubnis haben?**
+A) Ausschließlich ein geringes Bußgeld
+B) Untersagung der Tätigkeit, Bußgelder, im Bank- und Finanzbereich sogar Strafbarkeit, Abmahnungen wegen Rechtsbruchs sowie zivilrechtliche Risiken etwa beim Versicherungsschutz oder bei Vergütungsansprüchen
+C) Keine, solange die Kunden zufrieden sind
+D) Nur ein Hinweisschreiben ohne Rechtsfolgen
+
+**Q4. Warum sollte die Erlaubnispflicht vor dem Start geklärt werden?**
+A) Weil Erlaubnisse nur rückwirkend erteilt werden
+B) Weil die Grenze zwischen erlaubnisfreier und erlaubnispflichtiger Tätigkeit oft fein ist und auch digitale Geschäftsmodelle häufig erfasst sind; Kammern und Behörden können vorher beraten
+C) Weil Erlaubnisse jederzeit ohne Prüfung erteilt werden
+D) Weil die Frage nur für Handwerker gilt
+
+**Q5. Warum konnte im Beispiel der zweite Gründer sein Geschäft ohne Unterbrechung aufbauen?**
+A) Weil seine Website schöner war
+B) Weil er sich vor dem Start beraten ließ, die erforderliche Erlaubnis mit den nötigen Nachweisen beantragte und eine Berufshaftpflichtversicherung abschloss, während der erste nur ein Gewerbe anmeldete
+C) Weil Kreditvermittlung keine Erlaubnis verlangt
+D) Weil Wettbewerber nie abmahnen dürfen
+
+## Lösungsschlüssel
+Q1: B
+Q2: B
+Q3: B
+Q4: B
+Q5: B
+
+## Antworten und Erklärungen
+**Q1.** Der Unterschied zwischen bloßer Information der Behörden und einer Prüfung bei besonders gefahrgeneigten Tätigkeiten ist genau der Grund, warum die Gewerbeanzeige nicht immer genügt.
+
+**Q2.** Vermittlertätigkeiten, Bank- und Finanzgeschäfte und zulassungspflichtige Handwerke sind genau typische Beispiele für Erlaubnis- und Zulassungspflichten.
+
+**Q3.** Untersagung, Bußgeld, Strafbarkeit, Abmahnungen und zivilrechtliche Risiken zeigen genau, warum fehlende Erlaubnisse mehr als ein Formfehler sind.
+
+**Q4.** Die feine Abgrenzung und die Erfassung auch digitaler Modelle sind genau der Grund, die Erlaubnispflicht frühzeitig zu klären.
+
+**Q5.** Dieser Gegensatz zwischen vorheriger Klärung mit Erlaubnis und bloßer Gewerbeanmeldung zeigt genau, wie man die Risiken einer erlaubnispflichtigen Tätigkeit vermeidet.
+
+## Das Wichtigste in Kürze
+- Fast jedes Gewerbe muss angezeigt werden, doch bestimmte Tätigkeiten verlangen zusätzlich eine Erlaubnis, eine Eintragung oder einen Qualifikationsnachweis.
+- Erlaubnispflichtig sind etwa Immobilien-, Darlehens-, Versicherungs- und Finanzanlagenvermittlung, Bankgeschäfte und zulassungspflichtige Handwerke.
+- Ohne Erlaubnis drohen Untersagung, Bußgelder, teils Strafbarkeit, Abmahnungen und zivilrechtliche Nachteile.
+- Die Erlaubnispflicht sollte vor dem Start mit Behörden oder Kammern geklärt werden, gerade bei digitalen Geschäftsmodellen.
+
+===== PURPLE-L4-031
+TITLE: Analyse von Markenverletzungen: Warum die Verwechslungsgefahr die zentrale Rechtsfrage ist
+SUMMARY: Erfahre, wann die Benutzung eines Zeichens eine fremde Marke verletzt, warum die Verwechslungsgefahr aus dem Zusammenspiel von Zeichenähnlichkeit, Waren- und Dienstleistungsähnlichkeit und Kennzeichnungskraft beurteilt wird, warum bekannte Marken weitergehend geschützt sind und warum eine Markenrecherche vor der Namenswahl Kosten spart.
+KEYWORDS: Markenverletzung, Verwechslungsgefahr, Zeichenähnlichkeit, Kennzeichnungskraft, Markenrecherche
+# Analyse von Markenverletzungen: Warum die Verwechslungsgefahr die zentrale Rechtsfrage ist
+
+## Einstiegsszenario
+ANNAHME/MEINUNG (hypothetisches Szenario nur zu Lehrzwecken): Stell dir vor, eine Zentralbank erhöht ihren Leitzins innerhalb weniger Monate kräftig und wiederholt, um die steigende Inflation zu bekämpfen. Während etablierte Unternehmen sparen, gründen viele Menschen kleine Online-Shops und wählen eingängige Namen, oft angelehnt an bekannte Marken, um schneller Aufmerksamkeit zu gewinnen. Einige erhalten kurz darauf eine Abmahnung mit der Aufforderung, ihren Namen aufzugeben und Schadensersatz zu zahlen, obwohl ihr Name nicht identisch mit der fremden Marke ist. Diese Lektion untersucht, warum es nicht auf Identität, sondern auf Verwechslungsgefahr ankommt.
+
+## Lernziele
+- Erklären, wann die Benutzung eines Zeichens eine fremde Marke verletzt.
+- Erklären, wie die Verwechslungsgefahr aus dem Zusammenspiel von Zeichenähnlichkeit, Waren- und Dienstleistungsähnlichkeit und Kennzeichnungskraft beurteilt wird.
+- Erklären, warum bekannte Marken über die Verwechslungsgefahr hinaus geschützt sind.
+- Erklären, welche Ansprüche dem Markeninhaber zustehen und warum eine Markenrecherche vor der Namenswahl sinnvoll ist.
+
+## Hauptinhalt
+GEPRÜFTE TATSACHE: Nach § 14 Abs. 2 des Markengesetzes ist es Dritten untersagt, ohne Zustimmung des Inhabers im geschäftlichen Verkehr ein mit der Marke identisches Zeichen für identische Waren oder Dienstleistungen zu benutzen, ein Zeichen zu benutzen, bei dem wegen der Identität oder Ähnlichkeit mit der Marke und der Identität oder Ähnlichkeit der Waren oder Dienstleistungen für das Publikum die Gefahr von Verwechslungen besteht, oder ein Zeichen zu benutzen, das die Unterscheidungskraft oder Wertschätzung einer im Inland bekannten Marke ohne rechtfertigenden Grund in unlauterer Weise ausnutzt oder beeinträchtigt. Für die Unionsmarke enthält die Unionsmarkenverordnung entsprechende Regeln.
+
+Hier das „Warum“, weshalb die Verwechslungsgefahr die zentrale Frage ist: Eine Marke soll den Kunden zeigen, aus welchem Unternehmen eine Ware oder Dienstleistung stammt. Diese Herkunftsfunktion ist nicht nur durch identische Kopien gefährdet, sondern auch durch ähnliche Zeichen, die Kunden glauben lassen, das Produkt stamme vom Markeninhaber oder von einem mit ihm verbundenen Unternehmen. Die Verwechslungsgefahr wird deshalb in einer Gesamtbetrachtung beurteilt, bei der drei Faktoren zusammenwirken: die Ähnlichkeit der Zeichen in Klang, Schriftbild und Bedeutung, die Ähnlichkeit der Waren oder Dienstleistungen und die Kennzeichnungskraft der älteren Marke. Diese Faktoren stehen in Wechselwirkung: Eine sehr hohe Ähnlichkeit der Waren kann eine geringere Ähnlichkeit der Zeichen ausgleichen und umgekehrt, und eine Marke mit hoher Kennzeichnungskraft genießt einen weiteren Schutzbereich als eine schwache, beschreibende Marke. Maßgeblich ist die Sicht des durchschnittlich informierten, aufmerksamen und verständigen Durchschnittsverbrauchers, der die Zeichen meist nicht nebeneinander sieht, sondern aus der Erinnerung vergleicht.
+
+Deshalb sind bekannte Marken weitergehend geschützt: MEINUNG und eine in der Markenrechtspraxis verbreitete Einschätzung, bei bekannten Marken liegt die eigentliche Gefahr oft nicht in Verwechslungen, sondern darin, dass sich ein Dritter an das gute Image anhängt oder die Marke verwässert – deshalb schützt das Gesetz sie auch für unähnliche Waren gegen unlautere Ausnutzung oder Beeinträchtigung. Deshalb stehen dem Markeninhaber weitreichende Ansprüche zu, LÄNDERSPEZIFISCHE REGEL, die Ansprüche und Verfahren im Einzelfall prüfen: Er kann Unterlassung verlangen, bei schuldhafter Verletzung Schadensersatz, der häufig nach einer angemessenen Lizenzgebühr berechnet wird, sowie Auskunft, Vernichtung rechtsverletzender Waren und Rückruf. Meist beginnt dies mit einer Abmahnung, und eine einstweilige Verfügung kann schnell ergehen. Wer einen Namen erst nach Aufbau eines Kundenstamms aufgeben muss, verliert zusätzlich Werbeaufwand, Domain und Bekanntheit. Eine Markenrecherche in den Registern des Deutschen Patent- und Markenamts, des Amts der Europäischen Union für geistiges Eigentum und gegebenenfalls internationaler Register vor der Namenswahl ist deshalb vergleichsweise günstig, und die Anmeldung einer eigenen Marke sichert den gewählten Namen.
+
+## Durchgerechnetes Beispiel
+BEISPIEL ZUR VERANSCHAULICHUNG: Eine Gründerin eröffnet einen Online-Shop für Sportschuhe unter dem Namen „Adiras“, ohne vorher zu recherchieren. Sie hält das für unbedenklich, weil der Name nicht identisch mit einer bekannten Sportmarke ist. Der Markeninhaber mahnt sie ab: Die Zeichen sind sich in Klang und Schriftbild ähnlich, die Waren sind identisch, und seine Marke hat eine sehr hohe Kennzeichnungskraft – in dieser Wechselwirkung besteht Verwechslungsgefahr, zudem nutzt der Name den Ruf der bekannten Marke aus. Sie muss den Namen aufgeben, eine Unterlassungserklärung abgeben und Schadensersatz sowie die Abmahnkosten zahlen. Ein anderer Gründer, der vor dem Start recherchiert, einen klar unterscheidbaren Fantasienamen wählt und ihn als Marke anmeldet, kann seinen Namen dagegen ungestört aufbauen und selbst gegen Nachahmer vorgehen.
+
+## Übungsquiz
+**Q1. Wann verletzt die Benutzung eines Zeichens eine fremde Marke?**
+A) Nur wenn das Zeichen völlig identisch mit der Marke ist
+B) Bei Identität von Zeichen und Waren, bei Verwechslungsgefahr wegen Identität oder Ähnlichkeit von Zeichen und Waren oder bei unlauterer Ausnutzung oder Beeinträchtigung einer bekannten Marke
+C) Niemals, solange der Benutzer gutgläubig ist
+D) Nur wenn die Marke im Ausland eingetragen ist
+
+**Q2. Wie wird die Verwechslungsgefahr beurteilt?**
+A) Allein danach, ob die Zeichen gleich viele Buchstaben haben
+B) In einer Gesamtbetrachtung von Zeichenähnlichkeit, Waren- und Dienstleistungsähnlichkeit und Kennzeichnungskraft der älteren Marke, die in Wechselwirkung stehen, aus Sicht des Durchschnittsverbrauchers
+C) Allein nach der Meinung des Markeninhabers
+D) Allein anhand der Farbe der Zeichen
+
+**Q3. Warum sind bekannte Marken weitergehend geschützt?**
+A) Weil bekannte Marken nur für identische Waren geschützt sind
+B) Weil bei ihnen die Gefahr auch darin liegt, dass Dritte sich an das Image anhängen oder die Marke verwässern; das Gesetz schützt sie deshalb auch für unähnliche Waren gegen unlautere Ausnutzung oder Beeinträchtigung
+
+**Q4. Welche Ansprüche hat der Markeninhaber bei einer Verletzung?**
+A) Keine, wenn der Verletzer den Namen schon benutzt
+B) Unterlassung, bei Verschulden Schadensersatz etwa nach Lizenzanalogie, Auskunft, Vernichtung und Rückruf, meist durchgesetzt per Abmahnung und gegebenenfalls einstweiliger Verfügung
+C) Nur eine Entschuldigung
+D) Nur die Löschung der eigenen Marke
+
+**Q5. Warum musste die Gründerin im Beispiel ihren Namen aufgeben?**
+A) Weil sie keine Rechnung ausstellte
+B) Weil ihr Zeichen in Klang und Schriftbild ähnlich war, für identische Waren benutzt wurde und die ältere Marke eine sehr hohe Kennzeichnungskraft hatte, sodass Verwechslungsgefahr bestand und zudem der Ruf der bekannten Marke ausgenutzt wurde
+C) Weil Sportschuhe nicht online verkauft werden dürfen
+D) Weil ihr Name zu lang war
+
+## Lösungsschlüssel
+Q1: B
+Q2: B
+Q3: B
+Q4: B
+Q5: B
+
+## Antworten und Erklärungen
+**Q1.** Doppelidentität, Verwechslungsgefahr und der erweiterte Schutz bekannter Marken sind genau die drei Verletzungstatbestände nach § 14 Abs. 2 MarkenG.
+
+**Q2.** Diese Gesamtbetrachtung der drei in Wechselwirkung stehenden Faktoren ist genau der Maßstab für die Verwechslungsgefahr.
+
+**Q3.** Der Schutz vor Rufausbeutung und Verwässerung auch bei unähnlichen Waren ist genau der Grund für den weiteren Schutz bekannter Marken.
+
+**Q4.** Unterlassung, Schadensersatz, Auskunft, Vernichtung und Rückruf sind genau die Ansprüche, die dem Markeninhaber zustehen.
+
+**Q5.** Diese Wechselwirkung aus ähnlichen Zeichen, identischen Waren und hoher Kennzeichnungskraft zeigt genau, warum die Verwechslungsgefahr und nicht die Identität entscheidet.
+
+## Das Wichtigste in Kürze
+- Eine Markenverletzung erfordert keine identische Kopie; entscheidend ist meist die Verwechslungsgefahr.
+- Die Verwechslungsgefahr ergibt sich aus der Wechselwirkung von Zeichenähnlichkeit, Warenähnlichkeit und Kennzeichnungskraft.
+- Bekannte Marken sind zusätzlich gegen unlautere Ausnutzung und Beeinträchtigung geschützt, auch bei unähnlichen Waren.
+- Verletzern drohen Unterlassung, Schadensersatz und der Verlust des aufgebauten Namens; eine Recherche vor der Namenswahl ist günstig.
+
+===== PURPLE-L4-032
+TITLE: Analyse der urheberrechtlichen Schranken: Warum es in Deutschland kein offenes „Fair Use“ gibt, sondern gesetzlich bestimmte Ausnahmen
+SUMMARY: Erfahre, warum das deutsche Urheberrecht anders als das US-amerikanische keine offene Fair-Use-Abwägung kennt, sondern einzeln geregelte Schranken wie Zitatrecht, Parodie und Pastiche, Privatkopie und Text- und Data-Mining, welche Voraussetzungen etwa ein zulässiges Zitat hat und warum die Nutzung fremder Werke außerhalb dieser Schranken eine Lizenz verlangt.
+KEYWORDS: Urheberrecht, Schranken, Zitatrecht, Pastiche, Fair Use
+# Analyse der urheberrechtlichen Schranken: Warum es in Deutschland kein offenes „Fair Use“ gibt, sondern gesetzlich bestimmte Ausnahmen
+
+## Einstiegsszenario
+ANNAHME/MEINUNG (hypothetisches Szenario nur zu Lehrzwecken): Stell dir vor, eine weitreichende Störung der öffentlichen Gesundheit legt den weltweiten Schiffsverkehr und die Produktion über längere Zeit lahm und bringt die Lieferketten vieler Branchen gleichzeitig durcheinander. Während viele Menschen zu Hause bleiben, entstehen unzählige neue Blogs, Videos und Online-Kurse, in denen fremde Fotos, Musik und Textausschnitte verwendet werden. Viele Ersteller berufen sich auf „Fair Use“, das sie aus amerikanischen Videos kennen, und erhalten dann Abmahnungen von Rechteinhabern. Diese Lektion untersucht, warum diese Berufung in Deutschland meist ins Leere geht.
+
+## Lernziele
+- Erklären, warum das deutsche Urheberrecht keine offene Fair-Use-Abwägung kennt, sondern einzeln geregelte Schranken.
+- Wichtige gesetzliche Schranken erkennen, etwa Zitatrecht, Parodie und Pastiche, Privatkopie und Text- und Data-Mining.
+- Die Voraussetzungen eines zulässigen Zitats erklären.
+- Erklären, warum die Nutzung fremder Werke außerhalb dieser Schranken in der Regel eine Lizenz verlangt.
+
+## Hauptinhalt
+Im US-amerikanischen Recht ist die Nutzung eines geschützten Werks ohne Erlaubnis zulässig, wenn sie nach einer offenen Abwägung von vier Faktoren – Zweck und Charakter der Nutzung, Art des Werks, Umfang des übernommenen Teils und Auswirkung auf den Markt – als „fair use“ gilt. GEPRÜFTE TATSACHE: Das deutsche Urheberrechtsgesetz kennt keine solche offene Generalklausel; erlaubnisfreie Nutzungen sind nur im Rahmen der im Gesetz einzeln geregelten Schranken (§§ 44a ff. UrhG) zulässig, die nach europäischem Recht abschließend sind und eng an den sogenannten Dreistufentest gebunden sind.
+
+Hier das „Warum“, weshalb das europäische Recht auf einzelne Schranken setzt: Das Urheberrecht schützt die wirtschaftlichen und persönlichen Interessen der Urheber. Ausnahmen sollen für bestimmte, klar umschriebene Zwecke gelten – etwa für Meinungsfreiheit, Bildung, Wissenschaft oder privaten Gebrauch –, die normale Verwertung des Werks nicht beeinträchtigen und die berechtigten Interessen des Urhebers nicht unzumutbar verletzen. Statt diese Abwägung jedes Mal offen vorzunehmen, legt der Gesetzgeber vorab fest, welche Nutzungen erlaubt sind und unter welchen Bedingungen; für manche Schranken erhalten die Urheber über Verwertungsgesellschaften eine Vergütung. Das schafft mehr Vorhersehbarkeit, lässt aber weniger Spielraum für Nutzungen, die in keine Schranke passen.
+
+Deshalb sind die einzelnen Schranken genau zu prüfen: Das Zitatrecht (§ 51 UrhG) erlaubt die Übernahme eines veröffentlichten Werks, wenn die Nutzung durch den besonderen Zweck gerechtfertigt ist – typischerweise, wenn man sich mit dem zitierten Werk inhaltlich auseinandersetzt, es also als Beleg oder Erörterungsgrundlage für eigene Ausführungen dient – und der Umfang dem Zweck entspricht; die Quelle ist deutlich anzugeben, und das Werk darf grundsätzlich nicht verändert werden. Ein fremdes Foto nur als Dekoration oder Blickfang zu verwenden, ist dagegen kein Zitat. Seit 2021 erlaubt § 51a UrhG die Nutzung zum Zweck der Karikatur, der Parodie und des Pastiches, etwa für Memes oder Remixe, wobei die Reichweite des Begriffs Pastiche noch durch die Rechtsprechung geklärt wird. Daneben gibt es unter anderem die Privatkopie für den rein privaten Gebrauch, Schranken für Unterricht und Forschung und die Erlaubnis für Text- und Data-Mining, der Rechteinhaber bei kommerziellen Zwecken durch einen maschinenlesbaren Vorbehalt widersprechen können. MEINUNG und eine unter Urheberrechtlern verbreitete Einschätzung, gerade bei Social-Media-Inhalten und Online-Kursen wird die Reichweite dieser Schranken in der Praxis häufig überschätzt. Deshalb verlangt die Nutzung außerhalb der Schranken in der Regel eine Lizenz, LÄNDERSPEZIFISCHE REGEL, die einschlägigen Schranken, Lizenzbedingungen und die aktuelle Rechtsprechung prüfen: Wer ohne Erlaubnis Fotos, Musik oder Texte nutzt, riskiert Abmahnungen, Unterlassungsansprüche und Schadensersatz, der häufig nach einer üblichen Lizenzgebühr berechnet wird – bei Fotos können schon wenige Bilder zu spürbaren Beträgen führen. Rechtssicher sind eigene Inhalte, ausdrücklich lizenzierte Werke, etwa unter Creative-Commons-Lizenzen mit korrekter Namensnennung, oder Inhalte, deren Schutzfrist abgelaufen ist.
+
+## Durchgerechnetes Beispiel
+BEISPIEL ZUR VERANSCHAULICHUNG: Zwei Personen erstellen jeweils einen Blogbeitrag über die Fotografie eines bekannten Fotografen. Die erste verwendet zehn seiner Fotos großformatig als Bebilderung ihres Beitrags über Reiseziele, ohne sich mit den Bildern selbst auseinanderzusetzen, und schreibt nur „Foto: Internet“ darunter; sie beruft sich auf „Fair Use“. Der Rechteinhaber mahnt ab und verlangt Lizenzgebühren als Schadensersatz, weil weder ein Zitat noch eine andere Schranke vorliegt. Die zweite schreibt eine kritische Analyse der Bildsprache des Fotografen und zeigt dafür zwei kleine Ausschnitte, die sie im Text ausführlich bespricht, mit genauer Quellenangabe. Ihre Nutzung ist als Zitat zulässig, weil die Bilder als Grundlage ihrer eigenen Auseinandersetzung dienen und der Umfang dem Zweck entspricht.
+
+## Übungsquiz
+**Q1. Wie unterscheidet sich das deutsche Urheberrecht vom US-amerikanischen „Fair Use“?**
+A) Es gibt keinen Unterschied; beide kennen eine offene Abwägung
+B) Das deutsche Recht kennt keine offene Fair-Use-Abwägung, sondern nur einzeln geregelte, abschließende Schranken
+C) Das deutsche Recht erlaubt jede Nutzung zu nichtkommerziellen Zwecken
+D) Das deutsche Recht kennt überhaupt keine Ausnahmen
+
+**Q2. Warum setzt das europäische Recht auf einzeln geregelte Schranken?**
+A) Weil Urheber keine Interessen haben
+B) Weil Ausnahmen nur für klar umschriebene Zwecke gelten sollen, die normale Verwertung nicht beeinträchtigen und die Interessen der Urheber nicht unzumutbar verletzen; der Gesetzgeber legt dies vorab fest, was Vorhersehbarkeit schafft
+C) Weil Gerichte keine Abwägungen vornehmen dürfen
+D) Weil es im europäischen Recht keine Verwertungsgesellschaften gibt
+
+**Q3. Welche Voraussetzungen hat ein zulässiges Zitat?**
+A) Jede Übernahme ist ein Zitat, solange die Quelle irgendwo erwähnt wird
+B) Die Nutzung muss durch den besonderen Zweck gerechtfertigt sein, typischerweise als Beleg oder Grundlage einer eigenen inhaltlichen Auseinandersetzung, im angemessenen Umfang, mit deutlicher Quellenangabe und grundsätzlich ohne Veränderung
+C) Ein Zitat ist nur bei Texten möglich, nie bei Bildern
+D) Ein Zitat erfordert immer die Zustimmung des Urhebers
+
+**Q4. Welche weiteren Schranken kennt das deutsche Urheberrecht unter anderem?**
+A) Keine weiteren
+B) Etwa Karikatur, Parodie und Pastiche, die Privatkopie, Schranken für Unterricht und Forschung sowie das Text- und Data-Mining
+C) Nur die Nutzung durch Behörden
+D) Eine unbegrenzte Erlaubnis für soziale Netzwerke
+
+**Q5. Warum war im Beispiel nur die Nutzung der zweiten Person zulässig?**
+A) Weil die zweite Person bekannter war
+B) Weil die zweite die Bildausschnitte als Grundlage ihrer eigenen kritischen Auseinandersetzung in angemessenem Umfang mit Quellenangabe nutzte, während die erste die Fotos nur als Bebilderung ohne Auseinandersetzung verwendete, was keine Schranke deckt
+C) Weil „Fair Use“ in Deutschland nur für Reiseblogs gilt
+D) Weil die erste Person zu wenige Fotos verwendete
+
+## Lösungsschlüssel
+Q1: B
+Q2: B
+Q3: B
+Q4: B
+Q5: B
+
+## Antworten und Erklärungen
+**Q1.** Das Fehlen einer offenen Generalklausel und die abschließend geregelten Schranken sind genau der grundlegende Unterschied zum US-amerikanischen Fair Use.
+
+**Q2.** Klar umschriebene Zwecke im Rahmen des Dreistufentests und die dadurch gewonnene Vorhersehbarkeit sind genau der Grund für das System einzelner Schranken.
+
+**Q3.** Zitatzweck, angemessener Umfang, Quellenangabe und Änderungsverbot sind genau die Voraussetzungen eines zulässigen Zitats.
+
+**Q4.** Karikatur, Parodie und Pastiche, Privatkopie, Unterricht und Forschung sowie Text- und Data-Mining sind genau wichtige weitere Schranken.
+
+**Q5.** Dieser Gegensatz zwischen bloßer Bebilderung und echter Auseinandersetzung zeigt genau, warum es auf die Voraussetzungen der jeweiligen Schranke und nicht auf ein allgemeines Fairness-Gefühl ankommt.
+
+## Das Wichtigste in Kürze
+- Das deutsche Urheberrecht kennt kein offenes „Fair Use“, sondern nur einzeln geregelte, abschließende Schranken.
+- Wichtige Schranken sind das Zitatrecht, Karikatur, Parodie und Pastiche, die Privatkopie, Bildung und Forschung sowie das Text- und Data-Mining.
+- Ein Zitat setzt eine inhaltliche Auseinandersetzung, angemessenen Umfang und eine deutliche Quellenangabe voraus; bloße Dekoration genügt nicht.
+- Außerhalb der Schranken ist in der Regel eine Lizenz nötig; sonst drohen Abmahnung, Unterlassung und Schadensersatz.

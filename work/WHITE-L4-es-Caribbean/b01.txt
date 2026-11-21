@@ -1,0 +1,399 @@
+===== WHITE-L4-001
+TITLE: Análisis de la razón precio-ganancia: por qué un múltiplo bajo no es automáticamente barato
+SUMMARY: Conozca lo que mide la razón precio-ganancia, por qué una razón baja puede reflejar riesgo en vez de una ganga, y cómo evitar la trampa de valor.
+KEYWORDS: razón precio-ganancia, P/E, valoración de acciones, trampa de valor
+# Análisis de la razón precio-ganancia: por qué un múltiplo bajo no es automáticamente barato
+
+## Escenario inicial
+SUPUESTO/OPINIÓN (escenario hipotético solo con fines educativos): Imagine una gran región productora de energía golpeada por un conflicto regional repentino que deja fuera de servicio, de un día para otro, una gran parte de su capacidad de producción, lo que aprieta la oferta mundial de energía casi sin aviso. Un alza fuerte en los costos de energía aprieta los márgenes de ganancia de muchas industrias a la vez, y después, algunas acciones que antes eran populares de repente se cotizan a razones precio-ganancia mucho más bajas que antes. ¿Eso las convierte automáticamente en una ganga? El "porqué" de esta lección contesta esa pregunta.
+
+## Objetivos de aprendizaje
+- Explicar lo que mide una razón precio-ganancia.
+- Explicar por qué una razón precio-ganancia baja puede reflejar riesgo en vez de una ganga.
+- Distinguir entre una verdadera oportunidad de valor y una trampa de valor.
+- Comparar las razones precio-ganancia de forma adecuada dentro de un mismo sector.
+
+## Contenido principal
+La razón precio-ganancia (P/E, por sus siglas en inglés) es el precio de la acción de una compañía dividido entre su ganancia por acción, y muestra cuánto pagan los inversionistas por cada dólar de ganancia actual. DATO VERIFICADO: la razón precio-ganancia es una de las medidas de valoración más usadas, pero, igual que la tasa de capitalización en bienes raíces, es un número que fija el mercado y que refleja lo que esperan los inversionistas del futuro, no solo una simple etiqueta de precio.
+
+Aquí está el "porqué" una razón precio-ganancia baja no es automáticamente barata: una razón baja a menudo refleja la creencia del mercado de que es poco probable que las ganancias de una compañía crezcan, o incluso de que probablemente se achiquen, quizás por una industria con problemas, una posición competitiva débil o el tipo de choque de costos que aprieta los márgenes que se describe en el escenario de arriba. A esto se le llama una "trampa de valor": una acción que se ve barata según las estadísticas pero que sigue barata, o se pone más barata, porque las expectativas negativas del mercado resultan justificadas.
+
+Por eso, comparar razones precio-ganancia solo tiene sentido dentro de un mismo sector y frente al propio rango histórico de la compañía, igual que el principio de comparar mercados similares del análisis de la tasa de capitalización en bienes raíces. Una razón baja en una industria cíclica y que requiere mucho capital, que enfrenta vientos en contra reales, no da la misma señal que una razón igual de baja en una compañía fuerte que está temporalmente fuera de moda por razones que no tienen que ver con su capacidad de fondo para generar ganancias.
+
+## Ejemplo práctico
+EJEMPLO ILUSTRATIVO: La compañía A se cotiza a una razón precio-ganancia de 8, mientras que sus competidoras de la industria tienen una razón promedio de 18. Un inversionista tentado a comprar la compañía A solo porque se ve barata descubre, al analizarla más a fondo, que las ganancias de la compañía A han bajado tres años seguidos y que su línea principal de productos está perdiendo participación en el mercado: la razón baja refleja un pesimismo real y justificado sobre las ganancias futuras, no una ganga que nadie había visto.
+
+## Prueba práctica
+**Q1. ¿Qué mide la razón precio-ganancia?**
+A) La deuda total de una compañía en relación con su capital
+B) El precio de la acción dividido entre la ganancia por acción
+C) El rendimiento por dividendos en relación con el precio de la acción
+D) El ingreso total dividido entre el número de empleados
+
+**Q2. ¿Por qué una razón precio-ganancia baja puede ser una señal de alerta en vez de una ganga?**
+A) Las razones bajas siempre son una señal de un crecimiento futuro fuerte
+B) Puede reflejar que el mercado espera que las ganancias bajen o se estanquen
+C) Las razones precio-ganancia no tienen relación con las expectativas de ganancias
+D) Una razón baja siempre significa que la compañía no tiene deuda
+
+**Q3. ¿Qué es una "trampa de valor"?**
+A) Una acción barata según las estadísticas que también es una verdadera ganga
+B) Una acción que se ve barata según las medidas tradicionales, pero que sigue barata o empeora porque el pesimismo del mercado está justificado
+C) Un tipo de cuenta de retiro
+D) Una estrategia contributiva para realizar pérdidas de capital
+
+**Q4. ¿Por qué las razones precio-ganancia deben compararse dentro de un mismo sector y no en todo el mercado?**
+A) Los distintos sectores tienen tasas de crecimiento y perfiles de riesgo típicos distintos, lo que afecta los niveles típicos de la razón
+B) Las razones precio-ganancia son idénticas en todos los sectores, por definición
+C) Las comparaciones por sector solo importan en los bonos, no en las acciones
+D) Las razones precio-ganancia no se pueden comparar en absoluto
+
+**Q5. En el escenario, ¿por qué un choque de costos, como un alza repentina en los precios de la energía, podría bajar la razón precio-ganancia de una compañía sin convertirla en una ganga?**
+A) Los costos de energía nunca afectan las ganancias de las compañías
+B) Si los márgenes apretados reducen las expectativas de ganancias futuras, la razón más baja puede reflejar con exactitud esas perspectivas más débiles en vez de señalar una subvaloración
+C) Las razones precio-ganancia suben automáticamente durante un choque de costos
+D) Los choques de costos siempre abaratan cada acción de cada sector en la misma cantidad
+
+## Clave de respuestas
+Q1: B
+Q2: B
+Q3: B
+Q4: A
+Q5: B
+
+## Respuestas y explicaciones
+**Q1.** La razón precio-ganancia muestra cuánto pagan los inversionistas por cada dólar de la ganancia actual de una compañía.
+
+**Q2.** Una razón deprimida a menudo indica que el mercado ya incluyó en el precio unas perspectivas de ganancias futuras más débiles.
+
+**Q3.** Una trampa de valor se ve atractiva en papel, pero refleja una debilidad real de fondo y no un verdadero error en el precio.
+
+**Q4.** Las normas cambian bastante de un sector a otro, así que una razón que se ve alta o baja solo tiene sentido frente a compañías parecidas.
+
+**Q5.** Un apretón de los márgenes puede justificar un múltiplo de valoración más bajo en vez de crear una oportunidad que nadie había visto.
+
+## Puntos clave
+- La razón precio-ganancia mide cuánto pagan los inversionistas por cada dólar de ganancia actual, y refleja las expectativas futuras, no solo el precio actual.
+- Una razón baja puede reflejar un pesimismo justificado sobre las ganancias futuras en vez de una ganga que nadie había visto.
+- Una trampa de valor es una acción que se ve barata pero sigue barata porque las preocupaciones del mercado son acertadas.
+- Las razones precio-ganancia tienen más sentido cuando se comparan dentro de un mismo sector y frente al propio rango histórico de la compañía.
+
+===== WHITE-L4-002
+TITLE: Rendimiento por dividendos frente al rendimiento total: por qué el rendimiento por dividendos solo engaña
+SUMMARY: Conozca por qué un rendimiento por dividendos que sube puede ser una señal de peligro en vez de una oportunidad, y por qué el rendimiento total da el cuadro completo.
+KEYWORDS: rendimiento por dividendos, rendimiento total, sostenibilidad del dividendo, inversión enfocada en el ingreso
+# Rendimiento por dividendos frente al rendimiento total: por qué el rendimiento por dividendos solo engaña
+
+## Escenario inicial
+SUPUESTO/OPINIÓN (escenario hipotético solo con fines educativos): Imagine que, después de años de expansión rápida, los mercados de bienes raíces y de crédito al consumidor de un país muy poblado empiezan a mostrar señales de una corrección fuerte a medida que suben los impagos. Mientras se aprietan las condiciones de crédito, algunas compañías que antes pagaban dividendos altos y confiables empiezan a mostrar señales de presión. Esto plantea la pregunta de análisis que atiende esta lección: ¿el rendimiento por dividendos, por sí solo, es alguna vez un número seguro en el que se pueda confiar?
+
+## Objetivos de aprendizaje
+- Calcular el rendimiento por dividendos a partir del dividendo anual y el precio de la acción.
+- Explicar por qué un rendimiento por dividendos que sube puede ser una señal de peligro en vez de una oportunidad.
+- Explicar la diferencia entre el rendimiento por dividendos y el rendimiento total.
+- Identificar las señales de que el pago de un dividendo podría no ser sostenible.
+
+## Contenido principal
+El rendimiento por dividendos es el dividendo anual por acción dividido entre el precio de la acción. DATO VERIFICADO: el rendimiento por dividendos sube de dos formas muy distintas: o porque aumenta el pago del dividendo, o porque baja el precio de la acción, y estas dos causas significan cosas muy distintas para un inversionista.
+
+Aquí está el "porqué" el rendimiento por dividendos solo engaña: una baja en el precio de la acción, a menudo causada por un deterioro de los fundamentos del negocio (como la presión por el apretón del crédito en el escenario de arriba), sube de forma mecánica el rendimiento por dividendos aunque la compañía se esté debilitando, no fortaleciendo. Un rendimiento inusualmente alto frente al historial de la compañía o a sus competidoras a menudo es una señal del mercado de que los inversionistas esperan un recorte del dividendo, no una oportunidad de asegurar un ingreso fuera de lo común.
+
+Por eso, el rendimiento total (los dividendos más la subida o la baja del precio) es la medida más completa, igual que la distinción entre el rendimiento sobre el efectivo invertido y el rendimiento total del análisis inmobiliario. Una compañía con un rendimiento modesto de 2%, pero con ganancias y un precio de la acción que crecen de forma constante, puede fácilmente rendir más que una compañía con un rendimiento de 8% montada sobre un negocio que se achica y que está bajo presión financiera, sobre todo si ese 8% se recorta y el precio de la acción baja todavía más por eso.
+
+## Ejemplo práctico
+EJEMPLO ILUSTRATIVO: El rendimiento por dividendos de una compañía sube de 3% a 9% en un año, no porque la gerencia haya aumentado el dividendo, sino porque el precio de la acción cayó dos terceras partes en medio de una crisis financiera. Un inversionista atraído solo por ese llamativo 9%, sin revisar la razón de pago (los dividendos como parte de las ganancias) ni la razón de la caída del precio, compra justo antes de que la compañía anuncie que tiene que eliminar por completo su dividendo para conservar efectivo, lo que hace que el precio de la acción, y el rendimiento total del inversionista, caigan todavía más.
+
+## Prueba práctica
+**Q1. ¿Cómo se calcula el rendimiento por dividendos?**
+A) El dividendo anual por acción dividido entre el precio de la acción
+B) El total de dividendos pagados dividido entre el número de empleados
+C) El precio de la acción dividido entre la ganancia por acción
+D) El ingreso total dividido entre el valor de mercado de la compañía
+
+**Q2. ¿Por qué un rendimiento por dividendos que sube a veces puede ser una señal de alerta?**
+A) Un rendimiento que sube siempre refleja que la compañía aumentó su dividendo por un buen desempeño
+B) Una baja en el precio de la acción, a menudo por fundamentos que se debilitan, puede subir de forma mecánica el rendimiento aunque la compañía se esté debilitando
+C) El rendimiento por dividendos nunca puede subir por ninguna razón
+D) Un rendimiento que sube siempre significa que la compañía no tiene deuda
+
+**Q3. ¿Cuál es la diferencia clave entre el rendimiento por dividendos y el rendimiento total?**
+A) Son medidas idénticas con nombres distintos
+B) El rendimiento total incluye tanto los dividendos como la subida o la baja del precio, mientras que el rendimiento por dividendos solo refleja la parte del ingreso
+C) El rendimiento por dividendos siempre es mayor que el rendimiento total
+D) El rendimiento total solo aplica a los bonos, no a las acciones
+
+**Q4. ¿Qué podría indicar un rendimiento por dividendos inusualmente alto frente al historial de una compañía?**
+A) Un ingreso alto garantizado y continuo para los inversionistas
+B) El mercado podría estar incluyendo en el precio un recorte esperado del dividendo
+C) La compañía eliminó todo riesgo financiero
+D) El rendimiento por dividendos no tiene relación con las expectativas del mercado
+
+**Q5. En el ejemplo, ¿por qué fiarse solo del rendimiento de 9% engañó al inversionista?**
+A) El rendimiento reflejaba con exactitud un pago seguro y sostenible
+B) El rendimiento alto venía de una baja del precio ligada a una crisis financiera, y el dividendo se recortó poco después, lo que perjudicó el rendimiento total del inversionista
+C) Los recortes de dividendos siempre aumentan el rendimiento total de un inversionista
+D) El precio de la acción subió después de que el inversionista compró
+
+## Clave de respuestas
+Q1: A
+Q2: B
+Q3: B
+Q4: B
+Q5: B
+
+## Respuestas y explicaciones
+**Q1.** El rendimiento por dividendos refleja el ingreso anual por dividendos en relación con el precio actual de la acción.
+
+**Q2.** Las subidas del rendimiento causadas por bajas en el precio, y no por aumentos del dividendo, a menudo indican un problema de fondo en el negocio, no una oportunidad.
+
+**Q3.** El rendimiento total capta el resultado completo de la inversión, mientras que el rendimiento por dividendos solo capta la parte del ingreso, lo que puede engañar cuando se mira solo.
+
+**Q4.** Un rendimiento desproporcionado frente a las normas históricas a menudo refleja el escepticismo del mercado sobre si el dividendo se puede sostener.
+
+**Q5.** El rendimiento alto era un síntoma de la crisis y no una oportunidad, y el recorte que vino después, junto con la baja adicional del precio, perjudicó el rendimiento total real del inversionista.
+
+## Puntos clave
+- El rendimiento por dividendos puede subir por un aumento del dividendo o por una baja en el precio de la acción, y esas dos cosas significan algo muy distinto.
+- Un rendimiento inusualmente alto frente al historial o a las competidoras a menudo indica que el mercado espera un recorte del dividendo.
+- El rendimiento total, y no solo el rendimiento por dividendos, da el cuadro completo del desempeño real de una inversión.
+- Revisar si el pago es sostenible (como la razón de pago) antes de correr detrás del rendimiento ayuda a evitar errores costosos al invertir buscando ingreso.
+
+===== WHITE-L4-003
+TITLE: Análisis de la duración de los bonos: por qué el riesgo de tasa de interés no es igual en todos los bonos
+SUMMARY: Conozca lo que mide la duración de un bono, por qué es distinta al vencimiento y por qué los bonos de mayor duración reaccionan con más fuerza al alza de las tasas.
+KEYWORDS: duración de los bonos, riesgo de tasa de interés, renta fija, precio de los bonos
+# Análisis de la duración de los bonos: por qué el riesgo de tasa de interés no es igual en todos los bonos
+
+## Escenario inicial
+SUPUESTO/OPINIÓN (escenario hipotético solo con fines educativos): Imagine un banco central que sube su tasa de interés de referencia con fuerza y una y otra vez en pocos meses para combatir una inflación que va en aumento. No todos los inversionistas en bonos sienten el golpe igual. Esta lección explica por qué es la duración, y no solo el tiempo que falta para que venza un bono, lo que determina lo fuerte que le pega a cada bono.
+
+## Objetivos de aprendizaje
+- Explicar lo que mide la duración de un bono.
+- Explicar por qué los bonos de mayor duración son más sensibles a los cambios en las tasas de interés.
+- Distinguir entre el vencimiento y la duración.
+- Aplicar el concepto de la duración para comparar el riesgo de tasa de interés de dos bonos.
+
+## Contenido principal
+La duración de un bono mide la sensibilidad de su precio a los cambios en las tasas de interés; se expresa en años, pero no es simplemente el tiempo que falta para el vencimiento. DATO VERIFICADO: la duración toma en cuenta el momento y el tamaño de todos los flujos de efectivo de un bono (los pagos de cupón más el repago del principal), no solo cuándo llega el último pago, y por eso dos bonos con la misma fecha de vencimiento pueden tener duraciones distintas si sus tasas de cupón son distintas.
+
+Aquí está el "porqué" esto importa cuando las tasas suben con fuerza, como en el escenario de arriba: un bono de mayor duración verá bajar su precio con más fuerza, ante una misma subida de las tasas de interés, que un bono de menor duración, porque una parte mayor de su valor está atada a flujos de efectivo que se reciben más adelante en el futuro, y esos flujos lejanos pierden relativamente más valor presente cuando sube la tasa de descuento (las tasas de interés). Es el equivalente, en la renta fija, de la relación entre la tasa de capitalización y las tasas de interés que vimos en bienes raíces: cuando las tasas suben, el "precio" de una fuente fija de ingreso futuro baja, y el efecto es mayor mientras más lejos en el tiempo llegue ese ingreso.
+
+Por eso, un inversionista preocupado por el alza de las tasas debe fijarse en la duración específica de un fondo de bonos o de un bono, y no solo en si se le llama "a corto plazo" o "a largo plazo", y por eso un bono de cupón cero (todo el flujo de efectivo se recibe al vencimiento, sin cupones en el camino) tiene una duración igual a su vencimiento completo, la mayor duración posible para un bono con ese vencimiento, lo que lo hace especialmente sensible a los cambios en las tasas.
+
+## Ejemplo práctico
+EJEMPLO ILUSTRATIVO: El bono A tiene una duración de 3 años; el bono B, una duración de 10 años. Si las tasas de interés suben 1 punto porcentual, el precio del bono A baja más o menos 3%, mientras que el del bono B baja más o menos 10%. Es una aproximación, ya que la duración estima el cambio porcentual del precio ante un cambio dado en las tasas. Un inversionista que espera que las tasas sigan subiendo, como en el ciclo de alzas del escenario, generalmente preferiría tener el bono A, de menor duración, para limitar las bajas de precio, aunque los dos bonos tengan una calidad de crédito parecida.
+
+## Prueba práctica
+**Q1. ¿Qué mide la duración de un bono?**
+A) La clasificación de crédito del bono
+B) La sensibilidad del precio de un bono a los cambios en las tasas de interés, tomando en cuenta el momento y el tamaño de todos sus flujos de efectivo
+C) El número exacto de años que faltan para que venza el bono
+D) La deuda total pendiente del emisor del bono
+
+**Q2. ¿Por qué dos bonos con la misma fecha de vencimiento pueden tener duraciones distintas?**
+A) El vencimiento y la duración siempre son idénticos en todos los bonos
+B) Las distintas tasas de cupón cambian el momento y el peso de los flujos de efectivo, lo que afecta la duración aunque el vencimiento sea el mismo
+C) La duración solo aplica a los bonos del gobierno
+D) Los bonos con distinta duración no pueden tener la misma fecha de vencimiento
+
+**Q3. ¿Por qué un bono de mayor duración tiene una baja de precio más grande cuando suben las tasas de interés?**
+A) Los bonos de mayor duración no se ven afectados por los cambios en las tasas de interés
+B) Una parte mayor del valor del bono está atada a flujos de efectivo más lejanos en el futuro, que pierden más valor presente cuando sube la tasa de descuento
+C) Los bonos de mayor duración siempre tienen una calidad de crédito más baja
+D) La duración no tiene relación con la sensibilidad del precio
+
+**Q4. Si las tasas de interés suben 1 punto porcentual, ¿más o menos cuánto se esperaría que baje el precio de un bono con una duración de 7?**
+A) Más o menos 1%
+B) Más o menos 3%
+C) Más o menos 7%
+D) Más o menos 14%
+
+**Q5. ¿Por qué un bono de cupón cero tiene la mayor duración posible para su vencimiento?**
+A) Los bonos de cupón cero no pagan ningún flujo de efectivo hasta el vencimiento, así que todo el valor del bono está concentrado en ese solo pago lejano, lo que maximiza la sensibilidad a las tasas
+B) Los bonos de cupón cero están completamente exentos del riesgo de tasa de interés
+C) Los bonos de cupón cero siempre vencen antes que los bonos que pagan cupones
+D) La duración no aplica a los bonos de cupón cero
+
+## Clave de respuestas
+Q1: B
+Q2: B
+Q3: B
+Q4: C
+Q5: A
+
+## Respuestas y explicaciones
+**Q1.** La duración capta cuánto se va a mover el precio de un bono ante un cambio dado en las tasas de interés, según el patrón completo de sus flujos de efectivo.
+
+**Q2.** El tamaño del cupón cambia cuánto valor se recibe antes frente a después, lo que cambia la duración sin importar la fecha final de vencimiento.
+
+**Q3.** Los flujos de efectivo lejanos se descuentan con más peso cuando suben las tasas, lo que hace más sensibles a los cambios de tasas los bonos de mayor duración.
+
+**Q4.** La duración aproxima el cambio porcentual del precio ante un cambio de 1 punto porcentual en las tasas, así que una duración de 7 sugiere una baja de precio de más o menos 7%.
+
+**Q5.** Sin pagos de cupón en el camino, todo el valor depende del único pago final, lo que hace que los bonos de cupón cero sean lo más sensibles posible a los cambios de tasas para su vencimiento.
+
+## Puntos clave
+- La duración de un bono mide la sensibilidad de su precio a los cambios en las tasas de interés, tomando en cuenta el momento y el tamaño de todos sus flujos de efectivo, no solo el vencimiento.
+- Los bonos de mayor duración tienen cambios de precio más grandes, ante un cambio dado en las tasas, que los bonos de menor duración.
+- Dos bonos con el mismo vencimiento pueden tener duraciones distintas si sus estructuras de cupón son distintas.
+- Los bonos de cupón cero tienen la mayor duración para su vencimiento, lo que los hace especialmente sensibles a los cambios en las tasas.
+
+===== WHITE-L4-004
+TITLE: Análisis de la curva de rendimiento: por qué una inversión de la curva indica riesgo de recesión
+SUMMARY: Conozca lo que representa la curva de rendimiento, qué significa que se invierta, por qué a menudo ha venido antes de las recesiones y cuáles son los límites de esa señal.
+KEYWORDS: curva de rendimiento, inversión de la curva de rendimiento, indicador de recesión, análisis del mercado de bonos
+# Análisis de la curva de rendimiento: por qué una inversión de la curva indica riesgo de recesión
+
+## Escenario inicial
+SUPUESTO/OPINIÓN (escenario hipotético solo con fines educativos): Imagine un banco central que sube su tasa de interés de referencia con fuerza y una y otra vez en pocos meses para combatir una inflación que va en aumento. Mientras las tasas a corto plazo suben rápido y las tasas a más largo plazo se quedan atrás, los medios financieros empiezan a hablar de que "se está invirtiendo la curva de rendimiento". Esta lección explica lo que de verdad significa esa frase y por qué los analistas la toman en serio.
+
+## Objetivos de aprendizaje
+- Explicar lo que representa la curva de rendimiento.
+- Explicar lo que significa que una curva de rendimiento se invierta.
+- Explicar por qué una curva de rendimiento invertida históricamente ha venido antes de las recesiones.
+- Explicar los límites de usar la inversión de la curva de rendimiento como herramienta de predicción.
+
+## Contenido principal
+La curva de rendimiento muestra las tasas de interés (los rendimientos) de bonos con la misma calidad de crédito (más comúnmente, los valores del Tesoro de Estados Unidos) a distintos vencimientos, desde el corto plazo (como 3 meses) hasta el largo plazo (como 10 o 30 años). DATO VERIFICADO: en condiciones normales, la curva de rendimiento sube de izquierda a derecha, porque los inversionistas normalmente exigen un rendimiento más alto por inmovilizar su dinero por más tiempo, lo que refleja una mayor incertidumbre en un horizonte más largo.
+
+Aquí está el "porqué" una curva de rendimiento invertida (cuando los rendimientos a corto plazo son más altos que los de largo plazo) históricamente se ha vigilado como una advertencia de recesión: una inversión a menudo refleja la expectativa colectiva del mercado de bonos de que el banco central tendrá que bajar las tasas de interés en el futuro para responder a un debilitamiento de la economía. Eso empuja hacia abajo las tasas futuras esperadas (y por lo tanto las tasas actuales a largo plazo) frente a las tasas actuales a corto plazo, que se fijan más cerca de la política actual, más restrictiva, del banco central (como en el ciclo de alzas del escenario). En la práctica, el extremo largo de la curva está incluyendo en el precio una desaceleración económica futura.
+
+REGLA ESPECÍFICA DE LA REGIÓN y limitación importante: aunque la inversión de la curva de rendimiento ha venido antes de la mayoría de las recesiones recientes de Estados Unidos, con un historial notable, el tiempo entre la inversión y una recesión real ha variado mucho (de varios meses a más de un año), y no todos los periodos en que la curva se aplana o se invierte por poco tiempo han terminado en una recesión. Por eso, la curva de rendimiento debe tratarse como una señal útil entre varias, y OPINIÓN: muchos analistas la consideran una advertencia de probabilidades, no una herramienta precisa y confiable para predecir el momento.
+
+## Ejemplo práctico
+EJEMPLO ILUSTRATIVO: El rendimiento del Tesoro a 3 meses sube a 5.2%, mientras que el del Tesoro a 10 años está en 4.3%, una inversión de alrededor de 0.9 puntos porcentuales. Esto refleja la expectativa del mercado de bonos de que la tasa a corto plazo del banco central, ahora alta, tendrá que bajar con el tiempo a medida que se desacelere el crecimiento económico, lo que deja la tasa promedio esperada de los próximos diez años por debajo de la tasa a corto plazo de hoy: la firma clásica que señalan los analistas cuando advierten un riesgo de recesión más alto.
+
+## Prueba práctica
+**Q1. ¿Qué muestra normalmente la curva de rendimiento?**
+A) Los precios de las acciones en distintos sectores
+B) Las tasas de interés de bonos con la misma calidad de crédito a distintos vencimientos
+C) Las ganancias de las compañías a lo largo del tiempo
+D) Las tasas de cambio de moneda entre países
+
+**Q2. En condiciones normales, ¿por qué la curva de rendimiento normalmente sube de izquierda a derecha?**
+A) Los inversionistas exigen un rendimiento más alto por inmovilizar el dinero por más tiempo, por la mayor incertidumbre a largo plazo
+B) Los bonos a corto plazo siempre pagan, por defecto, rendimientos más altos que los bonos a largo plazo
+C) Las curvas de rendimiento siempre son planas en condiciones normales
+D) Los bonos a largo plazo no tienen riesgo de tasa de interés
+
+**Q3. ¿Qué significa que una curva de rendimiento se invierta?**
+A) Los rendimientos a largo plazo suben muy por encima de los de corto plazo
+B) Los rendimientos a corto plazo son más altos que los de largo plazo
+C) Todos los rendimientos se vuelven exactamente iguales en todos los vencimientos
+D) La curva de rendimiento desaparece por completo
+
+**Q4. ¿Por qué una curva de rendimiento invertida se ha asociado históricamente con un riesgo de recesión más alto?**
+A) Refleja que el mercado de bonos está incluyendo en el precio la expectativa de que el banco central tendrá que bajar las tasas en respuesta a una debilidad económica futura
+B) Las inversiones siempre garantizan ganancias inmediatas en la bolsa
+C) Las curvas invertidas indican que la economía está en su punto más fuerte
+D) La forma de la curva de rendimiento no tiene relación con las expectativas económicas
+
+**Q5. ¿Cuál es una limitación importante de usar la inversión de la curva de rendimiento como herramienta de predicción?**
+A) Ha predicho cada recesión con una precisión exacta en el momento
+B) El tiempo entre la inversión y una recesión real ha variado mucho, y no todas las inversiones han terminado en una recesión
+C) La inversión de la curva de rendimiento nunca se ha asociado con ningún resultado económico
+D) Solo aplica a los bonos de compañías, nunca a los del gobierno
+
+## Clave de respuestas
+Q1: B
+Q2: A
+Q3: B
+Q4: A
+Q5: B
+
+## Respuestas y explicaciones
+**Q1.** La curva de rendimiento muestra cómo cambian los rendimientos a lo largo de una serie de vencimientos en bonos de calidad de crédito comparable.
+
+**Q2.** Una pendiente normal hacia arriba refleja la compensación adicional que los inversionistas normalmente exigen por alargar su horizonte de inversión.
+
+**Q3.** La inversión describe la situación poco común en que los vencimientos más cortos rinden más que los más largos.
+
+**Q4.** Una inversión a menudo indica que el mercado espera bajas de tasas futuras por una desaceleración económica anticipada, algo que históricamente ha venido antes de las recesiones muchas veces.
+
+**Q5.** El tiempo que varía y el historial imperfecto significan que la inversión debe tratarse como una señal de probabilidades entre varias, no como una herramienta de predicción precisa.
+
+## Puntos clave
+- La curva de rendimiento muestra las tasas de interés a distintos vencimientos para bonos de calidad de crédito parecida.
+- Una curva de rendimiento normal sube de izquierda a derecha, lo que refleja una prima que se exige por la incertidumbre a más largo plazo.
+- Una curva de rendimiento invertida refleja que el mercado espera bajas de tasas futuras ligadas a una debilidad económica anticipada.
+- La inversión de la curva de rendimiento tiene una fuerte relación histórica con las recesiones, pero es una señal imperfecta y de probabilidades, no un reloj preciso.
+
+===== WHITE-L4-005
+TITLE: Análisis de la razón de gastos: por qué los cargos se componen en su contra
+SUMMARY: Conozca por qué una diferencia pequeña en la razón de gastos de un fondo se convierte, con el interés compuesto, en una diferencia grande en dólares a largo plazo.
+KEYWORDS: razón de gastos, cargos de los fondos, interés compuesto, costo de los fondos indexados, rendimientos a largo plazo
+# Análisis de la razón de gastos: por qué los cargos se componen en su contra
+
+## Escenario inicial
+SUPUESTO/OPINIÓN (escenario hipotético solo con fines educativos): Imagine una crisis de salud pública generalizada que paraliza el transporte marítimo y la manufactura en todo el mundo por un periodo largo, lo que enreda las cadenas de suministro de muchas industrias a la vez. Durante un periodo largo de trastornos en el mercado, algunos inversionistas venden por pánico fondos de administración activa con cargos altos y se pasan a alternativas de menor costo, y después se preguntan si la diferencia en los cargos de verdad importaba tanto. Esta lección hace el cálculo.
+
+## Objetivos de aprendizaje
+- Explicar lo que representa una razón de gastos.
+- Explicar por qué una diferencia de cargos que parece pequeña en porcentaje se convierte en una diferencia grande en dólares con el tiempo.
+- Comparar el impacto a largo plazo de distintas razones de gastos sobre una misma inversión.
+- Explicar por qué la razón de gastos debe ser un factor central al escoger un fondo.
+
+## Contenido principal
+La razón de gastos (en inglés, "expense ratio") es el cargo anual que cobra un fondo, expresado como porcentaje de los activos que maneja, para cubrir sus costos de administración y operación. DATO VERIFICADO: este cargo se descuenta de los activos del fondo de forma continua, lo que significa que reduce directamente el rendimiento que el inversionista realmente recibe, año tras año, sin importar si las inversiones del fondo rinden bien o mal.
+
+Aquí está el "porqué" una diferencia de cargos que parece pequeña importa tanto: como el cargo se cobra todos los años sobre el balance completo de los activos, y como los rendimientos se componen con el tiempo, una razón de gastos más alta no solo le cuesta al inversionista una cantidad pequeña cada año; también reduce la cantidad base que puede componerse en cada año siguiente. Un fondo que cobra 1% más al año no le cuesta al inversionista "1% en total" en una década; le cuesta bastante más, porque el inversionista no solo pierde ese 1% cada año, sino también todo el crecimiento adicional que ese dinero habría generado si se hubiera quedado invertido y componiéndose.
+
+Por eso, la razón de gastos es uno de los indicadores más confiables del desempeño neto relativo a largo plazo de un fondo, lo que se conecta directamente con el análisis de la administración activa frente a la pasiva que se ve más adelante en este nivel: los fondos de menor costo no necesitan rendir más que sus competidores más caros en términos brutos para darle un mejor resultado al inversionista; solo necesitan no rendir menos por una diferencia mayor que la diferencia en los cargos, lo cual es una meta más fácil de alcanzar.
+
+## Ejemplo práctico
+EJEMPLO ILUSTRATIVO: $100,000 invertidos por 30 años a un rendimiento bruto anual de 7% crecen a unos $761,000 en un fondo con una razón de gastos de 0.05%, pero solo a unos $566,000 en un fondo con una razón de gastos de 1.05% con el mismo rendimiento bruto: una diferencia de casi $195,000, aunque la diferencia anual en los cargos parezca pequeña, de solo un punto porcentual. La diferencia viene completamente del interés compuesto que se pierde por los cargos pagados cada año, no de ninguna diferencia en el desempeño real de las inversiones del fondo.
+
+## Prueba práctica
+**Q1. ¿Qué representa una razón de gastos?**
+A) Un cargo de una sola vez que se paga solo al comprar
+B) El cargo anual que cobra un fondo, como porcentaje de los activos que maneja, por su administración y operación
+C) El rendimiento histórico total del fondo
+D) Un impuesto que se paga solo al vender las acciones
+
+**Q2. ¿Por qué una diferencia de 1 punto porcentual en la razón de gastos cuesta más que 1% de la inversión total a lo largo de muchos años?**
+A) No es así; el costo total siempre es exactamente proporcional al porcentaje del cargo, sin importar el tiempo
+B) El cargo más alto reduce la cantidad base que puede componerse cada año, así que el inversionista pierde el cargo más el crecimiento que ese dinero habría generado
+C) Las razones de gastos se cobran una sola vez, no cada año
+D) Los cargos no tienen efecto sobre el interés compuesto
+
+**Q3. En el ejemplo, ¿cuál fue la razón principal de la diferencia de unos $195,000 en el valor final?**
+A) Las inversiones del fondo rindieron de forma distinta en cada fondo
+B) La diferencia en los cargos redujo la cantidad que se componía cada año, lo que con el tiempo achicó el crecimiento del fondo de cargo más alto frente al de cargo más bajo
+C) El fondo de cargo más alto no pagaba dividendos
+D) El fondo de cargo más bajo solo duró 15 años en vez de 30
+
+**Q4. ¿Por qué la razón de gastos se considera un indicador confiable del desempeño neto relativo a largo plazo de un fondo?**
+A) No es un indicador confiable de nada
+B) Como los cargos son un costo seguro y continuo, un fondo de menor costo solo necesita no rendir menos por una diferencia mayor que la de los cargos para dar un mejor resultado neto
+C) La razón de gastos garantiza que un fondo rendirá más que todas las alternativas más caras, sin importar la estrategia
+D) Las razones de gastos más altas siempre producen rendimientos más altos
+
+**Q5. ¿Por qué es importante, para entender su impacto, que la razón de gastos se descuente "de forma continua"?**
+A) Significa que el cargo solo se cobra en los años en que el fondo pierde dinero
+B) Significa que el cargo reduce la base de activos del fondo sin importar el desempeño del mercado, lo que compone su efecto de costo todos los años
+C) El descuento continuo no tiene ningún efecto importante en los resultados a largo plazo
+D) Significa que el cargo se les reembolsa cada año a los inversionistas
+
+## Clave de respuestas
+Q1: B
+Q2: B
+Q3: B
+Q4: B
+Q5: B
+
+## Respuestas y explicaciones
+**Q1.** La razón de gastos se cobra de forma continua cada año según los activos que se manejan, sin importar el desempeño del fondo.
+
+**Q2.** Como los cargos se descuentan cada año de un balance que se compone, el costo acumulado crece mucho más allá de una simple multiplicación del cargo por el número de años.
+
+**Q3.** Se supuso que los dos fondos tenían rendimientos brutos idénticos; toda la diferencia en el resultado vino del efecto compuesto de la diferencia en los cargos.
+
+**Q4.** La meta más baja de simplemente no rendir menos que la diferencia en los cargos hace del costo un indicador fuerte y constante de los resultados netos relativos con el tiempo.
+
+**Q5.** Como el descuento ocurre todos los años sobre la base de activos actual, su costo se compone junto al crecimiento de la inversión (y en su contra).
+
+## Puntos clave
+- Una razón de gastos es un cargo anual continuo que reduce directamente los rendimientos del inversionista, sin importar el desempeño del fondo.
+- Como los cargos se componen en contra del inversionista con el tiempo, las diferencias pequeñas en porcentaje producen diferencias grandes en dólares a largo plazo.
+- Un fondo de menor costo no necesita rendir más en términos brutos; solo necesita no rendir menos por una diferencia mayor que la de los cargos.
+- La razón de gastos es uno de los factores más confiables y más fáciles de controlar al escoger un fondo a largo plazo.

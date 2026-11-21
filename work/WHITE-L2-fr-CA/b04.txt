@@ -1,0 +1,376 @@
+===== WHITE-L2-021
+TITLE: Les dividendes : le flux de trésorerie de la propriété
+SUMMARY: Comprends ce qu'est un dividende, pourquoi certaines entreprises en versent et d'autres non, et les dates clés à connaître avant d'acheter.
+## WHITE-L2-021
+### Les dividendes : le flux de trésorerie de la propriété
+
+**1. Objectifs d'apprentissage**
+À la fin de cette leçon, tu pourras :
+- Définir de façon conceptuelle un dividende.
+- Expliquer pourquoi les entreprises choisissent de verser ou de ne pas verser de dividendes.
+- Nommer les dates et les termes clés liés aux dividendes.
+
+**2. Contenu principal**
+Un dividende est une partie des profits d'une entreprise distribuée aux actionnaires, habituellement en argent, pour leur remettre de la valeur directement plutôt que de garder et de réinvestir tous les profits dans l'entreprise. Ce ne sont pas toutes les entreprises qui versent des dividendes : bien des entreprises axées sur la croissance (leçon 4) choisissent de réinvestir tous leurs profits dans l'expansion de leurs activités plutôt que de distribuer de l'argent, en se disant que le réinvestissement créera plus de valeur pour les actionnaires avec le temps qu'une distribution en argent.
+
+Les entreprises qui versent des dividendes ont généralement un « rendement en dividendes » (le dividende annuel par action divisé par le prix actuel de l'action, exprimé en pourcentage), et le versement des dividendes comporte plusieurs dates clés : la date de déclaration (quand l'entreprise annonce le dividende), la date ex-dividende (la date limite qui détermine quels actionnaires ont droit au prochain paiement) et la date de paiement (quand l'argent est réellement versé).
+
+Les dividendes ne sont pas garantis et peuvent être réduits ou éliminés par une entreprise qui a des difficultés financières, ce qui nous ramène directement au risque du « piège du dividende » vu à la leçon 5.
+
+**3. Exemple pratique**
+Consuela détient des actions d'une entreprise qui verse un dividende trimestriel régulier. Elle reçoit un paiement en argent déposé dans son compte de courtage quatre fois par année, qui représente sa part proportionnelle des profits distribués par l'entreprise selon le nombre d'actions qu'elle possède. Elle vérifie la date ex-dividende avant de faire un achat supplémentaire prévu, en comprenant qu'acheter des actions à cette date ou après voudrait dire qu'elle n'aurait pas droit au prochain paiement trimestriel, seulement aux paiements suivants.
+
+**4. Quiz de pratique**
+1. Qu'est-ce qu'un dividende?
+   a) Un type de paiement d'obligation
+   b) Une partie des profits d'une entreprise distribuée aux actionnaires, habituellement en argent
+   c) Un remboursement d'impôt gouvernemental
+   d) Un rendement annuel garanti
+2. Pourquoi une entreprise axée sur la croissance pourrait-elle choisir de ne pas verser de dividendes?
+   a) Il est illégal pour les entreprises en croissance de verser des dividendes
+   b) Elle peut préférer réinvestir tous ses profits dans l'expansion de ses activités
+   c) Les dividendes ne concernent que l'immobilier
+   d) Elle n'a aucun profit
+3. Vrai ou faux : Les dividendes sont garantis et ne peuvent jamais être réduits ni éliminés.
+4. Que détermine la date ex-dividende?
+   a) Le prix de l'action de l'entreprise pour toujours
+   b) Quels actionnaires ont droit au prochain paiement de dividende
+   c) Le taux d'imposition de l'entreprise
+   d) La date d'échéance de l'obligation
+
+**5. Corrigé**
+1. b  2. b  3. Faux  4. b
+
+**6. Réponses et explications**
+1. Un dividende est une distribution des profits d'une entreprise aux actionnaires, habituellement versée en argent.
+2. Les entreprises axées sur la croissance préfèrent souvent réinvestir leurs profits dans l'expansion plutôt que de distribuer de l'argent.
+3. Les dividendes ne sont pas garantis et peuvent être réduits ou éliminés en cas de difficultés financières.
+4. La date ex-dividende est la date limite qui détermine l'admissibilité des actionnaires à un prochain paiement de dividende.
+
+**7. Points clés à retenir**
+- Un dividende est une partie des profits d'une entreprise distribuée aux actionnaires, habituellement en argent.
+- Les entreprises axées sur la croissance réinvestissent souvent leurs profits au lieu de verser des dividendes.
+- Les dates clés comprennent la date de déclaration, la date ex-dividende et la date de paiement.
+- Les dividendes ne sont pas garantis et se rattachent directement au risque du « piège du dividende » de la leçon 5.
+
+===== WHITE-L2-022
+TITLE: Le réinvestissement des dividendes : la composition en mouvement
+SUMMARY: Comprends comment un régime de réinvestissement des dividendes fait travailler la composition, et pourquoi le choix de réinvestir ou d'encaisser dépend de ton étape de vie.
+## WHITE-L2-022
+### Le réinvestissement des dividendes : la composition en mouvement
+
+**1. Objectifs d'apprentissage**
+À la fin de cette leçon, tu pourras :
+- Expliquer le concept général d'un régime de réinvestissement des dividendes (RRD).
+- Décrire comment le réinvestissement des dividendes interagit avec la composition.
+- Comparer le réinvestissement des dividendes au fait de les recevoir en argent.
+
+**2. Contenu principal**
+Un régime de réinvestissement des dividendes (RRD, ou *DRIP* en anglais) utilise automatiquement les dividendes pour acheter des actions supplémentaires (ou des fractions d'actions) du même placement, au lieu de déposer le dividende comme argent dépensable. C'est une application directe et concrète de la notion de composition : chaque dividende réinvesti achète plus d'actions, qui peuvent ensuite générer leurs propres dividendes futurs, qui peuvent à leur tour acheter encore plus d'actions — un cycle qui peut accélérer de façon importante la croissance d'un portefeuille sur de longues périodes, surtout pour les jeunes investisseurs qui ont des décennies devant eux avant d'avoir besoin du revenu.
+
+Le choix de réinvestir les dividendes ou de les recevoir en argent dépend de la situation de chaque investisseur. Un investisseur encore en phase d'accumulation, qui n'a pas besoin du revenu en ce moment, profite souvent du réinvestissement automatique. Un investisseur en phase de décaissement — par exemple une personne retraitée qui compte sur ses revenus de dividendes pour ses dépenses de subsistance (en écho à la lentille du revenu de la leçon 5) — peut préférer recevoir ses dividendes en argent plutôt que les réinvestir.
+
+**3. Exemple pratique**
+À plusieurs décennies de sa retraite, Deshawn met en place le réinvestissement automatique des dividendes dans ses comptes de placement, ce qui permet à chaque dividende d'acheter automatiquement des actions supplémentaires au lieu de rester en liquidités non investies. Au fil des années, il remarque que son nombre d'actions augmente non seulement grâce à ses propres cotisations supplémentaires, mais aussi grâce à l'effet de composition des dividendes réinvestis, qui achètent plus d'actions, qui génèrent ensuite leurs propres dividendes — une démonstration visible et concrète de la composition en mouvement.
+
+Son oncle retraité, au contraire, fait déposer ses dividendes en argent dans son compte chèques chaque trimestre et s'en sert pour couvrir une partie de ses dépenses de subsistance au lieu de les réinvestir — un choix différent, mais tout aussi approprié, vu son étape de vie et ses besoins de revenu différents.
+
+**4. Quiz de pratique**
+1. Que fait généralement un régime de réinvestissement des dividendes (RRD)?
+   a) Il dépose automatiquement les dividendes comme argent dépensable
+   b) Il utilise automatiquement les dividendes pour acheter des actions supplémentaires
+   c) Il élimine tous les dividendes
+   d) Il convertit les dividendes en obligations
+2. Pourquoi un investisseur en phase d'accumulation pourrait-il profiter du réinvestissement des dividendes?
+   a) Il a besoin du revenu tout de suite
+   b) Ça peut accélérer la croissance du portefeuille grâce à la composition sur une longue période
+   c) Ça garantit un rendement précis
+   d) Ça n'a aucun lien avec la composition
+3. Vrai ou faux : Chaque investisseur devrait toujours réinvestir ses dividendes, peu importe son étape de vie ou ses besoins de revenu.
+4. Pourquoi l'oncle de Deshawn a-t-il choisi de recevoir ses dividendes en argent plutôt que de les réinvestir?
+   a) Il n'aimait pas la composition
+   b) Comme retraité, il compte sur les revenus de dividendes pour ses dépenses de subsistance
+   c) Ses placements ne versaient pas de dividendes
+   d) Le réinvestissement ne lui était pas offert
+
+**5. Corrigé**
+1. b  2. b  3. Faux  4. b
+
+**6. Réponses et explications**
+1. Un RRD utilise automatiquement les dividendes pour acheter des actions supplémentaires au lieu de verser de l'argent.
+2. Le réinvestissement permet aux dividendes de se composer en achetant plus d'actions qui génèrent d'autres dividendes avec le temps.
+3. Le bon choix dépend de l'étape de vie et des besoins de revenu actuels de l'investisseur; ce n'est pas une règle universelle.
+4. Comme retraité qui compte sur ses revenus de dividendes, l'oncle de Deshawn a choisi avec raison de les recevoir en argent plutôt que de les réinvestir.
+
+**7. Points clés à retenir**
+- Un RRD réinvestit automatiquement les dividendes dans des actions supplémentaires.
+- Ça crée un cycle de composition : les dividendes réinvestis achètent des actions qui génèrent d'autres dividendes.
+- Les investisseurs en phase d'accumulation profitent souvent du réinvestissement; ceux qui ont besoin d'un revenu actuel peuvent préférer les dividendes en argent.
+- Le bon choix dépend de l'étape de vie et des besoins de revenu précis de l'investisseur.
+
+===== WHITE-L2-023
+TITLE: La capitalisation boursière : petite, moyenne et grande capitalisation
+SUMMARY: Apprends à calculer la capitalisation boursière, à distinguer les petites, moyennes et grandes capitalisations, et les tendances générales de risque et de rendement de chacune.
+## WHITE-L2-023
+### La capitalisation boursière : petite, moyenne et grande capitalisation
+
+**1. Objectifs d'apprentissage**
+À la fin de cette leçon, tu pourras :
+- Définir de façon conceptuelle la capitalisation boursière.
+- Distinguer de façon générale les entreprises à petite, moyenne et grande capitalisation.
+- Expliquer les tendances générales de risque et de rendement associées à chaque catégorie.
+
+**2. Contenu principal**
+La capitalisation boursière se calcule en multipliant le prix actuel de l'action d'une entreprise par le nombre total d'actions en circulation. Elle mesure la valeur marchande totale de l'entreprise, telle que perçue par les investisseurs à un moment donné. On regroupe couramment les entreprises en grandes catégories — petite, moyenne et grande capitalisation — selon des fourchettes de capitalisation boursière, mais les seuils exacts en dollars qui définissent ces catégories varient selon la source et changent avec le temps. Les limites précises sont donc moins importantes que la compréhension de la tendance générale.
+
+En général, les entreprises à grande capitalisation tendent à être plus établies, avec un historique d'exploitation plus long, et elles affichent souvent une volatilité un peu plus faible que les plus petites entreprises, sans nécessairement avoir un potentiel de croissance à long terme plus faible. Les entreprises à petite capitalisation tendent à être plus tôt dans leur trajectoire de croissance; elles peuvent offrir un potentiel de croissance à long terme plus élevé, mais généralement avec plus de volatilité et de risque, y compris une plus grande probabilité d'échec pour chaque petite entreprise prise individuellement. Les entreprises à moyenne capitalisation se situent généralement entre ces deux tendances.
+
+Ce sont des tendances générales, pas des règles fixes : chaque entreprise, peu importe sa catégorie, peut se comporter autrement que la tendance générale.
+
+**3. Exemple pratique**
+En bâtissant une répartition diversifiée en actions, Yara inclut volontairement une exposition aux entreprises à grande, moyenne et petite capitalisation, plutôt que de se concentrer dans une seule catégorie. Elle reconnaît que cette répartition lui donne accès aux tendances de risque et de rendement généralement différentes de chaque catégorie — une certaine stabilité et une performance établie avec les titres à grande capitalisation, et un potentiel de croissance plus élevé (avec plus de volatilité) avec les plus petites entreprises —, au lieu de tout miser sur la tendance générale d'une seule catégorie.
+
+**4. Quiz de pratique**
+1. Comment calcule-t-on généralement la capitalisation boursière?
+   a) Les revenus totaux de l'entreprise
+   b) Le prix actuel de l'action multiplié par le nombre total d'actions en circulation
+   c) La dette totale de l'entreprise
+   d) Le rendement en dividendes de l'entreprise
+2. Quelle est une tendance générale associée aux entreprises à petite capitalisation?
+   a) Une volatilité plus faible et un potentiel de croissance plus faible
+   b) Un potentiel de croissance plus élevé, avec plus de volatilité et de risque
+   c) Des rendements plus élevés garantis
+   d) Aucun risque d'échec
+3. Vrai ou faux : Toutes les entreprises à petite capitalisation se comportent toujours exactement selon la tendance générale des petites capitalisations.
+4. Pourquoi Yara a-t-elle inclus une exposition aux trois catégories de capitalisation?
+   a) Pour éliminer la diversification
+   b) Pour avoir accès aux tendances de risque et de rendement généralement différentes de chaque catégorie
+   c) Un règlement l'y obligeait
+   d) Les catégories de capitalisation n'ont aucune vraie différence
+
+**5. Corrigé**
+1. b  2. b  3. Faux  4. b
+
+**6. Réponses et explications**
+1. La capitalisation boursière se calcule en multipliant le prix de l'action par le nombre total d'actions en circulation.
+2. Les entreprises à petite capitalisation affichent généralement un potentiel de croissance plus élevé, avec plus de volatilité et de risque.
+3. Ce sont des tendances générales; chaque entreprise, peu importe sa catégorie, peut se comporter autrement.
+4. L'approche diversifiée de Yara entre les catégories de capitalisation visait à profiter de leurs caractéristiques générales de risque et de rendement différentes.
+
+**7. Points clés à retenir**
+- La capitalisation boursière mesure la valeur marchande totale d'une entreprise à partir du prix de l'action et du nombre d'actions en circulation.
+- On regroupe couramment les entreprises en catégories de petite, moyenne et grande capitalisation.
+- Les grandes capitalisations montrent généralement plus de stabilité; les petites capitalisations, généralement plus de potentiel de croissance et de risque.
+- Ce sont des tendances générales, pas des règles fixes pour une entreprise en particulier.
+
+===== WHITE-L2-024
+TITLE: La diversification par secteur et par industrie
+SUMMARY: Comprends ce que sont les secteurs et les industries, pourquoi la concentration sectorielle est un risque caché et comment la diversification par secteur complète le reste.
+## WHITE-L2-024
+### La diversification par secteur et par industrie
+
+**1. Objectifs d'apprentissage**
+À la fin de cette leçon, tu pourras :
+- Définir le secteur et l'industrie comme notions de classement.
+- Expliquer le risque de la concentration sectorielle.
+- Décrire comment la diversification par secteur complète la diversification plus large (leçon 17).
+
+**2. Contenu principal**
+On regroupe couramment les entreprises en grands secteurs (comme la technologie, la santé, les services financiers, l'énergie, et d'autres) et en industries plus précises à l'intérieur de ces secteurs, selon la partie de l'économie dans laquelle elles exercent leurs activités. Dans la suite de la discussion sur la diversification de la leçon 17, la concentration au niveau des secteurs est un risque précis à surveiller directement : un portefeuille qui semble détenir beaucoup d'entreprises différentes peut quand même être fortement exposé au sort d'un seul secteur si ces entreprises viennent surtout de la même partie de l'économie.
+
+Les différents secteurs peuvent avoir des performances très différentes selon les conditions économiques générales : certains secteurs tendent à faire relativement mieux pendant les périodes d'expansion économique, alors que d'autres peuvent mieux résister pendant les ralentissements, même si ces modèles sont des tendances générales plutôt que des règles fixes. La diversification par secteur consiste à répartir volontairement son exposition entre plusieurs secteurs, ce qui réduit la vulnérabilité du portefeuille aux difficultés propres à un seul secteur.
+
+**3. Exemple pratique**
+En examinant son portefeuille avec un outil de répartition par secteur, Hassan découvre que, même s'il détient des actions de quinze entreprises différentes, plus de 60 % de la valeur de son portefeuille est concentrée dans le seul secteur de la technologie — une concentration qu'il n'avait pas remarquée en comptant simplement ses titres individuels. Il ajuste son approche pour l'avenir en ajoutant volontairement une exposition à d'autres secteurs, comme la santé, les services financiers et les biens de consommation de base, ce qui réduit sa dépendance au sort économique d'un seul secteur.
+
+**4. Quiz de pratique**
+1. À quoi le terme « secteur » se rapporte-t-il généralement?
+   a) Le prix de l'action d'une seule entreprise
+   b) Une grande partie de l'économie dans laquelle les entreprises exercent leurs activités
+   c) Un type d'obligation
+   d) Un organisme gouvernemental
+2. Quel risque la concentration sectorielle crée-t-elle, même avec de nombreux titres individuels?
+   a) Aucun risque
+   b) Une forte exposition au sort d'un seul secteur, malgré un nombre de titres qui semble diversifié
+   c) Des rendements plus élevés garantis
+   d) L'élimination de tout risque de portefeuille
+3. Vrai ou faux : Compter le nombre de titres individuels suffit à confirmer une diversification suffisante.
+4. Qu'est-ce que la répartition par secteur d'Hassan a révélé qu'un simple décompte des titres n'avait pas montré?
+   a) Il avait trop peu de titres
+   b) Plus de 60 % de son portefeuille était concentré dans un seul secteur
+   c) Il ne possédait aucune action
+   d) Son portefeuille était parfaitement diversifié
+
+**5. Corrigé**
+1. b  2. b  3. Faux  4. b
+
+**6. Réponses et explications**
+1. Un secteur désigne une grande partie de l'économie dans laquelle les entreprises exercent leurs activités.
+2. Même de nombreux titres individuels peuvent être fortement concentrés dans un seul secteur, ce qui crée une vulnérabilité précise.
+3. Un simple décompte des titres ne confirme pas une vraie diversification si ces titres se regroupent dans un seul secteur.
+4. L'analyse par secteur d'Hassan a révélé une concentration que le simple décompte de ses titres avait cachée.
+
+**7. Points clés à retenir**
+- Le secteur et l'industrie décrivent les parties larges et précises de l'économie dans lesquelles les entreprises exercent leurs activités.
+- La concentration sectorielle peut exister même avec un nombre de titres individuels qui semble élevé.
+- Les différents secteurs peuvent avoir des performances différentes selon les conditions économiques, en tant que tendances générales.
+- Une diversification sectorielle volontaire réduit la vulnérabilité aux difficultés propres à un seul secteur.
+
+===== WHITE-L2-025
+TITLE: L'exposition internationale et nationale
+SUMMARY: Comprends ce qu'apporte l'exposition internationale à un portefeuille, ses risques propres et pourquoi le risque de change est un facteur distinct à considérer.
+## WHITE-L2-025
+### L'exposition internationale et nationale
+
+**1. Objectifs d'apprentissage**
+À la fin de cette leçon, tu pourras :
+- Expliquer le concept général de l'exposition internationale par rapport à l'exposition nationale.
+- Nommer les avantages et les risques possibles de l'exposition internationale.
+- Reconnaître le risque de change comme un élément distinct à considérer pour les placements internationaux.
+
+**2. Contenu principal**
+L'exposition nationale désigne les placements dans des entreprises établies dans le pays d'origine de l'investisseur; l'exposition internationale désigne les placements dans des entreprises établies ailleurs. Ajouter une exposition internationale peut prolonger au-delà des frontières les notions de diversification des leçons 17 et 24, puisque les économies des différents pays n'évoluent pas toujours parfaitement au même rythme, ce qui peut adoucir la performance globale du portefeuille — même si cet avantage n'est pas garanti dans chaque période, surtout pendant les ralentissements qui touchent le monde entier en même temps.
+
+L'investissement international ajoute des éléments à considérer qui n'existent pas dans l'investissement purement national : le risque de change (les variations des taux de change peuvent toucher les rendements d'un investisseur dont la monnaie d'origine diffère de celle du placement, indépendamment de la performance réelle du placement sous-jacent), des normes réglementaires et comptables différentes d'un pays à l'autre, et parfois des considérations de stabilité politique et économique différentes, qui varient beaucoup selon le pays ou la région.
+
+**3. Exemple pratique**
+En ajoutant une exposition aux actions internationales à son portefeuille jusque-là entièrement national, Camila remarque que, même quand les entreprises étrangères sous-jacentes performent bien dans leur monnaie locale, ses rendements réels (convertis dans sa monnaie d'origine) peuvent être différents à cause des variations des taux de change pendant la période où elle a détenu le placement. Elle étudie cette dynamique du risque de change avant d'investir davantage et l'intègre comme un élément distinct dans son évaluation globale du risque, séparément de la performance d'affaires des entreprises étrangères elles-mêmes.
+
+**4. Quiz de pratique**
+1. Qu'est-ce que l'« exposition nationale »?
+   a) Des placements seulement dans des entreprises étrangères
+   b) Des placements dans des entreprises établies dans le pays d'origine de l'investisseur
+   c) Un type d'obligation
+   d) Un programme gouvernemental
+2. Qu'est-ce que le « risque de change »?
+   a) Le risque que le prix de l'action d'une entreprise baisse
+   b) Le risque que les variations des taux de change touchent les rendements, indépendamment de la performance du placement sous-jacent
+   c) Un type de dividende
+   d) Une taxe sur l'immobilier
+3. Vrai ou faux : La diversification internationale garantit toujours une performance globale plus stable du portefeuille pendant chaque période de marché.
+4. Qu'est-ce que Camila a découvert à propos de son exposition aux actions internationales?
+   a) Les variations des taux de change n'avaient aucun effet sur ses rendements réels
+   b) Les variations des taux de change pouvaient toucher ses rendements indépendamment de la performance réelle des entreprises étrangères
+   c) L'investissement international éliminait tout risque
+   d) Elle ne pouvait pas du tout investir à l'international
+
+**5. Corrigé**
+1. b  2. b  3. Faux  4. b
+
+**6. Réponses et explications**
+1. L'exposition nationale désigne les placements dans des entreprises établies dans le pays d'origine de l'investisseur.
+2. Le risque de change désigne les variations des taux de change qui touchent les rendements indépendamment de la performance réelle du placement sous-jacent.
+3. L'effet adoucissant de la diversification internationale n'est pas garanti dans chaque période, surtout pendant les ralentissements mondiaux simultanés.
+4. Les rendements réels de Camila ont été touchés par les variations des taux de change, séparément de la performance d'affaires des entreprises étrangères.
+
+**7. Points clés à retenir**
+- L'exposition nationale couvre les placements dans le pays d'origine; l'exposition internationale couvre les placements étrangers.
+- L'exposition internationale peut prolonger les avantages de la diversification au-delà des frontières, sans garantie dans chaque période.
+- Le risque de change est un élément distinct propre à l'investissement international.
+- Les conditions réglementaires, comptables, politiques et économiques varient aussi selon le pays ou la région.
+
+===== WHITE-L2-026
+TITLE: La volatilité et la tolérance au risque
+SUMMARY: Distingue la volatilité d'une perte permanente, et la tolérance au risque de la capacité de prendre des risques, pour choisir une répartition que tu pourras vraiment tenir.
+## WHITE-L2-026
+### La volatilité et la tolérance au risque
+
+**1. Objectifs d'apprentissage**
+À la fin de cette leçon, tu pourras :
+- Définir de façon conceptuelle la volatilité.
+- Faire la différence entre la volatilité et la notion de perte permanente.
+- Expliquer le concept général de la tolérance au risque et son rôle dans les décisions de portefeuille.
+
+**2. Contenu principal**
+La volatilité désigne l'ampleur et la fréquence des variations de prix d'un placement avec le temps : un actif très volatil monte et descend de façon plus marquée et plus fréquente qu'un actif peu volatil. Il est important de distinguer la volatilité de la perte permanente : un actif volatil qui finit par se redresser et croître a connu de la volatilité, pas nécessairement une perte permanente, alors qu'un actif qui baisse et ne se redresse jamais (comme une entreprise qui ferme ses portes) représente une vraie perte permanente.
+
+La tolérance au risque désigne la volonté et la capacité psychologique d'un investisseur à supporter la volatilité sans abandonner son plan de placement — par exemple, sans vendre en panique pendant une baisse. Elle est distincte de la capacité de prendre des risques, qui désigne la capacité financière d'un investisseur à supporter des pertes compte tenu de sa situation précise (horizon de placement, stabilité du revenu, autres ressources), peu importe son niveau de confort émotionnel. Une répartition de l'actif réfléchie (leçon 16) tient compte des deux : un investisseur peut avoir une grande capacité de prendre des risques (des décennies avant la retraite, un revenu stable), mais une faible tolérance au risque (beaucoup d'anxiété pendant les baisses), et un plan responsable tient compte des deux réalités, pas seulement de la plus favorable.
+
+**3. Exemple pratique**
+Même si elle a des décennies devant elle avant la retraite et un revenu stable (ce qui suggère une grande capacité de prendre des risques), Beatriz reconnaît honnêtement qu'elle a déjà vendu des placements en panique pendant des baisses passées, ce qui reflète une tolérance au risque plus faible que ce que sa seule situation financière laisserait croire. Au lieu de choisir une répartition fondée uniquement sur sa capacité financière à supporter la volatilité, elle choisit une répartition un peu plus prudente que ce qu'un calcul basé seulement sur sa capacité suggérerait, en donnant la priorité à une répartition qu'elle pourra vraiment tenir pendant les baisses du marché plutôt qu'à une répartition optimale en théorie, mais intenable en pratique pour elle.
+
+**4. Quiz de pratique**
+1. À quoi la volatilité se rapporte-t-elle généralement?
+   a) À une perte permanente et irrécupérable
+   b) À l'ampleur et à la fréquence des variations de prix avec le temps
+   c) À un type d'obligation
+   d) À un rendement garanti
+2. Quelle est la différence entre la tolérance au risque et la capacité de prendre des risques?
+   a) Ce sont des notions identiques
+   b) La tolérance au risque est la volonté psychologique de supporter la volatilité; la capacité est l'aptitude financière à supporter des pertes
+   c) La capacité de prendre des risques ne s'applique qu'aux obligations
+   d) La tolérance au risque n'a aucun rapport avec l'investissement
+3. Vrai ou faux : Un actif volatil qui finit par se redresser et croître a nécessairement subi une perte permanente.
+4. Pourquoi Beatriz a-t-elle choisi une répartition plus prudente que ce que sa seule capacité de prendre des risques aurait suggéré?
+   a) Elle n'avait aucune capacité financière de prendre des risques
+   b) Sa tolérance psychologique au risque plus faible, démontrée par ses ventes en panique passées, justifiait une répartition plus tenable
+   c) Elle n'aimait aucune forme d'investissement
+   d) Son employeur l'exigeait
+
+**5. Corrigé**
+1. b  2. b  3. Faux  4. b
+
+**6. Réponses et explications**
+1. La volatilité décrit l'ampleur et la fréquence des variations de prix, pas nécessairement une perte permanente.
+2. La tolérance au risque est la volonté psychologique de supporter la volatilité; la capacité de prendre des risques est l'aptitude financière à supporter des pertes.
+3. Un actif volatil qui se redresse et croît a connu de la volatilité, pas nécessairement une perte permanente.
+4. L'évaluation honnête de Beatriz de sa tolérance au risque plus faible, malgré une grande capacité, l'a menée à un choix de répartition plus tenable.
+
+**7. Points clés à retenir**
+- La volatilité décrit l'ampleur et la fréquence des variations de prix, ce qui est différent d'une perte permanente.
+- La tolérance au risque est la volonté psychologique de supporter la volatilité; la capacité de prendre des risques est l'aptitude financière à supporter des pertes.
+- Un plan responsable tient compte à la fois de la tolérance et de la capacité, pas seulement de la plus favorable des deux.
+- Une répartition optimale en théorie, mais intenable pour la psychologie d'un investisseur, n'est peut-être pas le bon choix.
+
+===== WHITE-L2-027
+TITLE: L'horizon de placement et son effet sur la stratégie
+SUMMARY: Comprends comment le temps avant d'avoir besoin de ton argent influence le niveau de risque approprié, et pourquoi chaque objectif peut avoir son propre horizon.
+## WHITE-L2-027
+### L'horizon de placement et son effet sur la stratégie
+
+**1. Objectifs d'apprentissage**
+À la fin de cette leçon, tu pourras :
+- Définir de façon conceptuelle l'horizon de placement.
+- Expliquer comment l'horizon de placement influence généralement le niveau de risque approprié.
+- Reconnaître qu'un investisseur peut avoir plusieurs horizons de placement distincts pour différents objectifs.
+
+**2. Contenu principal**
+L'horizon de placement désigne la période qui reste avant qu'un investisseur s'attende à avoir besoin d'un montant investi donné ou à l'utiliser. C'est l'un des facteurs les plus importants pour façonner une stratégie appropriée (leçons 16 et 26) : un horizon plus long donne généralement à l'investisseur plus de capacité à supporter la volatilité à court terme, puisqu'il a plus de temps pour qu'une baisse temporaire puisse se redresser avant d'avoir réellement besoin de l'argent. Un horizon plus court exige généralement un positionnement plus prudent, puisqu'il reste moins de temps pour se remettre d'une baisse mal tombée avant d'avoir besoin des fonds.
+
+Fait important : un investisseur a souvent plusieurs horizons de placement distincts en même temps, pour différents objectifs financiers — une épargne-retraite dans plusieurs décennies, un fonds pour la mise de fonds d'une maison dont il aura besoin dans trois ans, et un fonds d'urgence dont il pourrait avoir besoin à tout moment, sans préavis. Chacun de ces montants peut, avec raison, justifier une stratégie différente, puisque leurs horizons sont fondamentalement différents, même s'ils appartiennent à la même personne.
+
+**3. Exemple pratique**
+En examinant l'ensemble de ses finances, Georgia reconnaît qu'elle gère de l'argent qui a plusieurs horizons très différents en même temps : une épargne-retraite qu'elle ne compte pas toucher avant plus de trente ans, un fonds pour la mise de fonds d'une maison qu'elle prévoit utiliser d'ici deux ans et un fonds d'urgence dont elle pourrait avoir besoin à tout moment. Au lieu d'appliquer une seule stratégie à tout cet argent, Georgia place son épargne-retraite de façon audacieuse en actions, vu le long horizon, garde son fonds de mise de fonds dans des placements plus prudents et stables, vu le court horizon, et garde son fonds d'urgence en liquidités facilement accessibles, en reconnaissant que l'horizon distinct de chaque montant exige une approche distincte.
+
+**4. Quiz de pratique**
+1. À quoi l'horizon de placement se rapporte-t-il généralement?
+   a) Au montant total investi
+   b) À la période qui reste avant qu'un investisseur s'attende à avoir besoin de l'argent investi ou à l'utiliser
+   c) À un type d'obligation
+   d) À une date limite de déclaration de revenus
+2. Comment un horizon de placement plus long influence-t-il généralement le niveau de risque approprié?
+   a) Il exige généralement un positionnement plus prudent
+   b) Il donne généralement plus de capacité à supporter la volatilité à court terme
+   c) Il n'a aucun effet sur la stratégie
+   d) Il oblige à éviter toutes les actions
+3. Vrai ou faux : Un investisseur ne peut jamais avoir qu'un seul horizon de placement pour tout son argent.
+4. Pourquoi Georgia a-t-elle utilisé des stratégies différentes pour son épargne-retraite, son fonds de maison et son fonds d'urgence?
+   a) Un règlement l'y obligeait
+   b) Chaque montant avait un horizon fondamentalement différent qui justifiait une approche différente
+   c) Les trois montants avaient le même horizon
+   d) Elle n'aimait pas la diversification
+
+**5. Corrigé**
+1. b  2. b  3. Faux  4. b
+
+**6. Réponses et explications**
+1. L'horizon de placement est la période qui reste avant qu'un investisseur s'attende à avoir besoin de l'argent investi ou à l'utiliser.
+2. Un horizon plus long donne généralement plus de capacité à supporter la volatilité à court terme avant d'avoir besoin des fonds.
+3. Les gens ont souvent plusieurs horizons de placement distincts en même temps, pour différents objectifs financiers.
+4. Les horizons différents de chacun des objectifs financiers de Georgia justifiaient, avec raison, des stratégies nettement différentes.
+
+**7. Points clés à retenir**
+- L'horizon de placement est la période qui reste avant qu'on prévoie avoir besoin de l'argent investi.
+- Un horizon plus long permet généralement plus de volatilité; un horizon plus court exige généralement un positionnement plus prudent.
+- Une même personne peut avoir plusieurs horizons de placement distincts en même temps, pour différents objectifs.
+- Chaque montant distinct peut, avec raison, justifier sa propre stratégie selon son propre horizon de placement.

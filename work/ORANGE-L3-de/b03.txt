@@ -1,0 +1,187 @@
+===== ORANGE-L3-009
+TITLE: Warum Rabatte die Marge schneller aufzehren, als sie die Menge steigern
+SUMMARY: Erfahre, warum ein prozentualer Rabatt oft eine überproportional größere Absatzsteigerung erfordert, nur um denselben Gesamtgewinn zu halten, und warum diese Rechnung leicht übersehen wird.
+# ORANGE-L3-009: Warum Rabatte die Marge schneller aufzehren, als sie die Menge steigern
+
+## Lernziele
+Am Ende dieser Lektion kannst du:
+- berechnen, wie viel zusätzliche Menge ein Rabatt erfordert, nur um denselben Gesamtgewinn zu halten
+- erklären, warum diese erforderliche Mengensteigerung oft größer ist, als die Intuition vermuten lässt
+- dieses Konzept mit der Break-even-Analyse aus dem BLAUEN Lernpfad dieses Lehrplans verbinden
+
+## Hauptinhalt
+
+Der BLAUE Lernpfad dieses Lehrplans hat die Break-even-Analyse mit Fixkosten, variablen Kosten und Deckungsbeitrag behandelt. Hier das „Warum“, weshalb dieselbe Rechnung etwas Überraschendes über Rabatte zeigt: Weil ein Rabatt den Deckungsbeitrag jedes einzelnen Verkaufs verringert, ist die Mengensteigerung, die nötig ist, um denselben Gesamtgewinn zu halten, oft viel größer, als der Rabattsatz selbst vermuten lässt.
+
+So funktioniert der Mechanismus: Wird ein Produkt für 100 € verkauft und betragen die variablen Kosten 60 € (Deckungsbeitrag 40 €), senkt ein Rabatt von 20 % den Preis auf 80 € und den Deckungsbeitrag auf 20 € – ein Rückgang der Marge pro Stück um 50 %, nicht um 20 %. Um denselben Gesamtgewinn wie vorher zu erzielen, müsste das Unternehmen doppelt so viele Stück verkaufen, nicht nur 20 % mehr – nur um den Rabatt auszugleichen, ganz zu schweigen davon, den Gewinn tatsächlich zu steigern. (Zur Vereinfachung sind die Beträge hier Nettobeträge ohne Umsatzsteuer.)
+
+In Deutschland gilt zudem eine Pflicht zur Transparenz: Wer gegenüber Verbrauchern mit einer Preisermäßigung wirbt, muss nach der Preisangabenverordnung grundsätzlich den niedrigsten Preis der letzten 30 Tage vor der Ermäßigung angeben. Ständige „Rabatte“ auf einen künstlich hohen Ausgangspreis sind damit nicht nur wirtschaftlich fragwürdig, sondern auch rechtlich riskant.
+
+Bevor du eine Rabattaktion startest: Wie hoch ist dein tatsächlicher Deckungsbeitrag zum vollen Preis, und wie viel zusätzliche Menge bräuchtest du wirklich, um den aktuellen Gewinn wenigstens zu halten? Ist diese Mengensteigerung in deinem Markt realistisch?
+
+## Durchgerechnetes Beispiel
+
+[ILLUSTRATIVE EXAMPLE] Ein Unternehmen mit einem Deckungsbeitrag von 40 € pro Stück gewährt einen Rabatt von 20 %, wodurch der Deckungsbeitrag pro Stück auf 20 € sinkt. [ASSUMPTION] Der Absatz steigt um 30 %, was nach einem klaren Erfolg klingt – aber weil die Marge pro Stück halbiert wurde, bringt diese Mengensteigerung von 30 % tatsächlich weniger Gesamtgewinn als vor dem Rabatt, nicht mehr: Aus 100 Stück mit je 40 € (4.000 €) werden 130 Stück mit je 20 € (2.600 €). Das zeigt, warum die intuitive Überlegung „Rabatt bringt mehr Verkäufe, mehr Verkäufe bringen mehr Gewinn“ die überproportionale Wirkung der schrumpfenden Marge übersieht.
+
+## Übungsquiz
+1. Warum verringert ein prozentualer Rabatt den Deckungsbeitrag um einen größeren Prozentsatz als den Rabatt selbst?
+2. Warum führte im durchgerechneten Beispiel eine Mengensteigerung von 30 % trotzdem zu einem geringeren Gesamtgewinn?
+3. Was sollte vor einer Rabattaktion berechnet werden, in Verbindung mit dem Break-even-Rahmen aus dem BLAUEN Lernpfad?
+
+## Lösungsschlüssel
+1. Weil der Rabatt vollständig zulasten der Marge geht und nicht der Kosten, sodass eine moderate Preissenkung einen viel größeren Einschnitt gerade beim Gewinn pro Stück bedeuten kann.
+2. Weil der Rabatt die Marge pro Stück halbiert hat, sodass die Mengensteigerung, die nötig gewesen wäre, um nur den bisherigen Gesamtgewinn zu erreichen, größer als 30 % war – nämlich 100 %.
+3. Der tatsächliche Deckungsbeitrag zum vollen Preis und die konkrete Mengensteigerung, die nötig ist, um den aktuellen Gesamtgewinn zu halten, und dann eine ehrliche Einschätzung, ob diese Mengensteigerung realistisch ist.
+
+## Antworten und Erklärungen
+1. Das ist der zentrale rechnerische Mechanismus, auf dem die Lektion aufbaut.
+2. Das geht das konkrete Zahlenbeispiel durch und festigt das Konzept.
+3. Das verknüpft die Lektion mit dem Break-even- und Deckungsbeitragsrahmen aus dem BLAUEN Lernpfad.
+
+## Das Wichtigste in Kürze
+- Ein Rabatt verringert den Deckungsbeitrag um einen proportional größeren Betrag als den Rabattsatz selbst.
+- Die Mengensteigerung, die nach einem Rabatt nötig ist, um nur denselben Gesamtgewinn zu halten, ist oft viel größer, als die Intuition vermuten lässt.
+- Wer vor einem Rabatt den tatsächlichen Deckungsbeitrag und die erforderliche Menge berechnet, vermeidet eine Aktion, die sich erfolgreich anfühlt, aber den Gewinn tatsächlich senkt.
+
+## Hinweis zum Bildungszweck
+Diese Lektion dient ausschließlich der allgemeinen wirtschaftlichen Bildung und ist keine individuelle Finanz-, Anlage-, Steuer- oder Rechtsberatung. Alle Zahlen sind veranschaulichende Schätzungen und keine Garantien. Wende dich vor Preisentscheidungen an eine qualifizierte Fachperson, etwa eine Steuerberaterin, einen Steuerberater oder eine Unternehmensberatung.
+
+===== ORANGE-L3-010
+TITLE: Warum eine Lockvogel-Strategie eine sorgfältige Stückkostenrechnung erfordert
+SUMMARY: Erfahre, warum der Verkauf eines Produkts mit Verlust, um andere Verkäufe anzukurbeln, nur funktioniert, wenn die Zahlen auf der anderen Seite des Geschäfts tatsächlich erfasst werden und stimmen.
+# ORANGE-L3-010: Warum eine Lockvogel-Strategie eine sorgfältige Stückkostenrechnung erfordert
+
+## Lernziele
+Am Ende dieser Lektion kannst du:
+- erklären, was eine Lockvogel-Strategie erreichen soll
+- erklären, warum diese Strategie vollständig von einer genau erfassten Stückkostenrechnung abhängt
+- das Risiko einer Lockvogel-Strategie ohne diese Disziplin erklären
+
+## Hauptinhalt
+
+Eine **Lockvogel-Strategie** (englisch „Loss Leader“) verkauft ein Produkt zum oder unter dem Einstandspreis, gezielt um Kundschaft anzuziehen oder Käufe anderer, profitablerer Produkte oder Dienstleistungen anzukurbeln. Hier das „Warum“, weshalb das je nach Disziplin eine wirklich solide oder eine wirklich gefährliche Strategie sein kann: In direkter Verbindung mit dem Konzept der Stückkostenrechnung („Unit Economics“) aus dem BLAUEN Lernpfad dieses Lehrplans ergibt ein Lockvogelangebot nur Sinn, wenn das Unternehmen mit echten Daten tatsächlich nachweisen kann, dass die über das Lockvogelprodukt gewonnenen Kunden verlässlich die profitablen Produkte kaufen – in einer Quote und mit einer Marge, die den anfänglichen Verlust mehr als ausgleichen.
+
+Hier das Risiko: Man kann leicht annehmen, dass dieser Effekt des Zusatzverkaufs eintritt, ohne ihn je streng zu messen – ein Unternehmen kann sich einreden, dass ein Lockvogelangebot „funktioniert“, weil das Lockvogelprodukt beliebt ist, ohne zu prüfen, ob die angenommenen nachgelagerten profitablen Käufe tatsächlich in der Quote stattfinden, von der die Strategie abhängt. Die Beliebtheit des Lockvogelprodukts selbst ist kein Beleg dafür, dass die Strategie insgesamt profitabel ist.
+
+Hinzu kommen rechtliche Grenzen: In Deutschland dürfen Unternehmen mit überlegener Marktmacht gegenüber kleinen und mittleren Wettbewerbern Waren grundsätzlich nicht nur gelegentlich unter Einstandspreis anbieten (§ 20 Abs. 3 GWB), und ein beworbenes Lockangebot, das nicht in angemessener Menge vorrätig ist, kann als irreführende Werbung unzulässig sein.
+
+Bevor du eine Lockvogelaktion startest: Welche konkreten Daten müsstest du erfassen, um zu bestätigen, dass Kunden den profitablen Folgekauf tatsächlich tätigen, und in welcher Quote müsste das geschehen, damit sich die ganze Strategie lohnt?
+
+## Durchgerechnetes Beispiel
+
+[ILLUSTRATIVE EXAMPLE] Ein Unternehmen verkauft ein bestimmtes Produkt mit Verlust und nimmt an, dass Kunden danach eine separate, profitable Ergänzung in ausreichend hoher Quote kaufen, damit sich die Strategie insgesamt lohnt. [ASSUMPTION] Das Lockvogelprodukt wird sehr beliebt, und das Unternehmen wertet diese Beliebtheit als Beleg für den Erfolg der Strategie – ohne je zu messen, welcher Anteil dieser Kunden tatsächlich die profitable Ergänzung kauft. Liegt diese Folgekaufquote tatsächlich deutlich niedriger als angenommen, könnte das Unternehmen eine Strategie betreiben, die beliebt, aber wirklich unprofitabel ist – gerade weil es die Stückkostenrechnung, von der die Strategie abhängt, nie erfasst hat.
+
+## Übungsquiz
+1. Was soll eine Lockvogel-Strategie erreichen?
+2. Warum hängt diese Strategie vollständig von einer genau erfassten Stückkostenrechnung ab, in Verbindung mit dem BLAUEN Lernpfad?
+3. Warum ist die Beliebtheit des Lockvogelprodukts selbst kein Beleg dafür, dass die Strategie insgesamt profitabel ist?
+
+## Lösungsschlüssel
+1. Ein Produkt zum oder unter dem Einstandspreis zu verkaufen, gezielt um Kundschaft anzuziehen oder Käufe anderer, profitablerer Produkte oder Dienstleistungen anzukurbeln.
+2. Weil die Strategie nur Sinn ergibt, wenn die angenommene Quote und Marge der Zusatzverkäufe tatsächlich eintreten, was echte Messung statt Annahme erfordert – ganz im Sinne der Disziplin der Stückkostenrechnung aus dem BLAUEN Lernpfad.
+3. Weil die Beliebtheit des Lockvogelprodukts nicht bestätigt, dass der nachgelagerte profitable Kauf tatsächlich in der Quote stattfindet, die nötig ist, um den anfänglichen Verlust zu rechtfertigen.
+
+## Antworten und Erklärungen
+1. Das ist die grundlegende Definition dieser Lektion.
+2. Das verknüpft die Lektion direkt mit dem Konzept der Stückkostenrechnung aus dem BLAUEN Lernpfad.
+3. Das ist der zentrale Warnhinweis, auf dem die Lektion aufbaut.
+
+## Das Wichtigste in Kürze
+- Eine Lockvogel-Strategie verkauft ein Produkt mit Verlust, gezielt um profitablere Folgekäufe anzukurbeln.
+- Das funktioniert nur, wenn Quote und Marge der Folgekäufe tatsächlich erfasst und bestätigt werden, statt sie einfach anzunehmen.
+- Die Beliebtheit des Lockvogelprodukts allein beweist nicht, dass die Strategie insgesamt profitabel ist; zudem setzen Wettbewerbs- und Lauterkeitsrecht Grenzen.
+
+## Hinweis zum Bildungszweck
+Diese Lektion dient ausschließlich der allgemeinen wirtschaftlichen Bildung und ist keine individuelle Finanz-, Anlage-, Steuer- oder Rechtsberatung. Wende dich vor Entscheidungen über deine Preisstrategie an eine qualifizierte Fachperson, etwa eine Steuerberaterin, einen Steuerberater, eine Unternehmensberatung oder eine Rechtsanwältin.
+
+===== ORANGE-L3-011
+TITLE: Warum Mundpropaganda der günstigste und am wenigsten steuerbare Kanal ist
+SUMMARY: Erfahre, warum organische Mundpropaganda keine direkten Kosten für die Kundengewinnung verursacht, sich aber zugleich der Steuerung und Prognose entzieht, die andere, bezahlte Kanäle ermöglichen.
+# ORANGE-L3-011: Warum Mundpropaganda der günstigste und am wenigsten steuerbare Kanal ist
+
+## Lernziele
+Am Ende dieser Lektion kannst du:
+- erklären, warum Mundpropaganda praktisch keine direkten Kosten für die Kundengewinnung verursacht
+- erklären, warum sich derselbe Kanal der Prognose und Steuerung entzieht, die andere Kanäle ermöglichen
+- dieses Konzept mit dem Rahmen aus Risiko und Ertrag im GOLDENEN Lernpfad dieses Lehrplans verbinden
+
+## Hauptinhalt
+
+**Mundpropaganda** – Kunden, die ein Unternehmen ohne bezahlten Anreiz weiterempfehlen – ist oft der günstigste Kanal zur Kundengewinnung, den ein Unternehmen hat, weil keine direkten Werbeausgaben anfallen. Hier das „Warum“, weshalb das ihn nicht automatisch zum besten Kanal macht, auf dem man eine Strategie aufbaut: Anders als bezahlte Werbung, die sich ausweiten, testen und vernünftig prognostizieren lässt (innerhalb der Wahrscheinlichkeitsgrenzen aus Lektion 3), ist Mundpropaganda wirklich schwer zu steuern, vorherzusagen oder gezielt auf Abruf auszuweiten – sie hängt von Kundenzufriedenheit und sozialen Dynamiken ab, die weitgehend außerhalb der direkten Kontrolle des Unternehmens liegen. Und sie lässt sich auch nicht auf zulässige Weise „kaufen“: Gefälschte oder heimlich bezahlte Kundenbewertungen sind in Deutschland nach dem UWG unlauter, und wer mit Bewertungen wirbt, muss darüber informieren, ob und wie er ihre Echtheit prüft.
+
+Das knüpft an den Rahmen aus Risiko und Ertrag an, der sich durch den GOLDENEN Lernpfad zieht: Mundpropaganda bietet einen attraktiven „Ertrag“ (niedrige Kosten pro gewonnenem Kunden), bringt aber echte Unsicherheit und fehlende Steuerbarkeit als ihr konkretes Risiko mit sich – ein Unternehmen, das für sein Wachstum stark auf Mundpropaganda setzt, wettet auf einen Kanal, den es beeinflussen (durch ein großartiges Produkt und guten Service), aber nicht direkt steuern oder verlässlich ausweiten kann, wenn es Wachstum zu einem bestimmten Zeitpunkt braucht.
+
+Wenn dein Unternehmen derzeit stark von Mundpropaganda abhängt: Was würde mit deinen Wachstumsplänen geschehen, wenn dieser Kanal aus Gründen außerhalb deiner Kontrolle einfach langsamer würde? Welchen steuerbaren Kanal müsstest du aktivieren, um das auszugleichen?
+
+## Durchgerechnetes Beispiel
+
+[ILLUSTRATIVE EXAMPLE] Ein Unternehmen ist vor allem durch Weiterempfehlungen gewachsen und profitiert von niedrigen Kosten für die Kundengewinnung und starker Kundentreue. [ASSUMPTION] Als das Unternehmen für eine Finanzierungsrunde ein konkretes, zeitlich festgelegtes Wachstumsziel erreichen muss, stellt es fest, dass sich Mundpropaganda nicht einfach auf Abruf ausweiten lässt wie ein bezahlter Kanal – sein günstigster Kanal ist zugleich sein am wenigsten steuerbarer, und das Unternehmen muss in einen teureren, aber direkter steuerbaren bezahlten Kanal investieren, um seinen konkreten Zeitplan einzuhalten.
+
+## Übungsquiz
+1. Warum verursacht Mundpropaganda praktisch keine direkten Kosten für die Kundengewinnung?
+2. Warum entzieht sich derselbe Kanal der Steuerung und Prognose, die andere Kanäle ermöglichen?
+3. Wie knüpft das an den Rahmen aus Risiko und Ertrag im GOLDENEN Lernpfad an?
+
+## Lösungsschlüssel
+1. Weil keine direkten Werbeausgaben nötig sind – Kunden empfehlen das Unternehmen ohne bezahlten Anreiz weiter.
+2. Weil sie von Kundenzufriedenheit und sozialen Dynamiken abhängt, die weitgehend außerhalb der direkten Kontrolle des Unternehmens liegen, anders als ein bezahlter Kanal, der gezielt ausgeweitet werden kann.
+3. Mundpropaganda bietet einen attraktiven, kostengünstigen „Ertrag“, bringt aber echte Unsicherheit und fehlende Steuerbarkeit als ihr konkretes „Risiko“ mit – ein direktes Abbild des Verhältnisses von Risiko und Ertrag aus dem GOLDENEN Lernpfad, angewendet auf einen Marketingkanal.
+
+## Antworten und Erklärungen
+1. Das ist die grundlegende Definition dieser Lektion.
+2. Das ist der zentrale Zielkonflikt, den die Lektion hervorhebt.
+3. Das verknüpft die Lektion ausdrücklich mit dem Rahmen aus Risiko und Ertrag im GOLDENEN Lernpfad.
+
+## Das Wichtigste in Kürze
+- Mundpropaganda ist typischerweise der günstigste Kanal zur Kundengewinnung, weil keine direkten bezahlten Ausgaben nötig sind.
+- Derselbe Kanal ist wirklich schwer zu steuern, vorherzusagen oder auf Abruf auszuweiten, anders als bezahlte Kanäle – und er lässt sich nicht zulässig durch gekaufte Bewertungen ersetzen.
+- Das ist ein echter Zielkonflikt zwischen Risiko und Ertrag, ähnlich aufgebaut wie das Verhältnis von Risiko und Ertrag im GOLDENEN Lernpfad.
+
+## Hinweis zum Bildungszweck
+Diese Lektion dient ausschließlich der allgemeinen wirtschaftlichen Bildung und ist keine individuelle Finanz-, Anlage-, Steuer- oder Rechtsberatung. Wende dich vor Entscheidungen über deine Marketingstrategie an eine qualifizierte Fachperson, etwa eine Unternehmensberatung oder eine Rechtsanwältin.
+
+===== ORANGE-L3-012
+TITLE: Warum Marketingkanäle unterschiedliche Risiko-Ertrags-Profile haben
+SUMMARY: Erfahre, warum ein Vergleich von Marketingkanälen allein nach Kosten pro gewonnenem Kunden das unterschiedliche Risiko jedes Kanals übersieht und warum ein gestreuter Kanalmix der Streuung eines Anlageportfolios entspricht.
+# ORANGE-L3-012: Warum Marketingkanäle unterschiedliche Risiko-Ertrags-Profile haben
+
+## Lernziele
+Am Ende dieser Lektion kannst du:
+- erklären, warum verschiedene Marketingkanäle deutlich unterschiedliche Risikoprofile haben und nicht nur unterschiedliche Kosten
+- dieses Konzept mit dem Grundsatz der Streuung aus dem WEISSEN und dem GOLDENEN Lernpfad dieses Lehrplans verbinden
+- erklären, warum die vollständige Abhängigkeit von einem Kanal das Risiko konzentriert, unabhängig von seiner scheinbaren Effizienz
+
+## Hauptinhalt
+
+Der WEISSE und der GOLDENE Lernpfad dieses Lehrplans behandeln beide die Streuung (Diversifikation) als Weg, die Abhängigkeit von einer einzigen, möglicherweise schwankungsanfälligen Risikoquelle zu verringern. Hier das „Warum“, weshalb derselbe Grundsatz direkt für einen Mix aus Marketingkanälen gilt: Jeder Kanal – bezahlte Suchmaschinenwerbung, Werbung in sozialen Medien, Mundpropaganda (Lektion 11), Content-Marketing, Partnerschaften – hat sein eigenes Risikoprofil, etwa die Abhängigkeit von Algorithmusänderungen einer Plattform, wachsende Konkurrenz um Werbeplätze oder regulatorische Änderungen, die einen bestimmten Kanal treffen. Ein Beispiel für Letzteres sind in Europa die Datenschutzregeln: Verschärfte Anforderungen an Einwilligungen für Cookies und Tracking haben die Wirksamkeit mancher datengetriebener Werbeformen spürbar verändert.
+
+Ein Unternehmen, das seine Kundengewinnung vollständig auf einen Kanal konzentriert, selbst auf einen derzeit effizienten, geht ein Konzentrationsrisiko ein, das direkt dem Halten einer einzelnen Aktie oder einer einzigen Anlageklasse entspricht, wie an anderer Stelle dieses Lehrplans behandelt – eine einzige Richtlinienänderung, ein Algorithmus-Update oder ein Kostenanstieg auf einer Plattform kann die Leistung dieses Kanals plötzlich und erheblich stören, ohne dass ein anderer Kanal bereitsteht, um die Wirkung aufzufangen.
+
+Wenn dein Unternehmen derzeit die meisten Kunden über einen dominanten Kanal gewinnt: Was genau könnte diesen Kanal stören, und wie schnell könntest du eine Alternative nennenswert hochfahren, wenn es dazu käme?
+
+## Durchgerechnetes Beispiel
+
+[ILLUSTRATIVE EXAMPLE] Ein Unternehmen gewinnt den weitaus größten Teil seiner Kunden über eine einzige Werbeplattform und schätzt deren derzeit niedrige Kosten pro gewonnenem Kunden. [ASSUMPTION] Als diese Plattform ihren Algorithmus oder ihre Preisstruktur deutlich ändert, schießen die Kosten der Kundengewinnung in die Höhe und das Volumen bricht stark ein, ohne dass ein anderer etablierter Kanal reif genug wäre, die Lücke zu füllen – ein Konzentrationsrisiko, das direkt dem Halten einer einzigen Anlageklasse entspricht, wie im WEISSEN und im GOLDENEN Lernpfad behandelt, und das ein breiter gestreuter Kanalmix hätte abmildern können.
+
+## Übungsquiz
+1. Warum haben verschiedene Marketingkanäle deutlich unterschiedliche Risikoprofile und nicht nur unterschiedliche Kosten?
+2. Wie knüpft diese Lektion an den Grundsatz der Streuung aus dem WEISSEN und dem GOLDENEN Lernpfad an?
+3. Welches Risiko geht ein Unternehmen ein, wenn es seine Kundengewinnung vollständig auf einen Kanal konzentriert, selbst auf einen effizienten?
+
+## Lösungsschlüssel
+1. Weil jeder Kanal eigene Schwachstellen hat – Algorithmusänderungen der Plattform, Wettbewerbsdynamiken oder regulatorische Änderungen, die gerade diesen Kanal betreffen.
+2. Diese Lektion wendet dieselbe Logik der Streuung – das Verteilen des Risikos auf Quellen, die sich nicht alle gleich entwickeln – auf die Auswahl von Marketingkanälen statt auf Anlageklassen an.
+3. Ein Konzentrationsrisiko, das direkt dem Halten einer einzelnen Aktie oder Anlageklasse entspricht – eine Störung dieses einen Kanals kann die Kundengewinnung des ganzen Unternehmens plötzlich und erheblich treffen, ohne dass etwas anderes bereitsteht, um die Wirkung aufzufangen.
+
+## Antworten und Erklärungen
+1. Das ist das zentrale „Warum“, das erklärt, warum man Kanäle so betrachten sollte.
+2. Das verknüpft die Lektion ausdrücklich mit einem parallelen Konzept an anderer Stelle dieses Lehrplans.
+3. Das unterstreicht die praktische, warnende Folge der Kanalkonzentration.
+
+## Das Wichtigste in Kürze
+- Verschiedene Marketingkanäle haben eigene Risikoprofile und nicht nur unterschiedliche Kosten oder Effizienz.
+- Das entspricht direkt dem Grundsatz der Streuung aus dem WEISSEN und dem GOLDENEN Lernpfad.
+- Die Konzentration der Kundengewinnung auf einen einzigen Kanal schafft ein Konzentrationsrisiko, selbst wenn dieser Kanal derzeit effizient arbeitet.
+
+## Hinweis zum Bildungszweck
+Diese Lektion dient ausschließlich der allgemeinen wirtschaftlichen Bildung und ist keine individuelle Finanz-, Anlage-, Steuer- oder Rechtsberatung. Wende dich vor Entscheidungen über deine Marketingstrategie an eine qualifizierte Fachperson, etwa eine Unternehmensberatung.

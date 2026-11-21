@@ -1,0 +1,399 @@
+===== WHITE-L4-011
+TITLE: La sensibilidad de los bonos y las acciones a las tasas de interés: por qué reaccionan distinto
+SUMMARY: Conozca cómo el alza de las tasas afecta directamente el precio de los bonos y, mediante la tasa de descuento, la valoración de las acciones, y por qué las acciones de crecimiento son más sensibles.
+KEYWORDS: sensibilidad a las tasas de interés, bonos frente a acciones, tasa de descuento, armar un portafolio
+# La sensibilidad de los bonos y las acciones a las tasas de interés: por qué reaccionan distinto
+
+## Escenario inicial
+SUPUESTO/OPINIÓN (escenario hipotético solo con fines educativos): Imagine un banco central que sube su tasa de interés de referencia con fuerza y una y otra vez en pocos meses para combatir una inflación que va en aumento. Cuando un banco central sube las tasas de forma agresiva, los precios de los bonos y de las acciones no siempre se mueven en la misma dirección ni en la misma medida. Esta lección desmenuza los distintos mecanismos que funcionan en cada mercado.
+
+## Objetivos de aprendizaje
+- Explicar cómo el alza de las tasas de interés afecta directamente el precio de los bonos.
+- Explicar cómo el alza de las tasas de interés afecta la valoración de las acciones mediante el mecanismo de la tasa de descuento.
+- Explicar por qué las acciones de crecimiento normalmente son más sensibles a las tasas que las acciones de valor o las que pagan dividendos.
+- Aplicar este entendimiento para anticipar cómo un ciclo de alzas en las tasas podría afectar un portafolio mixto.
+
+## Contenido principal
+Recuerde de la lección 3 que el precio de los bonos se mueve al revés de las tasas de interés por el mecanismo de la duración: los bonos existentes de tasa fija se vuelven menos atractivos, y por lo tanto bajan de precio, cuando se emiten bonos nuevos a tasas más altas. DATO VERIFICADO: esta es una relación directa y mecánica, ya que los pagos de cupón fijos de un bono valen menos frente a las alternativas nuevas que rinden más.
+
+Aquí está el "porqué" las acciones responden a los cambios en las tasas mediante un mecanismo distinto y menos directo: la valoración de las acciones a menudo se calcula como el valor presente de los flujos de efectivo futuros que se esperan de una compañía, traídos a hoy con una tasa de descuento que sube y baja con las tasas de interés del momento. Cuando las tasas suben, como en el escenario de arriba, el valor presente de esos flujos de efectivo futuros baja, si todo lo demás se mantiene igual, y este efecto es mayor en las compañías cuyo valor depende mucho de flujos de efectivo que se esperan muy lejos en el futuro (muchas compañías de crecimiento) que en las compañías que ya generan hoy un flujo de efectivo importante (muchas compañías de valor y que pagan dividendos).
+
+Por eso, las acciones de crecimiento, igual que los bonos de mayor duración de la lección 3, tienden a ser más sensibles al alza de las tasas que las acciones de valor: el mecanismo es parecido en su concepto (una parte mayor del valor está más lejos en el tiempo, así que se descuenta con más peso), aunque los activos de fondo (ser dueño de una parte de la compañía frente a tener un derecho fijo de deuda) son muy distintos. Por eso, un ciclo de alzas en las tasas puede presionar a la vez los bonos y las acciones de crecimiento, aunque el mecanismo específico sea distinto en cada una de estas clases de activos.
+
+## Ejemplo práctico
+EJEMPLO ILUSTRATIVO: Durante un ciclo de alzas en las tasas, un fondo de bonos del gobierno de mayor duración baja 12% por el mecanismo de descuento directo de la lección 3, mientras que un índice cargado de acciones de crecimiento baja 18% en el mismo periodo, porque los inversionistas aplican una tasa de descuento más alta a compañías cuyas ganancias se esperan sobre todo en años futuros, y un índice cargado de acciones de valor, que generan un flujo de efectivo actual importante, baja solo 4% en el mismo periodo. Esto ilustra cómo el mismo ciclo de alzas afecta a distintos tipos de activos mediante mecanismos relacionados pero distintos, y en grados distintos.
+
+## Prueba práctica
+**Q1. ¿Por qué baja el precio de los bonos cuando suben las tasas de interés?**
+A) Los bonos existentes de tasa fija se vuelven menos atractivos frente a los bonos nuevos que rinden más
+B) El alza de las tasas siempre aumenta automáticamente el pago de cupón de un bono
+C) El precio de los bonos no tiene relación con los cambios en las tasas de interés
+D) El alza de las tasas elimina la obligación del emisor de pagar intereses
+
+**Q2. ¿Mediante qué mecanismo el alza de las tasas de interés normalmente presiona la valoración de las acciones?**
+A) El alza de las tasas aumenta la tasa de descuento que se aplica a los flujos de efectivo futuros que se esperan de una compañía, lo que reduce su valor presente
+B) El alza de las tasas no tiene efecto sobre los modelos de valoración de las acciones
+C) El alza de las tasas siempre aumenta las ganancias del año en curso de una compañía
+D) La valoración de las acciones la fija por completo la regulación del gobierno
+
+**Q3. ¿Por qué las acciones de crecimiento normalmente son más sensibles al alza de las tasas que las acciones de valor?**
+A) Las acciones de crecimiento no tienen exposición a los cambios en las tasas de interés
+B) Una parte mayor del valor de una acción de crecimiento depende de flujos de efectivo que se esperan más lejos en el futuro, que se descuentan con más peso cuando suben las tasas
+C) Las acciones de valor no se ven afectadas por ninguna condición económica
+D) Las acciones de crecimiento siempre pagan dividendos más altos que las acciones de valor
+
+**Q4. En el ejemplo, ¿por qué el índice de acciones de crecimiento bajó más que el índice de acciones de valor durante el ciclo de alzas en las tasas?**
+A) El índice de acciones de valor no tenía ninguna exposición al ciclo de alzas
+B) El valor del índice de crecimiento dependía más de flujos de efectivo futuros, que se descontaron con más peso al subir las tasas, a diferencia del flujo de efectivo actual importante del índice de valor
+C) Las acciones de crecimiento siempre están protegidas de los cambios en las tasas de interés
+D) El índice de valor estaba en otro país, que no se afectó por el cambio en las tasas
+
+**Q5. ¿Por qué un ciclo de alzas en las tasas puede presionar a la vez los bonos y las acciones de crecimiento, aunque sus mecanismos de fondo sean distintos?**
+A) Los bonos y las acciones de crecimiento son técnicamente el mismo tipo de activo
+B) A los dos los afectan mecanismos de descuento relacionados en su concepto: a los bonos, directamente por la comparación con cupones fijos, y a las acciones de crecimiento, por la valoración de los flujos de efectivo futuros descontados
+C) Las tasas de interés solo afectan a una clase de activo a la vez
+D) Las alzas en las tasas no tienen relación con ninguna de las dos clases de activos
+
+## Clave de respuestas
+Q1: A
+Q2: A
+Q3: B
+Q4: B
+Q5: B
+
+## Respuestas y explicaciones
+**Q1.** El cupón fijo de los bonos existentes se vuelve menos atractivo en comparación a medida que los bonos nuevos ofrecen rendimientos más altos, lo que empuja hacia abajo el precio de los bonos existentes.
+
+**Q2.** Las tasas de descuento más altas reducen el valor presente de los flujos de efectivo futuros, que son la base de la mayoría de los modelos de valoración de acciones.
+
+**Q3.** Igual que en los bonos de mayor duración, el valor de las acciones de crecimiento está concentrado más lejos en el futuro, lo que las hace más sensibles a los cambios en la tasa de descuento.
+
+**Q4.** La diferencia de sensibilidad vino de cuánto del valor de cada índice dependía de los flujos de efectivo futuros frente a los actuales.
+
+**Q5.** Aunque los mecanismos específicos son distintos, a los bonos y a las acciones de crecimiento los afecta el principio general de que el alza de las tasas de descuento reduce el valor presente de los flujos de efectivo futuros.
+
+## Puntos clave
+- El precio de los bonos baja cuando suben las tasas porque los cupones fijos existentes se vuelven menos atractivos que los de los bonos nuevos que rinden más.
+- El alza de las tasas presiona la valoración de las acciones mediante una tasa de descuento más alta aplicada a los flujos de efectivo futuros esperados.
+- Las acciones de crecimiento tienden a ser más sensibles a las tasas que las de valor porque una parte mayor de su valor está más lejos en el futuro.
+- Un ciclo de alzas en las tasas puede presionar a la vez los bonos y las acciones de crecimiento mediante mecanismos de descuento relacionados pero distintos.
+
+===== WHITE-L4-012
+TITLE: Análisis de la clasificación de crédito: por qué una rebaja no siempre significa un impago
+SUMMARY: Conozca lo que representa una clasificación de crédito, por qué una rebaja baja el precio de un bono aunque no haya impago y por qué las clasificaciones deben orientar su análisis sin reemplazarlo.
+KEYWORDS: clasificación de crédito, rebaja de un bono, riesgo de impago, análisis del riesgo de crédito
+# Análisis de la clasificación de crédito: por qué una rebaja no siempre significa un impago
+
+## Escenario inicial
+SUPUESTO/OPINIÓN (escenario hipotético solo con fines educativos): Imagine el gobierno de un país de tamaño mediano que da señales de que podría no poder hacer un próximo pago de sus bonos, lo que aumenta el riesgo de impago de su deuda. Cuando las finanzas de un gobierno están bajo presión, las agencias de clasificación de crédito a menudo rebajan la clasificación de sus bonos mucho antes de que realmente se deje de hacer un pago. Esta lección explica lo que de verdad indica una rebaja y lo que no indica.
+
+## Objetivos de aprendizaje
+- Explicar lo que representa una clasificación de crédito.
+- Explicar la diferencia entre una rebaja de la clasificación y un impago real.
+- Explicar por qué una rebaja normalmente afecta el precio de un bono aunque no haya impago.
+- Identificar los límites de fiarse solo de las clasificaciones de crédito para evaluar el riesgo.
+
+## Contenido principal
+Una clasificación de crédito, que emiten agencias que evalúan la capacidad de un deudor (ya sea una compañía o un gobierno) para cumplir con sus obligaciones de deuda, va desde las clasificaciones de alta calidad, de "grado de inversión", hasta categorías cada vez más arriesgadas, de "grado especulativo" o "alto rendimiento". DATO VERIFICADO: una clasificación es una evaluación de la probabilidad y la gravedad relativas de un impago, no una garantía ni una predicción precisa de un resultado futuro en particular.
+
+Aquí está el "porqué" una rebaja no siempre significa que un impago real esté cerca, ni siquiera que sea probable: las agencias de clasificación rebajan a los emisores cuando consideran que el riesgo de crédito aumentó (quizás por unas finanzas que se debilitan, como en el escenario de presión del gobierno de arriba), pero una probabilidad mayor de impago muchas veces sigue siendo una probabilidad absoluta bastante baja. Muchos bonos rebajados siguen pagando sus obligaciones por completo y con el tiempo vuelven a subir de clasificación cuando mejoran las condiciones, sin llegar nunca a un impago.
+
+Por eso, una rebaja sí importa mucho para el precio de los bonos y la estrategia del portafolio, aunque no haya un impago real: el precio de los bonos normalmente baja con una rebaja porque el mercado exige un rendimiento más alto (y por lo tanto acepta un precio más bajo, según la relación inversa entre precio y rendimiento de la lección 3) para compensar el riesgo percibido, ahora más alto, y porque algunos inversionistas institucionales están obligados por sus propias reglas de inversión a vender los bonos que caen por debajo del grado de inversión, lo que crea una presión de venta adicional que no depende de la capacidad real del emisor para pagar. Por eso, las clasificaciones de crédito deben orientar, sin reemplazarla, la propia evaluación del riesgo del inversionista: las clasificaciones pueden quedarse atrás frente a lo que está pasando en tiempo real y, OPINIÓN: algunos analistas sostienen que las agencias de clasificación a veces han tardado en rebajar a emisores cuya calidad de crédito ya se estaba deteriorando a la vista.
+
+## Ejemplo práctico
+EJEMPLO ILUSTRATIVO: Los bonos de un gobierno se rebajan de grado de inversión a grado especulativo después de meses de presión fiscal. El precio del bono cae fuertemente con la noticia de la rebaja, en parte porque algunos fondos institucionales grandes están obligados a vender cualquier bono que caiga por debajo del grado de inversión, sin importar lo que opinen ellos mismos de las perspectivas del emisor. Después, el gobierno pone en marcha reformas, sigue haciendo todos sus pagos a tiempo, y los bonos vuelven a subir a grado de inversión dieciocho meses más tarde. Esto ilustra que la rebaja reflejaba un riesgo mayor y una presión de venta forzada, no un impago real, que nunca ocurrió.
+
+## Prueba práctica
+**Q1. ¿Qué representa una clasificación de crédito?**
+A) Una predicción garantizada de si un deudor caerá en impago
+B) Una evaluación de la probabilidad y la gravedad relativas de un impago en las obligaciones de deuda de un deudor
+C) La tasa de interés exacta que pagará un bono
+D) Una medida de la volatilidad del precio de la acción de una compañía
+
+**Q2. ¿Por qué una rebaja de la clasificación no significa necesariamente que un impago esté cerca?**
+A) Las rebajas se asignan al azar, sin relación con el riesgo real
+B) Una rebaja refleja un riesgo evaluado más alto, pero la probabilidad de impago que resulta todavía puede ser relativamente baja, y muchos emisores rebajados siguen pagando por completo
+C) Por definición de la regulación, todos los bonos rebajados caen en impago en menos de un año
+D) Las rebajas solo aplican a bonos que ya cayeron en impago
+
+**Q3. ¿Por qué el precio de un bono normalmente baja con una rebaja, aunque no haya un impago real?**
+A) Las clasificaciones de crédito no afectan el precio de los bonos
+B) El mercado exige un rendimiento más alto para compensar el mayor riesgo percibido, y algunos inversionistas institucionales están obligados a vender los bonos rebajados, lo que crea una presión de venta adicional
+C) Una rebaja provoca automáticamente el repago completo del bono
+D) El precio de los bonos solo cambia cuando ocurre realmente un impago
+
+**Q4. ¿Qué les pasó a los bonos del gobierno del ejemplo después de la rebaja?**
+A) El gobierno cayó en impago en toda su deuda pendiente
+B) El gobierno siguió haciendo todos sus pagos a tiempo, puso en marcha reformas, y con el tiempo los bonos volvieron a subir a grado de inversión
+C) Se prohibió para siempre que los bonos se siguieran negociando
+D) La rebaja no tuvo ningún efecto sobre el precio del bono
+
+**Q5. ¿Por qué las clasificaciones de crédito deben orientar, y no reemplazar, la propia evaluación del riesgo del inversionista?**
+A) Las clasificaciones de crédito siempre son perfectamente exactas y no requieren ningún análisis independiente
+B) Las clasificaciones pueden quedarse atrás frente a lo que pasa en tiempo real, y algunos analistas sostienen que las agencias a veces han tardado en reflejar una calidad de crédito que se deterioraba
+C) La evaluación independiente del riesgo es ilegal para los inversionistas individuales
+D) Las clasificaciones de crédito nunca cambian una vez se asignan
+
+## Clave de respuestas
+Q1: B
+Q2: B
+Q3: B
+Q4: B
+Q5: B
+
+## Respuestas y explicaciones
+**Q1.** Las clasificaciones de crédito son evaluaciones del riesgo, no garantías ni predicciones precisas de un resultado futuro en particular.
+
+**Q2.** Una rebaja indica un riesgo elevado, no una certeza, y muchos deudores rebajados siguen cumpliendo con sus obligaciones sin caer nunca en impago.
+
+**Q3.** Tanto el nuevo precio que el mercado le pone al riesgo como las ventas forzadas de los inversionistas institucionales limitados por sus reglas contribuyen a que el precio baje con una rebaja.
+
+**Q4.** La rebaja reflejaba un riesgo mayor y provocó ventas forzadas, pero el emisor nunca cayó realmente en impago y luego subió de clasificación cuando mejoraron las condiciones.
+
+**Q5.** Como las clasificaciones pueden quedarse atrás frente a las condiciones reales, complementarlas con un análisis independiente da un cuadro del riesgo más completo.
+
+## Puntos clave
+- Una clasificación de crédito evalúa la probabilidad y la gravedad relativas de un impago; no es una predicción garantizada de un resultado en particular.
+- Una rebaja indica un riesgo mayor, pero muchos emisores rebajados siguen pagando por completo y nunca caen en un impago real.
+- El precio de los bonos normalmente baja con una rebaja, tanto por el mayor riesgo percibido como por las ventas forzadas de los inversionistas limitados por sus reglas.
+- Las clasificaciones de crédito deben orientar, sin reemplazarla, la evaluación independiente del riesgo del inversionista, ya que pueden quedarse atrás frente a lo que pasa en tiempo real.
+
+===== WHITE-L4-013
+TITLE: Análisis de los valores protegidos contra la inflación: por qué los TIPS no son una protección perfecta
+SUMMARY: Conozca cómo los bonos protegidos contra la inflación ajustan su principal, qué es el rendimiento real y por qué estos valores todavía tienen riesgo de tasa de interés.
+KEYWORDS: TIPS, valores protegidos contra la inflación, protección contra la inflación, rendimiento real
+# Análisis de los valores protegidos contra la inflación: por qué los TIPS no son una protección perfecta
+
+## Escenario inicial
+SUPUESTO/OPINIÓN (escenario hipotético solo con fines educativos): Imagine un banco central que sube su tasa de interés de referencia con fuerza y una y otra vez en pocos meses para combatir una inflación que va en aumento. Mientras la inflación está alta y el banco central responde de forma agresiva, los inversionistas enfocados en el ingreso empiezan a preguntarse si los bonos protegidos contra la inflación pueden proteger por completo su poder adquisitivo. Esta lección examina lo que estos valores realmente hacen, y dónde se acaba su protección.
+
+## Objetivos de aprendizaje
+- Explicar cómo los valores del Tesoro protegidos contra la inflación (TIPS) se ajustan a la inflación.
+- Explicar la diferencia entre el rendimiento nominal y el rendimiento real.
+- Identificar los límites de los TIPS como protección contra la inflación.
+- Explicar por qué los TIPS todavía tienen riesgo de tasa de interés a pesar de su ajuste por inflación.
+
+## Contenido principal
+Los valores del Tesoro protegidos contra la inflación (TIPS, por sus siglas en inglés) son bonos del gobierno cuyo valor principal se ajusta según los cambios en un índice de inflación designado (en Estados Unidos, el Índice de Precios al Consumidor). DATO VERIFICADO: cuando el índice sube, el principal del bono aumenta, y los pagos de intereses, que se calculan aplicando una tasa fija a ese principal ajustado, suben también, lo que ata directamente los pagos del bono a la inflación medida, a diferencia de un bono nominal normal, que tiene un principal fijo y un cupón fijo.
+
+Aquí está el "porqué" los TIPS no son una protección perfecta ni completa contra la inflación, a pesar de esta conexión directa: los TIPS protegen contra los cambios en el índice de inflación específico al que están atados, pero ese índice puede no reflejar a la perfección los aumentos reales en el costo de vida de cada inversionista, que pueden ser distintos según sus patrones de gasto (la vivienda, la salud, la educación y otras categorías pueden subir a ritmos distintos que el índice general). También puede haber un rezago entre el momento en que realmente ocurre la inflación y el momento en que se refleja en el índice publicado que se usa para ajustar el bono.
+
+Por eso, los TIPS todavía tienen un riesgo real de tasa de interés, distinto del riesgo de inflación: los TIPS pagan un rendimiento "real" (un rendimiento por encima de la inflación), y ese rendimiento real cambia según las condiciones del mercado; puede subir o bajar sin importar el ajuste por inflación. Eso significa que el precio de un bono TIPS todavía puede bajar si los rendimientos reales suben con fuerza, incluso durante un periodo de inflación alta, igual que el riesgo de duración que tiene cualquier bono (lección 3). Por eso, los TIPS atienden específicamente el riesgo de inflación, pero no eliminan el riesgo de tasa de interés ni garantizan una tenencia tranquila y sin preocupaciones durante un ciclo de alzas en las tasas como el del escenario de arriba.
+
+## Ejemplo práctico
+EJEMPLO ILUSTRATIVO: Un inversionista compra un bono TIPS durante un periodo de inflación alta, esperando una protección completa de su poder adquisitivo. La inflación medida sí sube el principal y los pagos de intereses del bono, como se diseñó. Pero en el mismo periodo, los rendimientos reales suben con fuerza a medida que el banco central aprieta su política de forma agresiva, y el precio de mercado del bono TIPS baja por esa subida de la tasa de interés real, aunque su mecanismo de ajuste por inflación funcionó exactamente como se esperaba. Esto ilustra que los TIPS atienden específicamente el riesgo de inflación, pero no protegen al inversionista del riesgo de la tasa de interés real.
+
+## Prueba práctica
+**Q1. ¿Cómo cambia el principal de un bono TIPS durante su vida?**
+A) El principal se mantiene completamente fijo, sin importar la inflación
+B) El principal se ajusta hacia arriba o hacia abajo según los cambios en un índice de inflación designado
+C) El principal solo cambia si el bono se vende antes del vencimiento
+D) El principal lo determina solo la clasificación de crédito del bono
+
+**Q2. ¿Por qué el índice de inflación al que están atados los TIPS podría no reflejar a la perfección los aumentos reales en el costo de vida de un inversionista en particular?**
+A) El índice de inflación siempre coincide exactamente con los patrones de gasto personales de cada persona
+B) Los patrones de gasto de cada persona en categorías como la vivienda, la salud y la educación pueden subir a ritmos distintos que el índice general
+C) Los TIPS en realidad no están atados a ningún índice de inflación
+D) Los aumentos en el costo de vida personal son idénticos para todas las personas de un país
+
+**Q3. ¿Qué es el "rendimiento real" en el contexto de los TIPS?**
+A) El pago total de intereses nominal del bono antes de cualquier ajuste por inflación
+B) Un rendimiento por encima de la inflación, que cambia según las condiciones del mercado sin importar el mecanismo de ajuste por inflación
+C) La clasificación de crédito asignada al bono
+D) El precio de compra original del bono
+
+**Q4. ¿Por qué el precio de un bono TIPS todavía puede bajar, incluso durante un periodo de inflación alta y bien medida?**
+A) La ley fija el precio de los TIPS y nunca puede cambiar
+B) Si los rendimientos reales suben con fuerza, el precio del bono puede bajar por el riesgo de tasa de interés, sin importar lo bien que funcione el mecanismo de ajuste por inflación
+C) Los bonos TIPS están protegidos de cualquier forma de riesgo de tasa de interés
+D) Una inflación que sube siempre garantiza, sin excepción, que suba el precio de los bonos TIPS
+
+**Q5. ¿Cuál es la lección principal sobre los TIPS como protección contra la inflación?**
+A) Los TIPS dan una protección completa y perfecta contra todos los riesgos posibles que pueda enfrentar un inversionista
+B) Los TIPS atienden específicamente el riesgo de inflación atado a un índice designado, pero no eliminan el riesgo de la tasa de interés real ni coinciden a la perfección con la experiencia de inflación personal de cada persona
+C) Los TIPS no dan ninguna protección contra la inflación
+D) Los TIPS son idénticos en todo a los bonos nominales normales del gobierno
+
+## Clave de respuestas
+Q1: B
+Q2: B
+Q3: B
+Q4: B
+Q5: B
+
+## Respuestas y explicaciones
+**Q1.** Los TIPS están diseñados específicamente para ajustar su valor principal según un índice de inflación medido.
+
+**Q2.** Como el índice general saca un promedio de muchas categorías de gasto, la inflación que realmente vive una persona puede ser distinta a la del índice publicado.
+
+**Q3.** El rendimiento real refleja el rendimiento adicional que los inversionistas exigen por encima de la compensación por la inflación, y puede moverse sin importar el ajuste por inflación en sí.
+
+**Q4.** Los TIPS todavía tienen riesgo de tasa de interés real, igual que el riesgo de duración de cualquier bono, lo que puede bajar su precio aparte de los ajustes por inflación.
+
+**Q5.** Los TIPS son una herramienta enfocada en un tipo de riesgo específico (la inflación medida), pero dejan sin atender otros riesgos, como los cambios en las tasas reales.
+
+## Puntos clave
+- Los TIPS ajustan su principal y sus pagos de intereses según un índice de inflación designado, a diferencia de los bonos nominales normales.
+- Ese índice de inflación puede no coincidir a la perfección con los cambios reales en el costo de vida personal de un inversionista.
+- Los TIPS todavía tienen riesgo de tasa de interés real, ya que su rendimiento real puede subir o bajar sin importar el ajuste por inflación.
+- Los TIPS atienden específicamente el riesgo de inflación, pero no eliminan el riesgo de tasa de interés ni garantizan una protección completa.
+
+===== WHITE-L4-014
+TITLE: Lo básico de las opciones: por qué una opción de compra no es una apuesta, sino un derecho
+SUMMARY: Conozca cómo funciona una opción de compra, por qué es un derecho y no una obligación, y por qué la pérdida máxima del comprador se limita a la prima que pagó.
+KEYWORDS: opciones de compra, lo básico de las opciones, negociación de opciones, fundamentos de los derivados
+# Lo básico de las opciones: por qué una opción de compra no es una apuesta, sino un derecho
+
+## Escenario inicial
+SUPUESTO/OPINIÓN (escenario hipotético solo con fines educativos): Imagine dos grandes potencias económicas que aumentan los controles de exportación entre sí sobre una categoría de componentes tecnológicos avanzados que se usan en muchas industrias. Mientras dos grandes economías aprietan las restricciones tecnológicas una contra la otra, algunos inversionistas quieren posicionarse para una posible recuperación de un sector específico sin comprometer todo su capital comprando acciones directamente. Esta lección presenta la herramienta diseñada precisamente para ese tipo de posición asimétrica.
+
+## Objetivos de aprendizaje
+- Explicar la estructura y la terminología básicas de una opción de compra.
+- Explicar por qué una opción de compra representa un derecho y no una obligación.
+- Explicar el perfil de pérdida máxima y ganancia teóricamente ilimitada de una posición de compra en una opción de compra.
+- Explicar por qué la prima de una opción es el costo de ese derecho, y no una apuesta directa sobre el precio.
+
+## Contenido principal
+Una opción de compra (en inglés, "call") le da a su comprador el derecho, pero no la obligación, de comprar una cantidad específica de acciones de una acción subyacente a un precio fijado por adelantado (el precio de ejercicio) en o antes de una fecha específica (la fecha de vencimiento), a cambio de un pago inicial (la prima). DATO VERIFICADO: esta es una estructura muy distinta a simplemente comprar o vender una acción directamente, porque el comprador de una opción de compra puede decidir no ejercer ese derecho si no le conviene, lo que limita su pérdida a la prima que pagó.
+
+Aquí está el "porqué" esta estructura de "derecho, no obligación" importa tanto para entender el riesgo: un inversionista que compra una opción de compra porque espera una recuperación en un sector afectado por el tipo de tensión comercial del escenario de arriba solo arriesga la prima que pagó por la opción, sin importar cuánto pueda caer la acción por debajo del precio de ejercicio; es una pérdida máxima fija y conocida. Si en cambio la acción sube bastante por encima del precio de ejercicio antes del vencimiento, el valor de la opción de compra puede aumentar mucho, lo que ofrece una ganancia posible teóricamente ilimitada, ya que no hay un tope a lo que puede subir el precio de una acción.
+
+Por eso, la prima de una opción de compra no debe verse simplemente como "una apuesta a que la acción va a subir", igual que una compra directa de la acción: es el precio de mercado de un derecho específico definido por contrato, y en ese precio influyen varios factores además de la dirección que el inversionista espera para la acción: la volatilidad actual de la acción, el tiempo que falta para el vencimiento y qué tan lejos está el precio de ejercicio del precio actual de la acción, temas que se ven con más detalle en las lecciones sobre opciones que vienen después de esta.
+
+## Ejemplo práctico
+EJEMPLO ILUSTRATIVO: Un inversionista compra una opción de compra sobre una acción que hoy se cotiza en $50, con un precio de ejercicio de $55 y una prima de $2 por acción ($200 en total por un contrato normal de 100 acciones). Si la acción cae a $30, la pérdida máxima del inversionista es la prima de $200 que pagó: simplemente no ejerce la opción, que ya no vale nada. Si en cambio la acción sube a $70 antes del vencimiento, el valor de la opción sube para reflejar la diferencia de $15 entre el precio de la acción y el precio de ejercicio, lo que convierte una inversión de $200 en una posición que vale alrededor de $1,500. Esto ilustra la estructura asimétrica de riesgo y recompensa que una compra directa de la acción no ofrece de la misma forma.
+
+## Prueba práctica
+**Q1. ¿Qué derecho le da una opción de compra a su comprador?**
+A) La obligación de vender acciones a un precio fijado por adelantado
+B) El derecho, pero no la obligación, de comprar acciones a un precio de ejercicio fijado por adelantado en o antes del vencimiento
+C) Ser dueño garantizado de la compañía subyacente
+D) El derecho a votar en las decisiones de la junta de directores
+
+**Q2. ¿Cuál es la pérdida máxima posible para el comprador de una opción de compra?**
+A) Ilimitada, ya que la acción podría en teoría caer a cero
+B) La prima que pagó por la opción, ya que el comprador simplemente puede decidir no ejercer una opción que no le conviene
+C) El doble de la prima que pagó
+D) No hay ninguna pérdida posible al comprar una opción de compra
+
+**Q3. ¿Por qué la prima de una opción de compra no es simplemente "una apuesta a que la acción va a subir", igual que una compra de la acción?**
+A) La prima la fija por completo la regulación del gobierno, sin influencia del mercado
+B) La prima refleja el precio de mercado de un derecho contractual específico, en el que influyen la volatilidad, el tiempo que falta para el vencimiento y la relación entre el precio de ejercicio y el precio actual, no solo la dirección que se espera
+C) Las primas de las opciones de compra siempre son idénticas, sin importar las condiciones del mercado
+D) No hay ninguna diferencia importante entre comprar una opción de compra y comprar una acción
+
+**Q4. En el ejemplo, ¿por qué la pérdida máxima del inversionista se limitó a $200 aunque la acción cayó a $30?**
+A) La ley obligaba al inversionista a vender la acción en $30
+B) El inversionista simplemente podía decidir no ejercer la opción, ya que no tenía valor por debajo del precio de ejercicio de $55, lo que limitó la pérdida a la prima que pagó
+C) Las opciones de compra garantizan un reembolso completo si baja el precio de la acción
+D) Que la acción cayera a $30 no tiene relación con el valor de la opción
+
+**Q5. ¿Por qué una posición de compra en una opción de compra ofrece una ganancia posible teóricamente ilimitada?**
+A) Hay un tope fijo a lo que puede ganar el comprador de una opción de compra
+B) Como no hay un tope a lo que puede subir el precio de una acción, el aumento posible del valor de la opción tampoco tiene tope
+C) Las opciones de compra vencen automáticamente sin valor en cuanto la acción sube por encima del precio de ejercicio
+D) La ganancia posible no tiene relación con lo alto que pueda subir el precio de la acción
+
+## Clave de respuestas
+Q1: B
+Q2: B
+Q3: B
+Q4: B
+Q5: B
+
+## Respuestas y explicaciones
+**Q1.** Una opción de compra se define por este derecho específico y opcional de comprar, lo que la distingue de una compra directa de la acción o de una obligación.
+
+**Q2.** Como ejercerla es opcional, la pérdida del comprador tiene un tope en la cantidad que pagó por la opción, sin importar cuánto baje la acción.
+
+**Q3.** Varios factores de precio, además de la simple dirección que se espera, determinan la prima de una opción, lo que la distingue de una simple apuesta sobre la dirección de una acción.
+
+**Q4.** Como ejercer la opción de compra era opcional, la pérdida del inversionista tuvo un tope en la prima, sin importar cuánto bajó la acción.
+
+**Q5.** Como el valor de la opción sigue el precio de la acción por encima del precio de ejercicio, y el precio de las acciones no tiene un techo teórico, la ganancia posible tampoco tiene límite.
+
+## Puntos clave
+- Una opción de compra le da al comprador el derecho, pero no la obligación, de comprar acciones a un precio de ejercicio fijado por adelantado.
+- La pérdida máxima del comprador se limita a la prima que pagó, sin importar cuánto baje la acción subyacente.
+- Una posición de compra en una opción de compra ofrece una ganancia posible teóricamente ilimitada, ya que no hay un tope a lo que puede subir el precio de una acción.
+- La prima de una opción refleja varios factores de precio además de la dirección que se espera, lo que la distingue de una simple apuesta sobre la dirección.
+
+===== WHITE-L4-015
+TITLE: Análisis de las opciones de venta: por qué funcionan como un seguro
+SUMMARY: Conozca cómo una opción de venta protege una acción que usted ya tiene contra una baja, cómo funciona la estrategia de la opción de venta de protección y cuánto cuesta.
+KEYWORDS: opciones de venta, seguro del portafolio, protección contra bajas, estrategia de cobertura
+# Análisis de las opciones de venta: por qué funcionan como un seguro
+
+## Escenario inicial
+SUPUESTO/OPINIÓN (escenario hipotético solo con fines educativos): Imagine una institución financiera de importancia sistémica que de repente revela una pérdida grande que no se había divulgado, lo que despierta el miedo de que el riesgo de contraparte se riegue por todo el sistema bancario. Mientras el miedo al riesgo de contraparte se riega por los mercados financieros, algunos inversionistas quieren proteger las acciones que ya tienen contra una baja adicional sin tener que venderlas. Esta lección explica la herramienta diseñada precisamente para ese tipo de protección.
+
+## Objetivos de aprendizaje
+- Explicar la estructura básica de una opción de venta.
+- Explicar el parecido entre una opción de venta y una póliza de seguro.
+- Explicar cómo funciona la estrategia de la opción de venta de protección para cubrir una posición en acciones que ya se tiene.
+- Identificar la compensación de costo que trae usar opciones de venta para proteger un portafolio.
+
+## Contenido principal
+Una opción de venta (en inglés, "put") le da a su comprador el derecho, pero no la obligación, de vender una cantidad específica de acciones a un precio de ejercicio fijado por adelantado en o antes del vencimiento, a cambio de una prima inicial. DATO VERIFICADO: es la imagen al revés de la estructura de la opción de compra de la lección 14: donde una opción de compra da el derecho a comprar, una opción de venta da el derecho a vender, y el valor de una opción de venta normalmente sube cuando baja el precio de la acción subyacente.
+
+Aquí está el "porqué" una opción de venta funciona parecido a una póliza de seguro: igual que el dueño de una casa paga una prima de seguro por el derecho a recibir una compensación si su casa se daña, un inversionista que tiene una acción puede pagar una prima de opción por el derecho a vender esa acción a un precio de ejercicio garantizado, lo que lo protege contra una baja por debajo de ese nivel, como la que podría ocurrir durante un periodo de tensión en el sistema financiero como el del escenario de arriba. Si la acción no baja, la opción de venta vence sin valor, igual que una póliza de seguro "desperdicia" su prima si nunca se hace una reclamación; pero el inversionista estuvo protegido mientras el seguro (o la opción de venta) estuvo vigente.
+
+Por eso, la estrategia de la "opción de venta de protección" (comprar una opción de venta sobre una acción que el inversionista ya tiene) es una técnica de cobertura común: le permite al inversionista seguir siendo dueño de la acción (y aprovechar cualquier subida adicional) mientras limita el riesgo de baja a una cantidad conocida y definida (la diferencia entre el precio actual y el precio de ejercicio, más la prima que pagó), parecido a como el seguro de una casa limita la pérdida máxima del dueño a un deducible mientras sigue siendo dueño de la casa por completo. La compensación, igual que con cualquier seguro, es el costo recurrente de la prima, que reduce el rendimiento total del portafolio si al final no se usa la protección.
+
+## Ejemplo práctico
+EJEMPLO ILUSTRATIVO: Un inversionista tiene 100 acciones de una compañía que hoy se cotiza en $80 y, preocupado por una posible baja adicional en medio de la tensión en el sistema financiero, compra una opción de venta con un precio de ejercicio de $75 por una prima de $3 por acción ($300 en total). Si la acción cae a $50, el inversionista puede ejercer la opción de venta y vender sus acciones en $75 en vez de al precio de mercado, mucho más bajo, lo que limita su pérdida a $5 por acción más la prima de $3, en vez de la baja completa de $30 por acción que habría tenido sin protección. Si en cambio la acción sube a $95, la opción de venta vence sin valor, lo que le cuesta al inversionista la prima de $300, pero aun así aprovecha por completo la subida de la acción hasta $95.
+
+## Prueba práctica
+**Q1. ¿Qué derecho le da una opción de venta a su comprador?**
+A) El derecho a comprar acciones a un precio fijado por adelantado
+B) El derecho, pero no la obligación, de vender acciones a un precio de ejercicio fijado por adelantado
+C) Pagos de dividendos garantizados de la compañía subyacente
+D) La obligación de comprar más acciones
+
+**Q2. ¿En qué se parece una opción de venta a una póliza de seguro?**
+A) Las dos garantizan una ganancia sin importar las condiciones del mercado
+B) Las dos implican pagar una prima por protección contra un resultado malo, una protección que puede no usarse si el evento malo no ocurre
+C) Las opciones de venta y las pólizas de seguro no se parecen en nada importante
+D) Las pólizas de seguro también le dan a su dueño el derecho a vender acciones
+
+**Q3. ¿En qué consiste la estrategia de la "opción de venta de protección"?**
+A) Vender de inmediato todas las acciones que se tienen para evitar cualquier riesgo
+B) Comprar una opción de venta sobre una acción que el inversionista ya tiene, para limitar el riesgo de baja y conservar la ganancia posible
+C) Comprar una opción de compra en vez de tener acciones
+D) Tomar dinero prestado para comprar más acciones de la misma compañía
+
+**Q4. En el ejemplo, ¿cuál fue más o menos la pérdida por acción del inversionista si la acción caía a $50, con la opción de venta de protección?**
+A) La baja completa de $30 por acción
+B) Más o menos $5 por acción más la prima de $3, ya que la opción de venta le permitió vender al precio de ejercicio de $75 en vez de al precio de mercado
+C) Ninguna pérdida
+D) El inversionista se vio obligado a comprar más acciones en $50
+
+**Q5. ¿Cuál es la principal compensación de usar opciones de venta para proteger un portafolio?**
+A) No hay ninguna compensación; las opciones de venta dan protección completamente gratis
+B) El costo recurrente de la prima reduce el rendimiento total del portafolio si al final no se usa la protección, igual que un seguro que no se reclama
+C) Las opciones de venta eliminan para siempre todo el riesgo de inversión
+D) Comprar opciones de venta exige vender todas las otras inversiones del portafolio
+
+## Clave de respuestas
+Q1: B
+Q2: B
+Q3: B
+Q4: B
+Q5: B
+
+## Respuestas y explicaciones
+**Q1.** Una opción de venta da específicamente el derecho opcional de vender al precio de ejercicio, la imagen al revés del derecho a comprar de una opción de compra.
+
+**Q2.** Las dos estructuras implican pagar un costo inicial por una protección contra bajas que puede que se necesite o no al final.
+
+**Q3.** Esta estrategia combina una posición en acciones que ya se tiene con una opción de venta para ponerle un tope al riesgo de baja y conservar la participación en ganancias futuras.
+
+**Q4.** La opción de venta le puso un tope a la pérdida en la diferencia entre el precio de compra y el precio de ejercicio, más la prima que pagó, en vez de la baja completa del mercado.
+
+**Q5.** Igual que con un seguro, el costo continuo de la prima es un lastre real sobre los rendimientos cuando al final no hace falta la protección.
+
+## Puntos clave
+- Una opción de venta le da al comprador el derecho, pero no la obligación, de vender acciones a un precio de ejercicio fijado por adelantado.
+- Las opciones de venta funcionan parecido a un seguro, con una prima que se paga por una protección que puede no usarse si no hay una baja.
+- La estrategia de la opción de venta de protección le pone un tope al riesgo de baja de una acción que se tiene y conserva la participación en las subidas.
+- El costo recurrente de la prima es la principal compensación, ya que reduce el rendimiento total si al final no hace falta la protección.

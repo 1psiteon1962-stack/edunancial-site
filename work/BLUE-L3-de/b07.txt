@@ -1,0 +1,181 @@
+===== BLUE-L3-025
+TITLE: Warum ein Term Sheet die Bedingungen festlegt, bevor der eigentliche Vertrag geschrieben wird
+SUMMARY: Erfahre, was ein Term Sheet bei einer Eigenkapitalfinanzierung leistet und warum es ähnlich funktioniert wie eine Absichtserklärung beim Unternehmenskauf.
+# BLUE-L3-025: Warum ein Term Sheet die Bedingungen festlegt, bevor der eigentliche Vertrag geschrieben wird
+
+## Lernziele
+Am Ende dieser Lektion kannst du:
+- erklären, was ein Term Sheet bei einer Eigenkapitalfinanzierung ist
+- erklären, wie ein Term Sheet ähnlich funktioniert wie die Absichtserklärung (LOI) aus Lektion 6
+- wichtige Bedingungen nennen, die ein typisches Term Sheet enthält
+
+## Hauptinhalt
+
+Ein **Term Sheet** hält bei einer Eigenkapitalfinanzierung die wichtigsten vorgeschlagenen Bedingungen einer Investition fest – Bewertung, Höhe der Finanzierung, Art der auszugebenden Anteile, Rechte der Investoren und andere wesentliche Regelungen –, bevor die vollständigen, detaillierten rechtlichen Beteiligungsverträge ausgearbeitet werden. In Deutschland sind das bei einer GmbH meist ein Beteiligungsvertrag und eine Gesellschaftervereinbarung, die wegen der Kapitalerhöhung notariell beurkundet werden.
+
+Hier das „Warum“, weshalb das der Absichtserklärung beim Unternehmenskauf aus Lektion 6 so ähnlich ist: Wie ein LOI ist auch ein Term Sheet in seinen inhaltlichen Bedingungen grundsätzlich weitgehend unverbindlich. Unternehmen und Investor können sich so auf die wichtigsten Eckpunkte verständigen und zur Due Diligence und zur detaillierten rechtlichen Dokumentation übergehen, ohne dass eine Seite vor Unterzeichnung der endgültigen Verträge vollständig gebunden ist – während, ebenso wie beim LOI, bestimmte Regelungen (etwa Vertraulichkeit oder eine begrenzte Exklusivitätsphase) häufig verbindlich ausgestaltet werden, auch innerhalb eines ansonsten unverbindlichen Term Sheets.
+
+[VERIFIED FACT] Zu den üblichen Bedingungen eines Term Sheets gehören die Bewertung des Unternehmens (oft mit der Unterscheidung zwischen „Pre-Money“- und „Post-Money“-Bewertung), die Höhe des aufzunehmenden Kapitals, die Art der ausgegebenen Beteiligung (oft Vorzugsanteile mit besonderen Rechten) sowie verschiedene Schutz- und Mitspracherechte der Investoren – jeweils wichtige Verhandlungspunkte, bevor die endgültigen rechtlichen Dokumente erstellt werden.
+
+## Durchgerechnetes Beispiel
+
+[ILLUSTRATIVE EXAMPLE] Ein Start-up und ein möglicher Investor verhandeln und unterzeichnen ein Term Sheet mit einem vorgeschlagenen Investitionsbetrag, einer vereinbarten Bewertung und der Art der auszugebenden Vorzugsanteile, dazu eine verbindliche Exklusivitätsphase von 45 Tagen. [ASSUMPTION] In dieser Zeit arbeiten beide Seiten die rechtliche Due Diligence ab und entwerfen die vollständigen Beteiligungsverträge. Taucht dabei ein erhebliches Problem auf, können die unverbindlichen inhaltlichen Bedingungen des Term Sheets – Bewertung, Betrag, Struktur – noch neu verhandelt werden, oder eine Seite kann aus dem Geschäft aussteigen. Das entspricht genau der unverbindlichen Flexibilität, die Lektion 6 für einen LOI beschrieben hat, hier angewendet auf eine Eigenkapitalinvestition statt auf einen Unternehmenskauf.
+
+## Übungsquiz
+1. Was hält ein Term Sheet bei einer Eigenkapitalfinanzierung fest?
+2. Inwiefern entspricht die Aufteilung in verbindliche und unverbindliche Teile beim Term Sheet dem LOI aus Lektion 6?
+3. Nenne zwei übliche Bedingungen, die ein Term Sheet für eine Eigenkapitalfinanzierung typischerweise enthält.
+
+## Lösungsschlüssel
+1. Die wichtigsten vorgeschlagenen Bedingungen einer Investition – Bewertung, Finanzierungsbetrag, Art der Anteile, Rechte der Investoren und andere wesentliche Regelungen –, bevor die vollständigen rechtlichen Verträge ausgearbeitet werden.
+2. Wie beim LOI sind die inhaltlichen Bedingungen grundsätzlich unverbindlich und lassen Spielraum bis zur Unterzeichnung der endgültigen Dokumente, während bestimmte Regelungen wie Vertraulichkeit oder Exklusivität häufig verbindlich gestaltet werden.
+3. Zwei beliebige aus: Bewertung des Unternehmens (Pre-Money/Post-Money), Höhe des aufzunehmenden Kapitals, Art der ausgegebenen Beteiligung, Schutz- und Mitspracherechte der Investoren.
+
+## Antworten und Erklärungen
+1. Das ist die grundlegende Definition dieser Lektion.
+2. Das verbindet das Konzept ausdrücklich mit der entsprechenden LOI-Diskussion früher in diesem Track und stärkt den zusammenhängenden Aufbau.
+3. Das prüft das Verständnis für die praktischen Inhalte, die in einem Term Sheet typischerweise verhandelt werden.
+
+## Das Wichtigste in Kürze
+- Ein Term Sheet hält die wichtigsten vorgeschlagenen Investitionsbedingungen fest, bevor die vollständigen rechtlichen Verträge ausgearbeitet werden.
+- Es funktioniert ähnlich wie ein LOI beim Unternehmenskauf: in den inhaltlichen Bedingungen weitgehend unverbindlich, mit bestimmten häufig verbindlichen Regelungen wie Exklusivität.
+- Übliche Bedingungen sind Bewertung, Kapitalbetrag, Art der Anteile und Investorenrechte, die jeweils vor den endgültigen Dokumenten verhandelt werden.
+
+## Hinweis zum Bildungszweck
+Diese Lektion dient ausschließlich der allgemeinen finanziellen Bildung und ist keine individuelle Finanz-, Anlage-, Steuer- oder Rechtsberatung. Lass dich vor der Unterzeichnung eines Term Sheets oder eines Beteiligungsvertrags von einer Rechtsanwältin oder einem Rechtsanwalt beraten.
+
+===== BLUE-L3-026
+TITLE: Warum Business Angels und Venture-Capital-Fonds grundverschiedene Dinge wollen
+SUMMARY: Erfahre die grundsätzlichen Unterschiede zwischen Business Angels und Venture-Capital-Gesellschaften und warum das Wissen darüber, was jede Seite will, bestimmt, wer in welcher Phase passt.
+# BLUE-L3-026: Warum Business Angels und Venture-Capital-Fonds grundverschiedene Dinge wollen
+
+## Lernziele
+Am Ende dieser Lektion kannst du:
+- die grundsätzlichen Unterschiede zwischen Business Angels und Venture-Capital-Gesellschaften beschreiben
+- erklären, warum beide jeweils in unterschiedlichen Unternehmensphasen besser passen
+- erklären, warum VC-Finanzierung in der Regel mit stärker strukturierten Erwartungen einhergeht
+
+## Hauptinhalt
+
+**Business Angels** sind in der Regel Privatpersonen, die ihr eigenes Geld investieren, oft in Unternehmen in einer früheren Phase und manchmal teils aufgrund persönlicher Beziehungen oder ihres Vertrauens in die Gründerin oder den Gründer, neben dem eigentlichen Geschäftsmodell. **Venture-Capital-Gesellschaften (VC-Fonds)** verwalten gebündeltes Geld von institutionellen und anderen Anlegern (deren eigene Geldgeber werden oft als Limited Partners bezeichnet), investieren meist größere Beträge, oft in etwas späteren Phasen, und haben grundsätzlich formellere, stärker strukturierte Erwartungen an Wachstum, Berichterstattung und den späteren Exit.
+
+Hier das „Warum“, weshalb dieser Unterschied für eine Gründerin oder einen Gründer bei der Suche nach Finanzierung wichtig ist: [VERIFIED FACT] Weil VC-Gesellschaften Geld im Auftrag ihrer eigenen Anleger verwalten, haben sie in der Regel konkrete Renditeerwartungen und Zeitpläne, die sie erfüllen müssen. Das bedeutet oft, dass sie gezielt nach Unternehmen mit einem glaubwürdigen Weg zu sehr großem Wachstum und einem klar definierten Exit (Thema einer späteren Lektion) innerhalb eines bestimmten Zeitraums suchen – was nicht zu jedem Geschäftsmodell passt, auch nicht zu jedem wirklich erfolgreichen und profitablen. Business Angels, die ihr eigenes Geld investieren, sind manchmal flexibler darin, was sie finanzieren und welche Zeiträume sie akzeptieren, wobei das von Person zu Person stark variiert.
+
+## Durchgerechnetes Beispiel
+
+[ILLUSTRATIVE EXAMPLE] Eine Gründerin in einer sehr frühen Phase mit einer vielversprechenden Idee, aber noch ohne Umsatz, hat womöglich mehr Erfolg, eine kleinere erste Runde bei Business Angels einzusammeln, die bereit sind, eine frühere, stärker von persönlichen Beziehungen geprägte Wette einzugehen. Wächst das Unternehmen und braucht eine viel größere Kapitalrunde, um schnell zu skalieren, kann eine VC-Gesellschaft – auf der Suche nach einer großen Wachstumsgeschichte und einem glaubwürdigen Weg zu einem bedeutenden künftigen Exit – besser passen, sofern das Geschäftsmodell ein solches Wachstum tatsächlich trägt. [ASSUMPTION] Ein stetiges, profitables Unternehmen ohne glaubwürdigen Weg zu sehr schnellem, großem Wachstum passt womöglich schlecht zu einer VC-Finanzierung, auch wenn es hervorragend zu anderen Finanzierungswegen aus diesem Track passen könnte.
+
+## Übungsquiz
+1. Was ist der grundsätzliche Unterschied zwischen einem Business Angel und einer VC-Gesellschaft?
+2. Warum haben VC-Gesellschaften in der Regel konkretere Renditeerwartungen und Zeitpläne als einzelne Business Angels?
+3. Warum passt ein stetiges, profitables Unternehmen womöglich schlecht zu einer VC-Finanzierung?
+
+## Lösungsschlüssel
+1. Business Angels investieren in der Regel ihr eigenes privates Geld, oft in einer früheren Phase; VC-Gesellschaften verwalten gebündeltes Geld anderer Anleger und investieren meist größere Beträge mit formelleren, stärker strukturierten Erwartungen.
+2. Weil VC-Gesellschaften Geld im Auftrag ihrer eigenen Anleger (Limited Partners) verwalten, die ihre eigenen Renditeerwartungen haben, die die Gesellschaft erfüllen muss.
+3. Weil eine VC-Finanzierung in der Regel einen glaubwürdigen Weg zu sehr großem Wachstum und einen definierten Exit innerhalb eines bestimmten Zeitraums voraussetzt – was nicht zu jedem wirklich erfolgreichen Geschäftsmodell passt.
+
+## Antworten und Erklärungen
+1. Das ist die grundlegende Unterscheidung dieser Lektion.
+2. Das erklärt den strukturellen Grund hinter den konkreten Erwartungen von VC-Gesellschaften.
+3. Das ist eine wichtige, praktische Warnung davor anzunehmen, VC-Finanzierung sei der „beste“ oder einzige Weg für ein erfolgreiches Unternehmen.
+
+## Das Wichtigste in Kürze
+- Business Angels investieren in der Regel privates Geld, oft in einer früheren Phase und mit mehr individueller Flexibilität.
+- VC-Gesellschaften verwalten gebündeltes Anlegergeld und setzen in der Regel einen glaubwürdigen Weg zu großem Wachstum und einen definierten Exit voraus.
+- Nicht jedes erfolgreiche Geschäftsmodell passt gut zu einer VC-Finanzierung, auch wenn es hervorragend zu anderen Finanzierungswegen passt.
+
+## Hinweis zum Bildungszweck
+Diese Lektion dient ausschließlich der allgemeinen finanziellen Bildung und ist keine individuelle Finanz-, Anlage-, Steuer- oder Rechtsberatung. Lass dich vor Entscheidungen über eine Eigenkapitalfinanzierung von einer zugelassenen Fachperson beraten.
+
+===== BLUE-L3-027
+TITLE: Warum umsatzbasierte Finanzierung zwischen Kredit und Eigenkapital liegt
+SUMMARY: Erfahre, wie umsatzbasierte Finanzierung (Revenue-Based Financing) funktioniert und warum sie einen Mittelweg zwischen klassischem Kredit und der Abgabe von Unternehmensanteilen bietet.
+# BLUE-L3-027: Warum umsatzbasierte Finanzierung zwischen Kredit und Eigenkapital liegt
+
+## Lernziele
+Am Ende dieser Lektion kannst du:
+- erklären, wie umsatzbasierte Finanzierung (Revenue-Based Financing, RBF) funktioniert
+- erklären, warum RBF oft als Mittelweg zwischen Fremd- und Eigenkapital beschrieben wird
+- erklären, warum RBF oft als „nicht verwässernd“ bezeichnet wird und was das bedeutet
+
+## Hauptinhalt
+
+**Umsatzbasierte Finanzierung (Revenue-Based Financing, RBF)** stellt einem Unternehmen Kapital gegen einen Anteil an den künftigen Umsätzen zur Verfügung, der in der Regel so lange gezahlt wird, bis ein vorab festgelegtes Vielfaches der ursprünglichen Summe zurückgezahlt ist – statt über feste Monatsraten (wie bei einem klassischen Kredit) oder über eine dauerhafte Beteiligung am Unternehmen (wie bei Venture Capital, Lektion 26).
+
+Hier das „Warum“, weshalb das oft als Mittelweg zwischen beiden beschrieben wird – anknüpfend an die Diskussion über Fremd- und Eigenkapital in Lektion 21: Wie ein Kredit hat RBF einen festgelegten Gesamtrückzahlungsbetrag (meist die Finanzierungssumme mal einem bestimmten Faktor) statt eines unbegrenzten Anteils am gesamten künftigen Wert des Unternehmens. Anders als bei einem klassischen Kredit schwankt der tatsächliche Zahlungsbetrag aber mit dem Umsatz des Unternehmens – in umsatzschwächeren Zeiten ist die Zahlung kleiner, in stärkeren Zeiten größer. Das verringert das Risiko fester Monatsraten, das reine Fremdfinanzierung mit sich bringt.
+
+[VERIFIED FACT] RBF wird oft als **nicht verwässerndes** Kapital bezeichnet, weil dafür keine Unternehmensanteile abgegeben werden müssen – anders als bei Venture Capital oder anderer Eigenkapitalfinanzierung. Das macht einen wesentlichen Teil ihres Reizes für Gründerinnen und Gründer aus, die Wachstumskapital aufnehmen möchten, ohne ihren Anteil zu verwässern (Lektion 24) oder Mitspracherechte abzugeben.
+
+## Durchgerechnetes Beispiel
+
+[ILLUSTRATIVE EXAMPLE] Ein wachsendes Unternehmen erhält 200.000 € umsatzbasierte Finanzierung und verpflichtet sich, insgesamt 260.000 € (Faktor 1,3) über einen Anteil seiner Monatsumsätze zurückzuzahlen, bis dieser Gesamtbetrag erreicht ist. [ASSUMPTION] In einem starken Verkaufsmonat zahlt das Unternehmen einen größeren Betrag auf diese Gesamtsumme; in einem schwächeren Monat sinkt die Zahlung automatisch mit dem Umsatz. Das belastet die Liquidität weniger als eine feste monatliche Kreditrate, die sich unabhängig vom Absatz nicht anpasst. Während des gesamten Zeitraums behält die Gründerin die volle Eigentümerschaft am Unternehmen – anders als bei einer Eigenkapitalfinanzierung.
+
+## Übungsquiz
+1. Wie funktioniert umsatzbasierte Finanzierung?
+2. Warum wird RBF oft als Mittelweg zwischen Fremd- und Eigenkapital beschrieben?
+3. Warum wird RBF oft als „nicht verwässerndes“ Kapital bezeichnet?
+
+## Lösungsschlüssel
+1. Ein Unternehmen erhält Kapital gegen einen Anteil an künftigen Umsätzen, der in der Regel gezahlt wird, bis ein vorab festgelegtes Vielfaches der ursprünglichen Summe zurückgezahlt ist.
+2. Weil sie wie ein Kredit einen festgelegten Gesamtrückzahlungsbetrag statt eines unbegrenzten Anteils hat, sich der tatsächliche Zahlungsbetrag aber wie bei einer flexiblen Vereinbarung an den Umsatz anpasst, statt eine feste Monatsrate zu sein.
+3. Weil dafür keine Unternehmensanteile abgegeben werden müssen, anders als bei Venture Capital oder anderen Formen der Eigenkapitalfinanzierung.
+
+## Antworten und Erklärungen
+1. Das ist die grundlegende Definition dieser Lektion.
+2. Das ist das zentrale „Warum“, das die Stellung von RBF zwischen den beiden früher im Track behandelten Finanzierungsarten erklärt.
+3. Das erklärt den konkreten Fachbegriff und seinen Zusammenhang mit dem Konzept der Verwässerung aus Lektion 24.
+
+## Das Wichtigste in Kürze
+- Umsatzbasierte Finanzierung stellt Kapital gegen einen Anteil an künftigen Umsätzen bereit, bis zu einem vorab festgelegten Rückzahlungsfaktor.
+- Sie verbindet den festgelegten Gesamtrückzahlungsbetrag eines Kredits mit einer flexiblen, umsatzabhängigen Zahlungsstruktur, anders als eine feste monatliche Kreditrate.
+- RBF ist nicht verwässernd, das heißt, es müssen keine Unternehmensanteile abgegeben werden.
+
+## Hinweis zum Bildungszweck
+Diese Lektion dient ausschließlich der allgemeinen finanziellen Bildung und ist keine individuelle Finanz-, Anlage-, Steuer- oder Rechtsberatung. Alle Zahlen sind veranschaulichende Schätzungen und keine Garantien. Lass dich vor Finanzierungsentscheidungen für dein Unternehmen von einer zugelassenen Fachperson beraten.
+
+===== BLUE-L3-028
+TITLE: Warum Crowdfunding ebenso ein Markttest wie ein Finanzierungsinstrument ist
+SUMMARY: Erfahre, warum eine Crowdfunding-Kampagne echte Marktnachfrage bestätigen kann, während sie gleichzeitig Geld einsammelt – und warum diese doppelte Funktion ihr eigentlicher Wert ist.
+# BLUE-L3-028: Warum Crowdfunding ebenso ein Markttest wie ein Finanzierungsinstrument ist
+
+## Lernziele
+Am Ende dieser Lektion kannst du:
+- erklären, was Crowdfunding grundsätzlich umfasst
+- erklären, warum eine Crowdfunding-Kampagne als Marktbestätigung wirkt und nicht nur als Geldquelle
+- erklären, warum auch eine gescheiterte Crowdfunding-Kampagne wertvolle Informationen liefern kann
+
+## Hauptinhalt
+
+**Crowdfunding** bedeutet grundsätzlich, kleinere Beträge von einer großen Zahl einzelner Unterstützerinnen und Unterstützer einzusammeln, oft im Gegenzug für einen frühen Zugang zu einem Produkt, eine Belohnung oder (in bestimmten regulierten Formen) eine kleine Beteiligung oder ein Darlehen an das Unternehmen; das geschieht meist über eine Online-Plattform. In der EU gilt für Schwarmfinanzierung über Beteiligungen und Darlehen die Verordnung (EU) 2020/1503 über Schwarmfinanzierungsdienstleister, in Deutschland beaufsichtigt die BaFin solche Plattformen.
+
+Hier das „Warum“, weshalb Crowdfunding einen doppelten Zweck über die reine Kapitalbeschaffung hinaus erfüllt: Eine erfolgreiche Kampagne zeigt direkt, dass echte Menschen bereit sind, tatsächlich Geld für ein Produkt oder eine Idee auszugeben, bevor sie überhaupt fertig entwickelt oder auf den Markt gebracht ist – eine Form der Marktbestätigung, die aussagekräftiger ist als Umfrageantworten oder bekundetes Interesse allein, weil die Unterstützer eine echte finanzielle Zusage machen.
+
+[VERIFIED FACT] Das bedeutet, dass das Ergebnis einer Crowdfunding-Kampagne – ob sie ihr Finanzierungsziel erreicht oder nicht – echte Marktinformationen liefert: Eine starke Resonanz deutet auf echte Nachfrage hin, die sich weiterzuverfolgen lohnt, während eine schwache Resonanz – auch wenn sie aus reiner Finanzierungssicht enttäuschend ist – wertvolle Hinweise geben kann, dass Produkt, Preis oder Positionierung überdacht werden müssen, bevor weitere Mittel eingesetzt werden.
+
+## Durchgerechnetes Beispiel
+
+[ILLUSTRATIVE EXAMPLE] Ein Gründer startet eine Crowdfunding-Kampagne für eine neue Produktidee und setzt ein Finanzierungsziel, das die ersten Produktionskosten deckt. Die Kampagne übertrifft ihr Ziel innerhalb weniger Tage deutlich; zahlreiche Unterstützer sagen echtes Geld zu, bevor das Produkt überhaupt existiert. [ASSUMPTION] Diese Resonanz gibt dem Gründer – über die eingesammelten Mittel hinaus – die Zuversicht, dass es echte Marktnachfrage gibt, die weitere Investitionen rechtfertigt. Das ist eine andere Art von Bestätigung, als potenzielle Kunden nur zu fragen, ob sie interessiert wären, denn die Unterstützer haben ihr Interesse bereits mit echtem Geld untermauert.
+
+## Übungsquiz
+1. Was umfasst Crowdfunding grundsätzlich?
+2. Warum wirkt eine Crowdfunding-Kampagne als Marktbestätigung und nicht nur als Finanzierungsinstrument?
+3. Warum kann auch eine schwache oder gescheiterte Crowdfunding-Kampagne wertvolle Informationen liefern?
+
+## Lösungsschlüssel
+1. Kleinere Beträge von einer großen Zahl einzelner Unterstützer einzusammeln, oft im Gegenzug für frühen Produktzugang, eine Belohnung oder (in manchen regulierten Formen) eine kleine Beteiligung.
+2. Weil die Unterstützer eine echte finanzielle Zusage machen, bevor das Produkt überhaupt existiert, was ein aussagekräftigeres Signal für echte Nachfrage ist als bloß bekundetes Interesse.
+3. Weil eine schwache Resonanz darauf hindeuten kann, dass Produkt, Preis oder Positionierung überdacht werden müssen – wertvolle Marktinformationen, bevor weitere Mittel eingesetzt werden, auch wenn das aus reiner Finanzierungssicht enttäuschend ist.
+
+## Antworten und Erklärungen
+1. Das ist die grundlegende Definition dieser Lektion.
+2. Das ist die zentrale Einsicht in den doppelten Zweck, auf der die Lektion aufbaut.
+3. Das deutet eine „gescheiterte“ Kampagne als Quelle nützlicher Informationen um, statt sie als reinen Verlust zu sehen.
+
+## Das Wichtigste in Kürze
+- Crowdfunding sammelt kleinere Beträge von vielen einzelnen Unterstützern ein, meist über eine Online-Plattform.
+- Eine erfolgreiche Kampagne liefert echte Marktbestätigung, weil die Unterstützer echtes Geld zusagen, bevor das Produkt existiert.
+- Selbst eine schwache Kampagne kann wertvolle Hinweise zu Produkt, Preis oder Positionierung geben, bevor weitere Mittel eingesetzt werden.
+
+## Hinweis zum Bildungszweck
+Diese Lektion dient ausschließlich der allgemeinen finanziellen Bildung und ist keine individuelle Finanz-, Anlage-, Steuer- oder Rechtsberatung. Lass dich vor dem Start einer Crowdfunding-Kampagne oder einer Beteiligung daran von einer zugelassenen Fachperson beraten.

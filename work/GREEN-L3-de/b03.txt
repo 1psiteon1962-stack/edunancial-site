@@ -1,0 +1,183 @@
+===== GREEN-L3-009
+TITLE: Warum sich der Einzelnachweis erst oberhalb einer bestimmten Schwelle lohnt
+SUMMARY: Erfahre, warum sich der zusätzliche Aufwand für den Einzelnachweis von Ausgaben erst lohnt, wenn die belegbaren Ausgaben insgesamt über dem Pauschbetrag liegen.
+# GREEN-L3-009: Warum sich der Einzelnachweis erst oberhalb einer bestimmten Schwelle lohnt
+
+## Lernziele
+Am Ende dieser Lektion kannst du:
+- die Entscheidungsregel erklären, wann sich der Einzelnachweis statt des Pauschbetrags lohnt
+- erklären, warum ein Einzelnachweis unterhalb des Pauschbetrags keinen zusätzlichen Vorteil bringt
+- Beispiele für häufig einzeln nachgewiesene Ausgaben nennen
+
+## Hauptinhalt
+
+Lektion 8 hat die grundlegende Wahl zwischen Pauschbetrag und Einzelnachweis eingeführt. Hier das konkrete „Warum“ hinter dieser Entscheidung: Der **Einzelnachweis** lohnt sich finanziell nur, wenn die Summe der konkreten, belegten abziehbaren Ausgaben den Pauschbetrag übersteigt, der sonst ohnehin berücksichtigt würde – denn in beiden Fällen geht es schlicht darum, den insgesamt geltend gemachten Abzug so groß wie möglich zu machen.
+
+[VERIFIED FACT] In Deutschland gehören zu den häufig einzeln nachgewiesenen Ausgaben etwa Werbungskosten wie die Entfernungspauschale für den Arbeitsweg, Arbeitsmittel, Fortbildungskosten oder die Homeoffice-Pauschale; bei den Sonderausgaben zum Beispiel Spenden und gezahlte Kirchensteuer; und bei den außergewöhnlichen Belastungen etwa Krankheitskosten, die allerdings nur oberhalb einer vom Einkommen abhängigen zumutbaren Belastung abziehbar sind. Die genauen Regeln, Grenzen und abziehbaren Kategorien sind gesetzlich festgelegt, unterscheiden sich je nach Land und ändern sich im Lauf der Zeit.
+
+Liegen die belegbaren Ausgaben insgesamt unter dem Pauschbetrag, bringt der Einzelnachweis überhaupt keinen zusätzlichen Steuervorteil – er erhöht nur den Aufwand für Belege, ohne den Gesamtabzug zu vergrößern. Genau deshalb solltest du grundsätzlich jedes Jahr deine tatsächlichen belegbaren Ausgaben mit dem Pauschbetrag vergleichen, statt anzunehmen, dass eine der beiden Möglichkeiten automatisch gilt.
+
+## Durchgerechnetes Beispiel
+
+[ILLUSTRATIVE EXAMPLE] Ein Angestellter mit langem Arbeitsweg, regelmäßigen Homeoffice-Tagen und einer selbst bezahlten Fortbildung rechnet seine Werbungskosten zusammen und stellt fest, dass sie deutlich über dem Arbeitnehmer-Pauschbetrag liegen. In diesem Fall ergibt der Einzelnachweis einen höheren Gesamtabzug, der den zusätzlichen Aufwand für Belege lohnt. [ASSUMPTION] Eine andere Angestellte, die zu Fuß zur Arbeit geht und kaum eigene Ausgaben für den Beruf hat, stellt womöglich fest, dass ihre belegbaren Werbungskosten weit unter dem Pauschbetrag liegen – für sie bringt der Einzelnachweis überhaupt keinen zusätzlichen Vorteil, weil der Pauschbetrag allein schon mehr ist, als sie belegen könnte.
+
+## Übungsquiz
+1. Was ist die grundlegende Entscheidungsregel dafür, Ausgaben einzeln nachzuweisen, statt den Pauschbetrag zu nutzen?
+2. Was geschieht, wenn die belegbaren Ausgaben insgesamt unter dem Pauschbetrag liegen?
+3. Nenne zwei Arten häufig einzeln nachgewiesener Ausgaben aus dieser Lektion.
+
+## Lösungsschlüssel
+1. Ausgaben nur dann einzeln nachweisen, wenn die Summe der konkreten, belegten abziehbaren Ausgaben den sonst berücksichtigten Pauschbetrag übersteigt.
+2. Der Einzelnachweis bringt überhaupt keinen zusätzlichen Steuervorteil – er erhöht nur den Aufwand für Belege, ohne den geltend gemachten Gesamtabzug zu vergrößern.
+3. Zwei beliebige aus: Entfernungspauschale, Arbeitsmittel, Fortbildungskosten, Homeoffice-Pauschale, Spenden, gezahlte Kirchensteuer, Krankheitskosten oberhalb der zumutbaren Belastung.
+
+## Antworten und Erklärungen
+1. Das ist die zentrale Entscheidungsregel, auf der die Lektion aufbaut.
+2. Das unterstreicht die praktische Folge eines Einzelnachweises unterhalb der maßgeblichen Schwelle.
+3. Das verankert das abstrakte Konzept in konkreten, wiedererkennbaren Ausgabenarten.
+
+## Das Wichtigste in Kürze
+- Der Einzelnachweis bringt nur dann einen zusätzlichen Steuervorteil, wenn die belegten abziehbaren Ausgaben insgesamt den Pauschbetrag übersteigen.
+- Unterhalb dieser Schwelle erhöht der Einzelnachweis nur den Aufwand für Belege, ohne zusätzlichen Steuervorteil.
+- Häufig einzeln nachgewiesen werden etwa Fahrtkosten, Arbeitsmittel, Fortbildungen, Spenden und bestimmte Krankheitskosten, wobei die konkreten Regeln je nach Land unterschiedlich sind.
+
+## Hinweis zum Bildungszweck
+Diese Lektion dient ausschließlich der allgemeinen finanziellen Bildung und ist keine individuelle Finanz-, Anlage-, Steuer- oder Rechtsberatung. Abzugsregeln und Grenzen unterscheiden sich je nach Land und ändern sich im Lauf der Zeit; wende dich für deine Situation an eine Steuerberaterin, einen Steuerberater oder einen Lohnsteuerhilfeverein.
+
+===== GREEN-L3-010
+TITLE: Warum es zählt, an welcher Stelle der Steuerberechnung ein Abzug wirkt
+SUMMARY: Erfahre, warum Abzüge an unterschiedlichen Stellen der Steuerberechnung wirken und warum Abzüge auf einer frühen Stufe zusätzlich andere einkommensabhängige Grenzen beeinflussen können.
+# GREEN-L3-010: Warum es zählt, an welcher Stelle der Steuerberechnung ein Abzug wirkt
+
+## Lernziele
+Am Ende dieser Lektion kannst du:
+- erklären, dass Abzüge an unterschiedlichen Stufen der Steuerberechnung ansetzen – in den USA „above the line“ und „below the line“, in Deutschland etwa auf der Ebene der Einkünfte oder später
+- erklären, warum Abzüge auf einer frühen Stufe unabhängig von späteren Abzügen wirken
+- erklären, warum diese Unterscheidung für den Anspruch auf andere Steuervorteile wichtig sein kann
+
+## Hauptinhalt
+
+In den USA werden **„above-the-line“-Abzüge** vom Bruttoeinkommen abgezogen, um das **Adjusted Gross Income (AGI)** zu ermitteln, eine wichtige Zwischengröße; **„below-the-line“-Abzüge** werden erst danach abgezogen. Die deutsche Einkommensteuer kennt eine ähnliche Stufenfolge: Von den Einnahmen werden zuerst die **Werbungskosten** (oder Betriebsausgaben) abgezogen, um die Einkünfte zu ermitteln; aus der Summe der Einkünfte ergibt sich – nach einigen weiteren Posten – der **Gesamtbetrag der Einkünfte**; erst davon werden **Sonderausgaben** und **außergewöhnliche Belastungen** abgezogen, um am Ende das zu versteuernde Einkommen zu erhalten.
+
+Hier das „Warum“, weshalb diese Unterscheidung über die reine Rechenreihenfolge hinaus wichtig ist: Abzüge auf einer frühen Stufe verringern das Einkommen, bevor spätere Abzüge überhaupt ins Spiel kommen. [VERIFIED FACT] Zudem dient die Zwischengröße – in den USA das AGI, in Deutschland häufig der Gesamtbetrag der Einkünfte – oft als Grundlage für weitere Grenzen: So hängt etwa die zumutbare Belastung bei außergewöhnlichen Belastungen und die Höchstgrenze für den Spendenabzug vom Gesamtbetrag der Einkünfte ab. Ein Abzug auf einer frühen Stufe kann damit eine Kettenwirkung haben und zusätzlich zu seinem eigenen direkten Steuervorteil helfen, andere einkommensabhängige Vorteile zu erhalten.
+
+Deshalb gelten Abzüge auf einer frühen Stufe manchmal als besonders wertvoll: Sie verringern das zu versteuernde Einkommen direkt, wirken unabhängig von späteren Abzügen und können zugleich den Anspruch auf andere einkommensabhängige Vorteile beeinflussen.
+
+## Durchgerechnetes Beispiel
+
+[ILLUSTRATIVE EXAMPLE] Eine Steuerpflichtige kann zusätzliche Werbungskosten geltend machen, die ihre Einkünfte und damit ihren Gesamtbetrag der Einkünfte senken. Das verringert nicht nur direkt ihr zu versteuerndes Einkommen, sondern senkt auch die zumutbare Belastung, die sie bei ihren Krankheitskosten selbst tragen muss – sodass ein größerer Teil dieser Kosten als außergewöhnliche Belastung abziehbar wird. [ASSUMPTION] Dieser frühe Abzug hat damit auf zwei Wegen Wert geschaffen: durch seine eigene direkte Verringerung des zu versteuernden Einkommens und indirekt, indem er einen weiteren einkommensabhängigen Abzug vergrößert hat – ein Beispiel dafür, warum diese Art von Abzug besonders wertvoll sein kann.
+
+## Übungsquiz
+1. Was ist der Unterschied zwischen Abzügen auf einer frühen und auf einer späteren Stufe der Steuerberechnung?
+2. Warum wirken Abzüge auf einer frühen Stufe unabhängig von späteren Abzügen?
+3. Warum kann ein Abzug auf einer frühen Stufe über seine eigene direkte Steuerminderung hinaus Wert schaffen?
+
+## Lösungsschlüssel
+1. Abzüge auf einer frühen Stufe verringern das Einkommen bis zu einer Zwischengröße (in den USA das AGI, in Deutschland etwa die Einkünfte und den Gesamtbetrag der Einkünfte); spätere Abzüge werden erst danach abgezogen, um das zu versteuernde Einkommen zu erhalten.
+2. Weil sie angesetzt werden, bevor spätere Abzüge überhaupt ins Spiel kommen, und das Einkommen unabhängig davon verringern, welche späteren Abzüge noch folgen.
+3. Weil die Zwischengröße oft als Grundlage für andere einkommensabhängige Grenzen dient, sodass eine niedrigere Zwischengröße durch einen frühen Abzug zusätzliche Vorteile ermöglichen oder vergrößern kann.
+
+## Antworten und Erklärungen
+1. Das ist die grundlegende Definition und Unterscheidung der Rechenreihenfolge in dieser Lektion.
+2. Das erklärt, warum diese Art von Abzug unabhängig von späteren Entscheidungen gilt.
+3. Das ist die zentrale, oft übersehene Kettenwirkung, die die Lektion hervorhebt.
+
+## Das Wichtigste in Kürze
+- Abzüge auf einer frühen Stufe verringern das Einkommen bis zu einer Zwischengröße; spätere Abzüge setzen erst danach an, um das zu versteuernde Einkommen zu erreichen.
+- Abzüge auf einer frühen Stufe wirken unabhängig davon, welche späteren Abzüge noch geltend gemacht werden.
+- Weil die Zwischengröße oft über andere Steuervorteile entscheidet, können frühe Abzüge über ihre eigene direkte Steuerminderung hinaus Wert schaffen.
+
+## Hinweis zum Bildungszweck
+Diese Lektion dient ausschließlich der allgemeinen finanziellen Bildung und ist keine individuelle Finanz-, Anlage-, Steuer- oder Rechtsberatung. Abzugsregeln unterscheiden sich je nach Land und ändern sich im Lauf der Zeit; wende dich für deine Situation an eine Steuerberaterin, einen Steuerberater oder einen Lohnsteuerhilfeverein.
+
+===== GREEN-L3-011
+TITLE: Warum nachgelagert besteuert nicht dasselbe ist wie steuerfrei
+SUMMARY: Erfahre den wichtigen Unterschied zwischen steuerlich aufgeschobenem und wirklich steuerfreiem Wachstum und warum ein Aufschub die Steuerrechnung nur auf später verschiebt.
+# GREEN-L3-011: Warum nachgelagert besteuert nicht dasselbe ist wie steuerfrei
+
+## Lernziele
+Am Ende dieser Lektion kannst du:
+- erklären, was „steuerlich aufgeschoben“ oder „nachgelagert besteuert“ im Unterschied zu „steuerfrei“ bedeutet
+- erklären, warum ein nachgelagert besteuertes Konto am Ende trotzdem eine Steuerpflicht mit sich bringt
+- einen Ausblick geben, warum diese Unterscheidung den Vergleich in der nächsten Lektion vorbereitet
+
+## Hauptinhalt
+
+Diese beiden Begriffe werden im Alltag oft locker verwendet, beschreiben aber wirklich unterschiedliche steuerliche Behandlungen. **Steuerlich aufgeschoben** bedeutet, dass die Steuer auf einen Betrag auf einen späteren Zeitpunkt verschoben wird – bei der Altersvorsorge in der Regel auf die Auszahlung, statt auf den Zeitpunkt der Einzahlung oder des Wachstums. In Deutschland spricht man von **nachgelagerter Besteuerung**; sie gilt etwa für die betriebliche Altersversorgung (bAV), die Basisrente (Rürup-Rente) und die Riester-Rente. **Steuerfrei** bedeutet dagegen, dass auf diesen Betrag unter den jeweiligen Voraussetzungen zu keinem Zeitpunkt Steuer anfällt.
+
+Hier das „Warum“, weshalb diese Unterscheidung so wichtig ist: Ein nachgelagert besteuertes Konto trägt – ähnlich wie die Diskussionen über Geldentwertung an anderer Stelle im Lehrplan zeigen, dass ein Kontostand nicht alles über seinen echten Wert sagt – weiterhin eine reale, spätere Steuerpflicht; sie wurde nicht beseitigt, nur verschoben. [VERIFIED FACT] Das bedeutet, dass das gesamte Guthaben nicht im selben Sinne „dir“ gehört wie bei einem steuerfreien Konto – ein Teil der späteren Auszahlungen ist als Steuer abzuführen, und zwar nach den Steuersätzen, die zum Zeitpunkt der Auszahlung gelten, die sich von denen bei der Einzahlung unterscheiden können. Bei gesetzlich Krankenversicherten können auf Auszahlungen aus der bAV zudem Kranken- und Pflegeversicherungsbeiträge anfallen.
+
+Genau diese Unterscheidung bereitet den Vergleich der nächsten Lektion vor – dort geht es um die praktische Wahl zwischen nachgelagerter Besteuerung und dem Sparen aus bereits versteuertem Einkommen.
+
+## Durchgerechnetes Beispiel
+
+[ILLUSTRATIVE EXAMPLE] Eine Steuerpflichtige zahlt über eine Entgeltumwandlung in eine betriebliche Altersversorgung ein, erhält auf die Beiträge sofort einen Steuervorteil und lässt das Geld ohne jährliche Steuer auf den Zuwachs wachsen. [ASSUMPTION] Wenn sie im Ruhestand Leistungen bezieht, werden diese Auszahlungen als Einkommen mit dem Steuersatz besteuert, der dann für sie gilt – das heutige Guthaben ist also nicht vollständig verfügbar; ein Teil gehört faktisch noch dem künftigen Fiskus. Das übersieht man leicht, wenn man „nachgelagert besteuert“ beiläufig mit „steuerfrei“ verwechselt.
+
+## Übungsquiz
+1. Was bedeutet „steuerlich aufgeschoben“ oder „nachgelagert besteuert“ im Unterschied zu „steuerfrei“?
+2. Warum steht das heutige Guthaben eines nachgelagert besteuerten Kontos der Kontoinhaberin nicht vollständig zur Verfügung?
+3. Wie bereitet diese Lektion den Vergleich in der nächsten Lektion vor?
+
+## Lösungsschlüssel
+1. Steuerlich aufgeschoben heißt, dass die Steuer auf einen späteren Zeitpunkt verschoben wird (in der Regel auf die Auszahlung); steuerfrei heißt, dass unter den jeweiligen Voraussetzungen überhaupt keine Steuer anfällt.
+2. Weil auf die Auszahlungen weiterhin eine reale, spätere Steuerpflicht besteht – ein Teil des Guthabens ist bei der Auszahlung nach den künftigen Steuersätzen als Steuer abzuführen, sodass nicht das gesamte heutige Guthaben wirklich verfügbar ist.
+3. Diese Unterscheidung bereitet direkt den Vergleich zwischen nachgelagerter Besteuerung und dem Sparen aus versteuertem Einkommen vor, weil diese Wege eine praktische Wahl zwischen unterschiedlichen steuerlichen Behandlungen darstellen.
+
+## Antworten und Erklärungen
+1. Das ist die grundlegende Unterscheidung, auf der die Lektion aufbaut.
+2. Das ist die zentrale, oft übersehene Einsicht in den tatsächlich verfügbaren Wert eines nachgelagert besteuerten Kontos.
+3. Das gibt ausdrücklich einen Ausblick auf die nächste Lektion und stärkt den aufeinander aufbauenden Aufbau des Tracks.
+
+## Das Wichtigste in Kürze
+- Steuerlich aufgeschoben heißt, dass die Steuer auf später verschoben wird, in der Regel auf die Auszahlung; steuerfrei heißt, dass überhaupt keine Steuer anfällt.
+- Das heutige Guthaben eines nachgelagert besteuerten Kontos ist nicht vollständig verfügbar, weil eine reale, spätere Steuerpflicht besteht.
+- Diese Unterscheidung liegt direkt dem Vergleich der Vorsorgewege in der nächsten Lektion zugrunde.
+
+## Hinweis zum Bildungszweck
+Diese Lektion dient ausschließlich der allgemeinen finanziellen Bildung und ist keine individuelle Finanz-, Anlage-, Steuer- oder Rechtsberatung. Steuerregeln unterscheiden sich je nach Land und ändern sich im Lauf der Zeit; wende dich für deine Situation an eine Steuerberaterin, einen Steuerberater oder eine unabhängige Rentenberatung.
+
+===== GREEN-L3-012
+TITLE: Warum Vorsorge mit Steueraufschub und Vorsorge aus versteuertem Geld auf unterschiedliche Steuerzukünfte setzen
+SUMMARY: Erfahre, warum die Wahl zwischen nachgelagert besteuerter Vorsorge und Sparen aus bereits versteuertem Einkommen im Kern eine Wette darauf ist, ob dein Steuersatz heute oder in Zukunft höher ist.
+# GREEN-L3-012: Warum Vorsorge mit Steueraufschub und Vorsorge aus versteuertem Geld auf unterschiedliche Steuerzukünfte setzen
+
+## Lernziele
+Am Ende dieser Lektion kannst du:
+- den grundlegenden steuerlichen Unterschied zwischen nachgelagert besteuerter Vorsorge und Vorsorge aus versteuertem Einkommen erklären – in den USA zwischen „Traditional“- und „Roth“-Konten
+- erklären, warum diese Wahl im Kern eine Wette auf künftige im Vergleich zu heutigen Steuersätzen ist
+- erklären, warum es keine Antwort gibt, die für alle Steuerpflichtigen richtig ist
+
+## Hauptinhalt
+
+Direkt aufbauend auf der Unterscheidung aus Lektion 11: In den USA ist ein **„Traditional“-Konto** grundsätzlich steuerlich aufgeschoben – Beiträge können das zu versteuernde Einkommen heute senken, Auszahlungen im Ruhestand werden als Einkommen besteuert. Ein **„Roth“-Konto** wird mit bereits versteuertem Geld bespart (kein Abzug heute), dafür sind begünstigte Auszahlungen im Ruhestand steuerfrei. In Deutschland gibt es kein echtes Gegenstück zum Roth-Konto; die vergleichbare Wahl besteht meist zwischen **nachgelagert besteuerter Vorsorge** (etwa bAV oder Basisrente: steuerlicher Vorteil heute, Besteuerung im Ruhestand) und **Sparen aus versteuertem Einkommen**, etwa in einem privaten Depot, bei dem die Einzahlungen keinen Steuervorteil bringen und später nur die Erträge der Abgeltungsteuer unterliegen.
+
+Hier das „Warum“, weshalb diese Wahl im Kern eine Wette auf künftige Steuersätze ist: [VERIFIED FACT] Nachgelagerte Besteuerung lohnt sich umso mehr, je niedriger dein Steuersatz im Ruhestand im Vergleich zu deinem heutigen ist – du erhältst den Vorteil heute zu einem höheren Satz und zahlst später zu einem niedrigeren. Das Sparen aus versteuertem Einkommen ist im Vergleich umso günstiger, je höher dein Steuersatz im Ruhestand im Vergleich zu heute ausfällt. Da niemand mit Sicherheit wissen kann, wie Steuersätze (persönlich oder allgemein) in Jahrzehnten aussehen werden, bringt diese Entscheidung zwangsläufig echte Unsicherheit mit sich und keine garantiert richtige Antwort.
+
+Deshalb empfehlen viele Fachleute, beide Wege zu kombinieren – manchmal **steuerliche Diversifikation** genannt, ein Thema einer späteren Lektion –, um sich gegen diese Unsicherheit abzusichern, statt vollständig auf ein bestimmtes künftiges Steuerszenario zu setzen.
+
+## Durchgerechnetes Beispiel
+
+[ILLUSTRATIVE EXAMPLE] Eine junge Berufseinsteigerin mit derzeit niedrigem Grenzsteuersatz könnte vernünftigerweise eher aus versteuertem Einkommen sparen – mit der Überlegung, dass ihr Einkommen (und ihr Steuersatz) im Lauf ihres Berufslebens wahrscheinlich deutlich steigen wird, sodass ein Steuervorteil heute bei ihrem niedrigen Satz wenig bringt und eine spätere Besteuerung bei einem womöglich höheren Satz ungünstiger wäre. [ASSUMPTION] Eine andere Beschäftigte in einem besonders gut verdienenden Jahr ihrer Karriere, die im Ruhestand einen deutlich niedrigeren Steuersatz erwartet, könnte dagegen vernünftigerweise eher nachgelagert besteuerte Vorsorge bevorzugen – den Vorteil heute bei ihrem hohen Satz nutzen und später zu einem erwartbar niedrigeren Satz zahlen. Das zeigt, warum die „richtige“ Wahl wirklich von den konkreten, unsicheren Erwartungen jeder Person an ihre eigene künftige Steuerlage abhängt.
+
+## Übungsquiz
+1. Was ist der grundlegende steuerliche Unterschied zwischen nachgelagert besteuerter Vorsorge und Sparen aus versteuertem Einkommen?
+2. Warum ist die Wahl zwischen beiden im Kern eine Wette auf künftige Steuersätze?
+3. Warum kann es eine vernünftige Strategie sein, beide Wege zu kombinieren?
+
+## Lösungsschlüssel
+1. Nachgelagert besteuerte Vorsorge bringt heute einen steuerlichen Vorteil, die Auszahlungen werden später besteuert; beim Sparen aus versteuertem Einkommen gibt es heute keinen Vorteil, dafür wird später nicht das gesamte Guthaben erneut als Einkommen besteuert (beim US-Roth-Konto sind begünstigte Auszahlungen sogar ganz steuerfrei).
+2. Weil nachgelagerte Besteuerung umso vorteilhafter ist, je niedriger der künftige Steuersatz im Vergleich zum heutigen ist, und das Sparen aus versteuertem Einkommen umso vorteilhafter, je höher er ausfällt – und niemand künftige Steuersätze mit Sicherheit kennen kann.
+3. Weil es gegen die echte Unsicherheit künftiger Steuersätze absichert, statt vollständig darauf zu setzen, dass ein bestimmtes künftiges Steuerszenario eintritt.
+
+## Antworten und Erklärungen
+1. Das ist die grundlegende Definition dieser Lektion.
+2. Das ist das zentrale „Warum“, das diese Entscheidung richtig als unsicher und nicht als Formel einordnet.
+3. Das führt das Konzept der steuerlichen Diversifikation ein, das eine spätere Lektion ausführlicher behandelt.
+
+## Das Wichtigste in Kürze
+- Nachgelagert besteuerte Vorsorge bringt heute einen Vorteil und später steuerpflichtige Auszahlungen; Sparen aus versteuertem Einkommen bringt heute keinen Vorteil, belastet später aber nicht mehr das gesamte Guthaben.
+- Diese Wahl ist im Kern eine Wette darauf, ob dein künftiger Steuersatz höher oder niedriger ist als dein heutiger.
+- Die Kombination beider Wege kann gegen die echte Unsicherheit bei der Vorhersage künftiger Steuersätze absichern.
+
+## Hinweis zum Bildungszweck
+Diese Lektion dient ausschließlich der allgemeinen finanziellen Bildung und ist keine individuelle Finanz-, Anlage-, Steuer- oder Rechtsberatung. Die Regeln für Vorsorgeprodukte unterscheiden sich je nach Land und ändern sich im Lauf der Zeit; wende dich für deine Situation an eine Steuerberaterin, einen Steuerberater oder eine unabhängige Rentenberatung.

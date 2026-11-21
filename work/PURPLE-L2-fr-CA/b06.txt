@@ -1,0 +1,423 @@
+===== PURPLE-L2-035
+TITLE: La diffamation : écrite ou verbale
+SUMMARY: Comprends ce qu'est la diffamation, la différence entre la diffamation écrite et verbale, et pourquoi la vérité et l'opinion clairement présentée jouent un rôle clé.
+## PURPLE-L2-035
+### La diffamation : écrite ou verbale
+
+**1. Objectifs d'apprentissage**
+À la fin de cette leçon, tu pourras :
+- Définir de façon conceptuelle la diffamation.
+- Distinguer la diffamation écrite (*libel*) de la diffamation verbale (*slander*).
+- Nommer les éléments et les moyens de défense généraux liés aux réclamations en diffamation.
+
+**2. Contenu principal**
+La diffamation est une fausse déclaration de fait communiquée à un tiers qui nuit à la réputation d'une autre personne. La diffamation écrite (*libel*) désigne généralement la diffamation sous une forme écrite ou autrement fixée (articles publiés, publications sur les réseaux sociaux, émissions enregistrées); la diffamation verbale (*slander*) désigne généralement la diffamation sous une forme orale et passagère. Cette distinction peut compter à certaines fins de procédure ou de dommages-intérêts, selon la juridiction, même si les deux relèvent de la notion plus large de diffamation.
+
+Les réclamations en diffamation exigent généralement que la déclaration soit fausse (la vérité est généralement un moyen de défense complet, puisqu'une déclaration vraie, aussi dommageable soit-elle, n'est généralement pas diffamatoire) et qu'il s'agisse d'une déclaration de fait plutôt que d'une pure opinion (une opinion clairement présentée comme telle n'est généralement pas considérée comme diffamatoire, puisqu'on ne peut pas prouver qu'une opinion est objectivement vraie ou fausse de la même façon qu'une affirmation factuelle). Cette distinction entre le fait et l'opinion n'est pas toujours simple et peut elle-même être une question juridique qui dépend des faits, surtout pour les déclarations qui mélangent des affirmations factuelles et un langage d'évaluation.
+
+**3. Exemple pratique**
+Un ancien employé publie en ligne une déclaration écrite qui affirme faussement que son ancien employeur s'est livré à une conduite illégale précise, qui n'a jamais eu lieu — une réclamation possible en diffamation écrite, vu la fausse déclaration de fait communiquée sous forme écrite et publiée, et le tort causé à la réputation de l'employeur. Ça contraste avec la publication écrite d'une autre ancienne employée qui affirme : « À mon avis, cette entreprise était mal gérée » — une déclaration d'évaluation subjective généralement considérée comme une opinion plutôt que comme une fausse déclaration de fait, et donc généralement pas diffamatoire, même si les deux déclarations peuvent être aussi mal reçues par l'employeur.
+
+**4. Quiz de pratique**
+1. Quelle est la distinction générale entre la diffamation écrite et la diffamation verbale?
+   a) Elles sont identiques à tous points de vue
+   b) La diffamation écrite est généralement sous forme écrite ou fixée; la diffamation verbale, généralement sous forme orale et passagère
+   c) La diffamation verbale ne s'applique qu'aux entreprises; la diffamation écrite, qu'aux particuliers
+   d) La diffamation écrite est toujours plus grave que la diffamation verbale dans toutes les juridictions
+2. Qu'est-ce qui est généralement un moyen de défense complet contre une réclamation en diffamation?
+   a) L'ignorance de la loi
+   b) La vérité — une déclaration vraie n'est généralement pas diffamatoire, aussi dommageable soit-elle
+   c) Des difficultés financières
+   d) Des excuses écrites après coup
+3. Vrai ou faux : Une opinion clairement présentée est généralement traitée de la même façon qu'une fausse déclaration de fait en matière de diffamation.
+4. Pourquoi la déclaration « entreprise mal gérée » n'était-elle probablement pas diffamatoire, contrairement à l'affirmation fausse de conduite illégale?
+   a) Les deux déclarations étaient tout aussi diffamatoires
+   b) La déclaration d'opinion était une évaluation subjective, et non une fausse déclaration de fait
+   c) Les opinions sont toujours diffamatoires, peu importe leur contenu
+   d) Aucune des deux déclarations n'avait d'importance juridique
+
+**5. Corrigé**
+1. b  2. b  3. Faux  4. b
+
+**6. Réponses et explications**
+1. La diffamation écrite désigne généralement la diffamation sous forme écrite ou fixée; la diffamation verbale, la diffamation orale et passagère.
+2. La vérité est généralement un moyen de défense complet contre une réclamation en diffamation, puisqu'une déclaration vraie n'est généralement pas diffamatoire.
+3. Une opinion clairement présentée est généralement traitée différemment d'une fausse déclaration de fait en matière de diffamation.
+4. La nature subjective et évaluative de la déclaration d'opinion la distinguait d'une affirmation factuelle fausse, susceptible d'être diffamatoire.
+
+**7. Points clés à retenir**
+- La diffamation est une fausse déclaration de fait communiquée à un tiers qui nuit à la réputation.
+- La diffamation écrite désigne généralement la diffamation sous forme écrite ou fixée; la diffamation verbale, la diffamation orale et passagère.
+- La vérité est généralement un moyen de défense complet, et une opinion clairement présentée n'est généralement pas considérée comme diffamatoire.
+- Distinguer le fait de l'opinion peut, dans certaines situations, être une question juridique qui dépend des faits.
+
+===== PURPLE-L2-036
+TITLE: Les bases du droit à la vie privée : ce qu'il protège et ce qu'il ne protège pas
+SUMMARY: Découvre les grandes catégories de protection de la vie privée, leurs limites et pourquoi les règles sur les données personnelles évoluent rapidement et varient selon l'endroit.
+## PURPLE-L2-036
+### Les bases du droit à la vie privée : ce qu'il protège et ce qu'il ne protège pas
+
+**1. Objectifs d'apprentissage**
+À la fin de cette leçon, tu pourras :
+- Nommer les catégories générales de protection de la vie privée.
+- Expliquer pourquoi le droit à la vie privée varie beaucoup selon la juridiction et le contexte.
+- Reconnaître les limites générales de la protection de la vie privée.
+
+**2. Contenu principal**
+Le droit à la vie privée couvre un large éventail de protections, qui varient beaucoup selon la juridiction, notamment la protection contre certains types d'intrusion dans les affaires privées, la divulgation publique non autorisée de faits privés et, dans bien des contextes modernes, la collecte, l'utilisation et la protection des renseignements personnels par les entreprises et d'autres organisations. Contrairement à d'autres domaines juridiques vus dans ce niveau, le droit à la vie privée évolue rapidement, avec des développements législatifs importants qui surviennent régulièrement à différents niveaux de compétence; cette leçon évite donc volontairement de détailler de façon complète les règles précises actuelles.
+
+Les protections de la vie privée ont généralement des limites importantes : l'information déjà rendue publique de façon légitime, ou les questions d'intérêt public légitime (surtout celles qui concernent des personnalités publiques dans leur rôle public), reçoivent souvent moins de protection que l'information purement privée sur des particuliers. Les entreprises qui recueillent des renseignements personnels font face à des obligations réglementaires de plus en plus nombreuses et changeantes en matière de consentement, de sécurité des données et de divulgation, qui varient beaucoup selon la juridiction et le type de renseignements en cause. C'est donc un domaine qui exige un encadrement juridique spécialisé et à jour pour toute entreprise qui traite des renseignements personnels à une échelle importante.
+
+**3. Exemple pratique**
+En lançant une nouvelle application qui recueille des données d'utilisateurs, une fondatrice reconnaît que la conformité au droit à la vie privée n'est pas une case à cocher une seule fois, mais un domaine continu qui exige un encadrement spécialisé et à jour, vu la rapidité avec laquelle les règlements pertinents évoluent et varient selon les juridictions où se trouvent ses utilisateurs. Elle fait appel à une avocate spécialisée en protection de la vie privée précisément pour examiner ses pratiques de collecte de données, de consentement et de sécurité, plutôt que de se fier à des suppositions générales ou à de l'information plus ancienne qui pourrait ne pas refléter les exigences légales actuelles dans les juridictions de ses utilisateurs.
+
+**4. Quiz de pratique**
+1. Entre autres, sur quoi porte généralement le droit à la vie privée?
+   a) Seulement les affaires criminelles, sans lien avec les renseignements personnels
+   b) La protection contre certaines intrusions, la divulgation non autorisée de faits privés et le traitement des renseignements personnels
+   c) Seulement les litiges de propriété intellectuelle
+   d) Seulement les transactions immobilières
+2. Selon cette leçon, quelle est une limite générale de la protection de la vie privée?
+   a) Toute information reçoit une protection identique et absolue, peu importe le contexte
+   b) L'information déjà rendue publique de façon légitime, ou les questions d'intérêt public légitime, reçoivent souvent moins de protection
+   c) Le droit à la vie privée n'a aucune limite
+   d) Les personnalités publiques reçoivent toujours une protection plus forte que les particuliers
+3. Vrai ou faux : Le droit à la vie privée est un domaine du droit figé, qui ne change pas et n'a connu aucun développement récent important.
+4. Pourquoi la fondatrice de l'application a-t-elle fait appel à une avocate spécialisée en vie privée plutôt que de se fier à des suppositions générales?
+   a) Le droit à la vie privée ne change jamais et n'exige aucune attention continue
+   b) Les règlements sur la vie privée évoluent rapidement et varient selon la juridiction, ce qui exige un encadrement spécialisé et à jour
+   c) Elle n'avait aucun renseignement personnel à protéger
+   d) Les avocats ne sont jamais nécessaires pour la conformité en matière de vie privée
+
+**5. Corrigé**
+1. b  2. b  3. Faux  4. b
+
+**6. Réponses et explications**
+1. Le droit à la vie privée porte notamment sur la protection contre les intrusions, la divulgation non autorisée et le traitement des renseignements personnels.
+2. L'information rendue publique de façon légitime et les questions d'intérêt public légitime reçoivent souvent moins de protection de la vie privée.
+3. Le droit à la vie privée est un domaine qui évolue rapidement, avec des développements législatifs importants et continus.
+4. Le recours à un encadrement juridique spécialisé et à jour reflétait la nature changeante et propre à chaque juridiction du droit à la vie privée.
+
+**7. Points clés à retenir**
+- Le droit à la vie privée porte sur l'intrusion, la divulgation non autorisée de faits privés et, de plus en plus, le traitement des renseignements personnels.
+- C'est un domaine qui évolue rapidement et varie beaucoup selon la juridiction, ce qui exige un encadrement spécialisé et à jour.
+- L'information rendue publique de façon légitime et les questions d'intérêt public reçoivent souvent une protection réduite.
+- Les entreprises qui traitent des renseignements personnels font face à des obligations réglementaires croissantes et changeantes qui exigent une attention continue.
+
+===== PURPLE-L2-037
+TITLE: La protection du consommateur : un survol
+SUMMARY: Comprends le but des lois sur la protection du consommateur, ce qu'elles couvrent et pourquoi les entreprises doivent en tenir compte dans leur marketing et leurs contrats.
+## PURPLE-L2-037
+### La protection du consommateur : un survol
+
+**1. Objectifs d'apprentissage**
+À la fin de cette leçon, tu pourras :
+- Nommer les catégories générales du droit de la protection du consommateur.
+- Expliquer le but d'intérêt public général derrière ces protections.
+- Relier cette notion à la discussion sur les activités d'entreprise du parcours BLUE.
+
+**2. Contenu principal**
+Le droit de la protection du consommateur regroupe un ensemble de protections juridiques conçues pour corriger le déséquilibre général d'information et de pouvoir de négociation entre les entreprises et les consommateurs individuels. Il comprend notamment des protections contre les pratiques commerciales trompeuses ou déloyales, des exigences de divulgation claire de certaines conditions (comme les conditions de prêt, en écho aux discussions sur le financement de RED-L2), des garanties pour les produits défectueux et des protections précises dans certaines transactions de consommation à enjeux élevés.
+
+Pour les entreprises (en écho au parcours BLUE), comprendre les principes généraux de protection du consommateur a une importance directe : les affirmations de marketing doivent généralement être vraies et justifiées (ce qui annonce la discussion sur le droit de la publicité de la leçon 41), certaines conditions contractuelles avec des consommateurs peuvent être examinées de plus près que des conditions semblables entre entreprises averties, et certains secteurs précis (prêt, santé, certains biens de consommation) font souvent face à des règlements supplémentaires de protection du consommateur propres à leur secteur, au-delà de ces principes généraux.
+
+**3. Exemple pratique**
+En révisant son matériel de marketing avant le lancement d'un produit, une propriétaire d'entreprise s'assure que ses affirmations sur les capacités du produit sont exactes et justifiées, en reconnaissant que le droit de la protection du consommateur interdit généralement les affirmations de marketing trompeuses ou non justifiées, même si aucune plainte de client n'a encore été reçue. Elle fait aussi examiner ses conditions contractuelles standards pour les consommateurs par une avocate qui connaît bien le droit de la protection du consommateur, en reconnaissant que des conditions acceptables dans un contrat entre entreprises averties pourraient être examinées de plus près dans un contexte de consommation, vu les dynamiques d'information et de pouvoir de négociation différentes.
+
+**4. Quiz de pratique**
+1. Quel déséquilibre général le droit de la protection du consommateur vise-t-il à corriger?
+   a) Il n'existe aucun déséquilibre entre les entreprises et les consommateurs
+   b) Le déséquilibre général d'information et de pouvoir de négociation entre les entreprises et les consommateurs individuels
+   c) Les déséquilibres entre deux entreprises averties seulement
+   d) Des déséquilibres sans aucun lien avec le marketing ou les contrats
+2. Pourquoi cette leçon se rattache-t-elle à la discussion sur les entreprises du parcours BLUE?
+   a) Elle n'a aucun lien avec les activités d'entreprise
+   b) Les entreprises doivent comprendre les principes de protection du consommateur qui touchent les affirmations de marketing et les conditions des contrats avec les consommateurs
+   c) Le droit de la protection du consommateur ne s'applique qu'aux organismes gouvernementaux
+   d) Il ne s'applique qu'aux entreprises qui n'ont aucun consommateur
+3. Vrai ou faux : Des conditions contractuelles acceptables entre deux entreprises averties sont toujours examinées de la même façon dans un contexte de consommation.
+4. Pourquoi la propriétaire d'entreprise a-t-elle révisé ses affirmations de marketing et ses conditions de contrat pour les consommateurs avant le lancement?
+   a) Le droit de la protection du consommateur n'a aucun lien avec le marketing ou les contrats
+   b) Elle a reconnu que ces aspects font l'objet d'un examen précis en matière de protection du consommateur, différent du contexte entre entreprises
+   c) Elle voulait faire des affirmations volontairement fausses
+   d) Aucune révision n'était nécessaire à aucun moment
+
+**5. Corrigé**
+1. b  2. b  3. Faux  4. b
+
+**6. Réponses et explications**
+1. Le droit de la protection du consommateur vise généralement à corriger le déséquilibre d'information et de pouvoir de négociation entre les entreprises et les consommateurs.
+2. Ça se rattache directement au parcours BLUE, puisque les entreprises doivent gérer des pratiques de marketing et de contrat qui touchent les consommateurs.
+3. Les conditions des contrats avec les consommateurs font souvent l'objet d'un examen plus attentif que des conditions semblables entre entreprises averties.
+4. La révision proactive de la propriétaire d'entreprise reflétait une bonne pratique, vu l'examen particulier du marketing et des contrats de consommation en droit de la protection du consommateur.
+
+**7. Points clés à retenir**
+- Le droit de la protection du consommateur vise le déséquilibre d'information et de pouvoir de négociation entre les entreprises et les consommateurs.
+- Les protections comprennent l'interdiction des pratiques trompeuses, des exigences de divulgation et des garanties.
+- Ça se rattache directement au parcours BLUE, puisque les entreprises doivent appliquer ces principes dans leur marketing et leurs contrats.
+- Les conditions des contrats de consommation font souvent l'objet d'un examen plus attentif que des conditions semblables entre entreprises averties.
+
+===== PURPLE-L2-038
+TITLE: Conformité réglementaire ou droit des contrats : deux pressions juridiques différentes
+SUMMARY: Distingue les obligations réglementaires imposées par l'État des obligations nées des contrats, et vois pourquoi respecter l'une ne règle pas automatiquement l'autre.
+## PURPLE-L2-038
+### Conformité réglementaire ou droit des contrats : deux pressions juridiques différentes
+
+**1. Objectifs d'apprentissage**
+À la fin de cette leçon, tu pourras :
+- Distinguer les obligations de conformité réglementaire des obligations contractuelles.
+- Expliquer pourquoi une entreprise peut faire face aux deux en même temps, ce qui exige des réponses différentes.
+- Appliquer cette distinction à un scénario d'entreprise hypothétique.
+
+**2. Contenu principal**
+Cette leçon distingue deux pressions juridiques liées, mais différentes, auxquelles une entreprise fait face. La conformité réglementaire consiste à respecter les lois et les règlements imposés par des organismes gouvernementaux, qui s'appliquent généralement peu importe tout contrat ou toute entente précise : une entreprise doit respecter les règlements applicables, qu'elle ait ou non un contrat précis qui porte sur ce domaine réglementaire, et la non-conformité l'expose généralement à des mesures d'application gouvernementales, et pas seulement à la réclamation d'une partie privée. Les obligations du droit des contrats (leçons 1 à 10), au contraire, découlent des ententes précises qu'une entreprise conclut volontairement; elles sont généralement appliquées par une action en justice privée de l'autre partie contractante, et non par des mesures gouvernementales.
+
+Une entreprise peut faire face aux deux en même temps dans des situations qui se chevauchent : un contrat avec un fournisseur peut préciser des normes de qualité (une obligation contractuelle, que l'autre partie contractante peut faire respecter), alors que des règlements gouvernementaux distincts peuvent exiger, de façon indépendante, certaines normes de sécurité pour le même produit (une obligation réglementaire, que l'État peut faire respecter). Respecter un type d'obligation ne satisfait pas automatiquement l'autre, et une entreprise doit suivre les deux catégories séparément.
+
+**3. Exemple pratique**
+Un fabricant d'aliments a un contrat avec un distributeur qui précise certaines normes de qualité et d'emballage (une obligation contractuelle), tout en étant soumis, séparément, à des règlements gouvernementaux sur la salubrité des aliments qui exigent des essais de sécurité et un étiquetage précis, peu importe ce que dit le contrat avec le distributeur (une obligation réglementaire). Le fabricant reconnaît qu'il s'agit de deux volets de conformité distincts qui exigent une attention séparée : respecter entièrement les normes de qualité du contrat avec le distributeur n'excuserait pas un manquement aux règlements gouvernementaux sur la salubrité des aliments, qui s'appliquent de façon indépendante, et vice versa. Il faut s'occuper des deux ensemble, sans les traiter comme interchangeables.
+
+**4. Quiz de pratique**
+1. Qu'est-ce qui déclenche généralement une obligation de conformité réglementaire, par opposition à une obligation contractuelle?
+   a) Une entente volontaire précise entre deux parties privées
+   b) Les lois et les règlements imposés par des organismes gouvernementaux, qui s'appliquent généralement peu importe tout contrat précis
+   c) Rien — les obligations réglementaires et contractuelles sont identiques
+   d) Seulement les obligations qu'une entreprise choisit d'accepter
+2. Qui fait généralement respecter une obligation contractuelle, par opposition à une obligation réglementaire?
+   a) Un organisme gouvernemental, dans tous les cas
+   b) L'autre partie contractante, par une action en justice privée
+   c) Personne — les contrats ne sont pas exécutoires
+   d) Seulement les tribunaux criminels
+3. Vrai ou faux : Respecter une norme de qualité contractuelle satisfait automatiquement toute exigence réglementaire gouvernementale distincte et applicable.
+4. Pourquoi le fabricant d'aliments a-t-il traité son contrat avec le distributeur et les règlements gouvernementaux comme deux volets de conformité distincts?
+   a) C'étaient des exigences identiques qui ne demandaient aucune attention séparée
+   b) Respecter un type d'obligation ne satisfait pas automatiquement l'autre, ce qui exige une attention séparée aux deux
+   c) Seul le contrat comptait; les règlements n'avaient aucune importance
+   d) Seuls les règlements comptaient; le contrat n'avait aucune importance
+
+**5. Corrigé**
+1. b  2. b  3. Faux  4. b
+
+**6. Réponses et explications**
+1. Les obligations de conformité réglementaire découlent des lois et règlements imposés par l'État, qui s'appliquent généralement peu importe tout contrat précis.
+2. Les obligations contractuelles sont généralement appliquées par une action en justice privée de l'autre partie contractante, et non par des mesures gouvernementales.
+3. Respecter une norme contractuelle ne satisfait pas automatiquement une exigence réglementaire distincte qui s'applique de façon indépendante.
+4. Le fabricant a eu raison de reconnaître qu'il s'agissait d'obligations distinctes qui exigent une attention séparée et simultanée.
+
+**7. Points clés à retenir**
+- Les obligations de conformité réglementaire découlent de lois imposées par l'État et s'appliquent généralement peu importe tout contrat précis.
+- Les obligations contractuelles découlent d'ententes volontaires et sont généralement appliquées par une action en justice privée.
+- Une entreprise peut faire face aux deux en même temps dans des situations qui se chevauchent, ce qui exige un suivi et une attention séparés.
+- Respecter un type d'obligation ne satisfait pas automatiquement l'autre.
+
+===== PURPLE-L2-039
+TITLE: Le zonage et le droit de l'aménagement revisités (PURPLE rencontre RED)
+SUMMARY: Revois le zonage du point de vue juridique comme une obligation réglementaire et comprends pourquoi un contrat d'achat valide ne garantit pas que ton usage prévu est permis.
+## PURPLE-L2-039
+### Le zonage et le droit de l'aménagement revisités (PURPLE rencontre RED)
+
+**1. Objectifs d'apprentissage**
+À la fin de cette leçon, tu pourras :
+- Renforcer, du point de vue juridique de PURPLE, la discussion sur le zonage de RED-L2-023.
+- Expliquer le zonage comme une application précise du droit réglementaire (leçon 38).
+- Reconnaître qu'il s'agit d'un vrai pont entre les couleurs PURPLE et RED.
+
+**2. Contenu principal**
+Cette leçon revisite la discussion sur le zonage et les permis de RED-L2-023 explicitement à travers la lentille juridique PURPLE établie dans ce niveau, en particulier la distinction entre le réglementaire et le contractuel de la leçon 38. Le droit du zonage est un exemple clair de conformité réglementaire : il s'applique aux propriétés peu importe tout contrat ou toute entente privée entre des parties, il est appliqué par des mesures gouvernementales (amendes, correctifs obligatoires ou ordonnances juridiques) et il existe indépendamment de ce que peut préciser séparément un contrat d'achat ou un bail.
+
+Ça veut dire qu'un contrat d'achat ou de location immobilier peut être tout à fait valide et exécutoire comme contrat, alors que l'usage prévu de la propriété par l'acheteur ou le locataire est quand même interdit, séparément et indépendamment, par les règlements de zonage — en écho au point central de la leçon 38 selon lequel respecter une catégorie juridique (la validité du contrat) ne satisfait pas l'autre (la conformité réglementaire). Un acheteur qui se fie uniquement aux conditions d'un contrat d'achat sans vérifier de façon indépendante la conformité au zonage de son usage prévu s'expose exactement au genre de risque réglementaire que ce niveau a examiné tout au long.
+
+**3. Exemple pratique**
+Une acheteuse signe un contrat d'achat tout à fait valide et exécutoire pour une propriété, dans l'intention d'y exploiter un type d'entreprise précis. Après la clôture, elle découvre que le zonage de la propriété ne permet pas l'usage commercial qu'elle prévoyait — une infraction au zonage complètement indépendante de la validité de son contrat, puisque l'obligation contractuelle du vendeur de transférer la propriété ne va pas jusqu'à garantir que son usage prévu respecte le droit du zonage, qui s'applique séparément. Ça illustre exactement pourquoi RED-L2-023 recommandait de vérifier le zonage avant l'achat : la validité du contrat et la conformité réglementaire sont de vrais volets juridiques distincts, exactement comme la leçon 38 l'a établi.
+
+**4. Quiz de pratique**
+1. Selon le cadre de cette leçon, quel type d'obligation juridique le droit du zonage représente-t-il?
+   a) Une obligation purement contractuelle entre parties privées
+   b) Une obligation de conformité réglementaire, appliquée par des mesures gouvernementales
+   c) Ni contractuelle ni réglementaire
+   d) Un type de protection de la propriété intellectuelle
+2. Pourquoi le contrat d'achat valide de l'acheteuse ne l'a-t-il pas protégée contre l'infraction au zonage?
+   a) Le contrat était invalide
+   b) La validité du contrat et la conformité réglementaire sont des volets juridiques distincts; l'un ne satisfait pas l'autre
+   c) Le droit du zonage n'existe pas vraiment
+   d) Le vendeur était légalement tenu de garantir son usage prévu
+3. Vrai ou faux : Un contrat d'achat valide et exécutoire assure automatiquement que l'usage prévu de l'acheteur respecte tous les règlements de zonage applicables.
+4. Quel cadre d'une leçon précédente cette leçon applique-t-elle directement au contexte du zonage?
+   a) Le survol de la propriété intellectuelle de la leçon 20
+   b) La distinction entre le réglementaire et le contractuel de la leçon 38
+   c) La comparaison entre l'arbitrage et la poursuite judiciaire de la leçon 28
+   d) La discussion sur les testaments de la leçon 11
+
+**5. Corrigé**
+1. b  2. b  3. Faux  4. b
+
+**6. Réponses et explications**
+1. Le droit du zonage est un exemple clair d'obligation de conformité réglementaire, appliquée par des mesures gouvernementales.
+2. La validité du contrat et la conformité réglementaire sont des volets juridiques distincts, et respecter l'un ne satisfait pas l'autre.
+3. La conformité au zonage est indépendante de la validité du contrat et doit être vérifiée séparément.
+4. Cette leçon applique directement le cadre de la leçon 38 sur le réglementaire et le contractuel au contexte précis du zonage.
+
+**7. Points clés à retenir**
+- Le droit du zonage est un exemple clair de conformité réglementaire, qui s'applique indépendamment de tout contrat privé.
+- Un contrat d'achat valide ne garantit pas que l'usage prévu de l'acheteur respecte le droit du zonage, qui s'applique séparément.
+- Ça renforce la distinction de la leçon 38 entre les obligations contractuelles et réglementaires, appliquée à la discussion sur le zonage du parcours RED.
+- C'est un vrai pont entre les couleurs, qui relie les cadres juridiques PURPLE à la pratique immobilière RED.
+
+===== PURPLE-L2-040
+TITLE: Le droit du travail et la constitution d'entreprise (PURPLE rencontre BLUE)
+SUMMARY: Revois la constitution d'entité, l'embauche et la classification des travailleurs à travers les principes juridiques de ce niveau, et vois pourquoi ils s'appliquent à toutes les décisions d'affaires.
+## PURPLE-L2-040
+### Le droit du travail et la constitution d'entreprise (PURPLE rencontre BLUE)
+
+**1. Objectifs d'apprentissage**
+À la fin de cette leçon, tu pourras :
+- Renforcer, du point de vue juridique de PURPLE, la discussion du parcours BLUE sur l'embauche et la conformité.
+- Nommer les éléments juridiques qui touchent à la fois la constitution d'une entité et le droit du travail.
+- Reconnaître qu'il s'agit d'un vrai pont entre les couleurs PURPLE et BLUE.
+
+**2. Contenu principal**
+Cette leçon revisite plusieurs fils du parcours BLUE — la constitution d'une entité (BLUE-L2-002 et 003), l'embauche (BLUE-L2-021 à 023) et la classification des travailleurs (BLUE-L2-023) — explicitement à travers les instruments et les cadres juridiques PURPLE développés dans ce niveau. Les documents de constitution d'une entité (le parallèle de la discussion sur le zonage de la leçon 39 s'applique aussi ici) sont eux-mêmes des instruments juridiques de base qui exigent les formalités vues aux leçons 2 et 11 : les notions d'offre, d'acceptation et de contrepartie guident les conventions de société et les conventions d'exploitation, alors que les exigences de forme rappellent les règles de constitution des testaments et des fiducies. Les relations d'emploi (la discussion sur l'emploi à volonté de la leçon 18) et la classification des travailleurs (en écho à BLUE-L2-023) comportent toutes les deux des obligations de conformité réglementaire (leçon 38) qui s'ajoutent à toute condition précise d'un contrat de travail.
+
+Ce lien entre les couleurs renforce un thème qui traverse tout ce niveau : les instruments et les cadres juridiques ne sont pas limités à une seule fonction de l'entreprise. Les mêmes principes contractuels (leçons 2 à 7), la même distinction entre le réglementaire et le contractuel (leçon 38) et les mêmes thèmes d'encadrement professionnel (en écho au principe de BLUE-L2-031, « les affaires sont un sport d'équipe ») s'appliquent, que la décision d'affaires précise porte sur la constitution d'une entité, l'embauche d'un employé ou tout autre terrain juridique vu dans BLUE-L2.
+
+**3. Exemple pratique**
+En constituant sa LLC et en embauchant son premier employé la même année, une propriétaire d'entreprise reconnaît que les deux décisions exigent la même littératie juridique de base que ce niveau a bâtie : la convention d'exploitation de sa LLC est elle-même un contrat qui exige les mêmes principes de rédaction et d'examen attentifs que ceux des leçons 2 à 5, alors que sa nouvelle relation d'emploi comporte à la fois un contrat de travail possible (leçon 18) et des obligations de conformité réglementaire distinctes et indépendantes (en écho à la leçon 38) en matière de paie et de classification des travailleurs, qui existent peu importe ce que dit précisément son contrat de travail.
+
+**4. Quiz de pratique**
+1. Quels domaines du parcours BLUE cette leçon revisite-t-elle à travers la lentille juridique PURPLE?
+   a) Seulement la stratégie de marketing
+   b) La constitution d'une entité, l'embauche et la classification des travailleurs
+   c) Seulement les décisions immobilières
+   d) Seulement la philosophie de placement
+2. Quel thème cette leçon entre les couleurs renforce-t-elle?
+   a) Les instruments et cadres juridiques ne s'appliquent qu'à une seule fonction précise de l'entreprise
+   b) Les mêmes principes juridiques de ce niveau s'appliquent à la constitution d'une entité, à l'embauche et à d'autres décisions d'affaires
+   c) Les notions du parcours PURPLE n'ont aucun rapport avec les décisions d'affaires du parcours BLUE
+   d) Les obligations réglementaires et contractuelles sont des notions identiques
+3. Vrai ou faux : Cette leçon présente des notions juridiques entièrement nouvelles, sans lien avec le reste de PURPLE-L2 ni avec le parcours BLUE.
+4. Qu'est-ce que la propriétaire d'entreprise a reconnu au sujet de la constitution de sa LLC et de son embauche?
+   a) Elles exigeaient des principes juridiques sans aucun lien
+   b) Les deux exigeaient la même littératie juridique de base — les principes contractuels et la distinction entre le réglementaire et le contractuel — bâtie dans ce niveau
+   c) Aucune des deux décisions n'avait d'importance juridique
+   d) Seule la décision d'embauche comportait des éléments juridiques
+
+**5. Corrigé**
+1. b  2. b  3. Faux  4. b
+
+**6. Réponses et explications**
+1. Cette leçon revisite la constitution d'une entité, l'embauche et la classification des travailleurs du parcours BLUE.
+2. Cette leçon renforce l'idée que les mêmes principes juridiques de ce niveau s'appliquent largement à différentes décisions d'affaires.
+3. Cette leçon se rattache volontairement à des notions déjà vues dans PURPLE-L2 et dans le parcours BLUE.
+4. La propriétaire d'entreprise a reconnu que sa décision de constitution et sa décision d'embauche s'appuyaient sur la même littératie juridique de base de ce niveau.
+
+**7. Points clés à retenir**
+- La constitution d'une entité, l'embauche et la classification des travailleurs s'appuient toutes sur les mêmes principes contractuels et réglementaires vus dans PURPLE-L2.
+- Les conventions d'exploitation sont elles-mêmes des contrats qui exigent les mêmes principes de rédaction attentive que ceux des leçons 2 à 5.
+- Les relations d'emploi comportent à la fois des conditions contractuelles et des obligations de conformité réglementaire qui s'appliquent séparément.
+- C'est un vrai pont entre les couleurs, qui montre que la littératie juridique PURPLE s'applique largement aux décisions d'affaires du parcours BLUE.
+
+===== PURPLE-L2-041
+TITLE: Le droit de la publicité et la vérité en marketing (PURPLE rencontre ORANGE)
+SUMMARY: Applique les principes de protection du consommateur à la publicité : affirmations vraies et justifiées, règles plus strictes pour la publicité comparative et rôle de l'examen juridique.
+## PURPLE-L2-041
+### Le droit de la publicité et la vérité en marketing (PURPLE rencontre ORANGE)
+
+**1. Objectifs d'apprentissage**
+À la fin de cette leçon, tu pourras :
+- Renforcer les notions de protection du consommateur (leçon 37) appliquées précisément à la publicité.
+- Nommer les exigences générales pour des affirmations de marketing vraies et justifiées.
+- Reconnaître qu'il s'agit d'un vrai pont entre les couleurs PURPLE et ORANGE.
+
+**2. Contenu principal**
+En s'appuyant directement sur le survol de la protection du consommateur de la leçon 37, cette leçon applique ces principes précisément à la publicité et au marketing (le parcours ORANGE). Les exigences générales dans bien des juridictions comprennent que les affirmations publicitaires doivent généralement être vraies et non trompeuses, et que les affirmations de nature factuelle (comme des affirmations précises de performance ou de santé) doivent généralement être justifiées par des preuves suffisantes avant d'être faites, et non simplement affirmées en espérant qu'elles soient vraies. Certaines catégories d'affirmations — la publicité comparative qui nomme des concurrents, les témoignages et les recommandations, et les affirmations dans des secteurs très réglementés (santé, services financiers) — font souvent face à des exigences réglementaires supplémentaires et précises, au-delà de ces principes généraux.
+
+Ça fait directement écho à la distinction entre le réglementaire et le contractuel de la leçon 38 : les règlements sur la publicité s'appliquent peu importe ce que dit un contrat précis avec un client, et les affirmations de marketing d'une entreprise sont soumises de façon indépendante à des mesures d'application gouvernementales (et parfois à des réclamations privées de consommateurs) si elles sont jugées trompeuses, peu importe les conditions réelles du contrat de vente de l'entreprise avec un client précis.
+
+**3. Exemple pratique**
+Avant de lancer une campagne de marketing qui fait des affirmations précises sur la performance de son produit, une propriétaire d'entreprise s'assure d'avoir une justification suffisante — de vrais essais ou de vraies données qui appuient les affirmations précises — plutôt que de faire des affirmations fondées sur des suppositions optimistes ou seulement sur des commentaires anecdotiques de clients. Elle fait aussi examiner par son avocate une publicité comparative prévue qui nomme un concurrent précis, en reconnaissant que les affirmations comparatives qui nomment des concurrents font souvent l'objet d'un examen plus strict et d'exigences juridiques précises, au-delà de la norme générale de vérité qui s'applique à la publicité en général.
+
+**4. Quiz de pratique**
+1. Qu'est-ce que les affirmations publicitaires de nature factuelle doivent généralement avoir avant d'être faites?
+   a) Aucune exigence
+   b) Une justification suffisante, et non de simples suppositions optimistes
+   c) Une approbation gouvernementale préalable dans tous les cas
+   d) Le consentement écrit préalable d'un client
+2. Quel type d'affirmation publicitaire fait souvent face à des exigences réglementaires supplémentaires et précises?
+   a) Aucun — toutes les affirmations sont traitées de la même façon
+   b) La publicité comparative qui nomme des concurrents, les témoignages et les affirmations dans des secteurs réglementés
+   c) Seulement les affirmations sur la météo
+   d) Seulement les affirmations faites dans des documents privés non publiés
+3. Vrai ou faux : Les affirmations de marketing d'une entreprise ne sont examinées que si un contrat précis avec un client porte sur des conditions publicitaires.
+4. Pourquoi la propriétaire d'entreprise a-t-elle fait examiner sa publicité comparative par son avocate avant de la lancer?
+   a) Les affirmations comparatives qui nomment des concurrents ne comportent aucun élément juridique particulier
+   b) La publicité comparative qui nomme des concurrents fait souvent l'objet d'un examen plus strict et d'exigences juridiques précises
+   c) Elle voulait faire des affirmations non justifiées
+   d) L'examen d'un avocat n'a jamais d'importance pour les décisions de marketing
+
+**5. Corrigé**
+1. b  2. b  3. Faux  4. b
+
+**6. Réponses et explications**
+1. Les affirmations publicitaires factuelles exigent généralement une justification suffisante avant d'être faites.
+2. La publicité comparative, les témoignages et les affirmations dans des secteurs réglementés font souvent face à des exigences réglementaires supplémentaires et précises.
+3. Les règlements sur la publicité s'appliquent indépendamment de tout contrat précis avec un client, en écho à la distinction entre le réglementaire et le contractuel de la leçon 38.
+4. L'examen plus strict des affirmations publicitaires comparatives justifiait l'examen attentif par une avocate avant le lancement.
+
+**7. Points clés à retenir**
+- Les affirmations publicitaires doivent généralement être vraies, non trompeuses et suffisamment justifiées si elles sont de nature factuelle.
+- La publicité comparative, les témoignages et les affirmations dans les secteurs réglementés font souvent face à des exigences précises supplémentaires.
+- Ça applique directement la distinction entre le réglementaire et le contractuel de la leçon 38 au marketing et à la publicité.
+- C'est un vrai pont entre les couleurs, qui relie les principes de protection du consommateur PURPLE à la pratique du marketing ORANGE.
+
+===== PURPLE-L2-042
+TITLE: Les bases de la gouvernance d'entreprise : règlements intérieurs, conseil et devoir fiduciaire
+SUMMARY: Comprends ce qu'est la gouvernance d'entreprise, le rôle des règlements intérieurs et du conseil d'administration, et pourquoi une société par actions exige une structure plus formelle.
+## PURPLE-L2-042
+### Les bases de la gouvernance d'entreprise : règlements intérieurs, conseil et devoir fiduciaire
+
+**1. Objectifs d'apprentissage**
+À la fin de cette leçon, tu pourras :
+- Définir de façon conceptuelle la gouvernance d'entreprise.
+- Nommer les rôles généraux des règlements intérieurs et d'un conseil d'administration.
+- Avoir un aperçu de la notion de devoir fiduciaire approfondie à la leçon 43.
+
+**2. Contenu principal**
+La gouvernance d'entreprise désigne les structures et les processus par lesquels une société par actions (ou, avec des variations, d'autres types d'entités) est dirigée et contrôlée, en écho à la présentation de la société par actions comme structure d'entité plus formelle dans BLUE-L2-002. Les règlements intérieurs (*bylaws*) sont des documents de gouvernance interne qui établissent la façon dont la société fonctionnera — comment les administrateurs sont élus, comment les réunions se déroulent, et d'autres règles de procédure et de structure. Ils sont généralement exigés pour les sociétés par actions et adoptés au moment de la constitution ou peu après.
+
+Un conseil d'administration supervise généralement les grandes décisions et la direction de la société, et a des devoirs fiduciaires (présentés ici, approfondis à la leçon 43) envers la société et ses actionnaires. Cette structure de gouvernance existe justement parce qu'une société par actions, en tant qu'entité juridique distincte, a besoin de mécanismes définis pour que des personnes prennent des décisions en son nom. Les règlements intérieurs et la supervision du conseil fournissent cette structure, distincte et plus formelle que les structures de gouvernance habituellement utilisées pour les entreprises individuelles ou les LLC plus simples.
+
+**3. Exemple pratique**
+En constituant une société par actions pour son entreprise en croissance, plutôt que de continuer comme LLC, une fondatrice travaille avec son avocate pour rédiger des règlements intérieurs qui établissent comment son conseil d'administration sera élu, à quelle fréquence il se réunira, et quelles grandes décisions exigent l'approbation du conseil par rapport à celles qu'elle peut prendre seule comme dirigeante. Cette structure de gouvernance formelle, exigée pour sa société par actions, contraste avec la structure plus simple de convention d'exploitation que sa LLC utilisait auparavant, ce qui reflète la gouvernance plus formelle généralement attendue d'une société par actions.
+
+**4. Quiz de pratique**
+1. Dans un contexte de gouvernance d'entreprise, que sont les règlements intérieurs?
+   a) Un type de déclaration fiscale
+   b) Des documents de gouvernance interne qui établissent comment une société par actions fonctionnera
+   c) Un type de protection de la propriété intellectuelle
+   d) Un document de marketing
+2. Que fait généralement un conseil d'administration?
+   a) Rien d'important
+   b) Il supervise les grandes décisions et la direction de la société, et a des devoirs fiduciaires envers la société et les actionnaires
+   c) Il s'occupe seulement du service à la clientèle quotidien
+   d) Il remplace le besoin de règlements intérieurs
+3. Vrai ou faux : Les structures de gouvernance d'entreprise comme les règlements intérieurs et les conseils sont identiques aux structures de gouvernance habituellement utilisées pour les entreprises individuelles.
+4. Pourquoi la fondatrice devait-elle rédiger des règlements intérieurs en constituant sa société par actions?
+   a) Les règlements intérieurs sont facultatifs et inutiles pour les sociétés par actions
+   b) Les règlements intérieurs établissent la structure de gouvernance formelle généralement exigée et attendue d'une société par actions
+   c) La convention d'exploitation de sa LLC suffisait automatiquement pour sa nouvelle société
+   d) Elle n'avait besoin d'aucune structure de gouvernance
+
+**5. Corrigé**
+1. b  2. b  3. Faux  4. b
+
+**6. Réponses et explications**
+1. Les règlements intérieurs sont des documents de gouvernance interne qui établissent le fonctionnement d'une société par actions.
+2. Un conseil d'administration supervise les grandes décisions et la direction, et a des devoirs fiduciaires envers la société et les actionnaires.
+3. Les structures de gouvernance d'entreprise sont généralement plus formelles que celles des entreprises individuelles ou des types d'entités plus simples.
+4. Constituer une société par actions exige généralement la structure de gouvernance plus formelle qu'établissent les règlements intérieurs.
+
+**7. Points clés à retenir**
+- La gouvernance d'entreprise désigne les structures et les processus qui dirigent et contrôlent une société par actions.
+- Les règlements intérieurs sont des documents de gouvernance interne qui établissent des règles de fonctionnement et de procédure.
+- Un conseil d'administration supervise les grandes décisions et a des devoirs fiduciaires envers la société et les actionnaires.
+- Cette structure formelle est généralement exigée pour les sociétés par actions et est plus formelle que la gouvernance habituelle d'une entreprise individuelle ou d'une LLC simple.

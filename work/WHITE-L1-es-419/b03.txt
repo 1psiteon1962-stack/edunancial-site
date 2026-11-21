@@ -1,0 +1,354 @@
+===== WHITE-L1-011
+TITLE: ¿Qué es un índice? (Qué significa realmente "el mercado" cuando la gente lo dice)
+SUMMARY: Aprende qué es realmente un índice de mercado y qué significa cuando la gente dice que "el mercado subió".
+# ¿Qué es un índice? (Qué significa realmente "el mercado" cuando la gente lo dice)
+
+## Objetivos de aprendizaje
+
+Al terminar esta lección, deberías poder:
+
+- Definir un índice de mercado en palabras sencillas.
+- Explicar qué significa cuando alguien dice que "el mercado subió".
+- Reconocer que un índice sigue un grupo definido, no literalmente todo.
+
+## Contenido principal
+
+### Qué es un índice
+
+Un índice de mercado es un conjunto definido de acciones (u otros activos) que se siguen juntas para representar el desempeño de un segmento específico del mercado: es una herramienta de medición, no algo de lo que seas dueño directamente.
+
+### Qué significa realmente "el mercado subió"
+
+Cuando la gente dice que "hoy subió el mercado", normalmente se refiere a que subió de valor un índice específico y conocido, no literalmente todas las acciones de todas partes. Distintos índices pueden moverse en direcciones distintas el mismo día.
+
+### Un grupo definido, no todo
+
+Un índice sigue un conjunto específico y definido de empresas (elegidas con reglas específicas), no toda la economía mundial. Entender qué empresas forman realmente parte de un índice importa para entender qué representa de verdad su movimiento.
+
+## Ejemplo práctico
+
+Un titular que dice que "el mercado subió 1 % hoy" normalmente se refiere a un índice específico formado por un grupo definido de empresas; otro índice que sigue a un grupo distinto de empresas pudo haberse movido de otra forma ese mismo día.
+
+## Prueba de práctica
+
+1. Un índice de mercado es:
+   A. La acción de una sola empresa
+   B. Un conjunto definido de activos que se sigue para representar un segmento del mercado
+   C. Un tipo de cuenta bancaria
+   D. Un informe económico del gobierno
+2. Verdadero o falso: "El mercado subió" siempre significa que literalmente todas las acciones del mundo subieron ese día.
+3. ¿Por qué importa qué empresas forman realmente parte de un índice?
+   A. No importa en absoluto
+   B. Determina lo que realmente representa el movimiento de ese índice
+   C. Todos los índices tienen empresas idénticas
+   D. Los índices nunca cambian su composición
+
+## Clave de respuestas
+
+1. B
+2. Falso
+3. B
+
+## Respuestas y explicaciones
+
+### Pregunta 1
+
+Respuesta correcta: B. Un índice es un conjunto definido que se sigue para representar un segmento del mercado.
+
+### Pregunta 2
+
+Respuesta correcta: Falso. Se refiere a un índice específico, no literalmente a todas las acciones.
+
+### Pregunta 3
+
+Respuesta correcta: B. La composición determina lo que realmente refleja el movimiento del índice.
+
+## Puntos clave
+
+- Un índice de mercado sigue un conjunto definido de activos.
+- "El mercado subió" normalmente se refiere a un índice específico, no a todo.
+- Entender la composición real de un índice importa para interpretar su movimiento.
+
+===== WHITE-L1-012
+TITLE: ¿Qué es el índice de gastos (expense ratio) y por qué debería importarte un porcentaje pequeño?
+SUMMARY: Aprende qué es el índice de gastos de un fondo y por qué un porcentaje anual que parece pequeño importa con el tiempo.
+# ¿Qué es el índice de gastos (expense ratio) y por qué debería importarte un porcentaje pequeño?
+
+## Objetivos de aprendizaje
+
+Al terminar esta lección, deberías poder:
+
+- Definir el índice de gastos en palabras sencillas.
+- Calcular el costo anual aproximado a partir del saldo de un fondo y su índice de gastos.
+- Explicar por qué las diferencias pequeñas de porcentaje importan con el tiempo.
+
+## Contenido principal
+
+### Qué es el índice de gastos
+
+El índice de gastos (expense ratio) es la comisión anual que cobra un fondo (como un ETF o un fondo de inversión), expresada como porcentaje del monto invertido, para cubrir los costos de operación del fondo.
+
+### Cómo calcular el costo
+
+Un índice de gastos del 0.50 % sobre una inversión de $10,000 cuesta aproximadamente $50 al año, y se descuenta automáticamente de los rendimientos del fondo: normalmente los inversionistas no lo pagan como una factura aparte.
+
+### Por qué los porcentajes pequeños importan con el tiempo
+
+Como el índice de gastos se cobra cada año, incluso las diferencias pequeñas se acumulan de forma importante en periodos largos. Una comisión del 0.10 % frente a una del 1.00 % sobre la misma inversión, mantenida durante décadas, puede sumar un costo total muy distinto, aunque la diferencia anual parezca pequeña.
+
+## Ejemplo práctico
+
+Una inversión de $10,000 con un índice de gastos del 1.00 % cuesta unos $100 al año en comisiones. La misma inversión con un índice de gastos del 0.10 % cuesta unos $10 al año: una diferencia de $90 que se acumula de forma importante si se mantiene durante muchos años.
+
+## Prueba de práctica
+
+1. El índice de gastos es:
+   A. Una comisión única de compra
+   B. Una comisión anual que se cobra como porcentaje del monto invertido
+   C. Un impuesto sobre los dividendos
+   D. Una comisión que solo se cobra al vender
+2. Verdadero o falso: Las diferencias en el índice de gastos son demasiado pequeñas para importar con el tiempo.
+3. Una inversión de $20,000 tiene un índice de gastos del 0.40 %. ¿Aproximadamente cuánto cuesta eso al año?
+   A. $8
+   B. $40
+   C. $80
+   D. $400
+
+## Clave de respuestas
+
+1. B
+2. Falso
+3. C
+
+## Respuestas y explicaciones
+
+### Pregunta 1
+
+Respuesta correcta: B. El índice de gastos es una comisión anual basada en un porcentaje.
+
+### Pregunta 2
+
+Respuesta correcta: Falso. Las diferencias anuales pequeñas se acumulan de forma importante en periodos largos.
+
+### Pregunta 3
+
+Respuesta correcta: C. $20,000 × 0.40 % = $80.
+
+## Puntos clave
+
+- El índice de gastos es una comisión anual que se cobra como porcentaje de los activos invertidos.
+- Se descuenta automáticamente de los rendimientos del fondo; no se cobra aparte.
+- Las diferencias pequeñas en el índice de gastos pueden acumularse en costos importantes con el tiempo.
+
+===== WHITE-L1-013
+TITLE: ¿Qué es la diversificación, en palabras sencillas?
+SUMMARY: Aprende qué hace y qué no hace realmente la diversificación: reduce cierto riesgo, pero no elimina todo el riesgo.
+# ¿Qué es la diversificación, en palabras sencillas?
+
+## Objetivos de aprendizaje
+
+Al terminar esta lección, deberías poder:
+
+- Definir la diversificación en palabras sencillas.
+- Explicar qué tipo de riesgo reduce.
+- Explicar por qué no elimina todo el riesgo.
+
+## Contenido principal
+
+### Qué es la diversificación
+
+Diversificar significa repartir las inversiones entre varios activos distintos en lugar de concentrarlo todo en uno solo: es la idea básica detrás de la estructura de "canasta" de los ETF y los fondos de inversión que vimos antes.
+
+### Qué tipo de riesgo reduce
+
+La diversificación reduce específicamente el riesgo de concentración: el riesgo de que una sola inversión tenga un mal desempeño y arrastre todo un portafolio. Si una inversión entre muchas tiene un mal desempeño, su impacto en el total es menor que si fuera la única.
+
+### Por qué no elimina todo el riesgo
+
+La diversificación no protege contra las caídas generales de todo el mercado que afectan a muchas o a la mayoría de las inversiones a la vez, y no garantiza una ganancia. Maneja un tipo específico de riesgo, no todos los riesgos posibles.
+
+## Ejemplo práctico
+
+Un inversionista que solo tiene acciones de una empresa pierde mucho si a esa empresa le va mal. Un inversionista que tiene acciones de 50 empresas distintas se ve mucho menos afectado por el mal desempeño de cualquiera de ellas, aunque una caída general del mercado podría afectar de todos modos a las 50.
+
+## Prueba de práctica
+
+1. Diversificar significa:
+   A. Invertirlo todo en un solo activo
+   B. Repartir las inversiones entre varios activos distintos
+   C. Evitar todo el riesgo de inversión
+   D. Garantizar una ganancia
+2. Verdadero o falso: La diversificación elimina todo el riesgo de inversión.
+3. ¿Qué tipo específico de riesgo reduce principalmente la diversificación?
+   A. El riesgo de todo el mercado
+   B. El riesgo de concentración (depender demasiado de una sola inversión)
+   C. Exclusivamente el riesgo cambiario
+   D. Exclusivamente el riesgo de inflación
+
+## Clave de respuestas
+
+1. B
+2. Falso
+3. B
+
+## Respuestas y explicaciones
+
+### Pregunta 1
+
+Respuesta correcta: B. Diversificar significa repartir las inversiones entre varios activos.
+
+### Pregunta 2
+
+Respuesta correcta: Falso. Reduce cierto riesgo, pero no elimina todo el riesgo, sobre todo el de las caídas generales del mercado.
+
+### Pregunta 3
+
+Respuesta correcta: B. El riesgo de concentración es el riesgo específico que atiende la diversificación.
+
+## Puntos clave
+
+- Diversificar significa repartir las inversiones entre varios activos.
+- Reduce específicamente el riesgo de concentración.
+- No elimina todo el riesgo ni garantiza una ganancia.
+
+===== WHITE-L1-014
+TITLE: ¿Qué es el riesgo y por qué no es lo mismo que "malo"?
+SUMMARY: Aprende cómo define este curso el riesgo de inversión, y por qué "riesgo" y "malo" no son el mismo concepto.
+# ¿Qué es el riesgo y por qué no es lo mismo que "malo"?
+
+## Objetivos de aprendizaje
+
+Al terminar esta lección, deberías poder:
+
+- Definir el riesgo de inversión en palabras sencillas.
+- Explicar por qué "riesgo" y "malo" son conceptos distintos.
+- Explicar la relación general entre el riesgo y el rendimiento potencial.
+
+## Contenido principal
+
+### Qué significa aquí el riesgo
+
+En las inversiones, el riesgo generalmente se refiere a la incertidumbre de un resultado: específicamente, a la posibilidad de que el rendimiento real de una inversión sea distinto del esperado, incluida la posibilidad de una pérdida.
+
+### El riesgo no es lo mismo que "malo"
+
+El riesgo describe incertidumbre, no un resultado negativo seguro. Una inversión "riesgosa" no es automáticamente una mala elección: significa que el rango de resultados posibles es más amplio, para bien o para mal, que el de una opción de menor riesgo.
+
+### La relación general entre riesgo y rendimiento
+
+Por lo general, las inversiones con un rendimiento potencial más alto tienden a tener más riesgo, y las inversiones con más certeza o seguridad tienden a ofrecer un rendimiento potencial más bajo. No es una garantía estricta en todos los casos, pero es un patrón común que vale la pena entender.
+
+## Ejemplo práctico
+
+Un bono del gobierno de un emisor estable generalmente se considera de menor riesgo, con un rendimiento modesto acorde. La acción de una empresa nueva generalmente se considera de mayor riesgo, con la posibilidad de un rendimiento mucho más alto (o mucho más bajo) que el del bono.
+
+## Prueba de práctica
+
+1. En las inversiones, el riesgo generalmente se refiere a:
+   A. Una pérdida segura
+   B. La incertidumbre del resultado real de una inversión
+   C. Un tipo de dividendo
+   D. Una regulación del gobierno
+2. Verdadero o falso: Una inversión "riesgosa" es automáticamente una mala elección.
+3. ¿Cuál es la relación general entre el riesgo y el rendimiento potencial?
+   A. Un riesgo más alto generalmente no tiene relación con el rendimiento potencial
+   B. Los rendimientos potenciales más altos generalmente vienen con más riesgo
+   C. Menos riesgo siempre significa rendimientos más altos
+   D. El riesgo y el rendimiento siempre son idénticos
+
+## Clave de respuestas
+
+1. B
+2. Falso
+3. B
+
+## Respuestas y explicaciones
+
+### Pregunta 1
+
+Respuesta correcta: B. El riesgo se refiere a la incertidumbre del resultado, no a una pérdida segura.
+
+### Pregunta 2
+
+Respuesta correcta: Falso. El riesgo describe incertidumbre, no un mal resultado automático.
+
+### Pregunta 3
+
+Respuesta correcta: B. Los rendimientos potenciales más altos generalmente van de la mano de un riesgo más alto.
+
+## Puntos clave
+
+- El riesgo se refiere a la incertidumbre del resultado, no a un mal resultado seguro.
+- Una inversión riesgosa no es automáticamente una mala elección.
+- Como patrón general, los rendimientos potenciales más altos vienen con más riesgo.
+
+===== WHITE-L1-015
+TITLE: ¿Qué es la volatilidad?
+SUMMARY: Aprende qué mide la volatilidad y por qué es distinta del riesgo de una pérdida permanente.
+# ¿Qué es la volatilidad?
+
+## Objetivos de aprendizaje
+
+Al terminar esta lección, deberías poder:
+
+- Definir la volatilidad en palabras sencillas.
+- Explicar qué mide específicamente la volatilidad.
+- Distinguir la volatilidad de una pérdida permanente.
+
+## Contenido principal
+
+### Qué significa la volatilidad
+
+La volatilidad se refiere a cuánto y qué tan rápido sube y baja el precio de un activo en un periodo determinado. Un activo muy volátil tiene cambios de precio grandes y frecuentes; un activo de baja volatilidad se mueve de forma más gradual.
+
+### Qué mide específicamente
+
+La volatilidad mide el movimiento del precio, no necesariamente la dirección ni el resultado final. Un activo puede ser muy volátil y aun así terminar más arriba con el tiempo: la volatilidad describe lo accidentado del camino, no automáticamente el destino.
+
+### Volatilidad frente a pérdida permanente
+
+Una caída temporal del precio de un activo volátil no es lo mismo que una pérdida permanente: si el precio se recupera después, un inversionista que no vendió durante la caída vive la volatilidad sin una pérdida duradera. La pérdida solo queda "asegurada" si el activo se vende al precio más bajo.
+
+## Ejemplo práctico
+
+El precio de una acción oscila entre $80 y $120 durante unos meses antes de estabilizarse cerca de $115: fue muy volátil en el camino, pero un inversionista que la conservó durante las oscilaciones terminó cerca de una ganancia, no de una pérdida.
+
+## Prueba de práctica
+
+1. La volatilidad mide:
+   A. Una pérdida segura
+   B. Cuánto y qué tan rápido sube y baja un precio
+   C. La utilidad total de una empresa
+   D. El número de acciones en circulación
+2. Verdadero o falso: Una caída temporal del precio es automáticamente lo mismo que una pérdida permanente.
+3. ¿Cuándo una pérdida en papel por la volatilidad se convierte en una pérdida asegurada?
+   A. Nunca
+   B. Cuando el activo se vende al precio más bajo
+   C. Automáticamente después de un año
+   D. En cuanto el precio baja, por poco que sea
+
+## Clave de respuestas
+
+1. B
+2. Falso
+3. B
+
+## Respuestas y explicaciones
+
+### Pregunta 1
+
+Respuesta correcta: B. La volatilidad mide el grado de movimiento del precio.
+
+### Pregunta 2
+
+Respuesta correcta: Falso. Una caída temporal no es una pérdida permanente a menos que el activo realmente se venda a ese precio más bajo.
+
+### Pregunta 3
+
+Respuesta correcta: B. Vender al precio más bajo es lo que asegura la pérdida.
+
+## Puntos clave
+
+- La volatilidad mide cuánto y qué tan rápido se mueve el precio.
+- Describe el movimiento del precio, no automáticamente un resultado final.
+- Una caída temporal no es una pérdida permanente a menos que se venda a ese precio.

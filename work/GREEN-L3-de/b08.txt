@@ -1,0 +1,183 @@
+===== GREEN-L3-029
+TITLE: Warum es zählt, ob Erben die Anschaffungskosten übernehmen oder neu ansetzen
+SUMMARY: Erfahre, warum in manchen Ländern die steuerliche Basis eines geerbten Vermögenswerts auf seinen Wert im Todeszeitpunkt neu festgesetzt wird (Step-up), warum das bisher nicht realisierte Gewinne beseitigen kann – und warum Erben in Deutschland stattdessen die Anschaffungskosten übernehmen.
+# GREEN-L3-029: Warum es zählt, ob Erben die Anschaffungskosten übernehmen oder neu ansetzen
+
+## Lernziele
+Am Ende dieser Lektion kannst du:
+- erklären, was ein „Step-up in Basis“ grundsätzlich bedeutet und wie Deutschland diese Frage anders regelt
+- erklären, warum ein Step-up bisher nicht realisierte Veräußerungsgewinne für Erben beseitigen kann
+- dieses Konzept mit der Diskussion über aufgeschobene Steuerlasten aus Lektion 22 verbinden
+
+## Hauptinhalt
+
+Lektion 22 hat erklärt, dass ein 1031 Exchange oder eine Reinvestitionsrücklage die Steuer auf Veräußerungsgewinne aufschiebt, statt sie zu beseitigen, und sie in die Basis des Ersatzobjekts weiterträgt. Die Regel zum **Step-up in Basis** betrifft die Frage, was mit dieser weitergetragenen Steuerlast beim Tod des Eigentümers geschehen kann.
+
+Hier das „Warum“, weshalb diese Regel das Ergebnis erheblich verändern kann: [VERIFIED FACT] In manchen Ländern, darunter den USA nach geltendem Recht (das sich im Lauf der Zeit geändert hat und sich wieder ändern könnte), wird die steuerliche Basis eines geerbten Vermögenswerts grundsätzlich auf seinen Marktwert am Todestag „hochgesetzt“, statt die historischen Anschaffungskosten des Erblassers zu übernehmen. Ein großer Teil oder der gesamte Gewinn, der sich zu Lebzeiten aufgebaut hatte (und in manchen Fällen durch wiederholte 1031 Exchanges aufgeschoben wurde), kann für die Erben dadurch faktisch wegfallen. Deutschland kennt keinen solchen Step-up für die Einkommensteuer: Erben treten grundsätzlich in die Rechtsstellung des Erblassers ein und übernehmen dessen Anschaffungskosten – bei geerbten Wertpapieren werden spätere Veräußerungsgewinne also weiterhin vom ursprünglichen Kaufpreis aus berechnet, und bei Immobilien wird die bisherige Haltedauer des Erblassers für die Spekulationsfrist angerechnet. Auf den Erwerb selbst kann dagegen Erbschaftsteuer auf Basis des aktuellen Werts anfallen.
+
+Das knüpft direkt an die aufgeschobene Steuerlast aus Lektion 22 an: Während jahrzehntelanger Aufschub eine wachsende aufgeschobene Last aufbaut, kann ein Step-up im Todesfall einer der Wege sein, auf dem diese Last am Ende aufgelöst wird – nicht durch die spätere Zahlung der aufgeschobenen Steuer, sondern dadurch, dass die Erben eine neue, zurückgesetzte Basis erhalten, die den bisher angesammelten Gewinn für künftige Steuerzwecke löscht. Wo es keinen Step-up gibt, wie in Deutschland, geht die latente Steuerlast dagegen auf die Erben über.
+
+## Durchgerechnetes Beispiel
+
+[ILLUSTRATIVE EXAMPLE] Eine Anlegerin in den USA hat im Lauf ihres Lebens mehrere 1031 Exchanges durchgeführt und so eine erhebliche aufgeschobene Steuerlast angesammelt, die an der niedrigen Basis ihrer jetzigen Immobilie hängt, wie in Lektion 22 beschrieben. Statt jemals in einem voll steuerpflichtigen Vorgang zu verkaufen, behält sie die Immobilie bis zu ihrem Tod. [ASSUMPTION] Gilt nach dem dann geltenden Recht ein Step-up, erbt ihr Erbe die Immobilie mit einer auf den Marktwert am Todestag zurückgesetzten Basis – er könnte sie also kurz nach dem Erbfall mit geringer oder ohne Steuer auf den Veräußerungsgewinn verkaufen, trotz des erheblichen aufgeschobenen Gewinns aus dem Leben der Erblasserin. Hätte eine Anlegerin in Deutschland ein über Jahrzehnte gewachsenes Aktiendepot vererbt, würden ihre Erben dagegen ihre ursprünglichen Anschaffungskosten übernehmen und bei einem späteren Verkauf auf den gesamten Kursgewinn Abgeltungsteuer zahlen.
+
+## Übungsquiz
+1. Was bedeutet ein Step-up in Basis grundsätzlich, und wie regelt Deutschland diese Frage?
+2. Warum kann ein Step-up bisher angesammelte Veräußerungsgewinne für Erben faktisch beseitigen?
+3. Wie hängt das mit der aufgeschobenen Steuerlast aus Lektion 22 zusammen?
+
+## Lösungsschlüssel
+1. Die steuerliche Basis eines geerbten Vermögenswerts wird grundsätzlich auf seinen Marktwert am Todestag zurückgesetzt, statt die historischen Anschaffungskosten des Erblassers zu übernehmen; in Deutschland gibt es keinen solchen Step-up, Erben übernehmen die Anschaffungskosten des Erblassers.
+2. Weil die zurückgesetzte Basis bedeutet, dass ein großer Teil oder der gesamte Gewinn, der sich zu Lebzeiten des Erblassers aufgebaut hat, für künftige Steuerzwecke der Erben nicht mehr in der Basis steckt.
+3. Ein Step-up ist ein Weg, wie eine über ein Leben aufgebaute aufgeschobene Steuerlast am Ende aufgelöst werden kann – nicht durch spätere Zahlung, sondern durch eine Neufestsetzung der Basis im Todesfall; ohne Step-up geht die latente Last auf die Erben über.
+
+## Antworten und Erklärungen
+1. Das ist die grundlegende Definition dieser Lektion, mit dem wichtigen deutschen Unterschied.
+2. Das ist das zentrale „Warum“, das die erhebliche praktische Wirkung der Regel erklärt.
+3. Das verknüpft die Lektion ausdrücklich mit Lektion 22 und schließt den Kreis zum Thema aufgeschobener Steuerlasten.
+
+## Das Wichtigste in Kürze
+- Ein Step-up setzt die Basis eines geerbten Vermögenswerts in Ländern, in denen diese Regel gilt, auf den Marktwert am Todestag zurück.
+- Das kann bisher angesammelte Veräußerungsgewinne für künftige Steuerzwecke der Erben faktisch beseitigen; in Deutschland übernehmen Erben dagegen die Anschaffungskosten des Erblassers.
+- Ein Step-up ist ein Weg, wie eine über ein Leben aufgeschobene Steuerlast aufgelöst wird, statt am Ende gezahlt zu werden – ohne ihn geht sie auf die Erben über.
+
+## Hinweis zum Bildungszweck
+Diese Lektion dient ausschließlich der allgemeinen finanziellen Bildung und ist keine individuelle Finanz-, Anlage-, Steuer- oder Rechtsberatung. Regeln zur steuerlichen Basis geerbter Vermögenswerte unterscheiden sich je nach Land, haben sich im Lauf der Zeit geändert und könnten sich wieder ändern; lass dich für die Nachlassplanung von zugelassenen Fachleuten aus Rechts- und Steuerberatung beraten.
+
+===== GREEN-L3-030
+TITLE: Warum der Spendenabzug ordnungsgemäße Nachweise verlangt
+SUMMARY: Erfahre, warum du für den steuerlichen Abzug von Spenden bestimmte Nachweise brauchst und warum Höhe und Art der Spende bestimmen, welcher Beleg nötig ist.
+# GREEN-L3-030: Warum der Spendenabzug ordnungsgemäße Nachweise verlangt
+
+## Lernziele
+Am Ende dieser Lektion kannst du:
+- erklären, warum der Spendenabzug bestimmte Nachweise erfordert
+- erklären, warum die Anforderungen an Nachweise grundsätzlich mit der Höhe der Spende steigen
+- dieses Konzept mit der Diskussion über den Einzelnachweis in Lektion 9 verbinden
+
+## Hauptinhalt
+
+Spenden an begünstigte Organisationen können grundsätzlich steuerlich abgezogen werden – in Deutschland als Sonderausgaben, soweit sie über den Sonderausgaben-Pauschbetrag hinausgehen (Lektion 9) – und senken so das zu versteuernde Einkommen. Hier das „Warum“, weshalb gerade diese Art von Abzug mit Nachweispflichten verbunden ist, die mit der Höhe der Spende steigen: Die Steuerbehörden brauchen eine Möglichkeit zu prüfen, dass geltend gemachte Spenden echte, tatsächlich geleistete Zahlungen an wirklich begünstigte Organisationen sind – ohne ordnungsgemäße Nachweise wäre diese Abzugsart besonders anfällig für überhöhte oder frei erfundene Angaben.
+
+[VERIFIED FACT] Die Anforderungen an Nachweise werden in der Regel strenger, je höher die Spende ist. In Deutschland ist grundsätzlich eine **Zuwendungsbestätigung** der empfangenden Organisation nach amtlichem Muster erforderlich; für kleinere Geldspenden bis zu einer gesetzlichen Grenze (derzeit 300 €) und für Spenden auf bestimmte Sonderkonten in Katastrophenfällen genügt dagegen ein vereinfachter Nachweis wie der Kontoauszug. Bei Sachspenden muss die Bestätigung den Wert der Sache angeben, wofür oft weitere Unterlagen nötig sind. Die genauen Grenzen und Anforderungen sind gesetzlich festgelegt und sollten für die konkrete Lage direkt geprüft werden.
+
+Deshalb ist es für alle, die Spenden steuerlich geltend machen wollen, wichtig, ihre Spenden über das Jahr geordnet zu dokumentieren – Belege, Kontoauszüge und Zuwendungsbestätigungen der Organisationen –, statt zu versuchen, diese Nachweise erst bei der Steuererklärung im Nachhinein zusammenzusuchen.
+
+## Durchgerechnetes Beispiel
+
+[ILLUSTRATIVE EXAMPLE] Eine Steuerpflichtige leistet im Lauf des Jahres mehrere Spenden: einige kleinere Geldspenden an einen örtlichen gemeinnützigen Verein und eine größere Sachspende an eine andere Organisation. [ASSUMPTION] Für die kleineren Geldspenden genügen wahrscheinlich Kontoauszüge als vereinfachter Nachweis. Für die größere Sachspende braucht sie dagegen eine Zuwendungsbestätigung mit Wertangabe und möglicherweise Unterlagen, die diesen Wert belegen, weil die Spende hoch ist und es sich um eine Sache handelt. Das zeigt, warum die Nachweispflichten mit Art und Höhe der Spende steigen und warum geordnete Unterlagen über das ganze Jahr verlässlicher sind als hektisches Zusammensuchen bei der Steuererklärung.
+
+## Übungsquiz
+1. Warum erfordert der Spendenabzug bestimmte Nachweise?
+2. Warum werden die Anforderungen an Nachweise grundsätzlich strenger, je höher die Spende ist?
+3. Warum empfiehlt diese Lektion, die Unterlagen über das Jahr geordnet zu führen, statt sie später zusammenzusuchen?
+
+## Lösungsschlüssel
+1. Um zu prüfen, dass geltend gemachte Spenden echte, tatsächlich geleistete Zahlungen an wirklich begünstigte Organisationen sind, und so vor überhöhten oder erfundenen Angaben zu schützen.
+2. Weil höhere Beträge eine größere mögliche steuerliche Wirkung und ein größeres Risiko bedeuten, sodass strengere Nachweise (Zuwendungsbestätigungen, Wertnachweise bei Sachspenden) ihre Richtigkeit besser belegen.
+3. Weil es weniger verlässlich und schwieriger ist, Nachweise erst bei der Steuererklärung im Nachhinein zusammenzustellen, als die Unterlagen schon beim Spenden geordnet zu führen.
+
+## Antworten und Erklärungen
+1. Das ist das zentrale „Warum“, das den Zweck der Nachweispflicht erklärt.
+2. Das erklärt die Logik hinter den mit der Spendenhöhe steigenden Anforderungen.
+3. Das unterstreicht die praktische, vorausschauende Gewohnheit bei den Unterlagen, die die Lektion empfiehlt.
+
+## Das Wichtigste in Kürze
+- Der Spendenabzug erfordert Nachweise, um zu belegen, dass Spenden wirklich an begünstigte Organisationen geleistet wurden.
+- Die Anforderungen an Nachweise werden grundsätzlich strenger, je höher und komplexer die Spende ist, besonders bei Sachspenden.
+- Spenden über das Jahr geordnet zu dokumentieren ist verlässlicher, als die Nachweise erst bei der Steuererklärung zusammenzusuchen.
+
+## Hinweis zum Bildungszweck
+Diese Lektion dient ausschließlich der allgemeinen finanziellen Bildung und ist keine individuelle Finanz-, Anlage-, Steuer- oder Rechtsberatung. Nachweispflichten unterscheiden sich je nach Land und ändern sich im Lauf der Zeit; wende dich für deine Situation an eine Steuerberaterin, einen Steuerberater oder einen Lohnsteuerhilfeverein.
+
+===== GREEN-L3-031
+TITLE: Warum es Mindeststeuerregeln als Gegengewicht zu Steuervorteilen gibt
+SUMMARY: Erfahre, warum es in manchen Ländern eine Alternative Minimum Tax neben dem regulären Steuersystem gibt, warum sie eine eigene Berechnung erfordert – und welche Mindestbesteuerungsregeln Deutschland stattdessen kennt.
+# GREEN-L3-031: Warum es Mindeststeuerregeln als Gegengewicht zu Steuervorteilen gibt
+
+## Lernziele
+Am Ende dieser Lektion kannst du:
+- den allgemeinen Zweck einer Alternative Minimum Tax (AMT) und ähnlicher Mindeststeuerregeln erklären
+- erklären, warum die AMT eine wirklich eigenständige, parallele Berechnung erfordert
+- erklären, warum bestimmte Abzüge und Vorteile in solchen Regeln anders behandelt werden
+
+## Hauptinhalt
+
+Eine **Alternative Minimum Tax (AMT)** ist in den USA eine parallele Steuerberechnung neben dem regulären Einkommensteuersystem: Bestimmte Steuerpflichtige müssen ihre Steuerschuld zweimal berechnen – einmal nach den regulären Regeln und einmal nach den AMT-Regeln – und den höheren Betrag zahlen. Deutschland kennt keine solche Parallelsteuer, verfolgt aber mit anderen Regeln ein ähnliches Ziel, etwa mit der **Mindestbesteuerung** beim Verlustvortrag, nach der hohe Verlustvorträge oberhalb eines Sockelbetrags nur teilweise mit Gewinnen eines Jahres verrechnet werden dürfen, oder mit dem **Progressionsvorbehalt**, bei dem bestimmte steuerfreie Leistungen wie Elterngeld oder Arbeitslosengeld den Steuersatz auf das übrige Einkommen erhöhen.
+
+Hier das allgemeine „Warum“, weshalb es solche Regeln gibt: [VERIFIED FACT] Sie sollen grundsätzlich sicherstellen, dass Steuerpflichtige, die im regulären System stark von bestimmten Abzügen, Befreiungen oder anderen Vergünstigungen profitieren, trotzdem zumindest ein gewisses Mindestmaß an Steuer zahlen, indem einige dieser Vorteile in der gesonderten Berechnung gestrichen oder begrenzt werden. Die AMT-Berechnung beginnt dafür mit anderen Regeln – bestimmte Abzüge oder Vergünstigungen, die das reguläre zu versteuernde Einkommen gesenkt haben, werden wieder hinzugerechnet – und wendet auf diesen angepassten Betrag eine andere Satzstruktur an.
+
+[VERIFIED FACT] Die konkreten Regeln, Freibeträge und betroffenen Abzüge solcher Mindeststeuerregeln sind gesetzlich festgelegt, ausgesprochen komplex und werden regelmäßig geändert – diese Lektion stellt das allgemeine Konzept und seinen Zweck dar und keine konkreten aktuellen Grenzen, die für jede Steuerlage direkt geprüft werden sollten.
+
+## Durchgerechnetes Beispiel
+
+[ILLUSTRATIVE EXAMPLE] Die reguläre Steuerberechnung eines US-Steuerpflichtigen ergibt nach Nutzung mehrerer Abzüge und Vergünstigungen eine bestimmte Steuerschuld. In der gesonderten, parallelen AMT-Berechnung werden einige dieser Abzüge oder Vergünstigungen wieder hinzugerechnet, und auf den angepassten Betrag wird eine andere Satzstruktur angewendet. [ASSUMPTION] Ergibt die AMT-Berechnung einen höheren Steuerbetrag als die reguläre Berechnung, schuldet der Steuerpflichtige stattdessen den höheren AMT-Betrag – ein Beispiel für den Mechanismus „der höhere Betrag zählt“, der den Kern dieses parallelen Systems bildet. Bei der deutschen Mindestbesteuerung wirkt der Gedanke ähnlich, aber ohne zweite Berechnung: Ein großer Verlustvortrag senkt die Steuer eines sehr gewinnstarken Jahres nicht vollständig auf null, sondern nur bis zu einer Grenze.
+
+## Übungsquiz
+1. Was ist der allgemeine Zweck einer AMT und ähnlicher Mindeststeuerregeln?
+2. Wie unterscheidet sich die AMT-Berechnung grundsätzlich von der regulären Steuerberechnung?
+3. Welchen Betrag schuldet ein Steuerpflichtiger, der der AMT unterliegt, am Ende?
+
+## Lösungsschlüssel
+1. Sicherzustellen, dass Steuerpflichtige, die im regulären System stark von bestimmten Abzügen oder Vergünstigungen profitieren, trotzdem zumindest ein gewisses Mindestmaß an Steuer zahlen.
+2. Sie rechnet bestimmte Abzüge oder Vergünstigungen, die das reguläre zu versteuernde Einkommen gesenkt haben, wieder hinzu und wendet dann auf diesen angepassten Betrag eine andere Satzstruktur an.
+3. Den höheren der beiden Beträge – aus der regulären Steuerberechnung oder aus der AMT-Berechnung.
+
+## Antworten und Erklärungen
+1. Das ist der allgemeine konzeptionelle Zweck dieser Lektion.
+2. Das erklärt den rechnerischen Unterschied zwischen den beiden parallelen Berechnungen.
+3. Das unterstreicht den Mechanismus „der höhere Betrag zählt“, der für die Funktionsweise der AMT zentral ist.
+
+## Das Wichtigste in Kürze
+- Eine AMT erfordert für bestimmte Steuerpflichtige eine wirklich eigenständige, parallele Steuerberechnung; Deutschland verfolgt ähnliche Ziele mit Regeln wie der Mindestbesteuerung und dem Progressionsvorbehalt.
+- Solche Regeln sollen grundsätzlich ein Mindestmaß an Steuer sichern, indem bestimmte Abzüge und Vergünstigungen des regulären Systems begrenzt werden.
+- Bei der AMT schuldet der Steuerpflichtige am Ende den höheren Betrag aus regulärer und AMT-Berechnung.
+
+## Hinweis zum Bildungszweck
+Diese Lektion dient ausschließlich der allgemeinen finanziellen Bildung und ist keine individuelle Finanz-, Anlage-, Steuer- oder Rechtsberatung. Mindeststeuerregeln sind ausgesprochen komplex und ändern sich im Lauf der Zeit; wende dich für deine Situation an eine Steuerberaterin oder einen Steuerberater.
+
+===== GREEN-L3-032
+TITLE: Warum manche Steuervorteile bei höherem Einkommen abschmelzen
+SUMMARY: Erfahre, was eine Abschmelzgrenze ist und warum viele Steuervorteile gezielt so gestaltet sind, dass sie ab einem bestimmten Einkommen kleiner werden oder ganz wegfallen.
+# GREEN-L3-032: Warum manche Steuervorteile bei höherem Einkommen abschmelzen
+
+## Lernziele
+Am Ende dieser Lektion kannst du:
+- erklären, was eine Abschmelzgrenze für einen Steuervorteil grundsätzlich bedeutet
+- die allgemeine politische Begründung dafür erklären, bestimmte Vorteile auf niedrigere und mittlere Einkommen auszurichten
+- dieses Konzept mit der Diskussion über einkommensabhängige Grenzen in Lektion 10 verbinden
+
+## Hauptinhalt
+
+Viele Steuervorteile – in den USA etwa verbreitete Steuergutschriften für Kinder und andere Angehörige – gelten nicht auf jeder Einkommensstufe gleich. Stattdessen enthalten sie oft ein **Abschmelzen** („phase-out“): einen Mechanismus, bei dem der Vorteil schrittweise kleiner wird und schließlich ganz wegfällt, wenn das Einkommen (in den USA oft am AGI gemessen, wie in Lektion 10 eingeführt) eine bestimmte Grenze übersteigt. In Deutschland gibt es vergleichbare Mechanismen etwa bei Einkommensgrenzen für bestimmte staatliche Zulagen wie die Arbeitnehmer-Sparzulage. Der Solidaritätszuschlag zeigt das Spiegelbild: Er setzt erst oberhalb einer Freigrenze ein und steigt in einer Milderungszone schrittweise an.
+
+Hier das allgemeine „Warum“, weshalb diese Gestaltung so verbreitet ist: [VERIFIED FACT] Viele dieser Vorteile sollen gezielt Steuerpflichtige mit niedrigerem und mittlerem Einkommen entlasten, und das Abschmelzen ist der Mechanismus, mit dem diese Ausrichtung erreicht wird – statt allen unabhängig vom Einkommen denselben Vorteil zu gewähren, soll er bei bescheideneren Einkommen am meisten zählen und mit steigendem Einkommen schrittweise zurückgehen, wenn – so die Begründung – der Bedarf an genau dieser Entlastung abnimmt. Nicht jede familienbezogene Regel folgt diesem Muster: In Deutschland prüft das Finanzamt beim Kindergeld und den Kinderfreibeträgen in einer Günstigerprüfung, was für die Familie vorteilhafter ist, wobei die Freibeträge gerade bei höheren Einkommen mehr wert sein können.
+
+Deshalb ist der Hinweis aus Lektion 10 auf die Kettenwirkung früher Abzüge hier direkt wichtig: Ein Abzug, der die maßgebliche Einkommensgröße senkt, kann manchmal helfen, unter einer bestimmten Abschmelzgrenze für einen anderen Vorteil zu bleiben, und so einen Anspruch erhalten, der bei höherem Einkommen verringert worden oder weggefallen wäre.
+
+## Durchgerechnetes Beispiel
+
+[ILLUSTRATIVE EXAMPLE] Ein Steuervorteil für Familien beginnt abzuschmelzen, sobald das maßgebliche Einkommen eine bestimmte Grenze übersteigt, und wird mit weiter steigendem Einkommen schrittweise kleiner, bis er auf einer höheren Einkommensstufe ganz wegfällt. [ASSUMPTION] Eine Steuerpflichtige, deren maßgebliches Einkommen knapp über der Abschmelzgrenze liegt, stellt womöglich fest, dass ein zusätzlich geltend gemachter früher Abzug (Lektion 10) ihr Einkommen wieder unter diese Grenze bringt und ihr den vollen Anspruch auf den Vorteil erhält – ein direktes Beispiel für die Kettenwirkung, die früher in diesem Track eingeführt wurde.
+
+## Übungsquiz
+1. Was bedeutet eine Abschmelzgrenze für einen Steuervorteil grundsätzlich?
+2. Welche allgemeine politische Begründung wird häufig dafür angeführt, bestimmte Steuervorteile über ein Abschmelzen auf niedrigere und mittlere Einkommen auszurichten?
+3. Wie hängt diese Lektion mit der Kettenwirkung früher Abzüge aus Lektion 10 zusammen?
+
+## Lösungsschlüssel
+1. Einen Mechanismus, bei dem der Vorteil schrittweise kleiner wird und schließlich ganz wegfällt, wenn das Einkommen eine bestimmte Grenze übersteigt.
+2. Gezielt Steuerpflichtige mit niedrigerem und mittlerem Einkommen zu entlasten, wobei der Vorteil mit steigendem Einkommen – und, so die Begründung, sinkendem Bedarf an genau dieser Entlastung – zurückgeht.
+3. Ein früher Abzug, der die maßgebliche Einkommensgröße senkt, kann helfen, unter einer Abschmelzgrenze zu bleiben und einen Anspruch zu erhalten, der sonst verringert worden oder weggefallen wäre – ein direktes, praktisches Beispiel für die Kettenwirkung aus Lektion 10.
+
+## Antworten und Erklärungen
+1. Das ist die grundlegende Definition dieser Lektion.
+2. Das liefert einen allgemeinen, neutral dargestellten politischen Zusammenhang für dieses verbreitete Gestaltungsmuster.
+3. Das verknüpft die Lektion ausdrücklich mit Lektion 10 und stärkt den zusammenhängenden Aufbau des Tracks.
+
+## Das Wichtigste in Kürze
+- Ein Abschmelzen verringert einen Steuervorteil schrittweise und lässt ihn schließlich wegfallen, wenn das Einkommen eine bestimmte Grenze übersteigt.
+- Diese Gestaltung soll Entlastung häufig gezielt auf niedrigere und mittlere Einkommen ausrichten; nicht jede familienbezogene Regel folgt aber diesem Muster.
+- Frühe Abzüge, die die maßgebliche Einkommensgröße senken, können manchmal einen Anspruch erhalten, der bei höherem Einkommen abgeschmolzen wäre.
+
+## Hinweis zum Bildungszweck
+Diese Lektion dient ausschließlich der allgemeinen finanziellen Bildung und ist keine individuelle Finanz-, Anlage-, Steuer- oder Rechtsberatung. Regeln, Grenzen und Abschmelzbeträge unterscheiden sich je nach Land und ändern sich im Lauf der Zeit; wende dich für deine Situation an eine Steuerberaterin, einen Steuerberater oder einen Lohnsteuerhilfeverein.

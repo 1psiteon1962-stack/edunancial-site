@@ -1,0 +1,319 @@
+===== PURPLE-L2-001
+TITLE: De la connaissance du droit à la littératie juridique : la première interaction entre les pièces
+SUMMARY: Vois comment une seule décision juridique, comme signer un contrat, touche à la fois tes obligations financières, ta responsabilité, ton temps et parfois ta propriété intellectuelle.
+## PURPLE-L2-001
+### De la connaissance du droit à la littératie juridique : la première interaction entre les pièces
+
+**1. Objectifs d'apprentissage**
+À la fin de cette leçon, tu pourras :
+- Expliquer comment une seule décision juridique fait bouger plusieurs pièces à la fois, en écho aux parcours RED, WHITE et BLUE.
+- Nommer au moins trois aspects de la vie qu'une décision juridique touche souvent.
+- Appliquer la pensée de niveau 2, « qu'est-ce que ce geste touche d'autre? », à un scénario juridique.
+
+**2. Contenu principal**
+Le niveau 1 a présenté des notions juridiques individuelles — contrats, entités, responsabilité, droits — comme des pièces distinctes. Le niveau 2 commence, comme dans chaque couleur, en observant ce qui arrive au reste de l'échiquier quand on prend une décision juridique.
+
+Pense à la signature d'un contrat simple, comme accepter un projet à la pige. Ce seul geste touche plusieurs pièces à la fois : des obligations *financières* (conditions de paiement, pénalités en cas de retard de livraison), la *responsabilité* (ce qui arrive si quelque chose tourne mal, et qui en est responsable), le *temps* (échéances, délais de préavis de résiliation) et parfois la *propriété intellectuelle* (à qui appartient le travail produit, un sujet approfondi aux leçons 20 à 25). Un apprenant qui ne lit que le montant du paiement avant de signer n'a vu qu'une seule pièce d'un document qui en contient plusieurs.
+
+C'est la même discipline du « qu'est-ce que ce geste touche d'autre? » bâtie tout au long de RED-L2, WHITE-L2 et BLUE-L2, maintenant appliquée directement aux instruments juridiques. La littératie juridique, ce n'est pas apprendre des lois par cœur; c'est reconnaître que les documents juridiques sont justement structurés pour définir comment plusieurs pièces — l'argent, le risque, le temps et les droits — interagissent.
+
+**3. Exemple pratique**
+Avant de signer un contrat de conception de site Web à la pige, Tobias le lit au complet au lieu de le survoler pour trouver seulement le montant du paiement. Il remarque qu'il fixe aussi une échéance avec une pénalité en cas de retard (les pièces du temps et de l'argent), une clause sur la propriété du code final du site (une pièce de propriété intellectuelle) et une clause qui limite sa responsabilité si le propre contenu du client cause un problème juridique (une pièce de responsabilité). Reconnaître ces quatre pièces avant de signer permet à Tobias de négocier la clause de propriété, que la première version attribuait entièrement au client, alors que sa pratique habituelle est de garder certains éléments réutilisables.
+
+**4. Quiz de pratique**
+1. Selon cette leçon, lequel des éléments suivants n'est PAS une des pièces qu'un document juridique comme un contrat touche souvent?
+   a) Les obligations financières
+   b) La responsabilité
+   c) La couleur préférée
+   d) La propriété intellectuelle
+2. Vrai ou faux : Lire seulement le montant du paiement dans un contrat suffit pour comprendre son effet complet.
+3. Qu'est-ce que Tobias a découvert en lisant tout son contrat, au-delà des conditions de paiement?
+   a) Rien au-delà du montant du paiement
+   b) Des clauses qui touchent les échéances, la propriété intellectuelle et la responsabilité
+   c) Une garantie de succès du projet
+   d) Une exemption fiscale
+4. Quelle est la compétence de base de niveau 2 que cette leçon développe, en écho aux parcours RED, WHITE et BLUE?
+   a) Apprendre des lois par cœur
+   b) Se demander « qu'est-ce que ce geste touche d'autre? » avant d'agir
+   c) Éviter complètement les contrats
+   d) Ignorer les questions de responsabilité
+
+**5. Corrigé**
+1. c  2. Faux  3. b  4. b
+
+**6. Réponses et explications**
+1. La couleur préférée n'a aucun lien juridique avec un contrat; les trois autres sont des pièces souvent touchées.
+2. L'effet complet d'un contrat touche plusieurs pièces — financières, de responsabilité, de temps et parfois de propriété intellectuelle —, pas seulement les conditions de paiement.
+3. La lecture complète de Tobias a révélé des clauses sur les échéances, la propriété intellectuelle et la responsabilité, au-delà des conditions de paiement.
+4. Cette leçon renforce la même habitude de pensée à plusieurs pièces bâtie tout au long de RED-L2, WHITE-L2 et BLUE-L2, maintenant appliquée aux instruments juridiques.
+
+**7. Points clés à retenir**
+- Les décisions juridiques, comme les contrats, ne sont jamais isolées : elles touchent à la fois des pièces financières, de responsabilité, de temps et souvent de propriété intellectuelle.
+- La littératie juridique, c'est reconnaître ces nombreuses pièces, pas apprendre des lois par cœur.
+- Lire un document juridique au complet, et pas seulement sa condition la plus visible, révèle son effet réel complet.
+- Cette leçon renforce la même habitude de pensée à plusieurs pièces bâtie tout au long de RED-L2, WHITE-L2 et BLUE-L2.
+
+===== PURPLE-L2-002
+TITLE: Contrats et ententes : ce qui rend un contrat exécutoire
+SUMMARY: Distingue une simple entente d'un contrat exécutoire et apprends les éléments généraux qu'un tribunal cherche avant de faire respecter une entente.
+## PURPLE-L2-002
+### Contrats et ententes : ce qui rend un contrat exécutoire
+
+**1. Objectifs d'apprentissage**
+À la fin de cette leçon, tu pourras :
+- Distinguer un contrat juridiquement exécutoire d'une entente ou d'une compréhension générale.
+- Nommer les éléments généraux nécessaires pour qu'un contrat soit exécutoire.
+- Reconnaître que c'est un domaine propre à chaque juridiction, qui exige un encadrement professionnel en cas de vrai litige.
+
+**2. Contenu principal**
+Toutes les ententes entre des personnes ne deviennent pas des contrats juridiquement exécutoires. Une entente ou une compréhension générale peut refléter une vraie intention entre les parties, mais sans certains éléments, un tribunal pourrait ne pas la faire respecter en cas de litige. En général, un contrat exécutoire exige une offre, une acceptation et une contrepartie (quelque chose de valeur échangé, approfondi à la leçon 3), ainsi que l'intention commune des parties d'être juridiquement liées et leur capacité juridique de conclure l'entente (par exemple, être majeur et sain d'esprit).
+
+Cette distinction a des conséquences concrètes : une entente conclue d'une poignée de main pour « donner un coup de main sur un projet un de ces jours » n'a probablement pas la précision ni l'intention commune nécessaires pour lier juridiquement les parties, alors qu'une entente écrite détaillée, qui précise l'étendue des travaux, le paiement et les échéances, et qui est signée par les deux parties, a beaucoup plus de chances d'être exécutoire si un litige survient plus tard. Les règles précises sur le caractère exécutoire varient selon la juridiction et le type de contrat; c'est donc un domaine où la formation générale établit la notion, alors qu'un vrai litige exige un avocat qualifié.
+
+**3. Exemple pratique**
+Deux voisins s'entendent verbalement pour que l'un aide l'autre à déménager des meubles « un moment donné le mois prochain » en échange d'« un bon souper ». Quand celui qui devait aider n'est pas disponible et que l'autre voisin est fâché, il n'existe probablement aucun contrat exécutoire : l'entente n'a pas la précision, la clarté de la contrepartie ni l'intention commune d'être juridiquement liés qu'un tribunal chercherait. Ça contraste fortement avec un contrat écrit qui préciserait la date exacte du déménagement, la rémunération exacte et les signatures des deux parties, et qui aurait beaucoup plus de poids comme véritable obligation exécutoire en cas de litige.
+
+**4. Quiz de pratique**
+1. Qu'est-ce qui est généralement nécessaire pour qu'un contrat soit exécutoire?
+   a) Seulement une promesse verbale
+   b) Une offre, une acceptation, une contrepartie et l'intention commune d'être juridiquement liés
+   c) Un sceau notarié dans tous les cas
+   d) Rien — toutes les ententes sont automatiquement exécutoires
+2. Pourquoi une entente verbale vague pourrait-elle ne pas être considérée comme un contrat exécutoire?
+   a) Les ententes verbales sont toujours exécutoires, peu importe leur précision
+   b) Elle peut manquer de la précision, de la clarté de la contrepartie et de l'intention commune que les tribunaux recherchent
+   c) Les contrats doivent toujours être tapés, jamais écrits à la main
+   d) Les déclarations verbales n'ont aucune importance juridique
+3. Vrai ou faux : Toute entente entre deux personnes est automatiquement un contrat juridiquement exécutoire.
+4. Pourquoi l'entente des voisins pour déménager des meubles n'était-elle probablement pas exécutoire?
+   a) Elle était trop précise
+   b) Elle manquait de précision, de clarté de la contrepartie et d'intention commune d'être juridiquement liés
+   c) Elle avait été mise par écrit
+   d) Les deux parties avaient signé un document officiel
+
+**5. Corrigé**
+1. b  2. b  3. Faux  4. b
+
+**6. Réponses et explications**
+1. Les contrats exécutoires exigent généralement une offre, une acceptation, une contrepartie et l'intention commune d'être juridiquement liés.
+2. Les ententes vagues manquent souvent de la précision et de l'intention commune claire que les tribunaux recherchent pour les faire respecter.
+3. Toutes les ententes ne deviennent pas des contrats exécutoires; certains éléments précis doivent généralement être présents.
+4. Les conditions vagues et informelles des voisins manquaient de la précision et de l'intention claire nécessaires pour que l'entente soit exécutoire.
+
+**7. Points clés à retenir**
+- Toutes les ententes ne sont pas des contrats juridiquement exécutoires; certains éléments précis sont généralement nécessaires.
+- Ces éléments comprennent l'offre, l'acceptation, la contrepartie et l'intention commune d'être juridiquement liés.
+- Les ententes vagues et informelles manquent souvent de la précision que les tribunaux recherchent pour les faire respecter.
+- Les règles sur le caractère exécutoire varient selon la juridiction et le type de contrat, ce qui exige un encadrement professionnel en cas de vrai litige.
+
+===== PURPLE-L2-003
+TITLE: L'offre, l'acceptation et la contrepartie : les trois piliers
+SUMMARY: Comprends les trois piliers de la formation d'un contrat, pourquoi une réponse qui change les conditions devient une contre-offre et pourquoi une promesse sans contrepartie ne suffit pas.
+## PURPLE-L2-003
+### L'offre, l'acceptation et la contrepartie : les trois piliers
+
+**1. Objectifs d'apprentissage**
+À la fin de cette leçon, tu pourras :
+- Définir de façon conceptuelle l'offre, l'acceptation et la contrepartie.
+- Expliquer pourquoi les trois doivent généralement concorder pour qu'un contrat se forme.
+- Appliquer ces trois piliers à un exemple de transaction simple.
+
+**2. Contenu principal**
+Dans la suite de la leçon 2, cette leçon examine de plus près les trois piliers fondamentaux. Une offre est une proposition claire faite par une partie de conclure une entente selon des conditions précises. L'acceptation est l'accord clair de l'autre partie sur ces mêmes conditions précises; si l'« acceptation » change en fait les conditions, elle peut plutôt agir comme une contre-offre, et non comme une acceptation, ce qui relance la négociation au lieu de former un contrat. La contrepartie est quelque chose de valeur échangé entre les parties — souvent de l'argent, mais ce peut être la promesse de fournir un service, de livrer des biens, ou même de s'abstenir de faire quelque chose que la partie avait autrement le droit de faire.
+
+Les trois doivent généralement concorder : une offre sans acceptation correspondante n'est pas encore un contrat, et une entente sans contrepartie échangée entre les parties (une pure promesse de don, sans réciprocité, par exemple) n'est généralement pas traitée comme un contrat exécutoire, même si les deux parties en ont réellement l'intention.
+
+**3. Exemple pratique**
+Une photographe à la pige offre de photographier l'événement d'un client pour 800 $ (l'offre). Le client répond qu'il accepte de payer 800 $ pour la séance (une acceptation qui correspond aux conditions de l'offre); à ce moment-là, un contrat s'est probablement formé, le paiement de 800 $ et le service de photographie représentant chacun la contrepartie échangée entre les deux parties. Si le client avait plutôt répondu « je vais payer 600 $ », cette réponse agirait comme une contre-offre, et non comme une acceptation; aucun contrat n'existerait encore tant qu'une partie n'accepte pas les conditions les plus récentes de l'autre.
+
+**4. Quiz de pratique**
+1. Dans la formation d'un contrat, qu'est-ce qu'une « offre »?
+   a) Un contrat terminé
+   b) Une proposition claire faite par une partie de conclure une entente selon des conditions précises
+   c) Un type de contrepartie
+   d) Un dépôt gouvernemental
+2. Qu'arrive-t-il si une réponse à une offre change les conditions au lieu de les reprendre exactement?
+   a) Elle forme automatiquement un contrat selon les conditions d'origine
+   b) Elle agit généralement comme une contre-offre, et non comme une acceptation
+   c) Elle n'a aucune importance juridique
+   d) Elle est toujours traitée comme une fraude
+3. Vrai ou faux : Une pure promesse de don, sans réciprocité et sans contrepartie en retour, est généralement traitée comme un contrat exécutoire.
+4. Dans l'exemple pratique, qu'est-il arrivé quand le client a répondu « je vais payer 600 $ » au lieu des 800 $ offerts?
+   a) Un contrat s'est formé tout de suite à 800 $
+   b) Sa réponse a agi comme une contre-offre, et non comme une acceptation de l'offre d'origine
+   c) La photographe était légalement obligée d'accepter
+   d) La réponse n'avait aucune signification juridique
+
+**5. Corrigé**
+1. b  2. b  3. Faux  4. b
+
+**6. Réponses et explications**
+1. Une offre est une proposition claire faite par une partie de conclure une entente selon des conditions précises.
+2. Une réponse qui change les conditions agit généralement comme une contre-offre, ce qui relance la négociation.
+3. La contrepartie doit généralement être échangée entre les parties; une promesse de don purement unilatérale n'est généralement pas exécutoire comme contrat.
+4. Les conditions modifiées par le client ont agi comme une contre-offre, et non comme une acceptation de l'offre d'origine de 800 $ de la photographe.
+
+**7. Points clés à retenir**
+- L'offre, l'acceptation et la contrepartie sont les trois piliers fondamentaux de la formation d'un contrat.
+- L'acceptation doit généralement reprendre exactement les conditions de l'offre; sinon, elle agit plutôt comme une contre-offre.
+- La contrepartie est quelque chose de valeur échangé entre les parties, pas nécessairement limité à l'argent.
+- Les trois piliers doivent généralement concorder pour qu'un contrat exécutoire se forme.
+
+===== PURPLE-L2-004
+TITLE: Contrats écrits ou verbaux : pourquoi la protection écrite compte
+SUMMARY: Compare les contrats verbaux et écrits, découvre les règles qui exigent l'écrit pour certains contrats et pourquoi mettre une entente par écrit protège même quand ce n'est pas obligatoire.
+## PURPLE-L2-004
+### Contrats écrits ou verbaux : pourquoi la protection écrite compte
+
+**1. Objectifs d'apprentissage**
+À la fin de cette leçon, tu pourras :
+- Comparer les éléments généraux qui touchent le caractère exécutoire des contrats écrits et verbaux.
+- Expliquer le concept général d'une « loi sur les fraudes » (*Statute of Frauds*), qui exige que certains contrats soient écrits.
+- Nommer les raisons pratiques de préférer les contrats écrits, même quand la loi ne l'exige pas.
+
+**2. Contenu principal**
+Beaucoup de contrats verbaux peuvent être juridiquement exécutoires, à condition que les éléments des leçons 2 et 3 soient présents. Par contre, bien des juridictions ont une « loi sur les fraudes » (*Statute of Frauds*), une règle qui exige que certaines catégories de contrats (souvent les transactions immobilières, les ententes qui ne peuvent pas être exécutées en moins d'un an et les contrats de vente de biens au-delà d'une certaine valeur) soient faites par écrit pour être exécutoires, même si tous les autres éléments du contrat sont présents. C'est une RÈGLE PROPRE À UNE RÉGION, dont les catégories et les seuils précis varient selon la juridiction.
+
+Au-delà des exigences légales sur le caractère exécutoire, les contrats écrits offrent des avantages pratiques importants, même quand la forme écrite n'est pas strictement exigée par la loi : ils créent une trace claire de ce qui a exactement été convenu, ce qui réduit le risque de litiges fondés sur la mémoire ou l'interprétation, et ils obligent les deux parties à penser à des détails importants (échéances, recours en cas d'inexécution) et à les régler, alors qu'une entente verbale informelle pourrait les oublier complètement.
+
+**3. Exemple pratique**
+Deux propriétaires d'entreprise s'entendent verbalement sur une entente de marketing commune qui devrait durer dix-huit mois — une durée de plus d'un an qui, dans bien des juridictions, déclencherait une exigence de contrat écrit en vertu de la loi sur les fraudes pour que l'entente soit exécutoire. Conscients de ça, et peu importe si leur entente précise devait légalement être écrite, ils rédigent une entente écrite qui précise l'étendue de la collaboration, sa durée et les responsabilités de chaque partie. Ils se protègent ainsi tous les deux avec une trace claire, à laquelle ils peuvent se référer ensemble, plutôt que de se fier à leurs souvenirs respectifs d'une conversation informelle des mois plus tard.
+
+**4. Quiz de pratique**
+1. Qu'exige généralement une « loi sur les fraudes »?
+   a) Que tous les contrats soient notariés
+   b) Que certaines catégories de contrats soient faites par écrit pour être exécutoires
+   c) Que tous les contrats soient seulement verbaux
+   d) Rien — elle n'a aucun effet juridique réel
+2. Quel est un avantage pratique d'un contrat écrit, même quand la loi ne l'exige pas?
+   a) Il n'a aucun avantage par rapport à une entente verbale
+   b) Il crée une trace claire, ce qui réduit les litiges fondés sur la mémoire ou l'interprétation
+   c) Il élimine le besoin de toute contrepartie
+   d) Il garantit un résultat favorable dans n'importe quel litige
+3. Vrai ou faux : Les catégories et les seuils de la loi sur les fraudes sont identiques dans toutes les juridictions.
+4. Pourquoi les deux propriétaires d'entreprise ont-ils rédigé une entente écrite pour leur collaboration de marketing?
+   a) C'était purement facultatif, sans avantage pratique
+   b) La durée de leur entente déclenchait probablement une exigence de contrat écrit, et une trace écrite protégeait les deux parties
+   c) Les ententes verbales sont toujours illégales
+   d) Ils n'avaient aucune vraie relation d'affaires
+
+**5. Corrigé**
+1. b  2. b  3. Faux  4. b
+
+**6. Réponses et explications**
+1. Une loi sur les fraudes exige généralement que certaines catégories de contrats soient faites par écrit pour être exécutoires.
+2. Les contrats écrits créent une trace claire, ce qui réduit les litiges fondés sur la mémoire ou l'interprétation des conditions.
+3. Les catégories et les seuils de la loi sur les fraudes varient beaucoup selon la juridiction.
+4. La durée de l'entente des propriétaires d'entreprise et la protection pratique d'une trace claire justifiaient toutes les deux la rédaction d'une entente écrite.
+
+**7. Points clés à retenir**
+- Beaucoup de contrats verbaux peuvent être exécutoires, mais une loi sur les fraudes exige que certaines catégories soient écrites, ce qui varie selon la juridiction.
+- Les contrats écrits créent une trace claire et commune, ce qui réduit les litiges fondés sur la mémoire ou l'interprétation.
+- Les contrats écrits obligent aussi les parties à penser à des détails importants qu'une entente verbale informelle pourrait oublier.
+- Préférer les contrats écrits est une bonne pratique, même au-delà des situations où la loi l'exige strictement.
+
+===== PURPLE-L2-005
+TITLE: Lire un contrat : les clauses clés à surveiller
+SUMMARY: Utilise une liste de vérification pratique pour lire un contrat de façon critique et découvre pourquoi les sections qui semblent les plus ennuyeuses cachent souvent les conditions les plus importantes.
+## PURPLE-L2-005
+### Lire un contrat : les clauses clés à surveiller
+
+**1. Objectifs d'apprentissage**
+À la fin de cette leçon, tu pourras :
+- Nommer les clauses de contrat courantes qui méritent une attention particulière.
+- Expliquer le but général de chaque type de clause.
+- Appliquer cette liste de vérification à l'examen d'un contrat hypothétique.
+
+**2. Contenu principal**
+Dans la suite de l'approche à plusieurs pièces de la leçon 1, cette leçon offre une liste de vérification pratique pour lire un contrat de façon critique. Les clauses clés qui méritent souvent une attention particulière comprennent : l'étendue des travaux ou des obligations (ce que chaque partie doit faire exactement); les conditions de paiement (montant, échéancier et conséquences d'un paiement en retard); la durée et la résiliation (combien de temps dure le contrat et comment chaque partie peut y mettre fin); les clauses de responsabilité et d'indemnisation (approfondies aux leçons 26 et 27); les dispositions de règlement des différends (arbitrage ou poursuite devant les tribunaux, leçon 28); et les clauses de droit applicable et de tribunal compétent (leçon 46).
+
+Lire un contrat de façon critique n'exige pas de devenir avocat, mais ça exige de résister à la tentation de survoler les sections qui semblent denses, puisque les sections qui ont l'air les plus ennuyeuses (indemnisation, règlement des différends, résiliation) sont souvent exactement celles où se cachent les conditions qui ont le plus de conséquences.
+
+**3. Exemple pratique**
+En examinant un contrat de services avec un fournisseur avant de le signer, une propriétaire d'entreprise passe volontairement à travers cette liste de vérification : elle confirme que l'étendue des travaux correspond à ses attentes réelles, note les conditions de paiement et les frais de retard éventuels, vérifie comment chaque partie peut résilier l'entente et avec quel préavis, et lit précisément les sections sur la responsabilité et le règlement des différends au lieu de les sauter comme du « texte standard ». Cet examen structuré révèle une clause de résiliation qui exige un préavis de 90 jours — beaucoup plus long que ce qu'elle avait supposé —, ce qui l'amène à renégocier cette condition précise avant de signer.
+
+**4. Quiz de pratique**
+1. Selon cette leçon, laquelle des clauses suivantes est une clause de contrat clé qui mérite une attention particulière?
+   a) Le choix de la police de caractères du document
+   b) Les dispositions sur la durée et la résiliation
+   c) Le nombre de pages du document
+   d) L'imprimante utilisée pour produire le document
+2. Pourquoi les sections qui semblent denses, comme l'indemnisation ou le règlement des différends, mériteraient-elles plus d'attention, et non moins?
+   a) Elles n'ont jamais d'importance
+   b) Elles contiennent souvent certaines des conditions qui ont le plus de conséquences, même si elles semblent ennuyeuses
+   c) Elles sont purement décoratives
+   d) Elles ne touchent jamais les droits des parties
+3. Vrai ou faux : Lire un contrat de façon critique exige d'abord de devenir avocat.
+4. Qu'est-ce que l'examen structuré de la propriétaire d'entreprise a révélé au sujet du contrat du fournisseur?
+   a) Rien d'inattendu
+   b) Une clause de résiliation qui exigeait un préavis beaucoup plus long que ce qu'elle avait supposé
+   c) Que le contrat n'avait aucune condition de paiement
+   d) Que le contrat n'était pas du tout exécutoire
+
+**5. Corrigé**
+1. b  2. b  3. Faux  4. b
+
+**6. Réponses et explications**
+1. Les dispositions sur la durée et la résiliation sont un type de clause clé qui mérite une attention particulière quand on examine un contrat.
+2. Les sections qui semblent denses contiennent souvent les conditions qui ont le plus de conséquences, ce qui justifie plus d'attention, et non moins.
+3. Une approche de lecture structurée et attentive n'exige pas de devenir avocat, même si l'examen d'un avocat reste utile pour les contrats importants.
+4. L'examen attentif de la propriétaire d'entreprise a révélé une exigence de préavis de résiliation étonnamment longue.
+
+**7. Points clés à retenir**
+- Les clauses de contrat clés qui méritent une attention particulière comprennent l'étendue des travaux, les conditions de paiement, la durée et la résiliation, la responsabilité et le règlement des différends.
+- Les sections qui semblent denses cachent souvent les conditions qui ont le plus de conséquences et méritent une lecture attentive, pas un survol.
+- Une liste de vérification structurée permet un examen de contrat plus éclairé sans formation juridique.
+- Une lecture attentive peut faire ressortir des conditions inattendues qu'il vaut la peine de renégocier avant de signer.
+
+===== PURPLE-L2-006
+TITLE: L'inexécution d'un contrat : ce qui arrive quand quelqu'un ne respecte pas ses obligations
+SUMMARY: Comprends ce qu'est une inexécution de contrat, la différence entre une inexécution importante et mineure, et pourquoi ce type change les recours possibles.
+## PURPLE-L2-006
+### L'inexécution d'un contrat : ce qui arrive quand quelqu'un ne respecte pas ses obligations
+
+**1. Objectifs d'apprentissage**
+À la fin de cette leçon, tu pourras :
+- Définir de façon conceptuelle l'inexécution d'un contrat (la violation de contrat).
+- Distinguer une inexécution importante d'une inexécution mineure.
+- Expliquer pourquoi le type d'inexécution influence les réponses possibles.
+
+**2. Contenu principal**
+Il y a inexécution d'un contrat (ou violation de contrat) quand une partie ne remplit pas une obligation prévue dans un contrat exécutoire, sans excuse reconnue par la loi. Toutes les inexécutions ne sont pas traitées de la même façon : une inexécution importante est assez grave pour miner le but principal du contrat, ce qui permet généralement à la partie qui a respecté ses obligations de considérer le contrat comme résilié et d'exercer des recours (leçon 7). Une inexécution mineure (parfois appelée inexécution partielle) est un manquement moins grave qui ne mine pas le but principal du contrat; la partie qui a respecté ses obligations doit généralement continuer à remplir les siennes, mais elle peut demander une compensation pour le préjudice précis causé par l'inexécution mineure.
+
+Déterminer si une inexécution précise est importante ou mineure dépend des faits de la situation et des conditions du contrat lui-même. C'est donc une détermination propre aux faits, et souvent au contrat, et non une règle tranchée qui s'applique de la même façon à chaque situation.
+
+**3. Exemple pratique**
+Un entrepreneur est embauché pour rénover une cuisine avant une date précise, avec une couleur de mur précisée « blanc doux ». L'entrepreneur termine à temps, mais peint le mur d'une teinte de blanc très légèrement différente de celle précisée — probablement une inexécution mineure, puisque le but principal de la rénovation (une cuisine rénovée et fonctionnelle) a quand même été atteint, même si la propriétaire pourrait raisonnablement demander une petite compensation ou qu'on repeigne pour corriger l'écart de couleur. Si, au contraire, l'entrepreneur n'avait pas terminé la rénovation du tout, en dépassant l'échéance de plusieurs mois, sans murs peints, sans planchers posés ni accessoires branchés, ce serait probablement une inexécution importante, qui mine le but principal du contrat et pourrait permettre à la propriétaire de résilier le contrat et de chercher des recours plus importants.
+
+**4. Quiz de pratique**
+1. Qu'est-ce que l'inexécution d'un contrat?
+   a) Remplir avec succès les conditions d'un contrat
+   b) Le fait de ne pas remplir une obligation contractuelle sans excuse reconnue par la loi
+   c) Un type de contrepartie
+   d) Une exigence de dépôt gouvernemental
+2. Qu'est-ce qui distingue généralement une inexécution importante d'une inexécution mineure?
+   a) Il n'y a aucune distinction
+   b) Une inexécution importante mine le but principal du contrat; une inexécution mineure, non
+   c) Les inexécutions importantes sont toujours volontaires; les mineures, toujours accidentelles
+   d) Seules les inexécutions importantes ont des conséquences
+3. Vrai ou faux : Toute inexécution d'un contrat, aussi petite soit-elle, permet à la partie qui a respecté ses obligations de résilier tout le contrat.
+4. Pourquoi la couleur de mur légèrement différente était-elle probablement une inexécution mineure plutôt qu'importante?
+   a) Le but principal de la rénovation avait quand même été atteint en bonne partie
+   b) Aucune rénovation n'avait eu lieu
+   c) L'entrepreneur ne s'était jamais présenté
+   d) La propriétaire n'avait aucun recours possible
+
+**5. Corrigé**
+1. b  2. b  3. Faux  4. a
+
+**6. Réponses et explications**
+1. L'inexécution d'un contrat, c'est le fait de ne pas remplir une obligation contractuelle sans excuse reconnue par la loi.
+2. Une inexécution importante mine le but principal du contrat; une inexécution mineure, non, même si elle peut quand même causer un certain préjudice.
+3. Seule une inexécution importante permet généralement de résilier tout le contrat; une inexécution mineure exige généralement de continuer à exécuter le contrat, avec une compensation pour le préjudice précis.
+4. La couleur de mur légèrement différente ne minait pas le but principal et fonctionnel de la rénovation, ce qui correspond davantage à une inexécution mineure.
+
+**7. Points clés à retenir**
+- L'inexécution d'un contrat est le fait de ne pas remplir une obligation contractuelle sans excuse valable.
+- Une inexécution importante mine le but principal du contrat; une inexécution mineure, non.
+- Les inexécutions importantes permettent généralement de résilier le contrat et d'exercer des recours plus larges; les inexécutions mineures permettent généralement une compensation pendant que l'exécution se poursuit.
+- Déterminer la gravité d'une inexécution dépend des faits et n'est pas régi par une seule règle tranchée.

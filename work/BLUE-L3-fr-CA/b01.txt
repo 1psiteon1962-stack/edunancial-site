@@ -1,0 +1,342 @@
+===== BLUE-L3-001
+TITLE: Pourquoi le financement par le vendeur peut faire ou défaire l'acquisition d'une entreprise
+SUMMARY: Découvre pourquoi le financement par le vendeur est souvent le facteur qui décide si l'acquisition d'une petite entreprise peut avoir lieu ou non, et pas seulement un détail de négociation.
+# BLUE-L3-001 : Pourquoi le financement par le vendeur peut faire ou défaire l'acquisition d'une entreprise
+
+## Objectifs d'apprentissage
+À la fin de cette leçon, tu pourras :
+- Expliquer comment fonctionne le financement par le vendeur dans le contexte de l'acquisition d'une entreprise
+- Expliquer pourquoi il comble souvent un écart que les prêteurs traditionnels refusent de combler
+- Expliquer pourquoi la volonté d'un vendeur de financer en dit long sur sa confiance envers l'entreprise
+
+## Contenu principal
+
+Ce parcours fait écho à une notion abordée dans le parcours RED de ce programme : le financement par le vendeur en immobilier, où le vendeur joue le rôle de prêteur. Dans l'acquisition d'une entreprise, la même structure de base s'applique — le vendeur finance une partie ou la totalité du prix d'achat, et l'acheteur fait des paiements au fil du temps au lieu de tout payer d'avance au comptant ou au moyen d'un prêt traditionnel.
+
+Voici « pourquoi » ça détermine souvent si la vente d'une petite entreprise a lieu ou non : les prêteurs traditionnels hésitent souvent à financer entièrement l'achat d'une petite entreprise à capital fermé, puisque sa valeur est plus difficile à vérifier de façon indépendante que celle d'un immeuble (il n'existe pas d'équivalent à une évaluation pour les relations futures avec les clients d'une entreprise ou pour des processus qui dépendent du propriétaire). Le financement par le vendeur comble cet écart, puisque le vendeur connaît beaucoup mieux les vraies perspectives de l'entreprise qu'un prêteur externe ne pourrait facilement le faire.
+
+[VERIFIED FACT] La volonté d'un vendeur de financer une partie de la vente est souvent interprétée par les acheteurs, et parfois par d'autres prêteurs qui participent à la transaction, comme un signe de la confiance du vendeur envers le rendement futur de l'entreprise — un vendeur qui refuse d'avoir le moindre intérêt financier continu dans le résultat peut soulever une question légitime sur ses raisons.
+
+## Exemple pratique
+
+[ILLUSTRATIVE EXAMPLE] Un acheteur veut acquérir une petite entreprise locale rentable, mais une banque n'accepte de financer que 60 % du prix d'achat, en invoquant des garanties limitées et la dépendance de l'entreprise envers les relations du propriétaire actuel. Le vendeur accepte de financer lui-même les 40 % restants, remboursables sur cinq ans à même les profits futurs de l'entreprise. [ASSUMPTION] Cette portion financée par le vendeur comble non seulement l'écart de financement, mais rassure aussi l'acheteur : puisque le vendeur ne sera payé en entier que si l'entreprise continue de bien performer, il a un intérêt direct à contribuer à une transition harmonieuse.
+
+## Quiz de pratique
+
+1. Comment fonctionne le financement par le vendeur dans l'acquisition d'une entreprise?
+2. Pourquoi les prêteurs traditionnels hésitent-ils souvent à financer entièrement l'achat d'une petite entreprise?
+3. Pourquoi la volonté d'un vendeur de financer une partie de la transaction pourrait-elle être vue comme un signe positif par l'acheteur?
+
+## Corrigé
+
+1. Le vendeur finance une partie ou la totalité du prix d'achat, et l'acheteur fait des paiements au fil du temps au lieu de tout payer d'avance.
+2. Parce que la valeur d'une petite entreprise, surtout sa dépendance envers les relations, la réputation et l'implication du propriétaire actuel, est plus difficile à vérifier de façon indépendante que la valeur d'un actif physique comme un immeuble.
+3. Parce que ça laisse entendre que le vendeur a confiance dans le rendement futur de l'entreprise, puisque son propre paiement complet dépend de ce rendement continu.
+
+## Réponses et explications
+
+1. C'est la définition de base de la leçon, en écho à la notion immobilière vue ailleurs dans ce programme.
+2. Ça explique l'écart précis que le financement par le vendeur comble dans l'acquisition d'entreprises.
+3. Ça renforce l'argument de l'harmonisation des intérêts qui rend le financement par le vendeur attrayant au-delà du simple fait de combler un écart de financement.
+
+## Points clés à retenir
+- Dans le financement par le vendeur, le vendeur joue le rôle de prêteur pour une partie ou la totalité du prix d'achat d'une entreprise.
+- Il comble souvent un écart que les prêteurs traditionnels hésitent à combler pour les petites entreprises à capital fermé.
+- La volonté d'un vendeur de financer peut être un signe de confiance envers l'entreprise et harmoniser les intérêts autour d'une transition harmonieuse.
+
+## Avis pédagogique
+Cette leçon sert uniquement à l'éducation financière générale et ne constitue pas un conseil financier, de placement, fiscal ou juridique personnalisé. Consulte un professionnel autorisé avant de conclure toute entente d'acquisition d'entreprise.
+
+===== BLUE-L3-002
+TITLE: Pourquoi évaluer une entreprise n'est pas la même chose qu'évaluer ses actifs
+SUMMARY: Découvre pourquoi une entreprise vaut souvent plus (ou moins) que la somme de ses actifs physiques, et pourquoi c'est la capacité bénéficiaire qui détermine la plupart des évaluations.
+# BLUE-L3-002 : Pourquoi évaluer une entreprise n'est pas la même chose qu'évaluer ses actifs
+
+## Objectifs d'apprentissage
+À la fin de cette leçon, tu pourras :
+- Expliquer la différence entre la valeur des actifs et la valeur de l'entreprise (en exploitation)
+- Expliquer pourquoi une entreprise rentable vaut habituellement plus que la somme de ses actifs physiques
+- Expliquer pourquoi une entreprise non rentable pourrait ne valoir à peu près que la valeur de ses actifs
+
+## Contenu principal
+
+Il est tentant de croire que la valeur d'une entreprise est simplement la somme de ce qu'elle possède : équipement, stocks, encaisse, immeubles. On appelle ça la **valeur des actifs**, et c'est un chiffre réel et calculable — mais pour la plupart des entreprises en exploitation, ce n'est pas le principal facteur de ce qu'un acheteur paierait réellement.
+
+Voici « pourquoi » on évalue habituellement une entreprise autrement : une entreprise rentable et en exploitation (une « entreprise en activité ») a une capacité bénéficiaire — la capacité de générer des profits continus dans l'avenir — qui a une valeur bien supérieure à ce que rapporteraient ses seuls actifs physiques s'ils étaient vendus un par un. Un acheteur achète habituellement cette capacité bénéficiaire future, et non principalement l'équipement physique.
+
+[VERIFIED FACT] Cette relation peut aussi jouer dans l'autre sens : une entreprise qui n'est pas rentable, ou dont l'avenir est incertain, peut être évaluée près de sa seule valeur de liquidation ou de ses actifs, puisqu'un acheteur n'est pas prêt à payer beaucoup pour une capacité bénéficiaire future incertaine ou négative — dans certains cas, les actifs d'une entreprise non rentable pourraient même valoir plus s'ils étaient vendus séparément que l'entreprise comme exploitation continue.
+
+## Exemple pratique
+
+[ILLUSTRATIVE EXAMPLE] L'entreprise A possède 200 000 $ d'équipement et de stocks, mais génère un profit annuel solide et constant. Un acheteur pourrait raisonnablement payer beaucoup plus que 200 000 $, parce qu'il achète surtout la capacité bénéficiaire continue que l'entreprise démontre, et pas seulement les biens physiques. L'entreprise B possède les mêmes 200 000 $ d'équipement et de stocks, mais perd de l'argent sans chemin clair vers la rentabilité. [ASSUMPTION] Un acheteur de l'entreprise B pourrait n'être prêt à payer qu'à peu près la valeur des actifs de 200 000 $, voire moins une fois les dettes prises en compte, puisque l'exploitation continue ne démontre pas une capacité bénéficiaire qui justifierait de payer une prime supplémentaire.
+
+## Quiz de pratique
+
+1. Selon la définition de cette leçon, qu'est-ce que la valeur des actifs?
+2. Pourquoi une entreprise rentable vaut-elle habituellement plus que la somme de ses actifs physiques?
+3. Pourquoi une entreprise non rentable pourrait-elle être évaluée à peu près à la seule valeur de ses actifs?
+
+## Corrigé
+
+1. La valeur de ce qu'une entreprise possède — équipement, stocks, encaisse, immeubles — calculée indépendamment de son exploitation continue.
+2. Parce qu'un acheteur achète surtout la capacité bénéficiaire future de l'entreprise, qui a une valeur supérieure à celle des actifs physiques utilisés pour la générer.
+3. Parce qu'une capacité bénéficiaire future incertaine ou négative donne peu de raisons à un acheteur de payer une prime au-delà de ce que vaudraient les actifs physiques eux-mêmes.
+
+## Réponses et explications
+
+1. C'est la définition de base, comparée à la valeur de l'entreprise en activité.
+2. C'est le « pourquoi » central qui explique la plupart des évaluations d'entreprises.
+3. Ça montre la notion dans le sens inverse, en renforçant l'idée que c'est la capacité bénéficiaire — et non la propriété d'actifs — qui est habituellement le principal facteur.
+
+## Points clés à retenir
+- La valeur des actifs reflète ce qu'une entreprise possède; la valeur de l'entreprise en activité reflète sa capacité bénéficiaire comme entreprise en exploitation.
+- Une entreprise rentable est habituellement évaluée bien au-delà de la valeur de ses actifs, puisque les acheteurs paient pour la capacité bénéficiaire future.
+- Une entreprise non rentable ou incertaine peut être évaluée près de la seule valeur de ses actifs, voire en dessous.
+
+## Avis pédagogique
+Cette leçon sert uniquement à l'éducation financière générale et ne constitue pas un conseil financier, de placement, fiscal ou juridique personnalisé. Tous les chiffres sont des estimations à titre d'illustration, et non des garanties. Consulte un professionnel autorisé avant de prendre des décisions d'évaluation d'entreprise.
+
+===== BLUE-L3-003
+TITLE: Pourquoi le BAIIA est le langage commun de l'évaluation d'entreprise
+SUMMARY: Découvre ce que mesure le BAIIA, pourquoi on l'utilise comme outil de comparaison normalisé entre entreprises, et ce qu'il laisse volontairement de côté.
+# BLUE-L3-003 : Pourquoi le BAIIA est le langage commun de l'évaluation d'entreprise
+
+## Objectifs d'apprentissage
+À la fin de cette leçon, tu pourras :
+- Définir le BAIIA et ce que représente chacune de ses composantes
+- Expliquer pourquoi on utilise le BAIIA comme outil de comparaison normalisé entre différentes entreprises
+- Expliquer ce que le BAIIA exclut volontairement et pourquoi c'est important
+
+## Contenu principal
+
+Le **BAIIA** (bénéfice avant intérêts, impôts et amortissements; en anglais, *EBITDA*) est une mesure courante de la rentabilité d'exploitation d'une entreprise. On le calcule en partant du bénéfice net et en y rajoutant les intérêts, les impôts, l'amortissement des immobilisations corporelles et l'amortissement des actifs incorporels.
+
+Voici « pourquoi » cette combinaison précise est utile pour comparer des entreprises : les intérêts dépendent de la façon dont une entreprise donnée est financée (sa structure d'endettement), les impôts peuvent varier selon la structure juridique et la situation fiscale de l'entreprise, et l'amortissement est une écriture comptable qui ne reflète pas une sortie réelle d'argent de l'entreprise (en écho à la discussion sur l'amortissement du parcours RED de ce programme). En rajoutant ces éléments, le BAIIA tente d'éliminer des facteurs qui varient selon les choix de financement et de comptabilité, pour obtenir un chiffre qui reflète mieux le rendement d'exploitation de base, comparable d'une entreprise à l'autre.
+
+[VERIFIED FACT] C'est précisément pourquoi le BAIIA sert couramment de base aux multiples d'évaluation (un sujet abordé dans une leçon plus loin) — il permet aux acheteurs de comparer des entreprises aux structures de capital et aux situations fiscales différentes sur une base plus normalisée, en comparant des pommes avec des pommes, même si le BAIIA exclut volontairement des coûts réels, comme les intérêts sur la dette réellement due et les dépenses en immobilisations éventuelles, dont tout acheteur réel doit quand même tenir compte séparément.
+
+## Exemple pratique
+
+[ILLUSTRATIVE EXAMPLE] Deux entreprises semblables génèrent le même rendement d'exploitation sous-jacent, mais l'entreprise A s'est beaucoup endettée (avec des frais d'intérêts importants), alors que l'entreprise B n'a aucune dette. Comparer seulement leur bénéfice net ferait paraître l'entreprise B plus rentable, uniquement à cause de la différence de financement. Comparer plutôt leur BAIIA — en rajoutant les frais d'intérêts de l'entreprise A — révèle que leur rendement d'exploitation de base est en fait assez semblable, ce qui permet une comparaison plus utile entre les deux entreprises, indépendamment de la façon dont chacune est financée.
+
+## Quiz de pratique
+
+1. Que représente le BAIIA?
+2. Pourquoi le BAIIA rajoute-t-il les intérêts, les impôts et les amortissements?
+3. Qu'est-ce que le BAIIA laisse volontairement de côté et dont un acheteur réel doit quand même tenir compte?
+
+## Corrigé
+
+1. Le bénéfice avant intérêts, impôts et amortissements (en anglais, *Earnings Before Interest, Taxes, Depreciation, and Amortization*).
+2. Pour éliminer des facteurs qui varient selon la structure de financement, la situation fiscale et les choix comptables d'une entreprise, afin d'obtenir une mesure plus comparable du rendement d'exploitation de base.
+3. Les coûts d'intérêts réels sur toute dette que l'acheteur contracte, et les dépenses en immobilisations réelles éventuelles nécessaires pour maintenir ou faire croître l'entreprise — deux coûts réels qui ne se reflètent pas dans le chiffre du BAIIA lui-même.
+
+## Réponses et explications
+
+1. C'est la définition de base de la leçon.
+2. C'est le « pourquoi » central qui explique l'utilité du BAIIA comme outil de comparaison.
+3. C'est une mise en garde importante contre le fait de traiter le BAIIA comme un portrait complet de la réalité financière d'une entreprise.
+
+## Points clés à retenir
+- Le BAIIA rajoute les intérêts, les impôts et les amortissements au bénéfice net, dans le but de refléter le rendement d'exploitation de base.
+- Ça le rend utile pour comparer, sur une base normalisée, des entreprises aux structures de financement et aux situations fiscales différentes.
+- Le BAIIA exclut volontairement des coûts réels comme les intérêts réels et les dépenses en immobilisations, dont un acheteur doit quand même tenir compte séparément.
+
+## Avis pédagogique
+Cette leçon sert uniquement à l'éducation financière générale et ne constitue pas un conseil financier, de placement, fiscal ou juridique personnalisé. Consulte un professionnel autorisé avant de prendre des décisions d'évaluation d'entreprise.
+
+===== BLUE-L3-004
+TITLE: Pourquoi l'achat d'actifs et l'achat d'actions sont des transactions fondamentalement différentes
+SUMMARY: Découvre la différence entre acheter les actifs d'une entreprise et acheter ses actions, et pourquoi les acheteurs et les vendeurs préfèrent souvent des structures opposées.
+# BLUE-L3-004 : Pourquoi l'achat d'actifs et l'achat d'actions sont des transactions fondamentalement différentes
+
+## Objectifs d'apprentissage
+À la fin de cette leçon, tu pourras :
+- Expliquer la différence structurelle entre un achat d'actifs et un achat d'actions
+- Expliquer pourquoi les acheteurs préfèrent souvent un achat d'actifs
+- Expliquer pourquoi les vendeurs préfèrent souvent un achat d'actions
+
+## Contenu principal
+
+Quand on acquiert une entreprise constituée en société par actions ou sous une forme semblable, il existe généralement deux approches structurelles : un **achat d'actifs**, où l'acheteur acquiert directement des actifs précis (et parfois des dettes précises) de l'entreprise, ou un **achat d'actions**, où l'acheteur acquiert les actions de la société elle-même et prend en charge toute l'entité — actifs, dettes, contrats et historique — telle qu'elle existe.
+
+Voici « pourquoi » les acheteurs et les vendeurs préfèrent souvent des structures opposées : dans un achat d'actifs, l'acheteur peut habituellement choisir les actifs et les dettes précis qu'il acquiert, ce qui lui permet généralement d'éviter les dettes inconnues ou non désirées qui pourraient exister au sein de la société elle-même (des poursuites non divulguées, par exemple) — c'est une raison importante pour laquelle les acheteurs préfèrent souvent cette structure. Dans un achat d'actions, le vendeur transfère toute l'entité, y compris toutes ses dettes, connues ou inconnues, ce qui explique pourquoi les vendeurs préfèrent souvent cette structure : elle leur procure une sortie plus nette et plus complète de tous les aspects de l'entreprise, connus et inconnus.
+
+[VERIFIED FACT] Le traitement fiscal diffère aussi souvent de façon importante entre les deux structures, pour l'acheteur comme pour le vendeur, et peut être un facteur majeur dans la structure finalement négociée — les conséquences fiscales précises dépendent de règles propres à chaque territoire et doivent être évaluées avec l'aide d'un professionnel pour toute transaction réelle.
+
+## Exemple pratique
+
+[ILLUSTRATIVE EXAMPLE] Un acheteur veut acquérir une entreprise manufacturière, mais s'inquiète de la possibilité de dettes environnementales non divulguées liées à l'historique de la société. Structurer la transaction comme un achat d'actifs lui permettrait d'acquérir précisément l'équipement, les stocks et les contrats avec les clients qu'il veut, sans hériter automatiquement des dettes inconnues liées à l'entité elle-même. Le vendeur, par contre, pourrait préférer un achat d'actions précisément pour obtenir une sortie complète et nette de l'entreprise, y compris des dettes que la structure d'achat d'actifs de l'acheteur laisserait autrement à sa charge.
+
+## Quiz de pratique
+
+1. Quelle est la différence structurelle entre un achat d'actifs et un achat d'actions?
+2. Pourquoi les acheteurs préfèrent-ils souvent une structure d'achat d'actifs?
+3. Pourquoi les vendeurs préfèrent-ils souvent une structure d'achat d'actions?
+
+## Corrigé
+
+1. Un achat d'actifs acquiert directement des actifs précis (et parfois des dettes); un achat d'actions acquiert la propriété de toute l'entité, y compris l'ensemble de ses actifs, de ses dettes, de ses contrats et de son historique.
+2. Parce qu'elle leur permet généralement de choisir les actifs et les dettes précis qu'ils acquièrent, en évitant les dettes inconnues ou non désirées qui pourraient exister au sein de la société elle-même.
+3. Parce qu'elle procure une sortie plus nette et plus complète de toute l'entreprise, y compris des dettes, au lieu de laisser des dettes non désirées à la charge du vendeur.
+
+## Réponses et explications
+
+1. C'est la distinction structurelle de base de la leçon.
+2. Ça explique l'incitatif habituel de l'acheteur, lié au risque de responsabilité.
+3. Ça explique l'incitatif habituel, opposé, du vendeur.
+
+## Points clés à retenir
+- Un achat d'actifs acquiert directement des actifs précis; un achat d'actions acquiert toute l'entité, y compris toutes ses dettes.
+- Les acheteurs préfèrent souvent l'achat d'actifs pour éviter les dettes inconnues ou non désirées.
+- Les vendeurs préfèrent souvent l'achat d'actions pour une sortie plus nette et plus complète, dettes comprises.
+
+## Avis pédagogique
+Cette leçon sert uniquement à l'éducation financière générale et ne constitue pas un conseil financier, de placement, fiscal ou juridique personnalisé. Consulte un avocat et un fiscaliste autorisés avant de structurer toute acquisition d'entreprise.
+
+===== BLUE-L3-005
+TITLE: Pourquoi l'achalandage représente ce qu'on ne peut pas toucher
+SUMMARY: Découvre ce que veut dire l'achalandage dans l'acquisition d'une entreprise, pourquoi il reflète une valeur qui n'apparaît pas dans une simple liste d'actifs, et comment on le calcule.
+# BLUE-L3-005 : Pourquoi l'achalandage représente ce qu'on ne peut pas toucher
+
+## Objectifs d'apprentissage
+À la fin de cette leçon, tu pourras :
+- Définir l'achalandage dans le contexte de l'acquisition d'une entreprise
+- Expliquer comment on calcule généralement l'achalandage
+- Nommer des exemples de ce que l'achalandage vise à refléter
+
+## Contenu principal
+
+La leçon 2 a distingué la valeur des actifs de la valeur globale d'une entreprise en activité, déterminée par sa capacité bénéficiaire. L'**achalandage** (ou écart d'acquisition; en anglais, *goodwill*) est la notion comptable précise qui sert à mesurer cet écart : on le calcule généralement en soustrayant du prix payé pour une entreprise la juste valeur de ses actifs nets identifiables (actifs moins dettes).
+
+Voici « pourquoi » ce chiffre compte : l'achalandage représente la valeur de tout ce qui est intangible et contribue à la capacité bénéficiaire d'une entreprise sans être un actif précis et identifiable séparément — la réputation de la marque, les relations avec les clients, un emplacement établi, des employés formés, ou des systèmes d'exploitation qu'un concurrent aurait de la difficulté à reproduire rapidement et à faible coût. [ILLUSTRATIVE EXAMPLE] Une entreprise locale bien connue, avec une clientèle fidèle, pourrait se vendre bien au-delà de la valeur de ses actifs physiques, et cet écart serait comptabilisé comme de l'achalandage, ce qui reflète la valeur réelle, quoique intangible, de cette réputation et de cette fidélité de la clientèle.
+
+[VERIFIED FACT] L'achalandage est comptabilisé comme un actif dans les livres de l'acheteur après l'acquisition, et son traitement fiscal et comptable (y compris la façon dont il est passé en charges au fil du temps, s'il l'est) suit des règles comptables et fiscales précises qui varient et doivent être évaluées avec l'aide d'un professionnel pour une transaction donnée.
+
+## Exemple pratique
+
+[ILLUSTRATIVE EXAMPLE] Un acheteur paie 500 000 $ pour une entreprise dont les actifs nets identifiables (équipement, stocks, encaisse, moins les dettes) sont évalués à 300 000 $. Les 200 000 $ restants du prix d'achat sont comptabilisés comme achalandage — ce qui représente la valeur que l'acheteur paie pour la réputation de l'entreprise, ses relations établies avec la clientèle et d'autres facteurs intangibles qui contribuent à sa capacité bénéficiaire, au-delà de ce que les seuls actifs physiques expliqueraient.
+
+## Quiz de pratique
+
+1. Qu'est-ce que l'achalandage, et comment le calcule-t-on généralement?
+2. Quels types de facteurs intangibles l'achalandage vise-t-il à refléter?
+3. Comment cette notion se relie-t-elle à la distinction de la leçon 2 entre la valeur des actifs et la valeur de l'entreprise en activité?
+
+## Corrigé
+
+1. Le prix d'achat d'une entreprise moins la juste valeur de ses actifs nets identifiables; il représente une valeur intangible qui n'est pas reflétée par un actif précis et identifiable séparément.
+2. La réputation de la marque, les relations avec les clients, un emplacement établi, des employés formés, ou des systèmes d'exploitation qu'un concurrent aurait de la difficulté à reproduire rapidement.
+3. L'achalandage est le chiffre comptable précis qui mesure l'écart décrit à la leçon 2 — la différence entre la valeur des actifs d'une entreprise et sa valeur plus élevée en tant qu'entreprise en activité, déterminée par sa capacité bénéficiaire.
+
+## Réponses et explications
+
+1. C'est la définition et le calcul de base de la leçon.
+2. Ça ancre la notion abstraite dans des exemples concrets et faciles à reconnaître.
+3. Ça relie explicitement la leçon à la leçon 2, ce qui renforce la structure intégrée du parcours.
+
+## Points clés à retenir
+- L'achalandage se calcule en soustrayant du prix d'achat la juste valeur des actifs nets identifiables.
+- Il reflète une valeur intangible — réputation, relations avec la clientèle et facteurs semblables — qui contribue à la capacité bénéficiaire d'une entreprise.
+- L'achalandage mesure précisément l'écart entre la valeur des actifs et la valeur de l'entreprise en activité présenté à la leçon 2.
+
+## Avis pédagogique
+Cette leçon sert uniquement à l'éducation financière générale et ne constitue pas un conseil financier, de placement, fiscal ou juridique personnalisé. Consulte un comptable autorisé avant de prendre des décisions d'évaluation ou d'acquisition d'entreprise.
+
+===== BLUE-L3-006
+TITLE: Pourquoi une lettre d'intention n'est pas une convention d'achat qui lie les parties
+SUMMARY: Découvre ce à quoi une lettre d'intention t'engage ou ne t'engage pas, et pourquoi la traiter comme un contrat final peut créer de la confusion ou des risques.
+# BLUE-L3-006 : Pourquoi une lettre d'intention n'est pas une convention d'achat qui lie les parties
+
+## Objectifs d'apprentissage
+À la fin de cette leçon, tu pourras :
+- Expliquer le but général d'une lettre d'intention dans l'acquisition d'une entreprise
+- Expliquer quelles parties d'une lettre d'intention lient habituellement les parties et lesquelles ne les lient pas
+- Expliquer pourquoi une lettre d'intention est une étape utile même si la plus grande partie n'est pas juridiquement exécutoire
+
+## Contenu principal
+
+Une **lettre d'intention** est un document qui présente les modalités préliminaires sur lesquelles les deux parties se sont entendues en principe, avant la rédaction et la signature d'une convention d'achat complète et officielle. Elle couvre habituellement le prix proposé, la structure générale de la transaction et les principales modalités que les deux parties s'attendent à inclure dans la convention finale.
+
+Voici « pourquoi » elle compte, même si elle n'est généralement pas un engagement de vente qui lie les parties : [VERIFIED FACT] la plupart des modalités de fond d'une lettre d'intention — le prix, la structure et d'autres modalités d'affaires semblables — ne lient habituellement pas les parties, ce qui veut dire que chacune peut encore se retirer avant de signer une convention finale, alors que certaines dispositions précises (comme les obligations de confidentialité ou une période d'exclusivité convenue, pendant laquelle le vendeur s'engage à ne pas négocier avec d'autres acheteurs) sont couramment structurées pour lier les parties, même à l'intérieur d'une lettre d'intention qui, autrement, ne les lie pas.
+
+Cette structure a un vrai but : elle permet aux deux parties de s'entendre sur les grandes modalités et de consacrer beaucoup de temps et de ressources à la vérification diligente (leçon 7) et à la rédaction d'une convention finale, sans qu'aucune des deux soit juridiquement liée à une transaction qui pourrait plus tard échouer selon ce que révélera ce processus.
+
+## Exemple pratique
+
+[ILLUSTRATIVE EXAMPLE] Un acheteur et un vendeur signent une lettre d'intention qui précise un prix convenu et la structure générale de la transaction, ainsi qu'une période d'exclusivité de 60 jours qui lie les parties, pendant laquelle le vendeur s'engage à ne pas négocier avec d'autres acheteurs potentiels. [ASSUMPTION] Pendant ces 60 jours, la vérification diligente de l'acheteur révèle un problème important, non divulgué auparavant, dans les finances de l'entreprise. Comme les modalités de fond de la lettre d'intention sur le prix et la structure ne liaient pas les parties, l'acheteur peut renégocier le prix ou se retirer complètement — alors que la clause d'exclusivité, elle, reste exécutoire et a déjà rempli son rôle en protégeant le temps investi par l'acheteur pendant la période de vérification.
+
+## Quiz de pratique
+
+1. Quel est le but général d'une lettre d'intention?
+2. Quelles parties d'une lettre d'intention ne lient habituellement pas les parties, et lesquelles les lient couramment?
+3. Pourquoi cette structure est-elle utile pour les deux parties, même si la plus grande partie de la lettre d'intention n'est pas juridiquement exécutoire?
+
+## Corrigé
+
+1. Présenter les modalités préliminaires sur lesquelles les deux parties se sont entendues en principe, avant de rédiger une convention d'achat complète et officielle.
+2. Les modalités d'affaires de fond comme le prix et la structure de la transaction ne lient habituellement pas les parties; des dispositions comme la confidentialité et les périodes d'exclusivité sont couramment structurées pour les lier.
+3. Parce qu'elle permet aux deux parties de s'entendre sur les grandes modalités et d'investir dans la vérification diligente et la rédaction du contrat sans être juridiquement liées à une transaction qui pourrait changer selon ce que révélera la vérification.
+
+## Réponses et explications
+
+1. C'est la définition de base de la leçon.
+2. Ça clarifie la distinction importante, à l'intérieur d'un même document, entre ce qui lie et ce qui ne lie pas les parties.
+3. Ça explique la valeur pratique de la structure de la lettre d'intention, malgré son caractère en grande partie non exécutoire.
+
+## Points clés à retenir
+- Une lettre d'intention présente des modalités préliminaires convenues avant la rédaction d'une convention d'achat complète.
+- Les modalités de fond comme le prix ne lient habituellement pas les parties; des dispositions précises comme la confidentialité et l'exclusivité les lient couramment.
+- Cette structure permet aux deux parties d'investir dans la vérification diligente et la rédaction sans être juridiquement liées aux modalités finales de la transaction.
+
+## Avis pédagogique
+Cette leçon sert uniquement à l'éducation financière générale et ne constitue pas un conseil financier, de placement, fiscal ou juridique personnalisé. Consulte un avocat autorisé avant de signer toute lettre d'intention ou convention d'acquisition.
+
+===== BLUE-L3-007
+TITLE: Pourquoi la vérification diligente existe pour trouver ce que le vendeur ne t'a pas dit
+SUMMARY: Découvre pourquoi la vérification diligente est un processus d'enquête structuré, et pas seulement une formalité, et pourquoi elle sert à trouver des risques qui ne feraient pas surface autrement.
+# BLUE-L3-007 : Pourquoi la vérification diligente existe pour trouver ce que le vendeur ne t'a pas dit
+
+## Objectifs d'apprentissage
+À la fin de cette leçon, tu pourras :
+- Expliquer le but général de la vérification diligente dans l'acquisition d'une entreprise
+- Nommer les grandes catégories d'information que couvre habituellement la vérification diligente
+- Expliquer pourquoi la vérification diligente a lieu après la lettre d'intention, mais avant la convention d'achat finale
+
+## Contenu principal
+
+La **vérification diligente** est le processus structuré, qui suit la signature d'une lettre d'intention (leçon 6), pendant lequel un acheteur examine à fond les registres financiers, la situation juridique, les contrats, l'exploitation et d'autres détails pertinents d'une entreprise avant de conclure l'achat.
+
+Voici « pourquoi » ce processus existe comme étape distincte et volontaire : un vendeur présente, et c'est compréhensible, son entreprise sous son meilleur jour pendant les premières négociations — ça ne veut pas forcément dire qu'il y a tromperie, mais les vendeurs ne sont pas obligés de révéler d'eux-mêmes chaque élément défavorable, à moins qu'on le leur demande précisément ou que la loi l'exige. La vérification diligente sert à vérifier de façon indépendante les affirmations faites pendant les négociations et à mettre activement au jour des problèmes — dettes non divulguées, litiges en cours, risque de concentration de la clientèle (une leçon plus loin) ou incohérences dans les registres financiers — qui ne feraient pas forcément surface par la seule conversation.
+
+[VERIFIED FACT] La vérification diligente couvre couramment les registres financiers (pour vérifier les revenus et les dépenses déclarés), les questions juridiques (contrats, litiges en cours, conformité réglementaire), les détails d'exploitation (dépendance envers des employés clés, relations avec les fournisseurs) et tout autre domaine particulièrement pertinent pour l'entreprise acquise.
+
+## Exemple pratique
+
+[ILLUSTRATIVE EXAMPLE] Un acheteur qui négocie l'achat d'une entreprise se fait dire que la société a des revenus solides et stables, sans problème juridique important. Pendant la vérification diligente, un examen attentif des registres financiers révèle qu'une part importante des revenus récents provient d'un seul gros contrat avec un client, qui arrive bientôt à échéance et ne sera probablement pas renouvelé — une information qui n'avait pas été révélée d'elle-même pendant les premières conversations, mais qui touche de façon importante les vraies perspectives futures de l'entreprise. [ASSUMPTION] Ce constat, mis au jour précisément grâce au processus de vérification diligente, donne à l'acheteur une base pour renégocier le prix ou reconsidérer complètement la transaction, ce qui se relie à la discussion de la leçon 6 sur la façon dont les modalités non exécutoires d'une lettre d'intention permettent ce genre d'ajustement.
+
+## Quiz de pratique
+
+1. Qu'est-ce que la vérification diligente, et à quel moment a-t-elle habituellement lieu dans le processus d'acquisition?
+2. Pourquoi la vérification diligente existe-t-elle comme étape distincte et volontaire, plutôt que de se fier aux déclarations du vendeur?
+3. Nomme trois catégories d'information que couvre couramment la vérification diligente.
+
+## Corrigé
+
+1. Un examen structuré des détails financiers, juridiques et d'exploitation d'une entreprise, qui a lieu après la signature d'une lettre d'intention, mais avant la convention d'achat finale.
+2. Parce que les vendeurs présentent leur entreprise sous un jour favorable et ne sont pas forcément obligés de révéler chaque détail défavorable; la vérification diligente vérifie donc les affirmations de façon indépendante et met activement au jour des problèmes qui ne feraient pas surface autrement.
+3. Trois parmi les suivantes : les registres financiers, les questions juridiques (contrats, litiges, conformité), les détails d'exploitation (employés clés, relations avec les fournisseurs), ou d'autres facteurs propres à l'entreprise.
+
+## Réponses et explications
+
+1. C'est la définition de base et le moment de la leçon.
+2. C'est le « pourquoi » central qui explique la nécessité du processus.
+3. Ça vérifie la compréhension de la portée pratique d'une vérification diligente.
+
+## Points clés à retenir
+- La vérification diligente est un examen structuré qui a lieu après la lettre d'intention, avant la convention d'achat finale.
+- Elle sert à vérifier les affirmations de façon indépendante et à mettre au jour des problèmes qui ne feraient pas forcément surface pendant les négociations.
+- Elle couvre couramment les détails financiers, juridiques et d'exploitation propres à l'entreprise acquise.
+
+## Avis pédagogique
+Cette leçon sert uniquement à l'éducation financière générale et ne constitue pas un conseil financier, de placement, fiscal ou juridique personnalisé. Consulte des professionnels autorisés en comptabilité et en droit avant de conclure toute acquisition d'entreprise.

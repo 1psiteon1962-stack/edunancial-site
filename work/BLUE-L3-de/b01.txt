@@ -1,0 +1,183 @@
+===== BLUE-L3-001
+TITLE: Warum ein Verkäuferdarlehen über einen Unternehmenskauf entscheiden kann
+SUMMARY: Erfahre, warum die Finanzierung durch den Verkäufer oft darüber entscheidet, ob der Kauf eines kleinen Unternehmens überhaupt zustande kommt – und nicht nur ein Verhandlungsdetail ist.
+# BLUE-L3-001: Warum ein Verkäuferdarlehen über einen Unternehmenskauf entscheiden kann
+
+## Lernziele
+Am Ende dieser Lektion kannst du:
+- erklären, wie ein Verkäuferdarlehen (Vendor Loan) bei einem Unternehmenskauf funktioniert
+- erklären, warum es oft eine Lücke schließt, die klassische Kreditgeber nicht füllen
+- erklären, warum die Bereitschaft des Verkäufers zur Finanzierung etwas über sein Vertrauen in das Unternehmen aussagt
+
+## Hauptinhalt
+
+Dieser Track knüpft an ein Konzept aus dem RED-Track dieses Lehrplans an: die Verkäuferfinanzierung bei Immobilien, bei der der Verkäufer selbst als Kreditgeber auftritt. Beim Unternehmenskauf gilt dieselbe Grundstruktur – der Verkäufer finanziert einen Teil oder den gesamten Kaufpreis, und der Käufer zahlt ihn über einen bestimmten Zeitraum in Raten ab, statt alles sofort aus Eigenmitteln oder über ein klassisches Bankdarlehen zu bezahlen. Im deutschen Sprachgebrauch spricht man meist von einem **Verkäuferdarlehen** oder **Vendor Loan**.
+
+Hier das „Warum“, weshalb das oft darüber entscheidet, ob der Verkauf eines kleinen Unternehmens überhaupt stattfindet: Banken zögern häufig, den Kauf eines kleinen, inhabergeführten Unternehmens vollständig zu finanzieren, weil sich sein Wert schwerer unabhängig überprüfen lässt als der einer Immobilie (für die künftigen Kundenbeziehungen eines Betriebs oder für Abläufe, die vom Inhaber abhängen, gibt es kein Gegenstück zu einem Verkehrswertgutachten). Das Verkäuferdarlehen schließt diese Lücke, weil der Verkäufer die tatsächlichen Aussichten des Unternehmens besser kennt, als ein externer Kreditgeber sie ohne Weiteres ermitteln könnte.
+
+[VERIFIED FACT] Die Bereitschaft eines Verkäufers, einen Teil des Kaufpreises zu finanzieren, wird von Käufern – und manchmal auch von anderen am Geschäft beteiligten Kreditgebern – oft als Zeichen dafür gewertet, dass der Verkäufer selbst an die künftige Entwicklung des Unternehmens glaubt. Ein Verkäufer, der keinerlei fortlaufendes finanzielles Interesse am Ergebnis haben will, kann die berechtigte Frage aufwerfen, warum nicht.
+
+## Durchgerechnetes Beispiel
+
+[ILLUSTRATIVE EXAMPLE] Eine Käuferin möchte einen kleinen, profitablen Betrieb vor Ort übernehmen, doch die Bank ist nur bereit, 60 % des Kaufpreises zu finanzieren – mit Verweis auf begrenzte Sicherheiten und die Abhängigkeit des Betriebs von den Beziehungen des jetzigen Inhabers. Der Verkäufer erklärt sich bereit, die übrigen 40 % selbst zu finanzieren; sie sollen über fünf Jahre aus den künftigen Gewinnen des Betriebs zurückgezahlt werden. [ASSUMPTION] Dieser vom Verkäufer finanzierte Teil schließt nicht nur die Finanzierungslücke, sondern gibt der Käuferin auch eine gewisse Sicherheit: Da der Verkäufer sein Geld nur vollständig erhält, wenn der Betrieb weiter gut läuft, hat er einen direkten Anreiz, für eine reibungslose Übergabe zu sorgen.
+
+## Übungsquiz
+1. Wie funktioniert ein Verkäuferdarlehen bei einem Unternehmenskauf?
+2. Warum zögern klassische Kreditgeber oft, den Kauf eines kleinen Unternehmens vollständig zu finanzieren?
+3. Warum kann die Bereitschaft des Verkäufers, einen Teil zu finanzieren, für die Käuferseite ein positives Signal sein?
+
+## Lösungsschlüssel
+1. Der Verkäufer finanziert einen Teil oder den gesamten Kaufpreis, und der Käufer zahlt ihn über einen Zeitraum in Raten ab, statt alles sofort zu bezahlen.
+2. Weil sich der Wert eines kleinen Unternehmens – vor allem seine Abhängigkeit von Beziehungen, Ruf und der Mitarbeit des jetzigen Inhabers – schwerer unabhängig überprüfen lässt als der Wert eines greifbaren Vermögenswerts wie einer Immobilie.
+3. Weil sie darauf hindeutet, dass der Verkäufer der künftigen Entwicklung des Unternehmens vertraut, da seine eigene vollständige Bezahlung von dieser Entwicklung abhängt.
+
+## Antworten und Erklärungen
+1. Das ist die grundlegende Definition dieser Lektion, parallel zum Immobilienkonzept an anderer Stelle im Lehrplan.
+2. Das erklärt die konkrete Lücke, die ein Verkäuferdarlehen beim Unternehmenskauf schließt.
+3. Das vertieft das Argument der gleichgerichteten Interessen, das ein Verkäuferdarlehen über das bloße Schließen einer Finanzierungslücke hinaus attraktiv macht.
+
+## Das Wichtigste in Kürze
+- Beim Verkäuferdarlehen tritt der Verkäufer für einen Teil oder den gesamten Kaufpreis als Kreditgeber auf.
+- Es schließt oft eine Lücke, die Banken bei kleinen, inhabergeführten Unternehmen nur ungern füllen.
+- Die Bereitschaft des Verkäufers zur Finanzierung kann Vertrauen in das Unternehmen signalisieren und die Interessen auf eine reibungslose Übergabe ausrichten.
+
+## Hinweis zum Bildungszweck
+Diese Lektion dient ausschließlich der allgemeinen finanziellen Bildung und ist keine individuelle Finanz-, Anlage-, Steuer- oder Rechtsberatung. Lass dich vor dem Abschluss eines Unternehmenskaufvertrags von einer zugelassenen Fachperson beraten, etwa einer Rechtsanwältin, einem Steuerberater oder einer Notarin.
+
+===== BLUE-L3-002
+TITLE: Warum der Wert eines Unternehmens nicht der Wert seiner Vermögensgegenstände ist
+SUMMARY: Erfahre, warum ein Unternehmen oft mehr (oder weniger) wert ist als die Summe seiner Sachwerte und warum die Ertragskraft die meisten Bewertungen bestimmt.
+# BLUE-L3-002: Warum der Wert eines Unternehmens nicht der Wert seiner Vermögensgegenstände ist
+
+## Lernziele
+Am Ende dieser Lektion kannst du:
+- den Unterschied zwischen Substanzwert und Fortführungswert eines Unternehmens erklären
+- erklären, warum ein profitables Unternehmen in der Regel mehr wert ist als die Summe seiner Sachwerte
+- erklären, warum ein unprofitables Unternehmen womöglich nur etwa seinen Substanzwert wert ist
+
+## Hauptinhalt
+
+Es liegt nahe zu glauben, der Wert eines Unternehmens sei einfach die Summe dessen, was es besitzt: Maschinen, Vorräte, Bargeld, Grundstücke. Das nennt man **Substanzwert**, und er ist eine reale, berechenbare Größe – doch bei den meisten laufenden Unternehmen bestimmt er nicht in erster Linie, was ein Käufer tatsächlich zahlen würde.
+
+Hier das „Warum“, weshalb ein Unternehmen meist anders bewertet wird: Ein profitables, laufendes Unternehmen (man spricht vom **Fortführungswert** oder „Going Concern“) besitzt Ertragskraft – die Fähigkeit, auch künftig fortlaufend Gewinn zu erwirtschaften –, und diese hat einen Wert, der weit über das hinausgeht, was die Sachwerte allein beim Einzelverkauf einbringen würden. Ein Käufer erwirbt in der Regel diese künftige Ertragskraft und nicht vor allem die Maschinen. In Deutschland spiegelt sich das in verbreiteten Bewertungsmethoden wie dem Ertragswertverfahren wider, das vom künftig erwarteten Ertrag ausgeht.
+
+[VERIFIED FACT] Dieser Zusammenhang kann auch in die andere Richtung wirken: Ein Unternehmen, das nicht profitabel ist oder eine unsichere Zukunft hat, wird womöglich nur nahe seinem Liquidations- oder Substanzwert bewertet, weil ein Käufer für unsichere oder negative künftige Ertragskraft kaum etwas zahlen will – in manchen Fällen sind die Vermögensgegenstände eines unprofitablen Unternehmens einzeln verkauft sogar mehr wert als das Unternehmen als laufender Betrieb.
+
+## Durchgerechnetes Beispiel
+
+[ILLUSTRATIVE EXAMPLE] Unternehmen A besitzt Maschinen und Vorräte im Wert von 200.000 €, erwirtschaftet aber einen hohen, stabilen Jahresgewinn. Ein Käufer könnte vernünftigerweise deutlich mehr als 200.000 € zahlen, weil er vor allem die nachgewiesene, fortlaufende Ertragskraft des Unternehmens kauft und nicht nur die Gegenstände. Unternehmen B besitzt dieselben Maschinen und Vorräte im Wert von 200.000 €, macht aber seit Längerem Verluste, ohne klaren Weg zurück in die Gewinnzone. [ASSUMPTION] Ein Käufer für Unternehmen B wäre womöglich nur bereit, etwa den Substanzwert von 200.000 € zu zahlen – nach Abzug etwaiger Verbindlichkeiten sogar weniger –, weil der laufende Betrieb keine Ertragskraft zeigt, für die sich ein zusätzlicher Aufschlag lohnen würde.
+
+## Übungsquiz
+1. Was ist der Substanzwert im Sinne dieser Lektion?
+2. Warum ist ein profitables Unternehmen in der Regel mehr wert als die Summe seiner Sachwerte?
+3. Warum wird ein unprofitables Unternehmen womöglich nur etwa mit seinem Substanzwert bewertet?
+
+## Lösungsschlüssel
+1. Der Wert dessen, was ein Unternehmen besitzt – Maschinen, Vorräte, Bargeld, Grundstücke –, unabhängig vom laufenden Betrieb berechnet.
+2. Weil ein Käufer vor allem die künftige Ertragskraft des Unternehmens erwirbt, die einen Wert über die dafür eingesetzten Sachwerte hinaus hat.
+3. Weil unsichere oder negative künftige Ertragskraft einem Käufer kaum einen Grund gibt, mehr zu zahlen, als die Sachwerte selbst wert wären.
+
+## Antworten und Erklärungen
+1. Das ist die grundlegende Definition, die dem Fortführungswert gegenübergestellt wird.
+2. Das ist das zentrale „Warum“ hinter den meisten Unternehmensbewertungen.
+3. Das zeigt das Konzept in umgekehrter Richtung und unterstreicht, dass in der Regel die Ertragskraft – nicht der Besitz von Vermögensgegenständen – den Wert bestimmt.
+
+## Das Wichtigste in Kürze
+- Der Substanzwert spiegelt wider, was ein Unternehmen besitzt; der Fortführungswert spiegelt seine Ertragskraft als laufender Betrieb wider.
+- Ein profitables Unternehmen wird in der Regel deutlich über seinem Substanzwert bewertet, weil Käufer für künftige Ertragskraft zahlen.
+- Ein unprofitables oder unsicheres Unternehmen wird womöglich nur nahe seinem Substanzwert oder sogar darunter bewertet.
+
+## Hinweis zum Bildungszweck
+Diese Lektion dient ausschließlich der allgemeinen finanziellen Bildung und ist keine individuelle Finanz-, Anlage-, Steuer- oder Rechtsberatung. Alle Zahlen sind veranschaulichende Schätzungen und keine Garantien. Lass dich vor Entscheidungen zur Unternehmensbewertung von einer zugelassenen Fachperson beraten, etwa einem Steuerberater oder einer Wirtschaftsprüferin.
+
+===== BLUE-L3-003
+TITLE: Warum das EBITDA die gemeinsame Sprache der Unternehmensbewertung ist
+SUMMARY: Erfahre, was das EBITDA misst, warum es als einheitlicher Vergleichsmaßstab zwischen Unternehmen dient und was es bewusst weglässt.
+# BLUE-L3-003: Warum das EBITDA die gemeinsame Sprache der Unternehmensbewertung ist
+
+## Lernziele
+Am Ende dieser Lektion kannst du:
+- das EBITDA definieren und erklären, wofür jeder Buchstabe steht
+- erklären, warum das EBITDA als einheitlicher Vergleichsmaßstab zwischen verschiedenen Unternehmen dient
+- erklären, was das EBITDA bewusst ausklammert und warum das wichtig ist
+
+## Hauptinhalt
+
+**EBITDA** steht für „Earnings Before Interest, Taxes, Depreciation, and Amortization“ – auf Deutsch: Ergebnis vor Zinsen, Steuern und Abschreibungen auf Sachanlagen und immaterielle Vermögenswerte. Es ist eine verbreitete Kennzahl für die operative Ertragskraft eines Unternehmens. Man berechnet sie, indem man vom Jahresüberschuss ausgeht und Zinsaufwand, Steueraufwand sowie Abschreibungen wieder hinzurechnet.
+
+Hier das „Warum“, weshalb gerade diese Kombination für den Vergleich von Unternehmen nützlich ist: Der Zinsaufwand hängt davon ab, wie ein bestimmtes Unternehmen gerade finanziert ist (seine Verschuldungsstruktur); der Steueraufwand kann je nach Rechtsform und steuerlicher Situation stark schwanken – in Deutschland etwa zwischen einem Einzelunternehmen, das der Einkommensteuer unterliegt, und einer GmbH mit Körperschaft- und Gewerbesteuer –; und Abschreibungen sind Buchungen, denen kein tatsächlicher Geldabfluss im selben Jahr gegenübersteht (wie bereits im RED-Track dieses Lehrplans besprochen). Durch das Hinzurechnen versucht das EBITDA, Faktoren herauszurechnen, die von Finanzierungs- und Bilanzierungsentscheidungen abhängen, und eine Zahl übrig zu lassen, die die eigentliche, vergleichbare operative Leistung besser abbildet.
+
+[VERIFIED FACT] Genau deshalb wird das EBITDA häufig als Grundlage für Bewertungsmultiplikatoren verwendet (ein Thema einer späteren Lektion): Es ermöglicht Käufern, Unternehmen mit unterschiedlicher Kapitalstruktur und steuerlicher Lage auf einer einheitlicheren Basis zu vergleichen – obwohl das EBITDA selbst bewusst reale Kosten ausklammert, etwa Zinsen auf tatsächlich bestehende Schulden und künftige Investitionen in das Anlagevermögen, die jeder echte Käufer gesondert berücksichtigen muss.
+
+## Durchgerechnetes Beispiel
+
+[ILLUSTRATIVE EXAMPLE] Zwei ähnliche Unternehmen erzielen dieselbe zugrunde liegende operative Leistung, doch Unternehmen A hat erhebliche Schulden aufgenommen (mit spürbarem Zinsaufwand), während Unternehmen B schuldenfrei ist. Ein Vergleich nur des Jahresüberschusses ließe Unternehmen B profitabler aussehen – allein wegen der unterschiedlichen Finanzierung. Vergleicht man stattdessen das EBITDA – rechnet also den Zinsaufwand von Unternehmen A wieder hinzu –, zeigt sich, dass ihre operative Leistung tatsächlich recht ähnlich ist. So lassen sich beide Unternehmen unabhängig davon vergleichen, wie sie gerade finanziert sind.
+
+## Übungsquiz
+1. Wofür steht EBITDA?
+2. Warum rechnet das EBITDA Zinsen, Steuern und Abschreibungen wieder hinzu?
+3. Was lässt das EBITDA bewusst weg, das ein echter Käufer trotzdem berücksichtigen muss?
+
+## Lösungsschlüssel
+1. Earnings Before Interest, Taxes, Depreciation, and Amortization – Ergebnis vor Zinsen, Steuern und Abschreibungen.
+2. Um Faktoren herauszurechnen, die von der Finanzierungsstruktur, der steuerlichen Lage und den Bilanzierungsentscheidungen eines bestimmten Unternehmens abhängen, und so eine vergleichbarere Kennzahl für die operative Leistung zu erhalten.
+3. Die tatsächlichen Zinskosten für Schulden, die der Käufer übernimmt oder aufnimmt, und die künftigen realen Investitionen, die nötig sind, um das Unternehmen zu erhalten oder auszubauen – beides reale Kosten, die in der EBITDA-Zahl selbst nicht enthalten sind.
+
+## Antworten und Erklärungen
+1. Das ist die grundlegende Definition dieser Lektion.
+2. Das ist das zentrale „Warum“, das den Nutzen des EBITDA als Vergleichsmaßstab erklärt.
+3. Das ist eine wichtige Warnung davor, das EBITDA als vollständiges Bild der tatsächlichen Zahlungsströme eines Unternehmens zu behandeln.
+
+## Das Wichtigste in Kürze
+- Das EBITDA rechnet Zinsen, Steuern und Abschreibungen zum Jahresüberschuss hinzu und soll so die operative Kernleistung abbilden.
+- Dadurch eignet es sich, Unternehmen mit unterschiedlicher Finanzierungsstruktur und steuerlicher Lage einheitlich zu vergleichen.
+- Das EBITDA klammert bewusst reale Kosten wie tatsächliche Zinsen und Investitionen aus, die ein Käufer gesondert berücksichtigen muss.
+
+## Hinweis zum Bildungszweck
+Diese Lektion dient ausschließlich der allgemeinen finanziellen Bildung und ist keine individuelle Finanz-, Anlage-, Steuer- oder Rechtsberatung. Lass dich vor Entscheidungen zur Unternehmensbewertung von einer zugelassenen Fachperson beraten, etwa einem Steuerberater oder einer Wirtschaftsprüferin.
+
+===== BLUE-L3-004
+TITLE: Warum Asset Deal und Share Deal grundverschiedene Geschäfte sind
+SUMMARY: Erfahre den Unterschied zwischen dem Kauf der Vermögensgegenstände eines Unternehmens und dem Kauf seiner Anteile – und warum Käufer und Verkäufer oft die jeweils andere Variante bevorzugen.
+# BLUE-L3-004: Warum Asset Deal und Share Deal grundverschiedene Geschäfte sind
+
+## Lernziele
+Am Ende dieser Lektion kannst du:
+- den strukturellen Unterschied zwischen einem Asset Deal und einem Share Deal erklären
+- erklären, warum Käufer oft einen Asset Deal bevorzugen
+- erklären, warum Verkäufer oft einen Share Deal bevorzugen
+
+## Hauptinhalt
+
+Wer ein Unternehmen übernehmen will, das etwa als GmbH organisiert ist, hat grundsätzlich zwei Strukturen zur Wahl: einen **Asset Deal**, bei dem der Käufer bestimmte Vermögensgegenstände (und manchmal bestimmte Verbindlichkeiten) des Unternehmens direkt erwirbt, oder einen **Share Deal**, bei dem der Käufer die Geschäftsanteile der Gesellschaft selbst erwirbt und damit die gesamte Gesellschaft übernimmt – Vermögen, Verbindlichkeiten, Verträge und Geschichte – so, wie sie besteht. Die Übertragung von GmbH-Geschäftsanteilen muss in Deutschland notariell beurkundet werden.
+
+Hier das „Warum“, weshalb Käufer und Verkäufer oft gegensätzliche Strukturen bevorzugen: Beim Asset Deal kann der Käufer in der Regel auswählen, welche Vermögensgegenstände und Verbindlichkeiten er übernimmt, und so unbekannte oder unerwünschte Verbindlichkeiten der Gesellschaft weitgehend vermeiden (etwa noch nicht offengelegte Rechtsstreitigkeiten) – ein Hauptgrund, warum Käufer diese Struktur oft bevorzugen. Beim Share Deal überträgt der Verkäufer die gesamte Gesellschaft mit allen bekannten und unbekannten Verbindlichkeiten, weshalb Verkäufer diese Struktur oft bevorzugen: Sie ermöglicht einen saubereren, vollständigeren Ausstieg aus allen Aspekten des Unternehmens.
+
+[VERIFIED FACT] Auch beim Asset Deal lassen sich in Deutschland nicht alle Pflichten abstreifen: Nach § 613a BGB gehen die Arbeitsverhältnisse bei einem Betriebsübergang grundsätzlich mit allen Rechten und Pflichten auf den Erwerber über; bei Fortführung des Handelsgeschäfts unter der bisherigen Firma kann der Erwerber nach § 25 HGB für frühere Geschäftsverbindlichkeiten haften; und nach § 75 AO kann der Erwerber eines Unternehmens unter bestimmten Voraussetzungen für betriebliche Steuern haften. Zudem unterscheidet sich die steuerliche Behandlung beider Strukturen für Käufer und Verkäufer oft erheblich – die konkreten Folgen hängen von den Umständen ab und sollten für jede tatsächliche Transaktion fachkundig geprüft werden.
+
+## Durchgerechnetes Beispiel
+
+[ILLUSTRATIVE EXAMPLE] Ein Käufer möchte einen Fertigungsbetrieb übernehmen, befürchtet aber nicht offengelegte Umweltaltlasten aus der Vergangenheit der Gesellschaft. Ein Asset Deal würde es ihm ermöglichen, gezielt die gewünschten Maschinen, Vorräte und Kundenverträge zu erwerben, ohne automatisch unbekannte Verbindlichkeiten der Gesellschaft selbst zu übernehmen – die Belegschaft ginge nach deutschem Recht allerdings grundsätzlich trotzdem mit über. Der Verkäufer könnte dagegen gerade einen Share Deal bevorzugen, um einen vollständigen, sauberen Ausstieg aus dem Unternehmen zu erreichen, einschließlich der Verbindlichkeiten, die ihm beim Asset Deal sonst verbleiben würden.
+
+## Übungsquiz
+1. Was ist der strukturelle Unterschied zwischen einem Asset Deal und einem Share Deal?
+2. Warum bevorzugen Käufer oft einen Asset Deal?
+3. Warum bevorzugen Verkäufer oft einen Share Deal?
+
+## Lösungsschlüssel
+1. Beim Asset Deal werden bestimmte Vermögensgegenstände (und manchmal Verbindlichkeiten) direkt erworben; beim Share Deal werden die Anteile an der gesamten Gesellschaft erworben, einschließlich aller Vermögensgegenstände, Verbindlichkeiten, Verträge und ihrer Geschichte.
+2. Weil sie dabei in der Regel auswählen können, welche Vermögensgegenstände und Verbindlichkeiten sie übernehmen, und so unbekannte oder unerwünschte Verbindlichkeiten der Gesellschaft weitgehend vermeiden.
+3. Weil er einen saubereren, vollständigeren Ausstieg aus dem gesamten Unternehmen einschließlich der Verbindlichkeiten ermöglicht, statt unerwünschte Verbindlichkeiten beim Verkäufer zurückzulassen.
+
+## Antworten und Erklärungen
+1. Das ist die grundlegende strukturelle Unterscheidung dieser Lektion.
+2. Das erklärt den typischen Anreiz des Käufers, der mit dem Haftungsrisiko zusammenhängt.
+3. Das erklärt den typischen, entgegengesetzten Anreiz des Verkäufers.
+
+## Das Wichtigste in Kürze
+- Beim Asset Deal werden bestimmte Vermögensgegenstände direkt erworben; beim Share Deal die gesamte Gesellschaft einschließlich aller Verbindlichkeiten.
+- Käufer bevorzugen oft den Asset Deal, um unbekannte oder unerwünschte Verbindlichkeiten zu vermeiden.
+- Verkäufer bevorzugen oft den Share Deal für einen saubereren, vollständigeren Ausstieg einschließlich aller Verbindlichkeiten.
+
+## Hinweis zum Bildungszweck
+Diese Lektion dient ausschließlich der allgemeinen finanziellen Bildung und ist keine individuelle Finanz-, Anlage-, Steuer- oder Rechtsberatung. Lass dich vor der Gestaltung eines Unternehmenskaufs von einer Rechtsanwältin oder einem Rechtsanwalt und einer Steuerberaterin oder einem Steuerberater beraten.

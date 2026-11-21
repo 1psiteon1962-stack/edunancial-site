@@ -1,0 +1,185 @@
+===== WHITE-L3-037
+TITLE: Warum gezielte Verlustrealisierung einen Verlust in einen künftigen Vorteil verwandelt
+SUMMARY: Erfahre, wie die gezielte Realisierung von Verlusten (Tax-Loss Harvesting) funktioniert, warum sie einen nicht realisierten Verlust in einen nutzbaren Steuervorteil verwandelt und warum dabei Sorgfalt nötig ist.
+# WHITE-L3-037: Warum gezielte Verlustrealisierung einen Verlust in einen künftigen Vorteil verwandelt
+
+## Lernziele
+Am Ende dieser Lektion kannst du:
+- das allgemeine Konzept der gezielten Verlustrealisierung (Tax-Loss Harvesting) erklären
+- erklären, warum man einen Verlust durch einen Verkauf „realisieren“ muss, um ihn steuerlich zu nutzen
+- erklären, warum diese Strategie das Verständnis einer Regel erfordert, die in der nächsten Lektion behandelt wird
+
+## Hauptinhalt
+
+**Gezielte Verlustrealisierung** (englisch Tax-Loss Harvesting) ist eine allgemeine Strategie: Man verkauft bewusst eine Anlage, die an Wert verloren hat, um den Verlust zu „realisieren“ – er wird dadurch zu einem tatsächlichen, steuerlich erfassten Verlust statt nur zu einem nicht realisierten Buchverlust. Dieser Verlust kann dann möglicherweise mit steuerpflichtigen Gewinnen an anderer Stelle im Portfolio verrechnet werden, je nach den Steuerregeln, die im jeweiligen Land gelten. In Deutschland führen die Banken dafür automatisch sogenannte Verlustverrechnungstöpfe; Verluste aus Aktienverkäufen dürfen dabei nur mit Gewinnen aus Aktienverkäufen verrechnet werden.
+
+Hier das „Warum“, weshalb dafür ein tatsächlicher Verkauf nötig ist: Solange eine Anlage einfach mit einem niedrigeren Wert als ihrem Kaufpreis gehalten wird, gilt das im Allgemeinen als nicht realisierter Verlust – er existiert auf dem Papier, ist aber noch nicht durch eine Transaktion „festgeschrieben“, und in vielen Steuersystemen kann nur ein realisierter Verlust steuerlich genutzt werden. Der Verkauf der Position verwandelt diesen Buchverlust in einen realisierten Verlust.
+
+[VERIFIED FACT] Weil viele Anlegerinnen und Anleger ihr Marktengagement oder ihre Anlagestrategie beibehalten möchten, auch während sie einen Verlust realisieren, legen sie den Erlös oft sofort in einer ähnlichen (aber nicht identischen) Anlage wieder an – das führt zu einer wichtigen Regel, die in der nächsten Lektion behandelt wird: In manchen Ländern ist begrenzt, wie schnell man eine im Wesentlichen identische Anlage zurückkaufen und den steuerlichen Verlust trotzdem geltend machen kann.
+
+## Durchgerechnetes Beispiel
+
+[ILLUSTRATIVE EXAMPLE] Eine Anlegerin hält einen Fonds, der seit dem Kauf deutlich an Wert verloren hat. Statt ihn einfach weiter zu halten, verkauft sie die Position, realisiert den Verlust steuerlich und legt den Erlös in einem ähnlichen, aber nicht identischen Fonds an, um ungefähr dasselbe Marktengagement zu behalten. [ASSUMPTION] Der realisierte Verlust kann – je nach den geltenden Steuerregeln – möglicherweise mit anderen steuerpflichtigen Gewinnen verrechnet werden, die sie in diesem Jahr an anderer Stelle in ihrem Portfolio erzielt hat. So wird aus einem scheinbar rein negativen Ergebnis zumindest ein teilweiser, praktischer Steuervorteil.
+
+## Übungsquiz
+1. Was ist gezielte Verlustrealisierung im Allgemeinen?
+2. Warum entsteht in vielen Steuersystemen durch das bloße Halten einer im Wert gefallenen Anlage kein nutzbarer steuerlicher Verlust?
+3. Warum legt eine Anlegerin den Erlös nach der Verlustrealisierung womöglich in einer ähnlichen, aber nicht identischen Anlage an?
+
+## Lösungsschlüssel
+1. Eine im Wert gefallene Anlage bewusst zu verkaufen, um den Verlust steuerlich zu realisieren und möglicherweise mit steuerpflichtigen Gewinnen an anderer Stelle zu verrechnen, je nach den geltenden Regeln.
+2. Weil ein nicht realisierter (Buch-)Verlust noch nicht durch eine tatsächliche Transaktion „festgeschrieben“ ist und viele Steuersysteme verlangen, dass ein Verlust durch einen Verkauf realisiert wird, bevor er genutzt werden kann.
+3. Um ungefähr dasselbe Marktengagement oder dieselbe Anlagestrategie zu behalten und den steuerlichen Verlust trotzdem zu realisieren, statt einfach Bargeld zu halten oder diesen Teil des Markts ganz zu verlassen.
+
+## Antworten und Erklärungen
+1. Das ist die grundlegende Definition der Lektion.
+2. Das erklärt den mechanischen Grund, warum ein Verkauf nötig ist – ein Schlüsselkonzept für das Verständnis der Strategie.
+3. Das erklärt den praktischen Grund, warum Anleger meist schnell wieder anlegen, und führt zu der Einschränkung, die in der nächsten Lektion behandelt wird.
+
+## Das Wichtigste in Kürze
+- Gezielte Verlustrealisierung realisiert bewusst einen Verlust durch einen Verkauf, um ihn möglicherweise mit anderen steuerpflichtigen Gewinnen zu verrechnen, je nach den geltenden Steuerregeln.
+- In vielen Steuersystemen kann in der Regel nur ein realisierter Verlust steuerlich genutzt werden, kein nicht realisierter Buchverlust.
+- Anleger legen oft in einer ähnlichen Anlage wieder an, um ihr Marktengagement zu behalten – was zu einer wichtigen Regel zum Zeitpunkt führt, die als Nächstes behandelt wird.
+
+## Hinweis zum Bildungszweck
+Diese Lektion dient ausschließlich der allgemeinen finanziellen Bildung und ist keine individuelle Finanz-, Anlage-, Steuer- oder Rechtsberatung. Steuerregeln unterscheiden sich stark je nach Land; wende dich vor der Umsetzung einer Steuerstrategie an eine Steuerberatung.
+
+===== WHITE-L3-038
+TITLE: Warum Wash-Sale-Regeln die gezielte Verlustrealisierung begrenzen können
+SUMMARY: Erfahre, was ein „Wash Sale“ ist, warum es solche Regeln gibt und wie sie die gezielte Verlustrealisierung direkt einschränken können – und wie die Lage in Deutschland ist.
+# WHITE-L3-038: Warum Wash-Sale-Regeln die gezielte Verlustrealisierung begrenzen können
+
+## Lernziele
+Am Ende dieser Lektion kannst du:
+- das allgemeine Konzept hinter einer Wash-Sale-Regel erklären
+- erklären, warum es solche Regeln gibt
+- erklären, wie eine solche Regel die Strategie der gezielten Verlustrealisierung aus Lektion 37 direkt einschränkt
+
+## Hauptinhalt
+
+Lektion 37 hat erklärt, dass Anlegerinnen und Anleger nach einer gezielten Verlustrealisierung oft schnell wieder anlegen möchten, um ihr Marktengagement zu behalten. Viele Steuersysteme – am bekanntesten die USA – enthalten eine Regel, die oft Wash-Sale-Regel genannt wird und gezielt verhindern soll, dass eine bestimmte Form der Verlustrealisierung missbraucht wird.
+
+Hier das „Warum“, weshalb es eine solche Regel gibt: Ohne sie könnte man eine Anlage allein deshalb verkaufen, um einen steuerlichen Verlust zu realisieren, und sofort genau dieselbe (oder eine im Wesentlichen identische) Anlage zurückkaufen – man hielte also faktisch genau dieselbe Position und würde trotzdem einen Steuervorteil geltend machen. Viele Steuerbehörden sehen darin einen Missbrauch des Konzepts der Verlustrealisierung statt einer echten Veränderung der Anlageposition.
+
+[VERIFIED FACT] Die konkrete Ausgestaltung einer Wash-Sale-Regel – darunter das genaue Zeitfenster, in dem der Rückkauf derselben oder einer im Wesentlichen identischen Anlage den Verlust ausschließt, und die Definition von „im Wesentlichen identisch“ – unterscheidet sich je nach Land und ist im jeweiligen Steuerrecht festgelegt. Hier kommt es daher auf aktuelle, landesspezifische Informationen an statt auf allgemeine Annahmen. Deutschland kennt nach verbreiteter Auffassung keine Wash-Sale-Regel nach US-Vorbild; ob ein Verkauf mit sofortigem Rückkauf im Einzelfall steuerlich anerkannt wird, sollte man trotzdem mit einer Steuerberatung klären.
+
+Deshalb wird bei der gezielten Verlustrealisierung aus Lektion 37 in Ländern mit einer solchen Regel der Erlös meist in eine wirklich andere (wenn auch in Strategie oder Marktengagement ähnliche) Anlage investiert statt in genau dieselbe – so hält man die Regel ein und behält trotzdem eine vergleichbare Marktposition.
+
+## Durchgerechnetes Beispiel
+
+[ILLUSTRATIVE EXAMPLE] Eine Anlegerin verkauft einen Fonds mit Verlust, um den Steuervorteil zu nutzen, und kauft genau denselben Fonds am nächsten Tag zurück, in der Absicht, den Verlust in ihrer Steuererklärung geltend zu machen. [ASSUMPTION] Schließt eine Wash-Sale-Regel in ihrem Land Verluste aus, wenn dieselben oder im Wesentlichen identische Wertpapiere innerhalb eines bestimmten Zeitfensters zurückgekauft werden, bringt diese Transaktion womöglich nicht den gewünschten Steuervorteil – der Verlust könnte nach dieser Regel nicht anerkannt werden, obwohl sie ihn nutzen wollte. Der Kauf eines wirklich anderen, aber ähnlich ausgerichteten Fonds würde dieses konkrete Problem in der Regel vermeiden, je nach den geltenden Regeln.
+
+## Übungsquiz
+1. Was soll eine Wash-Sale-Regel im Allgemeinen verhindern?
+2. Warum gibt es eine solche Regel laut dieser Lektion?
+3. Wie prägt eine solche Regel, wie die gezielte Verlustrealisierung in der Praxis meist umgesetzt wird?
+
+## Lösungsschlüssel
+1. Dass man eine Anlage allein verkauft, um einen steuerlichen Verlust zu realisieren, und dann sofort dieselbe oder eine im Wesentlichen identische Anlage zurückkauft, während man den Steuervorteil trotzdem geltend macht.
+2. Weil man damit faktisch genau dieselbe Anlageposition behalten und trotzdem einen Verlust geltend machen würde, was viele Steuerbehörden als Missbrauch des Konzepts der Verlustrealisierung ansehen.
+3. In Ländern mit einer solchen Regel legen Anleger den Erlös meist in einer wirklich anderen, aber ähnlich ausgerichteten Anlage an statt in genau derselben, um die Regel einzuhalten und ein vergleichbares Marktengagement zu behalten.
+
+## Antworten und Erklärungen
+1. Das ist das grundlegende Konzept hinter dieser Art von Regel.
+2. Das erklärt die steuerpolitische Begründung für die Existenz der Regel.
+3. Das knüpft direkt an die praktische Strategie aus Lektion 37 an und zeigt, wie beide Konzepte zusammenwirken.
+
+## Das Wichtigste in Kürze
+- Eine Wash-Sale-Regel schließt einen steuerlichen Verlust im Allgemeinen aus, wenn dieselbe oder eine im Wesentlichen identische Anlage innerhalb eines bestimmten Zeitfensters zurückgekauft wird.
+- Solche Regeln sollen verhindern, dass man einen Verlust geltend macht und faktisch genau dieselbe Anlageposition behält.
+- Die konkrete Ausgestaltung unterscheidet sich stark je nach Land – Deutschland kennt keine Regel nach US-Vorbild –, deshalb ist aktuelle, fachkundige Beratung hier besonders wichtig.
+
+## Hinweis zum Bildungszweck
+Diese Lektion dient ausschließlich der allgemeinen finanziellen Bildung und ist keine individuelle Finanz-, Anlage-, Steuer- oder Rechtsberatung. Steuerregeln unterscheiden sich stark je nach Land; wende dich vor der Umsetzung einer Steuerstrategie an eine Steuerberatung.
+
+===== WHITE-L3-039
+TITLE: Warum Veräußerungsgewinne je nach Haltedauer unterschiedlich besteuert werden können
+SUMMARY: Erfahre, warum es in manchen Steuersystemen für die Besteuerung eines Gewinns eine Rolle spielt, wie lange du eine Anlage vor dem Verkauf hältst – und wie das in Deutschland geregelt ist.
+# WHITE-L3-039: Warum Veräußerungsgewinne je nach Haltedauer unterschiedlich besteuert werden können
+
+## Lernziele
+Am Ende dieser Lektion kannst du:
+- das allgemeine Konzept einer von der Haltedauer abhängigen Besteuerung von Veräußerungsgewinnen erklären
+- erklären, warum viele Steuersysteme kürzere und längere Haltedauern unterschiedlich behandeln
+- erklären, warum das einen echten, beabsichtigten Anreiz für den Zeitpunkt einer Anlageentscheidung schafft
+
+## Hauptinhalt
+
+Viele Steuersysteme unterscheiden zwischen Gewinnen aus Anlagen, die vor dem Verkauf kürzer, und solchen, die länger gehalten wurden, und wenden auf beide Kategorien oft unterschiedliche Steuersätze an. [VERIFIED FACT] Die konkreten Haltefristen und Steuersätze unterscheiden sich stark je nach Land und sind im jeweiligen Steuerrecht festgelegt – es ist hilfreich, das Konzept allgemein zu kennen, die genauen Zahlen sollte man aber für die konkrete Situation und das eigene Land prüfen. In Deutschland unterliegen Kursgewinne aus Aktien, Anleihen und Fonds seit 2009 unabhängig von der Haltedauer der Abgeltungsteuer; Haltefristen spielen hier vor allem bei privaten Veräußerungsgeschäften eine Rolle, etwa bei vermieteten Immobilien (zehn Jahre) oder bei physischem Gold und Kryptowerten (ein Jahr).
+
+Hier das „Warum“, weshalb es diese Unterscheidung in vielen Ländern gibt: Viele Steuersysteme sollen zumindest teilweise das langfristige Halten von Anlagen gegenüber häufigem kurzfristigem Handel fördern – oft, indem Gewinne aus kürzer gehaltenen Anlagen höher besteuert werden als Gewinne aus länger gehaltenen.
+
+Wo es eine solche Regel gibt, entsteht ein echter, beabsichtigter Anreiz, den man verstehen sollte: Wer überlegt, eine Anlage zu verkaufen, die kurz vor einer maßgeblichen Haltefrist steht, kann den möglichen Steuerunterschied vernünftigerweise in die Entscheidung über den Zeitpunkt einbeziehen – nicht als einzigen Gesichtspunkt, sondern als einen relevanten Faktor neben den Aussichten der Anlage selbst und den eigenen übergeordneten Zielen.
+
+## Durchgerechnetes Beispiel
+
+[ILLUSTRATIVE EXAMPLE] Eine Anlegerin in einem Land mit haltedauerabhängiger Besteuerung (etwa den USA) überlegt, eine Anlage zu verkaufen, die deutlich an Wert gewonnen hat, und steht kurz vor einer längeren Haltefrist, nach der auf den Gewinn ein günstigerer Steuersatz anfallen würde. [ASSUMPTION] Haben sich ihre Aussichten für die Position nicht wesentlich verändert, könnte es zu einer niedrigeren Gesamtsteuer auf den späteren Verkauf führen, noch kurz zu warten, bis die Frist überschritten ist – das sollte sie aber gegen ihre tatsächliche Einschätzung der kurzfristigen Aussichten und des Risikos der Anlage abwägen, statt es diese Überlegungen automatisch übertrumpfen zu lassen.
+
+## Übungsquiz
+1. Welche allgemeine Unterscheidung treffen viele Steuersysteme bei Veräußerungsgewinnen?
+2. Warum wenden viele Steuersysteme laut dieser Lektion eine solche Unterscheidung an?
+3. Wie könnte diese Unterscheidung vernünftigerweise in die Entscheidung einer Anlegerin über den Zeitpunkt einfließen?
+
+## Lösungsschlüssel
+1. Eine Unterscheidung zwischen Gewinnen aus kürzer und aus länger gehaltenen Anlagen, die oft mit unterschiedlichen Sätzen besteuert werden.
+2. Um das langfristige Halten von Anlagen gegenüber häufigem kurzfristigem Handel zu fördern, oft durch einen höheren Steuersatz auf Gewinne aus kürzer gehaltenen Anlagen.
+3. Eine Anlegerin kurz vor einer längeren Haltefrist kann den möglichen Steuervorteil des Wartens vernünftigerweise als einen relevanten Faktor neben den Aussichten der Anlage und ihren übergeordneten Zielen berücksichtigen – nicht als allein entscheidenden Faktor.
+
+## Antworten und Erklärungen
+1. Das ist die allgemeine gedankliche Grundlage der Lektion, mit dem gebotenen Hinweis auf Unterschiede zwischen Ländern.
+2. Das erklärt die oft genannte steuerpolitische Begründung für eine solche Unterscheidung.
+3. Das wendet das Konzept praktisch an und warnt zugleich davor, steuerliche Überlegungen ein vernünftiges Anlageurteil vollständig übertrumpfen zu lassen.
+
+## Das Wichtigste in Kürze
+- Viele Steuersysteme wenden je nach Haltedauer vor dem Verkauf unterschiedliche Sätze auf Gewinne an; in Deutschland gilt für Wertpapiergewinne seit 2009 dagegen unabhängig von der Haltedauer die Abgeltungsteuer.
+- Wo es diese Unterscheidung gibt, soll sie oft das langfristige Halten gegenüber häufigem kurzfristigem Handel fördern.
+- Die Haltedauer kann vernünftigerweise in eine Verkaufsentscheidung einfließen, sollte aber zusammen mit den Aussichten der Anlage abgewogen werden und sie nicht automatisch übertrumpfen.
+
+## Hinweis zum Bildungszweck
+Diese Lektion dient ausschließlich der allgemeinen finanziellen Bildung und ist keine individuelle Finanz-, Anlage-, Steuer- oder Rechtsberatung. Steuerregeln unterscheiden sich stark je nach Land; wende dich für Fragen zu deiner persönlichen Situation an eine Steuerberatung.
+
+===== WHITE-L3-040
+TITLE: Warum die Anschaffungskosten deinen tatsächlichen steuerpflichtigen Gewinn bestimmen
+SUMMARY: Erfahre, was Anschaffungskosten (englisch Cost Basis) bedeuten, warum sie nicht immer einfach der ursprüngliche Kaufpreis sind und warum es wichtig ist, sie genau zu erfassen.
+# WHITE-L3-040: Warum die Anschaffungskosten deinen tatsächlichen steuerpflichtigen Gewinn bestimmen
+
+## Lernziele
+Am Ende dieser Lektion kannst du:
+- Anschaffungskosten (Cost Basis) definieren
+- erklären, warum Anschaffungskosten komplizierter sein können als der ursprüngliche Kaufpreis allein
+- erklären, warum eine genaue Erfassung der Anschaffungskosten die Berechnung des steuerpflichtigen Gewinns direkt beeinflusst
+
+## Hauptinhalt
+
+Die **Anschaffungskosten** (englisch Cost Basis) sind im Allgemeinen der ursprüngliche Wert, anhand dessen beim späteren Verkauf einer Anlage ein steuerpflichtiger Gewinn oder Verlust ermittelt wird – in der einfachsten Form der Kaufpreis. Hier das „Warum“, weshalb es oft komplizierter ist als diese einfache Beschreibung: Die Anschaffungskosten können sich während der Haltedauer durch mehrere Faktoren verändern, darunter wiederangelegte Dividenden (Lektion 17), mit denen zusätzliche Anteile gekauft wurden – denn jede Wiederanlage begründet in der Regel eigene Anschaffungskosten zum Preis dieses Kaufs.
+
+[VERIFIED FACT] Eine genaue Erfassung der Anschaffungskosten ist direkt wichtig, weil sie beim späteren Verkauf den berechneten steuerpflichtigen Gewinn bestimmt (Verkaufspreis minus Anschaffungskosten). Werden die Anschaffungskosten zu niedrig angesetzt, wird der steuerpflichtige Gewinn zu hoch ausgewiesen, und man zahlt womöglich mehr Steuern als nötig; werden sie zu hoch angesetzt, wird der Gewinn zu niedrig ausgewiesen, was zu Problemen mit dem Finanzamt führen kann.
+
+In vielen Ländern sind Banken und Broker verpflichtet, die Anschaffungskosten für viele Kontoarten zu erfassen und zu melden, was diese Aufgabe für Anleger viel weniger mühsam macht als früher. In Deutschland ermitteln die depotführenden Banken die Anschaffungskosten in der Regel automatisch und müssen bei sammelverwahrten Wertpapieren das sogenannte FIFO-Verfahren anwenden: Die zuerst gekauften Anteile gelten als zuerst verkauft. Das zugrunde liegende Konzept zu verstehen, bleibt trotzdem nützlich – besonders bei mehreren Käufen über die Zeit, wiederangelegten Erträgen oder bei Konten und Situationen, in denen die Erfassung weniger automatisch abläuft, etwa nach einem Depotwechsel.
+
+## Durchgerechnetes Beispiel
+
+[ILLUSTRATIVE EXAMPLE] Eine Anlegerin kauft über mehrere Jahre Anteile eines Fonds, stockt ihre Position zu verschiedenen Zeitpunkten auf und lässt außerdem Ausschüttungen automatisch in zusätzliche Anteile wiederanlegen. Jeder dieser Käufe – die ursprünglichen Käufe und jede Wiederanlage – begründet eigene Anschaffungskosten zum Preis der jeweiligen Transaktion. [ASSUMPTION] Verkauft sie später einen Teil ihrer Gesamtposition, hängt der berechnete steuerpflichtige Gewinn davon ab, welche konkreten Anteile (mit ihren jeweiligen Anschaffungskosten) als verkauft gelten – je nach dem angewandten Verfahren, in Deutschland in der Regel FIFO. Das zeigt, warum es wahrscheinlich ungenau wäre, einfach den allerersten Kaufpreis als „die“ Anschaffungskosten der gesamten Position zu verwenden.
+
+## Übungsquiz
+1. Was bezeichnen die Anschaffungskosten im Allgemeinen?
+2. Warum können die Anschaffungskosten komplizierter sein als einfach der ursprüngliche Kaufpreis?
+3. Was passiert, wenn die Anschaffungskosten bei der Berechnung eines steuerpflichtigen Gewinns zu niedrig angesetzt werden?
+
+## Lösungsschlüssel
+1. Den ursprünglichen Wert, anhand dessen beim späteren Verkauf einer Anlage ein steuerpflichtiger Gewinn oder Verlust ermittelt wird.
+2. Weil zusätzliche Käufe über die Zeit, einschließlich wiederangelegter Dividenden, jeweils eigene Anschaffungskosten begründen, sodass sich die Anschaffungskosten der Gesamtposition aus mehreren Transaktionen zusammensetzen statt aus einer einzigen Zahl.
+3. Der berechnete steuerpflichtige Gewinn wird zu hoch ausgewiesen, sodass man womöglich mehr Steuern zahlt als tatsächlich nötig.
+
+## Antworten und Erklärungen
+1. Das ist die grundlegende Definition der Lektion.
+2. Das ist die zentrale Komplexität, die die Lektion hervorhebt, direkt verbunden mit dem Konzept der wiederangelegten Dividenden aus Lektion 17.
+3. Das unterstreicht die praktische Bedeutung einer genauen Erfassung der Anschaffungskosten.
+
+## Das Wichtigste in Kürze
+- Die Anschaffungskosten sind der ursprüngliche Wert, mit dem der steuerpflichtige Gewinn oder Verlust bei einem Verkauf berechnet wird, und sie sind oft komplizierter als ein einzelner Kaufpreis.
+- Wiederangelegte Dividenden und mehrere Käufe über die Zeit begründen jeweils eigene Anschaffungskosten, was eine sorgfältige Erfassung erfordert.
+- Eine genaue Erfassung der Anschaffungskosten beeinflusst den berechneten steuerpflichtigen Gewinn direkt – mit echten Folgen, wenn sie zu hoch oder zu niedrig angesetzt werden.
+
+## Hinweis zum Bildungszweck
+Diese Lektion dient ausschließlich der allgemeinen finanziellen Bildung und ist keine individuelle Finanz-, Anlage-, Steuer- oder Rechtsberatung. Steuerregeln unterscheiden sich stark je nach Land; wende dich für Fragen zu deiner persönlichen Situation an eine Steuerberatung.

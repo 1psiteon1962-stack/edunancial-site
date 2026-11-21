@@ -1,0 +1,342 @@
+===== GREEN-L3-022
+TITLE: Pourquoi un échange 1031 reporte l'impôt plutôt que de l'éliminer
+SUMMARY: Découvre pourquoi un échange 1031 reporte à la fois l'impôt sur les gains en capital et la récupération de l'amortissement, plutôt que de les faire disparaître complètement.
+# GREEN-L3-022 : Pourquoi un échange 1031 reporte l'impôt plutôt que de l'éliminer
+
+## Objectifs d'apprentissage
+À la fin de cette leçon, tu pourras :
+- Expliquer pourquoi un échange 1031 reporte l'impôt plutôt que de l'éliminer
+- Relier cette notion à la distinction entre report d'impôt et exonération d'impôt de la leçon 11
+- Expliquer comment la récupération de l'amortissement de la leçon 21 entre en jeu dans un échange 1031
+
+## Contenu principal
+
+Le parcours RED de ce programme a présenté l'échange 1031 (une règle fiscale américaine; le Canada n'a pas d'équivalent général pour les immeubles de placement) comme un outil permettant à un investisseur de reporter l'impôt sur les gains en capital en réinvestissant le produit de la vente dans un bien de même nature. Voici « pourquoi » le titre de cette leçon utilise précisément le mot « reporte », en lien direct avec la distinction entre report d'impôt et exonération d'impôt de la leçon 11 : un échange 1031 ne fait pas disparaître l'obligation fiscale — il la reporte, généralement en la rattachant au coût de base du nouveau bien, ce qui veut dire que l'impôt reporté suit l'investisseur dans le bien de remplacement plutôt que d'être éliminé.
+
+[VERIFIED FACT] Ça comprend l'obligation de récupération de l'amortissement abordée à la leçon 21 — un échange 1031 bien exécuté reporte généralement à la fois l'impôt sur les gains en capital et toute récupération de l'amortissement connexe qui serait autrement déclenchée par une vente imposable, en les reportant tous les deux dans le coût de base du bien de remplacement plutôt que de les régler au moment de l'échange.
+
+C'est pourquoi un investisseur qui utilise des échanges 1031 répétés pendant de nombreuses années, comme on l'a vu dans le parcours RED, accumule une obligation fiscale reportée de plus en plus importante à chaque échange — une obligation qui finira par être déclenchée si et quand le bien est un jour vendu dans le cadre d'une opération entièrement imposable plutôt qu'échangé de nouveau, à moins qu'elle ne soit finalement réglée par d'autres moyens (comme la majoration du coût de base au décès, abordée dans une leçon plus loin).
+
+## Exemple pratique
+
+[ILLUSTRATIVE EXAMPLE] Une investisseuse réalise un échange 1031 et reporte ainsi 80 000 $ d'impôt sur les gains en capital et 20 000 $ de récupération de l'amortissement qui auraient autrement été exigibles lors d'une vente imposable — soit une obligation fiscale reportée totale de 100 000 $. [ASSUMPTION] Cette obligation reportée ne disparaît pas; elle est en fait reportée, rattachée au coût de base rajusté du bien de remplacement, ce qui veut dire que si elle vend ce bien de remplacement dans le cadre d'une opération entièrement imposable des années plus tard, sans faire de nouvel échange, les montants reportés initiaux et tout gain supplémentaire sur le nouveau bien deviennent exigibles à ce moment-là — ce qui montre pourquoi « reporté » est le mot juste, et non « éliminé ».
+
+## Quiz de pratique
+
+1. Pourquoi un échange 1031 « reporte »-t-il l'impôt plutôt que de l'éliminer?
+2. Comment cette notion se relie-t-elle à la distinction entre report d'impôt et exonération d'impôt de la leçon 11?
+3. Un échange 1031 reporte-t-il seulement l'impôt sur les gains en capital, ou reporte-t-il aussi la récupération de l'amortissement?
+
+## Corrigé
+
+1. Parce que l'obligation fiscale est reportée, généralement en étant rattachée au coût de base du bien de remplacement, plutôt que de disparaître complètement.
+2. C'est un exemple direct et concret du traitement avec report d'impôt défini à la leçon 11 — l'obligation fiscale existe toujours et finira par devenir exigible dans certaines circonstances futures, plutôt que d'être exonérée d'impôt.
+3. Il reporte les deux — un échange 1031 bien exécuté reporte généralement à la fois l'impôt sur les gains en capital et toute récupération de l'amortissement connexe de la leçon 21.
+
+## Réponses et explications
+
+1. C'est le « pourquoi » central autour duquel le titre de la leçon est construit.
+2. Ça relie explicitement la leçon au cadre report d'impôt / exonération d'impôt de la leçon 11.
+3. Ça vérifie si le lecteur relie la notion de cette leçon à la leçon sur la récupération de l'amortissement qui la précède immédiatement.
+
+## Points clés à retenir
+- Un échange 1031 reporte, plutôt que d'éliminer, l'impôt sur les gains en capital et la récupération de l'amortissement, en les reportant tous les deux dans le coût de base du bien de remplacement.
+- C'est un exemple concret de la notion de report d'impôt présentée à la leçon 11.
+- Des échanges répétés accumulent une obligation fiscale reportée croissante qui finit par devenir exigible, à moins d'être réglée par d'autres moyens, comme la majoration du coût de base au décès.
+
+## Avis pédagogique
+Cette leçon sert uniquement à l'éducation financière générale et ne constitue pas un conseil financier, de placement, fiscal ou juridique personnalisé. Les règles sur les échanges 1031 varient selon le territoire et changent avec le temps; consulte un fiscaliste autorisé pour obtenir des conseils adaptés à ta situation.
+
+===== GREEN-L3-023
+TITLE: Pourquoi les gains en capital et le revenu ordinaire sont imposés différemment
+SUMMARY: Découvre pourquoi les gains tirés de la vente d'un placement sont souvent imposés différemment du salaire, et pourquoi la période de détention joue un rôle central dans cette différence.
+# GREEN-L3-023 : Pourquoi les gains en capital et le revenu ordinaire sont imposés différemment
+
+## Objectifs d'apprentissage
+À la fin de cette leçon, tu pourras :
+- Expliquer la distinction générale entre les gains en capital et le revenu ordinaire
+- Expliquer pourquoi la période de détention détermine souvent le taux d'imposition des gains en capital qui s'applique
+- Relier cette notion à la discussion sur la période de détention du parcours WHITE de ce programme
+
+## Contenu principal
+
+Le **revenu ordinaire** comprend généralement le salaire, la rémunération et les autres revenus gagnés habituels, imposés selon la structure de tranches progressives vue à la leçon 1. Les **gains en capital** — le profit tiré de la vente d'un placement ou d'un autre bien en capital — sont souvent imposés selon un ensemble de règles distinct, qui peut être très différent du traitement fiscal du revenu ordinaire.
+
+Voici « pourquoi » cette distinction existe couramment, en parallèle étroit avec une notion abordée dans le parcours WHITE de ce programme : de nombreux régimes fiscaux appliquent des taux différents aux gains en capital selon la **période de détention** — la durée pendant laquelle le bien a été détenu avant d'être vendu —, imposant souvent les gains sur les biens détenus moins longtemps à des taux proches (ou identiques) à ceux du revenu ordinaire, et appliquant des taux plus avantageux aux gains sur les biens détenus plus longtemps, généralement dans le but déclaré d'encourager l'investissement à long terme plutôt que les opérations fréquentes à court terme. (Le Canada fonctionne autrement : il n'impose qu'une partie du gain en capital, selon un taux d'inclusion, peu importe la période de détention.)
+
+[VERIFIED FACT] Les seuils précis de période de détention, les taux applicables et la façon dont les gains en capital interagissent avec le revenu ordinaire dans le calcul global de l'impôt sont fixés par la loi fiscale, varient beaucoup selon le territoire et changent avec le temps — il est utile de bien connaître cette distinction en général, mais les chiffres exacts doivent être vérifiés pour une situation et un territoire précis.
+
+## Exemple pratique
+
+[ILLUSTRATIVE EXAMPLE] Une investisseuse vend une action détenue pendant une courte période avant la vente, ce qui donne un gain généralement imposé de façon semblable à son revenu ordinaire, à son taux marginal habituel (leçon 1). Un autre investisseur vend une action semblable détenue beaucoup plus longtemps, et le gain qui en résulte pourrait être imposé à un taux plus avantageux pour les gains en capital à long terme dans de nombreux régimes fiscaux. [ASSUMPTION] Même si leur gain est exactement du même montant, ces deux investisseurs pourraient faire face à des résultats fiscaux très différents uniquement selon la durée pendant laquelle chacun a détenu le bien avant de le vendre — en parallèle direct avec la discussion sur la période de détention des actifs papier abordée ailleurs dans ce programme.
+
+## Quiz de pratique
+
+1. Quelle est la distinction générale entre les gains en capital et le revenu ordinaire?
+2. Pourquoi la période de détention détermine-t-elle couramment le taux d'imposition des gains en capital qui s'applique?
+3. Comment cette leçon se relie-t-elle à une notion semblable abordée ailleurs dans le parcours WHITE de ce programme?
+
+## Corrigé
+
+1. Le revenu ordinaire comprend le salaire et les revenus gagnés habituels, imposés selon des tranches progressives; les gains en capital sont le profit tiré de la vente d'un placement ou d'un bien en capital, souvent imposés selon des règles distinctes.
+2. Parce que de nombreux régimes fiscaux appliquent des taux plus avantageux aux gains sur les biens détenus plus longtemps, généralement dans le but déclaré d'encourager l'investissement à long terme plutôt que les opérations fréquentes à court terme.
+3. Ça reflète directement la discussion sur les gains en capital selon la période de détention, abordée pour les actifs de placement dans le parcours WHITE, en appliquant le même principe de fond dans le contexte fiscal de ce parcours GREEN.
+
+## Réponses et explications
+
+1. C'est la distinction de base de la leçon.
+2. Ça explique la logique de fond de la structure de taux fondée sur la période de détention.
+3. Ça relie explicitement la leçon à une discussion parallèle ailleurs dans le programme, ce qui renforce l'apprentissage entre les parcours.
+
+## Points clés à retenir
+- Le revenu ordinaire et les gains en capital sont souvent imposés selon des règles différentes, les gains en capital favorisant fréquemment les périodes de détention plus longues.
+- Cette structure fondée sur la période de détention vise généralement à encourager l'investissement à long terme plutôt que les opérations fréquentes à court terme.
+- Les seuils de période de détention et les taux précis varient beaucoup selon le territoire et changent avec le temps.
+
+## Avis pédagogique
+Cette leçon sert uniquement à l'éducation financière générale et ne constitue pas un conseil financier, de placement, fiscal ou juridique personnalisé. Les règles sur les gains en capital varient selon le territoire et changent avec le temps; consulte un fiscaliste autorisé pour obtenir des conseils adaptés à ta situation.
+
+===== GREEN-L3-024
+TITLE: Pourquoi la vente à perte à des fins fiscales et la règle des ventes fictives sont liées
+SUMMARY: Découvre comment la vente à perte à des fins fiscales et la règle des ventes fictives fonctionnent ensemble, et pourquoi il est important de comprendre les deux sous l'angle fiscal, en plus de l'angle du placement.
+# GREEN-L3-024 : Pourquoi la vente à perte à des fins fiscales et la règle des ventes fictives sont liées
+
+## Objectifs d'apprentissage
+À la fin de cette leçon, tu pourras :
+- Expliquer comment une perte en capital réalisée peut compenser des gains en capital aux fins de l'impôt
+- Expliquer pourquoi la règle des ventes fictives limite cette stratégie d'une façon précise
+- Relier cette notion à la discussion parallèle du parcours WHITE de ce programme
+
+## Contenu principal
+
+Le parcours WHITE de ce programme aborde la vente à perte à des fins fiscales et la règle des ventes fictives sous l'angle de la stratégie de placement. Voici la même notion sous un angle précisément fiscal : une **perte en capital réalisée** — une perte réellement concrétisée par une vente, et pas seulement une perte latente sur papier — peut généralement servir à compenser des gains en capital aux fins de l'impôt et, dans certains régimes fiscaux, un montant limité de toute perte nette restante peut aussi compenser une partie du revenu ordinaire, l'excédent pouvant être reporté pour compenser des gains des années futures. (Au Canada, les pertes en capital nettes ne compensent généralement que des gains en capital, mais peuvent être reportées sur les trois années précédentes ou indéfiniment sur les années futures.)
+
+Voici « pourquoi » la **règle des ventes fictives** (en anglais, *wash-sale rule*; au Canada, on parle de règle sur les pertes apparentes) limite précisément cette stratégie : [VERIFIED FACT] de nombreux régimes fiscaux refusent une perte déclarée si le même titre, ou un titre essentiellement identique, est racheté pendant une période précise autour de la vente, puisque permettre ça laisserait un contribuable déclarer une perte fiscale tout en conservant en fait exactement la même position de placement — ce qui est traité comme un abus de la notion de réalisation d'une perte, et refusé en conséquence.
+
+C'est pourquoi l'angle fiscal de cette stratégie met l'accent sur un moment précis et sur une bonne documentation : un contribuable doit non seulement suivre le fait qu'une perte a été réalisée, mais aussi confirmer qu'aucun rachat déclenchant la règle des ventes fictives n'a eu lieu pendant la période applicable, pour s'assurer que la perte déclarée sera réellement acceptée au moment de produire la déclaration de revenus.
+
+## Exemple pratique
+
+[ILLUSTRATIVE EXAMPLE] Une investisseuse réalise une perte en vendant un placement en baisse, dans le but d'utiliser cette perte pour compenser des gains en capital ailleurs dans son portefeuille aux fins de l'impôt. Si elle rachète le même placement, ou un placement essentiellement identique, pendant la période visée par la règle des ventes fictives, les autorités fiscales pourraient refuser la perte déclarée pour cette année d'imposition, malgré son intention réelle de la réaliser. [ASSUMPTION] Un suivi attentif de la vente et de tout achat subséquent, par rapport à la période applicable de la règle des ventes fictives, est essentiel pour s'assurer que la perte sur laquelle elle compte pour compenser ses gains sera réellement acceptée au moment de produire sa déclaration.
+
+## Quiz de pratique
+
+1. Qu'est-ce qu'une perte en capital réalisée peut généralement compenser aux fins de l'impôt?
+2. Qu'est-ce que la règle des ventes fictives refuse précisément?
+3. Pourquoi ça crée-t-il une exigence de suivi précise et pratique pour les contribuables qui utilisent cette stratégie?
+
+## Corrigé
+
+1. Des gains en capital et, dans certains régimes fiscaux, un montant limité de revenu ordinaire, l'excédent pouvant être reporté sur les années futures.
+2. Une perte fiscale déclarée lorsque le même titre, ou un titre essentiellement identique, est racheté pendant une période précise autour de la vente.
+3. Parce qu'un contribuable doit confirmer qu'aucun rachat déclenchant la règle des ventes fictives n'a eu lieu pendant la période applicable, pour s'assurer que la perte déclarée sera réellement acceptée dans sa déclaration de revenus.
+
+## Réponses et explications
+
+1. Ça établit le mécanisme proprement fiscal de l'utilisation d'une perte réalisée.
+2. C'est la règle limitative centrale sur laquelle porte la leçon.
+3. Ça renforce la dimension pratique de conformité fiscale de cette stratégie.
+
+## Points clés à retenir
+- Une perte en capital réalisée peut généralement compenser des gains en capital et, dans certains régimes, un montant limité de revenu ordinaire, aux fins de l'impôt.
+- La règle des ventes fictives refuse une perte déclarée si le même titre, ou un titre essentiellement identique, est racheté pendant une période précise.
+- Ça exige un suivi attentif des ventes et des achats subséquents pour s'assurer qu'une perte déclarée sera réellement acceptée au moment de produire la déclaration.
+
+## Avis pédagogique
+Cette leçon sert uniquement à l'éducation financière générale et ne constitue pas un conseil financier, de placement, fiscal ou juridique personnalisé. Les règles sur la vente à perte à des fins fiscales et sur les ventes fictives varient selon le territoire et changent avec le temps; consulte un fiscaliste autorisé pour obtenir des conseils adaptés à ta situation.
+
+===== GREEN-L3-025
+TITLE: Pourquoi les règles de résidence fiscale créent de vrais litiges
+SUMMARY: Découvre pourquoi déterminer la résidence fiscale n'est pas toujours simple, et pourquoi déménager d'un territoire à un autre peut soulever de vraies questions fiscales contestées.
+# GREEN-L3-025 : Pourquoi les règles de résidence fiscale créent de vrais litiges
+
+## Objectifs d'apprentissage
+À la fin de cette leçon, tu pourras :
+- Expliquer la notion générale de résidence fiscale
+- Expliquer pourquoi la détermination de la résidence peut devenir réellement contestée, surtout lors d'un déménagement
+- Expliquer pourquoi la documentation compte beaucoup pour régler ces questions
+
+## Contenu principal
+
+La **résidence fiscale** (parfois liée à une notion juridique connexe appelée domicile) détermine généralement quel territoire (dans un contexte américain, quel État; au Canada, la province de résidence au 31 décembre joue un rôle comparable pour l'impôt provincial) a le droit premier d'imposer le revenu d'une personne. La plupart du temps, c'est simple — la personne vit, travaille et garde ses principaux liens à un seul endroit clair.
+
+Voici « pourquoi » ça devient réellement contesté dans certaines situations : les règles de résidence et de domicile tiennent généralement compte d'un ensemble de facteurs — l'endroit où la personne passe le plus de temps pendant l'année, l'endroit où elle est inscrite sur la liste électorale, l'endroit où son permis de conduire est délivré, l'endroit où elle a sa résidence principale et d'autres liens semblables — plutôt que d'un seul critère simple. [VERIFIED FACT] Une personne qui est en train de déménager d'un territoire à un autre, qui partage son temps entre plusieurs endroits ou qui garde des liens importants avec plus d'un endroit peut voir son statut de résidence devenir réellement ambigu, et différents territoires peuvent chacun la considérer comme leur résidente aux fins de l'impôt, ce qui peut créer un vrai litige (et, dans les cas plus graves, un risque de double imposition) qu'il faudra régler.
+
+C'est pourquoi une documentation soignée — noter les jours passés à chaque endroit, mettre à jour rapidement les dossiers officiels (inscription électorale, permis de conduire) et établir clairement quel endroit représente la vraie résidence principale de la personne — compte beaucoup pour toute personne qui vit un vrai changement de résidence fiscale, plutôt que de supposer qu'un déménagement est automatiquement et immédiatement reconnu aux fins de l'impôt.
+
+## Exemple pratique
+
+[ILLUSTRATIVE EXAMPLE] Une personne déménage d'un État à un autre en cours d'année, mais continue de retourner de temps à autre dans l'État d'origine pour de longues périodes, n'a pas encore mis à jour son inscription électorale et garde d'autres liens importants avec son État d'origine. [ASSUMPTION] Son État d'origine et son nouvel État pourraient chacun avoir un motif raisonnable de la considérer comme résidente pour cette année d'imposition selon leurs règles respectives, ce qui crée un vrai litige sur les obligations fiscales de l'État qui s'appliquent réellement — une situation qui aurait pu être évitée, ou du moins beaucoup clarifiée, grâce à une documentation plus soignée et plus rapide de son changement de résidence au moment du déménagement.
+
+## Quiz de pratique
+
+1. Que détermine généralement la résidence fiscale?
+2. Pourquoi la détermination de la résidence peut-elle devenir réellement contestée, surtout lors d'un déménagement?
+3. Quel genre de documentation compte beaucoup pour une personne qui vit un vrai changement de résidence fiscale?
+
+## Corrigé
+
+1. Quel territoire a le droit premier d'imposer le revenu d'une personne, selon un ensemble de facteurs de rattachement.
+2. Parce que les règles de résidence tiennent compte de plusieurs facteurs — le temps passé, les dossiers officiels, la résidence principale — plutôt que d'un seul critère simple, et qu'une personne qui partage son temps ou garde des liens avec plusieurs endroits peut sembler être résidente selon les règles de plus d'un territoire en même temps.
+3. Noter les jours passés à chaque endroit, mettre à jour rapidement les dossiers officiels comme l'inscription électorale et le permis de conduire, et établir clairement quel endroit est la vraie résidence principale.
+
+## Réponses et explications
+
+1. C'est la définition de base de la leçon.
+2. C'est le « pourquoi » central qui explique comment une vraie ambiguïté et des litiges peuvent survenir.
+3. Ça renforce l'étape pratique et protectrice pour toute personne qui vit un vrai changement de résidence.
+
+## Points clés à retenir
+- La résidence fiscale détermine quel territoire a le droit premier d'imposer le revenu d'une personne, selon plusieurs facteurs de rattachement.
+- Une personne qui partage son temps ou garde des liens avec plusieurs endroits peut faire face à de vrais litiges de résidence, et même à un risque de double imposition.
+- Une documentation soignée et rapide d'un vrai changement de résidence est essentielle pour établir et appuyer le statut fiscal visé.
+
+## Avis pédagogique
+Cette leçon sert uniquement à l'éducation financière générale et ne constitue pas un conseil financier, de placement, fiscal ou juridique personnalisé. Les règles de résidence varient beaucoup selon le territoire; consulte un fiscaliste autorisé pour obtenir des conseils adaptés à ta situation.
+
+===== GREEN-L3-026
+TITLE: Pourquoi le lien fiscal pour la taxe de vente s'est élargi avec le commerce électronique
+SUMMARY: Découvre ce que veut dire le lien fiscal (nexus) pour la taxe de vente, et pourquoi l'essor de la vente en ligne a forcé les autorités fiscales à revoir le moment où une entreprise doit percevoir la taxe de vente dans un territoire donné.
+# GREEN-L3-026 : Pourquoi le lien fiscal pour la taxe de vente s'est élargi avec le commerce électronique
+
+## Objectifs d'apprentissage
+À la fin de cette leçon, tu pourras :
+- Expliquer ce que veut généralement dire le lien fiscal (nexus) pour la taxe de vente
+- Expliquer pourquoi les règles traditionnelles fondées sur la présence physique avaient du mal à encadrer le commerce électronique
+- Expliquer ce qu'est le lien économique et pourquoi il est apparu en réponse
+
+## Contenu principal
+
+Le **lien fiscal pour la taxe de vente** (en anglais, *sales tax nexus*) désigne généralement le rattachement qu'une entreprise doit avoir avec un territoire précis avant que ce territoire puisse l'obliger à percevoir et à remettre la taxe de vente sur les ventes faites à des clients qui s'y trouvent. Historiquement, ce rattachement reposait souvent sur la **présence physique** — avoir un magasin, un bureau, un entrepôt ou des employés physiquement situés dans ce territoire.
+
+Voici « pourquoi » cette approche traditionnelle a eu du mal à suivre la croissance du commerce électronique : une entreprise pouvait vendre des volumes importants de biens à des clients d'un territoire entièrement en ligne, sans aucune présence physique sur place, et générer des ventes importantes sans percevoir de taxe de vente selon l'ancienne norme fondée sur la présence physique — ce qui créait à la fois un vrai manque à gagner pour les territoires et, selon certains, des règles du jeu inégales entre les entreprises locales physiquement présentes, obligées de percevoir la taxe de vente, et les vendeurs en ligne à distance, qui ne l'étaient pas.
+
+[VERIFIED FACT] En réponse, de nombreux territoires ont adopté des normes de **lien économique**, qui obligent généralement une entreprise à percevoir la taxe de vente une fois qu'elle dépasse certains seuils de volume de ventes ou de nombre de transactions dans un territoire, peu importe sa présence physique — un changement juridique et politique directement provoqué par l'essor du commerce électronique. Les seuils et les règles précis varient beaucoup selon le territoire et continuent d'évoluer, ce qui en fait un domaine où il faut des conseils continus et à jour plutôt que des hypothèses figées.
+
+## Exemple pratique
+
+[ILLUSTRATIVE EXAMPLE] Un détaillant en ligne qui n'a aucun magasin, entrepôt ou employé dans un État donné y vend chaque année un volume important de biens à des clients. Selon une ancienne norme de lien fondée uniquement sur la présence physique, ce détaillant n'aurait peut-être pas du tout été obligé de percevoir la taxe de vente sur ces ventes. Selon une norme de lien économique adoptée par cet État, une fois que le volume de ventes ou le nombre de transactions du détaillant auprès des clients de cet État dépasse le seuil applicable, il devient obligé d'y percevoir et d'y remettre la taxe de vente, même sans présence physique — ce qui reflète le changement de politique décrit dans cette leçon.
+
+## Quiz de pratique
+
+1. Que désigne généralement le lien fiscal pour la taxe de vente?
+2. Pourquoi les règles traditionnelles de lien fondées sur la présence physique ont-elles eu du mal à suivre la croissance du commerce électronique?
+3. Qu'est-ce que le lien économique, et pourquoi est-il apparu?
+
+## Corrigé
+
+1. Le rattachement qu'une entreprise doit avoir avec un territoire avant que celui-ci puisse l'obliger à y percevoir et à y remettre la taxe de vente.
+2. Parce que les entreprises pouvaient vendre des volumes importants à des clients d'un territoire entièrement en ligne, sans présence physique, sans aucune obligation de percevoir la taxe de vente selon l'ancienne norme, ce qui créait un manque à gagner et un traitement inégal par rapport aux vendeurs physiquement présents.
+3. Une norme qui exige la perception de la taxe de vente une fois qu'une entreprise dépasse certains seuils de volume de ventes ou de transactions dans un territoire, peu importe sa présence physique, adoptée précisément en réponse à la croissance du commerce électronique.
+
+## Réponses et explications
+
+1. C'est la définition de base de la leçon.
+2. C'est le « pourquoi » central qui explique l'écart historique ayant mené au changement de politique.
+3. Ça présente la réponse moderne, avec les nuances appropriées compte tenu des variations continues entre les territoires.
+
+## Points clés à retenir
+- Le lien fiscal pour la taxe de vente détermine à quel moment un territoire peut obliger une entreprise à percevoir et à remettre la taxe de vente.
+- Les normes traditionnelles fondées sur la présence physique avaient du mal à encadrer le commerce électronique, puisque les vendeurs en ligne pouvaient exercer leurs activités sans présence physique dans un territoire.
+- De nombreux territoires ont adopté des normes de lien économique, fondées sur des seuils de volume de ventes ou de transactions, peu importe la présence physique.
+
+## Avis pédagogique
+Cette leçon sert uniquement à l'éducation financière générale et ne constitue pas un conseil financier, de placement, fiscal ou juridique personnalisé. Les règles sur le lien fiscal pour la taxe de vente varient beaucoup selon le territoire et changent souvent; consulte un fiscaliste autorisé pour obtenir des conseils adaptés à ton entreprise.
+
+===== GREEN-L3-027
+TITLE: Pourquoi l'évaluation foncière n'est pas la même chose que la valeur marchande
+SUMMARY: Découvre pourquoi la valeur d'un immeuble aux fins de l'impôt foncier diffère souvent de son prix de vente réel, et pourquoi cet écart compte pour les propriétaires et pour les contestations d'évaluation.
+# GREEN-L3-027 : Pourquoi l'évaluation foncière n'est pas la même chose que la valeur marchande
+
+## Objectifs d'apprentissage
+À la fin de cette leçon, tu pourras :
+- Expliquer pourquoi la valeur imposable d'un immeuble diffère souvent de sa valeur marchande réelle
+- Expliquer pourquoi cet écart peut jouer dans un sens comme dans l'autre, en faveur ou au détriment du propriétaire
+- Relier cette notion à la discussion sur la contestation de l'impôt foncier abordée ailleurs dans ce programme
+
+## Contenu principal
+
+La **valeur imposable** d'un immeuble (aussi appelée valeur au rôle d'évaluation) — le montant qu'une autorité fiscale locale utilise pour calculer l'impôt foncier à payer — n'est pas la même chose que sa **valeur marchande**, soit le prix qu'il obtiendrait probablement s'il était vendu aujourd'hui. Le parcours RED de ce programme aborde la contestation de l'impôt foncier sous l'angle des flux de trésorerie de l'investisseur; voici le « pourquoi » de l'écart de fond qui rend ces contestations possibles.
+
+[VERIFIED FACT] Les méthodes d'évaluation, la fréquence des mises à jour et les formules précises utilisées varient beaucoup selon le territoire — certains territoires réévaluent les immeubles chaque année, d'autres beaucoup moins souvent, et certains appliquent des plafonds ou des formules précis qui limitent la vitesse à laquelle la valeur imposable peut augmenter, même si la valeur marchande augmente plus vite. Ça veut dire que la valeur imposable peut être en retard sur la valeur marchande actuelle réelle (ou, moins souvent, la dépasser), parfois de façon importante, selon le moment et l'exactitude avec lesquels le processus d'évaluation du territoire reflète les conditions réelles du marché.
+
+Cet écart peut jouer dans un sens comme dans l'autre : un immeuble situé dans un marché qui s'apprécie rapidement pourrait avoir une valeur imposable bien inférieure à sa vraie valeur marchande actuelle (généralement avantageux pour le compte de taxes du propriétaire, du moins temporairement), alors qu'un immeuble situé dans un marché en baisse, si l'évaluation n'a pas été mise à jour récemment, pourrait avoir une valeur imposable bien supérieure à sa valeur marchande actuelle réelle (désavantageux pour le propriétaire, et exactement le genre de situation qu'une contestation, comme on l'a vu dans le parcours RED, vise à corriger).
+
+## Exemple pratique
+
+[ILLUSTRATIVE EXAMPLE] Un immeuble est évalué à une certaine valeur pendant une période où le marché local est relativement stable. Au cours des années suivantes, le marché local dans son ensemble connaît un recul important, mais l'évaluation du territoire n'est pas mise à jour pour refléter cette baisse avant un certain temps. [ASSUMPTION] Pendant cette période de décalage, le propriétaire paie de l'impôt foncier en fonction d'une valeur imposable bien supérieure au prix que l'immeuble obtiendrait réellement sur le marché actuel — exactement le genre d'écart entre la valeur imposable et la valeur marchande qui justifierait une contestation de l'impôt foncier, comme on l'a vu dans le parcours RED de ce programme.
+
+## Quiz de pratique
+
+1. Quelle est la différence entre la valeur imposable et la valeur marchande?
+2. Pourquoi cet écart peut-il jouer dans un sens comme dans l'autre, en faveur ou au détriment d'un propriétaire?
+3. Comment cette leçon se relie-t-elle à la notion de contestation de l'impôt foncier abordée ailleurs dans ce programme?
+
+## Corrigé
+
+1. La valeur imposable est le montant qu'une autorité fiscale locale utilise pour calculer l'impôt foncier; la valeur marchande est le prix que l'immeuble obtiendrait probablement s'il était vendu aujourd'hui — elles sont calculées différemment et divergent souvent.
+2. Parce que la fréquence de mise à jour et les méthodes d'évaluation varient selon le territoire, la valeur imposable peut être en retard sur une valeur marchande en hausse (en faveur du propriétaire) ou dépasser une valeur marchande en baisse si elle n'est pas mise à jour rapidement (au détriment du propriétaire).
+3. Cette leçon explique l'écart de fond entre la valeur imposable et la valeur marchande qui fait de la contestation de l'impôt foncier — présentée dans le parcours RED comme un moyen d'améliorer les flux de trésorerie — un outil légitime et parfois nécessaire.
+
+## Réponses et explications
+
+1. C'est la distinction de base de la leçon.
+2. Ça explique pourquoi l'écart n'est pas un problème à sens unique, mais peut jouer dans les deux sens.
+3. Ça relie explicitement la leçon à une discussion parallèle ailleurs dans le programme, ce qui renforce l'apprentissage entre les parcours.
+
+## Points clés à retenir
+- La valeur imposable, utilisée pour calculer l'impôt foncier, diffère souvent de la valeur marchande actuelle réelle.
+- Cet écart dépend des méthodes d'évaluation et de la fréquence de mise à jour propres à chaque territoire, et peut avantager ou désavantager un propriétaire selon l'orientation du marché.
+- Comprendre cet écart est à la base du processus de contestation de l'impôt foncier abordé ailleurs dans ce programme.
+
+## Avis pédagogique
+Cette leçon sert uniquement à l'éducation financière générale et ne constitue pas un conseil financier, de placement, fiscal ou juridique personnalisé. Les règles d'évaluation foncière varient beaucoup selon le territoire; consulte un professionnel autorisé pour obtenir des conseils adaptés à ta situation.
+
+===== GREEN-L3-028
+TITLE: Pourquoi l'impôt successoral et l'impôt sur les dons sont liés, et non des régimes distincts
+SUMMARY: Découvre pourquoi l'impôt successoral et l'impôt sur les dons sont souvent réunis dans un seul régime, et pourquoi les dons faits du vivant peuvent avoir un effet direct sur ce qui se passe au décès.
+# GREEN-L3-028 : Pourquoi l'impôt successoral et l'impôt sur les dons sont liés, et non des régimes distincts
+
+## Objectifs d'apprentissage
+À la fin de cette leçon, tu pourras :
+- Expliquer pourquoi l'impôt successoral et l'impôt sur les dons sont souvent traités comme un régime unifié
+- Expliquer pourquoi les dons faits du vivant peuvent réduire l'exemption disponible au décès
+- Expliquer la logique de politique générale derrière cette approche unifiée
+
+## Contenu principal
+
+L'**impôt successoral** s'applique généralement au transfert de biens après le décès d'une personne; l'**impôt sur les dons** s'applique généralement aux transferts faits du vivant d'une personne. Dans de nombreux territoires qui ont ces deux types d'impôt, dont les États-Unis, ils ne sont pas traités comme des régimes entièrement distincts et indépendants — ils sont souvent réunis dans un cadre commun, qui utilise couramment un seul montant d'exemption combiné s'appliquant à la fois aux dons faits du vivant et aux transferts au décès. (Le Canada n'a ni impôt successoral ni impôt sur les dons comme tels; il impose plutôt les gains accumulés au moyen d'une disposition présumée au décès ou lors d'un don.)
+
+Voici « pourquoi » cette unification existe : [VERIFIED FACT] sans lien entre les deux régimes, une personne pourrait potentiellement éviter complètement l'impôt successoral simplement en donnant toute sa succession sous forme de dons de son vivant avant son décès, puisque l'impôt sur les dons et l'impôt successoral, traités comme des régimes entièrement distincts avec des exemptions totalement indépendantes, pourraient autrement créer une échappatoire évidente. En utilisant un seul montant d'exemption commun dans lequel puisent à la fois les dons faits du vivant et les transferts au décès, les deux régimes réunis empêchent ce genre d'évitement simple — des dons importants faits du vivant réduisent le montant d'exemption encore disponible pour les transferts au décès.
+
+C'est pourquoi une planification successorale complète, comme on l'a effleuré ailleurs dans le parcours RED de ce programme au sujet de la transmission d'immeubles financés par emprunt, doit généralement tenir compte des dons faits du vivant et du transfert éventuel de la succession ensemble, comme des parties liées d'un seul portrait fiscal global, plutôt que comme des décisions entièrement indépendantes.
+
+## Exemple pratique
+
+[ILLUSTRATIVE EXAMPLE] Une personne fait des dons importants de son vivant et utilise ainsi une part significative de son exemption combinée à vie. [ASSUMPTION] Lorsque cette personne décède plus tard, le montant d'exemption disponible pour mettre sa succession à l'abri de l'impôt successoral est réduit du montant d'exemption déjà utilisé pour ces dons antérieurs faits de son vivant — ce qui montre pourquoi les deux régimes fonctionnent comme un tout lié plutôt que d'offrir des montants libres d'impôt entièrement distincts et indépendants pour les dons faits du vivant et les transferts au décès.
+
+## Quiz de pratique
+
+1. Quelle est la différence générale entre l'impôt successoral et l'impôt sur les dons?
+2. Pourquoi ces deux régimes sont-ils souvent unifiés avec une exemption commune, plutôt que traités comme entièrement distincts?
+3. Qu'arrive-t-il à l'exemption disponible au décès si une personne a fait des dons importants de son vivant?
+
+## Corrigé
+
+1. L'impôt successoral s'applique généralement aux transferts de biens après le décès; l'impôt sur les dons s'applique généralement aux transferts faits du vivant d'une personne.
+2. Parce que les traiter comme des régimes entièrement distincts pourrait permettre d'éviter complètement l'impôt successoral au moyen de dons faits du vivant; une exemption commune empêche donc cet évitement simple.
+3. Cette exemption est réduite du montant de l'exemption commune déjà utilisé pour les dons antérieurs faits du vivant.
+
+## Réponses et explications
+
+1. C'est la distinction de base de la leçon.
+2. C'est le « pourquoi » central qui explique le but du régime unifié.
+3. Ça renforce la conséquence pratique et liée de l'unification.
+
+## Points clés à retenir
+- L'impôt successoral s'applique aux transferts au décès; l'impôt sur les dons s'applique aux transferts faits du vivant, mais de nombreux territoires réunissent les deux sous une exemption commune.
+- Ça empêche d'éviter l'impôt successoral au moyen de dons illimités faits du vivant.
+- Des dons importants faits du vivant réduisent le montant d'exemption encore disponible pour les transferts au décès, ce qui lie les deux régimes dans un seul portrait fiscal global.
+
+## Avis pédagogique
+Cette leçon sert uniquement à l'éducation financière générale et ne constitue pas un conseil financier, de placement, fiscal ou juridique personnalisé. Les règles sur l'impôt successoral et l'impôt sur les dons varient beaucoup selon le territoire et changent avec le temps; consulte des professionnels autorisés en droit et en fiscalité pour obtenir des conseils en planification successorale.

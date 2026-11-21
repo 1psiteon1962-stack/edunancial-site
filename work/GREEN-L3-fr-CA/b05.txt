@@ -1,0 +1,342 @@
+===== GREEN-L3-029
+TITLE: Pourquoi la majoration du coût de base change la planification de l'héritage
+SUMMARY: Découvre pourquoi le coût de base d'un bien hérité est souvent remis à sa valeur au décès, et pourquoi ça peut éliminer une part importante du gain en capital non réalisé accumulé auparavant.
+# GREEN-L3-029 : Pourquoi la majoration du coût de base change la planification de l'héritage
+
+## Objectifs d'apprentissage
+À la fin de cette leçon, tu pourras :
+- Expliquer ce que veut généralement dire la majoration du coût de base
+- Expliquer pourquoi ça peut éliminer, pour un héritier, un gain en capital non réalisé accumulé auparavant
+- Relier cette notion à la discussion sur l'obligation fiscale reportée de la leçon 22
+
+## Contenu principal
+
+La leçon 22 a expliqué qu'un échange 1031 reporte, plutôt que d'éliminer, l'obligation liée aux gains en capital et à la récupération de l'amortissement, en la rattachant au coût de base du bien de remplacement. La règle de la **majoration du coût de base** (en anglais, *step-up in basis*) porte sur ce qui peut finalement arriver à cette obligation reportée au décès du propriétaire.
+
+Voici « pourquoi » cette règle peut changer le résultat de façon importante : [VERIFIED FACT] dans de nombreux territoires, dont les États-Unis selon les règles actuelles (qui ont changé avec le temps et pourraient changer de nouveau), le coût de base d'un bien hérité est généralement « majoré » à sa juste valeur marchande à la date du décès du propriétaire initial, plutôt que de reprendre le coût de base historique de celui-ci — ce qui veut dire qu'une grande partie, voire la totalité, du gain en capital accumulé (et, dans certains cas, reporté à répétition au moyen d'échanges 1031 antérieurs) pendant la vie du propriétaire initial peut en fait être éliminée pour l'héritier, plutôt que d'être héritée avec le bien. (Au Canada, c'est différent : le défunt est généralement réputé avoir vendu ses biens à leur juste valeur marchande au décès, et l'impôt sur le gain accumulé est payé dans sa déclaration finale, sauf exceptions comme le transfert à un conjoint.)
+
+Ça se relie directement à la notion d'obligation fiscale reportée de la leçon 22 : alors qu'une vie de report au moyen d'échanges 1031 répétés accumule une obligation reportée de plus en plus importante, une majoration du coût de base au décès peut être l'une des façons dont cette obligation est finalement réglée — non pas en payant finalement l'impôt reporté, mais parce que l'héritier reçoit un nouveau coût de base, remis à zéro, qui efface le gain accumulé auparavant aux fins de l'impôt pour l'avenir.
+
+## Exemple pratique
+
+[ILLUSTRATIVE EXAMPLE] Une investisseuse a réalisé plusieurs échanges 1031 au cours de sa vie, accumulant une obligation importante de gains en capital et de récupération de l'amortissement reportés, rattachée au faible coût de base de son immeuble actuel, comme décrit à la leçon 22. Plutôt que de vendre un jour dans le cadre d'une opération entièrement imposable, elle conserve l'immeuble jusqu'à son décès. [ASSUMPTION] Si une règle de majoration du coût de base s'applique selon les lois précises en vigueur à ce moment-là, son héritier hérite de l'immeuble avec un coût de base remis à sa juste valeur marchande au décès — ce qui veut dire que l'héritier pourrait potentiellement vendre l'immeuble peu après en avoir hérité en payant peu ou pas d'impôt sur les gains en capital, malgré le gain reporté important accumulé pendant la vie de la propriétaire initiale.
+
+## Quiz de pratique
+
+1. Que veut généralement dire la majoration du coût de base?
+2. Pourquoi cette règle peut-elle en fait éliminer, pour un héritier, le gain en capital accumulé auparavant?
+3. Comment cette notion se relie-t-elle à la notion d'obligation fiscale reportée de la leçon 22?
+
+## Corrigé
+
+1. Le coût de base d'un bien hérité est généralement remis à sa juste valeur marchande à la date du décès du propriétaire initial, plutôt que de reprendre le coût de base historique de celui-ci.
+2. Parce que le coût de base remis à zéro fait en sorte qu'une grande partie, voire la totalité, du gain accumulé pendant la vie du propriétaire initial n'est plus reflétée dans le coût de base du bien aux fins de l'impôt futur de l'héritier.
+3. C'est l'une des façons dont une vie d'obligation fiscale reportée, accumulée au moyen de mécanismes comme des échanges 1031 répétés, peut finalement être réglée — non pas par un paiement final, mais par la remise à zéro du coût de base au décès, selon les règles actuelles des territoires concernés.
+
+## Réponses et explications
+
+1. C'est la définition de base de la leçon.
+2. C'est le « pourquoi » central qui explique l'effet pratique important de la règle.
+3. Ça relie explicitement la leçon à la leçon 22, ce qui boucle le thème de l'obligation reportée.
+
+## Points clés à retenir
+- Une majoration du coût de base remet le coût de base d'un bien hérité à sa juste valeur marchande au décès du propriétaire initial, dans les territoires où cette règle s'applique.
+- Ça peut en fait éliminer, pour l'héritier, le gain en capital accumulé auparavant aux fins de l'impôt pour l'avenir.
+- C'est l'une des façons dont une vie d'obligation fiscale reportée, par exemple au moyen d'échanges 1031 répétés, peut finalement être réglée plutôt que payée.
+
+## Avis pédagogique
+Cette leçon sert uniquement à l'éducation financière générale et ne constitue pas un conseil financier, de placement, fiscal ou juridique personnalisé. Les règles sur la majoration du coût de base varient selon le territoire, ont changé avec le temps et pourraient changer de nouveau; consulte des professionnels autorisés en droit et en fiscalité pour obtenir des conseils en planification successorale.
+
+===== GREEN-L3-030
+TITLE: Pourquoi les déductions pour dons de bienfaisance exigent une documentation adéquate
+SUMMARY: Découvre pourquoi demander une déduction pour dons de bienfaisance exige une documentation précise, et pourquoi la taille du don détermine le genre de preuve exigée.
+# GREEN-L3-030 : Pourquoi les déductions pour dons de bienfaisance exigent une documentation adéquate
+
+## Objectifs d'apprentissage
+À la fin de cette leçon, tu pourras :
+- Expliquer pourquoi les déductions pour dons de bienfaisance exigent des pièces justificatives précises
+- Expliquer pourquoi les exigences de documentation augmentent généralement avec la taille du don
+- Relier cette notion à la discussion sur les déductions détaillées de la leçon 9
+
+## Contenu principal
+
+Les dons de bienfaisance faits à des organismes admissibles peuvent généralement être demandés comme déduction détaillée (leçon 9), ce qui réduit le revenu imposable. (Au Canada, les dons donnent plutôt droit à un crédit d'impôt non remboursable, appuyé par des reçus officiels.) Voici « pourquoi » ce type précis de déduction s'accompagne d'exigences de documentation qui augmentent avec la taille du don : les autorités fiscales ont besoin d'un moyen de vérifier que les déductions pour dons de bienfaisance demandées correspondent à de vrais dons, réellement faits, à des organismes vraiment admissibles — sans documentation adéquate, cette catégorie de déduction serait particulièrement vulnérable aux demandes gonflées ou entièrement inventées.
+
+[VERIFIED FACT] Les exigences de documentation deviennent généralement plus rigoureuses à mesure que le montant des dons augmente — les petits dons en argent pourraient n'exiger qu'un relevé bancaire ou un reçu, alors que les dons plus importants, et en particulier les dons de biens autres qu'en argent, exigent souvent une attestation écrite plus détaillée et contemporaine de l'organisme bénéficiaire et, dans certains cas, une évaluation officielle pour les dons importants de biens autres qu'en argent — les seuils et les exigences exacts sont fixés par la loi fiscale et doivent être vérifiés directement pour une situation précise.
+
+C'est pourquoi tenir des dossiers organisés de tes dons de bienfaisance tout au long de l'année — reçus, relevés bancaires et attestations écrites des organismes — compte beaucoup pour toute personne qui prévoit détailler ses déductions et demander des déductions pour dons de bienfaisance, plutôt que d'essayer de reconstituer cette documentation après coup, au moment de produire sa déclaration.
+
+## Exemple pratique
+
+[ILLUSTRATIVE EXAMPLE] Une contribuable fait plusieurs dons de bienfaisance pendant l'année : quelques petits dons en argent à un organisme de bienfaisance local, et un don plus important d'un bien autre qu'en argent à un autre organisme. [ASSUMPTION] Pour les petits dons en argent, des relevés bancaires ou de simples reçus sont probablement une documentation suffisante. Pour le don plus important d'un bien autre qu'en argent, elle aurait probablement besoin d'une attestation écrite plus détaillée de l'organisme bénéficiaire, et peut-être d'une évaluation officielle, compte tenu de la taille du don et du fait qu'il ne s'agit pas d'argent — ce qui montre pourquoi les exigences de documentation augmentent selon le type et la taille du don, et pourquoi tenir des dossiers organisés tout au long de l'année, plutôt que de courir à la dernière minute au moment de produire sa déclaration, est l'approche la plus fiable.
+
+## Quiz de pratique
+
+1. Pourquoi les déductions pour dons de bienfaisance exigent-elles des pièces justificatives précises?
+2. Pourquoi les exigences de documentation deviennent-elles généralement plus rigoureuses à mesure que la taille du don augmente?
+3. Pourquoi cette leçon recommande-t-elle de tenir des dossiers organisés tout au long de l'année, plutôt que de les reconstituer plus tard?
+
+## Corrigé
+
+1. Pour vérifier que les déductions demandées correspondent à de vrais dons, réellement faits à des organismes vraiment admissibles, ce qui protège contre les demandes gonflées ou inventées.
+2. Parce que les demandes plus importantes représentent un effet fiscal et un risque potentiels plus grands, de sorte qu'une documentation plus rigoureuse (attestations détaillées, évaluations pour les dons importants de biens autres qu'en argent) aide à vérifier leur légitimité.
+3. Parce que reconstituer la documentation après coup, au moment de produire la déclaration, est moins fiable et plus difficile que de tenir des dossiers organisés au moment où les dons sont réellement faits pendant l'année.
+
+## Réponses et explications
+
+1. C'est le « pourquoi » central qui explique le but de l'exigence de documentation.
+2. Ça explique la logique de progression derrière des exigences de plus en plus rigoureuses pour les dons plus importants.
+3. Ça renforce l'habitude pratique et proactive de tenue de dossiers que la leçon recommande.
+
+## Points clés à retenir
+- Les déductions pour dons de bienfaisance exigent une documentation pour vérifier que les dons demandés ont vraiment été faits à des organismes admissibles.
+- Les exigences de documentation deviennent généralement plus rigoureuses à mesure que la taille et la complexité du don (surtout pour les dons autres qu'en argent) augmentent.
+- Tenir des dossiers organisés de tes dons de bienfaisance tout au long de l'année est plus fiable que de reconstituer la documentation au moment de produire ta déclaration.
+
+## Avis pédagogique
+Cette leçon sert uniquement à l'éducation financière générale et ne constitue pas un conseil financier, de placement, fiscal ou juridique personnalisé. Les exigences de documentation varient selon le territoire et changent avec le temps; consulte un fiscaliste autorisé pour obtenir des conseils adaptés à ta situation.
+
+===== GREEN-L3-031
+TITLE: Pourquoi l'impôt minimum de remplacement existe comme régime fiscal parallèle
+SUMMARY: Découvre pourquoi un impôt minimum de remplacement existe à côté du régime fiscal ordinaire, et pourquoi il exige un calcul complètement distinct pour certains contribuables.
+# GREEN-L3-031 : Pourquoi l'impôt minimum de remplacement existe comme régime fiscal parallèle
+
+## Objectifs d'apprentissage
+À la fin de cette leçon, tu pourras :
+- Expliquer le but général d'un régime de type impôt minimum de remplacement (AMT)
+- Expliquer pourquoi il exige un calcul réellement distinct et parallèle
+- Expliquer pourquoi certaines déductions et certains avantages sont traités différemment dans ce régime parallèle
+
+## Contenu principal
+
+Un **impôt minimum de remplacement** (en anglais, *Alternative Minimum Tax* ou AMT), dans le contexte américain, est un calcul d'impôt parallèle qui existe à côté du régime ordinaire d'impôt sur le revenu, et qui oblige certains contribuables à calculer leur impôt deux fois — une fois selon les règles ordinaires, et une fois selon les règles de l'AMT — puis à payer le montant le plus élevé des deux. (Le Canada a aussi son propre impôt minimum de remplacement, l'IMR, qui repose sur la même idée générale.)
+
+Voici le « pourquoi » général de l'existence d'un tel régime : [VERIFIED FACT] il vise généralement à faire en sorte que les contribuables qui profitent beaucoup de certaines déductions, exemptions ou autres éléments fiscaux préférentiels dans le régime ordinaire paient quand même au moins un niveau minimal d'impôt, en refusant ou en limitant certains de ces avantages précis dans le calcul distinct de l'AMT. Le calcul de l'AMT part généralement d'un ensemble de règles différent — en rajoutant certaines déductions ou certains éléments préférentiels qui avaient réduit le revenu imposable ordinaire, puis en appliquant une structure de taux différente à ce montant rajusté.
+
+[VERIFIED FACT] Les règles précises de l'AMT, les montants d'exemption et les déductions ou éléments préférentiels touchés sont fixés par la loi fiscale, sont particulièrement complexes et changent périodiquement — cette leçon présente la notion générale et son but, et non des seuils actuels précis, qui doivent être vérifiés directement pour toute situation fiscale précise.
+
+## Exemple pratique
+
+[ILLUSTRATIVE EXAMPLE] Le calcul de l'impôt ordinaire d'un contribuable donne un certain montant d'impôt à payer, après avoir profité de plusieurs déductions et éléments préférentiels offerts dans le régime ordinaire. Dans un calcul parallèle et distinct de l'AMT, certaines de ces déductions ou certains de ces éléments préférentiels précis sont rajoutés, et une structure de taux différente est appliquée au montant rajusté qui en résulte. [ASSUMPTION] Si le calcul de l'AMT donne un montant d'impôt plus élevé que le calcul ordinaire, le contribuable doit plutôt payer le montant plus élevé de l'AMT — ce qui illustre le mécanisme du « paie le montant le plus élevé » au cœur du fonctionnement de ce régime parallèle.
+
+## Quiz de pratique
+
+1. Quel est le but général d'un régime de type impôt minimum de remplacement (AMT)?
+2. En quoi le calcul de l'AMT diffère-t-il généralement du calcul de l'impôt ordinaire?
+3. Quel montant un contribuable assujetti à l'AMT doit-il finalement payer?
+
+## Corrigé
+
+1. Faire en sorte que les contribuables qui profitent beaucoup de certaines déductions ou de certains éléments préférentiels dans le régime ordinaire paient quand même au moins un niveau minimal d'impôt.
+2. Il rajoute certaines déductions ou certains éléments préférentiels qui avaient réduit le revenu imposable ordinaire, puis applique une structure de taux différente à ce montant rajusté.
+3. Le montant le plus élevé des deux — celui du calcul de l'impôt ordinaire ou celui du calcul de l'AMT.
+
+## Réponses et explications
+
+1. C'est le but conceptuel général de la leçon.
+2. Ça explique la différence de fonctionnement entre les deux calculs parallèles.
+3. Ça renforce le mécanisme du « paie le montant le plus élevé », central au fonctionnement de l'AMT.
+
+## Points clés à retenir
+- Un régime de type AMT exige un calcul d'impôt réellement distinct et parallèle pour certains contribuables.
+- Il vise généralement à faire en sorte qu'un niveau minimal d'impôt soit payé en limitant certaines déductions et certains éléments préférentiels offerts dans le régime ordinaire.
+- Le contribuable doit finalement payer le montant le plus élevé entre le calcul ordinaire et le calcul de l'AMT.
+
+## Avis pédagogique
+Cette leçon sert uniquement à l'éducation financière générale et ne constitue pas un conseil financier, de placement, fiscal ou juridique personnalisé. Les règles de l'AMT sont particulièrement complexes et changent avec le temps; consulte un fiscaliste autorisé pour obtenir des conseils adaptés à ta situation.
+
+===== GREEN-L3-032
+TITLE: Pourquoi les crédits d'impôt pour personnes à charge diminuent quand le revenu est plus élevé
+SUMMARY: Découvre ce qu'est un seuil de réduction progressive, et pourquoi de nombreux crédits d'impôt sont précisément conçus pour diminuer ou disparaître lorsque le revenu dépasse un certain niveau.
+# GREEN-L3-032 : Pourquoi les crédits d'impôt pour personnes à charge diminuent quand le revenu est plus élevé
+
+## Objectifs d'apprentissage
+À la fin de cette leçon, tu pourras :
+- Expliquer ce que veut généralement dire un seuil de réduction progressive pour un crédit ou une déduction d'impôt
+- Expliquer la logique de politique générale qui consiste à cibler certains avantages vers les revenus faibles et moyens
+- Relier cette notion à la discussion sur l'admissibilité fondée sur le revenu brut rajusté (AGI) de la leçon 10
+
+## Contenu principal
+
+De nombreux crédits d'impôt, dont des crédits courants liés aux personnes à charge dans divers territoires, ne s'appliquent pas de la même façon à tous les niveaux de revenu. Ils comportent plutôt souvent une **réduction progressive** — un mécanisme par lequel le montant du crédit diminue graduellement, puis disparaît complètement, à mesure que le revenu du contribuable (souvent mesuré au moyen de l'AGI, présenté à la leçon 10) dépasse un certain seuil. (Au Canada, l'Allocation canadienne pour enfants, par exemple, diminue selon le revenu familial net rajusté.)
+
+Voici le « pourquoi » général de cette conception courante : [VERIFIED FACT] bon nombre de ces crédits visent précisément à offrir un allègement ciblé aux contribuables à revenu faible et moyen, et un mécanisme de réduction progressive est la façon d'atteindre ce ciblage — plutôt que d'offrir le même avantage peu importe le niveau de revenu, le crédit est conçu pour compter le plus pour les personnes aux revenus plus modestes, puis diminuer graduellement à mesure que le revenu augmente et que, selon certains, le besoin de cette forme précise d'allègement diminue.
+
+C'est pourquoi le point de la leçon 10 sur les effets en cascade de l'AGI compte directement ici : une déduction « au-dessus de la ligne » qui réduit l'AGI peut parfois aider un contribuable à rester sous le seuil de réduction progressive d'un crédit distinct, ce qui préserve son admissibilité à un avantage qui aurait autrement pu être réduit ou éliminé avec un AGI plus élevé.
+
+## Exemple pratique
+
+[ILLUSTRATIVE EXAMPLE] Un crédit d'impôt lié aux personnes à charge commence à être réduit progressivement une fois que l'AGI d'un contribuable dépasse un certain seuil, et son montant diminue graduellement à mesure que le revenu augmente au-delà de ce point, jusqu'à disparaître complètement à un niveau de revenu plus élevé. [ASSUMPTION] Une contribuable dont l'AGI se situe juste au-dessus du seuil de réduction progressive pourrait constater qu'en demandant une déduction « au-dessus de la ligne » à laquelle elle a droit (leçon 10), son AGI redescend sous ce seuil, ce qui préserve sa pleine admissibilité au crédit — une illustration directe de la notion d'effet en cascade de l'AGI présentée plus tôt dans ce parcours.
+
+## Quiz de pratique
+
+1. Que veut généralement dire un seuil de réduction progressive pour un crédit d'impôt?
+2. Quelle est la logique de politique générale souvent invoquée pour cibler certains avantages fiscaux vers les revenus faibles et moyens au moyen d'une réduction progressive?
+3. Comment cette leçon se relie-t-elle à la discussion de la leçon 10 sur les effets en cascade de l'AGI?
+
+## Corrigé
+
+1. Un mécanisme par lequel le montant d'un crédit diminue graduellement, puis disparaît complètement, à mesure que le revenu dépasse un certain seuil.
+2. Offrir un allègement ciblé précisément aux contribuables à revenu faible et moyen, l'avantage diminuant à mesure que le revenu — et, selon certains, le besoin de cet allègement précis — augmente.
+3. Une déduction « au-dessus de la ligne » qui réduit l'AGI peut aider un contribuable à rester sous un seuil de réduction progressive, ce qui préserve son admissibilité à un crédit qui aurait autrement pu être réduit ou éliminé — un exemple direct et pratique de la notion d'effet en cascade de l'AGI de la leçon 10.
+
+## Réponses et explications
+
+1. C'est la définition de base de la leçon.
+2. Ça donne un contexte de politique général, présenté de façon neutre, pour cette conception courante.
+3. Ça relie explicitement la leçon à la leçon 10, ce qui renforce la structure intégrée du parcours.
+
+## Points clés à retenir
+- Une réduction progressive diminue graduellement, puis élimine, un crédit d'impôt à mesure que le revenu dépasse un certain seuil.
+- Cette conception vise souvent à cibler l'allègement précisément vers les contribuables à revenu faible et moyen.
+- Les déductions « au-dessus de la ligne » qui réduisent l'AGI peuvent parfois préserver l'admissibilité à un crédit qui serait autrement réduit avec un AGI plus élevé.
+
+## Avis pédagogique
+Cette leçon sert uniquement à l'éducation financière générale et ne constitue pas un conseil financier, de placement, fiscal ou juridique personnalisé. Les règles, les seuils et les montants de réduction progressive des crédits varient selon le territoire et changent avec le temps; consulte un fiscaliste autorisé pour obtenir des conseils adaptés à ta situation.
+
+===== GREEN-L3-033
+TITLE: Pourquoi le revenu international crée un risque de double imposition
+SUMMARY: Découvre pourquoi gagner un revenu dans plusieurs pays peut créer un vrai risque que ce revenu soit imposé deux fois, une fois par chacun des pays en cause.
+# GREEN-L3-033 : Pourquoi le revenu international crée un risque de double imposition
+
+## Objectifs d'apprentissage
+À la fin de cette leçon, tu pourras :
+- Expliquer pourquoi gagner un revenu à l'international peut créer un risque de double imposition
+- Expliquer, de façon générale, la différence entre l'imposition mondiale et l'imposition territoriale
+- Avoir un aperçu de la notion de convention fiscale abordée dans la prochaine leçon
+
+## Contenu principal
+
+Les pays adoptent différentes approches générales quant au revenu qu'ils imposent. Certains pays imposent généralement leurs résidents ou leurs citoyens sur leur **revenu mondial** — le revenu gagné n'importe où dans le monde, et pas seulement au pays. (Le Canada, par exemple, impose ses résidents sur leur revenu mondial.) D'autres pays utilisent généralement une approche plus **territoriale**, en imposant surtout le revenu gagné à l'intérieur de leurs propres frontières, peu importe la résidence ou la citoyenneté du contribuable.
+
+Voici « pourquoi » ça crée un vrai risque de double imposition pour une personne qui gagne un revenu à l'international : si une personne est résidente fiscale (ou citoyenne) d'un pays qui utilise une approche d'imposition mondiale, tout en gagnant un revenu dans un autre pays qui impose séparément le revenu gagné à l'intérieur de ses propres frontières selon ses propres règles territoriales, ce même revenu pourrait, sans mécanisme pour l'empêcher, être imposé deux fois — une fois par chaque pays, selon les règles indépendantes de chacun.
+
+[VERIFIED FACT] Ce vrai risque est exactement la raison pour laquelle des mécanismes comme les crédits pour impôt étranger (qui permettent à l'impôt payé à un pays de compenser l'impôt autrement dû à un autre sur le même revenu) et les conventions fiscales (abordées dans la prochaine leçon) existent — sans mécanisme de coordination, le revenu transfrontalier ferait régulièrement face à ce problème de double imposition, que la plupart des pays et des cadres fiscaux internationaux visent précisément à réduire ou à éliminer au moyen de ce genre d'outils.
+
+## Exemple pratique
+
+[ILLUSTRATIVE EXAMPLE] Une personne résidente fiscale d'un pays qui utilise l'imposition mondiale gagne un revenu en travaillant temporairement dans un autre pays, qui impose le revenu gagné à l'intérieur de ses propres frontières selon ses propres règles distinctes. Sans mécanisme de coordination, ce revenu pourrait être imposé une fois par le pays où il a réellement été gagné, puis de nouveau par le pays d'origine de la personne selon son approche d'imposition mondiale — le même revenu, imposé deux fois, par deux gouvernements distincts qui appliquent chacun leurs propres règles indépendantes. [ASSUMPTION] Un crédit pour impôt étranger ou une convention fiscale applicable, abordée dans la prochaine leçon, serait généralement l'outil utilisé pour régler et réduire ce risque précis de double imposition.
+
+## Quiz de pratique
+
+1. Quelle est, de façon générale, la différence entre l'imposition mondiale et l'imposition territoriale?
+2. Pourquoi gagner un revenu à l'international peut-il créer un vrai risque de double imposition?
+3. Nomme un mécanisme mentionné dans cette leçon qui existe précisément pour réduire ce risque.
+
+## Corrigé
+
+1. L'imposition mondiale impose généralement les résidents ou les citoyens sur le revenu gagné n'importe où; l'imposition territoriale impose généralement le revenu gagné à l'intérieur des frontières d'un pays, peu importe la résidence ou la citoyenneté du contribuable.
+2. Parce que le pays d'origine d'une personne (qui utilise l'imposition mondiale) et le pays où le revenu a réellement été gagné (qui utilise l'imposition territoriale) pourraient chacun imposer indépendamment ce même revenu selon leurs propres règles distinctes.
+3. Un crédit pour impôt étranger ou une convention fiscale (abordée dans la prochaine leçon).
+
+## Réponses et explications
+
+1. Ça établit les deux approches générales d'imposition sur lesquelles repose le risque central de la leçon.
+2. C'est le « pourquoi » central qui explique comment la double imposition peut découler de l'interaction de ces approches différentes.
+3. Ça donne un aperçu des outils de coordination précis qui existent pour réduire ce risque.
+
+## Points clés à retenir
+- L'imposition mondiale impose les résidents ou les citoyens sur le revenu gagné n'importe où; l'imposition territoriale impose surtout le revenu gagné à l'intérieur des frontières d'un pays.
+- Ces approches différentes peuvent créer un vrai risque de double imposition pour une personne qui gagne un revenu dans plusieurs pays.
+- Les crédits pour impôt étranger et les conventions fiscales existent précisément pour réduire ou éliminer ce risque.
+
+## Avis pédagogique
+Cette leçon sert uniquement à l'éducation financière générale et ne constitue pas un conseil financier, de placement, fiscal ou juridique personnalisé. Les règles fiscales internationales varient beaucoup selon le pays et changent avec le temps; consulte un fiscaliste autorisé en fiscalité internationale pour obtenir des conseils adaptés à ta situation.
+
+===== GREEN-L3-034
+TITLE: Pourquoi les conventions fiscales existent pour régler les conflits fiscaux transfrontaliers
+SUMMARY: Découvre ce que fait généralement une convention fiscale, et pourquoi la négociation d'une telle convention entre deux pays règle directement le risque de double imposition de la leçon 33.
+# GREEN-L3-034 : Pourquoi les conventions fiscales existent pour régler les conflits fiscaux transfrontaliers
+
+## Objectifs d'apprentissage
+À la fin de cette leçon, tu pourras :
+- Expliquer le but général d'une convention fiscale entre deux pays
+- Expliquer comment une convention fiscale règle directement le risque de double imposition présenté à la leçon 33
+- Expliquer pourquoi les dispositions des conventions varient beaucoup d'une paire de pays à l'autre
+
+## Contenu principal
+
+Une **convention fiscale** est une entente négociée entre deux pays précisément pour coordonner la façon dont chacun imposera certains types de revenu transfrontalier, ce qui règle directement le risque de double imposition décrit à la leçon 33.
+
+Voici « pourquoi » une entente bilatérale est le mécanisme utilisé pour régler ça : comme chaque pays fixe généralement ses propres règles fiscales de façon indépendante, régler un conflit potentiel entre les règles de deux pays précis exige que ces deux pays s'entendent précisément, entre eux, sur des règles pour traiter certaines catégories de revenu transfrontalier — quel pays a le droit premier d'imposer dans des situations précises et, souvent, des mécanismes comme des taux de retenue réduits ou des crédits pour éviter que le même revenu soit pleinement imposé par les deux pays.
+
+[VERIFIED FACT] Les dispositions des conventions fiscales varient beaucoup d'une paire de pays à l'autre, puisque chaque convention est négociée individuellement en fonction des régimes fiscaux précis, de la relation économique et des priorités de politique de chaque pays — une convention entre deux pays précis ne s'applique pas automatiquement à une convention entre une autre paire de pays, ni ne lui ressemble, ce qui veut dire que la planification fiscale transfrontalière exige généralement d'examiner la convention précise (s'il y en a une) entre les pays précis réellement en cause dans une situation donnée.
+
+## Exemple pratique
+
+[ILLUSTRATIVE EXAMPLE] Deux pays négocient une convention fiscale qui précise comment certains types de revenu (comme les dividendes, les intérêts ou les bénéfices d'entreprise) gagnés par un résident d'un pays à l'intérieur des frontières de l'autre pays seront imposés, ce qui comprend généralement des taux de retenue réduits ou des mécanismes de crédit pour éviter la pleine double imposition de ce revenu. [ASSUMPTION] Une personne qui gagne un revenu semblable entre une autre paire de pays, sans convention comparable en place (ou avec une convention dont les modalités sont très différentes), pourrait faire face à un résultat fiscal différent, potentiellement moins avantageux — ce qui montre pourquoi la convention précise (ou son absence) entre les pays exacts en cause compte directement, plutôt que de supposer que les modalités des conventions sont interchangeables.
+
+## Quiz de pratique
+
+1. Quel est le but général d'une convention fiscale entre deux pays?
+2. Comment une convention fiscale règle-t-elle directement le risque de double imposition présenté à la leçon 33?
+3. Pourquoi ne peut-on pas supposer qu'une convention entre une paire de pays s'applique à une convention entre une autre paire, ou lui ressemble?
+
+## Corrigé
+
+1. Coordonner la façon dont deux pays précis imposeront chacun certains types de revenu transfrontalier entre eux, ce qui règle directement les conflits potentiels entre leurs règles fiscales fixées indépendamment.
+2. En établissant quel pays a le droit premier d'imposer dans des situations précises et en prévoyant des mécanismes comme des taux de retenue réduits ou des crédits pour éviter que le même revenu soit pleinement imposé par les deux pays.
+3. Parce que chaque convention est négociée individuellement en fonction des régimes fiscaux, de la relation économique et des priorités de politique des pays en cause, ce qui veut dire que les modalités varient beaucoup d'une paire de pays à l'autre.
+
+## Réponses et explications
+
+1. C'est la définition de base de la leçon.
+2. Ça relie directement la leçon au risque de double imposition décrit à la leçon 33.
+3. C'est une mise en garde importante et pratique contre l'idée que les modalités des conventions sont interchangeables entre différentes paires de pays.
+
+## Points clés à retenir
+- Une convention fiscale est une entente bilatérale entre deux pays qui coordonne la façon dont certains revenus transfrontaliers seront imposés.
+- Elle règle directement le risque de double imposition qui peut découler du conflit entre les règles fiscales fixées indépendamment par deux pays.
+- Les modalités des conventions varient beaucoup d'une paire de pays à l'autre, ce qui exige d'examiner la convention précise (s'il y en a une) applicable aux pays exacts en cause dans une situation donnée.
+
+## Avis pédagogique
+Cette leçon sert uniquement à l'éducation financière générale et ne constitue pas un conseil financier, de placement, fiscal ou juridique personnalisé. Les modalités des conventions fiscales varient beaucoup d'une paire de pays à l'autre et changent avec le temps; consulte un fiscaliste autorisé en fiscalité internationale pour obtenir des conseils adaptés à ta situation.
+
+===== GREEN-L3-035
+TITLE: Pourquoi une vérification fiscale ne veut pas automatiquement dire qu'il y a eu faute
+SUMMARY: Découvre pourquoi être choisi pour une vérification fiscale ne veut pas dire que le contribuable a fait quelque chose de mal, et pourquoi les vérifications servent un objectif de contrôle plus large.
+# GREEN-L3-035 : Pourquoi une vérification fiscale ne veut pas automatiquement dire qu'il y a eu faute
+
+## Objectifs d'apprentissage
+À la fin de cette leçon, tu pourras :
+- Expliquer pourquoi être choisi pour une vérification fiscale ne veut pas automatiquement dire qu'il y a eu faute
+- Nommer des raisons générales pour lesquelles une déclaration pourrait être choisie pour une vérification
+- Expliquer pourquoi garder son calme et avoir des dossiers exacts est la bonne réaction à un avis de vérification
+
+## Contenu principal
+
+Une **vérification fiscale** est un processus d'examen au cours duquel une autorité fiscale examine la déclaration d'un contribuable et ses pièces justificatives plus en détail que le processus de production habituel. Voici « pourquoi » être choisi pour ce processus ne veut pas automatiquement dire que le contribuable a fait quelque chose de mal : [VERIFIED FACT] les déclarations peuvent être choisies pour une vérification pour diverses raisons, dont une sélection aléatoire dans le cadre d'un échantillonnage de conformité courant, des anomalies statistiques par rapport aux tendances habituelles d'un profil de contribuable semblable, ou des éléments précis d'une déclaration (comme des déductions inhabituellement élevées par rapport au revenu) qui méritent simplement un examen plus attentif, sans qu'aucune faute réelle n'ait encore été constatée.
+
+Ça compte parce que l'anxiété qu'un avis de vérification peut provoquer est compréhensible, mais ne devrait pas être vue comme la preuve d'un problème avant qu'un examen réel ait eu lieu. Bien des vérifications se terminent sans aucune modification de la déclaration produite au départ, une fois que le contribuable a fourni la documentation demandée à l'appui de ce qu'il avait déclaré.
+
+C'est pourquoi la bonne réaction à un avis de vérification est de garder son calme, de rassembler une documentation exacte à l'appui des éléments précis examinés et, surtout pour une vérification plus complexe, d'envisager de se faire représenter par un professionnel — et non de supposer le pire avant même que le processus d'examen réel ait commencé.
+
+## Exemple pratique
+
+[ILLUSTRATIVE EXAMPLE] Une contribuable reçoit un avis indiquant qu'une déduction précise de sa déclaration a été choisie pour une vérification. Plutôt que de supposer qu'elle a fait quelque chose de mal, elle rassemble calmement la documentation à l'appui de cette déduction précise — reçus, dossiers et autres preuves recueillis et organisés au moment où elle a demandé la déduction. [ASSUMPTION] Après l'examen de sa documentation, la vérification se termine sans aucune modification de sa déclaration, ce qui confirme que la déduction était légitime depuis le début — ce qui montre que le choix de sa déclaration pour une vérification découlait d'un processus d'examen courant, et non d'une accusation, et qu'une bonne tenue de dossiers (un sujet approfondi dans la prochaine leçon) a rendu le processus simple à régler.
+
+## Quiz de pratique
+
+1. Être choisi pour une vérification fiscale veut-il automatiquement dire qu'il y a eu faute?
+2. Nomme deux raisons générales pour lesquelles une déclaration pourrait être choisie pour une vérification, selon cette leçon.
+3. Quelle est la bonne réaction à la réception d'un avis de vérification?
+
+## Corrigé
+
+1. Non — les déclarations peuvent être choisies pour diverses raisons, dont un échantillonnage aléatoire ou un examen statistique, sans qu'aucune faute réelle n'ait été constatée.
+2. Deux parmi les suivantes : une sélection aléatoire dans le cadre d'un échantillonnage de conformité courant, des anomalies statistiques par rapport aux tendances habituelles, ou des éléments précis qui méritent un examen plus attentif.
+3. Garder son calme, rassembler une documentation exacte à l'appui des éléments précis examinés et envisager de se faire représenter par un professionnel pour une vérification plus complexe.
+
+## Réponses et explications
+
+1. Ça règle directement l'idée fausse, source d'anxiété, autour de laquelle la leçon est construite.
+2. Ça ancre le message rassurant, abstrait, dans des raisons de sélection concrètes et courantes.
+3. Ça donne la réaction pratique et appropriée, et donne un aperçu du thème de la tenue de dossiers de la prochaine leçon.
+
+## Points clés à retenir
+- Être choisi pour une vérification fiscale ne veut pas automatiquement dire qu'il y a eu faute — bien des vérifications découlent d'une sélection aléatoire ou d'un examen courant, et non d'un soupçon de fraude.
+- Bien des vérifications se terminent sans aucune modification une fois la documentation à l'appui fournie.
+- La bonne réaction à un avis de vérification est de rassembler calmement une documentation organisée, et de se faire représenter par un professionnel au besoin.
+
+## Avis pédagogique
+Cette leçon sert uniquement à l'éducation financière générale et ne constitue pas un conseil financier, de placement, fiscal ou juridique personnalisé. Les processus de vérification varient selon le territoire; consulte un fiscaliste autorisé si tu reçois un avis de vérification.

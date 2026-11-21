@@ -1,0 +1,183 @@
+===== WHITE-L3-013
+TITLE: Warum eine Einmalanlage einen Sparplan oft schlägt (und warum Menschen trotzdem den Sparplan wählen)
+SUMMARY: Erfahre, warum es in steigenden Märkten statistisch meist besser abschneidet, alles auf einmal anzulegen, als regelmäßig mit festen Beträgen zu investieren – und warum viele trotzdem lieber regelmäßig investieren.
+# WHITE-L3-013: Warum eine Einmalanlage einen Sparplan oft schlägt (und warum Menschen trotzdem den Sparplan wählen)
+
+## Lernziele
+Am Ende dieser Lektion kannst du:
+- erklären, warum eine Einmalanlage in einem typischerweise steigenden Markt meist besser abschneidet als regelmäßiges Investieren mit festen Beträgen
+- erklären, warum sich viele Anlegerinnen und Anleger trotz dieser statistischen Tendenz für regelmäßiges Investieren entscheiden
+- erklären, warum das eine legitime Abwägung ist und nicht einfach ein Rechenfehler
+
+## Hauptinhalt
+
+Lektion 12 hat gezeigt, dass regelmäßiges Investieren vor einem bestimmten Szenario mit schlechtem Timing schützt. Hier das „Warum“, mit dem diese Lektion weitergeht: Weil Märkte in der Vergangenheit über die meisten längeren Zeiträume häufiger gestiegen als gefallen sind, hat eine sofortige Einmalanlage – statt die Summe zu verteilen – öfter als nicht zu einem besseren Ergebnis geführt. Denn so ist mehr von deinem Geld länger investiert und möglichen Gewinnen ausgesetzt, statt teilweise uninvestiert zu warten, während es nach und nach angelegt wird.
+
+[VERIFIED FACT] Das ist eine statistische Tendenz auf Grundlage historischer Muster, keine Garantie für einen bestimmten künftigen Zeitraum – es gab Phasen, in denen regelmäßiges Investieren eine Einmalanlage geschlagen hätte, besonders solche, die kurz vor einem deutlichen Rückgang begannen.
+
+Warum entscheiden sich trotzdem viele für regelmäßiges Investieren, obwohl sie diese Tendenz kennen? Der Grund knüpft an das Verhaltensthema aus Lektion 1 an: Regelmäßiges Investieren senkt das emotionale Risiko, eine große Summe direkt vor einem Abschwung anzulegen und dann – getrieben von Reue oder Angst – die Strategie ganz aufzugeben. Wer regelmäßig investiert und an seinem Plan festhält, kann am Ende besser dastehen als jemand, der eine Einmalanlage wählt, dann aber im nächsten Abschwung in Panik verkauft – selbst wenn das regelmäßige Investieren statistisch ein niedrigeres erwartetes Ergebnis hat.
+
+## Durchgerechnetes Beispiel
+
+[ILLUSTRATIVE EXAMPLE] Eine Anlegerin erhält ein großes Erbe und muss entscheiden, ob sie alles sofort anlegt oder es per Sparplan über ein Jahr verteilt. [ASSUMPTION] Historisch hätte in einem zufällig gewählten Jahr die sofortige Einmalanlage das regelmäßige Investieren öfter als nicht geschlagen, weil die Märkte in den meisten historischen Zeiträumen gestiegen sind. Diese Anlegerin weiß aber aus Erfahrung, dass eine plötzliche große Anlage mit anschließendem Kursrückgang ihr erhebliche Sorgen bereiten und sie womöglich zum Verkauf mit Verlust bringen würde. Regelmäßiges Investieren – selbst mit statistisch niedrigerer erwarteter Rendite – kann für sie persönlich die bessere Entscheidung sein, wenn sie dadurch eher bei ihrem Anlageplan bleibt, auch wenn die Märkte schwanken.
+
+## Übungsquiz
+1. Warum schneidet eine Einmalanlage über die meisten historischen Zeiträume statistisch meist besser ab als regelmäßiges Investieren?
+2. Ist diese Tendenz eine Garantie für einen bestimmten künftigen Zeitraum? Warum oder warum nicht?
+3. Warum kann es trotz dieser statistischen Tendenz eine vernünftige Entscheidung sein, regelmäßig zu investieren?
+
+## Lösungsschlüssel
+1. Weil Märkte in der Vergangenheit über längere Zeiträume häufiger gestiegen als gefallen sind, sodass mehr Geld, das länger investiert ist, in der Regel mehr von diesem Aufwärtstrend mitnimmt als schrittweise angelegtes Geld.
+2. Nein – sie beruht auf historischen Mustern, und es gab bestimmte Zeiträume, besonders solche, die vor einem deutlichen Rückgang begannen, in denen regelmäßiges Investieren besser abgeschnitten hätte.
+3. Weil regelmäßiges Investieren das emotionale Risiko eines schlechten Timings und anschließender Panikverkäufe senken kann und damit möglicherweise zu einem besseren tatsächlichen Ergebnis führt als eine statistisch überlegene Strategie, die man im Abschwung aufgeben würde.
+
+## Antworten und Erklärungen
+1. Das ist die zentrale statistische Begründung hinter dem Titel der Lektion.
+2. Das ist ein wichtiger, angemessen vorsichtiger Hinweis gegen zu viel Vertrauen in historische Muster.
+3. Das verbindet die Entscheidung wieder mit der Anlegerpsychologie und bekräftigt, dass die „beste“ Wahl auf dem Papier nicht immer die beste Wahl für das Verhalten eines bestimmten Menschen ist.
+
+## Das Wichtigste in Kürze
+- Eine Einmalanlage hat in der Vergangenheit öfter als nicht besser abgeschnitten als regelmäßiges Investieren, weil Märkte über die meisten längeren Zeiträume eher gestiegen sind.
+- Das ist eine statistische Tendenz, keine Garantie für einen bestimmten Zeitraum.
+- Viele entscheiden sich trotzdem vernünftigerweise für regelmäßiges Investieren, weil es das emotionale Risiko schlechten Timings senken und die Chance erhöhen kann, langfristig beim Anlageplan zu bleiben.
+
+## Hinweis zum Bildungszweck
+Diese Lektion dient ausschließlich der allgemeinen finanziellen Bildung und ist keine individuelle Finanz-, Anlage-, Steuer- oder Rechtsberatung. Frühere Wertentwicklungen sind kein verlässlicher Indikator für künftige Ergebnisse. Wende dich vor Anlageentscheidungen an eine zugelassene Fachperson, etwa eine unabhängige Anlage- oder Honorarberatung.
+
+===== WHITE-L3-014
+TITLE: Warum Rebalancing dich automatisch teuer verkaufen und günstig kaufen lässt
+SUMMARY: Erfahre, wie das Rebalancing eines Portfolios funktioniert und warum es die Disziplin „günstig kaufen, teuer verkaufen“ in einen mechanischen Ablauf einbaut, statt auf Willenskraft zu setzen.
+# WHITE-L3-014: Warum Rebalancing dich automatisch teuer verkaufen und günstig kaufen lässt
+
+## Lernziele
+Am Ende dieser Lektion kannst du:
+- erklären, was das Rebalancing eines Portfolios bedeutet
+- erklären, warum Rebalancing mechanisch dazu führt, relative Gewinner zu verkaufen und relative Verlierer zu kaufen
+- dieses Konzept mit der zentralen Herausforderung aus Lektion 1 verbinden
+
+## Hauptinhalt
+
+Lektion 1 hat diesen Track mit der Schwierigkeit eröffnet, „günstig kaufen, teuer verkaufen“ tatsächlich umzusetzen. **Rebalancing** bietet dafür eine teilweise, mechanische Lösung: Man passt ein Portfolio regelmäßig wieder an seine ursprüngliche Zielaufteilung an (zum Beispiel 60 % Aktien und 40 % Anleihen), nachdem Marktbewegungen die Anteile von diesem Ziel weggeschoben haben.
+
+Hier das „Warum“, weshalb sich das gewünschte Verhalten so automatisch ergibt: Haben sich Aktien gut entwickelt und machen sie nun 70 % statt der angestrebten 60 % des Portfolios aus, bedeutet Rebalancing, einen Teil der Aktien zu verkaufen (die relativ an Wert gewonnen haben) und mehr Anleihen zu kaufen (die zurückgeblieben sind), um das ursprüngliche Ziel wiederherzustellen. So verkaufst du mechanisch einen Teil dessen, was gestiegen ist, und kaufst einen Teil dessen, was es nicht ist – ohne die nächste Marktbewegung vorhersagen zu müssen.
+
+[VERIFIED FACT] Rebalancing kann nach festem Zeitplan erfolgen (zum Beispiel jährlich) oder ausgelöst werden, wenn die Aufteilung über eine bestimmte Schwelle hinaus abweicht – beide Ansätze nehmen emotionale Entscheidungen aus dem Prozess und ersetzen sie durch eine vorher festgelegte Regel.
+
+## Durchgerechnetes Beispiel
+
+[ILLUSTRATIVE EXAMPLE] Ein Anleger startet mit einem Portfolio aus 60 % Aktien und 40 % Anleihen. Nach einem starken Aktienjahr hat sich das Portfolio auf 72 % Aktien und 28 % Anleihen verschoben. Rebalancing bedeutet, so viele Aktien zu verkaufen und so viele Anleihen zu kaufen, dass das Ziel 60/40 wieder erreicht ist – mechanisch einen Teil des Gewinns bei der erfolgreichen Anlageklasse mitzunehmen und die zurückgebliebene aufzustocken, nach einer vorher festgelegten Regel statt nach einer Vorhersage, was als Nächstes passiert. [ASSUMPTION] Steigen die Aktien danach weiter, hat dieses Rebalancing den Anleger etwas zusätzliches Gewinnpotenzial „gekostet“; geben die Aktien dagegen nach, wirkt das Rebalancing im Rückblick vorausschauend – in beiden Fällen aber wurde der Prozess konsequent befolgt statt aus einer Reaktion heraus.
+
+## Übungsquiz
+1. Was bedeutet das Rebalancing eines Portfolios?
+2. Warum führt Rebalancing mechanisch dazu, relativ besser gelaufene Anlagen zu verkaufen und relativ schlechter gelaufene zu kaufen?
+3. Warum nimmt das emotionale Entscheidungen aus dem Prozess?
+
+## Lösungsschlüssel
+1. Ein Portfolio regelmäßig wieder an seine ursprüngliche Zielaufteilung der Anlageklassen anzupassen, nachdem Marktbewegungen die tatsächlichen Anteile von diesem Ziel weggeschoben haben.
+2. Weil eine gut gelaufene Anlageklasse auf einen größeren Anteil am Portfolio wächst als beabsichtigt, sodass man für die Rückkehr zur Zielaufteilung einen Teil davon verkaufen muss; umgekehrt muss eine zurückgebliebene Anlageklasse aufgestockt werden.
+3. Weil die Entscheidung zu verkaufen oder zu kaufen auf einer vorher festgelegten Regel beruht (der Zielaufteilung und einem Zeitplan oder einer Schwelle für das Rebalancing) und nicht auf einer Einschätzung im Moment, wohin sich der Markt als Nächstes bewegt.
+
+## Antworten und Erklärungen
+1. Das ist die begriffliche Grundlage für den Rest der Lektion.
+2. Das erklärt den konkreten Mechanismus, der die Disziplin „günstig kaufen, teuer verkaufen“ in den Prozess einbaut.
+3. Das verbindet den mechanischen Prozess wieder mit der Verhaltensherausforderung aus Lektion 1.
+
+## Das Wichtigste in Kürze
+- Rebalancing stellt regelmäßig die ursprüngliche Zielaufteilung eines Portfolios wieder her.
+- Das führt mechanisch dazu, relativ gut gelaufene Anlagen zu verkaufen und zurückgebliebene zu kaufen, ohne künftige Entwicklungen vorhersagen zu müssen.
+- Ein vorher festgelegter Zeitplan oder eine Schwelle nimmt emotionale Entscheidungen aus dem Prozess.
+
+## Hinweis zum Bildungszweck
+Diese Lektion dient ausschließlich der allgemeinen finanziellen Bildung und ist keine individuelle Finanz-, Anlage-, Steuer- oder Rechtsberatung. Alle Zahlen sind veranschaulichende Schätzungen, keine Garantien. Wende dich vor Anlageentscheidungen an eine zugelassene Fachperson, etwa eine unabhängige Anlage- oder Honorarberatung.
+
+===== WHITE-L3-015
+TITLE: Warum das Reihenfolgerisiko der Renditen im Ruhestand wichtiger ist als in der Ansparphase
+SUMMARY: Erfahre, warum die Reihenfolge, in der Anlagerenditen eintreten, wichtiger sein kann als die Durchschnittsrendite selbst – besonders sobald du anfängst, Geld zu entnehmen.
+# WHITE-L3-015: Warum das Reihenfolgerisiko der Renditen im Ruhestand wichtiger ist als in der Ansparphase
+
+## Lernziele
+Am Ende dieser Lektion kannst du:
+- erklären, was das Reihenfolgerisiko der Renditen (Sequence-of-Returns-Risiko) bedeutet
+- erklären, warum dieselbe Durchschnittsrendite je nach Reihenfolge zu sehr unterschiedlichen Ergebnissen führen kann
+- erklären, warum dieses Risiko in der Ansparphase viel kleiner ist als bei Entnahmen im Ruhestand
+
+## Hauptinhalt
+
+Die meisten Gespräche über Anlagerenditen drehen sich um die durchschnittliche jährliche Rendite über einen Zeitraum. Das **Reihenfolgerisiko der Renditen** macht etwas sichtbar, das der Durchschnitt allein verbirgt: Die *Reihenfolge*, in der diese Renditen eintreten, kann das Endergebnis erheblich verändern – besonders wenn regelmäßig Geld entnommen wird.
+
+Hier das „Warum“, weshalb die Reihenfolge bei Entnahmen so wichtig ist: Hat ein Portfolio früh in der Entnahmephase schlechte Renditen, muss die Anlegerin oder der Anleger für jede Entnahme mehr Anteile (oder einen größeren Prozentsatz des Portfolios) zu gedrückten Kursen verkaufen. Das verkleinert dauerhaft die verbleibende Vermögensbasis, die sich erholen könnte, wenn sich der Markt später verbessert. Dieselben schlechten Renditen richten weniger Schaden an, wenn sie später kommen, nach einigen Jahren mit Entnahmen – es bleibt dann einfach weniger Zeit, in der sich ein früher Schaden negativ aufschaukeln kann.
+
+[VERIFIED FACT] In der Ansparphase (wenn man Geld einzahlt, nicht entnimmt) spielt die Reihenfolge der Renditen eine viel kleinere Rolle, weil man nicht gezwungen ist, in einen Abschwung hinein zu verkaufen – man kann einfach weiter einzahlen und auf eine Erholung warten, ohne Verluste durch Entnahmen festschreiben zu müssen.
+
+## Durchgerechnetes Beispiel
+
+[ILLUSTRATIVE EXAMPLE] Zwei Ruheständler starten mit demselben Portfoliowert, entnehmen jedes Jahr denselben Betrag und erzielen über 20 Jahre genau dieselbe durchschnittliche Jahresrendite – nur in anderer Reihenfolge. Ruheständlerin A erlebt in den ersten Ruhestandsjahren schlechte Renditen und muss deshalb während dieses Abschwungs höhere Entnahmen (im Verhältnis zu einem schrumpfenden Portfolio) tätigen. Ruheständler B erlebt dieselben schlechten Jahre, aber später im 20-Jahres-Zeitraum, nachdem das Portfolio in früheren guten Jahren bereits gewachsen ist. [ASSUMPTION] Trotz identischer Durchschnittsrenditen kann das Geld im Portfolio von Ruheständlerin A deutlich früher aufgebraucht sein als bei Ruheständler B – allein deshalb, weil die schlechten Renditen im Verhältnis zum Entnahmeplan zu einem anderen Zeitpunkt kamen.
+
+## Übungsquiz
+1. Was beschreibt das Reihenfolgerisiko der Renditen?
+2. Warum können schlechte Renditen früh in der Entnahmephase viel mehr Schaden anrichten als dieselben schlechten Renditen später?
+3. Warum spielt das Reihenfolgerisiko in der Ansparphase eine viel kleinere Rolle?
+
+## Lösungsschlüssel
+1. Das Risiko, dass die Reihenfolge, in der Anlagerenditen eintreten – nicht nur ihr Durchschnitt –, das Ergebnis eines Portfolios erheblich beeinflussen kann, besonders wenn regelmäßig entnommen wird.
+2. Weil frühe schlechte Renditen zu höheren Entnahmen im Verhältnis zu einem bereits schrumpfenden Portfolio zwingen und so dauerhaft die Vermögensbasis verkleinern, die von einer späteren Erholung profitieren könnte.
+3. Weil man ohne erzwungene Entnahmen einfach weiter einzahlen und einen Abschwung aussitzen kann, ohne in ihn hinein verkaufen zu müssen – die Reihenfolge der Renditen schaukelt sich dann nicht auf dieselbe Weise auf.
+
+## Antworten und Erklärungen
+1. Das ist die grundlegende Definition der Lektion.
+2. Das ist der zentrale Mechanismus, der erklärt, warum im Ruhestand der Zeitpunkt und nicht nur die Durchschnittsrendite so wichtig ist.
+3. Das stellt Anspar- und Entnahmephase direkt gegenüber und macht klar, wann dieses Risiko am wichtigsten ist.
+
+## Das Wichtigste in Kürze
+- Das Reihenfolgerisiko bedeutet, dass die Reihenfolge der Anlagerenditen genauso wichtig sein kann wie ihr Durchschnitt, besonders bei Entnahmen.
+- Schlechte Renditen früh in der Entnahmephase richten überproportionalen Schaden an, weil sie dazu zwingen, mehr von einem schrumpfenden Portfolio zu verkaufen.
+- In der Ansparphase ist dieses Risiko viel kleiner, weil es keine erzwungenen Verkäufe gibt, die frühe Verluste festschreiben.
+
+## Hinweis zum Bildungszweck
+Diese Lektion dient ausschließlich der allgemeinen finanziellen Bildung und ist keine individuelle Finanz-, Anlage-, Steuer- oder Rechtsberatung. Alle Zahlen sind veranschaulichende Schätzungen, keine Garantien. Wende dich vor Entscheidungen zur Ruhestandsplanung an eine zugelassene Fachperson.
+
+===== WHITE-L3-016
+TITLE: Warum eine „sichere“ Entnahmerate keine Garantie ist
+SUMMARY: Erfahre, wofür eine sichere Entnahmerate stehen soll – und warum sie eine historische Richtschnur ist, kein Versprechen über deine persönliche Zukunft.
+# WHITE-L3-016: Warum eine „sichere“ Entnahmerate keine Garantie ist
+
+## Lernziele
+Am Ende dieser Lektion kannst du:
+- erklären, was eine „sichere Entnahmerate“ schätzen soll
+- erklären, warum sie auf historischen Rückrechnungen beruht und keine garantierte Formel ist
+- dieses Konzept mit dem Reihenfolgerisiko der Renditen aus Lektion 15 verbinden
+
+## Hauptinhalt
+
+Eine **sichere Entnahmerate** ist eine viel diskutierte Richtschnur: ein Prozentsatz eines Ruhestandsportfolios, der in der Vergangenheit jedes Jahr (inflationsbereinigt) hätte entnommen werden können, mit hoher Wahrscheinlichkeit, dass das Portfolio über eine typische Ruhestandsdauer reicht – ermittelt durch die Untersuchung historischer Marktdaten.
+
+Hier das „Warum“, weshalb das keine Garantie ist: Solche Richtschnüre entstehen, indem man Entnahmestrategien an historischen Renditeabfolgen testet (direkt verbunden mit Lektion 15) – also an Zeiträumen, die bereits vergangen sind. [VERIFIED FACT] Eine Rate, die in den meisten oder sogar allen untersuchten historischen Zeiträumen funktioniert hätte, garantiert nicht, dass sie für den tatsächlichen künftigen Ruhestand eines bestimmten Menschen funktioniert, denn künftige Marktbedingungen, Inflation und Renditeabfolgen müssen den in der Analyse verwendeten historischen Zeiträumen nicht ähneln.
+
+Deshalb kann es irreführend sein, einen bestimmten Prozentsatz als feste, garantierte Zahl zu behandeln. Besser versteht man ihn als historisch fundierten Ausgangspunkt, den viele Ruheständler und Finanzplaner anhand der tatsächlichen Marktentwicklung im Ruhestand, der Flexibilität bei den Ausgaben und anderer persönlicher Umstände anpassen – statt ihn starr zu befolgen, egal was geschieht.
+
+## Durchgerechnetes Beispiel
+
+[ILLUSTRATIVE EXAMPLE] Ein Ruheständler plant seine Entnahmen nach einer häufig zitierten historischen Richtschnur und erwartet, dass sein Portfolio bequem bis zum Ende des Ruhestands reicht. [ASSUMPTION] Gerät er zufällig in eine Renditeabfolge, die deutlich schlechter ist als die meisten historischen Zeiträume, aus denen diese Richtschnur entwickelt wurde – genau das Reihenfolgerisiko aus Lektion 15 –, könnte ein starrer, nicht angepasster Entnahmeplan nach dieser Rate sein Portfolio schneller aufbrauchen, als die historische Analyse vermuten ließ. Ein flexiblerer Ansatz, bei dem die Entnahmen unterwegs etwas an die tatsächliche Entwicklung des Portfolios angepasst werden, könnte besser vor diesem konkreten Risiko schützen.
+
+## Übungsquiz
+1. Was versucht eine sichere Entnahmerate zu schätzen?
+2. Warum ist eine historisch abgeleitete sichere Entnahmerate keine Garantie für den tatsächlichen Ruhestand eines Menschen?
+3. Wie knüpft diese Lektion an das Reihenfolgerisiko der Renditen aus Lektion 15 an?
+
+## Lösungsschlüssel
+1. Einen Prozentsatz eines Ruhestandsportfolios, der in der Vergangenheit jährlich (inflationsbereinigt) hätte entnommen werden können, mit hoher Wahrscheinlichkeit, über einen typischen Ruhestand zu reichen – auf Grundlage historischer Daten.
+2. Weil sie aus Tests an vergangenen Renditeabfolgen stammt und künftige Marktbedingungen, Inflation und Renditeabfolgen den untersuchten historischen Zeiträumen nicht ähneln müssen.
+3. Eine Entnahmerate, die historisch funktioniert hat, kann trotzdem scheitern, wenn jemand früh im eigenen Ruhestand eine besonders ungünstige Renditeabfolge erlebt – genau das Risiko, das Lektion 15 beschreibt.
+
+## Antworten und Erklärungen
+1. Das legt den grundlegenden Zweck des Konzepts fest.
+2. Das ist die zentrale Warnung, um die die Lektion aufgebaut ist – historischer Erfolg garantiert keinen individuellen künftigen Erfolg.
+3. Das verbindet die beiden Lektionen ausdrücklich und unterstreicht den zusammenhängenden Aufbau des Tracks.
+
+## Das Wichtigste in Kürze
+- Eine sichere Entnahmerate ist eine historisch fundierte Richtschnur, keine garantierte Formel für die Zukunft eines Menschen.
+- Sie stammt aus Tests an vergangenen Renditeabfolgen, denen künftige Bedingungen nicht ähneln müssen.
+- Flexible Entnahmen, angepasst an die tatsächliche Entwicklung des Portfolios, können helfen, das Risiko zu steuern, dass eine feste historische Rate nicht wie erwartet aufgeht.
+
+## Hinweis zum Bildungszweck
+Diese Lektion dient ausschließlich der allgemeinen finanziellen Bildung und ist keine individuelle Finanz-, Anlage-, Steuer- oder Rechtsberatung. Frühere Wertentwicklungen sind kein verlässlicher Indikator für künftige Ergebnisse. Wende dich vor Entscheidungen zur Ruhestandsplanung an eine zugelassene Fachperson.

@@ -1,0 +1,411 @@
+===== GREEN-L1-006
+TITLE: Property Tax: Taxing What You Own
+SUMMARY: An introduction to property tax, most commonly applied to land and buildings, and how it funds local services.
+# Property Tax: Taxing What You Own
+
+## Learning Objectives
+
+- Explain what property tax typically applies to.
+- Identify who usually collects property tax.
+- Describe common local services funded by property tax.
+
+## Core Content
+
+Property tax is a tax on things you own, most commonly property and land. Unlike income or sales tax, which are tied to an event (earning or buying), property tax is typically charged on an ongoing basis, often annually, simply because you continue to own the asset.
+
+Local governments — councils, municipalities, or similar regional authorities — are the most common collectors of property tax, and it frequently funds services close to home: schools, local police and fire services, libraries, and road maintenance. Because it's based on property rather than a transaction, property tax bills continue whether or not the owner's income changes that year, which is part of why it can be a significant planning consideration for property owners. (In the UK, for example, the main local property tax on homes is council tax, which is set by the local council using valuation bands and is usually paid by whoever lives in the property, owner or tenant; business premises pay business rates. Discounts and reductions exist, so check your council's current rules.)
+
+## Worked Example
+
+**Question:** A family owns a home but had a difficult year with lower income. Does their property tax bill change because their income dropped?
+
+**Student:** I'd guess it stays the same, since it's about the property, not their pay packet.
+
+**Guide:** Right — what does that tell you about the nature of property tax compared to income tax?
+
+**Student:** It's tied to the property, not to how much you're earning that year, so it doesn't automatically adjust with income.
+
+**Guide:** Exactly — that's an important planning distinction.
+
+## Practice Quiz
+
+**Question 1.** Property tax is most commonly applied to:
+
+A) Wages
+B) Property and land
+C) Retail purchases
+D) Investment gains
+
+**Question 2.** Property tax is usually collected by:
+
+A) National governments only
+B) Local governments
+C) No government
+D) Only banks
+
+**Question 3.** Property tax typically funds:
+
+A) National defence only
+B) Local services like schools and fire services
+C) Nothing specific
+D) Only motorways
+
+**Question 4.** Does property tax automatically decrease if the owner's income drops?
+
+A) Yes, always
+B) No, it's tied to the property, not income
+C) Only for businesses
+D) Only in wealthy countries
+
+## Answer Key
+
+1. B, 2. B, 3. B, 4. B
+
+## Answers and Explanations
+
+**1.** Property and land are the most common targets of property tax, though some places also tax other significant owned assets.
+
+**2.** Local governments typically administer and collect property tax because it funds local services.
+
+**3.** Schools, police, fire services, and roads are commonly funded, wholly or partly, by local property tax revenue.
+
+**4.** Because it's tied to the property rather than income, property tax doesn't automatically move with a person's earnings, although some systems offer reductions for people on low incomes.
+
+## Key Takeaways
+
+- Property tax is charged on property, most often land and buildings.
+- It's typically collected by local governments.
+- It commonly funds schools, public safety, and local infrastructure.
+- Because it's property-based, it doesn't shrink automatically when income drops — a key planning point for households.
+
+===== GREEN-L1-007
+TITLE: Payroll Tax: National Insurance and Similar Contributions
+SUMMARY: Introduces payroll tax as a category tied specifically to employment wages, often funding pensions and health or welfare programmes.
+# Payroll Tax: National Insurance and Similar Contributions
+
+## Learning Objectives
+
+- Define payroll tax and how it differs from general income tax.
+- Explain that payroll tax is often split between employer and employee.
+- Identify common programmes funded by payroll tax.
+
+## Core Content
+
+Payroll tax is a tax specifically tied to employment wages. It's related to income tax but distinct from it — while income tax funds general government spending, payroll tax is frequently linked to specific programmes, most commonly state pensions and health or welfare benefits. (In the UK, for example, the main payroll tax is National Insurance contributions, which help build entitlement to the State Pension and certain benefits.)
+
+In many systems, payroll tax is split: part is deducted from the employee's pay, and part is paid directly by the employer on top of the wage, meaning the true cost of an employee to a business is higher than just the take-home amount. This split matters later when we look at self-employment, because a self-employed person often ends up responsible for their own contributions, sometimes at different rates. (In the UK, employees pay employee National Insurance through payroll, employers pay employer National Insurance on top, and the self-employed pay their own classes through Self Assessment; check HMRC for current rates.)
+
+## Worked Example
+
+**Question:** An employer pays a worker a wage, and separately sends an additional payroll tax payment to the government. Is the employer's payroll tax cost part of the worker's pay packet?
+
+**Student:** I'd assume it's separate since the worker never sees that money.
+
+**Guide:** Right, but is it still a cost of employing that worker?
+
+**Student:** Yes — it's an extra cost on top of wages, even though it doesn't show up on the payslip.
+
+**Guide:** Exactly, which is why 'cost of an employee' is usually higher than the wage alone.
+
+## Practice Quiz
+
+**Question 1.** Payroll tax is specifically tied to:
+
+A) Property
+B) Employment wages
+C) Retail purchases
+D) Inheritance
+
+**Question 2.** Payroll tax commonly funds:
+
+A) Pensions and health or welfare programmes
+B) Only road construction
+C) Only national defence
+D) Nothing specific
+
+**Question 3.** In many systems, payroll tax is:
+
+A) Paid only by the employer
+B) Paid only by the employee
+C) Split between employer and employee
+D) Never actually paid
+
+**Question 4.** The true cost of employing a worker is often:
+
+A) Exactly the amount on their payslip
+B) Higher than their pay due to employer-side payroll tax
+C) Lower than their pay
+D) Unrelated to payroll tax
+
+## Answer Key
+
+1. B, 2. A, 3. C, 4. B
+
+## Answers and Explanations
+
+**1.** Payroll tax is distinct from general income tax because it's specifically linked to wages from employment.
+
+**2.** Pension systems and health or welfare programmes are commonly funded or supported through dedicated payroll tax revenue.
+
+**3.** Splitting the tax between employer and employee is a common structural choice in many systems.
+
+**4.** Because employers pay a share on top of wages, the full cost of an employee exceeds their pay.
+
+## Key Takeaways
+
+- Payroll tax is tied specifically to employment wages, distinct from general income tax.
+- It commonly funds pensions and health or welfare programmes.
+- Many systems split payroll tax between employer and employee.
+- This split becomes especially relevant for self-employed people, covered in a later lesson.
+
+===== GREEN-L1-008
+TITLE: Progressive vs. Regressive Taxes
+SUMMARY: Explains the difference between progressive and regressive tax structures using plain, relatable comparisons.
+# Progressive vs. Regressive Taxes
+
+## Learning Objectives
+
+- Define a progressive tax structure.
+- Define a regressive tax structure.
+- Identify real-world examples of each.
+
+## Core Content
+
+A progressive tax takes a larger percentage from people with higher income or wealth. Most income tax systems are structured this way — as you earn more, a higher percentage of your income (usually just the portion above certain thresholds) is taxed.
+
+A regressive tax, by contrast, effectively takes a larger percentage from people with lower income, even if the tax rate looks the same for everyone. Sales tax is a common example: if two people each buy the same £50 item and pay the same sales tax, that tax represents a much bigger share of a low-income person's total money than a high-income person's. The amount in pounds is equal, but the burden isn't.
+
+Neither structure is inherently 'right' or 'wrong' — they're tools with different effects, and real tax systems usually combine both progressive and regressive elements. Understanding which category a given tax falls into helps you evaluate who actually carries more of the burden.
+
+## Worked Example
+
+**Question:** Two people each pay £5 in sales tax on the same purchase. One earns £2,000 a month, the other earns £20,000 a month. Is the tax progressive or regressive in effect?
+
+**Student:** The amount in pounds is identical, so at first it looks fair.
+
+**Guide:** But what percentage of each person's income does that £5 represent?
+
+**Student:** A much bigger share for the person earning £2,000 than the person earning £20,000.
+
+**Guide:** Right — equal amounts can still have unequal real-world impact, which is the regressive pattern.
+
+## Practice Quiz
+
+**Question 1.** A progressive tax takes:
+
+A) A smaller percentage from higher earners
+B) A larger percentage from higher earners
+C) The same percentage from everyone regardless of income
+D) Nothing from anyone
+
+**Question 2.** A regressive tax effectively burdens:
+
+A) Higher earners more heavily
+B) Lower earners more heavily, as a share of income
+C) No one
+D) Only businesses
+
+**Question 3.** Sales tax is often described as regressive because:
+
+A) It's illegal
+B) Equal amounts represent a bigger share of a lower income
+C) It only applies to the wealthy
+D) It changes every day
+
+**Question 4.** Real-world tax systems:
+
+A) Are always purely progressive
+B) Are always purely regressive
+C) Often combine both progressive and regressive elements
+D) Never combine tax types
+
+## Answer Key
+
+1. B, 2. B, 3. B, 4. C
+
+## Answers and Explanations
+
+**1.** Progressive systems increase the tax rate as income rises, usually applied to portions above set thresholds.
+
+**2.** Regressive taxes take a proportionally bigger bite out of lower incomes even when the amount paid is equal.
+
+**3.** The same £5 tax is a larger share of a smaller income, which is the essence of a regressive effect.
+
+**4.** Most real systems blend progressive elements (like income tax bands) with regressive elements (like a flat-rate sales tax or VAT).
+
+## Key Takeaways
+
+- Progressive taxes rise as a percentage with higher income.
+- Regressive taxes take a proportionally larger share from lower incomes, even at equal amounts.
+- Sales tax is a commonly cited regressive example.
+- Most real systems mix both structures rather than using one exclusively.
+
+===== GREEN-L1-009
+TITLE: Marginal Tax Rates: Why Earning More Doesn't Mean Losing More
+SUMMARY: Clears up one of the most common misunderstandings in personal finance: that moving into a higher tax band means all your income gets taxed at the higher rate.
+# Marginal Tax Rates: Why Earning More Doesn't Mean Losing More
+
+## Learning Objectives
+
+- Explain what a marginal tax rate is.
+- Correct the common misconception that a pay rise can leave you with less total money.
+- Distinguish marginal rate from average (effective) rate.
+
+## Core Content
+
+One of the most persistent misunderstandings in personal finance is the fear that earning more money will somehow leave you worse off because it pushes you into a 'higher tax band.' In systems that use marginal tax bands, this fear is almost always misplaced.
+
+Here's how marginal rates actually work: each band's rate applies only to the portion of income that falls within that band — not to your entire income. If a system taxes income up to a certain amount at 10% and the next chunk at 20%, moving into the 20% band only means that additional chunk is taxed at 20%. The earlier portion still gets taxed at 10%, exactly as before. (In the UK, for example, Income Tax uses a tax-free Personal Allowance followed by basic, higher and additional rate bands that work this way; Scotland has its own set of bands.)
+
+This means your average, or 'effective,' tax rate — total tax paid divided by total income — is always lower than your top marginal rate. Getting a pay rise that pushes you into a higher band might mean the new pounds are taxed at a higher rate, but you will never take home less total money because of a rise under a standard marginal system. Understanding this removes a common, unnecessary fear around promotions, pay rises, and business growth.
+
+## Worked Example
+
+**Question:** A friend turns down a pay rise, worried it will 'push them into a higher band and leave them with less money.' What would you tell them?
+
+**Student:** I'd explain that only the new, additional income gets taxed at the higher rate — not everything they earn.
+
+**Guide:** Right. Can you walk through why that means they'd never end up with less total take-home pay from a rise?
+
+**Student:** Because the rest of their income keeps being taxed at the same lower rates it always was — the higher rate only touches the portion above the threshold.
+
+**Guide:** Exactly — the fear is based on a misunderstanding of how bands actually apply.
+
+## Practice Quiz
+
+**Question 1.** A marginal tax rate applies to:
+
+A) Your entire income at once
+B) Only the portion of income within that specific band
+C) Only your first pay packet
+D) Nothing — it's a myth
+
+**Question 2.** If a pay rise pushes you into a higher band under a marginal system, does your take-home pay decrease overall?
+
+A) Yes, always
+B) No — only the new portion is taxed at the higher rate
+C) Only for self-employed people
+D) Only in some countries, never others
+
+**Question 3.** Your effective (average) tax rate is:
+
+A) Always equal to your top marginal rate
+B) Always higher than your top marginal rate
+C) Typically lower than your top marginal rate
+D) Unrelated to your income
+
+**Question 4.** The fear that 'a pay rise can leave you with less money' is generally:
+
+A) Accurate in marginal systems
+B) A common misunderstanding of how bands work
+C) True only for the wealthy
+D) Impossible to evaluate
+
+## Answer Key
+
+1. B, 2. B, 3. C, 4. B
+
+## Answers and Explanations
+
+**1.** Marginal rates apply band by band, not as a blanket rate on total income.
+
+**2.** Because only the new income above the threshold is taxed at the higher rate, total take-home pay from a rise never decreases under a standard marginal system.
+
+**3.** Blending lower-band and higher-band rates across your whole income always produces an average below the top rate.
+
+**4.** This fear is extremely common but doesn't hold up once you understand how bands are actually applied.
+
+## Key Takeaways
+
+- Marginal rates apply only to the income within each specific band.
+- A pay rise never results in lower total take-home pay under a standard marginal system.
+- Your effective tax rate is a blended average, always below your top marginal rate.
+- Understanding this removes unnecessary fear around pay rises, promotions, and business growth.
+
+===== GREEN-L1-010
+TITLE: Tax Bands Explained
+SUMMARY: A concrete walkthrough of how tax bands are structured and applied step by step, building directly on the marginal rate concept.
+# Tax Bands Explained
+
+## Learning Objectives
+
+- Read and interpret a simple tax band table.
+- Calculate tax owed across multiple bands for a sample income.
+- Reinforce the marginal-rate concept with a numeric example.
+
+## Core Content
+
+Building on the previous lesson, let's walk through bands with actual numbers. Imagine an illustrative, simplified band table: income from £0–£10,000 is taxed at 10%; income from £10,001–£40,000 is taxed at 20%; income above £40,000 is taxed at 30%.
+
+If someone earns £50,000, they do not pay 30% on the whole £50,000. Instead: the first £10,000 is taxed at 10% (£1,000), the next £30,000 (from £10,001 to £40,000) is taxed at 20% (£6,000), and the remaining £10,000 (from £40,001 to £50,000) is taxed at 30% (£3,000). Total tax owed: £10,000, which works out to an effective rate of 20% — well below the 30% top band.
+
+This step-by-step, band-by-band calculation is exactly what marginal taxation means in practice. Real-world band numbers vary by country and change over time, so the specific figures here are illustrative only — the method of calculation is the durable, transferable skill.
+
+> **Note:** The band percentages and thresholds in this lesson are illustrative teaching numbers, not figures for any specific country, including the UK. Verify the actual current bands for your jurisdiction, for example on GOV.UK.
+
+## Worked Example
+
+**Question:** Using the illustrative bands above, how much tax would someone earning exactly £40,000 owe?
+
+**Student:** Let me work through it in order — first £10,000 at 10% is £1,000.
+
+**Guide:** Good, keep going.
+
+**Student:** The remaining £30,000, from £10,001 to £40,000, is taxed at 20%, which is £6,000.
+
+**Guide:** And is any of it taxed at 30%?
+
+**Student:** No — they didn't earn anything above £40,000, so the 30% band never applies. Total is £1,000 + £6,000 = £7,000.
+
+**Guide:** Exactly right — and notice their effective rate is 17.5%, not 20% and not 30%.
+
+## Practice Quiz
+
+**Question 1.** Using the illustrative bands in this lesson, how much of a £50,000 income is taxed at 30%?
+
+A) All £50,000
+B) £10,000
+C) £30,000
+D) £0
+
+**Question 2.** What is the total illustrative tax owed on £50,000 in this example?
+
+A) £15,000
+B) £10,000
+C) £5,000
+D) £20,000
+
+**Question 3.** The effective tax rate in the £50,000 example is:
+
+A) 30%
+B) 20%
+C) 10%
+D) 0%
+
+**Question 4.** Are the specific band numbers in this lesson meant to be memorised as real figures?
+
+A) Yes, they apply everywhere
+B) No — they're illustrative; real bands vary by country and change over time
+C) Yes, but only for one country
+D) They are irrelevant to the lesson
+
+## Answer Key
+
+1. B, 2. B, 3. B, 4. B
+
+## Answers and Explanations
+
+**1.** Only the portion of income above £40,000 — which is £10,000 — falls into the 30% band.
+
+**2.** Adding £1,000 + £6,000 + £3,000 across the three bands gives a total of £10,000.
+
+**3.** Dividing total tax (£10,000) by total income (£50,000) gives an effective rate of 20%.
+
+**4.** The figures are a teaching tool; the calculation method is what transfers to any real band table.
+
+## Key Takeaways
+
+- Bands apply step by step, with each rate only touching the income within that band.
+- Walking through the maths concretely reinforces why the marginal rate concept matters in practice.
+- Effective tax rate is always a blend, and always lower than the top band touched.
+- The specific numbers used here are illustrative — always check your own jurisdiction's actual band table.

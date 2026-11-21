@@ -1,0 +1,399 @@
+===== GREEN-L4-001
+TITLE: El análisis de la tasa contributiva marginal y la efectiva: por qué su último dólar no paga lo mismo que su dólar promedio
+SUMMARY: Aprenda la diferencia entre la tasa marginal y la tasa efectiva, por qué pasar a un tramo más alto no grava todo el ingreso a la tasa mayor y por qué un aumento nunca reduce su ingreso neto.
+KEYWORDS: tasa contributiva marginal, tasa contributiva efectiva, tramos contributivos, conceptos básicos de la contribución sobre ingresos
+# El análisis de la tasa contributiva marginal y la efectiva: por qué su último dólar no paga lo mismo que su dólar promedio
+
+## Escenario inicial
+SUPUESTO/OPINIÓN (escenario hipotético solo con fines educativos): Imagine que un banco central sube su tasa de interés de referencia de forma brusca y repetida en un periodo corto de meses para combatir el alza en la inflación. Mientras suben los costos de tomar dinero prestado y los presupuestos familiares se aprietan, a un trabajador le ofrecen un aumento y le preocupa que el ingreso adicional lo empuje a un tramo contributivo mucho más alto y lo deje con menos dinero en el bolsillo que antes. Esta lección explica exactamente por qué ese temor, aunque común, se basa en un malentendido sobre cómo funcionan en realidad los tramos contributivos.
+
+## Objetivos de aprendizaje
+- Explicar la diferencia entre la tasa contributiva marginal y la tasa contributiva efectiva.
+- Explicar por qué pasar a un tramo contributivo más alto no significa que todo el ingreso de la persona se grave a esa tasa más alta.
+- Calcular una tasa contributiva efectiva básica para un ingreso que se grava en varios tramos.
+- Explicar por qué el temor de que un aumento "lo empuje a un tramo que le cuesta dinero en total" es una creencia común pero equivocada.
+
+## Contenido principal
+Estados Unidos usa un sistema progresivo de tramos contributivos marginales, lo que significa que el ingreso se divide en capas ("tramos"), cada una gravada a su propia tasa, y la tasa sube a medida que sube el ingreso. DATO VERIFICADO: la tasa contributiva marginal es la tasa que se aplica a la última capa, la más alta, del ingreso de una persona — la tasa que aplica al próximo dólar que gane —, mientras que la tasa contributiva efectiva es la contribución total pagada dividida entre el ingreso total. Representa la tasa promedio de todas las capas de ingreso combinadas y siempre es menor o igual a la tasa marginal cuando hay más de un tramo de por medio.
+
+Este es el "por qué" pasar a un tramo contributivo más alto no significa que todo el ingreso se grave de repente a esa tasa más alta, lo que responde directamente al temor del trabajador en el escenario: solo la parte específica del ingreso que cae dentro del tramo nuevo y más alto se grava a esa tasa más alta — el ingreso de los tramos de abajo se sigue gravando a sus tasas más bajas, exactamente igual que antes. Por eso ganar un dólar adicional que empuja un pedacito del ingreso a un tramo nuevo y más alto nunca puede reducir el ingreso neto total de una persona, ya que solo ese pedacito se grava a la tasa más alta y cada dólar ganado antes conserva su tratamiento contributivo anterior, más bajo.
+
+Por eso la tasa contributiva efectiva, y no la marginal, es la cifra más significativa para entender la carga contributiva real de una persona como porcentaje de su ingreso total. REGLA ESPECÍFICA DE LA REGIÓN y nota importante: los límites y las tasas de los tramos cambian periódicamente y varían según el estado civil para fines de la planilla, así que siempre hay que confirmar las tablas vigentes. Una persona en el "tramo de 32%" no paga el 32% de su ingreso total en contribuciones — paga una tasa efectiva combinada más baja, ya que solo su capa más alta de ingreso se grava al 32% y las capas anteriores se gravaron a las tasas más bajas que les aplicaban.
+
+## Ejemplo práctico
+EJEMPLO ILUSTRATIVO: Usando tramos simplificados e ilustrativos, suponga que los primeros $10,000 de ingreso se gravan al 10%, los próximos $30,000 al 12% y el ingreso sobre $40,000 al 22%. Una persona que gana $45,000 paga 10% sobre los primeros $10,000 ($1,000), 12% sobre los próximos $30,000 ($3,600) y 22% solo sobre los $5,000 restantes ($1,100), para una contribución total de $5,700 — una tasa efectiva de aproximadamente 12.7% ($5,700 / $45,000), aunque su tasa marginal (la tasa sobre su próximo dólar ganado) sea 22%. Si esta persona recibe un aumento de $2,000, esos $2,000 adicionales se gravan al 22% ($440), lo que le deja $1,560 de ingreso neto adicional real — sigue siendo un aumento, nunca una reducción, aunque se le aplique la tasa marginal más alta.
+
+## Prueba práctica
+**Q1. ¿A qué se refiere la tasa contributiva marginal?**
+A) A la tasa contributiva promedio que se paga sobre todo el ingreso de una persona
+B) A la tasa que se aplica a la última capa, la más alta, del ingreso de una persona — la tasa sobre el próximo dólar ganado
+C) A la cantidad total en dólares que una persona debe en contribuciones durante el año
+D) A una tasa fija que aplica por igual a cada dólar que gana una persona
+
+**Q2. ¿Qué mide la tasa contributiva efectiva?**
+A) La tasa que se aplica solo al primer dólar que gana una persona
+B) La contribución total pagada dividida entre el ingreso total, que representa la tasa promedio combinada de todas las capas de ingreso
+C) La misma cifra que la tasa marginal en todos los casos
+D) Una tasa que se fija sin relación con el ingreso real ni con el tramo contributivo de la persona
+
+**Q3. ¿Por qué pasar una pequeña cantidad de ingreso a un tramo más alto nunca reduce el ingreso neto total de una persona?**
+A) Pasar a un tramo más alto significa que todo el ingreso de la persona se grava de forma retroactiva a la nueva tasa más alta
+B) Solo la parte del ingreso que cae dentro del tramo nuevo y más alto se grava a esa tasa; el ingreso de los tramos más bajos se sigue gravando a sus tasas más bajas, sin cambio
+C) Los tramos más altos se aplican al azar, sin relación con cuánto del ingreso de la persona cae dentro de ellos
+D) El ingreso neto de una persona no tiene ninguna relación con cómo se grava su ingreso en los distintos tramos
+
+**Q4. En el ejemplo, ¿por qué la tasa efectiva de la persona, de aproximadamente 12.7%, fue menor que su tasa marginal de 22%?**
+A) La tasa efectiva y la marginal debieron ser idénticas, y el ejemplo tiene un error
+B) Solo la parte más alta del ingreso de la persona ($5,000) se gravó al 22%, mientras que el resto se gravó a las tasas más bajas de 10% y 12% que aplicaban a esas capas de ingreso, lo que baja la tasa promedio combinada
+C) La tasa efectiva siempre es más alta que la tasa marginal para todo contribuyente
+D) La persona no pagó ninguna contribución sobre su ingreso por debajo de $40,000
+
+**Q5. ¿Por qué el temor común de que un aumento pueda "costarle dinero en total" al empujarlo a un tramo más alto es generalmente equivocado?**
+A) Ese temor en realidad es correcto, y los aumentos a veces pueden reducir el ingreso neto total bajo el sistema contributivo de EE. UU.
+B) Solo el ingreso adicional por encima del límite de un tramo se grava a la tasa más alta, así que un aumento siempre produce algo de ingreso adicional después de contribuciones, nunca una pérdida neta, bajo el sistema de tramos marginales
+C) Los tramos contributivos no aplican a ningún ingreso adicional ganado durante el año
+D) Ese temor solo aplica a quienes trabajan por cuenta propia, nunca a los empleados asalariados
+
+## Clave de respuestas
+Q1: B
+Q2: B
+Q3: B
+Q4: B
+Q5: B
+
+## Respuestas y explicaciones
+**Q1.** La tasa marginal describe específicamente la tasa que se aplica solo a la capa más alta del ingreso, no la tasa promedio de todo el ingreso.
+
+**Q2.** La tasa efectiva capta la carga contributiva promedio general como porcentaje del ingreso total, lo cual difiere de la tasa marginal siempre que haya varios tramos de por medio.
+
+**Q3.** Como solo la cantidad adicional específica se grava a la nueva tasa marginal y cada dólar anterior conserva su tratamiento contributivo previo, más bajo, el ingreso total después de contribuciones siempre sube con ganancias adicionales.
+
+**Q4.** Combinar las tasas más bajas pagadas sobre las primeras capas de ingreso con la tasa más alta pagada solo sobre la capa superior produce una tasa efectiva promedio por debajo de la tasa marginal más alta.
+
+**Q5.** Como los tramos marginales solo aplican al ingreso adicional específico dentro de ellos, un aumento no puede, matemáticamente, producir menos ingreso total después de contribuciones bajo este sistema.
+
+## Puntos clave
+- La tasa marginal aplica a la última capa, la más alta, del ingreso; la tasa efectiva es la tasa promedio de todas las capas de ingreso combinadas.
+- Pasar ingreso a un tramo más alto solo grava esa parte adicional a la tasa más alta, y las capas anteriores se siguen gravando igual que antes.
+- La tasa efectiva suele ser la cifra más significativa para entender la carga contributiva real de una persona.
+- Un aumento o un bono nunca puede reducir el ingreso neto total bajo un sistema de tramos marginales, aunque se grave a una tasa marginal más alta.
+
+===== GREEN-L4-002
+TITLE: El análisis de los tramos contributivos progresivos: por qué el sistema grava capas de ingreso, no personas
+SUMMARY: Aprenda la lógica de un sistema contributivo progresivo, por qué el estado civil para fines de la planilla mueve los límites de los tramos y por qué dos personas con el mismo ingreso pueden pagar distinto.
+KEYWORDS: contribución progresiva, estructura de tramos contributivos, estado civil en la planilla, diseño de la contribución sobre ingresos
+# El análisis de los tramos contributivos progresivos: por qué el sistema grava capas de ingreso, no personas
+
+## Escenario inicial
+SUPUESTO/OPINIÓN (escenario hipotético solo con fines educativos): Imagine que, después de años de expansión rápida, los mercados de bienes raíces y de crédito al consumo de un país muy poblado empiezan a mostrar señales de una corrección brusca a medida que aumentan los incumplimientos de pago. Mientras un auge alimentado por el crédito se desinfla y los ingresos de los hogares se vuelven más inestables, algunos trabajadores se preguntan por qué dos personas que ganan lo que parece un ingreso total parecido pueden terminar debiendo una contribución total bastante distinta. Esta lección examina cómo la estructura de los tramos y el estado civil para fines de la planilla explican esa diferencia.
+
+## Objetivos de aprendizaje
+- Explicar la lógica de diseño de un sistema de tramos contributivos progresivos, a partir del concepto de tasa marginal de la Lección 1.
+- Explicar por qué el estado civil para fines de la planilla cambia dónde caen los límites de los tramos para un mismo ingreso total.
+- Explicar por qué dos personas con el mismo ingreso total pueden deber una contribución total distinta.
+- Explicar la razón de política pública que comúnmente se cita a favor de una estructura contributiva progresiva en lugar de una tasa fija.
+
+## Contenido principal
+Un sistema contributivo progresivo aplica tasas marginales crecientes (Lección 1) a medida que sube el ingreso, dividiendo el ingreso en tramos en lugar de gravar todo el ingreso de una persona a una sola tasa fija. DATO VERIFICADO: los límites de los tramos — los niveles específicos de ingreso en los que empieza a aplicar una nueva tasa marginal más alta — varían según el estado civil para fines de la planilla (como soltero, casados que rinden planilla conjunta, casados que rinden por separado y jefe de familia). Eso significa que la misma cantidad total de ingreso puede caer en capas de tramos distintas, y producir una contribución total distinta, según el estado civil que aplique.
+
+Este es el "por qué" dos personas con el mismo ingreso total pueden deber una contribución total bastante distinta, algo directamente relacionado con la inestabilidad de los ingresos de los hogares descrita en el escenario: una pareja casada que rinde planilla conjunta generalmente tiene límites de tramos más amplios que un contribuyente soltero (aunque, REGLA ESPECÍFICA DE LA REGIÓN, la relación específica entre los límites conjuntos y los de soltero varía según el tramo y ha cambiado con el tiempo, así que hay que confirmar las tablas vigentes). Por eso el mismo ingreso total del hogar puede gravarse de forma distinta según el estado civil, la situación matrimonial y cómo se reparte el ingreso entre los cónyuges si ambos trabajan — una pareja casada en la que un solo cónyuge gana todo el ingreso del hogar a menudo tributa de forma distinta a una pareja casada en la que cada cónyuge gana la mitad de ese mismo ingreso total, por cómo interactúan los límites de los tramos con cada estado civil.
+
+Por eso la contribución progresiva generalmente se diseña — OPINIÓN y razón de política pública comúnmente citada — alrededor del principio de que la capacidad de pago de una persona aumenta más que proporcionalmente a medida que sube su ingreso: un dólar de ingreso pesa más para cubrir las necesidades básicas de un hogar de bajos ingresos que un dólar equivalente para un hogar de ingresos mucho más altos. Es un argumento que se usa con frecuencia a favor de la contribución progresiva, aunque esta razón específica, como la mayoría de las preguntas de política contributiva, sigue siendo tema de debate político y económico continuo y no una conclusión establecida y aceptada por todos, y personas razonables no están de acuerdo sobre el grado de progresividad que debe tener un sistema contributivo.
+
+## Ejemplo práctico
+EJEMPLO ILUSTRATIVO: Dos hogares reportan cada uno $120,000 de ingreso anual total. El Hogar A es un contribuyente soltero que gana los $120,000 por su cuenta, mientras que el Hogar B es una pareja casada que rinde planilla conjunta, con cada cónyuge ganando $60,000. Como los límites de los tramos para casados que rinden planilla conjunta están estructurados de forma distinta a los de los solteros, y como el ingreso del Hogar B se reparte entre dos personas que aportan al cálculo conjunto, los dos hogares pueden terminar con una contribución total distinta a pesar de reportar un ingreso total del hogar idéntico. Esto ilustra cómo el estado civil y la estructura de los tramos, y no solo el ingreso total, determinan el resultado contributivo final.
+
+## Prueba práctica
+**Q1. ¿Cuál es el principio de diseño de fondo de un sistema contributivo progresivo?**
+A) Se aplica una sola tasa fija a todo el ingreso, sin importar la cantidad
+B) El ingreso se divide en tramos, y se aplican tasas marginales crecientes a las capas de ingreso cada vez más altas
+C) Las tasas contributivas bajan a medida que sube el ingreso
+D) La contribución progresiva solo aplica a los negocios, nunca al ingreso de los individuos
+
+**Q2. ¿Por qué los límites de los tramos varían según el estado civil para fines de la planilla?**
+A) Los límites de los tramos siempre son idénticos sin importar el estado civil
+B) Cada estado civil (soltero, casados que rinden planilla conjunta, jefe de familia, etc.) tiene sus propios límites específicos en los que empieza a aplicar cada tasa marginal
+C) El estado civil no tiene ninguna relación con cuánto debe pagar una persona al final
+D) Solo quienes trabajan por cuenta propia tienen límites de tramos que varían según el estado civil
+
+**Q3. ¿Por qué dos personas con el mismo ingreso total pueden deber una contribución total distinta?**
+A) El ingreso total siempre determina la contribución de forma idéntica, sin importar ningún otro factor
+B) Las diferencias de estado civil y de cómo se reparte el ingreso entre las personas que lo ganan (en el caso de una pareja casada) pueden colocar el mismo ingreso total en estructuras de tramos distintas, lo que produce una contribución total distinta
+C) Es matemáticamente imposible que dos personas con el mismo ingreso total deban una contribución total distinta
+D) Solo el trabajo por cuenta propia afecta cuánto podrían deber dos personas con ingresos idénticos
+
+**Q4. ¿Cuál es una razón de política pública comúnmente citada para usar una estructura contributiva progresiva en lugar de una tasa fija?**
+A) La contribución progresiva solo se usa para simplificar la radicación de planillas, sin ningún otro propósito
+B) Un dólar de ingreso pesa más para cubrir las necesidades básicas de un hogar de bajos ingresos que un dólar equivalente para un hogar de ingresos mucho más altos, un argumento de capacidad de pago que se usa comúnmente a favor de las tasas progresivas
+C) No hay ninguna razón de política pública para la contribución progresiva; es solo una conveniencia administrativa
+D) La contribución progresiva se diseñó exclusivamente para simplificar los cálculos de los preparadores de planillas
+
+**Q5. En el ejemplo, ¿por qué el Hogar A y el Hogar B podrían deber una contribución total distinta a pesar de reportar un ingreso total idéntico?**
+A) En realidad, los dos hogares siempre deben una contribución idéntica bajo cualquier sistema contributivo progresivo
+B) El ingreso del Hogar A, ganado completo por un contribuyente soltero, y el del Hogar B, repartido entre dos cónyuges que rinden planilla conjunta, interactúan de forma distinta con los límites de los tramos de su respectivo estado civil
+C) El estado civil no tiene ningún peso en el cálculo ilustrado en este ejemplo
+D) El ingreso del Hogar B en realidad era más alto que el del Hogar A en este ejemplo
+
+## Clave de respuestas
+Q1: B
+Q2: B
+Q3: B
+Q4: B
+Q5: B
+
+## Respuestas y explicaciones
+**Q1.** Esta estructura por capas con tasas crecientes es la característica de diseño que define un sistema contributivo progresivo, y se basa directamente en el concepto de tasa marginal de la Lección 1.
+
+**Q2.** Las estructuras de límites propias de cada estado civil explican directamente por qué el mismo ingreso total puede gravarse de forma distinta según cómo rinda la planilla la persona.
+
+**Q3.** La interacción entre el estado civil, los límites de los tramos y cómo se reparte el ingreso entre quienes lo ganan puede cambiar de forma importante la contribución total, aun cuando el ingreso total del hogar sea idéntico.
+
+**Q4.** Esta razón de capacidad de pago es una justificación citada con frecuencia, aunque debatida, para estructurar un sistema contributivo de forma progresiva en lugar de con una sola tasa fija.
+
+**Q5.** Las distintas estructuras de tramos atadas al estado civil de cada hogar, junto con cómo se ganó y se reportó el ingreso, explican directamente la posible diferencia en la contribución total a pesar de un ingreso total igual.
+
+## Puntos clave
+- Un sistema contributivo progresivo aplica tasas marginales crecientes a capas sucesivas del ingreso, en lugar de una sola tasa fija a todo el ingreso.
+- Los límites de los tramos varían según el estado civil para fines de la planilla, así que el mismo ingreso total puede gravarse de forma distinta según cómo rinda la planilla la persona.
+- Dos personas u hogares con un ingreso total idéntico pueden deber una contribución total distinta por su estado civil y por cómo se reparte el ingreso entre quienes lo ganan.
+- La contribución progresiva se justifica comúnmente con el argumento de la capacidad de pago, aunque el grado adecuado de progresividad sigue siendo una pregunta de política pública debatida.
+
+===== GREEN-L4-003
+TITLE: El análisis de la deducción estándar frente a las deducciones detalladas: por qué escoger la deducción más grande no siempre es sencillo
+SUMMARY: Aprenda la diferencia entre la deducción estándar y las deducciones detalladas del sistema federal de EE. UU., la regla básica para escoger y por qué la mejor opción puede cambiar de un año a otro.
+KEYWORDS: deducción estándar, deducciones detalladas, decisiones al rendir la planilla, comparación de deducciones
+# El análisis de la deducción estándar frente a las deducciones detalladas: por qué escoger la deducción más grande no siempre es sencillo
+
+## Escenario inicial
+SUPUESTO/OPINIÓN (escenario hipotético solo con fines educativos): Imagine que, después de años de expansión rápida, los mercados de bienes raíces y de crédito al consumo de un país muy poblado empiezan a mostrar señales de una corrección brusca a medida que aumentan los incumplimientos de pago. Mientras un auge de bienes raíces alimentado por el crédito se desinfla y los intereses hipotecarios ocupan una parte mayor del presupuesto de muchos hogares, algunos contribuyentes que antes tomaban la deducción estándar sin pensarlo mucho descubren que detallar sus deducciones este año podría reducir de forma importante lo que pagan. Esta lección explica cómo evaluar bien esa decisión.
+
+## Objetivos de aprendizaje
+- Explicar qué es la deducción estándar y cómo funciona dentro del cálculo de la contribución.
+- Explicar qué significa detallar las deducciones e identificar categorías comunes de gastos que se pueden detallar.
+- Explicar la regla básica para escoger entre la deducción estándar y las deducciones detalladas.
+- Explicar por qué la mejor opción de un contribuyente entre las dos puede cambiar de un año a otro según sus gastos específicos.
+
+## Contenido principal
+En el sistema contributivo federal de EE. UU., la deducción estándar es una cantidad fija en dólares, que se establece cada año y varía según el estado civil para fines de la planilla, que el contribuyente puede restar de su ingreso tributable sin tener que documentar ni justificar gastos específicos. DATO VERIFICADO: detallar las deducciones es el método alterno, en el que el contribuyente suma gastos elegibles específicos y documentados — comúnmente los intereses hipotecarios, las contribuciones estatales y locales (sujetas a un tope, REGLA ESPECÍFICA DE LA REGIÓN, confirme el tope vigente), los donativos caritativos y ciertos gastos médicos que pasen de un porcentaje específico del ingreso — y deduce ese total detallado en lugar de la cantidad de la deducción estándar.
+
+Este es el "por qué" la regla para escoger entre estas dos opciones es sencilla en principio, aunque el cálculo requiere esfuerzo real: el contribuyente generalmente debe escoger la opción que produzca la deducción total más grande, ya que una deducción más grande reduce más el ingreso tributable y, por lo tanto, la contribución que se debe. Eso significa que el contribuyente solo debe detallar cuando el total de sus gastos elegibles y documentados pase de la deducción estándar que le corresponde según su estado civil; si los gastos detallados no llegan a ese límite, tomar la deducción estándar da un mejor resultado con mucho menos trabajo de mantener récords y justificar gastos.
+
+Por eso la mejor opción de un contribuyente entre la deducción estándar y las deducciones detalladas puede cambiar de verdad de un año a otro, algo directamente relacionado con el escenario: un año con intereses hipotecarios inusualmente altos, un donativo caritativo grande de una sola vez o gastos médicos considerables no reembolsados puede empujar el total detallado por encima del límite de la deducción estándar ese año en particular, aunque la deducción estándar haya sido claramente la mejor opción en años anteriores más típicos. Por eso los contribuyentes con gastos detallables que varían de forma importante de un año a otro deben repetir esta comparación cada año, en lugar de quedarse con la opción del año anterior sin evaluar si sigue produciendo la deducción más grande bajo las circunstancias del año en curso.
+
+## Ejemplo práctico
+EJEMPLO ILUSTRATIVO: Una pareja casada que rinde planilla conjunta tiene disponible una deducción estándar de cierta cantidad fija para el año contributivo. En un año típico, sus gastos detallables (intereses hipotecarios, contribuciones estatales y locales hasta el tope y donativos modestos) suman menos que esa deducción estándar, así que toman la deducción estándar. Durante un año en que las tasas hipotecarias suben con fuerza y el pago de su hipoteca de tasa ajustable aumenta de forma considerable, sus intereses hipotecarios por sí solos, junto con sus otros gastos detallables, ahora pasan de la cantidad de la deducción estándar. Por eso, ese año en particular, detallar produce una deducción total más grande y una contribución más baja que quedarse con la deducción estándar que habían usado en años anteriores.
+
+## Prueba práctica
+**Q1. ¿Qué es la deducción estándar?**
+A) Una deducción disponible solo para los contribuyentes que detallan sus gastos
+B) Una cantidad fija en dólares, que se establece cada año y varía según el estado civil, que el contribuyente puede restar de su ingreso tributable sin documentar gastos específicos
+C) Un crédito contributivo en lugar de una deducción
+D) Una deducción que varía cada año según los gastos específicos y documentados del contribuyente
+
+**Q2. ¿En qué consiste detallar las deducciones?**
+A) En tomar la cantidad fija de la deducción estándar sin ninguna documentación
+B) En sumar gastos elegibles específicos y documentados, como los intereses hipotecarios, las contribuciones estatales y locales y los donativos caritativos, y deducir ese total detallado en lugar de la deducción estándar
+C) En una deducción disponible solo para negocios, nunca para contribuyentes individuales
+D) Detallar no tiene ninguna relación con los gastos reales y documentados del contribuyente
+
+**Q3. ¿Cuál es la regla básica para escoger entre la deducción estándar y las deducciones detalladas?**
+A) El contribuyente siempre debe detallar, sin importar la cantidad de sus gastos elegibles
+B) El contribuyente debe escoger la opción que produzca la deducción total más grande, y detallar solo cuando sus gastos elegibles documentados pasen de la deducción estándar que le corresponde
+C) El contribuyente siempre debe tomar la deducción estándar, sin importar sus gastos detallables
+D) La decisión entre las dos no tiene ningún efecto en la contribución total que se debe
+
+**Q4. ¿Por qué la mejor opción de un contribuyente entre la deducción estándar y las deducciones detalladas puede cambiar de un año a otro?**
+A) La deducción estándar y las deducciones detalladas siempre son idénticas cada año para todo contribuyente
+B) Un año con gastos detallables inusualmente altos, como más intereses hipotecarios o un donativo grande, puede empujar el total detallado por encima del límite de la deducción estándar, aunque haya estado por debajo en años anteriores
+C) Una vez el contribuyente escoge una opción, está obligado a usarla de forma permanente todos los años siguientes
+D) Los gastos detallables de un contribuyente nunca cambian de un año a otro
+
+**Q5. En el ejemplo, ¿por qué la mejor opción de la pareja pasó de la deducción estándar a las deducciones detalladas el año en que subió el pago de su hipoteca?**
+A) Sus gastos detallables en realidad bajaron de forma importante ese año
+B) El fuerte aumento en los intereses hipotecarios, junto con sus otros gastos detallables, empujó el total de sus deducciones detalladas por encima de la deducción estándar ese año, lo que hizo de detallar la mejor opción
+C) La cantidad de la deducción estándar aumentó de forma dramática ese mismo año, lo que la hizo claramente la mejor opción
+D) El estado civil de la pareja cambió ese año, y esa fue la única razón del cambio
+
+## Clave de respuestas
+Q1: B
+Q2: B
+Q3: B
+Q4: B
+Q5: B
+
+## Respuestas y explicaciones
+**Q1.** La característica que define la deducción estándar es que es una cantidad fija que no requiere documentación, lo que la distingue de las deducciones detalladas.
+
+**Q2.** Detallar requiere específicamente documentar y sumar los gastos elegibles reales, y luego comparar ese total con la deducción estándar.
+
+**Q3.** Como una deducción más grande reduce más el ingreso tributable, comparar las dos opciones y escoger la más grande es la regla de decisión, sencilla aunque requiera esfuerzo.
+
+**Q4.** La variación de un año a otro en los gastos elegibles específicos de un contribuyente es precisamente la razón por la que esta comparación debe repetirse cada año en lugar de suponer que se mantiene igual.
+
+**Q5.** El aumento en una categoría específica de gastos detallables hizo directamente que el total de las deducciones detalladas pasara del límite de la deducción estándar ese año, lo que cambió cuál opción producía la deducción más grande.
+
+## Puntos clave
+- La deducción estándar es una cantidad fija disponible sin documentar gastos específicos; detallar requiere sumar los gastos elegibles reales.
+- El contribuyente debe escoger la opción que produzca la deducción total más grande, ya que una deducción más grande reduce más el ingreso tributable.
+- Entre las categorías comunes de gastos detallables están los intereses hipotecarios, las contribuciones estatales y locales (sujetas a un tope), los donativos caritativos y ciertos gastos médicos.
+- La mejor opción de un contribuyente puede cambiar de un año a otro según la variación de sus gastos detallables, así que esta comparación debe evaluarse cada año.
+
+===== GREEN-L4-004
+TITLE: El análisis del crédito contributivo frente a la deducción: por qué un dólar de crédito vale más que un dólar de deducción
+SUMMARY: Aprenda la diferencia mecánica entre un crédito contributivo y una deducción, cómo calcular el ahorro real de cada uno y la diferencia entre créditos reembolsables y no reembolsables.
+KEYWORDS: crédito contributivo, deducción contributiva, reducción dólar por dólar, comparación de ahorros contributivos
+# El análisis del crédito contributivo frente a la deducción: por qué un dólar de crédito vale más que un dólar de deducción
+
+## Escenario inicial
+SUPUESTO/OPINIÓN (escenario hipotético solo con fines educativos): Imagine que un gran bloque comercial impone de repente aranceles altos sobre una amplia categoría de productos manufacturados importados, lo que sube los costos de las empresas que dependen de esas importaciones como insumos. Mientras los aranceles suben el costo de ciertos bienes, los programas del gobierno que ofrecen créditos contributivos por opciones alternas producidas en el país se vuelven más importantes para el presupuesto de los hogares de lo que mucha gente cree al principio. Esta lección explica por qué un crédito contributivo funciona de forma distinta a una deducción de la misma cantidad y, por lo general, vale más.
+
+## Objetivos de aprendizaje
+- Explicar la diferencia mecánica entre cómo un crédito contributivo y una deducción reducen la contribución final de un contribuyente.
+- Calcular el ahorro contributivo real que produce una deducción específica frente a un crédito de la misma cantidad.
+- Distinguir entre un crédito contributivo no reembolsable y uno reembolsable.
+- Explicar por qué entender esta distinción cambia la forma en que un contribuyente debe evaluar el valor relativo de un crédito o una deducción.
+
+## Contenido principal
+Una deducción reduce el ingreso tributable del contribuyente antes de aplicar la tasa contributiva, así que su valor real en ahorro depende de la tasa marginal del contribuyente (Lección 1) — una deducción vale (cantidad de la deducción) multiplicada por (tasa marginal) en ahorro contributivo real. DATO VERIFICADO: un crédito contributivo, en cambio, reduce directamente la contribución final calculada, dólar por dólar, sin importar la tasa marginal del contribuyente. Eso significa que un crédito de $1,000 reduce la contribución que se debe en exactamente $1,000, mientras que una deducción de $1,000 la reduce solo en $1,000 multiplicado por la tasa marginal del contribuyente (por ejemplo, $220 para un contribuyente en un tramo de 22%).
+
+Este es el "por qué" esta diferencia mecánica hace que un crédito contributivo generalmente valga más que una deducción de la misma cantidad, algo directamente relacionado con el incentivo de compra elegible para crédito que describe el escenario: como un crédito da una reducción completa y directa, dólar por dólar, de la contribución que se debe, mientras que el valor de una deducción se diluye por la tasa marginal del contribuyente (que, para la mayoría, está muy por debajo de 100%), un crédito de $1,000 vale más en ahorro real que una deducción de $1,000 para todo contribuyente cuya tasa marginal esté por debajo de 100% — es decir, prácticamente para todos. Por eso los créditos son generalmente la forma más valiosa de beneficio contributivo cuando se comparan dólar por dólar.
+
+Por eso la distinción entre un crédito no reembolsable y uno reembolsable importa mucho para los contribuyentes con una responsabilidad contributiva más baja: un crédito no reembolsable puede reducir la contribución hasta cero, pero no por debajo de cero — cualquier parte del crédito que pase de la contribución total del contribuyente antes del crédito simplemente se pierde (aunque algunos créditos no reembolsables permiten arrastrar una parte limitada a años futuros, REGLA ESPECÍFICA DE LA REGIÓN, según cada crédito). Un crédito reembolsable, en cambio, puede reducir la responsabilidad por debajo de cero y generar un reintegro al contribuyente por el exceso. Eso significa que un crédito reembolsable da su valor completo incluso a un contribuyente cuya contribución antes del crédito era menor que la cantidad del crédito, una distinción práctica importante para los contribuyentes de bajos ingresos que quizás no deban lo suficiente para aprovechar por completo un crédito no reembolsable del mismo tamaño.
+
+## Ejemplo práctico
+EJEMPLO ILUSTRATIVO: Un contribuyente en el tramo marginal de 22% está escogiendo entre una deducción hipotética de $2,000 y un crédito contributivo hipotético de $2,000 por un gasto elegible específico. La deducción de $2,000 reduce su ingreso tributable en $2,000, lo que produce un ahorro real de $2,000 × 22% = $440. El crédito de $2,000, en cambio, reduce su contribución final directamente en los $2,000 completos, sin importar su tasa marginal — más de cuatro veces el ahorro real que habría dado la deducción equivalente. Esto ilustra por qué un crédito de cierta cantidad en dólares generalmente vale mucho más que una deducción de esa misma cantidad.
+
+## Prueba práctica
+**Q1. ¿Cómo reduce una deducción la contribución de un contribuyente?**
+A) Una deducción reduce directamente la contribución final calculada, dólar por dólar
+B) Una deducción reduce el ingreso tributable antes de aplicar la tasa contributiva, así que su valor real en ahorro depende de la tasa marginal del contribuyente
+C) Una deducción no tiene ningún efecto ni en el ingreso tributable ni en la contribución final
+D) Una deducción siempre da el mismo ahorro sin importar la tasa marginal del contribuyente
+
+**Q2. ¿Cómo reduce un crédito contributivo la contribución de un contribuyente, a diferencia de una deducción?**
+A) Un crédito contributivo también depende de la tasa marginal del contribuyente, igual que una deducción
+B) Un crédito contributivo reduce directamente la contribución final calculada, dólar por dólar, sin importar la tasa marginal del contribuyente
+C) Un crédito contributivo no tiene ningún efecto real en la contribución final del contribuyente
+D) Un crédito contributivo siempre vale menos que una deducción de la misma cantidad
+
+**Q3. ¿Por qué un crédito contributivo de $1,000 generalmente vale más en ahorro real que una deducción de $1,000?**
+A) Un crédito de $1,000 y una deducción de $1,000 siempre dan exactamente el mismo ahorro a todo contribuyente
+B) El crédito da una reducción completa y directa de $1,000 en la contribución que se debe, mientras que el valor de la deducción se diluye por la tasa marginal del contribuyente, que está por debajo de 100% para prácticamente todos
+C) Las deducciones siempre dan más ahorro que los créditos de la misma cantidad
+D) El valor relativo de un crédito frente a una deducción depende totalmente del estado civil del contribuyente, no de su tasa marginal
+
+**Q4. ¿Cuál es la diferencia clave entre un crédito contributivo no reembolsable y uno reembolsable?**
+A) Los créditos no reembolsables y los reembolsables dan exactamente los mismos beneficios a todo contribuyente, sin importar su responsabilidad contributiva
+B) Un crédito no reembolsable puede reducir la responsabilidad hasta cero pero no por debajo, mientras que uno reembolsable puede reducirla por debajo de cero y generar un reintegro real por el exceso
+C) Un crédito reembolsable nunca puede reducir la responsabilidad contributiva de un contribuyente
+D) Los créditos no reembolsables siempre son de más dinero que los reembolsables
+
+**Q5. En el ejemplo, ¿por qué el crédito de $2,000 produjo más de cuatro veces el ahorro de la deducción de $2,000?**
+A) En realidad, la deducción y el crédito produjeron el mismo ahorro en este ejemplo
+B) El crédito redujo la contribución en los $2,000 completos, mientras que la deducción redujo el ingreso tributable en $2,000, lo que produjo un ahorro real de solo $440 al aplicar la tasa marginal de 22% del contribuyente
+C) La tasa marginal del contribuyente no tuvo ningún efecto en el valor real de la deducción en este ejemplo
+D) Los créditos contributivos solo están disponibles para los contribuyentes del tramo marginal más alto
+
+## Clave de respuestas
+Q1: B
+Q2: B
+Q3: B
+Q4: B
+Q5: B
+
+## Respuestas y explicaciones
+**Q1.** El valor de la deducción se determina aplicando la tasa marginal del contribuyente a la cantidad de la deducción, lo que la distingue de la reducción directa y completa de un crédito.
+
+**Q2.** Esta reducción directa, dólar por dólar e independiente de la tasa, es la característica mecánica que distingue un crédito contributivo de una deducción.
+
+**Q3.** Como el ahorro real de una deducción es igual a su cantidad multiplicada por una tasa marginal por debajo de 100%, producirá menos ahorro que un crédito del mismo valor nominal para prácticamente todos los contribuyentes.
+
+**Q4.** Esta distinción determina si un contribuyente cuya responsabilidad contributiva es menor que la cantidad del crédito puede aprovechar aun así el valor completo del crédito, algo especialmente importante para los contribuyentes de bajos ingresos.
+
+**Q5.** La comparación directa entre la reducción completa del crédito y la reducción de la deducción, diluida por la tasa, ilustra directamente la importante diferencia práctica de valor entre estos dos tipos de beneficios contributivos.
+
+## Puntos clave
+- Una deducción reduce el ingreso tributable, así que su valor real en ahorro depende de la tasa marginal del contribuyente.
+- Un crédito contributivo reduce directamente la contribución final, dólar por dólar, sin importar la tasa marginal.
+- Un crédito de cierta cantidad generalmente vale más en ahorro real que una deducción de la misma cantidad, para prácticamente todo contribuyente.
+- Un crédito no reembolsable solo puede reducir la responsabilidad contributiva hasta cero, mientras que uno reembolsable puede generar un reintegro real por cualquier exceso.
+
+===== GREEN-L4-005
+TITLE: El análisis de la contribución sobre ganancias de capital: por qué el periodo de tenencia cambia mucho lo que se paga
+SUMMARY: Aprenda la diferencia entre ganancias de capital a corto y a largo plazo en el sistema federal de EE. UU., por qué las de largo plazo pagan menos y por qué la contribución no debe decidir sola cuándo vender.
+KEYWORDS: contribución sobre ganancias de capital, corto plazo frente a largo plazo, periodo de tenencia, planificación contributiva de inversiones
+# El análisis de la contribución sobre ganancias de capital: por qué el periodo de tenencia cambia mucho lo que se paga
+
+## Escenario inicial
+SUPUESTO/OPINIÓN (escenario hipotético solo con fines educativos): Imagine que, después de años de expansión rápida, los mercados de bienes raíces y de crédito al consumo de un país muy poblado empiezan a mostrar señales de una corrección brusca a medida que aumentan los incumplimientos de pago. Mientras un auge de activos alimentado por el crédito se desinfla, algunos inversionistas que compraron activos que subían rápido hace menos de un año tienen que decidir si venden ahora, posiblemente con una tasa contributiva mucho más alta, o si esperan un poco más para tener derecho a un tratamiento contributivo más favorable. Esta lección examina exactamente por qué esa decisión de momento tiene un peso financiero real.
+
+## Objetivos de aprendizaje
+- Distinguir entre ganancias de capital a corto plazo y a largo plazo para fines contributivos.
+- Explicar por qué las ganancias de capital a largo plazo generalmente reciben un tratamiento contributivo más favorable que las de corto plazo.
+- Calcular la diferencia en la contribución que se debe sobre una misma ganancia gravada a tasas de corto plazo frente a tasas de largo plazo.
+- Explicar por qué el límite específico del periodo de tenencia puede influir de forma importante en el momento de vender una inversión.
+
+## Contenido principal
+Una ganancia de capital es el beneficio que se obtiene al vender un activo (como una acción, una propiedad u otra inversión) por más de su base de costo (el concepto de base de la ruta WHITE-L4). DATO VERIFICADO: en el sistema contributivo de EE. UU., una ganancia de capital a corto plazo — de un activo que se tuvo un año o menos antes de venderlo — se grava a la tasa contributiva ordinaria del contribuyente (las mismas tasas marginales por tramo vistas en la Lección 1), mientras que una ganancia de capital a largo plazo — de un activo que se tuvo más de un año — se grava a tasas específicas para ganancias de capital a largo plazo, generalmente más bajas (REGLA ESPECÍFICA DE LA REGIÓN, confirme los tramos de tasas vigentes), que históricamente han sido bastante más bajas que la mayoría de los tramos de ingreso ordinario.
+
+Este es el "por qué" esta distinción por periodo de tenencia crea una diferencia real y medible en la contribución que se debe sobre una misma cantidad de ganancia, algo directamente relacionado con la decisión de momento que describe el escenario: un inversionista que vende un activo que subió de valor y que tuvo exactamente once meses enfrenta las tasas de ingreso ordinario (posiblemente 22%, 24%, 32% o más, según su ingreso total) sobre toda la ganancia, mientras que ese mismo inversionista, si vende ese mismo activo unas semanas después, al pasar el límite de un año, pagaría en cambio la tasa de ganancias de capital a largo plazo, generalmente más baja, sobre esa misma ganancia — una diferencia que, para un contribuyente en un tramo de ingreso ordinario más alto, puede representar una parte considerable de la ganancia misma.
+
+Por eso el límite específico de un año puede influir de forma importante en el momento de vender una inversión, aunque esta consideración debe sopesarse con honestidad frente a otros factores que no son contributivos: OPINIÓN y advertencia importante, un inversionista generalmente no debe dejar que una consideración puramente contributiva pase por encima de una decisión de inversión sólida (quedarse con un activo solo para llegar al límite de largo plazo, cuando su propio análisis indica que debe venderlo ya por otras razones, como el desinfle del auge descrito en el escenario, lo expone a una pérdida de inversión mayor que fácilmente podría superar el ahorro contributivo de esperar). La consideración contributiva del periodo de tenencia es un factor legítimo que se debe sopesar, pero es solo un factor dentro del análisis de inversión más amplio, no algo que lo reemplace automáticamente.
+
+## Ejemplo práctico
+EJEMPLO ILUSTRATIVO: Un inversionista en el tramo de ingreso ordinario de 32% tiene una ganancia de $50,000 en un activo que ha tenido por once meses. Si vende ahora, esa ganancia se grava como de corto plazo a la tasa ordinaria de 32%, lo que produce $16,000 de contribución. Si en cambio espera cinco semanas más para pasar el límite de un año, la misma ganancia de $50,000 se gravaría a una tasa de ganancias de capital a largo plazo de, a modo ilustrativo, 15%, lo que produce solo $7,500 de contribución — una diferencia de $8,500 en lo que se debe sobre exactamente la misma ganancia, solo por el periodo de tenencia al momento de la venta.
+
+## Prueba práctica
+**Q1. ¿Qué distingue una ganancia de capital a corto plazo de una a largo plazo?**
+A) Las ganancias a corto plazo vienen de activos que se tuvieron más de un año, y las de largo plazo, de activos que se tuvieron un año o menos
+B) Las ganancias a corto plazo vienen de activos que se tuvieron un año o menos, y las de largo plazo, de activos que se tuvieron más de un año
+C) No hay ninguna distinción contributiva significativa entre las ganancias de capital a corto y a largo plazo
+D) La distinción depende solo de la cantidad en dólares de la ganancia, no del periodo de tenencia
+
+**Q2. ¿Cómo se gravan generalmente las ganancias de capital a corto plazo?**
+A) A tasas específicas para ganancias de capital a largo plazo, generalmente más bajas
+B) A la tasa contributiva ordinaria del contribuyente, las mismas tasas marginales por tramo que aplican a los salarios y otros ingresos ordinarios
+C) Las ganancias de capital a corto plazo nunca están sujetas a contribución
+D) A una sola tasa fija idéntica para todo contribuyente, sin importar su ingreso
+
+**Q3. ¿Por qué el límite del periodo de tenencia crea una diferencia real y medible en la contribución sobre una misma ganancia?**
+A) El periodo de tenencia no tiene ningún efecto real en cómo se grava una ganancia de capital
+B) Un activo que se tuvo un poco más de un año tiene derecho a la tasa de ganancias a largo plazo, generalmente más baja, mientras que el mismo activo vendido justo antes de ese límite se grava a la tasa ordinaria del contribuyente, a menudo más alta
+C) Las ganancias de capital a largo plazo siempre se gravan a una tasa más alta que las de corto plazo
+D) El periodo de tenencia específico solo importa en inversiones de bienes raíces, no en otros tipos de activos
+
+**Q4. ¿Por qué un inversionista debe tener cuidado de no dejar que la consideración contributiva del periodo de tenencia pase por encima de su propio análisis de inversión?**
+A) Las consideraciones contributivas siempre deben pasar por encima de cualquier otro análisis o decisión de inversión
+B) Quedarse con un activo solo para llegar al límite de largo plazo, cuando su propio análisis indica que debe venderlo ya, lo expone a una pérdida de inversión mayor que podría superar el ahorro contributivo de esperar
+C) El periodo de tenencia no tiene ninguna relación con las decisiones de inversión más amplias de un inversionista
+D) Esperar a llegar al límite de largo plazo siempre garantiza un mejor resultado financiero general, sin importar las condiciones del mercado
+
+**Q5. En el ejemplo, ¿por qué esperar cinco semanas más redujo en $8,500 la contribución del inversionista sobre la misma ganancia de $50,000?**
+A) La cantidad de la ganancia del inversionista en realidad cambió durante esas cinco semanas
+B) Pasar el límite de un año cambió la ganancia de un tratamiento de corto plazo a la tasa ordinaria de 32% a un tratamiento de largo plazo a la tasa más baja de 15%, sobre la misma ganancia de $50,000
+C) Las tasas contributivas no tienen ninguna relación con cuánto tiempo se tiene un activo antes de venderlo
+D) El tramo marginal del inversionista cambió de forma importante durante esas cinco semanas
+
+## Clave de respuestas
+Q1: B
+Q2: B
+Q3: B
+Q4: B
+Q5: B
+
+## Respuestas y explicaciones
+**Q1.** Este límite de un año es la línea divisoria específica que usa el sistema contributivo de EE. UU. para distinguir estas dos categorías de ganancia de capital.
+
+**Q2.** Las ganancias a corto plazo se suman a los demás ingresos ordinarios del contribuyente y se gravan junto con ellos a sus tasas marginales regulares.
+
+**Q3.** Pasar el límite de un año puede cambiar una misma ganancia del tratamiento de ingreso ordinario a la tasa de ganancias de capital a largo plazo, generalmente más favorable, lo que produce una diferencia real en lo que se debe.
+
+**Q4.** El riesgo real de quedarse con un activo solo por razones contributivas, sobre todo en condiciones de mercado desfavorables o inciertas, debe sopesarse con honestidad frente al posible ahorro contributivo de esperar.
+
+**Q5.** El cambio específico, causado por el periodo de tenencia, del tratamiento de ingreso ordinario a la tasa más favorable de ganancias de capital a largo plazo produjo directamente este ahorro contributivo importante sobre la misma ganancia.
+
+## Puntos clave
+- Las ganancias de capital a corto plazo (activos que se tuvieron un año o menos) se gravan a tasas de ingreso ordinario; las de largo plazo (más de un año) se gravan a tasas generalmente más bajas.
+- El límite de un año puede producir una diferencia considerable en lo que se debe sobre una misma cantidad de ganancia.
+- Esta consideración del periodo de tenencia puede influir en el momento de vender, pero debe sopesarse frente al análisis de inversión, no pasar por encima de él automáticamente.
+- Quedarse con un activo solo para llegar al límite de largo plazo, en contra de un buen juicio de inversión, expone a una pérdida mayor que podría superar el posible ahorro contributivo.

@@ -1,0 +1,561 @@
+===== GREEN-L1-015
+TITLE: La diferencia entre una deducción y un crédito contributivo
+SUMMARY: Aclara uno de los pares de términos que más se confunden en la alfabetización tributaria: las deducciones reducen el ingreso tributable y los créditos reducen directamente el impuesto adeudado.
+# La diferencia entre una deducción y un crédito contributivo
+
+## Objetivos de aprendizaje
+
+- Definir una deducción tributaria.
+- Definir un crédito contributivo.
+- Explicar por qué, dólar por dólar, un crédito suele valer más que una deducción.
+
+## Contenido principal
+
+Una deducción tributaria reduce la cantidad de ingreso que se grava. Un crédito contributivo reduce directamente la factura de impuestos, dólar por dólar. Suenan parecidos, pero su impacto es muy distinto.
+
+Supongamos que alguien está en un tramo marginal del 20 %. Una deducción de $1,000 reduce su ingreso tributable en $1,000, lo que le ahorra aproximadamente $200 en impuestos (el 20 % de $1,000). Un crédito de $1,000, en cambio, reduce su factura de impuestos en los $1,000 completos, sin importar su tramo. Por eso, dólar por dólar, los créditos suelen valer más que las deducciones: el valor de un crédito no depende de su tasa de impuesto como sí depende el de una deducción.
+
+Ambas herramientas reducen lo que usted debe, solo que mediante mecanismos distintos: las deducciones achican la base que se grava y los créditos achican la factura final.
+
+## Ejemplo práctico
+
+**Pregunta:** Un amigo dice: «Una deducción de $1,000 y un crédito de $1,000 son básicamente lo mismo». ¿Tiene razón?
+
+**Estudiante:** Creo que no: uno reduce el ingreso tributable y el otro reduce directamente la factura de impuestos.
+
+**Guía:** ¿Cuál tiende a ahorrar más dinero y por qué?
+
+**Estudiante:** El crédito, porque elimina los $1,000 completos de lo que se debe, mientras que la deducción solo elimina un porcentaje de $1,000 según su tasa de impuesto.
+
+**Guía:** Exactamente: la misma cantidad en dólares, un mecanismo distinto y un impacto distinto.
+
+## Prueba práctica
+
+**Pregunta 1.** Una deducción tributaria reduce:
+
+A) El ingreso tributable
+B) La factura de impuestos directamente, dólar por dólar
+C) Nada
+D) Solo el impuesto sobre las ventas
+
+**Pregunta 2.** Un crédito contributivo reduce:
+
+A) El ingreso tributable
+B) La factura de impuestos directamente, dólar por dólar
+C) Nada
+D) Solo el impuesto sobre la propiedad
+
+**Pregunta 3.** Dólar por dólar, ¿cuál suele valer más?
+
+A) Una deducción
+B) Un crédito
+C) Siempre son idénticos
+D) Ninguno tiene valor
+
+**Pregunta 4.** Una deducción de $1,000 para alguien en un tramo del 20 % ahorra aproximadamente:
+
+A) $1,000
+B) $200
+C) $0
+D) $2,000
+
+## Clave de respuestas
+
+1. A, 2. B, 3. B, 4. B
+
+## Respuestas y explicaciones
+
+**1.** Las deducciones funcionan achicando la cantidad de ingreso sujeta a impuestos.
+
+**2.** Los créditos funcionan recortando directamente la factura final de impuestos, sin importar la tasa.
+
+**3.** Como el valor de un crédito no depende de su tramo, suele valer más por dólar que una deducción.
+
+**4.** El 20 % de una deducción de $1,000 equivale aproximadamente a $200 de ahorro real en impuestos, frente a los $1,000 completos de un crédito.
+
+## Puntos clave
+
+- Las deducciones reducen el ingreso tributable; los créditos reducen directamente la factura de impuestos.
+- El valor de un crédito no depende de su tramo impositivo; el de una deducción sí.
+- Dólar por dólar, los créditos suelen valer más que las deducciones.
+- Ambas herramientas reducen lo que usted debe, pero mediante mecanismos distintos.
+
+===== GREEN-L1-016
+TITLE: Deducción estándar o deducciones detalladas
+SUMMARY: Explica los dos enfoques comunes para reclamar deducciones: una cantidad estándar fija o el detalle de los gastos reales que cualifican.
+# Deducción estándar o deducciones detalladas
+
+## Objetivos de aprendizaje
+
+- Explicar qué es una deducción estándar.
+- Explicar qué significa detallar las deducciones.
+- Identificar la lógica básica para elegir entre ambas.
+
+## Contenido principal
+
+Muchos sistemas tributarios ofrecen a los contribuyentes una opción: tomar una deducción estándar —una cantidad fija a la que todos tienen derecho, sin necesidad de recibos— o detallar, es decir, enumerar y sumar uno por uno los gastos reales que cualifican (como ciertos pagos de intereses, donativos a entidades sin fines de lucro o gastos médicos, según las reglas del sistema).
+
+La lógica de decisión básica es sencilla: si el total detallado sería mayor que la deducción estándar, detallar ahorra más dinero. Si no, tomar la deducción estándar es más sencillo e igual de eficaz en términos financieros. Como la deducción estándar no requiere documentación, muchas personas la eligen por defecto, a menos que tengan una razón específica para detallar, como un donativo grande o gastos importantes que cualifiquen.
+
+## Ejemplo práctico
+
+**Pregunta:** Los gastos que alguien podría detallar en el año suman menos que la deducción estándar. ¿Debería detallar?
+
+**Estudiante:** Probablemente no, porque detallar requiere más esfuerzo sin ningún beneficio adicional.
+
+**Guía:** Correcto. ¿Cuál es la regla general para elegir?
+
+**Estudiante:** Comparar el total detallado con la deducción estándar y elegir el que sea mayor.
+
+**Guía:** Exactamente. Es una comparación sencilla, no una cuestión de preferencia.
+
+## Prueba práctica
+
+**Pregunta 1.** Una deducción estándar es:
+
+A) Una cantidad fija que no requiere documentación detallada
+B) Algo disponible solo para empresas
+C) Lo mismo que un crédito contributivo
+D) Ilegal en la mayoría de los países
+
+**Pregunta 2.** Detallar significa:
+
+A) Tomar la cantidad estándar fija
+B) Enumerar y sumar los gastos reales que cualifican
+C) No pagar ningún impuesto
+D) Evitar todas las deducciones
+
+**Pregunta 3.** La regla básica para elegir entre ambas es:
+
+A) Detallar siempre
+B) Tomar siempre la deducción estándar
+C) Elegir la que produzca la deducción mayor
+D) Tirar una moneda al aire
+
+**Pregunta 4.** ¿Por qué alguien podría no detallar aunque en teoría pueda hacerlo?
+
+A) Es ilegal
+B) Su total detallado es menor que la deducción estándar, o el papeleo no vale la pena por una ganancia pequeña
+C) Las deducciones estándar no existen
+D) Detallar siempre es obligatorio
+
+## Clave de respuestas
+
+1. A, 2. B, 3. C, 4. B
+
+## Respuestas y explicaciones
+
+**1.** La deducción estándar es una cantidad fija, sin necesidad de documentación, disponible en muchos sistemas tributarios.
+
+**2.** Detallar significa sumar los gastos reales que cualifican en lugar de tomar la cantidad fija.
+
+**3.** La decisión se reduce a una comparación sencilla: gana la cifra mayor.
+
+**4.** Cuando el total detallado no supera la deducción estándar, el papeleo adicional no trae ningún beneficio financiero.
+
+## Puntos clave
+
+- La deducción estándar es una cantidad fija y sencilla que no requiere documentación.
+- Detallar significa sumar, en su lugar, los gastos reales que cualifican.
+- Elija la opción que produzca la deducción mayor.
+- La mayoría de las personas elige por defecto la deducción estándar, a menos que tenga una razón clara para detallar.
+
+===== GREEN-L1-017
+TITLE: Créditos contributivos comunes para individuos
+SUMMARY: Un repaso de las categorías generales de créditos contributivos con las que suelen encontrarse los individuos, a nivel conceptual y sin atarse a los programas específicos de un país.
+# Créditos contributivos comunes para individuos
+
+## Objetivos de aprendizaje
+
+- Identificar categorías comunes de créditos contributivos para individuos.
+- Explicar por qué los créditos a menudo apuntan a objetivos de política pública específicos.
+- Reconocer que la disponibilidad y las cantidades de los créditos varían mucho según el país y cambian con el tiempo.
+
+## Contenido principal
+
+Los gobiernos usan con frecuencia los créditos contributivos para fomentar conductas específicas o apoyar a grupos específicos, en lugar de solo subir o bajar la recaudación de manera uniforme. Entre las categorías comunes, en términos generales, están: créditos relacionados con tener y criar hijos o dependientes, créditos relacionados con gastos de educación, créditos relacionados con mejoras de eficiencia energética en el hogar y créditos dirigidos a personas o familias trabajadoras de bajos ingresos.
+
+Los nombres, cantidades y requisitos específicos de estos créditos varían enormemente según el país y cambian con frecuencia a medida que cambian las prioridades de política pública. La lección duradera no es un crédito en particular, sino el patrón: cuando un gobierno quiere fomentar una conducta (como la educación, las mejoras al hogar o el trabajo frente a la dependencia de ayudas) sin prohibir la alternativa, el crédito contributivo es una herramienta de política común. Reconocer este patrón le ayuda a entender los nuevos créditos que encuentre más adelante, incluso los que todavía no existen.
+
+## Ejemplo práctico
+
+**Pregunta:** Un gobierno quiere que más dueños de casa instalen placas solares sin hacerlo obligatorio. ¿Qué herramienta podría usar?
+
+**Estudiante:** Según el patrón de esta lección, probablemente un crédito contributivo vinculado a la instalación de placas solares.
+
+**Guía:** ¿Por qué un crédito y no, por ejemplo, un cheque de subsidio o una obligación?
+
+**Estudiante:** Un crédito funciona dentro del sistema tributario existente, reduce la factura dólar por dólar y fomenta la conducta sin imponerla.
+
+**Guía:** Exactamente. Esa es la lógica general detrás de la mayoría de los créditos basados en incentivos.
+
+## Prueba práctica
+
+**Pregunta 1.** Los gobiernos suelen usar los créditos contributivos para:
+
+A) Redistribuir riqueza al azar, sin ningún propósito
+B) Fomentar conductas específicas o apoyar a grupos específicos
+C) Eliminar toda forma de tributación
+D) Beneficiar solo a las grandes corporaciones
+
+**Pregunta 2.** Entre las categorías comunes de créditos mencionadas en esta lección están:
+
+A) Dependientes, educación, eficiencia energética y apoyo al trabajo de bajos ingresos
+B) Solo los artículos de lujo
+C) Solo las inversiones extranjeras
+D) Solo las herencias
+
+**Pregunta 3.** ¿Se mantienen iguales los nombres y cantidades específicos de los créditos entre países y a lo largo del tiempo?
+
+A) Sí, siempre
+B) No: varían mucho y cambian con frecuencia
+C) Solo en los países ricos
+D) Nunca han existido históricamente
+
+**Pregunta 4.** La lección duradera de este tema es:
+
+A) Memorizar todos los créditos
+B) Reconocer el patrón general de usar créditos para incentivar conductas
+C) Los créditos no tienen importancia
+D) Solo las empresas reciben créditos
+
+## Clave de respuestas
+
+1. B, 2. A, 3. B, 4. B
+
+## Respuestas y explicaciones
+
+**1.** Los créditos son con frecuencia herramientas de política pública, no simples ajustes neutrales de la recaudación.
+
+**2.** Los dependientes, la educación, la eficiencia energética y el apoyo al ingreso son categorías de créditos que se mencionan comúnmente en muchos sistemas.
+
+**3.** Los programas de créditos son de las partes de la ley tributaria que cambian con más frecuencia, así que los detalles requieren verificar las reglas vigentes.
+
+**4.** Reconocer el patrón de incentivos le permite entender los nuevos créditos que encontrará en el futuro.
+
+## Puntos clave
+
+- Los créditos contributivos a menudo funcionan como incentivos para conductas específicas o como apoyo a grupos específicos.
+- Entre las categorías comunes están los dependientes, la educación, la eficiencia energética y el apoyo al ingreso.
+- Los créditos específicos varían mucho según el país y cambian con frecuencia.
+- La destreza transferible es reconocer el patrón de incentivos, no memorizar un crédito en particular.
+
+===== GREEN-L1-018
+TITLE: Estado civil para la planilla: soltero, casado, jefe de familia
+SUMMARY: Presenta el concepto de estado civil para efectos de la planilla y por qué la situación conyugal y familiar puede afectar el cálculo de los impuestos.
+# Estado civil para la planilla: soltero, casado, jefe de familia
+
+## Objetivos de aprendizaje
+
+- Explicar qué significa el estado civil para efectos de la planilla.
+- Identificar categorías comunes de estado civil para la planilla.
+- Explicar, en términos generales, por qué el estado civil puede afectar el resultado tributario.
+
+## Contenido principal
+
+El estado civil para la planilla es una categoría, basada en su situación conyugal y familiar, que muchos sistemas tributarios usan para determinar qué tramos, cantidades de deducción y reglas de elegibilidad se le aplican. Entre las categorías comunes están: soltero, casado (a veces con la opción de presentar en conjunto o por separado) y jefe de familia (normalmente para una persona no casada que mantiene dependientes). (En Puerto Rico, por ejemplo, la planilla de Hacienda también distingue categorías como estas; las etiquetas y reglas exactas varían según la jurisdicción.)
+
+El estado civil importa porque cambia el cálculo de fondo: el mismo ingreso puede resultar en una cantidad distinta de impuesto adeudado según la categoría que aplique, porque los umbrales de los tramos y las cantidades de la deducción estándar suelen fijarse de forma diferente para cada una. Esto no es un truco ni una laguna legal; refleja un juicio de política pública según el cual la composición del hogar afecta la capacidad financiera real de una persona o familia para pagar impuestos.
+
+## Ejemplo práctico
+
+**Pregunta:** Dos personas ganan salarios idénticos, pero una es soltera y la otra mantiene a dos hijos dependientes como jefe de familia. ¿Esperaría usted que sus cálculos de impuestos fueran idénticos?
+
+**Estudiante:** Probablemente no, porque el estado civil cambia qué tramos y cantidades de deducción se aplican.
+
+**Guía:** ¿Por qué podría el sistema tributario tratar de forma distinta el caso del jefe de familia?
+
+**Estudiante:** Porque mantener dependientes afecta cuánto de ese ingreso está realmente disponible para las necesidades propias de la persona, y la política lo ajusta.
+
+**Guía:** Correcto. El estado civil refleja un juicio sobre la capacidad financiera, no solo sobre el ingreso bruto.
+
+## Prueba práctica
+
+**Pregunta 1.** El estado civil para la planilla se basa en:
+
+A) Su puesto de trabajo
+B) Su situación conyugal y familiar
+C) Solo su edad
+D) Su país de nacimiento
+
+**Pregunta 2.** Entre las categorías comunes de estado civil para la planilla están:
+
+A) Soltero, casado, jefe de familia
+B) Solo «empleado» y «desempleado»
+C) Solo «rico» y «pobre»
+D) Solo «ciudadano» y «no ciudadano»
+
+**Pregunta 3.** El estado civil para la planilla puede afectar:
+
+A) Nada
+B) Los tramos y las cantidades de deducción que se aplican
+C) Solo su nombre en el formulario
+D) Solo el impuesto sobre las ventas
+
+**Pregunta 4.** La razón por la que importa el estado civil se describe en general como:
+
+A) Una laguna legal
+B) Un reflejo de la distinta capacidad financiera según la composición del hogar
+C) Pura casualidad
+D) Algo ajeno al cálculo de los impuestos
+
+## Clave de respuestas
+
+1. B, 2. A, 3. B, 4. B
+
+## Respuestas y explicaciones
+
+**1.** Las categorías de estado civil se construyen en torno a la situación conyugal y las responsabilidades familiares.
+
+**2.** Soltero, casado y jefe de familia son categorías de uso amplio, aunque las etiquetas exactas varían según el país.
+
+**3.** Las distintas categorías suelen tener umbrales de tramos y cantidades de deducción diferentes.
+
+**4.** El razonamiento de política pública es que la composición del hogar afecta la capacidad financiera real, no que se trate de un truco.
+
+## Puntos clave
+
+- El estado civil para la planilla refleja la situación conyugal y familiar.
+- Entre las categorías comunes están soltero, casado y jefe de familia.
+- El estado civil afecta los tramos y las cantidades de deducción que se aplican.
+- Esto refleja juicios de política pública sobre la capacidad financiera, no una laguna legal.
+
+===== GREEN-L1-019
+TITLE: ¿Qué es una planilla de impuestos y por qué se presenta?
+SUMMARY: Explica el propósito de presentar una planilla de impuestos: conciliar los pagos estimados con la obligación tributaria real del año.
+# ¿Qué es una planilla de impuestos y por qué se presenta?
+
+## Objetivos de aprendizaje
+
+- Definir una planilla de impuestos en términos sencillos.
+- Explicar el propósito de conciliación que tiene presentarla.
+- Conectar la presentación de la planilla con la lección anterior sobre la retención.
+
+## Contenido principal
+
+Una planilla de impuestos (también llamada declaración jurada en algunos países) es un documento que usted presenta al gobierno para informar su ingreso, sus deducciones, sus créditos y el impuesto que, según su cálculo, adeuda por el año. Presentar la planilla es la forma en que el sistema basado en estimaciones (la retención, vista antes) se concilia con la cifra real y final.
+
+Piénselo como un ajuste de cuentas de fin de año. Durante el año se retuvieron impuestos o se hicieron pagos estimados con base en proyecciones. La planilla suma lo que realmente ocurrió —el ingreso real ganado, las deducciones y los créditos reales reclamados— y calcula la cantidad verdadera adeudada. Si el total ya pagado supera esa cantidad verdadera, usted recibe un reintegro. Si se queda corto, usted debe la diferencia. Presentar la planilla no es un trámite opcional: en la mayoría de los sistemas es el acto legalmente obligatorio que cierra su obligación tributaria del año.
+
+## Ejemplo práctico
+
+**Pregunta:** Si a un trabajador le retuvieron impuestos todo el año y nunca presenta su planilla, ¿quedó oficialmente saldada su obligación tributaria?
+
+**Estudiante:** Supongo que no, porque la retención era solo una estimación.
+
+**Guía:** ¿Qué hace realmente la planilla que la retención por sí sola no hace?
+
+**Estudiante:** Calcula la cifra final verdadera según todo lo que realmente pasó durante el año y la compara con lo que ya se pagó.
+
+**Guía:** Correcto. Presentar la planilla es el paso de conciliación y, en la mayoría de los sistemas, es obligatorio por ley, no opcional.
+
+## Prueba práctica
+
+**Pregunta 1.** Una planilla de impuestos se describe mejor como:
+
+A) Una sugerencia voluntaria
+B) Un documento que informa el ingreso, las deducciones y los créditos para calcular el impuesto adeudado
+C) Lo mismo que la retención
+D) Algo solo para empresas
+
+**Pregunta 2.** Presentar una planilla sirve principalmente para:
+
+A) Conciliar los pagos estimados con la obligación tributaria real
+B) Reemplazar por completo la retención
+C) Evitar todos los impuestos
+D) Aplicarse solo a quienes trabajan por cuenta propia
+
+**Pregunta 3.** Si lo retenido supera el impuesto verdadero adeudado, el resultado típico es:
+
+A) Una penalidad
+B) Un reintegro
+C) Nada
+D) Una auditoría automática
+
+**Pregunta 4.** ¿Es opcional, en general, presentar la planilla en la mayoría de los sistemas?
+
+A) Sí, siempre es opcional
+B) No, normalmente es un requisito legal
+C) Solo para los ricos
+D) Solo para las empresas
+
+## Clave de respuestas
+
+1. B, 2. A, 3. B, 4. B
+
+## Respuestas y explicaciones
+
+**1.** La planilla informa el panorama financiero completo necesario para calcular la obligación tributaria real.
+
+**2.** La función principal de presentar la planilla es comparar lo que ya se pagó con lo que realmente se debe.
+
+**3.** La retención excesiva, una vez conciliada mediante la planilla, se devuelve como reintegro.
+
+**4.** En la mayoría de los sistemas, presentar la planilla es una obligación legal, no una cortesía.
+
+## Puntos clave
+
+- La planilla de impuestos informa el ingreso, las deducciones y los créditos para calcular el impuesto verdadero adeudado.
+- Presentar la planilla concilia los pagos estimados (como la retención) con la obligación real.
+- Pagar de más produce un reintegro; pagar de menos produce un saldo a pagar.
+- Presentar la planilla normalmente es un requisito legal, no algo opcional.
+
+===== GREEN-L1-020
+TITLE: Los reintegros: por qué recibir uno no siempre es una victoria
+SUMMARY: Replantea el entusiasmo común por los reintegros de impuestos al explicar lo que un reintegro representa realmente desde el punto de vista financiero.
+# Los reintegros: por qué recibir uno no siempre es una victoria
+
+## Objetivos de aprendizaje
+
+- Explicar lo que representa realmente un reintegro de impuestos.
+- Evaluar el costo y beneficio de retener de más durante el año.
+- Replantear «recibir un reintegro grande» como una decisión de finanzas personales, y no automáticamente como una buena noticia.
+
+## Contenido principal
+
+Un reintegro de impuestos se siente como un dinero caído del cielo, pero es importante entender lo que realmente es: su propio dinero, que se le devuelve, y que usted pagó de más durante el año mediante la retención o los pagos estimados. No es un bono ni un regalo del gobierno: es un préstamo sin intereses que usted le hizo al gobierno y que ahora se le devuelve.
+
+Esto importa porque ese dinero estuvo en manos del gobierno todo el año en lugar de estar disponible para usted: para ahorrar, para pagar deudas o para generar intereses en una cuenta propia. Un reintegro muy grande a menudo indica que la retención se fijó demasiado alta en comparación con la obligación tributaria real. Algunas personas prefieren de todos modos un reintegro grande y lo usan como una herramienta de ahorro forzoso, y esa es una decisión personal legítima, pero debería ser una decisión consciente y no un malentendido de lo que realmente está pasando.
+
+## Ejemplo práctico
+
+**Pregunta:** Una trabajadora está entusiasmada con un reintegro anual grande y lo llama «dinero gratis». ¿Cómo lo replantearía usted?
+
+**Estudiante:** Le señalaría que no es gratis: es su propio dinero, que pagó de más durante todo el año y que apenas ahora le regresa.
+
+**Guía:** ¿A qué renunció ella al permitir que le retuvieran ese dinero en lugar de quedárselo?
+
+**Estudiante:** A la oportunidad de usarlo o invertirlo ella misma durante el año: estuvo en manos del gobierno, básicamente como un préstamo sin intereses.
+
+**Guía:** Exactamente. El reintegro en sí no es malo, pero llamarlo «dinero gratis» es no entender lo que realmente pasó.
+
+## Prueba práctica
+
+**Pregunta 1.** Un reintegro de impuestos representa:
+
+A) Un regalo del gobierno
+B) Su propio dinero pagado de más que se le devuelve
+C) Una penalidad
+D) Un préstamo del gobierno a usted
+
+**Pregunta 2.** Un reintegro muy grande a menudo indica:
+
+A) Una planificación tributaria perfecta
+B) Una retención fijada demasiado alta en comparación con la obligación real
+C) Un aumento de impuestos
+D) Nada significativo
+
+**Pregunta 3.** ¿Qué le cuesta, en términos de oportunidad, pagar de más mediante la retención?
+
+A) Nada
+B) El uso de ese dinero durante el año
+C) Impuestos adicionales
+D) Su estado civil para la planilla
+
+**Pregunta 4.** ¿Puede ser legítimo querer un reintegro grande como estrategia de ahorro forzoso?
+
+A) No, nunca
+B) Sí, como decisión consciente de finanzas personales
+C) Solo para las empresas
+D) Solo si lo exige la ley
+
+## Clave de respuestas
+
+1. B, 2. B, 3. B, 4. B
+
+## Respuestas y explicaciones
+
+**1.** Un reintegro es simplemente la devolución del dinero que usted pagó de más, no un ingreso adicional que le da el gobierno.
+
+**2.** Los reintegros grandes son una señal, no un logro, y a menudo indican que la retención podría ajustarse más cerca de la obligación real.
+
+**3.** El dinero que pasa todo el año en manos del gobierno no genera intereses ni se pone a trabajar para usted.
+
+**4.** Algunas personas retienen de más a propósito como método de ahorro forzoso, y esa es una decisión legítima y deliberada.
+
+## Puntos clave
+
+- Un reintegro de impuestos es su propio dinero pagado de más que regresa, no dinero gratis del gobierno.
+- Los reintegros grandes a menudo indican que la retención está fijada más alta de lo necesario.
+- Pagar de más durante el año tiene un costo de oportunidad real.
+- Elegir un reintegro grande como ahorro forzoso está bien, siempre que sea una decisión consciente.
+
+===== GREEN-L1-021
+TITLE: Las fechas límite para presentar y por qué importan
+SUMMARY: Aborda la importancia práctica de las fechas límite para presentar la planilla y las consecuencias generales de no cumplirlas.
+# Las fechas límite para presentar y por qué importan
+
+## Objetivos de aprendizaje
+
+- Explicar por qué los sistemas tributarios fijan fechas límite para presentar.
+- Identificar las consecuencias generales de no cumplir una fecha límite.
+- Reconocer la diferencia entre una prórroga para presentar y una prórroga para pagar.
+
+## Contenido principal
+
+La mayoría de los sistemas tributarios fija una fecha límite anual para presentar las planillas. Las fechas límite existen para que el sistema sea predecible y se pueda hacer cumplir: sin ellas, la presentación podría retrasarse indefinidamente, lo que dificultaría que los gobiernos planificaran la recaudación y que los contribuyentes supieran en qué situación están. (Las fechas exactas dependen de la jurisdicción; en Puerto Rico las fija el Departamento de Hacienda y en la República Dominicana, la DGII.)
+
+No cumplir una fecha límite para presentar suele traer consecuencias: penalidades, intereses sobre las cantidades no pagadas, o ambas cosas, según el sistema. Muchos sistemas permiten pedir una prórroga de la fecha límite para presentar, pero es fundamental entender una trampa común: una prórroga para presentar a menudo no es lo mismo que una prórroga para pagar. Aun con una prórroga para presentar, es posible que cualquier impuesto realmente adeudado tenga que pagarse en la fecha límite original para evitar intereses y penalidades: la prórroga a menudo solo pospone el papeleo, no la obligación de pago.
+
+## Ejemplo práctico
+
+**Pregunta:** El dueño de un negocio pide una prórroga para presentar y supone que tampoco tiene que pagar nada hasta la nueva fecha límite. ¿Es segura esa suposición?
+
+**Estudiante:** Según lo que usted dijo, probablemente no: una prórroga para presentar podría no ser lo mismo que una prórroga para pagar.
+
+**Guía:** ¿Cuál es el enfoque más seguro si no está seguro de cuánto deberá?
+
+**Estudiante:** Estimar y pagar algo cercano a lo que probablemente deba para la fecha límite original, aunque el papeleo se presente después.
+
+**Guía:** Exactamente. Tratar una prórroga para presentar como si fuera una prórroga para pagar es una de las suposiciones más comunes y costosas.
+
+## Prueba práctica
+
+**Pregunta 1.** Las fechas límite para presentar existen para:
+
+A) Castigar a los contribuyentes
+B) Mantener el sistema predecible y aplicable
+C) Beneficiar solo a las grandes corporaciones
+D) Ningún propósito real
+
+**Pregunta 2.** No cumplir una fecha límite para presentar suele traer:
+
+A) Nada
+B) Penalidades, intereses o ambas cosas
+C) Un reintegro automático
+D) Un crédito contributivo
+
+**Pregunta 3.** Una prórroga para presentar:
+
+A) Siempre es lo mismo que una prórroga para pagar
+B) A menudo no es lo mismo que una prórroga para pagar
+C) Es ilegal en la mayoría de los sistemas
+D) Solo está disponible para empresas
+
+**Pregunta 4.** Si no está seguro de cuánto debe, pero ya pidió una prórroga para presentar, un enfoque más seguro es:
+
+A) No pagar nada hasta la nueva fecha límite
+B) Estimar y pagar una cantidad cercana a la probable para la fecha límite original
+C) Ignorar por completo la situación
+D) Suponer que nunca se requiere ningún pago
+
+## Clave de respuestas
+
+1. B, 2. B, 3. B, 4. B
+
+## Respuestas y explicaciones
+
+**1.** La previsibilidad y la posibilidad de hacer cumplir las reglas son las razones prácticas por las que existen fechas límite en los sistemas tributarios.
+
+**2.** Presentar tarde suele traer consecuencias financieras diseñadas para fomentar el cumplimiento a tiempo.
+
+**3.** Las prórrogas para presentar con frecuencia solo posponen el papeleo, no la obligación de pago de fondo.
+
+**4.** Estimar y pagar una cantidad cercana a la real para la fecha límite original protege contra intereses y penalidades, aunque el papeleo se presente después.
+
+## Puntos clave
+
+- Las fechas límite existen para mantener los sistemas tributarios predecibles y aplicables.
+- No cumplir una fecha límite suele traer penalidades, intereses o ambas cosas.
+- Una prórroga para presentar a menudo no es lo mismo que una prórroga para pagar.
+- Cuando no esté seguro de la cantidad exacta adeudada, estime y pague una cantidad cercana para la fecha límite original.

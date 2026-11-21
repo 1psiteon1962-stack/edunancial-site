@@ -1,0 +1,6 @@
+QUEUE v2 (2026-11-08, from full site audit at origin/main cd3ce73a)
+0 Upload 39 delivered packs not on site (upload_list.txt; en-US L2 first)
+1 English source fixes: BLUE-L1 30 template lessons; RED-L1-021 template; delete 50 GOLD-L1 *.it-IT.md strays
+2 L1 rebuild: 83 packs (fix 5, redo 52, new 26) -- es-419 first (WHITE..ORANGE), then ht, then redo the rest
+3 L2: 81 packs
+4 L3: 74, L4: 80, L5: 80 (German first per earlier order)

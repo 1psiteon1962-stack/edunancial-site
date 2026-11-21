@@ -1,0 +1,374 @@
+===== WHITE-L2-028
+TITLE: Les biais comportementaux : la peur, l'avidité et l'instinct grégaire
+SUMMARY: Reconnais comment la peur, l'avidité et l'effet de troupeau mènent à des décisions mal synchronisées, et pourquoi un plan écrit d'avance t'aide à tenir le cap.
+## WHITE-L2-028
+### Les biais comportementaux : la peur, l'avidité et l'instinct grégaire
+
+**1. Objectifs d'apprentissage**
+À la fin de cette leçon, tu pourras :
+- Nommer les biais comportementaux courants qui touchent les décisions des investisseurs.
+- Expliquer comment la peur et l'avidité peuvent mener à des décisions mal synchronisées.
+- Décrire l'instinct grégaire et ses risques généraux.
+
+**2. Contenu principal**
+La recherche en finance comportementale a repéré plusieurs modèles psychologiques récurrents qui peuvent éloigner les investisseurs de leurs propres plans à long terme. La vente motivée par la peur survient souvent pendant les baisses du marché, quand un investisseur vend à un creux justement à cause de son inconfort émotionnel, ce qui peut transformer une expérience de volatilité temporaire (leçon 26) en perte permanente et concrétisée. L'achat motivé par l'avidité survient souvent pendant les hausses de prix rapides, quand un investisseur achète de façon agressive près d'un sommet du marché justement par peur de manquer quelque chose, plutôt qu'en fonction de sa thèse de placement ou de sa stratégie de départ.
+
+L'instinct grégaire (ou effet de troupeau) désigne la tendance à suivre le comportement de la foule — acheter parce que tout le monde semble acheter, ou vendre parce que tout le monde semble vendre — plutôt que de se fier à une analyse indépendante ou à son propre plan établi. Ça peut amplifier les extrêmes du marché, puisque les achats de troupeau peuvent pousser les prix bien au-dessus de ce que les données fondamentales justifieraient, et que les ventes de troupeau peuvent les pousser bien en dessous.
+
+Reconnaître ces modèles chez soi, sur le moment, est vraiment difficile; c'est précisément pourquoi avoir un plan et une stratégie écrits d'avance (en écho à la discipline bâtie tout au long de ce niveau) compte davantage pendant les moments de marché chargés d'émotion que pendant les périodes calmes.
+
+**3. Exemple pratique**
+Pendant une baisse soudaine et marquée du marché, Reggie ressent une forte envie de vendre ses actions tout de suite, poussé par la peur et par des manchettes qui prédisent d'autres baisses. Avant d'agir, il relit le plan de placement écrit qu'il a établi des mois plus tôt, pendant une période calme, qui prévoyait précisément que des baisses arriveraient et indiquait son intention de rester investi malgré la volatilité à court terme, vu son long horizon de placement (leçon 27).
+
+Revenir à ce plan établi d'avance aide Reggie à résister à l'impulsion de vendre motivée par la peur sur le moment. Ça montre pourquoi avoir un plan en place avant que les émotions s'emballent est plus efficace que d'essayer de raisonner calmement en plein milieu d'un événement de marché stressant.
+
+**4. Quiz de pratique**
+1. Qu'est-ce que la vente motivée par la peur peut transformer?
+   a) Un gain garanti en perte garantie
+   b) Une expérience de volatilité temporaire en perte permanente et concrétisée
+   c) Une obligation en action
+   d) Rien — elle n'a aucun effet
+2. Qu'est-ce que l'« instinct grégaire »?
+   a) Une analyse indépendante et attentive
+   b) La tendance à suivre les achats ou les ventes de la foule plutôt que son propre plan
+   c) Un type de cote d'obligation
+   d) Un règlement gouvernemental
+3. Vrai ou faux : Les biais comportementaux comme la peur et l'avidité n'ont aucun effet réel sur les décisions des investisseurs.
+4. Pourquoi le plan écrit établi d'avance a-t-il aidé Reggie pendant la baisse du marché?
+   a) Il n'a eu aucun effet sur sa décision
+   b) Il lui a donné un point d'ancrage calme et décidé d'avance pour résister à une impulsion motivée par la peur sur le moment
+   c) Il lui disait de vendre tout de suite
+   d) Il avait été créé pendant la baisse elle-même
+
+**5. Corrigé**
+1. b  2. b  3. Faux  4. b
+
+**6. Réponses et explications**
+1. Vendre par peur pendant une baisse peut concrétiser une perte qui aurait autrement pu être une expérience de volatilité temporaire et récupérable.
+2. L'instinct grégaire consiste à suivre le comportement de la foule plutôt qu'une analyse indépendante ou un plan établi.
+3. Les biais comportementaux comme la peur et l'avidité sont bien documentés et peuvent avoir un effet important sur les décisions réelles des investisseurs.
+4. Le plan de Reggie, établi calmement d'avance, lui a donné un point d'ancrage stable pour résister à une impulsion émotionnelle sur le moment.
+
+**7. Points clés à retenir**
+- Vendre par peur peut transformer une volatilité temporaire en perte permanente et concrétisée.
+- Acheter par avidité, souvent lié à la peur de manquer quelque chose, peut mener à des achats mal synchronisés près des sommets du marché.
+- L'instinct grégaire consiste à suivre la foule plutôt qu'une analyse indépendante ou un plan établi.
+- Un plan écrit établi pendant les périodes calmes est un meilleur point d'ancrage que de raisonner sur le moment sous le stress.
+
+===== WHITE-L2-029
+TITLE: Les comptes à avantage fiscal : un survol conceptuel
+SUMMARY: Comprends le principe des comptes à avantage fiscal, les deux grandes catégories de traitement fiscal et pourquoi les règles précises exigent un conseil professionnel à jour.
+## WHITE-L2-029
+### Les comptes à avantage fiscal : un survol conceptuel
+
+**1. Objectifs d'apprentissage**
+À la fin de cette leçon, tu pourras :
+- Expliquer le concept général d'un compte à avantage fiscal.
+- Distinguer, de façon conceptuelle, les grandes catégories générales de traitement fiscal.
+- Reconnaître que c'est un domaine propre à chaque juridiction qui exige un conseil professionnel et à jour.
+
+**2. Contenu principal**
+Beaucoup de juridictions offrent des types de comptes précis conçus pour encourager l'épargne et l'investissement à long terme grâce à une forme de traitement fiscal avantageux, par rapport à un compte de courtage imposable ordinaire. Les grandes catégories générales (illustrées ici avec des notions américaines comme exemple, puisque les détails dépendent beaucoup de chaque juridiction) comprennent les comptes où les cotisations peuvent réduire le revenu imposable actuel, avec des impôts généralement payables plus tard au moment du retrait, et les comptes où les cotisations ne réduisent pas le revenu imposable actuel, mais où les retraits admissibles pourraient ne pas être imposés plus tard.
+
+Cette leçon évite volontairement de nommer des plafonds de cotisation actuels, des seuils de revenu ou des règles d'admissibilité détaillées, puisqu'ils changent souvent avec les lois et varient beaucoup selon la juridiction, et même selon le type de compte à l'intérieur d'une juridiction. La notion de niveau 2 à retenir, c'est que le type de compte et le traitement fiscal sont une pièce distincte du choix des placements : le même placement sous-jacent (comme un large fonds indiciel) peut être détenu dans différents types de comptes, chacun avec des effets fiscaux différents, et choisir le bon type de compte est une décision qui profite d'un conseil professionnel, à jour et propre à la juridiction.
+
+**3. Exemple pratique**
+Avant de faire sa prochaine cotisation, Farah s'informe sur les grandes catégories de comptes à avantage fiscal offertes dans sa juridiction. Elle comprend de façon conceptuelle que certains offrent un avantage fiscal maintenant avec de l'impôt plus tard, alors que d'autres n'offrent pas d'avantage maintenant, mais un traitement possiblement libre d'impôt plus tard, sans essayer d'apprendre par cœur des plafonds exacts tirés d'une source dépassée. Elle consulte ensuite un fiscaliste pour confirmer son admissibilité actuelle et les plafonds précis qui s'appliquent à sa situation avant de finaliser sa stratégie de cotisation, en reconnaissant que ce niveau de détail change trop souvent pour qu'une formation générale puisse le fournir de façon responsable.
+
+**4. Quiz de pratique**
+1. Selon cette leçon, quel est le but général d'un compte à avantage fiscal?
+   a) Éliminer tout risque de placement
+   b) Offrir une forme de traitement fiscal avantageux pour encourager l'épargne et l'investissement à long terme
+   c) Garantir un rendement de placement précis
+   d) Remplacer le besoin de toute stratégie de placement
+2. Pourquoi cette leçon évite-t-elle de nommer des plafonds de cotisation ou des règles d'admissibilité actuels?
+   a) Ces détails n'ont aucune importance
+   b) Ils changent souvent et varient beaucoup selon la juridiction, ce qui exige un conseil professionnel à jour
+   c) Il n'existe qu'une seule règle universelle qui ne change jamais
+   d) Les comptes à avantage fiscal n'existent pas vraiment
+3. Vrai ou faux : Un même placement sous-jacent ne peut être détenu que dans un seul type de compte précis.
+4. Qu'a fait Farah avant de finaliser sa stratégie de cotisation?
+   a) Elle s'est fiée entièrement à de l'information générale dépassée
+   b) Elle a consulté un fiscaliste pour confirmer les règles à jour propres à sa juridiction
+   c) Elle a complètement ignoré le type de compte
+   d) Elle a supposé que tous les types de comptes sont identiques
+
+**5. Corrigé**
+1. b  2. b  3. Faux  4. b
+
+**6. Réponses et explications**
+1. Les comptes à avantage fiscal offrent généralement un traitement fiscal avantageux pour encourager l'épargne et l'investissement à long terme.
+2. Ces règles précises changent souvent et varient selon la juridiction, ce qui exige un conseil professionnel à jour et personnalisé.
+3. Le même placement sous-jacent peut habituellement être détenu dans différents types de comptes, chacun avec des effets fiscaux différents.
+4. Farah a eu raison de chercher un conseil professionnel à jour plutôt que de se fier à de l'information générale ou possiblement dépassée.
+
+**7. Points clés à retenir**
+- Les comptes à avantage fiscal offrent un traitement fiscal avantageux pour encourager l'épargne et l'investissement à long terme.
+- Les grandes catégories offrent soit un avantage fiscal maintenant avec de l'impôt plus tard, soit aucun avantage maintenant avec un traitement possiblement libre d'impôt plus tard.
+- Les plafonds et les règles d'admissibilité précis dépendent beaucoup de la juridiction et changent souvent.
+- Le type de compte est une décision distincte du choix des placements, qu'il vaut mieux prendre avec un conseil professionnel à jour.
+
+===== WHITE-L2-030
+TITLE: Imposable ou à avantage fiscal : quoi détenir où
+SUMMARY: Comprends ce qu'est la localisation de l'actif, en quoi elle diffère de la répartition de l'actif et les éléments généraux pour décider quel placement mettre dans quel compte.
+## WHITE-L2-030
+### Imposable ou à avantage fiscal : quoi détenir où
+
+**1. Objectifs d'apprentissage**
+À la fin de cette leçon, tu pourras :
+- Expliquer le concept général de la « localisation de l'actif », distinct de la répartition de l'actif.
+- Décrire les éléments généraux à considérer pour décider quels placements détenir dans quels types de comptes.
+- Reconnaître que c'est un domaine qui demande un encadrement professionnel coordonné.
+
+**2. Contenu principal**
+Dans la suite de la leçon précédente, la « localisation de l'actif » désigne la décision de savoir quels placements précis détenir dans quels types de comptes (imposables ou de différentes catégories à avantage fiscal), ce qui est distinct de la répartition de l'actif (leçon 16), qui porte sur l'ensemble du mélange d'actions, d'obligations et de liquidités, peu importe le type de compte. Un investisseur peut garder la même répartition globale de 70/30 entre actions et obligations dans plusieurs comptes, mais décider de façon réfléchie quels titres précis vont dans quel compte selon leurs caractéristiques fiscales.
+
+Parmi les éléments généraux dont on discute dans ce domaine, il y a l'idée de placer les placements qui génèrent un revenu imposable continu important (comme certains intérêts d'obligations) dans des comptes à avantage fiscal où ce revenu pourrait ne pas être imposé dans l'immédiat, et de placer dans le compte imposable lui-même les placements qui bénéficient déjà d'un traitement fiscal plus avantageux, même dans un compte imposable (comme certaines actions détenues à long terme, vues plus en détail à la leçon 31). Ce sont des éléments généraux discutés dans la formation en finances personnelles, pas une formule universelle, puisque la localisation optimale réelle dépend de la situation fiscale complète de chaque personne et des comptes précis auxquels elle a accès.
+
+**3. Exemple pratique**
+En travaillant avec sa conseillère financière, Ingrid examine sa répartition globale de 70/30 entre actions et obligations, qu'elle détient à la fois dans un compte de courtage imposable et dans un compte de retraite à avantage fiscal. Au lieu de diviser chaque titre au hasard, à parts égales entre les deux comptes, elles placent de façon réfléchie ses obligations (qui génèrent des intérêts imposables réguliers) surtout dans son compte à avantage fiscal, et ses fonds indiciels d'actions (qui génèrent relativement moins d'activité imposable courante) surtout dans son compte imposable — tout en confirmant que sa répartition globale de 70/30 reste la même en combinant les deux comptes.
+
+**4. Quiz de pratique**
+1. À quoi la « localisation de l'actif » se rapporte-t-elle?
+   a) À l'emplacement géographique du siège social d'une entreprise
+   b) À la décision de savoir quels placements précis détenir dans quels types de comptes
+   c) À la même notion que la répartition de l'actif
+   d) À un type de cote d'obligation
+2. En quoi la localisation de l'actif diffère-t-elle de la répartition de l'actif?
+   a) Ce sont des notions identiques
+   b) La répartition de l'actif porte sur le mélange global d'actions, d'obligations et de liquidités; la localisation porte sur quel compte détient quel placement
+   c) La localisation de l'actif ne s'applique qu'à l'immobilier
+   d) La répartition de l'actif ne s'applique qu'aux comptes imposables
+3. Vrai ou faux : La localisation de l'actif optimale est la même pour chaque investisseur, peu importe sa situation fiscale ou les comptes auxquels il a accès.
+4. Pourquoi Ingrid a-t-elle placé ses obligations surtout dans son compte à avantage fiscal?
+   a) Les obligations ne génèrent aucun revenu
+   b) Les obligations génèrent des intérêts imposables réguliers, qui peuvent profiter d'un traitement à avantage fiscal
+   c) La loi l'exigeait
+   d) Elle n'aimait pas les obligations
+
+**5. Corrigé**
+1. b  2. b  3. Faux  4. b
+
+**6. Réponses et explications**
+1. La localisation de l'actif est la décision de savoir quels placements précis détenir dans quels types de comptes.
+2. La répartition de l'actif porte sur le mélange global des placements; la localisation porte sur quel compte détient quel placement précis.
+3. La localisation optimale dépend de la situation fiscale complète de chaque personne et des types de comptes auxquels elle a accès.
+4. Les intérêts d'obligations sont souvent imposés comme un revenu ordinaire, ce qui fait des comptes à avantage fiscal un choix de placement souvent discuté.
+
+**7. Points clés à retenir**
+- La localisation de l'actif détermine quels placements précis sont détenus dans quels types de comptes, ce qui la distingue de la répartition de l'actif.
+- Parmi les éléments généraux, on peut placer les placements qui génèrent plus de revenu imposable dans des comptes à avantage fiscal, quand c'est approprié.
+- Ce sont des éléments généraux, pas une formule universelle, puisque le placement optimal dépend de la situation de chaque personne.
+- Coordonner la localisation de l'actif avec un professionnel des finances ou de la fiscalité aide à aligner la stratégie globale sur la réalité fiscale de chacun.
+
+===== WHITE-L2-031
+TITLE: Les gains en capital : à court terme ou à long terme
+SUMMARY: Comprends ce qu'est un gain en capital, la distinction entre court et long terme là où elle existe, et pourquoi l'impôt doit éclairer ta décision sans la remplacer.
+## WHITE-L2-031
+### Les gains en capital : à court terme ou à long terme
+
+**1. Objectifs d'apprentissage**
+À la fin de cette leçon, tu pourras :
+- Définir de façon conceptuelle un gain en capital.
+- Distinguer de façon conceptuelle les gains en capital à court terme et à long terme.
+- Expliquer pourquoi la période de détention peut compter dans la prise de décision d'un investisseur.
+
+**2. Contenu principal**
+Un gain en capital désigne généralement le profit réalisé quand un placement est vendu plus cher que son prix d'achat d'origine (une perte en capital se produit dans le cas contraire). Beaucoup de juridictions, y compris les États-Unis, font une distinction entre les gains en capital à court terme (généralement sur des actifs détenus moins longtemps, souvent imposés comme un revenu ordinaire) et les gains en capital à long terme (généralement sur des actifs détenus plus longtemps qu'un seuil précis, souvent imposés à des taux différents, parfois plus avantageux). Mais les seuils de période de détention et les taux précis dépendent de chaque juridiction, changent avec les lois et exigent une confirmation professionnelle à jour plutôt qu'une supposition générale.
+
+À cause de cette distinction générale (dans les juridictions où elle s'applique), la période de détention peut devenir un facteur que l'investisseur considère, en plus de sa thèse de placement réelle. Cette leçon insiste toutefois sur le fait que les considérations fiscales devraient généralement éclairer, et non remplacer, une prise de décision de placement solide. Vendre un placement dont les données fondamentales s'affaiblissent uniquement pour éviter un taux à court terme, ou garder un placement solide plus longtemps qu'il ne le faudrait uniquement pour atteindre un seuil à long terme, sont deux façons de laisser une considération fiscale déformer une décision de placement par ailleurs solide.
+
+**3. Exemple pratique**
+En pensant à vendre une action qu'il détient, Julian remarque qu'il n'est qu'à quelques semaines de franchir le seuil de détention à long terme de sa juridiction. Au lieu de prendre sa décision uniquement en fonction de sa thèse de placement sous-jacente, il tient compte de ce moment comme d'un élément parmi d'autres et discute avec son fiscaliste pour savoir si attendre ces quelques semaines change de façon importante son résultat après impôt. Il confirme aussi que les données fondamentales du placement justifient quand même de le garder un peu plus longtemps, peu importe l'élément fiscal — ce qui évite un scénario où le seul moment fiscal aurait justifié de garder une position dont les données fondamentales se détériorent.
+
+**4. Quiz de pratique**
+1. Qu'est-ce qu'un gain en capital?
+   a) Un type de dividende
+   b) Le profit réalisé quand un placement est vendu plus cher que son prix d'achat
+   c) Un rendement annuel garanti
+   d) Le paiement de coupon d'une obligation
+2. Là où cette distinction s'applique, qu'est-ce qui distingue généralement les gains en capital à court terme des gains à long terme?
+   a) Le secteur d'activité de l'entreprise
+   b) La période pendant laquelle l'actif a été détenu avant la vente
+   c) L'âge de l'investisseur
+   d) Le rendement en dividendes de l'action
+3. Vrai ou faux : Les considérations fiscales devraient toujours l'emporter sur la thèse de placement sous-jacente quand on décide de vendre ou non.
+4. Pourquoi Julian a-t-il tenu compte du seuil de détention à long terme qui approchait, tout en confirmant d'abord sa thèse de placement?
+   a) Le moment fiscal était son seul élément à considérer
+   b) Il voulait tenir compte du moment fiscal comme d'un élément parmi d'autres, en plus d'un raisonnement de placement solide, et non à sa place
+   c) Il a complètement ignoré la période de détention
+   d) Il n'avait aucune thèse de placement sous-jacente
+
+**5. Corrigé**
+1. b  2. b  3. Faux  4. b
+
+**6. Réponses et explications**
+1. Un gain en capital est le profit réalisé en vendant un placement plus cher que son prix d'achat.
+2. Là où cette distinction s'applique, c'est généralement la période de détention qui distingue le traitement des gains en capital à court terme et à long terme.
+3. Les considérations fiscales devraient généralement éclairer, et non remplacer, une prise de décision de placement solide.
+4. Julian a eu raison de traiter la période de détention comme un facteur en plus de sa thèse de placement, et non à sa place.
+
+**7. Points clés à retenir**
+- Un gain en capital est le profit tiré de la vente d'un placement à un prix supérieur à son prix d'achat.
+- Beaucoup de juridictions distinguent les gains à court terme et à long terme selon la période de détention, souvent avec un traitement fiscal différent.
+- Les taux et les seuils précis dépendent de chaque juridiction et exigent une confirmation professionnelle à jour.
+- Les considérations fiscales devraient éclairer, et non remplacer, une prise de décision de placement solide.
+
+===== WHITE-L2-032
+TITLE: Les bases des options : les options d'achat et de vente comme concepts
+SUMMARY: Découvre ce que sont une option d'achat, une option de vente et la prime, et pourquoi une option peut expirer sans valeur, contrairement à une action.
+## WHITE-L2-032
+### Les bases des options : les options d'achat et de vente comme concepts
+
+**1. Objectifs d'apprentissage**
+À la fin de cette leçon, tu pourras :
+- Définir de façon conceptuelle une option d'achat et une option de vente.
+- Expliquer le concept général de la prime.
+- Reconnaître que les options forment une catégorie de risque fondamentalement différente de la possession directe d'actions.
+
+**2. Contenu principal**
+Une option est un contrat qui donne à son acheteur le droit, mais pas l'obligation, d'acheter ou de vendre un actif sous-jacent (souvent une action) à un prix précis (le « prix d'exercice ») pendant une période précise, en échange d'un paiement initial appelé prime. Une option d'achat (*call*) donne à l'acheteur le droit d'acheter l'actif sous-jacent au prix d'exercice; une option de vente (*put*) donne à l'acheteur le droit de vendre l'actif sous-jacent au prix d'exercice.
+
+Cette leçon présente les options uniquement comme un élément conceptuel de base, pas comme une stratégie recommandée. Les options diffèrent fondamentalement de la possession directe d'actions : le propriétaire d'une action participe proportionnellement à la propriété et aux résultats d'une entreprise, sans limite de temps, alors que la position de l'acheteur d'une option a une date d'expiration fixe et peut expirer complètement sans valeur si le prix de l'actif sous-jacent n'évolue pas favorablement par rapport au prix d'exercice pendant cette période précise. Toute la prime payée peut alors être perdue — un profil de risque vraiment différent de la simple possession d'actions.
+
+**3. Exemple pratique**
+En découvrant les options pour la première fois, Priscilla étudie un exemple hypothétique : une option d'achat qui donne à l'acheteur le droit d'acheter une action à un prix d'exercice précis avant une date d'expiration précise, en échange d'une prime payée au départ. Elle remarque que, si le prix de l'action reste sous le prix d'exercice jusqu'à l'expiration, l'option d'achat expirerait sans valeur et l'acheteur perdrait toute la prime payée — un contraste frappant avec la possession directe de l'action, où un prix qui ne bouge pas veut simplement dire aucun gain ni aucune perte, sans échéance fixe qui force un résultat.
+
+**4. Quiz de pratique**
+1. Que donne une option d'achat à son acheteur?
+   a) L'obligation de vendre un actif
+   b) Le droit, mais pas l'obligation, d'acheter un actif à un prix précis pendant une période précise
+   c) La propriété garantie d'une entreprise
+   d) Un dividende fixe
+2. Dans le contexte d'une option, qu'est-ce qu'une « prime »?
+   a) Un type de dividende
+   b) Le paiement initial fait pour acquérir le contrat d'option
+   c) La valeur nominale d'une obligation
+   d) Un impôt sur la possession d'actions
+3. Vrai ou faux : Une option, comme une action, n'a pas de date d'expiration et ne peut pas perdre toute sa valeur.
+4. Selon cette leçon, quel risque clé distingue une option de la possession directe d'une action?
+   a) Les options ne comportent aucun risque
+   b) Une option peut expirer sans valeur, avec la perte de toute la prime, à cause de sa limite de temps fixe
+   c) Les actions expirent toujours sans valeur
+   d) Il n'y a aucune différence entre les deux
+
+**5. Corrigé**
+1. b  2. b  3. Faux  4. b
+
+**6. Réponses et explications**
+1. Une option d'achat donne à l'acheteur le droit, mais pas l'obligation, d'acheter un actif à un prix précis pendant une période précise.
+2. La prime est le paiement initial que fait l'acheteur de l'option pour acquérir le contrat.
+3. Contrairement à la possession d'actions, les options ont une date d'expiration fixe et peuvent expirer complètement sans valeur.
+4. La date d'expiration fixe, qui rend possible la perte totale de la prime, est un risque clé qui distingue les options de la possession d'actions.
+
+**7. Points clés à retenir**
+- Une option donne à l'acheteur le droit, mais pas l'obligation, d'acheter (option d'achat) ou de vendre (option de vente) un actif à un prix précis pendant une période précise.
+- La prime est le coût initial payé pour acquérir un contrat d'option.
+- Les options ont une date d'expiration fixe et peuvent expirer complètement sans valeur, contrairement à la possession directe d'actions.
+- Cette leçon présente les options seulement comme un concept, pas comme une stratégie recommandée pour un apprenant en particulier.
+
+===== WHITE-L2-033
+TITLE: Pourquoi les options forment une catégorie de risque différente
+SUMMARY: Comprends l'érosion du temps, pourquoi certaines stratégies d'options peuvent faire perdre plus que la mise de départ et pourquoi elles exigent une formation spécialisée.
+## WHITE-L2-033
+### Pourquoi les options forment une catégorie de risque différente
+
+**1. Objectifs d'apprentissage**
+À la fin de cette leçon, tu pourras :
+- Expliquer pourquoi on considère généralement les options comme une catégorie de risque plus élevée et plus spécialisée que la possession directe d'actions.
+- Nommer de façon conceptuelle la notion d'érosion du temps.
+- Reconnaître pourquoi les options exigent des connaissances précises et de la prudence avant d'être utilisées.
+
+**2. Contenu principal**
+Dans la suite de la leçon précédente, cette leçon explique plus précisément pourquoi on traite généralement les options comme une catégorie de risque distincte et plus spécialisée. L'« érosion du temps » (ou valeur temps qui s'érode) désigne la tendance de la valeur d'une option à diminuer à mesure qu'elle approche de sa date d'expiration, toutes choses étant égales par ailleurs, puisqu'il reste moins de temps pour que le prix de l'actif sous-jacent évolue favorablement. L'acheteur d'une option travaille donc contre une fenêtre de temps qui rapetisse continuellement, contrairement au propriétaire d'une action, qui ne subit aucune pression de temps équivalente.
+
+De plus, certaines stratégies d'options (surtout celles qui consistent à vendre, ou « émettre », certains types d'options) peuvent exposer un investisseur à des pertes supérieures à son placement d'origine — un profil de risque fondamentalement différent de l'achat simple d'une action, où la perte maximale possible se limite au montant investi. Cette complexité et cette variété de profils de risque expliquent pourquoi bien des courtiers exigent des niveaux d'approbation précis ou des attestations de formation avant de permettre la négociation d'options, et pourquoi ce programme traite les options uniquement comme une introduction conceptuelle, et non comme une stratégie à adopter sans une formation spécialisée beaucoup plus poussée.
+
+**3. Exemple pratique**
+Curieux des options après en avoir appris les bases, Emmanuel fait plus de recherches et découvre que certaines stratégies d'options peuvent, en théorie, l'exposer à des pertes supérieures à son placement initial — un profil de risque complètement différent de l'achat d'une action, où sa perte maximale possible se limite à ce qu'il a payé. Reconnaissant que ce niveau de complexité exige une formation spécialisée qui va bien au-delà de cette leçon d'introduction, Emmanuel décide de continuer à bâtir ses connaissances de base en placement de façon générale avant de se demander si, et comment, les options pourraient un jour faire partie de sa stratégie, au lieu d'agir avec une compréhension partielle.
+
+**4. Quiz de pratique**
+1. Dans le contexte des options, qu'est-ce que l'« érosion du temps »?
+   a) L'historique des dividendes d'une action
+   b) La tendance de la valeur d'une option à diminuer à mesure qu'elle approche de son expiration, toutes choses étant égales par ailleurs
+   c) Un type de cote d'obligation
+   d) Un mécanisme de profit garanti
+2. Quelle différence de risque clé existe-t-il entre certaines stratégies d'options et le simple achat d'une action?
+   a) Les actions peuvent faire perdre plus que le montant investi; les options, non
+   b) Certaines stratégies d'options peuvent exposer un investisseur à des pertes supérieures à son placement d'origine, contrairement à l'achat direct d'une action
+   c) Il n'y a aucune différence de risque
+   d) Les options garantissent un profit
+3. Vrai ou faux : Toutes les stratégies d'options comportent un risque identique et limité, équivalent à la simple possession d'une action.
+4. Pourquoi Emmanuel a-t-il décidé de continuer à bâtir ses connaissances de base avant d'aller plus loin avec les options?
+   a) Il comprenait déjà parfaitement toutes les stratégies d'options
+   b) Il a reconnu que leur complexité et leur risque exigeaient une formation spécialisée au-delà de cette leçon d'introduction
+   c) Il est illégal d'apprendre sur les options
+   d) Il ne s'intéressait pas du tout à l'investissement
+
+**5. Corrigé**
+1. b  2. b  3. Faux  4. b
+
+**6. Réponses et explications**
+1. L'érosion du temps décrit la tendance d'une option à perdre de la valeur à l'approche de son expiration, toutes choses étant égales par ailleurs.
+2. Certaines stratégies d'options peuvent exposer un investisseur à des pertes supérieures à son placement d'origine, contrairement au simple achat d'actions.
+3. Les différentes stratégies d'options comportent des profils de risque vraiment différents, et parfois beaucoup plus élevés.
+4. Emmanuel a eu raison de reconnaître le besoin d'une formation spécialisée supplémentaire avant d'agir avec une connaissance partielle des options.
+
+**7. Points clés à retenir**
+- L'érosion du temps décrit la tendance d'une option à perdre de la valeur à l'approche de son expiration, ce qui joue contre l'acheteur.
+- Certaines stratégies d'options peuvent exposer un investisseur à des pertes supérieures à son placement d'origine.
+- Cette complexité du risque explique pourquoi on traite les options comme une catégorie de risque distincte et plus spécialisée.
+- Ce programme présente les options seulement de façon conceptuelle, pas comme une stratégie à adopter sans une formation spécialisée supplémentaire.
+
+===== WHITE-L2-034
+TITLE: La marge et l'effet de levier dans les actifs papier
+SUMMARY: Comprends ce qu'est l'achat sur marge, comment il agit comme un effet de levier semblable à celui de l'immobilier et quels risques et coûts il ajoute.
+## WHITE-L2-034
+### La marge et l'effet de levier dans les actifs papier
+
+**1. Objectifs d'apprentissage**
+À la fin de cette leçon, tu pourras :
+- Définir de façon conceptuelle l'emprunt sur marge.
+- Expliquer comment la marge agit comme un effet de levier dans les actifs papier, en écho à la discussion sur le levier du parcours RED.
+- Nommer les risques généraux de l'emprunt sur marge.
+
+**2. Contenu principal**
+L'emprunt sur marge permet à un investisseur d'emprunter de l'argent à son courtier, en utilisant ses placements existants comme garantie, pour acheter des titres supplémentaires au-delà de ce que son argent seul permettrait — un parallèle direct, dans les actifs papier, de la notion d'effet de levier présentée dans le parcours RED (RED-L2-007), où de l'argent emprunté sert à contrôler une position plus grosse que ce que l'argent comptant seul permettrait.
+
+Comme pour l'effet de levier en immobilier, la marge amplifie autant les gains que les pertes : si les titres achetés prennent de la valeur, le rendement en pourcentage de l'investisseur sur son propre argent investi est amplifié; si les titres perdent de la valeur, les pertes sont amplifiées de la même façon, et l'investisseur doit quand même rembourser le montant emprunté, peu importe la performance du placement. L'emprunt sur marge comporte aussi habituellement des frais d'intérêt continus sur le montant emprunté, ce qui ajoute un coût à surmonter pour que la stratégie soit rentable au total.
+
+**3. Exemple pratique**
+En comparant son approche à celle d'un ami, Xavier investit seulement avec son propre argent, alors que son ami utilise l'emprunt sur marge pour acheter deux fois plus de titres que ce qu'il pourrait se permettre avec son argent seul. Quand leur marché commun connaît une baisse, les pertes de Xavier se limitent à son propre argent investi, alors que celles de son ami sont amplifiées par sa position à effet de levier — et son ami doit quand même rembourser le montant emprunté au courtier, peu importe la baisse de valeur de son portefeuille, en plus des frais d'intérêt continus sur le prêt. Ça illustre le risque amplifié qui vient avec l'emprunt sur marge.
+
+**4. Quiz de pratique**
+1. Que permet généralement l'emprunt sur marge à un investisseur?
+   a) Éviter tout risque de placement
+   b) Emprunter de l'argent à son courtier, en utilisant ses placements existants comme garantie, pour acheter des titres supplémentaires
+   c) Éliminer le besoin de tout placement en argent
+   d) Garantir un rendement précis
+2. En quoi l'emprunt sur marge est-il parallèle à la discussion sur l'effet de levier du parcours RED?
+   a) Il n'a aucun lien avec les notions d'effet de levier en immobilier
+   b) Les deux utilisent de l'argent emprunté pour contrôler une position plus grosse que l'argent comptant seul, ce qui amplifie les gains et les pertes
+   c) L'emprunt sur marge élimine tous les effets de levier
+   d) L'effet de levier immobilier et l'emprunt sur marge sont juridiquement identiques
+3. Vrai ou faux : L'emprunt sur marge amplifie seulement les gains et n'amplifie jamais les pertes.
+4. En plus du risque amplifié lui-même, quel coût supplémentaire l'emprunt sur marge comporte-t-il habituellement?
+   a) Aucun coût supplémentaire
+   b) Des frais d'intérêt continus sur le montant emprunté
+   c) Un impôt gouvernemental unique
+   d) Un dividende obligatoire
+
+**5. Corrigé**
+1. b  2. b  3. Faux  4. b
+
+**6. Réponses et explications**
+1. L'emprunt sur marge permet à un investisseur d'emprunter en donnant ses placements existants en garantie pour acheter des titres supplémentaires.
+2. L'emprunt sur marge est un parallèle direct de l'effet de levier en immobilier : il utilise des fonds empruntés pour contrôler une position plus grosse, ce qui amplifie autant les gains que les pertes.
+3. L'emprunt sur marge amplifie autant les gains que les pertes, pas seulement les gains.
+4. L'emprunt sur marge comporte habituellement des frais d'intérêt continus sur le montant emprunté, un coût supplémentaire à surmonter.
+
+**7. Points clés à retenir**
+- L'emprunt sur marge permet d'acheter des titres supplémentaires avec des fonds empruntés garantis par des placements existants.
+- C'est un parallèle direct de la notion d'effet de levier du parcours RED, qui amplifie autant les gains que les pertes.
+- Le montant emprunté et ses intérêts doivent être remboursés peu importe la performance du placement.
+- L'emprunt sur marge ajoute des frais d'intérêt continus qu'il faut surmonter pour que la stratégie soit rentable.

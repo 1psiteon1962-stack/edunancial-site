@@ -1,0 +1,399 @@
+===== WHITE-L4-026
+TITLE: L'analyse de l'échelonnement des obligations : pourquoi une échelle réduit le risque de réinvestissement
+SUMMARY: Découvrez ce qu'est une échelle d'obligations, ce que signifie le risque de réinvestissement et pourquoi échelonner les échéances réduit ce risque, avec ses compromis.
+KEYWORDS: échelle d'obligations, risque de réinvestissement, stratégie de revenu fixe, échéances échelonnées
+# L'analyse de l'échelonnement des obligations : pourquoi une échelle réduit le risque de réinvestissement
+
+## Mise en situation
+HYPOTHÈSE/OPINION (scénario hypothétique à des fins pédagogiques seulement) : Imaginez une banque centrale qui relève son taux directeur fortement et à répétition en quelques mois pour combattre une inflation en hausse. Pendant qu'une banque centrale modifie fortement ses taux en peu de temps, un investisseur qui détient une seule grosse obligation arrivant à échéance d'un coup craint d'être forcé de réinvestir tout le montant au taux en vigueur ce jour précis. Cette leçon présente une stratégie conçue pour réduire exactement cette inquiétude.
+
+## Objectifs d'apprentissage
+- Expliquer ce qu'est une échelle d'obligations.
+- Expliquer ce que signifie le risque de réinvestissement pour un investisseur en obligations.
+- Expliquer comment l'échelonnement des échéances réduit le risque de réinvestissement.
+- Repérer les compromis d'une échelle d'obligations par rapport à une seule grosse position obligataire.
+
+## Contenu principal
+Une échelle d'obligations est une stratégie de construction de portefeuille dans laquelle l'investisseur détient plusieurs obligations aux dates d'échéance échelonnées (par exemple, des obligations qui arrivent à échéance dans 1, 2, 3, 4 et 5 ans) plutôt que de se concentrer sur une seule obligation ou une seule date d'échéance. FAIT VÉRIFIÉ : à mesure que chaque « barreau » de l'échelle arrive à échéance, l'investisseur réinvestit le produit dans une nouvelle obligation à plus long terme, ce qui maintient la structure de l'échelle au fil du temps.
+
+Voici le « pourquoi » cette stratégie réduit le risque de réinvestissement, c'est-à-dire le risque que l'argent d'une obligation échue doive être réinvesti au taux d'intérêt en vigueur à ce moment précis : un investisseur qui détient une seule grosse obligation arrivant entièrement à échéance à une date donnée est pleinement exposé au contexte de taux qui existe exactement ce jour-là, ce qui, selon le scénario ci-dessus, pourrait être un moment particulièrement défavorable si les taux ont bougé fortement dans la mauvaise direction. Une échelle d'obligations répartit ce risque sur plusieurs dates futures; seule une partie du portefeuille total est donc exposée au risque de réinvestissement à un moment donné, ce qui lisse le taux de réinvestissement global obtenu sur l'ensemble de l'échelle plutôt que de tout miser sur le contexte de taux d'une seule journée.
+
+C'est pourquoi une échelle d'obligations offre une voie mitoyenne entre le risque de taux d'intérêt lié au fait de ne détenir que des obligations à longue durée (la plus grande sensibilité des prix vue à la leçon 3) et le risque de réinvestissement lié au fait de ne détenir que des obligations à courte durée (une exposition fréquente et concentrée aux taux en vigueur à chaque échéance rapprochée) : en détenant en même temps un mélange d'échéances, l'investisseur se diversifie dans le temps, d'une façon semblable sur le plan conceptuel aux principes de diversification géographique et par catégorie d'actifs vus ailleurs dans ce niveau, en échangeant une partie de l'optimisation possible du rendement contre plus de prévisibilité et de souplesse.
+
+## Exemple pratique
+EXEMPLE ILLUSTRATIF : Un investisseur bâtit une échelle d'obligations à cinq barreaux, avec 20 000 $ en obligations arrivant à échéance chacune des cinq prochaines années. Quand l'obligation d'un an arrive à échéance, ses 20 000 $ sont réinvestis dans une nouvelle obligation de cinq ans, ce qui prolonge l'échelle. Si les taux sont inhabituellement bas l'année où l'obligation d'un an arrive à échéance, seuls ces 20 000 $ (un cinquième du portefeuille total) sont réinvestis au taux défavorable, alors que les quatre cinquièmes restants continuent de rapporter les taux plus élevés obtenus auparavant : un résultat beaucoup plus stable que si les 100 000 $ de l'investisseur avaient été concentrés dans une seule obligation arrivant à échéance cette même année.
+
+## Questionnaire pratique
+**Q1. Qu'est-ce qu'une échelle d'obligations?**
+A) Une seule grosse position obligataire avec une seule date d'échéance
+B) Un portefeuille de plusieurs obligations aux dates d'échéance échelonnées
+C) Une stratégie qui évite de détenir toute obligation
+D) Un type de fonds indiciel d'actions
+
+**Q2. Qu'est-ce que le risque de réinvestissement?**
+A) Le risque que l'émetteur d'une obligation fasse défaut sur ses paiements
+B) Le risque que le produit d'une obligation échue doive être réinvesti au taux d'intérêt en vigueur à ce moment précis, qui peut être défavorable
+C) Le risque que le prix d'une action baisse
+D) Le risque que le ratio des frais d'un fonds augmente
+
+**Q3. Comment une échelle d'obligations réduit-elle le risque de réinvestissement par rapport à une seule grosse position obligataire?**
+A) Elle élimine entièrement tout risque de taux d'intérêt
+B) Elle répartit l'exposition au réinvestissement sur plusieurs dates futures; seule une partie du portefeuille est donc exposée au contexte de taux d'une seule journée
+C) Elle garantit que l'investisseur réinvestira toujours au taux le plus élevé possible
+D) Une échelle d'obligations n'a aucun effet sur le risque de réinvestissement
+
+**Q4. Dans l'exemple, quelle fraction du portefeuille total a été exposée au taux de réinvestissement défavorable?**
+A) Tout le portefeuille
+B) Un cinquième du portefeuille total
+C) La moitié du portefeuille total
+D) Aucune partie du portefeuille n'a été exposée
+
+**Q5. Comment une échelle d'obligations place-t-elle l'investisseur entre les risques de ne détenir que des obligations à longue durée et de ne détenir que des obligations à courte durée?**
+A) Elle élimine complètement le risque de taux d'intérêt et le risque de réinvestissement
+B) Elle diversifie dans le temps, en échangeant une partie de l'optimisation possible du rendement contre plus de prévisibilité et une concentration réduite dans l'un ou l'autre type de risque
+C) Elle a des caractéristiques de risque identiques au fait de ne détenir que des obligations à longue durée
+D) Une échelle d'obligations ne réduit que le risque de taux d'intérêt, pas le risque de réinvestissement
+
+## Corrigé
+Q1: B
+Q2: B
+Q3: B
+Q4: B
+Q5: B
+
+## Réponses et explications
+**Q1.** Une échelle d'obligations consiste précisément à détenir des obligations réparties sur une série de dates d'échéance différentes et échelonnées.
+
+**Q2.** Le risque de réinvestissement porte précisément sur l'incertitude du contexte de taux au moment où le réinvestissement doit se faire.
+
+**Q3.** En échelonnant les échéances, seule une fraction du portefeuille total fait face au risque de réinvestissement à un moment donné, ce qui lisse l'expérience globale.
+
+**Q4.** Seul le barreau de 20 000 $ arrivant à échéance cette année-là, soit un cinquième de l'échelle totale de 100 000 $, a été réinvesti au taux défavorable.
+
+**Q5.** La structure échelonnée équilibre l'exposition aux deux types de risque plutôt que d'en accepter ou d'en éviter un complètement, comme d'autres stratégies de diversification vues dans ce niveau.
+
+## Points clés
+- Une échelle d'obligations détient plusieurs obligations aux dates d'échéance échelonnées plutôt que de se concentrer sur une seule échéance.
+- Le risque de réinvestissement est le risque de devoir réinvestir le produit d'obligations échues à un taux en vigueur défavorable.
+- L'échelonnement répartit ce risque sur plusieurs dates futures; seule une partie du portefeuille est donc exposée à un moment donné.
+- Cette stratégie offre une voie mitoyenne entre les risques des obligations à longue durée seulement et des obligations à courte durée seulement, en échangeant une partie de l'optimisation du rendement contre de la prévisibilité.
+
+===== WHITE-L4-027
+TITLE: L'analyse des obligations municipales : pourquoi le rendement équivalent imposable change la comparaison
+SUMMARY: Découvrez pourquoi l'intérêt des obligations municipales américaines est avantageux sur le plan fiscal, comment calculer le rendement équivalent imposable et pourquoi comparer des rendements affichés sans ajustement peut induire en erreur.
+KEYWORDS: obligations municipales, rendement équivalent imposable, revenu exonéré d'impôt, comparaison d'obligations
+# L'analyse des obligations municipales : pourquoi le rendement équivalent imposable change la comparaison
+
+## Mise en situation
+HYPOTHÈSE/OPINION (scénario hypothétique à des fins pédagogiques seulement) : Imaginez une banque centrale qui relève son taux directeur fortement et à répétition en quelques mois pour combattre une inflation en hausse. Pendant que les taux d'intérêt montent partout, un investisseur qui compare une obligation municipale rapportant 3,5 % à une obligation de société rapportant 5 % suppose que l'obligation de société est clairement la meilleure affaire. Cette leçon explique pourquoi cette comparaison, faite sans tenir compte de l'impôt, peut induire en erreur.
+
+## Objectifs d'apprentissage
+- Expliquer ce qui rend l'intérêt des obligations municipales généralement avantageux sur le plan fiscal.
+- Calculer le rendement équivalent imposable à partir du rendement d'une obligation municipale et de la tranche d'imposition d'un investisseur.
+- Expliquer pourquoi comparer directement les rendements d'obligations municipales et d'obligations imposables, sans ajustement, peut induire en erreur.
+- Expliquer comment la tranche d'imposition d'un investisseur influence l'attrait relatif des obligations municipales.
+
+## Contenu principal
+Les obligations municipales (en anglais, « munis ») sont des titres de créance émis par les gouvernements des États et les administrations locales aux États-Unis, et FAIT VÉRIFIÉ : le revenu d'intérêt de la plupart des obligations municipales est exonéré de l'impôt fédéral sur le revenu, et souvent aussi de l'impôt sur le revenu de l'État et local si l'investisseur réside dans l'État émetteur (RÈGLE PROPRE À LA RÉGION, confirmez le traitement fiscal précis de l'État, puisqu'il varie).
+
+Voici le « pourquoi » comparer directement le rendement affiché d'une obligation municipale au rendement affiché d'une obligation imposable, sans ajustement, induit l'investisseur en erreur : comme l'intérêt des obligations municipales échappe généralement à l'impôt fédéral (et parfois à celui de l'État), un rendement affiché plus bas sur une obligation municipale peut quand même laisser à l'investisseur plus de revenu après impôt qu'un rendement affiché plus élevé sur une obligation entièrement imposable, selon la tranche d'imposition précise de l'investisseur. Le rendement équivalent imposable est le calcul qui corrige cette distorsion : il convertit le rendement exonéré d'une obligation municipale en rendement équivalent qu'une obligation imposable devrait offrir pour produire le même revenu après impôt, calculé comme le rendement municipal divisé par (1 moins le taux d'imposition marginal de l'investisseur).
+
+C'est pourquoi les obligations municipales sont généralement plus intéressantes pour les investisseurs des tranches d'imposition plus élevées, et cette relation n'est pas figée : à mesure que le contexte de taux du scénario évolue, les rendements des obligations municipales et des obligations imposables peuvent bouger, et l'investisseur devrait recalculer le rendement équivalent imposable selon les conditions actuelles plutôt que de se fier à une comparaison périmée, puisque l'attrait relatif des obligations municipales par rapport aux obligations imposables change selon le niveau des rendements en vigueur et la situation fiscale précise de chaque investisseur, qui peut aussi changer avec le temps (par exemple à la retraite, quand la tranche d'imposition d'un investisseur peut baisser).
+
+## Exemple pratique
+EXEMPLE ILLUSTRATIF : Un investisseur dans une tranche d'imposition fédérale de 32 % compare une obligation municipale rapportant 3,5 % à une obligation de société rapportant 5 %. Le rendement équivalent imposable de l'obligation municipale est de 3,5 % / (1 - 0,32) = 3,5 % / 0,68 ≈ 5,15 %. Comme ce rendement équivalent imposable dépasse le rendement imposable de 5 % de l'obligation de société, l'obligation municipale procure en fait plus de revenu après impôt à cet investisseur précis, malgré son rendement affiché avant impôt plus bas : une conclusion que l'investisseur aurait ratée en comparant directement les deux rendements affichés.
+
+## Questionnaire pratique
+**Q1. Quel est le principal avantage fiscal de la plupart des obligations municipales?**
+A) L'intérêt des obligations municipales est toujours imposé à un taux plus élevé que celui des autres obligations
+B) Le revenu d'intérêt de la plupart des obligations municipales est exonéré de l'impôt fédéral sur le revenu, et souvent aussi de l'impôt de l'État et local
+C) Les obligations municipales ne versent aucun intérêt
+D) Les obligations municipales ne sont offertes qu'aux employés du gouvernement
+
+**Q2. Pourquoi comparer directement le rendement affiché d'une obligation municipale au rendement affiché d'une obligation imposable peut-il induire en erreur?**
+A) Les rendements affichés sont toujours identiques pour les obligations municipales et imposables
+B) Un rendement municipal affiché plus bas peut quand même produire plus de revenu après impôt qu'un rendement imposable affiché plus élevé, selon la tranche d'imposition de l'investisseur
+C) Les obligations municipales ne versent jamais vraiment d'intérêt aux investisseurs
+D) Le traitement fiscal n'a aucun effet sur le revenu après impôt réel d'un investisseur
+
+**Q3. Comment calcule-t-on le rendement équivalent imposable?**
+A) Le rendement municipal multiplié par le taux d'imposition de l'investisseur
+B) Le rendement municipal divisé par (1 moins le taux d'imposition marginal de l'investisseur)
+C) Le rendement imposable divisé par le rendement municipal
+D) Le rendement municipal plus le taux d'imposition marginal de l'investisseur
+
+**Q4. Dans l'exemple, pourquoi l'obligation municipale était-elle en fait le meilleur choix pour l'investisseur malgré son rendement affiché plus bas?**
+A) Son rendement équivalent imposable d'environ 5,15 % dépassait le rendement de 5 % de l'obligation de société imposable, ce qui veut dire qu'elle procurait plus de revenu après impôt dans la tranche d'imposition de cet investisseur
+B) Les obligations municipales versent toujours des rendements affichés plus élevés que les obligations de société
+C) L'obligation de société n'était pas vraiment imposable dans cet exemple
+D) La tranche d'imposition de l'investisseur n'avait aucun effet sur la comparaison
+
+**Q5. Pourquoi les obligations municipales sont-elles généralement plus intéressantes pour les investisseurs des tranches d'imposition plus élevées?**
+A) Les tranches d'imposition plus élevées n'ont aucun effet sur l'attrait relatif d'un revenu exonéré d'impôt
+B) La valeur d'éviter l'impôt sur le revenu d'intérêt augmente à mesure que le taux d'imposition marginal de l'investisseur monte, ce qui augmente le rendement équivalent imposable
+C) Les obligations municipales ne sont légalement offertes qu'aux investisseurs des tranches d'imposition élevées
+D) Les investisseurs des tranches d'imposition plus basses obtiennent toujours un rendement équivalent imposable plus élevé que ceux des tranches plus élevées
+
+## Corrigé
+Q1: B
+Q2: B
+Q3: B
+Q4: A
+Q5: B
+
+## Réponses et explications
+**Q1.** Ce traitement exonéré d'impôt est la caractéristique qui distingue les obligations municipales de la plupart des autres titres à revenu fixe.
+
+**Q2.** Sans ajustement pour le traitement exonéré d'impôt, une comparaison directe des rendements ne reflète pas le revenu après impôt réel que chaque obligation procurerait.
+
+**Q3.** Cette formule convertit un rendement exonéré d'impôt en rendement équivalent qu'une obligation imposable devrait offrir pour l'égaler après impôt.
+
+**Q4.** Une fois ajusté selon la tranche d'imposition précise de l'investisseur, le rendement équivalent après impôt de l'obligation municipale dépassait le rendement affiché de la solution imposable.
+
+**Q5.** Comme la formule du rendement équivalent imposable divise par (1 moins le taux d'imposition), un taux d'imposition plus élevé produit un rendement équivalent imposable plus grand pour le même rendement municipal affiché, ce qui donne plus de valeur à l'exonération.
+
+## Points clés
+- L'intérêt des obligations municipales est généralement exonéré de l'impôt fédéral sur le revenu, et souvent de celui de l'État et local.
+- Le rendement équivalent imposable convertit le rendement d'une obligation municipale en rendement imposable équivalent nécessaire pour l'égaler après impôt.
+- Comparer directement les rendements affichés, sans cet ajustement, peut mener à une mauvaise conclusion sur l'obligation qui procure le plus de revenu après impôt.
+- Les obligations municipales tendent à être plus intéressantes pour les investisseurs des tranches d'imposition plus élevées, et la comparaison devrait être recalculée à mesure que les taux et la situation fiscale personnelle changent.
+
+===== WHITE-L4-028
+TITLE: L'analyse des obligations convertibles : pourquoi les titres hybrides combinent le risque de la dette et celui des actions
+SUMMARY: Découvrez la structure d'une obligation convertible, pourquoi elle se comporte tantôt comme une obligation, tantôt comme une action, et pourquoi son coupon est habituellement plus bas.
+KEYWORDS: obligations convertibles, titres hybrides, combinaison dette-capitaux propres, option de conversion
+# L'analyse des obligations convertibles : pourquoi les titres hybrides combinent le risque de la dette et celui des actions
+
+## Mise en situation
+HYPOTHÈSE/OPINION (scénario hypothétique à des fins pédagogiques seulement) : Imaginez deux grandes puissances économiques qui intensifient leurs contrôles à l'exportation l'une contre l'autre sur une catégorie de composants technologiques de pointe utilisés dans de nombreux secteurs. Pendant que l'escalade des restrictions technologiques crée de l'incertitude pour les entreprises axées sur la croissance, certaines d'entre elles émettent des obligations convertibles plutôt que de la dette ordinaire ou des actions ordinaires. Cette leçon explique pourquoi cette structure hybride peut plaire à la fois aux émetteurs et aux investisseurs en période d'incertitude.
+
+## Objectifs d'apprentissage
+- Expliquer la structure de base d'une obligation convertible.
+- Expliquer pourquoi une obligation convertible se comporte davantage comme une obligation ordinaire quand le cours de l'action est bas, et davantage comme une action quand le cours est élevé.
+- Expliquer pourquoi les obligations convertibles offrent habituellement un taux de coupon plus bas que des obligations ordinaires comparables.
+- Repérer les compromis qu'accepte l'investisseur en obligations convertibles en échange de l'option de conversion.
+
+## Contenu principal
+Une obligation convertible est une obligation de société qui donne à son détenteur l'option de la convertir en un nombre prédéterminé d'actions de la société émettrice, au lieu de recevoir le remboursement normal en argent de l'obligation à l'échéance. FAIT VÉRIFIÉ : cette option de conversion est un droit, et non une obligation, d'une structure semblable au mécanisme de l'option d'achat vu à la leçon 14, ce qui laisse au détenteur le choix de convertir seulement si c'est avantageux sur le plan financier.
+
+Voici le « pourquoi » le comportement d'une obligation convertible change selon le cours de l'action sous-jacente : quand le cours de l'action de la société émettrice est bas, bien en dessous du prix qui rendrait la conversion intéressante, l'obligation convertible se comporte en grande partie comme une obligation ordinaire, puisque l'option de conversion a peu de valeur pratique et que la principale préoccupation de l'investisseur est le versement régulier des intérêts et le remboursement final. Quand le cours de l'action monte bien au-dessus du seuil qui rend la conversion avantageuse, la valeur de l'obligation dépend de plus en plus de la valeur des actions en lesquelles elle pourrait être convertie, ce qui la fait se comporter davantage comme l'action sous-jacente elle-même.
+
+C'est pourquoi les obligations convertibles offrent habituellement un taux de coupon plus bas qu'une obligation ordinaire comparable du même émetteur : les investisseurs acceptent moins de revenu courant en échange de la valeur future possible de l'option de conversion intégrée, un peu comme l'acheteur d'une option paie une prime (leçon 14) pour un droit qui a de la valeur. Cette structure hybride peut plaire à une société qui fait face à des conditions incertaines, comme les restrictions technologiques du scénario ci-dessus, puisqu'elle lui permet habituellement d'emprunter à un coût d'intérêt plus bas que ce qu'exigerait une obligation ordinaire, alors que les investisseurs acceptent un rendement courant plus bas en échange d'une participation possible à la hausse des actions de la société si l'entreprise réussit bien.
+
+## Exemple pratique
+EXEMPLE ILLUSTRATIF : Une société technologique qui fait face à l'incertitude de son secteur émet une obligation convertible avec un coupon de 2 % (par rapport à environ 6 % que la société devrait probablement payer sur une obligation ordinaire comparable) et un prix de conversion de 50 $ par action, alors que l'action se négocie actuellement à 30 $. Si l'action reste sous 50 $, les investisseurs évaluent surtout l'obligation comme une obligation ordinaire, en acceptant le modeste coupon de 2 % en échange du remboursement du capital à l'échéance. Si l'action monte plutôt à 80 $, bien au-dessus du prix de conversion de 50 $, les investisseurs convertiraient probablement leurs obligations en actions et profiteraient de la hausse des actions : une valeur que la structure d'une obligation ordinaire n'aurait jamais procurée à elle seule.
+
+## Questionnaire pratique
+**Q1. Quel droit une obligation convertible donne-t-elle à son détenteur?**
+A) Le droit d'exiger un remboursement immédiat en tout temps
+B) Le droit, mais non l'obligation, de convertir l'obligation en un nombre prédéterminé d'actions de la société émettrice
+C) Le droit de voter immédiatement pour le conseil d'administration de la société dès l'achat
+D) L'obligation de convertir l'obligation en actions, peu importe le cours de l'action
+
+**Q2. Pourquoi une obligation convertible se comporte-t-elle comme une obligation ordinaire quand le cours de l'action sous-jacente est bas?**
+A) Les obligations convertibles se comportent toujours exactement comme des actions, peu importe le cours de l'action sous-jacente
+B) L'option de conversion a peu de valeur pratique quand le cours est bas; la principale préoccupation de l'investisseur devient donc le versement régulier des intérêts et le remboursement, comme pour une obligation ordinaire
+C) Un cours bas déclenche automatiquement une conversion obligatoire
+D) Les obligations convertibles ne versent jamais d'intérêt, en aucune circonstance
+
+**Q3. Pourquoi les obligations convertibles offrent-elles habituellement un taux de coupon plus bas qu'une obligation ordinaire comparable du même émetteur?**
+A) La loi oblige les obligations convertibles à verser des taux d'intérêt plus bas
+B) Les investisseurs acceptent moins de revenu courant en échange de la valeur future possible de l'option de conversion intégrée
+C) Les obligations convertibles comportent toujours un risque de crédit plus élevé que les obligations ordinaires
+D) Les taux de coupon plus bas n'ont aucun lien avec l'option de conversion
+
+**Q4. Dans l'exemple, qu'est-il arrivé à l'attrait de l'obligation convertible quand l'action est montée à 80 $?**
+A) L'obligation n'a plus rien valu, puisqu'elle ne pouvait plus être remboursée comme une obligation ordinaire
+B) Les investisseurs convertiraient probablement leurs obligations en actions et profiteraient d'une hausse des actions que la structure d'une obligation ordinaire n'aurait jamais procurée
+C) Le taux de coupon a augmenté automatiquement pour suivre le rendement de l'action
+D) La valeur de l'obligation n'avait aucun lien avec le cours de l'action, à aucun niveau
+
+**Q5. Pourquoi une société qui fait face à des conditions d'affaires incertaines pourrait-elle préférer émettre une obligation convertible plutôt qu'une obligation ordinaire?**
+A) Les obligations convertibles coûtent toujours plus cher à émettre que les obligations ordinaires
+B) Une obligation convertible permet habituellement à la société d'emprunter à un coût d'intérêt plus bas que ce qu'exigerait une obligation ordinaire, vu la valeur additionnelle de l'option de conversion pour les investisseurs
+C) La loi interdit aux sociétés qui font face à de l'incertitude d'émettre des obligations ordinaires
+D) Les obligations convertibles n'offrent aucun avantage de financement à la société émettrice
+
+## Corrigé
+Q1: B
+Q2: B
+Q3: B
+Q4: B
+Q5: B
+
+## Réponses et explications
+**Q1.** L'option de conversion est un droit facultatif que le détenteur peut exercer seulement si c'est avantageux sur le plan financier, d'une structure semblable à une option.
+
+**Q2.** Quand la conversion a peu de chances d'être avantageuse, la valeur de l'obligation dépend surtout de ses caractéristiques de dette plutôt que de l'option sur actions.
+
+**Q3.** Le droit de conversion facultatif, qui a de la valeur, compense les investisseurs pour un coupon courant plus bas, en écho au concept de prime d'option vu dans des leçons précédentes.
+
+**Q4.** Une fois que le cours de l'action a monté bien au-dessus du prix de conversion, convertir pour profiter du gain sur les actions est devenu le choix le plus intéressant pour les détenteurs.
+
+**Q5.** Le coût d'emprunt plus bas, rendu possible par l'option de conversion offerte aux investisseurs, peut être particulièrement intéressant en période d'incertitude pour l'entreprise.
+
+## Points clés
+- Une obligation convertible donne au détenteur le droit facultatif de la convertir en un nombre prédéterminé d'actions au lieu d'un remboursement en argent.
+- L'obligation se comporte comme une dette ordinaire quand le cours de l'action est bas, et de plus en plus comme une action quand le cours monte bien au-dessus du seuil de conversion.
+- Les obligations convertibles ont habituellement un coupon plus bas que des obligations ordinaires comparables, les investisseurs étant plutôt compensés par l'option de conversion intégrée.
+- Cette structure hybride peut offrir aux sociétés un coût d'emprunt plus bas tout en donnant aux investisseurs une participation possible à la hausse des actions.
+
+===== WHITE-L4-029
+TITLE: L'analyse des actions privilégiées : pourquoi elles se situent entre les obligations et les actions ordinaires
+SUMMARY: Découvrez la place des actions privilégiées dans la structure du capital, pourquoi leurs dividendes passent avant ceux des actions ordinaires mais après l'intérêt des obligations, et les risques propres à leurs détenteurs.
+KEYWORDS: actions privilégiées, structure du capital, priorité des dividendes, titres hybrides
+# L'analyse des actions privilégiées : pourquoi elles se situent entre les obligations et les actions ordinaires
+
+## Mise en situation
+HYPOTHÈSE/OPINION (scénario hypothétique à des fins pédagogiques seulement) : Imaginez une institution financière d'importance systémique qui révèle soudainement une perte importante jusque-là non divulguée, ce qui fait craindre que le risque de contrepartie se propage dans l'ensemble du système bancaire. Pendant que ces craintes se répandent dans le système financier, certains investisseurs axés sur le revenu se tournent vers les actions privilégiées d'institutions financières, en croyant qu'elles offrent une position plus sûre que les actions ordinaires. Cette leçon examine exactement où se situent les actions privilégiées dans la hiérarchie des risques, et où elles ne se situent pas.
+
+## Objectifs d'apprentissage
+- Expliquer les caractéristiques de base des actions privilégiées.
+- Expliquer la place des actions privilégiées dans la structure du capital d'une société par rapport aux obligations et aux actions ordinaires.
+- Expliquer pourquoi les dividendes privilégiés passent avant les dividendes ordinaires, mais après les paiements d'intérêt sur les obligations.
+- Repérer les risques que courent les détenteurs d'actions privilégiées et que les détenteurs d'obligations ne courent généralement pas.
+
+## Contenu principal
+Les actions privilégiées sont une catégorie de propriété d'une société qui se situe entre les obligations et les actions ordinaires dans la structure du capital; elles versent habituellement un dividende fixe (semblable au coupon fixe d'une obligation), mais représentent une participation au capital plutôt qu'une créance. FAIT VÉRIFIÉ : les détenteurs d'actions privilégiées ont généralement priorité sur les détenteurs d'actions ordinaires pour le versement des dividendes et, en cas de liquidation, pour les réclamations sur l'actif de la société, mais ils passent après les détenteurs d'obligations et les autres créanciers à ces deux égards, puisque l'intérêt et le capital des obligations sont des obligations contractuelles de dette qui doivent être respectées avant que tout détenteur de capitaux propres, privilégié ou ordinaire, reçoive quoi que ce soit.
+
+Voici le « pourquoi » cette position mitoyenne crée un profil risque-rendement distinct : comme les dividendes privilégiés passent après les paiements d'intérêt sur les obligations, une société en difficulté financière (comme l'institution visée par les craintes de contrepartie dans le scénario ci-dessus) est légalement tenue de faire ses paiements d'intérêt sur les obligations avant de pouvoir verser tout dividende privilégié; les détenteurs d'actions privilégiées courent donc un plus grand risque de paiement manqué que les détenteurs d'obligations de la même société, même si les dividendes privilégiés passent avant les dividendes des actions ordinaires.
+
+C'est pourquoi les actions privilégiées ne sont pas simplement « une version plus sûre des actions ordinaires » ou « une obligation un peu plus risquée » : elles ont des caractéristiques vraiment distinctes. Contrairement à une obligation, la plupart des actions privilégiées n'ont pas de date d'échéance qui oblige à rembourser le capital, ce qui veut dire que le détenteur d'actions privilégiées pourrait ne jamais récupérer son placement initial par un remboursement prévu (contrairement au remboursement du capital d'une obligation à l'échéance), et beaucoup d'actions privilégiées sont « cumulatives », c'est-à-dire que les dividendes manqués s'accumulent et doivent être versés avant que tout dividende ordinaire futur puisse reprendre; mais un dividende privilégié suspendu représente quand même une perte réelle, même si elle peut être temporaire, du revenu attendu, ce que l'obligation contractuelle de verser l'intérêt à un détenteur d'obligations ne comporte généralement pas au même degré.
+
+## Exemple pratique
+EXEMPLE ILLUSTRATIF : Une institution financière en grave difficulté doit faire passer ses paiements d'intérêt sur les obligations en premier pour respecter ses obligations de dette, et elle suspend son dividende sur actions privilégiées pour préserver ses liquidités, même si le dividende privilégié passait avant le dividende des actions ordinaires (qui a aussi été suspendu). Les détenteurs d'actions privilégiées, qui s'attendaient à un revenu régulier semblable à celui d'une obligation, subissent plutôt une interruption inattendue de ce revenu, ce qui montre que la priorité du dividende privilégié sur les actions ordinaires n'offre pas la même protection contractuelle que les paiements d'intérêt des détenteurs d'obligations.
+
+## Questionnaire pratique
+**Q1. Où se situent habituellement les actions privilégiées dans la structure du capital d'une société?**
+A) Au-dessus des obligations et avant tous les créanciers à tous les égards
+B) Entre les obligations et les actions ordinaires : après les détenteurs d'obligations et les créanciers, mais généralement avant les détenteurs d'actions ordinaires pour les dividendes et les réclamations en cas de liquidation
+C) Exactement au même rang que les obligations à tous les égards juridiques
+D) Sous les actions ordinaires à tous les égards
+
+**Q2. Pourquoi une société doit-elle payer l'intérêt sur ses obligations avant tout dividende privilégié?**
+A) L'intérêt et le capital des obligations sont des obligations contractuelles de dette qui doivent être respectées avant que tout détenteur de capitaux propres, privilégié ou ordinaire, soit payé
+B) Selon le droit des sociétés habituel, les dividendes privilégiés sont toujours versés avant l'intérêt sur les obligations
+C) Il n'y a aucun ordre de priorité exigé entre les obligations et les actions privilégiées
+D) Les détenteurs d'actions privilégiées ont toujours la même priorité juridique que les détenteurs d'obligations
+
+**Q3. Dans l'exemple, qu'est-il arrivé aux détenteurs d'actions privilégiées quand l'institution financière s'est retrouvée en difficulté?**
+A) Ils ont reçu leurs dividendes en entier, sans interruption
+B) Leur dividende a été suspendu, puisque la société a fait passer ses paiements d'intérêt sur les obligations avant le dividende privilégié pour préserver ses liquidités
+C) Ils ont été payés en priorité, avant les détenteurs d'obligations de la société
+D) Les détenteurs d'actions privilégiées n'ont pas du tout été touchés par les difficultés financières de l'institution
+
+**Q4. Quelle est une différence structurelle clé entre une action privilégiée et une obligation?**
+A) Les actions privilégiées ont toujours une date d'échéance fixe qui exige le remboursement du capital, comme une obligation
+B) La plupart des actions privilégiées n'ont pas de date d'échéance qui exige le remboursement du capital, contrairement au remboursement prévu du capital d'une obligation à l'échéance
+C) Les obligations et les actions privilégiées sont identiques sur le plan fonctionnel à tous les égards
+D) Les actions privilégiées versent toujours un dividende variable et imprévisible, alors que les obligations versent un intérêt fixe
+
+**Q5. Que signifie le fait qu'une action privilégiée soit « cumulative »?**
+A) Une action privilégiée cumulative garantit que les dividendes ne seront jamais suspendus, en aucune circonstance
+B) Les dividendes manqués s'accumulent et doivent être versés avant que tout dividende ordinaire futur puisse reprendre
+C) Une action privilégiée cumulative se convertit automatiquement en obligation en cas de difficulté financière
+D) « Cumulatif » désigne la capitalisation de l'intérêt d'une obligation, et non une action privilégiée
+
+## Corrigé
+Q1: B
+Q2: A
+Q3: B
+Q4: B
+Q5: B
+
+## Réponses et explications
+**Q1.** Les actions privilégiées occupent une position mitoyenne distincte, prioritaire par rapport aux actions ordinaires, mais subordonnée aux obligations de dette.
+
+**Q2.** La priorité juridique des obligations de dette sur les droits des détenteurs de capitaux propres, y compris les actions privilégiées, veut dire que l'intérêt sur les obligations doit être payé en premier.
+
+**Q3.** Malgré la priorité des actions privilégiées sur les actions ordinaires, leur dividende restait subordonné aux obligations d'intérêt sur les obligations, ce qui a mené à un paiement suspendu pendant la période de difficulté.
+
+**Q4.** L'absence de date d'échéance distingue l'action privilégiée d'une obligation : il n'y a aucun remboursement garanti du capital par un remboursement prévu.
+
+**Q5.** Cette caractéristique offre une certaine protection en exigeant que les dividendes manqués accumulés soient rattrapés avant que les détenteurs d'actions ordinaires puissent recevoir tout dividende futur.
+
+## Points clés
+- Les actions privilégiées se situent entre les obligations et les actions ordinaires : généralement prioritaires par rapport aux actions ordinaires, mais subordonnées aux obligations de dette.
+- Comme l'intérêt sur les obligations est une obligation contractuelle payée en premier, les détenteurs d'actions privilégiées courent un plus grand risque de paiement manqué que les détenteurs d'obligations de la même société.
+- Contrairement à une obligation, la plupart des actions privilégiées n'ont pas de date d'échéance qui exige un remboursement prévu du capital.
+- Une caractéristique cumulative peut exiger que les dividendes privilégiés manqués soient versés avant la reprise des dividendes ordinaires, mais elle n'élimine pas le risque réel d'un paiement suspendu.
+
+===== WHITE-L4-030
+TITLE: L'analyse de la capitalisation boursière : pourquoi la taille d'une société change les attentes de risque et de rendement
+SUMMARY: Découvrez ce que mesure la capitalisation boursière, comment on classe les sociétés selon leur taille et pourquoi les petites sociétés ont historiquement été plus volatiles, avec une prime de taille imparfaitement fiable.
+KEYWORDS: capitalisation boursière, petite capitalisation, grande capitalisation, prime de taille, risque lié à la taille
+# L'analyse de la capitalisation boursière : pourquoi la taille d'une société change les attentes de risque et de rendement
+
+## Mise en situation
+HYPOTHÈSE/OPINION (scénario hypothétique à des fins pédagogiques seulement) : Imaginez une perturbation de santé publique généralisée qui paralyse le transport maritime et la fabrication à l'échelle mondiale pendant une longue période, ce qui bloque les chaînes d'approvisionnement de nombreux secteurs à la fois. Pendant qu'une perturbation généralisée paralyse le transport et la fabrication, les petites sociétés moins établies et les grandes sociétés bien dotées en ressources ne traversent pas la crise de la même façon. Cette leçon examine pourquoi la taille même d'une société a historiquement été associée à des tendances de risque et de rendement distinctes.
+
+## Objectifs d'apprentissage
+- Expliquer ce que mesure la capitalisation boursière.
+- Distinguer les sociétés à petite, moyenne et grande capitalisation.
+- Expliquer pourquoi les sociétés à petite capitalisation ont historiquement montré une plus grande volatilité et, sur certaines longues périodes, une prime de taille dans leurs rendements moyens.
+- Expliquer pourquoi les petites sociétés étaient plus vulnérables pendant la perturbation décrite dans le scénario.
+
+## Contenu principal
+La capitalisation boursière est égale au cours actuel de l'action d'une société multiplié par le nombre total de ses actions en circulation; elle représente la valeur marchande totale des capitaux propres de la société. FAIT VÉRIFIÉ : les sociétés sont couramment regroupées en catégories de taille (petite, moyenne et grande capitalisation) selon des seuils de capitalisation boursière largement utilisés, même si les limites exactes en dollars peuvent varier un peu d'un système de classement à l'autre et changer avec le temps à mesure que la valeur globale du marché augmente.
+
+Voici le « pourquoi » la taille d'une société a historiquement été associée à des caractéristiques de risque et de rendement distinctes : les petites sociétés ont généralement un accès moins facile au capital, des sources de revenus moins diversifiées (souvent concentrées dans moins de produits, de clients ou de marchés), des réserves de liquidités plus minces et des positions concurrentielles moins établies que les sociétés à grande capitalisation, ce qui tend à les rendre plus vulnérables en période de stress économique généralisé, comme la perturbation des chaînes d'approvisionnement décrite dans le scénario ci-dessus, qui peut frapper beaucoup plus durement les petites sociétés ayant moins de coussin financier que les grands concurrents bien capitalisés.
+
+C'est pourquoi les actions de petites sociétés ont historiquement été plus volatiles que celles des grandes sociétés, et certaines recherches universitaires à long terme ont relevé une « prime de taille » historique : une tendance, sur certaines longues périodes, des actions de petites sociétés à produire des rendements moyens plus élevés que celles des grandes sociétés, ce qui compenserait en théorie les investisseurs pour ce risque additionnel. OPINION et mise en garde importante : cette prime de taille historique n'a pas été constante sur toutes les périodes, et certains chercheurs ont débattu de sa persistance et de son ampleur au cours des dernières décennies; elle devrait donc être vue comme une tendance historique observée, imparfaitement fiable, parmi les diverses caractéristiques des actions vues dans ce niveau, et non comme une caractéristique garantie des placements dans les petites sociétés à l'avenir.
+
+## Exemple pratique
+EXEMPLE ILLUSTRATIF : Pendant une grave perturbation mondiale des chaînes d'approvisionnement, une grande société bien capitalisée, qui a des fournisseurs diversifiés dans plusieurs régions et d'importantes réserves de liquidités, traverse la crise avec un effet modeste et temporaire sur ses bénéfices. Un concurrent plus petit du même secteur, qui dépend d'un seul fournisseur et a des réserves de liquidités plus minces, a du mal à s'approvisionner, épuise son coussin de liquidités limité et voit le cours de son action baisser beaucoup plus fortement et mettre beaucoup plus de temps à se redresser, ce qui illustre la plus grande vulnérabilité que les petites sociétés peuvent connaître en période de stress économique généralisé.
+
+## Questionnaire pratique
+**Q1. Que mesure la capitalisation boursière?**
+A) Le revenu annuel total d'une société
+B) Le cours actuel de l'action d'une société multiplié par le nombre total de ses actions en circulation
+C) La dette totale en cours d'une société
+D) Le nombre d'employés d'une société
+
+**Q2. Pourquoi les petites sociétés tendent-elles à être plus vulnérables en période de stress économique généralisé?**
+A) Les petites sociétés ont toujours des sources de revenus plus diversifiées que les grandes sociétés
+B) Les petites sociétés ont généralement un accès moins facile au capital, des revenus moins diversifiés et des réserves de liquidités plus minces que les sociétés à grande capitalisation
+C) La taille d'une société n'a aucun lien avec sa vulnérabilité en période de stress économique
+D) Les grandes sociétés sont toujours plus vulnérables que les petites pendant toute perturbation
+
+**Q3. Qu'est-ce que la « prime de taille » historique dont parle cette leçon?**
+A) Des frais additionnels garantis imposés sur les fonds communs de petites sociétés
+B) Une tendance, observée sur certaines longues périodes historiques, des actions de petites sociétés à produire des rendements moyens plus élevés que celles des grandes sociétés, ce qui compenserait en théorie un risque additionnel
+C) Un impôt imposé précisément aux petites sociétés
+D) Une règle qui oblige les petites sociétés à verser des dividendes plus élevés que les grandes sociétés
+
+**Q4. Pourquoi la prime de taille historique devrait-elle être vue comme une tendance imparfaitement fiable plutôt que comme une caractéristique garantie des placements?**
+A) La prime de taille a été parfaitement constante sur chaque période historique, sans exception
+B) La tendance n'a pas été constante sur toutes les périodes, et sa persistance et son ampleur au cours des dernières décennies ont été débattues par les chercheurs
+C) La capitalisation boursière n'a aucun lien avec les rendements historiques des actions
+D) Les actions de petites sociétés n'ont jamais fait mieux que celles des grandes sociétés, à aucune période
+
+**Q5. Dans l'exemple, pourquoi l'action du concurrent plus petit a-t-elle baissé plus fortement que celle de la grande société pendant la perturbation des chaînes d'approvisionnement?**
+A) La petite société n'avait aucune exposition à la perturbation
+B) Sa dépendance envers un seul fournisseur et ses réserves de liquidités plus minces la rendaient plus vulnérable à la perturbation que la grande société, plus diversifiée et mieux capitalisée
+C) La capitalisation boursière n'a aucune influence sur la façon dont une société traverse une perturbation
+D) La grande société a en fait été plus durement touchée que la petite
+
+## Corrigé
+Q1: B
+Q2: B
+Q3: B
+Q4: B
+Q5: B
+
+## Réponses et explications
+**Q1.** La capitalisation boursière représente la valeur marchande actuelle totale des actions en circulation d'une société.
+
+**Q2.** Ces désavantages structurels tendent à laisser aux petites sociétés un coussin financier moins important pour absorber les chocs que celui des concurrents plus grands et mieux établis.
+
+**Q3.** Il s'agit de la tendance de rendement observée historiquement en lien avec la petite taille des sociétés, comprise comme une compensation pour les risques additionnels que portent les petites sociétés.
+
+**Q4.** Vu l'inconstance documentée et le débat qui se poursuit chez les chercheurs, la prime de taille devrait être comprise comme une tendance historique plutôt qu'un résultat futur assuré.
+
+**Q5.** Les vulnérabilités structurelles typiques des petites sociétés, soit des chaînes d'approvisionnement concentrées et des réserves de liquidités plus minces, expliquent directement l'effet plus grave subi pendant la perturbation.
+
+## Points clés
+- La capitalisation boursière mesure la valeur totale des capitaux propres d'une société, et on l'utilise couramment pour classer les sociétés par catégorie de taille.
+- Les petites sociétés ont généralement un accès moins facile au capital, des revenus moins diversifiés et des réserves de liquidités plus minces que les sociétés à grande capitalisation.
+- Cela a historiquement été associé à une plus grande volatilité des petites sociétés et, à certaines périodes, à une prime de taille dans les rendements moyens.
+- La prime de taille est une tendance historique observée et imparfaitement fiable, et non une caractéristique garantie des placements dans les petites sociétés.

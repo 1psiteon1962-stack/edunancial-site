@@ -1,0 +1,170 @@
+===== GREEN-L1-002
+TITLE: A dónde va el dinero de sus impuestos: bienes y servicios públicos
+SUMMARY: Explora los usos habituales de los ingresos tributarios e introduce la diferencia entre bienes públicos y privados.
+# A dónde va el dinero de sus impuestos: bienes y servicios públicos
+
+## Objetivos de aprendizaje
+
+- Distinguir entre un bien público y uno privado.
+- Enumerar categorías comunes de gasto gubernamental financiadas por impuestos.
+- Explicar por qué algunos bienes son difíciles de financiar sin pagos colectivos.
+
+## Contenido principal
+
+Los economistas llaman «bien público» a algo que es no excluible —no es fácil impedir que lo use quien no pagó— y no rival —el uso de una persona no impide el uso de otra—. El alumbrado público es un ejemplo clásico: una vez instalado, resulta difícil impedir que se beneficie quien no pagó y una persona bajo la luz no reduce la iluminación disponible para la siguiente.
+
+Como es difícil vender los bienes públicos rentablemente usuario por usuario, las empresas privadas muchas veces no tienen incentivos suficientes para producirlos. Los impuestos ayudan a cubrir esa brecha. Entre las categorías financiadas con ingresos tributarios están infraestructura, seguridad pública, educación, defensa y programas sociales.
+
+No todo gasto gubernamental corresponde a un bien público puro. Algunos servicios podrían venderse privadamente, pero una sociedad decide financiarlos colectivamente para ampliar el acceso. La educación pública es un ejemplo: existen escuelas privadas, pero muchos países también financian educación pública porque la alfabetización y las destrezas básicas generan beneficios para toda la sociedad.
+
+Comprender esta diferencia ayuda a evaluar posteriormente los debates tributarios, que muchas veces son debates sobre cuáles bienes deben financiarse pública o privadamente y cuánto financiamiento colectivo resulta apropiado.
+
+## Ejemplo práctico
+
+**Pregunta:** Si una empresa construye una carretera de peaje y solamente quienes pagan pueden usarla, ¿es un bien público puro?
+
+**Estudiante:** Parece que no, porque pueden excluir a quien no pague.
+
+**Guía:** Correcto. Esa es la prueba de exclusión. ¿Qué nos dice sobre quién puede construir una carretera de peaje frente a una carretera pública gratuita?
+
+**Estudiante:** Una empresa puede cobrar a cada usuario del peaje. Una carretera pública gratuita no puede hacerlo de la misma manera y puede financiarse mediante impuestos compartidos.
+
+**Guía:** Exactamente.
+
+## Prueba práctica
+
+1. Un bien público se caracteriza mejor por ser:
+A) Costoso y raro
+B) No excluible y no rival
+C) Utilizado solo por personas ricas
+D) Siempre gratuito de construir
+
+2. ¿Cuál es el mejor ejemplo de un bien público?
+A) Un automóvil privado
+B) Una farola pública
+C) Una comida en un restaurante
+D) Un teléfono personal
+
+3. ¿Por qué las empresas privadas suelen evitar producir bienes públicos puros?
+A) Es ilegal
+B) Es difícil cobrar individualmente a cada usuario
+C) Los gobiernos prohíben la infraestructura privada
+D) Los bienes públicos nunca son útiles
+
+4. Una carretera de peaje que excluye a quien no paga:
+A) Es un bien público puro
+B) Es un servicio excluible
+C) Es ilegal en la mayoría de los países
+D) Es igual a una escuela pública
+
+5. La educación pública se financia colectivamente en parte porque:
+A) Las escuelas privadas son ilegales
+B) Una población educada beneficia a la sociedad además del estudiante
+C) No cuesta dinero
+D) Solo la necesitan las familias ricas
+
+## Clave de respuestas
+
+1. B, 2. B, 3. B, 4. B, 5. B
+
+## Respuestas y explicaciones
+
+1. **B.** La no exclusión y la no rivalidad son características fundamentales de los bienes públicos.
+2. **B.** Es difícil limitar una farola solamente a quienes pagaron por ella.
+3. **B.** Si no se puede cobrar fácilmente a cada usuario, resulta difícil construir un negocio rentable alrededor del bien.
+4. **B.** Un peaje permite excluir a quienes no pagan.
+5. **B.** El financiamiento colectivo refleja la decisión de que el acceso amplio produce beneficios sociales.
+
+## Puntos clave
+
+- Los bienes públicos son no excluibles y no rivales.
+- Los impuestos suelen financiar infraestructura, seguridad, educación, defensa y programas sociales.
+- La posibilidad de excluir usuarios influye en si un bien puede financiarse privadamente.
+- Algunos servicios colectivos no son bienes públicos puros, pero se financian ampliamente por razones de acceso y beneficio social.
+- Los debates sobre los impuestos a menudo son, en realidad, debates sobre qué bienes deberían ser públicos y cuáles privados.
+
+===== GREEN-L1-003
+TITLE: Tipos de impuestos: panorama general
+SUMMARY: Un mapa de las principales categorías tributarias que puede encontrar una persona: impuestos sobre ingresos, ventas o consumo, propiedad y nómina.
+# Tipos de impuestos: panorama general
+
+## Objetivos de aprendizaje
+
+- Nombrar cuatro categorías principales de impuestos que encuentran muchas personas.
+- Identificar la categoría correspondiente a ejemplos cotidianos.
+- Explicar la diferencia general entre gravar ingresos, consumo, propiedad y empleo.
+
+## Contenido principal
+
+Antes de profundizar en un impuesto específico conviene entender el mapa general. En muchos países las personas encuentran alguna versión de estas cuatro categorías:
+
+**Impuesto sobre ingresos**: grava dinero ganado mediante empleo, negocios o inversiones. **Impuesto sobre ventas o consumo**: se aplica al comprar bienes o servicios. **Impuesto sobre la propiedad**: grava bienes que una persona posee, especialmente inmuebles. **Impuesto sobre nómina**: está vinculado específicamente a salarios y con frecuencia financia sistemas de jubilación, salud u otros programas.
+
+Una forma sencilla de distinguirlos es preguntar: el impuesto sobre ingresos mira cuánto ganó; el impuesto sobre ventas, cuánto gastó; el impuesto sobre la propiedad, qué posee; y el impuesto sobre nómina, cuánto recibe mediante empleo.
+
+Los países combinan estas fuentes de distintas maneras. Algunos dependen más de impuestos sobre ingresos; otros, del consumo; y muchos gobiernos locales dependen de impuestos sobre la propiedad. No existe una combinación universal. Es una decisión de política pública con ventajas y desventajas.
+
+## Ejemplo práctico
+
+**Pregunta:** Un gobierno añade un porcentaje al precio cada vez que alguien compra un refresco. ¿Qué categoría es?
+
+**Estudiante:** Ocurre al comprar, así que parece un impuesto sobre ventas o consumo.
+
+**Guía:** Correcto. Si el gobierno también grava la ganancia de la compañía que fabrica el refresco, ¿es el mismo impuesto?
+
+**Estudiante:** No. Ese sería un impuesto sobre los ingresos o ganancias de la empresa.
+
+**Guía:** Exactamente. Un mismo producto puede generar distintos impuestos en diferentes etapas.
+
+## Prueba práctica
+
+1. El impuesto sobre ingresos grava:
+A) Lo que posee
+B) Lo que gana
+C) Lo que compra
+D) Solamente el empleo
+
+2. El impuesto sobre ventas suele aplicarse:
+A) Una vez al año sobre toda la riqueza
+B) Al momento de comprar
+C) Solo a empresarios
+D) Solo en un país
+
+3. El impuesto sobre la propiedad se asocia principalmente con:
+A) Bienes inmuebles
+B) Compras de alimentos
+C) Cheques de nómina
+D) Operaciones bursátiles exclusivamente
+
+4. El impuesto sobre nómina está vinculado específicamente con:
+A) Propiedad
+B) Salarios del empleo
+C) Compras minoristas
+D) Herencias
+
+5. ¿Cuál afirmación es más correcta?
+A) Todos los países usan la misma combinación tributaria
+B) Existe una única combinación correcta
+C) Los países combinan distintos impuestos según sus políticas
+D) Solo existe el impuesto sobre ingresos
+
+## Clave de respuestas
+
+1. B, 2. B, 3. A, 4. B, 5. C
+
+## Respuestas y explicaciones
+
+1. **B.** El impuesto sobre ingresos se activa al ganar dinero de distintas fuentes.
+2. **B.** Los impuestos sobre ventas o consumo suelen cobrarse al realizar una transacción.
+3. **A.** El impuesto sobre la propiedad suele relacionarse con bienes inmuebles.
+4. **B.** El impuesto sobre nómina está vinculado con ingresos del empleo.
+5. **C.** Cada gobierno equilibra estas categorías según sus políticas y circunstancias.
+
+## Puntos clave
+
+- Cuatro categorías frecuentes son ingresos, ventas o consumo, propiedad y nómina.
+- Cada categoría grava una actividad o base diferente.
+- Una misma actividad económica puede generar más de un tipo de impuesto.
+- La combinación tributaria varía entre países.
+- Reconocer en qué categoría cae un impuesto es el primer paso para entender cómo funciona.
+

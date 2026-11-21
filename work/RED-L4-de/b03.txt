@@ -1,0 +1,230 @@
+===== RED-L4-009
+TITLE: Abschreibung und Verkauf: Warum die Steuerrechnung irgendwann kommen kann
+SUMMARY: Erfahre, wie die Absetzung für Abnutzung (AfA) dein zu versteuerndes Einkommen während der Haltedauer senkt, warum sie beim Verkauf innerhalb der Spekulationsfrist den Gewinn erhöht und warum sie vor allem ein Zeitvorteil ist.
+KEYWORDS: AfA, Absetzung für Abnutzung, Veräußerungsgewinn, Anschaffungskosten, Spekulationsfrist, Steuerplanung
+# Abschreibung und Verkauf: Warum die Steuerrechnung irgendwann kommen kann
+
+## Lernziele
+- Erklären, wie die Abschreibung das zu versteuernde Einkommen während der Haltedauer senkt.
+- Erklären, warum die in Anspruch genommene Abschreibung bei einem steuerpflichtigen Verkauf den Gewinn erhöht.
+- Erklären, warum die Abschreibung in vielen Fällen ein Zeitvorteil ist und keine dauerhafte Steuerbefreiung.
+- Wege erkennen, wie sich diese spätere Steuerlast vermeiden oder aufschieben lässt.
+
+## Hauptinhalt
+Die Absetzung für Abnutzung (AfA) erlaubt es Immobilienanlegern, jedes Jahr einen Teil der Anschaffungskosten des Gebäudes (nicht des Grundstücks) als Werbungskosten von ihren Mieteinkünften abzuziehen – mit der Begründung, dass sich das Gebäude mit der Zeit abnutzt. GEPRÜFTE TATSACHE: In Deutschland werden vermietete Wohngebäude in der Regel linear mit 2 % pro Jahr abgeschrieben, bei Gebäuden, die ab 2023 fertiggestellt wurden, mit 3 % und bei Gebäuden, die vor 1925 fertiggestellt wurden, mit 2,5 %. Dieser Abzug kann das zu versteuernde Einkommen aus einer Vermietung während der Haltedauer deutlich senken oder sogar ganz aufheben.
+
+Hier das „Warum“, weshalb dieser Vorteil nicht in jedem Fall geschenkt ist: Die in Anspruch genommene AfA mindert die steuerlichen Anschaffungskosten der Immobilie. Verkaufst du eine privat gehaltene vermietete Immobilie innerhalb der zehnjährigen Spekulationsfrist, ist der Veräußerungsgewinn steuerpflichtig – und weil die Anschaffungskosten um die AfA gekürzt wurden, fällt dieser Gewinn um genau diesen Betrag höher aus und wird mit deinem persönlichen Einkommensteuersatz besteuert. Gehört die Immobilie zu einem Betriebsvermögen, gilt Ähnliches: Die AfA senkt den Buchwert, und beim Verkauf wird die Differenz zwischen Erlös und Buchwert als Gewinn versteuert, unabhängig von einer Haltedauer. LÄNDERSPEZIFISCHE REGEL: Diese Regeln gelten nach geltendem deutschem Steuerrecht und unterscheiden sich deutlich vom US-amerikanischen System mit einer eigenen „Recapture“-Steuer; lass dir die aktuelle Rechtslage für deinen Fall von einer Steuerberaterin oder einem Steuerberater bestätigen.
+
+Deshalb solltest du die Abschreibung als Werkzeug für den zeitlichen Ablauf betrachten und nicht automatisch als dauerhafte Steuerbefreiung. Bei einem steuerpflichtigen Verkauf verschiebt sie die Steuerlast von den Haltejahren in das Verkaufsjahr. Für Privatanleger in Deutschland gibt es allerdings eine bemerkenswerte Ausnahme: Läuft die Zehnjahresfrist vor dem Verkauf ab, ist der Gewinn in der Regel steuerfrei, und die über die Jahre genutzte AfA wird dann nicht nachträglich erfasst. Wer das nicht einplant, kann sich bei einem frühen Verkauf darüber wundern, wie viel vom Erlös an das Finanzamt geht.
+
+## Durchgerechnetes Beispiel
+BEISPIEL ZUR VERANSCHAULICHUNG: Eine Anlegerin macht über mehrere Jahre insgesamt 80.000 € AfA geltend und senkt damit jedes Jahr ihre zu versteuernden Mieteinkünfte. Verkauft sie die Immobilie im achten Jahr, also innerhalb der Spekulationsfrist, erhöht sich ihr steuerpflichtiger Veräußerungsgewinn um diese 80.000 € (SCHÄTZUNG: bei einem persönlichen Grenzsteuersatz von etwa 42 % zuzüglich Solidaritätszuschlag gegebenenfalls rund 34.000 € zusätzliche Steuer), zusätzlich zur Steuer auf die eigentliche Wertsteigerung. Hätte sie bis nach Ablauf von zehn Jahren gewartet, wäre der gesamte Gewinn in der Regel steuerfrei gewesen.
+
+## Übungsquiz
+**Q1. Was ermöglicht die Abschreibung einem Immobilienanleger während der Haltedauer?**
+A) Die Grundsteuer zu vermeiden
+B) Jedes Jahr einen Teil der Gebäudekosten von den zu versteuernden Einkünften abzuziehen
+C) Auf Versicherungen zu verzichten
+D) Den Verkaufspreis der Immobilie automatisch zu erhöhen
+
+**Q2. Was passiert bei einem steuerpflichtigen Verkauf einer privat gehaltenen Immobilie mit der zuvor geltend gemachten AfA?**
+A) Sie wird als Steuererstattung ausgezahlt
+B) Sie mindert die Anschaffungskosten und erhöht damit den steuerpflichtigen Veräußerungsgewinn
+C) Sie führt zu einer Strafe, weil die Immobilie zu lange gehalten wurde
+D) Sie ist ein Abzug, der nur Erstkäufern zusteht
+
+**Q3. Warum lässt sich die Abschreibung bei einem steuerpflichtigen Verkauf am besten als Werkzeug für den zeitlichen Ablauf verstehen?**
+A) Sie beseitigt Steuern dauerhaft und ohne künftige Folgen
+B) Sie verschiebt die Steuerlast von den Haltejahren in das Verkaufsjahr
+C) Sie gilt nur für Gewerbeimmobilien
+D) Sie hat keinen Zusammenhang mit dem späteren Verkauf der Immobilie
+
+**Q4. Welche Aussage über die lineare AfA für vermietete Wohngebäude in Deutschland trifft in der Regel zu?**
+A) Abgeschrieben wird der Grund und Boden, nicht das Gebäude
+B) Das Gebäude wird typischerweise mit 2 % oder 3 % pro Jahr abgeschrieben, je nach Fertigstellungsjahr
+C) Die AfA gilt nur im Jahr des Kaufs
+D) Die AfA macht es überflüssig, die Anschaffungskosten festzuhalten
+
+**Q5. Warum kann es für einen Privatanleger wichtig sein, eine vermietete Immobilie länger als zehn Jahre zu halten?**
+A) Nach zehn Jahren darf die Immobilie nicht mehr abgeschrieben werden
+B) Nach Ablauf der Spekulationsfrist ist der Veräußerungsgewinn in der Regel steuerfrei, einschließlich des Teils, der auf die genutzte AfA zurückgeht
+C) Die Zehnjahresfrist hat mit der Besteuerung nichts zu tun
+D) Nach zehn Jahren muss der Gewinn zwingend reinvestiert werden
+
+## Lösungsschlüssel
+Q1: B
+Q2: B
+Q3: B
+Q4: B
+Q5: B
+
+## Antworten und Erklärungen
+**Q1.** Die AfA erlaubt es Eigentümern, die angenommene Abnutzung des Gebäudes jährlich von den zu versteuernden Mieteinkünften abzuziehen.
+
+**Q2.** Die geltend gemachte AfA mindert die Anschaffungskosten; bei einem Verkauf innerhalb der Spekulationsfrist wird der Gewinn dadurch entsprechend höher.
+
+**Q3.** Die AfA senkt die Steuer während der Haltedauer, schafft aber bei einem steuerpflichtigen Verkauf eine aufgeschobene Steuerlast, die dann fällig wird.
+
+**Q4.** Vermietete Wohngebäude werden in der Regel linear mit 2 % (bei Fertigstellung ab 2023 mit 3 %) abgeschrieben, und zwar nur der Gebäudeanteil, nicht der Grund und Boden.
+
+**Q5.** Nach geltendem Recht ist der Gewinn aus dem Verkauf einer privat gehaltenen Immobilie nach zehn Jahren in der Regel steuerfrei, sodass die AfA-Vorteile endgültig bleiben; lass das im Einzelfall von einer Steuerberatung prüfen.
+
+## Das Wichtigste in Kürze
+- Die AfA senkt die zu versteuernden Mieteinkünfte während der Haltedauer, indem die Gebäudekosten über die Zeit abgezogen werden.
+- Bei einem steuerpflichtigen Verkauf erhöht die genutzte AfA den Veräußerungsgewinn, weil sie die Anschaffungskosten beziehungsweise den Buchwert mindert.
+- In diesem Fall ist die Abschreibung ein Zeitvorteil, der die Steuerlast verschiebt und nicht beseitigt.
+- Für Privatanleger kann die zehnjährige Spekulationsfrist diese spätere Steuer vermeiden – bestätige die aktuellen Regeln immer mit einer Steuerberatung.
+
+===== RED-L4-010
+TITLE: Analyse der Kaufpreisaufteilung und Abschreibung: Warum schnellere Abschreibung den Cashflow verändert
+SUMMARY: Erfahre, wie eine sorgfältige Aufteilung des Kaufpreises, ein Gutachten zur Restnutzungsdauer und Sonderabschreibungen die Abschreibung nach vorne ziehen können, warum das den Cashflow nach Steuern verbessert und welchen Preis es hat.
+KEYWORDS: Kaufpreisaufteilung, Restnutzungsdauer, Sonderabschreibung, degressive AfA, Immobiliensteuer, Cashflow
+# Analyse der Kaufpreisaufteilung und Abschreibung: Warum schnellere Abschreibung den Cashflow verändert
+
+## Lernziele
+- Erklären, was eine fundierte Kaufpreisaufteilung und ein Gutachten zur Restnutzungsdauer leisten.
+- Erklären, warum eine schnellere Abschreibung den kurzfristigen Cashflow verbessert.
+- Den Zielkonflikt zwischen höherer Abschreibung jetzt und einer höheren Steuerlast bei einem späteren steuerpflichtigen Verkauf erkennen.
+- Erklären, wer typischerweise am meisten von solchen Maßnahmen profitiert.
+
+## Hauptinhalt
+In den USA ist die sogenannte Cost Segregation verbreitet, bei der ein Gebäude in Bauteile mit kurzer Nutzungsdauer aufgeteilt wird. In Deutschland gibt es kein identisches Verfahren, aber mehrere Hebel mit derselben Wirkung: Erstens die Aufteilung des Kaufpreises in den nicht abschreibbaren Grund und Boden und das abschreibbare Gebäude – je höher der nachvollziehbar belegte Gebäudeanteil, desto höher die AfA. Zweitens werden mitgekaufte Einrichtungsgegenstände wie eine Einbauküche gesondert und über eine deutlich kürzere Nutzungsdauer abgeschrieben. Drittens kann bei älteren Gebäuden ein Gutachten belegen, dass die tatsächliche Restnutzungsdauer kürzer ist als die gesetzlich unterstellte, was eine höhere jährliche AfA erlaubt. GEPRÜFTE TATSACHE: Das Einkommensteuergesetz lässt eine kürzere tatsächliche Nutzungsdauer ausdrücklich zu, das Finanzamt verlangt dafür aber einen belastbaren Nachweis, in der Regel durch ein qualifiziertes Gutachten, und nicht bloß eine Schätzung.
+
+Hier das „Warum“, weshalb das für den Cashflow wichtig ist: Wenn ein Anleger einen größeren Teil der Abschreibung zeitlich nach vorne zieht, kann er sein zu versteuerndes Einkommen in den ersten Jahren deutlich senken. Das setzt mehr Geld nach Steuern frei, um es wieder anzulegen, Kosten zu decken oder früher weitere Immobilien zu erwerben. Besonders stark wirkt das in Kombination mit Sonderregeln für Neubauten: Je nach aktueller Rechtslage kommen etwa eine degressive AfA für neue Mietwohngebäude oder eine Sonderabschreibung für neuen Mietwohnraum in Betracht, die beide an Bedingungen wie Baubeginn, Effizienzstandard oder Baukostenobergrenzen geknüpft sind. LÄNDERSPEZIFISCHE REGEL: Sätze, Zeiträume und Voraussetzungen solcher Sonderregeln ändern sich mit der Gesetzgebung und müssen für das jeweilige Jahr mit einer Steuerberatung geprüft werden.
+
+Der Zielkonflikt folgt direkt aus der Lektion über Abschreibung und Verkauf: Höhere Abzüge jetzt bedeuten im Allgemeinen niedrigere Anschaffungskosten beziehungsweise einen niedrigeren Buchwert und damit einen höheren steuerpflichtigen Gewinn bei einem Verkauf innerhalb der Spekulationsfrist oder aus dem Betriebsvermögen. Deshalb profitieren davon meist Anleger mit langem Anlagehorizont, mit hohem laufendem Einkommen, das sie ausgleichen wollen, oder mit dem Plan, privat gehaltene Immobilien länger als zehn Jahre zu halten.
+
+## Durchgerechnetes Beispiel
+BEISPIEL ZUR VERANSCHAULICHUNG: Ohne besondere Maßnahmen wird bei einem Mehrfamilienhaus für 1.000.000 € mit einem Gebäudeanteil von 750.000 € jährlich 2 % abgeschrieben, also rund 15.000 € (SCHÄTZUNG, nur Gebäudeanteil, ohne Grund und Boden). Belegt ein qualifiziertes Gutachten bei diesem älteren Gebäude eine Restnutzungsdauer von 25 Jahren statt der unterstellten 50, steigt die jährliche AfA auf rund 30.000 €; zusammen mit einer gesondert abgeschriebenen Ausstattung kann der Abzug in den ersten Jahren noch höher liegen. Das senkt das zu versteuernde Einkommen in diesen Jahren deutlich und erhöht das Geld, das nach Steuern zur Wiederanlage verfügbar ist.
+
+## Übungsquiz
+**Q1. Was leistet ein Gutachten zur Restnutzungsdauer im deutschen Steuerrecht?**
+A) Es erhöht den Kaufpreis der Immobilie
+B) Es belegt eine kürzere tatsächliche Nutzungsdauer, sodass das Gebäude über einen kürzeren Zeitraum abgeschrieben werden kann
+C) Es befreit von der Grundsteuer
+D) Es wandelt eine Wohnimmobilie in eine Gewerbeimmobilie um
+
+**Q2. Warum verbessert eine schnellere Abschreibung den kurzfristigen Cashflow?**
+A) Sie senkt direkt die Darlehensschuld
+B) Sie senkt das zu versteuernde Einkommen in den ersten Jahren und lässt mehr Geld nach Steuern übrig
+C) Sie beseitigt die Bewirtschaftungskosten
+D) Sie erhöht automatisch die Mieteinnahmen
+
+**Q3. Was ist der wichtigste Zielkonflikt, wenn die Abschreibung nach vorne gezogen wird?**
+A) Es gibt keinen; es ist ein reiner Vorteil ohne Nachteil
+B) Sie erhöht in der Regel den steuerpflichtigen Gewinn bei einem späteren steuerpflichtigen Verkauf
+C) Sie beseitigt die Steuerlast des Anlegers dauerhaft
+D) Sie macht einen Verkauf der Immobilie für immer unmöglich
+
+**Q4. Welcher Anleger profitiert am ehesten von einer schnelleren Abschreibung?**
+A) Ein Anleger, der innerhalb eines Jahres steuerpflichtig verkaufen will und keinen Plan zur Wiederanlage hat
+B) Ein Anleger mit hohem laufendem Einkommen, der einen steuerlichen Ausgleich sucht und lange halten will
+C) Ein Anleger, der seine Immobilie überhaupt nicht abschreibt
+D) Ein Anleger, der nur unbebaute Grundstücke besitzt
+
+**Q5. Warum wird ein Nachweis für eine kürzere Nutzungsdauer in der Regel von Fachleuten erstellt und nicht formlos geschätzt?**
+A) Es ist allen anderen gesetzlich verboten, es zu versuchen
+B) Nur eine fundierte, nachvollziehbare Begutachtung hält einer Prüfung durch das Finanzamt stand
+C) Fachleute müssen alle Steuererklärungen einreichen
+D) Es hat keinen Einfluss auf die Anerkennung durch das Finanzamt
+
+## Lösungsschlüssel
+Q1: B
+Q2: B
+Q3: B
+Q4: B
+Q5: B
+
+## Antworten und Erklärungen
+**Q1.** Ein solches Gutachten weist eine kürzere Restnutzungsdauer nach und beschleunigt damit die jährlichen Abschreibungsbeträge.
+
+**Q2.** Höhere Abzüge in den ersten Jahren senken das zu versteuernde Einkommen, was die Steuerlast verringert und in diesen Jahren mehr Geld freisetzt.
+
+**Q3.** Nach vorne gezogene Abzüge mindern die Anschaffungskosten beziehungsweise den Buchwert schneller und erhöhen damit typischerweise den Gewinn, der bei einem späteren steuerpflichtigen Verkauf versteuert wird.
+
+**Q4.** Davon profitieren Anleger, die den kurzfristigen Abzug nutzen können und die spätere Steuerlast steuern oder durch eine lange Haltedauer vermeiden können.
+
+**Q5.** Eine korrekte Ableitung erfordert eine detaillierte, belastbare Analyse, weshalb qualifizierte Gutachten der übliche Weg sind.
+
+## Das Wichtigste in Kürze
+- Kaufpreisaufteilung, gesondert abgeschriebene Ausstattung und Gutachten zur Restnutzungsdauer können die Abschreibung in Deutschland legal nach vorne ziehen.
+- Eine schnellere Abschreibung senkt das kurzfristig zu versteuernde Einkommen und verbessert den Cashflow nach Steuern.
+- Der Preis dafür ist ein höherer steuerpflichtiger Gewinn bei einem späteren steuerpflichtigen Verkauf, nach derselben Logik wie bei der normalen AfA.
+- Diese Strategie passt am besten zu langen Anlagehorizonten, hohem laufendem Einkommen oder dem Plan, privat gehaltene Immobilien länger als zehn Jahre zu halten.
+
+===== RED-L4-011
+TITLE: Schuldendienstdeckungsgrad: Warum Banken ihn stärker gewichten als die Cap Rate
+SUMMARY: Erfahre, wie du den Schuldendienstdeckungsgrad (DSCR) berechnest, warum Banken ihn bei der Kreditvergabe stärker gewichten als die Cap Rate und wie steigende Zinsen ihn verschlechtern.
+KEYWORDS: DSCR, Schuldendienstdeckungsgrad, Kapitaldienstfähigkeit, Kreditprüfung, Immobilienfinanzierung
+# Schuldendienstdeckungsgrad: Warum Banken ihn stärker gewichten als die Cap Rate
+
+## Lernziele
+- Den Schuldendienstdeckungsgrad (DSCR) aus dem Nettobetriebsergebnis und dem jährlichen Kapitaldienst berechnen.
+- Erklären, warum Banken den Schuldendienstdeckungsgrad stärker gewichten als die Cap Rate.
+- Erklären, wie ein niedriger Schuldendienstdeckungsgrad den Kreditbetrag begrenzt, den eine Immobilie tragen kann.
+- Erkennen, wie steigende Zinsen bei gleichem Kreditbetrag den Schuldendienstdeckungsgrad beeinflussen.
+
+## Hauptinhalt
+Der Schuldendienstdeckungsgrad (englisch Debt Service Coverage Ratio, DSCR) ist das Nettobetriebsergebnis geteilt durch den jährlichen Kapitaldienst (die gesamte jährliche Darlehensrate aus Zins und Tilgung). In deutschen Banken läuft dieselbe Frage oft unter dem Begriff Kapitaldienstfähigkeit. GEPRÜFTE TATSACHE: Die meisten Finanzierer gewerblicher und größerer Wohnimmobilien verlangen einen Mindestdeckungsgrad, häufig im Bereich von etwa 1,20 bis 1,35, wobei das je nach Bank und Objektart schwankt und immer mit der konkreten Bank geklärt werden sollte.
+
+Hier das „Warum“, weshalb Banken der Schuldendienstdeckungsgrad wichtiger ist als die Cap Rate: Die Cap Rate sagt einem Anleger etwas über die Rendite im Verhältnis zum Preis, sagt einer Bank aber nichts direkt darüber, ob die Immobilie genug Ertrag erzeugt, um die Darlehensrate sicher zu bedienen. Genau diese Frage beantwortet der Schuldendienstdeckungsgrad. Ein Wert von 1,25 bedeutet, dass die Immobilie 25 % mehr Ertrag erzeugt, als für die Darlehensrate nötig ist – ein Puffer, den die Bank braucht, falls die Einnahmen sinken oder die Kosten unerwartet steigen. Bei privaten Anlegern mit wenigen Wohnungen schaut die Bank in Deutschland zusätzlich auf die gesamte Haushaltsrechnung: Mieteinnahmen werden dort oft nur mit einem Abschlag angesetzt, und das übrige Einkommen muss die Rate notfalls mittragen können.
+
+Deshalb bestimmt oft der Schuldendienstdeckungsgrad und nicht allein der Wert der Immobilie den maximalen Kredit, den eine Bank genehmigt. Wenn das Nettobetriebsergebnis einer Immobilie den verlangten Deckungsgrad bei einem bestimmten Kreditbetrag nicht trägt, verkleinert die Bank den Kredit, egal wie attraktiv die Cap Rate oder das Wertgutachten aussieht – man spricht dann davon, dass der Kredit durch den Ertrag und nicht durch den Wert begrenzt ist.
+
+## Durchgerechnetes Beispiel
+BEISPIEL ZUR VERANSCHAULICHUNG: Eine Immobilie hat ein Nettobetriebsergebnis von 90.000 €. Die Bank verlangt einen Mindestdeckungsgrad von 1,25. Der höchstens zulässige jährliche Kapitaldienst beträgt 90.000 € / 1,25 = 72.000 €. Würde die gewünschte Kreditsumme zu einer jährlichen Rate von 85.000 € führen, genehmigt die Bank diese Kreditsumme nicht, selbst wenn das Wertgutachten einen höheren Kredit stützen würde – der Kreditnehmer muss mehr Eigenkapital einbringen oder einen kleineren Kredit akzeptieren, um den verlangten Deckungsgrad zu erfüllen.
+
+## Übungsquiz
+**Q1. Was misst der Schuldendienstdeckungsgrad?**
+A) Das Verhältnis von Kaufpreis und Nettobetriebsergebnis
+B) Das Verhältnis von Nettobetriebsergebnis und jährlichem Kapitaldienst
+C) Die gesamte Wertsteigerung der Immobilie über fünf Jahre
+D) Die Bonität des Mieters
+
+**Q2. Warum gewichten Banken den Schuldendienstdeckungsgrad oft stärker als die Cap Rate?**
+A) Die Cap Rate darf bei Kreditentscheidungen gesetzlich nicht verwendet werden
+B) Der Schuldendienstdeckungsgrad beantwortet direkt, ob der Ertrag der Immobilie die Darlehensrate sicher deckt
+C) Schuldendienstdeckungsgrad und Cap Rate ergeben immer dieselbe Zahl
+D) Banken müssen die Cap Rate gesetzlich ignorieren
+
+**Q3. Das Nettobetriebsergebnis einer Immobilie beträgt 100.000 €, und die Bank verlangt einen Mindestdeckungsgrad von 1,25. Wie hoch darf der jährliche Kapitaldienst höchstens sein?**
+A) 75.000 €
+B) 80.000 €
+C) 100.000 €
+D) 125.000 €
+
+**Q4. Was bedeutet es, wenn ein Kredit durch den Ertrag und nicht durch den Wert begrenzt ist?**
+A) Das Wertgutachten ist zu hoch, um überhaupt einen Kredit zu stützen
+B) Der Ertrag der Immobilie und nicht ihr Gutachtenwert begrenzt die maximale Kreditsumme
+C) Die Bank weigert sich, den Schuldendienstdeckungsgrad zu verwenden
+D) Der Kreditnehmer hat überhaupt keine Schulden
+
+**Q5. Wie wirkt sich ein steigender Zins auf den Schuldendienstdeckungsgrad aus, wenn die Kreditsumme gleich bleibt?**
+A) Der Deckungsgrad verbessert sich, weil der Kapitaldienst sinkt
+B) Der Deckungsgrad verschlechtert sich, weil ein höherer Zins den jährlichen Kapitaldienst erhöht
+C) Der Deckungsgrad hängt nicht von den Zinsen ab
+D) Der Deckungsgrad gilt nur für Darlehen mit fester Zinsbindung
+
+## Lösungsschlüssel
+Q1: B
+Q2: B
+Q3: B
+Q4: B
+Q5: B
+
+## Antworten und Erklärungen
+**Q1.** Schuldendienstdeckungsgrad = Nettobetriebsergebnis / jährlicher Kapitaldienst; er zeigt, wie viel Ertragspuffer über der Darlehensrate liegt.
+
+**Q2.** Der Schuldendienstdeckungsgrad ist die Kennzahl, die am direktesten mit der sicheren Rückzahlung verbunden ist – dem Kernanliegen der Bank.
+
+**Q3.** 100.000 € / 1,25 = 80.000 € höchstens zulässiger jährlicher Kapitaldienst.
+
+**Q4.** Eine Begrenzung durch den Ertrag bedeutet, dass der Ertrag die Kreditsumme limitiert, selbst wenn die Immobilie sonst höher bewertet würde.
+
+**Q5.** Höhere Zinsen erhöhen den Kapitaldienst, was bei gleicher Kreditsumme den Deckungsgrad senkt (Nettobetriebsergebnis unverändert, Kapitaldienst höher). In Deutschland betrifft das besonders Anschlussfinanzierungen nach Ablauf der Zinsbindung.
+
+## Das Wichtigste in Kürze
+- Schuldendienstdeckungsgrad = Nettobetriebsergebnis / jährlicher Kapitaldienst; er misst den Ertragspuffer über der Darlehensrate.
+- Banken gewichten ihn oft stärker als die Cap Rate, weil er die Sicherheit der Rückzahlung direkt abbildet.
+- Eine Immobilie kann durch ihren Ertrag begrenzt sein, sodass die Kreditsumme gedeckelt wird, selbst wenn der Gutachtenwert mehr stützen würde.
+- Steigende Zinsen verschlechtern den Deckungsgrad bei gleicher Kreditsumme, was die mögliche Finanzierung einer Immobilie verringern kann.

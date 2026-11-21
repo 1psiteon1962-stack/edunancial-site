@@ -1,0 +1,399 @@
+===== WHITE-L4-006
+TITLE: L'analyse de la corrélation : pourquoi la diversification exige des actifs non corrélés
+SUMMARY: Découvrez ce que mesure la corrélation, pourquoi détenir beaucoup d'actifs ne garantit pas la diversification et pourquoi les corrélations grimpent pendant les crises.
+KEYWORDS: corrélation, diversification, risque de portefeuille, corrélation des actifs, théorie moderne du portefeuille
+# L'analyse de la corrélation : pourquoi la diversification exige des actifs non corrélés
+
+## Mise en situation
+HYPOTHÈSE/OPINION (scénario hypothétique à des fins pédagogiques seulement) : Imaginez une institution financière d'importance systémique qui révèle soudainement une perte importante jusque-là cachée, ce qui fait craindre que le risque de contrepartie se propage dans l'ensemble du système bancaire. Quand la peur du risque de contrepartie se répand dans le système financier, de nombreuses catégories d'actifs qui évoluent normalement de façon assez indépendante peuvent soudainement se mettre à baisser ensemble. Cette leçon explique pourquoi cela se produit et ce que cela veut dire pour la diversification.
+
+## Objectifs d'apprentissage
+- Définir la corrélation dans le contexte de la construction d'un portefeuille.
+- Expliquer pourquoi détenir de nombreux actifs différents ne garantit pas la diversification.
+- Expliquer pourquoi les corrélations entre les actifs peuvent grimper fortement pendant les périodes de tension sur les marchés.
+- Appliquer la notion de corrélation pour évaluer si un portefeuille est vraiment diversifié.
+
+## Contenu principal
+La corrélation mesure à quel point les rendements de deux actifs évoluent de façon liée, sur une échelle de -1 (des mouvements parfaitement opposés) à +1 (des mouvements parfaitement identiques). FAIT VÉRIFIÉ : le vrai avantage de la diversification vient de la combinaison d'actifs à corrélation faible ou négative, parce que quand un actif baisse, un actif non corrélé ou corrélé négativement a plus de chances de rester stable ou de monter, ce qui amortit l'ensemble du portefeuille.
+
+Voici le « pourquoi » le simple fait de détenir de nombreux actifs différents ne garantit pas une vraie diversification, en écho au principe de concentration du portefeuille immobilier vu dans d'autres parcours : dix actions de dix sociétés différentes peuvent quand même être fortement corrélées entre elles si elles partagent le même facteur de risque de fond, par exemple faire partie du même marché boursier général, du même cycle économique ou de la même sensibilité sectorielle aux taux d'intérêt. Une diversification significative exige des actifs dont les rendements sont portés par des facteurs vraiment différents, comme combiner des actions et des obligations, des actifs nationaux et étrangers, ou des actions et des actifs réels comme l'immobilier ou les matières premières.
+
+C'est pourquoi les corrélations ne sont pas des chiffres fixes : elles peuvent changer et changent effectivement, et c'est un risque crucial, souvent sous-estimé. Pendant un événement de tension financière systémique comme celui décrit dans le scénario ci-dessus, des actifs habituellement peu corrélés peuvent soudainement évoluer ensemble, parce que la peur provoque des ventes générales et sans discernement dans toutes les catégories d'actifs (on dit souvent que « les corrélations tendent vers un »). C'est pourquoi la diversification, même si elle a de la valeur, n'est pas un bouclier parfait ou permanent contre toutes les baisses du marché, surtout pendant les paniques systémiques aiguës.
+
+## Exemple pratique
+EXEMPLE ILLUSTRATIF : Un investisseur détient un portefeuille de vingt actions de grandes sociétés dans diverses industries, en croyant qu'il est bien diversifié. Dans des conditions de marché normales, ces actions montrent des mouvements indépendants importants. Mais pendant un événement soudain de tension financière systémique, presque toutes les vingt actions baissent ensemble en quelques jours, parce que les ventes de panique touchent l'ensemble du marché comme un seul facteur de risque corrélé, ce qui révèle que la diversification du portefeuille était plus limitée que ne le laissait croire son nombre de titres.
+
+## Questionnaire pratique
+**Q1. Que mesure la corrélation dans le contexte d'un portefeuille?**
+A) Le nombre total d'actifs détenus dans un portefeuille
+B) À quel point les rendements de deux actifs évoluent de façon liée
+C) Le rendement absolu en dollars d'un actif
+D) La cote de crédit d'un émetteur d'obligations
+
+**Q2. Pourquoi le fait de détenir de nombreuses actions différentes ne garantit-il pas une vraie diversification?**
+A) Détenir plus d'actions garantit toujours une diversification parfaite
+B) Les actions peuvent partager le même facteur de risque de fond, comme l'exposition au marché général ou au cycle économique, ce qui les rend fortement corrélées même si ce sont des sociétés différentes
+C) La diversification exige seulement de détenir au moins dix actifs différents
+D) La corrélation n'a aucune influence sur la diversification
+
+**Q3. Quelle combinaison d'actifs tend à procurer un avantage de diversification significatif?**
+A) Dix actions différentes, toutes dans la même industrie
+B) Des actifs dont les rendements sont portés par des facteurs vraiment différents, comme des actions combinées à des obligations ou à des actifs réels
+C) N'importe quels deux actifs, peu importe ce qui détermine leurs rendements
+D) De l'argent comptant détenu dans une seule devise
+
+**Q4. Que décrit l'expression « les corrélations tendent vers un »?**
+A) Un état de corrélation permanent et immuable entre tous les actifs
+B) La tendance des actifs habituellement peu corrélés à évoluer ensemble pendant une panique systémique, à cause de ventes générales et sans discernement
+C) Une situation où tous les actifs obtiennent toujours des rendements identiques
+D) Un type précis d'obligation émise pendant une récession
+
+**Q5. Qu'est-il arrivé au portefeuille de vingt actions de l'exemple pendant l'événement de tension systémique?**
+A) Les actions ont continué d'évoluer de façon indépendante comme avant
+B) Presque toutes les vingt actions ont baissé ensemble, ce qui a révélé que la diversification du portefeuille était plus limitée que ne le laissait croire le nombre de titres
+C) Le portefeuille n'a pas du tout été touché par l'événement systémique
+D) Une seule action du portefeuille a été touchée
+
+## Corrigé
+Q1: B
+Q2: B
+Q3: B
+Q4: B
+Q5: B
+
+## Réponses et explications
+**Q1.** La corrélation mesure à quel point deux actifs tendent à évoluer ensemble ou de façon indépendante.
+
+**Q2.** Une exposition commune à des facteurs de risque partagés peut maintenir une forte corrélation entre des titres en apparence différents, ce qui mine la vraie diversification.
+
+**Q3.** L'avantage de la diversification vient de la combinaison d'actifs exposés à des facteurs de rendement de fond différents, et pas seulement de la détention d'un plus grand nombre d'actifs.
+
+**Q4.** Pendant une tension systémique aiguë, les ventes poussées par la peur peuvent faire baisser de nombreux actifs ensemble, ce qui efface temporairement une grande partie de leur avantage de diversification habituel.
+
+**Q5.** La baisse générale et corrélée pendant la panique a montré que le nombre de titres à lui seul ne procurait pas la diversification que l'investisseur croyait avoir.
+
+## Points clés
+- La corrélation mesure à quel point les rendements de deux actifs évoluent ensemble, de -1 à +1.
+- Une vraie diversification exige de combiner des actifs aux facteurs de rendement de fond vraiment différents, et pas seulement un grand nombre de titres.
+- Les corrélations peuvent grimper fortement pendant les tensions systémiques sur les marchés, ce qui réduit l'avantage de la diversification au moment précis où on en a le plus besoin.
+- La diversification a de la valeur, mais elle n'est pas un bouclier parfait contre toutes les baisses du marché, surtout pendant les paniques systémiques aiguës.
+
+===== WHITE-L4-007
+TITLE: L'analyse du bêta : pourquoi la volatilité n'est pas la même chose que le risque
+SUMMARY: Découvrez ce que mesure le bêta d'une action, pourquoi il ne saisit que le risque lié au marché et pourquoi une faible volatilité ne veut pas toujours dire un faible risque.
+KEYWORDS: bêta, volatilité, risque systématique, mesure du risque des actions
+# L'analyse du bêta : pourquoi la volatilité n'est pas la même chose que le risque
+
+## Mise en situation
+HYPOTHÈSE/OPINION (scénario hypothétique à des fins pédagogiques seulement) : Imaginez deux grandes puissances économiques qui intensifient leurs contrôles des exportations l'une contre l'autre sur une catégorie de composantes technologiques avancées utilisées dans de nombreuses industries. Pendant que ces deux grandes puissances commerciales durcissent leurs restrictions mutuelles, certaines actions du secteur technologique font des montagnes russes d'un jour à l'autre, alors que d'autres sociétés, en apparence « ennuyeuses », bougent à peine. Cette leçon explique ce que le bêta saisit de cette différence, et ce qu'il laisse de côté.
+
+## Objectifs d'apprentissage
+- Expliquer ce que mesure le bêta.
+- Interpréter un bêta supérieur, inférieur ou égal à 1.
+- Expliquer pourquoi le bêta ne saisit que le risque systématique (lié au marché), et non le risque propre à une société.
+- Expliquer pourquoi une faible volatilité ne veut pas toujours dire un faible risque global.
+
+## Contenu principal
+Le bêta mesure la volatilité d'une action par rapport à l'ensemble du marché, le marché lui-même ayant un bêta de 1. FAIT VÉRIFIÉ : une action dont le bêta est de 1,5 a historiquement bougé, en moyenne, 50 % de plus que le marché dans un sens comme dans l'autre, alors qu'une action dont le bêta est de 0,6 a historiquement bougé d'environ 60 % de ce que bougeait le marché.
+
+Voici le « pourquoi » le bêta ne saisit qu'une partie du risque : le bêta mesure le risque systématique, c'est-à-dire la part du mouvement d'une action liée aux fluctuations générales du marché, comme la volatilité sectorielle décrite dans le scénario ci-dessus. Il ne saisit pas le risque propre à la société (non systématique), c'est-à-dire le risque qu'une société en particulier reçoive de mauvaises nouvelles sans lien avec l'ensemble du marché, comme un scandale comptable, l'échec d'un lancement de produit ou le départ d'un dirigeant clé. Une action pourrait avoir un bêta faible et sembler calme par rapport au marché, tout en comportant un risque propre important que le bêta ne mesure tout simplement pas.
+
+C'est pourquoi assimiler une faible volatilité (un bêta faible) à un faible risque global est une façon courante, mais incomplète, de penser le risque. Une société à faible bêta qui fait face à une vraie menace existentielle pour son entreprise, sans lien avec les mouvements généraux du marché, peut quand même perdre la plus grande partie ou la totalité de sa valeur, un risque que le bêta seul n'aurait jamais signalé, parce que le risque propre à une société fonctionne sur un axe complètement différent de celui des mouvements communs au marché que le bêta est conçu pour saisir.
+
+## Exemple pratique
+EXEMPLE ILLUSTRATIF : Une action a un bêta de 0,7, ce qui suggère une sensibilité relativement faible aux fluctuations générales du marché, et un investisseur suppose qu'elle constitue donc un placement « sûr ». La société révèle ensuite une irrégularité comptable importante, qui lui est propre et n'a aucun lien avec les conditions générales du marché, et l'action perd 40 % de sa valeur en une seule journée : un risque dont le bêta, qui ne mesure que les mouvements communs liés au marché, ne donnait absolument aucun signe.
+
+## Questionnaire pratique
+**Q1. Qu'indique un bêta de 1,5 au sujet d'une action?**
+A) L'action a historiquement bougé d'environ 150 % par rapport à elle-même, sans comparaison avec le marché
+B) L'action a historiquement bougé, en moyenne, 50 % de plus que l'ensemble du marché dans un sens comme dans l'autre
+C) L'action est garantie de monter de 1,5 % chaque année
+D) L'action a un ratio cours-bénéfice de 1,5
+
+**Q2. Quel type de risque le bêta mesure-t-il précisément?**
+A) Le risque propre à une société, sans lien avec l'ensemble du marché
+B) Le risque systématique, c'est-à-dire la part du mouvement d'une action liée aux fluctuations générales du marché
+C) Le risque de change seulement
+D) Le risque de défaut de crédit
+
+**Q3. Pourquoi une action à faible bêta peut-elle quand même comporter un risque important?**
+A) Les actions à faible bêta sont toujours complètement sans risque
+B) Le bêta ne saisit pas le risque propre à une société, comme les scandales ou les échecs de produits, qui peuvent toucher fortement une action indépendamment des mouvements du marché
+C) Le bêta mesure parfaitement toutes les formes de risque
+D) Un bêta faible garantit qu'une société n'a aucune dette
+
+**Q4. Qu'est-il arrivé à l'action dont le bêta était de 0,7 dans l'exemple?**
+A) Elle est restée parfaitement stable grâce à son bêta faible
+B) Elle a perdu 40 % de sa valeur en une seule journée à cause d'un problème propre à la société, sans lien avec les conditions générales du marché
+C) Son bêta faible l'a protégée de toute baisse en une seule journée
+D) Le bêta de la société a empêché le problème comptable de se produire
+
+**Q5. Pourquoi assimiler une faible volatilité à un faible risque global est-il considéré comme une façon incomplète de penser le risque?**
+A) La volatilité et le risque sont toujours exactement la même chose, sans aucune distinction
+B) Le bêta ne saisit que le risque lié au marché, ce qui laisse complètement non mesurés des risques propres à une société qui peuvent être tout aussi dommageables
+C) Une faible volatilité élimine toujours toutes les formes de risque
+D) Le risque global ne peut être analysé à l'aide d'aucune mesure quantitative
+
+## Corrigé
+Q1: B
+Q2: B
+Q3: B
+Q4: B
+Q5: B
+
+## Réponses et explications
+**Q1.** Un bêta supérieur à 1 indique une sensibilité historique aux mouvements de l'ensemble du marché plus grande que celle du marché lui-même.
+
+**Q2.** Le bêta isole la composante systématique, liée au marché, de la volatilité d'une action, et non les risques propres à chaque société.
+
+**Q3.** Une action peut avoir été historiquement stable par rapport au marché tout en faisant face à des risques propres importants dont le bêta ne tient pas compte.
+
+**Q4.** Le bêta faible reflétait une stabilité historique liée au marché, mais n'offrait aucune protection contre un événement de risque propre à la société.
+
+**Q5.** Comme le bêta ignore le risque propre à une société, se fier uniquement à lui peut créer un faux sentiment de sécurité quant à l'exposition totale au risque d'une action.
+
+## Points clés
+- Le bêta mesure la volatilité historique d'une action par rapport à l'ensemble du marché, le marché lui-même étant égal à 1.
+- Le bêta ne saisit que le risque systématique lié au marché, et non le risque propre à une société découlant d'événements sans lien avec l'ensemble du marché.
+- Une action à faible bêta peut quand même comporter un risque important si elle fait face à des menaces propres que le bêta ne mesure pas.
+- Assimiler une faible volatilité à un faible risque global néglige une dimension majeure du risque que le bêta n'a tout simplement pas été conçu pour saisir.
+
+===== WHITE-L4-008
+TITLE: L'analyse du ratio de Sharpe : pourquoi le rendement ajusté au risque vaut mieux que le rendement brut
+SUMMARY: Découvrez ce que mesure le ratio de Sharpe, comment le calculer et pourquoi deux placements au même rendement brut peuvent avoir des ratios très différents.
+KEYWORDS: ratio de Sharpe, rendement ajusté au risque, mesure de la performance d'un portefeuille
+# L'analyse du ratio de Sharpe : pourquoi le rendement ajusté au risque vaut mieux que le rendement brut
+
+## Mise en situation
+HYPOTHÈSE/OPINION (scénario hypothétique à des fins pédagogiques seulement) : Imaginez qu'après des années d'expansion rapide, les marchés de l'immobilier et du crédit à la consommation d'un pays populeux commencent à montrer des signes de correction brutale, à mesure que les défauts de paiement augmentent. Pendant qu'un marché alimenté par le crédit se dégonfle, certains fonds qui avaient affiché des rendements spectaculaires pendant les années de boom se révèlent avoir pris beaucoup plus de risques que leurs concurrents pour y arriver. Cette leçon présente l'outil que les analystes utilisent pour voir clairement cette prise de risque, après coup et, idéalement, avant.
+
+## Objectifs d'apprentissage
+- Expliquer ce que mesure le ratio de Sharpe.
+- Calculer un ratio de Sharpe simple à partir du rendement, du taux sans risque et de l'écart-type.
+- Expliquer pourquoi deux placements au même rendement brut peuvent avoir des ratios de Sharpe très différents.
+- Appliquer la notion de ratio de Sharpe pour comparer deux stratégies de placement hypothétiques.
+
+## Contenu principal
+Le ratio de Sharpe mesure le rendement obtenu par unité de risque prise; on le calcule ainsi : (rendement du placement moins le taux sans risque) divisé par l'écart-type du placement (une mesure courante de la volatilité). FAIT VÉRIFIÉ : un ratio de Sharpe plus élevé indique un rendement ajusté au risque plus favorable, c'est-à-dire plus de rendement généré pour chaque unité de risque prise.
+
+Voici le « pourquoi » c'est plus important que la simple comparaison des rendements bruts, ce qui rejoint directement le principe du rendement ajusté au risque vu dans l'analyse immobilière : deux stratégies de placement peuvent produire des rendements bruts identiques sur une période, mais si l'une a obtenu ce rendement avec beaucoup plus de volatilité (des montées et des descentes plus fortes en cours de route) que l'autre, la stratégie plus stable, moins volatile, a un ratio de Sharpe plus élevé et est généralement considérée comme la plus habilement ou la plus prudemment construite des deux, même si leurs rendements affichés semblent identiques.
+
+C'est pourquoi courir après le rendement historique brut le plus élevé, sans examiner la volatilité et le risque pris pour l'obtenir, peut mener un investisseur vers des stratégies qui semblent impressionnantes pendant les bonnes périodes (comme l'expansion alimentée par le crédit évoquée dans le scénario ci-dessus), mais qui cachent une fragilité qui ne devient visible qu'une fois que les conditions se retournent, puisque la prise de risque qui a gonflé le rendement brut amplifie aussi la baisse qui finit par arriver.
+
+## Exemple pratique
+EXEMPLE ILLUSTRATIF : Le fonds A rapporte 12 % par année avec un écart-type de 8 %, alors que le fonds B rapporte aussi 12 % par année, mais avec un écart-type de 20 %, en supposant un taux sans risque de 3 %. Le ratio de Sharpe du fonds A est de (12 - 3) / 8 = 1,13, alors que celui du fonds B est de (12 - 3) / 20 = 0,45. Malgré des rendements bruts identiques, le fonds A a obtenu ce rendement de façon beaucoup plus efficace, avec beaucoup moins de risque pris par unité de rendement, ce qui en fait le plus attrayant des deux sur le plan du rendement ajusté au risque.
+
+## Questionnaire pratique
+**Q1. Que mesure le ratio de Sharpe?**
+A) Le rendement total en dollars sur une période fixe
+B) Le rendement obtenu par unité de risque prise, par rapport à un taux sans risque
+C) Le rendement en dividendes d'un portefeuille d'actions
+D) La corrélation entre deux actifs
+
+**Q2. Deux fonds ont des rendements bruts identiques, mais le fonds X a un écart-type beaucoup plus faible que le fonds Y. Quel fonds a le ratio de Sharpe le plus élevé?**
+A) Le fonds Y, parce qu'une volatilité plus élevée produit toujours un ratio de Sharpe plus élevé
+B) Le fonds X, parce qu'il a obtenu le même rendement en prenant moins de risque
+C) Ils auront toujours des ratios de Sharpe identiques, peu importe la volatilité
+D) Le ratio de Sharpe ne peut pas être calculé quand les rendements sont identiques
+
+**Q3. Avec un taux sans risque de 2 %, un fonds rapporte 10 % avec un écart-type de 10 %. Quel est son ratio de Sharpe?**
+A) 0,5
+B) 0,8
+C) 1,0
+D) 1,2
+
+**Q4. Pourquoi courir après le rendement historique brut le plus élevé sans examiner la volatilité pourrait-il être risqué?**
+A) Le rendement brut reflète toujours parfaitement la sécurité d'une stratégie de placement
+B) Un rendement brut élevé peut avoir été obtenu grâce à une prise de risque importante et cachée qui ne devient visible que lorsque les conditions deviennent défavorables
+C) La volatilité n'a aucune influence sur le risque futur d'une stratégie de placement
+D) Les rendements bruts élevés sont toujours obtenus avec un risque minimal
+
+**Q5. Pourquoi dit-on que le ratio de Sharpe rejoint le principe du rendement ajusté au risque de l'analyse immobilière?**
+A) L'analyse immobilière et l'analyse boursière n'ont aucun point commun conceptuel
+B) Les deux insistent sur l'évaluation du rendement d'un placement par rapport au risque pris pour l'obtenir, plutôt que sur des chiffres de rendement jugés isolément
+C) Le ratio de Sharpe ne peut s'appliquer qu'aux placements immobiliers
+D) L'analyse ajustée au risque est réservée aux titres à revenu fixe
+
+## Corrigé
+Q1: B
+Q2: B
+Q3: B
+Q4: B
+Q5: B
+
+## Réponses et explications
+**Q1.** Le ratio de Sharpe exprime le rendement excédentaire (au-delà du taux sans risque) par rapport à la volatilité prise pour l'obtenir.
+
+**Q2.** Comme le ratio de Sharpe divise le rendement excédentaire par la volatilité, une volatilité plus faible pour le même rendement donne un ratio plus élevé, plus favorable.
+
+**Q3.** (10 - 2) / 10 = 0,8, puisque le rendement excédentaire de 8 points de pourcentage est divisé par un écart-type de 10.
+
+**Q4.** Les stratégies qui affichent de solides rendements dans des conditions favorables peuvent cacher une fragilité liée à une prise de risque excessive qui apparaît pendant un ralentissement.
+
+**Q5.** Le principe de fond (le rendement doit être pesé par rapport au risque pris, et non regardé isolément) s'applique à toutes les catégories d'actifs, y compris l'immobilier et les actions.
+
+## Points clés
+- Le ratio de Sharpe mesure le rendement obtenu par unité de risque prise, par rapport à un taux sans risque.
+- Deux placements aux rendements bruts identiques peuvent avoir des ratios de Sharpe très différents si leur volatilité diffère.
+- Un ratio de Sharpe plus élevé indique une utilisation plus efficace du risque, mieux ajustée, pour générer du rendement.
+- Juger des stratégies uniquement selon leur rendement brut peut masquer une prise de risque cachée qui ne devient visible que lorsque les conditions deviennent défavorables.
+
+===== WHITE-L4-009
+TITLE: L'analyse de l'achat périodique par sommes fixes : pourquoi essayer de choisir le moment du marché est perdant
+SUMMARY: Découvrez comment investir un montant fixe à intervalles réguliers enlève le besoin de prédire le marché et pourquoi cette discipline aide à éviter les erreurs émotionnelles.
+KEYWORDS: achat périodique par sommes fixes, moyenne d'achat, moment du marché, discipline de placement, placement systématique
+# L'analyse de l'achat périodique par sommes fixes : pourquoi essayer de choisir le moment du marché est perdant
+
+## Mise en situation
+HYPOTHÈSE/OPINION (scénario hypothétique à des fins pédagogiques seulement) : Imaginez une perturbation de santé publique généralisée qui paralyse le transport maritime et la fabrication à l'échelle mondiale pendant une longue période, ce qui bloque les chaînes d'approvisionnement de nombreuses industries à la fois. Pendant que les marchés font des montagnes russes au cours d'une période de perturbation généralisée, beaucoup d'investisseurs figent, sans savoir s'ils devraient acheter à la baisse ou attendre un creux plus évident. Cette leçon explique pourquoi une approche disciplinée et mécanique tend à faire mieux que d'essayer de deviner le prochain mouvement du marché.
+
+## Objectifs d'apprentissage
+- Expliquer ce que signifie l'achat périodique par sommes fixes.
+- Expliquer pourquoi l'achat périodique par sommes fixes enlève le besoin de prédire la direction du marché à court terme.
+- Expliquer pourquoi choisir le moment du marché avec succès de façon constante s'est révélé très difficile, même pour les professionnels.
+- Repérer l'avantage émotionnel d'une approche de placement systématique pendant les périodes volatiles.
+
+## Contenu principal
+L'achat périodique par sommes fixes (en anglais, « dollar-cost averaging ») consiste à investir un montant d'argent fixe à intervalles réguliers (par exemple chaque mois), peu importe si le marché est en hausse ou en baisse à ce moment-là, plutôt que d'essayer d'investir une somme forfaitaire au « meilleur » moment. FAIT VÉRIFIÉ : mathématiquement, cette approche fait acheter plus de parts quand les prix sont bas et moins de parts quand les prix sont élevés, sans que l'investisseur ait besoin de prédire à l'avance lequel est lequel.
+
+Voici le « pourquoi » cette approche vaut mieux que d'essayer de choisir le moment du marché, en écho à l'analyse du moment du marché en immobilier (leçon 43 du parcours RED) : repérer les creux et les sommets du marché en temps réel est extrêmement difficile, et un grand ensemble de données de performance à long terme montre que la plupart des investisseurs, professionnels comme particuliers, qui tentent de choisir le moment du marché font moins bien que s'ils étaient simplement restés investis et avaient continué d'acheter régulièrement, en grande partie parce que les réactions émotionnelles (vendre en panique pendant une baisse comme celle du scénario ci-dessus, ou acheter dans l'euphorie pendant une remontée) tendent à jouer contre l'investisseur plutôt qu'en sa faveur.
+
+C'est pourquoi l'achat périodique par sommes fixes offre un vrai avantage comportemental, et pas seulement mathématique : il enlève la décision émotionnellement difficile de savoir s'il faut « investir maintenant ou attendre » à chaque achat, en la remplaçant par un calendrier discipliné, fixé d'avance, qui continue de fonctionner même pendant les périodes de peur ou d'euphorie, quand le jugement de l'investisseur risque le plus d'être faussé par l'émotion du moment.
+
+## Exemple pratique
+EXEMPLE ILLUSTRATIF : Un investisseur s'engage à investir 1 000 $ chaque mois, peu importe les conditions du marché. Pendant une forte baisse du marché, ces mêmes 1 000 $ achètent nettement plus de parts que le mois précédent, et quand le marché finit par se redresser, ces parts additionnelles achetées pendant la baisse contribuent de façon disproportionnée aux gains globaux de l'investisseur. C'est un avantage dont ne profite qu'un investisseur qui a continué d'acheter pendant la baisse plutôt que de suspendre ses contributions par peur, en attendant un « meilleur » moment qu'il est impossible de repérer à l'avance avec assurance.
+
+## Questionnaire pratique
+**Q1. Que signifie l'achat périodique par sommes fixes?**
+A) Investir une grosse somme forfaitaire seulement quand le marché semble à son point le plus bas
+B) Investir un montant fixe à intervalles réguliers, peu importe les conditions du marché
+C) N'investir que lorsqu'un conseiller financier confirme que le marché a touché le fond
+D) Vendre tous ses placements chaque fois que le marché baisse de plus de 10 %
+
+**Q2. Pourquoi l'achat périodique par sommes fixes fait-il mathématiquement acheter plus de parts quand les prix sont bas?**
+A) Un montant fixe en dollars achète plus de parts quand le prix par part est plus bas, et moins de parts quand le prix est plus élevé
+B) Cette approche exige toujours d'investir un nombre fixe de parts plutôt qu'un montant fixe en dollars
+C) Les prix n'ont aucune importance dans le nombre de parts qu'un montant fixe peut acheter
+D) Cette approche garantit que l'investisseur achètera toujours au creux exact du marché
+
+**Q3. Pourquoi choisir le moment du marché de façon constante s'est-il révélé difficile, même pour les investisseurs professionnels?**
+A) Choisir le moment du marché est facile pour tout le monde et réussit toujours aux professionnels
+B) Prédire avec exactitude, en temps réel, les sommets et les creux du marché à court terme est extrêmement difficile, et les réactions émotionnelles jouent souvent contre les investisseurs qui essaient
+C) La loi interdit aux investisseurs professionnels d'essayer de choisir le moment du marché
+D) Aucun investisseur professionnel n'a jamais essayé de choisir le moment du marché
+
+**Q4. Quel avantage comportemental l'achat périodique par sommes fixes offre-t-il au-delà de son effet mathématique?**
+A) Il enlève la décision émotionnellement difficile du moment d'investir, ce qui procure de la discipline pendant les périodes de peur ou d'euphorie
+B) Il garantit des rendements plus élevés que toute autre stratégie de placement, dans toutes les circonstances
+C) Il élimine le besoin de jamais examiner la performance des placements
+D) Il n'a aucun avantage comportemental au-delà de son effet mathématique
+
+**Q5. Dans l'exemple, pourquoi les parts achetées pendant la baisse du marché ont-elles contribué de façon disproportionnée aux gains finaux de l'investisseur?**
+A) Ces parts ont été achetées à un prix plus bas; la même remontée a donc produit un gain en pourcentage plus important sur ces parts précises
+B) Les parts achetées pendant une baisse valent toujours moins, même après une remontée
+C) L'investisseur a reçu une prime pour avoir investi pendant une baisse
+D) L'achat périodique par sommes fixes n'a aucun effet sur les parts qui performent le mieux
+
+## Corrigé
+Q1: B
+Q2: A
+Q3: B
+Q4: A
+Q5: A
+
+## Réponses et explications
+**Q1.** L'achat périodique par sommes fixes est une approche systématique qui repose sur des placements réguliers et constants, peu importe les mouvements du marché à court terme.
+
+**Q2.** Comme le montant en dollars est fixe, le nombre de parts achetées varie naturellement à l'inverse du prix par part.
+
+**Q3.** L'imprévisibilité inhérente des mouvements du marché à court terme, combinée aux biais émotionnels, rend rare la réussite constante à choisir le moment du marché, même chez les professionnels.
+
+**Q4.** En remplaçant chaque décision de moment par un calendrier fixé d'avance, cette approche aide les investisseurs à éviter les erreurs dictées par l'émotion pendant les périodes volatiles.
+
+**Q5.** Les parts achetées à des prix plus bas pendant la baisse avaient plus de marge pour prendre de la valeur pendant la remontée suivante, ce qui a augmenté leur contribution aux rendements globaux.
+
+## Points clés
+- L'achat périodique par sommes fixes consiste à investir un montant fixe à intervalles réguliers, peu importe les conditions du marché.
+- Mathématiquement, cette approche fait acheter plus de parts à bas prix et moins à prix élevé, sans exiger de prédire le marché.
+- Choisir le moment du marché de façon constante s'est révélé très difficile, même pour les investisseurs professionnels, à cause de l'imprévisibilité et des biais émotionnels.
+- Cette approche offre un vrai avantage comportemental en enlevant les décisions de moment émotionnellement difficiles pendant les périodes volatiles.
+
+===== WHITE-L4-010
+TITLE: L'analyse de la rotation sectorielle : pourquoi différents secteurs mènent à différentes étapes du cycle
+SUMMARY: Découvrez pourquoi les secteurs cycliques et défensifs de la Bourse performent différemment selon l'étape du cycle économique, et pourquoi ce modèle est une tendance et non une règle.
+KEYWORDS: rotation sectorielle, cycle économique, performance des secteurs, actions cycliques et défensives
+# L'analyse de la rotation sectorielle : pourquoi différents secteurs mènent à différentes étapes du cycle
+
+## Mise en situation
+HYPOTHÈSE/OPINION (scénario hypothétique à des fins pédagogiques seulement) : Imaginez une banque centrale qui relève son taux directeur fortement et à répétition en quelques mois pour combattre une inflation en hausse. Pendant qu'une banque centrale relève ses taux de façon agressive pour combattre l'inflation, certains secteurs de la Bourse commencent à faire nettement moins bien, alors que d'autres résistent beaucoup mieux. Cette leçon explique le modèle récurrent derrière cet écart.
+
+## Objectifs d'apprentissage
+- Expliquer la notion de rotation sectorielle au fil du cycle économique.
+- Distinguer les secteurs cycliques des secteurs défensifs.
+- Expliquer pourquoi certains secteurs tendent à mener pendant l'expansion économique et d'autres pendant la contraction.
+- Appliquer la notion de rotation sectorielle pour interpréter les conditions économiques actuelles.
+
+## Contenu principal
+La rotation sectorielle désigne la tendance de différents segments de la Bourse (comme la technologie, les services financiers, la consommation discrétionnaire, les services publics, la santé et la consommation de base) à faire mieux ou moins bien à différentes étapes du cycle économique. FAIT VÉRIFIÉ : les secteurs cycliques (comme la consommation discrétionnaire et les services financiers) tendent à être plus sensibles à la croissance économique et aux taux d'intérêt, alors que les secteurs défensifs (comme les services publics, la santé et la consommation de base) tendent à profiter d'une demande plus stable peu importe les conditions économiques, puisque les gens ont encore besoin d'électricité, de médicaments et de biens ménagers de base même pendant un ralentissement.
+
+Voici le « pourquoi » ce modèle revient d'un cycle à l'autre, ce qui rejoint l'analyse du cycle du marché immobilier vue plus tôt dans ce programme : pendant l'expansion économique, les investisseurs privilégient les secteurs cycliques, bien placés pour profiter de fortes dépenses de consommation et d'investissements des entreprises. Quand une banque centrale relève fortement ses taux pour combattre l'inflation (comme dans le scénario ci-dessus), les secteurs sensibles aux coûts d'emprunt et aux dépenses discrétionnaires des consommateurs, comme certaines sociétés technologiques et de consommation discrétionnaire, font souvent moins bien, alors que les secteurs défensifs, à la demande stable et moins sensible aux taux, tendent à résister relativement mieux.
+
+C'est pourquoi comprendre à peu près où se situe l'économie dans son cycle peut éclairer, sans jamais le garantir, le positionnement sectoriel d'un investisseur. HYPOTHÈSE/OPINION : les modèles de rotation sectorielle sont des tendances observées historiquement, et non des règles fixes, et des développements imprévus (comme une percée technologique majeure dans un secteur ou un changement réglementaire) peuvent l'emporter sur le modèle cyclique habituel au cours d'une période donnée.
+
+## Exemple pratique
+EXEMPLE ILLUSTRATIF : Pendant un cycle agressif de hausses des taux d'intérêt, un indice sectoriel à forte teneur technologique qui avait mené l'ensemble du marché pendant l'expansion précédente à taux bas baisse beaucoup plus que l'ensemble du marché, puisque bon nombre de ses sociétés dépendent d'attentes de croissance future qui valent moins à des taux d'actualisation plus élevés, et d'un emprunt bon marché pour financer leur expansion. Pendant ce temps, un indice du secteur des services publics, dont la demande et les flux de trésorerie sont beaucoup moins liés aux dépenses discrétionnaires ou aux attentes de croissance, baisse beaucoup moins au cours de la même période, ce qui illustre l'écart classique entre les secteurs cycliques et défensifs.
+
+## Questionnaire pratique
+**Q1. Qu'est-ce que la rotation sectorielle?**
+A) Le fait pour une société de changer de classement industriel
+B) La tendance de différents secteurs du marché à faire mieux ou moins bien à différentes étapes du cycle économique
+C) Une exigence réglementaire de diversifier les placements d'un fonds commun
+D) Une stratégie fiscale de réorganisation d'entreprise
+
+**Q2. Qu'est-ce qui distingue un secteur cyclique d'un secteur défensif?**
+A) Les secteurs cycliques sont plus sensibles à la croissance économique et aux taux d'intérêt, alors que les secteurs défensifs ont une demande plus stable peu importe les conditions économiques
+B) Il n'y a aucune différence importante entre les secteurs cycliques et défensifs
+C) Les secteurs défensifs n'existent que pendant les récessions
+D) Les secteurs cycliques font toujours mieux que les secteurs défensifs, à toutes les périodes
+
+**Q3. Pourquoi les secteurs de la technologie et de la consommation discrétionnaire pourraient-ils faire moins bien pendant un cycle agressif de hausses des taux?**
+A) Ces secteurs ne sont pas du tout touchés par les variations des taux d'intérêt
+B) Ils dépendent souvent d'attentes de croissance future et d'un emprunt moins coûteux, deux éléments qui deviennent moins favorables quand les taux montent
+C) Les hausses de taux avantagent toujours le plus les secteurs axés sur la croissance
+D) Ces secteurs n'ont aucun lien avec les variations des taux d'intérêt
+
+**Q4. Pourquoi les secteurs défensifs comme les services publics et la consommation de base tendent-ils à mieux résister pendant les ralentissements économiques?**
+A) La demande pour leurs biens et services reste relativement stable, puisque les gens en ont besoin peu importe les conditions économiques
+B) Les secteurs défensifs sont légalement protégés contre toute baisse de prix
+C) Ces secteurs n'ont aucune exposition à la Bourse
+D) Les secteurs défensifs font toujours mieux que les secteurs cycliques, peu importe l'étape du cycle économique
+
+**Q5. Pourquoi décrit-on la rotation sectorielle comme une tendance observée historiquement plutôt qu'une règle fixe?**
+A) La rotation sectorielle se produit toujours de façon identique dans chaque cycle économique, sans exception
+B) Des développements imprévus, comme une percée technologique majeure ou un changement réglementaire, peuvent l'emporter sur le modèle cyclique habituel au cours d'une période donnée
+C) La rotation sectorielle n'a jamais été réellement observée dans les données du marché
+D) Un seul secteur peut être touché par les changements du cycle économique
+
+## Corrigé
+Q1: B
+Q2: A
+Q3: B
+Q4: A
+Q5: B
+
+## Réponses et explications
+**Q1.** La rotation sectorielle décrit le modèle récurrent selon lequel le leadership passe d'un secteur du marché à l'autre à mesure que les conditions économiques changent.
+
+**Q2.** La distinction de fond tient à la sensibilité de la demande et de la rentabilité de chaque secteur au cycle économique général.
+
+**Q3.** Des taux plus élevés réduisent la valeur actuelle de la croissance future et augmentent les coûts d'emprunt, deux effets qui touchent particulièrement les secteurs cycliques axés sur la croissance.
+
+**Q4.** Une demande essentielle, moins discrétionnaire, pour les produits et services des secteurs défensifs procure une performance plus stable pendant les périodes de tension économique.
+
+**Q5.** Même si le modèle s'est répété historiquement, il n'est pas garanti, et des événements inhabituels peuvent perturber la relation habituelle entre les secteurs et le cycle économique.
+
+## Points clés
+- La rotation sectorielle décrit la tendance de différents secteurs du marché à mener ou à traîner à différentes étapes du cycle économique.
+- Les secteurs cycliques sont plus sensibles à la croissance et aux taux d'intérêt; les secteurs défensifs offrent une demande plus stable, moins dépendante du cycle.
+- Les cycles de hausses de taux tendent à faire plus pression sur les secteurs cycliques axés sur la croissance que sur les secteurs défensifs.
+- La rotation sectorielle est une tendance observée historiquement, et non une règle garantie, et des événements imprévus peuvent l'emporter sur le modèle habituel.

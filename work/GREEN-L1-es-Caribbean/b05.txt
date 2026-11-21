@@ -1,0 +1,559 @@
+===== GREEN-L1-036
+TITLE: Las implicaciones tributarias de vender una casa
+SUMMARY: Presenta las consideraciones tributarias generales que surgen al vender una residencia principal, en conexión con las lecciones sobre ganancias de capital.
+# Las implicaciones tributarias de vender una casa
+
+## Objetivos de aprendizaje
+
+- Conectar la venta de una casa con el concepto anterior de ganancia de capital.
+- Explicar por qué muchos sistemas ofrecen algún trato favorable a la residencia principal.
+- Reconocer la importancia de llevar el control de la base de una casa a lo largo del tiempo.
+
+## Contenido principal
+
+Vender una casa es, en el fondo, otro ejemplo del concepto de ganancia de capital visto antes: el precio de venta menos la base (aproximadamente, el precio de compra más ciertas mejoras que cualifican) es igual a la ganancia. Pero como la residencia principal es un evento de vida tan común e importante, y no una transacción de inversión pura, muchos sistemas tributarios ofrecen algún trato favorable —como excluir de impuestos una parte de la ganancia— específicamente para la residencia principal, distinto del trato que darían, por ejemplo, a una propiedad de inversión.
+
+Este es un buen ejemplo práctico de por qué importa llevar el control de su base a lo largo del tiempo. Si un dueño de casa hace mejoras importantes que cualifican con los años —una ampliación, una remodelación grande—, esos costos a menudo pueden aumentar la base, lo que reduce la ganancia tributable cuando finalmente se vende la casa. Sin registros de esas mejoras, el dueño puede terminar pagando más impuestos de lo necesario simplemente porque no puede documentar lo que realmente gastó.
+
+## Ejemplo práctico
+
+**Pregunta:** Un dueño de casa hace una ampliación importante al principio, pero nunca guarda registros de su costo. Años después vende la casa con una ganancia grande. ¿Qué podría costarle eso?
+
+**Estudiante:** Según esta lección, sin registros del costo de la ampliación, quizá no pueda aumentar su base, lo que podría significar pagar impuestos sobre una ganancia mayor de lo necesario.
+
+**Guía:** ¿Qué habría evitado este problema?
+
+**Estudiante:** Guardar los recibos y registros de los costos de la mejora a medida que ocurrieron, lo que se conecta con la lección anterior sobre llevar registros.
+
+**Guía:** Exactamente. Este es un ejemplo muy concreto y costoso de por qué importa ese hábito.
+
+## Prueba práctica
+
+**Pregunta 1.** Vender una casa es, en el fondo, un ejemplo de:
+
+A) El impuesto sobre las ventas
+B) El concepto de ganancia de capital: precio de venta menos base
+C) El impuesto sobre la nómina
+D) Un crédito contributivo
+
+**Pregunta 2.** ¿Por qué muchos sistemas podrían ofrecer un trato favorable específicamente a la residencia principal?
+
+A) Por ninguna razón real
+B) Se trata como un evento de vida común e importante, no como una inversión pura
+C) Las casas nunca se venden
+D) Solo las propiedades de inversión reciben un trato favorable
+
+**Pregunta 3.** Las mejoras al hogar que cualifican generalmente pueden:
+
+A) Disminuir la base de la casa
+B) Aumentar la base de la casa, lo que reduce después la ganancia tributable
+C) No tener ningún efecto sobre la base
+D) Importar solo en las propiedades de alquiler
+
+**Pregunta 4.** Sin registros de los costos de las mejoras, un dueño de casa se arriesga a:
+
+A) Nada
+B) Pagar más impuestos de lo necesario en la venta futura
+C) Un reintegro automático
+D) Perder la titularidad de la casa
+
+## Clave de respuestas
+
+1. B, 2. B, 3. B, 4. B
+
+## Respuestas y explicaciones
+
+**1.** La venta de una casa sigue el mismo cálculo básico de ganancia que la venta de cualquier otro bien de capital.
+
+**2.** La residencia principal a menudo recibe un trato distinto, que refleja su papel como necesidad de vida y no como un vehículo de inversión puro.
+
+**3.** Las mejoras que cualifican generalmente se suman a la base, lo que puede reducir de forma significativa la ganancia tributable al vender.
+
+**4.** La falta de documentación se traduce directamente en una ganancia tributable mayor y en una factura de impuestos innecesariamente más grande.
+
+## Puntos clave
+
+- Vender una casa sigue la misma lógica básica de ganancia de capital que la venta de otros bienes.
+- La residencia principal a menudo recibe algún trato tributario favorable.
+- Las mejoras que cualifican pueden aumentar la base y reducir después la ganancia tributable.
+- No llevar registros de las mejoras al hogar puede ser un error costoso y evitable.
+
+===== GREEN-L1-037
+TITLE: Lo básico del impuesto sobre donaciones y herencias
+SUMMARY: Presenta los conceptos generales de la tributación relacionada con las donaciones y las herencias, de forma amplia, dada la gran variación entre sistemas.
+# Lo básico del impuesto sobre donaciones y herencias
+
+## Objetivos de aprendizaje
+
+- Explicar el concepto general detrás de la tributación sobre las donaciones.
+- Explicar el concepto general detrás de la tributación sobre las herencias o el caudal relicto.
+- Reconocer que estas reglas varían enormemente y dependen mucho de la jurisdicción.
+
+## Contenido principal
+
+Algunos sistemas tributarios aplican reglas a las donaciones grandes que una persona hace en vida y a los bienes que se transfieren después de su muerte (lo que a menudo se llama tributación sobre las herencias o sobre el caudal relicto). La preocupación general que atienden los legisladores es la transferencia de riqueza por fuera del sistema de generación de ingresos: como una donación o una herencia no se «gana» en el sentido tradicional, plantea preguntas de política pública distintas a las de un cheque de pago.
+
+Esta es un área en la que generalizar demasiado sería engañoso: la existencia de estos impuestos, los umbrales a partir de los cuales aplican, quién los debe (el donante o el que recibe) y las tasas varían enormemente según el país, y muchos países no tienen ningún impuesto de este tipo, o lo aplican solo por encima de umbrales muy altos que afectan a un porcentaje pequeño de las transferencias. La lección práctica aquí no es una regla para memorizar, sino una señal de alerta: si usted es el donante, el que recibe o el heredero en una situación de donación o herencia realmente grande, ese es exactamente el tipo de caso que requiere orientación profesional en lugar de suposiciones.
+
+## Ejemplo práctico
+
+**Pregunta:** Una familia planea traspasar un negocio familiar grande a la siguiente generación. ¿Debería suponer que se le aplican las reglas tributarias que escuchó de un amigo en otro país?
+
+**Estudiante:** Según esta lección, definitivamente no: estas reglas varían enormemente según el país y la situación.
+
+**Guía:** ¿Cuál sería el siguiente paso responsable para esta familia?
+
+**Estudiante:** Buscar el consejo de un profesional cualificado que conozca las reglas específicas de su país, en lugar de depender de información de segunda mano de otro lugar.
+
+**Guía:** Exactamente. Este es un caso de manual para «ver a un profesional», según la analogía del médico vista antes en el currículo.
+
+## Prueba práctica
+
+**Pregunta 1.** Los impuestos relacionados con las donaciones y las herencias generalmente se refieren a:
+
+A) Los cheques de pago regulares
+B) Las transferencias de riqueza por fuera del sistema normal de generación de ingresos
+C) El impuesto sobre las ventas de alimentos
+D) La retención de la nómina
+
+**Pregunta 2.** ¿Aplican todos los países las mismas reglas sobre donaciones y herencias?
+
+A) Sí, de forma universal
+B) No: las reglas varían enormemente, y muchos países no tienen este impuesto o tienen umbrales muy altos
+C) Solo los países ricos tienen reglas
+D) Estos impuestos nunca han existido en ninguna parte
+
+**Pregunta 3.** La lección práctica de este tema es:
+
+A) Memorizar los umbrales específicos de un país
+B) Reconocer esto como una señal para buscar orientación profesional en situaciones reales
+C) Ignorar por completo las donaciones grandes
+D) Suponer que nunca se aplica ningún impuesto en ninguna parte
+
+**Pregunta 4.** ¿Con qué concepto anterior del currículo se conecta esta lección?
+
+A) La analogía del médico: consultar a un profesional en situaciones complejas
+B) Los bienes públicos
+C) El cobro del impuesto sobre las ventas
+D) Los tramos impositivos marginales
+
+## Clave de respuestas
+
+1. B, 2. B, 3. B, 4. A
+
+## Respuestas y explicaciones
+
+**1.** Estos impuestos generalmente apuntan a la riqueza que se mueve por fuera del marco típico del ingreso ganado.
+
+**2.** La enorme variación, incluidos muchos países sin ningún impuesto de este tipo, hace que las generalizaciones amplias no sean confiables aquí.
+
+**3.** La enseñanza duradera es reconocer cuándo una situación requiere ayuda experta, no memorizar reglas que tal vez ni siquiera apliquen.
+
+**4.** Esta es una aplicación directa y concreta de la lección anterior que comparaba la consulta sobre riesgos legales y tributarios con ir al médico.
+
+## Puntos clave
+
+- Los impuestos sobre donaciones y herencias se refieren a las transferencias de riqueza por fuera del ingreso ganado normal.
+- Las reglas varían enormemente según el país: muchos no los tienen, o los aplican solo por encima de umbrales altos.
+- La lección clave es reconocer cuándo buscar orientación profesional, no memorizar reglas específicas.
+- Las situaciones de donación o herencia grandes o complejas son un caso claro para consultar a un profesional.
+
+===== GREEN-L1-038
+TITLE: Los impuestos selectivos al consumo («impuestos al pecado»)
+SUMMARY: Presenta los impuestos selectivos al consumo, a menudo llamados «impuestos al pecado» cuando se aplican a bienes específicos como el alcohol o el tabaco, como una categoría tributaria distinta impulsada por la política pública.
+# Los impuestos selectivos al consumo («impuestos al pecado»)
+
+## Objetivos de aprendizaje
+
+- Definir un impuesto selectivo al consumo.
+- Explicar el término «impuesto al pecado» y el razonamiento de política pública que lo sostiene.
+- Distinguir los impuestos selectivos al consumo del impuesto general sobre las ventas.
+
+## Contenido principal
+
+Un impuesto selectivo al consumo (en inglés, *excise tax*; también llamado arbitrio en algunos lugares) es un impuesto que se aplica a un bien o actividad específicos, en lugar de a las compras en general, como hace un impuesto amplio sobre las ventas. Cuando un impuesto selectivo apunta a un bien que se considera dañino en exceso —el alcohol, el tabaco y a veces las bebidas azucaradas son ejemplos comunes—, a menudo se le llama de manera informal «impuesto al pecado». (En la República Dominicana, por ejemplo, existe el Impuesto Selectivo al Consumo sobre bienes como el alcohol y el tabaco; en Puerto Rico se cobran arbitrios sobre ciertos productos.)
+
+El razonamiento de política pública detrás de los impuestos al pecado suele tener dos partes: recaudar dinero y desalentar el consumo del bien gravado haciéndolo más caro. A diferencia del impuesto general sobre las ventas, que se aplica de forma amplia y neutral a la mayoría de las compras, los impuestos selectivos son deliberadamente estrechos y focalizados, y reflejan un juicio de política pública específico sobre ese bien o actividad en particular. Si los impuestos al pecado realmente reducen el consumo de forma eficaz, y si recaen de manera desproporcionada sobre los consumidores de menores ingresos, son preguntas genuinamente debatidas y no hechos establecidos.
+
+## Ejemplo práctico
+
+**Pregunta:** Un gobierno añade un impuesto adicional específicamente a los refrescos azucarados, además del impuesto regular sobre las ventas que se aplica a todas las compras al detal. ¿Qué tipo de impuesto es el cargo adicional a los refrescos?
+
+**Estudiante:** Según esta lección, parece un impuesto selectivo al consumo, porque apunta específicamente a un producto y no a las compras en general.
+
+**Guía:** ¿Cuál es el doble propósito probable detrás de ese tipo de impuesto focalizado?
+
+**Estudiante:** Recaudar dinero y también desalentar el consumo de refrescos haciéndolos más caros.
+
+**Guía:** Exactamente. Y vale la pena notar que ambos efectos, y su justicia, se debaten genuinamente.
+
+## Prueba práctica
+
+**Pregunta 1.** Un impuesto selectivo al consumo se describe mejor como:
+
+A) Un impuesto amplio sobre todas las compras
+B) Un impuesto focalizado en un bien o actividad específicos
+C) Lo mismo que el impuesto sobre la renta
+D) Un tipo de impuesto sobre la propiedad
+
+**Pregunta 2.** Un «impuesto al pecado» es:
+
+A) Algo ajeno a los impuestos selectivos al consumo
+B) Un término informal para un impuesto selectivo sobre bienes que se consideran dañinos en exceso
+C) Un impuesto solo sobre el ingreso
+D) Un tipo de crédito contributivo
+
+**Pregunta 3.** El doble propósito típico detrás de los impuestos al pecado es:
+
+A) Ningún propósito
+B) Recaudar dinero y desalentar el consumo
+C) Solo desalentar el consumo, nunca recaudar
+D) Solo recaudar, sin ningún objetivo de conducta
+
+**Pregunta 4.** ¿Es la eficacia y la justicia de los impuestos al pecado una cuestión resuelta?
+
+A) Sí, hay acuerdo universal
+B) No: es una cuestión de política pública genuinamente debatida
+C) Solo se debate en un país
+D) Nunca se ha discutido
+
+## Clave de respuestas
+
+1. B, 2. B, 3. B, 4. B
+
+## Respuestas y explicaciones
+
+**1.** Los impuestos selectivos se enfocan en un producto o actividad específicos en lugar de aplicarse de forma amplia.
+
+**2.** La etiqueta de «impuesto al pecado» refleja que el bien gravado se considera dañino en exceso, como el alcohol o el tabaco.
+
+**3.** La recaudación y el desaliento de una conducta son los dos objetivos que se mencionan comúnmente detrás de estos impuestos focalizados.
+
+**4.** Hay personas razonables que no están de acuerdo sobre qué tan bien funcionan los impuestos al pecado y quién soporta realmente su carga.
+
+## Puntos clave
+
+- Los impuestos selectivos al consumo apuntan a bienes o actividades específicos, a diferencia del impuesto general y amplio sobre las ventas.
+- «Impuesto al pecado» es un término informal para los impuestos selectivos sobre bienes que se consideran dañinos en exceso.
+- Los objetivos típicos son recaudar y desalentar el consumo.
+- La eficacia y la justicia de los impuestos al pecado siguen siendo genuinamente debatidas.
+
+===== GREEN-L1-039
+TITLE: Los aranceles: impuestos sobre los bienes importados
+SUMMARY: Presenta los aranceles como un impuesto sobre los bienes que cruzan una frontera, en conexión con la política comercial a un nivel conceptual básico.
+# Los aranceles: impuestos sobre los bienes importados
+
+## Objetivos de aprendizaje
+
+- Definir un arancel.
+- Explicar quién suele terminar soportando el costo de un arancel.
+- Reconocer los aranceles como una herramienta de recaudación y también de política comercial.
+
+## Contenido principal
+
+Un arancel es un impuesto que se aplica a los bienes cuando se importan a un país desde el extranjero. A diferencia del impuesto sobre las ventas, que se aplica a las compras en general, o del impuesto selectivo al consumo, que apunta a bienes específicos sin importar su origen, un arancel apunta específicamente a los bienes que cruzan una frontera para entrar al país.
+
+Los aranceles tienen dos propósitos que se mencionan comúnmente: generar ingresos para el gobierno y proteger las industrias nacionales haciendo que los bienes importados sean más caros en comparación con las alternativas producidas en el país. Un punto importante que a menudo se pasa por alto es que, aunque técnicamente el arancel se le cobra a la empresa que importa, el costo adicional con frecuencia se traslada a los consumidores mediante precios más altos; es decir, las personas que pagan más en la caja pueden estar muy lejos de cualquier conversación sobre política comercial. Si un arancel determinado realmente ayuda o perjudica a la economía general de un país es una pregunta muy debatida en la economía, con balances reales en ambos lados.
+
+## Ejemplo práctico
+
+**Pregunta:** Un país añade un arancel al acero importado para proteger a sus fabricantes nacionales de acero. ¿Quién probablemente terminará sintiendo el costo de ese arancel?
+
+**Estudiante:** Según esta lección, técnicamente se les cobra a las empresas que importan, pero el costo a menudo se traslada a los consumidores mediante precios más altos.
+
+**Guía:** Entonces, ¿quién podría terminar pagando más, aunque nunca trate directamente con importaciones de acero?
+
+**Estudiante:** Los consumidores que compran productos hechos con ese acero —carros, enseres, construcción— podrían ver precios más altos, aunque el arancel en sí se le cobró a una empresa.
+
+**Guía:** Exactamente. Los aranceles tienen efectos en cadena que van mucho más allá de las empresas a las que se grava directamente.
+
+## Prueba práctica
+
+**Pregunta 1.** Un arancel es un impuesto que se aplica a:
+
+A) Todas las compras nacionales
+B) Los bienes que se importan a un país desde el extranjero
+C) Solo los servicios, nunca los bienes
+D) El ingreso de inversiones
+
+**Pregunta 2.** Los aranceles se usan comúnmente para:
+
+A) Generar ingresos y proteger las industrias nacionales
+B) Eliminar todo el comercio
+C) Beneficiar solo a las empresas extranjeras
+D) Reducir los precios nacionales
+
+**Pregunta 3.** ¿Quién suele terminar soportando el costo real de un arancel, aunque se les cobre a los importadores?
+
+A) Nadie: los aranceles no tienen ningún costo posterior
+B) Los consumidores, mediante precios más altos
+C) Solo los gobiernos extranjeros
+D) Solo la empresa que importa, sin traslado alguno
+
+**Pregunta 4.** ¿Es el efecto económico general de los aranceles una cuestión resuelta?
+
+A) Sí, siempre son beneficiosos
+B) Sí, siempre son perjudiciales
+C) No: es una pregunta muy debatida, con balances reales
+D) Los aranceles no tienen ningún efecto económico
+
+## Clave de respuestas
+
+1. B, 2. A, 3. B, 4. C
+
+## Respuestas y explicaciones
+
+**1.** Los aranceles están vinculados específicamente al acto de importar bienes a través de una frontera, lo que los distingue de los impuestos más amplios.
+
+**2.** La generación de ingresos y la protección de la industria nacional son los dos propósitos que se mencionan con mayor frecuencia para los aranceles.
+
+**3.** El traslado del costo hace que la carga práctica a menudo recaiga sobre los consumidores comunes, y no solo sobre las empresas gravadas directamente.
+
+**4.** Los economistas genuinamente no se ponen de acuerdo sobre los efectos netos de los aranceles, que implican balances reales entre distintos grupos.
+
+## Puntos clave
+
+- Los aranceles gravan los bienes que se importan a través de una frontera.
+- Se usan comúnmente para recaudar y proteger las industrias nacionales.
+- El costo real a menudo se traslada a los consumidores, aunque los aranceles se les cobren a los importadores.
+- El impacto económico general de los aranceles es una cuestión genuinamente debatida.
+
+===== GREEN-L1-040
+TITLE: Los impuestos corporativos: cómo tributan los negocios
+SUMMARY: Presenta el concepto general de la corporación como una entidad tributable separada de sus dueños.
+# Los impuestos corporativos: cómo tributan los negocios
+
+## Objetivos de aprendizaje
+
+- Explicar el concepto de la corporación como una entidad tributable distinta.
+- Distinguir el impuesto a nivel corporativo del impuesto que deben los dueños de la corporación.
+- Preparar el concepto de doble tributación, tema de la próxima lección.
+
+## Contenido principal
+
+En muchos sistemas legales y tributarios, una corporación se trata como su propia entidad legal distinta, separada de las personas que son sus dueñas. Una consecuencia de esto es que la corporación misma puede estar sujeta al impuesto sobre la renta por sus ganancias, independientemente de cualquier impuesto que los dueños de la corporación (los accionistas) puedan deber por separado.
+
+Esta es una estructura significativamente distinta de la de un negocio individual (propietario único), en el que el negocio y el dueño son la misma entidad para efectos tributarios, y la ganancia del negocio simplemente pasa a la planilla personal del dueño. Una corporación, en cambio, primero presenta y paga impuestos sobre su propia ganancia, como contribuyente independiente. Esto prepara un concepto importante que se verá en la próxima lección: lo que pasa cuando esa misma ganancia se distribuye después a los accionistas, quienes pueden entonces deber su propio impuesto sobre ella, una situación conocida como doble tributación.
+
+## Ejemplo práctico
+
+**Pregunta:** Un amigo no entiende por qué una corporación pagaría sus propios impuestos, separados de los de las personas que son sus dueñas. ¿Cómo se lo explicaría?
+
+**Estudiante:** Según esta lección, la corporación se trata como su propia entidad legal separada, distinta de sus dueños.
+
+**Guía:** ¿En qué se diferencia eso de un negocio individual?
+
+**Estudiante:** En un negocio individual, el negocio y el dueño son lo mismo para efectos tributarios, así que la ganancia pasa directamente a la planilla personal del dueño. La corporación tributa por separado, como su propio contribuyente.
+
+**Guía:** Exactamente. Y esa separación es justo lo que prepara el tema de la doble tributación, que veremos a continuación.
+
+## Prueba práctica
+
+**Pregunta 1.** Una corporación generalmente se trata como:
+
+A) La misma entidad que sus dueños
+B) Una entidad legal distinta, separada de sus dueños
+C) Una entidad que no tributa en absoluto
+D) Algo relevante solo fuera del sistema tributario
+
+**Pregunta 2.** Las ganancias de una corporación pueden estar sujetas a:
+
+A) Ningún impuesto
+B) El impuesto sobre la renta a nivel corporativo, independiente del impuesto propio de los dueños
+C) Solo el impuesto sobre las ventas
+D) Solo el impuesto sobre la nómina
+
+**Pregunta 3.** ¿En qué se diferencia un negocio individual de una corporación para efectos tributarios?
+
+A) No hay ninguna diferencia
+B) En un negocio individual, la ganancia pasa directamente a la planilla personal del dueño; la corporación tributa primero por separado
+C) Los negocios individuales también pagan el impuesto corporativo
+D) Las corporaciones nunca pagan impuestos
+
+**Pregunta 4.** ¿Qué concepto próximo prepara esta lección?
+
+A) El impuesto sobre las ventas
+B) La doble tributación
+C) El impuesto sobre la propiedad
+D) La retención de la nómina
+
+## Clave de respuestas
+
+1. B, 2. B, 3. B, 4. B
+
+## Respuestas y explicaciones
+
+**1.** La separación legal entre una corporación y sus dueños es el concepto fundamental detrás de la tributación a nivel corporativo.
+
+**2.** El impuesto corporativo sobre la renta se aplica a las propias ganancias de la entidad, por separado de cualquier impuesto que los dueños deban personalmente.
+
+**3.** Los negocios individuales funden el negocio y al dueño en un solo contribuyente; las corporaciones no.
+
+**4.** Esta separación estructural es exactamente lo que crea el tema de la doble tributación que se explora en la próxima lección.
+
+## Puntos clave
+
+- Una corporación generalmente se trata como una entidad legal distinta de sus dueños.
+- Eso significa que una corporación puede deber su propio impuesto sobre la renta, separado del de sus dueños.
+- Esto se diferencia de un negocio individual, en el que la ganancia pasa directamente a la planilla personal del dueño.
+- Esta estructura prepara el concepto de doble tributación, que se verá a continuación.
+
+===== GREEN-L1-041
+TITLE: La doble tributación: lo que significa para las corporaciones
+SUMMARY: Explica el concepto de doble tributación —la ganancia que tributa una vez a nivel corporativo y otra vez cuando se distribuye a los accionistas— a partir de la lección anterior.
+# La doble tributación: lo que significa para las corporaciones
+
+## Objetivos de aprendizaje
+
+- Definir la doble tributación en el contexto corporativo.
+- Seguir los dos momentos en que la misma ganancia puede tributar.
+- Reconocer por qué la elección de la estructura del negocio, que se verá pronto, importa en parte por este tema.
+
+## Contenido principal
+
+A partir de la lección anterior: como una corporación tributa como su propia entidad, su ganancia puede tributar dos veces: una vez a nivel corporativo, cuando la propia corporación informa y paga impuestos sobre su ganancia, y otra vez a nivel de los accionistas, si esa ganancia se distribuye a los accionistas (comúnmente como dividendos) y cuando se distribuye, y esos accionistas deben su propio impuesto sobre la cantidad recibida.
+
+Eso es lo que se quiere decir con «doble tributación» en el contexto corporativo: el mismo dólar de ganancia tributa una vez dentro de la corporación y posiblemente otra vez en manos de la persona que finalmente lo recibe. No todas las estructuras de negocio funcionan así: algunas, que se verán en una próxima lección, están diseñadas específicamente para que la ganancia pase a los dueños sin esta tributación en dos capas. Entender la doble tributación es una de las razones clave por las que la estructura del negocio no es una simple formalidad legal: puede tener un costo tributario real y continuo según la estructura que elija el negocio.
+
+## Ejemplo práctico
+
+**Pregunta:** Una corporación obtiene $100,000 de ganancia, paga el impuesto corporativo y después distribuye lo que queda a sus accionistas como dividendos. ¿Termina ahí la historia, en términos tributarios?
+
+**Estudiante:** Según esta lección, no: los accionistas probablemente deben su propio impuesto sobre los dividendos que reciben.
+
+**Guía:** Entonces, ¿cuántas veces tocó el impuesto, en la práctica, esa ganancia original de $100,000?
+
+**Estudiante:** Dos veces: una a nivel corporativo, cuando la corporación pagó impuestos sobre su ganancia, y otra a nivel de los accionistas, cuando recibieron el dividendo y tributaron por él.
+
+**Guía:** Exactamente. Ese es, en resumen, el patrón de la doble tributación.
+
+## Prueba práctica
+
+**Pregunta 1.** La doble tributación se refiere a:
+
+A) Pagar dos veces el impuesto sobre las ventas en una misma compra
+B) Que la misma ganancia corporativa tribute tanto a nivel corporativo como a nivel de los accionistas
+C) Un tipo de crédito contributivo
+D) Presentar dos planillas por error
+
+**Pregunta 2.** La primera capa de tributación en este patrón ocurre:
+
+A) A nivel de los accionistas
+B) A nivel corporativo, sobre la propia ganancia de la corporación
+C) Solo a nivel del gobierno
+D) Nunca
+
+**Pregunta 3.** La segunda capa de tributación ocurre:
+
+A) Nunca
+B) Cuando la ganancia distribuida (como los dividendos) vuelve a tributar en manos del accionista
+C) Solo en los negocios individuales
+D) Solo si la corporación pierde dinero
+
+**Pregunta 4.** ¿Todas las estructuras de negocio implican doble tributación?
+
+A) Sí, todas
+B) No: algunas estructuras están diseñadas para evitar este patrón de dos capas, como se verá en una próxima lección
+C) Solo los negocios individuales
+D) La doble tributación en realidad no existe
+
+## Clave de respuestas
+
+1. B, 2. B, 3. B, 4. B
+
+## Respuestas y explicaciones
+
+**1.** La doble tributación describe específicamente la tributación en dos capas de la misma ganancia corporativa de fondo.
+
+**2.** La propia corporación es el primer contribuyente: debe impuestos sobre su propia ganancia antes de distribuir nada.
+
+**3.** El accionista se convierte en un segundo contribuyente sobre esa misma ganancia original una vez que se distribuye y la recibe.
+
+**4.** Existen estructuras alternativas diseñadas específicamente para evitar este patrón, que aquí se anticipa y se verá a continuación.
+
+## Puntos clave
+
+- La doble tributación significa que la misma ganancia corporativa puede tributar a nivel corporativo y a nivel de los accionistas.
+- La corporación paga primero impuestos sobre su propia ganancia.
+- Los accionistas pueden deber impuestos adicionales cuando esa ganancia se les distribuye después.
+- Esta es una razón clave por la que la elección de la estructura del negocio tiene consecuencias tributarias reales y continuas.
+
+===== GREEN-L1-042
+TITLE: Las entidades de paso: LLC, corporaciones S y negocios individuales
+SUMMARY: Presenta el concepto general de la tributación de paso como alternativa al patrón de doble tributación de las corporaciones regulares.
+# Las entidades de paso: LLC, corporaciones S y negocios individuales
+
+## Objetivos de aprendizaje
+
+- Definir una entidad de paso en términos generales.
+- Explicar cómo la tributación de paso evita el patrón de la doble tributación.
+- Reconocer ejemplos comunes de estructuras de paso sin tratar sus nombres como universales.
+
+## Contenido principal
+
+Una entidad de paso (en inglés, *pass-through entity*) es una estructura de negocio en la que la ganancia no tributa en absoluto a nivel del negocio: en cambio, «pasa» directamente a los dueños, quienes la informan y pagan impuestos sobre ella en sus propias planillas personales, generalmente una sola vez. Esto evita directamente el patrón de doble tributación de la lección anterior, porque para empezar no existe una capa de impuesto separada a nivel corporativo.
+
+Entre los ejemplos comunes de estructuras que a menudo se organizan para tributar como entidades de paso están los negocios individuales (el caso más sencillo: no hay ninguna capa de impuesto separada para el negocio) y, en muchos sistemas, ciertas compañías de responsabilidad limitada (LLC) o estructuras corporativas con una elección especial (que en el sistema de los Estados Unidos suelen llamarse «corporaciones S», aunque existen conceptos equivalentes en otros lugares con otros nombres). (En Puerto Rico, por ejemplo, el código tributario local permite que ciertas entidades elijan tributar como sociedades o como corporaciones de individuos.) Las reglas legales y tributarias específicas para cualificar como entidad de paso varían según el país e implican balances reales más allá de evitar la doble tributación, y precisamente por eso la elección de la estructura del negocio, que se verá a continuación, merece una reflexión cuidadosa en lugar de una elección por defecto.
+
+## Ejemplo práctico
+
+**Pregunta:** La dueña de un pequeño negocio quiere evitar el patrón de doble tributación que se aplica a las corporaciones regulares. ¿Qué categoría general de estructura de negocio podría investigar?
+
+**Estudiante:** Según esta lección, probablemente le convenga investigar las estructuras de paso, porque evitan una capa de impuesto separada a nivel del negocio.
+
+**Guía:** ¿Cuál es el balance? ¿Es evitar la doble tributación siempre lo único que hay que considerar al elegir una estructura?
+
+**Estudiante:** No: la lección menciona que hay otros balances reales además de la capa de impuesto, así que vale la pena mirar el panorama completo y no solo este tema.
+
+**Guía:** Exactamente. Por eso la próxima lección examina más a fondo la elección de la estructura del negocio.
+
+## Prueba práctica
+
+**Pregunta 1.** Una entidad de paso es aquella en la que la ganancia:
+
+A) Tributa dos veces, a nivel del negocio y del dueño
+B) No tributa a nivel del negocio y pasa directamente a las planillas personales de los dueños
+C) Nunca tributa
+D) Solo tributa si el negocio fracasa
+
+**Pregunta 2.** La tributación de paso atiende directamente, ¿qué concepto anterior?
+
+A) El cobro del impuesto sobre las ventas
+B) La doble tributación
+C) Los aranceles
+D) La retención de la nómina
+
+**Pregunta 3.** En esta lección, el negocio individual se describe como:
+
+A) Siempre sujeto a doble tributación
+B) El caso de paso más sencillo, sin una capa de impuesto separada para el negocio
+C) Ilegal en la mayoría de los países
+D) Lo mismo que una corporación
+
+**Pregunta 4.** ¿Es evitar la doble tributación lo único que hay que considerar al elegir una estructura de negocio?
+
+A) Sí, es lo único
+B) No: hay otros balances reales que sopesar
+C) La estructura del negocio no importa
+D) Solo importan los impuestos, nada más
+
+## Clave de respuestas
+
+1. B, 2. B, 3. B, 4. B
+
+## Respuestas y explicaciones
+
+**1.** Las estructuras de paso se saltan por completo el impuesto separado a nivel del negocio y envían la ganancia directamente a la planilla propia del dueño.
+
+**2.** Esta estructura existe específicamente como alternativa al patrón de tributación en dos capas descrito en la lección anterior.
+
+**3.** El negocio individual es el ejemplo más claro, porque el negocio y el dueño ya se tratan como un solo contribuyente.
+
+**4.** La elección de la estructura implica varios balances —la protección de responsabilidad, la complejidad y más—, no solo la cuestión tributaria.
+
+## Puntos clave
+
+- Las entidades de paso evitan el impuesto a nivel del negocio y envían la ganancia directamente a las planillas personales de los dueños.
+- Son la alternativa directa al patrón de doble tributación de las corporaciones regulares.
+- El negocio individual es el ejemplo de paso más sencillo; ciertas LLC y estructuras con elección especial también pueden cualificar.
+- Elegir una estructura de negocio implica balances que van más allá de este tema tributario.

@@ -1,0 +1,370 @@
+===== PURPLE-L2-021
+TITLE: Les marques de commerce : protéger l'identité d'une marque
+SUMMARY: Comprends comment naissent les droits sur une marque de commerce, ce qu'apporte l'enregistrement et pourquoi un nom inventé est généralement plus facile à protéger qu'un nom descriptif.
+## PURPLE-L2-021
+### Les marques de commerce : protéger l'identité d'une marque
+
+**1. Objectifs d'apprentissage**
+À la fin de cette leçon, tu pourras :
+- Expliquer le processus général et le but de la protection des marques de commerce.
+- Distinguer les droits de marque issus de l'usage (*common law*) des droits de marque enregistrée.
+- Nommer les facteurs généraux qui influencent la force d'une marque de commerce.
+
+**2. Contenu principal**
+Dans la suite du survol de la leçon 20, cette leçon examine les marques de commerce plus en profondeur. Dans bien des juridictions, y compris aux États-Unis, certains droits de marque peuvent naître simplement de l'utilisation d'une marque dans le commerce (droits de marque issus de l'usage, ou de *common law*), généralement limités géographiquement aux endroits où la marque a réellement été utilisée. L'enregistrement officiel auprès de l'organisme gouvernemental compétent (comme l'Office américain des brevets et des marques de commerce) peut offrir une protection plus large, à l'échelle nationale, et d'autres avantages juridiques, comme une présomption légale de propriété et l'accès à certains recours d'exécution qui ne seraient pas autrement disponibles.
+
+La force d'une marque de commerce varie généralement selon son caractère distinctif : les termes inventés et très distinctifs (parfois appelés marques « fantaisistes ») reçoivent généralement la protection la plus forte, alors que les termes descriptifs, qui décrivent directement le produit ou le service, reçoivent généralement une protection plus faible. Les termes devenus complètement génériques pour une catégorie de produits (qui ont perdu toute valeur de marque) ne peuvent généralement pas être protégés comme marques de commerce — un risque important, parfois oublié, si un nom de marque connaît tellement de succès que le public commence à l'utiliser comme un terme générique.
+
+**3. Exemple pratique**
+En lançant une nouvelle marque de boisson, une fondatrice hésite entre deux noms possibles : l'un décrit très directement le profil de saveur du produit, l'autre est entièrement inventé, sans signification préalable. Son avocate en marques de commerce lui explique que le nom inventé recevrait probablement une protection de marque beaucoup plus forte et plus facile à défendre que le nom descriptif, puisque les termes descriptifs sont faibles par nature et plus difficiles à protéger contre des utilisations semblables par des concurrents. Elle choisit le nom inventé et l'enregistre officiellement, ce qui lui donne une protection plus large que si elle s'était fiée uniquement aux droits issus de l'usage.
+
+**4. Quiz de pratique**
+1. Qu'est-ce que l'enregistrement officiel d'une marque peut offrir, au-delà des droits issus de l'usage seulement?
+   a) Aucun avantage supplémentaire
+   b) Une protection plus large, souvent nationale, et d'autres avantages juridiques comme une présomption de propriété
+   c) Une protection mondiale automatique sans autre démarche
+   d) Une protection pour les œuvres créatives écrites
+2. Qu'arrive-t-il généralement à la force d'une marque à mesure qu'un terme devient plus descriptif du produit?
+   a) Sa force augmente généralement
+   b) Sa force diminue généralement, puisque les termes descriptifs sont faibles par nature
+   c) Les termes descriptifs ne peuvent jamais être des marques de commerce
+   d) Le caractère descriptif n'a aucun effet sur la force d'une marque
+3. Vrai ou faux : Un nom de marque qui connaît beaucoup de succès ne peut jamais perdre sa protection, peu importe comment le public l'utilise.
+4. Pourquoi la fondatrice a-t-elle choisi le nom inventé plutôt que le nom descriptif pour sa marque de boisson?
+   a) Les noms inventés coûtent toujours moins cher à enregistrer
+   b) Le nom inventé recevrait probablement une protection plus forte et plus facile à défendre
+   c) Les noms descriptifs sont illégaux
+   d) Elle n'avait aucune préférence entre les deux options
+
+**5. Corrigé**
+1. b  2. b  3. Faux  4. b
+
+**6. Réponses et explications**
+1. L'enregistrement officiel peut offrir une protection plus large et des avantages juridiques au-delà des droits issus de l'usage seulement.
+2. Les termes plus descriptifs reçoivent généralement une protection plus faible que les termes inventés et très distinctifs.
+3. Une marque peut perdre sa protection si elle devient complètement générique à cause d'un usage générique répandu dans le public, un risque appelé « dégénérescence » de la marque.
+4. Le nom inventé de la fondatrice offrait une protection plus forte et plus facile à défendre qu'une option plus descriptive.
+
+**7. Points clés à retenir**
+- Les droits de marque peuvent naître de l'usage ou de l'enregistrement officiel, qui offre une protection plus large.
+- La force d'une marque est généralement liée à son caractère distinctif : les termes inventés sont les plus forts, les termes descriptifs, plus faibles.
+- Une marque peut perdre complètement sa protection si elle devient générique à cause d'un usage répandu dans le public.
+- Choisir dès le départ un nom de marque distinctif favorise une protection plus forte et plus facile à défendre.
+
+===== PURPLE-L2-022
+TITLE: Le droit d'auteur : protéger les œuvres créatives et écrites
+SUMMARY: Comprends quand naît le droit d'auteur, ce qu'apporte l'enregistrement et pourquoi il protège l'expression précise d'une idée, et non l'idée elle-même.
+## PURPLE-L2-022
+### Le droit d'auteur : protéger les œuvres créatives et écrites
+
+**1. Objectifs d'apprentissage**
+À la fin de cette leçon, tu pourras :
+- Expliquer quand la protection du droit d'auteur naît généralement.
+- Nommer les avantages généraux de l'enregistrement officiel du droit d'auteur.
+- Distinguer la protection du droit d'auteur de celle des brevets et des marques de commerce.
+
+**2. Contenu principal**
+Dans bien des juridictions, y compris aux États-Unis, la protection du droit d'auteur naît généralement automatiquement dès qu'une œuvre créative originale est fixée sur un support tangible (écrite, enregistrée, sauvegardée dans un fichier); aucun enregistrement n'est nécessaire pour que la protection existe techniquement. Par contre, l'enregistrement officiel auprès de l'organisme gouvernemental compétent (comme le Bureau américain du droit d'auteur) offre généralement d'importants avantages pratiques, notamment l'accès à certains types de recours d'exécution (comme des dommages-intérêts préétablis par la loi et le remboursement des honoraires d'avocat dans certaines juridictions) qui pourraient ne pas être offerts pour les œuvres non enregistrées, même si le droit d'auteur sous-jacent existait automatiquement dès la création.
+
+Le droit d'auteur protège l'expression précise d'une idée (les mots, les images ou le code réels), et non l'idée sous-jacente elle-même, ce qui fait écho à la distinction de la leçon 20 : le domaine du droit d'auteur (l'expression créative) est vraiment différent de ce que protège un brevet (les inventions fonctionnelles) ou une marque de commerce (les signes distinctifs d'une marque). Quelqu'un peut donc écrire un livre entièrement original sur une idée ou un thème général semblable à celui d'un livre existant sans violer le droit d'auteur de ce livre, puisque l'idée sous-jacente n'est pas protégée, seulement son expression précise.
+
+**3. Exemple pratique**
+Après avoir écrit un roman original, une autrice détient techniquement un droit d'auteur automatique dès le moment où le manuscrit est terminé et sauvegardé, sans enregistrement nécessaire. Son éditeur lui recommande quand même d'enregistrer officiellement le droit d'auteur avant la publication, puisque l'enregistrement lui donnerait accès à des recours d'exécution plus forts si son expression écrite précise était un jour violée par quelqu'un qui copierait son texte réel — contrairement à un autre auteur qui écrirait un roman différent explorant un thème ou un genre largement semblable, ce qui ne violerait pas du tout son droit d'auteur, puisque le droit d'auteur protège son expression précise, et non l'idée générale sous-jacente.
+
+**4. Quiz de pratique**
+1. Dans bien des juridictions, y compris aux États-Unis, quand la protection du droit d'auteur naît-elle généralement?
+   a) Seulement après un enregistrement gouvernemental officiel
+   b) Automatiquement, dès qu'une œuvre originale est fixée sur un support tangible
+   c) Seulement après la publication commerciale de l'œuvre
+   d) La protection du droit d'auteur n'existe automatiquement nulle part
+2. Que protège généralement le droit d'auteur?
+   a) L'idée générale sous-jacente elle-même
+   b) L'expression précise d'une idée, comme les mots, les images ou le code réels
+   c) Les noms de marque et les logos
+   d) Les inventions fonctionnelles
+3. Vrai ou faux : Quelqu'un qui écrit un livre original sur un thème général semblable à celui d'un livre existant viole toujours le droit d'auteur de ce livre.
+4. Pourquoi l'éditeur de l'autrice a-t-il recommandé un enregistrement officiel du droit d'auteur, même si la protection existait déjà automatiquement?
+   a) L'enregistrement était complètement inutile
+   b) L'enregistrement lui donnerait accès à des recours d'exécution plus forts si son expression précise était violée
+   c) La protection automatique du droit d'auteur n'existe pas vraiment
+   d) L'enregistrement lui accorderait plutôt un brevet
+
+**5. Corrigé**
+1. b  2. b  3. Faux  4. b
+
+**6. Réponses et explications**
+1. La protection du droit d'auteur naît généralement automatiquement dès qu'une œuvre originale est fixée sur un support tangible.
+2. Le droit d'auteur protège l'expression précise d'une idée, et non l'idée générale sous-jacente elle-même.
+3. Le droit d'auteur protège l'expression précise, et non les idées ou les thèmes généraux; un thème semblable ne constitue donc pas à lui seul une violation.
+4. L'enregistrement officiel donne accès à des recours d'exécution plus forts, même si le droit d'auteur sous-jacent existait automatiquement.
+
+**7. Points clés à retenir**
+- La protection du droit d'auteur naît généralement automatiquement quand une œuvre originale est fixée sur un support tangible.
+- L'enregistrement officiel offre d'importants avantages pratiques, notamment l'accès à des recours d'exécution plus forts.
+- Le droit d'auteur protège l'expression précise, et non l'idée générale sous-jacente, ce qui le distingue des brevets et des marques de commerce.
+- Comprendre cette distinction entre l'expression et l'idée permet de voir ce que le droit d'auteur peut empêcher les autres de faire, et ce qu'il ne peut pas empêcher.
+
+===== PURPLE-L2-023
+TITLE: Les brevets : protéger les inventions
+SUMMARY: Comprends les exigences générales d'un brevet, son compromis entre protection et divulgation publique, et pourquoi il exige l'aide d'un spécialiste.
+## PURPLE-L2-023
+### Les brevets : protéger les inventions
+
+**1. Objectifs d'apprentissage**
+À la fin de cette leçon, tu pourras :
+- Expliquer les exigences générales de la protection par brevet.
+- Décrire le compromis général des brevets : une protection en échange d'une divulgation.
+- Reconnaître que l'obtention d'un brevet exige une expertise juridique spécialisée.
+
+**2. Contenu principal**
+Dans la suite du survol de la leçon 20, un brevet protège généralement une invention qui est nouvelle (qui n'était pas déjà connue ou utilisée publiquement), utile (qui a une application pratique) et non évidente (qui n'aurait pas été une étape suivante évidente pour une personne compétente dans le domaine), pendant une période limitée fixée par la loi de la juridiction applicable. En échange de cette exclusivité limitée dans le temps et juridiquement exécutoire, le demandeur doit divulguer publiquement les détails de l'invention dans sa demande de brevet et, une fois le brevet accordé, dans le brevet publié. Une fois la période de protection du brevet terminée, l'invention tombe dans le domaine public et tout le monde peut l'utiliser.
+
+Ça crée un compromis stratégique distinct par rapport à la protection par secret commercial (leçon 24) : un brevet offre une exclusivité forte et juridiquement exécutoire, mais exige une divulgation publique et finit par expirer, alors qu'un secret commercial peut, en théorie, durer indéfiniment, mais ne reste protégé que tant que l'information reste vraiment secrète, sans aucune protection si un concurrent découvre le secret de façon indépendante ou le reproduit par ingénierie inverse. Vu la complexité technique et juridique des demandes de brevet, c'est un domaine qui exige un avocat ou un agent de brevets spécialisé, et non un processus à faire soi-même.
+
+**3. Exemple pratique**
+Après avoir mis au point un procédé de fabrication vraiment nouveau, une propriétaire d'entreprise travaille avec un avocat en brevets pour évaluer s'il vaut mieux demander un brevet (une protection forte et exécutoire, avec une divulgation publique et une expiration éventuelle) ou garder le procédé comme secret commercial (une protection possiblement indéfinie, mais seulement tant que le procédé reste vraiment non divulgué et que les concurrents ne peuvent pas le reproduire en examinant le produit fini). Comme son procédé pourrait possiblement être reproduit par un concurrent assez déterminé qui examinerait ses produits, elle et son avocat décident finalement que demander un brevet, malgré son expiration éventuelle, offre une protection plus fiable et plus exécutoire pour sa situation précise que de compter seulement sur le secret.
+
+**4. Quiz de pratique**
+1. Pour être admissible à la protection par brevet, qu'est-ce qu'une invention doit généralement être?
+   a) Ancienne, inutile et évidente
+   b) Nouvelle, utile et non évidente
+   c) Seulement nouvelle, sans autre exigence
+   d) Gardée entièrement secrète, sans aucune divulgation
+2. Que doit généralement faire un demandeur de brevet en échange de la protection par brevet?
+   a) Rien — aucune divulgation n'est exigée
+   b) Divulguer publiquement les détails de l'invention dans sa demande de brevet
+   c) Garder l'invention secrète pour toujours
+   d) Transférer la propriété au gouvernement
+3. Vrai ou faux : La protection par brevet dure indéfiniment, sans jamais de date d'expiration.
+4. Pourquoi la propriétaire d'entreprise a-t-elle choisi la protection par brevet plutôt que par secret commercial pour son procédé de fabrication?
+   a) Les secrets commerciaux offrent toujours une protection plus forte
+   b) Son procédé pouvait possiblement être reproduit par ingénierie inverse, ce qui rendait le brevet plus fiable malgré son expiration éventuelle
+   c) Les brevets n'expirent jamais
+   d) Elle n'avait aucune inquiétude au sujet de l'ingénierie inverse
+
+**5. Corrigé**
+1. b  2. b  3. Faux  4. b
+
+**6. Réponses et explications**
+1. La protection par brevet exige généralement qu'une invention soit nouvelle, utile et non évidente.
+2. Les demandeurs de brevet doivent divulguer publiquement les détails de l'invention en échange de l'exclusivité obtenue.
+3. La protection par brevet est limitée dans le temps et finit par expirer; l'invention tombe alors dans le domaine public.
+4. Le risque d'ingénierie inverse rendait le caractère exécutoire du brevet plus précieux que la protection indéfinie, mais fragile, du secret commercial.
+
+**7. Points clés à retenir**
+- La protection par brevet exige qu'une invention soit nouvelle, utile et non évidente.
+- Les brevets offrent une protection forte, exécutoire, mais limitée dans le temps, en échange d'une divulgation publique.
+- Ça crée un compromis stratégique avec la protection par secret commercial, qui peut être indéfinie, mais seulement tant que le secret est vraiment gardé.
+- Les demandes de brevet exigent une expertise juridique spécialisée, vu leur complexité technique et juridique.
+
+===== PURPLE-L2-024
+TITLE: Les secrets commerciaux : une protection par le secret, pas par l'enregistrement
+SUMMARY: Comprends ce qu'est un secret commercial, les mesures raisonnables qu'une entreprise doit prendre pour le protéger et comment il se compare au brevet.
+## PURPLE-L2-024
+### Les secrets commerciaux : une protection par le secret, pas par l'enregistrement
+
+**1. Objectifs d'apprentissage**
+À la fin de cette leçon, tu pourras :
+- Définir de façon conceptuelle la protection des secrets commerciaux.
+- Expliquer ce qu'une entreprise doit faire pour maintenir la protection d'un secret commercial.
+- Comparer les secrets commerciaux aux brevets, pour compléter la comparaison de la leçon 23.
+
+**2. Contenu principal**
+Pour compléter la comparaison commencée à la leçon 23, un secret commercial est un renseignement d'affaires confidentiel — formules, procédés, listes de clients ou autres renseignements — qui tire sa valeur économique du fait qu'il n'est pas généralement connu, et que l'entreprise prend des mesures raisonnables pour garder secret. Contrairement aux brevets, aux marques de commerce et aux droits d'auteur, la protection des secrets commerciaux ne passe par aucun processus d'enregistrement gouvernemental; la protection existe tant que le renseignement reste vraiment et raisonnablement protégé comme secret.
+
+Maintenir la protection d'un secret commercial exige généralement des mesures de sécurité raisonnables et démontrables : limiter l'accès aux personnes qui en ont vraiment besoin, utiliser des ententes de confidentialité (en écho à la discussion sur les ententes de confidentialité de la leçon 8 et de BLUE-L2-029) avec les employés et les partenaires qui y ont accès, et mettre en place des mesures de sécurité physiques ou numériques adaptées à la sensibilité du renseignement. Si une entreprise ne prend pas de mesures de protection raisonnables, elle risque de perdre complètement la protection de son secret commercial, même si l'acquisition du renseignement par un concurrent était elle-même irrégulière, puisque les tribunaux s'attendent généralement à ce que le détenteur du secret ait pris de vraies mesures pour protéger ce qu'il prétend être confidentiel.
+
+**3. Exemple pratique**
+Une entreprise alimentaire traite sa recette vedette comme un secret commercial et prend des moyens réels et démontrables pour la protéger : elle limite la connaissance de la recette complète à un petit nombre d'employés, exige que ces employés signent des ententes de confidentialité précises et utilise des mesures de sécurité physiques pour protéger les documents écrits de la formule. Cet effort de protection réfléchi et raisonnable appuierait la capacité de l'entreprise à revendiquer la protection du secret commercial et à exercer des recours juridiques si un employé qui part divulguait la recette de façon irrégulière — une protection qui serait probablement affaiblie si l'entreprise avait plutôt traité la recette à la légère, avec un accès interne large et sans restriction, et sans ententes de confidentialité.
+
+**4. Quiz de pratique**
+1. Contrairement aux brevets ou aux marques de commerce, qu'est-ce qui est nécessaire pour qu'une entreprise obtienne la protection d'un secret commercial?
+   a) Un enregistrement gouvernemental officiel
+   b) Aucun enregistrement; la protection dépend du maintien d'un vrai secret grâce à des mesures raisonnables
+   c) La divulgation publique du renseignement
+   d) Une période d'attente minimale de dix ans
+2. Quel risque court une entreprise si elle ne prend pas de mesures raisonnables pour protéger un renseignement confidentiel?
+   a) Aucun risque
+   b) Elle risque de perdre complètement la protection du secret commercial, même si l'acquisition par un concurrent était irrégulière
+   c) Elle obtient plutôt une protection par brevet automatique
+   d) Une divulgation publique obligatoire
+3. Vrai ou faux : La protection d'un secret commercial exige le dépôt d'une demande auprès d'un office gouvernemental des brevets ou des marques de commerce.
+4. Pourquoi les mesures de protection de l'entreprise alimentaire comptaient-elles pour sa revendication de secret commercial?
+   a) Elles n'avaient aucune importance juridique
+   b) Des mesures de protection réelles et raisonnables appuient la capacité de l'entreprise à revendiquer et à faire respecter la protection du secret commercial
+   c) Les secrets commerciaux sont protégés peu importe les mesures prises
+   d) Les mesures n'étaient que pour la forme, sans importance juridique
+
+**5. Corrigé**
+1. b  2. b  3. Faux  4. b
+
+**6. Réponses et explications**
+1. La protection d'un secret commercial n'exige aucun enregistrement; elle dépend du maintien d'un vrai secret grâce à des mesures de protection raisonnables.
+2. Ne pas prendre de mesures de protection raisonnables fait courir le risque de perdre complètement la protection du secret commercial, peu importe comment un concurrent a obtenu le renseignement.
+3. Contrairement aux brevets, aux marques de commerce et aux droits d'auteur, les secrets commerciaux ne passent par aucun processus d'enregistrement gouvernemental.
+4. Les mesures de protection démontrables et raisonnables de l'entreprise alimentaire appuyaient sa capacité à revendiquer et à faire respecter la protection de son secret commercial.
+
+**7. Points clés à retenir**
+- La protection d'un secret commercial n'exige aucun enregistrement et existe tant que le renseignement reste vraiment et raisonnablement protégé comme secret.
+- Maintenir la protection exige des mesures démontrables : accès limité, ententes de confidentialité et sécurité appropriée.
+- Ne pas prendre de mesures de protection raisonnables fait courir le risque de perdre complètement la protection du secret commercial.
+- Ça complète la comparaison de la leçon 23 : les brevets offrent une protection exécutoire, mais limitée dans le temps, avec divulgation; les secrets commerciaux, une protection possiblement indéfinie, mais fragile, par le secret.
+
+===== PURPLE-L2-025
+TITLE: Les accords de licence : accorder des droits sans vendre la propriété
+SUMMARY: Comprends ce qu'est un accord de licence, en quoi il diffère d'une vente ou d'une cession de propriété intellectuelle, et comment ses conditions changent sa valeur.
+## PURPLE-L2-025
+### Les accords de licence : accorder des droits sans vendre la propriété
+
+**1. Objectifs d'apprentissage**
+À la fin de cette leçon, tu pourras :
+- Définir de façon conceptuelle un accord de licence.
+- Distinguer une licence d'une vente pure et simple ou d'une cession de propriété intellectuelle.
+- Relier cette notion à la discussion sur le franchisage et les licences de BLUE-L2-038.
+
+**2. Contenu principal**
+Dans la suite de la présentation des licences comme modèle de croissance dans BLUE-L2-038, cette leçon examine l'accord de licence lui-même comme instrument juridique. Un accord de licence accorde à une autre partie des droits précis et définis d'utiliser une propriété intellectuelle (une marque de commerce, un brevet, un droit d'auteur ou un secret commercial selon des conditions de confidentialité appropriées) sans transférer la pleine propriété de cette propriété intellectuelle. Le concédant garde la propriété, alors que le titulaire de la licence reçoit la permission de l'utiliser selon les conditions, la portée et la durée précises définies dans l'accord.
+
+C'est différent d'une vente pure et simple ou d'une « cession » de propriété intellectuelle, qui transfère complètement la propriété à la nouvelle partie et laisse le propriétaire d'origine sans autres droits. Les accords de licence peuvent être exclusifs (seul le titulaire précis peut utiliser la propriété intellectuelle dans la portée définie) ou non exclusifs (le concédant peut accorder des droits semblables à plusieurs parties en même temps), et ils peuvent être limités par la région, le domaine d'utilisation ou la durée — chacune de ces conditions ayant un effet important sur la valeur et la pertinence de l'arrangement pour les deux parties.
+
+**3. Exemple pratique**
+Au lieu de vendre purement et simplement sa technologie brevetée, une inventrice la concède sous licence à une entreprise de fabrication : elle lui accorde le droit exclusif de fabriquer et de vendre des produits qui utilisent son procédé breveté dans un secteur et une région précis, en échange de redevances continues, tout en gardant la propriété du brevet lui-même. Elle reste libre de concéder la même technologie sous licence à d'autres entreprises dans d'autres secteurs ou régions non visés par cet accord exclusif précis. Cette structure lui permet de tirer des revenus continus de son invention à travers plusieurs utilisations possibles, plutôt que de recevoir un seul paiement unique d'une vente pure et simple qui aurait transféré tous ses droits à un seul acheteur.
+
+**4. Quiz de pratique**
+1. Qu'accorde généralement un accord de licence?
+   a) Le transfert de la pleine propriété de la propriété intellectuelle
+   b) Des droits précis et définis d'utiliser une propriété intellectuelle, pendant que le concédant garde la propriété
+   c) Aucun droit
+   d) Un certificat d'enregistrement gouvernemental
+2. En quoi une licence diffère-t-elle d'une vente pure et simple ou d'une cession de propriété intellectuelle?
+   a) Elles sont identiques à tous points de vue
+   b) Avec une licence, le concédant garde la propriété; une vente ou une cession transfère complètement la propriété
+   c) Une vente laisse toujours la propriété au vendeur
+   d) Une licence transfère toujours immédiatement la pleine propriété
+3. Vrai ou faux : Tous les accords de licence sont automatiquement exclusifs et empêchent le concédant d'accorder des droits à une autre partie.
+4. Pourquoi l'inventrice a-t-elle choisi de concéder sa technologie sous licence plutôt que de la vendre purement et simplement?
+   a) Elle voulait transférer tous ses droits tout de suite pour un seul paiement
+   b) Elle voulait garder la propriété et tirer des revenus continus de plusieurs accords de licence possibles
+   c) Les accords de licence n'existent pas pour les brevets
+   d) Elle ne voulait tirer aucun revenu de son invention
+
+**5. Corrigé**
+1. b  2. b  3. Faux  4. b
+
+**6. Réponses et explications**
+1. Un accord de licence accorde des droits d'utilisation précis et définis, pendant que le concédant garde la propriété de la propriété intellectuelle.
+2. Avec une licence, le concédant garde la propriété, contrairement à une vente ou à une cession, qui transfère complètement la propriété.
+3. Les accords de licence peuvent être exclusifs ou non exclusifs, selon les conditions précises négociées.
+4. L'approche de licence de l'inventrice lui a permis de garder la propriété et de conclure en même temps plusieurs arrangements qui génèrent des revenus.
+
+**7. Points clés à retenir**
+- Un accord de licence accorde des droits précis et définis d'utiliser une propriété intellectuelle, pendant que le concédant garde la propriété.
+- C'est différent d'une vente pure et simple ou d'une cession, qui transfère complètement la propriété.
+- Les licences peuvent être exclusives ou non exclusives, et limitées par la région, le domaine d'utilisation ou la durée.
+- Cette leçon s'appuie directement sur la discussion sur les licences du parcours BLUE et examine plus en profondeur l'instrument juridique sous-jacent.
+
+===== PURPLE-L2-026
+TITLE: Les renonciations de responsabilité : ce qu'elles protègent et ce qu'elles ne protègent pas
+SUMMARY: Comprends à quoi sert une renonciation de responsabilité, ses limites importantes face à la négligence grave et pourquoi sa rédaction précise compte.
+## PURPLE-L2-026
+### Les renonciations de responsabilité : ce qu'elles protègent et ce qu'elles ne protègent pas
+
+**1. Objectifs d'apprentissage**
+À la fin de cette leçon, tu pourras :
+- Définir de façon conceptuelle une renonciation de responsabilité.
+- Expliquer les limites générales de ce qu'une renonciation peut protéger.
+- Reconnaître que le caractère exécutoire dépend de la juridiction et des faits.
+
+**2. Contenu principal**
+Une renonciation de responsabilité (parfois appelée décharge ou exonération de responsabilité) est un document dans lequel une partie accepte de libérer une autre partie de sa responsabilité pour certains risques ou préjudices. On l'utilise souvent dans des contextes qui comportent un risque physique inhérent, comme les activités récréatives. Les renonciations peuvent offrir une protection juridique réelle quand elles sont bien rédigées et qu'elles s'appliquent à la situation précise, mais elles ont généralement des limites importantes : bien des juridictions ne feront pas respecter une renonciation qui tente de libérer une partie de sa responsabilité pour une négligence grave, une insouciance téméraire ou une faute intentionnelle, contrairement à la responsabilité pour une négligence ordinaire ou pour les risques inhérents et divulgués d'une activité, que les renonciations peuvent plus souvent couvrir.
+
+Le caractère exécutoire dépend aussi de la clarté et de la précision de la renonciation : une renonciation vague et trop large qui tente de libérer de « toute responsabilité pour quoi que ce soit » risque davantage d'être contestée avec succès qu'une renonciation qui décrit clairement et précisément les risques réels de l'activité. C'est une détermination qui dépend des faits et de la juridiction; une entreprise qui compte sur des renonciations pour obtenir une vraie protection juridique devrait donc les faire rédiger et examiner par un avocat qui connaît bien l'activité et la juridiction, plutôt que d'utiliser un modèle générique trouvé en ligne.
+
+**3. Exemple pratique**
+Avant de participer à une activité récréative d'escalade, une participante signe une renonciation qui libère le centre d'escalade de sa responsabilité pour les blessures causées par les risques inhérents de l'activité, comme une chute pendant une escalade normale. Si la participante se blessait plus tard parce que le centre a fait preuve de négligence grave en n'entretenant pas correctement l'équipement de sécurité — un manquement qui va bien au-delà d'un risque inhérent à l'activité elle-même —, la renonciation ne protégerait probablement pas le centre contre sa responsabilité pour cette négligence grave, même si elle pourrait valablement le protéger contre les réclamations liées aux risques réellement inhérents du sport. Ça illustre les limites importantes décrites dans cette leçon.
+
+**4. Quiz de pratique**
+1. À quoi sert généralement une renonciation de responsabilité?
+   a) Garantir qu'une activité est complètement sans risque
+   b) Libérer une partie de sa responsabilité pour certains risques ou préjudices
+   c) Éliminer le besoin de toute assurance
+   d) Transférer la propriété d'un bien
+2. Dans bien des juridictions, quelle est une limite générale de ce qu'une renonciation peut protéger?
+   a) Les renonciations peuvent protéger contre absolument tout, sans exception
+   b) Les renonciations ne peuvent généralement pas protéger contre la négligence grave, l'insouciance téméraire ou la faute intentionnelle
+   c) Les renonciations n'ont aucune limite
+   d) Les renonciations ne s'appliquent qu'aux contrats écrits, jamais à d'autres situations
+3. Vrai ou faux : Une renonciation vague et trop large qui tente de libérer de « toute responsabilité pour quoi que ce soit » a autant de chances d'être respectée qu'une renonciation claire et précise qui décrit les risques réels.
+4. Pourquoi la renonciation du centre d'escalade pourrait-elle ne pas le protéger dans le scénario de négligence grave?
+   a) Les renonciations protègent toujours contre tous les types de fautes
+   b) La négligence grave allait au-delà des risques inhérents et divulgués de l'activité que la renonciation pouvait valablement couvrir
+   c) La renonciation n'avait jamais été signée
+   d) La négligence grave n'a aucune importance juridique
+
+**5. Corrigé**
+1. b  2. b  3. Faux  4. b
+
+**6. Réponses et explications**
+1. Une renonciation de responsabilité libère généralement une partie de sa responsabilité pour certains risques ou préjudices précisés.
+2. Bien des juridictions ne feront pas respecter les renonciations qui tentent de couvrir la négligence grave, l'insouciance téméraire ou la faute intentionnelle.
+3. Les renonciations vagues et trop larges risquent davantage d'être contestées avec succès que celles qui sont claires et précises et qui décrivent les risques réels.
+4. La négligence grave du scénario dépassait les risques inhérents et divulgués que la renonciation pouvait valablement couvrir, ce qui limitait son effet de protection.
+
+**7. Points clés à retenir**
+- Une renonciation de responsabilité libère une partie de sa responsabilité pour certains risques précisés; on l'utilise souvent pour les activités comportant un risque physique inhérent.
+- Dans bien des juridictions, les renonciations ne peuvent généralement pas protéger contre la négligence grave, l'insouciance téméraire ou la faute intentionnelle.
+- Les renonciations claires et précises qui décrivent les risques réels ont plus de chances d'être respectées que celles qui sont vagues et trop larges.
+- Le caractère exécutoire dépend des faits et de la juridiction, ce qui exige l'examen d'un avocat plutôt qu'un modèle générique.
+
+===== PURPLE-L2-027
+TITLE: Les clauses d'indemnisation : déplacer le risque entre les parties
+SUMMARY: Comprends ce qu'est une clause d'indemnisation, en quoi elle diffère d'une renonciation de responsabilité et pourquoi elle mérite toujours une lecture attentive.
+## PURPLE-L2-027
+### Les clauses d'indemnisation : déplacer le risque entre les parties
+
+**1. Objectifs d'apprentissage**
+À la fin de cette leçon, tu pourras :
+- Définir de façon conceptuelle une clause d'indemnisation.
+- Distinguer l'indemnisation d'une renonciation de responsabilité (leçon 26).
+- Expliquer pourquoi les clauses d'indemnisation méritent un examen attentif dans tout contrat.
+
+**2. Contenu principal**
+Une clause d'indemnisation est une disposition contractuelle dans laquelle une partie accepte de compenser l'autre pour certaines pertes, certains dommages ou certaines réclamations, souvent y compris les réclamations présentées par des tiers (des personnes extérieures au contrat lui-même). C'est différent d'une renonciation de responsabilité (leçon 26), qui libère généralement une partie de sa responsabilité directe envers l'autre partie contractante; l'indemnisation déplace plutôt la responsabilité financière de certaines pertes ou réclamations entre les parties contractantes, souvent y compris des réclamations qu'un tiers pourrait présenter contre l'une d'elles.
+
+Les clauses d'indemnisation peuvent être larges ou étroites, unilatérales (une seule partie indemnise l'autre) ou réciproques (les deux parties s'indemnisent mutuellement pour certaines catégories de réclamations), et elles peuvent déplacer le risque financier de façon importante d'une manière facile à manquer si on survole cette section qui semble dense (en écho à la liste de vérification de lecture de la leçon 5) au lieu de l'examiner attentivement. Une partie qui accepte une clause d'indemnisation large pourrait se retrouver financièrement responsable de réclamations qui dépassent beaucoup ce à quoi elle pourrait raisonnablement s'attendre; c'est pourquoi un examen attentif et, pour les contrats importants, l'avis d'un avocat sont particulièrement utiles pour ce type de clause précis.
+
+**3. Exemple pratique**
+En examinant un contrat avec un fournisseur, une propriétaire d'entreprise survole d'abord une clause d'indemnisation dense, en supposant que c'est du texte standard. En l'examinant de plus près avec son avocate, elle découvre que la clause obligerait son entreprise à indemniser le fournisseur pour un large éventail de réclamations de tiers, y compris certaines qui n'ont qu'un lien indirect avec la relation avec le fournisseur — une obligation beaucoup plus large que ce qu'elle avait supposé. Elle négocie une structure d'indemnisation plus étroite et plus réciproque avant de signer, en limitant précisément son exposition aux réclamations qui découlent vraiment des gestes de sa propre entreprise, au lieu d'accepter la formulation d'origine, unilatérale et trop large.
+
+**4. Quiz de pratique**
+1. Sur quoi porte généralement une clause d'indemnisation?
+   a) La libération d'une partie de toute responsabilité envers l'autre partie contractante
+   b) Le fait qu'une partie compense l'autre pour certaines pertes, certains dommages ou certaines réclamations, souvent y compris celles de tiers
+   c) Un type de protection de la propriété intellectuelle
+   d) Une exigence de déclaration fiscale gouvernementale
+2. En quoi l'indemnisation diffère-t-elle généralement d'une renonciation de responsabilité?
+   a) Ce sont des notions identiques
+   b) L'indemnisation déplace la responsabilité financière de pertes ou de réclamations; une renonciation libère généralement de la responsabilité directe envers l'autre partie contractante
+   c) Les renonciations ne s'appliquent qu'aux réclamations de tiers
+   d) L'indemnisation n'a aucun lien avec le risque financier
+3. Vrai ou faux : Les clauses d'indemnisation sont toujours du texte standard simple qui n'exige aucun examen attentif.
+4. Pourquoi la propriétaire d'entreprise a-t-elle renégocié la clause d'indemnisation du contrat avec le fournisseur?
+   a) Elle voulait une exposition plus large aux réclamations de tiers
+   b) Un examen plus attentif a révélé une obligation beaucoup plus large que ce qu'elle avait supposé au départ
+   c) Les clauses d'indemnisation n'ont aucun effet juridique réel
+   d) Elle avait déjà accepté les conditions d'origine et ne pouvait plus les changer
+
+**5. Corrigé**
+1. b  2. b  3. Faux  4. b
+
+**6. Réponses et explications**
+1. Les clauses d'indemnisation portent sur le fait qu'une partie compense l'autre pour certaines pertes ou réclamations, souvent y compris celles de tiers.
+2. L'indemnisation déplace la responsabilité financière des pertes; une renonciation libère généralement de la responsabilité directe envers l'autre partie contractante.
+3. Les clauses d'indemnisation peuvent comporter une exposition financière importante et facile à manquer; elles méritent un examen attentif, pas un simple survol.
+4. L'examen attentif de la propriétaire d'entreprise a révélé une obligation plus large que prévu, ce qui l'a menée à une renégociation réussie.
+
+**7. Points clés à retenir**
+- Les clauses d'indemnisation déplacent la responsabilité financière de certaines pertes, certains dommages ou certaines réclamations, souvent y compris celles de tiers.
+- C'est différent d'une renonciation de responsabilité, qui libère généralement de la responsabilité directe envers l'autre partie contractante.
+- Les clauses d'indemnisation peuvent être larges ou étroites, unilatérales ou réciproques, ce qui change beaucoup l'exposition au risque financier.
+- Un examen attentif de ce type de clause souvent survolé est essentiel, en écho à la liste de vérification de lecture de contrat de la leçon 5.

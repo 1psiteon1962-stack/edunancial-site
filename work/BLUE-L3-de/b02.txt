@@ -1,0 +1,183 @@
+===== BLUE-L3-005
+TITLE: Warum der Firmenwert das abbildet, was man nicht anfassen kann
+SUMMARY: Erfahre, was der Geschäfts- oder Firmenwert (Goodwill) bei einem Unternehmenskauf bedeutet, warum er Werte erfasst, die in keiner einfachen Inventarliste stehen, und wie er berechnet wird.
+# BLUE-L3-005: Warum der Firmenwert das abbildet, was man nicht anfassen kann
+
+## Lernziele
+Am Ende dieser Lektion kannst du:
+- den Geschäfts- oder Firmenwert (Goodwill) im Zusammenhang mit einem Unternehmenskauf definieren
+- erklären, wie der Firmenwert grundsätzlich berechnet wird
+- Beispiele dafür nennen, was der Firmenwert erfassen soll
+
+## Hauptinhalt
+
+Lektion 2 hat zwischen dem Substanzwert und dem gesamten Fortführungswert eines Unternehmens unterschieden, der von der Ertragskraft bestimmt wird. Der **Geschäfts- oder Firmenwert** (englisch **Goodwill**) ist der konkrete Rechnungslegungsbegriff, mit dem diese Lücke erfasst wird: Er errechnet sich grundsätzlich aus dem für ein Unternehmen gezahlten Kaufpreis abzüglich des Zeitwerts seines identifizierbaren Nettovermögens (Vermögensgegenstände minus Schulden).
+
+Hier das „Warum“, weshalb diese Zahl wichtig ist: Der Firmenwert steht für alles Immaterielle, das zur Ertragskraft eines Unternehmens beiträgt, aber kein einzelner, gesondert erfassbarer Vermögensgegenstand ist – der Ruf der Marke, Kundenbeziehungen, ein etablierter Standort, eingearbeitete Mitarbeitende oder betriebliche Abläufe, die ein Wettbewerber nur schwer und teuer schnell nachbauen könnte. [ILLUSTRATIVE EXAMPLE] Ein bekannter Betrieb vor Ort mit treuer Stammkundschaft kann deutlich über dem Wert seiner Sachwerte verkauft werden; die Differenz wird als Firmenwert erfasst und spiegelt den realen, wenn auch nicht greifbaren Wert dieses Rufs und dieser Kundentreue wider.
+
+[VERIFIED FACT] Der Firmenwert wird nach der Übernahme in den Büchern des Käufers als Vermögenswert ausgewiesen. Seine steuerliche und bilanzielle Behandlung folgt eigenen Regeln: In Deutschland ist ein entgeltlich erworbener Firmenwert steuerlich nach § 7 Abs. 1 Satz 3 EStG über 15 Jahre abzuschreiben, während sich die Abschreibung in der Handelsbilanz nach der voraussichtlichen Nutzungsdauer richtet. Wie sich das in einem konkreten Fall auswirkt, sollte für jede Transaktion fachkundig geprüft werden.
+
+## Durchgerechnetes Beispiel
+
+[ILLUSTRATIVE EXAMPLE] Ein Käufer zahlt 500.000 € für ein Unternehmen, dessen identifizierbares Nettovermögen (Maschinen, Vorräte, Bargeld, abzüglich etwaiger Schulden) mit 300.000 € bewertet wird. Die restlichen 200.000 € des Kaufpreises werden als Firmenwert erfasst – das ist der Wert, den der Käufer für den Ruf des Unternehmens, die etablierten Kundenbeziehungen und andere immaterielle Faktoren seiner Ertragskraft zahlt, über das hinaus, was die Sachwerte allein erklären würden.
+
+## Übungsquiz
+1. Was ist der Firmenwert, und wie wird er grundsätzlich berechnet?
+2. Welche Arten immaterieller Faktoren soll der Firmenwert erfassen?
+3. Wie hängt dieses Konzept mit der Unterscheidung zwischen Substanzwert und Fortführungswert aus Lektion 2 zusammen?
+
+## Lösungsschlüssel
+1. Der Kaufpreis eines Unternehmens abzüglich des Zeitwerts seines identifizierbaren Nettovermögens; er steht für immateriellen Wert, der nicht in einem einzelnen, gesondert erfassbaren Vermögensgegenstand steckt.
+2. Den Ruf der Marke, Kundenbeziehungen, einen etablierten Standort, eingearbeitete Mitarbeitende oder betriebliche Abläufe, die ein Wettbewerber nur schwer schnell nachbauen könnte.
+3. Der Firmenwert ist die konkrete Rechnungslegungsgröße, die die in Lektion 2 beschriebene Lücke beziffert – die Differenz zwischen dem Substanzwert eines Unternehmens und seinem höheren, von der Ertragskraft bestimmten Fortführungswert.
+
+## Antworten und Erklärungen
+1. Das ist die grundlegende Definition und Berechnung dieser Lektion.
+2. Das verankert das abstrakte Konzept in konkreten, wiedererkennbaren Beispielen.
+3. Das verknüpft die Lektion ausdrücklich mit Lektion 2 und stärkt den zusammenhängenden Aufbau des Tracks.
+
+## Das Wichtigste in Kürze
+- Der Firmenwert errechnet sich aus dem Kaufpreis abzüglich des Zeitwerts des identifizierbaren Nettovermögens.
+- Er erfasst immateriellen Wert – Ruf, Kundenbeziehungen und ähnliche Faktoren –, der zur Ertragskraft eines Unternehmens beiträgt.
+- Der Firmenwert beziffert genau die Lücke zwischen Substanzwert und Fortführungswert, die in Lektion 2 eingeführt wurde.
+
+## Hinweis zum Bildungszweck
+Diese Lektion dient ausschließlich der allgemeinen finanziellen Bildung und ist keine individuelle Finanz-, Anlage-, Steuer- oder Rechtsberatung. Lass dich vor Entscheidungen zur Unternehmensbewertung oder zu einem Unternehmenskauf von einer Steuerberaterin oder einem Wirtschaftsprüfer beraten.
+
+===== BLUE-L3-006
+TITLE: Warum eine Absichtserklärung kein verbindlicher Kaufvertrag ist
+SUMMARY: Erfahre, wozu dich eine Absichtserklärung (Letter of Intent) verpflichtet und wozu nicht – und warum es zu Missverständnissen oder Risiken führen kann, sie wie einen endgültigen Vertrag zu behandeln.
+# BLUE-L3-006: Warum eine Absichtserklärung kein verbindlicher Kaufvertrag ist
+
+## Lernziele
+Am Ende dieser Lektion kannst du:
+- den allgemeinen Zweck einer Absichtserklärung (Letter of Intent, LOI) bei einem Unternehmenskauf erklären
+- erklären, welche Teile eines LOI üblicherweise verbindlich und welche unverbindlich sind
+- erklären, warum ein LOI ein nützlicher Schritt ist, obwohl der größte Teil davon rechtlich nicht durchsetzbar ist
+
+## Hauptinhalt
+
+Eine **Absichtserklärung** oder **Letter of Intent (LOI)** ist ein Dokument, das die vorläufigen Bedingungen festhält, auf die sich beide Seiten grundsätzlich geeinigt haben, bevor ein vollständiger, förmlicher Kaufvertrag ausgearbeitet und unterzeichnet wird. Es umfasst in der Regel den vorgeschlagenen Preis, die grobe Struktur des Geschäfts und die wichtigsten Bedingungen, die beide Seiten im endgültigen Vertrag erwarten.
+
+Hier das „Warum“, weshalb es wichtig ist, obwohl es in der Regel keine verbindliche Kaufzusage ist: [VERIFIED FACT] Die meisten inhaltlichen Bedingungen eines LOI – Preis, Struktur und ähnliche geschäftliche Punkte – sind üblicherweise unverbindlich, sodass jede Seite vor Unterzeichnung des endgültigen Vertrags noch aussteigen kann. Bestimmte Regelungen (etwa Vertraulichkeitspflichten oder eine vereinbarte Exklusivitätsphase, in der der Verkäufer zusagt, nicht mit anderen Käufern zu verhandeln) werden dagegen häufig verbindlich ausgestaltet, auch innerhalb eines ansonsten unverbindlichen LOI. In Deutschland kommt hinzu, dass eine Verpflichtung zur Übertragung von GmbH-Geschäftsanteilen nach § 15 Abs. 4 GmbHG notariell beurkundet werden muss – ein einfach unterschriebener LOI kann eine solche Verpflichtung also gar nicht wirksam begründen.
+
+Diese Struktur erfüllt einen echten Zweck: Sie lässt beide Seiten sich auf die wichtigsten Bedingungen verständigen und erhebliche Zeit und Mittel in die Due Diligence (Lektion 7) und die Ausarbeitung des endgültigen Vertrags investieren, ohne dass eine Seite rechtlich an ein Geschäft gebunden ist, das später an den Erkenntnissen aus diesem Prozess scheitern könnte.
+
+## Durchgerechnetes Beispiel
+
+[ILLUSTRATIVE EXAMPLE] Käufer und Verkäufer unterzeichnen einen LOI mit einem vereinbarten Preis und einer groben Struktur sowie einer verbindlichen Exklusivitätsphase von 60 Tagen, in der der Verkäufer zusagt, nicht mit anderen Interessenten zu verhandeln. [ASSUMPTION] Während dieser 60 Tage deckt die Due Diligence des Käufers ein erhebliches, bisher nicht offengelegtes Problem in den Finanzen des Unternehmens auf. Da Preis und Struktur im LOI unverbindlich waren, kann der Käufer den Preis neu verhandeln oder ganz aussteigen – während die Exklusivitätsklausel selbst verbindlich und durchsetzbar bleibt und ihren Zweck, die Zeitinvestition des Käufers während der Prüfungsphase zu schützen, bereits erfüllt hat.
+
+## Übungsquiz
+1. Was ist der allgemeine Zweck einer Absichtserklärung (LOI)?
+2. Welche Teile eines LOI sind üblicherweise unverbindlich, und welche werden häufig verbindlich gestaltet?
+3. Warum ist diese Struktur für beide Seiten nützlich, obwohl der größte Teil des LOI rechtlich nicht durchsetzbar ist?
+
+## Lösungsschlüssel
+1. Die vorläufigen Bedingungen festzuhalten, auf die sich beide Seiten grundsätzlich geeinigt haben, bevor ein vollständiger, förmlicher Kaufvertrag ausgearbeitet wird.
+2. Inhaltliche geschäftliche Bedingungen wie Preis und Struktur sind üblicherweise unverbindlich; Regelungen wie Vertraulichkeit und Exklusivitätsphasen werden häufig verbindlich gestaltet.
+3. Weil beide Seiten sich auf die wichtigsten Bedingungen verständigen und in Due Diligence und Vertragsentwurf investieren können, ohne rechtlich an ein Geschäft gebunden zu sein, das sich je nach Ergebnis der Prüfung noch ändern kann.
+
+## Antworten und Erklärungen
+1. Das ist die grundlegende Definition dieser Lektion.
+2. Das verdeutlicht die wichtige Unterscheidung zwischen verbindlichen und unverbindlichen Teilen innerhalb eines einzigen Dokuments.
+3. Das erklärt den praktischen Wert der LOI-Struktur trotz ihres weitgehend unverbindlichen Charakters.
+
+## Das Wichtigste in Kürze
+- Ein LOI hält vorläufige, vereinbarte Bedingungen fest, bevor ein vollständiger Kaufvertrag ausgearbeitet wird.
+- Inhaltliche Bedingungen wie der Preis sind üblicherweise unverbindlich; bestimmte Regelungen wie Vertraulichkeit und Exklusivität sind häufig verbindlich.
+- Diese Struktur lässt beide Seiten in Due Diligence und Vertragsentwurf investieren, ohne rechtlich an die endgültigen Bedingungen gebunden zu sein.
+
+## Hinweis zum Bildungszweck
+Diese Lektion dient ausschließlich der allgemeinen finanziellen Bildung und ist keine individuelle Finanz-, Anlage-, Steuer- oder Rechtsberatung. Lass dich vor der Unterzeichnung einer Absichtserklärung oder eines Unternehmenskaufvertrags von einer Rechtsanwältin oder einem Rechtsanwalt beraten.
+
+===== BLUE-L3-007
+TITLE: Warum es die Due Diligence gibt: um zu finden, was der Verkäufer nicht erzählt hat
+SUMMARY: Erfahre, warum die Due Diligence ein strukturierter Prüfprozess und keine bloße Formalität ist – und warum sie Risiken aufdecken soll, die sonst nicht ans Licht kämen.
+# BLUE-L3-007: Warum es die Due Diligence gibt: um zu finden, was der Verkäufer nicht erzählt hat
+
+## Lernziele
+Am Ende dieser Lektion kannst du:
+- den allgemeinen Zweck der Due Diligence bei einem Unternehmenskauf erklären
+- die wichtigsten Informationsbereiche nennen, die eine Due Diligence üblicherweise abdeckt
+- erklären, warum die Due Diligence nach dem LOI, aber vor dem endgültigen Kaufvertrag stattfindet
+
+## Hauptinhalt
+
+Die **Due Diligence** ist der strukturierte Prozess nach der Unterzeichnung eines LOI (Lektion 6), in dem ein Käufer die Finanzunterlagen, die rechtliche Lage, die Verträge, den Betrieb und andere wichtige Einzelheiten eines Unternehmens gründlich prüft, bevor er den Kauf abschließt.
+
+Hier das „Warum“, weshalb dieser Prozess ein eigener, bewusster Schritt ist: Ein Verkäufer präsentiert sein Unternehmen in den ersten Verhandlungen verständlicherweise im besten Licht – das bedeutet nicht unbedingt Täuschung, aber Verkäufer müssen nicht von sich aus jede ungünstige Information preisgeben, sofern sie nicht ausdrücklich gefragt werden oder das Gesetz es verlangt. Die Due Diligence soll Aussagen aus den Verhandlungen unabhängig überprüfen und aktiv Probleme aufdecken – nicht offengelegte Verbindlichkeiten, laufende Rechtsstreitigkeiten, das Risiko einer Kundenkonzentration (Thema einer späteren Lektion) oder Ungereimtheiten in den Finanzunterlagen –, die in Gesprächen allein nicht unbedingt ans Licht kämen.
+
+[VERIFIED FACT] Die Due Diligence umfasst üblicherweise die Finanzunterlagen (Prüfung der angegebenen Umsätze und Kosten), rechtliche Fragen (Verträge, laufende Rechtsstreitigkeiten, Einhaltung behördlicher Vorgaben), betriebliche Einzelheiten (Abhängigkeit von Schlüsselpersonen, Lieferantenbeziehungen) und jeden weiteren Bereich, der für das konkrete Unternehmen wichtig ist – in Deutschland häufig auch eine steuerliche Due Diligence, etwa zu offenen Betriebsprüfungen.
+
+## Durchgerechnetes Beispiel
+
+[ILLUSTRATIVE EXAMPLE] Einem Käufer, der über den Kauf eines Unternehmens verhandelt, wird gesagt, das Unternehmen habe hohe, stabile Umsätze und keine nennenswerten rechtlichen Probleme. In der Due Diligence zeigt eine sorgfältige Prüfung der Finanzunterlagen, dass ein erheblicher Teil der jüngsten Umsätze aus einem einzigen großen Kundenvertrag stammt, der bald ausläuft und wahrscheinlich nicht verlängert wird – eine Information, die in den ersten Gesprächen nicht von sich aus genannt wurde, die aber die tatsächlichen Zukunftsaussichten des Unternehmens wesentlich beeinflusst. [ASSUMPTION] Diese Erkenntnis, die gerade durch die Due Diligence ans Licht kam, gibt dem Käufer eine Grundlage, den Preis neu zu verhandeln oder das Geschäft ganz zu überdenken – ganz im Sinne von Lektion 6, wonach unverbindliche LOI-Bedingungen genau solche Anpassungen ermöglichen.
+
+## Übungsquiz
+1. Was ist die Due Diligence, und wann findet sie im Ablauf eines Unternehmenskaufs üblicherweise statt?
+2. Warum ist die Due Diligence ein eigener, bewusster Schritt, statt sich auf die Aussagen des Verkäufers zu verlassen?
+3. Nenne drei Informationsbereiche, die eine Due Diligence üblicherweise abdeckt.
+
+## Lösungsschlüssel
+1. Eine strukturierte Prüfung der finanziellen, rechtlichen und betrieblichen Einzelheiten eines Unternehmens, die nach Unterzeichnung eines LOI, aber vor dem endgültigen Kaufvertrag stattfindet.
+2. Weil Verkäufer ihr Unternehmen positiv darstellen und nicht unbedingt verpflichtet sind, jede ungünstige Einzelheit von sich aus zu nennen; die Due Diligence überprüft Aussagen daher unabhängig und deckt aktiv Probleme auf, die sonst nicht ans Licht kämen.
+3. Drei beliebige aus: Finanzunterlagen, rechtliche Fragen (Verträge, Rechtsstreitigkeiten, Einhaltung von Vorgaben), betriebliche Einzelheiten (Schlüsselpersonen, Lieferantenbeziehungen) oder andere unternehmensspezifische Faktoren.
+
+## Antworten und Erklärungen
+1. Das ist die grundlegende Definition und zeitliche Einordnung dieser Lektion.
+2. Das ist das zentrale „Warum“, das die Notwendigkeit des Prozesses erklärt.
+3. Das prüft das Verständnis für den praktischen Umfang einer Due-Diligence-Prüfung.
+
+## Das Wichtigste in Kürze
+- Die Due Diligence ist eine strukturierte Prüfung nach dem LOI und vor dem endgültigen Kaufvertrag.
+- Sie soll Aussagen unabhängig überprüfen und Probleme aufdecken, die in den Verhandlungen sonst nicht ans Licht kämen.
+- Sie umfasst üblicherweise finanzielle, rechtliche und betriebliche Einzelheiten des konkreten Unternehmens.
+
+## Hinweis zum Bildungszweck
+Diese Lektion dient ausschließlich der allgemeinen finanziellen Bildung und ist keine individuelle Finanz-, Anlage-, Steuer- oder Rechtsberatung. Lass dich vor dem Abschluss eines Unternehmenskaufs von zugelassenen Fachleuten aus Steuerberatung, Wirtschaftsprüfung und Rechtsberatung begleiten.
+
+===== BLUE-L3-008
+TITLE: Warum ein Earn-out einen Teil des Preises an die künftige Entwicklung knüpft
+SUMMARY: Erfahre, wie ein Earn-out beim Unternehmensverkauf funktioniert und warum er Käufer und Verkäufer zu einer Einigung über den Preis bringen kann, wenn sie die Zukunft unterschiedlich einschätzen.
+# BLUE-L3-008: Warum ein Earn-out einen Teil des Preises an die künftige Entwicklung knüpft
+
+## Lernziele
+Am Ende dieser Lektion kannst du:
+- erklären, was ein Earn-out ist
+- erklären, warum ein Earn-out eine bestimmte Art von Bewertungsstreit lösen kann
+- ein Risiko erklären, das ein Earn-out für den Verkäufer mit sich bringt
+
+## Hauptinhalt
+
+Ein **Earn-out** ist eine Vertragsgestaltung, bei der ein Teil des gesamten Kaufpreises davon abhängt, dass das Unternehmen nach dem Vollzug des Kaufs bestimmte Leistungsziele erreicht, statt dass alles sofort bezahlt wird. Er wird oft zusammen mit anderen Finanzierungsformen eingesetzt, auch mit einem Verkäuferdarlehen (Lektion 1).
+
+Hier das „Warum“, weshalb es Earn-outs gibt: Käufer und Verkäufer schätzen die künftige Entwicklung eines Unternehmens oft unterschiedlich ein – der Verkäufer ist vielleicht optimistisch, was Wachstumschancen angeht, denen der Käufer skeptischer gegenübersteht, besonders wenn dieses Wachstum von Plänen abhängt, die der Verkäufer noch nicht umgesetzt hat. Ein Earn-out löst genau diesen Streit, indem ein Teil des Preises nur dann gezahlt wird, wenn die optimistischen Prognosen tatsächlich eintreten. So können sich beide Seiten auf ein Geschäft einigen, ohne dass eine Seite die Zukunftssicht der anderen von vornherein vollständig übernehmen muss.
+
+[VERIFIED FACT] Ein Earn-out bringt für den Verkäufer allerdings ein echtes Risiko mit sich: Da die Entwicklung des Unternehmens während der Earn-out-Phase in der Regel vom Käufer als neuem Eigentümer gesteuert wird, hängt der Verkäufer von dessen Entscheidungen und Führung ab, um die Ziele zu erreichen, die seine endgültige Zahlung bestimmen. Diese Dynamik sollte bei der Gestaltung der Earn-out-Bedingungen und einer etwaigen Mitwirkung oder Kontrolle des Verkäufers sorgfältig berücksichtigt werden.
+
+## Durchgerechnetes Beispiel
+
+[ILLUSTRATIVE EXAMPLE] Eine Verkäuferin ist überzeugt, dass ihr Unternehmen dank eines neuen Produkts, das sie entwickelt hat, bald deutlich wachsen wird, und möchte einen Preis, der dieses erwartete Wachstum widerspiegelt. Der Käufer ist vorsichtiger und möchte auf Basis der aktuellen, nachgewiesenen Leistung zahlen. Sie einigen sich auf einen Earn-out: einen Grundpreis, der die aktuelle Leistung abbildet, plus eine zusätzliche Zahlung, die davon abhängt, dass das Unternehmen in den nächsten zwei Jahren bestimmte Umsatzziele erreicht. [ASSUMPTION] Hat das neue Produkt den erwarteten Erfolg, erhält sie die zusätzliche Zahlung; wenn nicht, hat der Käufer nicht auf Basis von Prognosen überbezahlt, die nicht eingetreten sind – die Verkäuferin hängt nun aber davon ab, wie gut der Käufer das neue Produkt nach der Übernahme umsetzt und unterstützt.
+
+## Übungsquiz
+1. Was ist ein Earn-out?
+2. Welche Art von Meinungsverschiedenheit hilft ein Earn-out zu lösen?
+3. Welches Risiko bringt ein Earn-out gerade für den Verkäufer mit sich?
+
+## Lösungsschlüssel
+1. Eine Vertragsgestaltung, bei der ein Teil des Kaufpreises davon abhängt, dass das Unternehmen nach dem Vollzug bestimmte Leistungsziele erreicht.
+2. Eine Meinungsverschiedenheit zwischen Käufer und Verkäufer über die voraussichtliche künftige Entwicklung des Unternehmens, besonders wenn diese von noch nicht umgesetzten Plänen abhängt.
+3. Die endgültige Zahlung an den Verkäufer hängt von den Entscheidungen und der Führung des Käufers nach der Übernahme ab, da der Käufer die Entwicklung des Unternehmens während der Earn-out-Phase steuert.
+
+## Antworten und Erklärungen
+1. Das ist die grundlegende Definition dieser Lektion.
+2. Das ist das zentrale „Warum“, das den Zweck der Earn-out-Gestaltung erklärt.
+3. Das ist eine wichtige, praktische Warnung vor dem Kontrollverlust des Verkäufers während der Earn-out-Phase.
+
+## Das Wichtigste in Kürze
+- Ein Earn-out knüpft einen Teil des Kaufpreises an bestimmte künftige Leistungsziele nach dem Vollzug.
+- Er hilft, Meinungsverschiedenheiten zwischen Käufer und Verkäufer über die voraussichtliche künftige Entwicklung zu lösen.
+- Er bringt ein echtes Risiko für den Verkäufer mit sich, dessen Zahlung von den Entscheidungen und der Führung des Käufers nach dem Verkauf abhängt.
+
+## Hinweis zum Bildungszweck
+Diese Lektion dient ausschließlich der allgemeinen finanziellen Bildung und ist keine individuelle Finanz-, Anlage-, Steuer- oder Rechtsberatung. Lass dich vor der Gestaltung oder Annahme einer Earn-out-Klausel von einer Rechtsanwältin oder einem Rechtsanwalt beraten.
