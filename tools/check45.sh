@@ -8,12 +8,30 @@ python3 -I $S/tools/qc.py *.md
 python3 -I - $1 $2 $3 <<'PY'
 import glob,yaml,sys,re
 C,L,loc=sys.argv[1:4]; R='/home/claude/1psiteon1962-stack/edunancial-site/content/curriculum'
-H={'fr-CA':["Mise en situation","Objectifs d’apprentissage","Contenu principal","Exemple pratique","Questionnaire pratique","Corrigé","Réponses et explications","Points clés"],
+H={
+   'en-GB':['Scenario Opener', 'Learning Objectives', 'Core Content', 'Worked Example', 'Practice Quiz', 'Answer Key', 'Answers and Explanations', 'Key Takeaways'],
+   'es-ES':['Escenario inicial', 'Objetivos de aprendizaje', 'Contenido principal', 'Ejemplo práctico', 'Prueba práctica', 'Clave de respuestas', 'Respuestas y explicaciones', 'Puntos clave'],
+   'fr-FR':['Mise en situation', 'Objectifs d’apprentissage', 'Contenu principal', 'Exemple pratique', 'Questionnaire pratique', 'Corrigé', 'Réponses et explications', 'Points clés'],
+   'pt-BR':['Cenário de abertura', 'Objetivos de aprendizagem', 'Conteúdo principal', 'Exemplo prático', 'Teste de prática', 'Gabarito', 'Respostas e explicações', 'Pontos-chave'],
+   'pt-PT':['Cenário de abertura', 'Objetivos de aprendizagem', 'Conteúdo principal', 'Exemplo prático', 'Teste de prática', 'Chave de Respostas', 'Respostas e explicações', 'Pontos-chave'],
+   'it':['Scenario iniziale', 'Obiettivi di apprendimento', 'Contenuto principale', 'Esempio pratico', 'Quiz di esercitazione', 'Chiave delle risposte', 'Risposte e spiegazioni', 'Punti chiave'],
+   'nl':['Openingsscenario', 'Leerdoelen', 'Kerninhoud', 'Uitgewerkt voorbeeld', 'Oefenquiz', 'Antwoordsleutel', 'Antwoorden en uitleg', 'Belangrijkste punten'],
+   'ht':['Senaryo ouvèti', 'Objektif aprantisaj', 'Kontni prensipal', 'Egzanp pratik', 'Egzamen pratik', 'Kle repons yo', 'Repons ak eksplikasyon', 'Pwen kle yo'],
+   'fr-CA':["Mise en situation","Objectifs d’apprentissage","Contenu principal","Exemple pratique","Questionnaire pratique","Corrigé","Réponses et explications","Points clés"],
    'es-Caribbean':["Escenario inicial","Objetivos de aprendizaje","Contenido principal","Ejemplo práctico","Prueba práctica","Clave de respuestas","Respuestas y explicaciones","Puntos clave"],
    'de':["Einstiegsszenario","Lernziele","Hauptinhalt","Durchgerechnetes Beispiel","Übungsquiz","Lösungsschlüssel","Antworten und Erklärungen","Das Wichtigste in Kürze"]}[loc]
 E=["Scenario Opener","Learning Objectives","Core Content","Worked Example","Practice Quiz","Answer Key","Answers and Explanations","Key Takeaways"]
 M=dict(zip(E,H))
-T={'fr-CA':[("VERIFIED FACT","FAIT VÉRIFIÉ"),("ILLUSTRATIVE EXAMPLE","EXEMPLE ILLUSTRATIF"),("ASSUMPTION/OPINION","HYPOTHÈSE/OPINION"),("REGION-SPECIFIC RULE","RÈGLE PROPRE À LA RÉGION"),("ESTIMATE","ESTIMATION"),("PRINCIPLE:","PRINCIPE :")],
+T={
+   'en-GB':[('VERIFIED FACT', 'VERIFIED FACT'), ('ILLUSTRATIVE EXAMPLE', 'ILLUSTRATIVE EXAMPLE'), ('ASSUMPTION/OPINION', 'ASSUMPTION/OPINION'), ('REGION-SPECIFIC RULE', 'REGION-SPECIFIC RULE'), ('ESTIMATE', 'ESTIMATE'), ('PRINCIPLE:', 'PRINCIPLE:')],
+   'es-ES':[('VERIFIED FACT', 'DATO VERIFICADO'), ('ILLUSTRATIVE EXAMPLE', 'EJEMPLO ILUSTRATIVO'), ('ASSUMPTION/OPINION', 'SUPUESTO/OPINIÓN'), ('REGION-SPECIFIC RULE', 'REGLA ESPECÍFICA DE LA REGIÓN'), ('ESTIMATE', 'ESTIMACIÓN'), ('PRINCIPLE:', 'PRINCIPIO:')],
+   'fr-FR':[('VERIFIED FACT', 'FAIT VÉRIFIÉ'), ('ILLUSTRATIVE EXAMPLE', 'EXEMPLE ILLUSTRATIF'), ('ASSUMPTION/OPINION', 'HYPOTHÈSE/OPINION'), ('REGION-SPECIFIC RULE', 'RÈGLE PROPRE À LA RÉGION'), ('ESTIMATE', 'ESTIMATION'), ('PRINCIPLE:', 'PRINCIPE :')],
+   'pt-BR':[('VERIFIED FACT', 'FATO VERIFICADO'), ('ILLUSTRATIVE EXAMPLE', 'EXEMPLO ILUSTRATIVO'), ('ASSUMPTION/OPINION', 'SUPOSIÇÃO/OPINIÃO'), ('REGION-SPECIFIC RULE', 'REGRA ESPECÍFICA DA REGIÃO'), ('ESTIMATE', 'ESTIMATIVA'), ('PRINCIPLE:', 'PRINCÍPIO:')],
+   'pt-PT':[('VERIFIED FACT', 'FACTO VERIFICADO'), ('ILLUSTRATIVE EXAMPLE', 'EXEMPLO ILUSTRATIVO'), ('ASSUMPTION/OPINION', 'SUPOSIÇÃO/OPINIÃO'), ('REGION-SPECIFIC RULE', 'REGRA ESPECÍFICA DA REGIÃO'), ('ESTIMATE', 'ESTIMATIVA'), ('PRINCIPLE:', 'PRINCÍPIO:')],
+   'it':[('VERIFIED FACT', 'FATTO VERIFICATO'), ('ILLUSTRATIVE EXAMPLE', 'ESEMPIO ILLUSTRATIVO'), ('ASSUMPTION/OPINION', 'IPOTESI/OPINIONE'), ('REGION-SPECIFIC RULE', 'REGOLA SPECIFICA DELLA REGIONE'), ('ESTIMATE', 'STIMA'), ('PRINCIPLE:', 'PRINCIPIO:')],
+   'nl':[('VERIFIED FACT', 'GEVERIFIEERD FEIT'), ('ILLUSTRATIVE EXAMPLE', 'ILLUSTRATIEF VOORBEELD'), ('ASSUMPTION/OPINION', 'AANNAME/MENING'), ('REGION-SPECIFIC RULE', 'REGIOSPECIFIEKE REGEL'), ('ESTIMATE', 'SCHATTING'), ('PRINCIPLE:', 'PRINCIPE:')],
+   'ht':[('VERIFIED FACT', 'FÈ VERIFYE'), ('ILLUSTRATIVE EXAMPLE', 'EGZANP ILISTRATIF'), ('ASSUMPTION/OPINION', 'SIPOZISYON/OPINYON'), ('REGION-SPECIFIC RULE', 'RÈG ESPESIFIK POU REJYON AN'), ('ESTIMATE', 'ESTIMASYON'), ('PRINCIPLE:', 'PRENSIP:')],
+   'fr-CA':[("VERIFIED FACT","FAIT VÉRIFIÉ"),("ILLUSTRATIVE EXAMPLE","EXEMPLE ILLUSTRATIF"),("ASSUMPTION/OPINION","HYPOTHÈSE/OPINION"),("REGION-SPECIFIC RULE","RÈGLE PROPRE À LA RÉGION"),("ESTIMATE","ESTIMATION"),("PRINCIPLE:","PRINCIPE :")],
    'es-Caribbean':[("VERIFIED FACT","DATO VERIFICADO"),("ILLUSTRATIVE EXAMPLE","EJEMPLO ILUSTRATIVO"),("ASSUMPTION/OPINION","SUPUESTO/OPINIÓN"),("REGION-SPECIFIC RULE","REGLA ESPECÍFICA DE LA REGIÓN"),("ESTIMATE","ESTIMACIÓN"),("PRINCIPLE:","PRINCIPIO:")],
    'de':[("VERIFIED FACT","GEPRÜFTE TATSACHE"),("ILLUSTRATIVE EXAMPLE","BEISPIEL ZUR VERANSCHAULICHUNG"),("ASSUMPTION/OPINION","ANNAHME/MEINUNG"),("REGION-SPECIFIC RULE","LÄNDERSPEZIFISCHE REGEL"),("ESTIMATE","SCHÄTZUNG"),("PRINCIPLE:","GRUNDSATZ:")]}[loc]
 def secs(t):
