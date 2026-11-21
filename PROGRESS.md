@@ -10,7 +10,7 @@ How to resume (read first):
   Note scripts are color-specific: write a new one per color by grepping the source locale for local-law clauses.
 - Finish each pack: tools/finish.sh <C> L5 <loc> "note" ; then send zip to user. For a new color copy English
   content/curriculum/<C>/L5/*.md into sitecopy/content/curriculum/<C>/L5/ first.
-- Next up: RED it -> nl -> de (German law/tax) -> ht ; then WHITE all 9.
+- Next up: RED nl -> de (German law/tax) -> ht ; then WHITE all 9. Tip: translate it/nl/de/ht from the pt-BR batches (faithful to English) and swap Brazil notes for local ones; keep plain OPINION counts equal to English (checker does not test them; run the opinion check in git log).
 Status:
 - RED-L5 en-GB DONE 2026-11-20
 - RED-L5 es-ES DONE 2026-11-20
