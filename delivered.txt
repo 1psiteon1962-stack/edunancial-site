@@ -89,3 +89,4 @@ out/RED-L5-001-050-nl.zip 2026-11-20 RED L5 Dutch (Netherlands notes: OZB/WOZ be
 out/RED-L5-001-050-de.zip 2026-11-20 RED-L5 German (de-DE) complete: 50 lessons, German law/tax notes
 out/RED-L5-001-050-ht.zip 2026-11-20 RED-L5 Haitian Creole (ht) complete: 50 lessons, hedged Haiti notes
 out/WHITE-L5-001-050-en-GB.zip 2026-11-20 WHITE-L5 British English: spelling + UK notes (ISA/SIPP, CGT matching, gilts, W-8BEN, FCA, IHT pensions 2027)
+out/WHITE-L5-001-050-es-ES.zip 2026-11-20 WHITE-L5 Spain Spanish: from es-Caribbean, Spain notes (IRPF base del ahorro, regla 2 meses, modelos 720/721, CNMV/MiFID II, planes de pensiones, ISD/legitima)
