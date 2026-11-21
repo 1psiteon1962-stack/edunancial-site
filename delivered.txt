@@ -88,3 +88,4 @@ out/RED-L5-001-050-it.zip 2026-11-20 full translation, Italy notes (IMU/rendita 
 out/RED-L5-001-050-nl.zip 2026-11-20 RED L5 Dutch (Netherlands notes: OZB/WOZ bezwaar, box 3, Omgevingswet, parate executie, Kifid, AFM)
 out/RED-L5-001-050-de.zip 2026-11-20 RED-L5 German (de-DE) complete: 50 lessons, German law/tax notes
 out/RED-L5-001-050-ht.zip 2026-11-20 RED-L5 Haitian Creole (ht) complete: 50 lessons, hedged Haiti notes
+out/WHITE-L5-001-050-en-GB.zip 2026-11-20 WHITE-L5 British English: spelling + UK notes (ISA/SIPP, CGT matching, gilts, W-8BEN, FCA, IHT pensions 2027)
