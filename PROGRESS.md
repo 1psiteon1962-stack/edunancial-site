@@ -5,3 +5,4 @@ Batches: work/<COLOR>-L5-<loc>/bNN.txt ; zips: out/ ; log: delivered.txt
 Status:
 - RED-L5 en-GB DONE 2026-11-20
 - RED-L5 es-ES DONE 2026-11-20
+- RED-L5 fr-FR DONE 2026-11-20
