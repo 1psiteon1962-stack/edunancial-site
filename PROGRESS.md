@@ -10,7 +10,7 @@ How to resume (read first):
   Note scripts are color-specific: write a new one per color by grepping the source locale for local-law clauses.
 - Finish each pack: tools/finish.sh <C> L5 <loc> "note" ; then send zip to user. For a new color copy English
   content/curriculum/<C>/L5/*.md into sitecopy/content/curriculum/<C>/L5/ first.
-- Next up: RED de DONE (zip delivered). RED ht IN PROGRESS (b01-b05 done; next b06 = lessons 026-030; use tools/show45.sh RED L5 26 30 > tmp_src.txt as source). Started from work/RED-L5-pt-BR/b01 (or nl) as template, Haitian Creole, hedged Haiti notes; then WHITE all 9. Tip: translate it/nl/de/ht from the pt-BR batches (faithful to English) and swap Brazil notes for local ones; keep plain OPINION counts equal to English (checker does not test them; run the opinion check in git log).
+- Next up: RED de DONE (zip delivered). RED ht IN PROGRESS (b01-b06 done; next b07 = lessons 031-035; use tools/show45.sh RED L5 31 35 > tmp_src.txt as source). Started from work/RED-L5-pt-BR/b01 (or nl) as template, Haitian Creole, hedged Haiti notes; then WHITE all 9. Tip: translate it/nl/de/ht from the pt-BR batches (faithful to English) and swap Brazil notes for local ones; keep plain OPINION counts equal to English (checker does not test them; run the opinion check in git log).
 Status:
 - RED-L5 en-GB DONE 2026-11-20
 - RED-L5 es-ES DONE 2026-11-20
