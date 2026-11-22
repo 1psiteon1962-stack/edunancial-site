@@ -114,3 +114,4 @@ out/GREEN-L5-001-050-pt-PT.zip 2026-11-22 GREEN pt-PT from pt-BR with Portugal n
 out/GREEN-L5-001-050-it.zip 2026-11-22 50/50 pass, 34 Italy notes
 out/GREEN-L5-001-050-nl.zip 2026-11-22 50/50 pass, 34 Netherlands notes
 out/GREEN-L5-001-050-de.zip 2026-11-22 GREEN L5 German complete, 33 local notes
+out/GREEN-L5-001-050-ht.zip 2026-11-22 GREEN L5 Haitian Creole complete, hedged Haiti notes
