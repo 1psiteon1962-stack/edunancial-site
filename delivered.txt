@@ -109,3 +109,4 @@ out/BLUE-L5-001-050-ht.zip 2026-11-22 BLUE L5 Haitian complete
 out/GREEN-L5-001-050-en-GB.zip 2026-11-22 GREEN L5 British English complete
 out/GREEN-L5-001-050-es-ES.zip 2026-11-22 GREEN es-ES derived from es-Caribbean with Spain notes
 out/GREEN-L5-001-050-fr-FR.zip 2026-11-22 GREEN fr-FR derived from fr-CA with France notes
+out/GREEN-L5-001-050-pt-BR.zip 2026-11-22 GREEN pt-BR full translation
