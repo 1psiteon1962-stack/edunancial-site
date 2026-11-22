@@ -1,0 +1,339 @@
+===== BLUE-L5-031
+TITLE: Ekspansyon sou plizyè sikisal ak plizyè kote: òkestre rantabilite chak sikisal, estrikti finansman an ak inifòmite nan operasyon yo
+SUMMARY: Aprann louvri nouvo sikisal biznis ou san danje: pwouve anvan yon sikisal vrèman fè benefis, planifye lajan pou louvri chak nouvo sikisal, bati sistèm pou kenbe menm kalite a toupatou, e rekalkile depans chak kote youn pa youn.
+KEYWORDS: ekspansyon sou plizyè sikisal, rantabilite chak sikisal, estrikti finansman, òkestrasyon inifòmite nan operasyon yo
+# Ekspansyon sou plizyè sikisal ak plizyè kote: òkestre rantabilite chak sikisal, estrikti finansman an ak inifòmite nan operasyon yo
+
+## Senaryo ouvèti
+SIPOZISYON/OPINYON (sinaryo ipotetik, sèlman pou objektif ansèyman): Imajine yon gwo blòk komès ki mete toudenkou gwo tarif sou yon kategori laj pwodui endistriyèl yo enpòte, sa ki fè pri a monte pou biznis ki depann de enpòtasyon sa yo kòm matyè. Pandan tarif yo fè depans yo monte yon fason ki pa egal ant diferan matyè ak diferan kote, yon antreprenè ki vle agrandi sou plizyè kote dekouvri ke vrè rantabilite chak sikisal, estrikti finansman an ak inifòmite nan operasyon yo dwe òkestre ansanm, olye pou yo trete yo kòm aspè ekspansyon an ki separe e endepandan.
+
+## Objektif aprantisaj
+- Eksplike poukisa vrè rantabilite chak sikisal — vrè rantabilite yon sèl kote oswa yon sèl sikisal — dwe konfime e òkestre anvan yo chèche yon ekspansyon ki pi laj sou plizyè sikisal, swivan diskisyon anvan an nan Leson 6 nivo sa a sou endikatè sante biznis la.
+- Eksplike poukisa estrikti finansman yon ekspansyon sou plizyè sikisal souvan dwe resevwa plizyè bezwen kapital youn apre lòt, olye de yon sèl evènman finansman.
+- Eksplike poukisa yon vrè inifòmite nan operasyon yo ant plizyè kote se yon defi apa, paske yon biznis dwe kenbe estanda kalite ak mak li nan kote pwopriyetè a pa ka siveye pèsonèlman e dirèkteman tout tan.
+- Eksplike poukisa chanjman nan depans ki pa egal ant diferan kote espesifik, espesyalman nan mitan tarif oswa chòk nan pri matyè yo, dwe òkestre nan analiz ekspansyon an k ap kontinye, olye pou yo sipoze depans yo menm jan nan tout kote.
+
+## Kontni prensipal
+Swivan diskisyon anvan an nan Leson 6 nivo sa a sou endikatè sante biznis la, FÈ VERIFYE, vrè rantabilite chak sikisal — vrè rantabilite yon sèl kote oswa yon sèl sikisal, yo konfime — dwe konfime e òkestre anvan yo chèche yon ekspansyon ki pi laj sou plizyè sikisal, paske agrandi yon modèl biznis ki poko vrèman e onètman pwouve rantabilite chak sikisal li jis miltipliye nenpòt feblès ki anba a sou plis kote, sa ki vle di antreprenè a dwe konfime espesyalman yon rantabilite ki fò e ki vrè nan yon kote anvan l angaje l nan yon ekspansyon ki pi laj.
+
+Sa a se "poukisa" estrikti finansman yon ekspansyon sou plizyè sikisal souvan dwe resevwa plizyè bezwen kapital youn apre lòt: kontrèman ak yon sèl akizisyon oswa yon sèl ouvèti ki mande yon gwo evènman finansman, yon ekspansyon sou plizyè sikisal an jeneral mande kapital youn apre lòt pandan chak nouvo kote vrèman louvri, sa ki vle di antreprenè a dwe òkestre espesyalman yon estrikti finansman — petèt lè l konbine konsèp sou finansman akizisyon nan Leson 3 nivo sa a ak lajan k ap sikile nan operasyon kote ki deja etabli yo — ki ka vrèman sipòte bezwen kapital youn apre lòt e k ap kontinye sa a, olye pou l sipoze yon sèl evènman finansman ase pou peye tout plan ekspansyon an sou plizyè kote. Se poutèt sa yon vrè inifòmite nan operasyon yo ant plizyè kote se yon defi apa: yon biznis k ap agrandi sou plizyè kote dwe kenbe vrè estanda kalite ak mak li nan kote pwopriyetè a pa ka siveye pèsonèlman e dirèkteman tout tan, sa ki vle di biznis sa a dwe òkestre espesyalman vrè sistèm, fòmasyon ak mekanis kontwòl kalite ki fèt egzakteman pou kenbe inifòmite sa a sou yon gwo echèl, swivan diskisyon anvan an nan kourikoulòm sa a sou franchiz ak vrè valè sistèm ki etabli e ki ka repete. Se poutèt sa chanjman nan depans ki pa egal ant diferan kote espesifik dwe òkestre nan analiz ekspansyon an k ap kontinye: lè pri matyè yo chanje yon fason ki pa egal ant diferan kote oswa diferan rejyon, tankou lè tarif yo frape sèten pwodui enpòte pi fò nan kèk mache pase nan lòt, yon biznis ki vle agrandi sou plizyè sikisal dwe òkestre espesyalman yon analiz depans ki ajou e ki espesifik pou chak nouvo sikisal, olye pou l sipoze depans yo menm jan nan tout kote sou baz yon premye sipozisyon sou depans, ki ka depase, yo te fè anvan chanjman pri ki pa egal sa a.
+
+## Egzanp pratik
+EGZANP ILISTRATIF: Yon antreprenè ki te konfime yon rantabilite ki vrè e ki fò nan premye sikisal li òkestre espesyalman yon estrikti finansman ki ka sipòte bezwen kapital youn apre lòt pandan nouvo kote yo ap louvri, li bati espesyalman sistèm ak fòmasyon pou kenbe yon kalite inifòm nan kote sa yo, e li mete ajou espesyalman analiz depans chak nouvo kote, akoz chanjman nan depans ki vrèman pa egal ant diferan rejyon akoz tarif yo. Apwòch òkestre nèt sa a pèmèt biznis la agrandi yon fason ki pi serye anpil pase yon biznis ki sipoze depans yo menm jan e ki konte sèlman sou yon siveyans enfòmèl pou inifòmite a.
+
+## Egzamen pratik
+**Q1. Poukisa vrè rantabilite chak sikisal dwe konfime anvan yo chèche yon ekspansyon ki pi laj sou plizyè sikisal?**
+A) Agrandi yon modèl biznis sou plizyè kote toujou amelyore tout rantabilite a otomatikman, kit rantabilite premye sikisal la vrèman pwouve kit li pa pwouve
+B) Agrandi yon modèl biznis ki poko vrèman pwouve rantabilite chak sikisal li jis miltipliye nenpòt feblès ki anba a sou plis kote, sa ki vle di yon rantabilite pa sikisal ki fò e konfime dwe vini anvan yon ekspansyon ki pi laj
+
+**Q2. Poukisa estrikti finansman yon ekspansyon sou plizyè sikisal souvan dwe resevwa plizyè bezwen kapital youn apre lòt?**
+A) Yon ekspansyon sou plizyè sikisal toujou mande sèlman yon sèl evènman finansman, menm jan ak yon sèl akizisyon oswa yon sèl ouvèti
+B) Kontrèman ak yon sèl akizisyon, yon ekspansyon sou plizyè sikisal an jeneral mande kapital youn apre lòt pandan chak nouvo kote vrèman louvri, sa ki vle di estrikti finansman an dwe kapab sipòte bezwen k ap kontinye e youn apre lòt sa a
+
+**Q3. Poukisa yon vrè inifòmite nan operasyon yo ant plizyè kote se yon defi apa?**
+A) Yon biznis k ap agrandi sou plizyè kote ka toujou kenbe otomatikman menm estanda kalite ak mak yo, san okenn bezwen sistèm oswa fòmasyon espesifik
+B) Yon biznis dwe kenbe vrè estanda kalite ak mak nan kote pwopriyetè a pa ka siveye pèsonèlman e dirèkteman tout tan, sa ki mande sistèm ak fòmasyon espesifik, swivan diskisyon anvan an sou franchiz ak sistèm ki ka repete
+
+**Q4. Poukisa chanjman nan depans ki pa egal ant diferan kote espesifik dwe òkestre nan analiz ekspansyon an k ap kontinye?**
+A) Pri matyè yo toujou chanje menm jan e yon fason egal nan tout kote oswa nan tout rejyon, kèlkeswa tarif yo oswa chòk depans rejyonal yo
+B) Lè depans yo chanje yon fason ki pa egal ant kote yo, yon biznis dwe òkestre yon analiz depans ki ajou e ki espesifik pou chak nouvo sikisal, olye pou l sipoze depans yo menm jan sou baz yon premye sipozisyon ki ka depase
+
+**Q5. Nan egzanp lan, poukisa apwòch ekspansyon antreprenè a te pi serye pase yon apwòch ki sipoze depans yo menm jan ak yon siveyans enfòmèl?**
+A) An reyalite, antreprenè a te sipoze depans yo menm jan nan tout kote e li te konte sèlman sou yon siveyans enfòmèl pou inifòmite kalite a
+B) Antreprenè a te konfime vrè rantabilite chak sikisal anvan, li te òkestre yon finansman youn apre lòt, li te bati sistèm espesifik pou inifòmite a e li te mete ajou analiz depans yo akoz chanjman nan depans ki pa egal ant kote yo akoz tarif yo
+
+## Kle repons yo
+Q1: B
+Q2: B
+Q3: B
+Q4: B
+Q5: B
+
+## Repons ak eksplikasyon
+**Q1.** Se egzakteman risk sa a pou miltipliye yon feblès ki poko pwouve sou plis kote ki fè rantabilite chak sikisal dwe konfime anvan yon ekspansyon ki pi laj.
+
+**Q2.** Se egzakteman bezwen kapital youn apre lòt sa a pandan chak nouvo kote ap louvri ki fè estrikti finansman an dwe kapab sipòte bezwen k ap kontinye yo, olye de yon sèl evènman finansman.
+
+**Q3.** Se egzakteman enposiblite sa a pou pwopriyetè a siveye tout kote yo pèsonèlman ki fè inifòmite a mande sistèm ak fòmasyon espesifik, nan menm liy ak diskisyon anvan an sou franchiz.
+
+**Q4.** Se egzakteman chanjman nan depans ki pa egal sa yo ant kote yo ki fè chak nouvo sikisal bezwen pwòp analiz depans ajou li, olye de yon sipozisyon depans menm jan ki ka depase.
+
+**Q5.** Ilistrasyon dirèk sa a yon ekspansyon ki òkestre nèt montre egzakteman poukisa leson sa a mete aksan sou bezwen pou kowòdone rantabilite chak sikisal, estrikti finansman an ak inifòmite nan operasyon yo ansanm.
+
+## Pwen kle yo
+- Vrè rantabilite chak sikisal dwe konfime anvan yo chèche yon ekspansyon ki pi laj sou plizyè sikisal, paske ekspansyon an miltipliye nenpòt feblès ki anba a nan yon rantabilite pa sikisal ki poko pwouve.
+- Estrikti finansman yon ekspansyon sou plizyè sikisal souvan dwe resevwa bezwen kapital youn apre lòt e k ap kontinye, olye de yon sèl evènman finansman.
+- Yon vrè inifòmite nan operasyon yo ant plizyè kote mande sistèm ak fòmasyon espesifik, swivan diskisyon anvan an sou franchiz ak sistèm ki ka repete.
+- Chanjman nan depans ki pa egal ant diferan kote espesifik dwe òkestre nan analiz ekspansyon an k ap kontinye, olye pou yo sipoze depans yo menm jan nan tout kote.
+
+===== BLUE-L5-032
+TITLE: Crowdfunding ak equity crowdfunding pou biznis yo: òkestre aksè a, depans yo, ilikidite pou envestisè yo ak istwa siksè platfòm nan
+SUMMARY: Dekouvri ki lè li fè sans pou w vann pati nan biznis ou bay anpil ti envestisè sou entènèt, poukisa depans platfòm nan dwe konpare ak yon prè oswa ak yon asosye k ap envesti, ki obligasyon ou genyen anvè envestisè sa yo, e poukisa ou dwe verifye vrè istwa siksè platfòm nan.
+KEYWORDS: equity crowdfunding, estrikti depans platfòm nan, ilikidite pou envestisè yo, evalyasyon istwa siksè platfòm nan
+# Crowdfunding ak equity crowdfunding pou biznis yo: òkestre aksè a, depans yo, ilikidite pou envestisè yo ak istwa siksè platfòm nan
+
+## Senaryo ouvèti
+SIPOZISYON/OPINYON (sinaryo ipotetik, sèlman pou objektif ansèyman): Imajine yon gwo kriz sante piblik ki bloke transpò maritim ak pwodiksyon endistriyèl nan mond lan pandan lontan, sa ki fè chèn apwovizyònman anpil sektè kanpe an menm tan. Pandan kriz laj sa a pouse anpil biznis chèche lòt sous kapital bò kote finansman bank klasik la, platfòm equity crowdfunding yo vin pi popilè, sa ki mande pou antreprenè yo òkestre vrè avantaj aksè a kont depans yo, kesyon ilikidite pou envestisè yo ak istwa siksè platfòm nan.
+
+## Objektif aprantisaj
+- Elaji diskisyon anvan an nan Leson 32 WHITE-L5 kourikoulòm sa a sou crowdfunding, kounye a apati pwen de vi antreprenè a li menm, e eksplike vrè avantaj aksè equity crowdfunding ka bay yon biznis ki pa ka jwenn ase finansman klasik.
+- Eksplike poukisa estrikti depans espesifik yon platfòm crowdfunding dwe òkestre kont lòt chemen pou leve kapital ki konparab, swivan diskisyon ki pi laj kourikoulòm sa a sou òkestrasyon depans yo.
+- Eksplike poukisa equity crowdfunding kreye vrè obligasyon k ap kontinye anvè yon kantite ti envestisè ki ka gwo, yon kesyon apa apati pwen de vi antreprenè a.
+- Eksplike poukisa antreprenè a dwe fè rechèch espesyalman sou vrè istwa siksè yon platfòm crowdfunding posib, swivan aksan ki pi laj kourikoulòm sa a mete sou prèv ki verifye, anvan l angaje l pou l leve kapital atravè platfòm espesifik sa a.
+
+## Kontni prensipal
+Nan elaji diskisyon anvan an nan Leson 32 WHITE-L5 kourikoulòm sa a sou crowdfunding, kounye a apati pwen de vi antreprenè a li menm kòm moun k ap leve kapital la, e pa kòm envestisè, FÈ VERIFYE, equity crowdfunding ka bay yon biznis ki pa ka jwenn ase finansman bank klasik oswa lòt kapital enstitisyonèl yon vrè avantaj aksè, lè l pèmèt biznis sa a leve kapital dirèkteman nan men yon kantite envestisè endividyèl ki ka gwo, sa ki vle di zouti sa a vrèman louvri yon chemen pou leve kapital ki ta ka pa disponib otreman pou sèten biznis, espesyalman ti biznis oswa biznis ki fèk kòmanse; an Ayiti, pa egzanp, dapre enfòmasyon ki disponib pa gen yon kad legal espesyal pou equity crowdfunding, e pifò platfòm yo se platfòm etranje ki gen pwòp règ pa yo, sa ki ka atire envestisè nan dyaspora a, kidonk verifye règ ki aplike yo ak yon avoka anvan ou leve kapital nan men piblik la.
+
+Sa a se "poukisa" estrikti depans espesifik yon platfòm crowdfunding dwe òkestre kont lòt chemen pou leve kapital ki konparab: yon platfòm crowdfunding an jeneral fè peye sèten frè pou fasilite kalite leve kapital sa a, sa ki vle di antreprenè a dwe òkestre espesyalman vrè depans sa yo kont lòt opsyon ki konparab, ki gen ladan l finansman bank klasik, swivan diskisyon anvan an nan Leson 3 nivo sa a, oswa envestisman deyò nan kapital, swivan diskisyon anvan an nan Leson 18 nivo sa a, swivan diskisyon ki pi laj kourikoulòm sa a sou òkestrasyon depans yo ak sou fason pou jije depans yo kont vrè altènativ ki konparab, e pa separe. Se poutèt sa equity crowdfunding kreye vrè obligasyon k ap kontinye anvè yon kantite ti envestisè ki ka gwo, yon kesyon apa apati pwen de vi antreprenè a: kontrèman ak yon sèl envestisè enstitisyonèl oswa yon ti kantite asosye, equity crowdfunding ka kreye obligasyon k ap kontinye nan rapò, kominikasyon ak gouvènans anvè yon kantite envestisè endividyèl ki ka gwo, sa ki vle di antreprenè a dwe òkestre espesyalman kesyon administratif ak gouvènans ki vrè e ki apa sa a nan tout desizyon li sou leve kapital, olye pou l sipoze crowdfunding jis pote kapital san okenn obligasyon k ap kontinye ki koresponn. Se poutèt sa antreprenè a dwe fè rechèch espesyalman sou vrè istwa siksè yon platfòm crowdfunding posib, swivan aksan ki pi laj kourikoulòm sa a mete sou prèv ki verifye: antreprenè a dwe verifye espesyalman vrè to siksè istorik yon platfòm espesifik nan ede biznis ki konparab vrèman leve kapital yo t ap chèche a, olye pou l sipoze nenpòt platfòm ki gen non jeneral sa a ap bay yon sipò ki efikas e ki serye menm jan nan leve kapital, swivan aksan kourikoulòm sa a mete toujou sou prèv ki verifye e pa sou pwomès piblisite.
+
+## Egzanp pratik
+EGZANP ILISTRATIF: Yon antreprenè ki pa ka jwenn ase finansman bank klasik òkestre espesyalman vrè avantaj aksè equity crowdfunding ta bay kont estrikti depans espesifik platfòm nan, konpare ak lòt chemen pou leve kapital, epi li konsidere espesyalman vrè obligasyon k ap kontinye nan rapò ak gouvènans apwòch sa a ta kreye anvè yon kantite envestisè endividyèl ki ka gwo. Antreprenè sa a fè rechèch espesyalman tou sou vrè istwa siksè platfòm sa a nan ede biznis ki konparab leve kapital avèk siksè, olye pou l sipoze nenpòt platfòm crowdfunding ta bay yon sipò ki efikas menm jan, anvan l angaje l nan chemen espesifik sa a pou leve kapital.
+
+## Egzamen pratik
+**Q1. Ki vrè avantaj aksè equity crowdfunding ka bay yon antreprenè ki pa ka jwenn ase finansman klasik?**
+A) Equity crowdfunding pa bay okenn vrè avantaj aksè pase sa finansman bank klasik oswa kapital enstitisyonèl ta deja bay
+B) Equity crowdfunding ka pèmèt yon biznis ki pa ka jwenn ase finansman klasik leve kapital dirèkteman nan men yon kantite envestisè endividyèl ki ka gwo, e konsa li louvri yon chemen ki ta ka pa disponib otreman
+
+**Q2. Poukisa estrikti depans espesifik yon platfòm crowdfunding dwe òkestre kont lòt chemen pou leve kapital ki konparab?**
+A) Estrikti depans espesifik yon platfòm crowdfunding pa janm dwe konpare ak okenn lòt chemen pou leve kapital, paske depans sa yo toujou jistifye otomatikman, kèlkeswa opsyon ki konparab yo
+B) Antreprenè a dwe òkestre vrè depans sa yo kont altènativ ki konparab, tankou finansman bank klasik oswa envestisman deyò nan kapital, swivan diskisyon ki pi laj la sou fason pou jije depans yo kont vrè altènativ
+
+**Q3. Poukisa equity crowdfunding kreye vrè obligasyon k ap kontinye anvè yon kantite ti envestisè ki ka gwo?**
+A) Equity crowdfunding toujou kreye obligasyon k ap kontinye nan rapò ak gouvènans ki menm jan ak sa ki anvè yon sèl envestisè enstitisyonèl, san okenn diferans ki enpòtan ak lòt chemen pou leve kapital
+B) Kontrèman ak yon sèl envestisè enstitisyonèl oswa yon ti kantite asosye, equity crowdfunding ka kreye obligasyon k ap kontinye nan rapò, kominikasyon ak gouvènans anvè yon kantite envestisè endividyèl ki ka gwo
+
+**Q4. Poukisa antreprenè a dwe fè rechèch espesyalman sou vrè istwa siksè yon platfòm crowdfunding posib?**
+A) Chak platfòm crowdfunding toujou bay yon sipò ki menm jan, ki efikas e ki serye menm jan nan leve kapital pou chak biznis ki konparab
+B) Antreprenè a dwe verifye vrè to siksè istorik yon platfòm nan ede biznis ki konparab vrèman leve kapital yo t ap chèche a, swivan aksan kourikoulòm sa a mete toujou sou prèv ki verifye e pa sou pwomès piblisite
+
+**Q5. Poukisa fason antreprenè a te aji nan egzanp lan te montre yon aplikasyon solid prensip leson sa a?**
+A) Antreprenè a te angaje l nan premye platfòm crowdfunding ki te disponib, sèlman akoz atirans jeneral aksè a, san okenn lòt analiz òkestre
+B) Antreprenè a te òkestre vrè avantaj aksè a kont estrikti depans yo, obligasyon k ap kontinye anvè envestisè yo ak vrè istwa siksè platfòm nan, anvan l angaje l nan chemen espesifik sa a pou leve kapital
+
+## Kle repons yo
+Q1: B
+Q2: B
+Q3: B
+Q4: B
+Q5: B
+
+## Repons ak eksplikasyon
+**Q1.** Se egzakteman posiblite sa a pou leve kapital dirèkteman nan men anpil envestisè ki fè equity crowdfunding bay yon vrè avantaj aksè pou biznis ki pa ka jwenn ase finansman klasik.
+
+**Q2.** Se egzakteman bezwen sa a pou jije depans platfòm nan kont altènativ ki konparab, swivan diskisyon ki pi laj la sou depans, ki fè frè platfòm yo dwe òkestre nan desizyon an.
+
+**Q3.** Se egzakteman kantite envestisè sa a ki ka gwo, ak obligasyon rapò ak gouvènans ki vini avè l, ki fè equity crowdfunding kreye yon kesyon administratif apa pou antreprenè a.
+
+**Q4.** Se egzakteman aksan sa a sou prèv ki verifye, olye de pwomès piblisite, ki fè antreprenè a dwe verifye vrè istwa siksè yon platfòm anvan l angaje l.
+
+**Q5.** Ilistrasyon dirèk sa a kijan pou òkestre aksè, depans, obligasyon ak istwa siksè ansanm montre egzakteman poukisa leson sa a mete aksan sou apwòch kowòdone sa a nan equity crowdfunding.
+
+## Pwen kle yo
+- Equity crowdfunding ka bay yon vrè aksè a yon biznis ki pa ka jwenn ase finansman bank klasik oswa kapital enstitisyonèl; an Ayiti, pa gen yon kad legal espesyal, e pifò platfòm yo se platfòm etranje.
+- Estrikti depans espesifik yon platfòm crowdfunding dwe òkestre kont lòt chemen pou leve kapital ki konparab, swivan diskisyon ki pi laj la sou òkestrasyon depans yo.
+- Equity crowdfunding kreye vrè obligasyon k ap kontinye nan rapò ak gouvènans anvè yon kantite envestisè endividyèl ki ka gwo, yon kesyon apa pou antreprenè a.
+- Antreprenè a dwe fè rechèch espesyalman sou vrè istwa siksè yon platfòm posib, swivan aksan kourikoulòm sa a mete toujou sou prèv ki verifye e pa sou pwomès piblisite.
+
+===== BLUE-L5-033
+TITLE: Maj sekirite nan akizisyon yon biznis: òkestre ensètitid evalyasyon an, vrè kalite biznis la ak disiplin sou pri a
+SUMMARY: Aprann achte yon biznis sèlman lè pri a pi ba anpil pase valè ou te estime onètman, paske nenpòt evalyasyon ka fo, paske yon pri ki ba pafwa kache yon biznis k ap tonbe, e poukisa konnen ki lè pou w kite yon move zafè se pati ki pi enpòtan an.
+KEYWORDS: maj sekirite, evalyasyon nan akizisyon yon biznis, evalyasyon kalite biznis la, disiplin sou pri a
+# Maj sekirite nan akizisyon yon biznis: òkestre ensètitid evalyasyon an, vrè kalite biznis la ak disiplin sou pri a
+
+## Senaryo ouvèti
+SIPOZISYON/OPINYON (sinaryo ipotetik, sèlman pou objektif ansèyman): Imajine mache imobilye ak kredi konsomasyon yon peyi ki gen anpil anpil moun, apre plizyè ane kwasans rapid, kòmanse montre siy yon koreksyon fò pandan moun ki pa peye dèt yo ap ogmante. Pandan yon koreksyon mache ki chita sou kredi fè anpil biznis ki an vant gen pri ki sanble se okazyon, achtè posib ki aplike yon vrè disiplin maj sekirite fè diferans ant biznis ki vrèman sou-evalye konpare ak yon kalite solid ki anba a, ak biznis ki tou senpleman bon mache pou yon bon rezon.
+
+## Objektif aprantisaj
+- Elaji dirèkteman diskisyon anvan an nan Leson 33 WHITE-L5 kourikoulòm sa a sou maj sekirite a nan akizisyon biznis, e eksplike poukisa yon achtè dwe achte yon biznis konsyaman ak yon vrè rabè konpare ak yon estimasyon ki fèt ak atansyon e ki onèt sou valè entrinsèk li.
+- Eksplike poukisa konsèp maj sekirite sa a mande espesyalman pou òkestre vrè ensètitid evalyasyon an, paske chak estimasyon espesifik sou valè yon biznis pote pwòp ensètitid li achtè a dwe rekonèt onètman.
+- Eksplike poukisa maj sekirite a mande tou pou òkestre yon evalyasyon onèt sou kalite biznis la ki anba a, paske yon pri yo mande ki vrèman ba poukont li pa montre yon vrè valè si baz biznis la li menm ap vrèman deteryore pou bon rezon.
+- Eksplike poukisa disiplin sou pri a — vrèman kite yon akizisyon ki pa gen yon maj sekirite apwopriye, olye pou yo achte twò bonè akoz enpasyans oswa fatig nan negosyasyon — se aplikasyon pratik e konpòtman konsèp sa a.
+
+## Kontni prensipal
+Nan elaji dirèkteman diskisyon anvan an nan Leson 33 WHITE-L5 kourikoulòm sa a sou maj sekirite a nan akizisyon biznis, FÈ VERIFYE, yon achtè dwe achte yon biznis konsyaman ak yon vrè rabè konpare ak yon estimasyon ki fèt ak atansyon e ki onèt sou valè entrinsèk li, egzakteman pou l gen pwoteksyon kont vrè ensètitid evalyasyon an ak vrè posiblite yon erè nan analiz la, sa ki vle di konsèp sa a rekonèt klèman ke chak estimasyon espesifik sou valè yon biznis pa sèten pa nati li e se pa yon chif egzak ki kòrèk ak sètitid, nan swiv egzakteman prensip santral diskisyon anvan an, kounye a aplike sou akizisyon yon biznis antye e pa sou yon tit ki sou labous.
+
+Sa a se "poukisa" konsèp sa a mande espesyalman pou òkestre vrè ensètitid evalyasyon an: paske chak estimasyon espesifik sou valè yon biznis depann de sipozisyon ki vrèman pa sèten sou benefis fiti biznis la li menm, kwasans li ak lòt karakteristik debaz li, souvan ak mwens enfòmasyon disponib anpil pase sa yon tit sou labous ta bay, achtè a dwe rekonèt onètman vrè ensètitid sa a, olye pou l trete yon estimasyon espesifik kòm yon chif ki egzakteman kòrèk, sa ki vle di konsèp maj sekirite a òkestre espesyalman rekonesans onèt sa a nan desizyon acha a li menm, lè l mande yon vrè rabè konpare ak valè yo estime a. Se poutèt sa maj sekirite a mande tou pou òkestre yon evalyasyon onèt sou kalite biznis la ki anba a: yon pri yo mande ki vrèman ba poukont li pa montre yon vrè valè si baz biznis la li menm ap vrèman deteryore pou bon rezon, paske yon biznis ka vrèman bon mache egzakteman paske mache a oswa pwòp sikonstans vandè a reflete kòrèkteman e egzakteman yon vrè deteryorasyon nan avni biznis sa a, sa ki vle di achtè a dwe òkestre espesyalman yon evalyasyon onèt sou kalite biznis la, swivan diskisyon anvan an nan Leson 6 nivo sa a sou endikatè sante biznis la, ansanm ak rabè sou pri a li menm. Se poutèt sa disiplin sou pri a se aplikasyon pratik e konpòtman konsèp sa a: aplike vrèman konsèp maj sekirite a mande pou achtè a egzèse espesyalman yon vrè disiplin sou pri a — kite onètman yon opòtinite akizisyon espesifik ki pa bay yon rabè apwopriye konpare ak yon estimasyon valè ki fèt ak atansyon, olye pou l achte twò bonè akoz enpasyans, fatig nan negosyasyon oswa laperèz pou l rate opòtinite a —, sa ki vle di disiplin konpòtman sa a se aplikasyon pratik e òkestre ki konekte konsèp teyorik maj sekirite a ak vrè desizyon akizisyon konkrè yon envestisè.
+
+## Egzanp pratik
+EGZANP ILISTRATIF: Yon achtè posib k ap egzamine yon biznis espesifik ki gen yon pri yo mande ki vrèman ba pandan yon koreksyon mache ki pi laj òkestre espesyalman yon estimasyon valè entrinsèk ki fèt ak atansyon e ki onèt, pandan l rekonèt klèman vrè ensètitid estimasyon sa a, li evalye onètman si baz biznis la li menm, swivan diskisyon anvan an nan Leson 6 nivo sa a, vrèman rete solid oswa y ap deteryore pou bon rezon, e li egzèse espesyalman yon disiplin sou pri a lè l kite opòtinite espesifik sa a depi analiz ki fèt ak atansyon an montre pri yo mande a pa bay yon rabè ki vrèman apwopriye konpare ak estimasyon valè onèt sa a.
+
+## Egzamen pratik
+**Q1. Poukisa yon achtè dwe achte yon biznis konsyaman ak yon vrè rabè konpare ak yon estimasyon valè entrinsèk ki fèt ak atansyon e ki onèt, nan elaji diskisyon anvan an nan WHITE-L5?**
+A) Yon achtè dwe toujou achte yon biznis nan valè nenpòt estimasyon valè entrinsèk ki fèt ak atansyon oswa pi wo, san okenn vrè bezwen yon rabè espesifik
+B) Vrè rabè sa a bay pwoteksyon kont vrè ensètitid evalyasyon an ak vrè posiblite yon erè nan analiz la, nan swiv egzakteman diskisyon anvan an sou maj sekirite a, kounye a aplike sou akizisyon yon biznis antye
+
+**Q2. Poukisa konsèp sa a mande espesyalman pou òkestre vrè ensètitid evalyasyon an nan kontèks akizisyon yon biznis?**
+A) Chak estimasyon espesifik sou valè yon biznis toujou se yon chif egzak e ki kòrèk ak sètitid, san okenn vrè ensètitid, espesyalman akoz enfòmasyon ki an jeneral limite yo
+B) Yon estimasyon espesifik sou valè yon biznis depann de sipozisyon ki vrèman pa sèten, souvan ak mwens enfòmasyon disponib anpil pase pou yon tit sou labous, sa ki vle di achtè a dwe rekonèt onètman ensètitid sa a lè l mande yon vrè rabè
+
+**Q3. Poukisa maj sekirite a mande tou pou òkestre yon evalyasyon onèt sou kalite biznis la ki anba a, swivan Leson 6 anvan an nan nivo sa a?**
+A) Yon pri yo mande ki vrèman ba toujou montre yon vrè valè, kèlkeswa vrè eta debaz biznis la li menm
+B) Yon pri ki vrèman ba poukont li pa montre yon vrè valè si baz biznis la ap vrèman deteryore pou bon rezon, sa ki vle di yon evalyasyon onèt sou kalite biznis la, swivan diskisyon anvan an sou endikatè sante biznis la, dwe òkestre ansanm ak pri a
+
+**Q4. Poukisa disiplin sou pri a se aplikasyon pratik e konpòtman konsèp maj sekirite a?**
+A) Aplike vrèman konsèp sa a mande pou achte imedyatman depi yon biznis sanble yon ti kras bon mache, san okenn bezwen yon limit rabè oswa yon disiplin espesifik
+B) Aplike vrèman konsèp sa a mande pou kite onètman yon akizisyon ki pa gen yon rabè apwopriye, olye pou achte twò bonè akoz enpasyans oswa fatig nan negosyasyon, sa ki fòme lyen konpòtman e pratik ak vrè desizyon yo
+
+**Q5. Nan egzanp lan, poukisa achtè posib la te kite opòtinite akizisyon espesifik la?**
+A) Achtè a te achte biznis la sèlman paske pri yo mande a te sanble ba, san okenn estimasyon valè onèt, san evalyasyon kalite biznis la e san disiplin sou pri a
+B) Achtè a te òkestre yon estimasyon valè ki fèt ak atansyon e ki onèt, pandan l te rekonèt vrè ensètitid la, li te evalye onètman kalite biznis la ki anba a e li te egzèse yon vrè disiplin sou pri a, kote li te konstate pri yo mande a pa t bay yon rabè apwopriye
+
+## Kle repons yo
+Q1: B
+Q2: B
+Q3: B
+Q4: B
+Q5: B
+
+## Repons ak eksplikasyon
+**Q1.** Se egzakteman pwoteksyon sa a kont ensètitid evalyasyon an ak posiblite yon erè ki fè achtè a dwe achte ak yon vrè rabè, nan menm liy ak diskisyon anvan an sou maj sekirite a.
+
+**Q2.** Se egzakteman sipozisyon ki pa sèten sa yo ak enfòmasyon ki limite nan akizisyon yon biznis ki fè ensètitid evalyasyon an dwe rekonèt onètman atravè yon rabè.
+
+**Q3.** Se egzakteman posiblite sa a pou yon pri ba reflete yon vrè deteryorasyon ki fè kalite biznis la dwe evalye onètman ansanm ak pri a, swivan diskisyon anvan an sou endikatè sante biznis la.
+
+**Q4.** Se egzakteman kapasite sa a pou kite yon akizisyon san rabè apwopriye ki fè disiplin sou pri a se aplikasyon pratik ki konekte konsèp maj sekirite a ak vrè desizyon yo.
+
+**Q5.** Ilistrasyon dirèk sa a yon achtè ki kite yon zafè ki pa bay ase rabè montre egzakteman poukisa leson sa a mete aksan sou bezwen pou òkestre ensètitid evalyasyon an, kalite biznis la ak disiplin sou pri a ansanm.
+
+## Pwen kle yo
+- Yon achtè dwe achte yon biznis konsyaman ak yon vrè rabè konpare ak yon estimasyon valè entrinsèk ki fèt ak atansyon e ki onèt, sa ki bay pwoteksyon kont vrè ensètitid la.
+- Konsèp sa a mande pou òkestre vrè ensètitid evalyasyon an, espesyalman akoz enfòmasyon ki an jeneral limite nan kontèks akizisyon yon biznis.
+- Maj sekirite a mande tou pou òkestre yon evalyasyon onèt sou kalite biznis la, swivan diskisyon anvan an sou endikatè sante biznis la, paske yon pri ba poukont li pa montre yon vrè valè.
+- Disiplin sou pri a — vrèman kite yon opòtinite ki pa apwopriye — se aplikasyon konpòtman e pratik ki konekte konsèp sa a ak vrè desizyon akizisyon yo.
+
+===== BLUE-L5-034
+TITLE: Sitiyasyon fiskal pwopriyetè ki dirije biznis la ak patisipasyon enpòtan: òkestre règ sou patisipasyon, vrè angajman an ak konpwomi sou karyè a
+SUMMARY: Konprann poukisa nivo kote ou vrèman travay nan biznis ou ka chanje fason yo trete pèt li yo sou plan fiskal, poukisa yon moun ki gen yon travay plen tan bò kote l fè fas ak yon chwa difisil, e poukisa li pa janm vo lapenn abandone yon bon karyè sèlman pou yon avantaj fiskal.
+KEYWORDS: patisipasyon enpòtan, sitiyasyon fiskal pwopriyetè ki dirije biznis la, patisipasyon pasif kont patisipasyon aktif, òkestrasyon konpwomi sou karyè a
+# Sitiyasyon fiskal pwopriyetè ki dirije biznis la ak patisipasyon enpòtan: òkestre règ sou patisipasyon, vrè angajman an ak konpwomi sou karyè a
+
+## Senaryo ouvèti
+SIPOZISYON/OPINYON (sinaryo ipotetik, sèlman pou objektif ansèyman): Imajine mache imobilye ak kredi konsomasyon yon peyi ki gen anpil anpil moun, apre plizyè ane kwasans rapid, kòmanse montre siy yon koreksyon fò pandan moun ki pa peye dèt yo ap ogmante. Pandan yon koreksyon mache ki chita sou kredi lakoz vrè pèt pou kèk pwopriyetè biznis ki pa patisipe anpil dirèkteman, kèk ladan yo dekouvri ke vrè nivo patisipasyon aktif yo nan biznis la deside anpil kijan yo ka vrèman trete pèt sa yo sou plan fiskal, nan menm liy ak diskisyon anvan yo nan kourikoulòm sa a sou sitiyasyon fiskal pwofesyonèl imobilye a ak sitiyasyon fiskal machann nan.
+
+## Objektif aprantisaj
+- Elaji diskisyon anvan yo nan Leson 34 RED-L5 ak Leson 34 WHITE-L5 kourikoulòm sa a sou pwopriyete yon biznis, e eksplike konsèp jeneral patisipasyon enpòtan an ak poukisa vrè nivo angajman sa a enfliyanse tretman fiskal la.
+- Eksplike distenksyon jeneral ant patisipasyon aktif ak patisipasyon pasif nan yon biznis, RÈG ESPESIFIK POU REJYON AN paske sijè sa a teknik e diferan selon chak jiridiksyon, e poukisa distenksyon sa a ka deside si pèt biznis la ka konpanse ak lòt revni.
+- Eksplike poukisa yon pwopriyetè ki gen yon travay ki vrè e ki mande anpil tan yon lòt kote ka fè fas ak yon vrè konpwomi ant karyè deyò li ak nivo patisipasyon sèten tretman fiskal favorab mande, nan menm liy ak konklizyon paralèl diskisyon anvan yo sou sitiyasyon fiskal pwofesyonèl imobilye a ak machann nan.
+- Eksplike poukisa pwopriyetè a dwe òkestre vrè avantaj fiskal la kont vrè konpwomi sa a sou karyè ak tan li, olye pou l chèche yon nivo patisipasyon espesifik sèlman pou avantaj fiskal la, lè yo gade l poukont li.
+
+## Kontni prensipal
+Nan elaji diskisyon anvan yo nan Leson 34 RED-L5 ak Leson 34 WHITE-L5 kourikoulòm sa a sou pwopriyete yon biznis, FÈ VERIFYE, konsèp jeneral patisipasyon enpòtan an gen pou wè ak vrè nivo angajman aktif pwopriyetè a li menm nan operasyon yon biznis espesifik, sa ki vle di vrè nivo angajman sa a ka deside anpil kijan règ fiskal yo trete pati pwopriyetè sa a nan benefis oswa nan pèt biznis la, nan yon paralèl egzak ak konsèp sitiyasyon fiskal pwofesyonèl imobilye a ak machann nan kourikoulòm sa a deja trete nan kontèks paralèl.
+
+Sa a se "poukisa" distenksyon jeneral ant patisipasyon aktif ak patisipasyon pasif nan yon biznis ka deside si pèt yo ka konpanse ak lòt revni: RÈG ESPESIFIK POU REJYON AN, verifye règ aktyèl e espesifik sou patisipasyon enpòtan ak aktivite pasif nan jiridiksyon ou, paske sa a se yon sijè espesifik, teknik e ki diferan selon chak jiridiksyon, men anpil jiridiksyon limite espesyalman kapasite yon pwopriyetè pou l konpanse pèt biznis la ak lòt revni ki pa gen rapò avè l, sof si pwopriyetè sa a rive nan sèten papòt patisipasyon aktif ki vrè e ki espesifik, sa ki vle di vrè nivo angajman onèt yon pwopriyetè ka deside anpil si vrè pèt biznis la ka vrèman bay kalite avantaj fiskal sa a; an Ayiti, pa egzanp, pèt fiskal yon sosyete an jeneral rete nan sosyete a e li ka sèlman konpanse ak benefis pita sosyete a li menm, nan limit lalwa fikse, e li pa ka konpanse ak salè oswa lòt revni asosye a, pandan règ pou antrepriz endividyèl yo ka diferan, kidonk verifye fason sitiyasyon pa w trete ak yon kontab oswa yon konseye fiskal. Se poutèt sa yon pwopriyetè ki gen yon travay ki vrè e ki mande anpil tan yon lòt kote ka fè fas ak yon vrè konpwomi, nan menm liy ak konklizyon paralèl diskisyon anvan yo sou sitiyasyon fiskal pwofesyonèl imobilye a ak machann nan: paske rive nan sèten papòt patisipasyon enpòtan an jeneral mande yon angajman tan ki vrèman gwo nan vrè operasyon biznis la li menm, yon pwopriyetè ki gen yon travay ki vrè e ki mande anpil tan nan yon karyè apa ki pa gen rapò ka dekouvri ke rive nan nivo patisipasyon sa a vrèman pa konpatib ak kontinye lòt karyè sa a nan menm nivo angajman konplè li ye kounye a, nan yon paralèl egzak ak konklizyon paralèl diskisyon anvan sa yo te jwenn nan kontèks imobilye ak komès la. Se poutèt sa pwopriyetè a dwe òkestre vrè avantaj fiskal la kont vrè konpwomi sa a sou karyè ak tan li: pwopriyetè a dwe òkestre espesyalman e onètman vrè avantaj fiskal yon nivo patisipasyon espesifik ta ka bay kont vrè valè nenpòt karyè oswa nenpòt angajman tan ki ta dwe vrèman diminye oswa abandone pou l rive nan nivo patisipasyon sa a, olye pou l chèche yon nivo patisipasyon espesifik sèlman pou avantaj fiskal la, lè yo gade l poukont li, nan swiv egzakteman konklizyon santral chak nan diskisyon paralèl anvan yo nan kourikoulòm sa a sou imobilye ak komès te rive ladan l nan pwòp kontèks pa l.
+
+## Egzanp pratik
+EGZANP ILISTRATIF: Yon antreprenè ki te sibi vrè pèt nan yon biznis li posede, men li pa dirije aktivman akoz pwòp karyè apa li ki mande anpil tan, ap reflechi si ogmante vrè angajman li pou l rive nan papòt patisipasyon enpòtan yo ta fè pèt sa yo ka konpanse ak lòt revni li. Lè l òkestre onètman vrè ekonomi fiskal sa a ta ka bay kont egzijans espesifik pou l diminye anpil gwo angajman li nan karyè li, antreprenè sa a rive nan konklizyon ke vrè valè lòt karyè li depase anpil ekonomi fiskal espesifik pi gwo patisipasyon sa a ta bay, nan menm liy egzak ak konklizyon diskisyon anvan yo nan kourikoulòm sa a sou sitiyasyon fiskal pwofesyonèl imobilye a ak machann nan te rive ladan l nan pwòp kontèks paralèl yo.
+
+## Egzamen pratik
+**Q1. Ak kisa konsèp jeneral patisipasyon enpòtan an gen pou wè, nan elaji diskisyon anvan yo nan RED-L5 ak WHITE-L5?**
+A) Patisipasyon enpòtan pa gen okenn vrè rapò ak vrè nivo angajman aktif yon pwopriyetè nan operasyon yon biznis espesifik
+B) Vrè nivo angajman aktif pwopriyetè a li menm nan operasyon yon biznis, sa ki ka deside anpil kijan règ fiskal yo trete pati pwopriyetè sa a nan benefis oswa nan pèt yo, nan yon paralèl egzak ak konsèp sitiyasyon fiskal pwofesyonèl imobilye a ak machann nan
+
+**Q2. Poukisa distenksyon ant patisipasyon aktif ak patisipasyon pasif nan yon biznis ka deside si pèt yo ka konpanse ak lòt revni?**
+A) Nenpòt pèt yon biznis, kèlkeswa vrè nivo angajman pwopriyetè a, ka toujou konpanse libman ak tout lòt revni pwopriyetè a resevwa
+B) Anpil jiridiksyon limite espesyalman kapasite yon pwopriyetè pou l konpanse pèt biznis la ak lòt revni, sof si yo rive nan sèten papòt patisipasyon aktif ki vrè e ki espesifik, sa ki vle di vrè nivo angajman an ka deside tretman fiskal sa a
+
+**Q3. Poukisa yon pwopriyetè ki gen yon travay ki vrè e ki mande anpil tan yon lòt kote ka fè fas ak yon vrè konpwomi sou patisipasyon enpòtan an, nan menm liy ak diskisyon anvan yo?**
+A) Yon pwopriyetè ka toujou rive nèt nan papòt patisipasyon enpòtan yo e an menm tan kenbe yon angajman konplè, san diminisyon, nan yon karyè apa ki pa gen rapò
+B) Rive nan sèten papòt patisipasyon an jeneral mande yon gwo angajman tan, sa ki vle di yon pwopriyetè ki gen yon travay ki mande anpil tan yon lòt kote ka dekouvri sa a vrèman pa konpatib ak kontinye lòt karyè sa a ak yon angajman konplè, nan menm liy ak diskisyon anvan yo sou imobilye ak komès
+
+**Q4. Poukisa pwopriyetè a dwe òkestre vrè avantaj fiskal la kont vrè konpwomi sa a sou karyè a, olye pou l chèche patisipasyon an sèlman pou avantaj fiskal la?**
+A) Vrè ekonomi fiskal yon nivo patisipasyon espesifik ta ka bay toujou depase otomatikman e klèman valè nenpòt angajman nan karyè pwopriyetè a dwe diminye
+B) Pwopriyetè a dwe òkestre onètman vrè ekonomi fiskal la kont vrè valè nenpòt angajman nan karyè ki ta dwe diminye, nan swiv egzakteman konklizyon santral chak nan diskisyon anvan yo sou imobilye ak komès te rive ladan l
+
+**Q5. Nan egzanp lan, poukisa antreprenè a te deside pa ogmante patisipasyon li pou l rive nan papòt patisipasyon enpòtan yo?**
+A) Antreprenè a te rive nan konklizyon ke vrè valè lòt karyè li te pi piti anpil pase ekonomi fiskal espesifik pi gwo patisipasyon an ta bay
+B) Antreprenè a te òkestre onètman vrè ekonomi fiskal la kont diminisyon karyè li ki te nesesè a, e li te rive nan konklizyon ke vrè valè lòt karyè li te depase anpil ekonomi fiskal la, nan menm liy ak diskisyon anvan yo sou sitiyasyon fiskal pwofesyonèl imobilye a ak machann nan
+
+## Kle repons yo
+Q1: B
+Q2: B
+Q3: B
+Q4: B
+Q5: B
+
+## Repons ak eksplikasyon
+**Q1.** Se egzakteman lyen sa a ant vrè nivo angajman aktif ak tretman fiskal benefis ak pèt yo ki se sa konsèp patisipasyon enpòtan an dekri, nan menm liy ak diskisyon paralèl anvan yo.
+
+**Q2.** Se egzakteman limit sa yo anpil jiridiksyon mete, sof si yo rive nan papòt patisipasyon aktif, ki fè vrè nivo angajman an ka deside si pèt yo ka konpanse ak lòt revni.
+
+**Q3.** Se egzakteman gwo angajman tan sa a papòt yo mande ki ka fè patisipasyon an pa konpatib ak yon lòt karyè ki mande anpil tan, nan menm liy ak konklizyon anvan yo.
+
+**Q4.** Se egzakteman bezwen sa a pou peze ekonomi fiskal la kont vrè valè karyè a ki fè pwopriyetè a pa dwe chèche patisipasyon an sèlman pou avantaj fiskal la, lè yo gade l poukont li.
+
+**Q5.** Ilistrasyon dirèk sa a yon antreprenè ki peze onètman ekonomi fiskal la kont valè karyè li montre egzakteman poukisa leson sa a mete aksan sou bezwen pou òkestre règ sou patisipasyon, vrè angajman an ak konpwomi sou karyè a ansanm.
+
+## Pwen kle yo
+- Patisipasyon enpòtan gen pou wè ak vrè nivo angajman aktif yon pwopriyetè nan yon biznis, sa ki enfliyanse anpil tretman fiskal benefis oswa pèt yo.
+- Anpil jiridiksyon limite kapasite yon pwopriyetè pou l konpanse pèt biznis la ak lòt revni, sof si yo rive nan sèten papòt patisipasyon aktif ki vrè e ki espesifik; an Ayiti, pèt fiskal yon sosyete an jeneral rete nan sosyete a.
+- Yon pwopriyetè ki gen yon travay ki mande anpil tan yon lòt kote ka fè fas ak yon vrè konpwomi sou karyè a pou l rive nan papòt sa yo, nan menm liy ak diskisyon anvan yo sou sitiyasyon fiskal pwofesyonèl imobilye a ak machann nan.
+- Pwopriyetè a dwe òkestre onètman vrè avantaj fiskal la kont vrè pri pou karyè ak tan li, swivan konklizyon santral diskisyon paralèl anvan yo.
+
+===== BLUE-L5-035
+TITLE: Bank entènasyonal pou biznis ak aktivite atravè fwontyè: òkestre risk lajan an, akò fiskal yo ak diferans nan regleman yo
+SUMMARY: Dekouvri sa ou dwe fè atansyon anvan ou louvri yon kont biznis nan yon bank nan yon lòt peyi: risk lajan an, akò ki evite doub taks, règ ak pwoteksyon ki ka diferan anpil de sa ki nan peyi ou, e poukisa ou dwe chèche konsèy nan men yon moun ki konnen de bò yo.
+KEYWORDS: bank entènasyonal pou biznis, aktivite atravè fwontyè, akò fiskal entènasyonal, òkestrasyon diferans nan regleman yo
+# Bank entènasyonal pou biznis ak aktivite atravè fwontyè: òkestre risk lajan an, akò fiskal yo ak diferans nan regleman yo
+
+## Senaryo ouvèti
+SIPOZISYON/OPINYON (sinaryo ipotetik, sèlman pou objektif ansèyman): Imajine lajan yon ekonomi mwayen ki pèdi yon gwo pati nan valè li konpare ak pi gwo lajan rezèv yo nan yon ti kras mwa, akoz kapital k ap kouri kite peyi a ak konfyans envestisè yo k ap bese. Pandan enstabilite lajan ekonomi mwayen sa a kreye opòtinite ki sanble bon pou biznis ki gen aktivite atravè fwontyè, yon antreprenè k ap konsidere itilize yon bank etranje e travay atravè li dekouvri desizyon sa a mande pou òkestre ansanm vrè risk lajan an, akò fiskal ki aplike yo ak vrè diferans nan regleman yo.
+
+## Objektif aprantisaj
+- Elaji diskisyon anvan an nan Leson 35 WHITE-L5 kourikoulòm sa a sou koutye entènasyonal yo espesyalman sou bank pou biznis ak aktivite atravè fwontyè.
+- Eksplike poukisa dispozisyon akò fiskal ki aplike yo dwe òkestre nan desizyon sa a, RÈG ESPESIFIK POU REJYON AN paske sijè sa a teknik e bilateral, nan elaji diskisyon paralèl yo nan kourikoulòm sa a.
+- Eksplike poukisa vrè diferans nan regleman yo — règ bank yo, pwoteksyon depo yo ak egzijans konfòmite pou biznis yo — ka diferan anpil ant peyi lakay yon biznis ak yon peyi etranje kote li gen yon kont.
+- Eksplike poukisa yon biznis dwe verifye espesyalman pwoteksyon regleman sa yo e chèche konsèy ki kalifye anvan l deplase gwo aktivite nan yon relasyon ak yon bank etranje, swivan konparezon ak doktè a ki pi laj nan kourikoulòm sa a.
+
+## Kontni prensipal
+Nan elaji diskisyon anvan an nan Leson 35 WHITE-L5 kourikoulòm sa a sou koutye entènasyonal yo espesyalman sou bank pou biznis ak aktivite atravè fwontyè, FÈ VERIFYE, yon biznis k ap travay atravè yon enstitisyon finansye etranje pote vrè kesyon risk lajan ki paralèl ak diskisyon anvan sa a, men tou kesyon anplis ki pwòp a yon relasyon bankè biznis k ap kontinye, sa ki vle di antreprenè a dwe òkestre espesyalman kesyon anplis sa yo nan evalyasyon li sou kalite aranjman bankè atravè fwontyè sa a.
+
+Sa a se "poukisa" dispozisyon akò fiskal ki aplike yo dwe òkestre nan desizyon sa a, nan elaji diskisyon paralèl yo nan kourikoulòm sa a: RÈG ESPESIFIK POU REJYON AN paske sijè sa a teknik e bilateral, verifye dispozisyon aktyèl e espesifik akò fiskal ant peyi lakay ou ak peyi etranje a, men nan yon paralèl egzak ak diskisyon anvan yo nan kourikoulòm sa a sou envestisman entènasyonal ak ekspansyon entènasyonal, anpil peyi gen akò fiskal ki fèt espesyalman pou anpeche menm revni biznis la peye taks de fwa, sa ki vle di yon biznis dwe verifye espesyalman vrè dispozisyon akò ki aplike ki touche pwòp aranjman bankè ak biznis atravè fwontyè li; an Ayiti, pa egzanp, dapre enfòmasyon ki disponib, peyi a gen trè kèk akò kont doub taks, e bank yo swiv règ BRH yo ak règ kont blanchiman lajan, ki ka mande dokiman sou orijin lajan k ap soti oswa k ap antre soti aletranje, kidonk verifye obligasyon sa yo ak yon kontab oswa yon konseye fiskal. Se poutèt sa vrè diferans nan regleman yo ant peyi lakay yon biznis ak yon peyi etranje kote li gen yon kont ka gwo: règ bank yo, mekanis pwoteksyon depo yo ak egzijans konfòmite espesifik pou biznis yo ka diferan anpil de yon peyi a yon lòt, sa ki vle di pwòp sipozisyon biznis la sou pwoteksyon ak egzijans sa yo, ki soti nan jan li abitye ak peyi lakay li, ka pa vrèman aplike lè l itilize yon enstitisyon finansye etranje k ap travay anba yon rejim regleman ki vrèman diferan; an Ayiti, pa egzanp, dapre enfòmasyon ki disponib, pwoteksyon depo yo pi limite pase sa anpil lòt peyi bay, e yon kont nan yon bank nan yon lòt peyi tonbe anba règ peyi sa a, si gen youn, kidonk verifye ak bank lan ak BRH ki pwoteksyon ki vrèman aplike. Se poutèt sa yon biznis dwe verifye espesyalman pwoteksyon regleman sa yo e chèche konsèy ki kalifye anvan l deplase gwo aktivite nan yon relasyon ak yon bank etranje, swivan konparezon ak doktè a ki pi laj nan kourikoulòm sa a: nan swiv egzakteman rekòmandasyon diskisyon anvan yo nan kourikoulòm sa a sou envestisman entènasyonal, pou chèche yon pwofesyonèl lokal ki kalifye, yon biznis k ap konsidere deplase gwo aktivite nan yon relasyon ak yon bank etranje dwe verifye espesyalman vrè pwoteksyon regleman ki aplike yo e chèche konsèy ki kalifye nan men yon moun ki konnen anviwònman regleman espesifik de peyi yo, olye pou l sipoze pwoteksyon ak sipozisyon peyi lakay li pase dirèkteman e yon fason serye nan kontèks bankè etranje sa a ki vrèman diferan.
+
+## Egzanp pratik
+EGZANP ILISTRATIF: Yon antreprenè k ap konsidere mete an plas gwo aktivite bankè atravè yon enstitisyon finansye etranje, pou sipòte yon vrè aktivite biznis atravè fwontyè, òkestre espesyalman vrè risk lajan aranjman sa a ta pote, li verifye vrè dispozisyon akò fiskal ki aplike ant peyi lakay li ak peyi etranje espesifik sa a, epi li fè rechèch espesyalman sou anviwònman regleman ak pwoteksyon depo enstitisyon etranje a, anvan l mete gwo aktivite la. Apwòch òkestre sa a dekouvri yon pwoteksyon depo ki vrèman pi fèb pase sa peyi lakay li an jeneral bay, sa ki fè l limite depandans li sou enstitisyon espesifik sa a nan yon montan ki vrèman modès, olye pou l mete gwo aktivite la san konpreyansyon ki pi konplè e ki òkestre sa a.
+
+## Egzamen pratik
+**Q1. Kijan leson sa a elaji diskisyon anvan an nan WHITE-L5 sou koutye entènasyonal yo sou bank pou biznis?**
+A) Bank pou biznis ak aktivite atravè fwontyè pa gen okenn vrè rapò ak diskisyon anvan an sou koutye entènasyonal, risk lajan ak kesyon regleman
+B) Yon biznis k ap travay atravè yon enstitisyon finansye etranje pote vrè kesyon risk lajan ki paralèl ak diskisyon anvan an, men tou kesyon anplis ki pwòp a yon relasyon bankè biznis k ap kontinye
+
+**Q2. Poukisa dispozisyon akò fiskal ki aplike yo dwe òkestre nan desizyon sa a, nan elaji diskisyon paralèl yo nan kourikoulòm sa a?**
+A) Dispozisyon akò fiskal yo pa gen okenn vrè enpòtans pou bank biznis yo oswa pou aktivite atravè fwontyè, kontrèman ak enpòtans yo pou envestisman entènasyonal oswa ekspansyon entènasyonal
+B) Anpil peyi gen akò fiskal ki fèt espesyalman pou anpeche doub taks, sa ki vle di yon biznis dwe verifye vrè dispozisyon ki aplike pou aranjman bankè atravè fwontyè espesifik li, nan yon paralèl egzak ak diskisyon anvan yo
+
+**Q3. Poukisa vrè diferans nan regleman yo ant peyi lakay yon biznis ak yon peyi etranje kote li gen yon kont ka gwo?**
+A) Règ bank yo, pwoteksyon depo yo ak egzijans konfòmite pou biznis yo toujou menm jan nan tout peyi, kèlkeswa peyi espesifik yo
+B) Pwoteksyon ak egzijans espesifik sa yo ka diferan anpil de yon peyi a yon lòt, sa ki vle di sipozisyon biznis la ki chita sou peyi lakay li ka pa vrèman aplike lè l itilize yon enstitisyon etranje k ap travay anba yon lòt rejim regleman
+
+**Q4. Poukisa yon biznis dwe verifye pwoteksyon regleman yo e chèche konsèy ki kalifye anvan l deplase gwo aktivite nan yon relasyon ak yon bank etranje, swivan konparezon ak doktè a nan kourikoulòm sa a?**
+A) Sipozisyon yon biznis sou pwoteksyon regleman peyi lakay li toujou pase yon fason serye e dirèk nan nenpòt enstitisyon bankè etranje, kèlkeswa peyi a
+B) Yon biznis dwe verifye espesyalman vrè pwoteksyon regleman ki aplike yo e chèche konsèy ki kalifye si sa nesesè, swivan rekòmandasyon diskisyon anvan yo pou chèche yon pwofesyonèl lokal ki kalifye, olye pou l sipoze pwoteksyon peyi lakay li pase dirèkteman
+
+**Q5. Nan egzanp lan, poukisa antreprenè a te limite depandans li sou enstitisyon bankè etranje a nan yon montan ki vrèman modès?**
+A) Antreprenè a te dekouvri nan enstitisyon etranje a yon pwoteksyon depo ki vrèman pi fò pase sa peyi lakay li an jeneral bay
+B) Rechèch òkestre antreprenè a te dekouvri nan enstitisyon etranje a yon pwoteksyon depo ki vrèman pi fèb pase sa peyi lakay li an jeneral bay, sa ki te mennen nan yon depandans ki pi modès e ki pi pridan, olye pou l mete gwo aktivite la
+
+## Kle repons yo
+Q1: B
+Q2: B
+Q3: B
+Q4: B
+Q5: B
+
+## Repons ak eksplikasyon
+**Q1.** Se egzakteman kesyon anplis sa yo ki pwòp a yon relasyon bankè biznis k ap kontinye, bò kote risk lajan an, ki montre kijan leson sa a elaji diskisyon anvan an sou koutye entènasyonal yo.
+
+**Q2.** Se egzakteman paralèl sa a ak diskisyon anvan yo sou akò kont doub taks ki fè dispozisyon akò ki aplike yo dwe verifye pou yon aranjman bankè atravè fwontyè.
+
+**Q3.** Se egzakteman diferans sa yo ant rejim regleman peyi yo ki fè sipozisyon ki soti lakay ka pa aplike nan yon enstitisyon etranje.
+
+**Q4.** Se egzakteman lyen dirèk sa a ak konparezon ak doktè a ak rekòmandasyon pou chèche yon pwofesyonèl lokal ki fè verifikasyon pwoteksyon yo ak konsèy ki kalifye enpòtan anvan yo deplase gwo aktivite.
+
+**Q5.** Ilistrasyon dirèk sa a yon rechèch òkestre ki dekouvri yon pwoteksyon ki pi fèb e ki mennen nan yon depandans pi modès montre egzakteman poukisa leson sa a mete aksan sou bezwen pou òkestre risk lajan an, akò fiskal yo ak diferans nan regleman yo ansanm.
+
+## Pwen kle yo
+- Yon biznis k ap travay atravè yon enstitisyon finansye etranje pote yon vrè risk lajan ki paralèl ak diskisyon anvan yo sou envestisman entènasyonal, plis kesyon anplis ki pwòp a li.
+- Dispozisyon akò fiskal ki aplike yo dwe òkestre nan desizyon sa a, nan yon paralèl egzak ak diskisyon anvan yo nan kourikoulòm sa a sou akò fiskal entènasyonal yo; an Ayiti, gen trè kèk akò kont doub taks, e bank yo swiv règ kont blanchiman lajan.
+- Vrè diferans nan regleman yo, ki gen ladan règ bank yo ak pwoteksyon depo yo, ka gwo ant peyi lakay yon biznis ak peyi etranje kote li gen yon kont; an Ayiti, pwoteksyon depo yo pi limite pase nan anpil lòt peyi.
+- Yon biznis dwe verifye pwoteksyon regleman yo e chèche konsèy ki kalifye anvan l deplase gwo aktivite nan yon relasyon ak yon bank etranje, swivan konparezon ak doktè a ki pi laj nan kourikoulòm sa a.
