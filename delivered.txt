@@ -103,3 +103,4 @@ out/BLUE-L5-001-050-fr-FR.zip 2026-11-22 BLUE-L5 France: fr-CA→fr-FR lexical +
 out/BLUE-L5-001-050-pt-BR.zip 2026-11-22 BLUE pt-BR with hedged Brazil notes
 out/BLUE-L5-001-050-pt-PT.zip 2026-11-22 BLUE pt-PT from pt-BR with Portugal notes
 out/BLUE-L5-001-050-it.zip 2026-11-22 BLUE it with hedged Italy notes
+out/BLUE-L5-001-050-nl.zip 2026-11-22 BLUE L5 Dutch complete
