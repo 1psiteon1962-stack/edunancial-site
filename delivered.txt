@@ -106,3 +106,4 @@ out/BLUE-L5-001-050-it.zip 2026-11-22 BLUE it with hedged Italy notes
 out/BLUE-L5-001-050-nl.zip 2026-11-22 BLUE L5 Dutch complete
 out/BLUE-L5-001-050-de.zip 2026-11-22 BLUE L5 German complete
 out/BLUE-L5-001-050-ht.zip 2026-11-22 BLUE L5 Haitian complete
+out/GREEN-L5-001-050-en-GB.zip 2026-11-22 GREEN L5 British English complete
