@@ -111,3 +111,4 @@ out/GREEN-L5-001-050-es-ES.zip 2026-11-22 GREEN es-ES derived from es-Caribbean 
 out/GREEN-L5-001-050-fr-FR.zip 2026-11-22 GREEN fr-FR derived from fr-CA with France notes
 out/GREEN-L5-001-050-pt-BR.zip 2026-11-22 GREEN pt-BR full translation
 out/GREEN-L5-001-050-pt-PT.zip 2026-11-22 GREEN pt-PT from pt-BR with Portugal notes
+out/GREEN-L5-001-050-it.zip 2026-11-22 50/50 pass, 34 Italy notes
