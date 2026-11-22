@@ -10,7 +10,7 @@ How to resume (read first):
   Note scripts are color-specific: write a new one per color by grepping the source locale for local-law clauses.
 - Finish each pack: tools/finish.sh <C> L5 <loc> "note" ; then send zip to user. For a new color copy English
   content/curriculum/<C>/L5/*.md into sitecopy/content/curriculum/<C>/L5/ first.
-- Next up: RED COMPLETE for all 9 (de, ht delivered). WHITE en-GB DONE. WHITE es-ES DONE (used tools/es_es_paper.py = es_es without renta->alquiler). WHITE fr-FR DONE. WHITE pt-BR DONE. WHITE pt-PT DONE. WHITE it DONE (site PR #1534). WHITE nl DONE (site PR #1535). WHITE de DONE (site PR #1536). WHITE ht DONE (site PR pending). NEXT: BLUE L5 en-GB etc. Tip: translate it/nl/de/ht from the pt-BR batches (faithful to English) and swap Brazil notes for local ones; keep plain OPINION counts equal to English (checker does not test them; run the opinion check in git log).
+- Next up: RED COMPLETE for all 9 (de, ht delivered). WHITE en-GB DONE. WHITE es-ES DONE (used tools/es_es_paper.py = es_es without renta->alquiler). WHITE fr-FR DONE. WHITE pt-BR DONE. WHITE pt-PT DONE. WHITE it DONE (site PR #1534). WHITE nl DONE (site PR #1535). WHITE de DONE (site PR #1536). WHITE ht DONE (site PR #1537, smoke 19470/19470). BLUE en-GB DONE (PR #1538), es-ES DONE (PR #1539), fr-FR DONE (PR #1540). BLUE pt-BR IN PROGRESS (b01 next = lessons 001-005; translate from English via tools/show45.sh BLUE L5 1 5; Brazil notes). Then BLUE pt-PT, it, nl, de, ht. Publish with tools/sitepr.sh C LOC "Name" then tools/sitemerge.sh PR SHA, then dispatch smoke. Tip: translate it/nl/de/ht from the pt-BR batches (faithful to English) and swap Brazil notes for local ones; keep plain OPINION counts equal to English (checker does not test them; run the opinion check in git log).
 Status:
 - RED-L5 en-GB DONE 2026-11-20
 - RED-L5 es-ES DONE 2026-11-20
@@ -40,3 +40,4 @@ Status:
 - BLUE-L5 en-GB DONE 2026-11-22
 - BLUE-L5 es-ES DONE 2026-11-22
 - BLUE-L5 fr-FR DONE 2026-11-22
+- BLUE count targets (R=REGION-SPECIFIC RULE count, O=OPINION count excl. opening ASSUMPTION/OPINION; others 0): 003 R2, 004 R3, 005 R2, 008 O1, 009 O1, 011 O1, 013 O1, 014 O1, 015 R2, 017 R4, 019 R2, 020 O1, 021 O1, 024 R2, 025 R1, 026 O1, 028 R2, 034 R2, 035 R2, 037 R1, 041 R3, 044 O1, 046 O1
