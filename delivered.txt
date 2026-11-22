@@ -117,3 +117,4 @@ out/GREEN-L5-001-050-de.zip 2026-11-22 GREEN L5 German complete, 33 local notes
 out/GREEN-L5-001-050-ht.zip 2026-11-22 GREEN L5 Haitian Creole complete, hedged Haiti notes
 out/GOLD-L5-001-050-es-ES.zip 2026-11-22 GOLD L5 Spain Spanish, 9 Spain notes
 out/GOLD-L5-001-050-fr-FR.zip 2026-11-22 GOLD L5 France French, 9 France notes
+out/GOLD-L5-001-050-en-GB.zip 2026-11-22 GOLD L5 British English, 9 UK notes
