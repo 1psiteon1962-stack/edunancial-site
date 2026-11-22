@@ -326,11 +326,29 @@ export function getCommittedLessonTranslation(lessonId: string, languageOrLocale
   return resolved;
 }
 
+// The runtime manifest is one gzipped JSON document holding every committed
+// translation (~17k files). Inflating and parsing it whole on a cold start made
+// catalog requests take 12+ s and fail with 502s once the RED/WHITE Level 5
+// translations were added (#1527), the same failure #1501 fixed for the archive.
+// When the committed curriculum tree is readable (raw files on disk or the
+// per-file archive behind curriculum-fs), the direct per-file lookup and index
+// below serve the same files, so the manifest is only consulted when that tree
+// is unavailable or a test injected manifest records.
+function curriculumTreeAvailable(): boolean {
+  try {
+    return existsSync(join(REPO_ROOT, "content", "curriculum")) && statSync(join(REPO_ROOT, "content", "curriculum")).isDirectory();
+  } catch {
+    return false;
+  }
+}
+
 function resolveCommittedLessonTranslation(lessonId: string, requested: string): PublishedLessonTranslation | undefined {
-  const bundled = bundledTranslationLookup(lessonId, requested);
-  if (bundled) return bundled;
   const direct = directTranslationLookup(lessonId, requested);
   if (direct) return direct;
+  if (runtimeContent !== null || !curriculumTreeAvailable()) {
+    const bundled = bundledTranslationLookup(lessonId, requested);
+    if (bundled) return bundled;
+  }
   committedIndex ??= buildIndex();
   const entries = committedIndex.get(lessonId.trim().toUpperCase());
   if (!entries?.length) return undefined;
