@@ -44,3 +44,4 @@ Status:
 - 2026-11-22 OWNER RULE: Haitian (ht) must exist for EVERY color at EVERY level (L1-L5). Decision: keep ht, delete nothing. Plan: (1) finish L5 all colors x 9 langs incl. ht; (2) then backfill ht for L1, L2, L4 (all 8 colors) and L3 (BLUE GREEN GOLD PURPLE ORANGE BLACK). 1,800 ht lessons to do. L1-L4 formats differ: use tools/check1.sh / check3.sh / show1.sh / show3.sh; inspect an existing L3 ht pack (RED/WHITE) for format first.
 - BLUE-L5 pt-BR DONE 2026-11-22
 - BLUE-L5 pt-PT DONE 2026-11-22
+- BLUE-L5 it DONE 2026-11-22
