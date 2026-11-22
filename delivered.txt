@@ -95,3 +95,4 @@ out/WHITE-L5-001-050-pt-BR.zip 2026-11-21 WHITE pt-BR 50/50, Brazil notes hedged
 out/WHITE-L5-001-050-pt-PT.zip 2026-11-21 WHITE pt-PT 50/50, Portugal notes hedged
 out/WHITE-L5-001-050-it.zip 2026-11-21 WHITE it complete (Italy notes)
 out/WHITE-L5-001-050-nl.zip 2026-11-21 WHITE nl complete (50 lessons)
+out/WHITE-L5-001-050-de.zip 2026-11-22 WHITE de complete (50 lessons)
