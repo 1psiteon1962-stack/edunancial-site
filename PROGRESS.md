@@ -32,3 +32,4 @@ Status:
 - 2026-11-21 PM: RED L5 (9 locales) + WHITE L5 (en-GB, es-ES, fr-FR, pt-BR, pt-PT) LIVE via PR #1527 (merged). Owner rule: no more zips; load packs into the site via Git PR -> checks -> squash merge -> live smoke (workflow 369202259, dispatch on main; must show all lessons match).
   Incident: after #1527, catalog API 12s/502s. Root cause = committed-translation-fallback parsed the whole runtime manifest; fixed in #1532 (merged). Also #1528 slimmed /courses payload. Revert #1530 closed unmerged; temporary removal ledger entries removed (#1533). Live smoke 19270/19270 PASS.
   Admin stalled uploads (15 zips, 11/21): leave untouched; do NOT run recovery.
+- WHITE-L5 it DONE 2026-11-21
