@@ -5,6 +5,8 @@ import Link from "next/link";
 import { useInternationalPreferences } from "@/components/international/InternationalPreferencesProvider";
 import type { PublishedCourse } from "@/lib/curriculum/authoritative-published";
 
+export type CourseCard = Omit<PublishedCourse, "lessons"> & { lessonCount: number };
+
 function FeaturedGrid({
   featuredCourses,
   heading,
@@ -12,7 +14,7 @@ function FeaturedGrid({
   emptyBody,
   emptyCta,
 }: {
-  featuredCourses: PublishedCourse[];
+  featuredCourses: CourseCard[];
   heading: string;
   linkLabel: string;
   emptyBody: string;
@@ -63,7 +65,7 @@ function FeaturedGrid({
               <p className="mt-2 text-xs text-slate-400">
                 {course.category} · {course.difficulty}
               </p>
-              <p className="mt-3 text-xs text-slate-500">📚 {course.lessons.length} lesson{course.lessons.length !== 1 ? "s" : ""}</p>
+              <p className="mt-3 text-xs text-slate-500">📚 {course.lessonCount} lesson{course.lessonCount !== 1 ? "s" : ""}</p>
             </div>
           </Link>
         ))}
@@ -72,7 +74,7 @@ function FeaturedGrid({
   );
 }
 
-export default function CoursesPageClient({ courses }: { courses: PublishedCourse[] }) {
+export default function CoursesPageClient({ courses }: { courses: CourseCard[] }) {
   const { effectiveLanguage, t } = useInternationalPreferences();
   const tracks = courses.map((course) => ({
     id: course.id,
@@ -125,7 +127,7 @@ export default function CoursesPageClient({ courses }: { courses: PublishedCours
           </div>
         ) : (
           <FeaturedGrid
-            featuredCourses={courses.filter((course) => course.lessons.length > 0)}
+            featuredCourses={courses.filter((course) => course.lessonCount > 0)}
             heading={t("courses.featuredHeading")}
             linkLabel={t("courses.featuredLink")}
             emptyBody={t("courses.featuredEmptyBody")}
