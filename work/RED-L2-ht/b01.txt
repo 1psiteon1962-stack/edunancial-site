@@ -1,0 +1,221 @@
+===== RED-L2-001
+TITLE: Limit kantite inite: kote rezidansyèl fini e kote komèsyal kòmanse
+SUMMARY: Chak pwopriyete tonbe nan youn nan de mond depi w konte inite l yo: 1-4, oswa 5+. Chif sa a deside ki moun ki pral prete w, ki metòd evalyasyon yo pral itilize, ak ki kalite prè w pral jwenn.
+## Objektif aprantisaj
+Nan fen leson sa a, w ap kapab:
+1. Bay limit egzak kantite inite ki separe finansman imobilye rezidansyèl ak finansman komèsyal.
+2. Esplike kijan metòd evalyasyon an chanje depi yon pwopriyete depase limit sa a.
+3. Idantifye ki kalite prè ki aplike pou yon pwopriyete dapre kantite inite li genyen.
+4. Aplike limit sa a lè w ap evalye yon sitiyasyon pwopriyete reyèl.
+
+## Kontni prensipal
+Nan imobilye, "rezidansyèl" ak "komèsyal" pa dekri sèlman jan yon pwopriyete sanble oswa jan yo itilize l chak jou. Yo dekri de sistèm finansman ak evalyasyon ki separe nèt. Liy ki separe yo a se **kantite inite**:
+- **1 a 4 inite** = Rezidansyèl (kay pou yon fanmi, dipleks, tripleks, kat-pleks)
+- **5 inite oswa plis** = Komèsyal (bilding apatman, plizyè fanmi komèsyal)
+
+**FÈ VERIFYE:** Limit 1–4 kont 5+ sa a se estanda Fannie Mae, Freddie Mac, ak FHA itilize pou klase prè rezidansyèl kont prè komèsyal pou plizyè fanmi Ozetazini.
+
+### Kijan evalyasyon an chanje nan limit lan
+Yo evalye pwopriyete rezidansyèl (1–4 inite) ak **konparab** – vant konparab pwopriyete ki sanble toupre. Depi yon pwopriyete rive 5+ inite, yo evalye plizyè fanmi komèsyal dapre **revni** – espesyalman **Revni Operasyonèl Nèt (NOI)** pwopriyete a ak **to kapitalizasyon (cap rate)**:
+
+**Valè ≈ NOI ÷ Cap Rate**
+
+**EGZANP ILISTRATIF:** Yo evalye yon kat-pleks 4 inite sitou dapre pri lòt kat-pleks ki sanble te vann toupre. Yo evalye yon bilding apatman 12 inite sitou dapre konbyen revni lwaye li pwodui apre depans, divize pa to retou mache a atann.
+
+### Kijan finansman an chanje nan limit lan
+**1–4 inite (rezidansyèl):**
+- Prè ipotèk konvansyonèl, prè FHA, prè VA tout disponib
+- Analiz kredi a gade anpil revni pèsonèl OU, kredi w, ak rapò dèt sou revni w
+- Dire prè yo souvan 15 oswa 30 an, ak opsyon to fiks ki disponib toupatou
+
+**5+ inite (komèsyal):**
+- Mande yon prè ipotèk komèsyal oswa yon prè komèsyal pou plizyè fanmi
+- Analiz kredi a gade anpil revni PWOPRIYETE a (NOI, rapò kouvèti sèvis dèt)
+- Dire prè yo souvan pi kout (5, 7, oswa 10 an) ak yon gwo dènye peman (balloon)
+- Avans yo anjeneral pi wo, souvan 20–30%+
+
+**RÈG ESPESIFIK POU REJYON AN:** Pousantaj avans espesifik, dire prè, ak kondisyon DSCR varye selon moun ki prete a, peyi a, ak règleman bank lokal. Chif ki anwo yo se modèl jeneral mache Ozetazini.
+
+### Poukisa limit lan egziste
+Yon pwopriyete 1–4 inite piti ase pou l konpòte l tankou yon kay pou yon fanmi nan je yon moun k ap prete. Yon pwopriyete 5+ inite kòmanse konpòte l tankou yon ti biznis: li pwodui pwòp revni li, li gen pwòp depans operasyon li, e kapasite li pou ranbouse yon prè depann de jan "biznis" sa a mache.
+
+Pwogram prè gouvènman garanti (FHA, VA, prè konvansyonèl konfòm) rete nan 4 inite maksimòm. Depi ou klèman ap jere yon biznis ki pwodui revni (5+ inite), ou antre nan prè komèsyal.
+
+**Definisyon kle:**
+- **Kantite inite:** Kantite espas pou viv ki separe e endepandan nan yon pwopriyete.
+- **Konparab (vant konparab):** Metòd evalyasyon ki baze sou pri vant resan pwopriyete ki sanble toupre.
+- **Revni Operasyonèl Nèt (NOI):** Revni total mwens depans operasyon, anvan peman ipotèk ak taks.
+- **Cap Rate (to kapitalizasyon):** To retou yon envestisè atann sou yon pwopriyete komèsyal.
+- **Rapò kouvèti sèvis dèt (DSCR):** Si revni yon pwopriyete ase pou kouvri peman prè li.
+
+## Egzanp pratik
+**ESTIMASYON (sèlman pou ilistrasyon):**
+
+*Pwopriyete A — Kat-pleks (4 inite):* Kat-pleks konparab te vann ant $480,000–$520,000. Valè estime ≈ $500,000 ak konparab. Yon achtè ka chèche yon prè ipotèk rezidansyèl konvansyonèl.
+
+*Pwopriyete B — Bilding 8 inite:* Revni anyèl $144,000. Depans operasyon $54,000. NOI = $90,000. Ak yon cap rate 6%, valè estime = $90,000 ÷ 0.06 = $1,500,000. Li mande finansman komèsyal.
+
+## Erè kouran
+- Sipoze ou ka finanse yon pwopriyete 5 inite menm jan ak yon kat-pleks.
+- Evalye yon ti bilding apatman ak konparab sèlman.
+- Inyore Rapò kouvèti sèvis dèt la.
+- Konfonn "rezidansyèl" ak "piti" e "komèsyal" ak "gwo" — diferans lan se kantite inite.
+
+## Pwen kle yo
+- 1–4 inite = finansman rezidansyèl ak evalyasyon ki baze sou konparab. 5+ inite = finansman komèsyal ak evalyasyon ki baze sou revni.
+- Depase limit sa a chanje kalite prè a, sa yo atann pou avans lan, estrikti dire prè a, ak metòd evalyasyon an.
+- Konnen ki bò liy lan yon pwopriyete ye anvan w evalye l — se sa ki detèmine tout apwòch ou.
+
+## Egzèsis pratik
+W ap evalye de acha posib:
+1. Yon tripleks (3 inite) ki lwe pou $3,900/mwa.
+2. Yon bilding 6 inite ki lwe pou $9,000/mwa, ak $3,200/mwa depans operasyon.
+
+Pou chak youn, idantifye: (a) rezidansyèl oswa komèsyal, (b) metòd evalyasyon, (c) kalite finansman ou atann. Kalkile valè estime bilding 6 inite a ak yon cap rate 7%.
+
+*(Repons: Pwopriyete 1 rezidansyèl, ki baze sou konparab, finansman konvansyonèl. Pwopriyete 2 komèsyal, ki baze sou revni, finansman komèsyal. NOI = $5,800/mwa = $69,600/ane. Valè = $69,600 ÷ 0.07 ≈ $994,286.)*
+
+===== RED-L2-002
+TITLE: Prè VA ak finansman kreyatif: opsyon nan limit rezidansyèl la
+SUMMARY: Pi lwen pase prè ipotèk konvansyonèl, prè VA ak estrikti finansman kreyatif bay achtè ki kalifye chemen altènatif pwisan pou yo achte pwopriyete rezidansyèl 1-4 inite san yo pa pase pa yon bank.
+## Objektif aprantisaj
+Nan fen leson sa a, w ap kapab:
+1. Esplike kisa yon prè VA ye, kiyès ki kalifye, ak avantaj prensipal li sou finansman konvansyonèl.
+2. Bay definisyon finansman kreyatif e nonmen twa estrikti kouran.
+3. Esplike kijan finansman pa vandè a mache, ni nan pwen de vi achtè a ni nan pwen de vi vandè a.
+4. Idantifye sitiyasyon kote finansman kreyatif ka pi itil pase yon prè konvansyonèl oswa yon prè VA.
+
+## Kontni prensipal
+Depi w konnen ki kote liy ant rezidansyèl ak komèsyal la ye (RED-L2-001), pwochen kesyon an se: kijan w peye toutbon pou yon pwopriyete rezidansyèl (1–4 inite)? Pi lwen pase prè ipotèk konvansyonèl la, de lòt chemen louvri — prè VA pou ansyen militè ak militè an sèvis ki kalifye, ak finansman kreyatif ki pa pase pa yon bank ditou.
+
+### Sijè 1: Prè VA — Finansman ki gen sèvis militè dèyè l
+Yon **prè VA** se yon prè ipotèk Depatman Zafè Ansyen Konbatan Ozetazini (Department of Veterans Affairs) garanti, ki disponib pou ansyen militè ki kalifye, militè an sèvis aktif, ak kèk konjwen ki siviv, pou finanse pwopriyete rezidansyèl 1–4 inite.
+
+**FÈ VERIFYE:** Depatman Zafè Ansyen Konbatan an garanti prè VA yo (li pa bay yo dirèkteman); se yon moun prete prive (bank, kooperativ kredi, oswa konpayi ipotèk) ki bay prè a toutbon.
+
+Avantaj prensipal sou yon prè ipotèk konvansyonèl:
+- Souvan **pa gen avans ki obligatwa** (0% avans kouran, selon moun ki prete a ak limit prè yo)
+- **Pa gen asirans ipotèk prive (PMI)** — sa prè konvansyonèl yo anjeneral mande lè avans lan anba 20%
+- To enterè konpetitif, souvan pi ba pase to mache konvansyonèl yo
+- Pa gen penalite pou peye anvan lè
+
+**RÈG ESPESIFIK POU REJYON AN:** Prè VA se yon pwogram Ozetazini. Elèv ki andeyò Etazini ta dwe fè rechèch pou wè si peyi yo gen pwogram prè ipotèk ekivalan pou ansyen militè oswa ki gen garanti gouvènman.
+
+### Sijè 2: Finansman kreyatif — Achte san yon prè ipotèk tradisyonèl
+**Finansman kreyatif** vle di estrikti ki pèmèt yon achtè achte yon pwopriyete san l pa jwenn yon prè ipotèk konvansyonèl nan men yon bank. Twa estrikti ki pi kouran yo:
+
+**1. Finansman pa vandè a (finansman pa pwopriyetè a)**
+Vandè a jwe wòl moun ki prete a. Achtè a fè peman chak mwa dirèkteman bay vandè a dapre yon kontra ki presize to enterè a, dire a, ak kondisyon yo. Achtè a pran posesyon; vandè a kenbe yon privilèj (oswa li kenbe tit la selon estrikti a) jiskaske yo fin peye l nèt.
+
+**2. Finansman "subject-to"**
+Achtè a pran pwopriyete a pandan prè ipotèk vandè a ki deja egziste a rete an plas — achtè a pran tit la "subject to" (sou kondisyon) prè ki egziste a. Achtè a fè peman ipotèk yo, men prè a rete sou non vandè a.
+
+**RÈG ESPESIFIK POU REJYON AN:** Tranzaksyon subject-to ka deklanche yon klòz "due on sale" (dwe peye lè w vann) nan prè ipotèk ki egziste a. Konsilte yon avoka imobilye anvan w chwazi estrikti sa a.
+
+**3. Opsyon lwaye (lwe pou achte)**
+Achtè a lwe pwopriyete a ak yon opsyon pou l achte l a yon pri ki fikse davans nan yon peryòd tan ki defini. Yon pati nan lwaye a ka konte nan pri acha a.
+
+### Sijè 3: Kilè pou itilize finansman kreyatif
+Finansman kreyatif ka pi itil pase yon prè konvansyonèl oswa VA lè:
+- Achtè a pa ka kalifye pou yon prè ipotèk tradisyonèl (pwoblèm kredi, travay pou kont li, revni ki pa konvansyonèl)
+- Achtè a vle avanse vit san yon long pwosesis analiz kredi labank
+- Vandè a vle gaye rekonesans plis-valè kapital li olye l resevwa yon sèl gwo kòb
+- Pwopriyete a gen pwoblèm ki fè finansman tradisyonèl difisil (reparasyon ki an reta, pwoblèm tit)
+
+**EGZANP ILISTRATIF:** Yon envestisè imobilye ki travay pou kont li ak yon revni ki pa regilye ka gen difikilte pou kalifye pou yon prè ipotèk konvansyonèl malgre li gen yon cash flow konsistan. Yon vandè ki motive pou fèmen vit ka dakò ak finansman pa vandè a nan yon to enterè yon ti jan pi wo pase mache a, sa ki pèmèt achtè a achte pwopriyete a e refinanse nan yon finansman konvansyonèl depi dokiman revni li yo vin estab.
+
+## Erè kouran
+- Sipoze kalifikasyon VA otomatikman vle di pi bon afè a — prè VA gen yon frè finansman (funding fee) ki ajoute nan pri total la.
+- Antre nan yon afè subject-to san konsèy legal — deklanche klòz due-on-sale la ka kreye yon gwo risk.
+- Trete finansman kreyatif tankou yon dènye rekou sèlman — li ka yon premye chwa estratejik lè kondisyon yo favorize achtè a.
+- Neglije dokimante finansman pa vandè a kòmsadwa — akò vèbal pa ka aplike nan pifò jiridiksyon.
+
+## Pwen kle yo
+- Prè VA ofri gwo avantaj (0% avans, pa gen PMI) bay ansyen militè ak militè an sèvis ki kalifye pou pwopriyete rezidansyèl 1–4 inite.
+- Finansman kreyatif kouvri yon seri estrikti (finansman pa vandè a, subject-to, opsyon lwaye) ki kontoune pwosesis prè ipotèk konvansyonèl la.
+- Chak estrikti gen risk ak kondisyon legal espesifik — toujou mete yon avoka imobilye ladan l.
+- Konnen plizyè zouti finansman fè w yon achtè ak yon envestisè ki pi kapab nan diferan kondisyon mache.
+
+## Egzèsis pratik
+Yon ansyen militè ki gen yon nòt kredi 680 vle achte yon dipleks. Li gen ase kach pou yon avans 5% sou yon prè konvansyonèl, men lè l fè plis rechèch, li dekouvri li gen tout dwa VA li.
+
+1. Ki avantaj ki genyen nan itilize yon prè VA olye yon prè konvansyonèl nan sitiyasyon li?
+2. Ki yon pri ki asosye ak prè VA li ta dwe evalye?
+3. Ki estrikti finansman kreyatif ki ta pi apwopriye si pwopriyete a te gen pwoblèm tit ki anpeche finansman konvansyonèl oswa VA?
+
+*(Repons: 1. Pa gen avans obligatwa; pa gen PMI. 2. Frè finansman VA a. 3. Opsyon lwaye oswa finansman pa vandè a, apre yon revizyon legal sou pwoblèm tit yo.)*
+
+===== RED-L2-003
+TITLE: Limit 5 inite a: kote rezidansyèl vin komèsyal
+SUMMARY: Nan anpil pratik prè Ozetazini, 1-4 inite trete kòm rezidansyèl e 5+ inite kòm komèsyal – yon liy ki chanje finansman, evalyasyon, ak jesyon an menm tan.
+## RED-L2-003
+### Limit 5 inite a: kote rezidansyèl vin komèsyal
+
+**1. Objektif aprantisaj**
+Nan fen leson sa a, elèv la ap kapab:
+- Esplike enpòtans jeneral liy ant pwopriyete rezidansyèl 1–4 inite ak pwopriyete 5+ inite nan finansman imobilye Ozetazini.
+- Dekri kijan depase limit sa a chanje opsyon finansman, metòd evalyasyon, ak sa yo atann nan jesyon.
+- Rekonèt limit sa a kòm yon bagay ki depann de jiridiksyon an ak moun ki prete a, se pa yon règ inivèsèl.
+
+**2. Kontni prensipal**
+Nan anpil sèk finansman imobilye Ozetazini, pwopriyete ki gen youn a kat inite anjeneral trete kòm "rezidansyèl" pou prè, menm lè yo achte yo kòm envestisman. Depi yon pwopriyete rive senk inite oswa plis, li anjeneral pase nan klasifikasyon imobilye "komèsyal". Sa se yon RÈG ESPESIFIK POU REJYON AN ki mare ak konvansyon prè kouran Ozetazini — lòt peyi, e menm kèk moun k ap prete Ozetazini, ka trase liy sa yo yon lòt jan, kidonk toujou verifye ak yon pwofesyonèl ki gen lisans e ki ajou anvan w trete sa kòm yon bagay fiks.
+
+Poukisa limit sa a tèlman enpòtan? Paske li chanje plizyè pyès an menm tan:
+
+*Finansman.* Prè rezidansyèl (1–4 inite) souvan itilize yon analiz kredi estanda, yo ka pafwa kalifye pou pwogram pou pwopriyetè ki rete ladan l (sa gen ladan kèk chemen FHA ak VA si achtè a rete nan youn nan inite yo), e yo souvan evalye yo anpil dapre revni pèsonèl ak kredi achtè a. Prè komèsyal (5+ inite) anjeneral analize plis dapre potansyèl pwopriyete a li menm pou pwodui revni, souvan yo mande pi gwo avans, yo ka gen diferan estrikti amòtisman, e anjeneral yo gen diferan to enterè (pafwa pi wo).
+
+*Evalyasyon.* Yo souvan evalye yon pwopriyete 1–4 inite ak vant konparab — sa pwopriyete ki sanble toupre te vann resaman. Yo pi souvan evalye yon pwopriyete 5+ inite ak yon apwòch pa revni, ki gade revni operasyonèl nèt pwopriyete a e ki aplike yon to kapitalizasyon (yon konsèp ki pral prezante pita nan nivo sa a) pou estime valè a. Sa vle di valè yon pwopriyete komèsyal mare pi dirèkteman ak jan li fè byen finansyèman, pa sèlman ak sa mache a ap fè toupre.
+
+*Konpleksite jesyon.* Depi yon pwopriyete rive nan echèl sa a, obligasyon jesyon, antretyen, ak konfòmite anjeneral ogmante, e moun ki prete yo ka mande pou moun k ap prete a montre li gen eksperyans ki apwopriye oswa pou l anboche yon jesyon pwopriyete pwofesyonèl.
+
+Limit sa a se yon egzanp klè panse "pyès echèk": se pa yon sèl règ, men yon liy separasyon ki refòme an menm tan pyès finansman, evalyasyon, ak jesyon depi yon achtè travèse l. Yon achtè ki alèz pou jere yon dipleks pa ta dwe sipoze konfò sa a otomatikman transfere nan yon bilding 12 inite, paske règ jwèt la ki anba a chanje.
+
+**3. Egzanp pratik**
+Devon posede yon bilding rezidansyèl 4 inite li finanse ak yon prè ipotèk rezidansyèl estanda ki baze an pati sou revni pèsonèl li. Kounye a l ap konsidere achte yon bilding 6 inite toupre.
+
+Anvan l sipoze pwosesis la pral sanble, Devon fè rechèch sou sa ki chanje:
+- Finansman: bilding 6 inite a ap gen chans mande yon prè komèsyal, ki evalye anpil dapre pwòp revni operasyonèl nèt bilding lan olye sitou dapre revni pèsonèl li.
+- Evalyasyon: olye konpare vant resan bilding ki sanble, moun ki prete a pral gade byen lis lwaye bilding lan, depans li, ak revni ki soti ladan l pou estime valè a.
+- Avans: prè komèsyal souvan mande yon pousantaj avans ki pi gwo pase sa prè rezidansyèl li te mande.
+- Jesyon: ak plis inite, jere poukont li yon fason enfòmèl vin pi difisil pou kenbe, e Devon kòmanse fè rechèch sou pri jesyon pwopriyete kòm yon pati nan analiz li, olye l trete jesyon kòm yon bagay gratis.
+
+Devon pa konkli afè 6 inite a otomatikman pi bon oswa pi mal pase bilding 4 inite li a. Li konkli kounye a l ap jwe yon vèsyon menm jwèt la ki diferan anpil, e li bezwen nouvo enfòmasyon — verifye ak yon moun k ap prete komèsyal ak yon pwofesyonèl ki kalifye — anvan l avanse.
+
+**4. Egzamen pratik**
+1. Nan pratik prè kouran Ozetazini, ki kantite inite maksimòm anjeneral pou yon pwopriyete toujou klase kòm "rezidansyèl" pou finansman?
+   a) 2
+   b) 4
+   c) 6
+   d) 10
+
+2. Ki metòd evalyasyon yo pi souvan itilize pou pwopriyete komèsyal 5+ inite?
+   a) Vant konparab sèlman
+   b) Apwòch pa revni ki baze sou revni operasyonèl nèt ak cap rate
+   c) Pri ranplasman sèlman
+   d) Pa gen okenn metòd evalyasyon pou pwopriyete komèsyal
+
+3. Vrè oswa Fo: Limit 1–4 kont 5+ inite a se yon règ inivèsèl ki pa chanje e ki aplike menm jan toupatou.
+
+4. Ki leson prensipal Nivo 2 nan egzanp Devon an?
+   a) Pi gwo bilding toujou yon move envestisman
+   b) Travèse limit inite a chanje finansman, evalyasyon, ak jesyon an menm tan
+   c) Prè komèsyal toujou pi bon mache pase prè rezidansyèl
+   d) Jesyon pwopriyete pa janm nesesè pi wo pase 4 inite
+
+**5. Kle repons yo**
+1. b
+2. b
+3. Fo
+4. b
+
+**6. Repons ak eksplikasyon**
+1. Kat inite se limit yo site souvan pou klasifikasyon rezidansyèl nan konvansyon prè Ozetazini; senk oswa plis anjeneral fè yon pwopriyete pase nan tretman komèsyal.
+2. Yo pi souvan evalye pwopriyete komèsyal ak yon apwòch pa revni, paske valè yo mare sere ak revni yo pwodui.
+3. Sa a se klèman yon RÈG ESPESIFIK POU REJYON AN ki ka varye selon moun ki prete a ak jiridiksyon an — toujou konfime règ ki ajou yo ak yon pwofesyonèl ki gen lisans.
+4. Egzanp Devon an montre limit sa a se pa yon sèl règ izole; li refòme kondisyon finansman, evalyasyon, ak jesyon an tout an menm tan.
+
+**7. Pwen kle yo**
+- Nan pratik prè kouran Ozetazini, 1–4 inite anjeneral trete kòm rezidansyèl e 5+ inite kòm komèsyal pou finansman.
+- Travèse limit sa a chanje estrikti finansman, metòd evalyasyon, sa yo atann pou avans lan, ak konpleksite jesyon an ansanm.
+- Sa a se yon konvansyon ki depann de jiridiksyon an ak moun ki prete a, se pa yon lwa inivèsèl fiks — toujou verifye règ ki ajou yo ak yon pwofesyonèl ki kalifye.
+- Rekonèt limit tankou sa a se yon konpetans prensipal Nivo 2: kèk liy finansye chanje plizyè pyès sou tablo a an menm tan.

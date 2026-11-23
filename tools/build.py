@@ -9,7 +9,7 @@ for b in sorted(glob.glob(f'{S}/work/{C}-{L}-{loc}/*.txt')):
         lid,rest=chunk.split('\n',1); lid=lid.strip('= \n')
         title=re.search(r'^TITLE:\s*(.+)$',rest,re.M).group(1).strip()
         summ=re.search(r'^SUMMARY:\s*(.+)$',rest,re.M).group(1).strip()
-        body=rest[re.search(r'^#{1,2} '+re.escape(lid),rest,re.M).start():].rstrip()+'\n'
+        mm=re.search(r'^#{1,2} '+re.escape(lid),rest,re.M) or re.search(r'^#{1,3} ',rest,re.M); body=rest[mm.start():].rstrip()+'\n'
         n=int(lid[-3:]); q=lambda s:s.replace('"','\\"')
         fm=(f'---\nid: {lid}\ntrack: {C}\nofficialTrackName: "{TN}"\nlevel: {L[1:]}\nlessonNumber: {n}\n'
             f'title: "{q(title)}"\nsummary: "{q(summ)}"\nversion: "1.0"\nauthor: "Waldemar M. Caban, JD MA"\n'
