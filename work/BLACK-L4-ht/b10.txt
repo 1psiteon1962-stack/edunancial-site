@@ -77,3 +77,163 @@ Q5: B
 - Pifò sitiyasyon lidèchip òdinè ta dwe toujou ale pa defo nan apwòch pasyan, etik nivo sa a te mete aksan sou li tout kote, ak fason desizif la rezève pou moman ki vrèman ra, ki enpòtan.
 - Yon otorite pou deside ki klè, yon vrè konfyans nan òganizasyon an, ak volonte yon lidè pou l aji nan ensètitid ansanm pèmèt yon vrè angajman òganizasyonèl desizif.
 - Diskisyon leson sa a sou lidèchip desizif prezante strikteman kòm yon metafò estrateji konpetitif ak kapasite òganizasyonèl, jamè kòm yon konfli literal oswa ostilite kont okenn moun.
+
+===== BLACK-L4-047
+TITLE: Analiz bati preparasyon òganizasyonèl: poukisa yo dwe bati kapasite desizif la anvan moman an rive
+SUMMARY: Konprann poukisa kapasite ki pèmèt yon angajman desizif pa ka bati vit depi yon opòtinite fin parèt, poukisa yon lidè dwe envesti nan preparasyon an san rete, poukisa envestisman davans sa a gen yon vrè kou, ak poukisa li dwe evalye detanzantan nivo preparasyon reyèl òganizasyon an.
+KEYWORDS: preparasyon òganizasyonèl, bati kapasite davans, prepare pou moman desizif la, kapasite yo bati anvan
+# Analiz bati preparasyon òganizasyonèl: poukisa yo dwe bati kapasite desizif la anvan moman an rive
+
+## Senaryo pou louvri leson an
+SIPOZISYON/OPINYON (senaryo ipotetik pou objektif ansèyman sèlman): Imajine lajan yon ekonomi mwayen k ap pèdi yon gwo pati nan valè li kont gwo lajan rezèv yo nan kèk mwa, akoz kapital k ap kouri kite peyi a e konfyans envestisè yo k ap fonn. Pandan enstabilite lajan yon ekonomi mwayen kreye yon vrè fenèt opòtinite, men ki gen chans pa dire, pou òganizasyon ki byen prepare, sa ki te bati espre yon vrè preparasyon òganizasyonèl davans kapab vrèman pwofite fenèt sa a, alòske òganizasyon ki kòmanse bati menm preparasyon sa a sèlman depi opòtinite a fin parèt jwenn yo pa ka reyaji alè.
+
+## Objektif aprantisaj
+- Esplike poukisa kapasite espesifik diskisyon Leson 46 nivo sa a te idantifye yo — yon otorite pou deside ki klè, yon vrè konfyans nan òganizasyon an, ak alèz pou aji nan ensètitid — anjeneral pa ka bati vit depi yon vrè opòtinite fin parèt, sa ki mande pito yon envestisman volontè davans.
+- Esplike poukisa yon lidè ki vrèman angaje pou pozisyon konpetitif alontèm òganizasyon li ta dwe envesti san rete nan bati kalite preparasyon òganizasyonèl sa a, olye sèlman depi yon opòtinite espesifik fin vin vizib.
+- Esplike poukisa envestisman davans sa a nan preparasyon gen li menm yon vrè kou, yon kou reyèl, an lyen ak diskisyon Leson 33 nivo sa a sou rezistans òganizasyonèl konsènan vrè chwa ant efikasite ak preparasyon.
+- Esplike poukisa yon lidè ta dwe evalye detanzantan vrè nivo preparasyon aktyèl pwòp òganizasyon li, olye l tou senpleman sipoze preparasyon an, depi yo bati l, rete ase pou tout tan kèlkeswa chanjman ki vin apre nan òganizasyon an.
+
+## Kontni prensipal
+Ki baze dirèkteman sou diskisyon Leson 46 nivo sa a, FÈ VERIFYE, kapasite espesifik diskisyon sa a te idantifye yo — yon otorite pou deside ki vrèman klè, yon vrè konfyans nan òganizasyon an, ak alèz òganizasyon an pou l aji nan yon ensètitid ki pa ka evite — anjeneral pa ka bati vit depi yon vrè opòtinite fin parèt e yon aksyon desizif deja vrèman nesesè, paske chak nan kapasite sa yo pa nati yo mande yon tan ki gen sans pou yo vrèman devlope: yon otorite pou deside ki klè mande kalite klarifikasyon volontè davans diskisyon Leson 45 nivo sa a te dekri a, yon vrè konfyans nan òganizasyon an mande kalite fyabilite soutni, konsistan moun wè diskisyon Leson 17 nivo sa a te idantifye kòm yon bagay ki akimile tou dousman ak tan, e yon vrè alèz òganizasyon an pou l aji nan ensètitid anjeneral devlope atravè yon vrè eksperyans yo akimile olye li disponib touswit lè yo mande l, sa ki vle di yon òganizasyon k ap eseye bati kapasite sa yo vit sèlman apre yon vrè opòtinite fin parèt anjeneral dekouvri egzijans preparasyon davans sa a twò ta pou l vrèman pwofite opòtinite espesifik sa a, ki gen chans limite nan tan.
+
+Men "poukisa" yon lidè ki vrèman angaje pou pozisyon konpetitif alontèm òganizasyon li ta dwe envesti san rete nan bati kalite preparasyon òganizasyonèl sa a, olye sèlman depi yon opòtinite espesifik fin vin vizib: kòm vrè opòtinite, dapre pwòp diskisyon anvan kourikoulòm sa a (Leson 46 nivo sa a ak lyen li ak prensip carpe diem ki pi laj kourikoulòm sa a), souvan vrèman tanporè e yo pa ka prevwa yo yon fason fyab byen davans konsènan moman egzak yo, yon lidè ki tann pou l kòmanse bati yon vrè preparasyon òganizasyonèl sèlman depi yon opòtinite espesifik fin parèt anjeneral tann twò lontan, sa ki vle di yon vrè preparasyon òganizasyonèl mande yon envestisman san rete, kontinyèl yo kenbe menm pandan peryòd òdinè lè pa gen okenn opòtinite espesifik ki vizib kounye a, egzakteman pou preparasyon sa a vrèman egziste e li vrèman disponib nenpòt lè yon vrè opòtinite, ki gen chans pa previzib, finalman parèt.
+
+Se poutèt sa envestisman davans sa a nan preparasyon gen li menm yon vrè kou, yon kou reyèl, an lyen ak diskisyon Leson 33 nivo sa a sou rezistans òganizasyonèl: sa ki fè echo ak diskisyon Leson 33 sou yon vrè rezèv ak yon vrè kapasite pou adapte ki tou de gen vrè kou konpare ak yon optimizasyon efikasite sèlman, kenbe yon vrè preparasyon òganizasyonèl — dwa pou deside ki klè yo kenbe menm lè pa gen okenn desizyon ijan k ap tann, envestisman nan bati yon vrè konfyans yo kenbe menm lè pa gen okenn kriz espesifik kounye a, ak pratike espre aji nan ensètitid menm pandan peryòd ki estab otreman — mande tou yon envestisman ak yon atansyon òganizasyonèl reyèl, kontinyèl yo te ka dirije pito vè aktivite ki pi pwodiktif yon fason ki pi imedya, ki pi vizib, sa ki vle di envestisman davans sa a nan preparasyon reprezante pwòp vrè chwa estratejik li, egzakteman menm jan ak chwa ant efikasite ak rezistans Leson 33 te dekri a, ki mande menm kalite evalyasyon onèt, volontè sou konbyen nan envestisman espesifik sa a nan preparasyon pwòp vrè sikonstans yon òganizasyon vrèman jistifye. Se poutèt sa yon lidè ta dwe evalye detanzantan vrè nivo preparasyon aktyèl pwòp òganizasyon li, olye l sipoze preparasyon an, depi yo bati l, rete ase pou tout tan: kòm pèsonèl, estrikti, ak sikonstans pwòp yon òganizasyon tout kontinye evolye natirèlman ak tan, sa ki fè echo ak tèm ki repete nan nivo sa a sou bezwen pou revize bagay detanzantan (Leson 36 ak 45), vrè nivo preparasyon yon òganizasyon te etabli nan yon moman ka pa vrèman rete ase pandan pwòp sikonstans òganizasyon sa a ap evolye apre sa, sa ki vle di yon lidè ki vrèman angaje pou kenbe yon vrè preparasyon òganizasyonèl ta dwe evalye detanzantan, onètman si vrè preparasyon aktyèl òganizasyon an vrèman toujou ase, olye l sipoze preparasyon an, depi yo etabli l, pa bezwen okenn lòt atansyon kontinyèl oswa evalyasyon detanzantan.
+
+## Egzanp pratik
+EGZANP ILISTRATIF: Yon òganizasyon te envesti san rete pou l kenbe yon otorite pou deside ki klè, yon vrè konfyans nan òganizasyon an, ak yon pratik volontè pou aji nan ensètitid, menm pandan peryòd òdinè lè pa t gen okenn opòtinite espesifik ki vizib, li te aksepte vrè kou kontinyèl envestisman san rete sa a te mande. Lè enstabilite lajan yon ekonomi mwayen kreye yon vrè fenèt opòtinite, men ki gen chans pa dire, òganizasyon sa a vrèman kapab reyaji desizivman, paske preparasyon li te deja bati davans. Yon lòt òganizasyon, ki pa t janm envesti nan kalite preparasyon kontinyèl sa a, kòmanse eseye bati menm kapasite sa yo sèlman depi opòtinite a fin parèt, li dekouvri ke yo pa ka vrèman bati yon vrè klète sou otorite pou deside, yon vrè konfyans nan òganizasyon an, ak yon alèz pou aji nan ensètitid ase vit pou pwofite fenèt espesifik sa a ki limite nan tan.
+
+## Egzamen pratik
+**Q1. Poukisa kapasite Leson 46 te idantifye yo anjeneral pa ka bati vit depi yon vrè opòtinite fin parèt?**
+A) Yo ka toujou bati touswit yon otorite pou deside ki klè, yon vrè konfyans nan òganizasyon an, ak alèz pou aji nan ensètitid nan menm moman yon vrè opòtinite vrèman parèt
+B) Chak kapasite pa nati li mande yon tan ki gen sans pou l vrèman devlope — otorite pou deside mande yon klarifikasyon davans, konfyans mande yon fyabilite soutni moun wè ki akimile ak tan, e alèz ak ensètitid devlope atravè yon vrè eksperyans yo akimile — sa ki vle di eseye bati yo sèlman depi yon opòtinite parèt anjeneral twò ta
+C) Kapasite sa yo pa gen okenn vrè rapò ak konbyen tan ki nesesè pou yo vrèman devlope
+D) Yon òganizasyon ka toujou bati yon vrè konfyans nan òganizasyon an ak yon alèz pou aji nan ensètitid nan yon sèl jou, kèlkeswa preparasyon anvan
+
+**Q2. Poukisa yon lidè ta dwe envesti nan bati preparasyon òganizasyonèl san rete, olye sèlman depi yon opòtinite vin vizib?**
+A) Yon lidè ta dwe sèlman kòmanse bati preparasyon òganizasyonèl depi yon opòtinite espesifik fin vin vizib klèman
+B) Kòm vrè opòtinite souvan tanporè e yo pa ka prevwa yo yon fason fyab byen davans, yon lidè ki tann pou l kòmanse bati preparasyon sèlman depi yon opòtinite fin parèt anjeneral tann twò lontan, sa ki vle di yon vrè preparasyon mande yon envestisman san rete yo kenbe menm pandan peryòd òdinè
+C) Vrè opòtinite toujou previzib byen davans, sa ki retire nenpòt bezwen pou yon envestisman san rete nan preparasyon
+D) Yon envestisman san rete nan preparasyon toujou bay egzakteman menm rezilta ak efò pou bati preparasyon yo kòmanse sèlman depi yon opòtinite fin parèt
+
+**Q3. Poukisa envestisman davans nan preparasyon gen li menm yon vrè kou, yon kou reyèl, an lyen ak Leson 33?**
+A) Bati yon vrè preparasyon òganizasyonèl toujou totalman gratis e li pa mande okenn vrè envestisman oswa atansyon òganizasyonèl kontinyèl
+B) Sa ki fè echo ak diskisyon anvan an sou rezistans òganizasyonèl konsènan vrè kou yon vrè rezèv ak kapasite pou adapte, kenbe yon vrè preparasyon mande yon envestisman ak yon atansyon òganizasyonèl reyèl, kontinyèl yo te ka dirije pito vè aktivite ki pi pwodiktif touswit, sa ki reprezante pwòp vrè chwa estratejik li
+C) Envestisman nan preparasyon òganizasyonèl toujou ogmante, olye diminye, resous yon òganizasyon genyen pou lòt aktivite ki pi pwodiktif touswit
+D) Envestisman davans nan preparasyon pa gen okenn vrè rapò ak diskisyon anvan an sou chwa ant efikasite ak rezistans
+
+**Q4. Poukisa yon lidè ta dwe evalye detanzantan vrè nivo preparasyon aktyèl òganizasyon li, olye l sipoze li rete ase pou tout tan?**
+A) Preparasyon òganizasyonèl, depi yo etabli l nan nenpòt moman, toujou rete ase pou tout tan kèlkeswa nenpòt chanjman ki vin apre nan òganizasyon an
+B) Kòm pèsonèl, estrikti, ak sikonstans yon òganizasyon kontinye evolye natirèlman ak tan, sa ki fè echo ak tèm anvan an ki repete sou revize detanzantan, preparasyon yo te etabli nan yon moman ka pa rete ase pandan sikonstans yo evolye apre sa, sa ki mande yon evalyasyon onèt detanzantan
+C) Pèsonèl ak estrikti yon òganizasyon pa janm vrèman chanje depi yo fin etabli premye nivo preparasyon li
+D) Evalye detanzantan preparasyon òganizasyonèl toujou mine estabilite preparasyon sa a te sipoze bay okòmansman
+
+**Q5. Nan egzanp lan, poukisa premye òganizasyon an te kapab reyaji desizivman a vrè opòtinite a alòske dezyèm òganizasyon an pa t kapab?**
+A) De òganizasyon yo te an reyalite gen egzakteman menm nivo preparasyon òganizasyonèl yo te bati davans lè opòtinite a te parèt
+B) Premye òganizasyon an te envesti san rete nan bati yon vrè preparasyon menm pandan peryòd òdinè san okenn opòtinite vizib, alòske dezyèm òganizasyon an te kòmanse eseye bati menm preparasyon sa a sèlman depi opòtinite a te fin parèt, li te dekouvri sa te twò ta pou l pwofite fenèt ki limite nan tan an
+C) Dezyèm òganizasyon an te an reyalite envesti plis nan bati preparasyon san rete pase premye òganizasyon an
+D) Apwòch okenn nan òganizasyon yo sou bati preparasyon pa t gen okenn vrè efè sou kapasite li pou l reyaji a vrè opòtinite a
+
+## Kle repons yo
+Q1: B
+Q2: B
+Q3: B
+Q4: B
+Q5: B
+
+## Repons ak eksplikasyon
+**Q1.** Bezwen tan sa a ki nan nati chak nan twa kapasite sa yo pou yo vrèman devlope se egzakteman poukisa yo anjeneral pa ka bati yo ase vit depi yon vrè opòtinite fin parèt.
+
+**Q2.** Fason sa a moman vrè opòtinite yo pa previzib, ansanm ak nati yo ki souvan tanporè, se egzakteman poukisa yon envestisman san rete, kontinyèl nan preparasyon pi enpòtan pase tann yon opòtinite espesifik vin vizib anvan.
+
+**Q3.** Lyen dirèk sa a ak diskisyon anvan an sou chwa ant efikasite ak rezistans se egzakteman poukisa envestisman davans nan preparasyon reprezante pwòp vrè kou reyèl li ki mande yon evalyasyon estratejik volontè, onèt.
+
+**Q4.** Evolisyon natirèl, kontinyèl sa a nan òganizasyon an, ki fè echo ak tèm anvan an ki repete sou revize detanzantan, se egzakteman poukisa yon lidè ta dwe evalye detanzantan vrè preparasyon aktyèl olye sipoze li ase pou tout tan.
+
+**Q5.** Kontras dirèk sa a ant yon envestisman san rete nan preparasyon davans ak yon tantativ an reyaksyon, twò ta pou bati preparasyon montre egzakteman poukisa leson sa a mete aksan sou bati kapasite desizif la anvan moman an vrèman rive.
+
+## Pwen kle yo
+- Kapasite ki pèmèt yon angajman òganizasyonèl desizif anjeneral pa ka bati vit depi yon opòtinite fin parèt, paske chak ladan yo mande yon tan ki gen sans pou l vrèman devlope.
+- Yon lidè ta dwe envesti nan preparasyon òganizasyonèl san rete, olye sèlman depi yon opòtinite espesifik vin vizib, akoz nati vrè opòtinite yo ki pa previzib e ki souvan tanporè.
+- Envestisman davans nan preparasyon gen yon vrè kou, yon kou reyèl, sa ki fè echo ak diskisyon anvan an sou rezistans òganizasyonèl konsènan vrè chwa ant efikasite ak preparasyon.
+- Yon lidè ta dwe evalye detanzantan vrè preparasyon òganizasyon an, olye sipoze li rete ase pou tout tan, sa ki fè echo ak tèm ki pi laj, ki repete sou revize bagay detanzantan pandan sikonstans yo ap evolye.
+
+===== BLACK-L4-048
+TITLE: Analiz dirije atravè ogmantasyon ak retrè: poukisa yon lidè dwe montre egzanp yon reevalyasyon onèt
+SUMMARY: Konprann poukisa yon lidè ki angaje nan yon angajman desizif dwe kontinye reevalye l onètman sou baz prèv, poukisa volonte li pou l rekòmande yon retrè lè sa jistifye ranfòse kredibilite li, risk atachman a kou ki deja depanse, ak poukisa li dwe kominike yon desizyon retrè onètman e dirèkteman.
+KEYWORDS: dirije atravè reevalyasyon, korije direksyon onètman, montre egzanp ogmantasyon konpare ak retrè, kredibilite ki soti nan yon retrè onèt
+# Analiz dirije atravè ogmantasyon ak retrè: poukisa yon lidè dwe montre egzanp yon reevalyasyon onèt
+
+## Senaryo pou louvri leson an
+SIPOZISYON/OPINYON (senaryo ipotetik pou objektif ansèyman sèlman): Imajine yon gouvènman souvren mwayen ki fè konnen li ka pa kapab fè yon peman obligasyon (bond) ki pral rive, sa ki ogmante risk pou li pa peye dèt li. Pandan pwoblèm dèt yon gouvènman souvren mwayen kreye yon vrè toubiyon nan mache yo nan mitan yon angajman konpetitif desizif yon òganizasyon, lidè ki te defann angajman sa a dwe deside, e li dwe dirije pwòp òganizasyon li atravè desizyon an, si pou l reevalye onètman e petèt fè bak, oswa kontinye kanmenm malgre prèv ki vrèman chanje.
+
+## Objektif aprantisaj
+- Esplike poukisa yon lidè ki angaje nan yon angajman òganizasyonèl desizif dwe kontinye aplike menm prensip reevalyasyon onèt, ki baze sou prèv, sou angajman k ap kontinye sa a, olye l trete premye desizyon pou angaje a kòm yon bagay yo pa janm ka rekonsidere.
+- Esplike poukisa volonte pwòp lidè a, yon fason vizib, pou l rekòmande onètman yon retrè nan yon angajman, lè prèv ki chanje vrèman jistifye sa, gen tandans ranfòse olye febli pwòp kredibilite li.
+- Esplike risk espesifik atachman a kou ki deja depanse — kontinye ogmante yon angajman espesyalman akoz resous ki deja envesti, olye paske prèv aktyèl yo vrèman toujou sipòte kontinye — ak poukisa yon lidè dwe pwoteje tèt li kont risk sa a.
+- Esplike poukisa yon lidè k ap dirije yon ekip atravè yon desizyon pou fè bak ta dwe kominike desizyon sa a onètman e dirèkteman, sa ki fè echo ak diskisyon Leson 15 nivo sa a sou kominikasyon nan kriz, olye l kache oswa minimize vrè rezonman ki dèyè retrè a.
+
+## Kontni prensipal
+Lè nou konekte leson sa a ak diskisyon anvan Leson 7 nivo sa a sou pran desizyon nan ensètitid, FÈ VERIFYE, yon lidè ki angaje nan yon angajman òganizasyonèl desizif k ap kontinye dwe kontinye aplike menm prensip reevalyasyon onèt, ki baze sou prèv Leson 7 te dekri yo sou angajman k ap kontinye sa a, olye l trete premye desizyon pou angaje desizivman an kòm yon sèl desizyon fiks pou tout tan yo pa ka rekonsidere ankò, paske Leson 7 te etabli espesyalman ke yon desizyon yo pran nan yon vrè ensètitid ta dwe revize pandan vrè nouvo enfòmasyon ap parèt, yon prensip ki aplike ak yon enpòtans ki pi wo sitou pou yon angajman desizif k ap kontinye, egzakteman paske kalite angajman sa a anjeneral gen ladan l yon envestisman resous k ap kontinye yon lidè ta dwe espesyalman kontinye jistifye kont prèv aktyèl, ki vrèman mete ajou, olye kont sèlman prèv orijinal ki te disponib lè yo te fè angajman an okòmansman.
+
+Men "poukisa" volonte pwòp lidè a, yon fason vizib, pou l rekòmande onètman yon retrè gen tandans ranfòse olye febli kredibilite li, sa ki fè echo ak diskisyon Leson 42 nivo sa a sou imilite nan lidèchip: egzakteman paralèl ak diskisyon Leson 42 sou yon vrè admisyon erè ki bati olye kraze otorite, yon lidè ki rekòmande onètman pou fè bak nan yon angajman k ap kontinye espesyalman paske prèv aktyèl yo vrèman pa sipòte kontinye ankò montre menm kalite onètete kredib, ki pa konfòtab Leson 42 te idantifye kòm bagay ki bati yon vrè konfyans, alòske yon lidè ki kontinye ogmante yon angajman kèlkeswa vrè nouvo prèv ki pa favorab, sèlman pou l evite malèz pou l parèt tankou li te gen tò, bay ekip la yon prèv dirèk ke jijman lidè sa a ka enfliyanse plis pa ògèy pèsonèl oswa atachman a kou ki deja depanse pase pa yon vrè evalyasyon onèt ki baze sou prèv, sa ki finalman domaje kredibilite pi grav pase yon rekòmandasyon retrè onèt, ki baze sou prèv ta fè.
+
+Se poutèt sa yon lidè dwe pwoteje tèt li kont atachman a kou ki deja depanse — kontinye ogmante yon angajman espesyalman akoz resous ki deja envesti, olye paske prèv aktyèl yo vrèman toujou sipòte kontinye: OPINYON ak yon modèl yo dokimante lajman nan rechèch sou desizyon ak konpòtman, resous ki deja envesti nan yon angajman k ap kontinye, pa definisyon, deja depanse e yo pa ka vrèman rekipere yo kèlkeswa si òganizasyon an kontinye oswa li sispann angajman espesifik sa a apati kounye a, sa ki vle di baz rasyonèl, solid pou yon desizyon kontinye ta dwe chita nèt sou si prèv aktyèl ki gade devan yo vrèman toujou sipòte kontinye, olye sou konbyen yo deja envesti jiska prezan, yon diferans ki vrèman difisil pou kenbe nan pratik akoz tandans natirèl moun genyen, yo dokimante byen, pou yo bay envestisman anvan yo plis pwa pase estanda rasyonèl ki gade devan sa a ta vrèman jistifye. Se poutèt sa yon lidè k ap dirije yon ekip atravè yon desizyon pou fè bak ta dwe kominike desizyon sa a onètman e dirèkteman, sa ki fè echo ak diskisyon Leson 15 nivo sa a sou kominikasyon nan kriz: egzakteman sa ki fè echo ak aksan Leson 15 sou yon vrè transparans ansanm ak yon fason prezante ki gade devan, ki oryante sou aksyon, yon lidè k ap kominike yon desizyon pou fè bak nan yon angajman li te defann anvan ta dwe esplike onètman vrè prèv ak rezonman ki dèyè desizyon sa a, olye l kache oswa minimize rezonman sa a pou l evite parèt tankou li te gen tò, paske kalite kominikasyon onèt, dirèk sa a sou vrè rezonman ki dèyè yon desizyon retrè, sa ki fè echo ak diskisyon Leson 8 nivo sa a konsènan vrè kou konfyans nenpòt diferans ant pozisyon yo deklare ak vrè reyalite a, bay yon konpreyansyon ak yon konfyans k ap kontinye nan ekip la ki pi bon anpil pase yon eksplikasyon yo kache oswa yo minimize ta bay.
+
+## Egzanp pratik
+EGZANP ILISTRATIF: Yon lidè ki te defann yon angajman konpetitif desizif reevalye angajman sa a onètman pandan yon kriz dèt souvren kreye yon vrè toubiyon nan mache yo, li aplike menm estanda ki baze sou prèv sou angajman k ap kontinye sa a ki te jistifye kòmanse l okòmansman. Li rekonèt ke prèv aktyèl yo vrèman pa sipòte kontinye angajman an nan menm gwosè orijinal li ankò, lidè sa a rekòmande onètman pou fè bak, li esplike klèman e dirèkteman vrè rezonman an bay ekip la olye l kache l, e li reziste espesyalman tantasyon natirèl pou l kontinye sou baz resous ki deja envesti olye sou baz vrè prèv ki gade devan. Kominikasyon onèt, dirèk sa a bay yon konfyans nan ekip la k ap kontinye ki pi solid anpil pase swa kontinye ogmante angajman an sèlman pou evite parèt tankou li te gen tò, swa kache vrè rezonman ki dèyè yon desizyon retrè finalman, ta bay.
+
+## Egzamen pratik
+**Q1. Poukisa yon lidè ki angaje nan yon angajman desizif k ap kontinye dwe kontinye aplike menm prensip reevalyasyon ki baze sou prèv Leson 7 yo?**
+A) Yon desizyon pou angaje desizivman, depi yo pran l okòmansman, ta dwe toujou trete kòm yon bagay fiks pou tout tan yo pa ka rekonsidere ankò
+B) Diskisyon anvan an sou pran desizyon nan ensètitid te etabli ke yon desizyon yo pran nan yon vrè ensètitid ta dwe revize pandan vrè nouvo enfòmasyon ap parèt, yon prensip ki aplike ak yon enpòtans patikilye pou yon angajman k ap kontinye akoz envestisman resous k ap kontinye li
+C) Angajman desizif k ap kontinye pa janm vrèman bezwen okenn lòt reevalyasyon depi yo fin pran premye desizyon pou angaje a
+D) Prensip reevalyasyon desizyon anvan yo pa gen okenn vrè rapò ak jan yo ta dwe jere yon angajman òganizasyonèl k ap kontinye
+
+**Q2. Poukisa volonte yon lidè pou l rekòmande onètman yon retrè gen tandans ranfòse olye febli kredibilite, sa ki fè echo ak Leson 42?**
+A) Yon lidè ki kontinye ogmante yon angajman kèlkeswa prèv ki pa favorab toujou kenbe yon kredibilite ki pi solid pase youn ki rekòmande onètman pou fè bak
+B) Egzakteman paralèl ak diskisyon anvan an sou yon vrè admisyon erè ki bati olye kraze otorite, yon lidè ki rekòmande onètman pou fè bak lè prèv yo vrèman jistifye sa montre yon onètete kredib, ki pa konfòtab, alòske kontinye ogmante sèlman pou evite parèt tankou li te gen tò sijere yon jijman ògèy oswa atachman a kou ki deja depanse enfliyanse olye vrè prèv
+C) Volonte yon lidè pou l rekòmande fè bak nan yon angajman pa gen okenn vrè rapò ak jan ekip li wè kredibilite li
+D) Rekòmandasyon retrè onèt toujou domaje kredibilite yon lidè pi grav pase kontinye san fen yon angajman ki deja ap echwe
+
+**Q3. Poukisa yon lidè dwe pwoteje tèt li kont atachman a kou ki deja depanse lè l ap reevalye yon angajman k ap kontinye?**
+A) Resous ki deja envesti nan yon angajman ta dwe toujou premye faktè ki deside si pou kontinye angajman sa a apati kounye a
+B) Resous ki deja envesti, pa definisyon, deja depanse e yo pa ka rekipere yo kèlkeswa desizyon pou kontinye a, sa ki vle di baz solid pou kontinye ta dwe chita nèt sou prèv aktyèl ki gade devan olye sou konbyen yo deja envesti jiska prezan
+C) Atachman a kou ki deja depanse pa gen okenn vrè rapò ak jan lidè yo gen tandans rezone sou si pou kontinye yon angajman òganizasyonèl k ap kontinye
+D) Baz rasyonèl pou kontinye yon angajman ta dwe toujou bay envestisman anvan yo plis pwa pase prèv aktyèl ki gade devan
+
+**Q4. Poukisa yon lidè ta dwe kominike yon desizyon pou fè bak onètman e dirèkteman, sa ki fè echo ak Leson 15?**
+A) Yon lidè k ap kominike yon desizyon pou fè bak ta dwe toujou kache oswa minimize vrè rezonman an pou l evite parèt tankou li te gen tò
+B) Sa ki fè echo ak aksan diskisyon anvan an sou kominikasyon nan kriz sou yon vrè transparans ansanm ak yon fason prezante ki gade devan, yon kominikasyon onèt, dirèk sou vrè rezonman ki dèyè yon desizyon retrè bay yon konpreyansyon ak yon konfyans k ap kontinye nan ekip la ki pi bon anpil pase yon eksplikasyon yo kache ta bay
+C) Eksplikasyon yo kache oswa yo minimize sou yon desizyon retrè toujou bay yon konfyans nan ekip la ki pi solid pase yon kominikasyon onèt, dirèk ta bay
+D) Jan yon lidè kominike yon desizyon retrè pa gen okenn vrè efè sou jan ekip la wè kredibilite lidè sa a apre sa
+
+**Q5. Nan egzanp lan, poukisa apwòch lidè a pou reevalye angajman an te bay yon konfyans nan ekip la k ap kontinye ki pi solid pase lòt opsyon yo ta bay?**
+A) Lidè a te kontinye ogmante angajman an nan menm gwosè orijinal li malgre vrè toubiyon nan mache yo ak prèv ki te chanje
+B) Lidè a te reevalye angajman an onètman kont prèv aktyèl, li te reziste tantasyon pou l kontinye sou baz resous ki te deja envesti, e li te esplike dirèkteman, onètman vrè rezonman ki dèyè desizyon retrè a bay ekip la
+C) Lidè a te kache vrè rezonman ki dèyè desizyon retrè a pou l evite parèt tankou li te gen tò okòmansman
+D) Apwòch lidè a pou reevalye angajman an pa t gen okenn vrè efè sou jan ekip la te wè lidèchip li apre sa
+
+## Kle repons yo
+Q1: B
+Q2: B
+Q3: B
+Q4: B
+Q5: B
+
+## Repons ak eksplikasyon
+**Q1.** Fason prensip reevalyasyon anvan an ki baze sou prèv kontinye aplike, kounye a espesyalman pou envestisman resous k ap kontinye yon angajman, se egzakteman poukisa yon lidè dwe kontinye kalite reevalyasyon onèt sa a olye trete premye desizyon an kòm yon bagay fiks pou tout tan.
+
+**Q2.** Paralèl dirèk sa a ak diskisyon anvan an sou imilite nan lidèchip, konsènan yon rekonesans onèt ki bati olye kraze kredibilite, se egzakteman poukisa rekòmandasyon retrè onèt gen tandans ranfòse olye febli kredibilite yon lidè.
+
+**Q3.** Rekonesans sa a ke resous ki deja depanse pa ka rekipere kèlkeswa desizyon pou kontinye a, e kidonk yo pa ta dwe pouse desizyon sa a, se egzakteman poukisa pwoteje tèt ou kont atachman a kou ki deja depanse enpòtan pou yon reevalyasyon onèt.
+
+**Q4.** Lyen dirèk sa a ak prensip kominikasyon nan kriz anvan yo, ki favorize yon transparans onèt olye yon eksplikasyon yo kache, se egzakteman poukisa yon kominikasyon onèt, dirèk sou yon desizyon retrè enpòtan pou kenbe konfyans ak konpreyansyon nan ekip la.
+
+**Q5.** Ilistrasyon dirèk sa a sou yon reevalyasyon onèt, ki baze sou prèv, ansanm ak yon kominikasyon transparan montre egzakteman konpòtman lidèchip leson sa a rekòmande pou dirije atravè yon desizyon ant ogmante oswa fè bak.
+
+## Pwen kle yo
+- Yon lidè dwe kontinye aplike prensip reevalyasyon ki baze sou prèv sou yon angajman desizif k ap kontinye, olye l trete premye desizyon an kòm yon bagay fiks pou tout tan.
+- Volonte onèt yon lidè pou l rekòmande yon retrè, lè sa vrèman jistifye, gen tandans ranfòse olye febli kredibilite, sa ki fè echo ak diskisyon anvan an sou imilite nan lidèchip.
+- Yon lidè dwe pwoteje tèt li kont atachman a kou ki deja depanse, paske resous ki deja envesti pa ka rekipere e yo pa ta dwe pouse yon desizyon kontinye ki ta dwe pito chita sou prèv aktyèl ki gade devan.
+- Yon lidè ta dwe kominike yon desizyon retrè onètman e dirèkteman, sa ki fè echo ak aksan diskisyon anvan an sou kominikasyon nan kriz sou yon vrè transparans olye yon eksplikasyon yo kache.
