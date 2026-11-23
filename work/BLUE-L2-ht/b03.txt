@@ -1,0 +1,285 @@
+===== BLUE-L2-011
+TITLE: Cash flow kont benefis: poukisa yon biznis ki fè benefis ka toujou echwe
+SUMMARY: Fè diferans ant benefis sou papye ak vrè moman lajan antre e soti – e poukisa yon biznis ki rantab ka toujou tonbe san kach.
+## BLUE-L2-011
+### Cash flow kont benefis: poukisa yon biznis ki fè benefis ka toujou echwe
+
+**1. Objektif aprantisaj**
+Nan fen leson sa a, elèv la ap kapab:
+- Fè diferans ant cash flow ak benefis nan yon nivo konseptyèl.
+- Esplike poukisa yon biznis ki fè benefis ka toujou echwe akoz yon pwoblèm cash flow.
+- Idantifye kòz kouran dekalaj sa a.
+
+**2. Kontni prensipal**
+Benefis se diferans ant revni total ak depans total pandan yon peryòd, yon mezi kontab ki pa nesesèman reflete kilè kach antre e soti toutbon nan yon biznis. Cash flow vle di vrè moman kach antre e soti — yon biznis ka fè benefis sou papye (li touche plis pase sa l depanse) pandan l an menm tan ap tonbe san vrè kach pou peye bòdwo li, si moman revni ak depans yo pa koresponn.
+
+Kòz kouran dekalaj sa a gen ladan kliyan ki peye dousman (revni an "touche" e anrejistre, men kach la poko rive toutbon), gwo acha envantè davans (kach soti byen anvan vant yo bay kach tounen), ak kwasans rapid li menm (yon biznis k ap grandi souvan bezwen depanse plis sou envantè, anplwaye, oswa ekipman anvan plis revni kwasans sa a rive toutbon). Sa a se youn nan malantandi ki pi kouran e ki pi fatal finansyèman pami nouvo mèt biznis, sa ki raple diskisyon sou cash flow nan pakou RED la (RED-L2-006) men ki espesifik pou modèl moman inik nan jere yon biznis.
+
+**3. Egzanp pratik**
+Pandan biznis li ap grandi vit, yon ti mèt biznis revize liv kontab li e li wè yon bon benefis pou trimès la — revni an depase depans yo klèman sou papye. Men li gen difikilte pou l peye pwochen fakti founisè li, paske yon gwo pati nan "benefis" sa a egziste kòm fakti kliyan ki poko peye (lajan yo dwe l, men li poko resevwa) olye kach ki chita toutbon nan kont labank li. Lè l rekonèt dekalaj sa a, li kòmanse swiv cash flow separe de benefis pi devan, e li kòmanse mande kliyan ki peye dousman yo kondisyon peman ki pi rapid pou aliyen vrè moman kach li pi pre rantabilite li sou papye.
+
+**4. Egzamen pratik**
+1. Ki diferans jeneral ant benefis ak cash flow?
+   a) Se menm konsèp yo
+   b) Benefis se revni mwens depans sou papye; cash flow se vrè moman kach antre e soti
+   c) Cash flow aplike sèlman nan imobilye
+   d) Benefis aplike sèlman pou biznis sèvis
+
+2. Ki yon kòz kouran ki fè yon biznis ki fè benefis tonbe san kach?
+   a) Pa gen okenn kliyan ditou
+   b) Kliyan ki peye dousman, gwo acha envantè davans, oswa kwasans rapid
+   c) Twòp kach disponib
+   d) Peye founisè twò vit
+
+3. Vrè oswa Fo: Yon biznis ki montre yon benefis sou papye pa ka janm tonbe san vrè kach.
+
+4. Kisa mèt biznis la te fè apre l te rekonèt dekalaj cash flow li a?
+   a) Li te inyore pwoblèm nan nèt
+   b) Li te kòmanse swiv cash flow separeman e li te mande kliyan yo kondisyon peman ki pi rapid
+   c) Li te sispann vann bay nenpòt kliyan
+   d) Li te ogmante acha envantè li plis ankò
+
+**5. Kle repons yo**
+1. b  2. b  3. Fo  4. b
+
+**6. Repons ak eksplikasyon**
+1. Benefis se yon mezi kontab revni mwens depans; cash flow reflete vrè moman mouvman kach.
+2. Kliyan ki peye dousman, gwo acha davans, ak kwasans rapid se kòz kouran ki fè biznis ki rantab manke kach.
+3. Yon biznis ka rantab sou papye pandan l vrèman ap tonbe san kach akoz dekalaj nan moman.
+4. Mèt biznis la te trete dekalaj la lè l te swiv cash flow separeman e l te sere kondisyon peman kliyan yo.
+
+**7. Pwen kle yo**
+- Benefis mezire revni mwens depans sou papye; cash flow mezire vrè moman mouvman kach.
+- Yon biznis ki rantab ka toujou echwe si l tonbe san vrè kach akoz dekalaj nan moman.
+- Kliyan ki peye dousman, depans envantè davans, ak kwasans rapid se kòz kouran dekalaj sa a.
+- Swiv cash flow separe de benefis esansyèl, sa ki raple diskisyon sou cash flow nan pakou RED la nan yon kontèks biznis.
+
+===== BLUE-L2-012
+TITLE: Analiz pwen mor: konnen chif ou
+SUMMARY: Pwen mor (break-even) se nivo vant kote revni total egal depans total – kalkile l ak depans fiks, pri pa inite, ak depans varyab pa inite.
+## BLUE-L2-012
+### Analiz pwen mor: konnen chif ou
+
+**1. Objektif aprantisaj**
+Nan fen leson sa a, elèv la ap kapab:
+- Bay definisyon pwen mor nan yon nivo konseptyèl.
+- Kalkile yon pwen mor senp lè w gen depans fiks, pri, ak depans varyab pa inite.
+- Esplike poukisa konnen chif sa a enpòtan anvan e pandan operasyon.
+
+**2. Kontni prensipal**
+Pwen mor (break-even point) se nivo vant kote revni total yon biznis egal egzakteman depans total li — ni benefis ni pèt. Anba pwen sa a, biznis lan ap fonksyone ak pèt; pi wo l, biznis lan ap fonksyone ak benefis (si tout lòt bagay rete menm jan). Kalkile yon pwen mor senp mande twa done: depans fiks (depans ki pa chanje ak volim vant, tankou lwaye), pri pa inite, ak depans varyab pa inite (depans ki chanje ak chak inite ou vann, tankou materyèl).
+
+Konnen chif sa a enpòtan ni anvan w lanse (pou evalye yon fason reyalis si yon konsèp biznis ka viv finansyèman, dapre depans fiks li gen chans genyen ak volim vant ou ka atann yon fason rezonab) ni pandan operasyon k ap kontinye (pou konprann konbyen biznis lan pre limit sa a, e konbyen li sansib a chanjman nan pri, depans, oswa volim).
+
+**3. Egzanp pratik**
+Pandan l ap planifye biznis ti gato (cupcake) li, Marisol kalkile depans fiks chak mwa li (lwaye, asirans, anplwaye debaz) a $4,000. Pri pa ti gato li se $4, e depans varyab pa ti gato li (engredyan, anbalaj) se $1.50, sa ki kite $2.50 kontribisyon pou depans fiks pou chak ti gato li vann. Lè l divize $4,000 depans fiks li pa $2.50 maj kontribisyon pa ti gato, Marisol kalkile li bezwen vann 1,600 ti gato pa mwa jis pou l rive nan pwen mor.
+
+Chif sa a ede Marisol evalye yon fason reyalis kapasite mache lokal li anvan l angaje l nan kontra lwaye a, e li ba l yon objektif chak mwa klè e konkrè pou l swiv pandan l kòmanse opere.
+
+**4. Egzamen pratik**
+1. Kisa pwen mor la ye?
+   a) Pwen benefis maksimòm posib
+   b) Nivo vant kote revni total egal egzakteman depans total
+   c) Yon kalite prè biznis
+   d) Yon dat limit pou deklarasyon taks
+
+2. Ki twa done ki nesesè pou yon kalkil pwen mor senp?
+   a) Revni, taks, ak asirans
+   b) Depans fiks, pri pa inite, ak depans varyab pa inite
+   c) Sèlman non biznis lan ak kote l ye
+   d) Maj benefis sèlman
+
+3. Vrè oswa Fo: Yon biznis k ap fonksyone pi wo pase pwen mor li ap fonksyone ak pèt.
+
+4. Kisa kalkil pwen mor Marisol te di l?
+   a) Anyen ki itil
+   b) Li te bezwen vann 1,600 ti gato pa mwa jis pou l rive nan pwen mor
+   c) Biznis li pa t ka janm rantab
+   d) Depans fiks li pa t enpòtan
+
+**5. Kle repons yo**
+1. b  2. b  3. Fo  4. b
+
+**6. Repons ak eksplikasyon**
+1. Pwen mor se kote revni total egal egzakteman depans total, san benefis ni pèt.
+2. Depans fiks, pri pa inite, ak depans varyab pa inite se done estanda pou yon kalkil pwen mor senp.
+3. Yon biznis k ap fonksyone pi wo pase pwen mor li ap fonksyone ak benefis, se pa pèt.
+4. Kalkil Marisol te ba l yon objektif vant chak mwa konkrè e reyalis li bezwen pou kouvri depans li.
+
+**7. Pwen kle yo**
+- Pwen mor se nivo vant kote revni total egal egzakteman depans total.
+- Kalkile l mande depans fiks, pri pa inite, ak depans varyab pa inite.
+- Chif sa a sipòte yon evalyasyon reyalis anvan lansman ak yon swivi operasyonèl k ap kontinye.
+- Konnen chif sa a fè yon santiman abstrè "èske m ap fè byen" tounen yon objektif konkrè ou ka mezire.
+
+===== BLUE-L2-013
+TITLE: Estrateji pri: pri baze sou depans kont pri baze sou valè
+SUMMARY: Konpare fikse pri ak depans plis yon maj (cost-plus) kont fikse pri dapre valè kliyan an wè (value-based) – ak sitiyasyon kote chak youn ka pi apwopriye.
+## BLUE-L2-013
+### Estrateji pri: pri baze sou depans kont pri baze sou valè
+
+**1. Objektif aprantisaj**
+Nan fen leson sa a, elèv la ap kapab:
+- Bay definisyon pri baze sou depans ak pri baze sou valè.
+- Konpare lojik jeneral ki dèyè chak apwòch.
+- Rekonèt sitiyasyon kote chak apwòch ta ka pi apwopriye.
+
+**2. Kontni prensipal**
+Pri baze sou depans (cost-plus) fikse yon pri lè w kalkile depans pou pwodui yon pwodui oswa bay yon sèvis, apre sa w ajoute yon maj ou vle sou li. Apwòch sa a senp e li asire depans yo kouvri, men li pa konte dirèkteman sa kliyan yo vrèman dispoze peye oswa konbyen valè yo wè nan ofri a — yon biznis ta ka mete yon pri twò ba sou yon ofri yo apresye anpil, sa ki kite lajan sou tab la, oswa mete yon pri twò wo sou yon ofri ki banal konpare ak konkiran, sa ki fè l pèdi vant.
+
+Pri baze sou valè (value-based) fikse yon pri sitou dapre valè kliyan an wè, olye l kòmanse ak depans ki anba a. Sa ka pèmèt maj ki pi wo lè yon biznis ofri yon bagay kliyan yo apresye anpil e yo pa ka jwenn fasil yon lòt kote, men li mande yon vrè konpreyansyon sou jan kliyan yo wè bagay yo, sa ki pi konplike pou fè rechèch sou li pase tou senpleman kalkile depans entèn.
+
+Okenn apwòch pa kòrèk pou tout moun; kèk biznis nan mache ki pi banal ka bezwen rete pre pri baze sou depans pou yo rete konpetitif, alòske biznis ki ofri yon valè apa e difisil pou kopye ka kaptire anpil plis maj atravè pri baze sou valè.
+
+**3. Egzanp pratik**
+Lè l ap vann yon pwodui apa ki fèt sou mezi ak kèk konkiran dirèk, yon atizan fikse pri okòmansman ak senp kalkil baze sou depans, li ajoute yon ti maj sou depans pwodiksyon li. Apre l fè rechèch sou konbyen travay sou mezi apa ki sanble jwenn nan mache pi laj la, li reyalize pri baze sou depans li a sous-evalye anpil sa kliyan yo vrèman dispoze peye pou ofri espesifik e diferan li a. Li chanje pou pri baze sou valè, li fè rechèch sou ofri konparab ak volonte kliyan yo pou peye, sa ki bay yon pri anpil pi wo kliyan yo toujou aksepte fasil, akoz vrè valè difisil pou kopye travay li bay.
+
+**4. Egzamen pratik**
+1. Kisa pri baze sou depans anjeneral gen ladan l?
+   a) Fikse pri sèlman dapre jan kliyan an wè l
+   b) Kalkile depans pwodiksyon e ajoute yon maj ou vle
+   c) Inyore depans nèt
+   d) Mete egzakteman menm pri ak yon konkiran
+
+2. Kisa pri baze sou valè anjeneral gen ladan l?
+   a) Fikse pri sitou dapre valè kliyan an wè
+   b) Inyore jan kliyan an wè bagay yo nèt
+   c) Toujou mete pri anba depans
+   d) Yon pri fiks gouvènman fikse
+
+3. Vrè oswa Fo: Pri baze sou depans toujou estrateji pri ki objektivman pi bon pou chak biznis.
+
+4. Poukisa atizan an te chanje soti nan pri baze sou depans pou ale nan pri baze sou valè?
+   a) Depans li te ogmante anpil
+   b) Li te reyalize pri baze sou depans li a te sous-evalye anpil sa kliyan yo te vrèman dispoze peye
+   c) Li te vle bese pri li
+   d) Konkiran te fòse l chanje
+
+**5. Kle repons yo**
+1. b  2. a  3. Fo  4. b
+
+**6. Repons ak eksplikasyon**
+1. Pri baze sou depans kalkile depans pwodiksyon e li ajoute yon maj ou vle sou li.
+2. Pri baze sou valè fikse pri sitou dapre valè kliyan an wè olye depans entèn.
+3. Bon apwòch pri a depann de mache ak ofri espesifik la, se pa yon règ inivèsèl.
+4. Rechèch te revele ofri apa li a te sous-evalye anpil anba senp pri baze sou depans.
+
+**7. Pwen kle yo**
+- Pri baze sou depans kalkile depans e li ajoute yon maj; pri baze sou valè chita sou valè kliyan an wè.
+- Pri baze sou depans senp men li ka pa kaptire tout volonte kliyan an pou peye.
+- Pri baze sou valè ka kaptire plis maj pou ofri apa men li mande vrè rechèch sou kliyan.
+- Okenn apwòch pa kòrèk pou tout moun; sa ki koresponn depann de mache ak ofri espesifik la.
+
+===== BLUE-L2-014
+TITLE: Kijan pri chanje revni, maj, ak akizisyon kliyan
+SUMMARY: Yon chanjman pri gen efè sou volim vant, maj, revni total, ak kalite kliyan ou atire – se pa yon desizyon izole sou yon sèl vant.
+## BLUE-L2-014
+### Kijan pri chanje revni, maj, ak akizisyon kliyan
+
+**1. Objektif aprantisaj**
+Nan fen leson sa a, elèv la ap kapab:
+- Swiv kijan yon chanjman pri gen efè sou revni, maj, ak akizisyon kliyan ansanm.
+- Esplike poukisa ogmante oswa bese pri pa yon desizyon senp e izole.
+- Aplike panse sou plizyè pyès sa a nan yon chanjman pri ipotetik.
+
+**2. Kontni prensipal**
+Sou baz Leson 13, leson sa a aplike panse Nivo 2 "kisa mouvman sa a afekte ankò" dirèkteman sou pri. Ogmante pri anjeneral ogmante maj pa vant, men li ka diminye volim vant total si kèk kliyan pa dispoze peye pri ki pi wo a ankò, sa vle di direksyon revni total la depann de ki efè ki domine — ogmantasyon maj oswa diminisyon volim. Bese pri anjeneral ogmante volim vant (si demann reyaji a pri ki pi ba) men li diminye maj pa vant, ak revni total ki depann ankò de ki efè ki domine.
+
+Akizisyon kliyan afekte tou: chanjman pri ka deplase ki segman kliyan yon biznis atire — yon pri ki pi wo ka pozisyone yon biznis kòm prim, sa ki ka atire yon baz kliyan diferan, pafwa ki pi fidèl oswa ki depanse plis, alòske yon pri ki pi ba ka atire kliyan ki pi sansib a pri ki ka gen plis chans ale kote yon konkiran pou yon ti diferans pri nan lavni. Se poutèt sa ou pa ta dwe janm evalye yon desizyon pri sèlman dapre efè imedya li sou yon sèl vant, men dapre tout efè l ki gaye sou volim, maj, revni total, ak kalite kliyan li atire.
+
+**3. Egzanp pratik**
+Pandan l ap konsidere yon ogmantasyon pri pou biznis ti gato li (Leson 12), Marisol modèl plizyè senaryo: si l ogmante pri li e li pèdi sèlman yon ti pousantaj nan volim vant li, ni revni total li ni maj li amelyore. Si l ogmante pri li e li pèdi yon pi gwo pousantaj nan volim li pase sa l te atann, revni total li ta ka desann toutbon malgre maj pa inite ki pi wo a. Li konsidere tou kijan yon pri ki pi wo ta ka deplase baz kliyan li nan direksyon moun k ap chèche yon eksperyans pwodui prim, sa ki ta ka chanje apwòch maketing li ak pwofil kliyan li vize pi devan, pa sèlman rezilta final li pou mwa kounye a.
+
+**4. Egzamen pratik**
+1. Kisa ogmante pri anjeneral fè maj pa vant, si tout lòt bagay rete menm jan?
+   a) Li diminye l
+   b) Li anjeneral ogmante l
+   c) Li pa gen okenn efè
+   d) Li elimine l nèt
+
+2. Poukisa yon desizyon pri pa afekte sèlman yon sèl vant pou kont li?
+   a) Pri pa gen okenn efè pi laj
+   b) Li gen efè sou volim total, revni total, maj, ak kalite kliyan ou atire
+   c) Se sèlman volim ki janm afekte
+   d) Se sèlman maj ki janm afekte
+
+3. Vrè oswa Fo: Ogmante pri toujou garanti yon revni total pi wo, kèlkeswa efè sou volim vant.
+
+4. Kisa Marisol te konsidere pi lwen pase efè imedya sou maj pa inite yon ogmantasyon pri?
+   a) Pa t gen anyen lòt ki enpòtan
+   b) Kijan chanjman volim ak deplasman nan baz kliyan li ta ka afekte revni total ak pozisyònman
+   c) Sèlman pwòp preferans pèsonèl li
+   d) Ogmantasyon pri a pa t gen okenn lòt efè
+
+**5. Kle repons yo**
+1. b  2. b  3. Fo  4. b
+
+**6. Repons ak eksplikasyon**
+1. Ogmante pri anjeneral ogmante maj pa vant, si tout lòt bagay rete menm jan.
+2. Desizyon pri gen efè ki gaye sou volim, revni total, maj, ak konpozisyon baz kliyan ansanm.
+3. Revni total depann de balans ant ogmantasyon maj ak nenpòt diminisyon volim ki rive, se pa pri a sèlman.
+4. Marisol te konsidere tout efè ki gaye a, sa gen ladan chanjman volim posib ak deplasman nan baz kliyan li.
+
+**7. Pwen kle yo**
+- Chanjman pri gen efè ki gaye sou volim vant, maj, revni total, ak konpozisyon baz kliyan ansanm.
+- Ogmante pri anjeneral ogmante maj men li ka diminye volim; efè nèt sou revni total depann de sa ki domine.
+- Pri ka deplase tou ki segman kliyan yon biznis atire, sa ki afekte pozisyònman pi lwen pase vant imedya a.
+- Ou ta dwe evalye yon desizyon pri dapre tout efè l ki gaye, se pa yon sèl endikatè izole.
+
+===== BLUE-L2-015
+TITLE: Depans fiks kont depans varyab ak enteraksyon yo
+SUMMARY: Melanj depans fiks ak depans varyab yon biznis afekte risk li pandan yon bès vant ak potansyèl benefis li pandan kwasans.
+## BLUE-L2-015
+### Depans fiks kont depans varyab ak enteraksyon yo
+
+**1. Objektif aprantisaj**
+Nan fen leson sa a, elèv la ap kapab:
+- Fè diferans ant depans fiks ak depans varyab.
+- Esplike kijan melanj depans fiks ak varyab afekte risk biznis.
+- Konekte konsèp sa a ak analiz pwen mor nan Leson 12.
+
+**2. Kontni prensipal**
+Depans fiks se depans ki anjeneral rete konstan kèlkeswa volim vant, omwen nan yon fouchèt ki enpòtan (lwaye, asirans, anplwaye ak salè fiks). Depans varyab se depans ki anjeneral chanje dirèkteman ak volim vant (materyèl, travay pa lè ki mare ak pwodiksyon, livrezon pa inite) — konsèp nou te deja prezante nan kalkil pwen mor Leson 12, kounye a nou egzamine yo pou efè yo sou risk an jeneral.
+
+Yon biznis ki gen gwo depans fiks ak ti depans varyab fè fas a plis risk si volim vant desann anpil, paske depans fiks sa yo kontinye kèlkeswa revni, men li ka rive nan maj benefis ki pi wo depi vant yo depase pwen mor, paske chak vant anplis kontribye san pwopòsyon nan benefis apre depans fiks yo fin kouvri. Yon biznis ki gen ti depans fiks ak gwo depans varyab fè fas a mwens risk pandan yon bès vant, paske depans yo desann natirèlman ansanm ak vant ki diminye, men li ka wè benefis grandi pi dousman pandan vant ap ogmante, paske chak vant anplis gen yon depans pwopòsyonèl ki pi gwo.
+
+Konprann melanj sa a ede yon mèt biznis evalye rezistans pandan yon bès ak potansyèl kwasans pandan yon monte — de bò menm estrikti depans ki anba a.
+
+**3. Egzanp pratik**
+Lè w konpare de biznis nan menm endistri a, youn lwe ekipman dedye ki chè e li anboche anplwaye ak salè fiks (gwo depans fiks, depans varyab pa inite ki pi ba), alòske lòt la lwe ekipman lè l bezwen e li itilize kontraktè pa pwojè (depans fiks ki pi ba, depans varyab pa inite ki pi wo). Pandan yon ralantisman nan tout endistri a, premye biznis lan gen plis difikilte, paske depans fiks li kontinye kèlkeswa vant ki diminye, alòske depans dezyèm biznis lan diminye yon ti jan ansanm ak aktivite li ki diminye, sa ki bay plis rezistans pandan bès la — menm si premye biznis lan, depi l depase pwen mor li pandan bon peryòd, kaptire yon maj benefis ki pi wo sou chak vant anplis pase dezyèm nan.
+
+**4. Egzamen pratik**
+1. Kisa depans fiks ye?
+   a) Depans ki chanje dirèkteman ak volim vant
+   b) Depans ki anjeneral rete konstan kèlkeswa volim vant
+   c) Yon kalite taks
+   d) Yon kalite revni
+
+2. Ki risk yon biznis ki gen gwo depans fiks fè fas a pandan yon bès vant?
+   a) Okenn risk ditou
+   b) Plis risk, paske depans fiks kontinye kèlkeswa revni ki diminye
+   c) Benefis ki pi wo otomatikman
+   d) Echèk biznis garanti
+
+3. Vrè oswa Fo: Melanj depans fiks ak varyab yon biznis pa gen okenn efè sou risk li oswa potansyèl kwasans li.
+
+4. Poukisa biznis ki gen gwo depans fiks la te gen plis difikilte pandan ralantisman endistri a pase biznis ki gen gwo depans varyab la?
+   a) Li pa t gen okenn depans fiks ditou
+   b) Depans fiks li te kontinye kèlkeswa volim vant ki te diminye a
+   c) Li te gen pri ki pi ba
+   d) Li pa t gen okenn anplwaye
+
+**5. Kle repons yo**
+1. b  2. b  3. Fo  4. b
+
+**6. Repons ak eksplikasyon**
+1. Depans fiks anjeneral rete konstan kèlkeswa volim vant, omwen nan yon fouchèt ki enpòtan.
+2. Gwo depans fiks kreye plis risk pandan yon bès, paske depans sa yo kontinye kèlkeswa revni ki diminye.
+3. Melanj depans fiks/varyab la afekte dirèkteman ni rezistans pandan bès ni potansyèl kwasans benefis pandan monte.
+4. Obligasyon biznis ki gen gwo depans fiks la ki te kontinye, kèlkeswa vant ki te diminye, te kreye plis presyon pandan ralantisman an.
+
+**7. Pwen kle yo**
+- Depans fiks rete konstan kèlkeswa volim; depans varyab chanje dirèkteman ak volim.
+- Gwo depans fiks ogmante risk pandan bès men yo ka anplifye kwasans maj benefis depi w depase pwen mor.
+- Ti depans fiks (gwo depans varyab) bay plis rezistans pandan bès men yon kwasans benefis ki pi dousman pandan monte.
+- Melanj depans sa a, nou te prezante nan kalkil pwen mor Leson 12 la, gen efè pi laj sou risk biznis an jeneral.
