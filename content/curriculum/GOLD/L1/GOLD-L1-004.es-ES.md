@@ -1,58 +1,54 @@
 ---
 id: GOLD-L1-004
 track: GOLD
-officialTrackName: Inversión y Construcción de Patrimonio
+officialTrackName: "Investing"
 level: 1
 lessonNumber: 4
 locale: es-ES
-title: "Oro frente a plata: dos metales, funciones diferentes"
-summary: "Comprende oro frente a plata: dos metales, funciones diferentes y cómo encaja en una base sólida de alfabetización inversora."
-version: 1.0
-author: Waldemar M. Caban, JD MA
+title: "Oro frente a plata: dos metales con funciones distintas"
+summary: "Compara el oro y la plata como activos de inversión y explica por qué ambos aparecen en el caso de estudio de la ruta."
+version: "1.0"
+author: "Waldemar M. Caban, JD MA"
+date: "2026-08-09"
 ---
 
-# Oro frente a plata: dos metales, funciones diferentes
+# Oro frente a plata: dos metales con funciones distintas
 
-## Objetivo de aprendizaje
+## Objetivos de aprendizaje
+- Comparar las características básicas del oro y la plata como activos de inversión
+- Explicar por qué la volatilidad del precio es distinta entre los dos metales
+- Reconocer por qué un estudiante podría tener ambos en vez de uno solo
 
-Al terminar esta lección podrás explicar el concepto con tus propias palabras, reconocer sus principales ventajas y riesgos y relacionarlo con una decisión financiera real.
+## Contenido principal
 
-## Concepto central
+El oro y la plata son metales preciosos con largas historias como depósitos de valor, pero se comportan de forma distinta como inversiones. [DATO VERIFICADO] La plata tiene demanda industrial (se usa en la electrónica, los paneles solares y otras manufacturas) además de su demanda como inversión, mientras que la demanda del oro depende mucho más de la inversión y de la joyería en comparación con el uso industrial. Esta diferencia en las fuentes de demanda es parte de la razón por la que la plata, históricamente, ha tendido a ser más volátil: su precio puede ser más sensible a los vaivenes de la demanda industrial y de la actividad económica que el del oro.
 
-Oro frente a plata: dos metales, funciones diferentes forma parte de la alfabetización inversora porque invertir exige comprender qué se posee, por qué puede cambiar de valor y qué riesgos se aceptan. En la pista GOLD, los metales preciosos sirven como una forma concreta de estudiar principios que también se aplican a otras inversiones.
+La plata también tiene un precio por unidad mucho más bajo que el oro, lo que significa que una cantidad dada de euros compra muchas más onzas de plata que gramos de oro. Eso hace de la plata un punto de entrada común para inversores jóvenes o con presupuestos pequeños: es posible empezar a acumular una cantidad significativa de onzas con montos modestos de dinero, formando el hábito de invertir con constancia antes de pasar a un activo de precio más alto como el oro.
 
-No existe un activo apropiado para todas las personas ni para todas las situaciones. La decisión depende de objetivos, horizonte temporal, liquidez, tolerancia al riesgo, costes y circunstancias personales. EDUNANCIAL proporciona información para que el alumno pueda evaluar esas variables y tomar sus propias decisiones; no promete rentabilidad ni recomienda una inversión concreta.
+## Ejemplo práctico
 
-## Aplicación práctica
+[EJEMPLO ILUSTRATIVO] En el caso de estudio continuo de esta ruta, el hijo empieza a acumular plata en onzas a los 11 años, cuando una cantidad modesta de dinero todavía podía comprar una cantidad significativa del metal, lo que le permite formar temprano el hábito de invertir con constancia. A los 15 años, con una base acumulada mayor y unos ingresos más constantes, empieza a añadir oro en gramos (un metal de precio más alto y, en general, menos volátil), formando una posición en dos metales en vez de depender de uno solo.
 
-Antes de actuar, separa el precio del valor, identifica todos los costes y pregunta qué tendría que ocurrir para que la decisión produzca un resultado distinto del esperado. Compara alternativas y considera también el coste de oportunidad del dinero utilizado.
+## Cuestionario de práctica
 
-Cuando intervengan impuestos, regulación, custodia, seguros o normas de mercado, recuerda que las reglas varían según el país y la jurisdicción. Los ejemplos estadounidenses son ejemplos educativos y no deben tratarse como reglas universales.
+1. ¿Cuál es una diferencia clave en las fuentes de demanda entre el oro y la plata?
+2. ¿Por qué la plata, históricamente, ha tendido a ser más volátil que el oro?
+3. ¿Por qué la plata podría ser un punto de entrada común para inversores con presupuestos pequeños?
+4. En el caso de estudio, ¿por qué el hijo empezó con plata antes de añadir oro?
 
-## Ejemplo
+## Clave de respuestas
+1. La plata tiene una demanda industrial importante además de la demanda como inversión; la demanda del oro depende más de la inversión y de la joyería.
+2. Porque su precio puede ser más sensible a los vaivenes de la actividad industrial y económica.
+3. Porque su precio por unidad más bajo permite acumular una cantidad significativa con montos modestos de dinero.
+4. El precio más bajo de la plata le permitió empezar temprano a acumular cantidades significativas con poco dinero, formando el hábito antes de añadir más adelante un metal de precio más alto.
 
-Una persona reserva una cantidad que puede permitirse mantener invertida y compara varias opciones. En lugar de comprar solo porque el precio ha subido, analiza el propósito de la posición, los costes de compra y venta, la facilidad de convertirla en efectivo y el papel que tendría dentro de su patrimonio total.
-
-## Comprobación de comprensión
-
-**Pregunta:** ¿Cuál es el enfoque más sólido antes de tomar una decisión relacionada con este concepto?
-
-A. Actuar porque otra persona afirma que el precio subirá.  
-B. Evaluar objetivos, riesgos, costes, liquidez y alternativas.  
-C. Suponer que los resultados pasados garantizan los futuros.  
-D. Concentrar todo el capital en una sola idea.
-
-**Respuesta:** B.
+## Respuestas y explicaciones
+1. Esta distinción explica los distintos impulsores de la demanda detrás del comportamiento del precio de cada metal.
+2. La sensibilidad a la demanda industrial es el mecanismo detrás de la volatilidad, normalmente más alta, de la plata.
+3. Un precio por unidad más bajo hace que la plata sea más accesible para formar un hábito de inversión con fondos limitados.
+4. Esto refleja una decisión de secuencia deliberada y práctica, basada en la accesibilidad del precio y en la formación del hábito.
 
 ## Puntos clave
-
-- Comprende el activo o estrategia antes de comprometer dinero.
-- Riesgo y rentabilidad potencial deben analizarse juntos.
-- Los costes y la liquidez afectan al resultado real.
-- La diversificación puede reducir la dependencia de una sola posición, pero no elimina el riesgo.
-- Las normas fiscales y legales dependen de la jurisdicción.
-- La información debe ayudarte a decidir; no sustituye asesoramiento profesional individualizado.
-
-## Reflexión
-
-Explica cómo aplicarías esta lección a una decisión propia sin depender de una predicción sobre el precio futuro.
+- El oro y la plata se diferencian en los impulsores de su demanda, y la plata está más expuesta a los vaivenes industriales y económicos.
+- El precio por unidad más bajo de la plata la hace accesible para que los inversores jóvenes o con presupuestos pequeños empiecen a acumular cantidades significativas.
+- Tener ambos metales, como en el caso de estudio de esta ruta, refleja una secuencia deliberada que va de un punto de entrada accesible hacia una posición más diversificada.

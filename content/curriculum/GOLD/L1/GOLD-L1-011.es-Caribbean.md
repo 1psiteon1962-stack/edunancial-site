@@ -1,53 +1,54 @@
 ---
 id: GOLD-L1-011
 track: GOLD
-officialTrackName: "Inversión"
+officialTrackName: "Investing"
 level: 1
 lessonNumber: 11
 locale: es-Caribbean
-title: "La diferencia entre invertir y ahorrar para emergencias"
-summary: "Aclara por qué el dinero para inversiones y los ahorros de emergencia deben tratarse como fondos separados con reglas distintas."
+title: "La diferencia entre invertir y los ahorros de emergencia"
+summary: "Aclara por qué el dinero de inversión y los ahorros de emergencia deberían tratarse como fondos separados con reglas distintas."
 version: "1.0"
 author: "Waldemar M. Caban, JD MA"
 date: "2026-08-09"
 ---
 
-# La diferencia entre invertir y ahorrar para emergencias
+# La diferencia entre invertir y los ahorros de emergencia
 
-## Objetivos de Aprendizaje
-- Distinguir los ahorros de emergencia del dinero para inversiones
-- Explicar por qué mezclar ambos fondos crea un riesgo real
-- Practicar la identificación del fondo al que pertenece una meta financiera
+## Objetivos de aprendizaje
+- Distinguir los ahorros de emergencia del dinero de inversión
+- Explicar por qué mezclar los dos fondos crea un riesgo real
+- Practicar cómo identificar a qué fondo pertenece una meta financiera dada
 
-## Contenido Principal
+## Contenido principal
 
-Esta lección aplica directamente el marco Ganar/Conservar/Hacer Crecer/Transmitir de la primera lección: los ahorros de emergencia pertenecen a la función "Conservar", mientras que el dinero para inversiones —incluida una posición creciente en metales preciosos— pertenece a la función "Hacer Crecer". Estos dos fondos deben mantenerse separados y regirse por reglas diferentes porque cumplen propósitos fundamentalmente distintos.
+Esta lección aplica de forma directa el marco de ganar, conservar, hacer crecer y transmitir de la primera lección: los ahorros de emergencia pertenecen a la función de "conservar", mientras que el dinero de inversión (incluida una posición en metales preciosos que va creciendo) pertenece a la función de "hacer crecer". Estos dos fondos de dinero tienen que tratarse por separado, con reglas distintas, porque cumplen propósitos fundamentalmente distintos.
 
-Los ahorros de emergencia deben ser seguros y estar disponibles de inmediato, porque las emergencias, por definición, llegan de forma impredecible y a menudo requieren efectivo rápidamente. El dinero para inversiones puede aceptar mayores fluctuaciones de precio a corto plazo porque no está destinado a utilizarse con poca anticipación; su valor proviene de darle tiempo para crecer. Mezclar ambos fondos —tratar las inversiones como si fueran ahorros de emergencia o usar dinero destinado a inversiones de largo plazo para gastos que no son emergencias— debilita ambas funciones a la vez.
+Los ahorros de emergencia tienen que estar seguros y disponibles de inmediato, porque las emergencias, por definición, llegan de forma impredecible y a menudo requieren efectivo rápido. El dinero de inversión puede aceptar más fluctuación de precio a corto plazo, porque no está pensado para tocarlo con poco aviso: su valor viene de darle tiempo para crecer. Mezclar los dos (tratar las inversiones como si fueran ahorros de emergencia, o echar mano de lo que debería ser dinero de inversión a largo plazo para cosas que no son emergencias) debilita las dos funciones a la vez.
 
-## Ejemplo Resuelto
+## Ejemplo práctico
 
-[EJEMPLO ILUSTRATIVO] En el estudio de caso, la posición creciente del hijo en plata y oro es dinero de inversión, destinado a crecer durante un horizonte largo y no a liquidarse para un gasto rutinario que no sea una emergencia simplemente porque tiene valor. Un fondo separado de ahorros de fácil acceso sería el recurso apropiado para emergencias reales, protegiendo la posición de inversión de interrupciones por necesidades de corto plazo que nunca estuvo destinada a cubrir.
+[EJEMPLO ILUSTRATIVO] En el caso de estudio, la posición de plata y oro del hijo, que va creciendo, es dinero de inversión: está pensada para crecer en un horizonte temporal largo, y no es algo que se deba liquidar para un gasto rutinario que no es una emergencia solo porque tiene valor. Un fondo aparte de ahorros de fácil acceso, separado de la posición en metales, sería el recurso adecuado para las emergencias genuinas, lo que protege la posición de inversión de verse interrumpida por necesidades a corto plazo que nunca le correspondió cubrir.
 
-## Cuestionario Práctico
-1. ¿A qué función pertenecen los ahorros de emergencia y a cuál pertenece el dinero para inversiones dentro del marco Ganar/Conservar/Hacer Crecer/Transmitir?
-2. ¿Por qué los ahorros de emergencia deben ser seguros y estar disponibles de inmediato?
-3. ¿Por qué el dinero para inversiones puede aceptar mayores fluctuaciones de precio a corto plazo?
-4. ¿Qué riesgo crea mezclar ambos fondos?
+## Prueba de práctica
 
-## Clave de Respuestas
-1. Los ahorros de emergencia pertenecen a "Conservar"; el dinero para inversiones pertenece a "Hacer Crecer".
-2. Porque las emergencias llegan de manera impredecible y a menudo requieren efectivo rápidamente.
-3. Porque no está destinado a utilizarse con poca anticipación, lo que le da tiempo para recuperarse de fluctuaciones de corto plazo.
-4. Debilita ambas funciones: las inversiones podrían liquidarse en un mal momento para gastos no urgentes, o las necesidades de emergencia podrían no cubrirse si los fondos están inmovilizados en inversiones.
+1. En el marco de ganar, conservar, hacer crecer y transmitir, ¿a qué función pertenecen los ahorros de emergencia y a cuál el dinero de inversión?
+2. ¿Por qué los ahorros de emergencia tienen que estar seguros y disponibles de inmediato?
+3. ¿Por qué el dinero de inversión puede aceptar más fluctuación de precio a corto plazo?
+4. ¿Qué riesgo crea mezclar los dos fondos?
 
-## Respuestas y Explicaciones
-1. Esto conecta directamente con el marco fundamental de la primera lección.
-2. La imprevisibilidad y la urgencia son las características que hacen que los ahorros de emergencia prioricen seguridad y acceso.
-3. El horizonte temporal es el mecanismo que permite al dinero de inversión aceptar más riesgo de corto plazo.
-4. Mezclar los fondos compromete el propósito específico que cada uno debe cumplir.
+## Clave de respuestas
+1. Los ahorros de emergencia pertenecen a "conservar"; el dinero de inversión pertenece a "hacer crecer".
+2. Porque las emergencias llegan de forma impredecible y a menudo requieren efectivo rápido.
+3. Porque no está pensado para tocarlo con poco aviso, lo que le da tiempo para recuperarse de la fluctuación a corto plazo.
+4. Debilita las dos funciones: las inversiones podrían liquidarse en un mal momento para cosas que no son emergencias, o las necesidades de emergencia podrían no cubrirse si los fondos están atados en inversiones.
 
-## Puntos Clave a Recordar
-- Los ahorros de emergencia ("Conservar") y el dinero para inversiones ("Hacer Crecer") cumplen propósitos distintos y necesitan reglas diferentes.
-- Los ahorros de emergencia priorizan seguridad y acceso inmediato; el dinero para inversiones puede aceptar más fluctuación cuando dispone de tiempo.
-- Mezclar ambos fondos debilita las dos funciones y, por lo general, debe evitarse.
+## Respuestas y explicaciones
+1. Esto se conecta directamente con el marco básico de la primera lección.
+2. Lo impredecible y lo urgente son los rasgos que obligan a los ahorros de emergencia a dar prioridad a la seguridad y al acceso.
+3. El horizonte temporal es el mecanismo que permite que el dinero de inversión acepte más riesgo a corto plazo.
+4. Mezclar los fondos pone en riesgo el propósito específico que cada uno debe cumplir.
+
+## Puntos clave
+- Los ahorros de emergencia ("conservar") y el dinero de inversión ("hacer crecer") cumplen propósitos distintos y necesitan reglas distintas.
+- Los ahorros de emergencia dan prioridad a la seguridad y al acceso inmediato; el dinero de inversión puede aceptar más fluctuación, dado el tiempo.
+- Mezclar estos dos fondos debilita las dos funciones y, en general, debería evitarse.

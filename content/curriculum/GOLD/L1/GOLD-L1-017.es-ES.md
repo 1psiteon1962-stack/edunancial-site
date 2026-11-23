@@ -1,58 +1,54 @@
 ---
 id: GOLD-L1-017
 track: GOLD
-officialTrackName: Inversión y Construcción de Patrimonio
+officialTrackName: "Investing"
 level: 1
 lessonNumber: 17
 locale: es-ES
-title: "La inflación y por qué importa a los inversores"
-summary: "Comprende la inflación y por qué importa a los inversores y cómo encaja en una base sólida de alfabetización inversora."
-version: 1.0
-author: Waldemar M. Caban, JD MA
+title: "La inflación y por qué les importa a los inversores"
+summary: "Explica la inflación en términos sencillos y por qué es una de las razones centrales de que invertir importe."
+version: "1.0"
+author: "Waldemar M. Caban, JD MA"
+date: "2026-08-09"
 ---
 
-# La inflación y por qué importa a los inversores
+# La inflación y por qué les importa a los inversores
 
-## Objetivo de aprendizaje
+## Objetivos de aprendizaje
+- Definir la inflación en términos sencillos
+- Explicar por qué la inflación desgasta el valor del dinero que no se invierte
+- Reconocer por qué esto hace que invertir sea relevante incluso para los ahorradores cautelosos
 
-Al terminar esta lección podrás explicar el concepto con tus propias palabras, reconocer sus principales ventajas y riesgos y relacionarlo con una decisión financiera real.
+## Contenido principal
 
-## Concepto central
+La inflación es el aumento general de los precios con el tiempo, lo que a su vez significa que cada unidad de moneda compra algo menos que antes. [DATO VERIFICADO] La mayoría de las economías modernas tienen algún nivel de inflación continua casi todos los años, aunque la tasa varía bastante con el tiempo. Esto significa que el dinero que simplemente se queda quieto sin crecer va perdiendo poder de compra en silencio: en el futuro puede comprar menos de lo que compra hoy, aunque la cantidad de euros no haya cambiado.
 
-La inflación y por qué importa a los inversores forma parte de la alfabetización inversora porque invertir exige comprender qué se posee, por qué puede cambiar de valor y qué riesgos se aceptan. En la pista GOLD, los metales preciosos sirven como una forma concreta de estudiar principios que también se aplican a otras inversiones.
+Esta es una de las razones centrales por las que invertir importa, incluso para alguien que es cauteloso con el riesgo por naturaleza. El dinero que no crece al menos al ritmo de la inflación en la práctica va perdiendo valor real con el tiempo, aunque se sienta "seguro" porque la cifra de la cuenta no baja. Esto no significa que cada euro deba invertirse de forma agresiva (el marco de ganar, conservar, hacer crecer y transmitir visto antes sigue aplicándose), pero sí significa que entender la inflación es parte de entender por qué importa la función de "hacer crecer" el dinero.
 
-No existe un activo apropiado para todas las personas ni para todas las situaciones. La decisión depende de objetivos, horizonte temporal, liquidez, tolerancia al riesgo, costes y circunstancias personales. EDUNANCIAL proporciona información para que el alumno pueda evaluar esas variables y tomar sus propias decisiones; no promete rentabilidad ni recomienda una inversión concreta.
+## Ejemplo práctico
 
-## Aplicación práctica
+[EJEMPLO ILUSTRATIVO] Si una cantidad específica de dinero podía comprar cierta canasta de bienes este año, y los precios de esa misma canasta suben en los años siguientes por la inflación, la misma cantidad de dinero compra menos de esa canasta más adelante, aunque la cantidad de euros no haya cambiado. Si ese mismo dinero se hubiera invertido y hubiera crecido a un ritmo mayor que la inflación, habría mantenido o aumentado su poder de compra real durante ese mismo período, en vez de desgastarse en silencio.
 
-Antes de actuar, separa el precio del valor, identifica todos los costes y pregunta qué tendría que ocurrir para que la decisión produzca un resultado distinto del esperado. Compara alternativas y considera también el coste de oportunidad del dinero utilizado.
+## Cuestionario de práctica
 
-Cuando intervengan impuestos, regulación, custodia, seguros o normas de mercado, recuerda que las reglas varían según el país y la jurisdicción. Los ejemplos estadounidenses son ejemplos educativos y no deben tratarse como reglas universales.
+1. Define con tus propias palabras la inflación.
+2. En un contexto de inflación continua, ¿qué le pasa al dinero que simplemente se queda quieto sin crecer?
+3. ¿Significa esto que cada euro debería invertirse de forma agresiva?
+4. ¿Por qué entender la inflación importa para entender la función de "hacer crecer" el dinero?
 
-## Ejemplo
+## Clave de respuestas
+1. El aumento general de los precios con el tiempo, lo que significa que cada unidad de moneda compra algo menos que antes.
+2. Pierde poder de compra en silencio con el tiempo, aunque la cifra en sí no baje.
+3. No: el marco de ganar, conservar, hacer crecer y transmitir sigue aplicándose; cada dinero cumple funciones distintas.
+4. Porque la inflación explica por qué simplemente guardar el dinero no basta para mantener su valor real: hace falta que crezca, al menos al mismo ritmo.
 
-Una persona reserva una cantidad que puede permitirse mantener invertida y compara varias opciones. En lugar de comprar solo porque el precio ha subido, analiza el propósito de la posición, los costes de compra y venta, la facilidad de convertirla en efectivo y el papel que tendría dentro de su patrimonio total.
-
-## Comprobación de comprensión
-
-**Pregunta:** ¿Cuál es el enfoque más sólido antes de tomar una decisión relacionada con este concepto?
-
-A. Actuar porque otra persona afirma que el precio subirá.  
-B. Evaluar objetivos, riesgos, costes, liquidez y alternativas.  
-C. Suponer que los resultados pasados garantizan los futuros.  
-D. Concentrar todo el capital en una sola idea.
-
-**Respuesta:** B.
+## Respuestas y explicaciones
+1. Esto define la inflación como un desgaste del poder de compra, no solo como un aumento aislado de los precios.
+2. El desgaste del poder de compra es la consecuencia práctica de la inflación sobre el dinero que no se invierte.
+3. Esto se conecta con el marco anterior y evita la conclusión simplista de "invertirlo todo".
+4. Esto relaciona directamente la inflación con la razón de ser de la función de hacer crecer presentada en la primera lección.
 
 ## Puntos clave
-
-- Comprende el activo o estrategia antes de comprometer dinero.
-- Riesgo y rentabilidad potencial deben analizarse juntos.
-- Los costes y la liquidez afectan al resultado real.
-- La diversificación puede reducir la dependencia de una sola posición, pero no elimina el riesgo.
-- Las normas fiscales y legales dependen de la jurisdicción.
-- La información debe ayudarte a decidir; no sustituye asesoramiento profesional individualizado.
-
-## Reflexión
-
-Explica cómo aplicarías esta lección a una decisión propia sin depender de una predicción sobre el precio futuro.
+- La inflación significa que los precios suben en general con el tiempo, así que cada unidad de moneda compra algo menos que antes.
+- El dinero que simplemente se queda quieto sin crecer pierde en silencio poder de compra real por la inflación continua.
+- Entender la inflación explica por qué importa la función de "hacer crecer" el dinero, sin implicar que cada euro deba invertirse de forma agresiva.

@@ -1,54 +1,56 @@
 ---
 id: GOLD-L1-036
 track: GOLD
-officialTrackName: "Inversión"
+officialTrackName: "Investing"
 level: 1
 lessonNumber: 36
 locale: es-Caribbean
-title: "Diversificación: dónde encajan los metales en un plan más amplio"
-summary: "Explica el papel práctico de los metales preciosos dentro de una cartera diversificada."
+title: "La diversificación: dónde encajan los metales en un plan más amplio"
+summary: "Explica el papel práctico que cumplen los metales preciosos dentro de una cartera diversificada, sin exagerar su peso."
 version: "1.0"
 author: "Waldemar M. Caban, JD MA"
 date: "2026-08-09"
 ---
 
-# Diversificación: dónde encajan los metales en un plan más amplio
+# La diversificación: dónde encajan los metales en un plan más amplio
 
-## Objetivos de Aprendizaje
-- Comprender el concepto central de esta lección
-- Relacionarlo con los principios anteriores del track GOLD
-- Aplicarlo sin convertir educación general en una recomendación individual
+## Objetivos de aprendizaje
+- Definir la diversificación y explicar su propósito básico
+- Entender el concepto general de los metales preciosos como una parte modesta de una cartera más amplia
+- Reconocer por qué concentrarse por completo en una sola clase de activo conlleva un riesgo adicional
 
-## Contenido Principal
+## Contenido principal
 
-Diversificar significa distribuir inversiones entre distintos tipos de activos para que una caída en uno solo no perjudique desproporcionadamente toda la cartera. Los metales preciosos suelen considerarse una pieza de una combinación más amplia, no una estrategia completa por sí solos.
+Diversificar significa repartir las inversiones entre distintos tipos de activos para que la caída de uno solo no dañe de forma desproporcionada toda una cartera. Este concepto, presentado brevemente en lecciones anteriores con la explicación de la correlación, se aplica directamente a la forma en que los metales preciosos suelen encajar en un plan financiero más amplio: como una parte de una combinación diversificada, no como toda la estrategia por sí solos.
 
-No existe un porcentaje universalmente correcto de metales para todas las personas. La cantidad apropiada depende de objetivos, tolerancia al riesgo, horizonte temporal y situación financiera. Concentrarse demasiado en cualquier clase de activo elimina parte del beneficio de reducción de riesgo que busca la diversificación.
+Los profesionales financieros y los recursos educativos a menudo presentan los metales preciosos como una porción modesta de una cartera bien diversificada: los rangos ilustrativos que se citan comúnmente en la educación financiera general van de un solo dígito a porcentajes de dos dígitos bajos del total de los activos invertibles, aunque la cantidad adecuada para cada persona depende por completo de sus metas específicas, de su tolerancia al riesgo y de su panorama financiero general, y no debería tratarse como una regla fija y universal.
 
-## Ejemplo Resuelto
+Concentrarse por completo, o de forma muy fuerte, en una sola clase de activo (incluidos los metales preciosos) conlleva un riesgo adicional precisamente porque renuncia al beneficio de reducción del riesgo que aporta específicamente la diversificación. Esto no significa que los metales preciosos no puedan cumplir un papel importante y valioso en un plan financiero, como ilustra el caso de estudio biográfico: significa que ese papel suele ser el de una parte bien pensada de un cuadro más amplio, no el cuadro entero.
 
-[EJEMPLO ILUSTRATIVO] Una persona revisa su plan escrito y compara el objetivo original con su presupuesto, horizonte temporal, liquidez, tolerancia al riesgo y otras alternativas. Solo modifica el plan cuando existe una razón deliberada y verificable, no simplemente porque un titular o movimiento diario del mercado genere una reacción emocional.
+## Ejemplo práctico
 
-## Cuestionario Práctico
-1. Explica el concepto central con tus propias palabras.
-2. ¿Cómo se conecta con una lección anterior?
-3. ¿Qué riesgo existe al aplicarlo sin considerar las circunstancias personales?
-4. ¿Qué información revisarías antes de cambiar un plan existente?
+En vez de poner todo el capital de inversión disponible en metales preciosos, un enfoque bien diversificado (ilustrado de forma conceptual, no como un consejo individual específico) podría incluir acciones para el crecimiento a largo plazo, bonos para la estabilidad y una asignación modesta y deliberada a los metales preciosos por los beneficios de depósito de valor y de diversificación vistos a lo largo de esta ruta; cada parte cumple su propio papel dentro de un plan general adaptado a las metas y las circunstancias reales de cada persona.
 
-## Clave de Respuestas
-1. Debe demostrar comprensión del concepto central.
-2. Puede conectarse con diversificación, DCA, liquidez, riesgo, horizonte temporal, costos o disciplina.
-3. Una regla general puede no ser apropiada para una meta, situación o jurisdicción específica.
-4. Objetivo, presupuesto, horizonte, costos, riesgo, liquidez y hechos nuevos relevantes.
+## Prueba de práctica
 
-## Respuestas y Explicaciones
-1. La comprensión permite transferir el principio a otros activos.
-2. Los conceptos del curso funcionan como un sistema, no como reglas aisladas.
-3. La educación general informa decisiones; no sustituye el análisis individual.
-4. Un cambio deliberado debe basarse en hechos y objetivos, no solo en emociones.
+1. Define con tus propias palabras la diversificación.
+2. Según esta lección, ¿qué papel suelen cumplir los metales preciosos dentro de una cartera diversificada?
+3. ¿Existe un porcentaje de asignación a los metales preciosos único, universal y "correcto" para todos los inversionistas?
+4. ¿Por qué concentrarse por completo en una sola clase de activo conlleva un riesgo adicional?
 
-## Puntos Clave a Recordar
-- Ningún activo es universalmente apropiado.
-- Mantén el propósito y el horizonte temporal visibles.
-- Diversifica el razonamiento además de los activos.
-- Ajusta un plan deliberadamente cuando cambien los hechos.
+## Clave de respuestas
+1. Repartir las inversiones entre distintos tipos de activos para que la caída de uno solo no dañe de forma desproporcionada toda la cartera.
+2. Una porción modesta de una combinación bien diversificada, no toda la estrategia por sí solos.
+3. No: la cantidad adecuada depende por completo de las metas específicas, la tolerancia al riesgo y el panorama financiero general de cada persona.
+4. Porque renuncia al beneficio de reducción del riesgo que aporta específicamente la diversificación.
+
+## Respuestas y explicaciones
+1. Esto define el concepto central de la diversificación que se aplica en toda esta lección.
+2. Esto aclara el papel típico y modesto de los metales preciosos dentro de un plan financiero más amplio y diversificado.
+3. Esta advertencia importante evita presentar un porcentaje de asignación específico como si fuera un consejo universal e individualizado.
+4. El riesgo de concentración es justo lo contrario del beneficio protector que la diversificación busca aportar.
+
+## Puntos clave
+- La diversificación reparte las inversiones entre tipos de activos para reducir el riesgo de que la caída de uno solo dañe de forma desproporcionada una cartera.
+- Los metales preciosos suelen ocupar una porción modesta de una cartera bien diversificada, no toda la estrategia.
+- No existe un único porcentaje de asignación universal: la cantidad adecuada depende de las metas, la tolerancia al riesgo y las circunstancias financieras generales de cada persona.

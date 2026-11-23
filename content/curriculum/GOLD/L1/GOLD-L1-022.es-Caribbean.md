@@ -1,54 +1,56 @@
 ---
 id: GOLD-L1-022
 track: GOLD
-officialTrackName: "Inversión"
+officialTrackName: "Investing"
 level: 1
 lessonNumber: 22
 locale: es-Caribbean
-title: "Movimientos de las monedas y precios de los metales preciosos"
-summary: "Explica cómo la fortaleza de las monedas, especialmente el dólar estadounidense, puede influir en los precios de los metales."
+title: "Los movimientos de las monedas y los precios de los metales preciosos"
+summary: "Explica cómo la fortaleza de las monedas, sobre todo del dólar estadounidense, tiende a influir en los precios de los metales preciosos."
 version: "1.0"
 author: "Waldemar M. Caban, JD MA"
 date: "2026-08-09"
 ---
 
-# Movimientos de las monedas y precios de los metales preciosos
+# Los movimientos de las monedas y los precios de los metales preciosos
 
-## Objetivos de Aprendizaje
-- Explicar el concepto central de esta lección
-- Identificar sus riesgos, límites y aplicaciones
-- Aplicarlo dentro de un proceso de inversión disciplinado
+## Objetivos de aprendizaje
+- Explicar la relación general entre la fortaleza de una moneda y los precios de los metales preciosos
+- Entender por qué los metales preciosos suelen cotizarse en dólares estadounidenses a nivel mundial
+- Reconocer esto como una tendencia general, no como una regla fija
 
-## Contenido Principal
+## Contenido principal
 
-Los metales preciosos suelen cotizar globalmente en dólares estadounidenses. Por ello, la fortaleza o debilidad del dólar frente a otras monedas puede influir en sus precios incluso para compradores fuera de Estados Unidos. Históricamente, un dólar más débil ha tendido en algunos períodos a coincidir con precios más altos del oro y la plata medidos en dólares, y viceversa, pero esta relación no es una regla garantizada.
+Los metales preciosos suelen cotizarse y negociarse a nivel mundial en dólares estadounidenses, lo que significa que la fortaleza o la debilidad del dólar frente a otras monedas tiende a influir en los precios de los metales, incluso para los compradores de fuera de Estados Unidos. En términos generales, cuando el dólar estadounidense se debilita frente a otras monedas, los precios del oro y la plata, medidos en dólares, históricamente han tendido a subir, y al revés cuando el dólar se fortalece; aunque esta relación no es una regla fija ni garantizada y puede verse afectada por muchos otros factores a la vez.
 
-La lógica básica es que, si el dólar pierde valor relativo, pueden necesitarse más dólares para comprar la misma cantidad de un activo cotizado globalmente. Sin embargo, muchos otros factores actúan simultáneamente. Esta relación debe entenderse como una dinámica de mercado, no como una herramienta infalible para predecir precios.
+La lógica básica detrás de esta tendencia general: si el dólar compra menos de otras monedas (o, en un sentido relacionado, compra menos en general por la inflación), a menudo hacen falta más de esos dólares más débiles para comprar la misma cantidad de un activo que se cotiza a nivel mundial, como el oro, lo que empuja hacia arriba el precio del oro en dólares, si todo lo demás se mantiene igual. Esto se conecta con la lección anterior sobre la protección contra la inflación, ya que la debilidad del dólar y la inflación a menudo son conceptos relacionados, aunque no idénticos.
 
-## Ejemplo Resuelto
+Entender esta relación ayuda a explicar por qué las noticias financieras a menudo hablan de los movimientos de las monedas junto con los precios de los metales preciosos: son dinámicas de mercado realmente conectadas, aunque, como se recalca en toda esta ruta, ningún factor por sí solo predice perfectamente los movimientos de precio a corto plazo.
 
-[EJEMPLO ILUSTRATIVO] Aplica el concepto a una persona que invierte una cantidad sostenible cada mes durante un horizonte de varios años. Antes de cambiar el plan por un movimiento reciente del mercado, debe comparar el hecho nuevo con su objetivo, presupuesto, horizonte temporal, liquidez y tolerancia al riesgo.
+## Ejemplo práctico
 
-## Cuestionario Práctico
-1. Explica el concepto principal con tus propias palabras.
-2. ¿Qué riesgo o limitación importante presenta?
-3. ¿Cómo influye el horizonte temporal?
-4. ¿Qué información verificarías antes de actuar?
+Si las noticias indican que el dólar estadounidense se ha debilitado mucho frente a otras monedas importantes del mundo durante un período, un inversionista que siga las lecciones de esta ruta entendería por qué ese mismo período también podría mostrar una tendencia al alza en los precios del oro y la plata en dólares; no como una certeza, sino como una tendencia general que refleja la relación histórica entre la fortaleza del dólar y el precio de los metales preciosos vista en esta lección.
 
-## Clave de Respuestas
-1. Debe demostrar comprensión del concepto central de la lección.
-2. Debe identificar correctamente una limitación, riesgo o incertidumbre relevante.
-3. Un horizonte más largo o más corto cambia la importancia de la volatilidad, liquidez y capacidad de recuperación.
-4. Objetivo, costos, riesgos, liquidez, alternativas y hechos relevantes.
+## Prueba de práctica
 
-## Respuestas y Explicaciones
-1. Comprender el razonamiento importa más que memorizar una definición.
-2. Reconocer límites evita convertir una tendencia o herramienta en una garantía.
-3. El horizonte temporal conecta la decisión con la necesidad real del dinero.
-4. Verificar información antes de actuar reduce decisiones impulsivas.
+1. ¿En qué moneda se cotizan y negocian normalmente los metales preciosos a nivel mundial?
+2. ¿Cuál es la tendencia general entre la debilidad del dólar y los precios del oro y la plata?
+3. ¿Cuál es la lógica básica detrás de esta tendencia general?
+4. ¿Esta relación es una regla fija y garantizada?
 
-## Puntos Clave a Recordar
-- Relaciona cada decisión con un objetivo.
-- Considera riesgo, costos, liquidez y horizonte temporal.
-- Las tendencias históricas no garantizan resultados futuros.
-- Utiliza información para comprender, no para reaccionar impulsivamente.
+## Clave de respuestas
+1. En dólares estadounidenses.
+2. Históricamente, la debilidad del dólar ha tendido a coincidir con la subida de los precios del oro y la plata en dólares, y al revés.
+3. Si el dólar compra menos en general, a menudo hacen falta más dólares (más débiles) para comprar el mismo activo que se cotiza a nivel mundial, lo que empuja hacia arriba su precio en dólares.
+4. No: es una tendencia histórica general, no una regla fija ni garantizada, y puede verse afectada por muchos otros factores a la vez.
+
+## Respuestas y explicaciones
+1. Esto establece la moneda estándar en que se expresan los precios mundiales de los metales preciosos.
+2. Esta tendencia histórica general es la relación central que explica la lección.
+3. Esta lógica relaciona directamente el valor de la moneda con el mecanismo de precios de un activo que se negocia a nivel mundial.
+4. Esta advertencia evita exagerar la certeza de esta relación, en coherencia con el enfoque de toda esta ruta.
+
+## Puntos clave
+- Los metales preciosos suelen cotizarse a nivel mundial en dólares estadounidenses, lo que relaciona la fortaleza del dólar con los precios de los metales incluso para los compradores de fuera de Estados Unidos.
+- Históricamente, la debilidad del dólar ha tendido a coincidir con la subida de los precios del oro y la plata en dólares, y al revés.
+- Es una tendencia histórica general, no una regla garantizada: muchos factores influyen a la vez en los precios de los metales preciosos.

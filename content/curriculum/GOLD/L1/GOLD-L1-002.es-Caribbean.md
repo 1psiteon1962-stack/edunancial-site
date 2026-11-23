@@ -1,53 +1,54 @@
 ---
 id: GOLD-L1-002
 track: GOLD
-officialTrackName: "Inversión"
+officialTrackName: "Investing"
 level: 1
 lessonNumber: 2
 locale: es-Caribbean
-title: "Qué significa realmente invertir"
+title: "Lo que realmente significa invertir"
 summary: "Define la inversión en términos sencillos y la distingue del ahorro y de la especulación."
 version: "1.0"
 author: "Waldemar M. Caban, JD MA"
 date: "2026-08-09"
 ---
 
-# Qué significa realmente invertir
+# Lo que realmente significa invertir
 
-## Objetivos de Aprendizaje
+## Objetivos de aprendizaje
 - Definir la inversión en términos sencillos
 - Distinguir la inversión del ahorro y de la especulación
-- Identificar el papel del tiempo y el riesgo al invertir
+- Identificar el papel del tiempo y del riesgo en la inversión
 
-## Contenido Principal
+## Contenido principal
 
-Invertir significa colocar dinero en algo con la expectativa de que aumente de valor con el tiempo, basándose en una razón subyacente para esperar ese crecimiento: una empresa que genera beneficios, un metal con valor duradero o bienes raíces cuya demanda puede aumentar. Esto es distinto de ahorrar, que consiste en reservar dinero de forma segura sin esperar un crecimiento significativo, y de especular, que consiste en apostar por movimientos de precio con poca base para esperar un resultado concreto.
+Invertir significa poner dinero en algo con la expectativa de que aumente de valor con el tiempo, a partir de alguna razón de fondo para esperar ese crecimiento: un negocio que genera ganancias, un metal con un valor duradero, bienes raíces que se valorizan con la demanda. Esto es distinto del ahorro, que significa apartar dinero de forma segura sin esperar un crecimiento importante, y distinto de la especulación, que significa apostar al movimiento del precio sin mucha razón de fondo para esperar un resultado en particular, algo más cercano a un juego de azar que a una inversión.
 
-El tiempo y el riesgo son dos variables fundamentales de la inversión. En general, asumir más riesgo puede ofrecer mayor rentabilidad potencial, pero también mayor posibilidad de pérdida. El tiempo puede favorecer al inversionista porque un horizonte más largo permite soportar mejor fluctuaciones de corto plazo.
+El tiempo y el riesgo son las dos variables centrales de la inversión. En general, asumir más riesgo ofrece la posibilidad de un mayor rendimiento, pero también una mayor posibilidad de pérdida: no hay una forma confiable de obtener rendimientos más altos sin aceptar más incertidumbre. El tiempo trabaja a favor del inversionista: con suficiente tiempo, las subidas y bajadas normales a corto plazo tienden a suavizarse, y por eso la inversión a largo plazo y la especulación a corto plazo requieren mentalidades muy distintas, aunque a veces se trate del mismo activo de fondo.
 
-## Ejemplo Resuelto
+## Ejemplo práctico
 
-Comprar acciones de una empresa consolidada porque se espera que sus productos continúen generando beneficios durante la próxima década es invertir cuando existe una razón económica subyacente. Comprar las mismas acciones únicamente porque su precio ha subido recientemente, esperando vender antes de que caiga y sin analizar el negocio, se acerca más a la especulación.
+Comprar acciones de una empresa bien establecida porque crees que sus productos van a seguir generando ganancias durante la próxima década es invertir: hay una razón de fondo para el crecimiento esperado. Comprar esas mismas acciones solo porque el precio ha estado subiendo últimamente y esperas venderlas antes de que bajen, sin ninguna opinión sobre el negocio de fondo, es especular: estás apostando al movimiento del precio en sí, no a una razón de fondo para su valor.
 
-## Cuestionario Práctico
-1. Define invertir con tus propias palabras.
-2. ¿Cómo se diferencia invertir de ahorrar?
-3. ¿Cómo se diferencia invertir de especular?
-4. ¿Cuáles son las dos variables fundamentales de la inversión mencionadas en esta lección?
+## Prueba de práctica
 
-## Clave de Respuestas
-1. Colocar dinero con expectativa de crecimiento basada en una razón subyacente.
-2. Ahorrar prioriza conservar dinero de forma segura; invertir busca crecimiento aceptando cierto riesgo.
-3. Invertir se apoya en razones económicas o de valor; especular se centra principalmente en movimientos de precio.
-4. Tiempo y riesgo.
+1. Define con tus propias palabras la inversión.
+2. ¿En qué se diferencia la inversión del ahorro?
+3. ¿En qué se diferencia la inversión de la especulación?
+4. Según esta lección, ¿cuáles son las dos variables centrales de la inversión?
 
-## Respuestas y Explicaciones
-1. Colocar dinero con expectativa de crecimiento basada en una razón subyacente.
-2. Ahorrar prioriza conservar dinero de forma segura; invertir busca crecimiento aceptando cierto riesgo.
-3. Invertir se apoya en razones económicas o de valor; especular se centra principalmente en movimientos de precio.
-4. Tiempo y riesgo.
+## Clave de respuestas
+1. Poner dinero en algo con la expectativa de un crecimiento basado en una razón de fondo.
+2. El ahorro aparta dinero de forma segura sin esperar un crecimiento importante; la inversión espera un crecimiento basado en una razón real.
+3. La inversión se basa en una razón de fondo para el valor; la especulación apuesta al movimiento del precio sin mucho razonamiento de fondo.
+4. El tiempo y el riesgo.
 
-## Puntos Clave a Recordar
-- Invertir busca crecimiento fundamentado a lo largo del tiempo.
-- Ahorrar, invertir y especular cumplen funciones distintas.
-- Tiempo y riesgo influyen en toda decisión de inversión.
+## Respuestas y explicaciones
+1. Esto recoge la diferencia esencial entre invertir y simplemente guardar dinero.
+2. La expectativa de crecimiento y el razonamiento de fondo separan la inversión del simple ahorro.
+3. El razonamiento de fondo frente a la pura apuesta al precio es la diferencia clave con la especulación.
+4. Estas dos variables interactúan a lo largo de todos los demás conceptos de inversión de la ruta.
+
+## Puntos clave
+- Invertir significa hacer crecer el dinero con el tiempo a partir de una razón de fondo para esperar ese crecimiento.
+- Se diferencia del ahorro (seguridad sin crecimiento) y de la especulación (apostar solo al movimiento del precio).
+- El tiempo y el riesgo son las dos variables centrales que influyen en toda decisión de inversión.

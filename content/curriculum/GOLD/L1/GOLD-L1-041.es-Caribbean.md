@@ -1,54 +1,56 @@
 ---
 id: GOLD-L1-041
 track: GOLD
-officialTrackName: "Inversión"
+officialTrackName: "Investing"
 level: 1
 lessonNumber: 41
 locale: es-Caribbean
-title: "Construir un plan concreto de promedio del costo en dólares"
-summary: "Convierte el concepto de DCA en un calendario práctico y repetible."
+title: "Cómo armar un plan de DCA paso a paso"
+summary: "Ofrece un marco concreto, paso a paso, para armar un plan personal de promedio del costo en dólares."
 version: "1.0"
 author: "Waldemar M. Caban, JD MA"
 date: "2026-08-09"
 ---
 
-# Construir un plan concreto de promedio del costo en dólares
+# Cómo armar un plan de DCA paso a paso
 
-## Objetivos de Aprendizaje
-- Comprender el concepto central de esta lección
-- Relacionarlo con los principios anteriores del track GOLD
-- Aplicarlo sin convertir educación general en una recomendación individual
+## Objetivos de aprendizaje
+- Llevar el concepto del DCA a un marco personal concreto, paso a paso
+- Practicar el cálculo de un calendario sencillo de DCA a partir de un presupuesto hipotético
+- Resumir en un solo ejercicio aplicado las lecciones anteriores sobre el DCA, el seguimiento y la planificación
 
-## Contenido Principal
+## Contenido principal
 
-Un plan concreto de promedio del costo en dólares puede construirse en cuatro pasos: determinar la cantidad total disponible para invertir, dividirla en aportaciones regulares iguales, escoger una fecha fija para las compras y comprometerse con el calendario independientemente de los movimientos normales del precio.
+A partir del concepto de DCA presentado antes en esta ruta, un plan de DCA concreto, paso a paso, implica: determinar una cantidad total disponible para invertir durante un período fijo (por ejemplo, un año), dividir esa cantidad en cuotas iguales y regulares (la cuota mensual es común y manejable para la mayoría de las personas), escoger una fecha de compra fija en cada período (en vez de intentar escoger un día "ideal", lo que volvería a introducir el problema de programar el mercado que el DCA busca evitar) y comprometerse a seguir ese calendario sin importar el precio específico de cada fecha de compra.
 
-Elegir una fecha fija evita volver a introducir el problema de intentar encontrar el día "perfecto". También reduce la fatiga de decisiones y facilita mantener registros consistentes. [EJEMPLO ILUSTRATIVO] Si hay $1,200 disponibles para un año y se compra mensualmente, cada compra sería de $100.
+Esta estructura paso a paso elimina la ambigüedad y el cansancio de tomar decisiones en el proceso: en vez de decidir cada vez si "ahora" es un buen momento para comprar, el calendario mismo toma esa decisión de forma automática, lo que libera al inversionista de una decisión que, como se vio antes en esta ruta, ni siquiera los inversionistas profesionales pueden tomar bien de forma confiable a corto plazo.
 
-## Ejemplo Resuelto
+Esta estructura también apoya de forma natural el hábito de llevar registros visto antes: un calendario fijo facilita armar un registro de seguimiento constante y comparable, ya que cada entrada sigue el mismo intervalo regular y el mismo formato.
 
-[EJEMPLO ILUSTRATIVO] Una persona revisa su plan escrito y compara el objetivo original con su presupuesto, horizonte temporal, liquidez, tolerancia al riesgo y otras alternativas. Solo modifica el plan cuando existe una razón deliberada y verificable, no simplemente porque un titular o movimiento diario del mercado genere una reacción emocional.
+## Ejemplo práctico
 
-## Cuestionario Práctico
-1. Explica el concepto central con tus propias palabras.
-2. ¿Cómo se conecta con una lección anterior?
-3. ¿Qué riesgo existe al aplicarlo sin considerar las circunstancias personales?
-4. ¿Qué información revisarías antes de cambiar un plan existente?
+Un inversionista con $600 disponibles para el año podría armar el siguiente plan de DCA: $50 invertidos en plata el día 1 de cada mes, durante 12 meses, con el mismo comerciante de buena reputación, y anotados cada vez en el mismo registro sencillo. Algunos meses esos $50 compran un poco más de plata (cuando los precios están más bajos); otros meses, un poco menos (cuando los precios están más altos); pero el calendario mismo nunca cambia según el precio del momento, en coherencia con el principio central del DCA visto antes en esta ruta.
 
-## Clave de Respuestas
-1. Debe demostrar comprensión del concepto central.
-2. Puede conectarse con diversificación, DCA, liquidez, riesgo, horizonte temporal, costos o disciplina.
-3. Una regla general puede no ser apropiada para una meta, situación o jurisdicción específica.
-4. Objetivo, presupuesto, horizonte, costos, riesgo, liquidez y hechos nuevos relevantes.
+## Prueba de práctica
 
-## Respuestas y Explicaciones
-1. La comprensión permite transferir el principio a otros activos.
-2. Los conceptos del curso funcionan como un sistema, no como reglas aisladas.
-3. La educación general informa decisiones; no sustituye el análisis individual.
-4. Un cambio deliberado debe basarse en hechos y objetivos, no solo en emociones.
+1. Según esta lección, enumera los cuatro pasos para armar un plan de DCA concreto.
+2. ¿Por qué importa escoger una fecha de compra fija, en vez de intentar escoger un día "ideal"?
+3. ¿Cómo elimina esta estructura el cansancio de tomar decisiones en el proceso de inversión?
+4. Calcula: si hay $1,200 disponibles para el año y las compras se hacen cada mes, ¿de cuánto sería cada compra mensual?
 
-## Puntos Clave a Recordar
-- Ningún activo es universalmente apropiado.
-- Mantén el propósito y el horizonte temporal visibles.
-- Diversifica el razonamiento además de los activos.
-- Ajusta un plan deliberadamente cuando cambien los hechos.
+## Clave de respuestas
+1. Determinar la cantidad total disponible, dividirla en cuotas iguales y regulares, escoger una fecha de compra fija y comprometerse con el calendario sin importar el precio.
+2. Porque intentar escoger un día "ideal" vuelve a introducir el problema de programar el mercado que el DCA está diseñado específicamente para evitar.
+3. Haciendo que la decisión de compra sea automática con un calendario fijo, en vez de requerir cada vez un juicio nuevo y difícil sobre el momento.
+4. $1,200 divididos entre 12 meses son $100 al mes.
+
+## Respuestas y explicaciones
+1. Estos cuatro pasos llevan el concepto del DCA a un plan concreto y accionable.
+2. Las fechas fijas preservan el beneficio central del DCA de eliminar del proceso el riesgo de programar el mercado.
+3. Automatizar el calendario es lo que elimina específicamente el cansancio de decidir y la presión del momento que atiende el DCA.
+4. Este cálculo aplica las matemáticas básicas del plan directamente a un nuevo caso hipotético.
+
+## Puntos clave
+- Un plan de DCA concreto implica determinar un presupuesto total, dividirlo en cuotas iguales y regulares, escoger una fecha de compra fija y comprometerse con el calendario sin importar el precio.
+- Las fechas de compra fijas preservan el beneficio central del DCA de eliminar del proceso de inversión el riesgo de programar el mercado y el cansancio de decidir.
+- Esta estructura apoya de forma natural un seguimiento constante, ya que cada compra sigue el mismo intervalo regular y el mismo formato.

@@ -1,53 +1,54 @@
 ---
 id: GOLD-L1-005
 track: GOLD
-officialTrackName: "Inversión"
+officialTrackName: "Investing"
 level: 1
 lessonNumber: 5
 locale: es-Caribbean
-title: "Fundamentos de la inversión periódica (dollar-cost averaging)"
-summary: "Introduce la inversión periódica como un método disciplinado que reduce la dependencia de acertar el momento perfecto."
+title: "Lo básico del promedio del costo en dólares"
+summary: "Presenta el promedio del costo en dólares como un enfoque de inversión disciplinado y resistente a las emociones."
 version: "1.0"
 author: "Waldemar M. Caban, JD MA"
 date: "2026-08-09"
 ---
 
-# Fundamentos de la inversión periódica (dollar-cost averaging)
+# Lo básico del promedio del costo en dólares
 
-## Objetivos de Aprendizaje
-- Definir la inversión periódica o dollar-cost averaging (DCA)
-- Explicar cómo reduce la necesidad de adivinar el momento perfecto
-- Aplicar el concepto a un ejemplo sencillo
+## Objetivos de aprendizaje
+- Definir el promedio del costo en dólares en términos sencillos
+- Explicar por qué este enfoque reduce el efecto de intentar adivinar el momento perfecto para comprar
+- Practicar la aplicación del concepto en un ejemplo sencillo
 
-## Contenido Principal
+## Contenido principal
 
-La inversión periódica, conocida también como dollar-cost averaging o DCA, consiste en invertir una cantidad fija a intervalos regulares independientemente del precio del momento. En vez de intentar acertar una única compra "perfecta", se sigue una regla previamente definida.
+El promedio del costo en dólares, que a menudo se abrevia DCA (por sus siglas en inglés), significa invertir una cantidad fija de dinero a intervalos regulares (por ejemplo, cada mes) sin importar lo que esté haciendo el precio en ese momento, en vez de intentar programar una sola compra grande para el momento "perfecto". Como la cantidad invertida se mantiene igual cada vez, de forma natural compras más unidades cuando el precio está bajo y menos unidades cuando el precio está alto, sin necesidad de predecir nada.
 
-Como la cantidad de dinero es constante, cuando el precio es menor se compran más unidades y cuando es mayor se compran menos. Este método no garantiza beneficios ni protege contra pérdidas, pero puede reducir decisiones impulsivas basadas en miedo o entusiasmo.
+Esto importa porque predecir de forma constante el mejor momento para comprar es extremadamente difícil, incluso para los profesionales, e intentarlo a menudo lleva a dudar, a perder oportunidades o a comprar en malos momentos impulsados por las emociones (como comprar cuando los precios están subiendo y todo el mundo está entusiasmado, y dudar cuando los precios están bajos y todo el mundo está nervioso: justo al revés de lo ideal). El DCA elimina por completo esa decisión al hacer que el momento de compra sea automático y constante.
 
-## Ejemplo Resuelto
+## Ejemplo práctico
 
-[EJEMPLO ILUSTRATIVO] Si una persona destina $50 mensuales y un activo cuesta $25 por unidad, compra 2 unidades. Si el mes siguiente cuesta $20, los mismos $50 compran 2.5 unidades. La regla se mantiene sin necesidad de predecir cuál mes tendrá el mejor precio.
+[EJEMPLO ILUSTRATIVO] Supongamos que alguien invierte $50 cada mes en plata, sin importar el precio. En un mes en que la plata cuesta $25 la onza, esos $50 compran 2 onzas. En un mes en que el precio baja a $20 la onza, los mismos $50 compran 2.5 onzas: automáticamente compra más cuando está más barata. A lo largo de muchos meses, esto equilibra el precio promedio pagado por onza, sin que el inversionista tenga que adivinar nunca qué mes fue el "mejor" momento para comprar.
 
-## Cuestionario Práctico
-1. Define DCA con tus propias palabras.
-2. ¿Qué ocurre con las unidades compradas cuando baja el precio?
-3. ¿Por qué puede ser difícil intentar acertar el momento perfecto?
-4. Si inviertes $100 a $10 y luego $100 a $20, ¿cuántas unidades tienes?
+## Prueba de práctica
 
-## Clave de Respuestas
-1. Invertir una cantidad fija regularmente sin depender del precio del momento.
-2. Se compran más unidades.
-3. Porque los movimientos futuros del precio son inciertos.
-4. 15 unidades.
+1. Define con tus propias palabras el promedio del costo en dólares.
+2. Con el DCA, ¿qué pasa con el número de unidades compradas cuando el precio está bajo?
+3. ¿Por qué es difícil intentar programar una sola compra "perfecta"?
+4. Si alguien invierte $100 al mes y el precio es de $10 un mes y de $20 el siguiente, ¿cuántas unidades tiene en total después de los dos meses?
 
-## Respuestas y Explicaciones
-1. Invertir una cantidad fija regularmente sin depender del precio del momento.
-2. Se compran más unidades.
-3. Porque los movimientos futuros del precio son inciertos.
-4. 15 unidades.
+## Clave de respuestas
+1. Invertir una cantidad fija a intervalos regulares sin importar el precio, en vez de intentar programar una sola compra.
+2. Se compran más unidades cuando el precio está bajo, ya que la cantidad fija de dólares rinde más.
+3. Porque predecir de forma constante los movimientos del precio es extremadamente difícil, incluso para los profesionales.
+4. 10 unidades el primer mes ($100/$10) más 5 unidades el segundo mes ($100/$20) son 15 unidades en total.
 
-## Puntos Clave a Recordar
-- DCA utiliza una cantidad y frecuencia predeterminadas.
-- No elimina el riesgo ni garantiza rentabilidad.
-- Puede ayudar a reducir decisiones emocionales.
+## Respuestas y explicaciones
+1. Esto recoge el mecanismo central del DCA: cantidad fija, intervalo regular, sin necesidad de predecir el precio.
+2. Este es el beneficio incorporado del DCA: comprar automáticamente más cuando los precios son favorables.
+3. La dificultad de predecir es la razón de fondo por la que el DCA es una alternativa útil y resistente a las emociones.
+4. Aplicar la fórmula directamente en los dos meses muestra el funcionamiento práctico del DCA.
+
+## Puntos clave
+- El promedio del costo en dólares significa invertir una cantidad fija a intervalos regulares, sin importar el precio.
+- De forma natural, compra más unidades cuando los precios están bajos y menos cuando están altos, sin necesidad de predecir.
+- El DCA elimina el reto difícil, y a menudo impulsado por las emociones, de intentar programar la compra "perfecta".

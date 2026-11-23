@@ -1,58 +1,56 @@
 ---
 id: GOLD-L1-030
 track: GOLD
-officialTrackName: Inversión y Construcción de Patrimonio
+officialTrackName: "Investing"
 level: 1
 lessonNumber: 30
 locale: es-ES
-title: "Coste de oportunidad de mantener metales"
-summary: "Comprende coste de oportunidad de mantener metales y cómo encaja en una base sólida de alfabetización inversora."
-version: 1.0
-author: Waldemar M. Caban, JD MA
+title: "El coste de oportunidad de tener metales"
+summary: "Explica el concepto de coste de oportunidad aplicado a destinar dinero a los metales preciosos en vez de a otras inversiones."
+version: "1.0"
+author: "Waldemar M. Caban, JD MA"
+date: "2026-08-09"
 ---
 
-# Coste de oportunidad de mantener metales
+# El coste de oportunidad de tener metales
 
-## Objetivo de aprendizaje
+## Objetivos de aprendizaje
+- Definir el coste de oportunidad en términos sencillos
+- Aplicar el concepto específicamente a los metales preciosos frente a las inversiones que producen ingresos
+- Entender por qué esta disyuntiva importa en las decisiones generales de asignación
 
-Al terminar esta lección podrás explicar el concepto con tus propias palabras, reconocer sus principales ventajas y riesgos y relacionarlo con una decisión financiera real.
+## Contenido principal
 
-## Concepto central
+El coste de oportunidad es el valor de la siguiente mejor alternativa a la que se renuncia al tomar una decisión. Cada euro que se destina a los metales preciosos es un euro que no se destina a otra cosa: posiblemente a una acción que paga dividendos, a un bono que paga intereses o a otra inversión capaz de generar ingresos continuos o de tener otras características de crecimiento.
 
-Coste de oportunidad de mantener metales forma parte de la alfabetización inversora porque invertir exige comprender qué se posee, por qué puede cambiar de valor y qué riesgos se aceptan. En la pista GOLD, los metales preciosos sirven como una forma concreta de estudiar principios que también se aplican a otras inversiones.
+Como los metales preciosos no producen ingresos por sí solos (un punto que se recalcó en una lección anterior), el coste de oportunidad de tenerlos incluye específicamente los ingresos o el crecimiento que ese mismo dinero podría haber generado en una inversión alternativa. Esto no significa que los metales preciosos sean una mala decisión: significa que su propuesta de valor (depósito de valor, protección contra la inflación, diversificación, temas vistos a lo largo de esta ruta) debe sopesarse con honestidad frente a aquello a lo que se renuncia al no destinar ese mismo dinero a otra parte.
 
-No existe un activo apropiado para todas las personas ni para todas las situaciones. La decisión depende de objetivos, horizonte temporal, liquidez, tolerancia al riesgo, costes y circunstancias personales. EDUNANCIAL proporciona información para que el alumno pueda evaluar esas variables y tomar sus propias decisiones; no promete rentabilidad ni recomienda una inversión concreta.
+Este concepto refuerza por qué los metales preciosos suelen presentarse como una parte de una cartera diversificada, como se vio en una lección anterior, y no como la única inversión ni la dominante. Una asignación bien pensada sopesa los beneficios específicos que aportan los metales preciosos frente a este coste de oportunidad real, en vez de tratar la decisión como automáticamente obvia en un sentido o en otro.
 
-## Aplicación práctica
+## Ejemplo práctico
 
-Antes de actuar, separa el precio del valor, identifica todos los costes y pregunta qué tendría que ocurrir para que la decisión produzca un resultado distinto del esperado. Compara alternativas y considera también el coste de oportunidad del dinero utilizado.
+Un inversor con 1.000 € para asignar podría considerar ponerlo todo en plata o repartirlo entre plata y un fondo indexado de acciones que paga dividendos. Decidir poner la cantidad completa en plata significa renunciar a los dividendos y al posible crecimiento que el fondo indexado de acciones podría haber generado durante ese mismo período: ese rendimiento potencial al que se renuncia es el coste de oportunidad de la opción de solo plata. Esto no hace que la opción de la plata sea equivocada; significa que la decisión debería sopesar con honestidad los beneficios específicos de la plata (depósito de valor, diversificación) frente a esta disyuntiva real y cuantificable, en vez de ignorarla.
 
-Cuando intervengan impuestos, regulación, custodia, seguros o normas de mercado, recuerda que las reglas varían según el país y la jurisdicción. Los ejemplos estadounidenses son ejemplos educativos y no deben tratarse como reglas universales.
+## Cuestionario de práctica
 
-## Ejemplo
+1. Define con tus propias palabras el coste de oportunidad.
+2. ¿Por qué el coste de oportunidad se aplica específicamente a los metales preciosos, dado que no generan ingresos?
+3. ¿Tener un coste de oportunidad significa que los metales preciosos son automáticamente una mala decisión de inversión?
+4. ¿Cómo se conecta este concepto con la lección sobre la diversificación vista antes en esta ruta?
 
-Una persona reserva una cantidad que puede permitirse mantener invertida y compara varias opciones. En lugar de comprar solo porque el precio ha subido, analiza el propósito de la posición, los costes de compra y venta, la facilidad de convertirla en efectivo y el papel que tendría dentro de su patrimonio total.
+## Clave de respuestas
+1. El valor de la siguiente mejor alternativa a la que se renuncia al tomar una decisión.
+2. Porque el dinero destinado a metales que no producen ingresos podría haber generado ingresos o crecimiento si se hubiera destinado a una inversión alternativa.
+3. No: significa que la decisión debería sopesar con honestidad los beneficios específicos de los metales preciosos frente a esta disyuntiva real, no que la decisión sea automáticamente equivocada.
+4. Refuerza por qué los metales suelen presentarse como una parte de una cartera diversificada, y no como la única inversión ni la dominante, dado este coste de oportunidad real.
 
-## Comprobación de comprensión
-
-**Pregunta:** ¿Cuál es el enfoque más sólido antes de tomar una decisión relacionada con este concepto?
-
-A. Actuar porque otra persona afirma que el precio subirá.  
-B. Evaluar objetivos, riesgos, costes, liquidez y alternativas.  
-C. Suponer que los resultados pasados garantizan los futuros.  
-D. Concentrar todo el capital en una sola idea.
-
-**Respuesta:** B.
+## Respuestas y explicaciones
+1. Esto define el concepto económico fundamental que se aplica en toda esta lección.
+2. Esto relaciona el coste de oportunidad específicamente con la lección anterior sobre la falta de generación de ingresos de los metales.
+3. Esto aclara que el coste de oportunidad es un factor que hay que sopesar con honestidad, no un motivo automático de descarte.
+4. Esta conexión refuerza el tema más amplio de la asignación de una cartera que recorre esta sección de la ruta.
 
 ## Puntos clave
-
-- Comprende el activo o estrategia antes de comprometer dinero.
-- Riesgo y rentabilidad potencial deben analizarse juntos.
-- Los costes y la liquidez afectan al resultado real.
-- La diversificación puede reducir la dependencia de una sola posición, pero no elimina el riesgo.
-- Las normas fiscales y legales dependen de la jurisdicción.
-- La información debe ayudarte a decidir; no sustituye asesoramiento profesional individualizado.
-
-## Reflexión
-
-Explica cómo aplicarías esta lección a una decisión propia sin depender de una predicción sobre el precio futuro.
+- El coste de oportunidad es el valor de la siguiente mejor alternativa a la que se renuncia al tomar una decisión específica.
+- Como los metales preciosos no generan ingresos, su coste de oportunidad incluye los ingresos o el crecimiento que podría haber producido una inversión alternativa.
+- Esto refuerza la idea de tratar los metales preciosos como una parte de una cartera diversificada, sopesada con honestidad frente a disyuntivas reales, y no como una opción por defecto o dominante.

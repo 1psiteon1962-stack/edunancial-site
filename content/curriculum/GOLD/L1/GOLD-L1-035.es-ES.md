@@ -1,58 +1,56 @@
 ---
 id: GOLD-L1-035
 track: GOLD
-officialTrackName: Inversión y Construcción de Patrimonio
+officialTrackName: "Investing"
 level: 1
 lessonNumber: 35
 locale: es-ES
-title: "Fundamentos fiscales de los metales preciosos"
-summary: "Comprende fundamentos fiscales de los metales preciosos y cómo encaja en una base sólida de alfabetización inversora."
-version: 1.0
-author: Waldemar M. Caban, JD MA
+title: "Lo básico de los impuestos sobre los metales preciosos"
+summary: "Presenta consideraciones fiscales generales sobre la inversión en metales preciosos, con las advertencias adecuadas sobre las circunstancias individuales."
+version: "1.0"
+author: "Waldemar M. Caban, JD MA"
+date: "2026-08-09"
 ---
 
-# Fundamentos fiscales de los metales preciosos
+# Lo básico de los impuestos sobre los metales preciosos
 
-## Objetivo de aprendizaje
+## Objetivos de aprendizaje
+- Entender el concepto básico de las ganancias de capital aplicado a los metales preciosos
+- Reconocer que el tratamiento fiscal específico varía y requiere orientación profesional individual
+- Aplicar la analogía del médico, para la consulta profesional, a las preguntas fiscales
 
-Al terminar esta lección podrás explicar el concepto con tus propias palabras, reconocer sus principales ventajas y riesgos y relacionarlo con una decisión financiera real.
+## Contenido principal
 
-## Concepto central
+En muchos sistemas fiscales, incluido el de Estados Unidos, vender una inversión en metales preciosos por más de su precio de compra en general genera una ganancia de capital, que puede estar sujeta a impuestos ([DATO VERIFICADO] como principio general: las tasas específicas, los requisitos de período de tenencia y el tratamiento pueden variar y los determina la ley fiscal vigente aplicable a cada persona, lo que va más allá del alcance de esta lección educativa). Esta lección ofrece una conciencia conceptual general, no un consejo fiscal específico para la situación de ninguna persona.
 
-Fundamentos fiscales de los metales preciosos forma parte de la alfabetización inversora porque invertir exige comprender qué se posee, por qué puede cambiar de valor y qué riesgos se aceptan. En la pista GOLD, los metales preciosos sirven como una forma concreta de estudiar principios que también se aplican a otras inversiones.
+Históricamente, en algunas jurisdicciones los metales preciosos han recibido un tratamiento fiscal algo distinto al de otros tipos de inversión, como las acciones, y a veces han caído en una categoría fiscal de "objetos de colección" (collectibles) con sus propias reglas específicas; esa es otra razón para no suponer que su tratamiento fiscal es idéntico al de otras inversiones de las que se habla más a menudo, como las acciones.
 
-No existe un activo apropiado para todas las personas ni para todas las situaciones. La decisión depende de objetivos, horizonte temporal, liquidez, tolerancia al riesgo, costes y circunstancias personales. EDUNANCIAL proporciona información para que el alumno pueda evaluar esas variables y tomar sus propias decisiones; no promete rentabilidad ni recomienda una inversión concreta.
+Este es un ejemplo claro de cuándo se aplica directamente la analogía del médico de otras rutas de este currículo: las preguntas fiscales propias de la situación real, el nivel de ingresos y la jurisdicción de cada persona deberían dirigirse a un asesor fiscal cualificado o a un gestor, en vez de depender de un contenido educativo general como esta lección, que se mantiene a propósito a un nivel conceptual en vez de intentar dar una orientación fiscal específica y aplicable a cada persona.
 
-## Aplicación práctica
+## Ejemplo práctico
 
-Antes de actuar, separa el precio del valor, identifica todos los costes y pregunta qué tendría que ocurrir para que la decisión produzca un resultado distinto del esperado. Compara alternativas y considera también el coste de oportunidad del dinero utilizado.
+Alguien que compró plata hace años y más tarde la vende por bastante más de lo que pagó, en general tendría que considerar las implicaciones del impuesto sobre las ganancias de capital de esa ganancia, algo parecido en su concepto básico a vender una acción con ganancia; pero la tasa exacta y las reglas que se aplican específicamente a los metales preciosos, en su jurisdicción y situación fiscal específicas, requerirían consultar a un asesor fiscal cualificado, en vez de suponer exactamente el mismo tratamiento que el de una venta típica de acciones.
 
-Cuando intervengan impuestos, regulación, custodia, seguros o normas de mercado, recuerda que las reglas varían según el país y la jurisdicción. Los ejemplos estadounidenses son ejemplos educativos y no deben tratarse como reglas universales.
+## Cuestionario de práctica
 
-## Ejemplo
+1. ¿Qué concepto fiscal básico se aplica en general cuando se vende con ganancia una inversión en metales preciosos?
+2. ¿Esta lección da un consejo fiscal específico para situaciones individuales?
+3. En algunas jurisdicciones, ¿en qué categoría fiscal han caído a veces los metales preciosos, a diferencia de las acciones?
+4. ¿A quién se debería consultar para recibir una orientación fiscal específica y aplicable a cada persona sobre los metales preciosos?
 
-Una persona reserva una cantidad que puede permitirse mantener invertida y compara varias opciones. En lugar de comprar solo porque el precio ha subido, analiza el propósito de la posición, los costes de compra y venta, la facilidad de convertirla en efectivo y el papel que tendría dentro de su patrimonio total.
+## Clave de respuestas
+1. Las ganancias de capital: la ganancia de vender una inversión por más de su precio de compra puede estar sujeta a impuestos.
+2. No: esta lección ofrece solo una conciencia conceptual general, no un consejo fiscal específico.
+3. En una categoría fiscal de "objetos de colección", con sus propias reglas específicas, en algunas jurisdicciones.
+4. A un asesor fiscal cualificado o a un gestor.
 
-## Comprobación de comprensión
-
-**Pregunta:** ¿Cuál es el enfoque más sólido antes de tomar una decisión relacionada con este concepto?
-
-A. Actuar porque otra persona afirma que el precio subirá.  
-B. Evaluar objetivos, riesgos, costes, liquidez y alternativas.  
-C. Suponer que los resultados pasados garantizan los futuros.  
-D. Concentrar todo el capital en una sola idea.
-
-**Respuesta:** B.
+## Respuestas y explicaciones
+1. Esto establece el concepto fiscal básico que es relevante para las ganancias de una inversión en metales preciosos.
+2. Esta advertencia explícita distingue la educación general de un consejo fiscal individualizado y accionable.
+3. Esta nota factual resalta que el tratamiento fiscal de los metales preciosos puede ser bastante distinto del de otras inversiones comunes.
+4. Esto dirige al lector a la orientación profesional adecuada en vez de depender de un contenido educativo general, en coherencia con la analogía del médico.
 
 ## Puntos clave
-
-- Comprende el activo o estrategia antes de comprometer dinero.
-- Riesgo y rentabilidad potencial deben analizarse juntos.
-- Los costes y la liquidez afectan al resultado real.
-- La diversificación puede reducir la dependencia de una sola posición, pero no elimina el riesgo.
-- Las normas fiscales y legales dependen de la jurisdicción.
-- La información debe ayudarte a decidir; no sustituye asesoramiento profesional individualizado.
-
-## Reflexión
-
-Explica cómo aplicarías esta lección a una decisión propia sin depender de una predicción sobre el precio futuro.
+- Vender metales preciosos con ganancia en general genera una ganancia de capital que puede estar sujeta a impuestos, algo parecido en su concepto básico a otras inversiones.
+- Las tasas fiscales específicas, las reglas del período de tenencia y el tratamiento varían según la jurisdicción y las circunstancias de cada persona, y pueden ser distintos de los de otros tipos de inversión.
+- Las preguntas fiscales individuales siempre deberían dirigirse a un asesor fiscal cualificado, en coherencia con la analogía del médico que se usa en todo este currículo.

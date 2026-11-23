@@ -1,58 +1,54 @@
 ---
 id: GOLD-L1-005
 track: GOLD
-officialTrackName: Inversión y Construcción de Patrimonio
+officialTrackName: "Investing"
 level: 1
 lessonNumber: 5
 locale: es-ES
-title: "Fundamentos del promedio del coste en dólares"
-summary: "Comprende fundamentos del promedio del coste en dólares y cómo encaja en una base sólida de alfabetización inversora."
-version: 1.0
-author: Waldemar M. Caban, JD MA
+title: "Lo básico del promedio del coste"
+summary: "Presenta el promedio del coste como un enfoque de inversión disciplinado y resistente a las emociones."
+version: "1.0"
+author: "Waldemar M. Caban, JD MA"
+date: "2026-08-09"
 ---
 
-# Fundamentos del promedio del coste en dólares
+# Lo básico del promedio del coste
 
-## Objetivo de aprendizaje
+## Objetivos de aprendizaje
+- Definir el promedio del coste en términos sencillos
+- Explicar por qué este enfoque reduce el efecto de intentar adivinar el momento perfecto para comprar
+- Practicar la aplicación del concepto en un ejemplo sencillo
 
-Al terminar esta lección podrás explicar el concepto con tus propias palabras, reconocer sus principales ventajas y riesgos y relacionarlo con una decisión financiera real.
+## Contenido principal
 
-## Concepto central
+El promedio del coste, que a menudo se abrevia DCA (por sus siglas en inglés), significa invertir una cantidad fija de dinero a intervalos regulares (por ejemplo, cada mes) sin importar lo que esté haciendo el precio en ese momento, en vez de intentar programar una sola compra grande para el momento "perfecto". Como la cantidad invertida se mantiene igual cada vez, de forma natural compras más unidades cuando el precio está bajo y menos unidades cuando el precio está alto, sin necesidad de predecir nada.
 
-Fundamentos del promedio del coste en dólares forma parte de la alfabetización inversora porque invertir exige comprender qué se posee, por qué puede cambiar de valor y qué riesgos se aceptan. En la pista GOLD, los metales preciosos sirven como una forma concreta de estudiar principios que también se aplican a otras inversiones.
+Esto importa porque predecir de forma constante el mejor momento para comprar es extremadamente difícil, incluso para los profesionales, e intentarlo a menudo lleva a dudar, a perder oportunidades o a comprar en malos momentos impulsados por las emociones (como comprar cuando los precios están subiendo y todo el mundo está entusiasmado, y dudar cuando los precios están bajos y todo el mundo está nervioso: justo al revés de lo ideal). El DCA elimina por completo esa decisión al hacer que el momento de compra sea automático y constante.
 
-No existe un activo apropiado para todas las personas ni para todas las situaciones. La decisión depende de objetivos, horizonte temporal, liquidez, tolerancia al riesgo, costes y circunstancias personales. EDUNANCIAL proporciona información para que el alumno pueda evaluar esas variables y tomar sus propias decisiones; no promete rentabilidad ni recomienda una inversión concreta.
+## Ejemplo práctico
 
-## Aplicación práctica
+[EJEMPLO ILUSTRATIVO] Supongamos que alguien invierte 50 € cada mes en plata, sin importar el precio. En un mes en que la plata cuesta 25 € la onza, esos 50 € compran 2 onzas. En un mes en que el precio baja a 20 € la onza, los mismos 50 € compran 2,5 onzas: automáticamente compra más cuando está más barata. A lo largo de muchos meses, esto equilibra el precio promedio pagado por onza, sin que el inversor tenga que adivinar nunca qué mes fue el "mejor" momento para comprar.
 
-Antes de actuar, separa el precio del valor, identifica todos los costes y pregunta qué tendría que ocurrir para que la decisión produzca un resultado distinto del esperado. Compara alternativas y considera también el coste de oportunidad del dinero utilizado.
+## Cuestionario de práctica
 
-Cuando intervengan impuestos, regulación, custodia, seguros o normas de mercado, recuerda que las reglas varían según el país y la jurisdicción. Los ejemplos estadounidenses son ejemplos educativos y no deben tratarse como reglas universales.
+1. Define con tus propias palabras el promedio del coste.
+2. Con el DCA, ¿qué pasa con el número de unidades compradas cuando el precio está bajo?
+3. ¿Por qué es difícil intentar programar una sola compra "perfecta"?
+4. Si alguien invierte 100 € al mes y el precio es de 10 € un mes y de 20 € el siguiente, ¿cuántas unidades tiene en total después de los dos meses?
 
-## Ejemplo
+## Clave de respuestas
+1. Invertir una cantidad fija a intervalos regulares sin importar el precio, en vez de intentar programar una sola compra.
+2. Se compran más unidades cuando el precio está bajo, ya que la cantidad fija de euros rinde más.
+3. Porque predecir de forma constante los movimientos del precio es extremadamente difícil, incluso para los profesionales.
+4. 10 unidades el primer mes (100 €/10 €) más 5 unidades el segundo mes (100 €/20 €) son 15 unidades en total.
 
-Una persona reserva una cantidad que puede permitirse mantener invertida y compara varias opciones. En lugar de comprar solo porque el precio ha subido, analiza el propósito de la posición, los costes de compra y venta, la facilidad de convertirla en efectivo y el papel que tendría dentro de su patrimonio total.
-
-## Comprobación de comprensión
-
-**Pregunta:** ¿Cuál es el enfoque más sólido antes de tomar una decisión relacionada con este concepto?
-
-A. Actuar porque otra persona afirma que el precio subirá.  
-B. Evaluar objetivos, riesgos, costes, liquidez y alternativas.  
-C. Suponer que los resultados pasados garantizan los futuros.  
-D. Concentrar todo el capital en una sola idea.
-
-**Respuesta:** B.
+## Respuestas y explicaciones
+1. Esto recoge el mecanismo central del DCA: cantidad fija, intervalo regular, sin necesidad de predecir el precio.
+2. Este es el beneficio incorporado del DCA: comprar automáticamente más cuando los precios son favorables.
+3. La dificultad de predecir es la razón de fondo por la que el DCA es una alternativa útil y resistente a las emociones.
+4. Aplicar la fórmula directamente en los dos meses muestra el funcionamiento práctico del DCA.
 
 ## Puntos clave
-
-- Comprende el activo o estrategia antes de comprometer dinero.
-- Riesgo y rentabilidad potencial deben analizarse juntos.
-- Los costes y la liquidez afectan al resultado real.
-- La diversificación puede reducir la dependencia de una sola posición, pero no elimina el riesgo.
-- Las normas fiscales y legales dependen de la jurisdicción.
-- La información debe ayudarte a decidir; no sustituye asesoramiento profesional individualizado.
-
-## Reflexión
-
-Explica cómo aplicarías esta lección a una decisión propia sin depender de una predicción sobre el precio futuro.
+- El promedio del coste significa invertir una cantidad fija a intervalos regulares, sin importar el precio.
+- De forma natural, compra más unidades cuando los precios están bajos y menos cuando están altos, sin necesidad de predecir.
+- El DCA elimina el reto difícil, y a menudo impulsado por las emociones, de intentar programar la compra "perfecta".

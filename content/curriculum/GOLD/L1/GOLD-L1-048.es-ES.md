@@ -1,58 +1,54 @@
 ---
 id: GOLD-L1-048
 track: GOLD
-officialTrackName: Inversión y Construcción de Patrimonio
+officialTrackName: "Investing"
 level: 1
 lessonNumber: 48
 locale: es-ES
-title: "Enseñar a la próxima generación: introducción a «Transmitir»"
-summary: "Comprende enseñar a la próxima generación: introducción a «transmitir» y cómo encaja en una base sólida de alfabetización inversora."
-version: 1.0
-author: Waldemar M. Caban, JD MA
+title: "Enseñar a la próxima generación: una introducción a \"transmitir\""
+summary: "Presenta la cuarta función del marco de ganar, conservar, hacer crecer y transmitir como un adelanto de los niveles futuros."
+version: "1.0"
+author: "Waldemar M. Caban, JD MA"
+date: "2026-08-09"
 ---
 
-# Enseñar a la próxima generación: introducción a «Transmitir»
+# Enseñar a la próxima generación: una introducción a "transmitir"
 
-## Objetivo de aprendizaje
+## Objetivos de aprendizaje
+- Retomar la función de "transmitir" del marco presentado en la primera lección
+- Explicar por qué enseñar conceptos de inversión a otros es, en sí mismo, una forma de "transmitir" valor
+- Reflexionar sobre cómo el conocimiento, y no solo los activos, puede formar parte de un legado de "transmitir"
 
-Al terminar esta lección podrás explicar el concepto con tus propias palabras, reconocer sus principales ventajas y riesgos y relacionarlo con una decisión financiera real.
+## Contenido principal
 
-## Concepto central
+Esta ruta empezó con el marco de ganar, conservar, hacer crecer y transmitir, y se ha enfocado sobre todo en "hacer crecer". Esta lección adelanta la cuarta función, transmitir, que los niveles posteriores de esta ruta tratarán con más profundidad, sobre todo en torno a herramientas formales como los testamentos, los fideicomisos y la designación de beneficiarios.
 
-Enseñar a la próxima generación: introducción a «Transmitir» forma parte de la alfabetización inversora porque invertir exige comprender qué se posee, por qué puede cambiar de valor y qué riesgos se aceptan. En la pista GOLD, los metales preciosos sirven como una forma concreta de estudiar principios que también se aplican a otras inversiones.
+En este nivel básico, vale la pena reconocer que "transmitir" no se trata solo de transferir activos después de la muerte: también incluye transmitir conocimientos, hábitos y comprensión financiera a la próxima generación mientras uno todavía está presente para enseñarlos directamente. Un joven que ha aprendido a aplicar el promedio del coste, a entender el riesgo y el horizonte temporal y a formar un hábito de inversión constante ha recibido algo valioso que probablemente importará más a lo largo de su vida que cualquier activo individual que se le transfiera más tarde: la capacidad de construir y manejar la riqueza por sí mismo, y no solo una riqueza que se le entrega.
 
-No existe un activo apropiado para todas las personas ni para todas las situaciones. La decisión depende de objetivos, horizonte temporal, liquidez, tolerancia al riesgo, costes y circunstancias personales. EDUNANCIAL proporciona información para que el alumno pueda evaluar esas variables y tomar sus propias decisiones; no promete rentabilidad ni recomienda una inversión concreta.
+## Ejemplo práctico
 
-## Aplicación práctica
+[EJEMPLO ILUSTRATIVO] Todo el caso de estudio que recorre esta ruta (la acumulación de plata del hijo desde los 11 años y de oro desde los 15) es en sí mismo un ejemplo real de "transmitir" en acción, no mediante una herencia, sino mediante la enseñanza directa. El conocimiento sobre el promedio del coste, la tolerancia al riesgo, la diversificación y la formación de un hábito constante que se transmite mediante esta experiencia de aprendizaje compartida es una forma de transferencia de riqueza entre generaciones que no necesita esperar a una transferencia patrimonial formal para importar.
 
-Antes de actuar, separa el precio del valor, identifica todos los costes y pregunta qué tendría que ocurrir para que la decisión produzca un resultado distinto del esperado. Compara alternativas y considera también el coste de oportunidad del dinero utilizado.
+## Cuestionario de práctica
 
-Cuando intervengan impuestos, regulación, custodia, seguros o normas de mercado, recuerda que las reglas varían según el país y la jurisdicción. Los ejemplos estadounidenses son ejemplos educativos y no deben tratarse como reglas universales.
+1. ¿Qué es la función de "transmitir", que se retoma brevemente de la primera lección?
+2. Además de transferir activos después de la muerte, ¿qué más puede incluir "transmitir"?
+3. ¿Por qué transmitir conocimientos y hábitos podría importar más, a lo largo de una vida, que una sola transferencia de activos?
+4. ¿Cómo ilustra el caso de estudio que recorre esta ruta la función de "transmitir" en acción?
 
-## Ejemplo
+## Clave de respuestas
+1. La función de transferir la riqueza a la próxima generación o a una causa que a alguien le importa.
+2. Transmitir conocimientos, hábitos y comprensión financiera mientras uno todavía está presente para enseñarlos directamente.
+3. Porque la capacidad de construir y manejar la riqueza por uno mismo tiende a importar más a lo largo de una vida que una riqueza que simplemente se le entrega a alguien.
+4. La acumulación continua del hijo, guiada y enseñada directamente, representa una transferencia de conocimientos y de hábitos, no una herencia formal: una forma real de "transmitir" que está ocurriendo en tiempo real.
 
-Una persona reserva una cantidad que puede permitirse mantener invertida y compara varias opciones. En lugar de comprar solo porque el precio ha subido, analiza el propósito de la posición, los costes de compra y venta, la facilidad de convertirla en efectivo y el papel que tendría dentro de su patrimonio total.
-
-## Comprobación de comprensión
-
-**Pregunta:** ¿Cuál es el enfoque más sólido antes de tomar una decisión relacionada con este concepto?
-
-A. Actuar porque otra persona afirma que el precio subirá.  
-B. Evaluar objetivos, riesgos, costes, liquidez y alternativas.  
-C. Suponer que los resultados pasados garantizan los futuros.  
-D. Concentrar todo el capital en una sola idea.
-
-**Respuesta:** B.
+## Respuestas y explicaciones
+1. Esto vuelve a conectar la lección con el marco básico establecido al principio de la ruta.
+2. Esto amplía la definición de "transmitir" más allá de su forma que más se suele suponer (la herencia después de la muerte).
+3. La transferencia de capacidades se presenta como algo que podría ser más valioso que la sola transferencia de activos.
+4. Esto relaciona el caso de estudio que recorre toda la ruta directamente con el concepto de "transmitir", lo que cierra el círculo del marco.
 
 ## Puntos clave
-
-- Comprende el activo o estrategia antes de comprometer dinero.
-- Riesgo y rentabilidad potencial deben analizarse juntos.
-- Los costes y la liquidez afectan al resultado real.
-- La diversificación puede reducir la dependencia de una sola posición, pero no elimina el riesgo.
-- Las normas fiscales y legales dependen de la jurisdicción.
-- La información debe ayudarte a decidir; no sustituye asesoramiento profesional individualizado.
-
-## Reflexión
-
-Explica cómo aplicarías esta lección a una decisión propia sin depender de una predicción sobre el precio futuro.
+- "Transmitir", la cuarta función de la primera lección, incluye mucho más que transferir activos después de la muerte.
+- Enseñar conocimientos, hábitos y comprensión financiera mientras uno todavía está presente es, en sí mismo, una forma significativa de "transmitir".
+- Todo el caso de estudio de esta ruta ilustra cómo "transmitir" ocurre en tiempo real, mediante la enseñanza directa en vez de una herencia formal.

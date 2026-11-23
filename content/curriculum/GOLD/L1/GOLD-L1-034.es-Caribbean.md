@@ -1,54 +1,56 @@
 ---
 id: GOLD-L1-034
 track: GOLD
-officialTrackName: "Inversión"
+officialTrackName: "Investing"
 level: 1
 lessonNumber: 34
 locale: es-Caribbean
-title: "Identificar un distribuidor confiable"
-summary: "Enseña criterios prácticos para evaluar la reputación y confiabilidad de un distribuidor de metales."
+title: "Cómo identificar un comerciante de buena reputación"
+summary: "Enseña criterios prácticos para evaluar si un comerciante de metales preciosos tiene buena reputación y es de confianza."
 version: "1.0"
 author: "Waldemar M. Caban, JD MA"
 date: "2026-08-09"
 ---
 
-# Identificar un distribuidor confiable
+# Cómo identificar un comerciante de buena reputación
 
-## Objetivos de Aprendizaje
-- Comprender el concepto central y su aplicación práctica
-- Identificar riesgos, costos o compensaciones relevantes
-- Aplicar el concepto dentro de un proceso disciplinado
+## Objetivos de aprendizaje
+- Identificar criterios prácticos para evaluar la reputación de un comerciante de metales preciosos
+- Explicar por qué la reputación del comerciante importa más allá del riesgo de falsificación
+- Practicar la aplicación de los criterios de evaluación a un caso hipotético de comerciante
 
-## Contenido Principal
+## Contenido principal
 
-La reputación de un distribuidor importa no solo por el riesgo de falsificación, sino también por precios transparentes, cumplimiento de pedidos, envío y condiciones de recompra. Entre los criterios útiles están un historial comercial verificable, precios publicados claramente en relación con el precio spot y servicio al cliente accesible.
+Más allá del riesgo de falsificación visto en una lección anterior, la reputación del comerciante importa por varias otras razones prácticas: precios justos y transparentes en relación con el precio al contado y primas razonables, el cumplimiento confiable de los pedidos y del envío si se compra en línea, y condiciones honestas de recompra si el inversionista quiere vender más adelante.
 
-Para una persona principiante puede ser razonable utilizar un distribuidor establecido incluso si alguna prima es ligeramente mayor que la de un vendedor desconocido. El costo adicional puede compensarse con menor riesgo y mayor confianza mientras se desarrollan conocimientos para evaluar proveedores de manera independiente.
+Entre los criterios prácticos para evaluar a un comerciante están: una historia comercial y un historial verificables (cuánto tiempo lleva operando, si es un nombre reconocido y establecido en la industria), precios transparentes y publicados con claridad que muestren el precio al contado más la prima en vez de ocultar la estructura real de costos, y un servicio al cliente accesible y atento que pueda responder preguntas con claridad, lo que en sí mismo a menudo refleja cómo trata el comerciante a los clientes en general.
 
-## Ejemplo Resuelto
+Para un inversionista principiante, empezar con un comerciante conocido y establecido, con un largo historial (aunque la prima a veces sea un poco más alta que la de un competidor menos conocido), suele ser un intercambio razonable a cambio del menor riesgo y la mayor confianza que da una reputación verificada, sobre todo mientras todavía está adquiriendo el conocimiento y la comodidad para evaluar a los comerciantes de forma más independiente con el tiempo.
 
-[EJEMPLO ILUSTRATIVO] Una persona con una posición creciente compara sus opciones usando el valor de la posición, costos, acceso, riesgo, horizonte temporal y alternativas disponibles. En vez de asumir que una sola opción sirve para todos, documenta las compensaciones y elige según su situación.
+## Ejemplo práctico
 
-## Cuestionario Práctico
-1. Explica el concepto principal de la lección.
-2. Identifica dos factores que pueden cambiar la decisión.
-3. ¿Qué riesgo existe si se ignora este concepto?
-4. ¿Qué información verificarías antes de tomar una decisión real?
+Comparación de dos comerciantes: uno es un negocio bien establecido, que lleva mucho tiempo operando, con precios transparentes y reseñas claras, mientras que el otro es un vendedor más nuevo y menos establecido que ofrece precios bastante más bajos con un historial verificable limitado. Siguiendo la orientación de esta lección, un inversionista principiante en general se inclinaría por el comerciante establecido, incluso a un precio algo más alto, ya que el menor riesgo y la confiabilidad valen el modesto costo adicional, sobre todo para alguien que todavía está desarrollando sus propias destrezas de evaluación independiente.
 
-## Clave de Respuestas
-1. Debe reflejar correctamente el concepto explicado en el contenido principal.
-2. Pueden incluir costo, riesgo, liquidez, acceso, horizonte temporal, jurisdicción o alternativas.
-3. Ignorarlo puede producir costos inesperados, riesgo innecesario o una decisión incompatible con la meta.
-4. Deben verificarse hechos actuales y, cuando corresponda, condiciones contractuales, fiscales, legales o profesionales.
+## Prueba de práctica
 
-## Respuestas y Explicaciones
-1. El concepto debe entenderse dentro del contexto de una decisión, no como una regla aislada.
-2. Las circunstancias cambian las compensaciones.
-3. Identificar riesgos antes de actuar mejora la calidad de la decisión.
-4. La información específica y vigente es esencial cuando una decisión depende de jurisdicción o proveedor.
+1. Nombra tres razones prácticas por las que importa la reputación del comerciante, más allá del riesgo de falsificación.
+2. Nombra tres criterios para evaluar la reputación de un comerciante.
+3. ¿Por qué un inversionista principiante podría aceptar razonablemente una prima un poco más alta de un comerciante establecido?
+4. En el ejemplo práctico, ¿qué comerciante favorecería la orientación de la lección y por qué?
 
-## Puntos Clave a Recordar
-- Evalúa propósito, costo, riesgo y liquidez.
-- No confundas una tendencia general con una garantía.
-- Verifica información específica antes de actuar.
-- Utiliza profesionales cualificados cuando la decisión requiera asesoría individual.
+## Clave de respuestas
+1. Precios justos y transparentes, el cumplimiento confiable de los pedidos y del envío, y condiciones honestas de recompra.
+2. Una historia comercial o un historial verificables, precios transparentes y publicados, y un servicio al cliente accesible y atento.
+3. Porque el menor riesgo y la confiabilidad a menudo valen el modesto costo adicional, sobre todo mientras todavía se desarrollan las destrezas de evaluación independiente.
+4. El comerciante establecido y que lleva mucho tiempo operando, por el menor riesgo y la mayor confianza que da un historial verificado.
+
+## Respuestas y explicaciones
+1. Estas preocupaciones prácticas van más allá de la simple autenticidad y llegan a la confiabilidad general de la transacción.
+2. Estos tres criterios dan un marco práctico para evaluar a cualquier comerciante.
+3. Este razonamiento equilibra el costo con la reducción del riesgo, algo adecuado para la tolerancia al riesgo de un inversionista principiante.
+4. Este ejemplo aplica directamente los criterios de evaluación de la lección a una comparación realista.
+
+## Puntos clave
+- La reputación del comerciante importa para tener precios justos, un cumplimiento confiable y condiciones honestas de recompra, más allá del riesgo de falsificación.
+- Evalúa a los comerciantes según su historial verificable, la transparencia de sus precios y la atención de su servicio al cliente.
+- Para un inversionista principiante, la prima un poco más alta de un comerciante establecido suele ser un intercambio razonable a cambio de un menor riesgo y una mayor confianza.

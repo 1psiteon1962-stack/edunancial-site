@@ -1,58 +1,56 @@
 ---
 id: GOLD-L1-044
 track: GOLD
-officialTrackName: Inversión y Construcción de Patrimonio
+officialTrackName: "Investing"
 level: 1
 lessonNumber: 44
 locale: es-ES
-title: "Comparación de los conceptos de la pista GOLD con la inversión de la pista WHITE"
-summary: "Comprende comparación de los conceptos de la pista gold con la inversión de la pista white y cómo encaja en una base sólida de alfabetización inversora."
-version: 1.0
-author: Waldemar M. Caban, JD MA
+title: "Comparación de los conceptos de la ruta GOLD con la inversión de la ruta WHITE"
+summary: "Relaciona los conceptos de inversión en metales preciosos con los principios de inversión más amplios de la ruta WHITE."
+version: "1.0"
+author: "Waldemar M. Caban, JD MA"
+date: "2026-08-09"
 ---
 
-# Comparación de los conceptos de la pista GOLD con la inversión de la pista WHITE
+# Comparación de los conceptos de la ruta GOLD con la inversión de la ruta WHITE
 
-## Objetivo de aprendizaje
+## Objetivos de aprendizaje
+- Identificar los principios de inversión que comparten las rutas GOLD y WHITE
+- Entender cómo los mismos conceptos de fondo se aplican de forma distinta a distintos tipos de activos
+- Reconocer el valor de los principios de inversión transferibles en una educación financiera diversificada
 
-Al terminar esta lección podrás explicar el concepto con tus propias palabras, reconocer sus principales ventajas y riesgos y relacionarlo con una decisión financiera real.
+## Contenido principal
 
-## Concepto central
+La ruta WHITE de este currículo trata la inversión de forma más amplia, incluidas las acciones, los bonos y la filosofía general de inversión. Varios principios centrales de esta ruta GOLD (la paciencia, evitar la trampa de intentar programar el mercado a la perfección, el valor de los hábitos constantes y disciplinados, y la importancia de entender el papel real de un activo dentro de un plan diversificado más amplio) no son exclusivos de los metales preciosos. Son principios generales de inversión que se aplican, con algunas adaptaciones, a casi cualquier clase de activo.
 
-Comparación de los conceptos de la pista GOLD con la inversión de la pista WHITE forma parte de la alfabetización inversora porque invertir exige comprender qué se posee, por qué puede cambiar de valor y qué riesgos se aceptan. En la pista GOLD, los metales preciosos sirven como una forma concreta de estudiar principios que también se aplican a otras inversiones.
+El patrón de enseñanza del "concepto a través de las cajas" que se usa en todo este currículo se aplica aquí de forma directa: el promedio del coste funciona prácticamente igual si se aplica a comprar onzas de plata o a comprar acciones de un fondo indexado; la disciplina de fondo de invertir una cantidad constante a intervalos regulares, sin importar el precio, no cambia fundamentalmente según el activo específico que se compre.
 
-No existe un activo apropiado para todas las personas ni para todas las situaciones. La decisión depende de objetivos, horizonte temporal, liquidez, tolerancia al riesgo, costes y circunstancias personales. EDUNANCIAL proporciona información para que el alumno pueda evaluar esas variables y tomar sus propias decisiones; no promete rentabilidad ni recomienda una inversión concreta.
+Reconocer estos principios compartidos ayuda a formar una comprensión más completa y transferible de la inversión en general, en vez de tratar la inversión en metales preciosos como una destreza totalmente separada y sin relación con las otras formas de inversión que se ven en otras partes de este currículo.
 
-## Aplicación práctica
+## Ejemplo práctico
 
-Antes de actuar, separa el precio del valor, identifica todos los costes y pregunta qué tendría que ocurrir para que la decisión produzca un resultado distinto del esperado. Compara alternativas y considera también el coste de oportunidad del dinero utilizado.
+Un estudiante que haya asimilado el concepto del DCA con los ejemplos de plata y oro de esta ruta GOLD encontraría ese mismo concepto inmediatamente familiar y aplicable al volver a verlo en la explicación de la ruta WHITE sobre la inversión en fondos indexados de acciones: el activo específico cambia, pero la disciplina de fondo de invertir de forma constante, paciente y según un calendario regular sigue siendo exactamente el mismo patrón, solo que aplicado a otra caja.
 
-Cuando intervengan impuestos, regulación, custodia, seguros o normas de mercado, recuerda que las reglas varían según el país y la jurisdicción. Los ejemplos estadounidenses son ejemplos educativos y no deben tratarse como reglas universales.
+## Cuestionario de práctica
 
-## Ejemplo
+1. Según esta lección, nombra tres principios centrales que comparten las rutas GOLD y WHITE.
+2. ¿Cómo se aplica el DCA de forma parecida a distintos tipos de activos?
+3. ¿Qué patrón de enseñanza menciona de forma explícita esta lección?
+4. ¿Por qué reconocer estos principios compartidos importa para la educación financiera general de un estudiante?
 
-Una persona reserva una cantidad que puede permitirse mantener invertida y compara varias opciones. En lugar de comprar solo porque el precio ha subido, analiza el propósito de la posición, los costes de compra y venta, la facilidad de convertirla en efectivo y el papel que tendría dentro de su patrimonio total.
+## Clave de respuestas
+1. Cualesquiera tres de estos: la paciencia, evitar programar el mercado a la perfección, los hábitos constantes y disciplinados, entender el papel de un activo en un plan más amplio.
+2. La disciplina de fondo de invertir una cantidad constante a intervalos regulares, sin importar el precio, sigue siendo la misma sin importar el activo específico que se compre.
+3. El patrón de enseñanza del "concepto a través de las cajas" que se usa en todo este currículo.
+4. Forma una comprensión más completa y transferible de la inversión en general, en vez de tratar los metales preciosos como una destreza totalmente separada y sin relación.
 
-## Comprobación de comprensión
-
-**Pregunta:** ¿Cuál es el enfoque más sólido antes de tomar una decisión relacionada con este concepto?
-
-A. Actuar porque otra persona afirma que el precio subirá.  
-B. Evaluar objetivos, riesgos, costes, liquidez y alternativas.  
-C. Suponer que los resultados pasados garantizan los futuros.  
-D. Concentrar todo el capital en una sola idea.
-
-**Respuesta:** B.
+## Respuestas y explicaciones
+1. Estos principios compartidos muestran que la disciplina central de inversión es transferible entre distintas clases de activos.
+2. Este ejemplo aplica directamente el patrón del "concepto a través de las cajas" al principio específico del DCA.
+3. Esta mención explícita relaciona esta lección con un recurso didáctico fundamental que se usa en todo este currículo.
+4. Una comprensión transferible forma una educación financiera más coherente y completa a lo largo de todas las rutas de este currículo.
 
 ## Puntos clave
-
-- Comprende el activo o estrategia antes de comprometer dinero.
-- Riesgo y rentabilidad potencial deben analizarse juntos.
-- Los costes y la liquidez afectan al resultado real.
-- La diversificación puede reducir la dependencia de una sola posición, pero no elimina el riesgo.
-- Las normas fiscales y legales dependen de la jurisdicción.
-- La información debe ayudarte a decidir; no sustituye asesoramiento profesional individualizado.
-
-## Reflexión
-
-Explica cómo aplicarías esta lección a una decisión propia sin depender de una predicción sobre el precio futuro.
+- Los principios centrales de inversión, como la paciencia, evitar programar el mercado y los hábitos constantes, los comparten las rutas GOLD y WHITE; no son exclusivos de los metales preciosos.
+- El DCA funciona prácticamente igual sin importar el activo específico que se compre: la disciplina de fondo no cambia.
+- Reconocer estos principios compartidos forma una comprensión más completa y transferible de la inversión a lo largo de todo este currículo.

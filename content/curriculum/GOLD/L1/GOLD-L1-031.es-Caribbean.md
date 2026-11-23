@@ -1,54 +1,56 @@
 ---
 id: GOLD-L1-031
 track: GOLD
-officialTrackName: "Inversión"
+officialTrackName: "Investing"
 level: 1
 lessonNumber: 31
 locale: es-Caribbean
-title: "Riesgo de falsificación y autenticación básica"
-summary: "Explica el riesgo de productos falsificados y las protecciones básicas para compradores principiantes."
+title: "Lo básico de la autenticación y las falsificaciones"
+summary: "Presenta una conciencia básica del riesgo de falsificación y de la autenticación al comprar metales preciosos físicos."
 version: "1.0"
 author: "Waldemar M. Caban, JD MA"
 date: "2026-08-09"
 ---
 
-# Riesgo de falsificación y autenticación básica
+# Lo básico de la autenticación y las falsificaciones
 
-## Objetivos de Aprendizaje
-- Comprender el concepto central y su aplicación práctica
-- Identificar riesgos, costos o compensaciones relevantes
-- Aplicar el concepto dentro de un proceso disciplinado
+## Objetivos de aprendizaje
+- Reconocer el riesgo de falsificación como una consideración práctica real al invertir en metales físicos
+- Identificar prácticas básicas que reducen el riesgo de falsificación
+- Entender por qué importa comprar en fuentes de buena reputación
 
-## Contenido Principal
+## Contenido principal
 
-Las monedas y barras falsas diseñadas para parecer auténticas son un riesgo real en la inversión física. Para una persona principiante, la protección básica más eficaz es comprar a distribuidores establecidos y verificables en vez de vendedores desconocidos o mercados sin historial.
+Los productos falsificados de metales preciosos (monedas o barras falsas diseñadas para parecer auténticas, pero que contienen poco o nada de metal precioso real) son un riesgo real al invertir en metales físicos, aunque relativamente poco común para los compradores cuidadosos. Este riesgo es parte de la razón por la que importa entender, incluso a un nivel de principiante, lo básico de la autenticación y de las buenas prácticas de compra.
 
-Existen técnicas de autenticación, como verificar peso y dimensiones, realizar ciertas pruebas magnéticas y utilizar equipos profesionales. Sin embargo, una persona sin experiencia no debería depender exclusivamente de su propia capacidad para autenticar. Precios inusualmente bajos frente al mercado pueden ser una señal de alerta que merece investigación adicional.
+La protección básica más eficaz contra el riesgo de falsificación es comprar a comerciantes establecidos y de buena reputación, en vez de a vendedores individuales no verificados o en mercados en línea desconocidos, sobre todo en el caso de un inversionista principiante que quizá todavía no tenga el conocimiento especializado para autenticar por sí mismo un producto. Los comerciantes de buena reputación tienen su propio incentivo de reputación para vender solo productos auténticos, y los comerciantes establecidos normalmente obtienen su inventario de casas de moneda y refinerías verificadas.
 
-## Ejemplo Resuelto
+Existen técnicas básicas de autenticación (comprobar el peso y las dimensiones, pruebas con un imán, ya que el oro y la plata no son magnéticos, y métodos más avanzados que usan los profesionales), pero para un inversionista principiante la protección más sencilla y confiable es escoger fuentes bien establecidas y de buena reputación para cada compra, en vez de depender de verificar personalmente la autenticidad después de comprar.
 
-[EJEMPLO ILUSTRATIVO] Una persona con una posición creciente compara sus opciones usando el valor de la posición, costos, acceso, riesgo, horizonte temporal y alternativas disponibles. En vez de asumir que una sola opción sirve para todos, documenta las compensaciones y elige según su situación.
+## Ejemplo práctico
 
-## Cuestionario Práctico
-1. Explica el concepto principal de la lección.
-2. Identifica dos factores que pueden cambiar la decisión.
-3. ¿Qué riesgo existe si se ignora este concepto?
-4. ¿Qué información verificarías antes de tomar una decisión real?
+A un inversionista principiante que siga el enfoque del caso de estudio biográfico le convendría comprar la plata y el oro a un comerciante establecido y de buena reputación, con un historial verificable, en vez de a un vendedor en línea desconocido que ofrece precios inusualmente bajos; esa es una señal de alerta común, ya que un precio muy por debajo de las tasas vigentes del mercado para un producto auténtico a veces puede indicar un riesgo de falsificación, entre otros posibles problemas.
 
-## Clave de Respuestas
-1. Debe reflejar correctamente el concepto explicado en el contenido principal.
-2. Pueden incluir costo, riesgo, liquidez, acceso, horizonte temporal, jurisdicción o alternativas.
-3. Ignorarlo puede producir costos inesperados, riesgo innecesario o una decisión incompatible con la meta.
-4. Deben verificarse hechos actuales y, cuando corresponda, condiciones contractuales, fiscales, legales o profesionales.
+## Prueba de práctica
 
-## Respuestas y Explicaciones
-1. El concepto debe entenderse dentro del contexto de una decisión, no como una regla aislada.
-2. Las circunstancias cambian las compensaciones.
-3. Identificar riesgos antes de actuar mejora la calidad de la decisión.
-4. La información específica y vigente es esencial cuando una decisión depende de jurisdicción o proveedor.
+1. ¿Qué es el riesgo de falsificación en el contexto de los metales preciosos físicos?
+2. ¿Cuál es la protección básica más eficaz contra este riesgo para un inversionista principiante?
+3. ¿Por qué los comerciantes de buena reputación tienen un incentivo para vender solo productos auténticos?
+4. ¿Qué podría indicar a veces un precio inusualmente bajo, muy por debajo de las tasas vigentes del mercado?
 
-## Puntos Clave a Recordar
-- Evalúa propósito, costo, riesgo y liquidez.
-- No confundas una tendencia general con una garantía.
-- Verifica información específica antes de actuar.
-- Utiliza profesionales cualificados cuando la decisión requiera asesoría individual.
+## Clave de respuestas
+1. El riesgo de comprar monedas o barras falsas diseñadas para parecer auténticas, pero que contienen poco o nada de metal precioso real.
+2. Comprar a comerciantes establecidos y de buena reputación, en vez de a vendedores individuales no verificados o en mercados desconocidos.
+3. Su propio incentivo de reputación y su relación comercial con casas de moneda y refinerías verificadas dependen de vender productos auténticos.
+4. A veces puede indicar un riesgo de falsificación, entre otros posibles problemas, y en general es una señal de alerta que vale la pena investigar.
+
+## Respuestas y explicaciones
+1. Esto define el riesgo práctico específico que esta lección aborda para quienes compran metales físicos.
+2. La reputación de la fuente se presenta como la protección más sencilla y confiable para un inversionista principiante.
+3. Los incentivos de reputación y comerciales se alinean a favor de la autenticidad en el caso de los comerciantes establecidos.
+4. Un precio muy por debajo de las tasas del mercado es una señal de alerta práctica que los inversionistas principiantes deberían tener en cuenta.
+
+## Puntos clave
+- Los productos falsificados de metales preciosos son un riesgo real, aunque relativamente poco común, para los compradores cuidadosos.
+- La protección básica más eficaz para un inversionista principiante es comprar únicamente a comerciantes establecidos y de buena reputación.
+- Los precios muy por debajo de las tasas vigentes del mercado son una señal de alerta que vale la pena investigar antes de comprar.

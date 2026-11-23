@@ -1,58 +1,54 @@
 ---
 id: GOLD-L1-010
 track: GOLD
-officialTrackName: Inversión y Construcción de Patrimonio
+officialTrackName: "Investing"
 level: 1
 lessonNumber: 10
 locale: es-ES
-title: "Comprender la pureza y las medidas de peso"
-summary: "Comprende comprender la pureza y las medidas de peso y cómo encaja en una base sólida de alfabetización inversora."
-version: 1.0
-author: Waldemar M. Caban, JD MA
+title: "Entender las medidas de pureza y de peso"
+summary: "Presenta las unidades básicas y las medidas de pureza que se usan en el mercado de los metales preciosos."
+version: "1.0"
+author: "Waldemar M. Caban, JD MA"
+date: "2026-08-09"
 ---
 
-# Comprender la pureza y las medidas de peso
+# Entender las medidas de pureza y de peso
 
-## Objetivo de aprendizaje
+## Objetivos de aprendizaje
+- Identificar las unidades de peso comunes que se usan para los metales preciosos
+- Explicar qué significa la pureza (ley) y por qué afecta el valor
+- Practicar cómo leer la descripción básica de un producto
 
-Al terminar esta lección podrás explicar el concepto con tus propias palabras, reconocer sus principales ventajas y riesgos y relacionarlo con una decisión financiera real.
+## Contenido principal
 
-## Concepto central
+Los metales preciosos se miden y se describen con unidades específicas que pueden confundir a un principiante. El oro se mide comúnmente en onzas troy (una unidad un poco más pesada que la onza común, propia históricamente de los metales preciosos) o en gramos, sobre todo en las piezas más pequeñas. La plata también se mide sobre todo en onzas troy. [DATO VERIFICADO] Una onza troy equivale aproximadamente a 31,1 gramos, lo que es distinto de la onza común "avoirdupois" (unos 28,3 gramos) que se usa para la mayoría de los artículos de uso diario; esta distinción importa porque usar la conversión equivocada puede crear una confusión real sobre cuánto metal se está comprando realmente.
 
-Comprender la pureza y las medidas de peso forma parte de la alfabetización inversora porque invertir exige comprender qué se posee, por qué puede cambiar de valor y qué riesgos se aceptan. En la pista GOLD, los metales preciosos sirven como una forma concreta de estudiar principios que también se aplican a otras inversiones.
+La pureza, que a menudo se expresa como "ley" (fineness, en inglés), describe qué parte de una pieza es realmente el metal precioso y qué parte son otros metales mezclados para darle durabilidad. La pureza del oro a menudo se describe en quilates (24 quilates es oro puro) o como una ley decimal (0.999 significa 99,9 % puro). Una pureza más alta, en general, significa que el valor de la pieza sigue de forma más cercana y directa el precio al contado del metal, ya que una parte menor del peso es material de relleno no precioso.
 
-No existe un activo apropiado para todas las personas ni para todas las situaciones. La decisión depende de objetivos, horizonte temporal, liquidez, tolerancia al riesgo, costes y circunstancias personales. EDUNANCIAL proporciona información para que el alumno pueda evaluar esas variables y tomar sus propias decisiones; no promete rentabilidad ni recomienda una inversión concreta.
+## Ejemplo práctico
 
-## Aplicación práctica
+[EJEMPLO ILUSTRATIVO] Una moneda descrita como "una onza troy de plata de ley 0.999" significa que pesa una onza troy (unos 31,1 gramos) y que es 99,9 % plata pura, con un porcentaje restante muy pequeño de otros materiales en trazas para darle durabilidad. Entender las dos cifras juntas (la unidad de peso y la pureza) es necesario para saber exactamente lo que se compra, ya que una suposición equivocada sobre cualquiera de las dos (usar onzas comunes en vez de onzas troy, o ignorar la pureza) podría llevar a un malentendido real sobre el valor.
 
-Antes de actuar, separa el precio del valor, identifica todos los costes y pregunta qué tendría que ocurrir para que la decisión produzca un resultado distinto del esperado. Compara alternativas y considera también el coste de oportunidad del dinero utilizado.
+## Cuestionario de práctica
 
-Cuando intervengan impuestos, regulación, custodia, seguros o normas de mercado, recuerda que las reglas varían según el país y la jurisdicción. Los ejemplos estadounidenses son ejemplos educativos y no deben tratarse como reglas universales.
+1. ¿En qué unidad se miden comúnmente el oro y la plata, y en qué se diferencia de una onza común?
+2. ¿Qué describe la "pureza" o "ley"?
+3. ¿Qué significa una ley de 0.999?
+4. ¿Por qué importa entender juntos el peso y la pureza?
 
-## Ejemplo
+## Clave de respuestas
+1. La onza troy, que con unos 31,1 gramos es más pesada que la onza común avoirdupois (unos 28,3 gramos).
+2. Qué parte de una pieza es realmente el metal precioso y qué parte son otros metales mezclados.
+3. Que la pieza es 99,9 % metal precioso puro, con un porcentaje restante muy pequeño de otros materiales.
+4. Porque una suposición equivocada sobre cualquiera de los dos podría llevar a un malentendido real sobre exactamente cuánto valor se está comprando.
 
-Una persona reserva una cantidad que puede permitirse mantener invertida y compara varias opciones. En lugar de comprar solo porque el precio ha subido, analiza el propósito de la posición, los costes de compra y venta, la facilidad de convertirla en efectivo y el papel que tendría dentro de su patrimonio total.
-
-## Comprobación de comprensión
-
-**Pregunta:** ¿Cuál es el enfoque más sólido antes de tomar una decisión relacionada con este concepto?
-
-A. Actuar porque otra persona afirma que el precio subirá.  
-B. Evaluar objetivos, riesgos, costes, liquidez y alternativas.  
-C. Suponer que los resultados pasados garantizan los futuros.  
-D. Concentrar todo el capital en una sola idea.
-
-**Respuesta:** B.
+## Respuestas y explicaciones
+1. Esta distinción evita una confusión común de los principiantes entre la onza troy y la onza común.
+2. La pureza describe el contenido real de metal precioso en relación con el peso total de una pieza.
+3. Esto aplica directamente el concepto de ley a un ejemplo concreto y común del mundo real.
+4. Las dos medidas juntas determinan el contenido real de metal precioso que se está comprando.
 
 ## Puntos clave
-
-- Comprende el activo o estrategia antes de comprometer dinero.
-- Riesgo y rentabilidad potencial deben analizarse juntos.
-- Los costes y la liquidez afectan al resultado real.
-- La diversificación puede reducir la dependencia de una sola posición, pero no elimina el riesgo.
-- Las normas fiscales y legales dependen de la jurisdicción.
-- La información debe ayudarte a decidir; no sustituye asesoramiento profesional individualizado.
-
-## Reflexión
-
-Explica cómo aplicarías esta lección a una decisión propia sin depender de una predicción sobre el precio futuro.
+- Los metales preciosos se miden normalmente en onzas troy o en gramos, y la onza troy es distinta de la onza común.
+- La pureza (ley) describe qué parte de una pieza es realmente metal precioso y qué parte son otros materiales.
+- Entender juntos el peso y la pureza es necesario para saber exactamente lo que se compra.

@@ -1,55 +1,56 @@
 ---
 id: GOLD-L1-013
 track: GOLD
-officialTrackName: "Inversión"
+officialTrackName: "Investing"
 level: 1
 lessonNumber: 13
 locale: es-Caribbean
-title: "Monedas vs. barras"
-summary: "Compara dos formas comunes de metales preciosos físicos y sus respectivas ventajas y desventajas."
+title: "Monedas frente a barras"
+summary: "Compara dos formas físicas comunes de los metales preciosos y sus respectivas ventajas y desventajas."
 version: "1.0"
 author: "Waldemar M. Caban, JD MA"
 date: "2026-08-09"
 ---
 
-# Monedas vs. barras
+# Monedas frente a barras
 
-## Objetivos de Aprendizaje
-- Comparar monedas y barras como formas de metales preciosos físicos
-- Identificar factores que pueden influir en la elección entre ambas
-- Reconocer que ninguna forma es universalmente "mejor"
+## Objetivos de aprendizaje
+- Comparar las monedas y las barras como formas de metales preciosos físicos
+- Identificar los factores que podrían influir en la elección entre las dos
+- Reconocer que ninguna de las dos formas es universalmente "mejor"
 
-## Contenido Principal
+## Contenido principal
 
-Los metales preciosos físicos suelen presentarse en dos formas principales: monedas, frecuentemente acuñadas por gobiernos con diseños y denominaciones reconocibles, y barras, normalmente más sencillas y a menudo producidas por casas de moneda privadas y vendidas por peso. Ambas representan propiedad del mismo metal subyacente, pero pueden diferir en prima, reconocimiento y liquidez.
+Los metales preciosos físicos suelen presentarse en dos formas principales: las monedas (a menudo acuñadas por un gobierno, con diseños y denominaciones reconocidos) y las barras (normalmente más sencillas, a menudo de casas de moneda privadas, que se venden por peso). Ambas representan la propiedad del mismo metal de fondo, pero pueden diferenciarse en la prima, en lo reconocibles que son y en la liquidez.
 
-Las monedas, especialmente las gubernamentales ampliamente reconocidas, suelen tener una prima mayor, pero pueden venderse con mayor facilidad a una amplia variedad de compradores debido a su reconocimiento y confianza. Las barras suelen tener una prima menor por unidad de peso, especialmente en tamaños grandes, aunque pueden ser algo menos reconocibles para un comprador ocasional, lo que en ciertos casos puede afectar la rapidez de venta; esto varía según el producto y el distribuidor.
+Las monedas, sobre todo las acuñadas por un gobierno y ampliamente reconocidas, a menudo tienen una prima más alta, pero pueden ser más fáciles de vender rápido a una gran variedad de compradores por lo reconocibles y confiables que son. Las barras a menudo tienen una prima más baja por unidad de peso, sobre todo en los tamaños más grandes, pero pueden ser algo menos reconocibles en general para un comprador ocasional, lo que a veces puede afectar qué tan rápido se venden, aunque esto varía según el producto y el comerciante.
 
-Ninguna forma es universalmente mejor. La elección depende de prioridades como el costo de la prima, facilidad de reventa y preferencia personal por unidades pequeñas y flexibles frente a unidades mayores y más eficientes.
+Ninguna de las dos formas es universalmente mejor: la elección adecuada depende de prioridades como el costo de la prima, la facilidad de reventa y la preferencia personal por unidades más pequeñas y flexibles frente a unidades más grandes y eficientes.
 
-## Ejemplo Resuelto
+## Ejemplo práctico
 
-[EJEMPLO ILUSTRATIVO] Un inversionista que acumula plata mediante cantidades mensuales pequeñas podría preferir monedas comunes de una onza, ampliamente reconocidas, fáciles de comprar en incrementos pequeños y generalmente sencillas de revender. Alguien que haga una compra mayor y menos frecuente podría considerar una barra grande, que normalmente tiene una prima menor por onza, aceptando una unidad menos flexible a cambio de eficiencia de costos.
+[EJEMPLO ILUSTRATIVO] Un inversionista que acumula plata en cantidades mensuales más pequeñas podría preferir las monedas comunes de una onza, que son ampliamente reconocidas, fáciles de comprar en pequeñas cantidades y, en general, sencillas de revender. Alguien que hace una compra más grande y menos frecuente podría considerar una barra más grande, que normalmente tiene una prima más baja por onza, y aceptar una sola unidad más grande y algo menos flexible a cambio de esa eficiencia en el costo.
 
-## Cuestionario Práctico
-1. ¿Cuáles son las dos formas principales de metales preciosos físicos analizadas?
-2. ¿Cuál es una desventaja típica de las monedas frente a las barras?
-3. ¿Cuál es una ventaja típica de las barras frente a las monedas?
-4. ¿Es una forma universalmente mejor que la otra?
+## Prueba de práctica
 
-## Clave de Respuestas
-1. Monedas y barras.
-2. Las monedas suelen tener primas mayores, aunque pueden ser más fáciles de vender por su reconocimiento.
-3. Las barras suelen tener una prima menor por unidad, aunque pueden ser algo menos reconocibles.
-4. No; depende de prioridades individuales como costo, facilidad de reventa y preferencia.
+1. ¿Cuáles son las dos formas físicas principales de los metales preciosos que se explican en esta lección?
+2. ¿Cuál es una ventaja y desventaja típica de las monedas en comparación con las barras?
+3. ¿Cuál es una ventaja y desventaja típica de las barras en comparación con las monedas?
+4. ¿Una de las dos formas es universalmente "mejor" que la otra?
 
-## Respuestas y Explicaciones
-1. Son las dos formas físicas principales que probablemente encontrará un inversionista.
-2. Reconocimiento y liquidez son ventajas de las monedas, a cambio de primas normalmente mayores.
-3. La eficiencia de costo por unidad es una ventaja habitual de las barras.
-4. Esto evita asumir que una forma tiene una ventaja universal inherente.
+## Clave de respuestas
+1. Las monedas y las barras.
+2. Las monedas a menudo tienen una prima más alta, pero pueden ser más fáciles de vender rápido porque son ampliamente reconocibles.
+3. Las barras a menudo tienen una prima más baja por unidad, pero pueden ser algo menos reconocibles en general, lo que a veces afecta la rapidez de la reventa.
+4. No: la elección adecuada depende de las prioridades de cada persona, como el costo de la prima, la facilidad de reventa y la preferencia personal.
 
-## Puntos Clave a Recordar
-- Monedas y barras son las dos formas principales de metales preciosos físicos.
-- Las monedas tienden a tener primas mayores pero mayor reconocimiento; las barras, primas menores pero algo menos de reconocimiento universal.
-- La elección correcta depende de prioridades y circunstancias individuales.
+## Respuestas y explicaciones
+1. Estas son las dos formas físicas principales que probablemente encuentre un inversionista.
+2. Lo reconocibles que son y la liquidez son las ventajas clave que favorecen a las monedas en esta comparación.
+3. La eficiencia en el costo por unidad es la ventaja clave que favorece a las barras en esta comparación.
+4. Esto corrige cualquier suposición de que una forma tiene una ventaja inherente y universal sobre la otra.
+
+## Puntos clave
+- Las monedas y las barras son las dos formas físicas principales de los metales preciosos, y ambas representan la propiedad del mismo metal de fondo.
+- Las monedas tienden a tener primas más altas, pero son más reconocibles y fáciles de revender; las barras tienden a tener primas más bajas, pero son algo menos reconocibles en general.
+- Ninguna de las dos formas es universalmente mejor: la elección adecuada depende de las prioridades y las circunstancias de cada persona.

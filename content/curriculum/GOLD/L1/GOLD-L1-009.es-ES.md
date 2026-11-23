@@ -1,58 +1,54 @@
 ---
 id: GOLD-L1-009
 track: GOLD
-officialTrackName: Inversión y Construcción de Patrimonio
+officialTrackName: "Investing"
 level: 1
 lessonNumber: 9
 locale: es-ES
 title: "Qué determina los precios de los metales preciosos"
-summary: "Comprende qué determina los precios de los metales preciosos y cómo encaja en una base sólida de alfabetización inversora."
-version: 1.0
-author: Waldemar M. Caban, JD MA
+summary: "Explica los factores básicos de oferta y demanda que mueven los precios del oro y la plata."
+version: "1.0"
+author: "Waldemar M. Caban, JD MA"
+date: "2026-08-09"
 ---
 
 # Qué determina los precios de los metales preciosos
 
-## Objetivo de aprendizaje
+## Objetivos de aprendizaje
+- Identificar los factores básicos de oferta y demanda que afectan los precios de los metales preciosos
+- Explicar por qué la incertidumbre económica a menudo afecta la demanda de oro y plata
+- Reconocer que ningún factor por sí solo determina el precio
 
-Al terminar esta lección podrás explicar el concepto con tus propias palabras, reconocer sus principales ventajas y riesgos y relacionarlo con una decisión financiera real.
+## Contenido principal
 
-## Concepto central
+Como la mayoría de los activos, los precios de los metales preciosos dependen de la oferta y la demanda. Del lado de la oferta: cuánto metal nuevo se extrae y se produce, y cuánto metal existente (del reciclaje o de tenencias privadas) entra al mercado. Del lado de la demanda: la demanda de inversión (personas que lo compran como depósito de valor), la demanda de joyería y, en el caso específico de la plata, la demanda industrial de la manufactura.
 
-Qué determina los precios de los metales preciosos forma parte de la alfabetización inversora porque invertir exige comprender qué se posee, por qué puede cambiar de valor y qué riesgos se aceptan. En la pista GOLD, los metales preciosos sirven como una forma concreta de estudiar principios que también se aplican a otras inversiones.
+[DATO VERIFICADO] Históricamente, los metales preciosos, y el oro en particular, a menudo han tenido una mayor demanda de inversión durante períodos de incertidumbre económica o de inflación alta, ya que algunos inversores los ven como un depósito de valor cuando se tambalea la confianza en otros activos o monedas. Esto no es una garantía: los precios dependen de muchos factores a la vez, y ninguna explicación única (como "la incertidumbre siempre hace subir el oro") es cierta en todas las situaciones. Entender que varios factores interactúan, en vez de buscar una sola regla sencilla de causa y efecto, es una forma más exacta de pensar en los movimientos de los precios.
 
-No existe un activo apropiado para todas las personas ni para todas las situaciones. La decisión depende de objetivos, horizonte temporal, liquidez, tolerancia al riesgo, costes y circunstancias personales. EDUNANCIAL proporciona información para que el alumno pueda evaluar esas variables y tomar sus propias decisiones; no promete rentabilidad ni recomienda una inversión concreta.
+## Ejemplo práctico
 
-## Aplicación práctica
+[EJEMPLO ILUSTRATIVO] Durante un período en que los titulares económicos están dominados por la incertidumbre, la demanda de oro podría aumentar porque algunos inversores buscan un depósito de valor percibido, lo que podría hacer subir los precios; al mismo tiempo, si la actividad industrial se está desacelerando, la menor demanda industrial de plata podría compensar en parte cualquier aumento parecido en la demanda de inversión de la plata. Esto muestra por qué los dos metales, aunque ambos sean "metales preciosos", pueden comportarse de forma algo distinta incluso en el mismo entorno económico general.
 
-Antes de actuar, separa el precio del valor, identifica todos los costes y pregunta qué tendría que ocurrir para que la decisión produzca un resultado distinto del esperado. Compara alternativas y considera también el coste de oportunidad del dinero utilizado.
+## Cuestionario de práctica
 
-Cuando intervengan impuestos, regulación, custodia, seguros o normas de mercado, recuerda que las reglas varían según el país y la jurisdicción. Los ejemplos estadounidenses son ejemplos educativos y no deben tratarse como reglas universales.
+1. Nombra los factores básicos de la oferta y de la demanda que afectan los precios de los metales preciosos.
+2. Históricamente, ¿qué ha pasado a menudo con la demanda de inversión en oro durante la incertidumbre económica?
+3. ¿Este patrón es una garantía que se cumplirá siempre?
+4. En el ejemplo práctico, ¿por qué el oro y la plata podrían responder de forma distinta al mismo entorno económico?
 
-## Ejemplo
+## Clave de respuestas
+1. Oferta: la minería o producción y el metal reciclado o existente que entra al mercado. Demanda: la inversión, la joyería y (en la plata) la demanda industrial.
+2. A menudo ha aumentado, ya que algunos inversores ven el oro como un depósito de valor en tiempos de incertidumbre.
+3. No: varios factores interactúan a la vez, y ninguna explicación única es cierta en todas las situaciones.
+4. Porque la plata tiene un impulsor adicional de demanda industrial que el oro no tiene, así que los dos pueden responder de forma distinta a las mismas condiciones.
 
-Una persona reserva una cantidad que puede permitirse mantener invertida y compara varias opciones. En lugar de comprar solo porque el precio ha subido, analiza el propósito de la posición, los costes de compra y venta, la facilidad de convertirla en efectivo y el papel que tendría dentro de su patrimonio total.
-
-## Comprobación de comprensión
-
-**Pregunta:** ¿Cuál es el enfoque más sólido antes de tomar una decisión relacionada con este concepto?
-
-A. Actuar porque otra persona afirma que el precio subirá.  
-B. Evaluar objetivos, riesgos, costes, liquidez y alternativas.  
-C. Suponer que los resultados pasados garantizan los futuros.  
-D. Concentrar todo el capital en una sola idea.
-
-**Respuesta:** B.
+## Respuestas y explicaciones
+1. Esto enumera los componentes básicos de oferta y demanda que mueven el precio de los metales preciosos.
+2. Este DATO VERIFICADO refleja un patrón histórico, presentado sin exagerarlo como si fuera una regla garantizada.
+3. La lección advierte de forma explícita contra el pensamiento simplista de causa y efecto sobre los movimientos de los precios.
+4. Los distintos impulsores de demanda explican por qué el oro y la plata no siempre se mueven igual, incluso en condiciones parecidas.
 
 ## Puntos clave
-
-- Comprende el activo o estrategia antes de comprometer dinero.
-- Riesgo y rentabilidad potencial deben analizarse juntos.
-- Los costes y la liquidez afectan al resultado real.
-- La diversificación puede reducir la dependencia de una sola posición, pero no elimina el riesgo.
-- Las normas fiscales y legales dependen de la jurisdicción.
-- La información debe ayudarte a decidir; no sustituye asesoramiento profesional individualizado.
-
-## Reflexión
-
-Explica cómo aplicarías esta lección a una decisión propia sin depender de una predicción sobre el precio futuro.
+- Los precios de los metales preciosos dependen de factores de oferta (producción, reciclaje) y de demanda (inversión, joyería y, en la plata, la industria).
+- Históricamente, el oro a menudo ha tenido una mayor demanda de inversión durante la incertidumbre económica, aunque no es un patrón garantizado.
+- Varios factores interactúan a la vez, así que los movimientos de los precios rara vez se explican por una sola causa sencilla.
