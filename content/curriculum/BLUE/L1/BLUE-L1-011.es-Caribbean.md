@@ -5,45 +5,79 @@ officialTrackName: Business
 level: 1
 lessonNumber: 11
 locale: es-Caribbean
-title: "Costes Iniciales — Qué Esperar"
-summary: "Los costes iniciales son los gastos puntuales en los que se incurre para poner en marcha una empresa antes de que abra o se lance. *HECHO VERIFICADO:* Las categorías comunes incluyen el equipo, las existencias iniciales, los honorarios legales y de registro, el marketing inicial, los depósitos (para locales o suministros), y un colchón de efectivo para los primeros meses antes de que los ingresos se estabilicen."
+title: "¿Qué son los ingresos y qué es la ganancia? (El par de términos que más se confunde en los negocios)"
+summary: "Aprende la diferencia real entre ingresos y ganancia, y por qué un negocio puede tener muchos ingresos y ninguna ganancia."
 version: "1.0"
 author: Waldemar M. Caban, JD MA
 date: 2026-08-08
 ---
 
-# BLUE-L1-011: Costes Iniciales — Qué Esperar
+# ¿Qué son los ingresos y qué es la ganancia? (El par de términos que más se confunde en los negocios)
 
-## Objetivos de Aprendizaje
-1. Definir los costes iniciales.
-2. Identificar categorías comunes de costes iniciales.
-3. Explicar por qué subestimar los costes iniciales es un error temprano habitual.
+## Objetivos de aprendizaje
 
-## Contenido Principal
-Los costes iniciales son los gastos puntuales en los que se incurre para poner en marcha una empresa antes de que abra o se lance. *HECHO VERIFICADO:* Las categorías comunes incluyen el equipo, las existencias iniciales, los honorarios legales y de registro, el marketing inicial, los depósitos (para locales o suministros), y un colchón de efectivo para los primeros meses antes de que los ingresos se estabilicen.
+Al final de esta lección, deberías poder:
 
-*SUPOSICIÓN:* Subestimar los costes iniciales es un error temprano habitual, a menudo porque los nuevos propietarios se centran en los costes obvios como el equipo, mientras pasan por alto costes recurrentes más pequeños que se acumulan antes de que lleguen ingresos significativos.
+- Definir por separado los ingresos y la ganancia.
+- Calcular una ganancia básica a partir de los ingresos y los gastos.
+- Explicar por qué unos ingresos fuertes no garantizan una ganancia.
 
-## Ejemplo Práctico
-*EJEMPLO ILUSTRATIVO:* Al presupuestar la apertura de un pequeño salón, Aisha tiene en cuenta el equipo y las existencias iniciales, pero al principio olvida presupuestar los meses previos a que se consolide la clientela — el alquiler, los salarios, y los suministros que deben pagarse sin importar cuántos clientes entren durante los primeros meses. Añadir un colchón de efectivo para ese periodo de arranque resulta ser tan importante como el propio equipo.
+## Contenido principal
 
-## Cuestionario Práctico
-1. ¿Qué son los costes iniciales?
-2. Indica dos categorías comunes de costes iniciales.
-3. Verdadero/Falso: Los costes iniciales solo incluyen compras puntuales como el equipo.
-4. ¿Por qué es un error habitual subestimar los costes iniciales?
+### Dos números que la gente confunde constantemente
 
-## Clave de Respuestas
-1. Gastos puntuales para poner en marcha una empresa antes de su lanzamiento   2. Equipo, existencias iniciales (entre otras)   3. Falso   4. Los nuevos propietarios a menudo pasan por alto costes recurrentes más pequeños durante el periodo de arranque temprano
+Pregúntate: si un negocio "hizo $500,000 el año pasado", ¿significa que se quedó con $500,000? Casi seguro que no, y esta confusión es justamente la razón por la que los ingresos y la ganancia se mezclan tan a menudo.
 
-## Respuestas y Explicaciones
-1. Esta es la definición fundamental de los costes iniciales.
-2. Estas se encuentran entre las categorías estándar de costes iniciales.
-3. Los costes iniciales también incluyen un colchón de efectivo para los gastos operativos tempranos antes de que se estabilicen los ingresos.
-4. Los costes obvios se presupuestan; el coste acumulado de sobrevivir los primeros meses a menudo se pasa por alto.
+Los **ingresos** son el dinero total que entra a un negocio por sus ventas, antes de restar cualquier gasto. La **ganancia** es lo que queda después de restar todos los gastos que hicieron falta para generar esos ingresos.
 
-## Puntos Clave a Recordar
-- Los costes iniciales son los gastos puntuales necesarios antes de que una empresa pueda lanzarse.
-- Las categorías comunes incluyen el equipo, las existencias, los honorarios legales, y un colchón de efectivo temprano.
-- Un colchón de efectivo para el periodo de arranque es tan importante como las compras iniciales evidentes.
+### La fórmula
 
+Ganancia = Ingresos − Gastos. Un negocio con $500,000 de ingresos y $480,000 de gastos solo tiene $20,000 de ganancia: un panorama muy distinto del que sugiere el titular de ingresos por sí solo.
+
+### Por qué unos ingresos fuertes no garantizan una ganancia
+
+Un negocio puede tener ingresos impresionantes y en crecimiento y aun así estar perdiendo dinero, si sus gastos crecen igual de rápido o más. Los ingresos miden la actividad; la ganancia mide si esa actividad dejó al negocio realmente en mejor situación.
+
+## Ejemplo práctico
+
+*EJEMPLO ILUSTRATIVO:* Un negocio nuevo anuncia con orgullo $200,000 de ingresos en su primer año. Pregúntate: ¿es una buena noticia por sí sola? Solo si también conoces los gastos. Si los gastos fueron de $210,000, el negocio en realidad perdió $10,000 ese año: una pérdida escondida detrás de un titular que suena a éxito.
+
+## Prueba de práctica
+
+1. Los ingresos son:
+   A. Lo que queda después de restar todos los gastos
+   B. El dinero total que entra por las ventas, antes de los gastos
+   C. La deuda total de un negocio
+   D. Un tipo de impuesto
+2. Verdadero o falso: unos ingresos fuertes siempre significan que un negocio es rentable.
+3. Un negocio tiene $300,000 de ingresos y $275,000 de gastos. ¿Cuál es su ganancia?
+   A. $575,000
+   B. $25,000
+   C. $300,000
+   D. $0
+
+## Clave de respuestas
+
+1. B
+2. Falso
+3. B
+
+## Respuestas y explicaciones
+
+### Pregunta 1
+
+Respuesta correcta: B. Los ingresos son el total de lo que entra por ventas, antes de los gastos.
+
+### Pregunta 2
+
+Respuesta correcta: Falso. Unos ingresos altos con gastos todavía más altos pueden significar igualmente una pérdida.
+
+### Pregunta 3
+
+Respuesta correcta: B. $300,000 − $275,000 = $25,000.
+
+## Puntos clave
+
+- Los ingresos son el total de lo que entra por ventas, antes de los gastos.
+- Ganancia = Ingresos − Gastos: lo que realmente queda.
+- Unos ingresos fuertes no garantizan una ganancia.

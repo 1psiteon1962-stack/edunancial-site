@@ -5,45 +5,77 @@ officialTrackName: Business
 level: 1
 lessonNumber: 7
 locale: es-Caribbean
-title: "¿Qué Es un Plan de Empresa?"
-summary: "Un plan de empresa es un documento escrito que describe qué hace una empresa, cómo pretende generar dinero, y cómo planea operar y crecer. *HECHO VERIFICADO:* Las secciones comunes incluyen un resumen ejecutivo, una descripción del producto o servicio, un estudio de mercado, un plan de marketing y ventas, un plan operativo, y proyecciones financieras."
+title: "¿Qué es una corporación?"
+summary: "Aprende qué es una corporación, en qué se diferencia estructuralmente de una LLC y por qué se la trata como su propia \"persona\" legal."
 version: "1.0"
 author: Waldemar M. Caban, JD MA
 date: 2026-08-08
 ---
 
-# BLUE-L1-007: ¿Qué Es un Plan de Empresa?
+# ¿Qué es una corporación?
 
-## Objetivos de Aprendizaje
-1. Definir un plan de empresa y su propósito general.
-2. Identificar las secciones fundamentales que suele incluir un plan de empresa.
-3. Explicar para quién suele escribirse un plan de empresa.
+## Objetivos de aprendizaje
 
-## Contenido Principal
-Un plan de empresa es un documento escrito que describe qué hace una empresa, cómo pretende generar dinero, y cómo planea operar y crecer. *HECHO VERIFICADO:* Las secciones comunes incluyen un resumen ejecutivo, una descripción del producto o servicio, un estudio de mercado, un plan de marketing y ventas, un plan operativo, y proyecciones financieras.
+Al final de esta lección, deberías poder:
 
-*SUPOSICIÓN:* Los planes de empresa generalmente sirven a dos audiencias: el propietario, como herramienta de planificación y reflexión, y partes externas como prestamistas o inversores, que lo usan para evaluar si la empresa es lo suficientemente viable como para financiarla.
+- Definir una corporación en términos sencillos.
+- Explicar qué significa decir que una corporación es su propia "persona" legal.
+- Explicar una consecuencia práctica de esa condición legal separada.
 
-## Ejemplo Práctico
-*EJEMPLO ILUSTRATIVO:* Antes de abrir un food truck, Sam escribe un plan de empresa estimando los costes iniciales, proyectando ventas mensuales basadas en negocios locales similares, y esbozando un plan de marketing para redes sociales. Cuando más tarde solicita un préstamo para pequeñas empresas, el banco le pide ver exactamente este documento — el mismo plan que le ayudó a pensar el negocio ahora ayuda a convencer a un prestamista de que vale la pena financiarlo.
+## Contenido principal
 
-## Cuestionario Práctico
-1. ¿Qué es un plan de empresa?
-2. Indica dos secciones comúnmente incluidas en un plan de empresa.
-3. Verdadero/Falso: Un plan de empresa solo sirve para conseguir financiación externa.
-4. ¿Cuáles son las dos audiencias generales de un plan de empresa?
+### Una persona legal propia
 
-## Clave de Respuestas
-1. Un documento escrito que describe qué hace una empresa y cómo planea operar y crecer   2. Resumen ejecutivo, proyecciones financieras (entre otras)   3. Falso   4. El propietario (como herramienta de planificación) y partes externas como prestamistas o inversores
+Una corporación es una estructura de negocio que crea una entidad legal totalmente separada de sus dueños (los accionistas), en muchos sentidos más formalmente separada que una LLC. La ley trata a una corporación casi como su propia "persona": puede ser dueña de bienes, firmar contratos, demandar y ser demandada, con independencia de las personas que son sus dueñas.
 
-## Respuestas y Explicaciones
-1. Esta es la definición fundamental de un plan de empresa.
-2. Estas son secciones estándar que se encuentran en la mayoría de los planes de empresa.
-3. Los planes de empresa también son valiosos internamente, como herramienta de planificación y reflexión para el propietario.
-4. Los planes de empresa comúnmente sirven tanto para la planificación interna como para fines de financiación externa.
+### Por qué importa que sea "su propia persona"
 
-## Puntos Clave a Recordar
-- Un plan de empresa describe qué hace una empresa y cómo pretende operar y crecer.
-- Las secciones comunes incluyen el estudio de mercado, las operaciones, y las proyecciones financieras.
-- Los planes de empresa sirven tanto a la propia planificación del propietario como a audiencias externas como los prestamistas.
+Pregúntate: si muere el dueño de una corporación, ¿el negocio termina automáticamente? En general no: como la corporación existe como su propia entidad legal, puede continuar con independencia de la vida de cualquier dueño, a diferencia de algunas estructuras más sencillas.
 
+### Una consecuencia práctica: la propiedad mediante acciones
+
+Las corporaciones se poseen mediante acciones, que vimos en la ruta WHITE: esta es la conexión directa entre "tener acciones" y esta estructura de negocio. Una corporación puede tener un solo accionista o millones, y las acciones pueden comprarse y venderse sin alterar necesariamente el negocio de fondo.
+
+## Ejemplo práctico
+
+*EJEMPLO ILUSTRATIVO:* Imagina una corporación familiar cuyo fundador fallece. Pregúntate: ¿el negocio deja de existir legalmente? Como la corporación es su propia entidad legal, la propiedad de las acciones simplemente se transfiere (por herencia, venta u otra vía) y la corporación misma sigue existiendo, separada de la vida de cualquier persona.
+
+## Prueba de práctica
+
+1. La mejor descripción de una corporación es:
+   A. La misma entidad legal que sus dueños
+   B. Una entidad legal separada de sus dueños
+   C. Algo disponible solo para empresas grandes
+   D. Un tipo de empresa individual
+2. Verdadero o falso: en general, una corporación deja de existir si muere uno de sus dueños.
+3. ¿Cómo se estructura normalmente la propiedad de una corporación?
+   A. Mediante un único título que no se puede transferir
+   B. Mediante acciones, que pueden tener uno o muchos accionistas
+   C. Las corporaciones no pueden tener dueños
+   D. El gobierno determina cada año quién es el dueño
+
+## Clave de respuestas
+
+1. B
+2. Falso
+3. B
+
+## Respuestas y explicaciones
+
+### Pregunta 1
+
+Respuesta correcta: B. Una corporación está legalmente separada de sus dueños.
+
+### Pregunta 2
+
+Respuesta correcta: Falso. En general, la corporación continúa con independencia de la vida de cualquier dueño.
+
+### Pregunta 3
+
+Respuesta correcta: B. La propiedad se estructura mediante acciones.
+
+## Puntos clave
+
+- Una corporación es su propia entidad legal, separada de sus dueños.
+- Puede seguir existiendo con independencia de cualquier dueño.
+- La propiedad se estructura mediante acciones, lo que conecta con la ruta WHITE.

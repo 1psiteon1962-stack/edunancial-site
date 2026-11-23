@@ -5,45 +5,77 @@ officialTrackName: Business
 level: 1
 lessonNumber: 2
 locale: es-Caribbean
-title: "Ingresos vs. Beneficio — La Diferencia Fundamental"
-summary: "Los ingresos son el importe total de dinero que una empresa recibe por sus ventas, antes de restar cualquier coste. *HECHO VERIFICADO:* Beneficio = Ingresos − Gastos — es lo que queda después de todo lo que la empresa tuvo que gastar para generar esos ingresos."
+title: "Todo negocio vende una de dos cosas: producto, servicio o ambos"
+summary: "Aprende a mirar cualquier negocio con el lente de producto frente a servicio, y por qué la mayoría son en realidad una mezcla."
 version: "1.0"
 author: Waldemar M. Caban, JD MA
 date: 2026-08-08
 ---
 
-# BLUE-L1-002: Ingresos vs. Beneficio — La Diferencia Fundamental
+# Todo negocio vende una de dos cosas: producto, servicio o ambos
 
-## Objetivos de Aprendizaje
-1. Definir los ingresos y el beneficio por separado.
-2. Explicar por qué unos ingresos elevados no garantizan una empresa saludable.
-3. Calcular un beneficio sencillo a partir de los ingresos y los gastos.
+## Objetivos de aprendizaje
 
-## Contenido Principal
-Los ingresos son el importe total de dinero que una empresa recibe por sus ventas, antes de restar cualquier coste. *HECHO VERIFICADO:* Beneficio = Ingresos − Gastos — es lo que queda después de todo lo que la empresa tuvo que gastar para generar esos ingresos.
+Al final de esta lección, deberías poder:
 
-*SUPOSICIÓN:* Una empresa puede tener ingresos muy elevados y aun así perder dinero si sus gastos son suficientemente altos — los ingresos por sí solos no dicen nada sobre si una empresa está realmente saneada financieramente.
+- Definir producto y servicio en términos de negocio.
+- Clasificar un negocio real como basado en productos, basado en servicios o mixto.
+- Aplicar este lente a un negocio que conozcas personalmente.
 
-## Ejemplo Práctico
-*EJEMPLO ILUSTRATIVO:* Una tienda genera $200.000 en ingresos por ventas este año — una cifra llamativa. Pero tras pagar existencias, salarios del personal, alquiler, y otros costes que suman $210.000, la empresa en realidad perdió $10.000. Los ingresos elevados solo contaban una parte de la historia; el beneficio revelaba la imagen real.
+## Contenido principal
 
-## Cuestionario Práctico
-1. ¿Qué son los ingresos?
-2. ¿Cuál es la fórmula del beneficio?
-3. Verdadero/Falso: Unos ingresos elevados siempre significan que una empresa es rentable.
-4. Si una empresa tiene $150.000 en ingresos y $120.000 en gastos, ¿cuál es su beneficio?
+### Dos preguntas para hacerle a cualquier negocio
 
-## Clave de Respuestas
-1. El dinero total recibido por ventas, antes de costes   2. Ingresos − Gastos   3. Falso   4. $30.000
+Cuando mires un negocio, pregúntate: ¿con qué se va el cliente: con algo que puede conservar o con algo que alguien hizo por él? Un **producto** es algo que se entrega. Un **servicio** es una acción, un esfuerzo o un conocimiento que se realiza para el cliente.
 
-## Respuestas y Explicaciones
-1. Esta es la definición fundamental de los ingresos como cifra principal.
-2. Este es el cálculo estándar del beneficio.
-3. Una empresa puede tener ingresos elevados y aun así operar con pérdidas si los gastos son suficientemente altos.
-4. $150.000 − $120.000 = $30.000.
+### Por qué la mayoría de los negocios son una mezcla
 
-## Puntos Clave a Recordar
-- Los ingresos son el dinero total que entra; el beneficio es lo que queda tras los gastos.
-- Beneficio = Ingresos − Gastos es la fórmula estándar.
-- Unos ingresos elevados no garantizan rentabilidad — los gastos importan igualmente.
+Piensa en un restaurante. ¿Vende comida o vende la experiencia de que te atiendan? Ambas cosas: la comida es el producto, y que te sienten y te atiendan es el servicio. Muy pocos negocios reales caen por completo de un solo lado.
 
+### Cómo se aplica a la educación financiera
+
+Piensa en una plataforma que enseña alfabetización financiera. ¿Cuál es el producto? ¿Cuál es el servicio? El servicio es la enseñanza misma: guiar la comprensión y desarrollar competencias. El producto es lo que se entrega de forma tangible: las lecciones, las evaluaciones, los ejercicios estructurados. Nombrarlos por separado, en vez de decir solo "enseñamos a la gente", deja mucho más claro lo que realmente se está construyendo.
+
+## Ejemplo práctico
+
+*EJEMPLO ILUSTRATIVO:* Imagina a un fabricante de muebles que vende sillas: ese es el producto. Ahora imagina al mismo fabricante ofreciendo reparación de muebles a la medida: es un servicio añadido a un negocio de productos. Pregúntate: si ese servicio de reparación creciera lo suficiente, ¿el negocio seguiría siendo "un fabricante de muebles" o se habría convertido, sin que nadie lo notara, en otra cosa?
+
+## Prueba de práctica
+
+1. La mejor definición de producto es:
+   A. Una acción que se realiza para un cliente
+   B. Algo tangible o digital que el cliente recibe y conserva
+   C. El plan de mercadeo de una empresa
+   D. Un tipo de licencia de negocio
+2. Verdadero o falso: la mayoría de los negocios reales se basan solo en productos o solo en servicios, con poca mezcla.
+3. En el ejemplo de la educación financiera, ¿qué cuenta como el "servicio"?
+   A. Las lecciones y los ejercicios en sí
+   B. La enseñanza y la orientación en sí
+   C. El logotipo de la empresa
+   D. La estructura de precios
+
+## Clave de respuestas
+
+1. B
+2. Falso
+3. B
+
+## Respuestas y explicaciones
+
+### Pregunta 1
+
+Respuesta correcta: B. Un producto es algo tangible o digital que se le entrega al cliente.
+
+### Pregunta 2
+
+Respuesta correcta: Falso. La mayoría de los negocios reales mezclan ambos en alguna medida.
+
+### Pregunta 3
+
+Respuesta correcta: B. La enseñanza y la orientación son el servicio; las lecciones en sí son el producto.
+
+## Puntos clave
+
+- Un producto se entrega; un servicio se hace para alguien.
+- La mayoría de los negocios reales mezclan ambos, no son solo uno u otro.
+- Nombrar las partes de producto y de servicio de cualquier negocio aclara lo que realmente se está entregando.

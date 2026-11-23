@@ -5,45 +5,77 @@ officialTrackName: Business
 level: 1
 lessonNumber: 5
 locale: es-Caribbean
-title: "Costes Fijos vs. Costes Variables"
-summary: "Los costes fijos se mantienen aproximadamente iguales sin importar cuánto venda una empresa — el alquiler, los seguros, y el salario de un gerente son ejemplos comunes. *HECHO VERIFICADO:* Los costes variables suben y bajan con el volumen de ventas — las materias primas, el embalaje, y las comisiones de ventas son costes variables típicos, ya que más ventas generalmente requieren más de estos insumos."
+title: "¿Qué es una LLP y en qué se diferencia de una LLC?"
+summary: "Aprende qué es una LLP y en qué se diferencia su protección de responsabilidad de la de una LLC."
 version: "1.0"
 author: Waldemar M. Caban, JD MA
 date: 2026-08-08
 ---
 
-# BLUE-L1-005: Costes Fijos vs. Costes Variables
+# ¿Qué es una LLP y en qué se diferencia de una LLC?
 
-## Objetivos de Aprendizaje
-1. Definir los costes fijos y los costes variables.
-2. Identificar ejemplos de cada uno.
-3. Explicar por qué esta distinción importa para la planificación.
+## Objetivos de aprendizaje
 
-## Contenido Principal
-Los costes fijos se mantienen aproximadamente iguales sin importar cuánto venda una empresa — el alquiler, los seguros, y el salario de un gerente son ejemplos comunes. *HECHO VERIFICADO:* Los costes variables suben y bajan con el volumen de ventas — las materias primas, el embalaje, y las comisiones de ventas son costes variables típicos, ya que más ventas generalmente requieren más de estos insumos.
+Al final de esta lección, deberías poder:
 
-*SUPOSICIÓN:* Comprender esta división importa para la planificación porque los costes fijos deben pagarse incluso durante un mes flojo con pocos ingresos, mientras que los costes variables se reducen de forma natural cuando las ventas bajan.
+- Definir una LLP en términos sencillos.
+- Explicar quién suele usar esta estructura.
+- Explicar una diferencia clave entre la protección de responsabilidad de una LLP y la de una LLC.
 
-## Ejemplo Práctico
-*EJEMPLO ILUSTRATIVO:* Una panadería paga $1.500 de alquiler cada mes sin importar cuántas barras de pan venda — un coste fijo. La harina, sin embargo, cuesta aproximadamente $0,50 por barra horneada; cuantas más barras se vendan, más harina se compra. En un mes flojo con menos ventas, la factura de harina se reduce en consecuencia, pero el alquiler de $1.500 se debe pagar igualmente.
+## Contenido principal
 
-## Cuestionario Práctico
-1. ¿Qué son los costes fijos?
-2. ¿Qué son los costes variables?
-3. Verdadero/Falso: El alquiler es típicamente un coste variable.
-4. ¿Por qué importa la distinción entre fijo y variable para la planificación?
+### Qué significa LLP
 
-## Clave de Respuestas
-1. Costes que se mantienen aproximadamente iguales sin importar el volumen de ventas   2. Costes que suben y bajan con el volumen de ventas   3. Falso   4. Los costes fijos deben pagarse incluso en meses flojos; los costes variables se ajustan de forma natural con las ventas
+LLP son las siglas en inglés de Limited Liability Partnership, es decir, sociedad de responsabilidad limitada entre socios: una estructura pensada para varios dueños (socios) y no para un solo miembro, que suelen usar las prácticas profesionales como los bufetes de abogados o las firmas de contabilidad.
 
-## Respuestas y Explicaciones
-1. Esta es la definición estándar de un coste fijo.
-2. Esta es la definición estándar de un coste variable.
-3. El alquiler es un coste fijo clásico, no variable.
-4. Esta distinción ayuda a una empresa a predecir sus necesidades de efectivo durante periodos más flojos.
+### Quién suele usarla
 
-## Puntos Clave a Recordar
-- Los costes fijos se mantienen constantes sin importar el volumen de ventas.
-- Los costes variables suben y bajan según cuánto venda una empresa.
-- Los costes fijos crean riesgo en periodos flojos, ya que deben pagarse sin importar los ingresos.
+*(REGLA ESPECÍFICA DE LA REGIÓN: su disponibilidad y sus reglas varían según el estado, el país y la profesión; Puerto Rico la reconoce, mientras que en la República Dominicana las sociedades profesionales se organizan con otras figuras.)* Las LLP suelen usarlas profesionales con licencia que están obligados a operar como socios, o que eligen hacerlo, y en las que cada socio sigue teniendo responsabilidad directa por su propio trabajo profesional.
 
+### La diferencia clave de responsabilidad
+
+Pregúntate: si un socio de la firma comete un error costoso, ¿deberían estar en riesgo los bienes personales de todos los demás socios? En una LLP, en general, un socio está protegido de la responsabilidad personal por la negligencia profesional o los actos indebidos de los otros socios, una distinción que importa específicamente en entornos profesionales con varios socios.
+
+## Ejemplo práctico
+
+*EJEMPLO ILUSTRATIVO:* Imagina un pequeño bufete de abogados con tres socios, estructurado como LLP. Uno de los socios comete un error grave en el asunto de un cliente. Pregúntate: ¿están en riesgo las casas de los otros dos socios por el error de ese socio? Con una LLP, en general no: la exposición de cada socio por los actos de los demás es limitada, aunque compartan el negocio.
+
+## Prueba de práctica
+
+1. LLP son las siglas de:
+   A. Limited Liability Practice
+   B. Limited Liability Partnership
+   C. Legal Licensed Professional
+   D. Local Liability Program
+2. Verdadero o falso: las LLP suelen estructurarse para un solo dueño.
+3. ¿Qué atiende en general la protección de responsabilidad de una LLP?
+   A. La protección frente a todas las deudas del negocio de cualquier tipo
+   B. La protección frente a la responsabilidad personal por la negligencia o los actos indebidos de otros socios
+   C. La protección frente a pagar cualquier impuesto
+   D. La protección frente a que te demanden alguna vez
+
+## Clave de respuestas
+
+1. B
+2. Falso
+3. B
+
+## Respuestas y explicaciones
+
+### Pregunta 1
+
+Respuesta correcta: B. LLP son las siglas de Limited Liability Partnership.
+
+### Pregunta 2
+
+Respuesta correcta: Falso. Las LLP se estructuran para varios socios, no para un solo dueño.
+
+### Pregunta 3
+
+Respuesta correcta: B. Las LLP atienden específicamente la responsabilidad por los actos de otros socios.
+
+## Puntos clave
+
+- Una LLP está pensada para varios socios, a menudo en profesiones con licencia.
+- En general, protege a un socio de la responsabilidad por la negligencia o los actos indebidos de otros socios.
+- Es una protección distinta del escudo general de responsabilidad de una LLC.
