@@ -1,0 +1,309 @@
+===== ORANGE-L1-031
+TITLE: Imèl kòm yon zouti vant
+SUMMARY: Anseye kijan pou itilize imèl efikasman ni pou maketing ni pou swivi vant dirèk.
+# Imèl kòm yon zouti vant
+
+## Objektif aprantisaj
+
+- Esplike poukisa imèl rete yon kanal vant ak maketing efikas
+- Idantifye eleman yon imèl vant efikas
+- Pratike ekri yon imèl swivi kout e klè
+
+## Kontni prensipal
+
+Malgre nouvo platfòm yo, imèl rete youn nan zouti vant ki pi dirèk e ki pi efikas ki disponib, paske li rive nan yon bwat resepsyon pèsonèl chak moun tcheke pou kont li olye yon fil sosyal ki chaje, e li ba w espas pou esplike yon bagay klèman san limit karaktè yon platfòm oswa yon algorit k ap deside kiyès ki wè l.
+
+Yon imèl vant efikas kout, li gen yon sèl objektif klè, e li fini ak yon sèl pwochen etap klè. Imèl long ak plizyè demann gen tandans moun li yo rapidman oswa inyore yo. Yon liy sijè ki espesifik e onèt mache anpil pi byen pase youn ki vag oswa ki fèt pou atire klik, paske li fikse atant egzak sou sa ki anndan l.
+
+Imèl pèmèt tou pèsonalizasyon a gwo echèl – mansyone yon bagay espesifik sou moun k ap resevwa l la oswa sitiyasyon l, menm nan yon imèl modèl, fè l sanble yo te reflechi sou li olye yo te pwodui l an mas.
+
+## Egzanp pratik
+
+**Imèl fèb:** Sijè: "Alo!" Kò: Yon mesaj long, san konsantrasyon, ki kouvri senk sijè diferan san okenn demann klè.
+
+**Imèl fò:** Sijè: "Repons rapid pou kesyon w sou pri" Kò: "Bonjou [Non], m ap swiv kesyon w te poze sou nivo pri yo – men yon ti rezime rapid: [detay]. Èske w ta vle fè yon apèl 10 minit semèn sa a pou nou gade ki nivo ki koresponn pi byen?" Sa gen yon sèl objektif klè, yon liy sijè espesifik, ak yon sèl pwochen etap klè.
+
+## Egzamen pratik
+
+1. Poukisa imèl rete efikas konpare ak nouvo platfòm yo?
+2. Kisa ki fè yon imèl vant efikas, dapre leson sa a?
+3. Poukisa imèl long ak plizyè demann gen tandans pa mache byen?
+4. Kisa ki fè yon liy sijè efikas?
+
+## Kle repons yo
+
+1. Li rive nan yon bwat resepsyon pèsonèl e li bay espas pou esplike klèman san entèferans algorit.
+2. Rete kout, gen yon sèl objektif klè, e fini ak yon sèl pwochen etap klè.
+3. Moun li yo rapidman oswa inyore yo paske moun k ap li a pa konnen sou kisa pou l konsantre oswa aji.
+4. Rete espesifik e onèt, fikse atant egzak sou kontni imèl la.
+
+## Repons ak eksplikasyon
+
+1. Fè imèl dirèk e pèsonèl se avantaj prensipal li sou platfòm algorit kontwole.
+2. Konsantrasyon ak klète se sa ki fè yon imèl pouse aksyon olye l jis bay enfòmasyon.
+3. Plizyè demann k ap fè konkirans dilye atansyon moun k ap li a e yo diminye chans pou okenn aksyon fèt.
+4. Egzaktitid ak presizyon bati konfyans e yo prepare moun k ap li a pou l angaje ak vrè kontni an.
+
+## Pwen kle yo
+
+- Imèl rete efikas paske li pèsonèl, dirèk, e san entèferans algorit.
+- Imèl vant efikas kout, konsantre, e yo fini ak yon sèl pwochen etap klè.
+- Liy sijè espesifik e onèt mache pi byen pase sa ki vag oswa ki fèt pou atire klik.
+
+===== ORANGE-L1-032
+TITLE: Konsèp CRM nan (menm yon chif kalkil konte)
+SUMMARY: Prezante jesyon relasyon kliyan kòm yon konsèp, se pa yon zouti espesifik ki chè.
+# Konsèp CRM nan (menm yon chif kalkil konte)
+
+## Objektif aprantisaj
+
+- Bay definisyon CRM kòm yon konsèp ki endepandan de nenpòt lojisyèl espesifik
+- Esplike poukisa swiv prospè yon fason sistematik anpeche vant pèdi
+- Pratike mete sou pye yon sistèm swivi debaz pou prospè
+
+## Kontni prensipal
+
+CRM vle di Customer Relationship Management (Jesyon Relasyon Kliyan), e byenke moun souvan asosye l ak lojisyèl ki chè, konsèp la li menm senp: yon sistèm pou swiv kiyès prospè ak kliyan w yo ye, nan ki etap yo ye, e kisa ki bezwen fèt apre ak chak youn. Yon chif kalkil (spreadsheet) ki byen òganize se yon CRM totalman lejitim pou yon ti operasyon – lojisyèl la se yon fasilite, se pa yon obligasyon.
+
+San okenn sistèm, machann yo konte sou memwa, ki echwe yon fason ou ka prevwa pandan kantite prospè ap grandi. Yo bliye swivi, bon prospè vin frèt paske pèsonn pa t rele yo tounen, e li vin enposib pou wè modèl (tankou ki kalite prospè ki konvèti pi byen) paske anyen pa anrejistre.
+
+Yon CRM debaz, menm yon chif kalkil senp, ta dwe swiv omwen: non prospè a ak enfòmasyon kontak li, nan ki etap antonwa a li ye, dat dènye kontak la, ak pwochen aksyon ki nesesè a. Sa pou kont li anpeche pifò fason kouran vant tonbe nan twou.
+
+## Egzanp pratik
+
+Yon moun k ap kontakte plis pase san konpayi disk pou yon pwogram videyo mizik te kenbe yon lis ekri – non konpayi an, enfòmasyon kontak, si yo te di wi oswa non, ak nòt swivi. Lis sa a se te yon CRM, menm si se pa t yon lojisyèl. Li te pèmèt moun k ap rele a swiv egzakteman kiyès pou l retounen sou li, kiyès ki te deja dakò, e kiyès ki te toujou bezwen yon apèl swivi ak fason "chans egal" la.
+
+## Egzamen pratik
+
+1. Kisa CRM vle di, e ki objektif prensipal li?
+2. Èske yon CRM oblije yon lojisyèl ki chè?
+3. Kisa ki rive ak swivi vant lè pa gen okenn sistèm an plas?
+4. Bay non kat chan minimòm yon CRM debaz ta dwe swiv.
+
+## Kle repons yo
+
+1. Customer Relationship Management (Jesyon Relasyon Kliyan) – yon sistèm pou swiv prospè, etap yo, ak pwochen etap yo.
+2. Non – yon chif kalkil oswa menm yon lis ekri byen òganize se yon CRM lejitim.
+3. Yo bliye swivi e prospè vin frèt, paske machann yo konte sou yon memwa ki pa serye olye yon sistèm.
+4. Non ak enfòmasyon kontak, etap nan antonwa a, dat dènye kontak, ak pwochen aksyon ki nesesè.
+
+## Repons ak eksplikasyon
+
+1. Sa defini CRM kòm yon konsèp, separe de nenpòt zouti oswa pri espesifik.
+2. Leson an korije klèman sipozisyon ke CRM mande lojisyèl ki chè.
+3. Swivi ki baze sou memwa echwe yon fason ou ka prevwa pandan volim prospè ap grandi, sa ki lakoz okazyon pèdi.
+4. Kat chan sa yo fòme estrikti minimòm ki nesesè pou swiv prospè efikasman.
+
+## Pwen kle yo
+
+- CRM se yon konsèp – swiv prospè ak pwochen etap – se pa yon zouti espesifik ki chè.
+- San yon sistèm swivi, moun bliye swivi e prospè vin frèt.
+- Yon chif kalkil debaz ak non, etap, dènye kontak, ak pwochen aksyon kouvri sa ki esansyèl.
+
+===== ORANGE-L1-033
+TITLE: Swiv yon pipeline (liy prospè)
+SUMMARY: Anseye kijan pou òganize prospè selon etap pou yon machann toujou konnen ki kote biznis li ye.
+# Swiv yon pipeline (liy prospè)
+
+## Objektif aprantisaj
+
+- Bay definisyon yon pipeline vant e esplike objektif li
+- Idantifye etap debaz yon pipeline anjeneral swiv
+- Pratike klase prospè nan etap pipeline
+
+## Kontni prensipal
+
+Yon pipeline vant se yon fason pou òganize chak prospè aktif selon jan l avanse nan pwosesis desizyon an, pou yon machann ka wè yon sèl kou egzakteman ki kote biznis li ye e kisa ki bezwen atansyon. Se aplikasyon pratik konsèp antonwa vant nou te wè pi bonè a, aplike sou vrè prospè endividyèl olye jis yon konsèp jeneral.
+
+Etap pipeline kouran gen ladan: Nouvo Prospè (fèk idantifye, poko gen kontak), Kontakte (premye kontak fèt), Angaje (gen yon konvèsasyon aktif ki ale vini), Pwopozisyon Voye (yo fè yon òf espesifik), ak Fèmen (genyen oswa pèdi). Chak prospè chita nan egzakteman yon sèl etap an menm tan, e li avanse (oswa pafwa li rekile) pandan relasyon an ap devlope.
+
+Swiv yon pipeline konsa reponn kesyon ki enpòtan pou dirije yon biznis: konbyen prospè ki pre fèmen kounye a? Ki kote pifò prospè ap bloke? Èske gen ase k ap antre anwo pou rive nan objektif revni pita, paske nou konnen konbyen ki anjeneral tonbe sou wout la?
+
+## Egzanp pratik
+
+Yon konsiltan endepandan revize pipeline li chak semèn. Li remake kenz prospè ki chita nan "Kontakte" depi plis pase twa semèn san okenn mouvman – yon siyal klè ke pwosesis swivi l bezwen atansyon. Pandan sa a, gen sèlman de prospè nan "Pwopozisyon Voye," sa ki di l menm si tou de fèmen, sa pa ase pou rive nan objektif revni mwa a. Vizibilite sa a pèmèt li aji – pouse pi fò sou swivi e kreye plis nouvo prospè – anvan mank lan rive toutbon.
+
+## Egzamen pratik
+
+1. Bay definisyon yon pipeline vant ak pwòp mo pa w.
+2. Bay non twa etap pipeline kouran.
+3. Ki kalite kesyon biznis swivi pipeline ka ede reponn?
+4. Nan egzanp pratik la, ki pwoblèm revizyon pipeline a te revele?
+
+## Kle repons yo
+
+1. Yon fason pou òganize prospè selon jan yo avanse nan pwosesis desizyon an.
+2. Nenpòt twa nan sa yo: Nouvo Prospè, Kontakte, Angaje, Pwopozisyon Voye, Fèmen.
+3. Konbyen prospè ki pre fèmen, ki kote prospè ap bloke, e si gen ase k ap antre pou rive nan objektif nan lavni.
+4. Yon gwoup prospè ki bloke nan "Kontakte" ak pa ase prospè nan "Pwopozisyon Voye" pou rive nan objektif revni li.
+
+## Repons ak eksplikasyon
+
+1. Sa defini pipeline la kòm yon zouti òganizasyon ou aplike sou vrè prospè endividyèl.
+2. Etap sa yo reprezante vèsyon pratik konsèp antonwa a ou ka swiv.
+3. Vizibilite pipeline sipòte desizyon biznis davans olye sipriz pa reyaksyon.
+4. Revizyon pipeline a te fè yon pwoblèm espesifik ou ka trete parèt anvan l vin yon kriz revni.
+
+## Pwen kle yo
+
+- Yon pipeline òganize prospè selon etap, li aplike konsèp antonwa a nan yon swivi reyèl e endividyèl.
+- Etap kouran yo gen ladan Nouvo Prospè, Kontakte, Angaje, Pwopozisyon Voye, ak Fèmen.
+- Revize yon pipeline regilyèman revele pwoblèm ak okazyon anvan yo vin sipriz.
+
+===== ORANGE-L1-034
+TITLE: Mezire konvèsyon
+SUMMARY: Prezante to konvèsyon kòm endikatè kle pou konprann jan yon pwosesis vant mache efikasman toutbon.
+# Mezire konvèsyon
+
+## Objektif aprantisaj
+
+- Bay definisyon to konvèsyon e esplike kijan pou kalkile l
+- Esplike poukisa to konvèsyon pi enpòtan pase chif aktivite bri pou kont yo
+- Pratike kalkile yon to konvèsyon debaz ak chif egzanp
+
+## Kontni prensipal
+
+To konvèsyon se pousantaj moun ki pase soti nan yon etap rive nan pwochen an – pi souvan, pousantaj prospè ki vin kliyan ki peye. Ou kalkile l lè w divize kantite ki te konvèti a pa kantite total ki te antre nan etap sa a, apre sa ou miltipliye pa 100 pou jwenn yon pousantaj.
+
+Chif aktivite bri pou kont yo ka twonpe. Yon machann ki fè san apèl pa semèn sanble okipe, men si se yon sèl apèl ki konvèti an vant, sa se yon to konvèsyon 1% – yon istwa trè diferan de yon moun ki fè ven apèl e ki fèmen senk, yon to konvèsyon 25%. To konvèsyon revele vrè efikasite, pa sèlman efò oswa volim.
+
+Swiv to konvèsyon nan chak etap pipeline (pa sèlman vant final la) ede idantifye egzakteman ki kote yon pwosesis fèb. Yon konvèsyon ki ba soti "Kontakte" pou rive "Angaje" montre yon lòt pwoblèm pase yon konvèsyon ki ba soti "Pwopozisyon Voye" pou rive "Fèmen."
+
+## Egzanp pratik
+
+Yon machann voye senkant pwopozisyon nan yon mwa e li fèmen dis ladan yo. To konvèsyon: 10 divize pa 50, fwa 100, egal 20%. Mwa apre a, li amelyore modèl pwopozisyon l dapre objeksyon kouran li t ap tande, li voye karant pwopozisyon, e li fèmen douz. To konvèsyon: 12 divize pa 40, fwa 100, egal 30%. Menm si li te voye mwens pwopozisyon, to konvèsyon ki amelyore a vle di plis afè fèmen ak mwens efò total – yon siy klè amelyorasyon an te mache.
+
+## Egzamen pratik
+
+1. Bay definisyon to konvèsyon ak kijan ou kalkile l.
+2. Poukisa chif aktivite bri ka twonpe pou kont yo?
+3. Si yon moun voye 25 pwopozisyon e li fèmen 5, ki to konvèsyon li?
+4. Poukisa li itil pou swiv konvèsyon nan chak etap pipeline, pa sèlman vant final la?
+
+## Kle repons yo
+
+1. Pousantaj moun ki pase soti nan yon etap rive nan pwochen an, ou kalkile l konsa: (kantite ki konvèti ÷ total ki antre nan etap la) × 100.
+2. Paske anpil aktivite ak ti efikasite bay move rezilta malgre l sanble okipe.
+3. 5 ÷ 25 × 100 = 20%.
+4. Li revele egzakteman ki kote nan pwosesis la prospè yo ap bloke, sa ki pèmèt yon amelyorasyon ki vize.
+
+## Repons ak eksplikasyon
+
+1. Sa se fòmil ak definisyon prensipal leson an prezante.
+2. Volim pou kont li pa montre si efò a ap bay rezilta toutbon.
+3. Lè w aplike fòmil la dirèkteman: 5 divize pa 25 se 0.2, fwa 100 se 20%.
+4. Swivi nan nivo chak etap montre feblès espesifik olye sèlman yon chif reyisi/echwe jeneral.
+
+## Pwen kle yo
+
+- To konvèsyon mezire efikasite, ou kalkile l kòm kantite ki konvèti divize pa total, fwa 100.
+- Anpil aktivite pa garanti rezilta – to konvèsyon revele vrè efikasite.
+- Swiv konvèsyon nan chak etap pipeline idantifye egzakteman ki kote yon pwosesis bezwen amelyore.
+
+===== ORANGE-L1-035
+TITLE: Baz tès A/B
+SUMMARY: Prezante tès A/B kòm yon fason senp pou pran desizyon maketing ki baze sou prèv olye devinèt.
+# Baz tès A/B
+
+## Objektif aprantisaj
+
+- Bay definisyon tès A/B e esplike objektif li
+- Idantifye kondisyon ki nesesè pou yon tès A/B valab
+- Pratike konsevwa yon tès A/B senp pou yon desizyon maketing
+
+## Kontni prensipal
+
+Tès A/B vle di konpare de vèsyon yon bagay – yon piblisite, yon liy sijè imèl, yon paj entènèt – lè w montre chak vèsyon bay yon piblik ki sanble e w mezire kilès ki mache pi byen. Olye w devine ki fason ki pral mache pi byen, tès A/B kite vrè rezilta yo deside.
+
+Pou yon tès valab, li dwe chanje sèlman yon bagay an menm tan. Si w chanje ni liy sijè a ni kontni imèl la an menm tan, e youn nan vèsyon yo mache pi byen, ou p ap konnen ki chanjman ki te lakoz amelyorasyon an toutbon. Li bezwen tou yon piblik ki gen yon gwosè rezonab pou chak vèsyon – teste ak jis kèk moun pa vèsyon fè rezilta yo pa serye, paske yon ti echantiyon ka parèt diferan jis pa chans.
+
+Tès A/B pa pou gwo konpayi ki gen gwo bidjè sèlman. Yon ti biznis ka fè tès A/B sou yon bagay osi senp ke de diferan tèks sou piblikasyon sosyal ki sanble, oswa de liy sijè sou yon ti lis imèl, e itilize sa l aprann pou amelyore desizyon maketing nan lavni.
+
+## Egzanp pratik
+
+Yon biznis vle konnen ki liy sijè imèl ki fè plis moun louvri yon imèl pwomosyon. Li voye Vèsyon 1 ("20% rabè semèn sa a sèlman") bay mwatye lis li a, ak Vèsyon 2 ("Rabè w la pare") bay lòt mwatye a – menm kontni imèl, menm lè voye, se sèlman liy sijè a ki diferan. 30% moun ki resevwa Vèsyon 1 louvri l; 18% louvri Vèsyon 2. Kounye a biznis lan gen vrè prèv, se pa yon devinèt, ke presizyon ak ijans nan liy sijè a te mache pi byen pou piblik sa a.
+
+## Egzamen pratik
+
+1. Bay definisyon tès A/B ak pwòp mo pa w.
+2. Kisa ki nesesè pou yon tès A/B bay rezilta valab e itil?
+3. Poukisa teste ak yon trè ti piblik pa serye?
+4. Èske tès A/B itil sèlman pou gwo konpayi ki gen gwo bidjè?
+
+## Kle repons yo
+
+1. Konpare de vèsyon yon bagay ak yon piblik ki sanble pou wè kilès ki mache pi byen.
+2. Chanje sèlman yon varyab an menm tan, e teste ak yon piblik ki gen yon gwosè rezonab.
+3. Ti echantiyon ka bay rezilta ki twonpe jis pa chans, se pa yon vrè diferans pèfòmans.
+4. Non – ti biznis ka e ta dwe itilize l pou desizyon tankou liy sijè oswa tèks piblikasyon.
+
+## Repons ak eksplikasyon
+
+1. Sa defini mekanis prensipal tès A/B kòm yon konparezon ki baze sou prèv.
+2. Izole yon varyab ak gen ase done tou de nesesè pou konklizyon ki serye.
+3. Bri estatistik ka depase vrè siyal nan ti echantiyon, sa ki bay fo konklizyon.
+4. Leson an konbat klèman sipozisyon ke tès A/B mande gwo echèl oswa gwo bidjè.
+
+## Pwen kle yo
+
+- Tès A/B konpare de vèsyon pou kite vrè rezilta gide desizyon maketing olye devinèt.
+- Tès valab chanje sèlman yon varyab e yo itilize yon piblik ase gwo pou w fè rezilta yo konfyans.
+- Ti biznis ka e ta dwe itilize tès A/B senp pou amelyore maketing yo avèk tan.
+
+===== ORANGE-L1-036
+TITLE: Bati yon tèks vant senp
+SUMMARY: Anseye kijan pou bati yon tèks vant fleksib ki gide yon konvèsasyon san l pa sonnen tankou yon wobo.
+# Bati yon tèks vant senp
+
+## Objektif aprantisaj
+
+- Esplike objektif yon tèks vant e sa li pa ye
+- Idantifye seksyon debaz yon tèks vant senp ta dwe genyen
+- Pratike ekri yon tèks vant debaz pou yon òf senp
+
+## Kontni prensipal
+
+Yon tèks vant (sales script) se yon plan fleksib sou jan yon konvèsasyon vant ta dwe deroule an jeneral, se pa yon diskou mo pou mo pou w resite. Tèks ki sonnen aprann pa kè e tankou yon wobo gen tandans fè konfyans mal, paske yo sanble enpèsonèl e prepare davans olye yon vrè konvèsasyon. Yon bon tèks bay estrikti pandan l kite espas pou repons natirèl an tan reyèl.
+
+Yon tèks debaz anjeneral gen ladan: yon ouvèti (yon fason natirèl pou kòmanse konvèsasyon an e etabli poukisa w ap kontakte moun nan), yon seksyon dekouvèt (kesyon pou konprann sitiyasyon ak pwoblèm prospè a), yon pon (konekte sa w ofri ak sa w fèk aprann), ak yon fèmti (yon pwochen etap klè). Sa pa fèt pou w swiv li rijid – se yon kat, se pa yon tèks pou w li mo pou mo.
+
+Objektif yon tèks se konsistans san w pa pèdi otantisite: asire eleman enpòtan (tankou poze kesyon dekouvèt anvan w prezante) pa sote, pandan w toujou sonnen tankou yon vrè moun k ap fè yon vrè konvèsasyon.
+
+## Egzanp pratik
+
+**Ouvèti:** "Bonjou, mwen remake ou [detay espesifik ki gen rapò ak yo] – èske w gen kèk minit?"
+
+**Dekouvèt:** "Anvan m di anyen sou sa m fè, èske w ka di m yon ti kras sou [sitiyasyon ki gen rapò]?"
+
+**Pon:** "Sa fè sans – se egzakteman kalite pwoblèm [pwodui/sèvis] te fèt pou rezoud, paske [koneksyon espesifik ak sa yo te di]."
+
+**Fèmti:** "Èske l ta fè sans pou [pwochen etap espesifik ki pa mande gwo angajman]?"
+
+Estrikti sa a adapte l a prèske nenpòt konvèsasyon vant pandan l toujou sonnen natirèl, paske vrè mo yo chanje selon sa prospè a di pandan dekouvèt la.
+
+## Egzamen pratik
+
+1. Kisa yon tèks vant ye, e kisa li pa ta dwe ye?
+2. Bay non kat seksyon debaz yon tèks vant senp.
+3. Poukisa tèks ki aprann pa kè e ki sonnen tankou wobo fè konfyans mal?
+4. Ki objektif itilize yon tèks, dapre leson sa a?
+
+## Kle repons yo
+
+1. Yon plan fleksib sou jan konvèsasyon an deroule, se pa yon diskou mo pou mo pou resite.
+2. Ouvèti, dekouvèt, pon, fèmti.
+3. Yo sanble enpèsonèl e prepare davans olye yon vrè konvèsasyon, sa ki domaje konfyans.
+4. Konsistans (pa sote eleman enpòtan) san w pa pèdi otantisite.
+
+## Repons ak eksplikasyon
+
+1. Sa defini sa yon tèks fèt pou l ye – yon gid estriktirèl, se pa yon resitasyon rijid.
+2. Kat seksyon sa yo fòme achitekti debaz pifò konvèsasyon vant efikas.
+3. Otantisite enpòtan pou bati konfyans, e tèks rijid febli otantisite sa a.
+4. Balanse estrikti ak konvèsasyon natirèl se objektif prensipal pou itilize yon tèks menm.
+
+## Pwen kle yo
+
+- Yon tèks vant se yon gid estriktirèl fleksib, se pa yon diskou mo pou mo.
+- Seksyon debaz yo se ouvèti, dekouvèt, pon, ak fèmti.
+- Objektif la se konsistans nan kouvri eleman enpòtan, san w pa sakrifye otantisite.
