@@ -1,0 +1,381 @@
+===== BLACK-L5-026
+TITLE: Diriger des équipes dans plusieurs pays : orchestrer le droit du travail, la rémunération, les fuseaux horaires et la confiance
+SUMMARY: L'embauche internationale exige une conformité juridique et fiscale propre à chaque pays; adoptez une philosophie de rémunération claire et transparente, organisez la communication selon les fuseaux horaires et les cultures, et bâtissez la confiance par la clarté, le contact régulier et la reconnaissance.
+KEYWORDS: équipes mondiales, emploi international, équipes réparties, leadership à distance, embauche transfrontalière
+# Diriger des équipes dans plusieurs pays : orchestrer le droit du travail, la rémunération, les fuseaux horaires et la confiance
+
+## Mise en situation
+HYPOTHÈSE/OPINION (scénario hypothétique à des fins pédagogiques seulement) : Une entreprise de logiciels établie au Canada embauche des designers en Colombie, des développeurs aux Philippines et un représentant des ventes en Jamaïque. En quelques mois, des questions surgissent au sujet des contrats, des jours fériés, des modes de paiement et de la raison pour laquelle les réunions ont toujours lieu à des heures peu pratiques pour certains membres de l'équipe.
+
+## Objectifs d'apprentissage
+- Repérer les questions juridiques et administratives que soulève l'embauche dans plusieurs pays.
+- Expliquer comment les dirigeants abordent une rémunération équitable pour des personnes situées à différents endroits.
+- Expliquer comment les fuseaux horaires et la culture influent sur la communication et l'inclusion.
+- Appliquer une approche orchestrée à la direction d'une équipe internationale répartie.
+
+## Contenu principal
+PRINCIPE : Embaucher dans plusieurs pays donne accès à des talents et à des marchés, mais chaque pays a ses propres règles d'emploi, impôts et coutumes. Diriger une telle équipe exige de coordonner la structure juridique, la rémunération, la communication et la confiance.
+La structure juridique passe en premier. Le droit du travail, les charges sociales, les exigences en matière d'avantages sociaux et la qualification des travailleurs autonomes varient selon le pays. Traiter quelqu'un comme un travailleur autonome alors que la loi locale le considère comme un employé peut entraîner des pénalités. Les entreprises utilisent souvent des entités locales, des services d'employeur officiel ou des contrats de travailleur autonome bien structurés, sur la foi de conseils professionnels.
+La rémunération exige une philosophie claire. Certaines organisations paient selon les taux du marché local; d'autres paient la même chose pour le même rôle, peu importe l'endroit; beaucoup combinent les deux. Quelle que soit l'approche, elle devrait être expliquée de façon transparente et appliquée de façon constante. La monnaie et les modes de paiement comptent aussi pour les employés qui ont besoin d'un accès fiable à leur rémunération.
+La communication doit fonctionner d'un fuseau horaire à l'autre. Alterner les heures de réunion, enregistrer les séances importantes et s'appuyer davantage sur les mises à jour écrites aident tout le monde à participer. Les dirigeants devraient connaître les jours fériés locaux et les différences culturelles quant à la franchise, à la hiérarchie et à la rétroaction.
+La confiance tient les équipes réparties ensemble. Des objectifs clairs, des conversations individuelles régulières et la reconnaissance des contributions aident les gens à se sentir liés, même quand ils se rencontrent rarement en personne.
+
+## Exemple pratique
+EXEMPLE ILLUSTRATIF : L'entreprise de logiciels fait appel à un service d'employeur officiel pour que les membres de l'équipe de chaque pays soient employés correctement. La direction adopte une politique de rémunération fondée sur les taux du marché régional, avec une explication publiée et un examen annuel. Les réunions hebdomadaires alternent entre deux plages horaires, et les décisions sont consignées dans un espace partagé. Les jours fériés locaux de chaque membre sont ajoutés au calendrier de l'équipe. Des séances vidéo trimestrielles soulignent les réalisations dans les différents pays. Le roulement reste faible et la collaboration s'améliore.
+
+## Questionnaire pratique
+**Q1. Pourquoi la qualification des travailleurs autonomes est-elle importante quand on embauche dans plusieurs pays?**
+A) Elle n'a aucune conséquence juridique
+B) Traiter quelqu'un comme un travailleur autonome alors que la loi locale le considère comme un employé peut entraîner des pénalités
+C) Les travailleurs autonomes sont toujours des employés
+D) La qualification ne compte que pour les impôts dans le pays d'origine de l'entreprise
+
+**Q2. Quel est un principe important pour la rémunération internationale?**
+A) Une philosophie de rémunération claire, appliquée de façon constante et expliquée de façon transparente
+B) La rémunération devrait être secrète et incohérente
+C) La rémunération ne devrait jamais tenir compte de l'endroit
+D) Payer seulement dans la monnaie du pays d'origine de l'entreprise, peu importe les besoins des employés
+
+**Q3. Quelle pratique aide les équipes à communiquer d'un fuseau horaire à l'autre?**
+A) Toujours fixer les réunions selon les commodités du siège social
+B) Éviter la communication écrite
+C) Tenir des réunions sans ordre du jour
+D) Alterner les heures de réunion et consigner les décisions
+
+**Q4. Qu'est-ce qui aide à bâtir la confiance dans les équipes réparties?**
+A) Surveiller chaque minute de travail
+B) Éviter les contacts personnels
+C) Des objectifs clairs, des conversations individuelles régulières et la reconnaissance
+D) Changer souvent les objectifs sans explication
+
+**Q5. Dans l'exemple, comment l'entreprise s'est-elle assurée que l'emploi était conforme dans chaque pays?**
+A) En ignorant les règles locales
+B) En faisant appel à un service d'employeur officiel
+C) En payant tout le monde en argent comptant
+D) En obligeant tout le monde à déménager
+
+## Corrigé
+Q1: B
+Q2: A
+Q3: D
+Q4: C
+Q5: B
+
+## Réponses et explications
+**Q1.** Une mauvaise qualification peut entraîner des pénalités juridiques et financières.
+**Q2.** La transparence et la constance bâtissent l'équité et la confiance.
+**Q3.** L'alternance et la documentation rendent la participation possible d'un fuseau horaire à l'autre.
+**Q4.** Le lien et la clarté renforcent les relations malgré la distance.
+**Q5.** Le service a correctement assumé les obligations d'emploi locales.
+
+## Points clés
+- L'embauche internationale exige une conformité juridique et fiscale propre à chaque pays.
+- Adoptez une philosophie de rémunération claire et transparente.
+- Concevez la communication en fonction des fuseaux horaires et des différences culturelles.
+- Bâtissez la confiance par la clarté, le contact régulier et la reconnaissance.
+
+===== BLACK-L5-027
+TITLE: La négociation de la direction : orchestrer le rapport de force, les relations, les clauses juridiques et les seuils de rupture
+SUMMARY: La préparation décide de la plupart des négociations; améliorez vos solutions de rechange pour renforcer votre rapport de force, fixez votre seuil de rupture d'avance, misez sur les intérêts plutôt que sur les positions et examinez ensemble les clauses juridiques et financières.
+KEYWORDS: stratégie de négociation, MESORE, seuil de rupture, négociation d'affaires, négociation de contrats, leadership
+# La négociation de la direction : orchestrer le rapport de force, les relations, les clauses juridiques et les seuils de rupture
+
+## Mise en situation
+HYPOTHÈSE/OPINION (scénario hypothétique à des fins pédagogiques seulement) : Un fabricant de meubles renégocie son contrat avec son plus gros détaillant, qui exige des prix plus bas et des délais de paiement plus longs. Le propriétaire du fabricant craint de perdre le compte, mais n'a pas les moyens d'accepter les conditions proposées.
+
+## Objectifs d'apprentissage
+- Expliquer pourquoi la préparation détermine l'issue des négociations.
+- Expliquer la notion de solutions de rechange et de seuil de rupture.
+- Expliquer comment comprendre les intérêts de l'autre partie crée des options.
+- Appliquer un plan de négociation orchestré qui protège à la fois la valeur et les relations.
+
+## Contenu principal
+PRINCIPE : La plupart des négociations se décident avant le début de la rencontre. La préparation révèle ce dont chaque partie a besoin, quelles solutions de rechange existent et où une entente est possible.
+La plus grande source de rapport de force est une bonne solution de rechange. Les dirigeants devraient repérer leur meilleure option si aucune entente n'est conclue — ce qu'on appelle parfois la meilleure solution de rechange à un accord négocié (MESORE). Améliorer cette solution de rechange, par exemple en trouvant d'autres clients, renforce la position de négociation.
+Un seuil de rupture devrait être fixé d'avance : les conditions les moins favorables que l'organisation acceptera. Le fixer avant que les émotions montent évite d'accepter des conditions nuisibles sous la pression.
+Les intérêts comptent plus que les positions. Une demande de prix plus bas peut refléter le besoin de l'autre partie de protéger sa marge, de réduire son risque lié aux stocks ou d'atteindre des objectifs internes. Comprendre l'intérêt sous-jacent ouvre la porte à des solutions créatives — des engagements de volume, des calendriers de livraison différents, des promotions conjointes ou des produits simplifiés.
+Les clauses juridiques (VIOLET) et financières (BLEU et BLANC) doivent être examinées ensemble. Une concession sur le prix peut être acceptable si les modalités de paiement s'améliorent; un prix favorable peut être dangereux si les clauses de responsabilité sont injustes.
+Les relations comptent quand on fait affaire de façon répétée. Gagner une négociation en minant la confiance peut coûter plus cher plus tard. La fermeté et le respect peuvent coexister.
+
+## Exemple pratique
+EXEMPLE ILLUSTRATIF : Avant de négocier, le propriétaire du fabricant communique avec deux autres détaillants et obtient une commande d'essai plus modeste, ce qui améliore sa solution de rechange. Il fixe un seuil de rupture sous lequel le compte deviendrait déficitaire. Pendant la rencontre, il apprend que la véritable préoccupation du détaillant est l'excédent de stocks. Il offre des livraisons plus petites et plus fréquentes et un rabais modeste en échange d'un engagement de volume de deux ans et de modalités de paiement inchangées. Le détaillant accepte, et le fabricant garde à la fois le compte et une marge saine.
+
+## Questionnaire pratique
+**Q1. Pourquoi la préparation est-elle si importante en négociation?**
+A) L'issue est souvent façonnée par la compréhension des besoins et des solutions de rechange avant la rencontre
+B) La préparation est inutile
+C) Les négociations se décident par hasard
+D) Seule la partie la plus grande profite de la préparation
+
+**Q2. Quelle est la principale source de rapport de force en négociation?**
+A) Parler plus fort
+B) Refuser d'écouter
+C) Faire seulement la première offre
+D) Une bonne solution de rechange si aucune entente n'est conclue
+
+**Q3. Pourquoi faut-il fixer un seuil de rupture d'avance?**
+A) Pour mettre fin rapidement à chaque négociation
+B) Parce que la loi l'exige
+C) Pour éviter d'accepter des conditions nuisibles sous la pression
+D) Pour éviter de parvenir à une entente
+
+**Q4. Pourquoi les négociateurs devraient-ils miser sur les intérêts plutôt que sur les positions?**
+A) Les positions sont toujours plus importantes
+B) Les intérêts révèlent des besoins sous-jacents qui permettent des solutions créatives
+C) Les intérêts ne diffèrent jamais des positions
+D) Cela garantit que l'autre partie perd
+
+**Q5. Dans l'exemple, quelle était la véritable préoccupation du détaillant?**
+A) L'excédent de stocks
+B) L'emplacement du fabricant
+C) La couleur des produits
+D) Des différends juridiques
+
+## Corrigé
+Q1: A
+Q2: D
+Q3: C
+Q4: B
+Q5: A
+
+## Réponses et explications
+**Q1.** La préparation clarifie ce dont chaque partie a besoin et où une entente est possible.
+**Q2.** De solides solutions de rechange réduisent la dépendance envers une seule entente.
+**Q3.** Des limites fixées d'avance protègent le jugement dans les moments émotifs.
+**Q4.** Comprendre les besoins ouvre des solutions qui vont au-delà de simples échanges sur le prix.
+**Q5.** Répondre à la préoccupation liée aux stocks a créé une solution qui convenait aux deux parties.
+
+## Points clés
+- La préparation décide de la plupart des négociations.
+- Améliorez vos solutions de rechange pour renforcer votre rapport de force.
+- Fixez vos seuils de rupture avant le début des négociations.
+- Misez sur les intérêts, examinez ensemble les clauses juridiques et financières et protégez les relations.
+
+===== BLACK-L5-028
+TITLE: La diversification ou la concentration : orchestrer les occasions, les capacités et le capital
+SUMMARY: Chaque occasion se dispute des ressources limitées; diversifiez-vous autour de vos forces existantes et de votre capacité disponible, sachez que la concentration donne souvent de meilleurs résultats aux petites organisations et procédez une occasion à la fois.
+KEYWORDS: stratégie de diversification, concentration de l'entreprise, activités principales, décisions d'expansion, choix stratégique
+# La diversification ou la concentration : orchestrer les occasions, les capacités et le capital
+
+## Mise en situation
+HYPOTHÈSE/OPINION (scénario hypothétique à des fins pédagogiques seulement) : Un torréfacteur prospère approvisionne des cafés et des épiceries. Le propriétaire envisage d'ouvrir des cafés de détail, de lancer une gamme de thés et de démarrer un service d'abonnement en ligne — tout cela en même temps.
+
+## Objectifs d'apprentissage
+- Expliquer les avantages et les risques de la diversification.
+- Expliquer pourquoi la concentration produit souvent de meilleurs résultats pour les petites organisations.
+- Repérer les questions de capacités et de capital qui devraient guider l'expansion.
+- Appliquer un cadre orchestré pour établir l'ordre de priorité des nouvelles occasions.
+
+## Contenu principal
+PRINCIPE : Chaque nouvelle occasion se dispute le même argent, le même temps de gestion et la même attention, qui sont limités. La diversification peut réduire la dépendance envers un seul marché, mais disperser trop les ressources peut affaiblir les activités principales qui financent tout le reste.
+La diversification a du sens quand les nouvelles occasions utilisent des forces existantes — les clients, les compétences, la marque ou la distribution — et quand l'organisation a assez de capacité pour les soutenir. La diversification liée, comme vendre de nouveaux produits aux clients existants, est habituellement moins risquée que la diversification non liée.
+La concentration est souvent puissante pour les petites organisations. Devenir excellent dans un domaine bâtit la réputation, l'efficacité et le pouvoir de fixation des prix. Beaucoup d'entreprises croissent plus vite en approfondissant leurs activités principales qu'en entrant dans plusieurs nouveaux marchés à la fois.
+Les dirigeants devraient se demander : quelle est la taille de l'occasion? Utilise-t-elle nos forces existantes? Avons-nous les personnes et les systèmes pour l'exécuter? Combien de capital faut-il, et quel rendement est probable? Qu'arrive-t-il aux activités principales si l'attention de la direction se déplace?
+Procéder dans l'ordre est souvent la réponse. Poursuivez une occasion à la fois, faites-en la preuve, puis ajoutez la suivante.
+
+## Exemple pratique
+EXEMPLE ILLUSTRATIF : Le torréfacteur évalue les trois options. Les cafés de détail exigent beaucoup de capital et de nouvelles compétences de gestion. Les thés utilisent les relations existantes avec les épiceries, mais exigent de nouvelles connaissances en approvisionnement. L'abonnement en ligne utilise la capacité de torréfaction, la marque et l'intérêt des clients déjà existants, avec un investissement modeste. Le propriétaire lance d'abord l'abonnement, fixe un objectif sur un an et reporte les autres idées. L'abonnement réussit et fournit plus tard les données sur les clients qui servent à tester un seul café.
+
+## Questionnaire pratique
+**Q1. Pourquoi la diversification peut-elle affaiblir une entreprise?**
+A) Elle augmente toujours les profits
+B) Elle élimine tout risque
+C) Elle est illégale pour les petites entreprises
+D) Elle peut trop disperser l'argent et l'attention de la direction
+
+**Q2. Quand la diversification a-t-elle habituellement le plus de sens?**
+A) Quand elle n'a aucun lien avec ce que l'entreprise connaît
+B) Quand les activités principales sont en difficulté et que la trésorerie est faible
+C) Quand elle utilise des forces existantes et que l'organisation a la capacité nécessaire
+D) Toujours
+
+**Q3. Pourquoi la concentration peut-elle être puissante pour les petites organisations?**
+A) Elle empêche toute croissance
+B) Elle bâtit la réputation, l'efficacité et le pouvoir de fixation des prix
+C) Elle élimine la concurrence
+D) Elle n'exige aucun investissement
+
+**Q4. Que signifie procéder dans l'ordre dans ce contexte?**
+A) Poursuivre une occasion à la fois, en faire la preuve, puis ajouter la suivante
+B) Poursuivre toutes les occasions en même temps
+C) Éviter complètement les occasions
+D) Choisir les occasions au hasard
+
+**Q5. Pourquoi le torréfacteur a-t-il choisi d'abord le service d'abonnement?**
+A) Il exigeait l'investissement le plus important
+B) Il exigeait de nouvelles compétences de gestion
+C) Il n'avait aucun lien avec le café
+D) Il utilisait des forces existantes avec un investissement modeste
+
+## Corrigé
+Q1: D
+Q2: C
+Q3: B
+Q4: A
+Q5: D
+
+## Réponses et explications
+**Q1.** Des ressources limitées réparties entre de nombreuses initiatives les affaiblissent toutes.
+**Q2.** Utiliser des forces existantes réduit le risque et augmente les chances de réussite.
+**Q3.** L'excellence dans un domaine crée des avantages difficiles à copier.
+**Q4.** Procéder dans l'ordre réduit le risque et préserve la concentration.
+**Q5.** L'abonnement correspondait aux forces et à la capacité de l'entreprise.
+
+## Points clés
+- Chaque occasion se dispute des ressources limitées.
+- Diversifiez-vous autour de vos forces existantes et de votre capacité disponible.
+- La concentration produit souvent de meilleurs résultats pour les petites organisations.
+- Procédez dans l'ordre : faites la preuve d'une occasion avant d'ajouter la suivante.
+
+===== BLACK-L5-029
+TITLE: Les décisions d'endettement et d'effet de levier : orchestrer la croissance, le risque, les clauses restrictives et les cautions personnelles
+SUMMARY: La dette amplifie autant le succès que l'échec; testez la capacité de remboursement dans des conditions difficiles, comprenez les clauses restrictives et les cautions personnelles avant de signer, et empruntez par étapes en gardant des réserves.
+KEYWORDS: dette d'entreprise, effet de levier, clauses restrictives d'un prêt, caution personnelle, financement de la croissance, risque financier
+# Les décisions d'endettement et d'effet de levier : orchestrer la croissance, le risque, les clauses restrictives et les cautions personnelles
+
+## Mise en situation
+HYPOTHÈSE/OPINION (scénario hypothétique à des fins pédagogiques seulement) : Une entreprise de camionnage peut agrandir son parc de camions en empruntant beaucoup à un taux d'intérêt modéré. La demande est forte en ce moment, mais la propriétaire se souvient d'années où le prix du carburant a augmenté et où les volumes de transport ont baissé.
+
+## Objectifs d'apprentissage
+- Expliquer comment l'effet de levier peut augmenter à la fois les rendements et le risque.
+- Repérer les conditions de prêt courantes, y compris les clauses restrictives et les cautions.
+- Expliquer pourquoi la planification d'un scénario défavorable est essentielle avant d'emprunter.
+- Appliquer une décision d'emprunt orchestrée.
+
+## Contenu principal
+PRINCIPE : La dette amplifie les résultats. Quand les investissements rapportent plus que le coût de l'emprunt, l'effet de levier augmente les rendements. Quand les résultats déçoivent, les paiements fixes demeurent, ce qui augmente le risque de difficultés financières.
+Les dirigeants devraient évaluer la capacité de remboursement dans des conditions réalistes et difficiles. Un prêt abordable pendant une bonne année peut devenir dangereux pendant une mauvaise. Les simulations de crise — modéliser des revenus plus faibles, des coûts plus élevés ou des taux d'intérêt en hausse — révèlent combien de dette l'entreprise peut porter en toute sécurité.
+Les conventions de prêt comprennent souvent des clauses restrictives : des exigences comme le maintien de certains ratios financiers ou la limitation des emprunts supplémentaires. Ne pas respecter ces clauses peut permettre aux prêteurs d'exiger des changements ou le remboursement. Les cautions personnelles (VIOLET et VERT) exposent les biens personnels du propriétaire.
+Le but de l'emprunt compte. Une dette utilisée pour des actifs productifs qui génèrent des liquidités est généralement plus sûre qu'une dette qui sert à couvrir des pertes continues.
+Les dirigeants peuvent réduire le risque en empruntant par étapes, en alignant les calendriers de remboursement sur la durée de vie des actifs, en maintenant des réserves de trésorerie et en négociant des conditions souples.
+
+## Exemple pratique
+EXEMPLE ILLUSTRATIF : La propriétaire de l'entreprise de camionnage modélise un scénario où le volume baisse de vingt pour cent et où les coûts du carburant augmentent. Dans ce scénario, emprunter pour toute l'expansion laisserait peu de marge d'erreur. Elle finance plutôt la moitié des camions maintenant, garde une réserve de trésorerie, négocie des clauses restrictives plus souples et limite la caution personnelle. Après une année de bons résultats, l'entreprise finance d'autres camions à partir d'une position plus solide.
+
+## Questionnaire pratique
+**Q1. Comment l'effet de levier influe-t-il sur les résultats?**
+A) Il réduit à la fois les rendements et le risque
+B) Il n'a aucun effet sur le risque
+C) Il amplifie à la fois les résultats positifs et négatifs
+D) Il garantit des profits plus élevés
+
+**Q2. Qu'est-ce qu'une clause restrictive dans un prêt?**
+A) Une déduction fiscale
+B) Une exigence d'une convention de prêt, comme le maintien de certains ratios financiers
+C) Un type d'assurance
+D) Une promesse du prêteur de faire grâce du prêt
+
+**Q3. Pourquoi les simulations de crise sont-elles importantes avant d'emprunter?**
+A) Elles montrent si le remboursement reste possible dans des conditions difficiles
+B) Elles garantissent l'approbation
+C) Elles réduisent automatiquement les taux d'intérêt
+D) Elles ne sont nécessaires qu'après un défaut de paiement
+
+**Q4. Quelle utilisation de la dette est généralement plus sûre?**
+A) Couvrir des pertes continues
+B) Payer des dépenses inutiles
+C) Emprunter sans plan
+D) Acheter des actifs productifs qui génèrent des liquidités
+
+**Q5. Dans l'exemple, comment la propriétaire a-t-elle réduit le risque?**
+A) Elle a emprunté pour toute l'expansion immédiatement
+B) Elle a évité tout emprunt pour toujours
+C) Elle a financé la moitié des camions, gardé des réserves et négocié des conditions souples
+D) Elle a donné au prêteur la propriété de l'entreprise
+
+## Corrigé
+Q1: C
+Q2: B
+Q3: A
+Q4: D
+Q5: C
+
+## Réponses et explications
+**Q1.** Les obligations fixes amplifient à la fois les gains et les pertes.
+**Q2.** Les clauses restrictives sont des conditions que l'emprunteur doit respecter.
+**Q3.** Tester des scénarios difficiles révèle des risques cachés.
+**Q4.** Les actifs qui produisent des liquidités soutiennent le remboursement.
+**Q5.** Emprunter par étapes et garder des réserves ont préservé la souplesse.
+
+## Points clés
+- La dette amplifie à la fois le succès et l'échec.
+- Testez la capacité de remboursement dans des conditions difficiles.
+- Comprenez les clauses restrictives et les cautions personnelles avant de signer.
+- Empruntez par étapes et gardez des réserves pour réduire le risque.
+
+===== BLACK-L5-030
+TITLE: Le leadership de la trésorerie : orchestrer le fonds de roulement, la paie, la croissance et les réserves
+SUMMARY: Les flux de trésorerie déterminent la survie, le profit seul ne suffit pas; gérez délibérément les comptes clients, les comptes fournisseurs et les stocks, utilisez des prévisions de trésorerie glissantes et maintenez des réserves en prévoyant les besoins de liquidités de la croissance.
+KEYWORDS: gestion des flux de trésorerie, fonds de roulement, réserves de trésorerie, planification de la paie, comptes clients, liquidités
+# Le leadership de la trésorerie : orchestrer le fonds de roulement, la paie, la croissance et les réserves
+
+## Mise en situation
+HYPOTHÈSE/OPINION (scénario hypothétique à des fins pédagogiques seulement) : Un sous-traitant en construction rentable a du mal à verser la paie à quelques mois d'intervalle, parce que ses gros clients paient lentement alors que les matériaux et les salaires doivent être payés immédiatement.
+
+## Objectifs d'apprentissage
+- Expliquer la différence entre le profit et les flux de trésorerie.
+- Repérer les composantes du fonds de roulement.
+- Expliquer comment les dirigeants prévoient et gèrent la trésorerie.
+- Appliquer un plan de trésorerie orchestré.
+
+## Contenu principal
+PRINCIPE : Le profit montre si une entreprise gagne plus qu'elle ne dépense au fil du temps. Les flux de trésorerie montrent si elle a de l'argent disponible quand les factures arrivent à échéance. Une entreprise rentable peut quand même échouer si elle manque de liquidités.
+Le fonds de roulement comprend l'argent que doivent les clients (les comptes clients), l'argent dû aux fournisseurs (les comptes fournisseurs) et les stocks. Des clients qui paient lentement, des stocks importants ou de courts délais de paiement des fournisseurs peuvent immobiliser la trésorerie.
+Les dirigeants améliorent les flux de trésorerie en facturant rapidement, en fixant des modalités de paiement claires, en faisant un suivi constant des comptes en souffrance, en négociant les modalités avec les fournisseurs, en réduisant les stocks excédentaires et en exigeant des acomptes pour les gros projets.
+La prévision de trésorerie est essentielle. Une prévision de trésorerie glissante sur treize semaines aide à repérer les manques avant qu'ils surviennent, ce qui laisse le temps d'organiser un financement, de retarder des achats ou d'accélérer les encaissements.
+Les réserves procurent de la résilience. Beaucoup d'organisations visent à garder assez de liquidités pour couvrir un certain nombre de mois de dépenses essentielles, selon le risque et l'industrie.
+La croissance consomme de la trésorerie. Les dirigeants doivent s'assurer que les plans d'expansion comprennent assez de fonds de roulement.
+
+## Exemple pratique
+EXEMPLE ILLUSTRATIF : Le sous-traitant instaure des acomptes pour les nouveaux projets, facture chaque semaine plutôt que chaque mois et confie à une personne le suivi des comptes en souffrance. Le propriétaire négocie des délais de paiement plus longs avec un fournisseur clé et crée une prévision de trésorerie sur treize semaines, revue chaque lundi. Une petite marge de crédit est organisée avant qu'on en ait besoin. Le stress lié à la paie disparaît en trois mois.
+
+## Questionnaire pratique
+**Q1. Pourquoi une entreprise rentable peut-elle manquer de liquidités?**
+A) Les entreprises rentables n'ont jamais de problèmes de trésorerie
+B) Le moment du profit et celui des liquidités peuvent différer, surtout quand les clients paient lentement
+C) Les liquidités ne sont pas nécessaires pour fonctionner
+D) Les impôts éliminent toutes les liquidités
+
+**Q2. Lequel fait partie du fonds de roulement?**
+A) Les comptes clients, les comptes fournisseurs et les stocks
+B) Seulement le mobilier de bureau
+C) Seulement les marques de commerce
+D) Seulement les terrains détenus à long terme
+
+**Q3. Pourquoi une prévision de trésorerie sur treize semaines est-elle utile?**
+A) Elle remplace les registres comptables
+B) Elle élimine tout risque
+C) Elle garantit le profit
+D) Elle repère les manques assez tôt pour agir
+
+**Q4. Pourquoi la croissance consomme-t-elle de la trésorerie?**
+A) La croissance produit toujours des liquidités immédiates
+B) Les clients paient automatiquement d'avance
+C) Les dépenses et les investissements surviennent souvent avant que les clients paient
+D) La croissance élimine les dépenses
+
+**Q5. Dans l'exemple, quelle mesure a amélioré les encaissements?**
+A) Ignorer les factures en souffrance
+B) Facturer chaque semaine et faire le suivi des comptes en souffrance
+C) Supprimer les modalités de paiement
+D) Payer les fournisseurs d'avance
+
+## Corrigé
+Q1: B
+Q2: A
+Q3: D
+Q4: C
+Q5: B
+
+## Réponses et explications
+**Q1.** Les revenus peuvent être gagnés avant que les liquidités soient reçues.
+**Q2.** Ces éléments déterminent combien de trésorerie est immobilisée dans les activités.
+**Q3.** Une alerte hâtive donne le temps de réagir.
+**Q4.** La croissance augmente les dépenses avant que les encaissements rattrapent le retard.
+**Q5.** Une facturation plus rapide et un suivi accélèrent les entrées de fonds.
+
+## Points clés
+- Les flux de trésorerie déterminent la survie; le profit seul ne suffit pas.
+- Gérez délibérément les comptes clients, les comptes fournisseurs et les stocks.
+- Utilisez des prévisions de trésorerie glissantes pour anticiper les manques.
+- Maintenez des réserves et prévoyez les besoins de liquidités de la croissance.
