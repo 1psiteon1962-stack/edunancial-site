@@ -1,0 +1,437 @@
+===== WHITE-L1-007
+TITLE: Kisa pri yon aksyon ye, e kisa ki fè l chanje?
+SUMMARY: Aprann sa ki detèmine pri yon aksyon chak jou, pi lwen pase "lòf ak demann" sèlman.
+# Kisa pri yon aksyon ye, e kisa ki fè l chanje?
+
+## Objektif aprantisaj
+
+Lè w fin fè leson sa a, w ap kapab:
+
+- Bay definisyon pri yon aksyon an mo senp.
+- Esplike mekanis debaz lòf ak demann ki fè pri a chanje.
+- Nonmen faktè ki ka chanje lòf ak demann sa a.
+
+## Kontni prensipal
+
+### Kisa pri yon aksyon ye
+
+Pri yon aksyon se montan aktyèl yo achte e vann yon aksyon sou mache a – pri dènye achtè a ak dènye vandè a te dakò a.
+
+### Mekanis debaz la
+
+Nan fon, pri yon aksyon chanje dapre lòf ak demann: lè gen plis achtè pase vandè a yon pri, sa gen tandans pouse pri a monte; lè gen plis vandè pase achtè, sa gen tandans pouse l desann.
+
+### Sa ki chanje lòf ak demann
+
+Nouvèl sou konpayi an li menm (benefis, nouvo pwodui, chanjman nan direksyon), kondisyon ekonomik an jeneral, tandans nan endistri a, ak santiman envestisè yo ka tout chanje kantite moun ki vle achte oswa vann a yon pri – se pou sa pri yo ka chanje menm si anyen pa chanje nan konpayi an li menm.
+
+## Egzanp pratik
+
+Yon konpayi anonse benefis ki pi bon pase sa moun t ap tann. Gen plis envestisè ki vle achte aksyon a pri aktyèl la pase vandè ki dakò vann, sa pouse pri a monte jiskaske yo rive nan yon nouvo ekilib.
+
+## Egzamen pratik
+
+1. Pri yon aksyon depann nan fon de:
+   A. Règ gouvènman fikse
+   B. Lòf ak demann
+   C. Dat yo te fonde konpayi an
+   D. Senbòl aksyon an
+
+2. Vrè oswa fo: Pri yon aksyon ka chanje sèlman si yon bagay chanje nan konpayi an li menm.
+
+3. Ki yon faktè ki ka chanje lòf ak demann pou yon aksyon?
+   A. Nouvèl sou benefis konpayi an
+   B. Senbòl aksyon an
+   C. Dat yo te fonde konpayi an
+   D. Koulè logo konpayi an
+
+## Kle repons yo
+
+1. B
+2. Fo
+3. A
+
+## Repons ak eksplikasyon
+
+### Kesyon 1
+
+Repons kòrèk: B. Lòf ak demann se sa ki detèmine pri yon aksyon nan fon.
+
+### Kesyon 2
+
+Repons kòrèk: Fo. Kondisyon mache a an jeneral ak santiman moun ka fè pri yo chanje san okenn chanjman nan konpayi an.
+
+### Kesyon 3
+
+Repons kòrèk: A. Nouvèl sou benefis se yon rezon kouran ki chanje lòf ak demann.
+
+## Pwen kle yo
+
+- Pri yon aksyon reflete dènye pri yo te dakò pou yon tranzaksyon.
+- Lòf ak demann se sa ki fè pri a chanje nan fon.
+- Nouvèl konpayi, kondisyon ekonomik, ak santiman moun ka tout chanje lòf ak demann.
+
+===== WHITE-L1-008
+TITLE: Kisa kapitalizasyon bousye (market cap) ye?
+SUMMARY: Aprann sa market cap mezire, kijan yo kalkile l, ak poukisa li pa menm bagay ak lajan kach oswa valè total yon konpayi.
+# Kisa kapitalizasyon bousye (market cap) ye?
+
+## Objektif aprantisaj
+
+Lè w fin fè leson sa a, w ap kapab:
+
+- Bay fòmil kapitalizasyon bousye a.
+- Kalkile market cap lè w konnen pri aksyon an ak kantite aksyon ki egziste.
+- Esplike poukisa market cap pa menm bagay ak lajan kach oswa total byen yon konpayi.
+
+## Kontni prensipal
+
+### Fòmil la
+
+Kapitalizasyon bousye = Pri aksyon an × Total aksyon ki egziste. Li reprezante valè mache total tout aksyon yon konpayi ansanm.
+
+### Sa li mezire toutbon
+
+Market cap reflete sa envestisè yo kwè ansanm pwopriyete konpayi an vo kounye a – yon estimasyon mache an tan reyèl, se pa yon chif yo verifye oswa ki fiks.
+
+### Poukisa li pa menm bagay ak lajan kach oswa valè total
+
+Market cap pa menm bagay ak konbyen lajan kach yon konpayi genyen, revni total li, ni menm total byen li. Yon konpayi ka gen yon gwo market cap pandan li gen relativman ti lajan kach sou men l, paske market cap reflete sa envestisè yo atann sou valè nan lavni, se pa yon foto bilan aktyèl la.
+
+## Egzanp pratik
+
+Yon konpayi ki gen 10,000,000 aksyon ki egziste, k ap vann $50 chak, gen yon market cap 10,000,000 × $50 = $500,000,000 – kèlkeswa konbyen vrè lajan kach konpayi an genyen.
+
+## Egzamen pratik
+
+1. Yo kalkile kapitalizasyon bousye konsa:
+   A. Revni total × kantite anplwaye
+   B. Pri aksyon an × total aksyon ki egziste
+   C. Total byen − total dèt
+   D. Benefis anyèl ÷ aksyon ki egziste
+
+2. Vrè oswa fo: Kapitalizasyon bousye se menm bagay ak lajan kach yon konpayi genyen sou men l.
+
+3. Yon konpayi gen 2,000,000 aksyon ki egziste k ap vann $30 chak. Konbyen market cap li ye?
+   A. $6,000
+   B. $60,000
+   C. $6,000,000
+   D. $60,000,000
+
+## Kle repons yo
+
+1. B
+2. Fo
+3. D
+
+## Repons ak eksplikasyon
+
+### Kesyon 1
+
+Repons kòrèk: B. Market cap = pri aksyon × aksyon ki egziste.
+
+### Kesyon 2
+
+Repons kòrèk: Fo. Market cap reflete valè mache, se pa lajan kach li genyen.
+
+### Kesyon 3
+
+Repons kòrèk: D. 2,000,000 × $30 = $60,000,000.
+
+## Pwen kle yo
+
+- Market Cap = Pri aksyon × Total aksyon ki egziste.
+- Li reflete valè mache a bay tout pwopriyete a ansanm.
+- Li pa menm bagay ak lajan kach, revni, oswa total byen yon konpayi.
+
+===== WHITE-L1-009
+TITLE: Kisa yon ETF ye? (Yon panyen, se pa yon sèl aksyon)
+SUMMARY: Aprann kisa yon ETF ye, kijan li diferan de achte yon sèl aksyon, ak poukisa estrikti panyen sa a enpòtan.
+# Kisa yon ETF ye? (Yon panyen, se pa yon sèl aksyon)
+
+## Objektif aprantisaj
+
+Lè w fin fè leson sa a, w ap kapab:
+
+- Bay definisyon yon ETF an mo senp.
+- Esplike kijan li diferan de achte yon sèl aksyon.
+- Esplike yon avantaj pratik estrikti panyen an.
+
+## Kontni prensipal
+
+### Kisa yon ETF ye
+
+Yon ETF (Exchange-Traded Fund) se yon fon ki kenbe yon koleksyon byen (souvan anpil aksyon oswa obligasyon), ak pati yo achte e vann sou labous pandan tout jounen an, menm jan ak yon sèl aksyon.
+
+### Kijan li diferan de yon sèl aksyon
+
+Lè w achte yon aksyon nan yon sèl konpayi, ou ekspoze sèlman a konpayi sa a. Lè w achte yon pati nan yon ETF, ou ekspoze a tout sa ki nan panyen an an menm tan – petèt plizyè dizèn oswa plizyè santèn byen anba l, ak yon sèl acha.
+
+### Yon avantaj pratik estrikti panyen an
+
+Paske yon ETF gaye ekspozisyon an sou anpil byen an menm tan, si youn nan byen ki ladan l pa fè byen, sa gen mwens enpak sou tout ETF la pase si se te sèl byen envestisè a genyen – yon fòm debaz divèsifikasyon, n ap pale de li plis nan yon leson pita.
+
+## Egzanp pratik
+
+Olye l chwazi yon sèl konpayi pou l envesti ladan l, yon envestisè achte yon pati nan yon ETF ki kenbe aksyon 500 konpayi diferan – li gaye ekspozisyon l sou tout 500 yo ak yon sèl acha.
+
+## Egzamen pratik
+
+1. Pi bon fason pou dekri yon ETF se:
+   A. Aksyon yon sèl konpayi
+   B. Yon fon ki kenbe yon koleksyon byen, ou ka achte e vann li tankou yon aksyon
+   C. Yon kalite kont epay
+   D. Yon obligasyon gouvènman
+
+2. Vrè oswa fo: Lè w achte yon pati nan yon ETF, ou ekspoze sèlman a yon sèl konpayi anba l.
+
+3. Ki yon avantaj pratik estrikti panyen yon ETF?
+   A. Li garanti benefis
+   B. Li gaye ekspozisyon an sou anpil byen an menm tan
+   C. Li elimine tout risk envestisman
+   D. Li mande pou w chwazi aksyon youn pa youn
+
+## Kle repons yo
+
+1. B
+2. Fo
+3. B
+
+## Repons ak eksplikasyon
+
+### Kesyon 1
+
+Repons kòrèk: B. Yon ETF se yon fon ki kenbe plizyè byen, ou ka achte e vann li.
+
+### Kesyon 2
+
+Repons kòrèk: Fo. Yon pati ETF anjeneral ba ou ekspozisyon a anpil byen anba l an menm tan.
+
+### Kesyon 3
+
+Repons kòrèk: B. Gaye ekspozisyon an sou anpil byen se avantaj prensipal la.
+
+## Pwen kle yo
+
+- Yon ETF se yon fon ki kenbe yon koleksyon byen, ou ka achte e vann li tankou yon aksyon.
+- Yon sèl pati ETF ka ba ou ekspozisyon a anpil byen an menm tan.
+- Estrikti panyen sa a bay yon fòm debaz divèsifikasyon.
+
+===== WHITE-L1-010
+TITLE: Kisa yon fon mityèl ye, e kijan li diferan de yon ETF?
+SUMMARY: Aprann kisa yon fon mityèl ye, ak diferans pratik prensipal ant fon mityèl ak ETF.
+# Kisa yon fon mityèl ye, e kijan li diferan de yon ETF?
+
+## Objektif aprantisaj
+
+Lè w fin fè leson sa a, w ap kapab:
+
+- Bay definisyon yon fon mityèl an mo senp.
+- Esplike kijan fon mityèl ak ETF sanble.
+- Nonmen omwen yon diferans pratik ant yo.
+
+## Kontni prensipal
+
+### Kisa yon fon mityèl ye
+
+Menm jan ak yon ETF, yon fon mityèl mete lajan anpil envestisè ansanm pou achte yon koleksyon byen. Tou de pataje menm konsèp "panyen" nou te wè nan leson anvan an.
+
+### Kijan yo sanble
+
+Tou de, fon mityèl ak ETF, bay ekspozisyon divèsifye a yon panyen byen ak yon sèl envestisman, epi tou de ka jere yon fason aktif oswa pasif.
+
+### Yon diferans pratik prensipal
+
+Kontrèman ak ETF, ke yo achte e vann pandan tout jounen an sou labous a pri k ap chanje tout tan, yo anjeneral fikse pri pati fon mityèl yo epi yo achte e vann yo yon sèl fwa pa jou, apre mache yo fèmen, dapre valè yo kalkile pou jou sa a.
+
+## Egzanp pratik
+
+Yon envestisè k ap achte yon ETF ka wè pri li chanje chak minit pandan lè mache a ouvri. Yon envestisè k ap achte yon fon mityèl pase lòd li epi li resevwa yon pri yo kalkile nan fen jounen tranzaksyon an, se pa an tan reyèl.
+
+## Egzamen pratik
+
+1. Yon fon mityèl se:
+   A. Aksyon yon sèl konpayi
+   B. Yon fon kote yo mete lajan ansanm pou envesti nan yon koleksyon byen, ki sanble ak yon ETF kòm konsèp
+   C. Yon kalite obligasyon sèlman
+   D. Yon pwogram epay gouvènman
+
+2. Vrè oswa fo: Yo achte e vann pati fon mityèl san rete pandan tout jounen an menm jan ak pati ETF.
+
+3. Ki yon diferans pratik prensipal ant fon mityèl ak ETF?
+   A. Fon mityèl pa ka kenbe aksyon
+   B. Yo anjeneral fikse pri fon mityèl yon fwa pa jou; ETF yo achte e vann pandan tout jounen an
+   C. ETF pa ka divèsifye
+   D. Pa gen okenn vrè diferans
+
+## Kle repons yo
+
+1. B
+2. Fo
+3. B
+
+## Repons ak eksplikasyon
+
+### Kesyon 1
+
+Repons kòrèk: B. Yon fon mityèl mete lajan ansanm nan yon panyen divèsifye, ki sanble ak yon ETF kòm konsèp.
+
+### Kesyon 2
+
+Repons kòrèk: Fo. Yo anjeneral fikse pri fon mityèl yon fwa pa jou, kontrèman ak ETF.
+
+### Kesyon 3
+
+Repons kòrèk: B. Konbyen fwa yo fikse pri a se yon diferans pratik prensipal.
+
+## Pwen kle yo
+
+- Yon fon mityèl mete lajan envestisè yo ansanm nan yon panyen divèsifye, menm jan ak yon ETF.
+- Tou de bay ekspozisyon divèsifye ak yon sèl envestisman.
+- Yo anjeneral fikse pri fon mityèl yon fwa pa jou; ETF yo achte e vann pandan tout jounen an.
+
+===== WHITE-L1-011
+TITLE: Kisa yon endèks ye? (Sa "mache a" vle di toutbon lè moun di l)
+SUMMARY: Aprann kisa yon endèks bousye ye toutbon, ak sa sa vle di lè moun di "mache a monte".
+# Kisa yon endèks ye? (Sa "mache a" vle di toutbon lè moun di l)
+
+## Objektif aprantisaj
+
+Lè w fin fè leson sa a, w ap kapab:
+
+- Bay definisyon yon endèks bousye an mo senp.
+- Esplike sa sa vle di lè yon moun di "mache a monte".
+- Rekonèt ke yon endèks swiv yon gwoup defini, se pa tout bagay literalman.
+
+## Kontni prensipal
+
+### Kisa yon endèks ye
+
+Yon endèks bousye se yon koleksyon aksyon (oswa lòt byen) defini yo swiv ansanm pou reprezante pèfòmans yon pati espesifik nan mache a – se yon zouti pou mezire, se pa yon bagay ou posede dirèkteman.
+
+### Sa "mache a monte" vle di toutbon
+
+Lè moun di "mache a monte jodi a", anjeneral y ap pale de yon endèks espesifik, ke tout moun konnen, ki pran valè – se pa literalman chak aksyon toupatou. Plizyè endèks diferan ka ale nan direksyon diferan menm jou a.
+
+### Yon gwoup defini, se pa tout bagay
+
+Yon endèks swiv yon gwoup konpayi espesifik, defini (yo chwazi yo dapre règ espesifik), se pa tout ekonomi mondyal la. Konprann ki konpayi ki nan yon endèks toutbon enpòtan pou w konprann sa mouvman li reprezante vre.
+
+## Egzanp pratik
+
+Yon tit nan nouvèl ki di "mache a monte 1% jodi a" anjeneral ap pale de yon endèks espesifik ki fèt ak yon gwoup konpayi defini – yon lòt endèks ki swiv yon lòt gwoup konpayi te ka chanje yon lòt jan menm jou a.
+
+## Egzamen pratik
+
+1. Yon endèks bousye se:
+   A. Aksyon yon sèl konpayi
+   B. Yon koleksyon byen defini yo swiv pou reprezante yon pati nan mache a
+   C. Yon kalite kont labank
+   D. Yon rapò ekonomik gouvènman
+
+2. Vrè oswa fo: "Mache a monte" toujou vle di literalman chak aksyon nan mond lan te monte jou sa a.
+
+3. Poukisa li enpòtan pou w konnen ki konpayi ki nan yon endèks toutbon?
+   A. Li pa enpòtan ditou
+   B. Se sa ki detèmine sa mouvman endèks la reprezante toutbon
+   C. Tout endèks gen menm konpayi yo
+   D. Endèks yo pa janm chanje sa ki ladan yo
+
+## Kle repons yo
+
+1. B
+2. Fo
+3. B
+
+## Repons ak eksplikasyon
+
+### Kesyon 1
+
+Repons kòrèk: B. Yon endèks se yon koleksyon defini yo swiv ki reprezante yon pati nan mache a.
+
+### Kesyon 2
+
+Repons kòrèk: Fo. Li vle di yon endèks espesifik, se pa literalman chak aksyon.
+
+### Kesyon 3
+
+Repons kòrèk: B. Konpozisyon an detèmine sa mouvman endèks la reflete toutbon.
+
+## Pwen kle yo
+
+- Yon endèks bousye swiv yon koleksyon byen defini.
+- "Mache a monte" anjeneral vle di yon endèks espesifik, se pa tout bagay.
+- Konprann vrè konpozisyon yon endèks enpòtan pou w entèprete mouvman li.
+
+===== WHITE-L1-012
+TITLE: Kisa yon "expense ratio" ye, e poukisa yon ti pousantaj ta dwe enterese w?
+SUMMARY: Aprann kisa expense ratio yon fon ye, ak poukisa yon pousantaj anyèl ki sanble piti enpòtan avèk tan.
+# Kisa yon "expense ratio" ye, e poukisa yon ti pousantaj ta dwe enterese w?
+
+## Objektif aprantisaj
+
+Lè w fin fè leson sa a, w ap kapab:
+
+- Bay definisyon expense ratio an mo senp.
+- Kalkile apeprè depans anyèl la lè w konnen balans fon an ak expense ratio a.
+- Esplike poukisa ti diferans pousantaj enpòtan avèk tan.
+
+## Kontni prensipal
+
+### Kisa yon expense ratio ye
+
+Yon expense ratio se frè anyèl yon fon (tankou yon ETF oswa yon fon mityèl) pran, an pousantaj sou montan ou envesti a, pou kouvri depans fonksyonman fon an.
+
+### Kalkile depans lan
+
+Yon expense ratio 0.50% sou yon envestisman $10,000 koute apeprè $50 pa ane, yo retire l otomatikman nan rannman fon an – envestisè yo anjeneral pa peye l kòm yon bòdwo apa.
+
+### Poukisa ti pousantaj enpòtan avèk tan
+
+Paske yo pran expense ratio chak ane, menm ti diferans ka grandi anpil sou peryòd ki long. Yon frè 0.10% kont yon frè 1.00% sou menm envestisman an, ou kenbe pandan plizyè deseni, ka fè yon depans total ki diferan anpil, menm si diferans chak ane a sanble piti.
+
+## Egzanp pratik
+
+Yon envestisman $10,000 ak yon expense ratio 1.00% koute apeprè $100 pa ane an frè. Menm envestisman an ak yon expense ratio 0.10% koute apeprè $10 pa ane – yon diferans $90 ki grandi anpil si w kenbe l pandan anpil ane.
+
+## Egzamen pratik
+
+1. Yon expense ratio se:
+   A. Yon frè yon sèl fwa lè w achte
+   B. Yon frè anyèl yo pran an pousantaj sou montan ou envesti
+   C. Yon taks ou dwe sou dividann
+   D. Yon frè yo pran sèlman lè w vann
+
+2. Vrè oswa fo: Diferans nan expense ratio twò piti pou yo enpòtan avèk tan.
+
+3. Yon envestisman $20,000 gen yon expense ratio 0.40%. Apeprè konbyen sa koute pa ane?
+   A. $8
+   B. $40
+   C. $80
+   D. $400
+
+## Kle repons yo
+
+1. B
+2. Fo
+3. C
+
+## Repons ak eksplikasyon
+
+### Kesyon 1
+
+Repons kòrèk: B. Yon expense ratio se yon frè anyèl ki baze sou yon pousantaj.
+
+### Kesyon 2
+
+Repons kòrèk: Fo. Ti diferans chak ane ka grandi anpil sou peryòd ki long.
+
+### Kesyon 3
+
+Repons kòrèk: C. $20,000 × 0.40% = $80.
+
+## Pwen kle yo
+
+- Yon expense ratio se yon frè anyèl, an pousantaj sou byen ou envesti.
+- Yo retire l otomatikman nan rannman fon an, yo pa voye l kòm bòdwo apa.
+- Ti diferans nan expense ratio ka grandi vin depans enpòtan avèk tan.
