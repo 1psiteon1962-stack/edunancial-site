@@ -147,3 +147,105 @@ Kisa vrè modèl pwomosyon ak rekonpans òganizasyon ou di sou sa ki vrèman gen
 ---
 
 *Leson sa a se sèlman pou edikasyon lidèchip jeneral, e li pa konstitye konsèy finansye, envestisman, taks, oswa legal pèsonalize. Konsilte yon pwofesyonèl ki gen lisans anvan w pran desizyon sou konsepsyon òganizasyon.*
+
+===== BLACK-L3-004
+TITLE: Poukisa anbochaj se desizyon ki gen pi gwo efè levye pifò lidè pa envesti ase ladan l
+SUMMARY: Aprann poukisa yon desizyon anbochaj miltipliye pandan plizyè ane alòske li resevwa yon evalyasyon ki mwens rigoure pase anpil acha yo fè yon sèl fwa, e poukisa dekalaj sa a merite korije.
+# BLACK-L3-004: Poukisa anbochaj se desizyon ki gen pi gwo efè levye pifò lidè pa envesti ase ladan l
+
+## Objektif aprantisaj
+Lè w fin fè leson sa a, w ap kapab:
+- Esplike poukisa yon desizyon anbochaj gen yon efè levye ki pi gwo pase nòmal konpare ak anpil lòt desizyon biznis
+- Konekte konsèp sa a ak rigè nan evalyasyon envestisman yo diskite nan tras GOLD ak ORANGE kourikoulòm sa a
+- Esplike poukisa anbochaj souvan resevwa yon evalyasyon ki mwens rigoure pase vrè enjeu li merite
+
+## Kontni prensipal
+
+Yon sèl desizyon anbochaj ka afekte yon biznis pandan plizyè ane — yon bon anbochaj miltipliye valè atravè pwòp travay moun nan ak efè li sou dinamik ekip la; yon move anbochaj miltipliye kou atravè pwòp pèfòmans ki pa bon li, tan jesyon yo pase ap trete l, ak domaj sou moral ekip la pandan pwoblèm lan dire. Men "poukisa" sa fè anbochaj yon desizyon ki gen yon efè levye pi gwo pase nòmal: gen kèk lòt chwa endividyèl yon lidè fè ki gen konbinezon sa a — yon dire ki long ak yon efè ki miltipliye, kit pozitif kit negatif.
+
+Men dekalaj leson sa a mete an limyè, ki konekte ak rigè nan evalyasyon envestisman yo kouvri nan tout tras GOLD ak ORANGE la: anpil biznis aplike yon evalyasyon ki pi rigoure pou yon acha ekipman mwayen oswa yon abònman lojisyèl pase pou yon desizyon anbochaj ki pral koute pi chè anpil pandan tout tan moun nan la e ki miltipliye yon fason yon ekipman pa janm fè. Aplike menm rigè evalyasyon ki ajiste pou risk, ki baze sou prèv, yo kouvri lòt kote nan kourikoulòm sa a espesyalman pou desizyon anbochaj ta trete entèvyou ak verifikasyon referans ak menm serye ak evalye nenpòt lòt gwo angajman kapital.
+
+Kijan rigè pwosesis anbochaj ou kounye a konpare ak rigè ou ta aplike pou yon acha ki gen yon kou total ki sanble? Si anbochaj resevwa mwens egzamen, kisa dekalaj sa a sijere sou fason y ap bay vrè efè levye desizyon an mwens pwa pase li merite?
+
+## Egzanp pratik
+
+[EGZANP ILISTRATIF] Yon biznis fè yon gwo evalyasyon, plizyè apwobasyon, ak yon analiz kou-benefis atantif anvan l achte yon ekipman ki koute yon montan espesifik, alòske pwosesis anbochaj li pou yon pòs kote yo atann moun nan rete plizyè ane e kote kou total konpansasyon an depase anpil acha ekipman sa a enplike yon evalyasyon ki pi lejè anpil, ki mwens estriktire. [SIPOZISYON] Akoz efè levye anbochaj ki pi gwo pase nòmal ak efè li ki miltipliye, dekalaj sa a nan rigè evalyasyon reprezante yon vrè mank envestisman nan desizyon ki vrèman gen plis enjeu finansye total e plis konsekans sou long tèm pase acha ekipman ki te resevwa yon egzamen pi atantif anpil la.
+
+## Egzamen pratik
+
+1. Poukisa yon desizyon anbochaj gen yon efè levye pi gwo pase nòmal konpare ak anpil lòt desizyon biznis?
+2. Kijan leson sa a konekte ak rigè nan evalyasyon envestisman yo diskite nan tras GOLD ak ORANGE la?
+3. Ki dekalaj leson sa a idantifye ant rigè nòmal nan anbochaj ak rigè nòmal nan acha?
+
+## Kle repons yo
+
+1. Paske yon desizyon anbochaj miltipliye pandan plizyè ane, atravè pwòp travay moun nan, efè li sou dinamik ekip la, ak kou pou trete yon moun ki pa koresponn si sa rive — gen kèk lòt desizyon endividyèl ki konbine dire sa a ak efè miltiplikasyon sa a.
+2. Leson sa a soutni ke menm rigè evalyasyon ki ajiste pou risk, ki baze sou prèv, yo aplike pou desizyon envestisman ak maketing lòt kote nan kourikoulòm sa a ta dwe aplike menm jan, oswa plis toujou, pou desizyon anbochaj.
+3. Anpil biznis aplike yon evalyasyon ki pi rigoure pou yon acha ekipman oswa lojisyèl mwayen pase pou yon desizyon anbochaj ki gen yon kou total pi gwo anpil ak konsekans ki pi long.
+
+## Repons ak eksplikasyon
+
+1. Sa a se "poukisa" santral leson an bati sou li.
+2. Sa konekte leson an klèman ak tèm rigè nan evalyasyon yo kouvri lòt kote nan kourikoulòm sa a.
+3. Sa ranfòse dekalaj espesifik, konkrè leson an mete an limyè.
+
+## Pwen kle yo
+- Yon desizyon anbochaj gen yon efè levye pi gwo pase nòmal, ki miltipliye pandan plizyè ane atravè travay moun nan ak efè li sou dinamik ekip la.
+- Menm rigè evalyasyon yo aplike pou gwo acha oswa envestisman lòt kote nan kourikoulòm sa a ta dwe aplike pou desizyon anbochaj.
+- Anpil òganizasyon pa envesti ase nan rigè anbochaj parapò ak vrè enjeu finansye desizyon an, ki miltipliye.
+
+---
+
+*Leson sa a se sèlman pou edikasyon lidèchip jeneral, e li pa konstitye konsèy finansye, envestisman, taks, oswa legal pèsonalize. Konsilte yon pwofesyonèl ki gen lisans anvan w pran desizyon anbochaj.*
+
+===== BLACK-L3-005
+TITLE: Poukisa revoke twò ta koute plis pase revoke twò bonè
+SUMMARY: Aprann poukisa ezitasyon natirèl pou retade yon desizyon revokasyon difisil anjeneral bay yon pi move rezilta pase aji ak detèminasyon yon fwa yon vrè pwoblèm klè.
+# BLACK-L3-005: Poukisa revoke twò ta koute plis pase revoke twò bonè
+
+## Objektif aprantisaj
+Lè w fin fè leson sa a, w ap kapab:
+- Esplike poukisa retade yon desizyon revokasyon difisil anjeneral miltipliye kou total li
+- Konekte konsèp sa a ak tèm penalite pou peye mwens ak kou ki miltipliye yo kouvri lòt kote nan kourikoulòm sa a
+- Esplike poukisa lidè yo gen tandans sistematik pou retade desizyon sa yo pi lontan pase prèv yo anjeneral jistifye
+
+## Kontni prensipal
+
+Leson 1 te etabli ke desizyon sou moun gen pwa finansye, kit yo nonmen sa klèman kit yo pa fè l. Men yon aplikasyon espesifik, komen prensip sa a: yon lidè k ap fè fas ak yon anplwaye ki vrèman pa bay bon pèfòmans souvan retade desizyon revokasyon difisil la, li espere yon amelyorasyon, li evite malèz konvèsasyon an, oswa li senpleman ranvwaye yon travay ki pa agreyab. Men "poukisa" reta sa a anjeneral fè rezilta final la vin pi mal, pa pi bon: pèfòmans ki pa bon an kontinye afekte pwodiksyon ak moral ekip la pandan tout peryòd reta a, fristrasyon lòt manm ekip yo miltipliye plis pwoblèm lan rete vizib san yo pa trete l, e kou tranzisyon final la (jwenn e entegre yon ranplasan) pa diminye lè w tann — li senpleman rive pita, apre plis kou ki akimile.
+
+Sa sanble ak yon modèl yo kouvri lòt kote nan kourikoulòm sa a: retade yon aksyon ki nesesè men ki pa konfòtab anjeneral miltipliye kou final li olye pou l evite l. Yon lidè ki aji ak detèminasyon yon fwa yon evalyasyon jis, serye konfime pwoblèm lan reyèl anjeneral bay yon pi bon rezilta — pou ekip la, e souvan menm pou anplwaye k ap pati a, ki evite yon peryòd ki long kote pèfòmans li ki pa bon vizib ak estrès ki vini avè l — pase yon lidè ki retade san fen pandan l ap espere pwoblèm lan ap rezoud poukont li.
+
+[RÈG ESPESIFIK POU REJYON AN] Ann Ayiti, Kòd Travay la ka mande prevwa, prosedi, ak endamnite espesifik lè w mete fen nan yon kontra travay; règ yo ka chanje — tcheke ak yon avoka nan dwa travay anvan w pran yon desizyon revokasyon.
+
+Èske gen yon desizyon difisil sou pèsonèl w ap retade kounye a? Ki vrè kou reta sa a, ki miltipliye, konpare ak malèz pou w trete l kounye a?
+
+## Egzanp pratik
+
+[EGZANP ILISTRATIF] Yon lidè gen vrè prèv, byen dokimante, ke yon anplwaye espesifik pa satisfè egzijans pòs la, men li retade konvèsasyon revokasyon an pandan plizyè mwa, li espere sitiyasyon an ap amelyore poukont li. [SIPOZISYON] Pandan mwa sa yo, moral ekip la diminye yon fason vizib pandan lòt manm ekip yo ap pran plis travay e yo remake pwoblèm yo pa trete a, e lè revokasyon an finalman rive kanmenm, biznis lan fè fas ak menm kou ranplasman ak entegrasyon li ta fè fas avè l plizyè mwa pi bonè — plis kou moral ak pwodiktivite reta a li menm te akimile, sa ki montre poukisa aksyon detèmine a, yon fwa li vrèman jistifye, anjeneral bay yon pi bon rezilta total pase evite pwoblèm lan pandan lontan.
+
+## Egzamen pratik
+
+1. Poukisa retade yon desizyon revokasyon difisil anjeneral miltipliye kou total li, olye pou l evite l?
+2. Ki kou espesifik ki akimile pandan yon desizyon revokasyon yo retade, dapre leson sa a?
+3. Poukisa yon revokasyon detèmine, yon fwa li vrèman jistifye, ta ka vrèman pi bon pou anplwaye k ap pati a tou?
+
+## Kle repons yo
+
+1. Paske pèfòmans ki pa bon an, fristrasyon ekip la, ak moral k ap diminye kontinye pandan tout peryòd reta a, alòske kou ranplasman final la pa diminye — li senpleman rive pita, ak plis kou ki akimile anplis.
+2. Pèfòmans ki pa bon ki kontinye afekte pwodiksyon ekip la, fristrasyon k ap grandi nan mitan lòt manm ekip yo, ak moral k ap diminye, tout k ap miltipliye anvan kou tranzisyon final la ou pa ka evite.
+3. Paske li evite anplwaye k ap pati a yon peryòd ki long kote pèfòmans li ki pa bon vizib, estrès ki vini avè l, ak dinamik ekip ki pa alèz reta a sèlman fè dire plis.
+
+## Repons ak eksplikasyon
+
+1. Sa a se "poukisa" santral leson an bati sou li.
+2. Sa tcheke si elèv la konprann kou espesifik ki miltipliye leson an idantifye yo.
+3. Sa a se yon nuans enpòtan, ki gen imanite, ki ranfòse ke aksyon detèmine ka chwa ki plis konsidere moun nan, pa sèlman chwa ki pi efikas la.
+
+## Pwen kle yo
+- Retade yon desizyon revokasyon ki vrèman jistifye anjeneral miltipliye kou total li olye pou l evite l.
+- Moral, pwodiktivite, ak fristrasyon ekip la ap diminye pandan tout reta a, alòske kou tranzisyon final la rive kanmenm.
+- Aksyon detèmine, yon fwa yon evalyasyon jis konfime pwoblèm lan reyèl, souvan bay yon pi bon rezilta pou ekip la e menm pou anplwaye k ap pati a.
+
+---
+
+*Leson sa a se sèlman pou edikasyon lidèchip jeneral, e li pa konstitye konsèy legal oswa finansye pèsonalize. Konsilte yon avoka ki gen lisans nan dwa travay anvan w pran desizyon revokasyon.*
