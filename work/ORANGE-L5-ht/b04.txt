@@ -1,0 +1,462 @@
+===== ORANGE-L5-016
+TITLE: Estrateji kanal: vant dirèk, distribitè oswa mache sou entènèt
+SUMMARY: Kanal yo diferan nan maj, kontwòl, done ak risk; kondisyon distribitè ak mache sou entènèt fòme biznis ou, evite konfli ant kanal yo ak twòp depandans sou yon sèl kanal, e posede relasyon kliyan yo souvan ogmante valè biznis la.
+KEYWORDS: estrateji kanal vant, vant dirèk oswa distribitè, vann sou mache entènèt, maj kanal, konfli ant kanal
+# Estrateji kanal: vant dirèk, distribitè oswa mache sou entènèt
+
+## Senaryo ouvèti
+SIPOZISYON/OPINYON (sinaryo ipotetik, sèlman pou objektif ansèyman): Imajine yon gwo blòk komèsyal ki mete toudenkou gwo tarif sou yon pakèt kalite machandiz manifaktire ki enpòte, sa ki fè depans monte pou konpayi ki depann de enpòtasyon sa yo pou pwodiksyon yo.
+Aplike l isit la: Tarif fè depans monte, e yon fabrikan dwe deside ki kanal pou l kenbe. Poze kesyon atravè koulè yo: Ki kanal ki kite plis maj (ORANGE/BLUE)? Kilès ki bay plis kontwòl sou relasyon kliyan ak done (PURPLE)? Kilès ki pote plis risk estòk ak risk peman? Kijan chwa kanal yo afekte valè konpayi an (WHITE)?
+
+## Objektif aprantisaj
+- Konpare pi gwo kanal yo
+- Evalye echanj ant maj, kontwòl, done ak risk
+- Jere konfli ant kanal ak kondisyon kontra yo
+
+## Kontni prensipal
+Yon kanal se chemen yon pwodui pran pou rive jwenn kliyan yo. Chwa kanal la touche prèske chak koulè.
+Pi gwo kanal yo:
+- Dirèk: vann nan pwòp magazen ou, pwòp sit entènèt ou oswa pwòp ekip vant ou. Plis maj ak kontwòl, men se ou ki okipe maketing, livrezon, sèvis kliyan ak risk peman.
+- Distribitè oswa grosis: Yo achte an gwo kantite e yo revann. Mwens maj pou ou, men mwens travay e mwens risk dirèk. Yo ka kontwole relasyon kliyan yo.
+- Detayan: magazen ki vann bay kliyan final yo. Yo ka mande lajan pou pwomosyon, frè pou mete pwodui sou etajè oswa dwa retounen.
+- Mache sou entènèt: gwo platfòm ki bay vizitè ak lojistik. Yo pran frè, yo fikse règ, e yo souvan kontwole done kliyan yo. Chanjman nan règ yo ka frape biznis ou nan yon sèl nwit.
+Kijan koulè yo konekte:
+- BLUE: Maj yo diferan selon kanal. Distribitè ak mache sou entènèt pran yon pati. Delè peman yo diferan tou (detayan yo pafwa peye apre 60 a 90 jou).
+- PURPLE: Kontra distribisyon yo regle teritwa, eksklizivite, règ pri, retou ak fen kontra a (PURPLE-L5-030 nan chemen lalwa). RÈG ESPESIFIK POU REJYON AN: Kèk peyi limite kijan fabrikan ka kontwole pri revann; an Ayiti, pa egzanp, dapre enfòmasyon ki disponib, pa gen yon lwa konkirans ki byen devlope, kidonk kontra distribisyon yo souvan deside règ sou pri revann, men yon konpayi etranje ka toujou sibi lwa pwòp peyi l, kidonk verifye sa ak yon avoka. Kondisyon itilizasyon mache sou entènèt yo ka chanje san mande w.
+- WHITE: Konpayi ki posede relasyon kliyan yo ak done yo souvan gen plis valè pase sa ki depann de yon sèl platfòm.
+- ORANGE: Konfli ant kanal parèt lè yo fè konkirans youn ak lòt, tankou lè yon fabrikan vann dirèkteman nan pri ki pi ba pase pwòp distribitè li.
+- GREEN: RÈG ESPESIFIK POU REJYON AN: Vann dirèkteman nan anpil rejyon ka kreye obligasyon taks sou vant nan chak rejyon.
+SIPOZISYON/OPINYON: Depann de yon sèl kanal, sitou yon platfòm ou pa kontwole, se yon risk konsantrasyon. Anpil biznis pi byen ak yon melanj yo ajiste sou tan.
+
+## Egzanp pratik
+EGZANP ILISTRATIF: Ines fè valiz kwi alamen. Vant li: 50% sou yon gwo mache sou entènèt, 30% nan boutik, 20% sou pwòp sit entènèt li.
+Tarif monte depans kwi li 15%.
+Analiz kanal yo:
+- Mache sou entènèt: Apre frè ak piblisite, li rete ak anviwon 55% nan pri vant lan. Platfòm lan kontwole done kliyan yo. Yon nouvo règ monte frè yo.
+- Detayan: Yo achte nan 50% pri vant lan e yo peye apre 60 jou.
+- Sit entènèt: Apre frè peman ak transpò, li rete ak anviwon 85%, e li posede done kliyan yo, men li dwe peye pwòp maketing li.
+Plan:
+- Deplase maketing nan pwòp sit li, ak imel bay ansyen kliyan (ak bon konsantman, gade PURPLE-L5-036 nan chemen lalwa).
+- Monte pri yo yon ti kras sou mache entènèt la pou pwoteje maj la.
+- Kenbe detayan yo pou vizibilite mak la, men negosye peman nan 30 jou.
+- Pa vann pi ba pase detayan yo sou sit li pou evite konfli ant kanal.
+- Tcheke obligasyon taks sou vant pou vant dirèk. RÈG ESPESIFIK POU REJYON AN.
+Apre yon ane, sit li grandi pou rive 35% nan vant li. SIPOZISYON/OPINYON: Biznis li vin fè plis pwofi e li vin mwens depann de yon platfòm li pa t ka kontwole règ li.
+
+## Egzamen pratik
+**Q1. Kisa yon kanal ye?**
+A) Chemen yon pwodui pran pou rive jwenn kliyan yo
+B) Yon chèn televizyon
+C) Yon kalite taks
+D) Yon antite legal
+**Q2. Ki kanal ki an jeneral bay plis maj ak kontwòl?**
+A) Distribitè
+B) Dirèk
+C) Mache sou entènèt
+D) Grosis
+**Q3. Kisa konfli ant kanal ye?**
+A) Yon pwosè
+B) Yon kesyon taks
+C) Yon reta livrezon
+D) Kanal ki fè konkirans youn ak lòt, tankou vant dirèk ki pi ba pase distribitè yo
+**Q4. Poukisa depann de yon sèl mache sou entènèt ka riske?**
+A) Mache sou entènèt entèdi
+B) Yo peye twò vit
+C) Yo pa gen kliyan
+D) Chanjman nan règ ak frè ka frape biznis ou nan yon sèl nwit, e done kliyan yo ka pa pou ou
+**Q5. Kisa Ines te fè pou diminye depandans li sou platfòm lan?**
+A) Li deplase maketing nan pwòp sit li ak lis imel li
+B) Li sispann vann
+C) Li monte tout pri yo anpil
+D) Li vann bay detayan sèlman
+
+## Kle repons yo
+Q1: A
+Q2: B
+Q3: D
+Q4: D
+Q5: A
+
+## Repons ak eksplikasyon
+**Q1.** Kanal yo konekte pwodui ak achtè.
+**Q2.** Vant dirèk kenbe plis maj men yo mande plis travay.
+**Q3.** Konfli ka domaje relasyon ak patnè yo.
+**Q4.** Depandans sou yon platfòm se yon risk konsantrasyon.
+**Q5.** Bati relasyon dirèk diminye depandans.
+
+## Pwen kle yo
+- Kanal yo diferan nan maj, kontwòl, done ak risk
+- Kondisyon distribitè ak mache sou entènèt fòme biznis ou
+- Evite konfli ant kanal ak twòp depandans sou yon sèl kanal
+- Posede relasyon kliyan souvan ogmante valè biznis la
+
+===== ORANGE-L5-017
+TITLE: Modèl abònman: revni, pèt kliyan ak valè
+SUMMARY: Abònman kreye revni ou ka prevwa lè kliyan yo rete; pèt kliyan se risk prensipal la e ti chanjman nan to a ogmante vit, règ sou renouvèlman otomatik ak anilasyon diferan selon peyi e yo dwe respekte, e kenbe kliyan ak valè, poz ak plan ki pi piti.
+KEYWORDS: modèl biznis abònman, revni ki repete, to pèt kliyan, valè yon biznis abònman, règ renouvèlman otomatik
+# Modèl abònman: revni, pèt kliyan ak valè
+
+## Senaryo ouvèti
+SIPOZISYON/OPINYON (sinaryo ipotetik, sèlman pou objektif ansèyman): Imajine yon bank santral ki monte to enterè referans li fò e plizyè fwa nan kèk mwa sèlman pou goumen kont yon enflasyon k ap monte.
+Aplike l isit la: To k ap monte peze sou bidjè fanmi yo, e konsomatè yo kòmanse anile abònman. Poze kesyon atravè koulè yo: Ki kliyan ki gen plis chans anile, e kijan konpayi an ka kenbe yo (ORANGE)? Èske pratik renouvèlman ak anilasyon yo respekte lalwa (PURPLE)? Kijan plis pèt kliyan afekte pwojeksyon revni ak valè konpayi an (WHITE/BLUE)?
+
+## Objektif aprantisaj
+- Eksplike kijan modèl abònman kreye revni ou ka prevwa
+- Konekte pèt kliyan ak revni, lajan k ap antre ak valè
+- Fè abònman ki respekte règ sou renouvèlman ak anilasyon
+
+## Kontni prensipal
+Biznis abònman fè kliyan yo peye regilyèman (chak mwa oswa chak ane) pou aksè kontinyèl a yon pwodui oswa yon sèvis. Egzanp yo se lojisyèl, manm, kontni ak bwat pwodui.
+Poukisa abònman atiran:
+- Revni ki repete e ou ka prevwa ede planifye (BLUE).
+- Yo ka sèvi kliyan yo pandan yon relasyon long (valè kliyan sou tan nan ORANGE-L5-003).
+- Envestisè yo souvan bay revni ki repete plis valè pase vant yon sèl fwa (WHITE).
+Mezi kle:
+- Revni ki repete chak mwa (MRR): tout revni abònman chak mwa.
+- To pèt kliyan: pousantaj kliyan (oswa revni) yo pèdi nan chak peryòd.
+- Retansyon revni nèt: revni ak kliyan ki deja la nan peryòd sa a konpare ak peryòd anvan an, ansanm ak moun ki monte oswa desann plan.
+Pèt kliyan se risk prensipal la. EGZANP ILISTRATIF: Ak 2% pèt kliyan chak mwa, yon konpayi pèdi anviwon 22% nan kliyan li chak ane. Ak 5% chak mwa, anviwon 46%. Konpayi an dwe jwenn anpil nouvo kliyan jis pou l rete menm gwosè.
+Kijan koulè yo konekte:
+- PURPLE: RÈG ESPESIFIK POU REJYON AN: Anpil peyi regle renouvèlman otomatik e yo mande enfòmasyon klè, konsantman, rapèl anvan renouvèlman ak anilasyon ki fasil. Fè anilasyon an difisil espre ka vyole règ pwoteksyon konsomatè e kraze konfyans; an Ayiti, pa egzanp, dapre enfòmasyon ki disponib, pa gen anpil règ espesifik sou renouvèlman otomatik, men Kòd Sivil la mande konsantman klè pou yon kontra, e kliyan k ap peye ak kat oswa ak lajan mobil ka konteste prelèvman yo pa t otorize, kidonk verifye sa ak yon avoka.
+- GREEN: RÈG ESPESIFIK POU REJYON AN: Fason pou konte revni abònman ki peye davans ak taks sou sèvis dijital yo diferan.
+- WHITE: Valè a souvan depann de kwasans ak retansyon ansanm. Anpil pèt kliyan bese valè a anpil.
+- BLUE: Plan anyèl fè lajan an antre pi bonè (ORANGE-L5-002).
+- BLACK: Retansyon reflete kalite pwodui a ak sèvis kliyan nan tout konpayi an.
+Estrateji pou kenbe kliyan: amelyore jan nouvo kliyan kòmanse, bay valè tout tan, ofri poz oswa plan ki pi piti olye anilasyon sèlman, e koute poukisa kliyan yo ale.
+SIPOZISYON/OPINYON: Kenbe kliyan nan yon fason etik vle di ba yo rezon pou yo rete, pa fè l difisil pou yo ale.
+
+## Egzanp pratik
+EGZANP ILISTRATIF: Sam gen yon aplikasyon fòm fizik ak 10 000 abonnen nan 15 dola pa mwa (MRR: 150 000 dola). Pèt kliyan monte soti 3% pou rive 6% pa mwa paske to yo ap peze sou bidjè yo.
+Ak 6% pèt kliyan, Sam pèdi 600 abonnen chak mwa. Li dwe jwenn 600 jis pou l rete menm jan.
+Repons li:
+- Opsyon poz: Abonnen yo ka mete abònman an sou poz jiska 3 mwa olye yo anile.
+- Plan ki pi piti: yon plan debaz pou 8 dola.
+- Sondaj lè yo kite: Li dekouvri anpil moun anile paske yo te sispann sèvi ak aplikasyon an, pa akoz pri a.
+- Kòmansman: Nouvo itilizatè yo resevwa yon plan 30 jou pou bati yon abitid.
+- Revizyon legal (PURPLE): Avoka li jwenn ke anilasyon an posib sèlman pa telefòn. Nan kèk nan mache li yo, règ yo mande anilasyon sou entènèt si enskripsyon an te fèt sou entènèt. RÈG ESPESIFIK POU REJYON AN. Li ajoute anilasyon ak yon sèl klik ak rapèl anvan renouvèlman.
+Rezilta: Pèt kliyan desann nan 4%. Kèk kliyan pase nan plan ki pi piti a olye yo anile, e yon pati nan revni yo rete. Anilasyon fasil la pa ogmante pèt kliyan; li amelyore kòmantè yo.
+SIPOZISYON/OPINYON: Valè biznis Sam amelyore paske retansyon an amelyore. Koreksyon legal la ak koreksyon maketing yo te travay ansanm.
+
+## Egzamen pratik
+**Q1. Poukisa envestisè yo souvan bay revni ki repete anpil valè?**
+A) Yo taks li mwens
+B) Li pa bezwen kliyan
+C) Li pa janm desann
+D) Li pi fasil pou prevwa pase vant yon sèl fwa
+**Q2. Kisa to pèt kliyan mezire?**
+A) Kwasans revni
+B) Pousantaj kliyan oswa revni yo pèdi nan chak peryòd
+C) Depans maketing
+D) Maj pwofi
+**Q3. Poukisa anpil peyi regle renouvèlman otomatik?**
+A) Pou kanpe abònman
+B) Pou ede biznis kache renouvèlman
+C) Pou monte taks
+D) Pou pwoteje konsomatè ak enfòmasyon, konsantman, rapèl ak anilasyon ki fasil
+**Q4. Kisa sondaj Sam te montre lè kliyan yo kite?**
+A) Pri yo te twò ba
+B) Konkiran yo te pi bon mache
+C) Kliyan yo te renmen aplikasyon an
+D) Anpil kliyan te anile paske yo te sispann sèvi ak aplikasyon an
+**Q5. Dapre leson an, kisa kenbe kliyan nan yon fason etik ye?**
+A) Ba yo rezon pou yo rete, pa fè l difisil pou yo ale
+B) Fè anilasyon an difisil
+C) Kache pri
+D) Mande frè anilasyon
+
+## Kle repons yo
+Q1: D
+Q2: B
+Q3: D
+Q4: D
+Q5: A
+
+## Repons ak eksplikasyon
+**Q1.** Sa ou ka prevwa diminye ensètitid.
+**Q2.** Pèt kliyan montre konbyen vit kliyan yo ale.
+**Q3.** Règ pwoteksyon konsomatè yo diferan. RÈG ESPESIFIK POU REJYON AN.
+**Q4.** Itilizasyon, pa pri a, te lakòz yon gwo pati nan pèt kliyan an.
+**Q5.** Valè, pa obstak, dwe kenbe kliyan yo.
+
+## Pwen kle yo
+- Abònman kreye revni ou ka prevwa lè kliyan yo rete
+- Pèt kliyan se risk prensipal la; ti chanjman nan to a ogmante vit
+- Règ sou renouvèlman otomatik ak anilasyon diferan selon peyi e yo dwe respekte
+- Kenbe kliyan ak valè, poz ak plan ki pi piti
+
+===== ORANGE-L5-018
+TITLE: Risk lè kèk kliyan bay pi fò revni an
+SUMMARY: Konsantrasyon kreye risk pou lajan k ap antre, negosyasyon, peman, finansman ak valè; mezire ki pati nan revni an ki soti nan pi gwo kliyan yo, sèvi ak kontra pou kreye estabilite ak kliyan kle yo, e divèsifye anvan ou bezwen l.
+KEYWORDS: risk konsantrasyon kliyan, depandans sou gwo kliyan, divèsifye kliyan, risk kliyan kle, risk nan valè biznis
+# Risk lè kèk kliyan bay pi fò revni an
+
+## Senaryo ouvèti
+SIPOZISYON/OPINYON (sinaryo ipotetik, sèlman pou objektif ansèyman): Imajine yon enstitisyon finansye ki enpòtan anpil pou sistèm nan ki revele toudenkou yon gwo pèt li te kache, sa ki fè moun pè risk la gaye nan tout sistèm bank lan.
+Aplike l isit la: Pèt yon gwo enstitisyon finansye fòse kliyan biznis li yo ekonomize. Yon founisè fè 60% nan revni li ak youn nan kliyan sa yo. Poze kesyon atravè koulè yo: Kisa k ap pase ak lajan k ap antre si kliyan sa a kòmande mwens (BLUE)? Konbyen fòs founisè a genyen vre nan negosyasyon (ORANGE)? Kijan moun k ap prete lajan ak achtè yo wè depandans sa a (WHITE)? Kisa kontra yo garanti (PURPLE)?
+
+## Objektif aprantisaj
+- Mezire konsantrasyon kliyan
+- Eksplike kijan konsantrasyon afekte fòs nan negosyasyon, finansman ak valè
+- Fè yon plan divèsifikasyon pandan w ap pwoteje kliyan kle yo
+
+## Kontni prensipal
+Konsantrasyon kliyan vle di yon gwo pati nan revni an soti nan kèk kliyan sèlman. Sa ka sanble yon siksè: gwo kliyan pote gwo kòmand. Men li kreye risk serye.
+Risk konsantrasyon:
+- Chòk nan lajan k ap antre: Si yon kliyan enpòtan ale, peye pita oswa kòmande mwens, revni an ka tonbe anpil nan yon sèl nwit.
+- Fòs nan negosyasyon: Gwo kliyan konnen ou depann de yo. Yo ka mande pri pi ba, delè peman pi long oswa kondisyon espesyal.
+- Risk peman: Si yon kliyan enpòtan gen pwoblèm finansye, lajan li dwe w ka difisil pou kolekte.
+- Finansman: Moun k ap prete lajan ka limite kredi oswa mande kondisyon pi sevè pou biznis ki konsantre. RÈG ESPESIFIK POU REJYON AN: Kèk moun k ap prete lajan limite konbyen nan baz garanti a ka soti nan lajan yon sèl kliyan dwe; an Ayiti, pa egzanp, dapre enfòmasyon ki disponib, bank yo souvan mande garanti fizik tankou ipotèk olye pou yo prete sou fakti kliyan, kidonk yon biznis ki depann de yon sèl kliyan ka jwenn mwens kredi, kidonk verifye sa ak bank ou.
+- Valè: Achtè ak envestisè souvan retire yon pati nan valè biznis ki gen anpil konsantrasyon akoz risk la (WHITE).
+Mezire konsantrasyon: Ki pati nan revni an ki soti nan pi gwo kliyan ou? Nan senk pi gwo yo? SIPOZISYON/OPINYON: Anpil achtè vin pridan lè yon sèl kliyan bay plis pase anviwon 20% a 25% nan revni an, byenke mezi yo varye selon endistri a.
+Kijan koulè yo konekte:
+- ORANGE: Divèsifye mande nouvo efò maketing ak vant.
+- BLUE: Rezèv lajan kach yo dwe reflete risk konsantrasyon an.
+- PURPLE: Kontra pi long, angajman acha minimòm ak delè avi anvan fen kontra ka diminye risk ak kliyan kle yo.
+- WHITE: Mwens konsantrasyon an jeneral sipòte yon pi gwo valè.
+- BLACK: Lidè yo dwe balanse bon sèvis pou kliyan kle yo ak envestisman nan kwasans lòt kote.
+Divèsifye pa vle di abandone gwo kliyan yo. Li vle di fè lòt revni grandi pou okenn kliyan pa ka koule biznis la poukont li.
+SIPOZISYON/OPINYON: Pi bon moman pou divèsifye se pandan gwo kliyan an toujou kontan. Divèsifye nan panik apre w fin pèdi l pi difisil anpil.
+
+## Egzanp pratik
+EGZANP ILISTRATIF: Enprimri Elena fè 2 milyon dola revni chak ane. Pi gwo kliyan li, yon bank rejyonal, bay 1.2 milyon dola (60%).
+Senaryo a rive. Bank lan koupe bidjè maketing li e li koupe kòmand yo pa mwatye. Revni Elena tonbe 600 000 dola.
+Moun ki prete l lajan an remake bès la e li diminye liy kredi li, li site konsantrasyon an.
+Plan Elena (li ta renmen te kòmanse l pi bonè):
+- Pwoteje kliyan kle a: Li rankontre bank lan, li ofri yon pake ekonomi, e li negosye yon kontra 12 mwa ak yon acha minimòm.
+- Divèsifye: Li chèche kliyan nan sante ak edikasyon, ki mwens touche pa koupe nan sektè finansye a.
+- Lajan kach: Li bati rezèv pou 6 mwa depans fiks.
+- Kontra (PURPLE): Kontra ak nouvo kliyan yo gen yon delè avi 90 jou anvan fen.
+- Objektif: okenn kliyan pa depase 25% nan twa an.
+Twa an apre, pi gwo kliyan li bay 22% nan revni an. Lè l konsidere vann konpayi an, achtè yo ba li yon pi gwo valè pase sa yo t ap bay anvan.
+SIPOZISYON/OPINYON: Konsantrasyon Elena te sanble yon siksè jiskaske bank lan koupe. Divèsifikasyon an fè biznis li pase soti frajil pou vin solid.
+
+## Egzamen pratik
+**Q1. Kisa konsantrasyon kliyan ye?**
+A) Yon gwo pati nan revni an ki soti nan kèk kliyan
+B) Gen anpil ti kliyan
+C) Konsantre sou maketing
+D) Yon kalite kontra
+**Q2. Kijan konsantrasyon afekte fòs nan negosyasyon?**
+A) Li ogmante fòs ou
+B) Gwo kliyan konnen ou depann de yo e yo ka mande pi bon kondisyon
+C) Li pa gen efè
+D) Li elimine negosyasyon
+**Q3. Poukisa moun k ap prete lajan ka fè kondisyon yo pi sevè pou biznis ki konsantre?**
+A) Yo pa renmen ti biznis
+B) Pèt yon sèl kliyan ta ka diminye revni ak kapasite pou ranbouse anpil
+C) Prete lajan entèdi
+D) Taks yo pi wo
+**Q4. Ki kondisyon kontra ki ka diminye risk konsantrasyon?**
+A) Pa gen kontra
+B) Angajman acha minimòm ak delè avi anvan fen
+C) Akò pawòl sèlman
+D) Delè peman pi kout pou kliyan
+**Q5. Dapre leson an, kilè se pi bon moman pou divèsifye?**
+A) Apre w fin pèdi gwo kliyan an
+B) Pandan gwo kliyan an toujou kontan
+C) Janm
+D) Sèlman nan resesyon
+
+## Kle repons yo
+Q1: A
+Q2: B
+Q3: B
+Q4: B
+Q5: B
+
+## Repons ak eksplikasyon
+**Q1.** Konsantrasyon vle di depandans sou kèk kliyan.
+**Q2.** Depandans fè pozisyon ou vin pi fèb.
+**Q3.** Konsantrasyon ogmante risk pou pa ranbouse.
+**Q4.** Kondisyon kontra ka kreye estabilite.
+**Q5.** Divèsifye davans pi fasil pase nan panik.
+
+## Pwen kle yo
+- Konsantrasyon kreye risk pou lajan k ap antre, negosyasyon, peman, finansman ak valè
+- Mezire ki pati nan revni an ki soti nan pi gwo kliyan yo
+- Sèvi ak kontra pou kreye estabilite ak kliyan kle yo
+- Divèsifye anvan ou bezwen l
+
+===== ORANGE-L5-019
+TITLE: Maketing kontni kòm yon byen ou posede
+SUMMARY: Medya ou posede se ou ki kontwole yo, medya ou lwe se platfòm yo ki kontwole yo; kontni ka tounen yon byen ki dire e ki grandi, pwoteje dwa sou kontni ak lis imel ki bati ak konsantman, e sèvi ak platfòm yo pou rive jwenn moun pandan w ap bati pwòp kanal ou.
+KEYWORDS: kontni kòm byen maketing, medya ou posede, lis imel kòm byen, pwopriyete entelektyèl sou kontni, depandans sou platfòm
+# Maketing kontni kòm yon byen ou posede
+
+## Senaryo ouvèti
+SIPOZISYON/OPINYON (sinaryo ipotetik, sèlman pou objektif ansèyman): Imajine de gwo pisans ekonomik k ap monte kontwòl ekspòtasyon youn kont lòt sou yon kategori konpozan teknoloji avanse yo itilize nan anpil endistri.
+Aplike l isit la: Kontwòl ekspòtasyon ak restriksyon sou platfòm fè yon aplikasyon rezo sosyal popilè vin pa disponib nan kèk mache. Biznis ki te depann de li pèdi odyans yo nan yon sèl nwit. Poze kesyon atravè koulè yo: Èske biznis la te posede odyans li ak kontni li (ORANGE/PURPLE), oswa èske li te lwe yo nan men yon platfòm? Ki valè kontni li posede genyen pou yon achtè (WHITE)? Konbyen sa t ap koute pou rebati (BLUE)?
+
+## Objektif aprantisaj
+- Fè diferans ant medya ou posede, medya ou merite ak medya ou lwe
+- Eksplike kijan kontni tounen yon byen biznis ki dire
+- Pwoteje dwa sou kontni e diminye depandans sou platfòm
+
+## Kontni prensipal
+Ou ka klase kanal maketing yo selon ki moun ki kontwole yo:
+- Medya ou posede: sit entènèt ou, lis imel ou, blog ou, kou ou ak bibliyotèk kontni ou. Se ou ki kontwole yo.
+- Medya ou merite: atik nan laprès, revi ak bouch an bouch. Ou enfliyanse yo, men ou pa kontwole yo.
+- Medya ou lwe (oswa medya ou peye ak medya platfòm): moun ki swiv ou sou rezo sosyal, lis sou mache entènèt ak piblisite peye. Platfòm lan kontwole aksè, règ ak algoritm.
+Maketing kontni kreye materyèl itil (atik, videyo, gid, kou) ki atire e ki enfòme kliyan posib yo. Kontrèman ak yon piblisite ki sispann travay lè w sispann peye, bon kontni ka atire kliyan pandan plizyè ane.
+Kijan kontni tounen yon byen:
+- Li bati konfyans ak otorite sou tan.
+- Li ka atire vizitè nan motè rechèch san rete.
+- Yo ka reyitilize l pou fè kou, liv oswa pwodui ak lisans (PURPLE-L5-030 nan chemen lalwa).
+- Yon lis imel ki bati ak bon konsantman (PURPLE-L5-036) pèmèt ou rive jwenn kliyan yo dirèkteman.
+Kijan koulè yo konekte:
+- PURPLE: Dwa otè an jeneral pwoteje kontni orijinal. Asire w pa akò ekri ke konpayi an kenbe dwa sou kontni anplwaye ak kontraktè kreye (PURPLE-L5-028). Kondisyon itilizasyon platfòm yo ka ba yo gwo dwa sou kontni ou pibliye la.
+- WHITE: Achtè yo souvan bay biznis ki gen pwòp odyans yo ak pwòp bibliyotèk kontni yo plis valè pase sa ki depann de platfòm.
+- BLUE: Kontni koute tan ak lajan anvan li rapòte. Konsistans pi enpòtan pase kantite.
+- ORANGE: Kontni bati relasyon ki fè vant lan pi fasil.
+- GREEN: RÈG ESPESIFIK POU REJYON AN: Depans pou kreye kontni ka konte kòm depans touswit oswa kòm yon byen selon règ yo; an Ayiti, pa egzanp, dapre enfòmasyon ki disponib, depans pou kreye kontni an jeneral ka dedui kòm depans biznis si yo dokimante, men yon gwo envestisman tankou yon sit entènèt ka gen pou amòti sou plizyè ane, kidonk verifye sa ak yon kontab oswa yon konseye fiskal.
+SIPOZISYON/OPINYON: Sèvi ak platfòm ou lwe pou rive jwenn nouvo moun, men mennen yo nan kanal ou posede tankou sit entènèt ou ak lis imel ou, kote relasyon an se pou ou.
+
+## Egzanp pratik
+EGZANP ILISTRATIF: De edikatè finansye chak gen yon gwo odyans.
+Edikatè A: 200 000 moun ki swiv li sou yon sèl platfòm. Pa gen lis imel. Videyo yo egziste sèlman sou platfòm sa a.
+Edikatè B: 50 000 moun ki swiv li sou rezo sosyal, men li te toujou mennen yo sou sit li, kote 30 000 moun enskri nan lis imel li ak konsantman klè. Li pibliye atik sou sit li, li kenbe kopi tout videyo li, e li gen akò ekri ki konfime konpayi li kenbe dwa sou kontni moun ki monte videyo li fè.
+Senaryo a rive: Platfòm lan vin pa disponib nan plizyè nan pi gwo mache li.
+Edikatè A pèdi aksè a pi fò odyans li nan yon sèl nwit. Rebati ap pran plizyè ane.
+Edikatè B pèdi kèk moun ki te swiv li, men lis imel li ak sit li pa touche. Li ekri abonnen li yo, li lanse yon kou ak bibliyotèk kontni li, e li kontinye grandi.
+Lè yon konpayi medya ofri achte biznis Edikatè B pita, li bay lis imel li, bibliyotèk kontni li ak prèv klè dwa li yo anpil valè.
+SIPOZISYON/OPINYON: Edikatè A te bati sou tè li lwe. Edikatè B te bati sou tè li posede.
+
+## Egzamen pratik
+**Q1. Kisa medya ou posede ye?**
+A) Moun ki swiv ou sou rezo sosyal
+B) Kanal ou kontwole, tankou sit entènèt ou ak lis imel ou
+C) Atik nan laprès
+D) Piblisite peye
+**Q2. Poukisa kontni ka kontinye travay apre yo fin kreye l?**
+A) Li gratis
+B) Bon kontni ka atire kliyan pandan plizyè ane, kontrèman ak piblisite ki sispann lè peman an sispann
+C) Lalwa mande sa
+D) Li ranplase pwodui
+**Q3. Poukisa biznis yo ta dwe gen akò ekri ak kontraktè pou kontni?**
+A) Pou asire konpayi an kenbe dwa sou kontni yo kreye
+B) Pou ekonomize taks
+C) Kontraktè yo mande sa
+D) Li amelyore kalite
+**Q4. Kisa ki te rive Edikatè A lè platfòm lan vin pa disponib?**
+A) Li jwenn plis moun ki swiv li
+B) Li pèdi aksè a pi fò odyans li
+C) Anyen pa chanje
+D) Li vann biznis li
+**Q5. Ki estrateji leson an rekòmande pou platfòm ou lwe?**
+A) Evite yo nèt
+B) Peye pou plis moun swiv ou
+C) Sèvi ak platfòm ou lwe sèlman
+D) Sèvi ak yo pou rive jwenn nouvo moun epi mennen yo nan kanal ou posede
+
+## Kle repons yo
+Q1: B
+Q2: B
+Q3: A
+Q4: B
+Q5: D
+
+## Repons ak eksplikasyon
+**Q1.** Medya ou posede anba kontwòl ou.
+**Q2.** Valè kontni ka grandi sou tan.
+**Q3.** Dwa yo dwe pwoteje pa ekri.
+**Q4.** Depandans sou platfòm lan te lakòz yon pèt toudenkou.
+**Q5.** Fè moun ou rive jwenn sou platfòm lwe tounen relasyon ou posede.
+
+## Pwen kle yo
+- Medya ou posede se ou ki kontwole yo; medya ou lwe se platfòm yo ki kontwole yo
+- Kontni ka tounen yon byen ki dire e ki grandi
+- Pwoteje dwa sou kontni ak lis imel ki bati ak konsantman
+- Sèvi ak platfòm yo pou rive jwenn moun, men bati pwòp kanal ou
+
+===== ORANGE-L5-020
+TITLE: Konfòmite nan maketing: afimasyon, temwayaj ak divilgasyon nan pratik
+SUMMARY: Fè lwa sou piblisite tounen yon pwosesis maketing chak jou; fè lis afimasyon yo, ranmase prèv yo e revize divilgasyon yo, jere enfliyansè ak kontra klè ak siveyans, e sonje maketing ki konfòm ka rete trè konvenkan.
+KEYWORDS: pwosesis konfòmite maketing, règ temwayaj, divilgasyon enfliyansè, prèv pou afimasyon, revizyon legal maketing
+# Konfòmite nan maketing: afimasyon, temwayaj ak divilgasyon nan pratik
+
+## Senaryo ouvèti
+SIPOZISYON/OPINYON (sinaryo ipotetik, sèlman pou objektif ansèyman): Imajine yon gwo rejyon ki pwodui enèji ki frape pa yon konfli rejyonal toudenkou, ki koupe yon gwo pati nan kapasite pwodiksyon li nan yon sèl nwit e ki fè pwovizyon enèji nan lemonn vin sere prèske san avètisman.
+Aplike l isit la: Yon kriz enèji kreye demann pou pwodui ki ekonomize enèji, e yon konpayi anboche enfliyansè pou fè pwomosyon pwodui li. Poze kesyon atravè koulè yo: Èske sa enfliyansè yo di egzak e èske gen prèv (PURPLE)? Èske relasyon peye yo divilge? Kijan yon entèvansyon otorite yo ta frape finans ak repitasyon (BLUE/BLACK)? Èske maketing ki konfòm ka toujou konvenk moun (ORANGE)?
+
+## Objektif aprantisaj
+- Bati yon pwosesis konfòmite pratik pou maketing
+- Jere konfòmite enfliyansè ak temwayaj
+- Kenbe maketing konvenkan pandan w ap rete nan limit legal yo
+
+## Kontni prensipal
+PURPLE-L5-035 nan chemen lalwa te eksplike prensip lwa sou piblisite. Leson sa a fè yo tounen yon pwosesis travay ORANGE ekip maketing ka swiv chak jou.
+Yon pwosesis konfòmite pratik:
+1. Lis afimasyon: Fè lis chak afimasyon objektif nan yon kanpay (chif, konparezon, garanti, "pi bon an", "pi rapid", "ekonomize").
+2. Dosye prèv: Pou chak afimasyon, sere prèv yo (rezilta tès, etid, done) anvan kanpay la kòmanse.
+3. Revizyon divilgasyon: Idantifye kondisyon, limit, frè oswa koneksyon enpòtan e asire yo klè e fasil pou wè.
+4. Revizyon temwayaj: Konfime temwayaj yo vre, yo reflete eksperyans onèt, e yo gen kontèks lè rezilta yo pa tipik.
+5. Divilgasyon moun k ap rekòmande: Moun ki peye, ki resevwa kado oswa ki gen lòt koneksyon ak konpayi an dwe divilge relasyon sa a klèman. RÈG ESPESIFIK POU REJYON AN; an Ayiti, pa egzanp, dapre enfòmasyon ki disponib, pa gen règ espesifik sou divilgasyon enfliyansè, men règ jeneral kont piblisite ki twonpe moun ak règ platfòm yo aplike, e anpil nan odyans lan ka nan lòt peyi ki gen règ pi sevè, kidonk verifye sa ak yon avoka.
+6. Gid pou enfliyansè: Enstriksyon ekri sou divilgasyon, afimasyon ki entèdi ak apwobasyon tèks oswa piblikasyon yo.
+7. Apwobasyon ak achiv: Yon apwobasyon final ak kopi kanpay yo sere.
+Kijan koulè yo konekte:
+- PURPLE: Egzijans legal ak responsablite posib.
+- ORANGE: Afimasyon presi ki gen prèv souvan konvenk plis pase egzajerasyon vag.
+- BLUE: Amann, ranbousman ak frè legal peze sou lajan kach la.
+- BLACK: Lidè yo bay ton an. Yon kilti ki rekonpanse afimasyon agresif kreye risk.
+- WHITE: Echèk konfòmite ka bese valè biznis la e montre responsablite pandan verifikasyon apwofondi.
+Risk maketing enfliyansè: Konpayi yo ka responsab pou sa enfliyansè yo peye di sou pwodui yo. RÈG ESPESIFIK POU REJYON AN. Kontra klè ak enfliyansè dwe mande divilgasyon, entèdi afimasyon san prèv, e pèmèt konpayi an mande koreksyon oswa retire piblikasyon.
+SIPOZISYON/OPINYON: Konfòmite mache pi byen lè l bati andedan pwosesis maketing lan, pa ajoute alafen kòm dènye obstak.
+
+## Egzanp pratik
+EGZANP ILISTRATIF: Konpayi Oscar vann tèmostat entelijan. Pandan kriz enèji a, li anboche 10 enfliyansè.
+San pwosesis, premye enfliyansè a pibliye: "Tèmostat sa a koupe fakti m pa mwatye! Tout moun ta dwe genyen youn!" Pa gen divilgasyon ke enfliyansè a te peye, e pa gen prèv pou 50% ekonomi.
+Oscar kanpe kanpay la e li bati yon pwosesis:
+- Lis afimasyon: Afimasyon apwouve a se "Jiska 20% ekonomi sou chofaj nan tès endepandan; rezilta yo depann de kay la ak klima a."
+- Dosye prèv: Rapò laboratwa a sere.
+- Kontra enfliyansè: mande yon divilgasyon klè (tankou "Patenarya peye") nan kòmansman piblikasyon yo, entèdi afimasyon ekonomi san prèv, e mande apwobasyon tèks yo.
+- Temwayaj: Enfliyansè yo ka pataje vrè eksperyans yo, ak yon nòt ki di rezilta yo varye.
+- Siveyans: Yon manm ekip la revize piblikasyon yo nan 24 èdtan e li mande koreksyon si sa nesesè.
+Premye enfliyansè a revize piblikasyon an ak bon divilgasyon ak afimasyon apwouve a. Reyaksyon moun yo rete fò.
+SIPOZISYON/OPINYON: Kanpay ki konfòm lan kontinye vann byen, e konpayi Oscar evite atansyon otorite yo nan yon moman kote y ap siveye afimasyon sou ekonomi enèji de pre.
+
+## Egzamen pratik
+**Q1. Kisa yon lis afimasyon ye?**
+A) Yon lis pwodui
+B) Yon lis tout afimasyon objektif nan yon kanpay
+C) Yon kontaj estòk
+D) Yon lis kliyan
+**Q2. Poukisa prèv yo dwe sere anvan kanpay la kòmanse?**
+A) Se dekorasyon
+B) Li amelyore desen an
+C) Li nesesè sèlman apre plent
+D) Afimasyon yo dwe gen prèv anvan yo fèt
+**Q3. Poukisa enfliyansè yo peye dwe divilge relasyon yo?**
+A) Pou monte frè yo
+B) Odyans lan dwe konnen lè yon rekòmandasyon peye oswa gen koneksyon
+C) Se volontè
+D) Li kache konpayi an
+**Q4. Kisa ki te mal nan piblikasyon premye enfliyansè a?**
+A) Li te twò kout
+B) Li te pibliye twò ta
+C) Li te sèvi ak move koulè
+D) Pa t gen divilgasyon e afimasyon 50% ekonomi an pa t gen prèv
+**Q5. Kijan leson an rekòmande pou bati konfòmite?**
+A) Kòm dènye obstak
+B) Sèlman pou gwo konpayi
+C) Sèlman apre amann
+D) Bati andedan pwosesis maketing lan depi okòmansman
+
+## Kle repons yo
+Q1: B
+Q2: D
+Q3: B
+Q4: D
+Q5: D
+
+## Repons ak eksplikasyon
+**Q1.** Li idantifye afimasyon ki bezwen prèv.
+**Q2.** Prèv yo dwe la anvan afimasyon an.
+**Q3.** Règ divilgasyon pwoteje konsomatè. RÈG ESPESIFIK POU REJYON AN.
+**Q4.** Ni divilgasyon ni prèv pa t la.
+**Q5.** Konfòmite ki bati andedan mache pi byen.
+
+## Pwen kle yo
+- Fè lwa sou piblisite tounen yon pwosesis maketing chak jou
+- Fè lis afimasyon yo, ranmase prèv yo e revize divilgasyon yo
+- Jere enfliyansè ak kontra klè ak siveyans
+- Maketing ki konfòm ka rete trè konvenkan
