@@ -1,0 +1,399 @@
+===== BLUE-L4-001
+TITLE: Analiz ekonomi pa inite: poukisa yon kwasans ki bay pwofi mande maj pozitif pa inite
+SUMMARY: Konprann kisa ekonomi pa inite vle di, poukisa analize pwofi pa kliyan oswa pa inite pi enpòtan pase kwasans revni total sèlman.
+KEYWORDS: ekonomi pa inite, pwofi pa inite, fondamantal biznis, kwasans ki ka grandi
+# Analiz ekonomi pa inite: poukisa yon kwasans ki bay pwofi mande maj pozitif pa inite
+
+## Senaryo pou louvri leson an
+SIPOZISYON/OPINYON (senaryo ipotetik pou objektif ansèyman sèlman): Imajine yon gwo blòk komèsyal ki toudenkou enpoze gwo tarif sou yon kategori jeneral pwodui manifakti yo enpòte, sa ki ogmante kou pou konpayi ki depann de enpòtasyon sa yo kòm matyè premyè. Pandan tarif yo ap ogmante kou matyè premyè nan tout yon endistri, kèk biznis dekouvri pwofi pa inite yo te pi mens pase sa yo te konprann, menm pandan revni total yo te kontinye monte. Leson sa a esplike poukisa gade foto pa inite a, se pa sèlman tandans chif tèt la, se vrè tès yon biznis ki dirab.
+
+## Objektif aprantisaj
+- Esplike kisa ekonomi pa inite vle di.
+- Kalkile yon maj kontribisyon debaz pa inite.
+- Esplike poukisa fè revni grandi ak yon ekonomi pa inite negatif se pa yon kwasans dirab.
+- Aplike panse ekonomi pa inite pou evalye si yon modèl biznis ka grandi e bay pwofi.
+
+## Kontni prensipal
+Ekonomi pa inite (unit economics) refere a revni ak kou dirèk ki asosye ak yon sèl inite pwodui oswa sèvis yon biznis — pa egzanp, yon kliyan, yon abònman, oswa yon atik yo vann — izole de kou fiks jeneral konpayi a. FÈ VERIFYE: blòk debaz la se maj kontribisyon, yo kalkile l kòm revni yon inite mwens kou varyab ki dirèkteman asosye ak pwodui e livre inite sa a, sa ki montre konbyen chak inite anplis yo vann kontribiye pou kouvri kou fiks biznis la e, finalman, pwofi.
+
+Men "poukisa" pèspektiv pa inite sa a pi enpòtan pase kwasans revni total sèlman, sitou lè kou matyè premyè monte yon fason enprevizib tankou nan senaryo tarif pi wo a: yon biznis ka montre yon revni total ki enpresyonan e k ap grandi rapidman alòske an reyalite li ap pèdi plis lajan ak chak inite anplis li vann, si kou varyab pou pwodui chak inite depase revni inite sa a bay. Nan sitiyasyon sa a, kwasans pa rezoud pwoblèm anba a — li fè l pi mal, paske chak nouvo vant ajoute nan pèt la olye deplase biznis la nan direksyon pwofitabilite, yon pyèj yo pafwa rezime kòm "pèdi lajan sou chak inite men rattrape l nan volim", sa ki pa fonksyone an reyalite.
+
+Se poutèt sa yo konsidere yon ekonomi pa inite solid kòm yon kondisyon fondamantal pou yon kwasans ki ka grandi, diferan de pwofitabilite total konpayi a (ki depann tou de kou fiks ak volim total): yon biznis ki gen yon ekonomi pa inite fò e pozitif ka an jeneral rive nan pwofitabilite total tou senpleman lè l grandi ase pou kouvri kou fiks li, alòske yon biznis ki gen yon ekonomi pa inite negatif pa ka rive nan pwofitabilite atravè kwasans sèlman — li dwe korije anvan pwoblèm kou oswa pri pa inite anba a, kèlkeswa jan li finalman vin gwo.
+
+## Egzanp pratik
+EGZANP ILISTRATIF: Yon konpayi vann yon bwat abònman pou $40, ak $45 kou varyab (materyèl, anbalaj, ak livrezon, nouvo tarif sou konpozan enpòte yo gonfle) pou pwodui e livre chak bwat. Chak inite yo vann fè konpayi a pèdi $5, sa ki vle di chak kliyan anplis, kèlkeswa jan kwasans revni ki soti ladan l sanble enpresyonan, fè pèt total konpayi a vin pi gwo, se pa pi piti. Jiskaske konpayi a swa monte pri li, swa refè pwodui a pou diminye kou matyè premyè, swa jwenn yon sous apwovizyònman ki pi bon mache e ki pa gen tarif, yon kwasans agresif nan kantite kliyan ap sèlman akselere pèt lajan kach konpayi a olye deplase l nan direksyon pwofitabilite.
+
+## Egzamen pratik
+**Q1. Kisa ekonomi pa inite mezire?**
+A) Total revni chak ane yon konpayi nan tout pwodui li yo
+B) Revni ak kou dirèk ki asosye ak yon sèl inite yon pwodui oswa sèvis, izole de kou fiks jeneral
+C) Total kantite anplwaye ki nesesè pou fè yon biznis mache
+D) Pri aksyon yon konpayi konpare ak benefis li
+
+**Q2. Kisa maj kontribisyon reprezante?**
+A) Total revni konpayi mwens total depans konpayi
+B) Revni yon inite mwens kou varyab ki dirèkteman asosye ak inite sa a
+C) Total kou fiks yon konpayi pou ane a
+D) Dividann yo peye aksyonè pa aksyon
+
+**Q3. Poukisa yon biznis ki gen yon revni total k ap grandi ka toujou ap deplase pi lwen pwofitabilite?**
+A) Kwasans revni total toujou garanti yon pwofitabilite k ap amelyore
+B) Si kou varyab pou pwodui chak inite depase revni inite sa a bay, chak vant anplis ajoute nan pèt la olye diminye l
+C) Kwasans revni pa gen okenn rapò ak pwofitabilite yon biznis
+D) Kou varyab toujou bese otomatikman pandan revni ap grandi
+
+**Q4. Poukisa yo konsidere yon ekonomi pa inite solid kòm yon kondisyon pou yon kwasans ki ka grandi?**
+A) Yon kwasans ki ka grandi pa mande okenn analiz kou oswa revni pa inite ditou
+B) Yon biznis ki gen yon ekonomi pa inite pozitif ka an jeneral rive nan pwofitabilite total lè l grandi ase pou kouvri kou fiks, alòske kwasans pou kont li pa ka rezoud yon ekonomi pa inite negatif
+C) Ekonomi pa inite enpòtan sèlman pou konpayi ki trè gwo e ki etabli
+D) Kou fiks pa gen okenn enpòtans pou si yon biznis ka grandi e bay pwofi
+
+**Q5. Nan egzanp lan, poukisa jwenn plis kliyan bwat abònman fè sitiyasyon konpayi a vin pi mal olye pi bon?**
+A) Plis kliyan toujou amelyore pozisyon finansye yon konpayi kèlkeswa ekonomi pa inite
+B) Chak bwat yo vann pou $40 koute $45 pou pwodui e livre, kidonk chak kliyan anplis ajoute nan pèt total konpayi a
+C) Kou varyab konpayi a bese pandan yo ajoute plis kliyan
+D) Tarif pa gen okenn efè sou kou pa inite konpayi a
+
+## Kle repons yo
+Q1: B
+Q2: B
+Q3: B
+Q4: B
+Q5: B
+
+## Repons ak eksplikasyon
+**Q1.** Ekonomi pa inite izole foto finansye pa inite a, separe de estrikti kou fiks jeneral biznis la.
+
+**Q2.** Maj kontribisyon izole konbyen chak inite endividyèl kontribiye pou kouvri kou fiks ak pwofi final.
+
+**Q3.** Yon ekonomi pa inite negatif vle di kwasans akimile pèt yo olye rezoud yo, paske chak inite yo vann pèdi lajan.
+
+**Q4.** Yon ekonomi pa inite pozitif vle di volim pou kont li ka finalman bay pwofitabilite, alòske yon ekonomi pa inite negatif mande korije anvan estrikti kou oswa pri anba a.
+
+**Q5.** Paske chak inite yo vann pèdi $5, ogmante kantite inite yo vann ogmante dirèkteman pèt total konpayi a olye rezoud yo.
+
+## Pwen kle yo
+- Ekonomi pa inite izole revni ak kou yon sèl inite, diferan de estrikti kou fiks jeneral yon biznis.
+- Maj kontribisyon (revni pa inite mwens kou varyab pa inite) montre konbyen chak inite kontribiye pou kou fiks ak pwofi.
+- Fè revni grandi ak yon ekonomi pa inite negatif ogmante pèt olye rezoud pwoblèm pwofitabilite anba a.
+- Yon ekonomi pa inite pozitif se yon kondisyon pou kwasans finalman bay pwofitabilite; yon ekonomi pa inite negatif mande yon koreksyon estriktirèl anvan.
+
+===== BLUE-L4-002
+TITLE: Analiz LTV/CAC: poukisa rapò ant valè kliyan ak kou pou jwenn li enpòtan
+SUMMARY: Konprann kijan konpare valè yon kliyan sou tout dire relasyon li ak kou pou jwenn kliyan an revele si depans kwasans yon biznis vrèman solid.
+KEYWORDS: LTV, CAC, valè kliyan sou tout dire relasyon, kou pou jwenn kliyan, depans kwasans
+# Analiz LTV/CAC: poukisa rapò ant valè kliyan ak kou pou jwenn li enpòtan
+
+## Senaryo pou louvri leson an
+SIPOZISYON/OPINYON (senaryo ipotetik pou objektif ansèyman sèlman): Imajine yon bank santral k ap monte to enterè referans li anpil e plizyè fwa sou yon ti peryòd kèk mwa pou goumen kont yon enflasyon k ap monte. Pandan yon bank santral ap monte to yo e kapital ap vin pi chè, envestisè yo kòmanse egzamine konpayi ki nan faz kwasans byen pi sere sou yon rapò espesifik. Leson sa a esplike poukisa rapò sa a vin tès santral pou konnen si depans kwasans agresif vrèman gen sans finansyèman.
+
+## Objektif aprantisaj
+- Esplike kisa valè yon kliyan sou tout dire relasyon li (LTV) ak kou pou jwenn yon kliyan (CAC) chak mezire.
+- Kalkile yon rapò LTV/CAC debaz.
+- Esplike poukisa yo an jeneral konsidere yon bon rapò LTV/CAC kòm nesesè, men pa ase, pou yon biznis kwasans ki dirab.
+- Esplike poukisa peryòd rekiperasyon an (tan pou rekipere CAC) enpòtan tou, sitou lè kapital chè.
+
+## Kontni prensipal
+Valè yon kliyan sou tout dire relasyon li (customer lifetime value, LTV) estime total pwofi yon biznis atann pou l fè ak yon kliyan sou tout dire relasyon kliyan sa a ak biznis la. Kou pou jwenn yon kliyan (customer acquisition cost, CAC) se total kou vant ak maketing ki nesesè pou jwenn yon nouvo kliyan, an mwayèn. FÈ VERIFYE: konpare de chif sa yo kòm yon rapò (LTV/CAC) se youn nan mezi moun itilize pi plis pou evalye si depans yon biznis pou jwenn kliyan fondamantalman solid — yon referans endistri moun site souvan sijere yon rapò omwen 3:1 kòm yon sib rezonab, menm si se pa pou tout moun, sa ki vle di yo atann yon kliyan pwodui omwen twa fwa sa li koute pou jwenn li.
+
+Men "poukisa" rapò sa a enpòtan anpil konsa, sa ki konekte dirèkteman ak ekonomi pa inite Leson 1 an: yon biznis k ap jwenn kliyan ki gen yon valè sou tout dire relasyon yo ki apèn pi wo, egal, oswa pi ba pase kou pou jwenn yo pa p bati yon biznis dirab e ki ka grandi, kèlkeswa jan kantite kliyan li oswa revni chif tèt li ap grandi vit, sa ki raple menm prensip "kwasans pa korije yon pwoblèm ekonomi pa inite ki kase" leson anvan an. Yon rapò LTV/CAC ki fò sijere chak kliyan yo jwenn se yon vrè envestisman alontèm ki bay pwofi, se pa tou senpleman yon ogmantasyon chè e tanporè nan yon mezi kwasans.
+
+Se poutèt sa peryòd rekiperasyon an (payback period) — tan ki nesesè pou pwofi akimile yon kliyan ranbouse kou pou jwenn li okòmansman — se yon mezi konpayon ki de plizanpli enpòtan pou rapò LTV/CAC la li menm, sitou lè kapital vin pi chè, tankou nan senaryo ogmantasyon to pi wo a: yon biznis ki gen yon bon rapò LTV/CAC an jeneral ka toujou fè fas ak yon vrè defi lajan kach ak finansman si peryòd rekiperasyon an trè long (pa egzanp, plizyè ane), paske biznis la dwe finanse kou pou jwenn kliyan an davans e tann yon tan long pou rekipere l, yon pwopozisyon finansman ki byen pi difisil lè kou prete lajan wo pase lè kapital pa chè e li disponib fasil.
+
+## Egzanp pratik
+EGZANP ILISTRATIF: Yon biznis abònman kalkile yon CAC mwayèn $300 ak yon LTV estime $1,200 pa kliyan, sa ki bay yon bon rapò LTV/CAC 4:1. Sepandan, kliyan mwayèn nan pwodui sèlman $50 pwofi chak mwa, sa ki vle di li pran 6 mwa jis pou rekipere $300 kou pou jwenn li okòmansman an — yon peryòd rekiperasyon ki, pandan yon peryòd kapital chè ak kredi ki mwens disponib, ta ka mete presyon sou pozisyon lajan kach biznis la menm si rapò LTV/CAC anba li a sanble solid finansyèman sou baz tout dire relasyon an.
+
+## Egzamen pratik
+**Q1. Kisa valè yon kliyan sou tout dire relasyon li (LTV) estime?**
+A) Total kou vant ak maketing ki nesesè pou jwenn yon nouvo kliyan
+B) Total pwofi yon biznis atann pou l fè ak yon kliyan sou tout dire relasyon li ak biznis la
+C) Total revni chak ane yon konpayi nan tout kliyan li yo
+D) Kantite ane yon konpayi gen depi li an biznis
+
+**Q2. Kisa kou pou jwenn yon kliyan (CAC) mezire?**
+A) Total pwofi yon kliyan pwodui sou tout dire relasyon li
+B) Total kou vant ak maketing ki nesesè pou jwenn yon nouvo kliyan, an mwayèn
+C) Total kou operasyonèl fiks yon konpayi
+D) Pri yon kliyan peye pou yon sèl inite yon pwodui
+
+**Q3. Poukisa yo an jeneral konsidere yon bon rapò LTV/CAC kòm nesesè men pa ase pou yon biznis kwasans ki dirab?**
+A) Yon bon rapò LTV/CAC garanti yon biznis ap toujou bay pwofi e reyisi
+B) Li konfime jwenn kliyan fondamantalman solid, men ou toujou bezwen konsidere lòt faktè tankou peryòd rekiperasyon ak lajan kach total
+C) Rapò LTV/CAC pa gen okenn rapò ak dirabilite total yon biznis
+D) Yon bon rapò enpòtan sèlman pou biznis ki pa gen okenn kou fiks
+
+**Q4. Poukisa peryòd rekiperasyon an vin yon mezi konpayon ki pi kritik lè kapital chè, tankou nan yon anviwònman ogmantasyon to?**
+A) Peryòd rekiperasyon pa gen okenn rapò ak kou kapital
+B) Yon biznis dwe finanse kou pou jwenn kliyan davans e tann pou rekipere yo, e finanse espas sa a vin pi difisil e pi chè lè kou prete lajan wo
+C) Kapital chè toujou fè peryòd rekiperasyon yon biznis vin pi kout otomatikman
+D) Peryòd rekiperasyon enpòtan sèlman pou biznis ki pa gen okenn depans maketing
+
+**Q5. Nan egzanp lan, poukisa biznis la ta ka fè fas ak yon defi lajan kach malgre bon rapò LTV/CAC 4:1 li a?**
+A) Dapre estanda endistri, yo konsidere yon rapò 4:1 kòm yon move rapò an reyalite
+B) Peryòd rekiperasyon 6 mwa a vle di biznis la dwe finanse kou pou jwenn kliyan an davans e tann pou rekipere l, sa ki pi difisil lè kapital chè e kredi pi sere
+C) Rapò LTV/CAC biznis la pa gen okenn rapò ak okenn defi lajan kach potansyèl
+D) Egzanp lan montre biznis la pa gen okenn kou pou jwenn kliyan ditou
+
+## Kle repons yo
+Q1: B
+Q2: B
+Q3: B
+Q4: B
+Q5: B
+
+## Repons ak eksplikasyon
+**Q1.** LTV estime espesyalman pwofi akimile yo atann yon sèl relasyon kliyan pwodui sou tout dire li.
+
+**Q2.** CAC izole kou mwayèn yo depanse espesyalman pou jwenn yon nouvo kliyan.
+
+**Q3.** Menm si yon rapò fò se yon siyal pozitif enpòtan, li pa garanti pou kont li yon bon moman lajan kach oswa viabilite total biznis la.
+
+**Q4.** Espas tan lajan kach ant depanse pou jwenn kliyan ak rekipere kou sa a atravè pwofi kliyan an vin yon pi gwo defi finansman pandan kou kapital ap monte.
+
+**Q5.** Menm yon rapò alontèm favorab ka kache yon vrè presyon lajan kach nan kout tèm si tan pou rekipere kou inisyal la long, sitou nan mitan kondisyon kapital ki pi sere.
+
+## Pwen kle yo
+- LTV estime total pwofi yon kliyan sou tout dire relasyon li; CAC mezire kou mwayèn pou jwenn yon nouvo kliyan.
+- Rapò LTV/CAC la, ak apeprè 3:1 oswa plis moun site souvan kòm bon, teste si depans pou jwenn kliyan fondamantalman solid.
+- Yon rapò fò nesesè men pa ase; peryòd rekiperasyon an revele yon lòt vrè risk tan lajan kach.
+- Peryòd rekiperasyon ki long vin yon pi gwo defi finansman lè kapital chè, paske ou dwe finanse kou pou jwenn kliyan an davans.
+
+===== BLUE-L4-003
+TITLE: Analiz maj brit kont maj nèt: poukisa de maj diferan rakonte de istwa diferan
+SUMMARY: Konprann distenksyon ant maj brit ak maj nèt, e poukisa ou bezwen tou de pou evalye nèt estrikti kou ak pwofitabilite yon biznis.
+KEYWORDS: maj brit, maj nèt, analiz estrikti kou, kouch pwofitabilite
+# Analiz maj brit kont maj nèt: poukisa de maj diferan rakonte de istwa diferan
+
+## Senaryo pou louvri leson an
+SIPOZISYON/OPINYON (senaryo ipotetik pou objektif ansèyman sèlman): Imajine yon gwo blòk komèsyal ki toudenkou enpoze gwo tarif sou yon kategori jeneral pwodui manifakti yo enpòte, sa ki ogmante kou pou konpayi ki depann de enpòtasyon sa yo kòm matyè premyè. Pandan tarif yo ap ogmante kou dirèk materyèl enpòte pou anpil manifakti, kèk konpayi wè maj brit yo retresi imedyatman, alòske lòt yo rive pwoteje maj nèt yo atravè koupe lòt kote. Leson sa a esplike poukisa swiv tou de maj yo separeman revele plis pase youn nan yo pou kont li.
+
+## Objektif aprantisaj
+- Esplike kisa maj brit mezire ak kijan yo kalkile l.
+- Esplike kisa maj nèt mezire ak kijan li diferan de maj brit.
+- Esplike poukisa yon konpayi ka gen yon bon maj brit men yon maj nèt ki fèb, oswa vis vèsa.
+- Aplike distenksyon sa a pou entèprete kijan yon chòk kou espesifik, tankou yon tarif, ta gen chans afekte chak maj diferan.
+
+## Kontni prensipal
+Maj brit egal (revni mwens kou machandiz vann) divize pa revni, eksprime an pousantaj, sa ki mezire konbyen nan chak dola revni ki rete apre ou fin kouvri sèlman kou dirèk pou pwodui pwodui oswa sèvis yo vann nan (materyèl, travay dirèk, ak lòt kou dirèk ki sanble). Maj nèt egal benefis nèt (revni mwens tout depans, tankou depans operasyonèl, enterè, ak taks) divize pa revni, sa ki mezire konbyen nan chak dola revni ki rete apre ou fin kouvri tout kou biznis la genyen.
+
+Men "poukisa" swiv tou de separeman revele plis pase youn nan maj yo pou kont li, sa ki gen rapò dirèk ak yon chòk kou tankou senaryo tarif pi wo a: yon tarif sou materyèl enpòte ogmante kou machandiz vann dirèkteman, sa ki retresi maj brit imedyatman e mekanikman, paske kou espesifik sa a chita dirèkteman nan kalkil maj brit la. Maj nèt, ki chita "anba" maj brit nan rapò rezilta a, reflete ni menm presyon kou dirèk sa a ni tout lòt bagay k ap pase nan biznis la — depans operasyonèl, kou enterè, to taks — sa ki vle di maj nèt ka bese pou rezon konplètman diferan (depans jeneral k ap monte, plis depans maketing, plis depans enterè sou dèt) ki pa gen anyen pou wè ak kou machandiz yo yo menm.
+
+Se poutèt sa konpare tandans maj brit yon konpayi ak tandans maj nèt li avèk tan ka revele egzakteman ki kote presyon kou oswa efikasite a soti: yon maj brit k ap bese ansanm ak yon maj nèt ki estab sijere konpayi a ap reyisi konpanse kou dirèk k ap monte atravè koupe lòt kote (disiplin depans operasyonèl, pa egzanp), alòske yon maj brit ki estab ansanm ak yon maj nèt k ap bese montre yon pwoblèm kou k ap rive anba liy maj brit la — nan depans jeneral, depans enterè, oswa lòt kote — olye nan kou dirèk pou pwodui pwodui a li menm. Analiz an kouch sa a, ki egzamine maj nan plizyè pwen nan rapò rezilta a, bay yon foto dyagnostik byen pi klè pase gade maj nèt (oswa, pi mal, kwasans revni sèlman) pou kont li.
+
+## Egzanp pratik
+EGZANP ILISTRATIF: Maj brit yon manifakti bese soti 45% rive 38% apre nouvo tarif ogmante kou konpozan enpòte yo, sa ki retresi dirèkteman espas ant revni ak kou machandiz vann. Malgre sa, maj nèt konpayi a rete estab nan 12%, paske direksyon an reyaji lè l diminye depans maketing ki pa obligatwa e li ranvwaye yon ekspansyon izin li te planifye, sa ki konpanse retresisman maj brit la ak disiplin depans operasyonèl — yon modèl ou ka wè sèlman lè w swiv tou de maj yo separeman, paske maj nèt pou kont li pa t ap montre okenn chanjman ki gen sans malgre gwo presyon kou anba a.
+
+## Egzamen pratik
+**Q1. Kisa maj brit mezire?**
+A) Pousantaj revni ki rete apre ou fin kouvri tout depans yon biznis genyen, tankou taks
+B) Pousantaj revni ki rete apre ou fin kouvri sèlman kou dirèk pou pwodui pwodui oswa sèvis yo vann nan
+C) Total dèt yon konpayi konpare ak ekite li
+D) Rannman dividann sou aksyon yon konpayi
+
+**Q2. Kisa maj nèt mezire?**
+A) Pousantaj revni ki rete apre ou fin kouvri sèlman kou pwodiksyon dirèk
+B) Pousantaj revni ki rete apre ou fin kouvri tout depans biznis la genyen, tankou depans operasyonèl, enterè, ak taks
+C) Total kantite inite yon konpayi vann nan yon ane
+D) Total rezèv lajan kach yon konpayi
+
+**Q3. Poukisa yon tarif sou materyèl enpòte ka retresi maj brit dirèkteman e mekanikman?**
+A) Tarif pa gen okenn rapò ak kou machandiz vann yon konpayi
+B) Yon tarif ogmante kou machandiz vann, ki chita dirèkteman nan kalkil maj brit la, sa ki retresi imedyatman espas ant revni ak kou sa a
+C) Tarif afekte sèlman maj nèt yon konpayi, janm maj brit li
+D) Maj brit pa gen okenn rapò ak kou pwodiksyon dirèk yon konpayi
+
+**Q4. Kisa sa sijere si maj brit yon konpayi bese men maj nèt li rete estab?**
+A) Konpayi a gen chans ap konpanse kou dirèk k ap monte atravè koupe oswa efikasite lòt kote, tankou mwens depans operasyonèl
+B) Pwofitabilite total konpayi a te nesesèman vin pi mal anpil
+C) Maj brit ak maj nèt toujou deplase ansanm yon fason pafè
+D) Konpayi a sispann pwodui pwodui li nèt
+
+**Q5. Nan egzanp lan, kijan konpayi a te kenbe yon maj nèt estab malgre yon gwo retresisman maj brit?**
+A) Konpayi a te monte pri li anpil pou konpanse ogmantasyon kou tarif la te lakòz la
+B) Konpayi a te diminye depans maketing ki pa obligatwa e li te ranvwaye yon ekspansyon izin li te planifye, sa ki konpanse presyon sou maj brit la ak disiplin depans operasyonèl
+C) Tarif yo pa t gen okenn vrè efè sou estrikti kou konpayi a
+D) Maj nèt konpayi a te bese anpil ansanm ak maj brit li
+
+## Kle repons yo
+Q1: B
+Q2: B
+Q3: B
+Q4: A
+Q5: B
+
+## Repons ak eksplikasyon
+**Q1.** Maj brit izole rapò ant revni ak kou dirèk pwodiksyon, anvan ou konsidere depans operasyonèl ak lòt kou.
+
+**Q2.** Maj nèt kaptire tout foto pwofitabilite final la apre ou fin konsidere tout kou, se pa sèlman kou pwodiksyon dirèk.
+
+**Q3.** Paske yo kalkile maj brit dirèkteman apati revni ak kou machandiz vann, yon ogmantasyon kou tarif lakòz pase imedyatman nan yon maj brit ki pi ba.
+
+**Q4.** Yon maj nèt ki estab malgre retresisman maj brit montre yon aksyon konpansasyon ki reyisi k ap fèt anba liy maj brit la nan rapò rezilta a.
+
+**Q5.** Diminisyon depans operasyonèl lòt kote nan biznis la te konpanse presyon kou dirèk ki t ap retresi maj brit la, sa ki kenbe maj nèt final la estab.
+
+## Pwen kle yo
+- Maj brit izole revni apre kou pwodiksyon dirèk; maj nèt reflete pwofitabilite apre tout kou, tankou depans jeneral, enterè, ak taks.
+- Yon chòk kou tankou yon tarif sou materyèl retresi maj brit dirèkteman e imedyatman, paske li chita nan kou machandiz vann.
+- Anpil lòt faktè anplis kou pwodiksyon dirèk ka afekte maj nèt, tankou depans jeneral ak kou finansman.
+- Konpare tandans maj brit ak maj nèt ansanm revele ki kote presyon kou oswa efikasite a vrèman soti nan yon biznis.
+
+===== BLUE-L4-004
+TITLE: Analiz pwen ekilib: poukisa kou fiks ak kou varyab detèmine pwen pwofitabilite a
+SUMMARY: Konprann kijan analiz pwen ekilib itilize kou fiks, kou varyab, ak pri pou kalkile volim vant ki nesesè pou yon biznis vin bay pwofi.
+KEYWORDS: analiz pwen ekilib, kou fiks, kou varyab, pwen ekilib
+# Analiz pwen ekilib: poukisa kou fiks ak kou varyab detèmine pwen pwofitabilite a
+
+## Senaryo pou louvri leson an
+SIPOZISYON/OPINYON (senaryo ipotetik pou objektif ansèyman sèlman): Imajine yon bank santral k ap monte to enterè referans li anpil e plizyè fwa sou yon ti peryòd kèk mwa pou goumen kont yon enflasyon k ap monte. Pandan kou prete lajan ap monte anpil, yon pwopriyetè ti biznis k ap finanse nouvo ekipman ak yon prè bezwen konnen egzakteman konbyen inite li dwe vann chak mwa jis pou kouvri peman prè a ak lòt kou fiks. Leson sa a prezante kalkil yo fè egzakteman pou kesyon sa a.
+
+## Objektif aprantisaj
+- Fè diferans ant kou fiks ak kou varyab nan yon biznis.
+- Kalkile pwen ekilib yon biznis an inite.
+- Esplike kijan yon chanjman nan kou fiks, kou varyab, oswa pri afekte pwen ekilib la.
+- Aplike analiz pwen ekilib pou evalye efè yon nouvo kou fiks, tankou yon peman prè.
+
+## Kontni prensipal
+Kou fiks se depans biznis ki rete menm kèlkeswa kantite inite yo vann (tankou lwaye, asirans, e, sitou nan senaryo pi wo a, yon peman prè fiks), alòske kou varyab chanje dirèkteman ak kantite inite yo pwodui oswa vann (tankou materyèl ak travay dirèk pa inite). FÈ VERIFYE: yo kalkile pwen ekilib an inite kòm total kou fiks divize pa maj kontribisyon pa inite (pri pa inite mwens kou varyab pa inite, sa ki raple konsèp ekonomi pa inite Leson 1 an) — kantite inite yon biznis dwe vann pou pwodui ase maj kontribisyon total pou kouvri egzakteman kou fiks li, nan pwen kote biznis la gen zewo pwofi e zewo pèt.
+
+Men "poukisa" kalkil sa a reponn dirèkteman kesyon pwopriyetè biznis nan senaryo pi wo a: pran yon nouvo kou fiks, tankou yon peman prè pou ekipman, ogmante total kou fiks yo, sa ki ogmante mekanikman pwen ekilib la — kounye a biznis la dwe vann plis inite chak mwa pase anvan jis pou rive nan menm liy depa zewo pwofi a, anvan li ka pwodui okenn vrè pwofi. Konprann nouvo pwen ekilib ki pi wo sa a anvan li pran dèt la pèmèt pwopriyetè biznis la evalye yon fason reyalis si volim vant li atann ka travèse ba ki pi wo sa a fasil, olye dekouvri mank lan sèlman apre peman prè yo fin kòmanse.
+
+Se poutèt sa analiz pwen ekilib se yon zouti planifikasyon biznis fondamantal, diferan de ekonomi pa inite mwayèn men ki bati sou menm blòk debaz yo: li pa di yon pwopriyetè biznis si li pral vrèman rive nan yon volim vant done, men li etabli klèman volim espesifik ki nesesè anvan okenn pwofi kòmanse akimile, ak jan pwen sa a sansib a chanjman nan pri, kou varyab, oswa kou fiks — enfòmasyon esansyèl pou evalye nenpòt desizyon, tankou pran nouvo dèt oswa yon nouvo kontra lokasyon, ki chanje baz kou fiks biznis la.
+
+## Egzanp pratik
+EGZANP ILISTRATIF: Yon ti biznis manifakti gen $8,000 kou fiks chak mwa e li vann pwodui li pou $50 pa inite, ak $30 kou varyab pa inite, sa ki bay yon maj kontribisyon $20 pa inite. Pwen ekilib li kounye a se $8,000 / $20 = 400 inite pa mwa. Si pwopriyetè a pran yon nouvo prè ekipman ki ajoute $2,000 chak mwa nan kou fiks (to enterè yo te monte depi li te pran prè a), total kou fiks yo monte rive $10,000, e nouvo pwen ekilib la vin $10,000 / $20 = 500 inite pa mwa — 100 inite anplis biznis la dwe vann kounye a chak mwa jis pou rive nan menm pwen zewo pwofi a ankò.
+
+## Egzamen pratik
+**Q1. Kisa ki fè diferans ant yon kou fiks ak yon kou varyab?**
+A) Kou fiks chanje dirèkteman ak volim vant, alòske kou varyab rete konstan
+B) Kou fiks rete menm kèlkeswa volim vant, alòske kou varyab chanje dirèkteman ak kantite inite yo pwodui oswa vann
+C) Pa gen okenn diferans ki gen sans ant kou fiks ak kou varyab
+D) Kou fiks aplike sèlman pou gwo konpayi, janm pou ti biznis
+
+**Q2. Kijan yo kalkile pwen ekilib an inite?**
+A) Total revni divize pa total kou fiks
+B) Total kou fiks divize pa maj kontribisyon pa inite
+C) Total kou varyab divize pa pri pa inite
+D) Total kou fiks miltipliye pa pri pa inite
+
+**Q3. Poukisa pran yon nouvo kou fiks, tankou yon peman prè, ogmante pwen ekilib yon biznis?**
+A) Nouvo kou fiks pa gen okenn efè sou kalkil pwen ekilib la
+B) Pi gwo total kou fiks mande vann plis inite pou pwodui ase maj kontribisyon pou kouvri yo, sa ki ogmante volim ki nesesè pou rive nan zewo pwofi
+C) Pran nouvo kou fiks toujou bese pwen ekilib la
+D) Pwen ekilib pa gen rapò ak estrikti kou fiks yon biznis
+
+**Q4. Nan egzanp lan, ki nouvo pwen ekilib biznis la apre li te pran prè ekipman an?**
+A) 400 inite pa mwa
+B) 450 inite pa mwa
+C) 500 inite pa mwa
+D) 600 inite pa mwa
+
+**Q5. Poukisa yo konsidere analiz pwen ekilib kòm yon zouti planifikasyon fondamantal, menm si li pa prevwa vrè volim vant nan lavni?**
+A) Analiz pwen ekilib pa vrèman itil pou okenn desizyon planifikasyon biznis
+B) Li etabli klèman volim vant espesifik ki nesesè anvan okenn pwofi akimile, e li montre jan pwen sa a sansib a chanjman nan pri, kou, oswa depans fiks, sa ki se yon kontèks esansyèl anvan ou pran nouvo kou fiks
+C) Analiz pwen ekilib garanti yon biznis ap toujou rive nan pwofitabilite
+D) Pwen ekilib idantik pou chak biznis kèlkeswa estrikti kou
+
+## Kle repons yo
+Q1: B
+Q2: B
+Q3: B
+Q4: C
+Q5: B
+
+## Repons ak eksplikasyon
+**Q1.** Sa se distenksyon fondamantal la: kou fiks pa depann de volim, alòske kou varyab grandi dirèkteman ak volim pwodiksyon oswa vant.
+
+**Q2.** Fòmil sa a detèmine konbyen inite yo dwe vann pou maj kontribisyon total kouvri egzakteman total kou fiks yo.
+
+**Q3.** Paske yo kalkile pwen ekilib lè yo divize kou fiks pa maj kontribisyon pa inite, yon ogmantasyon kou fiks ogmante dirèkteman volim vant ki nesesè.
+
+**Q4.** Ak total kou fiks ki monte rive $10,000 e maj kontribisyon pa inite ki rete $20, nouvo pwen ekilib la se 500 inite pa mwa.
+
+**Q5.** Menm si li pa prevwa vant reyèl, li bay enfòmasyon esansyèl ki gen rapò ak desizyon sou volim ki nesesè pou rive nan pwofitabilite anba diferan sipozisyon kou.
+
+## Pwen kle yo
+- Kou fiks rete konstan kèlkeswa volim vant; kou varyab grandi dirèkteman ak inite yo pwodui oswa vann.
+- Pwen ekilib an inite egal total kou fiks divize pa maj kontribisyon pa inite.
+- Pran yon nouvo kou fiks, tankou yon peman prè, ogmante total kou fiks yo e kidonk ogmante pwen ekilib la.
+- Analiz pwen ekilib pa prevwa vant nan lavni men li etabli klèman volim ki nesesè a ak sansiblite li a chanjman kou ak pri.
+
+===== BLUE-L4-005
+TITLE: Analiz fon woulman: poukisa yon biznis ki bay pwofi ka toujou fin san lajan kach
+SUMMARY: Konprann kisa fon woulman mezire, poukisa li diferan de pwofitabilite, e poukisa yon biznis k ap grandi e ki bay pwofi ka toujou fè fas ak yon mank lajan kach.
+KEYWORDS: fon woulman, jesyon lajan kach, kont a resevwa, kont a peye
+# Analiz fon woulman: poukisa yon biznis ki bay pwofi ka toujou fin san lajan kach
+
+## Senaryo pou louvri leson an
+SIPOZISYON/OPINYON (senaryo ipotetik pou objektif ansèyman sèlman): Imajine yon gwo pwoblèm sante piblik ki kanpe transpò maritim ak manifakti mondyal pou yon peryòd pwolonje, sa ki mele chèn apwovizyònman nan anpil endistri an menm tan. Pandan yon dezòd apwovizyònman jeneral ap lonje tan livrezon ak sik peman nan tout yon endistri, kèk biznis ki vrèman bay pwofi toudenkou jwenn yo pa kapab peye pwòp bòdwo yo alè. Leson sa a esplike mekanis finansye espesifik ki dèyè sitiyasyon ki sanble kontradiktwa sa a.
+
+## Objektif aprantisaj
+- Esplike kisa fon woulman mezire.
+- Esplike sik konvèsyon lajan kach la ak twa prensipal eleman li.
+- Esplike poukisa yon biznis ki bay pwofi ka toujou konnen yon mank lajan kach.
+- Idantifye estrateji yon biznis ka itilize pou jere fon woulman li pi efikasman.
+
+## Kontni prensipal
+Fon woulman (working capital) egal byen kouran (lajan kach, kont a resevwa, ak envantè, pami lòt) mwens obligasyon kouran (kont a peye ak lòt obligasyon kout tèm), sa ki reprezante resous likid kout tèm yon biznis genyen disponib pou finanse operasyon k ap kontinye li. FÈ VERIFYE: yon konsèp ki gen rapò e ki pi espesifik, sik konvèsyon lajan kach (cash conversion cycle), mezire tan li pran yon biznis pou konvèti envestisman li nan envantè ak lòt resous an vrè lajan kach li resevwa nan men kliyan, li konbine jou envantè rete (konbyen tan envantè chita anvan yo vann li), jou pou kolekte vant (konbyen tan li pran pou kolekte lajan kach nan men kliyan apre yon vant), ak jou pou peye founisè (konbyen tan biznis la pran pou peye pwòp founisè li).
+
+Men "poukisa" yon biznis ki vrèman bay pwofi, sou papye, ka toujou fin san lajan kach, sa ki konekte dirèkteman ak sik livrezon ak peman k ap lonje senaryo pi wo a dekri a: pwofi, jan yo rapòte l nan yon rapò rezilta, se yon konsèp kontablite angajman (sonje Leson 42 analiz lajan kach lib chemen WHITE la) ki pa nesesèman aliyen ak vrè moman lajan kach ap antre e soti nan biznis la. Yon biznis ka rapòte yon vrè pwofi sou yon vant alòske yo poko kolekte vrè lajan kach vant sa a (li chita nan kont a resevwa), alòske an menm tan li bezwen peye pwòp founisè li, anplwaye li, ak lòt obligasyon an kach kounye a menm — si espas ant lè lajan kach soti ak lè lajan kach antre lonje twòp, oswa grandi twòp pandan biznis la ap grandi, biznis la ka fè fas ak yon vrè mank lajan kach malgre li bay pwofi sou papye.
+
+Se poutèt sa jere fon woulman se yon disiplin operasyonèl diferan de jere pwofitabilite: estrateji yo gen ladan negosye kondisyon peman ki pi long ak founisè (lonje jou pou peye founisè), kolekte nan men kliyan pi vit (diminye jou pou kolekte vant, pafwa atravè rabè pou peman bonè oswa kondisyon kredi ki pi sevè), ak jere nivo envantè pi efikasman (diminye jou envantè rete) — okenn nan yo pa nesesèman chanje maj pwofi biznis la rapòte, men yo tout afekte dirèkteman si biznis la gen ase vrè lajan kach nan men l pou kontinye fonksyone, sitou pandan yon peryòd dezòd nan tout endistri a nan tan peman ak livrezon nòmal tankou sa yo dekri pi wo a.
+
+## Egzanp pratik
+EGZANP ILISTRATIF: Yon biznis distribisyon k ap grandi e ki vrèman bay pwofi rapòte yon bon maj nèt 15%, men yon dezòd chèn apwovizyònman lonje tan woulman envantè tipik li e li fè plizyè gwo kliyan ranvwaye pwòp peman yo, sa ki lonje anpil sik konvèsyon lajan kach konpayi a. Pandan tan sa a, pwòp founisè konpayi a, ki fè fas ak pwòp presyon lajan kach yo akoz menm dezòd la, kòmanse mande pou yo peye pi vit. Efè konbine a — lajan kach k ap soti pi vit alòske lajan kach k ap antre ap rive pi dousman — kreye yon vrè mank lajan kach ki menase kapasite konpayi a pou peye salè anplwaye yo, malgre pwofitabilite anba li rete fondamantalman solid.
+
+## Egzamen pratik
+**Q1. Kisa fon woulman mezire?**
+A) Total dèt alontèm yon konpayi
+B) Byen kouran mwens obligasyon kouran, sa ki reprezante resous likid kout tèm ki disponib pou finanse operasyon k ap kontinye
+C) Total revni chak ane yon konpayi
+D) Rannman dividann sou aksyon yon konpayi
+
+**Q2. Kisa sik konvèsyon lajan kach la mezire?**
+A) Total maj pwofi yon konpayi pou ane a
+B) Tan li pran yon biznis pou konvèti envestisman nan envantè ak resous an vrè lajan kach li resevwa nan men kliyan
+C) Total kantite anplwaye yon biznis genyen
+D) Pri aksyon yon konpayi konpare ak benefis li
+
+**Q3. Poukisa yon biznis ki vrèman bay pwofi ka toujou konnen yon mank lajan kach?**
+A) Biznis ki bay pwofi pa ka janm konnen okenn mank lajan kach nan okenn sikonstans
+B) Pwofi yo rapòte se yon konsèp kontablite angajman ki pa nesesèman aliyen ak vrè moman lajan kach ap antre e soti, kidonk ka gen bezwen lajan kach anvan yo vrèman kolekte l nan men kliyan
+C) Mank lajan kach rive sèlman nan biznis ki pa bay pwofi
+D) Pwofitabilite ak lajan kach toujou konsèp idantik san okenn distenksyon
+
+**Q4. Kiyès nan sa yo ki yon estrateji pou jere fon woulman pi efikasman san nesesèman chanje maj pwofi yo rapòte?**
+A) Diminye kalite pwodui a pou koupe kou anpil
+B) Negosye kondisyon peman ki pi long ak founisè, kolekte nan men kliyan pi vit, e jere nivo envantè pi efikasman
+C) Monte pri yo anpil kèlkeswa kondisyon mache
+D) Inyore nèt moman lajan kach ap antre e soti
+
+**Q5. Nan egzanp lan, ki konbinezon faktè ki te kreye mank lajan kach konpayi a malgre pwofitabilite anba li?**
+A) Maj pwofi konpayi a te tonbe nan zewo akoz dezòd chèn apwovizyònman an
+B) Sik konvèsyon lajan kach li te lonje pandan woulman envantè te ralanti e kliyan te ranvwaye peman, alòske pwòp founisè li te mande an menm tan pou yo peye pi vit
+C) Konpayi a pa t gen okenn kont a resevwa oswa kont a peye ditou
+D) Dezòd la pa t gen okenn vrè efè sou pozisyon lajan kach konpayi a
+
+## Kle repons yo
+Q1: B
+Q2: B
+Q3: B
+Q4: B
+Q5: B
+
+## Repons ak eksplikasyon
+**Q1.** Fon woulman kaptire espesyalman pozisyon likidite kout tèm ki disponib pou yon biznis, diferan de gwosè total li oswa estrikti finansye alontèm li.
+
+**Q2.** Mezi sa a swiv espesyalman espas tan ant lajan kach k ap soti (pou envantè ak operasyon) ak lajan kach k ap retounen nan men kliyan.
+
+**Q3.** Diferans tan ant rekonesans pwofi ki baze sou angajman ak vrè mouvman lajan kach se rezon prensipal ki fè biznis ki bay pwofi ka toujou fè fas ak pwoblèm likidite.
+
+**Q4.** Estrateji jesyon fon woulman espesifik sa yo afekte dirèkteman moman lajan kach san yo pa nesesèman chanje pwofitabilite anba chak vant.
+
+**Q5.** Ralantisman an menm tan nan lajan kach k ap antre ak akselerasyon nan lajan kach ki dwe soti te kreye presyon fon woulman espesifik senaryo a dekri a.
+
+## Pwen kle yo
+- Fon woulman mezire resous likid kout tèm (byen kouran mwens obligasyon kouran) ki disponib pou finanse operasyon k ap kontinye.
+- Sik konvèsyon lajan kach la swiv konbyen tan li pran pou konvèti envestisman nan envantè an vrè lajan kach yo kolekte nan men kliyan.
+- Yon biznis ki bay pwofi ka toujou fin san lajan kach akoz diferans tan ant pwofi ki baze sou angajman ak vrè mouvman lajan kach.
+- Jere kondisyon peman founisè, vitès koleksyon nan men kliyan, ak nivo envantè ka amelyore fon woulman san nesesèman chanje maj pwofi yo rapòte.
