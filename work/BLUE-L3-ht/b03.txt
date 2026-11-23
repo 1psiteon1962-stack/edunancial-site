@@ -1,0 +1,249 @@
+===== BLUE-L3-011
+TITLE: Poukisa garanti pèsonèl swiv prè ti biznis prèske tout kote
+SUMMARY: Aprann poukisa moun k ap prete prèske toujou mande yon garanti pèsonèl pou yon prè ti biznis, ak poukisa senpleman fòme yon sosyete pa retire egzijans sa a.
+# BLUE-L3-011: Poukisa garanti pèsonèl swiv prè ti biznis prèske tout kote
+
+## Objektif aprantisaj
+Lè w fin fè leson sa a, w ap kapab:
+- Esplike poukisa moun k ap prete souvan mande yon garanti pèsonèl pou prè ti biznis
+- Konekte konsèp sa a ak diskisyon paralèl la nan tras RED kourikoulòm sa a
+- Esplike poukisa fòme yon antite biznis pa retire egzijans sa a otomatikman
+
+## Kontni prensipal
+
+Leson sa a swiv de pre yon konsèp yo kouvri nan tras RED kourikoulòm sa a sou garanti pèsonèl pou prè LLC nan imobilye. Menm lojik debaz la aplike isit la: moun k ap prete ki finanse achte yon ti biznis oswa ki bay yon prè pou operasyon prèske toujou mande yon **garanti pèsonèl** nan men mèt biznis la oswa mèt yo, menm lè prè a teknikman fèt pou yon sosyete oswa yon LLC.
+
+Men "poukisa" egzijans sa a tèlman konsistan pou ti biznis espesyalman: yon biznis yo fèk achte oswa yon ti biznis souvan pa gen yon gwo istwa finansye endepandan oswa gwo byen pa l pou l rasire yon moun k ap prete. Yon garanti pèsonèl pèmèt moun k ap prete a pouswiv mèt la pèsonèlman si biznis la pa peye e li pa ka remèt prè a, sa ki bay moun k ap prete a yon sekirite anplis pi lwen pase istwa finansye limite antite biznis la li menm.
+
+[FÈ VERIFYE] Sa vle di fòme yon sosyete oswa yon LLC pou pwoteksyon kont responsablite, menm si li toujou gen valè pou anpil lòt rezon, pa pwoteje otomatikman byen pèsonèl yon mèt kont yon prè ki gen ladan l espesyalman yon garanti pèsonèl — garanti a kreye yon obligasyon pèsonèl, dirèk, ki separe de pwòp responsablite antite a.
+
+## Egzanp pratik
+
+[EGZANP ILISTRATIF] Yon antreprenè fòme yon LLC espesyalman pou l achte yon ti biznis, li atann estrikti LLC a ap pwoteje byen pèsonèl li kont nenpòt dèt biznis la. Lè l aplike pou finansman pou acha a, moun k ap prete a mande l pou l garanti prè a pèsonèlman, akoz biznis la gen yon istwa endepandan limite anba nouvo pwopriyete l. Si biznis la gen pwoblèm pita e li pa peye prè a, moun k ap prete a ka pouswiv li pèsonèlman dapre garanti a, malgre estrikti LLC a — pwoteksyon kont responsablite li te atann de antite a pa kouvri dèt espesifik sa a li te garanti pèsonèlman.
+
+## Egzamen pratik
+
+1. Poukisa moun k ap prete souvan mande yon garanti pèsonèl pou prè ti biznis?
+2. Èske fòme yon sosyete oswa yon LLC pwoteje otomatikman byen pèsonèl yon mèt kont yon prè ki mande yon garanti pèsonèl? Poukisa wi oswa poukisa non?
+3. Kijan konsèp sa a sanble ak yon diskisyon ki menm jan lòt kote nan kourikoulòm sa a?
+
+## Kle repons yo
+
+1. Paske yon biznis yo fèk achte oswa yon ti biznis souvan pa gen yon gwo istwa finansye endepandan, kidonk garanti a bay moun k ap prete a yon sekirite anplis lè l pèmèt li pouswiv mèt la pèsonèlman si biznis la pa peye.
+2. Non — garanti pèsonèl la kreye yon obligasyon pèsonèl, dirèk, ki separe de pwòp responsablite antite a, sa ki vle di estrikti LLC oswa sosyete a pa pwoteje mèt la kont dèt espesifik sa a li garanti.
+3. Sa sanble de pre ak diskisyon sou garanti pèsonèl pou prè LLC nan imobilye nan tras RED kourikoulòm sa a — menm lojik debaz la (istwa limite antite a, moun k ap prete a k ap diminye risk li) aplike nan tou de kontèks yo.
+
+## Repons ak eksplikasyon
+
+1. Sa a se rezon santral ki esplike poukisa egzijans sa a tèlman konsistan pou ti biznis.
+2. Sa a se yon klarifikasyon enpòtan, moun souvan bliye, sou limit pwoteksyon kont responsablite yon antite bay.
+3. Sa konekte leson an klèman ak yon konsèp paralèl lòt kote nan kourikoulòm nan, sa ki ranfòse aprantisaj ant tras yo.
+
+## Pwen kle yo
+- Moun k ap prete souvan mande yon garanti pèsonèl pou prè ti biznis, akoz istwa endepandan antite a ki souvan limite.
+- Yon garanti pèsonèl kreye yon obligasyon pèsonèl, dirèk, ki separe de pwoteksyon kont responsablite antite a li menm.
+- Sa reflete yon dinamik ki sanble yo kouvri pou prè LLC nan imobilye lòt kote nan kourikoulòm sa a.
+
+---
+
+*Leson sa a se sèlman pou edikasyon finansye jeneral, e li pa konstitye konsèy finansye, envestisman, taks, oswa legal pèsonalize. Konsilte yon pwofesyonèl ki gen lisans anvan ou siyen nenpòt garanti pou yon prè.*
+
+===== BLUE-L3-012
+TITLE: Poukisa bezwen fon woulman pa disparèt jou vant lan fini
+SUMMARY: Aprann poukisa bidjè pou achte yon biznis bezwen gen ladan l lajan pou operasyon k ap kontinye, pa sèlman pri acha a li menm.
+# BLUE-L3-012: Poukisa bezwen fon woulman pa disparèt jou vant lan fini
+
+## Objektif aprantisaj
+Lè w fin fè leson sa a, w ap kapab:
+- Defini fon woulman (working capital) nan yon kontèks biznis
+- Esplike poukisa yon achtè bezwen fon woulman anplis pri acha a li menm
+- Esplike kisa ki ka rive si yo souzestime bezwen fon woulman
+
+## Kontni prensipal
+
+**Fon woulman** (working capital) anjeneral vle di lajan yon biznis bezwen pou kouvri bezwen operasyon nan kout tèm li — pewòl, achte envantè, lwaye, ak lòt depans k ap kontinye — separe de pri yo peye pou achte biznis la li menm.
+
+Men "poukisa" sa fasil pou souzestime: yon achtè ki konsantre sou negosye e finanse pri acha a ka bliye ke biznis la ap toujou bezwen kach pou l fonksyone depi premye jou nouvo pwopriyete a — pewòl pa kanpe pou yon tranzisyon, e founisè yo toujou atann pou yo peye yo dapre kondisyon abityèl yo. Si yon achtè te mete tout finansman li sou pri acha a li menm, san anyen ki rete pou bezwen k ap kontinye sa yo, biznis la ka fè fas ak yon kriz kach touswit apre vant lan fini, menm si acha a li menm te gen yon pri rezonab e li te byen finanse.
+
+[FÈ VERIFYE] Se poutèt sa achtè ki gen eksperyans ak konseye yo anjeneral mete yon rezèv fon woulman espesifik nan plan finansman jeneral acha a, separe de pri a, e poukisa verifikasyon an (Leson 7) souvan gen ladan l yon revizyon atantif sou bezwen ak sik fon woulman tipik biznis la.
+
+## Egzanp pratik
+
+[EGZANP ILISTRATIF] Yon achtè reyisi finanse pri acha $500,000 yon biznis, li konbine yon prè bank, finansman vandè, ak pwòp avans kach li, men li pa mete lòt lajan sou kote pou operasyon k ap kontinye yo. [SIPOZISYON] Nan semèn ki vin touswit apre vant lan fini, biznis la fè fas ak yon bès nòmal nan kach k ap antre selon sezon an pandan pewòl ak peman founisè yo kontinye jan yo konn fè a — san yon rezèv fon woulman nan plan finansman li, achtè a jwenn tèt li ap kouri dèyè kach nan kout tèm prèske touswit apre li fin pran biznis la, malgre li te reyisi fini yon acha ki te gen yon pri jis.
+
+## Egzamen pratik
+
+1. Kisa fon woulman anjeneral vle di nan yon kontèks biznis?
+2. Poukisa plan finansman yon achtè pou yon acha ka echwe menm si pri acha a li menm te negosye yon fason jis e li te byen finanse?
+3. Kisa yon plan finansman pou yon acha ta dwe anjeneral genyen ladan l, anplis pri acha a sèlman?
+
+## Kle repons yo
+
+1. Lajan yon biznis bezwen pou kouvri bezwen operasyon nan kout tèm tankou pewòl, envantè, ak lwaye, separe de yon pri acha.
+2. Paske depans operasyon k ap kontinye yo pa kanpe pandan yon tranzisyon, e si tout finansman ki disponib te ale sou pri acha a sèlman, biznis la ka fè fas ak yon kriz kach touswit apre vant lan fini.
+3. Yon rezèv fon woulman espesifik, separe de pri acha a, ki gen yon gwosè ki baze sou bezwen operasyon k ap kontinye ak sik kach tipik biznis la.
+
+## Repons ak eksplikasyon
+
+1. Sa a se definisyon debaz leson an.
+2. Sa a se avètisman santral leson an bati sou li.
+3. Sa ranfòse etap planifikasyon pratik ki nesesè pou evite senaryo yo dekri a.
+
+## Pwen kle yo
+- Fon woulman kouvri bezwen operasyon nan kout tèm yon biznis, separe de pri yo peye pou achte l.
+- Depans k ap kontinye yo pa kanpe pandan yon tranzisyon, kidonk yon plan finansman ki konsantre sèlman sou pri acha a ka kite yon nouvo mèt san ase kach pou operasyon.
+- Yo ta dwe mete yon rezèv fon woulman espesyal nan plan finansman jeneral acha a depi okòmansman.
+
+---
+
+*Leson sa a se sèlman pou edikasyon finansye jeneral, e li pa konstitye konsèy finansye, envestisman, taks, oswa legal pèsonalize. Tout chif yo se estimasyon pou ilistrasyon, yo pa garanti. Konsilte yon pwofesyonèl ki gen lisans anvan ou planifye bidjè pou achte yon biznis.*
+
+===== BLUE-L3-013
+TITLE: Poukisa flou kach (cash flow) ak benefis se pa menm chif la
+SUMMARY: Aprann poukisa yon biznis ki fè benefis ka toujou tonbe san kach, ak poukisa flou kach ak benefis mezire de bagay ki vrèman diferan.
+# BLUE-L3-013: Poukisa flou kach (cash flow) ak benefis se pa menm chif la
+
+## Objektif aprantisaj
+Lè w fin fè leson sa a, w ap kapab:
+- Esplike diferans ant benefis ak flou kach
+- Esplike poukisa diferans nan moman ant de yo ka kreye yon vrè risk pou biznis la
+- Bay yon egzanp yon kòz komen diferans ant yo
+
+## Kontni prensipal
+
+**Benefis** (oswa revni nèt) se yon mezi kontab ki se revni mwens depans pandan yon peryòd, yo souvan anrejistre l lè yon vant fèt oswa lè yon depans fèt (dapre kontablite ki baze sou angajman), kèlkeswa ki lè egzakteman kach la vrèman chanje men. **Flou kach** (cash flow) mezire vrè mouvman kach k ap antre e k ap soti nan biznis la pandan menm peryòd sa a — yon chif ki vrèman diferan.
+
+Men "poukisa" diferans sa a tèlman enpòtan nan pratik: yon biznis ka fè benefis sou papye — li anrejistre yon vant kòm revni menm moman li fèt la — alòske vrè peman kach pou vant sa a poko rive, petèt paske yo te bay kliyan an 60 jou pou l peye (yon sijè ki konekte ak sik konvèsyon kach Leson 14 la). Pandan tan sa a, biznis la toujou bezwen peye pwòp anplwaye ak founisè li ak vrè kach, dapre pwòp orè pa yo, kèlkeswa si kliyan li yo peye deja.
+
+[FÈ VERIFYE] Diferans sa a se yon kòz prensipal, yo dokimante byen, ki fè ti biznis fè fayit — yon biznis ka montre yon benefis sou rapò revni li pandan l vrèman ap tonbe san vrè kach li bezwen pou l satisfè obligasyon imedya li yo, yon sitiyasyon yo souvan dekri kòm "fè benefis men san kach".
+
+## Egzanp pratik
+
+[EGZANP ILISTRATIF] Yon biznis fini yon gwo pwojè e li anrejistre $100,000 revni ak $70,000 benefis pou mwa a, paske depans li pou pwojè a te $30,000. Sepandan, kliyan an pa oblije peye pandan 60 jou dapre kondisyon kontra yo te dakò a. [SIPOZISYON] Pandan tan sa a, biznis la toujou bezwen peye anplwaye ak founisè li ak kach touswit — si li pa gen ase rezèv kach oswa lòt finansman pou travèse 60 jou sa yo, li ka fè fas ak yon vrè mank kach malgre li montre yon benefis solid, reyèl pou menm peryòd la sou papye.
+
+## Egzamen pratik
+
+1. Ki diferans kle ki genyen ant benefis ak flou kach?
+2. Poukisa yon biznis ki fè benefis ka toujou tonbe nan yon vrè mank kach?
+3. Kisa "fè benefis men san kach" dekri?
+
+## Kle repons yo
+
+1. Benefis se yon mezi kontab ki se revni mwens depans, yo souvan anrejistre l san konte moman egzak peman an; flou kach mezire vrè mouvman kach k ap antre e k ap soti nan biznis la.
+2. Paske yo ka anrejistre revni anvan vrè peman kach la rive (pa egzanp, lè yo bay kliyan yo plis tan pou yo peye), alòske biznis la toujou bezwen peye pwòp obligasyon li ak vrè kach dapre yon lòt orè.
+3. Yon sitiyasyon kote yon biznis montre yon vrè benefis sou rapò revni li men li toujou manke vrè kach li bezwen pou l satisfè obligasyon imedya li yo.
+
+## Repons ak eksplikasyon
+
+1. Sa a se diferans debaz tout leson an bati sou li.
+2. Sa a se mekanis santral ki esplike risk pratik diferans ant benefis ak flou kach.
+3. Sa bay non e ranfòse senaryo espesifik, komen leson an dekri a.
+
+## Pwen kle yo
+- Benefis ak flou kach mezire bagay diferan — benefis se yon chif kontab, flou kach swiv vrè mouvman kach.
+- Diferans nan moman ant lè yo anrejistre revni ak lè yo resevwa vrè peman an ka kreye yon vrè mank kach menm nan yon biznis ki fè benefis.
+- "Fè benefis men san kach" se yon kòz prensipal, yo dokimante byen, ki fè ti biznis fè fayit.
+
+---
+
+*Leson sa a se sèlman pou edikasyon finansye jeneral, e li pa konstitye konsèy finansye, envestisman, taks, oswa legal pèsonalize. Tout chif yo se estimasyon pou ilistrasyon, yo pa garanti. Konsilte yon kontab ki gen lisans pou konsèy ki espesifik pou biznis ou.*
+
+===== BLUE-L3-014
+TITLE: Poukisa sik konvèsyon kach la revele vrè bezwen likidite yon biznis
+SUMMARY: Aprann kisa sik konvèsyon kach la mezire, ak poukisa yon sik ki pi long vle di yon biznis bezwen plis kousen kach pou l fonksyone san danje.
+# BLUE-L3-014: Poukisa sik konvèsyon kach la revele vrè bezwen likidite yon biznis
+
+## Objektif aprantisaj
+Lè w fin fè leson sa a, w ap kapab:
+- Esplike kisa sik konvèsyon kach la mezire
+- Esplike poukisa yon sik ki pi long ogmante bezwen fon woulman yon biznis
+- Konekte konsèp sa a ak diskisyon Leson 13 sou benefis konpare ak flou kach
+
+## Kontni prensipal
+
+**Sik konvèsyon kach la** mezire apeprè konbyen tan sa pran yon biznis pou l fè kach li depanse sou envantè ak operasyon tounen kach li resevwa nan men kliyan — li konbine tan envantè a rete anvan yo vann li, tan sa pran pou resevwa peman nan men kliyan apre yon vant, mwens tan biznis la li menm pran pou l peye pwòp founisè li.
+
+Men "poukisa" longè sik sa a enpòtan dirèkteman, sa ki konekte ak diskisyon Leson 13 sou diferans ant benefis ak flou kach: plis sik sa a long, plis yon biznis bezwen kach nan men l (oswa disponib atravè finansman) pou l travèse diferans ant lè l peye pou envantè ak operasyon ak lè l vrèman resevwa kach nan men kliyan. Yon biznis ki gen yon sik konvèsyon kach ki long bezwen yon pi gwo kousen fon woulman (Leson 12) pase yon biznis ki otreman sanble ki gen yon sik kout, menm si tou de fè menm benefis sou papye.
+
+[FÈ VERIFYE] Biznis yo ka travay aktivman pou yo fè sik konvèsyon kach yo vin pi kout — resevwa peman kliyan pi vit, jere envantè pi efikasman, oswa negosye plis tan pou peye pwòp founisè yo — chak nan sa yo diminye kantite kach ki bloke nan diferans ant depanse ak resevwa.
+
+## Egzanp pratik
+
+[EGZANP ILISTRATIF] Yon biznis vant an detay achte envantè, li kenbe l an mwayèn 60 jou anvan l vann li, epi li resevwa peman nan men kliyan apeprè 30 jou apre chak vant — alòske li peye pwòp founisè li nan 20 jou apre li fin resevwa envantè a. [SIPOZISYON] Sa bay yon sik konvèsyon kach total apeprè 70 jou (60 jou kenbe envantè plis 30 jou pou resevwa peman, mwens 20 jou kondisyon peman founisè yo) — sa ki vle di biznis la bezwen ase kach oswa finansman pou kouvri operasyon li pandan apeprè 70 jou anvan kach ki soti nan yon sik acha envantè vrèman tounen, kèlkeswa jan chak vant sanble fè benefis sou papye.
+
+## Egzamen pratik
+
+1. Kisa sik konvèsyon kach la mezire?
+2. Poukisa yon sik konvèsyon kach ki pi long ogmante bezwen fon woulman yon biznis?
+3. Nonmen yon fason yon biznis ta ka aktivman fè sik konvèsyon kach li vin pi kout.
+
+## Kle repons yo
+
+1. Apeprè konbyen tan sa pran yon biznis pou l fè kach li depanse sou envantè ak operasyon tounen kach li resevwa nan men kliyan.
+2. Paske yon sik ki pi long vle di plis tan — ak plis kach — nesesè pou travèse diferans ant peye pou envantè/operasyon ak vrèman resevwa peman nan men kliyan.
+3. Nenpòt youn nan: resevwa peman kliyan pi vit, jere envantè pi efikasman, oswa negosye plis tan pou peye founisè yo.
+
+## Repons ak eksplikasyon
+
+1. Sa a se definisyon debaz leson an.
+2. Sa a se "poukisa" santral ki konekte longè sik la dirèkteman ak bezwen fon woulman.
+3. Sa ranfòse ke longè sik la pa fiks e yo ka jere l aktivman.
+
+## Pwen kle yo
+- Sik konvèsyon kach la mezire tan ant depanse kach sou envantè/operasyon ak resevwa kach nan men kliyan.
+- Yon sik ki pi long ogmante bezwen fon woulman yon biznis, paske plis kach dwe travèse diferans sa a.
+- Biznis yo ka aktivman fè sik sa a vin pi kout atravè resevwa peman pi vit, jere envantè pi efikasman, oswa pi bon kondisyon peman ak founisè.
+
+---
+
+*Leson sa a se sèlman pou edikasyon finansye jeneral, e li pa konstitye konsèy finansye, envestisman, taks, oswa legal pèsonalize. Tout chif yo se estimasyon pou ilistrasyon, yo pa garanti. Konsilte yon pwofesyonèl ki gen lisans pou konsèy ki espesifik pou biznis ou.*
+
+===== BLUE-L3-015
+TITLE: Poukisa analiz pwen ekilib la se premye vrè tès yon plan biznis
+SUMMARY: Aprann kijan pou kalkile yon pwen ekilib, ak poukisa li souvan se premye tès ki vrèman itil pou wè si yon lide biznis ka vrèman mache.
+# BLUE-L3-015: Poukisa analiz pwen ekilib la se premye vrè tès yon plan biznis
+
+## Objektif aprantisaj
+Lè w fin fè leson sa a, w ap kapab:
+- Esplike diferans ant kou fiks ak kou varyab
+- Kalkile yon pwen ekilib senp
+- Esplike poukisa analiz pwen ekilib la se yon tès bonè ki itil pou yon lide biznis
+
+## Kontni prensipal
+
+**Kou fiks** se depans biznis ki rete prèske menm jan kèlkeswa konbyen yon biznis vann (lwaye, asirans, anplwaye ki gen salè fiks). **Kou varyab** chanje dirèkteman ak kantite vant (materyèl, kou pwodiksyon pa inite). **Pwen ekilib la** se nivo vant kote revni total la egal egzakteman kou total yo (fiks plis varyab) — pwen kote biznis la pa ni fè ni pèdi lajan.
+
+Men "poukisa" kalkil sa a se yon tès rapid, bonè ki itil pou yon lide biznis: li fè yon plan biznis abstrè vin yon kesyon konkrè ou ka reponn — konbyen inite, oswa konbyen revni, biznis sa a vrèman bezwen fè jis pou l kouvri kou li yo, anvan okenn benefis kòmanse? Si chif sa a sanble pa reyalis lè w konsidere vrè gwosè mache a oswa atant vant ki rezonab, se yon siy pou rekonsidere sipozisyon plan an anvan ou envesti yon gwo kapital.
+
+[FÈ VERIFYE] Yo anjeneral kalkile pwen ekilib la an inite kòm kou fiks divize pa diferans ant pri pa inite ak kou varyab pa inite (yo pafwa rele diferans sa a maj kontribisyon pa inite) — yon fòmil ki mare dirèkteman estrikti kou yon biznis ak yon objektif vant espesifik ou ka teste.
+
+## Egzanp pratik
+
+[EGZANP ILISTRATIF] Yon biznis gen $50,000 kou fiks chak ane, li vann pwodui li $25 pa inite, e li gen kou varyab $15 pa inite — yon maj kontribisyon $10 pa inite. Pwen ekilib li se $50,000 divize pa $10, sa vle di 5,000 inite pa ane. [SIPOZISYON] Si rechèch mache reyalis biznis la montre li ka rezonabman vann sèlman 2,000 inite pa ane nan mache li vize a, kalkil pwen ekilib sa a revele yon gwo pwoblèm nan plan an jan li estriktire kounye a, anvan yo angaje okenn kapital — sa ki pouse yo rekonsidere pri a, estrikti kou yo, oswa modèl biznis la an jeneral.
+
+## Egzamen pratik
+
+1. Ki diferans ki genyen ant kou fiks ak kou varyab?
+2. Kijan yo anjeneral kalkile pwen ekilib la an inite?
+3. Poukisa yo konsidere analiz pwen ekilib la kòm yon tès bonè ki itil pou yon plan biznis?
+
+## Kle repons yo
+
+1. Kou fiks rete prèske menm jan kèlkeswa kantite vant; kou varyab chanje dirèkteman selon konbyen yo vann.
+2. Kou fiks divize pa maj kontribisyon pa inite (pri pa inite mwens kou varyab pa inite).
+3. Paske li fè yon plan biznis abstrè vin yon objektif vant konkrè ou ka teste, sa ki montre bonè si sipozisyon plan an reyalis selon vrè mache a anvan yo angaje yon gwo kapital.
+
+## Repons ak eksplikasyon
+
+1. Sa a se diferans debaz nan kou kalkil la depann de li.
+2. Sa a se fòmil espesifik ki nesesè pou fè kalkil la.
+3. Sa a se valè pratik santral leson an — yon verifikasyon reyalite bonè ki pa koute chè.
+
+## Pwen kle yo
+- Kou fiks rete konstan kèlkeswa kantite vant; kou varyab grandi dirèkteman avè l.
+- Pwen ekilib la (kou fiks divize pa maj kontribisyon pa inite) montre nivo vant ki nesesè jis pou kouvri tout kou yo.
+- Analiz pwen ekilib la se yon tès bonè ki itil pou wè si sipozisyon yon plan biznis reyalis anvan yo angaje yon gwo kapital.
+
+---
+
+*Leson sa a se sèlman pou edikasyon finansye jeneral, e li pa konstitye konsèy finansye, envestisman, taks, oswa legal pèsonalize. Tout chif yo se estimasyon pou ilistrasyon, yo pa garanti. Konsilte yon pwofesyonèl ki gen lisans anvan ou pran desizyon sou planifikasyon biznis.*
