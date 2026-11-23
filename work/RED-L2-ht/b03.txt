@@ -1,0 +1,301 @@
+===== RED-L2-008
+TITLE: Ogmante efè lefye: kisa k rive cash flow, rezèv, ak kapasite pou siviv
+SUMMARY: Ogmante efè lefye – mete yon pi piti avans konpare ak pri pwopriyete a – pa ogmante risk sèlman nan abstrè; li chanje chif espesifik chak jou tankou peman ipotèk, cash flow, ak rezèv ou bezwen.
+## RED-L2-008
+### Ogmante efè lefye: kisa k rive cash flow, rezèv, ak kapasite pou siviv
+
+**1. Objektif aprantisaj**
+Nan fen leson sa a, elèv la ap kapab:
+- Esplike kijan ogmante efè lefye sou yon pwopriyete chanje cash flow chak mwa.
+- Dekri poukisa rezèv vin pi enpòtan pandan efè lefye a ap ogmante.
+- Evalye kijan efè lefye afekte kapasite yon envestisè pou siviv yon peryòd inite vid.
+
+**2. Kontni prensipal**
+Sou baz leson anvan an, ogmante efè lefye — mete yon pi piti avans konpare ak pri yon pwopriyete — pa ogmante risk sèlman nan abstrè. Li chanje chif espesifik chak jou: peman ipotèk chak mwa a monte, cash flow ki disponib apre depans yo diminye, e kousen ou bezwen pou siviv yon move mwa vin pi etwat.
+
+Yon pwopriyete ki gen anpil efè lefye ka toujou bay "cash flow" sou papye pandan mwa nòmal yo, men ak mwens maj. Yon sèl lwaye ki pa peye, yon reparasyon ou pa t atann, oswa yon peryòd vid ki pi long pase jan w te panse ka fè yon ti cash flow pozitif vin negatif. Se poutèt sa rezèv — kach ou mete apa espesyalman pou yon pwopriyete, separe de revni lwaye — vin pi enpòtan pandan efè lefye a ap ogmante. Rezèv se kousen ant yon reta tanporè ak yon peman ipotèk ou pa fè.
+
+Kapasite pou siviv se vrè kesyon envestisè Nivo 2 ta dwe poze: se pa "èske sa bay cash flow nan yon bon mwa?" men "èske pwopriyete sa a, ak mwen menm, ka siviv twa move mwa youn dèyè lòt?"
+
+**3. Egzanp pratik**
+De vèsyon menm pwopriyete lwaye $300,000 la: Senaryo A itilize 30% avans, sa ki bay yon peman ipotèk pi ba ak $400/mwa cash flow pozitif. Senaryo B itilize 10% avans, sa ki bay yon peman ipotèk pi wo ak sèlman $75/mwa cash flow pozitif.
+
+Tou de senaryo yo sanble "rantab" sou papye. Men lè yon peryòd vid de mwa frape, pwopriyetè Senaryo A a gen plis kousen nan estrikti a ak pi gwo rezèv konpare ak ti prè ipotèk la. Pwopriyetè Senaryo B a, ak yon maj chak mwa ki pi fèb ak yon peman fiks ki pi gwo, dwe apiye anpil plis sou rezèv — e si rezèv yo fèb, li fè fas a yon vrè risk pou l pa fè yon peman ipotèk.
+
+**4. Egzamen pratik**
+1. Pandan efè lefye ap ogmante, kisa ki anjeneral rive cash flow chak mwa, si tout lòt bagay rete menm jan?
+   a) Li ogmante
+   b) Li diminye
+   c) Li rete egzakteman menm jan
+   d) Li vin pa enpòtan
+
+2. Ki objektif prensipal rezèv?
+   a) Pou peye vakans
+   b) Pou bay yon kousen kont inite vid, reparasyon, oswa twou nan revni
+   c) Pou ogmante avans lan
+   d) Pou pa janm pran yon prè ipotèk
+
+3. Vrè oswa Fo: Yon pwopriyete ki bay cash flow pozitif nan yon mwa nòmal otomatikman pwoteje kont tout risk nan lavni.
+
+4. Ki kesyon kle sou kapasite pou siviv leson sa a rekòmande pou poze?
+   a) Èske sa bay cash flow nan yon bon mwa?
+   b) Èske pwopriyete sa a ka siviv plizyè move mwa youn dèyè lòt?
+   c) Èske se pwopriyete ki pi bon mache ki disponib la?
+   d) Èske mache a ap toujou monte?
+
+**5. Kle repons yo**
+1. b  2. b  3. Fo  4. b
+
+**6. Repons ak eksplikasyon**
+1. Plis efè lefye vle di yon pi gwo prè e anjeneral yon peman ipotèk pi wo, sa ki diminye cash flow.
+2. Rezèv egziste espesyalman pou absòbe depans ou pa t atann oswa twou nan revni san w pa rate obligasyon yo.
+3. Yon ti maj pozitif nan bon mwa ka vin negatif vit pandan yon move peryòd.
+4. Panse Nivo 2 chanje kesyon an soti nan pèfòmans nan pi bon ka pou ale nan kapasite pou siviv nan pi move ka.
+
+**7. Pwen kle yo**
+- Plis efè lefye ogmante peman ipotèk la e li diminye maj cash flow la.
+- Rezèv vin pi enpòtan pandan efè lefye ap ogmante, yo aji tankou yon kousen kont reta.
+- Yon pwopriyete ki sanble rantab nan yon mwa nòmal ka pa siviv plizyè move mwa san rezèv.
+- Vrè kesyon Nivo 2 a se kapasite pou siviv, se pa sèlman rantabilite nan pi bon ka.
+
+===== RED-L2-009
+TITLE: Rezèv ak inite vid: prepare pou pyès ki ka pa bouje a
+SUMMARY: Chak pwopriyete lwaye ap rete vid nan yon moman ant de lokatè – sa nòmal, se pa yon siy echèk; kesyon an se si envestisè a te planifye pou sa.
+## RED-L2-009
+### Rezèv ak inite vid: prepare pou pyès ki ka pa bouje a
+
+**1. Objektif aprantisaj**
+Nan fen leson sa a, elèv la ap kapab:
+- Bay definisyon to inite vid e esplike enpak finansye li.
+- Esplike kijan yo anjeneral detèmine gwosè rezèv konpare ak depans.
+- Dekri kijan inite vid gen enteraksyon ak efè lefye ak cash flow.
+
+**2. Kontni prensipal**
+Chak pwopriyete lwaye ap rete vid nan yon moman ant de lokatè — sa nòmal, se pa yon siy echèk. Kesyon an se si envestisè a te planifye pou sa. To inite vid se pousantaj tan (oswa inite, nan yon pwopriyete ki gen plizyè inite) yon pwopriyete rete san lokatè pandan yon peryòd bay.
+
+Yo anjeneral bati rezèv kòm yon kantite mwa depans fiks — ipotèk, taks, asirans, ak antretyen estime — yo kenbe an kach espesyalman pou pwopriyete a. Yon pratik kouran nan mitan anpil envestisè se vize twa a sis mwa depans an rezèv, menm si bon kantite a depann de pwopriyete a, mache a, ak pòtre finansye jeneral envestisè a, e se pa yon règ inivèsèl fiks.
+
+Inite vid gen enteraksyon dirèk ak efè lefye: yon pwopriyete ki gen anpil efè lefye gen yon pi gwo obligasyon fiks chak mwa, sa vle di yon mwa vid koute plis an dola e li vide rezèv pi vit pase menm peryòd vid la ta fè sou yon pwopriyete ki gen mwens efè lefye.
+
+**3. Egzanp pratik**
+Wanda posede yon pwopriyete lwaye ak yon peman ipotèk, taks, ak asirans $1,600 pa mwa. Li kenbe $9,600 an rezèv — sis mwa peman sa a — mete apa espesyalman pou pwopriyete sa a, separe de ekonomi pèsonèl li.
+
+Lè lokatè l la deplase e inite a rete vid pandan de mwa pandan l ap chèche yon nouvo lokatè, Wanda retire $3,200 nan rezèv pou kouvri ipotèk la pandan twou sa a, san l pa rate yon peman ni touche fon ijans pèsonèl li. Paske li te planifye pou "pyès ki ka pa bouje" sa a, peryòd vid la te yon ti dezagreman, se pa yon kriz.
+
+**4. Egzamen pratik**
+1. Kisa to inite vid ye?
+   a) To enterè sou yon pwopriyete vid
+   b) Pousantaj tan yon pwopriyete rete san lokatè
+   c) Yon kalite asirans
+   d) Yon dediksyon taks
+
+2. Yon objektif rezèv yo site souvan (menm si se pa inivèsèl) se:
+   a) Yon semèn depans
+   b) Twa a sis mwa depans
+   c) Dis ane depans
+   d) Pa janm bezwen rezèv
+
+3. Vrè oswa Fo: Plis efè lefye vle di yon mwa vid koute mwens an dola.
+
+4. Nan egzanp Wanda a, kisa ki te pèmèt li jere peryòd vid la san estrès finansye?
+   a) Li pa t peye ipotèk li
+   b) Li te gen rezèv li te mete davans espesyalman pou pwopriyete a
+   c) Lokatè a te peye lwaye kanmenm
+   d) Li te vann pwopriyete a imedyatman
+
+**5. Kle repons yo**
+1. b  2. b  3. Fo  4. b
+
+**6. Repons ak eksplikasyon**
+1. To inite vid mezire konbyen fwa yon pwopriyete (oswa yon inite) rete san lokatè avèk tan.
+2. Twa a sis mwa depans se yon objektif rezèv yo site souvan, menm si li varye selon sitiyasyon an.
+3. Plis efè lefye anjeneral vle di yon pi gwo peman fiks, kidonk yon peryòd vid koute plis, pa mwens, an dola.
+4. Rezèv Wanda te mete davans espesyalman pou pwopriyete a te absòbe twou a san l pa deranje ipotèk li ni finans pèsonèl li.
+
+**7. Pwen kle yo**
+- Inite vid se yon pati nòmal e atann lè w posede pwopriyete lwaye, se pa yon siy echèk.
+- Yo anjeneral detèmine gwosè rezèv kòm yon kantite mwa depans, souvan twa a sis, selon sikonstans yo.
+- Plis efè lefye ogmante pri an dola yon mwa vid, sa ki fè rezèv vin menm pi enpòtan.
+- Planifye pou inite vid davans fè yon evènman ou ka prevwa tounen yon dezagreman ou ka jere olye yon kriz.
+
+===== RED-L2-010
+TITLE: Jesyon pwopriyete: jere poukont ou kont anboche – kisa ki chanje
+SUMMARY: Posede yon pwopriyete lwaye mande jesyon – jwenn lokatè, kolekte lwaye, okipe reparasyon, ak rezoud pwoblèm – e chwa ant jere poukont ou ak anboche yon pwofesyonèl chanje plizyè pyès an menm tan.
+## RED-L2-010
+### Jesyon pwopriyete: jere poukont ou kont anboche – kisa ki chanje
+
+**1. Objektif aprantisaj**
+Nan fen leson sa a, elèv la ap kapab:
+- Konpare jesyon poukont ou ak jesyon pwopriyete pwofesyonèl.
+- Idantifye sa ki chanje nan pri, tan, ak risk ant de apwòch yo.
+- Esplike kijan gwosè pòtfolyo a ak sikonstans pèsonèl afekte desizyon sa a.
+
+**2. Kontni prensipal**
+Posede yon pwopriyete lwaye mande jesyon: jwenn lokatè, kolekte lwaye, okipe reparasyon, ak rezoud pwoblèm. Yon envestisè ka jere poukont li oswa anboche yon jeran pwopriyete pwofesyonèl, e chwa sa a chanje plizyè pyès an menm tan.
+
+Jere poukont ou ekonomize frè jesyon an — souvan yon pousantaj nan lwaye ou kolekte, nan yon fouchèt envestisè yo ta dwe verifye lokalman — men li koute tan, li mande pou pwopriyetè a disponib (oswa gen yon sistèm) pou ijans, e li mande yon sèten konesans sou lwa pwopriyetè-lokatè, ki varye anpil selon jiridiksyon.
+
+Jesyon pwofesyonèl koute lajan men li ka ekonomize tan, pote konesans sou mache a ak relasyon ak founisè, e bay yon kousen ant pwopriyetè a ak konfli ak lokatè. Li vin gen plis valè pandan pòtfolyo yon envestisè ap grandi pi lwen pase sa l ka jere pèsonèlman, oswa si pwopriyete a lwen kote envestisè a rete.
+
+Okenn chwa pa kòrèk pou tout moun. Yon sèl pwopriyete toupre ka trè fasil pou jere poukont ou; yon pòtfolyo pwopriyete nan plizyè eta anjeneral mande jesyon pwofesyonèl, oswa omwen moun sou plas lokalman.
+
+**3. Egzanp pratik**
+Raj posede yon pwopriyete lwaye a kenz minit de kay li e li renmen okipe kominikasyon ak lokatè a li menm. Li jere poukont li, li ekonomize frè jesyon an, e li bati yon ti rezo lokal kontraktè ki fyab pou reparasyon.
+
+Pandan Raj ap grandi pou rive senk pwopriyete nan de eta pandan plizyè ane, kalkil la chanje. Li pa ka ankò tcheke lokatè pèsonèlman, kowòdone reparasyon, e reponn apèl ijans nan plizyè fizo orè pandan l ap fè travay plen tan li. Li anboche yon konpayi jesyon pwopriyete pou pwopriyete ki nan lòt eta yo, li trete frè jesyon an kòm pri pou l ka grandi pi lwen pase kapasite tan pèsonèl li.
+
+**4. Egzamen pratik**
+1. Kisa jere poukont ou anjeneral ekonomize?
+   a) Taks pwopriyete
+   b) Frè jesyon pwopriyete a
+   c) Prim asirans
+   d) Frè fèmti
+
+2. Ki yon avantaj kle jesyon pwopriyete pwofesyonèl pandan yon pòtfolyo ap grandi?
+   a) Li elimine tout depans
+   b) Li ranplase kapasite tan limite pwopriyetè a ak yon sèvis ki dedye
+   c) Li garanti lwaye ki pi wo
+   d) Li retire bezwen pou asirans
+
+3. Vrè oswa Fo: Jesyon pwofesyonèl toujou pi bon chwa a kèlkeswa gwosè pòtfolyo a oswa kote l ye.
+
+4. Poukisa Raj te anboche jesyon pou pwopriyete ki nan lòt eta yo men se pa pou sa ki lokal la?
+   a) Li pa t renmen jere pwopriyete ankò
+   b) Tan li ak distans la pa t ka sipòte jesyon poukont li nan echèl sa a ankò
+   c) Lalwa te mande sa
+   d) Pwopriyete lokal la te gen plis valè
+
+**5. Kle repons yo**
+1. b  2. b  3. Fo  4. b
+
+**6. Repons ak eksplikasyon**
+1. Jere poukont ou sitou ekonomize frè ki ta ale bay yon jeran pwopriyete.
+2. Pandan pòtfolyo yo ap grandi, jesyon pwofesyonèl ranplase tan ak prezans lokal pwopriyetè a ka pa genyen ankò.
+3. Bon chwa a depann de gwosè pòtfolyo a, kote l ye, ak kapasite pèsonèl pwopriyetè a — se pa yon règ inivèsèl.
+4. Desizyon Raj te swiv kapasite ak jeyografi li ki t ap chanje, se pa sèlman yon chanjman nan preferans li.
+
+**7. Pwen kle yo**
+- Jere poukont ou ekonomize lajan men li koute tan e li mande konesans sou lwa pwopriyetè-lokatè.
+- Jesyon pwofesyonèl koute lajan men li ka ekonomize tan e bay ekspètiz, sitou nan gwo echèl oswa a distans.
+- Bon chwa a depann de gwosè pòtfolyo a, distans la, ak tan ak ekspètiz pwopriyetè a genyen.
+- Ou ta dwe revize desizyon sa a pandan sikonstans yo — pa sèlman preferans yo — ap chanje.
+
+===== RED-L2-011
+TITLE: Asirans kòm yon pyès: responsablite sivil, pwopriyete, ak kouvèti parapli
+SUMMARY: Asirans se yon pyès ki pwoteje lòt pyès; pou imobilye, twa kouch kouran se asirans pwopriyete, asirans responsablite sivil, ak asirans parapli.
+## RED-L2-011
+### Asirans kòm yon pyès: responsablite sivil, pwopriyete, ak kouvèti parapli
+
+**1. Objektif aprantisaj**
+Nan fen leson sa a, elèv la ap kapab:
+- Fè diferans ant asirans pwopriyete, asirans responsablite sivil, ak kouvèti parapli.
+- Esplike poukisa pwopriyete lwaye souvan bezwen yon kouvèti diferan de yon rezidans prensipal.
+- Dekri kijan asirans gen enteraksyon ak efè lefye ak rezèv.
+
+**2. Kontni prensipal**
+Asirans se yon pyès ki pwoteje lòt pyès. Pou imobilye, twa kouch kouran se asirans pwopriyete (kouvri domaj sou estrikti fizik la), asirans responsablite sivil (kouvri reklamasyon si yon moun blese sou pwopriyete a oswa si yo jwenn pwopriyetè a responsab yon lòt fason), ak asirans parapli (kouvèti responsablite sivil anplis pi wo pase limit polis ki anba yo, souvan itil pou pwopriyetè ki gen plizyè pwopriyete oswa yon valè nèt ki pi wo).
+
+Yon pwopriyete lwaye anjeneral bezwen yon polis pou pwopriyetè k ap lwe (landlord policy), se pa yon polis estanda pou pwopriyetè kay, paske pwofil risk la diferan — pwopriyetè a pa rete la, e risk responsablite ki gen rapò ak lokatè oswa revni lwaye ou pèdi apre yon evènman ki kouvri se yon enkyetid diferan kouvèti estanda pwopriyetè kay ka pa trete.
+
+Asirans gen enteraksyon ak efè lefye ak rezèv: moun k ap prete yo anjeneral mande yon asirans pwopriyete ase kòm kondisyon prè a, paske li pwoteje garanti yo tou. E yon pwopriyete ki byen asire ka diminye jan rezèv yo bezwen travay di — yon dife ki kouvri se yon pwosesis reklamasyon, se pa sèlman yon bagay ki vide rezèv, menm si franchiz ak twou nan kouvèti toujou aplike.
+
+**3. Egzanp pratik**
+Deja posede de pwopriyete lwaye, chak youn ak yon polis pou pwopriyetè k ap lwe ki kouvri estrikti a ak revni lwaye ki pèdi apre yon evènman ki kouvri, plis kouvèti responsablite sivil. Pandan pòtfolyo li ak valè nèt li ap grandi, ajan asirans li rekòmande yon polis parapli ki bay yon kouch pwoteksyon responsablite sivil anplis sou tout pwopriyete l yo, pou yon pri anplis relativman ba konpare ak pwoteksyon li bay.
+
+Lè yon moun k ap fè livrezon blese sou youn nan pwopriyete yo e li depoze yon reklamasyon responsablite sivil ki depase limit responsablite polis pwopriyetè li a, polis parapli a kouvri montan ki rete a, sa ki pwoteje lòt byen Deja pou yo pa an risk nan reklamasyon an.
+
+**4. Egzamen pratik**
+1. Kisa asirans pwopriyete anjeneral kouvri?
+   a) Frè legal pou pwosè ki pa gen rapò
+   b) Domaj sou estrikti fizik la
+   c) Tcheke lokatè
+   d) To enterè ipotèk
+
+2. Ki objektif asirans parapli?
+   a) Ranplase bezwen pou nenpòt lòt asirans
+   b) Bay kouvèti responsablite sivil anplis pi wo pase limit polis ki anba yo
+   c) Kouvri reparasyon do kay espesyalman
+   d) Diminye taks pwopriyete
+
+3. Vrè oswa Fo: Yon polis asirans estanda pou pwopriyetè kay anjeneral ase pou yon pwopriyete lwaye.
+
+4. Nan egzanp Deja a, kisa polis parapli a te pwoteje?
+   a) Revni lwaye li sèlman
+   b) Lòt byen li yo, depi reklamasyon responsablite sivil la te depase limit polis debaz li
+   c) To ipotèk li
+   d) Afè lokatè li
+
+**5. Kle repons yo**
+1. b  2. b  3. Fo  4. b
+
+**6. Repons ak eksplikasyon**
+1. Asirans pwopriyete kouvri domaj sou estrikti fizik la li menm.
+2. Asirans parapli ajoute yon kouch pwoteksyon responsablite sivil pi lwen pase sa polis ki anba yo bay.
+3. Pwopriyete lwaye anjeneral mande yon polis pou pwopriyetè k ap lwe, ki diferan de kouvèti estanda pwopriyetè kay.
+4. Polis parapli a te antre an aksyon depi reklamasyon an te depase limit responsablite polis pwopriyetè li a, sa ki te pwoteje byen li yo an jeneral.
+
+**7. Pwen kle yo**
+- Asirans pwopriyete, asirans responsablite sivil, ak kouvèti parapli sèvi objektif diferan ki konplete youn lòt.
+- Pwopriyete lwaye anjeneral mande polis espesyal pou pwopriyetè k ap lwe, se pa asirans estanda pwopriyetè kay.
+- Moun k ap prete yo anjeneral mande yon asirans ase kòm kondisyon prè, sa ki mare pyès sa a ak finansman.
+- Kouvèti parapli vin gen plis valè pandan pòtfolyo yon envestisè ak ekspozisyon li a responsablite ap grandi.
+
+===== RED-L2-012
+TITLE: Estrikti antite pou imobilye: LLC ak pwoteksyon kont responsablite
+SUMMARY: Anpil envestisè imobilye kenbe pwopriyete lwaye yo anndan yon Konpayi Responsablite Limite (LLC) olye sou pwòp non pèsonèl yo, sitou pou pwoteksyon kont responsablite.
+## RED-L2-012
+### Estrikti antite pou imobilye: LLC ak pwoteksyon kont responsablite
+
+**1. Objektif aprantisaj**
+Nan fen leson sa a, elèv la ap kapab:
+- Esplike objektif jeneral pou kenbe imobilye nan yon LLC.
+- Dekri konsèp pwoteksyon kont responsablite nan yon nivo debaz.
+- Rekonèt ke estriktire antite depann de jiridiksyon an e li mande konsèy pwofesyonèl.
+
+**2. Kontni prensipal**
+Anpil envestisè imobilye kenbe pwopriyete lwaye yo anndan yon Konpayi Responsablite Limite (LLC) olye sou pwòp non pèsonèl yo. Objektif jeneral la se pwoteksyon kont responsablite: si yo estriktire l e kenbe l kòmsadwa, yon LLC ka ede separe responsablite yon pwopriyete ak byen pèsonèl pwopriyetè a, sa vle di yon pwosè ki gen rapò ak pwopriyete a ka limite a byen LLC a olye l rive nan ekonomi pèsonèl, kay, oswa lòt pwopriyete pwopriyetè a.
+
+Pwoteksyon sa a pa otomatik ni absoli. Li depann de fòme e kenbe LLC a kòmsadwa — kont labank separe, bon dosye, kapital ase, ak swiv fòmalite yo. Tribinal yo ka pafwa "pèse vwal antrepriz la" (pierce the corporate veil) si yo pa kenbe yon LLC kòmsadwa, sa ki ekspoze byen pèsonèl pwopriyetè a kanmenm. Règ ki gouvène fòmasyon LLC, taks, ak pwoteksyon kont responsablite varye anpil selon eta ak peyi, sa ki fè sa a yon RÈG ESPESIFIK POU REJYON AN klè ki mande yon avoka imobilye ak yon pwofesyonèl taks.
+
+Chwa antite a gen enteraksyon tou ak finansman (kèk moun k ap prete gen diferan kondisyon oswa to pou pwopriyete yon LLC kenbe) ak taks (tretman taks LLC varye), se poutèt sa ou pa ta dwe janm trete estriktire antite kòm yon senp fòmalite.
+
+**3. Egzanp pratik**
+De envestisè, Ben ak Carlos, chak achte yon pwopriyete lwaye. Ben kenbe pa l la sou non pèsonèl li. Carlos fòme yon LLC, li louvri yon kont labank biznis separe pou li, li kenbe dosye trè byen, e li konsilte yon avoka pou asire l li kenbe l kòmsadwa.
+
+Lè yo depoze yon pwosè pou yon envite lokatè ki glise e tonbe nan chak pwopriyete, byen pèsonèl Ben ekspoze dirèkteman nan pwosè li a. Estrikti LLC Carlos te kenbe kòmsadwa a vle di reklamasyon an anjeneral limite a byen LLC a — si yo te fòme e kenbe LLC a kòmsadwa, se poutèt sa Carlos te pran fòmalite yo oserye olye l trete LLC a tankou yon non sou papye.
+
+**4. Egzamen pratik**
+1. Ki objektif jeneral pou kenbe imobilye nan yon LLC?
+   a) Pou evite peye taks pwopriyete nèt
+   b) Pou ede separe responsablite pwopriyete ak byen pèsonèl
+   c) Pou garanti revni lwaye ki pi wo
+   d) Pou elimine bezwen pou asirans
+
+2. Kisa ki ka rive si yo pa kenbe yon LLC kòmsadwa?
+   a) Anyen pa chanje
+   b) Yon tribinal ta ka "pèse vwal antrepriz la," sa ki ekspoze byen pèsonèl
+   c) Pwopriyete a otomatikman pran valè
+   d) Taks pwopriyete elimine
+
+3. Vrè oswa Fo: Règ fòmasyon LLC ak pwoteksyon kont responsablite menm jan nan chak eta ak peyi.
+
+4. Poukisa LLC Carlos te bay yon pwoteksyon pi fò pase pwopriyete pèsonèl Ben?
+   a) Pwopriyete Carlos te vo plis
+   b) Carlos te fòme LLC a kòmsadwa e li te kenbe fòmalite l yo
+   c) Ben pa t gen asirans
+   d) Carlos te gen yon pi bon lokatè
+
+**5. Kle repons yo**
+1. b  2. b  3. Fo  4. b
+
+**6. Repons ak eksplikasyon**
+1. Yo souvan itilize LLC pou ede separe responsablite yon pwopriyete ak byen pèsonèl pwopriyetè a.
+2. Lè w pa kenbe bon fòmalite LLC, sa ka pèmèt yon tribinal inyore separasyon LLC a, sa ki ekspoze pwopriyetè a pèsonèlman.
+3. Règ sa yo varye anpil selon jiridiksyon, sa ki mande konsèy pwofesyonèl.
+4. Diliyans Carlos nan kenbe fòmalite LLC a se sa ki te prezève fonksyon pwoteksyon kont responsablite li.
+
+**7. Pwen kle yo**
+- Yo souvan itilize LLC nan imobilye pou ede separe responsablite pwopriyete ak byen pèsonèl.
+- Pwoteksyon sa a depann de yon fòmasyon kòrèk ak yon antretyen kontinyèl, pa sèlman papye nan moman fòmasyon an.
+- Règ ki gouvène LLC varye selon jiridiksyon, sa ki mande yon avoka ak yon pwofesyonèl taks ki kalifye.
+- Estrikti antite gen enteraksyon ak finansman ak taks, sa ki fè l yon desizyon enpòtan, se pa yon fòmalite.
