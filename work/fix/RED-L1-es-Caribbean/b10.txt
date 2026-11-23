@@ -1,0 +1,429 @@
+===== RED-L1-045
+TITLE: Préstamo sobre el patrimonio de la vivienda frente a línea de crédito (HELOC)
+SUMMARY: Aprende la diferencia básica entre un préstamo sobre el patrimonio de la vivienda y una HELOC, y cuándo suele encajar mejor cada estructura.
+# Préstamo sobre el patrimonio de la vivienda frente a línea de crédito (HELOC)
+
+## Objetivos de aprendizaje
+
+Al final de esta lección, deberías poder:
+
+- Definir por separado un préstamo sobre el patrimonio de la vivienda y una HELOC.
+- Explicar la diferencia estructural central entre los dos.
+- Identificar una situación en la que cada uno podría encajar mejor.
+
+## Contenido principal
+
+### Préstamo sobre el patrimonio de la vivienda
+
+Un préstamo sobre el patrimonio de la vivienda (home equity loan) entrega una suma global por adelantado, prestada contra el patrimonio de la casa, que se paga a lo largo de un plazo fijo con una tasa de interés fija; su estructura es parecida a la de la hipoteca original.
+
+### HELOC (línea de crédito sobre el patrimonio de la vivienda)
+
+Una HELOC (Home Equity Line of Credit) funciona más como una tarjeta de crédito garantizada con el patrimonio de la casa: se establece un límite de crédito y, durante un período de disposición, el dueño puede tomar prestado, pagar y volver a tomar prestado hasta ese límite, a menudo con una tasa de interés variable.
+
+### Cuándo suele encajar mejor cada uno
+
+Un préstamo sobre el patrimonio de la vivienda a menudo encaja con un gasto único y conocido (como una remodelación específica con un presupuesto fijo). Una HELOC a menudo encaja con gastos continuos o inciertos (como una remodelación cuyo alcance va cambiando, o una reserva para emergencias), ya que no exige tomar prestada la cantidad completa por adelantado.
+
+## Ejemplo práctico
+
+Una dueña con una remodelación de cocina de $30,000 claramente presupuestada podría escoger un préstamo sobre el patrimonio de la vivienda por esa cantidad fija. Un dueño que no está seguro de cuánto costará una serie de proyectos continuos en la casa podría preferir una HELOC, y tomar prestado solo lo necesario a medida que surgen los costos.
+
+## Prueba de práctica
+
+1. Un préstamo sobre el patrimonio de la vivienda normalmente entrega:
+   A. Una línea de crédito continua de la que el dueño dispone una y otra vez
+   B. Una suma global por adelantado, que se paga a lo largo de un plazo fijo
+   C. Dinero gratis que no hay que pagar
+   D. Una reducción del impuesto sobre la propiedad
+2. Verdadero o falso: una HELOC funciona más como una tarjeta de crédito garantizada con el patrimonio de la casa, con un período de disposición.
+3. ¿Cuál encaja mejor, en general, con un gasto único y claramente conocido?
+   A. Una HELOC
+   B. Un préstamo sobre el patrimonio de la vivienda
+   C. Ninguno es apropiado nunca
+   D. Solo una hipoteca revertida
+
+## Respuestas
+
+1. B
+2. Verdadero
+3. B
+
+## Respuestas y explicaciones
+
+### Pregunta 1
+
+Respuesta correcta: B. Un préstamo sobre el patrimonio de la vivienda entrega una suma global que se paga a lo largo de un plazo fijo.
+
+### Pregunta 2
+
+Respuesta correcta: Verdadero. Una HELOC funciona como una línea de crédito rotativo.
+
+### Pregunta 3
+
+Respuesta correcta: B. Un préstamo sobre el patrimonio de la vivienda a menudo encaja mejor con un gasto fijo y conocido.
+
+## Puntos clave
+
+- Un préstamo sobre el patrimonio de la vivienda entrega una suma global con condiciones de pago fijas.
+- Una HELOC ofrece una línea de crédito rotativo garantizada con el patrimonio de la casa.
+- La opción adecuada depende de si el gasto es fijo y conocido o continuo e incierto.
+
+===== RED-L1-046
+TITLE: ¿Qué significa estar «bajo el agua» en una hipoteca?
+SUMMARY: Aprende qué significa estar bajo el agua en una hipoteca, cómo puede pasar y por qué es un riesgo real que vale la pena entender.
+# ¿Qué significa estar «bajo el agua» en una hipoteca?
+
+## Objetivos de aprendizaje
+
+Al final de esta lección, deberías poder:
+
+- Definir «bajo el agua» en el contexto de una hipoteca.
+- Explicar cómo una propiedad puede terminar bajo el agua.
+- Explicar por qué crea un problema real si el dueño necesita vender.
+
+## Contenido principal
+
+### Qué significa «bajo el agua»
+
+Estar bajo el agua (underwater) en una hipoteca significa que el saldo que se debe del préstamo es mayor que el valor de mercado actual de la propiedad; en otras palabras, patrimonio negativo, un concepto presentado antes en esta ruta.
+
+### Cómo puede pasar
+
+Normalmente pasa cuando los valores de las propiedades bajan después de la compra, sobre todo para los dueños que dieron pronto pagos más pequeños (y tenían un colchón de patrimonio menor desde el principio) o durante una caída general del mercado.
+
+### Por qué es un problema real al vender
+
+Un dueño bajo el agua que necesita vender debería más de lo que produciría la venta, lo que significa que tendría que llevar efectivo al cierre solo para pagar la diferencia: una situación real y estresante que limita las opciones del dueño hasta que los valores se recuperen o el saldo del préstamo baje más.
+
+## Ejemplo práctico
+
+Un dueño compró una casa en $300,000 con un pronto pago pequeño. El mercado local baja, y ahora la casa vale $270,000, mientras que el dueño todavía debe $285,000: está bajo el agua por $15,000.
+
+## Prueba de práctica
+
+1. Estar «bajo el agua» en una hipoteca significa:
+   A. Que la casa está ubicada cerca del agua
+   B. Que el saldo que se debe del préstamo supera el valor actual de la propiedad
+   C. Que el dueño ya pagó la hipoteca por completo
+   D. Que la propiedad tiene daños por inundación
+2. Verdadero o falso: estar bajo el agua es otra forma de describir el patrimonio negativo.
+3. ¿Por qué estar bajo el agua es un problema si el dueño necesita vender?
+   A. No es ningún problema
+   B. El dueño debería más de lo que produce la venta, y tendría que poner efectivo para cubrir la diferencia
+   C. Garantiza una venta más rápida
+   D. Cancela automáticamente la hipoteca
+
+## Respuestas
+
+1. B
+2. Verdadero
+3. B
+
+## Respuestas y explicaciones
+
+### Pregunta 1
+
+Respuesta correcta: B. Estar bajo el agua significa deber más de lo que la propiedad vale actualmente.
+
+### Pregunta 2
+
+Respuesta correcta: Verdadero. Estar bajo el agua y el patrimonio negativo describen la misma situación.
+
+### Pregunta 3
+
+Respuesta correcta: B. Vender estando bajo el agua exige cubrir la diferencia en efectivo.
+
+## Puntos clave
+
+- Estar bajo el agua significa que el saldo del préstamo supera el valor de la propiedad.
+- Es la misma situación que el patrimonio negativo.
+- Crea un problema económico real si el dueño necesita vender.
+
+===== RED-L1-047
+TITLE: ¿Qué es una ejecución hipotecaria, paso a paso?
+SUMMARY: Aprende las etapas generales por las que pasa un proceso de ejecución hipotecaria y por qué es un proceso legal largo y no un hecho instantáneo.
+# ¿Qué es una ejecución hipotecaria, paso a paso?
+
+## Objetivos de aprendizaje
+
+Al final de esta lección, deberías poder:
+
+- Definir la ejecución hipotecaria en términos sencillos.
+- Describir las etapas generales del proceso.
+- Explicar por qué la ejecución hipotecaria es un proceso y no un solo hecho instantáneo.
+
+## Contenido principal
+
+### Qué es una ejecución hipotecaria
+
+La ejecución hipotecaria, presentada antes en esta ruta, es el proceso legal que usa un prestamista para recuperar el saldo no pagado de un préstamo quedándose con la propiedad que sirve de garantía y, con el tiempo, vendiéndola.
+
+### Las etapas generales
+
+*(REGLA ESPECÍFICA DE LA REGIÓN: los pasos exactos, los plazos y la terminología varían mucho según el estado o el país.)* En general, la ejecución hipotecaria pasa por etapas: los pagos no hechos que llevan al incumplimiento, el aviso formal del prestamista, un proceso de presentación legal y, con el tiempo, la venta de la propiedad (en subasta o de otra forma) si la deuda sigue sin resolverse.
+
+### Por qué es un proceso y no un hecho instantáneo
+
+Como la ejecución hipotecaria es un proceso legal formal, normalmente toma meses (a veces más) desde el primer pago no hecho hasta la venta real de la propiedad, lo que le da a un prestatario en apuros un tiempo real, aunque limitado, y a menudo varias oportunidades de resolver la situación antes de perder la propiedad.
+
+## Ejemplo práctico
+
+Un prestatario deja de hacer varios pagos de la hipoteca. Después de los avisos formales y de un proceso de presentación legal, y después de que esos problemas sigan sin resolverse durante un período prolongado, el prestamista avanza hacia una venta por ejecución hipotecaria: un proceso que se desarrolla a lo largo de meses, no inmediatamente después del primer pago no hecho.
+
+## Prueba de práctica
+
+1. La ejecución hipotecaria es:
+   A. Un hecho instantáneo provocado por un solo pago no hecho
+   B. Un proceso legal formal para que un prestamista recupere un préstamo no pagado por medio de la propiedad que sirve de garantía
+   C. Un tipo de reclamación al seguro de vivienda
+   D. Un acuerdo voluntario sin proceso legal
+2. Verdadero o falso: la ejecución hipotecaria normalmente ocurre de inmediato después de un solo pago no hecho.
+3. ¿Por qué el proceso de ejecución hipotecaria normalmente toma meses?
+   A. No es así: es inmediato
+   B. Porque es un proceso legal formal con pasos y avisos obligatorios
+   C. Porque los prestamistas prefieren esperar sin ninguna razón
+   D. Porque en todas partes es ilegal ejecutar una hipoteca rápido
+
+## Respuestas
+
+1. B
+2. Falso
+3. B
+
+## Respuestas y explicaciones
+
+### Pregunta 1
+
+Respuesta correcta: B. La ejecución hipotecaria es un proceso legal formal, no un hecho instantáneo.
+
+### Pregunta 2
+
+Respuesta correcta: Falso. Normalmente toma meses y tiene varias etapas.
+
+### Pregunta 3
+
+Respuesta correcta: B. Los pasos legales y los avisos obligatorios toman tiempo real.
+
+## Puntos clave
+
+- La ejecución hipotecaria es un proceso legal formal, no un hecho instantáneo.
+- En general, pasa por las etapas de incumplimiento, aviso, presentación legal y venta.
+- El proceso normalmente toma meses, lo que les da a los prestatarios un tiempo real (aunque limitado) para resolver la situación.
+
+===== RED-L1-048
+TITLE: ¿Qué es una venta corta y en qué se diferencia de una ejecución hipotecaria?
+SUMMARY: Aprende qué es una venta corta, en qué se diferencia de una ejecución hipotecaria y por qué un prestamista podría preferirla.
+# ¿Qué es una venta corta y en qué se diferencia de una ejecución hipotecaria?
+
+## Objetivos de aprendizaje
+
+Al final de esta lección, deberías poder:
+
+- Definir una venta corta en términos sencillos.
+- Explicar en qué se diferencia de una ejecución hipotecaria.
+- Explicar por qué un prestamista podría preferir una venta corta.
+
+## Contenido principal
+
+### Qué es una venta corta
+
+Una venta corta (short sale) ocurre cuando un dueño en apuros vende su propiedad por menos de lo que debe de la hipoteca, con la aprobación del prestamista, en vez de pasar por una ejecución hipotecaria.
+
+### En qué se diferencia de una ejecución hipotecaria
+
+En una venta corta, el dueño (con la aprobación del prestamista) vende activamente la propiedad y, en general, conserva más control sobre el proceso y los plazos. En una ejecución hipotecaria, el prestamista se queda con la propiedad y la vende mediante un proceso legal que el dueño no controla.
+
+### Por qué un prestamista podría preferirla
+
+La ejecución hipotecaria a menudo también es costosa y lenta para los prestamistas, y una propiedad ejecutada puede venderse por menos en una subasta que en un proceso de venta normal. Una venta corta a veces puede recuperar más valor para el prestamista, con menos costo y tiempo que seguir con una ejecución hipotecaria.
+
+## Ejemplo práctico
+
+Una dueña que pasa por dificultades económicas debe $280,000 de una casa que ahora vale solo $250,000. Con la aprobación del prestamista, la vende por $250,000 como venta corta en vez de dejar que la situación llegue a una ejecución hipotecaria.
+
+## Prueba de práctica
+
+1. Una venta corta ocurre cuando:
+   A. Una propiedad se vende por más que el saldo del préstamo
+   B. Un dueño vende por menos de lo que debe, con la aprobación del prestamista
+   C. Un prestamista se queda a la fuerza con la propiedad sin participación del dueño
+   D. Una propiedad se vende dentro de las 24 horas siguientes a ponerla en venta
+2. Verdadero o falso: en una venta corta, el dueño, en general, conserva más control sobre el proceso que en una ejecución hipotecaria.
+3. ¿Por qué un prestamista podría preferir una venta corta a una ejecución hipotecaria?
+   A. Los prestamistas nunca prefieren las ventas cortas
+   B. La ejecución hipotecaria puede ser más costosa y lenta, y podría recuperar menos valor
+   C. Las ventas cortas siempre son más rápidas que cualquier otra opción
+   D. Las ventas cortas eliminan el préstamo por completo sin participación del prestamista
+
+## Respuestas
+
+1. B
+2. Verdadero
+3. B
+
+## Respuestas y explicaciones
+
+### Pregunta 1
+
+Respuesta correcta: B. Una venta corta es una venta que inicia el dueño por menos de lo que debe, con la aprobación del prestamista.
+
+### Pregunta 2
+
+Respuesta correcta: Verdadero. En general, el dueño tiene más control que en una ejecución hipotecaria impulsada por el prestamista.
+
+### Pregunta 3
+
+Respuesta correcta: B. El costo y el tiempo de una ejecución hipotecaria pueden hacer que la venta corta sea la opción más atractiva para el prestamista.
+
+## Puntos clave
+
+- Una venta corta es una venta que inicia el dueño por menos de lo que debe, con la aprobación del prestamista.
+- En general, le da al dueño más control que una ejecución hipotecaria.
+- Los prestamistas podrían preferirla, ya que la ejecución hipotecaria puede ser más costosa y lenta.
+
+===== RED-L1-049
+TITLE: Comprar tu primera propiedad: ¿en qué orden van realmente estos pasos?
+SUMMARY: Aprende el orden general de los pasos en una compra típica de propiedad, uniendo conceptos vistos antes en este nivel.
+# Comprar tu primera propiedad: ¿en qué orden van realmente estos pasos?
+
+## Objetivos de aprendizaje
+
+Al final de esta lección, deberías poder:
+
+- Enumerar el orden general de los pasos en una compra típica de propiedad.
+- Explicar por qué, en general, este orden tiene sentido.
+- Conectar cada paso con un concepto visto antes en este nivel.
+
+## Contenido principal
+
+### El orden general
+
+*(REGLA ESPECÍFICA DE LA REGIÓN: el orden exacto y los requisitos varían según el lugar y el tipo de transacción.)* En general, una compra típica pasa por: obtener la preaprobación del financiamiento, buscar una propiedad y hacer una oferta, asegurar la hipoteca (incluida la tasación), completar las inspecciones, limpiar el título y, por último, cerrar (incluido el pago de los gastos de cierre).
+
+### Por qué, en general, este orden tiene sentido
+
+La preaprobación va primero porque le dice al comprador lo que realmente puede pagar antes de enamorarse de una propiedad. Las inspecciones, en general, se hacen antes de finalizar la compra para que los problemas se puedan atender o negociar. El título tiene que estar limpio antes del cierre, ya que un título dudoso (visto antes) podría echar a perder toda la transacción.
+
+### Conexión con las lecciones anteriores
+
+Cada paso de este orden se conecta con un concepto visto antes en este nivel: el pronto pago y el tipo de hipoteca (lecciones 4 a 8), la tasación y los comparables (lecciones 12 y 13), la inspección (lección 14), el título y el seguro de título (lecciones 15 y 16), el escrow (lección 17) y los gastos de cierre (lección 18).
+
+## Ejemplo práctico
+
+Una compradora primeriza obtiene la preaprobación de una hipoteca de $280,000 antes de buscar, luego hace una oferta por una casa de $270,000, pide una inspección, atiende algunos problemas encontrados y pasa al cierre una vez que el título sale limpio y el financiamiento queda finalizado.
+
+## Prueba de práctica
+
+1. ¿Por qué obtener la preaprobación del financiamiento normalmente va al principio del proceso?
+   A. No importa cuándo se haga
+   B. Le dice al comprador lo que realmente puede pagar antes de buscar
+   C. La ley exige que se haga al final
+   D. Sustituye la necesidad de una tasación
+2. Verdadero o falso: las inspecciones normalmente se hacen después del cierre, cuando el comprador ya es dueño de la propiedad.
+3. ¿Por qué el título tiene que estar limpio antes del cierre?
+   A. No tiene que estar limpio en absoluto
+   B. Un título dudoso crea un riesgo legal real para el nuevo dueño
+   C. El título solo importa en las propiedades comerciales
+   D. Un título limpio solo es relevante en las compras en efectivo
+
+## Respuestas
+
+1. B
+2. Falso
+3. B
+
+## Respuestas y explicaciones
+
+### Pregunta 1
+
+Respuesta correcta: B. La preaprobación establece un presupuesto realista antes de buscar.
+
+### Pregunta 2
+
+Respuesta correcta: Falso. Las inspecciones normalmente se hacen antes del cierre, no después.
+
+### Pregunta 3
+
+Respuesta correcta: B. Un título dudoso crea un riesgo legal real, como se vio antes en este nivel.
+
+## Puntos clave
+
+- Una compra típica pasa por la preaprobación, la búsqueda y la oferta, el financiamiento y la tasación, la inspección, la limpieza del título y el cierre.
+- Este orden existe por razones prácticas en cada paso.
+- Cada paso se conecta con un concepto específico visto antes en este nivel.
+
+===== RED-L1-050
+TITLE: Proyecto final: una compra real de propiedad, de principio a fin
+SUMMARY: Aplica todo lo del Nivel 1 de ROJO recorriendo un escenario completo y realista de compra de propiedad, de principio a fin.
+# Proyecto final: una compra real de propiedad, de principio a fin
+
+## Objetivos de aprendizaje
+
+Al final de esta lección, deberías poder:
+
+- Aplicar los conceptos centrales del Nivel 1 de ROJO a un escenario conectado.
+- Identificar qué concepto de este nivel se aplica en cada etapa de una compra.
+- Explicar cómo encajan las piezas de una compra de propiedad como un todo, y no solo como términos aislados.
+
+## Contenido principal
+
+### El escenario
+
+María quiere comprar su primera casa. Ha ahorrado para el pronto pago y quiere entender qué está comprando realmente: no solo memorizar términos, sino ver cómo todo lo de este nivel se conecta en una situación real.
+
+### El recorrido
+
+María empieza por entender que comprar una casa significa comprar un terreno, una estructura y derechos legales (lección 1), no solo un edificio. Compara alquilar con ser dueña (lección 2) y decide que ser dueña encaja con sus planes. Obtiene la preaprobación de una hipoteca (lecciones 4 a 8), entendiendo que su pago se divide en principal e intereses (lección 5) y que el tamaño de su pronto pago afecta su préstamo y si necesitará PMI (lecciones 6 y 8).
+
+Encuentra una casa, y el prestamista pide una tasación basada en comparables (lecciones 12 y 13) para confirmar su valor. Hace una inspección de vivienda (lección 14) y negocia un pequeño crédito para reparaciones después de que la inspección revela un calentador de agua envejecido. Su compañía de títulos confirma que el título está limpio (lección 15) y emite el seguro de título (lección 16). Su depósito de buena fe queda en escrow (lección 17) hasta el cierre, donde paga sus gastos de cierre (lección 18) además de su pronto pago.
+
+Con los años, el patrimonio de María (lección 3) crece de dos formas: paga su préstamo y su casa se valoriza (lección 25), aunque ella entiende que la valorización nunca estuvo garantizada.
+
+### Por qué importa esto
+
+En una compra real, ninguno de estos conceptos funciona de forma aislada: se conectan como un solo proceso. Entender cada pieza por separado, y cómo encajan entre sí, es lo que distingue la educación financiera realmente útil del vocabulario memorizado.
+
+## Ejemplo práctico
+
+Si la casa de María costó $300,000 con un pronto pago de $30,000 (10%), financió $270,000, probablemente necesitó PMI (ya que su pronto pago estaba por debajo del 20%) y su pago mensual se dividió entre principal e intereses desde el primer día: todos conceptos vistos por separado antes en este nivel, ahora funcionando juntos en una sola transacción real.
+
+## Prueba de práctica
+
+1. Según la lección 1, ¿qué incluye realmente la compra de una casa?
+   A. Solo la estructura
+   B. El terreno, la estructura y los derechos legales
+   C. Solo el derecho legal a vender más adelante
+   D. Solo el terreno
+2. Verdadero o falso: como el pronto pago de María estaba por debajo del 20%, probablemente necesitó PMI.
+3. ¿Qué dos cosas hicieron que el patrimonio de María creciera con el tiempo?
+   A. Los pagos de renta y el impuesto sobre la propiedad
+   B. Pagar su préstamo y la valorización de la propiedad
+   C. Su inspección de vivienda y su seguro de título
+   D. Sus gastos de cierre y su cuenta de escrow
+
+## Respuestas
+
+1. B
+2. Verdadero
+3. B
+
+## Respuestas y explicaciones
+
+### Pregunta 1
+
+Respuesta correcta: B. La compra de una propiedad reúne el terreno, la estructura y los derechos legales, como se vio en la lección 1.
+
+### Pregunta 2
+
+Respuesta correcta: Verdadero. Un pronto pago por debajo de aproximadamente el 20% comúnmente activa el requisito del PMI, como se vio en la lección 8.
+
+### Pregunta 3
+
+Respuesta correcta: B. El patrimonio crece por el pago del préstamo y por la valorización: dos fuentes distintas, como se vio en la lección 3.
+
+## Puntos clave
+
+- Una compra real de propiedad conecta casi todos los conceptos de este nivel en un solo proceso, no en datos aislados.
+- Entender cómo encajan las piezas es la verdadera meta de este nivel, no solo memorizar términos sueltos.
+- Este proyecto final marca la conclusión del Nivel 1 de ROJO; el Nivel 2 se construye sobre esta base con conceptos más avanzados de financiamiento e inversión.
