@@ -1,0 +1,473 @@
+===== ORANGE-L5-006
+TITLE: Negociar a compra de uma empresa com o tabuleiro inteiro à vista
+SUMMARY: Uma aquisição envolve preço, forma de pagamento, estrutura, proteções e transição; a BATNA determina o poder de negociação, trocar termos que cada lado valoriza de forma diferente cria valor para ambos, e acordos justos costumam funcionar melhor depois do fechamento.
+KEYWORDS: negociação de aquisição de empresa, BATNA na aquisição, negociação de acordos, termos do preço de compra, negociação de earnout
+# Negociar a compra de uma empresa com o tabuleiro inteiro à vista
+
+## Cenário de abertura
+SUPOSIÇÃO/OPINIÃO (cenário hipotético apenas para fins didáticos): Imagine um grande bloco comercial que de repente impõe tarifas elevadas sobre uma ampla categoria de produtos manufaturados importados, aumentando os custos das empresas que dependem dessas importações como insumos.
+Aplique aqui: Novas tarifas deixam uma pequena importadora menos lucrativa, e o dono quer vender. Um comprador vê uma oportunidade. Pergunte em todas as cores: Qual é a melhor alternativa de cada lado (LARANJA)? Como o preço deve ser dividido entre dinheiro à vista, financiamento pelo vendedor e um earnout (AZUL)? Que proteções jurídicas importam mais (ROXO)? Que estrutura tributária beneficia os dois lados (VERDE)?
+
+## Objetivos de aprendizagem
+- Aplicar a BATNA e a ancoragem a uma negociação de aquisição
+- Fazer trocas entre preço, termos, proteções e estrutura
+- Negociar de um jeito que preserve a relação depois do fechamento
+
+## Conteúdo principal
+No nível 4, a trilha LARANJA tratou dos fundamentos da negociação: BATNA (a melhor alternativa a um acordo negociado), ancoragem, preço de reserva e criação de valor por meio de trocas. No nível 5, você os usa em uma das negociações mais complexas dos negócios: comprar uma empresa.
+O que pode ser negociado em uma aquisição:
+- Preço (LARANJA/BRANCO): O valor de destaque.
+- Forma de pagamento (AZUL): Dinheiro no fechamento, financiamento pelo vendedor, earnouts ligados ao desempenho futuro ou participação na empresa do comprador.
+- Estrutura (VERDE/ROXO): Compra de ativos ou de participações (ROXO-L5-023 na trilha jurídica), o que afeta os impostos dos dois lados.
+- Proteções (ROXO): Declarações, garantias, indenizações, contas-garantia e tetos (ROXO-L5-021).
+- Transição (PRETO): Por quanto tempo o vendedor fica para ajudar e em que função.
+- Não concorrência (ROXO): Se o vendedor pode concorrer depois.
+- Funcionários (PRETO): Se os funcionários-chave ficam e em que condições.
+Criação de valor por meio de trocas: Como compradores e vendedores valorizam termos de forma diferente, um acordo pode ser melhor para os dois do que uma simples pechincha de preço. Um vendedor que se importa mais com o preço total pode aceitar um earnout. Um comprador que se importa mais em limitar o risco pode pagar um preço maior em troca de uma conta-garantia maior.
+A BATNA em uma aquisição:
+- BATNA do vendedor: Outro comprador, continuar tocando o negócio ou encerrá-lo.
+- BATNA do comprador: Outra empresa-alvo, começar do zero ou não comprar.
+Uma BATNA mais forte dá mais poder de negociação. As tarifas do cenário podem enfraquecer a BATNA do vendedor se continuar operando ficar menos atraente.
+SUPOSIÇÃO/OPINIÃO: Apertar demais o vendedor pode sair pela culatra. Se o vendedor fica para a transição ou detém uma nota promissória, um vendedor ressentido pode dificultar a transição. Acordos justos muitas vezes produzem resultados melhores depois do fechamento.
+
+## Exemplo prático
+EXEMPLO ILUSTRATIVO: Tomas quer comprar uma importadora. O vendedor pede R$ 1,2 milhão. As tarifas reduziram os lucros.
+Análise da BATNA:
+- Vendedor: Nenhum outro comprador sério. Continuar significa lucros menores com as tarifas. A BATNA é fraca.
+- Tomas: Duas outras empresas em análise, embora menos atraentes. A BATNA é moderada.
+A oferta de Tomas: R$ 950.000, estruturados assim:
+- R$ 500.000 à vista no fechamento.
+- Nota promissória do vendedor de R$ 250.000 em 5 anos a uma taxa justa.
+- Até R$ 250.000 de earnout se a receita voltar aos níveis anteriores às tarifas em até 2 anos.
+- Compra de ativos, em benefício fiscal de Tomas. REGRA ESPECÍFICA DA REGIÃO; no Brasil, por exemplo, segundo as informações disponíveis, na compra de ativos o comprador pode depreciar os bens pelo novo custo, mas a operação pode envolver ICMS sobre mercadorias, ITBI sobre imóveis e, em certos casos, sucessão trabalhista e tributária, portanto confirme com um contador.
+- Conta-garantia de 10% por 18 meses.
+- O vendedor fica 6 meses como consultor remunerado.
+O vendedor faz uma contraproposta de R$ 1,1 milhão no total. Eles fecham em R$ 1,05 milhão: R$ 500.000 à vista, nota de R$ 300.000 e até R$ 250.000 de earnout. O vendedor recebe mais valor total se o negócio se recuperar. Tomas limita o dinheiro inicial e divide o risco com o vendedor.
+SUPOSIÇÃO/OPINIÃO: O earnout resolveu a divergência sobre o futuro. O vendedor achava a recuperação provável; Tomas não tinha certeza. O earnout permitiu que os dois tivessem razão.
+
+## Teste de prática
+**Q1. O que significa BATNA?**
+A) Melhor acordo disponível de impostos e notas
+B) Acordo básico para sempre negociar
+C) Lei de transferência de ativos e negociação
+D) A melhor alternativa a um acordo negociado
+**Q2. Como um acordo pode ser melhor para os dois lados do que uma simples pechincha de preço?**
+A) Trocando termos que cada lado valoriza de forma diferente
+B) Mentindo
+C) Ignorando os impostos
+D) Evitando advogados
+**Q3. Como as tarifas afetaram a BATNA do vendedor?**
+A) Fortaleceram
+B) Eliminaram as opções do comprador
+C) Não tiveram efeito
+D) Enfraqueceram, porque continuar operando ficou menos atraente
+**Q4. Que papel teve o earnout?**
+A) Reduziu impostos
+B) Substituiu a conta-garantia
+C) Resolveu a divergência sobre se o negócio se recuperaria
+D) Pagou o comprador
+**Q5. Por que apertar demais o vendedor pode sair pela culatra?**
+A) Vendedores não podem ser apertados
+B) Aumenta os impostos
+C) Um vendedor ressentido que detém uma nota ou ajuda na transição pode dificultar as coisas
+D) É ilegal
+
+## Gabarito
+Q1: D
+Q2: A
+Q3: D
+Q4: C
+Q5: C
+
+## Respostas e explicações
+**Q1.** A BATNA é a sua melhor opção se o acordo fracassar.
+**Q2.** A criação de valor vem de prioridades diferentes.
+**Q3.** Uma alternativa mais fraca reduz o poder de negociação.
+**Q4.** Os earnouts permitem que compradores e vendedores dividam a incerteza.
+**Q5.** As relações depois do fechamento importam.
+
+## Pontos-chave
+- Aquisições envolvem preço, forma de pagamento, estrutura, proteções e transição
+- A BATNA determina o poder de negociação
+- Trocar termos valorizados de forma diferente cria valor para os dois lados
+- Acordos justos costumam funcionar melhor depois do fechamento
+
+===== ORANGE-L5-007
+TITLE: Negociar imóveis com financiamento pelo vendedor
+SUMMARY: O financiamento pelo vendedor transforma o vendedor em credor; negocie juntos preço, entrada, taxa, prazo e garantia, lembre que em mercados de juros altos o financiamento pelo vendedor pode destravar negócios, e concentre-se no que cada lado realmente precisa.
+KEYWORDS: negociação de financiamento pelo vendedor, financiamento direto do proprietário, negociação de imóveis, termos de financiamento criativo
+# Negociar imóveis com financiamento pelo vendedor
+
+## Cenário de abertura
+SUPOSIÇÃO/OPINIÃO (cenário hipotético apenas para fins didáticos): Imagine um banco central que eleva a sua taxa básica de juros de forma forte e repetida ao longo de poucos meses para combater a inflação em alta.
+Aplique aqui: Com os juros bancários altos, um comprador não consegue pagar um financiamento convencional para um pequeno prédio de apartamentos, e o vendedor não encontra outros compradores. Pergunte em todas as cores: Do que cada lado realmente precisa (LARANJA)? Um financiamento pelo vendedor a uma taxa menor faria o negócio funcionar (AZUL/VERMELHO)? Que documentos protegem o vendedor (ROXO)? Como o tratamento a prazo pode afetar os impostos do vendedor (VERDE)?
+
+## Objetivos de aprendizagem
+- Identificar as prioridades de cada lado em um negócio financiado pelo vendedor
+- Trocar preço por taxa, entrada e prazo
+- Estruturar um negócio que proteja o vendedor e funcione para o comprador
+
+## Conteúdo principal
+No nível 2, a trilha VERMELHA apresentou o financiamento criativo. No nível 3, a trilha AZUL tratou do financiamento pelo vendedor na compra de empresas. No nível 5, a trilha LARANJA mostra como negociar esses negócios para que os dois lados ganhem.
+No financiamento pelo vendedor, o vendedor atua como credor e recebe pagamentos ao longo do tempo em vez de todo o dinheiro no fechamento.
+O que cada lado costuma querer:
+- Comprador: Entrada menor, taxa de juros menor, prazo mais longo, flexibilidade.
+- Vendedor: Preço total maior, pagamentos confiáveis, garantia, possíveis vantagens tributárias ao distribuir o ganho ao longo do tempo (REGRA ESPECÍFICA DA REGIÃO; no Brasil, por exemplo, segundo as informações disponíveis, a pessoa física que vende um imóvel a prazo pode pagar o imposto sobre o ganho de capital proporcionalmente às parcelas recebidas, portanto confirme com um contador) e, às vezes, uma renda estável na aposentadoria.
+Variáveis-chave da negociação:
+- Preço
+- Entrada
+- Taxa de juros
+- Prazo e amortização (incluindo parcelas balão)
+- Direito de pagamento antecipado
+- Garantias reais e pessoais
+O princípio da troca: Um vendedor pode aceitar uma taxa de juros menor em troca de um preço maior, ou um preço menor em troca de uma entrada maior. Um comprador pode aceitar um preço maior em troca de uma taxa menor que torne as parcelas mensais pagáveis.
+Como as cores se conectam:
+- VERMELHO: A renda do imóvel precisa sustentar as parcelas.
+- AZUL: Compare a taxa do vendedor com as taxas dos bancos. Quando as taxas bancárias estão altas, o financiamento pelo vendedor pode ser uma grande vantagem para os compradores.
+- ROXO: Nota promissória, hipoteca ou alienação fiduciária e cláusulas de inadimplência (ROXO-L5-024). Verifique se o vendedor tem um financiamento existente com cláusula de vencimento antecipado em caso de venda.
+- VERDE: Os vendedores podem conseguir distribuir o imposto sobre o ganho ao longo do período de pagamento. Os juros muitas vezes precisam respeitar taxas mínimas. REGRA ESPECÍFICA DA REGIÃO.
+- BRANCO: Para o vendedor, a nota vira um investimento. Compare o retorno e o risco esperados com outras opções.
+SUPOSIÇÃO/OPINIÃO: Em mercados de juros altos, o financiamento pelo vendedor pode transformar uma venda parada em um negócio fechado. O segredo é focar no que cada lado realmente precisa, e não só no preço de destaque.
+
+## Exemplo prático
+EXEMPLO ILUSTRATIVO: Rosa, de 68 anos, é dona de um prédio de 6 unidades sem dívidas. Ela quer se aposentar e anuncia o imóvel por R$ 900.000 há meses sem nenhuma oferta aceitável. As taxas bancárias estão altas.
+Ben quer comprar, mas só consegue pagar as parcelas se a taxa for menor do que a dos bancos.
+Negociação:
+- Prioridades de Rosa: Valor total, renda mensal confiável e distribuir os impostos ao longo do tempo.
+- Prioridades de Ben: Parcelas mensais pagáveis e uma entrada administrável.
+Acordo:
+- Preço: R$ 920.000 (acima do preço pedido).
+- Entrada: 20% (R$ 184.000).
+- Nota do vendedor: R$ 736.000 a 5,5% (abaixo das taxas bancárias), amortização em 25 anos com parcela balão em 10 anos.
+- Garantia: Garantia real registrada sobre o imóvel. Ben dá uma garantia pessoal limitada.
+- Inadimplência: Prazo de 30 dias para regularização.
+Rosa recebe mais valor total e renda mensal estável. Ben consegue parcelas pagáveis. O contador dela explica como o tratamento a prazo pode distribuir os impostos. REGRA ESPECÍFICA DA REGIÃO.
+SUPOSIÇÃO/OPINIÃO: Um preço de R$ 920.000 com taxa de 5,5% funcionou melhor para os dois do que R$ 880.000 com um financiamento bancário que Ben não conseguiria pagar.
+
+## Teste de prática
+**Q1. No financiamento pelo vendedor, quem atua como credor?**
+A) O vendedor
+B) O banco
+C) O governo
+D) O corretor de imóveis
+**Q2. Que troca um vendedor pode aceitar?**
+A) Nenhum pagamento
+B) Uma taxa de juros menor em troca de um preço maior
+C) Dar o imóvel
+D) Nenhuma garantia
+**Q3. Por que o financiamento pelo vendedor pode ser especialmente útil quando as taxas bancárias estão altas?**
+A) Os bancos recusam todos os empréstimos
+B) Os vendedores podem oferecer taxas menores que tornam as parcelas pagáveis
+C) Evita todos os impostos
+D) Não exige documentos
+**Q4. O que deve ser verificado se o vendedor tem um financiamento existente?**
+A) A cor da tinta
+B) Os hobbies do comprador
+C) A renda do inquilino
+D) Se ele tem cláusula de vencimento antecipado em caso de venda
+**Q5. Por que Rosa aceitou uma taxa de juros abaixo da dos bancos?**
+A) Foi obrigada
+B) Não gostava de bancos
+C) Não tinha escolha
+D) Recebeu um preço maior, renda estável e uma possível distribuição dos impostos
+
+## Gabarito
+Q1: A
+Q2: B
+Q3: B
+Q4: D
+Q5: D
+
+## Respostas e explicações
+**Q1.** O vendedor recebe pagamentos ao longo do tempo.
+**Q2.** Os vendedores podem trocar taxa por preço.
+**Q3.** Taxas menores do vendedor podem destravar negócios parados.
+**Q4.** Financiamentos existentes podem restringir o financiamento pelo vendedor.
+**Q5.** As prioridades dela foram atendidas por meio de trocas.
+
+## Pontos-chave
+- O financiamento pelo vendedor transforma o vendedor em credor
+- Negocie juntos preço, entrada, taxa, prazo e garantia
+- Em mercados de juros altos, o financiamento pelo vendedor pode destravar negócios
+- Concentre-se no que cada lado realmente precisa
+
+===== ORANGE-L5-008
+TITLE: Remuneração de vendas: incentivos, impostos e classificação
+SUMMARY: A remuneração orienta o comportamento, então desenhe-a de propósito; recompense vendas pagas, lucrativas, duradouras e honestas, lembre que as regras de classificação, encargos sobre a folha e comissões dependem da região, e escreva planos claros, incluindo estornos e saídas.
+KEYWORDS: plano de remuneração de vendas, estrutura de comissões, incentivos de vendas, impostos sobre comissões, remuneração da equipe de vendas
+# Remuneração de vendas: incentivos, impostos e classificação
+
+## Cenário de abertura
+SUPOSIÇÃO/OPINIÃO (cenário hipotético apenas para fins didáticos): Imagine os mercados imobiliário e de crédito ao consumidor de um país populoso que, depois de anos de expansão rápida, começam a mostrar sinais de uma correção forte à medida que a inadimplência aumenta.
+Aplique aqui: Enquanto um mercado de crédito se corrige, a equipe de vendas de uma financeira continua sendo paga pelo volume de empréstimos, mesmo com a inadimplência subindo. Pergunte em todas as cores: Que comportamento o plano de remuneração recompensa (LARANJA/PRETO)? Os vendedores são empregados ou prestadores autônomos (ROXO)? Como as comissões são tributadas e quando são devidas (VERDE)? A empresa consegue pagar o plano se as vendas desacelerarem (AZUL)?
+
+## Objetivos de aprendizagem
+- Desenhar uma remuneração que recompense os comportamentos certos
+- Relacionar o desenho da remuneração às regras tributárias e de classificação
+- Alinhar a remuneração de vendas ao fluxo de caixa e ao valor do cliente a longo prazo
+
+## Conteúdo principal
+A remuneração de vendas molda o comportamento com mais força do que quase qualquer outra ferramenta de gestão. As pessoas tendem a fazer aquilo pelo que são pagas.
+Estruturas comuns:
+- Só salário: Estável, incentiva o trabalho em equipe e o atendimento, mas pode reduzir a urgência.
+- Só comissão: Motivação forte, mas renda instável, e pode incentivar táticas agressivas.
+- Salário mais comissão: Um equilíbrio entre estabilidade e motivação.
+- Bônus: Ligados a metas como resultados da equipe, retenção de clientes ou lucro.
+- Estornos: Comissões devolvidas se um cliente cancela ou não paga dentro de um prazo.
+O que a remuneração deve recompensar? No nível 5, a resposta se liga ao negócio inteiro:
+- Vendas pagas, não só vendas assinadas (fluxo de caixa AZUL).
+- Vendas lucrativas, não só receita (margem).
+- Clientes que ficam (valor do tempo de vida, ORANGE-L5-003).
+- Práticas de venda honestas (ROXO e PRETO).
+Como as cores se conectam:
+- ROXO: Trabalhadores que só recebem comissão ainda podem ser empregados pelos testes de classificação (ROXO-L5-031 na trilha jurídica). Os planos de comissão devem ser escritos com clareza, incluindo quando as comissões são adquiridas e o que acontece quando alguém sai. REGRA ESPECÍFICA DA REGIÃO: Algumas jurisdições têm regras específicas sobre o pagamento de comissões; no Brasil, por exemplo, segundo as informações disponíveis, as comissões integram o salário do empregado, e a lei sobre vendedores empregados só permite estornar comissões em casos limitados, como a insolvência do comprador, portanto confirme com um advogado trabalhista.
+- VERDE: As comissões pagas a empregados em geral estão sujeitas a encargos sobre a folha e a retenção de impostos. REGRA ESPECÍFICA DA REGIÃO.
+- AZUL: A remuneração variável acompanha as vendas, o que protege o fluxo de caixa em períodos fracos. Mas pagar comissões antes de os clientes pagarem pode apertar o caixa.
+- PRETO: A remuneração reflete os valores da empresa. Um plano que recompensa empurrar produtos para clientes que não precisam deles pode prejudicar a cultura e a reputação.
+SUPOSIÇÃO/OPINIÃO: Um plano de remuneração que recompensa o volume de curto prazo à custa da qualidade dos clientes pode criar problemas que aparecem meses depois, como mostra o cenário.
+
+## Exemplo prático
+EXEMPLO ILUSTRATIVO: Marco tem uma empresa de instalação de energia solar. Os vendedores ganham 8% de comissão sobre contratos assinados.
+Surgem problemas:
+- Alguns clientes que assinaram depois cancelam ou não conseguem o financiamento.
+- Algumas vendas são feitas com descontos grandes que deixam pouca margem.
+- Alguns vendedores exageram a economia de energia para fechar negócios.
+Novo plano:
+- Salário-base mais comissão, o que deixa a estrutura de pagamento mais clara e apoia a classificação como empregado. REGRA ESPECÍFICA DA REGIÃO.
+- Comissão paga em duas partes: 50% quando o financiamento do cliente é aprovado e 50% depois da instalação e do pagamento.
+- Taxa de comissão ligada à margem: comissão maior para vendas no preço padrão e menor para vendas com desconto.
+- Bônus trimestral por baixas taxas de cancelamento e avaliações positivas dos clientes.
+- Plano escrito com clareza, incluindo as regras de estorno e o que acontece com comissões não pagas quando alguém sai.
+- Treinamento sobre afirmações corretas de economia (veja ROXO-L5-035 na trilha jurídica).
+O volume de vendas cai um pouco, mas os cancelamentos diminuem, as margens sobem e as reclamações caem. SUPOSIÇÃO/OPINIÃO: A empresa de Marco ficou mais lucrativa e mais confiável, mesmo com menos contratos assinados no total.
+
+## Teste de prática
+**Q1. Por que a remuneração de vendas é uma ferramenta de gestão tão poderosa?**
+A) É exigida por lei
+B) Reduz impostos
+C) As pessoas tendem a fazer aquilo pelo que são pagas
+D) Substitui o treinamento
+**Q2. O que é um estorno de comissão?**
+A) Comissões devolvidas se um cliente cancela ou não paga
+B) Um bônus
+C) Um tipo de salário
+D) Um imposto
+**Q3. Por que a remuneração deve recompensar vendas pagas em vez de vendas assinadas?**
+A) Vendas assinadas são ilegais
+B) As vendas pagas refletem o dinheiro que realmente entra no negócio
+C) É mais fácil de acompanhar
+D) Os clientes preferem
+**Q4. Como Marco reduziu os descontos?**
+A) Proibiu descontos
+B) Demitiu vendedores
+C) Ligou as taxas de comissão à margem
+D) Aumentou os preços
+**Q5. Qual foi o resultado do novo plano de Marco?**
+A) Colapso das vendas
+B) Mais cancelamentos
+C) Nenhuma mudança
+D) Volume um pouco menor, mas margens maiores, menos cancelamentos e menos reclamações
+
+## Gabarito
+Q1: C
+Q2: A
+Q3: B
+Q4: C
+Q5: D
+
+## Respostas e explicações
+**Q1.** O pagamento molda o comportamento.
+**Q2.** Os estornos alinham o pagamento aos resultados reais.
+**Q3.** O fluxo de caixa depende do pagamento, não das assinaturas.
+**Q4.** Comissões baseadas na margem desestimularam descontos grandes.
+**Q5.** Incentivos melhores melhoraram a saúde geral do negócio.
+
+## Pontos-chave
+- A remuneração orienta o comportamento; desenhe-a de propósito
+- Recompense vendas pagas, lucrativas, duradouras e honestas
+- As regras de classificação, encargos sobre a folha e comissões dependem da região
+- Escreva planos claros, incluindo estornos e saídas
+
+===== ORANGE-L5-009
+TITLE: Montar uma equipe de vendas ou terceirizar as vendas
+SUMMARY: Equipes internas oferecem controle, e a terceirização oferece flexibilidade e custos fixos menores; os contratos com representantes e distribuidores devem tratar de território, rescisão e propriedade dos clientes, a responsabilidade do empregador faz parte da decisão, e o modelo de vendas deve combinar com cada mercado.
+KEYWORDS: montar ou terceirizar vendas, representantes comerciais, equipe interna de vendas, vendas terceirizadas, distribuidor ou venda direta
+# Montar uma equipe de vendas ou terceirizar as vendas
+
+## Cenário de abertura
+SUPOSIÇÃO/OPINIÃO (cenário hipotético apenas para fins didáticos): Imagine uma ampla perturbação de saúde pública que paralisa o transporte marítimo e a produção no mundo por um longo período, travando ao mesmo tempo as cadeias de suprimentos de muitos setores.
+Aplique aqui: Depois de uma longa perturbação, uma empresa precisa reconstruir as vendas rapidamente. Pergunte em todas as cores: Ela deve contratar empregados (PRETO) ou usar representantes externos (LARANJA)? Que opção custa menos no início e ao longo do tempo (AZUL)? Que questões de contrato e de classificação surgem (ROXO)? Como cada opção afeta as famílias das pessoas envolvidas?
+
+## Objetivos de aprendizagem
+- Comparar equipes internas de vendas com opções terceirizadas
+- Avaliar as trocas entre custo, controle e flexibilidade
+- Considerar as obrigações legais e a responsabilidade do empregador
+
+## Conteúdo principal
+Uma empresa pode vender por meio dos próprios empregados ou de terceiros. Cada abordagem tem pontos fortes.
+Equipe interna de vendas:
+- Controle total do treinamento, das mensagens e da experiência do cliente.
+- Conhecimento profundo do produto e lealdade ao longo do tempo.
+- Custos fixos maiores: salários, benefícios, encargos sobre a folha, gestão.
+- Responsabilidades do empregador (PRETO/ROXO).
+Opções terceirizadas:
+- Representantes comerciais autônomos: Pagos principalmente por comissão. Custos fixos menores, mas menos controle, e muitas vezes representam outras empresas também.
+- Distribuidores: Compram os produtos e os revendem. Assumem o risco do estoque, mas também ficam com margem e com as relações com os clientes.
+- Empresas de vendas terceirizadas: Fornecem equipes treinadas mediante pagamento.
+Como as cores se conectam:
+- AZUL: A terceirização reduz os custos fixos e o investimento inicial. Equipes internas em geral custam mais no início, mas podem ser mais eficientes em escala.
+- ROXO: Os contratos com representantes e distribuidores devem tratar de território, exclusividade, comissão, rescisão e de quem são as relações com os clientes. REGRA ESPECÍFICA DA REGIÃO: Algumas jurisdições dão proteções especiais aos representantes ou distribuidores, como indenização na rescisão; no Brasil, por exemplo, segundo as informações disponíveis, a lei dos representantes comerciais garante uma indenização de pelo menos um doze avos do total das comissões recebidas e aviso prévio quando o contrato é rescindido sem justa causa, portanto confirme com um advogado. Representantes que trabalham como empregados podem precisar ser classificados como empregados (ROXO-L5-031).
+- VERDE: Empregados exigem encargos sobre a folha. Os pagamentos a prestadores e representantes têm regras de declaração diferentes. REGRA ESPECÍFICA DA REGIÃO.
+- PRETO: O tema da responsabilidade do empregador: contratar pessoal diretamente sustenta as famílias, sobretudo em economias onde os empregos formais são escassos. Os empregados merecem dignidade e tratamento justo.
+- BRANCO: Empresas que são donas das relações com os seus clientes muitas vezes valem mais do que as que dependem de distribuidores.
+Um caminho comum: começar com representantes ou distribuidores para testar mercados a baixo custo e depois montar uma equipe interna onde as vendas estão comprovadas e o volume justifica.
+SUPOSIÇÃO/OPINIÃO: Terceirizar as vendas pode ser inteligente no começo, mas uma empresa que nunca constrói as próprias relações com os clientes pode descobrir que o seu verdadeiro ativo pertence a outra pessoa.
+
+## Exemplo prático
+EXEMPLO ILUSTRATIVO: A empresa de Kemi fabrica equipamentos de cozinha para restaurantes. Depois de uma longa perturbação, ela precisa reconstruir as vendas em três regiões.
+Opção 1: Contratar 6 vendedores. Custo anual: cerca de R$ 480.000 em salários, benefícios e encargos sobre a folha, mais o tempo de gestão.
+Opção 2: Usar representantes autônomos nas três regiões, pagos com 10% de comissão.
+Opção 3: Uma abordagem mista.
+Ela escolhe a Opção 3:
+- Região A (o maior mercado dela): Contrata 3 empregados. Ela quer controle e relações diretas com os clientes.
+- Regiões B e C: Assina contratos de representação por 2 anos, com termos claros sobre território, comissão, rescisão e propriedade dos clientes. A advogada dela verifica as regras locais de proteção aos representantes. REGRA ESPECÍFICA DA REGIÃO.
+- Ela define um plano para avaliar a passagem da Região B para empregados se as vendas superarem um nível definido.
+Os empregados da Região A têm renda estável, e Kemi investe no treinamento deles. Os representantes trazem cobertura rápida para regiões menores sem grandes custos fixos.
+SUPOSIÇÃO/OPINIÃO: Kemi combinou cada modelo de vendas com o tamanho e a importância estratégica de cada mercado, em vez de escolher um único modelo para tudo.
+
+## Teste de prática
+**Q1. Qual é uma vantagem-chave de uma equipe interna de vendas?**
+A) Controle total do treinamento, das mensagens e da experiência do cliente
+B) Nenhum custo
+C) Nenhuma obrigação legal
+D) Nenhuma necessidade de gestão
+**Q2. Qual é uma vantagem-chave dos representantes autônomos?**
+A) Controle total
+B) Lealdade garantida
+C) Nenhum contrato necessário
+D) Custos fixos menores
+**Q3. Por que os contratos de representação devem tratar da propriedade dos clientes?**
+A) Para evitar impostos
+B) Para que a empresa mantenha as relações com os clientes se o representante sair
+C) Os representantes exigem
+D) É decorativo
+**Q4. Que proteção especial algumas jurisdições dão aos representantes de vendas?**
+A) Indenização na rescisão
+B) Moradia grátis
+C) Propriedade automática
+D) Isenções de impostos
+**Q5. Por que Kemi escolheu uma abordagem mista?**
+A) Ela combinou cada modelo de vendas com o tamanho e a importância de cada mercado
+B) Era a mais barata
+C) A lei exigia
+D) Ela não conseguia decidir
+
+## Gabarito
+Q1: A
+Q2: D
+Q3: B
+Q4: A
+Q5: A
+
+## Respostas e explicações
+**Q1.** Equipes internas oferecem controle e lealdade.
+**Q2.** Os representantes são pagos principalmente pelos resultados.
+**Q3.** As relações com os clientes são ativos valiosos.
+**Q4.** As proteções aos representantes variam. REGRA ESPECÍFICA DA REGIÃO.
+**Q5.** Mercados diferentes justificaram modelos diferentes.
+
+## Pontos-chave
+- Equipes internas oferecem controle; a terceirização oferece flexibilidade e custos fixos menores
+- Contratos com representantes e distribuidores devem tratar de território, rescisão e propriedade dos clientes
+- A responsabilidade do empregador faz parte da decisão
+- Combine o modelo de vendas com cada mercado
+
+===== ORANGE-L5-010
+TITLE: A marca como ativo: construir, avaliar e proteger
+SUMMARY: As marcas criam poder de preço, lealdade, resiliência e receita de licenciamento; a proteção jurídica é essencial para o valor da marca, a força da marca afeta a avaliação da empresa, e as marcas se constroem com entregas consistentes, não só com publicidade.
+KEYWORDS: valor da marca, marca como ativo, brand equity, proteção da marca registrada, avaliação de marca
+# A marca como ativo: construir, avaliar e proteger
+
+## Cenário de abertura
+SUPOSIÇÃO/OPINIÃO (cenário hipotético apenas para fins didáticos): Imagine a moeda de uma economia de porte médio perdendo grande parte do seu valor frente às principais moedas de reserva em poucos meses, impulsionada pela fuga de capitais do país e pela queda da confiança dos investidores.
+Aplique aqui: Em um país cuja moeda despencou, uma marca local conhecida mantém clientes fiéis mesmo com os preços subindo, enquanto concorrentes genéricos perdem vendas. Pergunte em todas as cores: O que tornou a marca valiosa (LARANJA)? Ela está protegida juridicamente (ROXO)? Como a força da marca afeta o valor da empresa para os investidores (BRANCO)? A marca pode ser licenciada no exterior para gerar receita em moedas mais fortes (AZUL)?
+
+## Objetivos de aprendizagem
+- Explicar como as marcas criam valor financeiro
+- Descrever como o valor da marca é protegido juridicamente e pelo marketing
+- Relacionar a força da marca ao poder de preço e à avaliação da empresa
+
+## Conteúdo principal
+Uma marca é mais do que um logotipo. É o conjunto de expectativas que os clientes têm sobre uma empresa: qualidade, confiabilidade, valores e experiência. Quando essas expectativas são positivas e consistentes, a marca cria valor financeiro real.
+Como as marcas criam valor:
+- Poder de preço: Os clientes podem pagar mais por uma marca em que confiam.
+- Lealdade: Clientes recorrentes custam menos para atender do que clientes novos (ORANGE-L5-003).
+- Resiliência: Em tempos difíceis, os clientes muitas vezes ficam com as marcas em que confiam, como no cenário.
+- Expansão: Uma marca forte pode se estender a novos produtos ou mercados com mais facilidade.
+- Licenciamento: A marca pode gerar receita de terceiros (ROXO-L5-030 na trilha jurídica).
+Como as cores se conectam:
+- ROXO: O registro e a defesa da marca a protegem juridicamente (ROXO-L5-028 e -029). Sem proteção, concorrentes ou falsificadores podem usar o nome.
+- BRANCO: Os investidores muitas vezes avaliam mais alto empresas com marcas fortes por causa do poder de preço e dos lucros estáveis. REGRA ESPECÍFICA DA REGIÃO: A forma como o valor da marca aparece nas demonstrações financeiras depende das regras contábeis. Marcas criadas internamente muitas vezes não são registradas pelo valor total, enquanto marcas compradas podem ser; no Brasil, por exemplo, segundo as informações disponíveis, as normas contábeis do CPC não permitem reconhecer como ativo uma marca gerada internamente, enquanto uma marca adquirida pode ser registrada, e o registro no INPI protege a marca, portanto confirme com um contador.
+- AZUL: Os investimentos na marca (publicidade, atendimento ao cliente, controle de qualidade) custam dinheiro agora para gerar valor depois.
+- VERDE: REGRA ESPECÍFICA DA REGIÃO: As despesas relacionadas à marca e a receita de licenciamento têm tratamento tributário; a titularidade da marca entre empresas relacionadas levanta questões de preços de transferência.
+- PRETO: A marca se constrói com um comportamento consistente em toda a empresa, não só no marketing.
+Uma marca pode ser prejudicada rapidamente: uma falha de qualidade, uma afirmação enganosa ou um mau tratamento aos clientes podem apagar anos de confiança.
+SUPOSIÇÃO/OPINIÃO: As marcas mais duradouras são construídas cumprindo promessas repetidamente ao longo do tempo. A publicidade pode apresentar uma marca, mas só a entrega consistente a sustenta.
+
+## Exemplo prático
+EXEMPLO ILUSTRATIVO: Duas torrefadoras de café operam em um país que passa por um colapso da moeda.
+A Torrefadora A construiu uma marca ao longo de 15 anos: qualidade consistente, tratamento justo aos produtores e embalagens claras. A marca está registrada no país e em dois mercados de exportação.
+A Torrefadora B vende café sem marca a preços baixos.
+Quando a moeda despenca e os custos de importação disparam:
+- A Torrefadora A aumenta os preços em 30%. A maioria dos clientes fica, confiando na qualidade.
+- A Torrefadora B aumenta os preços em 30%. Muitos clientes mudam para a opção mais barata disponível.
+A Torrefadora A também licencia a marca para um distribuidor em um mercado de exportação com moeda mais forte em troca de royalties (ROXO-L5-030), obtendo receita em moeda estrangeira.
+Dois anos depois, um investidor avalia a Torrefadora A por um múltiplo dos lucros muito maior do que a Torrefadora B, citando a força da marca, os clientes fiéis e a receita de licenciamento.
+SUPOSIÇÃO/OPINIÃO: A marca da Torrefadora A foi construída devagar, com qualidade consistente e práticas justas. Esse investimento rendeu mais na crise, quando os clientes tiveram de decidir em quem confiar.
+
+## Teste de prática
+**Q1. Segundo a lição, o que é uma marca?**
+A) O conjunto de expectativas que os clientes têm sobre uma empresa
+B) Apenas um logotipo
+C) Um tipo de imposto
+D) Uma pessoa jurídica
+**Q2. Como uma marca cria poder de preço?**
+A) Os clientes podem pagar mais por uma marca em que confiam
+B) Reduzindo custos
+C) Evitando a concorrência legalmente
+D) Reduzindo impostos
+**Q3. Por que as marcas criadas internamente muitas vezes não aparecem pelo valor total nas demonstrações financeiras?**
+A) Não têm valor
+B) São secretas
+C) São ilegais
+D) As regras contábeis muitas vezes as tratam de forma diferente das marcas compradas
+**Q4. Por que a Torrefadora A manteve a maioria dos clientes depois de aumentar os preços?**
+A) Os clientes confiavam na sua qualidade consistente
+B) Ela não tinha concorrentes
+C) O governo exigia
+D) Ela reduziu a qualidade
+**Q5. Segundo a lição, o que sustenta uma marca?**
+A) Apenas muita publicidade
+B) Um logotipo inteligente
+C) Cumprir promessas de forma consistente ao longo do tempo
+D) Preços baixos
+
+## Gabarito
+Q1: A
+Q2: A
+Q3: D
+Q4: A
+Q5: C
+
+## Respostas e explicações
+**Q1.** As marcas são construídas a partir das expectativas dos clientes.
+**Q2.** A confiança sustenta preços maiores.
+**Q3.** O tratamento contábil varia. REGRA ESPECÍFICA DA REGIÃO.
+**Q4.** A confiança na marca criou resiliência.
+**Q5.** A entrega sustenta o que a publicidade apresenta.
+
+## Pontos-chave
+- As marcas criam poder de preço, lealdade, resiliência e receita de licenciamento
+- A proteção jurídica é essencial para o valor da marca
+- A força da marca afeta a avaliação da empresa
+- As marcas se constroem com entregas consistentes, não só com publicidade
