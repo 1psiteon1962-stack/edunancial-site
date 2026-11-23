@@ -1,0 +1,149 @@
+===== GOLD-L3-001
+TITLE: Poukisa risk ak rannman mare ansanm, yo pa desizyon separe
+SUMMARY: Aprann poukisa yon rannman potansyèl ki pi wo anjeneral mande w aksepte yon risk ki pi wo, ak poukisa trete yo kòm chwa separe ki pa gen rapò mennen nan move desizyon envestisman.
+# GOLD-L3-001: Poukisa risk ak rannman mare ansanm, yo pa desizyon separe
+
+## Objektif aprantisaj
+Lè w fin fè leson sa a, w ap kapab:
+- Esplike relasyon jeneral ant risk ak rannman potansyèl
+- Esplike poukisa yon envestisman ki pwomèt gwo rannman ak ti risk ta dwe leve kesyon
+- Esplike poukisa evalye rannman san konsidere risk bay yon tablo ki pa konplè
+
+## Kontni prensipal
+
+Yon prensip debaz ki pase nan tout tras GOLD sa a: risk ak rannman potansyèl anjeneral mare ansanm, yo pa varyab endepandan yon envestisè ka optimize lib separeman. Men "poukisa" ki dèyè relasyon sa a: envestisman ki gen plis ensètitid sou rezilta yo — plis risk — anjeneral bezwen ofri plis rannman potansyèl pou yo menm atire kapital, paske envestisè yo mande yon konpansasyon pou yo pote ensètitid anplis sa a. Yon envestisman ki ofri gwo rannman potansyèl ak trè piti vrè risk ta, nan yon mache ki fonksyone rezonabman, atire tèlman kapital k ap chèche konbinezon favorab sa a ke pri li ta anjeneral monte jiskaske rannman anplis la disparèt pi fò.
+
+[FÈ VERIFYE] Se poutèt sa yo ta dwe trete deklarasyon gwo rannman ak risk minimòm ak yon dout patikilye — swa y ap bay risk la pi piti pase l ye oswa yo pa konprann li byen, swa yon lòt bagay nan sitiyasyon an pa koresponn ak modèl nòmal relasyon sa a dekri a. Sa pa vle di chak envestisman ki riske otomatikman bay gwo rannman — anpil envestisman ki riske senpleman pèdi lajan — men sa vle di opòtinite ki vrèman ba risk raman ofri rannman ekstraòdinè pou yon peryòd ki dire.
+
+Prensip sa a se baz ki fè evalye rannman yon envestisman poukont li, san mande ki risk yo te pran pou rive jwenn li, bay yon tablo ki pa konplè e ki ka twonpe moun — yon sijè yo devlope plis nan tout tras sa a.
+
+## Egzanp pratik
+
+[EGZANP ILISTRATIF] Yo prezante yon envestisè de opòtinite: youn ki ofri rannman modès, estab ak yon pwofil risk limite yo konprann byen, ak yon lòt ki pwomèt rannman pi wo anpil ak menm nivo risk ba yo deklare a. [SIPOZISYON] Dapre relasyon jeneral ant risk ak rannman, deklarasyon dezyèm opòtinite a ta dwe pouse yon egzamen atantif — swa vrè risk li pi wo pase sa yo prezante, swa deklarasyon rannman li yo pa reyalis oswa yo egzajere, swa gen yon lòt pwoblèm (petèt menm fwod) ki pa koresponn ak modèl nòmal relasyon sa a ta prevwa pou yon opòtinite lejitim e dirab.
+
+## Egzamen pratik
+
+1. Ki relasyon jeneral ant risk ak rannman potansyèl?
+2. Poukisa yon envestisman ki deklare gwo rannman ak risk minimòm ta dwe leve kesyon?
+3. Èske prensip sa a vle di chak envestisman ki riske otomatikman bay gwo rannman?
+
+## Kle repons yo
+
+1. Envestisman ki gen plis ensètitid anjeneral bezwen ofri plis rannman potansyèl pou atire kapital, paske envestisè yo mande yon konpansasyon pou yo pote risk anplis sa a.
+2. Paske nan yon mache ki fonksyone rezonabman, opòtinite ki vrèman ba risk e ki bay gwo rannman ta atire tèlman kapital ke rannman anplis la ta anjeneral disparèt — yon deklarasyon ki pa nòmal sijere yon risk yo pa konprann byen oswa yon lòt pwoblèm.
+3. Non — anpil envestisman ki riske senpleman pèdi lajan; relasyon an dekri yon modèl jeneral konpansasyon yo mande pou risk, pa yon garanti ke pran risk ap peye.
+
+## Repons ak eksplikasyon
+
+1. Sa a se prensip debaz tout leson an, ak anpil nan tras sa a, bati sou li.
+2. Sa a se avètisman santral, pratik leson an mete aksan sou li.
+3. Sa a se yon klarifikasyon enpòtan ki anpeche yon fason twò senp pou konprann li tankou "risk toujou peye".
+
+## Pwen kle yo
+- Risk ak rannman potansyèl anjeneral mare ansanm, yo pa varyab ou ka optimize poukont yo.
+- Yo ta dwe trete deklarasyon gwo rannman ak risk minimòm ak yon dout patikilye.
+- Relasyon sa a dekri konpansasyon yo mande pou pote risk, pa yon garanti ke pran risk bay gwo rannman.
+
+---
+
+*Leson sa a se sèlman pou edikasyon finansye jeneral, e li pa konstitye konsèy finansye, envestisman, taks, oswa legal pèsonalize. Tout chif yo se estimasyon ilistratif, pa garanti. Konsilte yon pwofesyonèl finansye ki gen lisans anvan w pran desizyon envestisman.*
+
+===== GOLD-L3-002
+TITLE: Poukisa "risk" vle di diferan bagay pou diferan envestisè
+SUMMARY: Aprann poukisa risk pa yon sèl konsèp inivèsèl, ak poukisa menm envestisman an ka vrèman riske pou yon envestisè e rezonab pou yon lòt.
+# GOLD-L3-002: Poukisa "risk" vle di diferan bagay pou diferan envestisè
+
+## Objektif aprantisaj
+Lè w fin fè leson sa a, w ap kapab:
+- Esplike poukisa "risk" pa yon sèl konsèp fiks pou tout moun
+- Idantifye plizyè dimansyon risk ki enpòtan pou diferan envestisè
+- Esplike poukisa menm envestisman an ka rezonab pou yon envestisè e pa rezonab pou yon lòt
+
+## Kontni prensipal
+
+Leson 1 te etabli relasyon jeneral ant risk ak rannman. Men "poukisa" leson sa a ale pi lwen: "risk" li menm pa yon sèl konsèp fiks pou tout moun — li vle di bagay ki vrèman diferan selon sikonstans espesifik, objektif, ak orizon tan yon envestisè.
+
+Pou yon envestisè, risk ta ka vle di chans pou l pèdi kapital li yon fason pèmanan, san li pa ka rekipere l. Pou yon lòt, ki pi pre moman li bezwen lajan an pou yon objektif espesifik nan yon ti tan, risk ta ka vle di volatilite kout tèm ki ta ka fòse l vann nan yon move moman (sa ki konekte ak diferans ant volatilite ak risk yo kouvri nan tras WHITE kourikoulòm sa a). Pou yon moun ki konsantre sou revni retrèt, risk ta ka vle di sitou chans pou revni li pa swiv enflasyon pandan plizyè dizèn ane. [FÈ VERIFYE] Diferan fason sa yo pou wè risk pa kontredi youn lòt — yo reflete reyalite ke risk fondamantalman se chans pou w pa reyalize yon objektif espesifik, e diferan envestisè gen diferan objektif.
+
+Se poutèt sa menm envestisman espesifik la ka vrèman riske pou yon envestisè e nèt rezonab pou yon lòt: yon envestisman kwasans long tèm ki volatil ta ka yon risk rezonab pou yon jèn envestisè ki gen plizyè dizèn ane anvan retrèt, men li vrèman riske pou yon moun ki bezwen lajan espesifik sa a nan ane k ap vini an.
+
+## Egzanp pratik
+
+[EGZANP ILISTRATIF] Yon jèn envestisè ki gen plizyè dizèn ane anvan retrèt e ki gen yon sous revni divèsifye konsidere yon envestisman volatil, ki vize kwasans, kòm yon risk rezonab, paske li gen anpil tan pou l rekipere apre bès kout tèm e objektif prensipal li se kwasans long tèm. Yon retrete k ap konte sou menm pòtfèy sa a pou depans lavi li nan yon ti tan ta wè yon envestisman idantik yon fason trè diferan — menm volatilite ki se yon risk rezonab pou jèn envestisè a reprezante yon vrè menas pou estabilite finansye kout tèm retrete a. [SIPOZISYON] Okenn nan de envestisè yo pa twonpe sou risk envestisman an; yo chak ap evalye risk la kòrèkteman konpare ak pwòp objektif espesifik yo ak orizon tan yo, ki vrèman diferan.
+
+## Egzamen pratik
+
+1. Poukisa "risk" pa yon sèl konsèp fiks pou tout moun?
+2. Kisa risk fondamantalman ye, dapre leson sa a?
+3. Poukisa menm envestisman espesifik la ka rezonab pou yon envestisè e vrèman riske pou yon lòt?
+
+## Kle repons yo
+
+1. Paske li vle di diferan bagay selon sikonstans espesifik, objektif, ak orizon tan yon envestisè — pèt pèmanan, volatilite kout tèm, oswa mank revni ajiste pou enflasyon, pami lòt fason pou wè l.
+2. Chans pou w pa reyalize yon objektif espesifik, sa ki vle di evalyasyon risk depann de kisa objektif sa a vrèman ye.
+3. Paske objektif espesifik ak orizon tan yo vrèman diferan, sa ki chanje sa "risk" vle di nan pratik pou chak nan yo.
+
+## Repons ak eksplikasyon
+
+1. Sa a se nouvo fason pou wè bagay yo santral leson an bati sou li, ki pwolonje konsèp debaz Leson 1 la.
+2. Sa a se definisyon ki ini diferan fason pou wè risk yo dekri yo.
+3. Sa aplike konsèp lan sou yon konparezon konkrè, fasil pou idantifye, ant de sitiyasyon envestisè diferan.
+
+## Pwen kle yo
+- "Risk" pa yon sèl konsèp inivèsèl — li pran diferan fòm pratik selon objektif espesifik yon envestisè.
+- Risk fondamantalman se chans pou w pa reyalize yon objektif espesifik, kèlkeswa objektif sa a ye pou yon envestisè.
+- Menm envestisman an ka yon risk rezonab pou yon envestisè e yon vrè risk pou yon lòt, selon orizon tan ak objektif ki diferan.
+
+---
+
+*Leson sa a se sèlman pou edikasyon finansye jeneral, e li pa konstitye konsèy finansye, envestisman, taks, oswa legal pèsonalize. Konsilte yon pwofesyonèl finansye ki gen lisans anvan w pran desizyon envestisman.*
+
+===== GOLD-L3-003
+TITLE: Poukisa orizon tan an chanje konbyen risk ki fè sans
+SUMMARY: Aprann poukisa kantite tan anvan w bezwen rive jwenn lajan w detèmine dirèkteman konbyen risk envestisman ki rezonab pou w pran.
+# GOLD-L3-003: Poukisa orizon tan an chanje konbyen risk ki fè sans
+
+## Objektif aprantisaj
+Lè w fin fè leson sa a, w ap kapab:
+- Esplike poukisa orizon tan afekte dirèkteman konbyen risk envestisman ki fè sans
+- Esplike poukisa yon orizon tan ki pi long anjeneral pèmèt absòbe plis volatilite
+- Konekte konsèp sa a ak diskisyon sou chemen desant (glide path) yo kouvri nan tras WHITE kourikoulòm sa a
+
+## Kontni prensipal
+
+Leson 2 te etabli ke risk depann anpil de objektif espesifik ak sikonstans yon envestisè. **Orizon tan** — konbyen tan anvan yo vrèman bezwen lajan yo envesti a — se youn nan faktè ki pi enpòtan ki fòme sa sikonstans sa yo vrèman mande.
+
+Men "poukisa" yon orizon tan ki pi long anjeneral sipòte plis risk: yon envestisman ki gen anpil volatilite kout tèm bezwen tan pou l ka rekipere apre yon bès anvan yo vrèman oblije retire lajan an. Yon envestisè ki gen plizyè dizèn ane anvan li bezwen lajan an anjeneral ka pèmèt li kenbe pandan plizyè sik mache, li travèse bès ki ta vrèman fè domaj pou yon moun ki bezwen retire lajan pandan menm bès sa a. [FÈ VERIFYE] Se egzakteman lojik sa a ki dèyè konsèp chemen desant yo kouvri nan tras WHITE kourikoulòm sa a — chanje piti piti pou envestisman ki pi konsèvatif pandan yon dat sib ap pwoche, espesyalman paske yon orizon tan k ap retresi diminye kapasite pou senpleman tann yon bès pase.
+
+Se poutèt sa "konbyen risk mwen ta dwe pran" vrèman pa yon kesyon konplè si yo pa presize tou "pou ki objektif, e kilè mwen bezwen lajan sa a" — orizon tan pa yon ti detay, se yon done santral nan nenpòt evalyasyon risk rezonab.
+
+## Egzanp pratik
+
+[EGZANP ILISTRATIF] Yon envestisè k ap ekonomize pou yon objektif 25 ane devan ka rezonabman aksepte anpil volatilite kout tèm pandan l ap chèche yon potansyèl kwasans long tèm ki pi wo, paske li gen anpil tan pou l rekipere apre nenpòt bès sou wout la. Menm envestisè a, k ap ekonomize pou yon lòt objektif jis yon ane devan, ta chwazi rezonabman yon apwòch pi konsèvatif anpil pou lajan espesifik sa a, paske yon bès nan ane k ap vini an ta ka fè domaj dirèkteman e imedyatman nan kapasite li pou l reyalize objektif kout tèm sa a, san okenn tan ki rete pou rekipere anvan li bezwen lajan an. [SIPOZISYON] Menm envestisè a, ak de objektif diferan sou de kalandriye diferan, pran rezonabman de desizyon risk trè diferan — sa ki montre ke orizon tan, pa tolerans risk pèsonèl sèlman, se sa ki detèmine pi fò nan ki nivo risk ki vrèman fè sans pou yon kantite lajan espesifik.
+
+## Egzamen pratik
+
+1. Poukisa orizon tan afekte dirèkteman konbyen risk envestisman ki fè sans?
+2. Poukisa yon envestisè ki gen plizyè dizèn ane anvan yon objektif anjeneral ka aksepte plis volatilite pase youn ki gen yon ane sèlman?
+3. Kijan leson sa a konekte ak konsèp chemen desant yo kouvri nan tras WHITE la?
+
+## Kle repons yo
+
+1. Paske yon envestisman bezwen tan pou l ka rekipere apre volatilite kout tèm anvan yo vrèman retire lajan an — orizon tan ki pi long bay plis opòtinite pou rekiperasyon sa a.
+2. Paske envestisè ki gen orizon pi long lan ka travèse plizyè sik mache anvan li bezwen lajan an, alòske envestisè ki gen orizon pi kout la pa gen okenn tan ki rete pou rekipere apre yon bès anvan li afekte objektif li dirèkteman.
+3. Yon chemen desant diminye risk piti piti pandan yon dat sib ap pwoche, sa ki aplike dirèkteman prensip debaz leson sa a: yon orizon tan k ap retresi diminye kapasite pou absòbe volatilite, sa ki mande yon apwòch pi konsèvatif.
+
+## Repons ak eksplikasyon
+
+1. Sa a se "poukisa" santral leson an bati sou li.
+2. Sa bay prensip abstrè a yon baz nan yon konparezon konkrè, fasil pou idantifye.
+3. Sa konekte leson an klèman ak yon konsèp paralèl yo kouvri lòt kote nan kourikoulòm sa a.
+
+## Pwen kle yo
+- Orizon tan se yon done santral nan konbyen risk envestisman ki fè sans rezonabman pou yon kantite lajan espesifik.
+- Orizon tan ki pi long anjeneral sipòte plis risk, paske gen plis tan pou rekipere apre volatilite kout tèm.
+- Menm envestisè a ka pran rezonabman desizyon risk trè diferan pou diferan objektif ki gen diferan kalandriye.
+
+---
+
+*Leson sa a se sèlman pou edikasyon finansye jeneral, e li pa konstitye konsèy finansye, envestisman, taks, oswa legal pèsonalize. Konsilte yon pwofesyonèl finansye ki gen lisans anvan w pran desizyon envestisman.*
