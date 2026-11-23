@@ -1,0 +1,149 @@
+===== PURPLE-L3-001
+TITLE: Poukisa yon kontra bezwen òf, akseptasyon, ak kontrepati pou l ka aplike
+SUMMARY: Aprann twa eleman debaz ki fè yon kontra ka aplike devan lalwa, ak poukisa yon akò ki manke nenpòt youn nan yo ka pa kenbe.
+# PURPLE-L3-001: Poukisa yon kontra bezwen òf, akseptasyon, ak kontrepati pou l ka aplike
+
+## Objektif aprantisaj
+Lè w fin fè leson sa a, w ap kapab:
+- Idantifye twa eleman debaz yo anjeneral mande pou yon kontra ka aplike
+- Esplike poukisa chak eleman sèvi yon objektif legal apa
+- Esplike poukisa yon akò ki manke youn nan eleman sa yo ka pa aplikab devan lalwa
+
+## Kontni prensipal
+
+Yon **kontra** anjeneral se yon akò ant pati yo ke lalwa ka fè respekte. [FÈ VERIFYE] Menm si egzijans espesifik yo varye selon jiridiksyon ak kalite kontra, pifò sistèm legal anjeneral mande twa eleman debaz pou yon kontra ka aplike: yon **òf** (yon pati pwopoze kondisyon espesifik), yon **akseptasyon** (lòt pati a dakò ak kondisyon espesifik sa yo), ak yon **kontrepati** (consideration) (yon bagay ki gen valè pati yo echanje, yo egzamine sa plis nan pwochen leson an).
+
+Men "poukisa" chak eleman sèvi yon objektif apa: egzijans òf ak akseptasyon an asire gen yon vrè akò, ou ka idantifye, ant lespri yo — tou de pati yo vrèman dakò ak menm kondisyon espesifik yo, pa sèlman yon konpreyansyon vag, jeneral. Egzijans kontrepati a asire akò a se yon vrè echanj, pa senpleman pwomès yon sèl pati fè pou yon kado oswa yon favè lalwa pa ka fè respekte, san anyen yo bay an retou.
+
+Se poutèt sa yon akò ki manke youn nan eleman sa yo ka pa kenbe kòm yon kontra lalwa ka fè respekte, menm si tou de pati yo te vrèman gen entansyon pou yo angaje — yon pwomès san fòmalite san okenn òf ak akseptasyon klè, oswa yon aranjman kote yo pa vrèman echanje anyen ki gen valè, ka pa rive nan nivo legal debaz pou l aplikab, kèlkeswa entansyon sensè pati yo. [RÈG ESPESIFIK POU REJYON AN] An Ayiti, Kòd Sivil la gouvène kontra yo, e kondisyon li yo ka diferan; verifye ak yon avoka ki kalifye pou sitiyasyon w.
+
+## Egzanp pratik
+
+[EGZANP ILISTRATIF] Yon biznis pwopoze kondisyon espesifik bay yon lòt — yon pri espesifik pou yon kantite machandiz espesifik ki pou livre anvan yon dat espesifik (òf la). Dezyèm biznis lan dakò ak egzakteman kondisyon sa yo (akseptasyon an). Lajan chanje men an echanj pou machandiz yo (kontrepati a). Tout twa eleman yo la, sa ki fòme yon kontra lalwa ka fè respekte. [SIPOZISYON] Si okontrè yon biznis te senpleman eksprime yon entansyon vag, jeneral pou "petèt fè kèk biznis ansanm yon lè", san yo pa janm pwopoze e aksepte kondisyon espesifik, e san yo pa vrèman pwomèt anyen ki gen valè an echanj, aranjman sa a ki pi lach ta gen chans pa rive nan nivo debaz pou yon kontra aplikab, kèlkeswa bon entansyon tou de pati yo.
+
+## Egzamen pratik
+
+1. Ki twa eleman debaz yo anjeneral mande pou yon kontra ka aplike?
+2. Ki objektif egzijans òf ak akseptasyon an sèvi?
+3. Ki objektif egzijans kontrepati a sèvi?
+
+## Kle repons yo
+
+1. Òf, akseptasyon, ak kontrepati.
+2. Li asire gen yon vrè akò, ou ka idantifye, ant lespri yo — tou de pati yo vrèman dakò ak menm kondisyon espesifik yo.
+3. Li asire akò a se yon vrè echanj valè, pa senpleman yon pwomès kado lalwa pa ka fè respekte san anyen yo bay an retou.
+
+## Repons ak eksplikasyon
+
+1. Sa a se definisyon debaz, an twa pati, leson an.
+2. Sa esplike objektif legal espesifik ki dèyè egzijans òf ak akseptasyon an.
+3. Sa esplike objektif legal espesifik ki dèyè egzijans kontrepati a, e li prepare pwochen leson an.
+
+## Pwen kle yo
+- Pifò sistèm legal anjeneral mande yon òf, yon akseptasyon, ak yon kontrepati pou yon kontra ka aplike devan lalwa.
+- Chak eleman sèvi yon objektif apa: asire yon vrè akò sou kondisyon espesifik, e asire yon vrè echanj valè.
+- Yon akò ki manke youn nan eleman sa yo ka pa aplikab devan lalwa, menm ak entansyon sensè tou de pati yo.
+
+---
+
+*Leson sa a se sèlman pou edikasyon legal jeneral, e li pa konstitye konsèy legal pèsonalize. Egzijans lwa sou kontra yo varye selon jiridiksyon; konsilte yon avoka ki gen lisans pou konsèy ki espesifik pou sitiyasyon ou.*
+
+===== PURPLE-L3-002
+TITLE: Poukisa "kontrepati" a dwe gen yon vrè valè, pa sèlman egziste sou papye
+SUMMARY: Aprann poukisa kontrepati nan yon kontra dwe reflete yon vrè echanj valè, ak poukisa yon pwomès ki senbolik sèlman oswa ki nan yon sèl bò anjeneral pa konte.
+# PURPLE-L3-002: Poukisa "kontrepati" a dwe gen yon vrè valè, pa sèlman egziste sou papye
+
+## Objektif aprantisaj
+Lè w fin fè leson sa a, w ap kapab:
+- Esplike kisa kontrepati anjeneral mande pi lwen pase senpleman ekri l nan yon dokiman
+- Esplike poukisa yon pwomès nan yon sèl bò, san resipwosite, anjeneral pa aplikab kòm yon kontra
+- Esplike konsèp jeneral kontrepati senbolik (nominal consideration) ak limit li
+
+## Kontni prensipal
+
+Leson 1 te prezante kontrepati kòm youn nan twa eleman debaz yon kontra aplikab. Men "poukisa" egzijans sa a konsène vrè sibstans, pa sèlman aparans fòmèl: [FÈ VERIFYE] kontrepati anjeneral mande chak pati bay oswa renonse a yon bagay ki gen valè — sa pa bezwen an lajan, e li pa bezwen gen menm valè pou de pati yo, men anjeneral li bezwen reflete yon echanj reyèl, otantik, pa senpleman yon pwomès nan yon sèl bò san anyen yo bay an retou.
+
+Men poukisa yon pwomès nan yon sèl bò sèlman anjeneral pa satisfè egzijans sa a: si yon pati pwomèt fè yon bagay pou lòt la san li pa atann ni resevwa anyen ditou an retou, sa sanble ak yon kado oswa yon pwomès gratis, anpil sistèm legal anjeneral pa trete kòm yon kontra aplikab, egzakteman paske eleman echanj mityèl kontrepati a sipoze verifye a manke.
+
+[FÈ VERIFYE] Kèk akò gen ladan yo sa yo pafwa rele "kontrepati senbolik" (nominal consideration) — yon kantite senbolik, tankou yon ti sòm espesifik, yo mete espesyalman pou satisfè egzijans fòmèl kontrepati a. Tribinal nan diferan jiridiksyon pran diferan apwòch sou si kontrepati senbolik sèlman, ki pa konekte ak okenn vrè echanj, ase — sa a se yon domèn kote fè espesifik yo ak apwòch jiridiksyon ki aplike a vrèman enpòtan, olye yon règ inivèsèl ki regle.
+
+## Egzanp pratik
+
+[EGZANP ILISTRATIF] Yon pati pwomèt bay yon lòt yon objè ki gen valè kòm yon vrè kado, san li pa atann ni resevwa anyen an retou. Menm si yo mete pwomès sa a alekri e tou de pati yo siyen l, li gen chans pa gen kontrepati ki nesesè pou l se yon kontra aplikab — li sanble ak yon pwomès kado lalwa pa ka fè respekte, pa yon vrè echanj yo negosye. [SIPOZISYON] Si okontrè de pati yo te dakò pou yo bay objè a an echanj pou yon sèvis oswa yon peman espesifik, menm si li modès, echanj mityèl sa a ta gen chans satisfè egzijans kontrepati a, sa ki montre diferans ant yon pwomès nan yon sèl bò ak yon vrè echanj yo negosye, menm si li modès.
+
+## Egzamen pratik
+
+1. Kisa kontrepati anjeneral mande, pi lwen pase senpleman ekri l nan yon dokiman?
+2. Poukisa yon pwomès nan yon sèl bò sèlman, san anyen yo bay an retou, anjeneral pa satisfè egzijans kontrepati a?
+3. Kisa "kontrepati senbolik" ye, e èske kesyon si li ase se yon règ inivèsèl ki regle?
+
+## Kle repons yo
+
+1. Chak pati dwe bay oswa renonse a yon bagay ki gen valè, ki reflete yon echanj reyèl, otantik, menm si valè a pa bezwen an lajan ni egal ant pati yo.
+2. Paske li sanble ak yon kado oswa yon pwomès gratis, li manke eleman echanj mityèl egzijans kontrepati a fèt espesyalman pou verifye a.
+3. Yon kantite senbolik yo mete espesyalman pou satisfè fòmèlman egzijans kontrepati a; kesyon si li ase, sitou lè li pa konekte ak okenn vrè echanj, varye selon jiridiksyon ak fè espesifik yo, li pa yon règ inivèsèl ki regle.
+
+## Repons ak eksplikasyon
+
+1. Sa pwolonje prezantasyon kontrepati Leson 1 la ak diferans espesifik ant sibstans ak fòm.
+2. Sa a se "poukisa" santral ki esplike poukisa pwomès nan yon sèl bò anjeneral pa kontra aplikab.
+3. Sa a se yon nuans enpòtan, ak rezèv ki apwopriye, olye yon fo sètitid.
+
+## Pwen kle yo
+- Kontrepati dwe reflete yon vrè echanj valè mityèl, pa sèlman parèt fòmèlman nan yon dokiman ekri.
+- Yon pwomès nan yon sèl bò san anyen yo bay an retou anjeneral pa gen kontrepati ki nesesè pou yon kontra aplikab.
+- Kesyon si kontrepati senbolik ase, lè li pa konekte ak yon vrè echanj, varye selon jiridiksyon ak fè espesifik yo.
+
+---
+
+*Leson sa a se sèlman pou edikasyon legal jeneral, e li pa konstitye konsèy legal pèsonalize. Egzijans lwa sou kontra yo varye selon jiridiksyon; konsilte yon avoka ki gen lisans pou konsèy ki espesifik pou sitiyasyon ou.*
+
+===== PURPLE-L3-003
+TITLE: Poukisa yon vyolasyon kontra pa toujou vle di tout akò a kraze
+SUMMARY: Aprann poukisa tribinal yo fè diferans ant vyolasyon kontra ki piti ak vyolasyon ki esansyèl, ak poukisa kalite vyolasyon an detèmine ki remèd ki vrèman disponib.
+# PURPLE-L3-003: Poukisa yon vyolasyon kontra pa toujou vle di tout akò a kraze
+
+## Objektif aprantisaj
+Lè w fin fè leson sa a, w ap kapab:
+- Esplike diferans jeneral ant yon vyolasyon esansyèl ak yon ti vyolasyon kontra
+- Esplike poukisa diferans sa a detèmine ki remèd ki disponib
+- Esplike poukisa se pa chak fwa yon moun pa respekte kondisyon kontra a parfètman ki fini tout akò a
+
+## Kontni prensipal
+
+Yon **vyolasyon kontra** (breach of contract) rive lè yon pati pa akonpli obligasyon li dapre yon akò. Men "poukisa" yo pa trete chak vyolasyon menm jan: [FÈ VERIFYE] anpil sistèm legal anjeneral fè diferans ant yon **vyolasyon esansyèl** (material breach) — yon gwo echèk ki detwi objektif prensipal kontra a — ak yon **ti vyolasyon** (minor breach) — yon echèk ki mwens enpòtan ki pa detwi objektif jeneral kontra a, menm si teknikman li toujou se yon echèk pou fè egzakteman sa yo te dakò a.
+
+Diferans sa a enpòtan paske li anjeneral detèmine ki remèd ki disponib: yon vyolasyon esansyèl ka pèmèt pati ki pa vyole a trete tout kontra a kòm fini e chèche domaj pou tout echèk la. Yon ti vyolasyon anjeneral pa egzante pati ki pa vyole a de pwòp obligasyon ki rete li yo dapre kontra a — li ka gen dwa a domaj pou dega espesifik, limite ti vyolasyon an koze, men kontra debaz la anjeneral rete an vigè e yo toujou atann tou de pati yo kontinye akonpli obligasyon ki rete yo.
+
+Se poutèt sa "lòt pati a vyole kontra a" pa otomatikman vle di "mwen lib de tout pwòp obligasyon mwen dapre li" — gravite espesifik ak nati vyolasyon an enpòtan anpil pou sa ki vrèman rive apre.
+
+## Egzanp pratik
+
+[EGZANP ILISTRATIF] Yon kontra pou yon gwo pwojè konstriksyon presize yon dat pou fini. Si kontraktè a depase dat sa a pa yon sèl jou akoz yon ti pwoblèm ki fasil pou korije, yo ta ka trete sa kòm yon ti vyolasyon — pwopriyetè a gen chans pa ka senpleman kite tout kontra a, men li ta ka gen dwa a yon remèd espesifik pou reta limite sa a, tankou yon ti rabè yo negosye, si kontra a oswa lalwa ki aplike a prevwa youn. [SIPOZISYON] Si okontrè kontraktè a abandone pwojè a nèt nan mitan, li pa livre anyen ki pre sa yo te dakò a, yo ta gen chans trete sa kòm yon vyolasyon esansyèl — sa ki detwi objektif prensipal kontra a e ki ka pèmèt pwopriyetè a fini akò a nèt e chèche domaj pou tout echèk la.
+
+## Egzamen pratik
+
+1. Ki diferans jeneral ant yon vyolasyon esansyèl ak yon ti vyolasyon?
+2. Poukisa diferans sa a enpòtan pou ki remèd ki disponib?
+3. Poukisa se pa chak vyolasyon ki otomatikman egzante pati ki pa vyole a de pwòp obligasyon ki rete li yo?
+
+## Kle repons yo
+
+1. Yon vyolasyon esansyèl detwi anpil objektif prensipal kontra a; yon ti vyolasyon se yon echèk ki mwens enpòtan ki pa detwi objektif jeneral kontra a.
+2. Paske yon vyolasyon esansyèl ka pèmèt pati ki pa vyole a fini tout kontra a e chèche tout domaj, alòske yon ti vyolasyon anjeneral bay sèlman dwa a domaj pou dega espesifik, limite a, ak kontra a ki rete an vigè otreman.
+3. Paske lalwa anjeneral mande pou vyolasyon an grav ase pou l detwi objektif prensipal kontra a anvan li egzante lòt pati a nèt de pwòp obligasyon li — yon ti echèk pa rive nan nivo sa a.
+
+## Repons ak eksplikasyon
+
+1. Sa a se diferans debaz leson an bati sou li.
+2. Sa a se "poukisa" santral ki esplike konsekans pratik diferans sa a.
+3. Sa ranfòse pwen enpòtan, moun souvan konprann mal, sou obligasyon ki kontinye apre yon ti vyolasyon.
+
+## Pwen kle yo
+- Anpil sistèm legal fè diferans ant yon vyolasyon esansyèl (ki detwi objektif prensipal kontra a) ak yon ti vyolasyon (yon echèk ki mwens grav).
+- Diferans sa a detèmine si pati ki pa vyole a ka fini tout kontra a oswa si li limite a domaj pou yon dega espesifik, pi piti.
+- Se pa chak vyolasyon ki libere pati ki pa vyole a de pwòp obligasyon ki rete li yo — gravite vyolasyon an enpòtan anpil.
+
+---
+
+*Leson sa a se sèlman pou edikasyon legal jeneral, e li pa konstitye konsèy legal pèsonalize. Lwa sou kontra yo varye selon jiridiksyon; konsilte yon avoka ki gen lisans pou konsèy ki espesifik pou sitiyasyon ou.*
