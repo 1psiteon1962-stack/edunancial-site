@@ -1,0 +1,486 @@
+===== ORANGE-L5-011
+TITLE: Marketing in der Inflation: Preise erhöhen, ohne Vertrauen zu verlieren
+SUMMARY: Inflation erzwingt eine Wahl zwischen Marge und Kundenbindung; nutze gezielte Erhöhungen, Preisstufen und zusätzlichen Nutzen, kommuniziere früh und ehrlich ohne versteckte Änderungen, und schütze die Margen, um die Finanzierung zu schützen.
+KEYWORDS: Preise bei Inflation erhöhen, Preiserhöhung kommunizieren, Marketingstrategie in der Inflation, Margen schützen
+# Marketing in der Inflation: Preise erhöhen, ohne Vertrauen zu verlieren
+
+## Einstiegsszenario
+ANNAHME/MEINUNG (hypothetisches Szenario, nur zu Lernzwecken): Stell dir eine Zentralbank vor, die ihren Leitzins innerhalb weniger Monate kräftig und wiederholt anhebt, um eine steigende Inflation zu bekämpfen.
+Wende es hier an: Die Inflation ist hoch, und eine Zentralbank erhöht weiter die Zinsen. Die Kosten eines Unternehmens sind um 15 % gestiegen. Frag über die Farben hinweg: Wie stark sollten die Preise steigen, und wie sollte die Erhöhung erklärt werden (ORANGE)? Was erlauben die bestehenden Kundenverträge (PURPLE)? Was passiert mit Cashflow und Kreditauflagen, wenn die Margen schrumpfen (BLUE)? Wie verändert die Inflation den realen Wert des Geldes, das das Unternehmen hält (WHITE)?
+
+## Lernziele
+- Entscheiden, wie und wann die Preise in der Inflation erhöht werden
+- Preiserhöhungen so kommunizieren, dass das Vertrauen erhalten bleibt
+- Preisgestaltung mit Verträgen, Cashflow und Finanzierung abstimmen
+
+## Hauptinhalt
+Inflation erzwingt eine schwierige Wahl. Erhöht ein Unternehmen die Preise nicht, schrumpfen seine Margen durch die steigenden Kosten. Erhöht es sie schlecht, können Kunden gehen. Marketing auf Stufe 5 löst das, indem es Preisgestaltung, Kommunikation, Verträge und Finanzen koordiniert.
+Ansätze zur Preisgestaltung in der Inflation:
+- Erhöhungen auf breiter Front: einfach, können aber preissensible Kunden hart treffen.
+- Gezielte Erhöhungen: die Preise stärker bei Produkten erhöhen, bei denen Kunden weniger preissensibel sind.
+- Preisstufen: eine günstigere Option hinzufügen, damit preissensible Kunden abstufen können, statt zu gehen.
+- Kleinere, häufigere Erhöhungen oder eine große Erhöhung: beides hat Vor- und Nachteile in der Wahrnehmung der Kunden.
+- Nutzen hinzufügen: Erhöhungen mit besserem Service, mehr Funktionen oder Garantien verbinden.
+Grundsätze der Kommunikation:
+- Rechtzeitig ankündigen.
+- Ehrlich erklären (steigende Kosten für Material, Arbeit oder Energie).
+- Den Nutzen hervorheben, den Kunden weiterhin erhalten.
+- Irreführende Taktiken vermeiden, etwa Packungen stillschweigend zu verkleinern, ohne es offenzulegen, was rechtliche Probleme und Vertrauensprobleme schaffen kann. LÄNDERSPEZIFISCHE REGEL; in Deutschland zum Beispiel verbietet das Wettbewerbsrecht nach verfügbaren Informationen irreführende geschäftliche Handlungen, und Packungen, die mehr Inhalt vortäuschen, als sie enthalten, können als unzulässige Mogelpackungen gelten, also prüfe dies mit einer Anwältin oder einem Anwalt.
+Wie die Farben zusammenhängen:
+- PURPLE: Bestehende Verträge können die Preise festschreiben. Preisanpassungsklauseln (PURPLE-L5-039 im juristischen Strang) helfen bei künftigen Verträgen.
+- BLUE: Schrumpfende Margen können Kreditauflagen verletzen, die bestimmte Gewinnniveaus verlangen. Die Marge zu schützen heißt, die Finanzierung zu schützen.
+- WHITE: Inflation verringert den realen Wert von Geld. Schneller bezahlt zu werden und weniger ungenutztes Geld zu halten, kann helfen.
+- GREEN: Höhere nominale Preise können die Steuerlast erhöhen, auch wenn der reale Gewinn nicht gewachsen ist. LÄNDERSPEZIFISCHE REGEL.
+- BLACK: Führungskräfte müssen entscheiden, wie viel Marge sie opfern, um Kunden zu halten.
+ANNAHME/MEINUNG: Kunden verstehen Inflation meist. Was das Vertrauen beschädigt, sind Überraschungen, versteckte Änderungen oder Erhöhungen, die viel größer wirken als die Kosten dahinter.
+
+## Durchgerechnetes Beispiel
+BEISPIEL ZUR VERANSCHAULICHUNG: Nora führt einen Großhandel für Reinigungsmittel. Die Kosten sind um 15 % gestiegen. Ihre Margen sind von 25 % auf 14 % gefallen. Ihr Bankkredit verlangt eine Mindestgewinnquote, die sie fast nicht mehr erreicht.
+Ihr Plan:
+- Verträge (PURPLE): 30 % der Kunden haben Festpreisverträge, die innerhalb von 6 Monaten auslaufen. Neue Verträge erhalten eine Preisanpassungsklausel, die an einen Kostenindex gekoppelt ist.
+- Preise (ORANGE): eine durchschnittliche Erhöhung um 10 %, höher bei Spezialprodukten, bei denen Kunden weniger preissensibel sind, niedriger bei Grundartikeln mit starkem Wettbewerb.
+- Preisstufen: Sie fügt eine günstige Linie von Grundprodukten zu niedrigeren Preisen hinzu.
+- Kommunikation: Die Kunden erhalten 45 Tage vorher einen Brief, der die Kostensteigerungen erklärt und Sparmöglichkeiten nennt, darunter die günstige Linie und Bestellungen in größeren Mengen.
+- Finanzen (BLUE): Sie zeigt ihrer Bank den Preisplan und die erwarteten Margen, und die Bank sagt zu, den Kredit nicht zu kündigen, solange der Plan greift.
+Ergebnis: Die Margen erholen sich auf 21 %. Einige Kunden wechseln zur günstigen Linie; sehr wenige gehen. ANNAHME/MEINUNG: Nora hat Margen, Kunden und Finanzierung geschützt, indem sie alle vier koordiniert hat, statt einfach die Preise zu erhöhen.
+
+## Übungsquiz
+**Q1. Was passiert mit einem Unternehmen, das in der Inflation die Preise nicht erhöht?**
+A) Die steigenden Kosten lassen seine Margen schrumpfen
+B) Die Margen wachsen
+C) Die Steuern sinken
+D) Kunden zahlen automatisch mehr
+**Q2. Wozu dienen Preisstufen in der Inflation?**
+A) Um Kunden zu verwirren
+B) Um Verträge zu umgehen
+C) Um alle Preise zu erhöhen
+D) Damit preissensible Kunden abstufen können, statt zu gehen
+**Q3. Warum können schrumpfende Margen die Finanzierung gefährden?**
+A) Banken mögen keine Inflation
+B) Sie kündigen Kredite
+C) Sie erhöhen automatisch die Zinsen
+D) Kreditauflagen können Mindestgewinnniveaus verlangen
+**Q4. Welchen Grundsatz der Kommunikation empfiehlt die Lektion?**
+A) Preise ohne Ankündigung erhöhen
+B) Der Konkurrenz die Schuld geben
+C) Erhöhungen in kleineren Packungen verstecken
+D) Rechtzeitig ankündigen und ehrlich erklären
+**Q5. Was beschädigt laut der Lektion das Vertrauen am meisten?**
+A) Jede Preiserhöhung
+B) Überraschungen, versteckte Änderungen oder Erhöhungen, die viel größer sind als die Kosten
+C) Rechtzeitige Ankündigung
+D) Alternativen anbieten
+
+## Lösungsschlüssel
+Q1: A
+Q2: D
+Q3: D
+Q4: D
+Q5: B
+
+## Antworten und Erklärungen
+**Q1.** Die Kosten steigen, während die Preise gleich bleiben.
+**Q2.** Günstigere Optionen halten Kunden.
+**Q3.** Verletzte Auflagen können den Kreditgeber zum Handeln bringen.
+**Q4.** Ehrlichkeit und Ankündigung schützen das Vertrauen.
+**Q5.** Kunden akzeptieren ehrliche Erhöhungen leichter.
+
+## Das Wichtigste in Kürze
+- Inflation erzwingt eine Wahl zwischen Marge und Kundenbindung
+- Nutze gezielte Erhöhungen, Preisstufen und zusätzlichen Nutzen
+- Kommuniziere früh und ehrlich; vermeide versteckte Änderungen
+- Schütze die Margen, um die Finanzierung zu schützen
+
+===== ORANGE-L5-012
+TITLE: Marketing in der Rezession: sparen oder investieren?
+SUMMARY: Marketingentscheidungen in der Rezession hängen von der finanziellen Stärke ab; Marketing fortzusetzen kann Marktanteile bringen, aber nur, wenn das Unternehmen überleben kann, die Ausgaben sollten zu messbaren Kanälen, Kundenbindung und Nutzen verlagert werden, und in guten Zeiten aufgebaute Reserven schaffen Optionen in schlechten.
+KEYWORDS: Marketingstrategie in der Rezession, Marketing im Abschwung, Marketingbudget kürzen, antizyklisches Marketing, Marktanteil in der Rezession
+# Marketing in der Rezession: sparen oder investieren?
+
+## Einstiegsszenario
+ANNAHME/MEINUNG (hypothetisches Szenario, nur zu Lernzwecken): Stell dir vor, dass die Immobilien- und Verbraucherkreditmärkte eines bevölkerungsreichen Landes nach Jahren schnellen Wachstums Anzeichen einer scharfen Korrektur zeigen, während die Zahlungsausfälle zunehmen.
+Wende es hier an: Eine Kreditkorrektur stürzt die Wirtschaft in eine Rezession. Konkurrenten kürzen ihre Marketingbudgets drastisch. Frag über die Farben hinweg: Hat das Unternehmen genug Liquidität (BLUE), um weiter Marketing zu machen? Könnte es günstig Marktanteile gewinnen, während andere sich zurückziehen (ORANGE)? Was glaubt die Führung (BLACK) über die Dauer des Abschwungs? Wie würden verschiedene Entscheidungen den Wert des Unternehmens beeinflussen (WHITE)?
+
+## Lernziele
+- Kürzen und Fortsetzen des Marketings im Abschwung vergleichen
+- Marketing in der Rezession mit Liquiditätsreserven und Risikobereitschaft verbinden
+- Marketingbotschaften und Kanäle an Rezessionsbedingungen anpassen
+
+## Hauptinhalt
+In einer Rezession ist das Kürzen des Marketings oft der erste Schritt von Unternehmen. Es geht schnell und scheint schmerzlos. Aber die Entscheidung hat Nachteile.
+Argumente für das Kürzen:
+- Liquidität für das Überleben sichern.
+- Kunden kaufen weniger, daher bringt Marketing vielleicht weniger.
+- Die Rentabilität schützen, um Kreditgeber zufriedenzustellen.
+Argumente für Fortsetzen oder Investieren:
+- Wenn Konkurrenten kürzen, können die Werbekosten sinken, und deine Botschaft hat weniger Konkurrenz.
+- Kunden kaufen weiterhin das Nötigste und erinnern sich an Marken, die sichtbar geblieben sind.
+- Im Abschwung gewonnene Marktanteile können in der Erholung bestehen bleiben.
+ANNAHME/MEINUNG: Einige Studien und viele Praktiker deuten darauf hin, dass Unternehmen, die im Abschwung weiter werben, Marktanteile gewinnen können. Das funktioniert aber nur für Unternehmen mit genug finanzieller Stärke, um zu überleben. Ein Unternehmen, das sich in die Zahlungsunfähigkeit ausgibt, gewinnt nichts.
+Wie die Farben zusammenhängen:
+- BLUE: Liquiditätsreserven und Zugang zu Krediten bestimmen, wie viel Risiko das Unternehmen eingehen kann.
+- BLACK: Die Führung muss einschätzen, wie lange der Abschwung dauert, und klare Grenzen für die Ausgaben setzen.
+- WHITE: Unternehmen, die mit mehr Marktanteil aus einer Rezession kommen, können mehr wert sein.
+- PURPLE: Verträge mit Werbeagenturen und Medien können begrenzen, wie schnell die Ausgaben gesenkt werden können.
+- GREEN: LÄNDERSPEZIFISCHE REGEL: Marketingausgaben sind oft abziehbar, was ihre Nettokosten senkt, wenn das Unternehmen profitabel bleibt; in Deutschland zum Beispiel sind Werbekosten nach verfügbaren Informationen in der Regel als Betriebsausgaben abziehbar, während Verluste zwar vorgetragen werden können, oberhalb eines Sockelbetrags aber nur begrenzt mit späteren Gewinnen verrechnet werden dürfen, also prüfe dies mit einer Steuerberaterin oder einem Steuerberater.
+Kluges Marketing in der Rezession heißt oft verlagern, nicht nur kürzen:
+- Ausgaben zu Kanälen mit messbarer Rendite verlagern.
+- Sich auf die Bindung bestehender Kunden konzentrieren (günstiger als neue zu gewinnen).
+- Botschaften auf Nutzen, Verlässlichkeit und praktische Vorteile ausrichten.
+- Flexible Optionen anbieten, etwa kleinere Packungen oder Ratenzahlungen.
+ANNAHME/MEINUNG: Die besten Marketingentscheidungen für die Rezession werden vor der Rezession getroffen. Unternehmen mit Liquiditätsreserven und klaren Plänen haben Optionen, die andere nicht haben.
+
+## Durchgerechnetes Beispiel
+BEISPIEL ZUR VERANSCHAULICHUNG: Zwei Handwerksbetriebe für Reparaturen im Haushalt stehen vor einer Rezession.
+Unternehmen A hat Liquiditätsreserven für 6 Monate und keine Schulden. Unternehmen B hat Reserven für 1 Monat und einen großen Kredit.
+Der Plan von Unternehmen A:
+- Es behält 80 % des Marketingbudgets, verlagert es aber: weniger Markenwerbung, mehr gezielte Onlinewerbung mit messbaren Ergebnissen.
+- Die Botschaft lautet "reparieren statt ersetzen", damit Kunden Geld sparen.
+- Es bietet Ratenzahlung über einen zugelassenen Partner an (siehe ORANGE-L5-001).
+- Es legt eine Regel fest: Fallen die Reserven unter 3 Monate, wird das Marketing weiter gekürzt.
+Der Plan von Unternehmen B:
+- Es kürzt das Marketing um 70 %, um die Liquidität zu schützen und die Kreditbedingungen einzuhalten.
+- Es konzentriert sich mit günstigen E-Mails und Empfehlungsprogrammen auf bestehende Kunden.
+Während der Rezession sinken die Werbekosten, weil die Konkurrenz kürzt. Unternehmen A gewinnt Kunden zu niedrigeren Kosten. Unternehmen B überlebt, verliert aber etwas Marktanteil.
+ANNAHME/MEINUNG: Beide Unternehmen haben angesichts ihrer finanziellen Lage vernünftig entschieden. Die in guten Zeiten aufgebauten Reserven von Unternehmen A gaben ihm die Möglichkeit zu investieren, als andere es nicht konnten.
+
+## Übungsquiz
+**Q1. Warum kürzen Unternehmen in einer Rezession oft zuerst das Marketing?**
+A) Weiter auszugeben ist illegal
+B) Es geht schnell und scheint schmerzlos
+C) Kunden verlangen es
+D) Es erhöht den Gewinn dauerhaft
+**Q2. Welche Chance kann entstehen, wenn Konkurrenten das Marketing kürzen?**
+A) Höhere Kosten
+B) Insgesamt weniger Kunden
+C) Niedrigere Werbekosten und weniger Wettbewerb um Aufmerksamkeit
+D) Höhere Steuern
+**Q3. Was begrenzt die Strategie, im Abschwung weiter Marketing zu machen?**
+A) Das Unternehmen muss finanziell stark genug sein, um zu überleben
+B) Nichts
+C) Staatliche Regeln
+D) Kundenbeschwerden
+**Q4. Was bedeutet "verlagern, nicht nur kürzen"?**
+A) Büros umziehen
+B) Alle Marketingleute entlassen
+C) Ausgaben zu messbaren Kanälen, Kundenbindung und Nutzenbotschaften umlenken
+D) Die Ausgaben verdoppeln
+**Q5. Warum hatte Unternehmen A mehr Optionen als Unternehmen B?**
+A) Mehr Glück
+B) Es hatte mehr Mitarbeitende
+C) Es hatte Liquiditätsreserven und keine Schulden
+D) Es war älter
+
+## Lösungsschlüssel
+Q1: B
+Q2: C
+Q3: A
+Q4: C
+Q5: C
+
+## Antworten und Erklärungen
+**Q1.** Marketing ist eine Ausgabe, die sich schnell kürzen lässt.
+**Q2.** Weniger Wettbewerb kann Marketing effizienter machen.
+**Q3.** Sich in die Zahlungsunfähigkeit auszugeben bringt nichts.
+**Q4.** Kluge Anpassungen können die Rendite verbessern.
+**Q5.** In guten Zeiten aufgebaute Reserven schufen Flexibilität.
+
+## Das Wichtigste in Kürze
+- Marketingentscheidungen in der Rezession hängen von der finanziellen Stärke ab
+- Marketing fortzusetzen kann Marktanteile bringen, aber nur, wenn das Unternehmen überleben kann
+- Verlagere Ausgaben zu messbaren Kanälen, Kundenbindung und Nutzen
+- Baue in guten Zeiten Reserven auf, um in schlechten Zeiten Optionen zu haben
+
+===== ORANGE-L5-013
+TITLE: Kommunikation während eines Angebotsschocks
+SUMMARY: Kommuniziere früh, ehrlich, konkret und häufig; Entscheidungen über die Zuteilung senden Botschaften über die Werte des Unternehmens, vertragliche Mitteilungspflichten müssen eingehalten werden, auch bei höherer Gewalt, und Kunden erinnern sich daran, wie du sie in einer Krise behandelt hast.
+KEYWORDS: Kommunikation bei einem Angebotsschock, Störung der Lieferkette und Kunden, Lieferverzögerungen kommunizieren, Vertrauenskrise bei Kunden
+# Kommunikation während eines Angebotsschocks
+
+## Einstiegsszenario
+ANNAHME/MEINUNG (hypothetisches Szenario, nur zu Lernzwecken): Stell dir eine weitreichende Gesundheitskrise vor, die Schifffahrt und Produktion weltweit über längere Zeit lahmlegt und die Lieferketten vieler Branchen gleichzeitig ins Stocken bringt.
+Wende es hier an: Eine weitreichende Störung legt die Schifffahrt lahm, und ein Unternehmen kann Bestellungen nicht rechtzeitig ausliefern. Frag über die Farben hinweg: Was sollte den Kunden gesagt werden, und wann (ORANGE)? Was versprechen die Verträge zur Lieferung (PURPLE)? Sollte knapper Bestand an die profitabelsten oder die treuesten Kunden gehen (BLUE/BLACK)? Sollten sich die Preise ändern?
+
+## Lernziele
+- Bei Lieferstörungen ehrlich und frühzeitig kommunizieren
+- Die Kommunikation mit den vertraglichen Pflichten abstimmen
+- Bei Knappheit faire Entscheidungen über Zuteilung und Preise treffen
+
+## Hauptinhalt
+Wenn das Angebot gestört ist, erleben Kunden das als gebrochene Versprechen: verspätete Lieferungen, fehlende Produkte oder plötzliche Preisänderungen. Wie ein Unternehmen kommuniziert, kann entscheiden, ob Kunden treu bleiben oder für immer gehen.
+Grundsätze der Kommunikation:
+- Früh: Informiere die Kunden, sobald du von einem Problem weißt, nicht erst, wenn sie es entdecken.
+- Ehrlich: Erkläre, was passiert ist, was du weißt und was du nicht weißt.
+- Konkret: Nenne realistische Zeitpläne, auch wenn es Spannen sind.
+- Häufig: Gib regelmäßig Updates, auch wenn es nichts Neues gibt.
+- Optionen: Biete Alternativen an, etwa Ersatzprodukte, Teillieferungen oder Erstattungen.
+Zuteilung bei Knappheit: Wenn nicht genug Ware für alle da ist, müssen Unternehmen entscheiden, wer was bekommt. Möglichkeiten:
+- Wer zuerst kommt, mahlt zuerst.
+- Vorrang für langjährige Kunden oder Vertragskunden.
+- Anteilige Zuteilung (jeder Kunde erhält denselben Prozentsatz seiner Bestellung).
+- Vorrang für lebenswichtige Verwendungen.
+Jede Wahl sendet eine Botschaft über die Werte des Unternehmens.
+Wie die Farben zusammenhängen:
+- PURPLE: Verträge können Lieferung zu bestimmten Terminen verlangen. Klauseln zur höheren Gewalt (PURPLE-L5-039 im juristischen Strang) können Verzögerungen entschuldigen, wenn das Ereignis erfasst ist und die Mitteilungsregeln eingehalten werden. Mitteilungsfristen sind wichtig.
+- BLUE: Bestand, Cashflow und Lieferantenbeziehungen bestimmen, was geliefert werden kann.
+- ORANGE: Die Preisgestaltung bei Engpässen erfordert Sorgfalt. Starke Erhöhungen in Notlagen können mancherorts beschränkt sein und das Vertrauen beschädigen. LÄNDERSPEZIFISCHE REGEL; in Deutschland zum Beispiel gibt es nach verfügbaren Informationen kein allgemeines Verbot von Preiserhöhungen in Krisen, aber unangemessen hohe Preise für lebenswichtige Güter in einer Mangellage können als Preisüberhöhung geahndet werden, und Preisabsprachen mit Konkurrenten verfolgt das Bundeskartellamt, also prüfe dies mit einer Anwältin oder einem Anwalt.
+- BLACK: Die Führung legt die Grundsätze der Zuteilung fest und kommuniziert sie einheitlich.
+ANNAHME/MEINUNG: Kunden erinnern sich oft daran, wie ein Unternehmen sie während einer Krise behandelt hat, lange nachdem sie die Krise selbst vergessen haben.
+
+## Durchgerechnetes Beispiel
+BEISPIEL ZUR VERANSCHAULICHUNG: Hugos Unternehmen liefert Verpackungen an Lebensmittelhersteller. Eine Störung der Schifffahrt verringert seine Versorgung drei Monate lang um 40 %.
+Seine Reaktion:
+- Tag 1: Er schickt den Kunden eine klare Nachricht: "Wir erwarten für etwa 3 Monate einen Versorgungsengpass von 40 %. Das wissen wir, das tun wir, und das können Sie erwarten."
+- Verträge (PURPLE): Sein Anwalt bestätigt, dass die Störung in den meisten Verträgen unter die Klausel zur höheren Gewalt fällt, und hilft, die erforderlichen Mitteilungen fristgerecht zu versenden.
+- Zuteilung: Hugo teilt die Ware anteilig zu, sodass jeder Kunde 60 % seiner üblichen Bestellung erhält. Kunden, die Grundnahrungsmittel herstellen, haben Vorrang bei einer kleinen Reserve.
+- Optionen: Er bietet Ersatzverpackungen eines zweiten Lieferanten gegen einen kleinen, klar erklärten Aufpreis an.
+- Updates: wöchentliche E-Mails mit neuen Informationen.
+- Preise: Er gibt nur seine tatsächlichen Mehrkosten für Ersatzmaterial weiter, keinen Krisenaufschlag.
+Nach der Störung bleiben die meisten Kunden. Einige loben seine Kommunikation. Ein Konkurrent, der schwieg und die Preise stark erhöhte, verliert mehrere Kunden an Hugo.
+ANNAHME/MEINUNG: Hugo konnte die Störung nicht verhindern. Er konnte bestimmen, wie er die Kunden währenddessen behandelte.
+
+## Übungsquiz
+**Q1. Warum sollten Unternehmen bei einer Lieferstörung früh kommunizieren?**
+A) Um rechtliche Mitteilungen zu vermeiden
+B) Es erhöht die Preise
+C) Kunden sollten von Problemen hören, bevor sie sie selbst entdecken
+D) Es ist nur gesetzlich vorgeschrieben
+**Q2. Was ist anteilige Zuteilung?**
+A) Jeder Kunde erhält denselben Prozentsatz seiner Bestellung
+B) Nur die größten Kunden bedienen
+C) Wer zuerst kommt, mahlt zuerst
+D) Zufällige Verteilung
+**Q3. Warum sind Mitteilungsfristen bei höherer Gewalt wichtig?**
+A) Sie senken die Preise
+B) Sie verlängern Verträge
+C) Sie sind freiwillig
+D) Wer sie versäumt, kann den Schutz der Klausel verlieren
+**Q4. Warum hat Hugo auf einen Krisenaufschlag verzichtet?**
+A) Starke Erhöhungen in Notlagen können das Vertrauen beschädigen und beschränkt sein
+B) Er war überall illegal
+C) Er hatte keine Kosten
+D) Kunden verlangten kostenlose Produkte
+**Q5. Woran erinnern sich Kunden laut der Lektion nach einer Krise?**
+A) Wie das Unternehmen sie währenddessen behandelt hat
+B) Nur an die Krise
+C) An nichts
+D) Nur an die Preise
+
+## Lösungsschlüssel
+Q1: C
+Q2: A
+Q3: D
+Q4: A
+Q5: A
+
+## Antworten und Erklärungen
+**Q1.** Frühe Kommunikation schafft Vertrauen.
+**Q2.** Anteilige Zuteilung verteilt Engpässe gleichmäßig.
+**Q3.** Mitteilungspflichten müssen eingehalten werden.
+**Q4.** Faire Preise haben die Beziehungen erhalten. LÄNDERSPEZIFISCHE REGEL.
+**Q5.** Verhalten in der Krise prägt die langfristige Treue.
+
+## Das Wichtigste in Kürze
+- Kommuniziere früh, ehrlich, konkret und häufig
+- Entscheidungen über die Zuteilung senden Botschaften über die Werte des Unternehmens
+- Halte vertragliche Mitteilungsregeln ein, auch bei höherer Gewalt
+- Kunden erinnern sich daran, wie du sie in einer Krise behandelt hast
+
+===== ORANGE-L5-014
+TITLE: Eintritt in einen ausländischen Markt: Übersetzen ist nicht Lokalisieren
+SUMMARY: Übersetzen ist nicht Lokalisieren, und Sprache ist nicht Rechtsordnung; Produkt, Preis, Botschaft, Vertriebswege und Regelkonformität müssen lokalisiert werden, rechtliche und steuerliche Pflichten können mit dem ersten Verkauf beginnen, und örtliches Wissen und Partner verbessern den Markteintritt.
+KEYWORDS: Eintritt in einen ausländischen Markt, Lokalisierung oder Übersetzung, globale Marketingstrategie, ausländische Märkte erschließen
+# Eintritt in einen ausländischen Markt: Übersetzen ist nicht Lokalisieren
+
+## Einstiegsszenario
+ANNAHME/MEINUNG (hypothetisches Szenario, nur zu Lernzwecken): Stell dir einen großen Handelsblock vor, der plötzlich hohe Zölle auf eine breite Kategorie importierter Industriegüter erhebt und damit die Kosten für Unternehmen erhöht, die diese Importe als Vorprodukte nutzen.
+Wende es hier an: Neue Zölle machen den Heimatmarkt eines Unternehmens weniger attraktiv, also plant es den Eintritt in ein neues Land. Frag über die Farben hinweg: Reicht es, die Website zu übersetzen (ORANGE), oder müssen Produkte, Preise und Botschaften sich ändern? Welche rechtlichen Anmeldungen und Schritte zur Regelkonformität sind nötig (PURPLE)? Welche Steuerpflichten entstehen (GREEN)? Wie viel kostet der Eintritt, bevor Umsatz kommt (BLUE)?
+
+## Lernziele
+- Übersetzen und Lokalisieren unterscheiden
+- Die Bestandteile eines Plans für den Markteintritt benennen
+- Die rechtliche, steuerliche und finanzielle Vorbereitung auf den Eintritt koordinieren
+
+## Hauptinhalt
+Das Übersetzungsprotokoll des Lehrplans enthält einen Grundsatz, der direkt für das Marketing gilt: Übersetzen ist nicht Lokalisieren, und Sprache ist nicht Rechtsordnung.
+- Übersetzen überträgt Wörter von einer Sprache in eine andere.
+- Lokalisieren passt das gesamte Angebot an einen Markt an: Produktmerkmale, Preise, Zahlungsmethoden, kulturelle Bezüge, Beispiele, Maßeinheiten, rechtliche Anforderungen und Kundenerwartungen.
+Zwei Länder können eine Sprache teilen, aber sich in Gesetzen, Währung, Kultur und Kaufgewohnheiten unterscheiden. Ein Land kann mehrere Sprachen haben.
+Bestandteile eines Plans für den Markteintritt:
+1. Marktforschung: Kundenbedürfnisse, Wettbewerber, Preisniveaus und Kaufkraft.
+2. Produktanpassung: Merkmale, Größen, Verpackung und Normen.
+3. Preisgestaltung: örtliche Kaufkraft, Preise der Konkurrenz, Währung, Steuern und Versandkosten.
+4. Botschaft: kulturell passende Beispiele, Bilder und Tonfall.
+5. Vertriebswege: wie Kunden in diesem Markt am liebsten kaufen.
+6. Recht: Anmeldung des Unternehmens, Produktkonformität, Markenschutz (PURPLE-L5-029 im juristischen Strang), Verbraucherschutz und Datenschutz. LÄNDERSPEZIFISCHE REGEL; in Deutschland zum Beispiel braucht ein ausländisches Unternehmen nach verfügbaren Informationen oft eine umsatzsteuerliche Registrierung oder einen Fiskalvertreter, viele Produkte brauchen eine CE-Kennzeichnung oder andere branchenspezifische Zulassungen, und die Verarbeitung von Kundendaten muss der DSGVO unter Aufsicht der Datenschutzbehörden entsprechen, also prüfe dies mit einer Anwältin oder einem Anwalt.
+7. Steuern: Registrierung für Umsatzsteuer, Ertragsteuerrisiken durch eine Präsenz im Land und Zölle. LÄNDERSPEZIFISCHE REGEL.
+8. Finanzen: Anfangskosten, Zeit bis zum ersten Umsatz und Währungsrisiko.
+Wie die Farben zusammenhängen:
+- ORANGE: Die Lokalisierung entscheidet, ob Kunden das Angebot verstehen und ihm vertrauen.
+- PURPLE: Regelkonformität und Markenschutz.
+- GREEN: Steuerpflichten können früher beginnen, als viele Unternehmen erwarten.
+- BLUE: Eintrittskosten und Umlaufvermögen.
+- BLACK: Örtliche Führung und Partner, die den Markt verstehen.
+ANNAHME/MEINUNG: Viele Markteintritte scheitern nicht, weil das Produkt falsch war, sondern weil das Unternehmen annahm, Kunden im Ausland dächten wie Kunden zu Hause.
+
+## Durchgerechnetes Beispiel
+BEISPIEL ZUR VERANSCHAULICHUNG: Julias Unternehmen verkauft im eigenen Land eine App für die persönliche Budgetplanung. Es plant den Eintritt in ein Nachbarland, in dem eine andere Sprache gesprochen wird.
+Ansatz mit reiner Übersetzung (erster Entwurf): App und Website übersetzen. Starten.
+Eine Prüfung der Lokalisierung zeigt:
+- Die Budgetkategorien der App spiegeln Ausgaben im Heimatland. Im neuen Markt sind die üblichen Ausgaben anders.
+- Die Beispiele verwenden Währung und Gehaltsniveaus des Heimatlands.
+- Kunden im neuen Markt bevorzugen eine andere Zahlungsmethode.
+- Datenschutzgesetze verlangen Änderungen bei Einwilligung und Datenverarbeitung. LÄNDERSPEZIFISCHE REGEL.
+- Der Markenname ist verfügbar, muss aber vor Ort angemeldet werden.
+- Eine Registrierung für die Umsatzsteuer ist nötig, sobald digitale Verkäufe beginnen. LÄNDERSPEZIFISCHE REGEL.
+- Preis: Die örtliche Kaufkraft ist geringer, daher ist ein günstigerer Tarif nötig.
+Julias lokalisierter Start:
+- Angepasste Kategorien und Beispiele.
+- Örtliche Zahlungsoptionen.
+- Angepasste Preise.
+- Änderungen zur Regelkonformität und Anmeldung der Marke.
+- Eine örtliche Marketingberaterin, die Tonfall und Bilder prüft.
+ANNAHME/MEINUNG: Der lokalisierte Start kostet mehr und dauert länger. Aber er bringt ein Produkt hervor, das Kunden im neuen Markt als für sie gemacht erkennen, nicht bloß für sie übersetzt.
+
+## Übungsquiz
+**Q1. Was ist der Unterschied zwischen Übersetzen und Lokalisieren?**
+A) Übersetzen überträgt Wörter; Lokalisieren passt das gesamte Angebot an einen Markt an
+B) Es gibt keinen
+C) Lokalisieren ist billiger
+D) Übersetzen umfasst die rechtliche Konformität
+**Q2. Was bedeutet "Sprache ist nicht Rechtsordnung"?**
+A) Sprachen haben keine Gesetze
+B) Länder mit gleicher Sprache können trotzdem unterschiedliche Gesetze, Währungen und Kulturen haben
+C) Jede Sprache wird nur in einem Land gesprochen
+D) Gesetze sind überall gleich
+**Q3. Warum können Steuerpflichten in einem neuen Markt früher beginnen als erwartet?**
+A) Steuern gelten nie
+B) Staaten ignorieren ausländische Unternehmen
+C) Steuern werden immer aufgeschoben
+D) Eine Registrierung für Umsatzsteuer kann nötig sein, sobald Verkäufe beginnen
+**Q4. Was hat Julias Prüfung der Lokalisierung zum Preis ergeben?**
+A) Die Preise sollten höher sein
+B) Die Preise mussten genau denen im Heimatland entsprechen
+C) Der Preis spielte keine Rolle
+D) Die örtliche Kaufkraft war geringer, daher war ein günstigerer Tarif nötig
+**Q5. Warum scheitern laut der Lektion viele Markteintritte?**
+A) Produkte sind immer falsch
+B) Übersetzung ist zu teuer
+C) Die Steuern sind zu hoch
+D) Unternehmen nehmen an, Kunden im Ausland dächten wie Kunden zu Hause
+
+## Lösungsschlüssel
+Q1: A
+Q2: B
+Q3: D
+Q4: D
+Q5: D
+
+## Antworten und Erklärungen
+**Q1.** Lokalisieren geht weit über die Sprache hinaus.
+**Q2.** Eine gemeinsame Sprache bedeutet keine gemeinsamen Regeln.
+**Q3.** Steuerregeln können ab dem ersten Verkauf gelten. LÄNDERSPEZIFISCHE REGEL.
+**Q4.** Der Preis muss zum örtlichen Markt passen.
+**Q5.** Fehlende Lokalisierung ist eine häufige Ursache des Scheiterns.
+
+## Das Wichtigste in Kürze
+- Übersetzen ist nicht Lokalisieren; Sprache ist nicht Rechtsordnung
+- Lokalisiere Produkt, Preis, Botschaft, Vertriebswege und Regelkonformität
+- Rechtliche und steuerliche Pflichten können mit dem ersten Verkauf beginnen
+- Örtliches Wissen und Partner verbessern den Markteintritt
+
+===== ORANGE-L5-015
+TITLE: Währungsrisiko bei internationalen Preisen
+SUMMARY: Internationale Verkäufe bringen ein Währungsrisiko mit sich; die Preiswährung entscheidet, wer das Risiko trägt, Vertragsklauseln, natürliche Absicherung, Finanzabsicherung und schnellere Zahlung helfen, und Auslandspreise sollten regelmäßig überprüft werden.
+KEYWORDS: Währungsrisiko bei Preisen, Wechselkursrisiko, internationale Preisstrategie, Preise in Fremdwährung, Absicherung
+# Währungsrisiko bei internationalen Preisen
+
+## Einstiegsszenario
+ANNAHME/MEINUNG (hypothetisches Szenario, nur zu Lernzwecken): Stell dir vor, die Währung einer mittelgroßen Volkswirtschaft verliert innerhalb weniger Monate einen großen Teil ihres Werts gegenüber den wichtigsten Reservewährungen, getrieben von Kapitalflucht und schwindendem Vertrauen der Investoren.
+Wende es hier an: Ein Unternehmen verkauft ins Ausland und legt die Preise in der Währung seiner Kunden fest. Dann verliert die Währung der Kunden ein Drittel ihres Werts. Frag über die Farben hinweg: Was passiert mit dem Umsatz, wenn er in die Heimatwährung umgerechnet wird (WHITE)? Sollten die Preise im Auslandsmarkt steigen (ORANGE)? Erlauben die Verträge Preisänderungen (PURPLE)? Können Finanzinstrumente dieses Risiko verringern (BLUE)?
+
+## Lernziele
+- Erklären, wie Wechselkursänderungen internationale Verkäufe beeinflussen
+- Preise in Heimatwährung und in Kundenwährung vergleichen
+- Vertragliche und finanzielle Werkzeuge zur Steuerung des Währungsrisikos nutzen
+
+## Hauptinhalt
+Wenn ein Unternehmen in ein anderes Land verkauft, trägt es ein Währungsrisiko: die Möglichkeit, dass Wechselkursänderungen den Wert seiner Verkäufe verringern.
+Wahl der Preiswährung:
+- Preise in deiner Heimatwährung: Du weißt genau, was du erhältst. Aber die Kunden tragen das Währungsrisiko, und deine Preise können unerschwinglich werden, wenn ihre Währung schwächer wird.
+- Preise in der Währung des Kunden: einfacher für Kunden, oft wettbewerbsfähiger. Aber du trägst das Währungsrisiko.
+- Preise in einer dritten, stabilen Reservewährung: in Teilen des internationalen Handels üblich. Verteilt das Risiko auf beide Seiten auf unterschiedliche Weise.
+Was passiert, wenn die Währung des Kunden fällt (wie im Szenario):
+- Wenn du in ihrer Währung bepreist: Dein Umsatz in Heimatwährung sinkt.
+- Wenn du in deiner Währung bepreist: Deine Preise steigen für die Kunden stark, und die Nachfrage kann sinken.
+So oder so fängt jemand den Schlag auf.
+Werkzeuge zur Steuerung des Währungsrisikos:
+- Vertragsklauseln (PURPLE): Währungsanpassungsklauseln und geteilte Bandbreiten (PURPLE-L5-039 im juristischen Strang).
+- Preisüberprüfungen (ORANGE): regelmäßige Preisanpassungen für Auslandsmärkte.
+- Natürliche Absicherung (BLUE): Kosten und Erlöse in derselben Währung zusammenbringen, etwa indem man Vorleistungen kauft oder örtliches Personal in der Währung bezahlt, in der man verdient.
+- Finanzabsicherung (WHITE/BLUE): Instrumente wie Termingeschäfte, die Wechselkurse für künftige Geschäfte festlegen. Sie haben Kosten und Komplexität und werden oft mit fachlicher Begleitung genutzt.
+- Zahlungszeitpunkt: Schnelleres Einziehen verkürzt die Zeit, in der man dem Risiko ausgesetzt ist.
+Verbindung zu GREEN: LÄNDERSPEZIFISCHE REGEL: Währungsgewinne und -verluste können steuerliche Folgen haben; in Deutschland zum Beispiel wirken sich Kursgewinne nach verfügbaren Informationen in der Regel erst bei Realisierung auf den Gewinn aus, während drohende Kursverluste nach dem Vorsichtsprinzip schon früher berücksichtigt werden können, also prüfe dies mit einer Steuerberaterin oder einem Steuerberater.
+ANNAHME/MEINUNG: Kleine Exporteure ignorieren das Währungsrisiko oft, bis eine große Bewegung sie trifft. Eine einfache Regel, etwa Auslandspreise vierteljährlich zu überprüfen und Bandbreiten in Verträgen zu nutzen, kann die meisten schmerzhaften Überraschungen verhindern.
+
+## Durchgerechnetes Beispiel
+BEISPIEL ZUR VERANSCHAULICHUNG: Pedros Unternehmen exportiert Spezialwerkzeuge. Er verkauft an Kunden in einem Auslandsmarkt, mit Preisen in ihrer Währung. Zu Beginn entsprechen 10 Einheiten ihrer Währung 1 Einheit seiner.
+Er verkauft pro Quartal Ware im Wert von 100.000 Euro (in seiner Währung).
+Die Fremdwährung fällt um 33 %, sodass jetzt 15 Einheiten 1 Einheit seiner Währung entsprechen. Derselbe Umsatz in Fremdwährung ist nun nur noch etwa 67.000 Euro wert.
+Seine Optionen:
+- Die Auslandspreise um 50 % erhöhen, um den Umsatz wiederherzustellen. Kunden kaufen vielleicht weniger.
+- Die Preise halten und weniger Umsatz akzeptieren.
+- Eine Mischung: Preise um 20 % erhöhen, Kosten senken und einen gewissen Margenverlust akzeptieren.
+Er wählt die Mischung. Für die Zukunft:
+- Fügt er Vertragsklauseln hinzu, die Währungsbewegungen über 10 % teilen.
+- Eröffnet er ein kleines örtliches Lager und zahlt einige Kosten in der Fremdwährung (natürliche Absicherung).
+- Nutzt er Termingeschäfte für große bekannte Aufträge, begleitet von seiner Bank.
+- Überprüft er die Auslandspreise vierteljährlich.
+ANNAHME/MEINUNG: Pedro konnte die Währungsbewegung nicht verhindern. Aber mit diesen Werkzeugen wird die nächste Bewegung viel weniger wehtun.
+
+## Übungsquiz
+**Q1. Was ist Währungsrisiko?**
+A) Das Risiko, Bargeld zu verlieren
+B) Die Möglichkeit, dass Wechselkursänderungen den Wert der Verkäufe verringern
+C) Eine Art Steuer
+D) Ein Marketingrisiko
+**Q2. Was passiert, wenn du in der Währung des Kunden bepreist und seine Währung fällt?**
+A) Dein Umsatz in Heimatwährung sinkt
+B) Dein Umsatz steigt
+C) Nichts ändert sich
+D) Die Kunden zahlen mehr
+**Q3. Was ist natürliche Absicherung?**
+A) Kosten und Erlöse in derselben Währung zusammenbringen
+B) Gold kaufen
+C) Auslandsverkäufe vermeiden
+D) Nur Bargeld nutzen
+**Q4. Wofür wird ein Termingeschäft genutzt?**
+A) Für Marketing
+B) Für die Einstellung von Personal
+C) Um Wechselkurse für künftige Geschäfte festzulegen
+D) Für die Anmeldung von Marken
+**Q5. Welche einfache Regel empfiehlt die Lektion?**
+A) Auslandspreise regelmäßig überprüfen und Bandbreiten in Verträgen nutzen
+B) Das Währungsrisiko ignorieren
+C) Alles in Fremdwährung bepreisen
+D) Mit dem Export aufhören
+
+## Lösungsschlüssel
+Q1: B
+Q2: A
+Q3: A
+Q4: C
+Q5: A
+
+## Antworten und Erklärungen
+**Q1.** Wechselkursbewegungen können den Umsatz schmälern.
+**Q2.** Du trägst das Währungsrisiko.
+**Q3.** Das Zusammenbringen verringert das Nettorisiko.
+**Q4.** Termingeschäfte verringern die Unsicherheit bei bekannten künftigen Beträgen.
+**Q5.** Einfache Routinen verhindern schmerzhafte Überraschungen.
+
+## Das Wichtigste in Kürze
+- Internationale Verkäufe bringen ein Währungsrisiko mit sich
+- Die Preiswährung entscheidet, wer das Risiko trägt
+- Nutze Vertragsklauseln, natürliche Absicherung, Finanzabsicherung und schnellere Zahlung
+- Überprüfe Auslandspreise regelmäßig
