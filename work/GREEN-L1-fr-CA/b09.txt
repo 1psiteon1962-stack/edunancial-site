@@ -1,0 +1,239 @@
+===== GREEN-L1-030
+TITLE: Travailleur autonome ou employé : le point de vue du propriétaire d’entreprise
+SUMMARY: Revient sur la distinction entre employé et travailleur autonome du point de vue du propriétaire d’entreprise, en expliquant pourquoi une mauvaise classification constitue un risque sérieux.
+# Travailleur autonome ou employé : le point de vue du propriétaire d’entreprise
+
+## Objectifs d’apprentissage
+
+- Expliquer pourquoi les décisions de classification comptent pour l’entreprise, et pas seulement pour le travailleur.
+- Reconnaître le risque général d’une mauvaise classification.
+- Relier cette leçon à la leçon précédente sur le W-2 et le 1099.
+
+## Contenu principal
+
+Plus tôt, ce volet a examiné la distinction entre employé et travailleur autonome du point de vue du travailleur. Voyons maintenant le point de vue du propriétaire d’entreprise : la façon dont un travailleur est classé détermine si l’entreprise doit payer des cotisations sur la paie, si elle doit retenir l’impôt sur le revenu et si elle assume d’autres obligations d’employeur. Classer comme travailleur autonome une personne qui devrait légalement être traitée comme un employé s’appelle une mauvaise classification, et c’est un risque sérieux pour une entreprise — pas un raccourci administratif sans conséquence.
+
+La tentation de mal classer est compréhensible : traiter tout le monde comme travailleur autonome évite les obligations et la paperasse liées aux cotisations sur la paie. Mais la classification n’est pas un choix que l’entreprise peut faire librement — elle dépend généralement de facteurs réels, comme le degré de contrôle que l’entreprise exerce sur la façon, le moment et l’endroit où le travail est effectué. Si une autorité fiscale détermine plus tard qu’un travailleur a été mal classé, l’entreprise peut devoir des impôts rétroactifs, des pénalités et des intérêts, parfois pour plusieurs travailleurs sur plusieurs années. C’est exactement le genre de risque qui nous ramène à l’analogie du médecin : une brève consultation auprès d’un professionnel qualifié avant de prendre des décisions de classification à grande échelle coûte beaucoup moins cher que les conséquences possibles.
+
+## Exemple pratique
+
+**Question :** Une propriétaire d’entreprise en croissance classe ses dix nouveaux travailleurs comme travailleurs autonomes pour éviter la paperasse des cotisations sur la paie, même si elle fixe leurs horaires et supervise de près leur travail. Quel risque prend-elle?
+
+**Étudiant :** D’après cette leçon, elle risque une mauvaise classification, puisque le degré de contrôle décrit ressemble davantage à une relation d’emploi.
+
+**Guide :** Que pourrait-il arriver si une autorité fiscale contestait plus tard sa classification?
+
+**Étudiant :** Elle pourrait devoir des impôts rétroactifs, des pénalités et des intérêts — possiblement pour les dix travailleurs, sur toutes les années où la mauvaise classification a duré.
+
+**Guide :** Exactement — c’est pourquoi, dans ce cas, obtenir un conseil dès le départ coûte beaucoup moins cher que de corriger la situation après coup.
+
+## Quiz pratique
+
+**Question 1.** La classification d’un travailleur détermine, entre autres :
+
+A) Rien qui concerne l’entreprise
+B) Si l’entreprise doit des cotisations sur la paie et a des obligations de retenue
+C) Seulement le titre d’emploi du travailleur
+D) Seulement les jours de vacances du travailleur
+
+**Question 2.** La mauvaise classification désigne :
+
+A) Un choix administratif sans conséquence
+B) Le fait de classer à tort comme travailleur autonome une personne qui devrait légalement être un employé
+C) Le fait de trop payer un travailleur
+D) Un type de crédit d’impôt
+
+**Question 3.** La classification dépend généralement :
+
+A) De la seule préférence de l’entreprise
+B) De facteurs réels comme le degré de contrôle sur la façon, le moment et l’endroit où le travail est effectué
+C) De l’âge du travailleur seulement
+D) Du hasard
+
+**Question 4.** Quelle est une conséquence réaliste d’une mauvaise classification découverte plus tard?
+
+A) Rien
+B) Des impôts rétroactifs, des pénalités et des intérêts, possiblement pour plusieurs travailleurs et plusieurs années
+C) Un remboursement automatique
+D) Un crédit d’impôt
+
+## Corrigé
+
+1. B, 2. B, 3. B, 4. B
+
+## Réponses et explications
+
+**1.** La classification n’est pas qu’une étiquette — elle entraîne des obligations réelles et continues pour l’entreprise.
+
+**2.** La mauvaise classification consiste à traiter une relation qui ressemble légalement à un emploi comme une relation avec un travailleur autonome, souvent pour éviter les obligations d’employeur.
+
+**3.** Le contrôle sur le travail — horaire, supervision, méthodes — est un facteur clé que les autorités fiscales examinent, et pas seulement le nom que l’entreprise donne à l’arrangement.
+
+**4.** Comme l’exposition s’accumule selon le nombre de travailleurs et d’années, c’est un domaine à enjeux élevés qu’il faut bien régler dès le départ.
+
+## Points clés
+
+- La classification des travailleurs détermine des obligations fiscales réelles et continues pour l’entreprise.
+- La mauvaise classification est un risque juridique et financier sérieux, pas un raccourci sans conséquence.
+- La classification dépend de facteurs réels, surtout du degré de contrôle sur le travail, et pas seulement de la préférence de l’entreprise.
+- Obtenir un conseil professionnel dès le départ coûte beaucoup moins cher que les conséquences possibles d’une mauvaise classification constatée plus tard.
+
+===== GREEN-L1-031
+TITLE: Les gains en capital : l’impôt sur les profits de placement
+SUMMARY: Présente la notion de gain en capital — le profit réalisé en vendant un bien plus cher que son prix d’achat — et en quoi il diffère du revenu ordinaire.
+# Les gains en capital : l’impôt sur les profits de placement
+
+## Objectifs d’apprentissage
+
+- Définir un gain en capital en termes simples.
+- Expliquer le calcul de base d’un gain en capital.
+- Reconnaître pourquoi les gains ne sont réalisés (et habituellement imposés) qu’au moment de la vente, et non pendant qu’on détient simplement un bien.
+
+## Contenu principal
+
+Un gain en capital est le profit réalisé lorsque vous vendez un bien — comme une action ou un immeuble — plus cher que ce que vous l’avez payé. Le calcul de base est simple : le prix de vente moins le prix d’achat (souvent appelé « prix de base ») égale le gain. Si le bien est vendu à un prix inférieur à son prix de base, il s’agit plutôt d’une perte en capital.
+
+Une nuance importante : dans la plupart des systèmes, un gain n’est « réalisé », et généralement imposable, qu’au moment où le bien est réellement vendu. Si la valeur d’une action double mais que vous ne la vendez jamais, vous ne devez généralement pas encore d’impôt sur les gains en capital sur cette hausse — c’est un gain non réalisé, ou « sur papier ». Cette distinction compte pour la planification des placements, parce que vendre un bien qui a pris de la valeur est souvent une décision délibérée, dont on peut choisir le moment, avec des conséquences fiscales, et non quelque chose qui se produit automatiquement simplement parce que la valeur du bien a augmenté.
+
+## Exemple pratique
+
+**Question :** Une investisseuse achète une action pour 1 000 $. Deux ans plus tard, elle vaut 3 000 $, mais elle ne l’a pas vendue. Doit-elle de l’impôt sur les gains en capital en ce moment?
+
+**Étudiant :** D’après cette leçon, probablement pas encore, puisque le gain n’a pas été réalisé par une vente.
+
+**Guide :** Qu’est-ce qui déclencherait l’impôt, et comment serait-il calculé si elle vendait à 3 000 $?
+
+**Étudiant :** La vente le déclencherait — le gain serait de 3 000 $ moins son prix de base de 1 000 $, donc un gain en capital de 2 000 $.
+
+**Guide :** Exactement — et elle a une certaine maîtrise sur ce moment, ce qui est un véritable levier de planification.
+
+## Quiz pratique
+
+**Question 1.** Un gain en capital se calcule ainsi :
+
+A) Prix d’achat moins prix de vente
+B) Prix de vente moins prix d’achat (prix de base)
+C) Seulement le prix d’achat
+D) Un montant fixe établi par le gouvernement
+
+**Question 2.** Si un bien est vendu à un prix inférieur à son prix de base, on parle de :
+
+A) Gain en capital
+B) Perte en capital
+C) Crédit d’impôt
+D) Remboursement
+
+**Question 3.** Un gain en capital est généralement imposé :
+
+A) Dès que la valeur du bien augmente, qu’il soit vendu ou non
+B) Lorsque le gain est réalisé, habituellement au moment de la vente
+C) Jamais
+D) Seulement si le bien est un immeuble
+
+**Question 4.** Un gain non réalisé, ou « sur papier », désigne :
+
+A) Un gain déjà imposé
+B) Une hausse de valeur qui n’a pas encore été concrétisée par une vente
+C) Un type de crédit d’impôt
+D) Une perte en capital
+
+## Corrigé
+
+1. B, 2. B, 3. B, 4. B
+
+## Réponses et explications
+
+**1.** Le calcul du gain compare le prix auquel vous avez vendu le bien à ce que vous l’aviez payé à l’origine.
+
+**2.** Une perte est simplement l’inverse d’un gain — vendre à un prix inférieur au prix de base d’origine.
+
+**3.** La réalisation par la vente est le déclencheur général de l’impôt sur les gains en capital dans la plupart des systèmes.
+
+**4.** La valeur peut augmenter sur papier sans déclencher d’impôt, puisque rien n’a encore été vendu.
+
+## Points clés
+
+- Un gain en capital correspond au prix de vente moins le prix d’achat (prix de base).
+- Vendre sous le prix de base produit plutôt une perte en capital.
+- Les gains sont généralement imposés lorsqu’ils sont réalisés — habituellement au moment de la vente du bien.
+- Les gains non réalisés ne sont pas encore imposés, ce qui fait du moment de la vente une véritable décision de planification.
+
+===== GREEN-L1-032
+TITLE: Gains en capital à court terme ou à long terme
+SUMMARY: Explique pourquoi de nombreux systèmes imposent les gains différemment selon la durée de détention d’un bien avant sa vente.
+# Gains en capital à court terme ou à long terme
+
+## Objectifs d’apprentissage
+
+- Définir les gains en capital à court terme et à long terme.
+- Expliquer le raisonnement général de politique publique qui favorise les périodes de détention plus longues.
+- Reconnaître la durée de détention comme un élément de planification.
+
+## Contenu principal
+
+De nombreux systèmes fiscaux distinguent les gains en capital à court terme (provenant de biens détenus pendant une période plus courte, souvent moins d’un an) et les gains en capital à long terme (provenant de biens détenus plus longtemps), en imposant souvent les gains à long terme à un taux plus avantageux. Le seuil exact de la période de détention et l’écart de taux varient selon le pays et changent avec le temps, mais le schéma général — récompenser la patience — est courant. (Le Canada, par exemple, ne fait pas cette distinction de la même façon; vérifiez les règles de votre juridiction.)
+
+Le raisonnement général de politique publique est d’encourager l’investissement à plus long terme et de décourager les opérations à court terme excessives, bien que des personnes raisonnables débattent de l’efficacité réelle de cette approche. Pour un investisseur individuel, la leçon pratique est que la durée de détention est un véritable levier de planification : vendre un bien un peu plus tôt ou un peu plus tard qu’un seuil clé peut changer sensiblement le résultat fiscal, c’est pourquoi les investisseurs choisissent parfois délibérément le moment d’une vente en fonction d’une étape de détention.
+
+## Exemple pratique
+
+**Question :** Une investisseuse approche du seuil de détention à long terme pour une action profitable et se demande si elle doit vendre maintenant ou attendre encore quelques semaines. Que devrait-elle considérer?
+
+**Étudiant :** D’après cette leçon, attendre d’avoir franchi le seuil du long terme pourrait signifier un taux d’imposition plus avantageux sur le gain.
+
+**Guide :** Le traitement fiscal devrait-il être le seul facteur de cette décision?
+
+**Étudiant :** Probablement pas — le prix de l’action pourrait aussi bouger entre-temps; c’est donc un véritable compromis entre le moment fiscal et le risque de placement, pas une décision purement fiscale.
+
+**Guide :** Exactement — la planification fiscale est un élément de la décision, pas la décision entière.
+
+## Quiz pratique
+
+**Question 1.** Les gains en capital à court terme proviennent généralement de biens :
+
+A) Détenus pendant une période plus longue
+B) Détenus pendant une période plus courte, souvent moins d’un an
+C) Jamais vendus
+D) Seulement immobiliers
+
+**Question 2.** Les gains en capital à long terme sont souvent imposés :
+
+A) À un taux moins avantageux que les gains à court terme
+B) À un taux plus avantageux que les gains à court terme, dans de nombreux systèmes
+C) Exactement comme les gains à court terme, partout
+D) Jamais, en aucun cas
+
+**Question 3.** Le raisonnement général de politique publique derrière cette distinction est de :
+
+A) Punir les investisseurs à long terme
+B) Encourager l’investissement à plus long terme plutôt que les opérations à court terme excessives
+C) Augmenter les recettes de l’État sans autre but
+D) Simplifier le code fiscal
+
+**Question 4.** La durée de détention se comprend le mieux comme :
+
+A) Sans importance pour la planification fiscale
+B) Un véritable levier de planification qui peut influer sur le résultat fiscal d’une vente
+C) Fixe et impossible à modifier
+D) Pertinente seulement pour les entreprises
+
+## Corrigé
+
+1. B, 2. B, 3. B, 4. B
+
+## Réponses et explications
+
+**1.** Les gains à court terme proviennent généralement de biens détenus pendant une période relativement brève avant la vente.
+
+**2.** De nombreux systèmes appliquent un taux plus avantageux aux gains à long terme, par choix de politique publique.
+
+**3.** Le but général est d’inciter les investisseurs à la patience plutôt qu’aux opérations fréquentes à court terme, bien que son efficacité réelle soit débattue.
+
+**4.** Comme le moment peut modifier le résultat fiscal, la durée de détention est un facteur autour duquel les investisseurs peuvent planifier délibérément.
+
+## Points clés
+
+- Les gains à court terme proviennent habituellement de biens détenus brièvement; les gains à long terme, de biens détenus plus longtemps.
+- Les gains à long terme sont souvent imposés plus avantageusement, bien que les détails varient et changent.
+- L’objectif de politique publique est généralement d’encourager un investissement patient, à plus long terme.
+- La durée de détention est un levier de planification réel, que l’investisseur peut maîtriser.
