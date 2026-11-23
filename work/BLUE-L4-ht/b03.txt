@@ -1,0 +1,399 @@
+===== BLUE-L4-011
+TITLE: Analiz levye operasyonèl: poukisa biznis ki gen anpil kou fiks balanse pi fò nan de direksyon
+SUMMARY: Konprann kijan levye operasyonèl, rapò ant kou fiks ak kou varyab nan yon biznis, amplifye efè chanjman revni sou pwofi.
+KEYWORDS: levye operasyonèl, estrikti kou fiks, sansiblite pwofi, risk biznis
+# Analiz levye operasyonèl: poukisa biznis ki gen anpil kou fiks balanse pi fò nan de direksyon
+
+## Senaryo pou louvri leson an
+SIPOZISYON/OPINYON (senaryo ipotetik pou objektif ansèyman sèlman): Imajine yon gwo pwoblèm sante piblik ki kanpe transpò maritim ak manifakti mondyal pou yon peryòd pwolonje, sa ki mele chèn apwovizyònman nan anpil endistri an menm tan. Pandan yon dezòd jeneral ap diminye volim vant anpil nan tout yon endistri, kèk biznis wè pwofi yo efondre byen plis pase bès revni yo pou kont li ta sijere, alòske lòt yo kenbe nan pwopòsyon relatif. Leson sa a esplike karakteristik estrikti kou espesifik ki dèyè diferans sa a.
+
+## Objektif aprantisaj
+- Esplike kisa levye operasyonèl mezire nan yon biznis.
+- Esplike poukisa yon biznis ki gen yon pi gwo pwopòsyon kou fiks konnen yon pi gwo sansiblite pwofi a chanjman revni.
+- Konpare pwofil risk yon biznis ki gen anpil kou fiks ak yon biznis ki gen anpil kou varyab pandan yon bès revni.
+- Esplike konpwomi ant amplifikasyon benefis levye operasyonèl la ak risk bès li.
+
+## Kontni prensipal
+Levye operasyonèl (operating leverage) refere a nan ki degre estrikti kou yon biznis depann de kou fiks (ki pa chanje ak volim vant, jan nou te kouvri nan analiz pwen ekilib Leson 4 la) konpare ak kou varyab (ki grandi dirèkteman ak volim vant). FÈ VERIFYE: yon biznis ki gen yon levye operasyonèl ki wo — yon gwo pwopòsyon kou fiks konpare ak kou varyab — konnen yon efè grandi sou pwofi pou nenpòt chanjman an pousantaj nan revni, paske kou fiks pa bese lè revni bese, sa ki vle di yon bès revni pase prèske nèt nan yon bès pwofi ki gen yon pousantaj byen pi gwo.
+
+Men "poukisa" efè grandisman sa a esplike rezilta diferan senaryo pi wo a dekri yo: yon biznis ki gen anpil kou fiks (tankou youn ki gen gwo kou ekipman, lokal, oswa anplwaye ak salè fiks ki pa diminye ak mwens vant) wè trè ti soulajman nan kou lè revni bese anpil pandan yon dezòd, paske pi fò nan kou li yo kontinye kèlkeswa volim vant, sa ki fè pwofi bese pa yon pousantaj byen pi gwo pase revni an. Yon biznis ki gen anpil kou varyab (youn ki gen kou ki pi dirèkteman mare ak chak inite yo pwodui oswa vann) wè kou li yo bese apeprè nan menm pwopòsyon ak bès revni li, sa ki amòti efè a sou pwofi konparativman.
+
+Se poutèt sa levye operasyonèl reprezante yon vrè konpwomi, se pa tou senpleman yon risk pou evite: menm efè grandisman ki fè pwofi bese pi fò pase revni pandan yon bès fè pwofi monte pi fò pase revni tou pandan yon monte, paske kou fiks pa ogmante non plis, sa ki vle di nenpòt kwasans revni pi wo pase pwen ekilib la pase nan pwofi nan yon to ki pi wo pou yon biznis ki gen anpil kou fiks pase pou yon biznis ki gen anpil kou varyab. Se poutèt sa degre levye operasyonèl ki apwopriye pou yon biznis se yon vrè chwa estratejik, ki konekte ak analiz pwen ekilib Leson 4 la, ki ta dwe konsidere jan revni biznis espesifik sa a gen chans previzib e estab — yon biznis ki fè fas ak yon gwo volatilite revni, menm jan ak kalite dezòd demann ki nan senaryo pi wo a, an jeneral pote plis risk ak yon estrikti ki gen anpil kou fiks pase yon biznis konparab ki gen kou ki pi fleksib e varyab.
+
+## Egzanp pratik
+EGZANP ILISTRATIF: Konpayi A gen sitou kou fiks (yon gwo izin manifakti li posede, anplwaye ak salè fiks), alòske Konpayi B, nan yon endistri ki sanble, depann plis de kou varyab (pwodiksyon an soutrètans yo peye pa inite, yon ekip vant ki touche sitou sou komisyon). Lè demann nan tout endistri a bese 20% pandan yon dezòd jeneral, pwofi Konpayi A bese 45%, paske kou fiks li pa t bese ansanm ak volim vant ki pi ba a, alòske pwofi Konpayi B bese sèlman 22%, paske yon gwo pati nan kou li te bese apeprè nan menm pwopòsyon ak volim vant ki pi ba a — sa ki ilistre kijan levye operasyonèl te grandi bès Konpayi A byen plis pase pa Konpayi B, menm si tou de konpayi yo te konnen egzakteman menm bès revni an pousantaj.
+
+## Egzamen pratik
+**Q1. Kisa levye operasyonèl mezire?**
+A) Total dèt yon biznis konpare ak ekite li
+B) Nan ki degre estrikti kou yon biznis depann de kou fiks konpare ak kou varyab
+C) To kwasans revni total yon biznis avèk tan
+D) To enterè yon biznis peye sou prè li dwe
+
+**Q2. Poukisa yon biznis ki gen yon levye operasyonèl ki wo konnen yon efè grandi sou pwofi akoz yon chanjman an pousantaj nan revni?**
+A) Yon levye operasyonèl ki wo pa gen okenn rapò ak jan pwofi reyaji a chanjman nan revni
+B) Kou fiks pa bese lè revni bese, kidonk yon bès revni pase prèske nèt nan pwofi, sa ki lakòz yon pi gwo bès an pousantaj nan pwofi pase nan revni
+C) Kou fiks toujou bese otomatikman nan menm pwopòsyon ak nenpòt bès revni
+D) Biznis ki gen yon levye operasyonèl ki wo pa janm konnen okenn chanjman nan pwofi kèlkeswa chanjman revni
+
+**Q3. Poukisa pwofi Konpayi A te bese pa yon pi gwo pousantaj pase pa Konpayi B nan egzanp lan, malgre yon bès revni idantik?**
+A) Kou Konpayi A te sitou varyab, alòske kou Konpayi B te sitou fiks
+B) Estrikti kou Konpayi A ki te sitou fiks pa t bese ansanm ak volim vant ki pi ba li a, alòske estrikti kou Konpayi B ki te pi varyab te bese apeprè nan menm pwopòsyon ak pwòp bès revni li
+C) Konpayi A ak Konpayi B te konnen an reyalite bès revni an pousantaj diferan
+D) Levye operasyonèl pa t gen okenn efè sou rezilta pwofi okenn nan de konpayi yo
+
+**Q4. Poukisa levye operasyonèl amplifye tou kwasans pwofi pandan yon peryòd revni k ap ogmante?**
+A) Levye operasyonèl amplifye sèlman risk bès, janm potansyèl benefis
+B) Paske kou fiks pa ogmante ak kwasans revni non plis, kwasans revni pi wo pase pwen ekilib la pase nan pwofi nan yon to ki pi wo pou yon biznis ki gen anpil kou fiks
+C) Kou fiks toujou ogmante nan pwopòsyon dirèk ak nenpòt kwasans revni
+D) Levye operasyonèl pa gen okenn rapò ak jan yon biznis benefisye de kwasans revni
+
+**Q5. Poukisa yon biznis ki fè fas ak yon gwo volatilite revni ta ka vle fè atansyon anvan li adopte yon estrikti ki gen anpil kou fiks?**
+A) Volatilite revni pa gen okenn rapò ak degre levye operasyonèl ki apwopriye pou yon biznis
+B) Yon estrikti ki gen anpil kou fiks pote plis risk bès pandan yon dezòd demann, paske kou fiks p ap bese menm pandan revni ap bese anpil
+C) Biznis ki gen anpil kou fiks toujou pi an sekirite pase biznis ki gen anpil kou varyab kèlkeswa volatilite revni
+D) Desizyon levye operasyonèl pa gen okenn enpak sou pwofil risk total yon biznis
+
+## Kle repons yo
+Q1: B
+Q2: B
+Q3: B
+Q4: B
+Q5: B
+
+## Repons ak eksplikasyon
+**Q1.** Levye operasyonèl konsène espesyalman pwopòsyon kou yon biznis ki fiks konpare ak varyab, sa ki detèmine jan pwofi sansib a chanjman nan revni.
+
+**Q2.** Paske kou fiks rete konstan kèlkeswa revni, chanjman nan revni afekte yon fason disproporsyone pwofi ki rete apre yo fin kouvri kou sa yo.
+
+**Q3.** Estrikti kou diferan yo esplike dirèkteman poukisa menm bès revni an te bay rezilta pwofi diferan konsa pou de konpayi yo.
+
+**Q4.** Menm mekanis ki grandi pèt pandan yon bès grandi tou benefis pandan yon monte, paske kou fiks rete konstan nan tou de direksyon.
+
+**Q5.** Akoz risk bès ki grandi pandan yon bès revni, yon biznis k ap antisipe yon gwo volatilite ta dwe peze sa kont benefis potansyèl kou fiks ki pi wo.
+
+## Pwen kle yo
+- Levye operasyonèl mezire pwopòsyon estrikti kou yon biznis ki fiks konpare ak varyab.
+- Yon levye operasyonèl ki wo grandi efè chanjman revni sou pwofi, paske kou fiks pa ajiste ak volim vant.
+- Yon biznis ki gen anpil kou fiks konnen pi gwo balansman pwofi an pousantaj, nan tou de direksyon, pase yon biznis konparab ki gen anpil kou varyab.
+- Degre levye operasyonèl ki apwopriye a se yon chwa estratejik ki ta dwe konsidere estabilite oswa volatilite revni yon biznis atann.
+
+===== BLUE-L4-012
+TITLE: Analiz risk konsantrasyon kliyan: poukisa depann de kèk gwo kliyan se yon nepe de bò
+SUMMARY: Konprann poukisa depann anpil de yon ti kantite gwo kliyan kreye yon risk biznis apa, menm lè relasyon ak kliyan sa yo kounye a solid e yo bay pwofi.
+KEYWORDS: risk konsantrasyon kliyan, divèsifikasyon revni, depandans sou kliyan kle, evalyasyon risk biznis
+# Analiz risk konsantrasyon kliyan: poukisa depann de kèk gwo kliyan se yon nepe de bò
+
+## Senaryo pou louvri leson an
+SIPOZISYON/OPINYON (senaryo ipotetik pou objektif ansèyman sèlman): Imajine yon gwo blòk komèsyal ki toudenkou enpoze gwo tarif sou yon kategori jeneral pwodui manifakti yo enpòte, sa ki ogmante kou pou konpayi ki depann de enpòtasyon sa yo kòm matyè premyè. Pandan nouvo tarif yo ap deranje kouran komès, yon biznis ki depann anpil de jis de gwo kliyan pou majorite revni li gade ak enkyetid pandan kliyan sa yo ap rekonsidere pwòp estrateji apwovizyònman yo an repons. Leson sa a egzamine risk espesifik kalite konsantrasyon kliyan sa a kreye.
+
+## Objektif aprantisaj
+- Esplike kisa risk konsantrasyon kliyan vle di pou yon biznis.
+- Kalkile yon pousantaj konsantrasyon kliyan debaz.
+- Esplike poukisa konsantrasyon kliyan kreye risk menm lè relasyon ki konsantre yo kounye a solid e yo bay pwofi.
+- Idantifye estrateji yon biznis ka itilize pou jere oswa diminye risk konsantrasyon kliyan.
+
+## Kontni prensipal
+Risk konsantrasyon kliyan refere a risk yon biznis fè fas lè yon gwo pousantaj nan total revni li depann de yon ti kantite kliyan, sa ki vle di pèdi menm youn oswa de nan relasyon kle sa yo ta ka gen yon efè grav e disproporsyone sou sante finansye total biznis la. FÈ VERIFYE: yon limit moun itilize souvan, menm si li pa estandadize toupatou, yo siyale nan kontèks evalyasyon biznis ak prè se lè yon sèl kliyan reprezante plis pase apeprè 10% nan total revni, oswa lè yon ti ponyen kliyan ansanm reprezante yon majorite nan total revni — sitiyasyon yo an jeneral konsidere ki merite yon egzamen risk ki pi sere.
+
+Men "poukisa" konsantrasyon kliyan kreye yon vrè risk menm lè relasyon ki konsantre yo kounye a solid, yo bay pwofi, e yo sanble estab, sa ki gen rapò dirèk ak senaryo dezòd komès pi wo a: pwòp pèfòmans ak pwofitabilite yon biznis ka depann anpil de desizyon pati deyò (kliyan ki konsantre yo) pran ke biznis la li menm pa kontwole — yon chanjman nan pwòp estrateji apwovizyònman kliyan sa a, kondisyon finansye li, pwopriyetè li, oswa priyorite estratejik li, ki ka deklanche pa yon bagay ki konplètman deyò kontwòl biznis k ap vann nan (tankou yon chanjman nan pwòp desizyon apwovizyònman kliyan an akoz tarif), ka afekte revni biznis k ap vann nan toudenkou e grav, ak yon kapasite limite pou ranplase revni yo pèdi a vit akoz jan li te vin konsantre.
+
+Se poutèt sa konsantrasyon kliyan se yon faktè espesifik, souvan ki gen anpil pwa, nan evalyasyon biznis (sa ki konekte ak analiz miltip evalyasyon Leson 8 la) ak nan desizyon prè: yon biznis ki gen egzakteman menm revni ak pwofitabilite kounye a, men ak revni sa a gaye sou yon baz kliyan laj e divèsifye, yo an jeneral konsidere l kòm mwens riske, e li souvan jwenn yon miltip evalyasyon ki pi wo ak yon aksè pi fasil a finansman, pase yon biznis otreman idantik ki gen menm revni konsantre nan jis youn oswa de kont kle. Se poutèt sa travay aktivman pou divèsifye yon baz kliyan — menm lè relasyon ki konsantre yo santi yo an sekirite kounye a — se yon pratik jesyon risk moun rekòmande souvan, ki sanble nan lojik anba li ak prensip divèsifikasyon byen nou kouvri nan lòt pati kourikoulòm sa a, tou senpleman aplike nan konsantrasyon relasyon kliyan olye byen envestisman.
+
+## Egzanp pratik
+EGZANP ILISTRATIF: Yon biznis manifakti fè 65% nan total revni li ak jis de gwo kliyan. Lè nouvo tarif deranje pwòp chèn apwovizyònman de kliyan sa yo, tou de kliyan yo deside, chak pou kont yo, pou restriktire estrateji apwovizyònman yo, e youn nan yo deplase yon gwo pati nan acha li bay yon lòt founisè ki pa afekte pa menm ekspozisyon tarif la. Sèl desizyon sa a, kliyan an pran nèt e ki deyò kontwòl biznis manifakti a, diminye imedyatman total revni manifakti a prèske 30%, yon efè yon biznis ki gen menm gwosè ak yon baz kliyan ki pi divèsifye, kote okenn kliyan pa reprezante plis pase 5% nan total revni, pa t ap konnen nan menm degre a akoz menm dezòd komès deyò a.
+
+## Egzamen pratik
+**Q1. Kisa risk konsantrasyon kliyan dekri?**
+A) Risk ke yon biznis gen twòp kliyan diferan pou jere efikasman
+B) Risk yon biznis fè fas lè yon gwo pousantaj nan total revni li depann de yon ti kantite kliyan, ke pèt yo ta ka afekte biznis la grav
+C) Risk ki asosye ak kenbe twòp lajan kach nan bilan yon biznis
+D) Yon risk ki aplike sèlman pou biznis ki pa gen okenn kliyan ditou
+
+**Q2. Poukisa konsantrasyon kliyan kreye risk menm lè relasyon ki konsantre yo kounye a solid e yo bay pwofi?**
+A) Relasyon kliyan ki solid e ki bay pwofi elimine nenpòt posiblite risk nan lavni
+B) Pèfòmans biznis la depann anpil de desizyon pati deyò li pa kontwole pran, e yon chanjman toudenkou nan pwòp sikonstans oswa estrateji pati sa yo ta ka afekte biznis la grav ak yon kapasite limite pou ranplase revni yo pèdi a vit
+C) Risk konsantrasyon kliyan aplike sèlman pou biznis ki gen relasyon kliyan ki fèb e ki pa bay pwofi
+D) Risk konsantrasyon pa gen okenn rapò ak desizyon kliyan yo yo menm pran
+
+**Q3. Poukisa biznis ki gen yon baz kliyan konsantre souvan jwenn miltip evalyasyon ki pi ba oswa fè fas ak yon finansman ki pi difisil, konpare ak biznis otreman idantik ki gen yon baz kliyan divèsifye?**
+A) Konsantrasyon kliyan pa gen okenn rapò ak evalyasyon oswa aksè a finansman yon biznis
+B) Yo an jeneral konsidere yon baz kliyan konsantre kòm pi riske, paske pèdi menm youn oswa de kont kle ta ka afekte revni ak pwofitabilite biznis la grav
+C) Baz kliyan konsantre toujou bay evalyasyon ki pi wo pase baz kliyan divèsifye
+D) Preteur ak envestisè pa janm konsidere konsantrasyon kliyan lè y ap evalye yon biznis
+
+**Q4. Nan egzanp lan, poukisa biznis manifakti a te konnen yon bès revni ki si enpòtan akoz dezòd tarif la te lakòz la?**
+A) Biznis la te gen yon baz kliyan trè divèsifye kote okenn kliyan pa t reprezante yon gwo pati nan revni
+B) Gwo depandans biznis la sou jis de gwo kliyan te vle di desizyon endepandan yon kliyan pou deplase estrateji apwovizyònman li te gen yon efè twò gwo sou total revni biznis la
+C) Tarif yo te diminye dirèkteman pwòp kapasite pwodiksyon biznis manifakti a
+D) Konsantrasyon kliyan pa t gen okenn rapò ak bès revni biznis la te konnen an
+
+**Q5. Ki yon estrateji moun rekòmande souvan pou jere risk konsantrasyon kliyan?**
+A) Ogmante espre depandans sou yon kantite kliyan kle ki menm pi piti
+B) Travay aktivman pou divèsifye baz kliyan an, menm lè relasyon ki konsantre kounye a santi yo an sekirite, ak yon lojik ki sanble ak prensip divèsifikasyon byen
+C) Inyore konsantrasyon kliyan nèt, paske li pa gen okenn enpak sou risk biznis
+D) Refize fè biznis ak nenpòt gwo kliyan nan okenn sikonstans
+
+## Kle repons yo
+Q1: B
+Q2: B
+Q3: B
+Q4: B
+Q5: B
+
+## Repons ak eksplikasyon
+**Q1.** Risk konsantrasyon kliyan konsène espesyalman vilnerabilite depandans revni sou yon ti kantite kont kle kreye.
+
+**Q2.** Vilnerabilite a soti nan depandans sou faktè ki deyò kontwòl biznis la li menm, kèlkeswa jan relasyon kounye a sanble pozitif.
+
+**Q3.** Plis risk ki asosye ak konsantrasyon se yon faktè yo bay anpil pwa souvan nan ni desizyon evalyasyon ni desizyon prè, ki an jeneral travay kont biznis ki gen anpil konsantrasyon.
+
+**Q4.** Gravite efè a se te yon konsekans dirèk jan revni biznis la te konsantre nan jis yon ti kantite relasyon kliyan.
+
+**Q5.** Divèsifye baz kliyan an yon fason pwoaktif se yon pratik moun rekòmande anpil pou diminye kalite risk biznis espesifik sa a, sa ki raple prensip divèsifikasyon jeneral yo aplike lòt kote nan kourikoulòm sa a.
+
+## Pwen kle yo
+- Risk konsantrasyon kliyan dekri vilnerabilite ki kreye lè yon gwo pati nan revni depann de yon ti kantite kliyan.
+- Risk sa a egziste menm lè relasyon ki konsantre yo kounye a solid, paske biznis la depann de desizyon pati deyò li pa kontwole pran.
+- Yo an jeneral konsidere baz kliyan konsantre kòm pi riske nan kontèks evalyasyon ak prè pase baz divèsifye.
+- Divèsifye baz kliyan an aktivman se yon estrateji jesyon risk moun rekòmande souvan, menm lè relasyon konsantre kounye a santi yo an sekirite.
+
+===== BLUE-L4-013
+TITLE: Analiz risk konsantrasyon founisè: poukisa depann de yon sèl founisè se imaj miwa risk konsantrasyon kliyan
+SUMMARY: Konprann kijan konsantrasyon founisè kreye yon risk operasyonèl sou lòt bò relasyon yon biznis, imaj miwa risk konsantrasyon kliyan.
+KEYWORDS: konsantrasyon founisè, risk chèn apwovizyònman, founisè sèl sous, divèsifikasyon founisè
+# Analiz risk konsantrasyon founisè: poukisa depann de yon sèl founisè se imaj miwa risk konsantrasyon kliyan
+
+## Senaryo pou louvri leson an
+SIPOZISYON/OPINYON (senaryo ipotetik pou objektif ansèyman sèlman): Imajine yon gwo pwoblèm sante piblik ki kanpe transpò maritim ak manifakti mondyal pou yon peryòd pwolonje, sa ki mele chèn apwovizyònman nan anpil endistri an menm tan. Pandan yon dezòd chèn apwovizyònman jeneral ap kanpe manifakti nan plizyè rejyon an menm tan, biznis ki te depann de yon sèl founisè pou yon konpozan kritik dekouvri yo pa gen okenn lòt sous imedyat, alòske konkiran ki gen plizyè founisè kalifye adapte byen pi vit. Leson sa a egzamine risk ki kreye lè w konsantre twòp sou yon sèl founisè.
+
+## Objektif aprantisaj
+- Esplike kisa risk konsantrasyon founisè vle di pou yon biznis.
+- Esplike paralèl ant risk konsantrasyon founisè ak risk konsantrasyon kliyan (Leson 12).
+- Esplike poukisa jwenn yon konpozan oswa yon materyèl kritik nan yon sèl sous kreye yon vilnerabilite operasyonèl espesifik.
+- Idantifye estrateji yon biznis ka itilize pou jere risk konsantrasyon founisè.
+
+## Kontni prensipal
+Risk konsantrasyon founisè refere a risk yon biznis fè fas lè li depann anpil de yon sèl founisè, oswa yon trè ti kantite founisè, pou yon matyè premyè, yon konpozan, oswa yon materyèl kritik li bezwen pou pwodui pwòp pwodui li oswa bay pwòp sèvis li. FÈ VERIFYE: risk sa a sanble estriktirèlman ak, e ou ka konsidere l kòm imaj miwa, risk konsantrasyon kliyan (Leson 12) — olye revni yon biznis depann twòp de yon ti kantite kliyan, kapasite biznis la pou fonksyone ditou depann twòp de yon ti kantite founisè.
+
+Men "poukisa" sa kreye yon vilnerabilite operasyonèl espesifik, senaryo dezòd jeneral pi wo a ilistre dirèkteman: si sèl founisè oswa founisè prensipal yon biznis pou yon matyè premyè kritik konnen pwòp dezòd li — kit se akoz yon katastwòf natirèl, yon konfli travay, yon fayit finansye, oswa yon dezòd chèn apwovizyònman jeneral ki afekte tout yon rejyon oswa yon endistri — biznis ki depann de sèl sous sa a pa gen okenn lòt opsyon imedyat e li ka fè fas ak yon arè pwodiksyon grav, li pa kapab jwenn matyè premyè ki nesesè a lòt kote ase vit pou evite gwo domaj operasyonèl ak finansye, menm si pwòp operasyon ak finans biznis la otreman an bon sante nèt.
+
+Se poutèt sa kenbe relasyon ak plizyè founisè kalifye pou matyè premyè kritik, menm lè yon sèl founisè "prensipal" ofri pi bon pri oswa pi bon kondisyon kounye a, se yon pratik jesyon risk moun rekòmande souvan, ki sanble nan lojik anba li ak prensip divèsifikasyon kliyan Leson 12 la: yon biznis ki gen de oswa twa founisè altènatif kalifye pou yon konpozan kritik ka deplase volim bay yon lòt sous relativman vit si founisè prensipal li konnen yon dezòd, alòske yon biznis ki gen yon sèl sous kalifye pa gen okenn opsyon konsa e li dwe tou senpleman tann dezòd la pase, e li ka pèdi anpil vant ak relasyon kliyan nan pwosesis la. OPINYON ak yon vrè konpwomi ki merite rekonèt: kenbe plizyè relasyon founisè ka gen ladan l kèk kou oswa konpleksite anplis konpare ak konsolide acha ak yon sèl founisè prefere pou maksimòm rabè sou volim, sa ki vle di bon degre divèsifikasyon founisè a, menm jan ak konpwomi levye operasyonèl Leson 11 la, depann de pwòp evalyasyon yon biznis sou risk ki konsène yo ak tolerans li pou dezòd potansyèl.
+
+## Egzanp pratik
+EGZANP ILISTRATIF: De manifakti konkiran tou de depann de yon konpozan espesyalize espesifik pou pwodui prensipal yo. Manifakti A jwenn konpozan sa a sèlman nan men yon sèl founisè lòt bò dlo, alòske Manifakti B kenbe relasyon kalifye ak de founisè separe nan diferan rejyon pou menm konpozan an. Lè yon dezòd jeneral kanpe manifakti ak transpò nan rejyon kote sèl founisè Manifakti A a ap travay, Manifakti A fè fas ak yon arè pwodiksyon grav san okenn lòt sous imedyat, e li pèdi anpil vant pandan dezòd la. Manifakti B, ki fè fas ak menm dezòd jeneral la, kapab deplase yon pi gwo pati nan apwovizyònman li bay dezyèm founisè li ki pa afekte a relativman vit, sa ki pèmèt li kontinye pwodiksyon ak sèlman yon dezòd modès e tanporè nan pwòp operasyon li.
+
+## Egzamen pratik
+**Q1. Kisa risk konsantrasyon founisè dekri?**
+A) Risk ke yon biznis gen twòp founisè diferan pou jere efikasman
+B) Risk yon biznis fè fas lè li depann anpil de yon sèl founisè, oswa yon trè ti kantite founisè, pou yon matyè premyè kritik
+C) Risk ke kliyan yon biznis twò divèsifye
+D) Yon risk ki aplike sèlman pou biznis ki pa gen okenn founisè ditou
+
+**Q2. Kijan risk konsantrasyon founisè paralèl ak risk konsantrasyon kliyan leson anvan an?**
+A) De risk yo se konsèp ki pa gen okenn rapò e ki pa gen okenn resanblans estriktirèl
+B) Risk konsantrasyon founisè se imaj miwa risk konsantrasyon kliyan — olye revni depann twòp de kèk kliyan, kapasite operasyonèl depann twòp de kèk founisè
+C) Risk konsantrasyon kliyan ak risk konsantrasyon founisè dekri egzakteman menm relasyon biznis anba a
+D) Se sèlman konsantrasyon kliyan, se pa konsantrasyon founisè, ki yon risk biznis yo rekonèt
+
+**Q3. Poukisa depann de yon sèl founisè pou yon matyè premyè kritik kreye yon vilnerabilite operasyonèl grav?**
+A) Jwenn yon matyè premyè kritik nan yon sèl sous pa gen okenn rapò ak risk operasyonèl yon biznis
+B) Si sèl founisè a konnen yon dezòd, biznis la pa gen okenn lòt sous imedyat e li ka fè fas ak yon arè pwodiksyon grav, menm si pwòp operasyon biznis la otreman an bon sante
+C) Jwenn nan yon sèl sous toujou garanti yon apwovizyònman ki pi fyab pase travay ak plizyè founisè
+D) Biznis ki depann de yon sèl founisè toujou pwoteje kont nenpòt dezòd apwovizyònman
+
+**Q4. Nan egzanp lan, poukisa Manifakti B te kapab kontinye pwodiksyon pi byen pase Manifakti A pandan dezòd jeneral la?**
+A) Dezòd la pa t afekte Manifakti B ditou nan okenn fason
+B) Relasyon Manifakti B ak de founisè nan diferan rejyon te pèmèt li deplase apwovizyònman li bay founisè li ki pa t afekte a, alòske Manifakti A pa t gen okenn lòt opsyon pou sèl founisè li ki te gen dezòd la
+C) Manifakti A te gen an reyalite plis founisè pase Manifakti B
+D) Dezòd la te afekte sèlman kliyan Manifakti A, se pa founisè li
+
+**Q5. Ki yon vrè konpwomi ki genyen lè w kenbe plizyè relasyon founisè olye konsolide ak yon sèl founisè prefere?**
+A) Pa gen okenn konpwomi ditou lè w kenbe plizyè relasyon founisè
+B) Kenbe plizyè relasyon ka gen ladan l kou oswa konpleksite anplis konpare ak rabè sou volim potansyèl ki disponib lè w konsolide ak yon sèl founisè, sa ki vle di bon degre divèsifikasyon an depann de pwòp evalyasyon risk yon biznis
+C) Plizyè relasyon founisè toujou koute anpil mwens pase yon sèl relasyon founisè
+D) Divèsifikasyon founisè elimine tout fòm risk biznis san okenn dezavantaj
+
+## Kle repons yo
+Q1: B
+Q2: B
+Q3: B
+Q4: B
+Q5: B
+
+## Repons ak eksplikasyon
+**Q1.** Risk konsantrasyon founisè konsène espesyalman vilnerabilite depandans sou yon ti kantite founisè pou matyè premyè kritik kreye.
+
+**Q2.** Tou de risk yo pataje menm vilnerabilite estriktirèl anba a ki se twòp depandans sou yon ti kantite pati deyò, jis sou bò opoze relasyon biznis la.
+
+**Q3.** Absans yon lòt sous vle di nenpòt dezòd nan sèl founisè a tradui dirèkteman e grav nan pwòp kapasite operasyonèl biznis ki depann de li a.
+
+**Q4.** Divèsifikasyon founisè Manifakti B te pèmèt li dirèkteman reyaji pi efikasman a menm dezòd jeneral ki te afekte Manifakti A grav, ki te gen yon sèl sous.
+
+**Q5.** Menm jan ak konpwomi levye operasyonèl nou te diskite pi bonè nan nivo sa a, desizyon an gen ladan l balanse efikasite kou potansyèl kont diminisyon risk, sa ki mande yon jijman espesifik pou chak biznis.
+
+## Pwen kle yo
+- Risk konsantrasyon founisè dekri vilnerabilite ki kreye lè yon biznis depann anpil de yon sèl oswa yon trè ti kantite founisè.
+- Risk sa a se imaj miwa risk konsantrasyon kliyan, men li aplike sou bò apwovizyònman olye bò revni relasyon yon biznis.
+- Jwenn yon matyè premyè kritik nan yon sèl sous kreye yon vilnerabilite operasyonèl grav, paske yon dezòd founisè pa kite okenn lòt opsyon imedyat.
+- Kenbe plizyè founisè kalifye, malgre kèk kou oswa konpleksite anplis, se yon fason moun rekòmande souvan pou jere risk sa a.
+
+===== BLUE-L4-014
+TITLE: Analiz risk moun kle: poukisa valè yon biznis ka depann twòp de yon sèl moun
+SUMMARY: Konprann kisa risk moun kle vle di, poukisa li afekte sitou ti biznis ak biznis fondatè dirije, ak kijan ou ka idantifye l e diminye l.
+KEYWORDS: risk moun kle, depandans sou fondatè, kontinwite biznis, asirans moun kle
+# Analiz risk moun kle: poukisa valè yon biznis ka depann twòp de yon sèl moun
+
+## Senaryo pou louvri leson an
+SIPOZISYON/OPINYON (senaryo ipotetik pou objektif ansèyman sèlman): Imajine yon enstitisyon finansye ki enpòtan pou tout sistèm nan toudenkou revele yon gwo pèt li pa t janm divilge anvan, sa ki leve laperèz sou risk kontrepati k ap gaye nan tout sistèm bankè a. Pandan laperèz sou risk kontrepati ap gaye nan sistèm finansye a, yon ti biznis ki reyisi anpil e ki bati prèske nèt sou relasyon ak ekspètiz sèl fondatè li fè fas ak yon kalite vilnerabilite trè diferan de konkiran ki pi gwo e ki gen yon estrikti ki pi enstitisyonèl. Leson sa a egzamine risk espesifik sa a.
+
+## Objektif aprantisaj
+- Esplike kisa risk moun kle vle di nan yon kontèks biznis.
+- Esplike poukisa risk moun kle pi fò sitou nan ti biznis, biznis fondatè dirije, oswa biznis trè espesyalize.
+- Idantifye estrateji yon biznis ka itilize pou diminye risk moun kle li.
+- Esplike poukisa risk moun kle se yon faktè ki afekte evalyasyon biznis ak planifikasyon siksesyon.
+
+## Kontni prensipal
+Risk moun kle (key person risk) refere a risk yon biznis fè fas lè siksè, operasyon, oswa valè li depann yon fason disproporsyone de yon moun espesifik — souvan yon fondatè, yon ekspè teknik espesyalize, oswa yon moun ki kenbe relasyon kliyan kritik — tèlman ke pèdi moun sa a, akoz depa, andikap, oswa lanmò, ta fè biznis la anpil mal. FÈ VERIFYE: konsèp sa a konekte dirèkteman ak distenksyon sistèm kont travay pou tèt ou nou kouvri lòt kote nan materyèl fondamantal kourikoulòm sa a — yon biznis ki pa ka fonksyone efikasman san patisipasyon pèsonèl e kontinyèl yon moun espesifik poko fè tranzisyon konplè soti nan yon aranjman travay pou tèt ou pou ale nan yon biznis ki ka grandi e ki gen rezistans enstitisyonèl.
+
+Men "poukisa" risk moun kle pi fò sitou nan ti biznis, biznis fondatè dirije, oswa biznis trè espesyalize, sa ki gen rapò espesyalman pandan peryòd ensètitid jeneral tankou senaryo tansyon finansye pi wo a, lè achtè, preteur, ak asosye vin pi pridan devan risk an jeneral: yon ti biznis gen plis chans te konsantre relasyon kritik li, konesans pwopriyetè li, ak otorite desizyon li nan yon sèl oswa yon ti ponyen moun, san kalite pwosesis enstitisyonèl, pwosedi dokimante, ak ekspètiz distribye ke òganizasyon ki pi gwo e ki pi matirite yo souvan devlope avèk tan, sa ki vle di pèdi toudenkou moun kle sa a ka deranje operasyon yo byen pi grav e pi imedyatman pase yon pèt ki sanble ta afekte yon òganizasyon ki pi gwo ak plis kapasite distribye.
+
+Se poutèt sa risk moun kle se yon faktè enpòtan nan evalyasyon biznis (sa ki konekte ak Leson 8) ak planifikasyon siksesyon: yon achtè oswa envestisè potansyèl k ap evalye yon biznis pral an jeneral aplike plis egzamen, e pafwa yon miltip evalyasyon ki pi ba, sou yon biznis ki gen yon gwo risk moun kle yo poko trete, paske pèfòmans biznis la nan lavni mwens sèten e mwens transferab bay nouvo pwopriyetè san patisipasyon kontinyèl moun kle sa a. Se poutèt sa estrateji pou diminye risk moun kle — dokimante pwosesis ak relasyon kritik, fòme lòt anplwaye espre nan plizyè travay, bati yon vrè ekip direksyon ak vrè otorite desizyon pi lwen pase fondatè a, e, nan kèk ka, achte asirans vi oswa andikap moun kle (yon polis biznis la li menm posede, ki bay yon peman an kach pou ede biznis la jere efè finansye a si moun kle a vin pa kapab kontinye travay) — se etap moun rekòmande souvan pou nenpòt pwopriyetè biznis k ap planifye pou kwasans, vant, oswa siksesyon alontèm. RÈG ESPESIFIK POU REJYON AN: disponiblite ak tretman taks asirans moun kle varye selon peyi.
+
+## Egzanp pratik
+EGZANP ILISTRATIF: Yon biznis konsiltasyon espesyalize te grandi avèk siksè alantou relasyon endistri inik ak ekspètiz teknik fondatè li, kote fondatè a jere pèsonèlman prèske tout gwo relasyon kliyan ak devlopman biznis. Lè fondatè a toudenkou vin pa kapab travay pou yon peryòd long akoz yon pwoblèm sante, biznis la gen anpil difikilte, paske okenn lòt manm ekip la pa gen menm relasyon kliyan oswa menm repitasyon nan endistri a, e plizyè gwo kliyan kòmanse chèche lòt kote pandan dezòd la. Yon biznis konsiltasyon ki sanble ki te bati yon fason pwoaktif yon ekip ki pi laj ak relasyon kliyan distribye ak pwosesis dokimante, pandan l t ap antisipe egzakteman kalite risk moun kle sa a, kapab kontinye fonksyone ak sèlman yon dezòd modès e pi fasil pou jere lè youn nan manm ekip ansyen li yo kite toudenkou nan menm epòk la.
+
+## Egzamen pratik
+**Q1. Kisa risk moun kle dekri?**
+A) Risk ke yon biznis gen twòp anplwaye pou jere efikasman
+B) Risk yon biznis fè fas lè siksè oswa valè li depann yon fason disproporsyone de yon moun espesifik, tèlman ke pèdi moun sa a ta fè biznis la anpil mal
+C) Yon risk ki aplike sèlman pou gwo konpayi ki sou bous
+D) Risk ki asosye ak yon biznis ki gen twòp lajan kach nan men l
+
+**Q2. Poukisa risk moun kle pi fò sitou nan ti biznis fondatè dirije?**
+A) Ti biznis pa janm konnen risk moun kle nan okenn sikonstans
+B) Ti biznis gen plis chans te konsantre relasyon kritik, konesans pwopriyetè, ak otorite desizyon nan yon sèl oswa kèk moun, san pwosesis enstitisyonèl òganizasyon ki pi gwo yo souvan devlope
+C) Risk moun kle afekte sèlman biznis ki gen plis pase 1,000 anplwaye
+D) Biznis fondatè dirije toujou estriktire pou elimine risk moun kle otomatikman
+
+**Q3. Poukisa risk moun kle afekte evalyasyon biznis?**
+A) Risk moun kle pa gen okenn rapò ak jan achtè oswa envestisè potansyèl evalye yon biznis
+B) Yon achtè oswa envestisè potansyèl pral an jeneral aplike plis egzamen e pafwa yon miltip evalyasyon ki pi ba sou yon biznis ki gen yon gwo risk moun kle yo poko trete, paske pèfòmans nan lavni mwens sèten san moun sa a
+C) Biznis ki gen yon gwo risk moun kle toujou jwenn evalyasyon ki pi wo pase sa ki pa genyen l
+D) Miltip evalyasyon pa gen okenn rapò ak okenn moun nan biznis la
+
+**Q4. Kiyès nan sa yo ki yon estrateji moun rekòmande souvan pou diminye risk moun kle?**
+A) Konsantre menm plis relasyon kritik ak otorite desizyon nan yon sèl moun
+B) Dokimante pwosesis ak relasyon kritik, fòme lòt anplwaye nan plizyè travay, bati yon vrè ekip direksyon, e potansyèlman achte asirans moun kle
+C) Evite nenpòt dokimantasyon pwosesis biznis pou kenbe fleksibilite
+D) Refize anboche okenn lòt anplwaye pi lwen pase fondatè orijinal la
+
+**Q5. Nan egzanp lan, poukisa biznis konsiltasyon ki te gen relasyon kliyan distribye ak pwosesis dokimante a te jere depa pwòp moun kle li pi byen pase biznis ki te depann de fondatè a?**
+A) Biznis ki te gen relasyon distribye a pa t gen okenn mezi pou diminye risk moun kle an plas ditou
+B) Li te bati yon fason pwoaktif yon ekip ki pi laj ak relasyon distribye ak pwosesis dokimante, sa ki diminye depandans li sou nenpòt yon sèl moun, kontrèman ak biznis ki te depann de fondatè a
+C) Tou de biznis yo te konnen dezòd idantik e menm jan grav akoz depa respektif yo
+D) Biznis ki te gen relasyon distribye a pa t vrèman pèdi okenn manm ekip pandan menm peryòd la
+
+## Kle repons yo
+Q1: B
+Q2: B
+Q3: B
+Q4: B
+Q5: B
+
+## Repons ak eksplikasyon
+**Q1.** Risk moun kle konsène espesyalman vilnerabilite twòp depandans sou patisipasyon kontinyèl yon sèl moun kreye.
+
+**Q2.** Konsantrasyon fonksyon biznis kritik nan yon ti kantite moun, ki komen nan biznis ki pi piti e ki fondatè dirije, kreye dirèkteman vilnerabilite ki pi wo sa a.
+
+**Q3.** Paske pèfòmans yon biznis nan lavni ak kapasite pou transfere l bay nouvo pwopriyetè mwens sèten lè li depann anpil de yon sèl moun, yo souvan reflete risk sa a nan yon evalyasyon ki pi pridan.
+
+**Q4.** Etap espesifik sa yo trete dirèkteman konsantrasyon konesans ak relasyon anba a ki kreye risk moun kle okòmansman.
+
+**Q5.** Etap pwoaktif dezyèm biznis la te pran pou diminye risk la te diminye dirèkteman gravite dezòd operasyonèl la konpare ak biznis ki te depann de fondatè a ki pa t trete risk moun kle li.
+
+## Pwen kle yo
+- Risk moun kle dekri vilnerabilite ki kreye lè siksè yon biznis depann yon fason disproporsyone de yon moun espesifik.
+- Risk sa a pi fò sitou nan ti biznis oswa biznis fondatè dirije ki konsantre relasyon ak ekspètiz nan kèk moun.
+- Risk moun kle afekte evalyasyon biznis, paske achtè ak envestisè aplike plis egzamen sou biznis ki gen yon gwo depandans yo poko trete sou yon sèl moun.
+- Dokimante pwosesis, fòme anplwaye nan plizyè travay, bati yon vrè ekip direksyon, ak asirans moun kle se estrateji komen pou diminye risk la.
+
+===== BLUE-L4-015
+TITLE: Analiz ekonomi franchiz: poukisa achte yon franchiz echanje endepandans pou yon sistèm yo fin teste
+SUMMARY: Konprann prensipal konpwomi ekonomik pou posede yon franchiz, tankou frè, redevans, ak sipò mak, konpare ak kòmanse yon biznis endepandan.
+KEYWORDS: ekonomi franchiz, frè franchiz, estrikti redevans, konpwomi posesyon biznis
+# Analiz ekonomi franchiz: poukisa achte yon franchiz echanje endepandans pou yon sistèm yo fin teste
+
+## Senaryo pou louvri leson an
+SIPOZISYON/OPINYON (senaryo ipotetik pou objektif ansèyman sèlman): Imajine mache imobilye ak kredi konsomatè yon peyi ki gen anpil moun, apre plizyè ane ekspansyon rapid, kòmanse montre siy yon gwo koreksyon pandan defo yo kòmanse monte. Pandan yon boom ekonomik kredi te alimante ap ankouraje anpil moun konsidere kòmanse yon biznis pou premye fwa, kèk chwazi achte yon plas nan yon sistèm franchiz ki etabli olye bati yon bagay nèt depi zewo. Leson sa a egzamine konpwomi ekonomik espesifik ki genyen nan chwa sa a.
+
+## Objektif aprantisaj
+- Esplike estrikti ekonomik debaz yon aranjman franchiz, tankou kalite frè komen yo.
+- Esplike kisa yon franchize resevwa an echanj pou frè franchiz ak redevans k ap kontinye yo.
+- Konpare pwofil risk posede yon franchiz ak kòmanse yon biznis endepandan nèt.
+- Esplike poukisa ekonomi franchiz varye anpil nan diferan sistèm franchiz ak endistri.
+
+## Kontni prensipal
+Yon aranjman franchiz pèmèt yon moun (franchize a) opere yon biznis lè l itilize mak, modèl biznis, ak sistèm operasyonèl yon konpayi ki etabli (franchizè a), souvan an echanj pou yon frè franchiz davans ak peman redevans k ap kontinye, souvan yo kalkile kòm yon pousantaj revni franchize a. FÈ VERIFYE: akò franchiz yo souvan gen ladan yo tou lòt obligasyon, tankou kontribisyon obligatwa nan yon fon maketing, relasyon founisè obligatwa (pafwa nan pri franchizè a fikse), ak egzijans operasyonèl estanda franchize a dwe swiv, tout bagay sa yo presize nan yon akò franchiz ki angaje legalman ke yon franchize potansyèl ta dwe fè revize avèk atansyon, idealman ak konsèy pwofesyonèl legal ak finansye. RÈG ESPESIFIK POU REJYON AN: lwa sou franchiz, tankou egzijans dokiman divilgasyon, varye anpil selon peyi; verifye ak yon avoka lokal ki kalifye.
+
+Men "poukisa" yon franchize aksepte frè ak egzijans sa yo an echanj pou sa yon sistèm franchiz bay, sa ki gen rapò ak yon moun k ap konsidere chemen sa a pandan yon peryòd optimis ekonomik tankou senaryo pi wo a: yon franchize jwenn aksè a yon modèl biznis ki fin pwouve e teste ak rekonesans mak (sa ki diminye yon pati nan ensètitid ki natirèl nan kesyon "kisa ki vrèman pral mache" yon fondatè startup ki endepandan nèt dwe reponn depi zewo), sistèm operasyonèl ak fòmasyon ki etabli, e souvan yon sèten nivo sipò k ap kontinye nan men franchizè a, an echanj pou abandone yon degre endepandans ki gen sans ak yon pati revni k ap kontinye ke yon pwopriyetè biznis endepandan pa t ap oblije peye pèsonn.
+
+Se poutèt sa ekonomi franchiz varye anpil nan diferan sistèm franchiz ak endistri, e yon franchize potansyèl ta dwe evalye chif espesifik nenpòt opòtinite franchiz patikilye avèk atansyon olye sipoze franchiz an jeneral se swa yon chwa an sekirite swa yon chwa riske: kèk sistèm franchiz gen yon bon istorik pwofitabilite pou franchize yo e yo bay yon gwo valè k ap kontinye atravè fòs mak ak sipò operasyonèl, sa ki jistifye estrikti frè yo, alòske lòt yo enpoze gwo frè ak egzijans restriktif san yon istorik siksè franchize ki fò menm jan — yon distenksyon ki mande menm kalite rechèch serye (revize dokiman divilgasyon lalwa mande pou yon franchiz, pale dirèkteman ak franchize aktyèl ak ansyen franchize sou vrè eksperyans yo, e kalkile ekonomi pa inite espesifik la, sa ki raple Leson 1, pou konsèp franchiz patikilye sa a) ke nenpòt lòt desizyon envestisman biznis enpòtan ta merite.
+
+## Egzanp pratik
+EGZANP ILISTRATIF: Yon franchize potansyèl konpare de opsyon: Franchiz A fè peye yon frè davans $40,000 ak yon redevans k ap kontinye 6%, men li gen yon istorik solid e byen dokimante pwofitabilite pou franchize yo e li bay yon gwo sipò maketing ak operasyonèl. Franchiz B fè peye yon frè davans ki sanble $35,000 ak yon redevans konparab 6%, men li gen yon istorik byen pi fèb, kote anpil franchize aktyèl ak ansyen franchize rapòte yon pwofitabilite desevan ak yon vrè sipò limite nan men franchizè a malgre frè obligatwa yo. Yon rechèch serye — revize dokiman divilgasyon franchiz obligatwa yo e pale dirèkteman ak plizyè franchize aktyèl ak ansyen franchize nan chak sistèm — revele gwo diferans sa a nan vrè valè yo bay, malgre estrikti frè de franchiz yo sanble menm jan sou papye.
+
+## Egzamen pratik
+**Q1. Kisa yon franchize souvan peye an echanj pou opere anba mak ak sistèm yon franchizè?**
+A) Anyen; aranjman franchiz pa janm gen ladan yo okenn frè
+B) Yon frè franchiz davans ak peman redevans k ap kontinye, souvan yo kalkile kòm yon pousantaj revni, pami lòt frè posib
+C) Sèlman yon peman yon sèl fwa san okenn obligasyon finansye k ap kontinye ditou
+D) Yon salè fiks yo peye franchizè a chak ane kèlkeswa pwòp revni franchize a
+
+**Q2. Kisa yon franchize an jeneral jwenn an echanj pou frè ak obligasyon sa yo?**
+A) Yon endepandans konplè e san restriksyon san okenn egzijans operasyonèl nenpòt kalite
+B) Aksè a yon modèl biznis ki fin pwouve e teste, rekonesans mak, sistèm operasyonèl ak fòmasyon ki etabli, e souvan yon sipò k ap kontinye nan men franchizè a
+C) Yon pwofitabilite garanti kèlkeswa jan yo vrèman opere inite franchiz espesifik la
+D) Posesyon konplè mak ak mak depoze total franchizè a
+
+**Q3. Poukisa yon franchize potansyèl ta dwe evalye ekonomi espesifik yon opòtinite franchiz patikilye olye sipoze franchiz an jeneral an sekirite oswa riske?**
+A) Tout opòtinite franchiz gen ekonomi ak istorik idantik
+B) Ekonomi franchiz varye anpil nan diferan sistèm ak endistri, kote kèk bay yon gwo valè atravè fòs mak ak sipò, alòske lòt yo enpoze frè san yon istorik fò menm jan
+C) Dokiman divilgasyon franchiz pa janm itil pou evalye yon opòtinite espesifik
+D) Biznis endepandan toujou gen pi bon ekonomi pase nenpòt opòtinite franchiz
+
+**Q4. Ki etap rechèch moun rekòmande anvan w achte yon franchiz espesifik?**
+A) Konte sèlman sou materyèl maketing franchizè a bay dirèkteman
+B) Revize dokiman divilgasyon lalwa mande, pale dirèkteman ak franchize aktyèl ak ansyen franchize, e kalkile ekonomi pa inite espesifik pou konsèp franchiz sa a
+C) Sote tout rechèch e siyen akò franchiz la otan vit ke posib
+D) Sipoze yon frè franchiz ki pi wo toujou montre yon pi bon opòtinite biznis
+
+**Q5. Nan egzanp lan, poukisa de opòtinite franchiz ki sanble yo te reprezante pwopozisyon valè trè diferan an reyalite?**
+A) De franchiz yo te gen estrikti frè idantik ak istorik siksè franchize idantik
+B) Franchiz A te gen yon istorik solid e byen dokimante pwofitabilite pou franchize ak yon gwo sipò, alòske Franchiz B te gen yon istorik byen pi fèb malgre frè ki sanble
+C) Franchiz B te fè peye an reyalite frè ki pi wo anpil pase Franchiz A
+D) Pa t gen okenn diferans ki gen sans ant de opòtinite franchiz yo lè yo egzamine yo pi pre
+
+## Kle repons yo
+Q1: B
+Q2: B
+Q3: B
+Q4: B
+Q5: B
+
+## Repons ak eksplikasyon
+**Q1.** Konbinezon yon frè davans ak redevans k ap kontinye ki baze sou revni se estrikti finansye prensipal estanda pifò aranjman franchiz.
+
+**Q2.** Yo echanje estrikti frè franchiz ak redevans lan espesyalman pou mwens ensètitid ak sipò yon sistèm ki fin teste ak yon mak ki etabli ka bay.
+
+**Q3.** Akoz gwo varyasyon nan vrè valè yo bay nan diferan sistèm franchiz, yon evalyasyon serye pou chak ka esansyèl olye yon sipozisyon jeneral nan nenpòt direksyon.
+
+**Q4.** Etap rechèch espesifik sa yo trete dirèkteman varyasyon nan vrè rezilta franchize nan diferan sistèm franchiz, sa ki bay enfòmasyon ki pi fyab pase materyèl maketing pou kont yo.
+
+**Q5.** Malgre estrikti frè ki sanble sou sifas, istorik anba a ak vrè valè chak franchizè bay te diferan anpil, sa ki te vin parèt sèlman atravè yon rechèch serye.
+
+## Pwen kle yo
+- Yon aranjman franchiz souvan gen ladan l yon frè davans ak peman redevans k ap kontinye an echanj pou itilize yon mak ak yon sistèm biznis ki etabli.
+- Franchize yo jwenn yon modèl biznis ki fin pwouve, rekonesans mak, ak sipò operasyonèl an echanj pou frè ak mwens endepandans.
+- Ekonomi franchiz varye anpil selon sistèm, kidonk evalye istorik ak chif opòtinite espesifik la pi enpòtan pase sipoze franchiz an jeneral an sekirite oswa riske.
+- Yon rechèch serye, tankou revize dokiman divilgasyon ak pale dirèkteman ak franchize aktyèl ak ansyen franchize, esansyèl anvan w achte nenpòt franchiz espesifik.
