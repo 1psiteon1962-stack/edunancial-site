@@ -12,7 +12,7 @@ def shape(t):
     return dict(h1=len(re.findall(r'^# ',t,re.M)),h2=len(re.findall(r'^## ',t,re.M)),h3=len(re.findall(r'^### ',t,re.M)),
         sec=len(re.findall(r'^\*\*[1-7]\. ',t,re.M)),opt=len(re.findall(r'^\s*[a-d]\) ',t,re.M)),
         bul=len(re.findall(r'^\s*- ',t,re.M)),num=len(re.findall(r'^\s*\d+\. ',t,re.M)),tbl=len(re.findall(r'^\|',t,re.M)))
-EW=set('the and of to is are you your that this with for what how why it be not can will'.split())
+EW=set('the and of is are you your that this with for what how why it be not can will'.split())
 ch={}
 for b in sorted(glob.glob(f'{S}/work/{C}-L{L}-{loc}/*.txt')):
     for c in re.split(r'^=====\s*',open(b,encoding='utf-8').read(),flags=re.M)[1:]:
