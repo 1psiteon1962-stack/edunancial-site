@@ -126,3 +126,4 @@ out/GOLD-L5-001-050-de.zip 2026-11-22 GOLD L5 German, 9 Germany notes
 out/GOLD-L5-001-050-ht.zip 2026-11-22 GOLD L5 Haitian Creole, 9 Haiti notes
 out/PURPLE-L5-001-050-en-GB.zip 2026-11-22 PURPLE L5 British English, 45 UK notes
 out/PURPLE-L5-001-050-es-ES.zip 2026-11-22 PURPLE L5 Spain Spanish, 45 Spain notes
+out/PURPLE-L5-001-050-fr-FR.zip 2026-11-22 PURPLE L5 France French, 45 France notes
