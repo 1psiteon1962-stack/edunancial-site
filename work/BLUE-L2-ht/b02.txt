@@ -1,0 +1,279 @@
+===== BLUE-L2-006
+TITLE: Kapital pou demaraj: finanse poukont ou kont finansman deyò
+SUMMARY: Konpare finanse yon biznis poukont ou (bootstrapping) ak finansman deyò – konpwomi ant kontwòl, vitès kwasans, ak obligasyon ranbousman oswa pataje pwopriyete.
+## BLUE-L2-006
+### Kapital pou demaraj: finanse poukont ou kont finansman deyò
+
+**1. Objektif aprantisaj**
+Nan fen leson sa a, elèv la ap kapab:
+- Bay definisyon finanse poukont ou (bootstrapping) ak finansman deyò kòm apwòch jeneral.
+- Konpare konpwomi jeneral ant de apwòch yo.
+- Esplike poukisa bon apwòch la depann de biznis espesifik la ak objektif pwopriyetè a.
+
+**2. Kontni prensipal**
+Finanse poukont ou (bootstrapping) vle di finanse yon biznis sitou ak ekonomi pèsonèl, premye revni ou reenvesti, ak yon minimòm kapital deyò, sa ki kenbe tout pwopriyete ak kontwòl men ki anjeneral bay yon kwasans pi dousman, paske kapital ki disponib la limite a sa pwopriyetè a ak biznis lan li menm ka pwodui. Finansman deyò — prè, envestisè, oswa lòt sous kapital deyò — ka akselere kwasans lè l bay kapital pi lwen pase sa finanse poukont ou sèlman ta pèmèt, men anjeneral li vini ak konpwomi: prè mande ranbousman kèlkeswa pèfòmans biznis lan (sa raple risk efè lefye RED-L2-007 ak WHITE-L2-034), e envestisè deyò anjeneral mande pou w bay yon pati nan pwopriyete a e, souvan, yon pati nan kontwòl desizyon biznis yo.
+
+Okenn apwòch pa pi bon pou tout moun. Yon biznis ki bezwen ti kapital ak yon fondatè ki bay kontwòl konplè priyorite ta ka finanse poukont li yon fason rezonab; yon biznis ki mande gwo kapital davans pou l menm ka konpetisyone (sèten biznis fabrikasyon oswa teknoloji, pa egzanp) ta ka vrèman bezwen finansman deyò pou l egziste nan yon fòm ki ka viv.
+
+**3. Egzanp pratik**
+Lè l konpare sitiyasyon li ak sitiyasyon yon zanmi, Deshawn finanse biznis pwodui fèt alamen li poukont li, li reenvesti premye benefis yo pou ogmante kapasite pwodiksyon li piti piti, li kenbe tout pwopriyete ak kontwòl, men li aksepte yon trajektwa kwasans pi dousman kòm rezilta. Zanmi l, k ap lanse yon biznis ki mande ekipman espesyalize ki chè davans, chèche envestisman deyò espesyalman paske finanse poukont li sèlman pa ta bay ase kapital pou lanse biznis lan nan okenn fòm ki ka viv — yon chwa diferan, ki menm jan rezonab, dapre diferan bezwen kapital chak biznis.
+
+**4. Egzamen pratik**
+1. Kisa "finanse poukont ou" anjeneral vle di?
+   a) Konte sitou sou envestisè deyò
+   b) Finanse yon biznis ak ekonomi pèsonèl ak revni ou reenvesti, ak yon minimòm kapital deyò
+   c) Evite tout depans biznis
+   d) Yon kalite prè biznis
+
+2. Ki yon konpwomi kouran finansman pa envestisè deyò?
+   a) Pa gen okenn konpwomi
+   b) Anjeneral bay yon pati nan pwopriyete ak kontwòl an echanj pou kapital
+   c) Ou kenbe tout kontwòl garanti
+   d) Pa janm gen obligasyon ranbousman
+
+3. Vrè oswa Fo: Finanse poukont ou toujou apwòch ki objektivman pi bon pou chak biznis.
+
+4. Poukisa zanmi Deshawn te chèche envestisman deyò olye l finanse poukont li?
+   a) Li te prefere yon kwasans pi dousman
+   b) Biznis li te mande kapital davans finanse poukont li sèlman pa t ka bay
+   c) Li pa t renmen kenbe pwopriyete
+   d) Finanse poukont ou te ilegal pou kalite biznis li
+
+**5. Kle repons yo**
+1. b  2. b  3. Fo  4. b
+
+**6. Repons ak eksplikasyon**
+1. Finanse poukont ou finanse yon biznis ak ekonomi pèsonèl ak revni ou reenvesti, sa ki diminye depandans sou kapital deyò.
+2. Finansman pa envestisè deyò anjeneral mande pou w bay yon pati nan pwopriyete ak kontwòl an echanj pou kapital.
+3. Bon apwòch la depann de bezwen kapital biznis espesifik la ak objektif pwopriyetè a, se pa yon règ inivèsèl.
+4. Biznis zanmi l lan te mande gwo kapital davans finanse poukont li sèlman pa t ka bay yon fason reyalis.
+
+**7. Pwen kle yo**
+- Finanse poukont ou kenbe tout pwopriyete ak kontwòl men anjeneral li vle di yon kwasans pi dousman, limite pa kapital ki disponib.
+- Finansman deyò ka akselere kwasans men anjeneral li mande pou w bay pwopriyete, kontwòl, oswa aksepte obligasyon ranbousman.
+- Okenn apwòch pa pi bon pou tout moun — sa depann de bezwen kapital biznis lan ak objektif pwopriyetè a.
+- Desizyon sa a raple konpwomi efè lefye pi laj nou te diskite nan pakou RED ak WHITE yo.
+
+===== BLUE-L2-007
+TITLE: Kantite kòmand minimòm ak limit kapital
+SUMMARY: Yon Kantite Kòmand Minimòm (MOQ) ka kreye yon baryè kapital pou yon biznis pwodui nouvo – menm ak yon bon konsèp ak kliyan ki enterese.
+## BLUE-L2-007
+### Kantite kòmand minimòm ak limit kapital
+
+**1. Objektif aprantisaj**
+Nan fen leson sa a, elèv la ap kapab:
+- Bay definisyon Kantite Kòmand Minimòm (MOQ) nan yon nivo konseptyèl.
+- Esplike kijan kondisyon MOQ ka kreye yon baryè kapital pou antre nan yon mache.
+- Aplike konsèp sa a nan yon vrè senaryo biznis ki baze sou pwodui.
+
+**2. Kontni prensipal**
+Yon Kantite Kòmand Minimòm (Minimum Order Quantity, MOQ) se pi piti kantite yon founisè oswa yon manifaktirye ap pwodui oswa vann nan yon sèl kòmand, souvan yo fikse l byen pi wo pase sa yon ti biznis nouvo ka peye fasil oswa vann anvan l bezwen plis kapital. Sa kreye yon limit kapital espesifik e konkrè pou biznis ki baze sou pwodui: menm yon bon konsèp biznis ak kliyan ki anvi achte ka bloke paske w pa ka satisfè MOQ yon founisè, paske kapital davans ki nesesè pou pase yon premye kòmand ka depase sa finanse poukont ou oswa finansman ki disponib ka sipòte.
+
+Rekonèt yon baryè MOQ bonè — anvan yon gwo envestisman emosyonèl ak finansye nan yon konsèp pwodui espesifik — pèmèt yon fondatè evalye lòt opsyon: negosye yon pi piti kòmand esè, jwenn yon lòt founisè ki gen yon MOQ pi ba (souvan nan yon pri pa inite ki pi wo), chwazi yon modèl biznis totalman diferan (Leson 10), oswa konkli yon fason rezonab ke opòtinite espesifik sa a, jan l estriktire kounye a, pa koresponn ak kapital fondatè a genyen.
+
+**3. Egzanp pratik**
+Pandan l ap planifye lanse yon biznis pwodui ak pwòp mak li (private label), yon fondatè dekouvri manifaktirye yo mande yon kantite kòmand minimòm ki mande yon angajman kapital davans byen pi lwen pase ekonomi li genyen ak finansman li ka jwenn. Olye l avanse kanmenm oswa abandone antreprenarya nèt, fondatè a rekonèt baryè kapital espesifik sa a klèman, li eksplore lòt founisè ki gen minimòm pi ba (nan yon pri pa inite ki pi wo ki ta diminye maj yo), e alafen li pran yon desizyon espre pou l kite konsèp pwodui espesifik sa a jan l te estriktire okòmansman — li trete kite a kòm yon bon desizyon akoz vrè limit kapital la, se pa yon echèk, e li chanje direksyon pou ale nan yon modèl ki baze sou sèvis ki mande mwens kapital pito (yon tranzisyon nou eksplore plis nan Leson 9–10).
+
+**4. Egzamen pratik**
+1. Kisa yon Kantite Kòmand Minimòm (MOQ) ye?
+   a) Maksimòm yon kliyan ka achte
+   b) Pi piti kantite yon founisè ap pwodui oswa vann nan yon sèl kòmand
+   c) Yon kalite prè biznis
+   d) Yon règleman gouvènman sou tout pwodui
+
+2. Kijan yon MOQ ka kreye yon baryè pou antre?
+   a) Li pa janm afekte bezwen kapital
+   b) Li ka mande kapital davans ki depase sa yon nouvo biznis ka peye
+   c) Li garanti siksè biznis
+   d) Li afekte sèlman biznis ki baze sou sèvis
+
+3. Vrè oswa Fo: Ou ka rezoud yon baryè MOQ sèlman lè w jwenn plis kapital, san okenn lòt opsyon.
+
+4. Ki lòt opsyon leson sa a idantifye pou trete yon baryè MOQ?
+   a) Okenn — biznis lan dwe toujou echwe
+   b) Negosye yon pi piti kòmand, jwenn yon founisè ak MOQ pi ba, oswa chanje modèl biznis
+   c) Inyore kondisyon MOQ a nèt
+   d) Sèl repons valab se prete plis lajan
+
+**5. Kle repons yo**
+1. b  2. b  3. Fo  4. b
+
+**6. Repons ak eksplikasyon**
+1. Yon MOQ se pi piti kantite yon founisè ap pwodui oswa vann nan yon sèl kòmand.
+2. MOQ ki wo ka mande kapital davans ki depase sa yon nouvo biznis ka peye yon fason reyalis, sa ki kreye yon vrè baryè.
+3. Gen lòt opsyon pi lwen pase tou senpleman jwenn plis kapital, sa gen ladan negosyasyon, lòt founisè, oswa yon lòt modèl biznis.
+4. Leson sa a idantifye negosye pi piti kòmand, lòt founisè, oswa chanje modèl biznis kòm repons rezonab devan yon baryè MOQ.
+
+**7. Pwen kle yo**
+- Yon Kantite Kòmand Minimòm se pi piti kòmand yon founisè ap aksepte, sa ki ka depase kapital yon nouvo biznis genyen.
+- Baryè MOQ se yon limit kapital reyèl e kouran pou biznis ki baze sou pwodui.
+- Rekonèt baryè sa a bonè pèmèt negosyasyon, lòt founisè, oswa yon chanjman modèl biznis.
+- Kite yon konsèp ki bloke pa kapital ka yon bon desizyon, se pa yon echèk.
+
+===== BLUE-L2-008
+TITLE: Evalye yon mache konpetitif anvan w angaje kapital
+SUMMARY: Anvan w angaje kapital nan yon konsèp biznis, evalye konkirans, diferansyasyon, baryè pou antre, ak gwosè mache a – pou w konnen nan kisa w ap antre.
+## BLUE-L2-008
+### Evalye yon mache konpetitif anvan w angaje kapital
+
+**1. Objektif aprantisaj**
+Nan fen leson sa a, elèv la ap kapab:
+- Idantifye kesyon kle pou evalye nivo konkirans yon mache anvan w lanse yon biznis.
+- Esplike poukisa antre nan yon mache ki twò satire ka febli menm yon plan biznis ki byen egzekite.
+- Aplike evalyasyon sa a nan yon konsèp biznis ipotetik.
+
+**2. Kontni prensipal**
+Anvan w angaje gwo kapital (Leson 6–7) nan yon konsèp biznis, evalye peyizaj konkirans lan ede yon fondatè konprann nan kisa l ap antre toutbon. Kesyon kle yo gen ladan: Konbyen konkiran ki deja sèvi mache sa a, e konbyen yo byen etabli? Kisa ki fè nouvo biznis sa a diferan de opsyon ki deja egziste yo, pi lwen pase tou senpleman "n ap fè l pi byen"? Ki baryè pou antre ki egziste pou konkiran yo (baryè ki ba vle di nouvo konkiran ta ka swiv vit si konsèp la reyisi)? E ki vrè gwosè mache ou ka vize a, konpare ak konbyen biznis ki deja an konkirans pou li?
+
+Yon bon konsèp biznis, ki byen egzekite, ka toujou gen difikilte oswa echwe si l antre nan yon mache ki deja satire san yon vrè bagay ki diferansye l oswa san l pa konte jan konkiran yo ta ka reyaji vit a nenpòt siksè. Leson sa a pa dekouraje antre nan mache konpetitif nèt — anpil biznis ki reyisi opere nan domèn ki chaje — men li ensiste pou evalyasyon sa a fèt espre, anvan w angaje kapital, olye w dekouvri l ak doulè apre.
+
+**3. Egzanp pratik**
+Anvan l lanse yon biznis pwodui ak pwòp mak li (sa raple egzanp Leson 7 la), yon fondatè fè rechèch sou mache espesifik la e li jwenn anpil konkiran ki byen etabli deja sèvi l, ak yon fò rekonesans mak ak pri pa inite ki pi ba akoz pi gwo volim kòmand yo. Ansanm ak baryè kapital MOQ li te deja idantifye a, analiz konkirans sa a ranfòse desizyon fondatè a pou l kite konsèp espesifik sa a, olye l trete baryè MOQ a kòm sèl rezon pou chanjman direksyon an — mache a li menm, endepandan de limit kapital la, te prezante yon pozisyon konkirans difisil, ki petèt pa t ka genyen.
+
+**4. Egzamen pratik**
+1. Ki yon kesyon kle leson sa a rekòmande pou poze anvan w angaje kapital nan yon biznis?
+   a) Ki koulè logo a ta dwe ye?
+   b) Konbyen konkiran ki deja sèvi mache sa a, e konbyen yo byen etabli?
+   c) Ki pastan pèsonèl fondatè a pi renmen?
+   d) Okenn nan kesyon sa yo pa enpòtan
+
+2. Poukisa yon biznis ki byen egzekite ka toujou gen difikilte nan yon mache satire?
+   a) Egzekisyon pa janm enpòtan
+   b) San yon vrè bagay ki diferansye l, bon egzekisyon sèlman ka pa depase avantaj konkirans ki deja egziste
+   c) Mache satire garanti siksè
+   d) Konkirans pa gen okenn efè sou rezilta biznis
+
+3. Vrè oswa Fo: Leson sa a konkli ou ta dwe toujou evite nèt antre nan yon mache konpetitif.
+
+4. Kisa analiz konkirans fondatè a te revele, pi lwen pase baryè kapital MOQ a?
+   a) Pa t gen okenn konkiran ditou
+   b) Mache a te deja sèvi pa konkiran ki byen etabli ak avantaj sou pri
+   c) Mache a pa t gen okenn jwè etabli
+   d) Konkirans pa t gen rapò ak desizyon an
+
+**5. Kle repons yo**
+1. b  2. b  3. Fo  4. b
+
+**6. Repons ak eksplikasyon**
+1. Evalye konkiran ki deja egziste ak nivo etablisman yo se yon kesyon kle anvan w angaje kapital.
+2. San yon vrè bagay ki diferansye l, menm bon egzekisyon ka pa depase avantaj yon konkiran ki byen etabli deja genyen.
+3. Leson sa a pa dekouraje mache konpetitif nèt, men li ensiste sou yon evalyasyon espre anvan w angaje kapital.
+4. Analiz fondatè a te revele konkiran ki byen etabli ak avantaj sou pri, sa ki ranfòse desizyon pou kite a ansanm ak baryè MOQ a.
+
+**7. Pwen kle yo**
+- Evalye nivo konkirans yon mache anvan w angaje kapital gade konkiran ki egziste, diferansyasyon, baryè pou antre, ak gwosè mache.
+- Yon bon konsèp ki byen egzekite ka toujou gen difikilte nan yon mache ki deja satire san yon vrè bagay ki diferansye l.
+- Evalyasyon sa a ta dwe fèt espre anvan w angaje kapital, se pa dekouvri l ak doulè apre.
+- Baryè konkirans ak baryè kapital (tankou MOQ) ka konbine, sa ki ranfòse yon desizyon pou kite soti nan plizyè direksyon.
+
+===== BLUE-L2-009
+TITLE: Desizyon pou chanje direksyon: kilè pou kite yon lide biznis
+SUMMARY: Fè diferans ant yon bon desizyon pou chanje direksyon (pivot) ak tou senpleman bay legen – "fè bak e reòganize" kòm yon taktik lejitim ki baze sou prèv konkrè.
+## BLUE-L2-009
+### Desizyon pou chanje direksyon: kilè pou kite yon lide biznis
+
+**1. Objektif aprantisaj**
+Nan fen leson sa a, elèv la ap kapab:
+- Fè diferans ant yon bon desizyon pou chanje direksyon ak tou senpleman bay legen.
+- Idantifye siyal ki sijere kite yon konsèp espesifik rezonab.
+- Aplike konsèp "fè bak e reòganize" nan yon desizyon biznis.
+
+**2. Kontni prensipal**
+Sou baz dirèk Leson 7–8, leson sa a trete desizyon pou chanje direksyon (pivot) klèman: rekonèt kilè yon konsèp biznis espesifik, jan l estriktire kounye a, ta dwe abandone pou yon lòt apwòch — se pa kòm yon echèk, men kòm yon repons estratejik lejitim a enfòmasyon reyèl. Sa raple analoji militè "fè bak e reòganize" yo itilize lòt kote nan pwogram sa a: fè bak soti nan yon pozisyon ou pa ka kenbe se yon taktik lejitim, se pa yon defèt, lè altènativ la se kontinye angaje resous nan yon pozisyon prèv klè sijere pap reyisi.
+
+Siyal ki ka montre yon chanjman direksyon jistifye gen ladan yon vrè baryè kapital ou pa ka depase yon fason rezonab (Leson 7), yon analiz peyizaj konkirans ki sijere yon pozisyon difisil oswa ou pa ka genyen (Leson 8), oswa nouvo enfòmasyon ki revele sipozisyon prensipal konsèp orijinal la te gen defo. Yon bon desizyon pou chanje direksyon chita sou kalite prèv konkrè sa a, evalye onètman, se pa sou yon sèl move jou oswa yon moman dekourajman — sa ki fè diferans ant yon vrè reyevalyasyon estratejik ak tou senpleman bay legen twò bonè.
+
+**3. Egzanp pratik**
+Apre l fin idantifye ni yon gwo baryè kapital MOQ (Leson 7) ni yon peyizaj konkirans difisil (Leson 8) pou yon konsèp pwodui ak pwòp mak espesifik, yon fondatè pran yon desizyon espre, ki baze sou prèv, pou l kite konsèp espesifik sa a, olye l kontinye fòse l avanse kont obstak estriktirèl ki klè. Olye l wè sa kòm yon echèk, fondatè a trete l kòm yon moman "fè bak e reòganize," li itilize sa l te aprann sou limit kapital ak evalyasyon mache pou enfòme yon chanjman direksyon nan yon modèl biznis ki baze sou sèvis ki mande mwens kapital (nou eksplore l nan Leson 10) ki evite ni baryè MOQ a ni mache pwodui satire a nèt.
+
+**4. Egzamen pratik**
+1. Kisa analoji "fè bak e reòganize" a sijere sou yon desizyon pou chanje direksyon?
+   a) Se toujou yon siy echèk
+   b) Fè bak soti nan yon pozisyon ou pa ka kenbe se yon taktik lejitim, se pa yon defèt
+   c) Ou pa ta dwe janm konsidere chanje direksyon
+   d) Li pa gen rapò ak desizyon biznis
+
+2. Ki siyal ki ka jistifye yon desizyon pou chanje direksyon, dapre leson sa a?
+   a) Yon sèl move jou
+   b) Yon vrè baryè kapital oswa yon peyizaj konkirans difisil, evalye onètman
+   c) Santi w dekouraje pou yon ti tan
+   d) Chans sèlman
+
+3. Vrè oswa Fo: Yon bon desizyon pou chanje direksyon ak tou senpleman bay legen twò bonè se egzakteman menm bagay.
+
+4. Kisa ki te enfòme desizyon fondatè a pou l chanje direksyon kite konsèp pwodui ak pwòp mak la?
+   a) Yon sèl move entèraksyon ak yon kliyan
+   b) Prèv konkrè ki soti ni nan baryè kapital MOQ a ni nan analiz peyizaj konkirans lan
+   c) Pa t gen okenn vrè prèv ditou
+   d) Yon devinèt o aza
+
+**5. Kle repons yo**
+1. b  2. b  3. Fo  4. b
+
+**6. Repons ak eksplikasyon**
+1. Analoji "fè bak e reòganize" a prezante yon chanjman direksyon lejitim kòm yon repozisyònman estratejik, se pa yon defèt.
+2. Vrè baryè kapital ak yon analiz konkirans onèt se siyal lejitim ki jistifye yon desizyon pou chanje direksyon.
+3. Yon bon chanjman direksyon chita sou prèv konkrè, diferan de bay legen twò bonè akoz dekourajman.
+4. Chanjman direksyon fondatè a te enfòme pa prèv konkrè ki soti ni nan baryè kapital la ni nan analiz konkirans lan, se pa enpilsyon.
+
+**7. Pwen kle yo**
+- Yon bon desizyon pou chanje direksyon se yon repons estratejik lejitim a prèv konkrè, se pa yon echèk.
+- Analoji "fè bak e reòganize" a prezante fè bak soti nan yon pozisyon ou pa ka kenbe kòm taktik, se pa defetis.
+- Vrè baryè kapital ak yon analiz konkirans onèt se siyal lejitim ki sipòte yon chanjman direksyon.
+- Fè diferans ant yon bon chanjman direksyon ak bay legen twò bonè mande yon evalyasyon onèt vrè prèv yo.
+
+===== BLUE-L2-010
+TITLE: Modèl biznis ki mande ti kapital: sèvis kont pwodui
+SUMMARY: Konpare bezwen kapital modèl biznis ki baze sou sèvis ak sa ki baze sou pwodui – e poukisa yon modèl sèvis ka evite baryè MOQ ak envantè.
+## BLUE-L2-010
+### Modèl biznis ki mande ti kapital: sèvis kont pwodui
+
+**1. Objektif aprantisaj**
+Nan fen leson sa a, elèv la ap kapab:
+- Konpare bezwen kapital jeneral modèl biznis ki baze sou sèvis ak sa ki baze sou pwodui.
+- Esplike poukisa yon modèl ki baze sou sèvis ka trete baryè MOQ ak envantè nou te diskite pi bonè.
+- Aplike konparezon sa a nan yon vrè senaryo chanjman direksyon.
+
+**2. Kontni prensipal**
+Sou baz dirèk desizyon pou chanje direksyon an (Leson 9), leson sa a konpare modèl biznis ki baze sou sèvis ak sa ki baze sou pwodui espesyalman atravè yon lantiy bezwen kapital. Biznis ki baze sou pwodui anjeneral mande kapital davans pou envantè (ki sijè a limit MOQ, Leson 7) e souvan pou depo, livrezon, ak kontwòl kalite. Biznis ki baze sou sèvis anjeneral mande anpil mwens kapital davans, paske "pwodui" prensipal la se tan, konpetans, ak ekspètiz fondatè a oswa ekip la, san envantè ni baryè MOQ ki kanpe ant biznis lan ak premye kliyan li.
+
+Sa pa fè modèl ki baze sou sèvis pi bon pou tout moun — anpil biznis ki baze sou pwodui reyisi e yo ofri avantaj yon biznis sèvis pa ka repwodui fasil (tankou kapasite pou grandi san yon envestisman tan ki pwopòsyonèl, paske ou ka vann yon pwodui fizik plizyè fwa san fondatè a pa fè chak vant pèsonèlman). Men pou yon fondatè ki fè fas a vrè limit kapital, yon modèl ki baze sou sèvis ka bay yon chemen ki gen mwens baryè pou antre nan antreprenarya, e chanje direksyon soti nan yon konsèp pwodui ki mande anpil kapital pou ale nan yon modèl ki baze sou sèvis se yon repons estratejik lejitim, se pa yon repons ki pi piti.
+
+**3. Egzanp pratik**
+Apre l fin kite konsèp pwodui ak pwòp mak la (Leson 7–9), fondatè a chanje direksyon pou ale nan yon biznis sèvis konsepsyon sit entènèt ak maketing dijital, ki mande sèlman konpetans li deja genyen ak yon ti kantite lojisyèl ak ekipman pou kòmanse sèvi kliyan, san okenn baryè kapital MOQ oswa envantè ki kanpe nan wout li. Chanjman direksyon sa a te trete dirèkteman de pwoblèm yo te idantifye pi bonè yo: pa gen okenn kantite kòmand minimòm ki limite kijan fondatè a ka kòmanse, e mache ki baze sou sèvis fondatè a antre ladan l lan, menm si l toujou gen konkirans, pa gen menm konkiran ki byen etabli ak gwo avantaj sou pri ki te fè konsèp pwodui orijinal la tèlman difisil.
+
+**4. Egzamen pratik**
+1. Kisa biznis ki baze sou pwodui anjeneral mande, ke biznis ki baze sou sèvis anjeneral pa mande?
+   a) Nenpòt kliyan ditou
+   b) Kapital envantè davans, ki sijè a limit MOQ
+   c) Yon kont labank biznis
+   d) Yon non mak
+
+2. Ki yon avantaj jeneral biznis ki baze sou pwodui ka genyen sou biznis ki baze sou sèvis?
+   a) Pa gen okenn avantaj
+   b) Kapasite pou grandi san yon envestisman tan fondatè ki pwopòsyonèl, paske ou ka vann yon pwodui plizyè fwa
+   c) Bezwen kapital ki pi ba garanti
+   d) Pa janm gen konkirans
+
+3. Vrè oswa Fo: Modèl biznis ki baze sou sèvis toujou pi bon pou tout moun pase modèl ki baze sou pwodui.
+
+4. Kijan chanjman direksyon nan yon modèl ki baze sou sèvis te trete pwoblèm orijinal fondatè a?
+   a) Li te kreye nouvo baryè MOQ
+   b) Li te elimine baryè kapital MOQ/envantè a e li te evite mache konpetitif satire yo te idantifye anvan an
+   c) Li te mande plis kapital pase konsèp pwodui orijinal la
+   d) Li pa t gen okenn efè sou okenn nan pwoblèm yo
+
+**5. Kle repons yo**
+1. b  2. b  3. Fo  4. b
+
+**6. Repons ak eksplikasyon**
+1. Biznis ki baze sou pwodui anjeneral mande kapital envantè davans ki sijè a limit MOQ, kontrèman ak pifò biznis ki baze sou sèvis.
+2. Biznis ki baze sou pwodui ka ofri avantaj pou grandi, paske ou ka vann yon pwodui plizyè fwa san tan fondatè ki pwopòsyonèl.
+3. Okenn modèl pa pi bon pou tout moun; bon chwa a depann de kapital, konpetans, ak sikonstans mache fondatè a.
+4. Chanjman direksyon nan sèvis la te elimine baryè MOQ/envantè a e li te deplase lwen mache pwodui satire yo te idantifye anvan an.
+
+**7. Pwen kle yo**
+- Biznis ki baze sou pwodui anjeneral mande plis kapital davans, ki sijè a limit MOQ ak envantè.
+- Biznis ki baze sou sèvis anjeneral mande mwens kapital davans, paske ofri prensipal la se tan, konpetans, ak ekspètiz.
+- Okenn modèl pa pi bon pou tout moun; chak youn gen konpwomi apa sou kapital, kapasite pou grandi, ak pozisyon konkirans.
+- Chanje direksyon soti nan yon konsèp pwodui ki mande anpil kapital pou ale nan yon modèl sèvis se yon repons estratejik lejitim, pafwa ki gen avantaj.
