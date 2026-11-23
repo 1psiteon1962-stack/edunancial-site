@@ -1,0 +1,95 @@
+---
+id: PURPLE-L4-031
+track: PURPLE
+officialTrackName: "Law"
+level: 4
+lessonNumber: 31
+locale: ht
+title: "Analiz kontrefason mak komèsyal: poukisa 'chans pou gen konfizyon' se kesyon legal santral la"
+summary: "Konprann estanda 'chans pou gen konfizyon' ki gouvène reklamasyon kontrefason mak komèsyal, faktè tribinal yo peze ansanm, ak poukisa fòs mak ki la anvan an enpòtan."
+version: "1.0"
+author: "Edunancial Faculty"
+date: "2026-10-11"
+---
+Filename: PURPLE-L4-031.ht.md
+Folder: PURPLE/L4
+Title: Analiz kontrefason mak komèsyal: poukisa 'chans pou gen konfizyon' se kesyon legal santral la
+Lesson ID: PURPLE-L4-031
+Author: Waldemar M. Caban, JD MA
+Meta Description: Konprann estanda 'chans pou gen konfizyon' ki gouvène reklamasyon kontrefason mak komèsyal, faktè tribinal yo peze ansanm, ak poukisa fòs mak ki la anvan an enpòtan.
+SEO Keywords: kontrefason mak komèsyal, chans pou gen konfizyon, faktè resanblans mak, estanda konfizyon konsomatè
+Slug: trademark-infringement-analysis-why-likelihood-of-confusion-is-the-central-legal-question
+
+# Analiz kontrefason mak komèsyal: poukisa 'chans pou gen konfizyon' se kesyon legal santral la
+
+## Senaryo pou louvri leson an
+SIPOZISYON/OPINYON (senaryo ipotetik pou objektif ansèyman sèlman): Imajine de gwo pisans ekonomik k ap ogmante kontwòl sou ekspòtasyon youn kont lòt sou yon kategori pyès teknoloji avanse yo itilize nan anpil endistri. Pandan de gwo pisans ekonomik sa yo ap ogmante restriksyon sou teknoloji, konpayi k ap elaji nan nouvo mache sou toude bò yo rankontre pi plis non mak ak logo ki egziste deja ki ka sanble ak pa yo, sa ki fè yo bay plis atansyon a egzakteman ki estanda legal ki vrèman deside si yon nouvo mak vyole yon mak komèsyal ki egziste deja yon fason ilegal, ki bati sou entwodiksyon pwoteksyon mak komèsyal nan Leson 8 nivo sa a.
+
+## Objektif aprantisaj
+- Esplike estanda 'chans pou gen konfizyon' (likelihood of confusion) ki gouvène reklamasyon kontrefason mak komèsyal, ki bati sou entwodiksyon Leson 8 nivo sa a.
+- Idantifye faktè jeneral tribinal yo souvan peze ansanm lè y ap evalye chans pou gen konfizyon, olye yo konte sou yon sèl faktè pou kont li.
+- Esplike poukisa yo ka jwenn de mak vyole lalwa menm si yo pa idantik, ak poukisa de mak ki sanble ta ka pa vyole lalwa si yo itilize yo pou machandiz oswa sèvis ki vrèman pa gen rapò.
+- Esplike poukisa fòs mak ki la anvan an (mak ansyen an) li menm se yon faktè enpòtan nan analiz sa a.
+
+## Kontni prensipal
+Nou bati sou entwodiksyon pwoteksyon mak komèsyal nan Leson 8 nivo sa a: FÈ VERIFYE, kontrefason mak komèsyal anjeneral mande pou w pwouve ke fason akize a itilize yon mak kreye yon "chans pou gen konfizyon" pami konsomatè òdinè sou sous, patwonaj, oswa afilyasyon machandiz oswa sèvis ki konsène yo — sa ki vle di mak yo pa bezwen idantik pou yo jwenn yon kontrefason, e mak ki idantik oswa ki sanble anpil p ap nesesèman vyole lalwa si konfizyon konsomatè a kanmenm vrèman pa gen chans rive selon tout sikonstans ki antoure l yo. RÈG ESPESIFIK POU REJYON AN: Ann Ayiti, mak komèsyal yo enskri nan Ministè Komès ak Endistri (MCI) e yo swiv pwòp lwa lokal yo; verifye ak yon avoka ki kalifye.
+
+Men "poukisa" tribinal yo souvan peze plizyè faktè ansanm lè y ap evalye chans pou gen konfizyon, olye yo konte sou yon sèl faktè pou kont li, RÈG ESPESIFIK POU REJYON AN, konfime tès faktè espesifik ki an vigè yo, ki varye yon ti jan selon jiridiksyon an menm si anjeneral yo gen anpil bagay an komen: faktè yo souvan konsidere yo gen ladan resanblans jeneral de mak yo li menm (nan aparans, son ak sans), resanblans oswa rapò ant vrè machandiz oswa sèvis yo itilize chak mak ak yo, kanal maketing espesifik chak pati vrèman itilize pou rive jwenn konsomatè yo, nivo atansyon achtè òdinè yo gen chans bay lè y ap vrèman pran desizyon acha yo, prèv nenpòt vrè konfizyon konsomatè ki deja rive nan lavi reyèl, ak pwòp entansyon akize a lè l te adopte mak espesifik la — anjeneral pa gen okenn sèl faktè yo konsidere kòm otomatikman desizif pou kont li, sa ki vle di tribinal yo peze faktè sa yo ansanm selon tout fè espesifik chak ka patikilye.
+
+Se poutèt sa yo ka jwenn de mak vyole lalwa menm si yo pa idantik, ak poukisa de mak ki sanble ta ka pa vyole lalwa si yo itilize yo pou machandiz oswa sèvis ki vrèman pa gen rapò: kesyon legal santral la toujou se si konsomatè òdinè yo gen chans vrèman konfonn sou vrè sous machandiz oswa sèvis yo, pa si de mak yo idantik literalman, teknikman — se poutèt sa yon mak ki sanble, menm si li pa idantik, ak yon mak ki egziste deja ka toujou vyole lalwa si yo itilize l ak machandiz oswa sèvis ki gen rapò sere ki gen chans koze yon vrè konfizyon pou konsomatè, alòske yon mak idantik oswa prèske idantik yo itilize pou machandiz oswa sèvis ki pa gen okenn rapò ditou nan yon mache totalman diferan ki pa gen rapò (kote konsomatè yo pa ta gen okenn baz rezonab pou yo panse gen okenn lyen ant de itilizasyon yo) ta ka pa kreye okenn vrè chans pou gen konfizyon ditou, e kidonk li ta ka pa vyole lalwa malgre resanblans mak yo sou sifas. Se poutèt sa fòs mak ki la anvan an li menm se yon faktè enpòtan nan analiz ki pi laj sa a: yon mak ki trè distenktif e ki rive gen yon gwo rekonesans piblik anjeneral resevwa yon pwoteksyon legal ki pi laj kont itilizasyon pita ki ta ka koze konfizyon atravè yon pi gwo kantite machandiz ak sèvis ki gen rapò pase sa yon mak ki relativman fèb, ki mwens distenktif, oswa ki mwens rekonèt lajman ta resevwa, OPINYON ak yon rezon moun aksepte lajman nan lwa sou mak komèsyal, ki reflete yon jijman ke konsomatè yo gen plis chans anpil pou yo panse gen yon lyen oswa yon afilyasyon lè yon mak ki trè rekonèt, ki distenktif, parèt nan yon kontèks ki nouvo men ki gen rapò pase lè yon mak relativman enkoni oswa ki sonnen trè jeneral parèt, sa ki vle di fòs ak rekonesans espesifik mak ki la anvan an vrèman afekte ki jan pwoteksyon mak komèsyal li vrèman rive lwen kont itilizasyon pita ki ta ka sanble.
+
+## Egzanp pratik
+EGZANP ILISTRATIF: Yon konpayi k ap elaji nan yon nouvo mache adopte yon non mak ki sanble nan son ak nan aparans ak yon mak komèsyal ki egziste deja, ki byen rekonèt, yon lòt konpayi itilize nan yon kategori pwodui ki gen rapò sere, sa ki kreye yon vrè chans pou konsomatè òdinè panse pa erè gen yon lyen oswa yon afilyasyon ant de a — sa gen chans konstitye yon kontrefason mak komèsyal akoz resanblans mak yo, pwodui ki gen rapò sere yo, ak gwo fòs ak rekonesans pwòp mak ki egziste deja a. Yon lòt konpayi k ap itilize yon non ki sonnen egzakteman menm jan pou yon pwodui ki pa gen okenn rapò ditou nan yon endistri totalman diferan, ki pa gen rapò, kote konsomatè yo pa ta gen okenn baz rezonab pou yo panse gen okenn lyen ant de itilizasyon totalman separe sa yo, gen chans pou yo pa jwenn li vyole lalwa, sa ki montre egzakteman poukisa tout analiz chans pou gen konfizyon ak plizyè faktè a, pa sèlman resanblans mak yo li menm, ki deside vrè rezilta legal la.
+
+## Egzamen pratik
+**Q1. Ki estanda legal santral ki gouvène reklamasyon kontrefason mak komèsyal?**
+A) Si de mak ki konsène yo idantik literalman, teknikman nan tout aspè
+B) Si fason akize a itilize yon mak kreye yon 'chans pou gen konfizyon' pami konsomatè òdinè sou sous, patwonaj, oswa afilyasyon machandiz oswa sèvis ki konsène yo
+C) Si akize a te enskri mak li anvan pleyan an te enskri pa l, kèlkeswa okenn konfizyon konsomatè
+D) Kontrefason mak komèsyal pa gen okenn estanda legal espesifik e se nèt dapre pwòp diskresyon pèsonèl chak jij yo deside l
+
+**Q2. Kiyès nan sa yo ki se yon faktè yo souvan konsidere nan analiz chans pou gen konfizyon an?**
+A) Sèlman fòm lèt espesifik yo itilize nan logo chak pati, san okenn lòt faktè ki enpòtan
+B) Resanblans jeneral mak yo, rapò ant machandiz oswa sèvis yo, kanal maketing yo itilize, atansyon konsomatè yo bay, prèv vrè konfizyon, ak entansyon akize a lè l te adopte mak la
+C) Tribinal yo pa janm vrèman konsidere okenn faktè espesifik e yo deside sèlman selon ki pati ki te depoze pwosè l an premye
+D) Sèlman montan an dola espesifik chak pati te depanse nan maketing, san okenn lòt faktè ki enpòtan
+
+**Q3. Poukisa yo ka jwenn de mak vyole lalwa menm si yo pa idantik, alòske mak idantik ta ka pa vyole lalwa nan kèk sikonstans?**
+A) Se sèlman mak ki idantik literalman yo ka janm jwenn vyole yon mak komèsyal ki egziste deja
+B) Kesyon santral la se si konsomatè òdinè yo gen chans vrèman konfonn sou vrè sous machandiz oswa sèvis yo, pa si mak yo idantik literalman, sa ki vle di mak ki sanble pou machandiz ki gen rapò ka vyole lalwa alòske mak idantik pou machandiz ki pa gen okenn rapò ta ka pa vyole l
+
+**Q4. Poukisa fòs mak ki la anvan an enpòtan kòm yon faktè enpòtan nan analiz sa a?**
+A) Fòs mak ki la anvan an pa gen okenn vrè enpòtans nan okenn analiz kontrefason mak komèsyal
+B) Yon mak ki trè distenktif e ki rekonèt lajman anjeneral resevwa yon pwoteksyon legal ki pi laj kont itilizasyon pita ki ta ka koze konfizyon atravè yon pi gwo kantite machandiz ak sèvis ki gen rapò pase sa yon mak ki pi fèb, ki mwens distenktif, ta resevwa
+C) Se sèlman mak ki fèb, ki pa rekonèt, ki janm resevwa okenn pwoteksyon mak komèsyal ki gen sans anba lalwa
+D) Fòs mak la enpòtan sèlman pou detèmine dedomajman an lajan espesifik ki disponib, pa si gen kontrefason vrèman
+
+**Q5. Nan egzanp lan, poukisa yo gen chans pa jwenn ke itilizasyon dezyèm konpayi an fè de yon non ki sonnen egzakteman menm jan vyole lalwa, kontrèman ak sitiyasyon premye konpayi an?**
+A) Toude konpayi yo te an reyalite fè fas ak rezilta kontrefason idantik, kontrè a sa egzanp lan dekri
+B) Dezyèm konpayi an te itilize non an pou yon pwodui ki pa gen okenn rapò ditou nan yon endistri totalman diferan, ki pa gen rapò, kote konsomatè yo pa ta gen okenn baz rezonab pou yo panse gen okenn lyen, kontrèman ak kategori pwodui ki gen rapò sere premye konpayi an ak gwo fòs mak ki egziste deja a
+C) Resanblans mak yo pou kont li, kèlkeswa machandiz oswa sèvis espesifik ki konsène yo, toujou deside rezilta kontrefason an
+D) Itilizasyon dezyèm konpayi an te an reyalite gen plis chans koze konfizyon konsomatè pase itilizasyon premye konpayi an
+
+## Kle repons yo
+Q1: B
+Q2: B
+Q3: B
+Q4: B
+Q5: B
+
+## Repons ak eksplikasyon
+**Q1.** Estanda chans pou gen konfizyon sa a, olye yon egzijans pou mak yo idantik literalman, se egzakteman kesyon legal santral ki gouvène reklamasyon kontrefason mak komèsyal.
+
+**Q2.** Faktè espesifik sa yo yo souvan peze se egzakteman sa tribinal yo anjeneral konsidere ansanm lè y ap evalye si yon vrè chans pou gen konfizyon egziste nan yon diskisyon patikilye sou mak komèsyal.
+
+**Q3.** Konsantrasyon sa a sou vrè konfizyon konsomatè, olye sou lefèt mak yo idantik literalman, se egzakteman poukisa resanblans ak rapò ant machandiz yo pi enpòtan pase idantite egzat pou detèmine yon kontrefason mak komèsyal.
+
+**Q4.** Lyen sa a ant karaktè distenktif ak rekonesans yon mak ak ki jan pwoteksyon li resevwa laj se egzakteman poukisa fòs mak ki la anvan an se yon faktè enpòtan nan analiz chans pou gen konfizyon ki pi laj la.
+
+**Q5.** Kontras dirèk sa a ant pwodui ki gen rapò sere ki gen chans koze konfizyon ak pwodui ki pa gen okenn rapò ditou ki pa gen chans koze okenn vrè konfizyon montre egzakteman poukisa tout analiz ak plizyè faktè a, pa resanblans mak yo pou kont li, ki deside vrè rezilta kontrefason mak komèsyal la.
+
+## Pwen kle yo
+- Kontrefason mak komèsyal anjeneral mande pou w pwouve yon 'chans pou gen konfizyon' pami konsomatè òdinè sou sous oswa afilyasyon machandiz oswa sèvis yo.
+- Tribinal yo peze plizyè faktè ansanm — resanblans mak yo, rapò ant machandiz yo, kanal maketing yo, atansyon konsomatè yo, prèv vrè konfizyon, ak entansyon — olye yo konte sou yon sèl faktè pou kont li.
+- Mak yo pa bezwen idantik pou yo vyole lalwa, e mak idantik yo itilize pou machandiz ki pa gen okenn rapò ta ka pa vyole lalwa si yon vrè konfizyon konsomatè pa gen chans rive.
+- Fòs ak rekonesans mak ki la anvan an afekte ki jan pwoteksyon mak komèsyal li rive lwen kont itilizasyon pita ki ta ka sanble.
