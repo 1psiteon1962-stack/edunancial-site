@@ -149,3 +149,105 @@ Anvan w lanse yon gwo kanpay maketing sou yon nouvo non mak oswa yon nouvo logo,
 ---
 
 *Leson sa a se sèlman pou edikasyon biznis jeneral, e li pa konstitye konsèy legal pèsonalize. Konsilte yon avoka ki gen lisans nan pwopriyete entelektyèl anvan w finalize e envesti nan yon nouvo idantite mak.*
+
+===== ORANGE-L3-034
+TITLE: Poukisa règleman sou vi prive done afekte estrateji maketing
+SUMMARY: Aprann poukisa fason yon biznis kolekte, itilize, ak pataje done kliyan pou rezon maketing se yon kesyon konfòmite legal, pa sèlman yon kesyon teknik oswa operasyon maketing.
+# ORANGE-L3-034: Poukisa règleman sou vi prive done afekte estrateji maketing
+
+## Objektif aprantisaj
+Lè w fin fè leson sa a, w ap kapab:
+- Esplike poukisa kolekte ak itilize done kliyan pou rezon maketing sijè a règleman legal
+- Konekte konsèp sa a ak diskisyon sou konfòmite ak règleman yo kouvri nan tras PURPLE kourikoulòm sa a
+- Esplike poukisa estrateji maketing ak konfòmite sou vi prive done bezwen planifye ansanm
+
+## Kontni prensipal
+
+Maketing modèn depann anpil de done kliyan — swiv konpòtman, bati odyans piblisite vize, pèsonalize kontak. Men "poukisa" pratik sa a sijè a vrè règleman legal, sa ki konekte dirèkteman ak konsèp konfòmite ak règleman yo kouvri nan tras PURPLE kourikoulòm sa a: [FÈ VERIFYE] anpil jiridiksyon adopte règleman espesifik sou vi prive done ki gouvène kijan yo ka kolekte, itilize, pataje, ak konsève done kliyan, souvan avèk egzijans espesifik sou konsantman, obligasyon divilgasyon, ak dwa pou moun yo jwenn aksè a pwòp done yo oswa mande pou yo efase yo — règ ki aplike dirèkteman pou pratik maketing komen tankou swiv moun sou entènèt, retargeting, ak bati lis imèl.
+
+Se poutèt sa yo bezwen planifye estrateji maketing ak konfòmite sou vi prive done ansanm, pa trete yo kòm enkyetid apa ekip ki diferan nèt jere san kowòdinasyon: yon taktik maketing ki teknikman efikas ka an menm tan vyole egzijans espesifik sou vi prive done, sa ki kreye menm kalite risk aplikasyon règleman yo kouvri an jeneral nan tras PURPLE la, nèt endepandaman de si maketing lan li menm rive nan objektif biznis li te vize a.
+
+[RÈG ESPESIFIK POU REJYON AN] Règ sou done pèsonèl ann Ayiti ka diferan de sa ki nan lòt peyi e yo ka evolye; si w gen kliyan ki lòt bò (pa egzanp Etazini, Kanada, oswa Ewòp), règ peyi sa yo ka aplike tou — tcheke ak yon avoka anvan w lanse yon taktik ki itilize done kliyan.
+
+Anvan w aplike yon nouvo taktik maketing ki baze sou done — yon nouvo metòd pou swiv moun, yon nouvo fason pou bati odyans vize — èske yo te revize l parapò ak egzijans espesifik sou vi prive done ki aplike nan jiridiksyon kote kliyan ou yo ye?
+
+## Egzanp pratik
+
+[EGZANP ILISTRATIF] Yon ekip maketing aplike yon nouvo metòd pou swiv e vize kliyan ki montre li trè efikas pou amelyore to konvèsyon, san yo pa revize l espesyalman parapò ak règleman sou vi prive done ki aplike yo. [SIPOZISYON] Metòd la vin vyole egzijans espesifik sou konsantman oswa divilgasyon nan kèk nan jiridiksyon kote kliyan biznis lan ye, sa ki kreye risk konfòmite règlemantè ki konekte dirèkteman ak diskisyon tras PURPLE la sou aplikasyon lalwa — yon risk ki nèt apa de, e ki pa afekte pa, vrè efikasite maketing taktik la.
+
+## Egzamen pratik
+
+1. Poukisa kolekte ak itilize done kliyan pou rezon maketing sijè a règleman legal?
+2. Kijan leson sa a konekte ak diskisyon sou konfòmite ak règleman yo kouvri nan tras PURPLE la?
+3. Poukisa estrateji maketing ak konfòmite sou vi prive done bezwen planifye ansanm?
+
+## Kle repons yo
+
+1. Paske anpil jiridiksyon adopte règleman espesifik sou vi prive done ki gouvène konsantman, divilgasyon, ak dwa moun sou done yo, ki aplike dirèkteman pou pratik done maketing komen.
+2. Leson sa a aplike konsèp konfòmite ak règleman ki pi laj tras PURPLE la espesyalman pou vi prive done ak maketing.
+3. Paske yon taktik maketing ka teknikman efikas alòske an menm tan li vyole egzijans espesifik sou vi prive done, sa ki kreye risk règlemantè nèt endepandan de siksè maketing taktik la.
+
+## Repons ak eksplikasyon
+
+1. Sa a se "poukisa" santral ki esplike dimansyon legal pratik done maketing.
+2. Sa konekte leson an klèman ak konsèp konfòmite ak règleman tras PURPLE la.
+3. Sa ranfòse kowòdinasyon pratik ant depatman leson an rekòmande.
+
+## Pwen kle yo
+- Kolekte ak itilize done kliyan pou rezon maketing sijè a règleman espesifik sou vi prive done nan anpil jiridiksyon.
+- Sa konekte dirèkteman ak konsèp konfòmite ak règleman yo kouvri nan tras PURPLE la, ajans gouvènman fè respekte poukont yo.
+- Yo ta dwe planifye estrateji maketing ak konfòmite sou vi prive done ansanm, paske yon taktik efikas ka toujou kreye vrè risk règlemantè.
+
+---
+
+*Leson sa a se sèlman pou edikasyon biznis jeneral, e li pa konstitye konsèy legal pèsonalize. Règleman sou vi prive done yo varye anpil selon jiridiksyon e yo chanje souvan; konsilte yon avoka ki gen lisans pou konsèy ki espesifik pou pratik maketing ou.*
+
+===== ORANGE-L3-035
+TITLE: Poukisa yo ta dwe teste yon estrateji kwasans parapò ak pwòp ekonomi pa inite li
+SUMMARY: Aprann poukisa yon kwasans agresif ki bati sou yon ekonomi pa inite ki gen defo akselere pwoblèm yon biznis olye pou l rezoud yo, sa ki fè eko ak yon avètisman debaz yo kouvri nan tras BLUE kourikoulòm sa a.
+# ORANGE-L3-035: Poukisa yo ta dwe teste yon estrateji kwasans parapò ak pwòp ekonomi pa inite li
+
+## Objektif aprantisaj
+Lè w fin fè leson sa a, w ap kapab:
+- Esplike poukisa yo ta dwe teste yon estrateji maketing kwasans parapò ak ekonomi pa inite anvan yo elaji l
+- Konekte konsèp sa a dirèkteman ak diskisyon sou ekonomi pa inite yo kouvri nan tras BLUE kourikoulòm sa a
+- Esplike poukisa "kwasans" ak "amelyorasyon" pa otomatikman menm bagay
+
+## Kontni prensipal
+
+Tras BLUE kourikoulòm sa a te etabli ke yon kwasans ak yon ekonomi pa inite negatif pa rezoud pwoblèm yon biznis — li akselere yo, paske chak nouvo kliyan yo ajoute se yon pèt, pa yon benefis. Men "poukisa" egzakteman menm avètisman sa a aplike dirèkteman pou estrateji kwasans ki soti nan maketing espesyalman: yon ekip maketing ki konsantre sou mezi kwasans — nouvo kliyan, nouvo revni, pati mache k ap elaji — ka ap elaji yon baz kliyan ki gen yon ekonomi pa inite debaz ki pa vrèman sipòte yon kwasans pwofitab, e y ap selebre kwasans lan li menm kòm siksè alòske vrè pozisyon finansye biznis lan ap vin pi mal an silans ak chak nouvo kliyan yo jwenn.
+
+Se poutèt sa "n ap grandi" pa, poukont li, yon prèv ke yon estrateji ap mache — sa ki konekte dirèkteman ak avètisman debaz tras BLUE la — kwasans lan vrèman pozitif sèlman si ekonomi pa inite debaz la solid; yon kwasans ki bati sou yon ekonomi pa inite negatif se senpleman yon chemen ki pi rapid nan menm pwoblèm lan, abiye tankou yon istwa siksè maketing.
+
+Anvan w selebre yon viktwa nan maketing kwasans, èske ou te konfime ekonomi pa inite ki dèyè chak nouvo kliyan vrèman pozitif, oswa èske y ap trete kwasans lan li menm kòm yon prèv siksè ki sifi poukont li?
+
+## Egzanp pratik
+
+[EGZANP ILISTRATIF] Yon ekip maketing selebre yon trimès ki reyisi ak yon kwasans kliyan rapid, ki soti nan yon kanpay akizisyon agresif e ki chè. [SIPOZISYON] Lè yo gade pi pre ekonomi pa inite ki dèyè kwasans espesifik sa a, yo dekouvri ke chak nouvo kliyan, yon fwa yo fin konte nèt pri akizisyon an ak valè sou tout lavi yo atann lan, se an reyalite yon pèt nèt pou biznis lan — sa vle di trimès kwasans "ki reyisi" sa a, egzakteman jan tras BLUE la te avèti, te akselere pwoblèm finansye debaz biznis lan olye pou l rezoud li, menm si chak mezi maketing sou sifas la te sanble pozitif.
+
+## Egzamen pratik
+
+1. Poukisa yo ta dwe teste yon estrateji maketing kwasans parapò ak pwòp ekonomi pa inite li anvan yo elaji l?
+2. Kijan leson sa a konekte dirèkteman ak diskisyon sou ekonomi pa inite yo kouvri nan tras BLUE la?
+3. Poukisa "n ap grandi" poukont li pa yon prèv ke yon estrateji maketing ap mache?
+
+## Kle repons yo
+
+1. Paske yon kwasans ki bati sou yon ekonomi pa inite negatif akselere pwoblèm finansye debaz biznis lan olye pou l rezoud li, kèlkeswa jan mezi kwasans yo sanble pozitif.
+2. Leson sa a aplike dirèkteman egzakteman menm avètisman tras BLUE la — kwasans ak yon ekonomi pa inite negatif se yon chemen ki pi rapid nan menm pwoblèm lan — espesyalman pou estrateji kwasans ki soti nan maketing.
+3. Paske kwasans lan vrèman pozitif sèlman si ekonomi pa inite debaz ki dèyè chak nouvo kliyan vrèman solid, pa senpleman paske kantite kliyan oswa revni ap monte.
+
+## Repons ak eksplikasyon
+
+1. Sa a se "poukisa" santral leson an bati sou li.
+2. Sa konekte leson an klèman ak avètisman fondamantal tras BLUE la sou ekonomi pa inite.
+3. Sa ranfòse diferans pratik, yo souvan neglije, ant kwasans ak vrè amelyorasyon.
+
+## Pwen kle yo
+- Yo ta dwe teste yon estrateji maketing kwasans parapò ak ekonomi pa inite debaz chak nouvo kliyan, pa evalye l sèlman sou mezi kwasans.
+- Sa aplike dirèkteman avètisman tras BLUE la ke kwasans ak yon ekonomi pa inite negatif akselere pwoblèm yon biznis olye pou l rezoud yo.
+- Kantite kliyan oswa revni k ap monte poukont yo pa yon prèv ke yon estrateji ap mache — se ekonomi pa inite ki dèyè kwasans sa a ki detèmine si li vrèman pozitif.
+
+---
+
+*Leson sa a se sèlman pou edikasyon biznis jeneral, e li pa konstitye konsèy finansye, envestisman, taks, oswa legal pèsonalize. Konsilte yon pwofesyonèl ki gen lisans anvan w pran desizyon sou estrateji kwasans.*
