@@ -1,0 +1,337 @@
+===== GOLD-L1-008
+TITLE: Baz divèsifikasyon
+SUMMARY: Prezante divèsifikasyon kòm yon fason pou jere risk lè w pa depann de pèfòmans yon sèl byen.
+# Baz divèsifikasyon
+
+## Objektif aprantisaj
+
+- Bay definisyon divèsifikasyon an mo senp
+- Esplike poukisa mete tout bagay nan yon sèl byen ogmante risk
+- Rekonèt kijan kenbe de metal diferan se yon ti egzanp divèsifikasyon
+
+## Kontni prensipal
+
+Divèsifikasyon vle di gaye envestisman sou plizyè byen diferan olye w mete tout nan yon sèl, pou bès nan nenpòt yon sèl byen pa detwi tout pozisyon an. Lojik la senp: byen diferan pa toujou deplase nan menm direksyon an menm lè pou menm rezon, kidonk yon bès nan youn ka konpanse, omwen an pati, pa estabilite oswa kwasans nan yon lòt.
+
+Sa pa vle di divèsifikasyon elimine risk nèt – li vle di li diminye risk espesifik pou w twò depann de pèfòmans yon sèl byen. Yon pozisyon ki byen divèsifye ka toujou pèdi valè si anpil byen diferan desann ansanm, men li anjeneral pi rezistan pase yon pozisyon ki konsantre nèt nan yon sèl bagay.
+
+## Egzanp pratik
+
+EGZANP ILISTRATIF: Kenbe ni ajan ni lò, olye yon sèl metal, se yon ti fòm divèsifikasyon andedan kategori metal presye yo – de metal yo gen sous demann diferan (endistriyèl kont sitou envestisman/bijou), kidonk yo pa toujou deplase egzakteman ansanm. Sa se yon egzanp ki pi piti anpil pase yon divèsifikasyon pòtfolyo konplè sou anpil klas byen diferan (aksyon, imobilye, posede biznis, ak lòt ankò), ke nivo pita nan pakou sa a ak lòt pakou ap trete pi an pwofondè, men li montre prensip ki anba a: pa mete tout resous yo nan yon sèl pari idantik.
+
+## Egzamen pratik
+
+1. Bay definisyon divèsifikasyon ak pwòp mo pa w.
+2. Poukisa gaye envestisman sou plizyè byen diferan diminye risk?
+3. Èske divèsifikasyon elimine risk nèt?
+4. Kijan kenbe ni ajan ni lò montre divèsifikasyon, menm nan yon ti echèl?
+
+## Kle repons yo
+
+1. Gaye envestisman sou plizyè byen diferan olye w mete tout nan yon sèl.
+2. Paske byen diferan pa toujou deplase nan menm direksyon pou menm rezon, sa ka konpanse yon bès nan youn ak estabilite nan yon lòt.
+3. Non – li diminye risk depandans sou nenpòt yon sèl byen, men li pa elimine tout risk, sitou si anpil byen desann ansanm.
+4. Paske de metal yo gen sous demann diferan, sa vle di yo pa toujou deplase egzakteman ansanm, sa diminye depandans sou youn nan yo pou kont li.
+
+## Repons ak eksplikasyon
+
+1. Sa kaptire lojik esansyèl divèsifikasyon kòm gaye risk, se pa elimine l.
+2. Diferan fason byen yo deplase se mekanis dèyè efè divèsifikasyon genyen pou diminye risk.
+3. Sa klarifye yon move konpreyansyon kouran – divèsifikasyon jere risk, li pa retire l nèt.
+4. Egzanp sa a montre prensip santral divèsifikasyon nan yon ti echèl fasil pou konprann andedan yon sèl kategori byen.
+
+## Pwen kle yo
+
+- Divèsifikasyon vle di gaye envestisman sou plizyè byen diferan pou diminye depandans sou nenpòt yon sèl.
+- Li diminye risk men li pa elimine l, sitou si anpil byen desann ansanm.
+- Kenbe ni ajan ni lò, ak sous demann diferan yo, montre prensip divèsifikasyon menm nan yon ti echèl.
+
+===== GOLD-L1-009
+TITLE: Kisa ki detèmine pri metal presye
+SUMMARY: Esplike faktè debaz òf ak demann ki pouse pri lò ak ajan.
+# Kisa ki detèmine pri metal presye
+
+## Objektif aprantisaj
+
+- Idantifye faktè debaz òf ak demann ki afekte pri metal presye
+- Esplike poukisa ensètitid ekonomik souvan afekte demann lò ak ajan
+- Rekonèt ke okenn sèl faktè pa detèmine pri a pou kont li
+
+## Kontni prensipal
+
+Tankou pifò byen, pri metal presye yo soti nan òf ak demann. Bò òf la: konbyen nouvo metal yo fouye e pwodui, e konbyen metal ki deja egziste (ki soti nan resiklaj oswa nan men moun) antre sou mache a. Bò demann lan: demann envestisman (moun k ap achte l kòm rezèv valè), demann bijou, e pou ajan espesyalman, demann endistriyèl ki soti nan fabrikasyon.
+
+FÈ VERIFYE: Metal presye yo, e lò an patikilye, istorikman souvan wè demann envestisman ogmante pandan peryòd ensètitid ekonomik oswa gwo enflasyon, paske kèk envestisè konsidere yo kòm yon rezèv valè lè konfyans nan lòt byen oswa lajan peyi yo bese. Sa pa yon garanti – anpil faktè enfliyanse pri yo an menm tan, e okenn sèl esplikasyon (tankou "ensètitid toujou fè lò monte") pa vre nan chak sitiyasyon. Lè w konprann ke plizyè faktè travay ansanm, olye w chèche yon sèl règ kòz ak efè senp, sa se yon fason ki pi egzak pou w reflechi sou mouvman pri.
+
+## Egzanp pratik
+
+EGZANP ILISTRATIF: Pandan yon peryòd kote nouvèl ekonomik plen ensètitid, demann lò ka ogmante paske kèk envestisè ap chèche sa yo wè kòm yon rezèv valè, sa ki ta ka fè pri yo monte – alòske an menm tan, si aktivite endistriyèl ap ralanti, yon demann endistriyèl pi fèb pou ajan ta ka konpanse an pati nenpòt ogmantasyon ki sanble nan demann envestisman ajan. Sa montre poukisa de metal yo, malgre tou de se "metal presye", ka konpòte yo yon ti jan diferan menm nan menm anviwònman ekonomik jeneral la.
+
+## Egzamen pratik
+
+1. Bay non faktè debaz bò òf ak bò demann ki afekte pri metal presye.
+2. Kisa ki souvan rive istorikman ak demann envestisman lò pandan ensètitid ekonomik?
+3. Èske modèl sa a se yon garanti k ap rive chak fwa?
+4. Nan egzanp pratik la, poukisa lò ak ajan ta ka reyaji yon fason diferan nan menm anviwònman ekonomik?
+
+## Kle repons yo
+
+1. Òf: fouye/pwodiksyon ak metal resikle/ki deja egziste k ap antre sou mache a. Demann: envestisman, bijou, e (pou ajan) demann endistriyèl.
+2. Li souvan ogmante, paske kèk envestisè konsidere lò kòm yon rezèv valè pandan tan ensèten.
+3. Non – plizyè faktè travay ansanm an menm tan, e okenn sèl esplikasyon pa vre nan chak sitiyasyon.
+4. Paske ajan gen yon sous demann endistriyèl anplis ke lò pa genyen, kidonk de metal yo ka reyaji diferan nan menm kondisyon yo.
+
+## Repons ak eksplikasyon
+
+1. Sa bay lis eleman debaz òf ak demann ki pouse pri metal presye.
+2. FÈ VERIFYE sa a reflete yon modèl istorik, ki prezante san egzajere l kòm yon règ garanti.
+3. Leson an avèti klèman kont fason panse kòz ak efè ki twò senp sou mouvman pri.
+4. Diferan sous demann esplike poukisa lò ak ajan pa toujou deplase menm jan, menm nan kondisyon ki sanble.
+
+## Pwen kle yo
+
+- Pri metal presye soti nan faktè òf (pwodiksyon, resiklaj) ak faktè demann (envestisman, bijou, ak endistriyèl pou ajan).
+- Lò istorikman souvan wè demann envestisman ogmante pandan ensètitid ekonomik, byenke sa pa yon modèl garanti.
+- Plizyè faktè travay ansanm an menm tan, kidonk yon sèl kòz senp raman esplike mouvman pri.
+
+===== GOLD-L1-010
+TITLE: Konprann mezi pite ak pwa
+SUMMARY: Prezante inite debaz ak mezi pite yo itilize nan mache metal presye.
+# Konprann mezi pite ak pwa
+
+## Objektif aprantisaj
+
+- Idantifye inite pwa kouran yo itilize pou metal presye
+- Esplike kisa pite (finès) vle di e poukisa li afekte valè
+- Pratike li yon deskripsyon pwodui debaz
+
+## Kontni prensipal
+
+Yo mezire e dekri metal presye ak inite espesifik ki ka konfonn yon debitan. Yo souvan mezire lò an ons troy (yon inite ki yon ti jan pi lou pase yon ons nòmal, ki istorikman espesifik pou metal presye) oswa an gram, sitou pou ti atik. Ajan tou, yo pi souvan mezire l an ons troy. FÈ VERIFYE: Yon ons troy se apeprè 31.1 gram, sa ki diferan de yon ons nòmal "avoirdupois" (apeprè 28.3 gram) yo itilize pou pifò bagay chak jou – diferans sa a enpòtan paske si w itilize move konvèsyon an, sa ka mennen nan yon vrè konfizyon sou konbyen metal w ap achte toutbon.
+
+Pite, yo souvan eksprime l kòm "finès", dekri ki kantite nan yon moso ki vrèman metal presye a li menm konpare ak lòt metal yo melanje ladan l pou rezistans. Yo souvan dekri pite lò an karat (24 karat se lò pi) oswa kòm yon finès desimal (.999 vle di 99.9% pi). Pi wo pite a anjeneral vle di valè atik la swiv pri spot metal la pi pre e pi dirèkteman, paske mwens nan pwa a se materyèl ranplisaj ki pa presye.
+
+## Egzanp pratik
+
+EGZANP ILISTRATIF: Yon pyès monnen yo dekri kòm "yon ons troy, ajan .999 fen" vle di li peze yon ons troy (apeprè 31.1 gram) e li 99.9% ajan pi, ak yon ti pousantaj ki rete ki se lòt materyèl an tras pou rezistans. Konprann tou de chif yo – inite pwa a ak pite a – ansanm nesesè pou w konnen egzakteman sa w ap achte, paske yon move sipozisyon sou youn nan yo (itilize ons nòmal olye ons troy, oswa inyore pite) ta ka mennen nan yon vrè move konpreyansyon sou valè.
+
+## Egzamen pratik
+
+1. Nan ki inite yo souvan mezire lò ak ajan, e kijan li diferan de yon ons nòmal?
+2. Kisa "pite" oswa "finès" dekri?
+3. Kisa .999 fen vle di?
+4. Poukisa konprann pwa ak pite ansanm enpòtan?
+
+## Kle repons yo
+
+1. Ons troy, ki a apeprè 31.1 gram pi lou pase yon ons nòmal avoirdupois (apeprè 28.3 gram).
+2. Ki kantite nan yon moso ki vrèman metal presye a li menm konpare ak lòt metal yo melanje ladan l.
+3. Ke atik la se 99.9% metal presye pi, ak yon ti pousantaj ki rete ki se lòt materyèl.
+4. Paske yon move sipozisyon sou youn nan yo ta ka mennen nan yon vrè move konpreyansyon sou egzakteman ki valè w ap achte.
+
+## Repons ak eksplikasyon
+
+1. Diferans sa a anpeche yon konfizyon kouran debitan fè ant mezi ons troy ak ons nòmal.
+2. Pite dekri kantite metal presye reyèl la konpare ak pwa total yon atik.
+3. Sa aplike konsèp finès la dirèkteman nan yon egzanp konkrè e kouran nan lavi reyèl.
+4. Tou de mezi yo ansanm detèmine kantite metal presye reyèl w ap achte.
+
+## Pwen kle yo
+
+- Yo anjeneral mezire metal presye an ons troy oswa an gram, e yon ons troy diferan de yon ons nòmal.
+- Pite (finès) dekri ki kantite nan yon atik ki vrèman metal presye konpare ak lòt materyèl.
+- Konprann ni pwa ni pite ansanm nesesè pou w konnen egzakteman sa w ap achte.
+
+===== GOLD-L1-011
+TITLE: Diferans ant envestisman ak epay pou ijans
+SUMMARY: Klarifye poukisa lajan envestisman ak epay pou ijans ta dwe trete kòm de rezèv separe ak règ diferan.
+# Diferans ant envestisman ak epay pou ijans
+
+## Objektif aprantisaj
+
+- Fè diferans ant epay pou ijans ak lajan envestisman
+- Esplike poukisa melanje de rezèv yo kreye yon vrè risk
+- Pratike idantifye nan ki rezèv yon objektif finansye tonbe
+
+## Kontni prensipal
+
+Leson sa a aplike dirèkteman kad Fè/Kenbe/Fè grandi/Transmèt premye leson an: epay pou ijans fè pati fonksyon "Kenbe", alòske lajan envestisman – tankou yon pozisyon metal presye k ap grandi – fè pati fonksyon "Fè grandi". De rezèv lajan sa yo bezwen trete separeman, ak règ diferan, paske yo sèvi objektif ki diferan fondamantalman.
+
+Epay pou ijans bezwen an sekirite e disponib touswit, paske ijans, pa definisyon, rive san w pa prevwa e souvan mande kach rapid. Lajan envestisman ka aksepte plis monte desann pri kout tèm, paske li pa fèt pou w touche l rapid – valè l soti nan tan yo ba l pou l grandi. Lè w melanje de yo – trete envestisman tankou epay pou ijans, oswa pran nan sa ki ta dwe lajan envestisman long tèm pou bagay ki pa ijans – sa febli tou de fonksyon yo an menm tan.
+
+## Egzanp pratik
+
+EGZANP ILISTRATIF: Nan ka etid la, pozisyon ajan ak lò pitit gason an k ap grandi a se lajan envestisman – li fèt pou grandi sou yon long orizon tan, e se pa yon bagay li ta dwe vann pou yon depans nòmal ki pa ijans jis paske li gen valè. Yon rezèv epay separe e fasil pou jwenn, ki kenbe apa pozisyon metal yo, ta resous ki apwopriye pou vrè ijans, sa ki pwoteje pozisyon envestisman an pou bezwen kout tèm li pa t janm fèt pou kouvri pa entewonp li.
+
+## Egzamen pratik
+
+1. Nan kad Fè/Kenbe/Fè grandi/Transmèt la, nan ki fonksyon epay pou ijans tonbe, e nan ki fonksyon lajan envestisman tonbe?
+2. Poukisa epay pou ijans bezwen an sekirite e disponib touswit?
+3. Poukisa lajan envestisman ka aksepte plis monte desann pri kout tèm?
+4. Ki risk melanje de rezèv yo kreye?
+
+## Kle repons yo
+
+1. Epay pou ijans tonbe nan "Kenbe"; lajan envestisman tonbe nan "Fè grandi."
+2. Paske ijans rive san w pa prevwa e souvan mande kach rapid.
+3. Paske li pa fèt pou w touche l rapid, sa ba l tan pou l refè apre monte desann kout tèm.
+4. Li febli tou de fonksyon yo – yo ka vann envestisman yo nan yon move moman pou bagay ki pa ijans, oswa bezwen ijans ka pa satisfè si lajan an bloke nan envestisman.
+
+## Repons ak eksplikasyon
+
+1. Sa konekte dirèkteman ak kad fondamantal premye leson an.
+2. Fè ijans pa prevwa e ijan se karakteristik ki fè epay pou ijans dwe bay sekirite ak aksè priyorite.
+3. Orizon tan se mekanis ki pèmèt lajan envestisman aksepte plis risk kout tèm.
+4. Melanje rezèv yo konpwomèt objektif espesifik chak youn fèt pou sèvi.
+
+## Pwen kle yo
+
+- Epay pou ijans ("Kenbe") ak lajan envestisman ("Fè grandi") sèvi objektif diferan e yo bezwen règ diferan.
+- Epay pou ijans bay sekirite ak aksè imedya priyorite; lajan envestisman ka aksepte plis monte desann avèk tan.
+- Melanje de rezèv sa yo febli tou de fonksyon yo e anjeneral ou ta dwe evite sa.
+
+===== GOLD-L1-012
+TITLE: Prim, ekar, ak baz machann metal yo
+SUMMARY: Esplike diferans ant pri spot metal la ak sa yon achtè peye toutbon.
+# Prim, ekar, ak baz machann metal yo
+
+## Objektif aprantisaj
+
+- Bay definisyon pri spot, prim, ak ekar an mo senp
+- Esplike poukisa pri ou peye pou metal fizik diferan de pri spot la
+- Rekonèt enpòtans pou w konpare machann anvan w achte
+
+## Kontni prensipal
+
+Pri spot la se pri mache aktyèl la pou yon kantite metal ki poko travay – pri referans w ap wè yo site piblikman. Lè w achte metal fizik toutbon nan men yon machann, pri ou peye a anjeneral pi wo pase spot, e diferans sa a yo rele l prim. Prim lan kouvri depans machann lan pou fabrike pyès monnen an oswa ba a, distribisyon, ak maj li.
+
+Ekar la se diferans ant pri yon machann ap vann yon moso metal ak pri li ta achte menm moso a tounen – pri rachte yon machann anjeneral pi ba pase pri vant li, e diferans sa a reprezante yon pati nan maj biznis machann lan. Diferan machann ofri diferan prim ak ekar, e diferan pwodui (pyès monnen kouran kont ba ki mwens kouran, pa egzanp) ka gen diferan nivo prim. Lè w konpare plizyè machann e w konprann depans sa yo davans, sa ede yon envestisè evite peye twòp e konprann vrè pri pou achte e alafen vann metal fizik.
+
+## Egzanp pratik
+
+EGZANP ILISTRATIF: Si pri spot pou yon ons ajan se yon sèten montan yo pibliye, yon machann ka vann yon pyès monnen ajan kouran pou pri spot la plis yon prim ki reflete depans fabrikasyon ak distribisyon. Si menm envestisè sa a vle vann pyès la tounen pita, òf rachte machann lan ta anjeneral yon ti jan pi ba pase pri vant aktyèl la – sa se ekar la. Lè w konprann ni prim ou peye lè w achte ni ekar la lè w vann, sa ede yon envestisè estime yon fason reyalis konbyen yon pozisyon vo toutbon si li ta bezwen konvèti l an kach, olye l sipoze li vo egzakteman pri spot la tout tan.
+
+## Egzamen pratik
+
+1. Bay definisyon pri spot, prim, ak ekar ak pwòp mo pa w.
+2. Poukisa pri ou peye pou metal fizik anjeneral depase pri spot la?
+3. Kisa ekar la reprezante?
+4. Poukisa konprann prim ak ekar enpòtan pou yon envestisè?
+
+## Kle repons yo
+
+1. Pri spot se pri referans mache aktyèl la; prim se depans anplis pi wo pase spot lè w achte; ekar se diferans ant pri achte ak pri vant yon machann.
+2. Paske prim lan kouvri depans fabrikasyon, distribisyon, ak maj machann lan.
+3. Diferans ant pri yon machann vann ak pri li ta rachte, sa reprezante yon pati nan maj machann lan.
+4. Sa ede yon envestisè estime yon fason reyalis vrè pri pou achte ak vrè valè si l vann, olye l sipoze yon pozisyon vo egzakteman pri spot la tout tan.
+
+## Repons ak eksplikasyon
+
+1. Twa definisyon sa yo etabli vokabilè debaz pri pou tranzaksyon metal fizik.
+2. Depans ak maj machann lan se rezon pratik pou prim lan pi wo pase pri spot.
+3. Ekar la reflete yon pati nòmal nan modèl biznis yon machann, se pa yon depans kache oswa dwòl.
+4. Estimasyon valè reyalis, ki konte ni depans achte ni depans vann, se benefis pratik lè w konprann tèm sa yo.
+
+## Pwen kle yo
+
+- Pri spot se referans mache a; prim lan se sa yon machann ajoute lè l ap vann metal fizik.
+- Ekar la se diferans ant pri achte ak pri vant yon machann, sa reprezante yon pati nan maj li.
+- Konpare machann e konprann depans sa yo ede yon envestisè estime yon fason reyalis vrè valè yon pozisyon.
+
+===== GOLD-L1-013
+TITLE: Pyès monnen kont ba
+SUMMARY: Konpare de fòm fizik kouran metal presye ak konpwomi chak youn.
+# Pyès monnen kont ba
+
+## Objektif aprantisaj
+
+- Konpare pyès monnen ak ba kòm fòm metal presye fizik
+- Idantifye faktè ki ka enfliyanse yon chwa ant de yo
+- Rekonèt ke okenn fòm pa "pi bon" toupatou
+
+## Kontni prensipal
+
+Metal presye fizik souvan vini nan de fòm prensipal: pyès monnen (souvan gouvènman fabrike yo, ak desen ak valè nominal yo rekonèt) ak ba (anjeneral pi senp, souvan soti nan fabrik prive, yo vann yo selon pwa). Tou de reprezante posesyon menm metal ki anba a, men yo ka diferan nan prim, nan jan moun rekonèt yo, ak nan likidite.
+
+Pyès monnen, sitou sa gouvènman fabrike e ke anpil moun rekonèt, souvan gen yon prim ki pi wo men yo ka pi fasil pou vann rapid bay anpil kalite achtè akoz jan moun rekonèt yo e fè yo konfyans. Ba yo souvan gen yon prim ki pi ba pou chak inite pwa, sitou nan pi gwo gwosè, men yon achtè okazyonèl ka pa rekonèt yo otan, sa ki ka pafwa afekte jan yo vann vit, byenke sa varye selon pwodui a ak machann lan.
+
+Okenn fòm pa pi bon toupatou – bon chwa a depann de priyorite tankou pri prim lan, fasilite pou revann, ak preferans pèsonèl pou ti inite ki pi fleksib kont pi gwo inite ki pi efikas.
+
+## Egzanp pratik
+
+EGZANP ILISTRATIF: Yon envestisè k ap akimile ajan ak ti montan chak mwa ta ka pito pyès monnen kouran yon ons, ke anpil moun rekonèt, ki fasil pou achte an ti kantite, e ki anjeneral senp pou revann. Yon moun k ap fè yon acha ki pi gwo, mwens souvan, ta ka konsidere yon pi gwo ba, ki anjeneral gen yon prim ki pi ba pou chak ons, pandan l aksepte yon sèl inite ki pi gwo e yon ti jan mwens fleksib kont efikasite pri sa a.
+
+## Egzamen pratik
+
+1. Ki de fòm fizik prensipal metal presye leson sa a pale de yo?
+2. Ki konpwomi abityèl pyès monnen konpare ak ba?
+3. Ki konpwomi abityèl ba konpare ak pyès monnen?
+4. Èske youn nan fòm yo "pi bon" pase lòt toupatou?
+
+## Kle repons yo
+
+1. Pyès monnen ak ba.
+2. Pyès monnen souvan gen yon prim ki pi wo men yo ka pi fasil pou vann rapid paske anpil moun rekonèt yo.
+3. Ba souvan gen yon prim ki pi ba pou chak inite men moun ka pa rekonèt yo otan toupatou, sa ki ka pafwa afekte vitès revant.
+4. Non – bon chwa a depann de priyorite chak moun tankou pri prim, fasilite revant, ak preferans pèsonèl.
+
+## Repons ak eksplikasyon
+
+1. Sa yo se de fòm fizik prensipal yon envestisè gen chans rankontre.
+2. Rekonesans ak likidite se konpwomi kle ki favorize pyès monnen nan konparezon sa a.
+3. Efikasite pri pou chak inite se konpwomi kle ki favorize ba nan konparezon sa a.
+4. Sa korije nenpòt lide ke youn nan fòm yo gen yon avantaj natirèl e inivèsèl sou lòt la.
+
+## Pwen kle yo
+
+- Pyès monnen ak ba se de fòm fizik prensipal metal presye, tou de reprezante posesyon menm metal ki anba a.
+- Pyès monnen gen tandans gen prim ki pi wo men moun rekonèt yo pi fasil e yo pi fasil pou revann; ba gen tandans gen prim ki pi ba men moun pa rekonèt yo otan toupatou.
+- Okenn fòm pa pi bon toupatou – bon chwa a depann de priyorite ak sikonstans chak moun.
+
+===== GOLD-L1-014
+TITLE: Re-envesti kont depanse benefis
+SUMMARY: Egzamine desizyon pou re-envesti kwasans oswa itilize l, e kijan chwa sa a afekte kwasans konpoze.
+# Re-envesti kont depanse benefis
+
+## Objektif aprantisaj
+
+- Esplike diferans ant re-envesti ak depanse benefis envestisman
+- Konekte desizyon sa a ak konsèp kwasans konpoze nou te wè pi bonè
+- Rekonèt ke pa gen yon chwa "kòrèk" pou tout moun, se sèlman konpwomi
+
+## Kontni prensipal
+
+Lè yon envestisman fin pran valè, yon envestisè alafen gen pou l fè yon chwa: kenbe kwasans sa a envesti (re-envesti), oswa konvèti yon pati ladan l an kach pou depanse sou yon lòt bagay. Desizyon sa a konekte dirèkteman ak leson sou kwasans konpoze pi bonè nan pakou sa a – kwasans ki re-envesti kontinye konpoze, l ap bati sou tèt li avèk tan, alòske kwasans ou depanse sispann kontribye nèt nan kwasans konpoze nan lavni, paske li pa fè pati pozisyon envesti a ankò.
+
+Okenn chwa pa bon oswa move toupatou – sa depann de objektif lajan an ak kote l antre nan kad Fè/Kenbe/Fè grandi/Transmèt la. Kwasans ki fèt pou sèvi yon objektif "Fè grandi" long tèm anjeneral benefisye lè w re-envesti l, pou kwasans konpoze kontinye travay. Men envestisman egziste pou alafen sèvi vrè objektif ak bezwen, se pa pou konpoze pou tèt li san fen – nan yon moman, sitou lè objektif yo vin pi pre oswa lè yon moman "Transmèt" rive, konvèti kwasans lan an itilizasyon reyèl vin chwa ki apwopriye a.
+
+## Egzanp pratik
+
+EGZANP ILISTRATIF: Si pozisyon metal k ap grandi nan ka etid la te pran valè e pitit gason an te chwazi vann yon ti pati pou finanse yon lòt bagay, montan espesifik sa a pa ta fè pati baz k ap pote plis kwasans ankò pi devan – yon konpwomi reyèl e ki konprann, se pa yon erè. Si okontrè tout kwasans lan te rete nan pozisyon an, kwasans konpoze ta kontinye bati sou yon baz ki pi gwo toujou pandan ane yo. Bon chwa a depann de sa lajan an fèt pou akonpli alafen, se pa yon règ fiks ki di re-envesti toujou kòrèk.
+
+## Egzamen pratik
+
+1. Ki diferans ant re-envesti ak depanse benefis envestisman?
+2. Kijan desizyon sa a konekte ak konsèp kwasans konpoze pi bonè a?
+3. Èske re-envesti toujou chwa "kòrèk" la?
+4. Kisa ki detèmine alafen si re-envesti oswa depanse benefis fè sans nan yon sitiyasyon?
+
+## Kle repons yo
+
+1. Re-envesti kenbe kwasans lan nan envestisman an pou l kontinye konpoze; depanse konvèti l an kach pou lòt itilizasyon.
+2. Kwasans ki re-envesti kontinye konpoze, alòske kwasans ou depanse sispann kontribye nan kwasans konpoze nan lavni paske li pa envesti ankò.
+3. Non – sa depann de objektif lajan an ak kote l antre nan kad Fè/Kenbe/Fè grandi/Transmèt la.
+4. Sa lajan an fèt pou akonpli alafen – objektif kwasans long tèm anjeneral favorize re-envesti, alòske vrè bezwen oswa objektif k ap pwoche ka favorize depanse.
+
+## Repons ak eksplikasyon
+
+1. Sa defini konpwomi santral leson an trete a.
+2. Kwasans konpoze kontinye sèlman sou lajan ki rete envesti, sa ki konekte desizyon sa a dirèkteman ak leson anvan an.
+3. Sa evite yon règ twò senp "toujou re-envesti" ki inyore vrè objektif envestisman.
+4. Pran desizyon ki baze sou objektif, mare ak kad kat fonksyon an, se gid pratik leson an ofri.
+
+## Pwen kle yo
+
+- Re-envesti kenbe kwasans lan ap konpoze; depanse konvèti kwasans lan an itilizasyon pou lòt objektif.
+- Desizyon sa a konekte dirèkteman ak leson kwasans konpoze a – se sèlman kwasans ki re-envesti ki kontinye bati sou tèt li.
+- Okenn chwa pa kòrèk toupatou; bon desizyon an depann de vrè objektif lajan an nan pi gwo pòtre finansye a.
