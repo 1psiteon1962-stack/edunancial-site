@@ -1,0 +1,279 @@
+===== BLUE-L2-036
+TITLE: Kwasans biznis ak efè li sou chak lòt pyès
+SUMMARY: Kwasans biznis pa yon sèl evènman pozitif izole – li afekte cash flow, envantè, anplwaye, sistèm, asirans, ak finansman an menm tan, e yon kwasans rapid ki pa byen sipòte se yon vrè kòz echèk.
+## BLUE-L2-036
+### Kwasans biznis ak efè li sou chak lòt pyès
+
+**1. Objektif aprantisaj**
+Nan fen leson sa a, elèv la ap kapab:
+- Fè sentèz kijan kwasans biznis afekte plizyè pyès nou kouvri atravè nivo sa a.
+- Esplike poukisa kwasans li menm kreye nouvo risk, pa sèlman nouvo opòtinite.
+- Aplike sentèz sa a nan yon senaryo kwasans ipotetik.
+
+**2. Kontni prensipal**
+Leson sa a sèvi kòm yon pwen sentèz, sa ki raple leson sentèz RED-L2-028 sou analiz kredi bilding plizyè fanmi: kwasans biznis pa yon sèl evènman pozitif izole, men yon fòs ki afekte an menm tan prèske chak pyès nou kouvri atravè BLUE-L2. Kwasans anjeneral ogmante presyon sou moman cash flow (Leson 11, paske kwasans souvan mande depanse anvan revni ki soti ladan l rive), bezwen envantè (Leson 19), bezwen anplwaye (Leson 20–23), enpòtans sistèm ak delegasyon (Leson 24, 26), bezwen kouvèti asirans (Leson 28), ak konsiderasyon finansman (Leson 6, 17).
+
+Rekonèt kwasans kòm yon evènman plizyè pyès, olye tou senpleman "plis revni, plis bon," se yon konpetans sentèz Nivo 2 prensipal: yon biznis k ap grandi pi vit pase cash flow li, sistèm li, anplwaye li, oswa rezèv li ka sipòte pa nesesèman pi an sante pase yon biznis k ap grandi pi dousman men yon fason ki ka dire — yon kwasans rapid ki pa byen sipòte se yon kòz echèk biznis ki byen dokimante, diferan de, e pafwa pi danjere pase, yon kwasans dousman oswa yon stagnasyon.
+
+**3. Egzanp pratik**
+Lè l konnen yon gwo ogmantasyon toudenkou nan demann apre yon atik favorab nan medya lokal, Marisol fè fas a yon vrè defi jesyon kwasans: rezèv kach li kounye a (Leson 34), anplwaye li (Leson 21), ak sistèm li (Leson 24, 27) te gen gwosè pou echèl operasyon anvan an ki te pi piti. Olye l eseye satisfè chak nouvo kòmand imedyatman kèlkeswa vrè kapasite li kounye a, li kontwole vitès kwasans li espre — li kominike kalandriye reyalis bay nouvo kliyan, li anboche e fòme anplwaye anvan l angaje l twòp nan yon volim li poko ka satisfè yon fason fyab, e li itilize rezèv ak liy kredi li te etabli (Leson 17, 34) pou bouche twou ant opòtinite kwasans lan ak kapasite li pou sipòte l yon fason ki ka dire.
+
+**4. Egzamen pratik**
+1. Kisa leson sa a sijere kwasans biznis afekte?
+   a) Sèlman revni, san okenn efè sou okenn lòt pyès
+   b) Prèske chak pyès nou kouvri atravè nivo sa a an menm tan
+   c) Anyen enpòtan
+   d) Sèlman bidjè maketing biznis lan
+
+2. Poukisa yon kwasans rapid ki pa byen sipòte ka danjere pou yon biznis?
+   a) Kwasans toujou otomatikman benefik san risk
+   b) Li ka depase cash flow, sistèm, anplwaye, oswa rezèv yon biznis, sa ki kreye yon vrè risk echèk
+   c) Kwasans elimine tout risk biznis
+   d) Li pa gen rapò ak cash flow ni anplwaye
+
+3. Vrè oswa Fo: Yon biznis k ap grandi osi vit ke posib, kèlkeswa kapasite li pou sipòte kwasans sa a, toujou rezilta ki pi an sante a.
+
+4. Kisa Marisol te fè devan gwo ogmantasyon toudenkou nan demann lan?
+   a) Li te satisfè chak kòmand imedyatman kèlkeswa vrè kapasite li
+   b) Li te kontwole vitès kwasans li espre, li te kominike kalandriye reyalis e li te bati kapasite anvan l angaje l twòp
+   c) Li te inyore opòtinite a nèt
+   d) Li te fèmen biznis li
+
+**5. Kle repons yo**
+1. b  2. b  3. Fo  4. b
+
+**6. Repons ak eksplikasyon**
+1. Kwasans afekte prèske chak pyès nou kouvri atravè nivo sa a, soti nan cash flow rive nan anplwaye ak sistèm.
+2. Yon kwasans rapid ki depase vrè kapasite yon biznis atravè pyès sa yo se yon kòz echèk biznis ki byen dokimante.
+3. Yon kwasans ki ka dire e ki byen sipòte anjeneral pi an sante pase yon kwasans rapid ki depase vrè kapasite yon biznis.
+4. Kontwòl vitès espre Marisol te balanse opòtinite kwasans lan ak vrè kapasite li kounye a atravè plizyè pyès.
+
+**7. Pwen kle yo**
+- Kwasans biznis afekte an menm tan cash flow, envantè, anplwaye, sistèm, asirans, ak finansman.
+- Ou ta dwe evalye kwasans kòm yon evènman plizyè pyès, se pa tou senpleman "plis revni, plis bon."
+- Yon kwasans rapid ki pa byen sipòte se yon vrè kòz echèk biznis ki byen dokimante.
+- Kontwole vitès kwasans espre pou l koresponn ak vrè kapasite sipòte yon ekspansyon ki ka dire, olye youn ki twò rapid e danjere.
+
+===== BLUE-L2-037
+TITLE: Ogmante pwodiksyon: limit kapasite ak solisyon
+SUMMARY: Yon limit kapasite pwodiksyon limite konbyen yon biznis ka pwodui ak resous li genyen kounye a – trete l ak envestisman, anbochaj, sou-kontra, oswa yon kwasans ou kontwole tanporèman.
+## BLUE-L2-037
+### Ogmante pwodiksyon: limit kapasite ak solisyon
+
+**1. Objektif aprantisaj**
+Nan fen leson sa a, elèv la ap kapab:
+- Bay definisyon limit kapasite pwodiksyon nan yon nivo konseptyèl.
+- Idantifye apwòch jeneral pou trete yon limit kapasite.
+- Aplike konsèp sa a nan diskisyon sou MOQ Leson 7 la.
+
+**2. Kontni prensipal**
+Pandan yon biznis ap grandi (Leson 36), li souvan rankontre yon limit kapasite pwodiksyon — yon limit sou konbyen biznis lan ka pwodui oswa livre nan yon peryòd bay, dapre ekipman, anplwaye, espas, oswa pwosesis li genyen kounye a. Sa konekte ak diskisyon sou MOQ (Leson 7) nan direksyon opoze: kote MOQ limite konbyen piti yon kòmand yon biznis ka pase ak yon founisè, yon limit kapasite limite konbyen biznis lan li menm ka pwodui pou satisfè demann kliyan k ap grandi.
+
+Apwòch jeneral pou trete yon limit kapasite gen ladan envesti nan plis ekipman oswa espas (souvan sa mande zouti finansman nou te diskite nan Leson 17), anboche e fòme plis anplwaye (Leson 21–22, 26–27), bay yon twazyèm pati sèten etap pwodiksyon (sou-kontra), oswa, nan kèk ka, limite kwasans espre tanporèman jiskaske ou ka elaji kapasite yon fason responsab, sa ki raple avètisman Leson 36 kont yon kwasans san kontwòl e ki pa sipòte.
+
+**3. Egzanp pratik**
+Pandan demann pou ti gato li ap grandi pi lwen pase sa espas kizin li ak anplwaye li kounye a ka pwodui yon fason fyab, Marisol evalye opsyon li yo: envesti nan yon pi gwo espas kizin li lwe ak plis ekipman (sa ki mande yon prè a tèm, Leson 17), anboche e fòme plis boulanje ak SOP li te etabli yo (Leson 27), oswa mete yon limit tanporè sou volim kòmand li pandan l ap elaji kapasite yon fason responsab. Li chwazi yon apwòch konbine — li elaji ni espas ni anplwaye piti piti pandan l jere volim kòmand tanporèman pandan tranzisyon an — olye l swa twò depase limit li imedyatman swa refize grandi ditou.
+
+**4. Egzamen pratik**
+1. Kisa yon limit kapasite pwodiksyon ye?
+   a) Kòmand minimòm yon founisè mande
+   b) Yon limit sou konbyen yon biznis ka pwodui dapre ekipman, anplwaye, espas, oswa pwosesis li genyen kounye a
+   c) Yon kalite prè biznis
+   d) Yon règleman gouvènman
+
+2. Kijan yon limit kapasite gen rapò ak diskisyon sou MOQ nan Leson 7?
+   a) Se menm konsèp yo
+   b) MOQ limite gwosè kòmand ak yon founisè; kapasite limite pwòp kapasite pwodiksyon biznis lan
+   c) Yo pa gen okenn rapò youn ak lòt
+   d) Limit kapasite afekte sèlman biznis sèvis
+
+3. Vrè oswa Fo: Sèl solisyon pou yon limit kapasite se yon ekspansyon imedya san limit kèlkeswa pri oswa risk.
+
+4. Ki apwòch Marisol te chwazi pou trete limit kapasite li?
+   a) Yon ekspansyon imedya san limit kèlkeswa risk
+   b) Yon konbinezon ekspansyon piti piti ak jere volim kòmand tanporèman pandan tranzisyon an
+   c) Refize grandi ditou
+   d) Inyore limit la nèt
+
+**5. Kle repons yo**
+1. b  2. b  3. Fo  4. b
+
+**6. Repons ak eksplikasyon**
+1. Yon limit kapasite pwodiksyon limite konbyen yon biznis ka pwodui dapre resous ak pwosesis li genyen kounye a.
+2. MOQ ak limit kapasite gen rapò men yo diferan: youn limite gwosè kòmand ak founisè, lòt la limite pwòp kapasite pwodiksyon biznis lan.
+3. Gen plizyè apwòch pou trete limit kapasite, pa sèlman yon ekspansyon imedya san limit.
+4. Apwòch konbine e piti piti Marisol te balanse kwasans ak yon jesyon kapasite responsab pandan tranzisyon an.
+
+**7. Pwen kle yo**
+- Yon limit kapasite pwodiksyon limite konbyen yon biznis ka pwodui dapre resous li genyen kounye a.
+- Sa gen rapò ak, men li diferan de, limit MOQ nou te diskite nan Leson 7.
+- Apwòch yo gen ladan envesti nan kapasite, anboche e fòme anplwaye, sou-kontra, oswa jere kwasans tanporèman.
+- Yon apwòch konbine e piti piti ka balanse opòtinite kwasans ak yon jesyon kapasite responsab.
+
+===== BLUE-L2-038
+TITLE: Franchiz ak lisans kòm modèl kwasans
+SUMMARY: Franchiz ak lisans ka pèmèt yon kwasans pi rapid ak kapital ak jesyon lokal lòt moun – men yo mande sistèm ak SOP ki solid e yo vle di aksepte mwens kontwòl dirèk.
+## BLUE-L2-038
+### Franchiz ak lisans kòm modèl kwasans
+
+**1. Objektif aprantisaj**
+Nan fen leson sa a, elèv la ap kapab:
+- Bay definisyon franchiz ak lisans nan yon nivo konseptyèl.
+- Konpare modèl kwasans sa yo ak yon ekspansyon òganik pwopriyetè a opere.
+- Idantifye benefis ak risk jeneral chak modèl.
+
+**2. Kontni prensipal**
+Franchiz (franchising) vle di pèmèt yon lòt pati (yon franchize) opere yon biznis ak yon mak, sistèm (Leson 24), ak sipò ki deja etabli, anjeneral an echanj pou frè ak redevans k ap kontinye, sa ki pèmèt yon konsèp biznis elaji jeyografikman san pwopriyetè orijinal la pa louvri e opere chak nouvo lokal pèsonèlman. Lisans (licensing) vle di bay yon lòt pati dwa pou itilize yon pwopriyete entelektyèl espesifik (yon non mak, yon pwosesis pa w, yon konsepsyon pwodui) an echanj pou frè oswa redevans, san nesesèman repwodui tout modèl biznis lan menm jan konplè ke franchiz fè.
+
+Tou de modèl yo ka pèmèt yon kwasans pi rapid pase yon ekspansyon òganik pwopriyetè a finanse e opere, paske franchize oswa moun ki gen lisans yo anjeneral bay pwòp kapital yo e souvan pwòp jesyon lokal yo. Men tou de gen ladan yo bay yon pati nan kontwòl dirèk sou jan lòt moun reprezante e opere biznis lan oswa pwopriyete entelektyèl la, e tou de mande pou sistèm ki anba yo (Leson 24) ak SOP (Leson 27) vrèman byen dokimante e ou ka transfere yo, paske yon egzekisyon ki pa konsistan atravè lokal franchiz oswa lisans ka domaje mak la an jeneral.
+
+**3. Egzanp pratik**
+Apre l fin bati sistèm ak SOP ki byen dokimante (Leson 24, 27) pou biznis ti gato li, Marisol konsidere franchiz kòm yon fason pou elaji nan lòt vil san l pa finanse e opere chak nouvo lokal pèsonèlman. Li rekonèt sa ta mande yon nivo dokimantasyon sistèm ki menm pi sevè pase sa l genyen kounye a, paske franchize li pa janm fòme pèsonèlman ta bezwen repwodui kalite li ak mak li yon fason konsistan, e li ta bezwen aksepte mwens kontwòl dirèk chak jou sou chak lokal endividyèl pase sa l genyen sou pwòp lokal pa l — yon gwo konpwomi li peze ak atansyon anvan l deside si franchiz koresponn ak objektif espesifik li pou biznis lan.
+
+**4. Egzamen pratik**
+1. Kisa franchiz anjeneral gen ladan l?
+   a) Vann tout biznis lan nèt
+   b) Pèmèt yon lòt pati opere yon biznis ak yon mak ak sistèm ki etabli, pou frè ak redevans
+   c) Elimine bezwen pou nenpòt sistèm oswa SOP
+   d) Yon kalite prè biznis
+
+2. Ki yon konpwomi jeneral franchiz oswa lisans, konpare ak yon ekspansyon òganik?
+   a) Pa gen okenn konpwomi
+   b) Bay yon pati nan kontwòl dirèk sou jan lòt moun reprezante biznis lan oswa pwopriyete entelektyèl la
+   c) Yon egzekisyon idantik garanti nan chak lokal
+   d) Eliminasyon tout risk sou mak la
+
+3. Vrè oswa Fo: Franchiz pa mande okenn dokimantasyon sistèm ki gen sans, paske franchize yo jwenn solisyon poukont yo.
+
+4. Kisa Marisol te rekonèt li ta bezwen anvan l chwazi franchiz?
+   a) Pa gen okenn preparasyon anplis ditou
+   b) Yon nivo dokimantasyon sistèm ki menm pi sevè pase sa l te genyen kounye a
+   c) Eliminasyon sistèm li yo kounye a nèt
+   d) Mwens dokimantasyon pase operasyon yon sèl lokal li kounye a
+
+**5. Kle repons yo**
+1. b  2. b  3. Fo  4. b
+
+**6. Repons ak eksplikasyon**
+1. Franchiz pèmèt yon lòt pati opere yon biznis ak yon mak ak sistèm ki etabli, anjeneral pou frè ak redevans.
+2. Franchiz ak lisans tou de gen ladan yo bay yon pati nan kontwòl dirèk sou jan lòt moun reprezante e egzekite.
+3. Franchiz mande sistèm sevè e byen dokimante pou sipòte yon egzekisyon konsistan atravè lokal yo opere yon fason endepandan.
+4. Marisol te rekonèt franchiz ta mande yon dokimantasyon pi sevè pase sa sistèm li te bay kounye a.
+
+**7. Pwen kle yo**
+- Franchiz pèmèt ekspansyon biznis atravè lòt moun k ap opere anba yon mak ak sistèm ki etabli, pou frè ak redevans.
+- Lisans bay dwa sou yon pwopriyete entelektyèl espesifik, san nesesèman repwodui tout modèl biznis lan.
+- Tou de modèl yo ka pèmèt yon kwasans pi rapid pase yon ekspansyon òganik, ak kapital ak jesyon lokal lòt moun.
+- Tou de mande sistèm ak SOP sevè e yo vle di aksepte mwens kontwòl dirèk sou egzekisyon lòt moun.
+
+===== BLUE-L2-039
+TITLE: Fizyon, akizisyon, ak asosyasyon: yon entwodiksyon
+SUMMARY: Fizyon, akizisyon, ak asosyasyon ant biznis ka bay yon kwasans rapid men yo gen anpil konpleksite nan evalyasyon, entegrasyon, ak estrikti legal/finansye – se pa yon domèn pou fè poukont ou.
+## BLUE-L2-039
+### Fizyon, akizisyon, ak asosyasyon: yon entwodiksyon
+
+**1. Objektif aprantisaj**
+Nan fen leson sa a, elèv la ap kapab:
+- Bay definisyon fizyon, akizisyon, ak asosyasyon biznis nan yon nivo konseptyèl.
+- Fè diferans ant chemen kwasans sa yo ak kwasans òganik ak franchiz/lisans.
+- Rekonèt sa kòm yon domèn ki mande anpil konsèy pwofesyonèl.
+
+**2. Kontni prensipal**
+Pi lwen pase kwasans òganik (Leson 36) ak franchiz/lisans (Leson 38), biznis yo pafwa grandi oswa konbine atravè fizyon (de biznis ki konbine pou vin yon sèl), akizisyon (yon biznis ki achte yon lòt), oswa fòme yon asosyasyon ak yon lòt biznis ki deja egziste, sa ki raple diskisyon sou asosyasyon imobilye (RED-L2-029) men aplike nan konbine oswa achte tout biznis k ap opere olye posede yon pwopriyete ansanm.
+
+Chemen sa yo ka bay yon aksè rapid a yon baz kliyan ki etabli, kapasite ki konplete youn lòt, oswa yon pi gwo pati nan mache a ki ta pran anpil plis tan pou bati yon fason òganik, men yo gen anpil konpleksite: evalye biznis w ap achte oswa fizyone avè l la (Leson 40), entegre sistèm, kilti, ak anplwaye ki ka diferan, ak navige yon estrikti legal ak finansye konplike, sa ki anjeneral mande yon ekip ki gen ladan avoka, kontab, e pafwa koutye biznis oswa konseye espesyalize — sa a se absoliman pa yon domèn pou fè poukont ou, menm pou yon mèt biznis ki gen eksperyans otreman.
+
+**3. Egzanp pratik**
+Apre plizyè ane kwasans òganik (Leson 36), yon biznis lokal ki konplete pa l pwoche yon mèt biznis ki enterese nan yon fizyon posib, pou konbine baz kliyan yo ak kapasite operasyonèl yo. Lè l rekonèt gwo konpleksite ki genyen ladan l — evalye chak biznis yon fason jis (Leson 40), entegre diferan sistèm ak anplwaye, e estriktire antite konbine a kòmsadwa — mèt biznis la rasanble yon ekip ki gen ladan yon avoka biznis, yon kontab, ak yon pwofesyonèl evalyasyon biznis anvan l avanse ak diskisyon serye, li trete desizyon sa a ak yon nivo sipò pwofesyonèl byen pi lwen pase sa desizyon pi bonè li yo ki te sou yon pi piti echèl te mande.
+
+**4. Egzamen pratik**
+1. Kisa yon fizyon ye, nan yon nivo konseptyèl?
+   a) Yon sèl biznis ki fèmen pou toujou
+   b) De biznis ki konbine pou vin yon sèl
+   c) Yon kalite prè
+   d) Yon règleman gouvènman
+
+2. Poukisa leson sa a dekri fizyon, akizisyon, ak asosyasyon kòm bagay ki mande anpil konsèy pwofesyonèl?
+   a) Se desizyon senp ki pa gen gwo enjeu
+   b) Yo gen anpil konpleksite nan evalyasyon, entegrasyon, ak aspè legal/finansye
+   c) Pa janm bezwen okenn pwofesyonèl pou desizyon sa yo
+   d) Yo pa gen rapò ak valè biznis
+
+3. Vrè oswa Fo: Fizyon ak akizisyon se desizyon senp ou ka fè poukont ou ki pa mande okenn sipò pwofesyonèl espesyalize.
+
+4. Kisa mèt biznis la te fè anvan l avanse ak diskisyon fizyon serye?
+   a) Anyen — li te avanse san okenn sipò pwofesyonèl
+   b) Li te rasanble yon ekip ki gen ladan yon avoka, yon kontab, ak yon pwofesyonèl evalyasyon
+   c) Li te inyore konpleksite a nèt
+   d) Li te rejte opòtinite a san l pa konsidere l
+
+**5. Kle repons yo**
+1. b  2. b  3. Fo  4. b
+
+**6. Repons ak eksplikasyon**
+1. Yon fizyon gen ladan de biznis ki konbine pou vin yon sèl.
+2. Gwo konpleksite nan evalyasyon, entegrasyon, ak aspè legal/finansye tranzaksyon sa yo mande anpil konsèy pwofesyonèl.
+3. Tranzaksyon sa yo gen vrè konpleksite ki mande sipò pwofesyonèl espesyalize, se pa yon apwòch fè poukont ou.
+4. Mèt biznis la te rasanble kòmsadwa yon ekip pwofesyonèl anvan l avanse ak diskisyon fizyon serye.
+
+**7. Pwen kle yo**
+- Fizyon konbine de biznis; akizisyon gen ladan yon biznis ki achte yon lòt; asosyasyon konbine efò biznis ki deja egziste.
+- Chemen sa yo ka bay yon kwasans rapid men yo gen anpil konpleksite nan evalyasyon, entegrasyon, ak aspè legal/finansye.
+- Sa raple diskisyon sou asosyasyon imobilye a, aplike isit la nan konbine oswa achte tout biznis.
+- Sa a se absoliman pa yon domèn pou fè poukont ou, li mande yon ekip pwofesyonèl ki kalifye.
+
+===== BLUE-L2-040
+TITLE: Baz evalyasyon biznis: konbyen yon konpayi vo?
+SUMMARY: Konnen apwòch jeneral pou evalye yon biznis – baze sou byen, baze sou benefis, ak baze sou mache – e poukisa vrè tranzaksyon mande yon pwofesyonèl evalyasyon ki kalifye.
+## BLUE-L2-040
+### Baz evalyasyon biznis: konbyen yon konpayi vo?
+
+**1. Objektif aprantisaj**
+Nan fen leson sa a, elèv la ap kapab:
+- Idantifye apwòch jeneral pou evalye yon biznis.
+- Esplike poukisa evalyasyon biznis pi konplike nan nati l pase evalye yon sèl byen.
+- Rekonèt sa kòm yon domèn ki mande ekspètiz pwofesyonèl pou nenpòt vrè tranzaksyon.
+
+**2. Kontni prensipal**
+Evalye yon biznis — detèmine konbyen li vo toutbon — gen plis konpleksite pase evalye yon sèl byen tankou yon pwopriyete (diskisyon RED-L2-026 sou cap rate) oswa yon aksyon (WHITE-L2), paske valè yon biznis depann de benefis li, perspektiv kwasans li, byen li, dèt li, pozisyon li sou mache a, e souvan anpil jijman subjektif sou pèfòmans nan lavni. Apwòch jeneral yo gen ladan evalyasyon baze sou byen (fè total valè byen biznis lan, mwens dèt li), evalyasyon baze sou benefis (aplike yon miltip sou benefis biznis lan, sa ki raple yon fason konseptyèl apwòch cap rate nan imobilye), ak evalyasyon baze sou mache (konpare ak sa biznis ki sanble te vann resaman, lè konparezon sa yo disponib e yo vrèman konparab).
+
+Akoz konpleksite sa a ak gwo enjeu finansye ki genyen nan nenpòt vrè tranzaksyon (fizyon/akizisyon Leson 39, estrateji sòti Leson 41), vrè evalyasyon biznis pou vrè tranzaksyon mande yon pwofesyonèl evalyasyon biznis ki kalifye, se pa yon estimasyon apeprè ki baze sou edikasyon jeneral sèlman — leson sa a prezante konsèp yo pou yon elèv ka patisipe ak enfòmasyon nan pwosesis pwofesyonèl sa a, se pa pou pèmèt yon evalyasyon ou fè poukont ou pou yon vrè tranzaksyon.
+
+**3. Egzanp pratik**
+Pandan l ap konsidere yon vant posib biznis li plizyè ane nan lavni, Marisol kòmanse aprann sou apwòch evalyasyon jeneral sa yo pou l ka patisipe ak plis enfòmasyon ak yon pwofesyonèl evalyasyon nan lavni, li konprann yon fason konseptyèl poukisa istwa benefis biznis li, trajektwa kwasans li, ak pozisyon li sou mache a ta tout antre nan evalyasyon alafen li. Li pa eseye kalkile yon valè an dola espesifik li menm pou okenn objektif tranzaksyon reyèl, paske li rekonèt yon vrè evalyasyon pou yon vrè tranzaksyon mande yon pwofesyonèl ki kalifye k ap konsidere anpil plis detay espesifik pase kad edikatif jeneral sa a bay.
+
+**4. Egzamen pratik**
+1. Ki yon apwòch jeneral pou evalye biznis, dapre leson sa a?
+   a) Devine dapre opinyon pèsonèl pwopriyetè a
+   b) Evalyasyon baze sou benefis, aplike yon miltip sou benefis biznis lan
+   c) Konsidere sèlman kote fizik biznis lan ye
+   d) Pa gen okenn fason pou evalye yon biznis
+
+2. Poukisa yo dekri evalyasyon biznis kòm pi konplike pase evalye yon sèl byen tankou yon pwopriyete oswa yon aksyon?
+   a) An reyalite li pi senp
+   b) Li depann de benefis, perspektiv kwasans, byen, dèt, pozisyon sou mache, ak jijman subjektif ansanm
+   c) Biznis pa gen okenn valè ou ka mezire
+   d) Pwopriyete ak aksyon pa gen okenn metòd evalyasyon ditou
+
+3. Vrè oswa Fo: Leson sa a bay ase detay pou yon elèv fè yon vrè evalyasyon biznis pou yon vrè tranzaksyon.
+
+4. Poukisa Marisol te evite kalkile yon chif evalyasyon espesifik li menm pou yon tranzaksyon nan lavni?
+   a) Li pa t enterese janm vann biznis li
+   b) Li te rekonèt yon vrè evalyasyon pou yon vrè tranzaksyon mande yon pwofesyonèl ki kalifye
+   c) Li enposib pou aprann sou evalyasyon
+   d) Li te kwè biznis li pa t gen okenn valè ditou
+
+**5. Kle repons yo**
+1. b  2. b  3. Fo  4. b
+
+**6. Repons ak eksplikasyon**
+1. Evalyasyon baze sou benefis, ki aplike yon miltip sou benefis, se yon apwòch jeneral leson sa a diskite.
+2. Evalyasyon biznis gen ladan plizyè faktè ki gen enteraksyon ak anpil jijman subjektif, sa ki ajoute konpleksite pi lwen pase yon sèl byen.
+3. Leson sa a prezante konsèp pou yon patisipasyon enfòme, se pa ase detay pou yon vrè evalyasyon ou fè poukont ou.
+4. Marisol te rekonèt kòmsadwa ke yon evalyasyon pou yon vrè tranzaksyon mande yon pwofesyonèl ki kalifye, se pa yon estimasyon li kalkile li menm.
+
+**7. Pwen kle yo**
+- Apwòch evalyasyon biznis yo gen ladan metòd baze sou byen, baze sou benefis, ak baze sou mache.
+- Evalyasyon biznis pi konplike pase evalye yon sèl byen, akoz anpil faktè ki gen enteraksyon ak jijman ki genyen ladan l.
+- Leson sa a prezante konsèp pou yon patisipasyon enfòme, se pa pou fè yon vrè evalyasyon poukont ou.
+- Vrè tranzaksyon mande yon pwofesyonèl evalyasyon biznis ki kalifye, akoz gwo enjeu ki genyen ladan yo.
