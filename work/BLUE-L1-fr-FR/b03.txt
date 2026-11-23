@@ -1,0 +1,203 @@
+===== BLUE-L1-007
+TITLE: Qu’est-ce qu’une société par actions?
+SUMMARY: Découvrez ce qu’est une société par actions, en quoi sa structure diffère de celle d’une LLC, et pourquoi elle est traitée comme sa propre « personne » juridique.
+# Qu’est-ce qu’une société par actions?
+
+## Objectifs d’apprentissage
+
+À la fin de cette leçon, vous devriez pouvoir :
+
+- Définir une société par actions en termes simples.
+- Expliquer ce que signifie le fait qu’une société par actions soit sa propre « personne » juridique.
+- Expliquer une conséquence pratique de ce statut juridique distinct.
+
+## Contenu principal
+
+### Une personne juridique à part entière
+
+Une société par actions est une structure d’entreprise qui crée une entité juridique entièrement distincte de ses propriétaires (les actionnaires) — séparée de façon plus formelle, à bien des égards, qu’une LLC. La loi traite une société par actions presque comme sa propre « personne » : elle peut posséder des biens, conclure des contrats, poursuivre et être poursuivie, indépendamment des personnes qui en sont propriétaires.
+
+### Pourquoi « sa propre personne » compte
+
+Demandez-vous : si le propriétaire d’une société par actions décède, l’entreprise prend-elle automatiquement fin? Généralement pas — comme la société existe en tant qu’entité juridique distincte, elle peut continuer indépendamment de la vie d’un propriétaire en particulier, contrairement à certaines structures plus simples.
+
+### Une conséquence pratique : la propriété par actions
+
+Les sociétés par actions sont détenues au moyen d’actions, notion présentée dans le volet WHITE — c’est le lien direct entre « posséder des actions » et cette structure d’entreprise. Une société peut avoir un seul actionnaire ou des millions, et les actions peuvent être achetées et vendues sans nécessairement perturber l’entreprise sous-jacente.
+
+## Exemple pratique
+
+Imaginez une société par actions familiale dont le fondateur décède. Demandez-vous : l’entreprise cesse-t-elle d’exister sur le plan juridique? Comme la société est sa propre entité juridique, la propriété des actions est simplement transférée (par héritage, par vente ou autrement) — la société elle-même continue d’exister, indépendamment de la vie d’une seule personne.
+
+## Quiz pratique
+
+1. Une société par actions se décrit le mieux comme :
+   A. La même entité juridique que ses propriétaires
+   B. Une entité juridique distincte de ses propriétaires
+   C. Une structure offerte seulement aux grandes entreprises
+   D. Un type d’entreprise individuelle
+2. Vrai ou faux : une société par actions cesse généralement d’exister si un seul propriétaire décède.
+3. Comment la propriété d’une société par actions est-elle habituellement structurée?
+   A. Au moyen d’un titre unique, non transférable
+   B. Au moyen d’actions, qui peuvent être détenues par un ou plusieurs actionnaires
+   C. Les sociétés par actions ne peuvent appartenir à personne
+   D. La propriété est déterminée chaque année par le gouvernement
+
+## Corrigé
+
+1. B
+2. Faux
+3. B
+
+## Réponses et explications
+
+### Question 1
+Bonne réponse : B. Une société par actions est juridiquement distincte de ses propriétaires.
+
+### Question 2
+Bonne réponse : Faux. La société continue généralement d’exister indépendamment de la vie d’un propriétaire en particulier.
+
+### Question 3
+Bonne réponse : B. La propriété est structurée au moyen d’actions.
+
+## Points clés
+
+- Une société par actions est sa propre entité juridique, distincte de ses propriétaires.
+- Elle peut continuer d’exister indépendamment d’un propriétaire en particulier.
+- La propriété est structurée au moyen d’actions, ce qui la rattache au volet WHITE.
+
+===== BLUE-L1-008
+TITLE: Sous-chapitre C ou sous-chapitre S : qu’est-ce qui change vraiment?
+SUMMARY: Découvrez la différence fondamentale de traitement fiscal entre une société de type C et une société de type S.
+# Sous-chapitre C ou sous-chapitre S : qu’est-ce qui change vraiment?
+
+## Objectifs d’apprentissage
+
+À la fin de cette leçon, vous devriez pouvoir :
+
+- Expliquer à quoi renvoient les expressions « C corp » et « S corp ».
+- Expliquer la différence fiscale fondamentale entre les deux.
+- Reconnaître que le statut de S corp comporte de réelles conditions d’admissibilité.
+
+## Contenu principal
+
+### Même structure juridique, traitement fiscal différent
+
+*(RÈGLE PROPRE À LA RÉGION : il s’agit du droit fiscal fédéral des États-Unis; la France et d’autres pays ont leurs propres règles.)* Les deux expressions désignent la même structure de société par actions que dans la dernière leçon — la différence tient à la section du code fiscal fédéral qui s’applique à la façon dont la société est imposée.
+
+### La différence fondamentale : qui paie, et quand
+
+Une société de type C paie généralement l’impôt sur le revenu au niveau de la société sur ses bénéfices; si elle verse ensuite des dividendes aux actionnaires, ceux-ci paient généralement de nouveau de l’impôt sur ce revenu — ce qu’on appelle parfois la « double imposition ». Une société de type S transfère généralement ses bénéfices directement dans les déclarations de revenus personnelles des actionnaires, ce qui évite ce niveau d’impôt des sociétés.
+
+### Posez-vous cette question
+
+Si le statut de S corp évite cette double imposition, pourquoi toutes les sociétés ne le choisissent-elles pas? Parce que le statut de S corp comporte de réelles conditions d’admissibilité — des restrictions sur le nombre et le type d’actionnaires, entre autres exigences — auxquelles toutes les sociétés ne satisfont pas ou ne souhaitent pas se soumettre.
+
+## Exemple pratique
+
+Imaginez deux sociétés identiques qui réalisent le même bénéfice. L’une choisit le traitement de type C; l’autre, le traitement de type S. Demandez-vous : si les deux distribuent tout leur bénéfice aux actionnaires, où l’impôt est-il payé différemment? Dans la société de type C, l’impôt est généralement payé au niveau de la société, puis de nouveau au niveau des actionnaires. Dans la société de type S, il n’est généralement payé qu’une seule fois, directement dans les déclarations personnelles des actionnaires.
+
+## Quiz pratique
+
+1. À quoi renvoient les expressions « C corp » et « S corp »?
+   A. À deux structures d’entreprise juridiques entièrement différentes
+   B. À la même structure de société, imposée selon des sections différentes du code fiscal
+   C. Seulement à la taille de l’entreprise
+   D. À une distinction qui ne compte que pour les organismes sans but lucratif
+2. Vrai ou faux : une société de type C évite la double imposition, alors qu’une société de type S ne l’évite pas.
+3. Pourquoi toutes les sociétés ne choisissent-elles pas simplement le statut de S corp?
+   A. Le statut de S corp est illégal dans la plupart des États
+   B. Le statut de S corp comporte de réelles conditions d’admissibilité que toutes les sociétés ne remplissent pas
+   C. Les S corps sont toujours plus imposées
+   D. Le statut de S corp n’existe pas
+
+## Corrigé
+
+1. B
+2. Faux
+3. B
+
+## Réponses et explications
+
+### Question 1
+Bonne réponse : B. Les deux désignent la même structure, imposée différemment selon le code fiscal.
+
+### Question 2
+Bonne réponse : Faux. C’est l’inverse — les sociétés de type C font généralement face à une double imposition possible; les sociétés de type S l’évitent généralement.
+
+### Question 3
+Bonne réponse : B. De réelles conditions d’admissibilité limitent qui peut choisir le statut de S corp.
+
+## Points clés
+
+- « C corp » et « S corp » désignent la même structure, imposée différemment.
+- Les sociétés de type C font généralement face à une double imposition possible; les sociétés de type S transfèrent généralement leurs bénéfices une seule fois.
+- Le statut de S corp comporte de réelles conditions d’admissibilité et n’est pas offert à toutes les sociétés.
+
+===== BLUE-L1-009
+TITLE: Qu’est-ce qu’une société de personnes, et quels sont les vrais risques d’une société informelle?
+SUMMARY: Découvrez ce qu’est une société en nom collectif, et pourquoi une société informelle et non documentée comporte de réels risques pour toutes les personnes concernées.
+# Qu’est-ce qu’une société de personnes, et quels sont les vrais risques d’une société informelle?
+
+## Objectifs d’apprentissage
+
+À la fin de cette leçon, vous devriez pouvoir :
+
+- Définir une société en nom collectif en termes simples.
+- Expliquer pourquoi une société de personnes informelle est risquée.
+- Expliquer ce qu’une convention d’associés écrite peut prévenir.
+
+## Contenu principal
+
+### Ce qu’est une société en nom collectif
+
+Une société en nom collectif se forme lorsque deux personnes ou plus se lancent ensemble en affaires et partagent les bénéfices, les pertes et la gestion — souvent sans même l’avoir formellement décidé, si elles exploitent simplement une entreprise ensemble sans autre structure en place.
+
+### Posez-vous cette question
+
+Si deux amis commencent à vendre un produit ensemble sur une poignée de main, sans entente écrite, sont-ils légalement associés? Dans bien des endroits, oui — par défaut, le simple fait d’exploiter une entreprise ensemble peut créer une société de personnes au sens juridique, que quelqu’un l’ait voulu ou non.
+
+### Le vrai risque du « on verra bien »
+
+Dans une société en nom collectif, chaque associé est généralement personnellement responsable non seulement de ses propres actes, mais aussi des actes de l’autre ou des autres associés accomplis au nom de l’entreprise. Sans entente écrite portant sur des éléments comme la répartition de la propriété, la prise de décisions et ce qui se passe si quelqu’un veut se retirer, les désaccords peuvent devenir des conflits coûteux et personnels, sans voie claire pour les régler.
+
+## Exemple pratique
+
+Deux amis lancent une entreprise ensemble de façon informelle. L’un signe un contrat avec un fournisseur à l’insu de l’autre, et l’entreprise ne peut pas le payer. Demandez-vous : l’associé qui n’a pas signé est-il quand même responsable? Selon le droit des sociétés en nom collectif, c’est fort possible — chaque associé peut être personnellement responsable des obligations que l’autre associé a contractées au nom de l’entreprise.
+
+## Quiz pratique
+
+1. Une société en nom collectif peut se former :
+   A. Seulement au moyen de documents officiels déposés
+   B. Simplement lorsque deux personnes ou plus exploitent une entreprise ensemble, même sans documents officiels
+   C. Seulement entre membres d’une même famille
+   D. Seulement pour les professions réglementées
+2. Vrai ou faux : dans une société en nom collectif, un associé n’est responsable que de ses propres actes.
+3. Qu’est-ce qu’une convention d’associés écrite peut aider à prévenir?
+   A. Tout risque d’affaires, de toute nature
+   B. Des conflits coûteux sur la propriété, les décisions et les conditions de retrait
+   C. Le besoin de communiquer un jour avec un associé
+   D. L’ensemble des impôts de l’entreprise
+
+## Corrigé
+
+1. B
+2. Faux
+3. B
+
+## Réponses et explications
+
+### Question 1
+Bonne réponse : B. Une société en nom collectif peut se former par défaut, sans documents officiels.
+
+### Question 2
+Bonne réponse : Faux. Les associés peuvent généralement être responsables des actes des uns et des autres accomplis au nom de l’entreprise.
+
+### Question 3
+Bonne réponse : B. Une entente écrite aide à prévenir des conflits coûteux et ambigus.
+
+## Points clés
+
+- Une société en nom collectif peut se former par défaut, même sans documents.
+- Les associés peuvent généralement être personnellement responsables des actes d’affaires des uns et des autres.
+- Une convention d’associés écrite aide à prévenir des conflits coûteux et ambigus.

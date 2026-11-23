@@ -1,0 +1,175 @@
+===== BLUE-L1-025
+TITLE: Qu’est-ce qu’un bilan, en termes simples?
+SUMMARY: Explique ce qu’un bilan saisit à un moment précis et en quoi il diffère de l’état des résultats vu dans BLUE-L1-024.
+# BLUE-L1-025 : Qu’est-ce qu’un bilan, en termes simples?
+
+**Volet :** BLUE (Entreprise)
+**Niveau :** 1 — Sensibilisation et littératie
+**ID de la leçon :** BLUE-L1-025
+**Auteur :** Waldemar M. Caban, JD MA
+**Durée estimée :** 15 à 20 minutes
+**Difficulté :** Débutant
+
+---
+
+## Résumé
+`BLUE-L1-025-MAIN`
+Alors qu’un état des résultats montre le rendement sur une période, un bilan montre la situation financière d’une entreprise à un moment précis. Cette leçon explique ce que saisit un bilan et en quoi il diffère de l’état des résultats vu dans BLUE-L1-024.
+
+## Objectifs d’apprentissage
+- Définir un bilan et sa structure de base
+- Expliquer l’équation fondamentale : Actif = Passif + Capitaux propres
+- Distinguer la nature « instantanée » d’un bilan de la nature « périodique » d’un état des résultats
+
+## Préalables
+BLUE-L1-024
+
+## Durée estimée
+15 à 20 minutes
+
+## Difficulté
+Débutant (niveau 1)
+
+---
+
+## Contenu principal
+
+### Thème 1 : Ce que montre un bilan
+Un bilan est un document financier qui montre ce que possède une entreprise (l’actif), ce qu’elle doit (le passif) et les capitaux propres du propriétaire qui en résultent, le tout à une date précise — un « instantané » financier plutôt qu’un résumé de l’activité dans le temps.
+
+### Thème 2 : L’équation fondamentale
+[FAIT VÉRIFIÉ] L’équation fondamentale du bilan est : Actif = Passif + Capitaux propres. Elle doit toujours être équilibrée — d’où le nom de « balance sheet » en anglais — parce que tout ce que l’entreprise possède a été financé soit par des dettes (le passif), soit par l’investissement du propriétaire et les bénéfices conservés (les capitaux propres).
+
+### Thème 3 : Instantané ou période — la différence clé avec l’état des résultats
+Rappelez-vous, d’après BLUE-L1-024, qu’un état des résultats couvre une période (un mois, un trimestre, une année). Un bilan, en revanche, est un instantané à une date précise — comme une photographie plutôt qu’une vidéo de l’activité financière.
+
+### Thème 4 : Pourquoi les deux documents comptent ensemble
+[EXEMPLE ILLUSTRATIF] Une entreprise pourrait afficher un solide bénéfice dans son état des résultats de l’année tout en portant une dette importante inscrite à son bilan — l’état des résultats seul ne révélerait pas ce fardeau de dette, et le bilan seul ne révélerait pas comment ce bénéfice a été généré. Ensemble, ils donnent un portrait financier beaucoup plus complet.
+
+---
+
+## Définitions clés
+- **Bilan :** Un instantané financier à une date précise, qui montre l’actif, le passif et les capitaux propres du propriétaire.
+- **Actif :** Ce que possède une entreprise (liquidités, équipement, stocks, immeubles, etc.).
+- **Passif :** Ce que doit une entreprise (prêts, factures impayées, autres dettes).
+- **Capitaux propres :** La part restante du propriétaire dans l’entreprise, calculée comme l’actif moins le passif.
+
+## Exemples pratiques
+[EXEMPLE ILLUSTRATIF] Une entreprise a 100 000 € d’actif (équipement, liquidités, stocks) et 40 000 € de passif (un prêt d’entreprise). Les capitaux propres sont de 60 000 € — la portion de la valeur de l’entreprise qui appartient au propriétaire une fois pris en compte ce qui est dû.
+
+## Erreurs courantes
+- Confondre la nature instantanée d’un bilan avec la nature périodique d’un état des résultats
+- Supposer qu’un actif élevé à lui seul signifie qu’une entreprise est en bonne santé financière, sans vérifier le passif
+- Oublier que les capitaux propres ne sont pas des liquidités qui dorment dans un compte — c’est un chiffre calculé
+
+## FAQ
+**Q : Lequel est le plus important, l’état des résultats ou le bilan?**
+R : [OPINION] Aucun des deux ne raconte toute l’histoire à lui seul — l’état des résultats montre le rendement dans le temps, le bilan montre la situation financière à un moment donné; les deux sont généralement nécessaires ensemble pour un portrait complet.
+
+**Q : Un bilan est-il toujours littéralement « équilibré »?**
+R : Oui — par définition, l’actif doit toujours être égal au passif plus les capitaux propres; s’il n’est pas équilibré, il y a une erreur quelque part dans les registres sous-jacents.
+
+## Points clés
+- Un bilan montre l’actif, le passif et les capitaux propres à une date précise
+- L’équation fondamentale est : Actif = Passif + Capitaux propres
+- Contrairement à la vision périodique de l’état des résultats, un bilan est un instantané à un seul moment
+- Les deux documents ensemble donnent un portrait financier plus complet que l’un ou l’autre seul
+
+## Exercice pratique
+Une entreprise a 75 000 € d’actif et 30 000 € de passif. Calculez les capitaux propres, et expliquez ce que ce chiffre représente.
+
+---
+
+## Guide d’enseignement socratique
+`BLUE-L1-025-SOCRATIC` (niveau 1 — « Quoi »)
+
+1. **Question d’ouverture :** Si un état des résultats est comme une vidéo de l’activité financière dans le temps, que montrerait plutôt un document « instantané »?
+2. **Notion 1 — Définition :** Quelles sont les trois choses que montre un bilan?
+3. **Suivi :** Quelle date précise représente-t-il?
+4. **Notion 2 — Équation fondamentale :** Quelle est l’équation fondamentale du bilan?
+5. **Suivi :** Pourquoi doit-il toujours être équilibré?
+6. **Notion 3 — Instantané ou période :** En quoi est-ce différent de ce que montre un état des résultats?
+7. **Suivi :** Une entreprise pourrait-elle avoir un excellent état des résultats pour l’année, mais un bilan préoccupant? Comment?
+8. **Notion 4 — Pourquoi les deux comptent :** Que pourriez-vous manquer en ne regardant qu’un seul de ces deux documents?
+9. **Synthèse :** Si une entreprise a un solide bénéfice mais une lourde dette, quel document révèle quelle information?
+10. **Réflexion :** Pourquoi pensez-vous que les nouveaux propriétaires d’entreprise négligent souvent le bilan pour ne surveiller que le bénéfice?
+
+## Évaluation des compétences
+`BLUE-L1-025-ASSESSMENT`
+
+1. (Choix multiple) Un bilan montre : A) Le rendement sur une période B) La situation financière à une date précise C) Seulement les obligations fiscales D) Seulement les dépenses de marketing
+2. (Choix multiple) L’équation du bilan est : A) Actif = Passif − Capitaux propres B) Actif = Passif + Capitaux propres C) Revenus = Coûts + Bénéfice D) Capitaux propres = Actif + Passif
+3. (Vrai ou faux) Un bilan couvre une période, comme un état des résultats.
+4. (Réponse courte) Expliquez la différence entre la vision « périodique » d’un état des résultats et la vision « instantanée » d’un bilan.
+5. (Mise en situation) Une entreprise a 100 000 € d’actif et 40 000 € de passif. Calculez les capitaux propres.
+6. (Choix multiple) Qu’est-ce que le passif? A) Ce que possède une entreprise B) Ce que doit une entreprise C) L’investissement du propriétaire D) Les revenus
+7. (Vrai ou faux) Un actif élevé à lui seul signifie toujours qu’une entreprise est en bonne santé financière.
+8. (Réponse courte) Pourquoi une entreprise qui a un solide bénéfice annuel pourrait-elle quand même avoir un bilan préoccupant?
+9. (Choix multiple) Pourquoi un bilan doit-il toujours être « équilibré »? A) C’est une règle porte-bonheur B) Tout ce qui est possédé a été financé par des dettes ou par l’investissement du propriétaire et les capitaux propres C) Les impôts l’exigent D) Il n’a pas besoin d’être équilibré
+10. (Réflexion) Pourquoi l’état des résultats et le bilan sont-ils plus utiles lorsqu’on les examine ensemble plutôt que séparément?
+
+## Corrigé
+`BLUE-L1-025-ANSWER-KEY`
+
+1. **Bonne réponse :** B. **Explication :** Énoncé directement au thème 1. **Compétence évaluée :** Rappel.
+2. **Bonne réponse :** B. **Explication :** Énoncé au thème 2, avec la mention FAIT VÉRIFIÉ. **Compétence évaluée :** Rappel et formule.
+3. **Bonne réponse :** Faux. **Explication :** Le thème 3 oppose explicitement l’instantané et la période. **Compétence évaluée :** Correction d’une idée fausse.
+4. **Bonne réponse :** L’état des résultats résume l’activité sur une période; le bilan montre la situation à un moment précis. **Compétence évaluée :** Synthèse comparative.
+5. **Bonne réponse :** 60 000 €. **Explication :** 100 000 € − 40 000 € = 60 000 €, selon l’exemple pratique. **Compétence évaluée :** Calcul appliqué.
+6. **Bonne réponse :** B. **Explication :** Défini dans les définitions clés. **Compétence évaluée :** Rappel.
+7. **Bonne réponse :** Faux. **Explication :** Les erreurs courantes le signalent explicitement. **Compétence évaluée :** Correction d’une idée fausse.
+8. **Bonne réponse :** Elle pourrait porter une dette importante (passif) qui n’apparaît pas dans l’état des résultats, selon le thème 4. **Compétence évaluée :** Raisonnement appliqué.
+9. **Bonne réponse :** B. **Explication :** Énoncé au thème 2. **Compétence évaluée :** Rappel.
+10. **Bonne réponse :** Les réponses devraient souligner que chaque document révèle des renseignements différents et complémentaires — le rendement par rapport à la situation. **Compétence évaluée :** Synthèse approfondie.
+
+## Norme de compétence
+`BLUE-L1-025-COMPETENCY`
+
+COMPÉTENCES ENSEIGNÉES : Structure du bilan; équation comptable fondamentale; distinction entre instantané et période par rapport à l’état des résultats.
+COMPÉTENCES MESURÉES : Rappel des définitions; calcul appliqué; synthèse comparative.
+SEUIL DE MAÎTRISE MINIMAL : 80 %
+TÂCHE PRATIQUE OBLIGATOIRE : Réalisation de l’exercice pratique (calcul des capitaux propres).
+SUJETS DE RATTRAPAGE : Revoir BLUE-L1-024 en cas d’erreur aux questions 3, 4 ou 10.
+LEÇON SUIVANTE DÉBLOQUÉE : BLUE-L1-026
+VOLETS CONNEXES : WHITE (Actifs papier) — l’analyse du bilan est approfondie aux niveaux supérieurs du volet WHITE.
+
+## Lectures complémentaires
+- BLUE-L1-024 — Qu’est-ce qu’un état des résultats?
+- BLUE-L1-026 — Que sont les stocks, et combien vous coûte le fait de les détenir?
+
+## Parcours de la leçon
+`BLUE-L1-025-LOCALIZATION` (bloc de parcours)
+LEÇON PRÉCÉDENTE : BLUE-L1-024
+LEÇON SUIVANTE : BLUE-L1-026
+PRÉALABLES OBLIGATOIRES : BLUE-L1-024
+LEÇONS DE RÉVISION FACULTATIVES : BLUE-L1-024
+LEÇONS DE RATTRAPAGE : BLUE-L1-024
+LEÇONS CONNEXES D’AUTRES VOLETS : Aucune encore publiée au niveau 1 du volet WHITE (référence anticipée seulement)
+CONDITION D’ACHÈVEMENT DU NIVEAU : Terminer toutes les leçons BLUE-L1 (001 à 050) et réussir l’évaluation des compétences du niveau 1.
+
+## Bloc SEO
+`BLUE-L1-025-SEO`
+Titre SEO : Qu’est-ce qu’un bilan? Une explication simple | Edunancial
+Méta-description : Découvrez ce que montre un bilan, l’équation fondamentale Actif = Passif + Capitaux propres, et en quoi il diffère d’un état des résultats.
+Adresse URL suggérée : /courses/business/level-1/what-is-a-balance-sheet
+Mot-clé principal : qu’est-ce qu’un bilan
+Mots-clés secondaires : actif passif capitaux propres expliqués, bilan ou état des résultats
+Liens internes suggérés : BLUE-L1-024, BLUE-L1-026
+Références externes suggérées : Ressources générales de littératie comptable pour les petites entreprises
+Schéma recommandé : Schéma Course + LearningResource
+Intention de recherche : Informative, niveau débutant
+Possibilité d’extrait optimisé : « Quelle est l’équation du bilan? »
+Questions pour le schéma FAQ : « Lequel compte le plus, l’état des résultats ou le bilan? »; « Un bilan est-il toujours équilibré? »
+
+## Bloc de soutien IA
+`BLUE-L1-025-AI`
+Résumé IA : Présente le bilan comme un instantané financier (Actif = Passif + Capitaux propres), en le comparant à la vision périodique de l’état des résultats.
+Notes d’enseignement IA : Renforcer l’analogie « photo ou vidéo » et utiliser des exemples chiffrés concrets pour l’équation fondamentale.
+
+## Bloc de localisation
+`BLUE-L1-025-LOCALIZATION`
+État de la traduction : Version française (fr-FR) fidèle à la source anglaise.
+
+## Bloc de références et de vérification
+`BLUE-L1-025-REFERENCES`
+Aucune statistique ni citation externe utilisée. L’équation fondamentale porte la mention FAIT VÉRIFIÉ en tant que principe comptable standard.

@@ -1,0 +1,207 @@
+===== BLUE-L1-004
+TITLE: Qu’est-ce qu’une LLC?
+SUMMARY: Découvrez ce qu’une LLC protège réellement, et en quoi sa structure diffère de celle d’une entreprise individuelle.
+# Qu’est-ce qu’une LLC?
+
+## Objectifs d’apprentissage
+
+À la fin de cette leçon, vous devriez pouvoir :
+
+- Définir une LLC en termes simples.
+- Expliquer ce que la « responsabilité limitée » limite réellement.
+- Expliquer pourquoi cela change le portrait du risque par rapport à une entreprise individuelle.
+
+## Contenu principal
+
+### Ce que signifie LLC, et ce qu’elle fait
+
+LLC signifie « Limited Liability Company », c’est-à-dire société à responsabilité limitée, une structure répandue notamment aux États-Unis (en France, ce sont souvent la SARL ou la SAS qui jouent un rôle comparable). Demandez-vous : quel est le problème de la dernière leçon que cette structure existe pour régler? La responsabilité personnelle illimitée. Une LLC crée une séparation juridique entre le propriétaire (appelé « membre ») et l’entreprise — l’entreprise devient sa propre entité juridique.
+
+### Ce que « limitée » limite réellement
+
+Si une LLC est poursuivie ou ne peut pas payer une dette, les biens personnels du membre sont généralement protégés — ce sont les biens de l’entreprise elle-même qui sont à risque, et non la maison ou les économies personnelles du propriétaire, *à condition* que le propriétaire respecte les formalités exigées par l’État (garder séparées les finances de l’entreprise et les finances personnelles, effectuer les dépôts requis, etc.).
+
+### Le piège à connaître dès maintenant
+
+*(RÈGLE PROPRE À LA RÉGION : les exigences de constitution et de formalités varient selon l’État, la province ou le pays.)* Cette protection n’est ni automatique ni inconditionnelle — elle dépend du fait de traiter réellement la LLC comme une entité distincte dans la pratique, et pas seulement sur papier. Des leçons ultérieures de ce volet expliquent à quoi ressemblent ces formalités.
+
+## Exemple pratique
+
+Comparez la photographe pigiste de la dernière leçon à une version d’elle-même qui a constitué une LLC. Même bris d’équipement, même poursuite. Demandez-vous : qu’est-ce qui est différent cette fois? Si elle a respecté les formalités de la LLC, la réclamation atteint généralement les biens de l’entreprise — et non ses biens personnels. Même événement, exposition juridique différente, uniquement en raison de la structure.
+
+## Quiz pratique
+
+1. LLC signifie :
+   A. Limited Liability Corporation
+   B. Limited Liability Company
+   C. Legal License Certificate
+   D. Local Licensed Contractor
+2. Vrai ou faux : la protection de la responsabilité d’une LLC est automatique et s’applique peu importe ce que fait le propriétaire.
+3. Que protège principalement une LLC, par rapport à une entreprise individuelle?
+   A. Le taux d’imposition de l’entreprise
+   B. Les biens personnels du propriétaire contre les dettes et les poursuites de l’entreprise
+   C. Le budget marketing de l’entreprise
+   D. Les employés du propriétaire
+
+## Corrigé
+
+1. B
+2. Faux
+3. B
+
+## Réponses et explications
+
+### Question 1
+Bonne réponse : B. LLC signifie Limited Liability Company (société à responsabilité limitée).
+
+### Question 2
+Bonne réponse : Faux. La protection dépend du respect des formalités exigées; elle n’est pas automatique du seul fait de constituer la LLC.
+
+### Question 3
+Bonne réponse : B. La protection des biens personnels est l’avantage central par rapport à une entreprise individuelle.
+
+## Points clés
+
+- Une LLC crée une séparation juridique entre le propriétaire et l’entreprise.
+- Cela protège généralement les biens personnels contre les dettes et les poursuites de l’entreprise.
+- Cette protection dépend du respect des formalités exigées, et pas seulement du dépôt de documents une seule fois.
+
+===== BLUE-L1-005
+TITLE: Qu’est-ce qu’une LLP, et en quoi diffère-t-elle d’une LLC?
+SUMMARY: Découvrez ce qu’est une LLP, et en quoi sa protection de la responsabilité diffère de celle d’une LLC.
+# Qu’est-ce qu’une LLP, et en quoi diffère-t-elle d’une LLC?
+
+## Objectifs d’apprentissage
+
+À la fin de cette leçon, vous devriez pouvoir :
+
+- Définir une LLP en termes simples.
+- Expliquer qui utilise habituellement cette structure.
+- Expliquer une différence clé entre la protection de la responsabilité d’une LLP et celle d’une LLC.
+
+## Contenu principal
+
+### Ce que signifie LLP
+
+LLP signifie « Limited Liability Partnership », c’est-à-dire société de personnes à responsabilité limitée (en France, par exemple, la société d’exercice libéral à responsabilité limitée, ou SELARL, joue un rôle comparable pour certaines professions réglementées) — une structure conçue pour plusieurs propriétaires (des associés) plutôt qu’un seul membre, couramment utilisée par des cabinets professionnels comme les cabinets d’avocats ou de comptables.
+
+### Qui l’utilise habituellement
+
+*(RÈGLE PROPRE À LA RÉGION : la disponibilité et les règles varient selon l’État, la province, le pays et la profession.)* Les LLP sont souvent utilisées par des professionnels autorisés qui sont tenus, ou qui choisissent, d’exercer en tant qu’associés, chaque associé demeurant directement responsable de son propre travail professionnel.
+
+### La différence clé en matière de responsabilité
+
+Demandez-vous : si un associé du cabinet commet une erreur coûteuse, les biens personnels de tous les autres associés devraient-ils être exposés? Dans une LLP, un associé est généralement protégé de la responsabilité personnelle pour la faute professionnelle ou les actes répréhensibles des autres associés — une distinction qui compte précisément dans les milieux professionnels à plusieurs associés.
+
+## Exemple pratique
+
+Imaginez un petit cabinet d’avocats de trois associés structuré en LLP. Un associé commet une grave erreur dans le dossier d’un client. Demandez-vous : la maison des deux autres associés est-elle menacée à cause de l’erreur de cet associé? Dans une LLP, généralement pas — l’exposition de chaque associé à la responsabilité pour les actes des autres est limitée, même s’ils partagent l’entreprise.
+
+## Quiz pratique
+
+1. LLP signifie :
+   A. Limited Liability Practice
+   B. Limited Liability Partnership
+   C. Legal Licensed Professional
+   D. Local Liability Program
+2. Vrai ou faux : les LLP sont habituellement structurées pour un seul propriétaire.
+3. Que vise généralement la protection de la responsabilité d’une LLP?
+   A. La protection contre toutes les dettes de l’entreprise, de toute nature
+   B. La protection contre la responsabilité personnelle pour la faute professionnelle ou les actes répréhensibles des autres associés
+   C. La protection contre le paiement de tout impôt
+   D. La protection contre toute poursuite
+
+## Corrigé
+
+1. B
+2. Faux
+3. B
+
+## Réponses et explications
+
+### Question 1
+Bonne réponse : B. LLP signifie Limited Liability Partnership (société de personnes à responsabilité limitée).
+
+### Question 2
+Bonne réponse : Faux. Les LLP sont structurées pour plusieurs associés, et non pour un seul propriétaire.
+
+### Question 3
+Bonne réponse : B. Les LLP visent précisément la responsabilité liée aux actes des autres associés.
+
+## Points clés
+
+- Une LLP est conçue pour plusieurs associés, souvent dans des professions réglementées.
+- Elle protège généralement un associé de la responsabilité pour la faute professionnelle ou les actes répréhensibles des autres associés.
+- C’est une protection différente du bouclier de responsabilité général d’une LLC.
+
+===== BLUE-L1-006
+TITLE: LLC ou LLP : laquelle convient à quelle situation?
+SUMMARY: Comparez côte à côte les structures LLC et LLP pour voir quelles situations conviennent naturellement à chacune.
+# LLC ou LLP : laquelle convient à quelle situation?
+
+## Objectifs d’apprentissage
+
+À la fin de cette leçon, vous devriez pouvoir :
+
+- Comparer les LLC et les LLP sur le plan de la structure de propriété.
+- Comparer les LLC et les LLP sur le plan de l’usage habituel.
+- Appliquer cette comparaison à un scénario hypothétique simple.
+
+## Contenu principal
+
+### Même but, forme différente
+
+Les deux structures existent pour limiter la responsabilité personnelle — c’est leur but commun. Elles diffèrent quant aux personnes pour qui elles sont conçues et à la forme que prend la protection.
+
+### La structure de propriété
+
+Une LLC peut avoir un seul membre ou plusieurs. Une LLP est précisément conçue autour de plusieurs associés — elle ne convient pas à une véritable situation de propriétaire unique comme le fait une LLC.
+
+### L’usage habituel
+
+Une LLC convient à une grande variété d’entreprises — un commerce de détail, un cabinet de consultation, une entreprise de services à propriétaire unique. Une LLP est plus précisément associée aux sociétés de professionnels autorisés, où la responsabilité individuelle de chaque associé pour le travail des autres est la préoccupation centrale.
+
+### Posez-vous cette question
+
+Si vous lanciez une entreprise de consultation en solo, une LLP serait-elle même une option? Pas vraiment — les LLP supposent des associés. Cette seule question suffit souvent à déterminer quelle structure convient réellement.
+
+## Exemple pratique
+
+Un consultant pigiste seul, sans associés, hésite entre une LLC et une LLP. Demandez-vous : une LLP s’applique-t-elle même ici? Comme les LLP sont conçues autour de plusieurs associés, ce scénario oriente clairement vers une LLC. Imaginez maintenant trois comptables qui ouvrent un cabinet ensemble — dans ce scénario, les deux structures sont possibles, et la protection de la LLP contre la responsabilité liée aux associés devient le facteur le plus pertinent.
+
+## Quiz pratique
+
+1. Quelle structure n’est généralement PAS conçue pour un véritable propriétaire unique?
+   A. La LLC
+   B. La LLP
+   C. Les deux sont conçues uniquement pour des propriétaires uniques
+   D. Aucune ne porte sur la structure de propriété
+2. Vrai ou faux : les LLC et les LLP partagent le même but de base, soit limiter la responsabilité personnelle.
+3. Un consultant seul, sans associés, choisit une structure. Laquelle convient le plus naturellement, en se fondant uniquement sur la structure de propriété?
+   A. La LLP
+   B. La LLC
+   C. Aucune ne convient à un propriétaire seul
+   D. Les deux sont également inadéquates
+
+## Corrigé
+
+1. B
+2. Vrai
+3. B
+
+## Réponses et explications
+
+### Question 1
+Bonne réponse : B. Les LLP sont conçues autour de plusieurs associés, et non d’un véritable propriétaire unique.
+
+### Question 2
+Bonne réponse : Vrai. Les deux structures partagent le but central de limiter la responsabilité personnelle.
+
+### Question 3
+Bonne réponse : B. Une LLC convient à un propriétaire seul; une LLP suppose des associés.
+
+## Points clés
+
+- Les LLC et les LLP limitent toutes deux la responsabilité personnelle, mais donnent une forme différente à cette protection.
+- Les LLC conviennent à un ou plusieurs propriétaires; les LLP supposent plusieurs associés.
+- Les LLP sont plus précisément associées aux sociétés de professionnels autorisés.

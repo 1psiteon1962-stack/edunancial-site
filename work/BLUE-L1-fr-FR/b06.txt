@@ -1,0 +1,203 @@
+===== BLUE-L1-016
+TITLE: Qu’est-ce que les flux de trésorerie d’une entreprise? (Pourquoi des entreprises rentables manquent quand même d’argent)
+SUMMARY: Découvrez ce que signifient les flux de trésorerie pour une entreprise, et pourquoi être rentable sur papier ne garantit pas d’avoir des liquidités au moment où on en a besoin.
+# Qu’est-ce que les flux de trésorerie d’une entreprise? (Pourquoi des entreprises rentables manquent quand même d’argent)
+
+## Objectifs d’apprentissage
+
+À la fin de cette leçon, vous devriez pouvoir :
+
+- Définir les flux de trésorerie dans un contexte d’entreprise.
+- Expliquer pourquoi le bénéfice et les flux de trésorerie ne sont pas la même chose.
+- Expliquer comment des décalages dans le temps peuvent créer de réels problèmes de liquidités.
+
+## Contenu principal
+
+### Ce que signifient les flux de trésorerie
+
+Les flux de trésorerie désignent le mouvement réel de l’argent qui entre dans une entreprise et qui en sort — non pas le bénéfice comptable, mais l’argent réellement disponible à un moment donné.
+
+### Posez-vous cette question
+
+Une entreprise peut-elle être rentable sur papier et ne pas avoir assez de liquidités pour payer ses factures cette semaine? Oui — et c’est l’une des leçons les plus contre-intuitives et les plus importantes de la gestion d’une entreprise. Le bénéfice se calcule sur une période; les flux de trésorerie sont une question de moment, d’instant en instant.
+
+### Comment les décalages dans le temps créent de réels problèmes
+
+Si une entreprise vend une grosse commande, mais que le client ne paie qu’au bout de 60 jours, alors que les fournisseurs et le loyer de l’entreprise doivent être payés dans 30 jours, l’entreprise peut être rentable sur papier (la vente compte comme un revenu) et quand même manquer de liquidités réelles pour payer ses propres factures entre-temps.
+
+## Exemple pratique
+
+Une entreprise décroche un excellent nouveau contrat de 50 000 € — clairement une affaire rentable. Mais le client paie 60 jours après la livraison, alors que l’entreprise a dû payer d’avance les matériaux et la main-d’œuvre. Demandez-vous : le fait que ce contrat soit rentable garantit-il que l’entreprise aura les liquidités nécessaires pour verser la paie la semaine prochaine? Pas nécessairement — le décalage dans le temps est le vrai danger, indépendamment du fait que l’affaire elle-même soit bonne.
+
+## Quiz pratique
+
+1. Les flux de trésorerie désignent :
+   A. La même chose que le bénéfice comptable
+   B. Le mouvement réel de l’argent qui entre dans une entreprise et qui en sort
+   C. Le total des revenus annuels d’une entreprise
+   D. Un type de permis d’exploitation
+2. Vrai ou faux : une entreprise rentable ne peut jamais manquer de liquidités.
+3. Qu’est-ce qui peut créer un réel problème de flux de trésorerie, même pour une affaire rentable?
+   A. Rien — le bénéfice garantit des liquidités disponibles
+   B. Un décalage entre le moment où les dépenses sont payées et celui où les revenus sont réellement encaissés
+   C. Le fait d’avoir trop de frais généraux
+   D. Le fait d’avoir trop peu de clients
+
+## Corrigé
+
+1. B
+2. Faux
+3. B
+
+## Réponses et explications
+
+### Question 1
+Bonne réponse : B. Les flux de trésorerie sont le mouvement réel de l’argent, distinct du bénéfice comptable.
+
+### Question 2
+Bonne réponse : Faux. Les décalages entre les dépenses et les encaissements peuvent créer de réelles pénuries de liquidités, même dans les entreprises rentables.
+
+### Question 3
+Bonne réponse : B. Les décalages entre le paiement des dépenses et l’encaissement des revenus sont le danger central.
+
+## Points clés
+
+- Les flux de trésorerie sont le mouvement réel de l’argent, distinct du bénéfice comptable.
+- Une entreprise rentable peut quand même manquer de liquidités en raison du moment des entrées et des sorties.
+- Les décalages entre les dépenses et les encaissements sont un risque réel et courant.
+
+===== BLUE-L1-017
+TITLE: Qu’est-ce que le capital de démarrage, et d’où vient-il réellement?
+SUMMARY: Découvrez à quoi sert le capital de démarrage, et quelles sont les sources courantes auxquelles les gens font appel avant même de chercher des investisseurs externes.
+# Qu’est-ce que le capital de démarrage, et d’où vient-il réellement?
+
+## Objectifs d’apprentissage
+
+À la fin de cette leçon, vous devriez pouvoir :
+
+- Définir le capital de démarrage en termes simples.
+- Nommer des sources courantes de capital de démarrage.
+- Reconnaître que l’investissement externe n’est qu’une voie parmi plusieurs.
+
+## Contenu principal
+
+### Ce qu’est le capital de démarrage
+
+Le capital de démarrage est l’argent nécessaire pour lancer une entreprise — il couvre notamment le stock initial, l’équipement, les permis et assez de frais généraux pour survivre jusqu’à ce que l’entreprise génère ses propres revenus.
+
+### D’où il vient réellement
+
+Demandez-vous : toutes les entreprises commencent-elles avec le chèque d’un investisseur? Les sources courantes comprennent les économies personnelles, l’argent d’amis ou de membres de la famille, les prêts aux petites entreprises et le réinvestissement du revenu d’un autre emploi ou d’une activité secondaire — les investisseurs externes et le capital de risque, auxquels on pense souvent en premier, ne sont qu’une voie parmi plusieurs, et pas toujours la plus courante pour une petite entreprise.
+
+### Pourquoi c’est important
+
+Il est important de comprendre ces différentes sources parce que chacune comporte des compromis différents — un prêt doit être remboursé peu importe le rendement de l’entreprise; un investisseur veut habituellement une participation (une part de propriété) en échange, une notion approfondie dans la matière sur l’argent des autres (OPM) du niveau 3.
+
+## Exemple pratique
+
+Une personne qui lance une petite entreprise de paysagisme pourrait utiliser ses économies personnelles pour l’équipement, renoncer complètement à chercher des investisseurs externes et croître grâce aux premiers revenus de l’entreprise. Demandez-vous : est-ce une façon moins importante ou moins « vraie » de lancer une entreprise que d’obtenir l’argent d’investisseurs? Pas du tout — c’est simplement une source de capital différente, avec des compromis différents.
+
+## Quiz pratique
+
+1. Le capital de démarrage désigne :
+   A. Seulement l’argent obtenu auprès d’investisseurs
+   B. L’argent nécessaire pour lancer une entreprise
+   C. Les revenus annuels d’une entreprise
+   D. Un type d’impôt des entreprises
+2. Vrai ou faux : les investisseurs externes sont la source de capital de démarrage la plus courante pour les petites entreprises.
+3. Quel est un compromis clé de l’utilisation d’un prêt comme capital de démarrage, par rapport à l’argent d’investisseurs?
+   A. Les prêts n’ont jamais à être remboursés
+   B. Un prêt doit généralement être remboursé, peu importe le rendement de l’entreprise
+   C. Les prêts exigent toujours de céder une part de propriété
+   D. Il n’y a aucune différence réelle
+
+## Corrigé
+
+1. B
+2. Faux
+3. B
+
+## Réponses et explications
+
+### Question 1
+Bonne réponse : B. Le capital de démarrage est l’argent nécessaire pour lancer une entreprise.
+
+### Question 2
+Bonne réponse : Faux. Les économies personnelles et d’autres sources sont courantes, souvent plus que les investisseurs externes pour les petites entreprises.
+
+### Question 3
+Bonne réponse : B. Un prêt exige généralement un remboursement, peu importe le rendement de l’entreprise, contrairement à un investissement en participation.
+
+## Points clés
+
+- Le capital de démarrage est l’argent nécessaire pour lancer une entreprise.
+- Les sources courantes comprennent les économies personnelles, la famille et les amis, les prêts et le réinvestissement de revenus — pas seulement les investisseurs externes.
+- Chaque source comporte des compromis différents, surtout entre remboursement et propriété.
+
+===== BLUE-L1-018
+TITLE: Qu’est-ce que l’autofinancement (bootstrapping)?
+SUMMARY: Découvrez ce que signifie l’autofinancement, ses véritables compromis, et pourquoi c’est une stratégie délibérée, et pas seulement le fait de « ne pas avoir d’argent ».
+# Qu’est-ce que l’autofinancement (bootstrapping)?
+
+## Objectifs d’apprentissage
+
+À la fin de cette leçon, vous devriez pouvoir :
+
+- Définir l’autofinancement en termes simples.
+- Expliquer le compromis central de l’autofinancement.
+- Reconnaître qu’il s’agit d’une stratégie délibérée, et pas seulement d’un choix par défaut.
+
+## Contenu principal
+
+### Ce que signifie l’autofinancement
+
+L’autofinancement (en anglais, bootstrapping) consiste à bâtir une entreprise uniquement avec ses propres revenus et les ressources personnelles du propriétaire, en évitant délibérément l’investissement externe ou un endettement important.
+
+### Le compromis central
+
+Demandez-vous : à quoi un propriétaire renonce-t-il en acceptant un investissement externe, et à quoi renonce-t-il en le refusant? L’investissement externe signifie souvent une croissance plus rapide, mais la cession d’une partie de la propriété et du contrôle. L’autofinancement permet de garder la pleine propriété et le plein contrôle, mais signifie souvent une croissance plus lente, limitée par les liquidités dont l’entreprise dispose elle-même.
+
+### Une stratégie délibérée, et pas seulement « faute d’autre option »
+
+Même si certaines entreprises s’autofinancent parce qu’elles n’ont pas accès à du financement externe, de nombreux propriétaires le choisissent délibérément — ils accordent assez de valeur au plein contrôle et à la pleine propriété pour accepter une croissance plus lente comme contrepartie, et non parce qu’ils n’avaient pas d’autre choix.
+
+## Exemple pratique
+
+Une entrepreneure refuse l’offre d’un investisseur intéressé et choisit plutôt de croître uniquement grâce aux bénéfices de son entreprise. Demandez-vous : est-ce une erreur? Pas nécessairement — si garder le plein contrôle et la pleine propriété compte plus pour elle que la possibilité d’une croissance plus rapide, l’autofinancement est un choix rationnel et délibéré, et non une occasion manquée.
+
+## Quiz pratique
+
+1. L’autofinancement signifie :
+   A. Obtenir de l’argent exclusivement auprès de sociétés de capital de risque
+   B. Bâtir une entreprise uniquement avec ses propres revenus et les ressources du propriétaire
+   C. Contracter une dette d’entreprise importante
+   D. Vendre l’entreprise à un concurrent
+2. Vrai ou faux : l’autofinancement est toujours le signe qu’une entreprise n’a pas réussi à obtenir d’investissement externe.
+3. Quel est le compromis central de l’autofinancement par rapport à l’investissement externe?
+   A. Il n’existe aucun compromis
+   B. La pleine propriété et le plein contrôle, souvent au prix d’une croissance plus lente
+   C. Une croissance plus rapide garantie
+   D. L’autofinancement élimine tout risque d’affaires
+
+## Corrigé
+
+1. B
+2. Faux
+3. B
+
+## Réponses et explications
+
+### Question 1
+Bonne réponse : B. L’autofinancement consiste à compter sur les propres ressources de l’entreprise.
+
+### Question 2
+Bonne réponse : Faux. De nombreux propriétaires s’autofinancent délibérément, par choix.
+
+### Question 3
+Bonne réponse : B. Le plein contrôle et la pleine propriété, souvent échangés contre une croissance plus lente.
+
+## Points clés
+
+- L’autofinancement consiste à faire croître une entreprise uniquement avec ses propres ressources.
+- Le compromis central oppose la pleine propriété et le plein contrôle à une croissance souvent plus lente.
+- C’est souvent un choix stratégique délibéré, et pas seulement un manque d’options.
