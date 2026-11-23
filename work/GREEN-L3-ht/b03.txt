@@ -97,3 +97,153 @@ Se poutèt sa anpil pwofesyonèl finansye sijere ke yon konbinezon tou de kalite
 ---
 
 *Leson sa a se sèlman pou edikasyon finansye jeneral, e li pa konstitye konsèy finansye, envestisman, taks, oswa legal pèsonalize. Règ kont yo varye selon jiridiksyon e yo chanje ak tan; konsilte yon pwofesyonèl taks ki gen lisans pou konsèy ki espesifik pou sitiyasyon ou.*
+
+===== GREEN-L3-013
+TITLE: Poukisa distribisyon minimòm obligatwa yo (RMD) egziste
+SUMMARY: Aprann poukisa kont retrèt ak taks ranvwaye finalman mande retrè obligatwa, ak poukisa règ sa a konekte ak pwòp enterè gouvènman an pou l touche taks li te ranvwaye a.
+# GREEN-L3-013: Poukisa distribisyon minimòm obligatwa yo (RMD) egziste
+
+## Objektif aprantisaj
+Lè w fin fè leson sa a, w ap kapab:
+- Esplike kisa distribisyon minimòm obligatwa (RMD) yo anjeneral ye
+- Esplike poukisa RMD yo egziste, an lyen ak konsèp taks ranvwaye Leson 11 la
+- Esplike poukisa istorikman yo te trete kont Roth yon lòt jan konsènan RMD
+
+## Kontni prensipal
+
+**Distribisyon minimòm obligatwa (RMD, Required Minimum Distributions)** se kantite minimòm retrè obligatwa moun ki gen kèk kont retrèt ak taks ranvwaye (Leson 11) dwe kòmanse fè depi yo rive nan yon laj espesifik, ki anjeneral kontinye chak ane apre sa. [FÈ VERIFYE] Lalwa sou taks fikse laj espesifik pou kòmanse ak metòd kalkil RMD yo, e yo chanje ak tan — yo ta dwe verifye règ aktyèl yo dirèkteman olye yo sipoze yo.
+
+Men "poukisa" egzijans sa a egziste, sa ki konekte dirèkteman ak konsèp taks ranvwaye Leson 11 la: kont ak taks ranvwaye reprezante yon obligasyon taks yo ranvwaye, pa elimine — yo dwe gouvènman an taks sou lajan sa a finalman. San yon egzijans retrè obligatwa, yon kontribyab ta ka, an teyori, ranvwaye retire (e kidonk peye taks sou) lajan sa yo san fen, byen lwen pase pwòp lavi li nan kèk ka, sa ki ta retade revni taks sa a pi lontan anpil pase estrikti taks ranvwaye a te gen entansyon pèmèt okòmansman. RMD yo asire ke yo vrèman peye obligasyon taks yo te ranvwaye a finalman, dapre yon orè ki defini.
+
+[FÈ VERIFYE] Istorikman, yo te trete kont Roth yon lòt jan konsènan RMD, akoz estrikti taks diferan yo (yo peye taks okòmansman, olye ranvwaye l) — kòm pa gen okenn obligasyon taks ranvwaye ki rete pou touche sou kwasans yon kont Roth, rezon gouvènman an genyen pou l mande retrè obligatwa pa aplike menm jan, menm si yo ta dwe verifye dirèkteman règ espesifik yo ak nenpòt chanjman nan fason sa a yo trete yo, e yo ka varye selon kalite kont espesifik la.
+
+## Egzanp pratik
+
+[EGZANP ILISTRATIF] Yon retrete ki gen yon gwo balans nan yon kont Tradisyonèl ak taks ranvwaye rive nan laj kote RMD yo kòmanse. Menm si li pa bezwen lajan li retire a pou depans lavi li kounye a, li oblije retire omwen kantite minimòm yo kalkile a chak ane, e yo taxe retrè sa a kòm revni òdinè, menm jan ak nenpòt lòt retrè nan kont Tradisyonèl. [SIPOZISYON] Sa asire gouvènman an finalman touche taks li te ranvwaye sou lajan sa a, olye li kite l rete san taks e san otorite taks yo pa ka rive jwenn li san fen, sa ki konekte dirèkteman ak nati taks ranvwaye (pa taks elimine) kont lan yo te etabli nan Leson 11 la.
+
+## Egzamen pratik
+
+1. Kisa distribisyon minimòm obligatwa (RMD) yo ye?
+2. Poukisa RMD yo egziste, an lyen ak konsèp taks ranvwaye Leson 11 la?
+3. Poukisa istorikman yo te trete kont Roth yon lòt jan konsènan RMD?
+
+## Kle repons yo
+
+1. Kantite minimòm retrè obligatwa moun ki gen kèk kont retrèt ak taks ranvwaye dwe kòmanse fè depi yo rive nan yon laj espesifik.
+2. Paske kont ak taks ranvwaye reprezante yon obligasyon taks yo ranvwaye, pa elimine, e RMD yo asire yo vrèman touche obligasyon sa a finalman dapre yon orè ki defini, olye yo ranvwaye l san fen.
+3. Paske kont Roth yo peye taks okòmansman olye ranvwaye l, sa ki vle di pa gen okenn obligasyon taks ranvwaye ki rete sou kwasans lan pou gouvènman an touche, sa ki retire prensipal rezon pou yon egzijans retrè obligatwa.
+
+## Repons ak eksplikasyon
+
+1. Sa a se definisyon debaz leson an.
+2. Sa konekte leson an klèman ak konsèp taks ranvwaye Leson 11 la.
+3. Sa ranfòse lyen ant estrikti taks yon kont ak règ ki aplike pou li.
+
+## Pwen kle yo
+- RMD yo mande retrè minimòm obligatwa nan kèk kont retrèt ak taks ranvwaye apati yon laj espesifik.
+- Sa asire gouvènman an finalman touche obligasyon taks ranvwaye kont sa yo reprezante, olye li pèmèt yon ranvwa san fen.
+- Istorikman yo te trete kont Roth yon lòt jan, paske peman taks okòmansman yo retire obligasyon taks ranvwaye RMD yo fèt pou touche a.
+
+---
+
+*Leson sa a se sèlman pou edikasyon finansye jeneral, e li pa konstitye konsèy finansye, envestisman, taks, oswa legal pèsonalize. Règ RMD yo varye selon jiridiksyon e yo chanje ak tan; konsilte yon pwofesyonèl taks ki gen lisans pou konsèy ki espesifik pou sitiyasyon ou.*
+
+===== GREEN-L3-014
+TITLE: Poukisa taks travayè endepandan kouvri tou de bò taks sou pewòl
+SUMMARY: Aprann poukisa moun k ap travay poukont yo peye yon taks travayè endepandan espesifik, ak poukisa li egziste pou kouvri yon obligasyon yon patwon ta pataje otreman.
+# GREEN-L3-014: Poukisa taks travayè endepandan kouvri tou de bò taks sou pewòl
+
+## Objektif aprantisaj
+Lè w fin fè leson sa a, w ap kapab:
+- Esplike kisa taks travayè endepandan (self-employment tax) anjeneral kouvri
+- Esplike poukisa moun k ap travay poukont yo peye yon to taks konbine ki mare ak pewòl ki pi wo pase anplwaye tipik
+- Konekte konsèp sa a ak diskisyon sou taks sou pewòl nan Leson 4
+
+## Kontni prensipal
+
+Leson 4 te etabli ke taks sou pewòl (Sekirite Sosyal ak Medicare, nan kontèks Etazini) anjeneral pataje ant yon anplwaye ak patwon li, chak peye yon pati. **Taks travayè endepandan** egziste pou trete yon twou espesifik: yon moun k ap travay poukont li pa gen yon patwon separe pou l pataje obligasyon sa a avè l — an reyalite, li se ni patwon an ni anplwaye a.
+
+Men "poukisa" taks travayè endepandan mete tou de pati yo ansanm nan yon sèl obligasyon: [FÈ VERIFYE] to taks travayè endepandan yon moun k ap travay poukont li anjeneral òganize pou kouvri apeprè sa ki ta otreman pati anplwaye a ak pati patwon an nan taks Sekirite Sosyal ak Medicare ansanm, paske pa gen okenn patwon separe nan aranjman sa a pou kontribye lòt mwatye a. Sa souvan sezi nouvo mèt biznis k ap fè tranzisyon soti nan yon travay tradisyonèl, kote yo te responsab e yo te konnen sèlman pwòp pati pa yo kòm anplwaye.
+
+[FÈ VERIFYE] Gen kèk soulajman taks ki egziste pou konpanse sa an pati — pa egzanp, yon dediksyon pou yon pòsyon nan taks travayè endepandan yo peye, yo trete l kòm yon depans biznis nan kalkil lòt chif taks — men sa pa elimine reyalite debaz la ke yo kalkile taks travayè endepandan pou kouvri yon obligasyon konbine anplwaye tradisyonèl pa fè fas avè l dirèkteman menm jan an. [RÈG ESPESIFIK POU REJYON AN] An Ayiti, moun k ap travay poukont yo gen pwòp obligasyon pa yo sou enpo ak kotizasyon; verifye ak DGI oswa yon kontab ki kalifye ki règ ki aplike pou sitiyasyon w.
+
+## Egzanp pratik
+
+[EGZANP ILISTRATIF] Yon anplwaye k ap travay pou yon konpayi wè yon retni taks sou pewòl espesifik sou chèk salè li, ki reprezante sèlman pati pa l kòm anplwaye, alòske patwon li kontribye separeman yon pati ki egal pou li san sa pa parèt kòm yon retni sou pwòp salè li. Lè menm moun sa a fè tranzisyon pou l travay poukont li, li sezi wè yo kalkile obligasyon taks travayè endepandan li pou l kouvri tou de pati yo ansanm — yon pousantaj ki pi gwo yon fason klè pase sèl pati li te abitye wè sou chèk salè li kòm anplwaye, menm si obligasyon taks total debaz la pou yon nivo revni konparab sanble an prensip.
+
+## Egzamen pratik
+
+1. Kisa taks travayè endepandan anjeneral kouvri?
+2. Poukisa yon moun k ap travay poukont li dwe sa ki egal tou de pati taks sou pewòl yo ansanm?
+3. Kisa ki konpanse an pati obligasyon konbine sa a, dapre leson sa a?
+
+## Kle repons yo
+
+1. Apeprè tou de pati anplwaye a ak patwon an nan taks Sekirite Sosyal ak Medicare ansanm, paske yon moun k ap travay poukont li pa gen okenn patwon separe pou l pataje obligasyon an avè l.
+2. Paske yo fonksyone kòm ni patwon ni anplwaye nan pwòp biznis yo, sa ki mande yo kouvri tou de bò obligasyon ki ta otreman separe ant yon anplwaye ak patwon li.
+3. Yon dediksyon pou yon pòsyon nan taks travayè endepandan yo peye, yo trete l kòm yon depans biznis, menm si sa pa elimine nèt obligasyon konbine debaz la.
+
+## Repons ak eksplikasyon
+
+1. Sa a se definisyon debaz leson an.
+2. Sa konekte dirèkteman ak estrikti taks sou pewòl yo te prezante nan Leson 4, li esplike "poukisa" ki dèyè to ki pi wo a.
+3. Sa bay yon kontèks balanse sou soulajman pasyèl la san l pa egzajere efè li.
+
+## Pwen kle yo
+- Taks travayè endepandan kouvri apeprè tou de pati anplwaye a ak patwon an nan taks Sekirite Sosyal ak Medicare ansanm.
+- Sa egziste paske yon moun k ap travay poukont li pa gen okenn patwon separe pou l pataje obligasyon taks sou pewòl la avè l.
+- Gen yon soulajman pasyèl atravè yon dediksyon pou yon pòsyon nan taks travayè endepandan yo peye, menm si obligasyon konbine a rete yon vrè kou ki souvan sezi nouvo mèt biznis.
+
+---
+
+*Leson sa a se sèlman pou edikasyon finansye jeneral, e li pa konstitye konsèy finansye, envestisman, taks, oswa legal pèsonalize. Règ taks yo varye selon jiridiksyon e yo chanje ak tan; konsilte yon pwofesyonèl taks ki gen lisans pou konsèy ki espesifik pou sitiyasyon ou.*
+
+===== GREEN-L3-015
+TITLE: Poukisa taks estimasyon chak twa mwa egziste pou revni yo pa retni taks sou li
+SUMMARY: Aprann poukisa moun ki gen revni ki pa sijè a retni otomatik souvan oblije peye taks estimasyon pandan tout ane a olye lè yo depoze deklarasyon an.
+# GREEN-L3-015: Poukisa taks estimasyon chak twa mwa egziste pou revni yo pa retni taks sou li
+
+## Objektif aprantisaj
+Lè w fin fè leson sa a, w ap kapab:
+- Esplike poukisa yo anjeneral egzije peman taks estimasyon chak twa mwa pou kèk kalite revni
+- Esplike prensip "peye pandan w ap touche" ki anba egzijans sa a
+- Konekte konsèp sa a ak diskisyon sou retni taks nan Leson 5
+
+## Kontni prensipal
+
+Leson 5 te etabli ke retni taks fonksyone kòm yon estimasyon kontinyèl taks ou dwe, yo peye l pandan tout ane a olye yon sèl kou lè w depoze deklarasyon an. Revni ki pa sijè otomatikman a retni taks — revni travayè endepandan, kèk revni envestisman, ak lòt sous — pa gen mekanis otomatik sa a an plas. **Peman taks estimasyon chak twa mwa** egziste pou pwolonje menm prensip debaz la pou kalite revni sa a.
+
+Men "poukisa" egzijans sa a egziste: sistèm taks jeneral la nan anpil jiridiksyon anjeneral konsevwa otou yon prensip **peye pandan w ap touche** (pay-as-you-go) — taks yo sipoze peye pandan tout ane a pandan w ap touche revni, pa sere pou peye nèt nan moman w depoze yon deklarasyon. [FÈ VERIFYE] Pou revni ki sijè a retni, sa fèt otomatikman atravè pwosesis retni sou chèk salè; pou revni ki pa gen retni otomatik, peman estimasyon chak twa mwa se mekanis yo itilize pou rive nan menm efè peye pandan w ap touche a, yo anjeneral dwe yo nan entèval espesifik pandan tout ane a olye tout yon sèl kou.
+
+Si w pa fè ase peman estimasyon pandan tout ane a, lè yo egzije sa, sa ka bay penalite pou peman ki pa ase yo diskite nan pwochen leson an — sistèm sa a egziste espesyalman pou evite kontribyab yo pase tout yon ane san yo pa peye anyen sou taks yo dwe pou kalite revni sa a.
+
+## Egzanp pratik
+
+[EGZANP ILISTRATIF] Yon konsiltan k ap travay poukont li touche revni pandan tout ane a san okenn patwon k ap retni taks otomatikman pou li. Pou l respekte prensip peye pandan w ap touche a, li kalkile e li peye taks estimasyon nan entèval espesifik pandan tout ane a, selon revni anyèl li pwojte ak taks li atann pou l dwe, olye l tann pou l peye tout obligasyon taks li yon sèl kou lè l depoze deklarasyon li ane pwochèn. [SIPOZISYON] Sa reflete, pou revni li ki pa gen retni, menm modèl peman kontinyèl retni sou chèk salè yon anplwaye bay otomatikman pou revni salè, sa ki kenbe l anjeneral an konfòmite ak egzijans sistèm peye pandan w ap touche debaz la.
+
+## Egzamen pratik
+
+1. Poukisa peman taks estimasyon chak twa mwa egziste pou kèk kalite revni?
+2. Kisa prensip "peye pandan w ap touche" leson sa a dekri a ye?
+3. Kijan leson sa a konekte ak konsèp retni taks yo te prezante nan Leson 5 la?
+
+## Kle repons yo
+
+1. Paske revni ki pa sijè otomatikman a retni toujou bezwen respekte sistèm taks peye pandan w ap touche a, e peman chak twa mwa se mekanis yo itilize pou rive nan sa pou kalite revni sa a.
+2. Prensip jeneral ke taks yo sipoze peye pandan tout ane a pandan w ap touche revni, pa sere pou peye nèt lè w depoze deklarasyon an.
+3. Peman estimasyon chak twa mwa pwolonje menm prensip peye pandan w ap touche debaz retni an rive fè otomatikman pou revni salè, kounye a aplike pou revni ki pa gen retni otomatik.
+
+## Repons ak eksplikasyon
+
+1. Sa a se "poukisa" debaz ki esplike poukisa egzijans lan egziste.
+2. Sa bay non e esplike prensip debaz pou tout sistèm nan.
+3. Sa konekte leson an klèman ak Leson 5, sa ki ranfòse estrikti entegre tras la.
+
+## Pwen kle yo
+- Peman taks estimasyon chak twa mwa egziste pou revni ki pa sijè otomatikman a retni, tankou revni travayè endepandan.
+- Sa kenbe prensip peye pandan w ap touche ki pi laj ki anba anpil sistèm taks, ki mande peye taks pandan tout ane a pandan w ap touche revni.
+- Sa reflete, pou revni ki pa gen retni, menm fonksyon peman kontinyèl retni sou chèk salè bay otomatikman pou revni salè.
+
+---
+
+*Leson sa a se sèlman pou edikasyon finansye jeneral, e li pa konstitye konsèy finansye, envestisman, taks, oswa legal pèsonalize. Règ ak dat limit taks estimasyon yo varye selon jiridiksyon e yo chanje ak tan; konsilte yon pwofesyonèl taks ki gen lisans pou konsèy ki espesifik pou sitiyasyon ou.*
