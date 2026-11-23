@@ -1,0 +1,285 @@
+===== WHITE-L2-021
+TITLE: Dividann: cash flow ki soti nan pwopriyete
+SUMMARY: Yon dividann se yon pati nan benefis yon konpayi yo distribiye bay aksyonè yo, anjeneral an kach, kòm yon fason pou remèt valè dirèkteman bay pwopriyetè yo olye yo kenbe e reenvesti tout benefis yo nan biznis lan sèlman.
+## WHITE-L2-021
+### Dividann: cash flow ki soti nan pwopriyete
+
+**1. Objektif aprantisaj**
+Nan fen leson sa a, elèv la ap kapab:
+- Bay definisyon yon dividann nan yon nivo konseptyèl.
+- Esplike poukisa konpayi yo chwazi peye, oswa pa peye, dividann.
+- Idantifye dat ak tèm kle ki gen rapò ak dividann.
+
+**2. Kontni prensipal**
+Yon dividann se yon pati nan benefis yon konpayi yo distribiye bay aksyonè yo, anjeneral an kach, kòm yon fason pou remèt valè dirèkteman bay pwopriyetè yo olye yo kenbe e reenvesti tout benefis yo nan biznis lan sèlman. Se pa tout konpayi ki peye dividann — anpil konpayi ki oryante sou kwasans (Leson 4) chwazi reenvesti tout benefis yo nan elaji biznis lan olye yo distribiye kach, ak lide ke reenvestisman ap kreye plis valè pou aksyonè yo avèk tan pase yon distribisyon kach ta fè.
+
+Konpayi ki peye dividann anjeneral anonse yon "randman dividann" (dividann chak ane pa pa divize pa pri pa a kounye a, eksprime an pousantaj), e peman dividann gen plizyè dat kle: dat deklarasyon (lè konpayi an anonse dividann lan), dat eks-dividann (dat limit ki detèmine ki aksyonè ki gen dwa pou peman k ap vini an), ak dat peman (lè yo distribiye kach la toutbon).
+
+Peman dividann pa garanti e yon konpayi ki fè fas a difikilte finansye ka diminye oswa elimine yo, sa ki konekte dirèkteman ak risk "pyèj dividann" nou te diskite nan Leson 5.
+
+**3. Egzanp pratik**
+Lè l kenbe pa nan yon konpayi ki peye yon dividann regilye chak trimès, Consuela resevwa yon peman kach yo depoze nan kont kourtaj li kat fwa pa ane, sa ki reflete pati pwopòsyonèl li nan benefis konpayi an distribiye dapre konbyen pa li posede. Li note dat eks-dividann lan anvan l fè yon acha anplis li te planifye, paske li konprann achte pa nan dat sa a oswa apre vle di li pa gen dwa pou peman trimès k ap vini an, sèlman pou peman pi devan yo.
+
+**4. Egzamen pratik**
+1. Kisa yon dividann ye?
+   a) Yon kalite peman obligasyon
+   b) Yon pati nan benefis yon konpayi yo distribiye bay aksyonè yo, anjeneral an kach
+   c) Yon ranbousman taks gouvènman
+   d) Yon retou chak ane garanti
+
+2. Poukisa yon konpayi ki oryante sou kwasans ta ka chwazi pa peye dividann?
+   a) Li ilegal pou konpayi kwasans peye dividann
+   b) Li ka prefere reenvesti tout benefis yo nan elaji biznis lan
+   c) Dividann se pou imobilye sèlman
+   d) Li pa gen okenn benefis ditou
+
+3. Vrè oswa Fo: Peman dividann garanti e yo pa ka janm diminye oswa elimine.
+
+4. Kisa dat eks-dividann lan detèmine?
+   a) Pri aksyon konpayi an pou toujou
+   b) Ki aksyonè ki gen dwa pou peman dividann k ap vini an
+   c) To taks konpayi an
+   d) Dat echeyans obligasyon an
+
+**5. Kle repons yo**
+1. b  2. b  3. Fo  4. b
+
+**6. Repons ak eksplikasyon**
+1. Yon dividann se yon distribisyon benefis yon konpayi bay aksyonè yo, anjeneral peye an kach.
+2. Konpayi ki oryante sou kwasans souvan prefere reenvesti benefis nan ekspansyon biznis olye yo distribiye kach.
+3. Peman dividann pa garanti e yo ka diminye oswa elimine pandan difikilte finansye.
+4. Dat eks-dividann lan se dat limit ki detèmine si yon aksyonè kalifye pou yon peman dividann k ap vini.
+
+**7. Pwen kle yo**
+- Yon dividann se yon pati nan benefis konpayi yo distribiye bay aksyonè yo, anjeneral an kach.
+- Konpayi ki oryante sou kwasans souvan reenvesti benefis olye yo peye dividann.
+- Dat kle yo gen ladan dat deklarasyon, dat eks-dividann, ak dat peman.
+- Peman dividann pa garanti e yo konekte dirèkteman ak risk "pyèj dividann" Leson 5 a.
+
+===== WHITE-L2-022
+TITLE: Reenvestisman dividann: enterè konpoze an mouvman
+SUMMARY: Yon Plan Reenvestisman Dividann (DRIP) itilize peman dividann otomatikman pou achte plis pa (oswa moso pa) nan menm envestisman an, olye yo depoze dividann lan kòm kach ou ka depanse.
+## WHITE-L2-022
+### Reenvestisman dividann: enterè konpoze an mouvman
+
+**1. Objektif aprantisaj**
+Nan fen leson sa a, elèv la ap kapab:
+- Esplike konsèp jeneral yon Plan Reenvestisman Dividann (DRIP).
+- Dekri kijan reenvestisman dividann gen enteraksyon ak enterè konpoze.
+- Konpare reenvesti dividann ak pran yo an kach.
+
+**2. Kontni prensipal**
+Yon Plan Reenvestisman Dividann (DRIP) itilize peman dividann otomatikman pou achte plis pa (oswa moso pa) nan menm envestisman an, olye yo depoze dividann lan kòm kach ou ka depanse. Sa a se yon aplikasyon dirèk e pratik konsèp enterè konpoze a: chak dividann ou reenvesti achte plis pa, ki ka apre sa pwodui pwòp dividann yo nan lavni, ki ka apre sa achte menm plis pa — yon sik ki ka akselere kwasans pòtfolyo a anpil sou orizon tan ki long, sitou pou envestisè ki pi jèn ki gen plizyè deseni anvan yo bezwen revni an.
+
+Si pou w reenvesti dividann oswa pran yo an kach depann de sitiyasyon espesifik yon envestisè: yon envestisè ki toujou nan yon faz akimilasyon, ki pa bezwen revni an kounye a, souvan benefisye de reenvestisman otomatik. Yon envestisè nan yon faz distribisyon — tankou yon moun ki pran retrèt ki konte sou revni dividann pou depans lavi (sa raple lantiy revni Leson 5 a) — ka prefere pran dividann yo an kach olye l reenvesti yo.
+
+**3. Egzanp pratik**
+Toujou plizyè deseni anvan retrèt, Deshawn mete reenvestisman dividann otomatik sou tout kont envestisman li yo, sa ki pèmèt chak peman dividann achte plis pa otomatikman olye l rete kòm kach ki pa envesti. Pandan plizyè ane, li remake kantite pa li ap grandi pa sèlman akoz pwòp kontribisyon anplis li, men tou akoz efè enterè konpoze dividann ki reenvesti yo k ap achte plis pa, ki apre sa pwodui pwòp dividann yo — yon demonstrasyon vizib e konkrè enterè konpoze an mouvman.
+
+Tonton li ki pran retrèt, okontrè, fè yo depoze dividann li yo an kach nan kont chèk li chak trimès, li itilize yo pou ede kouvri depans lavi olye l reenvesti yo — yon chwa diferan, ki menm jan apwopriye, dapre etap lavi ak bezwen revni diferan li.
+
+**4. Egzamen pratik**
+1. Kisa yon Plan Reenvestisman Dividann (DRIP) anjeneral fè?
+   a) Depoze dividann otomatikman kòm kach ou ka depanse
+   b) Itilize peman dividann otomatikman pou achte plis pa
+   c) Elimine tout peman dividann
+   d) Konvèti dividann an obligasyon
+
+2. Poukisa yon envestisè nan yon faz akimilasyon ta ka benefisye de reenvestisman dividann?
+   a) Li bezwen revni an imedyatman
+   b) Li ka akselere kwasans pòtfolyo atravè enterè konpoze sou yon orizon tan long
+   c) Li garanti yon retou espesifik
+   d) Li pa gen rapò ak enterè konpoze
+
+3. Vrè oswa Fo: Chak envestisè ta dwe toujou reenvesti dividann kèlkeswa etap lavi li oswa bezwen revni li.
+
+4. Poukisa tonton Deshawn te chwazi pran dividann an kach olye l reenvesti yo?
+   a) Li pa t renmen enterè konpoze
+   b) Kòm moun ki pran retrèt, li konte sou revni dividann pou depans lavi
+   c) Envestisman li yo pa t peye dividann
+   d) Reenvestisman pa t disponib pou li
+
+**5. Kle repons yo**
+1. b  2. b  3. Fo  4. b
+
+**6. Repons ak eksplikasyon**
+1. Yon DRIP itilize peman dividann otomatikman pou achte plis pa olye l distribiye kach.
+2. Reenvestisman pèmèt dividann konpoze lè yo achte plis pa ki pwodui plis dividann avèk tan.
+3. Bon chwa a depann de etap lavi ak bezwen revni kounye a yon envestisè — se pa yon règ inivèsèl.
+4. Kòm moun ki pran retrèt ki konte sou revni dividann, tonton Deshawn te chwazi kòmsadwa pou l pran dividann an kach olye l reenvesti.
+
+**7. Pwen kle yo**
+- Yon DRIP reenvesti peman dividann otomatikman nan plis pa.
+- Sa kreye yon sik enterè konpoze: dividann ou reenvesti achte pa ki pwodui plis dividann.
+- Envestisè nan yon faz akimilasyon souvan benefisye de reenvestisman; sa ki bezwen revni kounye a ka prefere dividann an kach.
+- Bon chwa a depann de etap lavi espesifik ak bezwen revni yon envestisè.
+
+===== WHITE-L2-023
+TITLE: Kapitalizasyon mache: ti kap, mwayen kap, ak gwo kap
+SUMMARY: Kapitalizasyon mache ("market cap") kalkile lè w miltipliye pri pa yon konpayi kounye a pa kantite total pa ki an sikilasyon, sa ki bay yon mezi valè mache total konpayi an jan envestisè yo wè l nan yon moman bay.
+## WHITE-L2-023
+### Kapitalizasyon mache: ti kap, mwayen kap, ak gwo kap
+
+**1. Objektif aprantisaj**
+Nan fen leson sa a, elèv la ap kapab:
+- Bay definisyon kapitalizasyon mache nan yon nivo konseptyèl.
+- Fè diferans ant konpayi ti kap, mwayen kap, ak gwo kap an jeneral.
+- Esplike tandans risk/retou jeneral ki asosye ak chak kategori.
+
+**2. Kontni prensipal**
+Kapitalizasyon mache ("market cap") kalkile lè w miltipliye pri pa yon konpayi kounye a pa kantite total pa ki an sikilasyon, sa ki bay yon mezi valè mache total konpayi an jan envestisè yo wè l nan yon moman bay. Yo souvan gwoupe konpayi yo nan gwo kategori — ti kap (small-cap), mwayen kap (mid-cap), ak gwo kap (large-cap) — dapre fouchèt kapitalizasyon mache, menm si limit egzak an dola ki defini kategori sa yo varye selon sous la e yo chanje avèk tan, sa ki fè limit espesifik yo mwens enpòtan pase konprann modèl jeneral la.
+
+An jeneral, konpayi gwo kap gen tandans pi etabli, ak yon istwa operasyon ki pi long, e souvan yo montre yon volatilite yon ti jan pi ba pase konpayi ki pi piti, menm si se pa toujou yon potansyèl kwasans alontèm ki pi ba. Konpayi ti kap gen tandans pi bonè nan trajektwa kwasans yo, yo ka ofri yon potansyèl kwasans alontèm ki pi wo men anjeneral ak plis volatilite ak risk, sa gen ladan plis chans pou biznis la echwe pou nenpòt konpayi ti kap endividyèl. Konpayi mwayen kap anjeneral chita ant de tandans sa yo.
+
+Sa yo se tandans jeneral, se pa règ fiks — konpayi endividyèl nan nenpòt kategori ka konpòte yo diferan de modèl jeneral la.
+
+**3. Egzanp pratik**
+Lè l ap bati yon alokasyon aksyon divèsifye, Yara mete espre ekspozisyon nan konpayi gwo kap, mwayen kap, ak ti kap olye l konsantre nan yon sèl kategori, paske li rekonèt gaye sa a bay ekspozisyon nan tandans risk/retou jeneral diferan ki asosye ak chak youn — yon sèten estabilite ak pèfòmans etabli nan byen gwo kap, ansanm ak plis potansyèl kwasans (ak plis volatilite) nan konpayi ki pi piti, olye l parye nèt sou tandans jeneral yon sèl kategori ki ta rive jan yo atann.
+
+**4. Egzamen pratik**
+1. Kijan yo anjeneral kalkile kapitalizasyon mache?
+   a) Revni total konpayi an
+   b) Pri pa kounye a miltipliye pa kantite total pa ki an sikilasyon
+   c) Dèt total konpayi an
+   d) Randman dividann konpayi an
+
+2. Ki yon tandans jeneral ki asosye ak konpayi ti kap?
+   a) Mwens volatilite ak mwens potansyèl kwasans
+   b) Plis potansyèl kwasans ansanm ak plis volatilite ak risk
+   c) Retou ki pi wo garanti
+   d) Pa gen risk pou biznis la echwe
+
+3. Vrè oswa Fo: Tout konpayi ti kap toujou konpòte yo egzakteman dapre modèl jeneral ti kap la.
+
+4. Poukisa Yara te mete ekspozisyon nan tout twa kategori kapitalizasyon mache yo?
+   a) Pou elimine divèsifikasyon
+   b) Pou jwenn ekspozisyon nan tandans risk/retou jeneral diferan chak kategori
+   c) Règleman te oblije l
+   d) Kategori kapitalizasyon mache pa gen okenn vrè diferans
+
+**5. Kle repons yo**
+1. b  2. b  3. Fo  4. b
+
+**6. Repons ak eksplikasyon**
+1. Yo kalkile kapitalizasyon mache kòm pri pa miltipliye pa kantite total pa ki an sikilasyon.
+2. Konpayi ti kap anjeneral montre plis potansyèl kwasans ansanm ak plis volatilite ak risk.
+3. Sa yo se tandans jeneral; konpayi endividyèl nan nenpòt kategori ka konpòte yo diferan.
+4. Apwòch divèsifye Yara atravè kategori kapitalizasyon mache yo te vize kaptire karakteristik risk/retou jeneral diferan yo.
+
+**7. Pwen kle yo**
+- Kapitalizasyon mache mezire valè mache total yon konpayi dapre pri pa ak kantite pa ki an sikilasyon.
+- Yo souvan gwoupe konpayi yo nan kategori ti kap, mwayen kap, ak gwo kap.
+- Konpayi gwo kap anjeneral montre plis estabilite; konpayi ti kap anjeneral montre plis potansyèl kwasans ak risk.
+- Sa yo se tandans jeneral, se pa règ fiks pou okenn konpayi endividyèl.
+
+===== WHITE-L2-024
+TITLE: Divèsifikasyon pa sektè ak endistri
+SUMMARY: Yo souvan gwoupe konpayi yo nan gwo sektè (tankou teknoloji, swen sante, finans, enèji, ak lòt) ak endistri ki pi espesifik anndan sektè sa yo, sa ki reflete zòn ekonomi kote yo opere a.
+## WHITE-L2-024
+### Divèsifikasyon pa sektè ak endistri
+
+**1. Objektif aprantisaj**
+Nan fen leson sa a, elèv la ap kapab:
+- Bay definisyon sektè ak endistri kòm konsèp klasifikasyon.
+- Esplike risk konsantrasyon nan yon sektè.
+- Dekri kijan divèsifikasyon pa sektè konplete divèsifikasyon pi laj (Leson 17).
+
+**2. Kontni prensipal**
+Yo souvan gwoupe konpayi yo nan gwo sektè (tankou teknoloji, swen sante, finans, enèji, ak lòt) ak endistri ki pi espesifik anndan sektè sa yo, sa ki reflete zòn jeneral ekonomi kote yo opere a. Sou baz diskisyon Leson 17 sou divèsifikasyon, konsantrasyon nan nivo sektè se yon risk espesifik ki vo lapèn siveye dirèkteman: yon pòtfolyo ki sanble kenbe anpil konpayi diferan ka toujou gen yon gwo ekspozisyon sou sò yon sèl sektè si konpayi sa yo soti sitou nan menm zòn ekonomi an.
+
+Diferan sektè ka fè pèfòmans byen diferan selon kondisyon ekonomik pi laj — kèk sektè gen tandans fè relativman pi byen pandan ekspansyon ekonomik, alòske lòt ka kenbe relativman pi byen pandan bès, menm si modèl sa yo se tandans jeneral olye règ fiks. Divèsifikasyon pa sektè vle di gaye ekspozisyon espre atravè plizyè sektè, sa ki diminye vilnerabilite pòtfolyo a devan difikilte espesifik nenpòt yon sèl sektè.
+
+**3. Egzanp pratik**
+Lè l ap revize pòtfolyo li ak yon zouti ki montre repatisyon pa sektè, Hassan dekouvri ke malgre li kenbe pa nan kenz konpayi diferan, plis pase 60% valè pòtfolyo li konsantre nan sektè teknoloji sèlman, yon konsantrasyon li pa t rekonèt anvan lè l te tou senpleman konte kantite byen endividyèl li yo. Li reyekilibre apwòch li pi devan, li ajoute espre ekspozisyon nan lòt sektè tankou swen sante, finans, ak pwodui konsomasyon debaz, sa ki diminye depandans li sou sò ekonomik espesifik nenpòt yon sèl sektè.
+
+**4. Egzamen pratik**
+1. Kisa "sektè" anjeneral vle di?
+   a) Pri aksyon yon sèl konpayi
+   b) Yon gwo zòn ekonomi kote konpayi yo opere
+   c) Yon kalite obligasyon
+   d) Yon ajans gouvènman
+
+2. Ki risk konsantrasyon nan yon sektè kreye, menm ak anpil byen endividyèl?
+   a) Okenn risk ditou
+   b) Yon gwo ekspozisyon sou sò espesifik yon sèl sektè, malgre yon kantite byen ki sanble divèsifye
+   c) Retou ki pi wo garanti
+   d) Eliminasyon tout risk pòtfolyo
+
+3. Vrè oswa Fo: Konte kantite aksyon endividyèl ou kenbe sèlman ase pou konfime yon divèsifikasyon ase.
+
+4. Kisa repatisyon pa sektè Hassan te revele ke yon senp kont byen pa t montre?
+   a) Li te gen twò piti byen
+   b) Plis pase 60% pòtfolyo li te konsantre nan yon sèl sektè
+   c) Li pa t posede okenn aksyon
+   d) Pòtfolyo li te divèsifye pafètman
+
+**5. Kle repons yo**
+1. b  2. b  3. Fo  4. b
+
+**6. Repons ak eksplikasyon**
+1. Sektè vle di yon gwo zòn ekonomi kote konpayi yo opere.
+2. Menm anpil byen endividyèl ka konsantre anpil nan yon sèl sektè, sa ki kreye yon vilnerabilite espesifik.
+3. Yon senp kont byen pa konfime yon vrè divèsifikasyon si byen sa yo rasanble nan yon sèl sektè.
+4. Analiz pa sektè Hassan te revele yon konsantrasyon senp kont byen li yo te kache.
+
+**7. Pwen kle yo**
+- Sektè ak endistri dekri zòn ekonomi laj ak espesifik kote konpayi yo opere.
+- Konsantrasyon nan yon sektè ka egziste menm ak yon kantite byen endividyèl ki sanble gwo.
+- Diferan sektè ka fè pèfòmans diferan nan diferan kondisyon ekonomik, kòm tandans jeneral.
+- Yon divèsifikasyon pa sektè ki fèt espre diminye vilnerabilite devan difikilte espesifik nenpòt yon sèl sektè.
+
+===== WHITE-L2-025
+TITLE: Ekspozisyon entènasyonal ak domestik
+SUMMARY: Ekspozisyon domestik vle di envestisman nan konpayi ki baze nan peyi pa yon envestisè; ekspozisyon entènasyonal vle di envestisman nan konpayi ki baze yon lòt kote – ak konsiderasyon anplis tankou risk lajan.
+## WHITE-L2-025
+### Ekspozisyon entènasyonal ak domestik
+
+**1. Objektif aprantisaj**
+Nan fen leson sa a, elèv la ap kapab:
+- Esplike konsèp jeneral ekspozisyon envestisman entènasyonal kont domestik.
+- Idantifye benefis ak risk posib ekspozisyon entènasyonal.
+- Rekonèt risk lajan (risk chanj) kòm yon konsiderasyon apa pou envestisman entènasyonal.
+
+**2. Kontni prensipal**
+Ekspozisyon domestik vle di envestisman nan konpayi ki baze nan peyi pa yon envestisè; ekspozisyon entènasyonal vle di envestisman nan konpayi ki baze yon lòt kote. Ajoute ekspozisyon entènasyonal ka elaji konsèp divèsifikasyon Leson 17 ak 24 yo pi lwen pase fwontyè jeyografik, paske ekonomi diferan peyi pa toujou deplase ansanm pafètman, sa ki ka adousi pèfòmans jeneral pòtfolyo a, menm si benefis sa a pa garanti nan chak peryòd, sitou pandan bès ki rive an menm tan toupatou sou latè.
+
+Envesti entènasyonal mete konsiderasyon anplis ki pa egziste nan envestisman domestik sèlman: risk lajan (fliktiyasyon nan to chanj ka afekte retou pou yon envestisè ki gen yon lajan nan peyi l ki diferan de lajan envestisman an, endepandan de vrè pèfòmans envestisman ki anba a), estanda règleman ak kontabilite ki diferan ant peyi, e pafwa konsiderasyon estabilite politik ak ekonomik ki diferan, ki varye anpil selon peyi oswa rejyon espesifik la.
+
+**3. Egzanp pratik**
+Lè l ajoute ekspozisyon aksyon entènasyonal nan pòtfolyo li ki te tout domestik anvan, Camila remake ke menm lè konpayi etranje ki anba yo fè byen nan lajan lokal yo, vrè retou li (konvèti tounen nan lajan peyi l) ka diferan akoz fliktiyasyon to chanj pandan peryòd li te kenbe envestisman an. Li fè rechèch sou dinamik risk lajan sa a anvan l envesti plis, li mete l kòm yon konsiderasyon apa nan evalyasyon risk jeneral li, separe de pèfòmans biznis konpayi etranje yo li menm.
+
+**4. Egzamen pratik**
+1. Kisa "ekspozisyon domestik" ye?
+   a) Envestisman nan konpayi etranje sèlman
+   b) Envestisman nan konpayi ki baze nan peyi pa yon envestisè
+   c) Yon kalite obligasyon
+   d) Yon pwogram gouvènman
+
+2. Kisa "risk lajan" ye?
+   a) Risk pou pri aksyon yon konpayi desann
+   b) Risk ke fliktiyasyon to chanj afekte retou endepandan de pèfòmans envestisman ki anba a
+   c) Yon kalite dividann
+   d) Yon taks sou imobilye
+
+3. Vrè oswa Fo: Divèsifikasyon entènasyonal toujou garanti yon pèfòmans pòtfolyo jeneral ki pi dous nan chak peryòd mache.
+
+4. Kisa Camila te dekouvri sou ekspozisyon aksyon entènasyonal li?
+   a) Fliktiyasyon lajan pa t gen okenn efè sou vrè retou li
+   b) Fliktiyasyon to chanj ka afekte retou li endepandan de vrè pèfòmans biznis konpayi etranje yo
+   c) Envestisman entènasyonal te elimine tout risk
+   d) Li pa t ka envesti entènasyonalman ditou
+
+**5. Kle repons yo**
+1. b  2. b  3. Fo  4. b
+
+**6. Repons ak eksplikasyon**
+1. Ekspozisyon domestik vle di envestisman nan konpayi ki baze nan peyi pa yon envestisè.
+2. Risk lajan vle di fliktiyasyon to chanj ki afekte retou endepandan de vrè pèfòmans envestisman ki anba a.
+3. Benefis divèsifikasyon entènasyonal pou adousi pèfòmans pa garanti nan chak peryòd, sitou pandan bès ki rive toupatou an menm tan.
+4. Vrè retou Camila te afekte pa fliktiyasyon lajan separe de pèfòmans biznis konpayi etranje yo.
+
+**7. Pwen kle yo**
+- Ekspozisyon domestik kouvri envestisman nan peyi pa w; ekspozisyon entènasyonal kouvri envestisman etranje.
+- Ekspozisyon entènasyonal ka elaji benefis divèsifikasyon pi lwen pase fwontyè jeyografik, menm si se pa garanti nan chak peryòd.
+- Risk lajan se yon konsiderasyon apa ki espesifik pou envestisman entènasyonal.
+- Kondisyon règleman, kontabilite, ak politik/ekonomik ki diferan varye tou selon peyi oswa rejyon espesifik la.
