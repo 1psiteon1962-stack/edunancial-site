@@ -47,3 +47,153 @@ Se poutèt sa risk move klasifikasyon yo diskite nan Leson 35 la pa sèlman yon 
 ---
 
 *Leson sa a se sèlman pou edikasyon legal jeneral, e li pa konstitye konsèy legal pèsonalize. Konsekans move klasifikasyon yo varye selon jiridiksyon; konsilte yon avoka oswa yon pwofesyonèl taks ki gen lisans pou konsèy ki espesifik pou biznis ou.*
+
+===== PURPLE-L3-037
+TITLE: Poukisa travay "at-will" pa vle di yon revokasyon pa ka ilegal
+SUMMARY: Aprann poukisa travay "at-will" pèmèt revoke yon moun pou prèske nenpòt rezon oswa san rezon ditou, men poukisa kèk rezon espesifik rete ilegal kèlkeswa règ jeneral sa a.
+# PURPLE-L3-037: Poukisa travay "at-will" pa vle di yon revokasyon pa ka ilegal
+
+## Objektif aprantisaj
+Lè w fin fè leson sa a, w ap kapab:
+- Defini travay "at-will" (kote kontra a ka fini nenpòt ki lè)
+- Esplike poukisa règ jeneral sa a pa vle di nenpòt rezon pou revoke yon moun otomatikman legal
+- Prepare pwoteksyon lwa kont diskriminasyon yo kouvri nan pwochen leson an
+
+## Kontni prensipal
+
+**Travay "at-will"** anjeneral vle di yon patwon ka revoke yon anplwaye pou prèske nenpòt rezon, oswa san rezon ditou, san li pa bezwen montre yon kòz espesifik — e menm jan an, yon anplwaye anjeneral lib pou l kite yon travay nenpòt ki lè tou, san li pa bezwen bay yon rezon espesifik. [FÈ VERIFYE] Sa a se relasyon travay pa defo nan anpil jiridiksyon, si pa gen yon kontra espesifik ki di yon lòt bagay.
+
+Men "poukisa" règ jeneral sa a pa vle di literalman nenpòt rezon pou revoke yon moun legal: menm nan yon relasyon travay at-will, kèk rezon espesifik pou revoke yon moun rete ilegal, yo mete yo apa kòm eksepsyon nan règ jeneral at-will la. [FÈ VERIFYE] Sa yo anjeneral gen ladan revoke yon anplwaye selon yon karakteristik lalwa pwoteje (yon sijè yo kouvri pi fon nan pwochen leson an), revoke yon anplwaye pou tire revanj paske li te egzèse yon dwa lalwa pwoteje (tankou depoze yon plent sou sekirite nan travay oswa patisipe nan yon envestigasyon legal), oswa revoke yon anplwaye an vyolasyon yon pwomès espesifik nan yon kontra ki pran plas prezonpsyon at-will jeneral la.
+
+Se poutèt sa li pi bon pou konprann "travay at-will" kòm "revokasyon pa mande yon jistifikasyon espesifik nan pifò sikonstans" olye "nenpòt rezon revokasyon otomatikman legal" — fleksibilite jeneral travay at-will bay la gen vrè eksepsyon espesifik ki enpòtan devan lalwa. [RÈG ESPESIFIK POU REJYON AN] An Ayiti, Kòd Travay la gen pwòp règ sou revokasyon, preyavi, ak endamnite; prensip at-will Ameriken an ka pa aplike — verifye ak yon avoka ki kalifye.
+
+## Egzanp pratik
+
+[EGZANP ILISTRATIF] Yon patwon revoke yon anplwaye at-will, li site rezon biznis jeneral san li pa bay yon jistifikasyon espesifik ki detaye — anjeneral sa pèmèt dapre doktrin travay at-will la. [SIPOZISYON] Si okontrè vrè rezon debaz pou menm revokasyon sa a se te patisipasyon anplwaye a nan yon aktivite lalwa pwoteje, tankou rapòte yon vyolasyon sekirite nan travay, revokasyon an ta ka ilegal malgre travay la te at-will, paske tire revanj paske yon moun egzèse yon dwa lalwa pwoteje se yon eksepsyon espesifik, yo rekonèt, nan règ jeneral at-will la, kèlkeswa jan patwon an dekri revokasyon an.
+
+## Egzamen pratik
+
+1. Kisa travay at-will anjeneral vle di?
+2. Poukisa règ jeneral sa a pa vle di nenpòt rezon pou revoke yon moun otomatikman legal?
+3. Bay yon eksepsyon espesifik nan règ jeneral travay at-will la, dapre leson sa a.
+
+## Kle repons yo
+
+1. Yon patwon anjeneral ka revoke yon anplwaye pou prèske nenpòt rezon, oswa san rezon ditou, san li pa bezwen montre yon kòz espesifik, si pa gen yon kontra ki di yon lòt bagay.
+2. Paske kèk rezon espesifik pou revoke yon moun rete ilegal, yo mete yo apa kòm eksepsyon yo rekonèt nan règ jeneral at-will la.
+3. Nenpòt youn nan: revokasyon selon yon karakteristik lalwa pwoteje, revokasyon pou tire revanj paske yon moun egzèse yon dwa lalwa pwoteje, revokasyon ki vyole yon pwomès espesifik nan yon kontra.
+
+## Repons ak eksplikasyon
+
+1. Sa a se definisyon debaz leson an.
+2. Sa a se klarifikasyon santral, enpòtan leson an bati sou li.
+3. Sa bay konsèp abstrè a yon baz nan eksepsyon espesifik yo rekonèt, e li prepare egzamen pi fon pwochen leson an sou youn nan yo.
+
+## Pwen kle yo
+- Travay at-will anjeneral pèmèt revoke yon moun san yon jistifikasyon espesifik, e li aplike pa defo si pa gen yon kontra ki di yon lòt bagay.
+- Sa pa vle di nenpòt rezon pou revoke yon moun otomatikman legal — eksepsyon espesifik yo rekonèt rete ilegal.
+- Revokasyon selon yon karakteristik pwoteje, tire revanj pou yon aktivite pwoteje, oswa vyolasyon yon pwomès espesifik nan yon kontra se eksepsyon yo rekonèt.
+
+---
+
+*Leson sa a se sèlman pou edikasyon legal jeneral, e li pa konstitye konsèy legal pèsonalize. Lwa travay yo varye anpil selon jiridiksyon; konsilte yon avoka lwa travay ki gen lisans pou konsèy ki espesifik pou sitiyasyon ou.*
+
+===== PURPLE-L3-038
+TITLE: Poukisa lwa kont diskriminasyon pwoteje kategori espesifik, ki defini
+SUMMARY: Aprann poukisa pwoteksyon kont diskriminasyon nan travay anjeneral aplike pou kategori espesifik lalwa defini, ak poukisa lis sa a fè espre fiks olye l ouvè san limit.
+# PURPLE-L3-038: Poukisa lwa kont diskriminasyon pwoteje kategori espesifik, ki defini
+
+## Objektif aprantisaj
+Lè w fin fè leson sa a, w ap kapab:
+- Esplike poukisa lwa kont diskriminasyon anjeneral pwoteje kategori espesifik, ki defini olye nenpòt tretman ki pa jis
+- Idantifye kategori yo souvan pwoteje, alòske w note yo varye selon jiridiksyon
+- Konekte konsèp sa a ak eksepsyon nan travay at-will Leson 37 la
+
+## Kontni prensipal
+
+Leson 37 te idantifye revokasyon selon yon "karakteristik pwoteje" kòm yon eksepsyon kle nan travay at-will. Men "poukisa" pwoteksyon sa a anjeneral limite a kategori espesifik lalwa defini, olye l kouvri nenpòt tretman yon anplwaye ta ka santi pa jis pou li pèsonèlman: [FÈ VERIFYE] lwa kont diskriminasyon anjeneral idantifye kategori pwoteje espesifik — ki souvan gen ladan ras, koulè, relijyon, sèks, orijin nasyonal, laj (souvan anwo yon sèten nivo), ak andikap, pami lòt ki varye selon jiridiksyon — e li entèdi desizyon travay ki pa favorab ki baze espesyalman sou lefèt yon moun fè pati youn nan kategori defini sa yo.
+
+Men "poukisa" lis sa a fè espre espesifik e fiks, olye yon entèdiksyon ouvè san limit sou nenpòt tretman ki pa jis: [FÈ VERIFYE] desizyon travay ki baze sou anpil lòt faktè — pèfòmans nan travay, konpetans, eksperyans, kijan yon pèsonalite antre nan ekip la, oswa senpleman jijman biznis jeneral yon patwon — anjeneral rete legal, menm si yon anplwaye ki afekte santi desizyon an pa t jis oswa li pa t byen rezone; lwa kont diskriminasyon vize espesyalman desizyon ki baze sou kategori pwoteje ki defini yo, pa yon estanda legal jeneral sou jistis nan travay.
+
+Se poutèt sa yon revokasyon oswa yon lòt aksyon travay ki pa favorab, menm youn ki vrèman sanble pa jis pou anplwaye ki afekte a, pa otomatikman yon diskriminasyon ilegal sòf si li konekte espesyalman ak youn nan kategori pwoteje ki defini sa yo — lalwa trase yon liy enpòtan ant diskriminasyon ilegal ak lòt desizyon ki, menm si yo ka pa saj oswa pa jis, pa tonbe nan pwoteksyon espesifik, defini lalwa a.
+
+## Egzanp pratik
+
+[EGZANP ILISTRATIF] Yo revoke yon anplwaye e li vrèman kwè desizyon an pa t jis, li pa t byen rezone, e li te baze sou faktè ki pa reflete vrè pèfòmans li nan travay. [SIPOZISYON] Si revokasyon sa a te vrèman baze sou jijman biznis jeneral, kijan pèsonalite li antre nan ekip la, oswa evalyasyon sibjektif yon sipèvizè (menm si yon moun ta ka di li pa jis), san rapò ak okenn kategori lalwa pwoteje, li gen chans rete legal malgre li sanble enjis pou anplwaye ki afekte a. Si okontrè revokasyon an te vrèman motive pa lefèt anplwaye a fè pati youn nan kategori pwoteje lalwa defini espesyalman yo — ras, relijyon, laj, andikap, oswa lòt ki sanble — sa ta konstitye yon diskriminasyon ilegal, kèlkeswa jan patwon an ta eseye dekri oswa jistifye desizyon an.
+
+## Egzamen pratik
+
+1. Poukisa lwa kont diskriminasyon anjeneral pwoteje kategori espesifik, ki defini olye nenpòt tretman ki pa jis?
+2. Bay twa kategori yo souvan pwoteje dapre lwa kont diskriminasyon nan travay, alòske w note yo varye selon jiridiksyon.
+3. Èske yon revokasyon ki vrèman sanble pa jis pou anplwaye ki afekte a otomatikman yon diskriminasyon ilegal?
+
+## Kle repons yo
+
+1. Paske lalwa vize espesyalman desizyon ki pa favorab ki baze sou kategori pwoteje ki defini, alòske lòt desizyon travay ki baze sou pèfòmans, konpetans, oswa jijman biznis jeneral anjeneral rete legal menm si moun nan santi yo pa jis.
+2. Nenpòt twa nan: ras, koulè, relijyon, sèks, orijin nasyonal, laj, andikap (sa varye selon jiridiksyon).
+3. Non — se yon diskriminasyon ilegal sèlman si desizyon an konekte espesyalman ak yon kategori pwoteje lalwa defini; lòt rezon ki pa jis, men ki pa diskriminatwa, anjeneral rete legal.
+
+## Repons ak eksplikasyon
+
+1. Sa a se "poukisa" santral ki esplike kantite limite fè espre lwa kont diskriminasyon an.
+2. Sa bay konsèp abstrè a yon baz nan egzanp konkrè yo souvan rekonèt.
+3. Sa a se klarifikasyon enpòtan, pratik leson an fini avè l.
+
+## Pwen kle yo
+- Lwa kont diskriminasyon anjeneral pwoteje kategori espesifik, ki defini, pa yon estanda jeneral sou jistis nan travay.
+- Kategori yo souvan pwoteje gen ladan ras, relijyon, sèks, orijin nasyonal, laj, ak andikap, sa varye selon jiridiksyon.
+- Yon desizyon travay ki sanble pa jis se yon diskriminasyon ilegal sèlman si li konekte ak youn nan kategori pwoteje ki defini espesyalman yo.
+
+---
+
+*Leson sa a se sèlman pou edikasyon legal jeneral e li prezante konsèp legal yo yon fason net. Li pa konstitye konsèy legal pèsonalize. Lwa kont diskriminasyon yo varye anpil selon jiridiksyon; konsilte yon avoka lwa travay ki gen lisans pou konsèy ki espesifik pou sitiyasyon ou.*
+
+===== PURPLE-L3-039
+TITLE: Poukisa yon kloz ki entèdi denigre ak yon NDA sèvi objektif diferan
+SUMMARY: Aprann diferans ant limite deklarasyon negatif ak limite divilgasyon enfòmasyon konfidansyèl, ak poukisa yon sèl akò souvan bezwen tou de, yo trete separeman.
+# PURPLE-L3-039: Poukisa yon kloz ki entèdi denigre ak yon NDA sèvi objektif diferan
+
+## Objektif aprantisaj
+Lè w fin fè leson sa a, w ap kapab:
+- Esplike diferans ant yon kloz ki entèdi denigre (non-disparagement) ak yon akò konfidansyalite (NDA)
+- Esplike poukisa yo sèvi objektif ki vrèman diferan malgre yo souvan parèt nan menm dokiman an
+- Konekte konsèp sa a ak diskisyon Leson 9 la sou kantite yon NDA kouvri
+
+## Kontni prensipal
+
+Leson 9 te kouvri NDA yo an pwofondè, li te konsantre sou pwoteje enfòmasyon konfidansyèl. Yon **kloz ki entèdi denigre** (non-disparagement clause) sèvi yon objektif ki vrèman diferan: olye l limite divilgasyon enfòmasyon konfidansyèl, li anjeneral anpeche yon pati fè deklarasyon negatif, ki denigre lòt pati a, kèlkeswa si deklarasyon sa yo gen okenn enfòmasyon konfidansyèl ladan yo ditou.
+
+Men "poukisa" sa yo se dispozisyon ki diferan, menm si yo souvan parèt ansanm nan menm akò a, sitou nan kontèks separasyon travay: [FÈ VERIFYE] yon deklarasyon ta ka vyole yon kloz ki entèdi denigre san li pa divilge okenn enfòmasyon konfidansyèl ditou — yon ansyen anplwaye ki kritike piblikman pratik biznis jeneral oswa lidèchip yon ansyen patwon, lè l itilize sèlman enfòmasyon tout moun konnen oswa sa li te wè pèsonèlman, ta ka vyole yon kloz ki entèdi denigre san li pa janm touche enfòmasyon ki vrèman konfidansyèl yon NDA separe kouvri.
+
+Se poutèt sa yon akò separasyon oswa yon akò règleman konplè souvan gen ladan l tou de kloz yo separeman e yon fason espesifik: yon NDA ki pwoteje kont divilgasyon enfòmasyon ki vrèman konfidansyèl, ak yon kloz ki entèdi denigre ki pwoteje separeman kont deklarasyon piblik negatif, paske yon pati ta ka petèt vyole youn san li pa vyole lòt la, selon kontni espesifik sa yo di oswa divilge.
+
+## Egzanp pratik
+
+[EGZANP ILISTRATIF] Yon ansyen anplwaye, apre l fin kite yon konpayi anba yon akò separasyon ki gen ladan l ni yon NDA ni yon kloz ki entèdi denigre, fè deklarasyon piblik ki kritike estil lidèchip jeneral konpayi an ak desizyon biznis li yo, ki baze nèt sou bagay li te wè pèsonèlman e ki pa t konfidansyèl espesyalman. [SIPOZISYON] Sa ta ka vyole kloz ki entèdi denigre a, paske li gen ladan l deklarasyon negatif, ki denigre konpayi an, menm si li pa vyole NDA separe a ditou, paske li pa t divilge okenn enfòmasyon ki vrèman konfidansyèl — sa ki montre poukisa de kloz sa yo trete kalite konpòtman entèdi ki vrèman diferan.
+
+## Egzamen pratik
+
+1. Ki diferans jeneral ant yon kloz ki entèdi denigre ak yon NDA?
+2. Poukisa yon deklarasyon ka vyole yon kloz ki entèdi denigre san li pa divilge okenn enfòmasyon konfidansyèl?
+3. Poukisa akò konplè souvan gen ladan yo tou de kloz yo separeman?
+
+## Kle repons yo
+
+1. Yon kloz ki entèdi denigre anpeche deklarasyon negatif, ki denigre lòt pati a; yon NDA anpeche divilgasyon enfòmasyon ki espesyalman konfidansyèl, kèlkeswa si li pozitif oswa negatif.
+2. Paske yo ka fè deklarasyon negatif oswa kritik ak sèlman enfòmasyon tout moun konnen oswa sa yo te wè pèsonèlman, san yo pa touche anyen ki vrèman konfidansyèl.
+3. Paske yon pati ta ka petèt vyole yon kloz san li pa vyole lòt la, selon kontni espesifik sa yo di oswa divilge, kidonk yo souvan bezwen tou de kalite pwoteksyon yo ansanm.
+
+## Repons ak eksplikasyon
+
+1. Sa a se diferans santral leson an bati sou li, konpare dirèkteman ak Leson 9.
+2. Sa a se konpreyansyon kle ki esplike poukisa sa yo se enkyetid ki vrèman separe.
+3. Sa ranfòse rezon pratik ki fè tou de kloz yo souvan parèt ansanm nan akò konplè.
+
+## Pwen kle yo
+- Yon kloz ki entèdi denigre anpeche deklarasyon negatif sou yon pati; yon NDA anpeche divilgasyon enfòmasyon konfidansyèl — sa yo se enkyetid ki vrèman diferan.
+- Yon deklarasyon ka vyole yon kloz san li pa vyole lòt la, paske denigre pa mande enfòmasyon konfidansyèl.
+- Akò konplè, sitou nan separasyon travay, souvan gen ladan yo tou de kloz yo separeman pou trete chak enkyetid apa.
+
+---
+
+*Leson sa a se sèlman pou edikasyon legal jeneral, e li pa konstitye konsèy legal pèsonalize. Konsilte yon avoka ki gen lisans anvan w ekri oswa dakò ak nenpòt nan de kalite kloz sa yo.*
