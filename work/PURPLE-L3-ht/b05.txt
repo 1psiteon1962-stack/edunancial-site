@@ -47,3 +47,153 @@ Sa diferan anpil de diskisyon sou mak komèsyal Leson 20 la: pwoteksyon yon brev
 ---
 
 *Leson sa a se sèlman pou edikasyon legal jeneral, e li pa konstitye konsèy legal pèsonalize. Règ ak dire brevè yo varye selon jiridiksyon ak kalite brevè; konsilte yon avoka brevè ki gen lisans pou konsèy ki espesifik pou sitiyasyon ou.*
+
+===== PURPLE-L3-022
+TITLE: Poukisa pwoteksyon sekrè komèsyal depann de vrèman kenbe sekrè a
+SUMMARY: Aprann poukisa pwoteksyon sekrè komèsyal fondamantalman diferan de yon brevè, li mande yon konfidansyalite kontinyèl olye yon divilgasyon piblik, ak poukisa pèdi sekrè a fini pwoteksyon an.
+# PURPLE-L3-022: Poukisa pwoteksyon sekrè komèsyal depann de vrèman kenbe sekrè a
+
+## Objektif aprantisaj
+Lè w fin fè leson sa a, w ap kapab:
+- Defini yon sekrè komèsyal e esplike kisa ki anjeneral kalifye pou pwoteksyon sa a
+- Esplike poukisa pwoteksyon sekrè komèsyal mande apwòch opoze ak pwoteksyon brevè
+- Esplike poukisa pèdi sekrè a anjeneral fini pwoteksyon sekrè komèsyal la nèt
+
+## Kontni prensipal
+
+Yon **sekrè komèsyal** (trade secret) anjeneral pwoteje enfòmasyon biznis espesifik — yon fòmil, yon pwosesis, yon metòd, oswa lòt enfòmasyon ki sanble — ki bay yon avantaj konkiransyèl espesyalman paske piblik la pa konnen l, e biznis lan pran mezi rezonab pou vrèman kenbe l konfidansyèl.
+
+Men "poukisa" sa reprezante esansyèlman estrateji legal opoze ak akò brevè yo kouvri nan Leson 21 la: yon brevè mande yon divilgasyon piblik an echanj pou yon dwa eksklizif, tanporè. Yon sekrè komèsyal mande egzakteman opoze a — kenbe konfidansyalite aktivman, petèt san fen, an echanj pou yon pwoteksyon ki dire sèlman otan ke sekrè a li menm vrèman kenbe. [FÈ VERIFYE] Pa gen okenn pwosesis anrejistreman ni dire fiks pou pwoteksyon sekrè komèsyal jan sa egziste pou yon brevè — li egziste otan ke enfòmasyon an vrèman rete yon sekrè, pwoteje atravè mezi konfidansyalite rezonab.
+
+Se poutèt sa "mezi rezonab" pou kenbe sekrè a — sa ki konekte dirèkteman ak diskisyon sou NDA Leson 9 la — enpòtan anpil pou pwoteksyon sekrè komèsyal: [FÈ VERIFYE] si yon biznis pa pran etap rezonab pou vrèman pwoteje konfidansyalite enfòmasyon li reklame pita kòm yon sekrè komèsyal, oswa si enfòmasyon an vin konnen piblikman pa nenpòt mwayen, enkli pwòp neglijans biznis lan, anjeneral li pèdi pwoteksyon sekrè komèsyal la, paske baz fondamantal pwoteksyon an — yon vrè sekrè — pa egziste ankò.
+
+## Egzanp pratik
+
+[EGZANP ILISTRATIF] Yon biznis devlope yon pwosesis espesifik ki ba l yon vrè avantaj konkiransyèl egzakteman paske konkiran yo pa konnen kijan li mache. Biznis lan pwoteje enfòmasyon sa a kòm yon sekrè komèsyal, li itilize NDA ak anplwaye ki gen aksè a li (sa ki reflete Leson 9), li limite aksè fizik ak dijital a dokimantasyon ki konsène yo, e an jeneral li pran mezi rezonab, aktif pou kenbe konfidansyalite. [SIPOZISYON] Si okontrè biznis lan pa t pran kalite mezi rezonab sa yo, oswa si detay pwosesis la te vin konnen piblikman akoz pwòp neglijans biznis lan, li ta gen chans pèdi pwoteksyon sekrè komèsyal li nèt — kontrèman ak yon brevè, ki rete pwoteje pandan dire fiks li kèlkeswa konbyen avèk swen oswa san swen yo jere detay envansyon an otreman.
+
+## Egzamen pratik
+
+1. Kisa yon sekrè komèsyal ye, an jeneral?
+2. Kijan pwoteksyon sekrè komèsyal reprezante esansyèlman estrateji opoze ak akò brevè yo kouvri nan Leson 21 la?
+3. Poukisa "mezi rezonab" pou kenbe sekrè a enpòtan anpil pou pwoteksyon sekrè komèsyal?
+
+## Kle repons yo
+
+1. Enfòmasyon biznis espesifik — yon fòmil, yon pwosesis, oswa yon metòd — ki bay yon avantaj konkiransyèl paske piblik la pa konnen l, pwoteje atravè mezi konfidansyalite rezonab.
+2. Yon brevè mande yon divilgasyon piblik an echanj pou yon eksklizivite tanporè; yon sekrè komèsyal mande kenbe konfidansyalite aktivman, ak yon pwoteksyon ki dire sèlman otan ke sekrè a li menm vrèman kenbe.
+3. Paske si yo pa pran mezi rezonab, oswa si enfòmasyon an vin konnen piblikman pa nenpòt mwayen, anjeneral yo pèdi pwoteksyon sekrè komèsyal la nèt, paske yon vrè sekrè se baz fondamantal pwoteksyon an.
+
+## Repons ak eksplikasyon
+
+1. Sa a se definisyon debaz leson an.
+2. Sa konpare leson an klèman ak Leson 21, sa ki ranfòse estrikti entegre tras la.
+3. Sa konekte leson an ak diskisyon sou NDA Leson 9 la, sa ki ranfòse aplikasyon pratik ant leson yo.
+
+## Pwen kle yo
+- Yon sekrè komèsyal pwoteje enfòmasyon biznis konfidansyèl ki bay yon avantaj konkiransyèl paske yo pa divilge l.
+- Sa a esansyèlman se estrateji opoze ak yon brevè, ki mande yon divilgasyon piblik an echanj pou yon eksklizivite tanporè.
+- Pwoteksyon sekrè komèsyal depann nèt de kenbe mezi konfidansyalite ki vrèman rezonab, e ou pèdi l si sekrè a pa kenbe.
+
+---
+
+*Leson sa a se sèlman pou edikasyon legal jeneral, e li pa konstitye konsèy legal pèsonalize. Règ sou sekrè komèsyal yo varye selon jiridiksyon; konsilte yon avoka ki gen lisans pou konsèy ki espesifik pou sitiyasyon ou.*
+
+===== PURPLE-L3-023
+TITLE: Poukisa yon testaman pa kouvri tout sa yon moun posede
+SUMMARY: Aprann poukisa kèk kalite byen pase deyò yon testaman nèt, kèlkeswa sa testaman an li menm di, ak poukisa sa enpòtan pou yon planifikasyon eritaj konplè.
+# PURPLE-L3-023: Poukisa yon testaman pa kouvri tout sa yon moun posede
+
+## Objektif aprantisaj
+Lè w fin fè leson sa a, w ap kapab:
+- Esplike poukisa yon testaman pa gouvène transfè chak kalite byen yon moun posede
+- Idantifye kategori byen komen ki anjeneral pase deyò yon testaman
+- Esplike poukisa sa fè yon planifikasyon eritaj konplè mande plis pase yon testaman sèlman
+
+## Kontni prensipal
+
+Yon **testaman** anjeneral di kijan pou yo separe byen yon moun apre lanmò li, e li nonmen yon egzekitè testamantè pou akonpli enstriksyon sa yo. Men "poukisa" yon testaman pa vrèman kouvri tout sa yon moun posede, yon fo konsepsyon ki komen e ki enpòtan: [FÈ VERIFYE] kèk kategori byen anjeneral pase dapre pwòp règ espesifik oswa deziyasyon pa yo, kèlkeswa sa yon testaman di separeman, sa ki fè yo an reyalite pase bò kote testaman an nèt pou byen espesifik sa yo.
+
+Egzanp komen anjeneral gen ladan byen ki gen yon benefisyè deziyen — kontra asirans lavi ak anpil kont retrèt anjeneral transfere dirèkteman bay moun yo nonmen kòm benefisyè sou kont lan li menm, kèlkeswa enstriksyon kontrè nan yon testaman — ak byen yo kenbe nan kèk fòm pwopriyete konjwen (yon sijè yo egzamine pi fon nan Leson 30), ki ka pase otomatikman bay yon ko-pwopriyetè ki siviv deyò enstriksyon testaman an nèt.
+
+Se poutèt sa yon planifikasyon eritaj konplè anjeneral mande plis pase senpleman ekri yon testaman: [FÈ VERIFYE] yo bezwen revize e kenbe ajou deziyasyon benefisyè sou kont ki konsène yo, e fason yo vrèman mete tit diferan byen yo enpòtan anpil — yon deziyasyon benefisyè ki demode, depi plizyè ane, ka pran plas menm entansyon yon testaman yo fèk mete ajou pi resamman pou menm byen espesifik sa a, sa ki kreye rezilta moun nan ka pa t vrèman vle. [RÈG ESPESIFIK POU REJYON AN] An Ayiti, Kòd Sivil la gen règ sou siksesyon ak pòsyon eritye rezèvatè yo ka pa ka retire; verifye ak yon avoka oswa yon notè ki kalifye.
+
+## Egzanp pratik
+
+[EGZANP ILISTRATIF] Yon moun mete testaman li ajou pou l kite yon pi gwo pati nan eritaj jeneral li bay yon manm fanmi espesifik, men li bliye mete ajou tou deziyasyon benefisyè sou yon kontra asirans lavi depi plizyè ane, ki toujou nonmen yon lòt benefisyè, anvan an. [SIPOZISYON] Lè moun sa a mouri, lajan asirans lavi a anjeneral pral ale dirèkteman bay moun ki nonmen nan pwòp deziyasyon benefisyè kontra a, kèlkeswa entansyon diferan, pi resan testaman ki te mete ajou a pou eritaj jeneral la — sa ki montre poukisa revize e mete ajou deziyasyon benefisyè se yon travay ki vrèman separe, esansyèl, diferan de senpleman mete yon testaman ajou.
+
+## Egzamen pratik
+
+1. Poukisa yon testaman pa vrèman kouvri chak kalite byen yon moun posede?
+2. Bay de kategori byen komen ki anjeneral pase deyò yon testaman.
+3. Poukisa sa fè yon planifikasyon eritaj konplè mande plis pase senpleman ekri yon testaman?
+
+## Kle repons yo
+
+1. Paske kèk kategori byen pase dapre pwòp règ espesifik oswa deziyasyon pa yo, kèlkeswa sa yon testaman di separeman.
+2. Nenpòt de nan: byen ki gen yon benefisyè deziyen (asirans lavi, anpil kont retrèt), byen yo kenbe nan kèk fòm pwopriyete konjwen.
+3. Paske yo bezwen revize e kenbe ajou poukont yo deziyasyon benefisyè ak tit byen yo, paske yon deziyasyon ki demode ka pran plas yon testaman yo fèk mete ajou pou byen espesifik sa a.
+
+## Repons ak eksplikasyon
+
+1. Sa a se "poukisa" santral ki korije fo konsepsyon komen leson an trete a.
+2. Sa bay konsèp abstrè a yon baz nan egzanp konkrè, komen.
+3. Sa ranfòse konsekans pratik pou yon planifikasyon konplè leson sa a montre.
+
+## Pwen kle yo
+- Yon testaman pa gouvène chak byen yon moun posede — kèk byen pase dapre pwòp deziyasyon oswa règ pwopriyete espesifik pa yo.
+- Egzanp komen yo gen ladan kont ki gen benefisyè deziyen (asirans lavi, kont retrèt) ak kèk fòm pwopriyete konjwen.
+- Yon planifikasyon eritaj konplè mande revize e kenbe ajou poukont yo deziyasyon benefisyè ak tit byen yo, pa sèlman mete yon testaman ajou.
+
+---
+
+*Leson sa a se sèlman pou edikasyon legal jeneral, e li pa konstitye konsèy legal pèsonalize. Règ sou planifikasyon eritaj yo varye selon jiridiksyon; konsilte yon avoka planifikasyon eritaj ki gen lisans pou konsèy ki espesifik pou sitiyasyon ou.*
+
+===== PURPLE-L3-024
+TITLE: Poukisa byen ki nan yon fidisi anjeneral evite pwosedi siksesyon (probate)
+SUMMARY: Aprann poukisa byen yo mete nan yon fidisi anjeneral pase bay benefisyè yo san yo pa pase nan pwosedi siksesyon tribinal la, ak poukisa diferans sa a enpòtan pou planifikasyon eritaj.
+# PURPLE-L3-024: Poukisa byen ki nan yon fidisi anjeneral evite pwosedi siksesyon (probate)
+
+## Objektif aprantisaj
+Lè w fin fè leson sa a, w ap kapab:
+- Esplike poukisa byen yo kenbe nan yon fidisi anjeneral evite pwosedi siksesyon an
+- Konekte konsèp sa a ak diskisyon sou fidisi yo kouvri lòt kote nan kourikoulòm sa a
+- Prepare konsèp jeneral pwosedi siksesyon (probate) yo kouvri nan pwochen leson an
+
+## Kontni prensipal
+
+Tras GREEN kourikoulòm sa a kouvri fidisi charitab espesyalman nan yon kontèks planifikasyon taks. Men yon "poukisa" legal pi jeneral ki dèyè fidisi yo, ki enpòtan pou planifikasyon eritaj an jeneral: [FÈ VERIFYE] byen yo transfere kòrèkteman nan yon fidisi pandan moun ki kreye fidisi a toujou vivan anjeneral pa konsidere ankò kòm yon pati nan eritaj moun nan posede endividyèlman pou rezon pwosedi siksesyon — kòm se fidisi a li menm, pa moun nan, ki teknikman posede byen sa yo, se pwòp kondisyon fidisi a (pa pwosedi siksesyon an, yo kouvri l nan pwochen leson an) ki anjeneral gouvène kijan e kilè yo separe byen sa yo bay benefisyè yo.
+
+Men "poukisa" yo souvan itilize fidisi espesyalman pou evite pwosedi siksesyon an: kòm se fidisi a ki deja kenbe byen yo olye moun nan pèsonèlman nan moman lanmò a, anjeneral pa gen bezwen pou byen espesifik sa yo pase nan pwosedi siksesyon tribinal la sipèvize, ki aplike pou byen yon moun posede endividyèlman ki pa trete otreman pa deziyasyon benefisyè oswa pwopriyete konjwen (jan yo diskite nan Leson 23).
+
+Sa konekte dirèkteman ak pwen Leson 23 la sou kèk byen ki pase bò kote yon testaman: yon fidisi ki byen finanse se yon lòt kategori aranjman byen ki anjeneral fonksyone poukont li, e ki pase bò kote, pwosedi siksesyon estanda enstriksyon yon testaman ta sijè otreman.
+
+## Egzanp pratik
+
+[EGZANP ILISTRATIF] Yon moun transfere pwopriyete yon byen espesifik nan yon fidisi pandan li vivan, ak pwòp kondisyon fidisi a ki presize kijan yo ta dwe finalman separe byen sa a bay benefisyè yo nonmen. [SIPOZISYON] Lè moun sa a mouri, byen espesifik sa a anjeneral pase dapre pwòp kondisyon fidisi a, san li pa bezwen pase nan pwosedi siksesyon an — yon chemen ki diferan anpil, anjeneral pi rapid e pi prive, pase si menm byen sa a te rete nan non endividyèl moun nan, sijè a testaman li ak pwosedi siksesyon estanda a, jan yo kouvri nan pwochen leson an.
+
+## Egzamen pratik
+
+1. Poukisa byen yo kenbe nan yon fidisi anjeneral evite pwosedi siksesyon an?
+2. Poukisa yo souvan itilize fidisi espesyalman kòm yon zouti pou evite pwosedi siksesyon an?
+3. Kijan leson sa a konekte ak pwen Leson 23 la sou byen ki pase bò kote yon testaman?
+
+## Kle repons yo
+
+1. Paske se fidisi a li menm, pa moun nan, ki teknikman posede byen sa yo, kidonk yo anjeneral pa konsidere yo ankò kòm yon pati nan eritaj moun nan ki sijè a pwosedi siksesyon.
+2. Paske byen fidisi a deja kenbe pa bezwen pase nan pwosedi siksesyon estanda tribinal la sipèvize, ki aplike pou byen yon moun posede endividyèlman.
+3. Yon fidisi ki byen finanse se yon lòt kategori aranjman byen, ansanm ak deziyasyon benefisyè ak kèk fòm pwopriyete konjwen, ki anjeneral pase bò kote pwosedi siksesyon estanda a ak transfè ki baze sou testaman.
+
+## Repons ak eksplikasyon
+
+1. Sa a se "poukisa" santral ki esplike mekanis pou evite pwosedi siksesyon an.
+2. Sa ranfòse rezon pratik yo site souvan pou yo itilize fidisi pou objektif sa a.
+3. Sa konekte leson an klèman ak Leson 23, sa ki ranfòse estrikti entegre tras la.
+
+## Pwen kle yo
+- Byen yo kenbe kòrèkteman nan yon fidisi anjeneral pa fè pati eritaj moun nan ankò pou rezon pwosedi siksesyon.
+- Se poutèt sa yo souvan itilize fidisi espesyalman kòm yon zouti pou evite pwosedi siksesyon an.
+- Sa a se yon lòt kategori aranjman byen, ansanm ak deziyasyon benefisyè, ki pase bò kote enstriksyon yon testaman ak pwosedi siksesyon estanda a.
+
+---
+
+*Leson sa a se sèlman pou edikasyon legal jeneral, e li pa konstitye konsèy legal pèsonalize. Règ sou fidisi ak pwosedi siksesyon yo varye selon jiridiksyon; konsilte yon avoka planifikasyon eritaj ki gen lisans pou konsèy ki espesifik pou sitiyasyon ou.*
