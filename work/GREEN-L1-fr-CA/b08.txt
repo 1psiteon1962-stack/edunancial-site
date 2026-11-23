@@ -1,0 +1,239 @@
+===== GREEN-L1-027
+TITLE: L’amortissement : étaler un coût dans le temps
+SUMMARY: Présente l’amortissement comme la notion qui consiste à étaler le coût d’un bien d’entreprise durable sur plusieurs années plutôt que de le déduire en une seule fois.
+# L’amortissement : étaler un coût dans le temps
+
+## Objectifs d’apprentissage
+
+- Définir l’amortissement en termes simples.
+- Expliquer pourquoi la notion d’amortissement existe.
+- Distinguer les biens susceptibles d’être amortis de ceux qui sont habituellement passés en charges immédiatement.
+
+## Contenu principal
+
+Quand une entreprise achète quelque chose qui servira pendant des années — un véhicule, de la machinerie, un bâtiment — il n’est généralement pas logique de déduire la totalité du coût l’année de l’achat. De nombreux systèmes fiscaux exigent ou permettent plutôt que ce coût soit étalé, ou amorti, sur la durée de vie utile du bien, afin de faire correspondre la déduction aux années pendant lesquelles le bien aide réellement à produire un revenu. (Au Canada, on parle notamment de déduction pour amortissement.)
+
+Cette logique rejoint le bon sens comptable de base : si un équipement servira pendant dix ans, traiter son coût total comme une dépense d’une seule année sous-estimerait le bénéfice de la première année et le surestimerait chacune des années suivantes. L’amortissement lisse cet écart. En revanche, les dépenses d’entreprise courantes et consommables — les fournitures de bureau, par exemple — sont habituellement passées en charges en totalité immédiatement, puisqu’elles n’apportent pas de valeur sur plusieurs années comme le fait un équipement durable.
+
+## Exemple pratique
+
+**Question :** Une boulangerie achète un four commercial censé durer dix ans. Le coût total devrait-il être déduit immédiatement, ou étalé?
+
+**Étudiant :** D’après cette leçon, il semble qu’il devrait être étalé, puisque le four servira pendant de nombreuses années.
+
+**Guide :** Pourquoi l’étalement donne-t-il un portrait plus juste que la déduction en une seule fois?
+
+**Étudiant :** Parce que le four aide à produire un revenu pendant les dix années, pas seulement l’année de l’achat; faire correspondre le coût à ces années est donc plus juste.
+
+**Guide :** Exactement — c’est la logique de base de l’amortissement.
+
+## Quiz pratique
+
+**Question 1.** L’amortissement se décrit le mieux comme :
+
+A) Déduire immédiatement le coût total d’un bien
+B) Étaler le coût d’un bien sur sa durée de vie utile
+C) Ignorer complètement le coût des biens d’entreprise
+D) Un type de taxe de vente
+
+**Question 2.** L’amortissement s’applique habituellement :
+
+A) Aux biens durables comme l’équipement, les véhicules ou les bâtiments
+B) Aux fournitures de bureau courantes
+C) Aux paiements de taxe de vente
+D) Aux retenues sur la paie
+
+**Question 3.** Pourquoi ne pas déduire la première année le coût total d’un bien qui dure dix ans?
+
+A) Il est illégal d’acheter de l’équipement
+B) Cela fausserait le bénéfice sur les années pendant lesquelles le bien aide réellement à produire un revenu
+C) Il n’y a aucune raison, c’est arbitraire
+D) L’amortissement ne s’applique pas aux entreprises
+
+**Question 4.** Les fournitures consommables courantes sont habituellement :
+
+A) Amorties sur dix ans
+B) Passées en charges en totalité immédiatement
+C) Jamais déductibles
+D) Traitées comme de l’immobilier
+
+## Corrigé
+
+1. B, 2. A, 3. B, 4. B
+
+## Réponses et explications
+
+**1.** L’amortissement fait correspondre le coût d’un bien aux années où il apporte réellement de la valeur, plutôt que de le regrouper sur une seule année.
+
+**2.** Les biens durables sont les candidats habituels à l’amortissement, contrairement aux biens consommables de courte durée.
+
+**3.** Étaler le coût évite de fausser le portrait du bénéfice de l’année d’achat par rapport aux années suivantes.
+
+**4.** Les fournitures s’épuisent rapidement; les passer en charges immédiatement correspond donc mieux à leur valeur à court terme.
+
+## Points clés
+
+- L’amortissement étale le coût d’un bien sur sa durée de vie utile plutôt que de le déduire en une seule fois.
+- Il s’applique aux biens durables comme l’équipement, les véhicules et les bâtiments.
+- Cela donne un portrait plus juste, année après année, du bénéfice de l’entreprise.
+- Les dépenses consommables courantes sont plutôt déduites immédiatement.
+
+===== GREEN-L1-028
+TITLE: La perception de la taxe de vente par les petites entreprises
+SUMMARY: Explique la responsabilité pratique qu’une petite entreprise assume lorsqu’elle devient percepteur de la taxe de vente, en s’appuyant sur la leçon précédente sur la taxe de vente du point de vue du consommateur.
+# La perception de la taxe de vente par les petites entreprises
+
+## Objectifs d’apprentissage
+
+- Expliquer le rôle de l’entreprise comme percepteur de la taxe de vente.
+- Expliquer pourquoi la taxe de vente perçue n’est pas un revenu de l’entreprise.
+- Reconnaître le risque de traiter la taxe de vente perçue comme un revenu que l’on peut dépenser.
+
+## Contenu principal
+
+Plus tôt, ce volet a abordé la taxe de vente du point de vue de l’acheteur. Voyons-la maintenant du côté de l’entreprise : lorsqu’une entreprise perçoit la taxe de vente auprès de ses clients, elle détient temporairement de l’argent qui appartient au gouvernement, et non de l’argent qu’elle a gagné. Cette distinction compte énormément pour la façon dont une entreprise devrait gérer ses liquidités.
+
+Une erreur courante et grave chez les nouveaux propriétaires de petite entreprise consiste à traiter tout l’argent qui entre — y compris la portion de taxe de vente — comme disponible pour être dépensé, puis à découvrir au moment de la déclaration ou du versement que l’argent de la taxe a déjà été dépensé ailleurs. Comme l’entreprise est légalement tenue de verser cette taxe, quelle que soit sa propre situation de trésorerie, les entreprises disciplinées mettent habituellement de côté immédiatement la taxe perçue, parfois dans un compte réservé, plutôt que de la mêler aux fonds d’exploitation généraux.
+
+## Exemple pratique
+
+**Question :** Un nouveau commerçant dépose toutes ses ventes quotidiennes, y compris la taxe de vente perçue, dans un seul compte général et y puise librement. Quel risque cela crée-t-il?
+
+**Étudiant :** D’après cette leçon, il pourrait dépenser par accident l’argent de la taxe de vente qui appartient en réalité au gouvernement.
+
+**Guide :** À quoi ressemblerait une approche plus disciplinée?
+
+**Étudiant :** Mettre tout de suite la taxe de vente perçue dans son propre compte, pour qu’elle ne soit jamais confondue avec un revenu d’entreprise que l’on peut dépenser.
+
+**Guide :** Exactement — la traiter dès le premier jour comme de l’argent déjà réservé évite le piège.
+
+## Quiz pratique
+
+**Question 1.** Quand une entreprise perçoit la taxe de vente, cet argent est :
+
+A) Un revenu gagné par l’entreprise elle-même
+B) De l’argent qu’elle détient temporairement au nom du gouvernement
+C) Un cadeau des clients
+D) Automatiquement libre d’impôt
+
+**Question 2.** Une erreur courante des nouvelles petites entreprises est de :
+
+A) Mettre la taxe de vente de côté immédiatement
+B) Dépenser la taxe de vente perçue comme s’il s’agissait d’un revenu d’exploitation général
+C) Facturer trop peu de taxe de vente
+D) Ne jamais percevoir de taxe de vente
+
+**Question 3.** Pourquoi cette erreur est-elle grave?
+
+A) Elle n’est pas grave
+B) L’entreprise demeure légalement tenue de verser la taxe, qu’elle ait déjà été dépensée ou non
+C) La taxe de vente est facultative
+D) Ce sont plutôt les clients qui en sont responsables
+
+**Question 4.** Une pratique disciplinée pour éviter cette erreur consiste à :
+
+A) Ignorer la taxe de vente jusqu’à la fin de l’année
+B) Mettre de côté immédiatement la taxe de vente perçue, parfois dans un compte réservé
+C) La dépenser d’abord et s’inquiéter plus tard
+D) Refuser de percevoir la taxe de vente
+
+## Corrigé
+
+1. B, 2. B, 3. B, 4. B
+
+## Réponses et explications
+
+**1.** L’entreprise est un percepteur au nom du gouvernement, et non le propriétaire final de cet argent.
+
+**2.** Mêler la taxe perçue aux revenus généraux est l’une des erreurs de gestion de trésorerie les plus courantes des nouveaux propriétaires d’entreprise.
+
+**3.** L’obligation de versement ne disparaît pas simplement parce que l’argent a été dépensé ailleurs.
+
+**4.** La mise de côté immédiate est une discipline simple et efficace qui prévient exactement ce problème.
+
+## Points clés
+
+- La taxe de vente perçue appartient au gouvernement, pas à l’entreprise.
+- La traiter comme un revenu que l’on peut dépenser est une erreur courante et risquée.
+- L’entreprise demeure tenue de la verser, quelle que soit sa propre situation de trésorerie.
+- Mettre de côté immédiatement la taxe de vente perçue est une bonne pratique disciplinée.
+
+===== GREEN-L1-029
+TITLE: Les charges sociales sur la paie pour les employeurs
+SUMMARY: Prolonge la leçon précédente sur les cotisations sur la paie en abordant les responsabilités opérationnelles de l’employeur : retenir, verser la part patronale et remettre les sommes.
+# Les charges sociales sur la paie pour les employeurs
+
+## Objectifs d’apprentissage
+
+- Décrire le rôle de l’employeur dans l’administration des cotisations sur la paie.
+- Expliquer la notion de « part patronale ».
+- Reconnaître que la conformité en matière de cotisations sur la paie est une responsabilité opérationnelle continue, et non une tâche ponctuelle.
+
+## Contenu principal
+
+Dès qu’une entreprise a des employés, elle assume de réelles responsabilités opérationnelles liées aux cotisations sur la paie : retenir la part de l’employé sur chaque paie, verser souvent une part équivalente ou partielle à titre d’employeur, et remettre le tout au gouvernement selon un calendrier fixé par la loi — et non quand cela convient à l’entreprise.
+
+C’est une responsabilité récurrente et continue, et non un événement annuel comme la production d’une déclaration personnelle. Manquer une date limite de versement des retenues sur la paie est pris au sérieux dans de nombreux systèmes, en partie parce que le gouvernement considère les sommes retenues sur la paie des employés comme détenues en fiducie pour l’employé et pour l’autorité fiscale — ce qui signifie que ce n’est pas traité comme un simple retard de paiement d’une facture ordinaire de fournisseur. Les propriétaires de petite entreprise qui embauchent leur premier employé devraient traiter la conformité en matière de cotisations sur la paie comme une responsabilité d’exploitation essentielle et non négociable dès le premier jour, et non comme une question secondaire.
+
+## Exemple pratique
+
+**Question :** Une nouvelle propriétaire d’entreprise embauche son premier employé et dit plus tard : « Je m’occuperai des cotisations sur la paie quand la trésorerie le permettra. » Qu’est-ce qui est risqué dans ce plan?
+
+**Étudiant :** D’après cette leçon, les cotisations sur la paie ne sont ni facultatives ni flexibles comme une facture de fournisseur ordinaire — elles suivent un calendrier exigé par la loi.
+
+**Guide :** Pourquoi ne pas respecter ce calendrier pourrait-il être traité plus sévèrement qu’un retard sur, disons, une facture de fournitures de bureau?
+
+**Étudiant :** Parce qu’une partie de cet argent a été retenue sur la propre paie de l’employé et est essentiellement détenue en fiducie — ce n’est pas entièrement l’argent de l’entreprise, qu’elle pourrait payer en retard.
+
+**Guide :** Exactement — c’est pourquoi la conformité en matière de cotisations sur la paie doit être traitée comme non négociable dès le premier jour.
+
+## Quiz pratique
+
+**Question 1.** Dès qu’une entreprise a des employés, elle doit habituellement :
+
+A) Ignorer complètement les cotisations sur la paie
+B) Retenir, souvent verser une part patronale et remettre les cotisations sur la paie selon un calendrier établi
+C) Payer les cotisations sur la paie une seule fois par année
+D) Laisser les employés s’en occuper eux-mêmes
+
+**Question 2.** La « part patronale » désigne :
+
+A) Les employés qui choisissent leur propre taux d’imposition
+B) L’employeur qui paie une portion supplémentaire en plus de ce qui est retenu sur les salaires
+C) Un rabais sur la taxe de vente
+D) Un type de crédit d’impôt
+
+**Question 3.** Pourquoi un versement tardif des retenues sur la paie est-il souvent traité plus sévèrement qu’une facture de fournisseur ordinaire en retard?
+
+A) Il n’est pas traité sévèrement
+B) Les sommes retenues sur la paie des employés sont considérées comme détenues en fiducie, pas seulement comme la trésorerie de l’entreprise
+C) Les fournisseurs sont toujours payés avant la paie
+D) Il n’y a aucune différence juridique
+
+**Question 4.** La conformité en matière de cotisations sur la paie devrait être traitée comme :
+
+A) Une question secondaire occasionnelle
+B) Une responsabilité d’exploitation essentielle et continue dès le premier jour
+C) Facultative pour les petites entreprises
+D) Pertinente seulement pour les grandes sociétés
+
+## Corrigé
+
+1. B, 2. B, 3. B, 4. B
+
+## Réponses et explications
+
+**1.** Les employeurs assument les responsabilités de retenir, souvent de verser une part patronale et de remettre les sommes dès qu’ils ont des employés.
+
+**2.** La part patronale est un paiement supplémentaire de l’employeur qui s’ajoute à la part retenue sur la paie de l’employé.
+
+**3.** Comme les sommes retenues sont considérées comme détenues pour l’employé et l’autorité fiscale, les retards entraînent des conséquences plus lourdes dans de nombreux systèmes.
+
+**4.** Cette responsabilité commence dès qu’une entreprise embauche son premier employé, et non une fois qu’elle est « bien établie ».
+
+## Points clés
+
+- Les employeurs retiennent, versent souvent une part patronale et remettent les cotisations sur la paie selon un calendrier fixé par la loi.
+- La part patronale est un coût supplémentaire qui s’ajoute aux retenues de l’employé.
+- Un versement tardif des retenues sur la paie est souvent traité plus sévèrement qu’une facture ordinaire en retard.
+- La conformité en matière de cotisations sur la paie est une responsabilité d’exploitation essentielle dès l’embauche.
