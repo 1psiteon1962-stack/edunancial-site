@@ -1,0 +1,99 @@
+===== GOLD-L3-026
+TITLE: Poukisa prim pou mank likidite reyèl, men li pa garanti
+SUMMARY: Aprann kisa yon prim pou mank likidite sipoze konpanse envestisè yo pou li, ak poukisa rannman anplis li pwomèt la pa otomatik ni sèten.
+# GOLD-L3-026: Poukisa prim pou mank likidite reyèl, men li pa garanti
+
+## Objektif aprantisaj
+Lè w fin fè leson sa a, w ap kapab:
+- Defini konsèp yon prim pou mank likidite (illiquidity premium)
+- Esplike rezònman teyorik ki dèyè poukisa youn ta dwe egziste
+- Esplike poukisa prim sa a se yon tandans istorik, pa yon rezilta garanti
+
+## Kontni prensipal
+
+Leson 11 te prezante lide ke envestisman altènatif souvan echanje likidite pou yon rannman posib. **Prim pou mank likidite** se non espesifik pou konsèp sa a: teyori ki di envestisè yo ta dwe, an mwayèn, resevwa konpansasyon ak yon rannman anplis yo atann paske yo aksepte likidite ki pi piti (Leson 10) ki vini ak kèk kalite envestisman.
+
+Men "poukisa" prim teyorik sa a sipoze egziste: kòm mank likidite li menm reprezante yon vrè kou ak yon vrè risk pou yon envestisè (jan yo kouvri nan Leson 10 ak 11), yon mache rasyonèl ta dwe mande pou envestisman ki pa likid ofri rannman yo atann ki pi wo pase envestisman likid ki ta konparab otreman, pou konpanse envestisè yo paske yo aksepte kontrent anplis sa a — sa ki konekte dirèkteman ak relasyon debaz ant risk ak rannman Leson 1 la, kote yo trete mank likidite kòm yon fòm risk espesifik ki mande pwòp konpansasyon pa li.
+
+[FÈ VERIFYE] Sepandan, prim sa a se yon tandans teyorik yo obsève, nan diferan nivo, nan kèk done istorik ak rechèch akademik — li pa yon karakteristik garanti chak envestisman espesifik ki pa likid. Yon envestisè ka aksepte vrè kou ak risk mank likidite (kapital bloke, opsyon limite pou sòti) san li pa vrèman resevwa yon rannman ki pi wo anpil an echanj, sitou si envestisman espesifik la fè mwens byen pou rezon ki pa gen rapò ak pwofil likidite li.
+
+## Egzanp pratik
+
+[EGZANP ILISTRATIF] Yon envestisè aksepte yon peryòd blokaj plizyè ane pou yon fon envestisman prive, li atann teyori prim pou mank likidite a vle di li pral resevwa konpansasyon ak yon rannman ki pi wo anpil pase sa yon envestisman likid konparab ta ofri. [SIPOZISYON] Si envestisman debaz fon an fè mwens byen pou rezon ki pa gen rapò ak estrikti yo ki pa likid — move desizyon manadjè, yon mache ki pa favorab pou estrateji espesifik fon an, oswa senpleman move chans — li ka fini pote vrè kou mank likidite a (kapital bloke, opsyon limite pou sòti) san li pa resevwa prim teyorik li t ap atann lan, sa ki montre poukisa prim sa a se yon tandans istorik olye yon garanti nan kontra.
+
+## Egzamen pratik
+
+1. Kisa prim pou mank likidite a ye, an jeneral?
+2. Poukisa yo atann teyorikman pou yon prim pou mank likidite egziste, an lyen ak relasyon ant risk ak rannman Leson 1 la?
+3. Èske prim pou mank likidite a se yon rezilta garanti pou nenpòt envestisman espesifik ki pa likid?
+
+## Kle repons yo
+
+1. Teyori ki di envestisè yo ta dwe, an mwayèn, resevwa konpansasyon ak yon rannman anplis yo atann paske yo aksepte likidite ki pi piti.
+2. Paske mank likidite reprezante yon vrè kou ak yon vrè risk, kidonk yon mache rasyonèl ta dwe mande rannman yo atann ki pi wo pou konpanse envestisè yo paske yo aksepte risk espesifik sa a, menm jan lòt risk mande konpansasyon.
+3. Non — se yon tandans istorik yo obsève nan diferan nivo nan kèk done ak rechèch, pa yon karakteristik garanti chak envestisman espesifik ki pa likid, ki ka toujou fè mwens byen pou rezon ki pa gen rapò ak pwofil likidite li.
+
+## Repons ak eksplikasyon
+
+1. Sa a se definisyon debaz leson an.
+2. Sa konekte konsèp lan dirèkteman ak prensip debaz Leson 1 la.
+3. Sa a se rezèv enpòtan pou fini an kont twòp konfyans nan konsèp teyorik sa a.
+
+## Pwen kle yo
+- Prim pou mank likidite a se teyori ki di envestisè yo ta dwe resevwa konpansasyon ak yon rannman anplis yo atann paske yo aksepte likidite ki pi piti.
+- Sa konekte dirèkteman ak relasyon jeneral ant risk ak rannman, kote yo trete mank likidite kòm yon fòm risk espesifik ki mande konpansasyon.
+- Prim sa a se yon tandans istorik, pa yon garanti — yon envestisè ka pote vrè kou mank likidite san li pa resevwa yon rannman ki pi wo an konsekans.
+
+---
+
+*Leson sa a se sèlman pou edikasyon finansye jeneral, e li pa konstitye konsèy finansye, envestisman, taks, oswa legal pèsonalize. Pèfòmans pase pa garanti rezilta alavni. Konsilte yon pwofesyonèl finansye ki gen lisans anvan w pran desizyon envestisman.*
+
+===== GOLD-L3-027
+TITLE: Poukisa patipri sivivan an defòme fason nou jije estrateji envestisman
+SUMMARY: Aprann kisa patipri sivivan (survivorship bias) ye, ak poukisa li ka fè yon estrateji envestisman oswa yon kategori fon sanble pi reyisi pase sa li te ye vrèman.
+# GOLD-L3-027: Poukisa patipri sivivan an defòme fason nou jije estrateji envestisman
+
+## Objektif aprantisaj
+Lè w fin fè leson sa a, w ap kapab:
+- Defini patipri sivivan nan kontèks evalye estrateji envestisman
+- Esplike poukisa patipri sa a ka fè yon dosye pèfòmans istorik sanble pi bon pase tablo konplè a te ye vrèman
+- Esplike poukisa sa enpòtan sitou pou evalye kategori envestisman altènatif
+
+## Kontni prensipal
+
+**Patipri sivivan** (survivorship bias) rive lè yon evalyasyon konsidere sèlman antite ki te "siviv" pou yo konte yo, li eskli sistematikman sa ki te echwe oswa ki te disparèt sou wout la — sa ki kreye yon tablo defòme, twò optimis sou gwoup la an antye.
+
+Men "poukisa" sa defòme espesyalman fason yo evalye estrateji envestisman ak kategori fon: [FÈ VERIFYE] fon ki fè move pèfòmans gen plis chans fèmen, fizyone ak lòt fon, oswa senpleman sispann deklare rezilta yo — sa ki vle di baz done sou pèfòmans istorik fon yo, sitou sa ki pi ansyen oswa yo pa kenbe yo yon fason sevè, ka eskli sistematikman anpil nan sa ki te fè move pèfòmans, sa ki kite yon dosye pèfòmans ki sanble pi bon, an mwayèn, pase jan tout linivè fon yo (enkli tout sa ki te echwe) te vrèman fè.
+
+Sa enpòtan sitou pou evalye kategori envestisman altènatif yo kouvri nan tout tras sa a, patikilyèman sa ki istorikman te gen egzijans rapò ki mwens estanda oswa yo pa t aplike yo yon fason sevè konpare ak tit ki negosye piblikman, kote patipri sivivan nan done istorik ki disponib yo ka yon vrè defòmasyon enpòtan — to siksè istorik yon kategori sanble genyen ta ka parèt pi bon anpil pase vrè to siksè istorik konplè li te ye.
+
+## Egzanp pratik
+
+[EGZANP ILISTRATIF] Yon envestisè k ap fè rechèch sou yon kategori espesifik fon altènatif revize done pèfòmans istorik ki montre yon dosye mwayèn enpresyonan. [SIPOZISYON] Si baz done sa a gen ladan l sèlman fon ki toujou ap fonksyone e k ap deklare rezilta yo aktivman jodi a, e li pa gen ladan l fon nan menm kategori a ki te echwe, fèmen, oswa senpleman sispann deklare plizyè ane de sa, mwayèn enpresyonan l ap wè a reflete sèlman sivivan yo — vrè pèfòmans istorik pou tout fon ki te janm egziste nan kategori sa a, enkli sa ki te echwe yo, te gen chans pi mal anpil pase sa done ki gen patipri sivivan an sijere.
+
+## Egzamen pratik
+
+1. Kisa patipri sivivan an ye, an jeneral?
+2. Poukisa patipri sa a defòme espesyalman done pèfòmans istorik fon yo?
+3. Poukisa sa enpòtan sitou pou evalye kèk kategori envestisman altènatif?
+
+## Kle repons yo
+
+1. Lè yon evalyasyon konsidere sèlman antite ki te "siviv" pou yo konte yo, li eskli sistematikman sa ki te echwe, sa ki kreye yon tablo twò optimis sou gwoup la an antye.
+2. Paske fon ki fè move pèfòmans gen plis chans fèmen, fizyone, oswa sispann deklare, kidonk baz done istorik yo ka eskli sistematikman anpil echèk, sa ki kite yon pèfòmans mwayèn ki sanble pi bon pase reyalite pou sa ki toujou ap deklare yo.
+3. Paske kategori sa yo istorikman te gen egzijans rapò ki mwens estanda oswa yo pa t aplike yo yon fason sevè konpare ak tit ki negosye piblikman, sa ki fè patipri sivivan nan done ki disponib yo yon vrè risk defòmasyon enpòtan.
+
+## Repons ak eksplikasyon
+
+1. Sa a se definisyon debaz leson an.
+2. Sa esplike mekanis espesifik ki koze defòmasyon an nan done pèfòmans envestisman.
+3. Sa konekte konsèp lan ak enpòtans espesifik li genyen pou kategori envestisman altènatif yo kouvri nan tout tras sa a.
+
+## Pwen kle yo
+- Patipri sivivan rive lè yo konte sèlman antite ki "siviv" nan yon evalyasyon, yo eskli echèk yo e yo kreye yon tablo twò optimis.
+- Sa ka fè done pèfòmans istorik fon ak estrateji sanble pi bon pase vrè tablo istorik konplè a te ye.
+- Sa a se yon risk enpòtan sitou pou kategori envestisman altènatif ki gen egzijans rapò istorik ki mwens estanda.
+
+---
+
+*Leson sa a se sèlman pou edikasyon finansye jeneral, e li pa konstitye konsèy finansye, envestisman, taks, oswa legal pèsonalize. Pèfòmans pase pa garanti rezilta alavni. Konsilte yon pwofesyonèl finansye ki gen lisans anvan w pran desizyon envestisman.*
