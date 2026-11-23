@@ -1,0 +1,279 @@
+===== GOLD-L2-016
+TITLE: Pouvwa enterè konpoze: tan kòm yon byen pou bati richès
+SUMMARY: Enterè konpoze vle di touche rannman sou montan orijinal la ak sou rannman li deja akimile – yon kwasans ki akselere avèk tan, ki fè tan li menm vin yon vrè byen pou bati richès.
+## GOLD-L2-016
+### Pouvwa enterè konpoze: tan kòm yon byen pou bati richès
+
+**1. Objektif aprantisaj**
+Nan fen leson sa a, elèv la ap kapab:
+- Esplike mekanis jeneral enterè konpoze nan yon nivo konseptyèl.
+- Ilistre efè akselerasyon enterè konpoze ak yon egzanp senp.
+- Konekte konsèp sa a ak ekwasyon pou bati richès Leson 5 la.
+
+**2. Kontni prensipal**
+Enterè konpoze (compounding) vle di touche rannman pa sèlman sou yon montan orijinal ou envesti, men tou sou rannman akimile montan sa a deja pwodui — yon modèl kwasans ki ranfòse tèt li kote kwasans li menm pwodui plis kwasans. Sa bay fòs dirèkteman a ekwasyon pou bati richès Leson 5 la: diferans envesti ant revni ak depans pa rete tou senpleman an plas: li pwodui pwòp rannman pa l, ki yo menm pwodui plis rannman, sa ki akselere trajektwa kwasans jeneral la plis lajan an rete envesti lontan.
+
+Moun souvan pa apresye efè sa a ase espesyalman paske kwasans li nan premye etap yo sanble modès yon fason ki twonpe, alòske kwasans li nan dènye etap yo ka vin dramatik — yon modèl ki rekonpanse tan ou pase sou mache a anpil plis pase li rekonpanse eseye chwazi moman pou antre ak soti sou mache a (sa ki raple diskisyon WHITE-L2-020 sou montan total), sa ki fè tan li menm, se pa sèlman montan ou envesti a, vin yon vrè byen pou bati richès pou kont li.
+
+**3. Egzanp pratik**
+Lè l ap modèle yon envestisman ipotetik senp li kenbe pandan plizyè deseni ak yon to rannman li sipoze ki estab, yon elèv obsève kwasans envestisman an nan dènye ane li yo depase anpil kwasans li nan premye ane li yo, menm si to rannman ki anba a te rete konstan tout tan — yon ilistrasyon dirèk efè akselerasyon enterè konpoze, paske kwasans pita bati pa sèlman sou montan orijinal ou te envesti a, men tou sou gwo rannman akimile tout ane anvan yo.
+
+**4. Egzamen pratik**
+1. Kisa enterè konpoze an jeneral vle di?
+   a) Touche rannman sèlman sou montan orijinal ou envesti, san okenn lòt efè
+   b) Touche rannman ni sou yon montan orijinal ou envesti ni sou rannman li te deja akimile
+   c) Yon kalite kredi taks
+   d) Yon pwogram sibvansyon gouvènman
+
+2. Poukisa modèl kwasans enterè konpoze souvan sanble modès yon fason ki twonpe nan premye etap li yo?
+   a) Enterè konpoze pa gen okenn efè ki gen enpòtans nan okenn etap
+   b) Kwasans lan akselere avèk tan pandan rannman akimile yo menm pwodui plis rannman, sa ki fè kwasans nan dènye etap yo pi gwo anpil
+   c) Enterè konpoze afekte sèlman premye ane yon envestisman
+   d) Kwasans nan premye etap yo toujou pi gwo pase kwasans nan dènye etap yo
+
+3. Vrè oswa Fo: To kwasans yon envestisman ipotetik dwe ogmante avèk tan pou efè akselerasyon enterè konpoze a rive.
+
+4. Kisa modèl elèv la te ilistre sou kwasans nan dènye ane envestisman an kont premye ane li yo?
+   a) Kwasans nan dènye ane yo te pi piti pase nan premye ane yo
+   b) Kwasans nan dènye ane yo te depase anpil kwasans premye ane yo, menm ak yon to rannman ki anba a ki konstan
+   c) Kwasans lan te rete totalman idantik pandan tout peryòd la
+   d) Envestisman an pa t bay okenn kwasans ditou
+
+**5. Kle repons yo**
+1. b  2. b  3. Fo  4. b
+
+**6. Repons ak eksplikasyon**
+1. Enterè konpoze vle di touche rannman ni sou yon montan orijinal ou envesti ni sou rannman li te deja akimile.
+2. Kwasans lan akselere avèk tan pandan rannman akimile yo menm pwodui plis rannman, sa ki fè kwasans nan dènye etap yo parèt pi gwo anpil.
+3. Efè akselerasyon enterè konpoze a rive menm ak yon to rannman ki anba a ki konstan, tou senpleman akoz baz k ap grandi a k ap pwodui rannman.
+4. Modèl la te ilistre efè akselerasyon enterè konpoze: kwasans nan dènye etap yo te depase anpil kwasans nan premye etap yo malgre yon to rannman konstan.
+
+**7. Pwen kle yo**
+- Enterè konpoze vle di touche rannman ni sou yon montan orijinal ou envesti ni sou rannman li te deja akimile.
+- Sa kreye yon modèl kwasans ki ranfòse tèt li e ki akselere, ki bay fòs dirèkteman a ekwasyon pou bati richès Leson 5 la.
+- Kwasans enterè konpoze nan premye etap yo sanble modès yon fason ki twonpe, alòske kwasans nan dènye etap yo ka vin dramatik.
+- Tan li menm, se pa sèlman montan ou envesti a, fonksyone kòm yon vrè byen pou bati richès atravè efè enterè konpoze sa a.
+
+===== GOLD-L2-017
+TITLE: Kòmanse bonè kont kòmanse pita: vrè pri reta a
+SUMMARY: Chak ane reta se yon ane kwasans konpoze ou pa ka rekipere – yon moun ki kòmanse bonè ak ti montan ka pafwa depase yon moun ki kòmanse pita ak pi gwo montan, men li pa janm twò ta pou kòmanse.
+## GOLD-L2-017
+### Kòmanse bonè kont kòmanse pita: vrè pri reta a
+
+**1. Objektif aprantisaj**
+Nan fen leson sa a, elèv la ap kapab:
+- Aplike diskisyon Leson 16 sou enterè konpoze pou ilistre pri pou ranvwaye envestisman.
+- Esplike poukisa yon montan envesti bonè men pi piti ka depase youn ki envesti pita men ki pi gwo.
+- Konekte konsèp sa a ak diskisyon Leson 6 sou pri opòtinite.
+
+**2. Kontni prensipal**
+Lè l bati dirèkteman sou Leson 16, leson sa a ilistre yon aplikasyon espesifik e pwisan enterè konpoze: ranvwaye kòmansman envestisman gen yon vrè pri opòtinite moun souvan pa apresye ase (sa ki raple Leson 6), paske chak ane reta se yon ane kwasans konpoze ou pèdi ou pa ka rekipere pita, menm si alafen ou envesti pi gwo montan. Sa ka bay yon rezilta ki kontrè ak sa ou ta panse: yon envestisè ki kòmanse pi bonè ak pi piti montan ka, nan kèk senaryo, akimile plis pase yon envestisè ki kòmanse pita ak pi gwo montan, tou senpleman paske lajan envestisè ki te kòmanse pi bonè a te gen plis tan pou l konpoze.
+
+Sa pa vle di li janm "twò ta" pou kòmanse envesti — kòmanse pita toujou bay yon benefis ki gen enpòtans konpare ak pa envesti ditou, e diferans ant revni ak depans Leson 5 la rete gen valè pou bati e envesti nan nenpòt laj — men li vle di reta gen yon vrè pri ou ka mezire, sa ki fè aksyon bonè, menm ak ti montan, vrèman gen valè olye yon bagay pou ranvwaye jiskaske yon moman "ideyal" nan lavni ki ka pa amelyore rezilta a anpil.
+
+**3. Egzanp pratik**
+Lè l ap konpare de envestisè ipotetik, youn ki kòmanse envesti yon montan modès nan ven ane li e youn ki kòmanse envesti yon montan pi gwo yon deseni pita, yon elèv modèle tou de senaryo yo ak yon to rannman li sipoze ki idantik e li jwenn envestisè ki te kòmanse pi bonè ak pi piti montan an akimile yon balans final ki konparab oswa menm pi gwo pase envestisè ki te kòmanse pita ak pi gwo montan an, sèlman akoz deseni anplis kwasans konpoze lajan envestisè ki te kòmanse pi bonè a te genyen. Sa ilistre dirèkteman poukisa konsèp pri opòtinite Leson 6 la aplike ak yon fòs espesyal nan desizyon sou ki lè pou kòmanse envesti, pa sèlman nan kisa pou envesti.
+
+**4. Egzamen pratik**
+1. Kisa leson sa a idantifye kòm yon vrè pri pou ranvwaye envestisman?
+   a) Pa gen okenn vrè pri pou ranvwaye envestisman
+   b) Chak ane reta reprezante yon ane kwasans konpoze ou pèdi ou pa ka rekipere pita
+   c) Reta toujou bay yon pi gwo balans final kèlkeswa moman an
+   d) Moman envestisman pa gen okenn rapò ak enterè konpoze
+
+2. Èske yon envestisè ki kòmanse pi bonè ak pi piti montan ka pafwa depase youn ki kòmanse pita ak pi gwo montan?
+   a) Non, sa pa janm posib nan okenn sikonstans
+   b) Wi, akoz ane anplis kwasans konpoze lajan envestisè ki te kòmanse pi bonè a genyen
+   c) Envestisè ki kòmanse pita toujou akimile plis kèlkeswa montan yo envesti
+   d) Moman ou kòmanse pa gen okenn efè sou balans final ou akimile
+
+3. Vrè oswa Fo: Leson sa a sijere li janm vrèman "twò ta" pou kòmanse envesti, san okenn benefis pou kòmanse pita nan lavi.
+
+4. Poukisa envestisè ki te kòmanse pi bonè ak pi piti montan an nan egzanp pratik la te akimile yon balans final ki konparab oswa pi gwo?
+   a) Li te envesti yon montan pi gwo pase envestisè ki te kòmanse pita a
+   b) Lajan li te gen yon deseni anplis kwasans konpoze, sa ki ilistre vrè pri reta a
+   c) Envestisè ki te kòmanse pita a te envesti pou yon peryòd pi long
+   d) Enterè konpoze pa t gen okenn efè sou rezilta okenn nan envestisè yo
+
+**5. Kle repons yo**
+1. b  2. b  3. Fo  4. b
+
+**6. Repons ak eksplikasyon**
+1. Chak ane reta reprezante yon ane kwasans konpoze ou pèdi ou pa ka rekipere pita, menm ak pi gwo kontribisyon nan lavni.
+2. Yon envestisè ki kòmanse pi bonè ak pi piti montan ka pafwa depase yon envestisè ki kòmanse pita ak pi gwo montan, akoz ane anplis enterè konpoze.
+3. Leson sa a di klèman kòmanse pita toujou bay yon benefis ki gen enpòtans konpare ak pa envesti ditou.
+4. Deseni anplis kwasans konpoze envestisè ki te kòmanse pi bonè a, se pa yon montan envesti pi gwo, ki esplike balans final li ki konparab oswa pi gwo.
+
+**7. Pwen kle yo**
+- Ranvwaye envestisman gen yon vrè pri opòtinite ou ka mezire, paske chak ane reta pèdi yon kwasans konpoze ou pa ka rekipere.
+- Yon envestisè ki kòmanse pi bonè ak pi piti montan ka pafwa depase yon envestisè ki kòmanse pita ak pi gwo montan akoz plis tan pou konpoze.
+- Li pa janm vrèman "twò ta" pou kòmanse envesti — kòmanse pita toujou bay yon benefis ki gen enpòtans konpare ak pa envesti ditou.
+- Sa konekte dirèkteman mekanis enterè konpoze Leson 16 la ak kad pri opòtinite Leson 6 la, aplike nan moman.
+
+===== GOLD-L2-018
+TITLE: Envestisman altènatif: yon apèsi
+SUMMARY: Envestisman altènatif gen ladan ekite prive, kapital risk, matyè premyè, objè koleksyon, kriptomonnen, ak kèk estrateji fon kouvèti – yon kategori rezidyèl ki varye anpil, kidonk evalye chak youn separeman.
+## GOLD-L2-018
+### Envestisman altènatif: yon apèsi
+
+**1. Objektif aprantisaj**
+Nan fen leson sa a, elèv la ap kapab:
+- Bay definisyon "envestisman altènatif" kòm yon kategori jeneral.
+- Idantifye egzanp komen ak karakteristik jeneral yo.
+- Rekonèt konsiderasyon jeneral sou risk, likidite, ak aksè pou kategori sa a.
+
+**2. Kontni prensipal**
+Envestisman altènatif an jeneral vle di kategori byen ki deyò aksyon ak obligasyon tradisyonèl yo komèse piblikman (WHITE-L2) ak pwopriyete dirèk imobilye (RED-L2) — souvan tankou ekite prive (private equity) ak kapital risk (venture capital, n ap devlope sa plis nan Leson 19), matyè premyè (commodities), objè koleksyon, kriptomonnen, ak kèk estrateji fon kouvèti (hedge fund). Envestisman sa yo souvan pataje kèk karakteristik jeneral: souvan yon likidite ki pi ba (sa ki raple Leson 14) pase byen yo komèse piblikman, souvan yon sipèvizyon règleman ki mwens estanda ak mwens enfòmasyon piblik disponib pase mache piblik tradisyonèl yo, e, pou kèk kategori, kondisyon envestisman minimòm ki pi wo oswa kondisyon kalifikasyon espesifik pou envestisè.
+
+Kategori sa a laj e varye espre — pwofil risk, rannman, ak likidite atravè diferan kalite envestisman altènatif yo diferan anpil youn ak lòt, sa vle di "envestisman altènatif" fonksyone plis kòm yon kategori rezidyèl (tout sa ki pa antre nan kategori tradisyonèl aksyon piblik, obligasyon, oswa imobilye dirèk) pase yon sèl klas byen ki koyeran ak karakteristik inifòm, sa ki fè kad evalyasyon jeneral Leson 11 la vin espesyalman enpòtan pou aplike ak atansyon sou nenpòt opòtinite envestisman altènatif espesifik, olye sipoze karakteristik yon kalite transfere nan yon lòt.
+
+**3. Egzanp pratik**
+Pandan l ap konsidere plizyè opòtinite envestisman altènatif diferan — yon fon kapital risk, yon fon ki konsantre sou matyè premyè, ak yon pozisyon kriptomonnen — yon elèv rekonèt yo diferan anpil nan karakteristik risk, likidite, ak rannman ki anba yo, malgre teknikman yo tout tonbe anba etikèt laj "envestisman altènatif" la. Olye l sipoze konesans jeneral li sou yon kalite transfere nan yon vrè konpreyansyon sou yon lòt, li aplike kad evalyasyon Leson 11 la separeman e ak atansyon sou chak opòtinite espesifik, li rekonèt etikèt la li menm bay ti kras enfòmasyon itil e espesifik sou vrè karakteristik nenpòt envestisman patikilye.
+
+**4. Egzamen pratik**
+1. Kisa "envestisman altènatif" an jeneral vle di?
+   a) Sèlman aksyon ak obligasyon tradisyonèl yo komèse piblikman
+   b) Kategori byen ki deyò aksyon piblik, obligasyon, ak pwopriyete dirèk imobilye tradisyonèl
+   c) Yon sèl klas byen inifòm ak karakteristik idantik toupatou
+   d) Sèlman envestisman imobilye
+
+2. Poukisa leson sa a dekri "envestisman altènatif" plis kòm yon kategori rezidyèl pase yon klas byen ki koyeran?
+   a) Tout envestisman altènatif pataje karakteristik risk, rannman, ak likidite idantik
+   b) Kalite espesifik ki anndan kategori laj sa a diferan anpil youn ak lòt nan vrè karakteristik yo
+   c) Kategori sa a pa vrèman egziste
+   d) Envestisman altènatif idantik ak aksyon piblik tradisyonèl
+
+3. Vrè oswa Fo: Konesans sou yon kalite envestisman altènatif transfere otomatikman nan yon vrè konpreyansyon sou nenpòt lòt kalite anndan kategori laj sa a.
+
+4. Poukisa elèv la te aplike kad evalyasyon Leson 11 la separeman sou chak opòtinite envestisman altènatif espesifik?
+   a) Tou twa opòtinite yo te fonksyone menm jan
+   b) Karakteristik ki diferan anpil atravè opòtinite sa yo te mande yon evalyasyon separe e atantif olye sipoze yo pataje karakteristik
+   c) Li pa t enterese evalye okenn nan opòtinite yo
+   d) Etikèt "envestisman altènatif" la te bay enfòmasyon konplè e espesifik sou chak opòtinite
+
+**5. Kle repons yo**
+1. b  2. b  3. Fo  4. b
+
+**6. Repons ak eksplikasyon**
+1. Envestisman altènatif an jeneral vle di kategori byen ki deyò aksyon piblik, obligasyon, ak pwopriyete dirèk imobilye tradisyonèl.
+2. Kalite espesifik ki anndan kategori laj sa a diferan anpil nan vrè karakteristik risk, rannman, ak likidite yo, sa ki fè l fonksyone plis kòm yon kategori rezidyèl.
+3. Konesans sou yon kalite envestisman altènatif pa transfere otomatikman nan yon vrè konpreyansyon sou yon kalite ki diferan anpil.
+4. Aplikasyon separe e atantif elèv la te fè kad evalyasyon an te trete yon fason apwopriye karakteristik apa chak opòtinite.
+
+**7. Pwen kle yo**
+- Envestisman altènatif an jeneral gen ladan ekite prive, kapital risk, matyè premyè, objè koleksyon, kriptomonnen, ak kèk estrateji fon kouvèti.
+- Kategori sa a souvan gen yon likidite ki pi ba ak yon sipèvizyon ki mwens estanda pase mache piblik tradisyonèl yo.
+- Kategori a fonksyone plis kòm yon gwoupman rezidyèl pase yon klas byen ki koyeran, akoz gwo varyasyon anndan l.
+- Ou ta dwe aplike kad evalyasyon Leson 11 la separeman e ak atansyon sou chak opòtinite envestisman altènatif espesifik.
+
+===== GOLD-L2-019
+TITLE: Ekite prive ak kapital risk: baz pou envestisè chak jou
+SUMMARY: Ekite prive envesti nan konpayi prive pou amelyore e vann yo; kapital risk envesti nan konpayi jèn ki gen gwo potansyèl kwasans – tou de souvan ilikid, alontèm, e ak risk pèt total sou envestisman endividyèl.
+## GOLD-L2-019
+### Ekite prive ak kapital risk: baz pou envestisè chak jou
+
+**1. Objektif aprantisaj**
+Nan fen leson sa a, elèv la ap kapab:
+- Bay definisyon ekite prive ak kapital risk nan yon nivo konseptyèl.
+- Esplike konsiderasyon jeneral sou aksè ak risk pou envestisè chak jou.
+- Konekte konsèp sa a ak diskisyon BLUE-L2-029 sou sendikasyon ak asosyasyon.
+
+**2. Kontni prensipal**
+Ekite prive an jeneral vle di envesti nan konpayi prive (ki pa komèse piblikman) ak objektif pou amelyore yo e alafen vann yo pou yon benefis; kapital risk an jeneral vle di envesti nan konpayi prive ki nan premye etap yo, souvan ak gwo potansyèl kwasans, kote w aksepte yon gwo risk echèk pou envestisman endividyèl an echanj pou potansyèl rannman ki depase anpil nòmal ki soti nan ti minorite ki reyisi a. Tou de kategori yo raple diskisyon BLUE-L2-029 sou sponsò ak envestisè pasif, paske envestisè chak jou yo an jeneral jwenn aksè a opòtinite sa yo kòm asosye limite pasif olye yo jere dirèkteman konpayi ki anba yo.
+
+Istorikman, aksè dirèk a opòtinite ekite prive ak kapital risk te souvan limite a envestisè enstitisyonèl ak moun ki satisfè kondisyon kalifikasyon espesifik, menm si kèk estrikti fon te elaji yon ti aksè avèk tan — sa rete yon domèn ki gen yon gwo mank likidite (Leson 14), orizon tan ki long ki nesesè (Leson 15), ak yon vrè risk pèt total sou envestisman endividyèl, sa ki fè kad evalyasyon jeneral (Leson 11) ak konsyans sou siy danje (Leson 12) espesyalman enpòtan akoz enfòmasyon piblik ki pi limite ki an jeneral disponib konpare ak altènativ yo komèse piblikman.
+
+**3. Egzanp pratik**
+Pandan l ap konsidere yon opòtinite pou envesti kòm asosye limite nan yon fon kapital risk, yon elèv aplike menm rigè evalyasyon diskisyon BLUE-L2-029 sou sendikasyon an: li fè rechèch sou istorik jesyonè fon an, li konprann peryòd blokaj plizyè ane fon an an jeneral genyen (sa ki raple diskisyon Leson 14 sou likidite), e li rekonèt konpayi endividyèl nan pòtfolyo fon an gen yon vrè risk pèt total, ak rannman jeneral fon an ki depann de yon pi piti kantite envestisman ki reyisi ki fè ase pi byen pou konpanse echèk yo — yon pwofil risk ak estrikti ki diferan anpil de yon fon endèks aksyon piblik divèsifye.
+
+**4. Egzamen pratik**
+1. Kisa ekite prive an jeneral mande?
+   a) Envesti sèlman nan aksyon yo komèse piblikman
+   b) Envesti nan konpayi prive ak objektif pou amelyore yo e alafen vann yo pou yon benefis
+   c) Yon kalite obligasyon gouvènman
+   d) Yon kont epay
+
+2. Kisa kapital risk an jeneral mande?
+   a) Envesti nan konpayi ki deja etabli e ki komèse piblikman
+   b) Envesti nan konpayi prive ki nan premye etap yo e ki gen gwo potansyèl kwasans, kote w aksepte yon gwo risk endividyèl pou potansyèl rannman ki depase anpil nòmal
+   c) Yon rannman garanti, san risk
+   d) Yon kalite envestisman imobilye
+
+3. Vrè oswa Fo: Envestisman ekite prive ak kapital risk an jeneral likid menm jan ak aksyon yo komèse piblikman.
+
+4. Poukisa elèv la te aplike rigè evalyasyon sendikasyon BLUE-L2-029 la sou opòtinite fon kapital risk la?
+   a) De estrikti yo pa pataje okenn resanblans ki gen enpòtans
+   b) Tou de gen ladan envestisè pasif ki konte sou istorik ak estrikti yon sponsò oswa yon jesyonè fon, sa ki raple menm konsiderasyon evalyasyon yo
+   c) Kapital risk pa mande okenn evalyasyon ditou
+   d) Li pa t enterese nan estrikti fon an ni nan peryòd blokaj li
+
+**5. Kle repons yo**
+1. b  2. b  3. Fo  4. b
+
+**6. Repons ak eksplikasyon**
+1. Ekite prive an jeneral vle di envesti nan konpayi prive pou amelyore yo e alafen vann yo pou yon benefis.
+2. Kapital risk an jeneral vle di envesti nan konpayi prive ki nan premye etap yo e ki gen gwo potansyèl kwasans, kote w aksepte yon gwo risk endividyèl pou potansyèl rannman ki depase anpil nòmal.
+3. Ekite prive ak kapital risk an jeneral anpil mwens likid pase aksyon yo komèse piblikman, souvan ak peryòd blokaj plizyè ane.
+4. Estrikti yo pataje a, kote envestisè pasif konte sou istorik yon sponsò oswa yon jesyonè, te fè rigè evalyasyon BLUE-L2-029 la aplike dirèkteman isit la.
+
+**7. Pwen kle yo**
+- Ekite prive envesti nan konpayi prive pou amelyore yo e alafen vann yo; kapital risk envesti nan konpayi jèn ki gen gwo potansyèl kwasans.
+- Envestisè chak jou yo an jeneral jwenn aksè a yo kòm asosye limite pasif, sa ki raple estrikti sponsò/envestisè pasif BLUE-L2-029 la.
+- Envestisman sa yo an jeneral gen yon gwo mank likidite, orizon tan ki long, ak yon vrè risk pèt total sou envestisman endividyèl.
+- Kad evalyasyon jeneral ak konsyans sou siy danje Leson 11–12 yo aplike ak yon enpòtans espesyal akoz enfòmasyon piblik ki pi limite.
+
+===== GOLD-L2-020
+TITLE: Ekite nan biznis kòm yon byen pou bati richès (GOLD rankontre BLUE)
+SUMMARY: Ekite nan biznis se valè pwopriyete nan yon biznis – souvan yon gwo pati nan valè nèt yon pwopriyetè, men li ilikid, li mande patisipasyon pèsonèl, e li pi difisil pou evalye.
+## GOLD-L2-020
+### Ekite nan biznis kòm yon byen pou bati richès (GOLD rankontre BLUE)
+
+**1. Objektif aprantisaj**
+Nan fen leson sa a, elèv la ap kapab:
+- Ranfòse diskisyon pakou BLUE la sou posede biznis nan pèspektiv bati richès.
+- Esplike kijan ekite nan biznis fonksyone kòm yon byen pou bati richès ansanm ak imobilye ak byen sou papye.
+- Aplike konsèp sa a nan yon konparezon ipotetik valè nèt.
+
+**2. Kontni prensipal**
+Leson sa a retounen sou diskisyon BLUE-L2 sou posede biznis klèman atravè lantiy bati richès nivo sa a bay. Ekite nan biznis — valè pwopriyete nan yon biznis, kit se yon ti operasyon lokal oswa yon pi gwo antrepriz — fonksyone kòm yon vrè byen pou bati richès ansanm ak imobilye (Leson 21) ak byen sou papye (Leson 22), souvan li reprezante yon pati enpòtan, pafwa pati ki domine, nan valè nèt jeneral yon mèt biznis, sa ki raple diskisyon BLUE-L2-040 sou evalyasyon biznis.
+
+Ekite nan biznis gen pwòp karakteristik apa li anndan kad evalyasyon nivo sa a: li an jeneral trè ilikid konpare ak aksyon yo komèse piblikman (Leson 14), li souvan mande yon patisipasyon pèsonèl enpòtan e k ap kontinye pou kenbe e fè valè li grandi (kontrèman ak yon pozisyon byen sou papye pasif), e valè li souvan pi difisil pou detèmine avèk presizyon nan nenpòt moman konpare ak yon byen yo komèse piblikman ki gen yon pri mache ou ka obsève kontinyèlman (sa ki raple diskisyon BLUE-L2-040 sou konpleksite evalyasyon).
+
+**3. Egzanp pratik**
+Lè l ap kalkile valè nèt jeneral li, Marisol (sa ki raple BLUE-L2) rekonèt ekite nan biznis li reprezante yon gwo pòsyon nan total richès li, ansanm ak byen imobilye ak byen sou papye li ki pi modès. Li rekonèt ekite nan biznis sa a, kontrèman ak byen sou papye li, mande patisipasyon pèsonèl k ap kontinye li pou kenbe valè l e li vrèman ilikid, paske vann biznis lan ta mande yon pwosesis ki long olye yon tranzaksyon rapid — konsiderasyon apa li mete nan estrateji jeneral li pou bati richès ak divèsifikasyon (sa ki raple diskisyon Leson 9 sou divèsifikasyon atravè klas byen).
+
+**4. Egzamen pratik**
+1. Kisa ekite nan biznis an jeneral reprezante?
+   a) Yon kalite obligasyon
+   b) Valè pwopriyete nan yon biznis
+   c) Yon kredi taks gouvènman
+   d) Yon kalite polis asirans
+
+2. Ki karakteristik apa ekite nan biznis an jeneral genyen, konpare ak byen sou papye yo komèse piblikman?
+   a) Menm likidite ak aksyon yo komèse piblikman
+   b) An jeneral plis mank likidite e souvan li mande patisipasyon pèsonèl k ap kontinye pou kenbe valè li
+   c) Okenn rapò ak patisipasyon pèsonèl pwopriyetè a ditou
+   d) Ekite nan biznis toujou pi fasil pou evalye avèk presizyon pase yon aksyon yo komèse piblikman
+
+3. Vrè oswa Fo: Ekite nan biznis an jeneral likid e fasil pou evalye menm jan ak yon aksyon yo komèse piblikman ki gen yon pri mache ou ka obsève kontinyèlman.
+
+4. Poukisa Marisol te konsidere karakteristik ekite nan biznis li separeman de byen sou papye li nan estrateji jeneral li?
+   a) Yo pataje karakteristik likidite ak patisipasyon idantik
+   b) Mank likidite ekite nan biznis li ak patisipasyon k ap kontinye li mande te konsiderasyon apa pou estrateji divèsifikasyon jeneral li
+   c) Ekite nan biznis pa gen okenn rapò ak valè nèt jeneral li
+   d) Li pa t gen okenn ekite nan biznis pou l konsidere
+
+**5. Kle repons yo**
+1. b  2. b  3. Fo  4. b
+
+**6. Repons ak eksplikasyon**
+1. Ekite nan biznis an jeneral reprezante valè pwopriyete nan yon biznis.
+2. Ekite nan biznis an jeneral gen plis mank likidite e souvan li mande patisipasyon pèsonèl k ap kontinye, kontrèman ak pozisyon pasif yo komèse piblikman.
+3. Ekite nan biznis an jeneral anpil mwens likid e pi difisil pou evalye avèk presizyon pase yon aksyon yo komèse piblikman.
+4. Konsiderasyon apa Marisol te bay karakteristik ekite nan biznis li te enfòme yon fason apwopriye estrateji divèsifikasyon jeneral li.
+
+**7. Pwen kle yo**
+- Ekite nan biznis fonksyone kòm yon vrè byen pou bati richès, souvan yon pati enpòtan oswa ki domine nan valè nèt yon pwopriyetè.
+- Sa ranfòse diskisyon BLUE-L2 sou posede biznis ak evalyasyon nan pèspektiv bati richès.
+- Ekite nan biznis an jeneral gen plis mank likidite, mande plis patisipasyon k ap kontinye, e li pi difisil pou evalye pase byen sou papye.
+- Karakteristik apa sa yo ta dwe antre nan estrateji jeneral yon pwopriyetè pou divèsifikasyon atravè klas byen.
