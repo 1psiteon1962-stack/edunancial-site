@@ -134,3 +134,4 @@ out/PURPLE-L5-001-050-nl.zip 2026-11-22 PURPLE L5 nl complete (50 lessons, Nethe
 out/PURPLE-L5-001-050-de.zip 2026-11-22 PURPLE L5 German complete
 out/PURPLE-L5-001-050-ht.zip 2026-11-22 PURPLE L5 Haitian complete
 out/ORANGE-L5-001-050-en-GB.zip 2026-11-22 ORANGE L5 British English (43 UK notes)
+out/ORANGE-L5-001-050-es-ES.zip 2026-11-22 ORANGE L5 Spain Spanish (43 Spain notes)
