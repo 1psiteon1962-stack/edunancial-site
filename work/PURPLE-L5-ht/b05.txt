@@ -1,0 +1,456 @@
+===== PURPLE-L5-021
+TITLE: Deklarasyon, garanti ak endemnite nan yon acha biznis
+SUMMARY: Deklarasyon yo bay fè, garanti yo pwomèt yo vre, endemnite yo peye lè yo vyole; plafon, franchiz, delè pou reklame ak lajan sekirize nan yon kont depo fòme vrè pwoteksyon an, prè vandè ak dwa konpansasyon ajoute yon lòt kouch, e deklarasyon konplete verifikasyon an, yo pa ranplase l.
+KEYWORDS: deklarasyon ak garanti, endemnite, kontra acha biznis, kenbe yon pati pri a nan depo, achte yon biznis
+# Deklarasyon, garanti ak endemnite nan yon acha biznis
+
+## Senaryo ouvèti
+SIPOZISYON/OPINYON (sinaryo ipotetik, sèlman pou objektif ansèyman): Imajine yon gwo blòk komèsyal ki toudenkou mete gwo tarif sou yon pakèt pwodwi endistriyèl enpòte, sa ki fè depans monte pou konpayi ki depann de enpòtasyon sa yo kòm materyèl.
+Aplike l isit la: Touswit apre yon achtè fin achte yon konpayi, nouvo tarif frape e yon kliyan di konpayi an te vyole yon kontra livrezon anvan vant lan. Mande atravè koulè yo: Èske vandè a te pwomèt (PURPLE) pa t gen okenn diskisyon an kou? Èske yon pati nan pri a (BLUE) kenbe apa pou kouvri pwomès sa a? Kijan negosyasyon an (ORANGE) deside ki moun ki pote risk sa a?
+
+## Objektif aprantisaj
+- Defini deklarasyon, garanti ak endemnite
+- Eksplike kijan depo, plafon ak franchiz limite oswa sekirize reklamasyon endemnite
+- Konekte distribisyon risk la ak pri acha a ak finansman
+
+## Kontni prensipal
+Lè w achte yon biznis, ou pa ka wè tout bagay. Vandè a konnen plis pase w. Kontra acha a jere twou sa a ak twa zouti:
+- Deklarasyon: Fè vandè a deklare nan yon dat presi ("Pa gen okenn pwosè an kou." "Eta finansye yo kòrèk.").
+- Garanti: Pwomès ke deklarasyon sa yo vre, souvan yo itilize ansanm ak deklarasyon yo.
+- Endemnite: Pwomès pou peye pèt lòt bò a si yon deklarasyon vin fo oswa si yon risk espesifik rive.
+Limit ak pwoteksyon komen:
+- Delè pou reklame: Konbyen tan apre fèmen tranzaksyon an achtè a ka fè yon reklamasyon.
+- Franchiz (basket): Ti reklamasyon ki pi ba pase yon montan fiks pa peye, pou evite diskisyon san fen sou ti bagay.
+- Plafon: Maksimòm vandè a ap peye, souvan yon pousantaj pri a.
+- Depo oswa retni: Yo kenbe yon pati nan pri a pandan yon tan pou sekirize reklamasyon endemnite.
+- Endemnite espesifik: Pwomès apa pou risk yo konnen, tankou yon kontwòl taks an kou.
+Kijan koulè yo konekte:
+- BLUE: Yon achtè ki pa ka jwenn deklarasyon fò ka bese pri a oswa sèvi ak yon prè vandè, sa ki ba li yon fason pou konpanse reklamasyon ak vèsman prè a (si kontra a pèmèt sa).
+- ORANGE: Tout bagay isit la negosye. Yon vandè ki gen anpil achtè enterese ka reziste kont endemnite ki laj. Yon achtè ki gen sèl òf la gen plis pouvwa.
+- GREEN: RÈG ESPESIFIK POU REJYON AN: Peman endemnite ka trete kòm ajisteman pri pou zafè taks; an Ayiti, pa egzanp, dapre enfòmasyon ki disponib, anpil vant biznis fèt devan notè, garanti vandè a bay yo dwe ekri klè nan ak la, e DGI ka trete peman endemnite yo kòm yon ajisteman pri, kidonk verifye sa ak yon avoka ak yon kontab.
+- PURPLE: Verifikasyon (PURPLE-L5-022) ak deklarasyon travay ansanm. Verifikasyon jwenn sa l kapab. Deklarasyon kouvri sa l pa ka jwenn.
+SIPOZISYON/OPINYON: Yon achtè pa ta dwe trete deklarasyon kòm yon ranplasman pou verifikasyon. Yon vandè ki deja depanse lajan vant lan ka difisil pou rekouvre. Depo ak retni fè yon pwomès tounen lajan.
+
+## Egzanp pratik
+EGZANP ILISTRATIF: Maya achte yon konpayi distribisyon pou 1,5 milyon dola.
+Kondisyon kle yo:
+- Vandè a deklare pa gen okenn diskisyon ak kliyan an kou oswa ki menase.
+- Plafon endemnite: 20 % pri a (300 000 dola). Franchiz: 15 000 dola.
+- Depo: 150 000 dola yo kenbe pandan 18 mwa.
+- Delè: 18 mwa pou deklarasyon jeneral yo; pi long pou deklarasyon sou taks.
+- Maya peye tou 300 000 dola nan pri a atravè yon prè vandè, e kontra a pèmèt li konpanse reklamasyon endemnite ki valab ak prè a.
+Twa mwa apre fèmen tranzaksyon an, yon kliyan reklame 90 000 dola pou yon vyolasyon kontra anvan vant lan. Vandè a te resevwa yon lèt avètisman anvan fèmen tranzaksyon an men li pa t di sa.
+Reklamasyon Maya: 90 000 dola depase franchiz 15 000 dola a. Selon mo kontra a, li rekouvre swa tout montan an swa montan ki pi wo pase franchiz la nan depo a. Si depo a te fini, li ta ka konpanse ak prè vandè a.
+SIPOZISYON/OPINYON: Depo a ak dwa konpansasyon an te pi enpòtan pase deklarasyon an li menm. San yo, Maya ta pral fè pwosè ak yon vandè ki te deja ale fè lòt bagay.
+
+## Egzamen pratik
+**Q1. Kisa yon deklarasyon ye nan yon kontra acha?**
+A) Yon fè vandè a deklare nan yon dat presi
+B) Yon fraz piblisite
+C) Yon fòm taks
+D) Yon prè
+**Q2. Kisa yon endemnite fè?**
+A) Li monte pri a
+B) Li transfere anplwaye yo
+C) Li anile vant lan
+D) Li pwomèt pou peye pèt lòt bò a si yon deklarasyon fo oswa si yon risk espesifik rive
+**Q3. Kisa yon depo oswa yon retni ye?**
+A) Yon ranbousman taks
+B) Yon frè bank
+C) Yon avans sou yon kay
+D) Yon pati nan pri a yo kenbe pandan yon tan pou sekirize reklamasyon endemnite
+**Q4. Kisa yon franchiz fè?**
+A) Li limite total reklamasyon yo
+B) Li anpeche yo peye ti reklamasyon ki pi ba pase yon montan fiks
+C) Li kenbe lajan
+D) Li fikse to enterè
+**Q5. Dapre leson an, poukisa depo a te pi enpòtan pase deklarasyon an li menm?**
+A) Deklarasyon ilegal
+B) Yon vandè ki deja depanse lajan an ka difisil pou rekouvre
+C) Depo a bay enterè
+D) Tribinal la te egzije l
+
+## Kle repons yo
+Q1: A
+Q2: D
+Q3: D
+Q4: B
+Q5: B
+
+## Repons ak eksplikasyon
+**Q1.** Deklarasyon yo bay fè achtè a konte sou yo.
+**Q2.** Endemnite deplase depans pwoblèm ki te kache.
+**Q3.** Depo a fè yon pwomès endemnite tounen lajan ki disponib.
+**Q4.** Franchiz evite diskisyon sou ti montan.
+**Q5.** Lajan ki sekirize pi serye pase yon pwomès.
+
+## Pwen kle yo
+- Deklarasyon yo bay fè; garanti yo pwomèt yo; endemnite yo peye lè gen vyolasyon
+- Plafon, franchiz, delè ak depo fòme vrè pwoteksyon an
+- Prè vandè ak dwa konpansasyon ajoute yon lòt kouch
+- Deklarasyon konplete verifikasyon an; yo pa ranplase l
+
+===== PURPLE-L5-022
+TITLE: Verifikasyon legal anvan w achte yon biznis
+SUMMARY: Verifikasyon legal jwenn risk eta finansye yo pa montre; tcheke sosyete a, kontra yo, anplwaye yo, pwopriyete entèlektyèl, imobilye, pwosè, règleman ak dèt, kite rezilta yo fòme pri, estrikti, deklarasyon, depo ak kondisyon fèmen, e fikse davans kondisyon pou w kite zafè a.
+KEYWORDS: lis verifikasyon legal, verifikasyon nan acha biznis, revizyon legal pou achte yon biznis, revizyon kontra
+# Verifikasyon legal anvan w achte yon biznis
+
+## Senaryo ouvèti
+SIPOZISYON/OPINYON (sinaryo ipotetik, sèlman pou objektif ansèyman): Imajine de gwo pisans ekonomik k ap sere kontwòl ekspòtasyon youn kont lòt sou yon gwoup konpozan teknolojik avanse ke anpil endistri itilize.
+Aplike l isit la: Yon achtè rete kèk jou pou l fèmen acha yon konpayi ki vann pwodwi teknoloji. Nouvo kontwòl ekspòtasyon toudenkou limite yon founisè kle. Mande atravè koulè yo: Èske kontra livrezon konpayi an (PURPLE) pèmèt li fini nan sitiyasyon sa a? Èske valè finansye l (BLUE/WHITE) depann de founisè sa a? Èske gen lisans oswa pèmi (PURPLE) ki ta ka anile?
+
+## Objektif aprantisaj
+- Bay lis prensipal kategori verifikasyon legal yo
+- Konekte rezilta legal yo ak desizyon sou pri, estrikti ak finansman
+- Deside kilè yon rezilta dwe chanje oswa kanpe yon zafè
+
+## Kontni prensipal
+Verifikasyon (due diligence) se envestigasyon yon achtè fè anvan l fèmen tranzaksyon an. Verifikasyon finansye (BLUE/GREEN) gade chif yo. Verifikasyon legal (PURPLE) gade dwa, obligasyon ak risk chif yo ka pa montre.
+Yon lis legal pratik:
+1. Sosyete ak pwopriyete: Èske konpayi an an règ? Ki moun ki posede l vre? Èske gen opsyon oswa pwomès pwopriyete bay lòt moun?
+2. Kontra enpòtan: Kontra ak kliyan, founisè, lwaye, prè ak asosyasyon. Chèche kloz chanjman kontwòl ki pèmèt lòt bò a fini kontra a si mèt yo chanje.
+3. Anplwaye: Kontra travay, klasifikasyon kontraktè (PURPLE-L5-031), obligasyon benefis, kloz non-konpetisyon ak reklamasyon an kou.
+4. Pwopriyete entèlektyèl: Èske konpayi an vrèman posede mak li, lojisyèl li ak kontni li, oswa èske se fondatè oswa kontraktè ki posede yo? (PURPLE-L5-028)
+5. Imobilye: Tit pwopriyete li posede, kondisyon lwaye, règ zonaj ak pwoblèm anviwònman.
+6. Pwosè: Pwosè an kou oswa ki menase, envestigasyon gouvènman ak istwa antant.
+7. Règleman: Lisans, pèmi, respè vi prive done, règ ekspòtasyon ak enpòtasyon. RÈG ESPESIFIK POU REJYON AN; an Ayiti, pa egzanp, dapre enfòmasyon ki disponib, yon biznis dwe anrejistre nan Ministè Komès ak Endistri e gen patant ak nimewo idantifikasyon fiskal (NIF) nan DGI, kèk aktivite bezwen lisans espesyal, e enpòtasyon pase nan Administrasyon Jeneral Ladwàn (AGD), kidonk verifye sa ak yon avoka.
+8. Dèt ak garanti: Prè, garanti ak dwa garanti sou byen konpayi an.
+Kijan rezilta yo chanje zafè a:
+- BLUE: Yon kontra kliyan kle ki ka anile si kontwòl la chanje ka bese pri a oswa mande konsantman kliyan an anvan fèmen tranzaksyon an.
+- PURPLE: Rezilta yo deside deklarasyon espesifik, endemnite ak gwosè depo (PURPLE-L5-021).
+- GREEN: Ekspozisyon fiskal afekte si yon acha byen oswa yon acha aksyon gen plis sans (PURPLE-L5-023).
+- BLACK: Kèk rezilta dwe kanpe yon zafè nèt. Konnen kondisyon w pou kite zafè a davans pwoteje w kont "lafyèv zafè".
+SIPOZISYON/OPINYON: Konpetans ki pi enpòtan nan verifikasyon an se pa li dokiman. Se mande: "Kisa k ap rive valè konpayi sa a si kontra sa a, lisans sa a oswa moun sa a disparèt?"
+
+## Egzanp pratik
+EGZANP ILISTRATIF: Andre ap achte yon ti konpayi akseswa elektwonik pou 2 milyon dola.
+Rezilta verifikasyon an:
+- 45 % revni yo soti nan yon sèl machann, e kontra sa a pèmèt li fini si kontwòl la chanje.
+- Desen pwodwi prensipal konpayi an se yon desinatè endepandan ki te fè l, san okenn transfè dwa alekri.
+- Founisè kle a nan yon rejyon kontwòl ekspòtasyon senaryo a afekte kounye a.
+- Yon diskisyon ak yon kliyan an kou ki vo anviwon 40 000 dola.
+Repons Andre:
+- Li mete kòm kondisyon pou fèmen tranzaksyon an konsantman ekri machann lan pou chanjman kontwòl la.
+- Li mande vandè a jwenn yon transfè dwa siyen nan men desinatè a anvan fèmen tranzaksyon an.
+- Li bese òf li a 1,7 milyon dola pou reflete risk apwovizyonman an, ak yon pati pri 200 000 dola ki depann de rezilta si revni yo kenbe pandan dezan.
+- Li ajoute yon endemnite espesifik ak yon depo pou diskisyon an kou a.
+SIPOZISYON/OPINYON: Okenn nan pwoblèm sa yo pa t parèt nan eta finansye yo. Chak ta ka koupe valè konpayi an anpil apre fèmen tranzaksyon an.
+
+## Egzamen pratik
+**Q1. Sou kisa verifikasyon legal konsantre?**
+A) Dwa, obligasyon ak risk chif yo ka pa montre
+B) Sèlman chif revni
+C) Plan maketing
+D) Fèt anivèsè anplwaye yo
+**Q2. Kisa yon kloz chanjman kontwòl ye?**
+A) Yon kloz sou fòmasyon lidèchip
+B) Yon kloz sou seri biwo
+C) Yon kloz taks
+D) Yon kloz ki pèmèt lòt pati a fini oswa renegosye si mèt yo chanje
+**Q3. Poukisa Andre te mande yon transfè dwa nan men desinatè endepandan an?**
+A) San li, konpayi an ka pa vrèman posede desen pwodwi prensipal li
+B) Pou bese taks
+C) Yo dwe anboche endepandan yo
+D) Se te yon egzijans bank
+**Q4. Kijan Andre te jere risk apwovizyonman an?**
+A) Li te inyore l
+B) Li te achte founisè a
+C) Li te anile zafè a
+D) Li te bese pri a e li te ajoute yon pati pri ki depann de revni
+**Q5. Dapre leson an, ki kesyon kle nan verifikasyon an?**
+A) Èske biwo a bèl?
+B) Konbyen anplwaye ki genyen?
+C) Kisa k ap rive valè a si kontra sa a, lisans sa a oswa moun sa a disparèt?
+D) Kijan logo a ye?
+
+## Kle repons yo
+Q1: A
+Q2: D
+Q3: A
+Q4: D
+Q5: C
+
+## Repons ak eksplikasyon
+**Q1.** Verifikasyon legal konplete verifikasyon finansye a.
+**Q2.** Kloz sa yo ka mete kontra kle an danje nan yon acha.
+**Q3.** Kontraktè yo ka posede sa yo kreye si dwa yo pa transfere alekri.
+**Q4.** Pri a ak pati ki depann de rezilta a te ajiste pou yon risk ki pa sèten.
+**Q5.** Depandans sou yon sèl pwen fèb deside risk valè a.
+
+## Pwen kle yo
+- Verifikasyon legal jwenn risk eta finansye yo pa montre
+- Tcheke sosyete a, kontra yo, anplwaye yo, pwopriyete entèlektyèl, imobilye, pwosè, règleman ak dèt
+- Rezilta yo fòme pri, estrikti, deklarasyon, depo ak kondisyon fèmen
+- Fikse kondisyon pou w kite zafè a davans
+
+===== PURPLE-L5-023
+TITLE: Acha byen oswa acha aksyon
+SUMMARY: Yon acha aksyon pran tout konpayi an ak dèt li yo; yon acha byen chwazi byen ak dèt men li mande transfè ak konsantman, achtè ak vandè souvan prefere diferan estrikti pou rezon taks, e ajisteman pri ka separe benefis pi bon estrikti a.
+KEYWORDS: acha byen oswa acha aksyon, vant aksyon, estrikti yon acha, taks achtè ak vandè, dèt achtè a pran
+# Acha byen oswa acha aksyon
+
+## Senaryo ouvèti
+SIPOZISYON/OPINYON (sinaryo ipotetik, sèlman pou objektif ansèyman): Imajine yon bank santral ki monte to enterè referans li fò e plizyè fwa nan kèk mwa sèlman pou goumen kont yon enflasyon k ap monte.
+Aplike l isit la: Ak to enterè ki wo, yon achtè gen mwens pouvwa pou prete e li vle limite risk nan yon acha. Mande atravè koulè yo: Achte sèlman byen yo (PURPLE) ka kite ansyen dèt yo dèyè, men li ka mande pou yo transfere chak kontra ankò. Ki estrikti ki bay pi bon rezilta fiskal (GREEN)? Kilès ki pi fasil pou finanse (BLUE)?
+
+## Objektif aprantisaj
+- Eksplike diferans ant acha byen ak acha aksyon
+- Konpare kijan chak estrikti deplase dèt ak obligasyon kontra
+- Eksplike poukisa achtè ak vandè souvan prefere diferan estrikti
+
+## Kontni prensipal
+Gen de fason de baz pou achte yon biznis:
+- Acha aksyon: Achtè a achte aksyon oswa pati mèt yo. Konpayi an li menm rete menm jan, ak tout byen li, kontra li ak dèt li, sa yo konnen ak sa yo pa konnen.
+- Acha byen: Sosyete achtè a achte byen li chwazi (ekipman, machandiz, lis kliyan, pwopriyete entèlektyèl, pafwa imobilye) e li pran sèlman dèt li dakò pran. Sosyete vandè a kenbe tout rès la.
+Kijan koulè yo konekte:
+- PURPLE: Nan yon acha aksyon, kontra yo an jeneral rete an plas (sof si yo gen kloz chanjman kontwòl). Nan yon acha byen, anpil kontra, lisans ak pèmi dwe transfere, sa ki ka mande konsantman lòt pati a. Kèk lisans pa ka transfere ditou. RÈG ESPESIFIK POU REJYON AN; an Ayiti, pa egzanp, dapre enfòmasyon ki disponib, transfè aksyon nan yon sosyete anonim dwe anrejistre nan liv aksyonè yo e pafwa devan notè, nan yon acha byen anplwaye yo ka gen dwa dapre Kòd Travay la, e achtè a ka eritye kèk dèt taks si li pa verifye ak DGI, kidonk verifye sa ak yon avoka.
+- PURPLE (responsablite): Acha byen an jeneral pèmèt achtè yo kite dèt yo pa konnen dèyè, menmsi kèk lwa mete yon responsablite siksesè nan sèten sitiyasyon, tankou kèk obligasyon taks oswa travay. RÈG ESPESIFIK POU REJYON AN.
+- GREEN: RÈG ESPESIFIK POU REJYON AN: Nan anpil sistèm, achtè yo prefere acha byen paske yo souvan ka bay byen yo nouvo valè fiskal ki pi wo e amòti yo. Vandè yo souvan prefere vann aksyon paske yo ka taks vant lan yon fason ki pi bon pou yo. Diferans sa a se yon pwen negosyasyon komen.
+- BLUE: Bank yo ka prefere acha byen paske byen yo achte yo ka sèvi kòm yon garanti pwòp.
+- ORANGE: Paske achtè ak vandè vle diferan bagay, pri a souvan ajiste. Yon vandè ki dakò ak yon vant byen ka mande yon pi gwo pri pou konpanse yon tretman fiskal ki pi move.
+SIPOZISYON/OPINYON: Okenn estrikti pa toujou pi bon. Pi bon estrikti a se sa kote rezilta legal, fiskal ak finansman ansanm mache pou tou de bò yo, ak yon pri ki ajiste pou separe benefis la ak jistis.
+
+## Egzanp pratik
+EGZANP ILISTRATIF: Farah vle achte yon enprimri. Vandè a mande 900 000 dola.
+Opsyon A: Acha aksyon pou 900 000 dola.
+- Tout kontra kliyan yo ak kontra lwaye a rete an plas otomatikman.
+- Farah eritye dèt li pa konnen, ki pwoteje sèlman pa deklarasyon ak depo.
+- Baz fiskal ekipman yo rete nan ansyen valè ba vandè a, kidonk dediksyon amòtisman yo piti.
+Opsyon B: Acha byen pou 900 000 dola.
+- Nouvo sosyete Farah achte ekipman, lis kliyan ak mak la.
+- Pwopriyetè a dwe dakò pou transfere kontra lwaye a; de gwo kliyan dwe siyen nouvo kontra.
+- Ansyen dèt yo rete pi fò ak vandè a.
+- Farah ka bay ekipman yo valè fiskal ki pi wo e amòti yo. RÈG ESPESIFIK POU REJYON AN.
+- Bòdwo taks vandè a pi wo.
+Negosyasyon: Vandè a dakò ak yon vant byen si pri a monte 960 000 dola. Kontab Farah estime ekonomi taks li sou plizyè ane depase 60 000 dola, e bank li prefere estrikti acha byen an. SIPOZISYON/OPINYON: Tou de bò yo fini pi byen pase nan premye pozisyon yo.
+
+## Egzamen pratik
+**Q1. Nan yon acha aksyon, kisa k ap rive dèt konpayi an?**
+A) Yo disparèt
+B) Yo rete ak konpayi an, ke achtè a posede kounye a
+C) Leta peye yo
+D) Yo ale bay anplwaye yo
+**Q2. Kisa yo souvan bezwen nan yon acha byen yo pa bezwen nan yon acha aksyon?**
+A) Okenn kontra
+B) Sèlman vòt aksyonè yo
+C) Yon nouvo non konpayi
+D) Konsantman pou transfere anpil kontra, lisans ak kontra lwaye
+**Q3. Poukisa achtè yo souvan prefere acha byen pou rezon taks?**
+A) Yo souvan ka bay byen yo valè fiskal ki pi wo e amòti yo
+B) Pa gen taks pou peye
+C) Vandè yo peye taks achtè yo
+D) Byen yo pa gen taks
+**Q4. Poukisa vandè a te dakò ak yon vant byen nan egzanp lan?**
+A) Farah te monte pri a rive 960 000 dola
+B) Lalwa te egzije l
+C) Pwopriyetè a te ensiste
+D) Vandè a te vle plis taks
+**Q5. Kisa leson an di sou ki estrikti ki pi bon?**
+A) Acha byen toujou pi bon
+B) Sa pa enpòtan
+C) Acha aksyon toujou pi bon
+D) Pi bon estrikti a mache pou tou de bò yo, ak yon pri ki ajiste ak jistis
+
+## Kle repons yo
+Q1: B
+Q2: D
+Q3: A
+Q4: A
+Q5: D
+
+## Repons ak eksplikasyon
+**Q1.** Achtè a pran konpayi an jan li ye, ak dèt li pa konnen yo tou.
+**Q2.** Byen ak kontra yo dwe transfere youn pa youn, souvan ak konsantman.
+**Q3.** Yon nouvo baz fiskal ka kreye pi gwo dediksyon. RÈG ESPESIFIK POU REJYON AN.
+**Q4.** Yon ajisteman pri te separe benefis fiskal achtè a.
+**Q5.** Sa ki konte se rezilta legal, fiskal ak finansman ansanm.
+
+## Pwen kle yo
+- Yon acha aksyon pran tout konpayi an, ak dèt li yo
+- Yon acha byen chwazi byen ak dèt men li mande transfè ak konsantman
+- Achtè ak vandè souvan prefere diferan estrikti pou rezon taks
+- Ajisteman pri ka separe benefis pi bon estrikti a
+
+===== PURPLE-L5-024
+TITLE: Dokiman pou yon prè vandè: biyè, garanti ak defo peman
+SUMMARY: Yon prè vandè fè vandè a tounen moun ki prete lajan, kidonk dokimante l tankou yon moun ki prete; dokiman prensipal yo se biyè a òd, enstriman garanti, garanti pèsonèl ak akò sibòdinasyon, kondisyon sou defo, korije, remèd ak angajman pwoteje tou de bò yo, e rapò taks ak règ to enterè minimòm depann de rejyon an.
+KEYWORDS: dokiman prè vandè, biyè a òd, akò garanti, ipotèk, remèd lè gen defo peman
+# Dokiman pou yon prè vandè: biyè, garanti ak defo peman
+
+## Senaryo ouvèti
+SIPOZISYON/OPINYON (sinaryo ipotetik, sèlman pou objektif ansèyman): Imajine yon bank santral ki monte to enterè referans li fò e plizyè fwa nan kèk mwa sèlman pou goumen kont yon enflasyon k ap monte.
+Aplike l isit la: Lè to bank yo vole monte, plis achtè sèvi ak prè vandè pou achte biznis ak pwopriyete. Mande atravè koulè yo: Ki dokiman (PURPLE) ki fè prè vandè a ka egzekite? Ki garanti (RED/BLUE) ki sekirize l? Kisa k ap rive si achtè a rate peman, e kijan vandè a deklare revni an (GREEN)?
+
+## Objektif aprantisaj
+- Idantifye dokiman prensipal yo nan yon zafè ak prè vandè
+- Eksplike kijan garanti ak ran pwoteje vandè a
+- Dekri kondisyon sou defo, korije ak remèd ki pwoteje tou de pati yo
+
+## Kontni prensipal
+Nan Nivo 3, BLUE te prezante prè vandè pou acha biznis, e RED te montre kijan li ka ede achte pwopriyete. Nan Nivo 5, ou aprann dokiman legal ki fè aranjman an ka egzekite e jis.
+Dokiman prensipal yo:
+1. Biyè a òd: Pwomès ekri achtè a pou l remèt lajan an. Li fikse montan an, to enterè a, kalandriye peman, dat li fini, frè reta ak dwa pou peye anvan lè.
+2. Enstriman garanti:
+   - Pou imobilye: yon ipotèk oswa yon lòt dwa sou pwopriyete a yo anrejistre. RÈG ESPESIFIK POU REJYON AN; an Ayiti, pa egzanp, dapre enfòmasyon ki disponib, yon ipotèk sou tè dwe fèt devan notè e anrejistre nan biwo konsèvasyon ipotèk la, pou byen mèb yo ka sèvi ak yon nantisman, e biyè prè vandè a dwe klè sou enterè ak lòd peman, kidonk verifye sa ak yon notè.
+   - Pou biznis: yon akò garanti ki bay vandè a yon dwa sou byen biznis la, souvan yo fè l piblik atravè yon anrejistreman pou lòt kreyansye konnen. RÈG ESPESIFIK POU REJYON AN.
+3. Garanti pèsonèl: Achtè a ka garanti biyè a pèsonèlman (gade PURPLE-L5-009).
+4. Akò sibòdinasyon: Si yon bank prete tou, bank lan an jeneral mande pou prè vandè a vini an dezyèm pozisyon. Akò sa a fikse ran sa a.
+Kondisyon kle ki pwoteje tou de bò yo:
+- Definisyon defo: Kisa ki konte kòm defo? Peman ki rate, pa kenbe asirans, vann garanti a san konsantman.
+- Avi ak korije: Konbyen tan achtè a genyen pou korije yon defo anvan vandè a ka aji.
+- Remèd: Sa vandè a ka fè apre yon defo, tankou mande tout prè a touswit, fè sezi oswa repran byen biznis la. RÈG ESPESIFIK POU REJYON AN.
+- Angajman: Pwomès tankou kenbe asirans, peye taks e pa pran plis dèt san konsantman.
+- Dwa konpansasyon: Si achtè a ka diminye peman pou kouvri reklamasyon endemnite (PURPLE-L5-021).
+Koneksyon ak GREEN: RÈG ESPESIFIK POU REJYON AN: Vandè yo ka gen dwa deklare benefis la sou tan pandan peman yo rive (tretman an vèsman), e souvan enterè a dwe omwen nan nivo sèten to minimòm.
+SIPOZISYON/OPINYON: Vandè a vin yon moun ki prete lajan. Yon vandè ki pa t ap janm prete yon etranje lajan san dokiman pa ta dwe vann a kredi san yo non plis.
+
+## Egzanp pratik
+EGZANP ILISTRATIF: Walter vann garaj reparasyon machin li bay Kenji pou 600 000 dola. Yon bank prete 360 000 dola. Walter bay yon prè 180 000 dola. Kenji peye 60 000 dola kòm avans.
+Dokiman yo:
+- Biyè a òd: 180 000 dola, 7 % enterè, remèt sou 7 an, peman chak mwa.
+- Akò garanti: Walter gen yon dwa an dezyèm pozisyon sou ekipman ak machandiz garaj la, anrejistre piblikman.
+- Akò sibòdinasyon: Prè bank lan peye an premye.
+- Kenji garanti biyè a pèsonèlman, e garanti a desann a 50 % apre 36 peman alè.
+- Defo: 15 jou reta apre yon avi ekri, oswa pa kenbe asirans.
+- Angajman: Kenji pa ka vann gwo ekipman san konsantman Walter.
+Nan twazyèm ane a, Kenji rate de peman apre li pèdi yon gwo kliyan flòt machin. Walter voye yon avi. Kenji korije l anndan delè a ak yon liy kredi. Yo dakò tou alekri pou twa mwa kote li peye sèlman enterè.
+SIPOZISYON/OPINYON: Dokiman yo te bay Walter dwa li ka egzekite, men yo te bay tou de mesye yo yon pwosesis klè. Klète sa a te pèmèt yon solisyon pratik olye yon batay.
+
+## Egzamen pratik
+**Q1. Kisa yon biyè a òd fè?**
+A) Li transfere tit la
+B) Li fikse to taks
+C) Li ekri pwomès achtè a pou l remèt lajan an ak kondisyon yo
+D) Li ranplase yon kontra acha
+**Q2. Kisa yon enstriman garanti bay vandè a?**
+A) Yon dwa sou yon garanti presi si achtè a fè defo
+B) Pwopriyete biznis la
+C) Yon dediksyon taks
+D) Dwa vòt
+**Q3. Poukisa yo souvan bezwen yon akò sibòdinasyon?**
+A) Pou monte to enterè a
+B) Bank yo an jeneral mande pou prè yo peye an premye
+C) Pou anile biyè a
+D) Pou evite taks
+**Q4. Kisa yon kloz avi ak korije ye?**
+A) Yon kloz sante
+B) Yon chwa fiskal
+C) Yon tèm maketing
+D) Tan pou achtè a korije yon defo apre yon avi anvan remèd yo kòmanse
+**Q5. Kisa ki te fè yon solisyon posib nan egzanp lan?**
+A) Kòlè Walter
+B) Dokiman klè ki te bay tou de bò yo yon pwosesis ki defini
+C) Yon lòd tribinal
+D) Kenji te vann garaj la
+
+## Kle repons yo
+Q1: C
+Q2: A
+Q3: B
+Q4: D
+Q5: B
+
+## Repons ak eksplikasyon
+**Q1.** Biyè a defini montan ak kondisyon prè a.
+**Q2.** Garanti a pèmèt vandè a rekouvre sou byen ki garanti a.
+**Q3.** Li fikse ran ant bank lan ak vandè a.
+**Q4.** Delè pou korije bay yon chans jis pou ranje pwoblèm.
+**Q5.** Klète a te pèmèt yon renegosyasyon pratik.
+
+## Pwen kle yo
+- Yon prè vandè fè vandè a tounen moun ki prete; dokimante l tankou yon moun ki prete
+- Dokiman prensipal yo: biyè, enstriman garanti, garanti pèsonèl ak sibòdinasyon
+- Defo, korije, remèd ak angajman pwoteje tou de bò yo
+- Rapò taks ak règ to enterè minimòm depann de rejyon an
+
+===== PURPLE-L5-025
+TITLE: Kondisyon nan kontra imobilye kòm zouti kont risk
+SUMMARY: Kondisyon yo pèmèt achtè yo soti si gwo kondisyon yo echwe; delè ak règ avi yo dwe respekte egzakteman, abandone kondisyon echanje pwoteksyon kont konpetitivite, e apwòch an pati ka balanse tou de, men pa janm abandone sa w pa ka pèmèt tèt ou pèdi.
+KEYWORDS: kondisyon nan acha imobilye, kondisyon finansman, kondisyon enspeksyon, twou evalyasyon, avans
+# Kondisyon nan kontra imobilye kòm zouti kont risk
+
+## Senaryo ouvèti
+SIPOZISYON/OPINYON (sinaryo ipotetik, sèlman pou objektif ansèyman): Imajine yon bank santral ki monte to enterè referans li fò e plizyè fwa nan kèk mwa sèlman pou goumen kont yon enflasyon k ap monte.
+Aplike l isit la: Pandan to enterè yo ap monte vit, yon achtè siyen yon kontra acha, epi apwobasyon prè bank lan tonbe. Mande atravè koulè yo: Èske kontra a (PURPLE) pèmèt achtè a anile e rekouvre avans li? Èske achtè a te abandone kondisyon finansman an pou l genyen zafè a (ORANGE)? Konbyen lajan avans (WHITE/BLUE) ki an risk kounye a?
+
+## Objektif aprantisaj
+- Dekri prensipal kondisyon nan kontra imobilye
+- Eksplike kijan avans ak delè aji ak kondisyon yo
+- Evalye risk pou abandone kondisyon nan mache ki gen anpil konpetisyon
+
+## Kontni prensipal
+Yon kondisyon se yon egzijans nan yon kontra ki dwe ranpli pou zafè a kontinye. Si li pa ranpli, pati ki pwoteje a souvan ka anile san l pa pèdi avans li, toutotan li respekte delè ak règ avi kontra a.
+Kondisyon komen nan imobilye:
+- Finansman: Achtè a ka anile si li pa ka jwenn yon prè nan kondisyon ki ekri yo.
+- Enspeksyon: Achtè a ka fè enspekte pwopriyete a e anile oswa renegosye selon rezilta yo.
+- Evalyasyon: Achtè a ka anile oswa renegosye si ekspètiz la bay mwens pase pri a.
+- Tit: Achtè a ka anile si pwoblèm tit pa ranje.
+- Vann pwopriyete achtè a: Achtè a ka anile si li pa ka vann pwopriyete li genyen kounye a.
+- Verifikasyon (komèsyal): Tan pou revize kontra lwaye, zonaj, rapò anviwònman ak finans.
+RÈG ESPESIFIK POU REJYON AN: Fòm kontra estanda, delè ak fason yo jere avans yo varye anpil selon jiridiksyon an; an Ayiti, pa egzanp, dapre enfòmasyon ki disponib, vant tè fèt devan notè ki dwe verifye tit la, li komen pou achtè yo bay yon avans ak yon pwomès vant, e pwoblèm tit ak apantaj fè verifikasyon an esansyèl, kidonk verifye sa ak yon notè ak yon apantè.
+Kijan koulè yo konekte:
+- RED: Rezilta enspeksyon ak ekspètiz afekte valè pwopriyete a ak depans reparasyon.
+- BLUE: Kondisyon finansman pwoteje achtè yo lè kondisyon prè yo chanje, tankou nan senaryo a.
+- ORANGE: Nan mache ki gen anpil konpetisyon, achtè yo souvan abandone kondisyon pou fè òf yo pi atiran. Sa ogmante chans yo genyen, men li deplase risk la sou yo.
+- WHITE: Avans lan souvan se yon pati enpòtan nan ekonomi. Pèdi l se yon vrè pèt.
+- PURPLE: Delè yo esansyèl. Rate yon delè avi ka fè w pèdi yon kondisyon otomatikman.
+SIPOZISYON/OPINYON: Abandone yon kondisyon se yon pari. Anvan w abandone youn, mande: "Si sa mal pase, èske m ka pèmèt mwen pèdi avans lan, oswa achte kanmenm?" Si repons lan se non, abandon an se jwèt aza, pa estrateji. Apwòch an pati, tankou diminye delè yon kondisyon olye pou w retire l, ka balanse konpetitivite ak pwoteksyon.
+
+## Egzanp pratik
+EGZANP ILISTRATIF: Nan yon mache cho, Beatriz fè yon òf sou yon ti kay de fanmi. Vandè a gen plizyè òf.
+Òf li:
+- Pri: yon ti kras pi wo pase pri yo mande a.
+- Avans: 25 000 dola.
+- Kondisyon enspeksyon: diminye soti 14 jou rive 7 jou, pa retire.
+- Kondisyon finansman: kenbe, men li bay yon lèt pre-apwobasyon ekri ki solid.
+- Kondisyon evalyasyon: abandone an pati. Li dakò pou l kouvri jiska 15 000 dola nan nenpòt twou ant ekspètiz la ak pri a.
+To yo monte fò pandan pwosesis la. Bank li apwouve l, men ak yon to ki pi wo. Paske kondisyon finansman li te mande apwobasyon "a yon to ki pa depase" yon chif ki ekri, e nouvo to a depase l, li gen yon chwa: anile e rekouvre avans li, oswa kontinye. Apre li fin kalkile lajan k ap antre ankò, li kontinye men li negosye yon bès pri 10 000 dola, li sèvi ak dwa li pou anile kòm levye.
+SIPOZISYON/OPINYON: Beatriz te rete konpetitif san l pa bay tout pwoteksyon li. Kondisyon finansman li ki te byen ekri a te fè yon chòk to tounen yon negosyasyon olye yon pèt.
+
+## Egzamen pratik
+**Q1. Kisa yon kondisyon ye?**
+A) Yon egzijans ki dwe ranpli pou zafè a kontinye
+B) Yon penalite
+C) Yon kalite prè
+D) Yon taks
+**Q2. Kont kisa yon kondisyon finansman pwoteje?**
+A) Move tan
+B) Taks sou pwopriyete
+C) Pa kapab jwenn yon prè nan kondisyon ki ekri yo
+D) Depans asirans tit
+**Q3. Kisa ki ka rive si yon achtè rate delè yon kondisyon?**
+A) Anyen
+B) Li ka pèdi kondisyon an otomatikman
+C) Vandè a dwe peye achtè a
+D) Zafè a anile otomatikman
+**Q4. Kijan Beatriz te rete konpetitif san l pa abandone tout pwoteksyon?**
+A) Li te diminye kèk kondisyon e li te abandone twou evalyasyon an an pati
+B) Li te peye tout an lajan kach
+C) Li te abandone tout bagay
+D) Li te ofri mwens pase pri yo mande a
+**Q5. Ki kesyon yon achtè dwe poze anvan l abandone yon kondisyon?**
+A) Èske vandè a ap renmen m?
+B) Ki koulè kay la?
+C) Ki jan m ka fini vit?
+D) Si sa mal pase, èske m ka pèmèt mwen pèdi avans lan oswa achte kanmenm?
+
+## Kle repons yo
+Q1: A
+Q2: C
+Q3: B
+Q4: A
+Q5: D
+
+## Repons ak eksplikasyon
+**Q1.** Si yon kondisyon pa ranpli, pati ki pwoteje a souvan ka anile.
+**Q2.** Li pèmèt achtè yo anile si finansman an echwe.
+**Q3.** Delè ak règ avi yo esansyèl.
+**Q4.** Apwòch an pati te balanse risk ak konpetitivite.
+**Q5.** Si repons lan se non, abandon an se yon jwèt aza.
+
+## Pwen kle yo
+- Kondisyon yo pèmèt achtè yo soti si gwo kondisyon yo echwe
+- Delè ak règ avi yo dwe respekte egzakteman
+- Abandone kondisyon echanje pwoteksyon kont konpetitivite
+- Apwòch an pati ka balanse tou de; pa janm abandone sa w pa ka pèmèt tèt ou pèdi
