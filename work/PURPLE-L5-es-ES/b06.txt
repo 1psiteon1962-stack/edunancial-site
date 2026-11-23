@@ -1,0 +1,479 @@
+===== PURPLE-L5-026
+TITLE: Las cláusulas del arrendamiento comercial que determinan el valor de un negocio
+SUMMARY: El arrendamiento comercial puede decidir si un negocio sobrevive a una crisis, crece o puede venderse; las opciones de renovación, la cesión, las garantías y la exclusividad suelen valer más que la diferencia en el alquiler.
+KEYWORDS: cláusulas de arrendamiento comercial, cesión del arrendamiento, opción de renovación, aumentos de alquiler, valor del negocio y arrendamiento
+# Las cláusulas del arrendamiento comercial que determinan el valor de un negocio
+
+## Escenario inicial
+SUPUESTO/OPINIÓN (escenario hipotético solo con fines educativos): Imagine una alteración generalizada de salud pública que interrumpe el transporte marítimo y la manufactura a nivel mundial durante un período prolongado, paralizando a la vez las cadenas de suministro de muchas industrias.
+Aplíquelo aquí: Una alteración prolongada cierra un restaurante durante meses. Pregunte desde varios colores: ¿exime el arrendamiento (MORADO) del pago de el alquiler durante un cierre forzoso? ¿Puede el dueño vender el negocio (AZUL) si el arrendamiento no puede cederse a un comprador? ¿Quién es dueño del equipo de cocina instalado en el edificio (ROJO)?
+
+## Objetivos de aprendizaje
+- Identificar las cláusulas del arrendamiento comercial que afectan el valor del negocio
+- Explicar cómo los términos de cesión y renovación afectan una venta
+- Negociar los términos del arrendamiento teniendo en cuenta todo el plan de negocio
+
+## Contenido principal
+Para muchos negocios, el arrendamiento es uno de los contratos más importantes que firman. Puede decidir en silencio si el negocio puede sobrevivir a una crisis, crecer o venderse.
+Cláusulas clave:
+- El término y las opciones de renovación: cuánto dura el arrendamiento y si el inquilino puede extenderlo. Un comprador puede pagar mucho menos por un negocio al que le queda solo un año de arrendamiento y no tiene opción de renovación.
+- La cesión y el subarrendamiento: ¿puede el inquilino transferir el arrendamiento a un comprador? Muchos arrendamientos exigen el consentimiento del arrendador. Los mejores términos dicen que el consentimiento "no se negará sin razón".
+- Los aumentos de alquiler: aumentos fijos, aumentos atados a un índice de inflación o un alquiler porcentual basada en las ventas.
+- Los gastos operacionales: ¿quién paga el impuesto sobre bienes inmuebles (IBI), el seguro y el mantenimiento? Los arrendamientos "netos" trasladan más de estos costos al inquilino. REGLA ESPECÍFICA DE LA REGIÓN en cuanto a la terminología.
+- La cláusula de uso: qué negocio se permite. Una cláusula de uso estrecha puede bloquear un cambio futuro en el modelo de negocio.
+- La exclusividad: protección contra que el arrendador alquile un local cercano a un competidor directo.
+- Las mejoras y los accesorios fijos: de quién son las mejoras que instala el inquilino cuando termina el arrendamiento.
+- La garantía personal: a menudo exigida a los negocios pequeños (vea PURPLE-L5-009).
+- La fuerza mayor y la reducción de alquiler: si el alquiler se reduce o se suspende durante ciertos eventos. Muchos arrendamientos no eximen de el alquiler en absoluto.
+Cómo se conectan los colores:
+- AZUL: La duración del arrendamiento y la posibilidad de cederlo afectan directamente el valor de venta del negocio.
+- ROJO: El financiación y el valor de la propiedad del arrendador dependen de inquilinos confiables, lo que afecta cuánto está dispuesto a negociar.
+- VERDE: REGLA ESPECÍFICA DE LA REGIÓN: Los costos de mejoras del inquilino y las asignaciones para mejoras tienen un tratamiento fiscal; en España, por ejemplo, las obras de mejora del arrendatario suelen amortizarse según su vida útil, y la aportación del arrendador a esas obras puede tener efectos fiscales para ambas partes, por lo que conviene confirmarlo con un asesor fiscal.
+- NARANJA: El poder de negociación es mayor antes de firmar.
+SUPUESTO/OPINIÓN: Un inquilino que negocia un arrendamiento solo por el alquiler mensual a menudo cede mucho más valor en las demás cláusulas.
+
+## Ejemplo práctico
+EJEMPLO ILUSTRATIVO: Omar abre un café. El arrendador le ofrece un arrendamiento de 5 años sin renovación, cesión solo con el consentimiento del arrendador a su "entera discreción" y una garantía personal ilimitada.
+El arrendamiento que negoció Omar:
+- 5 años más dos opciones de renovación de 5 años a alquiler de mercado.
+- Cesión a un comprador cualificado, con un consentimiento que no se negará sin razón.
+- Garantía personal limitada a 12 meses de alquiler, que se extingue tras 3 años de pagos puntuales.
+- Exclusividad: ningún otro café en el centro comercial.
+- Reducción de alquiler si el local no puede operar legalmente durante más de 30 días por una orden del gobierno.
+Omar acepta un alquiler inicial un poco más alta para obtener estos términos.
+Seis años después, vende el café. Como el comprador puede asumir el arrendamiento con dos opciones de renovación pendientes, paga bastante más de lo que pagaría por un café con un arrendamiento corto. SUPUESTO/OPINIÓN: Los términos del arrendamiento de Omar valieron muchas veces la diferencia en el alquiler.
+
+## Prueba práctica
+**Q1. ¿Por qué el término que le queda al arrendamiento afecta el valor de venta de un negocio?**
+A) No lo afecta
+B) Los compradores siempre prefieren los arrendamientos cortos
+C) Los arrendamientos aumentan los impuestos
+D) Un comprador puede pagar menos si el negocio podría perder pronto su local
+
+**Q2. ¿Qué hace la frase "el consentimiento no se negará sin razón" en una cláusula de cesión?**
+A) Permite al arrendador negarse por cualquier motivo
+B) Limita la capacidad del arrendador de rechazar a un comprador cualificado
+C) Prohíbe toda transferencia
+D) Elimina la garantía
+
+**Q3. ¿Contra qué protege una cláusula de exclusividad?**
+A) Los aumentos de alquiler
+B) Que el arrendador alquile un local cercano a un competidor directo
+C) La impuesto sobre bienes inmuebles (IBI)
+D) Las reclamaciones de seguro
+
+**Q4. ¿Qué dio Omar a cambio de mejores términos de arrendamiento?**
+A) Su participación
+B) Una alquiler inicial un poco más alta
+C) El nombre de su café
+D) Su equipo
+
+**Q5. ¿Contra qué error advierte la lección?**
+A) Negociar solo el alquiler mensual
+B) Leer el arrendamiento
+C) Pedir opciones de renovación
+D) Usar un abogado
+
+## Clave de respuestas
+Q1: D
+Q2: B
+Q3: B
+Q4: B
+Q5: A
+
+## Respuestas y explicaciones
+**Q1.** La seguridad del local es parte del valor del negocio.
+**Q2.** Le da al inquilino un camino más justo para vender.
+**Q3.** La exclusividad protege el mercado del inquilino.
+**Q4.** Pagó un poco más de alquiler a cambio de cláusulas más valiosas.
+**Q5.** Las demás cláusulas suelen tener más valor que el alquiler.
+
+## Puntos clave
+- Los términos del arrendamiento pueden decidir la supervivencia, el crecimiento y el valor de venta
+- Los derechos de renovación y cesión importan tanto como el alquiler
+- Las garantías, la exclusividad y las cláusulas de reducción de alquiler son negociables
+- Negocie todo el arrendamiento antes de firmar, cuando el poder de negociación es mayor
+
+===== PURPLE-L5-027
+TITLE: La ley de arrendamiento de vivienda en distintas jurisdicciones
+SUMMARY: La ley que rige las relaciones entre arrendadores e inquilinos es muy local; las reglas de alquiler, los plazos de desahucio, los depósitos y las licencias afectan el rendimiento, y ese riesgo debe reflejarse en las ofertas y las reservas.
+KEYWORDS: diferencias en la ley de arrendamiento, control de alquileres, reglas de desahucio, invertir en varias jurisdicciones, protecciones al inquilino
+# La ley de arrendamiento de vivienda en distintas jurisdicciones
+
+## Escenario inicial
+SUPUESTO/OPINIÓN (escenario hipotético solo con fines educativos): Imagine que los mercados inmobiliario y de crédito al consumo de un país muy poblado, tras años de expansión rápida, comienzan a mostrar señales de una corrección marcada a medida que aumentan los impagos.
+Aplíquelo aquí: Durante una corrección inmobiliaria, dos inversores tienen propiedades de alquiler en lugares distintos. Una jurisdicción permite un desahucio bastante rápido por falta de pago. La otra tiene procedimientos largos y límites a el alquiler. Pregunte desde varios colores: ¿cómo cambia la ley local (MORADO) el riesgo de flujo de efectivo de cada inversor (ROJO)? ¿Su riesgo de financiación (AZUL)? ¿El valor de reventa de su propiedad (comparación BLANCA)?
+
+## Objetivos de aprendizaje
+- Identificar las principales áreas en que difieren las leyes de arrendamiento
+- Explicar cómo las diferencias legales afectan el rendimiento y el riesgo de las inversiones
+- Incluir la investigación legal en la debida diligencia inmobiliario
+
+## Contenido principal
+La ley que rige las relaciones entre arrendadores e inquilinos es una de las áreas más locales del derecho. Dos propiedades con números idénticos pueden tener riesgos muy distintos por el lugar donde están.
+Principales áreas de variación (todas son REGLA ESPECÍFICA DE LA REGIÓN); en España, por ejemplo, el desahucio por impago se tramita ante los juzgados, y las viviendas de uso turístico necesitan licencia o registro según la comunidad autónoma y el municipio, por lo que conviene confirmarlo con un abogado:
+- La regulación de el alquiler: algunos lugares limitan cuánto o con qué frecuencia puede subir el alquiler. Otros no tienen límites.
+- El proceso de desahucio: los motivos permitidos, los plazos de aviso, los plazos judiciales y las protecciones al inquilino varían mucho.
+- Los depósitos de garantía: las cantidades máximas, dónde deben guardarse, los requisitos de intereses y los plazos de devolución.
+- La habitabilidad y las reparaciones: las normas mínimas y los derechos de los inquilinos cuando no se hacen las reparaciones.
+- La inscripción y las licencias: algunos lugares exigen inscribir los alquileres, inspecciones o licencias.
+- Las reglas de alquiler a corto plazo: muchas ciudades restringen o prohíben los alquileres a corto plazo.
+- Las reglas contra el discrimen: las categorías protegidas y cómo se hacen cumplir las reglas.
+Cómo se conectan los colores:
+- ROJO: Las reglas legales afectan directamente los costos de desocupación, las pérdidas de cobro y la rapidez con que puede resolverse la situación de un inquilino problemático.
+- AZUL: Los prestamistas pueden tener en cuenta las reglas locales al evaluar un préstamo. Las reservas de efectivo deben ser mayores donde la resolución tarda más.
+- BLANCO: Al comparar los bienes inmuebles con los activos financieros, la fricción legal es parte del riesgo y de la falta de liquidez de los bienes inmuebles.
+- VERDE: Las reglas sobre depósitos y reparaciones afectan la planificación de gastos.
+- MORADO: Los contratos de arrendamiento deben cumplir con la ley local. Las cláusulas que violan la ley local pueden no ser exigibles.
+Esta lección describe las diferencias de forma neutral. Algunas jurisdicciones priorizan la estabilidad del inquilino. Otras priorizan la flexibilidad del dueño. Cada enfoque refleja decisiones de política local, y los inversores deben entenderlas en lugar de suponer que todos los lugares funcionan como el que conocen.
+SUPUESTO/OPINIÓN: Un inversor que compra en un lugar nuevo sin estudiar su ley de arrendamiento está comprando un riesgo desconocido. Esa investigación pertenece a la debida diligencia, junto con la inspección y la tasación.
+
+## Ejemplo práctico
+EJEMPLO ILUSTRATIVO: Grace compara dos edificios de cuatro unidades parecidos, cada uno con un precio de 8 €00.000 y alquileres similares.
+Propiedad A: en una jurisdicción sin regulación de el alquiler y con un plazo de desahucio relativamente corto por falta de pago.
+Propiedad B: en una jurisdicción con límites anuales a los aumentos de alquiler y procedimientos de desahucio que a menudo tardan varios meses.
+Su análisis:
+- Crecimiento de el alquiler: la propiedad A puede subir las alquileres con el mercado. Los aumentos de la propiedad B tienen tope. En diez años, el ingreso proyectado es menor para B.
+- Riesgo de cobro: en B, un inquilino que no paga puede ocupar una unidad durante varios meses. Grace aumenta su reserva para B.
+- Estabilidad de los inquilinos: las reglas de B pueden llevar a arrendamientos más largos en promedio y a menores costos de rotación.
+- Reventa: los compradores de B tendrán en cuenta las mismas reglas en el precio.
+Grace no concluye que una sea "buena" y la otra "mala". SUPUESTO/OPINIÓN: Concluye que la propiedad B debería costar menos para reflejar su menor flexibilidad, y hace su oferta en consecuencia. El vendedor de B, que recibe ofertas similares de otros compradores informados, acepta un precio más bajo.
+
+## Prueba práctica
+**Q1. ¿Por qué dos propiedades con números idénticos pueden tener riesgos distintos?**
+A) El color de la pintura
+B) Los impuestos son idénticos en todas partes
+C) Los inquilinos siempre son iguales
+D) Las leyes locales de arrendamiento difieren
+
+**Q2. ¿Cuál es un área en que la ley de arrendamiento suele variar?**
+A) El clima
+B) Solo los códigos de colores de los edificios
+C) Los plazos del proceso de desahucio
+D) El cálculo de los intereses hipotecarios
+
+**Q3. ¿Qué pasa con las cláusulas de arrendamiento que violan la ley local?**
+A) Prevalecen sobre la ley
+B) Crean impuestos nuevos
+C) Duplican el alquiler
+D) Pueden no ser exigibles
+
+**Q4. ¿Cómo describe la lección las diferencias entre jurisdicciones?**
+A) De forma neutral, como decisiones de política local distintas
+B) Unas tienen razón y otras están equivocadas
+C) Como errores políticos
+D) Como algo irrelevante
+
+**Q5. ¿Qué concluyó Grace sobre la propiedad B?**
+A) No comprarla nunca
+B) Debería costar menos para reflejar su menor flexibilidad
+C) Siempre es mejor
+D) Sus reglas no importan
+
+## Clave de respuestas
+Q1: D
+Q2: C
+Q3: D
+Q4: A
+Q5: B
+
+## Respuestas y explicaciones
+**Q1.** La ley local cambia el riesgo del flujo de efectivo y de la resolución de problemas.
+**Q2.** Los procedimientos de desahucio varían mucho. REGLA ESPECÍFICA DE LA REGIÓN.
+**Q3.** Los contratos de arrendamiento deben cumplir con la ley local.
+**Q4.** El currículo presenta las diferencias regionales de forma descriptiva.
+**Q5.** El riesgo legal se reflejó en el precio de su oferta.
+
+## Puntos clave
+- La ley de arrendamiento es muy local y varía según la región
+- Las reglas de alquiler, los plazos de desahucio, los depósitos y las licencias afectan el rendimiento
+- Refleje la fricción legal en las ofertas y en las reservas
+- La investigación legal pertenece a la debida diligencia inmobiliario
+
+===== PURPLE-L5-028
+TITLE: La propiedad intelectual como activo del balance
+SUMMARY: La propiedad intelectual puede ser el activo más valioso de una empresa; asegure su titularidad por escrito cuando se crea, sobre todo con los contratistas, para respaldar las licencias y el valor.
+KEYWORDS: valor de la propiedad intelectual, titularidad de la PI, marcas derechos de autor patentes secretos comerciales, cesión de PI
+# La propiedad intelectual como activo del balance
+
+## Escenario inicial
+SUPUESTO/OPINIÓN (escenario hipotético solo con fines educativos): Imagine dos grandes potencias económicas que intensifican los controles de exportación entre sí sobre una categoría de componentes de tecnología avanzada que se usan en muchas industrias.
+Aplíquelo aquí: Los controles de exportación impiden que una empresa compre un componente tecnológico clave. Su único camino es diseñar su propia versión. Pregunte desde varios colores: ¿quién será dueño del nuevo diseño (MORADO): la empresa, los ingenieros o contratistas externos? ¿Puede licenciarse el nuevo diseño a otros para generar ingresos (NARANJA/AZUL)? ¿Aumenta el valor de la empresa (BLANCO)?
+
+## Objetivos de aprendizaje
+- Describir los principales tipos de propiedad intelectual
+- Explicar cómo los negocios aseguran la titularidad de la PI
+- Conectar la PI con el financiación, las licencias y el valor del negocio
+
+## Contenido principal
+La propiedad intelectual (PI) es la titularidad legal de las creaciones de la mente. Para muchos negocios modernos, la PI vale más que los edificios o el equipo.
+Tipos principales (los detalles son una REGLA ESPECÍFICA DE LA REGIÓN):
+- Las marcas: nombres de marca, logos y lemas que identifican los productos o servicios de un negocio.
+- Los derechos de autor: obras creativas originales como textos, código de software, videos y diseños.
+- Las patentes: invenciones que cumplen requisitos legales, concedidas por un tiempo limitado a cambio de su divulgación pública.
+- Los secretos comerciales: información valiosa que se mantiene confidencial, como recetas, procesos o datos de clientes, protegida mientras se tomen medidas razonables para mantenerla en secreto.
+Asegurar la titularidad es donde fallan muchos negocios:
+- Los empleados: en muchos sistemas, la obra creada por empleados dentro de su trabajo puede pertenecer al patrono, pero no siempre. Los acuerdos escritos claros ayudan.
+- Los contratistas y los independientes: a menudo son dueños de lo que crean, a menos que haya una cesión por escrito. (Vea el ejemplo de PURPLE-L5-022.)
+- Los fundadores: la PI creada antes de que existiera una empresa puede pertenecer personalmente al fundador hasta que la ceda.
+- La inscripción: inscribir las marcas y las patentes, donde sea posible, fortalece su protección.
+Cómo se conectan los colores:
+- AZUL: Los inversores y los compradores revisan la titularidad de la PI en la diligencia. Una titularidad poco clara puede reducir el valor o acabar con un negocio.
+- NARANJA: Las marcas y el contenido son activos de marketing. Licenciarlos puede crear nuevos ingresos (PURPLE-L5-030).
+- BLANCO: Las empresas con mucha PI suelen valorarse por su potencial de ganancias más que por sus activos físicos.
+- VERDE: REGLA ESPECÍFICA DE LA REGIÓN: Los costos de desarrollo de la PI, los ingresos por licencias y las transferencias de PI entre compañías relacionadas tienen reglas fiscales; en España, por ejemplo, el Impuesto sobre Sociedades ofrece deducciones por investigación, desarrollo e innovación y una reducción de las rentas procedentes de ciertos activos intangibles, por lo que conviene confirmarlo con un asesor fiscal.
+- MORADO: Los acuerdos de confidencialidad (de PURPLE-L2) protegen los secretos comerciales durante las conversaciones.
+SUPUESTO/OPINIÓN: El momento más barato para asegurar la titularidad de la PI es cuando se crea. Arreglarlo después, cuando un contratista sabe que la empresa necesita su firma, puede salir caro.
+
+## Ejemplo práctico
+EJEMPLO ILUSTRATIVO: Nadia dirige una pequeña empresa que fabrica sensores inteligentes para jardines. En el escenario, debe rediseñar un componente internamente.
+Sus pasos en materia de PI:
+- Cada empleado firma un acuerdo que cede a la empresa las invenciones creadas en su trabajo.
+- Contrata a un contratista externo de ingeniería con un contrato que tiene una cláusula clara de cesión de PI, firmado antes de empezar el trabajo.
+- Solicita la protección de patente para el nuevo diseño donde califique. REGLA ESPECÍFICA DE LA REGIÓN.
+- Inscribe el nombre de su marca como marca registrada en sus mercados principales.
+- Los archivos del diseño se mantienen confidenciales, con acceso limitado y acuerdos de confidencialidad en las conversaciones con suplidores.
+Dos años después, una empresa más grande le ofrece licenciar el diseño a cambio de regalías y luego explora comprar la empresa de Nadia. Su equipo de diligencia encuentra una titularidad de PI limpia, lo que respalda una valoración sólida.
+SUPUESTO/OPINIÓN: El trabajo de PI de Nadia costó una cantidad modesta al principio. Convirtió un rediseño provocado por una crisis en una nueva fuente de ingresos y en una empresa más valiosa.
+
+## Prueba práctica
+**Q1. ¿Qué tipo de PI protege un nombre de marca o un logo?**
+A) La patente
+B) Solo el derecho de autor
+C) El secreto comercial
+D) La marca
+
+**Q2. ¿Quién suele ser dueño de la obra creada por un contratista independiente sin una cesión por escrito?**
+A) La empresa, automáticamente
+B) El gobierno
+C) El contratista
+D) Nadie
+
+**Q3. ¿Cómo se protege un secreto comercial?**
+A) Tomando medidas razonables para mantenerlo confidencial
+B) Solo mediante la inscripción
+C) Publicándolo
+D) Patentándolo
+
+**Q4. ¿Por qué importa una titularidad limpia de la PI en una adquisición?**
+A) Reduce los impuestos
+B) Se exige para todos los préstamos
+C) Los compradores la revisan en la diligencia, y una titularidad poco clara puede reducir el valor o acabar con un negocio
+D) Cambia el nombre de la empresa
+
+**Q5. ¿Cuál es el momento más barato para asegurar la titularidad de la PI?**
+A) Cuando se crea la PI
+B) Después de una demanda
+C) Al vender la empresa
+D) Nunca
+
+## Clave de respuestas
+Q1: D
+Q2: C
+Q3: A
+Q4: C
+Q5: A
+
+## Respuestas y explicaciones
+**Q1.** Las marcas identifican el origen de los productos o servicios.
+**Q2.** Los contratistas suelen conservar la titularidad a menos que los derechos se cedan por escrito.
+**Q3.** La protección del secreto comercial depende de mantenerlo en secreto.
+**Q4.** La titularidad de la PI es un elemento central de la diligencia.
+**Q5.** Arreglar la titularidad después puede salir caro.
+
+## Puntos clave
+- La PI puede ser el activo más valioso de una empresa
+- Las marcas, los derechos de autor, las patentes y los secretos comerciales protegen cosas distintas
+- Asegure la titularidad por escrito cuando se crea la PI, sobre todo con los contratistas
+- Una PI limpia respalda los ingresos por licencias y valoraciones más altas
+
+===== PURPLE-L5-029
+TITLE: Cómo proteger una marca más allá de las fronteras
+SUMMARY: Los derechos sobre una marca son generalmente territoriales; antes de entrar en un mercado, verifique la disponibilidad legal y el significado cultural del nombre, inscríbala temprano y asegure la titularidad de la marca en los contratos con socios.
+KEYWORDS: marca internacional, protección de marca en varios países, registro de marca en el extranjero, aspectos legales de la entrada a un mercado
+# Cómo proteger una marca más allá de las fronteras
+
+## Escenario inicial
+SUPUESTO/OPINIÓN (escenario hipotético solo con fines educativos): Imagine un gran bloque comercial que impone de repente aranceles altos sobre una amplia categoría de bienes manufacturados importados, lo que eleva los costos de las empresas que dependen de esas importaciones como insumos.
+Aplíquelo aquí: Los nuevos aranceles hacen que una empresa reconsidere en qué países vender. Planea entrar rápidamente en un mercado nuevo. Pregunte desde varios colores: ¿la protege su marca (MORADO) en ese nuevo país o solo en su país de origen? ¿Podría otra persona ser ya dueña del nombre allí? ¿Cómo afectaría eso el plan de marketing (NARANJA) y los costos (AZUL)?
+
+## Objetivos de aprendizaje
+- Explicar por qué los derechos sobre una marca son generalmente territoriales
+- Describir los riesgos de expandirse sin proteger la marca
+- Planificar la protección de la marca como parte de la entrada en un mercado internacional
+
+## Contenido principal
+DATO VERIFICADO: Los derechos sobre una marca son generalmente territoriales. Una marca registrada en un país normalmente protege la marca solo en ese país. REGLA ESPECÍFICA DE LA REGIÓN: Algunos sistemas regionales permiten que una sola solicitud cubra varios países, y los sistemas de registro internacional pueden simplificar las solicitudes, pero la protección sigue dependiendo de cada jurisdicción cubierta.
+Algunas jurisdicciones dan los derechos a quien registra primero, no a quien usó la marca primero. En esos lugares, un negocio que llega tarde puede encontrar su propio nombre ya registrado por otra persona, a veces por un distribuidor local o por alguien que registra marcas extranjeras conocidas con la esperanza de vendérselas de vuelta.
+Cómo se conectan los colores:
+- NARANJA: Los lanzamientos de marketing en un país nuevo dependen de poder usar el nombre de la marca. Un conflicto de nombre puede obligar a cambiar la marca y desperdiciar el gasto en marketing.
+- NARANJA (localización): Un nombre de marca puede tener un significado desafortunado en otro idioma. Traducir no es localizar (según el protocolo de traducción del currículo). Verifique tanto la disponibilidad legal como el significado cultural.
+- AZUL: Los contratos de distribución y de licencia deben decir claramente que la marca pertenece a la empresa, no al distribuidor, y que debe devolverse cuando termine la relación.
+- MORADO: Los sistemas de aduanas de algunos países permiten a los dueños de marcas registrar sus marcas para ayudar a detener la importación de falsificaciones. REGLA ESPECÍFICA DE LA REGIÓN; en España, por ejemplo, la marca puede registrarse en la Oficina Española de Patentes y Marcas o en la Oficina de Propiedad Intelectual de la Unión Europea, y el titular puede pedir a la aduana que retenga mercancías sospechosas de falsificación, por lo que conviene confirmarlo con un abogado.
+- VERDE: REGLA ESPECÍFICA DE LA REGIÓN: El lugar donde está legalmente la titularidad de la PI puede afectar cómo tributan los ingresos por regalías.
+Pasos de planificación:
+1. Haga una lista de los mercados actuales y de los mercados futuros probables.
+2. Busque conflictos en cada mercado antes del lanzamiento.
+3. Presente solicitudes temprano en los mercados clave, incluso antes de vender allí.
+4. Incluya términos sobre la titularidad de la marca en cada contrato con distribuidores o socios.
+SUPUESTO/OPINIÓN: Los cargos de presentación en unos pocos mercados clave suelen ser pequeños comparados con el costo de cambiar la marca después de un conflicto. Presentar la solicitud es un seguro barato para una marca que usted planea hacer crecer.
+
+## Ejemplo práctico
+EJEMPLO ILUSTRATIVO: La empresa de Leo vende productos para el cuidado de la piel bajo la marca "Solara" en su país de origen. Tras el cambio en los aranceles, planea entrar en dos mercados nuevos.
+Su búsqueda de marcas muestra:
+- Mercado 1: "Solara" está disponible. Presenta la solicitud de inmediato.
+- Mercado 2: Una empresa local registró "Solara" para cosméticos hace tres años. Esa jurisdicción sigue un sistema de primero en registrar.
+Opciones para el mercado 2:
+- Intentar comprar el nombre al dueño local u obtener una licencia.
+- Impugnar el registro si hay fundamentos legales. REGLA ESPECÍFICA DE LA REGIÓN.
+- Lanzarse con un nombre de marca distinto en ese mercado.
+Leo también descubre que, en un idioma que se habla en el mercado 2, "Solara" suena parecido a una palabra de jerga. Su asesor de marketing local le recomienda otro nombre de todos modos.
+Se lanza como "Lumeva" en el mercado 2, lo registra primero y firma un contrato de distribución que dice que todos los derechos de la marca pertenecen a su empresa. SUPUESTO/OPINIÓN: Hacer este trabajo antes del lanzamiento tomó semanas. Descubrirlo después del lanzamiento podría haber costado toda la entrada al mercado.
+
+## Prueba práctica
+**Q1. ¿Qué significa que los derechos sobre una marca sean generalmente territoriales?**
+A) Normalmente protegen la marca solo en las jurisdicciones donde se obtienen
+B) Protegen automáticamente en todo el mundo
+C) Vencen en un año
+D) Solo aplican en línea
+
+**Q2. ¿Qué es un sistema de primero en registrar?**
+A) El primer usuario siempre es dueño de la marca
+B) Solo los gobiernos pueden registrar
+C) No se permite registrar
+D) Los derechos pueden ser de quien registra primero
+
+**Q3. ¿Por qué los contratos con distribuidores deben tratar la titularidad de la marca?**
+A) Para dejar claro que la marca es de la empresa, no del distribuidor
+B) Para bajar los precios
+C) Para evitar impuestos
+D) Los distribuidores lo exigen
+
+**Q4. ¿Qué dos verificaciones necesitaba Leo antes de lanzar un nombre en el mercado 2?**
+A) El precio y el color
+B) La disponibilidad legal y el significado cultural
+C) El clima y el envío
+D) La tasa fiscal y la tasa de interés
+
+**Q5. ¿Qué dice la lección sobre presentar solicitudes temprano en los mercados clave?**
+A) Es un desperdicio
+B) Es un seguro barato comparado con cambiar la marca después de un conflicto
+C) Es ilegal
+D) Garantiza las ventas
+
+## Clave de respuestas
+Q1: A
+Q2: D
+Q3: A
+Q4: B
+Q5: B
+
+## Respuestas y explicaciones
+**Q1.** La protección generalmente depende de cada jurisdicción.
+**Q2.** En algunos lugares, el registro tiene prioridad sobre el uso para decidir la titularidad. REGLA ESPECÍFICA DE LA REGIÓN.
+**Q3.** Los términos claros impiden que los distribuidores reclamen la marca.
+**Q4.** Tanto los conflictos legales como los asuntos de idioma pueden descarrilar una marca.
+**Q5.** Presentar temprano protege la expansión futura.
+
+## Puntos clave
+- Los derechos sobre una marca son generalmente territoriales
+- Algunos lugares dan los derechos al primero en registrar
+- Verifique la disponibilidad legal y el significado cultural antes de entrar en un mercado
+- Presente temprano en los mercados clave y asegure la titularidad de la marca en los contratos con socios
+
+===== PURPLE-L5-030
+TITLE: Las licencias y las regalías como fuente de ingresos
+SUMMARY: Una licencia permite ganar ingresos con la PI sin ceder la titularidad; el alcance, el territorio, la exclusividad, las regalías mínimas, las auditorías y el control de calidad protegen tanto el ingreso como la marca.
+KEYWORDS: licencias de PI, ingresos por regalías, términos de un contrato de licencia, franquicia o licencia, ingreso pasivo con PI
+# Las licencias y las regalías como fuente de ingresos
+
+## Escenario inicial
+SUPUESTO/OPINIÓN (escenario hipotético solo con fines educativos): Imagine que la moneda de una economía mediana pierde gran parte de su valor frente a las principales monedas de reserva en cuestión de meses, impulsada por la salida de capitales del país y el deterioro de la confianza de los inversores.
+Aplíquelo aquí: La moneda nacional de una empresa cae bruscamente. La empresa tiene contenido y diseños valiosos. Pregunte desde varios colores: ¿podría licenciar esa PI a socios en otros países (MORADO/NARANJA) traer ingresos en monedas más fuertes (BLANCO)? ¿Cómo deberían calcularse y pagarse las regalías? ¿Cómo tributan las regalías transfronterizas (VERDE)?
+
+## Objetivos de aprendizaje
+- Explicar cómo una licencia crea ingresos sin ceder la titularidad
+- Identificar los términos clave de un contrato de licencia
+- Conectar las licencias con los riesgos de moneda, fiscales y de marca
+
+## Contenido principal
+La etapa MAKE del Marco Filosófico incluye la propiedad intelectual como una forma de crear ingresos. Una licencia permite al dueño ganar dinero con la PI sin ceder la titularidad. El licenciatario obtiene permiso para usar la PI bajo condiciones específicas.
+Términos clave de una licencia:
+- El alcance: qué PI, qué productos, qué usos.
+- El territorio: qué países o regiones.
+- La exclusividad: exclusiva (solo este licenciatario), no exclusiva (muchos licenciatarios) o única (el licenciatario más el dueño).
+- El término y la terminación: cuánto dura y qué la termina antes de tiempo.
+- Las regalías: un porcentaje de las ventas, un cargo fijo por unidad, un pago anual mínimo o un cargo inicial.
+- Los derechos de auditoría: el derecho del dueño a revisar los registros de ventas del licenciatario.
+- El control de calidad: sobre todo para las marcas. REGLA ESPECÍFICA DE LA REGIÓN: En algunos sistemas, licenciar una marca sin controlar la calidad puede debilitar los derechos del dueño.
+- La moneda y el pago: en qué moneda se pagan las regalías y cómo se aplican los tipos de cambio.
+Cómo se conectan los colores:
+- NARANJA: Las licencias amplían el alcance de una marca sin crear equipos de ventas nuevos en cada mercado.
+- AZUL: El ingreso por licencias puede ser estable y de alto margen, pero depende del desempeño del licenciatario.
+- BLANCO: Las regalías pagadas en monedas más fuertes pueden diversificar el ingreso de una empresa, como en el escenario.
+- VERDE: REGLA ESPECÍFICA DE LA REGIÓN: Las regalías transfronterizas pueden estar sujetas a retenciones, y los tratados fiscales pueden reducirlas. La PI que tiene una compañía y que licencia a otra compañía relacionada normalmente debe tener un precio de mercado (a distancia de brazo).
+- MORADO: Una licencia débil puede permitir que un licenciatario dañe la marca o informe ventas menores que las reales.
+Una licencia no es lo mismo que una franquicia. La franquicia suele incluir un sistema de negocio completo, adiestramiento y apoyo continuo, y en algunas jurisdicciones está muy regulada, con requisitos de divulgación. REGLA ESPECÍFICA DE LA REGIÓN; en España, por ejemplo, la Ley del Contrato de Agencia reconoce al agente una indemnización por clientela al terminar el contrato, y los tribunales la han extendido a veces a distribuidores, por lo que conviene confirmarlo con un abogado.
+SUPUESTO/OPINIÓN: Las regalías mínimas protegen al dueño de un licenciatario que obtiene una licencia exclusiva y luego hace poco con ella.
+
+## Ejemplo práctico
+EJEMPLO ILUSTRATIVO: Rafael es dueño de una serie de videos educativos y de su marca. Su moneda nacional cae un 35 % en varios meses.
+Firma una licencia con una editorial de un país con una moneda más fuerte:
+- Alcance: versiones traducidas de los videos y un cuaderno de trabajo complementario.
+- Territorio: solo ese país. No exclusiva para el uso en línea; exclusiva para el impreso.
+- Regalía: 10 % de las ventas netas, con una regalía anual mínima de 2 €0.000, pagada cada trimestre en la moneda de la editorial.
+- Derechos de auditoría una vez al año.
+- Control de calidad: Rafael aprueba las traducciones antes de su publicación.
+Primer año: las ventas son lentas, pero la regalía mínima garantiza 2 €0.000 en una moneda fuerte. El tratado entre los dos países reduce la retención, y su asesor fiscal presenta los formularios necesarios. REGLA ESPECÍFICA DE LA REGIÓN.
+SUPUESTO/OPINIÓN: Rafael convirtió contenido existente en ingresos en moneda extranjera sin vender su PI ni abrir una oficina en el extranjero. La regalía mínima y los derechos de aprobación protegieron tanto su ingreso como su marca.
+
+## Prueba práctica
+**Q1. ¿Qué le permite una licencia al dueño de una PI?**
+A) Ganar ingresos sin ceder la titularidad
+B) Vender la PI de forma permanente
+C) Evitar todos los impuestos
+D) Renunciar al control de calidad
+
+**Q2. ¿Qué es una regalía mínima?**
+A) La licencia más pequeña posible
+B) Una prueba gratis
+C) Un impuesto
+D) Un pago garantizado sin importar las ventas
+
+**Q3. ¿Por qué es importante el control de calidad al licenciar una marca?**
+A) Reduce los costos
+B) Los licenciatarios lo prefieren
+C) En algunos sistemas, licenciar sin control de calidad puede debilitar los derechos del dueño
+D) Solo se exige para las patentes
+
+**Q4. ¿Cómo pueden los tratados fiscales afectar las regalías transfronterizas?**
+A) Duplican los impuestos
+B) No tienen ningún efecto
+C) Prohíben las regalías
+D) Pueden reducir las retenciones
+
+**Q5. ¿En qué se diferencia la franquicia de la licencia?**
+A) Son idénticas
+B) La franquicia siempre es más barata
+C) La franquicia suele incluir un sistema de negocio completo y puede estar muy regulada
+D) La licencia exige adiestramiento
+
+## Clave de respuestas
+Q1: A
+Q2: D
+Q3: C
+Q4: D
+Q5: C
+
+## Respuestas y explicaciones
+**Q1.** Una licencia concede permiso de uso, no la titularidad.
+**Q2.** Los mínimos protegen a los dueños de licenciatarios inactivos.
+**Q3.** La protección de la marca depende de controlar la calidad. REGLA ESPECÍFICA DE LA REGIÓN.
+**Q4.** Los tratados pueden reducir la retención. REGLA ESPECÍFICA DE LA REGIÓN.
+**Q5.** La franquicia es más amplia y a menudo está regulada.
+
+## Puntos clave
+- Una licencia genera ingresos sin ceder la titularidad de la PI
+- El alcance, el territorio, la exclusividad, las regalías, las auditorías y el control de calidad son términos básicos
+- Las regalías transfronterizas implican asuntos de moneda y asuntos fiscales que varían según la región
+- Las regalías mínimas y los derechos de aprobación protegen el ingreso y la marca

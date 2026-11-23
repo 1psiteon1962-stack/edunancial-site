@@ -1,0 +1,463 @@
+===== PURPLE-L5-016
+TITLE: La protección legal del patrimonio y sus límites estrictos
+SUMMARY: KEEP significa proteger el patrimonio con herramientas legales establecidas con antelación; las transferencias hechas para evadir a acreedores existentes pueden anularse y empeorar la situación.
+KEYWORDS: protección legal del patrimonio, transferencia fraudulenta, transacción anulable, etapa KEEP, protección frente a acreedores
+# La protección legal del patrimonio y sus límites estrictos
+
+## Escenario inicial
+SUPUESTO/OPINIÓN (escenario hipotético solo con fines educativos): Imagine que el gobierno de un país mediano da señales de que podría no poder hacer un próximo pago de sus bonos, lo que aumenta el riesgo de impago de su deuda.
+Aplíquelo aquí: A medida que se extiende una crisis de deuda soberana, los negocios quiebran y se acumulan las demandas. Algunos dueños entran en pánico y empiezan a pasar bienes a familiares. Pregunte desde varios colores: ¿qué protecciones se establecieron correctamente con antelación (seguro MORADO/DORADO)? ¿Qué transferencias de último minuto podría anular un tribunal? ¿Cuáles son las penalidades fiscales y legales (VERDE)?
+
+## Objetivos de aprendizaje
+- Describir las herramientas legales de protección del patrimonio
+- Explicar las reglas sobre transferencias fraudulentas o anulables
+- Distinguir la planificación anticipada del ocultamiento de último minuto
+
+## Contenido principal
+El modelo de patrimonio en cuatro etapas del Marco Filosófico incluye KEEP: proteger lo que usted ha construido. KEEP se enseña solo mediante herramientas legales. Nunca significa ocultar bienes a los acreedores, a los tribunales o a un cónyuge.
+Las herramientas legales, por lo general en capas:
+1. El seguro: responsabilidad civil, propiedad, responsabilidad adicional (sombrilla), responsabilidad profesional e incapacidad. Suele ser la primera capa y la más barata.
+2. Las entidades: SL y corporaciones que separan los riesgos del negocio (PURPLE-L5-002 a -010).
+3. Los bienes exentos: REGLA ESPECÍFICA DE LA REGIÓN: Muchas jurisdicciones protegen por ley ciertos bienes frente a los acreedores, como algunas cuentas de retiro, parte del valor neto de una vivienda o ciertos valores de seguros.
+4. Los fideicomisos: fideicomisos bien estructurados, establecidos con antelación por razones legítimas (PURPLE-L5-012).
+5. La titularidad y los contratos: una titularidad cuidadosa (PURPLE-L5-013) y la limitación de las garantías personales (PURPLE-L5-009).
+El límite estricto: las reglas sobre transferencias fraudulentas o anulables. DATO VERIFICADO: Muchos sistemas legales permiten a los acreedores anular las transferencias hechas con la intención de obstaculizar, demorar o defraudar a los acreedores, o las transferencias hechas por menos de su valor justo mientras la persona era insolvente o estaba a punto de serlo. Los tribunales suelen buscar "indicios de fraude", como:
+- Transferencias a familiares o allegados.
+- Transferencias hechas justo después de que se amenazara con una demanda o se presentara.
+- Mantener el control o el uso del bien después de "regalarlo".
+- Transferir casi todo.
+- Recibir poco o nada a cambio.
+REGLA ESPECÍFICA DE LA REGIÓN: Los períodos de revisión retroactiva y las penalidades varían. En algunos lugares, la persona que ayuda con la transferencia también puede ser responsable; en España, por ejemplo, el acreedor puede ejercer la acción pauliana del Código Civil contra los actos hechos en fraude de acreedores, y en un concurso la Ley Concursal permite rescindir ciertos actos perjudiciales, por lo que conviene confirmarlo con un abogado.
+La diferencia clave está en el momento y el propósito. Una protección establecida con años de antelación, por razones legítimas y siendo solvente, es planificación. Mover bienes después de que aparecen los problemas suele ser anulable y puede empeorar las cosas.
+SUPUESTO/OPINIÓN: El mejor momento para construir una protección es cuando no la necesita. El peor momento es la semana después de recibir una carta de requerimiento.
+
+## Ejemplo práctico
+EJEMPLO ILUSTRATIVO: Dos dueños de negocio enfrentan la misma crisis económica.
+La dueña A, hace años y estando sana financieramente: compró una póliza sombrilla, puso sus propiedades de alquiler en SL con cuentas separadas, hizo las aportaciones máximas a una cuenta de retiro protegida por la ley local y mantuvo su negocio debidamente asegurado. Cuando un cliente demanda a su negocio, el seguro cubre la mayor parte de la reclamación y sus bienes personales siguen protegidos. Nada de lo que hizo es anulable, porque lo hizo abiertamente, con antelación y por un valor justo.
+El dueño B, tres semanas después de recibir una carta de requerimiento: le traspasa su casa a su hermano por 1 €, mueve 2 €00.000 a la cuenta de un primo y sigue viviendo en la casa. El abogado del acreedor identifica varios indicios de fraude: transferencias a allegados, un momento justo después de la amenaza, poco valor recibido y uso continuado. El tribunal anula las transferencias. Ahora el dueño B también enfrenta costos legales y una credibilidad dañada ante el juez.
+SUPUESTO/OPINIÓN: El dueño B intentó practicar KEEP con sus bienes y empeoró mucho su situación. Las decisiones más discretas y tempranas de la dueña A funcionaron.
+
+## Prueba práctica
+**Q1. ¿Cuál suele ser la primera capa de protección del patrimonio y la más barata?**
+A) Un fideicomiso en el extranjero
+B) Cerrar las cuentas bancarias
+C) Pasar bienes a la familia
+D) El seguro
+
+**Q2. ¿Qué permite una regla sobre transferencias fraudulentas o anulables?**
+A) Que cualquiera tome sus bienes
+B) Pagar menos impuestos
+C) Que los acreedores anulen las transferencias hechas para obstaculizarlos o defraudarlos
+D) Un proceso sucesorio más rápido
+
+**Q3. ¿Cuál de los siguientes es un "indicio de fraude"?**
+A) Haber comprado un seguro hace años
+B) Traspasar una casa a un familiar justo después de que se amenace con una demanda
+C) Pagar el valor justo de mercado
+D) Mantener cuentas de negocio separadas
+
+**Q4. ¿Cuál es la diferencia clave entre planificar y ocultar?**
+A) El momento y el propósito: con antelación, de forma legítima y siendo solvente, frente a después de que aparecen los problemas
+B) El tamaño de los bienes
+C) El abogado que se usa
+D) Si consta por escrito
+
+**Q5. Según el Marco Filosófico, ¿qué nunca significa KEEP?**
+A) Ocultar bienes a los acreedores, a los tribunales o a un cónyuge
+B) Usar SL
+C) Comprar seguros
+D) Usar fideicomisos
+
+## Clave de respuestas
+Q1: D
+Q2: C
+Q3: B
+Q4: A
+Q5: A
+
+## Respuestas y explicaciones
+**Q1.** El seguro cubre la mayoría de las reclamaciones al menor costo.
+**Q2.** Un tribunal puede deshacer esas transferencias.
+**Q3.** Las transferencias a allegados hechas después de una amenaza son señales de alerta clásicas.
+**Q4.** La planificación anticipada y legítima es legal; las transferencias de último minuto suelen ser anulables.
+**Q5.** KEEP abarca solo la protección legal.
+
+## Puntos clave
+- KEEP significa protección legal: seguros, entidades, bienes exentos, fideicomisos y una titularidad cuidadosa
+- Las transferencias hechas para evadir a acreedores existentes pueden anularse
+- Los indicios de fraude incluyen transferencias a allegados, un mal momento y mantener el control
+- Construya su protección temprano, siendo solvente y por razones legítimas
+
+===== PURPLE-L5-017
+TITLE: El seguro como primera línea de defensa legal
+SUMMARY: El seguro es un contrato que cubre la mayoría de las reclamaciones cotidianas; el texto de la póliza, sus exclusiones y sus límites deben coincidir con los contratos que usted firma y con la entidad que los firma.
+KEYWORDS: tipos de seguro para negocios, seguro de responsabilidad civil, seguro de persona clave, seguro y protección del patrimonio, cláusula de indemnización
+# El seguro como primera línea de defensa legal
+
+## Escenario inicial
+SUPUESTO/OPINIÓN (escenario hipotético solo con fines educativos): Imagine una gran región productora de energía golpeada por un conflicto regional repentino que deja fuera de servicio de la noche a la mañana una gran parte de su capacidad de producción, restringiendo la oferta mundial de energía casi sin aviso.
+Aplíquelo aquí: Un choque energético repentino eleva los costos y altera las operaciones de muchos negocios. Pregunte desde varios colores: ¿cubre el seguro del negocio (DORADO/MORADO) la interrupción causada por eventos como este, o la póliza los excluye? ¿Prometen los contratos con los clientes (AZUL) entregas que el negocio ya no puede hacer? ¿Quién asume la pérdida?
+
+## Objetivos de aprendizaje
+- Identificar los principales tipos de seguro para dueños e inversores
+- Explicar cómo el seguro funciona junto con los contratos y las entidades
+- Leer las partes clave de una póliza: cubierta, exclusiones y límites
+
+## Contenido principal
+El seguro es un contrato (MORADO) que traslada ciertos riesgos a una aseguradora a cambio de una prima. Para la mayoría de los dueños, es la primera capa de protección: cubre las reclamaciones cotidianas, de modo que las entidades y los fideicomisos solo importan en casos raros y graves.
+Tipos principales:
+- Responsabilidad civil general: lesiones o daños a la propiedad de otros causados por el negocio.
+- Propiedad: daños a edificios, equipo e inventario.
+- Interrupción de negocios: ingresos perdidos cuando las operaciones se detienen por un evento cubierto.
+- Responsabilidad profesional (errores y omisiones): fallos en la prestación de servicios profesionales.
+- Sombrilla: cubierta adicional de responsabilidad por encima de otras pólizas.
+- Persona clave: le paga al negocio si una persona esencial muere o queda incapacitada.
+- Pólizas para arrendadores: cubierta específica para propiedades de alquiler (ROJO).
+Cómo se conectan los colores:
+- MORADO: El texto de una póliza lo controla todo. Tres partes importan más: qué está cubierto, qué está excluido y los límites.
+- AZUL: Los contratos con clientes y suplidores suelen trasladar el riesgo mediante cláusulas de indemnización ("usted cubrirá mis pérdidas si…") y exigen ciertos seguros. Un negocio puede prometer en un contrato más de lo que cubre su seguro.
+- ROJO: Los prestamistas suelen exigir un seguro de propiedad que los nombre como beneficiarios de la pérdida.
+- DORADO/BLANCO: El seguro impide que un solo evento borre el capital invertido.
+DATO VERIFICADO: Las pólizas suelen contener exclusiones. Algunas excluyen ciertos desastres, pandemias, guerras o eventos que no causaron daños físicos. REGLA ESPECÍFICA DE LA REGIÓN: Las reglas de cubierta y los requisitos de los reguladores varían; en España, por ejemplo, la Dirección General de Seguros y Fondos de Pensiones supervisa a las aseguradoras y a los mediadores, y el Consorcio de Compensación de Seguros cubre ciertos riesgos extraordinarios, por lo que conviene confirmarlo con un corredor de seguros.
+La jugada de nivel 5 es hacer coincidir tres documentos: los contratos que usted firma, el seguro que tiene y la entidad que firma. Si un contrato promete cubrir las pérdidas de un cliente, ¿cubre su póliza esa promesa?
+SUPUESTO/OPINIÓN: Muchos dueños descubren lo que excluye su póliza solo después de que les deniegan una reclamación. Leer las exclusiones una vez al año con un agente es una de las horas más valiosas que un dueño puede dedicar.
+
+## Ejemplo práctico
+EJEMPLO ILUSTRATIVO: Aisha dirige una empresa de distribución de alimentos. Tiene cubiertas de responsabilidad civil general, de propiedad y de interrupción de negocios.
+Llega el choque energético. Sus costos de combustible se duplican y un suplidor cierra durante dos meses. Presenta una reclamación por interrupción de negocios. La aseguradora la deniega: la póliza solo cubre la interrupción causada por daños físicos a su propia propiedad, y no hubo ninguno.
+Mientras tanto, un contrato con un cliente importante dice que Aisha debe entregar a tiempo o pagar las pérdidas del cliente. El contrato no tiene cláusula de fuerza mayor (vea PURPLE-L5-039). Su póliza de responsabilidad no cubre las penalidades contractuales.
+Después de la crisis, Aisha:
+- Añade una cubierta de interrupción de negocios contingente (que cubre el cierre de un suplidor clave), donde esté disponible.
+- Renegocia los contratos con los clientes para añadir una cláusula de fuerza mayor y limitar su responsabilidad.
+- Traslada los contratos con los clientes a su compañía operadora, separada de la compañía dueña de su almacén.
+SUPUESTO/OPINIÓN: El primer error de Aisha no fue comprar muy poco seguro. Fue firmar contratos que prometían más de lo que su seguro y su estructura podían sostener.
+
+## Prueba práctica
+**Q1. ¿Por qué el seguro suele ser la primera capa de protección?**
+A) Cubre la mayoría de las reclamaciones cotidianas antes de que se necesiten entidades o fideicomisos
+B) Es gratis
+C) Reemplaza todos los contratos
+D) Es obligatorio para todos los bienes
+
+**Q2. ¿Cuáles son las tres partes de una póliza que más importan?**
+A) El color, el tipo de letra y el número de páginas
+B) El nombre del agente, la fecha y la dirección
+C) La cubierta, las exclusiones y los límites
+D) La prima, el logo y el número de teléfono
+
+**Q3. ¿Qué es una cláusula de indemnización?**
+A) Una deducción fiscal
+B) Una condición de un préstamo
+C) Un tipo de seguro de propiedad
+D) Una promesa contractual de cubrir las pérdidas de otra parte
+
+**Q4. ¿Por qué le denegaron a Aisha la reclamación por interrupción de negocios?**
+A) Pagó tarde
+B) Los choques energéticos son ilegales
+C) Su póliza exigía daños físicos a su propia propiedad
+D) No tenía póliza
+
+**Q5. Según la lección, ¿cuál fue el mayor error de Aisha?**
+A) Comprar seguros
+B) Ser dueña de un almacén
+C) Firmar contratos que prometían más de lo que su seguro y su estructura podían sostener
+D) Usar una entidad separada
+
+## Clave de respuestas
+Q1: A
+Q2: C
+Q3: D
+Q4: C
+Q5: C
+
+## Respuestas y explicaciones
+**Q1.** El seguro cubre las pérdidas ordinarias a un costo conocido.
+**Q2.** Estas partes definen qué se paga, qué no y cuánto.
+**Q3.** La indemnización traslada pérdidas de una parte a otra por contrato.
+**Q4.** El detonante de la póliza era un daño físico, que no ocurrió.
+**Q5.** Sus contratos, su seguro y su entidad no estaban alineados.
+
+## Puntos clave
+- El seguro es un contrato; el texto controla la cubierta
+- Lea la cubierta, las exclusiones y los límites cada año
+- Haga coincidir los contratos, el seguro y la entidad que firma
+- Nunca prometa en un contrato más de lo que su protección puede sostener
+
+===== PURPLE-L5-018
+TITLE: La responsabilidad del arrendador y la cubierta sombrilla
+SUMMARY: Los arrendadores responden por las condiciones y la seguridad de sus propiedades; el mantenimiento es gestión de riesgos, y la póliza sombrilla debe coincidir con la forma en que están tituladas las propiedades.
+KEYWORDS: responsabilidad del arrendador, seguro sombrilla para arrendadores, demandas por propiedades de alquiler, términos del contrato de arrendamiento, habitabilidad
+# La responsabilidad del arrendador y la cubierta sombrilla
+
+## Escenario inicial
+SUPUESTO/OPINIÓN (escenario hipotético solo con fines educativos): Imagine que los mercados inmobiliario y de crédito al consumo de un país muy poblado, tras años de expansión rápida, comienzan a mostrar señales de una corrección marcada a medida que aumentan los impagos.
+Aplíquelo aquí: En una corrección inmobiliaria, los arrendadores recortan el presupuesto de mantenimiento para ahorrar efectivo. Pregunte desde varios colores: ¿aumenta el mantenimiento aplazado (ROJO) la exposición legal (MORADO) si un inquilino se lesiona? ¿Lo cubre el seguro del arrendador? ¿Puede la reclamación alcanzar otras propiedades o los ahorros personales (BLANCO)?
+
+## Objetivos de aprendizaje
+- Identificar las fuentes comunes de responsabilidad del arrendador
+- Explicar cómo las leyes de habitabilidad y seguridad afectan la exposición
+- Coordinar el seguro, la estructura de entidades y los contratos de arrendamiento para limitar el riesgo
+
+## Contenido principal
+Una propiedad de alquiler crea deberes legales. Los arrendadores pueden ser responsables cuando su propiedad o su conducta causa daño. En el nivel 5, la pregunta es cómo coordinar el seguro, las entidades, los términos del arrendamiento y el mantenimiento para que un solo incidente no amenace toda la cartera.
+Fuentes comunes de responsabilidad del arrendador:
+- Lesiones por condiciones inseguras: escaleras rotas, mala iluminación, cableado defectuoso.
+- Incumplimiento de las normas de habitabilidad: calefacción o enfriamiento, agua, control de plagas, equipo de seguridad. REGLA ESPECÍFICA DE LA REGIÓN; en España, por ejemplo, la Ley de Arrendamientos Urbanos obliga al arrendador a hacer las reparaciones necesarias para conservar la vivienda habitable, y el desahucio solo puede hacerse por vía judicial, por lo que conviene confirmarlo con un abogado.
+- Reclamaciones de discrimen bajo las leyes de vivienda justa. REGLA ESPECÍFICA DE LA REGIÓN.
+- Disputas sobre depósitos de garantía y procedimientos de desahucio indebidos.
+- Problemas ambientales como la pintura con plomo o el moho en algunas jurisdicciones.
+Cómo se conectan los colores:
+- ROJO: El mantenimiento no es solo un costo. Es gestión de riesgos. El mantenimiento aplazado puede convertir una pequeña factura de reparación en una gran reclamación legal.
+- MORADO: Los contratos de arrendamiento pueden asignar algunas responsabilidades a los inquilinos (como informar los problemas con prontitud), pero muchas jurisdicciones no permiten que un contrato renuncie a los deberes básicos de habitabilidad o seguridad.
+- DORADO/AZUL: Las pólizas para arrendadores y la cubierta sombrilla. Una póliza sombrilla añade cubierta de responsabilidad por encima de las pólizas subyacentes, a menudo a bajo costo por cada millón de cubierta.
+- BLANCO: Si las reclamaciones superan la cubierta y la propiedad está a nombre personal, los ahorros y las inversiones pueden quedar expuestos.
+DATO VERIFICADO: Muchas pólizas sombrilla exigen cierta cubierta mínima en las pólizas subyacentes. Algunas pólizas sombrilla no cubren las propiedades en SL a menos que la SL esté nombrada. REGLA ESPECÍFICA DE LA REGIÓN.
+SUPUESTO/OPINIÓN: Recortar el mantenimiento para ahorrar efectivo durante una recesión suele ser un falso ahorro. La exposición legal crece justo cuando el arrendador tiene menos efectivo para enfrentar una reclamación.
+
+## Ejemplo práctico
+EJEMPLO ILUSTRATIVO: Tariq es dueño de seis unidades en tres edificios. Durante una recesión, aplaza el cambio de una baranda de escalera desgastada para ahorrar 1 €,200.
+El invitado de un inquilino se cae y se lesiona gravemente. La reclamación es de 1 €.5 millones.
+Su estructura:
+- Cada edificio en su propia SL (PURPLE-L5-004).
+- Cubierta de responsabilidad de 1 mil de euroslón por edificio.
+- Una póliza sombrilla de 2 millones de euros, pero que nombra solo a Tariq personalmente, no a las SL.
+La aseguradora cubre 1 mil de euroslón. La aseguradora de la póliza sombrilla cuestiona si cubre a la SL. El abogado de Tariq finalmente lo resuelve, pero solo después de meses de estrés y costos legales.
+Lecciones que Tariq aplica después:
+- Actualizar la póliza sombrilla para nombrar a cada SL.
+- Crear un calendario de mantenimiento y registrar con fechas cada solicitud de reparación de los inquilinos.
+- Mantener una reserva para reparaciones, de modo que las recesiones no retrasen los trabajos de seguridad.
+SUPUESTO/OPINIÓN: La baranda de 1 €,200 era la decisión de riesgo más barata que Tariq podía haber tomado. La estructura de SL ayudó a limitar el daño, pero la verdadera lección fue que la prevención cuesta menos que la protección.
+
+## Prueba práctica
+**Q1. ¿Por qué el mantenimiento aplazado es un asunto legal y no solo de costos?**
+A) Aumenta el impuesto sobre bienes inmuebles (IBI)
+B) Las condiciones inseguras pueden crear responsabilidad si alguien se lesiona
+C) Los inquilinos pagan el mantenimiento
+D) Lo exigen los prestamistas
+
+**Q2. ¿Puede un contrato de arrendamiento renunciar normalmente a los deberes básicos de habitabilidad del arrendador?**
+A) Sí, siempre
+B) Solo en propiedades comerciales
+C) En muchas jurisdicciones, no
+D) Solo si el inquilino lo acepta verbalmente
+
+**Q3. ¿Qué hace una póliza sombrilla?**
+A) Añade cubierta de responsabilidad por encima de las pólizas subyacentes
+B) Cubre los daños por lluvia
+C) Reemplaza el seguro de propiedad
+D) Paga los pagos de la hipoteca
+
+**Q4. ¿Qué laguna le causó problemas a Tariq con su póliza sombrilla?**
+A) Estaba vencida
+B) Lo nombraba a él personalmente, pero no a sus SL
+C) No tenía límite
+D) Solo cubría incendios
+
+**Q5. ¿Qué dice la lección sobre recortar el mantenimiento durante una recesión?**
+A) Siempre es sabio
+B) Suele ser un falso ahorro, porque la exposición legal crece
+C) Lo exige la ley
+D) Mejora el flujo de efectivo de forma permanente
+
+## Clave de respuestas
+Q1: B
+Q2: C
+Q3: A
+Q4: B
+Q5: B
+
+## Respuestas y explicaciones
+**Q1.** El mantenimiento previene las condiciones que causan las reclamaciones.
+**Q2.** Muchos lugares no permiten que los contratos de arrendamiento renuncien a los deberes básicos de seguridad. REGLA ESPECÍFICA DE LA REGIÓN.
+**Q3.** La cubierta sombrilla extiende los límites de responsabilidad más allá de las pólizas básicas.
+**Q4.** Las pólizas sombrilla pueden tener que nombrar a cada entidad dueña de una propiedad.
+**Q5.** La exposición legal aumenta cuando el efectivo está más apretado.
+
+## Puntos clave
+- La responsabilidad del arrendador surge de fallos de seguridad, habitabilidad, discrimen y procedimiento
+- El mantenimiento es gestión de riesgos, no solo un costo
+- La cubierta sombrilla debe coincidir con la forma en que están tituladas las propiedades
+- La prevención cuesta menos que la protección
+
+===== PURPLE-L5-019
+TITLE: Las cuentas de retiro, la protección frente a acreedores y la estructura legal
+SUMMARY: La protección institucional y la protección frente a acreedores son cosas distintas; muchos sistemas protegen ciertas cuentas de retiro frente a los acreedores, y las aportaciones regulares combinan beneficios fiscales con un escudo legal.
+KEYWORDS: protección de cuentas de retiro frente a acreedores, bienes exentos, retiro y demandas, ahorros protegidos
+# Las cuentas de retiro, la protección frente a acreedores y la estructura legal
+
+## Escenario inicial
+SUPUESTO/OPINIÓN (escenario hipotético solo con fines educativos): Imagine una institución financiera de importancia sistémica que revela de repente una pérdida grande que no se había divulgado, lo que despierta el temor de que el riesgo de contraparte se propague por todo el sistema bancario.
+Aplíquelo aquí: Un susto bancario hace que la gente se preocupe por dónde están más seguros sus ahorros. Pregunte desde varios colores: ¿qué cuentas están protegidas por el seguro de depósitos o por programas de protección a inversores (BLANCO)? ¿Cuáles están protegidas por ley frente a demandas o quiebras (MORADO)? ¿Cuáles son las penalidades fiscales por sacar el dinero antes de tiempo (VERDE)?
+
+## Objetivos de aprendizaje
+- Explicar por qué algunas cuentas de retiro reciben una protección especial frente a los acreedores
+- Distinguir la protección institucional de la protección frente a acreedores
+- Coordinar los ahorros para el retiro con la planificación legal y fiscal
+
+## Contenido principal
+Dos tipos de protección muy diferentes se confunden a menudo:
+1. La protección institucional: ¿qué pasa si el banco o la casa de corretaje quiebra? REGLA ESPECÍFICA DE LA REGIÓN: Muchos países tienen seguro de depósitos para las cuentas bancarias y programas separados de protección a inversores para las cuentas de corretaje, cada uno con sus límites.
+2. La protección frente a acreedores: ¿qué pasa si a usted lo demandan o se declara en quiebra? ¿Puede un acreedor tomar el dinero de la cuenta?
+Esta lección se centra en la segunda. DATO VERIFICADO: Muchos sistemas legales dan a ciertas cuentas de retiro una protección especial frente a los acreedores, a menudo porque los legisladores quieren que la gente tenga ingresos en la vejez. REGLA ESPECÍFICA DE LA REGIÓN: Qué cuentas califican, si la protección es ilimitada o tiene tope y si aplica dentro o fuera de una quiebra varían; en España, por ejemplo, los derechos consolidados de los planes de pensiones no suelen poder embargarse hasta que son disponibles, aunque las aportaciones hechas para perjudicar a los acreedores pueden impugnarse, por lo que conviene confirmarlo con un abogado.
+Cómo se conectan los colores:
+- BLANCO: Las cuentas de retiro suelen tener una gran parte de las inversiones de una familia.
+- VERDE: Las aportaciones pueden tener ventajas fiscales, y los retiros anticipados pueden conllevar impuestos y penalidades.
+- MORADO: La condición legal de la cuenta determina la protección frente a acreedores. En algunas jurisdicciones, las cuentas de retiro heredadas pueden no conservar la misma protección.
+- AZUL: Un dueño de negocio puede tener opciones sobre qué tipo de plan de retiro patrocina el negocio. Algunos planes pueden tener una protección más fuerte que otros.
+Puntos de planificación:
+- Transferir dinero de un tipo de cuenta a otro puede cambiar su protección. Verifique antes de moverlo.
+- Retirar dinero de una cuenta protegida para pagarle a un acreedor al que quizás no esté obligado legalmente a pagar puede ser un error costoso.
+- Las aportaciones hechas justo antes de una quiebra o una sentencia, sobre todo si son inusualmente grandes, pueden ser examinadas como posibles transferencias fraudulentas (vea PURPLE-L5-016).
+SUPUESTO/OPINIÓN: Para muchas familias comunes, las aportaciones regulares a largo plazo para el retiro construyen en silencio tanto una ventaja fiscal como un escudo legal. Es un buen ejemplo del VERDE y el MORADO trabajando juntos sin ninguna estructura compleja.
+
+## Ejemplo práctico
+EJEMPLO ILUSTRATIVO: Jin es un contratista que trabaja por cuenta propia. Tiene 4 €00.000 en una cuenta de retiro cualificada, 8 €0.000 en una cuenta de corretaje regular y 3 €0.000 en ahorros.
+Un cliente lo demanda por una suma grande tras una disputa sobre un proyecto. Su seguro de responsabilidad cubre parte de la reclamación, pero la sentencia supera la cubierta.
+Según su ley local (REGLA ESPECÍFICA DE LA REGIÓN):
+- Su cuenta de retiro cualificada está protegida frente a esta sentencia.
+- Su cuenta de corretaje y sus ahorros no lo están.
+El primer instinto de Jin fue liquidar parte de su cuenta de retiro para pagar la sentencia y "salir de eso". Su abogado le señala que la cuenta está protegida y que liquidarla generaría impuestos sobre ingresos y penalidades por retiro anticipado. En cambio, Jin negocia una transacción usando sus bienes no protegidos y un plan de pagos.
+SUPUESTO/OPINIÓN: Las aportaciones regulares de Jin para el retiro durante 15 años no se diseñaron como protección del patrimonio. Aun así, funcionaron como protección del patrimonio.
+
+## Prueba práctica
+**Q1. ¿Cuál es la diferencia entre la protección institucional y la protección frente a acreedores?**
+A) Son lo mismo
+B) La institucional protege contra la quiebra de la institución; la de acreedores protege contra demandas o la quiebra personal
+C) La protección frente a acreedores es solo para bancos
+D) La protección institucional cubre las demandas
+
+**Q2. ¿Por qué muchos sistemas legales protegen las cuentas de retiro frente a los acreedores?**
+A) Para que la gente tenga ingresos en la vejez
+B) Para ayudar a los bancos
+C) Para aumentar los impuestos
+D) Para premiar las demandas
+
+**Q3. ¿Por qué debe verificar antes de transferir dinero entre tipos de cuenta?**
+A) Las transferencias son ilegales
+B) Reducen los rendimientos
+C) Los bancos cobran cargos altos
+D) La transferencia puede cambiar la protección del dinero frente a los acreedores
+
+**Q4. ¿Por qué el abogado de Jin le aconsejó no liquidar su cuenta de retiro?**
+A) Estaba vacía
+B) Estaba protegida, y liquidarla generaría impuestos y penalidades
+C) El tribunal lo prohibía
+D) El dinero ya se había gastado
+
+**Q5. ¿Qué aportaciones pueden ser examinadas?**
+A) Las aportaciones mensuales regulares durante muchos años
+B) Las aportaciones hechas a los 25 años
+C) Las aportaciones equivalentes del patrono
+D) Las aportaciones inusualmente grandes hechas justo antes de una sentencia o una quiebra
+
+## Clave de respuestas
+Q1: B
+Q2: A
+Q3: D
+Q4: B
+Q5: D
+
+## Respuestas y explicaciones
+**Q1.** Son dos tipos de protección distintos.
+**Q2.** La meta de la política pública es mantener disponible el ingreso de retiro.
+**Q3.** Los distintos tipos de cuenta pueden tener protecciones distintas.
+**Q4.** Usar dinero protegido para pagar una reclamación no protegida puede ser un error costoso.
+**Q5.** Los movimientos grandes de último minuto pueden parecer intentos de evadir a los acreedores.
+
+## Puntos clave
+- La protección institucional y la protección frente a acreedores son distintas
+- Muchos sistemas protegen ciertas cuentas de retiro frente a los acreedores
+- Las transferencias entre cuentas y la herencia pueden cambiar la protección
+- Las aportaciones regulares a largo plazo combinan los beneficios fiscales VERDES con la protección MORADA
+
+===== PURPLE-L5-020
+TITLE: Los acuerdos matrimoniales y la propiedad de un negocio
+SUMMARY: El matrimonio tiene consecuencias sobre los bienes que pueden afectar a los socios y a los empleados; un acuerdo matrimonial redactado de buena fe, con divulgación completa y abogados independientes, protege a ambos cónyuges y al negocio.
+KEYWORDS: capitulaciones matrimoniales y negocio, acuerdo posnupcial, participación en un negocio y bienes gananciales, proteger un negocio familiar
+# Los acuerdos matrimoniales y la propiedad de un negocio
+
+## Escenario inicial
+SUPUESTO/OPINIÓN (escenario hipotético solo con fines educativos): Imagine que la moneda de una economía mediana pierde gran parte de su valor frente a las principales monedas de reserva en cuestión de meses, impulsada por la salida de capitales del país y el deterioro de la confianza de los inversores.
+Aplíquelo aquí: Una crisis monetaria hace que el valor de un negocio familiar fluctúe mucho. Los matrimonios de los dueños, y los derechos de sus cónyuges, de repente afectan la estabilidad de la empresa. Pregunte desde varios colores: si un dueño se divorcia, ¿podría parte de la empresa pasar al excónyuge (MORADO)? ¿Cómo se fijaría el valor de la empresa (AZUL)? ¿Podría el negocio verse obligado a vender activos para pagar un acuerdo de divorcio (ROJO/BLANCO)?
+
+## Objetivos de aprendizaje
+- Explicar cómo el matrimonio y el divorcio pueden afectar la propiedad de un negocio
+- Describir lo que los acuerdos matrimoniales pueden y normalmente no pueden hacer
+- Coordinar los acuerdos matrimoniales con los acuerdos operacionales y las condiciones de compraventa entre socios
+
+## Contenido principal
+Esta lección trata de planificación, no de sospecha. El matrimonio es una relación legal con consecuencias sobre los bienes. Cuando un cónyuge es dueño de un negocio, inmobiliario o de inversiones grandes, esas consecuencias pueden afectar a socios, empleados y familiares que nunca formaron parte del matrimonio.
+DATO VERIFICADO: Muchos sistemas legales tienen reglas para dividir los bienes en caso de divorcio o muerte. Algunos tratan la mayoría de los bienes adquiridos durante el matrimonio como comunes. Otros dividen los bienes según criterios de equidad. REGLA ESPECÍFICA DE LA REGIÓN: Las reglas difieren mucho; en España, por ejemplo, el régimen supletorio en el derecho común es la sociedad de gananciales, mientras que en Cataluña y Baleares es la separación de bienes, y las capitulaciones matrimoniales se otorgan ante notario, por lo que conviene confirmarlo con un notario.
+Un acuerdo prenupcial (antes del matrimonio) o posnupcial (durante el matrimonio) permite a una pareja decidir por adelantado cómo se tratarán ciertos bienes. Usos comunes:
+- Identificar un negocio o un bien que se tenía antes del matrimonio como privativo.
+- Decidir cómo se compartirá el aumento del valor de un negocio durante el matrimonio.
+- Fijar por adelantado un método de valoración.
+- Proveer para un cónyuge de otras maneras, como otros bienes o pagos, manteniendo intacto el negocio.
+Límites: REGLA ESPECÍFICA DE LA REGIÓN: Muchas jurisdicciones exigen divulgación financiera completa, un abogado independiente para cada cónyuge, tiempo para revisar el acuerdo y equidad. Algunos asuntos, como la pensión alimentaria de los hijos, a menudo no pueden renunciarse por adelantado.
+Cómo se conectan los colores:
+- AZUL: Los socios y los inversores pueden preocuparse de que un excónyuge se convierta en copropietario.
+- MORADO: Los acuerdos operacionales y los acuerdos de compraventa entre socios (PURPLE-L5-008) suelen incluir el divorcio como detonante, lo que permite a la empresa o a los socios recomprar cualquier participación adjudicada a un excónyuge.
+- VERDE: Las transferencias entre cónyuges en un divorcio pueden tener un tratamiento fiscal especial. REGLA ESPECÍFICA DE LA REGIÓN.
+- NEGRO: La estabilidad da confianza a los empleados y a los prestamistas.
+SUPUESTO/OPINIÓN: Los acuerdos matrimoniales más respetuosos protegen a ambos cónyuges. Dan certeza al dueño del negocio y un trato justo y claro al otro cónyuge. Redactados de buena fe y con asesoría independiente, pueden reducir los conflictos en lugar de crearlos.
+
+## Ejemplo práctico
+EJEMPLO ILUSTRATIVO: Inés es copropietaria de una empresa de construcción con dos socios. Planea casarse con Daniel, que trabaja como maestro.
+Con abogados separados y divulgación financiera completa, firman un acuerdo prenupcial:
+- La participación de Inés a la fecha de la boda sigue siendo un bien privativo suyo.
+- El aumento del valor del negocio durante el matrimonio se comparte según una fórmula fija, pagada en efectivo o en otros bienes, no en acciones de la empresa.
+- Acuerdan usar un tasador independiente si hace falta.
+- Daniel recibe una parte justa de la casa y de los ahorros conjuntos, además de un pago específico si el matrimonio termina.
+El acuerdo operacional de la empresa dice por separado que, si la participación de cualquier socio se transfiere por un divorcio, la empresa puede recomprarla al valor tasado.
+Años después, el matrimonio termina de forma amistosa. Daniel recibe su parte en efectivo y en valor neto de la casa. La propiedad de la empresa queda intacta. Los socios de Inés y los 40 empleados no se ven afectados. SUPUESTO/OPINIÓN: Ambos acuerdos funcionaron juntos porque se redactaron de buena fe, con antelación y con asesoría independiente.
+
+## Prueba práctica
+**Q1. ¿Por qué el matrimonio puede afectar a los otros socios de un negocio?**
+A) Los socios deben aprobar todos los matrimonios
+B) No puede afectarlos
+C) Los negocios pagan impuestos por matrimonio
+D) El divorcio o la muerte pueden crear reclamaciones sobre la participación de un dueño en el negocio
+
+**Q2. ¿Qué puede hacer comúnmente un acuerdo matrimonial?**
+A) Renunciar a la pensión alimentaria de los hijos en todas partes
+B) Evitar todos los impuestos
+C) Reemplazar un acuerdo operacional
+D) Identificar un bien como privativo y fijar cómo se comparte el crecimiento del negocio
+
+**Q3. ¿Qué requisitos exigen muchas jurisdicciones para los acuerdos matrimoniales?**
+A) Ninguno
+B) Solo una firma
+C) Divulgación completa, abogados independientes, tiempo de revisión y equidad
+D) La aprobación de los socios del negocio
+
+**Q4. ¿Cómo apoya esta planificación un acuerdo operacional?**
+A) Puede permitir la recompra de cualquier participación transferida por un divorcio
+B) Prohíbe el matrimonio
+C) Les paga directamente a los cónyuges
+D) Reduce los impuestos
+
+**Q5. Según la lección, ¿qué hace respetuoso a un acuerdo matrimonial?**
+A) Proteger solo al dueño del negocio
+B) Firmarlo rápidamente
+C) Mantenerlo en secreto
+D) Proteger a ambos cónyuges con un trato justo y claro
+
+## Clave de respuestas
+Q1: D
+Q2: D
+Q3: C
+Q4: A
+Q5: D
+
+## Respuestas y explicaciones
+**Q1.** Las reglas sobre los bienes matrimoniales pueden alcanzar las participaciones en un negocio.
+**Q2.** Estos acuerdos definen por adelantado el trato de los bienes, dentro de los límites legales.
+**Q3.** Los requisitos varían, pero suelen incluir estas salvaguardas. REGLA ESPECÍFICA DE LA REGIÓN.
+**Q4.** El divorcio como detonante de una compraventa mantiene estable la propiedad.
+**Q5.** Los acuerdos de buena fe dan certeza a ambas partes.
+
+## Puntos clave
+- El matrimonio tiene consecuencias sobre los bienes que pueden afectar a los socios y a los empleados
+- Los acuerdos prenupciales y posnupciales pueden definir por adelantado el trato del negocio
+- La divulgación, la asesoría independiente y la equidad se exigen comúnmente
+- Coordine los acuerdos matrimoniales con los acuerdos operacionales y de compraventa entre socios

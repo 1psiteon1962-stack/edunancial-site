@@ -1,0 +1,472 @@
+===== PURPLE-L5-041
+TITLE: El costo real de un litigio
+SUMMARY: Un litigio tiene costos directos, indirectos y de cobro; una sentencia no es dinero en el banco, y la prevención mediante buenos contratos suele costar menos que pelear.
+KEYWORDS: costo de un litigio, gastos de una demanda, costos del descubrimiento de prueba, cobrar una sentencia, honorarios legales del negocio
+# El costo real de un litigio
+
+## Escenario inicial
+SUPUESTO/OPINIÓN (escenario hipotético solo con fines educativos): Imagine que el gobierno de un país mediano da señales de que podría no poder hacer un próximo pago de sus bonos, lo que aumenta el riesgo de impago de su deuda.
+Aplíquelo aquí: Durante una crisis de deuda soberana, un cliente que también tiene problemas le debe dinero a un negocio. Pregunte desde varios colores: aunque el negocio gane en el tribunal (MORADO), ¿podrá cobrar (AZUL)? ¿Cuánto tiempo de la dirección consumirá la demanda (NEGRO)? ¿Son deducibles los honorarios legales y tributa lo que se recupere (VERDE)?
+
+## Objetivos de aprendizaje
+- Enumerar los costos directos e indirectos de un litigio
+- Explicar por qué ganar una sentencia es distinto de cobrar el dinero
+- Comparar los costos de un litigio con su valor esperado
+
+## Contenido principal
+Mucha gente piensa en una demanda como una forma de obtener lo que se le debe. En el nivel 5, usted aprende a ver su costo completo antes de decidir.
+Costos directos:
+- Los honorarios de abogado, ya sean por hora, contingentes (una parte de lo recuperado) o una combinación. REGLA ESPECÍFICA DE LA REGIÓN: En algunas jurisdicciones, por lo general cada parte paga sus propios honorarios; en otras, a menudo se exige que la parte perdedora pague parte de los honorarios de la ganadora; en España, por ejemplo, rige en general el criterio del vencimiento, por el que la parte que pierde paga las costas de la otra, con ciertos límites, por lo que conviene confirmarlo con un abogado.
+- Los aranceles del tribunal, los peritos y los costos de documentos.
+- El descubrimiento de prueba: el proceso de intercambiar documentos y testimonios, que puede ser costoso y tomar mucho tiempo.
+Costos indirectos:
+- El tiempo de la dirección: los dueños y los gerentes pasan horas preparándose, revisando documentos y testificando.
+- La distracción: la energía que se gasta peleando no se gasta construyendo.
+- Las relaciones: las demandas suelen terminar las relaciones de negocios para siempre.
+- La reputación: los escritos ante el tribunal suelen ser públicos.
+- El estrés: un costo real para las personas, aunque no aparezca en los libros.
+El riesgo de cobro: DATO VERIFICADO: Una sentencia dice que a usted se le debe dinero. No garantiza el pago. Si la otra parte no tiene bienes, los ha escondido o se declara en quiebra, la sentencia puede valer poco. Cobrar puede requerir más pasos legales y más costos.
+Cómo se conectan los colores:
+- AZUL: El litigio drena el efectivo y la atención de las operaciones.
+- VERDE: REGLA ESPECÍFICA DE LA REGIÓN: Los honorarios legales por asuntos del negocio pueden ser deducibles, y lo recuperado puede tributar según su naturaleza.
+- NEGRO: Decidir si demandar es una decisión de liderazgo, no solo una decisión legal.
+- MORADO: Los términos del contrato, como las cláusulas de traslado de honorarios, afectan el cálculo.
+Esto conecta con la analogía del médico de otra forma: prevenir las disputas con buenos contratos, comunicación clara y asesoría legal temprana suele costar mucho menos que pelearlas.
+SUPUESTO/OPINIÓN: A veces el litigio es necesario para proteger derechos importantes o para impedir que alguien se aproveche una y otra vez. La meta no es evitar los tribunales a toda costa. Es entrar con los ojos abiertos.
+
+## Ejemplo práctico
+EJEMPLO ILUSTRATIVO: Un cliente que dejó de pagar le debe 7 €5.000 a la firma de diseño de Mariam.
+Su análisis:
+- Los honorarios legales hasta el juicio: entre 3 €5.000 y 5 €0.000 según el estimado. Su contrato no tiene una cláusula que obligue a la parte perdedora a pagar los honorarios legales, y en su jurisdicción por lo general cada parte paga los suyos. REGLA ESPECÍFICA DE LA REGIÓN.
+- El tiempo: de 12 a 18 meses.
+- Su propio tiempo: unas 80 horas durante todo el caso.
+- El cobro: el negocio del cliente tiene problemas por la crisis de deuda. Sus activos están dados en garantía a un banco que cobraría primero.
+Resultado neto esperado: aun con un caso sólido, podría gastar 4 €0.000 o más para obtener una sentencia que quizás no pueda cobrar.
+Su decisión: envía una carta formal de cobro a través de su abogado, ofrece un plan de pagos y presenta una reclamación en un tribunal de menor costo por la parte que cabe dentro de sus límites. REGLA ESPECÍFICA DE LA REGIÓN. Recupera 3 €0.000 en seis meses.
+Actualiza sus contratos para exigir depósitos, pagos por etapas y una cláusula que permita recuperar los costos de cobro. SUPUESTO/OPINIÓN: El mejor resultado de esta disputa no fue el dinero recuperado. Fueron los nuevos términos de contrato que hacen menos probable la próxima disputa.
+
+## Prueba práctica
+**Q1. ¿Qué es el descubrimiento de prueba en un litigio?**
+A) Encontrar clientes nuevos
+B) Una transacción
+C) Un tipo de apelación
+D) El intercambio de documentos y testimonios entre las partes
+
+**Q2. ¿Por qué ganar una sentencia es distinto de cobrar el dinero?**
+A) La otra parte puede no tener bienes alcanzables o declararse en quiebra
+B) Las sentencias siempre se pagan
+C) Los tribunales pagan las sentencias directamente
+D) No es distinto
+
+**Q3. ¿Cuál es un costo indirecto de un litigio?**
+A) Los aranceles de presentación ante el tribunal
+B) Los honorarios por hora del abogado
+C) Los honorarios de los peritos
+D) El tiempo de la dirección y la distracción
+
+**Q4. ¿Por qué Mariam decidió no seguir un litigio completo?**
+A) Los costos y el riesgo de cobro hacían probable que un litigio completo le hiciera perder dinero
+B) Su caso era débil
+C) Su abogado se negó
+D) El tribunal estaba cerrado
+
+**Q5. ¿Qué cambió Mariam después de la disputa?**
+A) Dejó de trabajar
+B) Bajó sus precios
+C) Demandó a todo el mundo
+D) Añadió a sus contratos depósitos, pagos por etapas y una cláusula de costos de cobro
+
+## Clave de respuestas
+Q1: D
+Q2: A
+Q3: D
+Q4: A
+Q5: D
+
+## Respuestas y explicaciones
+**Q1.** El descubrimiento de prueba puede ser costoso y tomar mucho tiempo.
+**Q2.** Cobrar es un reto aparte.
+**Q3.** Los costos indirectos no aparecen como facturas, pero importan.
+**Q4.** El análisis del costo completo no justificaba una demanda larga.
+**Q5.** Los mejores contratos reducen las disputas futuras.
+
+## Puntos clave
+- Un litigio tiene costos directos, indirectos y de cobro
+- Una sentencia no es lo mismo que dinero en el banco
+- Las reglas sobre honorarios y el tratamiento fiscal varían según la región
+- La prevención mediante buenos contratos suele costar menos que pelear
+
+===== PURPLE-L5-042
+TITLE: Cómo formar su equipo de profesionales: abogados, asesor fiscal y asesores
+SUMMARY: Los negocios son un deporte de equipo; las decisiones de nivel 5 requieren asesoría coordinada entre varias profesiones, y preguntar a cada asesor cómo su recomendación afecta los otros colores evita conflictos costosos.
+KEYWORDS: equipo de asesores profesionales, trabajar con abogados y asesor fiscal, asesores de negocio, coordinar la asesoría
+# Cómo formar su equipo de profesionales: abogados, asesor fiscal y asesores
+
+## Escenario inicial
+SUPUESTO/OPINIÓN (escenario hipotético solo con fines educativos): Imagine un banco central que sube su tasa de interés de referencia de forma marcada y repetida en pocos meses para combatir el aumento de la inflación.
+Aplíquelo aquí: Cuando las tasas de interés suben mucho, un dueño de negocio debe decidir si refinancia, reestructura la deuda o vende una propiedad. Pregunte desde varios colores: ¿ha hablado el abogado (MORADO) con el asesor fiscal (VERDE)? ¿Sabe el prestamista (AZUL) de la reestructuración planificada? ¿Conoce el planificador financiero (BLANCO) las consecuencias fiscales?
+
+## Objetivos de aprendizaje
+- Identificar a los profesionales clave de un equipo de asesores
+- Explicar por qué importa la coordinación entre asesores
+- Trabajar de forma eficaz con profesionales como un cliente informado
+
+## Contenido principal
+El currículo repite un principio de niveles anteriores: los negocios son un deporte de equipo. El mito del fundador solitario que lo hace todo solo es inexacto. Buscar ayuda experta es competencia, no debilidad.
+En el nivel 5, las decisiones abarcan varios colores a la vez. Eso significa que la asesoría también debe abarcar varias profesiones, y que esos profesionales deben coordinarse.
+Un equipo típico de asesores:
+- El abogado (MORADO): la estructura de entidades, los contratos, la planificación sucesoral y las disputas. A menudo varios especialistas con el tiempo: negocios, bienes inmuebles, sucesiones, empleo y PI.
+- El asesor fiscal o asesor fiscal (VERDE): la planificación fiscal, el cumplimiento y los estados financieros.
+- El planificador financiero o asesor de inversiones (BLANCO/DORADO): la estrategia de inversión, el retiro y el riesgo. REGLA ESPECÍFICA DE LA REGIÓN: Averigüe si el asesor tiene un deber fiduciario o una norma de idoneidad; en España, por ejemplo, las empresas de servicios de inversión y los asesores financieros deben estar autorizados por la Comisión Nacional del Mercado de Valores y evaluar la idoneidad de sus recomendaciones, por lo que conviene confirmarlo con un abogado.
+- El agente o corredor de seguros (MORADO/DORADO): el diseño y la revisión de la cubierta.
+- El banquero o prestamista (AZUL): las relaciones de financiación.
+- Los mentores de la industria y los asesores de la junta (NEGRO): la experiencia y el criterio.
+Por qué importa la coordinación:
+- Un abogado puede diseñar un fideicomiso que el asesor fiscal sabe que producirá un mal resultado fiscal.
+- Un asesor fiscal puede recomendar una elección de entidad que choca con un acuerdo de inversores.
+- Un planificador puede sugerir mover bienes sin saber de una demanda pendiente, lo que crea riesgo de transferencia fraudulenta (PURPLE-L5-016).
+Ser un cliente informado:
+- Lleve preguntas claras y documentos organizados.
+- Comparta el panorama completo, incluidas sus metas y preocupaciones.
+- Pregunte a cada asesor cómo su recomendación afecta los otros colores.
+- Haga de vez en cuando reuniones conjuntas para las decisiones importantes.
+- Entienda cómo se le paga a cada profesional y cualquier conflicto de intereses.
+Aplica la analogía del médico: pagarles a los profesionales es un seguro contra pérdidas mucho mayores.
+SUPUESTO/OPINIÓN: Lo más valioso que un estudiante de nivel 5 aporta a su equipo de asesores no es su conocimiento legal o fiscal. Es la capacidad de ver cómo se conectan todas las piezas y hacerle a cada experto la pregunta correcta.
+
+## Ejemplo práctico
+EJEMPLO ILUSTRATIVO: Samuel es dueño de un negocio de manufactura y de tres propiedades de alquiler. Las tasas suben mucho, y él considera vender una propiedad de alquiler para pagar deuda del negocio.
+Enfoque sin coordinación: su corredor inmobiliario pone la propiedad a la venta. Después de la venta, su asesor fiscal le dice que el momento de la venta provocó una factura fiscal grande que otra estrategia podría haber reducido. Su abogado señala que la propiedad garantizaba una garantía de un préstamo del negocio y que el prestamista tenía que consentir.
+Enfoque coordinado (lo que hace la próxima vez): Samuel programa una llamada conjunta con su abogado, su asesor fiscal y su banquero antes de poner otra propiedad a la venta.
+- El asesor fiscal explica las opciones fiscales y el momento oportuno. REGLA ESPECÍFICA DE LA REGIÓN.
+- El abogado revisa los documentos del préstamo y el título.
+- El banquero explica cómo pagar la deuda afecta las obligaciones del préstamo y las tasas.
+Juntos recomiendan refinanciar la deuda del negocio a un plazo más largo en lugar de vender, lo que conserva el ingreso de la propiedad de alquiler y evita una factura fiscal inmediata.
+SUPUESTO/OPINIÓN: La llamada conjunta costó unas pocas horas de honorarios profesionales. Le ahorró a Samuel mucho más de lo que costó y evitó una decisión de la que se habría arrepentido.
+
+## Prueba práctica
+**Q1. ¿Qué significa "los negocios son un deporte de equipo"?**
+A) Solo los negocios grandes necesitan equipos
+B) Los dueños deben evitar a los asesores
+C) Los empleados deben hacer deportes
+D) Buscar ayuda experta es competencia, y el éxito rara vez se logra trabajando solo
+
+**Q2. ¿Por qué los asesores deben coordinarse en las decisiones de nivel 5?**
+A) Para cobrar más
+B) Les gustan las reuniones
+C) Lo exige la ley
+D) Las decisiones abarcan varios colores, y la recomendación de un asesor puede chocar con la de otro
+
+**Q3. ¿Cuál es una forma de ser un cliente informado?**
+A) Preguntar a cada asesor cómo su recomendación afecta los otros colores
+B) Ocultarles información a los asesores
+C) Usar un solo asesor para todo
+D) Nunca preguntar por los honorarios
+
+**Q4. ¿Qué salió mal en el enfoque sin coordinación de Samuel?**
+A) Los asuntos del momento fiscal y del consentimiento del préstamo se descubrieron después de la venta
+B) La propiedad no se vendió
+C) Su abogado no estaba disponible
+D) Las tasas bajaron
+
+**Q5. Según la lección, ¿qué es lo más valioso que un estudiante de nivel 5 aporta a sus asesores?**
+A) La capacidad de ver cómo se conectan las piezas y hacer las preguntas correctas
+B) Un conocimiento técnico profundo en todas las áreas
+C) Honorarios más bajos
+D) Autoridad legal
+
+## Clave de respuestas
+Q1: D
+Q2: D
+Q3: A
+Q4: A
+Q5: A
+
+## Respuestas y explicaciones
+**Q1.** El mito del fundador solitario es inexacto.
+**Q2.** Las decisiones que cruzan colores necesitan coordinación entre profesiones.
+**Q3.** Las preguntas que cruzan colores revelan los conflictos temprano.
+**Q4.** Los asesores no vieron el panorama completo a tiempo.
+**Q5.** La destreza de coordinar hace más eficaz la asesoría experta.
+
+## Puntos clave
+- Los negocios son un deporte de equipo; la ayuda experta es competencia
+- Las decisiones de nivel 5 necesitan asesoría coordinada entre profesiones
+- Pregunte a cada asesor cómo su consejo afecta los otros colores
+- Las reuniones conjuntas sobre decisiones importantes evitan conflictos costosos
+
+===== PURPLE-L5-043
+TITLE: El mantenimiento legal: registros, actas e informes anuales
+SUMMARY: Mantener al día los documentos de constitución, gobierno, titularidad, decisiones y contratos, junto con los informes anuales, respalda la protección, el financiación y el valor de venta; un calendario de cumplimiento lo convierte en rutina.
+KEYWORDS: registros corporativos, presentación del informe anual, libro de actas, agente residente, calendario de cumplimiento legal
+# El mantenimiento legal: registros, actas e informes anuales
+
+## Escenario inicial
+SUPUESTO/OPINIÓN (escenario hipotético solo con fines educativos): Imagine una institución financiera de importancia sistémica que revela de repente una pérdida grande que no se había divulgado, lo que despierta el temor de que el riesgo de contraparte se propague por todo el sistema bancario.
+Aplíquelo aquí: Durante un susto bancario, los prestamistas endurecen sus normas y piden a los negocios documentos actualizados antes de renovar las líneas de crédito. Pregunte desde varios colores: ¿puede el negocio presentar rápidamente sus documentos de constitución, sus registros de titularidad y las aprobaciones de su junta (MORADO)? ¿Están al día sus estados financieros y sus planillas (VERDE)? Una empresa que no puede responder rápido puede perder su línea de crédito (AZUL).
+
+## Objetivos de aprendizaje
+- Enumerar los registros legales básicos que todo negocio debe mantener
+- Explicar cómo el mantenimiento legal respalda la protección de responsabilidad, el financiación y el valor de venta
+- Crear un calendario sencillo de cumplimiento legal
+
+## Contenido principal
+El mantenimiento legal no es emocionante. Pero conecta directamente con varias lecciones anteriores: el levantamiento del velo corporativo (PURPLE-L5-010), la debida diligencia (PURPLE-L5-022) y la documentación bancaria de BLUE-L2 (EIN, acuerdo operacional, actas, documentos de constitución, prueba de constitución).
+Registros básicos:
+- Los documentos de constitución: el certificado de incorporación o de organización y los certificados de constitución.
+- Los documentos de gobierno: los reglamentos o el acuerdo operacional, y todas sus enmiendas.
+- Los registros de titularidad: un registro al día de quién es dueño de qué porcentaje, incluidas las opciones y los pagarés convertibles.
+- Las actas y los consentimientos escritos: el registro de las decisiones importantes, como aprobar préstamos, elegir oficiales, emitir acciones o comprar propiedades.
+- Los informes anuales: los informes y los derechos que se exigen para mantener la entidad al día. REGLA ESPECÍFICA DE LA REGIÓN; en España, por ejemplo, las sociedades deben depositar cada año sus cuentas anuales en el Registro Mercantil, y no hacerlo puede llevar al cierre de la hoja registral y a multas, por lo que conviene confirmarlo con un abogado.
+- La información del agente residente: la dirección oficial para recibir notificaciones legales. No recibir una notificación legal porque la dirección del agente está desactualizada puede llevar a una sentencia en rebeldía.
+- Los contratos importantes: arrendamientos, préstamos, acuerdos con clientes y suplidores y cesiones de PI, organizados y fáciles de encontrar.
+- Las licencias y los permisos: con sus fechas de renovación.
+Cómo se conectan los colores:
+- MORADO: Los buenos registros respaldan la protección de responsabilidad y facilitan el gestión de las disputas.
+- AZUL: Los bancos y los inversores piden estos documentos. Las respuestas rápidas y organizadas generan confianza.
+- VERDE: Las planillas y los estados financieros deben coincidir con los registros de titularidad y de la entidad.
+- BLANCO: Los compradores pagan más por los negocios con registros en orden, porque la diligencia es más rápida y el riesgo es menor.
+- NEGRO: Los registros organizados reducen la dependencia de la memoria del dueño, lo que apoya la epifanía de los sistemas.
+Un calendario de cumplimiento sencillo enumera cada presentación, cada renovación y cada fecha de revisión del año, con la persona responsable.
+SUPUESTO/OPINIÓN: Un negocio que puede presentar cada documento clave en un día les indica a los prestamistas, a los inversores y a los compradores que se dirige con disciplina. Esa señal tiene un valor financiero real.
+
+## Ejemplo práctico
+EJEMPLO ILUSTRATIVO: Dos empresas solicitan renovar sus líneas de crédito durante un susto bancario. El banco pide los documentos de constitución, el acuerdo operacional vigente, una resolución de la junta o de los miembros que autorice el préstamo, una lista al día de los dueños y la planilla más reciente.
+La empresa A envía todo en dos días desde una carpeta digital organizada. El modelo de resolución ya está preparado, y la lista de dueños está al día.
+La empresa B tarda tres semanas. El acuerdo operacional se enmendó hace años, pero no aparece la enmienda firmada. El estado de la entidad muestra que no presentó un informe anual y que no está al día. La participación de uno de los primeros inversores nunca se registró debidamente.
+El banco renueva la línea de la empresa A en términos similares. La renovación de la empresa B se retrasa hasta que recupere su buena reputación y aclare la titularidad, y el banco reduce la cantidad de la línea.
+SUPUESTO/OPINIÓN: La empresa B no era un peor negocio. Era uno menos organizado. En un mercado de crédito apretado, esa diferencia le costó financiación real.
+
+## Prueba práctica
+**Q1. ¿Por qué importan las actas y los consentimientos escritos?**
+A) Son decorativos
+B) Reemplazan las planillas
+C) Registran las decisiones importantes y respaldan la separación de la entidad
+D) Son solo para las compañías públicas
+
+**Q2. ¿Qué puede pasar si la dirección del agente residente está desactualizada?**
+A) No recibir notificaciones legales, lo que podría llevar a una sentencia en rebeldía
+B) Pagar menos impuestos
+C) Presentaciones más rápidas
+D) Nada
+
+**Q3. ¿Por qué los compradores pagan más por los negocios con registros en orden?**
+A) Los registros son objetos de colección valiosos
+B) A los compradores les gusta el papel
+C) Los registros en orden reducen los impuestos
+D) La diligencia es más rápida y el riesgo es menor
+
+**Q4. ¿Qué causó el retraso en la renovación de la empresa B?**
+A) Ventas bajas
+B) Una demanda
+C) Documentos perdidos, la pérdida de su buena reputación y una titularidad poco clara
+D) Solo las tasas de interés altas
+
+**Q5. ¿Qué es un calendario de cumplimiento legal?**
+A) Una lista de fechas de presentaciones, renovaciones y revisiones, con las personas responsables
+B) Un calendario de días feriados
+C) Un plan de marketing
+D) Un formulario fiscal
+
+## Clave de respuestas
+Q1: C
+Q2: A
+Q3: D
+Q4: C
+Q5: A
+
+## Respuestas y explicaciones
+**Q1.** Los registros muestran que la entidad se trata como separada y que las decisiones se autorizaron.
+**Q2.** Las notificaciones legales se envían al agente residente.
+**Q3.** Los registros organizados reducen la incertidumbre.
+**Q4.** Los registros desorganizados crearon retrasos y dudas.
+**Q5.** Convierte el mantenimiento legal en una rutina.
+
+## Puntos clave
+- Mantenga los registros de constitución, gobierno, titularidad, decisiones y contratos
+- Los informes anuales y los datos del agente residente mantienen la entidad al día
+- Los registros organizados respaldan el financiación, la protección y el valor de venta
+- Un calendario de cumplimiento convierte el mantenimiento legal en rutina
+
+===== PURPLE-L5-044
+TITLE: El gobierno familiar: constituciones, entidades familiares y custodia del patrimonio
+SUMMARY: El gobierno familiar ayuda a una familia a decidir junta sobre un patrimonio compartido; las constituciones, los consejos, las entidades familiares, los fideicomisos y la educación preparan a los herederos como custodios, no solo como beneficiarios.
+KEYWORDS: gobierno familiar, constitución familiar, SL familiar, custodia del patrimonio generacional, consejo de familia
+# El gobierno familiar: constituciones, entidades familiares y custodia del patrimonio
+
+## Escenario inicial
+SUPUESTO/OPINIÓN (escenario hipotético solo con fines educativos): Imagine que la moneda de una economía mediana pierde gran parte de su valor frente a las principales monedas de reserva en cuestión de meses, impulsada por la salida de capitales del país y el deterioro de la confianza de los inversores.
+Aplíquelo aquí: Una familia tiene propiedades de alquiler y un negocio en un país cuya moneda se está desplomando. Algunos miembros de la familia quieren vender y sacar el dinero al extranjero; otros quieren conservar. Pregunte desde varios colores: ¿quién tiene autoridad para decidir (MORADO/NEGRO)? ¿Cómo se toman las decisiones de forma justa? ¿Cómo afectan las opciones las reglas fiscales (VERDE) y los tipos de activos (ROJO/BLANCO/DORADO)?
+
+## Objetivos de aprendizaje
+- Explicar por qué las familias con bienes compartidos necesitan gobierno
+- Describir las herramientas comunes de gobierno familiar
+- Conectar el gobierno con la etapa STEWARD del modelo de patrimonio
+
+## Contenido principal
+La etapa STEWARD del Marco Filosófico se centra en transmitir el conocimiento junto con el capital de una generación a otra, para que la siguiente generación actúe como custodia y no solo como beneficiaria. El Marco también señala que el interés compuesto requiere capital más tiempo, y que las familias a menudo destruyen ese tiempo con conflictos, malas decisiones o la división de los bienes.
+El gobierno familiar es el conjunto de estructuras y acuerdos que ayudan a una familia a tomar decisiones juntas sobre el patrimonio compartido.
+Herramientas comunes:
+- La constitución o carta familiar: una declaración escrita de los valores, las metas y las reglas de decisión de la familia. A menudo no es legalmente vinculante por sí sola, pero guía cómo se redactan y se usan los documentos vinculantes.
+- El consejo o las reuniones de familia: encuentros regulares para hablar de los bienes compartidos, compartir información y tomar decisiones.
+- La SL o la sociedad familiar: una entidad legal que tiene los bienes compartidos, con un acuerdo operacional que fija el voto, la administración, las restricciones a la transferencia y las distribuciones. REGLA ESPECÍFICA DE LA REGIÓN en cuanto al tratamiento fiscal y la valoración; en España, por ejemplo, muchas familias usan una sociedad patrimonial o holding y un protocolo familiar, y la empresa familiar puede tener una reducción importante en el Impuesto sobre Sucesiones y Donaciones si se cumplen los requisitos, por lo que conviene confirmarlo con un asesor fiscal.
+- Los fideicomisos: estructuras de largo plazo con reglas escritas (PURPLE-L5-012).
+- Los programas de educación: enseñar a los miembros más jóvenes de la familia sobre los bienes, las finanzas y las responsabilidades de la familia, a menudo antes de que reciban un patrimonio importante.
+- Las reglas para resolver conflictos: procesos acordados, como la mediación, para resolver los desacuerdos.
+Cómo se conectan los colores:
+- MORADO: Las entidades legales y los fideicomisos hacen exigible el gobierno.
+- NEGRO: El liderazgo familiar, la sucesión y las destrezas de comunicación.
+- VERDE: REGLA ESPECÍFICA DE LA REGIÓN: Las entidades familiares pueden afectar cómo se valoran y tributan las transferencias entre generaciones.
+- ROJO/BLANCO/AZUL/DORADO: Los activos subyacentes necesitan administración profesional y una política de inversión clara.
+SUPUESTO/OPINIÓN: El mayor riesgo para el patrimonio a largo plazo de una familia a menudo no son los mercados ni los impuestos. Son los miembros de la familia a quienes se les dio dinero sin darles conocimiento, responsabilidad o voz en cómo se toman las decisiones.
+
+## Ejemplo práctico
+EJEMPLO ILUSTRATIVO: La familia Okafor es dueña de cuatro edificios de alquiler y de un negocio de distribución. Los fundadores, ya en sus 70, tienen tres hijos adultos y siete nietos.
+Sus pasos de gobierno, creados con abogados y asesores:
+- Carta familiar: declara los valores compartidos (el trabajo duro, la educación, la responsabilidad con la comunidad) y las metas de largo plazo.
+- SL familiar: tiene los edificios de alquiler. El acuerdo operacional fija el voto según el porcentaje de titularidad, exige el consentimiento de los miembros de la familia antes de vender participaciones fuera de la familia y nombra a un administrador profesional de propiedades.
+- Consejo de familia: se reúne dos veces al año. Los nietos adultos asisten como observadores desde los 18 años y como miembros con voto después de completar un programa de educación financiera.
+- Cláusula de mediación: los desacuerdos van a un mediador familiar antes de cualquier acción legal.
+Durante la crisis monetaria, la familia discute si vender. El consejo revisa las opciones con los asesores, vota por vender un edificio y diversificar parte del producto en activos en moneda extranjera, y conserva el resto.
+SUPUESTO/OPINIÓN: La decisión en sí puede resultar o no la mejor. Lo que importó es que la familia la tomó junta, mediante un proceso claro, sin dividirse.
+
+## Prueba práctica
+**Q1. ¿En qué se centra la etapa STEWARD?**
+A) En transmitir el conocimiento junto con el capital de una generación a otra
+B) En gastar el patrimonio rápidamente
+C) Solo en evitar impuestos
+D) En vender negocios
+
+**Q2. ¿Es una constitución familiar por lo general legalmente vinculante por sí sola?**
+A) Sí, siempre
+B) Reemplaza todos los contratos
+C) Solo en los tribunales
+D) A menudo no, pero guía los documentos vinculantes y las decisiones
+
+**Q3. ¿Qué papel juega una SL familiar en el gobierno?**
+A) Esconde bienes
+B) Evita todos los impuestos
+C) Tiene los bienes compartidos con reglas exigibles de voto, administración y transferencia
+D) Reemplaza las reuniones de familia
+
+**Q4. ¿Por qué la familia Okafor exigía educación financiera antes de que los nietos pudieran votar?**
+A) Para retrasar la herencia
+B) Para prepararlos como custodios informados
+C) Por reglas fiscales
+D) Porque el banco lo exigía
+
+**Q5. Según la lección, ¿cuál es a menudo el mayor riesgo para el patrimonio a largo plazo de una familia?**
+A) Los desplomes del mercado
+B) La inflación
+C) Miembros que reciben dinero sin conocimiento, responsabilidad ni voz
+D) La impuesto sobre bienes inmuebles (IBI)
+
+## Clave de respuestas
+Q1: A
+Q2: D
+Q3: C
+Q4: B
+Q5: C
+
+## Respuestas y explicaciones
+**Q1.** La custodia significa preparar a los herederos para administrar el patrimonio con responsabilidad.
+**Q2.** Fija valores y reglas que moldean los documentos legales.
+**Q3.** La entidad hace exigibles las reglas de gobierno.
+**Q4.** El conocimiento antes de la autoridad apoya la custodia.
+**Q5.** Los herederos sin preparación pueden deshacer generaciones de esfuerzo.
+
+## Puntos clave
+- El gobierno familiar ayuda a las familias a decidir juntas sobre el patrimonio compartido
+- Las cartas, los consejos, las entidades familiares, los fideicomisos y la educación son herramientas comunes
+- Las estructuras legales hacen exigible el gobierno
+- Prepare a los herederos como custodios, no solo como beneficiarios
+
+===== PURPLE-L5-045
+TITLE: Las estructuras de filantropía: fundaciones y fondos asesorados por el donante
+SUMMARY: Las estructuras de filantropía van desde los donativos directos hasta los fondos asesorados por el donante, las fundaciones y los fideicomisos benéficos; difieren en control, costo y reglas, y siempre deben servir fines benéficos.
+KEYWORDS: estructuras de donativos, fundación privada, fondo asesorado por el donante, fideicomiso benéfico, planificación filantrópica
+# Las estructuras de filantropía: fundaciones y fondos asesorados por el donante
+
+## Escenario inicial
+SUPUESTO/OPINIÓN (escenario hipotético solo con fines educativos): Imagine una gran región agrícola que sufre una sequía severa durante varias temporadas, lo que reduce mucho la oferta mundial de un alimento básico.
+Aplíquelo aquí: Una sequía severa reduce el suministro de alimentos en una región, y una familia quiere ayudar a las comunidades afectadas durante muchos años. Pregunte desde varios colores: ¿qué estructura legal (MORADO) le da a la familia el equilibrio correcto entre control y sencillez? ¿Cómo se tratan los donativos a efectos fiscales (VERDE)? ¿Cómo deben invertirse los fondos benéficos mientras esperan ser donados (BLANCO)?
+
+## Objetivos de aprendizaje
+- Comparar las estructuras comunes de donativos
+- Explicar los compromisos de control, costo y impuestos
+- Conectar la planificación filantrópica con el gobierno familiar y la custodia del patrimonio
+
+## Contenido principal
+Hacer un donativo puede ser sencillo, como escribir un cheque. Para las familias que donan cantidades mayores durante muchos años, las estructuras legales pueden añadir organización, beneficios fiscales y una forma de involucrar a la siguiente generación.
+Estructuras comunes (los nombres y las reglas son una REGLA ESPECÍFICA DE LA REGIÓN):
+- Los donativos directos: donar directamente a organizaciones benéficas. Es lo más sencillo.
+- El fondo asesorado por el donante: una cuenta en una organización benéfica patrocinadora. El donante aporta, puede recibir una deducción fiscal al aportar (donde exista) y luego recomienda donativos. El patrocinador tiene el control legal, pero suele seguir las recomendaciones del donante cuando cumplen sus reglas.
+- La fundación privada: una entidad benéfica separada, creada y controlada por la familia. Ofrece el máximo control (contratar personal, dirigir programas, otorgar donativos), pero por lo general tiene más papeleo, costos, informes públicos y reglas, como pagos anuales mínimos y límites a las transacciones con miembros de la familia.
+- Los fideicomisos benéficos: algunas jurisdicciones permiten fideicomisos que reparten los beneficios entre una organización benéfica y la familia a lo largo del tiempo.
+Cómo se conectan los colores:
+- MORADO: La estructura determina quién controla legalmente el dinero y qué reglas aplican.
+- VERDE: REGLA ESPECÍFICA DE LA REGIÓN: Las deducciones, los límites y el tratamiento de los bienes donados varían. Donar bienes que han aumentado de valor en lugar de efectivo puede dar beneficios fiscales adicionales en algunos sistemas; en España, por ejemplo, los donativos a entidades acogidas a la ley de mecenazgo pueden dar derecho a deducción en el IRPF o en el Impuesto sobre Sociedades dentro de ciertos límites, por lo que conviene confirmarlo con un asesor fiscal.
+- BLANCO: Los fondos benéficos se invierten mientras esperan ser donados. La política de inversión debe ajustarse al calendario de los donativos.
+- NEGRO/STEWARD: Las estructuras de filantropía pueden enseñar a los miembros más jóvenes de la familia sobre la responsabilidad, la investigación y la toma de decisiones.
+- NARANJA: Las fundaciones pueden desarrollar una reputación pública que afecte los negocios de la familia.
+Importante: una estructura de filantropía debe servir fines benéficos. Usar una fundación para beneficio personal, como pagar salarios excesivos a miembros de la familia o usar sus bienes personalmente, puede violar las reglas y traer penalidades.
+SUPUESTO/OPINIÓN: Para muchas familias, un fondo asesorado por el donante da la mayoría de los beneficios de la filantropía organizada con mucha menos administración. Una fundación privada tiene más sentido cuando la familia quiere dirigir sus propios programas o emplear personal.
+
+## Ejemplo práctico
+EJEMPLO ILUSTRATIVO: La familia Mendoza quiere apoyar a las comunidades agrícolas afectadas por la sequía durante los próximos 15 años.
+Opción 1: un fondo asesorado por el donante. Aporta acciones que han aumentado de valor por 5 €00.000. REGLA ESPECÍFICA DE LA REGIÓN: En su jurisdicción, donar acciones que han aumentado de valor puede permitir una deducción por el valor de las acciones sin pagar impuesto sobre la ganancia de capital por el aumento. La familia recomienda donativos cada año. Muy poco papeleo.
+Opción 2: una fundación privada. La familia controlaría las inversiones y podría contratar a un oficial de programas para dirigir sus propios proyectos de agua. Pero enfrentaría informes anuales, reglas de pago mínimo y costos más altos.
+Escoge el fondo asesorado por el donante para empezar. Cada año, el consejo de familia (vea PURPLE-L5-044) se reúne, y los miembros más jóvenes investigan organizaciones benéficas y presentan recomendaciones. Las inversiones del fondo siguen una política moderada ajustada a su calendario de 15 años.
+Tras cinco años, como sus donativos crecen y quiere dirigir un programa de riego específico, la familia considera convertir parte de sus donativos en una fundación privada.
+SUPUESTO/OPINIÓN: La familia empezó de forma sencilla y añadió complejidad solo cuando sus metas lo exigieron. Sus donativos también se convirtieron en un campo de entrenamiento para la custodia del patrimonio.
+
+## Prueba práctica
+**Q1. ¿Quién suele tener el control legal de los bienes de un fondo asesorado por el donante?**
+A) El donante
+B) El gobierno
+C) La organización benéfica patrocinadora
+D) El banco de la familia
+
+**Q2. ¿Cuál es una ventaja clave de una fundación privada?**
+A) No hay papeleo
+B) Reintegros fiscales garantizados
+C) No hay reglas
+D) El máximo control, incluso dirigir programas y contratar personal
+
+**Q3. ¿Por qué donar bienes que han aumentado de valor puede ser beneficioso en algunos sistemas?**
+A) Puede permitir una deducción sin pagar impuesto sobre la ganancia de capital por el aumento
+B) Reduce los impuestos de la organización benéfica
+C) Aumenta el valor de los bienes
+D) Evita las reglas de las organizaciones benéficas
+
+**Q4. ¿Qué puede violar las reglas de las organizaciones benéficas?**
+A) Otorgar donativos
+B) Usar los bienes de una fundación para beneficio personal
+C) Invertir los fondos
+D) Hacer reuniones
+
+**Q5. ¿Cómo usó la familia Mendoza los donativos para la custodia del patrimonio?**
+A) Solo hizo donativos anónimos
+B) Contrató a personas de fuera para todo
+C) Los miembros más jóvenes investigaron organizaciones y presentaron recomendaciones
+D) Evitó involucrar a los hijos
+
+## Clave de respuestas
+Q1: C
+Q2: D
+Q3: A
+Q4: B
+Q5: C
+
+## Respuestas y explicaciones
+**Q1.** El patrocinador controla los bienes, pero suele seguir las recomendaciones del donante dentro de sus reglas.
+**Q2.** Las fundaciones ofrecen control a cambio de más administración.
+**Q3.** Las reglas varían. REGLA ESPECÍFICA DE LA REGIÓN.
+**Q4.** Las estructuras de filantropía deben servir fines benéficos.
+**Q5.** Los donativos se convirtieron en un campo de entrenamiento para la responsabilidad.
+
+## Puntos clave
+- Las estructuras de filantropía van desde los donativos directos hasta los fondos asesorados por el donante, las fundaciones y los fideicomisos benéficos
+- Los compromisos abarcan el control, el costo, las reglas y un tratamiento fiscal que varía según la región
+- Los bienes benéficos deben servir fines benéficos
+- Los donativos pueden entrenar a la siguiente generación en la custodia del patrimonio
