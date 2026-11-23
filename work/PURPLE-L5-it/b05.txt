@@ -1,0 +1,456 @@
+===== PURPLE-L5-021
+TITLE: Dichiarazioni, garanzie e indennizzi in un'acquisizione
+SUMMARY: Nell'acquisto di un'impresa le dichiarazioni affermano fatti, le garanzie li promettono e gli indennizzi pagano le violazioni; tetti, franchigie, durate e somme trattenute definiscono la protezione reale, e niente di tutto questo sostituisce la due diligence.
+KEYWORDS: dichiarazioni e garanzie, indennizzo, contratto di acquisizione, trattenuta su parte del prezzo, comprare un'impresa
+# Dichiarazioni, garanzie e indennizzi in un'acquisizione
+
+## Scenario iniziale
+IPOTESI/OPINIONE (scenario ipotetico solo a scopo didattico): Immagina un grande blocco commerciale che impone all'improvviso dazi elevati su un'ampia categoria di prodotti manifatturieri importati, aumentando i costi delle imprese che dipendono da quelle importazioni come materie prime.
+Applicalo qui: Subito dopo che un acquirente ha comprato un'impresa arrivano nuovi dazi e un cliente sostiene che l'impresa ha violato un contratto di fornitura prima della vendita. Chiediti attraverso i colori: il venditore ha promesso (PURPLE) che non c'erano controversie in corso? Una parte del prezzo di acquisto (BLUE) è stata trattenuta per coprire quella promessa? Come stabilisce la negoziazione (ORANGE) chi sopporta questo rischio?
+
+## Obiettivi di apprendimento
+- Definire dichiarazioni, garanzie e indennizzi
+- Spiegare come conti di garanzia, tetti e franchigie limitano o assicurano le richieste di indennizzo
+- Collegare la ripartizione dei rischi al prezzo di acquisto e al finanziamento
+
+## Contenuto principale
+Quando compri un'impresa, non puoi vedere tutto. Il venditore ne sa più di te. Il contratto di acquisto gestisce questa differenza con tre strumenti:
+- Dichiarazioni: Affermazioni di fatto del venditore a una certa data ("Non ci sono cause in corso." "I bilanci sono corretti.").
+- Garanzie: Promesse che quelle affermazioni sono vere, spesso usate insieme alle dichiarazioni.
+- Indennizzi: Promesse di pagare le perdite dell'altra parte se una dichiarazione si rivela falsa o se si verifica un rischio specifico.
+Limiti e protezioni comuni:
+- Durata: Per quanto tempo dopo la chiusura l'acquirente può presentare una richiesta.
+- Franchigia: Le richieste piccole sotto un importo stabilito non vengono pagate, per evitare infinite liti per cose minori.
+- Tetto: Il massimo che il venditore pagherà, spesso una percentuale del prezzo.
+- Conto di garanzia o trattenuta: Una parte del prezzo di acquisto viene trattenuta per un periodo per garantire le richieste di indennizzo.
+- Indennizzi specifici: Promesse separate per rischi noti, come una verifica fiscale in corso.
+Come si collegano i colori:
+- BLUE: Un acquirente che non riesce a ottenere dichiarazioni forti può abbassare il prezzo o usare il finanziamento del venditore, che gli dà un modo per compensare le richieste con le rate del debito (se il contratto lo permette).
+- ORANGE: Qui tutto si negozia. Un venditore con molti acquirenti interessati può resistere a indennizzi ampi. Un acquirente con l'unica offerta ha più potere.
+- GREEN: REGOLA SPECIFICA DELLA REGIONE: I pagamenti di indennizzo possono essere trattati come rettifiche del prezzo ai fini fiscali; in Italia, per esempio, secondo le informazioni disponibili, le somme pagate dal venditore per la violazione delle dichiarazioni e garanzie possono essere trattate come rettifica del prezzo o in altro modo, a seconda della formulazione del contratto, con effetti sulle imposte di ciascuna parte, quindi verificalo con un commercialista.
+- PURPLE: La due diligence (PURPLE-L5-022) e le dichiarazioni lavorano insieme. La due diligence trova ciò che può. Le dichiarazioni coprono ciò che non può.
+IPOTESI/OPINIONE: Un acquirente non dovrebbe trattare le dichiarazioni come un sostituto della due diligence. Un venditore che ha già speso il denaro della vendita può essere difficile da far pagare. I conti di garanzia e le trattenute trasformano una promessa in denaro.
+
+## Esempio pratico
+ESEMPIO ILLUSTRATIVO: Maya compra un'impresa di distribuzione per 1,5 milioni di euro.
+Condizioni principali:
+- Il venditore dichiara che non ci sono controversie con i clienti in corso né minacciate.
+- Tetto dell'indennizzo: 20% del prezzo (300.000 euro). Franchigia: 15.000 euro.
+- Conto di garanzia: 150.000 euro trattenuti per 18 mesi.
+- Durata: 18 mesi per le dichiarazioni generali; più a lungo per le dichiarazioni fiscali.
+- Maya paga anche 300.000 euro del prezzo tramite un debito verso il venditore, e il contratto le permette di compensare con quel debito le richieste di indennizzo valide.
+Tre mesi dopo la chiusura, un cliente chiede 90.000 euro per una violazione contrattuale anteriore alla vendita. Il venditore aveva ricevuto una lettera di diffida prima della chiusura ma non l'aveva rivelata.
+La richiesta di Maya: 90.000 euro supera la franchigia di 15.000 euro. A seconda della formulazione del contratto, recupera dal conto di garanzia l'intero importo o l'importo oltre la franchigia. Se il conto di garanzia si esaurisse, potrebbe compensare con il debito verso il venditore.
+IPOTESI/OPINIONE: Il conto di garanzia e il diritto di compensazione hanno contato più della dichiarazione stessa. Senza di essi, Maya starebbe facendo causa a un venditore che era già andato avanti.
+
+## Quiz di esercitazione
+**Q1. Che cos'è una dichiarazione in un contratto di acquisto?**
+A) Un'affermazione di fatto del venditore a una certa data
+B) Un'affermazione di marketing
+C) Un modulo fiscale
+D) Un prestito
+**Q2. Che cosa fa un indennizzo?**
+A) Aumenta il prezzo
+B) Trasferisce i dipendenti
+C) Annulla la vendita
+D) Promette di pagare le perdite dell'altra parte se una dichiarazione è falsa o se si verifica un rischio specifico
+**Q3. Che cos'è un conto di garanzia o una trattenuta?**
+A) Un rimborso fiscale
+B) Una commissione della banca
+C) L'anticipo per una casa
+D) Una parte del prezzo trattenuta per un periodo per garantire le richieste di indennizzo
+**Q4. Che cosa fa una franchigia?**
+A) Limita il totale delle richieste
+B) Impedisce che vengano pagate le richieste piccole sotto un importo stabilito
+C) Conserva denaro
+D) Fissa i tassi di interesse
+**Q5. Secondo la lezione, perché il conto di garanzia ha contato più della dichiarazione stessa?**
+A) Le dichiarazioni sono illegali
+B) Un venditore che ha speso il denaro può essere difficile da far pagare
+C) Il conto di garanzia produce interessi
+D) Lo ha imposto il tribunale
+
+## Chiave delle risposte
+Q1: A
+Q2: D
+Q3: D
+Q4: B
+Q5: B
+
+## Risposte e spiegazioni
+**Q1.** Le dichiarazioni affermano fatti su cui l'acquirente fa affidamento.
+**Q2.** Gli indennizzi spostano il costo dei problemi nascosti.
+**Q3.** Il conto di garanzia trasforma una promessa di indennizzo in denaro disponibile.
+**Q4.** Le franchigie evitano liti per importi minori.
+**Q5.** Il denaro garantito è più affidabile di una promessa.
+
+## Punti chiave
+- Le dichiarazioni affermano fatti; le garanzie li promettono; gli indennizzi pagano le violazioni
+- Tetti, franchigie, durate e conti di garanzia definiscono la protezione reale
+- I debiti verso il venditore con diritto di compensazione aggiungono un altro livello
+- Le dichiarazioni integrano la due diligence; non la sostituiscono
+
+===== PURPLE-L5-022
+TITLE: La due diligence legale prima di comprare un'impresa
+SUMMARY: La due diligence legale trova i rischi che i bilanci non mostrano; vanno controllati società, contratti, lavoro, proprietà intellettuale, immobili, cause, regole di settore e debiti, e le condizioni per rinunciare all'affare vanno fissate in anticipo.
+KEYWORDS: elenco per la due diligence legale, due diligence nelle acquisizioni, verifica legale nell'acquisto di un'impresa, revisione dei contratti
+# La due diligence legale prima di comprare un'impresa
+
+## Scenario iniziale
+IPOTESI/OPINIONE (scenario ipotetico solo a scopo didattico): Immagina due grandi potenze economiche che inaspriscono i controlli sulle esportazioni l'una contro l'altra su una categoria di componenti tecnologici avanzati usati in molti settori.
+Applicalo qui: Un acquirente è a pochi giorni dalla chiusura dell'acquisto di un'impresa che vende prodotti tecnologici. Nuovi controlli sulle esportazioni limitano all'improvviso un fornitore chiave. Chiediti attraverso i colori: il contratto di fornitura dell'impresa (PURPLE) permette la risoluzione in questa situazione? Il suo valore finanziario (BLUE/WHITE) dipende da quel fornitore? Ci sono licenze o autorizzazioni (PURPLE) che potrebbero essere revocate?
+
+## Obiettivi di apprendimento
+- Elencare le principali categorie della due diligence legale
+- Collegare i risultati legali alle decisioni su prezzo, struttura e finanziamento
+- Decidere quando un risultato dovrebbe cambiare o fermare un affare
+
+## Contenuto principale
+La due diligence è l'indagine che un acquirente fa prima della chiusura. La due diligence finanziaria (BLUE/GREEN) guarda i numeri. La due diligence legale (PURPLE) guarda i diritti, gli obblighi e i rischi che i numeri potrebbero non mostrare.
+Un elenco pratico per la due diligence legale:
+1. Società e proprietà: La società è in regola? Chi ne è davvero il proprietario? Ci sono opzioni o promesse di quote ad altre persone?
+2. Contratti rilevanti: Contratti con clienti e fornitori, locazioni, prestiti e accordi tra soci. Cerca clausole di cambio di controllo che permettono all'altra parte di recedere se cambia la proprietà.
+3. Lavoro: Contratti dei dipendenti, inquadramento dei collaboratori (PURPLE-L5-031), obblighi per i benefit, patti di non concorrenza e richieste in corso.
+4. Proprietà intellettuale: L'impresa possiede davvero il suo marchio, il suo software e i suoi contenuti, o ne sono proprietari i fondatori o i collaboratori? (PURPLE-L5-028)
+5. Immobili: Titolarità degli immobili di proprietà, condizioni delle locazioni, destinazione urbanistica e questioni ambientali.
+6. Contenzioso: Cause in corso o minacciate, indagini delle autorità e storia delle transazioni.
+7. Regole di settore: Licenze, autorizzazioni, rispetto delle regole sulla protezione dei dati e regole su esportazioni e importazioni. REGOLA SPECIFICA DELLA REGIONE; in Italia, per esempio, secondo le informazioni disponibili, molte attività richiedono una SCIA o un'autorizzazione del comune e di enti di settore, come l'ASL o le autorità ambientali, e il trattamento dei dati personali deve rispettare il GDPR, quindi verificalo con un avvocato.
+8. Debiti e vincoli: Prestiti, garanzie e vincoli sui beni dell'impresa.
+Come i risultati cambiano l'affare:
+- BLUE: Un contratto con un cliente chiave che può essere risolto in caso di cambio di controllo può abbassare il prezzo o richiedere il consenso del cliente prima della chiusura.
+- PURPLE: I risultati determinano dichiarazioni specifiche, indennizzi e dimensioni dei conti di garanzia (PURPLE-L5-021).
+- GREEN: Le esposizioni fiscali incidono sulla scelta tra acquisto dei beni o delle quote (PURPLE-L5-023).
+- BLACK: Alcuni risultati dovrebbero fermare del tutto l'affare. Conoscere in anticipo le proprie condizioni per rinunciare protegge dalla febbre dell'affare.
+IPOTESI/OPINIONE: La competenza più importante nella due diligence non è leggere i documenti. È chiedersi: "Che cosa succede al valore di questa impresa se sparisce questo contratto, questa licenza o questa persona?"
+
+## Esempio pratico
+ESEMPIO ILLUSTRATIVO: Andre sta comprando una piccola impresa di accessori elettronici per 2 milioni di euro.
+Risultati della due diligence:
+- Il 45% del fatturato viene da un solo rivenditore, e quel contratto permette il recesso in caso di cambio di controllo.
+- Il design del prodotto principale dell'impresa è stato creato da un designer freelance senza una cessione scritta della proprietà intellettuale.
+- Il fornitore chiave si trova in una regione ora colpita dai controlli sulle esportazioni dello scenario.
+- Una controversia in corso con un cliente da circa 40.000 euro.
+Le risposte di Andre:
+- Subordina la chiusura al consenso scritto del rivenditore al cambio di controllo.
+- Chiede al venditore di ottenere dal designer una cessione firmata della proprietà intellettuale prima della chiusura.
+- Abbassa la sua offerta a 1,7 milioni di euro per riflettere il rischio di fornitura, con un pagamento aggiuntivo di 200.000 euro se il fatturato tiene per due anni.
+- Aggiunge un indennizzo specifico e un conto di garanzia per la controversia in corso.
+IPOTESI/OPINIONE: Nessuno di questi problemi compariva nei bilanci. Ognuno avrebbe potuto ridurre molto il valore dell'impresa dopo la chiusura.
+
+## Quiz di esercitazione
+**Q1. Su che cosa si concentra la due diligence legale?**
+A) Su diritti, obblighi e rischi che i numeri potrebbero non mostrare
+B) Solo sui numeri del fatturato
+C) Sui piani di marketing
+D) Sui compleanni dei dipendenti
+**Q2. Che cos'è una clausola di cambio di controllo?**
+A) Una clausola sulla formazione dei dirigenti
+B) Una clausola sulle serrature dell'ufficio
+C) Una clausola fiscale
+D) Una clausola che permette all'altra parte di recedere o rinegoziare se cambia la proprietà
+**Q3. Perché Andre ha chiesto una cessione della proprietà intellettuale al designer freelance?**
+A) Senza di essa, l'impresa potrebbe non possedere davvero il design del suo prodotto principale
+B) Per ridurre le imposte
+C) I freelance devono essere assunti
+D) Era una richiesta della banca
+**Q4. Come ha gestito Andre il rischio di fornitura?**
+A) L'ha ignorato
+B) Ha comprato il fornitore
+C) Ha annullato l'affare
+D) Ha abbassato il prezzo e aggiunto un pagamento aggiuntivo legato al fatturato
+**Q5. Secondo la lezione, qual è la domanda chiave della due diligence?**
+A) Quanto è bello l'ufficio?
+B) Quanti dipendenti ci sono?
+C) Che cosa succede al valore se sparisce questo contratto, questa licenza o questa persona?
+D) Qual è il logo?
+
+## Chiave delle risposte
+Q1: A
+Q2: D
+Q3: A
+Q4: D
+Q5: C
+
+## Risposte e spiegazioni
+**Q1.** La due diligence legale integra quella finanziaria.
+**Q2.** Queste clausole possono mettere a rischio contratti chiave in un'acquisizione.
+**Q3.** I collaboratori possono possedere ciò che creano, a meno che i diritti non siano ceduti per iscritto.
+**Q4.** Prezzo e pagamento aggiuntivo sono stati adeguati a un rischio incerto.
+**Q5.** La dipendenza da singoli punti di rottura determina il rischio sul valore.
+
+## Punti chiave
+- La due diligence legale trova i rischi che i bilanci non mostrano
+- Controlla società, contratti, lavoro, proprietà intellettuale, immobili, contenzioso, regole di settore e debiti
+- I risultati determinano prezzo, struttura, dichiarazioni, conti di garanzia e condizioni di chiusura
+- Fissa in anticipo le condizioni per rinunciare all'affare
+
+===== PURPLE-L5-023
+TITLE: Acquisto dei beni o acquisto delle quote
+SUMMARY: Comprare le quote significa prendere l'intera impresa, passività comprese; comprare i beni permette di scegliere beni e passività ma richiede trasferimenti e consensi, e acquirenti e venditori preferiscono spesso strutture diverse per motivi fiscali, con il prezzo che può dividere il vantaggio.
+KEYWORDS: acquisto dei beni o delle azioni, vendita delle quote, struttura dell'acquisizione, imposte di acquirente e venditore, passività assunte
+# Acquisto dei beni o acquisto delle quote
+
+## Scenario iniziale
+IPOTESI/OPINIONE (scenario ipotetico solo a scopo didattico): Immagina una banca centrale che alza il proprio tasso di riferimento in modo deciso e ripetuto, nel giro di pochi mesi, per contrastare un'inflazione in aumento.
+Applicalo qui: Con i tassi alti, un acquirente ha meno capacità di indebitarsi e vuole limitare il rischio in un'acquisizione. Chiediti attraverso i colori: comprare solo i beni (PURPLE) può lasciarsi alle spalle le vecchie passività, ma può richiedere la cessione di ogni contratto. Quale struttura porta a risultati fiscali migliori (GREEN)? Quale è più facile da finanziare (BLUE)?
+
+## Obiettivi di apprendimento
+- Spiegare la differenza tra acquisto dei beni e acquisto delle quote
+- Confrontare come ciascuno sposta passività e obblighi contrattuali
+- Spiegare perché acquirente e venditore preferiscono spesso strutture diverse
+
+## Contenuto principale
+Ci sono due modi di base per comprare un'impresa:
+- Acquisto delle quote (o delle azioni): L'acquirente compra le quote o le azioni dei proprietari. La società resta la stessa, con tutti i suoi beni, contratti e passività, noti e ignoti.
+- Acquisto dei beni: La società dell'acquirente compra beni selezionati (attrezzature, magazzino, clientela, proprietà intellettuale, a volte immobili) e si accolla solo le passività che accetta di assumere. La società del venditore tiene tutto il resto.
+Come si collegano i colori:
+- PURPLE: Nell'acquisto delle quote, i contratti di solito restano in vigore (a meno che non abbiano clausole di cambio di controllo). Nell'acquisto dei beni, molti contratti, licenze e autorizzazioni devono essere ceduti, il che può richiedere il consenso dell'altra parte. Alcune licenze non si possono trasferire affatto. REGOLA SPECIFICA DELLA REGIONE; in Italia, per esempio, secondo le informazioni disponibili, nella cessione d'azienda i contratti di lavoro passano in genere all'acquirente, che risponde in solido per certi crediti dei lavoratori e, entro certi limiti, per alcuni debiti fiscali, e la cessione di contratti e licenze richiede spesso il consenso dell'altra parte, quindi verificalo con un avvocato.
+- PURPLE (passività): L'acquisto dei beni in genere permette all'acquirente di lasciarsi alle spalle le passività ignote, anche se alcune leggi impongono una responsabilità del successore in certe situazioni, come alcuni obblighi fiscali o verso i lavoratori. REGOLA SPECIFICA DELLA REGIONE.
+- GREEN: REGOLA SPECIFICA DELLA REGIONE: In molti sistemi gli acquirenti preferiscono l'acquisto dei beni perché spesso possono attribuire ai beni nuovi valori fiscali più alti e ammortizzarli. I venditori preferiscono spesso la vendita delle quote perché può essere tassata in modo più favorevole per loro. Questa differenza è un punto di negoziazione comune.
+- BLUE: I finanziatori possono preferire l'acquisto dei beni perché i beni acquistati possono servire da garanzia pulita.
+- ORANGE: Poiché acquirenti e venditori vogliono cose diverse, il prezzo spesso si adegua. Un venditore che accetta una vendita dei beni può chiedere un prezzo più alto per compensare un trattamento fiscale peggiore.
+IPOTESI/OPINIONE: Nessuna struttura è sempre migliore. La struttura migliore è quella in cui i risultati giuridici, fiscali e di finanziamento, messi insieme, funzionano per entrambe le parti, con il prezzo adeguato per dividere equamente il vantaggio.
+
+## Esempio pratico
+ESEMPIO ILLUSTRATIVO: Farah vuole comprare una tipografia. Il venditore chiede 900.000 euro.
+Opzione A: Acquisto delle quote per 900.000 euro.
+- Tutti i contratti con i clienti e la locazione restano in vigore automaticamente.
+- Farah eredita le passività ignote, protetta solo da dichiarazioni e conto di garanzia.
+- Il valore fiscale delle attrezzature per lei resta il vecchio valore basso del venditore, quindi le quote di ammortamento sono piccole.
+Opzione B: Acquisto dei beni per 900.000 euro.
+- La nuova società di Farah compra attrezzature, clientela e marchio.
+- Il locatore deve acconsentire alla cessione della locazione; due clienti importanti devono firmare nuovi contratti.
+- Le vecchie passività restano per lo più al venditore.
+- Farah può attribuire valori fiscali più alti alle attrezzature e ammortizzarle. REGOLA SPECIFICA DELLA REGIONE.
+- Le imposte del venditore sono più alte.
+Negoziazione: Il venditore accetta la vendita dei beni se il prezzo sale a 960.000 euro. Il commercialista di Farah stima che il suo risparmio fiscale in più anni superi i 60.000 euro, e la sua banca preferisce la struttura con i beni. IPOTESI/OPINIONE: Entrambe le parti finiscono in una situazione migliore delle loro posizioni iniziali.
+
+## Quiz di esercitazione
+**Q1. Nell'acquisto delle quote, che cosa succede alle passività della società?**
+A) Spariscono
+B) Restano alla società, che ora appartiene all'acquirente
+C) Le paga lo Stato
+D) Passano ai dipendenti
+**Q2. Che cosa è spesso richiesto nell'acquisto dei beni ma non nell'acquisto delle quote?**
+A) Nessun contratto
+B) Solo il voto dei soci
+C) Un nuovo nome per la società
+D) Il consenso alla cessione di molti contratti, licenze e locazioni
+**Q3. Perché gli acquirenti preferiscono spesso l'acquisto dei beni per motivi fiscali?**
+A) Spesso possono attribuire ai beni valori fiscali più alti e ammortizzarli
+B) Non si devono imposte
+C) I venditori pagano le imposte dell'acquirente
+D) I beni sono esenti da imposte
+**Q4. Perché il venditore ha accettato la vendita dei beni nell'esempio?**
+A) Farah ha alzato il prezzo a 960.000 euro
+B) Lo imponeva la legge
+C) Ha insistito il locatore
+D) Il venditore voleva pagare più imposte
+**Q5. Che cosa dice la lezione su quale struttura sia migliore?**
+A) L'acquisto dei beni è sempre migliore
+B) Non fa differenza
+C) L'acquisto delle quote è sempre migliore
+D) La struttura migliore funziona per entrambe le parti, con il prezzo adeguato in modo equo
+
+## Chiave delle risposte
+Q1: B
+Q2: D
+Q3: A
+Q4: A
+Q5: D
+
+## Risposte e spiegazioni
+**Q1.** L'acquirente prende la società così com'è, comprese le passività ignote.
+**Q2.** Beni e contratti devono essere trasferiti uno per uno, spesso con il consenso.
+**Q3.** Un nuovo valore fiscale può creare deduzioni maggiori. REGOLA SPECIFICA DELLA REGIONE.
+**Q4.** Un aggiustamento del prezzo ha diviso il vantaggio fiscale dell'acquirente.
+**Q5.** Conta il risultato giuridico, fiscale e di finanziamento complessivo.
+
+## Punti chiave
+- L'acquisto delle quote prende l'intera società, passività comprese
+- L'acquisto dei beni sceglie beni e passività ma richiede trasferimenti e consensi
+- Acquirenti e venditori preferiscono spesso strutture diverse per motivi fiscali
+- Gli aggiustamenti del prezzo possono dividere il vantaggio della struttura migliore
+
+===== PURPLE-L5-024
+TITLE: I documenti del finanziamento del venditore: titoli di debito, garanzie e inadempimento
+SUMMARY: Il finanziamento del venditore trasforma il venditore in un finanziatore, e l'operazione va documentata come farebbe un finanziatore: riconoscimento del debito, garanzia reale, garanzia personale, subordinazione e clausole chiare su inadempimento, termine per rimediare e rimedi.
+KEYWORDS: documenti del finanziamento del venditore, riconoscimento di debito, contratto di garanzia, garanzia su un immobile, rimedi in caso di inadempimento
+# I documenti del finanziamento del venditore: titoli di debito, garanzie e inadempimento
+
+## Scenario iniziale
+IPOTESI/OPINIONE (scenario ipotetico solo a scopo didattico): Immagina una banca centrale che alza il proprio tasso di riferimento in modo deciso e ripetuto, nel giro di pochi mesi, per contrastare un'inflazione in aumento.
+Applicalo qui: Quando i tassi delle banche schizzano in alto, più acquirenti ricorrono al finanziamento del venditore per comprare imprese e immobili. Chiediti attraverso i colori: quali documenti (PURPLE) rendono esigibile il prestito del venditore? Quale garanzia (RED/BLUE) lo sostiene? Che cosa succede se l'acquirente salta delle rate, e come dichiara il venditore questo reddito (GREEN)?
+
+## Obiettivi di apprendimento
+- Individuare i documenti centrali di un'operazione finanziata dal venditore
+- Spiegare come garanzia e priorità proteggono il venditore
+- Descrivere le clausole di inadempimento, di termine per rimediare e di rimedi che proteggono entrambe le parti
+
+## Contenuto principale
+Al Livello 3, BLUE ha presentato il finanziamento del venditore nell'acquisto di imprese, e RED ha mostrato come può aiutare a comprare immobili. Al Livello 5 impari i documenti giuridici che rendono l'accordo esigibile ed equo.
+Documenti centrali:
+1. Riconoscimento del debito: La promessa scritta dell'acquirente di rimborsare. Fissa l'importo, il tasso di interesse, il piano di pagamento, la scadenza, le penali di ritardo e i diritti di rimborso anticipato.
+2. Strumento di garanzia:
+   - Per gli immobili: un'ipoteca o un'altra garanzia iscritta sull'immobile. REGOLA SPECIFICA DELLA REGIONE; in Italia, per esempio, secondo le informazioni disponibili, la garanzia più usata sugli immobili è l'ipoteca, iscritta nei registri immobiliari, e la sua escussione richiede in genere un'esecuzione forzata davanti al tribunale, mentre per i beni mobili si usano il pegno e la riserva di proprietà, quindi verificalo con un notaio.
+   - Per le imprese: un contratto di garanzia che dà al venditore un diritto sui beni dell'impresa, spesso reso pubblico con un'iscrizione in modo che gli altri creditori ne siano a conoscenza. REGOLA SPECIFICA DELLA REGIONE.
+3. Garanzia personale: L'acquirente può garantire personalmente il debito (vedi PURPLE-L5-009).
+4. Accordo di subordinazione: Se presta anche una banca, di solito chiede che il prestito del venditore stia in seconda posizione. Questo accordo fissa quella priorità.
+Clausole chiave che proteggono entrambe le parti:
+- Definizione di inadempimento: Che cosa conta come inadempimento? Rate saltate, mancata assicurazione, vendita dei beni in garanzia senza consenso.
+- Diffida e termine per rimediare: Quanto tempo ha l'acquirente per rimediare a un inadempimento prima che il venditore possa agire.
+- Rimedi: Che cosa può fare il venditore dopo l'inadempimento, come chiedere subito l'intero debito, escutere la garanzia o riprendersi i beni dell'impresa. REGOLA SPECIFICA DELLA REGIONE.
+- Impegni: Promesse come mantenere l'assicurazione, pagare le imposte e non contrarre altri debiti senza consenso.
+- Diritti di compensazione: Se l'acquirente può ridurre i pagamenti per coprire richieste di indennizzo (PURPLE-L5-021).
+Collegamento con GREEN: REGOLA SPECIFICA DELLA REGIONE: I venditori possono riuscire a dichiarare il guadagno nel tempo, man mano che ricevono i pagamenti (trattamento della vendita a rate), e gli interessi spesso devono essere pari o superiori a certi minimi.
+IPOTESI/OPINIONE: Il venditore diventa un finanziatore. Un venditore che non presterebbe mai denaro a uno sconosciuto senza documenti non dovrebbe nemmeno vendere a credito senza di essi.
+
+## Esempio pratico
+ESEMPIO ILLUSTRATIVO: Walter vende la sua autofficina a Kenji per 600.000 euro. Una banca presta 360.000 euro. Walter finanzia 180.000 euro con un riconoscimento di debito. Kenji paga 60.000 euro di anticipo.
+Documenti:
+- Riconoscimento di debito: 180.000 euro, interesse del 7%, rimborso in 7 anni, rate mensili.
+- Contratto di garanzia: Walter ha un diritto in seconda posizione sulle attrezzature e sul magazzino dell'officina, iscritto pubblicamente.
+- Accordo di subordinazione: Il prestito della banca viene pagato per primo.
+- Kenji garantisce personalmente il debito, e la garanzia scende al 50% dopo 36 rate pagate puntualmente.
+- Inadempimento: 15 giorni di ritardo dopo una diffida scritta, o mancata assicurazione.
+- Impegno: Kenji non può vendere attrezzature importanti senza il consenso di Walter.
+Nel terzo anno Kenji salta due rate dopo aver perso un grosso cliente con una flotta di veicoli. Walter invia la diffida. Kenji rimedia entro il termine usando una linea di credito. I due concordano anche per iscritto un periodo di tre mesi di soli interessi.
+IPOTESI/OPINIONE: I documenti hanno dato a Walter diritti esigibili, ma hanno dato anche a entrambi una procedura chiara. Quella chiarezza ha reso possibile un accordo pratico invece di uno scontro.
+
+## Quiz di esercitazione
+**Q1. Che cosa fa un riconoscimento di debito?**
+A) Trasferisce la proprietà
+B) Fissa le aliquote fiscali
+C) Registra la promessa scritta dell'acquirente di rimborsare, con le condizioni
+D) Sostituisce il contratto di acquisto
+**Q2. Che cosa dà al venditore uno strumento di garanzia?**
+A) Un diritto su beni specifici se l'acquirente è inadempiente
+B) La proprietà dell'impresa
+C) Una deduzione fiscale
+D) Diritti di voto
+**Q3. Perché serve spesso un accordo di subordinazione?**
+A) Per alzare il tasso di interesse
+B) Le banche di solito chiedono che il loro prestito venga pagato per primo
+C) Per annullare il debito
+D) Per evitare le imposte
+**Q4. Che cos'è una clausola di diffida e termine per rimediare?**
+A) Una clausola sulla salute
+B) Un'opzione fiscale
+C) Un termine di marketing
+D) Un tempo concesso all'acquirente per rimediare a un inadempimento dopo la diffida, prima che scattino i rimedi
+**Q5. Che cosa ha reso possibile un accordo nell'esempio?**
+A) La rabbia di Walter
+B) Documenti chiari che davano a entrambe le parti una procedura definita
+C) Un ordine del tribunale
+D) La vendita dell'officina da parte di Kenji
+
+## Chiave delle risposte
+Q1: C
+Q2: A
+Q3: B
+Q4: D
+Q5: B
+
+## Risposte e spiegazioni
+**Q1.** Il riconoscimento di debito definisce l'importo e le condizioni del prestito.
+**Q2.** La garanzia permette al venditore di rifarsi sui beni dati in garanzia.
+**Q3.** Fissa la priorità tra la banca e il venditore.
+**Q4.** I termini per rimediare danno una possibilità equa di correggere i problemi.
+**Q5.** La chiarezza ha permesso una rinegoziazione pratica.
+
+## Punti chiave
+- Il finanziamento del venditore trasforma il venditore in un finanziatore; documentalo come farebbe un finanziatore
+- Documenti centrali: riconoscimento di debito, strumento di garanzia, garanzia personale e subordinazione
+- Inadempimento, termine per rimediare, rimedi e impegni proteggono entrambe le parti
+- Le regole sulla dichiarazione fiscale e sugli interessi minimi sono specifiche per regione
+
+===== PURPLE-L5-025
+TITLE: Le condizioni nei contratti immobiliari come strumenti di gestione del rischio
+SUMMARY: Le condizioni permettono all'acquirente di uscire dall'affare se qualcosa di essenziale non si verifica, purché rispetti scadenze e comunicazioni; rinunciarvi scambia protezione con competitività, e non bisogna mai rinunciare a ciò che non ci si può permettere di perdere.
+KEYWORDS: condizioni nei contratti immobiliari, condizione del mutuo, condizione dell'ispezione, differenza di perizia, caparra
+# Le condizioni nei contratti immobiliari come strumenti di gestione del rischio
+
+## Scenario iniziale
+IPOTESI/OPINIONE (scenario ipotetico solo a scopo didattico): Immagina una banca centrale che alza il proprio tasso di riferimento in modo deciso e ripetuto, nel giro di pochi mesi, per contrastare un'inflazione in aumento.
+Applicalo qui: Durante rapidi aumenti dei tassi, un acquirente firma un contratto di acquisto, poi l'approvazione del mutuo da parte della banca salta. Chiediti attraverso i colori: il contratto (PURPLE) permette all'acquirente di recedere e recuperare la caparra? L'acquirente aveva rinunciato alla condizione del mutuo per vincere l'affare (ORANGE)? Quanto denaro della caparra (WHITE/BLUE) ora è a rischio?
+
+## Obiettivi di apprendimento
+- Descrivere le principali condizioni dei contratti immobiliari
+- Spiegare come caparre e scadenze interagiscono con le condizioni
+- Valutare il rischio di rinunciare alle condizioni nei mercati competitivi
+
+## Contenuto principale
+Una condizione è un requisito del contratto che deve verificarsi perché l'affare vada avanti. Se non si verifica, la parte protetta spesso può recedere senza perdere la caparra, purché rispetti le scadenze e le regole di comunicazione del contratto.
+Condizioni immobiliari comuni:
+- Mutuo: L'acquirente può recedere se non ottiene un prestito alle condizioni stabilite.
+- Ispezione: L'acquirente può far ispezionare l'immobile e recedere o rinegoziare in base ai risultati.
+- Perizia: L'acquirente può recedere o rinegoziare se la perizia valuta l'immobile sotto il prezzo.
+- Titolarità: L'acquirente può recedere se i problemi sulla titolarità non vengono risolti.
+- Vendita dell'immobile dell'acquirente: L'acquirente può recedere se non riesce a vendere l'immobile attuale.
+- Due diligence (immobili commerciali): Tempo per esaminare locazioni, destinazione urbanistica, relazioni ambientali e finanze.
+REGOLA SPECIFICA DELLA REGIONE: I modelli di contratto, le scadenze e la gestione delle caparre variano molto secondo la giurisdizione; in Italia, per esempio, secondo le informazioni disponibili, è comune firmare prima un contratto preliminare di compravendita con una caparra, e condizioni come l'ottenimento del mutuo devono essere scritte nel preliminare prima del rogito notarile, quindi verificalo con un notaio.
+Come si collegano i colori:
+- RED: I risultati dell'ispezione e della perizia incidono sul valore dell'immobile e sui costi di riparazione.
+- BLUE: Le condizioni del mutuo proteggono gli acquirenti quando cambiano le condizioni del prestito, come nello scenario.
+- ORANGE: Nei mercati competitivi gli acquirenti rinunciano spesso alle condizioni per rendere più attraenti le offerte. Questo aumenta la probabilità di vincere, ma sposta il rischio su di loro.
+- WHITE: La caparra è spesso una parte significativa dei risparmi. Perderla è una perdita reale.
+- PURPLE: Le scadenze sono decisive. Mancare una scadenza di comunicazione può far considerare rinunciata la condizione.
+IPOTESI/OPINIONE: Rinunciare a una condizione è una scommessa. Prima di rinunciarvi, chiediti: "Se va male, posso permettermi di perdere la caparra, o di chiudere comunque l'affare?" Se la risposta è no, la rinuncia è un azzardo, non una strategia. Approcci parziali, come accorciare il periodo di una condizione invece di eliminarla, possono bilanciare competitività e protezione.
+
+## Esempio pratico
+ESEMPIO ILLUSTRATIVO: In un mercato vivace, Beatriz fa un'offerta per un piccolo edificio con due unità. Il venditore ha più offerte.
+La sua offerta:
+- Prezzo: leggermente sopra la richiesta.
+- Caparra: 25.000 euro.
+- Condizione dell'ispezione: accorciata da 14 a 7 giorni, non eliminata.
+- Condizione del mutuo: mantenuta, ma presenta una solida pre-approvazione scritta.
+- Condizione della perizia: rinuncia parziale. Accetta di coprire fino a 15.000 euro di un'eventuale differenza tra perizia e prezzo.
+I tassi salgono bruscamente nel periodo prima del rogito. La banca la approva, ma a un tasso più alto. Poiché la sua condizione del mutuo richiedeva l'approvazione "a un tasso non superiore" a un valore stabilito, e il nuovo tasso lo supera, ha una scelta: recedere e recuperare la caparra, o andare avanti. Dopo aver ricalcolato il flusso di cassa, va avanti ma negozia una riduzione del prezzo di 10.000 euro, usando il suo diritto di recesso come leva.
+IPOTESI/OPINIONE: Beatriz è rimasta competitiva senza rinunciare a ogni protezione. La sua condizione del mutuo ben scritta ha trasformato uno shock dei tassi in una negoziazione invece che in una perdita.
+
+## Quiz di esercitazione
+**Q1. Che cos'è una condizione?**
+A) Un requisito che deve verificarsi perché l'affare vada avanti
+B) Una penale
+C) Un tipo di prestito
+D) Un'imposta
+**Q2. Da che cosa protegge una condizione del mutuo?**
+A) Dal maltempo
+B) Dalle imposte sull'immobile
+C) Dal non riuscire a ottenere un prestito alle condizioni stabilite
+D) Dai costi dell'assicurazione sul titolo
+**Q3. Che cosa può succedere se un acquirente manca una scadenza di una condizione?**
+A) Niente
+B) La condizione può essere considerata rinunciata
+C) Il venditore deve pagare l'acquirente
+D) L'affare viene annullato automaticamente
+**Q4. Come è rimasta competitiva Beatriz senza rinunciare a ogni protezione?**
+A) Ha accorciato alcune condizioni e rinunciato in parte alla differenza di perizia
+B) Ha pagato tutto in contanti
+C) Ha rinunciato a tutto
+D) Ha offerto meno della richiesta
+**Q5. Quale domanda dovrebbe farsi un acquirente prima di rinunciare a una condizione?**
+A) Piacerò al venditore?
+B) Di che colore è la casa?
+C) Quanto velocemente posso chiudere?
+D) Se va male, posso permettermi di perdere la caparra o di chiudere comunque?
+
+## Chiave delle risposte
+Q1: A
+Q2: C
+Q3: B
+Q4: A
+Q5: D
+
+## Risposte e spiegazioni
+**Q1.** Se una condizione non si verifica, la parte protetta spesso può recedere.
+**Q2.** Permette agli acquirenti di recedere se il finanziamento non arriva.
+**Q3.** Scadenze e regole di comunicazione sono decisive.
+**Q4.** Gli approcci parziali hanno bilanciato rischio e competitività.
+**Q5.** Se la risposta è no, la rinuncia è una scommessa.
+
+## Punti chiave
+- Le condizioni permettono agli acquirenti di uscire se non si verificano requisiti essenziali
+- Scadenze e regole di comunicazione vanno rispettate alla lettera
+- Rinunciare alle condizioni scambia protezione con competitività
+- Gli approcci parziali possono bilanciare entrambe; non rinunciare mai a ciò che non puoi permetterti di perdere
