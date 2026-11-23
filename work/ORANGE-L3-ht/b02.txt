@@ -47,3 +47,153 @@ Kisa ou ta vle swiv, pi lwen pase kantite nouvo kliyan, pou w konnen si depans o
 ---
 
 *Leson sa a se sèlman pou edikasyon biznis jeneral, e li pa konstitye konsèy finansye, envestisman, taks, oswa legal pèsonalize. Konsilte yon pwofesyonèl ki gen lisans anvan w pran desizyon biznis.*
+
+===== ORANGE-L3-007
+TITLE: Poukisa yon deklarasyon maketing ka kreye ekspozisyon legal
+SUMMARY: Aprann poukisa mo yo itilize nan piblisite pa sèlman chwa pou konvenk moun, men deklarasyon ki ka kreye vrè responsablite legal si yo vin fo oswa yo twonpe moun.
+# ORANGE-L3-007: Poukisa yon deklarasyon maketing ka kreye ekspozisyon legal
+
+## Objektif aprantisaj
+Lè w fin fè leson sa a, w ap kapab:
+- Esplike poukisa deklarasyon maketing ka kreye responsablite legal, pa sèlman konsekans maketing
+- Konekte konsèp sa a ak konsèp kontra ak pwoteksyon konsomatè yo kouvri nan tras PURPLE kourikoulòm sa a
+- Esplike poukisa "tout moun egzajere nan piblisite" pa yon defans legal serye
+
+## Kontni prensipal
+
+Yo ekri tèks maketing pou konvenk moun, men men "poukisa" mo espesifik yo chwazi yo gen pwa legal pi lwen pase pouvwa yo pou konvenk: yon deklarasyon sou fè yo fè nan piblisite — sou pèfòmans yon pwodui, sekirite li, rezilta li, oswa konparezon li ak konkiran — anjeneral ka kreye yon obligasyon legal pou vrèman pwouve deklarasyon sa a, sa ki konekte ak prensip legal pi laj ki di fo prezantasyon (misrepresentation) ka kreye responsablite, yo kouvri sa nan plizyè kontèks nan tras PURPLE kourikoulòm sa a.
+
+Men poukisa "tout moun nan endistri sa a egzajere" pa yon defans serye: òganis règlemantasyon ak konsomatè yo anjeneral ka pouswiv yon biznis pou piblisite ki fo oswa ki twonpe moun kèlkeswa si konkiran yo ap fè yon bagay ki sanble — nòm endistri a pa detèmine ekspozisyon legal la, se verite ak prèv deklarasyon espesifik la ki detèmine l. Yon deklarasyon espesifik, ou ka mezire ("diminye kou yo 30%") gen plis risk legal pase yon deklarasyon vag, sibjektif ("bon valè"), egzakteman paske li pi fasil pou pwouve li fo.
+
+Anvan w finalize yon tèks maketing ki fè yon deklarasyon espesifik sou fè, ki prèv ki vrèman sipòte l, e kiyès anndan oswa deyò biznis lan ki ta ka verifye prèv sa a si yo konteste l?
+
+## Egzanp pratik
+
+[EGZANP ILISTRATIF] Ekip maketing yon biznis ekri yon piblisite ki di yon pwodui espesifik "diminye kou enèji 30%", ki baze sou yon estimasyon anndan konpayi an olye okenn tès sevè, ou ka verifye. [SIPOZISYON] Si yon otorite règlemantasyon oswa yon konkiran konteste deklarasyon sa a e biznis lan pa ka pwouve chif espesifik 30% la ak prèv ki serye, li ta ka fè fas ak konsekans legal pou piblisite ki fo oswa ki twonpe moun, sa ki konekte dirèkteman ak prensip fo prezantasyon ki pi laj tras PURPLE la — kèlkeswa si ekip maketing lan te kwè deklarasyon an te apeprè egzak oswa li pa t gen entansyon fè mal.
+
+## Egzamen pratik
+
+1. Poukisa yon deklarasyon maketing ka kreye responsablite legal, pa sèlman yon rezilta maketing?
+2. Poukisa "tout moun nan endistri sa a egzajere" pa yon defans legal serye?
+3. Poukisa yon deklarasyon espesifik, ou ka mezire gen plis risk legal pase yon deklarasyon vag, sibjektif?
+
+## Kle repons yo
+
+1. Paske yon deklarasyon sou fè anjeneral kreye yon obligasyon pou pwouve l, sa ki konekte ak prensip legal fo prezantasyon ki pi laj yo kouvri nan tras PURPLE la.
+2. Paske ekspozisyon legal la depann de verite ak prèv deklarasyon espesifik la, pa de si konkiran yo fè deklarasyon ki sanble.
+3. Paske li pi fasil pou pwouve li fo oswa vre, sa ki fè l yon sib ki pi klè, ou ka pwouve pi fasil, pou yon otorite règlemantasyon oswa yon konkiran konteste.
+
+## Repons ak eksplikasyon
+
+1. Sa konekte leson an dirèkteman ak prensip legal tras PURPLE la.
+2. Sa a se avètisman santral leson an bati sou li.
+3. Sa ranfòse rezònman pratik, jesyon risk, ki dèyè ekri deklarasyon avèk swen.
+
+## Pwen kle yo
+- Deklarasyon maketing sou fè ka kreye vrè responsablite legal si yo pa ka pwouve yo, sa ki konekte ak prensip fo prezantasyon yo kouvri nan tras PURPLE la.
+- Nòm endistri a pa detèmine ekspozisyon legal — se verite deklarasyon espesifik la ki detèmine l.
+- Deklarasyon espesifik, ou ka mezire gen plis risk legal pase deklarasyon vag, paske li pi fasil pou pwouve yo fo.
+
+---
+
+*Leson sa a se sèlman pou edikasyon biznis jeneral, e li pa konstitye konsèy legal pèsonalize. Lwa sou piblisite yo varye selon jiridiksyon; konsilte yon avoka ki gen lisans anvan w fè deklarasyon espesifik sou fè nan maketing.*
+
+===== ORANGE-L3-008
+TITLE: Poukisa kontra lavant bezwen menm sevèrite ak nenpòt lòt kontra
+SUMMARY: Aprann poukisa yon akò lavant se yon kontra legal ki obligatwa ki sijè a tout menm egzijans yo kouvri lòt kote nan kourikoulòm sa a, ak poukisa trete l san swen kreye vrè risk.
+# ORANGE-L3-008: Poukisa kontra lavant bezwen menm sevèrite ak nenpòt lòt kontra
+
+## Objektif aprantisaj
+Lè w fin fè leson sa a, w ap kapab:
+- Esplike poukisa yon akò lavant sijè a menm prensip lwa sou kontra yo kouvri nan tras PURPLE kourikoulòm sa a
+- Esplike poukisa trete kondisyon lavant san swen kreye vrè risk legal ak finansye
+- Idantifye kondisyon espesifik yon kontra lavant ta dwe trete klèman
+
+## Kontni prensipal
+
+Tras PURPLE kourikoulòm sa a te etabli ke yon kontra aplikab mande òf, akseptasyon, ak kontrepati, e kondisyon ki pa klè kreye kondisyon pou diskisyon parèt. Men "poukisa" sa aplike dirèkteman, ak vrè enjeu finansye, pou akò lavant espesyalman: yon kontra lavant — kit se yon senp bon kòmand (purchase order) kit se yon tranzaksyon konplèks yo negosye — se yon kontra legal ki obligatwa, e chak prensip yo kouvri nan tras PURPLE la (remèd pou vyolasyon, domaj fiks davans, endamnizasyon, rezolisyon diskisyon) aplike pou li egzakteman jan li ta aplike pou nenpòt lòt akò.
+
+Yon ekip lavant ki konsantre sitou sou fèmen tranzaksyon an ka trete kondisyon kontra a kòm yon fòmalite pou pase vit, olye kòm vrè dokiman ki pral gouvène sa ki rive si yon bagay mal tounen — kondisyon peman, obligasyon livrezon, sa ki rive si kliyan an pa peye, ak kijan yo rezoud diskisyon tout merite menm atansyon avèk swen ak nenpòt lòt kontra yo kouvri nan tout kourikoulòm sa a.
+
+Kisa ki rive, dapre modèl kontra lavant ou kounye a, si yon kliyan senpleman pa peye alè? Si ou pa konnen repons espesifik la, kisa sa sijere sou konbyen avèk swen yo te vrèman ekri dokiman sa a?
+
+## Egzanp pratik
+
+[EGZANP ILISTRATIF] Yon ekip lavant itilize yon akò lavant senp, yo ekri san fòmalite, pou yon tranzaksyon enpòtan, li konsantre sou fèmen tranzaksyon an vit olye sou lang kontra espesifik la. [SIPOZISYON] Lè kliyan an pa peye alè pita, biznis lan dekouvri akò lavant li pa presize klèman konsekans pou peman an reta, enterè, oswa yon pwosesis pou rezoud diskisyon — egzakteman kalite anbigwite tras PURPLE la te avèti ki kreye diskisyon ki pi difisil pou rezoud, sa ki fè sa ki te sipoze yon senp zafè rekouvreman vin yon sitiyasyon pi difisil anpil, ki koute pi chè.
+
+## Egzamen pratik
+
+1. Poukisa yon akò lavant bezwen menm sevèrite ak nenpòt lòt kontra yo kouvri nan tras PURPLE la?
+2. Ki risk trete kondisyon kontra lavant kòm yon senp fòmalite kreye?
+3. Bay de kondisyon espesifik yon kontra lavant ki byen ekri ta dwe trete klèman.
+
+## Kle repons yo
+
+1. Paske se yon kontra legal ki obligatwa ki sijè a menm prensip yo — òf, akseptasyon, kontrepati, ak kondisyon klè — yo kouvri nan tout tras PURPLE la.
+2. Li kreye anbigwite ki vin yon vrè pwoblèm egzakteman lè yon bagay mal tounen, tankou yon kliyan ki pa peye oswa ki pa akonpli obligasyon li.
+3. Nenpòt de nan: kondisyon ak dat limit peman, konsekans pou peman an reta oswa pa peye, obligasyon livrezon, pwosesis pou rezoud diskisyon.
+
+## Repons ak eksplikasyon
+
+1. Sa konekte leson an dirèkteman ak prensip kontra debaz tras PURPLE la.
+2. Sa a se risk santral leson an bati sou li.
+3. Sa tcheke konpreyansyon sou kantite pratik sa yon kontra lavant ta dwe trete.
+
+## Pwen kle yo
+- Yon akò lavant se yon kontra legal ki obligatwa ki sijè a menm prensip yo kouvri nan tout tras PURPLE la.
+- Trete kondisyon lavant kòm yon fòmalite pou pase vit kreye anbigwite ki vin yon vrè pwoblèm lè diskisyon parèt.
+- Kondisyon peman, konsekans pou pa peye, ak rezolisyon diskisyon merite menm atansyon avèk swen nan redaksyon ak nenpòt lòt kontra.
+
+---
+
+*Leson sa a se sèlman pou edikasyon biznis jeneral, e li pa konstitye konsèy legal pèsonalize. Konsilte yon avoka ki gen lisans anvan w ekri oswa itilize modèl kontra lavant.*
+
+===== ORANGE-L3-009
+TITLE: Poukisa fè rabè manje maj pi vit pase li fè volim grandi
+SUMMARY: Aprann poukisa yon rabè an pousantaj souvan mande yon ogmantasyon volim vant ki pi gwo anpil pou senpleman kenbe menm pwofi total la, ak poukisa kalkil sa a fasil pou bliye.
+# ORANGE-L3-009: Poukisa fè rabè manje maj pi vit pase li fè volim grandi
+
+## Objektif aprantisaj
+Lè w fin fè leson sa a, w ap kapab:
+- Kalkile konbyen volim anplis yon rabè mande pou senpleman kenbe menm pwofi total la
+- Esplike poukisa ogmantasyon volim yo bezwen an souvan pi gwo pase sa entwisyon sijere
+- Konekte konsèp sa a ak analiz pwen mò (break-even) yo kouvri nan tras BLUE kourikoulòm sa a
+
+## Kontni prensipal
+
+Tras BLUE kourikoulòm sa a te kouvri analiz pwen mò ak kou fiks, kou varyab, ak maj kontribisyon. Men "poukisa" menm kalkil sa a montre yon bagay ki kont entwisyon sou fè rabè: paske yon rabè diminye maj kontribisyon sou chak vant, ogmantasyon volim yo bezwen pou senpleman kenbe menm pwofi total la souvan pi gwo anpil pase pousantaj rabè a li menm sijere.
+
+Men mekanis la: si yon pwodui vann $100 ak $60 kou varyab (yon maj kontribisyon $40), yon rabè 20% fè pri a desann a $80, sa ki koupe maj kontribisyon an a $20 — yon bès 50% nan maj pou chak inite, pa 20%. Pou fè menm pwofi total ak anvan, biznis lan ta bezwen vann de fwa plis inite, pa sèlman 20% plis, senpleman pou l rive nan pwen mò sou rabè a, san pale de vrèman fè pwofi a grandi.
+
+Anvan w fè yon pwomosyon ak rabè, ki vrè maj kontribisyon ou nan pri konplè, e konbyen volim anplis ou ta vrèman bezwen pou omwen kenbe pwofi aktyèl ou? Èske ogmantasyon volim sa a reyalis dapre mache ou?
+
+## Egzanp pratik
+
+[EGZANP ILISTRATIF] Yon biznis ki gen yon maj kontribisyon $40 pou chak inite ofri yon rabè 20%, sa ki fè maj pou chak inite desann a $20. [SIPOZISYON] Volim vant lan ogmante 30%, sa ki sanble yon viktwa klè — men paske yo te koupe maj pou chak inite an de, ogmantasyon volim 30% sa a an reyalite bay mwens pwofi total pase anvan rabè a, pa plis, sa ki montre poukisa rezònman entwitif "rabè pote plis vant, plis vant vle di plis pwofi" rate gwo enpak disproporsyone diminisyon maj la.
+
+## Egzamen pratik
+
+1. Poukisa yon rabè an pousantaj diminye maj kontribisyon an pa yon pousantaj ki pi gwo pase rabè a li menm?
+2. Nan egzanp pratik la, poukisa yon ogmantasyon volim 30% te toujou bay yon pwofi total ki pi ba?
+3. Kisa yo ta dwe kalkile anvan yo fè yon pwomosyon ak rabè, an lyen ak kad pwen mò tras BLUE la?
+
+## Kle repons yo
+
+1. Paske rabè a soti nèt nan maj la, pa nan kou a, kidonk yon ti koupe nan pri ka reprezante yon koupe pi gwo anpil nan pwofi pou chak inite espesyalman.
+2. Paske rabè a te koupe maj pou chak inite an de, sa ki vle di ogmantasyon volim yo te bezwen senpleman pou egalize pwofi total anvan an te pi gwo pase 30%.
+3. Vrè maj kontribisyon nan pri konplè ak ogmantasyon volim espesifik yo bezwen senpleman pou kenbe pwofi total aktyèl la, apre sa yon evalyasyon onèt sou si ogmantasyon volim sa a reyalis.
+
+## Repons ak eksplikasyon
+
+1. Sa a se mekanis matematik santral leson an bati sou li.
+2. Sa pase nan egzanp nimerik espesifik la pou ranfòse konsèp lan.
+3. Sa konekte leson an ak kad pwen mò ak maj kontribisyon tras BLUE la.
+
+## Pwen kle yo
+- Yon rabè diminye maj kontribisyon an pa yon kantite pwopòsyonèl ki pi gwo pase pousantaj rabè a li menm.
+- Ogmantasyon volim yo bezwen senpleman pou kenbe menm pwofi total la apre yon rabè souvan pi gwo anpil pase sa entwisyon sijere.
+- Kalkile vrè maj kontribisyon ak volim yo bezwen anvan w fè rabè anpeche yon pwomosyon ki sanble reyisi men ki an reyalite diminye pwofi.
+
+---
+
+*Leson sa a se sèlman pou edikasyon biznis jeneral, e li pa konstitye konsèy finansye, envestisman, taks, oswa legal pèsonalize. Tout chif yo se estimasyon ilistratif, pa garanti. Konsilte yon pwofesyonèl ki gen lisans anvan w pran desizyon sou pri.*
