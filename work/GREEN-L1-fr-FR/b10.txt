@@ -1,0 +1,239 @@
+===== GREEN-L1-033
+TITLE: Dividendes et intérêts : comment le revenu de placement est imposé
+SUMMARY: Présente les dividendes et les intérêts comme deux formes courantes de revenu de placement distinctes des plus-values, puisqu’elles proviennent du fait de détenir un bien, et non de le vendre.
+# Dividendes et intérêts : comment le revenu de placement est imposé
+
+## Objectifs d’apprentissage
+
+- Distinguer les dividendes et les intérêts des plus-values.
+- Expliquer que le revenu de dividendes et d’intérêts est généralement imposable l’année où il est reçu.
+- Reconnaître qu’il s’agit de sources de revenu continues, et non d’événements de vente ponctuels.
+
+## Contenu principal
+
+Jusqu’ici, ce volet a beaucoup porté sur les plus-values — le profit tiré de la vente d’un bien. Mais deux autres formes courantes de revenu de placement n’exigent aucune vente : les dividendes (une part des bénéfices d’une société versée aux actionnaires, souvent périodiquement) et les intérêts (des paiements gagnés sur de l’argent prêté, par exemple au moyen d’un compte d’épargne ou d’une obligation).
+
+Contrairement aux plus-values, qui sont habituellement déclenchés par une vente, le revenu de dividendes et d’intérêts est généralement imposable l’année où il est reçu, que le placement sous-jacent soit vendu un jour ou non. Une investisseuse qui détient pendant des décennies une action qui verse des dividendes, sans jamais en vendre une seule, devra quand même généralement payer de l’impôt chaque année sur les dividendes reçus pendant cette période. Reconnaître qu’il s’agit de sources de revenu distinctes et continues — séparées du mécanisme des plus-values, déclenché par une vente — complète le portrait de base de l’imposition du revenu de placement.
+
+## Exemple pratique
+
+**Question :** Une investisseuse détient une action pendant 15 ans sans jamais la vendre, mais la société verse un dividende chaque trimestre. Évite-t-elle tout impôt sur cette action en ne la vendant jamais?
+
+**Étudiant :** D’après cette leçon, non — les dividendes eux-mêmes sont généralement imposables chaque année où elle les reçoit, même sans vente.
+
+**Guide :** Alors qu’est-ce qui est réellement imposé chaque année, par rapport à ce qui ne serait imposé que si elle finissait par vendre?
+
+**Étudiant :** Les dividendes sont imposés à mesure qu’ils sont reçus. La hausse du prix de l’action ne deviendrait un plus-value imposable que si, et quand, elle vend réellement.
+
+**Guide :** Exactement — deux sources de revenu différentes, deux déclencheurs différents.
+
+## Quiz pratique
+
+**Question 1.** Un dividende est :
+
+A) Un type de prêt
+B) Une part des bénéfices d’une société versée aux actionnaires
+C) La même chose qu’un plus-value
+D) Un crédit d’impôt du gouvernement
+
+**Question 2.** Les intérêts sont généralement :
+
+A) Le profit tiré de la vente d’un bien
+B) Un paiement gagné sur de l’argent prêté, par exemple au moyen de l’épargne ou d’obligations
+C) La même chose qu’un dividende
+D) Pertinents seulement pour les entreprises
+
+**Question 3.** Contrairement aux plus-values, le revenu de dividendes et d’intérêts est généralement imposable :
+
+A) Seulement à la vente du bien sous-jacent
+B) L’année où il est reçu, qu’il y ait vente ou non
+C) Jamais
+D) Seulement après dix ans
+
+**Question 4.** Un investisseur peut-il éviter tout impôt sur une action simplement en ne la vendant jamais?
+
+A) Oui, toujours
+B) Non — les dividendes reçus en cours de route demeurent généralement imposables
+C) Seulement si l’action perd de la valeur
+D) Seulement pour les obligations
+
+## Corrigé
+
+1. B, 2. B, 3. B, 4. B
+
+## Réponses et explications
+
+**1.** Un dividende est une distribution des bénéfices de la société aux actionnaires, distincte d’une opération de vente.
+
+**2.** Les intérêts sont la rémunération d’un prêt d’argent, que ce soit au moyen d’un compte bancaire, d’une obligation ou d’un instrument semblable.
+
+**3.** Ces types de revenu sont imposés à mesure qu’ils sont reçus, contrairement aux plus-values, qui attendent une vente pour déclencher l’impôt.
+
+**4.** Un revenu continu comme les dividendes continue de créer des obligations fiscales d’une année à l’autre, que le bien soit vendu un jour ou non.
+
+## Points clés
+
+- Les dividendes et les intérêts sont des types de revenu de placement distincts des plus-values.
+- Ils sont généralement imposés l’année où ils sont reçus, et non à la vente.
+- Détenir un bien sans le vendre n’évite pas l’impôt sur le revenu qu’il produit en cours de route.
+- Reconnaître ces sources distinctes et continues complète le portrait de base du revenu de placement.
+
+===== GREEN-L1-034
+TITLE: Les comptes de retraite avantagés sur le plan fiscal : l’idée de base
+SUMMARY: Présente la notion générale des comptes de retraite avantagés sur le plan fiscal sans la lier aux noms de comptes précis d’un seul pays.
+# Les comptes de retraite avantagés sur le plan fiscal : l’idée de base
+
+## Objectifs d’apprentissage
+
+- Expliquer le but général des comptes de retraite avantagés sur le plan fiscal.
+- Reconnaître le mécanisme de base : un avantage fiscal en échange de restrictions d’accès.
+- Reconnaître qu’il s’agit d’un outil de politique publique pour encourager l’épargne à long terme.
+
+## Contenu principal
+
+De nombreux gouvernements offrent des types de comptes particuliers qui procurent un certain avantage fiscal — l’argent qui y entre n’est pas encore imposé, ou l’argent qui en sort plus tard n’est pas imposé, ou la croissance des placements à l’intérieur du compte n’est pas imposée en cours de route — précisément pour inciter les gens à épargner pour la retraite. En échange de cet avantage, ces comptes s’accompagnent habituellement de restrictions, le plus souvent des limites aux retraits effectués avant un certain âge sans pénalité.
+
+L’échange de fond est simple : le gouvernement renonce à certaines recettes fiscales maintenant (ou plus tard) en échange d’un comportement — l’épargne à long terme — qui réduit la dépendance future envers les systèmes de soutien publics. Les noms précis des comptes, les plafonds de cotisation et les règles varient énormément selon le pays et changent avec le temps, mais la forme de base — un avantage fiscal jumelé à une restriction d’accès, visant à encourager l’épargne-retraite — est un schéma qu’il vaut la peine de reconnaître partout où vous le rencontrez.
+
+## Exemple pratique
+
+**Question :** Un ami demande pourquoi un compte de retraite le pénaliserait s’il retire son propre argent trop tôt. Quelle est la logique générale?
+
+**Étudiant :** D’après cette leçon, l’avantage fiscal est essentiellement un échange — vous obtenez un avantage en échange de votre engagement à laisser l’argent pour la retraite.
+
+**Guide :** Pourquoi un gouvernement se soucierait-il que l’argent serve précisément à la retraite?
+
+**Étudiant :** Parce qu’encourager l’épargne à long terme réduit la dépendance future envers les systèmes de soutien publics; cela vaut donc la peine que le gouvernement renonce à certaines recettes fiscales maintenant.
+
+**Guide :** Exactement — la restriction n’est pas arbitraire, elle est liée au but de l’avantage.
+
+## Quiz pratique
+
+**Question 1.** Les comptes de retraite avantagés sur le plan fiscal offrent généralement :
+
+A) Aucun avantage
+B) Une certaine forme d’avantage fiscal liée à l’épargne-retraite
+C) Des retraits illimités sans pénalité en tout temps
+D) Des avantages seulement pour les entreprises
+
+**Question 2.** En échange de l’avantage fiscal, ces comptes comportent habituellement :
+
+A) Aucune restriction
+B) Des restrictions, couramment des limites aux retraits anticipés sans pénalité
+C) L’obligation de dépenser l’argent immédiatement
+D) Une taxe de vente plus élevée
+
+**Question 3.** Pourquoi un gouvernement pourrait-il offrir ce type d’avantage?
+
+A) Sans véritable raison
+B) Pour encourager l’épargne à long terme et réduire la dépendance future envers le soutien public
+C) Pour augmenter les recettes fiscales à court terme
+D) Seulement pour avantager les banques
+
+**Question 4.** Les noms et les règles précis des comptes restent-ils les mêmes d’un pays à l’autre et au fil du temps?
+
+A) Oui, toujours
+B) Non — ils varient beaucoup et changent avec le temps
+C) Seulement dans les pays riches
+D) Ils n’ont jamais existé
+
+## Corrigé
+
+1. B, 2. B, 3. B, 4. B
+
+## Réponses et explications
+
+**1.** L’offre de base dans la plupart des systèmes est une certaine forme d’avantage fiscal liée précisément à l’épargne-retraite.
+
+**2.** Les restrictions sur les retraits anticipés sont la contrepartie courante de l’avantage fiscal.
+
+**3.** Encourager l’épargne réduit le fardeau futur des systèmes publics de retraite et de soutien, et c’est la logique de politique publique.
+
+**4.** Comme pour les crédits, les détails dépendent ici de la juridiction et de l’époque; le schéma compte donc davantage que les règles d’un compte en particulier.
+
+## Points clés
+
+- Les comptes de retraite avantagés sur le plan fiscal échangent un avantage fiscal contre des restrictions sur l’épargne.
+- Les retraits anticipés sont habituellement limités ou pénalisés.
+- L’objectif de politique publique est d’encourager l’épargne à long terme pour réduire la dépendance future envers le soutien public.
+- Les règles précises des comptes varient selon le pays et changent avec le temps — c’est le schéma qui constitue la leçon transférable.
+
+===== GREEN-L1-035
+TITLE: Traditionnel ou Roth : payer l’impôt maintenant ou plus tard
+SUMMARY: Explique la notion générale derrière deux structures de comptes de retraite courantes — l’une imposée à l’entrée, l’autre à la sortie — à l’aide d’appellations génériques plutôt que des noms de programmes d’un seul pays.
+# Traditionnel ou Roth : payer l’impôt maintenant ou plus tard
+
+## Objectifs d’apprentissage
+
+- Expliquer le choix « payer maintenant ou payer plus tard » présent dans de nombreux systèmes de comptes de retraite.
+- Reconnaître le compromis de base entre les deux approches.
+- Reconnaître que le meilleur choix peut dépendre des taux d’imposition futurs prévus.
+
+## Contenu principal
+
+De nombreux systèmes de comptes de retraite offrent un choix entre deux structures, souvent décrites de façon générique comme de type « traditionnel » et de type « Roth », peu importe les noms locaux exacts. Dans un compte de type traditionnel, les cotisations réduisent habituellement le revenu imposable maintenant, mais les retraits à la retraite sont imposés. Dans un compte de type Roth, les cotisations sont faites maintenant avec de l’argent déjà imposé, mais les retraits à la retraite sont habituellement libres d’impôt. (En France, par exemple, le plan d’épargne retraite (PER) suit plutôt la logique du modèle traditionnel; vérifiez les règles en vigueur.)
+
+Le compromis de base porte sur le moment : payer l’impôt maintenant, à votre taux actuel, ou plus tard, à votre taux futur. Si vous prévoyez que votre taux d’imposition sera plus bas à la retraite qu’aujourd’hui, une approche de type traditionnel l’emporte souvent. Si vous prévoyez un taux semblable ou plus élevé à la retraite — ce qui est courant chez les jeunes en début de carrière qui ont de la marge pour progresser — une approche de type Roth peut l’emporter. Il n’y a pas de réponse universellement correcte; tout dépend d’hypothèses sur l’avenir, et c’est précisément pourquoi c’est un domaine où l’on demande couramment conseil à un professionnel plutôt que de deviner.
+
+## Exemple pratique
+
+**Question :** Une jeune femme de 22 ans qui commence sa carrière hésite entre un compte de retraite de type traditionnel et un compte de type Roth. Quel raisonnement général devrait-elle faire?
+
+**Étudiant :** D’après cette leçon, elle devrait se demander si son taux d’imposition actuel est probablement plus bas ou plus élevé qu’il ne le sera plus tard dans sa carrière.
+
+**Guide :** Puisqu’elle est en début de carrière, quelle est une hypothèse raisonnable sur son revenu et son taux d’imposition futurs?
+
+**Étudiant :** Son revenu, et probablement son taux d’imposition, augmenteront sans doute avec le temps — payer l’impôt maintenant, à un taux plus bas, au moyen d’un compte de type Roth, pourrait donc avoir du sens.
+
+**Guide :** C’est un raisonnement sensé — bien que ce soit toujours une hypothèse sur l’avenir, et non une garantie, c’est pourquoi il vaut la peine d’en discuter avec un professionnel pour établir un plan précis.
+
+## Quiz pratique
+
+**Question 1.** Dans un compte de type traditionnel, les cotisations :
+
+A) Sont imposées deux fois
+B) Réduisent le revenu imposable maintenant, les retraits étant imposés plus tard
+C) Ne sont jamais imposées
+D) N’ont aucun effet sur l’impôt
+
+**Question 2.** Dans un compte de type Roth, les cotisations sont habituellement :
+
+A) Faites avec de l’argent déjà imposé, les retraits étant libres d’impôt plus tard
+B) Déduites du revenu imposable actuel
+C) Imposées deux fois
+D) Illégales
+
+**Question 3.** Le compromis de base entre les deux approches est :
+
+A) Il n’y a aucun compromis
+B) Payer l’impôt maintenant ou le payer plus tard
+C) Une des approches n’implique jamais d’impôt
+D) Seules les entreprises peuvent choisir
+
+**Question 4.** Quelle approche tend à avantager une personne qui prévoit un taux d’imposition plus bas à la retraite qu’aujourd’hui?
+
+A) Le type Roth
+B) Le type traditionnel
+C) Ni l’une ni l’autre n’a d’importance
+D) Seulement les comptes fondés sur la taxe de vente
+
+## Corrigé
+
+1. B, 2. A, 3. B, 4. B
+
+## Réponses et explications
+
+**1.** La structure de type traditionnel reporte l’impôt : elle offre un avantage aujourd’hui en échange de l’impôt dû sur les retraits plus tard.
+
+**2.** La structure de type Roth paie l’impôt d’avance; les retraits admissibles plus tard ne sont donc généralement pas imposés.
+
+**3.** Il s’agit fondamentalement d’une décision de moment : quand préférez-vous payer l’impôt, selon vos hypothèses sur les taux futurs?
+
+**4.** Si le taux actuel est plus élevé que le taux futur prévu, reporter l’impôt (type traditionnel) est souvent plus avantageux.
+
+## Points clés
+
+- Les comptes de type traditionnel reportent l’impôt au moment du retrait; les comptes de type Roth imposent les cotisations maintenant, et non les retraits.
+- Le compromis de base consiste à payer l’impôt maintenant ou plus tard.
+- Le meilleur choix dépend de vos hypothèses sur votre taux d’imposition actuel par rapport à votre taux futur.
+- C’est un domaine courant et légitime où demander conseil à un professionnel plutôt que de deviner.

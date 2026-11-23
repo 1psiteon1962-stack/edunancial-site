@@ -1,0 +1,249 @@
+===== GREEN-L1-009
+TITLE: Les taux marginaux d’imposition : gagner plus ne veut pas dire perdre plus
+SUMMARY: Dissipe l’un des malentendus les plus courants en finances personnelles : l’idée que passer à un palier d’imposition supérieur fait imposer tout votre revenu au taux plus élevé.
+# Les taux marginaux d’imposition : gagner plus ne veut pas dire perdre plus
+
+## Objectifs d’apprentissage
+
+- Expliquer ce qu’est un taux marginal d’imposition.
+- Corriger l’idée fausse et répandue selon laquelle une augmentation peut vous laisser moins d’argent au total.
+- Distinguer le taux marginal du taux moyen (effectif).
+
+## Contenu principal
+
+L’un des malentendus les plus tenaces en finances personnelles est la crainte que gagner plus d’argent vous laisse d’une façon ou d’une autre dans une situation pire, parce que cela vous fait passer à un « palier d’imposition supérieur ». Dans les systèmes qui utilisent des paliers d’imposition marginaux, cette crainte est presque toujours injustifiée.
+
+Voici comment fonctionnent réellement les taux marginaux : le taux de chaque palier s’applique seulement à la portion du revenu qui se situe dans ce palier — pas à l’ensemble de votre revenu. Si un système impose le revenu jusqu’à un certain montant à 10 % et la tranche suivante à 20 %, passer au palier de 20 % signifie seulement que cette tranche supplémentaire est imposée à 20 %. La portion précédente continue d’être imposée à 10 %, exactement comme avant.
+
+Cela signifie que votre taux d’imposition moyen, ou « effectif » — l’impôt total payé divisé par le revenu total — est toujours inférieur à votre taux marginal le plus élevé. Une augmentation qui vous fait passer à un palier supérieur peut signifier que les nouveaux euros sont imposés à un taux plus élevé, mais vous ne toucherez jamais moins d’argent au total à cause d’une augmentation dans un système marginal standard. Comprendre cela élimine une crainte courante et inutile à propos des promotions, des augmentations et de la croissance d’une entreprise.
+
+## Exemple pratique
+
+**Question :** Un ami refuse une augmentation, de peur qu’elle « le fasse passer à un palier supérieur et lui laisse moins d’argent ». Que lui diriez-vous?
+
+**Étudiant :** Je lui expliquerais que seul le nouveau revenu supplémentaire est imposé au taux plus élevé — pas tout ce qu’il gagne.
+
+**Guide :** Exact. Pouvez-vous expliquer pourquoi cela signifie qu’il ne toucherait jamais moins d’argent net au total à cause d’une augmentation?
+
+**Étudiant :** Parce que le reste de son revenu continue d’être imposé aux mêmes taux plus bas qu’avant — le taux plus élevé ne touche que la portion au-delà du seuil.
+
+**Guide :** Exactement — cette crainte repose sur une mauvaise compréhension de la façon dont les paliers s’appliquent réellement.
+
+## Quiz pratique
+
+**Question 1.** Un taux marginal d’imposition s’applique :
+
+A) À l’ensemble de votre revenu d’un seul coup
+B) Seulement à la portion du revenu comprise dans ce palier précis
+C) Seulement à votre première paie
+D) À rien — c’est un mythe
+
+**Question 2.** Si une augmentation vous fait passer à un palier supérieur dans un système marginal, votre revenu net total diminue-t-il?
+
+A) Oui, toujours
+B) Non — seule la nouvelle portion est imposée au taux plus élevé
+C) Seulement pour les travailleurs indépendants
+D) Seulement dans certains pays, jamais dans d’autres
+
+**Question 3.** Votre taux d’imposition effectif (moyen) est :
+
+A) Toujours égal à votre taux marginal le plus élevé
+B) Toujours supérieur à votre taux marginal le plus élevé
+C) Habituellement inférieur à votre taux marginal le plus élevé
+D) Sans lien avec votre revenu
+
+**Question 4.** La crainte qu’« une augmentation puisse vous laisser moins d’argent » est généralement :
+
+A) Exacte dans les systèmes marginaux
+B) Un malentendu courant sur le fonctionnement des paliers
+C) Vraie seulement pour les personnes riches
+D) Impossible à évaluer
+
+## Corrigé
+
+1. B, 2. B, 3. C, 4. B
+
+## Réponses et explications
+
+**1.** Les taux marginaux s’appliquent palier par palier, pas comme un taux unique sur le revenu total.
+
+**2.** Comme seul le nouveau revenu au-delà du seuil est imposé au taux plus élevé, le revenu net total provenant d’une augmentation ne diminue jamais dans un système marginal standard.
+
+**3.** En combinant les taux des paliers inférieurs et supérieurs sur l’ensemble de votre revenu, on obtient toujours une moyenne inférieure au taux le plus élevé.
+
+**4.** Cette crainte est extrêmement répandue, mais elle ne tient plus une fois qu’on comprend comment les paliers s’appliquent réellement.
+
+## Points clés
+
+- Les taux marginaux s’appliquent seulement au revenu compris dans chaque palier précis.
+- Une augmentation ne fait jamais baisser le revenu net total dans un système marginal standard.
+- Votre taux effectif est une moyenne combinée, toujours inférieure à votre taux marginal le plus élevé.
+- Comprendre cela élimine la crainte inutile à propos des augmentations, des promotions et de la croissance d’une entreprise.
+
+===== GREEN-L1-010
+TITLE: Les paliers d’imposition expliqués
+SUMMARY: Une démonstration concrète, étape par étape, de la façon dont les paliers d’imposition sont structurés et appliqués, qui s’appuie directement sur la notion de taux marginal.
+# Les paliers d’imposition expliqués
+
+## Objectifs d’apprentissage
+
+- Lire et interpréter un tableau simple de paliers d’imposition.
+- Calculer l’impôt dû sur plusieurs paliers pour un revenu donné en exemple.
+- Renforcer la notion de taux marginal à l’aide d’un exemple chiffré.
+
+## Contenu principal
+
+En nous appuyant sur la leçon précédente, examinons les paliers avec de vrais chiffres. Imaginons un tableau de paliers simplifié, à titre d’illustration : le revenu de 0 € à 10 000 € est imposé à 10 %; le revenu de 10 001 € à 40 000 € est imposé à 20 %; le revenu supérieur à 40 000 € est imposé à 30 %.
+
+Si une personne gagne 50 000 €, elle ne paie pas 30 % sur la totalité des 50 000 €. Plutôt : les premiers 10 000 € sont imposés à 10 % (1 000 €), les 30 000 € suivants (de 10 001 € à 40 000 €) sont imposés à 20 % (6 000 €), et les 10 000 € restants (de 40 001 € à 50 000 €) sont imposés à 30 % (3 000 €). Impôt total dû : 10 000 €, ce qui correspond à un taux effectif de 20 % — bien en dessous du palier supérieur de 30 %.
+
+Ce calcul étape par étape, palier par palier, est exactement ce que signifie l’imposition marginale dans la pratique. Les chiffres réels des paliers varient selon le pays et changent avec le temps; les montants en euros présentés ici sont donc purement illustratifs — c’est la méthode de calcul qui constitue la compétence durable et transférable.
+
+> **Remarque :** Les pourcentages et les seuils en euros de cette leçon sont des chiffres pédagogiques illustratifs, et non les chiffres d’un pays en particulier. Vérifiez les paliers actuels réels de votre juridiction.
+
+## Exemple pratique
+
+**Question :** En utilisant les paliers illustratifs ci-dessus, combien d’impôt devrait une personne qui gagne exactement 40 000 €?
+
+**Étudiant :** Je vais procéder dans l’ordre — les premiers 10 000 € à 10 %, ça donne 1 000 €.
+
+**Guide :** Bien, continuez.
+
+**Étudiant :** Les 30 000 € restants, de 10 001 € à 40 000 €, sont imposés à 20 %, ce qui donne 6 000 €.
+
+**Guide :** Et une partie est-elle imposée à 30 %?
+
+**Étudiant :** Non — elle n’a rien gagné au-delà de 40 000 €, donc le palier de 30 % ne s’applique jamais. Le total est de 1 000 € + 6 000 € = 7 000 €.
+
+**Guide :** Tout à fait exact — et remarquez que son taux effectif est de 17,5 %, ni 20 % ni 30 %.
+
+## Quiz pratique
+
+**Question 1.** En utilisant les paliers illustratifs de cette leçon, quelle portion d’un revenu de 50 000 € est imposée à 30 %?
+
+A) La totalité des 50 000 €
+B) 10 000 €
+C) 30 000 €
+D) 0 €
+
+**Question 2.** Quel est l’impôt total illustratif dû sur 50 000 € dans cet exemple?
+
+A) 15 000 €
+B) 10 000 €
+C) 5 000 €
+D) 20 000 €
+
+**Question 3.** Le taux d’imposition effectif dans l’exemple de 50 000 € est de :
+
+A) 30 %
+B) 20 %
+C) 10 %
+D) 0 %
+
+**Question 4.** Les chiffres précis des paliers de cette leçon doivent-ils être mémorisés comme des chiffres réels?
+
+A) Oui, ils s’appliquent partout
+B) Non — ils sont illustratifs; les paliers réels varient selon le pays et changent avec le temps
+C) Oui, mais seulement pour un pays
+D) Ils n’ont aucun lien avec la leçon
+
+## Corrigé
+
+1. B, 2. B, 3. B, 4. B
+
+## Réponses et explications
+
+**1.** Seule la portion du revenu au-delà de 40 000 € — soit 10 000 € — se situe dans le palier de 30 %.
+
+**2.** L’addition de 1 000 € + 6 000 € + 3 000 € sur les trois paliers donne un total de 10 000 €.
+
+**3.** En divisant l’impôt total (10 000 €) par le revenu total (50 000 €), on obtient un taux effectif de 20 %.
+
+**4.** Les montants en euros sont un outil pédagogique; c’est la méthode de calcul qui s’applique à n’importe quel tableau de paliers réel.
+
+## Points clés
+
+- Les paliers s’appliquent étape par étape, chaque taux ne touchant que le revenu compris dans sa tranche.
+- Faire le calcul concrètement montre pourquoi la notion de taux marginal compte dans la pratique.
+- Le taux d’imposition effectif est toujours une moyenne combinée, et toujours inférieur au palier le plus élevé atteint.
+- Les chiffres utilisés ici sont illustratifs — vérifiez toujours le tableau de paliers réel de votre propre juridiction.
+
+===== GREEN-L1-011
+TITLE: Revenu brut et revenu net
+SUMMARY: Clarifie la différence entre le revenu brut et le revenu net, une distinction fondamentale pour lire un bulletin de paie, établir un budget et comprendre les finances d’une entreprise.
+# Revenu brut et revenu net
+
+## Objectifs d’apprentissage
+
+- Définir le revenu brut et le revenu net.
+- Expliquer ce qui cause habituellement l’écart entre les deux.
+- Appliquer la distinction à une situation de paie.
+
+## Contenu principal
+
+Le revenu brut est le montant total gagné avant toute déduction. Le revenu net est ce qui reste après les déductions — les impôts et, souvent, d’autres retenues comme les cotisations de retraite ou les primes d’assurance maladie. L’écart entre le brut et le net est ce qui surprend la plupart des gens la première fois qu’ils voient une vraie paie.
+
+Cette distinction compte bien au-delà des paies. Les entreprises parlent de revenus bruts par rapport au bénéfice net selon la même logique de base : le brut est le total de départ, le net est ce qui reste après que les coûts et les obligations ont été soustraits. Chaque fois que vous entendez un chiffre qualifié de « brut », la première question à poser est la suivante : brut de quoi, exactement, et de combien le net sera-t-il plus petit?
+
+## Exemple pratique
+
+**Question :** Une offre d’emploi indique un salaire de 60 000 €. Est-ce le montant qui arrivera réellement dans le compte bancaire chaque année?
+
+**Étudiant :** Je dirais que non, puisque les impôts et les autres déductions sont retirés d’abord.
+
+**Guide :** Exact — comment appelleriez-vous le chiffre de 60 000 €, et comment appelleriez-vous le montant qui arrive réellement dans le compte?
+
+**Étudiant :** Les 60 000 € sont le revenu brut, et le montant qui reste après les impôts et les déductions est le revenu net.
+
+**Guide :** Exactement — établissez toujours votre budget en fonction du net, pas du brut.
+
+## Quiz pratique
+
+**Question 1.** Le revenu brut est :
+
+A) Le montant après toutes les déductions
+B) Le montant total gagné avant toute déduction
+C) Seulement le revenu de placement
+D) Toujours égal au revenu net
+
+**Question 2.** Le revenu net est :
+
+A) Le montant avant les déductions
+B) Ce qui reste après la soustraction des impôts et des autres déductions
+C) Sans lien avec le revenu brut
+D) Toujours supérieur au revenu brut
+
+**Question 3.** Pourquoi l’écart entre le brut et le net est-il important pour le budget?
+
+A) Il n’a aucune importance
+B) Établir un budget sur le brut plutôt que sur le net peut mener à surestimer l’argent disponible
+C) Le net est toujours supérieur au brut
+D) Le brut n’a aucune importance pour les entreprises
+
+**Question 4.** Les entreprises utilisent une distinction semblable entre brut et net pour :
+
+A) Les revenus par rapport au bénéfice
+B) Rien — elle ne concerne que les finances personnelles
+C) Seulement le nombre d’employés
+D) Seulement les dépenses de marketing
+
+## Corrigé
+
+1. B, 2. B, 3. B, 4. A
+
+## Réponses et explications
+
+**1.** Le brut est le total de départ, avant déductions — le chiffre mis en avant.
+
+**2.** Le net est le montant réel qui reste après les impôts et les autres soustractions, et c’est ce qui arrive réellement dans votre compte.
+
+**3.** Planifier en fonction du chiffre brut risque de vous faire supposer que vous aurez plus d’argent à dépenser qu’en réalité.
+
+**4.** Les entreprises appliquent exactement la même logique aux revenus (brut) par rapport au bénéfice (net).
+
+## Points clés
+
+- Le revenu brut est le total avant déductions; le revenu net est ce qui reste après celles-ci.
+- L’écart correspond habituellement aux impôts plus d’autres retenues comme la retraite ou l’assurance.
+- Établissez toujours votre budget en fonction du revenu net, pas du brut.
+- La même logique brut-net s’applique aux revenus et au bénéfice d’une entreprise.

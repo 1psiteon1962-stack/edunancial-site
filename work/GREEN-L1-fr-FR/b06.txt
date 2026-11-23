@@ -1,0 +1,239 @@
+===== GREEN-L1-021
+TITLE: Les dates limites de production et pourquoi elles comptent
+SUMMARY: Traite de l’importance pratique des dates limites de production des déclarations de revenus et des conséquences générales d’un retard.
+# Les dates limites de production et pourquoi elles comptent
+
+## Objectifs d’apprentissage
+
+- Expliquer pourquoi les systèmes fiscaux fixent des dates limites de production.
+- Nommer les conséquences générales d’une date limite manquée.
+- Reconnaître la différence entre une prolongation du délai de production et une prolongation du délai de paiement.
+
+## Contenu principal
+
+La plupart des systèmes fiscaux fixent une date limite annuelle à laquelle les déclarations doivent être produites. Les dates limites existent pour que le système demeure prévisible et applicable — sans elles, la production pourrait être retardée indéfiniment, ce qui rendrait difficile pour les gouvernements de planifier leurs recettes et pour les contribuables de savoir où ils en sont.
+
+Manquer une date limite de production entraîne généralement des conséquences : des pénalités, des intérêts sur les montants impayés, ou les deux, selon le système. De nombreux systèmes permettent aux contribuables de demander une prolongation du délai de production lui-même, mais il est essentiel de comprendre un piège courant : une prolongation du délai de production n’est souvent pas la même chose qu’une prolongation du délai de paiement. Même avec une prolongation pour produire, tout impôt réellement dû peut quand même devoir être payé à la date limite initiale pour éviter les intérêts et les pénalités — la prolongation ne fait souvent que reporter la paperasse, pas l’obligation de payer.
+
+## Exemple pratique
+
+**Question :** Une propriétaire d’entreprise demande une prolongation du délai de production et suppose qu’elle n’a rien à payer non plus avant la nouvelle date limite. Cette supposition est-elle sûre?
+
+**Étudiant :** D’après ce que vous avez dit, probablement pas — une prolongation pour produire n’est peut-être pas la même chose qu’une prolongation pour payer.
+
+**Guide :** Quelle est l’approche la plus sûre si elle ne sait pas exactement combien elle devra?
+
+**Étudiant :** Estimer et payer un montant proche de ce qui sera probablement dû avant la date limite initiale, même si la paperasse elle-même est produite plus tard.
+
+**Guide :** Exactement — confondre une prolongation pour produire avec une prolongation pour payer est l’une des suppositions les plus courantes et les plus coûteuses.
+
+## Quiz pratique
+
+**Question 1.** Les dates limites de production existent pour :
+
+A) Punir les contribuables
+B) Garder le système prévisible et applicable
+C) Avantager seulement les grandes sociétés
+D) Ne servir à rien de concret
+
+**Question 2.** Manquer une date limite de production entraîne généralement :
+
+A) Rien
+B) Des pénalités, des intérêts, ou les deux
+C) Un remboursement automatique
+D) Un crédit d’impôt
+
+**Question 3.** Une prolongation du délai de production est :
+
+A) Toujours la même chose qu’une prolongation du délai de paiement
+B) Souvent différente d’une prolongation du délai de paiement
+C) Illégale dans la plupart des systèmes
+D) Offerte seulement aux entreprises
+
+**Question 4.** Si l’on ne sait pas exactement combien on doit, mais qu’on a demandé une prolongation pour produire, une approche plus sûre consiste à :
+
+A) Ne rien payer avant la nouvelle date limite
+B) Estimer et payer un montant proche du montant probable avant la date limite initiale
+C) Ignorer complètement la situation
+D) Supposer qu’aucun paiement n’est jamais exigé
+
+## Corrigé
+
+1. B, 2. B, 3. B, 4. B
+
+## Réponses et explications
+
+**1.** La prévisibilité et l’applicabilité sont les raisons pratiques pour lesquelles les dates limites existent dans les systèmes fiscaux.
+
+**2.** Une production tardive entraîne couramment des conséquences financières conçues pour encourager le respect des délais.
+
+**3.** Les prolongations du délai de production ne font souvent que reporter la paperasse, pas l’obligation de paiement sous-jacente.
+
+**4.** Estimer et payer un montant proche du montant réel avant la date limite initiale protège contre les intérêts et les pénalités, même si la paperasse est produite plus tard.
+
+## Points clés
+
+- Les dates limites existent pour garder les systèmes fiscaux prévisibles et applicables.
+- Manquer une date limite entraîne généralement des pénalités, des intérêts, ou les deux.
+- Une prolongation pour produire n’est souvent pas la même chose qu’une prolongation pour payer.
+- Si vous n’êtes pas certain du montant exact dû, estimez-le et payez un montant proche avant la date limite initiale.
+
+===== GREEN-L1-022
+TITLE: Les acomptes provisionnels des travailleurs indépendants
+SUMMARY: Présente la notion d’acomptes provisionnels d’impôt trimestriels, une conséquence directe de l’absence d’un employeur qui retient l’impôt automatiquement.
+# Les acomptes provisionnels des travailleurs indépendants
+
+## Objectifs d’apprentissage
+
+- Expliquer pourquoi les travailleurs indépendants doivent souvent verser des acomptes provisionnels d’impôt.
+- Décrire le rythme général des acomptes provisionnels (périodiques, pas une fois par année).
+- Relier cela à la leçon précédente sur le W-2 et le 1099.
+
+## Contenu principal
+
+Quand vous êtes employé, votre employeur retient automatiquement l’impôt tout au long de l’année. Quand vous êtes travailleur indépendant, personne ne le fait pour vous — c’est précisément pourquoi de nombreux systèmes exigent que les travailleurs indépendants versent des acomptes provisionnels d’impôt périodiquement pendant l’année, souvent chaque trimestre, plutôt que de tout payer en un seul versement au moment de la déclaration.
+
+C’est une conséquence directe et pratique de la distinction entre employé et travailleur indépendant vue plus tôt. Le gouvernement s’attend quand même à ce que l’impôt soit payé à peu près au fur et à mesure que le revenu est gagné, et non en une seule fois à la fin de l’année — la responsabilité que le système de paie d’un employeur assume automatiquement pour un employé passe donc entièrement au travailleur indépendant. Sauter les acomptes provisionnels n’élimine pas l’impôt dû; cela risque seulement d’ajouter des pénalités pour paiement insuffisant, en plus de l’impôt lui-même, lorsque l’année est finalement rapprochée.
+
+## Exemple pratique
+
+**Question :** Une graphiste qui vient de se lancer à son compte suppose qu’elle pourra simplement payer tout son impôt en une fois lorsqu’elle produira sa déclaration l’an prochain. Quel risque cela crée-t-il?
+
+**Étudiant :** D’après cette leçon, elle pourrait devoir des pénalités pour ne pas avoir payé tout au long de l’année, en plus de l’impôt lui-même.
+
+**Guide :** Pourquoi le système s’attend-il à des paiements tout au long de l’année plutôt qu’en une seule fois?
+
+**Étudiant :** Parce que c’est aussi comme ça pour les employés, mais automatiquement, par la retenue à la source — dans le cas du travailleur indépendant, cela devient simplement une responsabilité manuelle plutôt qu’automatique.
+
+**Guide :** Exactement — l’attente de fond ne change pas, seulement la personne responsable d’agir.
+
+## Quiz pratique
+
+**Question 1.** Les acomptes provisionnels concernent surtout :
+
+A) Les employés qui ont une retenue automatique
+B) Les travailleurs indépendants sans employeur qui retient l’impôt pour eux
+C) Seulement les personnes retraitées
+D) Seulement les grandes sociétés
+
+**Question 2.** Les acomptes provisionnels sont habituellement versés :
+
+A) Une seule fois, à la fin de l’année
+B) Périodiquement pendant l’année, souvent chaque trimestre
+C) Jamais
+D) Seulement si le gouvernement le demande
+
+**Question 3.** Sauter les acomptes provisionnels a généralement pour effet de :
+
+A) Éliminer l’impôt dû
+B) Risquer des pénalités pour paiement insuffisant en plus de l’impôt lui-même
+C) N’avoir aucune conséquence
+D) Entraîner un remboursement automatique
+
+**Question 4.** Cette leçon se rattache le plus directement à quel sujet vu plus tôt?
+
+A) L’taxe foncière
+B) Le W-2 et le 1099 / employé ou travailleur indépendant
+C) Les biens publics
+D) La taxe de vente
+
+## Corrigé
+
+1. B, 2. B, 3. B, 4. B
+
+## Réponses et explications
+
+**1.** Comme aucun employeur ne retient l’impôt pour eux, les travailleurs indépendants doivent eux-mêmes estimer et payer leur impôt de façon proactive.
+
+**2.** Les paiements périodiques tout au long de l’année reflètent l’attente de paiement au fur et à mesure intégrée à la plupart des systèmes.
+
+**3.** Les pénalités pour paiement insuffisant existent précisément pour décourager l’attente jusqu’à la fin de l’année pour tout payer d’un coup.
+
+**4.** Cette leçon est essentiellement le prolongement pratique de la distinction entre employé et travailleur indépendant vue plus tôt.
+
+## Points clés
+
+- Les travailleurs indépendants doivent généralement verser eux-mêmes des acomptes provisionnels d’impôt.
+- Ces paiements sont habituellement périodiques (souvent trimestriels), et non un seul versement en fin d’année.
+- Sauter les acomptes provisionnels risque d’entraîner des pénalités, même si l’impôt demeure dû au bout du compte.
+- C’est une conséquence directe de l’absence du système de retenue automatique d’un employeur.
+
+===== GREEN-L1-023
+TITLE: Les cotisations des travailleurs indépendants : ce que doivent les pigistes et les propriétaires d’entreprise
+SUMMARY: S’appuie sur la leçon sur les cotisations sur la paie pour expliquer pourquoi les travailleurs indépendants doivent souvent payer à la fois la part de l’employeur et celle de l’employé de ce type de cotisations.
+# Les cotisations des travailleurs indépendants : ce que doivent les pigistes et les propriétaires d’entreprise
+
+## Objectifs d’apprentissage
+
+- Se rappeler comment les cotisations sur la paie sont partagées entre l’employeur et l’employé.
+- Expliquer pourquoi un travailleur indépendant doit souvent payer les deux parts.
+- Reconnaître qu’il s’agit d’un élément de planification clé pour les pigistes et les propriétaires de petite entreprise.
+
+## Contenu principal
+
+Plus tôt, vous avez appris que les cotisations sur la paie sont souvent partagées entre l’employeur et l’employé — une partie est retenue sur le salaire, une autre est payée séparément par l’employeur. Quand vous êtes travailleur indépendant, vous êtes en fait à la fois l’employeur et l’employé. De nombreux systèmes en tiennent compte en exigeant que les travailleurs indépendants paient une version des cotisations sur la paie qui couvre les deux parts — parfois appelée cotisation (ou impôt) des travailleurs indépendants.
+
+C’est l’un des coûts du travail indépendant les plus souvent sous-estimés. Un nouveau pigiste qui compare le total de ses factures à ce qu’indique la paie d’un employé équivalent peut gravement sous-estimer son fardeau fiscal réel s’il oublie que, en tant qu’entreprise d’une seule personne, il couvre les deux côtés de ces cotisations. Le comprendre à l’avance — et mettre de l’argent de côté en conséquence — évite une mauvaise surprise au moment de la déclaration.
+
+## Exemple pratique
+
+**Question :** Une pigiste compare ses 80 000 € de factures annuelles au salaire de 80 000 € d’une amie et suppose que leur situation fiscale est essentiellement la même. Est-ce le cas?
+
+**Étudiant :** Probablement pas, puisque l’employeur de son amie paie automatiquement la moitié de ces cotisations.
+
+**Guide :** Qu’est-ce que cela signifie pour le fardeau fiscal réel de la pigiste par rapport à celui de son amie?
+
+**Étudiant :** Elle doit probablement davantage de cotisations au total, puisqu’elle est elle-même responsable de la part de l’employeur et de celle de l’employé.
+
+**Guide :** Exactement — même revenu de départ, réalité fiscale sensiblement différente.
+
+## Quiz pratique
+
+**Question 1.** La cotisation des travailleurs indépendants couvre généralement :
+
+A) Seulement la part de l’employé de ce type de cotisations
+B) À la fois la part de l’employeur et celle de l’employé de ce type de cotisations
+C) Seulement la taxe de vente
+D) Seulement l’taxe foncière
+
+**Question 2.** Pourquoi un travailleur indépendant doit-il souvent payer plus de ce type de cotisations qu’un employé équivalent?
+
+A) Il gagne automatiquement plus
+B) Il doit couvrir lui-même la part de l’employeur et celle de l’employé
+C) Les travailleurs indépendants sont imposés à des taux aléatoires
+D) Ce n’est pas le cas — les montants sont toujours identiques
+
+**Question 3.** Quelle est une conséquence pratique de la sous-estimation des cotisations des travailleurs indépendants?
+
+A) Aucune conséquence
+B) Une mauvaise surprise ou un manque d’argent au moment de la déclaration
+C) Un remboursement automatique
+D) Une situation de déclaration moins favorable
+
+**Question 4.** Quelle est la façon recommandée d’éviter cette surprise?
+
+A) L’ignorer jusqu’à la déclaration
+B) Comprendre le fardeau réel à l’avance et mettre de l’argent de côté en conséquence
+C) Dépenser immédiatement tout le revenu des factures
+D) Éviter tout travail indépendant
+
+## Corrigé
+
+1. B, 2. B, 3. B, 4. B
+
+## Réponses et explications
+
+**1.** La cotisation des travailleurs indépendants est essentiellement le mécanisme qui permet de percevoir les deux parts de ce type de cotisations auprès d’une seule personne.
+
+**2.** Agir à la fois comme employeur et employé signifie que le travailleur indépendant est responsable des deux parts.
+
+**3.** Sous-estimer ce coût est un piège courant qui mène à une facture plus élevée que prévu au moment de la déclaration.
+
+**4.** Être conscient de la situation et épargner de façon proactive, plutôt que réagir après coup, est la défense pratique.
+
+## Points clés
+
+- Les travailleurs indépendants doivent souvent payer à la fois la part de l’employeur et celle de l’employé de ce type de cotisations.
+- Cela signifie que le revenu de travail indépendant entraîne un fardeau fiscal sensiblement différent d’un revenu salarié équivalent.
+- C’est l’un des coûts du travail indépendant les plus souvent sous-estimés.
+- Planifier à l’avance et mettre de l’argent de côté évite une mauvaise surprise au moment de la déclaration.
