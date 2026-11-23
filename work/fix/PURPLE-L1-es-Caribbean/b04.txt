@@ -1,0 +1,327 @@
+===== PURPLE-L1-013
+TITLE: LLC: la responsabilidad limitada, explicada con precisión
+SUMMARY: Explica qué significa legalmente la "responsabilidad limitada" de una LLC y aclara malentendidos comunes sobre cuánta protección ofrece en realidad.
+# LLC: la responsabilidad limitada, explicada con precisión
+
+## Objetivos de aprendizaje
+
+- Definir el rasgo legal central de una LLC.
+- Explicar de qué protege realmente la "responsabilidad limitada".
+- Reconocer que la protección de una LLC no es absoluta.
+
+## Contenido principal
+
+Una compañía de responsabilidad limitada (LLC, por sus siglas en inglés) es una estructura de negocio diseñada específicamente para crear una separación legal entre el negocio y sus dueños (llamados miembros), de modo que, en general, los bienes personales de los miembros no queden expuestos a las deudas y responsabilidades legales del negocio. Es la respuesta legal directa al problema de la empresa individual de la lección anterior: la LLC existe precisamente para trazar la línea de responsabilidad que la empresa individual no traza.
+
+Es importante ser preciso sobre lo que cubre realmente esta protección. En general, una LLC protege a los miembros de responder personalmente por las deudas del negocio y por las demandas que surgen de las operaciones normales del negocio. No protege automáticamente a un miembro de la responsabilidad por sus propios actos indebidos: si un miembro comete personalmente un fraude o una negligencia, esa persona puede seguir respondiendo personalmente, sin importar la estructura de LLC. Entender este alcance preciso evita un malentendido peligroso: una LLC es un escudo de responsabilidad real y valioso, pero no un campo de fuerza incondicional contra todas las consecuencias.
+
+*REGLA ESPECÍFICA DE LA REGIÓN:* La LLC es una figura de EE. UU. (también existe en Puerto Rico). En otros países se usan figuras con efectos parecidos, como la sociedad de responsabilidad limitada (SRL) en la República Dominicana, con sus propias reglas.
+
+## Ejemplo práctico
+
+**Pregunta:** Un miembro de una LLC comete personalmente un fraude mientras hace negocios a través de la LLC. ¿La estructura de LLC protege a ese miembro de la responsabilidad personal por el fraude?
+
+**Estudiante:** Según esta lección, probablemente no: la protección de la LLC no cubre los actos indebidos propios de un miembro, como el fraude.
+
+**Guía:** ¿Qué revela esto sobre el alcance real de la protección de una LLC?
+
+**Estudiante:** Que no es un escudo incondicional contra todo: protege frente a las responsabilidades normales del negocio, pero no frente a la mala conducta personal de un miembro.
+
+**Guía:** Exacto: esa precisión es lo que separa una comprensión correcta de un malentendido peligroso.
+
+## Prueba práctica
+
+**Pregunta 1.** Una LLC está diseñada para:
+
+A) Eliminar por completo todo riesgo de negocio
+B) Crear una separación legal entre el negocio y los bienes personales de sus dueños
+C) Aumentar la exposición a la responsabilidad personal
+D) Beneficiar solo a grandes corporaciones
+
+**Pregunta 2.** En general, los miembros de una LLC están protegidos de la responsabilidad personal por:
+
+A) Sus propios fraudes o actos indebidos personales
+B) Las deudas del negocio y las demandas que surgen de las operaciones normales
+C) Nada en absoluto
+D) Solo los asuntos penales
+
+**Pregunta 3.** ¿La protección de una LLC cubre el fraude personal de un miembro?
+
+A) Sí, siempre
+B) No: en general, los actos indebidos personales no quedan protegidos por la estructura de LLC
+C) Solo si el fraude fue rentable
+D) La protección de una LLC no tiene ningún límite
+
+**Pregunta 4.** ¿Qué malentendido intenta evitar específicamente esta lección?
+
+A) Que las LLC no ofrecen ninguna protección
+B) Que una LLC es un escudo incondicional contra todas las consecuencias
+C) Que las LLC son ilegales
+D) Que las LLC solo existen por razones contributivas
+
+## Clave de respuestas
+
+1. B, 2. B, 3. B, 4. B
+
+## Respuestas y explicaciones
+
+**1.** La separación legal entre el dueño y la entidad es el propósito estructural que define a la LLC.
+
+**2.** Las deudas y reclamaciones normales del negocio son la categoría central de riesgo de la que la LLC protege a sus miembros.
+
+**3.** En general, los actos indebidos personales atraviesan la protección de la LLC, porque no son una responsabilidad normal del negocio.
+
+**4.** Esta lección corrige de forma explícita el exceso de confianza común de creer que la protección de una LLC es total e incondicional.
+
+## Puntos clave
+
+- Una LLC crea una separación legal que protege los bienes personales de los miembros frente a las responsabilidades normales del negocio.
+- En general, esta protección no se extiende a los actos indebidos personales de un miembro, como el fraude o la negligencia.
+- Entender este alcance preciso evita un exceso de confianza peligroso en la protección de la LLC.
+- Una LLC es un escudo real y valioso, pero no incondicional.
+
+===== PURPLE-L1-014
+TITLE: Corporaciones: la personalidad jurídica y sus consecuencias
+SUMMARY: Explica la corporación como una "persona" jurídica distinta y amplía, desde la perspectiva de la responsabilidad, la lección de GREEN sobre los impuestos corporativos.
+# Corporaciones: la personalidad jurídica y sus consecuencias
+
+## Objetivos de aprendizaje
+
+- Explicar el concepto de personalidad jurídica de la corporación.
+- Relacionarlo con la protección de responsabilidad que ofrecen las corporaciones.
+- Recordar, como contexto, la contrapartida de la doble tributación vista en GREEN.
+
+## Contenido principal
+
+Legalmente, una corporación se trata como su propia "persona", distinta de sus dueños (los accionistas), capaz de ser dueña de bienes, celebrar contratos, demandar y ser demandada, todo a su propio nombre. Esta personalidad jurídica es la base de la protección de responsabilidad que ofrecen las corporaciones: como la parte legalmente responsable de sus propias deudas y obligaciones es la corporación misma y no sus accionistas, en general los bienes personales de los accionistas están protegidos de las responsabilidades de la corporación, de forma parecida en espíritu a la protección de una LLC.
+
+Esto conecta directamente con lo que vimos antes en GREEN sobre la tributación corporativa: la misma personalidad jurídica que crea la protección de responsabilidad es la que crea el problema de la doble tributación. La ganancia de una corporación tributa una vez a nivel corporativo (porque la corporación es su propio contribuyente) y otra vez cuando se distribuye a los accionistas. Es un ejemplo claro de cómo un mismo concepto legal, la personalidad jurídica de la corporación, produce a la vez un beneficio real (la protección de responsabilidad) y un costo real (la doble tributación), y por eso elegir una estructura exige sopesar varios factores juntos, no decidir por una sola consideración.
+
+*REGLA ESPECÍFICA DE LA REGIÓN:* Las reglas sobre cómo tributan las sociedades y sus dividendos varían mucho según el país. En la República Dominicana y en Puerto Rico las sociedades también tienen personalidad jurídica propia, pero el tratamiento contributivo concreto debe verificarse con un profesional.
+
+## Ejemplo práctico
+
+**Pregunta:** Un accionista de una corporación pregunta por qué el mismo rasgo legal que protege sus bienes personales también causa el problema de la doble tributación que se vio antes en GREEN. ¿Cómo explicarías la conexión?
+
+**Estudiante:** Según esta lección, es porque la corporación se trata como su propia persona jurídica separada: eso es justo lo que protege los bienes personales del accionista, pero también lo que convierte a la corporación en su propio contribuyente.
+
+**Guía:** Entonces, ¿la personalidad jurídica es solo un beneficio, solo un costo o algo distinto?
+
+**Estudiante:** Algo distinto: produce un beneficio real, la protección de responsabilidad, y un costo real, la doble tributación, a partir del mismo concepto legal de fondo.
+
+**Guía:** Exacto: por eso elegir una estructura exige sopesar varios factores juntos.
+
+## Prueba práctica
+
+**Pregunta 1.** Legalmente, una corporación se trata como:
+
+A) La misma entidad que sus accionistas
+B) Su propia "persona" jurídica, separada de sus dueños
+C) Algo que no es una entidad legal en absoluto
+D) Algo relevante solo para efectos contributivos
+
+**Pregunta 2.** La personalidad jurídica de la corporación es la base de:
+
+A) Nada importante
+B) La protección de responsabilidad que las corporaciones ofrecen a los accionistas
+C) Solo la estrategia de mercadeo
+D) Solo los beneficios de los empleados
+
+**Pregunta 3.** ¿Con qué concepto de una lección anterior conecta esto directamente?
+
+A) Con las lecciones de derecho de la propiedad de RED
+B) Con la lección de GREEN sobre la doble tributación corporativa
+C) Con la lección de WHITE sobre dividendos
+D) No hay ninguna conexión anterior
+
+**Pregunta 4.** ¿Qué demuestra esta lección sobre la personalidad jurídica de la corporación?
+
+A) Que es puramente beneficiosa, sin contrapartidas
+B) Que produce un beneficio real (protección de responsabilidad) y un costo real (doble tributación)
+C) Que es puramente costosa, sin beneficios
+D) Que no tiene ninguna relación con la tributación
+
+## Clave de respuestas
+
+1. B, 2. B, 3. B, 4. B
+
+## Respuestas y explicaciones
+
+**1.** Este concepto de personalidad propia es la base estructural de todo lo demás que ofrecen las corporaciones, incluida la protección de responsabilidad.
+
+**2.** Como la responsabilidad legal recae en la corporación misma, los accionistas obtienen un escudo de responsabilidad importante.
+
+**3.** Esta lección se vincula de forma explícita con la explicación anterior de GREEN sobre por qué la ganancia corporativa tributa dos veces.
+
+**4.** Ver las dos caras del mismo concepto de fondo refuerza la necesidad de decisiones de estructura integrales, con varios factores.
+
+## Puntos clave
+
+- Una corporación es una "persona" jurídica distinta, separada de sus accionistas.
+- Esta personalidad crea protección de responsabilidad para los accionistas.
+- El mismo concepto de personalidad también produce el problema de doble tributación que se vio en GREEN.
+- Un solo concepto legal puede crear a la vez un beneficio real y un costo real.
+
+===== PURPLE-L1-015
+TITLE: Sociedades: propiedad compartida, responsabilidad compartida
+SUMMARY: Presenta las sociedades generales y su rasgo de responsabilidad característico y a menudo subestimado: la responsabilidad solidaria entre los socios.
+# Sociedades: propiedad compartida, responsabilidad compartida
+
+## Objetivos de aprendizaje
+
+- Definir una sociedad general.
+- Explicar el concepto de responsabilidad solidaria.
+- Reconocer por qué esto convierte la elección de socios en una decisión legal seria.
+
+## Contenido principal
+
+Una sociedad general (general partnership) es un negocio de dos o más personas que no han formado una entidad más formal que limite la responsabilidad. Legalmente, se parece a una empresa individual, pero con varios dueños que comparten tanto las ganancias como la exposición legal. El rasgo crítico, y a menudo subestimado, de una sociedad general es la responsabilidad solidaria (joint and several liability): cada socio puede responder personalmente por la totalidad de las deudas y obligaciones de la sociedad, no solo por su parte proporcional, sino potencialmente por el monto completo, sin importar cuál de los socios causó el problema.
+
+Esto significa que si un socio comete un error costoso, firma un mal negocio o actúa indebidamente, los demás socios pueden responder personalmente por todas las consecuencias, aunque no hayan tenido ninguna participación directa. Por eso elegir socios de negocio tiene un peso legal real más allá de la compatibilidad o la confianza: en una sociedad general, estás legalmente expuesto a las decisiones y errores de tus socios, no solo a los tuyos, lo que es un argumento fuerte para considerar una estructura que limite más la responsabilidad (como una LLC) incluso en un negocio con varios dueños.
+
+*REGLA ESPECÍFICA DE LA REGIÓN:* Los tipos de sociedad y el alcance de la responsabilidad de los socios dependen de cada país. En la República Dominicana, por ejemplo, en la sociedad en nombre colectivo los socios responden de forma indefinida y solidaria, mientras que otras formas limitan esa responsabilidad. Verifica las reglas de tu jurisdicción.
+
+## Ejemplo práctico
+
+**Pregunta:** Dos personas forman una sociedad general. Uno de los socios, sin decirle nada al otro, firma en nombre del negocio un acuerdo grande y costoso que resulta malo. ¿Puede el socio que no participó responder de todos modos?
+
+**Estudiante:** Según esta lección, sí: con la responsabilidad solidaria, cada socio puede responder por la totalidad de las obligaciones de la sociedad, incluso por aquellas en las que no participó personalmente.
+
+**Guía:** ¿Qué sugiere esto sobre la seriedad con que alguien debería evaluar a un posible socio antes de formar una sociedad general?
+
+**Estudiante:** Mucha seriedad: como estás legalmente expuesto a las decisiones y errores de tu socio, no solo a los tuyos, elegir socio es una decisión legal real, no solo una cuestión de compatibilidad.
+
+**Guía:** Exacto, y es un argumento fuerte para considerar una estructura que limite más la responsabilidad incluso con un socio de confianza.
+
+## Prueba práctica
+
+**Pregunta 1.** Una sociedad general es:
+
+A) Un negocio de un solo dueño
+B) Un negocio de dos o más personas sin una entidad más formal que limite la responsabilidad
+C) Lo mismo que una corporación
+D) Algo que limita automáticamente la responsabilidad
+
+**Pregunta 2.** "Responsabilidad solidaria" significa que:
+
+A) Cada socio responde solo por su parte proporcional
+B) Cada socio puede responder por la totalidad de la obligación de la sociedad, sin importar quién tuvo la culpa
+C) Ningún socio responde nunca por nada
+D) Solo la entidad de negocio puede responder
+
+**Pregunta 3.** Si un socio causa un problema costoso sin que el otro lo sepa, ¿puede el otro socio responder de todos modos?
+
+A) No, nunca
+B) Sí, potencialmente por el monto completo, por la responsabilidad solidaria
+C) Solo si lo aprobó personalmente
+D) Solo en casos penales
+
+**Pregunta 4.** ¿Por qué esta lección sostiene que elegir socios tiene un peso legal real?
+
+A) No lo tiene: las sociedades no tienen ningún riesgo legal real
+B) Porque estás legalmente expuesto a las decisiones y errores de tus socios, no solo a los tuyos
+C) Solo importa la compatibilidad, no la exposición legal
+D) Esta lección no sostiene nada de eso
+
+## Clave de respuestas
+
+1. B, 2. B, 3. B, 4. B
+
+## Respuestas y explicaciones
+
+**1.** Una sociedad general comparte muchas características de responsabilidad con la empresa individual, solo que extendidas a varios dueños.
+
+**2.** La responsabilidad solidaria significa que la obligación completa puede recaer sobre cualquier socio individual, no solo una parte proporcional.
+
+**3.** No haber participado directamente no protege a un socio de esta exposición compartida bajo la responsabilidad solidaria.
+
+**4.** Esta estructura de responsabilidad convierte la elección de socios de un asunto personal en una verdadera decisión de riesgo legal.
+
+## Puntos clave
+
+- Una sociedad general comparte la propiedad y, de forma crítica, la exposición legal entre los socios.
+- La responsabilidad solidaria significa que cualquier socio puede responder por la totalidad de la obligación.
+- Esto expone a los socios a los errores y decisiones de los demás, no solo a los propios.
+- Es un argumento fuerte para considerar estructuras que limiten más la responsabilidad, incluso entre socios de confianza.
+
+===== PURPLE-L1-016
+TITLE: Levantar el velo corporativo: cuando la responsabilidad "limitada" no lo es
+SUMMARY: Explica el concepto de levantar el velo corporativo: las circunstancias en que los tribunales pueden desconocer por completo la protección de responsabilidad de una LLC o una corporación.
+# Levantar el velo corporativo: cuando la responsabilidad "limitada" no lo es
+
+## Objetivos de aprendizaje
+
+- Definir qué significa "levantar el velo corporativo".
+- Identificar razones comunes por las que los tribunales levantan el velo.
+- Reforzar los hábitos prácticos que protegen contra este riesgo.
+
+## Contenido principal
+
+"Levantar el velo corporativo" (piercing the corporate veil) se refiere a que un tribunal desconozca la protección de responsabilidad que normalmente ofrece una LLC o una corporación y haga responder personalmente a los dueños a pesar de la estructura formal. No es común, pero tampoco es tan raro como para ignorarlo, y socava directamente la razón misma de formar una entidad protectora; por eso importa entender qué lo provoca.
+
+Entre las razones comunes por las que los tribunales levantan el velo están: no mantener separadas las finanzas del negocio y las personales (usar la cuenta bancaria del negocio para gastos personales, mezclar fondos), no cumplir las formalidades corporativas básicas (no llevar registros adecuados, actuar como si la entidad no existiera realmente), tener un capital muy insuficiente frente a los riesgos evidentes del negocio, o usar la entidad específicamente para cometer fraude o evadir obligaciones legales existentes. La lección práctica es directa: formar una LLC o una corporación es necesario, pero no suficiente, para estar protegido; también tienes que operarla de verdad como una entidad separada, de forma constante, o la protección que pagaste por crear puede evaporarse justo cuando más la necesitas.
+
+*REGLA ESPECÍFICA DE LA REGIÓN:* Esta doctrina nació en el common law, pero muchos países de derecho civil tienen figuras parecidas; por ejemplo, la ley de sociedades de la República Dominicana prevé que se pueda desconocer la personalidad jurídica de una sociedad en casos de fraude o abuso. Los requisitos exactos varían según la jurisdicción.
+
+## Ejemplo práctico
+
+**Pregunta:** Un dueño de negocio forma una LLC, pero usa habitualmente la cuenta bancaria del negocio para pagar cuentas personales, nunca lleva registros separados y trata el dinero del negocio y el personal como si fueran lo mismo. ¿Qué riesgo crea esto?
+
+**Estudiante:** Según esta lección, mezclar los fondos así es justo el tipo de conducta que podría llevar a un tribunal a levantar el velo corporativo y desconocer la protección de responsabilidad de la LLC.
+
+**Guía:** ¿Por qué haría eso un tribunal, si la LLC se formó correctamente en papel?
+
+**Estudiante:** Porque si el dueño nunca trató al negocio en la práctica como una entidad realmente separada, el tribunal puede concluir razonablemente que la separación nunca fue real y desconocer la protección en consecuencia.
+
+**Guía:** Exacto: formar la entidad es necesario, pero no suficiente; hay que operarla de verdad como algo separado.
+
+## Prueba práctica
+
+**Pregunta 1.** "Levantar el velo corporativo" significa:
+
+A) Formar una nueva corporación
+B) Que un tribunal desconozca la protección de responsabilidad de una LLC o corporación y haga responder personalmente a los dueños
+C) Un tipo de incumplimiento de contrato
+D) Un requisito para presentar impuestos
+
+**Pregunta 2.** Una razón común por la que los tribunales levantan el velo es:
+
+A) Mantener correctamente separadas las finanzas del negocio y las personales
+B) Mezclar los fondos del negocio con los personales
+C) Cumplir todas las formalidades corporativas
+D) Tener un capital adecuado
+
+**Pregunta 3.** Según esta lección, ¿qué es necesario, pero no suficiente, para la protección de responsabilidad?
+
+A) No formar nunca ninguna entidad
+B) Formar la LLC o la corporación: también hay que operarla de verdad como algo separado
+C) Solo pagar los impuestos a tiempo
+D) No se requiere nada más que formarla
+
+**Pregunta 4.** ¿Qué hábito práctico protege contra el riesgo de que se levante el velo?
+
+A) Tratar el dinero del negocio y el personal como si fueran lo mismo
+B) Mantener una separación real entre las finanzas y formalidades del negocio y las personales
+C) Evitar llevar cualquier registro
+D) Ignorar por completo las formalidades corporativas
+
+## Clave de respuestas
+
+1. B, 2. B, 3. B, 4. B
+
+## Respuestas y explicaciones
+
+**1.** Este concepto describe específicamente el colapso de la protección de responsabilidad debido a cómo se operó realmente la entidad.
+
+**2.** Mezclar fondos es uno de los motivos que se citan con más frecuencia para que un tribunal desconozca la protección de la entidad.
+
+**3.** Formarla no garantiza por sí sola la protección; lo que realmente la sostiene es una separación operativa real y continua.
+
+**4.** Una separación financiera y formal constante es la salvaguarda práctica contra este riesgo.
+
+## Puntos clave
+
+- Levantar el velo corporativo significa que un tribunal desconoce la protección de la LLC o corporación y expone personalmente a los dueños.
+- Mezclar fondos e ignorar las formalidades son motivos comunes.
+- Formar la entidad es necesario, pero no suficiente: hay que operarla de verdad como algo separado.
+- Una separación constante y disciplinada es la defensa práctica contra este riesgo.
