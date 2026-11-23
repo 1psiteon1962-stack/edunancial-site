@@ -1,0 +1,239 @@
+===== GREEN-L1-045
+TITLE: Évasion fiscale ou évitement fiscal : une distinction essentielle
+SUMMARY: Trace une ligne nette et essentielle entre l’évitement fiscal légal (utiliser les règles telles qu’elles sont écrites pour réduire l’impôt) et l’évasion fiscale illégale (déformer les faits pour éviter un impôt dû).
+# Évasion fiscale ou évitement fiscal : une distinction essentielle
+
+## Objectifs d’apprentissage
+
+- Définir l’évitement fiscal et en donner un exemple.
+- Définir l’évasion fiscale et en donner un exemple.
+- Expliquer clairement pourquoi cette distinction est essentielle, et non un détail technique mineur.
+
+## Contenu principal
+
+C’est l’une des distinctions les plus importantes de tout ce volet, et il vaut la peine de l’énoncer clairement : l’évitement fiscal est légal; l’évasion fiscale ne l’est pas. L’évitement fiscal consiste à utiliser les règles fiscales telles qu’elles sont réellement écrites — déductions, crédits, choix du moment du revenu ou des ventes, choix d’une structure d’entreprise avantageuse — pour réduire légalement le montant d’impôt dû. Tout ce qui a été vu jusqu’ici dans ce volet, fait correctement et honnêtement, relève de l’évitement fiscal.
+
+L’évasion fiscale consiste à déformer illégalement les faits pour éviter de payer un impôt réellement dû — cacher un revenu, inventer de fausses déductions, falsifier des dossiers, ou toute autre tromperie semblable. La ligne entre les deux ne dépend pas du degré d’audace de la planification fiscale; elle dépend de la véracité des faits déclarés. Demander toutes les déductions auxquelles vous avez légalement droit, même si cela réduit considérablement votre facture d’impôt, relève de l’évitement. Demander une déduction pour une dépense qui n’a jamais eu lieu, ou cacher un revenu qui a bel et bien été gagné, relève de l’évasion — une affaire juridique grave, et non une simple erreur administrative.
+
+## Exemple pratique
+
+**Question :** Une propriétaire d’entreprise déduit légalement chaque dépense à laquelle elle a droit, en réduisant au maximum sa facture d’impôt au moyen des règles vues tout au long de ce volet. Un autre propriétaire d’entreprise déclare de fausses dépenses qui n’ont jamais eu lieu. Est-ce la même chose?
+
+**Étudiant :** Non — d’après cette leçon, la première propriétaire utilise honnêtement des règles légitimes, ce qui est de l’évitement. Le second déforme les faits, ce qui est de l’évasion.
+
+**Guide :** Quelle est la véritable ligne de démarcation entre les deux, si les deux propriétaires finissent par payer moins d’impôt?
+
+**Étudiant :** Ce n’est pas une question de montant d’impôt économisé — c’est une question de savoir si ce qui est déclaré est vrai.
+
+**Guide :** Exactement — et cette distinction est la ligne la plus importante de tout ce volet.
+
+## Quiz pratique
+
+**Question 1.** L’évitement fiscal est :
+
+A) Illégal
+B) L’utilisation légale des règles fiscales pour réduire l’impôt dû
+C) La même chose que l’évasion fiscale
+D) Offert seulement aux sociétés
+
+**Question 2.** L’évasion fiscale est :
+
+A) Légale
+B) Le fait de déformer illégalement les faits pour éviter un impôt réellement dû
+C) La même chose que l’évitement fiscal
+D) Seulement une erreur administrative
+
+**Question 3.** La véritable ligne de démarcation entre les deux est :
+
+A) Le montant d’impôt finalement économisé
+B) La véracité des faits déclarés
+C) La participation ou non d’un professionnel
+D) Il n’y a aucune différence significative
+
+**Question 4.** Demander honnêtement toutes les déductions légalement offertes relève de :
+
+A) L’évasion fiscale
+B) L’évitement fiscal
+C) Un crime
+D) Rien qui concerne cette distinction
+
+## Corrigé
+
+1. B, 2. B, 3. B, 4. B
+
+## Réponses et explications
+
+**1.** L’évitement s’inscrit entièrement dans les règles réellement écrites, en les utilisant comme prévu ou comme la loi le permet.
+
+**2.** L’évasion bascule dans la fausse déclaration — déclarer quelque chose de faux pour réduire illégalement l’impôt dû.
+
+**3.** Ce n’est pas l’audace de la planification fiscale qui compte; c’est la véracité des faits sous-jacents.
+
+**4.** Même des demandes de déductions importantes et audacieuses, mais honnêtes, demeurent clairement du côté légal de la ligne.
+
+## Points clés
+
+- L’évitement fiscal est légal — utiliser de vraies règles pour réduire l’impôt dû.
+- L’évasion fiscale est illégale — déformer les faits pour éviter un impôt réellement dû.
+- La ligne de démarcation est la véracité, pas le montant d’impôt économisé.
+- Cette distinction est l’une des plus importantes de tout le cursus de littératie fiscale.
+
+===== GREEN-L1-046
+TITLE: Les vérifications fiscales : ce qu’elles sont et pourquoi elles ont lieu
+SUMMARY: Démystifie le processus de vérification fiscale en le présentant comme une procédure de contrôle plutôt que comme une accusation automatique d’inconduite.
+# Les vérifications fiscales : ce qu’elles sont et pourquoi elles ont lieu
+
+## Objectifs d’apprentissage
+
+- Définir ce qu’est une vérification fiscale.
+- Nommer des raisons courantes, non accusatoires, pour lesquelles une vérification peut avoir lieu.
+- Expliquer comment une bonne tenue de dossiers protège directement une personne pendant une vérification.
+
+## Contenu principal
+
+Une vérification fiscale est un processus par lequel une autorité fiscale examine de plus près une déclaration produite pour vérifier que les renseignements déclarés sont exacts. Il vaut la peine de séparer le fait d’être vérifié d’une présomption de culpabilité — les vérifications ont lieu pour de nombreuses raisons, notamment une sélection aléatoire, des anomalies statistiques (des chiffres qui semblent inhabituels par rapport à ceux de contribuables semblables) ou simplement parce qu’une déduction ou un type de revenu particulier fait l’objet d’un examen plus routinier.
+
+C’est là que la leçon précédente sur la tenue de dossiers rapporte le plus directement. Une personne qui a conservé des documents bien tenus et organisés tout au long de l’année peut habituellement répondre à une vérification calmement et efficacement, en fournissant les pièces justificatives de ce qui est remis en question. Une personne sans dossiers peut avoir du mal à justifier ses demandes, même si celles-ci étaient entièrement légitimes — ce qui signifie qu’une bonne tenue de dossiers ne sert pas seulement à éviter l’évasion : c’est une protection active pour les contribuables honnêtes dont la déclaration est simplement sélectionnée pour examen.
+
+## Exemple pratique
+
+**Question :** Une personne reçoit un avis de vérification et suppose immédiatement qu’elle a dû faire quelque chose d’illégal. Cette supposition est-elle exacte?
+
+**Étudiant :** D’après cette leçon, pas nécessairement — les vérifications peuvent avoir lieu pour des raisons sans lien avec une inconduite, comme une sélection aléatoire ou un chiffre qui semble inhabituel.
+
+**Guide :** Qu’est-ce qui détermine si cette personne traversera la vérification sans difficulté?
+
+**Étudiant :** Le fait d’avoir gardé de bons dossiers — si elle a des documents pour ce qu’elle a demandé, elle peut le justifier calmement, même si elle n’a rien fait de mal.
+
+**Guide :** Exactement — un avis de vérification est une demande de vérification, pas automatiquement une accusation.
+
+## Quiz pratique
+
+**Question 1.** Une vérification fiscale se décrit le mieux comme :
+
+A) Une accusation automatique de crime
+B) Un processus d’examen visant à vérifier que les renseignements déclarés sont exacts
+C) Un type de crédit d’impôt
+D) Une pénalité qui s’applique toujours
+
+**Question 2.** Les vérifications peuvent être déclenchées par :
+
+A) Seulement une inconduite évidente
+B) Une sélection aléatoire, des anomalies statistiques ou l’examen routinier de certaines demandes
+C) Rien — les vérifications sont entièrement aléatoires, sans autre cause
+D) Seulement les travailleurs autonomes
+
+**Question 3.** Une bonne tenue de dossiers aide le plus directement pendant une vérification en :
+
+A) N’ayant aucun effet
+B) Permettant de justifier les demandes calmement et efficacement
+C) Garantissant qu’aucune vérification n’aura jamais lieu
+D) Ne comptant que pour les entreprises
+
+**Question 4.** Recevoir un avis de vérification est-il automatiquement une preuve d’inconduite?
+
+A) Oui, toujours
+B) Non — c’est une demande de vérification, pas une accusation automatique
+C) Seulement pour les sociétés
+D) Seulement si on a reçu un remboursement
+
+## Corrigé
+
+1. B, 2. B, 3. B, 4. B
+
+## Réponses et explications
+
+**1.** La fonction d’une vérification est de contrôler, et non de conclure automatiquement à une culpabilité ou d’accuser.
+
+**2.** Il existe plusieurs déclencheurs non accusatoires, dont une simple sélection aléatoire.
+
+**3.** Les documents sont exactement ce qui permet à un contribuable honnête de répondre efficacement aux questions au lieu de se démener.
+
+**4.** L’avis lui-même signale une demande de vérification, et non une conclusion déjà établie.
+
+## Points clés
+
+- Une vérification fiscale est un examen de contrôle, pas une accusation automatique d’inconduite.
+- Les vérifications peuvent être déclenchées par une sélection aléatoire, des anomalies statistiques ou un examen routinier.
+- Une bonne tenue de dossiers est une protection directe et pratique pendant une vérification.
+- Être vérifié et être coupable de quelque chose sont deux choses entièrement différentes.
+
+===== GREEN-L1-047
+TITLE: Pénalités et intérêts en cas de déclaration tardive ou inexacte
+SUMMARY: Explique, à un niveau conceptuel, pourquoi les pénalités et les intérêts existent et comment ils alourdissent habituellement le coût des erreurs fiscales avec le temps.
+# Pénalités et intérêts en cas de déclaration tardive ou inexacte
+
+## Objectifs d’apprentissage
+
+- Expliquer pourquoi les systèmes fiscaux imposent à la fois des pénalités et des intérêts, et non seulement l’un ou l’autre.
+- Reconnaître que ces coûts augmentent habituellement plus un problème reste sans solution.
+- Renforcer la valeur pratique de régler les problèmes fiscaux tôt plutôt que de les reporter.
+
+## Contenu principal
+
+Lorsque l’impôt est déclaré en retard, payé en partie seulement ou déclaré de façon inexacte, la plupart des systèmes imposent deux types distincts de coûts supplémentaires : une pénalité (essentiellement une amende pour non-conformité) et des intérêts (une compensation versée au gouvernement pour la valeur temporelle de l’argent qu’il n’a pas reçu à temps, semblable dans son principe aux intérêts sur toute autre dette impayée). Il s’agit habituellement de frais distincts, qui s’ajoutent tous deux à l’impôt initialement dû.
+
+La leçon pratique et durable est que ces coûts s’alourdissent généralement plus un problème reste sans solution — les intérêts continuent de courir et, dans certains systèmes, les pénalités peuvent augmenter plus une situation demeure non réglée. C’est exactement pourquoi, dans plusieurs leçons de ce volet, le conseil récurrent a été de régler les questions fiscales de façon proactive — produire sa déclaration même si on ne peut pas tout payer, communiquer avec l’autorité fiscale en cas de problème, et ne pas laisser un problème réglable et circonscrit grossir discrètement par évitement et par retard.
+
+## Exemple pratique
+
+**Question :** Une personne se rend compte qu’elle a fait une erreur dans la déclaration d’une année précédente, mais elle est anxieuse et repousse toujours le moment de s’en occuper. Que suggère cette leçon au sujet de ce réflexe?
+
+**Étudiant :** D’après cette leçon, attendre risque d’empirer les choses, puisque les intérêts et peut-être les pénalités continuent d’augmenter plus le problème reste sans solution.
+
+**Guide :** Quel serait un meilleur réflexe, même si s’en occuper peut sembler désagréable maintenant?
+
+**Étudiant :** S’en occuper de façon proactive — corriger l’erreur et communiquer avec l’autorité fiscale — plutôt que de la laisser s’alourdir en silence.
+
+**Guide :** Exactement — l’anxiété se comprend, mais l’évitement tend à empirer le résultat financier réel, et non à l’améliorer.
+
+## Quiz pratique
+
+**Question 1.** Une pénalité pour déclaration tardive ou inexacte se décrit le mieux comme :
+
+A) Une amende pour non-conformité
+B) La même chose que des intérêts
+C) Un crédit d’impôt
+D) Seulement symbolique, sans coût réel
+
+**Question 2.** Dans ce contexte, les intérêts se décrivent le mieux comme :
+
+A) Une amende pour non-conformité
+B) Une compensation versée au gouvernement pour la valeur temporelle de l’impôt impayé, semblable aux intérêts sur toute dette
+C) Un type de remboursement
+D) La même chose qu’une pénalité
+
+**Question 3.** Les pénalités et les intérêts augmentent-ils habituellement plus un problème reste sans solution?
+
+A) Non, ils restent fixes pour toujours
+B) Oui, ils s’alourdissent généralement plus un problème reste non réglé
+C) Ils disparaissent automatiquement avec le temps
+D) Seuls les intérêts augmentent, jamais les pénalités
+
+**Question 4.** Le conseil pratique récurrent de ce volet face aux problèmes fiscaux est de :
+
+A) Les ignorer en espérant qu’ils se règlent d’eux-mêmes
+B) Les régler de façon proactive plutôt que de les reporter
+C) Attendre le plus longtemps possible avant de faire quoi que ce soit
+D) Ne s’en occuper qu’en cas de vérification
+
+## Corrigé
+
+1. A, 2. B, 3. B, 4. B
+
+## Réponses et explications
+
+**1.** Une pénalité fonctionne comme une amende liée précisément à la non-conformité elle-même.
+
+**2.** Les intérêts reflètent le coût ordinaire de l’argent impayé dans le temps, semblable dans son principe aux intérêts sur toute autre dette.
+
+**3.** Ces coûts s’accumulent habituellement plus le problème de fond reste non réglé.
+
+**4.** Agir de façon proactive, même quand c’est inconfortable, est toujours la meilleure voie, sur les plans financier et pratique, par rapport à l’évitement.
+
+## Points clés
+
+- Une déclaration tardive ou inexacte peut entraîner à la fois une pénalité et des intérêts distincts.
+- Les pénalités sont des amendes pour non-conformité; les intérêts reflètent le coût de l’argent impayé dans le temps.
+- Ces coûts s’alourdissent généralement plus un problème reste sans solution.
+- Régler les problèmes fiscaux de façon proactive vaut toujours mieux que de les laisser grossir par le retard.
