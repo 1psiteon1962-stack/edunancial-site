@@ -1,0 +1,281 @@
+===== WHITE-L2-036
+TITLE: Mache baisye ak koreksyon: kisa yo ye
+SUMMARY: Yon "koreksyon" se yon tèm moun itilize souvan pou yon bès apeprè 10% oswa plis apati yon pik resan nan yon gwo endis mache; yon "mache baisye" (bear market) se yon bès apeprè 20% oswa plis.
+## WHITE-L2-036
+### Mache baisye ak koreksyon: kisa yo ye
+
+**1. Objektif aprantisaj**
+Nan fen leson sa a, elèv la ap kapab:
+- Bay definisyon "koreksyon" ak "mache baisye" kòm tèm moun itilize souvan.
+- Esplike poukisa tèm sa yo dekri gwosè, se pa nesesèman kòz oswa dire.
+- Rekonèt modèl istorik remonte alafen, san trete l kòm yon garanti pou okenn evènman espesifik nan lavni.
+
+**2. Kontni prensipal**
+Yon "koreksyon" se yon tèm moun itilize souvan pou yon bès apeprè 10% oswa plis apati yon pik resan nan yon gwo endis mache; yon "mache baisye" (bear market) se yon tèm moun itilize souvan pou yon bès apeprè 20% oswa plis apati yon pik resan. Sa yo se etikèt ki dekri gwosè, se pa endikatè kòz, e pou kont yo yo pa di anyen sou konbyen tan yon bès pral dire oswa konbyen vit (oswa si) yon remonte pral vini apre — kèk koreksyon rezoud nan kèk semèn, alòske kèk mache baisye istorikman te dire pou peryòd ki long.
+
+Istorikman, gwo endis mache nan anpil gwo ekonomi te alafen remonte apre koreksyon ak mache baisye, souvan yo rive nan nouvo pik pandan ane ki vini apre yo, yon modèl ki konekte ak diskisyon anvan an sou orizon tan long (Leson 27) ak disiplin konpòtman (Leson 28). Leson sa a prezante modèl istorik sa a jan li ye, san l pa garanti l ap repete menm jan pou okenn bès espesifik nan lavni, paske chak peryòd gen pwòp sikonstans inik li.
+
+**3. Egzanp pratik**
+Lè l ap viv premye vrè mache baisye li kòm envestisè, Cyrus fè rechèch sou egzanp istorik mache baisye nan tan pase e li jwenn ke, menm si chak youn te gen kòz inik ak diferan kalandriye remonte, gwo endis mache yo te istorikman remonte e rive nan nouvo pik nan ane ki te swiv bès pase yo. Li pa trete modèl istorik sa a kòm yon garanti pou sitiyasyon espesifik li kounye a, men li bay yon kontèks itil, ansanm ak pwòp orizon tan long li ak plan envestisman li te etabli anvan (Leson 28), pou l kenbe kalm li e rete fidèl ak estrateji li olye l reyaji sèlman a tit jounal kounye a.
+
+**4. Egzamen pratik**
+1. Kisa yon "koreksyon" souvan vle di?
+   a) Yon bès apeprè 10% oswa plis apati yon pik resan
+   b) Nenpòt bès kèlkeswa gwosè l
+   c) Yon evènman garanti nan lavni
+   d) Yon kalite defo obligasyon
+
+2. Kisa yon "mache baisye" souvan vle di?
+   a) Yon ogmantasyon 20% oswa plis
+   b) Yon bès apeprè 20% oswa plis apati yon pik resan
+   c) Fayit yon konpayi espesifik
+   d) Yon politik gouvènman
+
+3. Vrè oswa Fo: Tèm sa yo garanti konbyen tan yon bès pral dire oswa konbyen vit remonte a pral rive.
+
+4. Kijan Cyrus te itilize modèl istorik mache baisye yo pandan pwòp eksperyans li?
+   a) Kòm yon garanti ke sitiyasyon li kounye a ta rezoud menm jan
+   b) Kòm yon kontèks itil, ansanm ak pwòp plan li, san l pa trete l kòm yon garanti pou sitiyasyon espesifik li
+   c) Li te inyore listwa nèt
+   d) Li te panike e li te vann imedyatman
+
+**5. Kle repons yo**
+1. a  2. b  3. Fo  4. b
+
+**6. Repons ak eksplikasyon**
+1. Yon koreksyon souvan dekri yon bès apeprè 10% oswa plis apati yon pik resan.
+2. Yon mache baisye souvan dekri yon bès apeprè 20% oswa plis apati yon pik resan.
+3. Tèm sa yo dekri gwosè sèlman; yo pa di anyen sou dire oswa sètitid okenn kalandriye remonte espesifik nan lavni.
+4. Cyrus te itilize kontèks istorik la kòmsadwa kòm enfòmasyon ki sipòte l san l pa trete l kòm yon garanti pou pwòp sitiyasyon espesifik li.
+
+**7. Pwen kle yo**
+- Yon "koreksyon" souvan dekri yon bès ~10%+; yon "mache baisye" souvan dekri yon bès ~20%+ apati yon pik resan.
+- Tèm sa yo dekri gwosè, se pa kòz ni yon dire garanti.
+- Gwo endis mache yo istorikman te remonte apre bès pase yo, menm si sa pa yon garanti pou okenn evènman espesifik nan lavni.
+- Kontèks istorik sa a, ansanm ak yon orizon tan long ak yon plan ou te etabli, sipòte disiplin konpòtman pandan bès.
+
+===== WHITE-L2-037
+TITLE: Sik mache istorik: yon vi alontèm
+SUMMARY: Menm jan pakou RED la te prezante sik mache imobilye, mache byen an papye an jeneral pase nan sik alontèm ekspansyon ak kontraksyon, ki enfliyanse pa kwasans ekonomik, to enterè, benefis konpayi, ak santiman envestisè.
+## WHITE-L2-037
+### Sik mache istorik: yon vi alontèm
+
+**1. Objektif aprantisaj**
+Nan fen leson sa a, elèv la ap kapab:
+- Esplike konsèp jeneral sik mache alontèm.
+- Konekte konsèp sa a ak diskisyon sou sik mache nan pakou RED la.
+- Rekonèt limit pou itilize modèl istorik pou prevwa rezilta espesifik nan lavni.
+
+**2. Kontni prensipal**
+Menm jan pakou RED la te prezante sik mache imobilye (RED-L2-034) ki soti nan enteraksyon to, òf, ak demann, mache byen an papye an jeneral pase tou nan sik alontèm ekspansyon ak kontraksyon, ki enfliyanse pa kwasans ekonomik, to enterè, tandans benefis konpayi, ak santiman envestisè, pami lòt faktè. Sa a se yon lòt vrè paralèl ant koulè: sik pa yon bagay ki espesifik pou imobilye sèlman, men yon modèl pi laj ou ka obsève atravè diferan kategori byen, menm si mekanis espesifik ak moman yo diferan ant yo.
+
+Menm jan ak diskisyon pakou RED la, leson sa a mete aksan sou lide ke rekonèt sik kòm yon modèl jeneral yo obsève nan listwa gen valè pou fikse atant reyalis, men itilize sik istorik pou prevwa ak presizyon moman, dire, oswa gwosè sik nan lavni rete vrèman difisil, menm pou envestisè ak moun ki fè previzyon pwofesyonèl. Valè edikatif la chita nan konprann mache yo deplase pa faz, sa ki sipòte pasyans ak disiplin (Leson 28), se pa nan eseye chwazi moman pou antre e soti otou yon sik espesifik yo prevwa.
+
+**3. Egzanp pratik**
+Lè l ap etidye done mache istorik alontèm ki kouvri plizyè deseni, yon elèv obsève modèl ki retounen nan long peryòd kwasans swiv pa peryòd bès ak remonte alafen, yon modèl ki raple sa l te aprann sou sik imobilye nan pakou RED la. Olye l konkli li ka kounye a chwazi ak presizyon pwen vire pwochen sik la, elèv la konkli modèl istorik sa a ranfòse enpòtans yon orizon tan long ak yon estrateji disipline e konsistan (tankou envesti yon montan fiks regilyèman nan Leson 19) ki pa depann de prevwa moman sik la kòrèkteman pou l efikas.
+
+**4. Egzamen pratik**
+1. Ki faktè ki enfliyanse sik mache byen an papye alontèm, dapre leson sa a?
+   a) Tan an sèlman
+   b) Kwasans ekonomik, to enterè, benefis konpayi, ak santiman envestisè, pami lòt
+   c) Anyen — sik pa egziste nan byen an papye
+   d) Sèlman òdonans gouvènman
+
+2. Kijan leson sa a konekte ak diskisyon sou sik mache nan pakou RED la?
+   a) Li pa gen okenn koneksyon ditou
+   b) Li montre sik se yon modèl pi laj ou ka obsève atravè diferan kategori byen
+   c) Imobilye ak byen an papye pa janm konnen sik
+   d) Se sèlman imobilye ki konnen sik
+
+3. Vrè oswa Fo: Sik mache istorik pèmèt prevwa ak presizyon moman egzak sik nan lavni.
+
+4. Kisa elèv la te konkli lè l te etidye done sik mache istorik yo?
+   a) Kounye a li te ka chwazi moman pafè pou antre e soti nan mache a
+   b) Modèl la te ranfòse valè yon orizon tan long ak yon estrateji disipline e konsistan
+   c) Sik mache totalman o aza e yo pa bay okenn enfòmasyon itil
+   d) Se sèlman imobilye ki swiv modèl sik
+
+**5. Kle repons yo**
+1. b  2. b  3. Fo  4. b
+
+**6. Repons ak eksplikasyon**
+1. Kwasans ekonomik, to enterè, benefis konpayi, ak santiman envestisè se pami faktè ki enfliyanse sik mache byen an papye.
+2. Leson sa a konekte klèman ak diskisyon sou sik nan pakou RED la, li montre sik kòm yon modèl atravè kategori byen.
+3. Modèl istorik pa pèmèt prevwa ak presizyon moman, dire, oswa gwosè sik nan lavni.
+4. Elèv la te itilize modèl istorik yo kòmsadwa pou ranfòse yon estrateji disipline alontèm olye l eseye chwazi moman mache a ak presizyon.
+
+**7. Pwen kle yo**
+- Mache byen an papye pase nan sik alontèm, ki enfliyanse pa faktè ekonomik, to, benefis, ak santiman.
+- Sa paralèl dirèkteman ak diskisyon sou sik imobilye nan pakou RED la, sa ki montre yon vrè modèl ant koulè.
+- Sik istorik pa pèmèt prevwa ak presizyon moman, dire, oswa gwosè nan lavni.
+- Valè edikatif la chita nan sipòte pasyans ak yon estrateji disipline e konsistan, se pa chwazi moman mache a.
+
+===== WHITE-L2-038
+TITLE: Retounen sou REIT: WHITE rankontre RED
+SUMMARY: Leson RED-L2-037 te prezante REIT nan pèspektiv imobilye; leson sa a retounen sou yo klèman nan pèspektiv WHITE (Byen an papye), pou ranfòse konsepsyon ant koulè pwogram sa a.
+## WHITE-L2-038
+### Retounen sou REIT: WHITE rankontre RED
+
+**1. Objektif aprantisaj**
+Nan fen leson sa a, elèv la ap kapab:
+- Ranfòse konsèp yon REIT kòm yon pon ant koulè WHITE ak RED.
+- Esplike kijan REIT antre nan konsèp alokasyon byen ak divèsifikasyon pi laj nivo sa a.
+- Aplike kad lantiy yo (Leson 2–7) nan evalyasyon REIT.
+
+**2. Kontni prensipal**
+Leson RED-L2-037 te prezante REIT nan pèspektiv imobilye; leson sa a retounen sou yo klèman nan pèspektiv WHITE (Byen an papye), pou ranfòse konsepsyon ant koulè pwogram sa a. Yon REIT, ou kenbe kòm byen an papye (souvan kòm yon aksyon oswa yon fon ki sou bous piblik), ka evalye ak menm lantiy nou te prezante pi bonè nan nivo sa a: yon REIT ki peye distribisyon enpòtan e fyab ta ka atire sitou atravè yon lantiy revni (Leson 5); yon REIT nan yon sektè pwopriyete k ap grandi vit ta ka atire atravè yon lantiy kwasans (Leson 4).
+
+Nan pèspektiv alokasyon byen ak divèsifikasyon (Leson 16–17, 24), REIT okipe yon pozisyon enteresan: teknikman yo se byen an papye (yo achte e vann pa yo tankou aksyon), men pèfòmans fondamantal yo mare ak kondisyon mache imobilye (RED-L2-034), sa vle di yo ka pa toujou deplase ansanm pafètman ak mache aksyon an jeneral — yon konsiderasyon kèk envestisè peze lè y ap deside konbyen benefis divèsifikasyon REIT ta ka bay yo an jeneral, menm si rapò sa a pa fiks ni garanti pou l kenbe nan chak peryòd.
+
+**3. Egzanp pratik**
+Pandan l ap deside kijan pou l klase yon REIT li kenbe nan analiz divèsifikasyon jeneral li, Adaeze rekonèt li pa antre byen pwòp nan yon sèl kategori senp: li negosye kòm byen an papye ansanm ak aksyon ak obligasyon li yo, men faktè ki pouse pèfòmans fondamantal li gen rapò sere ak kondisyon mache imobilye. Li trete l ak refleksyon kòm pwòp pyès apa li nan alokasyon jeneral li, li aplike yon lantiy revni pou evalye istwa distribisyon li, olye l tou senpleman mete l ansanm ak lòt aksyon li yo san l pa konsidere ekspozisyon imobilye apa ki anba l lan.
+
+**4. Egzamen pratik**
+1. Kisa leson sa a ranfòse klèman sou REIT?
+   a) Ke yo pa gen anyen pou wè ak imobilye
+   b) Wòl yo kòm yon pon ant koulè WHITE (Byen an papye) ak RED (Imobilye)
+   c) Ke ou pa ka evalye yo ak okenn lantiy envestisman
+   d) Ke yo idantik ak obligasyon
+
+2. Ki lantiy ki ta ka atire yon envestisè ki atire pa distribisyon enpòtan e fyab yon REIT?
+   a) Lantiy kwasans lan sèlman
+   b) Lantiy revni an
+   c) Okenn lantiy pa aplike pou REIT
+   d) Lantiy maj la
+
+3. Vrè oswa Fo: REIT toujou deplase egzakteman ansanm ak mache aksyon an jeneral nan chak peryòd.
+
+4. Poukisa Adaeze te trete REIT li kenbe a kòm pwòp pyès apa li nan analiz alokasyon li?
+   a) Li te inyore karakteristik inik li
+   b) Li konbine negosyasyon kòm byen an papye ak yon pèfòmans fondamantal ki soti nan imobilye, sa ki mande yon konsiderasyon apa
+   c) REIT idantik ak obligasyon li yo
+   d) Li te retire l nan pòtfolyo li nèt
+
+**5. Kle repons yo**
+1. b  2. b  3. Fo  4. b
+
+**6. Repons ak eksplikasyon**
+1. Leson sa a ranfòse REIT kòm yon vrè pon ant koulè ki konekte konsèp WHITE ak RED.
+2. Yon lantiy revni koresponn ak yon envestisè ki atire pa istwa distribisyon enpòtan e fyab yon REIT.
+3. REIT ka pa toujou deplase ansanm pafètman ak mache aksyon an jeneral, menm si rapò sa a pa fiks ni garanti.
+4. Adaeze te rekonèt kòmsadwa melanj apa REIT li a ant estrikti byen an papye ak pèfòmans ki soti nan imobilye.
+
+**7. Pwen kle yo**
+- REIT fè pon ant pakou WHITE ak RED, ou ka negosye yo kòm byen an papye men yo mare ak pèfòmans mache imobilye.
+- Lantiy valè, kwasans, revni, ak pasif nivo sa a ka tout aplike nan evalyasyon REIT.
+- REIT ka ofri yon sèten benefis divèsifikasyon konpare ak aksyon an jeneral, menm si rapò sa a pa fiks ni garanti.
+- Leson sa a ranfòse konsepsyon ant koulè pwogram nan ki fèt espre.
+
+===== WHITE-L2-039
+TITLE: Fon dat-sib ak fon sik-lavi
+SUMMARY: Yon fon dat-sib (oswa sik-lavi) se yon sèl fon ki fèt pou ajiste alokasyon byen li otomatikman avèk tan, anjeneral li vin pi konsèvatè pandan l ap pwoche yon dat sib ki presize, souvan ki asosye ak ane retrèt yon envestisè atann.
+## WHITE-L2-039
+### Fon dat-sib ak fon sik-lavi
+
+**1. Objektif aprantisaj**
+Nan fen leson sa a, elèv la ap kapab:
+- Esplike konsèp jeneral yon fon dat-sib oswa sik-lavi.
+- Dekri kijan fon sa yo ajiste alokasyon otomatikman avèk tan.
+- Idantifye konsiderasyon jeneral pou evalye si yon fon konsa koresponn ak sitiyasyon yon envestisè.
+
+**2. Kontni prensipal**
+Yon fon dat-sib (target-date, oswa sik-lavi) se yon sèl fon ki fèt pou ajiste alokasyon byen li (Leson 16) otomatikman avèk tan, anjeneral li vin pi konsèvatè (li deplase soti nan plis aksyon pou ale nan plis obligasyon ak kach) pandan l ap pwoche yon dat sib ki presize, souvan ki asosye ak ane retrèt yon envestisè atann. Estrikti sa a fèt pou senplifye desizyon alokasyon byen ak reyekilibraj (Leson 18) ki otreman ta mande yon jesyon aktif k ap kontinye nan men envestisè a.
+
+Konsiderasyon jeneral lè w ap evalye yon fon dat-sib gen ladan revize "chemen glisman" (glide path) espesifik li (kijan alokasyon li deplase toutbon avèk tan, paske diferan fon ki gen menm dat sib ka gen chemen glisman ki diferan anpil), rapò depans li (Leson 15), ak si sipozisyon ki anba l yo sou tolerans pou risk ak bezwen depans nan retrèt koresponn toutbon ak pwòp sikonstans envestisè espesifik la, paske yon sèl fon pa ka konte sitiyasyon inik chak moun, lòt sous revni, oswa nyans tolerans pou risk pèsonèl.
+
+**3. Egzanp pratik**
+Pandan l ap konsidere yon fon dat-sib ki aliyen ak ane retrèt li atann, Simone fè rechèch sou chemen glisman espesifik li e li jwenn li vin pi konsèvatè yon fason klè plizyè ane pi bonè pase yon lòt fon dat-sib ki gen egzakteman menm ane sib la. Lè l rekonèt tolerans pèsonèl li pou risk ak lòt sous revni li planifye nan retrèt ta ka fè yon chemen glisman yon ti jan pi agresif vin pi apwopriye pou sitiyasyon espesifik li, li konpare plizyè opsyon fon dat-sib olye l sipoze tout fon ki pataje ane sib li idantik nan fonksyon.
+
+**4. Egzamen pratik**
+1. Kisa yon fon dat-sib anjeneral fè avèk tan?
+   a) Li kenbe yon alokasyon fiks pou toujou
+   b) Li ajiste alokasyon li otomatikman, anjeneral li vin pi konsèvatè pandan dat sib la ap pwoche
+   c) Li envesti sèlman nan obligasyon depi okòmansman
+   d) Li elimine bezwen pou nenpòt divèsifikasyon
+
+2. Kisa yon "chemen glisman" ye?
+   a) Yon kalite obligasyon
+   b) Kijan alokasyon yon fon dat-sib deplase toutbon avèk tan
+   c) Yon dat limit pou deklarasyon taks
+   d) Yon kalite kont kourtaj
+
+3. Vrè oswa Fo: Tout fon dat-sib ki pataje menm ane sib la gen chemen glisman idantik e ou ka ranplase youn ak lòt nan fonksyon.
+
+4. Poukisa Simone te konpare plizyè opsyon fon dat-sib olye l sipoze yo ka ranplase youn ak lòt?
+   a) Li pa t gen okenn plan retrèt ditou
+   b) Diferan fon ki gen menm ane sib ka gen chemen glisman ki diferan anpil ki bon pou diferan envestisè
+   c) Fon dat-sib pa vrèman diferan youn ak lòt
+   d) Li pa t renmen reyekilibraj otomatik
+
+**5. Kle repons yo**
+1. b  2. b  3. Fo  4. b
+
+**6. Repons ak eksplikasyon**
+1. Yon fon dat-sib ajiste alokasyon li otomatikman, anjeneral li vin pi konsèvatè pandan dat sib li ap pwoche.
+2. Yon chemen glisman dekri kijan alokasyon espesifik yon fon dat-sib deplase avèk tan.
+3. Diferan fon dat-sib ki pataje menm ane sib la ka gen chemen glisman ak rapò depans ki diferan anpil.
+4. Simone te rekonèt kòmsadwa diferan chemen glisman ta ka koresponn pi byen oswa pi mal ak pwòp sikonstans espesifik li.
+
+**7. Pwen kle yo**
+- Fon dat-sib (sik-lavi) ajiste alokasyon otomatikman avèk tan, anjeneral yo vin pi konsèvatè toupre dat sib la.
+- Sa senplifye desizyon alokasyon ak reyekilibraj k ap kontinye pou envestisè a.
+- Chemen glisman ak rapò depans ka diferan anpil ant fon ki pataje menm dat sib la.
+- Evalye si sipozisyon ki anba yon fon koresponn ak vrè sikonstans yon moun rete enpòtan.
+
+===== WHITE-L2-040
+TITLE: Konseye robo ak envestisman otomatik
+SUMMARY: Yon konseye robo (robo-advisor) se yon platfòm dijital ki bay jesyon envestisman otomatik, anjeneral li itilize algoritm pou bati e jere yon pòtfolyo divèsifye dapre objektif, orizon tan, ak tolerans pou risk yon envestisè deklare.
+## WHITE-L2-040
+### Konseye robo ak envestisman otomatik
+
+**1. Objektif aprantisaj**
+Nan fen leson sa a, elèv la ap kapab:
+- Esplike konsèp jeneral yon konseye robo.
+- Idantifye sèvis jeneral konseye robo anjeneral bay.
+- Konpare konpwomi jeneral ant konseye robo ak konseye finansye moun tradisyonèl.
+
+**2. Kontni prensipal**
+Yon konseye robo (robo-advisor) se yon platfòm dijital ki bay jesyon envestisman otomatik, anjeneral li itilize algoritm pou bati e jere yon pòtfolyo divèsifye (souvan ak estrateji pasif/endis, Leson 6) dapre objektif, orizon tan (Leson 27), ak tolerans pou risk (Leson 26) yon envestisè deklare, souvan ak reyekilibraj otomatik (Leson 18) e pafwa estrateji otomatik ki gen rapò ak taks.
+
+Konseye robo anjeneral ofri frè ki pi ba pase konseye finansye moun tradisyonèl ak minimòm kont ki pi ba, sa ki fè pòtfolyo divèsifye ki jere pwofesyonèlman vin pi aksesib pou plis moun. Konpwomi konpare ak konseye moun tradisyonèl gen ladan yon planifikasyon finansye ki anjeneral mwens pèsonalize e mwens global (planifikasyon siksesyon konplè, sitiyasyon taks konplike, oswa sikonstans pèsonèl ki gen nyans ka benefisye de yon jijman moun apwòch algoritmik aktyèl yo ka pa repwodui nèt), ak mwens kapasite pou kalite konsèy k ap kontinye, ki baze sou relasyon, yon konseye moun ta ka bay pandan yon kriz finansye pèsonèl oswa yon gwo evènman nan lavi.
+
+Okenn opsyon pa pi bon pou tout moun; bon chwa a depann de konpleksite sitiyasyon finansye yon moun ak preferans espesifik li pou efikasite algoritmik kont konsèy moun ki pèsonalize.
+
+**3. Egzanp pratik**
+Ak yon sitiyasyon finansye ki senp — yon travay estab, yon sèl objektif retrèt klè, e pa gen okenn konsiderasyon siksesyon oswa biznis konplike — Tobias chwazi yon konseye robo pou frè ki ba li, envestisman minimòm ki ba, ak jesyon otomatik li pa bezwen touche, sa ki koresponn kòmsadwa yon solisyon ki pi senp ak sitiyasyon li ki relativman senp. Vwazin li, k ap navige yon sitiyasyon konplike ki gen ladan yon ti biznis, plizyè pwopriyete, ak bezwen planifikasyon siksesyon yon fanmi rekonstitye, chwazi travay ak yon konseye finansye moun pito, li bay valè ak konsèy pèsonalize e global sikonstans li ki pi konplike yo mande.
+
+**4. Egzamen pratik**
+1. Kisa yon konseye robo anjeneral bay?
+   a) Sèlman konsiltasyon moun, an pèsòn
+   b) Jesyon envestisman otomatik ki baze sou objektif, orizon tan, ak tolerans pou risk algoritm aplike
+   c) Retou envestisman garanti
+   d) Sèlman konsèy envestisman imobilye
+
+2. Ki yon konpwomi jeneral konseye robo konpare ak konseye moun?
+   a) Konseye robo toujou chaje frè ki pi wo
+   b) Yo anjeneral ofri mwens konsèy pèsonalize pou sitiyasyon konplike
+   c) Yo pa ka jere yon pòtfolyo divèsifye ditou
+   d) Yo mande pi gwo minimòm kont
+
+3. Vrè oswa Fo: Yon konseye robo toujou objektivman pi bon chwa a pou chak envestisè, kèlkeswa konpleksite sitiyasyon an.
+
+4. Poukisa vwazin Tobias te chwazi yon konseye moun olye yon konseye robo?
+   a) Li te gen yon sitiyasyon finansye trè senp
+   b) Bezwen biznis ak planifikasyon siksesyon konplike li te benefisye de konsèy moun ki pèsonalize e global
+   c) Li pa t renmen teknoloji ditou
+   d) Konseye robo ilegal pou sitiyasyon li
+
+**5. Kle repons yo**
+1. b  2. b  3. Fo  4. b
+
+**6. Repons ak eksplikasyon**
+1. Yon konseye robo bay jesyon envestisman otomatik ki baze sou done envestisè a algoritm aplike.
+2. Konseye robo anjeneral ofri mwens konsèy pèsonalize pou sitiyasyon finansye oswa planifikasyon siksesyon konplike pase konseye moun.
+3. Bon chwa a depann de konpleksite sitiyasyon yon moun, se pa yon siperyorite inivèsèl youn nan opsyon yo.
+4. Bezwen biznis ak planifikasyon siksesyon konplike vwazin Tobias te pi byen sèvi pa konsèy moun ki pèsonalize.
+
+**7. Pwen kle yo**
+- Konseye robo bay jesyon envestisman otomatik, ki soti nan algoritm, dapre objektif, orizon tan, ak tolerans pou risk yo deklare.
+- Yo anjeneral ofri frè ak minimòm ki pi ba, sa ki ogmante aksè a jesyon pòtfolyo divèsifye.
+- Konseye moun anjeneral ofri plis konsèy pèsonalize pou sitiyasyon finansye konplike.
+- Bon chwa a depann de konpleksite sitiyasyon yon moun, se pa yon siperyorite inivèsèl youn nan apwòch yo.
