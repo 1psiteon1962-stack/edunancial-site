@@ -1,0 +1,60 @@
+---
+id: PURPLE-L3-021
+track: PURPLE
+officialTrackName: "Law"
+level: 3
+lessonNumber: 21
+title: "Poukisa yon brevè echanje divilgasyon pou yon monopòl limite"
+summary: "Aprann akò debaz ki dèyè lwa sou brevè — divilge yon envansyon piblikman an echanj pou yon dwa eksklizif, tanporè pou itilize l."
+version: "1.0"
+author: "Waldemar M. Caban, JD MA"
+date: "2026-10-28"
+locale: "ht"
+source_locale: "en-US"
+---
+# PURPLE-L3-021: Poukisa yon brevè echanje divilgasyon pou yon monopòl limite
+
+## Objektif aprantisaj
+Lè w fin fè leson sa a, w ap kapab:
+- Esplike akò debaz ki anba lwa sou brevè
+- Esplike poukisa yon brevè gen yon dire fiks, limite olye l dire san fen
+- Konpare sa ak egzijans itilizasyon kontinyèl mak komèsyal Leson 20 la
+
+## Kontni prensipal
+
+Yon **brevè** (patent) anjeneral bay yon envantè dwa eksklizif pou fè, itilize, oswa vann yon envansyon espesifik pou yon peryòd limite, an echanj pou divilge piblikman egzakteman kijan envansyon an mache. Men "poukisa" echanj espesifik sa a egziste, yo pafwa rele l akò brevè a: [FÈ VERIFYE] sistèm brevè yo anjeneral fèt pou ankouraje inovasyon lè yo rekonpanse envantè yo ak yon dwa eksklizif, tanporè, alòske yo asire tou sosyete a finalman benefisye de konesans sou kijan envansyon an mache, paske yo divilge enfòmasyon sa a piblikman kòm yon pati nan pwosesis demann brevè a, li vin disponib pou piblik la (ak lòt inovatè pou bati sou li) depi brevè a finalman ekspire.
+
+Se poutèt sa yon brevè anjeneral gen yon dire fiks, limite — [FÈ VERIFYE] kontrèman ak diferan estrikti dire dwa dotè oswa mak komèsyal, peryòd eksklizivite yon brevè anjeneral fikse pou yon kantite ane espesifik apati depo oswa akòde a, ki varye selon kalite brevè ak jiridiksyon, apre sa envansyon an anjeneral vin disponib pou nenpòt moun itilize, sa ki reflete balans akò a vize ant rekonpanse envantè a ak finalman benefisye piblik la an jeneral.
+
+Sa diferan anpil de diskisyon sou mak komèsyal Leson 20 la: pwoteksyon yon brevè anjeneral pa depann de si envantè a vrèman itilize envansyon an nan komès, e li pa pwolonje ni renouvle selon itilizasyon kontinyèl — li senpleman ekspire apre dire fiks li, kèlkeswa jan yo te itilize l oswa pa t itilize l pandan peryòd sa a.
+
+## Egzanp pratik
+
+[EGZANP ILISTRATIF] Yon envantè depoze yon demann brevè, li divilge piblikman egzakteman kijan yon nouvo envansyon mache kòm yon pati nan pwosesis sa a. An echanj pou divilgasyon sa a, envantè a resevwa yon dwa eksklizif pou fè, itilize, oswa vann envansyon an pou yon peryòd espesifik, fiks. [SIPOZISYON] Depi peryòd fiks sa a ekspire, envansyon an anjeneral vin disponib pou nenpòt moun itilize, paske yo te deja divilge konesans debaz la piblikman plizyè ane anvan — sosyete a benefisye de konesans yo divilge sa a ni pandan peryòd eksklizivite brevè a (atravè lisans oswa komèsyalizasyon pwòp envantè a) ni apre (atravè aksè lib), sa ki reflete akò debaz leson sa a dekri a.
+
+## Egzamen pratik
+
+1. Ki akò debaz ki anba lwa sou brevè?
+2. Poukisa pwoteksyon brevè gen yon dire fiks, limite olye l dire san fen?
+3. Kijan estrikti dire yon brevè diferan de egzijans itilizasyon kontinyèl mak komèsyal yo diskite nan Leson 20?
+
+## Kle repons yo
+
+1. Yon envantè resevwa yon dwa eksklizif, tanporè sou envansyon li an echanj pou l divilge piblikman egzakteman kijan li mache, pou sosyete a finalman benefisye de konesans sa a.
+2. Paske sistèm nan fèt pou balanse rekonpanse envantè a ak yon eksklizivite tanporè ak finalman fè konesans yo divilge a disponib pou piblik la itilize e inove pi laj.
+3. Eksklizivite yon brevè fikse pou yon dire fiks kèlkeswa vrè itilizasyon komèsyal envantè a; pwoteksyon mak komèsyal okontrè depann de yon itilizasyon kontinyèl, aktif e ou ka pèdi l atravè abandon si itilizasyon sa a sispann.
+
+## Repons ak eksplikasyon
+
+1. Sa a se konsèp "akò" debaz leson an bati sou li.
+2. Sa esplike rezon politik ki anba dire fiks la.
+3. Sa konpare leson an klèman ak Leson 20, sa ki ranfòse estrikti entegre tras la.
+
+## Pwen kle yo
+- Lwa sou brevè anjeneral echanje yon dwa eksklizif, tanporè pou yon divilgasyon piblik sou kijan yon envansyon mache.
+- Se poutèt sa brevè gen yon dire fiks, limite, apre sa envansyon an anjeneral vin disponib pou piblik la itilize.
+- Kontrèman ak mak komèsyal, pwoteksyon yon brevè pa depann de yon itilizasyon komèsyal kontinyèl pandan dire fiks li.
+
+---
+
+*Leson sa a se sèlman pou edikasyon legal jeneral, e li pa konstitye konsèy legal pèsonalize. Règ ak dire brevè yo varye selon jiridiksyon ak kalite brevè; konsilte yon avoka brevè ki gen lisans pou konsèy ki espesifik pou sitiyasyon ou.*
