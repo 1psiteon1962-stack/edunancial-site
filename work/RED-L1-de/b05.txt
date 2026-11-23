@@ -1,0 +1,437 @@
+===== RED-L1-025
+TITLE: Was ist Wertsteigerung, und warum ist sie nicht garantiert?
+SUMMARY: Lerne, was die Wertsteigerung einer Immobilie bedeutet, was sie typischerweise antreibt und warum man niemals fest mit ihr rechnen sollte.
+# Was ist Wertsteigerung, und warum ist sie nicht garantiert?
+
+## Lernziele
+
+Am Ende dieser Lektion solltest du Folgendes können:
+
+- Wertsteigerung in einfachen Worten definieren.
+- Faktoren nennen, die sie häufig beeinflussen.
+- Erklären, warum man Wertsteigerung niemals als garantiert annehmen sollte.
+
+## Kerninhalt
+
+### Was Wertsteigerung ist
+
+Wertsteigerung ist ein Anstieg des Marktwerts einer Immobilie im Lauf der Zeit. Sie ist einer von zwei Hauptwegen, auf denen Immobilien Vermögen für Eigentümer aufbauen können; der andere sind Mieteinnahmen bzw. Cashflow.
+
+### Was sie typischerweise antreibt
+
+Wertsteigerung wird häufig von Faktoren wie der örtlichen Nachfrage, der allgemeinen Wirtschaftslage, der Entwicklung des Viertels und größeren Marktzyklen beeinflusst – nichts davon kontrolliert ein einzelner Eigentümer direkt.
+
+### Warum sie nie garantiert ist
+
+Immobilienwerte können auch sinken, manchmal deutlich, vor allem über kürzere Zeiträume oder bei allgemeinen Marktabschwüngen. Wertsteigerung als sicher zu behandeln, ist eine häufige und riskante Annahme – spätere Lektionen über Marktzyklen vertiefen das.
+
+## Praxisbeispiel
+
+Ein Haus, das für 300.000 € gekauft wurde, könnte fünf Jahre später dank örtlicher Nachfrage und Marktlage 340.000 € wert sein – oder nur 280.000 €, wenn der örtliche Markt stattdessen nachgegeben hat. Keines der beiden Ergebnisse ist im Voraus garantiert.
+
+## Übungsquiz
+
+1. Wertsteigerung bezeichnet:
+   A. Monatliche Mieteinnahmen
+   B. Einen Anstieg des Marktwerts einer Immobilie im Lauf der Zeit
+   C. Eine vorgeschriebene Hausprüfung
+   D. Eine Art Kreditausfallversicherung
+
+2. Wahr oder falsch: Die Wertsteigerung einer Immobilie ist für jeden beliebigen Zeitraum garantiert.
+
+3. Welcher Faktor beeinflusst die Wertsteigerung häufig?
+   A. Die Farbe der Haustür
+   B. Die örtliche Nachfrage und die allgemeine Marktlage
+   C. Das persönliche Einkommen des Käufers
+   D. Der Name des Kreditgebers
+
+## Lösungsschlüssel
+
+1. B
+2. Falsch
+3. B
+
+## Antworten und Erklärungen
+
+### Frage 1
+
+Richtige Antwort: B. Wertsteigerung ist ein Anstieg des Marktwerts im Lauf der Zeit.
+
+### Frage 2
+
+Richtige Antwort: Falsch. Werte können auch sinken; Wertsteigerung ist nie garantiert.
+
+### Frage 3
+
+Richtige Antwort: B. Örtliche Nachfrage und Marktlage sind häufige Treiber.
+
+## Wichtigste Erkenntnisse
+
+- Wertsteigerung ist ein Anstieg des Marktwerts einer Immobilie im Lauf der Zeit.
+- Sie wird von Faktoren beeinflusst, die kein einzelner Eigentümer kontrolliert.
+- Man sollte sie nie als garantiert annehmen – Werte können auch sinken.
+
+===== RED-L1-026
+TITLE: Was ist Abschreibung, und warum kann ein Verlust auf dem Papier helfen?
+SUMMARY: Lerne, was Abschreibung als steuerliches Konzept bei Immobilien bedeutet und warum ein Verlust auf dem Papier einen echten Vorteil bringen kann.
+# Was ist Abschreibung, und warum kann ein Verlust auf dem Papier helfen?
+
+## Lernziele
+
+Am Ende dieser Lektion solltest du Folgendes können:
+
+- Abschreibung als steuerliches Konzept bei Immobilien definieren.
+- Erklären, warum sie als Verlust „auf dem Papier“ bezeichnet wird.
+- Grundlegend erklären, warum sie einen steuerlichen Vorteil bringen kann.
+
+## Kerninhalt
+
+### Was Abschreibung hier bedeutet
+
+*(LÄNDERSPEZIFISCHE REGEL: Diese Lektion beschreibt ein Konzept des US-Steuerrechts; die Behandlung unterscheidet sich je nach Land erheblich. In Deutschland gibt es mit der AfA ein ähnliches Prinzip, aber mit eigenen Sätzen und Regeln – prüfe Einzelheiten mit einer Steuerberatung.)* Bei Immobilien ist die Abschreibung ein steuerlicher Abzug, mit dem Eigentümer einen Teil der Kosten einer vermieteten Immobilie über die Zeit absetzen können. Dahinter steht die Idee, dass Gebäude sich abnutzen – selbst wenn der Marktwert der Immobilie tatsächlich steigt.
+
+### Warum man von einem Verlust „auf dem Papier“ spricht
+
+Die Immobilie muss nicht tatsächlich an Wert verlieren, damit der Eigentümer Abschreibung geltend machen kann – es ist ein planmäßiger steuerlicher Abzug auf Grundlage der Anschaffungskosten, unabhängig davon, was mit dem tatsächlichen Marktwert geschieht. Deshalb nennt man es oft einen Verlust auf dem Papier: Er senkt das zu versteuernde Einkommen, ohne dass tatsächlich Geld abfließt.
+
+### Warum sie einen echten Vorteil bringen kann
+
+Weil die Abschreibung das zu versteuernde Mieteinkommen senkt, kann sie die Steuerlast eines Eigentümers in Jahren verringern, in denen die Immobilie tatsächlich an Marktwert gewinnt – ein echter, legaler Vorteil von Immobilieninvestitionen, getrennt von der tatsächlichen Wertentwicklung der Immobilie.
+
+## Praxisbeispiel
+
+Eine vermietete Immobilie erzielt vor Abschreibung 10.000 € zu versteuerndes Mieteinkommen. Nach 8.000 € Abschreibung sinkt das zu versteuernde Einkommen aus dieser Immobilie auf 2.000 € – obwohl ihr Marktwert im selben Jahr gestiegen sein kann.
+
+## Übungsquiz
+
+1. Abschreibung ist in diesem Zusammenhang:
+   A. Eine vorgeschriebene Hausprüfung
+   B. Ein steuerlicher Abzug, der die Kosten eines Gebäudes über die Zeit widerspiegelt
+   C. Eine Art Kreditausfallversicherung
+   D. Ein Anstieg des Marktwerts
+
+2. Wahr oder falsch: Eine Immobilie muss tatsächlich an Marktwert verlieren, damit der Eigentümer Abschreibung geltend machen kann.
+
+3. Warum nennt man Abschreibung manchmal einen Verlust „auf dem Papier“?
+   A. Weil dafür physische Dokumente gedruckt werden müssen
+   B. Weil sie das zu versteuernde Einkommen senkt, ohne dass tatsächlich Geld abfließt
+   C. Weil sie nur für papierbasierte Unternehmen gilt
+   D. Weil sie keine echte Auswirkung auf die Steuern hat
+
+## Lösungsschlüssel
+
+1. B
+2. Falsch
+3. B
+
+## Antworten und Erklärungen
+
+### Frage 1
+
+Richtige Antwort: B. Abschreibung ist ein planmäßiger steuerlicher Abzug auf Grundlage der Kosten, nicht des Marktwerts.
+
+### Frage 2
+
+Richtige Antwort: Falsch. Abschreibung kann unabhängig von der tatsächlichen Marktwertentwicklung geltend gemacht werden.
+
+### Frage 3
+
+Richtige Antwort: B. Es ist ein Abzug auf dem Papier, der das zu versteuernde Einkommen ohne tatsächlichen Geldabfluss senkt.
+
+## Wichtigste Erkenntnisse
+
+- Abschreibung ist ein steuerlicher Abzug auf Grundlage der Kosten einer Immobilie über die Zeit.
+- Sie ist unabhängig von der tatsächlichen Marktwertentwicklung der Immobilie.
+- Sie kann das zu versteuernde Einkommen eines Eigentümers deutlich senken.
+
+===== RED-L1-027
+TITLE: Was ist ein „1031 Exchange“? (Einfach erklärt)
+SUMMARY: Lerne den Grundgedanken eines „1031 Exchange“ kennen – den Aufschub der Steuer beim Verkauf einer Anlageimmobilie durch Reinvestition des Erlöses.
+# Was ist ein „1031 Exchange“? (Einfach erklärt)
+
+## Lernziele
+
+Am Ende dieser Lektion solltest du Folgendes können:
+
+- Den Grundgedanken eines 1031 Exchange erklären.
+- Erklären, was es bedeutet, eine Steuer „aufzuschieben“ statt sie zu beseitigen.
+- Erkennen, dass strenge Regeln und Fristen gelten.
+
+## Kerninhalt
+
+### Der Grundgedanke
+
+*(LÄNDERSPEZIFISCHE REGEL: Dies ist eine Vorschrift des US-Steuerrechts und in anderen Ländern nicht verfügbar. In Deutschland gelten für private Immobilienverkäufe ganz andere Regeln, etwa die zehnjährige Spekulationsfrist – prüfe Einzelheiten mit einer Steuerberatung.)* Ein 1031 Exchange erlaubt einem Investor, eine Anlageimmobilie zu verkaufen und den Erlös in eine andere „gleichartige“ Immobilie („like-kind“) zu reinvestieren, wodurch die Steuer auf den Veräußerungsgewinn aufgeschoben wird, die normalerweise beim Verkauf fällig wäre.
+
+### Aufschieben, nicht beseitigen
+
+Das ist eine entscheidende Unterscheidung: Die Steuer wird nicht gelöscht, sondern verschoben. Der aufgeschobene Gewinn geht im Allgemeinen auf die neue Immobilie über, und je nachdem, was bei künftigen Geschäften passiert, kann die Steuer später doch noch fällig werden.
+
+### Es gelten strenge Regeln
+
+*ANNAHME (zu Lehrzwecken):* Für einen 1031 Exchange gelten bestimmte Fristen für die Benennung und den Abschluss sowie verfahrensrechtliche Anforderungen. Diese Einführungslektion behandelt diese Einzelheiten nicht – Ziel ist hier, das Kernkonzept vor der Mechanik zu verstehen.
+
+## Praxisbeispiel
+
+Ein Investor verkauft eine vermietete Immobilie mit einem erheblichen Gewinn und nutzt, statt sofort Steuer auf den Veräußerungsgewinn zu zahlen, einen 1031 Exchange, um den Erlös in eine neue vermietete Immobilie zu übertragen – er schiebt die Steuerrechnung auf, statt sie sofort zu bezahlen.
+
+## Übungsquiz
+
+1. Ein 1031 Exchange erlaubt einem Investor in erster Linie:
+   A. Die Steuer auf Veräußerungsgewinne dauerhaft zu beseitigen
+   B. Die Steuer auf Veräußerungsgewinne durch Reinvestition in eine gleichartige Immobilie aufzuschieben
+   C. Die Grundsteuer vollständig zu vermeiden
+   D. Auf eine Hausprüfung zu verzichten
+
+2. Wahr oder falsch: Ein 1031 Exchange beseitigt die geschuldete Steuer, statt sie zu verschieben.
+
+3. Was bedeutet „gleichartig“ („like-kind“) in diesem Zusammenhang im Allgemeinen?
+   A. Zwei identische Häuser
+   B. Anlageimmobilien, die nach den Regeln für einen solchen Tausch infrage kommen
+   C. Zwei beliebige Vermögenswerte mit gleichem Preis
+   D. Eine bestimmte Immobilienmarke
+
+## Lösungsschlüssel
+
+1. B
+2. Falsch
+3. B
+
+## Antworten und Erklärungen
+
+### Frage 1
+
+Richtige Antwort: B. Ein 1031 Exchange schiebt die Steuer auf Veräußerungsgewinne auf, statt sie zu beseitigen.
+
+### Frage 2
+
+Richtige Antwort: Falsch. Die Steuer wird verschoben, nicht gelöscht.
+
+### Frage 3
+
+Richtige Antwort: B. „Gleichartig“ bezieht sich auf Arten von Anlageimmobilien, die nach den geltenden Regeln infrage kommen, nicht auf identische Immobilien.
+
+## Wichtigste Erkenntnisse
+
+- Ein 1031 Exchange schiebt die Steuer auf Veräußerungsgewinne auf, indem der Erlös in eine andere infrage kommende Immobilie reinvestiert wird.
+- Aufschieben ist nicht dasselbe wie die Steuer zu beseitigen.
+- Es gelten strenge Regeln und Fristen, die in späteren Lektionen vertieft werden.
+
+===== RED-L1-028
+TITLE: Vermieter-Grundlagen: Wofür bist du eigentlich verantwortlich?
+SUMMARY: Lerne die zentralen Pflichten kennen, die ein Vermieter übernimmt – getrennt von dem, wofür Mieter verantwortlich sind.
+# Vermieter-Grundlagen: Wofür bist du eigentlich verantwortlich?
+
+## Lernziele
+
+Am Ende dieser Lektion solltest du Folgendes können:
+
+- Die zentralen Pflichten eines Vermieters nennen.
+- Die Pflichten des Vermieters von denen des Mieters unterscheiden.
+- Erklären, warum es wichtig ist, diese Aufteilung vor dem Vermieten zu verstehen.
+
+## Kerninhalt
+
+### Zentrale Pflichten des Vermieters
+
+*(LÄNDERSPEZIFISCHE REGEL: Die genauen Pflichten unterscheiden sich je nach Bundesland bzw. Land und Mietvertrag.)* Vermieter sind im Allgemeinen dafür verantwortlich, die Immobilie in einem bewohnbaren Zustand zu halten – dazu gehören typischerweise wichtige Anlagen (Wasserleitungen, Heizung, bauliche Probleme) und die Einhaltung örtlicher Wohnvorschriften.
+
+### Wofür Mieter typischerweise verantwortlich sind
+
+Mieter sind im Allgemeinen für die tägliche Pflege ihres Wohnraums verantwortlich, dafür, die Bedingungen des Mietvertrags einzuhalten, und oft dafür, Probleme umgehend zu melden – die genaue Aufteilung steht meist im Mietvertrag selbst.
+
+### Warum die Aufteilung wichtig ist
+
+Ein neuer Vermieter, der diese Pflichten nicht versteht, riskiert rechtliche Probleme (wenn er Pflichten zur Bewohnbarkeit verletzt) oder unnötige Kosten (wenn er Dinge übernimmt, für die eigentlich der Mieter zuständig war). Klare Vertragsbedingungen helfen, Streit auf beiden Seiten zu vermeiden.
+
+## Praxisbeispiel
+
+Ein Mieter meldet im Winter eine defekte Heizung. Das ist typischerweise Sache des Vermieters (eine wichtige Anlage, die die Bewohnbarkeit betrifft) und nichts, was der Mieter selbst reparieren muss.
+
+## Übungsquiz
+
+1. Vermieter sind im Allgemeinen verantwortlich für:
+   A. Die tägliche Ordnung im Wohnraum des Mieters
+   B. Den bewohnbaren Zustand der Immobilie, einschließlich wichtiger Anlagen
+   C. Die persönlichen Gegenstände des Mieters
+   D. Das Beschäftigungsverhältnis des Mieters
+
+2. Wahr oder falsch: Die genaue Aufteilung der Pflichten zwischen Vermieter und Mieter ist überall gleich, unabhängig von Ort oder Mietvertrag.
+
+3. Warum ist es für einen neuen Vermieter wichtig, diese Aufteilung zu verstehen?
+   A. Es spielt überhaupt keine Rolle
+   B. Es hilft, rechtliche Probleme und unnötige Kosten zu vermeiden
+   C. Es zählt nur bei Gewerbeimmobilien
+   D. Es hat nichts mit dem Mietvertrag zu tun
+
+## Lösungsschlüssel
+
+1. B
+2. Falsch
+3. B
+
+## Antworten und Erklärungen
+
+### Frage 1
+
+Richtige Antwort: B. Vermieter kümmern sich im Allgemeinen um Bewohnbarkeit und wichtige Anlagen.
+
+### Frage 2
+
+Richtige Antwort: Falsch. Die Pflichten unterscheiden sich je nach Ort und Mietvertrag.
+
+### Frage 3
+
+Richtige Antwort: B. Wer die Aufteilung versteht, vermeidet rechtliche und finanzielle Probleme.
+
+## Wichtigste Erkenntnisse
+
+- Vermieter kümmern sich im Allgemeinen um Bewohnbarkeit und wichtige Anlagen.
+- Mieter kümmern sich im Allgemeinen um die tägliche Pflege und die Einhaltung des Mietvertrags.
+- Klare Vertragsbedingungen helfen, Streit über Zuständigkeiten zu vermeiden.
+
+===== RED-L1-029
+TITLE: Was ist ein Mietvertrag, und was sollte darin stehen?
+SUMMARY: Lerne, was ein Mietvertrag rechtlich tatsächlich ist und welche zentralen Punkte jeder Mietvertrag klar regeln sollte.
+# Was ist ein Mietvertrag, und was sollte darin stehen?
+
+## Lernziele
+
+Am Ende dieser Lektion solltest du Folgendes können:
+
+- Einen Mietvertrag in einfachen Worten definieren.
+- Zentrale Punkte nennen, die ein Mietvertrag regeln sollte.
+- Erklären, warum eine mündliche Absprache ein echtes Risiko ist.
+
+## Kerninhalt
+
+### Was ein Mietvertrag ist
+
+Ein Mietvertrag ist ein rechtlich verbindlicher Vertrag zwischen Vermieter und Mieter, der die Bedingungen festlegt, unter denen der Mieter die Immobilie nutzen darf.
+
+### Zentrale Punkte, die ein Mietvertrag regeln sollte
+
+Ein solider Mietvertrag regelt typischerweise: Höhe und Fälligkeit der Miete, Vertragsdauer, Bedingungen der Mietkaution, Zuständigkeiten für Instandhaltung sowie Regeln etwa zu Haustieren oder Untervermietung. Vage oder fehlende Bedingungen sind eine häufige Ursache für Streit.
+
+### Warum „Das klären wir schon“ ein echtes Risiko ist
+
+Eine mündliche oder informelle Absprache ohne klare schriftliche Bedingungen lässt Vermieter und Mieter ungeschützt, wenn es später zu Meinungsverschiedenheiten kommt – es gibt keinen klaren Nachweis darüber, was tatsächlich vereinbart wurde. Ein schriftlicher Mietvertrag schützt beide Seiten, nicht nur den Vermieter.
+
+## Praxisbeispiel
+
+Ein Vermieter und ein Mieter einigen sich mündlich auf die Miete, halten aber nie eine Kündigungsfrist für den Auszug fest. Als der Mieter ohne Ankündigung auszieht, hat der Vermieter keine schriftliche Bedingung, auf die er sich berufen kann – ein echter Streit, den ein klarer Mietvertrag hätte verhindern können.
+
+## Übungsquiz
+
+1. Ein Mietvertrag ist:
+   A. Eine informelle Absprache per Handschlag
+   B. Ein rechtlich verbindlicher Vertrag, der die Nutzungsbedingungen festlegt
+   C. Eine Art Grundsteuer
+   D. Ein staatlicher Wohnzuschuss
+
+2. Wahr oder falsch: Eine mündliche Mietabsprache bietet denselben Schutz wie ein klarer schriftlicher Mietvertrag.
+
+3. Welcher Punkt sollte typischerweise in einem Mietvertrag geregelt sein?
+   A. Die Lieblingsfarbe des Mieters
+   B. Höhe und Fälligkeit der Miete
+   C. Die Hobbys des Vermieters
+   D. Die Wettervorhersage
+
+## Lösungsschlüssel
+
+1. B
+2. Falsch
+3. B
+
+## Antworten und Erklärungen
+
+### Frage 1
+
+Richtige Antwort: B. Ein Mietvertrag ist ein rechtlich verbindlicher Vertrag.
+
+### Frage 2
+
+Richtige Antwort: Falsch. Ein schriftlicher Mietvertrag bietet viel klareren Schutz als eine mündliche Absprache.
+
+### Frage 3
+
+Richtige Antwort: B. Höhe und Fälligkeit der Miete sind zentrale Punkte eines Mietvertrags.
+
+## Wichtigste Erkenntnisse
+
+- Ein Mietvertrag ist ein rechtlich verbindlicher Vertrag, der die Nutzungsbedingungen festlegt.
+- Zentrale Punkte sind Miete, Vertragsdauer, Kaution und Zuständigkeiten.
+- Ein schriftlicher Mietvertrag schützt Vermieter und Mieter weit besser als eine mündliche Absprache.
+
+===== RED-L1-030
+TITLE: Mietkautionen: Was Vermieter dürfen und was nicht
+SUMMARY: Lerne den grundlegenden Zweck einer Mietkaution kennen und warum Vermieter sie im Allgemeinen nicht nach Belieben verwenden dürfen.
+# Mietkautionen: Was Vermieter dürfen und was nicht
+
+## Lernziele
+
+Am Ende dieser Lektion solltest du Folgendes können:
+
+- Eine Mietkaution in einfachen Worten definieren.
+- Erklären, was sie im Allgemeinen abdecken soll.
+- Erkennen, dass Vermieter bei ihrer Verwendung echten rechtlichen Grenzen unterliegen.
+
+## Kerninhalt
+
+### Was eine Mietkaution ist
+
+Eine Mietkaution ist Geld, das ein Mieter im Voraus zahlt und das der Vermieter verwahrt, um nach Ende des Mietverhältnisses mögliche Mietrückstände oder Schäden über die normale Abnutzung hinaus abzudecken.
+
+### Was sie im Allgemeinen abdecken soll
+
+Mietkautionen sind typischerweise für Mietrückstände oder tatsächliche Schäden gedacht – nicht für normale Abnutzung, die durch gewöhnliches Wohnen ganz natürlich entsteht (etwa leichte Abnutzung des Teppichs oder kleine Nagellöcher von Bildern).
+
+### Echte rechtliche Grenzen
+
+*(LÄNDERSPEZIFISCHE REGEL: Konkrete Grenzen, Fristen und Regeln unterscheiden sich je nach Bundesland bzw. Land erheblich.)* Viele Rechtsordnungen begrenzen die Höhe der Kaution, verlangen eine Aufstellung der Abzüge und setzen Fristen für die Rückzahlung nach dem Auszug. (In Deutschland ist die Kaution zum Beispiel grundsätzlich auf drei Nettokaltmieten begrenzt.) Ein Vermieter, der diese Regeln ignoriert, kann echte rechtliche Folgen tragen.
+
+## Praxisbeispiel
+
+Eine Mieterin zieht nach zwei Jahren aus und hinterlässt leichte Teppichabnutzung durch normalen Gebrauch. Ein Vermieter, der die vollen Kosten eines neuen Teppichs von der Kaution abziehen will, überschreitet womöglich seine Rechte – normale Abnutzung ist typischerweise kein zulässiger Abzug.
+
+## Übungsquiz
+
+1. Eine Mietkaution soll im Allgemeinen abdecken:
+   A. Die persönlichen Ausgaben des Vermieters
+   B. Mietrückstände oder tatsächliche Schäden über die normale Abnutzung hinaus
+   C. Normale Abnutzung durch gewöhnliches Wohnen
+   D. Die Einzugskosten des nächsten Mieters
+
+2. Wahr oder falsch: Vermieter dürfen im Allgemeinen für jede Abnutzung der Immobilie Abzüge machen, auch für normalen Gebrauch.
+
+3. Was gilt häufig dafür, wie und wann eine Kaution zurückgezahlt werden muss?
+   A. Nichts – das liegt ganz beim Vermieter
+   B. Rechtliche Grenzen und Fristen, die je nach Rechtsordnung unterschiedlich sind
+   C. Eine feste weltweite Regel, die überall gleich gilt
+   D. Nur Bundesrecht, ohne Unterschiede zwischen Bundesstaaten
+
+## Lösungsschlüssel
+
+1. B
+2. Falsch
+3. B
+
+## Antworten und Erklärungen
+
+### Frage 1
+
+Richtige Antwort: B. Kautionen decken im Allgemeinen Mietrückstände oder echte Schäden ab, nicht normale Abnutzung.
+
+### Frage 2
+
+Richtige Antwort: Falsch. Normale Abnutzung ist typischerweise kein zulässiger Abzug.
+
+### Frage 3
+
+Richtige Antwort: B. Rechtliche Grenzen und Fristen unterscheiden sich je nach Rechtsordnung.
+
+## Wichtigste Erkenntnisse
+
+- Eine Mietkaution deckt Mietrückstände oder echte Schäden ab, nicht normale Abnutzung.
+- Vermieter unterliegen bei der Verwendung der Kaution echten rechtlichen Grenzen.
+- Regeln und Fristen für die Rückzahlung unterscheiden sich je nach Ort.

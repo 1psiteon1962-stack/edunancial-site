@@ -88,7 +88,7 @@ Am Ende dieser Lektion solltest du Folgendes können:
 
 ### Was PMI ist
 
-LÄNDERSPEZIFISCHE REGEL: PMI (Private Mortgage Insurance) ist ein Begriff aus dem US-Hypothekenmarkt; in Deutschland und vielen anderen Ländern gibt es sie in dieser Form meist nicht – dort verlangen Banken bei wenig Eigenkapital stattdessen oft höhere Zinsen. PMI ist eine Versicherung, die den Kreditgeber schützt – nicht den Kreditnehmer –, falls der Kreditnehmer aufhört, das Darlehen zu bezahlen. Sie ist eine zusätzliche monatliche Kostenposition auf der Darlehensrate.
+*(LÄNDERSPEZIFISCHE REGEL: PMI (Private Mortgage Insurance) ist ein Begriff aus dem US-Hypothekenmarkt; in Deutschland und vielen anderen Ländern gibt es sie in dieser Form meist nicht – dort verlangen Banken bei wenig Eigenkapital stattdessen oft höhere Zinsen.)* PMI ist eine Versicherung, die den Kreditgeber schützt – nicht den Kreditnehmer –, falls der Kreditnehmer aufhört, das Darlehen zu bezahlen. Sie ist eine zusätzliche monatliche Kostenposition auf der Darlehensrate.
 
 ### Wen sie tatsächlich schützt
 
@@ -165,7 +165,7 @@ Die Grundsteuer ist eine regelmäßige Steuer, die Eigentümer an die Gemeinde z
 
 ### Was die Höhe bestimmt
 
-LÄNDERSPEZIFISCHE REGEL: Grundsteuersysteme unterscheiden sich stark von Land zu Land und sogar zwischen Gemeinden; das Folgende beschreibt die übliche Mechanik in den USA. Die Grundsteuer wird im Allgemeinen berechnet, indem der festgestellte Wert der Immobilie mit einem örtlichen Steuersatz multipliziert wird, den örtliche Behörden (etwa ein County oder ein Schulbezirk) festlegen – nicht der Eigentümer. (In Deutschland ähnelt das Prinzip dem, aber mit eigenen Bewertungsregeln und einem Hebesatz, den die Gemeinde festlegt; prüfe die geltenden Regeln mit einer Steuerberatung.)
+*(LÄNDERSPEZIFISCHE REGEL: Grundsteuersysteme unterscheiden sich stark von Land zu Land und sogar zwischen Gemeinden; das Folgende beschreibt die übliche Mechanik in den USA.)* Die Grundsteuer wird im Allgemeinen berechnet, indem der festgestellte Wert der Immobilie mit einem örtlichen Steuersatz multipliziert wird, den örtliche Behörden (etwa ein County oder ein Schulbezirk) festlegen – nicht der Eigentümer. (In Deutschland ähnelt das Prinzip dem, aber mit eigenen Bewertungsregeln und einem Hebesatz, den die Gemeinde festlegt; prüfe die geltenden Regeln mit einer Steuerberatung.)
 
 ### Warum sich der Bescheid ändern kann, ohne dass der Eigentümer etwas tut
 
@@ -307,7 +307,7 @@ Am Ende dieser Lektion solltest du Folgendes können:
 
 ### „Tax lien“-Staaten
 
-LÄNDERSPEZIFISCHE REGEL: Dies unterscheidet sich je nach US-Bundesstaat; nicht alle Staaten nutzen dieses System, und außerhalb der USA gelten ganz andere Verfahren. In einem „tax lien“-Staat verkauft die örtliche Behörde, wenn ein Eigentümer seine Grundsteuer nicht zahlt, ein Pfandrechtszertifikat an einen Investor, der die rückständigen Steuern für den Eigentümer bezahlt. Der Investor bekommt nicht die Immobilie – er bekommt das Recht, die Schuld plus gesetzliche Zinsen einzuziehen. Zahlt der Eigentümer nicht innerhalb einer festgelegten Auslösefrist zurück, kann der Investor beim Gericht den Eigentumstitel an der Immobilie beantragen.
+*(LÄNDERSPEZIFISCHE REGEL: Dies unterscheidet sich je nach US-Bundesstaat; nicht alle Staaten nutzen dieses System, und außerhalb der USA gelten ganz andere Verfahren.)* In einem „tax lien“-Staat verkauft die örtliche Behörde, wenn ein Eigentümer seine Grundsteuer nicht zahlt, ein Pfandrechtszertifikat an einen Investor, der die rückständigen Steuern für den Eigentümer bezahlt. Der Investor bekommt nicht die Immobilie – er bekommt das Recht, die Schuld plus gesetzliche Zinsen einzuziehen. Zahlt der Eigentümer nicht innerhalb einer festgelegten Auslösefrist zurück, kann der Investor beim Gericht den Eigentumstitel an der Immobilie beantragen.
 
 ### „Tax deed“-Staaten
 
