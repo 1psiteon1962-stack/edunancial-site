@@ -1,116 +1,89 @@
 ---
 id: GREEN-L1-037
 track: GREEN
-officialTrackName: "Business Taxes"
+officialTrackName: Taxes
 level: 1
 lessonNumber: 37
 locale: es-ES
-title: "Fundamentos del impuesto sobre donaciones y herencias"
-summary: "Introducción práctica a fundamentos del impuesto sobre donaciones y herencias, con énfasis en conceptos, documentación, decisiones y verificación mediante fuentes oficiales."
-version: "1.0"
-author: "Waldemar M. Caban, JD MA"
-date: "2026-09-01"
+title: "Lo básico de los impuestos sobre las donaciones y las herencias"
+summary: "Presenta los conceptos generales de los impuestos relacionados con las donaciones y las herencias, a un nivel amplio, dada la gran variación entre sistemas."
+version: 1.0
+author: Waldemar M. Caban, JD MA
+date: 2026-08-09
 ---
 
-# 37. Fundamentos del impuesto sobre donaciones y herencias
+# Lo básico de los impuestos sobre las donaciones y las herencias
 
 ## Objetivos de aprendizaje
+- Explicar el concepto general detrás de los impuestos relacionados con las donaciones.
+- Explicar el concepto general detrás de los impuestos relacionados con las herencias o los patrimonios.
+- Reconocer que estas reglas varían enormemente y dependen mucho de cada jurisdicción.
 
-Al terminar esta lección, el alumno podrá:
+## Contenido principal
 
-1. Explicar con palabras sencillas el concepto de **fundamentos del impuesto sobre donaciones y herencias**.
-2. Identificar quién paga, quién recauda y qué hecho puede generar la obligación.
-3. Distinguir una regla general de una excepción que exige verificación.
-4. Organizar la documentación necesaria para revisar una posición fiscal.
-5. Formular preguntas útiles para una fuente oficial o un profesional cualificado.
+Algunos sistemas tributarios aplican reglas a las donaciones grandes que se hacen en vida y a los bienes que se transfieren después de la muerte (lo que a menudo se llama impuesto sobre las herencias o sobre el patrimonio). La preocupación general que atienden los legisladores es la transferencia de riqueza por fuera del sistema de ingresos ganados: como una donación o una herencia no se «gana» en el sentido tradicional, plantea preguntas de política distintas a las de un pago de nómina.
 
-## Concepto principal
+Esta es un área en la que generalizar con demasiado detalle sería engañoso: la existencia de estos impuestos, los umbrales a partir de los cuales se aplican, quién los debe (quien da o quien recibe) y las tasas varían enormemente según el país, y muchos países no tienen ningún impuesto de este tipo, o lo aplican solo por encima de umbrales muy altos que afectan a un pequeño porcentaje de las transferencias. La lección práctica aquí no es una regla para memorizar: es una señal de alerta. Si usted es quien da, quien recibe o el heredero en una situación de donación o de herencia realmente grande, este es exactamente el tipo de caso que requiere orientación profesional en vez de suposiciones.
 
-[HECHO VERIFICABLE] Los impuestos son obligaciones creadas por una jurisdicción. La respuesta correcta depende del país, territorio, estado o provincia, municipio, periodo fiscal, tipo de contribuyente y naturaleza de la operación. Por eso, comprender **fundamentos del impuesto sobre donaciones y herencias** exige identificar primero la jurisdicción y la fecha aplicable.
+## Ejemplo práctico
 
-La educación fiscal no consiste en memorizar una cifra aislada. Consiste en reconocer el hecho imponible, la base, el tipo, las deducciones o créditos posibles, el plazo, la documentación y la autoridad que publica la regla. Las tasas, umbrales y formularios pueden cambiar; antes de actuar deben comprobarse en una fuente oficial vigente.
+**Pregunta:** Una familia planea pasarle un negocio familiar grande a la próxima generación. ¿Debería suponer que se le aplican las reglas tributarias que le contó un amigo de otro país?
 
-## Marco práctico de análisis
+**Estudiante:** Según esta lección, definitivamente no: estas reglas varían enormemente según el país y la situación.
 
-Utiliza estas preguntas:
+**Guía:** ¿Cuál sería el siguiente paso responsable para esta familia?
 
-- ¿Qué jurisdicción tiene autoridad sobre la persona o transacción?
-- ¿Cuál es el periodo fiscal?
-- ¿Quién es el contribuyente y cuál es su clasificación?
-- ¿Qué ingreso, compra, propiedad o actividad activa la regla?
-- ¿Cómo se calcula la base?
-- ¿Existe una deducción, crédito, exclusión o exención?
-- ¿Qué formulario, pago o registro se exige?
-- ¿Cuál es el plazo y qué ocurre si se incumple?
-- ¿Qué fuente oficial confirma la respuesta?
+**Estudiante:** Pedir asesoría a un profesional cualificado que conozca las reglas de su país específico, en vez de depender de información de segunda mano de otro lugar.
 
-## Ejemplo educativo
+**Guía:** Exactamente: este es un caso de manual de «ver a un profesional», usando la analogía del médico vista antes en el currículo.
 
-[SUPUESTO] Una persona obtiene 48.000 unidades monetarias de ingresos y además recibe 3.000 por un trabajo independiente. Conserva recibos, estados de cuenta y documentos de pago, pero todavía no sabe cómo se clasifica cada cantidad. Antes de calcular, identifica su jurisdicción, periodo fiscal, condición laboral y naturaleza de los gastos.
+## Cuestionario práctico
 
-Este ejemplo no determina una obligación real. Muestra el orden correcto: clasificar hechos, reunir documentación, consultar instrucciones oficiales y calcular solamente después. Si una regla afecta empleo, empresa, inversión o propiedad, debe analizarse por separado antes de integrar el resultado.
+**Pregunta 1.** En general, los impuestos relacionados con las donaciones y las herencias tienen que ver con:
 
-## Aplicación al tema
+A) Los pagos de nómina regulares
+B) Las transferencias de riqueza por fuera del sistema normal de ingresos ganados
+C) El impuesto sobre las ventas de los alimentos
+D) La retención de la nómina
 
-Para estudiar **fundamentos del impuesto sobre donaciones y herencias**, crea una hoja de trabajo con cuatro columnas: hecho, posible tratamiento, documento de respaldo y fuente pendiente de verificación. Marca como **HECHO** lo demostrado, como **SUPUESTO** lo que falta confirmar y como **OPINIÓN** cualquier recomendación basada en preferencias o tolerancia al riesgo.
+**Pregunta 2.** ¿Todos los países aplican las mismas reglas de impuestos sobre las donaciones y las herencias?
 
-No mezcles traducción con localización jurídica. Un término estadounidense como W-2, 1099, Medicare, LLC, S-Corp, Roth o impuesto estatal sobre ventas puede traducirse para aprender el concepto, pero no debe presentarse como si fuera una figura idéntica en España u otra jurisdicción.
+A) Sí, en todas partes
+B) No: las reglas varían enormemente, y muchos países no tienen ningún impuesto de este tipo o tienen umbrales muy altos
+C) Solo los países ricos tienen reglas
+D) Estos impuestos nunca han existido en ningún lugar
 
-## Errores comunes
+**Pregunta 3.** La lección práctica de este tema es:
 
-- Aplicar una tasa de otro año o jurisdicción.
-- Confundir ingreso bruto con ingreso imponible o efectivo disponible.
-- Suponer que un gasto empresarial siempre es deducible.
-- Creer que una deducción y un crédito producen el mismo efecto.
-- Perder justificantes o mezclar cuentas personales y empresariales.
-- Confundir un reembolso con una reducción real del impuesto.
-- Esperar hasta el vencimiento para organizar la información.
-- Utilizar contenido educativo como asesoramiento individualizado.
+A) Memorizar los umbrales específicos de un país
+B) Reconocer esto como una señal de alerta para buscar orientación profesional en las situaciones reales
+C) Ignorar por completo las donaciones grandes
+D) Suponer que nunca se aplica ningún impuesto en ningún lugar
 
-## Actividad práctica
+**Pregunta 4.** ¿Con qué concepto anterior del currículo se conecta esta lección?
 
-1. Escribe una situación relacionada con este tema.
-2. Identifica jurisdicción y periodo fiscal.
-3. Enumera cinco hechos comprobables y tres datos faltantes.
-4. Reúne o describe los documentos pertinentes.
-5. Localiza una fuente oficial que deba consultarse.
-6. Redacta tres preguntas para un profesional fiscal.
-7. Explica qué dato podría cambiar la conclusión.
+A) La analogía del médico: consultar a un profesional en las situaciones complejas
+B) Los bienes públicos
+C) El cobro del impuesto sobre las ventas
+D) Los tramos impositivos marginales
 
-## Evaluación de competencia
+## Clave de respuestas
 
-1. ¿Por qué debe identificarse primero la jurisdicción?
-2. ¿Cuál es la diferencia entre hecho y supuesto?
-3. ¿Qué documento respaldaría la operación?
-4. ¿Qué fecha o periodo debe verificarse?
-5. ¿Qué organismo oficial podría publicar la regla?
-6. ¿Existe una posible excepción o clasificación alternativa?
-7. ¿Qué error produciría usar una tasa desactualizada?
-8. ¿Qué pregunta formularías a un profesional?
-9. ¿Qué registro conservarías y por cuánto tiempo según la regla aplicable?
-10. Resume el proceso de análisis sin inventar cifras.
+1. B, 2. B, 3. B, 4. A
 
-**Criterio de dominio:** 8 de 10 respuestas satisfactorias. Por debajo del 80 %, el alumno revisará la fuente, corregirá la clasificación y repetirá un escenario nuevo.
+## Respuestas y explicaciones
 
-## Respuestas orientativas
+**1.** En general, estos impuestos apuntan a la riqueza que se mueve por fuera del marco típico de los ingresos ganados.
 
-Las respuestas deben identificar jurisdicción, periodo, clasificación, hecho imponible, documentación y fuente oficial. Una buena respuesta declara incertidumbres y evita afirmar tasas, umbrales o plazos no verificados. Cuando falten hechos, la conclusión correcta es indicar qué información se necesita, no adivinar.
+**2.** La enorme variación, incluidos muchos países que no tienen ningún impuesto de este tipo, hace que generalizar de forma amplia no sea confiable aquí.
+
+**3.** La conclusión duradera es reconocer cuándo una situación requiere ayuda experta, no memorizar reglas que quizá ni siquiera se apliquen.
+
+**4.** Esta es una aplicación directa y concreta de la lección anterior que compara la consulta sobre riesgos legales o tributarios con ir al médico.
 
 ## Puntos clave
 
-- Las reglas fiscales cambian según lugar, fecha y clasificación.
-- Primero se clasifican los hechos; después se calcula.
-- La documentación permite defender una posición.
-- Deducciones, créditos, exclusiones y pagos anticipados son conceptos distintos.
-- Las fuentes oficiales vigentes tienen prioridad sobre resúmenes educativos.
-- La planificación legal es distinta de ocultar, falsear o evadir obligaciones.
-
-## Ruta de aprendizaje
-
-- **Anterior:** GREEN-L1-036
-- **Actual:** GREEN-L1-037
-- **Siguiente:** GREEN-L1-038
-
-## Localización — España
-
-Contenido en español de España para educación comparada. Las referencias a formularios y entidades estadounidenses explican conceptos del currículo original y no sustituyen la normativa española. Antes de aplicar cualquier regla deben verificarse la Agencia Tributaria u otra autoridad competente, el periodo fiscal y las circunstancias concretas.
+- Los impuestos sobre las donaciones y las herencias tienen que ver con las transferencias de riqueza por fuera del ingreso ganado normal.
+- Las reglas varían enormemente según el país: muchos no tienen ninguno, o lo aplican solo por encima de umbrales altos.
+- La lección clave es reconocer cuándo buscar orientación profesional, no memorizar reglas específicas.
+- Las situaciones de donaciones o herencias grandes o complejas son un caso claro para una consulta profesional.

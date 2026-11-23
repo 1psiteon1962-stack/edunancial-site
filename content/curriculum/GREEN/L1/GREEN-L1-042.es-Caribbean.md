@@ -1,79 +1,89 @@
 ---
 id: GREEN-L1-042
 track: GREEN
-officialTrackName: Impuestos
+officialTrackName: Taxes
 level: 1
 lessonNumber: 42
 locale: es-Caribbean
-title: "Entidades de transferencia: LLC, S corporation y negocio individual"
-summary: "Introduce el concepto estadounidense de pass-through taxation y advierte que las etiquetas y tratamientos no son universales."
+title: "Las entidades de transferencia: LLC, corporaciones S y negocios de un solo dueño"
+summary: "Presenta el concepto general de la tributación por transferencia como una alternativa al patrón de doble tributación de las corporaciones estándar."
 version: 1.0
 author: Waldemar M. Caban, JD MA
 date: 2026-08-09
 ---
 
-# Entidades de transferencia: LLC, S corporation y negocio individual
+# Las entidades de transferencia: LLC, corporaciones S y negocios de un solo dueño
 
 ## Objetivos de aprendizaje
-
-- Explicar el concepto central con precisión.
-- Identificar sus consecuencias para personas o negocios.
-- Reconocer cuándo las reglas requieren análisis profesional.
+- Definir en términos generales una entidad de transferencia.
+- Explicar cómo la tributación por transferencia evita el patrón de doble tributación.
+- Reconocer ejemplos comunes de estructuras de transferencia sin tratar los nombres como universales.
 
 ## Contenido principal
 
-En Estados Unidos, determinadas estructuras pueden permitir que resultados tributarios pasen a los propietarios en vez de estar sujetos a una capa separada de impuesto corporativo. Entre los ejemplos pueden encontrarse negocios individuales, determinadas LLC y corporaciones con elección S, dependiendo de su clasificación tributaria.
+Una entidad de transferencia (pass-through, en inglés) es una estructura de negocio en la que la ganancia no tributa en absoluto a nivel del negocio: en cambio, «pasa» directamente a los dueños, que la declaran y pagan el impuesto sobre ella en sus propias declaraciones personales, en general una sola vez. Esto evita directamente el patrón de doble tributación visto en la lección anterior, ya que, para empezar, no hay una capa aparte de impuesto a nivel corporativo.
 
-Una LLC no es por sí sola una clasificación tributaria única y las reglas de S corporation son específicamente estadounidenses. Otros países utilizan estructuras diferentes. La forma jurídica, clasificación fiscal, responsabilidad, administración y objetivos del negocio deben analizarse conjuntamente.
+Entre los ejemplos comunes de estructuras que a menudo se organizan para tributar por transferencia están los negocios de un solo dueño (el caso más sencillo: no hay ninguna capa aparte de impuesto del negocio) y, en muchos sistemas, ciertas compañías de responsabilidad limitada (LLC, por sus siglas en inglés) o estructuras corporativas con una elección especial (a menudo llamadas «corporaciones S» en el sistema de Estados Unidos, aunque en otros lugares existen conceptos equivalentes con otros nombres). Las reglas legales y tributarias específicas para calificar como entidad de transferencia varían según el país e implican ventajas y desventajas reales más allá de solo evitar la doble tributación; y precisamente por eso la elección de la estructura del negocio, que se ve a continuación, merece una reflexión cuidadosa en vez de una opción por defecto.
 
 ## Ejemplo práctico
 
-**Pregunta:** ¿Es suficiente escoger una estrategia porque parece reducir impuestos?
+**Pregunta:** La dueña de un pequeño negocio quiere evitar el patrón de doble tributación que se aplica a las corporaciones estándar. ¿Qué categoría general de estructura de negocio podría investigar?
 
-**Estudiante:** No. También debe ser legal, basarse en hechos verdaderos y encajar con los demás objetivos y riesgos.
+**Estudiante:** Según esta lección, probablemente querría investigar las estructuras de transferencia, ya que evitan una capa aparte de impuesto a nivel del negocio.
 
-**Guía:** Exactamente. Una buena decisión considera el sistema completo, no una sola ventaja aparente.
+**Guía:** ¿Cuál es la disyuntiva? ¿Evitar la doble tributación es siempre lo único que hay que considerar al escoger una estructura?
+
+**Estudiante:** No: la lección menciona que hay otras ventajas y desventajas reales más allá de la capa de impuestos, así que vale la pena mirar el panorama completo, no solo este tema.
+
+**Guía:** Exactamente, y por eso la próxima lección examina con más detalle la elección de la estructura del negocio.
 
 ## Prueba práctica
 
-**Pregunta 1.** Una estructura o estrategia tributaria debe evaluarse según:
-A) Solo la tasa
-B) Las reglas aplicables y sus consecuencias completas
-C) Un nombre comercial
-D) Rumores
+**Pregunta 1.** Una entidad de transferencia es una en la que la ganancia:
 
-**Pregunta 2.** ¿Las estructuras empresariales tienen el mismo tratamiento en todos los países?
-A) Sí
-B) No
-C) Siempre
-D) Solo las grandes empresas cambian
+A) Tributa dos veces, a nivel del negocio y a nivel de los dueños
+B) No tributa a nivel del negocio y pasa directamente a las declaraciones personales de los dueños
+C) Nunca tributa
+D) Solo tributa si el negocio fracasa
 
-**Pregunta 3.** La planificación tributaria legal requiere:
-A) Información verdadera y cumplimiento de la ley
-B) Ocultar ingresos
-C) Inventar gastos
-D) Falsificar registros
+**Pregunta 2.** La tributación por transferencia atiende directamente ¿qué concepto anterior?
 
-**Pregunta 4.** Una decisión compleja puede justificar:
-A) Asesoría profesional calificada
-B) Ignorar la ley
-C) No conservar documentación
-D) Suponer reglas
+A) El cobro del impuesto sobre las ventas
+B) La doble tributación
+C) Los aranceles
+D) La retención de la nómina
+
+**Pregunta 3.** En esta lección, un negocio de un solo dueño se describe como:
+
+A) Algo que siempre tiene doble tributación
+B) El caso más sencillo de transferencia, sin una capa aparte de impuesto del negocio
+C) Algo ilegal en la mayoría de los países
+D) Lo mismo que una corporación
+
+**Pregunta 4.** ¿Evitar la doble tributación es lo único que hay que considerar al escoger una estructura de negocio?
+
+A) Sí, es lo único
+B) No: hay otras ventajas y desventajas reales que sopesar
+C) La estructura del negocio no importa
+D) Solo importa el impuesto, nada más
 
 ## Clave de respuestas
 
-1. B, 2. B, 3. A, 4. A
+1. B, 2. B, 3. B, 4. B
 
 ## Respuestas y explicaciones
 
-**1.** Una ventaja tributaria debe analizarse junto con sus demás consecuencias.
-**2.** Las formas jurídicas y fiscales varían entre jurisdicciones.
-**3.** La planificación legal depende de hechos correctos y reglas permitidas.
-**4.** La asesoría adecuada puede prevenir decisiones costosas o ilegales.
+**1.** Las estructuras de transferencia se saltan por completo el impuesto aparte a nivel del negocio y envían la ganancia directamente a la declaración propia del dueño.
+
+**2.** Esta estructura existe específicamente como alternativa al patrón de tributación en dos capas descrito en la lección anterior.
+
+**3.** El negocio de un solo dueño es el ejemplo más claro, ya que el negocio y el dueño ya se tratan como un solo contribuyente.
+
+**4.** La elección de la estructura implica varias ventajas y desventajas (la protección de la responsabilidad, la complejidad y más), no solo la cuestión tributaria.
 
 ## Puntos clave
 
-- No confunda una etiqueta jurídica con un tratamiento fiscal universal.
-- Considere impuestos junto con responsabilidad y objetivos empresariales.
-- Distinga claramente planificación legal de evasión.
-- Verifique estrategias complejas antes de implementarlas.
+- Las entidades de transferencia evitan el impuesto a nivel del negocio y envían la ganancia directamente a las declaraciones personales de los dueños.
+- Esta es la alternativa directa al patrón de doble tributación de las corporaciones estándar.
+- Los negocios de un solo dueño son el ejemplo más sencillo de transferencia; ciertas LLC y estructuras con elección especial también pueden calificar.
+- Escoger una estructura de negocio implica ventajas y desventajas más allá de este solo tema tributario.

@@ -1,116 +1,89 @@
 ---
 id: GREEN-L1-036
 track: GREEN
-officialTrackName: "Business Taxes"
+officialTrackName: Taxes
 level: 1
 lessonNumber: 36
 locale: es-ES
-title: "Consecuencias fiscales de vender una vivienda"
-summary: "Introducción práctica a consecuencias fiscales de vender una vivienda, con énfasis en conceptos, documentación, decisiones y verificación mediante fuentes oficiales."
-version: "1.0"
-author: "Waldemar M. Caban, JD MA"
-date: "2026-09-01"
+title: "Las implicaciones tributarias de vender una vivienda"
+summary: "Presenta las consideraciones tributarias generales que surgen al vender una residencia principal y las relaciona con las lecciones sobre las ganancias de capital."
+version: 1.0
+author: Waldemar M. Caban, JD MA
+date: 2026-08-09
 ---
 
-# 36. Consecuencias fiscales de vender una vivienda
+# Las implicaciones tributarias de vender una vivienda
 
 ## Objetivos de aprendizaje
+- Relacionar la venta de una vivienda con el concepto de ganancias de capital visto antes.
+- Explicar por qué muchos sistemas ofrecen algún tratamiento favorable para la residencia principal.
+- Reconocer la importancia de dar seguimiento a la base de una vivienda con el tiempo.
 
-Al terminar esta lección, el alumno podrá:
+## Contenido principal
 
-1. Explicar con palabras sencillas el concepto de **consecuencias fiscales de vender una vivienda**.
-2. Identificar quién paga, quién recauda y qué hecho puede generar la obligación.
-3. Distinguir una regla general de una excepción que exige verificación.
-4. Organizar la documentación necesaria para revisar una posición fiscal.
-5. Formular preguntas útiles para una fuente oficial o un profesional cualificado.
+Vender una vivienda es, en el fondo, otro ejemplo del concepto de ganancias de capital visto antes: el precio de venta menos la base (más o menos, el precio de compra más ciertas mejoras que califican) es igual a la ganancia. Pero como la residencia principal es un acontecimiento de vida tan común e importante, y no una pura transacción de inversión, muchos sistemas tributarios ofrecen algún tratamiento favorable (como excluir del impuesto una parte de la ganancia) específicamente para la vivienda principal, a diferencia de cómo tratarían, por ejemplo, una propiedad de inversión.
 
-## Concepto principal
+Este es un buen ejemplo real de por qué importa dar seguimiento a su base con el tiempo. Si el dueño de una vivienda hace mejoras importantes que califican a lo largo de los años (una ampliación, una remodelación grande), esos costes a menudo pueden aumentar la base, lo que reduce la ganancia tributable cuando la vivienda por fin se vende. Sin registros de esas mejoras, el dueño podría terminar pagando más impuestos de lo necesario simplemente porque no puede documentar lo que realmente gastó.
 
-[HECHO VERIFICABLE] Los impuestos son obligaciones creadas por una jurisdicción. La respuesta correcta depende del país, territorio, estado o provincia, municipio, periodo fiscal, tipo de contribuyente y naturaleza de la operación. Por eso, comprender **consecuencias fiscales de vender una vivienda** exige identificar primero la jurisdicción y la fecha aplicable.
+## Ejemplo práctico
 
-La educación fiscal no consiste en memorizar una cifra aislada. Consiste en reconocer el hecho imponible, la base, el tipo, las deducciones o créditos posibles, el plazo, la documentación y la autoridad que publica la regla. Las tasas, umbrales y formularios pueden cambiar; antes de actuar deben comprobarse en una fuente oficial vigente.
+**Pregunta:** El dueño de una vivienda le hace una ampliación grande a su casa al principio, pero nunca guarda registros del coste. Años después, vende la vivienda con una ganancia grande. ¿Qué le podría costar esto?
 
-## Marco práctico de análisis
+**Estudiante:** Según esta lección, sin registros del coste de la ampliación, quizá no pueda aumentar su base, lo que podría significar pagar impuestos sobre una ganancia mayor de lo necesario.
 
-Utiliza estas preguntas:
+**Guía:** ¿Qué habría evitado este problema?
 
-- ¿Qué jurisdicción tiene autoridad sobre la persona o transacción?
-- ¿Cuál es el periodo fiscal?
-- ¿Quién es el contribuyente y cuál es su clasificación?
-- ¿Qué ingreso, compra, propiedad o actividad activa la regla?
-- ¿Cómo se calcula la base?
-- ¿Existe una deducción, crédito, exclusión o exención?
-- ¿Qué formulario, pago o registro se exige?
-- ¿Cuál es el plazo y qué ocurre si se incumple?
-- ¿Qué fuente oficial confirma la respuesta?
+**Estudiante:** Guardar los recibos y los registros de los costes de la mejora a medida que ocurrieron, lo que se conecta con la lección anterior sobre llevar registros.
 
-## Ejemplo educativo
+**Guía:** Exactamente: este es un ejemplo muy concreto, y costeso, de por qué importa ese hábito.
 
-[SUPUESTO] Una persona obtiene 48.000 unidades monetarias de ingresos y además recibe 3.000 por un trabajo independiente. Conserva recibos, estados de cuenta y documentos de pago, pero todavía no sabe cómo se clasifica cada cantidad. Antes de calcular, identifica su jurisdicción, periodo fiscal, condición laboral y naturaleza de los gastos.
+## Cuestionario práctico
 
-Este ejemplo no determina una obligación real. Muestra el orden correcto: clasificar hechos, reunir documentación, consultar instrucciones oficiales y calcular solamente después. Si una regla afecta empleo, empresa, inversión o propiedad, debe analizarse por separado antes de integrar el resultado.
+**Pregunta 1.** Vender una vivienda es, en el fondo, un ejemplo de:
 
-## Aplicación al tema
+A) El impuesto sobre las ventas
+B) El concepto de ganancias de capital: el precio de venta menos la base
+C) El impuesto sobre la nómina
+D) Un crédito tributario
 
-Para estudiar **consecuencias fiscales de vender una vivienda**, crea una hoja de trabajo con cuatro columnas: hecho, posible tratamiento, documento de respaldo y fuente pendiente de verificación. Marca como **HECHO** lo demostrado, como **SUPUESTO** lo que falta confirmar y como **OPINIÓN** cualquier recomendación basada en preferencias o tolerancia al riesgo.
+**Pregunta 2.** ¿Por qué muchos sistemas podrían ofrecer un tratamiento favorable específicamente para la residencia principal?
 
-No mezcles traducción con localización jurídica. Un término estadounidense como W-2, 1099, Medicare, LLC, S-Corp, Roth o impuesto estatal sobre ventas puede traducirse para aprender el concepto, pero no debe presentarse como si fuera una figura idéntica en España u otra jurisdicción.
+A) Sin ninguna razón real
+B) Se trata como un acontecimiento de vida común e importante, y no como una pura inversión
+C) Las viviendas nunca se venden
+D) Solo las propiedades de inversión reciben un tratamiento favorable
 
-## Errores comunes
+**Pregunta 3.** En general, las mejoras de la vivienda que califican pueden:
 
-- Aplicar una tasa de otro año o jurisdicción.
-- Confundir ingreso bruto con ingreso imponible o efectivo disponible.
-- Suponer que un gasto empresarial siempre es deducible.
-- Creer que una deducción y un crédito producen el mismo efecto.
-- Perder justificantes o mezclar cuentas personales y empresariales.
-- Confundir un reembolso con una reducción real del impuesto.
-- Esperar hasta el vencimiento para organizar la información.
-- Utilizar contenido educativo como asesoramiento individualizado.
+A) Disminuir la base de la vivienda
+B) Aumentar la base de la vivienda, lo que reduce la ganancia tributable más adelante
+C) No tener ningún efecto en la base
+D) Importar solo en las propiedades de alquiler
 
-## Actividad práctica
+**Pregunta 4.** Sin registros de los costes de las mejoras, el dueño de una vivienda corre el riesgo de:
 
-1. Escribe una situación relacionada con este tema.
-2. Identifica jurisdicción y periodo fiscal.
-3. Enumera cinco hechos comprobables y tres datos faltantes.
-4. Reúne o describe los documentos pertinentes.
-5. Localiza una fuente oficial que deba consultarse.
-6. Redacta tres preguntas para un profesional fiscal.
-7. Explica qué dato podría cambiar la conclusión.
+A) Nada
+B) Pagar más impuestos de lo necesario en la venta futura
+C) Recibir un reembolso automático
+D) Perder la propiedad de la vivienda
 
-## Evaluación de competencia
+## Clave de respuestas
 
-1. ¿Por qué debe identificarse primero la jurisdicción?
-2. ¿Cuál es la diferencia entre hecho y supuesto?
-3. ¿Qué documento respaldaría la operación?
-4. ¿Qué fecha o periodo debe verificarse?
-5. ¿Qué organismo oficial podría publicar la regla?
-6. ¿Existe una posible excepción o clasificación alternativa?
-7. ¿Qué error produciría usar una tasa desactualizada?
-8. ¿Qué pregunta formularías a un profesional?
-9. ¿Qué registro conservarías y por cuánto tiempo según la regla aplicable?
-10. Resume el proceso de análisis sin inventar cifras.
+1. B, 2. B, 3. B, 4. B
 
-**Criterio de dominio:** 8 de 10 respuestas satisfactorias. Por debajo del 80 %, el alumno revisará la fuente, corregirá la clasificación y repetirá un escenario nuevo.
+## Respuestas y explicaciones
 
-## Respuestas orientativas
+**1.** La venta de una vivienda sigue el mismo cálculo básico de la ganancia que la venta de cualquier otro activo de capital.
 
-Las respuestas deben identificar jurisdicción, periodo, clasificación, hecho imponible, documentación y fuente oficial. Una buena respuesta declara incertidumbres y evita afirmar tasas, umbrales o plazos no verificados. Cuando falten hechos, la conclusión correcta es indicar qué información se necesita, no adivinar.
+**2.** Las residencias principales a menudo se tratan de forma distinta, lo que refleja su papel como una necesidad de vida y no como un puro vehículo de inversión.
+
+**3.** En general, las mejoras que califican se suman a la base, lo que puede reducir de forma importante la ganancia tributable al vender.
+
+**4.** La falta de documentación se traduce directamente en una ganancia tributable mayor y en una factura de impuestos más grande e innecesaria.
 
 ## Puntos clave
 
-- Las reglas fiscales cambian según lugar, fecha y clasificación.
-- Primero se clasifican los hechos; después se calcula.
-- La documentación permite defender una posición.
-- Deducciones, créditos, exclusiones y pagos anticipados son conceptos distintos.
-- Las fuentes oficiales vigentes tienen prioridad sobre resúmenes educativos.
-- La planificación legal es distinta de ocultar, falsear o evadir obligaciones.
-
-## Ruta de aprendizaje
-
-- **Anterior:** GREEN-L1-035
-- **Actual:** GREEN-L1-036
-- **Siguiente:** GREEN-L1-037
-
-## Localización — España
-
-Contenido en español de España para educación comparada. Las referencias a formularios y entidades estadounidenses explican conceptos del currículo original y no sustituyen la normativa española. Antes de aplicar cualquier regla deben verificarse la Agencia Tributaria u otra autoridad competente, el periodo fiscal y las circunstancias concretas.
+- Vender una vivienda sigue la misma lógica básica de ganancias de capital que la venta de otros activos.
+- Las residencias principales a menudo reciben algún tratamiento tributario favorable.
+- Las mejoras que califican pueden aumentar la base, lo que reduce la ganancia tributable más adelante.
+- Llevar mal los registros de las mejoras de la vivienda puede ser un error costeso que se puede evitar.

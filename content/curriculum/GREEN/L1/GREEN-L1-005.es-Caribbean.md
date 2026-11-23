@@ -1,68 +1,71 @@
 ---
 id: GREEN-L1-005
 track: GREEN
-officialTrackName: Impuestos
+officialTrackName: Taxes
 level: 1
 lessonNumber: 5
 locale: es-Caribbean
-title: "Impuesto sobre ventas: gravar lo que usted compra"
-summary: "Cómo funcionan los impuestos al consumo, quién los cobra y por qué el comprador suele verlos añadidos al pagar."
+title: "El impuesto sobre las ventas: gravar lo que usted compra"
+summary: "Cómo funcionan los impuestos al consumo, quién los cobra y por qué el comprador normalmente los ve añadidos en la caja."
 version: 1.0
 author: Waldemar M. Caban, JD MA
 date: 2026-08-09
 ---
 
-# Impuesto sobre ventas: gravar lo que usted compra
+# El impuesto sobre las ventas: gravar lo que usted compra
 
 ## Objetivos de aprendizaje
-
-- Explicar cómo suele cobrarse un impuesto sobre ventas.
-- Distinguir entre el vendedor que recauda el impuesto y quien soporta su costo.
-- Reconocer que las tasas varían según la ubicación.
+- Explicar cómo se cobra normalmente el impuesto sobre las ventas.
+- Identificar la diferencia entre que el vendedor cobre el impuesto y que el vendedor deba el impuesto.
+- Reconocer que las tasas del impuesto sobre las ventas varían según el lugar.
 
 ## Contenido principal
 
-El impuesto sobre ventas se añade al precio de bienes o servicios al momento de la compra. En muchos sistemas, el vendedor cobra el impuesto al comprador y luego lo remite al gobierno. El vendedor actúa como recaudador; normalmente es el comprador quien soporta económicamente el impuesto, aunque la empresa maneje el proceso administrativo.
+El impuesto sobre las ventas se añade al precio de los bienes o servicios en el momento de la compra. En la mayoría de los sistemas, el vendedor es responsable de cobrarle el impuesto al comprador y luego enviarlo al gobierno: el vendedor actúa como recaudador, no como quien carga en última instancia con el costo. El comprador es normalmente quien realmente paga el impuesto, aunque el negocio se encargue del papeleo.
 
-Las tasas y reglas varían considerablemente según la ubicación, incluso entre localidades cercanas. Algunas categorías, como alimentos o medicamentos, pueden tener una tasa reducida o estar exentas dependiendo de la política local. Por eso también se habla de impuesto al consumo: está vinculado al acto de gastar, no a ganar ingresos ni poseer bienes.
+Las tasas y las reglas varían enormemente según el lugar, a veces incluso entre pueblos vecinos de un mismo país. Algunas categorías de bienes, como los alimentos o las medicinas, a menudo se gravan con una tasa más baja o están exentas por completo, según la política local. Por eso al impuesto sobre las ventas a veces se le llama impuesto al consumo: está ligado al acto de gastar, no al ingreso ni a la propiedad.
 
 ## Ejemplo práctico
 
-**Pregunta:** El dueño de una tienda cobra impuestos sobre ventas a sus clientes durante todo el mes. ¿Ese dinero pertenece a la tienda?
+**Pregunta:** El dueño de una tienda cobra el impuesto sobre las ventas a sus clientes durante todo el mes. ¿De quién es ese dinero y qué debería hacer el dueño con él?
 
-**Estudiante:** Parece dinero de la tienda porque entró por la caja registradora.
+**Estudiante:** Parece dinero de la tienda, porque entró por su caja registradora.
 
-**Guía:** ¿Quién realmente lo pagó?
+**Guía:** Pero ¿quién lo pagó realmente?
 
-**Estudiante:** Los clientes. La tienda solamente lo añadió al precio y lo cobró.
+**Estudiante:** Los clientes: la tienda solo lo añadió al precio y lo cobró.
 
-**Guía:** Correcto. Por eso ese dinero no suele considerarse ingreso propio de la tienda; es un pago tributario que la empresa recauda para remitirlo al gobierno.
+**Guía:** Correcto, y por eso ese dinero no es realmente un ingreso de la tienda: es el pago de impuestos del cliente, que pasa por la tienda de camino al gobierno.
 
 ## Prueba práctica
 
-1. El impuesto sobre ventas generalmente lo recauda:
-A) El gobierno directamente de cada comprador
-B) El vendedor, que luego lo remite al gobierno
-C) Nadie, porque es opcional
-D) Solamente vendedores en línea
+**Pregunta 1.** En general, el impuesto sobre las ventas lo cobra:
 
-2. ¿Quién suele soportar el costo económico del impuesto sobre ventas?
+A) El gobierno directamente a los compradores
+B) El vendedor, que luego lo remite al gobierno
+C) Nadie: es opcional
+D) Solo las tiendas en línea
+
+**Pregunta 2.** ¿Quién carga normalmente con el costo real del impuesto sobre las ventas?
+
 A) El vendedor
 B) El comprador
 C) El gobierno
 D) Nadie
 
-3. Las tasas del impuesto sobre ventas:
+**Pregunta 3.** Las tasas del impuesto sobre las ventas:
+
 A) Son idénticas en todas partes
-B) Pueden variar significativamente según la ubicación
-C) Nunca se aplican a servicios
+B) Pueden variar mucho según el lugar
+C) Nunca se aplican a los servicios
 D) Solo existen en un país
 
-4. Los alimentos y medicamentos en algunas jurisdicciones:
-A) Pagan siempre tasas superiores
-B) Pueden tener tasas reducidas o exenciones
-C) Son ilegales
-D) Nunca están sujetos a reglas tributarias
+**Pregunta 4.** Los alimentos y las medicinas a veces:
+
+A) Se gravan con una tasa más alta que los bienes de lujo
+B) Se gravan con una tasa más baja o están exentos
+C) Son ilegales de vender
+D) Nunca están sujetos a ninguna regla tributaria
 
 ## Clave de respuestas
 
@@ -70,14 +73,17 @@ D) Nunca están sujetos a reglas tributarias
 
 ## Respuestas y explicaciones
 
-1. **B.** El vendedor suele actuar como intermediario que recauda y remite el impuesto.
-2. **B.** Aunque la empresa maneje la transacción, normalmente el comprador paga el impuesto.
-3. **B.** Las tasas pueden establecerse a distintos niveles y variar entre jurisdicciones.
-4. **B.** Muchos gobiernos aplican tratamientos especiales a ciertos bienes considerados necesarios.
+**1.** El vendedor normalmente actúa como intermediario: cobra el impuesto y lo pasa en vez de quedárselo como ingreso.
+
+**2.** Aunque el negocio maneje la transacción, es el pago del comprador el que incluye el impuesto.
+
+**3.** En muchos sistemas, las tasas del impuesto sobre las ventas se fijan a nivel local o regional y pueden variar de una cuadra a otra o de un estado a otro.
+
+**4.** Muchos gobiernos eximen o reducen el impuesto sobre los artículos de primera necesidad como una decisión de política.
 
 ## Puntos clave
 
-- El vendedor suele recaudar el impuesto sobre ventas y remitirlo al gobierno.
-- Normalmente el comprador soporta el costo.
-- Las tasas y reglas varían ampliamente por ubicación.
-- Algunos bienes esenciales pueden recibir un tratamiento tributario diferente.
+- El vendedor cobra el impuesto sobre las ventas en la compra y lo pasa al gobierno.
+- El comprador, y no el vendedor, carga en última instancia con el costo del impuesto.
+- Las tasas varían mucho según el lugar, a veces incluso a nivel local.
+- Los artículos de primera necesidad a menudo se gravan de forma distinta que otros bienes, como decisión de política.

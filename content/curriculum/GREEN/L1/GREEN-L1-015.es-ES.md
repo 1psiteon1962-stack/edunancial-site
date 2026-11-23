@@ -1,116 +1,91 @@
 ---
 id: GREEN-L1-015
 track: GREEN
-officialTrackName: "Business Taxes"
+officialTrackName: Taxes
 level: 1
 lessonNumber: 15
 locale: es-ES
-title: "Diferencia entre deducción y crédito fiscal"
-summary: "Introducción práctica a diferencia entre deducción y crédito fiscal, con énfasis en conceptos, documentación, decisiones y verificación mediante fuentes oficiales."
-version: "1.0"
-author: "Waldemar M. Caban, JD MA"
-date: "2026-09-01"
+title: "La diferencia entre una deducción y un crédito tributario"
+summary: "Aclara uno de los pares de términos que más se confunden en la alfabetización tributaria: las deducciones reducen el ingreso tributable y los créditos reducen directamente el impuesto adeudado."
+version: 1.0
+author: Waldemar M. Caban, JD MA
+date: 2026-08-09
 ---
 
-# 15. Diferencia entre deducción y crédito fiscal
+# La diferencia entre una deducción y un crédito tributario
 
 ## Objetivos de aprendizaje
+- Definir una deducción tributaria.
+- Definir un crédito tributario.
+- Explicar por qué, euro por euro, un crédito en general vale más que una deducción.
 
-Al terminar esta lección, el alumno podrá:
+## Contenido principal
 
-1. Explicar con palabras sencillas el concepto de **diferencia entre deducción y crédito fiscal**.
-2. Identificar quién paga, quién recauda y qué hecho puede generar la obligación.
-3. Distinguir una regla general de una excepción que exige verificación.
-4. Organizar la documentación necesaria para revisar una posición fiscal.
-5. Formular preguntas útiles para una fuente oficial o un profesional cualificado.
+Una deducción tributaria reduce la cantidad de ingreso que se grava. Un crédito tributario reduce directamente la factura de impuestos real, euro por euro. Suenan parecido, pero tienen un efecto bastante distinto.
 
-## Concepto principal
+Supongamos que alguien está en un tramo marginal del 20 %. Una deducción de 1.000 € reduce su ingreso tributable en 1.000 €, lo que le ahorra aproximadamente 200 € de impuestos (el 20 % de 1.000 €). En cambio, un crédito de 1.000 € reduce su factura de impuestos en los 1.000 € completos, sin importar su tramo. Por eso, euro por euro, los créditos en general valen más que las deducciones: el valor de un crédito no depende de su tasa impositiva como sí depende el de una deducción.
 
-[HECHO VERIFICABLE] Los impuestos son obligaciones creadas por una jurisdicción. La respuesta correcta depende del país, territorio, estado o provincia, municipio, periodo fiscal, tipo de contribuyente y naturaleza de la operación. Por eso, comprender **diferencia entre deducción y crédito fiscal** exige identificar primero la jurisdicción y la fecha aplicable.
+Ambas herramientas reducen lo que usted debe, solo que mediante mecanismos distintos: las deducciones reducen la base que se grava y los créditos reducen la factura final en sí.
 
-La educación fiscal no consiste en memorizar una cifra aislada. Consiste en reconocer el hecho imponible, la base, el tipo, las deducciones o créditos posibles, el plazo, la documentación y la autoridad que publica la regla. Las tasas, umbrales y formularios pueden cambiar; antes de actuar deben comprobarse en una fuente oficial vigente.
+## Ejemplo práctico
 
-## Marco práctico de análisis
+**Pregunta:** Un amigo dice: «Una deducción de 1.000 € y un crédito de 1.000 € son básicamente lo mismo». ¿Tiene razón?
 
-Utiliza estas preguntas:
+**Estudiante:** Creo que no: una reduce el ingreso tributable y el otro reduce directamente la factura de impuestos.
 
-- ¿Qué jurisdicción tiene autoridad sobre la persona o transacción?
-- ¿Cuál es el periodo fiscal?
-- ¿Quién es el contribuyente y cuál es su clasificación?
-- ¿Qué ingreso, compra, propiedad o actividad activa la regla?
-- ¿Cómo se calcula la base?
-- ¿Existe una deducción, crédito, exclusión o exención?
-- ¿Qué formulario, pago o registro se exige?
-- ¿Cuál es el plazo y qué ocurre si se incumple?
-- ¿Qué fuente oficial confirma la respuesta?
+**Guía:** ¿Cuál tiende a ahorrar más dinero y por qué?
 
-## Ejemplo educativo
+**Estudiante:** El crédito, porque quita los 1.000 € completos de lo que se debe, mientras que la deducción solo quita un porcentaje de 1.000 € según su tasa impositiva.
 
-[SUPUESTO] Una persona obtiene 48.000 unidades monetarias de ingresos y además recibe 3.000 por un trabajo independiente. Conserva recibos, estados de cuenta y documentos de pago, pero todavía no sabe cómo se clasifica cada cantidad. Antes de calcular, identifica su jurisdicción, periodo fiscal, condición laboral y naturaleza de los gastos.
+**Guía:** Exactamente: la misma cantidad de euros, un mecanismo distinto y un efecto distinto.
 
-Este ejemplo no determina una obligación real. Muestra el orden correcto: clasificar hechos, reunir documentación, consultar instrucciones oficiales y calcular solamente después. Si una regla afecta empleo, empresa, inversión o propiedad, debe analizarse por separado antes de integrar el resultado.
+## Cuestionario práctico
 
-## Aplicación al tema
+**Pregunta 1.** Una deducción tributaria reduce:
 
-Para estudiar **diferencia entre deducción y crédito fiscal**, crea una hoja de trabajo con cuatro columnas: hecho, posible tratamiento, documento de respaldo y fuente pendiente de verificación. Marca como **HECHO** lo demostrado, como **SUPUESTO** lo que falta confirmar y como **OPINIÓN** cualquier recomendación basada en preferencias o tolerancia al riesgo.
+A) El ingreso tributable
+B) La factura de impuestos directamente, euro por euro
+C) Nada
+D) Solo el impuesto sobre las ventas
 
-No mezcles traducción con localización jurídica. Un término estadounidense como W-2, 1099, Medicare, LLC, S-Corp, Roth o impuesto estatal sobre ventas puede traducirse para aprender el concepto, pero no debe presentarse como si fuera una figura idéntica en España u otra jurisdicción.
+**Pregunta 2.** Un crédito tributario reduce:
 
-## Errores comunes
+A) El ingreso tributable
+B) La factura de impuestos directamente, euro por euro
+C) Nada
+D) Solo el impuesto sobre la propiedad
 
-- Aplicar una tasa de otro año o jurisdicción.
-- Confundir ingreso bruto con ingreso imponible o efectivo disponible.
-- Suponer que un gasto empresarial siempre es deducible.
-- Creer que una deducción y un crédito producen el mismo efecto.
-- Perder justificantes o mezclar cuentas personales y empresariales.
-- Confundir un reembolso con una reducción real del impuesto.
-- Esperar hasta el vencimiento para organizar la información.
-- Utilizar contenido educativo como asesoramiento individualizado.
+**Pregunta 3.** Euro por euro, ¿qué vale más en general?
 
-## Actividad práctica
+A) Una deducción
+B) Un crédito
+C) Siempre son idénticos
+D) Ninguno tiene valor
 
-1. Escribe una situación relacionada con este tema.
-2. Identifica jurisdicción y periodo fiscal.
-3. Enumera cinco hechos comprobables y tres datos faltantes.
-4. Reúne o describe los documentos pertinentes.
-5. Localiza una fuente oficial que deba consultarse.
-6. Redacta tres preguntas para un profesional fiscal.
-7. Explica qué dato podría cambiar la conclusión.
+**Pregunta 4.** Una deducción de 1.000 € para alguien en un tramo del 20 % le ahorra aproximadamente:
 
-## Evaluación de competencia
+A) 1.000 €
+B) 200 €
+C) 0 €
+D) 2.000 €
 
-1. ¿Por qué debe identificarse primero la jurisdicción?
-2. ¿Cuál es la diferencia entre hecho y supuesto?
-3. ¿Qué documento respaldaría la operación?
-4. ¿Qué fecha o periodo debe verificarse?
-5. ¿Qué organismo oficial podría publicar la regla?
-6. ¿Existe una posible excepción o clasificación alternativa?
-7. ¿Qué error produciría usar una tasa desactualizada?
-8. ¿Qué pregunta formularías a un profesional?
-9. ¿Qué registro conservarías y por cuánto tiempo según la regla aplicable?
-10. Resume el proceso de análisis sin inventar cifras.
+## Clave de respuestas
 
-**Criterio de dominio:** 8 de 10 respuestas satisfactorias. Por debajo del 80 %, el alumno revisará la fuente, corregirá la clasificación y repetirá un escenario nuevo.
+1. A, 2. B, 3. B, 4. B
 
-## Respuestas orientativas
+## Respuestas y explicaciones
 
-Las respuestas deben identificar jurisdicción, periodo, clasificación, hecho imponible, documentación y fuente oficial. Una buena respuesta declara incertidumbres y evita afirmar tasas, umbrales o plazos no verificados. Cuando falten hechos, la conclusión correcta es indicar qué información se necesita, no adivinar.
+**1.** Las deducciones funcionan reduciendo la cantidad de ingreso sujeta a impuestos.
+
+**2.** Los créditos funcionan recortando directamente la factura final de impuestos, sin importar la tasa impositiva.
+
+**3.** Como el valor de un crédito no depende de su tramo, en general vale más por cada euro que una deducción.
+
+**4.** El 20 % de una deducción de 1.000 € equivale aproximadamente a 200 € de ahorro real de impuestos, frente a los 1.000 € completos de un crédito.
 
 ## Puntos clave
 
-- Las reglas fiscales cambian según lugar, fecha y clasificación.
-- Primero se clasifican los hechos; después se calcula.
-- La documentación permite defender una posición.
-- Deducciones, créditos, exclusiones y pagos anticipados son conceptos distintos.
-- Las fuentes oficiales vigentes tienen prioridad sobre resúmenes educativos.
-- La planificación legal es distinta de ocultar, falsear o evadir obligaciones.
-
-## Ruta de aprendizaje
-
-- **Anterior:** GREEN-L1-014
-- **Actual:** GREEN-L1-015
-- **Siguiente:** GREEN-L1-016
-
-## Localización — España
-
-Contenido en español de España para educación comparada. Las referencias a formularios y entidades estadounidenses explican conceptos del currículo original y no sustituyen la normativa española. Antes de aplicar cualquier regla deben verificarse la Agencia Tributaria u otra autoridad competente, el periodo fiscal y las circunstancias concretas.
+- Las deducciones reducen el ingreso tributable; los créditos reducen directamente la factura de impuestos.
+- El valor de un crédito no depende de su tramo impositivo; el de una deducción, sí.
+- Euro por euro, los créditos en general valen más que las deducciones.
+- Ambas herramientas reducen lo que usted debe, pero mediante mecanismos distintos.

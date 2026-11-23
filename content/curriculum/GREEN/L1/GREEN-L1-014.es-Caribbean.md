@@ -1,82 +1,89 @@
 ---
 id: GREEN-L1-014
 track: GREEN
-officialTrackName: Impuestos
+officialTrackName: Taxes
 level: 1
 lessonNumber: 14
 locale: es-Caribbean
-title: "Formulario W-2 frente a 1099: ¿empleado o contratista?"
-summary: "Introduce documentos estadounidenses comunes para empleados y contratistas y, de forma más general, la diferencia tributaria entre empleo y trabajo independiente."
+title: "Formulario W-2 frente a Formulario 1099: ¿empleado o contratista?"
+summary: "Presenta los dos documentos de informe de ingresos más comunes en los sistemas que los usan y los relaciona directamente con la distinción entre empleado y trabajador por cuenta propia de rutas anteriores."
 version: 1.0
 author: Waldemar M. Caban, JD MA
 date: 2026-08-09
 ---
 
-# Formulario W-2 frente a 1099: ¿empleado o contratista?
+# Formulario W-2 frente a Formulario 1099: ¿empleado o contratista?
 
 ## Objetivos de aprendizaje
-
-- Comprender y definir el concepto principal de esta lección.
-- Aplicarlo a una situación financiera cotidiana.
-- Distinguir la regla general de los requisitos específicos de cada jurisdicción.
+- Explicar la diferencia general entre un documento de ingresos de tipo empleado y uno de tipo contratista.
+- Relacionar esta distinción con el concepto de trabajo por cuenta propia frente a propiedad de un negocio de rutas anteriores.
+- Reconocer por qué esta clasificación determina quién se encarga de la retención.
 
 ## Contenido principal
 
-En algunos sistemas tributarios, especialmente en Estados Unidos, se utilizan formularios diferentes para reportar ingresos de empleados y contratistas independientes. El W-2 suele corresponder al empleado, para quien el empleador maneja retenciones; el 1099 puede corresponder a ciertos pagos a contratistas, quienes generalmente deben administrar sus propios pagos tributarios. Otros países utilizan nombres y documentos distintos.
+En algunos sistemas tributarios, sobre todo el de Estados Unidos, se usan formularios distintos para informar distintos tipos de ingreso: uno para los empleados (comúnmente el W-2), en el que el patrono retiene impuestos a lo largo del año, y otro para los contratistas independientes (comúnmente el 1099), en el que no se retienen impuestos y el trabajador es responsable de hacer sus propios pagos estimados. Otros países usan nombres distintos, pero la distinción de fondo, empleado frente a contratista independiente, aparece casi en todas partes. (En Puerto Rico, por ejemplo, el comprobante de retención del empleado es el Formulario 499R-2/W-2PR; en la República Dominicana, el patrono retiene el impuesto sobre la renta de los asalariados y lo informa a la DGII. Verifique las reglas vigentes en su jurisdicción.)
 
-La distinción importante es empleado frente a contratista independiente. Un contratista funciona más como trabajador por cuenta propia y debe planificar activamente para sus impuestos. Gastar todo lo recibido sin reservar dinero para obligaciones tributarias puede crear un problema al momento de declarar. La clasificación legal depende de las reglas de la jurisdicción y de los hechos de la relación laboral.
+Esto corresponde directamente al concepto de trabajo por cuenta propia visto antes en su currículo: a un empleado otra persona le retiene los impuestos de forma automática, mientras que un contratista independiente funciona más como un trabajador por cuenta propia y tiene que apartar y pagar por iniciativa propia sus impuestos. No entender en qué categoría está es uno de los errores tributarios más comunes y costosos: un contratista que gasta todo su pago sin apartar nada para los impuestos puede llevarse una sorpresa dolorosa al momento de presentar la declaración.
 
 ## Ejemplo práctico
 
-**Pregunta:** ¿Cómo aplicaría este concepto antes de tomar una decisión financiera?
+**Pregunta:** Una joven diseñadora web trabaja para varios clientes distintos, fija su propio horario y usa su propio equipo. ¿Es más probable que sea empleada o contratista independiente?
 
-**Estudiante:** Primero identificaría las cantidades relevantes y qué representa cada una.
+**Estudiante:** Como fija su propio horario y trabaja para varios clientes, parece más una contratista independiente.
 
-**Guía:** Correcto. Después separe el concepto general de las reglas específicas de su jurisdicción y verifique la información vigente antes de actuar.
+**Guía:** Si eso es así, ¿quién es responsable de apartar sus pagos de impuestos durante el año?
+
+**Estudiante:** Ella misma: como ningún patrono le retiene impuestos, tiene que hacerlo por su cuenta.
+
+**Guía:** Exactamente, y por eso los contratistas tienen que planificar de forma activa sus impuestos en vez de suponer que se manejan automáticamente.
 
 ## Prueba práctica
 
-**Pregunta 1.** ¿Cuál es el propósito principal de este concepto?
-A) Ignorar las obligaciones tributarias
-B) Entender correctamente cómo se calcula o reporta una obligación financiera
-C) Suponer que todas las jurisdicciones son iguales
-D) Evitar revisar documentos
+**Pregunta 1.** Un documento de ingresos de tipo empleado suele reflejar:
 
-**Pregunta 2.** ¿Las reglas tributarias concretas son iguales en todos los países?
-A) Sí
-B) No
-C) Solo para empresas
-D) Solo para empleados
+A) Que no se retuvieron impuestos
+B) Impuestos retenidos por el patrono a lo largo del año
+C) Solo la ganancia de un negocio
+D) Solo ingresos de inversiones
 
-**Pregunta 3.** Antes de tomar una decisión tributaria, conviene:
-A) Verificar las reglas vigentes de la jurisdicción
-B) Usar cifras antiguas sin revisarlas
-C) Suponer que una regla extranjera aplica
-D) Ignorar documentación
+**Pregunta 2.** En general, un contratista independiente es responsable de:
 
-**Pregunta 4.** Comprender la diferencia entre conceptos relacionados ayuda a:
-A) Tomar decisiones mejor informadas
-B) Eliminar automáticamente impuestos
-C) Evitar toda obligación legal
-D) Sustituir asesoría profesional cuando sea necesaria
+A) Nada: los impuestos son automáticos
+B) Apartar y pagar sus propios impuestos estimados
+C) Solo el impuesto sobre las ventas
+D) No presentar nunca ningún documento
+
+**Pregunta 3.** ¿Con qué concepto anterior se conecta más directamente esta distinción entre empleado y contratista?
+
+A) Los bienes públicos
+B) El trabajo por cuenta propia frente a la propiedad de un negocio
+C) Los tramos impositivos marginales
+D) El impuesto sobre la propiedad
+
+**Pregunta 4.** Un error costoso común de los contratistas nuevos es:
+
+A) Presentar la declaración demasiado pronto
+B) Gastar todo el ingreso sin apartar dinero para los impuestos
+C) Retener demasiado impuesto
+D) Tener demasiadas propiedades
 
 ## Clave de respuestas
 
-1. B, 2. B, 3. A, 4. A
+1. B, 2. B, 3. B, 4. B
 
 ## Respuestas y explicaciones
 
-**1.** La alfabetización tributaria comienza por entender qué representa cada cifra o concepto.
+**1.** El informe de tipo empleado, en general, viene con una retención automática que maneja el patrono.
 
-**2.** Las reglas cambian según el país, la jurisdicción y el tiempo.
+**2.** Sin un patrono que les retenga impuestos, los contratistas tienen que manejar por iniciativa propia sus pagos de impuestos.
 
-**3.** Las decisiones deben basarse en reglas actuales aplicables a su situación.
+**3.** Esta es la expresión, en el sistema tributario, del concepto de trabajo por cuenta propia visto antes en el currículo.
 
-**4.** Distinguir correctamente los conceptos mejora el análisis, aunque no sustituye asesoría profesional cuando sea necesaria.
+**4.** Gastar el 100 % del ingreso como contratista sin reservar una parte para los impuestos es uno de los errores iniciales más comunes.
 
 ## Puntos clave
 
-- Entienda el concepto antes de aplicar una cifra o tasa.
-- Revise los documentos financieros y tributarios con atención.
-- Las reglas específicas varían según la jurisdicción.
-- Verifique información vigente antes de tomar decisiones.
+- Al ingreso de tipo empleado, en general, se le retienen impuestos de forma automática; al ingreso de tipo contratista, en general, no.
+- Esta distinción refleja el concepto de trabajo por cuenta propia frente a empleo de lecciones anteriores.
+- Los contratistas tienen que apartar por iniciativa propia dinero para los impuestos a lo largo del año.
+- Clasificarse mal, o no planificar para la diferencia, es un error común y costoso.

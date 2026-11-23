@@ -1,116 +1,103 @@
 ---
 id: GREEN-L1-003
 track: GREEN
-officialTrackName: "Business Taxes"
+officialTrackName: Taxes
 level: 1
 lessonNumber: 3
 locale: es-ES
-title: "Tipos de impuestos: visión general"
-summary: "Introducción práctica a tipos de impuestos: visión general, con énfasis en conceptos, documentación, decisiones y verificación mediante fuentes oficiales."
-version: "1.0"
-author: "Waldemar M. Caban, JD MA"
-date: "2026-09-01"
+title: "Los tipos de impuestos: un panorama general"
+summary: "Un mapa de las principales categorías de impuestos que encontrará una persona (sobre la renta, sobre las ventas o el consumo, sobre la propiedad y sobre la nómina) antes de profundizar en cada una."
+version: 1.0
+author: Waldemar M. Caban, JD MA
+date: 2026-08-09
 ---
 
-# 3. Tipos de impuestos: visión general
+# Los tipos de impuestos: un panorama general
 
 ## Objetivos de aprendizaje
+- Nombrar las cuatro categorías principales de impuestos que encuentra la mayoría de las personas.
+- Identificar a qué categoría pertenece un ejemplo real de impuesto.
+- Explicar la diferencia general entre un impuesto sobre ganar, gastar, poseer y trabajar.
 
-Al terminar esta lección, el alumno podrá:
+## Contenido principal
 
-1. Explicar con palabras sencillas el concepto de **tipos de impuestos: visión general**.
-2. Identificar quién paga, quién recauda y qué hecho puede generar la obligación.
-3. Distinguir una regla general de una excepción que exige verificación.
-4. Organizar la documentación necesaria para revisar una posición fiscal.
-5. Formular preguntas útiles para una fuente oficial o un profesional cualificado.
+Antes de profundizar en cualquier impuesto en particular, ayuda tener el mapa completo. La mayoría de las personas, en la mayoría de los países, encontrará alguna versión de estas cuatro categorías:
 
-## Concepto principal
+**Impuesto sobre la renta**: un impuesto sobre el dinero que usted gana, ya sea de un empleo, de un negocio o de inversiones. **Impuesto sobre las ventas o el consumo**: un impuesto que se añade cuando compra bienes o servicios. **Impuesto sobre la propiedad**: un impuesto sobre las cosas que posee, con mayor frecuencia los bienes inmuebles. **Impuesto sobre la nómina**: un impuesto ligado específicamente a los salarios del empleo, a menudo destinado a programas como los sistemas de jubilación o de seguro de salud.
 
-[HECHO VERIFICABLE] Los impuestos son obligaciones creadas por una jurisdicción. La respuesta correcta depende del país, territorio, estado o provincia, municipio, periodo fiscal, tipo de contribuyente y naturaleza de la operación. Por eso, comprender **tipos de impuestos: visión general** exige identificar primero la jurisdicción y la fecha aplicable.
+Una forma sencilla de no confundirlos: el impuesto sobre la renta pregunta «¿cuánto ganó?». El impuesto sobre las ventas pregunta «¿cuánto gastó?». El impuesto sobre la propiedad pregunta «¿qué posee?». El impuesto sobre la nómina pregunta «¿tiene empleo y cuánto le pagan?».
 
-La educación fiscal no consiste en memorizar una cifra aislada. Consiste en reconocer el hecho imponible, la base, el tipo, las deducciones o créditos posibles, el plazo, la documentación y la autoridad que publica la regla. Las tasas, umbrales y formularios pueden cambiar; antes de actuar deben comprobarse en una fuente oficial vigente.
+Los países combinan estos impuestos de formas distintas. Algunos dependen mucho del impuesto sobre la renta, otros se apoyan más en los impuestos al consumo, y los gobiernos locales con frecuencia dependen del impuesto sobre la propiedad para financiar las escuelas y los servicios locales. No hay una única combinación «correcta»: es una decisión de política con ventajas y desventajas, y las lecciones posteriores de esta ruta examinarán esas ventajas y desventajas. Por ahora, la meta es solo reconocerlos: cuando oiga hablar de un impuesto, debería poder clasificarlo en una de estas categorías como punto de partida.
 
-## Marco práctico de análisis
+## Ejemplo práctico
 
-Utiliza estas preguntas:
+**Pregunta:** Un gobierno añade un porcentaje al precio cada vez que alguien compra un refresco. ¿En qué categoría cae esto?
 
-- ¿Qué jurisdicción tiene autoridad sobre la persona o transacción?
-- ¿Cuál es el periodo fiscal?
-- ¿Quién es el contribuyente y cuál es su clasificación?
-- ¿Qué ingreso, compra, propiedad o actividad activa la regla?
-- ¿Cómo se calcula la base?
-- ¿Existe una deducción, crédito, exclusión o exención?
-- ¿Qué formulario, pago o registro se exige?
-- ¿Cuál es el plazo y qué ocurre si se incumple?
-- ¿Qué fuente oficial confirma la respuesta?
+**Estudiante:** Ocurre en el momento de la compra, así que parece un impuesto sobre las ventas o el consumo.
 
-## Ejemplo educativo
+**Guía:** Correcto. Ahora bien, si ese mismo gobierno también grava la ganancia que obtiene la empresa de refrescos al final del año, ¿es el mismo impuesto?
 
-[SUPUESTO] Una persona obtiene 48.000 unidades monetarias de ingresos y además recibe 3.000 por un trabajo independiente. Conserva recibos, estados de cuenta y documentos de pago, pero todavía no sabe cómo se clasifica cada cantidad. Antes de calcular, identifica su jurisdicción, periodo fiscal, condición laboral y naturaleza de los gastos.
+**Estudiante:** No, ese sería un impuesto sobre la renta de las ganancias de la empresa, no un impuesto sobre las ventas de la compra.
 
-Este ejemplo no determina una obligación real. Muestra el orden correcto: clasificar hechos, reunir documentación, consultar instrucciones oficiales y calcular solamente después. Si una regla afecta empleo, empresa, inversión o propiedad, debe analizarse por separado antes de integrar el resultado.
+**Guía:** Exactamente: dos impuestos distintos pueden aplicarse al mismo producto en momentos distintos: una vez cuando se compra y otra sobre la ganancia que generó.
 
-## Aplicación al tema
+## Cuestionario práctico
 
-Para estudiar **tipos de impuestos: visión general**, crea una hoja de trabajo con cuatro columnas: hecho, posible tratamiento, documento de respaldo y fuente pendiente de verificación. Marca como **HECHO** lo demostrado, como **SUPUESTO** lo que falta confirmar y como **OPINIÓN** cualquier recomendación basada en preferencias o tolerancia al riesgo.
+**Pregunta 1.** El impuesto sobre la renta es un impuesto sobre:
 
-No mezcles traducción con localización jurídica. Un término estadounidense como W-2, 1099, Medicare, LLC, S-Corp, Roth o impuesto estatal sobre ventas puede traducirse para aprender el concepto, pero no debe presentarse como si fuera una figura idéntica en España u otra jurisdicción.
+A) Lo que usted posee
+B) Lo que usted gana
+C) Lo que usted compra
+D) Si usted tiene empleo
 
-## Errores comunes
+**Pregunta 2.** El impuesto sobre las ventas normalmente se aplica:
 
-- Aplicar una tasa de otro año o jurisdicción.
-- Confundir ingreso bruto con ingreso imponible o efectivo disponible.
-- Suponer que un gasto empresarial siempre es deducible.
-- Creer que una deducción y un crédito producen el mismo efecto.
-- Perder justificantes o mezclar cuentas personales y empresariales.
-- Confundir un reembolso con una reducción real del impuesto.
-- Esperar hasta el vencimiento para organizar la información.
-- Utilizar contenido educativo como asesoramiento individualizado.
+A) Una vez al año sobre la riqueza total
+B) En el momento de la compra
+C) Solo a los dueños de negocios
+D) Solo en un país
 
-## Actividad práctica
+**Pregunta 3.** El impuesto sobre la propiedad se asocia con mayor frecuencia con:
 
-1. Escribe una situación relacionada con este tema.
-2. Identifica jurisdicción y periodo fiscal.
-3. Enumera cinco hechos comprobables y tres datos faltantes.
-4. Reúne o describe los documentos pertinentes.
-5. Localiza una fuente oficial que deba consultarse.
-6. Redacta tres preguntas para un profesional fiscal.
-7. Explica qué dato podría cambiar la conclusión.
+A) La propiedad de bienes inmuebles
+B) La compra de alimentos
+C) Los pagos de nómina
+D) Solo las operaciones con acciones
 
-## Evaluación de competencia
+**Pregunta 4.** El impuesto sobre la nómina está ligado específicamente a:
 
-1. ¿Por qué debe identificarse primero la jurisdicción?
-2. ¿Cuál es la diferencia entre hecho y supuesto?
-3. ¿Qué documento respaldaría la operación?
-4. ¿Qué fecha o periodo debe verificarse?
-5. ¿Qué organismo oficial podría publicar la regla?
-6. ¿Existe una posible excepción o clasificación alternativa?
-7. ¿Qué error produciría usar una tasa desactualizada?
-8. ¿Qué pregunta formularías a un profesional?
-9. ¿Qué registro conservarías y por cuánto tiempo según la regla aplicable?
-10. Resume el proceso de análisis sin inventar cifras.
+A) La propiedad de bienes
+B) Los salarios del empleo
+C) Las compras al por menor
+D) Las herencias
 
-**Criterio de dominio:** 8 de 10 respuestas satisfactorias. Por debajo del 80 %, el alumno revisará la fuente, corregirá la clasificación y repetirá un escenario nuevo.
+**Pregunta 5.** ¿Qué afirmación sobre la combinación de impuestos de los países es la más exacta?
 
-## Respuestas orientativas
+A) Todos los países usan combinaciones de impuestos idénticas
+B) Hay una combinación universalmente correcta
+C) Los países combinan estos tipos de impuestos de formas distintas como decisión de política
+D) Solo existe el impuesto sobre la renta en el mundo
 
-Las respuestas deben identificar jurisdicción, periodo, clasificación, hecho imponible, documentación y fuente oficial. Una buena respuesta declara incertidumbres y evita afirmar tasas, umbrales o plazos no verificados. Cuando falten hechos, la conclusión correcta es indicar qué información se necesita, no adivinar.
+## Clave de respuestas
+
+1. B, 2. B, 3. A, 4. B, 5. C
+
+## Respuestas y explicaciones
+
+**1.** El impuesto sobre la renta se activa al ganar dinero, de cualquier fuente: salarios, ganancias de un negocio o rendimientos de inversiones.
+
+**2.** El impuesto sobre las ventas se cobra en el momento de una transacción y se añade al precio de compra.
+
+**3.** El impuesto sobre la propiedad está ligado con mayor frecuencia a los bienes inmuebles, aunque en algunos lugares también se gravan otros bienes que se poseen.
+
+**4.** El impuesto sobre la nómina está ligado específicamente al ingreso del empleo y a menudo financia programas como los sistemas de jubilación o de salud.
+
+**5.** No hay una única combinación correcta de impuestos: los distintos gobiernos equilibran estas categorías de forma distinta según sus prioridades de política.
 
 ## Puntos clave
 
-- Las reglas fiscales cambian según lugar, fecha y clasificación.
-- Primero se clasifican los hechos; después se calcula.
-- La documentación permite defender una posición.
-- Deducciones, créditos, exclusiones y pagos anticipados son conceptos distintos.
-- Las fuentes oficiales vigentes tienen prioridad sobre resúmenes educativos.
-- La planificación legal es distinta de ocultar, falsear o evadir obligaciones.
-
-## Ruta de aprendizaje
-
-- **Anterior:** GREEN-L1-002
-- **Actual:** GREEN-L1-003
-- **Siguiente:** GREEN-L1-004
-
-## Localización — España
-
-Contenido en español de España para educación comparada. Las referencias a formularios y entidades estadounidenses explican conceptos del currículo original y no sustituyen la normativa española. Antes de aplicar cualquier regla deben verificarse la Agencia Tributaria u otra autoridad competente, el periodo fiscal y las circunstancias concretas.
+- Las cuatro categorías principales de impuestos que encuentra la mayoría de las personas son el impuesto sobre la renta, sobre las ventas o el consumo, sobre la propiedad y sobre la nómina.
+- Cada categoría hace una pregunta distinta: qué se gana, qué se gasta, qué se posee o si se tiene empleo.
+- Un solo producto o una sola transacción puede activar más de un tipo de impuesto en momentos distintos.
+- Los países combinan estas categorías de formas distintas: no hay una proporción universalmente correcta.
+- Reconocer a qué categoría pertenece un impuesto es el primer paso para entender cómo funciona.

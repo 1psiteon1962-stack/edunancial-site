@@ -1,82 +1,91 @@
 ---
 id: GREEN-L1-015
 track: GREEN
-officialTrackName: Impuestos
+officialTrackName: Taxes
 level: 1
 lessonNumber: 15
 locale: es-Caribbean
-title: "La diferencia entre una deducción tributaria y un crédito tributario"
-summary: "Aclara una distinción esencial: las deducciones reducen el ingreso sujeto a impuestos, mientras los créditos reducen directamente el impuesto adeudado."
+title: "La diferencia entre una deducción y un crédito tributario"
+summary: "Aclara uno de los pares de términos que más se confunden en la alfabetización tributaria: las deducciones reducen el ingreso tributable y los créditos reducen directamente el impuesto adeudado."
 version: 1.0
 author: Waldemar M. Caban, JD MA
 date: 2026-08-09
 ---
 
-# La diferencia entre una deducción tributaria y un crédito tributario
+# La diferencia entre una deducción y un crédito tributario
 
 ## Objetivos de aprendizaje
-
-- Comprender y definir el concepto principal de esta lección.
-- Aplicarlo a una situación financiera cotidiana.
-- Distinguir la regla general de los requisitos específicos de cada jurisdicción.
+- Definir una deducción tributaria.
+- Definir un crédito tributario.
+- Explicar por qué, dólar por dólar, un crédito en general vale más que una deducción.
 
 ## Contenido principal
 
-Una deducción tributaria reduce la cantidad de ingreso sujeto a impuestos. Un crédito tributario reduce directamente la factura tributaria. Son mecanismos distintos.
+Una deducción tributaria reduce la cantidad de ingreso que se grava. Un crédito tributario reduce directamente la factura de impuestos real, dólar por dólar. Suenan parecido, pero tienen un efecto bastante distinto.
 
-En un ejemplo ilustrativo, si una persona está en un tramo marginal del 20%, una deducción de $1,000 podría reducir el impuesto aproximadamente $200. Un crédito de $1,000 podría reducir el impuesto directamente en $1,000, sujeto a las reglas aplicables. Por eso un crédito suele tener mayor valor dólar por dólar que una deducción. Las reglas concretas, incluida la posibilidad de reembolso de ciertos créditos, dependen de cada jurisdicción.
+Supongamos que alguien está en un tramo marginal del 20 %. Una deducción de $1,000 reduce su ingreso tributable en $1,000, lo que le ahorra aproximadamente $200 de impuestos (el 20 % de $1,000). En cambio, un crédito de $1,000 reduce su factura de impuestos en los $1,000 completos, sin importar su tramo. Por eso, dólar por dólar, los créditos en general valen más que las deducciones: el valor de un crédito no depende de su tasa impositiva como sí depende el de una deducción.
+
+Ambas herramientas reducen lo que usted debe, solo que mediante mecanismos distintos: las deducciones reducen la base que se grava y los créditos reducen la factura final en sí.
 
 ## Ejemplo práctico
 
-**Pregunta:** ¿Cómo aplicaría este concepto antes de tomar una decisión financiera?
+**Pregunta:** Un amigo dice: «Una deducción de $1,000 y un crédito de $1,000 son básicamente lo mismo». ¿Tiene razón?
 
-**Estudiante:** Primero identificaría las cantidades relevantes y qué representa cada una.
+**Estudiante:** Creo que no: una reduce el ingreso tributable y el otro reduce directamente la factura de impuestos.
 
-**Guía:** Correcto. Después separe el concepto general de las reglas específicas de su jurisdicción y verifique la información vigente antes de actuar.
+**Guía:** ¿Cuál tiende a ahorrar más dinero y por qué?
+
+**Estudiante:** El crédito, porque quita los $1,000 completos de lo que se debe, mientras que la deducción solo quita un porcentaje de $1,000 según su tasa impositiva.
+
+**Guía:** Exactamente: la misma cantidad de dólares, un mecanismo distinto y un efecto distinto.
 
 ## Prueba práctica
 
-**Pregunta 1.** ¿Cuál es el propósito principal de este concepto?
-A) Ignorar las obligaciones tributarias
-B) Entender correctamente cómo se calcula o reporta una obligación financiera
-C) Suponer que todas las jurisdicciones son iguales
-D) Evitar revisar documentos
+**Pregunta 1.** Una deducción tributaria reduce:
 
-**Pregunta 2.** ¿Las reglas tributarias concretas son iguales en todos los países?
-A) Sí
-B) No
-C) Solo para empresas
-D) Solo para empleados
+A) El ingreso tributable
+B) La factura de impuestos directamente, dólar por dólar
+C) Nada
+D) Solo el impuesto sobre las ventas
 
-**Pregunta 3.** Antes de tomar una decisión tributaria, conviene:
-A) Verificar las reglas vigentes de la jurisdicción
-B) Usar cifras antiguas sin revisarlas
-C) Suponer que una regla extranjera aplica
-D) Ignorar documentación
+**Pregunta 2.** Un crédito tributario reduce:
 
-**Pregunta 4.** Comprender la diferencia entre conceptos relacionados ayuda a:
-A) Tomar decisiones mejor informadas
-B) Eliminar automáticamente impuestos
-C) Evitar toda obligación legal
-D) Sustituir asesoría profesional cuando sea necesaria
+A) El ingreso tributable
+B) La factura de impuestos directamente, dólar por dólar
+C) Nada
+D) Solo el impuesto sobre la propiedad
+
+**Pregunta 3.** Dólar por dólar, ¿qué vale más en general?
+
+A) Una deducción
+B) Un crédito
+C) Siempre son idénticos
+D) Ninguno tiene valor
+
+**Pregunta 4.** Una deducción de $1,000 para alguien en un tramo del 20 % le ahorra aproximadamente:
+
+A) $1,000
+B) $200
+C) $0
+D) $2,000
 
 ## Clave de respuestas
 
-1. B, 2. B, 3. A, 4. A
+1. A, 2. B, 3. B, 4. B
 
 ## Respuestas y explicaciones
 
-**1.** La alfabetización tributaria comienza por entender qué representa cada cifra o concepto.
+**1.** Las deducciones funcionan reduciendo la cantidad de ingreso sujeta a impuestos.
 
-**2.** Las reglas cambian según el país, la jurisdicción y el tiempo.
+**2.** Los créditos funcionan recortando directamente la factura final de impuestos, sin importar la tasa impositiva.
 
-**3.** Las decisiones deben basarse en reglas actuales aplicables a su situación.
+**3.** Como el valor de un crédito no depende de su tramo, en general vale más por cada dólar que una deducción.
 
-**4.** Distinguir correctamente los conceptos mejora el análisis, aunque no sustituye asesoría profesional cuando sea necesaria.
+**4.** El 20 % de una deducción de $1,000 equivale aproximadamente a $200 de ahorro real de impuestos, frente a los $1,000 completos de un crédito.
 
 ## Puntos clave
 
-- Entienda el concepto antes de aplicar una cifra o tasa.
-- Revise los documentos financieros y tributarios con atención.
-- Las reglas específicas varían según la jurisdicción.
-- Verifique información vigente antes de tomar decisiones.
+- Las deducciones reducen el ingreso tributable; los créditos reducen directamente la factura de impuestos.
+- El valor de un crédito no depende de su tramo impositivo; el de una deducción, sí.
+- Dólar por dólar, los créditos en general valen más que las deducciones.
+- Ambas herramientas reducen lo que usted debe, pero mediante mecanismos distintos.

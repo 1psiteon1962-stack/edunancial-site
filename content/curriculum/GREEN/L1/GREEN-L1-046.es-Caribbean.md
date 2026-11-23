@@ -1,80 +1,89 @@
 ---
 id: GREEN-L1-046
 track: GREEN
-officialTrackName: Impuestos
+officialTrackName: Taxes
 level: 1
 lessonNumber: 46
 locale: es-Caribbean
-title: "Auditorías tributarias: qué son y por qué ocurren"
-summary: "Desmitifica la auditoría tributaria como un proceso de revisión y verificación, no automáticamente como una acusación de conducta indebida."
+title: "Las auditorías: qué son y por qué ocurren"
+summary: "Desmitifica el proceso de auditoría tributaria y lo presenta como un procedimiento de verificación, no como una acusación automática de una falta."
 version: 1.0
 author: Waldemar M. Caban, JD MA
 date: 2026-08-09
 ---
 
-# Auditorías tributarias: qué son y por qué ocurren
+# Las auditorías: qué son y por qué ocurren
 
 ## Objetivos de aprendizaje
-
-- Comprender el concepto central de esta lección.
-- Aplicarlo como parte de una práctica financiera responsable.
-- Reconocer cuándo actuar, documentar o buscar ayuda adicional.
+- Definir qué es una auditoría.
+- Identificar razones comunes, que no implican acusación, por las que podría ocurrir una auditoría.
+- Explicar cómo llevar bien los registros protege directamente a alguien durante una auditoría.
 
 ## Contenido principal
 
-Una auditoría es una revisión en la que una autoridad tributaria examina con mayor detalle información presentada para verificar su exactitud. Una revisión puede surgir por distintos motivos, incluidos procesos de selección, discrepancias o partidas que requieren comprobación.
+Una auditoría es un proceso de revisión en el que una autoridad tributaria examina más de cerca una declaración presentada para verificar que la información declarada sea exacta. Vale la pena separar el hecho de ser auditado de la suposición de culpa: las auditorías ocurren por muchas razones, como la selección al azar, las anomalías estadísticas (cifras que parecen inusuales en comparación con las de contribuyentes parecidos) o simplemente porque una deducción o un tipo de ingreso en particular recibe una revisión de rutina más estricta.
 
-Los buenos registros son una defensa práctica: permiten respaldar ingresos, gastos, deducciones y otros datos. Recibir una notificación de auditoría no demuestra por sí mismo que se haya cometido una infracción.
+Aquí es donde la lección anterior sobre llevar registros rinde frutos de la forma más directa. Alguien que ha llevado una documentación ordenada y organizada a lo largo del año normalmente puede responder a una auditoría con calma y eficiencia, presentando el respaldo de lo que se cuestione. Alguien sin registros podría tener dificultades para sustentar sus reclamaciones aunque fueran totalmente legítimas; es decir, llevar bien los registros no se trata solo de evitar la evasión: es una protección activa para los contribuyentes honestos cuyas declaraciones simplemente se seleccionan para revisión.
 
 ## Ejemplo práctico
 
-**Pregunta:** ¿Cuál es la ventaja de comprender estos conceptos antes de que aparezca un problema?
+**Pregunta:** Alguien recibe un aviso de auditoría y de inmediato supone que debe haber hecho algo ilegal. ¿Es exacta esa suposición?
 
-**Estudiante:** Puedo mantener mejores registros, identificar riesgos y tomar decisiones mientras todavía tengo opciones.
+**Estudiante:** Según esta lección, no necesariamente: las auditorías pueden ocurrir por razones que no tienen que ver con una falta, como la selección al azar o una cifra que parece inusual.
 
-**Guía:** Exactamente. La meta es desarrollar capacidad y actuar con información, no reaccionar tarde.
+**Guía:** ¿Qué determina qué tan bien pasa esta persona la auditoría?
+
+**Estudiante:** Si llevó buenos registros: si tiene documentación de lo que reclamó, puede sustentarlo con calma, aunque no haya hecho nada malo.
+
+**Guía:** Exactamente: un aviso de auditoría es una solicitud de verificación, no automáticamente una acusación.
 
 ## Prueba práctica
 
-**Pregunta 1.** La alfabetización tributaria ayuda principalmente a:
-A) Tomar decisiones informadas
-B) Garantizar que nunca habrá impuestos
-C) Sustituir todas las leyes
-D) Eliminar todo riesgo
+**Pregunta 1.** La mejor descripción de una auditoría es:
 
-**Pregunta 2.** Mantener buenos registros sirve para:
-A) Respaldar información y facilitar revisiones
-B) Crear impuestos adicionales
-C) Evitar leer documentos
-D) Sustituir una declaración
+A) Una acusación automática de un delito
+B) Un proceso de revisión para verificar que la información declarada sea exacta
+C) Un tipo de crédito tributario
+D) Una penalidad que siempre se aplica
 
-**Pregunta 3.** Una situación compleja o de alto impacto puede requerir:
-A) Asesoría profesional
-B) Ignorarla
-C) Adivinar
-D) Ocultar información
+**Pregunta 2.** Las auditorías pueden activarse por:
 
-**Pregunta 4.** La planificación eficaz ocurre mejor:
-A) Antes de decisiones importantes
-B) Solo después de una auditoría
-C) Únicamente al final del año
-D) Nunca
+A) Solo una falta clara
+B) La selección al azar, las anomalías estadísticas o la revisión de rutina de ciertas reclamaciones
+C) Nada: las auditorías son totalmente al azar, sin ninguna otra causa
+D) Solo las personas que trabajan por cuenta propia
+
+**Pregunta 3.** Llevar bien los registros ayuda de la forma más directa durante una auditoría al:
+
+A) No tener ningún efecto
+B) Permitir sustentar las reclamaciones con calma y eficiencia
+C) Garantizar que nunca haya una auditoría
+D) Importar solo en los negocios
+
+**Pregunta 4.** ¿Recibir un aviso de auditoría es automáticamente una prueba de una falta?
+
+A) Sí, siempre
+B) No: es una solicitud de verificación, no una acusación automática
+C) Solo en las corporaciones
+D) Solo si se recibió un reembolso
 
 ## Clave de respuestas
 
-1. A, 2. A, 3. A, 4. A
+1. B, 2. B, 3. B, 4. B
 
 ## Respuestas y explicaciones
 
-**1.** El objetivo es aumentar la capacidad de comprender opciones y consecuencias.
-**2.** La documentación respalda cálculos y afirmaciones si deben revisarse.
-**3.** La ayuda profesional puede ser apropiada cuando aumenta la complejidad o el riesgo.
-**4.** Planificar antes preserva opciones que pueden desaparecer después de actuar.
+**1.** La función de una auditoría es la verificación, no un hallazgo automático ni una acusación de culpa.
+
+**2.** Existen varios detonantes que no implican acusación, incluida la simple selección al azar.
+
+**3.** La documentación es exactamente lo que permite a un contribuyente honesto responder a las preguntas con eficiencia en vez de correr.
+
+**4.** El aviso en sí indica una solicitud de verificación, no una conclusión decidida de antemano.
 
 ## Puntos clave
 
-- Mantenga registros de forma continua.
-- Revise obligaciones y decisiones durante el año, no solo al declarar.
-- Verifique reglas vigentes de su jurisdicción.
-- Busque asesoría cuando la complejidad o el riesgo lo justifiquen.
-- Utilice el conocimiento para tomar sus propias decisiones financieras informadas.
+- Una auditoría es una revisión de verificación, no una acusación automática de una falta.
+- Las auditorías pueden activarse por la selección al azar, las anomalías estadísticas o la revisión de rutina.
+- Llevar bien los registros es una protección directa y práctica durante una auditoría.
+- Ser auditado y ser culpable de algo son dos cosas totalmente distintas.

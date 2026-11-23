@@ -1,66 +1,69 @@
 ---
 id: GREEN-L1-004
 track: GREEN
-officialTrackName: Impuestos
+officialTrackName: Taxes
 level: 1
 lessonNumber: 4
 locale: es-Caribbean
-title: "Impuesto sobre ingresos: gravar lo que usted gana"
-summary: "Una mirada más detallada al impuesto sobre ingresos y su aplicación a salarios, ganancias empresariales e ingresos de inversiones."
+title: "El impuesto sobre la renta: gravar lo que usted gana"
+summary: "Una mirada más de cerca al impuesto sobre la renta: cómo se aplica a los salarios, a las ganancias de un negocio y al ingreso de las inversiones."
 version: 1.0
 author: Waldemar M. Caban, JD MA
 date: 2026-08-09
 ---
 
-# Impuesto sobre ingresos: gravar lo que usted gana
+# El impuesto sobre la renta: gravar lo que usted gana
 
 ## Objetivos de aprendizaje
-
-- Definir el impuesto sobre ingresos e identificar posibles ingresos sujetos a impuestos.
-- Explicar que puede aplicarse a empleo, negocios e inversiones.
-- Reconocer que «ingreso» es un concepto más amplio que un cheque de nómina.
+- Definir el impuesto sobre la renta e identificar qué cuenta como ingreso tributable.
+- Explicar que el impuesto sobre la renta, en general, se aplica tanto si el ingreso viene de un empleo como de un negocio o de inversiones.
+- Reconocer que el «ingreso» es más amplio que solo un cheque de pago.
 
 ## Contenido principal
 
-El impuesto sobre ingresos grava dinero que usted gana. «Ingreso» suele ser más amplio de lo que muchas personas suponen: puede incluir salarios de un empleo, ganancias de un negocio e ingresos de inversiones como intereses o dividendos. Cada país define de manera distinta qué constituye ingreso sujeto a impuestos, pero el principio general es que distintas formas de dinero recibido pueden entrar en la base tributaria.
+El impuesto sobre la renta es un impuesto sobre el dinero que usted gana. La palabra «ingreso» es más amplia de lo que la mayoría de las personas supone: normalmente incluye los salarios de un empleo, la ganancia de un negocio que usted opera y los rendimientos de inversiones como los intereses o los dividendos. Los distintos países definen de forma distinta qué cuenta exactamente como ingreso tributable, pero el principio general se mantiene en todas partes: si entró dinero y aumentó lo que usted tiene, es candidato al impuesto sobre la renta.
 
-La mayoría de los sistemas no grava necesariamente cada dólar a la misma tasa. Pueden utilizar tramos, deducciones y créditos para determinar cuánto se debe. Esos conceptos se estudian posteriormente. Por ahora, la idea central es que el impuesto sobre ingresos puede activarse por distintas formas de ganancia, no únicamente por un empleo tradicional.
+La mayoría de los sistemas de impuesto sobre la renta no gravan cada dólar con la misma tasa. En cambio, usan tramos, deducciones y créditos para ajustar cuánto se debe realmente, conceptos que se tratan en detalle en lecciones posteriores. Por ahora, la idea clave es más sencilla: el impuesto sobre la renta se activa al ganar, en cualquiera de sus formas, y no solo por tener un empleo tradicional.
 
 ## Ejemplo práctico
 
-**Pregunta:** La abuela de Ntege vende vestidos y también gana intereses sobre sus ahorros. ¿Puede aplicarse el impuesto sobre ingresos a ambos?
+**Pregunta:** La abuela de Ntege vende vestidos y además gana una pequeña cantidad de intereses sobre sus ahorros. ¿Se aplica el impuesto sobre la renta a las dos cosas?
 
-**Estudiante:** Las ventas de vestidos generan ingresos de su negocio.
+**Estudiante:** Las ventas de vestidos son claramente ganancias de su negocio.
 
 **Guía:** ¿Y los intereses?
 
-**Estudiante:** También es dinero que recibe, pero proviene de sus ahorros.
+**Estudiante:** Eso también es dinero que entra, solo que viene de los ahorros en vez del trabajo.
 
-**Guía:** Correcto. Los sistemas tributarios suelen considerar múltiples fuentes de ingresos, no solamente salarios.
+**Guía:** Correcto: los sistemas de impuesto sobre la renta, en general, miran todas las formas en que el dinero aumenta lo que usted tiene, no solo los salarios de un empleo.
 
 ## Prueba práctica
 
-1. El impuesto sobre ingresos puede aplicarse a:
-A) Solo salarios
-B) Salarios, ganancias empresariales e ingresos de inversiones
-C) Solo inversiones
-D) Solo grandes corporaciones
+**Pregunta 1.** El impuesto sobre la renta se aplica a:
 
-2. Verdadero o falso: En la mayoría de los sistemas todo ingreso se grava exactamente a la misma tasa.
+A) Solo los salarios de un empleo
+B) Los salarios, la ganancia de un negocio y el ingreso de las inversiones
+C) Solo los rendimientos de las inversiones
+D) Solo las grandes corporaciones
+
+**Pregunta 2.** Verdadero o falso: en la mayoría de los sistemas, todo el ingreso se grava exactamente con la misma tasa.
+
 A) Verdadero
 B) Falso
 
-3. Los intereses de una cuenta de ahorros generalmente son:
-A) Siempre libres de impuestos
-B) Una forma de ingreso que puede estar sujeta a impuestos
-C) Lo mismo que un regalo
-D) Exentos en todos los países
+**Pregunta 3.** Los intereses ganados en una cuenta de ahorros, en general:
 
-4. El principio general del impuesto sobre ingresos es:
-A) Solo cuentan los salarios
-B) El dinero recibido de distintas fuentes puede constituir ingreso sujeto a impuestos
-C) Solo cuenta el efectivo
-D) Los empresarios están exentos
+A) Nunca son tributables
+B) Son una forma de ingreso que puede ser tributable
+C) Son lo mismo que un regalo
+D) Están exentos en todos los países
+
+**Pregunta 4.** El principio amplio detrás del impuesto sobre la renta es:
+
+A) Solo cuentan los cheques de pago
+B) El dinero que aumenta lo que usted tiene es candidato a tributar
+C) Solo cuenta el efectivo, no otras formas de pago
+D) Los dueños de negocios están exentos
 
 ## Clave de respuestas
 
@@ -68,14 +71,17 @@ D) Los empresarios están exentos
 
 ## Respuestas y explicaciones
 
-1. **B.** El concepto de ingreso puede abarcar empleo, negocios e inversiones.
-2. **B.** Muchos sistemas utilizan tramos, deducciones y créditos.
-3. **B.** Los intereses son una forma de ingreso de inversión que puede estar sujeta a impuestos según las reglas locales.
-4. **B.** La fuente puede variar; lo importante es reconocer las distintas formas de ingreso.
+**1.** El impuesto sobre la renta es amplio por diseño: abarca los salarios, la ganancia de un negocio y los rendimientos de las inversiones, no solo el empleo tradicional.
+
+**2.** La mayoría de los sistemas usan tramos, deducciones y créditos en vez de una sola tasa fija, algo que desglosan las lecciones posteriores.
+
+**3.** Los intereses son una forma de ingreso de las inversiones y comúnmente se tratan como tributables, según las reglas específicas de cada país.
+
+**4.** La prueba que lo unifica todo es si entró dinero y aumentó lo que usted tiene: la fuente importa menos que ese hecho básico.
 
 ## Puntos clave
 
-- El impuesto sobre ingresos puede alcanzar salarios, ganancias empresariales e inversiones.
-- La definición exacta de ingreso sujeto a impuestos varía por jurisdicción.
-- Muchos sistemas no aplican una única tasa plana a todo ingreso.
-- Identificar todas las fuentes de ingreso es un primer paso para entender su situación tributaria.
+- El impuesto sobre la renta se aplica a los salarios, a la ganancia de un negocio y al ingreso de las inversiones, no solo a los cheques de pago.
+- Los distintos países definen de forma distinta el ingreso tributable, pero el principio de fondo es amplio.
+- La mayoría de los sistemas no gravan cada dólar con la misma tasa fija.
+- Reconocer todas sus fuentes de ingreso es el punto de partida para entender su situación tributaria.

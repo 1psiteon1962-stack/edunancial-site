@@ -1,79 +1,89 @@
 ---
 id: GREEN-L1-045
 track: GREEN
-officialTrackName: Impuestos
+officialTrackName: Taxes
 level: 1
 lessonNumber: 45
 locale: es-Caribbean
-title: "Evasión fiscal frente a planificación tributaria legal: una distinción crítica"
-summary: "Distingue entre reducir legalmente impuestos utilizando las reglas aplicables y evadir ilegalmente obligaciones mediante ocultamiento o falsedad."
+title: "Evasión de impuestos frente a elusión: una distinción fundamental"
+summary: "Traza una línea clara y esencial entre la elusión legal (usar las reglas tal como están escritas para reducir los impuestos) y la evasión ilegal (falsear los hechos para no pagar el impuesto adeudado)."
 version: 1.0
 author: Waldemar M. Caban, JD MA
 date: 2026-08-09
 ---
 
-# Evasión fiscal frente a planificación tributaria legal: una distinción crítica
+# Evasión de impuestos frente a elusión: una distinción fundamental
 
 ## Objetivos de aprendizaje
-
-- Explicar el concepto central con precisión.
-- Identificar sus consecuencias para personas o negocios.
-- Reconocer cuándo las reglas requieren análisis profesional.
+- Definir la elusión de impuestos y dar un ejemplo.
+- Definir la evasión de impuestos y dar un ejemplo.
+- Explicar con claridad por qué esta distinción es fundamental, y no un detalle técnico menor.
 
 ## Contenido principal
 
-La planificación tributaria legal utiliza deducciones, créditos, estructuras y otras opciones permitidas por la ley para reducir una obligación tributaria. La evasión fiscal implica conductas ilegales como ocultar ingresos, inventar gastos o falsificar registros para evitar impuestos realmente adeudados.
+Esta es una de las distinciones más importantes de toda esta ruta, y vale la pena decirla sin rodeos: la elusión de impuestos (tax avoidance, en inglés) es legal; la evasión de impuestos no lo es. La elusión significa usar las reglas tributarias tal como están escritas en realidad (las deducciones, los créditos, el momento de los ingresos o de las ventas, escoger una estructura de negocio favorable) para reducir legalmente la cantidad de impuesto adeudado. Todo lo visto en esta ruta hasta ahora, hecho de forma correcta y honesta, cae dentro de la elusión.
 
-La diferencia fundamental no es cuánto impuesto se ahorra, sino si los hechos reportados son verdaderos y el tratamiento utilizado está permitido por la ley. Cuando una estrategia es compleja o incierta, debe verificarse con asesoría tributaria o jurídica calificada antes de implementarla.
+La evasión significa falsear ilegalmente los hechos para no pagar un impuesto que realmente se debe: ocultar ingresos, inventar deducciones falsas, falsificar registros o engaños parecidos. La línea entre las dos no depende de qué tan agresiva sea la planificación tributaria; depende de si los hechos de fondo que se declaran son verdaderos. Reclamar todas las deducciones a las que uno tiene derecho legalmente, aunque reduzcan mucho la factura de impuestos, es elusión. Reclamar una deducción por un gasto que nunca ocurrió, u ocultar un ingreso que sí ocurrió, es evasión: un asunto legal grave, no solo un error de papeleo.
 
 ## Ejemplo práctico
 
-**Pregunta:** ¿Es suficiente escoger una estrategia porque parece reducir impuestos?
+**Pregunta:** Una dueña de negocio deduce legalmente todos los gastos a los que tiene derecho y reduce de forma agresiva su factura de impuestos con las reglas vistas a lo largo de esta ruta. Otro dueño de negocio declara gastos falsos que nunca ocurrieron. ¿Son lo mismo?
 
-**Estudiante:** No. También debe ser legal, basarse en hechos verdaderos y encajar con los demás objetivos y riesgos.
+**Estudiante:** No: según esta lección, la primera dueña usa reglas legítimas con honestidad, lo que es elusión. El segundo dueño falsea los hechos, lo que es evasión.
 
-**Guía:** Exactamente. Una buena decisión considera el sistema completo, no una sola ventaja aparente.
+**Guía:** Si los dos terminan pagando menos impuestos, ¿cuál es la verdadera línea divisoria entre ellos?
+
+**Estudiante:** No depende de cuánto impuesto se ahorra: depende de si lo que se declara es realmente verdadero.
+
+**Guía:** Exactamente, y esa distinción es la línea más importante de toda esta ruta.
 
 ## Prueba práctica
 
-**Pregunta 1.** Una estructura o estrategia tributaria debe evaluarse según:
-A) Solo la tasa
-B) Las reglas aplicables y sus consecuencias completas
-C) Un nombre comercial
-D) Rumores
+**Pregunta 1.** La elusión de impuestos es:
 
-**Pregunta 2.** ¿Las estructuras empresariales tienen el mismo tratamiento en todos los países?
-A) Sí
-B) No
-C) Siempre
-D) Solo las grandes empresas cambian
+A) Ilegal
+B) El uso legal de las reglas tributarias para reducir el impuesto adeudado
+C) Lo mismo que la evasión de impuestos
+D) Algo disponible solo para las corporaciones
 
-**Pregunta 3.** La planificación tributaria legal requiere:
-A) Información verdadera y cumplimiento de la ley
-B) Ocultar ingresos
-C) Inventar gastos
-D) Falsificar registros
+**Pregunta 2.** La evasión de impuestos es:
 
-**Pregunta 4.** Una decisión compleja puede justificar:
-A) Asesoría profesional calificada
-B) Ignorar la ley
-C) No conservar documentación
-D) Suponer reglas
+A) Legal
+B) Falsear ilegalmente los hechos para no pagar un impuesto que realmente se debe
+C) Lo mismo que la elusión de impuestos
+D) Solo un error de papeleo
+
+**Pregunta 3.** La verdadera línea divisoria entre las dos es:
+
+A) Cuánto impuesto se ahorra al final
+B) Si los hechos de fondo que se declaran son verdaderos
+C) Si participó un profesional
+D) No hay ninguna diferencia importante
+
+**Pregunta 4.** Reclamar con honestidad todas las deducciones legalmente disponibles es:
+
+A) Evasión de impuestos
+B) Elusión de impuestos
+C) Un delito
+D) Algo irrelevante para esta distinción
 
 ## Clave de respuestas
 
-1. B, 2. B, 3. A, 4. A
+1. B, 2. B, 3. B, 4. B
 
 ## Respuestas y explicaciones
 
-**1.** Una ventaja tributaria debe analizarse junto con sus demás consecuencias.
-**2.** Las formas jurídicas y fiscales varían entre jurisdicciones.
-**3.** La planificación legal depende de hechos correctos y reglas permitidas.
-**4.** La asesoría adecuada puede prevenir decisiones costosas o ilegales.
+**1.** La elusión funciona por completo dentro de las reglas realmente escritas, usándolas como se pretende o como la ley permite.
+
+**2.** La evasión cruza al terreno del falseamiento: declarar algo falso para reducir ilegalmente el impuesto adeudado.
+
+**3.** Lo que importa no es qué tan agresiva sea la planificación tributaria, sino la veracidad de los hechos de fondo.
+
+**4.** Incluso las reclamaciones de deducciones grandes y agresivas, pero honestas, siguen estando claramente del lado legal de la línea.
 
 ## Puntos clave
 
-- No confunda una etiqueta jurídica con un tratamiento fiscal universal.
-- Considere impuestos junto con responsabilidad y objetivos empresariales.
-- Distinga claramente planificación legal de evasión.
-- Verifique estrategias complejas antes de implementarlas.
+- La elusión de impuestos es legal: usar reglas reales para reducir el impuesto adeudado.
+- La evasión de impuestos es ilegal: falsear los hechos para no pagar un impuesto que realmente se debe.
+- La línea divisoria es la veracidad, no cuánto impuesto se ahorra.
+- Esta distinción es una de las más importantes de todo el currículo de alfabetización tributaria.

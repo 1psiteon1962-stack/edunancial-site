@@ -1,116 +1,89 @@
 ---
 id: GREEN-L1-013
 track: GREEN
-officialTrackName: "Business Taxes"
+officialTrackName: Taxes
 level: 1
 lessonNumber: 13
 locale: es-ES
-title: "Qué es la retención fiscal"
-summary: "Introducción práctica a qué es la retención fiscal, con énfasis en conceptos, documentación, decisiones y verificación mediante fuentes oficiales."
-version: "1.0"
-author: "Waldemar M. Caban, JD MA"
-date: "2026-09-01"
+title: "¿Qué es la retención?"
+summary: "Explica la retención de impuestos: por qué los empleadores descuentan el impuesto estimado antes de pagarle, en vez de esperar a un solo pago grande más adelante."
+version: 1.0
+author: Waldemar M. Caban, JD MA
+date: 2026-08-09
 ---
 
-# 13. Qué es la retención fiscal
+# ¿Qué es la retención?
 
 ## Objetivos de aprendizaje
+- Definir la retención en términos sencillos.
+- Explicar por qué existe la retención como un sistema de pago sobre la marcha.
+- Reconocer la retención como una estimación, no como la factura final de impuestos.
 
-Al terminar esta lección, el alumno podrá:
+## Contenido principal
 
-1. Explicar con palabras sencillas el concepto de **qué es la retención fiscal**.
-2. Identificar quién paga, quién recauda y qué hecho puede generar la obligación.
-3. Distinguir una regla general de una excepción que exige verificación.
-4. Organizar la documentación necesaria para revisar una posición fiscal.
-5. Formular preguntas útiles para una fuente oficial o un profesional cualificado.
+La retención es el dinero que un empleador descuenta por adelantado de su pago de nómina y envía directamente al gobierno en su nombre, como un pago estimado para su futura factura de impuestos. En vez de esperar hasta el final del año para hacer un solo pago grande de impuestos, la mayoría de los sistemas cobran el impuesto poco a poco, nómina a nómina, a lo largo del año.
 
-## Concepto principal
+Es importante entender que la retención es una estimación, no la última palabra. Al final del año tributario, su obligación tributaria real se calcula con base en su ingreso total, sus deducciones y sus créditos, y esa cifra se compara con lo que se retuvo. Si se retuvo de más, normalmente le devuelven dinero (un reembolso). Si se retuvo de menos, normalmente debe pagar más. Las cantidades de retención suelen basarse en la información que da el empleado (como el ingreso esperado y la situación de su hogar), y por eso los cambios de vida (un empleo nuevo, un matrimonio, un nuevo dependiente) son una buena razón para revisar su configuración de retención.
 
-[HECHO VERIFICABLE] Los impuestos son obligaciones creadas por una jurisdicción. La respuesta correcta depende del país, territorio, estado o provincia, municipio, periodo fiscal, tipo de contribuyente y naturaleza de la operación. Por eso, comprender **qué es la retención fiscal** exige identificar primero la jurisdicción y la fecha aplicable.
+## Ejemplo práctico
 
-La educación fiscal no consiste en memorizar una cifra aislada. Consiste en reconocer el hecho imponible, la base, el tipo, las deducciones o créditos posibles, el plazo, la documentación y la autoridad que publica la regla. Las tasas, umbrales y formularios pueden cambiar; antes de actuar deben comprobarse en una fuente oficial vigente.
+**Pregunta:** El empleador de un trabajador le retiene impuestos de cada pago de nómina durante todo el año. Al final del año, ¿el trabajador todavía tiene que presentar algo?
 
-## Marco práctico de análisis
+**Estudiante:** Supondría que no, porque el impuesto ya se descontó.
 
-Utiliza estas preguntas:
+**Guía:** Pero ¿la retención es lo mismo que su factura final exacta de impuestos?
 
-- ¿Qué jurisdicción tiene autoridad sobre la persona o transacción?
-- ¿Cuál es el periodo fiscal?
-- ¿Quién es el contribuyente y cuál es su clasificación?
-- ¿Qué ingreso, compra, propiedad o actividad activa la regla?
-- ¿Cómo se calcula la base?
-- ¿Existe una deducción, crédito, exclusión o exención?
-- ¿Qué formulario, pago o registro se exige?
-- ¿Cuál es el plazo y qué ocurre si se incumple?
-- ¿Qué fuente oficial confirma la respuesta?
+**Estudiante:** No: usted dijo que es una estimación. Así que el trabajador probablemente todavía tiene que presentar la declaración para comparar lo que se retuvo con lo que realmente debe.
 
-## Ejemplo educativo
+**Guía:** Exactamente. Presentar la declaración concilia la estimación con la cifra real, y por eso existen tanto los reembolsos como los saldos por pagar.
 
-[SUPUESTO] Una persona obtiene 48.000 unidades monetarias de ingresos y además recibe 3.000 por un trabajo independiente. Conserva recibos, estados de cuenta y documentos de pago, pero todavía no sabe cómo se clasifica cada cantidad. Antes de calcular, identifica su jurisdicción, periodo fiscal, condición laboral y naturaleza de los gastos.
+## Cuestionario práctico
 
-Este ejemplo no determina una obligación real. Muestra el orden correcto: clasificar hechos, reunir documentación, consultar instrucciones oficiales y calcular solamente después. Si una regla afecta empleo, empresa, inversión o propiedad, debe analizarse por separado antes de integrar el resultado.
+**Pregunta 1.** La mejor descripción de la retención es:
 
-## Aplicación al tema
+A) Su factura final de impuestos
+B) Un pago estimado por adelantado para su futura obligación tributaria
+C) Una donación voluntaria
+D) Dinero que nunca recupera
 
-Para estudiar **qué es la retención fiscal**, crea una hoja de trabajo con cuatro columnas: hecho, posible tratamiento, documento de respaldo y fuente pendiente de verificación. Marca como **HECHO** lo demostrado, como **SUPUESTO** lo que falta confirmar y como **OPINIÓN** cualquier recomendación basada en preferencias o tolerancia al riesgo.
+**Pregunta 2.** Si se retiene demasiado impuesto durante el año, el resultado típico es:
 
-No mezcles traducción con localización jurídica. Un término estadounidense como W-2, 1099, Medicare, LLC, S-Corp, Roth o impuesto estatal sobre ventas puede traducirse para aprender el concepto, pero no debe presentarse como si fuera una figura idéntica en España u otra jurisdicción.
+A) Una sanción
+B) Un reembolso
+C) No pasa nada
+D) Usted debe el doble
 
-## Errores comunes
+**Pregunta 3.** Si se retiene muy poco impuesto, el resultado típico es:
 
-- Aplicar una tasa de otro año o jurisdicción.
-- Confundir ingreso bruto con ingreso imponible o efectivo disponible.
-- Suponer que un gasto empresarial siempre es deducible.
-- Creer que una deducción y un crédito producen el mismo efecto.
-- Perder justificantes o mezclar cuentas personales y empresariales.
-- Confundir un reembolso con una reducción real del impuesto.
-- Esperar hasta el vencimiento para organizar la información.
-- Utilizar contenido educativo como asesoramiento individualizado.
+A) Un reembolso
+B) Es posible que deba un impuesto adicional cuando presente la declaración
+C) No pasa nada
+D) Lo despiden de su empleo
 
-## Actividad práctica
+**Pregunta 4.** Una buena razón para revisar su configuración de retención es:
 
-1. Escribe una situación relacionada con este tema.
-2. Identifica jurisdicción y periodo fiscal.
-3. Enumera cinco hechos comprobables y tres datos faltantes.
-4. Reúne o describe los documentos pertinentes.
-5. Localiza una fuente oficial que deba consultarse.
-6. Redacta tres preguntas para un profesional fiscal.
-7. Explica qué dato podría cambiar la conclusión.
+A) Un cambio de vida importante, como un matrimonio o un empleo nuevo
+B) Nunca: la configuración no se puede cambiar
+C) Solo si trabaja por cuenta propia
+D) Solo una vez, en su primer empleo
 
-## Evaluación de competencia
+## Clave de respuestas
 
-1. ¿Por qué debe identificarse primero la jurisdicción?
-2. ¿Cuál es la diferencia entre hecho y supuesto?
-3. ¿Qué documento respaldaría la operación?
-4. ¿Qué fecha o periodo debe verificarse?
-5. ¿Qué organismo oficial podría publicar la regla?
-6. ¿Existe una posible excepción o clasificación alternativa?
-7. ¿Qué error produciría usar una tasa desactualizada?
-8. ¿Qué pregunta formularías a un profesional?
-9. ¿Qué registro conservarías y por cuánto tiempo según la regla aplicable?
-10. Resume el proceso de análisis sin inventar cifras.
+1. B, 2. B, 3. B, 4. A
 
-**Criterio de dominio:** 8 de 10 respuestas satisfactorias. Por debajo del 80 %, el alumno revisará la fuente, corregirá la clasificación y repetirá un escenario nuevo.
+## Respuestas y explicaciones
 
-## Respuestas orientativas
+**1.** La retención es una estimación de pago sobre la marcha que se cobra a lo largo del año, no el cálculo final.
 
-Las respuestas deben identificar jurisdicción, periodo, clasificación, hecho imponible, documentación y fuente oficial. Una buena respuesta declara incertidumbres y evita afirmar tasas, umbrales o plazos no verificados. Cuando falten hechos, la conclusión correcta es indicar qué información se necesita, no adivinar.
+**2.** El pago de más mediante la retención se le devuelve como reembolso después de que la declaración concilia las cifras.
+
+**3.** El pago de menos significa que la diferencia normalmente se debe cuando se calcula la obligación tributaria real.
+
+**4.** Como la retención se basa en la información que usted da, los cambios de vida importantes son un motivo natural para revisarla.
 
 ## Puntos clave
 
-- Las reglas fiscales cambian según lugar, fecha y clasificación.
-- Primero se clasifican los hechos; después se calcula.
-- La documentación permite defender una posición.
-- Deducciones, créditos, exclusiones y pagos anticipados son conceptos distintos.
-- Las fuentes oficiales vigentes tienen prioridad sobre resúmenes educativos.
-- La planificación legal es distinta de ocultar, falsear o evadir obligaciones.
-
-## Ruta de aprendizaje
-
-- **Anterior:** GREEN-L1-012
-- **Actual:** GREEN-L1-013
-- **Siguiente:** GREEN-L1-014
-
-## Localización — España
-
-Contenido en español de España para educación comparada. Las referencias a formularios y entidades estadounidenses explican conceptos del currículo original y no sustituyen la normativa española. Antes de aplicar cualquier regla deben verificarse la Agencia Tributaria u otra autoridad competente, el periodo fiscal y las circunstancias concretas.
+- La retención es un pago de impuestos estimado y continuo que se descuenta de los pagos de nómina a lo largo del año.
+- No es lo mismo que su factura final de impuestos: presentar la declaración concilia las dos.
+- Retener de más produce un reembolso; retener de menos produce un saldo por pagar.
+- Los cambios de vida son un buen motivo para revisar y ajustar su retención.

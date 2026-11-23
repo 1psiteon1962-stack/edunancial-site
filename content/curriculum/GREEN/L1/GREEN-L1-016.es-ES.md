@@ -1,116 +1,89 @@
 ---
 id: GREEN-L1-016
 track: GREEN
-officialTrackName: "Business Taxes"
+officialTrackName: Taxes
 level: 1
 lessonNumber: 16
 locale: es-ES
-title: "Deducción estándar y deducciones detalladas"
-summary: "Introducción práctica a deducción estándar y deducciones detalladas, con énfasis en conceptos, documentación, decisiones y verificación mediante fuentes oficiales."
-version: "1.0"
-author: "Waldemar M. Caban, JD MA"
-date: "2026-09-01"
+title: "Deducción estándar frente a deducciones detalladas"
+summary: "Explica las dos formas comunes de reclamar deducciones: una cantidad estándar fija frente a detallar los gastos reales que califican."
+version: 1.0
+author: Waldemar M. Caban, JD MA
+date: 2026-08-09
 ---
 
-# 16. Deducción estándar y deducciones detalladas
+# Deducción estándar frente a deducciones detalladas
 
 ## Objetivos de aprendizaje
+- Explicar qué es una deducción estándar.
+- Explicar qué significa detallar las deducciones.
+- Identificar la lógica básica para escoger entre las dos.
 
-Al terminar esta lección, el alumno podrá:
+## Contenido principal
 
-1. Explicar con palabras sencillas el concepto de **deducción estándar y deducciones detalladas**.
-2. Identificar quién paga, quién recauda y qué hecho puede generar la obligación.
-3. Distinguir una regla general de una excepción que exige verificación.
-4. Organizar la documentación necesaria para revisar una posición fiscal.
-5. Formular preguntas útiles para una fuente oficial o un profesional cualificado.
+Muchos sistemas tributarios les dan a los contribuyentes una opción: tomar una deducción estándar (una cantidad fija a la que todos tienen derecho, sin necesidad de recibos) o detallar las deducciones, lo que significa enumerar y sumar uno por uno los gastos reales que califican (como ciertos pagos de intereses, donativos benéficos o gastos médicos, según las reglas del sistema).
 
-## Concepto principal
+La lógica básica de la decisión es sencilla: si el total por menorlado sería mayor que la deducción estándar, detallar ahorra más dinero. Si no, tomar la deducción estándar es más sencillo e igual de eficaz desde el punto de vista financiero. Como la deducción estándar no requiere documentación, muchas personas la escogen por defecto, a menos que tengan una razón específica (como un donativo benéfico grande o gastos importantes que califican) para detallar en su lugar.
 
-[HECHO VERIFICABLE] Los impuestos son obligaciones creadas por una jurisdicción. La respuesta correcta depende del país, territorio, estado o provincia, municipio, periodo fiscal, tipo de contribuyente y naturaleza de la operación. Por eso, comprender **deducción estándar y deducciones detalladas** exige identificar primero la jurisdicción y la fecha aplicable.
+## Ejemplo práctico
 
-La educación fiscal no consiste en memorizar una cifra aislada. Consiste en reconocer el hecho imponible, la base, el tipo, las deducciones o créditos posibles, el plazo, la documentación y la autoridad que publica la regla. Las tasas, umbrales y formularios pueden cambiar; antes de actuar deben comprobarse en una fuente oficial vigente.
+**Pregunta:** Los gastos que alguien podría detallar en el año suman menos que la cantidad de la deducción estándar. ¿Debería detallar?
 
-## Marco práctico de análisis
+**Estudiante:** Probablemente no, porque detallar requiere más esfuerzo sin ningún beneficio adicional.
 
-Utiliza estas preguntas:
+**Guía:** Correcto. ¿Cuál es la regla general para escoger?
 
-- ¿Qué jurisdicción tiene autoridad sobre la persona o transacción?
-- ¿Cuál es el periodo fiscal?
-- ¿Quién es el contribuyente y cuál es su clasificación?
-- ¿Qué ingreso, compra, propiedad o actividad activa la regla?
-- ¿Cómo se calcula la base?
-- ¿Existe una deducción, crédito, exclusión o exención?
-- ¿Qué formulario, pago o registro se exige?
-- ¿Cuál es el plazo y qué ocurre si se incumple?
-- ¿Qué fuente oficial confirma la respuesta?
+**Estudiante:** Comparar el total por menorlado con la deducción estándar y escoger la que sea mayor.
 
-## Ejemplo educativo
+**Guía:** Exactamente: es una comparación sencilla, no una cuestión de preferencia.
 
-[SUPUESTO] Una persona obtiene 48.000 unidades monetarias de ingresos y además recibe 3.000 por un trabajo independiente. Conserva recibos, estados de cuenta y documentos de pago, pero todavía no sabe cómo se clasifica cada cantidad. Antes de calcular, identifica su jurisdicción, periodo fiscal, condición laboral y naturaleza de los gastos.
+## Cuestionario práctico
 
-Este ejemplo no determina una obligación real. Muestra el orden correcto: clasificar hechos, reunir documentación, consultar instrucciones oficiales y calcular solamente después. Si una regla afecta empleo, empresa, inversión o propiedad, debe analizarse por separado antes de integrar el resultado.
+**Pregunta 1.** Una deducción estándar es:
 
-## Aplicación al tema
+A) Una cantidad fija que no requiere documentación detallada
+B) Algo disponible solo para los negocios
+C) Lo mismo que un crédito tributario
+D) Ilegal en la mayoría de los países
 
-Para estudiar **deducción estándar y deducciones detalladas**, crea una hoja de trabajo con cuatro columnas: hecho, posible tratamiento, documento de respaldo y fuente pendiente de verificación. Marca como **HECHO** lo demostrado, como **SUPUESTO** lo que falta confirmar y como **OPINIÓN** cualquier recomendación basada en preferencias o tolerancia al riesgo.
+**Pregunta 2.** Detallar significa:
 
-No mezcles traducción con localización jurídica. Un término estadounidense como W-2, 1099, Medicare, LLC, S-Corp, Roth o impuesto estatal sobre ventas puede traducirse para aprender el concepto, pero no debe presentarse como si fuera una figura idéntica en España u otra jurisdicción.
+A) Tomar la cantidad estándar fija
+B) Enumerar y sumar los gastos reales que califican
+C) No pagar ningún impuesto
+D) Evitar todas las deducciones
 
-## Errores comunes
+**Pregunta 3.** La regla básica para escoger entre las dos es:
 
-- Aplicar una tasa de otro año o jurisdicción.
-- Confundir ingreso bruto con ingreso imponible o efectivo disponible.
-- Suponer que un gasto empresarial siempre es deducible.
-- Creer que una deducción y un crédito producen el mismo efecto.
-- Perder justificantes o mezclar cuentas personales y empresariales.
-- Confundir un reembolso con una reducción real del impuesto.
-- Esperar hasta el vencimiento para organizar la información.
-- Utilizar contenido educativo como asesoramiento individualizado.
+A) Detallar siempre
+B) Tomar siempre la deducción estándar
+C) Escoger la que produzca la deducción mayor
+D) Echarlo a la suerte
 
-## Actividad práctica
+**Pregunta 4.** ¿Por qué alguien podría no detallar aunque en teoría pudiera hacerlo?
 
-1. Escribe una situación relacionada con este tema.
-2. Identifica jurisdicción y periodo fiscal.
-3. Enumera cinco hechos comprobables y tres datos faltantes.
-4. Reúne o describe los documentos pertinentes.
-5. Localiza una fuente oficial que deba consultarse.
-6. Redacta tres preguntas para un profesional fiscal.
-7. Explica qué dato podría cambiar la conclusión.
+A) Es ilegal
+B) Su total por menorlado es menor que la deducción estándar, o el papeleo no vale la pena por la pequeña ganancia
+C) Las deducciones estándar no existen
+D) Detallar siempre es obligatorio
 
-## Evaluación de competencia
+## Clave de respuestas
 
-1. ¿Por qué debe identificarse primero la jurisdicción?
-2. ¿Cuál es la diferencia entre hecho y supuesto?
-3. ¿Qué documento respaldaría la operación?
-4. ¿Qué fecha o periodo debe verificarse?
-5. ¿Qué organismo oficial podría publicar la regla?
-6. ¿Existe una posible excepción o clasificación alternativa?
-7. ¿Qué error produciría usar una tasa desactualizada?
-8. ¿Qué pregunta formularías a un profesional?
-9. ¿Qué registro conservarías y por cuánto tiempo según la regla aplicable?
-10. Resume el proceso de análisis sin inventar cifras.
+1. A, 2. B, 3. C, 4. B
 
-**Criterio de dominio:** 8 de 10 respuestas satisfactorias. Por debajo del 80 %, el alumno revisará la fuente, corregirá la clasificación y repetirá un escenario nuevo.
+## Respuestas y explicaciones
 
-## Respuestas orientativas
+**1.** Una deducción estándar es una cantidad fija que no requiere documentación y que existe en muchos sistemas tributarios.
 
-Las respuestas deben identificar jurisdicción, periodo, clasificación, hecho imponible, documentación y fuente oficial. Una buena respuesta declara incertidumbres y evita afirmar tasas, umbrales o plazos no verificados. Cuando falten hechos, la conclusión correcta es indicar qué información se necesita, no adivinar.
+**2.** Detallar significa sumar los gastos reales que califican en vez de tomar la cantidad fija.
+
+**3.** La decisión se reduce a una comparación sencilla: gana la cifra que sea mayor.
+
+**4.** Cuando el total por menorlado no supera la deducción estándar, el papeleo adicional no tiene ningún beneficio financiero.
 
 ## Puntos clave
 
-- Las reglas fiscales cambian según lugar, fecha y clasificación.
-- Primero se clasifican los hechos; después se calcula.
-- La documentación permite defender una posición.
-- Deducciones, créditos, exclusiones y pagos anticipados son conceptos distintos.
-- Las fuentes oficiales vigentes tienen prioridad sobre resúmenes educativos.
-- La planificación legal es distinta de ocultar, falsear o evadir obligaciones.
-
-## Ruta de aprendizaje
-
-- **Anterior:** GREEN-L1-015
-- **Actual:** GREEN-L1-016
-- **Siguiente:** GREEN-L1-017
-
-## Localización — España
-
-Contenido en español de España para educación comparada. Las referencias a formularios y entidades estadounidenses explican conceptos del currículo original y no sustituyen la normativa española. Antes de aplicar cualquier regla deben verificarse la Agencia Tributaria u otra autoridad competente, el periodo fiscal y las circunstancias concretas.
+- Una deducción estándar es una cantidad fija y sencilla que no requiere documentación.
+- Detallar significa, en cambio, sumar los gastos reales que califican.
+- Escoja la opción que produzca la deducción mayor.
+- La mayoría de las personas escoge por defecto la deducción estándar, a menos que tenga una razón clara para detallar.

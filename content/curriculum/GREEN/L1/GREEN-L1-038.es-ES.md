@@ -1,116 +1,89 @@
 ---
 id: GREEN-L1-038
 track: GREEN
-officialTrackName: "Business Taxes"
+officialTrackName: Taxes
 level: 1
 lessonNumber: 38
 locale: es-ES
-title: "Impuestos especiales sobre productos y consumos"
-summary: "Introducción práctica a impuestos especiales sobre productos y consumos, con énfasis en conceptos, documentación, decisiones y verificación mediante fuentes oficiales."
-version: "1.0"
-author: "Waldemar M. Caban, JD MA"
-date: "2026-09-01"
+title: "Los «impuestos al pecado» y los impuestos selectivos al consumo"
+summary: "Presenta los impuestos selectivos al consumo, a menudo llamados «impuestos al pecado» cuando se aplican a bienes específicos como el alcohol o el tabaco, como una categoría de impuesto distinta y motivada por la política."
+version: 1.0
+author: Waldemar M. Caban, JD MA
+date: 2026-08-09
 ---
 
-# 38. Impuestos especiales sobre productos y consumos
+# Los «impuestos al pecado» y los impuestos selectivos al consumo
 
 ## Objetivos de aprendizaje
+- Definir un impuesto selectivo al consumo.
+- Explicar el término «impuesto al pecado» y el razonamiento de política detrás de él.
+- Distinguir los impuestos selectivos al consumo del impuesto general sobre las ventas.
 
-Al terminar esta lección, el alumno podrá:
+## Contenido principal
 
-1. Explicar con palabras sencillas el concepto de **impuestos especiales sobre productos y consumos**.
-2. Identificar quién paga, quién recauda y qué hecho puede generar la obligación.
-3. Distinguir una regla general de una excepción que exige verificación.
-4. Organizar la documentación necesaria para revisar una posición fiscal.
-5. Formular preguntas útiles para una fuente oficial o un profesional cualificado.
+Un impuesto selectivo al consumo es un impuesto que se aplica a un bien o a una actividad específica, en vez de a las compras en general, como lo hace un impuesto sobre las ventas amplio. Cuando un impuesto selectivo apunta a un bien que se considera dañino en exceso (el alcohol, el tabaco y, a veces, las bebidas azucaradas son ejemplos comunes), a menudo se le llama de forma informal «impuesto al pecado».
 
-## Concepto principal
+El razonamiento de política detrás de los impuestos al pecado suele tener dos partes: aumentar la recaudación y desalentar el consumo del bien gravado haciéndolo más caro. A diferencia del impuesto general sobre las ventas, que se aplica de forma amplia y neutral a la mayoría de las compras, los impuestos selectivos al consumo son deliberadamente limitados y dirigidos, y reflejan un juicio de política específico sobre ese bien o esa actividad en particular. Si los impuestos al pecado realmente reducen el consumo de forma eficaz, y si recaen de forma desproporcionada sobre los consumidores de ingresos más bajos, son preguntas que de verdad se debaten, no hechos resueltos.
 
-[HECHO VERIFICABLE] Los impuestos son obligaciones creadas por una jurisdicción. La respuesta correcta depende del país, territorio, estado o provincia, municipio, periodo fiscal, tipo de contribuyente y naturaleza de la operación. Por eso, comprender **impuestos especiales sobre productos y consumos** exige identificar primero la jurisdicción y la fecha aplicable.
+## Ejemplo práctico
 
-La educación fiscal no consiste en memorizar una cifra aislada. Consiste en reconocer el hecho imponible, la base, el tipo, las deducciones o créditos posibles, el plazo, la documentación y la autoridad que publica la regla. Las tasas, umbrales y formularios pueden cambiar; antes de actuar deben comprobarse en una fuente oficial vigente.
+**Pregunta:** Un gobierno añade un impuesto adicional específicamente a los refrescos azucarados, además del impuesto sobre las ventas normal que se aplica a todas las compras al por menor. ¿Qué tipo de impuesto es el cargo adicional sobre los refrescos?
 
-## Marco práctico de análisis
+**Estudiante:** Según esta lección, parece un impuesto selectivo al consumo, porque apunta específicamente a un producto y no a las compras en general.
 
-Utiliza estas preguntas:
+**Guía:** ¿Cuál es el propósito doble probable detrás de ese tipo de impuesto dirigido?
 
-- ¿Qué jurisdicción tiene autoridad sobre la persona o transacción?
-- ¿Cuál es el periodo fiscal?
-- ¿Quién es el contribuyente y cuál es su clasificación?
-- ¿Qué ingreso, compra, propiedad o actividad activa la regla?
-- ¿Cómo se calcula la base?
-- ¿Existe una deducción, crédito, exclusión o exención?
-- ¿Qué formulario, pago o registro se exige?
-- ¿Cuál es el plazo y qué ocurre si se incumple?
-- ¿Qué fuente oficial confirma la respuesta?
+**Estudiante:** Aumentar la recaudación y también desalentar el consumo de refrescos haciéndolos más caros.
 
-## Ejemplo educativo
+**Guía:** Exactamente, y vale la pena señalar que ambos efectos, y su justicia, se debaten de verdad.
 
-[SUPUESTO] Una persona obtiene 48.000 unidades monetarias de ingresos y además recibe 3.000 por un trabajo independiente. Conserva recibos, estados de cuenta y documentos de pago, pero todavía no sabe cómo se clasifica cada cantidad. Antes de calcular, identifica su jurisdicción, periodo fiscal, condición laboral y naturaleza de los gastos.
+## Cuestionario práctico
 
-Este ejemplo no determina una obligación real. Muestra el orden correcto: clasificar hechos, reunir documentación, consultar instrucciones oficiales y calcular solamente después. Si una regla afecta empleo, empresa, inversión o propiedad, debe analizarse por separado antes de integrar el resultado.
+**Pregunta 1.** La mejor descripción de un impuesto selectivo al consumo es:
 
-## Aplicación al tema
+A) Un impuesto amplio sobre todas las compras
+B) Un impuesto dirigido a un bien o una actividad específica
+C) Lo mismo que el impuesto sobre la renta
+D) Un tipo de impuesto sobre la propiedad
 
-Para estudiar **impuestos especiales sobre productos y consumos**, crea una hoja de trabajo con cuatro columnas: hecho, posible tratamiento, documento de respaldo y fuente pendiente de verificación. Marca como **HECHO** lo demostrado, como **SUPUESTO** lo que falta confirmar y como **OPINIÓN** cualquier recomendación basada en preferencias o tolerancia al riesgo.
+**Pregunta 2.** Un «impuesto al pecado» es:
 
-No mezcles traducción con localización jurídica. Un término estadounidense como W-2, 1099, Medicare, LLC, S-Corp, Roth o impuesto estatal sobre ventas puede traducirse para aprender el concepto, pero no debe presentarse como si fuera una figura idéntica en España u otra jurisdicción.
+A) Algo sin relación con los impuestos selectivos al consumo
+B) Un término informal para un impuesto selectivo al consumo sobre bienes que se consideran dañinos en exceso
+C) Un impuesto solo sobre la renta
+D) Un tipo de crédito tributario
 
-## Errores comunes
+**Pregunta 3.** El propósito doble típico detrás de los impuestos al pecado es:
 
-- Aplicar una tasa de otro año o jurisdicción.
-- Confundir ingreso bruto con ingreso imponible o efectivo disponible.
-- Suponer que un gasto empresarial siempre es deducible.
-- Creer que una deducción y un crédito producen el mismo efecto.
-- Perder justificantes o mezclar cuentas personales y empresariales.
-- Confundir un reembolso con una reducción real del impuesto.
-- Esperar hasta el vencimiento para organizar la información.
-- Utilizar contenido educativo como asesoramiento individualizado.
+A) No tienen ningún propósito
+B) Aumentar la recaudación y desalentar el consumo
+C) Solo desalentar el consumo, nunca aumentar la recaudación
+D) Solo aumentar la recaudación, sin ninguna meta de comportamiento
 
-## Actividad práctica
+**Pregunta 4.** ¿La eficacia y la justicia de los impuestos al pecado son una cuestión resuelta?
 
-1. Escribe una situación relacionada con este tema.
-2. Identifica jurisdicción y periodo fiscal.
-3. Enumera cinco hechos comprobables y tres datos faltantes.
-4. Reúne o describe los documentos pertinentes.
-5. Localiza una fuente oficial que deba consultarse.
-6. Redacta tres preguntas para un profesional fiscal.
-7. Explica qué dato podría cambiar la conclusión.
+A) Sí, en todas partes están de acuerdo
+B) No: es una cuestión de política que de verdad se debate
+C) Solo se debate en un país
+D) Nunca se ha hablado de ello
 
-## Evaluación de competencia
+## Clave de respuestas
 
-1. ¿Por qué debe identificarse primero la jurisdicción?
-2. ¿Cuál es la diferencia entre hecho y supuesto?
-3. ¿Qué documento respaldaría la operación?
-4. ¿Qué fecha o periodo debe verificarse?
-5. ¿Qué organismo oficial podría publicar la regla?
-6. ¿Existe una posible excepción o clasificación alternativa?
-7. ¿Qué error produciría usar una tasa desactualizada?
-8. ¿Qué pregunta formularías a un profesional?
-9. ¿Qué registro conservarías y por cuánto tiempo según la regla aplicable?
-10. Resume el proceso de análisis sin inventar cifras.
+1. B, 2. B, 3. B, 4. B
 
-**Criterio de dominio:** 8 de 10 respuestas satisfactorias. Por debajo del 80 %, el alumno revisará la fuente, corregirá la clasificación y repetirá un escenario nuevo.
+## Respuestas y explicaciones
 
-## Respuestas orientativas
+**1.** Los impuestos selectivos al consumo se concentran en un producto o una actividad específica, en vez de aplicarse de forma amplia.
 
-Las respuestas deben identificar jurisdicción, periodo, clasificación, hecho imponible, documentación y fuente oficial. Una buena respuesta declara incertidumbres y evita afirmar tasas, umbrales o plazos no verificados. Cuando falten hechos, la conclusión correcta es indicar qué información se necesita, no adivinar.
+**2.** La etiqueta de «impuesto al pecado» refleja que el bien gravado se considera dañino en exceso, como el alcohol o el tabaco.
+
+**3.** Generar recaudación y desalentar el comportamiento son las dos metas que se mencionan con frecuencia detrás de estos impuestos dirigidos.
+
+**4.** Hay personas razonables que no están de acuerdo sobre qué tan bien funcionan los impuestos al pecado y sobre quién soporta realmente su carga.
 
 ## Puntos clave
 
-- Las reglas fiscales cambian según lugar, fecha y clasificación.
-- Primero se clasifican los hechos; después se calcula.
-- La documentación permite defender una posición.
-- Deducciones, créditos, exclusiones y pagos anticipados son conceptos distintos.
-- Las fuentes oficiales vigentes tienen prioridad sobre resúmenes educativos.
-- La planificación legal es distinta de ocultar, falsear o evadir obligaciones.
-
-## Ruta de aprendizaje
-
-- **Anterior:** GREEN-L1-037
-- **Actual:** GREEN-L1-038
-- **Siguiente:** GREEN-L1-039
-
-## Localización — España
-
-Contenido en español de España para educación comparada. Las referencias a formularios y entidades estadounidenses explican conceptos del currículo original y no sustituyen la normativa española. Antes de aplicar cualquier regla deben verificarse la Agencia Tributaria u otra autoridad competente, el periodo fiscal y las circunstancias concretas.
+- Los impuestos selectivos al consumo apuntan a bienes o actividades específicas, a diferencia del impuesto general sobre las ventas, que es amplio.
+- «Impuesto al pecado» es un término informal para los impuestos selectivos sobre bienes que se consideran dañinos en exceso.
+- Las metas típicas son la recaudación y desalentar el consumo.
+- La eficacia y la justicia de los impuestos al pecado siguen debatiéndose de verdad.

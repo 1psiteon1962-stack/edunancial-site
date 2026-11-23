@@ -1,82 +1,89 @@
 ---
 id: GREEN-L1-018
 track: GREEN
-officialTrackName: Impuestos
+officialTrackName: Taxes
 level: 1
 lessonNumber: 18
 locale: es-Caribbean
-title: "Estado civil para efectos tributarios: soltero, casado y jefe de hogar"
-summary: "Introduce el concepto estadounidense de estado civil para efectos de la declaración y explica por qué la composición del hogar puede afectar el cálculo tributario."
+title: "El estado civil para la declaración: soltero, casado, jefe de familia"
+summary: "Presenta el concepto del estado civil para la declaración y por qué la situación conyugal y del hogar puede afectar el cálculo de los impuestos."
 version: 1.0
 author: Waldemar M. Caban, JD MA
 date: 2026-08-09
 ---
 
-# Estado civil para efectos tributarios: soltero, casado y jefe de hogar
+# El estado civil para la declaración: soltero, casado, jefe de familia
 
 ## Objetivos de aprendizaje
-
-- Definir el concepto principal de la lección.
-- Explicar cómo puede afectar una decisión tributaria o financiera.
-- Reconocer cuándo las reglas dependen de la jurisdicción.
+- Explicar qué significa el estado civil para la declaración.
+- Identificar las categorías comunes de estado civil para la declaración.
+- Explicar, en términos generales, por qué el estado civil para la declaración puede afectar el resultado tributario.
 
 ## Contenido principal
 
-En algunos sistemas, especialmente el de Estados Unidos, la situación matrimonial y familiar determina una categoría para presentar la declaración. Entre las categorías estadounidenses se encuentran soltero, casado —con opciones que dependen de las reglas— y jefe de hogar para determinadas personas que cumplen requisitos.
+El estado civil para la declaración es una categoría, basada en su situación conyugal y del hogar, que muchos sistemas tributarios usan para determinar qué tramos, qué cantidades de deducción y qué reglas de elegibilidad se le aplican. Entre las categorías comunes están soltero, casado (a veces con la opción de declarar en conjunto o por separado) y jefe de familia (normalmente para una persona no casada que mantiene dependientes).
 
-La categoría puede afectar tramos, deducciones y otros cálculos. Otros países utilizan estructuras distintas. Por eso no debe suponerse que estas etiquetas aplican globalmente; hay que verificar las categorías y requisitos de la jurisdicción correspondiente.
+El estado civil para la declaración importa porque cambia el cálculo de fondo: el mismo ingreso puede dar como resultado una cantidad distinta de impuesto adeudado según el estado que se aplique, porque los umbrales de los tramos y las cantidades de la deducción estándar a menudo se fijan de forma distinta para cada categoría. No es una laguna legal ni un truco; refleja un juicio de política según el cual la composición del hogar afecta la capacidad financiera real de una persona o familia para pagar impuestos.
 
 ## Ejemplo práctico
 
-**Pregunta:** ¿Qué debe hacer una persona antes de aplicar este concepto a su propia situación?
+**Pregunta:** Dos personas ganan salarios idénticos, pero una es soltera y la otra mantiene a dos hijos dependientes como jefa de familia. ¿Esperaría que sus cálculos de impuestos fueran idénticos?
 
-**Estudiante:** Entender primero el mecanismo y después verificar las reglas y cifras que realmente aplican donde vive.
+**Estudiante:** Probablemente no, porque el estado civil para la declaración cambia qué tramos y qué cantidades de deducción se aplican.
 
-**Guía:** Exactamente. La alfabetización tributaria permite reconocer el concepto; la decisión concreta requiere información vigente de la jurisdicción correspondiente.
+**Guía:** ¿Por qué el sistema tributario podría tratar de forma distinta el caso de la jefa de familia?
+
+**Estudiante:** Porque mantener dependientes afecta cuánto de ese ingreso está realmente disponible para las propias necesidades de la persona, así que la política lo ajusta.
+
+**Guía:** Correcto: el estado civil para la declaración refleja un juicio sobre la capacidad financiera, no solo el ingreso bruto.
 
 ## Prueba práctica
 
-**Pregunta 1.** ¿Qué es más importante antes de aplicar una regla tributaria?
-A) Suponer que es universal
-B) Entender el concepto y verificar la regla vigente
-C) Usar cifras antiguas
-D) Ignorar la jurisdicción
+**Pregunta 1.** El estado civil para la declaración se basa en:
 
-**Pregunta 2.** ¿Las cantidades y requisitos tributarios pueden cambiar?
-A) No
-B) Sí
-C) Solo para empresas
-D) Solo una vez
+A) Su título de empleo
+B) Su situación conyugal y del hogar
+C) Solo su edad
+D) Su país de nacimiento
 
-**Pregunta 3.** Una decisión informada debe basarse en:
-A) Reglas aplicables y datos actuales
-B) Rumores
-C) Una regla de otro país sin verificar
-D) Ninguna documentación
+**Pregunta 2.** Entre las categorías comunes de estado civil para la declaración están:
 
-**Pregunta 4.** La educación tributaria busca principalmente:
-A) Garantizar un resultado específico
-B) Dar herramientas para comprender y evaluar decisiones
-C) Sustituir toda asesoría profesional
-D) Eliminar obligaciones legales
+A) Soltero, casado, jefe de familia
+B) Solo «empleado» y «desempleado»
+C) Solo «rico» y «pobre»
+D) Solo «ciudadano» y «no ciudadano»
+
+**Pregunta 3.** El estado civil para la declaración puede afectar:
+
+A) Nada
+B) Los tramos y las cantidades de deducción que se aplican
+C) Solo su nombre en el formulario
+D) Solo el impuesto sobre las ventas
+
+**Pregunta 4.** En general, la razón por la que importa el estado civil para la declaración se describe como:
+
+A) Una laguna legal
+B) Un reflejo de la distinta capacidad financiera según la composición del hogar
+C) El azar
+D) Algo irrelevante para el cálculo de los impuestos
 
 ## Clave de respuestas
 
-1. B, 2. B, 3. A, 4. B
+1. B, 2. A, 3. B, 4. B
 
 ## Respuestas y explicaciones
 
-**1.** Primero se comprende el mecanismo y luego se verifica cómo lo regula la jurisdicción.
+**1.** Las categorías de estado civil para la declaración se construyen alrededor del estado conyugal y de las responsabilidades del hogar.
 
-**2.** Las leyes, límites y cantidades pueden cambiar con el tiempo.
+**2.** Soltero, casado y jefe de familia son categorías de uso amplio, aunque los nombres exactos varían según el país.
 
-**3.** Las decisiones financieras requieren información aplicable y actual.
+**3.** Los distintos estados a menudo vienen con distintos umbrales de tramos y distintas cantidades de deducción.
 
-**4.** Comprender los conceptos mejora la capacidad de decidir; no garantiza resultados ni sustituye asesoría cuando sea necesaria.
+**4.** El razonamiento de política es que la composición del hogar afecta la capacidad financiera real, no que sea un truco o un aprovechamiento.
 
 ## Puntos clave
 
-- Comprenda el mecanismo antes de memorizar cifras.
-- Verifique las reglas de su jurisdicción.
-- Distinga conceptos generales de requisitos específicos de un país.
-- Utilice información vigente al tomar decisiones.
+- El estado civil para la declaración refleja la situación conyugal y del hogar.
+- Entre las categorías comunes están soltero, casado y jefe de familia.
+- El estado civil para la declaración afecta los tramos y las cantidades de deducción que se aplican.
+- Esto refleja juicios de política sobre la capacidad financiera, no una laguna legal.

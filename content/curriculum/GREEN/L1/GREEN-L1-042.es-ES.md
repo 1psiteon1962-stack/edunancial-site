@@ -1,116 +1,89 @@
 ---
 id: GREEN-L1-042
 track: GREEN
-officialTrackName: "Business Taxes"
+officialTrackName: Taxes
 level: 1
 lessonNumber: 42
 locale: es-ES
-title: "Entidades de atribución: LLC, S-Corp y empresario individual"
-summary: "Introducción práctica a entidades de atribución: llc, s-corp y empresario individual, con énfasis en conceptos, documentación, decisiones y verificación mediante fuentes oficiales."
-version: "1.0"
-author: "Waldemar M. Caban, JD MA"
-date: "2026-09-01"
+title: "Las entidades de transferencia: LLC, corporaciones S y negocios de un solo dueño"
+summary: "Presenta el concepto general de la tributación por transferencia como una alternativa al patrón de doble tributación de las corporaciones estándar."
+version: 1.0
+author: Waldemar M. Caban, JD MA
+date: 2026-08-09
 ---
 
-# 42. Entidades de atribución: LLC, S-Corp y empresario individual
+# Las entidades de transferencia: LLC, corporaciones S y negocios de un solo dueño
 
 ## Objetivos de aprendizaje
+- Definir en términos generales una entidad de transferencia.
+- Explicar cómo la tributación por transferencia evita el patrón de doble tributación.
+- Reconocer ejemplos comunes de estructuras de transferencia sin tratar los nombres como universales.
 
-Al terminar esta lección, el alumno podrá:
+## Contenido principal
 
-1. Explicar con palabras sencillas el concepto de **entidades de atribución: llc, s-corp y empresario individual**.
-2. Identificar quién paga, quién recauda y qué hecho puede generar la obligación.
-3. Distinguir una regla general de una excepción que exige verificación.
-4. Organizar la documentación necesaria para revisar una posición fiscal.
-5. Formular preguntas útiles para una fuente oficial o un profesional cualificado.
+Una entidad de transferencia (pass-through, en inglés) es una estructura de negocio en la que la ganancia no tributa en absoluto a nivel del negocio: en cambio, «pasa» directamente a los dueños, que la declaran y pagan el impuesto sobre ella en sus propias declaraciones personales, en general una sola vez. Esto evita directamente el patrón de doble tributación visto en la lección anterior, ya que, para empezar, no hay una capa aparte de impuesto a nivel corporativo.
 
-## Concepto principal
+Entre los ejemplos comunes de estructuras que a menudo se organizan para tributar por transferencia están los negocios de un solo dueño (el caso más sencillo: no hay ninguna capa aparte de impuesto del negocio) y, en muchos sistemas, ciertas compañías de responsabilidad limitada (LLC, por sus siglas en inglés) o estructuras corporativas con una elección especial (a menudo llamadas «corporaciones S» en el sistema de Estados Unidos, aunque en otros lugares existen conceptos equivalentes con otros nombres). Las reglas legales y tributarias específicas para calificar como entidad de transferencia varían según el país e implican ventajas y desventajas reales más allá de solo evitar la doble tributación; y precisamente por eso la elección de la estructura del negocio, que se ve a continuación, merece una reflexión cuidadosa en vez de una opción por defecto.
 
-[HECHO VERIFICABLE] Los impuestos son obligaciones creadas por una jurisdicción. La respuesta correcta depende del país, territorio, estado o provincia, municipio, periodo fiscal, tipo de contribuyente y naturaleza de la operación. Por eso, comprender **entidades de atribución: llc, s-corp y empresario individual** exige identificar primero la jurisdicción y la fecha aplicable.
+## Ejemplo práctico
 
-La educación fiscal no consiste en memorizar una cifra aislada. Consiste en reconocer el hecho imponible, la base, el tipo, las deducciones o créditos posibles, el plazo, la documentación y la autoridad que publica la regla. Las tasas, umbrales y formularios pueden cambiar; antes de actuar deben comprobarse en una fuente oficial vigente.
+**Pregunta:** La dueña de un pequeño negocio quiere evitar el patrón de doble tributación que se aplica a las corporaciones estándar. ¿Qué categoría general de estructura de negocio podría investigar?
 
-## Marco práctico de análisis
+**Estudiante:** Según esta lección, probablemente querría investigar las estructuras de transferencia, ya que evitan una capa aparte de impuesto a nivel del negocio.
 
-Utiliza estas preguntas:
+**Guía:** ¿Cuál es la disyuntiva? ¿Evitar la doble tributación es siempre lo único que hay que considerar al escoger una estructura?
 
-- ¿Qué jurisdicción tiene autoridad sobre la persona o transacción?
-- ¿Cuál es el periodo fiscal?
-- ¿Quién es el contribuyente y cuál es su clasificación?
-- ¿Qué ingreso, compra, propiedad o actividad activa la regla?
-- ¿Cómo se calcula la base?
-- ¿Existe una deducción, crédito, exclusión o exención?
-- ¿Qué formulario, pago o registro se exige?
-- ¿Cuál es el plazo y qué ocurre si se incumple?
-- ¿Qué fuente oficial confirma la respuesta?
+**Estudiante:** No: la lección menciona que hay otras ventajas y desventajas reales más allá de la capa de impuestos, así que vale la pena mirar el panorama completo, no solo este tema.
 
-## Ejemplo educativo
+**Guía:** Exactamente, y por eso la próxima lección examina con más detalle la elección de la estructura del negocio.
 
-[SUPUESTO] Una persona obtiene 48.000 unidades monetarias de ingresos y además recibe 3.000 por un trabajo independiente. Conserva recibos, estados de cuenta y documentos de pago, pero todavía no sabe cómo se clasifica cada cantidad. Antes de calcular, identifica su jurisdicción, periodo fiscal, condición laboral y naturaleza de los gastos.
+## Cuestionario práctico
 
-Este ejemplo no determina una obligación real. Muestra el orden correcto: clasificar hechos, reunir documentación, consultar instrucciones oficiales y calcular solamente después. Si una regla afecta empleo, empresa, inversión o propiedad, debe analizarse por separado antes de integrar el resultado.
+**Pregunta 1.** Una entidad de transferencia es una en la que la ganancia:
 
-## Aplicación al tema
+A) Tributa dos veces, a nivel del negocio y a nivel de los dueños
+B) No tributa a nivel del negocio y pasa directamente a las declaraciones personales de los dueños
+C) Nunca tributa
+D) Solo tributa si el negocio fracasa
 
-Para estudiar **entidades de atribución: llc, s-corp y empresario individual**, crea una hoja de trabajo con cuatro columnas: hecho, posible tratamiento, documento de respaldo y fuente pendiente de verificación. Marca como **HECHO** lo demostrado, como **SUPUESTO** lo que falta confirmar y como **OPINIÓN** cualquier recomendación basada en preferencias o tolerancia al riesgo.
+**Pregunta 2.** La tributación por transferencia atiende directamente ¿qué concepto anterior?
 
-No mezcles traducción con localización jurídica. Un término estadounidense como W-2, 1099, Medicare, LLC, S-Corp, Roth o impuesto estatal sobre ventas puede traducirse para aprender el concepto, pero no debe presentarse como si fuera una figura idéntica en España u otra jurisdicción.
+A) El cobro del impuesto sobre las ventas
+B) La doble tributación
+C) Los aranceles
+D) La retención de la nómina
 
-## Errores comunes
+**Pregunta 3.** En esta lección, un negocio de un solo dueño se describe como:
 
-- Aplicar una tasa de otro año o jurisdicción.
-- Confundir ingreso bruto con ingreso imponible o efectivo disponible.
-- Suponer que un gasto empresarial siempre es deducible.
-- Creer que una deducción y un crédito producen el mismo efecto.
-- Perder justificantes o mezclar cuentas personales y empresariales.
-- Confundir un reembolso con una reducción real del impuesto.
-- Esperar hasta el vencimiento para organizar la información.
-- Utilizar contenido educativo como asesoramiento individualizado.
+A) Algo que siempre tiene doble tributación
+B) El caso más sencillo de transferencia, sin una capa aparte de impuesto del negocio
+C) Algo ilegal en la mayoría de los países
+D) Lo mismo que una corporación
 
-## Actividad práctica
+**Pregunta 4.** ¿Evitar la doble tributación es lo único que hay que considerar al escoger una estructura de negocio?
 
-1. Escribe una situación relacionada con este tema.
-2. Identifica jurisdicción y periodo fiscal.
-3. Enumera cinco hechos comprobables y tres datos faltantes.
-4. Reúne o describe los documentos pertinentes.
-5. Localiza una fuente oficial que deba consultarse.
-6. Redacta tres preguntas para un profesional fiscal.
-7. Explica qué dato podría cambiar la conclusión.
+A) Sí, es lo único
+B) No: hay otras ventajas y desventajas reales que sopesar
+C) La estructura del negocio no importa
+D) Solo importa el impuesto, nada más
 
-## Evaluación de competencia
+## Clave de respuestas
 
-1. ¿Por qué debe identificarse primero la jurisdicción?
-2. ¿Cuál es la diferencia entre hecho y supuesto?
-3. ¿Qué documento respaldaría la operación?
-4. ¿Qué fecha o periodo debe verificarse?
-5. ¿Qué organismo oficial podría publicar la regla?
-6. ¿Existe una posible excepción o clasificación alternativa?
-7. ¿Qué error produciría usar una tasa desactualizada?
-8. ¿Qué pregunta formularías a un profesional?
-9. ¿Qué registro conservarías y por cuánto tiempo según la regla aplicable?
-10. Resume el proceso de análisis sin inventar cifras.
+1. B, 2. B, 3. B, 4. B
 
-**Criterio de dominio:** 8 de 10 respuestas satisfactorias. Por debajo del 80 %, el alumno revisará la fuente, corregirá la clasificación y repetirá un escenario nuevo.
+## Respuestas y explicaciones
 
-## Respuestas orientativas
+**1.** Las estructuras de transferencia se saltan por completo el impuesto aparte a nivel del negocio y envían la ganancia directamente a la declaración propia del dueño.
 
-Las respuestas deben identificar jurisdicción, periodo, clasificación, hecho imponible, documentación y fuente oficial. Una buena respuesta declara incertidumbres y evita afirmar tasas, umbrales o plazos no verificados. Cuando falten hechos, la conclusión correcta es indicar qué información se necesita, no adivinar.
+**2.** Esta estructura existe específicamente como alternativa al patrón de tributación en dos capas descrito en la lección anterior.
+
+**3.** El negocio de un solo dueño es el ejemplo más claro, ya que el negocio y el dueño ya se tratan como un solo contribuyente.
+
+**4.** La elección de la estructura implica varias ventajas y desventajas (la protección de la responsabilidad, la complejidad y más), no solo la cuestión tributaria.
 
 ## Puntos clave
 
-- Las reglas fiscales cambian según lugar, fecha y clasificación.
-- Primero se clasifican los hechos; después se calcula.
-- La documentación permite defender una posición.
-- Deducciones, créditos, exclusiones y pagos anticipados son conceptos distintos.
-- Las fuentes oficiales vigentes tienen prioridad sobre resúmenes educativos.
-- La planificación legal es distinta de ocultar, falsear o evadir obligaciones.
-
-## Ruta de aprendizaje
-
-- **Anterior:** GREEN-L1-041
-- **Actual:** GREEN-L1-042
-- **Siguiente:** GREEN-L1-043
-
-## Localización — España
-
-Contenido en español de España para educación comparada. Las referencias a formularios y entidades estadounidenses explican conceptos del currículo original y no sustituyen la normativa española. Antes de aplicar cualquier regla deben verificarse la Agencia Tributaria u otra autoridad competente, el periodo fiscal y las circunstancias concretas.
+- Las entidades de transferencia evitan el impuesto a nivel del negocio y envían la ganancia directamente a las declaraciones personales de los dueños.
+- Esta es la alternativa directa al patrón de doble tributación de las corporaciones estándar.
+- Los negocios de un solo dueño son el ejemplo más sencillo de transferencia; ciertas LLC y estructuras con elección especial también pueden calificar.
+- Escoger una estructura de negocio implica ventajas y desventajas más allá de este solo tema tributario.

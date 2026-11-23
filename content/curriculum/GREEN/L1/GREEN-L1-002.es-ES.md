@@ -1,116 +1,103 @@
 ---
 id: GREEN-L1-002
 track: GREEN
-officialTrackName: "Business Taxes"
+officialTrackName: Taxes
 level: 1
 lessonNumber: 2
 locale: es-ES
-title: "Dónde se utiliza el dinero de los impuestos: bienes y servicios públicos"
-summary: "Introducción práctica a dónde se utiliza el dinero de los impuestos: bienes y servicios públicos, con énfasis en conceptos, documentación, decisiones y verificación mediante fuentes oficiales."
-version: "1.0"
-author: "Waldemar M. Caban, JD MA"
-date: "2026-09-01"
+title: "Adónde van sus impuestos: bienes y servicios públicos"
+summary: "Explora para qué se usa normalmente la recaudación de impuestos y presenta el concepto de bienes públicos frente a bienes privados."
+version: 1.0
+author: Waldemar M. Caban, JD MA
+date: 2026-08-09
 ---
 
-# 2. Dónde se utiliza el dinero de los impuestos: bienes y servicios públicos
+# Adónde van sus impuestos: bienes y servicios públicos
 
 ## Objetivos de aprendizaje
+- Distinguir entre un bien público y un bien privado.
+- Enumerar las categorías comunes del gasto público que se financian con impuestos.
+- Explicar por qué algunos bienes son difíciles de financiar sin un pago colectivo.
 
-Al terminar esta lección, el alumno podrá:
+## Contenido principal
 
-1. Explicar con palabras sencillas el concepto de **dónde se utiliza el dinero de los impuestos: bienes y servicios públicos**.
-2. Identificar quién paga, quién recauda y qué hecho puede generar la obligación.
-3. Distinguir una regla general de una excepción que exige verificación.
-4. Organizar la documentación necesaria para revisar una posición fiscal.
-5. Formular preguntas útiles para una fuente oficial o un profesional cualificado.
+Los economistas usan el término «bien público» para algo que es a la vez no excluible (no se puede impedir con facilidad que lo usen quienes no pagaron) y no rival (que una persona lo use no lo agota para los demás). El alumbrado público es un ejemplo clásico: una vez instalado, es difícil impedir que se beneficie alguien que no pagó, y que una persona camine bajo la luz no la hace más tenue para la siguiente.
 
-## Concepto principal
+Como los bienes públicos son difíciles de vender con ganancia a un cliente a la vez, los negocios privados a menudo no los construyen. Ese es el vacío que llenan los impuestos. Entre las categorías comunes que se financian con la recaudación de impuestos están la infraestructura (carreteras, puentes, sistemas de agua), la seguridad pública (policía, bomberos, tribunales), la educación (escuelas públicas), la defensa y los programas sociales (apoyo para la salud, asistencia por desempleo, sistemas de jubilación).
 
-[HECHO VERIFICABLE] Los impuestos son obligaciones creadas por una jurisdicción. La respuesta correcta depende del país, territorio, estado o provincia, municipio, periodo fiscal, tipo de contribuyente y naturaleza de la operación. Por eso, comprender **dónde se utiliza el dinero de los impuestos: bienes y servicios públicos** exige identificar primero la jurisdicción y la fecha aplicable.
+No todo aquello en que el gobierno gasta dinero es un bien público puro: parte del gasto se destina a servicios que en teoría se podrían vender de forma privada, pero que una sociedad ha decidido financiar de forma colectiva por otras razones, como garantizar un acceso amplio sin importar los ingresos. La educación pública es un buen ejemplo: existen escuelas privadas, pero la mayoría de los países también financian la educación pública porque una alfabetización amplia y unas destrezas básicas benefician a toda la sociedad, no solo al estudiante individual.
 
-La educación fiscal no consiste en memorizar una cifra aislada. Consiste en reconocer el hecho imponible, la base, el tipo, las deducciones o créditos posibles, el plazo, la documentación y la autoridad que publica la regla. Las tasas, umbrales y formularios pueden cambiar; antes de actuar deben comprobarse en una fuente oficial vigente.
+Entender esta distinción le ayuda a evaluar más adelante los debates de política tributaria: las discusiones sobre los impuestos a menudo son, en realidad, discusiones sobre qué bienes deberían ser públicos, cuáles deberían ser privados y cuánto financiamiento colectivo es suficiente.
 
-## Marco práctico de análisis
+## Ejemplo práctico
 
-Utiliza estas preguntas:
+**Pregunta:** Si una empresa privada construyera una carretera de peaje y solo pudieran circular por ella las personas que pagan el peaje, ¿sería esa carretera un bien público puro?
 
-- ¿Qué jurisdicción tiene autoridad sobre la persona o transacción?
-- ¿Cuál es el periodo fiscal?
-- ¿Quién es el contribuyente y cuál es su clasificación?
-- ¿Qué ingreso, compra, propiedad o actividad activa la regla?
-- ¿Cómo se calcula la base?
-- ¿Existe una deducción, crédito, exclusión o exención?
-- ¿Qué formulario, pago o registro se exige?
-- ¿Cuál es el plazo y qué ocurre si se incumple?
-- ¿Qué fuente oficial confirma la respuesta?
+**Estudiante:** No lo parece, porque si no paga lo pueden excluir.
 
-## Ejemplo educativo
+**Guía:** Correcto: esa es la prueba de la excluibilidad. ¿Qué le dice eso sobre quién suele construir las carreteras de peaje frente a las carreteras públicas gratuitas?
 
-[SUPUESTO] Una persona obtiene 48.000 unidades monetarias de ingresos y además recibe 3.000 por un trabajo independiente. Conserva recibos, estados de cuenta y documentos de pago, pero todavía no sabe cómo se clasifica cada cantidad. Antes de calcular, identifica su jurisdicción, periodo fiscal, condición laboral y naturaleza de los gastos.
+**Estudiante:** Una empresa privada puede ganar dinero con una carretera de peaje porque puede cobrarle a cada usuario. A una carretera pública gratuita no se le puede cobrar a cada usuario, así que tiene más sentido financiarla con impuestos compartidos.
 
-Este ejemplo no determina una obligación real. Muestra el orden correcto: clasificar hechos, reunir documentación, consultar instrucciones oficiales y calcular solamente después. Si una regla afecta empleo, empresa, inversión o propiedad, debe analizarse por separado antes de integrar el resultado.
+**Guía:** Esa es la lógica central. La excluibilidad suele ser lo que determina si algo se construye de forma privada o se financia con fondos públicos.
 
-## Aplicación al tema
+## Cuestionario práctico
 
-Para estudiar **dónde se utiliza el dinero de los impuestos: bienes y servicios públicos**, crea una hoja de trabajo con cuatro columnas: hecho, posible tratamiento, documento de respaldo y fuente pendiente de verificación. Marca como **HECHO** lo demostrado, como **SUPUESTO** lo que falta confirmar y como **OPINIÓN** cualquier recomendación basada en preferencias o tolerancia al riesgo.
+**Pregunta 1.** La mejor descripción de un bien público es uno que es:
 
-No mezcles traducción con localización jurídica. Un término estadounidense como W-2, 1099, Medicare, LLC, S-Corp, Roth o impuesto estatal sobre ventas puede traducirse para aprender el concepto, pero no debe presentarse como si fuera una figura idéntica en España u otra jurisdicción.
+A) Caro y escaso
+B) No excluible y no rival
+C) Usado solo por personas ricas
+D) Siempre gratis de construir
 
-## Errores comunes
+**Pregunta 2.** ¿Cuál de los siguientes es el mejor ejemplo de un bien público?
 
-- Aplicar una tasa de otro año o jurisdicción.
-- Confundir ingreso bruto con ingreso imponible o efectivo disponible.
-- Suponer que un gasto empresarial siempre es deducible.
-- Creer que una deducción y un crédito producen el mismo efecto.
-- Perder justificantes o mezclar cuentas personales y empresariales.
-- Confundir un reembolso con una reducción real del impuesto.
-- Esperar hasta el vencimiento para organizar la información.
-- Utilizar contenido educativo como asesoramiento individualizado.
+A) Un coche privado
+B) Un poste de alumbrado público
+C) Una comida en un restaurante
+D) Un teléfono personal
 
-## Actividad práctica
+**Pregunta 3.** ¿Por qué los negocios privados a menudo evitan construir bienes públicos puros?
 
-1. Escribe una situación relacionada con este tema.
-2. Identifica jurisdicción y periodo fiscal.
-3. Enumera cinco hechos comprobables y tres datos faltantes.
-4. Reúne o describe los documentos pertinentes.
-5. Localiza una fuente oficial que deba consultarse.
-6. Redacta tres preguntas para un profesional fiscal.
-7. Explica qué dato podría cambiar la conclusión.
+A) Es ilegal
+B) No pueden cobrarle con facilidad a cada usuario, lo que hace difícil ganar dinero
+C) Los gobiernos prohíben la infraestructura privada
+D) Los bienes públicos nunca son útiles
 
-## Evaluación de competencia
+**Pregunta 4.** Una carretera de peaje que excluye a quienes no pagan es:
 
-1. ¿Por qué debe identificarse primero la jurisdicción?
-2. ¿Cuál es la diferencia entre hecho y supuesto?
-3. ¿Qué documento respaldaría la operación?
-4. ¿Qué fecha o periodo debe verificarse?
-5. ¿Qué organismo oficial podría publicar la regla?
-6. ¿Existe una posible excepción o clasificación alternativa?
-7. ¿Qué error produciría usar una tasa desactualizada?
-8. ¿Qué pregunta formularías a un profesional?
-9. ¿Qué registro conservarías y por cuánto tiempo según la regla aplicable?
-10. Resume el proceso de análisis sin inventar cifras.
+A) Un bien público puro
+B) Un ejemplo de un servicio excluible, a diferencia de una carretera pública gratuita
+C) Ilegal en la mayoría de los países
+D) Lo mismo que una escuela pública
 
-**Criterio de dominio:** 8 de 10 respuestas satisfactorias. Por debajo del 80 %, el alumno revisará la fuente, corregirá la clasificación y repetirá un escenario nuevo.
+**Pregunta 5.** La educación pública se financia de forma colectiva en parte porque:
 
-## Respuestas orientativas
+A) Las escuelas privadas son ilegales
+B) Una alfabetización amplia beneficia a la sociedad más allá del estudiante individual
+C) No cuesta nada operarla
+D) Solo la necesitan las familias ricas
 
-Las respuestas deben identificar jurisdicción, periodo, clasificación, hecho imponible, documentación y fuente oficial. Una buena respuesta declara incertidumbres y evita afirmar tasas, umbrales o plazos no verificados. Cuando falten hechos, la conclusión correcta es indicar qué información se necesita, no adivinar.
+## Clave de respuestas
+
+1. B, 2. B, 3. B, 4. B, 5. B
+
+## Respuestas y explicaciones
+
+**1.** La no excluibilidad y la no rivalidad son los dos rasgos que usan los economistas para definir los bienes públicos.
+
+**2.** Es difícil limitar un poste de alumbrado a los usuarios que pagan, y no se agota porque más personas lo usen.
+
+**3.** Si no se le puede cobrar a cada usuario por separado, es difícil montar un negocio privado rentable alrededor de ese bien.
+
+**4.** Como las carreteras de peaje pueden excluir a quienes no pagan, se pueden construir y operar de forma privada, algo que no es posible con una carretera pública gratuita.
+
+**5.** El financiamiento colectivo de la educación refleja una decisión de la sociedad: un acceso amplio produce beneficios que van más allá de la persona.
 
 ## Puntos clave
 
-- Las reglas fiscales cambian según lugar, fecha y clasificación.
-- Primero se clasifican los hechos; después se calcula.
-- La documentación permite defender una posición.
-- Deducciones, créditos, exclusiones y pagos anticipados son conceptos distintos.
-- Las fuentes oficiales vigentes tienen prioridad sobre resúmenes educativos.
-- La planificación legal es distinta de ocultar, falsear o evadir obligaciones.
-
-## Ruta de aprendizaje
-
-- **Anterior:** GREEN-L1-001
-- **Actual:** GREEN-L1-002
-- **Siguiente:** GREEN-L1-003
-
-## Localización — España
-
-Contenido en español de España para educación comparada. Las referencias a formularios y entidades estadounidenses explican conceptos del currículo original y no sustituyen la normativa española. Antes de aplicar cualquier regla deben verificarse la Agencia Tributaria u otra autoridad competente, el periodo fiscal y las circunstancias concretas.
+- Los bienes públicos son no excluibles y no rivales, lo que los hace difíciles de financiar solo mediante la venta privada.
+- La recaudación de impuestos suele financiar la infraestructura, la seguridad pública, la educación, la defensa y los programas sociales.
+- La excluibilidad suele ser el factor decisivo para que algo se construya de forma privada o colectiva.
+- Algunos servicios que se financian de forma colectiva no son bienes públicos puros, pero se financian de forma amplia por razones de acceso y de beneficio para la sociedad.
+- Los debates sobre los impuestos a menudo son, en realidad, debates sobre qué bienes deberían ser públicos y cuáles privados.

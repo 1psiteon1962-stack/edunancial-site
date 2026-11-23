@@ -1,116 +1,89 @@
 ---
 id: GREEN-L1-025
 track: GREEN
-officialTrackName: "Business Taxes"
+officialTrackName: Taxes
 level: 1
 lessonNumber: 25
 locale: es-ES
-title: "Gastos empresariales deducibles comunes"
-summary: "Introducción práctica a gastos empresariales deducibles comunes, con énfasis en conceptos, documentación, decisiones y verificación mediante fuentes oficiales."
-version: "1.0"
-author: "Waldemar M. Caban, JD MA"
-date: "2026-09-01"
+title: "Gastos de negocio deducibles comunes"
+summary: "Repasa las categorías generales de gastos de negocio que suelen ser deducibles, a un nivel conceptual, dada la variación entre jurisdicciones."
+version: 1.0
+author: Waldemar M. Caban, JD MA
+date: 2026-08-09
 ---
 
-# 25. Gastos empresariales deducibles comunes
+# Gastos de negocio deducibles comunes
 
 ## Objetivos de aprendizaje
+- Explicar el principio general detrás de los gastos de negocio deducibles.
+- Identificar las categorías comunes de gastos deducibles.
+- Reconocer por qué los gastos personales, en general, no califican.
 
-Al terminar esta lección, el alumno podrá:
+## Contenido principal
 
-1. Explicar con palabras sencillas el concepto de **gastos empresariales deducibles comunes**.
-2. Identificar quién paga, quién recauda y qué hecho puede generar la obligación.
-3. Distinguir una regla general de una excepción que exige verificación.
-4. Organizar la documentación necesaria para revisar una posición fiscal.
-5. Formular preguntas útiles para una fuente oficial o un profesional cualificado.
+La mayoría de los sistemas tributarios permiten a los negocios deducir los gastos que son «ordinarios y necesarios» para operar el negocio: es decir, normales para ese tipo de negocio y realmente necesarios para operar, no lujosos ni puramente personales. Entre las categorías comunes, descritas de forma general, están los suministros y materiales, el alquiler del local del negocio, los viajes relacionados con el negocio, el marketing y la publicidad, los servicios profesionales (como un abogado o un contador) y el equipo.
 
-## Concepto principal
+Una prueba útil que conviene tener presente: ¿existiría este gasto si no existiera el negocio? Un ordenador portátil comprada específicamente para el trabajo con clientes pasa esa prueba con más claridad que unas vacaciones que se justifican vagamente como «hacer contactos». Mezclar los gastos personales y los del negocio sin una línea clara es uno de los errores más comunes de los dueños de negocios nuevos, y por eso la lección anterior sobre llevar registros importa tanto aquí: una documentación ordenada permite defender la línea entre lo del negocio y lo personal.
 
-[HECHO VERIFICABLE] Los impuestos son obligaciones creadas por una jurisdicción. La respuesta correcta depende del país, territorio, estado o provincia, municipio, periodo fiscal, tipo de contribuyente y naturaleza de la operación. Por eso, comprender **gastos empresariales deducibles comunes** exige identificar primero la jurisdicción y la fecha aplicable.
+## Ejemplo práctico
 
-La educación fiscal no consiste en memorizar una cifra aislada. Consiste en reconocer el hecho imponible, la base, el tipo, las deducciones o créditos posibles, el plazo, la documentación y la autoridad que publica la regla. Las tasas, umbrales y formularios pueden cambiar; antes de actuar deben comprobarse en una fuente oficial vigente.
+**Pregunta:** El dueño de un negocio compra un ordenador portátil que usa por completo para el trabajo de diseño de sus clientes. Más tarde, también registra como gasto unas vacaciones familiares y las llama «hacer contactos». ¿Se tratan de la misma manera?
 
-## Marco práctico de análisis
+**Estudiante:** Creo que no: el ordenador está claramente ligado a hacer el trabajo real del negocio.
 
-Utiliza estas preguntas:
+**Guía:** ¿Qué prueba le aplicaría a las vacaciones?
 
-- ¿Qué jurisdicción tiene autoridad sobre la persona o transacción?
-- ¿Cuál es el periodo fiscal?
-- ¿Quién es el contribuyente y cuál es su clasificación?
-- ¿Qué ingreso, compra, propiedad o actividad activa la regla?
-- ¿Cómo se calcula la base?
-- ¿Existe una deducción, crédito, exclusión o exención?
-- ¿Qué formulario, pago o registro se exige?
-- ¿Cuál es el plazo y qué ocurre si se incumple?
-- ¿Qué fuente oficial confirma la respuesta?
+**Estudiante:** ¿Existiría ese gasto si no existiera el negocio? El ordenador probablemente no se habría comprado sin el negocio; las vacaciones probablemente se habrían hecho de todos modos.
 
-## Ejemplo educativo
+**Guía:** Exactamente: ese es el tipo de razonamiento que separa un gasto de negocio legítimo de un gasto personal disfrazado de negocio.
 
-[SUPUESTO] Una persona obtiene 48.000 unidades monetarias de ingresos y además recibe 3.000 por un trabajo independiente. Conserva recibos, estados de cuenta y documentos de pago, pero todavía no sabe cómo se clasifica cada cantidad. Antes de calcular, identifica su jurisdicción, periodo fiscal, condición laboral y naturaleza de los gastos.
+## Cuestionario práctico
 
-Este ejemplo no determina una obligación real. Muestra el orden correcto: clasificar hechos, reunir documentación, consultar instrucciones oficiales y calcular solamente después. Si una regla afecta empleo, empresa, inversión o propiedad, debe analizarse por separado antes de integrar el resultado.
+**Pregunta 1.** Un estándar general común para los gastos de negocio deducibles es:
 
-## Aplicación al tema
+A) Cualquier gasto, sea personal o no
+B) Que sea ordinario y necesario para el negocio
+C) Solo los gastos de más de 10.000 €
+D) Solo los gastos pagados en efectivo
 
-Para estudiar **gastos empresariales deducibles comunes**, crea una hoja de trabajo con cuatro columnas: hecho, posible tratamiento, documento de respaldo y fuente pendiente de verificación. Marca como **HECHO** lo demostrado, como **SUPUESTO** lo que falta confirmar y como **OPINIÓN** cualquier recomendación basada en preferencias o tolerancia al riesgo.
+**Pregunta 2.** Entre las categorías comunes de gastos de negocio deducibles están:
 
-No mezcles traducción con localización jurídica. Un término estadounidense como W-2, 1099, Medicare, LLC, S-Corp, Roth o impuesto estatal sobre ventas puede traducirse para aprender el concepto, pero no debe presentarse como si fuera una figura idéntica en España u otra jurisdicción.
+A) Los suministros, el alquiler, los viajes, el marketing, los servicios profesionales y el equipo
+B) Solo la compra de comida
+C) Solo las vacaciones
+D) Solo la ropa personal
 
-## Errores comunes
+**Pregunta 3.** Una prueba útil para saber si un gasto está relacionado con el negocio es:
 
-- Aplicar una tasa de otro año o jurisdicción.
-- Confundir ingreso bruto con ingreso imponible o efectivo disponible.
-- Suponer que un gasto empresarial siempre es deducible.
-- Creer que una deducción y un crédito producen el mismo efecto.
-- Perder justificantes o mezclar cuentas personales y empresariales.
-- Confundir un reembolso con una reducción real del impuesto.
-- Esperar hasta el vencimiento para organizar la información.
-- Utilizar contenido educativo como asesoramiento individualizado.
+A) ¿Existiría este gasto si no existiera el negocio?
+B) ¿Es caro?
+C) ¿Se pagó en efectivo?
+D) ¿Ocurrió un día de semana?
 
-## Actividad práctica
+**Pregunta 4.** Mezclar los gastos personales y los del negocio sin una línea clara:
 
-1. Escribe una situación relacionada con este tema.
-2. Identifica jurisdicción y periodo fiscal.
-3. Enumera cinco hechos comprobables y tres datos faltantes.
-4. Reúne o describe los documentos pertinentes.
-5. Localiza una fuente oficial que deba consultarse.
-6. Redacta tres preguntas para un profesional fiscal.
-7. Explica qué dato podría cambiar la conclusión.
+A) Se recomienda
+B) Es un error común y riesgoso de los dueños de negocios nuevos
+C) No tiene ninguna consecuencia
+D) Solo importa en las grandes corporaciones
 
-## Evaluación de competencia
+## Clave de respuestas
 
-1. ¿Por qué debe identificarse primero la jurisdicción?
-2. ¿Cuál es la diferencia entre hecho y supuesto?
-3. ¿Qué documento respaldaría la operación?
-4. ¿Qué fecha o periodo debe verificarse?
-5. ¿Qué organismo oficial podría publicar la regla?
-6. ¿Existe una posible excepción o clasificación alternativa?
-7. ¿Qué error produciría usar una tasa desactualizada?
-8. ¿Qué pregunta formularías a un profesional?
-9. ¿Qué registro conservarías y por cuánto tiempo según la regla aplicable?
-10. Resume el proceso de análisis sin inventar cifras.
+1. B, 2. A, 3. A, 4. B
 
-**Criterio de dominio:** 8 de 10 respuestas satisfactorias. Por debajo del 80 %, el alumno revisará la fuente, corregirá la clasificación y repetirá un escenario nuevo.
+## Respuestas y explicaciones
 
-## Respuestas orientativas
+**1.** «Ordinario y necesario» es un estándar general de uso amplio, aunque las reglas exactas varían según la jurisdicción.
 
-Las respuestas deben identificar jurisdicción, periodo, clasificación, hecho imponible, documentación y fuente oficial. Una buena respuesta declara incertidumbres y evita afirmar tasas, umbrales o plazos no verificados. Cuando falten hechos, la conclusión correcta es indicar qué información se necesita, no adivinar.
+**2.** Estas categorías representan los costes de operación típicos de la mayoría de los tipos de negocios.
+
+**3.** Esta prueba ayuda a separar los gastos que realmente están ligados al negocio de los gastos personales que simplemente se vuelven a etiquetar.
+
+**4.** Borrar la línea entre lo personal y lo del negocio sin documentación es una trampa común que llevar registros ayuda a evitar.
 
 ## Puntos clave
 
-- Las reglas fiscales cambian según lugar, fecha y clasificación.
-- Primero se clasifican los hechos; después se calcula.
-- La documentación permite defender una posición.
-- Deducciones, créditos, exclusiones y pagos anticipados son conceptos distintos.
-- Las fuentes oficiales vigentes tienen prioridad sobre resúmenes educativos.
-- La planificación legal es distinta de ocultar, falsear o evadir obligaciones.
-
-## Ruta de aprendizaje
-
-- **Anterior:** GREEN-L1-024
-- **Actual:** GREEN-L1-025
-- **Siguiente:** GREEN-L1-026
-
-## Localización — España
-
-Contenido en español de España para educación comparada. Las referencias a formularios y entidades estadounidenses explican conceptos del currículo original y no sustituyen la normativa española. Antes de aplicar cualquier regla deben verificarse la Agencia Tributaria u otra autoridad competente, el periodo fiscal y las circunstancias concretas.
+- Los gastos de negocio deducibles son, en general, los que son ordinarios y necesarios para el negocio.
+- Entre las categorías comunes están los suministros, el alquiler, los viajes, el marketing, los servicios profesionales y el equipo.
+- Una prueba útil: ¿existiría el gasto sin el negocio?
+- Mezclar los gastos personales y los del negocio sin una línea clara es un error común y riesgoso.

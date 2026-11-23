@@ -1,82 +1,89 @@
 ---
 id: GREEN-L1-011
 track: GREEN
-officialTrackName: Impuestos
+officialTrackName: Taxes
 level: 1
 lessonNumber: 11
 locale: es-Caribbean
-title: "Ingresos brutos frente a ingresos netos"
-summary: "Aclara la diferencia entre ingresos brutos y netos, fundamental para leer comprobantes de pago, presupuestar y entender las finanzas de un negocio."
+title: "Ingreso bruto frente a ingreso neto"
+summary: "Aclara la diferencia entre el ingreso bruto y el ingreso neto, una distinción básica para leer los talonarios de pago, hacer un presupuesto y entender las finanzas de un negocio."
 version: 1.0
 author: Waldemar M. Caban, JD MA
 date: 2026-08-09
 ---
 
-# Ingresos brutos frente a ingresos netos
+# Ingreso bruto frente a ingreso neto
 
 ## Objetivos de aprendizaje
-
-- Comprender y definir el concepto principal de esta lección.
-- Aplicarlo a una situación financiera cotidiana.
-- Distinguir la regla general de los requisitos específicos de cada jurisdicción.
+- Definir el ingreso bruto y el ingreso neto.
+- Explicar qué suele causar la diferencia entre los dos.
+- Aplicar la distinción a un caso de cheque de pago.
 
 ## Contenido principal
 
-El ingreso bruto es la cantidad total ganada antes de restar nada. El ingreso neto es lo que queda después de restar impuestos y, con frecuencia, otras deducciones como aportaciones para la jubilación o primas de seguro médico. Esa diferencia explica por qué el salario anunciado no es necesariamente la cantidad que llega a su cuenta.
+El ingreso bruto es la cantidad total que se gana antes de restar nada. El ingreso neto es lo que queda después de las restas: los impuestos y, a menudo, otras deducciones como los aportes para el retiro o las primas del seguro médico. La diferencia entre el bruto y el neto es lo que sorprende a la mayoría de las personas la primera vez que ven un cheque de pago real.
 
-La misma lógica aparece en los negocios: los ingresos brutos representan la cifra inicial y la ganancia neta refleja lo que queda después de costos y obligaciones. Cuando vea una cifra «bruta», pregunte qué se descontará para llegar a la cifra neta.
+Esta distinción importa mucho más allá de los cheques de pago. Los negocios hablan de ingresos brutos frente a ganancia neta con la misma lógica de fondo: el bruto es el total de la línea superior y el neto es lo que queda después de restar los costos y las obligaciones. Cada vez que oiga que una cifra se describe como «bruta», la primera pregunta que vale la pena hacerse es: ¿bruta antes de qué, exactamente, y cuánto más pequeña será la neta?
 
 ## Ejemplo práctico
 
-**Pregunta:** ¿Cómo aplicaría este concepto antes de tomar una decisión financiera?
+**Pregunta:** Una oferta de empleo dice que el salario es de $60,000. ¿Es esa la cantidad que realmente llegará a la cuenta bancaria cada año?
 
-**Estudiante:** Primero identificaría las cantidades relevantes y qué representa cada una.
+**Estudiante:** Supongo que no, porque primero se descuentan los impuestos y otras deducciones.
 
-**Guía:** Correcto. Después separe el concepto general de las reglas específicas de su jurisdicción y verifique la información vigente antes de actuar.
+**Guía:** Correcto. ¿Cómo llamaría a la cifra de $60,000 y cómo llamaría a la cantidad que realmente llega a la cuenta?
+
+**Estudiante:** Los $60,000 son el ingreso bruto, y la cantidad que queda después de los impuestos y las deducciones es el ingreso neto.
+
+**Guía:** Exactamente. Siempre haga su presupuesto con base en el neto, no en el bruto.
 
 ## Prueba práctica
 
-**Pregunta 1.** ¿Cuál es el propósito principal de este concepto?
-A) Ignorar las obligaciones tributarias
-B) Entender correctamente cómo se calcula o reporta una obligación financiera
-C) Suponer que todas las jurisdicciones son iguales
-D) Evitar revisar documentos
+**Pregunta 1.** El ingreso bruto es:
 
-**Pregunta 2.** ¿Las reglas tributarias concretas son iguales en todos los países?
-A) Sí
-B) No
-C) Solo para empresas
-D) Solo para empleados
+A) La cantidad después de todas las deducciones
+B) La cantidad total que se gana antes de cualquier deducción
+C) Solo el ingreso de inversiones
+D) Siempre igual al ingreso neto
 
-**Pregunta 3.** Antes de tomar una decisión tributaria, conviene:
-A) Verificar las reglas vigentes de la jurisdicción
-B) Usar cifras antiguas sin revisarlas
-C) Suponer que una regla extranjera aplica
-D) Ignorar documentación
+**Pregunta 2.** El ingreso neto es:
 
-**Pregunta 4.** Comprender la diferencia entre conceptos relacionados ayuda a:
-A) Tomar decisiones mejor informadas
-B) Eliminar automáticamente impuestos
-C) Evitar toda obligación legal
-D) Sustituir asesoría profesional cuando sea necesaria
+A) La cantidad antes de las deducciones
+B) Lo que queda después de restar los impuestos y otras deducciones
+C) Algo que no tiene relación con el ingreso bruto
+D) Siempre más alto que el ingreso bruto
+
+**Pregunta 3.** ¿Por qué importa para el presupuesto la diferencia entre el bruto y el neto?
+
+A) No importa
+B) Hacer el presupuesto con el bruto en vez del neto puede llevar a sobrestimar el dinero disponible
+C) El neto siempre es más alto que el bruto
+D) El bruto no tiene importancia para los negocios
+
+**Pregunta 4.** Los negocios usan una distinción parecida entre bruto y neto para:
+
+A) Los ingresos frente a la ganancia
+B) Nada: es solo de las finanzas personales
+C) Solo el número de empleados
+D) Solo el gasto en mercadeo
 
 ## Clave de respuestas
 
-1. B, 2. B, 3. A, 4. A
+1. B, 2. B, 3. B, 4. A
 
 ## Respuestas y explicaciones
 
-**1.** La alfabetización tributaria comienza por entender qué representa cada cifra o concepto.
+**1.** El bruto es el total de la línea superior, antes de las deducciones: la cifra principal.
 
-**2.** Las reglas cambian según el país, la jurisdicción y el tiempo.
+**2.** El neto es la cantidad real que queda después de los impuestos y otras restas, y es lo que realmente llega a su cuenta.
 
-**3.** Las decisiones deben basarse en reglas actuales aplicables a su situación.
+**3.** Planificar con la cifra bruta conlleva el riesgo de suponer que tiene más dinero disponible para gastar del que realmente tendrá.
 
-**4.** Distinguir correctamente los conceptos mejora el análisis, aunque no sustituye asesoría profesional cuando sea necesaria.
+**4.** Los negocios aplican la misma lógica a los ingresos (bruto) frente a la ganancia (neto).
 
 ## Puntos clave
 
-- Entienda el concepto antes de aplicar una cifra o tasa.
-- Revise los documentos financieros y tributarios con atención.
-- Las reglas específicas varían según la jurisdicción.
-- Verifique información vigente antes de tomar decisiones.
+- El ingreso bruto es el total antes de las deducciones; el ingreso neto es lo que queda después de ellas.
+- La diferencia suele ser los impuestos más otras retenciones, como las del retiro o del seguro.
+- Haga siempre su presupuesto con base en el ingreso neto, no en el bruto.
+- La misma lógica de bruto frente a neto se aplica a los ingresos y la ganancia de un negocio.

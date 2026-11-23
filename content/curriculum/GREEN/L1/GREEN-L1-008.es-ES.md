@@ -1,116 +1,92 @@
 ---
 id: GREEN-L1-008
 track: GREEN
-officialTrackName: "Business Taxes"
+officialTrackName: Taxes
 level: 1
 lessonNumber: 8
 locale: es-ES
-title: "Impuestos progresivos y regresivos"
-summary: "Introducción práctica a impuestos progresivos y regresivos, con énfasis en conceptos, documentación, decisiones y verificación mediante fuentes oficiales."
-version: "1.0"
-author: "Waldemar M. Caban, JD MA"
-date: "2026-09-01"
+title: "Impuestos progresivos e impuestos regresivos"
+summary: "Explica la diferencia entre las estructuras tributarias progresivas y regresivas mediante comparaciones sencillas y cercanas."
+version: 1.0
+author: Waldemar M. Caban, JD MA
+date: 2026-08-09
 ---
 
-# 8. Impuestos progresivos y regresivos
+# Impuestos progresivos e impuestos regresivos
 
 ## Objetivos de aprendizaje
 
-Al terminar esta lección, el alumno podrá:
+- Definir una estructura tributaria progresiva.
+- Definir una estructura tributaria regresiva.
+- Identificar ejemplos reales de cada una.
 
-1. Explicar con palabras sencillas el concepto de **impuestos progresivos y regresivos**.
-2. Identificar quién paga, quién recauda y qué hecho puede generar la obligación.
-3. Distinguir una regla general de una excepción que exige verificación.
-4. Organizar la documentación necesaria para revisar una posición fiscal.
-5. Formular preguntas útiles para una fuente oficial o un profesional cualificado.
+## Contenido principal
 
-## Concepto principal
+Un impuesto progresivo toma un porcentaje mayor de las personas con más ingresos o riqueza. La mayoría de los sistemas de impuesto sobre la renta están estructurados así: a medida que usted gana más, se grava un porcentaje mayor de su ingreso (normalmente solo la parte que supera ciertos umbrales).
 
-[HECHO VERIFICABLE] Los impuestos son obligaciones creadas por una jurisdicción. La respuesta correcta depende del país, territorio, estado o provincia, municipio, periodo fiscal, tipo de contribuyente y naturaleza de la operación. Por eso, comprender **impuestos progresivos y regresivos** exige identificar primero la jurisdicción y la fecha aplicable.
+Un impuesto regresivo, en cambio, toma en la práctica un porcentaje mayor de las personas con menos ingresos, aunque la tasa parezca igual para todos. El impuesto sobre las ventas es un ejemplo común: si dos personas compran el mismo artículo de 50 € y pagan el mismo impuesto sobre la venta, ese impuesto representa una parte mucho mayor del dinero total de una persona de bajos ingresos que del de una persona de altos ingresos. La cantidad en euros es igual, pero la carga no lo es. (Un ejemplo de impuesto al consumo en España es el IVA.)
 
-La educación fiscal no consiste en memorizar una cifra aislada. Consiste en reconocer el hecho imponible, la base, el tipo, las deducciones o créditos posibles, el plazo, la documentación y la autoridad que publica la regla. Las tasas, umbrales y formularios pueden cambiar; antes de actuar deben comprobarse en una fuente oficial vigente.
+Ninguna de las dos estructuras es en sí misma «correcta» o «incorrecta»: son herramientas con efectos distintos, y los sistemas tributarios reales suelen combinar elementos progresivos y regresivos. Entender en qué categoría cae un impuesto determinado le ayuda a evaluar quién soporta realmente una mayor carga.
 
-## Marco práctico de análisis
+## Ejemplo práctico
 
-Utiliza estas preguntas:
+**Pregunta:** Dos personas pagan cada una 5 € de impuesto sobre la venta en la misma compra. Una gana 2.000 € al mes y la otra gana 20.000 € al mes. ¿Es el impuesto progresivo o regresivo en su efecto?
 
-- ¿Qué jurisdicción tiene autoridad sobre la persona o transacción?
-- ¿Cuál es el periodo fiscal?
-- ¿Quién es el contribuyente y cuál es su clasificación?
-- ¿Qué ingreso, compra, propiedad o actividad activa la regla?
-- ¿Cómo se calcula la base?
-- ¿Existe una deducción, crédito, exclusión o exención?
-- ¿Qué formulario, pago o registro se exige?
-- ¿Cuál es el plazo y qué ocurre si se incumple?
-- ¿Qué fuente oficial confirma la respuesta?
+**Estudiante:** La cantidad en euros es idéntica, así que a primera vista parece justo.
 
-## Ejemplo educativo
+**Guía:** Pero ¿qué porcentaje del ingreso de cada persona representan esos 5 €?
 
-[SUPUESTO] Una persona obtiene 48.000 unidades monetarias de ingresos y además recibe 3.000 por un trabajo independiente. Conserva recibos, estados de cuenta y documentos de pago, pero todavía no sabe cómo se clasifica cada cantidad. Antes de calcular, identifica su jurisdicción, periodo fiscal, condición laboral y naturaleza de los gastos.
+**Estudiante:** Una parte mucho mayor para la persona que gana 2.000 € que para la que gana 20.000 €.
 
-Este ejemplo no determina una obligación real. Muestra el orden correcto: clasificar hechos, reunir documentación, consultar instrucciones oficiales y calcular solamente después. Si una regla afecta empleo, empresa, inversión o propiedad, debe analizarse por separado antes de integrar el resultado.
+**Guía:** Correcto. Cantidades iguales en euros pueden tener un impacto real desigual, y ese es el patrón regresivo.
 
-## Aplicación al tema
+## Cuestionario práctico
 
-Para estudiar **impuestos progresivos y regresivos**, crea una hoja de trabajo con cuatro columnas: hecho, posible tratamiento, documento de respaldo y fuente pendiente de verificación. Marca como **HECHO** lo demostrado, como **SUPUESTO** lo que falta confirmar y como **OPINIÓN** cualquier recomendación basada en preferencias o tolerancia al riesgo.
+**Pregunta 1.** Un impuesto progresivo toma:
 
-No mezcles traducción con localización jurídica. Un término estadounidense como W-2, 1099, Medicare, LLC, S-Corp, Roth o impuesto estatal sobre ventas puede traducirse para aprender el concepto, pero no debe presentarse como si fuera una figura idéntica en España u otra jurisdicción.
+A) Un porcentaje menor de quienes ganan más
+B) Un porcentaje mayor de quienes ganan más
+C) El mismo porcentaje de todos, sin importar el ingreso
+D) Nada de nadie
 
-## Errores comunes
+**Pregunta 2.** Un impuesto regresivo, en la práctica, impone una carga mayor a:
 
-- Aplicar una tasa de otro año o jurisdicción.
-- Confundir ingreso bruto con ingreso imponible o efectivo disponible.
-- Suponer que un gasto empresarial siempre es deducible.
-- Creer que una deducción y un crédito producen el mismo efecto.
-- Perder justificantes o mezclar cuentas personales y empresariales.
-- Confundir un reembolso con una reducción real del impuesto.
-- Esperar hasta el vencimiento para organizar la información.
-- Utilizar contenido educativo como asesoramiento individualizado.
+A) Quienes ganan más
+B) Quienes ganan menos, como proporción de su ingreso
+C) Nadie
+D) Solo las empresas
 
-## Actividad práctica
+**Pregunta 3.** El impuesto sobre las ventas se describe a menudo como regresivo porque:
 
-1. Escribe una situación relacionada con este tema.
-2. Identifica jurisdicción y periodo fiscal.
-3. Enumera cinco hechos comprobables y tres datos faltantes.
-4. Reúne o describe los documentos pertinentes.
-5. Localiza una fuente oficial que deba consultarse.
-6. Redacta tres preguntas para un profesional fiscal.
-7. Explica qué dato podría cambiar la conclusión.
+A) Es ilegal
+B) Cantidades iguales en euros representan una parte mayor de un ingreso más bajo
+C) Solo se aplica a los ricos
+D) Cambia todos los días
 
-## Evaluación de competencia
+**Pregunta 4.** Los sistemas tributarios reales:
 
-1. ¿Por qué debe identificarse primero la jurisdicción?
-2. ¿Cuál es la diferencia entre hecho y supuesto?
-3. ¿Qué documento respaldaría la operación?
-4. ¿Qué fecha o periodo debe verificarse?
-5. ¿Qué organismo oficial podría publicar la regla?
-6. ¿Existe una posible excepción o clasificación alternativa?
-7. ¿Qué error produciría usar una tasa desactualizada?
-8. ¿Qué pregunta formularías a un profesional?
-9. ¿Qué registro conservarías y por cuánto tiempo según la regla aplicable?
-10. Resume el proceso de análisis sin inventar cifras.
+A) Siempre son puramente progresivos
+B) Siempre son puramente regresivos
+C) A menudo combinan elementos progresivos y regresivos
+D) Nunca combinan tipos de impuestos
 
-**Criterio de dominio:** 8 de 10 respuestas satisfactorias. Por debajo del 80 %, el alumno revisará la fuente, corregirá la clasificación y repetirá un escenario nuevo.
+## Clave de respuestas
 
-## Respuestas orientativas
+1. B, 2. B, 3. B, 4. C
 
-Las respuestas deben identificar jurisdicción, periodo, clasificación, hecho imponible, documentación y fuente oficial. Una buena respuesta declara incertidumbres y evita afirmar tasas, umbrales o plazos no verificados. Cuando falten hechos, la conclusión correcta es indicar qué información se necesita, no adivinar.
+## Respuestas y explicaciones
+
+**1.** Los sistemas progresivos aumentan la tasa a medida que sube el ingreso, normalmente aplicada a las partes que superan ciertos umbrales.
+
+**2.** Los impuestos regresivos toman una parte proporcionalmente mayor de los ingresos más bajos, aun cuando la cantidad en euros sea igual.
+
+**3.** El mismo impuesto de 5 € es una parte mayor de un ingreso más pequeño, y esa es la esencia de un efecto regresivo.
+
+**4.** La mayoría de los sistemas reales combinan elementos progresivos (como los tramos del impuesto sobre la renta) con elementos regresivos (como un impuesto sobre las ventas con tasa fija).
 
 ## Puntos clave
 
-- Las reglas fiscales cambian según lugar, fecha y clasificación.
-- Primero se clasifican los hechos; después se calcula.
-- La documentación permite defender una posición.
-- Deducciones, créditos, exclusiones y pagos anticipados son conceptos distintos.
-- Las fuentes oficiales vigentes tienen prioridad sobre resúmenes educativos.
-- La planificación legal es distinta de ocultar, falsear o evadir obligaciones.
-
-## Ruta de aprendizaje
-
-- **Anterior:** GREEN-L1-007
-- **Actual:** GREEN-L1-008
-- **Siguiente:** GREEN-L1-009
-
-## Localización — España
-
-Contenido en español de España para educación comparada. Las referencias a formularios y entidades estadounidenses explican conceptos del currículo original y no sustituyen la normativa española. Antes de aplicar cualquier regla deben verificarse la Agencia Tributaria u otra autoridad competente, el periodo fiscal y las circunstancias concretas.
+- Los impuestos progresivos aumentan como porcentaje a medida que sube el ingreso.
+- Los impuestos regresivos toman una parte proporcionalmente mayor de los ingresos más bajos, aun con cantidades iguales en euros.
+- El impuesto sobre las ventas es un ejemplo de impuesto regresivo que se menciona con frecuencia.
+- La mayoría de los sistemas reales combinan ambas estructuras en lugar de usar solo una.

@@ -1,116 +1,89 @@
 ---
 id: GREEN-L1-049
 track: GREEN
-officialTrackName: "Business Taxes"
+officialTrackName: Taxes
 level: 1
 lessonNumber: 49
 locale: es-ES
-title: "Planificación fiscal: anticiparse en lugar de reaccionar"
-summary: "Introducción práctica a planificación fiscal: anticiparse en lugar de reaccionar, con énfasis en conceptos, documentación, decisiones y verificación mediante fuentes oficiales."
-version: "1.0"
-author: "Waldemar M. Caban, JD MA"
-date: "2026-09-01"
+title: "La planificación tributaria: pensar con anticipación en vez de reaccionar"
+summary: "Presenta la planificación tributaria como una mentalidad que mira hacia adelante: tomar decisiones teniendo en cuenta sus consecuencias tributarias antes de que ocurran, en vez de reaccionar después de los hechos."
+version: 1.0
+author: Waldemar M. Caban, JD MA
+date: 2026-08-09
 ---
 
-# 49. Planificación fiscal: anticiparse en lugar de reaccionar
+# La planificación tributaria: pensar con anticipación en vez de reaccionar
 
 ## Objetivos de aprendizaje
+- Definir la planificación tributaria como una práctica que mira hacia adelante.
+- Contrastar la planificación tributaria anticipada con las prisas reactivas después de los hechos.
+- Identificar ejemplos, tomados de esta ruta, de decisiones que se benefician de una planificación anticipada.
 
-Al terminar esta lección, el alumno podrá:
+## Contenido principal
 
-1. Explicar con palabras sencillas el concepto de **planificación fiscal: anticiparse en lugar de reaccionar**.
-2. Identificar quién paga, quién recauda y qué hecho puede generar la obligación.
-3. Distinguir una regla general de una excepción que exige verificación.
-4. Organizar la documentación necesaria para revisar una posición fiscal.
-5. Formular preguntas útiles para una fuente oficial o un profesional cualificado.
+La planificación tributaria significa pensar en las consecuencias tributarias antes de tomar una decisión, no correr para entenderlas después. Casi todos los conceptos vistos en esta ruta se vuelven más valiosos, y más útiles en la práctica, cuando se aplican por anticipado en vez de en reacción: el momento de la venta de un activo de capital, la elección entre aportes para la jubilación de estilo tradicional y de estilo Roth, la decisión de detallar las deducciones o tomar la deducción estándar, la estructura con la que se organiza un negocio nuevo o cuánto apartar a lo largo del año para el impuesto sobre el trabajo por cuenta propia.
 
-## Concepto principal
+El cambio de mentalidad de lo reactivo a lo anticipado es en sí mismo la lección más valiosa de toda esta ruta. Alguien que entiende estos conceptos solo al momento de presentar la declaración, en el mejor de los casos, puede declarar con exactitud lo que ya pasó. Alguien que los entiende a lo largo del año puede tomar de verdad decisiones distintas y mejores (programar una venta, ajustar la retención, escoger una estructura) porque vio venir la consecuencia tributaria y planificó en torno a ella, en vez de descubrirla después de los hechos, cuando ya no se podía hacer nada distinto.
 
-[HECHO VERIFICABLE] Los impuestos son obligaciones creadas por una jurisdicción. La respuesta correcta depende del país, territorio, estado o provincia, municipio, periodo fiscal, tipo de contribuyente y naturaleza de la operación. Por eso, comprender **planificación fiscal: anticiparse en lugar de reaccionar** exige identificar primero la jurisdicción y la fecha aplicable.
+## Ejemplo práctico
 
-La educación fiscal no consiste en memorizar una cifra aislada. Consiste en reconocer el hecho imponible, la base, el tipo, las deducciones o créditos posibles, el plazo, la documentación y la autoridad que publica la regla. Las tasas, umbrales y formularios pueden cambiar; antes de actuar deben comprobarse en una fuente oficial vigente.
+**Pregunta:** Dos personas venden una acción con una ganancia grande cerca del final del año. Una había seguido su período de tenencia y programó la venta a propósito; la otra no pensó en eso hasta la temporada de impuestos. ¿Cuál es la diferencia práctica entre ellas?
 
-## Marco práctico de análisis
+**Estudiante:** Según esta lección, la primera persona probablemente tuvo más control sobre su resultado tributario, ya que pudo planificar el momento por anticipado. La segunda persona solo está reaccionando a lo que ya pasó.
 
-Utiliza estas preguntas:
+**Guía:** ¿Podría la segunda persona haber tomado una decisión distinta y mejor si lo hubiera pensado antes?
 
-- ¿Qué jurisdicción tiene autoridad sobre la persona o transacción?
-- ¿Cuál es el periodo fiscal?
-- ¿Quién es el contribuyente y cuál es su clasificación?
-- ¿Qué ingreso, compra, propiedad o actividad activa la regla?
-- ¿Cómo se calcula la base?
-- ¿Existe una deducción, crédito, exclusión o exención?
-- ¿Qué formulario, pago o registro se exige?
-- ¿Cuál es el plazo y qué ocurre si se incumple?
-- ¿Qué fuente oficial confirma la respuesta?
+**Estudiante:** Posiblemente: quizá esperar un poco más le habría permitido calificar para el tratamiento de largo plazo, pero para la temporada de impuestos esa opción ya no existe.
 
-## Ejemplo educativo
+**Guía:** Exactamente: esa es toda la diferencia entre planificar y reaccionar: el mismo conocimiento, aplicado en momentos distintos, cambia si de verdad puede actuar con base en él.
 
-[SUPUESTO] Una persona obtiene 48.000 unidades monetarias de ingresos y además recibe 3.000 por un trabajo independiente. Conserva recibos, estados de cuenta y documentos de pago, pero todavía no sabe cómo se clasifica cada cantidad. Antes de calcular, identifica su jurisdicción, periodo fiscal, condición laboral y naturaleza de los gastos.
+## Cuestionario práctico
 
-Este ejemplo no determina una obligación real. Muestra el orden correcto: clasificar hechos, reunir documentación, consultar instrucciones oficiales y calcular solamente después. Si una regla afecta empleo, empresa, inversión o propiedad, debe analizarse por separado antes de integrar el resultado.
+**Pregunta 1.** La mejor descripción de la planificación tributaria es:
 
-## Aplicación al tema
+A) Declarar lo que ya pasó al momento de presentar la declaración
+B) Considerar las consecuencias tributarias antes de tomar una decisión
+C) Evitar ilegalmente todos los impuestos
+D) Algo que solo necesitan hacer los negocios
 
-Para estudiar **planificación fiscal: anticiparse en lugar de reaccionar**, crea una hoja de trabajo con cuatro columnas: hecho, posible tratamiento, documento de respaldo y fuente pendiente de verificación. Marca como **HECHO** lo demostrado, como **SUPUESTO** lo que falta confirmar y como **OPINIÓN** cualquier recomendación basada en preferencias o tolerancia al riesgo.
+**Pregunta 2.** Manejar los impuestos de forma reactiva significa:
 
-No mezcles traducción con localización jurídica. Un término estadounidense como W-2, 1099, Medicare, LLC, S-Corp, Roth o impuesto estatal sobre ventas puede traducirse para aprender el concepto, pero no debe presentarse como si fuera una figura idéntica en España u otra jurisdicción.
+A) Planificar con tiempo
+B) Entender las consecuencias tributarias solo después de que ya ocurrieron
+C) Lo mismo que la evasión de impuestos
+D) Algo que en realidad nunca pasa
 
-## Errores comunes
+**Pregunta 3.** Según esta lección, ¿cuál de estas cosas se beneficia de una planificación anticipada?
 
-- Aplicar una tasa de otro año o jurisdicción.
-- Confundir ingreso bruto con ingreso imponible o efectivo disponible.
-- Suponer que un gasto empresarial siempre es deducible.
-- Creer que una deducción y un crédito producen el mismo efecto.
-- Perder justificantes o mezclar cuentas personales y empresariales.
-- Confundir un reembolso con una reducción real del impuesto.
-- Esperar hasta el vencimiento para organizar la información.
-- Utilizar contenido educativo como asesoramiento individualizado.
+A) El momento de la venta de un activo, la elección del tipo de cuenta de jubilación, la estructura del negocio
+B) Nada: todos los resultados tributarios son fijos sin importar el momento
+C) Solo el impuesto sobre las ventas
+D) Solo la retención de la nómina
 
-## Actividad práctica
+**Pregunta 4.** El cambio de mentalidad central que recalca esta lección es:
 
-1. Escribe una situación relacionada con este tema.
-2. Identifica jurisdicción y periodo fiscal.
-3. Enumera cinco hechos comprobables y tres datos faltantes.
-4. Reúne o describe los documentos pertinentes.
-5. Localiza una fuente oficial que deba consultarse.
-6. Redacta tres preguntas para un profesional fiscal.
-7. Explica qué dato podría cambiar la conclusión.
+A) De lo anticipado a lo reactivo
+B) De lo reactivo a lo anticipado
+C) No hay ningún cambio importante
+D) De lo legal a lo ilegal
 
-## Evaluación de competencia
+## Clave de respuestas
 
-1. ¿Por qué debe identificarse primero la jurisdicción?
-2. ¿Cuál es la diferencia entre hecho y supuesto?
-3. ¿Qué documento respaldaría la operación?
-4. ¿Qué fecha o periodo debe verificarse?
-5. ¿Qué organismo oficial podría publicar la regla?
-6. ¿Existe una posible excepción o clasificación alternativa?
-7. ¿Qué error produciría usar una tasa desactualizada?
-8. ¿Qué pregunta formularías a un profesional?
-9. ¿Qué registro conservarías y por cuánto tiempo según la regla aplicable?
-10. Resume el proceso de análisis sin inventar cifras.
+1. B, 2. B, 3. A, 4. B
 
-**Criterio de dominio:** 8 de 10 respuestas satisfactorias. Por debajo del 80 %, el alumno revisará la fuente, corregirá la clasificación y repetirá un escenario nuevo.
+## Respuestas y explicaciones
 
-## Respuestas orientativas
+**1.** La verdadera planificación tributaria ocurre antes de la decisión que la activa, no después de que ya quedó fijada.
 
-Las respuestas deben identificar jurisdicción, periodo, clasificación, hecho imponible, documentación y fuente oficial. Una buena respuesta declara incertidumbres y evita afirmar tasas, umbrales o plazos no verificados. Cuando falten hechos, la conclusión correcta es indicar qué información se necesita, no adivinar.
+**2.** El manejo reactivo solo puede describir y declarar resultados que ya están fijos, sin ninguna posibilidad de cambiarlos.
+
+**3.** El momento, el tipo de cuenta y la estructura son ejemplos concretos en los que pensar con anticipación cambia las opciones disponibles.
+
+**4.** La mentalidad anticipada es lo que convierte el conocimiento tributario de una declaración pasiva en una herramienta activa para tomar decisiones.
 
 ## Puntos clave
 
-- Las reglas fiscales cambian según lugar, fecha y clasificación.
-- Primero se clasifican los hechos; después se calcula.
-- La documentación permite defender una posición.
-- Deducciones, créditos, exclusiones y pagos anticipados son conceptos distintos.
-- Las fuentes oficiales vigentes tienen prioridad sobre resúmenes educativos.
-- La planificación legal es distinta de ocultar, falsear o evadir obligaciones.
-
-## Ruta de aprendizaje
-
-- **Anterior:** GREEN-L1-048
-- **Actual:** GREEN-L1-049
-- **Siguiente:** GREEN-L1-050
-
-## Localización — España
-
-Contenido en español de España para educación comparada. Las referencias a formularios y entidades estadounidenses explican conceptos del currículo original y no sustituyen la normativa española. Antes de aplicar cualquier regla deben verificarse la Agencia Tributaria u otra autoridad competente, el periodo fiscal y las circunstancias concretas.
+- La planificación tributaria significa considerar las consecuencias antes de tomar las decisiones, no después.
+- El manejo reactivo solo puede declarar lo que ya pasó, sin opciones restantes.
+- El momento de la venta de un activo, el tipo de cuenta de jubilación y la estructura del negocio se benefician de una planificación anticipada.
+- El cambio de lo reactivo a lo anticipado es la mentalidad más valiosa de toda esta ruta.

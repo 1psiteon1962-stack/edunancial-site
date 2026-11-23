@@ -1,116 +1,89 @@
 ---
 id: GREEN-L1-032
 track: GREEN
-officialTrackName: "Business Taxes"
+officialTrackName: Taxes
 level: 1
 lessonNumber: 32
 locale: es-ES
-title: "Ganancias de capital a corto y largo plazo"
-summary: "Introducción práctica a ganancias de capital a corto y largo plazo, con énfasis en conceptos, documentación, decisiones y verificación mediante fuentes oficiales."
-version: "1.0"
-author: "Waldemar M. Caban, JD MA"
-date: "2026-09-01"
+title: "Ganancias de capital a corto plazo frente a largo plazo"
+summary: "Explica por qué muchos sistemas gravan las ganancias de forma distinta según cuánto tiempo se tuvo el activo antes de venderlo."
+version: 1.0
+author: Waldemar M. Caban, JD MA
+date: 2026-08-09
 ---
 
-# 32. Ganancias de capital a corto y largo plazo
+# Ganancias de capital a corto plazo frente a largo plazo
 
 ## Objetivos de aprendizaje
+- Definir las ganancias de capital a corto plazo frente a las de largo plazo.
+- Explicar el razonamiento general de política detrás de favorecer los períodos de tenencia más largos.
+- Reconocer el período de tenencia como una consideración de planificación.
 
-Al terminar esta lección, el alumno podrá:
+## Contenido principal
 
-1. Explicar con palabras sencillas el concepto de **ganancias de capital a corto y largo plazo**.
-2. Identificar quién paga, quién recauda y qué hecho puede generar la obligación.
-3. Distinguir una regla general de una excepción que exige verificación.
-4. Organizar la documentación necesaria para revisar una posición fiscal.
-5. Formular preguntas útiles para una fuente oficial o un profesional cualificado.
+Muchos sistemas tributarios distinguen entre las ganancias de capital a corto plazo (de activos que se tuvieron durante un período más corto, a menudo menos de un año) y las ganancias de capital a largo plazo (de activos que se tuvieron durante más tiempo), y a menudo gravan las ganancias a largo plazo con una tasa más favorable. El umbral exacto del período de tenencia y la diferencia de tasas varían según el país y cambian con el tiempo, pero el patrón general (premiar la paciencia) es común.
 
-## Concepto principal
+El razonamiento general de política es fomentar la inversión a más largo plazo y desalentar el exceso de operaciones a corto plazo, aunque hay personas razonables que debaten qué tan bien funciona esto en la práctica. Para un inversionista individual, la conclusión práctica es que el período de tenencia es una palanca real de planificación: vender un activo un poco antes o un poco después de un umbral clave puede cambiar de forma importante el resultado tributario, y por eso los inversionistas a veces programan a propósito una venta en torno a un hito del período de tenencia.
 
-[HECHO VERIFICABLE] Los impuestos son obligaciones creadas por una jurisdicción. La respuesta correcta depende del país, territorio, estado o provincia, municipio, periodo fiscal, tipo de contribuyente y naturaleza de la operación. Por eso, comprender **ganancias de capital a corto y largo plazo** exige identificar primero la jurisdicción y la fecha aplicable.
+## Ejemplo práctico
 
-La educación fiscal no consiste en memorizar una cifra aislada. Consiste en reconocer el hecho imponible, la base, el tipo, las deducciones o créditos posibles, el plazo, la documentación y la autoridad que publica la regla. Las tasas, umbrales y formularios pueden cambiar; antes de actuar deben comprobarse en una fuente oficial vigente.
+**Pregunta:** Una inversionista está cerca del umbral de largo plazo en una acción con ganancias y está decidiendo si vender ahora o esperar unas semanas más. ¿Qué debería considerar?
 
-## Marco práctico de análisis
+**Estudiante:** Según esta lección, esperar hasta pasar el umbral de largo plazo podría significar una tasa más favorable sobre la ganancia.
 
-Utiliza estas preguntas:
+**Guía:** ¿El tratamiento tributario debería ser el único factor de esa decisión?
 
-- ¿Qué jurisdicción tiene autoridad sobre la persona o transacción?
-- ¿Cuál es el periodo fiscal?
-- ¿Quién es el contribuyente y cuál es su clasificación?
-- ¿Qué ingreso, compra, propiedad o actividad activa la regla?
-- ¿Cómo se calcula la base?
-- ¿Existe una deducción, crédito, exclusión o exención?
-- ¿Qué formulario, pago o registro se exige?
-- ¿Cuál es el plazo y qué ocurre si se incumple?
-- ¿Qué fuente oficial confirma la respuesta?
+**Estudiante:** Probablemente no: el precio de la acción también podría moverse mientras tanto, así que es una disyuntiva real entre el momento tributario y el riesgo de la inversión, no una decisión puramente tributaria.
 
-## Ejemplo educativo
+**Guía:** Exactamente: la planificación tributaria es un factor, no toda la decisión.
 
-[SUPUESTO] Una persona obtiene 48.000 unidades monetarias de ingresos y además recibe 3.000 por un trabajo independiente. Conserva recibos, estados de cuenta y documentos de pago, pero todavía no sabe cómo se clasifica cada cantidad. Antes de calcular, identifica su jurisdicción, periodo fiscal, condición laboral y naturaleza de los gastos.
+## Cuestionario práctico
 
-Este ejemplo no determina una obligación real. Muestra el orden correcto: clasificar hechos, reunir documentación, consultar instrucciones oficiales y calcular solamente después. Si una regla afecta empleo, empresa, inversión o propiedad, debe analizarse por separado antes de integrar el resultado.
+**Pregunta 1.** En general, las ganancias de capital a corto plazo vienen de activos:
 
-## Aplicación al tema
+A) Que se tuvieron durante un período más largo
+B) Que se tuvieron durante un período más corto, a menudo menos de un año
+C) Que nunca se vendieron
+D) Solo los bienes inmuebles
 
-Para estudiar **ganancias de capital a corto y largo plazo**, crea una hoja de trabajo con cuatro columnas: hecho, posible tratamiento, documento de respaldo y fuente pendiente de verificación. Marca como **HECHO** lo demostrado, como **SUPUESTO** lo que falta confirmar y como **OPINIÓN** cualquier recomendación basada en preferencias o tolerancia al riesgo.
+**Pregunta 2.** Las ganancias de capital a largo plazo a menudo se gravan:
 
-No mezcles traducción con localización jurídica. Un término estadounidense como W-2, 1099, Medicare, LLC, S-Corp, Roth o impuesto estatal sobre ventas puede traducirse para aprender el concepto, pero no debe presentarse como si fuera una figura idéntica en España u otra jurisdicción.
+A) Con una tasa menos favorable que las de corto plazo
+B) Con una tasa más favorable que las de corto plazo, en muchos sistemas
+C) Exactamente igual que las de corto plazo en todas partes
+D) Nunca, en absoluto
 
-## Errores comunes
+**Pregunta 3.** El razonamiento general de política detrás de esta distinción es:
 
-- Aplicar una tasa de otro año o jurisdicción.
-- Confundir ingreso bruto con ingreso imponible o efectivo disponible.
-- Suponer que un gasto empresarial siempre es deducible.
-- Creer que una deducción y un crédito producen el mismo efecto.
-- Perder justificantes o mezclar cuentas personales y empresariales.
-- Confundir un reembolso con una reducción real del impuesto.
-- Esperar hasta el vencimiento para organizar la información.
-- Utilizar contenido educativo como asesoramiento individualizado.
+A) Castigar a los inversionistas a largo plazo
+B) Fomentar la inversión a más largo plazo en vez del exceso de operaciones a corto plazo
+C) Aumentar la recaudación del gobierno sin ningún otro propósito
+D) Simplificar el código tributario
 
-## Actividad práctica
+**Pregunta 4.** La mejor forma de entender el período de tenencia es como:
 
-1. Escribe una situación relacionada con este tema.
-2. Identifica jurisdicción y periodo fiscal.
-3. Enumera cinco hechos comprobables y tres datos faltantes.
-4. Reúne o describe los documentos pertinentes.
-5. Localiza una fuente oficial que deba consultarse.
-6. Redacta tres preguntas para un profesional fiscal.
-7. Explica qué dato podría cambiar la conclusión.
+A) Algo irrelevante para la planificación tributaria
+B) Una palanca real de planificación que puede afectar el resultado tributario de una venta
+C) Algo fijo e inmutable
+D) Algo relevante solo para los negocios
 
-## Evaluación de competencia
+## Clave de respuestas
 
-1. ¿Por qué debe identificarse primero la jurisdicción?
-2. ¿Cuál es la diferencia entre hecho y supuesto?
-3. ¿Qué documento respaldaría la operación?
-4. ¿Qué fecha o periodo debe verificarse?
-5. ¿Qué organismo oficial podría publicar la regla?
-6. ¿Existe una posible excepción o clasificación alternativa?
-7. ¿Qué error produciría usar una tasa desactualizada?
-8. ¿Qué pregunta formularías a un profesional?
-9. ¿Qué registro conservarías y por cuánto tiempo según la regla aplicable?
-10. Resume el proceso de análisis sin inventar cifras.
+1. B, 2. B, 3. B, 4. B
 
-**Criterio de dominio:** 8 de 10 respuestas satisfactorias. Por debajo del 80 %, el alumno revisará la fuente, corregirá la clasificación y repetirá un escenario nuevo.
+## Respuestas y explicaciones
 
-## Respuestas orientativas
+**1.** En general, las ganancias a corto plazo vienen de activos que se tuvieron durante un período relativamente breve antes de venderlos.
 
-Las respuestas deben identificar jurisdicción, periodo, clasificación, hecho imponible, documentación y fuente oficial. Una buena respuesta declara incertidumbres y evita afirmar tasas, umbrales o plazos no verificados. Cuando falten hechos, la conclusión correcta es indicar qué información se necesita, no adivinar.
+**2.** Muchos sistemas aplican, como cuestión de política, una tasa más favorable a las ganancias a largo plazo.
+
+**3.** La meta general es empujar a los inversionistas hacia la paciencia en vez de las operaciones frecuentes a corto plazo, aunque se debate qué tan eficaz es en la práctica.
+
+**4.** Como el momento puede cambiar los resultados tributarios, el período de tenencia es un factor alrededor del cual los inversionistas pueden planificar a propósito.
 
 ## Puntos clave
 
-- Las reglas fiscales cambian según lugar, fecha y clasificación.
-- Primero se clasifican los hechos; después se calcula.
-- La documentación permite defender una posición.
-- Deducciones, créditos, exclusiones y pagos anticipados son conceptos distintos.
-- Las fuentes oficiales vigentes tienen prioridad sobre resúmenes educativos.
-- La planificación legal es distinta de ocultar, falsear o evadir obligaciones.
-
-## Ruta de aprendizaje
-
-- **Anterior:** GREEN-L1-031
-- **Actual:** GREEN-L1-032
-- **Siguiente:** GREEN-L1-033
-
-## Localización — España
-
-Contenido en español de España para educación comparada. Las referencias a formularios y entidades estadounidenses explican conceptos del currículo original y no sustituyen la normativa española. Antes de aplicar cualquier regla deben verificarse la Agencia Tributaria u otra autoridad competente, el periodo fiscal y las circunstancias concretas.
+- Las ganancias a corto plazo suelen venir de activos que se tuvieron poco tiempo; las de largo plazo, de activos que se tuvieron más tiempo.
+- Las ganancias a largo plazo a menudo tributan de forma más favorable, aunque los detalles varían y cambian.
+- La meta de política, en general, es fomentar una inversión paciente y a más largo plazo.
+- El período de tenencia es una palanca de planificación real y controlable para los inversionistas.

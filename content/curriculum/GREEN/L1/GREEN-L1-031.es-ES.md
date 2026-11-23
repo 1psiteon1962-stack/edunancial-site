@@ -1,116 +1,89 @@
 ---
 id: GREEN-L1-031
 track: GREEN
-officialTrackName: "Business Taxes"
+officialTrackName: Taxes
 level: 1
 lessonNumber: 31
 locale: es-ES
-title: "Ganancias de capital: impuestos sobre beneficios de inversión"
-summary: "Introducción práctica a ganancias de capital: impuestos sobre beneficios de inversión, con énfasis en conceptos, documentación, decisiones y verificación mediante fuentes oficiales."
-version: "1.0"
-author: "Waldemar M. Caban, JD MA"
-date: "2026-09-01"
+title: "Las ganancias de capital: impuestos sobre la ganancia de las inversiones"
+summary: "Presenta el concepto de las ganancias de capital (la ganancia de vender un activo por más de su precio de compra) y en qué se diferencian del ingreso ordinario."
+version: 1.0
+author: Waldemar M. Caban, JD MA
+date: 2026-08-09
 ---
 
-# 31. Ganancias de capital: impuestos sobre beneficios de inversión
+# Las ganancias de capital: impuestos sobre la ganancia de las inversiones
 
 ## Objetivos de aprendizaje
+- Definir una ganancia de capital en términos sencillos.
+- Explicar el cálculo básico de una ganancia de capital.
+- Reconocer por qué las ganancias solo se realizan (y normalmente solo tributan) al vender, y no mientras simplemente se tiene un activo.
 
-Al terminar esta lección, el alumno podrá:
+## Contenido principal
 
-1. Explicar con palabras sencillas el concepto de **ganancias de capital: impuestos sobre beneficios de inversión**.
-2. Identificar quién paga, quién recauda y qué hecho puede generar la obligación.
-3. Distinguir una regla general de una excepción que exige verificación.
-4. Organizar la documentación necesaria para revisar una posición fiscal.
-5. Formular preguntas útiles para una fuente oficial o un profesional cualificado.
+Una ganancia de capital es la ganancia que se obtiene al vender un activo (como una acción o un bien inmueble) por más de lo que se pagó por él. El cálculo básico es sencillo: el precio de venta menos el precio de compra (a menudo llamado «base») es igual a la ganancia. Si el activo se vendió por menos que su base, se trata, en cambio, de una pérdida de capital.
 
-## Concepto principal
+Un matiz importante: en la mayoría de los sistemas, una ganancia solo se «realiza», y en general solo tributa, cuando el activo se vende realmente. Si el valor de una acción se duplica pero usted nunca la vende, en general todavía no debe impuesto sobre las ganancias de capital por ese aumento: es una ganancia no realizada, o «en papel». Esta distinción importa para planificar las inversiones, porque vender un activo que se ha valorizado suele ser una decisión deliberada, cuyo momento se puede escoger y que tiene consecuencias tributarias, y no algo que ocurre automáticamente solo porque el valor del activo subió.
 
-[HECHO VERIFICABLE] Los impuestos son obligaciones creadas por una jurisdicción. La respuesta correcta depende del país, territorio, estado o provincia, municipio, periodo fiscal, tipo de contribuyente y naturaleza de la operación. Por eso, comprender **ganancias de capital: impuestos sobre beneficios de inversión** exige identificar primero la jurisdicción y la fecha aplicable.
+## Ejemplo práctico
 
-La educación fiscal no consiste en memorizar una cifra aislada. Consiste en reconocer el hecho imponible, la base, el tipo, las deducciones o créditos posibles, el plazo, la documentación y la autoridad que publica la regla. Las tasas, umbrales y formularios pueden cambiar; antes de actuar deben comprobarse en una fuente oficial vigente.
+**Pregunta:** Una inversionista compra una acción por 1.000 €. Dos años después vale 3.000 €, pero no la ha vendido. ¿Debe ahora mismo el impuesto sobre las ganancias de capital?
 
-## Marco práctico de análisis
+**Estudiante:** Según esta lección, probablemente todavía no, porque la ganancia no se ha realizado mediante una venta.
 
-Utiliza estas preguntas:
+**Guía:** ¿Qué activaría el impuesto y cómo se calcularía si vendiera a 3.000 €?
 
-- ¿Qué jurisdicción tiene autoridad sobre la persona o transacción?
-- ¿Cuál es el periodo fiscal?
-- ¿Quién es el contribuyente y cuál es su clasificación?
-- ¿Qué ingreso, compra, propiedad o actividad activa la regla?
-- ¿Cómo se calcula la base?
-- ¿Existe una deducción, crédito, exclusión o exención?
-- ¿Qué formulario, pago o registro se exige?
-- ¿Cuál es el plazo y qué ocurre si se incumple?
-- ¿Qué fuente oficial confirma la respuesta?
+**Estudiante:** La venta lo activaría: la ganancia sería 3.000 € menos su base de 1.000 €, es decir, una ganancia de capital de 2.000 €.
 
-## Ejemplo educativo
+**Guía:** Exactamente, y ese momento es algo sobre lo que ella tiene cierto control, lo que es una palanca real de planificación.
 
-[SUPUESTO] Una persona obtiene 48.000 unidades monetarias de ingresos y además recibe 3.000 por un trabajo independiente. Conserva recibos, estados de cuenta y documentos de pago, pero todavía no sabe cómo se clasifica cada cantidad. Antes de calcular, identifica su jurisdicción, periodo fiscal, condición laboral y naturaleza de los gastos.
+## Cuestionario práctico
 
-Este ejemplo no determina una obligación real. Muestra el orden correcto: clasificar hechos, reunir documentación, consultar instrucciones oficiales y calcular solamente después. Si una regla afecta empleo, empresa, inversión o propiedad, debe analizarse por separado antes de integrar el resultado.
+**Pregunta 1.** Una ganancia de capital se calcula como:
 
-## Aplicación al tema
+A) El precio de compra menos el precio de venta
+B) El precio de venta menos el precio de compra (base)
+C) Solo el precio de compra
+D) Una cantidad fija que fija el gobierno
 
-Para estudiar **ganancias de capital: impuestos sobre beneficios de inversión**, crea una hoja de trabajo con cuatro columnas: hecho, posible tratamiento, documento de respaldo y fuente pendiente de verificación. Marca como **HECHO** lo demostrado, como **SUPUESTO** lo que falta confirmar y como **OPINIÓN** cualquier recomendación basada en preferencias o tolerancia al riesgo.
+**Pregunta 2.** Si un activo se vende por menos que su base, eso se llama:
 
-No mezcles traducción con localización jurídica. Un término estadounidense como W-2, 1099, Medicare, LLC, S-Corp, Roth o impuesto estatal sobre ventas puede traducirse para aprender el concepto, pero no debe presentarse como si fuera una figura idéntica en España u otra jurisdicción.
+A) Ganancia de capital
+B) Pérdida de capital
+C) Crédito tributario
+D) Reembolso
 
-## Errores comunes
+**Pregunta 3.** En general, una ganancia de capital tributa:
 
-- Aplicar una tasa de otro año o jurisdicción.
-- Confundir ingreso bruto con ingreso imponible o efectivo disponible.
-- Suponer que un gasto empresarial siempre es deducible.
-- Creer que una deducción y un crédito producen el mismo efecto.
-- Perder justificantes o mezclar cuentas personales y empresariales.
-- Confundir un reembolso con una reducción real del impuesto.
-- Esperar hasta el vencimiento para organizar la información.
-- Utilizar contenido educativo como asesoramiento individualizado.
+A) En el momento en que aumenta el valor del activo, sin importar si se vende
+B) Cuando la ganancia se realiza, normalmente al vender
+C) Nunca
+D) Solo si el activo es un bien inmueble
 
-## Actividad práctica
+**Pregunta 4.** Una ganancia no realizada, o «en papel», se refiere a:
 
-1. Escribe una situación relacionada con este tema.
-2. Identifica jurisdicción y periodo fiscal.
-3. Enumera cinco hechos comprobables y tres datos faltantes.
-4. Reúne o describe los documentos pertinentes.
-5. Localiza una fuente oficial que deba consultarse.
-6. Redacta tres preguntas para un profesional fiscal.
-7. Explica qué dato podría cambiar la conclusión.
+A) Una ganancia que ya tributó
+B) Un aumento de valor que todavía no se ha asegurado mediante una venta
+C) Un tipo de crédito tributario
+D) Una pérdida de capital
 
-## Evaluación de competencia
+## Clave de respuestas
 
-1. ¿Por qué debe identificarse primero la jurisdicción?
-2. ¿Cuál es la diferencia entre hecho y supuesto?
-3. ¿Qué documento respaldaría la operación?
-4. ¿Qué fecha o periodo debe verificarse?
-5. ¿Qué organismo oficial podría publicar la regla?
-6. ¿Existe una posible excepción o clasificación alternativa?
-7. ¿Qué error produciría usar una tasa desactualizada?
-8. ¿Qué pregunta formularías a un profesional?
-9. ¿Qué registro conservarías y por cuánto tiempo según la regla aplicable?
-10. Resume el proceso de análisis sin inventar cifras.
+1. B, 2. B, 3. B, 4. B
 
-**Criterio de dominio:** 8 de 10 respuestas satisfactorias. Por debajo del 80 %, el alumno revisará la fuente, corregirá la clasificación y repetirá un escenario nuevo.
+## Respuestas y explicaciones
 
-## Respuestas orientativas
+**1.** El cálculo de la ganancia compara el precio al que vendió el activo con lo que pagó originalmente.
 
-Las respuestas deben identificar jurisdicción, periodo, clasificación, hecho imponible, documentación y fuente oficial. Una buena respuesta declara incertidumbres y evita afirmar tasas, umbrales o plazos no verificados. Cuando falten hechos, la conclusión correcta es indicar qué información se necesita, no adivinar.
+**2.** Una pérdida es simplemente lo contrario de una ganancia: vender por menos que la base original.
+
+**3.** La realización mediante la venta es lo que, en general, activa el impuesto sobre las ganancias de capital en la mayoría de los sistemas.
+
+**4.** El valor puede subir en papel sin activar el impuesto, ya que todavía no se ha vendido nada.
 
 ## Puntos clave
 
-- Las reglas fiscales cambian según lugar, fecha y clasificación.
-- Primero se clasifican los hechos; después se calcula.
-- La documentación permite defender una posición.
-- Deducciones, créditos, exclusiones y pagos anticipados son conceptos distintos.
-- Las fuentes oficiales vigentes tienen prioridad sobre resúmenes educativos.
-- La planificación legal es distinta de ocultar, falsear o evadir obligaciones.
-
-## Ruta de aprendizaje
-
-- **Anterior:** GREEN-L1-030
-- **Actual:** GREEN-L1-031
-- **Siguiente:** GREEN-L1-032
-
-## Localización — España
-
-Contenido en español de España para educación comparada. Las referencias a formularios y entidades estadounidenses explican conceptos del currículo original y no sustituyen la normativa española. Antes de aplicar cualquier regla deben verificarse la Agencia Tributaria u otra autoridad competente, el periodo fiscal y las circunstancias concretas.
+- Una ganancia de capital es el precio de venta menos el precio de compra (base).
+- Vender por debajo de la base produce, en cambio, una pérdida de capital.
+- En general, las ganancias tributan al realizarse, normalmente cuando se vende el activo.
+- Las ganancias no realizadas todavía no tributan, lo que hace del momento de la venta una verdadera decisión de planificación.

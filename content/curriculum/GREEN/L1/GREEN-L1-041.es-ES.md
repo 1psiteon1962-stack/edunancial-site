@@ -1,116 +1,89 @@
 ---
 id: GREEN-L1-041
 track: GREEN
-officialTrackName: "Business Taxes"
+officialTrackName: Taxes
 level: 1
 lessonNumber: 41
 locale: es-ES
-title: "Doble imposición y sociedades"
-summary: "Introducción práctica a doble imposición y sociedades, con énfasis en conceptos, documentación, decisiones y verificación mediante fuentes oficiales."
-version: "1.0"
-author: "Waldemar M. Caban, JD MA"
-date: "2026-09-01"
+title: "La doble tributación: lo que significa para las corporaciones"
+summary: "Explica el concepto de la doble tributación (la ganancia que tributa una vez a nivel de la corporación y otra vez cuando se distribuye a los accionistas) a partir de la lección anterior."
+version: 1.0
+author: Waldemar M. Caban, JD MA
+date: 2026-08-09
 ---
 
-# 41. Doble imposición y sociedades
+# La doble tributación: lo que significa para las corporaciones
 
 ## Objetivos de aprendizaje
+- Definir la doble tributación en el contexto corporativo.
+- Seguir los dos momentos en que la misma ganancia puede tributar.
+- Reconocer por qué la elección de la estructura del negocio, que se verá pronto, importa en parte por este problema.
 
-Al terminar esta lección, el alumno podrá:
+## Contenido principal
 
-1. Explicar con palabras sencillas el concepto de **doble imposición y sociedades**.
-2. Identificar quién paga, quién recauda y qué hecho puede generar la obligación.
-3. Distinguir una regla general de una excepción que exige verificación.
-4. Organizar la documentación necesaria para revisar una posición fiscal.
-5. Formular preguntas útiles para una fuente oficial o un profesional cualificado.
+A partir directamente de la lección anterior: como una corporación tributa como una entidad propia, su ganancia puede tributar dos veces: una vez a nivel de la corporación, cuando la corporación misma declara su ganancia y paga el impuesto sobre ella, y otra vez a nivel de los accionistas, si esa ganancia se distribuye a los accionistas (comúnmente como dividendos) y cuando eso ocurre, y esos accionistas deben su propio impuesto sobre la cantidad recibida.
 
-## Concepto principal
+Eso es lo que significa la «doble tributación» en un contexto corporativo: el mismo euro de ganancia tributa una vez dentro de la corporación y, posiblemente, otra vez en manos de la persona que finalmente lo recibe. No todas las estructuras de negocio funcionan así: algunas estructuras, que se verán en una lección próxima, están diseñadas específicamente para que la ganancia pase a los dueños sin esta tributación en dos capas. Entender la doble tributación es una de las razones clave por las que la estructura de un negocio no es solo una formalidad legal: puede tener un coste tributario real y continuo según la estructura que escoja un negocio.
 
-[HECHO VERIFICABLE] Los impuestos son obligaciones creadas por una jurisdicción. La respuesta correcta depende del país, territorio, estado o provincia, municipio, periodo fiscal, tipo de contribuyente y naturaleza de la operación. Por eso, comprender **doble imposición y sociedades** exige identificar primero la jurisdicción y la fecha aplicable.
+## Ejemplo práctico
 
-La educación fiscal no consiste en memorizar una cifra aislada. Consiste en reconocer el hecho imponible, la base, el tipo, las deducciones o créditos posibles, el plazo, la documentación y la autoridad que publica la regla. Las tasas, umbrales y formularios pueden cambiar; antes de actuar deben comprobarse en una fuente oficial vigente.
+**Pregunta:** Una corporación gana 100.000 € de ganancia, paga el impuesto corporativo sobre ella y más tarde distribuye la cantidad restante a sus accionistas como dividendos. ¿Ahí termina la historia, en lo tributario?
 
-## Marco práctico de análisis
+**Estudiante:** Según esta lección, no: los accionistas probablemente deben su propio impuesto sobre los dividendos que reciben.
 
-Utiliza estas preguntas:
+**Guía:** Entonces, ¿cuántas veces ha tocado el impuesto, en la práctica, esos 100.000 € de ganancia original?
 
-- ¿Qué jurisdicción tiene autoridad sobre la persona o transacción?
-- ¿Cuál es el periodo fiscal?
-- ¿Quién es el contribuyente y cuál es su clasificación?
-- ¿Qué ingreso, compra, propiedad o actividad activa la regla?
-- ¿Cómo se calcula la base?
-- ¿Existe una deducción, crédito, exclusión o exención?
-- ¿Qué formulario, pago o registro se exige?
-- ¿Cuál es el plazo y qué ocurre si se incumple?
-- ¿Qué fuente oficial confirma la respuesta?
+**Estudiante:** Dos veces: una vez a nivel de la corporación, cuando la corporación pagó el impuesto sobre su ganancia, y otra vez a nivel de los accionistas, cuando recibieron el dividendo y tributaron por él.
 
-## Ejemplo educativo
+**Guía:** Exactamente: ese es, en pocas palabras, el patrón de la doble tributación.
 
-[SUPUESTO] Una persona obtiene 48.000 unidades monetarias de ingresos y además recibe 3.000 por un trabajo independiente. Conserva recibos, estados de cuenta y documentos de pago, pero todavía no sabe cómo se clasifica cada cantidad. Antes de calcular, identifica su jurisdicción, periodo fiscal, condición laboral y naturaleza de los gastos.
+## Cuestionario práctico
 
-Este ejemplo no determina una obligación real. Muestra el orden correcto: clasificar hechos, reunir documentación, consultar instrucciones oficiales y calcular solamente después. Si una regla afecta empleo, empresa, inversión o propiedad, debe analizarse por separado antes de integrar el resultado.
+**Pregunta 1.** La doble tributación se refiere a:
 
-## Aplicación al tema
+A) Pagar dos veces el impuesto sobre las ventas en una compra
+B) Que la misma ganancia corporativa tribute tanto a nivel de la corporación como a nivel de los accionistas
+C) Un tipo de crédito tributario
+D) Presentar dos declaraciones de impuestos por error
 
-Para estudiar **doble imposición y sociedades**, crea una hoja de trabajo con cuatro columnas: hecho, posible tratamiento, documento de respaldo y fuente pendiente de verificación. Marca como **HECHO** lo demostrado, como **SUPUESTO** lo que falta confirmar y como **OPINIÓN** cualquier recomendación basada en preferencias o tolerancia al riesgo.
+**Pregunta 2.** La primera capa de tributación de este patrón ocurre:
 
-No mezcles traducción con localización jurídica. Un término estadounidense como W-2, 1099, Medicare, LLC, S-Corp, Roth o impuesto estatal sobre ventas puede traducirse para aprender el concepto, pero no debe presentarse como si fuera una figura idéntica en España u otra jurisdicción.
+A) A nivel de los accionistas
+B) A nivel de la corporación, sobre la ganancia propia de la corporación
+C) Solo a nivel del gobierno
+D) Nunca
 
-## Errores comunes
+**Pregunta 3.** La segunda capa de tributación ocurre:
 
-- Aplicar una tasa de otro año o jurisdicción.
-- Confundir ingreso bruto con ingreso imponible o efectivo disponible.
-- Suponer que un gasto empresarial siempre es deducible.
-- Creer que una deducción y un crédito producen el mismo efecto.
-- Perder justificantes o mezclar cuentas personales y empresariales.
-- Confundir un reembolso con una reducción real del impuesto.
-- Esperar hasta el vencimiento para organizar la información.
-- Utilizar contenido educativo como asesoramiento individualizado.
+A) Nunca
+B) Cuando la ganancia distribuida (como los dividendos) vuelve a tributar para el accionista
+C) Solo en los negocios de un solo dueño
+D) Solo si la corporación pierde dinero
 
-## Actividad práctica
+**Pregunta 4.** ¿Todas las estructuras de negocio implican doble tributación?
 
-1. Escribe una situación relacionada con este tema.
-2. Identifica jurisdicción y periodo fiscal.
-3. Enumera cinco hechos comprobables y tres datos faltantes.
-4. Reúne o describe los documentos pertinentes.
-5. Localiza una fuente oficial que deba consultarse.
-6. Redacta tres preguntas para un profesional fiscal.
-7. Explica qué dato podría cambiar la conclusión.
+A) Sí, todas
+B) No: algunas estructuras están diseñadas para evitar este patrón de dos capas, como se verá en una lección próxima
+C) Solo los negocios de un solo dueño
+D) La doble tributación en realidad no existe
 
-## Evaluación de competencia
+## Clave de respuestas
 
-1. ¿Por qué debe identificarse primero la jurisdicción?
-2. ¿Cuál es la diferencia entre hecho y supuesto?
-3. ¿Qué documento respaldaría la operación?
-4. ¿Qué fecha o periodo debe verificarse?
-5. ¿Qué organismo oficial podría publicar la regla?
-6. ¿Existe una posible excepción o clasificación alternativa?
-7. ¿Qué error produciría usar una tasa desactualizada?
-8. ¿Qué pregunta formularías a un profesional?
-9. ¿Qué registro conservarías y por cuánto tiempo según la regla aplicable?
-10. Resume el proceso de análisis sin inventar cifras.
+1. B, 2. B, 3. B, 4. B
 
-**Criterio de dominio:** 8 de 10 respuestas satisfactorias. Por debajo del 80 %, el alumno revisará la fuente, corregirá la clasificación y repetirá un escenario nuevo.
+## Respuestas y explicaciones
 
-## Respuestas orientativas
+**1.** La doble tributación describe específicamente la tributación en dos capas de la misma ganancia corporativa de fondo.
 
-Las respuestas deben identificar jurisdicción, periodo, clasificación, hecho imponible, documentación y fuente oficial. Una buena respuesta declara incertidumbres y evita afirmar tasas, umbrales o plazos no verificados. Cuando falten hechos, la conclusión correcta es indicar qué información se necesita, no adivinar.
+**2.** La corporación misma es el primer contribuyente: debe el impuesto sobre su propia ganancia antes de distribuir nada.
+
+**3.** El accionista se convierte en un segundo contribuyente sobre esa misma ganancia original una vez que se distribuye y la recibe.
+
+**4.** Existen estructuras alternativas específicamente para evitar este patrón, que aquí se adelanta y se ve a continuación.
 
 ## Puntos clave
 
-- Las reglas fiscales cambian según lugar, fecha y clasificación.
-- Primero se clasifican los hechos; después se calcula.
-- La documentación permite defender una posición.
-- Deducciones, créditos, exclusiones y pagos anticipados son conceptos distintos.
-- Las fuentes oficiales vigentes tienen prioridad sobre resúmenes educativos.
-- La planificación legal es distinta de ocultar, falsear o evadir obligaciones.
-
-## Ruta de aprendizaje
-
-- **Anterior:** GREEN-L1-040
-- **Actual:** GREEN-L1-041
-- **Siguiente:** GREEN-L1-042
-
-## Localización — España
-
-Contenido en español de España para educación comparada. Las referencias a formularios y entidades estadounidenses explican conceptos del currículo original y no sustituyen la normativa española. Antes de aplicar cualquier regla deben verificarse la Agencia Tributaria u otra autoridad competente, el periodo fiscal y las circunstancias concretas.
+- La doble tributación significa que la misma ganancia corporativa puede tributar tanto a nivel de la corporación como a nivel de los accionistas.
+- La corporación paga primero el impuesto sobre su propia ganancia.
+- Los accionistas pueden deber un impuesto adicional cuando esa ganancia se les distribuye más tarde.
+- Esta es una razón clave por la que la elección de la estructura del negocio tiene consecuencias tributarias reales y continuas.

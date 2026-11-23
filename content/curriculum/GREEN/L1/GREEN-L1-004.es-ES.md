@@ -1,116 +1,87 @@
 ---
 id: GREEN-L1-004
 track: GREEN
-officialTrackName: "Business Taxes"
+officialTrackName: Taxes
 level: 1
 lessonNumber: 4
 locale: es-ES
-title: "Impuesto sobre la renta: gravar lo que se gana"
-summary: "Introducción práctica a impuesto sobre la renta: gravar lo que se gana, con énfasis en conceptos, documentación, decisiones y verificación mediante fuentes oficiales."
-version: "1.0"
-author: "Waldemar M. Caban, JD MA"
-date: "2026-09-01"
+title: "El impuesto sobre la renta: gravar lo que usted gana"
+summary: "Una mirada más de cerca al impuesto sobre la renta: cómo se aplica a los salarios, a las ganancias de un negocio y al ingreso de las inversiones."
+version: 1.0
+author: Waldemar M. Caban, JD MA
+date: 2026-08-09
 ---
 
-# 4. Impuesto sobre la renta: gravar lo que se gana
+# El impuesto sobre la renta: gravar lo que usted gana
 
 ## Objetivos de aprendizaje
+- Definir el impuesto sobre la renta e identificar qué cuenta como ingreso tributable.
+- Explicar que el impuesto sobre la renta, en general, se aplica tanto si el ingreso viene de un empleo como de un negocio o de inversiones.
+- Reconocer que el «ingreso» es más amplio que solo un pago de nómina.
 
-Al terminar esta lección, el alumno podrá:
+## Contenido principal
 
-1. Explicar con palabras sencillas el concepto de **impuesto sobre la renta: gravar lo que se gana**.
-2. Identificar quién paga, quién recauda y qué hecho puede generar la obligación.
-3. Distinguir una regla general de una excepción que exige verificación.
-4. Organizar la documentación necesaria para revisar una posición fiscal.
-5. Formular preguntas útiles para una fuente oficial o un profesional cualificado.
+El impuesto sobre la renta es un impuesto sobre el dinero que usted gana. La palabra «ingreso» es más amplia de lo que la mayoría de las personas supone: normalmente incluye los salarios de un empleo, la ganancia de un negocio que usted opera y los rendimientos de inversiones como los intereses o los dividendos. Los distintos países definen de forma distinta qué cuenta exactamente como ingreso tributable, pero el principio general se mantiene en todas partes: si entró dinero y aumentó lo que usted tiene, es candidato al impuesto sobre la renta.
 
-## Concepto principal
+La mayoría de los sistemas de impuesto sobre la renta no gravan cada euro con la misma tasa. En cambio, usan tramos, deducciones y créditos para ajustar cuánto se debe realmente, conceptos que se tratan en detalle en lecciones posteriores. Por ahora, la idea clave es más sencilla: el impuesto sobre la renta se activa al ganar, en cualquiera de sus formas, y no solo por tener un empleo tradicional.
 
-[HECHO VERIFICABLE] Los impuestos son obligaciones creadas por una jurisdicción. La respuesta correcta depende del país, territorio, estado o provincia, municipio, periodo fiscal, tipo de contribuyente y naturaleza de la operación. Por eso, comprender **impuesto sobre la renta: gravar lo que se gana** exige identificar primero la jurisdicción y la fecha aplicable.
+## Ejemplo práctico
 
-La educación fiscal no consiste en memorizar una cifra aislada. Consiste en reconocer el hecho imponible, la base, el tipo, las deducciones o créditos posibles, el plazo, la documentación y la autoridad que publica la regla. Las tasas, umbrales y formularios pueden cambiar; antes de actuar deben comprobarse en una fuente oficial vigente.
+**Pregunta:** La abuela de Ntege vende vestidos y además gana una pequeña cantidad de intereses sobre sus ahorros. ¿Se aplica el impuesto sobre la renta a las dos cosas?
 
-## Marco práctico de análisis
+**Estudiante:** Las ventas de vestidos son claramente ganancias de su negocio.
 
-Utiliza estas preguntas:
+**Guía:** ¿Y los intereses?
 
-- ¿Qué jurisdicción tiene autoridad sobre la persona o transacción?
-- ¿Cuál es el periodo fiscal?
-- ¿Quién es el contribuyente y cuál es su clasificación?
-- ¿Qué ingreso, compra, propiedad o actividad activa la regla?
-- ¿Cómo se calcula la base?
-- ¿Existe una deducción, crédito, exclusión o exención?
-- ¿Qué formulario, pago o registro se exige?
-- ¿Cuál es el plazo y qué ocurre si se incumple?
-- ¿Qué fuente oficial confirma la respuesta?
+**Estudiante:** Eso también es dinero que entra, solo que viene de los ahorros en vez del trabajo.
 
-## Ejemplo educativo
+**Guía:** Correcto: los sistemas de impuesto sobre la renta, en general, miran todas las formas en que el dinero aumenta lo que usted tiene, no solo los salarios de un empleo.
 
-[SUPUESTO] Una persona obtiene 48.000 unidades monetarias de ingresos y además recibe 3.000 por un trabajo independiente. Conserva recibos, estados de cuenta y documentos de pago, pero todavía no sabe cómo se clasifica cada cantidad. Antes de calcular, identifica su jurisdicción, periodo fiscal, condición laboral y naturaleza de los gastos.
+## Cuestionario práctico
 
-Este ejemplo no determina una obligación real. Muestra el orden correcto: clasificar hechos, reunir documentación, consultar instrucciones oficiales y calcular solamente después. Si una regla afecta empleo, empresa, inversión o propiedad, debe analizarse por separado antes de integrar el resultado.
+**Pregunta 1.** El impuesto sobre la renta se aplica a:
 
-## Aplicación al tema
+A) Solo los salarios de un empleo
+B) Los salarios, la ganancia de un negocio y el ingreso de las inversiones
+C) Solo los rendimientos de las inversiones
+D) Solo las grandes corporaciones
 
-Para estudiar **impuesto sobre la renta: gravar lo que se gana**, crea una hoja de trabajo con cuatro columnas: hecho, posible tratamiento, documento de respaldo y fuente pendiente de verificación. Marca como **HECHO** lo demostrado, como **SUPUESTO** lo que falta confirmar y como **OPINIÓN** cualquier recomendación basada en preferencias o tolerancia al riesgo.
+**Pregunta 2.** Verdadero o falso: en la mayoría de los sistemas, todo el ingreso se grava exactamente con la misma tasa.
 
-No mezcles traducción con localización jurídica. Un término estadounidense como W-2, 1099, Medicare, LLC, S-Corp, Roth o impuesto estatal sobre ventas puede traducirse para aprender el concepto, pero no debe presentarse como si fuera una figura idéntica en España u otra jurisdicción.
+A) Verdadero
+B) Falso
 
-## Errores comunes
+**Pregunta 3.** Los intereses ganados en una cuenta de ahorros, en general:
 
-- Aplicar una tasa de otro año o jurisdicción.
-- Confundir ingreso bruto con ingreso imponible o efectivo disponible.
-- Suponer que un gasto empresarial siempre es deducible.
-- Creer que una deducción y un crédito producen el mismo efecto.
-- Perder justificantes o mezclar cuentas personales y empresariales.
-- Confundir un reembolso con una reducción real del impuesto.
-- Esperar hasta el vencimiento para organizar la información.
-- Utilizar contenido educativo como asesoramiento individualizado.
+A) Nunca son tributables
+B) Son una forma de ingreso que puede ser tributable
+C) Son lo mismo que un regalo
+D) Están exentos en todos los países
 
-## Actividad práctica
+**Pregunta 4.** El principio amplio detrás del impuesto sobre la renta es:
 
-1. Escribe una situación relacionada con este tema.
-2. Identifica jurisdicción y periodo fiscal.
-3. Enumera cinco hechos comprobables y tres datos faltantes.
-4. Reúne o describe los documentos pertinentes.
-5. Localiza una fuente oficial que deba consultarse.
-6. Redacta tres preguntas para un profesional fiscal.
-7. Explica qué dato podría cambiar la conclusión.
+A) Solo cuentan los pagos de nómina
+B) El dinero que aumenta lo que usted tiene es candidato a tributar
+C) Solo cuenta el efectivo, no otras formas de pago
+D) Los dueños de negocios están exentos
 
-## Evaluación de competencia
+## Clave de respuestas
 
-1. ¿Por qué debe identificarse primero la jurisdicción?
-2. ¿Cuál es la diferencia entre hecho y supuesto?
-3. ¿Qué documento respaldaría la operación?
-4. ¿Qué fecha o periodo debe verificarse?
-5. ¿Qué organismo oficial podría publicar la regla?
-6. ¿Existe una posible excepción o clasificación alternativa?
-7. ¿Qué error produciría usar una tasa desactualizada?
-8. ¿Qué pregunta formularías a un profesional?
-9. ¿Qué registro conservarías y por cuánto tiempo según la regla aplicable?
-10. Resume el proceso de análisis sin inventar cifras.
+1. B, 2. B, 3. B, 4. B
 
-**Criterio de dominio:** 8 de 10 respuestas satisfactorias. Por debajo del 80 %, el alumno revisará la fuente, corregirá la clasificación y repetirá un escenario nuevo.
+## Respuestas y explicaciones
 
-## Respuestas orientativas
+**1.** El impuesto sobre la renta es amplio por diseño: abarca los salarios, la ganancia de un negocio y los rendimientos de las inversiones, no solo el empleo tradicional.
 
-Las respuestas deben identificar jurisdicción, periodo, clasificación, hecho imponible, documentación y fuente oficial. Una buena respuesta declara incertidumbres y evita afirmar tasas, umbrales o plazos no verificados. Cuando falten hechos, la conclusión correcta es indicar qué información se necesita, no adivinar.
+**2.** La mayoría de los sistemas usan tramos, deducciones y créditos en vez de una sola tasa fija, algo que desglosan las lecciones posteriores.
+
+**3.** Los intereses son una forma de ingreso de las inversiones y comúnmente se tratan como tributables, según las reglas específicas de cada país.
+
+**4.** La prueba que lo unifica todo es si entró dinero y aumentó lo que usted tiene: la fuente importa menos que ese hecho básico.
 
 ## Puntos clave
 
-- Las reglas fiscales cambian según lugar, fecha y clasificación.
-- Primero se clasifican los hechos; después se calcula.
-- La documentación permite defender una posición.
-- Deducciones, créditos, exclusiones y pagos anticipados son conceptos distintos.
-- Las fuentes oficiales vigentes tienen prioridad sobre resúmenes educativos.
-- La planificación legal es distinta de ocultar, falsear o evadir obligaciones.
-
-## Ruta de aprendizaje
-
-- **Anterior:** GREEN-L1-003
-- **Actual:** GREEN-L1-004
-- **Siguiente:** GREEN-L1-005
-
-## Localización — España
-
-Contenido en español de España para educación comparada. Las referencias a formularios y entidades estadounidenses explican conceptos del currículo original y no sustituyen la normativa española. Antes de aplicar cualquier regla deben verificarse la Agencia Tributaria u otra autoridad competente, el periodo fiscal y las circunstancias concretas.
+- El impuesto sobre la renta se aplica a los salarios, a la ganancia de un negocio y al ingreso de las inversiones, no solo a los pagos de nómina.
+- Los distintos países definen de forma distinta el ingreso tributable, pero el principio de fondo es amplio.
+- La mayoría de los sistemas no gravan cada euro con la misma tasa fija.
+- Reconocer todas sus fuentes de ingreso es el punto de partida para entender su situación tributaria.

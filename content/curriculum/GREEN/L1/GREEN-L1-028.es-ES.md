@@ -1,116 +1,89 @@
 ---
 id: GREEN-L1-028
 track: GREEN
-officialTrackName: "Business Taxes"
+officialTrackName: Taxes
 level: 1
 lessonNumber: 28
 locale: es-ES
-title: "Recaudación del impuesto sobre ventas en pequeñas empresas"
-summary: "Introducción práctica a recaudación del impuesto sobre ventas en pequeñas empresas, con énfasis en conceptos, documentación, decisiones y verificación mediante fuentes oficiales."
-version: "1.0"
-author: "Waldemar M. Caban, JD MA"
-date: "2026-09-01"
+title: "El cobro del impuesto sobre las ventas en los pequeños negocios"
+summary: "Explica la responsabilidad práctica que asume un pequeño negocio cuando se convierte en recaudador del impuesto sobre las ventas, a partir de la lección anterior sobre el impuesto sobre las ventas desde el punto de vista del consumidor."
+version: 1.0
+author: Waldemar M. Caban, JD MA
+date: 2026-08-09
 ---
 
-# 28. Recaudación del impuesto sobre ventas en pequeñas empresas
+# El cobro del impuesto sobre las ventas en los pequeños negocios
 
 ## Objetivos de aprendizaje
+- Explicar el papel del negocio como recaudador del impuesto sobre las ventas.
+- Describir por qué el impuesto sobre las ventas cobrado no es un ingreso del negocio.
+- Reconocer el riesgo de tratar el impuesto sobre las ventas cobrado como un ingreso que se puede gastar.
 
-Al terminar esta lección, el alumno podrá:
+## Contenido principal
 
-1. Explicar con palabras sencillas el concepto de **recaudación del impuesto sobre ventas en pequeñas empresas**.
-2. Identificar quién paga, quién recauda y qué hecho puede generar la obligación.
-3. Distinguir una regla general de una excepción que exige verificación.
-4. Organizar la documentación necesaria para revisar una posición fiscal.
-5. Formular preguntas útiles para una fuente oficial o un profesional cualificado.
+Antes, esta ruta trató el impuesto sobre las ventas desde el punto de vista del comprador. Ahora considérelo desde el lado del negocio: cuando un negocio cobra el impuesto sobre las ventas a sus clientes, está guardando temporalmente un dinero que le pertenece al gobierno, no un dinero que ganó. Esa distinción importa muchísimo para la forma en que un negocio debería manejar su efectivo.
 
-## Concepto principal
+Un error común y grave de los dueños de pequeños negocios nuevos es tratar todo el efectivo que entra (incluida la parte del impuesto sobre las ventas) como disponible para gastar, y luego descubrir, al momento de presentar la declaración o de remitir el impuesto, que el dinero del impuesto sobre las ventas ya se gastó en otras cosas. Como el negocio está obligado por ley a remitir ese impuesto sin importar su propia situación de efectivo, los negocios disciplinados normalmente separan de inmediato el impuesto sobre las ventas cobrado, a veces en una cuenta dedicada, en vez de mezclarlo con los fondos operativos generales.
 
-[HECHO VERIFICABLE] Los impuestos son obligaciones creadas por una jurisdicción. La respuesta correcta depende del país, territorio, estado o provincia, municipio, periodo fiscal, tipo de contribuyente y naturaleza de la operación. Por eso, comprender **recaudación del impuesto sobre ventas en pequeñas empresas** exige identificar primero la jurisdicción y la fecha aplicable.
+## Ejemplo práctico
 
-La educación fiscal no consiste en memorizar una cifra aislada. Consiste en reconocer el hecho imponible, la base, el tipo, las deducciones o créditos posibles, el plazo, la documentación y la autoridad que publica la regla. Las tasas, umbrales y formularios pueden cambiar; antes de actuar deben comprobarse en una fuente oficial vigente.
+**Pregunta:** El dueño de una tienda nueva deposita todas las ventas diarias, incluido el impuesto sobre las ventas cobrado, en una sola cuenta general y gasta libremente de ella. ¿Qué riesgo crea esto?
 
-## Marco práctico de análisis
+**Estudiante:** Según esta lección, podría gastarse sin querer el dinero del impuesto sobre las ventas que en realidad le pertenece al gobierno.
 
-Utiliza estas preguntas:
+**Guía:** ¿Cómo sería un enfoque más disciplinado?
 
-- ¿Qué jurisdicción tiene autoridad sobre la persona o transacción?
-- ¿Cuál es el periodo fiscal?
-- ¿Quién es el contribuyente y cuál es su clasificación?
-- ¿Qué ingreso, compra, propiedad o actividad activa la regla?
-- ¿Cómo se calcula la base?
-- ¿Existe una deducción, crédito, exclusión o exención?
-- ¿Qué formulario, pago o registro se exige?
-- ¿Cuál es el plazo y qué ocurre si se incumple?
-- ¿Qué fuente oficial confirma la respuesta?
+**Estudiante:** Separar de inmediato el impuesto sobre las ventas cobrado en su propia cuenta, para que nunca se confunda con un ingreso del negocio que se puede gastar.
 
-## Ejemplo educativo
+**Guía:** Exactamente: tratarlo desde el primer día como un dinero que ya está comprometido evita la trampa.
 
-[SUPUESTO] Una persona obtiene 48.000 unidades monetarias de ingresos y además recibe 3.000 por un trabajo independiente. Conserva recibos, estados de cuenta y documentos de pago, pero todavía no sabe cómo se clasifica cada cantidad. Antes de calcular, identifica su jurisdicción, periodo fiscal, condición laboral y naturaleza de los gastos.
+## Cuestionario práctico
 
-Este ejemplo no determina una obligación real. Muestra el orden correcto: clasificar hechos, reunir documentación, consultar instrucciones oficiales y calcular solamente después. Si una regla afecta empleo, empresa, inversión o propiedad, debe analizarse por separado antes de integrar el resultado.
+**Pregunta 1.** Cuando un negocio cobra el impuesto sobre las ventas, ese dinero es:
 
-## Aplicación al tema
+A) Un ingreso propio que ganó el negocio
+B) Dinero que guarda temporalmente en nombre del gobierno
+C) Un regalo de los clientes
+D) Automáticamente libre de impuestos
 
-Para estudiar **recaudación del impuesto sobre ventas en pequeñas empresas**, crea una hoja de trabajo con cuatro columnas: hecho, posible tratamiento, documento de respaldo y fuente pendiente de verificación. Marca como **HECHO** lo demostrado, como **SUPUESTO** lo que falta confirmar y como **OPINIÓN** cualquier recomendación basada en preferencias o tolerancia al riesgo.
+**Pregunta 2.** Un error común de los pequeños negocios nuevos es:
 
-No mezcles traducción con localización jurídica. Un término estadounidense como W-2, 1099, Medicare, LLC, S-Corp, Roth o impuesto estatal sobre ventas puede traducirse para aprender el concepto, pero no debe presentarse como si fuera una figura idéntica en España u otra jurisdicción.
+A) Separar de inmediato el impuesto sobre las ventas
+B) Gastar el impuesto sobre las ventas cobrado como si fuera un ingreso operativo general
+C) Cobrar muy poco impuesto sobre las ventas
+D) No cobrar nunca el impuesto sobre las ventas
 
-## Errores comunes
+**Pregunta 3.** ¿Por qué este error es grave?
 
-- Aplicar una tasa de otro año o jurisdicción.
-- Confundir ingreso bruto con ingreso imponible o efectivo disponible.
-- Suponer que un gasto empresarial siempre es deducible.
-- Creer que una deducción y un crédito producen el mismo efecto.
-- Perder justificantes o mezclar cuentas personales y empresariales.
-- Confundir un reembolso con una reducción real del impuesto.
-- Esperar hasta el vencimiento para organizar la información.
-- Utilizar contenido educativo como asesoramiento individualizado.
+A) No es grave
+B) El negocio sigue obligado por ley a remitir el impuesto, se haya gastado ya o no
+C) El impuesto sobre las ventas es opcional
+D) Los responsables son los clientes
 
-## Actividad práctica
+**Pregunta 4.** Una práctica disciplinada para evitar este error es:
 
-1. Escribe una situación relacionada con este tema.
-2. Identifica jurisdicción y periodo fiscal.
-3. Enumera cinco hechos comprobables y tres datos faltantes.
-4. Reúne o describe los documentos pertinentes.
-5. Localiza una fuente oficial que deba consultarse.
-6. Redacta tres preguntas para un profesional fiscal.
-7. Explica qué dato podría cambiar la conclusión.
+A) Ignorar el impuesto sobre las ventas hasta el final del año
+B) Separar de inmediato el impuesto sobre las ventas cobrado, a veces en una cuenta dedicada
+C) Gastarlo primero y preocuparse después
+D) Negarse a cobrar el impuesto sobre las ventas
 
-## Evaluación de competencia
+## Clave de respuestas
 
-1. ¿Por qué debe identificarse primero la jurisdicción?
-2. ¿Cuál es la diferencia entre hecho y supuesto?
-3. ¿Qué documento respaldaría la operación?
-4. ¿Qué fecha o periodo debe verificarse?
-5. ¿Qué organismo oficial podría publicar la regla?
-6. ¿Existe una posible excepción o clasificación alternativa?
-7. ¿Qué error produciría usar una tasa desactualizada?
-8. ¿Qué pregunta formularías a un profesional?
-9. ¿Qué registro conservarías y por cuánto tiempo según la regla aplicable?
-10. Resume el proceso de análisis sin inventar cifras.
+1. B, 2. B, 3. B, 4. B
 
-**Criterio de dominio:** 8 de 10 respuestas satisfactorias. Por debajo del 80 %, el alumno revisará la fuente, corregirá la clasificación y repetirá un escenario nuevo.
+## Respuestas y explicaciones
 
-## Respuestas orientativas
+**1.** El negocio es un recaudador en nombre del gobierno, no el dueño final de ese dinero.
 
-Las respuestas deben identificar jurisdicción, periodo, clasificación, hecho imponible, documentación y fuente oficial. Una buena respuesta declara incertidumbres y evita afirmar tasas, umbrales o plazos no verificados. Cuando falten hechos, la conclusión correcta es indicar qué información se necesita, no adivinar.
+**2.** Mezclar el impuesto cobrado con los ingresos generales es uno de los errores de manejo del efectivo más comunes de los dueños de negocios nuevos.
+
+**3.** La obligación de remitir no desaparece solo porque el efectivo se gastó en otra cosa.
+
+**4.** Separarlo de inmediato es una disciplina sencilla y eficaz que evita exactamente este problema.
 
 ## Puntos clave
 
-- Las reglas fiscales cambian según lugar, fecha y clasificación.
-- Primero se clasifican los hechos; después se calcula.
-- La documentación permite defender una posición.
-- Deducciones, créditos, exclusiones y pagos anticipados son conceptos distintos.
-- Las fuentes oficiales vigentes tienen prioridad sobre resúmenes educativos.
-- La planificación legal es distinta de ocultar, falsear o evadir obligaciones.
-
-## Ruta de aprendizaje
-
-- **Anterior:** GREEN-L1-027
-- **Actual:** GREEN-L1-028
-- **Siguiente:** GREEN-L1-029
-
-## Localización — España
-
-Contenido en español de España para educación comparada. Las referencias a formularios y entidades estadounidenses explican conceptos del currículo original y no sustituyen la normativa española. Antes de aplicar cualquier regla deben verificarse la Agencia Tributaria u otra autoridad competente, el periodo fiscal y las circunstancias concretas.
+- El impuesto sobre las ventas cobrado le pertenece al gobierno, no al negocio.
+- Tratarlo como un ingreso que se puede gastar es un error común y riesgoso.
+- El negocio sigue obligado a remitirlo sin importar su propia situación de efectivo.
+- Separar de inmediato el impuesto sobre las ventas cobrado es una buena práctica disciplinada.

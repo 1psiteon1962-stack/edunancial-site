@@ -1,116 +1,89 @@
 ---
 id: GREEN-L1-023
 track: GREEN
-officialTrackName: "Business Taxes"
+officialTrackName: Taxes
 level: 1
 lessonNumber: 23
 locale: es-ES
-title: "Impuesto del trabajo autónomo: obligaciones de profesionales y empresarios"
-summary: "Introducción práctica a impuesto del trabajo autónomo: obligaciones de profesionales y empresarios, con énfasis en conceptos, documentación, decisiones y verificación mediante fuentes oficiales."
-version: "1.0"
-author: "Waldemar M. Caban, JD MA"
-date: "2026-09-01"
+title: "El impuesto sobre el trabajo por cuenta propia: lo que deben los trabajadores independientes y los dueños de negocios"
+summary: "Parte de la lección sobre el impuesto sobre la nómina para explicar por qué las personas que trabajan por cuenta propia a menudo deben tanto la parte del empleador como la del empleado de los impuestos tipo nómina."
+version: 1.0
+author: Waldemar M. Caban, JD MA
+date: 2026-08-09
 ---
 
-# 23. Impuesto del trabajo autónomo: obligaciones de profesionales y empresarios
+# El impuesto sobre el trabajo por cuenta propia: lo que deben los trabajadores independientes y los dueños de negocios
 
 ## Objetivos de aprendizaje
+- Recordar cómo se reparte el impuesto sobre la nómina entre el empleador y el empleado.
+- Explicar por qué una persona que trabaja por cuenta propia a menudo debe las dos mitades.
+- Reconocer esto como una consideración clave de planificación para los trabajadores independientes y los dueños de pequeños negocios.
 
-Al terminar esta lección, el alumno podrá:
+## Contenido principal
 
-1. Explicar con palabras sencillas el concepto de **impuesto del trabajo autónomo: obligaciones de profesionales y empresarios**.
-2. Identificar quién paga, quién recauda y qué hecho puede generar la obligación.
-3. Distinguir una regla general de una excepción que exige verificación.
-4. Organizar la documentación necesaria para revisar una posición fiscal.
-5. Formular preguntas útiles para una fuente oficial o un profesional cualificado.
+Antes aprendió que el impuesto sobre la nómina a menudo se reparte entre el empleador y el empleado: una parte se retiene del salario y otra la paga aparte el empleador. Cuando usted trabaja por cuenta propia, en la práctica es a la vez el empleador y el empleado. Muchos sistemas lo tienen en cuenta exigiendo que las personas que trabajan por cuenta propia paguen una versión del impuesto sobre la nómina que cubre las dos mitades, a veces llamada impuesto sobre el trabajo por cuenta propia.
 
-## Concepto principal
+Este es uno de los costes del trabajo por cuenta propia que más se subestiman. Un trabajador independiente nuevo que compara el total de sus facturas con lo que muestra el pago de nómina de un empleado equivalente puede subestimar gravemente su carga tributaria real si olvida que, como negocio de una sola persona, está cubriendo los dos lados de este impuesto. Entender esto de antemano, y apartar dinero en consecuencia, evita una sorpresa desagradable al momento de presentar la declaración.
 
-[HECHO VERIFICABLE] Los impuestos son obligaciones creadas por una jurisdicción. La respuesta correcta depende del país, territorio, estado o provincia, municipio, periodo fiscal, tipo de contribuyente y naturaleza de la operación. Por eso, comprender **impuesto del trabajo autónomo: obligaciones de profesionales y empresarios** exige identificar primero la jurisdicción y la fecha aplicable.
+## Ejemplo práctico
 
-La educación fiscal no consiste en memorizar una cifra aislada. Consiste en reconocer el hecho imponible, la base, el tipo, las deducciones o créditos posibles, el plazo, la documentación y la autoridad que publica la regla. Las tasas, umbrales y formularios pueden cambiar; antes de actuar deben comprobarse en una fuente oficial vigente.
+**Pregunta:** Una trabajadora independiente compara sus 80.000 € en facturas anuales con el empleo asalariado de 80.000 € de una amiga y supone que su situación tributaria es básicamente la misma. ¿Lo es?
 
-## Marco práctico de análisis
+**Estudiante:** Probablemente no, porque el empleador de su amiga cubre automáticamente la mitad del impuesto tipo nómina.
 
-Utiliza estas preguntas:
+**Guía:** ¿Qué significa eso para la carga tributaria real de la trabajadora independiente en comparación con la de su amiga?
 
-- ¿Qué jurisdicción tiene autoridad sobre la persona o transacción?
-- ¿Cuál es el periodo fiscal?
-- ¿Quién es el contribuyente y cuál es su clasificación?
-- ¿Qué ingreso, compra, propiedad o actividad activa la regla?
-- ¿Cómo se calcula la base?
-- ¿Existe una deducción, crédito, exclusión o exención?
-- ¿Qué formulario, pago o registro se exige?
-- ¿Cuál es el plazo y qué ocurre si se incumple?
-- ¿Qué fuente oficial confirma la respuesta?
+**Estudiante:** Probablemente debe más en total de impuesto tipo nómina, porque ella misma es responsable de la parte del empleador y de la parte del empleado.
 
-## Ejemplo educativo
+**Guía:** Exactamente: el mismo ingreso en la línea superior, una realidad tributaria bastante distinta.
 
-[SUPUESTO] Una persona obtiene 48.000 unidades monetarias de ingresos y además recibe 3.000 por un trabajo independiente. Conserva recibos, estados de cuenta y documentos de pago, pero todavía no sabe cómo se clasifica cada cantidad. Antes de calcular, identifica su jurisdicción, periodo fiscal, condición laboral y naturaleza de los gastos.
+## Cuestionario práctico
 
-Este ejemplo no determina una obligación real. Muestra el orden correcto: clasificar hechos, reunir documentación, consultar instrucciones oficiales y calcular solamente después. Si una regla afecta empleo, empresa, inversión o propiedad, debe analizarse por separado antes de integrar el resultado.
+**Pregunta 1.** En general, el impuesto sobre el trabajo por cuenta propia cubre:
 
-## Aplicación al tema
+A) Solo la parte del empleado del impuesto tipo nómina
+B) Tanto la parte del empleador como la del empleado del impuesto tipo nómina
+C) Solo el impuesto sobre las ventas
+D) Solo el impuesto sobre la propiedad
 
-Para estudiar **impuesto del trabajo autónomo: obligaciones de profesionales y empresarios**, crea una hoja de trabajo con cuatro columnas: hecho, posible tratamiento, documento de respaldo y fuente pendiente de verificación. Marca como **HECHO** lo demostrado, como **SUPUESTO** lo que falta confirmar y como **OPINIÓN** cualquier recomendación basada en preferencias o tolerancia al riesgo.
+**Pregunta 2.** ¿Por qué una persona que trabaja por cuenta propia a menudo debe más impuesto tipo nómina que un empleado equivalente?
 
-No mezcles traducción con localización jurídica. Un término estadounidense como W-2, 1099, Medicare, LLC, S-Corp, Roth o impuesto estatal sobre ventas puede traducirse para aprender el concepto, pero no debe presentarse como si fuera una figura idéntica en España u otra jurisdicción.
+A) Gana más automáticamente
+B) Tiene que cubrir ella misma tanto la parte del empleador como la del empleado
+C) A las personas que trabajan por cuenta propia se les grava con tasas al azar
+D) No es así: las cantidades siempre son idénticas
 
-## Errores comunes
+**Pregunta 3.** ¿Cuál es una consecuencia práctica de subestimar el impuesto sobre el trabajo por cuenta propia?
 
-- Aplicar una tasa de otro año o jurisdicción.
-- Confundir ingreso bruto con ingreso imponible o efectivo disponible.
-- Suponer que un gasto empresarial siempre es deducible.
-- Creer que una deducción y un crédito producen el mismo efecto.
-- Perder justificantes o mezclar cuentas personales y empresariales.
-- Confundir un reembolso con una reducción real del impuesto.
-- Esperar hasta el vencimiento para organizar la información.
-- Utilizar contenido educativo como asesoramiento individualizado.
+A) Ninguna consecuencia
+B) Una sorpresa desagradable o un faltante al momento de presentar la declaración
+C) Un reembolso automático
+D) Un estado civil para la declaración más bajo
 
-## Actividad práctica
+**Pregunta 4.** ¿Cuál es la forma recomendada de evitar esta sorpresa?
 
-1. Escribe una situación relacionada con este tema.
-2. Identifica jurisdicción y periodo fiscal.
-3. Enumera cinco hechos comprobables y tres datos faltantes.
-4. Reúne o describe los documentos pertinentes.
-5. Localiza una fuente oficial que deba consultarse.
-6. Redacta tres preguntas para un profesional fiscal.
-7. Explica qué dato podría cambiar la conclusión.
+A) Ignorarlo hasta presentar la declaración
+B) Entender de antemano la carga real y apartar dinero en consecuencia
+C) Gastar de inmediato todo el ingreso de las facturas
+D) Evitar todo trabajo por cuenta propia
 
-## Evaluación de competencia
+## Clave de respuestas
 
-1. ¿Por qué debe identificarse primero la jurisdicción?
-2. ¿Cuál es la diferencia entre hecho y supuesto?
-3. ¿Qué documento respaldaría la operación?
-4. ¿Qué fecha o periodo debe verificarse?
-5. ¿Qué organismo oficial podría publicar la regla?
-6. ¿Existe una posible excepción o clasificación alternativa?
-7. ¿Qué error produciría usar una tasa desactualizada?
-8. ¿Qué pregunta formularías a un profesional?
-9. ¿Qué registro conservarías y por cuánto tiempo según la regla aplicable?
-10. Resume el proceso de análisis sin inventar cifras.
+1. B, 2. B, 3. B, 4. B
 
-**Criterio de dominio:** 8 de 10 respuestas satisfactorias. Por debajo del 80 %, el alumno revisará la fuente, corregirá la clasificación y repetirá un escenario nuevo.
+## Respuestas y explicaciones
 
-## Respuestas orientativas
+**1.** El impuesto sobre el trabajo por cuenta propia es, en esencia, el mecanismo para cobrarle a una sola persona las dos mitades del impuesto tipo nómina.
 
-Las respuestas deben identificar jurisdicción, periodo, clasificación, hecho imponible, documentación y fuente oficial. Una buena respuesta declara incertidumbres y evita afirmar tasas, umbrales o plazos no verificados. Cuando falten hechos, la conclusión correcta es indicar qué información se necesita, no adivinar.
+**2.** Actuar a la vez como empleador y como empleado significa que la persona que trabaja por cuenta propia responde por las dos partes.
+
+**3.** Subestimar este coste es una trampa común que lleva a una factura mayor de lo esperado al momento de presentar la declaración.
+
+**4.** La conciencia y el ahorro anticipados, en vez de reaccionar después de los hechos, son la defensa práctica.
 
 ## Puntos clave
 
-- Las reglas fiscales cambian según lugar, fecha y clasificación.
-- Primero se clasifican los hechos; después se calcula.
-- La documentación permite defender una posición.
-- Deducciones, créditos, exclusiones y pagos anticipados son conceptos distintos.
-- Las fuentes oficiales vigentes tienen prioridad sobre resúmenes educativos.
-- La planificación legal es distinta de ocultar, falsear o evadir obligaciones.
-
-## Ruta de aprendizaje
-
-- **Anterior:** GREEN-L1-022
-- **Actual:** GREEN-L1-023
-- **Siguiente:** GREEN-L1-024
-
-## Localización — España
-
-Contenido en español de España para educación comparada. Las referencias a formularios y entidades estadounidenses explican conceptos del currículo original y no sustituyen la normativa española. Antes de aplicar cualquier regla deben verificarse la Agencia Tributaria u otra autoridad competente, el periodo fiscal y las circunstancias concretas.
+- Las personas que trabajan por cuenta propia a menudo deben tanto la parte del empleador como la del empleado del impuesto tipo nómina.
+- Esto significa que el ingreso por cuenta propia tiene una carga tributaria bastante distinta a la de un ingreso asalariado equivalente.
+- Este es uno de los costes del trabajo por cuenta propia que más se subestiman.
+- Planificar con anticipación y apartar dinero evita una sorpresa desagradable al momento de presentar la declaración.

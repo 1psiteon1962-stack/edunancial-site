@@ -1,116 +1,89 @@
 ---
 id: GREEN-L1-045
 track: GREEN
-officialTrackName: "Business Taxes"
+officialTrackName: Taxes
 level: 1
 lessonNumber: 45
 locale: es-ES
-title: "Evasión y elusión fiscal: una distinción crítica"
-summary: "Introducción práctica a evasión y elusión fiscal: una distinción crítica, con énfasis en conceptos, documentación, decisiones y verificación mediante fuentes oficiales."
-version: "1.0"
-author: "Waldemar M. Caban, JD MA"
-date: "2026-09-01"
+title: "Evasión de impuestos frente a elusión: una distinción fundamental"
+summary: "Traza una línea clara y esencial entre la elusión legal (usar las reglas tal como están escritas para reducir los impuestos) y la evasión ilegal (falsear los hechos para no pagar el impuesto adeudado)."
+version: 1.0
+author: Waldemar M. Caban, JD MA
+date: 2026-08-09
 ---
 
-# 45. Evasión y elusión fiscal: una distinción crítica
+# Evasión de impuestos frente a elusión: una distinción fundamental
 
 ## Objetivos de aprendizaje
+- Definir la elusión de impuestos y dar un ejemplo.
+- Definir la evasión de impuestos y dar un ejemplo.
+- Explicar con claridad por qué esta distinción es fundamental, y no un detalle técnico menor.
 
-Al terminar esta lección, el alumno podrá:
+## Contenido principal
 
-1. Explicar con palabras sencillas el concepto de **evasión y elusión fiscal: una distinción crítica**.
-2. Identificar quién paga, quién recauda y qué hecho puede generar la obligación.
-3. Distinguir una regla general de una excepción que exige verificación.
-4. Organizar la documentación necesaria para revisar una posición fiscal.
-5. Formular preguntas útiles para una fuente oficial o un profesional cualificado.
+Esta es una de las distinciones más importantes de toda esta ruta, y vale la pena decirla sin rodeos: la elusión de impuestos (tax avoidance, en inglés) es legal; la evasión de impuestos no lo es. La elusión significa usar las reglas tributarias tal como están escritas en realidad (las deducciones, los créditos, el momento de los ingresos o de las ventas, escoger una estructura de negocio favorable) para reducir legalmente la cantidad de impuesto adeudado. Todo lo visto en esta ruta hasta ahora, hecho de forma correcta y honesta, cae dentro de la elusión.
 
-## Concepto principal
+La evasión significa falsear ilegalmente los hechos para no pagar un impuesto que realmente se debe: ocultar ingresos, inventar deducciones falsas, falsificar registros o engaños parecidos. La línea entre las dos no depende de qué tan agresiva sea la planificación tributaria; depende de si los hechos de fondo que se declaran son verdaderos. Reclamar todas las deducciones a las que uno tiene derecho legalmente, aunque reduzcan mucho la factura de impuestos, es elusión. Reclamar una deducción por un gasto que nunca ocurrió, u ocultar un ingreso que sí ocurrió, es evasión: un asunto legal grave, no solo un error de papeleo.
 
-[HECHO VERIFICABLE] Los impuestos son obligaciones creadas por una jurisdicción. La respuesta correcta depende del país, territorio, estado o provincia, municipio, periodo fiscal, tipo de contribuyente y naturaleza de la operación. Por eso, comprender **evasión y elusión fiscal: una distinción crítica** exige identificar primero la jurisdicción y la fecha aplicable.
+## Ejemplo práctico
 
-La educación fiscal no consiste en memorizar una cifra aislada. Consiste en reconocer el hecho imponible, la base, el tipo, las deducciones o créditos posibles, el plazo, la documentación y la autoridad que publica la regla. Las tasas, umbrales y formularios pueden cambiar; antes de actuar deben comprobarse en una fuente oficial vigente.
+**Pregunta:** Una dueña de negocio deduce legalmente todos los gastos a los que tiene derecho y reduce de forma agresiva su factura de impuestos con las reglas vistas a lo largo de esta ruta. Otro dueño de negocio declara gastos falsos que nunca ocurrieron. ¿Son lo mismo?
 
-## Marco práctico de análisis
+**Estudiante:** No: según esta lección, la primera dueña usa reglas legítimas con honestidad, lo que es elusión. El segundo dueño falsea los hechos, lo que es evasión.
 
-Utiliza estas preguntas:
+**Guía:** Si los dos terminan pagando menos impuestos, ¿cuál es la verdadera línea divisoria entre ellos?
 
-- ¿Qué jurisdicción tiene autoridad sobre la persona o transacción?
-- ¿Cuál es el periodo fiscal?
-- ¿Quién es el contribuyente y cuál es su clasificación?
-- ¿Qué ingreso, compra, propiedad o actividad activa la regla?
-- ¿Cómo se calcula la base?
-- ¿Existe una deducción, crédito, exclusión o exención?
-- ¿Qué formulario, pago o registro se exige?
-- ¿Cuál es el plazo y qué ocurre si se incumple?
-- ¿Qué fuente oficial confirma la respuesta?
+**Estudiante:** No depende de cuánto impuesto se ahorra: depende de si lo que se declara es realmente verdadero.
 
-## Ejemplo educativo
+**Guía:** Exactamente, y esa distinción es la línea más importante de toda esta ruta.
 
-[SUPUESTO] Una persona obtiene 48.000 unidades monetarias de ingresos y además recibe 3.000 por un trabajo independiente. Conserva recibos, estados de cuenta y documentos de pago, pero todavía no sabe cómo se clasifica cada cantidad. Antes de calcular, identifica su jurisdicción, periodo fiscal, condición laboral y naturaleza de los gastos.
+## Cuestionario práctico
 
-Este ejemplo no determina una obligación real. Muestra el orden correcto: clasificar hechos, reunir documentación, consultar instrucciones oficiales y calcular solamente después. Si una regla afecta empleo, empresa, inversión o propiedad, debe analizarse por separado antes de integrar el resultado.
+**Pregunta 1.** La elusión de impuestos es:
 
-## Aplicación al tema
+A) Ilegal
+B) El uso legal de las reglas tributarias para reducir el impuesto adeudado
+C) Lo mismo que la evasión de impuestos
+D) Algo disponible solo para las corporaciones
 
-Para estudiar **evasión y elusión fiscal: una distinción crítica**, crea una hoja de trabajo con cuatro columnas: hecho, posible tratamiento, documento de respaldo y fuente pendiente de verificación. Marca como **HECHO** lo demostrado, como **SUPUESTO** lo que falta confirmar y como **OPINIÓN** cualquier recomendación basada en preferencias o tolerancia al riesgo.
+**Pregunta 2.** La evasión de impuestos es:
 
-No mezcles traducción con localización jurídica. Un término estadounidense como W-2, 1099, Medicare, LLC, S-Corp, Roth o impuesto estatal sobre ventas puede traducirse para aprender el concepto, pero no debe presentarse como si fuera una figura idéntica en España u otra jurisdicción.
+A) Legal
+B) Falsear ilegalmente los hechos para no pagar un impuesto que realmente se debe
+C) Lo mismo que la elusión de impuestos
+D) Solo un error de papeleo
 
-## Errores comunes
+**Pregunta 3.** La verdadera línea divisoria entre las dos es:
 
-- Aplicar una tasa de otro año o jurisdicción.
-- Confundir ingreso bruto con ingreso imponible o efectivo disponible.
-- Suponer que un gasto empresarial siempre es deducible.
-- Creer que una deducción y un crédito producen el mismo efecto.
-- Perder justificantes o mezclar cuentas personales y empresariales.
-- Confundir un reembolso con una reducción real del impuesto.
-- Esperar hasta el vencimiento para organizar la información.
-- Utilizar contenido educativo como asesoramiento individualizado.
+A) Cuánto impuesto se ahorra al final
+B) Si los hechos de fondo que se declaran son verdaderos
+C) Si participó un profesional
+D) No hay ninguna diferencia importante
 
-## Actividad práctica
+**Pregunta 4.** Reclamar con honestidad todas las deducciones legalmente disponibles es:
 
-1. Escribe una situación relacionada con este tema.
-2. Identifica jurisdicción y periodo fiscal.
-3. Enumera cinco hechos comprobables y tres datos faltantes.
-4. Reúne o describe los documentos pertinentes.
-5. Localiza una fuente oficial que deba consultarse.
-6. Redacta tres preguntas para un profesional fiscal.
-7. Explica qué dato podría cambiar la conclusión.
+A) Evasión de impuestos
+B) Elusión de impuestos
+C) Un delito
+D) Algo irrelevante para esta distinción
 
-## Evaluación de competencia
+## Clave de respuestas
 
-1. ¿Por qué debe identificarse primero la jurisdicción?
-2. ¿Cuál es la diferencia entre hecho y supuesto?
-3. ¿Qué documento respaldaría la operación?
-4. ¿Qué fecha o periodo debe verificarse?
-5. ¿Qué organismo oficial podría publicar la regla?
-6. ¿Existe una posible excepción o clasificación alternativa?
-7. ¿Qué error produciría usar una tasa desactualizada?
-8. ¿Qué pregunta formularías a un profesional?
-9. ¿Qué registro conservarías y por cuánto tiempo según la regla aplicable?
-10. Resume el proceso de análisis sin inventar cifras.
+1. B, 2. B, 3. B, 4. B
 
-**Criterio de dominio:** 8 de 10 respuestas satisfactorias. Por debajo del 80 %, el alumno revisará la fuente, corregirá la clasificación y repetirá un escenario nuevo.
+## Respuestas y explicaciones
 
-## Respuestas orientativas
+**1.** La elusión funciona por completo dentro de las reglas realmente escritas, usándolas como se pretende o como la ley permite.
 
-Las respuestas deben identificar jurisdicción, periodo, clasificación, hecho imponible, documentación y fuente oficial. Una buena respuesta declara incertidumbres y evita afirmar tasas, umbrales o plazos no verificados. Cuando falten hechos, la conclusión correcta es indicar qué información se necesita, no adivinar.
+**2.** La evasión cruza al terreno del falseamiento: declarar algo falso para reducir ilegalmente el impuesto adeudado.
+
+**3.** Lo que importa no es qué tan agresiva sea la planificación tributaria, sino la veracidad de los hechos de fondo.
+
+**4.** Incluso las reclamaciones de deducciones grandes y agresivas, pero honestas, siguen estando claramente del lado legal de la línea.
 
 ## Puntos clave
 
-- Las reglas fiscales cambian según lugar, fecha y clasificación.
-- Primero se clasifican los hechos; después se calcula.
-- La documentación permite defender una posición.
-- Deducciones, créditos, exclusiones y pagos anticipados son conceptos distintos.
-- Las fuentes oficiales vigentes tienen prioridad sobre resúmenes educativos.
-- La planificación legal es distinta de ocultar, falsear o evadir obligaciones.
-
-## Ruta de aprendizaje
-
-- **Anterior:** GREEN-L1-044
-- **Actual:** GREEN-L1-045
-- **Siguiente:** GREEN-L1-046
-
-## Localización — España
-
-Contenido en español de España para educación comparada. Las referencias a formularios y entidades estadounidenses explican conceptos del currículo original y no sustituyen la normativa española. Antes de aplicar cualquier regla deben verificarse la Agencia Tributaria u otra autoridad competente, el periodo fiscal y las circunstancias concretas.
+- La elusión de impuestos es legal: usar reglas reales para reducir el impuesto adeudado.
+- La evasión de impuestos es ilegal: falsear los hechos para no pagar un impuesto que realmente se debe.
+- La línea divisoria es la veracidad, no cuánto impuesto se ahorra.
+- Esta distinción es una de las más importantes de todo el currículo de alfabetización tributaria.
