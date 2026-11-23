@@ -1,0 +1,456 @@
+===== PURPLE-L5-021
+TITLE: Verklaringen, garanties en vrijwaringen bij een overname
+SUMMARY: Bij de koop van een bedrijf stellen verklaringen feiten vast, beloven garanties dat ze kloppen en betalen vrijwaringen bij schending; plafonds, drempels, termijnen en ingehouden bedragen bepalen de echte bescherming, en niets daarvan vervangt het boekenonderzoek.
+KEYWORDS: verklaringen en garanties, vrijwaring, overnameovereenkomst, inhouding op de koopprijs, een bedrijf kopen
+# Verklaringen, garanties en vrijwaringen bij een overname
+
+## Openingsscenario
+AANNAME/MENING (hypothetisch scenario, uitsluitend voor onderwijsdoeleinden): Stel je een groot handelsblok voor dat plotseling hoge invoerheffingen oplegt op een brede categorie geïmporteerde industriële goederen, waardoor de kosten stijgen voor bedrijven die die import als grondstof gebruiken.
+Pas het hier toe: Vlak nadat een koper een bedrijf heeft overgenomen, komen er nieuwe heffingen en beweert een klant dat het bedrijf vóór de verkoop een leveringscontract heeft geschonden. Vraag over de kleuren heen: heeft de verkoper beloofd (PURPLE) dat er geen lopende geschillen waren? Is een deel van de koopprijs (BLUE) ingehouden om die belofte te dekken? Hoe bepaalt de onderhandeling (ORANGE) wie dit risico draagt?
+
+## Leerdoelen
+- Verklaringen, garanties en vrijwaringen definiëren
+- Uitleggen hoe escrowrekeningen, plafonds en drempels vrijwaringsclaims beperken of veiligstellen
+- De risicoverdeling koppelen aan de koopprijs en de financiering
+
+## Kerninhoud
+Als je een bedrijf koopt, kun je niet alles zien. De verkoper weet meer dan jij. De koopovereenkomst vangt dat verschil op met drie instrumenten:
+- Verklaringen: Feitelijke uitspraken van de verkoper op een bepaalde datum ("Er lopen geen rechtszaken." "De jaarrekening klopt.").
+- Garanties: Beloften dat die uitspraken waar zijn, vaak samen met de verklaringen gebruikt.
+- Vrijwaringen: Beloften om de schade van de andere partij te betalen als een verklaring onjuist blijkt of een specifiek risico zich voordoet.
+Gangbare beperkingen en beschermingen:
+- Looptijd: Hoe lang na de overdracht de koper een claim kan indienen.
+- Drempel: Kleine claims onder een vastgesteld bedrag worden niet betaald, om eindeloze kleine geschillen te voorkomen.
+- Plafond: Het maximum dat de verkoper betaalt, vaak een percentage van de prijs.
+- Escrow of inhouding: Een deel van de koopprijs wordt een tijd vastgehouden om vrijwaringsclaims veilig te stellen.
+- Specifieke vrijwaringen: Aparte beloften voor bekende risico's, zoals een lopend belastingonderzoek.
+Hoe de kleuren samenhangen:
+- BLUE: Een koper die geen sterke verklaringen krijgt, kan de prijs verlagen of financiering door de verkoper gebruiken, waardoor hij claims kan verrekenen met de aflossingen (als de overeenkomst dat toestaat).
+- ORANGE: Hier is alles onderhandelbaar. Een verkoper met veel geïnteresseerde kopers kan zich verzetten tegen ruime vrijwaringen. Een koper met het enige bod heeft meer onderhandelingsmacht.
+- GREEN: REGIOSPECIFIEKE REGEL: Vrijwaringsbetalingen kunnen fiscaal als prijsaanpassing worden behandeld; in Nederland bijvoorbeeld kunnen betalingen van de verkoper wegens schending van garanties volgens beschikbare informatie fiscaal worden behandeld als aanpassing van de koopprijs of op een andere manier, afhankelijk van de formulering van het contract, met gevolgen voor de belasting van beide partijen, dus controleer dit met een belastingadviseur.
+- PURPLE: Het boekenonderzoek (PURPLE-L5-022) en de verklaringen werken samen. Het onderzoek vindt wat het kan vinden. De verklaringen dekken wat het niet kan vinden.
+AANNAME/MENING: Een koper moet verklaringen niet zien als vervanging van het boekenonderzoek. Een verkoper die het verkoopgeld al heeft uitgegeven, kan moeilijk tot betalen te bewegen zijn. Escrowrekeningen en inhoudingen maken van een belofte geld.
+
+## Uitgewerkt voorbeeld
+ILLUSTRATIEF VOORBEELD: Maya koopt een groothandel voor € 1,5 miljoen.
+Belangrijkste voorwaarden:
+- De verkoper verklaart dat er geen lopende of gedreigde geschillen met klanten zijn.
+- Plafond voor vrijwaring: 20% van de prijs (€ 300.000). Drempel: € 15.000.
+- Escrow: € 150.000, 18 maanden vastgehouden.
+- Looptijd: 18 maanden voor de algemene verklaringen; langer voor de fiscale verklaringen.
+- Maya betaalt ook € 300.000 van de prijs via een lening van de verkoper, en de overeenkomst staat haar toe geldige vrijwaringsclaims met die lening te verrekenen.
+Drie maanden na de overdracht eist een klant € 90.000 wegens een contractbreuk van vóór de verkoop. De verkoper had vóór de overdracht een waarschuwingsbrief ontvangen, maar die niet gemeld.
+Maya's claim: € 90.000 gaat boven de drempel van € 15.000. Afhankelijk van de formulering van het contract haalt ze uit de escrow het volledige bedrag of het bedrag boven de drempel terug. Als de escrow op zou zijn, kon ze verrekenen met de lening van de verkoper.
+AANNAME/MENING: De escrow en het verrekeningsrecht waren belangrijker dan de verklaring zelf. Zonder die twee zou Maya een rechtszaak voeren tegen een verkoper die allang verder was gegaan.
+
+## Oefenquiz
+**Q1. Wat is een verklaring in een koopovereenkomst?**
+A) Een feitelijke uitspraak van de verkoper op een bepaalde datum
+B) Een marketingclaim
+C) Een belastingformulier
+D) Een lening
+**Q2. Wat doet een vrijwaring?**
+A) Ze verhoogt de prijs
+B) Ze draagt werknemers over
+C) Ze annuleert de verkoop
+D) Ze belooft de schade van de andere partij te betalen als een verklaring onjuist is of een specifiek risico zich voordoet
+**Q3. Wat is een escrow of inhouding?**
+A) Een belastingteruggave
+B) Een vergoeding voor de bank
+C) Een aanbetaling op een huis
+D) Een deel van de prijs dat een tijd wordt vastgehouden om vrijwaringsclaims veilig te stellen
+**Q4. Wat doet een drempel?**
+A) Ze begrenst het totaal van de claims
+B) Ze voorkomt dat kleine claims onder een vastgesteld bedrag worden betaald
+C) Ze bewaart geld
+D) Ze legt rentetarieven vast
+**Q5. Waarom was de escrow volgens de les belangrijker dan de verklaring zelf?**
+A) Verklaringen zijn illegaal
+B) Een verkoper die het geld heeft uitgegeven, kan moeilijk tot betalen te bewegen zijn
+C) Escrow levert rente op
+D) De rechter eiste het
+
+## Antwoordsleutel
+Q1: A
+Q2: D
+Q3: D
+Q4: B
+Q5: B
+
+## Antwoorden en uitleg
+**Q1.** Verklaringen stellen feiten vast waarop de koper vertrouwt.
+**Q2.** Vrijwaringen verschuiven de kosten van verborgen problemen.
+**Q3.** Een escrow maakt van een vrijwaringsbelofte beschikbaar geld.
+**Q4.** Drempels voorkomen geschillen over kleine bedragen.
+**Q5.** Veiliggesteld geld is betrouwbaarder dan een belofte.
+
+## Belangrijkste punten
+- Verklaringen stellen feiten vast; garanties beloven ze; vrijwaringen betalen bij schending
+- Plafonds, drempels, looptijden en escrows bepalen de echte bescherming
+- Leningen van de verkoper met een verrekeningsrecht voegen een extra laag toe
+- Verklaringen vullen het boekenonderzoek aan; ze vervangen het niet
+
+===== PURPLE-L5-022
+TITLE: Juridisch boekenonderzoek vóór de koop van een bedrijf
+SUMMARY: Juridisch boekenonderzoek vindt de risico's die de jaarrekening niet laat zien; controleer de rechtsvorm, contracten, arbeid, intellectueel eigendom, vastgoed, procedures, regelgeving en schulden, en leg vooraf vast wanneer je afhaakt.
+KEYWORDS: checklist juridisch boekenonderzoek, due diligence bij overnames, juridische controle bij de koop van een bedrijf, contractonderzoek
+# Juridisch boekenonderzoek vóór de koop van een bedrijf
+
+## Openingsscenario
+AANNAME/MENING (hypothetisch scenario, uitsluitend voor onderwijsdoeleinden): Stel je twee grote economische machten voor die hun exportcontroles op elkaar aanscherpen voor een categorie geavanceerde technologische onderdelen die in veel sectoren worden gebruikt.
+Pas het hier toe: Een koper staat op een paar dagen van de overname van een bedrijf dat technologieproducten verkoopt. Nieuwe exportcontroles beperken plotseling een belangrijke leverancier. Vraag over de kleuren heen: staat het leveringscontract van het bedrijf (PURPLE) opzegging in deze situatie toe? Hangt de financiële waarde (BLUE/WHITE) af van die leverancier? Zijn er vergunningen (PURPLE) die kunnen worden ingetrokken?
+
+## Leerdoelen
+- De belangrijkste onderdelen van juridisch boekenonderzoek opsommen
+- Juridische bevindingen koppelen aan beslissingen over prijs, structuur en financiering
+- Beslissen wanneer een bevinding een deal moet veranderen of stoppen
+
+## Kerninhoud
+Boekenonderzoek (due diligence) is het onderzoek dat een koper vóór de overdracht doet. Financieel boekenonderzoek (BLUE/GREEN) kijkt naar de cijfers. Juridisch boekenonderzoek (PURPLE) kijkt naar rechten, verplichtingen en risico's die de cijfers misschien niet laten zien.
+Een praktische juridische checklist:
+1. Rechtsvorm en eigendom: Staat de vennootschap goed geregistreerd? Wie is er werkelijk eigenaar van? Zijn er opties of beloften van eigendom aan anderen?
+2. Belangrijke contracten: Overeenkomsten met klanten, leveranciers, verhuurders, geldverstrekkers en partners. Zoek naar change-of-control-clausules waarmee de wederpartij kan opzeggen als het eigendom verandert.
+3. Arbeid: Arbeidsovereenkomsten, de kwalificatie van zelfstandigen (PURPLE-L5-031), verplichtingen voor regelingen, concurrentiebedingen en lopende claims.
+4. Intellectueel eigendom: Bezit het bedrijf echt zijn merk, software en content, of zijn de oprichters of zelfstandigen de eigenaar? (PURPLE-L5-028)
+5. Vastgoed: Eigendom van panden, huurvoorwaarden, bestemmingsplan en milieukwesties.
+6. Procedures: Lopende of gedreigde rechtszaken, onderzoeken door de overheid en eerdere schikkingen.
+7. Regelgeving: Vergunningen, naleving van privacyregels, export- en importregels. REGIOSPECIFIEKE REGEL; in Nederland bijvoorbeeld hebben veel activiteiten volgens beschikbare informatie een vergunning of melding bij de gemeente of een sectorale toezichthouder nodig, zoals de NVWA of een omgevingsdienst, en moet de verwerking van persoonsgegevens voldoen aan de AVG, dus controleer dit met een advocaat.
+8. Schulden en zekerheden: Leningen, borgstellingen en zekerheidsrechten op bezittingen van het bedrijf.
+Hoe bevindingen de deal veranderen:
+- BLUE: Een contract met een belangrijke klant dat bij een change of control kan worden opgezegd, kan de prijs verlagen of toestemming van de klant vóór de overdracht vereisen.
+- PURPLE: Bevindingen bepalen specifieke verklaringen, vrijwaringen en de omvang van de escrow (PURPLE-L5-021).
+- GREEN: Fiscale risico's bepalen of een activa-transactie of een aandelentransactie zinvoller is (PURPLE-L5-023).
+- BLACK: Sommige bevindingen moeten een deal helemaal stoppen. Als je je afhaakvoorwaarden vooraf kent, bescherm je jezelf tegen dealkoorts.
+AANNAME/MENING: De belangrijkste vaardigheid bij boekenonderzoek is niet documenten lezen. Het is vragen: "Wat gebeurt er met de waarde van dit bedrijf als dit ene contract, deze vergunning of deze persoon verdwijnt?"
+
+## Uitgewerkt voorbeeld
+ILLUSTRATIEF VOORBEELD: Andre koopt een klein bedrijf in elektronica-accessoires voor € 2 miljoen.
+Bevindingen van het boekenonderzoek:
+- 45% van de omzet komt van één winkelketen, en dat contract staat opzegging bij een change of control toe.
+- Het ontwerp van het belangrijkste product is gemaakt door een freelance ontwerper zonder schriftelijke overdracht van het intellectueel eigendom.
+- De belangrijkste leverancier zit in een regio die nu door de exportcontroles uit het scenario wordt geraakt.
+- Eén lopend geschil met een klant van ongeveer € 40.000.
+Andres reactie:
+- Hij maakt de overdracht afhankelijk van schriftelijke toestemming van de winkelketen voor de change of control.
+- Hij eist dat de verkoper vóór de overdracht een getekende overdracht van het intellectueel eigendom van de ontwerper regelt.
+- Hij verlaagt zijn bod naar € 1,7 miljoen vanwege het leveringsrisico, met een earn-out van € 200.000 als de omzet twee jaar op peil blijft.
+- Hij voegt een specifieke vrijwaring en een escrow toe voor het lopende geschil.
+AANNAME/MENING: Geen van deze problemen stond in de jaarrekening. Elk ervan had de waarde van het bedrijf na de overdracht flink kunnen verlagen.
+
+## Oefenquiz
+**Q1. Waarop richt juridisch boekenonderzoek zich?**
+A) Op rechten, verplichtingen en risico's die de cijfers misschien niet laten zien
+B) Alleen op de omzetcijfers
+C) Op marketingplannen
+D) Op de verjaardagen van werknemers
+**Q2. Wat is een change-of-control-clausule?**
+A) Een clausule over leiderschapstraining
+B) Een clausule over de sloten van het kantoor
+C) Een belastingclausule
+D) Een clausule waarmee de wederpartij kan opzeggen of heronderhandelen als het eigendom verandert
+**Q3. Waarom eiste Andre een overdracht van het intellectueel eigendom van de freelance ontwerper?**
+A) Zonder die overdracht is het bedrijf misschien niet echt eigenaar van het ontwerp van zijn belangrijkste product
+B) Om belasting te verlagen
+C) Freelancers moeten in dienst worden genomen
+D) Het was een eis van de bank
+**Q4. Hoe ging Andre om met het leveringsrisico?**
+A) Hij negeerde het
+B) Hij kocht de leverancier
+C) Hij blies de deal af
+D) Hij verlaagde de prijs en voegde een earn-out toe die aan de omzet is gekoppeld
+**Q5. Wat is volgens de les de kernvraag van het boekenonderzoek?**
+A) Hoe mooi is het kantoor?
+B) Hoeveel werknemers zijn er?
+C) Wat gebeurt er met de waarde als dit ene contract, deze vergunning of deze persoon verdwijnt?
+D) Wat is het logo?
+
+## Antwoordsleutel
+Q1: A
+Q2: D
+Q3: A
+Q4: D
+Q5: C
+
+## Antwoorden en uitleg
+**Q1.** Juridisch boekenonderzoek vult het financiële onderzoek aan.
+**Q2.** Deze clausules kunnen belangrijke contracten bij een overname in gevaar brengen.
+**Q3.** Zelfstandigen kunnen eigenaar zijn van wat ze maken, tenzij de rechten schriftelijk zijn overgedragen.
+**Q4.** De prijs en de earn-out werden aangepast aan een onzeker risico.
+**Q5.** Afhankelijkheid van enkele zwakke schakels bepaalt het risico voor de waarde.
+
+## Belangrijkste punten
+- Juridisch boekenonderzoek vindt risico's die de jaarrekening niet laat zien
+- Controleer rechtsvorm, contracten, arbeid, intellectueel eigendom, vastgoed, procedures, regelgeving en schulden
+- Bevindingen bepalen prijs, structuur, verklaringen, escrows en voorwaarden voor de overdracht
+- Leg je afhaakvoorwaarden vooraf vast
+
+===== PURPLE-L5-023
+TITLE: Activa-transactie of aandelentransactie
+SUMMARY: Bij een aandelentransactie koop je het hele bedrijf, schulden inbegrepen; bij een activa-transactie kies je bezittingen en schulden maar zijn overdrachten en toestemmingen nodig, en kopers en verkopers geven om fiscale redenen vaak de voorkeur aan verschillende structuren, waarbij de prijs het voordeel kan verdelen.
+KEYWORDS: activa-transactie of aandelentransactie, verkoop van aandelen, structuur van de overname, belasting voor koper en verkoper, overgenomen schulden
+# Activa-transactie of aandelentransactie
+
+## Openingsscenario
+AANNAME/MENING (hypothetisch scenario, uitsluitend voor onderwijsdoeleinden): Stel je een centrale bank voor die haar beleidsrente in een korte periode van enkele maanden fors en herhaaldelijk verhoogt om de stijgende inflatie te bestrijden.
+Pas het hier toe: Met een hoge rente kan een koper minder lenen en wil hij het risico bij een overname beperken. Vraag over de kleuren heen: alleen de activa kopen (PURPLE) kan oude schulden achterlaten, maar kan vereisen dat elk contract wordt overgedragen. Welke structuur leidt tot betere fiscale uitkomsten (GREEN)? Welke is makkelijker te financieren (BLUE)?
+
+## Leerdoelen
+- Het verschil tussen een activa-transactie en een aandelentransactie uitleggen
+- Vergelijken hoe elk van beide schulden en contractuele verplichtingen verschuift
+- Uitleggen waarom koper en verkoper vaak de voorkeur geven aan verschillende structuren
+
+## Kerninhoud
+Er zijn twee basismanieren om een bedrijf te kopen:
+- Aandelentransactie: De koper koopt de aandelen of belangen van de eigenaren. Het bedrijf zelf blijft hetzelfde, met al zijn bezittingen, contracten en schulden, bekend en onbekend.
+- Activa-transactie: De vennootschap van de koper koopt geselecteerde bezittingen (apparatuur, voorraad, klantenbestanden, intellectueel eigendom, soms vastgoed) en neemt alleen de schulden over die ze accepteert. De vennootschap van de verkoper houdt al het andere.
+Hoe de kleuren samenhangen:
+- PURPLE: Bij een aandelentransactie blijven contracten meestal bestaan (tenzij er change-of-control-clausules in staan). Bij een activa-transactie moeten veel contracten, vergunningen en toestemmingen worden overgedragen, wat toestemming van de wederpartij kan vereisen. Sommige vergunningen kunnen helemaal niet worden overgedragen. REGIOSPECIFIEKE REGEL; in Nederland bijvoorbeeld gaan bij de overgang van een onderneming de arbeidsovereenkomsten volgens beschikbare informatie in de regel van rechtswege mee over naar de koper, die voor bepaalde loonverplichtingen hoofdelijk aansprakelijk kan zijn, en vraagt de overdracht van contracten en vergunningen vaak toestemming van de wederpartij, dus controleer dit met een advocaat.
+- PURPLE (aansprakelijkheid): Bij een activa-transactie kan de koper onbekende schulden in het algemeen achterlaten, al leggen sommige wetten in bepaalde situaties aansprakelijkheid op de opvolger, zoals voor sommige belasting- of werkgeversverplichtingen. REGIOSPECIFIEKE REGEL.
+- GREEN: REGIOSPECIFIEKE REGEL: In veel stelsels geven kopers de voorkeur aan een activa-transactie omdat ze de bezittingen vaak een nieuwe, hogere fiscale waarde kunnen geven en daarop kunnen afschrijven. Verkopers geven vaak de voorkeur aan een aandelentransactie omdat de verkoop voor hen gunstiger kan worden belast. Dat verschil is een veelvoorkomend onderhandelingspunt.
+- BLUE: Geldverstrekkers geven soms de voorkeur aan een activa-transactie omdat de gekochte bezittingen als schone zekerheid kunnen dienen.
+- ORANGE: Omdat kopers en verkopers verschillende dingen willen, wordt de prijs vaak aangepast. Een verkoper die instemt met een activa-transactie, kan een hogere prijs vragen om de slechtere fiscale behandeling te compenseren.
+AANNAME/MENING: Geen van beide structuren is altijd beter. De beste structuur is die waarbij de juridische, fiscale en financieringsuitkomsten samen voor beide partijen werken, met een prijs die is aangepast om het voordeel eerlijk te verdelen.
+
+## Uitgewerkt voorbeeld
+ILLUSTRATIEF VOORBEELD: Farah wil een drukkerij kopen. De verkoper vraagt € 900.000.
+Optie A: Aandelentransactie voor € 900.000.
+- Alle klantcontracten en de huur blijven automatisch bestaan.
+- Farah erft onbekende schulden en is alleen beschermd door verklaringen en een escrow.
+- De fiscale waarde van de apparatuur blijft voor haar de oude, lage waarde van de verkoper, dus de afschrijvingen zijn klein.
+Optie B: Activa-transactie voor € 900.000.
+- Farahs nieuwe vennootschap koopt de apparatuur, het klantenbestand en het merk.
+- De verhuurder moet instemmen met de overdracht van de huur; twee grote klanten moeten nieuwe contracten tekenen.
+- De oude schulden blijven grotendeels bij de verkoper.
+- Farah kan de apparatuur een hogere fiscale waarde geven en daarop afschrijven. REGIOSPECIFIEKE REGEL.
+- De belastingaanslag van de verkoper is hoger.
+Onderhandeling: De verkoper stemt in met een activa-transactie als de prijs stijgt naar € 960.000. Farahs belastingadviseur schat dat haar belastingbesparing over een aantal jaren boven de € 60.000 uitkomt, en haar geldverstrekker geeft de voorkeur aan de activastructuur. AANNAME/MENING: Beide partijen zijn uiteindelijk beter af dan bij hun eerste positie.
+
+## Oefenquiz
+**Q1. Wat gebeurt er bij een aandelentransactie met de schulden van het bedrijf?**
+A) Ze verdwijnen
+B) Ze blijven bij het bedrijf, dat nu van de koper is
+C) De overheid betaalt ze
+D) Ze gaan naar de werknemers
+**Q2. Wat is bij een activa-transactie vaak nodig dat bij een aandelentransactie niet nodig is?**
+A) Geen contracten
+B) Alleen een stemming van de aandeelhouders
+C) Een nieuwe bedrijfsnaam
+D) Toestemming om veel contracten, vergunningen en huurovereenkomsten over te dragen
+**Q3. Waarom geven kopers om fiscale redenen vaak de voorkeur aan een activa-transactie?**
+A) Ze kunnen de bezittingen vaak een hogere fiscale waarde geven en daarop afschrijven
+B) Er is geen belasting verschuldigd
+C) Verkopers betalen de belasting van de koper
+D) Bezittingen zijn belastingvrij
+**Q4. Waarom stemde de verkoper in het voorbeeld in met een activa-transactie?**
+A) Farah verhoogde de prijs naar € 960.000
+B) De wet eiste het
+C) De verhuurder drong erop aan
+D) De verkoper wilde meer belasting betalen
+**Q5. Wat zegt de les over welke structuur beter is?**
+A) Een activa-transactie is altijd beter
+B) Het maakt niet uit
+C) Een aandelentransactie is altijd beter
+D) De beste structuur werkt voor beide partijen, met een eerlijk aangepaste prijs
+
+## Antwoordsleutel
+Q1: B
+Q2: D
+Q3: A
+Q4: A
+Q5: D
+
+## Antwoorden en uitleg
+**Q1.** De koper neemt het bedrijf zoals het is, inclusief onbekende schulden.
+**Q2.** Bezittingen en contracten moeten één voor één worden overgedragen, vaak met toestemming.
+**Q3.** Een nieuwe fiscale waarde kan grotere aftrekposten opleveren. REGIOSPECIFIEKE REGEL.
+**Q4.** Een prijsaanpassing verdeelde het fiscale voordeel van de koper.
+**Q5.** Het gecombineerde juridische, fiscale en financieringsresultaat telt.
+
+## Belangrijkste punten
+- Bij een aandelentransactie neem je het hele bedrijf over, schulden inbegrepen
+- Bij een activa-transactie kies je bezittingen en schulden, maar zijn overdrachten en toestemmingen nodig
+- Kopers en verkopers geven om fiscale redenen vaak de voorkeur aan verschillende structuren
+- Prijsaanpassingen kunnen het voordeel van de beste structuur verdelen
+
+===== PURPLE-L5-024
+TITLE: Documenten bij financiering door de verkoper: schuldbekentenissen, zekerheden en wanbetaling
+SUMMARY: Financiering door de verkoper maakt de verkoper tot geldverstrekker, en hij moet de transactie vastleggen zoals een geldverstrekker dat doet: schuldbekentenis, zekerheidsrecht, persoonlijke borgstelling, achterstelling en duidelijke clausules over wanbetaling, hersteltermijn en maatregelen.
+KEYWORDS: documenten bij financiering door de verkoper, schuldbekentenis, zekerheidsovereenkomst, hypotheekrecht, maatregelen bij wanbetaling
+# Documenten bij financiering door de verkoper: schuldbekentenissen, zekerheden en wanbetaling
+
+## Openingsscenario
+AANNAME/MENING (hypothetisch scenario, uitsluitend voor onderwijsdoeleinden): Stel je een centrale bank voor die haar beleidsrente in een korte periode van enkele maanden fors en herhaaldelijk verhoogt om de stijgende inflatie te bestrijden.
+Pas het hier toe: Als de rente bij banken omhoogschiet, kiezen meer kopers voor financiering door de verkoper om bedrijven en panden te kopen. Vraag over de kleuren heen: welke documenten (PURPLE) maken de lening van de verkoper afdwingbaar? Welke zekerheid (RED/BLUE) staat ertegenover? Wat gebeurt er als de koper betalingen mist, en hoe geeft de verkoper het inkomen aan (GREEN)?
+
+## Leerdoelen
+- De kerndocumenten van een door de verkoper gefinancierde transactie benoemen
+- Uitleggen hoe zekerheid en rangorde de verkoper beschermen
+- Clausules over wanbetaling, herstel en maatregelen beschrijven die beide partijen beschermen
+
+## Kerninhoud
+Op niveau 3 introduceerde BLUE financiering door de verkoper bij bedrijfsovernames, en liet RED zien hoe die kan helpen bij de koop van vastgoed. Op niveau 5 leer je de juridische documenten die de afspraak afdwingbaar en eerlijk maken.
+Kerndocumenten:
+1. Schuldbekentenis: De schriftelijke belofte van de koper om terug te betalen. Ze legt het bedrag, de rente, het aflossingsschema, de einddatum, de boete bij te late betaling en de rechten op vervroegde aflossing vast.
+2. Zekerheidsrecht:
+   - Voor vastgoed: een hypotheekrecht of een ander ingeschreven zekerheidsrecht op het pand. REGIOSPECIFIEKE REGEL; in Nederland bijvoorbeeld is het hypotheekrecht volgens beschikbare informatie de meest gebruikte zekerheid op vastgoed, ingeschreven in het Kadaster, waarmee de schuldeiser bij wanbetaling het pand via een openbare veiling kan laten verkopen zonder voorafgaand vonnis, terwijl voor roerende zaken het pandrecht wordt gebruikt, dus controleer dit met een notaris.
+   - Voor bedrijven: een zekerheidsovereenkomst die de verkoper een recht geeft op bedrijfsmiddelen, vaak openbaar gemaakt door een registratie zodat andere schuldeisers ervan weten. REGIOSPECIFIEKE REGEL.
+3. Borgstelling: De koper kan persoonlijk borg staan voor de lening (zie PURPLE-L5-009).
+4. Achterstellingsovereenkomst: Als ook een bank leent, eist die meestal dat de lening van de verkoper op de tweede plaats komt. Deze overeenkomst legt die rangorde vast.
+Kernclausules die beide partijen beschermen:
+- Definitie van wanbetaling: Wat telt als wanbetaling? Gemiste betalingen, geen verzekering aanhouden, de zekerheid zonder toestemming verkopen.
+- Ingebrekestelling en hersteltermijn: Hoeveel tijd de koper krijgt om een wanbetaling te herstellen voordat de verkoper kan optreden.
+- Maatregelen: Wat de verkoper na wanbetaling kan doen, zoals de hele lening opeisen, de zekerheid uitwinnen of bedrijfsmiddelen terugnemen. REGIOSPECIFIEKE REGEL.
+- Verplichtingen: Beloften zoals verzekerd blijven, belasting betalen en geen extra schulden aangaan zonder toestemming.
+- Verrekeningsrechten: Of de koper betalingen mag verlagen om vrijwaringsclaims te dekken (PURPLE-L5-021).
+Verbinding met GREEN: REGIOSPECIFIEKE REGEL: Verkopers kunnen de winst soms in de loop van de tijd aangeven, naarmate de betalingen binnenkomen (behandeling als verkoop op afbetaling), en de rente moet vaak op of boven bepaalde minimumtarieven liggen.
+AANNAME/MENING: De verkoper wordt geldverstrekker. Een verkoper die nooit geld zou lenen aan een vreemde zonder documenten, moet ook niet op krediet verkopen zonder documenten.
+
+## Uitgewerkt voorbeeld
+ILLUSTRATIEF VOORBEELD: Walter verkoopt zijn autogarage aan Kenji voor € 600.000. Een bank leent € 360.000. Walter financiert € 180.000 met een schuldbekentenis. Kenji betaalt € 60.000 aan.
+Documenten:
+- Schuldbekentenis: € 180.000, 7% rente, aflossing in 7 jaar, maandelijkse betalingen.
+- Zekerheidsovereenkomst: Walter heeft een recht van tweede rang op de apparatuur en de voorraad van de garage, openbaar geregistreerd.
+- Achterstellingsovereenkomst: De lening van de bank wordt eerst afgelost.
+- Kenji staat persoonlijk borg voor de lening, en de borgstelling daalt naar 50% na 36 tijdige betalingen.
+- Wanbetaling: 15 dagen te laat na een schriftelijke ingebrekestelling, of geen verzekering aanhouden.
+- Verplichting: Kenji mag geen belangrijke apparatuur verkopen zonder Walters toestemming.
+In jaar 3 mist Kenji twee betalingen nadat hij een grote wagenparkklant kwijtraakt. Walter stuurt een ingebrekestelling. Kenji herstelt binnen de hersteltermijn met een kredietlijn. Ze spreken ook schriftelijk een periode van drie maanden af waarin alleen rente wordt betaald.
+AANNAME/MENING: De documenten gaven Walter afdwingbare rechten, maar gaven beide mannen ook een duidelijke procedure. Die duidelijkheid maakte een praktische oplossing mogelijk in plaats van een strijd.
+
+## Oefenquiz
+**Q1. Wat doet een schuldbekentenis?**
+A) Ze draagt de eigendom over
+B) Ze legt belastingtarieven vast
+C) Ze legt de schriftelijke belofte van de koper om terug te betalen vast, met de voorwaarden
+D) Ze vervangt de koopovereenkomst
+**Q2. Wat geeft een zekerheidsrecht de verkoper?**
+A) Een recht op specifieke zekerheden als de koper niet betaalt
+B) De eigendom van het bedrijf
+C) Een belastingaftrek
+D) Stemrecht
+**Q3. Waarom is een achterstellingsovereenkomst vaak nodig?**
+A) Om de rente te verhogen
+B) Banken eisen meestal dat hun lening eerst wordt afgelost
+C) Om de schuldbekentenis te annuleren
+D) Om belasting te vermijden
+**Q4. Wat is een clausule over ingebrekestelling en hersteltermijn?**
+A) Een gezondheidsclausule
+B) Een fiscale keuze
+C) Een marketingterm
+D) Tijd voor de koper om een wanbetaling na een ingebrekestelling te herstellen voordat maatregelen ingaan
+**Q5. Wat maakte in het voorbeeld een oplossing mogelijk?**
+A) Walters woede
+B) Duidelijke documenten die beide partijen een vastgelegde procedure gaven
+C) Een rechterlijk bevel
+D) Kenji die de garage verkocht
+
+## Antwoordsleutel
+Q1: C
+Q2: A
+Q3: B
+Q4: D
+Q5: B
+
+## Antwoorden en uitleg
+**Q1.** De schuldbekentenis legt het bedrag en de voorwaarden van de lening vast.
+**Q2.** Zekerheid laat de verkoper zijn geld terughalen uit het onderpand.
+**Q3.** Ze legt de rangorde tussen de bank en de verkoper vast.
+**Q4.** Hersteltermijnen geven een eerlijke kans om problemen te verhelpen.
+**Q5.** Duidelijkheid maakte praktische heronderhandeling mogelijk.
+
+## Belangrijkste punten
+- Financiering door de verkoper maakt de verkoper tot geldverstrekker; leg het vast zoals een geldverstrekker zou doen
+- Kerndocumenten: schuldbekentenis, zekerheidsrecht, borgstelling en achterstelling
+- Wanbetaling, herstel, maatregelen en verplichtingen beschermen beide partijen
+- Regels over fiscale aangifte en minimumrente zijn regiospecifiek
+
+===== PURPLE-L5-025
+TITLE: Voorwaarden in vastgoedcontracten als instrumenten voor risicobeheer
+SUMMARY: Voorwaarden laten de koper uit de deal stappen als iets wezenlijks niet doorgaat, zolang hij de termijnen en meldingen nakomt; ervan afzien ruilt bescherming in voor concurrentiekracht, en zie nooit af van wat je je niet kunt veroorloven te verliezen.
+KEYWORDS: voorwaarden in vastgoedcontracten, financieringsvoorbehoud, voorbehoud bouwkundige keuring, taxatieverschil, waarborgsom
+# Voorwaarden in vastgoedcontracten als instrumenten voor risicobeheer
+
+## Openingsscenario
+AANNAME/MENING (hypothetisch scenario, uitsluitend voor onderwijsdoeleinden): Stel je een centrale bank voor die haar beleidsrente in een korte periode van enkele maanden fors en herhaaldelijk verhoogt om de stijgende inflatie te bestrijden.
+Pas het hier toe: Tijdens snelle renteverhogingen tekent een koper een koopovereenkomst, waarna de goedkeuring van de lening door de bank niet doorgaat. Vraag over de kleuren heen: laat het contract (PURPLE) de koper ontbinden en zijn waarborgsom terugkrijgen? Zag de koper af van het financieringsvoorbehoud om de deal binnen te halen (ORANGE)? Hoeveel van de waarborgsom (WHITE/BLUE) staat nu op het spel?
+
+## Leerdoelen
+- De belangrijkste voorwaarden in vastgoedcontracten beschrijven
+- Uitleggen hoe waarborgsommen en termijnen samenhangen met de voorwaarden
+- Het risico beoordelen van afzien van voorwaarden in concurrerende markten
+
+## Kerninhoud
+Een voorwaarde (voorbehoud) is een bepaling in een contract waaraan moet zijn voldaan voordat de deal doorgaat. Als er niet aan wordt voldaan, kan de beschermde partij vaak ontbinden zonder de waarborgsom te verliezen, zolang zij de termijnen en meldingsregels van het contract volgt.
+Gangbare voorbehouden bij vastgoed:
+- Financiering: De koper kan ontbinden als hij geen lening krijgt tegen de afgesproken voorwaarden.
+- Keuring: De koper kan het pand laten keuren en op basis van de bevindingen ontbinden of heronderhandelen.
+- Taxatie: De koper kan ontbinden of heronderhandelen als het pand onder de prijs wordt getaxeerd.
+- Eigendom: De koper kan ontbinden als problemen met de eigendom niet worden opgelost.
+- Verkoop van de eigen woning: De koper kan ontbinden als hij zijn huidige pand niet kan verkopen.
+- Boekenonderzoek (bedrijfsvastgoed): Tijd om huurcontracten, bestemmingsplan, milieurapporten en financiën te bekijken.
+REGIOSPECIFIEKE REGEL: Standaardcontracten, termijnen en de behandeling van waarborgsommen verschillen sterk per rechtsgebied; in Nederland bijvoorbeeld tekenen koper en verkoper volgens beschikbare informatie eerst een koopovereenkomst met een ontbindende voorwaarde voor de financiering, betaalt de koper vaak een waarborgsom of bankgarantie van ongeveer tien procent, en heeft een particuliere koper van een woning drie dagen bedenktijd, dus controleer dit met een notaris.
+Hoe de kleuren samenhangen:
+- RED: Bevindingen uit de keuring en de taxatie bepalen de waarde van het pand en de reparatiekosten.
+- BLUE: Financieringsvoorbehouden beschermen kopers als de leningsvoorwaarden veranderen, zoals in het scenario.
+- ORANGE: In concurrerende markten zien kopers vaak af van voorbehouden om hun bod aantrekkelijker te maken. Dat vergroot hun kans om te winnen, maar legt het risico bij hen.
+- WHITE: De waarborgsom is vaak een flink deel van het spaargeld. Die verliezen is een echt verlies.
+- PURPLE: Termijnen zijn beslissend. Een meldingstermijn missen kan betekenen dat het voorbehoud als vervallen geldt.
+AANNAME/MENING: Afzien van een voorbehoud is een gok. Vraag jezelf voordat je ervan afziet: "Als dit misgaat, kan ik het me dan veroorloven de waarborgsom te verliezen, of de deal toch af te ronden?" Als het antwoord nee is, is het afzien een gok en geen strategie. Gedeeltelijke aanpakken, zoals de termijn van een voorbehoud verkorten in plaats van het te schrappen, kunnen concurrentiekracht en bescherming in evenwicht brengen.
+
+## Uitgewerkt voorbeeld
+ILLUSTRATIEF VOORBEELD: In een overspannen markt doet Beatriz een bod op een klein pand met twee woningen. De verkoper heeft meerdere biedingen.
+Haar bod:
+- Prijs: iets boven de vraagprijs.
+- Waarborgsom: € 25.000.
+- Keuringsvoorbehoud: verkort van 14 naar 7 dagen, niet geschrapt.
+- Financieringsvoorbehoud: behouden, maar ze legt een sterke schriftelijke voorlopige goedkeuring over.
+- Taxatievoorbehoud: gedeeltelijk afgezien. Ze gaat akkoord om tot € 15.000 van een eventueel verschil tussen taxatie en prijs zelf te betalen.
+De rente stijgt fors in de periode tot de overdracht. Haar bank keurt haar goed, maar tegen een hogere rente. Omdat haar financieringsvoorbehoud goedkeuring vereiste "tegen een rente van niet meer dan" een vastgesteld percentage, en de nieuwe rente daarboven ligt, heeft ze een keuze: ontbinden en haar waarborgsom terugkrijgen, of doorgaan. Na het herberekenen van haar kasstroom gaat ze door, maar onderhandelt ze een prijsverlaging van € 10.000, met haar recht om te ontbinden als hefboom.
+AANNAME/MENING: Beatriz bleef concurrerend zonder elke bescherming op te geven. Haar zorgvuldig geformuleerde financieringsvoorbehoud maakte van een renteschok een onderhandeling in plaats van een verlies.
+
+## Oefenquiz
+**Q1. Wat is een voorbehoud?**
+A) Een voorwaarde waaraan moet zijn voldaan voordat de deal doorgaat
+B) Een boete
+C) Een soort lening
+D) Een belasting
+**Q2. Waartegen beschermt een financieringsvoorbehoud?**
+A) Tegen slecht weer
+B) Tegen onroerendezaakbelasting
+C) Tegen het niet krijgen van een lening tegen de afgesproken voorwaarden
+D) Tegen de kosten van een eigendomsverzekering
+**Q3. Wat kan er gebeuren als een koper een termijn van een voorbehoud mist?**
+A) Niets
+B) Het voorbehoud kan als vervallen gelden
+C) De verkoper moet de koper betalen
+D) De deal wordt automatisch ontbonden
+**Q4. Hoe bleef Beatriz concurrerend zonder elke bescherming op te geven?**
+A) Ze verkortte sommige voorbehouden en zag gedeeltelijk af van het taxatieverschil
+B) Ze betaalde alles contant
+C) Ze zag van alles af
+D) Ze bood onder de vraagprijs
+**Q5. Welke vraag moet een koper stellen voordat hij afziet van een voorbehoud?**
+A) Vindt de verkoper mij aardig?
+B) Welke kleur heeft het huis?
+C) Hoe snel kan ik afronden?
+D) Als dit misgaat, kan ik het me dan veroorloven de waarborgsom te verliezen of toch af te ronden?
+
+## Antwoordsleutel
+Q1: A
+Q2: C
+Q3: B
+Q4: A
+Q5: D
+
+## Antwoorden en uitleg
+**Q1.** Als niet aan een voorbehoud is voldaan, kan de beschermde partij vaak ontbinden.
+**Q2.** Het laat kopers ontbinden als de financiering niet rondkomt.
+**Q3.** Termijnen en meldingsregels zijn beslissend.
+**Q4.** Gedeeltelijke aanpakken brachten risico en concurrentiekracht in evenwicht.
+**Q5.** Als het antwoord nee is, is afzien een gok.
+
+## Belangrijkste punten
+- Voorbehouden laten kopers uit de deal stappen als wezenlijke voorwaarden niet doorgaan
+- Termijnen en meldingsregels moeten precies worden gevolgd
+- Afzien van voorbehouden ruilt bescherming in voor concurrentiekracht
+- Gedeeltelijke aanpakken kunnen beide in evenwicht brengen; zie nooit af van wat je je niet kunt veroorloven te verliezen
