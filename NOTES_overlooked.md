@@ -5,3 +5,6 @@
 - English source says $100k @7% gross, 0.10% vs 1.10% fee, 30y → ~$761k vs ~$568k (diff ~$193k). Correct: ~$740k vs ~$558k (diff ~$182k, ~25%). $761k is the no-fee figure.
 - Worked example: $500k, 25y, 0.15% vs 1.15% → diff is ~$549k (~$2.62M vs ~$2.07M), not "exceeding $600,000".
 - ht version uses corrected figures; answer key unchanged (B). Other locales still carry original figures — owner approval needed before fixing them.
+
+## PURPLE-L4-011 cross-reference (2026-11-23)
+- English says workers comp is "this level's Lesson 21"; it is Lesson 13. ht uses Lesson 13. Other locales unchanged (owner approval needed).
