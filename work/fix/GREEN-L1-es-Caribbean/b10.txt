@@ -1,0 +1,315 @@
+===== GREEN-L1-042
+TITLE: Las entidades de transferencia: LLC, corporaciones S y negocios de un solo dueño
+SUMMARY: Presenta el concepto general de la tributación por transferencia como una alternativa al patrón de doble tributación de las corporaciones estándar.
+# Las entidades de transferencia: LLC, corporaciones S y negocios de un solo dueño
+
+## Objetivos de aprendizaje
+- Definir en términos generales una entidad de transferencia.
+- Explicar cómo la tributación por transferencia evita el patrón de doble tributación.
+- Reconocer ejemplos comunes de estructuras de transferencia sin tratar los nombres como universales.
+
+## Contenido principal
+
+Una entidad de transferencia (pass-through, en inglés) es una estructura de negocio en la que la ganancia no tributa en absoluto a nivel del negocio: en cambio, «pasa» directamente a los dueños, que la declaran y pagan el impuesto sobre ella en sus propias declaraciones personales, en general una sola vez. Esto evita directamente el patrón de doble tributación visto en la lección anterior, ya que, para empezar, no hay una capa aparte de impuesto a nivel corporativo.
+
+Entre los ejemplos comunes de estructuras que a menudo se organizan para tributar por transferencia están los negocios de un solo dueño (el caso más sencillo: no hay ninguna capa aparte de impuesto del negocio) y, en muchos sistemas, ciertas compañías de responsabilidad limitada (LLC, por sus siglas en inglés) o estructuras corporativas con una elección especial (a menudo llamadas «corporaciones S» en el sistema de Estados Unidos, aunque en otros lugares existen conceptos equivalentes con otros nombres). Las reglas legales y tributarias específicas para calificar como entidad de transferencia varían según el país e implican ventajas y desventajas reales más allá de solo evitar la doble tributación; y precisamente por eso la elección de la estructura del negocio, que se ve a continuación, merece una reflexión cuidadosa en vez de una opción por defecto.
+
+## Ejemplo práctico
+
+**Pregunta:** La dueña de un pequeño negocio quiere evitar el patrón de doble tributación que se aplica a las corporaciones estándar. ¿Qué categoría general de estructura de negocio podría investigar?
+
+**Estudiante:** Según esta lección, probablemente querría investigar las estructuras de transferencia, ya que evitan una capa aparte de impuesto a nivel del negocio.
+
+**Guía:** ¿Cuál es la disyuntiva? ¿Evitar la doble tributación es siempre lo único que hay que considerar al escoger una estructura?
+
+**Estudiante:** No: la lección menciona que hay otras ventajas y desventajas reales más allá de la capa de impuestos, así que vale la pena mirar el panorama completo, no solo este tema.
+
+**Guía:** Exactamente, y por eso la próxima lección examina con más detalle la elección de la estructura del negocio.
+
+## Prueba práctica
+
+**Pregunta 1.** Una entidad de transferencia es una en la que la ganancia:
+
+A) Tributa dos veces, a nivel del negocio y a nivel de los dueños
+B) No tributa a nivel del negocio y pasa directamente a las declaraciones personales de los dueños
+C) Nunca tributa
+D) Solo tributa si el negocio fracasa
+
+**Pregunta 2.** La tributación por transferencia atiende directamente ¿qué concepto anterior?
+
+A) El cobro del impuesto sobre las ventas
+B) La doble tributación
+C) Los aranceles
+D) La retención de la nómina
+
+**Pregunta 3.** En esta lección, un negocio de un solo dueño se describe como:
+
+A) Algo que siempre tiene doble tributación
+B) El caso más sencillo de transferencia, sin una capa aparte de impuesto del negocio
+C) Algo ilegal en la mayoría de los países
+D) Lo mismo que una corporación
+
+**Pregunta 4.** ¿Evitar la doble tributación es lo único que hay que considerar al escoger una estructura de negocio?
+
+A) Sí, es lo único
+B) No: hay otras ventajas y desventajas reales que sopesar
+C) La estructura del negocio no importa
+D) Solo importa el impuesto, nada más
+
+## Clave de respuestas
+
+1. B, 2. B, 3. B, 4. B
+
+## Respuestas y explicaciones
+
+**1.** Las estructuras de transferencia se saltan por completo el impuesto aparte a nivel del negocio y envían la ganancia directamente a la declaración propia del dueño.
+
+**2.** Esta estructura existe específicamente como alternativa al patrón de tributación en dos capas descrito en la lección anterior.
+
+**3.** El negocio de un solo dueño es el ejemplo más claro, ya que el negocio y el dueño ya se tratan como un solo contribuyente.
+
+**4.** La elección de la estructura implica varias ventajas y desventajas (la protección de la responsabilidad, la complejidad y más), no solo la cuestión tributaria.
+
+## Puntos clave
+
+- Las entidades de transferencia evitan el impuesto a nivel del negocio y envían la ganancia directamente a las declaraciones personales de los dueños.
+- Esta es la alternativa directa al patrón de doble tributación de las corporaciones estándar.
+- Los negocios de un solo dueño son el ejemplo más sencillo de transferencia; ciertas LLC y estructuras con elección especial también pueden calificar.
+- Escoger una estructura de negocio implica ventajas y desventajas más allá de este solo tema tributario.
+
+===== GREEN-L1-043
+TITLE: Cómo escoger una estructura de negocio: una perspectiva tributaria
+SUMMARY: Resume los conceptos de impuesto corporativo, doble tributación y transferencia en un marco para pensar la elección de la estructura del negocio, a un nivel general a propósito y con la advertencia de consultar a un profesional.
+# Cómo escoger una estructura de negocio: una perspectiva tributaria
+
+## Objetivos de aprendizaje
+- Resumir las ventajas y desventajas tributarias entre las estructuras corporativas y las de transferencia.
+- Reconocer que la elección de la estructura implica más que los impuestos (responsabilidad, complejidad, búsqueda de financiamiento).
+- Reforzar el principio de la analogía del médico para una decisión de tanta importancia.
+
+## Contenido principal
+
+Juntando las últimas tres lecciones: la elección de la estructura del negocio tiene una dimensión tributaria real. Las estructuras corporativas estándar conllevan la posibilidad de la doble tributación, pero pueden ofrecer otras ventajas, como un acceso más fácil a ciertos tipos de inversión o una separación clara entre el negocio y el dueño. Las estructuras de transferencia evitan la capa de doble tributación, pero vienen con sus propias ventajas y desventajas y con reglas de elegibilidad que varían según el sistema.
+
+Pero el tratamiento tributario es solo uno de los factores de esta decisión: la protección de la responsabilidad (qué tan expuestos quedan los bienes personales del dueño si al negocio lo demandan o se endeuda), la complejidad administrativa y los planes de búsqueda de financiamiento del negocio también importan, y a veces apuntan en una dirección distinta a la que sugeriría la respuesta basada solo en los impuestos. Este es justamente el tipo de decisión en la que se aplica directamente la analogía del médico: el costo de una consulta con un profesional calificado, antes de fijar una estructura, es pequeño en comparación con el costo de reestructurar más adelante o de vivir durante años con una estructura que no se ajusta a las necesidades reales del negocio.
+
+## Ejemplo práctico
+
+**Pregunta:** Una amiga que está empezando un negocio dice: «Voy a escoger la estructura que evite más impuestos y me preocuparé por todo lo demás después». ¿Cómo le respondería, usando lo que ha aprendido?
+
+**Estudiante:** Según esta ruta, le señalaría que los impuestos son solo un factor: la protección de la responsabilidad y los planes de financiamiento también importan, y podrían apuntar hacia otra estructura.
+
+**Guía:** ¿Qué le recomendaría realmente que hiciera antes de decidir?
+
+**Estudiante:** Hablar con un profesional calificado que pueda examinar toda su situación, no solo el aspecto tributario, antes de comprometerse con una estructura.
+
+**Guía:** Exactamente: esa es la analogía del médico en acción, aplicada a una decisión real y de mucha importancia.
+
+## Prueba práctica
+
+**Pregunta 1.** La elección de la estructura del negocio implica ventajas y desventajas tributarias relacionadas con:
+
+A) Nada de lo visto en esta ruta
+B) La doble tributación frente al tratamiento de transferencia
+C) Solo el impuesto sobre las ventas
+D) Solo el impuesto sobre la nómina
+
+**Pregunta 2.** Además de los impuestos, ¿qué otros factores importan al escoger una estructura de negocio?
+
+A) No importa nada más
+B) La protección de la responsabilidad, la complejidad administrativa y los planes de búsqueda de financiamiento
+C) Solo el color favorito del dueño
+D) Solo la ubicación física del negocio
+
+**Pregunta 3.** ¿Por qué un negocio podría escoger una estructura que no sea la opción más eficiente en impuestos?
+
+A) Nunca hay una buena razón
+B) Porque las necesidades de responsabilidad, de complejidad o de financiamiento podrían pesar más que el beneficio tributario
+C) La eficiencia tributaria siempre es el único factor
+D) Esto nunca pasa en la práctica
+
+**Pregunta 4.** ¿Qué principio visto antes en el currículo se aplica directamente a esta decisión?
+
+A) La analogía del médico: consultar a un profesional antes de comprometerse
+B) La epifanía de los sistemas
+C) La relatividad del logro
+D) La paradoja de la elección
+
+## Clave de respuestas
+
+1. B, 2. B, 3. B, 4. A
+
+## Respuestas y explicaciones
+
+**1.** La elección entre la doble tributación y la transferencia es la disyuntiva tributaria central vista a lo largo de las últimas lecciones.
+
+**2.** La exposición de la responsabilidad, la complejidad y la forma en que el negocio planea conseguir dinero influyen todas en qué estructura se ajusta realmente mejor.
+
+**3.** Una estructura que ahorra impuestos pero expone los bienes personales a un riesgo innecesario, o que bloquea un camino de financiamiento necesario, quizá no sea en conjunto la opción correcta.
+
+**4.** Dado lo que está en juego y la complejidad, consultar a un profesional antes de decidir la estructura refleja directamente la analogía anterior del médico.
+
+## Puntos clave
+
+- La elección de la estructura tiene ventajas y desventajas tributarias reales entre el tratamiento corporativo (posible doble tributación) y el de transferencia.
+- La protección de la responsabilidad, la complejidad y las necesidades de financiamiento importan tanto o más que los impuestos por sí solos.
+- La estructura más eficiente en impuestos no es automáticamente la opción correcta en conjunto.
+- Lo que está en juego en esta decisión hace que una consulta profesional, según la analogía del médico, sea una inversión inteligente y no un costo innecesario.
+
+===== GREEN-L1-044
+TITLE: Los paraísos fiscales y por qué los países compiten por los negocios
+SUMMARY: Presenta, a un nivel básico, neutral y conceptual, el concepto de los paraísos fiscales y la competencia tributaria entre jurisdicciones.
+# Los paraísos fiscales y por qué los países compiten por los negocios
+
+## Objetivos de aprendizaje
+- Definir en términos generales un paraíso fiscal.
+- Explicar por qué los países a veces compiten en política tributaria para atraer negocios.
+- Reconocer esto como un área de debate de política que de verdad se disputa.
+
+## Contenido principal
+
+Un paraíso fiscal, en una definición amplia, es una jurisdicción que ofrece impuestos notablemente bajos, una regulación mínima o una fuerte privacidad financiera, específicamente para atraer a negocios o personas a que ubiquen allí sus actividades o sus bienes. Los países compiten por este tipo de negocios porque atraer empresas, personas ricas o capital puede traer empleos, inversión y actividad económica que de otro modo no se ubicarían allí.
+
+Esto crea una tensión real. Desde una perspectiva, la competencia tributaria disciplina a los gobiernos: si los impuestos suben demasiado en relación con el valor que se ofrece, los negocios y el capital pueden mudarse, lo que presiona a los gobiernos a ser eficientes. Desde otra perspectiva, esta competencia puede permitir que entidades grandes y rentables eviten aportar una recaudación proporcional a su actividad económica real, lo que traslada la carga a los contribuyentes con menos movilidad (normalmente las personas y los negocios más pequeños, que no pueden mudarse con facilidad). Ambas perspectivas tienen un mérito genuino, y esta sigue siendo una de las áreas que más activamente se debaten en la política tributaria internacional.
+
+## Ejemplo práctico
+
+**Pregunta:** Una gran empresa multinacional muda su sede a un país con tasas de impuesto corporativo muy bajas. ¿Esto es claramente bueno o claramente malo?
+
+**Estudiante:** Según esta lección, no tiene una respuesta sencilla: hay argumentos reales en ambos lados.
+
+**Guía:** ¿Cuál es el argumento a favor de que sea razonable y cuál el argumento para preocuparse?
+
+**Estudiante:** Se podría ver como una competencia eficiente que presiona a los gobiernos, pero también podría significar que los contribuyentes con menos movilidad terminen cargando con más de la carga que la empresa, de otro modo, habría aportado.
+
+**Guía:** Exactamente: es un tema que de verdad se disputa, no uno con una respuesta correcta y limpia.
+
+## Prueba práctica
+
+**Pregunta 1.** En general, un paraíso fiscal se define como:
+
+A) Una jurisdicción con impuestos especialmente bajos o una fuerte privacidad financiera, pensada para atraer negocios de fuera
+B) Cualquier país con un impuesto sobre la renta
+C) Un tipo de crédito tributario
+D) Un sinónimo de evasión de impuestos
+
+**Pregunta 2.** Los países compiten en política tributaria en parte para atraer:
+
+A) Nada
+B) Empleos, inversión y actividad económica
+C) Solo turistas
+D) Solo ayuda extranjera
+
+**Pregunta 3.** Una perspectiva sobre la competencia tributaria es que:
+
+A) No tiene ningún efecto en los gobiernos
+B) Disciplina a los gobiernos hacia la eficiencia
+C) Siempre es ilegal
+D) Solo beneficia a los pequeños negocios
+
+**Pregunta 4.** Una preocupación que se plantea sobre la competencia tributaria es que puede:
+
+A) Trasladar una mayor parte de la carga tributaria a los contribuyentes con menos movilidad
+B) Eliminar todos los impuestos en todas partes
+C) Afectar solo a los gobiernos, nunca a las personas
+D) No tener ninguna consecuencia en el mundo real
+
+## Clave de respuestas
+
+1. A, 2. B, 3. B, 4. A
+
+## Respuestas y explicaciones
+
+**1.** La idea central es una jurisdicción que usa a propósito una carga tributaria baja como atractivo competitivo para la actividad de fuera.
+
+**2.** Atraer actividad de negocios es la motivación económica práctica detrás de este tipo de competencia.
+
+**3.** La disciplina mediante la competencia es un argumento genuino a favor de permitir que exista este tipo de competencia tributaria.
+
+**4.** El traslado de la carga a los contribuyentes con menos movilidad es la preocupación central que plantean los críticos de una competencia tributaria sin control.
+
+## Puntos clave
+
+- Un paraíso fiscal ofrece impuestos bajos o una fuerte privacidad para atraer negocios o capital de fuera.
+- Los países compiten en política tributaria en parte para atraer empleos e inversión.
+- Una opinión: esto disciplina a los gobiernos hacia la eficiencia.
+- Otra opinión: puede trasladar la carga tributaria a los contribuyentes con menos movilidad; una tensión que de verdad se debate.
+
+===== GREEN-L1-045
+TITLE: Evasión de impuestos frente a elusión: una distinción fundamental
+SUMMARY: Traza una línea clara y esencial entre la elusión legal (usar las reglas tal como están escritas para reducir los impuestos) y la evasión ilegal (falsear los hechos para no pagar el impuesto adeudado).
+# Evasión de impuestos frente a elusión: una distinción fundamental
+
+## Objetivos de aprendizaje
+- Definir la elusión de impuestos y dar un ejemplo.
+- Definir la evasión de impuestos y dar un ejemplo.
+- Explicar con claridad por qué esta distinción es fundamental, y no un detalle técnico menor.
+
+## Contenido principal
+
+Esta es una de las distinciones más importantes de toda esta ruta, y vale la pena decirla sin rodeos: la elusión de impuestos (tax avoidance, en inglés) es legal; la evasión de impuestos no lo es. La elusión significa usar las reglas tributarias tal como están escritas en realidad (las deducciones, los créditos, el momento de los ingresos o de las ventas, escoger una estructura de negocio favorable) para reducir legalmente la cantidad de impuesto adeudado. Todo lo visto en esta ruta hasta ahora, hecho de forma correcta y honesta, cae dentro de la elusión.
+
+La evasión significa falsear ilegalmente los hechos para no pagar un impuesto que realmente se debe: ocultar ingresos, inventar deducciones falsas, falsificar registros o engaños parecidos. La línea entre las dos no depende de qué tan agresiva sea la planificación tributaria; depende de si los hechos de fondo que se declaran son verdaderos. Reclamar todas las deducciones a las que uno tiene derecho legalmente, aunque reduzcan mucho la factura de impuestos, es elusión. Reclamar una deducción por un gasto que nunca ocurrió, u ocultar un ingreso que sí ocurrió, es evasión: un asunto legal grave, no solo un error de papeleo.
+
+## Ejemplo práctico
+
+**Pregunta:** Una dueña de negocio deduce legalmente todos los gastos a los que tiene derecho y reduce de forma agresiva su factura de impuestos con las reglas vistas a lo largo de esta ruta. Otro dueño de negocio declara gastos falsos que nunca ocurrieron. ¿Son lo mismo?
+
+**Estudiante:** No: según esta lección, la primera dueña usa reglas legítimas con honestidad, lo que es elusión. El segundo dueño falsea los hechos, lo que es evasión.
+
+**Guía:** Si los dos terminan pagando menos impuestos, ¿cuál es la verdadera línea divisoria entre ellos?
+
+**Estudiante:** No depende de cuánto impuesto se ahorra: depende de si lo que se declara es realmente verdadero.
+
+**Guía:** Exactamente, y esa distinción es la línea más importante de toda esta ruta.
+
+## Prueba práctica
+
+**Pregunta 1.** La elusión de impuestos es:
+
+A) Ilegal
+B) El uso legal de las reglas tributarias para reducir el impuesto adeudado
+C) Lo mismo que la evasión de impuestos
+D) Algo disponible solo para las corporaciones
+
+**Pregunta 2.** La evasión de impuestos es:
+
+A) Legal
+B) Falsear ilegalmente los hechos para no pagar un impuesto que realmente se debe
+C) Lo mismo que la elusión de impuestos
+D) Solo un error de papeleo
+
+**Pregunta 3.** La verdadera línea divisoria entre las dos es:
+
+A) Cuánto impuesto se ahorra al final
+B) Si los hechos de fondo que se declaran son verdaderos
+C) Si participó un profesional
+D) No hay ninguna diferencia importante
+
+**Pregunta 4.** Reclamar con honestidad todas las deducciones legalmente disponibles es:
+
+A) Evasión de impuestos
+B) Elusión de impuestos
+C) Un delito
+D) Algo irrelevante para esta distinción
+
+## Clave de respuestas
+
+1. B, 2. B, 3. B, 4. B
+
+## Respuestas y explicaciones
+
+**1.** La elusión funciona por completo dentro de las reglas realmente escritas, usándolas como se pretende o como la ley permite.
+
+**2.** La evasión cruza al terreno del falseamiento: declarar algo falso para reducir ilegalmente el impuesto adeudado.
+
+**3.** Lo que importa no es qué tan agresiva sea la planificación tributaria, sino la veracidad de los hechos de fondo.
+
+**4.** Incluso las reclamaciones de deducciones grandes y agresivas, pero honestas, siguen estando claramente del lado legal de la línea.
+
+## Puntos clave
+
+- La elusión de impuestos es legal: usar reglas reales para reducir el impuesto adeudado.
+- La evasión de impuestos es ilegal: falsear los hechos para no pagar un impuesto que realmente se debe.
+- La línea divisoria es la veracidad, no cuánto impuesto se ahorra.
+- Esta distinción es una de las más importantes de todo el currículo de alfabetización tributaria.
