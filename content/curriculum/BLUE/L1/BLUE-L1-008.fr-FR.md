@@ -5,45 +5,74 @@ officialTrackName: Business
 level: 1
 lessonNumber: 8
 locale: fr-FR
-title: "Entreprise Individuelle vs. Société de Personnes vs. Société à Responsabilité Limitée"
-summary: "Les noms et règles des structures d'entreprise varient considérablement selon les pays ; cette leçon décrit une terminologie britannique courante, et les équivalents diffèrent ailleurs (par exemple, une LLC aux États-Unis, ou une SARL en France)."
+title: "Sous-chapitre C ou sous-chapitre S : qu’est-ce qui change vraiment?"
+summary: "Découvrez la différence fondamentale de traitement fiscal entre une société de type C et une société de type S."
 version: "1.0"
 author: Waldemar M. Caban, JD MA
 date: 2026-08-08
 ---
 
-# BLUE-L1-008 : Entreprise Individuelle vs. Société de Personnes vs. Société à Responsabilité Limitée
+# Sous-chapitre C ou sous-chapitre S : qu’est-ce qui change vraiment?
 
-## Objectifs d'Apprentissage
-1. Distinguer une entreprise individuelle, une société de personnes, et une société à responsabilité limitée.
-2. Identifier la différence clé de responsabilité entre ces structures.
-3. Reconnaître que les noms et règles des structures varient selon les pays.
+## Objectifs d’apprentissage
 
-## Contenu Principal
-*RÈGLE PROPRE À LA RÉGION :* Les noms et règles des structures d'entreprise varient considérablement selon les pays ; cette leçon décrit une terminologie britannique courante, et les équivalents diffèrent ailleurs (par exemple, une LLC aux États-Unis, ou une SARL en France).
+À la fin de cette leçon, vous devriez pouvoir :
 
-Une **entreprise individuelle** (sole trader) est dirigée par une seule personne, sans séparation légale entre le propriétaire et l'entreprise — le propriétaire est personnellement responsable de toutes les dettes. Une **société de personnes** (partnership) est similaire mais implique deux personnes ou plus partageant la propriété et la responsabilité. Une **société à responsabilité limitée** (limited company) est une entité juridique distincte de ses propriétaires, ce qui signifie que les actifs personnels des propriétaires sont généralement protégés en cas de dettes de l'entreprise, bien que cette protection puisse comporter des exceptions.
+- Expliquer à quoi renvoient les expressions « C corp » et « S corp ».
+- Expliquer la différence fiscale fondamentale entre les deux.
+- Reconnaître que le statut de S corp comporte de réelles conditions d’admissibilité.
 
-## Exemple Pratique
-*EXEMPLE ILLUSTRATIF :* Priya dirige son activité de graphisme en tant qu'entreprise individuelle. Lorsque l'activité fait face à un litige de facture impayée qui se transforme en dette, ses économies et ses actifs personnels sont, en principe, exposés pour la couvrir, puisqu'il n'existe aucune séparation légale entre elle et l'activité. Si elle l'avait structurée en société à responsabilité limitée, ses actifs personnels seraient généralement protégés, les actifs de la société elle-même supportant ce risque à la place.
+## Contenu principal
 
-## Quiz Pratique
-1. Qu'est-ce qu'une entreprise individuelle ?
-2. Qu'est-ce qu'une société de personnes ?
-3. Vrai/Faux : Une société à responsabilité limitée n'offre aucune protection entre les actifs personnels et ceux de l'entreprise.
-4. Quelle est la différence clé de responsabilité entre une entreprise individuelle et une société à responsabilité limitée ?
+### Même structure juridique, traitement fiscal différent
+
+*(RÈGLE PROPRE À LA RÉGION : il s’agit du droit fiscal fédéral des États-Unis; la France et d’autres pays ont leurs propres règles.)* Les deux expressions désignent la même structure de société par actions que dans la dernière leçon — la différence tient à la section du code fiscal fédéral qui s’applique à la façon dont la société est imposée.
+
+### La différence fondamentale : qui paie, et quand
+
+Une société de type C paie généralement l’impôt sur le revenu au niveau de la société sur ses bénéfices; si elle verse ensuite des dividendes aux actionnaires, ceux-ci paient généralement de nouveau de l’impôt sur ce revenu — ce qu’on appelle parfois la « double imposition ». Une société de type S transfère généralement ses bénéfices directement dans les déclarations de revenus personnelles des actionnaires, ce qui évite ce niveau d’impôt des sociétés.
+
+### Posez-vous cette question
+
+Si le statut de S corp évite cette double imposition, pourquoi toutes les sociétés ne le choisissent-elles pas? Parce que le statut de S corp comporte de réelles conditions d’admissibilité — des restrictions sur le nombre et le type d’actionnaires, entre autres exigences — auxquelles toutes les sociétés ne satisfont pas ou ne souhaitent pas se soumettre.
+
+## Exemple pratique
+
+Imaginez deux sociétés identiques qui réalisent le même bénéfice. L’une choisit le traitement de type C; l’autre, le traitement de type S. Demandez-vous : si les deux distribuent tout leur bénéfice aux actionnaires, où l’impôt est-il payé différemment? Dans la société de type C, l’impôt est généralement payé au niveau de la société, puis de nouveau au niveau des actionnaires. Dans la société de type S, il n’est généralement payé qu’une seule fois, directement dans les déclarations personnelles des actionnaires.
+
+## Quiz pratique
+
+1. À quoi renvoient les expressions « C corp » et « S corp »?
+   A. À deux structures d’entreprise juridiques entièrement différentes
+   B. À la même structure de société, imposée selon des sections différentes du code fiscal
+   C. Seulement à la taille de l’entreprise
+   D. À une distinction qui ne compte que pour les organismes sans but lucratif
+2. Vrai ou faux : une société de type C évite la double imposition, alors qu’une société de type S ne l’évite pas.
+3. Pourquoi toutes les sociétés ne choisissent-elles pas simplement le statut de S corp?
+   A. Le statut de S corp est illégal dans la plupart des États
+   B. Le statut de S corp comporte de réelles conditions d’admissibilité que toutes les sociétés ne remplissent pas
+   C. Les S corps sont toujours plus imposées
+   D. Le statut de S corp n’existe pas
 
 ## Corrigé
-1. Une seule personne dirigeant une entreprise, sans séparation légale avec le propriétaire   2. Deux personnes ou plus partageant la propriété et la responsabilité   3. Faux   4. Une société à responsabilité limitée protège généralement les actifs personnels ; une entreprise individuelle non
 
-## Réponses et Explications
-1. Ceci définit spécifiquement la structure d'entreprise individuelle.
-2. Ceci définit spécifiquement la structure de société de personnes.
-3. Les sociétés à responsabilité limitée offrent généralement cette séparation, avec quelques exceptions.
-4. Ceci est la distinction centrale qui guide le choix de structure pour de nombreuses entreprises.
+1. B
+2. Faux
+3. B
 
-## Points Clés à Retenir
-- Entreprise individuelle : un seul propriétaire, aucune séparation légale, responsabilité personnelle totale.
-- Société de personnes : plusieurs propriétaires, responsabilité partagée.
-- Société à responsabilité limitée : entité juridique distincte, protégeant généralement les actifs personnels — les noms de structures varient selon les pays.
+## Réponses et explications
 
+### Question 1
+Bonne réponse : B. Les deux désignent la même structure, imposée différemment selon le code fiscal.
+
+### Question 2
+Bonne réponse : Faux. C’est l’inverse — les sociétés de type C font généralement face à une double imposition possible; les sociétés de type S l’évitent généralement.
+
+### Question 3
+Bonne réponse : B. De réelles conditions d’admissibilité limitent qui peut choisir le statut de S corp.
+
+## Points clés
+
+- « C corp » et « S corp » désignent la même structure, imposée différemment.
+- Les sociétés de type C font généralement face à une double imposition possible; les sociétés de type S transfèrent généralement leurs bénéfices une seule fois.
+- Le statut de S corp comporte de réelles conditions d’admissibilité et n’est pas offert à toutes les sociétés.

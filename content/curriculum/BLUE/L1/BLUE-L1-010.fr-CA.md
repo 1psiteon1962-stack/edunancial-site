@@ -5,45 +5,74 @@ officialTrackName: Business
 level: 1
 lessonNumber: 10
 locale: fr-CA
-title: "Qu'est-ce Que l'Avoir Propre d'une Entreprise?"
-summary: "L'avoir propre d'une entreprise représente la part du propriétaire dans la société — essentiellement ce qui resterait si tous les actifs étaient vendus et toutes les dettes remboursées. *FAIT VÉRIFIÉ :* Avoir Propre = Actifs − Passifs."
+title: "Choisir une structure d’entreprise : quelles questions poser d’abord?"
+summary: "Réunissez les structures vues jusqu’ici dans un cadre de décision pratique."
 version: "1.0"
 author: Waldemar M. Caban, JD MA
 date: 2026-08-08
 ---
 
-# BLUE-L1-010 : Qu'est-ce Que l'Avoir Propre d'une Entreprise?
+# Choisir une structure d’entreprise : quelles questions poser d’abord?
 
-## Objectifs d'Apprentissage
-1. Définir l'avoir propre d'une entreprise en termes simples.
-2. Distinguer l'avoir propre du chiffre d'affaires et du profit.
-3. Expliquer comment l'avoir propre peut évoluer dans le temps.
+## Objectifs d’apprentissage
 
-## Contenu Principal
-L'avoir propre d'une entreprise représente la part du propriétaire dans la société — essentiellement ce qui resterait si tous les actifs étaient vendus et toutes les dettes remboursées. *FAIT VÉRIFIÉ :* Avoir Propre = Actifs − Passifs.
+À la fin de cette leçon, vous devriez pouvoir :
 
-*HYPOTHÈSE :* L'avoir propre augmente généralement lorsqu'une entreprise conserve ses profits (plutôt que de les distribuer entièrement aux propriétaires) ou lorsque les propriétaires injectent du capital supplémentaire, et peut diminuer lorsque l'entreprise subit des pertes ou des dettes dépassant ses actifs.
+- Énumérer les questions clés qui permettent de cerner une structure d’entreprise appropriée.
+- Appliquer ces questions à un scénario hypothétique simple.
+- Reconnaître qu’il s’agit d’un cadre de départ, et non d’un conseil personnalisé.
 
-## Exemple Pratique
-*EXEMPLE ILLUSTRATIF :* Une petite entreprise a 80 000 $ d'actifs (équipement, stock, liquidités) et 30 000 $ de dettes en cours. Avoir Propre = 80 000 $ − 30 000 $ = 50 000 $. Si l'entreprise connaît une bonne année et conserve 10 000 $ de profit plutôt que de le distribuer entièrement, l'avoir propre passe à 60 000 $ — la part du propriétaire a augmenté même sans rien vendre.
+## Contenu principal
 
-## Quiz Pratique
-1. Quelle est la formule de l'avoir propre d'une entreprise?
-2. Que représente l'avoir propre, en termes simples?
-3. Vrai/Faux : L'avoir propre est la même chose que le chiffre d'affaires.
-4. Si une entreprise a 100 000 $ d'actifs et 40 000 $ de passifs, quel est son avoir propre?
+### Les questions à poser d’abord
+
+Avant de plonger dans les détails juridiques, demandez-vous : combien y a-t-il de propriétaires? Quel niveau de protection de la responsabilité personnelle est réellement nécessaire, compte tenu du niveau de risque de l’entreprise? S’agit-il d’une profession réglementée qui a ses propres normes de structure? Réduire la double imposition est-il une priorité? Ces questions ne donnent pas une réponse finale à elles seules, mais elles réduisent considérablement les options.
+
+### Faire le raisonnement
+
+Un propriétaire seul qui a de réelles préoccupations de responsabilité et aucun intérêt à attirer des investisseurs externes est souvent orienté vers une LLC (ou, au Canada, souvent vers une société par actions). Plusieurs professionnels autorisés pourraient envisager une LLP. Une entreprise qui prévoit d’obtenir d’importants capitaux externes, ou qui souhaite émettre de nombreuses actions, est souvent orientée vers une société par actions — un lien avec la matière approfondie au niveau 3.
+
+### Une limite importante
+
+*IMPORTANT :* Cette leçon offre un cadre général de compréhension, et non un conseil juridique ou fiscal personnalisé. Une décision réelle devrait faire intervenir un professionnel qualifié qui examine la situation précise de la personne — l’« analogie du médecin », présentée plus loin dans ce niveau, explique exactement pourquoi cette étape en vaut la peine.
+
+## Exemple pratique
+
+Une personne seule qui lance une entreprise d’aménagement paysager, et qui s’inquiète de sa responsabilité si son équipement endommage les biens de quelqu’un, applique le cadre : un seul propriétaire, une réelle préoccupation de responsabilité, aucun besoin immédiat d’obtenir des capitaux externes. Demandez-vous : vers quelle structure vue dans les leçons précédentes de ce niveau cette combinaison oriente-t-elle? Une LLC correspond bien à ce profil.
+
+## Quiz pratique
+
+1. Quelle question constitue un bon point de départ pour choisir une structure d’entreprise?
+   A. De quelle couleur devrait être le logo?
+   B. Combien y a-t-il de propriétaires, et quel niveau de protection de la responsabilité est nécessaire?
+   C. À quelle période de l’année l’entreprise devrait-elle ouvrir?
+   D. Combien d’abonnés le propriétaire a-t-il sur les réseaux sociaux?
+2. Vrai ou faux : le cadre de cette leçon remplace un conseil juridique ou fiscal professionnel.
+3. Un propriétaire seul qui a de réelles préoccupations de responsabilité et ne prévoit pas obtenir de capitaux externes est souvent orienté vers quelle structure?
+   A. Une société en nom collectif
+   B. Une LLC
+   C. Une LLP
+   D. Un organisme sans but lucratif
 
 ## Corrigé
-1. Actifs − Passifs   2. La part du propriétaire dans l'entreprise   3. Faux   4. 60 000 $
 
-## Réponses et Explications
-1. Ceci est le calcul standard de l'avoir propre.
-2. Ceci est le sens central de l'avoir propre dans un contexte d'entreprise.
-3. Le chiffre d'affaires est l'argent entrant des ventes; l'avoir propre est la part globale du propriétaire dans l'entreprise.
-4. 100 000 $ − 40 000 $ = 60 000 $.
+1. B
+2. Faux
+3. B
 
-## Points Clés à Retenir
-- Avoir Propre = Actifs − Passifs, représentant la part du propriétaire dans l'entreprise.
-- Les profits conservés et l'apport de capital supplémentaire augmentent généralement l'avoir propre.
-- L'avoir propre est distinct du chiffre d'affaires et du profit — il reflète la valeur globale de propriété, pas le flux de revenus.
+## Réponses et explications
 
+### Question 1
+Bonne réponse : B. Le nombre de propriétaires et les besoins de protection de la responsabilité sont des questions de départ essentielles.
+
+### Question 2
+Bonne réponse : Faux. Il s’agit d’un cadre général, et non d’un substitut à un conseil professionnel.
+
+### Question 3
+Bonne réponse : B. Ce profil oriente couramment vers une LLC.
+
+## Points clés
+
+- Questions de départ clés : nombre de propriétaires, besoins de protection de la responsabilité, type de profession et projets d’obtention de capitaux.
+- Ces questions réduisent les options, mais ne remplacent pas un conseil professionnel.
+- Ce cadre se rattache directement aux structures vues plus tôt dans ce niveau.

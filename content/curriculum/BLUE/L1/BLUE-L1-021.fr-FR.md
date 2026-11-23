@@ -1,51 +1,184 @@
 ---
-translationStatus: owner-accepted
-translationNote: "Translated from the earlier, shorter English version; retranslation of the expanded lesson is queued."
 id: BLUE-L1-021
 track: BLUE
 officialTrackName: Business
 level: 1
 lessonNumber: 21
 locale: fr-FR
-title: "Lire un Compte de Résultat Simple"
-summary: "Un compte de résultat montre généralement : le chiffre d'affaires (ventes totales), moins le coût des marchandises vendues (coûts directs de production de ce qui a été vendu), égale le bénéfice brut ; moins les dépenses d'exploitation (loyer, salaires, marketing, et similaires), égale le bénéfice net."
+title: "Qu’est-ce qu’un EIN (numéro d’identification d’employeur)?"
+summary: "Explique ce qu’est un EIN, pourquoi même une entreprise sans employés en a souvent besoin, et comment il sépare l’identité de l’entreprise de l’identité personnelle du propriétaire."
 version: "1.0"
 author: Waldemar M. Caban, JD MA
 date: 2026-08-08
 ---
 
-# BLUE-L1-021 : Lire un Compte de Résultat Simple
+# BLUE-L1-021 : Qu’est-ce qu’un EIN (numéro d’identification d’employeur)?
 
-## Objectifs d'Apprentissage
-1. Identifier la structure de base d'un compte de résultat.
-2. Expliquer ce que représente chaque ligne principale.
-3. Calculer le bénéfice net à partir d'un exemple simple.
+**Volet :** BLUE (Entreprise)
+**Niveau :** 1 — Sensibilisation et littératie
+**ID de la leçon :** BLUE-L1-021
+**Auteur :** Waldemar M. Caban, JD MA
+**Durée estimée :** 15 à 20 minutes
+**Difficulté :** Débutant
 
-## Contenu Principal
-*FAIT VÉRIFIÉ :* Un compte de résultat montre généralement : le chiffre d'affaires (ventes totales), moins le coût des marchandises vendues (coûts directs de production de ce qui a été vendu), égale le bénéfice brut ; moins les dépenses d'exploitation (loyer, salaires, marketing, et similaires), égale le bénéfice net.
+---
 
-*HYPOTHÈSE :* Ce compte couvre généralement une période spécifique — un mois, un trimestre, ou une année — et c'est l'un des documents les plus couramment examinés pour comprendre si une entreprise est fondamentalement rentable sur cette période.
+## Résumé
+`BLUE-L1-021-MAIN`
+[RÈGLE PROPRE À LA RÉGION] L’EIN est une notion propre aux États-Unis; les autres pays utilisent des systèmes différents d’identification fiscale des entreprises. Cette leçon explique ce qu’est un EIN et pourquoi même une entreprise sans employés en a souvent besoin.
 
-## Exemple Pratique
-*EXEMPLE ILLUSTRATIF :* Une petite boutique a 100 000 $ de chiffre d'affaires pour l'année. Le coût des marchandises vendues est de 40 000 $, donnant un bénéfice brut de 60 000 $. Les dépenses d'exploitation (loyer, salaires, charges) totalisent 45 000 $. Bénéfice Net = 60 000 $ − 45 000 $ = 15 000 $. Ce chiffre indique au propriétaire combien l'entreprise a gagné après tous les coûts pour l'année.
+## Objectifs d’apprentissage
+- Définir un EIN et son objectif de base
+- Expliquer pourquoi des entreprises sans employés peuvent quand même en avoir besoin
+- Comprendre le lien entre un EIN et une identité d’entreprise distincte de l’identité personnelle du propriétaire
 
-## Quiz Pratique
-1. Que montre généralement un compte de résultat ?
-2. Qu'est-ce que le bénéfice brut ?
-3. Si le chiffre d'affaires est de 80 000 $, le coût des marchandises vendues de 30 000 $, et les dépenses d'exploitation de 35 000 $, quel est le bénéfice net ?
-4. Quelle période couvre typiquement un compte de résultat ?
+## Préalables
+BLUE-L1-003, BLUE-L1-004
+
+## Durée estimée
+15 à 20 minutes
+
+## Difficulté
+Débutant (niveau 1)
+
+---
+
+## Contenu principal
+
+### Thème 1 : Ce qu’est un EIN
+[RÈGLE PROPRE À LA RÉGION] Un numéro d’identification d’employeur (Employer Identification Number, ou EIN) est un numéro unique attribué par le gouvernement fédéral américain pour identifier une entreprise aux fins de l’impôt — il fonctionne de façon semblable à la manière dont un numéro de sécurité sociale identifie une personne.
+
+### Thème 2 : Un nom trompeur
+Malgré le mot « employeur » dans son nom, [RÈGLE PROPRE À LA RÉGION] de nombreuses entreprises sans aucun employé en obtiennent un — pour ouvrir un compte bancaire d’entreprise, remplir certains formulaires fiscaux ou simplement garder l’identification de l’entreprise distincte du numéro de sécurité sociale personnel du propriétaire.
+
+### Thème 3 : Pourquoi la séparation compte
+[EXEMPLE ILLUSTRATIF] Un propriétaire d’entreprise individuelle qui utilise un EIN plutôt que son numéro de sécurité sociale personnel pour ses opérations bancaires d’entreprise et les formulaires de ses fournisseurs réduit la fréquence à laquelle son numéro d’identification personnel circule, ce qui peut être une considération importante en matière de vie privée et de protection de l’identité.
+
+### Thème 4 : Qui en a habituellement besoin
+[RÈGLE PROPRE À LA RÉGION] Les entreprises qui ont des employés ont généralement besoin d’un EIN. De nombreuses LLC, sociétés par actions et sociétés de personnes en ont besoin, peu importe le nombre d’employés. Certains propriétaires d’entreprise individuelle sans employés peuvent parfois exercer avec leur numéro de sécurité sociale, mais beaucoup choisissent quand même un EIN pour les avantages de séparation décrits ci-dessus.
+
+---
+
+## Définitions clés
+- **EIN (numéro d’identification d’employeur) :** Un numéro unique attribué par le gouvernement fédéral américain pour identifier une entreprise aux fins de l’impôt, qu’elle emploie ou non des personnes.
+
+## Exemples pratiques
+[EXEMPLE ILLUSTRATIF] Une LLC à membre unique sans employés obtient un EIN précisément pour que le compte bancaire de l’entreprise ne soit pas directement lié au numéro de sécurité sociale personnel du propriétaire.
+
+## Erreurs courantes
+- Supposer que le mot « employeur » dans le nom signifie que seules les entreprises qui ont des employés en ont besoin
+- Utiliser un numéro de sécurité sociale personnel à des fins d’affaires alors qu’un EIN offrirait une meilleure séparation
+- Supposer que cette notion s’applique hors des États-Unis sans vérifier les équivalents locaux
+
+## FAQ
+**Q : Obtenir un EIN coûte-t-il de l’argent?**
+R : [RÈGLE PROPRE À LA RÉGION, FAIT VÉRIFIÉ] Selon les connaissances générales, obtenir un EIN directement auprès du gouvernement fédéral américain est habituellement gratuit; des frais apparaissent parfois lorsqu’on fait appel à des services tiers pour faire la demande à sa place, ce qui est inutile pour la plupart des demandeurs.
+
+**Q : Les propriétaires d’entreprise individuelle sans employés en ont-ils parfois besoin?**
+R : [RÈGLE PROPRE À LA RÉGION] Ce n’est pas toujours obligatoire, mais ils en obtiennent souvent un quand même pour les avantages de séparation d’identité et les avantages bancaires décrits au thème 3.
+
+## Points clés
+- Un EIN identifie une entreprise américaine aux fins de l’impôt, comme un numéro de sécurité sociale personnel
+- Les entreprises sans aucun employé en obtiennent souvent un quand même, malgré son nom
+- Utiliser un EIN plutôt qu’un numéro personnel offre des avantages de séparation d’identité
+- Les exigences varient selon la structure de l’entreprise et le fait d’avoir ou non des employés
+
+## Exercice pratique
+Expliquez dans vos propres mots pourquoi un propriétaire d’entreprise individuelle sans employés pourrait quand même vouloir un EIN.
+
+---
+
+## Guide d’enseignement socratique
+`BLUE-L1-021-SOCRATIC` (niveau 1 — « Quoi »)
+
+1. **Question d’ouverture :** Le nom « numéro d’identification d’employeur » vous dit-il tout sur qui en a besoin?
+2. **Notion 1 — Définition :** Qu’est-ce qu’un EIN identifie, et dans quel but?
+3. **Suivi :** En quoi ressemble-t-il à un numéro de sécurité sociale personnel?
+4. **Notion 2 — Le nom trompeur :** Pourquoi une entreprise sans aucun employé pourrait-elle quand même en vouloir un?
+5. **Suivi :** Nommez un usage pratique d’un EIN autre que le fait d’avoir des employés.
+6. **Notion 3 — L’avantage de la séparation :** Quel avantage en matière de vie privée ou d’identité l’utilisation d’un EIN procure-t-elle?
+7. **Suivi :** Quels renseignements personnels aide-t-il à garder hors de circulation?
+8. **Notion 4 — Qui en a habituellement besoin :** Quelles structures d’entreprise ont généralement besoin d’un EIN, peu importe le nombre d’employés?
+9. **Synthèse :** Obtiendriez-vous personnellement un EIN pour une entreprise hypothétique exploitée seul, sans employés? Pourquoi?
+10. **Réflexion :** Pourquoi est-il important de se rappeler que cette notion est propre aux États-Unis?
+
+## Évaluation des compétences
+`BLUE-L1-021-ASSESSMENT`
+
+1. (Choix multiple) Un EIN identifie : A) Une personne aux fins du vote B) Une entreprise aux fins de l’impôt C) Un produit aux fins de l’expédition D) Un bien aux fins du zonage
+2. (Vrai ou faux) Seules les entreprises qui ont des employés peuvent obtenir un EIN ou en ont besoin.
+3. (Choix multiple) Pourquoi un propriétaire d’entreprise individuelle sans employés pourrait-il quand même vouloir un EIN? A) C’est légalement obligatoire pour tout le monde B) Pour séparer l’identité de l’entreprise de son numéro de sécurité sociale personnel C) Il remplace le besoin d’un compte bancaire D) Il élimine tous les impôts
+4. (Réponse courte) Expliquez l’avantage de séparation d’identité que procure l’utilisation d’un EIN.
+5. (Mise en situation) Une LLC à membre unique sans employés veut ouvrir un compte bancaire d’entreprise. Pourquoi pourrait-elle avoir besoin d’un EIN?
+6. (Choix multiple) Quelles structures d’entreprise ont généralement besoin d’un EIN, peu importe le nombre d’employés? A) Seulement les entreprises individuelles B) De nombreuses LLC, sociétés par actions et sociétés de personnes C) Seulement les organismes sans but lucratif D) Aucune
+7. (Vrai ou faux) Obtenir un EIN directement auprès du gouvernement fédéral américain entraîne habituellement des frais.
+8. (Réponse courte) Pourquoi est-il important de noter que la notion d’EIN est propre à une région?
+9. (Choix multiple) Par sa fonction, un EIN ressemble le plus à : A) Une marque de commerce B) Un numéro de sécurité sociale, mais pour une entreprise C) Un permis d’exploitation D) Un certificat d’actions
+10. (Réflexion) Pourquoi le nom « numéro d’identification d’employeur » pourrait-il créer de la confusion sur qui en a réellement besoin?
 
 ## Corrigé
-1. Le chiffre d'affaires, les coûts, et le profit résultant sur une période   2. Le chiffre d'affaires moins le coût des marchandises vendues   3. 15 000 $   4. Une période spécifique, comme un mois, un trimestre, ou une année
+`BLUE-L1-021-ANSWER-KEY`
 
-## Réponses et Explications
-1. Ceci est la structure générale d'un compte de résultat.
-2. Ceci est la définition standard du bénéfice brut.
-3. 80 000 $ − 30 000 $ = 50 000 $ de bénéfice brut ; 50 000 $ − 35 000 $ = 15 000 $ de bénéfice net.
-4. Les comptes de résultat sont propres à une période, pas un instantané d'un seul moment.
+1. **Bonne réponse :** B. **Explication :** Énoncé directement au thème 1. **Compétence évaluée :** Rappel.
+2. **Bonne réponse :** Faux. **Explication :** Le thème 2 explique que de nombreuses entreprises sans employés en obtiennent un. **Compétence évaluée :** Correction d’une idée fausse.
+3. **Bonne réponse :** B. **Explication :** Énoncé au thème 3. **Compétence évaluée :** Rappel.
+4. **Bonne réponse :** Il réduit la fréquence à laquelle le numéro de sécurité sociale personnel du propriétaire circule dans un contexte d’affaires. **Compétence évaluée :** Synthèse.
+5. **Bonne réponse :** Pour ouvrir un compte bancaire d’entreprise sans utiliser un numéro de sécurité sociale personnel. **Compétence évaluée :** Raisonnement appliqué.
+6. **Bonne réponse :** B. **Explication :** Énoncé au thème 4. **Compétence évaluée :** Rappel.
+7. **Bonne réponse :** Faux. **Explication :** La FAQ indique qu’il est habituellement gratuit lorsqu’on l’obtient directement auprès du gouvernement. **Compétence évaluée :** Correction d’une idée fausse.
+8. **Bonne réponse :** Parce que cette notion ne s’applique pas de la même façon dans d’autres pays, qui ont des systèmes différents. **Compétence évaluée :** Synthèse approfondie.
+9. **Bonne réponse :** B. **Explication :** Énoncé dans la FAQ. **Compétence évaluée :** Rappel.
+10. **Bonne réponse :** Les réponses devraient souligner que le mot « employeur » laisse croire que seules les entreprises qui ont des employés y ont droit, ce que la leçon corrige. **Compétence évaluée :** Synthèse approfondie.
 
-## Points Clés à Retenir
-- Un compte de résultat montre le chiffre d'affaires, les coûts, et le profit résultant sur une période.
-- Le bénéfice brut soustrait le coût des marchandises vendues ; le bénéfice net soustrait en plus les dépenses d'exploitation.
-- C'est un document clé pour comprendre la rentabilité fondamentale d'une entreprise.
+## Norme de compétence
+`BLUE-L1-021-COMPETENCY`
 
+COMPÉTENCES ENSEIGNÉES : Définition et objectif de l’EIN; correction de l’idée fausse sur l’exigence d’avoir des employés; justification de la séparation d’identité.
+COMPÉTENCES MESURÉES : Rappel des définitions; correction des idées fausses; raisonnement appliqué.
+SEUIL DE MAÎTRISE MINIMAL : 80 %
+TÂCHE PRATIQUE OBLIGATOIRE : Réalisation de l’exercice pratique.
+SUJETS DE RATTRAPAGE : Revoir les thèmes 2 et 3 en cas d’erreur aux questions 2, 3 ou 5.
+LEÇON SUIVANTE DÉBLOQUÉE : BLUE-L1-022
+VOLETS CONNEXES : GREEN (Impôts) — l’identification fiscale et la production des déclarations sont approfondies aux niveaux supérieurs du volet GREEN.
+
+## Lectures complémentaires
+- BLUE-L1-004 — Qu’est-ce qu’une LLC?
+- BLUE-L1-022 — Qu’est-ce qu’un compte bancaire d’entreprise, et pourquoi ne pas simplement utiliser votre compte personnel?
+
+## Parcours de la leçon
+`BLUE-L1-021-LOCALIZATION` (bloc de parcours)
+LEÇON PRÉCÉDENTE : BLUE-L1-020
+LEÇON SUIVANTE : BLUE-L1-022
+PRÉALABLES OBLIGATOIRES : BLUE-L1-003, BLUE-L1-004
+LEÇONS DE RÉVISION FACULTATIVES : BLUE-L1-003
+LEÇONS DE RATTRAPAGE : BLUE-L1-003
+LEÇONS CONNEXES D’AUTRES VOLETS : Aucune encore publiée au niveau 1 du volet GREEN (référence anticipée seulement)
+CONDITION D’ACHÈVEMENT DU NIVEAU : Terminer toutes les leçons BLUE-L1 (001 à 050) et réussir l’évaluation des compétences du niveau 1.
+
+## Bloc SEO
+`BLUE-L1-021-SEO`
+Titre SEO : Qu’est-ce qu’un EIN? En avez-vous besoin sans employés? | Edunancial
+Méta-description : Découvrez ce qu’est un EIN, pourquoi de nombreuses entreprises sans employés en obtiennent un, et comment il sépare l’identité de l’entreprise et l’identité personnelle.
+Adresse URL suggérée : /courses/business/level-1/what-is-an-ein
+Mot-clé principal : qu’est-ce qu’un EIN
+Mots-clés secondaires : EIN sans employés, numéro d’identification d’employeur expliqué
+Liens internes suggérés : BLUE-L1-004, BLUE-L1-022
+Références externes suggérées : Ressources de l’autorité fiscale fédérale américaine (pour les apprenants aux États-Unis)
+Schéma recommandé : Schéma Course + LearningResource
+Intention de recherche : Informative, niveau débutant
+Possibilité d’extrait optimisé : « Ai-je besoin d’un EIN si je n’ai pas d’employés? »
+Questions pour le schéma FAQ : « Un EIN coûte-t-il de l’argent? »; « Les propriétaires d’entreprise individuelle ont-ils besoin d’un EIN? »
+
+## Bloc de soutien IA
+`BLUE-L1-021-AI`
+Résumé IA : Présente l’EIN comme un numéro d’identification fiscale des entreprises aux États-Unis, corrige l’idée fausse selon laquelle seuls les employeurs en ont besoin, et explique ses avantages de séparation d’identité.
+Notes d’enseignement IA : Toute cette leçon est propre aux États-Unis — le signaler clairement et préciser aux apprenants hors des États-Unis que les équivalents locaux diffèrent.
+
+## Bloc de localisation
+`BLUE-L1-021-LOCALIZATION`
+État de la traduction : Version française (fr-FR) fidèle à la source anglaise.
+Note de localisation (fr-FR) : Il s’agit d’un système propre aux États-Unis. En France, les entreprises sont plutôt identifiées par un numéro SIREN (et un numéro SIRET pour chaque établissement), attribué par l’INSEE lors de l’immatriculation; vérifiez les exigences en vigueur auprès des autorités ou d’un professionnel.
+
+## Bloc de références et de vérification
+`BLUE-L1-021-REFERENCES`
+Aucune statistique ni citation externe utilisée. Toute la leçon porte la mention RÈGLE PROPRE À LA RÉGION (système fédéral américain); l’affirmation liée au coût porte la mention FAIT VÉRIFIÉ à un niveau général.

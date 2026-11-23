@@ -5,45 +5,74 @@ officialTrackName: Business
 level: 1
 lessonNumber: 7
 locale: fr-CA
-title: "Qu'est-ce Qu'un Plan d'Affaires?"
-summary: "Un plan d'affaires est un document écrit qui décrit ce que fait une entreprise, comment elle compte gagner de l'argent, et comment elle prévoit fonctionner et croître. *FAIT VÉRIFIÉ :* Les sections courantes incluent un résumé exécutif, une description du produit ou du service, une étude de marché, un plan marketing et de vente, un plan opérationnel, et des projections financières."
+title: "Qu’est-ce qu’une société par actions?"
+summary: "Découvrez ce qu’est une société par actions, en quoi sa structure diffère de celle d’une LLC, et pourquoi elle est traitée comme sa propre « personne » juridique."
 version: "1.0"
 author: Waldemar M. Caban, JD MA
 date: 2026-08-08
 ---
 
-# BLUE-L1-007 : Qu'est-ce Qu'un Plan d'Affaires?
+# Qu’est-ce qu’une société par actions?
 
-## Objectifs d'Apprentissage
-1. Définir un plan d'affaires et son objectif général.
-2. Identifier les sections essentielles qu'un plan d'affaires inclut typiquement.
-3. Expliquer pour qui un plan d'affaires est habituellement rédigé.
+## Objectifs d’apprentissage
 
-## Contenu Principal
-Un plan d'affaires est un document écrit qui décrit ce que fait une entreprise, comment elle compte gagner de l'argent, et comment elle prévoit fonctionner et croître. *FAIT VÉRIFIÉ :* Les sections courantes incluent un résumé exécutif, une description du produit ou du service, une étude de marché, un plan marketing et de vente, un plan opérationnel, et des projections financières.
+À la fin de cette leçon, vous devriez pouvoir :
 
-*HYPOTHÈSE :* Les plans d'affaires servent généralement deux publics : le propriétaire, comme outil de planification et de réflexion, et des tiers externes comme des prêteurs ou des investisseurs, qui l'utilisent pour évaluer si l'entreprise est assez viable pour être financée.
+- Définir une société par actions en termes simples.
+- Expliquer ce que signifie le fait qu’une société par actions soit sa propre « personne » juridique.
+- Expliquer une conséquence pratique de ce statut juridique distinct.
 
-## Exemple Pratique
-*EXEMPLE ILLUSTRATIF :* Avant d'ouvrir un camion de cuisine de rue, Sam rédige un plan d'affaires estimant les coûts de démarrage, projetant des ventes mensuelles basées sur des entreprises locales semblables, et esquissant un plan marketing pour les réseaux sociaux. Quand il demande plus tard un prêt pour petite entreprise, la banque lui demande de voir exactement ce document — le même plan qui l'a aidé à réfléchir à son entreprise aide maintenant à convaincre un prêteur qu'elle mérite d'être financée.
+## Contenu principal
 
-## Quiz Pratique
-1. Qu'est-ce qu'un plan d'affaires?
-2. Nomme deux sections couramment incluses dans un plan d'affaires.
-3. Vrai/Faux : Un plan d'affaires n'est utile que pour obtenir un financement externe.
-4. Quels sont les deux publics généraux d'un plan d'affaires?
+### Une personne juridique à part entière
+
+Une société par actions est une structure d’entreprise qui crée une entité juridique entièrement distincte de ses propriétaires (les actionnaires) — séparée de façon plus formelle, à bien des égards, qu’une LLC. La loi traite une société par actions presque comme sa propre « personne » : elle peut posséder des biens, conclure des contrats, poursuivre et être poursuivie, indépendamment des personnes qui en sont propriétaires.
+
+### Pourquoi « sa propre personne » compte
+
+Demandez-vous : si le propriétaire d’une société par actions décède, l’entreprise prend-elle automatiquement fin? Généralement pas — comme la société existe en tant qu’entité juridique distincte, elle peut continuer indépendamment de la vie d’un propriétaire en particulier, contrairement à certaines structures plus simples.
+
+### Une conséquence pratique : la propriété par actions
+
+Les sociétés par actions sont détenues au moyen d’actions, notion présentée dans le volet WHITE — c’est le lien direct entre « posséder des actions » et cette structure d’entreprise. Une société peut avoir un seul actionnaire ou des millions, et les actions peuvent être achetées et vendues sans nécessairement perturber l’entreprise sous-jacente.
+
+## Exemple pratique
+
+Imaginez une société par actions familiale dont le fondateur décède. Demandez-vous : l’entreprise cesse-t-elle d’exister sur le plan juridique? Comme la société est sa propre entité juridique, la propriété des actions est simplement transférée (par héritage, par vente ou autrement) — la société elle-même continue d’exister, indépendamment de la vie d’une seule personne.
+
+## Quiz pratique
+
+1. Une société par actions se décrit le mieux comme :
+   A. La même entité juridique que ses propriétaires
+   B. Une entité juridique distincte de ses propriétaires
+   C. Une structure offerte seulement aux grandes entreprises
+   D. Un type d’entreprise individuelle
+2. Vrai ou faux : une société par actions cesse généralement d’exister si un seul propriétaire décède.
+3. Comment la propriété d’une société par actions est-elle habituellement structurée?
+   A. Au moyen d’un titre unique, non transférable
+   B. Au moyen d’actions, qui peuvent être détenues par un ou plusieurs actionnaires
+   C. Les sociétés par actions ne peuvent appartenir à personne
+   D. La propriété est déterminée chaque année par le gouvernement
 
 ## Corrigé
-1. Un document écrit décrivant ce que fait une entreprise et comment elle prévoit fonctionner et croître   2. Résumé exécutif, projections financières (entre autres)   3. Faux   4. Le propriétaire (comme outil de planification) et des tiers externes comme les prêteurs ou les investisseurs
 
-## Réponses et Explications
-1. Ceci est la définition centrale d'un plan d'affaires.
-2. Ce sont des sections standard trouvées dans la plupart des plans d'affaires.
-3. Les plans d'affaires sont aussi précieux en interne, comme outil de planification et de réflexion pour le propriétaire.
-4. Les plans d'affaires servent couramment à la fois la planification interne et les besoins de financement externe.
+1. B
+2. Faux
+3. B
 
-## Points Clés à Retenir
-- Un plan d'affaires décrit ce que fait une entreprise et comment elle compte fonctionner et croître.
-- Les sections courantes incluent l'étude de marché, les opérations, et les projections financières.
-- Les plans d'affaires servent à la fois la propre planification du propriétaire et des publics externes comme les prêteurs.
+## Réponses et explications
 
+### Question 1
+Bonne réponse : B. Une société par actions est juridiquement distincte de ses propriétaires.
+
+### Question 2
+Bonne réponse : Faux. La société continue généralement d’exister indépendamment de la vie d’un propriétaire en particulier.
+
+### Question 3
+Bonne réponse : B. La propriété est structurée au moyen d’actions.
+
+## Points clés
+
+- Une société par actions est sa propre entité juridique, distincte de ses propriétaires.
+- Elle peut continuer d’exister indépendamment d’un propriétaire en particulier.
+- La propriété est structurée au moyen d’actions, ce qui la rattache au volet WHITE.

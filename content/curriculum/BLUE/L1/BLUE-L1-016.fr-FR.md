@@ -5,45 +5,74 @@ officialTrackName: Business
 level: 1
 lessonNumber: 16
 locale: fr-FR
-title: "Stratégie de Prix — Une Introduction"
-summary: "La stratégie de prix est la manière dont une entreprise décide ce qu'elle va facturer pour son produit ou service. *FAIT VÉRIFIÉ :* Trois grandes approches sont couramment utilisées : la tarification basée sur les coûts (partant de ce qu'il en coûte de produire, puis ajoutant une marge), la tarification basée sur la valeur (partant de ce que le client pense que l'offre vaut), et la tarification concurrentielle (fixant le prix par rapport à ce que facturent les concurrents)."
+title: "Qu’est-ce que les flux de trésorerie d’une entreprise? (Pourquoi des entreprises rentables manquent quand même d’argent)"
+summary: "Découvrez ce que signifient les flux de trésorerie pour une entreprise, et pourquoi être rentable sur papier ne garantit pas d’avoir des liquidités au moment où on en a besoin."
 version: "1.0"
 author: Waldemar M. Caban, JD MA
 date: 2026-08-08
 ---
 
-# BLUE-L1-016 : Stratégie de Prix — Une Introduction
+# Qu’est-ce que les flux de trésorerie d’une entreprise? (Pourquoi des entreprises rentables manquent quand même d’argent)
 
-## Objectifs d'Apprentissage
-1. Définir la stratégie de prix.
-2. Identifier les trois grandes approches de fixation des prix.
-3. Expliquer pourquoi le prix affecte plus que le seul chiffre d'affaires.
+## Objectifs d’apprentissage
 
-## Contenu Principal
-La stratégie de prix est la manière dont une entreprise décide ce qu'elle va facturer pour son produit ou service. *FAIT VÉRIFIÉ :* Trois grandes approches sont couramment utilisées : la tarification basée sur les coûts (partant de ce qu'il en coûte de produire, puis ajoutant une marge), la tarification basée sur la valeur (partant de ce que le client pense que l'offre vaut), et la tarification concurrentielle (fixant le prix par rapport à ce que facturent les concurrents).
+À la fin de cette leçon, vous devriez pouvoir :
 
-*HYPOTHÈSE :* Le prix affecte plus que le seul chiffre d'affaires — il façonne aussi la façon dont les clients perçoivent la qualité, qui l'entreprise attire comme clients, et comment elle se positionne par rapport aux concurrents, donc les décisions de prix sont rarement une simple question d'arithmétique.
+- Définir les flux de trésorerie dans un contexte d’entreprise.
+- Expliquer pourquoi le bénéfice et les flux de trésorerie ne sont pas la même chose.
+- Expliquer comment des décalages dans le temps peuvent créer de réels problèmes de liquidités.
 
-## Exemple Pratique
-*EXEMPLE ILLUSTRATIF :* Deux cafés vendent un café presque identique. L'un fixe des prix bas pour concurrencer sur l'accessibilité et attirer un volume élevé ; l'autre fixe des prix élevés, investissant dans le décor et le service pour se positionner comme une expérience haut de gamme. Aucun des deux prix n'est « faux » — chacun reflète une stratégie différente quant à qui l'entreprise veut comme client et comment elle veut être perçue.
+## Contenu principal
 
-## Quiz Pratique
-1. Qu'est-ce que la stratégie de prix ?
-2. Nomme les trois grandes approches de fixation des prix.
-3. Vrai/Faux : Le prix n'affecte que le chiffre d'affaires, pas la perception du client.
-4. Que peuvent faire différemment deux entreprises vendant un produit similaire à travers leurs prix ?
+### Ce que signifient les flux de trésorerie
+
+Les flux de trésorerie désignent le mouvement réel de l’argent qui entre dans une entreprise et qui en sort — non pas le bénéfice comptable, mais l’argent réellement disponible à un moment donné.
+
+### Posez-vous cette question
+
+Une entreprise peut-elle être rentable sur papier et ne pas avoir assez de liquidités pour payer ses factures cette semaine? Oui — et c’est l’une des leçons les plus contre-intuitives et les plus importantes de la gestion d’une entreprise. Le bénéfice se calcule sur une période; les flux de trésorerie sont une question de moment, d’instant en instant.
+
+### Comment les décalages dans le temps créent de réels problèmes
+
+Si une entreprise vend une grosse commande, mais que le client ne paie qu’au bout de 60 jours, alors que les fournisseurs et le loyer de l’entreprise doivent être payés dans 30 jours, l’entreprise peut être rentable sur papier (la vente compte comme un revenu) et quand même manquer de liquidités réelles pour payer ses propres factures entre-temps.
+
+## Exemple pratique
+
+Une entreprise décroche un excellent nouveau contrat de 50 000 € — clairement une affaire rentable. Mais le client paie 60 jours après la livraison, alors que l’entreprise a dû payer d’avance les matériaux et la main-d’œuvre. Demandez-vous : le fait que ce contrat soit rentable garantit-il que l’entreprise aura les liquidités nécessaires pour verser la paie la semaine prochaine? Pas nécessairement — le décalage dans le temps est le vrai danger, indépendamment du fait que l’affaire elle-même soit bonne.
+
+## Quiz pratique
+
+1. Les flux de trésorerie désignent :
+   A. La même chose que le bénéfice comptable
+   B. Le mouvement réel de l’argent qui entre dans une entreprise et qui en sort
+   C. Le total des revenus annuels d’une entreprise
+   D. Un type de permis d’exploitation
+2. Vrai ou faux : une entreprise rentable ne peut jamais manquer de liquidités.
+3. Qu’est-ce qui peut créer un réel problème de flux de trésorerie, même pour une affaire rentable?
+   A. Rien — le bénéfice garantit des liquidités disponibles
+   B. Un décalage entre le moment où les dépenses sont payées et celui où les revenus sont réellement encaissés
+   C. Le fait d’avoir trop de frais généraux
+   D. Le fait d’avoir trop peu de clients
 
 ## Corrigé
-1. La manière dont une entreprise décide ce qu'elle va facturer   2. Basée sur les coûts, basée sur la valeur, concurrentielle   3. Faux   4. Se positionner différemment et attirer différents types de clients
 
-## Réponses et Explications
-1. Ceci est la définition fondamentale de la stratégie de prix.
-2. Ce sont les trois grandes approches de fixation des prix couramment citées.
-3. Le prix façonne aussi la perception de la qualité et le positionnement sur le marché.
-4. Des prix différents reflètent des choix stratégiques différents concernant le positionnement et le client cible.
+1. B
+2. Faux
+3. B
 
-## Points Clés à Retenir
-- La stratégie de prix détermine ce qu'une entreprise facture et pourquoi.
-- La tarification basée sur les coûts, sur la valeur, et concurrentielle sont les trois grandes approches.
-- Le prix façonne la perception du client et le positionnement sur le marché, pas seulement le chiffre d'affaires.
+## Réponses et explications
 
+### Question 1
+Bonne réponse : B. Les flux de trésorerie sont le mouvement réel de l’argent, distinct du bénéfice comptable.
+
+### Question 2
+Bonne réponse : Faux. Les décalages entre les dépenses et les encaissements peuvent créer de réelles pénuries de liquidités, même dans les entreprises rentables.
+
+### Question 3
+Bonne réponse : B. Les décalages entre le paiement des dépenses et l’encaissement des revenus sont le danger central.
+
+## Points clés
+
+- Les flux de trésorerie sont le mouvement réel de l’argent, distinct du bénéfice comptable.
+- Une entreprise rentable peut quand même manquer de liquidités en raison du moment des entrées et des sorties.
+- Les décalages entre les dépenses et les encaissements sont un risque réel et courant.

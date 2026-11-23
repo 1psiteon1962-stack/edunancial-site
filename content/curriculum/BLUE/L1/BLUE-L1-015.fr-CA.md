@@ -5,45 +5,74 @@ officialTrackName: Business
 level: 1
 lessonNumber: 15
 locale: fr-CA
-title: "Les Bases de la Fidélisation de Clients"
-summary: "La fidélisation de clients est la capacité d'une entreprise à faire en sorte que ses clients continuent d'acheter chez elle dans le temps, plutôt que de faire un seul achat et de ne jamais revenir. *ESTIMATION :* Acquérir un nouveau client est couramment cité comme coûtant significativement plus cher que fidéliser un client existant, bien que le rapport exact varie largement selon le secteur et le modèle d'affaires."
+title: "Qu’est-ce que le seuil de rentabilité?"
+summary: "Découvrez ce que signifie le seuil de rentabilité, comment il se calcule à un niveau de base, et pourquoi il compte avant qu’une entreprise réalise un bénéfice."
 version: "1.0"
 author: Waldemar M. Caban, JD MA
 date: 2026-08-08
 ---
 
-# BLUE-L1-015 : Les Bases de la Fidélisation de Clients
+# Qu’est-ce que le seuil de rentabilité?
 
-## Objectifs d'Apprentissage
-1. Définir la fidélisation de clients.
-2. Expliquer pourquoi fidéliser des clients coûte généralement moins cher qu'en acquérir de nouveaux.
-3. Identifier des moyens courants par lesquels les entreprises encouragent la clientèle récurrente.
+## Objectifs d’apprentissage
 
-## Contenu Principal
-La fidélisation de clients est la capacité d'une entreprise à faire en sorte que ses clients continuent d'acheter chez elle dans le temps, plutôt que de faire un seul achat et de ne jamais revenir. *ESTIMATION :* Acquérir un nouveau client est couramment cité comme coûtant significativement plus cher que fidéliser un client existant, bien que le rapport exact varie largement selon le secteur et le modèle d'affaires.
+À la fin de cette leçon, vous devriez pouvoir :
 
-*HYPOTHÈSE :* Les approches de fidélisation courantes incluent un bon service à la clientèle, des programmes de fidélité, une qualité constante, et le maintien du contact via des canaux comme le courriel — la combinaison spécifique dépend du type d'entreprise et de ses clients.
+- Définir le seuil de rentabilité en termes simples.
+- Expliquer, de façon conceptuelle, ce qui doit se produire pour qu’une entreprise l’atteigne.
+- Expliquer pourquoi connaître ce chiffre compte avant l’ouverture.
 
-## Exemple Pratique
-*EXEMPLE ILLUSTRATIF :* Un coiffeur pourrait dépenser de l'argent en publicités pour attirer un nouveau client pour une seule visite, ou se concentrer sur la qualité et l'amabilité pour que ce même client réserve un rendez-vous de suivi et recommande des amis. La deuxième voie coûte généralement moins cher dans le temps et bâtit une base plus stable de clientèle récurrente, plutôt que d'exiger des dépenses constantes juste pour maintenir l'agenda plein.
+## Contenu principal
 
-## Quiz Pratique
-1. Qu'est-ce que la fidélisation de clients?
-2. Acquérir un nouveau client est-il généralement plus ou moins coûteux que fidéliser un client existant?
-3. Nomme deux approches de fidélisation courantes.
-4. Vrai/Faux : La fidélisation et l'acquisition ne sont pas liées entre elles en pratique.
+### Ce que signifie le seuil de rentabilité
+
+Le seuil de rentabilité est le niveau de ventes auquel les revenus totaux d’une entreprise sont exactement égaux à ses coûts totaux — ni bénéfice, ni perte, le point de bascule exact entre les deux.
+
+### Ce qui doit se produire pour l’atteindre
+
+Demandez-vous : sous ce seuil, l’entreprise gagne-t-elle ou perd-elle de l’argent? Sous le seuil de rentabilité, les dépenses dépassent les revenus — c’est une perte. Au-dessus, les revenus dépassent les dépenses — c’est un bénéfice. Cela se rattache directement aux frais généraux (les coûts fixes qui doivent être couverts peu importe le volume des ventes) vus il y a deux leçons.
+
+### Pourquoi connaître ce chiffre compte avant l’ouverture
+
+Un propriétaire d’entreprise qui connaît son seuil de rentabilité dès le départ a une cible concrète et précise — et pas seulement un vague espoir que « les ventes seront assez bonnes ». Sans ce chiffre, il est facile de sous-estimer combien il faut vendre simplement pour cesser de perdre de l’argent, sans parler de commencer à réaliser un bénéfice.
+
+## Exemple pratique
+
+Un petit commerce a 3 000 $ par mois de frais généraux et dégage environ 15 $ de profit par article vendu au-delà de ses coûts directs. Demandez-vous : combien d’articles doit-il vendre approximativement chaque mois simplement pour atteindre son seuil de rentabilité? 3 000 $ ÷ 15 $ = 200 articles — un chiffre concret auquel le propriétaire peut comparer ses ventes réelles, plutôt que d’espérer simplement que tout se passe bien.
+
+## Quiz pratique
+
+1. Le seuil de rentabilité est :
+   A. Le point où une entreprise réalise son bénéfice maximal
+   B. Le niveau de ventes où les revenus totaux sont égaux aux coûts totaux
+   C. Le total des frais généraux de l’entreprise
+   D. Un type de permis d’exploitation
+2. Vrai ou faux : sous le seuil de rentabilité, une entreprise réalise un bénéfice.
+3. Pourquoi connaître le seuil de rentabilité compte-t-il avant d’ouvrir une entreprise?
+   A. Cela ne compte pas du tout
+   B. Il donne une cible de ventes concrète plutôt qu’un vague espoir
+   C. Il garantit le succès de l’entreprise
+   D. Il élimine le besoin d’un plan d’affaires
 
 ## Corrigé
-1. La capacité à faire en sorte que les clients continuent d'acheter dans le temps   2. Généralement plus coûteux   3. Un bon service à la clientèle, des programmes de fidélité (entre autres)   4. Faux
 
-## Réponses et Explications
-1. Ceci est la définition fondamentale de la fidélisation.
-2. Ceci est un modèle général couramment cité, bien que le rapport exact varie selon le secteur.
-3. Ce sont des approches de fidélisation couramment citées.
-4. Une entreprise avec une forte fidélisation peut dépendre moins de l'acquisition constante de nouveaux clients pour soutenir ses revenus.
+1. B
+2. Faux
+3. B
 
-## Points Clés à Retenir
-- La fidélisation de clients maintient les clients existants en train d'acheter dans le temps.
-- Fidéliser un client coûte généralement moins cher qu'en acquérir un nouveau.
-- La qualité du service, les programmes de fidélité, et une communication constante soutiennent couramment la fidélisation.
+## Réponses et explications
 
+### Question 1
+Bonne réponse : B. Le seuil de rentabilité est le point où les revenus sont exactement égaux aux coûts totaux.
+
+### Question 2
+Bonne réponse : Faux. Sous le seuil de rentabilité, les dépenses dépassent les revenus — c’est une perte.
+
+### Question 3
+Bonne réponse : B. Il fournit une cible précise et mesurable plutôt qu’un vague espoir.
+
+## Points clés
+
+- Le seuil de rentabilité est le niveau de ventes où les revenus sont exactement égaux aux coûts totaux.
+- En dessous, c’est une perte; au-dessus, c’est un bénéfice.
+- Connaître ce chiffre donne une cible concrète avant l’ouverture, et pas seulement de l’espoir.

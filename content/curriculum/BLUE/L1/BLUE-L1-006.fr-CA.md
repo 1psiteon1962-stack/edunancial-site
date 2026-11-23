@@ -5,45 +5,78 @@ officialTrackName: Business
 level: 1
 lessonNumber: 6
 locale: fr-CA
-title: "Le Seuil de Rentabilité Expliqué"
-summary: "Le seuil de rentabilité est le niveau de ventes auquel le chiffre d'affaires total d'une entreprise égale exactement ses coûts totaux — ni profit, ni perte. *FAIT VÉRIFIÉ :* Seuil de Rentabilité (en unités) = Coûts Fixes ÷ (Prix par Unité − Coût Variable par Unité)."
+title: "LLC ou LLP : laquelle convient à quelle situation?"
+summary: "Comparez côte à côte les structures LLC et LLP pour voir quelles situations conviennent naturellement à chacune."
 version: "1.0"
 author: Waldemar M. Caban, JD MA
 date: 2026-08-08
 ---
 
-# BLUE-L1-006 : Le Seuil de Rentabilité Expliqué
+# LLC ou LLP : laquelle convient à quelle situation?
 
-## Objectifs d'Apprentissage
-1. Définir le seuil de rentabilité.
-2. Calculer un seuil de rentabilité simple en unités.
-3. Expliquer pourquoi connaître ce chiffre importe pour une nouvelle entreprise.
+## Objectifs d’apprentissage
 
-## Contenu Principal
-Le seuil de rentabilité est le niveau de ventes auquel le chiffre d'affaires total d'une entreprise égale exactement ses coûts totaux — ni profit, ni perte. *FAIT VÉRIFIÉ :* Seuil de Rentabilité (en unités) = Coûts Fixes ÷ (Prix par Unité − Coût Variable par Unité).
+À la fin de cette leçon, vous devriez pouvoir :
 
-*HYPOTHÈSE :* Connaître le seuil de rentabilité importe car il indique au propriétaire de l'entreprise le volume de ventes minimum nécessaire simplement pour éviter de perdre de l'argent, avant que tout profit ne commence.
+- Comparer les LLC et les LLP sur le plan de la structure de propriété.
+- Comparer les LLC et les LLP sur le plan de l’usage habituel.
+- Appliquer cette comparaison à un scénario hypothétique simple.
 
-## Exemple Pratique
-*EXEMPLE ILLUSTRATIF :* Une petite entreprise de chandelles a 1 000 $ de coûts fixes mensuels. Chaque chandelle se vend 20 $ et coûte 5 $ en matériaux (coût variable). Seuil de Rentabilité = 1 000 $ ÷ (20 $ − 5 $) = 1 000 ÷ 15 ≈ 67 chandelles. L'entreprise doit vendre environ 67 chandelles par mois juste pour couvrir ses coûts — tout ce qui dépasse devient du profit.
+## Contenu principal
 
-## Quiz Pratique
-1. Qu'est-ce que le seuil de rentabilité?
-2. Quelle est la formule du seuil de rentabilité en unités?
-3. Vrai/Faux : Au seuil de rentabilité, une entreprise réalise un profit.
-4. Si les coûts fixes sont de 500 $, le prix par unité de 25 $, et le coût variable par unité de 10 $, quel est le seuil de rentabilité en unités?
+### Même but, forme différente
+
+Les deux structures existent pour limiter la responsabilité personnelle — c’est leur but commun. Elles diffèrent quant aux personnes pour qui elles sont conçues et à la forme que prend la protection.
+
+### La structure de propriété
+
+Une LLC peut avoir un seul membre ou plusieurs. Une LLP est précisément conçue autour de plusieurs associés — elle ne convient pas à une véritable situation de propriétaire unique comme le fait une LLC.
+
+### L’usage habituel
+
+Une LLC convient à une grande variété d’entreprises — un commerce de détail, un cabinet de consultation, une entreprise de services à propriétaire unique. Une LLP est plus précisément associée aux sociétés de professionnels autorisés, où la responsabilité individuelle de chaque associé pour le travail des autres est la préoccupation centrale.
+
+### Posez-vous cette question
+
+Si vous lanciez une entreprise de consultation en solo, une LLP serait-elle même une option? Pas vraiment — les LLP supposent des associés. Cette seule question suffit souvent à déterminer quelle structure convient réellement.
+
+## Exemple pratique
+
+Un consultant pigiste seul, sans associés, hésite entre une LLC et une LLP. Demandez-vous : une LLP s’applique-t-elle même ici? Comme les LLP sont conçues autour de plusieurs associés, ce scénario oriente clairement vers une LLC. Imaginez maintenant trois comptables qui ouvrent un cabinet ensemble — dans ce scénario, les deux structures sont possibles, et la protection de la LLP contre la responsabilité liée aux associés devient le facteur le plus pertinent.
+
+## Quiz pratique
+
+1. Quelle structure n’est généralement PAS conçue pour un véritable propriétaire unique?
+   A. La LLC
+   B. La LLP
+   C. Les deux sont conçues uniquement pour des propriétaires uniques
+   D. Aucune ne porte sur la structure de propriété
+2. Vrai ou faux : les LLC et les LLP partagent le même but de base, soit limiter la responsabilité personnelle.
+3. Un consultant seul, sans associés, choisit une structure. Laquelle convient le plus naturellement, en se fondant uniquement sur la structure de propriété?
+   A. La LLP
+   B. La LLC
+   C. Aucune ne convient à un propriétaire seul
+   D. Les deux sont également inadéquates
 
 ## Corrigé
-1. Le niveau de ventes où le chiffre d'affaires total égale les coûts totaux   2. Coûts Fixes ÷ (Prix par Unité − Coût Variable par Unité)   3. Faux   4. Environ 33 unités
 
-## Réponses et Explications
-1. Ceci est la définition centrale du seuil de rentabilité.
-2. Ceci est le calcul standard du seuil de rentabilité.
-3. Au seuil de rentabilité, le chiffre d'affaires égale exactement les coûts — il n'y a encore ni profit ni perte.
-4. 500 $ ÷ (25 $ − 10 $) = 500 ÷ 15 ≈ 33,3, arrondi à environ 33 unités.
+1. B
+2. Vrai
+3. B
 
-## Points Clés à Retenir
-- Le seuil de rentabilité est le point où le chiffre d'affaires couvre exactement les coûts totaux.
-- Il se calcule comme Coûts Fixes ÷ (Prix − Coût Variable par Unité).
-- Connaître ce chiffre indique au propriétaire les ventes minimales nécessaires avant que le profit ne commence.
+## Réponses et explications
 
+### Question 1
+Bonne réponse : B. Les LLP sont conçues autour de plusieurs associés, et non d’un véritable propriétaire unique.
+
+### Question 2
+Bonne réponse : Vrai. Les deux structures partagent le but central de limiter la responsabilité personnelle.
+
+### Question 3
+Bonne réponse : B. Une LLC convient à un propriétaire seul; une LLP suppose des associés.
+
+## Points clés
+
+- Les LLC et les LLP limitent toutes deux la responsabilité personnelle, mais donnent une forme différente à cette protection.
+- Les LLC conviennent à un ou plusieurs propriétaires; les LLP supposent plusieurs associés.
+- Les LLP sont plus précisément associées aux sociétés de professionnels autorisés.
