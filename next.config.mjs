@@ -64,6 +64,10 @@ const nextConfig = {
   //   references them as GitHub repository paths, never from local disk.
   // - typescript: compiler, not needed by the built server (~9 MB).
   // - musl builds of sharp: Lambda runs glibc Linux (~17 MB).
+  // - glibc builds of sharp (~19 MB): on Netlify, next/image requests are served
+  //   by the Netlify Image CDN (@netlify/plugin-nextjs), and no app code imports
+  //   sharp, so the server handler never loads it. Removing it restores headroom
+  //   that new curriculum locales had used up (deploy previews failed at ~244 MB).
   outputFileTracingExcludes: {
     "*": [
       "./curriculum/reports/**/*",
@@ -75,6 +79,8 @@ const nextConfig = {
       "./node_modules/typescript/**/*",
       "./node_modules/@img/sharp-libvips-linuxmusl-x64/**/*",
       "./node_modules/@img/sharp-linuxmusl-x64/**/*",
+      "./node_modules/@img/sharp-libvips-linux-x64/**/*",
+      "./node_modules/@img/sharp-linux-x64/**/*",
     ],
   },
 
