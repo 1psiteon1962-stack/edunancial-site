@@ -1,116 +1,98 @@
 ---
 id: GREEN-L1-010
 track: GREEN
-officialTrackName: "Business Taxes"
+officialTrackName: Taxes
 level: 1
 lessonNumber: 10
 locale: es-ES
-title: "Cómo funcionan los tramos fiscales"
-summary: "Introducción práctica a cómo funcionan los tramos fiscales, con énfasis en conceptos, documentación, decisiones y verificación mediante fuentes oficiales."
-version: "1.0"
-author: "Waldemar M. Caban, JD MA"
-date: "2026-09-01"
+title: "Cómo funcionan los tramos impositivos"
+summary: "Un recorrido concreto por cómo se estructuran y aplican paso a paso los tramos impositivos, a partir del concepto de tasa marginal."
+version: 1.0
+author: Waldemar M. Caban, JD MA
+date: 2026-08-09
 ---
 
-# 10. Cómo funcionan los tramos fiscales
+# Cómo funcionan los tramos impositivos
 
 ## Objetivos de aprendizaje
 
-Al terminar esta lección, el alumno podrá:
+- Leer e interpretar una tabla sencilla de tramos impositivos.
+- Calcular el impuesto adeudado en varios tramos para un ingreso de ejemplo.
+- Reforzar el concepto de tasa marginal con un ejemplo numérico.
 
-1. Explicar con palabras sencillas el concepto de **cómo funcionan los tramos fiscales**.
-2. Identificar quién paga, quién recauda y qué hecho puede generar la obligación.
-3. Distinguir una regla general de una excepción que exige verificación.
-4. Organizar la documentación necesaria para revisar una posición fiscal.
-5. Formular preguntas útiles para una fuente oficial o un profesional cualificado.
+## Contenido principal
 
-## Concepto principal
+A partir de la lección anterior, recorramos los tramos con números reales. Imagine una tabla de tramos simplificada e ilustrativa: el ingreso de 0 € a 10.000 € se grava al 10 %; el ingreso de 10.001 € a 40.000 € se grava al 20 %; y el ingreso superior a 40.000 € se grava al 30 %.
 
-[HECHO VERIFICABLE] Los impuestos son obligaciones creadas por una jurisdicción. La respuesta correcta depende del país, territorio, estado o provincia, municipio, periodo fiscal, tipo de contribuyente y naturaleza de la operación. Por eso, comprender **cómo funcionan los tramos fiscales** exige identificar primero la jurisdicción y la fecha aplicable.
+Si alguien gana 50.000 €, no paga el 30 % sobre los 50.000 € completos. En cambio: los primeros 10.000 € se gravan al 10 % (1.000 €), los siguientes 30.000 € (de 10.001 € a 40.000 €) se gravan al 20 % (6.000 €) y los 10.000 € restantes (de 40.001 € a 50.000 €) se gravan al 30 % (3.000 €). Total de impuesto adeudado: 10.000 €, lo que equivale a una tasa efectiva del 20 %, muy por debajo del tramo más alto del 30 %.
 
-La educación fiscal no consiste en memorizar una cifra aislada. Consiste en reconocer el hecho imponible, la base, el tipo, las deducciones o créditos posibles, el plazo, la documentación y la autoridad que publica la regla. Las tasas, umbrales y formularios pueden cambiar; antes de actuar deben comprobarse en una fuente oficial vigente.
+Este cálculo paso a paso, tramo por tramo, es exactamente lo que significa en la práctica la tributación marginal. Los números reales de los tramos varían según el país y cambian con el tiempo, así que las cifras en euros de esta lección son solo ilustrativas: el método de cálculo es la destreza duradera y transferible.
 
-## Marco práctico de análisis
+> **Nota:** Los porcentajes de los tramos y los umbrales en euros de esta lección son números ilustrativos con fines de enseñanza, no cifras de ningún país en particular. Verifique los tramos vigentes de su jurisdicción.
 
-Utiliza estas preguntas:
+## Ejemplo práctico
 
-- ¿Qué jurisdicción tiene autoridad sobre la persona o transacción?
-- ¿Cuál es el periodo fiscal?
-- ¿Quién es el contribuyente y cuál es su clasificación?
-- ¿Qué ingreso, compra, propiedad o actividad activa la regla?
-- ¿Cómo se calcula la base?
-- ¿Existe una deducción, crédito, exclusión o exención?
-- ¿Qué formulario, pago o registro se exige?
-- ¿Cuál es el plazo y qué ocurre si se incumple?
-- ¿Qué fuente oficial confirma la respuesta?
+**Pregunta:** Con los tramos ilustrativos anteriores, ¿cuánto impuesto debería alguien que gana exactamente 40.000 €?
 
-## Ejemplo educativo
+**Estudiante:** Voy a hacerlo en orden: los primeros 10.000 € al 10 % son 1.000 €.
 
-[SUPUESTO] Una persona obtiene 48.000 unidades monetarias de ingresos y además recibe 3.000 por un trabajo independiente. Conserva recibos, estados de cuenta y documentos de pago, pero todavía no sabe cómo se clasifica cada cantidad. Antes de calcular, identifica su jurisdicción, periodo fiscal, condición laboral y naturaleza de los gastos.
+**Guía:** Bien, siga.
 
-Este ejemplo no determina una obligación real. Muestra el orden correcto: clasificar hechos, reunir documentación, consultar instrucciones oficiales y calcular solamente después. Si una regla afecta empleo, empresa, inversión o propiedad, debe analizarse por separado antes de integrar el resultado.
+**Estudiante:** Los 30.000 € restantes, de 10.001 € a 40.000 €, se gravan al 20 %, lo que da 6.000 €.
 
-## Aplicación al tema
+**Guía:** ¿Y se grava algo al 30 %?
 
-Para estudiar **cómo funcionan los tramos fiscales**, crea una hoja de trabajo con cuatro columnas: hecho, posible tratamiento, documento de respaldo y fuente pendiente de verificación. Marca como **HECHO** lo demostrado, como **SUPUESTO** lo que falta confirmar y como **OPINIÓN** cualquier recomendación basada en preferencias o tolerancia al riesgo.
+**Estudiante:** No: no ganó nada por encima de 40.000 €, así que el tramo del 30 % nunca se aplica. El total es 1.000 € + 6.000 € = 7.000 €.
 
-No mezcles traducción con localización jurídica. Un término estadounidense como W-2, 1099, Medicare, LLC, S-Corp, Roth o impuesto estatal sobre ventas puede traducirse para aprender el concepto, pero no debe presentarse como si fuera una figura idéntica en España u otra jurisdicción.
+**Guía:** Exactamente. Y observe que su tasa efectiva es del 17,5 %, no del 20 % ni del 30 %.
 
-## Errores comunes
+## Cuestionario práctico
 
-- Aplicar una tasa de otro año o jurisdicción.
-- Confundir ingreso bruto con ingreso imponible o efectivo disponible.
-- Suponer que un gasto empresarial siempre es deducible.
-- Creer que una deducción y un crédito producen el mismo efecto.
-- Perder justificantes o mezclar cuentas personales y empresariales.
-- Confundir un reembolso con una reducción real del impuesto.
-- Esperar hasta el vencimiento para organizar la información.
-- Utilizar contenido educativo como asesoramiento individualizado.
+**Pregunta 1.** Con los tramos ilustrativos de esta lección, ¿qué parte de un ingreso de 50.000 € se grava al 30 %?
 
-## Actividad práctica
+A) Los 50.000 € completos
+B) 10.000 €
+C) 30.000 €
+D) 0 €
 
-1. Escribe una situación relacionada con este tema.
-2. Identifica jurisdicción y periodo fiscal.
-3. Enumera cinco hechos comprobables y tres datos faltantes.
-4. Reúne o describe los documentos pertinentes.
-5. Localiza una fuente oficial que deba consultarse.
-6. Redacta tres preguntas para un profesional fiscal.
-7. Explica qué dato podría cambiar la conclusión.
+**Pregunta 2.** ¿Cuál es el impuesto ilustrativo total adeudado sobre 50.000 € en este ejemplo?
 
-## Evaluación de competencia
+A) 15.000 €
+B) 10.000 €
+C) 5.000 €
+D) 20.000 €
 
-1. ¿Por qué debe identificarse primero la jurisdicción?
-2. ¿Cuál es la diferencia entre hecho y supuesto?
-3. ¿Qué documento respaldaría la operación?
-4. ¿Qué fecha o periodo debe verificarse?
-5. ¿Qué organismo oficial podría publicar la regla?
-6. ¿Existe una posible excepción o clasificación alternativa?
-7. ¿Qué error produciría usar una tasa desactualizada?
-8. ¿Qué pregunta formularías a un profesional?
-9. ¿Qué registro conservarías y por cuánto tiempo según la regla aplicable?
-10. Resume el proceso de análisis sin inventar cifras.
+**Pregunta 3.** La tasa efectiva de impuesto en el ejemplo de 50.000 € es:
 
-**Criterio de dominio:** 8 de 10 respuestas satisfactorias. Por debajo del 80 %, el alumno revisará la fuente, corregirá la clasificación y repetirá un escenario nuevo.
+A) 30 %
+B) 20 %
+C) 10 %
+D) 0 %
 
-## Respuestas orientativas
+**Pregunta 4.** ¿Deben memorizarse los números específicos de los tramos de esta lección como cifras reales?
 
-Las respuestas deben identificar jurisdicción, periodo, clasificación, hecho imponible, documentación y fuente oficial. Una buena respuesta declara incertidumbres y evita afirmar tasas, umbrales o plazos no verificados. Cuando falten hechos, la conclusión correcta es indicar qué información se necesita, no adivinar.
+A) Sí, se aplican en todas partes
+B) No: son ilustrativos; los tramos reales varían según el país y cambian con el tiempo
+C) Sí, pero solo para un país
+D) No tienen relación con la lección
+
+## Clave de respuestas
+
+1. B, 2. B, 3. B, 4. B
+
+## Respuestas y explicaciones
+
+**1.** Solo la parte del ingreso que supera los 40.000 € —es decir, 10.000 €— cae en el tramo del 30 %.
+
+**2.** Al sumar 1.000 € + 6.000 € + 3.000 € en los tres tramos se obtiene un total de 10.000 €.
+
+**3.** Al dividir el impuesto total (10.000 €) entre el ingreso total (50.000 €) se obtiene una tasa efectiva del 20 %.
+
+**4.** Las cifras en euros son una herramienta de enseñanza; el método de cálculo es lo que se aplica a cualquier tabla de tramos real.
 
 ## Puntos clave
 
-- Las reglas fiscales cambian según lugar, fecha y clasificación.
-- Primero se clasifican los hechos; después se calcula.
-- La documentación permite defender una posición.
-- Deducciones, créditos, exclusiones y pagos anticipados son conceptos distintos.
-- Las fuentes oficiales vigentes tienen prioridad sobre resúmenes educativos.
-- La planificación legal es distinta de ocultar, falsear o evadir obligaciones.
-
-## Ruta de aprendizaje
-
-- **Anterior:** GREEN-L1-009
-- **Actual:** GREEN-L1-010
-- **Siguiente:** GREEN-L1-011
-
-## Localización — España
-
-Contenido en español de España para educación comparada. Las referencias a formularios y entidades estadounidenses explican conceptos del currículo original y no sustituyen la normativa española. Antes de aplicar cualquier regla deben verificarse la Agencia Tributaria u otra autoridad competente, el periodo fiscal y las circunstancias concretas.
+- Los tramos se aplican paso a paso, y cada tasa solo toca el ingreso que cae dentro de esa franja.
+- Hacer el cálculo de forma concreta refuerza por qué el concepto de tasa marginal importa en la práctica.
+- La tasa efectiva siempre es una combinación, y siempre es menor que el tramo más alto alcanzado.
+- Los números usados aquí son ilustrativos: verifique siempre la tabla de tramos real de su jurisdicción.

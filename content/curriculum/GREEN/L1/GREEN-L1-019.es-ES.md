@@ -1,116 +1,89 @@
 ---
 id: GREEN-L1-019
 track: GREEN
-officialTrackName: "Business Taxes"
+officialTrackName: Taxes
 level: 1
 lessonNumber: 19
 locale: es-ES
-title: "Qué es una declaración de impuestos y por qué se presenta"
-summary: "Introducción práctica a qué es una declaración de impuestos y por qué se presenta, con énfasis en conceptos, documentación, decisiones y verificación mediante fuentes oficiales."
-version: "1.0"
-author: "Waldemar M. Caban, JD MA"
-date: "2026-09-01"
+title: "¿Qué es una declaración de impuestos y por qué se presenta?"
+summary: "Explica el propósito de presentar una declaración de impuestos: conciliar los pagos estimados con la obligación tributaria real del año."
+version: 1.0
+author: Waldemar M. Caban, JD MA
+date: 2026-08-09
 ---
 
-# 19. Qué es una declaración de impuestos y por qué se presenta
+# ¿Qué es una declaración de impuestos y por qué se presenta?
 
 ## Objetivos de aprendizaje
+- Definir en términos sencillos una declaración de impuestos.
+- Explicar el propósito de conciliación de presentar la declaración.
+- Relacionar la presentación de la declaración con la lección anterior sobre la retención.
 
-Al terminar esta lección, el alumno podrá:
+## Contenido principal
 
-1. Explicar con palabras sencillas el concepto de **qué es una declaración de impuestos y por qué se presenta**.
-2. Identificar quién paga, quién recauda y qué hecho puede generar la obligación.
-3. Distinguir una regla general de una excepción que exige verificación.
-4. Organizar la documentación necesaria para revisar una posición fiscal.
-5. Formular preguntas útiles para una fuente oficial o un profesional cualificado.
+Una declaración de impuestos es un documento que usted presenta al gobierno en el que informa sus ingresos, sus deducciones, sus créditos y el impuesto que calcula que debe por el año. Presentar la declaración es la forma en que el sistema basado en estimaciones (la retención, vista antes) se concilia con la cifra real y final.
 
-## Concepto principal
+Piense en ella como una liquidación de fin de año. A lo largo del año, se retuvieron impuestos o se hicieron pagos estimados con base en proyecciones. La declaración suma lo que realmente pasó (el ingreso real ganado, las deducciones y los créditos reales que se reclaman) y calcula la cantidad verdadera que se debe. Si el total acumulado que ya se pagó supera esa cantidad verdadera, usted recibe un reembolso. Si se queda corto, usted debe la diferencia. Presentar la declaración no es un trámite opcional sin importancia; en la mayoría de los sistemas, es el acto que la ley exige para cerrar su obligación tributaria del año.
 
-[HECHO VERIFICABLE] Los impuestos son obligaciones creadas por una jurisdicción. La respuesta correcta depende del país, territorio, estado o provincia, municipio, periodo fiscal, tipo de contribuyente y naturaleza de la operación. Por eso, comprender **qué es una declaración de impuestos y por qué se presenta** exige identificar primero la jurisdicción y la fecha aplicable.
+## Ejemplo práctico
 
-La educación fiscal no consiste en memorizar una cifra aislada. Consiste en reconocer el hecho imponible, la base, el tipo, las deducciones o créditos posibles, el plazo, la documentación y la autoridad que publica la regla. Las tasas, umbrales y formularios pueden cambiar; antes de actuar deben comprobarse en una fuente oficial vigente.
+**Pregunta:** Si a un trabajador le retuvieron impuestos todo el año y nunca presenta una declaración, ¿quedó oficialmente cumplida su obligación tributaria?
 
-## Marco práctico de análisis
+**Estudiante:** Supongo que no, porque la retención era solo una estimación.
 
-Utiliza estas preguntas:
+**Guía:** ¿Qué hace realmente la presentación de la declaración que la retención por sí sola no hace?
 
-- ¿Qué jurisdicción tiene autoridad sobre la persona o transacción?
-- ¿Cuál es el periodo fiscal?
-- ¿Quién es el contribuyente y cuál es su clasificación?
-- ¿Qué ingreso, compra, propiedad o actividad activa la regla?
-- ¿Cómo se calcula la base?
-- ¿Existe una deducción, crédito, exclusión o exención?
-- ¿Qué formulario, pago o registro se exige?
-- ¿Cuál es el plazo y qué ocurre si se incumple?
-- ¿Qué fuente oficial confirma la respuesta?
+**Estudiante:** Calcula la cifra final verdadera con base en todo lo que realmente pasó durante el año y la compara con lo que ya se pagó.
 
-## Ejemplo educativo
+**Guía:** Correcto: presentar la declaración es el paso de conciliación y, en la mayoría de los sistemas, la ley lo exige; no es opcional.
 
-[SUPUESTO] Una persona obtiene 48.000 unidades monetarias de ingresos y además recibe 3.000 por un trabajo independiente. Conserva recibos, estados de cuenta y documentos de pago, pero todavía no sabe cómo se clasifica cada cantidad. Antes de calcular, identifica su jurisdicción, periodo fiscal, condición laboral y naturaleza de los gastos.
+## Cuestionario práctico
 
-Este ejemplo no determina una obligación real. Muestra el orden correcto: clasificar hechos, reunir documentación, consultar instrucciones oficiales y calcular solamente después. Si una regla afecta empleo, empresa, inversión o propiedad, debe analizarse por separado antes de integrar el resultado.
+**Pregunta 1.** La mejor descripción de una declaración de impuestos es:
 
-## Aplicación al tema
+A) Una sugerencia voluntaria
+B) Un documento que informa los ingresos, las deducciones y los créditos para calcular el impuesto adeudado
+C) Lo mismo que la retención
+D) Algo solo para los negocios
 
-Para estudiar **qué es una declaración de impuestos y por qué se presenta**, crea una hoja de trabajo con cuatro columnas: hecho, posible tratamiento, documento de respaldo y fuente pendiente de verificación. Marca como **HECHO** lo demostrado, como **SUPUESTO** lo que falta confirmar y como **OPINIÓN** cualquier recomendación basada en preferencias o tolerancia al riesgo.
+**Pregunta 2.** Presentar una declaración sirve principalmente para:
 
-No mezcles traducción con localización jurídica. Un término estadounidense como W-2, 1099, Medicare, LLC, S-Corp, Roth o impuesto estatal sobre ventas puede traducirse para aprender el concepto, pero no debe presentarse como si fuera una figura idéntica en España u otra jurisdicción.
+A) Conciliar los pagos estimados con la obligación tributaria real
+B) Sustituir por completo la retención
+C) Evitar todos los impuestos
+D) Aplicarse solo a quienes trabajan por cuenta propia
 
-## Errores comunes
+**Pregunta 3.** Si las cantidades retenidas superan el impuesto verdadero adeudado, el resultado típico es:
 
-- Aplicar una tasa de otro año o jurisdicción.
-- Confundir ingreso bruto con ingreso imponible o efectivo disponible.
-- Suponer que un gasto empresarial siempre es deducible.
-- Creer que una deducción y un crédito producen el mismo efecto.
-- Perder justificantes o mezclar cuentas personales y empresariales.
-- Confundir un reembolso con una reducción real del impuesto.
-- Esperar hasta el vencimiento para organizar la información.
-- Utilizar contenido educativo como asesoramiento individualizado.
+A) Una sanción
+B) Un reembolso
+C) Nada
+D) Una auditoría automática
 
-## Actividad práctica
+**Pregunta 4.** En la mayoría de los sistemas, ¿presentar la declaración suele ser opcional?
 
-1. Escribe una situación relacionada con este tema.
-2. Identifica jurisdicción y periodo fiscal.
-3. Enumera cinco hechos comprobables y tres datos faltantes.
-4. Reúne o describe los documentos pertinentes.
-5. Localiza una fuente oficial que deba consultarse.
-6. Redacta tres preguntas para un profesional fiscal.
-7. Explica qué dato podría cambiar la conclusión.
+A) Sí, siempre es opcional
+B) No, suele ser un requisito legal
+C) Solo para los ricos
+D) Solo para los negocios
 
-## Evaluación de competencia
+## Clave de respuestas
 
-1. ¿Por qué debe identificarse primero la jurisdicción?
-2. ¿Cuál es la diferencia entre hecho y supuesto?
-3. ¿Qué documento respaldaría la operación?
-4. ¿Qué fecha o periodo debe verificarse?
-5. ¿Qué organismo oficial podría publicar la regla?
-6. ¿Existe una posible excepción o clasificación alternativa?
-7. ¿Qué error produciría usar una tasa desactualizada?
-8. ¿Qué pregunta formularías a un profesional?
-9. ¿Qué registro conservarías y por cuánto tiempo según la regla aplicable?
-10. Resume el proceso de análisis sin inventar cifras.
+1. B, 2. A, 3. B, 4. B
 
-**Criterio de dominio:** 8 de 10 respuestas satisfactorias. Por debajo del 80 %, el alumno revisará la fuente, corregirá la clasificación y repetirá un escenario nuevo.
+## Respuestas y explicaciones
 
-## Respuestas orientativas
+**1.** Una declaración informa todo el panorama financiero necesario para calcular la obligación tributaria real.
 
-Las respuestas deben identificar jurisdicción, periodo, clasificación, hecho imponible, documentación y fuente oficial. Una buena respuesta declara incertidumbres y evita afirmar tasas, umbrales o plazos no verificados. Cuando falten hechos, la conclusión correcta es indicar qué información se necesita, no adivinar.
+**2.** La función central de presentar la declaración es comparar lo que ya se pagó con lo que realmente se debe.
+
+**3.** La retención en exceso, una vez conciliada mediante la declaración, se devuelve como reembolso.
+
+**4.** En la mayoría de los sistemas, presentar la declaración es una obligación legal, no una cortesía.
 
 ## Puntos clave
 
-- Las reglas fiscales cambian según lugar, fecha y clasificación.
-- Primero se clasifican los hechos; después se calcula.
-- La documentación permite defender una posición.
-- Deducciones, créditos, exclusiones y pagos anticipados son conceptos distintos.
-- Las fuentes oficiales vigentes tienen prioridad sobre resúmenes educativos.
-- La planificación legal es distinta de ocultar, falsear o evadir obligaciones.
-
-## Ruta de aprendizaje
-
-- **Anterior:** GREEN-L1-018
-- **Actual:** GREEN-L1-019
-- **Siguiente:** GREEN-L1-020
-
-## Localización — España
-
-Contenido en español de España para educación comparada. Las referencias a formularios y entidades estadounidenses explican conceptos del currículo original y no sustituyen la normativa española. Antes de aplicar cualquier regla deben verificarse la Agencia Tributaria u otra autoridad competente, el periodo fiscal y las circunstancias concretas.
+- Una declaración de impuestos informa los ingresos, las deducciones y los créditos para calcular el impuesto verdadero adeudado.
+- Presentar la declaración concilia los pagos estimados (como la retención) con la obligación real.
+- Pagar de más da como resultado un reembolso; pagar de menos da como resultado un saldo por pagar.
+- Presentar la declaración suele ser un requisito legal, no algo opcional.

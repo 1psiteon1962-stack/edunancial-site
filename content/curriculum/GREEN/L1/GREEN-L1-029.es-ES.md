@@ -1,116 +1,89 @@
 ---
 id: GREEN-L1-029
 track: GREEN
-officialTrackName: "Business Taxes"
+officialTrackName: Taxes
 level: 1
 lessonNumber: 29
 locale: es-ES
-title: "Impuestos sobre nóminas para empleadores"
-summary: "Introducción práctica a impuestos sobre nóminas para empleadores, con énfasis en conceptos, documentación, decisiones y verificación mediante fuentes oficiales."
-version: "1.0"
-author: "Waldemar M. Caban, JD MA"
-date: "2026-09-01"
+title: "Los impuestos sobre la nómina para los empleadores"
+summary: "Amplía la lección anterior sobre el impuesto sobre la nómina a las responsabilidades operativas del empleador: retener, aportar la parte equivalente y remitir."
+version: 1.0
+author: Waldemar M. Caban, JD MA
+date: 2026-08-09
 ---
 
-# 29. Impuestos sobre nóminas para empleadores
+# Los impuestos sobre la nómina para los empleadores
 
 ## Objetivos de aprendizaje
+- Describir el papel del empleador en la administración del impuesto sobre la nómina.
+- Explicar el concepto del «aporte equivalente» del empleador.
+- Reconocer el cumplimiento del impuesto sobre la nómina como una responsabilidad operativa continua, no como una tarea de una sola vez.
 
-Al terminar esta lección, el alumno podrá:
+## Contenido principal
 
-1. Explicar con palabras sencillas el concepto de **impuestos sobre nóminas para empleadores**.
-2. Identificar quién paga, quién recauda y qué hecho puede generar la obligación.
-3. Distinguir una regla general de una excepción que exige verificación.
-4. Organizar la documentación necesaria para revisar una posición fiscal.
-5. Formular preguntas útiles para una fuente oficial o un profesional cualificado.
+Cuando un negocio tiene empleados, asume responsabilidades operativas reales en torno al impuesto sobre la nómina: retener la parte del empleado de cada pago de nómina, a menudo aportar una parte equivalente con pagos del lado del empleador y remitirlo todo al gobierno según un calendario fijado por ley, no cuando le convenga al negocio.
 
-## Concepto principal
+Es una responsabilidad recurrente y continua, no un evento de una vez al año como presentar una declaración individual. No cumplir una fecha límite para remitir el impuesto sobre la nómina se trata con seriedad en muchos sistemas, en parte porque el gobierno considera que los fondos retenidos a los empleados se guardan en fideicomiso para el empleado y para la autoridad tributaria; es decir, no se trata igual que si un negocio simplemente se atrasara en pagar la factura de un proveedor común. Los dueños de pequeños negocios que contratan a su primer empleado deberían tratar el cumplimiento del impuesto sobre la nómina como una responsabilidad operativa central y no negociable desde el primer día, no como algo secundario.
 
-[HECHO VERIFICABLE] Los impuestos son obligaciones creadas por una jurisdicción. La respuesta correcta depende del país, territorio, estado o provincia, municipio, periodo fiscal, tipo de contribuyente y naturaleza de la operación. Por eso, comprender **impuestos sobre nóminas para empleadores** exige identificar primero la jurisdicción y la fecha aplicable.
+## Ejemplo práctico
 
-La educación fiscal no consiste en memorizar una cifra aislada. Consiste en reconocer el hecho imponible, la base, el tipo, las deducciones o créditos posibles, el plazo, la documentación y la autoridad que publica la regla. Las tasas, umbrales y formularios pueden cambiar; antes de actuar deben comprobarse en una fuente oficial vigente.
+**Pregunta:** Una dueña de negocio nueva contrata a su primer empleado y más tarde dice: «Me ocuparé de los impuestos sobre la nómina cuando el flujo de efectivo lo permita». ¿Qué tiene de riesgoso ese plan?
 
-## Marco práctico de análisis
+**Estudiante:** Según esta lección, el impuesto sobre la nómina no es opcional ni flexible como la factura de un proveedor común: tiene un calendario que exige la ley.
 
-Utiliza estas preguntas:
+**Guía:** ¿Por qué no cumplir ese calendario podría tratarse con más seriedad que atrasarse, por ejemplo, con una factura de artículos de oficina?
 
-- ¿Qué jurisdicción tiene autoridad sobre la persona o transacción?
-- ¿Cuál es el periodo fiscal?
-- ¿Quién es el contribuyente y cuál es su clasificación?
-- ¿Qué ingreso, compra, propiedad o actividad activa la regla?
-- ¿Cómo se calcula la base?
-- ¿Existe una deducción, crédito, exclusión o exención?
-- ¿Qué formulario, pago o registro se exige?
-- ¿Cuál es el plazo y qué ocurre si se incumple?
-- ¿Qué fuente oficial confirma la respuesta?
+**Estudiante:** Porque parte de ese dinero se le retuvo al empleado de su propio pago y, en esencia, se guarda en fideicomiso: no es del todo dinero del negocio como para retrasar su pago.
 
-## Ejemplo educativo
+**Guía:** Exactamente: por eso el cumplimiento del impuesto sobre la nómina tiene que tratarse como algo no negociable desde el primer día.
 
-[SUPUESTO] Una persona obtiene 48.000 unidades monetarias de ingresos y además recibe 3.000 por un trabajo independiente. Conserva recibos, estados de cuenta y documentos de pago, pero todavía no sabe cómo se clasifica cada cantidad. Antes de calcular, identifica su jurisdicción, periodo fiscal, condición laboral y naturaleza de los gastos.
+## Cuestionario práctico
 
-Este ejemplo no determina una obligación real. Muestra el orden correcto: clasificar hechos, reunir documentación, consultar instrucciones oficiales y calcular solamente después. Si una regla afecta empleo, empresa, inversión o propiedad, debe analizarse por separado antes de integrar el resultado.
+**Pregunta 1.** Cuando un negocio tiene empleados, normalmente tiene que:
 
-## Aplicación al tema
+A) Ignorar por completo el impuesto sobre la nómina
+B) Retener, a menudo aportar la parte equivalente y remitir el impuesto sobre la nómina según un calendario fijo
+C) Pagar el impuesto sobre la nómina solo una vez al año
+D) Dejar que los empleados se encarguen ellos mismos
 
-Para estudiar **impuestos sobre nóminas para empleadores**, crea una hoja de trabajo con cuatro columnas: hecho, posible tratamiento, documento de respaldo y fuente pendiente de verificación. Marca como **HECHO** lo demostrado, como **SUPUESTO** lo que falta confirmar y como **OPINIÓN** cualquier recomendación basada en preferencias o tolerancia al riesgo.
+**Pregunta 2.** El «aporte equivalente» del empleador se refiere a:
 
-No mezcles traducción con localización jurídica. Un término estadounidense como W-2, 1099, Medicare, LLC, S-Corp, Roth o impuesto estatal sobre ventas puede traducirse para aprender el concepto, pero no debe presentarse como si fuera una figura idéntica en España u otra jurisdicción.
+A) Que los empleados escojan su propia tasa impositiva
+B) Que el empleador pague una parte adicional además de lo que se retiene del salario
+C) Un descuento en el impuesto sobre las ventas
+D) Un tipo de crédito tributario
 
-## Errores comunes
+**Pregunta 3.** ¿Por qué remitir tarde el impuesto sobre la nómina a menudo se trata con más seriedad que atrasarse con la factura de un proveedor común?
 
-- Aplicar una tasa de otro año o jurisdicción.
-- Confundir ingreso bruto con ingreso imponible o efectivo disponible.
-- Suponer que un gasto empresarial siempre es deducible.
-- Creer que una deducción y un crédito producen el mismo efecto.
-- Perder justificantes o mezclar cuentas personales y empresariales.
-- Confundir un reembolso con una reducción real del impuesto.
-- Esperar hasta el vencimiento para organizar la información.
-- Utilizar contenido educativo como asesoramiento individualizado.
+A) No se trata con seriedad
+B) Los fondos retenidos a los empleados se consideran guardados en fideicomiso, no simple efectivo del negocio
+C) A los proveedores siempre se les paga antes que la nómina
+D) No hay ninguna diferencia legal
 
-## Actividad práctica
+**Pregunta 4.** El cumplimiento del impuesto sobre la nómina debería tratarse como:
 
-1. Escribe una situación relacionada con este tema.
-2. Identifica jurisdicción y periodo fiscal.
-3. Enumera cinco hechos comprobables y tres datos faltantes.
-4. Reúne o describe los documentos pertinentes.
-5. Localiza una fuente oficial que deba consultarse.
-6. Redacta tres preguntas para un profesional fiscal.
-7. Explica qué dato podría cambiar la conclusión.
+A) Algo secundario y ocasional
+B) Una responsabilidad operativa central y continua desde el primer día
+C) Algo opcional para los pequeños negocios
+D) Algo relevante solo para las grandes corporaciones
 
-## Evaluación de competencia
+## Clave de respuestas
 
-1. ¿Por qué debe identificarse primero la jurisdicción?
-2. ¿Cuál es la diferencia entre hecho y supuesto?
-3. ¿Qué documento respaldaría la operación?
-4. ¿Qué fecha o periodo debe verificarse?
-5. ¿Qué organismo oficial podría publicar la regla?
-6. ¿Existe una posible excepción o clasificación alternativa?
-7. ¿Qué error produciría usar una tasa desactualizada?
-8. ¿Qué pregunta formularías a un profesional?
-9. ¿Qué registro conservarías y por cuánto tiempo según la regla aplicable?
-10. Resume el proceso de análisis sin inventar cifras.
+1. B, 2. B, 3. B, 4. B
 
-**Criterio de dominio:** 8 de 10 respuestas satisfactorias. Por debajo del 80 %, el alumno revisará la fuente, corregirá la clasificación y repetirá un escenario nuevo.
+## Respuestas y explicaciones
 
-## Respuestas orientativas
+**1.** Los empleadores asumen las responsabilidades de retener, a menudo aportar la parte equivalente y remitir desde el momento en que tienen empleados.
 
-Las respuestas deben identificar jurisdicción, periodo, clasificación, hecho imponible, documentación y fuente oficial. Una buena respuesta declara incertidumbres y evita afirmar tasas, umbrales o plazos no verificados. Cuando falten hechos, la conclusión correcta es indicar qué información se necesita, no adivinar.
+**2.** El aporte equivalente es un pago adicional del lado del empleador que se suma a la parte retenida al propio empleado.
+
+**3.** Como los fondos retenidos se consideran guardados para el empleado y para la autoridad tributaria, el atraso tiene consecuencias más graves en muchos sistemas.
+
+**4.** Esta responsabilidad empieza en el momento en que un negocio contrata a su primer empleado, no después de que esté «establecido».
 
 ## Puntos clave
 
-- Las reglas fiscales cambian según lugar, fecha y clasificación.
-- Primero se clasifican los hechos; después se calcula.
-- La documentación permite defender una posición.
-- Deducciones, créditos, exclusiones y pagos anticipados son conceptos distintos.
-- Las fuentes oficiales vigentes tienen prioridad sobre resúmenes educativos.
-- La planificación legal es distinta de ocultar, falsear o evadir obligaciones.
-
-## Ruta de aprendizaje
-
-- **Anterior:** GREEN-L1-028
-- **Actual:** GREEN-L1-029
-- **Siguiente:** GREEN-L1-030
-
-## Localización — España
-
-Contenido en español de España para educación comparada. Las referencias a formularios y entidades estadounidenses explican conceptos del currículo original y no sustituyen la normativa española. Antes de aplicar cualquier regla deben verificarse la Agencia Tributaria u otra autoridad competente, el periodo fiscal y las circunstancias concretas.
+- Los empleadores retienen, a menudo aportan la parte equivalente y remiten el impuesto sobre la nómina según un calendario fijado por ley.
+- El aporte equivalente del empleador es un coste adicional que se suma a la retención del empleado.
+- Remitir tarde el impuesto sobre la nómina a menudo se trata con más seriedad que una factura común atrasada.
+- El cumplimiento del impuesto sobre la nómina es una responsabilidad operativa central desde el momento de la contratación.

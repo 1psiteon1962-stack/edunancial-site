@@ -1,116 +1,89 @@
 ---
 id: GREEN-L1-024
 track: GREEN
-officialTrackName: "Business Taxes"
+officialTrackName: Taxes
 level: 1
 lessonNumber: 24
 locale: es-ES
-title: "Fundamentos de conservación de registros y justificantes"
-summary: "Introducción práctica a fundamentos de conservación de registros y justificantes, con énfasis en conceptos, documentación, decisiones y verificación mediante fuentes oficiales."
-version: "1.0"
-author: "Waldemar M. Caban, JD MA"
-date: "2026-09-01"
+title: "Lo básico de llevar registros: recibos, estados de cuenta y documentación"
+summary: "Presenta el hábito y la lógica de llevar registros tributarios como una protección, no solo como papeleo."
+version: 1.0
+author: Waldemar M. Caban, JD MA
+date: 2026-08-09
 ---
 
-# 24. Fundamentos de conservación de registros y justificantes
+# Lo básico de llevar registros: recibos, estados de cuenta y documentación
 
 ## Objetivos de aprendizaje
+- Explicar por qué llevar registros importa para los impuestos.
+- Identificar las categorías comunes de documentos que vale la pena guardar.
+- Describir un hábito sencillo para mantenerse organizado a lo largo del año.
 
-Al terminar esta lección, el alumno podrá:
+## Contenido principal
 
-1. Explicar con palabras sencillas el concepto de **fundamentos de conservación de registros y justificantes**.
-2. Identificar quién paga, quién recauda y qué hecho puede generar la obligación.
-3. Distinguir una regla general de una excepción que exige verificación.
-4. Organizar la documentación necesaria para revisar una posición fiscal.
-5. Formular preguntas útiles para una fuente oficial o un profesional cualificado.
+Llevar bien los registros es la base silenciosa de casi todos los demás temas tributarios de esta ruta: las deducciones, los créditos y las reclamaciones de quienes trabajan por cuenta propia solo se sostienen si usted puede respaldarlos con documentación. Entre las categorías comunes que vale la pena guardar están los recibos de las compras deducibles, los estados de cuenta bancarios y de inversiones, los recibos de nómina, las facturas (en el caso de quienes trabajan por cuenta propia) y cualquier declaración de impuestos anterior.
 
-## Concepto principal
+El hábito que separa a las personas que manejan esto sin problemas de las que corren cada año es sencillo: reunir y organizar la documentación a medida que ocurren las cosas, y no meses después, al momento de presentar la declaración. Una sola carpeta (física o digital), empezada al principio del año y a la que se van añadiendo las cosas a medida que ocurren, es mejor que intentar reconstruir de memoria y con pánico un año de actividad financiera antes de una fecha límite. Los buenos registros no solo le ayudan a presentar la declaración con exactitud: son su protección si alguna vez se cuestiona una reclamación más adelante.
 
-[HECHO VERIFICABLE] Los impuestos son obligaciones creadas por una jurisdicción. La respuesta correcta depende del país, territorio, estado o provincia, municipio, periodo fiscal, tipo de contribuyente y naturaleza de la operación. Por eso, comprender **fundamentos de conservación de registros y justificantes** exige identificar primero la jurisdicción y la fecha aplicable.
+## Ejemplo práctico
 
-La educación fiscal no consiste en memorizar una cifra aislada. Consiste en reconocer el hecho imponible, la base, el tipo, las deducciones o créditos posibles, el plazo, la documentación y la autoridad que publica la regla. Las tasas, umbrales y formularios pueden cambiar; antes de actuar deben comprobarse en una fuente oficial vigente.
+**Pregunta:** El dueño de un pequeño negocio echa todos los recibos en una caja de zapatos durante todo el año, sin ninguna organización. ¿Es mejor que nada? ¿Se podría mejorar?
 
-## Marco práctico de análisis
+**Estudiante:** Es mejor que perder los recibos por completo, pero igual suena desordenado para trabajar con eso después.
 
-Utiliza estas preguntas:
+**Guía:** ¿Cómo sería una pequeña mejora, sin necesidad de un sistema totalmente pulido?
 
-- ¿Qué jurisdicción tiene autoridad sobre la persona o transacción?
-- ¿Cuál es el periodo fiscal?
-- ¿Quién es el contribuyente y cuál es su clasificación?
-- ¿Qué ingreso, compra, propiedad o actividad activa la regla?
-- ¿Cómo se calcula la base?
-- ¿Existe una deducción, crédito, exclusión o exención?
-- ¿Qué formulario, pago o registro se exige?
-- ¿Cuál es el plazo y qué ocurre si se incumple?
-- ¿Qué fuente oficial confirma la respuesta?
+**Estudiante:** Quizá solo clasificar los recibos en unas pocas categorías básicas a medida que llegan, en vez de tener un solo montón grande para clasificar todo de una vez.
 
-## Ejemplo educativo
+**Guía:** Correcto: la meta no es la perfección, sino facilitarle el trabajo a usted mismo en el futuro.
 
-[SUPUESTO] Una persona obtiene 48.000 unidades monetarias de ingresos y además recibe 3.000 por un trabajo independiente. Conserva recibos, estados de cuenta y documentos de pago, pero todavía no sabe cómo se clasifica cada cantidad. Antes de calcular, identifica su jurisdicción, periodo fiscal, condición laboral y naturaleza de los gastos.
+## Cuestionario práctico
 
-Este ejemplo no determina una obligación real. Muestra el orden correcto: clasificar hechos, reunir documentación, consultar instrucciones oficiales y calcular solamente después. Si una regla afecta empleo, empresa, inversión o propiedad, debe analizarse por separado antes de integrar el resultado.
+**Pregunta 1.** Llevar registros importa sobre todo porque:
 
-## Aplicación al tema
+A) Se exige sin ninguna razón
+B) Respalda las deducciones, los créditos y las reclamaciones si alguna vez se cuestionan
+C) No tiene nada que ver con los impuestos
+D) Solo los negocios lo necesitan
 
-Para estudiar **fundamentos de conservación de registros y justificantes**, crea una hoja de trabajo con cuatro columnas: hecho, posible tratamiento, documento de respaldo y fuente pendiente de verificación. Marca como **HECHO** lo demostrado, como **SUPUESTO** lo que falta confirmar y como **OPINIÓN** cualquier recomendación basada en preferencias o tolerancia al riesgo.
+**Pregunta 2.** Entre los documentos comunes que vale la pena guardar están:
 
-No mezcles traducción con localización jurídica. Un término estadounidense como W-2, 1099, Medicare, LLC, S-Corp, Roth o impuesto estatal sobre ventas puede traducirse para aprender el concepto, pero no debe presentarse como si fuera una figura idéntica en España u otra jurisdicción.
+A) Los recibos, los estados de cuenta, los recibos de nómina y las facturas
+B) Solo las publicaciones en las redes sociales
+C) Nada: los registros digitales no cuentan
+D) Solo las contraseñas bancarias
 
-## Errores comunes
+**Pregunta 3.** El hábito recomendado es:
 
-- Aplicar una tasa de otro año o jurisdicción.
-- Confundir ingreso bruto con ingreso imponible o efectivo disponible.
-- Suponer que un gasto empresarial siempre es deducible.
-- Creer que una deducción y un crédito producen el mismo efecto.
-- Perder justificantes o mezclar cuentas personales y empresariales.
-- Confundir un reembolso con una reducción real del impuesto.
-- Esperar hasta el vencimiento para organizar la información.
-- Utilizar contenido educativo como asesoramiento individualizado.
+A) Reconstruir todo de memoria al momento de presentar la declaración
+B) Reunir y organizar la documentación a medida que ocurren las cosas a lo largo del año
+C) Tirar todos los documentos de inmediato
+D) Guardar registros solo en el caso de las personas ricas
 
-## Actividad práctica
+**Pregunta 4.** Los buenos registros sirven como:
 
-1. Escribe una situación relacionada con este tema.
-2. Identifica jurisdicción y periodo fiscal.
-3. Enumera cinco hechos comprobables y tres datos faltantes.
-4. Reúne o describe los documentos pertinentes.
-5. Localiza una fuente oficial que deba consultarse.
-6. Redacta tres preguntas para un profesional fiscal.
-7. Explica qué dato podría cambiar la conclusión.
+A) Decoración
+B) Protección si alguna vez se cuestiona una reclamación
+C) Un sustituto de la presentación de la declaración
+D) Nada útil
 
-## Evaluación de competencia
+## Clave de respuestas
 
-1. ¿Por qué debe identificarse primero la jurisdicción?
-2. ¿Cuál es la diferencia entre hecho y supuesto?
-3. ¿Qué documento respaldaría la operación?
-4. ¿Qué fecha o periodo debe verificarse?
-5. ¿Qué organismo oficial podría publicar la regla?
-6. ¿Existe una posible excepción o clasificación alternativa?
-7. ¿Qué error produciría usar una tasa desactualizada?
-8. ¿Qué pregunta formularías a un profesional?
-9. ¿Qué registro conservarías y por cuánto tiempo según la regla aplicable?
-10. Resume el proceso de análisis sin inventar cifras.
+1. B, 2. A, 3. B, 4. B
 
-**Criterio de dominio:** 8 de 10 respuestas satisfactorias. Por debajo del 80 %, el alumno revisará la fuente, corregirá la clasificación y repetirá un escenario nuevo.
+## Respuestas y explicaciones
 
-## Respuestas orientativas
+**1.** Toda deducción, crédito o reclamación necesita, en última instancia, estar respaldada por documentación real si alguna vez se revisa.
 
-Las respuestas deben identificar jurisdicción, periodo, clasificación, hecho imponible, documentación y fuente oficial. Una buena respuesta declara incertidumbres y evita afirmar tasas, umbrales o plazos no verificados. Cuando falten hechos, la conclusión correcta es indicar qué información se necesita, no adivinar.
+**2.** Los recibos, los estados de cuenta, los recibos de nómina y las facturas forman la base de un buen sistema de registros.
+
+**3.** Reunir los documentos de forma continua y con poco esfuerzo es mejor que correr con estrés al final del año para reconstruir la historia financiera.
+
+**4.** La documentación es lo que respalda una reclamación si alguna vez una autoridad tributaria hace preguntas sobre ella.
 
 ## Puntos clave
 
-- Las reglas fiscales cambian según lugar, fecha y clasificación.
-- Primero se clasifican los hechos; después se calcula.
-- La documentación permite defender una posición.
-- Deducciones, créditos, exclusiones y pagos anticipados son conceptos distintos.
-- Las fuentes oficiales vigentes tienen prioridad sobre resúmenes educativos.
-- La planificación legal es distinta de ocultar, falsear o evadir obligaciones.
-
-## Ruta de aprendizaje
-
-- **Anterior:** GREEN-L1-023
-- **Actual:** GREEN-L1-024
-- **Siguiente:** GREEN-L1-025
-
-## Localización — España
-
-Contenido en español de España para educación comparada. Las referencias a formularios y entidades estadounidenses explican conceptos del currículo original y no sustituyen la normativa española. Antes de aplicar cualquier regla deben verificarse la Agencia Tributaria u otra autoridad competente, el periodo fiscal y las circunstancias concretas.
+- Llevar registros respalda cada deducción, crédito y reclamación que usted hace.
+- Guarde los recibos, los estados de cuenta, los recibos de nómina y las facturas a medida que se generan.
+- Organizar de forma continua es mejor que reconstruir a última hora.
+- Los buenos registros son su protección si alguna vez se cuestiona una reclamación.

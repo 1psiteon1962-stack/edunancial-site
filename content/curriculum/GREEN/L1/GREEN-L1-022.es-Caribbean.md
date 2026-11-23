@@ -1,82 +1,89 @@
 ---
 id: GREEN-L1-022
 track: GREEN
-officialTrackName: Impuestos
+officialTrackName: Taxes
 level: 1
 lessonNumber: 22
 locale: es-Caribbean
-title: "Pagos estimados para trabajadores por cuenta propia"
-summary: "Introduce los pagos tributarios estimados que pueden corresponder a personas que trabajan por cuenta propia y no tienen retención automática de un empleador."
+title: "Los impuestos estimados de quienes trabajan por cuenta propia"
+summary: "Presenta el concepto de los pagos trimestrales de impuestos estimados, una consecuencia directa de no tener un patrono que retenga impuestos automáticamente."
 version: 1.0
 author: Waldemar M. Caban, JD MA
 date: 2026-08-09
 ---
 
-# Pagos estimados para trabajadores por cuenta propia
+# Los impuestos estimados de quienes trabajan por cuenta propia
 
 ## Objetivos de aprendizaje
-
-- Explicar el concepto central de la lección.
-- Reconocer sus consecuencias prácticas.
-- Identificar cuándo deben verificarse reglas específicas de la jurisdicción.
+- Explicar por qué las personas que trabajan por cuenta propia a menudo tienen que hacer pagos de impuestos estimados.
+- Describir el ritmo general de los pagos estimados (periódicos, no una vez al año).
+- Relacionar esto con la lección anterior sobre el W-2 frente al 1099.
 
 ## Contenido principal
 
-Cuando una persona es empleada, el empleador puede retener impuestos durante el año. Quien trabaja por cuenta propia generalmente debe asumir directamente esa responsabilidad. En algunos sistemas esto implica realizar pagos estimados periódicos durante el año, con frecuencia trimestrales en Estados Unidos.
+Cuando usted es empleado, su patrono le retiene impuestos automáticamente a lo largo del año. Cuando trabaja por cuenta propia, nadie lo hace por usted; y precisamente por eso muchos sistemas exigen que las personas que trabajan por cuenta propia hagan pagos de impuestos estimados de forma periódica a lo largo del año, a menudo cada trimestre, en vez de pagarlo todo de una sola vez al presentar la declaración.
 
-No efectuar pagos requeridos no elimina la obligación tributaria y puede generar cargos o multas por pago insuficiente. Las fechas, umbrales y métodos varían según la jurisdicción, por lo que deben verificarse las reglas vigentes.
+Esta es una consecuencia directa y práctica de la distinción entre empleado y contratista vista antes. El gobierno sigue esperando que el impuesto se pague más o menos a medida que se gana el ingreso, y no todo de una vez al final del año; así que la responsabilidad que el sistema de nómina de un patrono maneja automáticamente para un empleado pasa por completo a la persona que trabaja por cuenta propia. Saltarse los pagos estimados no elimina el impuesto adeudado; solo crea el riesgo de penalidades por pago insuficiente, además del impuesto en sí, cuando el año por fin se concilia.
 
 ## Ejemplo práctico
 
-**Pregunta:** ¿Cuál sería el enfoque prudente antes de actuar sobre este tema?
+**Pregunta:** Una diseñadora gráfica que acaba de empezar a trabajar por cuenta propia supone que puede pagar todos sus impuestos de una vez cuando presente la declaración el año próximo. ¿Qué riesgo crea eso?
 
-**Estudiante:** Entender la regla general, mantener buena documentación y comprobar qué exige actualmente mi jurisdicción.
+**Estudiante:** Según esta lección, podría deber penalidades por no pagar a lo largo del año, además del impuesto en sí.
 
-**Guía:** Exactamente. El conocimiento del concepto le permite hacer mejores preguntas y evitar suposiciones costosas.
+**Guía:** ¿Por qué el sistema espera que se pague a lo largo del año en vez de todo de una vez?
+
+**Estudiante:** Porque así funciona también para los empleados, solo que de forma automática mediante la retención; la versión de quien trabaja por cuenta propia simplemente lo convierte en una responsabilidad manual en vez de automática.
+
+**Guía:** Exactamente: la expectativa de fondo no cambia, solo cambia quién es responsable de cumplirla.
 
 ## Prueba práctica
 
-**Pregunta 1.** Las reglas tributarias específicas:
-A) Son universales
-B) Pueden variar según jurisdicción y año
-C) Nunca cambian
-D) Solo importan a grandes empresas
+**Pregunta 1.** Los pagos de impuestos estimados son más relevantes para:
 
-**Pregunta 2.** Una buena práctica es:
-A) Ignorar documentación
-B) Mantener registros y verificar requisitos vigentes
-C) Esperar hasta tener un problema
-D) Suponer que las reglas de otro país aplican
+A) Los empleados con retención automática
+B) Las personas que trabajan por cuenta propia, sin un patrono que les retenga impuestos
+C) Solo las personas retiradas
+D) Solo las grandes corporaciones
 
-**Pregunta 3.** Comprender el mecanismo ayuda a:
-A) Analizar mejor una obligación o decisión
-B) Eliminar automáticamente impuestos
-C) Garantizar un reembolso
-D) Evitar toda presentación
+**Pregunta 2.** Los pagos estimados suelen hacerse:
 
-**Pregunta 4.** Cuando una situación es compleja, la educación financiera:
-A) Sustituye necesariamente asesoría profesional
-B) Ayuda a reconocer cuándo buscar información o asesoría apropiada
-C) Hace innecesarias las leyes
-D) Garantiza un resultado
+A) Una vez, al final del año
+B) De forma periódica a lo largo del año, a menudo cada trimestre
+C) Nunca
+D) Solo si el gobierno los pide
+
+**Pregunta 3.** Saltarse los pagos estimados, por lo general:
+
+A) Elimina el impuesto adeudado
+B) Crea el riesgo de penalidades por pago insuficiente, además del impuesto en sí
+C) No tiene ninguna consecuencia
+D) Da como resultado un reembolso automático
+
+**Pregunta 4.** ¿Con qué tema anterior se conecta más directamente esta lección?
+
+A) El impuesto sobre la propiedad
+B) El W-2 frente al 1099 / empleado frente a contratista
+C) Los bienes públicos
+D) El impuesto sobre las ventas
 
 ## Clave de respuestas
 
-1. B, 2. B, 3. A, 4. B
+1. B, 2. B, 3. B, 4. B
 
 ## Respuestas y explicaciones
 
-**1.** Las leyes tributarias dependen de la jurisdicción y pueden cambiar.
+**1.** Como ningún patrono les retiene impuestos, las personas que trabajan por cuenta propia tienen que estimar y pagar por iniciativa propia sus impuestos.
 
-**2.** La documentación y la verificación reducen errores y permiten respaldar decisiones.
+**2.** Los pagos periódicos a lo largo del año reflejan la expectativa de pago sobre la marcha que tienen incorporada la mayoría de los sistemas.
 
-**3.** Entender el concepto mejora el análisis; no elimina las obligaciones aplicables.
+**3.** Las penalidades por pago insuficiente existen precisamente para desalentar que se espere al final del año para pagarlo todo de una vez.
 
-**4.** La alfabetización financiera ayuda a identificar cuándo se necesita información adicional o asistencia profesional.
+**4.** Esta lección es, en esencia, la aplicación práctica de la distinción anterior entre empleado y contratista.
 
 ## Puntos clave
 
-- Conozca la regla general y verifique la específica.
-- Mantenga documentación organizada.
-- No suponga que una regla de otra jurisdicción aplica a su situación.
-- Planifique con anticipación en vez de reaccionar al final.
+- En general, las personas que trabajan por cuenta propia tienen que hacer ellas mismas los pagos de impuestos estimados.
+- Estos pagos suelen ser periódicos (a menudo trimestrales), no un solo pago grande al final del año.
+- Saltarse los pagos estimados crea el riesgo de penalidades, aunque el impuesto se siga debiendo al final.
+- Esta es una consecuencia directa de no tener el sistema de retención automática de un patrono.

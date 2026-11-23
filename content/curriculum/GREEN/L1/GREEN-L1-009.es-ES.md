@@ -1,116 +1,92 @@
 ---
 id: GREEN-L1-009
 track: GREEN
-officialTrackName: "Business Taxes"
+officialTrackName: Taxes
 level: 1
 lessonNumber: 9
 locale: es-ES
-title: "Tipos marginales: ganar más no significa perder más"
-summary: "Introducción práctica a tipos marginales: ganar más no significa perder más, con énfasis en conceptos, documentación, decisiones y verificación mediante fuentes oficiales."
-version: "1.0"
-author: "Waldemar M. Caban, JD MA"
-date: "2026-09-01"
+title: "Las tasas marginales: por qué ganar más no significa perder más"
+summary: "Aclara uno de los malentendidos más comunes de las finanzas personales: la idea de que pasar a un tramo impositivo más alto hace que todo su ingreso se grave a la tasa más alta."
+version: 1.0
+author: Waldemar M. Caban, JD MA
+date: 2026-08-09
 ---
 
-# 9. Tipos marginales: ganar más no significa perder más
+# Las tasas marginales: por qué ganar más no significa perder más
 
 ## Objetivos de aprendizaje
 
-Al terminar esta lección, el alumno podrá:
+- Explicar qué es una tasa marginal de impuesto.
+- Corregir la idea errónea común de que un aumento puede dejarle con menos dinero en total.
+- Distinguir la tasa marginal de la tasa promedio (efectiva).
 
-1. Explicar con palabras sencillas el concepto de **tipos marginales: ganar más no significa perder más**.
-2. Identificar quién paga, quién recauda y qué hecho puede generar la obligación.
-3. Distinguir una regla general de una excepción que exige verificación.
-4. Organizar la documentación necesaria para revisar una posición fiscal.
-5. Formular preguntas útiles para una fuente oficial o un profesional cualificado.
+## Contenido principal
 
-## Concepto principal
+Uno de los malentendidos más persistentes de las finanzas personales es el temor de que ganar más dinero le deje de alguna manera en peor situación porque lo empuja a un «tramo impositivo más alto». En los sistemas que usan tramos marginales, ese temor casi siempre es infundado.
 
-[HECHO VERIFICABLE] Los impuestos son obligaciones creadas por una jurisdicción. La respuesta correcta depende del país, territorio, estado o provincia, municipio, periodo fiscal, tipo de contribuyente y naturaleza de la operación. Por eso, comprender **tipos marginales: ganar más no significa perder más** exige identificar primero la jurisdicción y la fecha aplicable.
+Así funcionan realmente las tasas marginales: la tasa de cada tramo se aplica solo a la parte del ingreso que cae dentro de ese tramo, no a todo su ingreso. Si un sistema grava el ingreso hasta cierta cantidad al 10 % y el siguiente bloque al 20 %, pasar al tramo del 20 % solo significa que ese bloque adicional se grava al 20 %. La parte anterior se sigue gravando al 10 %, exactamente igual que antes.
 
-La educación fiscal no consiste en memorizar una cifra aislada. Consiste en reconocer el hecho imponible, la base, el tipo, las deducciones o créditos posibles, el plazo, la documentación y la autoridad que publica la regla. Las tasas, umbrales y formularios pueden cambiar; antes de actuar deben comprobarse en una fuente oficial vigente.
+Esto significa que su tasa promedio, o «efectiva» —el total de impuestos pagados dividido entre el ingreso total—, siempre es menor que su tasa marginal más alta. Un aumento que lo lleve a un tramo más alto puede significar que los euros nuevos se graven a una tasa mayor, pero en un sistema marginal estándar usted nunca se llevará a casa menos dinero en total por recibir un aumento. Entender esto elimina un temor común e innecesario en torno a los ascensos, los aumentos y el crecimiento de un negocio.
 
-## Marco práctico de análisis
+## Ejemplo práctico
 
-Utiliza estas preguntas:
+**Pregunta:** Una amiga rechaza un aumento porque teme que «la empuje a un tramo más alto y la deje con menos dinero». ¿Qué le diría usted?
 
-- ¿Qué jurisdicción tiene autoridad sobre la persona o transacción?
-- ¿Cuál es el periodo fiscal?
-- ¿Quién es el contribuyente y cuál es su clasificación?
-- ¿Qué ingreso, compra, propiedad o actividad activa la regla?
-- ¿Cómo se calcula la base?
-- ¿Existe una deducción, crédito, exclusión o exención?
-- ¿Qué formulario, pago o registro se exige?
-- ¿Cuál es el plazo y qué ocurre si se incumple?
-- ¿Qué fuente oficial confirma la respuesta?
+**Estudiante:** Le explicaría que solo el ingreso nuevo, el adicional, se grava a la tasa más alta, no todo lo que gana.
 
-## Ejemplo educativo
+**Guía:** Correcto. ¿Puede explicar por qué eso significa que nunca terminaría con menos dinero neto en total por recibir un aumento?
 
-[SUPUESTO] Una persona obtiene 48.000 unidades monetarias de ingresos y además recibe 3.000 por un trabajo independiente. Conserva recibos, estados de cuenta y documentos de pago, pero todavía no sabe cómo se clasifica cada cantidad. Antes de calcular, identifica su jurisdicción, periodo fiscal, condición laboral y naturaleza de los gastos.
+**Estudiante:** Porque el resto de su ingreso se sigue gravando a las mismas tasas más bajas de siempre; la tasa más alta solo toca la parte que supera el umbral.
 
-Este ejemplo no determina una obligación real. Muestra el orden correcto: clasificar hechos, reunir documentación, consultar instrucciones oficiales y calcular solamente después. Si una regla afecta empleo, empresa, inversión o propiedad, debe analizarse por separado antes de integrar el resultado.
+**Guía:** Exactamente. El temor se basa en un malentendido sobre cómo se aplican realmente los tramos.
 
-## Aplicación al tema
+## Cuestionario práctico
 
-Para estudiar **tipos marginales: ganar más no significa perder más**, crea una hoja de trabajo con cuatro columnas: hecho, posible tratamiento, documento de respaldo y fuente pendiente de verificación. Marca como **HECHO** lo demostrado, como **SUPUESTO** lo que falta confirmar y como **OPINIÓN** cualquier recomendación basada en preferencias o tolerancia al riesgo.
+**Pregunta 1.** Una tasa marginal de impuesto se aplica a:
 
-No mezcles traducción con localización jurídica. Un término estadounidense como W-2, 1099, Medicare, LLC, S-Corp, Roth o impuesto estatal sobre ventas puede traducirse para aprender el concepto, pero no debe presentarse como si fuera una figura idéntica en España u otra jurisdicción.
+A) Todo su ingreso a la vez
+B) Solo la parte del ingreso que cae dentro de ese tramo específico
+C) Solo su primer cheque
+D) A nada: es un mito
 
-## Errores comunes
+**Pregunta 2.** Si un aumento lo lleva a un tramo más alto en un sistema marginal, ¿disminuye su ingreso neto en total?
 
-- Aplicar una tasa de otro año o jurisdicción.
-- Confundir ingreso bruto con ingreso imponible o efectivo disponible.
-- Suponer que un gasto empresarial siempre es deducible.
-- Creer que una deducción y un crédito producen el mismo efecto.
-- Perder justificantes o mezclar cuentas personales y empresariales.
-- Confundir un reembolso con una reducción real del impuesto.
-- Esperar hasta el vencimiento para organizar la información.
-- Utilizar contenido educativo como asesoramiento individualizado.
+A) Sí, siempre
+B) No: solo la parte nueva se grava a la tasa más alta
+C) Solo en el caso de quienes trabajan por cuenta propia
+D) Solo en algunos países, nunca en otros
 
-## Actividad práctica
+**Pregunta 3.** Su tasa efectiva (promedio) de impuesto es:
 
-1. Escribe una situación relacionada con este tema.
-2. Identifica jurisdicción y periodo fiscal.
-3. Enumera cinco hechos comprobables y tres datos faltantes.
-4. Reúne o describe los documentos pertinentes.
-5. Localiza una fuente oficial que deba consultarse.
-6. Redacta tres preguntas para un profesional fiscal.
-7. Explica qué dato podría cambiar la conclusión.
+A) Siempre igual a su tasa marginal más alta
+B) Siempre mayor que su tasa marginal más alta
+C) Normalmente menor que su tasa marginal más alta
+D) Ajena a su ingreso
 
-## Evaluación de competencia
+**Pregunta 4.** El temor de que «un aumento lo puede dejar con menos dinero» es, en general:
 
-1. ¿Por qué debe identificarse primero la jurisdicción?
-2. ¿Cuál es la diferencia entre hecho y supuesto?
-3. ¿Qué documento respaldaría la operación?
-4. ¿Qué fecha o periodo debe verificarse?
-5. ¿Qué organismo oficial podría publicar la regla?
-6. ¿Existe una posible excepción o clasificación alternativa?
-7. ¿Qué error produciría usar una tasa desactualizada?
-8. ¿Qué pregunta formularías a un profesional?
-9. ¿Qué registro conservarías y por cuánto tiempo según la regla aplicable?
-10. Resume el proceso de análisis sin inventar cifras.
+A) Correcto en los sistemas marginales
+B) Un malentendido común sobre cómo funcionan los tramos
+C) Cierto solo para los ricos
+D) Imposible de evaluar
 
-**Criterio de dominio:** 8 de 10 respuestas satisfactorias. Por debajo del 80 %, el alumno revisará la fuente, corregirá la clasificación y repetirá un escenario nuevo.
+## Clave de respuestas
 
-## Respuestas orientativas
+1. B, 2. B, 3. C, 4. B
 
-Las respuestas deben identificar jurisdicción, periodo, clasificación, hecho imponible, documentación y fuente oficial. Una buena respuesta declara incertidumbres y evita afirmar tasas, umbrales o plazos no verificados. Cuando falten hechos, la conclusión correcta es indicar qué información se necesita, no adivinar.
+## Respuestas y explicaciones
+
+**1.** Las tasas marginales se aplican tramo por tramo, no como una tasa general sobre el ingreso total.
+
+**2.** Como solo el ingreso nuevo que supera el umbral se grava a la tasa más alta, el ingreso neto total por un aumento nunca disminuye en un sistema marginal estándar.
+
+**3.** Al combinar las tasas de los tramos bajos y altos sobre todo su ingreso, siempre se obtiene un promedio inferior a la tasa más alta.
+
+**4.** Este temor es muy común, pero no resiste el análisis una vez que se entiende cómo se aplican realmente los tramos.
 
 ## Puntos clave
 
-- Las reglas fiscales cambian según lugar, fecha y clasificación.
-- Primero se clasifican los hechos; después se calcula.
-- La documentación permite defender una posición.
-- Deducciones, créditos, exclusiones y pagos anticipados son conceptos distintos.
-- Las fuentes oficiales vigentes tienen prioridad sobre resúmenes educativos.
-- La planificación legal es distinta de ocultar, falsear o evadir obligaciones.
-
-## Ruta de aprendizaje
-
-- **Anterior:** GREEN-L1-008
-- **Actual:** GREEN-L1-009
-- **Siguiente:** GREEN-L1-010
-
-## Localización — España
-
-Contenido en español de España para educación comparada. Las referencias a formularios y entidades estadounidenses explican conceptos del currículo original y no sustituyen la normativa española. Antes de aplicar cualquier regla deben verificarse la Agencia Tributaria u otra autoridad competente, el periodo fiscal y las circunstancias concretas.
+- Las tasas marginales se aplican solo al ingreso dentro de cada tramo específico.
+- En un sistema marginal estándar, un aumento nunca produce un ingreso neto total menor.
+- Su tasa efectiva es un promedio combinado, siempre inferior a su tasa marginal más alta.
+- Entender esto elimina un temor innecesario en torno a los aumentos, los ascensos y el crecimiento de un negocio.

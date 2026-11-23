@@ -1,116 +1,89 @@
 ---
 id: GREEN-L1-033
 track: GREEN
-officialTrackName: "Business Taxes"
+officialTrackName: Taxes
 level: 1
 lessonNumber: 33
 locale: es-ES
-title: "Dividendos e intereses: tributación de los ingresos de inversión"
-summary: "Introducción práctica a dividendos e intereses: tributación de los ingresos de inversión, con énfasis en conceptos, documentación, decisiones y verificación mediante fuentes oficiales."
-version: "1.0"
-author: "Waldemar M. Caban, JD MA"
-date: "2026-09-01"
+title: "Los dividendos y los intereses: cómo tributa el ingreso de las inversiones"
+summary: "Presenta los dividendos y los intereses como dos formas comunes de ingreso de las inversiones distintas de las ganancias de capital, ya que se generan por tener un activo, no por venderlo."
+version: 1.0
+author: Waldemar M. Caban, JD MA
+date: 2026-08-09
 ---
 
-# 33. Dividendos e intereses: tributación de los ingresos de inversión
+# Los dividendos y los intereses: cómo tributa el ingreso de las inversiones
 
 ## Objetivos de aprendizaje
+- Distinguir los dividendos y los intereses de las ganancias de capital.
+- Explicar que el ingreso por dividendos e intereses, en general, tributa en el año en que se recibe.
+- Reconocerlos como fuentes de ingreso continuas, no como hechos de venta de una sola vez.
 
-Al terminar esta lección, el alumno podrá:
+## Contenido principal
 
-1. Explicar con palabras sencillas el concepto de **dividendos e intereses: tributación de los ingresos de inversión**.
-2. Identificar quién paga, quién recauda y qué hecho puede generar la obligación.
-3. Distinguir una regla general de una excepción que exige verificación.
-4. Organizar la documentación necesaria para revisar una posición fiscal.
-5. Formular preguntas útiles para una fuente oficial o un profesional cualificado.
+Hasta ahora, esta ruta se ha enfocado mucho en las ganancias de capital: la ganancia de vender un activo. Pero hay otras dos formas comunes de ingreso de las inversiones que no requieren vender nada: los dividendos (una parte de las ganancias de una empresa que se paga a los accionistas, a menudo de forma periódica) y los intereses (los pagos que se ganan por el dinero prestado, como en una cuenta de ahorros o un bono).
 
-## Concepto principal
+A diferencia de las ganancias de capital, que normalmente se activan con una venta, el ingreso por dividendos e intereses en general tributa en el año en que se recibe, sin importar si la inversión de fondo se vende alguna vez. Una inversionista que tiene durante décadas una acción que paga dividendos, sin vender ni una sola acción, en general seguirá debiendo cada año el impuesto sobre los dividendos recibidos durante ese tiempo. Reconocerlos como fuentes de ingreso distintas y continuas, separadas del funcionamiento de las ganancias de capital que se activa con la venta, completa el cuadro básico de cómo tributa el ingreso de las inversiones.
 
-[HECHO VERIFICABLE] Los impuestos son obligaciones creadas por una jurisdicción. La respuesta correcta depende del país, territorio, estado o provincia, municipio, periodo fiscal, tipo de contribuyente y naturaleza de la operación. Por eso, comprender **dividendos e intereses: tributación de los ingresos de inversión** exige identificar primero la jurisdicción y la fecha aplicable.
+## Ejemplo práctico
 
-La educación fiscal no consiste en memorizar una cifra aislada. Consiste en reconocer el hecho imponible, la base, el tipo, las deducciones o créditos posibles, el plazo, la documentación y la autoridad que publica la regla. Las tasas, umbrales y formularios pueden cambiar; antes de actuar deben comprobarse en una fuente oficial vigente.
+**Pregunta:** Una inversionista tiene una acción durante 15 años sin venderla nunca, pero la empresa paga un dividendo cada trimestre. ¿Evita todo impuesto sobre esa acción por no venderla nunca?
 
-## Marco práctico de análisis
+**Estudiante:** Según esta lección, no: los dividendos en sí, en general, tributan cada año en que los recibe, aunque no haya una venta.
 
-Utiliza estas preguntas:
+**Guía:** Entonces, ¿qué tributa realmente cada año y qué solo tributaría si al final la vendiera?
 
-- ¿Qué jurisdicción tiene autoridad sobre la persona o transacción?
-- ¿Cuál es el periodo fiscal?
-- ¿Quién es el contribuyente y cuál es su clasificación?
-- ¿Qué ingreso, compra, propiedad o actividad activa la regla?
-- ¿Cómo se calcula la base?
-- ¿Existe una deducción, crédito, exclusión o exención?
-- ¿Qué formulario, pago o registro se exige?
-- ¿Cuál es el plazo y qué ocurre si se incumple?
-- ¿Qué fuente oficial confirma la respuesta?
+**Estudiante:** Los dividendos tributan a medida que se reciben. La valorización del precio de la acción solo se convertiría en una ganancia de capital tributable si llega a venderla y cuando la venda.
 
-## Ejemplo educativo
+**Guía:** Exactamente: dos fuentes de ingreso distintas, dos detonantes distintos.
 
-[SUPUESTO] Una persona obtiene 48.000 unidades monetarias de ingresos y además recibe 3.000 por un trabajo independiente. Conserva recibos, estados de cuenta y documentos de pago, pero todavía no sabe cómo se clasifica cada cantidad. Antes de calcular, identifica su jurisdicción, periodo fiscal, condición laboral y naturaleza de los gastos.
+## Cuestionario práctico
 
-Este ejemplo no determina una obligación real. Muestra el orden correcto: clasificar hechos, reunir documentación, consultar instrucciones oficiales y calcular solamente después. Si una regla afecta empleo, empresa, inversión o propiedad, debe analizarse por separado antes de integrar el resultado.
+**Pregunta 1.** Un dividendo es:
 
-## Aplicación al tema
+A) Un tipo de préstamo
+B) Una parte de las ganancias de una empresa que se paga a los accionistas
+C) Lo mismo que una ganancia de capital
+D) Un crédito tributario del gobierno
 
-Para estudiar **dividendos e intereses: tributación de los ingresos de inversión**, crea una hoja de trabajo con cuatro columnas: hecho, posible tratamiento, documento de respaldo y fuente pendiente de verificación. Marca como **HECHO** lo demostrado, como **SUPUESTO** lo que falta confirmar y como **OPINIÓN** cualquier recomendación basada en preferencias o tolerancia al riesgo.
+**Pregunta 2.** En general, los intereses son:
 
-No mezcles traducción con localización jurídica. Un término estadounidense como W-2, 1099, Medicare, LLC, S-Corp, Roth o impuesto estatal sobre ventas puede traducirse para aprender el concepto, pero no debe presentarse como si fuera una figura idéntica en España u otra jurisdicción.
+A) La ganancia de vender un activo
+B) El pago que se gana por el dinero prestado, como en los ahorros o los bonos
+C) Lo mismo que un dividendo
+D) Algo relevante solo para los negocios
 
-## Errores comunes
+**Pregunta 3.** A diferencia de las ganancias de capital, el ingreso por dividendos e intereses en general tributa:
 
-- Aplicar una tasa de otro año o jurisdicción.
-- Confundir ingreso bruto con ingreso imponible o efectivo disponible.
-- Suponer que un gasto empresarial siempre es deducible.
-- Creer que una deducción y un crédito producen el mismo efecto.
-- Perder justificantes o mezclar cuentas personales y empresariales.
-- Confundir un reembolso con una reducción real del impuesto.
-- Esperar hasta el vencimiento para organizar la información.
-- Utilizar contenido educativo como asesoramiento individualizado.
+A) Solo al vender el activo de fondo
+B) En el año en que se recibe, sin importar si hay una venta
+C) Nunca
+D) Solo después de diez años
 
-## Actividad práctica
+**Pregunta 4.** ¿Puede una inversionista evitar todo impuesto sobre una acción simplemente por no venderla nunca?
 
-1. Escribe una situación relacionada con este tema.
-2. Identifica jurisdicción y periodo fiscal.
-3. Enumera cinco hechos comprobables y tres datos faltantes.
-4. Reúne o describe los documentos pertinentes.
-5. Localiza una fuente oficial que deba consultarse.
-6. Redacta tres preguntas para un profesional fiscal.
-7. Explica qué dato podría cambiar la conclusión.
+A) Sí, siempre
+B) No: los dividendos recibidos a lo largo del camino, en general, siguen tributando
+C) Solo si la acción pierde valor
+D) Solo en el caso de los bonos
 
-## Evaluación de competencia
+## Clave de respuestas
 
-1. ¿Por qué debe identificarse primero la jurisdicción?
-2. ¿Cuál es la diferencia entre hecho y supuesto?
-3. ¿Qué documento respaldaría la operación?
-4. ¿Qué fecha o periodo debe verificarse?
-5. ¿Qué organismo oficial podría publicar la regla?
-6. ¿Existe una posible excepción o clasificación alternativa?
-7. ¿Qué error produciría usar una tasa desactualizada?
-8. ¿Qué pregunta formularías a un profesional?
-9. ¿Qué registro conservarías y por cuánto tiempo según la regla aplicable?
-10. Resume el proceso de análisis sin inventar cifras.
+1. B, 2. B, 3. B, 4. B
 
-**Criterio de dominio:** 8 de 10 respuestas satisfactorias. Por debajo del 80 %, el alumno revisará la fuente, corregirá la clasificación y repetirá un escenario nuevo.
+## Respuestas y explicaciones
 
-## Respuestas orientativas
+**1.** Un dividendo es una distribución de las ganancias de la empresa a los accionistas, distinta de una transacción de venta.
 
-Las respuestas deben identificar jurisdicción, periodo, clasificación, hecho imponible, documentación y fuente oficial. Una buena respuesta declara incertidumbres y evita afirmar tasas, umbrales o plazos no verificados. Cuando falten hechos, la conclusión correcta es indicar qué información se necesita, no adivinar.
+**2.** Los intereses son la compensación por prestar dinero, ya sea mediante una cuenta bancaria, un bono o un instrumento parecido.
+
+**3.** Estos tipos de ingreso tributan a medida que se reciben, a diferencia de las ganancias de capital, que esperan a una venta para activar el impuesto.
+
+**4.** El ingreso continuo, como los dividendos, sigue generando obligaciones tributarias año tras año, sin importar si el activo se vende alguna vez.
 
 ## Puntos clave
 
-- Las reglas fiscales cambian según lugar, fecha y clasificación.
-- Primero se clasifican los hechos; después se calcula.
-- La documentación permite defender una posición.
-- Deducciones, créditos, exclusiones y pagos anticipados son conceptos distintos.
-- Las fuentes oficiales vigentes tienen prioridad sobre resúmenes educativos.
-- La planificación legal es distinta de ocultar, falsear o evadir obligaciones.
-
-## Ruta de aprendizaje
-
-- **Anterior:** GREEN-L1-032
-- **Actual:** GREEN-L1-033
-- **Siguiente:** GREEN-L1-034
-
-## Localización — España
-
-Contenido en español de España para educación comparada. Las referencias a formularios y entidades estadounidenses explican conceptos del currículo original y no sustituyen la normativa española. Antes de aplicar cualquier regla deben verificarse la Agencia Tributaria u otra autoridad competente, el periodo fiscal y las circunstancias concretas.
+- Los dividendos y los intereses son tipos de ingreso de las inversiones distintos de las ganancias de capital.
+- En general, tributan en el año en que se reciben, no al vender.
+- Tener un activo sin venderlo no evita el impuesto sobre el ingreso que genera a lo largo del camino.
+- Reconocerlos como fuentes distintas y continuas completa el cuadro básico del ingreso de las inversiones.

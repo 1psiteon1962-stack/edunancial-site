@@ -1,116 +1,89 @@
 ---
 id: GREEN-L1-018
 track: GREEN
-officialTrackName: "Business Taxes"
+officialTrackName: Taxes
 level: 1
 lessonNumber: 18
 locale: es-ES
-title: "Estado civil fiscal: soltero, casado o cabeza de familia"
-summary: "Introducción práctica a estado civil fiscal: soltero, casado o cabeza de familia, con énfasis en conceptos, documentación, decisiones y verificación mediante fuentes oficiales."
-version: "1.0"
-author: "Waldemar M. Caban, JD MA"
-date: "2026-09-01"
+title: "El estado civil para la declaración: soltero, casado, jefe de familia"
+summary: "Presenta el concepto del estado civil para la declaración y por qué la situación conyugal y del hogar puede afectar el cálculo de los impuestos."
+version: 1.0
+author: Waldemar M. Caban, JD MA
+date: 2026-08-09
 ---
 
-# 18. Estado civil fiscal: soltero, casado o cabeza de familia
+# El estado civil para la declaración: soltero, casado, jefe de familia
 
 ## Objetivos de aprendizaje
+- Explicar qué significa el estado civil para la declaración.
+- Identificar las categorías comunes de estado civil para la declaración.
+- Explicar, en términos generales, por qué el estado civil para la declaración puede afectar el resultado tributario.
 
-Al terminar esta lección, el alumno podrá:
+## Contenido principal
 
-1. Explicar con palabras sencillas el concepto de **estado civil fiscal: soltero, casado o cabeza de familia**.
-2. Identificar quién paga, quién recauda y qué hecho puede generar la obligación.
-3. Distinguir una regla general de una excepción que exige verificación.
-4. Organizar la documentación necesaria para revisar una posición fiscal.
-5. Formular preguntas útiles para una fuente oficial o un profesional cualificado.
+El estado civil para la declaración es una categoría, basada en su situación conyugal y del hogar, que muchos sistemas tributarios usan para determinar qué tramos, qué cantidades de deducción y qué reglas de elegibilidad se le aplican. Entre las categorías comunes están soltero, casado (a veces con la opción de declarar en conjunto o por separado) y jefe de familia (normalmente para una persona no casada que mantiene dependientes).
 
-## Concepto principal
+El estado civil para la declaración importa porque cambia el cálculo de fondo: el mismo ingreso puede dar como resultado una cantidad distinta de impuesto adeudado según el estado que se aplique, porque los umbrales de los tramos y las cantidades de la deducción estándar a menudo se fijan de forma distinta para cada categoría. No es una laguna legal ni un truco; refleja un juicio de política según el cual la composición del hogar afecta la capacidad financiera real de una persona o familia para pagar impuestos.
 
-[HECHO VERIFICABLE] Los impuestos son obligaciones creadas por una jurisdicción. La respuesta correcta depende del país, territorio, estado o provincia, municipio, periodo fiscal, tipo de contribuyente y naturaleza de la operación. Por eso, comprender **estado civil fiscal: soltero, casado o cabeza de familia** exige identificar primero la jurisdicción y la fecha aplicable.
+## Ejemplo práctico
 
-La educación fiscal no consiste en memorizar una cifra aislada. Consiste en reconocer el hecho imponible, la base, el tipo, las deducciones o créditos posibles, el plazo, la documentación y la autoridad que publica la regla. Las tasas, umbrales y formularios pueden cambiar; antes de actuar deben comprobarse en una fuente oficial vigente.
+**Pregunta:** Dos personas ganan salarios idénticos, pero una es soltera y la otra mantiene a dos hijos dependientes como jefa de familia. ¿Esperaría que sus cálculos de impuestos fueran idénticos?
 
-## Marco práctico de análisis
+**Estudiante:** Probablemente no, porque el estado civil para la declaración cambia qué tramos y qué cantidades de deducción se aplican.
 
-Utiliza estas preguntas:
+**Guía:** ¿Por qué el sistema tributario podría tratar de forma distinta el caso de la jefa de familia?
 
-- ¿Qué jurisdicción tiene autoridad sobre la persona o transacción?
-- ¿Cuál es el periodo fiscal?
-- ¿Quién es el contribuyente y cuál es su clasificación?
-- ¿Qué ingreso, compra, propiedad o actividad activa la regla?
-- ¿Cómo se calcula la base?
-- ¿Existe una deducción, crédito, exclusión o exención?
-- ¿Qué formulario, pago o registro se exige?
-- ¿Cuál es el plazo y qué ocurre si se incumple?
-- ¿Qué fuente oficial confirma la respuesta?
+**Estudiante:** Porque mantener dependientes afecta cuánto de ese ingreso está realmente disponible para las propias necesidades de la persona, así que la política lo ajusta.
 
-## Ejemplo educativo
+**Guía:** Correcto: el estado civil para la declaración refleja un juicio sobre la capacidad financiera, no solo el ingreso bruto.
 
-[SUPUESTO] Una persona obtiene 48.000 unidades monetarias de ingresos y además recibe 3.000 por un trabajo independiente. Conserva recibos, estados de cuenta y documentos de pago, pero todavía no sabe cómo se clasifica cada cantidad. Antes de calcular, identifica su jurisdicción, periodo fiscal, condición laboral y naturaleza de los gastos.
+## Cuestionario práctico
 
-Este ejemplo no determina una obligación real. Muestra el orden correcto: clasificar hechos, reunir documentación, consultar instrucciones oficiales y calcular solamente después. Si una regla afecta empleo, empresa, inversión o propiedad, debe analizarse por separado antes de integrar el resultado.
+**Pregunta 1.** El estado civil para la declaración se basa en:
 
-## Aplicación al tema
+A) Su título de empleo
+B) Su situación conyugal y del hogar
+C) Solo su edad
+D) Su país de nacimiento
 
-Para estudiar **estado civil fiscal: soltero, casado o cabeza de familia**, crea una hoja de trabajo con cuatro columnas: hecho, posible tratamiento, documento de respaldo y fuente pendiente de verificación. Marca como **HECHO** lo demostrado, como **SUPUESTO** lo que falta confirmar y como **OPINIÓN** cualquier recomendación basada en preferencias o tolerancia al riesgo.
+**Pregunta 2.** Entre las categorías comunes de estado civil para la declaración están:
 
-No mezcles traducción con localización jurídica. Un término estadounidense como W-2, 1099, Medicare, LLC, S-Corp, Roth o impuesto estatal sobre ventas puede traducirse para aprender el concepto, pero no debe presentarse como si fuera una figura idéntica en España u otra jurisdicción.
+A) Soltero, casado, jefe de familia
+B) Solo «empleado» y «desempleado»
+C) Solo «rico» y «pobre»
+D) Solo «ciudadano» y «no ciudadano»
 
-## Errores comunes
+**Pregunta 3.** El estado civil para la declaración puede afectar:
 
-- Aplicar una tasa de otro año o jurisdicción.
-- Confundir ingreso bruto con ingreso imponible o efectivo disponible.
-- Suponer que un gasto empresarial siempre es deducible.
-- Creer que una deducción y un crédito producen el mismo efecto.
-- Perder justificantes o mezclar cuentas personales y empresariales.
-- Confundir un reembolso con una reducción real del impuesto.
-- Esperar hasta el vencimiento para organizar la información.
-- Utilizar contenido educativo como asesoramiento individualizado.
+A) Nada
+B) Los tramos y las cantidades de deducción que se aplican
+C) Solo su nombre en el formulario
+D) Solo el impuesto sobre las ventas
 
-## Actividad práctica
+**Pregunta 4.** En general, la razón por la que importa el estado civil para la declaración se describe como:
 
-1. Escribe una situación relacionada con este tema.
-2. Identifica jurisdicción y periodo fiscal.
-3. Enumera cinco hechos comprobables y tres datos faltantes.
-4. Reúne o describe los documentos pertinentes.
-5. Localiza una fuente oficial que deba consultarse.
-6. Redacta tres preguntas para un profesional fiscal.
-7. Explica qué dato podría cambiar la conclusión.
+A) Una laguna legal
+B) Un reflejo de la distinta capacidad financiera según la composición del hogar
+C) El azar
+D) Algo irrelevante para el cálculo de los impuestos
 
-## Evaluación de competencia
+## Clave de respuestas
 
-1. ¿Por qué debe identificarse primero la jurisdicción?
-2. ¿Cuál es la diferencia entre hecho y supuesto?
-3. ¿Qué documento respaldaría la operación?
-4. ¿Qué fecha o periodo debe verificarse?
-5. ¿Qué organismo oficial podría publicar la regla?
-6. ¿Existe una posible excepción o clasificación alternativa?
-7. ¿Qué error produciría usar una tasa desactualizada?
-8. ¿Qué pregunta formularías a un profesional?
-9. ¿Qué registro conservarías y por cuánto tiempo según la regla aplicable?
-10. Resume el proceso de análisis sin inventar cifras.
+1. B, 2. A, 3. B, 4. B
 
-**Criterio de dominio:** 8 de 10 respuestas satisfactorias. Por debajo del 80 %, el alumno revisará la fuente, corregirá la clasificación y repetirá un escenario nuevo.
+## Respuestas y explicaciones
 
-## Respuestas orientativas
+**1.** Las categorías de estado civil para la declaración se construyen alrededor del estado conyugal y de las responsabilidades del hogar.
 
-Las respuestas deben identificar jurisdicción, periodo, clasificación, hecho imponible, documentación y fuente oficial. Una buena respuesta declara incertidumbres y evita afirmar tasas, umbrales o plazos no verificados. Cuando falten hechos, la conclusión correcta es indicar qué información se necesita, no adivinar.
+**2.** Soltero, casado y jefe de familia son categorías de uso amplio, aunque los nombres exactos varían según el país.
+
+**3.** Los distintos estados a menudo vienen con distintos umbrales de tramos y distintas cantidades de deducción.
+
+**4.** El razonamiento de política es que la composición del hogar afecta la capacidad financiera real, no que sea un truco o un aprovechamiento.
 
 ## Puntos clave
 
-- Las reglas fiscales cambian según lugar, fecha y clasificación.
-- Primero se clasifican los hechos; después se calcula.
-- La documentación permite defender una posición.
-- Deducciones, créditos, exclusiones y pagos anticipados son conceptos distintos.
-- Las fuentes oficiales vigentes tienen prioridad sobre resúmenes educativos.
-- La planificación legal es distinta de ocultar, falsear o evadir obligaciones.
-
-## Ruta de aprendizaje
-
-- **Anterior:** GREEN-L1-017
-- **Actual:** GREEN-L1-018
-- **Siguiente:** GREEN-L1-019
-
-## Localización — España
-
-Contenido en español de España para educación comparada. Las referencias a formularios y entidades estadounidenses explican conceptos del currículo original y no sustituyen la normativa española. Antes de aplicar cualquier regla deben verificarse la Agencia Tributaria u otra autoridad competente, el periodo fiscal y las circunstancias concretas.
+- El estado civil para la declaración refleja la situación conyugal y del hogar.
+- Entre las categorías comunes están soltero, casado y jefe de familia.
+- El estado civil para la declaración afecta los tramos y las cantidades de deducción que se aplican.
+- Esto refleja juicios de política sobre la capacidad financiera, no una laguna legal.

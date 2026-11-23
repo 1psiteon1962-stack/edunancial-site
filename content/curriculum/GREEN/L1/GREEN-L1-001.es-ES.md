@@ -1,116 +1,107 @@
 ---
 id: GREEN-L1-001
 track: GREEN
-officialTrackName: "Business Taxes"
+officialTrackName: Taxes
 level: 1
 lessonNumber: 1
 locale: es-ES
-title: "Qué es un impuesto y por qué lo pagamos"
-summary: "Introducción práctica a qué es un impuesto y por qué lo pagamos, con énfasis en conceptos, documentación, decisiones y verificación mediante fuentes oficiales."
-version: "1.0"
-author: "Waldemar M. Caban, JD MA"
-date: "2026-09-01"
+title: "¿Qué es un impuesto y por qué los pagamos?"
+summary: "Una introducción al concepto básico de los impuestos: qué es un impuesto, quién lo cobra y por qué los gobiernos lo necesitan para funcionar."
+version: 1.0
+author: Waldemar M. Caban, JD MA
+date: 2026-08-09
 ---
 
-# 1. Qué es un impuesto y por qué lo pagamos
+# ¿Qué es un impuesto y por qué los pagamos?
 
 ## Objetivos de aprendizaje
+- Definir en términos sencillos qué es un impuesto.
+- Identificar los distintos niveles de gobierno que cobran impuestos.
+- Explicar, con sus propias palabras, por qué existen los impuestos.
 
-Al terminar esta lección, el alumno podrá:
+## Contenido principal
 
-1. Explicar con palabras sencillas el concepto de **qué es un impuesto y por qué lo pagamos**.
-2. Identificar quién paga, quién recauda y qué hecho puede generar la obligación.
-3. Distinguir una regla general de una excepción que exige verificación.
-4. Organizar la documentación necesaria para revisar una posición fiscal.
-5. Formular preguntas útiles para una fuente oficial o un profesional cualificado.
+Un impuesto es dinero que un gobierno exige que paguen las personas y los negocios, según reglas que fija el gobierno. No es opcional como lo es la membresía de un gimnasio. Si usted debe un impuesto y no lo paga, hay consecuencias legales.
 
-## Concepto principal
+Los gobiernos cobran impuestos en distintos niveles. En la mayoría de los países encontrará alguna combinación de impuestos nacionales (federales), regionales (estatales o provinciales) y locales (de la ciudad o del municipio). Cada nivel usa el dinero para cosas distintas: un gobierno nacional podría financiar la defensa y grandes programas públicos, mientras que una ciudad podría usar el dinero de los impuestos locales para pagar la recogida de basura, el arreglo de las calles o el cuerpo de bomberos local.
 
-[HECHO VERIFICABLE] Los impuestos son obligaciones creadas por una jurisdicción. La respuesta correcta depende del país, territorio, estado o provincia, municipio, periodo fiscal, tipo de contribuyente y naturaleza de la operación. Por eso, comprender **qué es un impuesto y por qué lo pagamos** exige identificar primero la jurisdicción y la fecha aplicable.
+La razón central de que existan los impuestos es sencilla: algunas cosas funcionan mejor cuando todos aportan a un fondo común en vez de que cada uno pague por su cuenta. Las carreteras, los tribunales, las escuelas públicas y la defensa nacional son difíciles o imposibles de comprar para una sola persona, pero benefician a casi todo el mundo. Los impuestos son el mecanismo que usan las sociedades para financiar esos bienes compartidos.
 
-La educación fiscal no consiste en memorizar una cifra aislada. Consiste en reconocer el hecho imponible, la base, el tipo, las deducciones o créditos posibles, el plazo, la documentación y la autoridad que publica la regla. Las tasas, umbrales y formularios pueden cambiar; antes de actuar deben comprobarse en una fuente oficial vigente.
+Vale la pena separar la *idea* de los impuestos de cualquier tasa o ley tributaria específica. Las tasas y las reglas cambian constantemente y varían según el país y el año. Lo que no cambia es el concepto de fondo: un aporte obligatorio, fijado por el gobierno, que se usa para financiar las necesidades colectivas.
 
-## Marco práctico de análisis
+> **Nota:** Las tasas impositivas, los nombres de las agencias y los umbrales específicos que se mencionan en cualquier parte de esta ruta son ilustrativos y varían según el país. Verifique siempre las cifras vigentes en su propia jurisdicción antes de tomar decisiones.
 
-Utiliza estas preguntas:
+## Ejemplo práctico
 
-- ¿Qué jurisdicción tiene autoridad sobre la persona o transacción?
-- ¿Cuál es el periodo fiscal?
-- ¿Quién es el contribuyente y cuál es su clasificación?
-- ¿Qué ingreso, compra, propiedad o actividad activa la regla?
-- ¿Cómo se calcula la base?
-- ¿Existe una deducción, crédito, exclusión o exención?
-- ¿Qué formulario, pago o registro se exige?
-- ¿Cuál es el plazo y qué ocurre si se incumple?
-- ¿Qué fuente oficial confirma la respuesta?
+**Pregunta:** La abuela de Ntege paga una cuota del mercado local cada vez que vende vestidos en el mercado del pueblo. ¿Eso es lo mismo que un impuesto?
 
-## Ejemplo educativo
+**Estudiante:** Creo que no: solo está pagando por usar una mesa en el mercado.
 
-[SUPUESTO] Una persona obtiene 48.000 unidades monetarias de ingresos y además recibe 3.000 por un trabajo independiente. Conserva recibos, estados de cuenta y documentos de pago, pero todavía no sabe cómo se clasifica cada cantidad. Antes de calcular, identifica su jurisdicción, periodo fiscal, condición laboral y naturaleza de los gastos.
+**Guía:** Mírelo con más cuidado. ¿Quién fija la cuota? ¿Es opcional?
 
-Este ejemplo no determina una obligación real. Muestra el orden correcto: clasificar hechos, reunir documentación, consultar instrucciones oficiales y calcular solamente después. Si una regla afecta empleo, empresa, inversión o propiedad, debe analizarse por separado antes de integrar el resultado.
+**Estudiante:** La fija la autoridad del mercado, y no: no se puede vender allí sin pagarla.
 
-## Aplicación al tema
+**Guía:** Esa es la prueba clave. Un pago obligatorio, fijado por una autoridad y ligado a una actividad que usted realiza: eso funciona como un impuesto, aunque se llame «cuota». Los gobiernos a menudo usan tanto impuestos propiamente dichos como cuotas obligatorias para financiar las funciones públicas, y la línea entre unos y otras a veces es borrosa.
 
-Para estudiar **qué es un impuesto y por qué lo pagamos**, crea una hoja de trabajo con cuatro columnas: hecho, posible tratamiento, documento de respaldo y fuente pendiente de verificación. Marca como **HECHO** lo demostrado, como **SUPUESTO** lo que falta confirmar y como **OPINIÓN** cualquier recomendación basada en preferencias o tolerancia al riesgo.
+**Estudiante:** Entonces se trata menos del nombre y más de si es obligatorio y lo fija una autoridad.
 
-No mezcles traducción con localización jurídica. Un término estadounidense como W-2, 1099, Medicare, LLC, S-Corp, Roth o impuesto estatal sobre ventas puede traducirse para aprender el concepto, pero no debe presentarse como si fuera una figura idéntica en España u otra jurisdicción.
+**Guía:** Exactamente.
 
-## Errores comunes
+## Cuestionario práctico
 
-- Aplicar una tasa de otro año o jurisdicción.
-- Confundir ingreso bruto con ingreso imponible o efectivo disponible.
-- Suponer que un gasto empresarial siempre es deducible.
-- Creer que una deducción y un crédito producen el mismo efecto.
-- Perder justificantes o mezclar cuentas personales y empresariales.
-- Confundir un reembolso con una reducción real del impuesto.
-- Esperar hasta el vencimiento para organizar la información.
-- Utilizar contenido educativo como asesoramiento individualizado.
+**Pregunta 1.** La mejor definición de un impuesto es:
 
-## Actividad práctica
+A) Dinero que usted decide donar al gobierno
+B) Un pago obligatorio, fijado por las reglas del gobierno, que se usa para financiar las necesidades públicas
+C) Una cuota que solo pagan los negocios
+D) Un aporte voluntario a una obra benéfica
 
-1. Escribe una situación relacionada con este tema.
-2. Identifica jurisdicción y periodo fiscal.
-3. Enumera cinco hechos comprobables y tres datos faltantes.
-4. Reúne o describe los documentos pertinentes.
-5. Localiza una fuente oficial que deba consultarse.
-6. Redacta tres preguntas para un profesional fiscal.
-7. Explica qué dato podría cambiar la conclusión.
+**Pregunta 2.** ¿Cuál de estos es un ejemplo de un bien compartido que suelen financiar los impuestos?
 
-## Evaluación de competencia
+A) Un yate privado
+B) Una cuenta de ahorros personal
+C) Las carreteras públicas
+D) El regalo de cumpleaños de un amigo
 
-1. ¿Por qué debe identificarse primero la jurisdicción?
-2. ¿Cuál es la diferencia entre hecho y supuesto?
-3. ¿Qué documento respaldaría la operación?
-4. ¿Qué fecha o periodo debe verificarse?
-5. ¿Qué organismo oficial podría publicar la regla?
-6. ¿Existe una posible excepción o clasificación alternativa?
-7. ¿Qué error produciría usar una tasa desactualizada?
-8. ¿Qué pregunta formularías a un profesional?
-9. ¿Qué registro conservarías y por cuánto tiempo según la regla aplicable?
-10. Resume el proceso de análisis sin inventar cifras.
+**Pregunta 3.** Los gobiernos pueden cobrar impuestos en:
 
-**Criterio de dominio:** 8 de 10 respuestas satisfactorias. Por debajo del 80 %, el alumno revisará la fuente, corregirá la clasificación y repetirá un escenario nuevo.
+A) Solo el nivel nacional
+B) Solo el nivel local
+C) Varios niveles: nacional, regional y local
+D) Ningún nivel; los impuestos son privados
 
-## Respuestas orientativas
+**Pregunta 4.** Verdadero o falso: las tasas y las reglas tributarias son las mismas en todos los países y nunca cambian.
 
-Las respuestas deben identificar jurisdicción, periodo, clasificación, hecho imponible, documentación y fuente oficial. Una buena respuesta declara incertidumbres y evita afirmar tasas, umbrales o plazos no verificados. Cuando falten hechos, la conclusión correcta es indicar qué información se necesita, no adivinar.
+A) Verdadero
+B) Falso
+
+**Pregunta 5.** Una cuota de mercado obligatoria fijada por una autoridad local:
+
+A) Nunca tiene relación con los impuestos
+B) Funciona como un impuesto aunque no se llame así
+C) Siempre es ilegal
+D) Solo es relevante para los negocios grandes
+
+## Clave de respuestas
+
+1. B, 2. C, 3. C, 4. B, 5. B
+
+## Respuestas y explicaciones
+
+**1.** Un impuesto es obligatorio, no opcional, y lo fija una autoridad de gobierno: eso lo distingue de una donación.
+
+**2.** Las carreteras son un bien compartido que casi todo el mundo usa y que pocas personas podrían construir solas, que es exactamente el tipo de cosa que los impuestos existen para financiar.
+
+**3.** La mayoría de los países reparten los impuestos entre el gobierno nacional, el regional y el local, y cada uno financia responsabilidades distintas.
+
+**4.** Los sistemas tributarios varían enormemente según el país y cambian con el tiempo, así que las reglas específicas no son universales: solo lo es el concepto de fondo.
+
+**5.** La etiqueta importa menos que el fondo: obligatorio, fijado por una autoridad y ligado a una actividad; ese patrón se comporta como un impuesto.
 
 ## Puntos clave
 
-- Las reglas fiscales cambian según lugar, fecha y clasificación.
-- Primero se clasifican los hechos; después se calcula.
-- La documentación permite defender una posición.
-- Deducciones, créditos, exclusiones y pagos anticipados son conceptos distintos.
-- Las fuentes oficiales vigentes tienen prioridad sobre resúmenes educativos.
-- La planificación legal es distinta de ocultar, falsear o evadir obligaciones.
-
-## Ruta de aprendizaje
-
-- **Anterior:** Inicio del nivel
-- **Actual:** GREEN-L1-001
-- **Siguiente:** GREEN-L1-002
-
-## Localización — España
-
-Contenido en español de España para educación comparada. Las referencias a formularios y entidades estadounidenses explican conceptos del currículo original y no sustituyen la normativa española. Antes de aplicar cualquier regla deben verificarse la Agencia Tributaria u otra autoridad competente, el periodo fiscal y las circunstancias concretas.
+- Un impuesto es un pago obligatorio fijado por una autoridad de gobierno, no una decisión voluntaria.
+- Los impuestos existen para financiar las cosas que funcionan mejor como bienes compartidos y colectivos.
+- Los impuestos se cobran en varios niveles de gobierno, y cada uno financia responsabilidades distintas.
+- Las tasas y las reglas tributarias específicas varían según el país y cambian con el tiempo: no memorice cifras como si fueran hechos universales.
+- Las cuotas obligatorias pueden funcionar como impuestos aunque formalmente no se llamen así.

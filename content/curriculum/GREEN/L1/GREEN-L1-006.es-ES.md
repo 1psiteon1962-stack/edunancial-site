@@ -1,116 +1,90 @@
 ---
 id: GREEN-L1-006
 track: GREEN
-officialTrackName: "Business Taxes"
+officialTrackName: Taxes
 level: 1
 lessonNumber: 6
 locale: es-ES
-title: "Impuesto sobre la propiedad: gravar lo que se posee"
-summary: "Introducción práctica a impuesto sobre la propiedad: gravar lo que se posee, con énfasis en conceptos, documentación, decisiones y verificación mediante fuentes oficiales."
-version: "1.0"
-author: "Waldemar M. Caban, JD MA"
-date: "2026-09-01"
+title: "El impuesto sobre la propiedad: tributar sobre lo que usted posee"
+summary: "Una introducción al impuesto sobre la propiedad, que se aplica con mayor frecuencia a los bienes inmuebles, y a cómo financia los servicios locales."
+version: 1.0
+author: Waldemar M. Caban, JD MA
+date: 2026-08-09
 ---
 
-# 6. Impuesto sobre la propiedad: gravar lo que se posee
+# El impuesto sobre la propiedad: tributar sobre lo que usted posee
 
 ## Objetivos de aprendizaje
 
-Al terminar esta lección, el alumno podrá:
+- Explicar a qué se aplica normalmente el impuesto sobre la propiedad.
+- Identificar quién suele cobrar el impuesto sobre la propiedad.
+- Describir servicios locales comunes que se financian con el impuesto sobre la propiedad.
 
-1. Explicar con palabras sencillas el concepto de **impuesto sobre la propiedad: gravar lo que se posee**.
-2. Identificar quién paga, quién recauda y qué hecho puede generar la obligación.
-3. Distinguir una regla general de una excepción que exige verificación.
-4. Organizar la documentación necesaria para revisar una posición fiscal.
-5. Formular preguntas útiles para una fuente oficial o un profesional cualificado.
+## Contenido principal
 
-## Concepto principal
+El impuesto sobre la propiedad es un impuesto sobre las cosas que usted posee, con mayor frecuencia los bienes inmuebles: terrenos y edificaciones. A diferencia del impuesto sobre la renta o del impuesto sobre las ventas, que están vinculados a un hecho (ganar dinero o comprar algo), el impuesto sobre la propiedad suele cobrarse de forma continua, a menudo cada año, simplemente porque usted sigue siendo dueño del bien.
 
-[HECHO VERIFICABLE] Los impuestos son obligaciones creadas por una jurisdicción. La respuesta correcta depende del país, territorio, estado o provincia, municipio, periodo fiscal, tipo de contribuyente y naturaleza de la operación. Por eso, comprender **impuesto sobre la propiedad: gravar lo que se posee** exige identificar primero la jurisdicción y la fecha aplicable.
+Los gobiernos locales —municipios, condados o autoridades regionales similares— son quienes cobran con mayor frecuencia el impuesto sobre la propiedad, y este financia a menudo servicios cercanos a la comunidad: escuelas públicas, policía y bomberos locales, bibliotecas y mantenimiento de calles. Como se basa en la propiedad y no en una transacción, la factura del impuesto sobre la propiedad sigue llegando aunque cambie el ingreso del dueño ese año, y esa es parte de la razón por la que puede ser una consideración de planificación importante para los propietarios. (En España, por ejemplo, los ayuntamientos cobran a los propietarios el Impuesto sobre Bienes Inmuebles (IBI). Las reglas y exenciones varían, así que verifique las vigentes en su jurisdicción.)
 
-La educación fiscal no consiste en memorizar una cifra aislada. Consiste en reconocer el hecho imponible, la base, el tipo, las deducciones o créditos posibles, el plazo, la documentación y la autoridad que publica la regla. Las tasas, umbrales y formularios pueden cambiar; antes de actuar deben comprobarse en una fuente oficial vigente.
+## Ejemplo práctico
 
-## Marco práctico de análisis
+**Pregunta:** Una familia es dueña de su casa, pero tuvo un año difícil con menos ingresos. ¿Cambia su factura del impuesto sobre la propiedad porque bajaron sus ingresos?
 
-Utiliza estas preguntas:
+**Estudiante:** Supongo que sigue igual, porque el impuesto tiene que ver con la propiedad, no con el sueldo.
 
-- ¿Qué jurisdicción tiene autoridad sobre la persona o transacción?
-- ¿Cuál es el periodo fiscal?
-- ¿Quién es el contribuyente y cuál es su clasificación?
-- ¿Qué ingreso, compra, propiedad o actividad activa la regla?
-- ¿Cómo se calcula la base?
-- ¿Existe una deducción, crédito, exclusión o exención?
-- ¿Qué formulario, pago o registro se exige?
-- ¿Cuál es el plazo y qué ocurre si se incumple?
-- ¿Qué fuente oficial confirma la respuesta?
+**Guía:** Correcto. ¿Qué le dice eso sobre la naturaleza del impuesto sobre la propiedad en comparación con el impuesto sobre la renta?
 
-## Ejemplo educativo
+**Estudiante:** Que está vinculado a la propiedad, no a cuánto se gana ese año, así que no se ajusta automáticamente con el ingreso.
 
-[SUPUESTO] Una persona obtiene 48.000 unidades monetarias de ingresos y además recibe 3.000 por un trabajo independiente. Conserva recibos, estados de cuenta y documentos de pago, pero todavía no sabe cómo se clasifica cada cantidad. Antes de calcular, identifica su jurisdicción, periodo fiscal, condición laboral y naturaleza de los gastos.
+**Guía:** Exactamente. Es una distinción importante para la planificación.
 
-Este ejemplo no determina una obligación real. Muestra el orden correcto: clasificar hechos, reunir documentación, consultar instrucciones oficiales y calcular solamente después. Si una regla afecta empleo, empresa, inversión o propiedad, debe analizarse por separado antes de integrar el resultado.
+## Cuestionario práctico
 
-## Aplicación al tema
+**Pregunta 1.** El impuesto sobre la propiedad se aplica con mayor frecuencia a:
 
-Para estudiar **impuesto sobre la propiedad: gravar lo que se posee**, crea una hoja de trabajo con cuatro columnas: hecho, posible tratamiento, documento de respaldo y fuente pendiente de verificación. Marca como **HECHO** lo demostrado, como **SUPUESTO** lo que falta confirmar y como **OPINIÓN** cualquier recomendación basada en preferencias o tolerancia al riesgo.
+A) Los salarios
+B) Los bienes inmuebles
+C) Las compras al por menor
+D) Las ganancias de inversiones
 
-No mezcles traducción con localización jurídica. Un término estadounidense como W-2, 1099, Medicare, LLC, S-Corp, Roth o impuesto estatal sobre ventas puede traducirse para aprender el concepto, pero no debe presentarse como si fuera una figura idéntica en España u otra jurisdicción.
+**Pregunta 2.** El impuesto sobre la propiedad suele cobrarlo:
 
-## Errores comunes
+A) Solo el gobierno nacional
+B) El gobierno local
+C) Ningún gobierno
+D) Solo los bancos
 
-- Aplicar una tasa de otro año o jurisdicción.
-- Confundir ingreso bruto con ingreso imponible o efectivo disponible.
-- Suponer que un gasto empresarial siempre es deducible.
-- Creer que una deducción y un crédito producen el mismo efecto.
-- Perder justificantes o mezclar cuentas personales y empresariales.
-- Confundir un reembolso con una reducción real del impuesto.
-- Esperar hasta el vencimiento para organizar la información.
-- Utilizar contenido educativo como asesoramiento individualizado.
+**Pregunta 3.** El impuesto sobre la propiedad suele financiar:
 
-## Actividad práctica
+A) Solo la defensa nacional
+B) Servicios locales como escuelas y estaciones de bomberos
+C) Nada en particular
+D) Solo carreteras federales
 
-1. Escribe una situación relacionada con este tema.
-2. Identifica jurisdicción y periodo fiscal.
-3. Enumera cinco hechos comprobables y tres datos faltantes.
-4. Reúne o describe los documentos pertinentes.
-5. Localiza una fuente oficial que deba consultarse.
-6. Redacta tres preguntas para un profesional fiscal.
-7. Explica qué dato podría cambiar la conclusión.
+**Pregunta 4.** ¿Baja automáticamente el impuesto sobre la propiedad si disminuyen los ingresos del dueño?
 
-## Evaluación de competencia
+A) Sí, siempre
+B) No, está vinculado a la propiedad, no al ingreso
+C) Solo en el caso de las empresas
+D) Solo en países ricos
 
-1. ¿Por qué debe identificarse primero la jurisdicción?
-2. ¿Cuál es la diferencia entre hecho y supuesto?
-3. ¿Qué documento respaldaría la operación?
-4. ¿Qué fecha o periodo debe verificarse?
-5. ¿Qué organismo oficial podría publicar la regla?
-6. ¿Existe una posible excepción o clasificación alternativa?
-7. ¿Qué error produciría usar una tasa desactualizada?
-8. ¿Qué pregunta formularías a un profesional?
-9. ¿Qué registro conservarías y por cuánto tiempo según la regla aplicable?
-10. Resume el proceso de análisis sin inventar cifras.
+## Clave de respuestas
 
-**Criterio de dominio:** 8 de 10 respuestas satisfactorias. Por debajo del 80 %, el alumno revisará la fuente, corregirá la clasificación y repetirá un escenario nuevo.
+1. B, 2. B, 3. B, 4. B
 
-## Respuestas orientativas
+## Respuestas y explicaciones
 
-Las respuestas deben identificar jurisdicción, periodo, clasificación, hecho imponible, documentación y fuente oficial. Una buena respuesta declara incertidumbres y evita afirmar tasas, umbrales o plazos no verificados. Cuando falten hechos, la conclusión correcta es indicar qué información se necesita, no adivinar.
+**1.** Los bienes inmuebles son el objeto más común del impuesto sobre la propiedad, aunque en algunos lugares también se gravan otros bienes importantes que una persona posee.
+
+**2.** Los gobiernos locales suelen administrar y cobrar el impuesto sobre la propiedad porque este financia servicios locales.
+
+**3.** Las escuelas, la policía, los bomberos y las calles se financian comúnmente, total o parcialmente, con lo que se recauda del impuesto local sobre la propiedad.
+
+**4.** Como está vinculado a la propiedad y no al ingreso, el impuesto sobre la propiedad no varía automáticamente según lo que gane una persona.
 
 ## Puntos clave
 
-- Las reglas fiscales cambian según lugar, fecha y clasificación.
-- Primero se clasifican los hechos; después se calcula.
-- La documentación permite defender una posición.
-- Deducciones, créditos, exclusiones y pagos anticipados son conceptos distintos.
-- Las fuentes oficiales vigentes tienen prioridad sobre resúmenes educativos.
-- La planificación legal es distinta de ocultar, falsear o evadir obligaciones.
-
-## Ruta de aprendizaje
-
-- **Anterior:** GREEN-L1-005
-- **Actual:** GREEN-L1-006
-- **Siguiente:** GREEN-L1-007
-
-## Localización — España
-
-Contenido en español de España para educación comparada. Las referencias a formularios y entidades estadounidenses explican conceptos del currículo original y no sustituyen la normativa española. Antes de aplicar cualquier regla deben verificarse la Agencia Tributaria u otra autoridad competente, el periodo fiscal y las circunstancias concretas.
+- El impuesto sobre la propiedad se cobra por ser dueño de algo, con mayor frecuencia bienes inmuebles.
+- Suele cobrarlo el gobierno local.
+- Comúnmente financia escuelas, seguridad pública e infraestructura local.
+- Como se basa en la propiedad, no disminuye automáticamente cuando bajan los ingresos: un punto clave de planificación para los propietarios.

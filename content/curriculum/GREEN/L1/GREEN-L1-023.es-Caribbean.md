@@ -1,82 +1,89 @@
 ---
 id: GREEN-L1-023
 track: GREEN
-officialTrackName: Impuestos
+officialTrackName: Taxes
 level: 1
 lessonNumber: 23
 locale: es-Caribbean
-title: "Impuesto sobre el trabajo por cuenta propia: lo que deben considerar freelancers y dueños de negocios"
-summary: "Explica por qué una persona que trabaja por cuenta propia puede asumir componentes tributarios que, en una relación laboral, se dividen entre empleador y empleado."
+title: "El impuesto sobre el trabajo por cuenta propia: lo que deben los trabajadores independientes y los dueños de negocios"
+summary: "Parte de la lección sobre el impuesto sobre la nómina para explicar por qué las personas que trabajan por cuenta propia a menudo deben tanto la parte del patrono como la del empleado de los impuestos tipo nómina."
 version: 1.0
 author: Waldemar M. Caban, JD MA
 date: 2026-08-09
 ---
 
-# Impuesto sobre el trabajo por cuenta propia: lo que deben considerar freelancers y dueños de negocios
+# El impuesto sobre el trabajo por cuenta propia: lo que deben los trabajadores independientes y los dueños de negocios
 
 ## Objetivos de aprendizaje
-
-- Explicar el concepto central de la lección.
-- Reconocer sus consecuencias prácticas.
-- Identificar cuándo deben verificarse reglas específicas de la jurisdicción.
+- Recordar cómo se reparte el impuesto sobre la nómina entre el patrono y el empleado.
+- Explicar por qué una persona que trabaja por cuenta propia a menudo debe las dos mitades.
+- Reconocer esto como una consideración clave de planificación para los trabajadores independientes y los dueños de pequeños negocios.
 
 ## Contenido principal
 
-En sistemas donde ciertos impuestos sobre nómina se dividen entre empleador y empleado, una persona que trabaja por cuenta propia puede tener que asumir ambos componentes. En Estados Unidos, este mecanismo se conoce comúnmente como self-employment tax.
+Antes aprendió que el impuesto sobre la nómina a menudo se reparte entre el patrono y el empleado: una parte se retiene del salario y otra la paga aparte el patrono. Cuando usted trabaja por cuenta propia, en la práctica es a la vez el patrono y el empleado. Muchos sistemas lo tienen en cuenta exigiendo que las personas que trabajan por cuenta propia paguen una versión del impuesto sobre la nómina que cubre las dos mitades, a veces llamada impuesto sobre el trabajo por cuenta propia.
 
-Este costo puede sorprender a nuevos freelancers y empresarios que comparan sus facturas brutas con el salario de un empleado. El mismo ingreso bruto no implica necesariamente la misma carga tributaria. Comprender las obligaciones aplicables y reservar fondos con anticipación ayuda a evitar déficits al momento de declarar.
+Este es uno de los costos del trabajo por cuenta propia que más se subestiman. Un trabajador independiente nuevo que compara el total de sus facturas con lo que muestra el cheque de pago de un empleado equivalente puede subestimar gravemente su carga tributaria real si olvida que, como negocio de una sola persona, está cubriendo los dos lados de este impuesto. Entender esto de antemano, y apartar dinero en consecuencia, evita una sorpresa desagradable al momento de presentar la declaración.
 
 ## Ejemplo práctico
 
-**Pregunta:** ¿Cuál sería el enfoque prudente antes de actuar sobre este tema?
+**Pregunta:** Una trabajadora independiente compara sus $80,000 en facturas anuales con el empleo asalariado de $80,000 de una amiga y supone que su situación tributaria es básicamente la misma. ¿Lo es?
 
-**Estudiante:** Entender la regla general, mantener buena documentación y comprobar qué exige actualmente mi jurisdicción.
+**Estudiante:** Probablemente no, porque el patrono de su amiga cubre automáticamente la mitad del impuesto tipo nómina.
 
-**Guía:** Exactamente. El conocimiento del concepto le permite hacer mejores preguntas y evitar suposiciones costosas.
+**Guía:** ¿Qué significa eso para la carga tributaria real de la trabajadora independiente en comparación con la de su amiga?
+
+**Estudiante:** Probablemente debe más en total de impuesto tipo nómina, porque ella misma es responsable de la parte del patrono y de la parte del empleado.
+
+**Guía:** Exactamente: el mismo ingreso en la línea superior, una realidad tributaria bastante distinta.
 
 ## Prueba práctica
 
-**Pregunta 1.** Las reglas tributarias específicas:
-A) Son universales
-B) Pueden variar según jurisdicción y año
-C) Nunca cambian
-D) Solo importan a grandes empresas
+**Pregunta 1.** En general, el impuesto sobre el trabajo por cuenta propia cubre:
 
-**Pregunta 2.** Una buena práctica es:
-A) Ignorar documentación
-B) Mantener registros y verificar requisitos vigentes
-C) Esperar hasta tener un problema
-D) Suponer que las reglas de otro país aplican
+A) Solo la parte del empleado del impuesto tipo nómina
+B) Tanto la parte del patrono como la del empleado del impuesto tipo nómina
+C) Solo el impuesto sobre las ventas
+D) Solo el impuesto sobre la propiedad
 
-**Pregunta 3.** Comprender el mecanismo ayuda a:
-A) Analizar mejor una obligación o decisión
-B) Eliminar automáticamente impuestos
-C) Garantizar un reembolso
-D) Evitar toda presentación
+**Pregunta 2.** ¿Por qué una persona que trabaja por cuenta propia a menudo debe más impuesto tipo nómina que un empleado equivalente?
 
-**Pregunta 4.** Cuando una situación es compleja, la educación financiera:
-A) Sustituye necesariamente asesoría profesional
-B) Ayuda a reconocer cuándo buscar información o asesoría apropiada
-C) Hace innecesarias las leyes
-D) Garantiza un resultado
+A) Gana más automáticamente
+B) Tiene que cubrir ella misma tanto la parte del patrono como la del empleado
+C) A las personas que trabajan por cuenta propia se les grava con tasas al azar
+D) No es así: las cantidades siempre son idénticas
+
+**Pregunta 3.** ¿Cuál es una consecuencia práctica de subestimar el impuesto sobre el trabajo por cuenta propia?
+
+A) Ninguna consecuencia
+B) Una sorpresa desagradable o un faltante al momento de presentar la declaración
+C) Un reembolso automático
+D) Un estado civil para la declaración más bajo
+
+**Pregunta 4.** ¿Cuál es la forma recomendada de evitar esta sorpresa?
+
+A) Ignorarlo hasta presentar la declaración
+B) Entender de antemano la carga real y apartar dinero en consecuencia
+C) Gastar de inmediato todo el ingreso de las facturas
+D) Evitar todo trabajo por cuenta propia
 
 ## Clave de respuestas
 
-1. B, 2. B, 3. A, 4. B
+1. B, 2. B, 3. B, 4. B
 
 ## Respuestas y explicaciones
 
-**1.** Las leyes tributarias dependen de la jurisdicción y pueden cambiar.
+**1.** El impuesto sobre el trabajo por cuenta propia es, en esencia, el mecanismo para cobrarle a una sola persona las dos mitades del impuesto tipo nómina.
 
-**2.** La documentación y la verificación reducen errores y permiten respaldar decisiones.
+**2.** Actuar a la vez como patrono y como empleado significa que la persona que trabaja por cuenta propia responde por las dos partes.
 
-**3.** Entender el concepto mejora el análisis; no elimina las obligaciones aplicables.
+**3.** Subestimar este costo es una trampa común que lleva a una factura mayor de lo esperado al momento de presentar la declaración.
 
-**4.** La alfabetización financiera ayuda a identificar cuándo se necesita información adicional o asistencia profesional.
+**4.** La conciencia y el ahorro anticipados, en vez de reaccionar después de los hechos, son la defensa práctica.
 
 ## Puntos clave
 
-- Conozca la regla general y verifique la específica.
-- Mantenga documentación organizada.
-- No suponga que una regla de otra jurisdicción aplica a su situación.
-- Planifique con anticipación en vez de reaccionar al final.
+- Las personas que trabajan por cuenta propia a menudo deben tanto la parte del patrono como la del empleado del impuesto tipo nómina.
+- Esto significa que el ingreso por cuenta propia tiene una carga tributaria bastante distinta a la de un ingreso asalariado equivalente.
+- Este es uno de los costos del trabajo por cuenta propia que más se subestiman.
+- Planificar con anticipación y apartar dinero evita una sorpresa desagradable al momento de presentar la declaración.

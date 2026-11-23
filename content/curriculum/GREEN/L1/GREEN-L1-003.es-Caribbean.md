@@ -1,78 +1,82 @@
 ---
 id: GREEN-L1-003
 track: GREEN
-officialTrackName: Impuestos
+officialTrackName: Taxes
 level: 1
 lessonNumber: 3
 locale: es-Caribbean
-title: "Tipos de impuestos: panorama general"
-summary: "Un mapa de las principales categorías tributarias que puede encontrar una persona: impuestos sobre ingresos, ventas o consumo, propiedad y nómina."
+title: "Los tipos de impuestos: un panorama general"
+summary: "Un mapa de las principales categorías de impuestos que encontrará una persona (sobre la renta, sobre las ventas o el consumo, sobre la propiedad y sobre la nómina) antes de profundizar en cada una."
 version: 1.0
 author: Waldemar M. Caban, JD MA
 date: 2026-08-09
 ---
 
-# Tipos de impuestos: panorama general
+# Los tipos de impuestos: un panorama general
 
 ## Objetivos de aprendizaje
-
-- Nombrar cuatro categorías principales de impuestos que encuentran muchas personas.
-- Identificar la categoría correspondiente a ejemplos cotidianos.
-- Explicar la diferencia general entre gravar ingresos, consumo, propiedad y empleo.
+- Nombrar las cuatro categorías principales de impuestos que encuentra la mayoría de las personas.
+- Identificar a qué categoría pertenece un ejemplo real de impuesto.
+- Explicar la diferencia general entre un impuesto sobre ganar, gastar, poseer y trabajar.
 
 ## Contenido principal
 
-Antes de profundizar en un impuesto específico conviene entender el mapa general. En muchos países las personas encuentran alguna versión de estas cuatro categorías:
+Antes de profundizar en cualquier impuesto en particular, ayuda tener el mapa completo. La mayoría de las personas, en la mayoría de los países, encontrará alguna versión de estas cuatro categorías:
 
-**Impuesto sobre ingresos**: grava dinero ganado mediante empleo, negocios o inversiones. **Impuesto sobre ventas o consumo**: se aplica al comprar bienes o servicios. **Impuesto sobre la propiedad**: grava bienes que una persona posee, especialmente inmuebles. **Impuesto sobre nómina**: está vinculado específicamente a salarios y con frecuencia financia sistemas de jubilación, salud u otros programas.
+**Impuesto sobre la renta**: un impuesto sobre el dinero que usted gana, ya sea de un empleo, de un negocio o de inversiones. **Impuesto sobre las ventas o el consumo**: un impuesto que se añade cuando compra bienes o servicios. **Impuesto sobre la propiedad**: un impuesto sobre las cosas que posee, con mayor frecuencia los bienes raíces. **Impuesto sobre la nómina**: un impuesto ligado específicamente a los salarios del empleo, a menudo destinado a programas como los sistemas de retiro o de seguro de salud.
 
-Una forma sencilla de distinguirlos es preguntar: el impuesto sobre ingresos mira cuánto ganó; el impuesto sobre ventas, cuánto gastó; el impuesto sobre la propiedad, qué posee; y el impuesto sobre nómina, cuánto recibe mediante empleo.
+Una forma sencilla de no confundirlos: el impuesto sobre la renta pregunta «¿cuánto ganó?». El impuesto sobre las ventas pregunta «¿cuánto gastó?». El impuesto sobre la propiedad pregunta «¿qué posee?». El impuesto sobre la nómina pregunta «¿tiene empleo y cuánto le pagan?».
 
-Los países combinan estas fuentes de distintas maneras. Algunos dependen más de impuestos sobre ingresos; otros, del consumo; y muchos gobiernos locales dependen de impuestos sobre la propiedad. No existe una combinación universal. Es una decisión de política pública con ventajas y desventajas.
+Los países combinan estos impuestos de formas distintas. Algunos dependen mucho del impuesto sobre la renta, otros se apoyan más en los impuestos al consumo, y los gobiernos locales con frecuencia dependen del impuesto sobre la propiedad para financiar las escuelas y los servicios locales. No hay una única combinación «correcta»: es una decisión de política con ventajas y desventajas, y las lecciones posteriores de esta ruta examinarán esas ventajas y desventajas. Por ahora, la meta es solo reconocerlos: cuando oiga hablar de un impuesto, debería poder clasificarlo en una de estas categorías como punto de partida.
 
 ## Ejemplo práctico
 
-**Pregunta:** Un gobierno añade un porcentaje al precio cada vez que alguien compra un refresco. ¿Qué categoría es?
+**Pregunta:** Un gobierno añade un porcentaje al precio cada vez que alguien compra un refresco. ¿En qué categoría cae esto?
 
-**Estudiante:** Ocurre al comprar, así que parece un impuesto sobre ventas o consumo.
+**Estudiante:** Ocurre en el momento de la compra, así que parece un impuesto sobre las ventas o el consumo.
 
-**Guía:** Correcto. Si el gobierno también grava la ganancia de la compañía que fabrica el refresco, ¿es el mismo impuesto?
+**Guía:** Correcto. Ahora bien, si ese mismo gobierno también grava la ganancia que obtiene la empresa de refrescos al final del año, ¿es el mismo impuesto?
 
-**Estudiante:** No. Ese sería un impuesto sobre los ingresos o ganancias de la empresa.
+**Estudiante:** No, ese sería un impuesto sobre la renta de las ganancias de la empresa, no un impuesto sobre las ventas de la compra.
 
-**Guía:** Exactamente. Un mismo producto puede generar distintos impuestos en diferentes etapas.
+**Guía:** Exactamente: dos impuestos distintos pueden aplicarse al mismo producto en momentos distintos: una vez cuando se compra y otra sobre la ganancia que generó.
 
 ## Prueba práctica
 
-1. El impuesto sobre ingresos grava:
-A) Lo que posee
-B) Lo que gana
-C) Lo que compra
-D) Solamente el empleo
+**Pregunta 1.** El impuesto sobre la renta es un impuesto sobre:
 
-2. El impuesto sobre ventas suele aplicarse:
-A) Una vez al año sobre toda la riqueza
-B) Al momento de comprar
-C) Solo a empresarios
+A) Lo que usted posee
+B) Lo que usted gana
+C) Lo que usted compra
+D) Si usted tiene empleo
+
+**Pregunta 2.** El impuesto sobre las ventas normalmente se aplica:
+
+A) Una vez al año sobre la riqueza total
+B) En el momento de la compra
+C) Solo a los dueños de negocios
 D) Solo en un país
 
-3. El impuesto sobre la propiedad se asocia principalmente con:
-A) Bienes inmuebles
-B) Compras de alimentos
-C) Cheques de nómina
-D) Operaciones bursátiles exclusivamente
+**Pregunta 3.** El impuesto sobre la propiedad se asocia con mayor frecuencia con:
 
-4. El impuesto sobre nómina está vinculado específicamente con:
-A) Propiedad
-B) Salarios del empleo
-C) Compras minoristas
-D) Herencias
+A) La propiedad de bienes raíces
+B) La compra de alimentos
+C) Los cheques de pago
+D) Solo las operaciones con acciones
 
-5. ¿Cuál afirmación es más correcta?
-A) Todos los países usan la misma combinación tributaria
-B) Existe una única combinación correcta
-C) Los países combinan distintos impuestos según sus políticas
-D) Solo existe el impuesto sobre ingresos
+**Pregunta 4.** El impuesto sobre la nómina está ligado específicamente a:
+
+A) La propiedad de bienes
+B) Los salarios del empleo
+C) Las compras al detal
+D) Las herencias
+
+**Pregunta 5.** ¿Qué afirmación sobre la combinación de impuestos de los países es la más exacta?
+
+A) Todos los países usan combinaciones de impuestos idénticas
+B) Hay una combinación universalmente correcta
+C) Los países combinan estos tipos de impuestos de formas distintas como decisión de política
+D) Solo existe el impuesto sobre la renta en el mundo
 
 ## Clave de respuestas
 
@@ -80,15 +84,20 @@ D) Solo existe el impuesto sobre ingresos
 
 ## Respuestas y explicaciones
 
-1. **B.** El impuesto sobre ingresos se activa al ganar dinero de distintas fuentes.
-2. **B.** Los impuestos sobre ventas o consumo suelen cobrarse al realizar una transacción.
-3. **A.** El impuesto sobre la propiedad suele relacionarse con bienes inmuebles.
-4. **B.** El impuesto sobre nómina está vinculado con ingresos del empleo.
-5. **C.** Cada gobierno equilibra estas categorías según sus políticas y circunstancias.
+**1.** El impuesto sobre la renta se activa al ganar dinero, de cualquier fuente: salarios, ganancias de un negocio o rendimientos de inversiones.
+
+**2.** El impuesto sobre las ventas se cobra en el momento de una transacción y se añade al precio de compra.
+
+**3.** El impuesto sobre la propiedad está ligado con mayor frecuencia a los bienes raíces, aunque en algunos lugares también se gravan otros bienes que se poseen.
+
+**4.** El impuesto sobre la nómina está ligado específicamente al ingreso del empleo y a menudo financia programas como los sistemas de retiro o de salud.
+
+**5.** No hay una única combinación correcta de impuestos: los distintos gobiernos equilibran estas categorías de forma distinta según sus prioridades de política.
 
 ## Puntos clave
 
-- Cuatro categorías frecuentes son ingresos, ventas o consumo, propiedad y nómina.
-- Cada categoría grava una actividad o base diferente.
-- Una misma actividad económica puede generar más de un tipo de impuesto.
-- La combinación tributaria varía entre países.
+- Las cuatro categorías principales de impuestos que encuentra la mayoría de las personas son el impuesto sobre la renta, sobre las ventas o el consumo, sobre la propiedad y sobre la nómina.
+- Cada categoría hace una pregunta distinta: qué se gana, qué se gasta, qué se posee o si se tiene empleo.
+- Un solo producto o una sola transacción puede activar más de un tipo de impuesto en momentos distintos.
+- Los países combinan estas categorías de formas distintas: no hay una proporción universalmente correcta.
+- Reconocer a qué categoría pertenece un impuesto es el primer paso para entender cómo funciona.

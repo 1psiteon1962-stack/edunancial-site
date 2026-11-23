@@ -1,116 +1,89 @@
 ---
 id: GREEN-L1-040
 track: GREEN
-officialTrackName: "Business Taxes"
+officialTrackName: Taxes
 level: 1
 lessonNumber: 40
 locale: es-ES
-title: "Impuestos corporativos: cómo tributan las empresas"
-summary: "Introducción práctica a impuestos corporativos: cómo tributan las empresas, con énfasis en conceptos, documentación, decisiones y verificación mediante fuentes oficiales."
-version: "1.0"
-author: "Waldemar M. Caban, JD MA"
-date: "2026-09-01"
+title: "Los impuestos corporativos: cómo tributan los negocios"
+summary: "Presenta el concepto general de la corporación como una entidad tributable separada de sus dueños."
+version: 1.0
+author: Waldemar M. Caban, JD MA
+date: 2026-08-09
 ---
 
-# 40. Impuestos corporativos: cómo tributan las empresas
+# Los impuestos corporativos: cómo tributan los negocios
 
 ## Objetivos de aprendizaje
+- Explicar el concepto de la corporación como una entidad tributable distinta.
+- Distinguir el impuesto a nivel de la corporación del impuesto que deben los dueños de la corporación.
+- Preparar el concepto de la doble tributación, que se trata en la próxima lección.
 
-Al terminar esta lección, el alumno podrá:
+## Contenido principal
 
-1. Explicar con palabras sencillas el concepto de **impuestos corporativos: cómo tributan las empresas**.
-2. Identificar quién paga, quién recauda y qué hecho puede generar la obligación.
-3. Distinguir una regla general de una excepción que exige verificación.
-4. Organizar la documentación necesaria para revisar una posición fiscal.
-5. Formular preguntas útiles para una fuente oficial o un profesional cualificado.
+En muchos sistemas legales y tributarios, una corporación se trata como una entidad legal distinta y propia, separada de las personas que son sus dueñas. Una consecuencia de esto es que la corporación misma puede estar sujeta al impuesto sobre la renta por sus ganancias, sin importar el impuesto que puedan deber por separado los dueños de la corporación (los accionistas).
 
-## Concepto principal
+Esta es una estructura bastante distinta de la de un negocio de un solo dueño, en el que el negocio y el dueño son la misma entidad a efectos tributarios y la ganancia del negocio simplemente pasa a la declaración personal del dueño. Una corporación, en cambio, presenta su declaración y paga primero el impuesto sobre su propia ganancia, como un contribuyente propio. Esto prepara un concepto importante que se trata en la próxima lección: qué pasa cuando esa misma ganancia se distribuye más tarde a los accionistas, que a su vez podrían deber su propio impuesto sobre ella, una situación que se conoce como doble tributación.
 
-[HECHO VERIFICABLE] Los impuestos son obligaciones creadas por una jurisdicción. La respuesta correcta depende del país, territorio, estado o provincia, municipio, periodo fiscal, tipo de contribuyente y naturaleza de la operación. Por eso, comprender **impuestos corporativos: cómo tributan las empresas** exige identificar primero la jurisdicción y la fecha aplicable.
+## Ejemplo práctico
 
-La educación fiscal no consiste en memorizar una cifra aislada. Consiste en reconocer el hecho imponible, la base, el tipo, las deducciones o créditos posibles, el plazo, la documentación y la autoridad que publica la regla. Las tasas, umbrales y formularios pueden cambiar; antes de actuar deben comprobarse en una fuente oficial vigente.
+**Pregunta:** Un amigo no entiende por qué una corporación pagaría sus propios impuestos, separados de las personas que son sus dueñas. ¿Cómo se lo explicaría?
 
-## Marco práctico de análisis
+**Estudiante:** Según esta lección, una corporación se trata como una entidad legal propia y separada, distinta de sus dueños.
 
-Utiliza estas preguntas:
+**Guía:** ¿En qué se diferencia eso de un negocio de un solo dueño?
 
-- ¿Qué jurisdicción tiene autoridad sobre la persona o transacción?
-- ¿Cuál es el periodo fiscal?
-- ¿Quién es el contribuyente y cuál es su clasificación?
-- ¿Qué ingreso, compra, propiedad o actividad activa la regla?
-- ¿Cómo se calcula la base?
-- ¿Existe una deducción, crédito, exclusión o exención?
-- ¿Qué formulario, pago o registro se exige?
-- ¿Cuál es el plazo y qué ocurre si se incumple?
-- ¿Qué fuente oficial confirma la respuesta?
+**Estudiante:** En un negocio de un solo dueño, el negocio y el dueño son lo mismo a efectos tributarios, así que la ganancia pasa directamente a la declaración personal del dueño. Una corporación tributa por separado, como un contribuyente propio.
 
-## Ejemplo educativo
+**Guía:** Exactamente, y esa separación es justo lo que prepara el problema de la doble tributación que se ve a continuación.
 
-[SUPUESTO] Una persona obtiene 48.000 unidades monetarias de ingresos y además recibe 3.000 por un trabajo independiente. Conserva recibos, estados de cuenta y documentos de pago, pero todavía no sabe cómo se clasifica cada cantidad. Antes de calcular, identifica su jurisdicción, periodo fiscal, condición laboral y naturaleza de los gastos.
+## Cuestionario práctico
 
-Este ejemplo no determina una obligación real. Muestra el orden correcto: clasificar hechos, reunir documentación, consultar instrucciones oficiales y calcular solamente después. Si una regla afecta empleo, empresa, inversión o propiedad, debe analizarse por separado antes de integrar el resultado.
+**Pregunta 1.** En general, una corporación se trata como:
 
-## Aplicación al tema
+A) La misma entidad que sus dueños
+B) Una entidad legal distinta, separada de sus dueños
+C) Algo que no es una entidad tributable en absoluto
+D) Algo relevante solo fuera del sistema tributario
 
-Para estudiar **impuestos corporativos: cómo tributan las empresas**, crea una hoja de trabajo con cuatro columnas: hecho, posible tratamiento, documento de respaldo y fuente pendiente de verificación. Marca como **HECHO** lo demostrado, como **SUPUESTO** lo que falta confirmar y como **OPINIÓN** cualquier recomendación basada en preferencias o tolerancia al riesgo.
+**Pregunta 2.** Las ganancias de una corporación pueden estar sujetas a:
 
-No mezcles traducción con localización jurídica. Un término estadounidense como W-2, 1099, Medicare, LLC, S-Corp, Roth o impuesto estatal sobre ventas puede traducirse para aprender el concepto, pero no debe presentarse como si fuera una figura idéntica en España u otra jurisdicción.
+A) Ningún impuesto
+B) El impuesto sobre la renta a nivel de la corporación, sin importar el propio impuesto de los dueños
+C) Solo el impuesto sobre las ventas
+D) Solo el impuesto sobre la nómina
 
-## Errores comunes
+**Pregunta 3.** ¿En qué se diferencia, a efectos tributarios, un negocio de un solo dueño de una corporación?
 
-- Aplicar una tasa de otro año o jurisdicción.
-- Confundir ingreso bruto con ingreso imponible o efectivo disponible.
-- Suponer que un gasto empresarial siempre es deducible.
-- Creer que una deducción y un crédito producen el mismo efecto.
-- Perder justificantes o mezclar cuentas personales y empresariales.
-- Confundir un reembolso con una reducción real del impuesto.
-- Esperar hasta el vencimiento para organizar la información.
-- Utilizar contenido educativo como asesoramiento individualizado.
+A) No hay ninguna diferencia
+B) En un negocio de un solo dueño, la ganancia pasa directamente a la declaración personal del dueño; una corporación tributa primero por separado
+C) Los negocios de un solo dueño también pagan el impuesto corporativo
+D) Las corporaciones nunca pagan ningún impuesto
 
-## Actividad práctica
+**Pregunta 4.** ¿Qué concepto que viene prepara esta lección?
 
-1. Escribe una situación relacionada con este tema.
-2. Identifica jurisdicción y periodo fiscal.
-3. Enumera cinco hechos comprobables y tres datos faltantes.
-4. Reúne o describe los documentos pertinentes.
-5. Localiza una fuente oficial que deba consultarse.
-6. Redacta tres preguntas para un profesional fiscal.
-7. Explica qué dato podría cambiar la conclusión.
+A) El impuesto sobre las ventas
+B) La doble tributación
+C) El impuesto sobre la propiedad
+D) La retención de la nómina
 
-## Evaluación de competencia
+## Clave de respuestas
 
-1. ¿Por qué debe identificarse primero la jurisdicción?
-2. ¿Cuál es la diferencia entre hecho y supuesto?
-3. ¿Qué documento respaldaría la operación?
-4. ¿Qué fecha o periodo debe verificarse?
-5. ¿Qué organismo oficial podría publicar la regla?
-6. ¿Existe una posible excepción o clasificación alternativa?
-7. ¿Qué error produciría usar una tasa desactualizada?
-8. ¿Qué pregunta formularías a un profesional?
-9. ¿Qué registro conservarías y por cuánto tiempo según la regla aplicable?
-10. Resume el proceso de análisis sin inventar cifras.
+1. B, 2. B, 3. B, 4. B
 
-**Criterio de dominio:** 8 de 10 respuestas satisfactorias. Por debajo del 80 %, el alumno revisará la fuente, corregirá la clasificación y repetirá un escenario nuevo.
+## Respuestas y explicaciones
 
-## Respuestas orientativas
+**1.** La separación legal entre una corporación y sus dueños es el concepto básico detrás de la tributación a nivel de la corporación.
 
-Las respuestas deben identificar jurisdicción, periodo, clasificación, hecho imponible, documentación y fuente oficial. Una buena respuesta declara incertidumbres y evita afirmar tasas, umbrales o plazos no verificados. Cuando falten hechos, la conclusión correcta es indicar qué información se necesita, no adivinar.
+**2.** El impuesto corporativo sobre la renta se aplica a las ganancias propias de la entidad, por separado de cualquier impuesto que deban personalmente los dueños.
+
+**3.** Los negocios de un solo dueño unen el negocio y al dueño en un solo contribuyente; las corporaciones no.
+
+**4.** Esta separación estructural es exactamente lo que crea el problema de la doble tributación que se explora en la próxima lección.
 
 ## Puntos clave
 
-- Las reglas fiscales cambian según lugar, fecha y clasificación.
-- Primero se clasifican los hechos; después se calcula.
-- La documentación permite defender una posición.
-- Deducciones, créditos, exclusiones y pagos anticipados son conceptos distintos.
-- Las fuentes oficiales vigentes tienen prioridad sobre resúmenes educativos.
-- La planificación legal es distinta de ocultar, falsear o evadir obligaciones.
-
-## Ruta de aprendizaje
-
-- **Anterior:** GREEN-L1-039
-- **Actual:** GREEN-L1-040
-- **Siguiente:** GREEN-L1-041
-
-## Localización — España
-
-Contenido en español de España para educación comparada. Las referencias a formularios y entidades estadounidenses explican conceptos del currículo original y no sustituyen la normativa española. Antes de aplicar cualquier regla deben verificarse la Agencia Tributaria u otra autoridad competente, el periodo fiscal y las circunstancias concretas.
+- En general, una corporación se trata como una entidad legal distinta de sus dueños.
+- Esto significa que una corporación puede deber su propio impuesto sobre la renta, separado del de sus dueños.
+- Esto se diferencia de un negocio de un solo dueño, en el que la ganancia pasa directamente a la declaración personal del dueño.
+- Esta estructura prepara el concepto de la doble tributación que se ve a continuación.

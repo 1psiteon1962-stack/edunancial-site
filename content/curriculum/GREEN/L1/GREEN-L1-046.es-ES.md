@@ -1,116 +1,89 @@
 ---
 id: GREEN-L1-046
 track: GREEN
-officialTrackName: "Business Taxes"
+officialTrackName: Taxes
 level: 1
 lessonNumber: 46
 locale: es-ES
-title: "Auditorías fiscales: qué son y por qué ocurren"
-summary: "Introducción práctica a auditorías fiscales: qué son y por qué ocurren, con énfasis en conceptos, documentación, decisiones y verificación mediante fuentes oficiales."
-version: "1.0"
-author: "Waldemar M. Caban, JD MA"
-date: "2026-09-01"
+title: "Las auditorías: qué son y por qué ocurren"
+summary: "Desmitifica el proceso de auditoría tributaria y lo presenta como un procedimiento de verificación, no como una acusación automática de una falta."
+version: 1.0
+author: Waldemar M. Caban, JD MA
+date: 2026-08-09
 ---
 
-# 46. Auditorías fiscales: qué son y por qué ocurren
+# Las auditorías: qué son y por qué ocurren
 
 ## Objetivos de aprendizaje
+- Definir qué es una auditoría.
+- Identificar razones comunes, que no implican acusación, por las que podría ocurrir una auditoría.
+- Explicar cómo llevar bien los registros protege directamente a alguien durante una auditoría.
 
-Al terminar esta lección, el alumno podrá:
+## Contenido principal
 
-1. Explicar con palabras sencillas el concepto de **auditorías fiscales: qué son y por qué ocurren**.
-2. Identificar quién paga, quién recauda y qué hecho puede generar la obligación.
-3. Distinguir una regla general de una excepción que exige verificación.
-4. Organizar la documentación necesaria para revisar una posición fiscal.
-5. Formular preguntas útiles para una fuente oficial o un profesional cualificado.
+Una auditoría es un proceso de revisión en el que una autoridad tributaria examina más de cerca una declaración presentada para verificar que la información declarada sea exacta. Vale la pena separar el hecho de ser auditado de la suposición de culpa: las auditorías ocurren por muchas razones, como la selección al azar, las anomalías estadísticas (cifras que parecen inusuales en comparación con las de contribuyentes parecidos) o simplemente porque una deducción o un tipo de ingreso en particular recibe una revisión de rutina más estricta.
 
-## Concepto principal
+Aquí es donde la lección anterior sobre llevar registros rinde frutos de la forma más directa. Alguien que ha llevado una documentación ordenada y organizada a lo largo del año normalmente puede responder a una auditoría con calma y eficiencia, presentando el respaldo de lo que se cuestione. Alguien sin registros podría tener dificultades para sustentar sus reclamaciones aunque fueran totalmente legítimas; es decir, llevar bien los registros no se trata solo de evitar la evasión: es una protección activa para los contribuyentes honestos cuyas declaraciones simplemente se seleccionan para revisión.
 
-[HECHO VERIFICABLE] Los impuestos son obligaciones creadas por una jurisdicción. La respuesta correcta depende del país, territorio, estado o provincia, municipio, periodo fiscal, tipo de contribuyente y naturaleza de la operación. Por eso, comprender **auditorías fiscales: qué son y por qué ocurren** exige identificar primero la jurisdicción y la fecha aplicable.
+## Ejemplo práctico
 
-La educación fiscal no consiste en memorizar una cifra aislada. Consiste en reconocer el hecho imponible, la base, el tipo, las deducciones o créditos posibles, el plazo, la documentación y la autoridad que publica la regla. Las tasas, umbrales y formularios pueden cambiar; antes de actuar deben comprobarse en una fuente oficial vigente.
+**Pregunta:** Alguien recibe un aviso de auditoría y de inmediato supone que debe haber hecho algo ilegal. ¿Es exacta esa suposición?
 
-## Marco práctico de análisis
+**Estudiante:** Según esta lección, no necesariamente: las auditorías pueden ocurrir por razones que no tienen que ver con una falta, como la selección al azar o una cifra que parece inusual.
 
-Utiliza estas preguntas:
+**Guía:** ¿Qué determina qué tan bien pasa esta persona la auditoría?
 
-- ¿Qué jurisdicción tiene autoridad sobre la persona o transacción?
-- ¿Cuál es el periodo fiscal?
-- ¿Quién es el contribuyente y cuál es su clasificación?
-- ¿Qué ingreso, compra, propiedad o actividad activa la regla?
-- ¿Cómo se calcula la base?
-- ¿Existe una deducción, crédito, exclusión o exención?
-- ¿Qué formulario, pago o registro se exige?
-- ¿Cuál es el plazo y qué ocurre si se incumple?
-- ¿Qué fuente oficial confirma la respuesta?
+**Estudiante:** Si llevó buenos registros: si tiene documentación de lo que reclamó, puede sustentarlo con calma, aunque no haya hecho nada malo.
 
-## Ejemplo educativo
+**Guía:** Exactamente: un aviso de auditoría es una solicitud de verificación, no automáticamente una acusación.
 
-[SUPUESTO] Una persona obtiene 48.000 unidades monetarias de ingresos y además recibe 3.000 por un trabajo independiente. Conserva recibos, estados de cuenta y documentos de pago, pero todavía no sabe cómo se clasifica cada cantidad. Antes de calcular, identifica su jurisdicción, periodo fiscal, condición laboral y naturaleza de los gastos.
+## Cuestionario práctico
 
-Este ejemplo no determina una obligación real. Muestra el orden correcto: clasificar hechos, reunir documentación, consultar instrucciones oficiales y calcular solamente después. Si una regla afecta empleo, empresa, inversión o propiedad, debe analizarse por separado antes de integrar el resultado.
+**Pregunta 1.** La mejor descripción de una auditoría es:
 
-## Aplicación al tema
+A) Una acusación automática de un delito
+B) Un proceso de revisión para verificar que la información declarada sea exacta
+C) Un tipo de crédito tributario
+D) Una sanción que siempre se aplica
 
-Para estudiar **auditorías fiscales: qué son y por qué ocurren**, crea una hoja de trabajo con cuatro columnas: hecho, posible tratamiento, documento de respaldo y fuente pendiente de verificación. Marca como **HECHO** lo demostrado, como **SUPUESTO** lo que falta confirmar y como **OPINIÓN** cualquier recomendación basada en preferencias o tolerancia al riesgo.
+**Pregunta 2.** Las auditorías pueden activarse por:
 
-No mezcles traducción con localización jurídica. Un término estadounidense como W-2, 1099, Medicare, LLC, S-Corp, Roth o impuesto estatal sobre ventas puede traducirse para aprender el concepto, pero no debe presentarse como si fuera una figura idéntica en España u otra jurisdicción.
+A) Solo una falta clara
+B) La selección al azar, las anomalías estadísticas o la revisión de rutina de ciertas reclamaciones
+C) Nada: las auditorías son totalmente al azar, sin ninguna otra causa
+D) Solo las personas que trabajan por cuenta propia
 
-## Errores comunes
+**Pregunta 3.** Llevar bien los registros ayuda de la forma más directa durante una auditoría al:
 
-- Aplicar una tasa de otro año o jurisdicción.
-- Confundir ingreso bruto con ingreso imponible o efectivo disponible.
-- Suponer que un gasto empresarial siempre es deducible.
-- Creer que una deducción y un crédito producen el mismo efecto.
-- Perder justificantes o mezclar cuentas personales y empresariales.
-- Confundir un reembolso con una reducción real del impuesto.
-- Esperar hasta el vencimiento para organizar la información.
-- Utilizar contenido educativo como asesoramiento individualizado.
+A) No tener ningún efecto
+B) Permitir sustentar las reclamaciones con calma y eficiencia
+C) Garantizar que nunca haya una auditoría
+D) Importar solo en los negocios
 
-## Actividad práctica
+**Pregunta 4.** ¿Recibir un aviso de auditoría es automáticamente una prueba de una falta?
 
-1. Escribe una situación relacionada con este tema.
-2. Identifica jurisdicción y periodo fiscal.
-3. Enumera cinco hechos comprobables y tres datos faltantes.
-4. Reúne o describe los documentos pertinentes.
-5. Localiza una fuente oficial que deba consultarse.
-6. Redacta tres preguntas para un profesional fiscal.
-7. Explica qué dato podría cambiar la conclusión.
+A) Sí, siempre
+B) No: es una solicitud de verificación, no una acusación automática
+C) Solo en las corporaciones
+D) Solo si se recibió un reembolso
 
-## Evaluación de competencia
+## Clave de respuestas
 
-1. ¿Por qué debe identificarse primero la jurisdicción?
-2. ¿Cuál es la diferencia entre hecho y supuesto?
-3. ¿Qué documento respaldaría la operación?
-4. ¿Qué fecha o periodo debe verificarse?
-5. ¿Qué organismo oficial podría publicar la regla?
-6. ¿Existe una posible excepción o clasificación alternativa?
-7. ¿Qué error produciría usar una tasa desactualizada?
-8. ¿Qué pregunta formularías a un profesional?
-9. ¿Qué registro conservarías y por cuánto tiempo según la regla aplicable?
-10. Resume el proceso de análisis sin inventar cifras.
+1. B, 2. B, 3. B, 4. B
 
-**Criterio de dominio:** 8 de 10 respuestas satisfactorias. Por debajo del 80 %, el alumno revisará la fuente, corregirá la clasificación y repetirá un escenario nuevo.
+## Respuestas y explicaciones
 
-## Respuestas orientativas
+**1.** La función de una auditoría es la verificación, no un hallazgo automático ni una acusación de culpa.
 
-Las respuestas deben identificar jurisdicción, periodo, clasificación, hecho imponible, documentación y fuente oficial. Una buena respuesta declara incertidumbres y evita afirmar tasas, umbrales o plazos no verificados. Cuando falten hechos, la conclusión correcta es indicar qué información se necesita, no adivinar.
+**2.** Existen varios detonantes que no implican acusación, incluida la simple selección al azar.
+
+**3.** La documentación es exactamente lo que permite a un contribuyente honesto responder a las preguntas con eficiencia en vez de correr.
+
+**4.** El aviso en sí indica una solicitud de verificación, no una conclusión decidida de antemano.
 
 ## Puntos clave
 
-- Las reglas fiscales cambian según lugar, fecha y clasificación.
-- Primero se clasifican los hechos; después se calcula.
-- La documentación permite defender una posición.
-- Deducciones, créditos, exclusiones y pagos anticipados son conceptos distintos.
-- Las fuentes oficiales vigentes tienen prioridad sobre resúmenes educativos.
-- La planificación legal es distinta de ocultar, falsear o evadir obligaciones.
-
-## Ruta de aprendizaje
-
-- **Anterior:** GREEN-L1-045
-- **Actual:** GREEN-L1-046
-- **Siguiente:** GREEN-L1-047
-
-## Localización — España
-
-Contenido en español de España para educación comparada. Las referencias a formularios y entidades estadounidenses explican conceptos del currículo original y no sustituyen la normativa española. Antes de aplicar cualquier regla deben verificarse la Agencia Tributaria u otra autoridad competente, el periodo fiscal y las circunstancias concretas.
+- Una auditoría es una revisión de verificación, no una acusación automática de una falta.
+- Las auditorías pueden activarse por la selección al azar, las anomalías estadísticas o la revisión de rutina.
+- Llevar bien los registros es una protección directa y práctica durante una auditoría.
+- Ser auditado y ser culpable de algo son dos cosas totalmente distintas.

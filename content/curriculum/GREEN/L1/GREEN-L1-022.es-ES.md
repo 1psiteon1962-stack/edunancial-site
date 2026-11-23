@@ -1,116 +1,89 @@
 ---
 id: GREEN-L1-022
 track: GREEN
-officialTrackName: "Business Taxes"
+officialTrackName: Taxes
 level: 1
 lessonNumber: 22
 locale: es-ES
-title: "Pagos fiscales estimados para trabajadores autónomos"
-summary: "Introducción práctica a pagos fiscales estimados para trabajadores autónomos, con énfasis en conceptos, documentación, decisiones y verificación mediante fuentes oficiales."
-version: "1.0"
-author: "Waldemar M. Caban, JD MA"
-date: "2026-09-01"
+title: "Los impuestos estimados de quienes trabajan por cuenta propia"
+summary: "Presenta el concepto de los pagos trimestrales de impuestos estimados, una consecuencia directa de no tener un empleador que retenga impuestos automáticamente."
+version: 1.0
+author: Waldemar M. Caban, JD MA
+date: 2026-08-09
 ---
 
-# 22. Pagos fiscales estimados para trabajadores autónomos
+# Los impuestos estimados de quienes trabajan por cuenta propia
 
 ## Objetivos de aprendizaje
+- Explicar por qué las personas que trabajan por cuenta propia a menudo tienen que hacer pagos de impuestos estimados.
+- Describir el ritmo general de los pagos estimados (periódicos, no una vez al año).
+- Relacionar esto con la lección anterior sobre el W-2 frente al 1099.
 
-Al terminar esta lección, el alumno podrá:
+## Contenido principal
 
-1. Explicar con palabras sencillas el concepto de **pagos fiscales estimados para trabajadores autónomos**.
-2. Identificar quién paga, quién recauda y qué hecho puede generar la obligación.
-3. Distinguir una regla general de una excepción que exige verificación.
-4. Organizar la documentación necesaria para revisar una posición fiscal.
-5. Formular preguntas útiles para una fuente oficial o un profesional cualificado.
+Cuando usted es empleado, su empleador le retiene impuestos automáticamente a lo largo del año. Cuando trabaja por cuenta propia, nadie lo hace por usted; y precisamente por eso muchos sistemas exigen que las personas que trabajan por cuenta propia hagan pagos de impuestos estimados de forma periódica a lo largo del año, a menudo cada trimestre, en vez de pagarlo todo de una sola vez al presentar la declaración.
 
-## Concepto principal
+Esta es una consecuencia directa y práctica de la distinción entre empleado y contratista vista antes. El gobierno sigue esperando que el impuesto se pague más o menos a medida que se gana el ingreso, y no todo de una vez al final del año; así que la responsabilidad que el sistema de nómina de un empleador maneja automáticamente para un empleado pasa por completo a la persona que trabaja por cuenta propia. Saltarse los pagos estimados no elimina el impuesto adeudado; solo crea el riesgo de sanciones por pago insuficiente, además del impuesto en sí, cuando el año por fin se concilia.
 
-[HECHO VERIFICABLE] Los impuestos son obligaciones creadas por una jurisdicción. La respuesta correcta depende del país, territorio, estado o provincia, municipio, periodo fiscal, tipo de contribuyente y naturaleza de la operación. Por eso, comprender **pagos fiscales estimados para trabajadores autónomos** exige identificar primero la jurisdicción y la fecha aplicable.
+## Ejemplo práctico
 
-La educación fiscal no consiste en memorizar una cifra aislada. Consiste en reconocer el hecho imponible, la base, el tipo, las deducciones o créditos posibles, el plazo, la documentación y la autoridad que publica la regla. Las tasas, umbrales y formularios pueden cambiar; antes de actuar deben comprobarse en una fuente oficial vigente.
+**Pregunta:** Una diseñadora gráfica que acaba de empezar a trabajar por cuenta propia supone que puede pagar todos sus impuestos de una vez cuando presente la declaración el año próximo. ¿Qué riesgo crea eso?
 
-## Marco práctico de análisis
+**Estudiante:** Según esta lección, podría deber sanciones por no pagar a lo largo del año, además del impuesto en sí.
 
-Utiliza estas preguntas:
+**Guía:** ¿Por qué el sistema espera que se pague a lo largo del año en vez de todo de una vez?
 
-- ¿Qué jurisdicción tiene autoridad sobre la persona o transacción?
-- ¿Cuál es el periodo fiscal?
-- ¿Quién es el contribuyente y cuál es su clasificación?
-- ¿Qué ingreso, compra, propiedad o actividad activa la regla?
-- ¿Cómo se calcula la base?
-- ¿Existe una deducción, crédito, exclusión o exención?
-- ¿Qué formulario, pago o registro se exige?
-- ¿Cuál es el plazo y qué ocurre si se incumple?
-- ¿Qué fuente oficial confirma la respuesta?
+**Estudiante:** Porque así funciona también para los empleados, solo que de forma automática mediante la retención; la versión de quien trabaja por cuenta propia simplemente lo convierte en una responsabilidad manual en vez de automática.
 
-## Ejemplo educativo
+**Guía:** Exactamente: la expectativa de fondo no cambia, solo cambia quién es responsable de cumplirla.
 
-[SUPUESTO] Una persona obtiene 48.000 unidades monetarias de ingresos y además recibe 3.000 por un trabajo independiente. Conserva recibos, estados de cuenta y documentos de pago, pero todavía no sabe cómo se clasifica cada cantidad. Antes de calcular, identifica su jurisdicción, periodo fiscal, condición laboral y naturaleza de los gastos.
+## Cuestionario práctico
 
-Este ejemplo no determina una obligación real. Muestra el orden correcto: clasificar hechos, reunir documentación, consultar instrucciones oficiales y calcular solamente después. Si una regla afecta empleo, empresa, inversión o propiedad, debe analizarse por separado antes de integrar el resultado.
+**Pregunta 1.** Los pagos de impuestos estimados son más relevantes para:
 
-## Aplicación al tema
+A) Los empleados con retención automática
+B) Las personas que trabajan por cuenta propia, sin un empleador que les retenga impuestos
+C) Solo las personas retiradas
+D) Solo las grandes corporaciones
 
-Para estudiar **pagos fiscales estimados para trabajadores autónomos**, crea una hoja de trabajo con cuatro columnas: hecho, posible tratamiento, documento de respaldo y fuente pendiente de verificación. Marca como **HECHO** lo demostrado, como **SUPUESTO** lo que falta confirmar y como **OPINIÓN** cualquier recomendación basada en preferencias o tolerancia al riesgo.
+**Pregunta 2.** Los pagos estimados suelen hacerse:
 
-No mezcles traducción con localización jurídica. Un término estadounidense como W-2, 1099, Medicare, LLC, S-Corp, Roth o impuesto estatal sobre ventas puede traducirse para aprender el concepto, pero no debe presentarse como si fuera una figura idéntica en España u otra jurisdicción.
+A) Una vez, al final del año
+B) De forma periódica a lo largo del año, a menudo cada trimestre
+C) Nunca
+D) Solo si el gobierno los pide
 
-## Errores comunes
+**Pregunta 3.** Saltarse los pagos estimados, por lo general:
 
-- Aplicar una tasa de otro año o jurisdicción.
-- Confundir ingreso bruto con ingreso imponible o efectivo disponible.
-- Suponer que un gasto empresarial siempre es deducible.
-- Creer que una deducción y un crédito producen el mismo efecto.
-- Perder justificantes o mezclar cuentas personales y empresariales.
-- Confundir un reembolso con una reducción real del impuesto.
-- Esperar hasta el vencimiento para organizar la información.
-- Utilizar contenido educativo como asesoramiento individualizado.
+A) Elimina el impuesto adeudado
+B) Crea el riesgo de sanciones por pago insuficiente, además del impuesto en sí
+C) No tiene ninguna consecuencia
+D) Da como resultado un reembolso automático
 
-## Actividad práctica
+**Pregunta 4.** ¿Con qué tema anterior se conecta más directamente esta lección?
 
-1. Escribe una situación relacionada con este tema.
-2. Identifica jurisdicción y periodo fiscal.
-3. Enumera cinco hechos comprobables y tres datos faltantes.
-4. Reúne o describe los documentos pertinentes.
-5. Localiza una fuente oficial que deba consultarse.
-6. Redacta tres preguntas para un profesional fiscal.
-7. Explica qué dato podría cambiar la conclusión.
+A) El impuesto sobre la propiedad
+B) El W-2 frente al 1099 / empleado frente a contratista
+C) Los bienes públicos
+D) El impuesto sobre las ventas
 
-## Evaluación de competencia
+## Clave de respuestas
 
-1. ¿Por qué debe identificarse primero la jurisdicción?
-2. ¿Cuál es la diferencia entre hecho y supuesto?
-3. ¿Qué documento respaldaría la operación?
-4. ¿Qué fecha o periodo debe verificarse?
-5. ¿Qué organismo oficial podría publicar la regla?
-6. ¿Existe una posible excepción o clasificación alternativa?
-7. ¿Qué error produciría usar una tasa desactualizada?
-8. ¿Qué pregunta formularías a un profesional?
-9. ¿Qué registro conservarías y por cuánto tiempo según la regla aplicable?
-10. Resume el proceso de análisis sin inventar cifras.
+1. B, 2. B, 3. B, 4. B
 
-**Criterio de dominio:** 8 de 10 respuestas satisfactorias. Por debajo del 80 %, el alumno revisará la fuente, corregirá la clasificación y repetirá un escenario nuevo.
+## Respuestas y explicaciones
 
-## Respuestas orientativas
+**1.** Como ningún empleador les retiene impuestos, las personas que trabajan por cuenta propia tienen que estimar y pagar por iniciativa propia sus impuestos.
 
-Las respuestas deben identificar jurisdicción, periodo, clasificación, hecho imponible, documentación y fuente oficial. Una buena respuesta declara incertidumbres y evita afirmar tasas, umbrales o plazos no verificados. Cuando falten hechos, la conclusión correcta es indicar qué información se necesita, no adivinar.
+**2.** Los pagos periódicos a lo largo del año reflejan la expectativa de pago sobre la marcha que tienen incorporada la mayoría de los sistemas.
+
+**3.** Las sanciones por pago insuficiente existen precisamente para desalentar que se espere al final del año para pagarlo todo de una vez.
+
+**4.** Esta lección es, en esencia, la aplicación práctica de la distinción anterior entre empleado y contratista.
 
 ## Puntos clave
 
-- Las reglas fiscales cambian según lugar, fecha y clasificación.
-- Primero se clasifican los hechos; después se calcula.
-- La documentación permite defender una posición.
-- Deducciones, créditos, exclusiones y pagos anticipados son conceptos distintos.
-- Las fuentes oficiales vigentes tienen prioridad sobre resúmenes educativos.
-- La planificación legal es distinta de ocultar, falsear o evadir obligaciones.
-
-## Ruta de aprendizaje
-
-- **Anterior:** GREEN-L1-021
-- **Actual:** GREEN-L1-022
-- **Siguiente:** GREEN-L1-023
-
-## Localización — España
-
-Contenido en español de España para educación comparada. Las referencias a formularios y entidades estadounidenses explican conceptos del currículo original y no sustituyen la normativa española. Antes de aplicar cualquier regla deben verificarse la Agencia Tributaria u otra autoridad competente, el periodo fiscal y las circunstancias concretas.
+- En general, las personas que trabajan por cuenta propia tienen que hacer ellas mismas los pagos de impuestos estimados.
+- Estos pagos suelen ser periódicos (a menudo trimestrales), no un solo pago grande al final del año.
+- Saltarse los pagos estimados crea el riesgo de sanciones, aunque el impuesto se siga debiendo al final.
+- Esta es una consecuencia directa de no tener el sistema de retención automática de un empleador.

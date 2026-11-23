@@ -1,116 +1,89 @@
 ---
 id: GREEN-L1-026
 track: GREEN
-officialTrackName: "Business Taxes"
+officialTrackName: Taxes
 level: 1
 lessonNumber: 26
 locale: es-ES
-title: "Fundamentos de la deducción por oficina en casa"
-summary: "Introducción práctica a fundamentos de la deducción por oficina en casa, con énfasis en conceptos, documentación, decisiones y verificación mediante fuentes oficiales."
-version: "1.0"
-author: "Waldemar M. Caban, JD MA"
-date: "2026-09-01"
+title: "Lo básico de la deducción por oficina en el hogar"
+summary: "Presenta el concepto de deducir una parte de los gastos del hogar por el uso de una parte de la vivienda para el negocio, con énfasis en la lógica central de la elegibilidad."
+version: 1.0
+author: Waldemar M. Caban, JD MA
+date: 2026-08-09
 ---
 
-# 26. Fundamentos de la deducción por oficina en casa
+# Lo básico de la deducción por oficina en el hogar
 
 ## Objetivos de aprendizaje
+- Explicar la lógica general detrás de una deducción por oficina en el hogar.
+- Identificar el principio de elegibilidad común (uso regular y exclusivo).
+- Reconocer por qué esta deducción requiere una documentación cuidadosa.
 
-Al terminar esta lección, el alumno podrá:
+## Contenido principal
 
-1. Explicar con palabras sencillas el concepto de **fundamentos de la deducción por oficina en casa**.
-2. Identificar quién paga, quién recauda y qué hecho puede generar la obligación.
-3. Distinguir una regla general de una excepción que exige verificación.
-4. Organizar la documentación necesaria para revisar una posición fiscal.
-5. Formular preguntas útiles para una fuente oficial o un profesional cualificado.
+Cuando una parte de una vivienda se usa de forma regular y exclusiva para el negocio, muchos sistemas permiten deducir una parte de los costes relacionados con la vivienda (como el alquiler, los servicios públicos o una parte de los intereses de una hipoteca), en proporción a cuánto de la vivienda se usa para el negocio. La idea central de elegibilidad en la mayoría de los sistemas es el «uso regular y exclusivo»: el espacio tiene que usarse de forma constante para el negocio y, en general, solo para el negocio, no como un cuarto de huéspedes que de vez en cuando también sirve de oficina.
 
-## Concepto principal
+Esta deducción es valiosa, pero históricamente ha sido un área de revisión más estricta en algunos sistemas tributarios, precisamente porque la línea entre el uso personal y el uso del negocio de una vivienda puede volverse borrosa. Eso la convierte en un buen ejemplo real de por qué importa la lección anterior sobre llevar registros: una documentación clara del uso exclusivo del espacio para el negocio, y de cómo se calculó la proporción deducible, es lo que permite defender esta deducción.
 
-[HECHO VERIFICABLE] Los impuestos son obligaciones creadas por una jurisdicción. La respuesta correcta depende del país, territorio, estado o provincia, municipio, periodo fiscal, tipo de contribuyente y naturaleza de la operación. Por eso, comprender **fundamentos de la deducción por oficina en casa** exige identificar primero la jurisdicción y la fecha aplicable.
+## Ejemplo práctico
 
-La educación fiscal no consiste en memorizar una cifra aislada. Consiste en reconocer el hecho imponible, la base, el tipo, las deducciones o créditos posibles, el plazo, la documentación y la autoridad que publica la regla. Las tasas, umbrales y formularios pueden cambiar; antes de actuar deben comprobarse en una fuente oficial vigente.
+**Pregunta:** Un trabajador independiente trabaja en un cuarto libre que también se usa para huéspedes dos veces al año. ¿Ese cuarto cumple claramente el estándar de «uso regular y exclusivo»?
 
-## Marco práctico de análisis
+**Estudiante:** Parece un caso dudoso, porque no se usa solo para el negocio.
 
-Utiliza estas preguntas:
+**Guía:** ¿Qué haría el caso más claro, en un sentido o en otro?
 
-- ¿Qué jurisdicción tiene autoridad sobre la persona o transacción?
-- ¿Cuál es el periodo fiscal?
-- ¿Quién es el contribuyente y cuál es su clasificación?
-- ¿Qué ingreso, compra, propiedad o actividad activa la regla?
-- ¿Cómo se calcula la base?
-- ¿Existe una deducción, crédito, exclusión o exención?
-- ¿Qué formulario, pago o registro se exige?
-- ¿Cuál es el plazo y qué ocurre si se incumple?
-- ¿Qué fuente oficial confirma la respuesta?
+**Estudiante:** Si el cuarto se usara solo para trabajar, con un escritorio dedicado y sin ningún otro uso, calificaría claramente. El uso ocasional para huéspedes lo complica.
 
-## Ejemplo educativo
+**Guía:** Correcto: este es exactamente el tipo de zona gris en el que más importan la documentación y una configuración clara y constante.
 
-[SUPUESTO] Una persona obtiene 48.000 unidades monetarias de ingresos y además recibe 3.000 por un trabajo independiente. Conserva recibos, estados de cuenta y documentos de pago, pero todavía no sabe cómo se clasifica cada cantidad. Antes de calcular, identifica su jurisdicción, periodo fiscal, condición laboral y naturaleza de los gastos.
+## Cuestionario práctico
 
-Este ejemplo no determina una obligación real. Muestra el orden correcto: clasificar hechos, reunir documentación, consultar instrucciones oficiales y calcular solamente después. Si una regla afecta empleo, empresa, inversión o propiedad, debe analizarse por separado antes de integrar el resultado.
+**Pregunta 1.** En general, la deducción por oficina en el hogar se aplica cuando un espacio:
 
-## Aplicación al tema
+A) Se usa de vez en cuando para cualquier cosa
+B) Se usa de forma regular y exclusiva para el negocio
+C) Se usa solo los fines de semana
+D) Es propio, no alquilado
 
-Para estudiar **fundamentos de la deducción por oficina en casa**, crea una hoja de trabajo con cuatro columnas: hecho, posible tratamiento, documento de respaldo y fuente pendiente de verificación. Marca como **HECHO** lo demostrado, como **SUPUESTO** lo que falta confirmar y como **OPINIÓN** cualquier recomendación basada en preferencias o tolerancia al riesgo.
+**Pregunta 2.** Según esta regla, ¿qué se puede deducir normalmente, en proporción?
 
-No mezcles traducción con localización jurídica. Un término estadounidense como W-2, 1099, Medicare, LLC, S-Corp, Roth o impuesto estatal sobre ventas puede traducirse para aprender el concepto, pero no debe presentarse como si fuera una figura idéntica en España u otra jurisdicción.
+A) Todos los gastos de la vivienda, sin importar el uso para el negocio
+B) Una parte de costes como el alquiler, los servicios públicos o los intereses hipotecarios, según la proporción de uso para el negocio
+C) Nada relacionado con la vivienda
+D) Solo la compra de muebles
 
-## Errores comunes
+**Pregunta 3.** ¿Por qué esta deducción históricamente ha recibido una revisión más estricta en algunos sistemas?
 
-- Aplicar una tasa de otro año o jurisdicción.
-- Confundir ingreso bruto con ingreso imponible o efectivo disponible.
-- Suponer que un gasto empresarial siempre es deducible.
-- Creer que una deducción y un crédito producen el mismo efecto.
-- Perder justificantes o mezclar cuentas personales y empresariales.
-- Confundir un reembolso con una reducción real del impuesto.
-- Esperar hasta el vencimiento para organizar la información.
-- Utilizar contenido educativo como asesoramiento individualizado.
+A) Casi no se usa
+B) La línea entre el uso personal y el uso del negocio puede ser borrosa
+C) En realidad no existe
+D) Solo se aplica a las grandes corporaciones
 
-## Actividad práctica
+**Pregunta 4.** ¿Qué lección anterior es especialmente relevante para defender esta deducción?
 
-1. Escribe una situación relacionada con este tema.
-2. Identifica jurisdicción y periodo fiscal.
-3. Enumera cinco hechos comprobables y tres datos faltantes.
-4. Reúne o describe los documentos pertinentes.
-5. Localiza una fuente oficial que deba consultarse.
-6. Redacta tres preguntas para un profesional fiscal.
-7. Explica qué dato podría cambiar la conclusión.
+A) Los bienes públicos
+B) Llevar registros
+C) El impuesto sobre las ventas
+D) El estado civil para la declaración
 
-## Evaluación de competencia
+## Clave de respuestas
 
-1. ¿Por qué debe identificarse primero la jurisdicción?
-2. ¿Cuál es la diferencia entre hecho y supuesto?
-3. ¿Qué documento respaldaría la operación?
-4. ¿Qué fecha o periodo debe verificarse?
-5. ¿Qué organismo oficial podría publicar la regla?
-6. ¿Existe una posible excepción o clasificación alternativa?
-7. ¿Qué error produciría usar una tasa desactualizada?
-8. ¿Qué pregunta formularías a un profesional?
-9. ¿Qué registro conservarías y por cuánto tiempo según la regla aplicable?
-10. Resume el proceso de análisis sin inventar cifras.
+1. B, 2. B, 3. B, 4. B
 
-**Criterio de dominio:** 8 de 10 respuestas satisfactorias. Por debajo del 80 %, el alumno revisará la fuente, corregirá la clasificación y repetirá un escenario nuevo.
+## Respuestas y explicaciones
 
-## Respuestas orientativas
+**1.** El «uso regular y exclusivo» es el principio de elegibilidad común en muchos sistemas que ofrecen esta deducción.
 
-Las respuestas deben identificar jurisdicción, periodo, clasificación, hecho imponible, documentación y fuente oficial. Una buena respuesta declara incertidumbres y evita afirmar tasas, umbrales o plazos no verificados. Cuando falten hechos, la conclusión correcta es indicar qué información se necesita, no adivinar.
+**2.** En general, la deducción es proporcional: está ligada a cuánto de la vivienda se usa realmente para el negocio.
+
+**3.** Como el uso personal y el del negocio pueden superponerse en una vivienda, esta área a menudo recibe una revisión más detallada.
+
+**4.** Una documentación sólida es exactamente lo que permite defender una deducción por oficina en el hogar si alguna vez se cuestiona.
 
 ## Puntos clave
 
-- Las reglas fiscales cambian según lugar, fecha y clasificación.
-- Primero se clasifican los hechos; después se calcula.
-- La documentación permite defender una posición.
-- Deducciones, créditos, exclusiones y pagos anticipados son conceptos distintos.
-- Las fuentes oficiales vigentes tienen prioridad sobre resúmenes educativos.
-- La planificación legal es distinta de ocultar, falsear o evadir obligaciones.
-
-## Ruta de aprendizaje
-
-- **Anterior:** GREEN-L1-025
-- **Actual:** GREEN-L1-026
-- **Siguiente:** GREEN-L1-027
-
-## Localización — España
-
-Contenido en español de España para educación comparada. Las referencias a formularios y entidades estadounidenses explican conceptos del currículo original y no sustituyen la normativa española. Antes de aplicar cualquier regla deben verificarse la Agencia Tributaria u otra autoridad competente, el periodo fiscal y las circunstancias concretas.
+- En general, las deducciones por oficina en el hogar requieren un uso regular y exclusivo del espacio para el negocio.
+- La deducción es proporcional a cuánto de la vivienda se usa para el negocio.
+- Esta área a menudo recibe una revisión más estricta porque el uso personal y el del negocio pueden mezclarse.
+- Una documentación cuidadosa es esencial para defender esta deducción.

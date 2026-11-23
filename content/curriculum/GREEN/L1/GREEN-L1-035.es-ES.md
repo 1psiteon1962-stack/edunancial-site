@@ -1,116 +1,89 @@
 ---
 id: GREEN-L1-035
 track: GREEN
-officialTrackName: "Business Taxes"
+officialTrackName: Taxes
 level: 1
 lessonNumber: 35
 locale: es-ES
-title: "Tradicional o Roth: pagar impuestos ahora o después"
-summary: "Introducción práctica a tradicional o roth: pagar impuestos ahora o después, con énfasis en conceptos, documentación, decisiones y verificación mediante fuentes oficiales."
-version: "1.0"
-author: "Waldemar M. Caban, JD MA"
-date: "2026-09-01"
+title: "Tradicional frente a Roth: pagar los impuestos ahora o después"
+summary: "Explica el concepto general detrás de dos estructuras comunes de cuentas de jubilación (una que tributa al entrar y otra al salir), con nombres genéricos en vez de los nombres de los programas específicos de un solo país."
+version: 1.0
+author: Waldemar M. Caban, JD MA
+date: 2026-08-09
 ---
 
-# 35. Tradicional o Roth: pagar impuestos ahora o después
+# Tradicional frente a Roth: pagar los impuestos ahora o después
 
 ## Objetivos de aprendizaje
+- Explicar la decisión de «pagar ahora o pagar después» que existe en muchos sistemas de cuentas de jubilación.
+- Identificar la disyuntiva básica entre los dos enfoques.
+- Reconocer que la mejor opción puede depender de las tasas impositivas futuras que se esperan.
 
-Al terminar esta lección, el alumno podrá:
+## Contenido principal
 
-1. Explicar con palabras sencillas el concepto de **tradicional o roth: pagar impuestos ahora o después**.
-2. Identificar quién paga, quién recauda y qué hecho puede generar la obligación.
-3. Distinguir una regla general de una excepción que exige verificación.
-4. Organizar la documentación necesaria para revisar una posición fiscal.
-5. Formular preguntas útiles para una fuente oficial o un profesional cualificado.
+Muchos sistemas de cuentas de jubilación ofrecen escoger entre dos estructuras, que a menudo se describen de forma genérica como de estilo «tradicional» y de estilo «Roth», sin importar los nombres locales exactos. En una cuenta de estilo tradicional, los aportes normalmente reducen el ingreso tributable ahora, pero los retiros durante la jubilación tributan. En una cuenta de estilo Roth, los aportes se hacen ahora con dinero que ya tributó, pero los retiros durante la jubilación normalmente están libres de impuestos.
 
-## Concepto principal
+La disyuntiva central es el momento: pagar el impuesto ahora, a su tasa actual, o pagarlo después, a su tasa futura. Si espera que su tasa impositiva sea más baja en la jubilación que ahora, un enfoque de estilo tradicional a menudo sale ganando. Si espera que su tasa sea parecida o más alta en la jubilación (algo común en las personas jóvenes que empiezan su carrera y tienen margen para crecer), un enfoque de estilo Roth puede salir ganando. No hay una respuesta universalmente correcta: depende de supuestos sobre el futuro, y precisamente por eso esta es un área común para buscar orientación profesional en vez de adivinar.
 
-[HECHO VERIFICABLE] Los impuestos son obligaciones creadas por una jurisdicción. La respuesta correcta depende del país, territorio, estado o provincia, municipio, periodo fiscal, tipo de contribuyente y naturaleza de la operación. Por eso, comprender **tradicional o roth: pagar impuestos ahora o después** exige identificar primero la jurisdicción y la fecha aplicable.
+## Ejemplo práctico
 
-La educación fiscal no consiste en memorizar una cifra aislada. Consiste en reconocer el hecho imponible, la base, el tipo, las deducciones o créditos posibles, el plazo, la documentación y la autoridad que publica la regla. Las tasas, umbrales y formularios pueden cambiar; antes de actuar deben comprobarse en una fuente oficial vigente.
+**Pregunta:** Una joven de 22 años que acaba de empezar su carrera está decidiendo entre una cuenta de jubilación de estilo tradicional y una de estilo Roth. ¿Cuál es el razonamiento general que debería pensar?
 
-## Marco práctico de análisis
+**Estudiante:** Según esta lección, debería pensar si su tasa impositiva ahora probablemente es más baja o más alta de lo que será más adelante en su carrera.
 
-Utiliza estas preguntas:
+**Guía:** Como está al principio de su carrera, ¿cuál es un supuesto razonable sobre su ingreso y su tasa impositiva futuros?
 
-- ¿Qué jurisdicción tiene autoridad sobre la persona o transacción?
-- ¿Cuál es el periodo fiscal?
-- ¿Quién es el contribuyente y cuál es su clasificación?
-- ¿Qué ingreso, compra, propiedad o actividad activa la regla?
-- ¿Cómo se calcula la base?
-- ¿Existe una deducción, crédito, exclusión o exención?
-- ¿Qué formulario, pago o registro se exige?
-- ¿Cuál es el plazo y qué ocurre si se incumple?
-- ¿Qué fuente oficial confirma la respuesta?
+**Estudiante:** Su ingreso, y probablemente su tasa impositiva, seguramente subirán con el tiempo; así que pagar el impuesto ahora, a una tasa más baja, mediante una cuenta de estilo Roth, podría tener sentido.
 
-## Ejemplo educativo
+**Guía:** Es un razonamiento razonable, aunque sigue siendo un supuesto sobre el futuro, no una garantía, y por eso vale la pena conversarlo con un profesional para un plan específico.
 
-[SUPUESTO] Una persona obtiene 48.000 unidades monetarias de ingresos y además recibe 3.000 por un trabajo independiente. Conserva recibos, estados de cuenta y documentos de pago, pero todavía no sabe cómo se clasifica cada cantidad. Antes de calcular, identifica su jurisdicción, periodo fiscal, condición laboral y naturaleza de los gastos.
+## Cuestionario práctico
 
-Este ejemplo no determina una obligación real. Muestra el orden correcto: clasificar hechos, reunir documentación, consultar instrucciones oficiales y calcular solamente después. Si una regla afecta empleo, empresa, inversión o propiedad, debe analizarse por separado antes de integrar el resultado.
+**Pregunta 1.** En una cuenta de estilo tradicional, los aportes normalmente:
 
-## Aplicación al tema
+A) Tributan dos veces
+B) Reducen el ingreso tributable ahora, y los retiros tributan después
+C) Nunca tributan
+D) No tienen ningún efecto en los impuestos
 
-Para estudiar **tradicional o roth: pagar impuestos ahora o después**, crea una hoja de trabajo con cuatro columnas: hecho, posible tratamiento, documento de respaldo y fuente pendiente de verificación. Marca como **HECHO** lo demostrado, como **SUPUESTO** lo que falta confirmar y como **OPINIÓN** cualquier recomendación basada en preferencias o tolerancia al riesgo.
+**Pregunta 2.** En una cuenta de estilo Roth, los aportes normalmente:
 
-No mezcles traducción con localización jurídica. Un término estadounidense como W-2, 1099, Medicare, LLC, S-Corp, Roth o impuesto estatal sobre ventas puede traducirse para aprender el concepto, pero no debe presentarse como si fuera una figura idéntica en España u otra jurisdicción.
+A) Se hacen con dinero que ya tributó, y los retiros posteriores están libres de impuestos
+B) Se deducen del ingreso tributable actual
+C) Tributan dos veces
+D) Son ilegales
 
-## Errores comunes
+**Pregunta 3.** La disyuntiva central entre los dos enfoques es:
 
-- Aplicar una tasa de otro año o jurisdicción.
-- Confundir ingreso bruto con ingreso imponible o efectivo disponible.
-- Suponer que un gasto empresarial siempre es deducible.
-- Creer que una deducción y un crédito producen el mismo efecto.
-- Perder justificantes o mezclar cuentas personales y empresariales.
-- Confundir un reembolso con una reducción real del impuesto.
-- Esperar hasta el vencimiento para organizar la información.
-- Utilizar contenido educativo como asesoramiento individualizado.
+A) No hay ninguna disyuntiva
+B) Pagar el impuesto ahora frente a pagarlo después
+C) Uno de los enfoques nunca implica impuestos
+D) Solo los negocios pueden escoger
 
-## Actividad práctica
+**Pregunta 4.** ¿Qué enfoque tiende a favorecer a alguien que espera tener en la jubilación una tasa impositiva más baja que la de hoy?
 
-1. Escribe una situación relacionada con este tema.
-2. Identifica jurisdicción y periodo fiscal.
-3. Enumera cinco hechos comprobables y tres datos faltantes.
-4. Reúne o describe los documentos pertinentes.
-5. Localiza una fuente oficial que deba consultarse.
-6. Redacta tres preguntas para un profesional fiscal.
-7. Explica qué dato podría cambiar la conclusión.
+A) El de estilo Roth
+B) El de estilo tradicional
+C) Ninguno importa
+D) Solo las cuentas basadas en el impuesto sobre las ventas
 
-## Evaluación de competencia
+## Clave de respuestas
 
-1. ¿Por qué debe identificarse primero la jurisdicción?
-2. ¿Cuál es la diferencia entre hecho y supuesto?
-3. ¿Qué documento respaldaría la operación?
-4. ¿Qué fecha o periodo debe verificarse?
-5. ¿Qué organismo oficial podría publicar la regla?
-6. ¿Existe una posible excepción o clasificación alternativa?
-7. ¿Qué error produciría usar una tasa desactualizada?
-8. ¿Qué pregunta formularías a un profesional?
-9. ¿Qué registro conservarías y por cuánto tiempo según la regla aplicable?
-10. Resume el proceso de análisis sin inventar cifras.
+1. B, 2. A, 3. B, 4. B
 
-**Criterio de dominio:** 8 de 10 respuestas satisfactorias. Por debajo del 80 %, el alumno revisará la fuente, corregirá la clasificación y repetirá un escenario nuevo.
+## Respuestas y explicaciones
 
-## Respuestas orientativas
+**1.** La estructura de estilo tradicional difiere el impuesto: ofrece un beneficio hoy a cambio del impuesto que se deberá sobre los retiros más adelante.
 
-Las respuestas deben identificar jurisdicción, periodo, clasificación, hecho imponible, documentación y fuente oficial. Una buena respuesta declara incertidumbres y evita afirmar tasas, umbrales o plazos no verificados. Cuando falten hechos, la conclusión correcta es indicar qué información se necesita, no adivinar.
+**2.** La estructura de estilo Roth adelanta el impuesto, así que los retiros posteriores que califican, en general, no tributan.
+
+**3.** Es, en el fondo, una decisión de momento sobre cuándo prefiere pagar el impuesto, basada en supuestos sobre las tasas futuras.
+
+**4.** Si la tasa de hoy es más alta que la tasa futura que se espera, diferir el impuesto (estilo tradicional) a menudo es más ventajoso.
 
 ## Puntos clave
 
-- Las reglas fiscales cambian según lugar, fecha y clasificación.
-- Primero se clasifican los hechos; después se calcula.
-- La documentación permite defender una posición.
-- Deducciones, créditos, exclusiones y pagos anticipados son conceptos distintos.
-- Las fuentes oficiales vigentes tienen prioridad sobre resúmenes educativos.
-- La planificación legal es distinta de ocultar, falsear o evadir obligaciones.
-
-## Ruta de aprendizaje
-
-- **Anterior:** GREEN-L1-034
-- **Actual:** GREEN-L1-035
-- **Siguiente:** GREEN-L1-036
-
-## Localización — España
-
-Contenido en español de España para educación comparada. Las referencias a formularios y entidades estadounidenses explican conceptos del currículo original y no sustituyen la normativa española. Antes de aplicar cualquier regla deben verificarse la Agencia Tributaria u otra autoridad competente, el periodo fiscal y las circunstancias concretas.
+- Las cuentas de estilo tradicional difieren el impuesto hasta la retirada del dinero; las de estilo Roth gravan los aportes ahora, no los retiros.
+- La disyuntiva central es pagar el impuesto ahora frente a pagarlo después.
+- La mejor opción depende de los supuestos sobre su tasa impositiva actual frente a la futura.
+- Esta es un área común y legítima para buscar orientación profesional en vez de adivinar.

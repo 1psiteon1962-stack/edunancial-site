@@ -1,116 +1,89 @@
 ---
 id: GREEN-L1-044
 track: GREEN
-officialTrackName: "Business Taxes"
+officialTrackName: Taxes
 level: 1
 lessonNumber: 44
 locale: es-ES
-title: "Paraísos fiscales y competencia entre países"
-summary: "Introducción práctica a paraísos fiscales y competencia entre países, con énfasis en conceptos, documentación, decisiones y verificación mediante fuentes oficiales."
-version: "1.0"
-author: "Waldemar M. Caban, JD MA"
-date: "2026-09-01"
+title: "Los paraísos fiscales y por qué los países compiten por los negocios"
+summary: "Presenta, a un nivel básico, neutral y conceptual, el concepto de los paraísos fiscales y la competencia tributaria entre jurisdicciones."
+version: 1.0
+author: Waldemar M. Caban, JD MA
+date: 2026-08-09
 ---
 
-# 44. Paraísos fiscales y competencia entre países
+# Los paraísos fiscales y por qué los países compiten por los negocios
 
 ## Objetivos de aprendizaje
+- Definir en términos generales un paraíso fiscal.
+- Explicar por qué los países a veces compiten en política tributaria para atraer negocios.
+- Reconocer esto como un área de debate de política que de verdad se disputa.
 
-Al terminar esta lección, el alumno podrá:
+## Contenido principal
 
-1. Explicar con palabras sencillas el concepto de **paraísos fiscales y competencia entre países**.
-2. Identificar quién paga, quién recauda y qué hecho puede generar la obligación.
-3. Distinguir una regla general de una excepción que exige verificación.
-4. Organizar la documentación necesaria para revisar una posición fiscal.
-5. Formular preguntas útiles para una fuente oficial o un profesional cualificado.
+Un paraíso fiscal, en una definición amplia, es una jurisdicción que ofrece impuestos notablemente bajos, una regulación mínima o una fuerte privacidad financiera, específicamente para atraer a negocios o personas a que ubiquen allí sus actividades o sus bienes. Los países compiten por este tipo de negocios porque atraer empresas, personas ricas o capital puede traer empleos, inversión y actividad económica que de otro modo no se ubicarían allí.
 
-## Concepto principal
+Esto crea una tensión real. Desde una perspectiva, la competencia tributaria disciplina a los gobiernos: si los impuestos suben demasiado en relación con el valor que se ofrece, los negocios y el capital pueden mudarse, lo que presiona a los gobiernos a ser eficientes. Desde otra perspectiva, esta competencia puede permitir que entidades grandes y rentables eviten aportar una recaudación proporcional a su actividad económica real, lo que traslada la carga a los contribuyentes con menos movilidad (normalmente las personas y los negocios más pequeños, que no pueden mudarse con facilidad). Ambas perspectivas tienen un mérito genuino, y esta sigue siendo una de las áreas que más activamente se debaten en la política tributaria internacional.
 
-[HECHO VERIFICABLE] Los impuestos son obligaciones creadas por una jurisdicción. La respuesta correcta depende del país, territorio, estado o provincia, municipio, periodo fiscal, tipo de contribuyente y naturaleza de la operación. Por eso, comprender **paraísos fiscales y competencia entre países** exige identificar primero la jurisdicción y la fecha aplicable.
+## Ejemplo práctico
 
-La educación fiscal no consiste en memorizar una cifra aislada. Consiste en reconocer el hecho imponible, la base, el tipo, las deducciones o créditos posibles, el plazo, la documentación y la autoridad que publica la regla. Las tasas, umbrales y formularios pueden cambiar; antes de actuar deben comprobarse en una fuente oficial vigente.
+**Pregunta:** Una gran empresa multinacional muda su sede a un país con tasas de impuesto corporativo muy bajas. ¿Esto es claramente bueno o claramente malo?
 
-## Marco práctico de análisis
+**Estudiante:** Según esta lección, no tiene una respuesta sencilla: hay argumentos reales en ambos lados.
 
-Utiliza estas preguntas:
+**Guía:** ¿Cuál es el argumento a favor de que sea razonable y cuál el argumento para preocuparse?
 
-- ¿Qué jurisdicción tiene autoridad sobre la persona o transacción?
-- ¿Cuál es el periodo fiscal?
-- ¿Quién es el contribuyente y cuál es su clasificación?
-- ¿Qué ingreso, compra, propiedad o actividad activa la regla?
-- ¿Cómo se calcula la base?
-- ¿Existe una deducción, crédito, exclusión o exención?
-- ¿Qué formulario, pago o registro se exige?
-- ¿Cuál es el plazo y qué ocurre si se incumple?
-- ¿Qué fuente oficial confirma la respuesta?
+**Estudiante:** Se podría ver como una competencia eficiente que presiona a los gobiernos, pero también podría significar que los contribuyentes con menos movilidad terminen cargando con más de la carga que la empresa, de otro modo, habría aportado.
 
-## Ejemplo educativo
+**Guía:** Exactamente: es un tema que de verdad se disputa, no uno con una respuesta correcta y limpia.
 
-[SUPUESTO] Una persona obtiene 48.000 unidades monetarias de ingresos y además recibe 3.000 por un trabajo independiente. Conserva recibos, estados de cuenta y documentos de pago, pero todavía no sabe cómo se clasifica cada cantidad. Antes de calcular, identifica su jurisdicción, periodo fiscal, condición laboral y naturaleza de los gastos.
+## Cuestionario práctico
 
-Este ejemplo no determina una obligación real. Muestra el orden correcto: clasificar hechos, reunir documentación, consultar instrucciones oficiales y calcular solamente después. Si una regla afecta empleo, empresa, inversión o propiedad, debe analizarse por separado antes de integrar el resultado.
+**Pregunta 1.** En general, un paraíso fiscal se define como:
 
-## Aplicación al tema
+A) Una jurisdicción con impuestos especialmente bajos o una fuerte privacidad financiera, pensada para atraer negocios de fuera
+B) Cualquier país con un impuesto sobre la renta
+C) Un tipo de crédito tributario
+D) Un sinónimo de evasión de impuestos
 
-Para estudiar **paraísos fiscales y competencia entre países**, crea una hoja de trabajo con cuatro columnas: hecho, posible tratamiento, documento de respaldo y fuente pendiente de verificación. Marca como **HECHO** lo demostrado, como **SUPUESTO** lo que falta confirmar y como **OPINIÓN** cualquier recomendación basada en preferencias o tolerancia al riesgo.
+**Pregunta 2.** Los países compiten en política tributaria en parte para atraer:
 
-No mezcles traducción con localización jurídica. Un término estadounidense como W-2, 1099, Medicare, LLC, S-Corp, Roth o impuesto estatal sobre ventas puede traducirse para aprender el concepto, pero no debe presentarse como si fuera una figura idéntica en España u otra jurisdicción.
+A) Nada
+B) Empleos, inversión y actividad económica
+C) Solo turistas
+D) Solo ayuda extranjera
 
-## Errores comunes
+**Pregunta 3.** Una perspectiva sobre la competencia tributaria es que:
 
-- Aplicar una tasa de otro año o jurisdicción.
-- Confundir ingreso bruto con ingreso imponible o efectivo disponible.
-- Suponer que un gasto empresarial siempre es deducible.
-- Creer que una deducción y un crédito producen el mismo efecto.
-- Perder justificantes o mezclar cuentas personales y empresariales.
-- Confundir un reembolso con una reducción real del impuesto.
-- Esperar hasta el vencimiento para organizar la información.
-- Utilizar contenido educativo como asesoramiento individualizado.
+A) No tiene ningún efecto en los gobiernos
+B) Disciplina a los gobiernos hacia la eficiencia
+C) Siempre es ilegal
+D) Solo beneficia a los pequeños negocios
 
-## Actividad práctica
+**Pregunta 4.** Una preocupación que se plantea sobre la competencia tributaria es que puede:
 
-1. Escribe una situación relacionada con este tema.
-2. Identifica jurisdicción y periodo fiscal.
-3. Enumera cinco hechos comprobables y tres datos faltantes.
-4. Reúne o describe los documentos pertinentes.
-5. Localiza una fuente oficial que deba consultarse.
-6. Redacta tres preguntas para un profesional fiscal.
-7. Explica qué dato podría cambiar la conclusión.
+A) Trasladar una mayor parte de la carga tributaria a los contribuyentes con menos movilidad
+B) Eliminar todos los impuestos en todas partes
+C) Afectar solo a los gobiernos, nunca a las personas
+D) No tener ninguna consecuencia en el mundo real
 
-## Evaluación de competencia
+## Clave de respuestas
 
-1. ¿Por qué debe identificarse primero la jurisdicción?
-2. ¿Cuál es la diferencia entre hecho y supuesto?
-3. ¿Qué documento respaldaría la operación?
-4. ¿Qué fecha o periodo debe verificarse?
-5. ¿Qué organismo oficial podría publicar la regla?
-6. ¿Existe una posible excepción o clasificación alternativa?
-7. ¿Qué error produciría usar una tasa desactualizada?
-8. ¿Qué pregunta formularías a un profesional?
-9. ¿Qué registro conservarías y por cuánto tiempo según la regla aplicable?
-10. Resume el proceso de análisis sin inventar cifras.
+1. A, 2. B, 3. B, 4. A
 
-**Criterio de dominio:** 8 de 10 respuestas satisfactorias. Por debajo del 80 %, el alumno revisará la fuente, corregirá la clasificación y repetirá un escenario nuevo.
+## Respuestas y explicaciones
 
-## Respuestas orientativas
+**1.** La idea central es una jurisdicción que usa a propósito una carga tributaria baja como atractivo competitivo para la actividad de fuera.
 
-Las respuestas deben identificar jurisdicción, periodo, clasificación, hecho imponible, documentación y fuente oficial. Una buena respuesta declara incertidumbres y evita afirmar tasas, umbrales o plazos no verificados. Cuando falten hechos, la conclusión correcta es indicar qué información se necesita, no adivinar.
+**2.** Atraer actividad de negocios es la motivación económica práctica detrás de este tipo de competencia.
+
+**3.** La disciplina mediante la competencia es un argumento genuino a favor de permitir que exista este tipo de competencia tributaria.
+
+**4.** El traslado de la carga a los contribuyentes con menos movilidad es la preocupación central que plantean los críticos de una competencia tributaria sin control.
 
 ## Puntos clave
 
-- Las reglas fiscales cambian según lugar, fecha y clasificación.
-- Primero se clasifican los hechos; después se calcula.
-- La documentación permite defender una posición.
-- Deducciones, créditos, exclusiones y pagos anticipados son conceptos distintos.
-- Las fuentes oficiales vigentes tienen prioridad sobre resúmenes educativos.
-- La planificación legal es distinta de ocultar, falsear o evadir obligaciones.
-
-## Ruta de aprendizaje
-
-- **Anterior:** GREEN-L1-043
-- **Actual:** GREEN-L1-044
-- **Siguiente:** GREEN-L1-045
-
-## Localización — España
-
-Contenido en español de España para educación comparada. Las referencias a formularios y entidades estadounidenses explican conceptos del currículo original y no sustituyen la normativa española. Antes de aplicar cualquier regla deben verificarse la Agencia Tributaria u otra autoridad competente, el periodo fiscal y las circunstancias concretas.
+- Un paraíso fiscal ofrece impuestos bajos o una fuerte privacidad para atraer negocios o capital de fuera.
+- Los países compiten en política tributaria en parte para atraer empleos e inversión.
+- Una opinión: esto disciplina a los gobiernos hacia la eficiencia.
+- Otra opinión: puede trasladar la carga tributaria a los contribuyentes con menos movilidad; una tensión que de verdad se debate.

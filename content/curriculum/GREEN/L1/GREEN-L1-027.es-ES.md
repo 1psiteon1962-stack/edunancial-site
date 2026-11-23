@@ -1,116 +1,89 @@
 ---
 id: GREEN-L1-027
 track: GREEN
-officialTrackName: "Business Taxes"
+officialTrackName: Taxes
 level: 1
 lessonNumber: 27
 locale: es-ES
-title: "Depreciación: distribuir un coste a lo largo del tiempo"
-summary: "Introducción práctica a depreciación: distribuir un coste a lo largo del tiempo, con énfasis en conceptos, documentación, decisiones y verificación mediante fuentes oficiales."
-version: "1.0"
-author: "Waldemar M. Caban, JD MA"
-date: "2026-09-01"
+title: "La depreciación: repartir un coste a lo largo del tiempo"
+summary: "Presenta la depreciación como el concepto de repartir el coste de un activo de negocio duradero a lo largo de varios años, en vez de deducirlo todo de una vez."
+version: 1.0
+author: Waldemar M. Caban, JD MA
+date: 2026-08-09
 ---
 
-# 27. Depreciación: distribuir un coste a lo largo del tiempo
+# La depreciación: repartir un coste a lo largo del tiempo
 
 ## Objetivos de aprendizaje
+- Definir la depreciación en términos sencillos.
+- Explicar por qué existe la depreciación como concepto.
+- Distinguir los activos que probablemente se deprecian de los que normalmente se registran como gasto de inmediato.
 
-Al terminar esta lección, el alumno podrá:
+## Contenido principal
 
-1. Explicar con palabras sencillas el concepto de **depreciación: distribuir un coste a lo largo del tiempo**.
-2. Identificar quién paga, quién recauda y qué hecho puede generar la obligación.
-3. Distinguir una regla general de una excepción que exige verificación.
-4. Organizar la documentación necesaria para revisar una posición fiscal.
-5. Formular preguntas útiles para una fuente oficial o un profesional cualificado.
+Cuando un negocio compra algo que se va a usar durante años (un vehículo, maquinaria, un edificio), normalmente no tiene sentido deducir todo el coste en el año de la compra. En cambio, muchos sistemas tributarios exigen o permiten que ese coste se reparta, o se deprecie, a lo largo de la vida útil del activo, de modo que la deducción corresponda a los años en que el activo realmente ayuda a generar ingresos.
 
-## Concepto principal
+La lógica refleja el sentido contable básico: si un equipo se va a usar durante diez años, tratar todo su coste como un gasto de un solo año subestimaría la ganancia del primer año y la sobrestimaría en todos los años siguientes. La depreciación suaviza eso. En cambio, los gastos de negocio consumibles de todos los días (los artículos de oficina, por ejemplo) normalmente se registran por completo como gasto de inmediato, ya que no aportan valor a lo largo de varios años como sí lo hace un equipo duradero.
 
-[HECHO VERIFICABLE] Los impuestos son obligaciones creadas por una jurisdicción. La respuesta correcta depende del país, territorio, estado o provincia, municipio, periodo fiscal, tipo de contribuyente y naturaleza de la operación. Por eso, comprender **depreciación: distribuir un coste a lo largo del tiempo** exige identificar primero la jurisdicción y la fecha aplicable.
+## Ejemplo práctico
 
-La educación fiscal no consiste en memorizar una cifra aislada. Consiste en reconocer el hecho imponible, la base, el tipo, las deducciones o créditos posibles, el plazo, la documentación y la autoridad que publica la regla. Las tasas, umbrales y formularios pueden cambiar; antes de actuar deben comprobarse en una fuente oficial vigente.
+**Pregunta:** Una panadería compra un horno comercial que se espera que dure diez años. ¿Se debería deducir todo el coste de inmediato o repartirlo?
 
-## Marco práctico de análisis
+**Estudiante:** Según esta lección, parece que debería repartirse, porque el horno se usará durante muchos años.
 
-Utiliza estas preguntas:
+**Guía:** ¿Por qué repartirlo da una imagen más exacta que deducirlo todo de una vez?
 
-- ¿Qué jurisdicción tiene autoridad sobre la persona o transacción?
-- ¿Cuál es el periodo fiscal?
-- ¿Quién es el contribuyente y cuál es su clasificación?
-- ¿Qué ingreso, compra, propiedad o actividad activa la regla?
-- ¿Cómo se calcula la base?
-- ¿Existe una deducción, crédito, exclusión o exención?
-- ¿Qué formulario, pago o registro se exige?
-- ¿Cuál es el plazo y qué ocurre si se incumple?
-- ¿Qué fuente oficial confirma la respuesta?
+**Estudiante:** Porque el horno ayuda a generar ingresos durante los diez años, no solo el año en que se compró, así que hacer corresponder el coste con esos años es más exacto.
 
-## Ejemplo educativo
+**Guía:** Exactamente: esa es la lógica central de la depreciación.
 
-[SUPUESTO] Una persona obtiene 48.000 unidades monetarias de ingresos y además recibe 3.000 por un trabajo independiente. Conserva recibos, estados de cuenta y documentos de pago, pero todavía no sabe cómo se clasifica cada cantidad. Antes de calcular, identifica su jurisdicción, periodo fiscal, condición laboral y naturaleza de los gastos.
+## Cuestionario práctico
 
-Este ejemplo no determina una obligación real. Muestra el orden correcto: clasificar hechos, reunir documentación, consultar instrucciones oficiales y calcular solamente después. Si una regla afecta empleo, empresa, inversión o propiedad, debe analizarse por separado antes de integrar el resultado.
+**Pregunta 1.** La mejor descripción de la depreciación es:
 
-## Aplicación al tema
+A) Deducir de inmediato todo el coste de un activo
+B) Repartir el coste de un activo a lo largo de su vida útil
+C) Ignorar por completo el coste de los activos del negocio
+D) Un tipo de impuesto sobre las ventas
 
-Para estudiar **depreciación: distribuir un coste a lo largo del tiempo**, crea una hoja de trabajo con cuatro columnas: hecho, posible tratamiento, documento de respaldo y fuente pendiente de verificación. Marca como **HECHO** lo demostrado, como **SUPUESTO** lo que falta confirmar y como **OPINIÓN** cualquier recomendación basada en preferencias o tolerancia al riesgo.
+**Pregunta 2.** La depreciación suele aplicarse a:
 
-No mezcles traducción con localización jurídica. Un término estadounidense como W-2, 1099, Medicare, LLC, S-Corp, Roth o impuesto estatal sobre ventas puede traducirse para aprender el concepto, pero no debe presentarse como si fuera una figura idéntica en España u otra jurisdicción.
+A) Activos duraderos como equipos, vehículos o edificios
+B) Los artículos de oficina de todos los días
+C) Los pagos del impuesto sobre las ventas
+D) La retención de la nómina
 
-## Errores comunes
+**Pregunta 3.** ¿Por qué no deducir en el primer año todo el coste de un activo de diez años?
 
-- Aplicar una tasa de otro año o jurisdicción.
-- Confundir ingreso bruto con ingreso imponible o efectivo disponible.
-- Suponer que un gasto empresarial siempre es deducible.
-- Creer que una deducción y un crédito producen el mismo efecto.
-- Perder justificantes o mezclar cuentas personales y empresariales.
-- Confundir un reembolso con una reducción real del impuesto.
-- Esperar hasta el vencimiento para organizar la información.
-- Utilizar contenido educativo como asesoramiento individualizado.
+A) Es ilegal comprar equipo
+B) Distorsionaría la ganancia a lo largo de los años en que el activo realmente ayuda a generar ingresos
+C) No hay ninguna razón, es arbitrario
+D) La depreciación no se aplica a los negocios
 
-## Actividad práctica
+**Pregunta 4.** Los artículos consumibles de todos los días normalmente:
 
-1. Escribe una situación relacionada con este tema.
-2. Identifica jurisdicción y periodo fiscal.
-3. Enumera cinco hechos comprobables y tres datos faltantes.
-4. Reúne o describe los documentos pertinentes.
-5. Localiza una fuente oficial que deba consultarse.
-6. Redacta tres preguntas para un profesional fiscal.
-7. Explica qué dato podría cambiar la conclusión.
+A) Se deprecian durante diez años
+B) Se registran por completo como gasto de inmediato
+C) Nunca son deducibles
+D) Se tratan igual que los bienes inmuebles
 
-## Evaluación de competencia
+## Clave de respuestas
 
-1. ¿Por qué debe identificarse primero la jurisdicción?
-2. ¿Cuál es la diferencia entre hecho y supuesto?
-3. ¿Qué documento respaldaría la operación?
-4. ¿Qué fecha o periodo debe verificarse?
-5. ¿Qué organismo oficial podría publicar la regla?
-6. ¿Existe una posible excepción o clasificación alternativa?
-7. ¿Qué error produciría usar una tasa desactualizada?
-8. ¿Qué pregunta formularías a un profesional?
-9. ¿Qué registro conservarías y por cuánto tiempo según la regla aplicable?
-10. Resume el proceso de análisis sin inventar cifras.
+1. B, 2. A, 3. B, 4. B
 
-**Criterio de dominio:** 8 de 10 respuestas satisfactorias. Por debajo del 80 %, el alumno revisará la fuente, corregirá la clasificación y repetirá un escenario nuevo.
+## Respuestas y explicaciones
 
-## Respuestas orientativas
+**1.** La depreciación hace corresponder el coste de un activo con los años en que realmente aporta valor, en vez de amontonarlo en un solo año.
 
-Las respuestas deben identificar jurisdicción, periodo, clasificación, hecho imponible, documentación y fuente oficial. Una buena respuesta declara incertidumbres y evita afirmar tasas, umbrales o plazos no verificados. Cuando falten hechos, la conclusión correcta es indicar qué información se necesita, no adivinar.
+**2.** Los activos duraderos son los candidatos típicos a la depreciación, a diferencia de los consumibles de corta duración.
+
+**3.** Repartir el coste evita distorsionar la imagen de la ganancia del año de la compra frente a los años posteriores.
+
+**4.** Los artículos se gastan rápido, así que registrarlos como gasto de inmediato corresponde mejor a su valor a corto plazo.
 
 ## Puntos clave
 
-- Las reglas fiscales cambian según lugar, fecha y clasificación.
-- Primero se clasifican los hechos; después se calcula.
-- La documentación permite defender una posición.
-- Deducciones, créditos, exclusiones y pagos anticipados son conceptos distintos.
-- Las fuentes oficiales vigentes tienen prioridad sobre resúmenes educativos.
-- La planificación legal es distinta de ocultar, falsear o evadir obligaciones.
-
-## Ruta de aprendizaje
-
-- **Anterior:** GREEN-L1-026
-- **Actual:** GREEN-L1-027
-- **Siguiente:** GREEN-L1-028
-
-## Localización — España
-
-Contenido en español de España para educación comparada. Las referencias a formularios y entidades estadounidenses explican conceptos del currículo original y no sustituyen la normativa española. Antes de aplicar cualquier regla deben verificarse la Agencia Tributaria u otra autoridad competente, el periodo fiscal y las circunstancias concretas.
+- La depreciación reparte el coste de un activo a lo largo de su vida útil en vez de deducirlo todo de una vez.
+- Se aplica a activos duraderos como equipos, vehículos y edificios.
+- Esto da una imagen más exacta, año por año, de la ganancia del negocio.
+- Los gastos consumibles de todos los días, en cambio, normalmente se deducen de inmediato.

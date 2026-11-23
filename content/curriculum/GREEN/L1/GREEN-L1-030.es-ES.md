@@ -1,116 +1,89 @@
 ---
 id: GREEN-L1-030
 track: GREEN
-officialTrackName: "Business Taxes"
+officialTrackName: Taxes
 level: 1
 lessonNumber: 30
 locale: es-ES
-title: "Contratista independiente o empleado: perspectiva del empresario"
-summary: "Introducción práctica a contratista independiente o empleado: perspectiva del empresario, con énfasis en conceptos, documentación, decisiones y verificación mediante fuentes oficiales."
-version: "1.0"
-author: "Waldemar M. Caban, JD MA"
-date: "2026-09-01"
+title: "Contratista independiente frente a empleado: el lado del dueño del negocio"
+summary: "Retoma la distinción entre empleado y contratista desde el punto de vista del dueño del negocio, con énfasis en por qué la clasificación errónea es un riesgo grave."
+version: 1.0
+author: Waldemar M. Caban, JD MA
+date: 2026-08-09
 ---
 
-# 30. Contratista independiente o empleado: perspectiva del empresario
+# Contratista independiente frente a empleado: el lado del dueño del negocio
 
 ## Objetivos de aprendizaje
+- Explicar por qué las decisiones de clasificación le importan al negocio, no solo al trabajador.
+- Identificar el riesgo general de la clasificación errónea.
+- Relacionar esta lección con la lección anterior sobre el W-2 y el 1099.
 
-Al terminar esta lección, el alumno podrá:
+## Contenido principal
 
-1. Explicar con palabras sencillas el concepto de **contratista independiente o empleado: perspectiva del empresario**.
-2. Identificar quién paga, quién recauda y qué hecho puede generar la obligación.
-3. Distinguir una regla general de una excepción que exige verificación.
-4. Organizar la documentación necesaria para revisar una posición fiscal.
-5. Formular preguntas útiles para una fuente oficial o un profesional cualificado.
+Antes, esta ruta vio la distinción entre empleado y contratista desde el lado del trabajador. Ahora considere el lado del dueño del negocio: la forma en que se clasifica a un trabajador determina si el negocio debe el impuesto sobre la nómina, si tiene que retener el impuesto sobre la renta y si asume otras obligaciones propias del empleador. Clasificar como contratista a un trabajador al que legalmente debería tratarse como empleado se llama clasificación errónea, y es un riesgo grave para un negocio, no un atajo inofensivo de papeleo.
 
-## Concepto principal
+La tentación de clasificar erróneamente es comprensible: tratar a todos como contratistas evita las obligaciones y el papeleo del impuesto sobre la nómina. Pero la clasificación no es algo que el negocio pueda escoger libremente: en general depende de factores reales, como cuánto control ejerce el negocio sobre cómo, cuándo y dónde se hace el trabajo. Si una autoridad tributaria determina más adelante que un trabajador estaba mal clasificado, el negocio puede enfrentar impuestos atrasados, sanciones e intereses, a veces por varios trabajadores durante varios años. Este es exactamente el tipo de riesgo que se conecta directamente con la analogía del médico: una consulta rápida con un profesional cualificado antes de tomar decisiones de clasificación a gran escala es mucho más barata que las posibles consecuencias.
 
-[HECHO VERIFICABLE] Los impuestos son obligaciones creadas por una jurisdicción. La respuesta correcta depende del país, territorio, estado o provincia, municipio, periodo fiscal, tipo de contribuyente y naturaleza de la operación. Por eso, comprender **contratista independiente o empleado: perspectiva del empresario** exige identificar primero la jurisdicción y la fecha aplicable.
+## Ejemplo práctico
 
-La educación fiscal no consiste en memorizar una cifra aislada. Consiste en reconocer el hecho imponible, la base, el tipo, las deducciones o créditos posibles, el plazo, la documentación y la autoridad que publica la regla. Las tasas, umbrales y formularios pueden cambiar; antes de actuar deben comprobarse en una fuente oficial vigente.
+**Pregunta:** La dueña de un negocio en crecimiento clasifica como contratistas a sus diez trabajadores nuevos para evitar el papeleo del impuesto sobre la nómina, aunque ella fija sus horarios y supervisa de cerca su trabajo. ¿Qué riesgo está asumiendo?
 
-## Marco práctico de análisis
+**Estudiante:** Según esta lección, se arriesga a una clasificación errónea, porque el nivel de control que se describe se parece más a una relación de empleo.
 
-Utiliza estas preguntas:
+**Guía:** ¿Qué podría pasar si una autoridad tributaria más adelante no está de acuerdo con su clasificación?
 
-- ¿Qué jurisdicción tiene autoridad sobre la persona o transacción?
-- ¿Cuál es el periodo fiscal?
-- ¿Quién es el contribuyente y cuál es su clasificación?
-- ¿Qué ingreso, compra, propiedad o actividad activa la regla?
-- ¿Cómo se calcula la base?
-- ¿Existe una deducción, crédito, exclusión o exención?
-- ¿Qué formulario, pago o registro se exige?
-- ¿Cuál es el plazo y qué ocurre si se incumple?
-- ¿Qué fuente oficial confirma la respuesta?
+**Estudiante:** Podría deber impuestos atrasados, sanciones e intereses, posiblemente por los diez trabajadores y por todos los años que haya durado la clasificación errónea.
 
-## Ejemplo educativo
+**Guía:** Exactamente, y por eso este es un caso en el que pedir asesoría desde el principio es mucho más barato que corregirlo después.
 
-[SUPUESTO] Una persona obtiene 48.000 unidades monetarias de ingresos y además recibe 3.000 por un trabajo independiente. Conserva recibos, estados de cuenta y documentos de pago, pero todavía no sabe cómo se clasifica cada cantidad. Antes de calcular, identifica su jurisdicción, periodo fiscal, condición laboral y naturaleza de los gastos.
+## Cuestionario práctico
 
-Este ejemplo no determina una obligación real. Muestra el orden correcto: clasificar hechos, reunir documentación, consultar instrucciones oficiales y calcular solamente después. Si una regla afecta empleo, empresa, inversión o propiedad, debe analizarse por separado antes de integrar el resultado.
+**Pregunta 1.** La clasificación de un trabajador determina, entre otras cosas:
 
-## Aplicación al tema
+A) Nada relevante para el negocio
+B) Si el negocio tiene obligaciones de impuesto sobre la nómina y de retención
+C) Solo el título del puesto del trabajador
+D) Solo los días de vacaciones del trabajador
 
-Para estudiar **contratista independiente o empleado: perspectiva del empresario**, crea una hoja de trabajo con cuatro columnas: hecho, posible tratamiento, documento de respaldo y fuente pendiente de verificación. Marca como **HECHO** lo demostrado, como **SUPUESTO** lo que falta confirmar y como **OPINIÓN** cualquier recomendación basada en preferencias o tolerancia al riesgo.
+**Pregunta 2.** La clasificación errónea se refiere a:
 
-No mezcles traducción con localización jurídica. Un término estadounidense como W-2, 1099, Medicare, LLC, S-Corp, Roth o impuesto estatal sobre ventas puede traducirse para aprender el concepto, pero no debe presentarse como si fuera una figura idéntica en España u otra jurisdicción.
+A) Una decisión de papeleo inofensiva
+B) Clasificar de forma incorrecta como contratista a un trabajador que legalmente debería ser empleado
+C) Pagarle demasiado a un trabajador
+D) Un tipo de crédito tributario
 
-## Errores comunes
+**Pregunta 3.** En general, la clasificación depende de:
 
-- Aplicar una tasa de otro año o jurisdicción.
-- Confundir ingreso bruto con ingreso imponible o efectivo disponible.
-- Suponer que un gasto empresarial siempre es deducible.
-- Creer que una deducción y un crédito producen el mismo efecto.
-- Perder justificantes o mezclar cuentas personales y empresariales.
-- Confundir un reembolso con una reducción real del impuesto.
-- Esperar hasta el vencimiento para organizar la información.
-- Utilizar contenido educativo como asesoramiento individualizado.
+A) Solo la libre preferencia del negocio
+B) Factores reales, como el nivel de control sobre cómo, cuándo y dónde se hace el trabajo
+C) Solo la edad del trabajador
+D) Una asignación al azar
 
-## Actividad práctica
+**Pregunta 4.** ¿Cuál es una consecuencia realista de una clasificación errónea si se descubre más adelante?
 
-1. Escribe una situación relacionada con este tema.
-2. Identifica jurisdicción y periodo fiscal.
-3. Enumera cinco hechos comprobables y tres datos faltantes.
-4. Reúne o describe los documentos pertinentes.
-5. Localiza una fuente oficial que deba consultarse.
-6. Redacta tres preguntas para un profesional fiscal.
-7. Explica qué dato podría cambiar la conclusión.
+A) Nada
+B) Impuestos atrasados, sanciones e intereses, posiblemente por varios trabajadores y varios años
+C) Un reembolso automático
+D) Un crédito tributario
 
-## Evaluación de competencia
+## Clave de respuestas
 
-1. ¿Por qué debe identificarse primero la jurisdicción?
-2. ¿Cuál es la diferencia entre hecho y supuesto?
-3. ¿Qué documento respaldaría la operación?
-4. ¿Qué fecha o periodo debe verificarse?
-5. ¿Qué organismo oficial podría publicar la regla?
-6. ¿Existe una posible excepción o clasificación alternativa?
-7. ¿Qué error produciría usar una tasa desactualizada?
-8. ¿Qué pregunta formularías a un profesional?
-9. ¿Qué registro conservarías y por cuánto tiempo según la regla aplicable?
-10. Resume el proceso de análisis sin inventar cifras.
+1. B, 2. B, 3. B, 4. B
 
-**Criterio de dominio:** 8 de 10 respuestas satisfactorias. Por debajo del 80 %, el alumno revisará la fuente, corregirá la clasificación y repetirá un escenario nuevo.
+## Respuestas y explicaciones
 
-## Respuestas orientativas
+**1.** La clasificación no es solo una etiqueta: activa obligaciones reales y continuas para el negocio.
 
-Las respuestas deben identificar jurisdicción, periodo, clasificación, hecho imponible, documentación y fuente oficial. Una buena respuesta declara incertidumbres y evita afirmar tasas, umbrales o plazos no verificados. Cuando falten hechos, la conclusión correcta es indicar qué información se necesita, no adivinar.
+**2.** La clasificación errónea significa tratar una relación que legalmente se parece a un empleo como una relación con un contratista, a menudo para eludir las obligaciones del empleador.
+
+**3.** El control sobre el trabajo (el horario, la supervisión, los métodos) es un factor clave que examinan las autoridades tributarias, y no solo cómo llama el negocio al acuerdo.
+
+**4.** Como el riesgo se acumula por trabajadores y por años, esta es un área de mucho en juego que conviene hacer bien desde el principio.
 
 ## Puntos clave
 
-- Las reglas fiscales cambian según lugar, fecha y clasificación.
-- Primero se clasifican los hechos; después se calcula.
-- La documentación permite defender una posición.
-- Deducciones, créditos, exclusiones y pagos anticipados son conceptos distintos.
-- Las fuentes oficiales vigentes tienen prioridad sobre resúmenes educativos.
-- La planificación legal es distinta de ocultar, falsear o evadir obligaciones.
-
-## Ruta de aprendizaje
-
-- **Anterior:** GREEN-L1-029
-- **Actual:** GREEN-L1-030
-- **Siguiente:** GREEN-L1-031
-
-## Localización — España
-
-Contenido en español de España para educación comparada. Las referencias a formularios y entidades estadounidenses explican conceptos del currículo original y no sustituyen la normativa española. Antes de aplicar cualquier regla deben verificarse la Agencia Tributaria u otra autoridad competente, el periodo fiscal y las circunstancias concretas.
+- La clasificación de los trabajadores determina obligaciones tributarias reales y continuas para el negocio.
+- La clasificación errónea es un riesgo legal y financiero grave, no un atajo inofensivo.
+- La clasificación depende de factores reales, sobre todo del grado de control sobre el trabajo, y no solo de la preferencia del negocio.
+- Recibir orientación profesional desde el principio es mucho más barato que el posible coste de que más adelante se determine una clasificación errónea.

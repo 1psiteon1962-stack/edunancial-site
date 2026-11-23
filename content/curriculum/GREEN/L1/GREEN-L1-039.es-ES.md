@@ -1,116 +1,89 @@
 ---
 id: GREEN-L1-039
 track: GREEN
-officialTrackName: "Business Taxes"
+officialTrackName: Taxes
 level: 1
 lessonNumber: 39
 locale: es-ES
-title: "Aranceles: impuestos sobre productos importados"
-summary: "Introducción práctica a aranceles: impuestos sobre productos importados, con énfasis en conceptos, documentación, decisiones y verificación mediante fuentes oficiales."
-version: "1.0"
-author: "Waldemar M. Caban, JD MA"
-date: "2026-09-01"
+title: "Los aranceles: impuestos sobre los bienes importados"
+summary: "Presenta los aranceles como un impuesto sobre los bienes que cruzan una frontera y los relaciona, a un nivel conceptual básico, con la política comercial."
+version: 1.0
+author: Waldemar M. Caban, JD MA
+date: 2026-08-09
 ---
 
-# 39. Aranceles: impuestos sobre productos importados
+# Los aranceles: impuestos sobre los bienes importados
 
 ## Objetivos de aprendizaje
+- Definir un arancel.
+- Explicar quién suele terminar cargando con el coste de un arancel.
+- Reconocer los aranceles como una herramienta de recaudación y a la vez de política comercial.
 
-Al terminar esta lección, el alumno podrá:
+## Contenido principal
 
-1. Explicar con palabras sencillas el concepto de **aranceles: impuestos sobre productos importados**.
-2. Identificar quién paga, quién recauda y qué hecho puede generar la obligación.
-3. Distinguir una regla general de una excepción que exige verificación.
-4. Organizar la documentación necesaria para revisar una posición fiscal.
-5. Formular preguntas útiles para una fuente oficial o un profesional cualificado.
+Un arancel es un impuesto que se aplica a los bienes cuando se importan a un país desde el extranjero. A diferencia del impuesto sobre las ventas, que se aplica a las compras en general, o del impuesto selectivo al consumo, que apunta a bienes específicos sin importar su origen, un arancel apunta específicamente a los bienes que cruzan una frontera para entrar al país.
 
-## Concepto principal
+Los aranceles cumplen dos propósitos que se mencionan con frecuencia: generar recaudación para el gobierno y proteger las industrias nacionales haciendo que los bienes importados sean más caros en relación con las alternativas producidas en el país. Un punto importante, que a menudo se pasa por alto, es que aunque técnicamente los aranceles se le cobran al negocio importador, el coste adicional con frecuencia se traslada a los consumidores mediante precios más altos; es decir, las personas que pagan más en la caja pueden estar muy lejos de cualquier conversación sobre política comercial. Si un arancel dado realmente ayuda o perjudica la economía general de un país es una pregunta muy debatida en la economía, con ventajas y desventajas reales en ambos lados.
 
-[HECHO VERIFICABLE] Los impuestos son obligaciones creadas por una jurisdicción. La respuesta correcta depende del país, territorio, estado o provincia, municipio, periodo fiscal, tipo de contribuyente y naturaleza de la operación. Por eso, comprender **aranceles: impuestos sobre productos importados** exige identificar primero la jurisdicción y la fecha aplicable.
+## Ejemplo práctico
 
-La educación fiscal no consiste en memorizar una cifra aislada. Consiste en reconocer el hecho imponible, la base, el tipo, las deducciones o créditos posibles, el plazo, la documentación y la autoridad que publica la regla. Las tasas, umbrales y formularios pueden cambiar; antes de actuar deben comprobarse en una fuente oficial vigente.
+**Pregunta:** Un país añade un arancel al acero importado para proteger a los fabricantes nacionales de acero. ¿Quién probablemente terminará sintiendo el coste de ese arancel?
 
-## Marco práctico de análisis
+**Estudiante:** Según esta lección, técnicamente se les cobra a los negocios importadores, pero el coste a menudo se traslada a los consumidores mediante precios más altos.
 
-Utiliza estas preguntas:
+**Guía:** Entonces, ¿quién podría terminar pagando más, aunque nunca tenga que ver directamente con las importaciones de acero?
 
-- ¿Qué jurisdicción tiene autoridad sobre la persona o transacción?
-- ¿Cuál es el periodo fiscal?
-- ¿Quién es el contribuyente y cuál es su clasificación?
-- ¿Qué ingreso, compra, propiedad o actividad activa la regla?
-- ¿Cómo se calcula la base?
-- ¿Existe una deducción, crédito, exclusión o exención?
-- ¿Qué formulario, pago o registro se exige?
-- ¿Cuál es el plazo y qué ocurre si se incumple?
-- ¿Qué fuente oficial confirma la respuesta?
+**Estudiante:** Los consumidores que compran productos hechos con ese acero (coches, electrodomésticos, construcción) podrían ver precios más altos, aunque el arancel en sí se le cobró a un negocio.
 
-## Ejemplo educativo
+**Guía:** Exactamente: los aranceles tienen efectos en cadena que van mucho más allá de los negocios específicos a los que se grava directamente.
 
-[SUPUESTO] Una persona obtiene 48.000 unidades monetarias de ingresos y además recibe 3.000 por un trabajo independiente. Conserva recibos, estados de cuenta y documentos de pago, pero todavía no sabe cómo se clasifica cada cantidad. Antes de calcular, identifica su jurisdicción, periodo fiscal, condición laboral y naturaleza de los gastos.
+## Cuestionario práctico
 
-Este ejemplo no determina una obligación real. Muestra el orden correcto: clasificar hechos, reunir documentación, consultar instrucciones oficiales y calcular solamente después. Si una regla afecta empleo, empresa, inversión o propiedad, debe analizarse por separado antes de integrar el resultado.
+**Pregunta 1.** Un arancel es un impuesto que se aplica a:
 
-## Aplicación al tema
+A) Todas las compras nacionales
+B) Los bienes que se importan a un país desde el extranjero
+C) Solo los servicios, nunca los bienes
+D) El ingreso de las inversiones
 
-Para estudiar **aranceles: impuestos sobre productos importados**, crea una hoja de trabajo con cuatro columnas: hecho, posible tratamiento, documento de respaldo y fuente pendiente de verificación. Marca como **HECHO** lo demostrado, como **SUPUESTO** lo que falta confirmar y como **OPINIÓN** cualquier recomendación basada en preferencias o tolerancia al riesgo.
+**Pregunta 2.** Los aranceles se usan comúnmente para:
 
-No mezcles traducción con localización jurídica. Un término estadounidense como W-2, 1099, Medicare, LLC, S-Corp, Roth o impuesto estatal sobre ventas puede traducirse para aprender el concepto, pero no debe presentarse como si fuera una figura idéntica en España u otra jurisdicción.
+A) Generar recaudación y proteger las industrias nacionales
+B) Eliminar todo el comercio
+C) Beneficiar solo a las empresas extranjeras
+D) Reducir los precios nacionales
 
-## Errores comunes
+**Pregunta 3.** ¿Quién suele terminar cargando con el coste real de un arancel, aunque se les cobre a los importadores?
 
-- Aplicar una tasa de otro año o jurisdicción.
-- Confundir ingreso bruto con ingreso imponible o efectivo disponible.
-- Suponer que un gasto empresarial siempre es deducible.
-- Creer que una deducción y un crédito producen el mismo efecto.
-- Perder justificantes o mezclar cuentas personales y empresariales.
-- Confundir un reembolso con una reducción real del impuesto.
-- Esperar hasta el vencimiento para organizar la información.
-- Utilizar contenido educativo como asesoramiento individualizado.
+A) Nadie: los aranceles no tienen ningún coste posterior
+B) Los consumidores, mediante precios más altos
+C) Solo los gobiernos extranjeros
+D) Solo el negocio importador, sin ningún traslado
 
-## Actividad práctica
+**Pregunta 4.** ¿El efecto económico general de los aranceles es una cuestión resuelta?
 
-1. Escribe una situación relacionada con este tema.
-2. Identifica jurisdicción y periodo fiscal.
-3. Enumera cinco hechos comprobables y tres datos faltantes.
-4. Reúne o describe los documentos pertinentes.
-5. Localiza una fuente oficial que deba consultarse.
-6. Redacta tres preguntas para un profesional fiscal.
-7. Explica qué dato podría cambiar la conclusión.
+A) Sí, siempre es beneficioso
+B) Sí, siempre es perjudicial
+C) No: es una cuestión muy debatida, con ventajas y desventajas reales
+D) Los aranceles no tienen ningún efecto económico
 
-## Evaluación de competencia
+## Clave de respuestas
 
-1. ¿Por qué debe identificarse primero la jurisdicción?
-2. ¿Cuál es la diferencia entre hecho y supuesto?
-3. ¿Qué documento respaldaría la operación?
-4. ¿Qué fecha o periodo debe verificarse?
-5. ¿Qué organismo oficial podría publicar la regla?
-6. ¿Existe una posible excepción o clasificación alternativa?
-7. ¿Qué error produciría usar una tasa desactualizada?
-8. ¿Qué pregunta formularías a un profesional?
-9. ¿Qué registro conservarías y por cuánto tiempo según la regla aplicable?
-10. Resume el proceso de análisis sin inventar cifras.
+1. B, 2. A, 3. B, 4. C
 
-**Criterio de dominio:** 8 de 10 respuestas satisfactorias. Por debajo del 80 %, el alumno revisará la fuente, corregirá la clasificación y repetirá un escenario nuevo.
+## Respuestas y explicaciones
 
-## Respuestas orientativas
+**1.** Los aranceles están ligados específicamente al acto de importar bienes a través de una frontera, lo que los distingue de los impuestos más amplios.
 
-Las respuestas deben identificar jurisdicción, periodo, clasificación, hecho imponible, documentación y fuente oficial. Una buena respuesta declara incertidumbres y evita afirmar tasas, umbrales o plazos no verificados. Cuando falten hechos, la conclusión correcta es indicar qué información se necesita, no adivinar.
+**2.** Generar recaudación y proteger la industria nacional son los dos propósitos que más se mencionan para los aranceles.
+
+**3.** El traslado del coste significa que la carga práctica a menudo recae en los consumidores comunes, no solo en los negocios a los que se grava directamente.
+
+**4.** Los economistas de verdad no están de acuerdo sobre los efectos netos de los aranceles, que implican ventajas y desventajas reales entre distintos grupos.
 
 ## Puntos clave
 
-- Las reglas fiscales cambian según lugar, fecha y clasificación.
-- Primero se clasifican los hechos; después se calcula.
-- La documentación permite defender una posición.
-- Deducciones, créditos, exclusiones y pagos anticipados son conceptos distintos.
-- Las fuentes oficiales vigentes tienen prioridad sobre resúmenes educativos.
-- La planificación legal es distinta de ocultar, falsear o evadir obligaciones.
-
-## Ruta de aprendizaje
-
-- **Anterior:** GREEN-L1-038
-- **Actual:** GREEN-L1-039
-- **Siguiente:** GREEN-L1-040
-
-## Localización — España
-
-Contenido en español de España para educación comparada. Las referencias a formularios y entidades estadounidenses explican conceptos del currículo original y no sustituyen la normativa española. Antes de aplicar cualquier regla deben verificarse la Agencia Tributaria u otra autoridad competente, el periodo fiscal y las circunstancias concretas.
+- Los aranceles gravan los bienes que se importan a través de una frontera.
+- Se usan comúnmente para aumentar la recaudación y proteger las industrias nacionales.
+- El coste real a menudo se traslada a los consumidores, aunque los aranceles se les cobren a los importadores.
+- El efecto económico general de los aranceles es una cuestión que de verdad se debate.

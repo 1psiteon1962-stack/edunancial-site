@@ -1,12 +1,12 @@
 ---
 id: GREEN-L1-016
 track: GREEN
-officialTrackName: Impuestos
+officialTrackName: Taxes
 level: 1
 lessonNumber: 16
 locale: es-Caribbean
 title: "Deducción estándar frente a deducciones detalladas"
-summary: "Explica dos enfoques comunes para reclamar deducciones: una cantidad estándar frente al detalle de gastos que califican."
+summary: "Explica las dos formas comunes de reclamar deducciones: una cantidad estándar fija frente a detallar los gastos reales que califican."
 version: 1.0
 author: Waldemar M. Caban, JD MA
 date: 2026-08-09
@@ -15,68 +15,75 @@ date: 2026-08-09
 # Deducción estándar frente a deducciones detalladas
 
 ## Objetivos de aprendizaje
-
-- Definir el concepto principal de la lección.
-- Explicar cómo puede afectar una decisión tributaria o financiera.
-- Reconocer cuándo las reglas dependen de la jurisdicción.
+- Explicar qué es una deducción estándar.
+- Explicar qué significa detallar las deducciones.
+- Identificar la lógica básica para escoger entre las dos.
 
 ## Contenido principal
 
-Muchos sistemas tributarios permiten una deducción estándar —una cantidad fija que no exige detallar cada gasto— o permiten detallar gastos que califican, como determinados intereses, donaciones o gastos médicos, según las reglas aplicables.
+Muchos sistemas tributarios les dan a los contribuyentes una opción: tomar una deducción estándar (una cantidad fija a la que todos tienen derecho, sin necesidad de recibos) o detallar las deducciones, lo que significa enumerar y sumar uno por uno los gastos reales que califican (como ciertos pagos de intereses, donativos benéficos o gastos médicos, según las reglas del sistema).
 
-La lógica básica es comparar. Si el total de deducciones detalladas supera la deducción estándar, detallar puede producir una deducción mayor. Si no, la estándar puede ser más sencilla y financieramente igual o mejor. Las cantidades y gastos elegibles dependen de la jurisdicción y del año.
+La lógica básica de la decisión es sencilla: si el total detallado sería mayor que la deducción estándar, detallar ahorra más dinero. Si no, tomar la deducción estándar es más sencillo e igual de eficaz desde el punto de vista financiero. Como la deducción estándar no requiere documentación, muchas personas la escogen por defecto, a menos que tengan una razón específica (como un donativo benéfico grande o gastos importantes que califican) para detallar en su lugar.
 
 ## Ejemplo práctico
 
-**Pregunta:** ¿Qué debe hacer una persona antes de aplicar este concepto a su propia situación?
+**Pregunta:** Los gastos que alguien podría detallar en el año suman menos que la cantidad de la deducción estándar. ¿Debería detallar?
 
-**Estudiante:** Entender primero el mecanismo y después verificar las reglas y cifras que realmente aplican donde vive.
+**Estudiante:** Probablemente no, porque detallar requiere más esfuerzo sin ningún beneficio adicional.
 
-**Guía:** Exactamente. La alfabetización tributaria permite reconocer el concepto; la decisión concreta requiere información vigente de la jurisdicción correspondiente.
+**Guía:** Correcto. ¿Cuál es la regla general para escoger?
+
+**Estudiante:** Comparar el total detallado con la deducción estándar y escoger la que sea mayor.
+
+**Guía:** Exactamente: es una comparación sencilla, no una cuestión de preferencia.
 
 ## Prueba práctica
 
-**Pregunta 1.** ¿Qué es más importante antes de aplicar una regla tributaria?
-A) Suponer que es universal
-B) Entender el concepto y verificar la regla vigente
-C) Usar cifras antiguas
-D) Ignorar la jurisdicción
+**Pregunta 1.** Una deducción estándar es:
 
-**Pregunta 2.** ¿Las cantidades y requisitos tributarios pueden cambiar?
-A) No
-B) Sí
-C) Solo para empresas
-D) Solo una vez
+A) Una cantidad fija que no requiere documentación detallada
+B) Algo disponible solo para los negocios
+C) Lo mismo que un crédito tributario
+D) Ilegal en la mayoría de los países
 
-**Pregunta 3.** Una decisión informada debe basarse en:
-A) Reglas aplicables y datos actuales
-B) Rumores
-C) Una regla de otro país sin verificar
-D) Ninguna documentación
+**Pregunta 2.** Detallar significa:
 
-**Pregunta 4.** La educación tributaria busca principalmente:
-A) Garantizar un resultado específico
-B) Dar herramientas para comprender y evaluar decisiones
-C) Sustituir toda asesoría profesional
-D) Eliminar obligaciones legales
+A) Tomar la cantidad estándar fija
+B) Enumerar y sumar los gastos reales que califican
+C) No pagar ningún impuesto
+D) Evitar todas las deducciones
+
+**Pregunta 3.** La regla básica para escoger entre las dos es:
+
+A) Detallar siempre
+B) Tomar siempre la deducción estándar
+C) Escoger la que produzca la deducción mayor
+D) Echarlo a la suerte
+
+**Pregunta 4.** ¿Por qué alguien podría no detallar aunque en teoría pudiera hacerlo?
+
+A) Es ilegal
+B) Su total detallado es menor que la deducción estándar, o el papeleo no vale la pena por la pequeña ganancia
+C) Las deducciones estándar no existen
+D) Detallar siempre es obligatorio
 
 ## Clave de respuestas
 
-1. B, 2. B, 3. A, 4. B
+1. A, 2. B, 3. C, 4. B
 
 ## Respuestas y explicaciones
 
-**1.** Primero se comprende el mecanismo y luego se verifica cómo lo regula la jurisdicción.
+**1.** Una deducción estándar es una cantidad fija que no requiere documentación y que existe en muchos sistemas tributarios.
 
-**2.** Las leyes, límites y cantidades pueden cambiar con el tiempo.
+**2.** Detallar significa sumar los gastos reales que califican en vez de tomar la cantidad fija.
 
-**3.** Las decisiones financieras requieren información aplicable y actual.
+**3.** La decisión se reduce a una comparación sencilla: gana la cifra que sea mayor.
 
-**4.** Comprender los conceptos mejora la capacidad de decidir; no garantiza resultados ni sustituye asesoría cuando sea necesaria.
+**4.** Cuando el total detallado no supera la deducción estándar, el papeleo adicional no tiene ningún beneficio financiero.
 
 ## Puntos clave
 
-- Comprenda el mecanismo antes de memorizar cifras.
-- Verifique las reglas de su jurisdicción.
-- Distinga conceptos generales de requisitos específicos de un país.
-- Utilice información vigente al tomar decisiones.
+- Una deducción estándar es una cantidad fija y sencilla que no requiere documentación.
+- Detallar significa, en cambio, sumar los gastos reales que califican.
+- Escoja la opción que produzca la deducción mayor.
+- La mayoría de las personas escoge por defecto la deducción estándar, a menos que tenga una razón clara para detallar.

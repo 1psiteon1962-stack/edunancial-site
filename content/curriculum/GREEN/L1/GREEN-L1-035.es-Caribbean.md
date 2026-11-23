@@ -1,79 +1,89 @@
 ---
 id: GREEN-L1-035
 track: GREEN
-officialTrackName: Impuestos
+officialTrackName: Taxes
 level: 1
 lessonNumber: 35
 locale: es-Caribbean
-title: "Tradicional frente a Roth: pagar impuestos ahora o después"
-summary: "Explica dos estructuras estadounidenses comunes de ahorro para jubilación y la decisión general sobre el momento de pagar impuestos."
+title: "Tradicional frente a Roth: pagar los impuestos ahora o después"
+summary: "Explica el concepto general detrás de dos estructuras comunes de cuentas de retiro (una que tributa al entrar y otra al salir), con nombres genéricos en vez de los nombres de los programas específicos de un solo país."
 version: 1.0
 author: Waldemar M. Caban, JD MA
 date: 2026-08-09
 ---
 
-# Tradicional frente a Roth: pagar impuestos ahora o después
+# Tradicional frente a Roth: pagar los impuestos ahora o después
 
 ## Objetivos de aprendizaje
-
-- Definir el concepto de esta lección.
-- Distinguirlo de conceptos tributarios relacionados.
-- Aplicarlo sin confundir principios generales con reglas específicas de una jurisdicción.
+- Explicar la decisión de «pagar ahora o pagar después» que existe en muchos sistemas de cuentas de retiro.
+- Identificar la disyuntiva básica entre los dos enfoques.
+- Reconocer que la mejor opción puede depender de las tasas impositivas futuras que se esperan.
 
 ## Contenido principal
 
-En Estados Unidos, las estructuras denominadas tradicional y Roth representan tratamientos tributarios distintos. De forma general, ciertas aportaciones tradicionales pueden ofrecer un beneficio tributario actual y los retiros posteriores pueden estar sujetos a impuestos. En una estructura Roth, las aportaciones suelen realizarse con dinero ya gravado y ciertos retiros calificados pueden estar libres de impuesto.
+Muchos sistemas de cuentas de retiro ofrecen escoger entre dos estructuras, que a menudo se describen de forma genérica como de estilo «tradicional» y de estilo «Roth», sin importar los nombres locales exactos. En una cuenta de estilo tradicional, los aportes normalmente reducen el ingreso tributable ahora, pero los retiros durante el retiro tributan. En una cuenta de estilo Roth, los aportes se hacen ahora con dinero que ya tributó, pero los retiros durante el retiro normalmente están libres de impuestos.
 
-La comparación depende de las reglas de la cuenta, elegibilidad y expectativas sobre tasas futuras. No existe una respuesta universal. Además, otros países utilizan sistemas y nombres diferentes, por lo que estos conceptos no deben trasladarse automáticamente fuera de Estados Unidos.
+La disyuntiva central es el momento: pagar el impuesto ahora, a su tasa actual, o pagarlo después, a su tasa futura. Si espera que su tasa impositiva sea más baja en el retiro que ahora, un enfoque de estilo tradicional a menudo sale ganando. Si espera que su tasa sea parecida o más alta en el retiro (algo común en las personas jóvenes que empiezan su carrera y tienen margen para crecer), un enfoque de estilo Roth puede salir ganando. No hay una respuesta universalmente correcta: depende de supuestos sobre el futuro, y precisamente por eso esta es un área común para buscar orientación profesional en vez de adivinar.
 
 ## Ejemplo práctico
 
-**Pregunta:** ¿Debe una persona tomar una decisión de inversión basándose únicamente en el posible efecto tributario?
+**Pregunta:** Una joven de 22 años que acaba de empezar su carrera está decidiendo entre una cuenta de retiro de estilo tradicional y una de estilo Roth. ¿Cuál es el razonamiento general que debería pensar?
 
-**Estudiante:** No. Debe comprender el efecto tributario, pero también considerar riesgo, objetivos, liquidez y otras circunstancias.
+**Estudiante:** Según esta lección, debería pensar si su tasa impositiva ahora probablemente es más baja o más alta de lo que será más adelante en su carrera.
 
-**Guía:** Exactamente. Los impuestos son una variable importante, no toda la decisión.
+**Guía:** Como está al principio de su carrera, ¿cuál es un supuesto razonable sobre su ingreso y su tasa impositiva futuros?
+
+**Estudiante:** Su ingreso, y probablemente su tasa impositiva, seguramente subirán con el tiempo; así que pagar el impuesto ahora, a una tasa más baja, mediante una cuenta de estilo Roth, podría tener sentido.
+
+**Guía:** Es un razonamiento razonable, aunque sigue siendo un supuesto sobre el futuro, no una garantía, y por eso vale la pena conversarlo con un profesional para un plan específico.
 
 ## Prueba práctica
 
-**Pregunta 1.** Las reglas tributarias sobre inversiones:
-A) Son idénticas mundialmente
-B) Varían según jurisdicción, activo y circunstancias
-C) Nunca cambian
-D) No requieren verificación
+**Pregunta 1.** En una cuenta de estilo tradicional, los aportes normalmente:
 
-**Pregunta 2.** Una decisión financiera sólida considera:
-A) Solo impuestos
-B) Impuestos junto con objetivos, riesgo y otras variables
-C) Solo rumores
-D) Solo el rendimiento pasado
+A) Tributan dos veces
+B) Reducen el ingreso tributable ahora, y los retiros tributan después
+C) Nunca tributan
+D) No tienen ningún efecto en los impuestos
 
-**Pregunta 3.** Antes de aplicar una tasa o regla concreta conviene:
-A) Verificar la normativa vigente
-B) Suponer que aplica una regla extranjera
-C) Ignorar el tipo de activo
-D) Usar datos antiguos
+**Pregunta 2.** En una cuenta de estilo Roth, los aportes normalmente:
 
-**Pregunta 4.** La alfabetización tributaria ayuda a:
-A) Comprender consecuencias y hacer mejores preguntas
-B) Garantizar ganancias
-C) Eliminar todo riesgo
-D) Predecir tasas futuras
+A) Se hacen con dinero que ya tributó, y los retiros posteriores están libres de impuestos
+B) Se deducen del ingreso tributable actual
+C) Tributan dos veces
+D) Son ilegales
+
+**Pregunta 3.** La disyuntiva central entre los dos enfoques es:
+
+A) No hay ninguna disyuntiva
+B) Pagar el impuesto ahora frente a pagarlo después
+C) Uno de los enfoques nunca implica impuestos
+D) Solo los negocios pueden escoger
+
+**Pregunta 4.** ¿Qué enfoque tiende a favorecer a alguien que espera tener en el retiro una tasa impositiva más baja que la de hoy?
+
+A) El de estilo Roth
+B) El de estilo tradicional
+C) Ninguno importa
+D) Solo las cuentas basadas en el impuesto sobre las ventas
 
 ## Clave de respuestas
 
-1. B, 2. B, 3. A, 4. A
+1. B, 2. A, 3. B, 4. B
 
 ## Respuestas y explicaciones
 
-**1.** El tratamiento puede cambiar según país, activo, período y situación.
-**2.** La planificación financiera requiere analizar varias variables, no solo impuestos.
-**3.** Las normas y tasas cambian y deben comprobarse antes de actuar.
-**4.** Comprender el sistema mejora la capacidad de evaluar alternativas sin garantizar resultados.
+**1.** La estructura de estilo tradicional difiere el impuesto: ofrece un beneficio hoy a cambio del impuesto que se deberá sobre los retiros más adelante.
+
+**2.** La estructura de estilo Roth adelanta el impuesto, así que los retiros posteriores que califican, en general, no tributan.
+
+**3.** Es, en el fondo, una decisión de momento sobre cuándo prefiere pagar el impuesto, basada en supuestos sobre las tasas futuras.
+
+**4.** Si la tasa de hoy es más alta que la tasa futura que se espera, diferir el impuesto (estilo tradicional) a menudo es más ventajoso.
 
 ## Puntos clave
 
-- Distinga ingreso, ganancia realizada y aumento de valor no realizado.
-- Considere el tratamiento tributario como una parte de la decisión.
-- No traslade automáticamente reglas de un país a otro.
-- Verifique siempre las reglas actuales aplicables.
+- Las cuentas de estilo tradicional difieren el impuesto hasta el retiro del dinero; las de estilo Roth gravan los aportes ahora, no los retiros.
+- La disyuntiva central es pagar el impuesto ahora frente a pagarlo después.
+- La mejor opción depende de los supuestos sobre su tasa impositiva actual frente a la futura.
+- Esta es un área común y legítima para buscar orientación profesional en vez de adivinar.

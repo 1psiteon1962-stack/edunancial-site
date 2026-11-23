@@ -1,79 +1,89 @@
 ---
 id: GREEN-L1-041
 track: GREEN
-officialTrackName: Impuestos
+officialTrackName: Taxes
 level: 1
 lessonNumber: 41
 locale: es-Caribbean
-title: "Doble tributación: qué significa para las corporaciones"
-summary: "Explica cómo determinadas ganancias corporativas pueden enfrentar impuestos a nivel de la entidad y nuevamente al distribuirse a accionistas."
+title: "La doble tributación: lo que significa para las corporaciones"
+summary: "Explica el concepto de la doble tributación (la ganancia que tributa una vez a nivel de la corporación y otra vez cuando se distribuye a los accionistas) a partir de la lección anterior."
 version: 1.0
 author: Waldemar M. Caban, JD MA
 date: 2026-08-09
 ---
 
-# Doble tributación: qué significa para las corporaciones
+# La doble tributación: lo que significa para las corporaciones
 
 ## Objetivos de aprendizaje
-
-- Explicar el concepto central con precisión.
-- Identificar sus consecuencias para personas o negocios.
-- Reconocer cuándo las reglas requieren análisis profesional.
+- Definir la doble tributación en el contexto corporativo.
+- Seguir los dos momentos en que la misma ganancia puede tributar.
+- Reconocer por qué la elección de la estructura del negocio, que se verá pronto, importa en parte por este problema.
 
 ## Contenido principal
 
-Cuando una corporación paga impuesto sobre sus ganancias y luego distribuye parte de esas ganancias a accionistas, por ejemplo como dividendos, puede existir una segunda obligación tributaria para el accionista. A este patrón se le suele llamar doble tributación.
+A partir directamente de la lección anterior: como una corporación tributa como una entidad propia, su ganancia puede tributar dos veces: una vez a nivel de la corporación, cuando la corporación misma declara su ganancia y paga el impuesto sobre ella, y otra vez a nivel de los accionistas, si esa ganancia se distribuye a los accionistas (comúnmente como dividendos) y cuando eso ocurre, y esos accionistas deben su propio impuesto sobre la cantidad recibida.
 
-No todas las jurisdicciones ni estructuras empresariales funcionan igual. Pueden existir créditos, sistemas de integración u otras reglas que reduzcan o modifiquen este efecto. Por eso la estructura empresarial puede tener consecuencias tributarias continuas.
+Eso es lo que significa la «doble tributación» en un contexto corporativo: el mismo dólar de ganancia tributa una vez dentro de la corporación y, posiblemente, otra vez en manos de la persona que finalmente lo recibe. No todas las estructuras de negocio funcionan así: algunas estructuras, que se verán en una lección próxima, están diseñadas específicamente para que la ganancia pase a los dueños sin esta tributación en dos capas. Entender la doble tributación es una de las razones clave por las que la estructura de un negocio no es solo una formalidad legal: puede tener un costo tributario real y continuo según la estructura que escoja un negocio.
 
 ## Ejemplo práctico
 
-**Pregunta:** ¿Es suficiente escoger una estrategia porque parece reducir impuestos?
+**Pregunta:** Una corporación gana $100,000 de ganancia, paga el impuesto corporativo sobre ella y más tarde distribuye la cantidad restante a sus accionistas como dividendos. ¿Ahí termina la historia, en lo tributario?
 
-**Estudiante:** No. También debe ser legal, basarse en hechos verdaderos y encajar con los demás objetivos y riesgos.
+**Estudiante:** Según esta lección, no: los accionistas probablemente deben su propio impuesto sobre los dividendos que reciben.
 
-**Guía:** Exactamente. Una buena decisión considera el sistema completo, no una sola ventaja aparente.
+**Guía:** Entonces, ¿cuántas veces ha tocado el impuesto, en la práctica, esos $100,000 de ganancia original?
+
+**Estudiante:** Dos veces: una vez a nivel de la corporación, cuando la corporación pagó el impuesto sobre su ganancia, y otra vez a nivel de los accionistas, cuando recibieron el dividendo y tributaron por él.
+
+**Guía:** Exactamente: ese es, en pocas palabras, el patrón de la doble tributación.
 
 ## Prueba práctica
 
-**Pregunta 1.** Una estructura o estrategia tributaria debe evaluarse según:
-A) Solo la tasa
-B) Las reglas aplicables y sus consecuencias completas
-C) Un nombre comercial
-D) Rumores
+**Pregunta 1.** La doble tributación se refiere a:
 
-**Pregunta 2.** ¿Las estructuras empresariales tienen el mismo tratamiento en todos los países?
-A) Sí
-B) No
-C) Siempre
-D) Solo las grandes empresas cambian
+A) Pagar dos veces el impuesto sobre las ventas en una compra
+B) Que la misma ganancia corporativa tribute tanto a nivel de la corporación como a nivel de los accionistas
+C) Un tipo de crédito tributario
+D) Presentar dos declaraciones de impuestos por error
 
-**Pregunta 3.** La planificación tributaria legal requiere:
-A) Información verdadera y cumplimiento de la ley
-B) Ocultar ingresos
-C) Inventar gastos
-D) Falsificar registros
+**Pregunta 2.** La primera capa de tributación de este patrón ocurre:
 
-**Pregunta 4.** Una decisión compleja puede justificar:
-A) Asesoría profesional calificada
-B) Ignorar la ley
-C) No conservar documentación
-D) Suponer reglas
+A) A nivel de los accionistas
+B) A nivel de la corporación, sobre la ganancia propia de la corporación
+C) Solo a nivel del gobierno
+D) Nunca
+
+**Pregunta 3.** La segunda capa de tributación ocurre:
+
+A) Nunca
+B) Cuando la ganancia distribuida (como los dividendos) vuelve a tributar para el accionista
+C) Solo en los negocios de un solo dueño
+D) Solo si la corporación pierde dinero
+
+**Pregunta 4.** ¿Todas las estructuras de negocio implican doble tributación?
+
+A) Sí, todas
+B) No: algunas estructuras están diseñadas para evitar este patrón de dos capas, como se verá en una lección próxima
+C) Solo los negocios de un solo dueño
+D) La doble tributación en realidad no existe
 
 ## Clave de respuestas
 
-1. B, 2. B, 3. A, 4. A
+1. B, 2. B, 3. B, 4. B
 
 ## Respuestas y explicaciones
 
-**1.** Una ventaja tributaria debe analizarse junto con sus demás consecuencias.
-**2.** Las formas jurídicas y fiscales varían entre jurisdicciones.
-**3.** La planificación legal depende de hechos correctos y reglas permitidas.
-**4.** La asesoría adecuada puede prevenir decisiones costosas o ilegales.
+**1.** La doble tributación describe específicamente la tributación en dos capas de la misma ganancia corporativa de fondo.
+
+**2.** La corporación misma es el primer contribuyente: debe el impuesto sobre su propia ganancia antes de distribuir nada.
+
+**3.** El accionista se convierte en un segundo contribuyente sobre esa misma ganancia original una vez que se distribuye y la recibe.
+
+**4.** Existen estructuras alternativas específicamente para evitar este patrón, que aquí se adelanta y se ve a continuación.
 
 ## Puntos clave
 
-- No confunda una etiqueta jurídica con un tratamiento fiscal universal.
-- Considere impuestos junto con responsabilidad y objetivos empresariales.
-- Distinga claramente planificación legal de evasión.
-- Verifique estrategias complejas antes de implementarlas.
+- La doble tributación significa que la misma ganancia corporativa puede tributar tanto a nivel de la corporación como a nivel de los accionistas.
+- La corporación paga primero el impuesto sobre su propia ganancia.
+- Los accionistas pueden deber un impuesto adicional cuando esa ganancia se les distribuye más tarde.
+- Esta es una razón clave por la que la elección de la estructura del negocio tiene consecuencias tributarias reales y continuas.

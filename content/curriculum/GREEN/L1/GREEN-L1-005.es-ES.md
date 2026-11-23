@@ -1,116 +1,89 @@
 ---
 id: GREEN-L1-005
 track: GREEN
-officialTrackName: "Business Taxes"
+officialTrackName: Taxes
 level: 1
 lessonNumber: 5
 locale: es-ES
-title: "Impuesto sobre las ventas: gravar lo que se compra"
-summary: "Introducción práctica a impuesto sobre las ventas: gravar lo que se compra, con énfasis en conceptos, documentación, decisiones y verificación mediante fuentes oficiales."
-version: "1.0"
-author: "Waldemar M. Caban, JD MA"
-date: "2026-09-01"
+title: "El impuesto sobre las ventas: gravar lo que usted compra"
+summary: "Cómo funcionan los impuestos al consumo, quién los cobra y por qué el comprador normalmente los ve añadidos en la caja."
+version: 1.0
+author: Waldemar M. Caban, JD MA
+date: 2026-08-09
 ---
 
-# 5. Impuesto sobre las ventas: gravar lo que se compra
+# El impuesto sobre las ventas: gravar lo que usted compra
 
 ## Objetivos de aprendizaje
+- Explicar cómo se cobra normalmente el impuesto sobre las ventas.
+- Identificar la diferencia entre que el vendedor cobre el impuesto y que el vendedor deba el impuesto.
+- Reconocer que las tasas del impuesto sobre las ventas varían según el lugar.
 
-Al terminar esta lección, el alumno podrá:
+## Contenido principal
 
-1. Explicar con palabras sencillas el concepto de **impuesto sobre las ventas: gravar lo que se compra**.
-2. Identificar quién paga, quién recauda y qué hecho puede generar la obligación.
-3. Distinguir una regla general de una excepción que exige verificación.
-4. Organizar la documentación necesaria para revisar una posición fiscal.
-5. Formular preguntas útiles para una fuente oficial o un profesional cualificado.
+El impuesto sobre las ventas se añade al precio de los bienes o servicios en el momento de la compra. En la mayoría de los sistemas, el vendedor es responsable de cobrarle el impuesto al comprador y luego enviarlo al gobierno: el vendedor actúa como recaudador, no como quien carga en última instancia con el coste. El comprador es normalmente quien realmente paga el impuesto, aunque el negocio se encargue del papeleo.
 
-## Concepto principal
+Las tasas y las reglas varían enormemente según el lugar, a veces incluso entre pueblos vecinos de un mismo país. Algunas categorías de bienes, como los alimentos o las medicinas, a menudo se gravan con una tasa más baja o están exentas por completo, según la política local. Por eso al impuesto sobre las ventas a veces se le llama impuesto al consumo: está ligado al acto de gastar, no al ingreso ni a la propiedad.
 
-[HECHO VERIFICABLE] Los impuestos son obligaciones creadas por una jurisdicción. La respuesta correcta depende del país, territorio, estado o provincia, municipio, periodo fiscal, tipo de contribuyente y naturaleza de la operación. Por eso, comprender **impuesto sobre las ventas: gravar lo que se compra** exige identificar primero la jurisdicción y la fecha aplicable.
+## Ejemplo práctico
 
-La educación fiscal no consiste en memorizar una cifra aislada. Consiste en reconocer el hecho imponible, la base, el tipo, las deducciones o créditos posibles, el plazo, la documentación y la autoridad que publica la regla. Las tasas, umbrales y formularios pueden cambiar; antes de actuar deben comprobarse en una fuente oficial vigente.
+**Pregunta:** El dueño de una tienda cobra el impuesto sobre las ventas a sus clientes durante todo el mes. ¿De quién es ese dinero y qué debería hacer el dueño con él?
 
-## Marco práctico de análisis
+**Estudiante:** Parece dinero de la tienda, porque entró por su caja registradora.
 
-Utiliza estas preguntas:
+**Guía:** Pero ¿quién lo pagó realmente?
 
-- ¿Qué jurisdicción tiene autoridad sobre la persona o transacción?
-- ¿Cuál es el periodo fiscal?
-- ¿Quién es el contribuyente y cuál es su clasificación?
-- ¿Qué ingreso, compra, propiedad o actividad activa la regla?
-- ¿Cómo se calcula la base?
-- ¿Existe una deducción, crédito, exclusión o exención?
-- ¿Qué formulario, pago o registro se exige?
-- ¿Cuál es el plazo y qué ocurre si se incumple?
-- ¿Qué fuente oficial confirma la respuesta?
+**Estudiante:** Los clientes: la tienda solo lo añadió al precio y lo cobró.
 
-## Ejemplo educativo
+**Guía:** Correcto, y por eso ese dinero no es realmente un ingreso de la tienda: es el pago de impuestos del cliente, que pasa por la tienda de camino al gobierno.
 
-[SUPUESTO] Una persona obtiene 48.000 unidades monetarias de ingresos y además recibe 3.000 por un trabajo independiente. Conserva recibos, estados de cuenta y documentos de pago, pero todavía no sabe cómo se clasifica cada cantidad. Antes de calcular, identifica su jurisdicción, periodo fiscal, condición laboral y naturaleza de los gastos.
+## Cuestionario práctico
 
-Este ejemplo no determina una obligación real. Muestra el orden correcto: clasificar hechos, reunir documentación, consultar instrucciones oficiales y calcular solamente después. Si una regla afecta empleo, empresa, inversión o propiedad, debe analizarse por separado antes de integrar el resultado.
+**Pregunta 1.** En general, el impuesto sobre las ventas lo cobra:
 
-## Aplicación al tema
+A) El gobierno directamente a los compradores
+B) El vendedor, que luego lo remite al gobierno
+C) Nadie: es opcional
+D) Solo las tiendas online
 
-Para estudiar **impuesto sobre las ventas: gravar lo que se compra**, crea una hoja de trabajo con cuatro columnas: hecho, posible tratamiento, documento de respaldo y fuente pendiente de verificación. Marca como **HECHO** lo demostrado, como **SUPUESTO** lo que falta confirmar y como **OPINIÓN** cualquier recomendación basada en preferencias o tolerancia al riesgo.
+**Pregunta 2.** ¿Quién carga normalmente con el coste real del impuesto sobre las ventas?
 
-No mezcles traducción con localización jurídica. Un término estadounidense como W-2, 1099, Medicare, LLC, S-Corp, Roth o impuesto estatal sobre ventas puede traducirse para aprender el concepto, pero no debe presentarse como si fuera una figura idéntica en España u otra jurisdicción.
+A) El vendedor
+B) El comprador
+C) El gobierno
+D) Nadie
 
-## Errores comunes
+**Pregunta 3.** Las tasas del impuesto sobre las ventas:
 
-- Aplicar una tasa de otro año o jurisdicción.
-- Confundir ingreso bruto con ingreso imponible o efectivo disponible.
-- Suponer que un gasto empresarial siempre es deducible.
-- Creer que una deducción y un crédito producen el mismo efecto.
-- Perder justificantes o mezclar cuentas personales y empresariales.
-- Confundir un reembolso con una reducción real del impuesto.
-- Esperar hasta el vencimiento para organizar la información.
-- Utilizar contenido educativo como asesoramiento individualizado.
+A) Son idénticas en todas partes
+B) Pueden variar mucho según el lugar
+C) Nunca se aplican a los servicios
+D) Solo existen en un país
 
-## Actividad práctica
+**Pregunta 4.** Los alimentos y las medicinas a veces:
 
-1. Escribe una situación relacionada con este tema.
-2. Identifica jurisdicción y periodo fiscal.
-3. Enumera cinco hechos comprobables y tres datos faltantes.
-4. Reúne o describe los documentos pertinentes.
-5. Localiza una fuente oficial que deba consultarse.
-6. Redacta tres preguntas para un profesional fiscal.
-7. Explica qué dato podría cambiar la conclusión.
+A) Se gravan con una tasa más alta que los bienes de lujo
+B) Se gravan con una tasa más baja o están exentos
+C) Son ilegales de vender
+D) Nunca están sujetos a ninguna regla tributaria
 
-## Evaluación de competencia
+## Clave de respuestas
 
-1. ¿Por qué debe identificarse primero la jurisdicción?
-2. ¿Cuál es la diferencia entre hecho y supuesto?
-3. ¿Qué documento respaldaría la operación?
-4. ¿Qué fecha o periodo debe verificarse?
-5. ¿Qué organismo oficial podría publicar la regla?
-6. ¿Existe una posible excepción o clasificación alternativa?
-7. ¿Qué error produciría usar una tasa desactualizada?
-8. ¿Qué pregunta formularías a un profesional?
-9. ¿Qué registro conservarías y por cuánto tiempo según la regla aplicable?
-10. Resume el proceso de análisis sin inventar cifras.
+1. B, 2. B, 3. B, 4. B
 
-**Criterio de dominio:** 8 de 10 respuestas satisfactorias. Por debajo del 80 %, el alumno revisará la fuente, corregirá la clasificación y repetirá un escenario nuevo.
+## Respuestas y explicaciones
 
-## Respuestas orientativas
+**1.** El vendedor normalmente actúa como intermediario: cobra el impuesto y lo pasa en vez de quedárselo como ingreso.
 
-Las respuestas deben identificar jurisdicción, periodo, clasificación, hecho imponible, documentación y fuente oficial. Una buena respuesta declara incertidumbres y evita afirmar tasas, umbrales o plazos no verificados. Cuando falten hechos, la conclusión correcta es indicar qué información se necesita, no adivinar.
+**2.** Aunque el negocio maneje la transacción, es el pago del comprador el que incluye el impuesto.
+
+**3.** En muchos sistemas, las tasas del impuesto sobre las ventas se fijan a nivel local o regional y pueden variar de una calle a otra o de un estado a otro.
+
+**4.** Muchos gobiernos eximen o reducen el impuesto sobre los artículos de primera necesidad como una decisión de política.
 
 ## Puntos clave
 
-- Las reglas fiscales cambian según lugar, fecha y clasificación.
-- Primero se clasifican los hechos; después se calcula.
-- La documentación permite defender una posición.
-- Deducciones, créditos, exclusiones y pagos anticipados son conceptos distintos.
-- Las fuentes oficiales vigentes tienen prioridad sobre resúmenes educativos.
-- La planificación legal es distinta de ocultar, falsear o evadir obligaciones.
-
-## Ruta de aprendizaje
-
-- **Anterior:** GREEN-L1-004
-- **Actual:** GREEN-L1-005
-- **Siguiente:** GREEN-L1-006
-
-## Localización — España
-
-Contenido en español de España para educación comparada. Las referencias a formularios y entidades estadounidenses explican conceptos del currículo original y no sustituyen la normativa española. Antes de aplicar cualquier regla deben verificarse la Agencia Tributaria u otra autoridad competente, el periodo fiscal y las circunstancias concretas.
+- El vendedor cobra el impuesto sobre las ventas en la compra y lo pasa al gobierno.
+- El comprador, y no el vendedor, carga en última instancia con el coste del impuesto.
+- Las tasas varían mucho según el lugar, a veces incluso a nivel local.
+- Los artículos de primera necesidad a menudo se gravan de forma distinta que otros bienes, como decisión de política.
