@@ -1,0 +1,315 @@
+===== GREEN-L1-034
+TITLE: Las cuentas de retiro con ventajas tributarias: la idea básica
+SUMMARY: Presenta el concepto general de las cuentas de retiro con ventajas tributarias sin atarlo a los nombres de cuentas específicas de un solo país.
+# Las cuentas de retiro con ventajas tributarias: la idea básica
+
+## Objetivos de aprendizaje
+- Explicar el propósito general de las cuentas de retiro con ventajas tributarias.
+- Identificar el mecanismo básico: algún beneficio tributario a cambio de restricciones de acceso.
+- Reconocer esto como una herramienta de política para fomentar el ahorro a largo plazo.
+
+## Contenido principal
+
+Muchos gobiernos ofrecen tipos de cuentas especiales que dan algún tipo de beneficio tributario (el dinero que entra todavía no tributa, o el dinero que sale más adelante no tributa, o el crecimiento de las inversiones dentro de la cuenta no tributa a lo largo del camino) específicamente para fomentar que las personas ahorren para el retiro. A cambio de este beneficio, estas cuentas suelen venir con restricciones, sobre todo límites para retirar dinero antes de cierta edad sin una penalidad.
+
+El intercambio de fondo es sencillo: el gobierno renuncia a parte de la recaudación ahora (o más adelante) a cambio de fomentar un comportamiento (el ahorro a largo plazo) que reduce la dependencia futura de los sistemas de apoyo público. Los nombres específicos de las cuentas, los límites de aportación y las reglas varían enormemente según el país y cambian con el tiempo, pero la forma básica (un beneficio tributario unido a una restricción de acceso, con el fin de fomentar el ahorro para el retiro) es un patrón que vale la pena reconocer dondequiera que lo encuentre.
+
+## Ejemplo práctico
+
+**Pregunta:** Un amigo pregunta por qué una cuenta de retiro lo penalizaría por sacar antes de tiempo su propio dinero. ¿Cuál es la lógica general?
+
+**Estudiante:** Según esta lección, el beneficio tributario es básicamente un intercambio: usted recibe una ventaja a cambio de comprometerse a dejar el dinero para el retiro.
+
+**Guía:** ¿Por qué a un gobierno le importaría que el dinero se use específicamente para el retiro?
+
+**Estudiante:** Porque fomentar el ahorro a largo plazo reduce la dependencia futura de los sistemas de apoyo público, así que al gobierno le vale la pena renunciar ahora a parte de la recaudación.
+
+**Guía:** Exactamente: la restricción no es arbitraria, está ligada al propósito del beneficio.
+
+## Prueba práctica
+
+**Pregunta 1.** En general, las cuentas de retiro con ventajas tributarias ofrecen:
+
+A) Ningún beneficio
+B) Alguna forma de beneficio tributario ligada al ahorro para el retiro
+C) Retiros ilimitados y sin penalidad en cualquier momento
+D) Beneficios solo para los negocios
+
+**Pregunta 2.** A cambio del beneficio tributario, estas cuentas suelen incluir:
+
+A) Ninguna restricción
+B) Restricciones, sobre todo límites a los retiros anticipados sin penalidad
+C) La obligación de gastar el dinero de inmediato
+D) Un impuesto sobre las ventas más alto
+
+**Pregunta 3.** ¿Por qué un gobierno podría ofrecer este tipo de beneficio?
+
+A) Sin ninguna razón real
+B) Para fomentar el ahorro a largo plazo y reducir la dependencia futura del apoyo público
+C) Para aumentar la recaudación a corto plazo
+D) Solo para beneficiar a los bancos
+
+**Pregunta 4.** ¿Los nombres y las reglas específicas de las cuentas se mantienen iguales entre países y a lo largo del tiempo?
+
+A) Sí, siempre
+B) No: varían mucho y cambian con el tiempo
+C) Solo en los países ricos
+D) Nunca han existido
+
+## Clave de respuestas
+
+1. B, 2. B, 3. B, 4. B
+
+## Respuestas y explicaciones
+
+**1.** Lo que ofrecen en el fondo la mayoría de los sistemas es alguna forma de ventaja tributaria ligada específicamente al ahorro para el retiro.
+
+**2.** Las restricciones a los retiros anticipados son el intercambio común por recibir el beneficio tributario.
+
+**3.** Fomentar el ahorro reduce la carga futura de los sistemas públicos de retiro y de apoyo, y esa es la lógica de la política.
+
+**4.** Como con los créditos, los detalles aquí dependen de la jurisdicción y del momento, así que el patrón importa más que las reglas de cualquier cuenta en particular.
+
+## Puntos clave
+
+- Las cuentas de retiro con ventajas tributarias intercambian un beneficio tributario por restricciones al ahorro.
+- Los retiros anticipados suelen estar limitados o penalizados.
+- La meta de la política es fomentar el ahorro a largo plazo para reducir la dependencia futura del apoyo público.
+- Las reglas específicas de las cuentas varían según el país y cambian con el tiempo: el patrón es la lección transferible.
+
+===== GREEN-L1-035
+TITLE: Tradicional frente a Roth: pagar los impuestos ahora o después
+SUMMARY: Explica el concepto general detrás de dos estructuras comunes de cuentas de retiro (una que tributa al entrar y otra al salir), con nombres genéricos en vez de los nombres de los programas específicos de un solo país.
+# Tradicional frente a Roth: pagar los impuestos ahora o después
+
+## Objetivos de aprendizaje
+- Explicar la decisión de «pagar ahora o pagar después» que existe en muchos sistemas de cuentas de retiro.
+- Identificar la disyuntiva básica entre los dos enfoques.
+- Reconocer que la mejor opción puede depender de las tasas impositivas futuras que se esperan.
+
+## Contenido principal
+
+Muchos sistemas de cuentas de retiro ofrecen escoger entre dos estructuras, que a menudo se describen de forma genérica como de estilo «tradicional» y de estilo «Roth», sin importar los nombres locales exactos. En una cuenta de estilo tradicional, los aportes normalmente reducen el ingreso tributable ahora, pero los retiros durante el retiro tributan. En una cuenta de estilo Roth, los aportes se hacen ahora con dinero que ya tributó, pero los retiros durante el retiro normalmente están libres de impuestos.
+
+La disyuntiva central es el momento: pagar el impuesto ahora, a su tasa actual, o pagarlo después, a su tasa futura. Si espera que su tasa impositiva sea más baja en el retiro que ahora, un enfoque de estilo tradicional a menudo sale ganando. Si espera que su tasa sea parecida o más alta en el retiro (algo común en las personas jóvenes que empiezan su carrera y tienen margen para crecer), un enfoque de estilo Roth puede salir ganando. No hay una respuesta universalmente correcta: depende de supuestos sobre el futuro, y precisamente por eso esta es un área común para buscar orientación profesional en vez de adivinar.
+
+## Ejemplo práctico
+
+**Pregunta:** Una joven de 22 años que acaba de empezar su carrera está decidiendo entre una cuenta de retiro de estilo tradicional y una de estilo Roth. ¿Cuál es el razonamiento general que debería pensar?
+
+**Estudiante:** Según esta lección, debería pensar si su tasa impositiva ahora probablemente es más baja o más alta de lo que será más adelante en su carrera.
+
+**Guía:** Como está al principio de su carrera, ¿cuál es un supuesto razonable sobre su ingreso y su tasa impositiva futuros?
+
+**Estudiante:** Su ingreso, y probablemente su tasa impositiva, seguramente subirán con el tiempo; así que pagar el impuesto ahora, a una tasa más baja, mediante una cuenta de estilo Roth, podría tener sentido.
+
+**Guía:** Es un razonamiento razonable, aunque sigue siendo un supuesto sobre el futuro, no una garantía, y por eso vale la pena conversarlo con un profesional para un plan específico.
+
+## Prueba práctica
+
+**Pregunta 1.** En una cuenta de estilo tradicional, los aportes normalmente:
+
+A) Tributan dos veces
+B) Reducen el ingreso tributable ahora, y los retiros tributan después
+C) Nunca tributan
+D) No tienen ningún efecto en los impuestos
+
+**Pregunta 2.** En una cuenta de estilo Roth, los aportes normalmente:
+
+A) Se hacen con dinero que ya tributó, y los retiros posteriores están libres de impuestos
+B) Se deducen del ingreso tributable actual
+C) Tributan dos veces
+D) Son ilegales
+
+**Pregunta 3.** La disyuntiva central entre los dos enfoques es:
+
+A) No hay ninguna disyuntiva
+B) Pagar el impuesto ahora frente a pagarlo después
+C) Uno de los enfoques nunca implica impuestos
+D) Solo los negocios pueden escoger
+
+**Pregunta 4.** ¿Qué enfoque tiende a favorecer a alguien que espera tener en el retiro una tasa impositiva más baja que la de hoy?
+
+A) El de estilo Roth
+B) El de estilo tradicional
+C) Ninguno importa
+D) Solo las cuentas basadas en el impuesto sobre las ventas
+
+## Clave de respuestas
+
+1. B, 2. A, 3. B, 4. B
+
+## Respuestas y explicaciones
+
+**1.** La estructura de estilo tradicional difiere el impuesto: ofrece un beneficio hoy a cambio del impuesto que se deberá sobre los retiros más adelante.
+
+**2.** La estructura de estilo Roth adelanta el impuesto, así que los retiros posteriores que califican, en general, no tributan.
+
+**3.** Es, en el fondo, una decisión de momento sobre cuándo prefiere pagar el impuesto, basada en supuestos sobre las tasas futuras.
+
+**4.** Si la tasa de hoy es más alta que la tasa futura que se espera, diferir el impuesto (estilo tradicional) a menudo es más ventajoso.
+
+## Puntos clave
+
+- Las cuentas de estilo tradicional difieren el impuesto hasta el retiro del dinero; las de estilo Roth gravan los aportes ahora, no los retiros.
+- La disyuntiva central es pagar el impuesto ahora frente a pagarlo después.
+- La mejor opción depende de los supuestos sobre su tasa impositiva actual frente a la futura.
+- Esta es un área común y legítima para buscar orientación profesional en vez de adivinar.
+
+===== GREEN-L1-036
+TITLE: Las implicaciones tributarias de vender una vivienda
+SUMMARY: Presenta las consideraciones tributarias generales que surgen al vender una residencia principal y las relaciona con las lecciones sobre las ganancias de capital.
+# Las implicaciones tributarias de vender una vivienda
+
+## Objetivos de aprendizaje
+- Relacionar la venta de una vivienda con el concepto de ganancias de capital visto antes.
+- Explicar por qué muchos sistemas ofrecen algún tratamiento favorable para la residencia principal.
+- Reconocer la importancia de dar seguimiento a la base de una vivienda con el tiempo.
+
+## Contenido principal
+
+Vender una vivienda es, en el fondo, otro ejemplo del concepto de ganancias de capital visto antes: el precio de venta menos la base (más o menos, el precio de compra más ciertas mejoras que califican) es igual a la ganancia. Pero como la residencia principal es un acontecimiento de vida tan común e importante, y no una pura transacción de inversión, muchos sistemas tributarios ofrecen algún tratamiento favorable (como excluir del impuesto una parte de la ganancia) específicamente para la vivienda principal, a diferencia de cómo tratarían, por ejemplo, una propiedad de inversión.
+
+Este es un buen ejemplo real de por qué importa dar seguimiento a su base con el tiempo. Si el dueño de una vivienda hace mejoras importantes que califican a lo largo de los años (una ampliación, una remodelación grande), esos costos a menudo pueden aumentar la base, lo que reduce la ganancia tributable cuando la vivienda por fin se vende. Sin registros de esas mejoras, el dueño podría terminar pagando más impuestos de lo necesario simplemente porque no puede documentar lo que realmente gastó.
+
+## Ejemplo práctico
+
+**Pregunta:** El dueño de una vivienda le hace una ampliación grande a su casa al principio, pero nunca guarda registros del costo. Años después, vende la vivienda con una ganancia grande. ¿Qué le podría costar esto?
+
+**Estudiante:** Según esta lección, sin registros del costo de la ampliación, quizá no pueda aumentar su base, lo que podría significar pagar impuestos sobre una ganancia mayor de lo necesario.
+
+**Guía:** ¿Qué habría evitado este problema?
+
+**Estudiante:** Guardar los recibos y los registros de los costos de la mejora a medida que ocurrieron, lo que se conecta con la lección anterior sobre llevar registros.
+
+**Guía:** Exactamente: este es un ejemplo muy concreto, y costoso, de por qué importa ese hábito.
+
+## Prueba práctica
+
+**Pregunta 1.** Vender una vivienda es, en el fondo, un ejemplo de:
+
+A) El impuesto sobre las ventas
+B) El concepto de ganancias de capital: el precio de venta menos la base
+C) El impuesto sobre la nómina
+D) Un crédito tributario
+
+**Pregunta 2.** ¿Por qué muchos sistemas podrían ofrecer un tratamiento favorable específicamente para la residencia principal?
+
+A) Sin ninguna razón real
+B) Se trata como un acontecimiento de vida común e importante, y no como una pura inversión
+C) Las viviendas nunca se venden
+D) Solo las propiedades de inversión reciben un tratamiento favorable
+
+**Pregunta 3.** En general, las mejoras de la vivienda que califican pueden:
+
+A) Disminuir la base de la vivienda
+B) Aumentar la base de la vivienda, lo que reduce la ganancia tributable más adelante
+C) No tener ningún efecto en la base
+D) Importar solo en las propiedades de alquiler
+
+**Pregunta 4.** Sin registros de los costos de las mejoras, el dueño de una vivienda corre el riesgo de:
+
+A) Nada
+B) Pagar más impuestos de lo necesario en la venta futura
+C) Recibir un reembolso automático
+D) Perder la propiedad de la vivienda
+
+## Clave de respuestas
+
+1. B, 2. B, 3. B, 4. B
+
+## Respuestas y explicaciones
+
+**1.** La venta de una vivienda sigue el mismo cálculo básico de la ganancia que la venta de cualquier otro activo de capital.
+
+**2.** Las residencias principales a menudo se tratan de forma distinta, lo que refleja su papel como una necesidad de vida y no como un puro vehículo de inversión.
+
+**3.** En general, las mejoras que califican se suman a la base, lo que puede reducir de forma importante la ganancia tributable al vender.
+
+**4.** La falta de documentación se traduce directamente en una ganancia tributable mayor y en una factura de impuestos más grande e innecesaria.
+
+## Puntos clave
+
+- Vender una vivienda sigue la misma lógica básica de ganancias de capital que la venta de otros activos.
+- Las residencias principales a menudo reciben algún tratamiento tributario favorable.
+- Las mejoras que califican pueden aumentar la base, lo que reduce la ganancia tributable más adelante.
+- Llevar mal los registros de las mejoras de la vivienda puede ser un error costoso que se puede evitar.
+
+===== GREEN-L1-037
+TITLE: Lo básico de los impuestos sobre las donaciones y las herencias
+SUMMARY: Presenta los conceptos generales de los impuestos relacionados con las donaciones y las herencias, a un nivel amplio, dada la gran variación entre sistemas.
+# Lo básico de los impuestos sobre las donaciones y las herencias
+
+## Objetivos de aprendizaje
+- Explicar el concepto general detrás de los impuestos relacionados con las donaciones.
+- Explicar el concepto general detrás de los impuestos relacionados con las herencias o los patrimonios.
+- Reconocer que estas reglas varían enormemente y dependen mucho de cada jurisdicción.
+
+## Contenido principal
+
+Algunos sistemas tributarios aplican reglas a las donaciones grandes que se hacen en vida y a los bienes que se transfieren después de la muerte (lo que a menudo se llama impuesto sobre las herencias o sobre el patrimonio). La preocupación general que atienden los legisladores es la transferencia de riqueza por fuera del sistema de ingresos ganados: como una donación o una herencia no se «gana» en el sentido tradicional, plantea preguntas de política distintas a las de un cheque de pago.
+
+Esta es un área en la que generalizar con demasiado detalle sería engañoso: la existencia de estos impuestos, los umbrales a partir de los cuales se aplican, quién los debe (quien da o quien recibe) y las tasas varían enormemente según el país, y muchos países no tienen ningún impuesto de este tipo, o lo aplican solo por encima de umbrales muy altos que afectan a un pequeño porcentaje de las transferencias. La lección práctica aquí no es una regla para memorizar: es una señal de alerta. Si usted es quien da, quien recibe o el heredero en una situación de donación o de herencia realmente grande, este es exactamente el tipo de caso que requiere orientación profesional en vez de suposiciones.
+
+## Ejemplo práctico
+
+**Pregunta:** Una familia planea pasarle un negocio familiar grande a la próxima generación. ¿Debería suponer que se le aplican las reglas tributarias que le contó un amigo de otro país?
+
+**Estudiante:** Según esta lección, definitivamente no: estas reglas varían enormemente según el país y la situación.
+
+**Guía:** ¿Cuál sería el siguiente paso responsable para esta familia?
+
+**Estudiante:** Pedir asesoría a un profesional calificado que conozca las reglas de su país específico, en vez de depender de información de segunda mano de otro lugar.
+
+**Guía:** Exactamente: este es un caso de manual de «ver a un profesional», usando la analogía del médico vista antes en el currículo.
+
+## Prueba práctica
+
+**Pregunta 1.** En general, los impuestos relacionados con las donaciones y las herencias tienen que ver con:
+
+A) Los cheques de pago regulares
+B) Las transferencias de riqueza por fuera del sistema normal de ingresos ganados
+C) El impuesto sobre las ventas de los alimentos
+D) La retención de la nómina
+
+**Pregunta 2.** ¿Todos los países aplican las mismas reglas de impuestos sobre las donaciones y las herencias?
+
+A) Sí, en todas partes
+B) No: las reglas varían enormemente, y muchos países no tienen ningún impuesto de este tipo o tienen umbrales muy altos
+C) Solo los países ricos tienen reglas
+D) Estos impuestos nunca han existido en ningún lugar
+
+**Pregunta 3.** La lección práctica de este tema es:
+
+A) Memorizar los umbrales específicos de un país
+B) Reconocer esto como una señal de alerta para buscar orientación profesional en las situaciones reales
+C) Ignorar por completo las donaciones grandes
+D) Suponer que nunca se aplica ningún impuesto en ningún lugar
+
+**Pregunta 4.** ¿Con qué concepto anterior del currículo se conecta esta lección?
+
+A) La analogía del médico: consultar a un profesional en las situaciones complejas
+B) Los bienes públicos
+C) El cobro del impuesto sobre las ventas
+D) Los tramos impositivos marginales
+
+## Clave de respuestas
+
+1. B, 2. B, 3. B, 4. A
+
+## Respuestas y explicaciones
+
+**1.** En general, estos impuestos apuntan a la riqueza que se mueve por fuera del marco típico de los ingresos ganados.
+
+**2.** La enorme variación, incluidos muchos países que no tienen ningún impuesto de este tipo, hace que generalizar de forma amplia no sea confiable aquí.
+
+**3.** La conclusión duradera es reconocer cuándo una situación requiere ayuda experta, no memorizar reglas que quizá ni siquiera se apliquen.
+
+**4.** Esta es una aplicación directa y concreta de la lección anterior que compara la consulta sobre riesgos legales o tributarios con ir al médico.
+
+## Puntos clave
+
+- Los impuestos sobre las donaciones y las herencias tienen que ver con las transferencias de riqueza por fuera del ingreso ganado normal.
+- Las reglas varían enormemente según el país: muchos no tienen ninguno, o lo aplican solo por encima de umbrales altos.
+- La lección clave es reconocer cuándo buscar orientación profesional, no memorizar reglas específicas.
+- Las situaciones de donaciones o herencias grandes o complejas son un caso claro para una consulta profesional.
