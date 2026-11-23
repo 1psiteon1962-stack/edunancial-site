@@ -1,0 +1,151 @@
+===== ORANGE-L3-031
+TITLE: Poukisa "churn" se yon endikatè davans, pa sèlman yon endikatè an reta
+SUMMARY: Aprann poukisa yon to kliyan ki ale (churn) k ap monte souvan montre pwoblèm ki pi fon byen anvan pwoblèm sa yo parèt nan revni total, e poukisa tann revni bese anvan w aji se tann twò lontan.
+# ORANGE-L3-031: Poukisa "churn" se yon endikatè davans, pa sèlman yon endikatè an reta
+
+## Objektif aprantisaj
+Lè w fin fè leson sa a, w ap kapab:
+- Esplike diferans ant yon endikatè davans ak yon endikatè an reta
+- Esplike poukisa "churn" fonksyone kòm yon endikatè davans pou sante biznis lan an jeneral
+- Konekte konsèp sa a ak diskisyon sou LTV ak kenbe kliyan Leson 6 la
+
+## Kontni prensipal
+
+Yon **endikatè an reta** (lagging indicator) reflete yon rezilta ki deja rive — revni total pou trimès la, pa egzanp. Yon **endikatè davans** (leading indicator) montre yon chanjman ki gen chans rive alavni anvan chanjman sa a parèt nèt nan chif an reta yo. Men "poukisa" **churn** (to kliyan ki sispann fè biznis ak yon konpayi) fonksyone kòm yon endikatè davans ki merite pou yo swiv de pre, olye yon bagay pou yo remake sèlman apre revni fin bese: yon to churn k ap monte manje dirèkteman kenbe kliyan Leson 6 la te etabli ki santral pou valè sou tout lavi — men paske kliyan ki la deja souvan kontinye pwodui kèk revni pandan yon peryòd menm pandan churn ap monte, efè a sou revni total ka rive an reta parapò ak tandans churn debaz la pandan plizyè semèn oswa plizyè mwa.
+
+Se poutèt sa tann revni total bese yon fason ki vizib anvan w envestige yon pwoblèm churn vle di aji byen apre pwoblèm debaz la te vrèman kòmanse — yon biznis ki swiv churn kòm yon endikatè davans ka idantifye e trete nenpòt sa k ap fè kliyan ale anvan pwoblèm sa a parèt nèt nan chif revni an reta tout moun finalman remake a.
+
+Kisa yon vrè sistèm alèt bonè pou yon pwoblèm kenbe kliyan ta sanble nan biznis ou — kisa ou ta swiv pou w kenbe yon ogmantasyon churn anvan li parèt nèt nan revni trimès la?
+
+## Egzanp pratik
+
+[EGZANP ILISTRATIF] To churn yon biznis kòmanse monte nan yon mwa, men paske kliyan ki rete yo ak nouvo kliyan yo toujou ap pwodui revni, chif revni total konpayi an pa montre yon bès klè jiskaske plizyè mwa pita. [SIPOZISYON] Yon ekip ki swiv sèlman chif revni an reta a pa remake yon pwoblèm jiskaske bès sa a parèt pita, e lè sa a pwoblèm debaz k ap fè kliyan ale a te gen plizyè mwa pou l vin pi grav. Yon ekip ki swiv churn dirèkteman kòm yon endikatè davans ta idantifye menm pwoblèm lan plizyè mwa pi bonè, ak plis tan pou envestige e reyaji anvan li parèt nèt nan revni.
+
+## Egzamen pratik
+
+1. Ki diferans ki genyen ant yon endikatè davans ak yon endikatè an reta?
+2. Poukisa churn fonksyone kòm yon endikatè davans pou sante biznis lan an jeneral?
+3. Kijan leson sa a konekte ak diskisyon sou kenbe kliyan ak LTV Leson 6 la?
+
+## Kle repons yo
+
+1. Yon endikatè an reta reflete yon rezilta ki deja rive; yon endikatè davans montre yon chanjman ki gen chans rive alavni anvan li parèt nèt nan chif an reta yo.
+2. Paske yon to churn k ap monte manje kenbe kliyan anvan tout efè li parèt nan revni total, ki ka rive an reta parapò ak tandans debaz la pandan plizyè semèn oswa plizyè mwa.
+3. Churn manje dirèkteman kenbe kliyan Leson 6 la te etabli ki santral pou valè sou tout lavi, sa ki fè l yon siyal bonè espesifik, ou ka swiv, pou menm dinamik debaz sa a.
+
+## Repons ak eksplikasyon
+
+1. Sa a se diferans fondamantal leson an bati sou li.
+2. Sa a se "poukisa" santral ki esplike valè espesifik churn kòm yon siyal alèt bonè.
+3. Sa konekte leson an klèman ak Leson 6, sa ki ranfòse estrikti entegre tras la.
+
+## Pwen kle yo
+- Yon endikatè davans montre yon chanjman ki gen chans rive alavni anvan li parèt nèt nan chif an reta tankou revni total.
+- Churn fonksyone kòm yon endikatè davans, paske efè li sou revni ka rive an reta parapò ak tandans debaz la pandan plizyè semèn oswa plizyè mwa.
+- Swiv churn dirèkteman, olye tann revni bese, pèmèt idantifye e reyaji pi bonè ak pwoblèm kenbe kliyan.
+
+---
+
+*Leson sa a se sèlman pou edikasyon biznis jeneral, e li pa konstitye konsèy finansye, envestisman, taks, oswa legal pèsonalize. Konsilte yon pwofesyonèl ki gen lisans anvan w pran desizyon sou planifikasyon biznis.*
+
+===== ORANGE-L3-032
+TITLE: Poukisa longè yon sik lavant afekte bezwen finansman yon biznis
+SUMMARY: Aprann poukisa yon sik lavant ki pi long, menm ak yon bon to fèmen, ogmante dirèkteman konbyen fon woulman yon biznis bezwen pou l finanse pwòp kwasans li.
+# ORANGE-L3-032: Poukisa longè yon sik lavant afekte bezwen finansman yon biznis
+
+## Objektif aprantisaj
+Lè w fin fè leson sa a, w ap kapab:
+- Esplike kisa longè sik lavant mezire
+- Esplike poukisa yon sik lavant ki pi long ogmante dirèkteman bezwen fon woulman yon biznis
+- Konekte konsèp sa a ak diskisyon sou fon woulman yo kouvri nan tras BLUE kourikoulòm sa a
+
+## Kontni prensipal
+
+**Longè sik lavant** mezire tan nòmal ant premye kontak ak yon kliyan potansyèl ak yon vant ki vrèman fèmen. Men "poukisa" mezi tan sa a konekte dirèkteman ak konsèp fon woulman (working capital) yo kouvri nan tras BLUE kourikoulòm sa a: yon biznis k ap depanse lajan sou efò lavant ak maketing jodi a p ap wè revni ki soti ladan l jiskaske tout tan yon sik lavant fin pase — plis sik sa a long, plis biznis lan bezwen finanse pwòp operasyon li, salè, ak depans kwasans li anvan vant ki soti ladan yo vrèman tounen revni.
+
+Se poutèt sa yon biznis k ap konsidere yon estrateji kwasans ki enplike antre nan yon mache ki gen yon sik lavant nòmal ki pi long pase sa li genyen kounye a bezwen planifye espesyalman pou yon kousen fon woulman ki pi gwo, pa sèlman yon bidjè maketing oswa lavant ki pi gwo nan menm pwopòsyon — se twou tan ant depans ak revni ki soti ladan l, pa sèlman depans total la, ki detèmine vrè bezwen finansman an.
+
+Si w t ap antre nan yon nouvo segman mache ki gen yon sik lavant de fwa pi long pase sa w genyen kounye a, kisa sa ta vle di pou konbyen fon woulman ou ta bezwen pou finanse ekspansyon sa a, pi lwen pase senpleman double bidjè ekip lavant ou?
+
+## Egzanp pratik
+
+[EGZANP ILISTRATIF] Yon biznis ki gen yon sik lavant nòmal kout, yon mwa, elaji nan yon nouvo segman mache kote tranzaksyon yo anjeneral pran sis mwa pou yo fèmen. [SIPOZISYON] Biznis lan fè bidjè pou nouvo segman an lè l senpleman ogmante depans lavant li genyen deja yo nan menm pwopòsyon, san l pa konte twou ki pi long anpil ant depans sa yo ak revni ki soti ladan yo — sa ki kreye yon mank fon woulman pandan peryòd ki pi long lan anvan vant nouvo segman an vrèman kòmanse tounen revni, yon konsekans finansman ki mare dirèkteman ak longè sik lavant ke yon plan ki baze sèlman sou pwopòsyon bidjè te neglije.
+
+## Egzamen pratik
+
+1. Kisa longè sik lavant mezire?
+2. Poukisa yon sik lavant ki pi long ogmante dirèkteman bezwen fon woulman yon biznis?
+3. Kijan leson sa a konekte ak konsèp fon woulman yo kouvri nan tras BLUE la?
+
+## Kle repons yo
+
+1. Tan nòmal ant premye kontak ak yon kliyan potansyèl ak yon vant ki vrèman fèmen.
+2. Paske biznis lan dwe finanse operasyon li ak depans kwasans li pandan tout longè sik sa a anvan vant ki soti ladan yo tounen vrè revni.
+3. Leson sa a aplike dirèkteman konsèp fon woulman tras BLUE la espesyalman pou tan sik lavant, sa ki montre kijan yon sik ki pi long kreye yon twou finansman ki pi gwo e espesifik.
+
+## Repons ak eksplikasyon
+
+1. Sa a se definisyon fondamantal leson an.
+2. Sa a se "poukisa" santral ki esplike koneksyon ak finansman.
+3. Sa konekte leson an klèman ak konsèp fon woulman tras BLUE la.
+
+## Pwen kle yo
+- Longè sik lavant mezire tan ant premye kontak ak yon vant ki fèmen.
+- Yon sik lavant ki pi long ogmante dirèkteman konbyen fon woulman yon biznis bezwen pou finanse operasyon anvan revni ki soti ladan l rive.
+- Elaji nan yon mache ki gen yon sik lavant ki pi long mande pou w planifye yon kousen fon woulman ki pi gwo, pa sèlman yon bidjè lavant ki pi gwo nan menm pwopòsyon.
+
+---
+
+*Leson sa a se sèlman pou edikasyon biznis jeneral, e li pa konstitye konsèy finansye, envestisman, taks, oswa legal pèsonalize. Konsilte yon pwofesyonèl ki gen lisans anvan w pran desizyon sou ekspansyon biznis.*
+
+===== ORANGE-L3-033
+TITLE: Poukisa pwoteksyon mak komèsyal ta dwe vini anvan yon gwo envestisman nan mak
+SUMMARY: Aprann poukisa sekirize dwa sou mak komèsyal (trademark) anvan w envesti anpil nan yon non mak oswa yon logo pwoteje envestisman sa a, e poukisa sote etap sa a mete w an risk pou w pèdi idantite mak lan nèt.
+# ORANGE-L3-033: Poukisa pwoteksyon mak komèsyal ta dwe vini anvan yon gwo envestisman nan mak
+
+## Objektif aprantisaj
+Lè w fin fè leson sa a, w ap kapab:
+- Esplike poukisa yo ta dwe sekirize pwoteksyon mak komèsyal anvan, pa apre, yon gwo envestisman nan mak
+- Konekte konsèp sa a ak diskisyon sou mak komèsyal yo kouvri nan tras PURPLE kourikoulòm sa a
+- Esplike risk ki genyen lè w bati yon gwo valè mak sou yon mak ki pa pwoteje oswa ki an konfli
+
+## Kontni prensipal
+
+Tras PURPLE kourikoulòm sa a te kouvri pwoteksyon mak komèsyal ak egzijans pou kontinye itilize l. Men "poukisa" moman ou sekirize pwoteksyon sa a enpòtan otan ke pwoteksyon an li menm: yon biznis ki envesti anpil nan yon non mak, yon logo, ak yon kanpay maketing anvan l konfime mak sa a vrèman disponib e li ka pwoteje legalman riske dekouvri, sèlman apre yon gwo envestisman, ke yon lòt biznis deja gen dwa sou yon mak komèsyal ki an konfli — sa ki ka fòse yon chanjman mak ki chè apre yon gwo depans maketing te deja fèt pou bati rekonesans pou yon non biznis lan ka pa ka kontinye itilize.
+
+Se poutèt sa yon rechèch mak komèsyal ak yon pwosesis aplikasyon ta dwe anjeneral fèt anvan, pa apre, ou angaje yon gwo bidjè maketing nan yon nouvo idantite mak — pri etap legal davans sa a anjeneral pi piti anpil pase pri pou chanje mak apre yo dekouvri yon konfli, sa ki fè eko ak tèm pi laj planifikasyon legal davans kont reyaksyon apre yo kouvri nan tout tras PURPLE la.
+
+[RÈG ESPESIFIK POU REJYON AN] Ann Ayiti, anrejistreman mak komèsyal anjeneral fèt atravè Ministè Komès ak Endistri; pwosedi ak frè yo ka chanje — tcheke ak ministè a oswa yon avoka anvan w envesti nan yon nouvo mak.
+
+Anvan w lanse yon gwo kanpay maketing sou yon nouvo non mak oswa yon nouvo logo, èske yon rechèch mak komèsyal vrèman konfime mak la disponib, oswa èske ekip maketing lan ap bati rekonesans pou yon non ki poko sekirize legalman?
+
+## Egzanp pratik
+
+[EGZANP ILISTRATIF] Yon biznis devlope yon nouvo non mak e li envesti anpil nan maketing ak rekonesans kliyan anvan l janm fè yon rechèch mak komèsyal. [SIPOZISYON] Apre gwo envestisman sa a, biznis lan dekouvri yon lòt konpayi deja gen dwa mak komèsyal sou yon non ki sanble ase pou l kreye konfizyon nan menm endistri a — sa ki fòse yon chanjman mak ki chè, ki jete envestisman maketing ki te deja fèt la, e ki montre poukisa ti pri yon rechèch ak yon aplikasyon mak komèsyal davans, fèt anvan envestisman nan mak la, ta koute anpil mwens pase sa ki vrèman rive a.
+
+## Egzamen pratik
+
+1. Poukisa yo ta dwe anjeneral sekirize pwoteksyon mak komèsyal anvan, pa apre, yon gwo envestisman nan mak?
+2. Ki risk yon biznis pran lè l envesti anpil nan yon idantite mak anvan l konfime mak komèsyal la disponib?
+3. Kijan leson sa a konekte ak tèm planifikasyon legal davans yo kouvri nan tout tras PURPLE la?
+
+## Kle repons yo
+
+1. Paske dekouvri yon konfli mak komèsyal apre yon gwo envestisman ka fòse yon chanjman mak ki chè, sa ki gaspiye depans maketing yo te deja angaje pou bati rekonesans pou yon non biznis lan ka pa ka kenbe.
+2. Risk pou l dekouvri, sèlman apre yon gwo envestisman maketing, ke yon lòt biznis deja gen dwa mak komèsyal ki an konfli sou menm mak la oswa yon mak ki sanble.
+3. Leson sa a aplike tèm pi laj tras PURPLE la ke planifikasyon legal davans koute anpil mwens pase korije pwoblèm legal apre, espesyalman pou moman envestisman nan mak komèsyal ak mak.
+
+## Repons ak eksplikasyon
+
+1. Sa a se "poukisa" santral ki esplike enpòtans lòd bagay yo.
+2. Sa ranfòse risk espesifik, konkrè leson an bati sou li.
+3. Sa konekte leson an klèman ak yon tèm ki repete nan tras PURPLE la.
+
+## Pwen kle yo
+- Yo ta dwe sekirize pwoteksyon mak komèsyal anvan, pa apre, ou angaje yon gwo envestisman maketing nan yon nouvo idantite mak.
+- Dekouvri yon konfli mak komèsyal apre yon gwo envestisman ka fòse yon chanjman mak ki chè e gaspiye depans maketing ki te deja angaje.
+- Sa reflete prensip pi laj planifikasyon legal davans yo kouvri nan tout tras PURPLE la.
+
+---
+
+*Leson sa a se sèlman pou edikasyon biznis jeneral, e li pa konstitye konsèy legal pèsonalize. Konsilte yon avoka ki gen lisans nan pwopriyete entelektyèl anvan w finalize e envesti nan yon nouvo idantite mak.*
