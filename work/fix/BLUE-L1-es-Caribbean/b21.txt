@@ -359,8 +359,8 @@ SUMMARY: Integra casi todos los conceptos de BLUE-L1 en un recorrido guiado que 
 **Nivel:** 1 — Conciencia y alfabetización
 **ID de la lección:** BLUE-L1-050
 **Autor:** Waldemar M. Caban, JD MA
-**Tiempo estimado:** 15–20 minutos
-**Dificultad:** Principiante
+**Tiempo estimado:** 30–40 minutos
+**Dificultad:** Principiante (proyecto final: integrador)
 
 ---
 

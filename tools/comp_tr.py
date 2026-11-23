@@ -23,7 +23,7 @@ def classify(line,lid,F):
     if s=='' or s=='---': return line
     m=re.match(r'^(#{2,3}) (.+)$',s)
     if m and m.group(1)=='##' and m.group(2) in F['h']: return '## '+F['h'][m.group(2)]
-    if re.match(r'^\*\*(Track|Level|Lesson ID|Author|Est\. Time|Difficulty):\*\*',s):
+    if s in ('**Est. Time:** 15–20 minutes','**Difficulty:** Beginner') or re.match(r'^\*\*(Track|Level|Lesson ID|Author):\*\*',s):
         k=['Track','Level','Lesson ID','Author','Est. Time','Difficulty'].index(re.match(r'^\*\*([^:]+):',s).group(1)); return F['hdr'][k].format(id=lid)
     if re.match(r'^`BLUE-L1-\d{3}-[A-Z-]+`$',s): return s
     m=re.match(r'^(`BLUE-L1-\d{3}-SOCRATIC`) \(Level 1 — "What"\)$',s)

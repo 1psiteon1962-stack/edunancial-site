@@ -1,0 +1,353 @@
+===== BLUE-L1-040
+TITLE: ¿Qué es la dotación de personal y cuándo necesita realmente un negocio su primera contratación?
+SUMMARY: Explica qué implican realmente las decisiones de dotación de personal y las señales prácticas del momento adecuado para contratar.
+# BLUE-L1-040: "¿Qué es la dotación de personal y cuándo necesita realmente un negocio su primera contratación?"
+
+**Ruta:** BLUE (Negocios)
+**Nivel:** 1 — Conciencia y alfabetización
+**ID de la lección:** BLUE-L1-040
+**Autor:** Waldemar M. Caban, JD MA
+**Tiempo estimado:** 15–20 minutos
+**Dificultad:** Principiante
+
+---
+
+## Resumen ejecutivo
+`BLUE-L1-040-MAIN`
+Contratar demasiado pronto puede ahogar a un negocio que no está listo, y contratar demasiado tarde puede atrapar al dueño en el techo basado en las horas de BLUE-L1-038. Esta lección explica qué implican realmente las decisiones de dotación de personal y las señales prácticas del momento adecuado.
+
+## Objetivos de aprendizaje
+- Definir la dotación de personal en el contexto de un negocio
+- Identificar las señales prácticas de que un negocio podría estar listo para su primera contratación
+- Entender el riesgo tanto de contratar antes de tiempo como de retrasar la contratación
+
+## Requisitos previos
+BLUE-L1-038, BLUE-L1-039
+
+## Tiempo estimado
+15–20 minutos
+
+## Dificultad
+Principiante (Nivel 1)
+
+---
+
+## Contenido principal
+
+### Tema 1: Lo que implica la dotación de personal
+La dotación de personal se refiere al proceso de incorporar personas a un negocio para que realicen un trabajo; es una decisión que no implica solo encontrar a alguien, sino también tener los sistemas (BLUE-L1-039), el flujo de caja (BLUE-L1-016) y las tareas claras que esa persona necesita para tener éxito.
+
+### Tema 2: El riesgo de contratar demasiado pronto
+[EJEMPLO ILUSTRATIVO] Contratar antes de que el flujo de caja pueda sostener un salario de forma confiable, o antes de que las tareas estén lo bastante definidas para delegarlas, puede ahogar financieramente al negocio y dejar a la persona recién contratada confundida sobre lo que realmente se espera de ella.
+
+### Tema 3: El riesgo de contratar demasiado tarde
+Recuerda de BLUE-L1-038 que seguir trabajando por completo por cuenta propia limita el crecimiento a las horas personales del dueño. Retrasar demasiado una primera contratación necesaria puede significar rechazar trabajo, agotarse o simplemente quedarse indefinidamente en ese techo basado en las horas.
+
+### Tema 4: Señales prácticas de que podría ser el momento
+[ESTIMACIÓN] Algunas señales comunes son rechazar trabajo de forma constante por falta de tiempo, dedicar mucho tiempo a tareas que no requieren la experiencia específica del dueño y tener un flujo de caja que pueda sostener un salario de forma confiable incluso en un período más lento, y no solo en el mes de más trabajo.
+
+---
+
+## Definiciones clave
+- **Dotación de personal:** El proceso de incorporar personas a un negocio para que realicen un trabajo, que requiere sistemas adecuados, flujo de caja y tareas claramente definidas.
+- **Claridad del puesto:** Qué tan claramente están definidas las tareas y las expectativas de un trabajo antes de contratar para ese puesto.
+
+## Ejemplos prácticos
+[EJEMPLO ILUSTRATIVO] El dueño de un negocio de jardinería que rechaza clientes nuevos todas las semanas y tiene reservas de efectivo que podrían cubrir el salario de un nuevo empleado durante una temporada lenta muestra varias señales de que podría ser el momento de contratar; en cambio, para un dueño que solo a veces tiene mucho trabajo, sin procesos documentados y con un flujo de caja impredecible, contratar podría ser prematuro.
+
+## Errores comunes
+- Contratar por un solo período de trabajo inusualmente intenso en vez de por un patrón sostenido
+- Contratar sin construir primero al menos unos sistemas básicos (BLUE-L1-039) para el puesto
+- Esperar demasiado por miedo y quedarse sin necesidad en el techo de horas del trabajo por cuenta propia
+
+## Preguntas frecuentes
+**P: ¿Existe un número "correcto" universal de clientes o de ingresos que indique que es hora de contratar?**
+R: [OPINIÓN] No: las señales adecuadas dependen mucho del negocio y del puesto específicos; las señales prácticas del Tema 4 son una orientación general, no una fórmula fija.
+
+**P: ¿La primera contratación tiene que ser un empleado a tiempo completo?**
+R: No necesariamente: [ESTIMACIÓN] la ayuda a tiempo parcial, los contratistas o el apoyo para tareas específicas a veces pueden ser un primer paso adecuado antes de comprometerse con un puesto a tiempo completo, según las necesidades específicas del negocio.
+
+## Puntos clave
+- La dotación de personal requiere más que encontrar a una persona: necesita sistemas, flujo de caja y claridad del puesto
+- Contratar demasiado pronto puede ahogar las finanzas y confundir a la persona contratada si no tiene tareas claras
+- Contratar demasiado tarde atrapa sin necesidad al dueño en el techo de horas del trabajo por cuenta propia
+- Las señales prácticas incluyen rechazar trabajo de forma sostenida, la carga de tareas que no requieren la experiencia del dueño y un flujo de caja confiable
+
+## Ejercicio práctico
+Usando las señales del Tema 4, evalúa si un negocio hipotético (real o imaginado) parece listo para su primera contratación y explica tu razonamiento.
+
+---
+
+## Guía de enseñanza socrática
+`BLUE-L1-040-SOCRATIC` (Nivel 1 — "Qué")
+
+1. **Pregunta inicial:** ¿Qué crees que determina si un negocio está realmente listo para contratar a su primer empleado?
+2. **Concepto 1 — Definición:** ¿Qué requiere la dotación de personal más allá de simplemente encontrar a alguien?
+3. **Seguimiento:** ¿Por qué los sistemas y el flujo de caja importan para esta decisión?
+4. **Concepto 2 — Contratar demasiado pronto:** ¿Qué puede salir mal si un negocio contrata antes de estar listo financiera u operativamente?
+5. **Seguimiento:** ¿Cómo podría afectar, en concreto, un puesto poco claro a la persona contratada?
+6. **Concepto 3 — Contratar demasiado tarde:** ¿Cómo se conecta retrasar una contratación necesaria con el techo de crecimiento de BLUE-L1-038?
+7. **Seguimiento:** ¿Qué podría arriesgar un dueño por esperar demasiado por precaución?
+8. **Concepto 4 — Señales prácticas:** Nombra dos señales prácticas de que un negocio podría estar listo para contratar.
+9. **Síntesis:** ¿Cómo distinguirías una sola semana de mucho trabajo de un patrón sostenido que justifique una contratación?
+10. **Reflexión:** ¿Por qué el miedo a contratar demasiado pronto a veces podría hacer que un dueño espere demasiado?
+
+## Evaluación de competencias
+`BLUE-L1-040-ASSESSMENT`
+
+1. (Selección múltiple) La dotación de personal requiere: A) Solo encontrar a una persona dispuesta B) Sistemas adecuados, flujo de caja y claridad del puesto C) Un gran presupuesto de marketing D) Solo un plan de negocios formal
+2. (Verdadero/Falso) Contratar por una sola semana de trabajo inusualmente intenso es una señal confiable para contratar.
+3. (Selección múltiple) ¿Qué riesgo trae contratar demasiado pronto? A) Ninguno B) Presión financiera y confusión sobre el puesto C) El fracaso garantizado del negocio D) Una pérdida inmediata de ganancias
+4. (Respuesta corta) Explica cómo se conecta contratar demasiado tarde con el techo de crecimiento de BLUE-L1-038.
+5. (Caso práctico) Un dueño rechaza trabajo todas las semanas y tiene reservas de efectivo para cubrir un salario durante una temporada lenta. ¿Qué sugiere esto?
+6. (Selección múltiple) ¿Cuál es una señal práctica de que podría ser el momento de contratar? A) Un solo día de mucho trabajo B) Rechazar trabajo de forma sostenida y tener un flujo de caja confiable C) Que un competidor haya contratado a alguien D) Una nueva campaña de marketing
+7. (Verdadero/Falso) La primera contratación siempre tiene que ser un empleado a tiempo completo.
+8. (Respuesta corta) ¿Por qué importa la claridad del puesto antes de contratar a alguien?
+9. (Selección múltiple) ¿Qué conecta BLUE-L1-039 (sistemas) con esta lección? A) Nada B) Los sistemas ayudan a que la persona contratada trabaje de forma constante, lo que apoya una dotación de personal exitosa C) Los sistemas sustituyen la necesidad de contratar D) Los sistemas solo importan después de contratar
+10. (Reflexión) ¿Por qué esperar demasiado para contratar, por precaución, podría terminar perjudicando a un negocio tanto como contratar demasiado pronto?
+
+## Clave de respuestas
+`BLUE-L1-040-ANSWER-KEY`
+
+1. **Correcta:** B. **Explicación:** Se indica directamente en el Tema 1. **Competencia evaluada:** Recordar.
+2. **Correcta:** Falso. **Explicación:** Los errores comunes lo señalan de forma explícita. **Competencia evaluada:** Corrección de un error de concepto.
+3. **Correcta:** B. **Explicación:** Se indica en el Tema 2. **Competencia evaluada:** Recordar.
+4. **Correcta:** Retrasar una contratación necesaria mantiene al dueño en el techo basado en las horas del trabajo por cuenta propia descrito en BLUE-L1-038. **Competencia evaluada:** Síntesis entre lecciones.
+5. **Correcta:** Sugiere que el negocio podría estar listo para su primera contratación, según el Tema 4 y el ejemplo práctico. **Competencia evaluada:** Razonamiento aplicado.
+6. **Correcta:** B. **Explicación:** Se indica en el Tema 4. **Competencia evaluada:** Recordar.
+7. **Correcta:** Falso. **Explicación:** Las preguntas frecuentes señalan que la ayuda a tiempo parcial o de contratistas puede ser un primer paso adecuado. **Competencia evaluada:** Corrección de un error de concepto.
+8. **Correcta:** Sin claridad del puesto, la persona contratada puede quedar confundida sobre las expectativas, lo que debilita su éxito. **Competencia evaluada:** Síntesis.
+9. **Correcta:** B. **Explicación:** Los sistemas (de BLUE-L1-039) apoyan un desempeño constante, lo que apoya una contratación exitosa. **Competencia evaluada:** Recordar entre lecciones.
+10. **Correcta:** Las respuestas deberían mencionar que tanto contratar antes de tiempo como retrasar la contratación tienen costos reales (presión financiera frente a crecimiento limitado), así que el momento de verdad importa en ambos sentidos. **Competencia evaluada:** Síntesis profunda.
+
+## Estándar de competencia
+`BLUE-L1-040-COMPETENCY`
+
+COMPETENCIAS QUE SE ENSEÑAN: Requisitos de la dotación de personal más allá de encontrar a una persona; riesgos de contratar antes de tiempo y de retrasar la contratación; señales prácticas de que se está listo para contratar.
+COMPETENCIAS QUE SE MIDEN: Recordar definiciones; síntesis entre lecciones (BLUE-L1-038, BLUE-L1-039); razonamiento aplicado a casos.
+PUNTUACIÓN MÍNIMA DE DOMINIO: 80 %
+TAREA PRÁCTICA OBLIGATORIA: Completar el ejercicio práctico.
+TEMAS DE REFUERZO: Repasar BLUE-L1-038 y BLUE-L1-039 si se falló la P4, la P6 o la P9.
+SIGUIENTE LECCIÓN DESBLOQUEADA: BLUE-L1-041
+RUTAS RELACIONADAS: BLACK (Liderazgo y alta dirección): la estrategia de contratación y de dotación de personal se trata con mucha más profundidad en niveles superiores de la ruta BLACK.
+
+## Lecturas adicionales
+- BLUE-L1-038 — Crecer trabajando por cuenta propia frente a crecer como dueño de un negocio
+- BLUE-L1-039 — ¿Qué son los sistemas en un negocio?
+- BLUE-L1-041 — ¿Qué es un contratista independiente frente a un empleado?
+
+## Ruta de la lección
+`BLUE-L1-040-LOCALIZATION` (bloque de ruta)
+LECCIÓN ANTERIOR: BLUE-L1-039
+SIGUIENTE LECCIÓN: BLUE-L1-041
+REQUISITOS PREVIOS OBLIGATORIOS: BLUE-L1-038, BLUE-L1-039
+LECCIONES OPCIONALES DE REPASO: BLUE-L1-016, BLUE-L1-038, BLUE-L1-039
+LECCIONES DE REFUERZO: BLUE-L1-038, BLUE-L1-039
+LECCIONES RELACIONADAS DE OTRAS RUTAS: Todavía no hay ninguna publicada en el Nivel 1 de BLACK (solo referencia futura)
+REQUISITO PARA COMPLETAR EL NIVEL: Completar todas las lecciones de BLUE-L1 (001–050) y aprobar la evaluación de competencias del Nivel 1.
+
+## Bloque SEO
+`BLUE-L1-040-SEO`
+Título SEO: ¿Cuándo debería un negocio hacer su primera contratación? | Edunancial
+Meta descripción: Aprende qué requiere realmente la dotación de personal y las señales prácticas de que un negocio podría estar listo para su primera contratación.
+Slug de URL sugerido: /courses/business/level-1/first-business-hire
+Palabra clave principal: cuándo contratar al primer empleado de un pequeño negocio
+Palabras clave secundarias: señales de que necesitas contratar, dotación de personal en un pequeño negocio
+Enlaces internos sugeridos: BLUE-L1-038, BLUE-L1-039, BLUE-L1-041
+Referencias externas sugeridas: Recursos generales de alfabetización sobre dotación de personal para pequeños negocios
+Recomendación de esquema: Esquema Course + LearningResource
+Intención de búsqueda: Informativa, nivel principiante
+Oportunidad de fragmento destacado: "¿Cómo sé cuándo mi negocio necesita su primera contratación?"
+Preguntas para el esquema FAQ: "¿Existe una señal universal de que es hora de contratar?"; "¿La primera contratación tiene que ser a tiempo completo?"
+
+## Bloque de apoyo de IA
+`BLUE-L1-040-AI`
+Resumen para la IA: Explica los requisitos de la dotación de personal más allá de encontrar a una persona (sistemas, flujo de caja, claridad del puesto) y repasa los riesgos de contratar demasiado pronto o demasiado tarde, relacionando la contratación tardía con el techo de crecimiento de BLUE-L1-038.
+Notas de enseñanza para la IA: Refuerza que las señales para contratar son una orientación general, no una fórmula fija; evita presentar umbrales numéricos específicos como universales.
+
+## Bloque de localización
+`BLUE-L1-040-LOCALIZATION`
+Estado de la traducción: traducción al español (Caribe) completada a partir de la fuente en inglés.
+
+## Bloque de referencias y verificación
+`BLUE-L1-040-REFERENCES`
+No se usaron estadísticas ni citas externas. Las señales para contratar están marcadas como ESTIMACIÓN u OPINIÓN.
+
+
+===== BLUE-L1-041
+TITLE: ¿Qué es un contratista independiente frente a un empleado?
+SUMMARY: Explica la diferencia central entre un contratista independiente y un empleado, y por qué la clasificación errónea conlleva un riesgo real.
+# BLUE-L1-041: "¿Qué es un contratista independiente frente a un empleado?"
+
+**Ruta:** BLUE (Negocios)
+**Nivel:** 1 — Conciencia y alfabetización
+**ID de la lección:** BLUE-L1-041
+**Autor:** Waldemar M. Caban, JD MA
+**Tiempo estimado:** 15–20 minutos
+**Dificultad:** Principiante
+
+---
+
+## Resumen ejecutivo
+`BLUE-L1-041-MAIN`
+Llamar "contratista" a alguien no lo convierte en contratista: la clasificación depende de la relación de trabajo real, no de la etiqueta que se use. Esta lección explica la diferencia central y por qué la clasificación errónea conlleva un riesgo real.
+
+## Objetivos de aprendizaje
+- Definir a un nivel básico al contratista independiente y al empleado
+- Explicar por qué la etiqueta por sí sola no determina la clasificación
+- Entender el riesgo de una clasificación errónea
+
+## Requisitos previos
+BLUE-L1-040
+
+## Tiempo estimado
+15–20 minutos
+
+## Dificultad
+Principiante (Nivel 1)
+
+---
+
+## Contenido principal
+
+### Tema 1: Qué es un empleado
+Un empleado suele trabajar bajo el control directo del negocio: horario fijo, métodos específicos que dicta la empresa y una participación continua e integrada en las operaciones del negocio.
+
+### Tema 2: Qué es un contratista independiente
+Un contratista independiente suele operar con más independencia: controla cómo y cuándo se hace el trabajo, a menudo trabaja para varios clientes y aporta sus propias herramientas o equipos, y entrega un resultado específico en vez de un trabajo continuo y controlado.
+
+### Tema 3: Por qué la etiqueta por sí sola no lo decide
+[REGLA ESPECÍFICA DE LA REGIÓN] Muchas jurisdicciones examinan la relación de trabajo real (el grado de control, la independencia y la integración en el negocio) en vez de aceptar sin más la etiqueta que el negocio le asigne. Llamar "contratista" a alguien no lo convierte en contratista si la relación real parece de empleo.
+
+### Tema 4: Por qué la clasificación errónea es un riesgo real
+[REGLA ESPECÍFICA DE LA REGIÓN] Clasificar por error a un empleado como contratista puede exponer a un negocio a impuestos atrasados, sanciones y responsabilidad legal si la clasificación se impugna y se determina que era incorrecta; es un riesgo que los negocios a veces subestiman cuando intentan reducir costos o papeleo.
+
+---
+
+## Definiciones clave
+- **Empleado:** Un trabajador bajo el control directo del negocio en cuanto al horario, los métodos y la integración continua en las operaciones.
+- **Contratista independiente:** Un trabajador que controla cómo y cuándo se hace el trabajo, a menudo atiende a varios clientes y entrega un resultado específico en vez de un trabajo continuo y controlado.
+- **Clasificación errónea:** Etiquetar de forma incorrecta a un trabajador como contratista o como empleado, de manera que no concuerda con la naturaleza real de la relación de trabajo.
+
+## Ejemplos prácticos
+[EJEMPLO ILUSTRATIVO] Un negocio llama "contratista" a un trabajador, pero le fija el horario diario exacto, le dicta con precisión cómo deben hacerse las tareas y le exige trabajar en exclusiva para ese único negocio; esta relación real podría parecerse legalmente a un empleo, a pesar de la etiqueta que se use.
+
+## Errores comunes
+- Suponer que la etiqueta que se usa en un acuerdo determina automáticamente la clasificación legal
+- Clasificar erróneamente a los trabajadores para evitar los impuestos sobre la nómina o las obligaciones de beneficios
+- No entender que las reglas de clasificación varían según la jurisdicción
+
+## Preguntas frecuentes
+**P: ¿Puede un negocio simplemente decidir llamar contratista a un trabajador para evitar las obligaciones que tiene con los empleados?**
+R: [REGLA ESPECÍFICA DE LA REGIÓN] No de forma confiable: muchas jurisdicciones evalúan la relación de trabajo real, y no solo la etiqueta, precisamente para evitar este tipo de clasificación errónea intencional.
+
+**P: ¿Qué determina la clasificación en la práctica?**
+R: [REGLA ESPECÍFICA DE LA REGIÓN] Entre los factores que se suelen considerar están el grado de control sobre los métodos y el horario de trabajo, si el trabajador atiende a varios clientes, quién aporta las herramientas o el equipo y qué tan integrado está el trabajador en las operaciones continuas del negocio; las pruebas legales específicas varían según la jurisdicción.
+
+## Puntos clave
+- Los empleados suelen trabajar bajo el control directo del negocio; los contratistas suelen controlar sus propios métodos y horarios
+- La etiqueta que se usa en un acuerdo no determina automáticamente la clasificación legal
+- En cambio, muchas jurisdicciones evalúan la relación de trabajo real
+- La clasificación errónea conlleva un riesgo real, incluidos impuestos atrasados y sanciones
+
+## Ejercicio práctico
+Describe una relación de trabajo que conozcas (o imagina una) y explica si se parece más a un empleo o a una contratación independiente, según los factores de esta lección.
+
+---
+
+## Guía de enseñanza socrática
+`BLUE-L1-041-SOCRATIC` (Nivel 1 — "Qué")
+
+1. **Pregunta inicial:** Si un negocio llama "contratista" a alguien, ¿eso lo convierte automáticamente en contratista desde el punto de vista legal?
+2. **Concepto 1 — Empleado:** ¿Qué suele definir una relación de empleo?
+3. **Seguimiento:** ¿Quién controla el horario y los métodos en esa relación?
+4. **Concepto 2 — Contratista:** ¿Qué suele definir una relación con un contratista independiente?
+5. **Seguimiento:** ¿En qué se diferencia el control respecto de la relación de empleo?
+6. **Concepto 3 — Más allá de la etiqueta:** ¿Por qué la etiqueta por sí sola no determina la clasificación?
+7. **Seguimiento:** ¿Qué examinan en cambio muchas jurisdicciones?
+8. **Concepto 4 — Riesgo de la clasificación errónea:** ¿Qué puede pasar si un negocio clasifica erróneamente a un trabajador?
+9. **Síntesis:** En el ejemplo práctico, ¿por qué ese "contratista" podría ser legalmente un empleado?
+10. **Reflexión:** ¿Por qué un negocio podría sentir la tentación de clasificar erróneamente a un trabajador y por qué eso es riesgoso?
+
+## Evaluación de competencias
+`BLUE-L1-041-ASSESSMENT`
+
+1. (Selección múltiple) Un empleado suele trabajar: A) Bajo el control directo del negocio B) Siempre con total independencia C) Para varios negocios a la vez D) Sin ninguna supervisión
+2. (Selección múltiple) Un contratista independiente suele: A) Tener un horario fijo que dicta el negocio B) Controlar cómo y cuándo se hace el trabajo, a menudo para varios clientes C) No poder trabajar para otros clientes D) Cobrar siempre un salario
+3. (Verdadero/Falso) La etiqueta que se usa en un acuerdo de trabajo determina automáticamente la clasificación legal.
+4. (Respuesta corta) Explica por qué muchas jurisdicciones miran más allá de la etiqueta para determinar la clasificación.
+5. (Caso práctico) Un negocio llama "contratista" a un trabajador, pero le fija el horario diario exacto y le dicta con precisión los métodos de trabajo. ¿Qué podría indicar esto en realidad?
+6. (Selección múltiple) ¿Qué riesgo crea la clasificación errónea? A) Ninguno B) Impuestos atrasados, sanciones y responsabilidad legal C) El cierre automático del negocio D) Demandas garantizadas
+7. (Verdadero/Falso) Las reglas de clasificación son idénticas en todas las jurisdicciones.
+8. (Respuesta corta) Nombra un factor que se suele considerar para determinar la clasificación de un trabajador.
+9. (Selección múltiple) ¿Por qué un negocio podría sentir la tentación de clasificar erróneamente a un trabajador? A) Para mejorar la calidad del producto B) Para reducir los impuestos sobre la nómina o las obligaciones de beneficios C) Para aumentar la satisfacción de los empleados D) Para cumplir con las regulaciones
+10. (Reflexión) ¿Por qué entender la relación de trabajo real es más importante que la etiqueta que se usa en un acuerdo?
+
+## Clave de respuestas
+`BLUE-L1-041-ANSWER-KEY`
+
+1. **Correcta:** A. **Explicación:** Se indica directamente en el Tema 1. **Competencia evaluada:** Recordar.
+2. **Correcta:** B. **Explicación:** Se indica directamente en el Tema 2. **Competencia evaluada:** Recordar.
+3. **Correcta:** Falso. **Explicación:** El Tema 3 lo indica de forma explícita. **Competencia evaluada:** Corrección de un error de concepto.
+4. **Correcta:** Para evitar que los negocios eludan las obligaciones que tienen con los empleados simplemente usando otra etiqueta. **Competencia evaluada:** Síntesis.
+5. **Correcta:** Este nivel de control se parece a una relación de empleo, a pesar de la etiqueta de "contratista", según el ejemplo práctico. **Competencia evaluada:** Razonamiento aplicado.
+6. **Correcta:** B. **Explicación:** Se indica en el Tema 4. **Competencia evaluada:** Recordar.
+7. **Correcta:** Falso. **Explicación:** Las preguntas frecuentes señalan de forma explícita que varían según la jurisdicción. **Competencia evaluada:** Corrección de un error de concepto.
+8. **Correcta:** Cualquiera de estos: el grado de control, tener varios clientes, quién es dueño de las herramientas o el equipo, la integración en las operaciones. **Competencia evaluada:** Recordar.
+9. **Correcta:** B. **Explicación:** Se indica en los errores comunes. **Competencia evaluada:** Razonamiento aplicado.
+10. **Correcta:** Las respuestas deberían mencionar que las consecuencias legales y financieras dependen de la relación real, y no simplemente de cómo se llame en el papel. **Competencia evaluada:** Síntesis profunda.
+
+## Estándar de competencia
+`BLUE-L1-041-COMPETENCY`
+
+COMPETENCIAS QUE SE ENSEÑAN: Diferencia entre empleado y contratista; clasificación basada en la relación real y no en la etiqueta; riesgo de la clasificación errónea.
+COMPETENCIAS QUE SE MIDEN: Recordar definiciones; corrección de errores de concepto; razonamiento aplicado a la clasificación.
+PUNTUACIÓN MÍNIMA DE DOMINIO: 80 %
+TAREA PRÁCTICA OBLIGATORIA: Completar el ejercicio práctico.
+TEMAS DE REFUERZO: Repasar los Temas 3–4 si se falló la P3, la P5 o la P6.
+SIGUIENTE LECCIÓN DESBLOQUEADA: BLUE-L1-042
+RUTAS RELACIONADAS: PURPLE (Derecho): el derecho sobre la clasificación laboral se trata con más detalle en niveles superiores de la ruta PURPLE; GREEN (Impuestos): las implicaciones fiscales se tratan con más detalle en niveles superiores de la ruta GREEN.
+
+## Lecturas adicionales
+- BLUE-L1-040 — ¿Qué es la dotación de personal y cuándo necesita un negocio su primera contratación?
+- BLUE-L1-042 — ¿Qué es la delegación y por qué es más difícil de lo que parece?
+
+## Ruta de la lección
+`BLUE-L1-041-LOCALIZATION` (bloque de ruta)
+LECCIÓN ANTERIOR: BLUE-L1-040
+SIGUIENTE LECCIÓN: BLUE-L1-042
+REQUISITOS PREVIOS OBLIGATORIOS: BLUE-L1-040
+LECCIONES OPCIONALES DE REPASO: BLUE-L1-040
+LECCIONES DE REFUERZO: BLUE-L1-040
+LECCIONES RELACIONADAS DE OTRAS RUTAS: Todavía no hay ninguna publicada en el Nivel 1 de PURPLE ni de GREEN (solo referencia futura)
+REQUISITO PARA COMPLETAR EL NIVEL: Completar todas las lecciones de BLUE-L1 (001–050) y aprobar la evaluación de competencias del Nivel 1.
+
+## Bloque SEO
+`BLUE-L1-041-SEO`
+Título SEO: Contratista independiente frente a empleado: ¿cuál es la diferencia? | Edunancial
+Meta descripción: Aprende la diferencia real entre un contratista independiente y un empleado, y por qué la etiqueta por sí sola no determina la clasificación.
+Slug de URL sugerido: /courses/business/level-1/contractor-vs-employee
+Palabra clave principal: contratista independiente frente a empleado
+Palabras clave secundarias: riesgo de clasificar erróneamente a un trabajador, reglas de clasificación de contratistas
+Enlaces internos sugeridos: BLUE-L1-040, BLUE-L1-042
+Referencias externas sugeridas: Recursos de la autoridad laboral o de empleo local
+Recomendación de esquema: Esquema Course + LearningResource
+Intención de búsqueda: Informativa, nivel principiante
+Oportunidad de fragmento destacado: "¿Qué determina si un trabajador es contratista o empleado?"
+Preguntas para el esquema FAQ: "¿Puede un negocio llamar contratista a un trabajador sin más?"; "¿Qué factores determinan la clasificación?"
+
+## Bloque de apoyo de IA
+`BLUE-L1-041-AI`
+Resumen para la IA: Distingue a los empleados (bajo el control directo del negocio) de los contratistas independientes (con control independiente de sus métodos y horarios), y recalca que es la relación de trabajo real, y no la etiqueta, lo que determina la clasificación legal.
+Notas de enseñanza para la IA: Todo este tema depende de la jurisdicción; márcalo de forma destacada como REGLA ESPECÍFICA DE LA REGIÓN y evita presentar pruebas legales específicas como universales.
+
+## Bloque de localización
+`BLUE-L1-041-LOCALIZATION`
+Estado de la traducción: traducción al español (Caribe) completada a partir de la fuente en inglés.
+Nota: Las pruebas de clasificación varían mucho según la jurisdicción; marcar para REVISIÓN DE LOCALIZACIÓN en cada región.
+
+## Bloque de referencias y verificación
+`BLUE-L1-041-REFERENCES`
+No se usaron estadísticas ni citas externas. Las reglas de clasificación están marcadas como REGLA ESPECÍFICA DE LA REGIÓN en toda la lección.
+
+

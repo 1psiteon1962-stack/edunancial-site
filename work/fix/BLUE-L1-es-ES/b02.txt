@@ -1,0 +1,287 @@
+===== BLUE-L1-005
+TITLE: ¿Qué es una LLP y en qué se diferencia de una LLC?
+SUMMARY: Aprende qué es una LLP y en qué se diferencia su protección de responsabilidad de la de una LLC.
+# ¿Qué es una LLP y en qué se diferencia de una LLC?
+
+## Objetivos de aprendizaje
+
+Al final de esta lección, deberías poder:
+
+- Definir una LLP en términos sencillos.
+- Explicar quién suele usar esta estructura.
+- Explicar una diferencia clave entre la protección de responsabilidad de una LLP y la de una LLC.
+
+## Contenido principal
+
+### Qué significa LLP
+
+LLP son las siglas en inglés de Limited Liability Partnership, es decir, sociedad de responsabilidad limitada entre socios: una estructura pensada para varios dueños (socios) y no para un solo miembro, que suelen usar las prácticas profesionales como los bufetes de abogados o las firmas de contabilidad.
+
+### Quién suele usarla
+
+*(REGLA ESPECÍFICA DE LA REGIÓN: su disponibilidad y sus reglas varían según el estado, el país y la profesión; en España, los profesionales colegiados que ejercen en común pueden organizarse como sociedad profesional, una figura con reglas propias.)* Las LLP suelen usarlas profesionales con licencia que están obligados a operar como socios, o que eligen hacerlo, y en las que cada socio sigue teniendo responsabilidad directa por su propio trabajo profesional.
+
+### La diferencia clave de responsabilidad
+
+Pregúntate: si un socio de la firma comete un error costoso, ¿deberían estar en riesgo los bienes personales de todos los demás socios? En una LLP, en general, un socio está protegido de la responsabilidad personal por la negligencia profesional o los actos indebidos de los otros socios, una distinción que importa específicamente en entornos profesionales con varios socios.
+
+## Ejemplo práctico
+
+*EJEMPLO ILUSTRATIVO:* Imagina un pequeño bufete de abogados con tres socios, estructurado como LLP. Uno de los socios comete un error grave en el asunto de un cliente. Pregúntate: ¿están en riesgo las casas de los otros dos socios por el error de ese socio? Con una LLP, en general no: la exposición de cada socio por los actos de los demás es limitada, aunque compartan el negocio.
+
+## Cuestionario de práctica
+
+1. LLP son las siglas de:
+   A. Limited Liability Practice
+   B. Limited Liability Partnership
+   C. Legal Licensed Professional
+   D. Local Liability Program
+2. Verdadero o falso: las LLP suelen estructurarse para un solo dueño.
+3. ¿Qué atiende en general la protección de responsabilidad de una LLP?
+   A. La protección frente a todas las deudas del negocio de cualquier tipo
+   B. La protección frente a la responsabilidad personal por la negligencia o los actos indebidos de otros socios
+   C. La protección frente a pagar cualquier impuesto
+   D. La protección frente a que te demanden alguna vez
+
+## Clave de respuestas
+
+1. B
+2. Falso
+3. B
+
+## Respuestas y explicaciones
+
+### Pregunta 1
+
+Respuesta correcta: B. LLP son las siglas de Limited Liability Partnership.
+
+### Pregunta 2
+
+Respuesta correcta: Falso. Las LLP se estructuran para varios socios, no para un solo dueño.
+
+### Pregunta 3
+
+Respuesta correcta: B. Las LLP atienden específicamente la responsabilidad por los actos de otros socios.
+
+## Puntos clave
+
+- Una LLP está pensada para varios socios, a menudo en profesiones con licencia.
+- En general, protege a un socio de la responsabilidad por la negligencia o los actos indebidos de otros socios.
+- Es una protección distinta del escudo general de responsabilidad de una LLC.
+
+===== BLUE-L1-006
+TITLE: LLC o LLP: ¿cuál encaja en cada situación?
+SUMMARY: Compara lado a lado las estructuras LLC y LLP para ver qué situaciones encajan de forma natural con cada una.
+# LLC o LLP: ¿cuál encaja en cada situación?
+
+## Objetivos de aprendizaje
+
+Al final de esta lección, deberías poder:
+
+- Comparar las LLC y las LLP según su estructura de propiedad.
+- Comparar las LLC y las LLP según su uso típico.
+- Aplicar esta comparación a una situación hipotética básica.
+
+## Contenido principal
+
+### El mismo objetivo, distinta forma
+
+Ambas estructuras existen para limitar la responsabilidad personal: ese es el objetivo compartido. En lo que difieren es en para quién están pensadas y en cómo se da forma a la protección.
+
+### La estructura de propiedad
+
+Una LLC puede tener un solo miembro o muchos. Una LLP está pensada específicamente en torno a varios socios: no encaja en una situación real de un solo dueño como sí lo hace una LLC.
+
+### El uso típico
+
+Una LLC encaja en una gran variedad de negocios: una tienda, una consultoría, un negocio de servicios de un solo dueño. Una LLP se asocia de forma más específica con las sociedades de profesionales con licencia, en las que la preocupación central que se atiende es la responsabilidad individual de cada socio por el trabajo de los demás.
+
+### Pregúntate esto
+
+Si fueras a empezar una consultoría tú solo, ¿una LLP sería siquiera una opción? En realidad no: las LLP suponen que hay socios. Esa sola pregunta a menudo resuelve qué estructura encaja de verdad.
+
+## Ejemplo práctico
+
+*EJEMPLO ILUSTRATIVO:* Una consultora independiente sin socios está eligiendo entre una LLC y una LLP. Pregúntate: ¿una LLP siquiera aplica aquí? Como las LLP se construyen en torno a varios socios, esta situación apunta claramente a una LLC. Ahora imagina a tres contadores que abren una firma juntos: en esa situación cualquiera de las dos estructuras sería posible, y la protección de responsabilidad entre socios de la LLP pasa a ser el factor más relevante.
+
+## Cuestionario de práctica
+
+1. ¿Qué estructura NO está pensada, en general, para un solo dueño real?
+   A. LLC
+   B. LLP
+   C. Ambas están pensadas solo para un único dueño
+   D. Ninguna tiene que ver con la estructura de propiedad
+2. Verdadero o falso: las LLC y las LLP comparten el mismo objetivo básico de limitar la responsabilidad personal.
+3. Un consultor que trabaja solo, sin socios, está eligiendo una estructura. ¿Cuál encaja de forma más natural, solo por la estructura de propiedad?
+   A. LLP
+   B. LLC
+   C. Ninguna encaja con un solo dueño
+   D. Ambas son igual de inadecuadas
+
+## Clave de respuestas
+
+1. B
+2. Verdadero
+3. B
+
+## Respuestas y explicaciones
+
+### Pregunta 1
+
+Respuesta correcta: B. Las LLP se construyen en torno a varios socios, no a un solo dueño real.
+
+### Pregunta 2
+
+Respuesta correcta: Verdadero. Ambas estructuras comparten el objetivo central de limitar la responsabilidad personal.
+
+### Pregunta 3
+
+Respuesta correcta: B. Una LLC encaja con un solo dueño; una LLP supone que hay socios.
+
+## Puntos clave
+
+- Tanto las LLC como las LLP limitan la responsabilidad personal, pero dan una forma distinta a esa protección.
+- Las LLC encajan con uno o varios dueños; las LLP suponen varios socios.
+- Las LLP se asocian de forma más específica con las sociedades de profesionales con licencia.
+
+===== BLUE-L1-007
+TITLE: ¿Qué es una corporación?
+SUMMARY: Aprende qué es una corporación, en qué se diferencia estructuralmente de una LLC y por qué se la trata como su propia "persona" legal.
+# ¿Qué es una corporación?
+
+## Objetivos de aprendizaje
+
+Al final de esta lección, deberías poder:
+
+- Definir una corporación en términos sencillos.
+- Explicar qué significa decir que una corporación es su propia "persona" legal.
+- Explicar una consecuencia práctica de esa condición legal separada.
+
+## Contenido principal
+
+### Una persona legal propia
+
+Una corporación es una estructura de negocio que crea una entidad legal totalmente separada de sus dueños (los accionistas), en muchos sentidos más formalmente separada que una LLC. La ley trata a una corporación casi como su propia "persona": puede ser dueña de bienes, firmar contratos, demandar y ser demandada, con independencia de las personas que son sus dueñas.
+
+### Por qué importa que sea "su propia persona"
+
+Pregúntate: si muere el dueño de una corporación, ¿el negocio termina automáticamente? En general no: como la corporación existe como su propia entidad legal, puede continuar con independencia de la vida de cualquier dueño, a diferencia de algunas estructuras más sencillas.
+
+### Una consecuencia práctica: la propiedad mediante acciones
+
+Las corporaciones se poseen mediante acciones, que vimos en la ruta WHITE: esta es la conexión directa entre "tener acciones" y esta estructura de negocio. Una corporación puede tener un solo accionista o millones, y las acciones pueden comprarse y venderse sin alterar necesariamente el negocio de fondo.
+
+## Ejemplo práctico
+
+*EJEMPLO ILUSTRATIVO:* Imagina una corporación familiar cuyo fundador fallece. Pregúntate: ¿el negocio deja de existir legalmente? Como la corporación es su propia entidad legal, la propiedad de las acciones simplemente se transfiere (por herencia, venta u otra vía) y la corporación misma sigue existiendo, separada de la vida de cualquier persona.
+
+## Cuestionario de práctica
+
+1. La mejor descripción de una corporación es:
+   A. La misma entidad legal que sus dueños
+   B. Una entidad legal separada de sus dueños
+   C. Algo disponible solo para empresas grandes
+   D. Un tipo de empresa individual
+2. Verdadero o falso: en general, una corporación deja de existir si muere uno de sus dueños.
+3. ¿Cómo se estructura normalmente la propiedad de una corporación?
+   A. Mediante un único título que no se puede transferir
+   B. Mediante acciones, que pueden tener uno o muchos accionistas
+   C. Las corporaciones no pueden tener dueños
+   D. El gobierno determina cada año quién es el dueño
+
+## Clave de respuestas
+
+1. B
+2. Falso
+3. B
+
+## Respuestas y explicaciones
+
+### Pregunta 1
+
+Respuesta correcta: B. Una corporación está legalmente separada de sus dueños.
+
+### Pregunta 2
+
+Respuesta correcta: Falso. En general, la corporación continúa con independencia de la vida de cualquier dueño.
+
+### Pregunta 3
+
+Respuesta correcta: B. La propiedad se estructura mediante acciones.
+
+## Puntos clave
+
+- Una corporación es su propia entidad legal, separada de sus dueños.
+- Puede seguir existiendo con independencia de cualquier dueño.
+- La propiedad se estructura mediante acciones, lo que conecta con la ruta WHITE.
+
+===== BLUE-L1-008
+TITLE: Subcapítulo C y Subcapítulo S: ¿qué cambia realmente?
+SUMMARY: Aprende la diferencia central de tratamiento fiscal entre una corporación C y una corporación S.
+# Subcapítulo C y Subcapítulo S: ¿qué cambia realmente?
+
+## Objetivos de aprendizaje
+
+Al final de esta lección, deberías poder:
+
+- Explicar a qué se refieren "corporación C" y "corporación S".
+- Explicar la diferencia fiscal central entre ellas.
+- Reconocer que la condición de corporación S tiene límites de elegibilidad reales.
+
+## Contenido principal
+
+### La misma estructura legal, distinto tratamiento fiscal
+
+*(REGLA ESPECÍFICA DE LA REGIÓN: esto describe la ley fiscal federal de EE. UU.; en España no existe una elección equivalente a la de la corporación S, y las sociedades mercantiles tributan por el Impuesto sobre Sociedades.)* Ambos términos se refieren a la misma estructura de corporación de la lección anterior; la diferencia es qué sección del código fiscal federal se aplica a la forma en que tributa la corporación.
+
+### La diferencia central: quién paga y cuándo
+
+Una corporación C en general paga contribución sobre ingresos a nivel corporativo por sus ganancias; si luego reparte dividendos a los accionistas, esos accionistas en general vuelven a pagar contribución por ese ingreso, lo que a veces se llama "doble tributación". Una corporación S en general traslada la ganancia directamente a las planillas personales de los accionistas y evita esa capa de contribución a nivel corporativo.
+
+### Pregúntate esto
+
+Si la condición de corporación S evita esa doble tributación, ¿por qué no la elige toda corporación? Porque la condición de corporación S tiene límites de elegibilidad reales (restricciones sobre el número y el tipo de accionistas, entre otros requisitos) que no toda corporación cumple o quiere cumplir.
+
+## Ejemplo práctico
+
+*EJEMPLO ILUSTRATIVO:* Imagina dos corporaciones idénticas con la misma ganancia. Una elige el tratamiento de corporación C; la otra, el de corporación S. Pregúntate: si ambas reparten toda su ganancia a los accionistas, ¿dónde se paga la contribución de forma distinta? En la corporación C, la contribución en general se paga a nivel corporativo y otra vez a nivel del accionista. En la corporación S, en general se paga una sola vez, trasladada directamente a las planillas personales de los accionistas.
+
+## Cuestionario de práctica
+
+1. ¿A qué se refieren "corporación C" y "corporación S"?
+   A. A dos estructuras legales de negocio totalmente distintas
+   B. A la misma estructura de corporación, que tributa según secciones distintas del código fiscal
+   C. Solo al tamaño de la empresa
+   D. A una distinción que solo importa en las organizaciones sin fines de lucro
+2. Verdadero o falso: una corporación C evita la doble tributación, mientras que una corporación S no.
+3. ¿Por qué no toda corporación elige simplemente la condición de corporación S?
+   A. La condición de corporación S es ilegal en la mayoría de los estados
+   B. La condición de corporación S tiene límites de elegibilidad reales que no toda corporación cumple
+   C. Las corporaciones S siempre tributan más
+   D. No existe la condición de corporación S
+
+## Clave de respuestas
+
+1. B
+2. Falso
+3. B
+
+## Respuestas y explicaciones
+
+### Pregunta 1
+
+Respuesta correcta: B. Ambos se refieren a la misma estructura, que tributa de forma distinta según el código fiscal.
+
+### Pregunta 2
+
+Respuesta correcta: Falso. Es al revés: las corporaciones C en general enfrentan una posible doble tributación; las corporaciones S en general la evitan.
+
+### Pregunta 3
+
+Respuesta correcta: B. Requisitos de elegibilidad reales limitan quién puede elegir la condición de corporación S.
+
+## Puntos clave
+
+- Corporación C y corporación S se refieren a la misma estructura, que tributa de forma distinta.
+- Las corporaciones C en general enfrentan una posible doble tributación; las corporaciones S en general trasladan la ganancia una sola vez.
+- La condición de corporación S tiene límites de elegibilidad reales y no está disponible para toda corporación.

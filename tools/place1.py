@@ -22,6 +22,7 @@ for lid,rest in sorted(ch.items()):
         elif l.startswith('locale:'): continue
         else: nf.append(l)
         if l.startswith('lessonNumber:'): nf.append(f'locale: {loc}')
+        if l.startswith('title:') and not any(x.startswith('summary:') for x in fm): nf.append('summary: '+q(summ))
     tgt=f'{R}/{C}/L{lv}/{lid}.{fname}.md'
     if loc=='it' and not os.path.exists(tgt) and os.path.exists(f'{R}/{C}/L{lv}/{lid}.it-IT.md'): tgt=f'{R}/{C}/L{lv}/{lid}.it-IT.md'
     open(tgt,'w',encoding='utf-8').write('---\n'+'\n'.join(nf)+'\n---\n\n'+body); n+=1

@@ -1,0 +1,287 @@
+===== BLUE-L1-009
+TITLE: ¿Qué es una sociedad y cuáles son los riesgos reales de una sociedad informal?
+SUMMARY: Aprende qué es una sociedad general y por qué una sociedad informal y sin documentar implica un riesgo real para todos los involucrados.
+# ¿Qué es una sociedad y cuáles son los riesgos reales de una sociedad informal?
+
+## Objetivos de aprendizaje
+
+Al final de esta lección, deberías poder:
+
+- Definir una sociedad general en términos sencillos.
+- Explicar por qué una sociedad informal es riesgosa.
+- Explicar lo que puede evitar un acuerdo de sociedad por escrito.
+
+## Contenido principal
+
+### Qué es una sociedad general
+
+Una sociedad general se forma cuando dos o más personas hacen negocios juntas y comparten las ganancias, las pérdidas y la gestión; a menudo sin siquiera decidirlo formalmente, si simplemente están operando un negocio juntas sin ninguna otra estructura.
+
+### Pregúntate esto
+
+Si dos amigos empiezan a vender un producto juntos con un apretón de manos y sin ningún acuerdo por escrito, ¿son legalmente socios? En muchos lugares, sí: por defecto, el simple hecho de operar un negocio juntos puede crear una sociedad legal, lo haya querido alguien o no.
+
+### El riesgo real de "ya lo resolveremos"
+
+En una sociedad general, en general cada socio responde personalmente no solo por sus propios actos, sino también por los actos que el otro socio (o los otros socios) realice en nombre del negocio. Sin un acuerdo por escrito que cubra cosas como el reparto de la propiedad, la toma de decisiones y qué pasa si alguien quiere salirse, los desacuerdos pueden convertirse en disputas costosas y personales sin un camino claro para resolverlas.
+
+*REGLA ESPECÍFICA DE LA REGIÓN:* Las reglas sobre cuándo existe una sociedad y cómo responden los socios dependen de cada país; por ejemplo, en España las sociedades civiles se rigen por el Código Civil y las mercantiles por su propia legislación, con reglas distintas de responsabilidad. Verifica las reglas de tu jurisdicción.
+
+## Ejemplo práctico
+
+*EJEMPLO ILUSTRATIVO:* Dos amigos empiezan un negocio juntos de manera informal. Uno firma un contrato con un proveedor sin que el otro lo sepa, y el negocio no puede pagarlo. Pregúntate: ¿el socio que no firmó sigue respondiendo? Según el derecho de las sociedades generales, es muy posible que sí: cada socio puede responder personalmente por las obligaciones que el otro socio haya creado en nombre del negocio.
+
+## Cuestionario de práctica
+
+1. Una sociedad general puede formarse:
+   A. Solo con documentos formales registrados
+   B. Simplemente con que dos o más personas operen un negocio juntas, incluso sin documentos formales
+   C. Solo entre familiares
+   D. Solo en profesiones con licencia
+2. Verdadero o falso: en una sociedad general, un socio solo responde por sus propios actos individuales.
+3. ¿Qué puede ayudar a evitar un acuerdo de sociedad por escrito?
+   A. Todo riesgo de negocio de cualquier tipo
+   B. Disputas costosas sobre la propiedad, las decisiones y las condiciones de salida
+   C. La necesidad de comunicarse alguna vez con un socio
+   D. Los impuestos del negocio por completo
+
+## Clave de respuestas
+
+1. B
+2. Falso
+3. B
+
+## Respuestas y explicaciones
+
+### Pregunta 1
+
+Respuesta correcta: B. Una sociedad general puede formarse por defecto, sin documentos formales.
+
+### Pregunta 2
+
+Respuesta correcta: Falso. En general, los socios pueden responder por los actos de los demás realizados en nombre del negocio.
+
+### Pregunta 3
+
+Respuesta correcta: B. Un acuerdo por escrito ayuda a evitar disputas costosas y poco claras.
+
+## Puntos clave
+
+- Una sociedad general puede formarse por defecto, incluso sin documentos.
+- En general, los socios pueden responder personalmente por los actos de negocio de los demás.
+- Un acuerdo de sociedad por escrito ayuda a evitar disputas costosas y ambiguas.
+
+===== BLUE-L1-010
+TITLE: Elegir una estructura de negocio: ¿qué preguntas deberías hacer primero?
+SUMMARY: Une las estructuras vistas hasta ahora en un marco práctico para tomar la decisión.
+# Elegir una estructura de negocio: ¿qué preguntas deberías hacer primero?
+
+## Objetivos de aprendizaje
+
+Al final de esta lección, deberías poder:
+
+- Enumerar preguntas clave que ayudan a acotar una estructura de negocio adecuada.
+- Aplicar esas preguntas a una situación hipotética básica.
+- Reconocer que este es un marco de partida, no un consejo personalizado.
+
+## Contenido principal
+
+### Las preguntas que vale la pena hacer primero
+
+Antes de entrar en los detalles legales, pregúntate: ¿cuántos dueños hay? ¿Cuánta protección de responsabilidad personal se necesita realmente, según el nivel de riesgo del negocio? ¿Es una profesión con licencia que tiene sus propias normas de estructura? ¿Es una prioridad reducir la doble tributación? Estas preguntas no dan por sí solas una respuesta final, pero acotan bastante las opciones.
+
+### Cómo recorrerlas
+
+A un dueño único con preocupaciones reales de responsabilidad y sin interés en atraer inversionistas externos a menudo se le orienta hacia una LLC. Varios profesionales con licencia podrían considerar una LLP. A un negocio que planea atraer mucho capital externo, o que quiere emitir muchas acciones, a menudo se le orienta hacia una corporación, una conexión con material que se ve más en el Nivel 3.
+
+### Un límite importante
+
+*IMPORTANTE:* Esta lección ofrece un marco general para entender, no un consejo legal o fiscal personalizado. Una decisión real debería involucrar a un profesional calificado que revise la situación concreta de la persona; la "analogía del médico", que se ve más adelante en este nivel, explica justamente por qué vale la pena ese paso.
+
+## Ejemplo práctico
+
+*EJEMPLO ILUSTRATIVO:* Una persona que empieza sola un negocio de jardinería, preocupada por la responsabilidad si su equipo daña la propiedad de alguien, recorre el marco: un dueño, una preocupación real de responsabilidad, ninguna necesidad inmediata de atraer capital externo. Pregúntate: ¿hacia qué estructura de las lecciones anteriores de este nivel apunta esa combinación? Una LLC encaja bien con ese perfil.
+
+## Cuestionario de práctica
+
+1. ¿Qué pregunta es un punto de partida útil al elegir una estructura de negocio?
+   A. ¿De qué color debería ser el logotipo?
+   B. ¿Cuántos dueños hay y cuánta protección de responsabilidad se necesita?
+   C. ¿En qué época del año debería abrir el negocio?
+   D. ¿Cuántos seguidores en redes sociales tiene el dueño?
+2. Verdadero o falso: el marco de esta lección sustituye el consejo legal o fiscal profesional.
+3. A un dueño único con preocupaciones reales de responsabilidad y sin planes de atraer capital externo a menudo se le orienta hacia ¿qué estructura?
+   A. Una sociedad general
+   B. Una LLC
+   C. Una LLP
+   D. Una organización sin fines de lucro
+
+## Clave de respuestas
+
+1. B
+2. Falso
+3. B
+
+## Respuestas y explicaciones
+
+### Pregunta 1
+
+Respuesta correcta: B. El número de dueños y las necesidades de responsabilidad son preguntas de partida centrales.
+
+### Pregunta 2
+
+Respuesta correcta: Falso. Es un marco general, no un sustituto del consejo profesional.
+
+### Pregunta 3
+
+Respuesta correcta: B. Ese perfil suele apuntar hacia una LLC.
+
+## Puntos clave
+
+- Preguntas clave para empezar: número de dueños, necesidades de responsabilidad, tipo de profesión y planes para atraer capital.
+- Estas preguntas acotan las opciones, pero no reemplazan el consejo profesional.
+- Este marco conecta directamente con las estructuras vistas antes en este nivel.
+
+===== BLUE-L1-011
+TITLE: ¿Qué son los ingresos y qué es la ganancia? (El par de términos que más se confunde en los negocios)
+SUMMARY: Aprende la diferencia real entre ingresos y ganancia, y por qué un negocio puede tener muchos ingresos y ninguna ganancia.
+# ¿Qué son los ingresos y qué es la ganancia? (El par de términos que más se confunde en los negocios)
+
+## Objetivos de aprendizaje
+
+Al final de esta lección, deberías poder:
+
+- Definir por separado los ingresos y la ganancia.
+- Calcular una ganancia básica a partir de los ingresos y los gastos.
+- Explicar por qué unos ingresos fuertes no garantizan una ganancia.
+
+## Contenido principal
+
+### Dos números que la gente confunde constantemente
+
+Pregúntate: si un negocio "hizo 500.000 € el año pasado", ¿significa que se quedó con 500.000 €? Casi seguro que no, y esta confusión es justamente la razón por la que los ingresos y la ganancia se mezclan tan a menudo.
+
+Los **ingresos** son el dinero total que entra a un negocio por sus ventas, antes de restar cualquier gasto. La **ganancia** es lo que queda después de restar todos los gastos que hicieron falta para generar esos ingresos.
+
+### La fórmula
+
+Ganancia = Ingresos − Gastos. Un negocio con 500.000 € de ingresos y 480.000 € de gastos solo tiene 20.000 € de ganancia: un panorama muy distinto del que sugiere el titular de ingresos por sí solo.
+
+### Por qué unos ingresos fuertes no garantizan una ganancia
+
+Un negocio puede tener ingresos impresionantes y en crecimiento y aun así estar perdiendo dinero, si sus gastos crecen igual de rápido o más. Los ingresos miden la actividad; la ganancia mide si esa actividad dejó al negocio realmente en mejor situación.
+
+## Ejemplo práctico
+
+*EJEMPLO ILUSTRATIVO:* Un negocio nuevo anuncia con orgullo 200.000 € de ingresos en su primer año. Pregúntate: ¿es una buena noticia por sí sola? Solo si también conoces los gastos. Si los gastos fueron de 210.000 €, el negocio en realidad perdió 10.000 € ese año: una pérdida escondida detrás de un titular que suena a éxito.
+
+## Cuestionario de práctica
+
+1. Los ingresos son:
+   A. Lo que queda después de restar todos los gastos
+   B. El dinero total que entra por las ventas, antes de los gastos
+   C. La deuda total de un negocio
+   D. Un tipo de impuesto
+2. Verdadero o falso: unos ingresos fuertes siempre significan que un negocio es rentable.
+3. Un negocio tiene 300.000 € de ingresos y 275.000 € de gastos. ¿Cuál es su ganancia?
+   A. 575.000 €
+   B. 25.000 €
+   C. 300.000 €
+   D. 0 €
+
+## Clave de respuestas
+
+1. B
+2. Falso
+3. B
+
+## Respuestas y explicaciones
+
+### Pregunta 1
+
+Respuesta correcta: B. Los ingresos son el total de lo que entra por ventas, antes de los gastos.
+
+### Pregunta 2
+
+Respuesta correcta: Falso. Unos ingresos altos con gastos todavía más altos pueden significar igualmente una pérdida.
+
+### Pregunta 3
+
+Respuesta correcta: B. 300.000 € − 275.000 € = 25.000 €.
+
+## Puntos clave
+
+- Los ingresos son el total de lo que entra por ventas, antes de los gastos.
+- Ganancia = Ingresos − Gastos: lo que realmente queda.
+- Unos ingresos fuertes no garantizan una ganancia.
+
+===== BLUE-L1-012
+TITLE: ¿Qué es el margen de ganancia?
+SUMMARY: Aprende cómo el margen de ganancia expresa la rentabilidad como porcentaje y por qué ese porcentaje importa más que la cifra de ganancia por sí sola.
+# ¿Qué es el margen de ganancia?
+
+## Objetivos de aprendizaje
+
+Al final de esta lección, deberías poder:
+
+- Enunciar la fórmula del margen de ganancia.
+- Calcular un margen de ganancia básico.
+- Explicar por qué el margen importa para comparar negocios de distintos tamaños.
+
+## Contenido principal
+
+### La fórmula
+
+Margen de ganancia = Ganancia ÷ Ingresos, que normalmente se expresa como porcentaje. Toma el concepto de ganancia de la lección anterior y lo expresa en relación con los ingresos, no como una cifra en dólares.
+
+### Por qué un porcentaje, y no solo una cantidad en dólares
+
+Pregúntate: ¿50.000 € de ganancia es algo impresionante? Depende por completo de cuántos ingresos hicieron falta para generar esa ganancia. 50.000 € de ganancia con 100.000 € de ingresos (un margen del 50 %) es un negocio muy distinto de 50.000 € de ganancia con 2.000.000 € de ingresos (un margen del 2,5 %): el porcentaje cuenta una historia que la cifra por sí sola esconde.
+
+### Para qué sirve
+
+El margen de ganancia permite comparar en igualdad de condiciones negocios de tamaños muy distintos, y es una forma útil de seguir si un mismo negocio se está volviendo más o menos eficiente con el tiempo, independientemente de si sus ingresos crecen.
+
+## Ejemplo práctico
+
+*EJEMPLO ILUSTRATIVO:* Dos negocios informan cada uno 40.000 € de ganancia. El negocio A tuvo 100.000 € de ingresos; el negocio B tuvo 800.000 €. Pregúntate: ¿son resultados igual de fuertes? El margen del negocio A es del 40 %; el del negocio B, del 5 %: niveles de eficiencia muy distintos escondidos detrás de la misma cifra de ganancia.
+
+## Cuestionario de práctica
+
+1. El margen de ganancia se calcula como:
+   A. Ingresos ÷ Ganancia
+   B. Ganancia ÷ Ingresos
+   C. Gastos ÷ Ingresos
+   D. Ingresos − Gastos
+2. Verdadero o falso: una cantidad mayor de ganancia en dólares siempre significa un negocio más eficiente.
+3. Un negocio tiene 60.000 € de ganancia y 300.000 € de ingresos. ¿Cuál es su margen de ganancia?
+   A. 5 %
+   B. 20 %
+   C. 50 %
+   D. 60 %
+
+## Clave de respuestas
+
+1. B
+2. Falso
+3. B
+
+## Respuestas y explicaciones
+
+### Pregunta 1
+
+Respuesta correcta: B. Margen de ganancia = Ganancia ÷ Ingresos.
+
+### Pregunta 2
+
+Respuesta correcta: Falso. Un negocio grande puede tener un margen menor que uno mucho más pequeño.
+
+### Pregunta 3
+
+Respuesta correcta: B. 60.000 € ÷ 300.000 € = 20 %.
+
+## Puntos clave
+
+- Margen de ganancia = Ganancia ÷ Ingresos, expresado como porcentaje.
+- Permite comparar de forma justa negocios de distintos tamaños.
+- Es una medida útil de eficiencia, aparte de la cifra de ganancia en dólares.
