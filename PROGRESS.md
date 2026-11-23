@@ -73,3 +73,9 @@ Status:
 - PURPLE-L5 pt-PT DONE 2026-11-22
 - PURPLE-L5 it DONE 2026-11-22
 - PURPLE-L5 nl DONE 2026-11-22
+
+## Owner directive (2026-11-22) — after ALL translations finish
+- Claude + ChatGPT coordinate the marketing plan (handoff via Google Drive / cut-and-paste); plan includes the marketing bots and multi-platform global presence.
+- Weeks 1–6: education only (why people need it, benefits; emotional triggers: fear, anger, feeling cheated, chance to do better, providing for children).
+- ~1.5 weeks before launch: start subscription readiness; then keep educating while converting to subscribers.
+- "Edunancial is a business. It must succeed financially."
