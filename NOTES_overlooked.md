@@ -1,0 +1,1 @@
+- BLACK-L2-042 English has stray quiz line '2. (renumbered)' (source defect; omitted in ht)
