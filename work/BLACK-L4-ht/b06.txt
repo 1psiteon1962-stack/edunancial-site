@@ -137,3 +137,163 @@ Q5: B
 - Kapasite tan ak atansyon pèsonèl yon lidè vrèman limite, sa ki vle di sipèvizyon dirèk pa ka rive jwenn chak moun nan pratik depi yon òganizasyon depase kapasite limite sa a, sa ki fè echo ak tèm sistèm ak kwasans ki pi laj kourikoulòm nan.
 - Yon lidèchip efikas nan pi gwo echèl mande pi plis pou bati sistèm, pwosesis ki dokimante, ak lidè entèmedyè ki vrèman kapab pou miltipliye kapasite lidèchip total la.
 - Yon lidè ki pa devlope kapasite sa yo ki adapte a gwo echèl riske vin yon vrè blokaj pou òganizasyon an, ki limite kwasans òganizasyon an a pwòp kapasite pèsonèl limite li.
+
+===== BLACK-L4-031
+TITLE: Analiz lidèchip ant kilti: poukisa stil lidèchip dwe adapte l nan kontèks kiltirèl ki vrèman diferan
+SUMMARY: Konprann poukisa yon stil lidèchip ki efikas nan yon kilti pa transfere otomatikman nan yon lòt, poukisa atant sou yerachi, kominikasyon dirèk, ak otorite pou deside ka diferan, poukisa yon lidè dwe aprann vrè atant yon kontèks, ak poukisa kèk prensip lidèchip debaz rete enpòtan tout kote.
+KEYWORDS: lidèchip ant kilti, adapte a kontèks kiltirèl, si yon stil lidèchip ka transfere, atant kiltirèl sou lidèchip
+# Analiz lidèchip ant kilti: poukisa stil lidèchip dwe adapte l nan kontèks kiltirèl ki vrèman diferan
+
+## Senaryo pou louvri leson an
+SIPOZISYON/OPINYON (senaryo ipotetik pou objektif ansèyman sèlman): Imajine lajan yon ekonomi mwayen k ap pèdi yon gwo pati nan valè li kont gwo lajan rezèv yo nan kèk mwa, akoz kapital k ap kouri kite peyi a e konfyans envestisè yo k ap fonn. Pandan enstabilite lajan yon ekonomi mwayen pouse biznis yo elaji responsablite lidèchip nan kontèks kiltirèl ki vrèman nouvo, kèk lidè dekouvri ke yon apwòch ki te bati yon vrè konfyans ak efikasite nan kontèks lakay yo bay konfizyon oswa menm rezistans nan anviwònman kiltirèl ki diferan anpil sa a.
+
+## Objektif aprantisaj
+- Esplike poukisa yon stil lidèchip ki efikas nan yon kontèks kiltirèl pa transfere otomatikman yon fason efikas nan yon kontèks kiltirèl ki vrèman diferan, an lyen ak diskisyon anvan nivo sa a sou lidèchip ki adapte a sitiyasyon.
+- Esplike poukisa atant kiltirèl espesifik sou yerachi, kominikasyon dirèk, ak otorite pou pran desizyon ka diferan anpil ant kontèks kiltirèl yo, sa ki mande yon vrè adaptasyon nan lidèchip.
+- Esplike poukisa yon lidè ta dwe vrèman aprann vrè atant yon kontèks kiltirèl espesifik, olye l sipoze ensten lidèchip kilti lakay li ap transfere efikasman san adaptasyon.
+- Esplike poukisa kèk prensip lidèchip debaz — yon vrè konpetans, yon vrè swen pou ekip la, ak yon konpòtman konsistan, onèt — gen chans rete vrèman enpòtan nan tout kontèks kiltirèl, menm si fason espesifik yo eksprime prensip sa yo ka bezwen adapte.
+
+## Kontni prensipal
+Ki baze sou diskisyon anvan nivo sa a sou lidèchip ki adapte a sitiyasyon, FÈ VERIFYE, yon stil lidèchip ki efikas nan yon kontèks kiltirèl espesifik pa transfere otomatikman yon fason efikas nan yon kontèks kiltirèl ki vrèman diferan, paske vrè efikasite yon apwòch lidèchip depann anpil de si apwòch sa a vrèman aliyen ak atant, nòm, ak fason kominike espesifik moun y ap dirije yo vrèman genyen, e atant espesifik sa yo ka diferan anpil ant kontèks kiltirèl ki vrèman diferan, sa ki vle di yon apwòch lidèchip ki efikas nan yon kontèks ka bay vrè konfizyon, malèz, oswa menm yon rezistans aktif nan yon kontèks kiltirèl ki vrèman diferan, malgre menm apwòch sa a te vrèman efikas nan kontèks orijinal li.
+
+Men "poukisa" atant kiltirèl espesifik sou yerachi, kominikasyon dirèk, ak otorite pou pran desizyon ka diferan anpil ant kontèks kiltirèl yo, sa ki mande yon vrè adaptasyon nan lidèchip: OPINYON ak yon konsiderasyon moun diskite lajman nan rechèch sou jesyon ant kilti, diferan kontèks kiltirèl ka vrèman diferan konsènan atant pou respè yerachi (konbyen otorite fòmèl ak diferans estati yo atann pou yo fòme kontak chak jou), jan kominikasyon dirèk (jan yo atann pou moun eksprime dezakò oswa kritik klèman, konpare ak nòm kominikasyon ki pi endirèk), ak otorite pou pran desizyon (si yo atann anjeneral pou yon lidè yo deziyen pran desizyon poukont li oswa atravè yon pwosesis ki pi vrèman konsiltatif, ki chèche konsansis), sa ki vle di yon konpòtman lidèchip espesifik moun konsidere vrèman apwopriye e efikas nan yon kontèks kiltirèl (yon fason kominike trè dirèk, enfòmèl, pa egzanp) ka viv kòm yon bagay ki vrèman pa apwopriye oswa menm ki manke respè nan yon lòt kontèks kiltirèl ki gen atant vrèman diferan sou menm dimansyon sa yo.
+
+Se poutèt sa yon lidè ta dwe vrèman aprann vrè atant yon kontèks kiltirèl espesifik, olye l sipoze ensten lidèchip kilti lakay li ap transfere efikasman san adaptasyon, sa ki fè echo ak diskisyon anvan kourikoulòm sa a sou maketing ant kilti konsènan yon vrè lokalizasyon: menm jan diskisyon anvan sa a te mete aksan sou efikasite yon mesaj maketing ki depann de yon vrè adaptasyon kiltirèl olye yon tradiksyon dirèk poukont li, yon lidè k ap travay nan yon kontèks kiltirèl ki vrèman diferan ta dwe vrèman envesti nan aprann vrè atant ak nòm kontèks espesifik sa a, idealman ak kontribisyon dirèk moun ki gen yon vrè konesans yo viv sou kontèks kiltirèl espesifik sa a, olye l sipoze ensten ak sipozisyon lidèchip kilti lakay li ap otomatikman efikas e apwopriye san kalite adaptasyon vrè, volontè sa a. Se poutèt sa kèk prensip lidèchip debaz gen chans rete vrèman enpòtan nan tout kontèks kiltirèl, menm si fason espesifik yo eksprime yo ka bezwen adapte: OPINYON ak yon pwen de vi rezonab moun pataje lajman, yon vrè konpetans, yon vrè swen pou byennèt ak devlopman reyèl ekip la, ak yon konpòtman konsistan, onèt (sa ki fè echo ak diskisyon Leson 17 nivo sa a sou bati konfyans) gen chans rete kalite lidèchip ki vrèman enpòtan nan prèske nenpòt kontèks kiltirèl, menm si fason espesifik yo vrèman eksprime e kominike kalite debaz sa yo ka bezwen yon vrè adaptasyon pou koresponn ak atant ak nòm patikilye yon kontèks kiltirèl espesifik — sa ki vle di adaptasyon lidèchip ant kilti anjeneral konsène adapte fason espesifik yo eksprime vrè prensip lidèchip debaz yo, olye abandone prensip debaz sa yo yo menm.
+
+## Egzanp pratik
+EGZANP ILISTRATIF: Yon lidè ki abitye ak yon fason kominike trè dirèk, enfòmèl nan kontèks kiltirèl lakay li pran yon wòl lidèchip nan yon kontèks kiltirèl ki vrèman diferan ki anjeneral atann yon kominikasyon ki pi fòmèl, ki pi endirèk ak plis respè pou yerachi. Olye l sipoze stil kontèks lakay li ap transfere efikasman, lidè sa a vrèman envesti nan aprann vrè atant nouvo kontèks la, li adapte fason espesifik li kominike ak apwòch li sou yerachi selon sa, pandan l toujou kenbe menm prensip debaz yo — yon vrè konpetans, yon vrè swen pou ekip la, ak yon konpòtman konsistan, onèt — ki te fè l efikas nan kontèks orijinal li — adaptasyon volontè sa a bay yon vrè konfyans ak efikasite nan nouvo kontèks la yon transfè dirèk stil orijinal la san adaptasyon pa t ap gen chans bay.
+
+## Egzamen pratik
+**Q1. Poukisa yon stil lidèchip ki efikas nan yon kontèks kiltirèl pa transfere otomatikman yon fason efikas nan yon kontèks ki vrèman diferan?**
+A) Efikasite yon apwòch lidèchip pa gen okenn vrè rapò ak si li aliyen ak atant kiltirèl espesifik moun y ap dirije yo
+B) Vrè efikasite yon apwòch lidèchip depann anpil de si li vrèman aliyen ak atant, nòm, ak fason kominike espesifik moun y ap dirije yo vrèman genyen, e sa yo ka diferan anpil ant kontèks kiltirèl ki vrèman diferan
+C) Stil lidèchip yo toujou efikas tout kote kèlkeswa okenn kontèks kiltirèl ditou
+D) Kontèks kiltirèl pa gen okenn vrè efè sou ki apwòch lidèchip espesifik ki efikas
+
+**Q2. Ki dimansyon espesifik ki ka vrèman diferan ant kontèks kiltirèl yo, sa ki mande yon adaptasyon nan lidèchip?**
+A) Kontèks kiltirèl pa gen okenn vrè rapò ak atant sou yerachi, jan kominikasyon dirèk, oswa otorite pou pran desizyon
+B) Atant pou respè yerachi, jan kominikasyon dirèk, ak otorite pou pran desizyon (poukont ou konpare ak konsiltatif) ka vrèman diferan ant kontèks kiltirèl yo, sa ki vle di yon konpòtman ki apwopriye nan yon kontèks ka viv kòm yon bagay ki pa apwopriye nan yon lòt ki vrèman diferan
+C) Se sèlman atant sou salè ak benefis ki janm vrèman diferan ant kontèks kiltirèl yo
+D) Chak kontèks kiltirèl pataje egzakteman menm atant sou yerachi ak fason kominike
+
+**Q3. Poukisa yon lidè ta dwe vrèman aprann vrè atant yon kontèks kiltirèl espesifik, sa ki fè echo ak diskisyon anvan an sou maketing ant kilti?**
+A) Ensten lidèchip kilti lakay yon lidè toujou transfere otomatikman yon fason efikas nan nenpòt kontèks kiltirèl ki vrèman diferan san okenn bezwen adaptasyon
+B) Menm jan yon maketing efikas mande yon vrè lokalizasyon olye yon tradiksyon dirèk, yon lidè k ap travay nan yon kontèks kiltirèl ki vrèman diferan ta dwe vrèman aprann vrè atant kontèks sa a, idealman ak kontribisyon moun ki gen yon vrè konesans yo viv sou li, olye l sipoze ensten kilti lakay li ap transfere otomatikman
+C) Lokalizasyon nan maketing ak adaptasyon nan lidèchip se konsèp ki pa gen okenn rapò ditou, san okenn paralèl ki gen sans
+D) Yon lidè ta dwe toujou konte sèlman sou sipozisyon kilti lakay li lè l ap travay nan yon lòt kontèks kiltirèl
+
+**Q4. Poukisa kèk prensip lidèchip debaz gen chans rete vrèman enpòtan nan tout kontèks kiltirèl, menm si fason yo eksprime yo adapte?**
+A) Okenn prensip lidèchip debaz nan okenn kalite pa rete enpòtan oswa itil nan kontèks kiltirèl ki vrèman diferan
+B) Yon vrè konpetans, yon vrè swen pou ekip la, ak yon konpòtman konsistan, onèt gen chans rete vrèman enpòtan nan prèske nenpòt kontèks kiltirèl, menm si fason espesifik yo eksprime kalite debaz sa yo ka bezwen yon vrè adaptasyon pou koresponn ak nòm pwòp yon kontèks espesifik
+C) Yo ta dwe toujou abandone prensip lidèchip debaz yo nèt lè y ap travay nan yon kontèks kiltirèl ki vrèman diferan
+D) Adaptasyon kiltirèl mande pou abandone yon vrè konpetans ak yon konpòtman onèt kòm kalite lidèchip debaz
+
+**Q5. Nan egzanp lan, poukisa apwòch lidè a te adapte a te bay yon vrè konfyans ak efikasite nan nouvo kontèks kiltirèl la?**
+A) Lidè a te kontinye itilize fason kominike orijinal li ki dirèk e enfòmèl, san l pa adapte l, san okenn vrè efò pou adaptasyon kiltirèl
+B) Lidè a te vrèman aprann vrè atant nouvo kontèks la e li te adapte fason espesifik li kominike ak apwòch li sou yerachi selon sa, pandan l te kenbe menm prensip debaz yo — yon vrè konpetans, swen, ak onètete — ki te fè l efikas nan kontèks orijinal li
+C) Lidè a te abandone nèt tout vrè prensip lidèchip debaz yo depi l te antre nan nouvo kontèks kiltirèl la
+D) Nouvo kontèks kiltirèl la te an reyalite pataje egzakteman menm atant ak kontèks lakay orijinal lidè a
+
+## Kle repons yo
+Q1: B
+Q2: B
+Q3: B
+Q4: B
+Q5: B
+
+## Repons ak eksplikasyon
+**Q1.** Fason sa a efikasite lidèchip depann de yon vrè aliyman ak vrè atant yon kontèks kiltirèl espesifik se egzakteman poukisa yon apwòch ki efikas nan yon kontèks ka pa transfere efikasman nan yon lòt ki vrèman diferan.
+
+**Q2.** Twa dimansyon espesifik sa yo — yerachi, jan kominikasyon dirèk, ak otorite pou pran desizyon — se egzakteman sa leson sa a idantifye kòm sa ki vrèman varye ant kontèks kiltirèl yo yon fason ki mande adaptasyon nan lidèchip.
+
+**Q3.** Paralèl dirèk sa a ak diskisyon anvan an sou lokalizasyon konpare ak tradiksyon se egzakteman poukisa yon aprantisaj vrè, volontè sou yon kontèks kiltirèl espesifik enpòtan pou yon adaptasyon lidèchip ant kilti ki efikas.
+
+**Q4.** Diferans sa a ant adapte fason yo eksprime prensip yo pandan yo kenbe vrè prensip debaz yo se egzakteman poukisa leson sa a idantifye kèk kalite lidèchip debaz kòm sa ki gen chans rete enpòtan nan tout kontèks kiltirèl.
+
+**Q5.** Ilistrasyon dirèk sa a sou adapte fason yo eksprime prensip yo pandan yo kenbe vrè prensip lidèchip debaz yo montre egzakteman adaptasyon lidèchip ant kilti leson sa a rekòmande.
+
+## Pwen kle yo
+- Yon stil lidèchip ki efikas nan yon kontèks kiltirèl pa transfere otomatikman yon fason efikas nan yon kontèks kiltirèl ki vrèman diferan.
+- Atant sou yerachi, jan kominikasyon dirèk, ak otorite pou pran desizyon ka vrèman diferan ant kontèks kiltirèl yo, sa ki mande yon adaptasyon nan lidèchip.
+- Yon lidè ta dwe vrèman aprann vrè atant yon kontèks kiltirèl espesifik, sa ki fè echo ak prensip ki pi laj la ke yon angajman efikas ant kilti mande yon vrè lokalizasyon, pa yon transfè dirèk.
+- Kèk prensip lidèchip debaz — yon vrè konpetans, swen, ak yon onètete konsistan — gen chans rete enpòtan nan tout kontèks kiltirèl, menm si fason espesifik yo eksprime yo mande adaptasyon.
+
+===== BLACK-L4-032
+TITLE: Analiz planifikasyon estratejik: poukisa estrateji mande vrè chwa difisil, pa sèlman aspirasyon
+SUMMARY: Konprann poukisa yon vrè estrateji mande chwa klè, difisil sou sa òganizasyon an pa pral chèche, poukisa yon plan ki gen sèlman aspirasyon pa fonksyone kòm estrateji, poukisa chwa sa yo difisil pou di klèman, ak poukisa jan òganizasyon an vrèman distribiye resous li montre vrè estrateji li.
+KEYWORDS: planifikasyon estratejik, vrè chwa difisil, aspirasyon konpare ak estrateji, priyorite klè
+# Analiz planifikasyon estratejik: poukisa estrateji mande vrè chwa difisil, pa sèlman aspirasyon
+
+## Senaryo pou louvri leson an
+SIPOZISYON/OPINYON (senaryo ipotetik pou objektif ansèyman sèlman): Imajine yon gwo pwoblèm sante piblik ki kanpe transpò maritim ak fabrikasyon nan lemonn antye pandan yon bon bout tan, sa ki bloke chèn ekipman nan anpil endistri an menm tan. Pandan yon gwo pwoblèm konsa fòse òganizasyon yo vrèman mete priyorite pami anpil repons posib ak resous ki limite, sa ki gen plan estratejik ki gen ladan yo sèlman gwo objektif aspirasyon dekouvri plan sa yo pa bay okenn vrè gid pou vrè chwa difisil pwoblèm nan mande yo fè kounye a.
+
+## Objektif aprantisaj
+- Esplike poukisa yon vrè estrateji mande fè chwa klè, difisil sou sa yon òganizasyon pral chwazi espre pou l pa chèche.
+- Esplike poukisa yon plan estratejik ki gen ladan l sèlman objektif aspirasyon, san vrè chwa difisil sa yo, pa vrèman fonksyone kòm yon vrè estrateji, an lyen ak diskisyon Leson 13 nivo sa a sou presizyon vizyon.
+- Esplike poukisa vrè chwa difisil yo difisil pou eksprime espesyalman paske yo mande pou rekonèt klèman ke yon objektif ki vrèman dezirab p ap chèche nèt, omwen pa touswit.
+- Esplike poukisa vrè desizyon yon òganizasyon sou distribisyon resous, pa sèlman priyorite estratejik li deklare, bay prèv ki pi fyab sou kisa vrè estrateji li ye.
+
+## Kontni prensipal
+FÈ VERIFYE: OPINYON ak yon prensip moun site lajman nan jesyon estratejik, yon vrè estrateji mande fè chwa klè, difisil sou sa yon òganizasyon pral chwazi espre pou l pa chèche, omwen pa kòm yon vrè priyorite, paske yon estrateji k ap eseye chèche chak objektif dezirab an menm tan san okenn vrè priyorite pami yo pa vrèman yon estrateji ditou, men pito yon lis aspirasyon ki manke vrè priyorite ak desizyon sou chwa difisil ki fè diferans ant yon vrè estrateji ak yon senp lis swè sou rezilta dezirab.
+
+Men "poukisa" yon plan estratejik ki gen ladan l sèlman objektif aspirasyon pa vrèman fonksyone kòm yon vrè estrateji, an lyen ak diskisyon Leson 13 nivo sa a sou presizyon vizyon: sa ki fè echo ak diskisyon Leson 13 sou poukisa yon vizyon dwe ase presi pou l gide vrè desizyon, yon plan estratejik ki deklare sèlman gwo objektif aspirasyon ("n ap vin lidè endistri a nan kalite, kou, ak vitès") san l pa vrèman presize ki nan objektif sa yo ki pral vrèman gen priyorite lè yo antre an tansyon youn ak lòt, sa ki pa ka evite, pa bay okenn vrè gid pou vrè desizyon konkrè sou chwa difisil yon òganizasyon pral fè fas, sa ki pa ka evite, sa ki vle di kalite plan ki gen sèlman aspirasyon sa a echwe menm tès pratik pou gide desizyon Leson 13 te aplike pou vizyon òganizasyonèl, li bay yon langaj ki enspire san vrè presizyon yon vrè estrateji vrèman mande.
+
+Se poutèt sa vrè chwa difisil yo difisil pou eksprime espesyalman paske yo mande pou rekonèt klèman ke yon objektif ki vrèman dezirab p ap chèche nèt, omwen pa touswit: OPINYON ak yon obsèvasyon onèt sou poukisa moun souvan evite vrè chwa estratejik difisil, di klèman ke yon òganizasyon pral bay yon objektif ki vrèman dezirab priyorite pase yon lòt objektif ki vrèman dezirab mande pou rekonèt ouvètman ke objektif yo mete an dezyèm plan an, kèlkeswa jan li vrèman dezirab nan teyori, p ap vrèman resevwa tout priyorite òganizasyon an, yon rekonesans espesifik ki ka santi l pa konfòtab oswa menm riske pou di klèman, paske fè sa ouvri estrateji a a yon vrè kritik espesifik nan men nenpòt moun ki ta pito objektif yo mete an dezyèm plan an te resevwa plis aksan — malèz sa a se egzakteman poukisa anpil òganizasyon pa defo ale nan yon langaj estratejik vag ki gen sèlman aspirasyon ki evite kalite eksplikasyon klè sa a sou chwa difisil ki ka pa konfòtab, menm si menm evite sa a se egzakteman sa ki anpeche plan ki soti ladan l lan vrèman fonksyone kòm yon vrè estrateji itil. Se poutèt sa vrè desizyon yon òganizasyon sou distribisyon resous bay prèv ki pi fyab sou kisa vrè estrateji li ye, sa ki fè echo ak diskisyon Leson 8 nivo sa a sou vrè konpòtman pi plis pase deklarasyon ofisyèl: egzakteman paske yon plan estratejik yo deklare ka rete vag san pwoblèm sou vrè chwa difisil, vrè modèl distribisyon resous yon òganizasyon — kote bidjè li, talan li, ak atansyon lidèchip li vrèman ale nan pratik — revele vrè priyorite estratejik reyèl li yon fason ki pi fyab anpil pase langaj estratejik li deklare ofisyèlman, sa ki fè echo ak menm prensip ki pi laj diskisyon anvan nivo sa a sou kilti òganizasyonèl te aplike pou valè yo deklare konpare ak vrè konpòtman, kounye a aplike espesyalman nan relasyon ant estrateji yo deklare ak vrè distribisyon resous.
+
+## Egzanp pratik
+EGZANP ILISTRATIF: Plan estratejik yon òganizasyon okòmansman deklare sèlman gwo objektif aspirasyon — vin lidè endistri a nan kalite, kou, ak vitès an menm tan — sa ki pa bay okenn vrè gid lè yon gwo pwoblèm fòse òganizasyon an fè yon vrè chwa difisil ant kenbe estanda kalite ak diminye kou anba vrè limit resous. Apre li revize estrateji li pou l di klèman ke kalite pral gen priyorite pase diminye kou lè de bagay sa yo vrèman antre an konfli, menm pandan l rekonèt sa vle di òganizasyon an p ap toujou opsyon ki pi bon mache nèt la, lidèchip òganizasyon an gen kounye a yon vrè gid presi pou rezoud vrè chwa difisil sa a, e vrè desizyon distribisyon resous li pran apre sa reflete priyorite li deklare klèman an yon fason konsistan, sa ki montre egzakteman poukisa yon vrè estrateji mande chwa difisil klè olye aspirasyon poukont li.
+
+## Egzamen pratik
+**Q1. Poukisa yon vrè estrateji mande fè chwa klè, difisil sou sa yon òganizasyon p ap chèche?**
+A) Yon vrè estrateji ta dwe toujou eseye chèche chak objektif dezirab an menm tan san okenn vrè priyorite pami yo
+B) Yon estrateji k ap eseye chèche chak objektif dezirab an menm tan san vrè priyorite pa vrèman yon estrateji ditou, men pito yon lis aspirasyon ki manke vrè priyorite ak desizyon sou chwa difisil ki fè diferans ant yon vrè estrateji ak yon senp lis swè
+C) Chwa difisil yo toujou pa nesesè depi yon òganizasyon gen ase resous
+D) Vrè valè yon estrateji pa gen okenn vrè rapò ak si li gen ladan l okenn priyorite klè
+
+**Q2. Poukisa yon plan estratejik ki gen ladan l sèlman objektif aspirasyon pa fonksyone kòm yon vrè estrateji, an lyen ak Leson 13?**
+A) Yon plan ki gen sèlman aspirasyon toujou bay yon vrè gid presi pou rezoud vrè desizyon sou chwa difisil yon òganizasyon pral fè fas
+B) Sa ki fè echo ak diskisyon anvan an sou presizyon vizyon, yon plan ki deklare sèlman gwo objektif aspirasyon san l pa presize ki objektif ki gen priyorite lè yo antre an konfli pa bay okenn vrè gid pou vrè desizyon sou chwa difisil, li echwe menm tès pratik pou gide desizyon yo te aplike pou vizyon òganizasyonèl
+C) Plan ki gen sèlman aspirasyon toujou pi itil pase plan ki gen ladan yo chwa difisil presi, klè
+D) Presizyon vizyon pa gen okenn vrè rapò ak si yon plan estratejik ka gide vrè desizyon
+
+**Q3. Poukisa vrè chwa difisil yo difisil pou eksprime klèman?**
+A) Eksprime vrè chwa difisil klèman toujou konfòtab e san risk, san okenn rezon òganizasyon yo ta evite fè sa
+B) Di yon priyorite klèman mande pou rekonèt ouvètman ke yon objektif yo mete an dezyèm plan, men ki toujou vrèman dezirab, p ap resevwa tout priyorite, yon rekonesans espesifik ki ka santi l pa konfòtab oswa riske paske li ouvri estrateji a a yon kritik espesifik nan men nenpòt moun ki ta pito objektif sa a
+C) Chwa difisil yo difisil pou eksprime sèlman paske òganizasyon yo pa gen vokabilè teknik pou dekri yo
+D) Vrè chwa difisil yo an reyalite pi fasil pou di klèman pase objektif aspirasyon vag
+
+**Q4. Poukisa vrè distribisyon resous yon òganizasyon bay prèv ki pi fyab sou vrè estrateji li pase langaj estratejik li deklare, sa ki fè echo ak Leson 8?**
+A) Langaj estratejik yon òganizasyon deklare toujou bay egzakteman menm prèv, ki menm jan fyab, sou vrè priyorite li ak vrè desizyon li sou distribisyon resous
+B) Kòm plan estratejik yo deklare ka rete vag san pwoblèm sou vrè chwa difisil, vrè modèl distribisyon resous yon òganizasyon revele vrè priyorite estratejik reyèl li yon fason ki pi fyab anpil pase langaj estratejik ofisyèl, sa ki fè echo ak diskisyon anvan an sou vrè konpòtman pi plis pase valè yo deklare
+C) Desizyon sou distribisyon resous toujou pa gen okenn lyen ak vrè priyorite estratejik debaz yon òganizasyon
+D) Langaj estratejik yo deklare toujou yon endikatè ki pi fyab sou vrè priyorite pase vrè distribisyon resous
+
+**Q5. Nan egzanp lan, poukisa plan estratejik yo te revize a te bay yon gid ki pi itil pase premye a?**
+A) Premye plan ki te gen sèlman aspirasyon an te an reyalite deja bay ase gid pou rezoud chwa difisil espesifik ant kalite ak kou yo dekri a
+B) Plan yo te revize a te di klèman ke kalite ta gen priyorite pase diminye kou lè de bagay sa yo vrèman antre an konfli, sa ki te bay yon vrè gid presi pou vrè chwa difisil òganizasyon an te fè fas, kontrèman ak objektif aspirasyon vag premye plan an ki te vle tout an menm tan
+C) Premye plan an ak plan yo te revize a te an reyalite bay egzakteman menm gid pou chwa difisil espesifik yo dekri a
+D) Plan yo te revize a te retire nèt tout mansyon priyorite sou kalite ak kou
+
+## Kle repons yo
+Q1: B
+Q2: B
+Q3: B
+Q4: B
+Q5: B
+
+## Repons ak eksplikasyon
+**Q1.** Diferans sa a ant vrè chwa difisil ki gen priyorite ak yon senp lis swè sou rezilta dezirab se egzakteman poukisa chwa difisil klè yo esansyèl pou sa ki vrèman fè yon vrè estrateji.
+
+**Q2.** Lyen dirèk sa a ak tès pratik anvan an sou presizyon vizyon se egzakteman poukisa yon plan estratejik ki gen sèlman aspirasyon pa fonksyone kòm yon vrè estrateji itil.
+
+**Q3.** Malèz sa a pou rekonèt ouvètman yon objektif yo mete an dezyèm plan, ak risk kritik espesifik ki soti ladan l, se egzakteman poukisa vrè chwa difisil yo difisil pou eksprime klèman, menm si fè sa esansyèl pou yon vrè estrateji.
+
+**Q4.** Lyen dirèk sa a ak diskisyon anvan an sou vrè konpòtman ki revele vrè priyorite yon fason ki pi fyab pase deklarasyon ofisyèl se egzakteman poukisa distribisyon resous, pa langaj yo deklare, revele vrè estrateji yon òganizasyon.
+
+**Q5.** Ilistrasyon dirèk sa a sou yon chwa difisil yo eksprime klèman ki ranplase yon aspirasyon vag montre egzakteman poukisa leson sa a mete aksan sou vrè chwa difisil kòm bagay esansyèl pou yon plan estratejik ki vrèman itil.
+
+## Pwen kle yo
+- Yon vrè estrateji mande chwa klè, difisil sou sa yon òganizasyon pral chwazi espre pou l pa bay priyorite.
+- Yon plan estratejik ki gen ladan l sèlman objektif aspirasyon echwe menm tès pratik pou gide desizyon diskisyon anvan an sou presizyon vizyon te aplike pou vizyon òganizasyonèl.
+- Vrè chwa difisil yo difisil pou eksprime klèman, paske fè sa mande yon rekonesans ki pa konfòtab, ki ka resevwa kritik, sou yon objektif yo mete an dezyèm plan men ki toujou dezirab.
+- Vrè desizyon yon òganizasyon sou distribisyon resous revele vrè priyorite estratejik li yon fason ki pi fyab pase langaj estratejik li deklare, sa ki fè echo ak prensip ki pi laj la ke vrè konpòtman pi enpòtan pase valè yo deklare.
