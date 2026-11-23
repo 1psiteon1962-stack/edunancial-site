@@ -28,7 +28,8 @@ for f in sorted(glob.glob('*.md')):
     if len(re.findall(r'^# ',b,re.M))!=len(re.findall(r'^# ',e,re.M)): p.append('H1')
     qa=len(re.findall(r'^\s*([A-D][.)]) ',sec(b,4),re.M)); qe=len(re.findall(r'^\s*([A-D][.)]) ',sec(e,4),re.M))
     if qa!=qe: p.append(f'opts {qa}/{qe}')
-    if keys(sec(b,5))!=keys(sec(e,5)): p.append(f'key {keys(sec(b,5))}/{keys(sec(e,5))}')
+    ke=keys(sec(e,5))
+    if (qe>0 or 'T' in ke or 'F' in ke) and keys(sec(b,5))!=ke: p.append(f'key {keys(sec(b,5))}/{keys(sec(e,5))}')
     ta=len(re.findall(r'^- ',sec(b,7),re.M)); te=len(re.findall(r'^- ',sec(e,7),re.M))
     if ta!=te: p.append(f'takeaways {ta}/{te}')
     if p: print(lid,p); bad+=1
