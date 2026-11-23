@@ -97,3 +97,153 @@ Diferans sa a ka mache nan tou de direksyon: yon pwopriyete nan yon mache k ap p
 ---
 
 *Leson sa a se sèlman pou edikasyon finansye jeneral, e li pa konstitye konsèy finansye, envestisman, taks, oswa legal pèsonalize. Règ evalyasyon taks sou pwopriyete yo varye anpil selon jiridiksyon; konsilte yon pwofesyonèl ki gen lisans pou konsèy ki espesifik pou sitiyasyon ou.*
+
+===== GREEN-L3-028
+TITLE: Poukisa taks sou eritaj ak taks sou don mare ansanm, yo pa sistèm separe
+SUMMARY: Aprann poukisa yo souvan mete taks sou eritaj ak taks sou don ansanm anba yon sèl sistèm, ak poukisa don ou fè pandan lavi w ka afekte dirèkteman sa ki rive lè w mouri.
+# GREEN-L3-028: Poukisa taks sou eritaj ak taks sou don mare ansanm, yo pa sistèm separe
+
+## Objektif aprantisaj
+Lè w fin fè leson sa a, w ap kapab:
+- Esplike poukisa yo souvan trete taks sou eritaj ak taks sou don kòm yon sistèm inifye
+- Esplike poukisa don pandan lavi ka diminye egzanpsyon ki disponib lè w mouri
+- Esplike rezònman politik jeneral ki dèyè apwòch inifye sa a
+
+## Kontni prensipal
+
+**Taks sou eritaj** (estate tax) anjeneral aplike sou transfè byen apre yon moun mouri; **taks sou don** (gift tax) anjeneral aplike sou transfè yon moun fè pandan lavi li. Nan anpil jiridiksyon ki gen tou de kalite taks yo, enkli Etazini, yo pa trete yo kòm sistèm nèt separe e endepandan — yo souvan inifye yo anba yon kad pataje, ki souvan itilize yon sèl kantite egzanpsyon konbine ki aplike ni pou don pandan lavi ni pou transfè lè w mouri.
+
+Men "poukisa" inifikasyon sa a egziste: [FÈ VERIFYE] san konekte de sistèm yo, yon moun ta ka petèt evite taks sou eritaj nèt senpleman lè l bay tout byen li kòm don pandan lavi li anvan l mouri, paske taks sou don ak taks sou eritaj, si yo te trete yo kòm sistèm nèt separe ak egzanpsyon totalman endepandan, ta ka kreye yon twou ki evidan. Lè yo itilize yon sèl kantite egzanpsyon pataje ni don pandan lavi ni transfè lè w mouri tire ladan l, de sistèm yo ansanm anpeche kalite evitasyon dirèk sa a — gwo don pandan lavi diminye kantite egzanpsyon ki toujou disponib pou transfè lè w mouri.
+
+Se poutèt sa yon planifikasyon eritaj konplè, jan yo manyen l lòt kote nan tras RED kourikoulòm sa a konsènan eritaj imobilye ak levye, anjeneral bezwen konsidere don pandan lavi ak transfè eritaj final la ansanm, kòm pati ki konekte nan yon sèl tablo taks jeneral, olye kòm desizyon nèt endepandan.
+
+## Egzanp pratik
+
+[EGZANP ILISTRATIF] Yon moun fè gwo don pandan lavi li, li itilize yon pòsyon enpòtan nan egzanpsyon konbine pou tout lavi li nan pwosesis la. [SIPOZISYON] Lè moun sa a mouri pita, kantite egzanpsyon ki disponib pou pwoteje eritaj li kont taks sou eritaj diminye pa kantite egzanpsyon li te deja itilize pou don pandan lavi sa yo — sa ki montre poukisa de sistèm yo fonksyone kòm yon sèl tout ki konekte olye yo ofri kantite san taks nèt separe e endepandan pou don pandan lavi ak transfè lè w mouri.
+
+## Egzamen pratik
+
+1. Ki diferans jeneral ant taks sou eritaj ak taks sou don?
+2. Poukisa yo souvan inifye de sistèm sa yo ak yon egzanpsyon pataje, olye yo trete yo kòm nèt separe?
+3. Kisa ki rive egzanpsyon ki disponib lè w mouri si yon moun te fè gwo don pandan lavi li?
+
+## Kle repons yo
+
+1. Taks sou eritaj anjeneral aplike sou transfè byen apre lanmò; taks sou don anjeneral aplike sou transfè yon moun fè pandan lavi li.
+2. Paske trete yo kòm sistèm nèt separe ta ka pèmèt evite taks sou eritaj nèt atravè don pandan lavi, kidonk yon egzanpsyon pataje anpeche evitasyon dirèk sa a.
+3. Egzanpsyon sa a diminye pa kantite egzanpsyon pataje yo te deja itilize pou don pandan lavi anvan yo.
+
+## Repons ak eksplikasyon
+
+1. Sa a se diferans debaz leson an.
+2. Sa a se "poukisa" santral ki esplike objektif sistèm inifye a.
+3. Sa ranfòse konsekans pratik, ki konekte, inifikasyon an.
+
+## Pwen kle yo
+- Taks sou eritaj aplike sou transfè lè w mouri; taks sou don aplike sou transfè pandan lavi, men anpil jiridiksyon inifye tou de anba yon egzanpsyon pataje.
+- Sa anpeche evite taks sou eritaj atravè don san limit pandan lavi.
+- Gwo don pandan lavi diminye kantite egzanpsyon ki toujou disponib pou transfè lè w mouri, sa ki konekte de sistèm yo nan yon sèl tablo taks jeneral.
+
+---
+
+*Leson sa a se sèlman pou edikasyon finansye jeneral, e li pa konstitye konsèy finansye, envestisman, taks, oswa legal pèsonalize. Règ taks sou eritaj ak sou don yo varye anpil selon jiridiksyon e yo chanje ak tan; konsilte pwofesyonèl legal ak taks ki gen lisans pou konsèy sou planifikasyon eritaj.*
+
+===== GREEN-L3-029
+TITLE: Poukisa ogmantasyon baz (step-up) chanje planifikasyon eritaj
+SUMMARY: Aprann poukisa baz pri yon byen yo eritye souvan rekòmanse nan valè li nan moman lanmò a, ak poukisa sa ka elimine yon gwo kantite pwofi kapital ki pa t reyalize anvan.
+# GREEN-L3-029: Poukisa ogmantasyon baz (step-up) chanje planifikasyon eritaj
+
+## Objektif aprantisaj
+Lè w fin fè leson sa a, w ap kapab:
+- Esplike kisa yon ogmantasyon baz (step-up in basis) anjeneral vle di
+- Esplike poukisa sa ka elimine pwofi kapital ki pa t reyalize anvan pou yon eritye
+- Konekte konsèp sa a ak diskisyon Leson 22 la sou obligasyon taks ranvwaye
+
+## Kontni prensipal
+
+Leson 22 te esplike ke yon echanj 1031 ranvwaye, olye l elimine, obligasyon sou pwofi kapital ak rekiperasyon amòtisman, li pote l pou pi devan tache ak baz pri pwopriyete ranplasman an. Règ **ogmantasyon baz** (step-up in basis) la trete sa ki ka finalman rive obligasyon sa a yo pote pou pi devan lè pwopriyetè a mouri.
+
+Men "poukisa" règ sa a ka chanje rezilta a anpil: [FÈ VERIFYE] nan anpil jiridiksyon, enkli Etazini dapre règ aktyèl yo (ki chanje ak tan e ki ka chanje ankò), baz pri yon byen yo eritye anjeneral "monte" nan valè jis sou mache a nan dat lanmò premye pwopriyetè a, olye li pote baz pri istorik premye pwopriyetè a — sa ki vle di anpil oswa tout pwofi kapital ki te akimile (e, nan kèk ka, yo te ranvwaye plizyè fwa atravè echanj 1031 anvan) pandan lavi premye pwopriyetè a ka an reyalite elimine pou eritye a, olye yo eritye l ansanm ak byen an.
+
+Sa konekte dirèkteman ak konsèp obligasyon taks ranvwaye Leson 22 la: alòske tout yon lavi ranvwa atravè echanj 1031 youn apre lòt bati yon obligasyon ranvwaye ki vin pi gwo, yon ogmantasyon baz nan moman lanmò ka youn nan fason obligasyon sa a finalman regle — pa lè yo finalman peye taks ranvwaye a, men lè eritye a resevwa yon baz nèf, rekòmanse, ki efase pwofi ki te akimile anvan an pou rezon taks pou pi devan.
+
+## Egzanp pratik
+
+[EGZANP ILISTRATIF] Yon envestisè fè plizyè echanj 1031 pandan lavi li, li akimile yon gwo obligasyon ranvwaye sou pwofi kapital ak rekiperasyon amòtisman tache ak baz pri ba pwopriyete aktyèl li, jan Leson 22 la dekri. Olye li janm vann nan yon tranzaksyon ki taksab nèt, li kenbe pwopriyete a jiska lanmò li. [SIPOZISYON] Si yon règ ogmantasyon baz aplike dapre lwa espesifik ki an vigè nan moman sa a, eritye li eritye pwopriyete a ak baz li rekòmanse nan valè jis sou mache a nan moman lanmò li — sa ki vle di eritye a ta ka petèt vann pwopriyete a yon ti tan apre l eritye l ak ti kras oswa okenn taks sou pwofi kapital pou peye, malgre gwo pwofi ranvwaye ki te akimile pandan lavi premye pwopriyetè a.
+
+## Egzamen pratik
+
+1. Kisa yon ogmantasyon baz anjeneral vle di?
+2. Poukisa règ sa a ka an reyalite elimine pwofi kapital ki te akimile anvan pou yon eritye?
+3. Kijan sa konekte ak konsèp obligasyon taks ranvwaye Leson 22 la?
+
+## Kle repons yo
+
+1. Baz pri yon byen yo eritye anjeneral rekòmanse nan valè jis sou mache a nan dat lanmò premye pwopriyetè a, olye li pote baz pri istorik premye pwopriyetè a.
+2. Paske baz ki rekòmanse a vle di anpil oswa tout pwofi ki te akimile pandan lavi premye pwopriyetè a pa parèt ankò nan baz byen an pou rezon taks alavni eritye a.
+3. Li reprezante yon fason tout yon lavi obligasyon taks ranvwaye, ki bati atravè mekanis tankou echanj 1031 youn apre lòt, ka finalman regle — pa atravè yon peman final, men atravè rekòmansman baz nan moman lanmò, dapre règ aktyèl nan jiridiksyon ki konsène yo.
+
+## Repons ak eksplikasyon
+
+1. Sa a se definisyon debaz leson an.
+2. Sa a se "poukisa" santral ki esplike gwo efè pratik règ la.
+3. Sa konekte leson an klèman ak Leson 22, sa ki fèmen sik tèm obligasyon ranvwaye a.
+
+## Pwen kle yo
+- Yon ogmantasyon baz rekòmanse baz pri yon byen yo eritye nan valè jis sou mache a nan moman lanmò premye pwopriyetè a, nan jiridiksyon kote règ sa a aplike.
+- Sa ka an reyalite elimine pwofi kapital ki te akimile anvan pou rezon taks pou pi devan, pou eritye a.
+- Sa a se yon fason tout yon lavi obligasyon taks ranvwaye, tankou sa ki soti nan echanj 1031 youn apre lòt, ka finalman regle olye yo finalman peye l.
+
+---
+
+*Leson sa a se sèlman pou edikasyon finansye jeneral, e li pa konstitye konsèy finansye, envestisman, taks, oswa legal pèsonalize. Règ ogmantasyon baz yo varye selon jiridiksyon, yo chanje ak tan, e yo ka chanje ankò; konsilte pwofesyonèl legal ak taks ki gen lisans pou konsèy sou planifikasyon eritaj.*
+
+===== GREEN-L3-030
+TITLE: Poukisa dediksyon pou don charitab mande bon jan dokimantasyon
+SUMMARY: Aprann poukisa reklame yon dediksyon pou don charitab mande yon dokimantasyon espesifik, ak poukisa gwosè don an detèmine ki kalite prèv yo mande.
+# GREEN-L3-030: Poukisa dediksyon pou don charitab mande bon jan dokimantasyon
+
+## Objektif aprantisaj
+Lè w fin fè leson sa a, w ap kapab:
+- Esplike poukisa dediksyon pou don charitab mande dokimantasyon espesifik pou sipòte yo
+- Esplike poukisa egzijans dokimantasyon yo anjeneral ogmante ak gwosè don an
+- Konekte konsèp sa a ak diskisyon sou detaye dediksyon nan Leson 9
+
+## Kontni prensipal
+
+Don charitab bay òganizasyon ki kalifye anjeneral ka reklame kòm yon dediksyon detaye (Leson 9), sa ki diminye revni taksab la. Men "poukisa" kalite dediksyon espesifik sa a vini ak egzijans dokimantasyon ki ogmante selon gwosè don an: otorite taks yo bezwen yon fason pou verifye ke dediksyon charitab yo reklame yo reflete vrè don, yo vrèman fè, bay òganizasyon ki vrèman kalifye — san bon jan dokimantasyon, kategori dediksyon sa a ta vilnerab sitou a reklamasyon ki gonfle oswa ki fabrike nèt.
+
+[FÈ VERIFYE] Egzijans dokimantasyon yo anjeneral vin pi sevè pandan kantite don yo ogmante — pi piti don an lajan kach ta ka mande sèlman yon dosye labank oswa yon resi, alòske pi gwo don, e sitou don byen ki pa lajan kach, souvan mande yon rekonesans ekri ki pi detaye nan menm moman an soti nan òganizasyon ki resevwa a, e nan kèk ka, evalyasyon fòmèl pou gwo don byen ki pa lajan kach — lalwa sou taks fikse nivo ak egzijans egzak yo, e yo ta dwe verifye yo dirèkteman pou yon sitiyasyon espesifik.
+
+Se poutèt sa kenbe dosye òganize sou don charitab pandan tout ane a — resi, relve labank, ak rekonesans ekri soti nan òganizasyon yo — enpòtan anpil pou nenpòt moun ki planifye detaye dediksyon e reklame dediksyon charitab, olye yo eseye rekonstwi dokimantasyon sa a apre, nan moman y ap depoze deklarasyon an.
+
+## Egzanp pratik
+
+[EGZANP ILISTRATIF] Yon kontribyab fè plizyè don charitab pandan ane a: kèk ti don an lajan kach bay yon charite lokal, ak yon pi gwo don byen ki pa lajan kach bay yon lòt òganizasyon. [SIPOZISYON] Pou ti don an lajan kach yo, dosye labank oswa resi senp gen chans ase kòm dokimantasyon. Pou pi gwo don ki pa lajan kach la, li ta gen chans bezwen yon rekonesans ekri ki pi detaye soti nan òganizasyon ki resevwa a, e petèt yon evalyasyon fòmèl, akoz gwosè don an ak paske se pa lajan kach — sa ki montre poukisa egzijans dokimantasyon yo ogmante selon kalite ak gwosè don an, ak poukisa kenbe dosye òganize pandan tout ane a, olye kouri dèyè yo nan moman depo a, se apwòch ki pi serye a.
+
+## Egzamen pratik
+
+1. Poukisa dediksyon pou don charitab mande dokimantasyon espesifik pou sipòte yo?
+2. Poukisa egzijans dokimantasyon yo anjeneral vin pi sevè pandan gwosè don an ogmante?
+3. Poukisa leson sa a rekòmande kenbe dosye òganize pandan tout ane a, olye rekonstwi yo pita?
+
+## Kle repons yo
+
+1. Pou verifye ke dediksyon yo reklame yo reflete vrè don yo vrèman fè bay òganizasyon ki vrèman kalifye, sa ki pwoteje kont reklamasyon ki gonfle oswa ki fabrike.
+2. Paske pi gwo reklamasyon reprezante yon pi gwo enpak taks posib ak plis risk, kidonk yon dokimantasyon pi sevè (rekonesans detaye, evalyasyon pou gwo don ki pa lajan kach) ede verifye lejitimite yo.
+3. Paske rekonstwi dokimantasyon apre, nan moman depo a, mwens serye e pi difisil pase kenbe dosye òganize pandan w ap vrèman fè don yo pandan tout ane a.
+
+## Repons ak eksplikasyon
+
+1. Sa a se "poukisa" santral ki esplike objektif egzijans dokimantasyon an.
+2. Sa esplike lojik ogmantasyon ki dèyè egzijans ki pi sevè pou pi gwo don.
+3. Sa ranfòse abitid pratik, proaktif pou kenbe dosye leson an rekòmande.
+
+## Pwen kle yo
+- Dediksyon pou don charitab mande dokimantasyon pou verifye ke yo vrèman fè don yo reklame yo bay òganizasyon ki kalifye.
+- Egzijans dokimantasyon yo anjeneral vin pi sevè pandan gwosè ak konpleksite don an (sitou pou don ki pa lajan kach) ogmante.
+- Kenbe dosye òganize sou don charitab pandan tout ane a pi serye pase rekonstwi dokimantasyon nan moman depo a.
+
+---
+
+*Leson sa a se sèlman pou edikasyon finansye jeneral, e li pa konstitye konsèy finansye, envestisman, taks, oswa legal pèsonalize. Egzijans dokimantasyon yo varye selon jiridiksyon e yo chanje ak tan; konsilte yon pwofesyonèl taks ki gen lisans pou konsèy ki espesifik pou sitiyasyon ou.*
