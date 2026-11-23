@@ -151,3 +151,151 @@ Q5: B
 - Yon vrè rate oswa yon vrè ijans ka akselere yon fason etik yon desizyon ki deja nan vrè enterè yon prospè lè l bay enfòmasyon egzak, ki gen rapò.
 - Envante yon fo rate oswa yon fo ijans manipile prospè yo atravè fo enfòmasyon, sa ki reprezante yon liy etik enpòtan ki diferan de kominike vrè limit ki egzat.
 - Rate oswa ijans envante yo dekouvri gen yon risk repitasyon ki dire, li domaje konfyans menm nan pwochen deklarasyon yon biznis ki vrèman egzat.
+
+===== ORANGE-L4-018
+TITLE: Analiz pwogram rekòmandasyon: poukisa bouch an bouch ki gen ankourajman miltipliye yon lòt jan pase akizisyon peye
+SUMMARY: Konprann kijan yon pwogram rekòmandasyon itilize rezo ak kredibilite kliyan ki egziste deja, poukisa ankourajman an ta dwe benefisye de bò yo, poukisa kliyan yo rekòmande souvan pi bon kalite, ak poukisa pwogram sa yo ka bay yon kwasans ki miltipliye.
+KEYWORDS: pwogram rekòmandasyon, maketing bouch an bouch, ankourajman de bò, kalite kliyan yo rekòmande
+# Analiz pwogram rekòmandasyon: poukisa bouch an bouch ki gen ankourajman miltipliye yon lòt jan pase akizisyon peye
+
+## Senaryo pou louvri leson an
+SIPOZISYON/OPINYON (senaryo ipotetik pou objektif ansèyman sèlman): Imajine yon gwo pwoblèm sante piblik ki kanpe transpò maritim ak fabrikasyon nan lemonn antye pandan yon bon bout tan, sa ki bloke chèn ekipman nan anpil endistri an menm tan. Pandan yon gwo pwoblèm konsa fè chanèl piblisite peye yo vin pi chè e mwens fyab, biznis yo vire plis an plis vè pwogram rekòmandasyon ki ankouraje espesyalman kliyan ki egziste deja pote nouvo kliyan, yo dekouvri apwòch sa a ka miltipliye yon fason chanèl akizisyon peye yo anjeneral pa fè.
+
+## Objektif aprantisaj
+- Esplike kijan yon pwogram rekòmandasyon itilize pwòp rezo ak kredibilite kliyan ki egziste deja pou jwenn nouvo kliyan.
+- Esplike poukisa yon ankourajman rekòmandasyon ki byen òganize ta dwe anjeneral benefisye ni kliyan k ap rekòmande a ni nouvo kliyan yo rekòmande a, pa sèlman moun k ap rekòmande a.
+- Esplike poukisa kliyan yo rekòmande souvan montre yon pi bon kalite (pi bon retansyon ak valè pandan tout relasyon an) pase kliyan yo jwenn atravè chanèl peye san kontak, ki konekte ak diskisyon prèv sosyal Leson 16 nivo sa a.
+- Esplike poukisa pwogram rekòmandasyon ka bay yon kwasans ki miltipliye yon fason chanèl akizisyon peye yo, ki anjeneral mande depans kontinyèl ki pa diminye pou kenbe yo, anjeneral pa fè.
+
+## Kontni prensipal
+Yon pwogram rekòmandasyon bay kliyan ki egziste deja yon ankourajman espesifik (yon rabè, yon kredi, yon rekonpans an lajan, oswa yon lòt benefis konkrè) lè yo reyisi rekòmande nouvo kliyan bay biznis la. FÈ VERIFYE: apwòch sa a itilize pwòp rezo pèsonèl yon kliyan ki egziste deja ak pwòp kredibilite pèsonèl li nan rezo sa a, sa ki konekte dirèkteman ak diskisyon prèv sosyal Leson 16 nivo sa a, paske yon rekòmandasyon ki soti nan yon kontak pèsonèl moun fè konfyans gen plis kredibilite anpil pou yon prospè pase menm deklarasyon an biznis la li menm fè dirèkteman.
+
+Men "poukisa" yon ankourajman rekòmandasyon ki byen òganize ta dwe anjeneral benefisye ni kliyan k ap rekòmande a ni nouvo kliyan yo rekòmande a, pa sèlman moun k ap rekòmande a: yon estrikti ankourajman ki rekonpanse sèlman moun k ap rekòmande a (san anyen yo ofri nouvo kliyan yo rekòmande a) ka bay nouvo kliyan sa a santiman ke kontak li fè konfyans lan te tou senpleman resevwa lajan pou l rekòmande pwodwi a, sa ki ka mine olye ranfòse vrè konfyans rekòmandasyon an te fèt okòmansman pou l itilize, alòske yon ankourajman de bò (ki rekonpanse moun k ap rekòmande a e ki bay nouvo kliyan an pwòp benefis espesifik li, tankou yon rabè sou premye acha li) anjeneral prezève nati vrè, ki baze sou konfyans rekòmandasyon an pandan l toujou bay de pati yo yon rezon enpòtan pou yo vrèman patisipe.
+
+Se poutèt sa kliyan yo rekòmande souvan montre yon pi bon kalite — pi bon retansyon ak valè pandan tout relasyon an — pase kliyan yo jwenn atravè chanèl peye san kontak: yon kliyan yo rekòmande rive li deja resevwa yon rekòmandasyon pèsonèl ki kredib, moun fè konfyans (selon diskisyon prèv sosyal Leson 16 la), sa ki anjeneral bay yon pi bon koresponn okòmansman ak plis konfyans okòmansman nan desizyon acha a pase yon kliyan yo rive jwenn atravè piblisite peye san kontak, ki pa fè diferans, ki pa gen okenn siyal konfyans pèsonèl konparab ki mare avè l, sa ki vle di kliyan yo rekòmande souvan montre rezilta retansyon ak valè pandan tout relasyon an ki pi bon anpil pase yon kliyan ki otreman konparab yo jwenn san kontak, yon konsiderasyon enpòtan lè w ap evalye vrè rannman yon pwogram rekòmandasyon konpare ak kou ankourajman dirèk li poukont li. Se poutèt sa pwogram rekòmandasyon ka bay yon kwasans ki miltipliye yon fason chanèl akizisyon peye yo anjeneral pa fè: chak nouvo kliyan yo jwenn atravè yon chanèl peye anjeneral mande depans kontinyèl pou jwenn pwochen kliyan konparab la, san okenn efè miltiplikasyon natirèl ki bati nan mekanis akizisyon an li menm, alòske chak nouvo kliyan yo jwenn atravè yon pwogram rekòmandasyon vin yon moun ki ka rekòmande nan lavni poukont li, sa ki vle di yon pwogram rekòmandasyon ki mache byen ka bay yon efè kwasans ki vrèman miltipliye ak tan pandan yon baz kliyan satisfè k ap grandi chak rekòmande lòt nouvo kliyan, ki vin moun ki ka rekòmande yo menm tou — yon dinamik kwasans ki diferan nan estrikti li de relasyon prèske lineyè ant depans peye kontinyèl ak akizisyon nouvo kliyan pifò chanèl peye anjeneral montre.
+
+## Egzanp pratik
+EGZANP ILISTRATIF: Yon biznis mete an plas yon pwogram rekòmandasyon ki ofri ni kliyan k ap rekòmande a ni nouvo kliyan yo rekòmande a yon rabè enpòtan, sa ki prezève nati vrè, ki baze sou konfyans rekòmandasyon an olye l fè l sanble yon rekòmandasyon yo peye. Ak tan, kliyan yo rekòmande montre yon to retansyon ki pi wo anpil pase kliyan yo jwenn atravè chanèl piblisite peye biznis la, e yon pati k ap grandi nan kliyan yo rekòmande sa yo vin moun k ap rekòmande aktivman yo menm, sa ki pote lòt nouvo kliyan san li pa mande depans peye anplis ki pwopòsyonèl — sa ki montre egzakteman dinamik kwasans ki miltipliye ak pi bon kalite kliyan nivo sa a idantifye kòm karakteristik yon pwogram rekòmandasyon ki byen òganize.
+
+## Egzamen pratik
+**Q1. Kijan yon pwogram rekòmandasyon itilize kliyan ki egziste deja pou jwenn nouvo kliyan?**
+A) Lè l mande kliyan ki egziste deja peye yon frè anplis pou privilèj pou yo rete kliyan
+B) Lè l bay kliyan ki egziste deja yon ankourajman espesifik lè yo reyisi rekòmande nouvo kliyan, sa ki itilize pwòp rezo pèsonèl ak kredibilite moun k ap rekòmande a, ki gen plis konfyans pase pwòp deklarasyon dirèk biznis la
+
+**Q2. Poukisa yon ankourajman rekòmandasyon ta dwe anjeneral benefisye ni moun k ap rekòmande a ni nouvo kliyan yo rekòmande a?**
+A) Rekonpanse sèlman moun k ap rekòmande a toujou bay pwogram rekòmandasyon ki pi fò posib la san okenn dezavantaj
+B) Rekonpanse sèlman moun k ap rekòmande a ka fè nouvo kliyan an santi kontak li fè konfyans lan te tou senpleman resevwa lajan pou l rekòmande pwodwi a, sa ki ka mine vrè konfyans rekòmandasyon an depann de li, alòske yon ankourajman de bò prezève konfyans sa a pandan l toujou motive de pati yo pou patisipe
+C) Nouvo kliyan yo rekòmande a pa ta dwe janm resevwa okenn benefis ditou nan yon pwogram rekòmandasyon
+D) Estrikti ankourajman an pa gen okenn vrè rapò ak si yon rekòmandasyon sanble vre oswa ou ka fè l konfyans pou nouvo kliyan an
+
+**Q3. Poukisa kliyan yo rekòmande souvan montre yon pi bon kalite pase kliyan yo jwenn san kontak, ki konekte ak Leson 16?**
+A) Kliyan yo rekòmande toujou montre menm kalite idantik ak kliyan yo jwenn san kontak, san okenn diferans enpòtan
+B) Yon kliyan yo rekòmande rive ak yon rekòmandasyon pèsonèl ki kredib, moun fè konfyans, sa ki bay yon pi bon koresponn ak plis konfyans okòmansman pase yon kliyan yo jwenn san kontak ki pa gen okenn siyal konfyans pèsonèl konparab, sa ki konekte dirèkteman ak diskisyon prèv sosyal anvan an
+
+**Q4. Poukisa pwogram rekòmandasyon ka bay yon kwasans ki miltipliye yon fason chanèl akizisyon peye yo anjeneral pa fè?**
+A) Chanèl akizisyon peye yo toujou bay menm kwasans ki miltipliye idantik ak pwogram rekòmandasyon
+B) Chak kliyan yo jwenn atravè yon pwogram rekòmandasyon vin yon moun ki ka rekòmande nan lavni, sa ki kreye yon efè miltiplikasyon ak tan, alòske akizisyon peye anjeneral mande depans kontinyèl san okenn mekanis miltiplikasyon natirèl ki bati nan pwosesis akizisyon an li menm
+C) Pwogram rekòmandasyon pa janm vrèman pote okenn lòt nouvo kliyan pi lwen pase premye rekòmandasyon an
+D) Kwasans ki miltipliye pa gen okenn rapò ak si nouvo kliyan yo vin moun ki ka rekòmande nan lavni yo menm
+
+**Q5. Nan egzanp lan, poukisa pwogram rekòmandasyon biznis la te bay ni yon pi bon kalite kliyan ni yon kwasans ki miltipliye?**
+A) Pwogram rekòmandasyon biznis la te an reyalite mache pi mal pase chanèl piblisite peye li yo nan tout aspè
+B) Kliyan yo rekòmande yo te montre yon pi bon retansyon pase kliyan chanèl peye yo, sa ki an akò ak avantaj kalite ki baze sou konfyans lan, e yon pati k ap grandi nan kliyan yo rekòmande yo te vin moun k ap rekòmande aktivman yo menm, sa ki pote lòt nouvo kliyan san depans peye anplis ki pwopòsyonèl
+
+## Kle repons yo
+Q1: B
+Q2: B
+Q3: B
+Q4: B
+Q5: B
+
+## Repons ak eksplikasyon
+**Q1.** Fason sa a pou itilize rezo pèsonèl ak kredibilite yon kliyan ki egziste deja, ki konekte ak diskisyon prèv sosyal anvan an, se egzakteman jan yon pwogram rekòmandasyon jwenn nouvo kliyan.
+
+**Q2.** Prezèvasyon vrè konfyans sa a atravè yon ankourajman de bò, olye yon rekonpans sèlman pou moun k ap rekòmande a ki ta ka mine konfyans sa a, se egzakteman poukisa yo anjeneral rekòmande ankourajman rekòmandasyon ki ekilibre.
+
+**Q3.** Lyen dirèk sa a ak efè bati konfyans prèv sosyal se egzakteman poukisa kliyan yo rekòmande souvan montre yon pi bon retansyon ak valè pandan tout relasyon an pase kliyan yo jwenn san kontak.
+
+**Q4.** Diferans estriktirèl sa a — kliyan yo rekòmande ki vin moun ki ka rekòmande nan lavni konpare ak chanèl peye ki mande depans kontinyèl san efè miltiplikasyon — se egzakteman poukisa pwogram rekòmandasyon ka bay yon kwasans ki vrèman miltipliye ak tan.
+
+**Q5.** Ilistrasyon dirèk sa a sou ni yon pi bon retansyon ni yon sik rekòmandasyon ki ranfòse tèt li montre egzakteman avantaj kwasans ki miltipliye ak kalite leson sa a atribiye a yon pwogram rekòmandasyon ki byen òganize.
+
+## Pwen kle yo
+- Yon pwogram rekòmandasyon itilize rezo pèsonèl ak kredibilite kliyan ki egziste deja pou jwenn nouvo kliyan, sa ki konekte ak prensip prèv sosyal la.
+- Yon ankourajman rekòmandasyon ki byen òganize ta dwe benefisye ni moun k ap rekòmande a ni nouvo kliyan yo rekòmande a, sa ki prezève vrè konfyans olye l sanble yon rekòmandasyon yo peye.
+- Kliyan yo rekòmande souvan montre yon pi bon retansyon ak valè pandan tout relasyon an pase kliyan yo jwenn san kontak, akoz avantaj konfyans yon rekòmandasyon pèsonèl bay.
+- Pwogram rekòmandasyon ka bay yon kwasans ki miltipliye, paske chak nouvo kliyan vin yon moun ki ka rekòmande nan lavni, diferan de chanèl peye ki anjeneral mande depans kontinyèl san yon efè miltiplikasyon ki bati ladan yo.
+
+===== ORANGE-L4-019
+TITLE: Analiz maketing enfliyansè: poukisa transfè konfyans odyans lan, pa kantite abòne sèlman, se vrè byen w ap achte a
+SUMMARY: Konprann poukisa vrè valè maketing enfliyansè se transfè konfyans odyans lan, poukisa kantite abòne pa yon bon mezi, poukisa koresponn ant odyans lan ak sib biznis la enpòtan plis pase lajè, ak kijan pou evalye yon patenarya.
+KEYWORDS: maketing enfliyansè, transfè konfyans odyans, limit kantite abòne, koresponn odyans
+# Analiz maketing enfliyansè: poukisa transfè konfyans odyans lan, pa kantite abòne sèlman, se vrè byen w ap achte a
+
+## Senaryo pou louvri leson an
+SIPOZISYON/OPINYON (senaryo ipotetik pou objektif ansèyman sèlman): Imajine de gwo pisans ekonomik k ap ogmante kontwòl ekspòtasyon youn kont lòt sou yon kategori konpozan teknoloji avanse yo itilize nan anpil endistri. Pandan de gwo pisans ekonomik ap ogmante restriksyon teknoloji ki afekte platfòm dijital yo yon fason diferan selon rejyon, biznis k ap evalye patenarya maketing enfliyansè dekouvri ke kantite abòne brit yon enfliyansè se yon bagay ki predi efikasite maketing reyèl yon fason ki etonan mal, sa ki pouse yo gade pi pre ki vrè byen ki gen valè yon patenarya enfliyansè vrèman bay.
+
+## Objektif aprantisaj
+- Esplike poukisa vrè valè debaz maketing enfliyansè chita nan transfè pwòp konfyans odyans enfliyansè a, ki konekte ak diskisyon prèv sosyal Leson 16 nivo sa a.
+- Esplike poukisa kantite abòne poukont li se yon move ranplasan pou transfè konfyans sa a, ak poukisa kalite angajman ak otantisite odyans lan pi enpòtan.
+- Esplike poukisa koresponn ant odyans lan ak enfliyansè a — yon vrè aliyman ant vrè odyans enfliyansè a ak segman sib biznis la — pi enpòtan pase lajè brit poukont li.
+- Esplike poukisa yon biznis ta dwe evalye yon patenarya enfliyansè posib sou baz prèv yon vrè konfyans ak koresponn odyans, olye kantite abòne kòm yon ranplasan senp, ki pratik.
+
+## Kontni prensipal
+Maketing enfliyansè gen ladan fè patenarya ak yon moun ki te bati yon odyans vrè, angaje ak yon vrè kredibilite nan odyans sa a pou l fè pwomosyon pwodwi oswa sèvis yon biznis bay menm odyans sa a. FÈ VERIFYE: vrè valè debaz kalite patenarya sa a chita espesyalman nan transfè pwòp konfyans odyans enfliyansè a te akimile sou pwodwi y ap fè pwomosyon an, sa ki konekte dirèkteman ak diskisyon prèv sosyal Leson 16 nivo sa a, paske enfliyansè a fonksyone kòm yon sous moun fè konfyans, ki kredib, ki gen yon rekòmandasyon ki gen plis pwa pou konvenk odyans li pase menm deklarasyon an biznis la li menm fè dirèkteman.
+
+Men "poukisa" kantite abòne poukont li se yon move ranplasan pou transfè konfyans sa a, ak poukisa kalite angajman ak otantisite odyans lan pi enpòtan: yon gwo kantite abòne pa montre, poukont li, ke abòne sa yo vrèman angaje ak, fè konfyans, e yo enfliyanse pa pwòp rekòmandasyon enfliyansè espesifik sa a — kèk kont akimile gwo kantite abòne atravè metòd ki pa reflete yon vrè konfyans angaje (sa gen ladan, nan kèk ka ki dokimante, fo abòne yo achte oswa ki otomatik ki pa bay okenn vrè odyans ditou), sa ki vle di yon biznis k ap evalye yon patenarya enfliyansè posib sitou sou baz kantite abòne brit riske peye pou yon lajè ki pa vrèman tradui nan vrè transfè konfyans patenarya a vrèman fèt pou bay.
+
+Se poutèt sa koresponn ant odyans lan ak enfliyansè a — yon vrè aliyman ant vrè odyans enfliyansè a ak pwòp segman sib espesifik biznis la — pi enpòtan pase lajè brit poukont li, ki konekte ak diskisyon segmantasyon Leson 1 nivo sa a: yon enfliyansè ki gen yon odyans ki pi piti, men ki vrèman angaje e ki aliye byen pre ak segman sib pwòp biznis la souvan bay rezilta maketing reyèl ki pi bon anpil pase yon enfliyansè ki gen yon odyans ki pi gwo anpil, men ki pa koresponn byen oswa ki angaje sèlman yon ti jan, paske mekanis transfè konfyans diskisyon anvan nivo sa a idantifye kòm vrè valè debaz maketing enfliyansè depann espesyalman de odyans lan ki vrèman okipe, e ki fè konfyans, rekòmandasyon espesifik enfliyansè patikilye sa a sou kategori pwodwi patikilye sa a. Se poutèt sa yon biznis ta dwe evalye yon patenarya enfliyansè posib sou baz prèv yon vrè konfyans ak koresponn odyans, olye kantite abòne kòm yon ranplasan senp, ki pratik: yon bon evalyasyon anjeneral mande pou egzamine vrè to angajman (kòmantè, vrè entèraksyon, olye kantite abòne pasif poukont yo), prèv otantisite odyans lan, ak yon aliyman espesifik ant kontni ak odyans tipik pwòp enfliyansè a ak segman sib pwòp biznis la, olye w toujou itilize chif kantite abòne a, ki pi fasil pou mezire men ki mwens fyab anpil, kòm yon chemen kout senp pou evalye efikasite reyèl pwobab yon patenarya posib.
+
+## Egzanp pratik
+EGZANP ILISTRATIF: Yon biznis konsidere de patenarya enfliyansè posib: youn ak yon enfliyansè ki gen yon kantite abòne ki trè gwo men yon angajman relativman ba ak yon odyans laj, ki pa byen defini ki gen ti koneksyon espesifik ak vrè segman sib biznis la, e yon lòt ak yon enfliyansè ki gen yon kantite abòne ki pi piti anpil men yon vrè angajman ki wo ak yon odyans ki aliye byen pre e espesyalman ak segman sib egzak biznis la. Biznis la fè patenarya ak enfliyansè ki pi piti a, ki koresponn pi byen an, e patenarya sa a bay rezilta konvèsyon reyèl ki pi fò anpil pase sa patenarya odyans ki pi gwo a te gen chans bay, sa ki montre egzakteman poukisa vrè konfyans ak koresponn odyans, olye kantite abòne brit, deside efikasite maketing reyèl yon patenarya enfliyansè.
+
+## Egzamen pratik
+**Q1. Ki vrè valè debaz yon patenarya maketing enfliyansè?**
+A) Tou senpleman fè otan moun posib wè non yon biznis, kèlkeswa okenn konfyans ki konsène
+B) Transfè pwòp konfyans odyans enfliyansè a te akimile sou pwodwi y ap fè pwomosyon an, paske enfliyansè a fonksyone kòm yon sous kredib ki gen yon rekòmandasyon ki gen plis pwa pou konvenk pase pwòp deklarasyon dirèk biznis la
+
+**Q2. Poukisa kantite abòne poukont li se yon move ranplasan pou transfè konfyans sa a?**
+A) Kantite abòne toujou reflete parfètman e egzakteman vrè konfyans ak angajman odyans lan
+B) Yon gwo kantite abòne pa montre, poukont li, yon vrè angajman oswa konfyans, e kèk kont akimile abòne atravè metòd (sa gen ladan fo abòne oswa abòne yo achte) ki pa bay okenn vrè odyans ditou
+C) Kalite angajman ak otantisite odyans lan pa gen okenn vrè rapò ak vrè efikasite yon patenarya enfliyansè
+D) Se sèlman kantite abòne, san okenn lòt konsiderasyon, yo ta dwe janm itilize pou evalye yon patenarya enfliyansè posib
+
+**Q3. Poukisa koresponn ant odyans lan ak enfliyansè a pi enpòtan pase lajè brit poukont li, ki konekte ak Leson 1?**
+A) Lajè toujou pi enpòtan pase koresponn odyans, kèlkeswa okenn konsiderasyon segmantasyon
+B) Yon enfliyansè ki gen yon odyans ki pi piti men ki vrèman angaje e ki koresponn byen, ki aliye espesyalman ak segman sib biznis la, souvan bay pi bon rezilta pase youn ki gen yon odyans ki pi gwo anpil men ki pa koresponn byen, paske mekanis transfè konfyans lan depann de odyans lan ki vrèman okipe rekòmandasyon enfliyansè sa a nan kategori espesifik sa a
+
+**Q4. Kijan yon biznis ta dwe evalye yon patenarya enfliyansè posib, olye l konte sou kantite abòne poukont li?**
+A) Lè l konte sèlman sou kantite abòne enfliyansè a deklare, san okenn lòt evalyasyon ki nesesè
+B) Lè l egzamine vrè to angajman, prèv otantisite odyans lan, ak yon aliyman espesifik ant odyans tipik enfliyansè a ak pwòp segman sib biznis la
+C) Kritè evalyasyon yo pa gen okenn vrè rapò ak si yon patenarya gen chans efikas
+D) Se sèlman pwòp opinyon pèsonèl enfliyansè a sou nivo konfyans odyans li yo ta dwe konsidere
+
+**Q5. Nan egzanp lan, poukisa patenarya ak enfliyansè ki gen yon odyans ki pi piti a te pi bon pase lòt opsyon ki gen yon odyans ki pi gwo a?**
+A) Enfliyansè ki gen odyans ki pi gwo a te an reyalite gen yon odyans ki koresponn pi byen e ki pi angaje pase enfliyansè ki gen odyans ki pi piti a
+B) Enfliyansè ki gen odyans ki pi piti a te gen yon angajman ki vrèman wo ak yon odyans ki aliye byen pre e espesyalman ak segman sib egzak biznis la, alòske odyans enfliyansè ki gen odyans ki pi gwo a te pi laj, mwens angaje, e li pa t koresponn espesyalman, sa ki bay yon konvèsyon reyèl ki pi fèb malgre kantite abòne brit ki pi gwo a
+
+## Kle repons yo
+Q1: B
+Q2: B
+Q3: B
+Q4: B
+Q5: B
+
+## Repons ak eksplikasyon
+**Q1.** Mekanis transfè konfyans sa a, ki konekte dirèkteman ak diskisyon prèv sosyal anvan an, se egzakteman vrè valè debaz yon patenarya maketing enfliyansè fèt pou bay.
+
+**Q2.** Diferans sa a ant kantite abòne brit ak vrè konfyans ak angajman odyans lan se egzakteman poukisa kantite abòne poukont li bay yon ranplasan ki pa fyab pou efikasite reyèl pwobab yon patenarya.
+
+**Q3.** Lyen sa a ant koresponn odyans ak vrè efikasite mekanis transfè konfyans lan, ki fè echo ak prensip segmantasyon an, se egzakteman poukisa koresponn pi enpòtan pase lajè brit poukont li.
+
+**Q4.** Apwòch evalyasyon ki pi serye sa a, ki ale pi lwen pase ranplasan kantite abòne a ki pratik men ki pa fyab, se egzakteman sa leson sa a rekòmande pou evalye efikasite reyèl pwobab yon patenarya enfliyansè posib.
+
+**Q5.** Ilistrasyon dirèk sa a sou angajman ak koresponn ki pi bon pase lajè brit montre egzakteman poukisa leson sa a mete aksan sou vrè konfyans ak aliyman odyans lan pase kantite abòne kòm sa ki vrèman deside efikasite maketing enfliyansè.
+
+## Pwen kle yo
+- Vrè valè yon patenarya enfliyansè chita nan transfè pwòp konfyans odyans enfliyansè a te akimile sou pwodwi y ap fè pwomosyon an.
+- Kantite abòne poukont li se yon move ranplasan pou transfè konfyans sa a, paske gwo kantite abòne pa nesesèman reflete yon vrè angajman oswa yon odyans otantik.
+- Koresponn ant odyans lan ak enfliyansè a pi enpòtan pase lajè brit, paske mekanis transfè konfyans lan depann de yon vrè aliyman ant odyans enfliyansè a ak segman sib biznis la.
+- Evalye yon patenarya posib ta dwe konsantre sou kalite angajman, otantisite odyans, ak koresponn espesifik, olye w toujou itilize kantite abòne kòm yon ranplasan pratik men ki pa fyab.
