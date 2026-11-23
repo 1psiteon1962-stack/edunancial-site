@@ -47,3 +47,153 @@ Se poutèt sa yo pa ta dwe konsidere amòtisman kòm yon benefis taks pèmanan, 
 ---
 
 *Leson sa a se sèlman pou edikasyon finansye jeneral, e li pa konstitye konsèy finansye, envestisman, taks, oswa legal pèsonalize. Règ amòtisman ak rekiperasyon yo varye selon jiridiksyon e yo chanje ak tan; konsilte yon pwofesyonèl taks ki gen lisans pou konsèy ki espesifik pou sitiyasyon ou.*
+
+===== GREEN-L3-022
+TITLE: Poukisa yon echanj 1031 ranvwaye taks la, olye l elimine l
+SUMMARY: Aprann poukisa yon echanj 1031 ranvwaye ni taks sou pwofi kapital ni rekiperasyon amòtisman, olye l fè yo disparèt nèt.
+# GREEN-L3-022: Poukisa yon echanj 1031 ranvwaye taks la, olye l elimine l
+
+## Objektif aprantisaj
+Lè w fin fè leson sa a, w ap kapab:
+- Esplike poukisa yon echanj 1031 ranvwaye taks olye l elimine l
+- Konekte konsèp sa a ak diferans ant taks ranvwaye ak san taks Leson 11 la
+- Esplike kijan rekiperasyon amòtisman Leson 21 la antre nan yon echanj 1031
+
+## Kontni prensipal
+
+Tras RED kourikoulòm sa a te prezante echanj 1031 la kòm yon zouti ki pèmèt yon envestisè ranvwaye taks sou pwofi kapital lè l reyenvesti lajan vant lan nan yon pwopriyete menm kalite (like-kind). Men "poukisa" tit leson sa a itilize mo "ranvwaye" espesyalman, sa ki konekte dirèkteman ak diferans ant taks ranvwaye ak san taks Leson 11 la: yon echanj 1031 pa fè obligasyon taks la disparèt — li ranvwaye l, anjeneral li tache l ak baz pri nouvo pwopriyete a, sa ki vle di obligasyon taks ranvwaye a swiv envestisè a nan pwopriyete ranplasman an olye yo elimine l.
+
+[FÈ VERIFYE] Sa gen ladan l obligasyon rekiperasyon amòtisman yo diskite nan Leson 21 la — yon echanj 1031 yo fè kòrèkteman anjeneral ranvwaye ni taks sou pwofi kapital la ni nenpòt rekiperasyon amòtisman ki mare avè l ki ta otreman deklanche pa yon vant taksab, li pote tou de pou pi devan nan baz pwopriyete ranplasman an olye li regle yo nan moman echanj lan.
+
+Se poutèt sa yon envestisè k ap itilize echanj 1031 youn apre lòt pandan plizyè ane, jan yo kouvri nan tras RED la, ap bati yon obligasyon taks ranvwaye ki vin pi gwo chak fwa li fè yon echanj — yon obligasyon ki pral finalman deklanche si e lè yo janm vann pwopriyete a nan yon tranzaksyon ki taksab nèt olye yo echanje l ankò, sòf si yo finalman regle l pa lòt mwayen (tankou ogmantasyon baz (step-up) nan moman lanmò, yo kouvri nan yon leson pita).
+
+## Egzanp pratik
+
+[EGZANP ILISTRATIF] Yon envestisè fè yon echanj 1031, li ranvwaye $80,000 taks sou pwofi kapital ak $20,000 rekiperasyon amòtisman li ta dwe peye otreman sou yon vant taksab — yon total $100,000 obligasyon taks ranvwaye. [SIPOZISYON] Obligasyon ranvwaye sa a pa disparèt; an reyalite li kontinye pou pi devan, tache ak baz pri ajiste pwopriyete ranplasman an, sa ki vle di si li vann pwopriyete ranplasman sa a nan yon tranzaksyon ki taksab nèt plizyè ane pita san l pa echanje ankò, ni kantite orijinal yo te ranvwaye yo ni nenpòt lòt pwofi sou nouvo pwopriyete a ap dwe nan moman sa a — sa ki montre poukisa "ranvwaye" se mo ki kòrèk la, pa "elimine".
+
+## Egzamen pratik
+
+1. Poukisa yon echanj 1031 "ranvwaye" taks olye l elimine l?
+2. Kijan sa konekte ak diferans ant taks ranvwaye ak san taks Leson 11 la?
+3. Èske yon echanj 1031 ranvwaye sèlman taks sou pwofi kapital, oswa li ranvwaye rekiperasyon amòtisman tou?
+
+## Kle repons yo
+
+1. Paske yo ranvwaye obligasyon taks la, anjeneral yo tache l ak baz pri pwopriyete ranplasman an, olye yo fè l disparèt nèt.
+2. Sa a se yon egzanp dirèk, nan lavi reyèl, tretman taks ranvwaye jan Leson 11 la defini l — obligasyon taks la toujou egziste e l ap finalman dwe nan kèk sikonstans alavni, olye l san taks.
+3. Li ranvwaye tou de — yon echanj 1031 yo fè kòrèkteman anjeneral ranvwaye ni taks sou pwofi kapital la ni nenpòt rekiperasyon amòtisman ki mare avè l nan Leson 21 la.
+
+## Repons ak eksplikasyon
+
+1. Sa a se "poukisa" santral tit leson an bati sou li.
+2. Sa konekte leson an klèman ak kad taks ranvwaye kont san taks Leson 11 la.
+3. Sa tcheke si lektè a konekte konsèp leson sa a ak leson sou rekiperasyon amòtisman ki vini jis anvan l lan.
+
+## Pwen kle yo
+- Yon echanj 1031 ranvwaye, olye l elimine, taks sou pwofi kapital ak rekiperasyon amòtisman, li pote tou de pou pi devan nan baz pwopriyete ranplasman an.
+- Sa a se yon egzanp konkrè nan lavi reyèl konsèp taks ranvwaye Leson 11 la te prezante a.
+- Echanj youn apre lòt bati yon obligasyon taks ranvwaye k ap grandi, ki finalman ap dwe sòf si yo regle l pa lòt mwayen, tankou yon ogmantasyon baz nan moman lanmò.
+
+---
+
+*Leson sa a se sèlman pou edikasyon finansye jeneral, e li pa konstitye konsèy finansye, envestisman, taks, oswa legal pèsonalize. Règ echanj 1031 yo varye selon jiridiksyon e yo chanje ak tan; konsilte yon pwofesyonèl taks ki gen lisans pou konsèy ki espesifik pou sitiyasyon ou.*
+
+===== GREEN-L3-023
+TITLE: Poukisa yo taxe pwofi kapital ak revni òdinè yon fason diferan
+SUMMARY: Aprann poukisa yo souvan taxe pwofi lè w vann yon envestisman yon lòt jan pase salè, ak poukisa peryòd detansyon an jwe yon wòl santral nan diferans sa a.
+# GREEN-L3-023: Poukisa yo taxe pwofi kapital ak revni òdinè yon fason diferan
+
+## Objektif aprantisaj
+Lè w fin fè leson sa a, w ap kapab:
+- Esplike diferans jeneral ant pwofi kapital ak revni òdinè
+- Esplike poukisa peryòd detansyon an souvan detèmine ki to taks sou pwofi kapital ki aplike
+- Konekte konsèp sa a ak diskisyon sou peryòd detansyon yo kouvri nan tras WHITE kourikoulòm sa a
+
+## Kontni prensipal
+
+**Revni òdinè** anjeneral gen ladan l salè, apwentman, ak lòt revni ou touche nòmalman, yo taxe l dapre estrikti tranch pwogresif yo kouvri nan Leson 1. **Pwofi kapital** — pwofi lè w vann yon envestisman oswa yon lòt byen kapital — yo souvan taxe l dapre yon lòt seri règ separe, ki ka diferan anpil de tretman taks sou revni òdinè.
+
+Men "poukisa" diferans sa a egziste souvan, ki sanble anpil ak yon konsèp yo kouvri nan tras WHITE kourikoulòm sa a: anpil sistèm taks aplike diferan to sou pwofi kapital selon **peryòd detansyon** — konbyen tan yo te posede byen an anvan yo vann li — yo souvan taxe pwofi sou byen yo te kenbe pou yon peryòd pi kout nan to ki pi pre (oswa menm jan ak) to revni òdinè, alòske yo aplike to ki pi favorab sou pwofi sou byen yo te kenbe pi lontan, anjeneral ak objektif politik yo deklare pou ankouraje envestisman long tèm olye komès kout tèm souvan.
+
+[FÈ VERIFYE] Lalwa sou taks fikse nivo peryòd detansyon espesifik yo, to ki aplike yo, ak kijan pwofi kapital antre an relasyon ak revni òdinè nan kalkil taks jeneral la; yo varye anpil selon jiridiksyon, e yo chanje ak tan — konnen diferans sa a an jeneral gen anpil valè, men yo ta dwe verifye chif egzak yo pou yon sitiyasyon ak yon jiridiksyon espesifik.
+
+## Egzanp pratik
+
+[EGZANP ILISTRATIF] Yon envestisè vann yon aksyon li te kenbe pou yon peryòd kout anvan vant lan, sa ki bay yon pwofi yo anjeneral taxe menm jan ak revni òdinè li, nan to majinal nòmal li (Leson 1). Yon lòt envestisè vann yon aksyon ki sanble li te kenbe pou yon peryòd pi long anpil, e yo ka taxe pwofi a nan yon to pwofi kapital long tèm ki pi favorab nan anpil sistèm taks. [SIPOZISYON] Malgre yo fè egzakteman menm kantite dola pwofi, de envestisè sa yo ta ka fè fas ak rezilta taks ki diferan anpil sèlman selon konbyen tan chak moun te kenbe byen an anvan yo vann li — sa ki sanble dirèkteman ak diskisyon sou peryòd detansyon yo kouvri pou byen papye lòt kote nan kourikoulòm sa a.
+
+## Egzamen pratik
+
+1. Ki diferans jeneral ant pwofi kapital ak revni òdinè?
+2. Poukisa peryòd detansyon an souvan detèmine ki to taks sou pwofi kapital ki aplike?
+3. Kijan leson sa a konekte ak yon konsèp ki sanble yo kouvri lòt kote nan tras WHITE kourikoulòm sa a?
+
+## Kle repons yo
+
+1. Revni òdinè gen ladan l salè ak revni ou touche nòmalman, yo taxe l dapre tranch pwogresif; pwofi kapital se pwofi lè w vann yon envestisman oswa yon byen kapital, yo souvan taxe l dapre règ separe.
+2. Paske anpil sistèm taks aplike to ki pi favorab sou pwofi sou byen yo te kenbe pi lontan, anjeneral ak yon objektif politik yo deklare pou ankouraje envestisman long tèm olye komès kout tèm souvan.
+3. Sa reflete dirèkteman diskisyon sou pwofi kapital ki baze sou peryòd detansyon yo kouvri pou byen envestisman nan tras WHITE la, li aplike menm prensip debaz la nan kontèks taks tras GREEN sa a.
+
+## Repons ak eksplikasyon
+
+1. Sa a se diferans debaz leson an.
+2. Sa esplike rezon ki anba estrikti to ki baze sou peryòd detansyon an.
+3. Sa konekte leson an klèman ak yon diskisyon paralèl lòt kote nan kourikoulòm nan, sa ki ranfòse aprantisaj ant tras yo.
+
+## Pwen kle yo
+- Yo souvan taxe revni òdinè ak pwofi kapital dapre règ diferan, e pwofi kapital souvan favorize peryòd detansyon ki pi long.
+- Estrikti sa a ki baze sou peryòd detansyon anjeneral gen entansyon ankouraje envestisman long tèm olye komès kout tèm souvan.
+- Nivo peryòd detansyon ak to espesifik yo varye anpil selon jiridiksyon e yo chanje ak tan.
+
+---
+
+*Leson sa a se sèlman pou edikasyon finansye jeneral, e li pa konstitye konsèy finansye, envestisman, taks, oswa legal pèsonalize. Règ pwofi kapital yo varye selon jiridiksyon e yo chanje ak tan; konsilte yon pwofesyonèl taks ki gen lisans pou konsèy ki espesifik pou sitiyasyon ou.*
+
+===== GREEN-L3-024
+TITLE: Poukisa rekòlt pèt pou taks ak règ "wash-sale" la mare ansanm
+SUMMARY: Aprann kijan rekòlt pèt pou taks ak règ wash-sale la travay ansanm, ak poukisa konprann tou de sou yon ang taks enpòtan ansanm ak pèspektiv envestisman an.
+# GREEN-L3-024: Poukisa rekòlt pèt pou taks ak règ "wash-sale" la mare ansanm
+
+## Objektif aprantisaj
+Lè w fin fè leson sa a, w ap kapab:
+- Esplike kijan yon pèt kapital reyalize ka konpanse pwofi kapital pou rezon taks
+- Esplike poukisa règ wash-sale la limite estrateji sa a yon fason espesifik
+- Konekte konsèp sa a ak diskisyon paralèl yo kouvri nan tras WHITE kourikoulòm sa a
+
+## Kontni prensipal
+
+Tras WHITE kourikoulòm sa a kouvri rekòlt pèt pou taks (tax-loss harvesting) ak règ wash-sale la sou yon pèspektiv estrateji envestisman. Men menm konsèp lan sou yon ang ki konsantre espesyalman sou taks: yon **pèt kapital reyalize** — youn yo vrèman fikse atravè yon vant, pa sèlman yon pèt sou papye ki pa reyalize — anjeneral ka sèvi pou konpanse pwofi kapital pou rezon taks, e nan anpil sistèm taks, yon kantite limite nan nenpòt pèt nèt ki rete ka konpanse tou yon pòsyon nan revni òdinè, e nenpòt eksè anplis ka petèt pote pou pi devan pou konpanse pwofi nan ane alavni.
+
+Men "poukisa" **règ wash-sale** la limite sa espesyalman: [FÈ VERIFYE] anpil sistèm taks refize yon pèt yo reklame si yo rachte menm tit la oswa yon tit ki sanble anpil nan yon fenèt tan espesifik otou vant lan, paske pèmèt sa ta kite yon kontribyab reklame yon pèt pou taks alòske an reyalite li kenbe egzakteman menm pozisyon envestisman an — yo konsidere sa kòm yon abi konsèp reyalizasyon pèt la, e yo refize l an konsekans.
+
+Se poutèt sa pèspektiv taks estrateji sa a mete aksan sou tan egzak ak dokimantasyon: yon kontribyab bezwen swiv non sèlman ke li reyalize yon pèt, men tou konfime pa t gen okenn racha ki deklanche règ wash-sale la nan fenèt tan ki konsène a, pou asire pèt li reklame a ap vrèman aksepte lè l depoze deklarasyon taks li.
+
+## Egzanp pratik
+
+[EGZANP ILISTRATIF] Yon envestisè reyalize yon pèt lè l vann yon envestisman k ap bese, avèk entansyon pou l itilize pèt sa a pou konpanse pwofi kapital lòt kote nan pòtfèy li pou rezon taks. Si li rachte menm envestisman an oswa yon envestisman ki sanble anpil nan fenèt wash-sale la, otorite taks yo ka refize pèt li reklame a pou ane taks sa a, malgre vrè entansyon li te genyen pou l rekòlte l. [SIPOZISYON] Swiv avèk swen ni vant lan ni nenpòt acha apre sa, konpare ak fenèt wash-sale ki aplike a, esansyèl pou asire pèt l ap konte sou li pou konpanse pwofi li yo ap vrèman aksepte lè l depoze deklarasyon taks li.
+
+## Egzamen pratik
+
+1. Kisa yon pèt kapital reyalize anjeneral ka sèvi pou konpanse pou rezon taks?
+2. Kisa règ wash-sale la refize espesyalman?
+3. Poukisa sa kreye yon egzijans swivi pratik espesifik pou kontribyab k ap itilize estrateji sa a?
+
+## Kle repons yo
+
+1. Pwofi kapital, e nan anpil sistèm taks, yon kantite limite revni òdinè, e nenpòt eksè anplis ka petèt pote pou pi devan nan ane alavni.
+2. Yon pèt pou taks yo reklame lè yo rachte menm tit la oswa yon tit ki sanble anpil nan yon fenèt tan espesifik otou vant lan.
+3. Paske yon kontribyab bezwen konfime pa t gen okenn racha ki deklanche règ wash-sale la nan fenèt tan ki konsène a pou asire pèt li reklame a ap vrèman aksepte sou deklarasyon taks li.
+
+## Repons ak eksplikasyon
+
+1. Sa etabli mekanis espesifik pou taks sou kijan yo ka itilize yon pèt reyalize.
+2. Sa a se règ limitasyon santral leson an konsantre sou li.
+3. Sa ranfòse dimansyon pratik, konfòmite taks, estrateji sa a.
+
+## Pwen kle yo
+- Yon pèt kapital reyalize anjeneral ka konpanse pwofi kapital, ak yon kantite limite revni òdinè, pou rezon taks.
+- Règ wash-sale la refize yon pèt yo reklame si yo rachte menm tit la oswa yon tit ki sanble anpil nan yon fenèt tan espesifik.
+- Sa mande swiv avèk swen ni vant yo ni acha apre yo pou asire yon pèt yo reklame ap vrèman aksepte lè w depoze deklarasyon an.
+
+---
+
+*Leson sa a se sèlman pou edikasyon finansye jeneral, e li pa konstitye konsèy finansye, envestisman, taks, oswa legal pèsonalize. Règ rekòlt pèt pou taks ak wash-sale yo varye selon jiridiksyon e yo chanje ak tan; konsilte yon pwofesyonèl taks ki gen lisans pou konsèy ki espesifik pou sitiyasyon ou.*
