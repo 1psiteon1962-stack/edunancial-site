@@ -1,0 +1,149 @@
+===== GOLD-L3-016
+TITLE: Poukisa korelasyon ant klas byen yo pa fiks ak tan
+SUMMARY: Aprann poukisa de klas byen ki te istorikman chanje poukont yo ka kòmanse chanje ansanm toudenkou, ak poukisa relasyon k ap chanje sa a konplike divèsifikasyon.
+# GOLD-L3-016: Poukisa korelasyon ant klas byen yo pa fiks ak tan
+
+## Objektif aprantisaj
+Lè w fin fè leson sa a, w ap kapab:
+- Esplike poukisa korelasyon ant klas byen yo ka chanje ak tan olye l rete konstan
+- Esplike poukisa korelasyon k ap chanje sa a gen tandans ogmante sitou pandan peryòd presyon sou mache a
+- Konekte konsèp sa a ak diskisyon sou korelasyon yo kouvri nan tras WHITE kourikoulòm sa a
+
+## Kontni prensipal
+
+Tras WHITE kourikoulòm sa a te prezante korelasyon kòm yon mezi konbyen rannman de envestisman gen tandans chanje ansanm, e li te note ke relasyon sa a pa fiks pou toutan. Men "poukisa" sa enpòtan anpil nan nivo klas byen ki pi laj yo kouvri nan tout tras GOLD sa a: yon estrateji divèsifikasyon ki bati sou obsèvasyon istorik ke, pa egzanp, aksyon ak yon byen altènatif patikilye te chanje yon ti jan poukont yo nan tan pase sipoze relasyon sa a ap kontinye kenbe alavni — yon sipozisyon ki pa garanti.
+
+[FÈ VERIFYE] Yo obsève, nan plizyè peryòd istorik, ke korelasyon ant klas byen chanje anpil ak tan, e sitou li gen tandans ogmante pandan peryòd presyon grav, laj sou mache a — egzakteman lè envestisè yo ap konte pi plis sou divèsifikasyon pou limite pèt yo. Byen ki nòmalman chanje yon ti jan poukont yo ka, pandan yon vrè kriz, kòmanse chanje ansanm pandan yon presyon vant laj, san distenksyon, afekte prèske tout bagay an menm tan, kèlkeswa faktè nòmal, endividyèl chak byen.
+
+Se poutèt sa divèsifikasyon, menm si li gen yon vrè valè kòm yon prensip jeneral jesyon risk (jan yo kouvri nan tout kourikoulòm sa a), pa ta dwe trete kòm yon garanti ke yon pòtfèy divèsifye ap evite gwo pèt nan chak kondisyon mache posib — benefis pwoteksyon an li menm ka febli egzakteman pandan peryòd moun plis konte sou li.
+
+## Egzanp pratik
+
+[EGZANP ILISTRATIF] Yon envestisè bati yon pòtfèy an pati sou baz obsèvasyon istorik ke yon klas byen altènatif espesifik te gen tandans chanje yon ti jan poukont li konpare ak aksyon li yo pandan kondisyon mache nòmal. [SIPOZISYON] Pandan yon kriz mache grav, laj, sepandan, ni aksyon li yo ni byen altènatif sa a bese ansanm, pandan yon presyon vant laj, san distenksyon, afekte prèske chak klas byen an menm tan — benefis divèsifikasyon istorik li t ap konte sou li a febli anpil egzakteman pandan peryòd li te pi bezwen l lan, sa ki montre poukisa yo pa ta dwe trete sipozisyon sou korelasyon kòm garanti pèmanan.
+
+## Egzamen pratik
+
+1. Poukisa korelasyon ant klas byen yo pa rete fiks ak tan?
+2. Pandan ki kalite peryòd korelasyon ant klas byen ki nòmalman endepandan gen tandans ogmante?
+3. Poukisa sa enpòtan pou fason yo ta dwe konprann divèsifikasyon yon fason reyalis?
+
+## Kle repons yo
+
+1. Paske relasyon ant fason diferan byen reyaji ak kondisyon mache ka chanje anpil ak tan, selon dinamik ekonomik ak mache k ap chanje.
+2. Pandan peryòd presyon grav, laj sou mache a, lè yon presyon vant laj ka afekte prèske tout bagay an menm tan, kèlkeswa faktè endividyèl nòmal chak byen.
+3. Yo ta dwe konprann divèsifikasyon kòm yon prensip jeneral jesyon risk ki gen yon vrè valè, men pa yon garanti kont gwo pèt nan chak kondisyon mache posib, paske benefis pwoteksyon li ka febli pandan kriz grav.
+
+## Repons ak eksplikasyon
+
+1. Sa pwolonje dirèkteman konsèp korelasyon tras WHITE la nan nivo klas byen ki pi laj.
+2. Sa a se rezèv santral, enpòtan leson an mete an evidans.
+3. Sa ranfòse yon konpreyansyon reyalis, san twòp konfyans, sou vrè limit divèsifikasyon.
+
+## Pwen kle yo
+- Korelasyon ant klas byen yo pa fiks ak tan e li ka chanje selon dinamik mache k ap chanje.
+- Korelasyon gen tandans ogmante pandan peryòd presyon grav sou mache a, sa ki febli benefis pwoteksyon divèsifikasyon egzakteman lè moun plis konte sou li.
+- Divèsifikasyon rete yon prensip jeneral ki gen valè, men yo pa ta dwe trete l kòm yon garanti kont pèt nan chak kondisyon mache posib.
+
+---
+
+*Leson sa a se sèlman pou edikasyon finansye jeneral, e li pa konstitye konsèy finansye, envestisman, taks, oswa legal pèsonalize. Pèfòmans pase pa garanti rezilta alavni. Konsilte yon pwofesyonèl finansye ki gen lisans anvan w pran desizyon envestisman.*
+
+===== GOLD-L3-017
+TITLE: Poukisa yon alokasyon byen estratejik diferan de yon alokasyon taktik
+SUMMARY: Aprann diferans ant yon alokasyon byen estratejik long tèm ak ajisteman taktik pi kout tèm, ak poukisa konfonn de yo ka febli yon bon plan envestisman.
+# GOLD-L3-017: Poukisa yon alokasyon byen estratejik diferan de yon alokasyon taktik
+
+## Objektif aprantisaj
+Lè w fin fè leson sa a, w ap kapab:
+- Defini alokasyon byen estratejik ak alokasyon byen taktik
+- Esplike poukisa de apwòch sa yo fonksyone sou orizon tan ak objektif ki vrèman diferan
+- Esplike risk ki genyen lè w toujou ap remèt an kesyon yon alokasyon estratejik ak ajisteman taktik
+
+## Kontni prensipal
+
+**Alokasyon byen estratejik** (strategic asset allocation) se yon melanj sib long tèm klas byen — yon pousantaj espesifik pou aksyon, obligasyon, imobilye, altènatif, ak lòt kategori — yo konsevwa selon objektif jeneral, orizon tan, ak tolerans risk yon envestisè, e anjeneral yo gen entansyon pou l rete relativman estab pandan lontan, yo ajiste l sèlman lè gwo sikonstans lavi chanje. **Alokasyon byen taktik** (tactical asset allocation) se deviyasyon fè espre, pi kout tèm, konpare ak sib estratejik sa a, selon yon opinyon aktyèl sou kondisyon oswa opòtinite mache nan yon ti tan.
+
+Men "poukisa" konfonn de apwòch sa yo, oswa favorize twòp ajisteman taktik, ka febli yon bon plan long tèm: yon alokasyon estratejik bati sou rezònman dirab, byen reflechi yo kouvri nan tout tras sa a — orizon tan (Leson 3), tolerans risk (Leson 2), ak diferan wòl diferan klas byen jwe (Leson 6 ak 14). Deviyasyon taktik souvan, ki baze sou prediksyon mache kout tèm, [FÈ VERIFYE] an reyalite retounen ak defi chwazi moman mache a (market timing) yo diskite lòt kote nan tras WHITE kourikoulòm sa a — parye sou mouvman mache kout tèm ki konnen pou yo difisil pou prevwa yon fason serye e konsistan.
+
+Se poutèt sa anpil envestisè disipline, long tèm konte sitou sou alokasyon estratejik yo, yo itilize reekilibraj (jan yo kouvri nan tras WHITE la) pou kenbe l, e yo trete ajisteman taktik, si yo itilize yo menm, kòm yon eksepsyon limite, byen reflechi olye fòs prensipal ki dèyè desizyon pòtfèy.
+
+## Egzanp pratik
+
+[EGZANP ILISTRATIF] Yon envestisè etabli yon alokasyon byen estratejik selon orizon tan ak tolerans risk espesifik li, avèk entansyon pou l kenbe l pandan plizyè ane atravè reekilibraj detanzantan. Si l toujou ap devye de sib sa a selon prediksyon mache kout tèm — li ogmante pòsyon aksyon li paske li santi l optimis sou direksyon mache a nan yon ti tan, apre sa li diminye l ankò selon yon santiman pesimis ki vini apre — an reyalite l ap chwazi moman mache a anba yon lòt non. [SIPOZISYON] Ak tan, modèl deviyasyon taktik souvan sa a, si prediksyon kout tèm li yo pa egzak yon fason serye (yon estanda ki difisil pou satisfè yon fason konsistan, jan yo diskite lòt kote nan kourikoulòm sa a), gen chans bay yon pi move rezilta pase si l te senpleman kenbe alokasyon estratejik li te byen reflechi a e li te reekilibre l detanzantan.
+
+## Egzamen pratik
+
+1. Ki diferans ant alokasyon byen estratejik ak alokasyon byen taktik?
+2. Poukisa yon alokasyon estratejik anjeneral gen entansyon pou l rete relativman estab pandan lontan?
+3. Poukisa deviyasyon taktik souvan konpare ak yon alokasyon estratejik ka febli yon bon plan long tèm?
+
+## Kle repons yo
+
+1. Alokasyon estratejik se yon melanj sib long tèm ki baze sou objektif jeneral, orizon tan, ak tolerans risk; alokasyon taktik gen ladan l deviyasyon fè espre, pi kout tèm, selon yon opinyon aktyèl sou kondisyon nan yon ti tan.
+2. Paske li bati sou faktè dirab tankou orizon tan ak tolerans risk ki pa chanje souvan anjeneral, kontrèman ak kondisyon mache kout tèm.
+3. Paske deviyasyon taktik souvan an reyalite retounen ak defi chwazi moman mache a, sa ki vle di parye sou mouvman mache kout tèm ki difisil pou prevwa yon fason serye e konsistan.
+
+## Repons ak eksplikasyon
+
+1. Sa a se diferans debaz leson an.
+2. Sa konekte konsèp alokasyon estratejik la ak faktè dirab yo kouvri pi bonè nan tras sa a.
+3. Sa a se avètisman santral la, ki konekte ak difikilte chwazi moman mache a yo diskite lòt kote nan kourikoulòm sa a.
+
+## Pwen kle yo
+- Alokasyon byen estratejik se yon melanj sib long tèm ki baze sou faktè dirab tankou orizon tan ak tolerans risk; alokasyon taktik gen ladan l deviyasyon pi kout tèm ki baze sou opinyon aktyèl sou mache a.
+- Deviyasyon taktik souvan an reyalite retounen ak defi difisil pou chwazi moman mache a.
+- Anpil envestisè disipline konte sitou sou alokasyon estratejik yo, yo itilize reekilibraj pou kenbe l olye ajisteman taktik souvan.
+
+---
+
+*Leson sa a se sèlman pou edikasyon finansye jeneral, e li pa konstitye konsèy finansye, envestisman, taks, oswa legal pèsonalize. Konsilte yon pwofesyonèl finansye ki gen lisans anvan w pran desizyon envestisman.*
+
+===== GOLD-L3-018
+TITLE: Poukisa disiplin reekilibraj enpòtan plis nan mache ki volatil
+SUMMARY: Aprann poukisa tantasyon sikolojik pou abandone yon plan reekilibraj pi fò egzakteman lè swiv li enpòtan pi plis.
+# GOLD-L3-018: Poukisa disiplin reekilibraj enpòtan plis nan mache ki volatil
+
+## Objektif aprantisaj
+Lè w fin fè leson sa a, w ap kapab:
+- Esplike poukisa disiplin reekilibraj pi difisil pou kenbe pandan mache ki volatil
+- Esplike poukisa se egzakteman peryòd sa a reekilibraj enpòtan pi plis
+- Konekte konsèp sa a ak patipri konpòtman yo kouvri nan tras WHITE kourikoulòm sa a
+
+## Kontni prensipal
+
+Tras WHITE kourikoulòm sa a te prezante reekilibraj (rebalancing) kòm yon fason mekanik pou mete disiplin "achte ba, vann wo" nan yon pòtfèy. Men "poukisa" disiplin sa a vrèman pi difisil pou kenbe, e an menm tan li gen plis valè, pandan peryòd gwo volatilite sou mache a.
+
+Pandan yon bès rapid, reekilibraj ta anjeneral mande vann byen ki relativman fè pi byen (petèt obligasyon oswa lò, dapre diskisyon Leson 14 la sou reyaksyon diferan) pou achte plis nan byen k ap bese a (petèt aksyon) — yon aksyon mekanik ki ale dirèkteman kont ayèsyon pou pèt (loss aversion) ak patipri pou sa ki fèk pase (recency bias) yo kouvri lòt kote nan tras WHITE kourikoulòm sa a. Li ka fè w santi w trè malalèz pou achte plis nan yon bagay k ap pèdi valè kounye a, menm si se egzakteman konpòtman mekanik "achte ba" reekilibraj fèt pou fè respekte a.
+
+[FÈ VERIFYE] Se egzakteman poukisa kenbe disiplin reekilibraj espesyalman pandan peryòd volatil — pa sèlman pandan mache kalm, alèz — se kote vrè valè estrateji a gen tandans pase tès li e, si yo swiv li jiskobou, kote valè sa a ka reyalize. Abandone plan an espesyalman lè li sanble pi difisil pou swiv detwi yon gwo pati nan objektif li.
+
+## Egzanp pratik
+
+[EGZANP ILISTRATIF] Plan reekilibraj yon envestisè mande pou l vann kèk nan obligasyon li yo, ki kenbe relativman byen, pou l achte plis aksyon, ki bese anpil pandan yon bès sou mache a — egzakteman kalite aksyon mekanik "achte ba" estrateji reekilibraj la fèt pou pwodui a. [SIPOZISYON] Swiv plan sa a jiskobou fè l santi l trè malalèz, paske sa vle di achte plis nan yon byen k ap pèdi valè kounye a, sa ki antre an konfli dirèk ak tantasyon emosyonèl ayèsyon pou pèt ak patipri pou sa ki fèk pase dekri yo. Yon envestisè ki abandone plan reekilibraj li espesyalman pandan peryòd malalèz sa a, ki tann pou bagay yo "santi yo pi an sekirite" anvan l reekilibre, rate egzakteman moman estrateji a te fèt pou pwofite a.
+
+## Egzamen pratik
+
+1. Poukisa disiplin reekilibraj pi difisil pou kenbe pandan mache ki volatil?
+2. Poukisa se menm peryòd sa a reekilibraj ka enpòtan pi plis?
+3. Kijan leson sa a konekte ak patipri konpòtman yo kouvri lòt kote nan tras WHITE kourikoulòm sa a?
+
+## Kle repons yo
+
+1. Paske reekilibre pandan yon bès ta mande achte plis nan yon byen k ap bese, sa ki ale dirèkteman kont tantasyon emosyonèl ayèsyon pou pèt ak patipri pou sa ki fèk pase.
+2. Paske se egzakteman konpòtman "achte ba" reekilibraj fèt mekanikman pou fè respekte a — abandone plan an pandan peryòd sa a detwi yon gwo pati nan objektif li.
+3. Leson sa a aplike dirèkteman konsèp ayèsyon pou pèt ak patipri pou sa ki fèk pase pou esplike poukisa disiplin reekilibraj kraze espesyalman pandan peryòd volatil, lè li ta gen plis valè otreman.
+
+## Repons ak eksplikasyon
+
+1. Sa a se tansyon sikolojik santral leson an bati sou li.
+2. Sa ranfòse poukisa malèz yo dekri a pa yon rezon pou abandone plan an, men se objektif li.
+3. Sa konekte leson an klèman ak konsèp konpòtman paralèl yo kouvri lòt kote nan kourikoulòm sa a.
+
+## Pwen kle yo
+- Disiplin reekilibraj pi difisil pou kenbe pandan mache ki volatil, paske li mande achte plis nan yon byen k ap bese.
+- Menm peryòd sa a se egzakteman lè benefis mekanik "achte ba" reekilibraj la ka enpòtan pi plis.
+- Abandone yon plan reekilibraj espesyalman lè li sanble pi difisil detwi yon gwo pati nan objektif li.
+
+---
+
+*Leson sa a se sèlman pou edikasyon finansye jeneral, e li pa konstitye konsèy finansye, envestisman, taks, oswa legal pèsonalize. Pèfòmans pase pa garanti rezilta alavni. Konsilte yon pwofesyonèl finansye ki gen lisans anvan w pran desizyon envestisman.*
