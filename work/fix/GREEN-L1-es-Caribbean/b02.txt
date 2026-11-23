@@ -1,0 +1,238 @@
+===== GREEN-L1-011
+TITLE: Ingreso bruto frente a ingreso neto
+SUMMARY: Aclara la diferencia entre el ingreso bruto y el ingreso neto, una distinción básica para leer los talonarios de pago, hacer un presupuesto y entender las finanzas de un negocio.
+# Ingreso bruto frente a ingreso neto
+
+## Objetivos de aprendizaje
+- Definir el ingreso bruto y el ingreso neto.
+- Explicar qué suele causar la diferencia entre los dos.
+- Aplicar la distinción a un caso de cheque de pago.
+
+## Contenido principal
+
+El ingreso bruto es la cantidad total que se gana antes de restar nada. El ingreso neto es lo que queda después de las restas: los impuestos y, a menudo, otras deducciones como los aportes para el retiro o las primas del seguro médico. La diferencia entre el bruto y el neto es lo que sorprende a la mayoría de las personas la primera vez que ven un cheque de pago real.
+
+Esta distinción importa mucho más allá de los cheques de pago. Los negocios hablan de ingresos brutos frente a ganancia neta con la misma lógica de fondo: el bruto es el total de la línea superior y el neto es lo que queda después de restar los costos y las obligaciones. Cada vez que oiga que una cifra se describe como «bruta», la primera pregunta que vale la pena hacerse es: ¿bruta antes de qué, exactamente, y cuánto más pequeña será la neta?
+
+## Ejemplo práctico
+
+**Pregunta:** Una oferta de empleo dice que el salario es de $60,000. ¿Es esa la cantidad que realmente llegará a la cuenta bancaria cada año?
+
+**Estudiante:** Supongo que no, porque primero se descuentan los impuestos y otras deducciones.
+
+**Guía:** Correcto. ¿Cómo llamaría a la cifra de $60,000 y cómo llamaría a la cantidad que realmente llega a la cuenta?
+
+**Estudiante:** Los $60,000 son el ingreso bruto, y la cantidad que queda después de los impuestos y las deducciones es el ingreso neto.
+
+**Guía:** Exactamente. Siempre haga su presupuesto con base en el neto, no en el bruto.
+
+## Prueba práctica
+
+**Pregunta 1.** El ingreso bruto es:
+
+A) La cantidad después de todas las deducciones
+B) La cantidad total que se gana antes de cualquier deducción
+C) Solo el ingreso de inversiones
+D) Siempre igual al ingreso neto
+
+**Pregunta 2.** El ingreso neto es:
+
+A) La cantidad antes de las deducciones
+B) Lo que queda después de restar los impuestos y otras deducciones
+C) Algo que no tiene relación con el ingreso bruto
+D) Siempre más alto que el ingreso bruto
+
+**Pregunta 3.** ¿Por qué importa para el presupuesto la diferencia entre el bruto y el neto?
+
+A) No importa
+B) Hacer el presupuesto con el bruto en vez del neto puede llevar a sobrestimar el dinero disponible
+C) El neto siempre es más alto que el bruto
+D) El bruto no tiene importancia para los negocios
+
+**Pregunta 4.** Los negocios usan una distinción parecida entre bruto y neto para:
+
+A) Los ingresos frente a la ganancia
+B) Nada: es solo de las finanzas personales
+C) Solo el número de empleados
+D) Solo el gasto en mercadeo
+
+## Clave de respuestas
+
+1. B, 2. B, 3. B, 4. A
+
+## Respuestas y explicaciones
+
+**1.** El bruto es el total de la línea superior, antes de las deducciones: la cifra principal.
+
+**2.** El neto es la cantidad real que queda después de los impuestos y otras restas, y es lo que realmente llega a su cuenta.
+
+**3.** Planificar con la cifra bruta conlleva el riesgo de suponer que tiene más dinero disponible para gastar del que realmente tendrá.
+
+**4.** Los negocios aplican la misma lógica a los ingresos (bruto) frente a la ganancia (neto).
+
+## Puntos clave
+
+- El ingreso bruto es el total antes de las deducciones; el ingreso neto es lo que queda después de ellas.
+- La diferencia suele ser los impuestos más otras retenciones, como las del retiro o del seguro.
+- Haga siempre su presupuesto con base en el ingreso neto, no en el bruto.
+- La misma lógica de bruto frente a neto se aplica a los ingresos y la ganancia de un negocio.
+
+===== GREEN-L1-012
+TITLE: Cómo leer su talonario de pago
+SUMMARY: Un recorrido práctico para leer un talonario de pago típico, que relaciona conceptos anteriores (bruto y neto, retención, impuesto sobre la nómina) con un documento real.
+# Cómo leer su talonario de pago
+
+## Objetivos de aprendizaje
+- Identificar las secciones principales de un talonario de pago típico.
+- Ubicar el pago bruto, las deducciones y el pago neto en un talonario de muestra.
+- Explicar por qué revisar el talonario de pago con regularidad es un buen hábito.
+
+## Contenido principal
+
+El talonario de pago es el documento, impreso o digital, que desglosa un cheque de pago. Aunque los formatos varían según el patrono y el país, la mayoría de los talonarios tienen una estructura común: el pago bruto arriba, una lista de deducciones en el medio (impuestos, aportes para el retiro, primas de seguro) y el pago neto (la cantidad real que se deposita) abajo.
+
+La sección de deducciones suele separar distintas categorías: la retención del impuesto sobre la renta, el impuesto sobre la nómina (que a menudo aparece por separado para los programas de retiro y de salud) y cualquier deducción voluntaria que haya escogido el empleado, como los aportes a un plan de retiro. Un talonario también suele mostrar los totales acumulados del año, que le permiten seguir sus ganancias y retenciones acumuladas a lo largo del año, y no solo las de un período de pago.
+
+Revisar su talonario de pago con regularidad es un hábito práctico, no solo un ejercicio burocrático. Es la forma de detectar errores (horas equivocadas, una retención de impuestos incorrecta, un aumento que no se aplicó) antes de que se acumulen durante meses. También es la forma de formarse una idea real y continua de la diferencia entre lo que gana y lo que se lleva a casa, lo que alimenta directamente su presupuesto.
+
+## Ejemplo práctico
+
+**Pregunta:** Un trabajador mira su talonario y ve una columna que dice «YTD». ¿Qué significa probablemente y por qué importaría?
+
+**Estudiante:** Supongo que YTD significa «year to date», es decir, «acumulado del año»: el total que se va sumando desde el comienzo del año.
+
+**Guía:** Correcto. ¿Por qué sería útil ese total acumulado, más allá de las cifras de este cheque de pago?
+
+**Estudiante:** Permite seguir el total ganado y el total retenido a lo largo del tiempo, lo que ayuda a detectar errores o a planificar para la temporada de impuestos en vez de ver solo un período de pago a la vez.
+
+**Guía:** Exactamente. Un solo talonario es una foto instantánea; el acumulado del año le muestra la tendencia.
+
+## Prueba práctica
+
+**Pregunta 1.** Un talonario de pago suele mostrar:
+
+A) Solo la cantidad del pago neto
+B) El pago bruto, las deducciones y el pago neto
+C) Solo el impuesto adeudado del año
+D) Nada relacionado con los impuestos
+
+**Pregunta 2.** En un talonario de pago, «YTD» muy probablemente significa:
+
+A) Deducción de impuestos anual (Yearly Tax Deduction)
+B) Acumulado del año (Year to Date)
+C) Su deuda total (Your Total Debt)
+D) Rendimiento a la fecha (Yield to Date)
+
+**Pregunta 3.** Revisar los talonarios de pago con regularidad le ayuda a:
+
+A) Nada útil
+B) Detectar errores como horas equivocadas o una retención incorrecta
+C) Evitar pagar impuestos
+D) Aumentar automáticamente su pago bruto
+
+**Pregunta 4.** La sección de deducciones de un talonario suele incluir:
+
+A) Solo compras voluntarias
+B) La retención del impuesto sobre la renta, el impuesto sobre la nómina y las deducciones voluntarias
+C) Solo los días de vacaciones
+D) Nada relacionado con los impuestos
+
+## Clave de respuestas
+
+1. B, 2. B, 3. B, 4. B
+
+## Respuestas y explicaciones
+
+**1.** Un talonario estándar va del pago bruto, pasando por las deducciones, hasta la cifra final del pago neto.
+
+**2.** Los totales acumulados del año (YTD) dan una imagen continua de todo el año, no solo de un período de pago.
+
+**3.** Detectar un error de nómina a tiempo, antes de que se repita durante meses, es una de las razones más prácticas para revisar los talonarios.
+
+**4.** Las deducciones suelen agrupar las retenciones obligatorias con cualquier aporte opcional que haya establecido el empleado.
+
+## Puntos clave
+
+- En general, los talonarios de pago van del pago bruto, pasando por las deducciones, hasta el pago neto.
+- Las cifras del acumulado del año (YTD) siguen los totales acumulados de todo el año, no solo de un período de pago.
+- Revisar los talonarios con regularidad ayuda a detectar a tiempo los errores de nómina.
+- Entender su talonario se conecta directamente con los conceptos de bruto y neto y de retención de las lecciones anteriores.
+
+===== GREEN-L1-013
+TITLE: ¿Qué es la retención?
+SUMMARY: Explica la retención de impuestos: por qué los patronos descuentan el impuesto estimado antes de pagarle, en vez de esperar a un solo pago grande más adelante.
+# ¿Qué es la retención?
+
+## Objetivos de aprendizaje
+- Definir la retención en términos sencillos.
+- Explicar por qué existe la retención como un sistema de pago sobre la marcha.
+- Reconocer la retención como una estimación, no como la factura final de impuestos.
+
+## Contenido principal
+
+La retención es el dinero que un patrono descuenta por adelantado de su cheque de pago y envía directamente al gobierno en su nombre, como un pago estimado para su futura factura de impuestos. En vez de esperar hasta el final del año para hacer un solo pago grande de impuestos, la mayoría de los sistemas cobran el impuesto poco a poco, cheque por cheque, a lo largo del año.
+
+Es importante entender que la retención es una estimación, no la última palabra. Al final del año tributario, su obligación tributaria real se calcula con base en su ingreso total, sus deducciones y sus créditos, y esa cifra se compara con lo que se retuvo. Si se retuvo de más, normalmente le devuelven dinero (un reembolso). Si se retuvo de menos, normalmente debe pagar más. Las cantidades de retención suelen basarse en la información que da el empleado (como el ingreso esperado y la situación de su hogar), y por eso los cambios de vida (un empleo nuevo, un matrimonio, un nuevo dependiente) son una buena razón para revisar su configuración de retención.
+
+## Ejemplo práctico
+
+**Pregunta:** El patrono de un trabajador le retiene impuestos de cada cheque de pago durante todo el año. Al final del año, ¿el trabajador todavía tiene que presentar algo?
+
+**Estudiante:** Supondría que no, porque el impuesto ya se descontó.
+
+**Guía:** Pero ¿la retención es lo mismo que su factura final exacta de impuestos?
+
+**Estudiante:** No: usted dijo que es una estimación. Así que el trabajador probablemente todavía tiene que presentar la declaración para comparar lo que se retuvo con lo que realmente debe.
+
+**Guía:** Exactamente. Presentar la declaración concilia la estimación con la cifra real, y por eso existen tanto los reembolsos como los saldos por pagar.
+
+## Prueba práctica
+
+**Pregunta 1.** La mejor descripción de la retención es:
+
+A) Su factura final de impuestos
+B) Un pago estimado por adelantado para su futura obligación tributaria
+C) Una donación voluntaria
+D) Dinero que nunca recupera
+
+**Pregunta 2.** Si se retiene demasiado impuesto durante el año, el resultado típico es:
+
+A) Una penalidad
+B) Un reembolso
+C) No pasa nada
+D) Usted debe el doble
+
+**Pregunta 3.** Si se retiene muy poco impuesto, el resultado típico es:
+
+A) Un reembolso
+B) Es posible que deba un impuesto adicional cuando presente la declaración
+C) No pasa nada
+D) Lo despiden de su empleo
+
+**Pregunta 4.** Una buena razón para revisar su configuración de retención es:
+
+A) Un cambio de vida importante, como un matrimonio o un empleo nuevo
+B) Nunca: la configuración no se puede cambiar
+C) Solo si trabaja por cuenta propia
+D) Solo una vez, en su primer empleo
+
+## Clave de respuestas
+
+1. B, 2. B, 3. B, 4. A
+
+## Respuestas y explicaciones
+
+**1.** La retención es una estimación de pago sobre la marcha que se cobra a lo largo del año, no el cálculo final.
+
+**2.** El pago de más mediante la retención se le devuelve como reembolso después de que la declaración concilia las cifras.
+
+**3.** El pago de menos significa que la diferencia normalmente se debe cuando se calcula la obligación tributaria real.
+
+**4.** Como la retención se basa en la información que usted da, los cambios de vida importantes son un motivo natural para revisarla.
+
+## Puntos clave
+
+- La retención es un pago de impuestos estimado y continuo que se descuenta de los cheques de pago a lo largo del año.
+- No es lo mismo que su factura final de impuestos: presentar la declaración concilia las dos.
+- Retener de más produce un reembolso; retener de menos produce un saldo por pagar.
+- Los cambios de vida son un buen motivo para revisar y ajustar su retención.
