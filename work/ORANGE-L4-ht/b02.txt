@@ -309,3 +309,159 @@ Q5: B
 - Swiv to konvèsyon nan chak etap endividyèl revele plis enfòmasyon ou ka aji sou li pase yon sèl to siksè jeneral, paske diferan modèl debaz ka bay menm chif total idantik.
 - Idantifye yon etap espesifik ki gen yon konvèsyon ki ba dirije efò amelyorasyon yo egzakteman vè etap sa a, olye l mande yon efò jeneral vag, san direksyon.
 - Diferan etap ka gen kòz debaz ki vrèman diferan pou yon konvèsyon ki ba, sa ki mande yon bon dyagnostik anvan w aplike yon remèd ki apwopriye pou etap la.
+
+===== ORANGE-L4-010
+TITLE: Analiz vant konsiltatif konpare ak vant tranzaksyonèl: poukisa bon apwòch la depann de vrè konpleksite acha a
+SUMMARY: Konprann diferans ant vant konsiltatif ak vant tranzaksyonèl, poukisa yon acha konplèks mande yon apwòch konsiltatif, poukisa yon apwòch tranzaksyonèl ka kraze konfyans nan yon acha konplèks, ak poukisa twòp konsiltasyon ka fatige yon achtè ki gen yon acha senp.
+KEYWORDS: vant konsiltatif, vant tranzaksyonèl, apwòch vant ki adapte, konpleksite acha
+# Analiz vant konsiltatif konpare ak vant tranzaksyonèl: poukisa bon apwòch la depann de vrè konpleksite acha a
+
+## Senaryo pou louvri leson an
+SIPOZISYON/OPINYON (senaryo ipotetik pou objektif ansèyman sèlman): Imajine mache imobilye ak mache kredi konsomatè yon peyi ki gen anpil moun, apre plizyè ane ekspansyon rapid, k ap kòmanse montre siy yon gwo koreksyon pandan moun ki pa peye dèt yo ap kòmanse ogmante. Pandan yon boom ki te alimante pa kredi ap defèt e achtè yo vin pi pridan e pi reflechi sou gwo acha, ekip vant ki abitye ak yon apwòch rapid, tranzaksyonèl dekouvri ke kèk nan òf yo vrèman mande yon apwòch vant ki fondamantalman diferan, ki pi konsiltatif, sa ki pouse yo bay plis atansyon a ki lè chak apwòch espesifik vrèman adapte.
+
+## Objektif aprantisaj
+- Esplike diferans ant vant konsiltatif ak vant tranzaksyonèl kòm de apwòch vant ki vrèman diferan.
+- Esplike poukisa yon acha konplèks, ki mande anpil refleksyon anjeneral mande yon apwòch konsiltatif, alòske yon acha senp, ki pa mande anpil refleksyon anjeneral mande yon apwòch tranzaksyonèl.
+- Esplike poukisa aplike yon apwòch tranzaksyonèl pou yon acha konplèks ka kraze konfyans e diminye konvèsyon, sa ki fè echo ak diskisyon anvan nan nivo sa a sou move koresponn etap antonwa.
+- Esplike poukisa aplike yon apwòch twò konsiltatif pou yon acha senp ka ralanti pwosesis la pou anyen e fatige yon achtè ki pa bezwen oswa ki pa vle anpil refleksyon.
+
+## Kontni prensipal
+Vant konsiltatif se yon apwòch vant ki mete aksan sou vrèman konprann bezwen ak sitiyasyon espesifik yon prospè, li pozisyone vandè a kòm yon konseye moun fè konfyans k ap ede prospè a rive nan pi bon desizyon pou pwòp sitiyasyon patikilye li, sa ki anjeneral gen ladan yon pwosesis vant ki pi long, ki baze sou relasyon. FÈ VERIFYE: vant tranzaksyonèl, okontrè, se yon apwòch vant ki mete aksan sou efikasite ak yon chemen relativman rapid vè yon desizyon acha senp, ki anjeneral apwopriye pou acha ki mwens konplèks, ki gen pi ba pri, kote anpil konsiltasyon ta bay ti vrè valè anplis pou achtè a.
+
+Men "poukisa" yon acha konplèks, ki mande anpil refleksyon anjeneral mande yon apwòch konsiltatif: yon acha ki gen ladan yon gwo angajman finansye, yon konpleksite enpòtan pou fè òf espesifik la koresponn ak pwòp sitiyasyon patikilye achtè a, oswa yon vrè risk si yo fè move chwa a, anjeneral benefisye de yon pwosesis vant ki pran tan pou vrèman konprann sitiyasyon espesifik achtè a e pou bay yon gid enfòme, ou ka fè konfyans, paske yon achtè k ap fè fas ak kalite desizyon enpòtan, konplèks sa a anjeneral bay valè a, e souvan chèche aktivman, kalite sipò konsiltatif serye sa a olye yon pwopozisyon rapid, senplifye ki pa trete kòrèkteman pwòp sitiyasyon ak enkyetid patikilye li.
+
+Se poutèt sa aplike yon apwòch tranzaksyonèl pou yon acha konplèks ka kraze konfyans e diminye konvèsyon, sa ki fè echo ak diskisyon anvan nan nivo sa a sou move koresponn etap antonwa: yon achtè k ap fè fas ak yon desizyon ki vrèman konplèks, enpòtan ki resevwa pito yon pwopozisyon rapid, jeneral, ki gen stil tranzaksyonèl ka konkli rezonabman ke vandè a pa vrèman konprann, oswa pa vrèman okipe, pwòp sitiyasyon espesifik li, sa ki kraze konfyans kalite gwo desizyon acha sa a vrèman mande, ki sanble nan lojik debaz li ak poukisa yon pwopozisyon vant agresif, twò bonè ka repouse yon prospè ki toujou nan yon etap bonè kote l ap bati konfyans. Se poutèt sa aplike yon apwòch twò konsiltatif pou yon acha senp ka ralanti pwosesis la pou anyen e fatige yon achtè ki pa bezwen oswa ki pa vle anpil refleksyon: yon achtè k ap pran yon desizyon acha ki pa konplèks, ki gen ti risk anjeneral pa bezwen, e li ka vrèman fatige ak, yon pwosesis vant konsiltatif long k ap poze anpil kesyon detaye sou sitiyasyon espesifik li lè yon tranzaksyon senp, efikas ta sèvi vrè bezwen li pi byen anpil, sa ki vle di fè apwòch vant lan koresponn ak vrè konpleksite acha a, olye w toujou itilize yon sèl apwòch kèlkeswa sitiyasyon espesifik la, enpòtan anpil pou efikasite vant jeneral nan de direksyon yo.
+
+## Egzanp pratik
+EGZANP ILISTRATIF: Yon biznis ki vann yon sistèm lojisyèl antrepriz ki enpòtan, ki konplèks adopte yon apwòch konsiltatif, li pran tan pou vrèman konprann bezwen operasyonèl espesifik chak prospè anvan l rekòmande yon solisyon ki adapte, li bati kalite konfyans gwo desizyon acha konplèks sa a vrèman mande. Yon lòt biznis ki vann yon pwodwi senp, ki pa koute chè, ki estanda itilize pito yon pwosesis peman rapid, tranzaksyonèl ak mwens obstak posib, li rekonèt kòrèkteman ke pifò achtè pwodwi senp sa a deja konnen egzakteman sa yo vle e yo ta jwenn yon pwosesis vant konsiltatif long pa nesesè e fatigan — sa ki montre egzakteman poukisa apwòch vant ki apwopriye a depann de vrè konpleksite ak enpòtans desizyon acha espesifik ki konsène a.
+
+## Egzamen pratik
+**Q1. Ki diferans fondamantal ki genyen ant vant konsiltatif ak vant tranzaksyonèl?**
+A) De apwòch sa yo idantik, san okenn diferans enpòtan ant yo
+B) Vant konsiltatif mete aksan sou vrèman konprann bezwen prospè a ak yon gid konseye moun fè konfyans pandan yon pwosesis ki pi long, alòske vant tranzaksyonèl mete aksan sou efikasite ak yon chemen rapid vè yon desizyon acha senp
+C) Vant tranzaksyonèl toujou gen plis konsiltasyon pase vant konsiltatif
+D) Se sèlman vant konsiltatif ki janm apwopriye, kèlkeswa acha espesifik ki konsène a
+
+**Q2. Poukisa yon acha konplèks, ki mande anpil refleksyon anjeneral mande yon apwòch konsiltatif?**
+A) Acha konplèks toujou benefisye plis de pwosesis vant ki pi rapid, ki pi efikas posib la
+B) Yon acha ki gen ladan yon gwo angajman, konpleksite, ak risk anjeneral benefisye de yon pwosesis vant ki vrèman konprann sitiyasyon espesifik achtè a e ki bay yon gid enfòme, ou ka fè konfyans, sa achtè k ap fè fas ak kalite desizyon sa a anjeneral bay valè e chèche
+C) Konpleksite acha a pa gen okenn vrè rapò ak ki apwòch vant ki pi apwopriye
+D) Se sèlman vant tranzaksyonèl ki janm apwopriye pou nenpòt acha, kèlkeswa konpleksite li
+
+**Q3. Poukisa aplike yon apwòch tranzaksyonèl pou yon acha konplèks ka kraze konfyans e diminye konvèsyon?**
+A) Yon apwòch tranzaksyonèl toujou bati plis konfyans pase yon apwòch konsiltatif, kèlkeswa konpleksite acha a
+B) Yon achtè k ap fè fas ak yon desizyon konplèks ki resevwa yon pwopozisyon rapid, jeneral ka konkli rezonabman vandè a pa vrèman konprann oswa pa vrèman okipe sitiyasyon espesifik li, sa ki kraze konfyans kalite gwo desizyon sa a mande
+C) Konfyans pa gen okenn vrè rapò ak ki apwòch vant yo aplike pou yon desizyon acha
+D) Acha konplèks pa janm vrèman afekte pa apwòch vant espesifik yo itilize a
+
+**Q4. Poukisa aplike yon apwòch twò konsiltatif pou yon acha senp ka ralanti pwosesis la pou anyen e fatige achtè a?**
+A) Achtè k ap fè acha senp toujou vle e apresye yon pwosesis konsiltatif long, detaye
+B) Yon achtè k ap pran yon desizyon ki pa konplèks, ki gen ti risk anjeneral pa bezwen anpil refleksyon, e yon pwosesis konsiltatif ki twò long san nesesite ka vrèman fatige yon achtè ki ta jwenn pi bon sèvis nan yon tranzaksyon senp, efikas
+C) Senplisite acha a pa gen okenn vrè rapò ak jan yon achtè viv yon apwòch vant konsiltatif
+D) Yon apwòch twò konsiltatif toujou menm jan apwopriye kèlkeswa vrè konpleksite acha a
+
+**Q5. Nan egzanp lan, poukisa de biznis yo te itilize kòrèkteman apwòch vant diferan pou pwodwi yo chak?**
+A) De biznis yo te an reyalite itilize menm apwòch vant idantik pou pwodwi yo chak
+B) Desizyon acha konplèks, enpòtan biznis lojisyèl antrepriz la te vrèman benefisye de yon gid konsiltatif ki bati konfyans, alòske achtè pwodwi senp, ki pa koute chè a te deja konnen sa yo vle e yo te jwenn pi bon sèvis nan yon pwosesis tranzaksyonèl efikas, ak mwens obstak
+
+## Kle repons yo
+Q1: B
+Q2: B
+Q3: B
+Q4: B
+Q5: B
+
+## Repons ak eksplikasyon
+**Q1.** Diferans sa a ant yon apwòch long, konseye ak yon apwòch efikas, senp se egzakteman sa ki fè vant konsiltatif diferan de vant tranzaksyonèl.
+
+**Q2.** Aliyman sa a ant vrè bezwen achtè a pou yon gid serye sou desizyon konplèks ak aksan apwòch konsiltatif la mete sou konpreyansyon se egzakteman poukisa konpleksite favorize apwòch vant patikilye sa a.
+
+**Q3.** Move koresponn sa a ant yon apwòch rapid, jeneral ak vrè konfyans desizyon konplèks achtè a mande se egzakteman poukisa aplike vant tranzaksyonèl pou yon acha konplèks ka bay move rezilta.
+
+**Q4.** Move koresponn sa a ant yon refleksyon long ki pa nesesè ak vrè bezwen desizyon senp achtè a se egzakteman poukisa yon apwòch twò konsiltatif ka bay move rezilta pou yon acha ki pa konplèks.
+
+**Q5.** Kontras dirèk sa a ant yon acha konplèks ki adapte pou vant konsiltatif ak yon acha senp ki adapte pou vant tranzaksyonèl montre egzakteman poukisa fè apwòch vant lan koresponn ak vrè konpleksite acha a enpòtan pou efikasite jeneral.
+
+## Pwen kle yo
+- Vant konsiltatif mete aksan sou vrè konpreyansyon ak yon gid konseye moun fè konfyans pou desizyon konplèks, alòske vant tranzaksyonèl mete aksan sou efikasite pou acha senp, ki pa konplèks.
+- Acha konplèks, ki mande anpil refleksyon anjeneral benefisye de yon apwòch konsiltatif, paske achtè k ap fè fas ak gwo desizyon bay valè a yon gid serye, ou ka fè konfyans.
+- Aplike yon apwòch tranzaksyonèl pou yon acha konplèks ka kraze konfyans, paske yon pwopozisyon rapid, jeneral ka montre yon mank vrè konpreyansyon sitiyasyon espesifik achtè a.
+- Aplike yon apwòch twò konsiltatif pou yon acha senp ka fatige yon achtè ki ta jwenn pi bon sèvis nan yon tranzaksyon efikas, senp, sa ki vle di apwòch la ta dwe koresponn ak vrè konpleksite acha a.
+
+===== ORANGE-L4-011
+TITLE: Analiz jan pou trete objeksyon: poukisa yon objeksyon se enfòmasyon, pa yon refi
+SUMMARY: Konprann poukisa yon objeksyon se enfòmasyon sou yon vrè enkyetid, poukisa reponn sèlman sa moun di a souvan pa rezoud pwoblèm nan, poukisa fòse yon prospè pase yon objeksyon riske anilasyon, ak poukisa kèk objeksyon se vrè rezon pou pa fè zafè a.
+KEYWORDS: trete objeksyon, objeksyon nan vant, enkyetid debaz, risk taktik presyon
+# Analiz jan pou trete objeksyon: poukisa yon objeksyon se enfòmasyon, pa yon refi
+
+## Senaryo pou louvri leson an
+SIPOZISYON/OPINYON (senaryo ipotetik pou objektif ansèyman sèlman): Imajine yon gwo pwoblèm sante piblik ki kanpe transpò maritim ak fabrikasyon nan lemonn antye pandan yon bon bout tan, sa ki bloke chèn ekipman nan anpil endistri an menm tan. Pandan yon gwo pwoblèm konsa fè achtè yo vin pi pridan e gen plis chans pou yo leve enkyetid anvan yo angaje yo nan yon acha, ekip vant ki abitye trete chak objeksyon kòm yon obstak pou yo pouse pase dekouvri ke mantalite espesifik sa a an reyalite fè yo pèdi vant yo te ka genyen otreman.
+
+## Objektif aprantisaj
+- Esplike poukisa yo ta dwe anjeneral trete objeksyon yon prospè kòm enfòmasyon sou yon vrè enkyetid debaz, olye tou senpleman yon refi pou yo depase.
+- Esplike poukisa reponn sèlman sa objeksyon an di an sifas, san trete vrè enkyetid debaz li, souvan pa vrèman rezoud ezitasyon prospè a.
+- Esplike poukisa fòse yon prospè pase yon objeksyon li deklare, san vrèman trete l, riske yon vant ki anile pita oswa yon kliyan ki kite rapid.
+- Esplike poukisa kèk objeksyon se vrè rezon pou pa fè zafè a ke okenn kantite abilite pa ta dwe eseye depase.
+
+## Kontni prensipal
+Yon objeksyon se yon enkyetid oswa yon ezitasyon yon prospè deklare sou avanse ak yon acha, e FÈ VERIFYE, yon gwo kò fòmasyon ak pratik nan vant trete yon objeksyon kòm enfòmasyon ki gen valè sou vrè enkyetid debaz prospè a, olye kòm yon senp refi ki dwe diskite pou depase oswa yo dwe depase atravè pèsistans oswa presyon sèlman.
+
+Men "poukisa" reponn sèlman sa objeksyon an di an sifas, san trete vrè enkyetid debaz li, souvan pa rezoud vrè ezitasyon prospè a: yon objeksyon yo deklare ("pri a twò wo") souvan reprezante yon ekspresyon an sifas yon enkyetid ki pi pwofon, pafwa moun pa di, (vrè ensètitid sou si valè pwodwi a vrèman jistifye pri li, yon limit bidjè prospè a pa mansyone dirèkteman, oswa yon konparezon ak yon lòt opsyon espesifik vandè a poko konnen), sa ki vle di yon vandè ki reponn sèlman a objeksyon an sifas la (tou senpleman ofri yon rabè, pa egzanp) san l pa konprann e trete vrè enkyetid debaz la anvan souvan pa vrèman rezoud ezitasyon prospè a, menm si prospè a aksepte teknikman konsesyon espesifik yo ofri a.
+
+Se poutèt sa fòse yon prospè pase yon objeksyon li deklare, san vrèman trete l, riske yon vant ki anile pita oswa yon kliyan ki kite rapid: yon prospè yo fòse dakò malgre yon enkyetid debaz ki pa rezoud souvan viv yon vrè regrè achtè depi presyon konvèsasyon vant lan li menm fin pase, sa ki mennen nan yon kòmand ki anile, yon pwodwi yo retounen, oswa yon nouvo kliyan ki kite rapid depi enkyetid debaz yo pa t janm vrèman rezoud la tounen parèt nan itilizasyon òdinè — se egzakteman poukisa trete objeksyon ak abilite anjeneral gen ladan vrèman egzamine kòz debaz objeksyon an atravè kesyon ki byen reflechi, olye reponn touswit ak yon repons yo te ekri davans, sa ki fè echo ak tèm pi laj nivo sa a ke yon angajman konsiltatif, ki baze sou konfyans (selon Leson 10) anjeneral bay rezilta ki pi dirab pase presyon poukont li. Se poutèt sa kèk objeksyon se vrè rezon pou pa fè zafè a ke okenn kantite abilite pa ta dwe eseye depase: OPINYON ak yon avètisman etik ak pratik enpòtan, si vrè enkyetid debaz yon prospè reflete yon vrè move koresponn, ki egzat, ant sa li vrèman bezwen ak sa pwodwi a vrèman ofri, okenn kantite reformilasyon ak abilite oswa teknik pou konvenk pa ta dwe itilize pou fè prospè sa a pase yon enkyetid ki vrèman egzat, paske fè sa riske vann yon solisyon ki pa p vrèman sèvi kliyan espesifik sa a byen, sa ki finalman domaje konfyans ak repitasyon, sa ki vle di trete objeksyon yon fason efikas mande onètete pou rekonèt lè yon objeksyon reflete yon vrè move koresponn olye yon move konpreyansyon yon klarifikasyon ak abilite ta ka vrèman rezoud.
+
+## Egzanp pratik
+EGZANP ILISTRATIF: Yon prospè di, "pri a twò wo," e yon vandè yo fòme sèlman pou kontre objeksyon ofri touswit yon rabè 10%, prospè a aksepte l men pita li anile kòmand lan. Yon lòt vandè, ki tande menm objeksyon idantik la, poze pito yon kesyon pou klarifye e li dekouvri vrè enkyetid debaz prospè a se te ensètitid sou si pwodwi a ta mache ak sistèm li deja genyen yo, yon enkyetid ki pa gen okenn rapò ak pri. Trete vrè enkyetid debaz sa a dirèkteman rezoud vrè ezitasyon prospè a, sa ki bay yon vant ki vrèman rete, sa ki montre egzakteman poukisa konprann kòz debaz yon objeksyon bay rezilta ki pi dirab pase reponn sèlman a sa li di an sifas.
+
+## Egzamen pratik
+**Q1. Poukisa yo ta dwe anjeneral trete objeksyon yon prospè kòm enfòmasyon olye yon senp refi?**
+A) Objeksyon yo toujou vle di prospè a deside nèt li p ap janm achte
+B) Yon objeksyon souvan reprezante yon vrè enkyetid debaz, e trete l kòm enfòmasyon ki gen valè pèmèt yo vrèman idantifye e trete enkyetid sa a
+C) Objeksyon pa gen okenn vrè rapò ak okenn vrè enkyetid debaz yon prospè ta ka genyen
+D) Yo ta dwe toujou rejte objeksyon touswit san okenn lòt egzamen
+
+**Q2. Poukisa reponn sèlman sa yon objeksyon di an sifas souvan pa rezoud vrè ezitasyon an?**
+A) Sa objeksyon an di an sifas ak enkyetid debaz la toujou idantik, san okenn diferans enpòtan
+B) Yon objeksyon yo deklare souvan reprezante yon ekspresyon an sifas yon enkyetid debaz ki pi pwofon, sa ki vle di reponn sèlman a sa li di an sifas san trete vrè pwoblèm debaz la souvan pa vrèman rezoud ezitasyon prospè a
+C) Reponn a sa objeksyon an di an sifas toujou rezoud nèt e konplètman nenpòt enkyetid debaz otomatikman
+D) Enkyetid debaz pa gen okenn vrè rapò ak objeksyon yon prospè deklare
+
+**Q3. Poukisa fòse yon prospè pase yon objeksyon ki pa rezoud riske yon vant ki anile oswa yon kliyan ki kite rapid?**
+A) Taktik presyon toujou bay kliyan dirab, satisfè san okenn risk anilasyon oswa depa
+B) Yon prospè yo fòse dakò malgre yon enkyetid debaz ki pa rezoud souvan viv regrè achtè depi presyon vant lan pase, sa ki mennen nan anilasyon, retou, oswa depa rapid depi enkyetid la tounen parèt
+C) Regrè achtè pa gen okenn vrè rapò ak si yo te vrèman rezoud yon objeksyon debaz anvan yo te fèmen yon vant
+D) Fòse yon prospè pase yon objeksyon toujou rezoud enkyetid debaz li nèt
+
+**Q4. Poukisa kèk objeksyon se vrè rezon pou pa fè zafè a ke abilite pa ta dwe eseye depase?**
+A) Yo ka toujou depase chak objeksyon atravè yon teknik pou konvenk ki gen ase abilite
+B) Si yon objeksyon reflete yon vrè move koresponn, ki egzat, ant sa prospè a bezwen ak sa pwodwi a ofri, fè l pase enkyetid sa a riske vann yon solisyon ki pa p sèvi l byen, sa ki finalman domaje konfyans ak repitasyon
+C) Vrè move koresponn ant bezwen yon prospè ak kapasite yon pwodwi pa janm vrèman rive nan pratik
+D) Jan pou trete objeksyon ta dwe toujou bay priyorite a fèmen vant lan pase pwòp vrè pi bon enterè kliyan an
+
+**Q5. Nan egzanp lan, poukisa apwòch dezyèm vandè a te bay yon vant ki pi dirab pase premye a?**
+A) De vandè yo te an reyalite rive nan rezilta idantik, ki menm jan dirab
+B) Dezyèm vandè a te egzamine vrè kòz debaz objeksyon an (enkyetid sou entegrasyon, pa pri) e li te trete vrè enkyetid sa a dirèkteman, alòske premye vandè a te reponn sèlman a objeksyon an sifas la ak yon rabè ki pa t rezoud vrè pwoblèm debaz la, sa ki mennen nan anilasyon
+
+## Kle repons yo
+Q1: B
+Q2: B
+Q3: B
+Q4: B
+Q5: B
+
+## Repons ak eksplikasyon
+**Q1.** Fason sa a pou wè yon objeksyon kòm yon siyal yon vrè enkyetid debaz, olye yon senp refi, se egzakteman poukisa leson sa a rekòmande trete objeksyon kòm enfòmasyon ki gen valè.
+
+**Q2.** Diferans sa a ant objeksyon an sifas ak vrè kòz debaz yo se egzakteman poukisa trete sèlman sa yo di a souvan pa bay yon rezolisyon ki dire.
+
+**Q3.** Lyen sa a ant enkyetid ki pa rezoud ak regrè achtè oswa depa pita se egzakteman poukisa presyon san vrè rezolisyon riske rezilta negatif sa yo apre.
+
+**Q4.** Rekonesans etik ak pratik sa a ke kèk objeksyon reflete vrè move koresponn ki egzat se egzakteman poukisa leson sa a avèti kont eseye depase chak objeksyon kèlkeswa jan li vrèman valab.
+
+**Q5.** Kontras dirèk sa a ant trete vrè enkyetid debaz la ak trete sa objeksyon an di an sifas montre egzakteman poukisa konprann vrè kòz ezitasyon an bay rezilta vant ki pi dirab.
+
+## Pwen kle yo
+- Yo ta dwe anjeneral trete yon objeksyon kòm enfòmasyon sou yon vrè enkyetid debaz, pa tou senpleman yon refi pou depase.
+- Reponn sèlman a sa yon objeksyon di an sifas, san trete vrè kòz debaz li, souvan pa vrèman rezoud ezitasyon yon prospè.
+- Fòse yon prospè pase yon objeksyon ki pa rezoud riske regrè achtè, anilasyon, oswa depa rapid kliyan an depi presyon an pase.
+- Kèk objeksyon reflete vrè move koresponn ki egzat e yo pa ta dwe diskite pou depase yo, paske fè sa riske vann yon solisyon ki pa p vrèman sèvi kliyan an byen.
