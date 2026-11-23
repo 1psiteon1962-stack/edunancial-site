@@ -1,0 +1,493 @@
+===== ORANGE-L5-006
+TITLE: Negociar la adquisición de un negocio con todo el tablero a la vista
+SUMMARY: Una adquisición se negocia en precio, forma de pago, estructura, protecciones y transición; la MAAN determina el poder de negociación, e intercambiar términos que cada parte valora de forma distinta crea valor para ambas.
+KEYWORDS: negociar la adquisición de un negocio, MAAN en una adquisición, negociación de un negocio, términos del precio de compra, negociación de un pago condicionado
+# Negociar la adquisición de un negocio con todo el tablero a la vista
+
+## Escenario inicial
+SUPUESTO/OPINIÓN (escenario hipotético solo con fines educativos): Imagine un gran bloque comercial que impone de repente aranceles altos sobre una amplia categoría de bienes manufacturados importados, lo que eleva los costos de las empresas que dependen de esas importaciones como insumos.
+Aplíquelo aquí: Los nuevos aranceles hacen menos rentable un pequeño negocio de importación, y su dueño quiere vender. Un comprador ve una oportunidad. Pregunte desde varios colores: ¿cuál es la mejor alternativa de cada parte (NARANJA)? ¿Cómo debe repartirse el precio entre efectivo, financiación del vendedor y un pago condicionado (AZUL)? ¿Qué protecciones legales importan más (MORADO)? ¿Qué estructura fiscal beneficia a ambas partes (VERDE)?
+
+## Objetivos de aprendizaje
+- Aplicar la MAAN y el anclaje a la negociación de una adquisición
+- Hacer intercambios entre el precio, los términos, las protecciones y la estructura
+- Negociar de una forma que conserve la relación después del cierre
+
+## Contenido principal
+En el nivel 4, el NARANJA cubrió los fundamentos de la negociación: la MAAN (mejor alternativa a un acuerdo negociado), el anclaje, el precio de reserva y la creación de valor mediante intercambios. En el nivel 5, usted los usa en una de las negociaciones más complejas de los negocios: comprar una empresa.
+Lo que puede negociarse en una adquisición:
+- El precio (NARANJA/BLANCO): el valor principal.
+- La forma de pago (AZUL): efectivo al cierre, financiación del vendedor, pagos condicionados al desempeño futuro o acciones de la empresa del comprador.
+- La estructura (VERDE/MORADO): compra de activos o de acciones (PURPLE-L5-023 en la pista del derecho), lo que afecta los impuestos de ambas partes.
+- Las protecciones (MORADO): las representaciones, las garantías, las indemnizaciones, las plicas y los topes (PURPLE-L5-021).
+- La transición (NEGRO): cuánto tiempo se queda el vendedor para ayudar, y en qué papel.
+- La no competencia (MORADO): si el vendedor puede competir después.
+- Los empleados (NEGRO): si los empleados clave se quedan y en qué términos.
+La creación de valor mediante intercambios: como los compradores y los vendedores valoran de forma distinta los diferentes términos, un negocio puede ser mejor para ambos que un simple regateo de precio. Un vendedor al que le importa sobre todo el precio total puede aceptar un pago condicionado. Un comprador al que le importa sobre todo limitar el riesgo puede pagar un precio más alto a cambio de una plica mayor.
+La MAAN en una adquisición:
+- La MAAN del vendedor: otro comprador, seguir operando el negocio o cerrarlo.
+- La MAAN del comprador: otra empresa objetivo, empezar desde cero o no comprar.
+Una MAAN más fuerte da más poder de negociación. Los aranceles del escenario pueden debilitar la MAAN del vendedor si seguir operando se vuelve menos atractivo.
+SUPUESTO/OPINIÓN: Apretar demasiado a un vendedor puede salir mal. Si el vendedor se queda para la transición o tiene un pagaré, un vendedor resentido puede hacer más difícil la transición. Los negocios justos suelen dar mejores resultados después del cierre.
+
+## Ejemplo práctico
+EJEMPLO ILUSTRATIVO: Tomás quiere comprar un negocio de importación. El vendedor pide 1 €.2 millones. Los aranceles han reducido las ganancias.
+Análisis de la MAAN:
+- El vendedor: no hay otros compradores serios. Seguir significa ganancias más bajas bajo los aranceles. Su MAAN es débil.
+- Tomás: dos otros negocios en consideración, aunque menos atractivos. Su MAAN es moderada.
+La oferta de Tomás: 9 €50,000, estructurados así:
+- 5 €00,000 en efectivo al cierre.
+- Un pagaré al vendedor de 2 €50,000 a 5 años a una tasa justa.
+- Un pago condicionado de hasta 2 €50,000 si los ingresos vuelven a los niveles de antes de los aranceles dentro de 2 años.
+- Una compra de activos en beneficio fiscal de Tomás. REGLA ESPECÍFICA DE LA REGIÓN; en España, por ejemplo, el comprador de activos puede amortizar los bienes por su valor de adquisición en el Impuesto sobre Sociedades, mientras que el vendedor persona física suele preferir vender participaciones, que tributan en la base del ahorro del IRPF, por lo que conviene confirmarlo con un asesor fiscal.
+- Una plica del 10 % durante 18 meses.
+- El vendedor se queda 6 meses como consultor pagado.
+El vendedor contraoferta 1 €.1 millones en total. Acuerdan 1 €.05 millones: 5 €00,000 en efectivo, un pagaré de 3 €00,000 y un pago condicionado de hasta 2 €50,000. El vendedor recibe más valor total si el negocio se recupera. Tomás limita su efectivo inicial y comparte el riesgo con el vendedor.
+SUPUESTO/OPINIÓN: El pago condicionado salvó su desacuerdo sobre el futuro. El vendedor creía probable la recuperación; Tomás no estaba seguro. El pago condicionado permitió que ambos tuvieran razón.
+
+## Prueba práctica
+**Q1. ¿Qué significa MAAN?**
+A) Mejor Acuerdo de Amortización de Notas
+B) Método Anual de Análisis de Negocios
+C) Margen Adicional de Activos Netos
+D) Mejor Alternativa a un Acuerdo Negociado
+
+**Q2. ¿Cómo puede un negocio ser mejor para ambas partes que un simple regateo de precio?**
+A) Intercambiando términos que cada parte valora de forma distinta
+B) Mintiendo
+C) Ignorando los impuestos
+D) Evitando a los abogados
+
+**Q3. ¿Cómo afectaron los aranceles la MAAN del vendedor?**
+A) La fortalecieron
+B) Eliminaron las opciones del comprador
+C) No tuvieron efecto
+D) La debilitaron, porque seguir operando se volvió menos atractivo
+
+**Q4. ¿Qué papel jugó el pago condicionado?**
+A) Bajó los impuestos
+B) Reemplazó la plica
+C) Salvó el desacuerdo sobre si el negocio se recuperaría
+D) Le pagó al comprador
+
+**Q5. ¿Por qué apretar demasiado a un vendedor puede salir mal?**
+A) A los vendedores no se les puede apretar
+B) Sube los impuestos
+C) Un vendedor resentido que tiene un pagaré o ayuda en la transición puede complicar las cosas
+D) Es ilegal
+
+## Clave de respuestas
+Q1: D
+Q2: A
+Q3: D
+Q4: C
+Q5: C
+
+## Respuestas y explicaciones
+**Q1.** La MAAN es su mejor opción si el negocio fracasa.
+**Q2.** La creación de valor viene de prioridades distintas.
+**Q3.** Una alternativa más débil reduce el poder de negociación.
+**Q4.** Los pagos condicionados permiten a compradores y vendedores compartir la incertidumbre.
+**Q5.** Las relaciones después del cierre importan.
+
+## Puntos clave
+- Las adquisiciones abarcan el precio, la forma de pago, la estructura, las protecciones y la transición
+- La MAAN determina el poder de negociación
+- Intercambiar términos que se valoran de forma distinta crea valor para ambas partes
+- Los negocios justos suelen funcionar mejor después del cierre
+
+===== ORANGE-L5-007
+TITLE: Negociar bienes inmuebles con financiación del vendedor
+SUMMARY: El financiación del vendedor convierte al vendedor en prestamista; negocie juntos el precio, el pronto, la tasa, el plazo y la garantía, y enfóquese en lo que cada parte realmente necesita, sobre todo cuando las tasas bancarias están altas.
+KEYWORDS: negociación del financiación del vendedor, financiación del dueño en bienes inmuebles, negociar negocios de propiedades, términos de financiación creativo
+# Negociar bienes inmuebles con financiación del vendedor
+
+## Escenario inicial
+SUPUESTO/OPINIÓN (escenario hipotético solo con fines educativos): Imagine un banco central que sube su tasa de interés de referencia de forma marcada y repetida en pocos meses para combatir el aumento de la inflación.
+Aplíquelo aquí: Con las tasas bancarias altas, un comprador no puede pagar un préstamo convencional para un edificio pequeño de pisos, y la vendedora no encuentra otros compradores. Pregunte desde varios colores: ¿qué necesita realmente cada parte (NARANJA)? ¿Podría el financiación de la vendedora a una tasa más baja hacer posible el negocio (AZUL/ROJO)? ¿Qué documentos protegen a la vendedora (MORADO)? ¿Cómo podría afectar sus impuestos el tratamiento a plazos (VERDE)?
+
+## Objetivos de aprendizaje
+- Identificar las prioridades de cada parte en un negocio financiado por el vendedor
+- Intercambiar el precio por la tasa, el pronto y el plazo
+- Estructurar un negocio que proteja al vendedor y funcione para el comprador
+
+## Contenido principal
+En el nivel 2, el ROJO presentó el financiación creativo. En el nivel 3, el AZUL cubrió el financiación del vendedor para adquirir negocios. En el nivel 5, el NARANJA muestra cómo negociar estos negocios para que ambas partes ganen.
+En el financiación del vendedor, el vendedor actúa como prestamista y recibe pagos a lo largo del tiempo en lugar de todo en efectivo al cierre.
+Lo que cada parte suele querer:
+- El comprador: un pronto más bajo, una tasa de interés más baja, un plazo más largo, flexibilidad.
+- El vendedor: un precio total más alto, pagos confiables, garantía, posibles ventajas fiscales al repartir la ganancia en el tiempo (REGLA ESPECÍFICA DE LA REGIÓN) y, a veces, un ingreso estable en el retiro.
+Variables clave de la negociación:
+- El precio
+- El pronto
+- La tasa de interés
+- El plazo y la amortización (incluidos los pagos globales al final)
+- Los derechos de pago anticipado
+- La garantía y las garantías personales
+El principio del intercambio: un vendedor puede aceptar una tasa de interés más baja a cambio de un precio más alto, o un precio más bajo a cambio de un pronto mayor. Un comprador puede aceptar un precio más alto a cambio de una tasa más baja que haga pagables las mensualidades.
+Cómo se conectan los colores:
+- ROJO: los ingresos de la propiedad deben sostener los pagos.
+- AZUL: compare la tasa del vendedor con las tasas bancarias. Cuando las tasas bancarias están altas, el financiación del vendedor puede ser una gran ventaja para los compradores.
+- MORADO: el pagaré, la hipoteca o la escritura de fideicomiso y los términos de incumplimiento (PURPLE-L5-024). Verifique si el vendedor tiene una hipoteca existente con una cláusula de vencimiento por venta.
+- VERDE: los vendedores pueden repartir el impuesto sobre la ganancia durante el período de pago. El interés a menudo debe cumplir tasas mínimas. REGLA ESPECÍFICA DE LA REGIÓN; en España, por ejemplo, en el IRPF las ganancias de operaciones con precio aplazado a más de un año pueden imputarse a medida que se cobran los pagos, por lo que conviene confirmarlo con un asesor fiscal.
+- BLANCO: para el vendedor, el pagaré se convierte en una inversión. Compare su rendimiento esperado y su riesgo con otras opciones.
+SUPUESTO/OPINIÓN: En mercados de tasas altas, el financiación del vendedor puede convertir una venta estancada en un negocio. La clave es enfocarse en lo que cada parte realmente necesita, no solo en el precio principal.
+
+## Ejemplo práctico
+EJEMPLO ILUSTRATIVO: Rosa, de 68 años, es dueña sin deudas de un edificio de 6 unidades. Quiere retirarse y lo ha tenido a la venta en 9 €00,000 durante meses sin ofertas aceptables. Las tasas bancarias están altas.
+Ben quiere comprar, pero solo puede pagar las mensualidades si la tasa es más baja que la de los bancos.
+Negociación:
+- Las prioridades de Rosa: el valor total, un ingreso mensual confiable y repartir los impuestos en el tiempo.
+- Las prioridades de Ben: mensualidades pagables y un pronto manejable.
+Negocio:
+- Precio: 9 €20,000 (más que su precio pedido).
+- Pronto: 20 % (1 €84,000).
+- Pagaré a la vendedora: 7 €36,000 al 5.5 % (por debajo de las tasas bancarias), amortización a 25 años con un pago global a los 10 años.
+- Garantía: hipoteca inscrita sobre la propiedad. Ben da una garantía personal limitada.
+- Incumplimiento: período de subsanación de 30 días.
+Rosa recibe más valor total y un ingreso mensual estable. Ben obtiene mensualidades pagables. El asesor fiscal de Rosa le explica cómo el tratamiento a plazos puede repartir sus impuestos. REGLA ESPECÍFICA DE LA REGIÓN.
+SUPUESTO/OPINIÓN: Un precio de 9 €20,000 con una tasa del 5.5 % funcionó mejor para ambos que 8 €80,000 con un financiación bancario que Ben no podía pagar.
+
+## Prueba práctica
+**Q1. En el financiación del vendedor, ¿quién actúa como prestamista?**
+A) El vendedor
+B) El banco
+C) El gobierno
+D) El corredor inmobiliario
+
+**Q2. ¿Qué intercambio podría aceptar un vendedor?**
+A) No recibir ningún pago
+B) Una tasa de interés más baja a cambio de un precio más alto
+C) Regalar la propiedad
+D) No tener garantía
+
+**Q3. ¿Por qué el financiación del vendedor puede ser especialmente útil cuando las tasas bancarias están altas?**
+A) Los bancos rechazan todos los préstamos
+B) Los vendedores pueden ofrecer tasas más bajas que hagan pagables las mensualidades
+C) Evita todos los impuestos
+D) No requiere documentos
+
+**Q4. ¿Qué debe verificarse si el vendedor tiene una hipoteca existente?**
+A) El color de la pintura
+B) Los pasatiempos del comprador
+C) Los ingresos del inquilino
+D) Si tiene una cláusula de vencimiento por venta
+
+**Q5. ¿Por qué Rosa aceptó una tasa de interés por debajo de la de los bancos?**
+A) La obligaron
+B) No le gustaban los bancos
+C) No tenía opción
+D) Recibió un precio más alto, un ingreso estable y la posibilidad de repartir sus impuestos
+
+## Clave de respuestas
+Q1: A
+Q2: B
+Q3: B
+Q4: D
+Q5: D
+
+## Respuestas y explicaciones
+**Q1.** El vendedor recibe pagos a lo largo del tiempo.
+**Q2.** Los vendedores pueden intercambiar tasa por precio.
+**Q3.** Las tasas más bajas del vendedor pueden destrabar negocios estancados.
+**Q4.** Los préstamos existentes pueden restringir el financiación del vendedor.
+**Q5.** Sus prioridades se cumplieron mediante intercambios.
+
+## Puntos clave
+- El financiación del vendedor convierte al vendedor en prestamista
+- Negocie juntos el precio, el pronto, la tasa, el plazo y la garantía
+- En mercados de tasas altas, el financiación del vendedor puede destrabar negocios
+- Enfóquese en lo que cada parte realmente necesita
+
+===== ORANGE-L5-008
+TITLE: La compensación de ventas: incentivos, impuestos y clasificación
+SUMMARY: La compensación impulsa la conducta; premie las ventas cobradas, rentables, duraderas y honestas, escriba el plan con claridad, incluidas las devoluciones y las salidas, y verifique las reglas locales de clasificación y retención.
+KEYWORDS: plan de compensación de ventas, estructura de comisiones, incentivos de ventas, impuestos sobre comisiones, pago del equipo de ventas
+# La compensación de ventas: incentivos, impuestos y clasificación
+
+## Escenario inicial
+SUPUESTO/OPINIÓN (escenario hipotético solo con fines educativos): Imagine que los mercados inmobiliario y de crédito al consumo de un país muy poblado, tras años de expansión rápida, comienzan a mostrar señales de una corrección marcada a medida que aumentan los impagos.
+Aplíquelo aquí: Mientras se corrige un mercado de crédito, el equipo de ventas de un prestamista sigue cobrando por volumen de préstamos aunque los impagos aumentan. Pregunte desde varios colores: ¿qué conducta premia el plan de pago (NARANJA/NEGRO)? ¿Son los vendedores empleados o contratistas (MORADO)? ¿Cómo tributan las comisiones y cuándo se deben (VERDE)? ¿Puede la empresa costear el plan si las ventas se frenan (AZUL)?
+
+## Objetivos de aprendizaje
+- Diseñar una compensación que premie las conductas correctas
+- Conectar el diseño de la compensación con las reglas fiscales y de clasificación
+- Alinear el pago de ventas con el flujo de efectivo y el valor del cliente a largo plazo
+
+## Contenido principal
+La compensación de ventas moldea la conducta con más fuerza que casi cualquier otra herramienta de gerencia. La gente tiende a hacer aquello por lo que se le paga.
+Estructuras comunes:
+- Solo salario: estable, fomenta el trabajo en equipo y el servicio, pero puede reducir la urgencia.
+- Solo comisión: motivación fuerte, pero el ingreso es inestable y puede fomentar tácticas agresivas.
+- Salario más comisión: un equilibrio entre estabilidad y motivación.
+- Bonos: atados a metas como objetivos del equipo, retención de clientes o ganancia.
+- Devoluciones de comisión: comisiones que se devuelven si un cliente cancela o no paga dentro de un período.
+¿Qué debe premiar la compensación? En el nivel 5, la respuesta conecta con todo el negocio:
+- Las ventas cobradas, no solo las firmadas (el flujo de efectivo AZUL).
+- Las ventas rentables, no solo los ingresos (el margen).
+- Los clientes que se quedan (el valor de vida de ORANGE-L5-003).
+- Las prácticas de venta honestas (MORADO y NEGRO).
+Cómo se conectan los colores:
+- MORADO: los trabajadores que cobran solo por comisión pueden ser empleados de todos modos según las pruebas de clasificación (PURPLE-L5-031 en la pista del derecho). Los planes de comisión deben escribirse con claridad, incluido cuándo se ganan las comisiones y qué pasa cuando alguien se va. REGLA ESPECÍFICA DE LA REGIÓN: Algunas jurisdicciones tienen reglas específicas sobre el pago de comisiones.
+- VERDE: las comisiones pagadas a empleados suelen estar sujetas a impuestos sobre la nómina y a retenciones. REGLA ESPECÍFICA DE LA REGIÓN; en España, por ejemplo, las comisiones forman parte del salario, así que la empresa debe practicar la retención del IRPF y cotizar a la Seguridad Social sobre ellas, por lo que conviene confirmarlo con un asesor laboral.
+- AZUL: el pago variable se mueve con las ventas, lo que protege el flujo de efectivo en los períodos lentos. Pero pagar comisiones antes de que los clientes paguen puede apretar el efectivo.
+- NEGRO: la compensación refleja los valores de la empresa. Un plan que premia empujarles productos a clientes que no los necesitan puede dañar la cultura y la reputación.
+SUPUESTO/OPINIÓN: Un plan de pago que premia el volumen a corto plazo a costa de la calidad de los clientes puede crear problemas que aparecen meses después, como muestra el escenario.
+
+## Ejemplo práctico
+EJEMPLO ILUSTRATIVO: Marco dirige una empresa de instalación de placas solares. Sus vendedores ganan un 8 % de comisión sobre los contratos firmados.
+Aparecen problemas:
+- Algunos clientes firmados luego cancelan o no consiguen el financiación.
+- Algunas ventas se hacen con descuentos grandes que dejan poco margen.
+- Unos pocos vendedores exageran los ahorros de energía para cerrar ventas.
+Nuevo plan:
+- Salario base más comisión, lo que aclara la estructura de pago y respalda la clasificación como empleado. REGLA ESPECÍFICA DE LA REGIÓN.
+- La comisión se paga en dos partes: 50 % cuando se aprueba el financiación del cliente y 50 % después de la instalación y el pago.
+- La tasa de comisión está atada al margen: comisión más alta para ventas a precio estándar y más baja para ventas con descuento.
+- Bono trimestral por bajas tasas de cancelación y reseñas positivas de los clientes.
+- Un plan escrito claro, incluidas las reglas de devolución y lo que pasa con las comisiones sin pagar cuando alguien se va.
+- Adiestramiento sobre afirmaciones correctas de ahorro (vea PURPLE-L5-035 en la pista del derecho).
+El volumen de ventas baja un poco, pero las cancelaciones disminuyen, los márgenes suben y las quejas bajan. SUPUESTO/OPINIÓN: La empresa de Marco se volvió más rentable y más confiable, aun con menos contratos firmados en total.
+
+## Prueba práctica
+**Q1. ¿Por qué la compensación de ventas es una herramienta de gerencia tan poderosa?**
+A) La ley la exige
+B) Reduce los impuestos
+C) La gente tiende a hacer aquello por lo que se le paga
+D) Reemplaza el adiestramiento
+
+**Q2. ¿Qué es una devolución de comisión?**
+A) Comisiones que se devuelven si un cliente cancela o no paga
+B) Un bono
+C) Un tipo de salario
+D) Un impuesto
+
+**Q3. ¿Por qué la compensación debe premiar las ventas cobradas en lugar de las firmadas?**
+A) Las ventas firmadas son ilegales
+B) Las ventas cobradas reflejan el efectivo que realmente entra al negocio
+C) Es más fácil darles seguimiento
+D) Los clientes lo prefieren
+
+**Q4. ¿Cómo redujo Marco los descuentos?**
+A) Prohibió los descuentos
+B) Despidió a vendedores
+C) Ató las tasas de comisión al margen
+D) Subió los precios
+
+**Q5. ¿Cuál fue el resultado del nuevo plan de Marco?**
+A) Un desplome de las ventas
+B) Más cancelaciones
+C) Ningún cambio
+D) Un volumen un poco menor, pero márgenes más altos, menos cancelaciones y menos quejas
+
+## Clave de respuestas
+Q1: C
+Q2: A
+Q3: B
+Q4: C
+Q5: D
+
+## Respuestas y explicaciones
+**Q1.** El pago moldea la conducta.
+**Q2.** Las devoluciones alinean el pago con los resultados reales.
+**Q3.** El flujo de efectivo depende del pago, no de las firmas.
+**Q4.** Las comisiones basadas en el margen desalentaron los descuentos grandes.
+**Q5.** Los mejores incentivos mejoraron la salud general del negocio.
+
+## Puntos clave
+- La compensación impulsa la conducta; diséñela de forma deliberada
+- Premie las ventas cobradas, rentables, duraderas y honestas
+- Las reglas de clasificación, de impuestos sobre la nómina y de comisiones varían según la región
+- Escriba los planes con claridad, incluidas las devoluciones y las salidas
+
+===== ORANGE-L5-009
+TITLE: Formar un equipo de ventas propio o subcontratar las ventas
+SUMMARY: Un equipo propio da control; la subcontratación da flexibilidad y costos fijos más bajos; los contratos con agentes y distribuidores deben atender el territorio, la terminación y la titularidad de los clientes, y la responsabilidad del patrono es parte de la decisión.
+KEYWORDS: formar o subcontratar las ventas, agentes de ventas, equipo de ventas interno, ventas subcontratadas, distribuidor o venta directa
+# Formar un equipo de ventas propio o subcontratar las ventas
+
+## Escenario inicial
+SUPUESTO/OPINIÓN (escenario hipotético solo con fines educativos): Imagine una alteración generalizada de salud pública que interrumpe el transporte marítimo y la manufactura a nivel mundial durante un período prolongado, paralizando a la vez las cadenas de suministro de muchas industrias.
+Aplíquelo aquí: Tras una alteración prolongada, una empresa debe reconstruir sus ventas rápidamente. Pregunte desde varios colores: ¿debe contratar empleados (NEGRO) o usar agentes externos (NARANJA)? ¿Qué opción cuesta menos al principio y con el tiempo (AZUL)? ¿Qué asuntos de contratos y de clasificación surgen (MORADO)? ¿Cómo afecta cada opción a las familias de las personas involucradas?
+
+## Objetivos de aprendizaje
+- Comparar los equipos de ventas internos con las opciones subcontratadas
+- Evaluar los intercambios entre costo, control y flexibilidad
+- Tener en cuenta las obligaciones legales y la responsabilidad del patrono
+
+## Contenido principal
+Un negocio puede vender a través de sus propios empleados o a través de terceros. Cada enfoque tiene sus fortalezas.
+El equipo de ventas interno:
+- Control total del adiestramiento, los mensajes y la experiencia del cliente.
+- Conocimiento profundo del producto y lealtad con el tiempo.
+- Costos fijos más altos: salarios, beneficios, impuestos sobre la nómina, gerencia.
+- Responsabilidades de patrono (NEGRO/MORADO).
+Las opciones subcontratadas:
+- Los agentes o representantes de ventas independientes: cobran sobre todo por comisión. Costos fijos más bajos, pero menos control, y a menudo representan también a otras empresas.
+- Los distribuidores: compran los productos y los revenden. Asumen el riesgo del inventario, pero también se quedan con un margen y con las relaciones con los clientes.
+- Las firmas de ventas subcontratadas: dan equipos adiestrados a cambio de un cargo.
+Cómo se conectan los colores:
+- AZUL: subcontratar baja los costos fijos y la inversión inicial. Los equipos internos suelen costar más al principio, pero pueden ser más eficientes a gran escala.
+- MORADO: los contratos con agentes y distribuidores deben cubrir el territorio, la exclusividad, la comisión, la terminación y la titularidad de las relaciones con los clientes. REGLA ESPECÍFICA DE LA REGIÓN: Algunas jurisdicciones dan a los agentes de ventas o a los distribuidores protecciones especiales, como una compensación cuando se les termina el contrato. Los agentes que trabajan como empleados quizás deban clasificarse como empleados (PURPLE-L5-031); en España, por ejemplo, la Ley 12/1992 del Contrato de Agencia puede dar al agente una indemnización por clientela al terminar el contrato, y los tribunales a veces la extienden a distribuidores, por lo que conviene confirmarlo con un abogado.
+- VERDE: los empleados requieren impuestos sobre la nómina. Los pagos a contratistas y agentes tienen otras reglas de informe. REGLA ESPECÍFICA DE LA REGIÓN.
+- NEGRO: el tema de la responsabilidad del patrono: contratar personal directamente sostiene a sus familias, sobre todo en economías donde los empleos formales escasean. Los empleados merecen dignidad y un trato justo.
+- BLANCO: los negocios que son dueños de sus relaciones con los clientes suelen valorarse más que los que dependen de distribuidores.
+Un camino común: empezar con agentes o distribuidores para probar mercados a bajo costo y luego formar un equipo interno donde las ventas estén probadas y el volumen lo justifique.
+SUPUESTO/OPINIÓN: Subcontratar las ventas puede ser inteligente al principio, pero un negocio que nunca construye sus propias relaciones con los clientes puede descubrir que su verdadero activo le pertenece a otro.
+
+## Ejemplo práctico
+EJEMPLO ILUSTRATIVO: La empresa de Kemi fabrica equipo de cocina para restaurantes. Tras una alteración prolongada, necesita reconstruir sus ventas en tres regiones.
+Opción 1: contratar 6 vendedores. Costo anual: unos 4 €80,000 en salarios, beneficios y impuestos sobre la nómina, más el tiempo de gerencia.
+Opción 2: usar agentes independientes en las tres regiones, con una comisión del 10 %.
+Opción 3: un enfoque mixto.
+Escoge la opción 3:
+- Región A (su mercado más grande): contrata 3 empleados. Quiere control y relaciones directas con los clientes.
+- Regiones B y C: firma contratos de agentes por 2 años, con términos claros sobre el territorio, la comisión, la terminación y la titularidad de los clientes. Su abogado revisa las reglas locales de protección a los agentes. REGLA ESPECÍFICA DE LA REGIÓN.
+- Fija un plan para evaluar si convierte la región B a empleados si las ventas superan un nivel fijado.
+Los empleados de la región A ganan ingresos estables, y Kemi invierte en su adiestramiento. Los agentes dan cobertura rápida a las regiones más pequeñas sin grandes costos fijos.
+SUPUESTO/OPINIÓN: Kemi ajustó cada modelo de ventas al tamaño y a la importancia estratégica de cada mercado, en lugar de escoger un solo modelo para todo.
+
+## Prueba práctica
+**Q1. ¿Cuál es una ventaja clave de un equipo de ventas interno?**
+A) Control total del adiestramiento, los mensajes y la experiencia del cliente
+B) No tiene costos
+C) No tiene obligaciones legales
+D) No necesita gerencia
+
+**Q2. ¿Cuál es una ventaja clave de los agentes de ventas independientes?**
+A) Control completo
+B) Lealtad garantizada
+C) No se necesitan contratos
+D) Costos fijos más bajos
+
+**Q3. ¿Por qué los contratos con agentes deben atender la titularidad de los clientes?**
+A) Para evitar impuestos
+B) Para que el negocio conserve sus relaciones con los clientes si el agente se va
+C) Los agentes lo exigen
+D) Es decorativo
+
+**Q4. ¿Qué protección especial dan algunas jurisdicciones a los agentes de ventas?**
+A) Una compensación cuando se les termina el contrato
+B) Vivienda gratis
+C) Titularidad automática
+D) Exenciones fiscales
+
+**Q5. ¿Por qué Kemi escogió un enfoque mixto?**
+A) Ajustó cada modelo de ventas al tamaño y a la importancia de cada mercado
+B) Era lo más barato
+C) La ley lo exigía
+D) No podía decidir
+
+## Clave de respuestas
+Q1: A
+Q2: D
+Q3: B
+Q4: A
+Q5: A
+
+## Respuestas y explicaciones
+**Q1.** Los equipos internos ofrecen control y lealtad.
+**Q2.** A los agentes se les paga sobre todo por resultados.
+**Q3.** Las relaciones con los clientes son activos valiosos.
+**Q4.** Las protecciones a los agentes varían. REGLA ESPECÍFICA DE LA REGIÓN.
+**Q5.** Los distintos mercados justificaban modelos distintos.
+
+## Puntos clave
+- Los equipos internos ofrecen control; la subcontratación ofrece flexibilidad y costos fijos más bajos
+- Los contratos con agentes y distribuidores deben atender el territorio, la terminación y la titularidad de los clientes
+- La responsabilidad del patrono es parte de la decisión
+- Ajuste el modelo de ventas a cada mercado
+
+===== ORANGE-L5-010
+TITLE: La marca como activo: construirla, valorarla y protegerla
+SUMMARY: Una marca crea poder de precio, lealtad, resiliencia e ingresos por licencias; su protección legal es esencial, y se construye cumpliendo las promesas de forma constante, no solo con publicidad.
+KEYWORDS: valor de la marca, la marca como activo, capital de marca, protección de la marca registrada, valoración de la marca
+# La marca como activo: construirla, valorarla y protegerla
+
+## Escenario inicial
+SUPUESTO/OPINIÓN (escenario hipotético solo con fines educativos): Imagine que la moneda de una economía mediana pierde gran parte de su valor frente a las principales monedas de reserva en cuestión de meses, impulsada por la salida de capitales del país y el deterioro de la confianza de los inversores.
+Aplíquelo aquí: En un país cuya moneda se desplomó, una marca local conocida conserva a sus clientes leales aunque suban los precios, mientras que los competidores genéricos pierden ventas. Pregunte desde varios colores: ¿qué hizo valiosa a la marca (NARANJA)? ¿Está protegida legalmente (MORADO)? ¿Cómo afecta la fuerza de la marca el valor de la empresa para los inversores (BLANCO)? ¿Puede licenciarse la marca en el extranjero para obtener ingresos en monedas más fuertes (AZUL)?
+
+## Objetivos de aprendizaje
+- Explicar cómo las marcas crean valor financiero
+- Describir cómo se protege el valor de la marca legalmente y mediante el marketing
+- Conectar la fuerza de la marca con el poder de precio y la valoración del negocio
+
+## Contenido principal
+Una marca es más que un logo. Es el conjunto de expectativas que tienen los clientes sobre un negocio: la calidad, la confiabilidad, los valores y la experiencia. Cuando esas expectativas son positivas y constantes, la marca crea un valor financiero real.
+Cómo crean valor las marcas:
+- El poder de precio: los clientes pueden pagar más por una marca en la que confían.
+- La lealtad: los clientes que repiten cuestan menos de atender que los nuevos (ORANGE-L5-003).
+- La resiliencia: en tiempos difíciles, los clientes suelen quedarse con las marcas en las que confían, como en el escenario.
+- La expansión: una marca fuerte puede extenderse con más facilidad a productos o mercados nuevos.
+- Las licencias: la marca puede generar ingresos de otros (PURPLE-L5-030 en la pista del derecho).
+Cómo se conectan los colores:
+- MORADO: el registro y la defensa de la marca la protegen legalmente (PURPLE-L5-028 y -029). Sin protección, los competidores o los falsificadores pueden usar el nombre.
+- BLANCO: los inversores suelen valorar más a las empresas con marcas fuertes por su poder de precio y sus ganancias estables. REGLA ESPECÍFICA DE LA REGIÓN: Cómo aparece el valor de la marca en los estados financieros depende de las reglas de contabilidad. Las marcas construidas internamente a menudo no se registran por su valor completo, mientras que las marcas compradas pueden registrarse; en España, por ejemplo, según el Plan General de Contabilidad una marca creada internamente no suele registrarse como activo, mientras que una marca adquirida sí y se amortiza, y conviene registrarla en la Oficina Española de Patentes y Marcas, por lo que conviene confirmarlo con un asesor fiscal.
+- AZUL: las inversiones en la marca (publicidad, servicio al cliente, control de calidad) cuestan dinero ahora para crear valor después.
+- VERDE: REGLA ESPECÍFICA DE LA REGIÓN: Los gastos relacionados con la marca y los ingresos por licencias tienen un tratamiento fiscal; la titularidad de la marca entre compañías relacionadas plantea asuntos de precios de transferencia.
+- NEGRO: la marca se construye mediante una conducta constante en toda la empresa, no solo con el marketing.
+Una marca puede dañarse rápidamente: una falla de calidad, una afirmación engañosa o un mal trato a los clientes pueden borrar años de confianza.
+SUPUESTO/OPINIÓN: Las marcas más duraderas se construyen cumpliendo las promesas una y otra vez a lo largo del tiempo. La publicidad puede dar a conocer una marca, pero solo una entrega constante la sostiene.
+
+## Ejemplo práctico
+EJEMPLO ILUSTRATIVO: Dos tostadores de café operan en un país que sufre un desplome de su moneda.
+El tostador A ha construido una marca durante 15 años: calidad constante, trato justo a los agricultores y empaque claro. Su marca está registrada en su país y en dos mercados de exportación.
+El tostador B vende café sin marca a precios bajos.
+Cuando la moneda se desploma y los costos de importación se disparan:
+- El tostador A sube sus precios un 30 %. La mayoría de los clientes se quedan porque confían en su calidad.
+- El tostador B sube sus precios un 30 %. Muchos clientes se cambian a la opción más barata disponible.
+El tostador A también licencia su marca a un distribuidor en un mercado de exportación con una moneda más fuerte a cambio de regalías (PURPLE-L5-030), lo que le da ingresos en moneda extranjera.
+Dos años después, un inversor valora al tostador A a un múltiplo de ganancias mucho más alto que al tostador B, citando la fuerza de la marca, la lealtad de los clientes y los ingresos por licencias.
+SUPUESTO/OPINIÓN: La marca del tostador A se construyó lentamente con calidad constante y prácticas justas. Esa inversión dio su mayor fruto en la crisis, cuando los clientes tuvieron que decidir en quién confiar.
+
+## Prueba práctica
+**Q1. Según la lección, ¿qué es una marca?**
+A) El conjunto de expectativas que tienen los clientes sobre un negocio
+B) Solo un logo
+C) Un tipo de impuesto
+D) Una entidad legal
+
+**Q2. ¿Cómo crea una marca poder de precio?**
+A) Los clientes pueden pagar más por una marca en la que confían
+B) Bajando los costos
+C) Evitando legalmente la competencia
+D) Reduciendo los impuestos
+
+**Q3. ¿Por qué las marcas construidas internamente a menudo no se registran por su valor completo en los estados financieros?**
+A) No tienen valor
+B) Son secretas
+C) Son ilegales
+D) Las reglas de contabilidad a menudo las tratan de forma distinta a las marcas compradas
+
+**Q4. ¿Por qué el tostador A conservó a la mayoría de sus clientes después de subir los precios?**
+A) Los clientes confiaban en su calidad constante
+B) No tenía competidores
+C) El gobierno lo exigía
+D) Bajó la calidad
+
+**Q5. Según la lección, ¿qué sostiene a una marca?**
+A) Solo mucha publicidad
+B) Un logo ingenioso
+C) Cumplir las promesas de forma constante a lo largo del tiempo
+D) Los precios bajos
+
+## Clave de respuestas
+Q1: A
+Q2: A
+Q3: D
+Q4: A
+Q5: C
+
+## Respuestas y explicaciones
+**Q1.** Las marcas se construyen a partir de las expectativas de los clientes.
+**Q2.** La confianza respalda precios más altos.
+**Q3.** El tratamiento contable varía. REGLA ESPECÍFICA DE LA REGIÓN.
+**Q4.** La confianza en la marca creó resiliencia.
+**Q5.** La entrega sostiene lo que la publicidad da a conocer.
+
+## Puntos clave
+- Las marcas crean poder de precio, lealtad, resiliencia e ingresos por licencias
+- La protección legal es esencial para el valor de la marca
+- La fuerza de la marca afecta la valoración del negocio
+- Las marcas se construyen con una entrega constante, no solo con publicidad

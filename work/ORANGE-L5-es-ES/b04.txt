@@ -1,0 +1,482 @@
+===== ORANGE-L5-016
+TITLE: La estrategia de canales: directo, distribuidor o plataforma
+SUMMARY: Los canales difieren en margen, control, datos y riesgo; los contratos de distribución y los términos de las plataformas moldean el negocio, y ser dueño de las relaciones con los clientes suele aumentar su valor.
+KEYWORDS: estrategia de canales de venta, venta directa o distribuidor, vender en plataformas en línea, márgenes por canal, conflicto de canales
+# La estrategia de canales: directo, distribuidor o plataforma
+
+## Escenario inicial
+SUPUESTO/OPINIÓN (escenario hipotético solo con fines educativos): Imagine un gran bloque comercial que impone de repente aranceles altos sobre una amplia categoría de bienes manufacturados importados, lo que eleva los costos de las empresas que dependen de esas importaciones como insumos.
+Aplíquelo aquí: Los aranceles suben los costos, y un fabricante debe decidir qué canales de venta conservar. Pregunte desde varios colores: ¿qué canal deja más margen (NARANJA/AZUL)? ¿Cuál da más control sobre las relaciones con los clientes y sus datos (MORADO)? ¿Cuál tiene más riesgo de inventario y de cobro? ¿Cómo afecta la elección de canales el valor de la empresa (BLANCO)?
+
+## Objetivos de aprendizaje
+- Comparar los principales canales de venta
+- Evaluar los intercambios entre margen, control, datos y riesgo
+- Manejar el conflicto de canales y los términos de los contratos
+
+## Contenido principal
+Un canal es el camino que recorre un producto para llegar a los clientes. La elección del canal afecta casi todos los colores.
+Canales principales:
+- Directo: vender a través de su propia tienda, su sitio web o su equipo de ventas. El margen y el control más altos, pero usted maneja el marketing, el despacho de pedidos, el servicio al cliente y el riesgo de cobro.
+- Distribuidores o mayoristas: compran al por mayor y revenden. Menos margen para usted, pero menos trabajo y menos riesgo directo. Pueden controlar las relaciones con los clientes.
+- Detallistas: tiendas que venden a los clientes finales. Pueden exigir gastos de promoción, cargos por espacio en góndola o derechos de devolución.
+- Plataformas en línea: grandes plataformas que dan tráfico y despacho de pedidos. Cobran cargos, fijan las reglas y suelen controlar los datos de los clientes. Un cambio de política puede afectar su negocio de la noche a la mañana.
+Cómo se conectan los colores:
+- AZUL: los márgenes cambian según el canal. Los distribuidores y las plataformas se quedan con una parte. Los términos de pago también cambian (los detallistas pueden pagar en 60 a 90 días).
+- MORADO: los acuerdos de distribución cubren el territorio, la exclusividad, las reglas de precios, las devoluciones y la terminación (PURPLE-L5-030 en la pista del derecho). REGLA ESPECÍFICA DE LA REGIÓN: Algunas jurisdicciones restringen cómo pueden los fabricantes controlar los precios de reventa. Los términos de servicio de las plataformas pueden cambiar de forma unilateral; en España, por ejemplo, la Ley 15/2007 de Defensa de la Competencia y el Derecho de la UE prohíben en general que el proveedor fije el precio de reventa, y la CNMC vigila estos acuerdos, por lo que conviene confirmarlo con un abogado.
+- BLANCO: los negocios que son dueños de sus relaciones con los clientes y de sus datos suelen valorarse más que los que dependen de una sola plataforma.
+- NARANJA: el conflicto de canales ocurre cuando los canales compiten entre sí, como cuando un fabricante vende directamente a precios que rebajan a sus propios distribuidores.
+- VERDE: REGLA ESPECÍFICA DE LA REGIÓN: Vender directamente en muchas regiones puede crear obligaciones de impuesto sobre ventas o de IVA en cada una.
+SUPUESTO/OPINIÓN: Depender de un solo canal, sobre todo de una plataforma que usted no controla, es un riesgo de concentración. A muchos negocios les va mejor con una mezcla, ajustada con el tiempo.
+
+## Ejemplo práctico
+EJEMPLO ILUSTRATIVO: Inés hace carteras de cuero a mano. Sus ventas: 50 % a través de una gran plataforma en línea, 30 % a través de tiendas boutique y 20 % a través de su propio sitio web.
+Los aranceles suben sus costos de cuero un 15 %.
+Análisis de canales:
+- Plataforma: después de los cargos y la publicidad, se queda con alrededor del 55 % del precio de venta. La plataforma controla los datos de los clientes. Un cambio reciente de política subió los cargos.
+- Detallistas: compran al 50 % del precio al detal y pagan en 60 días.
+- Sitio web: se queda con cerca del 85 % después de los costos de pago y envío, y es dueña de los datos de los clientes, pero debe pagar su propio marketing.
+Plan:
+- Mover el marketing hacia su sitio web, usando el correo electrónico con clientes anteriores (con el consentimiento adecuado, vea PURPLE-L5-036 en la pista del derecho).
+- Subir un poco los precios en la plataforma para proteger el margen.
+- Mantener a los detallistas por la visibilidad de la marca, pero negociar términos de pago de 30 días.
+- Evitar rebajar a los detallistas en su sitio web, para prevenir el conflicto de canales.
+- Revisar sus obligaciones de impuesto sobre ventas en las ventas directas. REGLA ESPECÍFICA DE LA REGIÓN.
+Después de un año, su sitio web crece al 35 % de las ventas. SUPUESTO/OPINIÓN: Su negocio se volvió más rentable y menos dependiente de una plataforma cuyas reglas no podía controlar.
+
+## Prueba práctica
+**Q1. ¿Qué es un canal de venta?**
+A) El camino que recorre un producto para llegar a los clientes
+B) Una estación de televisión
+C) Un tipo de impuesto
+D) Una entidad legal
+
+**Q2. ¿Qué canal suele dar el margen y el control más altos?**
+A) El distribuidor
+B) El directo
+C) La plataforma
+D) El mayorista
+
+**Q3. ¿Qué es el conflicto de canales?**
+A) Una disputa legal
+B) Un asunto fiscal
+C) Un retraso de envío
+D) Canales que compiten entre sí, como ventas directas que rebajan a los distribuidores
+
+**Q4. ¿Por qué puede ser riesgoso depender de una sola plataforma en línea?**
+A) Las plataformas son ilegales
+B) Pagan demasiado rápido
+C) No tienen clientes
+D) Los cambios de política y de cargos pueden afectar su negocio de la noche a la mañana, y quizás usted no sea dueño de los datos de los clientes
+
+**Q5. ¿Qué hizo Inés para reducir su dependencia de la plataforma?**
+A) Movió el marketing hacia su propio sitio web y su lista de correos de clientes
+B) Dejó de vender
+C) Subió mucho todos los precios
+D) Vendió solo a detallistas
+
+## Clave de respuestas
+Q1: A
+Q2: B
+Q3: D
+Q4: D
+Q5: A
+
+## Respuestas y explicaciones
+**Q1.** Los canales conectan los productos con los compradores.
+**Q2.** Las ventas directas conservan más margen, pero requieren más trabajo.
+**Q3.** El conflicto puede dañar las relaciones con los canales.
+**Q4.** La dependencia de una plataforma es un riesgo de concentración.
+**Q5.** Construir relaciones directas redujo la dependencia.
+
+## Puntos clave
+- Los canales difieren en margen, control, datos y riesgo
+- Los términos de distribución y de las plataformas moldean su negocio
+- Evite el conflicto de canales y la dependencia excesiva de un solo canal
+- Ser dueño de las relaciones con los clientes suele aumentar el valor del negocio
+
+===== ORANGE-L5-017
+TITLE: Los modelos de suscripción: ingresos, pérdida de clientes y valoración
+SUMMARY: Las suscripciones crean ingresos previsibles cuando la retención es fuerte; la pérdida de clientes es el riesgo crítico, las reglas de renovación automática y cancelación deben cumplirse, y la retención ética se basa en el valor.
+KEYWORDS: modelo de negocio de suscripción, ingresos recurrentes, tasa de pérdida de clientes, valoración de suscripciones, ley de renovación automática
+# Los modelos de suscripción: ingresos, pérdida de clientes y valoración
+
+## Escenario inicial
+SUPUESTO/OPINIÓN (escenario hipotético solo con fines educativos): Imagine un banco central que sube su tasa de interés de referencia de forma marcada y repetida en pocos meses para combatir el aumento de la inflación.
+Aplíquelo aquí: Las tasas en alza aprietan los presupuestos de los hogares, y los consumidores empiezan a cancelar suscripciones. Pregunte desde varios colores: ¿qué clientes tienen más probabilidad de cancelar y cómo puede retenerlos la empresa (NARANJA)? ¿Cumplen la ley las prácticas de renovación automática y de cancelación (MORADO)? ¿Cómo afecta una mayor pérdida de clientes las proyecciones de ingresos y la valoración de la empresa (BLANCO/AZUL)?
+
+## Objetivos de aprendizaje
+- Explicar cómo los modelos de suscripción crean ingresos previsibles
+- Conectar la pérdida de clientes con los ingresos, el flujo de efectivo y la valoración
+- Diseñar suscripciones que cumplan las reglas de renovación y cancelación
+
+## Contenido principal
+Los negocios de suscripción les cobran a los clientes con regularidad (cada mes o cada año) por el acceso continuo a un producto o servicio. Algunos ejemplos son el software, las membresías, el contenido y las cajas de productos.
+Por qué las suscripciones son atractivas:
+- Los ingresos recurrentes previsibles ayudan a planificar (AZUL).
+- Se puede atender a los clientes durante una relación larga (el valor de vida de ORANGE-L5-003).
+- Los inversores suelen valorar más los ingresos recurrentes que las ventas de una sola vez (BLANCO).
+Métricas clave:
+- Los ingresos recurrentes mensuales (MRR): el total de ingresos mensuales por suscripción.
+- La tasa de pérdida de clientes: el porcentaje de clientes (o de ingresos) perdidos en cada período.
+- La retención neta de ingresos: los ingresos de los clientes existentes en este período comparados con el período anterior, incluidos los cambios a planes más altos o más bajos.
+La pérdida de clientes es el riesgo crítico. EJEMPLO ILUSTRATIVO: con una pérdida mensual del 2 %, un negocio pierde cerca del 22 % de sus clientes al año. Con un 5 % mensual, pierde cerca del 46 %. El negocio debe ganar muchos clientes nuevos solo para mantener el mismo tamaño.
+Cómo se conectan los colores:
+- MORADO: REGLA ESPECÍFICA DE LA REGIÓN: Muchas jurisdicciones regulan las renovaciones automáticas y exigen divulgación clara, consentimiento, recordatorios antes de la renovación y una cancelación fácil. Hacer la cancelación difícil a propósito puede violar las reglas de protección al consumidor y dañar la confianza; en España, por ejemplo, la normativa de consumo exige que darse de baja de un servicio sea tan sencillo como darse de alta y prohíbe cobros no autorizados, por lo que conviene confirmarlo con un abogado.
+- VERDE: REGLA ESPECÍFICA DE LA REGIÓN: El reconocimiento de ingresos de las suscripciones prepagadas y el impuesto sobre ventas de los servicios digitales varían.
+- BLANCO: la valoración suele depender a la vez del crecimiento y de la retención. Una pérdida alta de clientes reduce mucho el valor.
+- AZUL: los planes anuales traen el efectivo más temprano (ORANGE-L5-002).
+- NEGRO: la retención refleja la calidad del producto y el servicio al cliente en toda la empresa.
+Estrategias de retención: mejorar la bienvenida de los clientes nuevos, dar valor continuo, ofrecer opciones de pausa o de plan más bajo en lugar de solo la cancelación y escuchar por qué se van los clientes.
+SUPUESTO/OPINIÓN: La retención ética se enfoca en darles a los clientes razones para quedarse, no en hacerles difícil irse.
+
+## Ejemplo práctico
+EJEMPLO ILUSTRATIVO: Sam dirige una aplicación de ejercicios con 10,000 suscriptores a 1 €5 al mes (MRR: 1 €50,000). La pérdida de clientes sube del 3 % al 6 % mensual a medida que las tasas aprietan los presupuestos.
+Con un 6 % de pérdida, Sam pierde 600 suscriptores al mes. Tiene que añadir 600 solo para quedarse igual.
+Su respuesta:
+- Opción de pausa: los suscriptores pueden hacer una pausa de hasta 3 meses en lugar de cancelar.
+- Opción de plan más bajo: un plan básico de 8 €.
+- Encuesta de salida: descubre que muchos cancelan porque dejaron de usar la aplicación, no por el precio.
+- Bienvenida: los usuarios nuevos reciben un plan de 30 días para crear hábitos.
+- Revisión legal (MORADO): su abogado descubre que su proceso de cancelación exige una llamada telefónica. En algunos de sus mercados, las reglas exigen la cancelación en línea si la inscripción fue en línea. REGLA ESPECÍFICA DE LA REGIÓN. Añade la cancelación en línea con un clic y recordatorios de renovación.
+Resultados: la pérdida de clientes baja al 4 %. Algunos clientes bajan de plan en lugar de cancelar, lo que conserva parte de sus ingresos. La cancelación fácil no aumenta la pérdida de clientes; mejora las reseñas.
+SUPUESTO/OPINIÓN: La valoración de Sam mejora porque mejora la retención. El arreglo legal y los arreglos de marketing funcionaron juntos.
+
+## Prueba práctica
+**Q1. ¿Por qué los inversores suelen valorar mucho los ingresos recurrentes?**
+A) Pagan menos impuestos
+B) No requieren clientes
+C) Nunca bajan
+D) Son más previsibles que las ventas de una sola vez
+
+**Q2. ¿Qué mide la tasa de pérdida de clientes?**
+A) El crecimiento de los ingresos
+B) El porcentaje de clientes o de ingresos perdidos en cada período
+C) El gasto en marketing
+D) El margen de ganancia
+
+**Q3. ¿Por qué muchas jurisdicciones regulan las renovaciones automáticas?**
+A) Para acabar con las suscripciones
+B) Para ayudar a los negocios a esconder las renovaciones
+C) Para subir los impuestos
+D) Para proteger a los consumidores con divulgación, consentimiento, recordatorios y cancelación fácil
+
+**Q4. ¿Qué reveló la encuesta de salida de Sam?**
+A) Los precios estaban muy bajos
+B) Los competidores eran más baratos
+C) A los clientes les encantaba la aplicación
+D) Muchos clientes cancelaban porque dejaron de usar la aplicación
+
+**Q5. Según la lección, ¿qué es la retención ética?**
+A) Darles a los clientes razones para quedarse, no hacerles difícil irse
+B) Hacer difícil la cancelación
+C) Esconder los precios
+D) Cobrar cargos por cancelación
+
+## Clave de respuestas
+Q1: D
+Q2: B
+Q3: D
+Q4: D
+Q5: A
+
+## Respuestas y explicaciones
+**Q1.** La previsibilidad reduce la incertidumbre.
+**Q2.** La pérdida de clientes muestra qué tan rápido se van.
+**Q3.** Las reglas de protección al consumidor varían. REGLA ESPECÍFICA DE LA REGIÓN.
+**Q4.** El uso, no el precio, causó gran parte de la pérdida de clientes.
+**Q5.** El valor, no los obstáculos, debe impulsar la retención.
+
+## Puntos clave
+- Las suscripciones crean ingresos previsibles cuando la retención es fuerte
+- La pérdida de clientes es el riesgo crítico; los cambios pequeños en la tasa se acumulan rápido
+- Las reglas de renovación automática y cancelación varían según la región y deben cumplirse
+- Retenga a los clientes con valor y con opciones de pausa y de plan más bajo
+
+===== ORANGE-L5-018
+TITLE: El riesgo de concentración de clientes
+SUMMARY: La concentración de clientes crea riesgos de efectivo, negociación, cobro, financiación y valoración; mida la parte de los clientes principales, estabilice las cuentas clave con contratos y diversifique antes de necesitarlo.
+KEYWORDS: riesgo de concentración de clientes, dependencia de clientes grandes, diversificar los clientes, riesgo de cuentas clave, riesgo en la valoración del negocio
+# El riesgo de concentración de clientes
+
+## Escenario inicial
+SUPUESTO/OPINIÓN (escenario hipotético solo con fines educativos): Imagine una institución financiera de importancia sistémica que revela de repente una pérdida grande que no se había divulgado, lo que despierta el temor de que el riesgo de contraparte se propague por todo el sistema bancario.
+Aplíquelo aquí: Las pérdidas de una gran institución financiera hacen que sus clientes comerciales recorten gastos. Un suplidor obtiene el 60 % de sus ingresos de uno de esos clientes. Pregunte desde varios colores: ¿qué pasa con el flujo de efectivo si ese cliente recorta sus pedidos (AZUL)? ¿Cuánto poder de negociación tiene realmente el suplidor (NARANJA)? ¿Cómo ven esta dependencia los prestamistas y los compradores (BLANCO)? ¿Qué garantizan los contratos (MORADO)?
+
+## Objetivos de aprendizaje
+- Medir la concentración de clientes
+- Explicar cómo la concentración afecta el poder de negociación, el financiación y la valoración
+- Crear un plan para diversificar mientras se protegen las cuentas clave
+
+## Contenido principal
+La concentración de clientes significa que una gran parte de los ingresos viene de pocos clientes. Puede sentirse como un éxito: los clientes grandes traen pedidos grandes. Pero crea riesgos serios.
+Riesgos de la concentración:
+- Choque en el flujo de efectivo: si un cliente importante se va, retrasa sus pagos o recorta sus pedidos, los ingresos pueden caer bruscamente de la noche a la mañana.
+- Poder de negociación: los clientes grandes saben que usted depende de ellos. Pueden exigir precios más bajos, plazos de pago más largos o términos especiales.
+- Riesgo de cobro: si un cliente importante tiene problemas financieros, sus cuentas por cobrar pueden volverse difíciles de cobrar.
+- Financiación: los prestamistas pueden limitar el crédito o exigir términos más estrictos a los negocios concentrados. REGLA ESPECÍFICA DE LA REGIÓN: Algunos prestamistas limitan cuánto de la base de préstamo puede venir de las cuentas por cobrar de un solo cliente; en España, por ejemplo, el factoring y el confirming son habituales y las entidades suelen limitar la parte de un solo deudor, y la Ley de Morosidad fija plazos máximos de pago entre empresas, por lo que conviene confirmarlo con su banco.
+- Valoración: los compradores y los inversores suelen descontar el valor de los negocios con mucha concentración por el riesgo (BLANCO).
+Cómo medir la concentración: ¿qué porcentaje de los ingresos viene de su cliente más grande? ¿De sus 5 más grandes? SUPUESTO/OPINIÓN: Muchos compradores se vuelven cautelosos cuando un solo cliente supera cerca del 20 % al 25 % de los ingresos, aunque las normas varían según la industria.
+Cómo se conectan los colores:
+- NARANJA: diversificar requiere nuevos esfuerzos de marketing y ventas.
+- AZUL: las reservas de efectivo deben reflejar el riesgo de concentración.
+- MORADO: los contratos a más largo plazo, los compromisos de compra mínima y los plazos de aviso de terminación pueden reducir el riesgo de los clientes clave.
+- BLANCO: una menor concentración por lo general respalda valoraciones más altas.
+- NEGRO: la dirección debe equilibrar atender bien las cuentas clave con invertir en crecer en otras partes.
+Diversificar no significa abandonar a los clientes grandes. Significa hacer crecer otros ingresos para que ningún cliente por sí solo pueda hundir el negocio.
+SUPUESTO/OPINIÓN: El mejor momento para diversificar es mientras el cliente grande todavía está contento. Diversificar con pánico después de perderlo es mucho más difícil.
+
+## Ejemplo práctico
+EJEMPLO ILUSTRATIVO: La imprenta de Elena gana 2 millones de euros al año. Su cliente más grande, un banco regional, le aporta 1 €.2 millones (60 %).
+Llega el escenario. El banco recorta su presupuesto de marketing y reduce sus pedidos a la mitad. Los ingresos de Elena bajan 6 €00,000.
+Su prestamista nota la baja y aprieta su línea de crédito, citando la concentración.
+El plan de Elena (que desearía haber empezado antes):
+- Proteger la cuenta clave: se reúne con el banco, ofrece un paquete para ahorrar costos y negocia un contrato de 12 meses con compromisos de pedido mínimo.
+- Diversificar: se dirige a clientes de salud y educación, menos afectados por los recortes del sector financiero.
+- Efectivo: crea reservas para cubrir 6 meses de costos fijos.
+- Contratos (MORADO): los contratos con clientes nuevos incluyen plazos de aviso de terminación de 90 días.
+- Meta: ningún cliente por encima del 25 % en tres años.
+Tres años después, su cliente más grande representa el 22 % de los ingresos. Cuando explora vender la empresa, los compradores la valoran más de lo que la habrían valorado antes.
+SUPUESTO/OPINIÓN: La concentración de Elena parecía un éxito hasta que el banco recortó. La diversificación convirtió su negocio de frágil en resiliente.
+
+## Prueba práctica
+**Q1. ¿Qué es la concentración de clientes?**
+A) Una gran parte de los ingresos que viene de pocos clientes
+B) Tener muchos clientes pequeños
+C) Enfocarse en el marketing
+D) Un tipo de contrato
+
+**Q2. ¿Cómo afecta la concentración el poder de negociación?**
+A) Aumenta su poder
+B) Los clientes grandes saben que usted depende de ellos y pueden exigir mejores términos
+C) No tiene efecto
+D) Elimina la negociación
+
+**Q3. ¿Por qué los prestamistas podrían apretar los términos a los negocios concentrados?**
+A) No les gustan los negocios pequeños
+B) Perder un solo cliente podría reducir mucho los ingresos y la capacidad de pago
+C) Es ilegal prestar
+D) Los impuestos son más altos
+
+**Q4. ¿Qué términos de contrato pueden reducir el riesgo de concentración?**
+A) No tener contratos
+B) Los compromisos de compra mínima y los plazos de aviso de terminación
+C) Solo los acuerdos verbales
+D) Plazos de pago más cortos para los clientes
+
+**Q5. Según la lección, ¿cuál es el mejor momento para diversificar?**
+A) Después de perder al cliente grande
+B) Mientras el cliente grande todavía está contento
+C) Nunca
+D) Solo durante las recesiones
+
+## Clave de respuestas
+Q1: A
+Q2: B
+Q3: B
+Q4: B
+Q5: B
+
+## Respuestas y explicaciones
+**Q1.** La concentración significa depender de pocos clientes.
+**Q2.** La dependencia debilita su posición.
+**Q3.** La concentración aumenta el riesgo de pago.
+**Q4.** Los términos de contrato pueden dar estabilidad.
+**Q5.** Diversificar de forma proactiva es más fácil que con pánico.
+
+## Puntos clave
+- La concentración crea riesgos de efectivo, negociación, cobro, financiación y valoración
+- Mida la parte de los ingresos que viene de los clientes principales
+- Use contratos para dar estabilidad a las cuentas clave
+- Diversifique antes de necesitarlo
+
+===== ORANGE-L5-019
+TITLE: El marketing de contenido como un activo propio
+SUMMARY: Los medios propios los controla usted; los medios alquilados los controlan las plataformas; el contenido puede convertirse en un activo duradero que gana valor, siempre que se asegure su titularidad y se creen listas de correo basadas en el consentimiento.
+KEYWORDS: el contenido como activo de marketing, medios propios, lista de correos como activo, propiedad intelectual del contenido, dependencia de las plataformas
+# El marketing de contenido como un activo propio
+
+## Escenario inicial
+SUPUESTO/OPINIÓN (escenario hipotético solo con fines educativos): Imagine dos grandes potencias económicas que intensifican los controles de exportación entre sí sobre una categoría de componentes de tecnología avanzada que se usan en muchas industrias.
+Aplíquelo aquí: Los controles de exportación y las restricciones a las plataformas hacen que una aplicación popular de redes sociales deje de estar disponible en algunos mercados. Los negocios que dependían de ella pierden su audiencia de la noche a la mañana. Pregunte desde varios colores: ¿era el negocio dueño de su audiencia y su contenido (NARANJA/MORADO), o se los alquilaba a una plataforma? ¿Cuánto vale el contenido propio para un comprador (BLANCO)? ¿Cuánto costaría reconstruirlo (AZUL)?
+
+## Objetivos de aprendizaje
+- Distinguir los medios propios, ganados y alquilados
+- Explicar cómo el contenido se convierte en un activo del negocio a largo plazo
+- Proteger la titularidad del contenido y reducir la dependencia de las plataformas
+
+## Contenido principal
+Los canales de marketing pueden agruparse según quién los controla:
+- Los medios propios: su sitio web, su lista de correos, su blog, sus cursos y su biblioteca de contenido. Usted los controla.
+- Los medios ganados: la cobertura de prensa, las reseñas y el boca a boca. Usted influye en ellos, pero no los controla.
+- Los medios alquilados (o pagados o de plataforma): los seguidores en redes sociales, los anuncios en plataformas de venta y los anuncios pagados. La plataforma controla el acceso, las reglas y los algoritmos.
+El marketing de contenido crea material útil (artículos, videos, guías, cursos) que atrae y educa a los clientes potenciales. A diferencia de un anuncio que deja de funcionar cuando usted deja de pagar, el buen contenido puede seguir atrayendo clientes durante años.
+Cómo el contenido se convierte en un activo:
+- Construye confianza y autoridad con el tiempo.
+- Puede atraer tráfico de los buscadores de forma continua.
+- Puede reutilizarse en cursos, libros o productos licenciados (PURPLE-L5-030 en la pista del derecho).
+- Una lista de correos creada con el consentimiento adecuado (PURPLE-L5-036) le permite llegar directamente a los clientes.
+Cómo se conectan los colores:
+- MORADO: el derecho de autor por lo general protege el contenido original. Asegúrese de que el negocio sea dueño del contenido creado por empleados y contratistas mediante acuerdos escritos (PURPLE-L5-028). Los términos de servicio de las plataformas pueden darles derechos amplios sobre el contenido que se publica allí.
+- BLANCO: los compradores suelen valorar más a los negocios con audiencias y bibliotecas de contenido propias que a los que dependen de plataformas.
+- AZUL: el contenido toma tiempo y dinero antes de rendir. La constancia importa más que el volumen.
+- NARANJA: el contenido construye relaciones que facilitan la venta.
+- VERDE: REGLA ESPECÍFICA DE LA REGIÓN: Los costos de crear contenido pueden registrarse como gasto o capitalizarse según las reglas; en España, por ejemplo, los gastos ordinarios de crear contenido suelen ser gasto del ejercicio, mientras que el desarrollo de una web o un software puede activarse como inmovilizado intangible y amortizarse, por lo que conviene confirmarlo con un asesor fiscal.
+SUPUESTO/OPINIÓN: Use las plataformas alquiladas para llegar a gente nueva, pero llévela hacia los canales propios, como su sitio web y su lista de correos, donde la relación le pertenece a usted.
+
+## Ejemplo práctico
+EJEMPLO ILUSTRATIVO: Dos educadoras de finanzas personales tienen cada una una audiencia grande.
+Educadora A: 200,000 seguidores en una sola plataforma social. No tiene lista de correos. Sus videos existen solo en esa plataforma.
+Educadora B: 50,000 seguidores sociales, pero los ha llevado de forma constante a su sitio web, donde 30,000 personas se unieron a su lista de correos con consentimiento claro. Publica artículos en su sitio, guarda copias de todos sus videos y tiene acuerdos escritos que confirman que su empresa es dueña del contenido que hace su editor de video.
+Llega el escenario: la plataforma deja de estar disponible en varios de sus mercados clave.
+La educadora A pierde el acceso a la mayor parte de su audiencia de la noche a la mañana. Reconstruirla tomará años.
+La educadora B pierde algunos seguidores sociales, pero su lista de correos y su sitio web no se ven afectados. Les escribe a sus suscriptores, lanza un curso con su biblioteca de contenido y sigue creciendo.
+Cuando una empresa de medios ofrece después comprar el negocio de la educadora B, valora mucho su lista de correos, su biblioteca de contenido y sus registros claros de titularidad.
+SUPUESTO/OPINIÓN: La educadora A construyó en terreno alquilado. La educadora B construyó en terreno propio.
+
+## Prueba práctica
+**Q1. ¿Qué son los medios propios?**
+A) Los seguidores en redes sociales
+B) Los canales que usted controla, como su sitio web y su lista de correos
+C) La cobertura de prensa
+D) Los anuncios pagados
+
+**Q2. ¿Por qué el contenido puede seguir funcionando después de creado?**
+A) Es gratis
+B) El buen contenido puede atraer clientes durante años, a diferencia de los anuncios que se detienen cuando se deja de pagar
+C) Lo exige la ley
+D) Reemplaza a los productos
+
+**Q3. ¿Por qué los negocios deben tener acuerdos escritos con los contratistas de contenido?**
+A) Para asegurar que el negocio sea dueño del contenido que ellos crean
+B) Para pagar menos impuestos
+C) Los contratistas lo exigen
+D) Mejora la calidad
+
+**Q4. ¿Qué le pasó a la educadora A cuando la plataforma dejó de estar disponible?**
+A) Ganó seguidores
+B) Perdió el acceso a la mayor parte de su audiencia
+C) Nada cambió
+D) Vendió su negocio
+
+**Q5. ¿Qué estrategia recomienda la lección para las plataformas alquiladas?**
+A) Evitarlas por completo
+B) Pagar por más seguidores
+C) Usar solo plataformas alquiladas
+D) Usarlas para llegar a gente nueva y luego llevarla a los canales propios
+
+## Clave de respuestas
+Q1: B
+Q2: B
+Q3: A
+Q4: B
+Q5: D
+
+## Respuestas y explicaciones
+**Q1.** Los medios propios están bajo su control.
+**Q2.** El valor del contenido puede acumularse con el tiempo.
+**Q3.** La titularidad debe asegurarse por escrito.
+**Q4.** La dependencia de la plataforma causó una pérdida repentina.
+**Q5.** Convierta el alcance alquilado en relaciones propias.
+
+## Puntos clave
+- Los medios propios los controla usted; los medios alquilados los controlan las plataformas
+- El contenido puede convertirse en un activo a largo plazo cuyo valor se acumula
+- Asegure la titularidad del contenido y listas de correo basadas en el consentimiento
+- Use las plataformas para el alcance, pero construya canales propios
+
+===== ORANGE-L5-020
+TITLE: El cumplimiento en el marketing: afirmaciones, testimonios y divulgaciones en la práctica
+SUMMARY: Convierta la ley de publicidad en un proceso diario de marketing: haga un inventario de las afirmaciones, guarde la prueba, revise las divulgaciones y maneje a los influenciadores con contratos claros; el marketing que cumple puede seguir siendo muy persuasivo.
+KEYWORDS: proceso de cumplimiento en el marketing, reglas sobre testimonios, divulgación de influenciadores, fundamento de las afirmaciones, revisión legal del marketing
+# El cumplimiento en el marketing: afirmaciones, testimonios y divulgaciones en la práctica
+
+## Escenario inicial
+SUPUESTO/OPINIÓN (escenario hipotético solo con fines educativos): Imagine una gran región productora de energía golpeada por un conflicto regional repentino que deja fuera de servicio de la noche a la mañana una gran parte de su capacidad de producción, restringiendo la oferta mundial de energía casi sin aviso.
+Aplíquelo aquí: Una crisis energética crea demanda de productos ahorradores de energía, y una empresa contrata influenciadores para promover su producto. Pregunte desde varios colores: ¿son exactas y están fundamentadas las afirmaciones de los influenciadores (MORADO)? ¿Se divulgan las relaciones pagadas? ¿Cómo afectaría la acción de un regulador las finanzas y la reputación (AZUL/NEGRO)? ¿Puede el marketing que cumple seguir siendo persuasivo (NARANJA)?
+
+## Objetivos de aprendizaje
+- Crear un proceso práctico de cumplimiento en el marketing
+- Manejar el cumplimiento de los influenciadores y los testimonios
+- Mantener el marketing persuasivo sin salirse de los límites legales
+
+## Contenido principal
+PURPLE-L5-035, en la pista del derecho, explicó los principios de la ley de publicidad. Esta lección los convierte en un proceso operativo NARANJA que los equipos de marketing pueden seguir todos los días.
+Un proceso práctico de cumplimiento:
+1. Inventario de afirmaciones: haga una lista de cada afirmación objetiva de una campaña (números, comparaciones, garantías, "el mejor", "el más rápido", "ahorra").
+2. Expediente de fundamento: para cada afirmación, guarde la prueba (resultados de pruebas, estudios, datos) antes de lanzar la campaña.
+3. Revisión de divulgaciones: identifique las condiciones, los límites, los cargos o las conexiones importantes, y asegúrese de que sean claros y visibles.
+4. Revisión de testimonios: confirme que los testimonios son reales, que reflejan experiencias honestas y que incluyen contexto si los resultados no son típicos.
+5. Divulgación de los endosantes: cualquier persona pagada, que haya recibido un regalo o que tenga otra conexión con la empresa debe divulgar esa relación con claridad. REGLA ESPECÍFICA DE LA REGIÓN; en España, por ejemplo, la Ley General de Publicidad, la Ley de Competencia Desleal y el código de conducta de Autocontrol sobre influencers exigen identificar con claridad la publicidad, por ejemplo con la etiqueta #publi, por lo que conviene confirmarlo con un abogado.
+6. Guías para influenciadores: instrucciones escritas para los influenciadores sobre la divulgación, las afirmaciones prohibidas y la aprobación de guiones o publicaciones.
+7. Aprobación y registros: una aprobación final y copias guardadas de las campañas.
+Cómo se conectan los colores:
+- MORADO: los requisitos legales y la posible responsabilidad.
+- NARANJA: las afirmaciones específicas y probadas suelen ser más persuasivas que las exageraciones vagas.
+- AZUL: las penalidades reglamentarias, los reembolsos y los costos legales afectan el flujo de efectivo.
+- NEGRO: la dirección marca el tono. Una cultura que premia las afirmaciones agresivas crea riesgo.
+- BLANCO: las fallas de cumplimiento pueden reducir el valor de la empresa y crear deudas en la diligencia.
+El riesgo del marketing con influenciadores: las empresas pueden ser responsables de lo que sus influenciadores pagados digan sobre sus productos. REGLA ESPECÍFICA DE LA REGIÓN. Los contratos claros con los influenciadores deben exigir la divulgación, prohibir las afirmaciones sin fundamento y permitir que la empresa pida correcciones o que se borre la publicación.
+SUPUESTO/OPINIÓN: El cumplimiento funciona mejor cuando se integra en el proceso de marketing, no cuando se añade al final como un último obstáculo.
+
+## Ejemplo práctico
+EJEMPLO ILUSTRATIVO: La empresa de Óscar vende termostatos inteligentes. Durante la crisis energética, contrata a 10 influenciadores.
+Sin un proceso, el primer influenciador publica: "¡Este termostato redujo mi factura a la mitad! ¡Todo el mundo debería tener uno!" No se divulga que al influenciador se le pagó, y no hay prueba de ahorros del 50 %.
+Óscar detiene la campaña y crea un proceso:
+- Inventario de afirmaciones: la afirmación aprobada es "Hasta un 20 % de ahorro en calefacción en pruebas independientes; los resultados varían según la casa y el clima."
+- Expediente de fundamento: se guarda el informe del laboratorio.
+- Contrato con los influenciadores: exige una divulgación clara (como "Colaboración pagada") al principio de las publicaciones, prohíbe las afirmaciones de ahorro sin fundamento y exige aprobar los guiones.
+- Testimonios: los influenciadores pueden compartir sus experiencias reales, con el contexto de que los resultados varían.
+- Monitoreo: un miembro del equipo revisa las publicaciones dentro de 24 horas y pide correcciones cuando hace falta.
+El primer influenciador corrige la publicación con la divulgación adecuada y la afirmación aprobada. La interacción sigue siendo fuerte.
+SUPUESTO/OPINIÓN: La campaña que cumple sigue vendiendo bien, y la empresa de Óscar evita la atención de los reguladores en un período en que vigilan de cerca las afirmaciones de ahorro de energía.
+
+## Prueba práctica
+**Q1. ¿Qué es un inventario de afirmaciones?**
+A) Una lista de productos
+B) Una lista de cada afirmación objetiva de una campaña
+C) Un conteo del almacén
+D) Una lista de clientes
+
+**Q2. ¿Por qué debe guardarse el fundamento antes de lanzar una campaña?**
+A) Es decorativo
+B) Mejora el diseño
+C) Solo se exige después de las quejas
+D) Las afirmaciones deben estar respaldadas por pruebas antes de hacerlas
+
+**Q3. ¿Por qué los influenciadores pagados deben divulgar sus relaciones?**
+A) Para cobrar más
+B) La audiencia debe saber cuándo los endosos son pagados o tienen una conexión
+C) Es opcional
+D) Esconde a la empresa
+
+**Q4. ¿Qué tenía de malo la publicación del primer influenciador?**
+A) Era muy corta
+B) Se publicó muy tarde
+C) Usó el color equivocado
+D) No tenía divulgación y hacía una afirmación de ahorro del 50 % sin fundamento
+
+**Q5. ¿Cómo recomienda la lección construir el cumplimiento?**
+A) Como un último obstáculo
+B) Solo para empresas grandes
+C) Solo después de las penalidades
+D) Dentro del proceso de marketing desde el principio
+
+## Clave de respuestas
+Q1: B
+Q2: D
+Q3: B
+Q4: D
+Q5: D
+
+## Respuestas y explicaciones
+**Q1.** Identifica las afirmaciones que necesitan prueba.
+**Q2.** La prueba debe existir antes de la afirmación.
+**Q3.** Las reglas de divulgación protegen a los consumidores. REGLA ESPECÍFICA DE LA REGIÓN.
+**Q4.** Fallaron tanto la divulgación como el fundamento.
+**Q5.** El cumplimiento integrado funciona mejor.
+
+## Puntos clave
+- Convierta la ley de publicidad en un proceso diario de marketing
+- Haga un inventario de las afirmaciones, guarde la prueba y revise las divulgaciones
+- Maneje a los influenciadores con contratos claros y monitoreo
+- El marketing que cumple puede seguir siendo muy persuasivo
