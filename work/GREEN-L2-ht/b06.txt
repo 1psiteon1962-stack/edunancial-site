@@ -1,0 +1,279 @@
+===== GREEN-L2-026
+TITLE: Kont epay sante (HSA): trip avantaj taks esplike
+SUMMARY: Yon HSA disponib pou moun ki nan yon plan sante ak gwo franchiz – kontribisyon anvan taks, kwasans san taks, ak retrè san taks pou depans medikal, e lajan an pa ekspire.
+## GREEN-L2-026
+### Kont epay sante (HSA): trip avantaj taks esplike
+
+**1. Objektif aprantisaj**
+Nan fen leson sa a, elèv la ap kapab:
+- Bay definisyon yon Kont epay sante (Health Savings Account, HSA) nan yon nivo konseptyèl.
+- Esplike konsèp jeneral "trip avantaj taks" la.
+- Idantifye kondisyon kalifikasyon jeneral nan yon nivo konseptyèl.
+
+**2. Kontni prensipal**
+Yon Kont epay sante (HSA) se yon kont ki gen avantaj taks ki disponib pou moun ki enskri nan yon plan sante ak gwo franchiz (high-deductible health plan) ki kalifye, yo an jeneral itilize l pou peye depans medikal ki kalifye. Moun souvan dekri HSA kòm yon kont ki ofri yon "trip avantaj taks": kontribisyon yo an jeneral fèt ak dola anvan taks oswa dola ki dediktib (menm jan ak dediksyon anvan AGI nou te diskite nan Leson 8), kwasans envestisman kont lan an jeneral pa sijè a taks pandan l nan kont lan, e retrè ki kalifye pou depans medikal an jeneral pa sijè a taks tou — yon konbinezon avantaj taks ki pa souvan disponib atravè lòt kalite kont komen nou diskite nan nivo sa a.
+
+Kontrèman ak yon Kont depans fleksib (n ap konpare yo dirèkteman nan Leson 27), lajan HSA an jeneral pa ekspire nan fen ane a e ou ka souvan envesti l pou kwasans alontèm, menm jan ak yon kont retrèt, sa ki fè yon HSA vin yon zouti epay alontèm ki ka gen anpil valè pi lwen pase objektif li pou depans medikal imedyat, pou moun ki gen mwayen peye depans medikal aktyèl yo nan pòch yo e kite balans HSA yo grandi.
+
+**3. Egzanp pratik**
+Paske l enskri nan yon plan sante ak gwo franchiz ki kalifye, Devon (nan Leson 3) kontribye nan yon HSA, e li resevwa yon dediksyon pou ane aktyèl la pou kontribisyon li. Olye l depanse lajan an imedyatman sou depans medikal regilye, li gen mwayen peye yo nan pòch li, li envesti balans HSA li pou kwasans alontèm, menm jan ak kont retrèt li yo, li planifye pou l kite l akimile san taks e alafen itilize l pou pi gwo depans medikal pita nan lavi li — sa ki pwofite nèt tou twa eleman trip avantaj taks leson sa a dekri a.
+
+**4. Egzamen pratik**
+1. Kisa ki an jeneral nesesè pou w kalifye pou kontribye nan yon HSA?
+   a) Pa gen okenn kondisyon espesifik ditou
+   b) Enskri nan yon plan sante ak gwo franchiz ki kalifye
+   c) Gen plis pase 65 an
+   d) Posede yon biznis
+
+2. Kisa "trip avantaj taks" la an jeneral vle di?
+   a) Yon sèl avantaj taks sèlman
+   b) Kontribisyon anvan taks, kwasans san taks, ak retrè ki kalifye san taks
+   c) Yon penalite pou retrè bonè
+   d) Yon kalite kredi taks ki pa gen rapò ak depans sante
+
+3. Vrè oswa Fo: Lajan HSA an jeneral ekspire nan fen chak ane, menm jan ak kèk lòt kont.
+
+4. Poukisa Devon te chwazi envesti balans HSA li olye l depanse l imedyatman sou depans regilye?
+   a) Ou pa ka envesti lajan HSA nan okenn sikonstans
+   b) Li te gen mwayen peye depans regilye nan pòch li e li te vle kite balans HSA li grandi san taks pou itilize alontèm
+   c) Yo te oblije l depanse balans HSA li imedyatman
+   d) HSA pa ofri okenn potansyèl kwasans ditou
+
+**5. Kle repons yo**
+1. b  2. b  3. Fo  4. b
+
+**6. Repons ak eksplikasyon**
+1. Kalifikasyon pou HSA an jeneral mande pou w enskri nan yon plan sante ak gwo franchiz ki kalifye.
+2. Trip avantaj taks la vle di kontribisyon anvan taks, kwasans san taks, ak retrè ki kalifye san taks.
+3. Kontrèman ak kèk lòt kont, lajan HSA an jeneral pa ekspire nan fen ane a e ou ka envesti l pou kwasans alontèm.
+4. Estrateji Devon pou l peye depans regilye nan pòch li pandan l envesti balans HSA li te maksimize potansyèl kwasans alontèm ak avantaj taks kont lan.
+
+**7. Pwen kle yo**
+- Yon HSA se yon kont ki gen avantaj taks ki disponib pou moun ki enskri nan yon plan sante ak gwo franchiz ki kalifye.
+- "Trip avantaj taks" la gen ladan kontribisyon anvan taks, kwasans san taks, ak retrè ki kalifye san taks.
+- Kontrèman ak yon FSA, lajan HSA an jeneral pa ekspire e ou ka souvan envesti l pou kwasans alontèm.
+- Sa fè yon HSA vin yon zouti epay alontèm ki ka gen anpil valè pi lwen pase objektif li pou depans medikal imedyat.
+
+===== GREEN-L2-027
+TITLE: Kont depans fleksib kont HSA: yon konparezon
+SUMMARY: Yon FSA pa mande yon plan ak gwo franchiz men li swiv yon estrikti "itilize l oswa pèdi l" chak ane; yon HSA mande plan sa a men balans li pa ekspire – an jeneral ou pa ka kontribye nan tou de.
+## GREEN-L2-027
+### Kont depans fleksib kont HSA: yon konparezon
+
+**1. Objektif aprantisaj**
+Nan fen leson sa a, elèv la ap kapab:
+- Konpare dirèkteman Kont depans fleksib (FSA) ak HSA.
+- Idantifye diferans estriktirèl kle ant de yo.
+- Aplike konparezon sa a nan yon senaryo ipotetik chwa benefis.
+
+**2. Kontni prensipal**
+Lè l bati dirèkteman sou Leson 26, leson sa a konpare HSA ak Kont depans fleksib (Flexible Spending Account, FSA), yon lòt kont ki gen avantaj taks yo itilize pou depans medikal (oswa nan kèk ka, depans pou swen moun ki depann de ou). Kontrèman ak HSA, FSA an jeneral pa mare ak yon kondisyon plan sante ak gwo franchiz, men ou an jeneral dwe itilize lajan FSA a pandan ane plan an (sijè a kèk dispozisyon limite pou transfere oswa peryòd gras nan kèk plan) oswa an jeneral ou pèdi l — yon estrikti ki diferan anpil de balans HSA a ki pa ekspire e ou ka envesti nou te diskite nan Leson 26.
+
+Estrikti "itilize l oswa pèdi l" sa a vle di chwa FSA mande yon estimasyon ki pi atantif e ki pi entansyonèl sou depans medikal ou atann chak ane pase yon kontribisyon HSA, paske si w estime twòp ou ka pèdi lajan, alòske si w estime twò piti sa vle di w ap rate kèk ekonomi ak avantaj taks. Gen kèk patwon ki ofri tou de kalite kont yo pou diferan objektif, men yon moun an jeneral pa ka kontribye ni nan yon HSA ni nan yon FSA pou tout objektif nan menm ane a dapre estrikti plan komen yo, sa ki fè sa vin yon vrè desizyon swa youn swa lòt pou anpil anplwaye pandan enskripsyon benefis.
+
+**3. Egzanp pratik**
+Pandan enskripsyon benefis, Amara (nan Leson 2) konpare opsyon plan sante ak gwo franchiz patwon li ki kalifye pou HSA ak yon plan sante pi tradisyonèl ki mache ak yon FSA. Paske l rekonèt estrikti "itilize l oswa pèdi l" FSA a ta mande pou l estime depans medikal li chak ane ak atansyon, alòske balans HSA a ki pa ekspire ta bay plis fleksibilite si vrè depans li ta vin pi ba pase sa l t ap atann, li konsidere depans medikal li chak ane ki souvan enprevizib kòm yon faktè espesifik ki favorize estrikti HSA a ki pi toleran pou sitiyasyon pa l.
+
+**4. Egzamen pratik**
+1. Ki yon diferans estriktirèl kle ant yon FSA ak yon HSA?
+   a) Yo fonksyone menm jan nan tout aspè
+   b) Ou an jeneral dwe itilize lajan FSA pandan ane plan an oswa ou pèdi l, kontrèman ak balans HSA ki pa ekspire a
+   c) HSA toujou ekspire nan fen ane a, kontrèman ak FSA
+   d) FSA mande yon plan sante ak gwo franchiz, kontrèman ak HSA
+
+2. Poukisa estrikti "itilize l oswa pèdi l" yon FSA mande yon estimasyon atantif?
+   a) Li pa mande okenn estimasyon ditou
+   b) Si w estime depans ou atann yo twòp, ou ka pèdi lajan
+   c) Lajan FSA pa janm ekspire, sa ki elimine nenpòt bezwen pou estimasyon
+   d) FSA pa gen okenn rapò ak depans medikal
+
+3. Vrè oswa Fo: Yon moun an jeneral ka kontribye ni nan yon HSA ni nan yon FSA pou tout objektif nan menm ane a dapre estrikti plan komen yo.
+
+4. Poukisa Amara te konsidere estrikti HSA a pi favorab pou sitiyasyon espesifik li?
+   a) Li te gen depans medikal chak ane ki totalman previzib
+   b) Depans medikal li chak ane ki enprevizib te favorize estrikti HSA a ki pi toleran e ki pa ekspire
+   c) FSA ofri plis fleksibilite pase HSA nan tout ka
+   d) Li pa t gen okenn depans medikal ditou
+
+**5. Kle repons yo**
+1. b  2. b  3. Fo  4. b
+
+**6. Repons ak eksplikasyon**
+1. Ou an jeneral dwe itilize lajan FSA pandan ane plan an oswa ou pèdi l, kontrèman ak balans HSA ki pa ekspire a.
+2. Estime depans ou atann yo twòp nan estrikti "itilize l oswa pèdi l" yon FSA riske fè w pèdi lajan ou pa t itilize.
+3. Dapre estrikti plan komen yo, yon moun an jeneral pa ka kontribye ni nan yon HSA ni nan yon FSA pou tout objektif nan menm ane a.
+4. Depans medikal Amara ki enprevizib te fè estrikti HSA a ki pi toleran e ki pa ekspire a koresponn pi byen ak sitiyasyon li.
+
+**7. Pwen kle yo**
+- FSA an jeneral pa mande yon plan sante ak gwo franchiz men li an jeneral swiv yon estrikti anyèl "itilize l oswa pèdi l".
+- HSA an jeneral mande yon plan sante ak gwo franchiz men li ofri yon balans ki pa ekspire e ou ka envesti.
+- Chwa FSA mande yon estimasyon atantif sou depans chak ane, akoz risk pou w pèdi lajan si w estime twòp.
+- Yon moun an jeneral pa ka kontribye an menm tan nan yon HSA ak yon FSA pou tout objektif dapre estrikti plan komen yo.
+
+===== GREEN-L2-028
+TITLE: Moun ki depann de ou ak kredi taks: Kredi taks pou timoun ak lòt
+SUMMARY: Yon moun ki depann de ou pou taks dwe satisfè kondisyon espesifik sou relasyon, rezidans, laj, ak sipò – kredi ki mare ak sa yo ka gen pati ranbousab ak pati ki pa ranbousab.
+## GREEN-L2-028
+### Moun ki depann de ou ak kredi taks: Kredi taks pou timoun ak lòt
+
+**1. Objektif aprantisaj**
+Nan fen leson sa a, elèv la ap kapab:
+- Esplike konsèp jeneral yon moun ki depann de ou (dependent) pou objektif taks.
+- Idantifye kredi komen ki asosye ak genyen moun ki depann de ou.
+- Ranfòse diferans ranbousab kont pa ranbousab Leson 6 la.
+
+**2. Kontni prensipal**
+Yon "moun ki depann de ou" pou objektif taks se an jeneral yon timoun ki kalifye oswa yon fanmi ki kalifye ki satisfè kondisyon espesifik sou relasyon, rezidans, laj, ak sipò, sa ki bay kontribyab ki reklame l la dwa a kèk avantaj taks. Kredi komen ki asosye ak moun ki depann de ou gen ladan yon kredi taks pou timoun (child tax credit, sijè a diminisyon selon revni ak règ kalifikasyon espesifik) e, nan kèk sitiyasyon, yon kredi pou swen timoun ak moun ki depann de ou ki trete depans swen ki pèmèt yon kontribyab travay oswa chèche travay.
+
+Pou ranfòse diferans ranbousab kont pa ranbousab Leson 6 la, gen kèk kredi ki gen rapò ak moun ki depann de ou ki gen yon pati ranbousab (ki ka bay valè menm pou kontribyab ki gen ti kras oswa okenn obligasyon taks anvan kredi a), alòske lòt yo totalman pa ranbousab, sa ki fè estati ranbousman kredi espesifik la yon faktè enpòtan pou konprann vrè valè l pou sitiyasyon espesifik yon kontribyab. RÈG ESPESIFIK POU REJYON AN: kredi sa yo se egzanp Etazini, e règ yo chanje detanzantan.
+
+**3. Egzanp pratik**
+Pandan l ap depoze deklarasyon taks li kòm yon paran ki elve pitit li pou kont li, Teresa (nan Leson 5) reklame pitit li kòm yon moun ki depann de li, sa ki fè l kalifye pou yon kredi taks pou timoun ki gen ni yon pati ki pa ranbousab ni yon pati ki ranbousab an pati dapre règ espesifik ki aplike pou ane deklarasyon li a. Konprann diferans sa a, sa ki raple diskisyon pi laj Leson 6 la sou ranbousab kont pa ranbousab, ede l rekonèt poukisa vrè benefis kredi li depann pa sèlman de montan maksimòm kredi a, men tou de obligasyon taks espesifik li ak estrikti ranbousman kredi a pou sitiyasyon li.
+
+**4. Egzamen pratik**
+1. Kisa ki an jeneral nesesè pou w reklame yon moun kòm yon moun ki depann de ou pou objektif taks?
+   a) Pa gen okenn kondisyon espesifik ditou
+   b) Satisfè kondisyon espesifik sou relasyon, rezidans, laj, ak sipò
+   c) Sèlman pataje menm siyati
+   d) Viv nan menm vil la, kèlkeswa nenpòt lòt faktè
+
+2. Kisa leson sa a ranfòse nan Leson 6?
+   a) Yon konsèp ki pa gen okenn rapò
+   b) Diferans ranbousab kont pa ranbousab, kounye a aplike nan kredi ki gen rapò ak moun ki depann de ou
+   c) Desizyon ant dediksyon estanda ak detaye dediksyon
+   d) To taks majinal kont to taks efektif
+
+3. Vrè oswa Fo: Tout kredi taks ki gen rapò ak moun ki depann de ou totalman ranbousab, kèlkeswa kredi espesifik la oswa règ ane deklarasyon an.
+
+4. Poukisa konprann diferans ranbousab kont pa ranbousab la te enpòtan pou sitiyasyon espesifik Teresa?
+   a) Li pa t gen okenn efè sou vrè benefis kredi li
+   b) Vrè benefis li te depann de obligasyon taks espesifik li ak estrikti ranbousman kredi a
+   c) Tout kredi bay menm valè kèlkeswa obligasyon taks
+   d) Li pa t gen okenn moun ki depann de li pou l reklame
+
+**5. Kle repons yo**
+1. b  2. b  3. Fo  4. b
+
+**6. Repons ak eksplikasyon**
+1. Reklame yon moun ki depann de ou an jeneral mande pou w satisfè kondisyon espesifik sou relasyon, rezidans, laj, ak sipò.
+2. Leson sa a ranfòse diferans ranbousab kont pa ranbousab Leson 6 la, aplike espesyalman nan kredi ki gen rapò ak moun ki depann de ou.
+3. Kredi ki gen rapò ak moun ki depann de ou ka gen ni pati ranbousab ni pati ki pa ranbousab, selon kredi espesifik la ak règ yo.
+4. Vrè benefis kredi Teresa te depann de obligasyon taks espesifik li ak estrikti ranbousman patikilye kredi a.
+
+**7. Pwen kle yo**
+- Yon moun ki depann de ou pou objektif taks an jeneral mande pou w satisfè kondisyon espesifik sou relasyon, rezidans, laj, ak sipò.
+- Kredi komen ki gen rapò ak moun ki depann de ou gen ladan kredi taks pou timoun ak kredi pou swen timoun ak moun ki depann de ou.
+- Kredi sa yo ka gen ni pati ranbousab ni pati ki pa ranbousab, sa ki ranfòse diferans Leson 6 la.
+- Vrè valè yon kredi depann de obligasyon espesifik kontribyab la ak estrikti ranbousman kredi a.
+
+===== GREEN-L2-029
+TITLE: Avantaj taks pou edikasyon: kredi ak dediksyon konpare
+SUMMARY: Avantaj taks pou edikasyon gen ladan kredi (diminisyon dola pou dola) ak kèk dediksyon (valè ki depann de to majinal) – règ kalifikasyon yo konplèks, kidonk konfime yo ak yon pwofesyonèl.
+## GREEN-L2-029
+### Avantaj taks pou edikasyon: kredi ak dediksyon konpare
+
+**1. Objektif aprantisaj**
+Nan fen leson sa a, elèv la ap kapab:
+- Idantifye kategori jeneral avantaj taks ki gen rapò ak edikasyon.
+- Aplike diferans dediksyon kont kredi Leson 6 la espesyalman nan avantaj edikasyon.
+- Rekonèt règ kalifikasyon yo kòm konplèks e ki mande konfimasyon ak yon pwofesyonèl oswa resous IRS.
+
+**2. Kontni prensipal**
+Avantaj taks ki gen rapò ak edikasyon an jeneral gen ladan kèk kredi pou edikasyon (ki ka kouvri yon pòsyon frè eskolè ki kalifye ak depans ki gen rapò) e, nan kèk sikonstans, dediksyon ki gen rapò ak enterè sou prè etidyan (sa ki raple diskisyon Leson 8 la sou dediksyon anvan AGI). Konsistan ak kad pi laj dediksyon kont kredi Leson 6 la, yon kredi pou edikasyon an jeneral diminye taks ou dwe dola pou dola (sijè a nenpòt limit ak diminisyon ki aplike), alòske yon dediksyon ki gen rapò ak edikasyon diminye revni ki sijè a taks, e vrè valè l depann de to majinal kontribyab la.
+
+Règ kalifikasyon pou avantaj sa yo souvan konplèks, ak diminisyon selon revni, definisyon espesifik sou depans ki kalifye, ak règ ki anpeche "tranpe de fwa" (reklame plizyè avantaj pou menm depans lan) — sa ki fè sa vin yon domèn kote yon kontribyab ta dwe an jeneral verifye règ kalifikasyon aktyèl yo dirèkteman ak yon pwofesyonèl taks oswa resous ofisyèl gouvènman, olye l sipoze li kalifye dapre enfòmasyon jeneral ki ka pa reflete kondisyon aktyèl e espesifik yo.
+
+**3. Egzanp pratik**
+Pandan l ap peye pou pwòp kou edikasyon kontinyèl li, Simone (nan Leson 23) fè rechèch sou avantaj taks pou edikasyon ki disponib, li rekonèt apati kad Leson 6 la ke yon kredi ki disponib ta pwobableman bay plis valè dirèk pase yon dediksyon konparab, akoz diminisyon dola pou dola kredi a kont valè dediksyon an ki depann de to majinal. Olye l sipoze depans espesifik li ak nivo revni li fè l kalifye pou yon kredi espesifik dapre enfòmasyon jeneral, li konfime vrè kalifikasyon l ak pwofesyonèl taks li, akoz konpleksite ak règ diminisyon espesifik ki enplike yo.
+
+**4. Egzamen pratik**
+1. Kisa yon kredi pou edikasyon an jeneral fè, dapre kad Leson 6 la aplike isit la?
+   a) Diminye sèlman revni ki sijè a taks, ak yon valè ki depann de to majinal
+   b) Diminye taks ou dwe dola pou dola, sijè a limit ak diminisyon ki aplike
+   c) Pa gen okenn rapò ak obligasyon taks ditou
+   d) Aplike sèlman pou depans edikasyon biznis
+
+2. Poukisa yo dekri règ kalifikasyon pou avantaj taks edikasyon kòm souvan konplèks?
+   a) Yo toujou senp e idantik pou chak kontribyab
+   b) Yo gen ladan diminisyon selon revni, definisyon espesifik sou depans, ak règ ki anpeche tranpe de fwa
+   c) Pa gen okenn règ kalifikasyon ki vrèman egziste
+   d) Yo aplike sèlman pou etidyan nan inivèsite siperyè
+
+3. Vrè oswa Fo: Yon kontribyab ta dwe toujou sipoze li kalifye pou avantaj taks edikasyon dapre enfòmasyon jeneral sèlman.
+
+4. Poukisa Simone te konfime kalifikasyon l ak yon pwofesyonèl taks olye l sipoze l dapre enfòmasyon jeneral?
+   a) Avantaj taks pou edikasyon pa gen okenn konpleksite ditou
+   b) Konpleksite ak règ diminisyon espesifik yo te jistifye yon konfimasyon pwofesyonèl olye yon sipozisyon jeneral
+   c) Li pa t gen okenn depans edikasyon pou l konsidere
+   d) Pwofesyonèl taks pa janm itil pou kalite kesyon sa a
+
+**5. Kle repons yo**
+1. b  2. b  3. Fo  4. b
+
+**6. Repons ak eksplikasyon**
+1. Konsistan ak kad Leson 6 la, yon kredi pou edikasyon an jeneral diminye taks ou dwe dola pou dola, sijè a limit.
+2. Kalifikasyon pou avantaj taks edikasyon gen ladan diminisyon selon revni, definisyon espesifik sou depans, ak règ kont tranpe de fwa, sa ki ajoute konpleksite.
+3. Akoz konpleksite sa a, ou ta dwe konfime kalifikasyon ak yon pwofesyonèl oswa resous ofisyèl, se pa sipoze l dapre enfòmasyon jeneral.
+4. Konfimasyon pwofesyonèl Simone te trete yon fason apwopriye vrè konpleksite règ kalifikasyon avantaj taks edikasyon yo.
+
+**7. Pwen kle yo**
+- Avantaj taks pou edikasyon an jeneral gen ladan kredi (diminisyon dola pou dola) ak kèk dediksyon (valè ki depann de to majinal).
+- Sa aplike dirèkteman kad pi laj dediksyon kont kredi Leson 6 la nan kontèks espesifik edikasyon an.
+- Règ kalifikasyon yo souvan konplèks, ak diminisyon ak dispozisyon kont tranpe de fwa.
+- Konfime kalifikasyon aktyèl ak yon pwofesyonèl oswa resous ofisyèl pi bon pase sipoze kalifikasyon dapre enfòmasyon jeneral.
+
+===== GREEN-L2-030
+TITLE: Taks eta kont taks federal: poukisa tou de enpòtan
+SUMMARY: Taks eta se yon kouch apa ak pwòp to, dediksyon, ak règ li – kidonk yon pòtre taks konplè mande pou konsidere ni obligasyon federal ni obligasyon eta ansanm, sitou si w demenaje.
+## GREEN-L2-030
+### Taks eta kont taks federal: poukisa tou de enpòtan
+
+**1. Objektif aprantisaj**
+Nan fen leson sa a, elèv la ap kapab:
+- Fè diferans ant sistèm taks eta ak federal nan yon nivo konseptyèl.
+- Esplike poukisa règ taks eta yo ka diferan anpil de règ federal yo.
+- Rekonèt enpòtans pou konsidere tou de nivo yo ansanm.
+
+**2. Kontni prensipal**
+Atravè nivo sa a, pifò diskisyon yo te santre sou konsèp taks federal, ilistre sitou ak egzanp federal Etazini. Taks eta reprezante yon kouch apa, anplis, kote chak eta an jeneral fikse pwòp to taks sou revni li (oswa, nan kèk ka, pa gen okenn taks sou revni ditou, n ap devlope sa plis nan Leson 31), pwòp dediksyon ak kredi li (ki pa toujou reflete règ federal yo), ak pwòp kondisyon deklarasyon li — sa vle di pòtre taks total yon kontribyab mande pou konsidere ni obligasyon federal ni obligasyon eta ansanm, se pa federal sèlman.
+
+Sa kreye yon vrè konpleksite pou kontribyab ki demenaje ant eta pandan yon ane taks, ki travay nan yon lòt eta pase kote yo abite, oswa ki gen revni ki soti nan plizyè eta — sitiyasyon ki mande yon atansyon espesyal sou règ espesifik chak eta ki konsène, e ki souvan benefisye de konsèy pwofesyonèl akoz jan règ sa yo ka varye anpil e gen enteraksyon. RÈG ESPESIFIK POU REJYON AN: lòt peyi ka gen nivo taks rejyonal oswa lokal ki fonksyone yon lòt jan.
+
+**3. Egzanp pratik**
+Apre l fin demenaje pou yon nouvo travay nan mitan ane taks la, Nadia (nan Leson 14) reyalize li ka dwe fè deklarasyon taks ni nan eta kote l te abite anvan ni nan nouvo eta kote l abite a, chak youn ak to, dediksyon, ak règ ki ka diferan ki pa nesesèman reflete tretman federal la oswa youn lòt. Olye l sipoze preparasyon taks federal li sèlman trete tout pòtre taks li, li konsilte yon pwofesyonèl taks ki konnen sitiyasyon ak plizyè eta pou l asire l trete kòmsadwa kondisyon tou de eta yo pou rezidans pasyèl li nan chak youn.
+
+**4. Egzamen pratik**
+1. Kisa leson sa a sijere sou règ taks eta konpare ak règ federal?
+   a) Yo toujou idantik
+   b) Eta yo an jeneral fikse pwòp to, dediksyon, ak règ yo, ki pa toujou reflete tretman federal la
+   c) Taks eta pa vrèman egziste
+   d) Se sèlman taks federal ki enpòtan pou nenpòt kontribyab
+
+2. Ki sitiyasyon ki ka kreye yon vrè konpleksite taks ak plizyè eta?
+   a) Viv nan menm eta a pandan tout yon karyè san okenn chanjman
+   b) Demenaje ant eta pandan yon ane taks, oswa travay nan yon lòt eta pase kote w abite
+   c) Toujou travay pou yon sèl patwon ki pa janm chanje
+   d) Konpleksite ak plizyè eta pa janm vrèman rive
+
+3. Vrè oswa Fo: Ou trete tout pòtre taks yon kontribyab nèt lè w konsidere taks federal sèlman.
+
+4. Poukisa Nadia te konsilte yon pwofesyonèl taks ki konnen sitiyasyon ak plizyè eta?
+   a) Li te sipoze preparasyon federal li sèlman te ase
+   b) Demenajman li nan mitan ane a te kreye obligasyon deklarasyon posib nan de eta ak règ diferan
+   c) Taks eta pa gen okenn enpòtans nan sitiyasyon li
+   d) Li pa t janm demenaje ni chanje travay
+
+**5. Kle repons yo**
+1. b  2. b  3. Fo  4. b
+
+**6. Repons ak eksplikasyon**
+1. Eta yo an jeneral fikse pwòp to taks, dediksyon, ak règ yo, ki pa toujou reflete tretman federal la.
+2. Demenaje ant eta oswa travay nan yon lòt eta pase kote w abite ka kreye yon vrè konpleksite taks ak plizyè eta.
+3. Yon pòtre taks konplè mande pou konsidere ni obligasyon federal ni obligasyon eta (e pafwa plizyè eta) ansanm.
+4. Demenajman Nadia nan mitan ane a te kreye yon vrè konpleksite ak plizyè eta ki te jistifye konsèy pwofesyonèl.
+
+**7. Pwen kle yo**
+- Taks eta reprezante yon kouch apa, anplis, ak pwòp to, dediksyon, ak règ li, apa de tretman federal la.
+- Règ eta yo pa toujou reflete règ federal yo, e yo varye anpil soti nan yon eta rive nan yon lòt.
+- Demenaje ant eta oswa gen revni ki soti nan plizyè eta kreye yon vrè konpleksite ki mande yon atansyon espesyal, souvan pwofesyonèl.
+- Yon pòtre taks konplè mande pou konsidere ni obligasyon federal ni obligasyon eta ki aplike yo ansanm.
