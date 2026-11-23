@@ -1,0 +1,437 @@
+===== WHITE-L1-025
+TITLE: Kisa benefis pa aksyon (EPS) ye?
+SUMMARY: Aprann sa EPS mezire ak kijan yo kalkile l, kòm baz pou leson sou evalyasyon k ap vini pita.
+# Kisa benefis pa aksyon (EPS) ye?
+
+## Objektif aprantisaj
+
+Lè w fin fè leson sa a, w ap kapab:
+
+- Bay fòmil EPS la.
+- Kalkile yon EPS debaz lè w konnen benefis nèt la ak kantite aksyon ki egziste.
+- Esplike sa EPS reprezante an mo senp.
+
+## Kontni prensipal
+
+### Fòmil EPS la
+
+Benefis pa aksyon (EPS) = Benefis nèt ÷ Aksyon ki egziste. Li divize benefis total yon konpayi sou chak aksyon.
+
+### Sa EPS reprezante
+
+EPS reprezante konbyen benefis ki pou chak aksyon – yon fason pou eksprime benefis total yon konpayi pa aksyon, sa ki fè li pi fasil pou konpare konpayi ki gen gwosè diferan.
+
+### Poukisa sa enpòtan pou pita
+
+EPS se fondasyon plizyè konsèp evalyasyon n ap etidye pi fon nan Nivo 2 – lè w konprann sa li mezire kounye a, sa prepare w pou leson sa yo pita.
+
+## Egzanp pratik
+
+Yon konpayi ki gen $5,000,000 benefis nèt ak 1,000,000 aksyon ki egziste gen yon EPS $5,000,000 ÷ 1,000,000 = $5.00 pa aksyon.
+
+## Egzamen pratik
+
+1. Yo kalkile EPS konsa:
+   A. Pri aksyon ÷ benefis nèt
+   B. Benefis nèt ÷ aksyon ki egziste
+   C. Revni total ÷ depans total
+   D. Aksyon ki egziste ÷ benefis nèt
+
+2. Vrè oswa fo: EPS reprezante benefis total yon konpayi, se pa yon chif pa aksyon.
+
+3. Yon konpayi gen $2,000,000 benefis nèt ak 500,000 aksyon ki egziste. Konbyen EPS li ye?
+   A. $0.25
+   B. $2.50
+   C. $4.00
+   D. $250
+
+## Kle repons yo
+
+1. B
+2. Fo
+3. C
+
+## Repons ak eksplikasyon
+
+### Kesyon 1
+
+Repons kòrèk: B. EPS = Benefis nèt ÷ Aksyon ki egziste.
+
+### Kesyon 2
+
+Repons kòrèk: Fo. EPS eksprime benefis la pa aksyon espesyalman.
+
+### Kesyon 3
+
+Repons kòrèk: C. $2,000,000 ÷ 500,000 = $4.00.
+
+## Pwen kle yo
+
+- EPS = Benefis nèt ÷ Aksyon ki egziste.
+- Li eksprime benefis yon konpayi pa aksyon.
+- Li se fondasyon konsèp evalyasyon n ap etidye pi fon pita.
+
+===== WHITE-L1-026
+TITLE: Kisa yon rapò P/E ye? (Vèsyon entwodiksyon – metòd konplè a nan Nivo 2)
+SUMMARY: Aprann fòmil debaz rapò P/E a ak sa li estime, kòm entwodiksyon pou evalyasyon n ap etidye pi fon nan Nivo 2.
+# Kisa yon rapò P/E ye? (Vèsyon entwodiksyon – metòd konplè a nan Nivo 2)
+
+## Objektif aprantisaj
+
+Lè w fin fè leson sa a, w ap kapab:
+
+- Bay fòmil debaz rapò P/E a.
+- Kalkile yon rapò P/E debaz lè w konnen pri aksyon an ak EPS la.
+- Esplike, nan yon nivo entwodiksyon, sa rapò a estime.
+
+## Kontni prensipal
+
+### Fòmil debaz la
+
+Rapò P/E = Pri aksyon an ÷ Benefis pa aksyon (EPS), li bati dirèkteman sou konsèp EPS leson anvan an.
+
+### Sa li estime
+
+Rapò P/E a reponn apeprè: konbyen envestisè yo ap peye jodi a pou chak dola benefis aktyèl yon konpayi? Yon chif ki pi wo vle di envestisè yo ap peye plis pou chak dola benefis aktyèl.
+
+### Yon apèsi, se pa tout pòtre a
+
+*SIPOZISYON (pou bezwen leson an):* Leson entwodiksyon sa a kouvri sèlman fòmil debaz la. Yon etid konplè – ki gen ladan kijan pou konpare ant endistri, ak kijan rachte aksyon ka defòme rapò a – ap fèt nan Nivo 2.
+
+## Egzanp pratik
+
+Yon aksyon vann $60 chak ak yon EPS $3.00. P/E = $60 ÷ $3.00 = 20 – envestisè yo ap peye $20 pou chak $1 benefis aktyèl konpayi sa a.
+
+## Egzamen pratik
+
+1. Fòmil rapò P/E a se:
+   A. EPS ÷ Pri aksyon
+   B. Pri aksyon ÷ EPS
+   C. Benefis nèt ÷ Pri aksyon
+   D. Aksyon ki egziste ÷ EPS
+
+2. Vrè oswa fo: Yon rapò P/E ki pi wo vle di envestisè yo ap peye mwens pou chak dola benefis aktyèl.
+
+3. Yon aksyon vann $80 ak yon EPS $4.00. Konbyen rapò P/E li ye?
+   A. 4
+   B. 20
+   C. 80
+   D. 320
+
+## Kle repons yo
+
+1. B
+2. Fo
+3. B
+
+## Repons ak eksplikasyon
+
+### Kesyon 1
+
+Repons kòrèk: B. P/E = Pri aksyon ÷ EPS.
+
+### Kesyon 2
+
+Repons kòrèk: Fo. Yon P/E ki pi wo vle di w ap peye plis pou chak dola benefis.
+
+### Kesyon 3
+
+Repons kòrèk: B. $80 ÷ $4.00 = 20.
+
+## Pwen kle yo
+
+- Rapò P/E = Pri aksyon ÷ EPS.
+- Li estime konbyen envestisè yo ap peye pou chak dola benefis aktyèl.
+- Sa se yon vèsyon entwodiksyon – Nivo 2 ap kouvri aplikasyon ak limit li pi fon.
+
+===== WHITE-L1-027
+TITLE: Kisa rannman (yield) ye?
+SUMMARY: Aprann sa rannman mezire nan diferan byen sou papye, ak kijan li diferan de lè pri a monte.
+# Kisa rannman (yield) ye?
+
+## Objektif aprantisaj
+
+Lè w fin fè leson sa a, w ap kapab:
+
+- Bay definisyon rannman an mo senp.
+- Kalkile yon rannman debaz lè w konnen revni an ak pri a.
+- Fè diferans ant rannman ak apresyasyon pri.
+
+## Kontni prensipal
+
+### Kisa rannman vle di
+
+Rannman anjeneral mezire revni yon envestisman pote (tankou dividann yon aksyon oswa enterè yon obligasyon), an pousantaj sou pri li.
+
+### Fòmil debaz la
+
+Rannman = Revni anyèl ÷ Pri aktyèl. Pou yon aksyon, "revni" anjeneral vle di dividann; pou yon obligasyon, anjeneral li vle di peman enterè.
+
+### Rannman kont apresyasyon pri
+
+Rannman mezire espesyalman revni, se pa lè pri a monte. Yon aksyon ka gen yon rannman ki wo atravè dividann pandan pri li rete plat, oswa yon rannman ki ba pandan pri li monte anpil – sa se de sous rannman posib ki separe, se pa menm bagay.
+
+## Egzanp pratik
+
+Yon aksyon vann $50 e li peye $2 dividann pa ane. Rannman = $2 ÷ $50 = 4%. Sa separe e li pa gen ladan okenn chanjman nan pri aksyon an li menm.
+
+## Egzamen pratik
+
+1. Yo kalkile rannman konsa:
+   A. Apresyasyon pri ÷ tan ou kenbe l
+   B. Revni anyèl ÷ pri aktyèl
+   C. Total aksyon ÷ benefis nèt
+   D. Pri aksyon ÷ EPS
+
+2. Vrè oswa fo: Rannman mezire apresyasyon pri, se pa revni.
+
+3. Yon obligasyon peye $40 pa ane e pri li se $1,000. Konbyen rannman li ye?
+   A. 0.4%
+   B. 4%
+   C. 40%
+   D. 400%
+
+## Kle repons yo
+
+1. B
+2. Fo
+3. B
+
+## Repons ak eksplikasyon
+
+### Kesyon 1
+
+Repons kòrèk: B. Rannman = Revni anyèl ÷ Pri aktyèl.
+
+### Kesyon 2
+
+Repons kòrèk: Fo. Rannman mezire revni, se pa apresyasyon pri.
+
+### Kesyon 3
+
+Repons kòrèk: B. $40 ÷ $1,000 = 4%.
+
+## Pwen kle yo
+
+- Rannman = Revni anyèl ÷ Pri aktyèl.
+- Li mezire revni (dividann oswa enterè), se pa apresyasyon pri.
+- Revni ak apresyasyon pri se de sous rannman posib ki separe.
+
+===== WHITE-L1-028
+TITLE: Kisa dat echeyans yon obligasyon ye?
+SUMMARY: Aprann kisa yon dat echeyans ye, ak poukisa obligasyon ki gen echeyans diferan aji yon fason diferan.
+# Kisa dat echeyans yon obligasyon ye?
+
+## Objektif aprantisaj
+
+Lè w fin fè leson sa a, w ap kapab:
+
+- Bay definisyon dat echeyans an mo senp.
+- Esplike sa ki rive nan echeyans.
+- Rekonèt ke dire jiska echeyans afekte jan yon obligasyon aji.
+
+## Kontni prensipal
+
+### Kisa yon dat echeyans ye
+
+Dat echeyans yon obligasyon se dat moun ki emèt li a te dakò pou l remèt tout valè nominal obligasyon an (kapital la) bay moun ki gen obligasyon an – fen dire prè a nou te prezante nan premye leson sou obligasyon an.
+
+### Sa ki rive nan echeyans
+
+Nan echeyans, moun ki gen obligasyon an resevwa valè nominal la tounen, epi peman enterè yo sispann, paske yo konsidere prè a peye nèt.
+
+### Poukisa dire jiska echeyans enpòtan
+
+Obligasyon ki gen echeyans ki pi long (dat remèt ki pi lwen) anjeneral pi sansib a chanjman nan kondisyon to enterè pase obligasyon ki gen echeyans ki pi kout – n ap pale de konsèp sa a pi fon nan yon leson pita sou risk to enterè.
+
+## Egzanp pratik
+
+Yon obligasyon 2 ane ak yon obligasyon 20 ane ka gen to koupon ki sanble jodi a, men pri obligasyon 20 ane a ap anjeneral reyaji pi fò a chanjman to enterè nan lavni, jis paske li rete plis tan anpil anvan echeyans li.
+
+## Egzamen pratik
+
+1. Dat echeyans yon obligasyon se:
+   A. Lè peman enterè yo kòmanse
+   B. Lè moun ki emèt li a remèt tout valè nominal obligasyon an
+   C. Dat yo te achte obligasyon an
+   D. Yon dat moun ki gen obligasyon an fikse
+
+2. Vrè oswa fo: Peman enterè yo kontinye san fen apre yon obligasyon rive nan echeyans.
+
+3. Ki kalite obligasyon ki anjeneral pi sansib a chanjman to enterè?
+   A. Yon obligasyon ki gen echeyans ki pi kout
+   B. Yon obligasyon ki gen echeyans ki pi long
+   C. Dire jiska echeyans pa gen okenn efè sou sansiblite
+   D. Sèlman obligasyon ki pa gen dat echeyans
+
+## Kle repons yo
+
+1. B
+2. Fo
+3. B
+
+## Repons ak eksplikasyon
+
+### Kesyon 1
+
+Repons kòrèk: B. Echeyans se lè yo remèt tout valè nominal la.
+
+### Kesyon 2
+
+Repons kòrèk: Fo. Peman enterè yo sispann lè obligasyon an rive nan echeyans e yo remèt li.
+
+### Kesyon 3
+
+Repons kòrèk: B. Obligasyon ki gen echeyans ki pi long anjeneral pi sansib a chanjman to.
+
+## Pwen kle yo
+
+- Dat echeyans yon obligasyon se lè yo remèt tout valè nominal la.
+- Peman enterè yo sispann lè echeyans rive.
+- Obligasyon ki gen echeyans ki pi long anjeneral pi sansib a chanjman to enterè.
+
+===== WHITE-L1-029
+TITLE: Kisa risk kredi ye nan yon obligasyon?
+SUMMARY: Aprann sa risk kredi vle di pou yon obligasyon, ak kijan sa konekte ak rezon kèk obligasyon peye plis enterè pase lòt.
+# Kisa risk kredi ye nan yon obligasyon?
+
+## Objektif aprantisaj
+
+Lè w fin fè leson sa a, w ap kapab:
+
+- Bay definisyon risk kredi an mo senp.
+- Esplike kijan risk kredi gen rapò ak to enterè yon obligasyon.
+- Rekonèt ke se pa tout emetè obligasyon ki gen menm risk kredi.
+
+## Kontni prensipal
+
+### Kisa risk kredi ye
+
+Risk kredi se risk pou moun ki emèt yon obligasyon pa ka fè peman enterè li te pwomèt oswa remèt kapital la nan echeyans – lòt jan, risk pou l pa peye (defo).
+
+### Kijan li gen rapò ak to enterè
+
+Emetè yo konsidere kòm pi gwo risk kredi anjeneral oblije ofri yon to koupon ki pi wo pou atire moun ki prete lajan, pou konpanse envestisè yo paske y ap pran risk anplis sa a. Emetè yo konsidere kòm trè ba risk (tankou gouvènman ki estab) ka anjeneral prete a to ki pi ba.
+
+### Se pa tout emetè ki egal
+
+Yon gwo konpayi ki estab finansyèman ak yon ti konpayi ki gen difikilte finansye k ap emèt obligasyon pa gen menm risk kredi, menm si obligasyon yo sanble deyò – se pou sa nòt obligasyon (n ap pale de yo nan Nivo 2) egziste, pou ede evalye risk sa a.
+
+## Egzanp pratik
+
+Yon gouvènman ki solid finansyèman ka emèt obligasyon a yon to enterè ki ba, sa reflete yon risk kredi ki ba. Yon konpayi ki gen difikilte finansye ka bezwen ofri yon to enterè ki pi wo anpil sou obligasyon li pou atire envestisè ki dakò pran risk defo anplis la.
+
+## Egzamen pratik
+
+1. Risk kredi nan yon obligasyon vle di:
+   A. Risk pou w pèdi yon sètifika papye
+   B. Risk pou emetè a pa remèt enterè oswa kapital la jan li te pwomèt
+   C. Risk yon divizyon aksyon
+   D. Risk yon bès sou tout mache a
+
+2. Vrè oswa fo: Emetè ki gen pi gwo risk kredi anjeneral ofri to enterè ki pi ba.
+
+3. Poukisa yon konpayi ki gen difikilte finansye ta ka bezwen ofri yon to enterè obligasyon ki pi wo?
+   A. Pou konpanse envestisè yo pou pi gwo risk defo a
+   B. Paske gouvènman an mande sa
+   C. Pou diminye kapitalizasyon bousye li
+   D. Obligasyon toujou gen menm to kèlkeswa risk la
+
+## Kle repons yo
+
+1. B
+2. Fo
+3. A
+
+## Repons ak eksplikasyon
+
+### Kesyon 1
+
+Repons kòrèk: B. Risk kredi se risk defo sou enterè oswa sou kapital.
+
+### Kesyon 2
+
+Repons kòrèk: Fo. Emetè ki gen pi gwo risk kredi anjeneral oblije ofri to ki pi wo.
+
+### Kesyon 3
+
+Repons kòrèk: A. To ki pi wo yo konpanse envestisè yo paske y ap pran risk defo.
+
+## Pwen kle yo
+
+- Risk kredi se risk pou yon emetè pa peye yon obligasyon.
+- Pi gwo risk kredi anjeneral vle di yon to enterè ofri ki pi wo.
+- Se pa tout emetè obligasyon ki gen menm nivo risk kredi.
+
+===== WHITE-L1-030
+TITLE: Kisa risk to enterè ye?
+SUMMARY: Aprann kijan to enterè k ap chanje afekte pri obligasyon ki egziste deja, ak poukisa relasyon an ale nan direksyon opoze.
+# Kisa risk to enterè ye?
+
+## Objektif aprantisaj
+
+Lè w fin fè leson sa a, w ap kapab:
+
+- Bay definisyon risk to enterè an mo senp.
+- Esplike relasyon envès debaz ant to yo ak pri obligasyon yo.
+- Esplike poukisa sa enpòtan pou yon moun ki deja gen yon obligasyon.
+
+## Kontni prensipal
+
+### Kisa risk to enterè ye
+
+Risk to enterè se risk pou chanjman nan to enterè an jeneral afekte valè mache obligasyon ki egziste deja – sa separe de risk kredi, ki konsène kapasite emetè a pou l peye.
+
+### Relasyon envès la
+
+Lè to enterè an jeneral monte, pri mache obligasyon ki egziste deja ak to fiks ki pi ba anjeneral desann, paske nouvo obligasyon yo ap emèt a to aktyèl ki pi wo e ki pi atiran an. Lè to an jeneral desann, obligasyon ki egziste deja ak to ki pi wo yo anjeneral vin gen plis valè konpare.
+
+### Poukisa sa enpòtan pou yon moun ki deja gen yon obligasyon
+
+Yon moun ki gen yon obligasyon e ki bezwen vann anvan echeyans ekspoze a mouvman pri sa a. Yon moun ki kenbe obligasyon an jiska echeyans toujou resevwa valè nominal la kanmenm – risk to enterè afekte sitou pri mache obligasyon an anvan echeyans, se pa dènye remèt la li menm.
+
+## Egzanp pratik
+
+Yon envestisè gen yon obligasyon ki peye 3% enterè. To enterè an jeneral monte rive 5%. Nouvo obligasyon yo kounye a ofri to 5% ki pi atiran an, sa fè ansyen obligasyon 3% envestisè a mwens atiran pou yon achtè posib – pri mache li ta anjeneral desann si li vann li anvan echeyans.
+
+## Egzamen pratik
+
+1. Risk to enterè vle di:
+   A. Risk pou yon emetè pa peye
+   B. Risk pou chanjman nan to yo afekte pri obligasyon ki egziste deja
+   C. Risk yon divizyon aksyon
+   D. Risk chanj lajan etranje
+
+2. Vrè oswa fo: Lè to enterè an jeneral monte, pri obligasyon ki egziste deja ak to ki pi ba anjeneral monte tou.
+
+3. Èske yon moun ki kenbe yon obligasyon jiska echeyans toujou resevwa tout valè nominal la malgre risk to enterè?
+   A. Non, li pèdi diferans lan
+   B. Wi, yo anjeneral toujou peye valè nominal la nan echeyans kanmenm
+   C. Sèlman si to yo te desann
+   D. Sèlman si yo te vann obligasyon an bonè
+
+## Kle repons yo
+
+1. B
+2. Fo
+3. B
+
+## Repons ak eksplikasyon
+
+### Kesyon 1
+
+Repons kòrèk: B. Risk to enterè afekte pri mache obligasyon ki egziste deja lè to yo chanje.
+
+### Kesyon 2
+
+Repons kòrèk: Fo. To k ap monte anjeneral pouse pri obligasyon ki egziste deja ak to ki pi ba desann.
+
+### Kesyon 3
+
+Repons kòrèk: B. Lè w kenbe l jiska echeyans, anjeneral ou toujou resevwa tout valè nominal la, kèlkeswa jan pri a te balanse nan mitan.
+
+## Pwen kle yo
+
+- Risk to enterè afekte pri obligasyon ki egziste deja lè to an jeneral chanje.
+- To k ap monte anjeneral pouse pri obligasyon ki egziste deja ak to ki pi ba desann, e lekontrè.
+- Lè w kenbe l jiska echeyans, anjeneral ou toujou resevwa valè nominal la kèlkeswa mouvman pri a nan mitan.
