@@ -1,0 +1,399 @@
+===== BLUE-L4-006
+TITLE: Analiz sik konvèsyon lajan kach: poukisa lòd mouvman lajan kach revele efikasite operasyonèl
+SUMMARY: Konprann kijan sik konvèsyon lajan kach la konbine twa mezi tan espesifik nan yon sèl mezi efikasite operasyonèl ak sante lajan kach.
+KEYWORDS: sik konvèsyon lajan kach, jou envantè rete, jou pou kolekte vant, jou pou peye founisè
+# Analiz sik konvèsyon lajan kach: poukisa lòd mouvman lajan kach revele efikasite operasyonèl
+
+## Senaryo pou louvri leson an
+SIPOZISYON/OPINYON (senaryo ipotetik pou objektif ansèyman sèlman): Imajine yon gwo pwoblèm sante piblik ki kanpe transpò maritim ak manifakti mondyal pou yon peryòd pwolonje, sa ki mele chèn apwovizyònman nan anpil endistri an menm tan. Pandan yon dezòd jeneral ap fòse biznis nan tout yon endistri repanse chèn apwovizyònman yo, kèk konpayi dekouvri efikasite operasyonèl yo, mezire atravè yon sèl mezi konbine, te deteryore anpil menm anvan maj pwofi yo rapòte yo te montre okenn siy pwoblèm. Leson sa a prezante mezi sa a.
+
+## Objektif aprantisaj
+- Esplike twa eleman sik konvèsyon lajan kach la.
+- Kalkile yon sik konvèsyon lajan kach debaz apati twa eleman li yo.
+- Esplike poukisa yo an jeneral konsidere yon sik konvèsyon lajan kach ki pi kout kòm pi efikas sou plan operasyonèl.
+- Esplike kijan yon biznis ka travay aktivman pou fè sik konvèsyon lajan kach li vin pi kout.
+
+## Kontni prensipal
+Sik konvèsyon lajan kach (CCC), nou te prezante nan Leson 5, konbine twa mezi tan espesifik nan yon sèl mezi jeneral: jou envantè rete (DIO, kantite jou mwayèn envantè chita anvan yo vann li), plis jou pou kolekte vant (DSO, kantite jou mwayèn li pran pou kolekte lajan kach apre yo fè yon vant), mwens jou pou peye founisè (DPO, kantite jou mwayèn biznis la pran pou peye pwòp founisè li). FÈ VERIFYE: fòmil CCC = DIO + DSO - DPO kalkile kantite jou nèt lajan kach yon biznis mare nan sik operasyonèl li, depi moman li peye pou envantè rive nan moman li kolekte lajan kach nan men kliyan, konpanse pa tan li ranvwaye peye pwòp founisè li.
+
+Men "poukisa" yo an jeneral konsidere yon sik konvèsyon lajan kach ki pi kout kòm pi efikas sou plan operasyonèl: yon CCC ki pi kout vle di lajan kach yon biznis mare pou yon peryòd ki pi kout anvan li vin disponib ankò pou lòt itilizasyon (reenvestisman, ranbousman dèt, oswa distribisyon bay pwopriyetè yo), sa ki konekte dirèkteman ak prensip fon woulman Leson 5 la — yon biznis ki gen yon sik konvèsyon lajan kach trè kout oswa menm negatif (sa rive lè DPO depase DIO plis DSO, sa ki vle di biznis la kolekte lajan kach nan men kliyan e li ranvwaye peye founisè ase lontan pou se pwòp founisè ak kliyan li ki an reyalite ap finanse l olye li bezwen finansman fon woulman deyò) gen yon gwo avantaj estriktirèl, ki gen anpil valè sitou pandan yon peryòd dezòd operasyonèl tankou sa senaryo pi wo a dekri a, lè aksè a finansman deyò ka pi difisil oswa pi chè.
+
+Se poutèt sa biznis yo travay aktivman pou fè sik konvèsyon lajan kach yo vin pi kout atravè levye operasyonèl espesifik: diminye DIO atravè yon jesyon envantè ak prevwa demann ki pi efikas, diminye DSO atravè kondisyon kredi kliyan ki pi sevè oswa pwosesis koleksyon ki pi efikas, e ogmante DPO atravè kondisyon peman ki pi long yo negosye ak founisè (menm si ou dwe balanse sa ak kenbe bon relasyon ak founisè, paske lonje kondisyon peman twòp yon fason agresif ka mete presyon sou relasyon sa yo oswa deklanche pri ki mwens favorab avèk tan).
+
+## Egzanp pratik
+EGZANP ILISTRATIF: Yon biznis an detay gen 60 jou envantè rete, 15 jou pou kolekte vant (paske pi fò vant yo imedya, tranzaksyon ki gen ti kredi), ak 45 jou pou peye founisè. Sik konvèsyon lajan kach li se 60 + 15 - 45 = 30 jou, sa ki vle di lajan kach mare nan sik operasyonèl la pou 30 jou an mwayèn. Si yon dezòd apwovizyònman lonje tan envantè chita anvan li vann rive 90 jou, san okenn chanjman ki konpanse nan DSO oswa DPO, sik konvèsyon lajan kach la lonje rive 90 + 15 - 45 = 60 jou — sa ki double tan lajan kach biznis la mare, sa ki mete presyon sou pozisyon fon woulman li menm anvan okenn chanjman nan maj pwofi li rapòte vin parèt.
+
+## Egzamen pratik
+**Q1. Ki twa eleman ki konbine pou kalkile sik konvèsyon lajan kach la?**
+A) Total revni, total depans, ak benefis nèt
+B) Jou envantè rete, jou pou kolekte vant, ak jou pou peye founisè
+C) Maj brit, maj nèt, ak maj operasyonèl
+D) Kou fiks, kou varyab, ak maj kontribisyon
+
+**Q2. Kijan yo kalkile sik konvèsyon lajan kach la?**
+A) Jou envantè rete plis jou pou kolekte vant plis jou pou peye founisè
+B) Jou envantè rete plis jou pou kolekte vant mwens jou pou peye founisè
+C) Jou pou peye founisè mwens jou envantè rete mwens jou pou kolekte vant
+D) Jou pou kolekte vant divize pa jou envantè rete
+
+**Q3. Poukisa yon sik konvèsyon lajan kach ki pi kout an jeneral montre plis efikasite operasyonèl?**
+A) Yon sik ki pi kout vle di lajan kach yon biznis mare pou yon peryòd ki pi kout, sa ki fè l disponib pi vit pou reenvestisman, ranbousman dèt, oswa lòt itilizasyon
+B) Yon sik konvèsyon lajan kach ki pi kout toujou montre yon biznis ap pèdi lajan
+C) Sik konvèsyon lajan kach pa gen okenn rapò ak efikasite operasyonèl
+D) Yon sik konvèsyon lajan kach ki pi long toujou pi bon pase yon sik ki pi kout
+
+**Q4. Nan egzanp lan, kisa k te rive sik konvèsyon lajan kach la lè dezòd apwovizyònman an te lonje jou envantè rete soti 60 rive 90 jou?**
+A) Sik konvèsyon lajan kach la te bese soti 30 rive 15 jou
+B) Sik konvèsyon lajan kach la te monte soti 30 rive 60 jou, sa ki double tan lajan kach te mare nan sik operasyonèl la
+C) Sik konvèsyon lajan kach la te rete konplètman menm jan
+D) Sik konvèsyon lajan kach la te vin negatif
+
+**Q5. Kiyès nan sa yo ki yon fason yon biznis ta ka travay aktivman pou fè sik konvèsyon lajan kach li vin pi kout?**
+A) Lonje tan li pran pou kolekte lajan kach nan men kliyan otan ke posib
+B) Diminye jou envantè rete atravè yon jesyon envantè ki pi efikas, diminye jou pou kolekte vant atravè koleksyon ki pi sevè, e ogmante jou pou peye founisè atravè kondisyon yo negosye ak founisè
+C) Ogmante kantite envantè yo kenbe san limit
+D) Peye founisè otan vit ke posib kèlkeswa kondisyon yo te negosye
+
+## Kle repons yo
+Q1: B
+Q2: B
+Q3: A
+Q4: B
+Q5: B
+
+## Repons ak eksplikasyon
+**Q1.** Twa mezi tan espesifik sa yo, ki kouvri envantè, koleksyon nan men kliyan, ak peman founisè, konbine pou fòme fòmil sik konvèsyon lajan kach la.
+
+**Q2.** Fòmil la retire tan yon biznis ranvwaye peye founisè nan tan konbine lajan kach mare nan envantè ak koleksyon nan men kliyan.
+
+**Q3.** Lajan kach ki libere pi vit bay plis fleksibilite operasyonèl ak finansye, sa ki se avantaj efikasite prensipal yon sik ki pi kout.
+
+**Q4.** Ak DSO ak DPO ki rete konstan, lonjman 30 jou DIO a te tradui dirèkteman nan yon ogmantasyon 30 jou nan sik konvèsyon lajan kach total la.
+
+**Q5.** Levye operasyonèl espesifik sa yo vize dirèkteman chak nan twa eleman ki fòme fòmil sik konvèsyon lajan kach la.
+
+## Pwen kle yo
+- Sik konvèsyon lajan kach la konbine jou envantè rete, jou pou kolekte vant, ak jou pou peye founisè nan yon sèl mezi efikasite.
+- Yo kalkile l kòm DIO plis DSO mwens DPO, sa ki reprezante jou nèt lajan kach mare nan sik operasyonèl la.
+- Yon sik konvèsyon lajan kach ki pi kout an jeneral montre plis efikasite operasyonèl ak mwens depandans sou finansman fon woulman deyò.
+- Biznis yo ka fè sik konvèsyon lajan kach yo vin pi kout aktivman lè yo jere envantè, koleksyon, ak kondisyon peman founisè.
+
+===== BLUE-L4-007
+TITLE: Analiz vitès depans ak otonomi: poukisa biznis k ap pèdi lajan kach dwe swiv pwòp konte a rebou yo
+SUMMARY: Konprann kijan yo kalkile vitès depans (burn rate) ak otonomi (runway) pou yon biznis ki poko bay pwofi, e poukisa swiv konte a rebou sa a esansyèl pou siviv.
+KEYWORDS: vitès depans, otonomi, finans startup, jesyon lajan kach pou biznis nan premye etap
+# Analiz vitès depans ak otonomi: poukisa biznis k ap pèdi lajan kach dwe swiv pwòp konte a rebou yo
+
+## Senaryo pou louvri leson an
+SIPOZISYON/OPINYON (senaryo ipotetik pou objektif ansèyman sèlman): Imajine yon bank santral k ap monte to enterè referans li anpil e plizyè fwa sou yon ti peryòd kèk mwa pou goumen kont yon enflasyon k ap monte. Pandan yon bank santral ap monte to enterè anpil, konpayi nan premye etap ki depann de leve plis kapital deyò pou kontinye fonksyone jwenn kapital vin pi difisil e pi chè anpil pou leve. Leson sa a esplike poukisa swiv yon konte a rebou espesifik vin kritik sitou nan kalite anviwònman sa a.
+
+## Objektif aprantisaj
+- Esplike kisa vitès depans mezire pou yon biznis nan premye etap oswa nan etap kwasans.
+- Kalkile otonomi apati balans lajan kach kounye a yon biznis ak vitès depans chak mwa li.
+- Esplike poukisa otonomi vin yon mezi ki pi ijan lè kondisyon finansman deyò ap sere.
+- Esplike konpwomi yon biznis fè fas lè l ap deside kijan pou lonje otonomi li.
+
+## Kontni prensipal
+Vitès depans (burn rate) se vitès yon biznis ki poko bay pwofi ap depanse lajan kach li genyen disponib, yo souvan mezire l kòm lajan kach nèt k ap soti chak mwa (total lajan kach yo depanse mwens nenpòt lajan kach k ap antre nan revni). FÈ VERIFYE: yo kalkile otonomi (runway) kòm balans lajan kach kounye a divize pa vitès depans chak mwa, sa ki eksprime, an mwa, konbyen tan biznis la ka kontinye fonksyone nan ritm depans kounye a li anvan li fin san lajan kach nèt, si pa gen okenn finansman anplis oswa okenn chanjman nan vitès depans li.
+
+Men "poukisa" otonomi vin yon mezi espesyalman ijan pou swiv sere pandan yon peryòd kondisyon finansman k ap sere, tankou nan senaryo ogmantasyon to pi wo a: anpil biznis nan premye etap ak nan etap kwasans poko bay pwofi e yo depann de leve plis kapital deyò detanzantan (nan men envestisè oswa preteur) pou kontinye fonksyone anvan yo rive nan yon pwofitabilite dirab pa pwòp mwayen yo. Lè kapital vin pi chè e pi difisil pou leve, jan sa gen tandans rive lè to enterè monte anpil e apeti envestisè pou risk bese, yon biznis ki gen sèlman kèk mwa otonomi ki rete fè fas ak yon vrè risk, ki ka menase egzistans li, si li pa ka jwenn plis finansman anvan lajan kach li fini nèt.
+
+Se poutèt sa biznis k ap fè fas ak yon otonomi k ap retresi souvan fè fas ak yon seri konpwomi difisil, sa ki raple plizyè konsèp nan nivo sa a: diminye vitès depans lè yo koupe kou (sa ki ka ralanti kwasans oswa devlopman pwodui nan pwosesis la), leve plis kapital nan kondisyon ki mwens favorab pase sa ki ta ka disponib anvan (aksepte yon evalyasyon ki pi ba oswa kondisyon envestisè ki mwens favorab espesyalman paske kondisyon finansman yo sere, menm jan yon moun k ap prete ki gen yon bezwen ijan souvan aksepte pi move kondisyon), oswa akselere chemen pou rive nan yon ekonomi pa inite pozitif ak pwofitabilite (Leson 1 ak 2) pou diminye oswa elimine nèt depandans k ap kontinye sou finansman deyò. OPINYON ak konsèy finans startup anpil moun pataje: operatè ki gen eksperyans an jeneral rekòmande kenbe yon kousen otonomi ki gen sans (moun site souvan omwen 12-18 mwa) espesyalman pou evite oblije pran yon desizyon finansman difisil e nan move moman pandan yon peryòd kapital ki pa disponib fasil.
+
+## Egzanp pratik
+EGZANP ILISTRATIF: Yon konpayi nan etap kwasans gen $3 milyon lajan kach ak yon vitès depans chak mwa $250,000, sa ki ba li yon otonomi 12 mwa. Pandan to enterè ap monte anpil e apeti envestisè pou risk ap bese, konpayi a jwenn ke leve pwochen tou finansman li, li te planifye orijinalman pou mwa 9, ta fèt kounye a nan yon evalyasyon ki pi ba anpil e ak kondisyon ki mwens favorab pase sa dirijan konpayi a te atann. Devan anviwònman finansman ki sere sa a, konpayi a diminye vitès depans li rive $180,000 pa mwa lè l koupe depans ki pa obligatwa, sa ki lonje otonomi li rive apeprè 17 mwa e ki achte plis tan swa pou rive nan yon pi bon ekonomi pa inite swa pou tann kondisyon finansman yo amelyore anvan li leve plis kapital nan kondisyon ki mwens favorab.
+
+## Egzamen pratik
+**Q1. Kisa vitès depans mezire?**
+A) Total revni chak ane yon biznis
+B) Vitès yon biznis ki poko bay pwofi ap depanse lajan kach li genyen disponib, yo souvan mezire l chak mwa
+C) Total kantite kliyan yon biznis te jwenn
+D) Total dèt alontèm yon biznis dwe
+
+**Q2. Kijan yo kalkile otonomi?**
+A) Balans lajan kach kounye a miltipliye pa vitès depans chak mwa
+B) Balans lajan kach kounye a divize pa vitès depans chak mwa
+C) Vitès depans chak mwa divize pa balans lajan kach kounye a
+D) Total revni divize pa total depans
+
+**Q3. Poukisa otonomi vin yon mezi espesyalman ijan pou swiv pandan yon peryòd kondisyon finansman k ap sere?**
+A) Kondisyon finansman pa gen okenn efè sou bezwen yon biznis pou leve plis kapital
+B) Yon biznis ki gen yon otonomi limite ki rete fè fas ak yon risk ki ka menase egzistans li si li pa ka jwenn plis finansman anvan lajan kach fini, e finansman vin pi difisil e pi chè pou leve lè kondisyon yo sere
+C) Otonomi enpòtan sèlman pou biznis ki deja bay pwofi
+D) Kondisyon finansman k ap sere toujou fè li pi fasil pou biznis leve kapital
+
+**Q4. Kiyès nan sa yo ki yon konpwomi yon biznis ta ka fè fas lè l ap eseye lonje otonomi li?**
+A) Lonje otonomi pa janm mande okenn konpwomi nenpòt kalite
+B) Diminye vitès depans lè l koupe kou, sa ki ta ka ralanti kwasans, kont leve kapital nan kondisyon ki mwens favorab akoz kondisyon finansman ki sere
+C) Ou ka lonje otonomi sèlman lè w rive nan yon pwofitabilite konplè imedyatman
+D) Biznis k ap fè fas ak yon otonomi sere pa gen okenn opsyon disponib pou trete sitiyasyon an
+
+**Q5. Nan egzanp lan, kijan konpayi a te reyaji a anviwònman finansman ki sere a, e ki efè sa te genyen?**
+A) Konpayi a te leve tou finansman li te planifye a imedyatman san okenn chanjman nan estrikti kou li
+B) Konpayi a te diminye vitès depans chak mwa li atravè koupe kou, sa ki lonje otonomi li soti 12 mwa rive apeprè 17 mwa, e ki achte tan anvan li bezwen leve kapital nan kondisyon defavorab
+C) Otonomi konpayi a te rete konplètman menm jan malgre anviwònman finansman ki sere a
+D) Konpayi a te ogmante vitès depans li anpil pou akselere kwasans
+
+## Kle repons yo
+Q1: B
+Q2: B
+Q3: B
+Q4: B
+Q5: B
+
+## Repons ak eksplikasyon
+**Q1.** Vitès depans swiv espesyalman lajan kach nèt k ap soti chak mwa nan yon biznis k ap depanse plis pase sa k ap antre nan revni.
+
+**Q2.** Kalkil sa a eksprime, an mwa, konbyen tan rezèv lajan kach kounye a pral dire nan ritm depans kounye a.
+
+**Q3.** Konbinezon yon bezwen kapital ijan ak yon disponiblite finansman ki sere kreye yon sitiyasyon ki gen anpil anje pou biznis ki gen yon otonomi limite ki rete.
+
+**Q4.** Sa yo reprezante vrè konsiderasyon konkiran, paske amelyore otonomi atravè koupe kou ka sakrifye kwasans, alòske leve kapital nan kondisyon difisil ka vle di aksepte pi move kondisyon.
+
+**Q5.** Diminisyon espre vitès depans la te lonje dirèkteman otonomi konpayi a genyen disponib, sa ki bay plis tan pou navige nan anviwònman finansman difisil la.
+
+## Pwen kle yo
+- Vitès depans mezire lajan kach nèt k ap soti chak mwa nan yon biznis ki poko pwodui ase revni pou kouvri kou li.
+- Otonomi, yo kalkile kòm balans lajan kach divize pa vitès depans, montre konbyen mwa yon biznis ka fonksyone anvan li fin san lajan kach.
+- Otonomi vin espesyalman ijan pou swiv lè kondisyon finansman sere, paske leve plis kapital vin pi difisil e pi chè.
+- Biznis k ap fè fas ak yon otonomi sere dwe peze konpwomi koupe kou kont leve kapital nan kondisyon ki mwens favorab, oswa akselere chemen pou rive nan pwofitabilite.
+
+===== BLUE-L4-008
+TITLE: Analiz miltip evalyasyon biznis: poukisa bon miltip la depann de bon konparezon an
+SUMMARY: Konprann kijan yo itilize miltip evalyasyon biznis tankou miltip revni ak miltip EBITDA pou evalye konpayi prive, e poukisa chwazi bon konpayi konparab yo enpòtan anpil.
+KEYWORDS: miltip evalyasyon biznis, miltip EBITDA, analiz konpayi konparab, evalyasyon konpayi prive
+# Analiz miltip evalyasyon biznis: poukisa bon miltip la depann de bon konparezon an
+
+## Senaryo pou louvri leson an
+SIPOZISYON/OPINYON (senaryo ipotetik pou objektif ansèyman sèlman): Imajine mache imobilye ak kredi konsomatè yon peyi ki gen anpil moun, apre plizyè ane ekspansyon rapid, kòmanse montre siy yon gwo koreksyon pandan defo yo kòmanse monte. Pandan yon boom kredi te alimante ap defèt, miltip evalyasyon ki te monte regilyèman pandan plizyè ane nan tout yon endistri toudenkou retresi anpil, menm pou biznis endividyèl ki byen jere e pwòp pèfòmans yo pa t chanje. Leson sa a esplike poukisa miltip yo deplase ak kondisyon mache an jeneral, se pa sèlman ak pwòp rezilta yon konpayi espesifik.
+
+## Objektif aprantisaj
+- Esplike kisa yon miltip evalyasyon reprezante nan evalyasyon biznis.
+- Fè diferans ant yon miltip revni ak yon miltip EBITDA.
+- Esplike poukisa chwazi konpayi ki vrèman konparab kritik pou yon evalyasyon solid ki baze sou miltip.
+- Esplike poukisa miltip evalyasyon pou tout yon endistri ka chanje anpil menm san okenn chanjman nan pwòp pèfòmans yon konpayi endividyèl.
+
+## Kontni prensipal
+Yon miltip evalyasyon eksprime valè yon biznis kòm yon miltip yon mezi finansye — souvan revni (yon miltip revni) oswa EBITDA, benefis anvan enterè, taks, depresyasyon, ak amòtisman (yon miltip EBITDA), ki apwoksime lajan kach operasyonèl prensipal yon konpayi anvan kèk eleman ki pa operasyonèl ak ki pa lajan kach. FÈ VERIFYE: apwòch sa a, yo rele analiz konpayi konparab, evalye yon biznis lè l aplike yon miltip yo obsève nan konpayi ki sanble e ki konparab (souvan konpayi prive yo fèk vann oswa konpayi ki sanble ki sou bous) sou biznis espesifik y ap evalye a, dapre sipozisyon anba a ke biznis ki sanble ta dwe vann nan miltip pèfòmans finansye yo ki sanble an jeneral.
+
+Men "poukisa" chwazi konpayi ki vrèman konparab kritik pou pwodui yon evalyasyon solid ak metòd sa a, sa ki raple prensip konparezon pa sektè Leson 1 chemen WHITE-L4 la (analiz rapò P/E): yon miltip ki apwopriye pou yon endistri ki estab, ki grandi dousman, e ki matirite an jeneral trè diferan de yon miltip ki apwopriye pou yon endistri k ap grandi vit ak bon pèspektiv pou lavni, e aplike miltip tipik move endistri a, oswa konpare ak konpayi ki gen yon gwosè oswa yon pwofil kwasans trè diferan, ka bay yon evalyasyon ki defòme anpil, menm si yo kalkile mezi finansye anba a (revni oswa EBITDA) kòrèkteman.
+
+Se poutèt sa miltip evalyasyon pou tout yon endistri ka chanje anpil avèk tan menm san okenn chanjman nan pwòp pèfòmans operasyonèl yon konpayi endividyèl, sa ki konekte dirèkteman ak senaryo pi wo a: miltip yo reflete santiman mache an jeneral, to enterè ki la yo (paske yon anviwònman to eskont ki pi wo, jan leson sansiblite to enterè chemen WHITE-L4 la te kouvri l, an jeneral retresi miltip evalyasyon toupatou), ak apeti jeneral pou risk, sa ki vle di yon biznis ki byen jere ak yon pèfòmans finansye regilye e ki pa chanje ka toujou wè valè estime li bese yon fason enpòtan si volonte mache an jeneral pou peye yon miltip done pou kalite biznis sa a bese, jan sa gen tandans rive lè yon boom kredi te alimante ap defèt e apeti envestisè pou risk retresi nan tout yon endistri.
+
+## Egzanp pratik
+EGZANP ILISTRATIF: Yon biznis sèvis rejyonal ki bay pwofi pwodui $2 milyon EBITDA chak ane. Pandan yon peryòd kote kredi disponib anpil e envestisè optimis, biznis ki sanble nan endistri li te fèk vann nan yon miltip 8x EBITDA, sa ki sijere yon valè apeprè $16 milyon pou biznis sa a. De ane pita, apre yon boom kredi te alimante fin defèt e miltip nan tout endistri a retresi rive 5x EBITDA nan mitan kredi ki pi sere ak mwens apeti envestisè pou risk, menm biznis la, ki kenbe egzakteman menm $2 milyon EBITDA chak ane a san okenn chanjman nan pwòp pèfòmans operasyonèl li, ta vo kounye a apeprè $10 milyon lè w itilize miltip mache kounye a — yon diferans $6 milyon nan valè estime ki soti nèt nan chanjman nan miltip mache an jeneral, se pa nan anyen ki te chanje anndan biznis la li menm.
+
+## Egzamen pratik
+**Q1. Kisa yon miltip evalyasyon reprezante?**
+A) Total rezèv lajan kach yon biznis
+B) Valè yon biznis eksprime kòm yon miltip yon mezi finansye espesifik, tankou revni oswa EBITDA
+C) Total kantite anplwaye yon konpayi
+D) To enterè sou dèt yon konpayi dwe
+
+**Q2. Kisa EBITDA apwoksime?**
+A) Total revni yon konpayi anvan yo retire okenn depans
+B) Lajan kach operasyonèl prensipal yon konpayi anvan kèk eleman ki pa operasyonèl ak ki pa lajan kach tankou enterè, taks, depresyasyon, ak amòtisman
+C) Total kapitalizasyon sou mache yon konpayi
+D) Rannman dividann sou aksyon yon konpayi
+
+**Q3. Poukisa chwazi konpayi ki vrèman konparab kritik pou yon evalyasyon solid ki baze sou miltip?**
+A) Chwa konpayi konparab pa gen okenn efè sou egzaktitid yon evalyasyon
+B) Yon miltip ki apwopriye pou yon endistri oswa yon pwofil kwasans ka trè diferan de sa ki apwopriye pou yon lòt, e aplike move konparezon an ka bay yon evalyasyon ki defòme anpil
+C) Tout konpayi nan chak endistri vann nan miltip evalyasyon idantik
+D) Analiz konpayi konparab pa mande okenn chwa konpayi konparezon espesifik
+
+**Q4. Poukisa miltip evalyasyon tout yon endistri ka chanje anpil menm san okenn chanjman nan pwòp pèfòmans yon konpayi endividyèl?**
+A) Se pwòp pèfòmans yon konpayi endividyèl nèt ki detèmine miltip evalyasyon e yo pa janm chanje pou okenn lòt rezon
+B) Miltip yo reflete santiman mache an jeneral, to enterè ki la yo, ak apeti jeneral pou risk, tout bagay sa yo ka chanje endepandan de pwòp rezilta nenpòt konpayi espesifik
+C) Miltip evalyasyon pa janm vrèman chanje avèk tan nan okenn sikonstans
+D) Se sèlman pwòp kwasans revni yon konpayi ki ka afekte miltip yo aplike sou evalyasyon li
+
+**Q5. Nan egzanp lan, poukisa valè estime biznis la te bese soti apeprè $16 milyon rive apeprè $10 milyon malgre EBITDA ki pa t chanje?**
+A) Vrè EBITDA biznis la te bese anpil sou peryòd de ane a
+B) Miltip evalyasyon tout endistri a te retresi soti 8x rive 5x EBITDA akoz kredi ki pi sere ak mwens apeti envestisè pou risk, menm si pwòp EBITDA biznis la te rete menm
+C) Biznis la te chanje endistri pandan peryòd de ane a
+D) Miltip evalyasyon pa gen okenn rapò ak valè estime yon biznis
+
+## Kle repons yo
+Q1: B
+Q2: B
+Q3: B
+Q4: B
+Q5: B
+
+## Repons ak eksplikasyon
+**Q1.** Miltip evalyasyon mare espesyalman valè estime yon konpayi ak yon mezi pèfòmans finansye anba yo chwazi.
+
+**Q2.** Yo fè EBITDA pou apwoksime pèfòmans operasyonèl anba a lè l eskli kèk efè finansman, taks, ak kontablite ki pa lajan kach.
+
+**Q3.** Paske miltip tipik varye anpil selon endistri, pwofil kwasans, ak gwosè konpayi, chwazi ak atansyon konpayi konparab ki vrèman sanble esansyèl pou yon evalyasyon ki kredib.
+
+**Q4.** Faktè ki afekte tout mache a tankou to enterè ak santiman envestisè enfliyanse dirèkteman miltip evalyasyon tipik nan tout yon endistri, endepandan de pèfòmans espesifik nenpòt konpayi endividyèl.
+
+**Q5.** Tout chanjman nan valè estime a te soti nan chanjman nan miltip mache a te aplike a, se pa nan okenn chanjman nan pèfòmans biznis anba a li menm.
+
+## Pwen kle yo
+- Yon miltip evalyasyon eksprime valè yon biznis kòm yon miltip yon mezi finansye yo chwazi, souvan revni oswa EBITDA.
+- Analiz konpayi konparab aplike miltip yo obsève nan biznis ki sanble, sa ki fè chwa konpayi ki vrèman konparab esansyèl.
+- Miltip yo reflete santiman mache an jeneral, to enterè, ak apeti pou risk, se pa sèlman pwòp pèfòmans yon konpayi endividyèl.
+- Miltip tipik tout yon endistri ka retresi oswa elaji anpil, sa ki chanje valè estime yon konpayi menm san okenn chanjman nan pwòp rezilta operasyonèl li.
+
+===== BLUE-L4-009
+TITLE: Analiz tablo kapitalizasyon: poukisa dilisyon ekite chanje posesyon menm san vann aksyon
+SUMMARY: Konprann kijan yon tablo kapitalizasyon swiv posesyon yon biznis, e poukisa leve plis kapital ekite dilye pousantaj patisipasyon pwopriyetè ki la deja yo menm san yo pa vann anyen.
+KEYWORDS: tablo kapitalizasyon, dilisyon ekite, pousantaj posesyon, leve fon pou startup
+# Analiz tablo kapitalizasyon: poukisa dilisyon ekite chanje posesyon menm san vann aksyon
+
+## Senaryo pou louvri leson an
+SIPOZISYON/OPINYON (senaryo ipotetik pou objektif ansèyman sèlman): Imajine yon bank santral k ap monte to enterè referans li anpil e plizyè fwa sou yon ti peryòd kèk mwa pou goumen kont yon enflasyon k ap monte. Pandan kou prete lajan ap monte anpil, kèk biznis k ap grandi ki te ka konte plis sou finansman ak dèt anvan vire pito sou leve plis kapital ekite, e pwopriyetè ki la deja yo vle konprann egzakteman kijan desizyon sa a pral afekte patisipasyon posesyon yo. Leson sa a esplike mekanis ki dèyè enkyetid sa a.
+
+## Objektif aprantisaj
+- Esplike kisa yon tablo kapitalizasyon (cap table) swiv.
+- Esplike kisa dilisyon ekite vle di e poukisa li rive lè yo emèt nouvo aksyon.
+- Kalkile yon chanjman pousantaj posesyon debaz ki soti nan yon nouvo leve ekite.
+- Esplike poukisa dilisyon pa nesesèman yon move rezilta pou pwopriyetè ki la deja yo, selon chanjman nan valè total konpayi a ki soti ladan l.
+
+## Kontni prensipal
+Yon tablo kapitalizasyon (cap table) se yon dosye estrikti posesyon yon konpayi, ki bay lis tout pwopriyetè yo (fondatè, anplwaye ki gen konpansasyon an ekite, ak envestisè deyò) ansanm ak kalite ak kantite aksyon oswa inite posesyon chak moun kenbe, ak pousantaj posesyon sa chak moun reprezante. FÈ VERIFYE: lè yon konpayi leve plis kapital ekite lè l emèt nouvo aksyon bay nouvo envestisè, total kantite aksyon nan sikilasyon ogmante, sa ki diminye (dilye) mekanikman pousantaj posesyon tout aksyonè ki la deja yo, menm si aksyonè ki la deja sa yo pa vann okenn nan pwòp aksyon yo e kantite absoli aksyon yo posede a pa chanje.
+
+Men "poukisa" dilisyon sa a rive espesyalman paske pousantaj posesyon se yon fonksyon aksyon yon moun divize pa total aksyon nan sikilasyon: si yon konpayi gen 1,000,000 total aksyon nan sikilasyon e yon pwopriyetè ki la deja kenbe 100,000 ladan yo (yon patisipasyon 10%), e konpayi a emèt apre sa 250,000 nouvo aksyon bay yon nouvo envestisè nan yon leve ekite, total aksyon nan sikilasyon monte rive 1,250,000, e 100,000 aksyon pwopriyetè ki la deja a ki pa chanje yo kounye a reprezante sèlman 8% nan konpayi a (100,000 / 1,250,000), menm si pwopriyetè sa a toujou kenbe egzakteman menm kantite aksyon ak anvan.
+
+Se poutèt sa dilisyon, malgre sans ki sanble negatif mo a genyen, pa otomatikman yon move rezilta pou pwopriyetè ki la deja yo, sa ki konekte ak desizyon finansman senaryo pi wo a dekri a: si yo itilize kapital yo leve atravè emisyon ekite a yon fason efikas pou fè valè total konpayi a grandi plis pase pousantaj yo dilye a, yon patisipasyon an pousantaj ki pi piti yon pwopriyetè ki la deja genyen nan yon konpayi ki kounye a pi gwo e ki gen plis valè ka toujou reprezante yon valè absoli an dola ki pi gwo pase sa patisipasyon an pousantaj ki pi gwo li te genyen nan konpayi ki pi piti e ki te gen mwens kapital la ta vo — konparezon ki enpòtan an se pa chanjman pousantaj la pou kont li, men chanjman nan valè an dola patisipasyon pwopriyetè a, ki depann de jan yo itilize nouvo kapital yo leve a yon fason efikas. Se poutèt sa tou chwazi finansman ak ekite olye finansman ak dèt, jan biznis yo ta ka fè pi souvan lè dèt vin chè (tankou nan senaryo pi wo a), gen ladan l vrè konpwomi dilisyon sa a ke yon altènativ finanse ak dèt, ki pa dilye posesyon ditou, pa t ap kreye — menm si dèt, natirèlman, pote pwòp risk apa li pou ranbousman obligatwa kèlkeswa pèfòmans biznis (sa ki raple prensip efè levye nou kouvri lòt kote nan kourikoulòm sa a).
+
+## Egzanp pratik
+EGZANP ILISTRATIF: Yon fondatè posede 100,000 aksyon (10%) nan yon konpayi ki vo $10 milyon, sa ki fè patisipasyon li vo $1 milyon. Konpayi a leve plis kapital ekite lè l emèt 250,000 nouvo aksyon bay yon envestisè, sa ki dilye posesyon fondatè a rive 8% nan 1,250,000 total aksyon nan sikilasyon ki kounye a pi gwo. Si yo itilize nouvo kapital yo leve a yon fason efikas e valè konpayi a grandi rive $15 milyon kòm rezilta, patisipasyon 8% fondatè a ki kounye a pi piti vo $1.2 milyon — yon valè an dola ki pi gwo pase patisipasyon 10% li te genyen anvan dilisyon an, malgre li posede yon pi piti pousantaj nan konpayi a, sa ki ilistre poukisa dilisyon pa otomatikman yon pèt pou pwopriyetè ki la deja yo si kapital yo leve a pwodui ase valè anplis.
+
+## Egzamen pratik
+**Q1. Kisa yon tablo kapitalizasyon swiv?**
+A) Revni ak depans chak ane yon konpayi
+B) Estrikti posesyon yon konpayi, ki bay lis tout pwopriyetè yo ak aksyon oswa inite posesyon chak moun kenbe
+C) Total obligasyon dèt yon konpayi
+D) Nivo envantè yon konpayi avèk tan
+
+**Q2. Poukisa emèt nouvo aksyon bay yon nouvo envestisè dilye pousantaj posesyon aksyonè ki la deja yo?**
+A) Dilisyon pa gen okenn rapò ak total kantite aksyon nan sikilasyon
+B) Pousantaj posesyon se yon fonksyon aksyon yon moun divize pa total aksyon nan sikilasyon, kidonk ogmante total aksyon nan sikilasyon diminye mekanikman pousantaj pwopriyetè ki la deja yo, menm san okenn chanjman nan pwòp kantite aksyon yo
+C) Aksyonè ki la deja yo dwe vann aksyon pou nenpòt dilisyon rive
+D) Emèt nouvo aksyon toujou ogmante pousantaj posesyon aksyonè ki la deja yo
+
+**Q3. Poukisa dilisyon pa otomatikman yon move rezilta pou pwopriyetè ki la deja yo?**
+A) Dilisyon toujou yon rezilta negatif pi pou pwopriyetè ki la deja yo san okenn benefis posib ki konpanse l
+B) Si kapital yo leve a ogmante valè total konpayi a plis pase pousantaj yo dilye a, patisipasyon an pousantaj ki pi piti yon pwopriyetè ki la deja genyen ka toujou vo plis an dola absoli
+C) Dilisyon pa janm vrèman diminye pousantaj posesyon yon pwopriyetè ki la deja
+D) Valè an dola patisipasyon yon pwopriyetè pa gen rapò ak valè total konpayi a
+
+**Q4. Nan egzanp lan, poukisa patisipasyon fondatè a te vo plis apre dilisyon malgre li te posede yon pi piti pousantaj nan konpayi a?**
+A) Pousantaj posesyon fondatè a te an reyalite ogmante olye bese
+B) Valè total konpayi a te grandi soti $10 milyon rive $15 milyon kòm rezilta itilizasyon efikas nouvo kapital yo te leve a, sa ki plis pase konpanse pousantaj patisipasyon fondatè a ki te diminye
+C) Fondatè a te vann plis aksyon pou ogmante valè patisipasyon li
+D) Valè total konpayi a te bese anpil apre leve ekite a
+
+**Q5. Poukisa yon biznis ta ka chwazi finansman ak ekite olye finansman ak dèt lè dèt vin chè, malgre konpwomi dilisyon an?**
+A) Finansman ak ekite pa janm gen ladan l okenn konpwomi oswa kou pou pwopriyetè ki la deja yo
+B) Dèt mande ranbousman kèlkeswa pèfòmans biznis e li pote pwòp risk efè levye apa li, alòske finansman ak ekite evite obligasyon ranbousman espesifik sa a an echanj pou aksepte dilisyon
+C) Finansman ak dèt toujou pi bon mache pase finansman ak ekite nan tout kondisyon mache posib
+D) Pa gen okenn diferans ki gen sans ant finansman ak ekite ak finansman ak dèt pou yon biznis k ap grandi
+
+## Kle repons yo
+Q1: B
+Q2: B
+Q3: B
+Q4: B
+Q5: B
+
+## Repons ak eksplikasyon
+**Q1.** Tablo kapitalizasyon an se espesyalman yon dosye ki moun ki posede ki pati nan yon konpayi, se pa yon rapò pèfòmans finansye.
+
+**Q2.** Rapò matematik ant yon kantite aksyon fiks yon moun genyen ak yon total aksyon k ap grandi se mekanis dirèk ki dèyè dilisyon.
+
+**Q3.** Konparezon ki enpòtan an se chanjman nan valè absoli an dola patisipasyon pwopriyetè a, se pa sèlman chanjman pousantaj la, e itilizasyon efikas nouvo kapital yo leve a ka konpanse oswa depase efè dilisyon an.
+
+**Q4.** Ogmantasyon nan valè total konpayi a, ki soti nan itilizasyon efikas nouvo kapital la, te ase gwo pou ogmante valè an dola patisipasyon fondatè a malgre pousantaj posesyon ki te diminye a.
+
+**Q5.** Chwa ant kalite finansman yo gen ladan l peze kou dilisyon ekite a kont risk ranbousman obligatwa ak ekspozisyon efè levye dèt, yon konpwomi ki ka chanje selon kou ak disponiblite chak opsyon.
+
+## Pwen kle yo
+- Yon tablo kapitalizasyon anrejistre estrikti posesyon yon konpayi, tankou tout aksyonè yo ak pousantaj posesyon chak moun.
+- Emèt nouvo aksyon dilye pousantaj posesyon aksyonè ki la deja yo, paske pousantaj posesyon depann de aksyon yo kenbe divize pa total aksyon nan sikilasyon.
+- Dilisyon pa otomatikman negatif pou pwopriyetè ki la deja yo si kapital yo leve a ogmante valè total konpayi a plis pase pousantaj yo dilye a.
+- Chwazi finansman ak ekite olye finansman ak dèt gen ladan l aksepte dilisyon an echanj pou evite ranbousman dèt obligatwa ak risk efè levye.
+
+===== BLUE-L4-010
+TITLE: Analiz orè akizisyon (vesting): poukisa ou touche konpansasyon an ekite avèk tan, se pa tout an yon sèl kou
+SUMMARY: Konprann kijan orè akizisyon estriktire konpansasyon an ekite pou aliyen ankourajman anplwaye oswa fondatè ak yon angajman alontèm nan konpayi a.
+KEYWORDS: orè akizisyon, konpansasyon an ekite, falèz akizisyon, aliyman ankourajman anplwaye
+# Analiz orè akizisyon (vesting): poukisa ou touche konpansasyon an ekite avèk tan, se pa tout an yon sèl kou
+
+## Senaryo pou louvri leson an
+SIPOZISYON/OPINYON (senaryo ipotetik pou objektif ansèyman sèlman): Imajine mache imobilye ak kredi konsomatè yon peyi ki gen anpil moun, apre plizyè ane ekspansyon rapid, kòmanse montre siy yon gwo koreksyon pandan defo yo kòmanse monte. Pandan yon boom anbochaj kredi te alimante ap defèt e konpayi yo ap reevalye anplwaye yo, anplwaye ki fèk antre dekouvri yon gwo pati nan konpansasyon an ekite yo te pwomèt yo poko vrèman touche. Leson sa a esplike mekanis ki detèmine egzakteman konbyen ekite yon anplwaye vrèman touche nan nenpòt moman.
+
+## Objektif aprantisaj
+- Esplike kisa yon orè akizisyon ye e poukisa yo souvan estriktire konpansasyon an ekite konsa.
+- Esplike kisa yon "falèz" (cliff) vle di nan yon orè akizisyon estanda.
+- Kalkile konbyen ekite yon anplwaye te akeri nan yon moman done anba yon orè estanda.
+- Esplike poukisa yo fè orè akizisyon pou aliyen ankourajman ant konpayi a ak moun k ap resevwa ekite.
+
+## Kontni prensipal
+Yon orè akizisyon (vesting schedule) detèmine vitès yon anplwaye, yon fondatè, oswa lòt moun ki resevwa konpansasyon an ekite vrèman touche dwa posesyon konplè sou aksyon oswa opsyon yo ba li avèk tan, olye li resevwa posesyon konplè imedyatman lè yo ba li yo. FÈ VERIFYE: yon estrikti estanda trè komen nan anpil endistri se yon orè akizisyon kat ane ak yon "falèz" (cliff) yon ane — sa ki vle di moun nan pa akeri okenn aksyon ditou pandan premye ane li nan konpayi a, e apre sa, lè li rive egzakteman nan yon ane, yon gwo pati (souvan 25%) akeri tout an yon sèl kou, ak aksyon ki rete yo k ap akeri souvan chak mwa oswa chak trimès sou twa ane ki vin apre yo. RÈG ESPESIFIK POU REJYON AN: lwa sou travay, kontra, ak taks sou konpansasyon an ekite varye selon peyi; verifye ak yon pwofesyonèl ki kalifye.
+
+Men "poukisa" yo estriktire konpansasyon an ekite pou l akeri avèk tan olye bay li nèt imedyatman: yo fè akizisyon espesyalman pou aliyen ankourajman moun k ap resevwa ekite a ak enterè alontèm ak angajman konpayi a ap chèche, ki sanble nan objektif anba li ak estrikti peman selon rezilta (earnout) yo pafwa itilize nan akizisyon biznis — si yo te bay ekite nèt imedyatman san okenn egzijans akizisyon, yon moun ta ka kite konpayi a yon ti tan apre li fin resevwa l alòske li toujou kenbe tout prim ekite a, sa ki ta febli objektif prensipal pou itilize konpansasyon an ekite pou ankouraje yon kontribisyon ak yon angajman alontèm ki dire.
+
+Se poutèt sa falèz akizisyon an pwoteje konpayi a espesyalman kont yon depa trè bonè, sa ki gen rapò ak senaryo reevalyasyon anplwaye pi wo a: yon anplwaye ki kite (oswa yo revoke) anvan li rive nan falèz yon ane li an jeneral pèdi tout don ekite li, paske li pa t akeri anyen ditou, alòske yon anplwaye ki kite yon ti tan apre falèz li deja touche yon pati ki gen sans, menm si li toujou pasyèl, nan don total li. Se poutèt sa konprann pwòp orè akizisyon ou ak pousantaj ou akeri kounye a se yon pati enpòtan nan edikasyon finansye pou nenpòt moun k ap resevwa konpansasyon an ekite, paske vrè valè yon don ekite ou posede kounye a, nan nenpòt moman anvan akizisyon konplè a fini, ka pi piti anpil pase valè total don tit yo te kominike okòmansman an.
+
+## Egzanp pratik
+EGZANP ILISTRATIF: Yo bay yon anplwaye 40,000 opsyon sou aksyon anba yon orè akizisyon estanda kat ane ak yon falèz yon ane. Si anplwaye a kite konpayi a apre 10 mwa, anvan li rive nan falèz yon ane a, li pa t akeri anyen e li pèdi tout don 40,000 opsyon an. Si anplwaye a rete pito egzakteman 18 mwa, li te depase falèz yon ane a (sa ki fè 25%, oswa 10,000 opsyon, akeri tout an yon sèl kou nan mwa 12 la) e li te akeri 6 mwa anplis akizisyon chak mwa sou 30,000 opsyon ki rete yo (apeprè 3,750 opsyon anplis, paske aksyon ki rete yo akeri sou 36 mwa), sa ki ba li yon total apeprè 13,750 opsyon akeri sou don orijinal 40,000 opsyon li — byen mwens pase tout don tit la, sa ki ilistre poukisa se orè akizisyon an, se pa sèlman gwosè total don an, ki detèmine vrè valè ekite yon anplwaye posede kounye a nan nenpòt moman.
+
+## Egzamen pratik
+**Q1. Kisa yon orè akizisyon detèmine?**
+A) Total valè an dola yon don ekite nan moman yo emèt li
+B) Vitès yon moun ki resevwa konpansasyon an ekite vrèman touche dwa posesyon konplè sou aksyon yo ba li avèk tan
+C) Total kantite aksyon yon konpayi genyen nan sikilasyon
+D) To taks yo aplike sou konpansasyon an ekite
+
+**Q2. Kisa yon "falèz" vle di nan yon orè akizisyon estanda?**
+A) Yon orè kote tout ekite akeri imedyatman lè yo bay li san okenn peryòd datant
+B) Yon peryòd, souvan yon ane, kote okenn aksyon pa akeri ditou, swiv pa yon gwo pati ki akeri tout an yon sèl kou lè w rive nan etap sa a
+C) Yon pèt pèmanan tout ekite kèlkeswa konbyen tan ou fè nan konpayi a
+D) Yon orè ki aplike sèlman pou fondatè, janm pou anplwaye
+
+**Q3. Poukisa yo souvan estriktire konpansasyon an ekite pou l akeri avèk tan olye bay li nèt imedyatman?**
+A) Orè akizisyon pa gen okenn rapò ak aliyen ankourajman ant yon konpayi ak moun k ap resevwa ekite
+B) Yo fè akizisyon pou aliyen ankourajman moun k ap resevwa a ak yon angajman alontèm ki dire, sa ki anpeche yon moun resevwa tout valè ekite a e kite konpayi a yon ti tan apre
+C) Akizisyon konplè imedya toujou se apwòch estanda e prefere pou konpansasyon an ekite
+D) Yo itilize orè akizisyon sèlman pou rapò finansye e yo pa gen okenn efè sou aliyman ankourajman
+
+**Q4. Kisa ki rive don ekite yon anplwaye si li kite anvan li rive nan falèz yon ane a?**
+A) Li kenbe tout don ekite a kèlkeswa ki lè li kite
+B) Li an jeneral pèdi tout don ekite a, paske li pa t akeri anyen ditou
+C) Li resevwa de fwa don orijinal la kòm yon bonis depa
+D) Falèz akizisyon pa afekte sa ki rive lè yon moun kite bonè
+
+**Q5. Nan egzanp lan, poukisa anplwaye ki te kite apre 18 mwa a te gen sèlman apeprè 13,750 opsyon akeri olye tout don 40,000 opsyon an?**
+A) Anplwaye a te pèdi tout don li an reyalite paske li te kite anvan kat ane
+B) Orè akizisyon an te vle di se sèlman pati falèz la (25%) plis yon kantite pwopòsyonèl akizisyon chak mwa sou aksyon ki rete yo ki te touche nan mwa 18 la, byen anba tout peryòd akizisyon kat ane a
+C) Orè akizisyon pa afekte total kantite opsyon yon anplwaye te touche nan nenpòt moman
+D) Anplwaye a te resevwa opsyon anplis pi lwen pase don orijinal li akoz depa bonè li
+
+## Kle repons yo
+Q1: B
+Q2: B
+Q3: B
+Q4: B
+Q5: B
+
+## Repons ak eksplikasyon
+**Q1.** Akizisyon gouvène espesyalman moman ak ritm ekite yo bay la vin vrèman, nèt pou moun k ap resevwa l la.
+
+**Q2.** Falèz la dekri espesyalman premye peryòd san akizisyon sa a swiv pa yon evènman akizisyon an gwo nan yon etap defini, souvan nan yon ane.
+
+**Q3.** Objektif aliyman ankourajman akizisyon an esplike dirèkteman poukisa touche piti piti avèk tan, olye posesyon konplè imedyat, se estrikti estanda a.
+
+**Q4.** Estrikti falèz la vle di espesyalman pa gen okenn ekite ki touche ditou si depa a rive anvan ou rive nan premye etap sa a.
+
+**Q5.** Paske akizisyon konplè mande tout orè kat ane a, kite nan mwa 18 la te vle di se sèlman yon fraksyon nan don total la ki te vrèman akeri nan moman sa a.
+
+## Pwen kle yo
+- Yon orè akizisyon detèmine vitès ou vrèman touche konpansasyon an ekite avèk tan, olye yo ba ou l nèt imedyatman.
+- Yon estrikti komen gen ladan l yon falèz yon ane, apre sa yon gwo pati akeri an yon sèl kou, swiv pa yon akizisyon k ap kontinye sou ane ki vin apre yo.
+- Yo fè akizisyon pou aliyen ankourajman moun k ap resevwa a ak yon angajman alontèm ki dire nan konpayi a.
+- Vrè valè yon don ekite ou posede kounye a, anvan akizisyon konplè, ka pi piti anpil pase valè total don tit li.
