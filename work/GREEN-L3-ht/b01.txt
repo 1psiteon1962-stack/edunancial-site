@@ -147,3 +147,103 @@ Sa se yon domèn politik taks kote moun vrèman pa dakò, ak diferan pwen de vi 
 ---
 
 *Leson sa a se sèlman pou edikasyon finansye jeneral e li prezante konsèp politik jeneral yon fason net, san l pa sipòte okenn pozisyon politik oswa ekonomik patikilye. Li pa konstitye konsèy finansye, envestisman, taks, oswa legal pèsonalize. Konsilte yon pwofesyonèl taks ki gen lisans pou konsèy ki espesifik pou sitiyasyon ou.*
+
+===== GREEN-L3-004
+TITLE: Poukisa taks sou pewòl ak taks sou revni sèvi objektif diferan
+SUMMARY: Aprann poukisa yo kalkile e itilize taks sou pewòl yon lòt jan pase taks sou revni, ak poukisa yo parèt kòm liy separe sou yon chèk salè.
+# GREEN-L3-004: Poukisa taks sou pewòl ak taks sou revni sèvi objektif diferan
+
+## Objektif aprantisaj
+Lè w fin fè leson sa a, w ap kapab:
+- Fè diferans ant taks sou pewòl ak taks sou revni
+- Esplike poukisa taks sou pewòl anjeneral mare ak pwogram espesifik yo deziyen
+- Esplike poukisa taks sou pewòl anjeneral aplike nan yon to fiks jiska yon sèten nivo revni, kontrèman ak taks pwogresif sou revni
+
+## Kontni prensipal
+
+**Taks sou revni** finanse operasyon jeneral gouvènman an e yo kalkile l ak estrikti tranch pwogresif yo kouvri nan Leson 1 rive 3. **Taks sou pewòl** (nan kontèks Etazini, ki souvan gen ladan yo taks Sekirite Sosyal ak Medicare) se yon kategori separe, yo anjeneral kalkile l kòm yon pousantaj fiks sou salè e yo deziyen l espesyalman pou finanse pwogram patikilye.
+
+Men "poukisa" yo trete yo yon fason diferan: yo anjeneral òganize taks sou pewòl pou finanse dirèkteman pwogram espesifik yo pote non an — Sekirite Sosyal ak Medicare nan kontèks Etazini — olye yo ale nan revni jeneral gouvènman an jan taks sou revni fè. [FÈ VERIFYE] Se poutèt sa tou taks Sekirite Sosyal, nan kontèks Etazini, anjeneral aplike sèlman jiska yon limit baz salè espesifik chak ane (yon kantite yo ajiste detanzantan) — revni ki depase limit sa a pa sijè a pati Sekirite Sosyal la, yon karakteristik nan estrikti a ki diferan anpil de tranch san limit, k ap toujou monte, sistèm taks pwogresif sou revni an. [RÈG ESPESIFIK POU REJYON AN] An Ayiti, kotizasyon sou salè (pa egzanp pou ONA ak OFATMA) gen pwòp règ ak to pa yo; verifye egzijans aktyèl yo ak enstitisyon sa yo oswa ak yon kontab ki kalifye.
+
+Diferans sa a enpòtan pou konprann yon chèk salè konplè: yo kalkile retni taks sou revni ak retni taks sou pewòl separeman, ak règ totalman diferan, e tou de parèt kòm retni diferan sou salè brit la.
+
+## Egzanp pratik
+
+[EGZANP ILISTRATIF] Chèk salè yon anplwaye montre retni separe: retni taks federal sou revni, yo kalkile selon tranch pwogresif ak sitiyasyon taks espesifik anplwaye a, e separeman, retni taks Sekirite Sosyal ak Medicare, chak kalkile kòm yon pousantaj fiks sou salè. [SIPOZISYON] Si salè anyèl anplwaye sa a depase limit baz salè Sekirite Sosyal pou ane sa a, yo ta sispann retni taks Sekirite Sosyal sou chèk salè yo depi yo rive nan limit sa a pou ane a, menm si retni taks sou revni an kontinye sou tout rès salè yo, sa ki montre jan yo trete de kategori taks sa yo diferan nan estrikti yo.
+
+## Egzamen pratik
+
+1. Ki diferans kle nan estrikti ki genyen ant jan yo kalkile taks sou revni ak taks sou pewòl?
+2. Poukisa yo anjeneral dekri taks sou pewòl kòm yon bagay yo deziyen pou pwogram espesifik, kontrèman ak taks jeneral sou revni?
+3. Kisa ki rive retni taks Sekirite Sosyal depi salè yo depase limit baz salè anyèl la, nan kontèks Etazini?
+
+## Kle repons yo
+
+1. Taks sou revni itilize yon estrikti tranch pwogresif ak to ki monte nan nivo revni ki pi wo; taks sou pewòl anjeneral kalkile kòm yon pousantaj fiks sou salè, souvan sèlman jiska yon limit espesifik.
+2. Paske yo òganize taks sou pewòl pou finanse dirèkteman pwogram espesifik ki gen non tankou Sekirite Sosyal ak Medicare, olye yo ale nan revni jeneral gouvènman an.
+3. Retni pou taks espesifik sa a sispann depi yo rive nan limit baz salè a pou ane a, paske salè ki depase limit sa a pa sijè a taks sou pewòl patikilye sa a.
+
+## Repons ak eksplikasyon
+
+1. Sa a se diferans santral nan estrikti leson an bati sou li.
+2. Sa esplike rezon finansman deziyen ki dèyè fason diferan yo trete taks sou pewòl.
+3. Sa aplike konsèp espesifik limit baz salè a nan yon senaryo chèk salè konkrè.
+
+## Pwen kle yo
+- Taks sou pewòl anjeneral kalkile kòm yon pousantaj fiks sou salè e yo deziyen l pou pwogram espesifik, kontrèman ak taks jeneral pwogresif sou revni.
+- Nan kontèks Etazini, taks Sekirite Sosyal anjeneral aplike sèlman jiska yon limit baz salè anyèl, yon karakteristik nan estrikti a ki diferan de tranch san limit taks sou revni.
+- Yo kalkile retni taks sou revni ak retni taks sou pewòl separeman, ak règ totalman diferan, e tou de parèt sou yon chèk salè.
+
+---
+
+*Leson sa a se sèlman pou edikasyon finansye jeneral, e li pa konstitye konsèy finansye, envestisman, taks, oswa legal pèsonalize. Règ, to, ak limit taks yo varye selon jiridiksyon e yo chanje ak tan; konsilte yon pwofesyonèl taks ki gen lisans pou konsèy ki espesifik pou sitiyasyon ou.*
+
+===== GREEN-L3-005
+TITLE: Poukisa retni taks se yon estimasyon, pa yon fakti final
+SUMMARY: Aprann poukisa taks yo retni sou chèk salè w se sèlman yon estimasyon sa w ap vrèman dwe, ak poukisa règleman final la fèt lè w depoze deklarasyon taks ou.
+# GREEN-L3-005: Poukisa retni taks se yon estimasyon, pa yon fakti final
+
+## Objektif aprantisaj
+Lè w fin fè leson sa a, w ap kapab:
+- Esplike kisa retni taks anjeneral reprezante
+- Esplike poukisa retni taks se sèlman yon estimasyon olye yon kalkil final
+- Esplike poukisa kantite yo retni ka fini pi wo oswa pi ba pase sa ou vrèman dwe
+
+## Kontni prensipal
+
+**Retni taks** se kantite yon patwon retire sou chak chèk salè e li voye dirèkteman bay otorite taks yo pou anplwaye a, selon enfòmasyon anplwaye a bay (tankou yon fòm W-4, nan kontèks Etazini) ak tab kalkil retni estanda.
+
+Men "poukisa" chif sa a se sèlman yon estimasyon, pa vrè fakti taks final la: kalkil retni yo chita sou sipozisyon sou revni anplwaye a pou tout ane a, sitiyasyon deklarasyon li, ak lòt faktè nan moman li fè chwa retni yo — yo pa konte chak detay espesifik nan vrè sitiyasyon taks final yon moun, enkli dediksyon, kredi, lòt revni ki soti nan lòt sous, oswa chanjman nan sikonstans pandan ane a.
+
+[FÈ VERIFYE] Se poutèt sa vrè deklarasyon taks yo depoze nan fen ane a konpare kantite yo te retni pandan tout ane a ak vrè taks yo dwe, yo kalkile l ak tablo konplè, final revni ak sikonstans ane sa a — si yo te retni twòp konpare ak vrè taks yo dwe a, diferans lan anjeneral tounen kòm yon ranbousman (yon sijè yo egzamine yon fason kritik nan pwochen leson an); si yo te retni twò piti, yo anjeneral dwe diferans lan lè yo depoze deklarasyon an, e sa ka pafwa deklanche penalite pou peman ki pa ase yo diskite nan yon leson pita.
+
+## Egzanp pratik
+
+[EGZANP ILISTRATIF] Retni taks yon anplwaye pandan tout ane a chita sou sipozisyon estanda sou revni li ak yon sèl travay. Si li fè tou yon gwo revni anplis nan yon pwojè akote pandan ane a ke yo pa t konte nan chwa retni li yo, retni sou chèk salè li gen chans souzestime vrè taks total li dwe pou ane a. [SIPOZISYON] Lè li depoze deklarasyon taks li, lè l konpare vrè revni ak taks li dwe pou tout ane a ak sa yo te retni, li ka jwenn li dwe yon lòt kantite anplis sa yo te deja retni — pa paske yon bagay mal pase, men paske retni an te toujou sèlman yon estimasyon ki chita sou enfòmasyon ki pa konplè sou tout tablo finansye li.
+
+## Egzamen pratik
+
+1. Kisa retni taks anjeneral reprezante?
+2. Poukisa retni taks se sèlman yon estimasyon olye yon kalkil taks final, egzak?
+3. Kisa ki rive si retni an vin parèt twò piti konpare ak vrè taks yo dwe a?
+
+## Kle repons yo
+
+1. Kantite yo retire sou chak chèk salè e yo voye bay otorite taks yo, selon chwa retni estanda ak tab kalkil.
+2. Paske yo kalkile l ak sipozisyon ak enfòmasyon ki pa konplè nan moman yo fè chwa yo, san yo pa konte chak detay espesifik nan vrè sitiyasyon taks final la.
+3. Yo anjeneral dwe diferans lan lè yo depoze deklarasyon an, e nan kèk ka sa ka deklanche penalite pou peman ki pa ase.
+
+## Repons ak eksplikasyon
+
+1. Sa a se definisyon debaz leson an.
+2. Sa a se "poukisa" santral ki esplike nati estimasyon, pwovizwa retni an.
+3. Sa prezante konsekans pratik la e li prepare leson pita sou ranbousman ak penalite.
+
+## Pwen kle yo
+- Retni taks se yon estimasyon taks ou dwe, ki chita sou sipozisyon ak chwa estanda, pa yon kalkil final.
+- Vrè deklarasyon taks la konpare retni an ak vrè taks ou dwe pou tout ane a.
+- Twòp retni anjeneral bay yon ranbousman; twò piti retni bay yon lòt taks ou dwe, petèt ak penalite.
+
+---
+
+*Leson sa a se sèlman pou edikasyon finansye jeneral, e li pa konstitye konsèy finansye, envestisman, taks, oswa legal pèsonalize. Règ taks yo varye selon jiridiksyon e yo chanje ak tan; konsilte yon pwofesyonèl taks ki gen lisans pou konsèy ki espesifik pou sitiyasyon ou.*
