@@ -145,3 +145,103 @@ Men "poukisa" sa evite sitiyasyon doub taksasyon Leson 17 la te prezante a: pask
 ---
 
 *Leson sa a se sèlman pou edikasyon finansye jeneral, e li pa konstitye konsèy finansye, envestisman, taks, oswa legal pèsonalize. Règ taks pou antite biznis yo varye selon jiridiksyon e yo chanje ak tan; konsilte yon pwofesyonèl taks ki gen lisans pou konsèy ki espesifik pou sitiyasyon ou.*
+
+===== GREEN-L3-019
+TITLE: Poukisa sosyete C (C-corporation) fè fas ak doub taksasyon (e poukisa sa ka toujou fè sans)
+SUMMARY: Aprann poukisa yo ka taxe pwofi yon sosyete tradisyonèl de fwa, ak poukisa estrikti sa a ka toujou bon chwa pou kèk biznis.
+# GREEN-L3-019: Poukisa sosyete C (C-corporation) fè fas ak doub taksasyon (e poukisa sa ka toujou fè sans)
+
+## Objektif aprantisaj
+Lè w fin fè leson sa a, w ap kapab:
+- Esplike kijan doub taksasyon rive pou yon sosyete C tradisyonèl
+- Esplike poukisa estrikti sa a ka toujou fè sans pou kèk biznis malgre doub taksasyon an
+- Konpare estrikti sa a dirèkteman ak tretman transmisyon yo kouvri nan Leson 18
+
+## Kontni prensipal
+
+Yon **sosyete C** (C-corporation, yon tèm komen pou yon estrikti sosyete tradisyonèl yo taxe kòm pwòp antite separe li) anjeneral peye enpo sou pwòp pwofi li nan nivo antite a. Si yo distribiye pwofi apre taks sa a pita bay aksyonè yo kòm yon dividann, aksyonè yo anjeneral dwe taks ankò sou revni dividann sa a nan nivo endividyèl — sa ki kreye sitiyasyon **doub taksasyon** Leson 17 la te prezante a, an kontras dirèk ak tretman transmisyon yon sèl kouch Leson 18 la.
+
+Men "poukisa" estrikti sa a ka toujou fè sans pou kèk biznis, malgre dezavantaj taks aparan sa a: sosyete C yo ofri avantaj espesifik nan lòt domèn — petèt yon aksè pi fasil a kèk kalite kapital envestisman ak estrikti aksyon (sa ki konekte ak konsèp yo kouvri nan tras BLUE kourikoulòm sa a sou kapital-risk ak plizyè klas aksyon), petèt yon tretman avantaje pou benefis yo kenbe yo pa distribiye kòm dividann, ak benefis oswa egzijans espesifik ki mare ak kèk modèl biznis oswa plan kwasans.
+
+[FÈ VERIFYE] Anplis, vrè chaj doub taksasyon efektif yon biznis depann anpil de konbyen pwofi yo kenbe nan biznis lan konpare ak sa yo distribiye kòm dividann, ak to taks espesifik ki aplike ni nan nivo sosyete a ni nan nivo endividyèl — sa ki vle di enpak pratik doub taksasyon an varye anpil selon sikonstans espesifik biznis lan, olye l se yon penalite fiks e inivèsèl.
+
+## Egzanp pratik
+
+[EGZANP ILISTRATIF] Yon konpayi k ap grandi rapidman prevwa l ap bezwen anpil kapital envestisman deyò e li planifye reyenvesti pifò pwofi nan kwasans olye distribiye dividann pandan premye ane li yo. Òganize kòm yon sosyete C ka pi byen sipòte estrateji pou ranmase kapital li (sa ki konekte ak konsèp kapital-risk yo kouvri lòt kote nan kourikoulòm sa a), e kòm li pa distribiye anpil dividann kounye a, enpak pratik doub taksasyon an piti anpil pandan premye ane sa yo. [SIPOZISYON] Yon biznis ki pi piti, ki pi gran, ki enterese sitou nan distribiye pifò pwofi li dirèkteman bay mèt k ap jere l yo chak ane ta ka jwenn pito tretman transmisyon (Leson 18) pi efikas sou plan taks pou sitiyasyon espesifik li, sa ki montre poukisa estrikti "ki pi bon" an vrèman depann de sikonstans ak plan espesifik chak biznis.
+
+## Egzamen pratik
+
+1. Kijan doub taksasyon rive pou yon sosyete C tradisyonèl?
+2. Poukisa yon estrikti sosyete C ta ka toujou fè sans pou kèk biznis malgre doub taksasyon an?
+3. Ki faktè ki afekte anpil vrè chaj pratik doub taksasyon yon biznis?
+
+## Kle repons yo
+
+1. Sosyete a peye taks sou pwofi li nan nivo antite a, e aksyonè yo peye taks ankò sou nenpòt dividann yo distribiye nan pwofi apre taks sa a, nan nivo endividyèl.
+2. Paske sosyete C yo ka ofri avantaj nan domèn tankou ranmase kapital ak estrikti aksyon, e enpak pratik doub taksasyon an ka piti anpil si yo kenbe pwofi a olye distribiye l kòm dividann.
+3. Konbyen pwofi yo kenbe nan biznis lan konpare ak sa yo distribiye kòm dividann, ansanm ak to taks espesifik ki aplike ni nan nivo sosyete a ni nan nivo endividyèl.
+
+## Repons ak eksplikasyon
+
+1. Sa a se mekanis debaz leson an, ki konekte dirèkteman ak sitiyasyon Leson 17 la.
+2. Sa bay yon kontèks enpòtan e balanse kont sipozisyon ke estrikti sosyete C otomatikman dezavantaje.
+3. Sa ranfòse ke enpak pratik la varye selon sikonstans espesifik, li pa yon rezilta fiks e inivèsèl.
+
+## Pwen kle yo
+- Sosyete C yo ka fè fas ak doub taksasyon: yon fwa nan nivo sosyete a, e yon lòt fwa sou dividann nan nivo endividyèl.
+- Malgre sa, estrikti sosyete C ka toujou fè sans pou biznis ki bay priyorite a fleksibilite pou ranmase kapital oswa ki kenbe pifò pwofi pou reyenvesti.
+- Vrè enpak pratik doub taksasyon an depann anpil de konbyen pwofi yo distribiye kòm dividann konpare ak sa yo kenbe.
+
+---
+
+*Leson sa a se sèlman pou edikasyon finansye jeneral, e li pa konstitye konsèy finansye, envestisman, taks, oswa legal pèsonalize. Règ taks pou antite biznis yo varye selon jiridiksyon e yo chanje ak tan; konsilte pwofesyonèl legal ak taks ki gen lisans anvan w chwazi yon estrikti biznis.*
+
+===== GREEN-L3-020
+TITLE: Poukisa dediksyon sou revni biznis ki kalifye (QBI) egziste
+SUMMARY: Aprann objektif jeneral yon dediksyon ki vize revni biznis transmisyon, ak poukisa li trete an pati yon diferans to taks ant kalite biznis yo.
+# GREEN-L3-020: Poukisa dediksyon sou revni biznis ki kalifye (QBI) egziste
+
+## Objektif aprantisaj
+Lè w fin fè leson sa a, w ap kapab:
+- Esplike objektif jeneral yon dediksyon tankou dediksyon sou revni biznis ki kalifye (QBI)
+- Esplike poukisa kalite dediksyon sa a vize espesyalman revni biznis transmisyon
+- Esplike poukisa règ kalifikasyon ak kalkil pou kalite dediksyon sa a gen tandans konplike
+
+## Kontni prensipal
+
+Nan kontèks Etazini, yon **dediksyon sou revni biznis ki kalifye (QBI, Qualified Business Income)** anjeneral pèmèt mèt biznis transmisyon ki kalifye (Leson 18) dedwi yon pòsyon nan revni biznis kalifye yo lè y ap kalkile revni taksab pèsonèl yo. [FÈ VERIFYE] Lalwa sou taks fikse egzijans kalifikasyon espesifik yo, nivo revni yo, ak règ kalkil pou kalite dediksyon sa a; yo konplike anpil, yo varye selon kalite biznis ak nivo revni, e yo ka chanje pa lejislasyon — yo ta dwe verifye règ aktyèl yo dirèkteman olye yo sipoze yo.
+
+Men "poukisa" jeneral yo ta ka prezante yon dediksyon konsa: yo pafwa diskite l kòm yon fason pou ede trete diferans to taks ant revni biznis transmisyon (yo taxe l nan to endividyèl, jan yo kouvri nan Leson 18) ak revni sosyete (yo ka taxe l dapre yon lòt estrikti to, jan yo kouvri nan Leson 19) — sa ki bay mèt biznis transmisyon yo yon fòm soulajman taks ki gen entansyon rapwoche tretman taks efektif yo yon ti jan ak tretman taks sosyete yo.
+
+Leson sa a fè espre pou l pa eseye presize nivo kalifikasyon oswa fòmil kalkil egzak, paske kalite dispozisyon sa yo gen tandans chanje souvan pa lejislasyon e yo varye anpil selon jiridiksyon — objektif konseptyèl la (yon soulajman pasyèl espesyalman pou revni biznis transmisyon) se leson dirab, ou ka transfere a, pa okenn detay nimerik espesifik.
+
+## Egzanp pratik
+
+[EGZANP ILISTRATIF] Yon ti mèt biznis k ap opere kòm yon antite transmisyon fè revni biznis ki kalifye e, si li satisfè egzijans kalifikasyon ki an vigè pou sitiyasyon espesifik li, li ka dedwi yon pòsyon nan revni sa a anvan l kalkile revni taksab pèsonèl li — sa ki bay kèk soulajman ki gen entansyon ede trete diferans to taks ant tretman transmisyon li ak tretman yon sosyete ki fè menm kantite pwofi ta ka resevwa. [SIPOZISYON] Paske detay kalifikasyon ak kalkil pou kalite dediksyon sa a konplike e yo ka chanje, li travay ak yon pwofesyonèl taks chak ane pou konfime egzakteman kijan règ ki an vigè yo aplike pou biznis espesifik li ak nivo revni li, olye l konte sèlman sou yon konpreyansyon jeneral.
+
+## Egzamen pratik
+
+1. Kisa objektif jeneral yon dediksyon tankou dediksyon sou revni biznis ki kalifye (QBI) ye?
+2. Poukisa kalite dediksyon sa a vize espesyalman revni biznis transmisyon olye revni sosyete?
+3. Poukisa leson sa a evite presize nivo kalifikasyon oswa fòmil kalkil egzak?
+
+## Kle repons yo
+
+1. Pèmèt mèt biznis transmisyon ki kalifye dedwi yon pòsyon nan revni biznis kalifye yo, sa ki bay kèk soulajman taks.
+2. Paske li anjeneral gen entansyon ede trete diferans to taks ant revni transmisyon (yo taxe l nan to endividyèl) ak revni sosyete, yo ka taxe yon lòt jan.
+3. Paske dispozisyon sa yo gen tandans chanje souvan pa lejislasyon e yo varye anpil selon jiridiksyon, sa ki fè objektif konseptyèl la se leson dirab la olye detay nimerik espesifik.
+
+## Repons ak eksplikasyon
+
+1. Sa a se objektif konseptyèl jeneral leson an, ak rezèv ki apwopriye.
+2. Sa konekte objektif dediksyon an dirèkteman ak konparezon ant transmisyon ak sosyete Leson 18 ak 19 yo.
+3. Sa a se yon nòt metodolojik enpòtan, ki ranfòse poukisa leson an rete nan nivo konseptyèl.
+
+## Pwen kle yo
+- Yon dediksyon tankou dediksyon sou revni biznis ki kalifye anjeneral bay soulajman taks espesyalman pou revni biznis transmisyon ki kalifye.
+- Li souvan gen entansyon ede trete diferans to taks ant tretman revni transmisyon ak revni sosyete.
+- Règ kalifikasyon ak kalkil espesifik pou kalite dispozisyon sa a konplike, yo varye selon jiridiksyon, e yo chanje ak tan — toujou verifye règ aktyèl yo dirèkteman.
+
+---
+
+*Leson sa a se sèlman pou edikasyon finansye jeneral, e li pa konstitye konsèy finansye, envestisman, taks, oswa legal pèsonalize. Règ dediksyon ak egzijans kalifikasyon yo varye anpil selon jiridiksyon e yo chanje ak tan; konsilte yon pwofesyonèl taks ki gen lisans pou konsèy ki espesifik pou sitiyasyon ou.*

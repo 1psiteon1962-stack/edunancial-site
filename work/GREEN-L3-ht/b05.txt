@@ -1,0 +1,49 @@
+===== GREEN-L3-021
+TITLE: Poukisa rekiperasyon amòtisman reprann yon benefis taks anvan
+SUMMARY: Aprann poukisa benefis taks amòtisman an pa toujou pèmanan, ak poukisa vann yon byen ki amòti ka bay yon rekiperasyon benefis anvan sa a.
+# GREEN-L3-021: Poukisa rekiperasyon amòtisman reprann yon benefis taks anvan
+
+## Objektif aprantisaj
+Lè w fin fè leson sa a, w ap kapab:
+- Esplike kisa rekiperasyon amòtisman (depreciation recapture) anjeneral vle di
+- Esplike poukisa vann yon byen ki amòti ka bay konsekans taks espesifik sa a
+- Konekte konsèp sa a ak diskisyon sou amòtisman yo kouvri lòt kote nan kourikoulòm sa a
+
+## Kontni prensipal
+
+Tras RED kourikoulòm sa a kouvri kijan amòtisman pèmèt pwopriyetè byen dedwi yon pòsyon nan valè yon pwopriyete chak ane kòm yon depans ki pa an lajan kach, sa ki diminye revni taksab la alòske lajan k ap sikile a pa afekte. **Rekiperasyon amòtisman** trete sa ki rive benefis taks akimile sa a lè yo finalman vann pwopriyete a.
+
+Men "poukisa" rekiperasyon egziste: dediksyon amòtisman yo te baze sou yon sipozisyon ke byen an t ap pèdi valè ak tan. Si yo vann byen an pita ak yon pwofi — sa ki vle di li pa t vrèman pèdi valè jan dediksyon amòtisman yo te sipoze a — [FÈ VERIFYE] règ taks nan anpil jiridiksyon mande pou yon pòsyon nan pwofi vant sa a, jiska kantite amòtisman yo te reklame anvan, taxe yon lòt jan (souvan nan yon to espesifik, pafwa pi wo, pase pwofi kapital long tèm estanda) — sa ki an reyalite "rekipere" yon pati nan benefis taks anvan an ki te baze sou yon sipozisyon rezilta vant final la pa t vrèman konfime.
+
+Se poutèt sa yo pa ta dwe konsidere amòtisman kòm yon benefis taks pèmanan, san kondisyon — li pi egzak pou konprann li kòm yon benefis ki ka ranvèse an pati lè gen yon vant alavni ki pi pwofitab pase sa yo te sipoze, yon nuans ki gen yon lyen dirèk ak diskisyon sou echanj 1031 nan Leson 22.
+
+## Egzanp pratik
+
+[EGZANP ILISTRATIF] Yon envestisè reklame dediksyon amòtisman sou yon pwopriyete lokasyon pandan plizyè ane li posede l, sa ki diminye revni taksab li chak ane sou baz sipozisyon ke estrikti pwopriyete a t ap pèdi valè piti piti. Lè l finalman vann pwopriyete a ak yon pwofi enpòtan — sa ki reflete yon vrè ogmantasyon valè, pa yon bès — yon pòsyon nan pwofi sa a, jiska total amòtisman li te reklame anvan, sijè a règ rekiperasyon amòtisman, yo taxe l yon lòt jan pase rès pwofi kapital li a. [SIPOZISYON] Rekiperasyon sa a an reyalite reprann yon pati nan benefis taks li te resevwa pandan ane li te posede pwopriyete a, sa ki reflete reyalite ke pwopriyete a pa t vrèman pèdi valè jan dediksyon amòtisman yo te sipoze a.
+
+## Egzamen pratik
+
+1. Kisa rekiperasyon amòtisman anjeneral trete?
+2. Poukisa vann yon byen ki amòti ak yon pwofi bay konsekans taks espesifik sa a?
+3. Poukisa yo pa ta dwe konsidere amòtisman kòm yon benefis taks pèmanan, san kondisyon?
+
+## Kle repons yo
+
+1. Sa ki rive benefis taks akimile dediksyon amòtisman yo lè yo finalman vann yon byen ki amòti, sitou ak yon pwofi.
+2. Paske dediksyon amòtisman yo te sipoze byen an t ap pèdi valè, e yon pwofi sou vant lan montre sipozisyon sa a pa t egzak, sa ki pouse règ ki rekipere yon pòsyon nan benefis taks anvan an.
+3. Paske li ka ranvèse an pati lè gen yon vant alavni ki pi pwofitab pase sa yo te sipoze, olye l se yon benefis fiks ou kenbe pou toutan.
+
+## Repons ak eksplikasyon
+
+1. Sa a se konsèp debaz leson an, ki konekte ak diskisyon sou amòtisman tras RED la anvan.
+2. Sa a se "poukisa" santral ki esplike mekanis rekiperasyon an.
+3. Sa ranfòse fason ki kòrèk, ki gen plis nuans, pou konprann vrè nati kondisyonèl amòtisman.
+
+## Pwen kle yo
+- Rekiperasyon amòtisman aplike lè yo vann yon byen ki amòti ak yon pwofi, sa ki ranvèse yon pati nan benefis taks anvan an.
+- Sa egziste paske amòtisman orijinal la te sipoze yon bès valè yon pwofi sou vant montre pa t vrèman rive.
+- Yo ta dwe konprann amòtisman kòm yon benefis taks kondisyonèl, ki ka ranvèse an pati, pa yon benefis pèmanan.
+
+---
+
+*Leson sa a se sèlman pou edikasyon finansye jeneral, e li pa konstitye konsèy finansye, envestisman, taks, oswa legal pèsonalize. Règ amòtisman ak rekiperasyon yo varye selon jiridiksyon e yo chanje ak tan; konsilte yon pwofesyonèl taks ki gen lisans pou konsèy ki espesifik pou sitiyasyon ou.*
