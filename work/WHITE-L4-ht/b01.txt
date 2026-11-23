@@ -1,0 +1,399 @@
+===== WHITE-L4-001
+TITLE: Analiz rapò P/E: poukisa yon miltip ki ba pa otomatikman bon mache
+SUMMARY: Aprann poukisa yon rapò pri sou benefis ki ba pa otomatikman vle di yon aksyon sou-evalye, ak kijan pou li yon rapò P/E kòrèkteman.
+KEYWORDS: rapò P/E, pri sou benefis, evalyasyon aksyon, pyèj valè
+# Analiz rapò P/E: poukisa yon miltip ki ba pa otomatikman bon mache
+
+## Senaryo pou louvri leson an
+SIPOZISYON/OPINYON (senaryo ipotetik pou objektif ansèyman sèlman): Imajine yon gwo rejyon ki pwodui enèji ke yon konfli rejyonal toudenkou frape, sa ki fè yon gwo pati nan kapasite pwodiksyon li kanpe nan yon sèl nwit, e ki sere ofri enèji mondyal la ak ti kras avètisman. Yon gwo ogmantasyon nan kou enèji peze maj pwofi nan anpil endistri an menm tan, e apre sa, kèk aksyon ki te popilè anvan toudenkou ap vann nan rapò P/E ki pi ba anpil pase anvan. Èske sa otomatikman fè yo yon bon afè? "Poukisa" leson sa a reponn kesyon sa a.
+
+## Objektif aprantisaj
+- Esplike kisa yon rapò P/E mezire.
+- Esplike poukisa yon rapò P/E ki ba ka reflete risk olye yon bon afè.
+- Fè diferans ant yon vrè opòtinite valè ak yon pyèj valè.
+- Konpare rapò P/E yon fason apwopriye nan menm sektè a.
+
+## Kontni prensipal
+Rapò pri sou benefis (price-to-earnings, P/E) egal pri aksyon yon konpayi divize pa benefis pa aksyon, sa ki montre konbyen envestisè ap peye pou chak dola benefis kounye a. FÈ VERIFYE: rapò P/E se youn nan mezi evalyasyon moun itilize pi plis, men menm jan ak to kapitalizasyon nan imobilye, se yon chif mache a detèmine ki reflete atant envestisè yo sou lavni, se pa sèlman yon senp pri.
+
+Men "poukisa" yon P/E ki ba pa otomatikman bon mache: yon P/E ki ba souvan reflete kwayans mache a ke benefis yon konpayi pa gen chans grandi, oswa menm gen chans diminye — petèt akoz yon endistri k ap lite, yon pozisyon konkirans ki fèb, oswa kalite chòk kou ki peze maj senaryo pi wo a dekri a. Yo rele sa yon "pyèj valè" (value trap): yon aksyon ki sanble bon mache dapre estatistik men ki rete bon mache, oswa ki vin pi bon mache, paske atant negatif mache a vin parèt jistifye.
+
+Se poutèt sa konpare rapò P/E gen sans sèlman nan menm sektè a e konpare ak pwòp fouchèt istorik yon konpayi, menm jan ak prensip konparabilite mache nan analiz to kapitalizasyon imobilye. Yon P/E ki ba nan yon endistri siklik ki mande anpil kapital e ki fè fas ak vrè difikilte se yon siyal diferan de yon P/E ki ba menm jan pou yon konpayi solid ki tanporèman pa alamòd pou rezon ki pa gen rapò ak vrè kapasite li pou fè benefis.
+
+## Egzanp pratik
+EGZANP ILISTRATIF: Konpayi A ap vann nan yon P/E 8, alòske konpayi ki nan menm endistri avè l yo gen yon P/E mwayèn 18. Yon envestisè ki tante achte Konpayi A sèlman paske li sanble bon mache dekouvri, lè l analize pi pre, ke benefis Konpayi A te bese pandan twa ane youn dèyè lòt e prensipal liy pwodui li ap pèdi pati nan mache a — P/E ki ba a reflete yon pesimis reyèl e jistifye sou benefis nan lavni, se pa yon bon afè moun pa t wè.
+
+## Egzamen pratik
+**Q1. Kisa rapò P/E mezire?**
+A) Total dèt yon konpayi konpare ak ekite
+B) Pri aksyon divize pa benefis pa aksyon
+C) Rannman dividann konpare ak pri aksyon
+D) Total revni divize pa kantite anplwaye
+
+**Q2. Poukisa yon rapò P/E ki ba ka yon siy avètisman olye yon bon afè?**
+A) Rapò P/E ki ba toujou se yon siy gwo kwasans nan lavni
+B) Li ka reflete atant mache a ke benefis yo pral bese oswa rete kanpe
+C) Rapò P/E pa gen rapò ak atant sou benefis
+D) Yon P/E ki ba toujou vle di konpayi a pa gen dèt
+
+**Q3. Kisa yon "pyèj valè" ye?**
+A) Yon aksyon ki bon mache dapre estatistik e ki se yon vrè bon afè tou
+B) Yon aksyon ki sanble bon mache dapre mezi tradisyonèl men ki rete bon mache oswa ki vin pi mal paske pesimis mache a jistifye
+C) Yon kalite kont retrèt
+D) Yon estrateji taks pou reyalize pèt kapital
+
+**Q4. Poukisa ou ta dwe konpare rapò P/E nan menm sektè a olye nan tout mache a?**
+A) Diferan sektè gen diferan to kwasans ak pwofil risk tipik, sa ki afekte nivo P/E tipik
+B) Dapre definisyon, rapò P/E idantik nan tout sektè
+C) Konparezon pa sektè enpòtan sèlman pou obligasyon, se pa aksyon
+D) Ou pa ka konpare rapò P/E ditou
+
+**Q5. Nan senaryo a, poukisa yon chòk kou tankou yon gwo ogmantasyon toudenkou nan pri enèji ta ka bese rapò P/E yon konpayi san l pa fè l vin yon bon afè?**
+A) Kou enèji pa janm afekte benefis konpayi
+B) Si maj ki peze yo diminye atant benefis nan lavni, P/E ki pi ba a ka reflete kòrèkteman pèspektiv benefis ki diminye sa a olye l montre yon sou-evalyasyon
+C) Rapò P/E monte otomatikman pandan yon chòk kou
+D) Chòk kou toujou fè chak aksyon nan chak sektè vin bon mache pa menm kantite
+
+## Kle repons yo
+Q1: B
+Q2: B
+Q3: B
+Q4: A
+Q5: B
+
+## Repons ak eksplikasyon
+**Q1.** Rapò P/E montre konbyen envestisè ap peye pou chak dola benefis kounye a yon konpayi.
+
+**Q2.** Yon P/E ki deprime souvan montre mache a deja mete nan pri a pèspektiv benefis ki pi fèb nan lavni.
+
+**Q3.** Yon pyèj valè sanble atiran sou papye men li reflete yon vrè feblès anba olye yon vrè erè nan pri.
+
+**Q4.** Nòm sektè yo diferan anpil, kidonk yon P/E ki sanble wo oswa ba gen sans sèlman konpare ak konpayi ki sanble.
+
+**Q5.** Yon presyon sou maj ka jistifye yon miltip evalyasyon ki pi ba olye kreye yon opòtinite moun pa t wè.
+
+## Pwen kle yo
+- Rapò P/E mezire konbyen envestisè peye pou chak dola benefis kounye a, sa ki reflete atant sou lavni, se pa sèlman pri kounye a.
+- Yon P/E ki ba ka reflete yon pesimis jistifye sou benefis nan lavni olye yon bon afè moun pa t wè.
+- Yon pyèj valè se yon aksyon ki sanble bon mache men ki rete bon mache paske enkyetid mache a egzak.
+- Rapò P/E gen plis sans lè w konpare yo nan menm sektè a e konpare ak pwòp fouchèt istorik yon konpayi.
+
+===== WHITE-L4-002
+TITLE: Rannman dividann kont rannman total: poukisa rannman an pou kont li twonpe w
+SUMMARY: Konprann poukisa kouri dèyè yon gwo rannman dividann san w pa konsidere rannman total ak dirabilite peman an ka mennen nan erè envestisman ki koute chè.
+KEYWORDS: rannman dividann, rannman total, dirabilite dividann, envestisman pou revni
+# Rannman dividann kont rannman total: poukisa rannman an pou kont li twonpe w
+
+## Senaryo pou louvri leson an
+SIPOZISYON/OPINYON (senaryo ipotetik pou objektif ansèyman sèlman): Imajine mache imobilye ak kredi konsomatè yon peyi ki gen anpil moun, apre plizyè ane ekspansyon rapid, kòmanse montre siy yon gwo koreksyon pandan defo yo kòmanse monte. Pandan kondisyon kredi yo ap sere, kèk konpayi ki te gen rannman dividann ki wo e serye anvan kòmanse montre tansyon. Sa leve kesyon analiz leson sa a trete a: èske rannman dividann, pou kont li, janm se yon chif ou ka konte sou li an sekirite?
+
+## Objektif aprantisaj
+- Kalkile rannman dividann apati dividann chak ane ak pri aksyon.
+- Esplike poukisa yon rannman dividann k ap monte ka montre danje olye opòtinite.
+- Esplike diferans ant rannman dividann ak rannman total.
+- Idantifye siy ki montre yon peman dividann ka pa dirab.
+
+## Kontni prensipal
+Rannman dividann egal dividann chak ane pa aksyon divize pa pri aksyon. FÈ VERIFYE: rannman dividann monte nan de fason trè diferan — swa peman dividann lan ogmante, swa pri aksyon an bese — e de kòz sa yo vle di bagay trè diferan pou yon envestisè.
+
+Men "poukisa" rannman pou kont li twonpe w: yon pri aksyon k ap bese, souvan akoz fondamantal biznis k ap deteryore (tankou presyon kredi k ap sere nan senaryo pi wo a), pouse rannman dividann monte mekanikman menm pandan konpayi anba a ap vin pi fèb, se pa pi fò. Yon rannman ki wo anpil konpare ak pwòp istwa yon konpayi oswa konpare ak lòt konpayi nan endistri li souvan se yon siyal mache a ke envestisè yo atann yon koupe dividann, se pa yon opòtinite pou bloke yon revni ki twò gwo.
+
+Se poutèt sa rannman total — dividann plis pran valè oswa pèt valè nan pri — se mezi ki pi konplè a, sa ki raple diferans ant kach sou kach ak rannman total nan analiz imobilye. Yon konpayi ki gen yon rannman modès 2% men ak benefis ak pri aksyon k ap grandi regilyèman ka fasilman fè pi byen pase yon konpayi ki gen yon rannman 8% ki chita sou yon biznis k ap vin pi piti e ki anba tansyon finansye, sitou si yo koupe rannman 8% sa a e pri aksyon an bese plis toujou kòm rezilta.
+
+## Egzanp pratik
+EGZANP ILISTRATIF: Rannman dividann yon konpayi monte soti 3% rive 9% sou yon ane — se pa paske direksyon an te ogmante dividann lan, men paske pri aksyon an te bese de tyè nan mitan tansyon finansye. Yon envestisè ki atire sèlman pa rannman 9% ki frape je a, san l pa tcheke rapò peman an (dividann kòm yon pati nan benefis) oswa rezon pri a te bese a, achte jis anvan konpayi a anonse li dwe koupe dividann lan nèt pou prezève lajan kach, sa ki fè pri aksyon an, ak rannman total envestisè a, bese plis toujou.
+
+## Egzamen pratik
+**Q1. Kijan yo kalkile rannman dividann?**
+A) Dividann chak ane pa aksyon divize pa pri aksyon
+B) Total dividann yo peye divize pa kantite anplwaye
+C) Pri aksyon divize pa benefis pa aksyon
+D) Total revni divize pa kapitalizasyon sou mache
+
+**Q2. Poukisa yon rannman dividann k ap monte ka pafwa yon siy avètisman?**
+A) Rannman k ap monte toujou reflete yon konpayi k ap ogmante dividann li akoz bon pèfòmans
+B) Yon pri aksyon k ap bese, souvan akoz fondamantal k ap febli, ka pouse rannman monte mekanikman menm pandan konpayi a ap febli
+C) Rannman dividann pa ka janm monte pou okenn rezon
+D) Rannman k ap monte toujou vle di konpayi a pa gen dèt
+
+**Q3. Ki diferans kle ant rannman dividann ak rannman total?**
+A) Se mezi idantik ak non diferan
+B) Rannman total gen ladan ni dividann ni pran valè oswa pèt valè nan pri, alòske rannman an reflete sèlman pati revni an
+C) Rannman dividann toujou depase rannman total
+D) Rannman total aplike sèlman pou obligasyon, se pa aksyon
+
+**Q4. Kisa yon rannman dividann ki wo anpil konpare ak istwa yon konpayi ta ka montre?**
+A) Yon revni wo garanti k ap kontinye pou envestisè yo
+B) Mache a ka ap mete nan pri a yon koupe dividann yo atann
+C) Konpayi a elimine tout risk finansye
+D) Rannman dividann pa gen okenn rapò ak atant mache
+
+**Q5. Nan egzanp lan, poukisa konte sèlman sou rannman 9% la te twonpe envestisè a?**
+A) Rannman an te reflete kòrèkteman yon peman ki an sekirite e dirab
+B) Rannman ki te wo a te soti nan yon pri aksyon k ap bese akoz tansyon finansye, e yo te koupe peman an yon ti tan apre, sa ki te travay kont rannman total envestisè a
+C) Koupe dividann toujou ogmante rannman total yon envestisè
+D) Pri aksyon an te monte apre envestisè a te achte
+
+## Kle repons yo
+Q1: A
+Q2: B
+Q3: B
+Q4: B
+Q5: B
+
+## Repons ak eksplikasyon
+**Q1.** Rannman dividann reflete revni dividann chak ane konpare ak pri aksyon kounye a.
+
+**Q2.** Ogmantasyon rannman ki soti nan bès pri olye ogmantasyon dividann souvan montre pwoblèm nan biznis anba a, se pa opòtinite.
+
+**Q3.** Rannman total kaptire tout rezilta envestisman an, alòske rannman an kaptire sèlman pati revni an, sa ki ka twonpe w lè w gade l pou kont li.
+
+**Q4.** Yon rannman twò wo konpare ak nòm istorik souvan reflete dout mache a sou dirabilite dividann lan.
+
+**Q5.** Gwo rannman an se te yon sentòm detrès olye yon opòtinite, e koupe a ak bès pri ki te swiv la te fè mal a vrè rannman total envestisè a.
+
+## Pwen kle yo
+- Rannman dividann ka monte swa akoz yon dividann ki ogmante swa akoz yon pri aksyon k ap bese, e sa yo vle di bagay trè diferan.
+- Yon rannman ki wo anpil konpare ak istwa oswa ak lòt konpayi souvan montre mache a atann yon koupe dividann.
+- Rannman total, se pa rannman an pou kont li, kaptire tout foto vrè pèfòmans yon envestisman.
+- Tcheke dirabilite peman an (tankou rapò peman an) anvan w kouri dèyè rannman ede evite erè envestisman pou revni ki koute chè.
+
+===== WHITE-L4-003
+TITLE: Analiz dire obligasyon: poukisa risk to enterè pa egal nan tout obligasyon
+SUMMARY: Konprann poukisa dire yon obligasyon, se pa sèlman matirite li, detèmine jan pri yon obligasyon sansib a chanjman to enterè.
+KEYWORDS: dire obligasyon, risk to enterè, revni fiks, pri obligasyon
+# Analiz dire obligasyon: poukisa risk to enterè pa egal nan tout obligasyon
+
+## Senaryo pou louvri leson an
+SIPOZISYON/OPINYON (senaryo ipotetik pou objektif ansèyman sèlman): Imajine yon bank santral k ap monte to enterè referans li anpil e plizyè fwa sou yon ti peryòd kèk mwa pou goumen kont yon enflasyon k ap monte. Envestisè obligasyon nan tout mache a pa santi doulè a menm jan. Leson sa a esplike poukisa dire, se pa sèlman konbyen tan ki rete anvan yon obligasyon rive nan matirite, detèmine jan nenpòt obligasyon pral frape fò.
+
+## Objektif aprantisaj
+- Esplike kisa dire obligasyon mezire.
+- Esplike poukisa obligasyon ki gen yon dire ki pi long pi sansib a chanjman to enterè.
+- Fè diferans ant matirite ak dire.
+- Aplike panse dire pou konpare risk to enterè ant de obligasyon.
+
+## Kontni prensipal
+Dire yon obligasyon mezire sansiblite pri obligasyon an a chanjman nan to enterè, eksprime an ane, men se pa tou senpleman tan ki rete anvan obligasyon an rive nan matirite. FÈ VERIFYE: dire konte lè ak gwosè tout lajan kach yon obligasyon (peman koupon plis ranbousman prensipal la), se pa sèlman ki lè dènye peman an rive, se poutèt sa de obligasyon ki gen menm dat matirite ka gen dire diferan si to koupon yo diferan.
+
+Men "poukisa" sa enpòtan lè to yo monte anpil, tankou nan senaryo pi wo a: yon obligasyon ki gen yon dire ki pi wo ap wè pri li bese pi fò pou yon ogmantasyon to enterè done pase yon obligasyon ki gen yon dire ki pi ba, paske plis nan valè obligasyon sa a mare ak lajan kach ki rive pi lwen nan lavni, e lajan kach ki lwen sa yo pèdi relativman plis valè prezan lè to eskont lan (to enterè) monte. Sa se miwa revni fiks rapò ant to kapitalizasyon ak to enterè nou te kouvri nan imobilye: lè to yo monte, "pri" yon sous revni fiks nan lavni bese, e efè a pi gwo plis sous revni sa a lonje lwen.
+
+Se poutèt sa yon envestisè ki enkyete pou to k ap monte ta dwe fè atansyon ak dire espesifik yon fon obligasyon oswa yon obligasyon, se pa sèlman si yo make l "kout tèm" oswa "alontèm", e poukisa yon obligasyon zewo koupon (tout lajan kach resevwa nan matirite, pa gen koupon nan mitan) gen yon dire ki egal tout matirite li — dire maksimòm posib pou yon obligasyon ki gen matirite sa a — sa ki fè l sansib sitou a chanjman to.
+
+## Egzanp pratik
+EGZANP ILISTRATIF: Obligasyon A gen yon dire 3 ane; Obligasyon B gen yon dire 10 ane. Si to enterè monte 1 pwen pousantaj, pri Obligasyon A bese apeprè 3% alòske pri Obligasyon B bese apeprè 10% — yon apwoksimasyon, paske dire estime chanjman pri an pousantaj pou yon chanjman to done. Yon envestisè ki atann to yo kontinye monte, dapre sik ogmantasyon to senaryo a, ta an jeneral prefere kenbe dire ki pi kout Obligasyon A a pou limite bès pri yo, menm si tou de obligasyon yo ta ka gen yon kalite kredi ki sanble.
+
+## Egzamen pratik
+**Q1. Kisa dire obligasyon mezire?**
+A) Nòt kredi obligasyon an
+B) Sansiblite pri yon obligasyon a chanjman to enterè, ki konte lè ak gwosè tout lajan kach yo
+C) Kantite ane egzak ki rete anvan obligasyon an rive nan matirite
+D) Total dèt moun ki emèt obligasyon an genyen
+
+**Q2. Poukisa de obligasyon ki gen menm dat matirite ka gen dire diferan?**
+A) Matirite ak dire toujou idantik pou chak obligasyon
+B) To koupon ki diferan chanje lè ak pwa lajan kach yo, sa ki afekte dire menm ak menm matirite
+C) Dire aplike sèlman pou obligasyon gouvènman
+D) Obligasyon ki gen dire diferan pa ka gen menm dat matirite
+
+**Q3. Poukisa yon obligasyon ki gen yon dire ki pi wo konnen yon pi gwo bès pri lè to enterè monte?**
+A) Obligasyon ki gen dire ki pi wo pa afekte pa chanjman to enterè
+B) Plis nan valè obligasyon an mare ak lajan kach ki pi lwen nan lavni, ki pèdi plis valè prezan lè to eskont lan monte
+C) Obligasyon ki gen dire ki pi wo toujou gen yon kalite kredi ki pi ba
+D) Dire pa gen okenn rapò ak sansiblite pri
+
+**Q4. Si to enterè monte 1 pwen pousantaj, apeprè konbyen yo ta atann pri yon obligasyon ki gen yon dire 7 bese?**
+A) Apeprè 1%
+B) Apeprè 3%
+C) Apeprè 7%
+D) Apeprè 14%
+
+**Q5. Poukisa yon obligasyon zewo koupon gen dire maksimòm posib pou matirite li?**
+A) Obligasyon zewo koupon pa peye okenn lajan kach jiska matirite, sa ki vle di tout valè obligasyon an konsantre nan sèl peman ki lwen sa a, sa ki maksimize sansiblite a to
+B) Obligasyon zewo koupon egzante nèt de risk to enterè
+C) Obligasyon zewo koupon toujou rive nan matirite pi vit pase obligasyon ki peye koupon
+D) Dire pa aplike pou obligasyon zewo koupon
+
+## Kle repons yo
+Q1: B
+Q2: B
+Q3: B
+Q4: C
+Q5: A
+
+## Repons ak eksplikasyon
+**Q1.** Dire kaptire konbyen pri yon obligasyon pral chanje pou yon chanjman done nan to enterè, selon tout modèl lajan kach li.
+
+**Q2.** Gwosè koupon an deplase konbyen valè yo resevwa pi bonè konpare ak pita, sa ki chanje dire endepandan de dat matirite final la.
+
+**Q3.** Lajan kach ki lwen yo eskonte pi fò lè to yo monte, sa ki fè obligasyon ki gen dire ki pi long pi sansib a chanjman to.
+
+**Q4.** Dire estime chanjman pri an pousantaj pou yon chanjman to 1 pwen pousantaj, kidonk yon dire 7 sijere yon bès pri apeprè 7%.
+
+**Q5.** San okenn peman koupon nan mitan, tout valè a depann de sèl dènye peman an, sa ki fè obligasyon zewo koupon maksimòm sansib a chanjman to pou matirite yo.
+
+## Pwen kle yo
+- Dire obligasyon mezire sansiblite pri a chanjman to enterè, li konte lè ak gwosè tout lajan kach yo, se pa sèlman matirite.
+- Obligasyon ki gen dire ki pi wo konnen pi gwo varyasyon pri pou yon chanjman to enterè done pase obligasyon ki gen dire ki pi ba.
+- De obligasyon ki gen menm matirite ka gen dire diferan si estrikti koupon yo diferan.
+- Obligasyon zewo koupon gen dire maksimòm pou matirite yo, sa ki fè yo sansib sitou a chanjman to.
+
+===== WHITE-L4-004
+TITLE: Analiz koub rannman: poukisa envèsyon yo montre yon risk resesyon
+SUMMARY: Konprann kisa koub rannman an reprezante e poukisa yon koub rannman envèse te toujou swiv sere kòm yon siyal avètisman resesyon.
+KEYWORDS: koub rannman, envèsyon koub rannman, endikatè resesyon, analiz mache obligasyon
+# Analiz koub rannman: poukisa envèsyon yo montre yon risk resesyon
+
+## Senaryo pou louvri leson an
+SIPOZISYON/OPINYON (senaryo ipotetik pou objektif ansèyman sèlman): Imajine yon bank santral k ap monte to enterè referans li anpil e plizyè fwa sou yon ti peryòd kèk mwa pou goumen kont yon enflasyon k ap monte. Pandan to kout tèm yo ap monte vit alòske to alontèm yo rete dèyè, medya finansye yo kòmanse pale sou "koub rannman an k ap envèse". Leson sa a esplike kisa ekspresyon sa a vrèman vle di e poukisa analis yo pran l oserye.
+
+## Objektif aprantisaj
+- Esplike kisa koub rannman an reprezante.
+- Esplike kisa sa vle di pou yon koub rannman envèse.
+- Esplike poukisa yon koub rannman envèse te toujou vini anvan resesyon nan istwa.
+- Esplike limit pou itilize envèsyon koub rannman kòm yon zouti prediksyon.
+
+## Kontni prensipal
+Koub rannman an trase to enterè (rannman) obligasyon ki gen menm kalite kredi — pi souvan bon Trezò Etazini — nan diferan matirite, soti nan kout tèm (tankou 3 mwa) rive nan alontèm (tankou 10 ane oswa 30 ane). FÈ VERIFYE: nan kondisyon nòmal, koub rannman an monte, paske envestisè yo souvan mande yon rannman ki pi wo pou bloke lajan yo pi lontan, sa ki reflete plis ensètitid sou yon orizon tan ki pi long.
+
+Men "poukisa" yon koub rannman envèse — kote rannman kout tèm depase rannman alontèm — te toujou swiv kòm yon avètisman resesyon: yon envèsyon souvan reflete atant kolektif mache obligasyon an ke bank santral la pral bezwen bese to enterè nan lavni pou reyaji ak kondisyon ekonomik k ap febli, sa ki rale to yo atann nan lavni (e kidonk to alontèm kounye a) desann konpare ak to kout tèm kounye a, ki fikse pi pre pozisyon politik bank santral la ki pi sere kounye a (tankou nan sik ogmantasyon to senaryo a). An reyalite, bout alontèm koub la ap mete nan pri a yon ralantisman ekonomik nan lavni.
+
+RÈG ESPESIFIK POU REJYON AN ak yon limit enpòtan: menm si envèsyon koub rannman te vini anvan pifò resesyon resan Ozetazini ak yon istorik remakab, reta ant envèsyon an ak yon vrè resesyon te varye anpil (soti nan kèk mwa rive nan plis pase yon ane), e se pa chak peryòd kote koub la vin plat oswa envèse yon ti tan ki te swiv pa yon resesyon. Se poutèt sa ou ta dwe trete koub rannman an kòm yon siyal itil pami plizyè, e OPINYON: anpil analis konsidere l kòm yon avètisman pwobabilis, se pa yon zouti presi e fyab pou chwazi moman.
+
+## Egzanp pratik
+EGZANP ILISTRATIF: Rannman bon Trezò 3 mwa a monte rive 5.2% alòske rannman bon Trezò 10 ane a rete nan 4.3%, yon envèsyon apeprè 0.9 pwen pousantaj. Sa reflete atant mache obligasyon an ke to kout tèm bank santral la ki wo kounye a pral finalman bezwen bese pandan kwasans ekonomik ap ralanti, sa ki rale to mwayèn yo atann sou dis pwochen ane yo anba to kout tèm jodi a — siyati klasik analis yo montre lè y ap siyale yon risk resesyon ki pi wo.
+
+## Egzamen pratik
+**Q1. Kisa koub rannman an souvan trase?**
+A) Pri aksyon nan diferan sektè
+B) To enterè obligasyon ki gen menm kalite kredi nan diferan matirite
+C) Benefis konpayi avèk tan
+D) To chanj lajan ant peyi
+
+**Q2. Nan kondisyon nòmal, poukisa koub rannman an souvan monte?**
+A) Envestisè yo mande yon rannman ki pi wo pou bloke lajan pi lontan akoz plis ensètitid alontèm
+B) Obligasyon kout tèm toujou peye pi gwo rannman pase obligasyon alontèm pa defo
+C) Koub rannman toujou plat nan kondisyon nòmal
+D) Obligasyon alontèm pa gen okenn risk to enterè
+
+**Q3. Kisa sa vle di pou yon koub rannman envèse?**
+A) Rannman alontèm monte byen pi wo pase rannman kout tèm
+B) Rannman kout tèm depase rannman alontèm
+C) Tout rannman vin egzakteman egal nan chak matirite
+D) Koub rannman an disparèt nèt
+
+**Q4. Poukisa yo te toujou asosye yon koub rannman envèse ak yon risk resesyon k ap monte nan istwa?**
+A) Li reflete mache obligasyon an k ap mete nan pri a atant ke bank santral la pral bezwen bese to an repons ak feblès ekonomik nan lavni
+B) Envèsyon toujou garanti benefis imedya nan mache aksyon
+C) Koub envèse montre ekonomi a nan pwen ki pi fò li
+D) Fòm koub rannman an pa gen okenn rapò ak atant ekonomik
+
+**Q5. Ki yon limit enpòtan pou itilize envèsyon koub rannman kòm yon zouti prediksyon?**
+A) Li te prevwa chak resesyon ak yon presizyon egzak sou moman an
+B) Reta ant envèsyon an ak nenpòt vrè resesyon te varye anpil, e se pa chak envèsyon ki te swiv pa yon resesyon
+C) Envèsyon koub rannman pa janm asosye ak okenn rezilta ekonomik
+D) Li aplike sèlman pou obligasyon konpayi, janm obligasyon gouvènman
+
+## Kle repons yo
+Q1: B
+Q2: A
+Q3: B
+Q4: A
+Q5: B
+
+## Repons ak eksplikasyon
+**Q1.** Koub rannman an montre kijan rannman yo diferan nan yon seri matirite pou obligasyon ki gen yon kalite kredi konparab.
+
+**Q2.** Yon pant nòmal k ap monte reflete konpansasyon anplis envestisè yo souvan mande pou pwolonje orizon envestisman yo.
+
+**Q3.** Envèsyon dekri kondisyon ki pa nòmal kote matirite ki pi kout bay plis rannman pase matirite ki pi long.
+
+**Q4.** Yon envèsyon souvan montre atant mache a pou koupe to nan lavni akoz yon ralantisman ekonomik yo atann, sa ki te souvan vini anvan resesyon nan istwa.
+
+**Q5.** Reta ki pa konsistan ak istorik ki pa pafè vle di ou ta dwe trete envèsyon kòm yon siyal pwobabilis pami lòt, se pa yon zouti prevwa presi.
+
+## Pwen kle yo
+- Koub rannman an trase to enterè nan diferan matirite pou obligasyon ki gen yon kalite kredi ki sanble.
+- Yon koub rannman nòmal monte, sa ki reflete yon prim yo mande pou ensètitid alontèm.
+- Yon koub rannman envèse reflete atant mache a pou koupe to nan lavni ki mare ak yon feblès ekonomik yo atann.
+- Envèsyon koub rannman gen yon gwo asosyasyon istorik ak resesyon men se yon siyal pwobabilis ki pa pafè, se pa yon kontè presi.
+
+===== WHITE-L4-005
+TITLE: Analiz rapò depans: poukisa frè akimile kont ou
+SUMMARY: Konprann poukisa rapò depans fon ki sanble piti ka manje rannman envestisman alontèm yon fason enpòtan atravè fòs akimilasyon negatif.
+KEYWORDS: rapò depans, frè fon, akimilasyon, kou fon endèks, rannman alontèm
+# Analiz rapò depans: poukisa frè akimile kont ou
+
+## Senaryo pou louvri leson an
+SIPOZISYON/OPINYON (senaryo ipotetik pou objektif ansèyman sèlman): Imajine yon gwo pwoblèm sante piblik ki kanpe transpò maritim ak manifakti mondyal pou yon peryòd pwolonje, sa ki mele chèn apwovizyònman nan anpil endistri an menm tan. Pandan yon peryòd dezòd mache ki long, kèk envestisè vann nan panik fon ki jere aktivman ak gwo frè e yo deplase nan altènativ ki koute mwens, men pita yo mande tèt yo si diferans frè a te vrèman enpòtan konsa. Leson sa a fè kalkil yo.
+
+## Objektif aprantisaj
+- Esplike kisa yon rapò depans reprezante.
+- Esplike poukisa yon diferans frè an pousantaj ki sanble piti akimile pou vin yon gwo diferans an dola avèk tan.
+- Konpare efè kou alontèm diferan rapò depans sou menm envestisman an.
+- Esplike poukisa rapò depans ta dwe yon faktè santral nan chwazi yon fon.
+
+## Kontni prensipal
+Yon rapò depans (expense ratio) se frè chak ane yon fon fè peye, eksprime kòm yon pousantaj byen yo jere, ki kouvri kou jesyon ak operasyon fon an. FÈ VERIFYE: yo retire frè sa a nan byen fon an tout tan, sa ki vle di li diminye dirèkteman rannman yon envestisè vrèman resevwa, ane apre ane, kèlkeswa si envestisman anba fon an fè yon bon oswa yon move pèfòmans.
+
+Men "poukisa" yon diferans frè ki sanble piti enpòtan anpil: paske yo fè peye frè a chak ane sou tout balans byen an, e paske rannman akimile avèk tan, yon rapò depans ki pi wo pa koute yon envestisè sèlman yon ti kantite chak ane — li diminye tou montan baz ki disponib pou akimile nan chak ane apre. Yon fon ki fè peye 1% plis chak ane pa koute yon envestisè "1% total" sou yon deseni; li koute anpil plis pase sa, paske envestisè a pèdi pa sèlman 1% sa a chak ane men tou tout kwasans anplis lajan sa a ta pwodui si l te rete envesti e akimile.
+
+Se poutèt sa rapò depans se youn nan prediktè ki pi fyab pou pèfòmans nèt relatif yon fon alontèm, sa ki konekte dirèkteman ak analiz jesyon aktif kont pasif nou kouvri pita nan nivo sa a: fon ki koute mwens pa bezwen fè pi byen pase lòt fon ki koute plis sou yon baz brit pou bay envestisè a yon pi bon rezilta — yo jis bezwen pa fè pi mal pa plis pase diferans frè a, sa ki se yon ba ki pi fasil pou travèse.
+
+## Egzanp pratik
+EGZANP ILISTRATIF: $100,000 envesti pou 30 ane nan yon rannman brit chak ane 7% grandi rive apeprè $761,000 nan yon fon ki fè peye yon rapò depans 0.05%, men sèlman apeprè $566,000 nan yon fon ki fè peye yon rapò depans 1.05% sou menm rannman brit la — yon diferans prèske $195,000, menm si diferans frè chak ane a sanble piti, sèlman yon pwen pousantaj. Diferans lan soti nèt nan akimilasyon ki pèdi sou frè yo peye chak ane, se pa nan okenn diferans nan vrè pèfòmans envestisman anba yo.
+
+## Egzamen pratik
+**Q1. Kisa yon rapò depans reprezante?**
+A) Yon frè yon sèl fwa yo peye sèlman nan moman acha a
+B) Frè chak ane yon fon fè peye, kòm yon pousantaj byen yo jere, pou jesyon ak operasyon li
+C) Rannman istorik total fon an
+D) Yon taks yo peye sèlman lè yo vann aksyon
+
+**Q2. Poukisa yon diferans 1 pwen pousantaj nan rapò depans koute plis pase 1% nan envestisman total la sou anpil ane?**
+A) Li pa fè sa; kou total la toujou egzakteman pwopòsyonèl ak pousantaj frè a kèlkeswa tan an
+B) Frè ki pi wo a diminye montan baz ki disponib pou akimile chak ane, kidonk envestisè a pèdi frè a plis kwasans lajan sa a ta pwodui
+C) Yo fè peye rapò depans yon sèl fwa sèlman, se pa chak ane
+D) Frè pa gen okenn efè sou akimilasyon
+
+**Q3. Nan egzanp lan, ki prensipal rezon pou diferans apeprè $195,000 nan valè final la?**
+A) Envestisman anba yo te fè pèfòmans diferan nan chak fon
+B) Diferans frè a te diminye montan k ap akimile chak ane, sa ki diminye kwasans fon ki gen plis frè a an total konpare ak fon ki gen mwens frè a
+C) Fon ki gen plis frè a pa t peye okenn dividann
+D) Fon ki gen mwens frè a te dire sèlman 15 ane olye 30
+
+**Q4. Poukisa yo konsidere rapò depans kòm yon prediktè fyab pou pèfòmans nèt relatif yon fon alontèm?**
+A) Li pa yon prediktè fyab pou anyen
+B) Paske frè se yon kou sèten e kontinyèl, yon fon ki koute mwens bezwen sèlman evite fè pi mal pa plis pase diferans frè a pou bay yon pi bon rezilta nèt
+C) Rapò depans garanti yon fon ap fè pi byen pase tout altènativ ki koute plis kèlkeswa estrateji
+D) Rapò depans ki pi wo toujou bay pi gwo rannman
+
+**Q5. Poukisa lefèt ke yo retire rapò depans lan "tout tan" enpòtan pou konprann efè li?**
+A) Sa vle di yo fè peye frè a sèlman nan ane fon an pèdi lajan
+B) Sa vle di frè a diminye baz byen fon an kèlkeswa pèfòmans mache, sa ki fè efè kou li akimile chak ane
+C) Retrè tout tan pa gen okenn efè enpòtan sou rezilta alontèm
+D) Sa vle di yo ranbouse frè a bay envestisè yo chak ane
+
+## Kle repons yo
+Q1: B
+Q2: B
+Q3: B
+Q4: B
+Q5: B
+
+## Repons ak eksplikasyon
+**Q1.** Yo fè peye rapò depans lan tout tan chak ane selon byen yo jere, kèlkeswa pèfòmans fon an.
+
+**Q2.** Paske yo retire frè chak ane nan yon balans k ap akimile, kou total la grandi byen pi lwen pase yon senp miltiplikasyon frè a pa kantite ane yo.
+
+**Q3.** Yo te sipoze tou de fon yo te gen menm rannman brit; tout diferans nan rezilta a te soti nan efè akimilasyon diferans frè a.
+
+**Q4.** Ba ki pi ba pou tou senpleman pa fè pi mal pa plis pase diferans frè a fè kou a yon prediktè fò e konsistan pou rezilta nèt relatif avèk tan.
+
+**Q5.** Paske retrè a fèt chak ane sou baz byen kounye a, kou li akimile ansanm ak (e kont) pwòp kwasans envestisman an.
+
+## Pwen kle yo
+- Yon rapò depans se yon frè chak ane kontinyèl ki diminye rannman envestisè dirèkteman kèlkeswa pèfòmans fon an.
+- Paske frè akimile kont envestisè a avèk tan, ti diferans an pousantaj bay gwo diferans an dola sou orizon long.
+- Yon fon ki koute mwens pa bezwen fè pi byen sou yon baz brit — li jis bezwen pa fè pi mal pa plis pase diferans frè a.
+- Rapò depans se youn nan faktè ki pi fyab e ou ka kontwole nan chwazi yon fon alontèm.
