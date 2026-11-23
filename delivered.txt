@@ -132,3 +132,4 @@ out/PURPLE-L5-001-050-pt-PT.zip 2026-11-22 PURPLE L5 pt-PT complete (50 lessons,
 out/PURPLE-L5-001-050-it.zip 2026-11-22 PURPLE L5 it complete (50 lessons, Italy local notes)
 out/PURPLE-L5-001-050-nl.zip 2026-11-22 PURPLE L5 nl complete (50 lessons, Netherlands local notes)
 out/PURPLE-L5-001-050-de.zip 2026-11-22 PURPLE L5 German complete
+out/PURPLE-L5-001-050-ht.zip 2026-11-22 PURPLE L5 Haitian complete
