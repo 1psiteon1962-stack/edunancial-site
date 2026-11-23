@@ -9,6 +9,8 @@ NOTES=[
 ('esto describe la práctica común en EE. UU., que incluye a Puerto Rico; en otros países, como la República Dominicana, las reglas son distintas.','esto describe la práctica común en EE. UU.; en otros países las reglas son distintas. En España, por ejemplo, los daños por inundación suelen cubrirse como riesgo extraordinario a través del Consorcio de Compensación de Seguros.'),
 ]
 R=[
+# keep Spain title pinned by site safety-net smoke test
+('¿Qué son realmente los bienes raíces? (Terreno, estructuras y lo que realmente compras)','¿Qué es realmente un inmueble? (Terreno, estructuras y lo que realmente compras)'),
 # mortgage rate vocabulary
 ('Hipotecas de tasa fija frente a hipotecas de tasa ajustable','Hipotecas a tipo fijo frente a hipotecas a tipo variable'),
 ('### Hipotecas de tasa ajustable (ARM)','### Hipotecas a tipo variable (ARM)'),('hipotecas de tasa fija','hipotecas a tipo fijo'),('hipoteca de tasa fija','hipoteca a tipo fijo'),('Hipotecas de tasa fija','Hipotecas a tipo fijo'),
