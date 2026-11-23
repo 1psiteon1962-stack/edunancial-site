@@ -1,0 +1,429 @@
+===== PURPLE-L5-006
+TITLE: Proprietà economica e controllo dell'impresa
+SUMMARY: La proprietà economica e il controllo dell'impresa sono pacchetti di diritti separati; categorie di azioni, voti per azione e preferenze di liquidazione li dividono, e statuti e patti tra soci stabiliscono chi decide davvero, quindi bisogna capire che cosa si cede o si ottiene prima di firmare.
+KEYWORDS: diritti di voto e diritti economici, categorie di azioni, controllo del fondatore, azioni a voto plurimo, preferenza di liquidazione
+# Proprietà economica e controllo dell'impresa
+
+## Scenario iniziale
+IPOTESI/OPINIONE (scenario ipotetico solo a scopo didattico): Immagina due grandi potenze economiche che inaspriscono i controlli sulle esportazioni l'una contro l'altra su una categoria di componenti tecnologici avanzati usati in molti settori.
+Applicalo qui: I controlli sulle esportazioni tagliano all'improvviso a un'azienda tecnologica l'accesso a un fornitore chiave. Il consiglio deve decidere in fretta se riprogettare il prodotto o vendere l'azienda. Chiediti attraverso i colori: chi può davvero prendere quella decisione (PURPLE/BLACK)? Chi ha investito più denaro (WHITE/BLUE), o chi ha più voti? Non sono sempre le stesse persone.
+
+## Obiettivi di apprendimento
+- Distinguere i diritti economici dai diritti di voto e di controllo
+- Spiegare come categorie di azioni e preferenze di liquidazione li separano
+- Valutare vantaggi e svantaggi delle strutture di controllo del fondatore per fondatori e investitori
+
+## Contenuto principale
+Il Quadro Filosofico per i corsi avanzati sottolinea un punto che sorprende molti studenti: possedere una parte del valore economico di un'azienda non è la stessa cosa che controllare ciò che l'azienda fa.
+I diritti di proprietà si possono dividere in pacchetti separati:
+- Diritti economici: il diritto di partecipare agli utili, ai dividendi e al ricavato della vendita.
+- Diritti di voto: il diritto di eleggere amministratori o dirigenti e di approvare le decisioni importanti.
+- Diritti di liquidazione: l'ordine in cui vengono pagati i proprietari se l'azienda viene venduta o liquidata.
+- Diritti di informazione: il diritto di vedere bilanci e documenti.
+FATTO VERIFICATO: Molti ordinamenti permettono alle società di emettere diverse categorie di azioni con diverse combinazioni di questi diritti. Per esempio, una categoria può avere più voti per azione, mentre un'altra ha la preferenza di essere pagata per prima in caso di vendita.
+Come questo coordina i colori:
+- WHITE: Un investitore in una società quotata con più categorie di azioni può possedere valore economico ma avere poco potere di voto. Questo incide su quanto l'investitore può influenzare la direzione.
+- BLUE: I fondatori che raccolgono denaro possono vendere valore economico mantenendo il controllo con azioni a voto plurimo o seggi in consiglio. Ma gli investitori chiedono spesso clausole di tutela, come un veto sulla vendita dell'azienda.
+- PURPLE: Lo statuto della società e i patti tra soci sono il luogo in cui tutto questo viene messo per iscritto.
+- BLACK: Il controllo stabilisce chi guida durante una crisi, come quella dello scenario.
+La preferenza di liquidazione merita un'attenzione particolare. ESEMPIO ILLUSTRATIVO: Se un investitore ha una preferenza 1x su 2 milioni di euro, riprende i suoi 2 milioni prima che gli azionisti ordinari ricevano qualsiasi cosa in una vendita. Se l'azienda viene venduta per 3 milioni di euro, gli azionisti ordinari si dividono solo il milione restante, anche se "possiedono" la maggior parte delle azioni.
+IPOTESI/OPINIONE: Il controllo del fondatore può proteggere una visione di lungo periodo dalle pressioni di breve periodo. Può anche mettere al riparo una leadership debole dalle proprie responsabilità. Nessuna delle due parti ha automaticamente ragione. La cosa importante è capire che cosa si cede o si ottiene prima di firmare.
+
+## Esempio pratico
+ESEMPIO ILLUSTRATIVO: Ana fonda un'azienda e raccoglie denaro due volte. Dopo entrambi i round:
+- Ana possiede il 40% delle azioni, tutte di categoria B, con 10 voti per azione.
+- Gli investitori possiedono il 60% delle azioni, tutte privilegiate di categoria A, con 1 voto per azione e una preferenza di liquidazione 1x sui 5 milioni di euro investiti.
+Voti: Ana ha 40 x 10 = 400 unità di voto. Gli investitori hanno 60 x 1 = 60 unità di voto. Ana controlla circa l'87% dei voti pur possedendo solo il 40% del valore economico.
+Ora arriva lo scenario. Un acquirente offre 6 milioni di euro.
+- Gli investitori prendono per primi i loro 5 milioni di preferenza.
+- Il milione restante viene diviso secondo lo statuto. Se anche le azioni degli investitori partecipano al residuo (privilegiate partecipanti), la parte di Ana di quel residuo si riduce ancora di più.
+Ana ha i voti per respingere la vendita. Ma gli investitori potrebbero avere un veto di tutela su altre decisioni chiave. IPOTESI/OPINIONE: Il vero potere di Ana non è solo il numero dei suoi voti. È l'insieme delle clausole dello statuto, delle clausole di tutela e del suo rapporto con il consiglio.
+
+## Quiz di esercitazione
+**Q1. Qual è la differenza tra diritti economici e diritti di voto?**
+A) Non c'è differenza
+B) I diritti economici partecipano al denaro; i diritti di voto stabiliscono chi controlla le decisioni
+C) I diritti di voto pagano dividendi
+D) I diritti economici eleggono il consiglio
+**Q2. Che cosa significa una preferenza di liquidazione 1x?**
+A) L'investitore viene pagato per ultimo
+B) L'investitore recupera il suo investimento prima che gli azionisti ordinari ricevano qualsiasi cosa in una vendita
+C) L'investitore ha 1 voto
+D) L'investitore non può mai vendere
+**Q3. Nell'esempio pratico, perché Ana controlla la maggior parte dei voti possedendo il 40% delle azioni?**
+A) Ha investito più denaro
+B) Gli investitori le hanno ceduto i loro voti
+C) La legge dà il controllo ai fondatori
+D) Le sue azioni di categoria B hanno 10 voti ciascuna
+**Q4. Dove vengono di solito messi per iscritto questi diritti?**
+A) In un piano di marketing
+B) Solo nelle dichiarazioni dei redditi
+C) Nello statuto della società e nei patti tra soci
+D) Negli estratti conto bancari
+**Q5. Qual è una visione equilibrata del controllo del fondatore?**
+A) È sempre positivo
+B) È illegale
+C) È sempre negativo
+D) Può proteggere una visione di lungo periodo ma anche mettere al riparo una leadership debole dalle proprie responsabilità
+
+## Chiave delle risposte
+Q1: B
+Q2: B
+Q3: D
+Q4: C
+Q5: D
+
+## Risposte e spiegazioni
+**Q1.** Sono pacchetti separati che possono appartenere a persone diverse.
+**Q2.** Una preferenza 1x restituisce per primo il denaro dell'investitore.
+**Q3.** Le azioni a voto plurimo separano il controllo dalla proprietà economica.
+**Q4.** Statuto e patti tra soci definiscono le categorie di azioni e i loro diritti.
+**Q5.** È indicata come IPOTESI/OPINIONE perché persone ragionevoli non sono d'accordo.
+
+## Punti chiave
+- Proprietà economica e controllo dell'impresa sono pacchetti di diritti separati
+- Categorie di azioni, voti per azione e preferenze di liquidazione li dividono
+- Statuti e patti tra soci stabiliscono chi decide davvero
+- Capisci che cosa cedi o ottieni prima di firmare
+
+===== PURPLE-L5-007
+TITLE: Diluizione, antidiluizione e tutela della posizione del fondatore
+SUMMARY: La diluizione riduce la percentuale, non il numero di azioni; le clausole antidiluizione spostano il rischio di un round al ribasso dagli investitori ai fondatori e ai dipendenti, il full ratchet è più duro della media ponderata, e la formula va negoziata con la stessa cura della valutazione.
+KEYWORDS: diluizione, clausole antidiluizione, round al ribasso, full ratchet, media ponderata, quote del fondatore
+# Diluizione, antidiluizione e tutela della posizione del fondatore
+
+## Scenario iniziale
+IPOTESI/OPINIONE (scenario ipotetico solo a scopo didattico): Immagina un'istituzione finanziaria di importanza sistemica che rivela all'improvviso una grossa perdita prima nascosta, alimentando il timore che il rischio di controparte si propaghi a tutto il sistema bancario.
+Applicalo qui: La perdita nascosta di una grande banca scuote la fiducia degli investitori e i finanziamenti alle startup si prosciugano. Un'azienda che l'anno scorso ha raccolto denaro a una valutazione alta ora deve raccoglierne ancora a una valutazione più bassa. Chiediti attraverso i colori: di chi si riduce di più la quota (BLUE)? Che cosa dicono le clausole contrattuali (PURPLE)? Come dovrebbe negoziare il fondatore (ORANGE)?
+
+## Obiettivi di apprendimento
+- Calcolare come un nuovo investimento diluisce i proprietari esistenti
+- Spiegare come funzionano le clausole antidiluizione in un round al ribasso
+- Negoziare le condizioni di finanziamento tenendo conto del quadro completo di diluizione e controllo
+
+## Contenuto principale
+FATTO VERIFICATO: Quando una società emette nuove azioni, la percentuale di ogni proprietario esistente diminuisce, anche se il numero di azioni che possiede resta lo stesso. Questo si chiama diluizione.
+La diluizione non è automaticamente negativa. Se il nuovo denaro aiuta l'azienda a crescere, una percentuale più piccola di un'azienda più grande può valere di più. La domanda del Livello 5 è se le condizioni che accompagnano il denaro spostino su di te più rischio di quanto immagini.
+Le clausole antidiluizione proteggono gli investitori se la società in seguito vende azioni a un prezzo più basso (un "round al ribasso"). Due forme comuni:
+- Full ratchet: Il prezzo dell'investitore precedente viene riportato del tutto al nuovo prezzo più basso, come se avesse comprato a quel prezzo fin dall'inizio. Questo può spostare una grande parte della proprietà lontano dai fondatori e dai dipendenti.
+- Media ponderata: Il prezzo dell'investitore precedente viene abbassato solo in parte, in base a quanto nuovo denaro entra e a quale prezzo. Di solito è meno duro.
+Questo coordina più colori:
+- BLUE: Di quanto denaro c'è davvero bisogno, e potrebbe bastare una raccolta più piccola?
+- PURPLE: Quale formula antidiluizione c'è nei documenti, e ci sono esclusioni (per esempio, le azioni emesse ai dipendenti)?
+- ORANGE: Il potere negoziale. I fondatori che hanno alternative (una BATNA forte, da ORANGE-L4) ottengono condizioni migliori.
+- WHITE: La logica della valutazione. Una valutazione precedente molto alta può preparare più avanti un doloroso round al ribasso.
+- BLACK: Il morale dei dipendenti. Se le opzioni dei dipendenti perdono valore, la loro permanenza può risentirne.
+IPOTESI/OPINIONE: Un fondatore che insegue la valutazione più alta possibile in un buon mercato può crearsi una trappola in un mercato cattivo. Una valutazione equa e difendibile, con condizioni pulite, spesso invecchia meglio.
+
+## Esempio pratico
+ESEMPIO ILLUSTRATIVO: Una società ha 1.000.000 di azioni. Il fondatore ne possiede 800.000 (80%). Un investitore ha comprato 200.000 azioni a 5 euro l'una (20%, 1.000.000 di euro).
+Un anno dopo arriva lo scenario. La società raccoglie 500.000 euro a 2,50 euro per azione, emettendo 200.000 nuove azioni.
+Senza antidiluizione: Azioni totali = 1.200.000. Fondatore = 800.000 / 1.200.000 = 66,7%. Primo investitore = 16,7%. Nuovo investitore = 16,7%.
+Con il full ratchet: Il prezzo del primo investitore viene riportato a 2,50 euro. Il suo 1.000.000 di euro ora si converte in 400.000 azioni invece di 200.000. Totale = 1.400.000. Fondatore = 800.000 / 1.400.000 = circa 57,1%. Primo investitore = circa 28,6%. Nuovo investitore = circa 14,3%.
+Con una clausola a media ponderata, l'aggiustamento del primo investitore cadrebbe da qualche parte tra questi due risultati.
+IPOTESI/OPINIONE: La differenza tra il 66,7% e il 57,1% è grande. Può persino cambiare chi controlla il consiglio. Per questo la formula antidiluizione merita nella negoziazione la stessa attenzione della valutazione.
+
+## Quiz di esercitazione
+**Q1. Che cos'è la diluizione?**
+A) La riduzione della percentuale di un proprietario quando vengono emesse nuove azioni
+B) La perdita di azioni per furto
+C) Una sanzione fiscale
+D) Un calo del fatturato
+**Q2. Che cos'è un round al ribasso?**
+A) Un giro di golf
+B) Un frazionamento azionario
+C) Il rimborso di un prestito
+D) Una raccolta di denaro a un prezzo per azione più basso di prima
+**Q3. Quale formula antidiluizione è di solito più dura per i fondatori?**
+A) La media ponderata
+B) Il full ratchet
+C) Nessuna antidiluizione
+D) Sono identiche
+**Q4. Nell'esempio, quale era la quota del fondatore dopo il round al ribasso con il full ratchet?**
+A) 80%
+B) Circa 66,7%
+C) Circa 57,1%
+D) Circa 28,6%
+**Q5. Perché inseguire la valutazione più alta può essere rischioso?**
+A) Le valutazioni alte sono illegali
+B) Gli investitori non le accettano mai
+C) Può preparare più avanti un doloroso round al ribasso se le condizioni peggiorano
+D) Fa aumentare le imposte
+
+## Chiave delle risposte
+Q1: A
+Q2: D
+Q3: B
+Q4: C
+Q5: C
+
+## Risposte e spiegazioni
+**Q1.** Il numero delle tue azioni resta lo stesso, ma la tua percentuale scende quando le azioni totali aumentano.
+**Q2.** I round al ribasso avvengono quando le valutazioni scendono, spesso in mercati dei finanziamenti difficili.
+**Q3.** Il full ratchet riporta del tutto in basso il prezzo dell'investitore precedente.
+**Q4.** 800.000 diviso 1.400.000 fa circa il 57,1%.
+**Q5.** Un prezzo precedente gonfiato rende più probabili i round al ribasso e gli aggiustamenti antidiluizione successivi.
+
+## Punti chiave
+- La diluizione riduce la percentuale, non il numero di azioni
+- Le clausole antidiluizione spostano il rischio di un round al ribasso dagli investitori ai fondatori e ai dipendenti
+- Il full ratchet è più duro della media ponderata
+- Negozia la formula con la stessa cura della valutazione
+
+===== PURPLE-L5-008
+TITLE: Gli accordi di acquisto e vendita tra soci finanziati con un'assicurazione
+SUMMARY: Un accordo di acquisto e vendita tra soci pianifica il passaggio della proprietà prima di una crisi; l'acquisto incrociato e il riscatto da parte della società hanno effetti giuridici e fiscali diversi, l'assicurazione trasforma la promessa in denaro, e le clausole di valutazione vanno tenute aggiornate.
+KEYWORDS: accordo di acquisto e vendita tra soci, acquisto incrociato, riscatto da parte della società, assicurazione sulla persona chiave, finanziamento della successione d'impresa
+# Gli accordi di acquisto e vendita tra soci finanziati con un'assicurazione
+
+## Scenario iniziale
+IPOTESI/OPINIONE (scenario ipotetico solo a scopo didattico): Immagina un'ampia crisi sanitaria che blocca per un lungo periodo il trasporto marittimo e la produzione industriale nel mondo, inceppando le catene di approvvigionamento di molti settori contemporaneamente.
+Applicalo qui: Durante un'ampia crisi sanitaria, gli imprenditori si rendono conto che la malattia o la morte improvvisa di un socio potrebbe gettare nel caos soci, famiglie e dipendenti. Chiediti attraverso i colori: un accordo scritto di acquisto e vendita (PURPLE) dice chi compra la quota? Da dove arriva il denaro (BLUE/WHITE)? Come viene tassato il pagamento (GREEN)?
+
+## Obiettivi di apprendimento
+- Spiegare lo scopo di un accordo di acquisto e vendita tra soci
+- Confrontare le strutture di acquisto incrociato e di riscatto da parte della società
+- Descrivere come un'assicurazione finanzia il riscatto e perché le clausole di valutazione contano
+
+## Contenuto principale
+Un accordo di acquisto e vendita tra soci risponde a una domanda dolorosa ma necessaria: se un socio muore, diventa invalido, va in pensione o se ne va, chi compra la sua quota, a quale prezzo e con quale denaro?
+Senza un accordo, la quota di un socio defunto può passare a un coniuge o a un figlio che non ha alcun interesse né competenza per gestire l'impresa. I soci rimasti possono ritrovarsi con un socio indesiderato. La famiglia può restare bloccata con una parte di un'azienda che non riesce a vendere. I dipendenti possono perdere il lavoro mentre tutti litigano.
+Strutture comuni:
+- Acquisto incrociato: I soci si impegnano a comprarsi a vicenda le quote. Spesso ogni socio ha un'assicurazione sulla vita degli altri.
+- Riscatto da parte della società: È la società stessa a riacquistare la quota del socio che esce. Spesso è la società a detenere l'assicurazione.
+- Ibrida: Una combinazione, a volte con la prima opzione alla società e la seconda ai soci.
+Questo coordina più colori:
+- PURPLE: L'accordo fissa gli eventi che lo fanno scattare (morte, invalidità, divorzio, pensionamento, inadempimento), il metodo di valutazione e le condizioni di pagamento.
+- BLUE/GOLD: Le assicurazioni sulla vita e contro l'invalidità forniscono liquidità nel momento in cui serve. Senza copertura, un accordo di acquisto e vendita è solo una promessa che nessuno può permettersi di mantenere.
+- GREEN: REGOLA SPECIFICA DELLA REGIONE: La struttura incide su come viene tassato il capitale assicurato, su quale sia il nuovo costo fiscale per gli acquirenti e su se il pagamento sia trattato come una vendita o come una distribuzione; in Italia, per esempio, secondo le informazioni disponibili, il capitale di un'assicurazione sulla vita pagato per morte a un beneficiario designato in genere non rientra nell'asse ereditario ed è esente dall'imposta di successione e dall'IRPEF, mentre il trattamento dei premi pagati dalla società dipende dalla struttura, quindi verificalo con un commercialista.
+- BLACK: L'accordo mantiene stabile la leadership e rassicura dipendenti, finanziatori e clienti.
+La valutazione è il punto in cui molti accordi falliscono. Un prezzo fisso scritto anni fa può essere lontanissimo dal valore di oggi. Opzioni migliori sono una formula legata agli utili, un valore concordato ogni anno che i soci aggiornano davvero, o una perizia indipendente al momento dell'evento.
+IPOTESI/OPINIONE: Una clausola di valutazione superata è una delle cause più comuni delle cause tra famiglia e soci nelle piccole imprese.
+
+## Esempio pratico
+ESEMPIO ILLUSTRATIVO: Luis e Mei possiedono ciascuno il 50% di un'officina meccanica che vale circa 1,2 milioni di euro. Firmano un accordo di acquisto e vendita con acquisto incrociato:
+- Evento: morte o invalidità di lunga durata.
+- Prezzo: perizia indipendente al momento dell'evento.
+- Copertura: ciascuno ha una polizza vita da 600.000 euro e una polizza per il riscatto in caso di invalidità sull'altro.
+Tre anni dopo, Mei muore all'improvviso. Luis riceve 600.000 euro dalla polizza e li usa per comprare le azioni di Mei dai suoi eredi. La famiglia di Mei riceve un valore equo in contanti. Luis ora possiede il 100% e mantiene aperta l'officina. I dipendenti conservano il lavoro.
+Una complicazione: la perizia arriva a 1,4 milioni di euro, quindi la quota di Mei vale 700.000 euro. L'accordo prevede che ogni importo oltre l'assicurazione venga pagato in cinque anni con una cambiale. IPOTESI/OPINIONE: Poiché avevano previsto per iscritto quella differenza, essa ha causato un aggiustamento, non una causa.
+
+## Quiz di esercitazione
+**Q1. A quale domanda risponde un accordo di acquisto e vendita tra soci?**
+A) Chi compra la quota di un socio che esce, a quale prezzo e con quale denaro
+B) Come promuovere l'impresa
+C) Come ridurre le imposte ogni anno
+D) Chi sono i clienti della società
+**Q2. In una struttura di acquisto incrociato, chi compra la quota del socio che esce?**
+A) I soci rimasti
+B) La società
+C) Lo Stato
+D) I dipendenti del socio che esce
+**Q3. Perché l'assicurazione è importante per un accordo di acquisto e vendita?**
+A) Aumenta il valore dell'impresa
+B) Sostituisce l'accordo
+C) Fornisce liquidità quando serve il riscatto
+D) È obbligatoria per legge ovunque
+**Q4. Qual è un punto debole comune degli accordi di acquisto e vendita?**
+A) Usare perizie indipendenti
+B) Avere un'assicurazione
+C) Includere l'invalidità tra gli eventi
+D) Una valutazione fissa superata
+**Q5. Come ha gestito l'accordo di Luis e Mei la differenza tra assicurazione e valore?**
+A) Con una cambiale pagata in cinque anni
+B) L'hanno ignorata
+C) L'hanno pagata i dipendenti
+D) L'ha decisa un tribunale
+
+## Chiave delle risposte
+Q1: A
+Q2: A
+Q3: C
+Q4: D
+Q5: A
+
+## Risposte e spiegazioni
+**Q1.** Pianifica il passaggio della proprietà prima che accada l'evento.
+**Q2.** Nell'acquisto incrociato, i soci si comprano direttamente le quote a vicenda.
+**Q3.** Senza copertura, i soci potrebbero non potersi permettere il riscatto.
+**Q4.** Un prezzo fissato anni fa può essere lontano dal valore attuale e far nascere controversie.
+**Q5.** Aver previsto per iscritto la differenza ha evitato una controversia.
+
+## Punti chiave
+- Un accordo di acquisto e vendita tra soci pianifica il passaggio della proprietà prima di una crisi
+- Acquisto incrociato e riscatto da parte della società hanno effetti giuridici e fiscali diversi
+- L'assicurazione trasforma la promessa in denaro quando serve
+- Tieni aggiornate le clausole di valutazione e prevedi come coprire le differenze
+
+===== PURPLE-L5-009
+TITLE: Le garanzie personali nei prestiti alle imprese
+SUMMARY: Una garanzia personale riapre l'esposizione personale per quel prestito specifico; le garanzie illimitate, limitate e a scadenza progressiva hanno rischi molto diversi, la responsabilità solidale può far pagare tutto a un solo socio, e le condizioni della garanzia sono spesso negoziabili.
+KEYWORDS: garanzia personale, fideiussione per un prestito all'impresa, garanzia limitata, clausola di estinzione progressiva, negoziazione con la banca
+# Le garanzie personali nei prestiti alle imprese
+
+## Scenario iniziale
+IPOTESI/OPINIONE (scenario ipotetico solo a scopo didattico): Immagina una banca centrale che alza il proprio tasso di riferimento in modo deciso e ripetuto, nel giro di pochi mesi, per contrastare un'inflazione in aumento.
+Applicalo qui: Una banca centrale alza bruscamente i tassi e la rata del prestito a tasso variabile di una piccola impresa sale di colpo. Chiediti attraverso i colori: se l'impresa non riesce a pagare, la banca può arrivare alla casa del titolare (RED) e ai suoi risparmi (WHITE), anche se il prestito è intestato alla società (BLUE)? La risposta dipende da ciò che il titolare ha firmato (PURPLE).
+
+## Obiettivi di apprendimento
+- Spiegare come una garanzia personale incide sulla protezione offerta dalla società
+- Confrontare garanzie illimitate, limitate e a estinzione progressiva
+- Negoziare le condizioni della garanzia come parte di una decisione di finanziamento completa
+
+## Contenuto principale
+Al Livello 2 hai imparato che una LLC o una corporation può separare i debiti dell'impresa dal patrimonio personale. Al Livello 5 impari il modo più comune in cui i titolari restituiscono quella protezione: la garanzia personale.
+FATTO VERIFICATO: Molti finanziatori, soprattutto per le imprese piccole e nuove, chiedono ai titolari di garantire personalmente il prestito. Se l'impresa non paga, il finanziatore può aggredire il patrimonio personale del garante, nei limiti della legge locale.
+Questo significa che la società ti protegge ancora da molti altri rischi, come alcune richieste dei clienti o alcune controversie con i fornitori. Ma per quel prestito specifico, il muro tra patrimonio dell'impresa e patrimonio personale ha una porta, e sei stato tu a dare la chiave al finanziatore.
+Tipi di garanzia:
+- Illimitata: Garantisci l'intero prestito più interessi e spese di recupero.
+- Limitata: Garantisci solo un importo o una percentuale stabiliti.
+- A estinzione progressiva: La garanzia si riduce o finisce quando l'impresa raggiunge certi obiettivi, come un numero di rate pagate puntualmente o un certo rapporto tra debito e reddito.
+- Parziaria o solidale: Con più soci, "solidale" di solito significa che il finanziatore può riscuotere l'intero importo da uno qualsiasi dei garanti. REGOLA SPECIFICA DELLA REGIONE; in Italia, per esempio, secondo le informazioni disponibili, il fideiussore risponde in genere in solido con il debitore principale salvo patto contrario, le banche chiedono spesso fideiussioni omnibus, e alcuni beni, come quelli conferiti in un fondo patrimoniale costituito prima del debito, possono avere una certa protezione, quindi verificalo con un avvocato.
+Questo coordina più colori:
+- BLUE: Importo, tasso e durata del prestito.
+- PURPLE: Le condizioni della garanzia, le regole sul consenso del coniuge e quali beni possono essere protetti dalle leggi locali sui beni impignorabili (REGOLA SPECIFICA DELLA REGIONE).
+- RED: Se il finanziatore vuole anche un'ipoteca sulla tua casa.
+- WHITE: Se i tuoi conti di risparmio o di investimento sono aggredibili.
+- BLACK: Quanto rischio personale sei disposto ad assumerti per questa impresa.
+IPOTESI/OPINIONE: Le garanzie sono spesso negoziabili, soprattutto per le imprese con una storia alle spalle. Una garanzia limitata o a estinzione progressiva può costare un tasso un po' più alto, e lo scambio può valerne ampiamente la pena.
+
+## Esempio pratico
+ESEMPIO ILLUSTRATIVO: La società di Sofia prende in prestito 300.000 euro per aprire una seconda sede. La prima bozza della banca chiede una garanzia personale illimitata a Sofia e al suo socio, in solido, più un'ipoteca sulla casa di Sofia.
+La controproposta di Sofia, preparata con il suo avvocato:
+- Garanzia limitata al 50% del debito residuo.
+- La garanzia si estingue dopo 36 rate pagate puntualmente se l'impresa mantiene un certo indice di copertura del debito.
+- Nessuna ipoteca sulla casa; la banca ottiene invece un pegno sulle attrezzature della nuova sede.
+- Ogni socio garantisce la propria parte (parziaria), non l'intero importo.
+La banca accetta il limite e l'estinzione progressiva ma insiste sulla responsabilità solidale. In cambio, aggiunge lo 0,25% al tasso.
+IPOTESI/OPINIONE: Sofia paga un po' più di interessi ma mette un tetto alla sua esposizione personale e tiene la casa fuori dall'operazione. Firma anche un accordo scritto con il socio in base al quale ciascuno rimborserà all'altro qualsiasi importo pagato oltre la propria parte.
+
+## Quiz di esercitazione
+**Q1. Che cosa fa una garanzia personale?**
+A) Permette al finanziatore di aggredire il patrimonio personale del titolare se l'impresa non paga
+B) Abbassa automaticamente il tasso di interesse
+C) Rende il prestito esente da imposte
+D) Pone fine all'esistenza della società
+**Q2. Che cos'è una garanzia a estinzione progressiva?**
+A) Una garanzia che raddoppia nel tempo
+B) Una garanzia sull'assicurazione contro gli incendi
+C) Una garanzia che si riduce o finisce quando l'impresa raggiunge obiettivi stabiliti
+D) Una garanzia senza limiti
+**Q3. Che cosa significa di solito "solidale" con più garanti?**
+A) Ciascuno paga solo la propria parte
+B) Nessuno deve pagare
+C) Il finanziatore può riscuotere l'intero importo da uno qualsiasi dei garanti
+D) Paga solo la società
+**Q4. Che cosa ha concesso Sofia in cambio di una garanzia limitata e a estinzione progressiva?**
+A) La sua casa
+B) La sua quota
+C) Un tasso di interesse un po' più alto
+D) Niente
+**Q5. Perché Sofia ha firmato un accordo separato con il suo socio?**
+A) Per evitare le imposte
+B) Perché ciascuno rimborsasse all'altro i pagamenti oltre la propria parte
+C) Per vendere l'impresa
+D) Perché lo richiedeva la banca
+
+## Chiave delle risposte
+Q1: A
+Q2: C
+Q3: C
+Q4: C
+Q5: B
+
+## Risposte e spiegazioni
+**Q1.** Una garanzia riapre l'esposizione personale per quel debito specifico.
+**Q2.** Le clausole di estinzione progressiva riducono l'esposizione personale man mano che l'impresa si dimostra solida.
+**Q3.** Ogni garante può rispondere dell'intero debito. REGOLA SPECIFICA DELLA REGIONE.
+**Q4.** Ha accettato lo 0,25% di interessi in più in cambio di un'esposizione limitata.
+**Q5.** Quell'accordo protegge ciascun socio se la banca riscuote da uno solo.
+
+## Punti chiave
+- Una garanzia personale riapre l'esposizione personale per quel prestito specifico
+- Le garanzie illimitate, limitate e a estinzione progressiva hanno rischi molto diversi
+- La responsabilità solidale può far pagare tutto a un solo socio
+- Le condizioni della garanzia sono spesso negoziabili; un piccolo aumento del tasso può valere un tetto
+
+===== PURPLE-L5-010
+TITLE: Tenere in piedi il muro: formalità societarie e superamento dello schermo societario
+SUMMARY: La protezione offerta dalla società dipende dal trattarla davvero come separata; confusione dei patrimoni, sottocapitalizzazione e formalità mancanti sono segnali d'allarme, e una contabilità pulita con conti separati protegge il muro giuridico, mentre una semplice routine mensile è un'assicurazione economica.
+KEYWORDS: superamento dello schermo societario, formalità societarie, confusione dei patrimoni, abuso della personalità giuridica, sottocapitalizzazione
+# Tenere in piedi il muro: formalità societarie e superamento dello schermo societario
+
+## Scenario iniziale
+IPOTESI/OPINIONE (scenario ipotetico solo a scopo didattico): Immagina il governo di un paese di medie dimensioni che segnala di non essere forse in grado di pagare una prossima scadenza dei suoi titoli, aumentando il rischio di insolvenza sul proprio debito.
+Applicalo qui: Mentre la crisi del debito di un governo si aggrava, finanziatori e fornitori diventano più aggressivi nel recuperare i crediti dalle imprese in difficoltà. Chiediti attraverso i colori: se un creditore fa causa, la società (PURPLE) reggerà? Oppure una contabilità disordinata (GREEN) e conti bancari mescolati (BLUE) permetteranno al creditore di arrivare al patrimonio personale del titolare (RED/WHITE)?
+
+## Obiettivi di apprendimento
+- Spiegare che cos'è il superamento dello schermo societario e perché i tribunali lo usano
+- Individuare i comportamenti comuni che indeboliscono la protezione della società
+- Costruire una semplice routine che mantenga forte la separazione della società
+
+## Contenuto principale
+Ogni struttura delle prime nove lezioni di questo livello dipende da una sola cosa: la società deve essere davvero trattata come separata dai suoi proprietari. Se non lo è, un tribunale può decidere che non merita nemmeno di essere trattata come separata.
+FATTO VERIFICATO: Molti ordinamenti permettono ai tribunali, in certe situazioni, di non tenere conto della società e di ritenere i soci personalmente responsabili. Si parla comunemente di "superamento dello schermo societario". Il criterio esatto è una REGOLA SPECIFICA DELLA REGIONE, ma i tribunali guardano spesso segnali d'allarme simili; in Italia, per esempio, secondo le informazioni disponibili, i soci di una Srl rispondono in genere solo nei limiti di quanto conferito, ma la giurisprudenza può estendere la responsabilità in caso di abuso, il socio unico risponde illimitatamente se non ha versato interamente i conferimenti o non ha rispettato gli obblighi di pubblicità, e gli amministratori possono rispondere verso i creditori sociali, quindi verificalo con un avvocato.
+Segnali d'allarme comuni:
+- Confusione dei patrimoni: Denaro personale e dell'impresa mescolato sullo stesso conto, o liquidità dell'impresa usata per spese personali senza documenti.
+- Sottocapitalizzazione: L'impresa è stata creata con troppo poco denaro o troppa poca assicurazione rispetto ai suoi obblighi prevedibili.
+- Formalità mancanti: Nessuna traccia delle decisioni importanti, nessun adempimento annuale, nessun contratto separato.
+- Alter ego: Il titolare tratta la società come un'estensione di se stesso, non come una persona giuridica separata.
+- Frode o ingiustizia: La società è stata usata per ingannare i creditori.
+Qui i colori lavorano insieme:
+- GREEN: Una contabilità pulita e una corretta documentazione dei prelievi, dei compensi e dei finanziamenti dei soci proteggono anche la separazione giuridica.
+- BLUE: Un conto bancario aziendale separato, una carta di credito aziendale e un capitale iniziale adeguato.
+- PURPLE: Firmare i contratti con il nome della società e la propria carica ("Jane Lee, amministratrice, Lee Services LLC"), tenere verbali o decisioni scritte per le scelte importanti e presentare gli adempimenti annuali.
+- RED: Se la società possiede immobili, canoni e spese passano dal conto della società.
+IPOTESI/OPINIONE: Il fallimento più comune non è la frode. È la normale sciatteria. I titolari pagano una spesa personale dal conto aziendale "solo per questa volta", finché diventa un'abitudine.
+
+## Esempio pratico
+ESEMPIO ILLUSTRATIVO: Due titolari, due risultati.
+La titolare A gestisce una LLC di lavori edili. Ha un conto aziendale separato, si paga con prelievi documentati, firma i contratti come "amministratrice", tiene una cartella di decisioni scritte per le scelte importanti e presenta in tempo gli adempimenti annuali. Ha un'assicurazione di responsabilità civile. Un cliente fa causa per più di quanto copre la polizza. Il tribunale tratta la LLC come separata. La richiesta resta limitata al patrimonio della società.
+Il titolare B gestisce una LLC simile. Paga il mutuo e il finanziamento dell'auto dal conto aziendale, versa alcuni assegni dei clienti sul suo conto personale, non presenta mai gli adempimenti annuali e ha avviato la società quasi senza capitale né assicurazione. Un cliente fa causa. L'avvocato del cliente mostra i conti mescolati e gli adempimenti mancanti. Il tribunale conclude che la LLC era il suo alter ego e permette alla richiesta di arrivare al suo patrimonio personale.
+IPOTESI/OPINIONE: Entrambi i titolari avevano lo stesso tipo di società. La differenza era il comportamento. Una semplice routine mensile (riconciliare i conti, registrare i prelievi, presentare ciò che scade) è un'assicurazione economica.
+
+## Quiz di esercitazione
+**Q1. Che cos'è il "superamento dello schermo societario"?**
+A) Aprire una nuova società
+B) Un tribunale che non tiene conto della società e ritiene i soci personalmente responsabili
+C) Presentare le imposte in anticipo
+D) Vendere azioni della società
+**Q2. Quale di questi è un segnale d'allarme comune per il superamento dello schermo societario?**
+A) Un conto bancario aziendale separato
+B) Mescolare il denaro personale con quello dell'impresa
+C) Presentare gli adempimenti annuali
+D) Avere un'assicurazione di responsabilità civile
+**Q3. Che cosa significa sottocapitalizzazione?**
+A) Creare un'impresa con troppo poco denaro o troppa poca assicurazione per i suoi obblighi prevedibili
+B) Avere troppo denaro
+C) Pagare troppe imposte
+D) Avere troppi soci
+**Q4. Come dovrebbe firmare i contratti un titolare per sostenere la separazione?**
+A) Solo con il proprio nome personale
+B) Con il nome della società e la propria carica
+C) Senza nome
+D) Con un soprannome
+**Q5. Secondo la lezione, qual è la causa più comune dei problemi di superamento dello schermo societario?**
+A) La frode
+B) Le imposte alte
+C) Troppi avvocati
+D) La normale sciatteria che diventa un'abitudine
+
+## Chiave delle risposte
+Q1: B
+Q2: B
+Q3: A
+Q4: B
+Q5: D
+
+## Risposte e spiegazioni
+**Q1.** In certe situazioni i tribunali possono non tenere conto della società. Il criterio è specifico per regione.
+**Q2.** Mescolare i fondi fa pensare che la società non sia davvero separata.
+**Q3.** I tribunali possono vedere una società sottofinanziata come creata per evitare le responsabilità.
+**Q4.** Firmare come rappresentante della società mostra che la parte del contratto è la società, non la persona.
+**Q5.** Piccole scorciatoie, ripetute, indeboliscono la separazione nel tempo.
+
+## Punti chiave
+- La protezione della società dipende dal trattarla davvero come separata
+- Confusione dei patrimoni, sottocapitalizzazione e formalità mancanti sono segnali d'allarme
+- Una contabilità pulita (GREEN) e conti separati (BLUE) proteggono il muro giuridico (PURPLE)
+- Una semplice routine mensile è un'assicurazione economica
