@@ -1,0 +1,239 @@
+===== GREEN-L1-042
+TITLE: Les entités transparentes : SARL, S-corp et entreprises individuelles
+SUMMARY: Présente la notion générale d’imposition transparente comme solution de rechange au schéma de double imposition des sociétés ordinaires.
+# Les entités transparentes : SARL, S-corp et entreprises individuelles
+
+## Objectifs d’apprentissage
+
+- Définir une entité transparente (« pass-through ») en termes généraux.
+- Expliquer comment l’imposition transparente évite le schéma de double imposition.
+- Reconnaître des exemples courants de structures transparentes sans considérer leurs noms comme universels.
+
+## Contenu principal
+
+Une entité transparente est une structure d’entreprise dont le bénéfice n’est pas du tout imposé au niveau de l’entreprise — il « passe » plutôt directement aux propriétaires, qui le déclarent et paient l’impôt dans leur propre déclaration personnelle, généralement une seule fois. Cela évite directement le schéma de double imposition vu dans la leçon précédente, puisqu’il n’existe pas, au départ, de niveau distinct d’impôt des sociétés.
+
+Parmi les exemples courants de structures souvent organisées pour être imposées de façon transparente, on trouve l’entreprise individuelle (le cas le plus simple — aucun niveau d’impôt distinct pour l’entreprise) et, dans de nombreux systèmes, certaines sociétés à responsabilité limitée (les LLC américaines, parfois rapprochées des SARL) ou certaines structures de société ayant fait un choix particulier (souvent appelées « S-corps » dans le système américain, bien que des notions équivalentes existent ailleurs sous d’autres noms; au Canada, les sociétés de personnes jouent un rôle semblable). Les règles juridiques et fiscales précises pour être admissible comme entité transparente varient selon le pays et comportent de réels compromis au-delà du simple fait d’éviter la double imposition — c’est exactement pourquoi le choix de la structure d’entreprise, abordé ensuite, mérite une réflexion attentive plutôt qu’un choix par défaut.
+
+## Exemple pratique
+
+**Question :** Une propriétaire de petite entreprise veut éviter le schéma de double imposition qui s’applique aux sociétés ordinaires. Quelle catégorie générale de structure d’entreprise pourrait-elle examiner?
+
+**Étudiant :** D’après cette leçon, elle voudrait probablement examiner les structures transparentes, puisqu’elles évitent un niveau d’impôt distinct pour l’entreprise.
+
+**Guide :** Quel est le compromis — éviter la double imposition est-il toujours le seul facteur dans le choix d’une structure?
+
+**Étudiant :** Non — la leçon mentionne qu’il existe d’autres compromis réels au-delà du niveau d’impôt; il vaut donc la peine de regarder l’ensemble de la situation, et pas seulement cette question.
+
+**Guide :** Exactement — c’est pourquoi la prochaine leçon examine plus complètement le choix de la structure d’entreprise.
+
+## Quiz pratique
+
+**Question 1.** Une entité transparente est une entité dont le bénéfice est :
+
+A) Imposé deux fois, au niveau de l’entreprise et à celui du propriétaire
+B) Non imposé au niveau de l’entreprise, et transmis directement aux déclarations personnelles des propriétaires
+C) Jamais imposé
+D) Imposé seulement si l’entreprise fait faillite
+
+**Question 2.** L’imposition transparente répond directement à quelle notion vue plus tôt?
+
+A) La perception de la taxe de vente
+B) La double imposition
+C) Les droits de douane
+D) Les retenues sur la paie
+
+**Question 3.** Dans cette leçon, l’entreprise individuelle est décrite comme :
+
+A) Toujours doublement imposée
+B) Le cas transparent le plus simple, sans niveau d’impôt distinct pour l’entreprise
+C) Illégale dans la plupart des pays
+D) La même chose qu’une société
+
+**Question 4.** Éviter la double imposition est-il le seul facteur à considérer dans le choix d’une structure d’entreprise?
+
+A) Oui, le seul
+B) Non — il y a d’autres compromis réels à évaluer
+C) La structure d’entreprise n’a aucune importance
+D) Seul l’impôt compte, rien d’autre
+
+## Corrigé
+
+1. B, 2. B, 3. B, 4. B
+
+## Réponses et explications
+
+**1.** Les structures transparentes sautent complètement le niveau d’impôt distinct de l’entreprise et envoient le bénéfice directement dans la déclaration du propriétaire.
+
+**2.** Cette structure existe précisément comme solution de rechange à l’imposition à deux niveaux décrite dans la leçon précédente.
+
+**3.** L’entreprise individuelle est l’exemple le plus net, puisque l’entreprise et le propriétaire sont déjà traités comme un seul contribuable.
+
+**4.** Le choix d’une structure comporte plusieurs compromis — protection de la responsabilité, complexité, et plus encore — et pas seulement la question fiscale.
+
+## Points clés
+
+- Les entités transparentes évitent l’impôt au niveau de l’entreprise et envoient le bénéfice directement dans les déclarations personnelles des propriétaires.
+- C’est la solution de rechange directe au schéma de double imposition des sociétés ordinaires.
+- L’entreprise individuelle est l’exemple transparent le plus simple; certaines LLC et structures ayant fait un choix particulier peuvent aussi être admissibles.
+- Choisir une structure d’entreprise comporte des compromis qui vont au-delà de cette seule question fiscale.
+
+===== GREEN-L1-043
+TITLE: Choisir une structure d’entreprise : le point de vue fiscal
+SUMMARY: Réunit les notions d’impôt des sociétés, de double imposition et d’entité transparente dans un cadre de réflexion sur le choix de la structure d’entreprise, volontairement présenté de façon générale et accompagné d’une mise en garde sur la consultation d’un professionnel.
+# Choisir une structure d’entreprise : le point de vue fiscal
+
+## Objectifs d’apprentissage
+
+- Résumer les compromis fiscaux entre les structures de société et les structures transparentes.
+- Reconnaître que le choix de la structure ne se limite pas à l’impôt (responsabilité, complexité, financement).
+- Renforcer le principe de l’analogie du médecin pour une décision aussi importante.
+
+## Contenu principal
+
+En réunissant les trois dernières leçons : le choix de la structure d’entreprise a une réelle dimension fiscale. Les structures de société ordinaires comportent un risque de double imposition, mais peuvent offrir d’autres avantages, comme un accès plus facile à certains types d’investissement ou une séparation nette entre l’entreprise et le propriétaire. Les structures transparentes évitent le niveau de double imposition, mais comportent leurs propres compromis et règles d’admissibilité, qui varient selon le système.
+
+Mais le traitement fiscal n’est qu’un des éléments de cette décision — la protection de la responsabilité (à quel point les biens personnels d’un propriétaire sont exposés si l’entreprise est poursuivie ou s’endette), la complexité administrative et les projets de financement de l’entreprise comptent aussi, et orientent parfois vers une direction différente de ce que suggérerait une réponse uniquement fiscale. C’est précisément le genre de décision à laquelle l’analogie du médecin s’applique directement : le coût d’une consultation avec un professionnel qualifié, avant de s’engager dans une structure, est faible comparativement au coût d’une restructuration ultérieure ou de plusieurs années passées avec une structure qui ne correspond pas aux besoins réels de l’entreprise.
+
+## Exemple pratique
+
+**Question :** Une amie qui lance son entreprise dit : « Je vais simplement choisir la structure qui évite le plus d’impôt et je m’occuperai du reste plus tard. » Comment lui répondriez-vous, à partir de ce que vous avez appris?
+
+**Étudiant :** D’après ce volet, je lui ferais remarquer que l’impôt n’est qu’un facteur — la protection de la responsabilité et les projets de financement comptent aussi, et pourraient orienter vers une autre structure.
+
+**Guide :** Que lui recommanderiez-vous concrètement de faire avant de décider?
+
+**Étudiant :** Parler à un professionnel qualifié qui peut examiner l’ensemble de sa situation, et pas seulement l’aspect fiscal, avant qu’elle s’engage dans une structure.
+
+**Guide :** Exactement — c’est l’analogie du médecin en action, appliquée à une décision réelle et importante.
+
+## Quiz pratique
+
+**Question 1.** Le choix de la structure d’entreprise comporte des compromis fiscaux liés à :
+
+A) Rien de ce qui a été vu dans ce volet
+B) La double imposition par rapport au traitement transparent
+C) Seulement la taxe de vente
+D) Seulement les cotisations sur la paie
+
+**Question 2.** Au-delà de l’impôt, quels autres facteurs comptent dans le choix d’une structure d’entreprise?
+
+A) Rien d’autre ne compte
+B) La protection de la responsabilité, la complexité administrative et les projets de financement
+C) Seulement la couleur préférée du propriétaire
+D) Seulement l’emplacement physique de l’entreprise
+
+**Question 3.** Pourquoi une entreprise pourrait-elle choisir une structure qui n’est pas la plus efficace sur le plan fiscal?
+
+A) Jamais pour une bonne raison
+B) Parce que les besoins de responsabilité, de complexité ou de financement peuvent l’emporter sur l’avantage fiscal
+C) L’efficacité fiscale est toujours le seul facteur
+D) Cela n’arrive jamais en pratique
+
+**Question 4.** Quel principe vu plus tôt dans le cursus s’applique directement à cette décision?
+
+A) L’analogie du médecin — consulter un professionnel avant de s’engager
+B) La révélation des systèmes
+C) La relativité de la réussite
+D) Le paradoxe du choix
+
+## Corrigé
+
+1. B, 2. B, 3. B, 4. A
+
+## Réponses et explications
+
+**1.** Le choix entre double imposition et traitement transparent est le compromis fiscal central abordé dans les dernières leçons.
+
+**2.** L’exposition de la responsabilité, la complexité et la façon dont l’entreprise prévoit obtenir du financement déterminent toutes la structure qui convient le mieux.
+
+**3.** Une structure qui fait économiser de l’impôt mais expose inutilement les biens personnels, ou bloque une voie de financement nécessaire, n’est peut-être pas le bon choix dans l’ensemble.
+
+**4.** Vu les enjeux et la complexité, consulter un professionnel avant de choisir définitivement la structure reprend directement l’analogie du médecin vue plus tôt.
+
+## Points clés
+
+- Le choix de la structure comporte de réels compromis fiscaux entre le traitement des sociétés (double imposition possible) et le traitement transparent.
+- La protection de la responsabilité, la complexité et les besoins de financement comptent autant, sinon plus, que l’impôt seul.
+- La structure la plus efficace sur le plan fiscal n’est pas automatiquement le bon choix global.
+- Les enjeux de cette décision font de la consultation d’un professionnel, selon l’analogie du médecin, un investissement judicieux plutôt qu’un coût inutile.
+
+===== GREEN-L1-044
+TITLE: Les paradis fiscaux et pourquoi les pays se font concurrence pour attirer les entreprises
+SUMMARY: Présente la notion de paradis fiscal et de concurrence fiscale entre juridictions à un niveau de base, neutre et conceptuel.
+# Les paradis fiscaux et pourquoi les pays se font concurrence pour attirer les entreprises
+
+## Objectifs d’apprentissage
+
+- Définir un paradis fiscal en termes généraux.
+- Expliquer pourquoi les pays se font parfois concurrence sur le plan fiscal pour attirer des entreprises.
+- Reconnaître qu’il s’agit d’un domaine de débat public véritablement contesté.
+
+## Contenu principal
+
+Un paradis fiscal, au sens large, est une juridiction qui offre des impôts nettement bas, une réglementation minimale ou une forte confidentialité financière, précisément pour attirer des entreprises ou des particuliers qui y établissent des activités ou des actifs. Les pays se font concurrence pour ce type d’activité, car attirer des entreprises, des personnes fortunées ou des capitaux peut apporter des emplois, des investissements et une activité économique qui ne s’y installeraient pas autrement.
+
+Cela crée une réelle tension. D’un point de vue, la concurrence fiscale discipline les gouvernements — si les impôts deviennent trop élevés par rapport à la valeur offerte, les entreprises et les capitaux peuvent déménager, ce qui pousse les gouvernements à être efficaces. D’un autre point de vue, cette concurrence peut permettre à de grandes entités rentables d’éviter de contribuer des recettes fiscales proportionnelles à leur activité économique réelle, ce qui transfère le fardeau aux contribuables moins mobiles (habituellement les particuliers et les petites entreprises qui ne peuvent pas facilement déménager). Ces deux points de vue ont un véritable fondement, et cela demeure l’un des domaines les plus activement débattus de la politique fiscale internationale.
+
+## Exemple pratique
+
+**Question :** Une grande multinationale déménage son siège social dans un pays où les taux d’impôt des sociétés sont très bas. Est-ce clairement bon ou clairement mauvais?
+
+**Étudiant :** D’après cette leçon, la réponse n’est pas simple — il y a de vrais arguments des deux côtés.
+
+**Guide :** Quel est l’argument selon lequel c’est raisonnable, et quel est celui qui suscite des inquiétudes?
+
+**Étudiant :** On pourrait y voir une concurrence efficace qui met de la pression sur les gouvernements, mais cela pourrait aussi signifier que les contribuables moins mobiles finissent par porter une plus grande part du fardeau que l’entreprise aurait autrement assumé.
+
+**Guide :** Exactement — c’est une question véritablement contestée, sans réponse simple et nette.
+
+## Quiz pratique
+
+**Question 1.** Un paradis fiscal se définit généralement comme :
+
+A) Une juridiction aux impôts particulièrement bas ou à forte confidentialité financière, conçue pour attirer des activités de l’extérieur
+B) Tout pays qui a un impôt sur le revenu
+C) Un type de crédit d’impôt
+D) Un synonyme d’évasion fiscale
+
+**Question 2.** Les pays se font concurrence sur le plan fiscal en partie pour attirer :
+
+A) Rien
+B) Des emplois, des investissements et de l’activité économique
+C) Seulement des touristes
+D) Seulement de l’aide étrangère
+
+**Question 3.** Un point de vue sur la concurrence fiscale est qu’elle :
+
+A) N’a aucun effet sur les gouvernements
+B) Pousse les gouvernements à l’efficacité
+C) Est toujours illégale
+D) N’avantage que les petites entreprises
+
+**Question 4.** Une inquiétude soulevée à propos de la concurrence fiscale est qu’elle peut :
+
+A) Transférer une plus grande part du fardeau fiscal aux contribuables moins mobiles
+B) Éliminer toute imposition partout
+C) Toucher seulement les gouvernements, jamais les particuliers
+D) N’avoir aucune conséquence concrète
+
+## Corrigé
+
+1. A, 2. B, 3. B, 4. A
+
+## Réponses et explications
+
+**1.** L’idée centrale est celle d’une juridiction qui utilise délibérément un faible fardeau fiscal comme attrait concurrentiel pour des activités venues de l’extérieur.
+
+**2.** Attirer de l’activité économique est la motivation économique pratique derrière ce type de concurrence.
+
+**3.** La discipline par la concurrence est un véritable argument en faveur de l’existence de ce type de concurrence fiscale.
+
+**4.** Le transfert du fardeau vers les contribuables moins mobiles est la principale inquiétude soulevée par les critiques d’une concurrence fiscale sans limites.
+
+## Points clés
+
+- Un paradis fiscal offre des impôts bas ou une forte confidentialité pour attirer des entreprises ou des capitaux de l’extérieur.
+- Les pays se font concurrence sur le plan fiscal en partie pour attirer des emplois et des investissements.
+- Un point de vue : cela pousse les gouvernements à l’efficacité.
+- Un autre point de vue : cela peut transférer le fardeau fiscal aux contribuables moins mobiles — une tension véritablement débattue.
