@@ -82,7 +82,7 @@ Q5: C
 
 ===== BLACK-L5-002
 TITLE: O líder como jogador: como a trilha PRETO completa a analogia do xadrez
-SUMMARY: Saber cada conceito não é o mesmo que coordená-los em direção a um objetivo; o líder define o objetivo, ordena os movimentos e aceita as concessões, e o discernimento se aprende decidindo, registrando o raciocínio e revisando os resultados.
+SUMMARY: Aprenda como a analogia do xadrez usada em todo o currículo é completada pela liderança — por que conhecer cada peça não é o mesmo que jogar a partida — e como um líder desenvolve o discernimento para coordenar muitas partes em movimento em direção a um único objetivo.
 KEYWORDS: analogia do xadrez na liderança, discernimento executivo, liderança estratégica, coordenação de recursos, orquestração da liderança
 # O líder como jogador: como a trilha PRETO completa a analogia do xadrez
 
@@ -164,7 +164,7 @@ Q5: B
 
 ===== BLACK-L5-003
 TITLE: Estratégia, capital e pessoas: orquestrar uma oportunidade de crescimento que testa todas as trilhas
-SUMMARY: Uma oportunidade de crescimento testa estratégia, capital e pessoas ao mesmo tempo; o crescimento lucrativo ainda pode esgotar o caixa, o tempo da gestão e a cultura limitam a velocidade com que a organização absorve o crescimento, e a melhor resposta costuma ser um sim estruturado.
+SUMMARY: Aprenda como uma única oportunidade de crescimento pode testar ao mesmo tempo a estratégia, o financiamento, a equipe e a cultura de uma empresa, e como um líder avalia se a organização consegue realmente absorver o crescimento que deseja.
 KEYWORDS: estratégia de crescimento, capital e pessoas, capacidade organizacional, decisões de expansão, orquestração executiva
 # Estratégia, capital e pessoas: orquestrar uma oportunidade de crescimento que testa todas as trilhas
 
@@ -248,7 +248,7 @@ Q5: A
 
 ===== BLACK-L5-004
 TITLE: Alocação de capital no nível executivo: orquestrar investimento, dívida e capacidade da equipe
-SUMMARY: A alocação de capital molda o futuro da empresa e é uma responsabilidade central da liderança; compare reinvestimento, redução de dívida, reservas e distribuições por retorno, certeza, risco e capacidade de execução, e use regras definidas com antecedência para se proteger da pressão.
+SUMMARY: Entenda a alocação de capital como uma das responsabilidades mais importantes de um líder e aprenda a comparar usos concorrentes do dinheiro — reinvestimento, redução de dívida, reservas e distribuições — com a capacidade real de execução da organização.
 KEYWORDS: alocação de capital, finanças executivas, decisões de reinvestimento, redução de dívida, reservas de caixa, liderança
 # Alocação de capital no nível executivo: orquestrar investimento, dívida e capacidade da equipe
 
@@ -330,7 +330,7 @@ Q5: D
 
 ===== BLACK-L5-005
 TITLE: Comprar uma empresa: orquestrar a diligência em finanças, direito, impostos e cultura
-SUMMARY: A diligência precisa cobrir finanças, direito, impostos, imóveis e pessoas — e conectar as descobertas; qualidade dos lucros, passivos e tratamento fiscal podem mudar o custo real do negócio, a diligência cultural costuma ser decisiva, e a pressa para fechar é motivo para concluir a diligência, não para pulá-la.
+SUMMARY: Aprenda como um líder coordena a diligência financeira, jurídica, tributária, operacional e cultural ao comprar uma empresa, e por que os erros de aquisição mais caros costumam vir da área que recebeu menos atenção.
 KEYWORDS: aquisição de empresa, diligência, comprar uma empresa, risco de aquisição, diligência cultural, liderança
 # Comprar uma empresa: orquestrar a diligência em finanças, direito, impostos e cultura
 
