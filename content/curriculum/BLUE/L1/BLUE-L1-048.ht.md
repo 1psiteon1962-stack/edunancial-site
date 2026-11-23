@@ -1,0 +1,186 @@
+---
+id: BLUE-L1-048
+track: BLUE
+officialTrackName: Business
+level: 1
+lessonNumber: 48
+locale: ht
+title: "Kisa yon biznis sou kote ye, e kijan li diferan de yon pasyon, sou plan legal ak finansye?"
+summary: "Esplike sa ki vrèman fè diferans ant yon biznis sou kote ak yon pasyon (hobby)."
+version: "1.0"
+author: Waldemar M. Caban, JD MA
+date: 2026-08-08
+---
+
+# BLUE-L1-048: "Kisa yon biznis sou kote ye, e kijan li diferan de yon pasyon, sou plan legal ak finansye?"
+
+**Pakou:** BLUE (Biznis)
+**Nivo:** 1 — Konsyans ak alfabetizasyon
+**ID leson an:** BLUE-L1-048
+**Otè:** Waldemar M. Caban, JD MA
+**Tan estime:** 15–20 minit
+**Difikilte:** Debitan
+
+---
+
+## Rezime egzekitif
+`BLUE-L1-048-MAIN`
+"Se jis yon ti bagay sou kote" ka tou dousman vin yon vrè zafè legal ak finansye byen lontan anvan li sanble konsa. Leson sa a esplike sa ki vrèman fè diferans ant yon biznis sou kote ak yon pasyon.
+
+## Objektif aprantisaj
+- Bay definisyon yon biznis sou kote epi fè diferans ant li ak yon pasyon
+- Esplike faktè legal ak finansye ki enpòtan, pa sèlman entansyon oswa gwosè
+- Konekte diferans sa a ak konsèp nou te deja wè (lisans, EIN, kenbe liv)
+
+## Kondisyon preyalab
+BLUE-L1-020, BLUE-L1-023
+
+## Tan estime
+15–20 minit
+
+## Difikilte
+Debitan (Nivo 1)
+
+---
+
+## Kontni prensipal
+
+### Sijè 1: Sa ki vrèman fè diferans ant de a
+[RÈG ESPESIFIK POU PEYI A] Diferans ant yon pasyon ak yon biznis sou kote souvan defini pa faktè tankou entansyon pou fè pwofi, regilarite aktivite a, ak fason yo trete l pou zafè taks — pa sèlman pa ki jan aktivite a piti oswa kijan moun nan wè l pèsonèlman.
+
+### Sijè 2: Poukisa "se jis yon pasyon" ka yon sipozisyon ki riske
+[EGZANP ILISTRATIF] Yon moun ki vann atik li fè ak men l sou entènèt regilyèman, menm sou yon ti echèl, ka vrèman ap fè yon biznis nan je otorite taks yo oswa kondisyon lisans yo, kèlkeswa si li menm li panse se "jis yon pasyon".
+
+### Sijè 3: Poukisa sa konekte ak leson pi bonè yo
+Sonje BLUE-L1-020 (lisans biznis) ak BLUE-L1-023 (kenbe liv) — si yon aktivite vrèman konte kòm yon biznis sou kote, menm obligasyon debaz yo (kondisyon lisans posib, valè yon kenbe liv konsistan) ka aplike, menm sou yon trè ti echèl.
+
+### Sijè 4: Poukisa diferans sa a enpòtan nan pratik
+[OPINYON] Konprann ki kote yon pasyon fini ak ki kote yon biznis sou kote kòmanse ede yon moun fè chwa byen enfòme — sou kenbe dosye, lisans posib, ak tretman taks — anvan obligasyon sa yo akimile pou yo tounen kalite twou konfòmite k ap grandi nou te diskite nan BLUE-L1-020 a.
+
+---
+
+## Definisyon kle
+- **Pasyon (hobby):** Yon aktivite moun fè sitou pou pwòp plezi yo, san yon vrè entansyon pou fè pwofi ni yon fonksyonman regilye tankou yon biznis.
+- **Biznis sou kote:** Yon aktivite moun fè ansanm ak lòt travay oswa lòt aktivite, men ki fonksyone ak yon entansyon pou fè pwofi ak yon regilarite ki sanble ak yon biznis prensipal.
+
+## Egzanp pratik
+[EGZANP ILISTRATIF] Yon moun ki vann yon atik li fè ak men l bay yon zanmi detanzantan pou pri materyèl yo gen chans se yon pasyon l ap fè. Yon moun ki fè maketing, ki fikse pri pou fè pwofi, epi ki vann menm kalite atik la bay moun li pa konnen sou entènèt yon fason regilye gen chans li deja vin fonksyone kòm yon biznis sou kote, kèlkeswa non li menm li ba li.
+
+## Erè kouran
+- Kwè ti gwosè pou kont li vle di yon aktivite pa yon biznis sou plan legal oswa finansye
+- Inyore kenbe liv ak obligasyon lisans posib paske yon aktivite "poko sanble yon vrè biznis"
+- Kwè entansyon pèsonèl oswa non ou bay li ("se jis yon pasyon") pi fò pase fason aktivite a vrèman fonksyone
+
+## Kesyon moun poze souvan
+**K: Èske fè nenpòt ti kòb ditou ak yon pasyon otomatikman fè l vin yon biznis?**
+R: [RÈG ESPESIFIK POU PEYI A] Pa nesesèman — diferans lan anjeneral depann de plizyè faktè ansanm (entansyon pou fè pwofi, regilarite, ak fason yo trete l), pa sèlman lefèt gen kèk revni ditou.
+
+**K: Kisa yon moun ta dwe fè si l pa sèten nan ki kategori aktivite li ye?**
+R: [OPINYON] Akoz konsekans posib sou lisans ak taks, sa a se yon bon moman pou konsilte yon pwofesyonèl lokal ki kalifye, menm jan ak fason "vizit kay doktè a" nou te itilize pou desizyon sou estrikti biznis nan BLUE-L1-010.
+
+## Pwen kle yo
+- Diferans ant pasyon ak biznis sou kote depann de faktè tankou entansyon pou fè pwofi, regilarite, ak tretman taks
+- Ti gwosè pou kont li pa otomatikman vle di yon aktivite pa yon biznis nan fason li fonksyone
+- Menm konsiderasyon sou lisans ak kenbe liv nan leson pi bonè yo ka aplike yon fwa yon aktivite antre nan teritwa biznis sou kote
+- Non pèsonèl ou bay li ("se jis yon pasyon") pa pi fò pase fason aktivite a vrèman fonksyone
+
+## Egzèsis pratik
+Panse ak yon aktivite yon moun ou konnen fè pou fè yon ti kòb anplis sou kote. Avèk faktè leson sa a, èske w ta konsidere l plis kòm yon pasyon oswa kòm yon biznis sou kote? Esplike rezonman w.
+
+---
+
+## Gid ansèyman sokratik
+`BLUE-L1-048-SOCRATIC` (Nivo 1 — "Kisa")
+
+1. **Kesyon pou louvri:** Si yon moun vann yon bagay li fè detanzantan, èske se otomatikman "jis yon pasyon"?
+2. **Konsèp 1 — Faktè ki fè diferans:** Ki faktè ki vrèman fè diferans ant yon pasyon ak yon biznis sou kote?
+3. **Kesyon swivi:** Èske gwosè pou kont li se youn nan faktè sa yo?
+4. **Konsèp 2 — Sipozisyon ki riske a:** Poukisa "se jis yon pasyon" ta ka yon sipozisyon ki riske pou w konte sou li?
+5. **Kesyon swivi:** Kisa ki ta ka rive si sipozisyon sa a vin pa kòrèk sou plan legal?
+6. **Konsèp 3 — Lyen ak leson pi bonè yo:** Kijan sa konekte ak BLUE-L1-020 (lisans) ak BLUE-L1-023 (kenbe liv)?
+7. **Kesyon swivi:** Èske yon ti biznis sou kote ta ka fè fas ak menm twou konfòmite k ap grandi nou te diskite pi bonè a?
+8. **Konsèp 4 — Poukisa sa enpòtan:** Poukisa konprann diferans sa a enpòtan nan pratik, anvan obligasyon yo akimile?
+9. **Sentèz:** Nan de egzanp yo, kisa egzakteman ki fè diferans ant machann "pasyon" an ak machann "biznis sou kote" a?
+10. **Refleksyon:** Poukisa yon moun ta ka pa vle wè aktivite sou kote li kòm yon "vrè" biznis, menm yon fwa li vin fonksyone konsa?
+
+## Evalyasyon konpetans
+`BLUE-L1-048-ASSESSMENT`
+
+1. (Chwa miltip) Diferans ant pasyon ak biznis sou kote depann de: A) Sèlman non pèsonèl ou bay li B) Faktè tankou entansyon pou fè pwofi, regilarite, ak tretman taks C) Gwosè biznis la sèlman D) Kalite pwodui yo vann
+2. (Vrè/Fo) Ti gwosè pou kont li toujou vle di yon aktivite pa yon biznis sou plan legal oswa finansye.
+3. (Chwa miltip) Kisa ki konekte leson sa a ak BLUE-L1-020? A) Anyen B) Obligasyon lisans ka aplike yon fwa yon aktivite vin fonksyone kòm yon biznis sou kote C) Lisans pa janm aplike pou ti aktivite D) Se sijè ki pa gen rapò
+4. (Repons kout) Esplike poukisa "se jis yon pasyon" ka yon sipozisyon ki riske.
+5. (Senaryo) Yon moun fè maketing epi vann atik li fè ak men l pou fè pwofi bay moun li pa konnen sou entènèt yon fason regilye. Dapre leson sa a, èske sa gen plis chans se yon pasyon oswa yon biznis sou kote?
+6. (Chwa miltip) Kisa yon moun ta dwe fè si l pa sèten nan ki kategori aktivite li ye? A) Inyore kesyon an B) Konsilte yon pwofesyonèl lokal ki kalifye C) Kwè se toujou yon pasyon D) Kwè se toujou yon biznis
+7. (Vrè/Fo) Entansyon pèsonèl pou kont li ("mwen wè l kòm yon pasyon") pi fò pase fason yon aktivite vrèman fonksyone pou zafè legal.
+8. (Repons kout) Bay yon faktè, anplis gwosè, ki ede fè diferans ant yon pasyon ak yon biznis sou kote.
+9. (Chwa miltip) Ki risk lè w inyore kenbe liv pou yon "ti" aktivite sou kote kreye? A) Okenn B) Menm risk twou konfòmite k ap grandi nou te diskite nan BLUE-L1-020 ak 023 C) Echèk biznis garanti D) Egzanpsyon taks otomatik
+10. (Refleksyon) Poukisa konprann diferans sa a bonè ta ka ede yon moun evite pi gwo pwoblèm pita?
+
+## Kle repons yo
+`BLUE-L1-048-ANSWER-KEY`
+
+1. **Kòrèk:** B. **Eksplikasyon:** Sa di dirèkteman nan Sijè 1. **Konpetans yo teste:** Rapèl.
+2. **Kòrèk:** Fo. **Eksplikasyon:** Sijè 1 ak 2 di klèman gwosè pou kont li pa deside sa. **Konpetans yo teste:** Korije yon move konsepsyon.
+3. **Kòrèk:** B. **Eksplikasyon:** Sa di nan Sijè 3. **Konpetans yo teste:** Rapèl ant leson yo.
+4. **Kòrèk:** Paske aktivite a ka vrèman konte kòm yon biznis kèlkeswa non pèsonèl ou ba li, sa ki kreye obligasyon ou pa rekonèt. **Konpetans yo teste:** Sentèz.
+5. **Kòrèk:** Gen plis chans se yon biznis sou kote, akoz entansyon pou fè pwofi ak regilarite a, jan egzanp pratik la montre. **Konpetans yo teste:** Klasifikasyon aplike.
+6. **Kòrèk:** B. **Eksplikasyon:** Sa di nan kesyon moun poze souvan yo. **Konpetans yo teste:** Rapèl.
+7. **Kòrèk:** Fo. **Eksplikasyon:** Erè kouran yo di sa klèman. **Konpetans yo teste:** Korije yon move konsepsyon.
+8. **Kòrèk:** Nenpòt nan sa yo: entansyon pou fè pwofi, regilarite, fason yo trete l pou zafè taks. **Konpetans yo teste:** Rapèl.
+9. **Kòrèk:** B. **Eksplikasyon:** Sa di nan Sijè 3. **Konpetans yo teste:** Rapèl ant leson yo.
+10. **Kòrèk:** Repons yo ta dwe mansyone rekonèt chanjman an bonè pèmèt ou pran desizyon davans sou kenbe dosye ak lisans olye w kite yon twou konfòmite akimile. **Konpetans yo teste:** Sentèz pwofon.
+
+## Estanda konpetans
+`BLUE-L1-048-COMPETENCY`
+
+KONPETANS YO ANSEYE: Diferans ant pasyon ak biznis sou kote; risk lè w konte sou non pèsonèl ou bay li; lyen ak obligasyon lisans ak kenbe liv.
+KONPETANS YO MEZIRE: Rapèl definisyon; korije move konsepsyon; sentèz ant leson yo.
+NÒT MINIMÒM POU METRIZ: 80%
+TACH PRATIK OBLIGATWA: Fè egzèsis pratik la.
+SIJÈ RATRAPAJ: Revize BLUE-L1-020 ak BLUE-L1-023 ankò si w rate K3, K5 oswa K9.
+PWOCHEN LESON DEBLOKE: BLUE-L1-049
+PAKOU KI GEN RAPÒ: GREEN (Taks) — tretman taks revni pasyon kont revni biznis trete plis nan nivo ki pi wo nan pakou GREEN an.
+
+## Lekti anplis
+- BLUE-L1-020 — Kisa yon lisans biznis ye?
+- BLUE-L1-023 — Kisa kenbe liv ye?
+- BLUE-L1-049 — Kwasans kont echèl: poukisa se pa menm mo a
+
+## Chemen leson an
+`BLUE-L1-048-LOCALIZATION` (blòk chemen)
+LESON ANVAN AN: BLUE-L1-047
+PWOCHEN LESON: BLUE-L1-049
+KONDISYON PREYALAB OBLIGATWA: BLUE-L1-020, BLUE-L1-023
+LESON REVIZYON OPSYONÈL: BLUE-L1-020, BLUE-L1-023
+LESON RATRAPAJ: BLUE-L1-020, BLUE-L1-023
+LESON KI GEN RAPÒ NAN LÒT PAKOU: Poko gen okenn ki pibliye nan GREEN Nivo 1 (referans pou pita sèlman)
+KONDISYON POU FINI NIVO A: Fini tout leson BLUE-L1 yo (001–050) epi pase evalyasyon konpetans Nivo 1 an.
+
+## Blòk SEO
+`BLUE-L1-048-SEO`
+Tit SEO: Biznis sou kote kont pasyon: ki diferans legal la? | Edunancial
+Meta deskripsyon: Aprann sa ki vrèman fè diferans ant yon biznis sou kote ak yon pasyon — sou plan legal ak finansye — ak poukisa gwosè pou kont li pa deside sa.
+Slug URL sijere: /courses/business/level-1/side-business-vs-hobby
+Mo kle prensipal: biznis sou kote kont pasyon
+Mo kle segondè: ki lè yon pasyon vin yon biznis, taks sou revni pasyon
+Lyen entèn sijere: BLUE-L1-020, BLUE-L1-023, BLUE-L1-049
+Referans ekstèn sijere: Resous otorite taks lokal
+Rekòmandasyon schema: Schema Course + LearningResource
+Entansyon rechèch: Enfòmasyonèl, nivo debitan
+Opòtinite pou "featured snippet": "Ki lè yon pasyon vin yon biznis?"
+Kesyon pou FAQ Schema: "Èske fè nenpòt kòb fè l vin yon biznis?"; "Kisa m ta dwe fè si m pa sèten?"
+
+## Blòk sipò IA
+`BLUE-L1-048-AI`
+Rezime IA: Fè diferans ant pasyon ak biznis sou kote sou baz entansyon pou fè pwofi, regilarite ak tretman taks olye gwosè oswa non pèsonèl ou bay li, epi li konekte diferans lan ak obligasyon lisans (BLUE-L1-020) ak kenbe liv (BLUE-L1-023).
+Nòt ansèyman pou IA: Tès taks ak legal espesifik pou chak jiridiksyon aplike la a — make sa kòm RÈG ESPESIFIK POU PEYI A epi evite prezante limit espesifik kòm si yo inivèsèl.
+
+## Blòk lokalizasyon
+`BLUE-L1-048-LOCALIZATION`
+Estati tradiksyon: tradiksyon an kreyòl ayisyen fini apati sous angle a.
+Nòt lokalizasyon (ht): Diferans taks ant pasyon ak biznis varye anpil selon jiridiksyon an. Ann Ayiti, yon aktivite komèsyal regilye ka mande yon NIF ak yon patant nan DGI; tcheke règ ki an vigè yo ak yon pwofesyonèl lokal.
+
+## Blòk referans ak verifikasyon
+`BLUE-L1-048-REFERENCES`
+Nou pa itilize okenn estatistik ni okenn sitasyon ekstèn. Faktè ki fè diferans yo make kòm RÈG ESPESIFIK POU PEYI A tout kote.

@@ -1,0 +1,185 @@
+---
+id: BLUE-L1-047
+track: BLUE
+officialTrackName: Business
+level: 1
+lessonNumber: 47
+locale: ht
+title: "Kisa yon echèk biznis ye, toutbon? (Ak poukisa kite l ka bon desizyon an)"
+summary: "Bay yon lòt jan pou wè sa \"echèk biznis\" vrèman vle di, epi li montre poukisa kite yon biznis ka yon desizyon rasyonèl e byen enfòme."
+version: "1.0"
+author: Waldemar M. Caban, JD MA
+date: 2026-08-08
+---
+
+# BLUE-L1-047: "Kisa yon echèk biznis ye, toutbon? (Ak poukisa kite l ka bon desizyon an)"
+
+**Pakou:** BLUE (Biznis)
+**Nivo:** 1 — Konsyans ak alfabetizasyon
+**ID leson an:** BLUE-L1-047
+**Otè:** Waldemar M. Caban, JD MA
+**Tan estime:** 15–20 minit
+**Difikilte:** Debitan
+
+---
+
+## Rezime egzekitif
+`BLUE-L1-047-MAIN`
+Kite yon biznis pa otomatikman yon echèk karaktè oswa efò — pafwa se desizyon ki pi rasyonèl e ki pi byen enfòme ki disponib. Leson sa a bay yon lòt jan pou wè sa "echèk biznis" vrèman vle di.
+
+## Objektif aprantisaj
+- Bay definisyon echèk biznis an tèm fonksyonèl, san jije moun
+- Fè diferans ant yon move desizyon pèsonèl ak yon desizyon solid ki tou senpleman pa t mennen nan rezilta w te espere a
+- Konprann poukisa kite yon biznis ka yon chwa estratejik lejitim, pa yon feblès pèsonèl
+
+## Kondisyon preyalab
+BLUE-L1-028, BLUE-L1-045
+
+## Tan estime
+15–20 minit
+
+## Difikilte
+Debitan (Nivo 1)
+
+---
+
+## Kontni prensipal
+
+### Sijè 1: Kisa echèk biznis vrèman vle di
+Nan pratik, yon echèk biznis tou senpleman vle di biznis la sispann fonksyone, anjeneral paske li pa t ka kenbe tèt li sou plan finansye — se yon deskripsyon yon rezilta, pa nesesèman yon jijman sou moun ki te ladan l oswa sou desizyon yo te pran.
+
+### Sijè 2: Yon desizyon solid ka toujou mennen nan yon rezilta ki echwe
+[EGZANP ILISTRATIF] Sonje egzanp MOQ nan BLUE-L1-028 la — yon lide ki vrèman bon ka bloke pa yon mi kapital ki pa gen anyen pou wè ak kalite desizyon yo te pran. Yon biznis ki te byen etidye e ki te egzekite yon fason rezonab ka toujou echwe akoz faktè ki pi lwen pase kontwòl oswa pase sa nenpòt moun te ka prevwa rezonabman.
+
+### Sijè 3: Kite kòm yon chwa estratejik
+Sonje nan BLUE-L1-045 ke yon pivo redirije efò a pandan l ap kenbe valè. Pafwa, apre yon vrè efò ak adaptasyon rezonab, chwa ki pi rasyonèl la se ni fè pivo ni kontinye — se rekonèt ke kontinye ta sèlman fè pèt yo grandi, e kite l prezève resous ki rete yo pou yon pi bon opòtinite nan lavni.
+
+### Sijè 4: Separe desizyon an ak rezilta a
+[OPINYON] Anjeneral, ou ta dwe jije yon desizyon selon kalite rezonman ak enfòmasyon ki te disponib lè yo te pran l, pa sèlman selon si rezilta a te finalman mache — diferans sa a enpòtan pou w aprann onètman nan yon echèk biznis san w pa blame desizyon solid yo yon fason enjis pou faktè ki pi lwen pase kontwòl nenpòt moun.
+
+---
+
+## Definisyon kle
+- **Echèk biznis:** Rezilta fonksyonèl yon biznis ki sispann fonksyone, anjeneral paske li pa ka kenbe tèt li sou plan finansye — yon deskripsyon rezilta, pa yon jijman sou kalite desizyon yo nan nati li.
+- **Depans ki pèdi (sunk cost):** Resous ou deja depanse ou pa ka rekipere kèlkeswa desizyon w pran pita — sa enpòtan pou w rekonèt lè kontinye ta sèlman fè pèt yo grandi olye l rekipere envestisman ki pase yo.
+
+## Egzanp pratik
+[EGZANP ILISTRATIF] Yon antreprenè fè rechèch byen, li teste mache a yon fason rezonab (jan BLUE-L1-037 esplike), epi li egzekite ak konpetans, men yon chanjman nan mache a ke pèsonn pa t prevwa fè biznis la pa ka kenbe tèt li. Biznis la echwe — men pwosesis desizyon ki te mennen l kòmanse l la te solid, selon sa ki te rezonabman posib pou konnen lè sa a.
+
+## Erè kouran
+- Trete chak echèk biznis kòm prèv yon move jijman oswa yon mank kapasite pèsonèl
+- Kontinye vide resous nan yon biznis k ap echwe sèlman pou evite malèz "admèt echèk" (yon modèl depans ki pèdi)
+- Pa evalye onètman si yon desizyon te vrèman move, oswa si li tou senpleman pa t mache
+
+## Kesyon moun poze souvan
+**K: Èske kite yon biznis ki gen difikilte vle di abandone twò fasil?**
+R: [OPINYON] Pa nesesèman — jan nou te diskite nan Sijè 3, kite l ka chwa ki pi rasyonèl la yon fwa kontinye ta sèlman fè pèt yo grandi; objektif la se yon evalyasyon onèt, pa pèsevere toujou san reflechi ni evite toujou san reflechi.
+
+**K: Kijan sa diferan de konsèp pivo nan BLUE-L1-045 la?**
+R: Yon pivo redirije efò a nan yon nouvo direksyon pandan l ap kenbe valè; kite vle di konkli ke ni kontinye ni redirije efò aktyèl la pa gen sans, e li pi bon pou prezève resous yo pou yon opòtinite nan lavni pito.
+
+## Pwen kle yo
+- Echèk biznis dekri yon rezilta nan pratik, pa otomatikman yon jijman sou moun ki te ladan l
+- Yon desizyon solid e byen rezone ka toujou mennen nan yon rezilta ki echwe akoz faktè ki pi lwen pase kontwòl nenpòt moun
+- Kite ka yon chwa estratejik lejitim e rasyonèl, pa tou senpleman abandone
+- Anjeneral, ou ta dwe jije desizyon yo selon rezonman ki te disponib lè sa a, pa sèlman selon rezilta a
+
+## Egzèsis pratik
+Panse ak yon echèk biznis reyèl oswa ipotetik. Eseye separe kalite desizyon orijinal la ak rezilta final la — èske se te desizyon solid ki pa t mache, oswa desizyon ki te gen defo depi nan kòmansman?
+
+---
+
+## Gid ansèyman sokratik
+`BLUE-L1-047-SOCRATIC` (Nivo 1 — "Kisa")
+
+1. **Kesyon pou louvri:** Èske lè yon biznis echwe sa otomatikman vle di mèt la te pran move desizyon?
+2. **Konsèp 1 — Definisyon:** Kisa "echèk biznis" dekri nan pratik?
+3. **Kesyon swivi:** Èske deskripsyon sa a otomatikman yon jijman sou moun ki te ladan l?
+4. **Konsèp 2 — Desizyon solid, rezilta ki echwe:** Kijan egzanp MOQ nan BLUE-L1-028 la montre sa?
+5. **Kesyon swivi:** Èske yon biznis ki te byen etidye e ki te egzekite ak konpetans ka toujou echwe?
+6. **Konsèp 3 — Kite kòm estrateji:** Kijan kite diferan de tou senpleman abandone?
+7. **Kesyon swivi:** Kisa kite prezève, dapre leson sa a?
+8. **Konsèp 4 — Separe desizyon an ak rezilta a:** Poukisa leson an di ou ta dwe jije desizyon yo selon rezonman ki te disponib lè sa a, pa sèlman selon rezilta final la?
+9. **Sentèz:** Kijan kite diferan de yon pivo (BLUE-L1-045)?
+10. **Refleksyon:** Poukisa yon moun ta ka kontinye vide resous nan yon biznis k ap echwe, menm lè kite l ta pi rasyonèl?
+
+## Evalyasyon konpetans
+`BLUE-L1-047-ASSESSMENT`
+
+1. (Chwa miltip) Echèk biznis dekri nan pratik: A) Yon jijman moral sou mèt la B) Rezilta yon biznis ki sispann fonksyone C) Yon krim legal D) Yon estati taks
+2. (Vrè/Fo) Lè yon biznis echwe, sa toujou vle di desizyon debaz yo te move.
+3. (Chwa miltip) Kisa egzanp MOQ nan BLUE-L1-028 la montre nan leson sa a? A) Anyen ki enpòtan B) Yon lide solid ka bloke pa faktè ki pa gen rapò ak kalite desizyon yo C) MOQ pa janm afekte rezilta yo D) Bon lide pa janm echwe
+4. (Repons kout) Esplike diferans ant kite yon biznis ak tou senpleman abandone.
+5. (Senaryo) Yon antreprenè fè rechèch byen epi li egzekite ak konpetans, men yon chanjman nan mache a ke pèsonn pa t prevwa fè biznis la echwe. Èske pwosesis desizyon orijinal la te nesesèman move?
+6. (Chwa miltip) Kisa yon "depans ki pèdi" (sunk cost) ye? A) Pwofi potansyèl nan lavni B) Resous ou deja depanse ou pa ka rekipere C) Yon kalite prè D) Yon bidjè maketing
+7. (Vrè/Fo) Ou ta dwe toujou jije desizyon yo sèlman selon si rezilta a te finalman mache.
+8. (Repons kout) Kijan kite diferan de yon pivo, jan nou te diskite nan BLUE-L1-045?
+9. (Chwa miltip) Ki risk lè w kontinye envesti nan yon biznis k ap echwe sèlman pou evite "admèt echèk" reprezante? A) Yon chwa estratejik solid B) Yon modèl depans ki pèdi C) Yon rekiperasyon garanti D) Yon pivo
+10. (Refleksyon) Poukisa separe kalite desizyon an ak rezilta a onètman ta ka enpòtan pou w aprann nan yon echèk biznis?
+
+## Kle repons yo
+`BLUE-L1-047-ANSWER-KEY`
+
+1. **Kòrèk:** B. **Eksplikasyon:** Sa di dirèkteman nan Sijè 1. **Konpetans yo teste:** Rapèl.
+2. **Kòrèk:** Fo. **Eksplikasyon:** Sijè 2 montre klèman sa pa vre. **Konpetans yo teste:** Korije yon move konsepsyon.
+3. **Kòrèk:** B. **Eksplikasyon:** Sa di nan Sijè 2. **Konpetans yo teste:** Rapèl ant leson yo.
+4. **Kòrèk:** Kite se yon chwa estratejik espre e byen enfòme pou prezève resous ki rete yo; abandone vle di kite efò a san rezonman sa a. **Konpetans yo teste:** Sentèz.
+5. **Kòrèk:** Non — pwosesis desizyon an te solid selon sa ki te rezonabman posib pou konnen lè sa a, jan egzanp pratik la montre. **Konpetans yo teste:** Rezonman aplike.
+6. **Kòrèk:** B. **Eksplikasyon:** Sa defini nan definisyon kle yo. **Konpetans yo teste:** Rapèl.
+7. **Kòrèk:** Fo. **Eksplikasyon:** Sijè 4 montre klèman sa pa vre. **Konpetans yo teste:** Korije yon move konsepsyon.
+8. **Kòrèk:** Yon pivo redirije efò a nan yon nouvo direksyon pandan l ap kenbe valè; kite konkli ke ni kontinye ni redirije pa gen sans. **Konpetans yo teste:** Sentèz konparatif ant leson yo.
+9. **Kòrèk:** B. **Eksplikasyon:** Sa di nan erè kouran yo ak nan definisyon kle yo. **Konpetans yo teste:** Rapèl.
+10. **Kòrèk:** Repons yo ta dwe note konfonn kalite desizyon an ak rezilta a ta ka mennen swa nan yon jijman sou tèt ou ki twò di yon fason enjis, swa nan pa aprann anyen nan desizyon ki te vrèman move. **Konpetans yo teste:** Sentèz pwofon.
+
+## Estanda konpetans
+`BLUE-L1-047-COMPETENCY`
+
+KONPETANS YO ANSEYE: Echèk biznis defini selon fason li fonksyone; desizyon solid kont rezilta; kite kòm chwa estratejik; konsyans sou depans ki pèdi.
+KONPETANS YO MEZIRE: Rapèl definisyon; korije move konsepsyon; sentèz konparatif ant leson yo.
+NÒT MINIMÒM POU METRIZ: 80%
+TACH PRATIK OBLIGATWA: Fè egzèsis pratik la.
+SIJÈ RATRAPAJ: Revize BLUE-L1-028 ak BLUE-L1-045 ankò si w rate K3, K5 oswa K8.
+PWOCHEN LESON DEBLOKE: BLUE-L1-048
+PAKOU KI GEN RAPÒ: Poko gen okenn ki pibliye.
+
+## Lekti anplis
+- BLUE-L1-028 — Kisa yon kantite minimòm pou kòmande (MOQ) ye?
+- BLUE-L1-045 — Kisa yon pivo ye?
+- BLUE-L1-048 — Kisa yon biznis sou kote ye?
+
+## Chemen leson an
+`BLUE-L1-047-LOCALIZATION` (blòk chemen)
+LESON ANVAN AN: BLUE-L1-046
+PWOCHEN LESON: BLUE-L1-048
+KONDISYON PREYALAB OBLIGATWA: BLUE-L1-028, BLUE-L1-045
+LESON REVIZYON OPSYONÈL: BLUE-L1-028, BLUE-L1-045
+LESON RATRAPAJ: BLUE-L1-028, BLUE-L1-045
+LESON KI GEN RAPÒ NAN LÒT PAKOU: Poko gen okenn ki pibliye
+KONDISYON POU FINI NIVO A: Fini tout leson BLUE-L1 yo (001–050) epi pase evalyasyon konpetans Nivo 1 an.
+
+## Blòk SEO
+`BLUE-L1-047-SEO`
+Tit SEO: Kisa echèk biznis ye, toutbon? Poukisa kite l ka bon chwa a | Edunancial
+Meta deskripsyon: Aprann yon definisyon fonksyonèl echèk biznis ki pa jije moun, ak poukisa kite yon biznis ka yon chwa estratejik rasyonèl.
+Slug URL sijere: /courses/business/level-1/what-is-business-failure
+Mo kle prensipal: kisa echèk biznis ye
+Mo kle segondè: ki lè pou kite yon biznis, desizyon biznis ak depans ki pèdi
+Lyen entèn sijere: BLUE-L1-028, BLUE-L1-045, BLUE-L1-048
+Referans ekstèn sijere: Resous jeneral pou alfabetizasyon sou estrateji ti biznis
+Rekòmandasyon schema: Schema Course + LearningResource
+Entansyon rechèch: Enfòmasyonèl, nivo debitan
+Opòtinite pou "featured snippet": "Èske kite yon biznis toujou vle di abandone?"
+Kesyon pou FAQ Schema: "Èske kite l vle di abandone twò fasil?"; "Kijan kite diferan de yon pivo?"
+
+## Blòk sipò IA
+`BLUE-L1-047-AI`
+Rezime IA: Bay yon lòt jan pou wè echèk biznis selon fason li fonksyone (lè biznis la sispann fonksyone) olye kòm yon jijman pèsonèl, li fè diferans ant desizyon solid ak rezilta, epi li prezante kite yon biznis kòm yon chwa estratejik lejitim.
+Nòt ansèyman pou IA: Leson sa a reflete dirèkteman fason etid ka konpayi manje pou chen an nan kourikoulòm nan prezante sa ("yon desizyon solid pou kite, pa yon echèk") — kenbe menm ton onèt e ki pa jije moun sa a tout kote.
+
+## Blòk lokalizasyon
+`BLUE-L1-047-LOCALIZATION`
+Estati tradiksyon: tradiksyon an kreyòl ayisyen fini apati sous angle a.
+
+## Blòk referans ak verifikasyon
+`BLUE-L1-047-REFERENCES`
+Nou pa itilize okenn estatistik ni okenn sitasyon ekstèn. Fason pou prezante estrateji a make kòm OPINYON kote sa apwopriye.
