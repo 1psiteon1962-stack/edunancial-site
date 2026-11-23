@@ -1,0 +1,147 @@
+===== BLUE-L3-026
+TITLE: Poukisa envestisè zanj (angel) ak VC vle bagay ki fondamantalman diferan
+SUMMARY: Aprann diferans jeneral ant envestisè zanj ak konpayi kapital risk (VC), ak poukisa konprann sa chak vle deside kilès ki pi bon nan diferan etap.
+# BLUE-L3-026: Poukisa envestisè zanj (angel) ak VC vle bagay ki fondamantalman diferan
+
+## Objektif aprantisaj
+Lè w fin fè leson sa a, w ap kapab:
+- Dekri diferans jeneral ant envestisè zanj ak konpayi kapital risk (VC)
+- Esplike poukisa chak gen tandans pi bon nan diferan etap yon biznis
+- Esplike poukisa finansman VC anjeneral vini ak atant ki pi òganize
+
+## Kontni prensipal
+
+**Envestisè zanj (angel investors)** anjeneral se moun k ap envesti pwòp lajan pèsonèl yo, souvan nan biznis ki nan premye etap, pafwa an pati sou baz relasyon pèsonèl oswa konfyans nan fondatè a ansanm ak agiman biznis la li menm. **Konpayi kapital risk (VC)** jere lajan yo rasanble nan men enstitisyon ak lòt envestisè (yo pafwa rele pwòp envestisè pa yo "limited partners"), yo anjeneral envesti pi gwo kantite lajan, souvan nan etap yon ti jan pita, e anjeneral ak atant ki pi fòmèl, ki pi òganize sou kwasans, rapò, ak yon sòti finalman.
+
+Men "poukisa" diferans sa a enpòtan pou yon fondatè k ap deside ki kote pou l chèche finansman: [FÈ VERIFYE] paske konpayi VC yo ap jere lajan pou pwòp envestisè pa yo, yo anjeneral gen atant rannman ak orè espesifik yo bezwen respekte, sa ki souvan vle di y ap chèche espesyalman biznis ki gen yon chemen kredib vè yon kwasans trè gwo ak yon sòti ki defini (yon sijè yo kouvri nan yon leson pita) nan yon sèten tan — yon bagay ki pa koresponn ak chak modèl biznis, menm youn ki vrèman reyisi e ki fè benefis. Envestisè zanj, ki envesti pwòp lajan yo, pafwa gen plis fleksibilite nan sa yo dispoze finanse ak orè yo alèz avè l, menm si sa varye anpil selon chak envestisè.
+
+## Egzanp pratik
+
+[EGZANP ILISTRATIF] Yon fondatè nan premye etap ki gen yon lide ki pwomèt men ki poko gen revni ta ka gen plis siksè chèche yon premye ti wonn finansman nan men envestisè zanj ki dispoze fè yon pari ki pi bonè, ki plis enfliyanse pa relasyon pèsonèl. Pandan biznis la ap grandi e li bezwen yon wonn kapital ki pi gwo anpil pou l grandi rapidman, yon konpayi kapital risk — k ap chèche yon istwa kwasans trè gwo ak yon chemen kredib vè yon gwo sòti alavni — ta ka vin yon chwa ki pi natirèl, depi modèl biznis la vrèman sipòte kalite gwosè sa a. [SIPOZISYON] Yon biznis regilye, ki fè benefis, san yon chemen kredib vè yon kwasans trè rapid, trè gwo ta ka pa koresponn ak finansman VC espesyalman, menm si li ta ka koresponn trè byen ak lòt apwòch finansman yo kouvri nan tout tras sa a.
+
+## Egzamen pratik
+
+1. Ki diferans jeneral ki genyen ant yon envestisè zanj ak yon konpayi kapital risk?
+2. Poukisa konpayi VC yo anjeneral gen atant rannman ak orè ki pi espesifik pase envestisè zanj endividyèl?
+3. Poukisa yon biznis regilye, ki fè benefis, ta ka pa koresponn ak finansman VC espesyalman?
+
+## Kle repons yo
+
+1. Envestisè zanj anjeneral envesti pwòp lajan pèsonèl yo, souvan nan premye etap; konpayi VC jere lajan yo rasanble nan men lòt envestisè, yo anjeneral envesti pi gwo kantite ak atant ki pi fòmèl, ki pi òganize.
+2. Paske konpayi VC yo ap jere lajan pou pwòp envestisè pa yo (limited partners), ki gen pwòp atant rannman pa yo konpayi a bezwen satisfè.
+3. Paske finansman VC anjeneral mande yon chemen kredib vè yon kwasans trè gwo ak yon sòti ki defini nan yon sèten tan — yon bagay ki pa koresponn ak chak modèl biznis ki vrèman reyisi.
+
+## Repons ak eksplikasyon
+
+1. Sa a se diferans debaz leson an.
+2. Sa esplike rezon estriktirèl ki anba atant espesifik konpayi VC yo.
+3. Sa a se yon avètisman pratik enpòtan kont sipoze finansman VC se "pi bon" oswa sèl chemen pou yon biznis ki reyisi.
+
+## Pwen kle yo
+- Envestisè zanj anjeneral envesti lajan pèsonèl, souvan nan premye etap e ak plis fleksibilite endividyèl.
+- Konpayi VC jere lajan envestisè yo rasanble e yo anjeneral mande yon chemen kredib vè yon kwasans trè gwo ak yon sòti ki defini.
+- Se pa chak modèl biznis ki reyisi ki koresponn ak finansman VC, menm si li koresponn trè byen ak lòt apwòch finansman.
+
+---
+
+*Leson sa a se sèlman pou edikasyon finansye jeneral, e li pa konstitye konsèy finansye, envestisman, taks, oswa legal pèsonalize. Konsilte yon pwofesyonèl ki gen lisans anvan ou pran desizyon sou chèche finansman an equity.*
+
+===== BLUE-L3-027
+TITLE: Poukisa finansman ki baze sou revni chita nan mitan ant dèt ak equity
+SUMMARY: Aprann kijan finansman ki baze sou revni mache, ak poukisa li ofri yon chemen nan mitan ant dèt tradisyonèl ak bay yon pati nan pwopriyete a.
+# BLUE-L3-027: Poukisa finansman ki baze sou revni chita nan mitan ant dèt ak equity
+
+## Objektif aprantisaj
+Lè w fin fè leson sa a, w ap kapab:
+- Esplike kijan finansman ki baze sou revni (RBF) mache
+- Esplike poukisa yo souvan dekri RBF kòm yon chemen nan mitan ant dèt ak equity
+- Esplike poukisa yo souvan rele RBF "san dilisyon" ak sa sa vle di
+
+## Kontni prensipal
+
+**Finansman ki baze sou revni (RBF)** bay yon biznis kapital an echanj pou yon pousantaj nan revni alavni, yo anjeneral peye l jiskaske yo remèt yon miltip yo te fikse davans sou envestisman orijinal la, olye atravè peman fiks chak mwa (tankou dèt tradisyonèl) oswa yon pati pwopriyete k ap kontinye (tankou kapital risk, Leson 26).
+
+Men "poukisa" yo souvan dekri sa kòm yon chemen nan mitan ant de yo, sa ki konekte ak diskisyon Leson 21 sou dèt konpare ak equity: menm jan ak dèt, RBF gen yon kantite total pou remèt ki defini (anjeneral kantite envestisman an fwa yon miltip yo fikse) olye yon pati equity ki pa gen limit nan tout valè alavni biznis la. Men kontrèman ak dèt tradisyonèl, kantite peman an vrèman chanje selon revni biznis la — pandan yon peryòd revni ki pi dousman, peman an pi piti; pandan yon peryòd ki pi fò, li pi gwo — sa ki diminye risk peman fiks chak mwa finansman an dèt pi gen.
+
+[FÈ VERIFYE] Yo souvan rele RBF kapital **san dilisyon**, paske li pa mande w bay okenn pati pwopriyete nan biznis la, kontrèman ak kapital risk oswa lòt finansman an equity — se yon gwo pati nan sa ki fè l enteresan pou fondatè ki vle chèche kapital pou kwasans san yo pa dilye pati pwopriyete yo (Leson 24) oswa bay kontwòl sou gouvènans.
+
+## Egzanp pratik
+
+[EGZANP ILISTRATIF] Yon biznis k ap grandi resevwa $200,000 finansman ki baze sou revni, li dakò pou l remèt yon total $260,000 (yon miltip 1.3x) atravè yon pousantaj nan revni chak mwa jiskaske li fin remèt total sa a. [SIPOZISYON] Pandan yon mwa vant ki fò, biznis la peye yon pi gwo kantite sou total sa a; pandan yon mwa ki pi dousman, peman an diminye otomatikman ansanm ak revni a, sa ki diminye presyon sou flou kach la konpare ak yon peman dèt fiks chak mwa ki pa ta chanje kèlkeswa jan vant yo te ye. Pandan tout pwosesis sa a, fondatè a kenbe tout pwopriyete biznis la, kontrèman ak yon aranjman finansman an equity.
+
+## Egzamen pratik
+
+1. Kijan finansman ki baze sou revni mache?
+2. Poukisa yo souvan dekri RBF kòm yon chemen nan mitan ant dèt ak equity?
+3. Poukisa yo souvan rele RBF kapital "san dilisyon"?
+
+## Kle repons yo
+
+1. Yon biznis resevwa kapital an echanj pou yon pousantaj nan revni alavni, yo anjeneral peye l jiskaske yo remèt yon miltip yo te fikse davans sou envestisman orijinal la.
+2. Paske, menm jan ak dèt, li gen yon kantite total pou remèt ki defini olye yon pati equity ki pa gen limit, men tankou yon aranjman fleksib, kantite peman an chanje selon revni biznis la olye li se yon obligasyon fiks chak mwa.
+3. Paske li pa mande w bay okenn pati pwopriyete nan biznis la, kontrèman ak kapital risk oswa lòt aranjman finansman an equity.
+
+## Repons ak eksplikasyon
+
+1. Sa a se definisyon debaz leson an.
+2. Sa a se "poukisa" santral ki esplike plas RBF ant de kalite finansman yo kouvri pi bonè nan tras la.
+3. Sa esplike tèminoloji espesifik la ak lyen li ak konsèp dilisyon Leson 24 la.
+
+## Pwen kle yo
+- Finansman ki baze sou revni bay kapital an echanj pou yon pousantaj nan revni alavni, jiska yon miltip remèt yo fikse davans.
+- Li konbine kantite total pou remèt ki defini nan dèt ak yon estrikti peman fleksib, ki mare ak revni, kontrèman ak yon peman dèt fiks chak mwa.
+- RBF se san dilisyon, sa vle di li pa mande w bay okenn pati pwopriyete nan biznis la.
+
+---
+
+*Leson sa a se sèlman pou edikasyon finansye jeneral, e li pa konstitye konsèy finansye, envestisman, taks, oswa legal pèsonalize. Tout chif yo se estimasyon pou ilistrasyon, yo pa garanti. Konsilte yon pwofesyonèl ki gen lisans anvan ou pran desizyon sou finansman biznis.*
+
+===== BLUE-L3-028
+TITLE: Poukisa finansman foul moun (crowdfunding) se yon tès maketing otan ke yon zouti finansman
+SUMMARY: Aprann poukisa yon kanpay finansman foul moun ka valide yon vrè demann nan mache a an menm tan li rasanble lajan, ak poukisa doub fonksyon sa a se vrè valè li.
+# BLUE-L3-028: Poukisa finansman foul moun (crowdfunding) se yon tès maketing otan ke yon zouti finansman
+
+## Objektif aprantisaj
+Lè w fin fè leson sa a, w ap kapab:
+- Esplike kisa finansman foul moun (crowdfunding) anjeneral gen ladan l
+- Esplike poukisa yon kanpay finansman foul moun fonksyone kòm yon validasyon mache, pa sèlman yon sous finansman
+- Esplike poukisa yon kanpay ki echwe ka toujou bay enfòmasyon ki gen valè
+
+## Kontni prensipal
+
+**Finansman foul moun (crowdfunding)** anjeneral se rasanble ti kantite lajan nan men yon gwo kantite moun ki sipòte pwojè a, souvan an echanj pou yon aksè bonè a yon pwodui, yon rekonpans, oswa (nan kèk fòm yo kontwole) yon ti pati equity nan biznis la, yo anjeneral fè l atravè yon platfòm sou entènèt.
+
+Men "poukisa" finansman foul moun sèvi yon doub objektif pi lwen pase senpleman rasanble kapital: yon kanpay ki reyisi montre dirèkteman ke vrè moun dispoze mete vrè lajan dèyè yon pwodui oswa yon lide anvan li menm fin bati oswa lanse nèt — yon fòm validasyon mache ki gen plis sans pase repons yon sondaj oswa enterè moun eksprime poukont yo, paske moun ki sipòte yo ap fè yon vrè angajman finansye.
+
+[FÈ VERIFYE] Sa vle di rezilta yon kanpay finansman foul moun, kit li reyisi kit li pa rive nan objektif finansman li, bay vrè enfòmasyon sou mache a: yon repons ki fò sijere gen yon vrè demann ki merite pou w kontinye, alòske yon repons ki fèb — menm si li desevan nan pwen de vi finansman sèlman — ka yon enfòmasyon ki gen valè ki sijere pwodui a, pri a, oswa pozisyonman an bezwen repanse anvan ou angaje plis resous ladan l.
+
+## Egzanp pratik
+
+[EGZANP ILISTRATIF] Yon antreprenè lanse yon kanpay finansman foul moun pou yon nouvo lide pwodui, li fikse yon objektif finansman pou kouvri premye kou pwodiksyon yo. Kanpay la depase objektif li anpil nan kèk jou, ak yon gwo kantite moun ki angaje vrè lajan anvan pwodui a menm egziste. [SIPOZISYON] Repons sa a bay antreprenè a konfyans, pi lwen pase lajan yo rasanble a li menm, ke gen yon vrè demann nan mache a ki merite pou l envesti plis resous ladan l — yon lòt kalite konfimasyon pase senpleman mande kliyan posib si yo ta enterese, paske moun ki sipòte yo deja mete vrè lajan dèyè enterè yo.
+
+## Egzamen pratik
+
+1. Kisa finansman foul moun anjeneral gen ladan l?
+2. Poukisa yon kanpay finansman foul moun fonksyone kòm yon validasyon mache, pa sèlman yon zouti finansman?
+3. Poukisa yon kanpay finansman foul moun ki fèb oswa ki echwe ka toujou bay enfòmasyon ki gen valè?
+
+## Kle repons yo
+
+1. Rasanble ti kantite lajan nan men yon gwo kantite moun ki sipòte pwojè a, souvan an echanj pou yon aksè bonè a pwodui a, yon rekonpans, oswa (nan kèk fòm yo kontwole) yon ti pati equity.
+2. Paske moun ki sipòte yo ap fè yon vrè angajman finansye anvan pwodui a menm egziste, sa ki bay yon siy ki gen plis sans sou yon vrè demann pase enterè moun eksprime poukont yo.
+3. Paske yon repons ki fèb ka sijere pwodui a, pri a, oswa pozisyonman an bezwen repanse, sa ki bay enfòmasyon ki gen valè sou mache a anvan ou angaje plis resous, menm si li desevan nan pwen de vi finansman sèlman.
+
+## Repons ak eksplikasyon
+
+1. Sa a se definisyon debaz leson an.
+2. Sa a se konpreyansyon santral, ak doub objektif, leson an bati sou li.
+3. Sa fè w wè yon kanpay ki "echwe" kòm yon bagay ki toujou bay enfòmasyon itil, olye yon pèt total.
+
+## Pwen kle yo
+- Finansman foul moun rasanble ti kantite lajan nan men anpil moun ki sipòte pwojè a, souvan atravè yon platfòm sou entènèt.
+- Yon kanpay ki reyisi bay yon vrè validasyon mache, paske moun ki sipòte yo angaje vrè lajan anvan pwodui a egziste.
+- Menm yon kanpay ki fèb ka bay enfòmasyon ki gen valè sou pwodui a, pri a, oswa pozisyonman an anvan ou angaje plis resous.
+
+---
+
+*Leson sa a se sèlman pou edikasyon finansye jeneral, e li pa konstitye konsèy finansye, envestisman, taks, oswa legal pèsonalize. Konsilte yon pwofesyonèl ki gen lisans anvan ou lanse oswa ou patisipe nan yon kanpay finansman foul moun.*
