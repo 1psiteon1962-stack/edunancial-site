@@ -1,0 +1,205 @@
+===== BLUE-L1-010
+TITLE: Choisir une structure d’entreprise : quelles questions poser d’abord?
+SUMMARY: Réunissez les structures vues jusqu’ici dans un cadre de décision pratique.
+# Choisir une structure d’entreprise : quelles questions poser d’abord?
+
+## Objectifs d’apprentissage
+
+À la fin de cette leçon, vous devriez pouvoir :
+
+- Énumérer les questions clés qui permettent de cerner une structure d’entreprise appropriée.
+- Appliquer ces questions à un scénario hypothétique simple.
+- Reconnaître qu’il s’agit d’un cadre de départ, et non d’un conseil personnalisé.
+
+## Contenu principal
+
+### Les questions à poser d’abord
+
+Avant de plonger dans les détails juridiques, demandez-vous : combien y a-t-il de propriétaires? Quel niveau de protection de la responsabilité personnelle est réellement nécessaire, compte tenu du niveau de risque de l’entreprise? S’agit-il d’une profession réglementée qui a ses propres normes de structure? Réduire la double imposition est-il une priorité? Ces questions ne donnent pas une réponse finale à elles seules, mais elles réduisent considérablement les options.
+
+### Faire le raisonnement
+
+Un propriétaire seul qui a de réelles préoccupations de responsabilité et aucun intérêt à attirer des investisseurs externes est souvent orienté vers une LLC (ou, au Canada, souvent vers une société par actions). Plusieurs professionnels autorisés pourraient envisager une LLP. Une entreprise qui prévoit d’obtenir d’importants capitaux externes, ou qui souhaite émettre de nombreuses actions, est souvent orientée vers une société par actions — un lien avec la matière approfondie au niveau 3.
+
+### Une limite importante
+
+*IMPORTANT :* Cette leçon offre un cadre général de compréhension, et non un conseil juridique ou fiscal personnalisé. Une décision réelle devrait faire intervenir un professionnel qualifié qui examine la situation précise de la personne — l’« analogie du médecin », présentée plus loin dans ce niveau, explique exactement pourquoi cette étape en vaut la peine.
+
+## Exemple pratique
+
+Une personne seule qui lance une entreprise d’aménagement paysager, et qui s’inquiète de sa responsabilité si son équipement endommage les biens de quelqu’un, applique le cadre : un seul propriétaire, une réelle préoccupation de responsabilité, aucun besoin immédiat d’obtenir des capitaux externes. Demandez-vous : vers quelle structure vue dans les leçons précédentes de ce niveau cette combinaison oriente-t-elle? Une LLC correspond bien à ce profil.
+
+## Quiz pratique
+
+1. Quelle question constitue un bon point de départ pour choisir une structure d’entreprise?
+   A. De quelle couleur devrait être le logo?
+   B. Combien y a-t-il de propriétaires, et quel niveau de protection de la responsabilité est nécessaire?
+   C. À quelle période de l’année l’entreprise devrait-elle ouvrir?
+   D. Combien d’abonnés le propriétaire a-t-il sur les réseaux sociaux?
+2. Vrai ou faux : le cadre de cette leçon remplace un conseil juridique ou fiscal professionnel.
+3. Un propriétaire seul qui a de réelles préoccupations de responsabilité et ne prévoit pas obtenir de capitaux externes est souvent orienté vers quelle structure?
+   A. Une société en nom collectif
+   B. Une LLC
+   C. Une LLP
+   D. Un organisme sans but lucratif
+
+## Corrigé
+
+1. B
+2. Faux
+3. B
+
+## Réponses et explications
+
+### Question 1
+Bonne réponse : B. Le nombre de propriétaires et les besoins de protection de la responsabilité sont des questions de départ essentielles.
+
+### Question 2
+Bonne réponse : Faux. Il s’agit d’un cadre général, et non d’un substitut à un conseil professionnel.
+
+### Question 3
+Bonne réponse : B. Ce profil oriente couramment vers une LLC.
+
+## Points clés
+
+- Questions de départ clés : nombre de propriétaires, besoins de protection de la responsabilité, type de profession et projets d’obtention de capitaux.
+- Ces questions réduisent les options, mais ne remplacent pas un conseil professionnel.
+- Ce cadre se rattache directement aux structures vues plus tôt dans ce niveau.
+
+===== BLUE-L1-011
+TITLE: Revenus ou bénéfice? (La paire de termes la plus souvent confondue en affaires)
+SUMMARY: Découvrez la vraie différence entre les revenus et le bénéfice, et pourquoi une entreprise peut avoir de solides revenus sans réaliser aucun bénéfice.
+# Revenus ou bénéfice? (La paire de termes la plus souvent confondue en affaires)
+
+## Objectifs d’apprentissage
+
+À la fin de cette leçon, vous devriez pouvoir :
+
+- Définir séparément les revenus et le bénéfice.
+- Calculer un bénéfice de base à partir des revenus et des dépenses.
+- Expliquer pourquoi de solides revenus ne garantissent pas un bénéfice.
+
+## Contenu principal
+
+### Deux chiffres que l’on confond constamment
+
+Demandez-vous : si une entreprise « a fait 500 000 $ l’an dernier », cela signifie-t-il qu’elle a gardé 500 000 $? Presque certainement pas — et c’est exactement cette confusion qui explique pourquoi on mélange si souvent les revenus et le bénéfice.
+
+Les **revenus** (ou chiffre d’affaires) correspondent à l’argent total qu’une entreprise encaisse grâce à ses ventes, avant de soustraire quelque dépense que ce soit. Le **bénéfice** est ce qui reste après avoir soustrait toutes les dépenses qu’il a fallu engager pour générer ces revenus.
+
+### La formule
+
+Bénéfice = Revenus − Dépenses. Une entreprise qui a 500 000 $ de revenus et 480 000 $ de dépenses n’a que 20 000 $ de bénéfice — un portrait très différent de ce que le seul chiffre de revenus mis en avant laisse croire.
+
+### Pourquoi de solides revenus ne garantissent pas un bénéfice
+
+Une entreprise peut avoir des revenus impressionnants et en croissance tout en perdant de l’argent, si ses dépenses augmentent aussi vite ou plus vite. Les revenus mesurent l’activité; le bénéfice mesure si cette activité a réellement amélioré la situation de l’entreprise.
+
+## Exemple pratique
+
+Une nouvelle entreprise annonce fièrement 200 000 $ de revenus pour sa première année. Demandez-vous : est-ce une bonne nouvelle en soi? Seulement si vous connaissez aussi les dépenses. Si les dépenses s’élevaient à 210 000 $, l’entreprise a en réalité perdu 10 000 $ cette année-là — une perte cachée derrière un chiffre qui a l’air d’un succès.
+
+## Quiz pratique
+
+1. Les revenus sont :
+   A. Ce qui reste après avoir soustrait toutes les dépenses
+   B. L’argent total encaissé grâce aux ventes, avant les dépenses
+   C. La dette totale d’une entreprise
+   D. Un type d’impôt
+2. Vrai ou faux : de solides revenus signifient toujours qu’une entreprise est rentable.
+3. Une entreprise a 300 000 $ de revenus et 275 000 $ de dépenses. Quel est son bénéfice?
+   A. 575 000 $
+   B. 25 000 $
+   C. 300 000 $
+   D. 0 $
+
+## Corrigé
+
+1. B
+2. Faux
+3. B
+
+## Réponses et explications
+
+### Question 1
+Bonne réponse : B. Les revenus correspondent au total des ventes, avant les dépenses.
+
+### Question 2
+Bonne réponse : Faux. Des revenus élevés accompagnés de dépenses encore plus élevées peuvent quand même signifier une perte.
+
+### Question 3
+Bonne réponse : B. 300 000 $ − 275 000 $ = 25 000 $.
+
+## Points clés
+
+- Les revenus correspondent au total des ventes, avant les dépenses.
+- Bénéfice = Revenus − Dépenses — ce qui reste réellement.
+- De solides revenus ne garantissent pas un bénéfice.
+
+===== BLUE-L1-012
+TITLE: Qu’est-ce qu’une marge bénéficiaire?
+SUMMARY: Découvrez comment la marge bénéficiaire exprime la rentabilité en pourcentage, et pourquoi ce pourcentage compte plus que le seul montant brut du bénéfice.
+# Qu’est-ce qu’une marge bénéficiaire?
+
+## Objectifs d’apprentissage
+
+À la fin de cette leçon, vous devriez pouvoir :
+
+- Énoncer la formule de la marge bénéficiaire.
+- Calculer une marge bénéficiaire de base.
+- Expliquer pourquoi la marge compte pour comparer des entreprises de tailles différentes.
+
+## Contenu principal
+
+### La formule
+
+Marge bénéficiaire = Bénéfice ÷ Revenus, habituellement exprimée en pourcentage. Elle reprend la notion de bénéfice de la dernière leçon et l’exprime par rapport aux revenus, plutôt qu’en montant brut en dollars.
+
+### Pourquoi un pourcentage, et pas seulement un montant en dollars
+
+Demandez-vous : un bénéfice de 50 000 $ est-il impressionnant? Cela dépend entièrement des revenus qu’il a fallu pour le générer. Un bénéfice de 50 000 $ sur 100 000 $ de revenus (une marge de 50 %) correspond à une entreprise très différente d’un bénéfice de 50 000 $ sur 2 000 000 $ de revenus (une marge de 2,5 %) — le pourcentage raconte une histoire que le chiffre brut seul cache.
+
+### À quoi elle sert
+
+La marge bénéficiaire permet de comparer sur un pied d’égalité des entreprises de tailles très différentes, et c’est une façon utile de suivre si une même entreprise devient plus ou moins efficace au fil du temps, que ses revenus augmentent ou non.
+
+## Exemple pratique
+
+Deux entreprises déclarent chacune un bénéfice de 40 000 $. L’entreprise A avait 100 000 $ de revenus; l’entreprise B, 800 000 $. Demandez-vous : ces résultats sont-ils aussi solides l’un que l’autre? La marge de l’entreprise A est de 40 %; celle de l’entreprise B, de 5 % — des niveaux d’efficacité très différents cachés derrière un bénéfice identique.
+
+## Quiz pratique
+
+1. La marge bénéficiaire se calcule ainsi :
+   A. Revenus ÷ Bénéfice
+   B. Bénéfice ÷ Revenus
+   C. Dépenses ÷ Revenus
+   D. Revenus − Dépenses
+2. Vrai ou faux : un bénéfice brut plus élevé en dollars signifie toujours une entreprise plus efficace.
+3. Une entreprise a un bénéfice de 60 000 $ et des revenus de 300 000 $. Quelle est sa marge bénéficiaire?
+   A. 5 %
+   B. 20 %
+   C. 50 %
+   D. 60 %
+
+## Corrigé
+
+1. B
+2. Faux
+3. B
+
+## Réponses et explications
+
+### Question 1
+Bonne réponse : B. Marge bénéficiaire = Bénéfice ÷ Revenus.
+
+### Question 2
+Bonne réponse : Faux. Une grande entreprise peut avoir une marge plus faible qu’une entreprise beaucoup plus petite.
+
+### Question 3
+Bonne réponse : B. 60 000 $ ÷ 300 000 $ = 20 %.
+
+## Points clés
+
+- Marge bénéficiaire = Bénéfice ÷ Revenus, exprimée en pourcentage.
+- Elle permet une comparaison équitable entre des entreprises de tailles différentes.
+- C’est une mesure utile de l’efficacité, distincte du bénéfice brut en dollars.
