@@ -1,0 +1,355 @@
+===== RED-L1-009
+TITLE: ¿Qué es el impuesto sobre bienes inmuebles y quién lo fija?
+SUMMARY: Aprende cómo se calcula el impuesto sobre bienes inmuebles, quién fija realmente la tasa y por qué puede cambiar aunque el dueño no haga nada.
+# ¿Qué es el impuesto sobre bienes inmuebles y quién lo fija?
+
+## Objetivos de aprendizaje
+
+Al final de esta lección, deberías poder:
+
+- Explicar qué financia, en general, el impuesto sobre bienes inmuebles.
+- Explicar los factores básicos que determinan la factura del impuesto sobre bienes inmuebles.
+- Explicar por qué la factura del impuesto sobre bienes inmuebles puede cambiar sin que el dueño haga nada.
+
+## Contenido principal
+
+### Qué financia, en general, el impuesto sobre bienes inmuebles
+
+El impuesto sobre bienes inmuebles es un impuesto recurrente que los dueños le pagan al gobierno local, según el valor de su propiedad. Comúnmente financia servicios locales como las escuelas, las carreteras y los servicios de emergencia, aunque los usos exactos varían según el lugar.
+
+### Qué determina la factura
+
+*(REGLA ESPECÍFICA DE LA REGIÓN: los sistemas de impuestos sobre bienes inmuebles varían mucho según el país e incluso según la jurisdicción local; lo siguiente describe el funcionamiento común en EE. UU. En España, por ejemplo, los ayuntamientos cobran a los propietarios el Impuesto sobre Bienes Inmuebles (IBI), calculado sobre el valor catastral.)* En general, la factura del impuesto sobre bienes inmuebles se calcula multiplicando el valor tasado de la propiedad por una tasa impositiva local, que fijan los organismos del gobierno local (como un condado o un distrito escolar), no el dueño de la propiedad.
+
+### Por qué la factura puede cambiar sin que el dueño haga nada
+
+Si un gobierno local sube su tasa impositiva, o si el valor tasado de la propiedad sube por una nueva tasación local, la factura del impuesto puede aumentar aunque el dueño no haya cambiado nada de la propiedad.
+
+## Ejemplo práctico
+
+Una casa tasada en 250.000 € en una jurisdicción con una tasa impositiva del 1,2 % debería aproximadamente 3.000 € al año de impuesto sobre bienes inmuebles, antes de cualquier exención o ajuste.
+
+## Cuestionario de práctica
+
+1. En general, el impuesto sobre bienes inmuebles se le paga:
+   A. Al gobierno federal
+   B. Al gobierno local
+   C. Directamente al prestamista hipotecario, sin participación del gobierno local
+   D. A la compañía de seguros de la vivienda
+2. Verdadero o falso: la factura del impuesto sobre bienes inmuebles de un dueño puede subir aunque no haya hecho ningún cambio en la propiedad.
+3. ¿Qué dos factores determinan, en general, la factura del impuesto sobre bienes inmuebles?
+   A. El ingreso y la puntuación de crédito del dueño
+   B. El valor tasado de la propiedad y la tasa impositiva local
+   C. La tipo de interés hipotecaria y el plazo del préstamo
+   D. El tamaño del pago inicial
+
+## Respuestas
+
+1. B
+2. Verdadero
+3. B
+
+## Respuestas y explicaciones
+
+### Pregunta 1
+
+Respuesta correcta: B. El impuesto sobre bienes inmuebles es un impuesto del gobierno local.
+
+### Pregunta 2
+
+Respuesta correcta: Verdadero. Una subida de la tasa o una nueva tasación pueden aumentar la factura sin importar lo que haga el dueño.
+
+### Pregunta 3
+
+Respuesta correcta: B. El valor tasado y la tasa impositiva local son los datos centrales.
+
+## Puntos clave
+
+- El impuesto sobre bienes inmuebles es un impuesto local recurrente basado en el valor de la propiedad.
+- Se calcula a partir del valor tasado y de una tasa impositiva local.
+- La factura puede cambiar por decisiones locales, no solo por las acciones del dueño.
+
+===== RED-L1-010
+TITLE: ¿Qué es un gravamen sobre una propiedad?
+SUMMARY: Aprende qué es realmente un gravamen, cómo queda ligado a una propiedad y por qué puede bloquear una venta hasta que se resuelva.
+# ¿Qué es un gravamen sobre una propiedad?
+
+## Objetivos de aprendizaje
+
+Al final de esta lección, deberías poder:
+
+- Definir un gravamen en términos sencillos.
+- Nombrar al menos dos tipos comunes de gravámenes.
+- Explicar por qué un gravamen puede afectar la venta de una propiedad.
+
+## Contenido principal
+
+### Qué es un gravamen
+
+Un gravamen (lien, en inglés) es un derecho legal sobre una propiedad que normalmente garantiza una deuda. Algunos ejemplos comunes son el gravamen hipotecario (el derecho del prestamista, visto antes), el gravamen por impuestos (impuestos sobre bienes inmuebles no pagados) y el gravamen de constructor o mecánico (el derecho de un contratista al que no se le pagó por un trabajo hecho en la propiedad).
+
+### Cómo queda ligado un gravamen
+
+Un gravamen normalmente se inscribe ante el gobierno local y queda ligado a la propiedad misma, y no solo al dueño en lo personal; eso significa que puede seguir a la propiedad incluso después de una venta si no se resuelve antes.
+
+### Por qué puede bloquear una venta
+
+Como un gravamen está ligado a la propiedad, la mayoría de los compradores y prestamistas exigirán que se elimine antes de que se cierre una venta. Un gravamen sin resolver es una razón común por la que la venta de una propiedad se retrasa o se cae.
+
+## Ejemplo práctico
+
+Una dueña de vivienda contrata a un contratista para una reforma y no paga la factura final. El contratista puede presentar un gravamen de constructor contra la propiedad, que habría que resolver antes de poder vender la casa con un título limpio.
+
+## Cuestionario de práctica
+
+1. La mejor descripción de un gravamen es:
+   A. Un tipo de seguro de vivienda
+   B. Un derecho legal sobre una propiedad que normalmente garantiza una deuda
+   C. Un subsidio del gobierno para los compradores de vivienda
+   D. Una inspección obligatoria de la vivienda
+2. Verdadero o falso: un gravamen solo afecta al dueño actual en lo personal, no a la propiedad misma.
+3. ¿Qué es un gravamen de constructor?
+   A. Un derecho que presenta un contratista al que no se le pagó por un trabajo hecho en la propiedad
+   B. Un tipo de préstamo para coches
+   C. Un impuesto del gobierno sobre la construcción nueva
+   D. Una forma de seguro de título
+
+## Respuestas
+
+1. B
+2. Falso
+3. A
+
+## Respuestas y explicaciones
+
+### Pregunta 1
+
+Respuesta correcta: B. Un gravamen es un derecho legal sobre una propiedad, normalmente ligado a una deuda.
+
+### Pregunta 2
+
+Respuesta correcta: Falso. Los gravámenes quedan ligados a la propiedad misma, y por eso pueden seguirla después de una venta.
+
+### Pregunta 3
+
+Respuesta correcta: A. Un gravamen de constructor lo presenta un contratista al que no se le pagó por un trabajo hecho en la propiedad.
+
+## Puntos clave
+
+- Un gravamen es un derecho legal sobre una propiedad que normalmente garantiza una deuda.
+- Los gravámenes quedan ligados a la propiedad, no solo al dueño en lo personal.
+- Los gravámenes sin resolver suelen bloquear o retrasar las ventas de propiedades.
+
+===== RED-L1-011
+TITLE: Estados de gravamen fiscal frente a estados de escritura fiscal: ¿cuál es la diferencia real?
+SUMMARY: Aprende cómo los estados de gravamen fiscal y los estados de escritura fiscal gestionan de forma distinta los impuestos sobre bienes inmuebles no pagados, y qué recibe realmente un inversor en cada uno.
+# Estados de gravamen fiscal frente a estados de escritura fiscal: ¿cuál es la diferencia real?
+
+## Objetivos de aprendizaje
+
+Al final de esta lección, deberías poder:
+
+- Explicar qué pasa en un estado de gravamen fiscal cuando no se pagan los impuestos sobre bienes inmuebles.
+- Explicar qué pasa en un estado de escritura fiscal cuando no se pagan los impuestos sobre bienes inmuebles.
+- Identificar la diferencia central entre lo que recibe un inversor en cada uno.
+
+## Contenido principal
+
+### Estados de gravamen fiscal
+
+*(REGLA ESPECÍFICA DE LA REGIÓN: esto varía según el estado de EE. UU.; no todos los estados usan este sistema.)* En un estado de gravamen fiscal (tax lien state), cuando un dueño no paga los impuestos sobre bienes inmuebles, el gobierno local le vende un certificado de gravamen a un inversor, que paga los impuestos atrasados en nombre del dueño. El inversor no recibe la propiedad: recibe el derecho a cobrar la deuda más el interés que fija la ley. Si el dueño no paga dentro de un período de redención establecido, el inversor puede pedirle al tribunal el título de la propiedad.
+
+### Estados de escritura fiscal
+
+En un estado de escritura fiscal (tax deed state), los impuestos sobre bienes inmuebles no pagados pueden llevar a que la propiedad misma se venda en subasta. El mejor postor, en general, se convierte en el nuevo dueño, a veces de inmediato y a veces después de un breve período de redención, según el estado.
+
+### La diferencia central
+
+En un estado de gravamen, el inversor compra al principio una deuda, no la propiedad. En un estado de escritura, el inversor puja por la propiedad misma. Los períodos de redención y las reglas específicas varían mucho según el estado: esta lección trata el mecanismo general, no el calendario específico de ningún estado.
+
+## Ejemplo práctico
+
+Un inversor en un estado de gravamen fiscal paga 2.000 € para cubrir los impuestos no pagados del dueño de una propiedad. Ahora el inversor tiene un gravamen que genera el interés que fija la ley. Si el dueño no paga dentro del período de redención del estado, el inversor puede buscar el título por la vía de los tribunales.
+
+## Cuestionario de práctica
+
+1. En un estado de gravamen fiscal, ¿qué recibe al principio un inversor al pagar los impuestos atrasados de otra persona?
+   A. La propiedad inmediata del inmueble
+   B. Un certificado de gravamen que representa la deuda, más los intereses
+   C. Un contrato de alquiler con el dueño
+   D. Una hipoteca sobre otra propiedad
+2. Verdadero o falso: en un estado de escritura fiscal, la propiedad misma normalmente se subasta por los impuestos no pagados.
+3. ¿Qué es un período de redención?
+   A. Un plazo durante el cual un dueño moroso puede pagar y conservar la propiedad
+   B. La duración del plazo de una hipoteca
+   C. Un plazo obligatorio de inspección de la vivienda
+   D. Un tipo de exención del impuesto sobre bienes inmuebles
+
+## Respuestas
+
+1. B
+2. Verdadero
+3. A
+
+## Respuestas y explicaciones
+
+### Pregunta 1
+
+Respuesta correcta: B. En un estado de gravamen, el inversor compra la deuda (mediante un certificado de gravamen), no la propiedad misma.
+
+### Pregunta 2
+
+Respuesta correcta: Verdadero. Los estados de escritura fiscal normalmente subastan directamente la propiedad.
+
+### Pregunta 3
+
+Respuesta correcta: A. Un período de redención le da al dueño original un plazo para pagar antes de perder la propiedad.
+
+## Puntos clave
+
+- Los estados de gravamen fiscal venden la deuda (un gravamen); los estados de escritura fiscal venden la propiedad misma.
+- Los inversores en gravámenes ganan intereses y, si no se les paga, con el tiempo pueden buscar el título.
+- Los inversores en escrituras pueden convertirse en dueños de forma más directa, a menudo más rápido.
+- Las reglas y los períodos de redención varían mucho según el estado.
+
+===== RED-L1-012
+TITLE: ¿Qué es una tasación y por qué no es lo mismo que el precio?
+SUMMARY: Aprende qué mide realmente la tasación de una propiedad, quién la pide y por qué el valor de tasación y el precio de venta pueden ser distintos.
+# ¿Qué es una tasación y por qué no es lo mismo que el precio?
+
+## Objetivos de aprendizaje
+
+Al final de esta lección, deberías poder:
+
+- Definir una tasación en términos sencillos.
+- Explicar quién pide normalmente una tasación y por qué.
+- Explicar por qué el valor de tasación y el precio de venta pueden ser cifras distintas.
+
+## Contenido principal
+
+### Qué es una tasación
+
+Una tasación es una estimación profesional e independiente del valor de una propiedad, hecha por un tasador con licencia. Se basa en factores como las ventas comparables, el estado de la propiedad y la ubicación.
+
+### Quién la pide y por qué
+
+Los prestamistas normalmente exigen una tasación antes de aprobar una hipoteca, para confirmar que la propiedad vale más o menos lo que se presta sobre ella; esto protege la garantía del prestamista, no solo ayuda al comprador.
+
+### Por qué las cifras pueden ser distintas
+
+El valor de tasación y el precio de venta acordado son dos cifras separadas que se determinan de dos formas distintas: el precio de venta es lo que el comprador y el vendedor hayan acordado, mientras que la tasación es una estimación profesional independiente. Si una casa se tasa por debajo del precio de venta acordado, puede crear un problema real de financiación, ya que el prestamista, en general, no presta más de lo que respalda el valor de tasación.
+
+## Ejemplo práctico
+
+Un comprador acuerda pagar 320.000 € por una casa, pero la tasación sale en 305.000 €. El prestamista normalmente solo financiará con base en el valor de tasación más bajo, lo que significa que el comprador podría necesitar un pago inicial más grande o que habría que renegociar el precio de venta.
+
+## Cuestionario de práctica
+
+1. Una tasación es:
+   A. El precio que acuerdan un comprador y un vendedor
+   B. Una estimación profesional independiente del valor de una propiedad
+   C. Un tipo de seguro de vivienda
+   D. Una valoración del gobierno para efectos de impuestos
+2. Verdadero o falso: los prestamistas normalmente exigen una tasación para proteger su propia garantía, no solo para ayudar al comprador.
+3. ¿Qué puede pasar si una casa se tasa por debajo del precio de venta acordado?
+   A. Nada: la venta sigue exactamente como se acordó
+   B. El prestamista podría financiar solo hasta el valor de tasación, lo que crea un déficit de financiación
+   C. La tasación se anula automáticamente
+   D. Se reduce el impuesto sobre bienes inmuebles
+
+## Respuestas
+
+1. B
+2. Verdadero
+3. B
+
+## Respuestas y explicaciones
+
+### Pregunta 1
+
+Respuesta correcta: B. Una tasación es una estimación profesional e independiente del valor, separada del precio negociado.
+
+### Pregunta 2
+
+Respuesta correcta: Verdadero. La tasación protege la posición de garantía del prestamista en el préstamo.
+
+### Pregunta 3
+
+Respuesta correcta: B. Una tasación baja puede crear un déficit de financiación que tienen que resolver el comprador, el vendedor o ambos.
+
+## Puntos clave
+
+- Una tasación es una estimación independiente del valor, no el precio de venta.
+- Los prestamistas la exigen para proteger su propia garantía.
+- Una tasación baja en relación con el precio de venta puede crear problemas reales de financiación.
+
+===== RED-L1-013
+TITLE: ¿Qué es un «comp»? (Las ventas comparables, explicadas)
+SUMMARY: Aprende cómo se usan las ventas comparables para estimar el valor de una propiedad y qué hace que un comparable sea realmente útil o engañoso.
+# ¿Qué es un «comp»? (Las ventas comparables, explicadas)
+
+## Objetivos de aprendizaje
+
+Al final de esta lección, deberías poder:
+
+- Definir un comparable en términos sencillos.
+- Nombrar los factores que hacen que un comparable sea realmente útil.
+- Explicar por qué un comparable mal escogido puede ser engañoso.
+
+## Contenido principal
+
+### Qué es un comparable
+
+Un comparable o «comp» (abreviatura en inglés de «comparable sale», venta comparable) es una propiedad vendida recientemente que se usa como punto de referencia para estimar el valor de otra propiedad. Los comparables son centrales tanto en las tasaciones como en las decisiones de precio de todos los días de compradores y vendedores.
+
+### Qué hace útil a un comparable
+
+Un comparable realmente útil suele estar cerca en ubicación (a menudo a menos de tres kilómetros), ser parecido en tamaño y características (habitaciones, baños, metros cuadrados) y haberse vendido recientemente (a menudo en los últimos seis a doce meses), porque los mercados y el estado de las propiedades cambian con el tiempo.
+
+### Por qué engaña un mal comparable
+
+Usar un comparable que está demasiado lejos, que es demasiado distinto en tamaño o en estado, o que se vendió hace demasiado tiempo puede dar una estimación de valor muy distorsionada. Una casa reformada de cinco habitaciones no es un comparable confiable para una casa de dos habitaciones que necesita reparaciones, aunque estén en la misma calle.
+
+## Ejemplo práctico
+
+Para valorar una casa de 3 habitaciones y 2 baños, un tasador busca casas de 3 habitaciones y 2 baños vendidas recientemente a menos de tres kilómetros, y hace ajustes por diferencias como un sótano terminado o un garaje adicional, en vez de compararla con una propiedad muy distinta solo porque está cerca.
+
+## Cuestionario de práctica
+
+1. Un comparable es:
+   A. Un tipo de hipoteca
+   B. Una propiedad vendida recientemente que se usa como referencia para estimar el valor
+   C. Un registro del gobierno sobre el impuesto sobre bienes inmuebles
+   D. Un documento legal que transfiere la propiedad
+2. Verdadero o falso: cualquier propiedad vendida cerca es un buen comparable, sin importar su tamaño o su estado.
+3. ¿Por qué importa qué tan reciente es un comparable?
+   A. No importa en absoluto
+   B. Los mercados y las condiciones cambian con el tiempo, así que las ventas más antiguas podrían no reflejar el valor actual
+   C. Los comparables más antiguos siempre son más exactos
+   D. Solo importa en las propiedades comerciales
+
+## Respuestas
+
+1. B
+2. Falso
+3. B
+
+## Respuestas y explicaciones
+
+### Pregunta 1
+
+Respuesta correcta: B. Un comparable es una propiedad parecida vendida recientemente que se usa como referencia de valor.
+
+### Pregunta 2
+
+Respuesta correcta: Falso. Un comparable útil tiene que ser parecido en tamaño, estado y ubicación, no solo estar cerca.
+
+### Pregunta 3
+
+Respuesta correcta: B. Los mercados cambian con el tiempo, así que una venta de hace varios años podría no reflejar el valor actual.
+
+## Puntos clave
+
+- Un comparable es una propiedad parecida vendida recientemente que se usa para estimar el valor.
+- Los comparables útiles están cerca en ubicación, son parecidos en tamaño y estado, y son recientes.
+- Un comparable mal escogido puede dar una estimación de valor engañosa.

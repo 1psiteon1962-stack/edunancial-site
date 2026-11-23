@@ -100,7 +100,7 @@ Si se daña el calentador de agua de un inquilino, este llama al arrendador, qui
 
 ## Ejemplo práctico
 
-Un inquilino paga $1,800 al mes —$21,600 al año— y no acumula propiedad. Un propietario que paga $1,800 al mes de hipoteca destina parte del pago a reducir el principal del préstamo, acumulando patrimonio, y otra parte a intereses, que son un costo parecido al alquiler.
+Un inquilino paga $1,800 al mes —$21,600 al año— y acumula $0 de propiedad. Un propietario que paga $1,800 al mes de hipoteca destina parte del pago a reducir el principal del préstamo, acumulando patrimonio, y otra parte a intereses, que son un costo parecido al alquiler.
 
 ## Prueba de práctica
 
