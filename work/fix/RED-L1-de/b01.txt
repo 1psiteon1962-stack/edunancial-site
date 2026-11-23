@@ -1,0 +1,70 @@
+===== RED-L1-021
+TITLE: Grundlagen der Gewerbeimmobilien
+SUMMARY: Für Gewerbeimmobilien gelten andere Regeln als für Wohnimmobilien. Diese Lektion stellt Büro-, Einzelhandels-, Industrie- und gewerbliche Mehrfamilienimmobilien vor sowie die wichtigsten Kennzahlen, mit denen Investoren sie bewerten.
+# Grundlagen der Gewerbeimmobilien
+
+## Lernziele
+
+Am Ende dieser Lektion solltest du Folgendes können:
+
+- Die vier Hauptkategorien von Gewerbeimmobilien nennen.
+- Erklären, warum eine Gewerbeimmobilie anders bewertet wird als ein gewöhnliches Wohnhaus.
+- Die wichtigsten Unterschiede bei Mietverträgen und Risiken zwischen Gewerbe- und Wohnimmobilien erkennen.
+
+## Kerninhalt
+
+### Die vier Hauptkategorien
+
+Eine Gewerbeimmobilie ist eine Immobilie, die genutzt wird, um geschäftliche Einnahmen zu erzielen, statt jemandem als Zuhause zu dienen. Sie wird üblicherweise in vier Kategorien eingeteilt: Büro (Gebäude, in denen Unternehmen arbeiten), Einzelhandel (Läden, Einkaufszentren und Restaurants), Industrie (Lagerhallen, Distributionszentren und leichte Fertigung) und Mehrfamilienhäuser (Mietshäuser, die groß genug sind, um wie ein Unternehmen finanziert und bewertet zu werden – nach der Kreditpraxis in den USA oft ab fünf Wohneinheiten).
+
+### Bewertung nach Ertrag, nicht nach Vergleichshäusern
+
+Ein gewöhnliches Wohnhaus wird vor allem bewertet, indem man es mit ähnlichen Häusern vergleicht, die kürzlich in der Nähe verkauft wurden (die Vergleichsobjekte aus einer früheren Lektion dieses Kurses). Eine Gewerbeimmobilie wird vor allem nach dem Ertrag bewertet, den sie erwirtschaftet. Zwei Kennzahlen aus dieser Stufe leisten dabei die meiste Arbeit: der Nettobetriebsertrag (NOI), also der Ertrag nach Abzug der Betriebskosten, und die Kapitalisierungsrate (Cap Rate), die diesen Ertrag ins Verhältnis zum Wert der Immobilie setzt. Ein höherer NOI kann den Wert eines Gewerbegebäudes direkt erhöhen.
+
+### Mietverträge und Risiken funktionieren anders
+
+*(LÄNDERSPEZIFISCHE REGEL: Mietrecht, Mieterschutz und Kreditvergabestandards unterscheiden sich je nach Bundesstaat bzw. Land erheblich.)* Gewerbemietverträge laufen oft länger als Wohnmietverträge – häufig mehrere Jahre –, und viele übertragen einen Teil der Betriebskosten, etwa Steuern, Versicherung oder Instandhaltung, auf den Mieter. Längere Mietverträge können den Ertrag stabiler machen, aber ein Leerstand kann viel länger dauern und viel mehr kosten, weil es meist länger dauert, einen neuen gewerblichen Mieter zu finden als einen neuen Wohnungsmieter. Gewerbliche Kredite verlangen außerdem meist mehr Eigenkapital und kürzere Laufzeiten als typische Baufinanzierungen für Wohnhäuser.
+
+## Praxisbeispiel
+
+*BEISPIEL ZUR VERANSCHAULICHUNG:* Ein kleines Einzelhandelsgebäude erwirtschaftet einen jährlichen Nettobetriebsertrag von 60.000 €. In einem Markt, in dem vergleichbare Immobilien zu einer Cap Rate von 7,5 % gehandelt werden, liegt sein geschätzter Wert bei 60.000 € ÷ 0,075 = 800.000 €. Wenn der Eigentümer einen neuen Mieter gewinnt und der NOI auf 66.000 € steigt, beträgt der geschätzte Wert bei gleicher Cap Rate 880.000 € – der höhere Ertrag selbst steigert den Wert, und so wird ein Einfamilienhaus normalerweise nicht bewertet.
+
+## Übungsquiz
+
+1. Welche der folgenden gehört zu den vier Hauptkategorien von Gewerbeimmobilien?
+   A. Ein Einfamilienhaus, in dem der Eigentümer wohnt
+   B. Eine Industrieimmobilie, zum Beispiel eine Lagerhalle
+   C. Eine Ferienhütte, die nur die Familie des Eigentümers nutzt
+   D. Ein Sparkonto
+2. Wahr oder falsch: Eine Gewerbeimmobilie wird vor allem nach ihrem Ertrag bewertet, nicht vor allem nach Verkäufen vergleichbarer Häuser.
+3. Warum kann ein Leerstand bei Gewerbeimmobilien besonders teuer sein?
+   A. Gewerbliche Mieter ziehen nie aus
+   B. Einen neuen gewerblichen Mieter zu finden dauert meist länger, sodass der Einnahmeausfall länger anhalten kann
+   C. Gewerbegebäude können nach einem Leerstand nicht wieder vermietet werden
+   D. Leerstand betrifft nur Wohnimmobilien
+
+## Lösungsschlüssel
+
+1. B
+2. Wahr
+3. B
+
+## Antworten und Erklärungen
+
+### Frage 1
+
+Richtige Antwort: B. Industrieimmobilien sind neben Büro, Einzelhandel und Mehrfamilienhäusern eine der vier Hauptkategorien.
+
+### Frage 2
+
+Richtige Antwort: Wahr. Der Wert einer Gewerbeimmobilie hängt vor allem vom Ertrag ab, gemessen mit Kennzahlen wie NOI und Cap Rate.
+
+### Frage 3
+
+Richtige Antwort: B. Die Neuvermietung an einen gewerblichen Mieter dauert oft deutlich länger und verlängert den Einnahmeausfall.
+
+## Wichtigste Erkenntnisse
+
+- Gewerbeimmobilien fallen im Allgemeinen in vier Kategorien: Büro, Einzelhandel, Industrie und Mehrfamilienhäuser.
+- Eine Gewerbeimmobilie wird vor allem nach dem Ertrag bewertet, den sie erwirtschaftet, gemessen mit NOI und Cap Rate.
+- Längere Mietverträge können den Ertrag stabilisieren, aber Leerstand dauert tendenziell länger und kostet mehr als bei Wohnimmobilien.

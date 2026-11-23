@@ -1,0 +1,70 @@
+===== RED-L1-021
+TITLE: Fundamentos do mercado imobiliário comercial
+SUMMARY: Os imóveis comerciais seguem regras diferentes das dos residenciais. Esta lição apresenta imóveis de escritórios, comércio a retalho, industriais e multifamiliares comerciais, e os principais indicadores que os investidores usam para avaliá-los.
+# Fundamentos do mercado imobiliário comercial
+
+## Objetivos de aprendizagem
+
+No final desta lição, deverá ser capaz de:
+
+- Citar as quatro principais categorias de imóveis comerciais.
+- Explicar porque um imóvel comercial é avaliado de forma diferente de uma casa comum.
+- Identificar as principais diferenças de contratos de arrendamento e de riscos entre imóveis comerciais e residenciais.
+
+## Conteúdo principal
+
+### As quatro categorias principais
+
+Imóvel comercial é aquele usado para gerar receita de negócio, e não para servir de habitação a alguém. Costuma ser agrupado em quatro categorias: escritórios (prédios onde empresas trabalham), comércio a retalho (lojas, centros comerciais e restaurantes), industrial (armazéns, centros de distribuição e indústria ligeira) e multifamiliar (prédios de apartamentos suficientemente grandes para serem financiados e avaliados como um negócio — muitas vezes cinco unidades ou mais, segundo a prática de crédito nos EUA).
+
+### Avaliados pela renda, não por casas comparáveis
+
+Uma casa comum é avaliada principalmente pela comparação com casas parecidas vendidas recentemente na região (os imóveis comparáveis vistos antes neste percurso). Um imóvel comercial é avaliado principalmente pelo rendimento que produz. Dois indicadores deste nível fazem quase todo o trabalho: a receita operacional líquida (NOI), que é o rendimento que sobra depois das despesas operacionais, e a taxa de capitalização (cap rate), que relaciona essa rendimento ao valor do imóvel. Aumentar a NOI pode aumentar diretamente o valor de um prédio comercial.
+
+### Locações e riscos funcionam de outro jeito
+
+*(REGRA ESPECÍFICA DA REGIÃO: regras de arrendamento, proteções aos inquilinos e critérios de crédito variam muito conforme o estado ou o país.)* Os contratos de arrendamento comercial costumam ser mais longos que os residenciais — muitas vezes de vários anos — e muitos transferem ao inquilino parte dos custos operacionais, como impostos, seguro ou manutenção. Contratos mais longos podem deixar o rendimento mais estável, mas um período de desocupação pode durar muito mais e custar muito mais, porque encontrar uma nova empresa inquilina costuma levar mais tempo do que encontrar um novo inquilino residencial. Os créditos comerciais também tendem a exigir uma entrada maior e prazos mais curtos do que um crédito à habitação típico.
+
+## Exemplo prático
+
+*EXEMPLO ILUSTRATIVO:* Um pequeno prédio de lojas gera 60.000 € de receita operacional líquida por ano. Num mercado onde imóveis semelhantes são negociados a uma taxa de capitalização de 7,5%, o seu valor estimado é 60.000 € ÷ 0,075 = 800.000. € Se o proprietário fecha com um novo inquilino e a NOI sobe para 66.000, € o valor estimado na mesma taxa de capitalização passa a 880.000 € — o rendimento maior, por si só, aumenta o valor, e não é assim que uma casa unifamiliar costuma ser avaliada.
+
+## Teste de prática
+
+1. Qual destas é uma das quatro principais categorias de imóveis comerciais?
+   A. Uma casa unifamiliar onde o proprietário mora
+   B. Um imóvel industrial, como um armazém
+   C. Uma casa de férias usada só pela família do proprietário
+   D. Uma conta poupança
+2. Verdadeiro ou falso: um imóvel comercial é avaliado principalmente pela sua renda, e não principalmente pelas vendas de casas comparáveis.
+3. Porque é que a desocupação pode ser especialmente cara em imóveis comerciais?
+   A. Inquilinos comerciais nunca saem
+   B. Encontrar uma nova empresa inquilina costuma levar mais tempo, por isso a perda de rendimento pode durar mais
+   C. Prédios comerciais não podem ser arrendados de novo depois de uma desocupação
+   D. A desocupação só afeta imóveis residenciais
+
+## Chave de Respostas
+
+1. B
+2. Verdadeiro
+3. B
+
+## Respostas e explicações
+
+### Questão 1
+
+Resposta correta: B. O imóvel industrial é uma das quatro categorias principais, junto com escritórios, comércio a retalho e multifamiliar.
+
+### Questão 2
+
+Resposta correta: Verdadeiro. O valor comercial depende principalmente da renda, medida por indicadores como a NOI e a taxa de capitalização.
+
+### Questão 3
+
+Resposta correta: B. Arrendar de novo a uma empresa costuma levar muito mais tempo, o que prolonga a perda de rendimento.
+
+## Pontos-chave
+
+- Os imóveis comerciais costumam dividir-se em quatro categorias: escritórios, comércio a retalho, industrial e multifamiliar.
+- Um imóvel comercial é avaliado principalmente pelo rendimento que produz, medido pela NOI e pela taxa de capitalização.
+- Contratos mais longos podem estabilizar o rendimento, mas a desocupação tende a durar mais e custar mais do que em imóveis residenciais.

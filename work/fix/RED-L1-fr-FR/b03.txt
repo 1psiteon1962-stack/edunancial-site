@@ -1,0 +1,71 @@
+===== RED-L1-024
+TITLE: Qu'est-ce que le rendement sur fonds propres (cash-on-cash) ?
+SUMMARY: Découvrez en quoi le rendement sur fonds propres diffère du taux de capitalisation, puisqu'il tient compte de l'argent réellement investi par l'investisseur dans une transaction.
+# Qu'est-ce que le rendement sur fonds propres (cash-on-cash) ?
+
+## Objectifs d'apprentissage
+
+À la fin de cette leçon, vous devriez pouvoir :
+
+- Énoncer la formule du rendement sur fonds propres.
+- Expliquer en quoi il diffère du taux de capitalisation.
+- Calculer un rendement sur fonds propres de base.
+
+## Contenu principal
+
+### La formule
+
+Rendement sur fonds propres = Flux de trésorerie annuel avant impôt ÷ Total de l'argent investi.
+Contrairement au taux de capitalisation, qui suppose un achat entièrement comptant, le rendement sur fonds propres mesure le rendement précisément sur l'argent que l'investisseur a réellement mis dans la transaction — en tenant compte du financement.
+
+### En quoi il diffère du taux de capitalisation
+
+Le taux de capitalisation ignore complètement le financement. Le rendement sur fonds propres en tient compte précisément, puisque la plupart des investisseurs ne paient pas tout comptant : ils versent une partie et financent le reste, et cet indicateur mesure le rendement uniquement sur cette partie investie.
+
+### Pourquoi la distinction compte
+
+Deux biens identiques peuvent avoir des rendements sur fonds propres très différents selon la façon dont ils sont financés, même si leur taux de capitalisation est le même — parce que le rendement sur fonds propres reflète le capital réellement à risque de l'investisseur, et non la valeur totale du bien.
+
+## Exemple pratique
+
+*EXEMPLE ILLUSTRATIF :* Un investisseur verse un apport de 50 000 € (plus 5 000 € de frais d'acquisition) sur un bien, pour un total de 55 000 € investis. Le bien génère 6 600 € de flux de trésorerie annuel avant impôt. Rendement sur fonds propres = 6 600 € ÷ 55 000 € = 12 %.
+
+## Quiz pratique
+
+1. Le rendement sur fonds propres mesure précisément le rendement sur :
+   A. La valeur totale du bien
+   B. L'argent que l'investisseur a réellement mis dans la transaction
+   C. Le revenu net d'exploitation du bien
+   D. Le taux local de la taxe foncière
+2. Vrai ou faux : le rendement sur fonds propres, contrairement au taux de capitalisation, tient compte du financement.
+3. Un investisseur met au total 40 000 € dans une transaction et reçoit 4 800 € de flux de trésorerie annuel avant impôt. Quel est le rendement sur fonds propres ?
+   A. 8 %
+   B. 10 %
+   C. 12 %
+   D. 20 %
+
+## Corrigé
+
+1. B
+2. Vrai
+3. C
+
+## Réponses et explications
+
+### Question 1
+
+Bonne réponse : B. Il mesure le rendement sur l'argent réellement investi par l'investisseur.
+
+### Question 2
+
+Bonne réponse : Vrai. C'est la principale différence avec le taux de capitalisation.
+
+### Question 3
+
+Bonne réponse : C. 4 800 € ÷ 40 000 € = 12 %.
+
+## Points clés
+
+- Rendement sur fonds propres = Flux de trésorerie annuel avant impôt ÷ Total de l'argent investi.
+- Il tient compte du financement, contrairement au taux de capitalisation.
+- Des biens identiques peuvent avoir des rendements sur fonds propres différents selon leur financement.

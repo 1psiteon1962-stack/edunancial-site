@@ -1,0 +1,238 @@
+===== RED-L1-022
+TITLE: Che cos'è il flusso di cassa nel settore immobiliare?
+SUMMARY: Scopri come si calcola il flusso di cassa di un immobile in affitto e perché incassare l'affitto non garantisce un flusso di cassa positivo.
+# Che cos'è il flusso di cassa nel settore immobiliare?
+
+## Obiettivi di Apprendimento
+Alla fine di questa lezione dovresti essere in grado di:
+- Definire il flusso di cassa nel contesto immobiliare.
+- Calcolare un flusso di cassa di base a partire da entrate e spese.
+- Spiegare perché incassare l'affitto non garantisce un flusso di cassa positivo.
+
+## Contenuto Principale
+
+### Che cosa significa flusso di cassa
+Il flusso di cassa è il denaro che resta da un immobile in affitto dopo aver sottratto dal canone incassato tutte le spese (rata del mutuo, imposte, assicurazione, manutenzione e altro).
+
+### La formula di base
+Flusso di cassa = Entrate da affitto − Spese totali.
+Se un immobile incassa $2.000 di affitto e ha $1.700 di spese mensili totali, il suo flusso di cassa è di $300: un flusso di cassa positivo. Se le spese superano le entrate, il flusso di cassa è negativo.
+
+### Perché incassare l'affitto non basta
+Un immobile può incassare un affitto consistente e avere comunque un flusso di cassa negativo, se le spese sono abbastanza alte. A volte chi investe per la prima volta guarda solo alle entrate da affitto senza considerare fino in fondo spese come gli accantonamenti per la manutenzione o i periodi di sfitto, e si fa così un'idea troppo ottimistica.
+
+## Esempio Pratico
+*ESEMPIO ILLUSTRATIVO:* Un immobile in affitto incassa $1.800 al mese. Le spese ammontano a $1.600 al mese (mutuo, imposte, assicurazione e un accantonamento per la manutenzione). Flusso di cassa = $1.800 − $1.600 = $200 al mese, positivo.
+
+## Quiz Pratico
+1. Il flusso di cassa si calcola come:
+   A. Entrate da affitto più spese
+   B. Entrate da affitto meno spese totali
+   C. Il valore totale dell'immobile
+   D. L'importo dell'anticipo
+2. Vero o falso: incassare l'affitto garantisce automaticamente un flusso di cassa positivo.
+3. Se un immobile incassa $2.200 di affitto e ha $2.400 di spese totali, qual è il flusso di cassa?
+   A. Positivo di $200
+   B. Negativo di $200
+   C. $0
+   D. $4.600
+
+## Chiave delle Risposte
+1. B
+2. Falso
+3. B
+
+## Risposte e Spiegazioni
+
+### Domanda 1
+Risposta corretta: B. Flusso di cassa = entrate da affitto meno spese totali.
+
+### Domanda 2
+Risposta corretta: Falso. Spese abbastanza alte possono comunque produrre un flusso di cassa negativo.
+
+### Domanda 3
+Risposta corretta: B. $2.200 − $2.400 = −$200, un flusso di cassa negativo.
+
+## Punti Chiave da Ricordare
+- Flusso di cassa = Entrate da affitto − Spese totali.
+- Un flusso di cassa positivo non è garantito solo perché si incassa l'affitto.
+- Per avere un quadro accurato bisogna considerare tutte le spese reali, non solo il mutuo.
+
+===== RED-L1-023
+TITLE: Che cos'è il cap rate? (Versione introduttiva)
+SUMMARY: Impara la formula di base del cap rate e che cosa stima, come introduzione a un concetto approfondito nel Livello 2.
+# Che cos'è il cap rate? (Versione introduttiva)
+
+## Obiettivi di Apprendimento
+Alla fine di questa lezione dovresti essere in grado di:
+- Enunciare la formula di base del cap rate.
+- Spiegare che cosa stima il cap rate.
+- Riconoscere che il cap rate è uno strumento di confronto iniziale, non un metodo di valutazione completo.
+
+## Contenuto Principale
+
+### La formula di base
+Cap rate = Reddito operativo netto ÷ Valore dell'immobile.
+Il reddito operativo netto (NOI, net operating income) è il reddito di un immobile dopo le spese operative ma prima delle rate del mutuo; un'introduzione più dettagliata al NOI arriva nel Livello 2.
+
+### Che cosa stima
+Il cap rate (tasso di capitalizzazione) dà una stima approssimativa del rendimento potenziale di un immobile come investimento interamente in contanti, espressa in percentuale: è utile per confrontare rapidamente più immobili su una base simile.
+
+### Un punto di partenza, non il quadro completo
+*IPOTESI (a fini didattici):* Il cap rate è un utile strumento di primo confronto, ma non tiene conto dei dettagli del finanziamento, della futura rivalutazione né dei rischi specifici dell'immobile; una trattazione più completa arriva nel Livello 2.
+
+## Esempio Pratico
+*ESEMPIO ILLUSTRATIVO:* Un immobile con $24.000 di reddito operativo netto annuo e un valore di $300.000 ha un cap rate di $24.000 ÷ $300.000 = 8%.
+
+## Quiz Pratico
+1. La formula di base del cap rate è:
+   A. Entrate da affitto ÷ Anticipo
+   B. Reddito operativo netto ÷ Valore dell'immobile
+   C. Valore dell'immobile ÷ Debito residuo del mutuo
+   D. Spese totali ÷ Entrate da affitto
+2. Vero o falso: il cap rate tiene conto dei dettagli del finanziamento con mutuo.
+3. A che cosa serve generalmente il cap rate?
+   A. A calcolare l'imposta sugli immobili
+   B. A confrontare rapidamente i rendimenti potenziali di più immobili
+   C. A determinare il costo di un'ispezione della casa
+   D. A fissare la quota condominiale di una HOA
+
+## Chiave delle Risposte
+1. B
+2. Falso
+3. B
+
+## Risposte e Spiegazioni
+
+### Domanda 1
+Risposta corretta: B. Cap rate = NOI ÷ Valore dell'immobile.
+
+### Domanda 2
+Risposta corretta: Falso. Il cap rate si calcola prima di considerare i costi del finanziamento.
+
+### Domanda 3
+Risposta corretta: B. È uno strumento di confronto rapido tra immobili.
+
+## Punti Chiave da Ricordare
+- Cap rate = Reddito operativo netto ÷ Valore dell'immobile.
+- Stima il rendimento potenziale come se l'immobile fosse acquistato in contanti.
+- È un utile punto di partenza per i confronti, non un metodo di valutazione completo.
+
+===== RED-L1-024
+TITLE: Che cos'è il rendimento cash-on-cash?
+SUMMARY: Scopri in che cosa il rendimento cash-on-cash si differenzia dal cap rate, perché tiene conto del denaro effettivamente investito nell'operazione.
+# Che cos'è il rendimento cash-on-cash?
+
+## Obiettivi di Apprendimento
+Alla fine di questa lezione dovresti essere in grado di:
+- Enunciare la formula del rendimento cash-on-cash.
+- Spiegare in che cosa si differenzia dal cap rate.
+- Calcolare un rendimento cash-on-cash di base.
+
+## Contenuto Principale
+
+### La formula
+Rendimento cash-on-cash = Flusso di cassa annuo al lordo delle imposte ÷ Liquidità totale investita.
+A differenza del cap rate, che presuppone un acquisto interamente in contanti, il rendimento cash-on-cash misura il rendimento sul denaro effettivamente investito nell'operazione, tenendo conto del finanziamento.
+
+### In che cosa si differenzia dal cap rate
+Il cap rate ignora completamente il finanziamento. Il rendimento cash-on-cash ne tiene conto esplicitamente, perché la maggior parte degli investitori non paga tutto in contanti: versa una parte e finanzia il resto, e questo indicatore misura il rendimento proprio su quella parte investita.
+
+### Perché la distinzione è importante
+Due immobili identici possono avere rendimenti cash-on-cash molto diversi a seconda di come vengono finanziati, anche se il loro cap rate è lo stesso, perché il rendimento cash-on-cash riflette il capitale effettivamente messo a rischio dall'investitore, non il valore totale dell'immobile.
+
+## Esempio Pratico
+*ESEMPIO ILLUSTRATIVO:* Un investitore versa un anticipo di $50.000 (più $5.000 di costi di chiusura) su un immobile, per un totale di $55.000 di liquidità investita. L'immobile genera $6.600 di flusso di cassa annuo al lordo delle imposte. Rendimento cash-on-cash = $6.600 ÷ $55.000 = 12%.
+
+## Quiz Pratico
+1. Il rendimento cash-on-cash misura specificamente il rendimento su:
+   A. Il valore totale dell'immobile
+   B. Il denaro effettivamente investito nell'operazione
+   C. Il reddito operativo netto dell'immobile
+   D. L'aliquota locale dell'imposta sugli immobili
+2. Vero o falso: il rendimento cash-on-cash, a differenza del cap rate, tiene conto del finanziamento.
+3. Un investitore mette in un'operazione $40.000 di liquidità totale e riceve $4.800 di flusso di cassa annuo al lordo delle imposte. Qual è il rendimento cash-on-cash?
+   A. 8%
+   B. 10%
+   C. 12%
+   D. 20%
+
+## Chiave delle Risposte
+1. B
+2. Vero
+3. C
+
+## Risposte e Spiegazioni
+
+### Domanda 1
+Risposta corretta: B. Misura il rendimento sul denaro effettivamente investito.
+
+### Domanda 2
+Risposta corretta: Vero. È questa la differenza fondamentale rispetto al cap rate.
+
+### Domanda 3
+Risposta corretta: C. $4.800 ÷ $40.000 = 12%.
+
+## Punti Chiave da Ricordare
+- Rendimento cash-on-cash = Flusso di cassa annuo al lordo delle imposte ÷ Liquidità totale investita.
+- Tiene conto del finanziamento, a differenza del cap rate.
+- Immobili identici possono avere rendimenti cash-on-cash diversi a seconda di come vengono finanziati.
+
+===== RED-L1-025
+TITLE: Che cos'è la rivalutazione e perché non è garantita?
+SUMMARY: Scopri che cosa significa la rivalutazione di un immobile, quali fattori tendono a determinarla e perché non va mai data per scontata.
+# Che cos'è la rivalutazione e perché non è garantita?
+
+## Obiettivi di Apprendimento
+Alla fine di questa lezione dovresti essere in grado di:
+- Definire la rivalutazione in termini semplici.
+- Indicare i fattori che più comunemente la influenzano.
+- Spiegare perché la rivalutazione non va mai considerata garantita.
+
+## Contenuto Principale
+
+### Che cos'è la rivalutazione
+La rivalutazione è un aumento del valore di mercato di un immobile nel tempo. È uno dei due modi principali in cui il settore immobiliare può creare ricchezza per un proprietario; l'altro sono le entrate da affitto e il flusso di cassa.
+
+### Che cosa tende a determinarla
+La rivalutazione è comunemente influenzata da fattori come la domanda locale, le condizioni economiche generali, lo sviluppo del quartiere e i cicli di mercato più ampi: nessuno di questi è controllato direttamente dal singolo proprietario.
+
+### Perché non è mai garantita
+Anche i valori degli immobili possono scendere, a volte in modo significativo, soprattutto su periodi più brevi o durante fasi di calo generale del mercato. Considerare la rivalutazione una certezza è un'ipotesi comune e rischiosa; le lezioni successive sui cicli di mercato approfondiscono questo tema.
+
+## Esempio Pratico
+*ESEMPIO ILLUSTRATIVO:* Una casa acquistata per $300.000 potrebbe valere $340.000 cinque anni dopo grazie alla domanda locale e alle condizioni di mercato, oppure potrebbe valere $280.000 se il mercato locale fosse invece calato. Nessuno dei due risultati è garantito in anticipo.
+
+## Quiz Pratico
+1. La rivalutazione si riferisce a:
+   A. Le entrate mensili da affitto
+   B. Un aumento del valore di mercato di un immobile nel tempo
+   C. Un'ispezione obbligatoria della casa
+   D. Un tipo di assicurazione sul mutuo
+2. Vero o falso: la rivalutazione di un immobile è garantita in qualsiasi periodo di tempo.
+3. Qual è un fattore che influenza comunemente la rivalutazione?
+   A. Il colore della porta d'ingresso
+   B. La domanda locale e le condizioni generali del mercato
+   C. Il reddito personale dell'acquirente
+   D. Il nome della banca che concede il mutuo
+
+## Chiave delle Risposte
+1. B
+2. Falso
+3. B
+
+## Risposte e Spiegazioni
+
+### Domanda 1
+Risposta corretta: B. La rivalutazione è un aumento del valore di mercato nel tempo.
+
+### Domanda 2
+Risposta corretta: Falso. I valori possono anche scendere; la rivalutazione non è mai garantita.
+
+### Domanda 3
+Risposta corretta: B. La domanda locale e le condizioni di mercato sono fattori comuni.
+
+## Punti Chiave da Ricordare
+- La rivalutazione è un aumento del valore di mercato di un immobile nel tempo.
+- È influenzata da fattori che sfuggono al controllo del singolo proprietario.
+- Non va mai data per scontata: anche i valori possono scendere.

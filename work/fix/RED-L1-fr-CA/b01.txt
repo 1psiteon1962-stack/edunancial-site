@@ -1,0 +1,70 @@
+===== RED-L1-021
+TITLE: Les bases de l'immobilier commercial
+SUMMARY: L'immobilier commercial obéit à des règles différentes de l'immobilier résidentiel. Cette leçon présente les immeubles de bureaux, de commerce de détail, industriels et multilogements commerciaux, ainsi que les principaux indicateurs que les investisseurs utilisent pour les évaluer.
+# Les bases de l'immobilier commercial
+
+## Objectifs d'apprentissage
+
+À la fin de cette leçon, vous devriez pouvoir :
+
+- Nommer les quatre grandes catégories d'immobilier commercial.
+- Expliquer pourquoi un immeuble commercial s'évalue autrement qu'une maison ordinaire.
+- Repérer les principales différences de baux et de risques entre l'immobilier commercial et l'immobilier résidentiel.
+
+## Contenu principal
+
+### Les quatre grandes catégories
+
+L'immobilier commercial désigne les immeubles utilisés pour générer des revenus d'entreprise plutôt que pour servir de logement à quelqu'un. On le regroupe habituellement en quatre catégories : les bureaux (immeubles où travaillent les entreprises), le commerce de détail (magasins, centres commerciaux et restaurants), l'industriel (entrepôts, centres de distribution et fabrication légère) et le multilogement (immeubles d'appartements assez grands pour être financés et évalués comme une entreprise, souvent cinq logements ou plus selon la pratique de prêt aux États-Unis).
+
+### Évalué selon les revenus, pas selon des maisons comparables
+
+Une maison ordinaire s'évalue surtout en la comparant à des maisons semblables vendues récemment dans le secteur (les comparables vus plus tôt dans ce parcours). Un immeuble commercial s'évalue surtout selon les revenus qu'il produit. Deux indicateurs de ce niveau font l'essentiel du travail : le revenu net d'exploitation (RNE, ou NOI en anglais), soit le revenu qui reste après les dépenses d'exploitation, et le taux de capitalisation, qui met ce revenu en rapport avec la valeur de l'immeuble. Augmenter le RNE peut augmenter directement la valeur d'un immeuble commercial.
+
+### Les baux et les risques fonctionnent autrement
+
+*(RÈGLE PROPRE À LA RÉGION : les règles sur les baux, les protections des locataires et les normes de prêt varient beaucoup selon la province, l'État ou le pays.)* Les baux commerciaux sont souvent plus longs que les baux résidentiels, fréquemment de plusieurs années, et beaucoup transfèrent au locataire une partie des coûts d'exploitation, comme les taxes, l'assurance ou l'entretien. Des baux plus longs peuvent stabiliser les revenus, mais une période d'inoccupation peut durer beaucoup plus longtemps et coûter beaucoup plus cher, car trouver une nouvelle entreprise locataire prend généralement plus de temps que trouver un nouveau locataire résidentiel. Les prêts commerciaux exigent aussi généralement une mise de fonds plus importante et des durées plus courtes qu'un prêt hypothécaire résidentiel typique.
+
+## Exemple pratique
+
+*EXEMPLE ILLUSTRATIF :* Un petit immeuble de commerces produit un revenu net d'exploitation annuel de 60 000 $. Dans un marché où des immeubles semblables se transigent à un taux de capitalisation de 7,5 %, sa valeur estimée est de 60 000 $ ÷ 0,075 = 800 000 $. Si le propriétaire signe avec un nouveau locataire et que le RNE monte à 66 000 $, la valeur estimée au même taux de capitalisation devient 880 000 $ : c'est le revenu plus élevé lui-même qui augmente la valeur, ce qui n'est pas la façon dont on évalue habituellement une maison unifamiliale.
+
+## Questionnaire pratique
+
+1. Laquelle de ces propriétés fait partie des quatre grandes catégories d'immobilier commercial?
+   A. Une maison unifamiliale où habite le propriétaire
+   B. Un immeuble industriel, comme un entrepôt
+   C. Un chalet de vacances utilisé seulement par la famille du propriétaire
+   D. Un compte d'épargne
+2. Vrai ou faux : un immeuble commercial s'évalue surtout selon ses revenus, et non surtout selon les ventes de maisons comparables.
+3. Pourquoi une période d'inoccupation peut-elle coûter particulièrement cher en immobilier commercial?
+   A. Les locataires commerciaux ne partent jamais
+   B. Trouver une nouvelle entreprise locataire prend généralement plus de temps, donc la perte de revenus peut durer plus longtemps
+   C. Un immeuble commercial ne peut plus être loué après une période d'inoccupation
+   D. L'inoccupation ne touche que l'immobilier résidentiel
+
+## Corrigé
+
+1. B
+2. Vrai
+3. B
+
+## Réponses et explications
+
+### Question 1
+
+Bonne réponse : B. L'industriel est l'une des quatre grandes catégories, avec les bureaux, le commerce de détail et le multilogement.
+
+### Question 2
+
+Bonne réponse : Vrai. La valeur commerciale dépend surtout des revenus, mesurés à l'aide d'indicateurs comme le RNE et le taux de capitalisation.
+
+### Question 3
+
+Bonne réponse : B. Relouer à une entreprise prend souvent beaucoup plus de temps, ce qui prolonge la perte de revenus.
+
+## Points clés
+
+- L'immobilier commercial se divise généralement en quatre catégories : bureaux, commerce de détail, industriel et multilogement.
+- Un immeuble commercial s'évalue surtout selon les revenus qu'il produit, mesurés par le RNE et le taux de capitalisation.
+- Des baux plus longs peuvent stabiliser les revenus, mais l'inoccupation a tendance à durer plus longtemps et à coûter plus cher qu'en immobilier résidentiel.

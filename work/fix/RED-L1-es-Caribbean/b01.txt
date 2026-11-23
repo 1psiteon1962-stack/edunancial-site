@@ -1,0 +1,70 @@
+===== RED-L1-021
+TITLE: Fundamentos de los bienes raíces comerciales
+SUMMARY: Los bienes raíces comerciales funcionan con reglas distintas a los residenciales. Esta lección presenta las propiedades de oficinas, comercio al detal, industriales y multifamiliares comerciales, y los indicadores clave que usan los inversionistas para evaluarlas.
+# Fundamentos de los bienes raíces comerciales
+
+## Objetivos de aprendizaje
+
+Al final de esta lección, deberías poder:
+
+- Nombrar las cuatro categorías principales de bienes raíces comerciales.
+- Explicar por qué una propiedad comercial se valora de forma distinta a una casa común.
+- Identificar las diferencias clave en arrendamientos y riesgos entre la propiedad comercial y la residencial.
+
+## Contenido principal
+
+### Las cuatro categorías principales
+
+Los bienes raíces comerciales son propiedades que se usan para generar ingresos de negocio, no para servir de hogar a alguien. Suelen agruparse en cuatro categorías: oficinas (edificios donde trabajan las empresas), comercio al detal (tiendas, centros comerciales y restaurantes), industrial (almacenes, centros de distribución y manufactura ligera) y multifamiliar (edificios de apartamentos lo bastante grandes para financiarse y valorarse como un negocio; en la práctica de préstamos de EE. UU., a menudo cinco unidades o más).
+
+### Se valoran por sus ingresos, no por casas comparables
+
+Una casa común se valora principalmente comparándola con casas similares vendidas recientemente en la zona (los comparables que vimos antes en esta ruta). Una propiedad comercial se valora principalmente por los ingresos que produce. Dos indicadores de este nivel hacen casi todo el trabajo: el ingreso operativo neto (NOI), que es el ingreso que queda después de los gastos operativos, y la tasa de capitalización (cap rate), que relaciona ese ingreso con el valor de la propiedad. Aumentar el NOI puede aumentar directamente el valor de un edificio comercial.
+
+### Los arrendamientos y los riesgos funcionan distinto
+
+*(REGLA ESPECÍFICA DE LA REGIÓN: las reglas de arrendamiento, las protecciones para inquilinos y los criterios de préstamo varían mucho según el estado o el país.)* Los arrendamientos comerciales suelen ser más largos que los residenciales, a menudo de varios años, y muchos trasladan al inquilino parte de los costos operativos, como contribuciones, seguro o mantenimiento. Los arrendamientos más largos pueden hacer el ingreso más estable, pero una desocupación puede durar mucho más y costar mucho más, porque encontrar un nuevo inquilino comercial suele tomar más tiempo que encontrar un nuevo inquilino residencial. Los préstamos comerciales también tienden a exigir un pronto pago mayor y plazos más cortos que una hipoteca típica de vivienda.
+
+## Ejemplo práctico
+
+*EJEMPLO ILUSTRATIVO:* Un pequeño edificio de locales comerciales produce $60,000 de ingreso operativo neto al año. En un mercado donde propiedades similares se venden a una tasa de capitalización de 7.5%, su valor estimado es $60,000 ÷ 0.075 = $800,000. Si el dueño firma con un nuevo inquilino y el NOI sube a $66,000, el valor estimado con la misma tasa de capitalización pasa a $880,000: el mayor ingreso, por sí solo, aumenta el valor, y no es así como se suele valorar una casa unifamiliar.
+
+## Prueba de práctica
+
+1. ¿Cuál de estas es una de las cuatro categorías principales de bienes raíces comerciales?
+   A. Una casa unifamiliar donde vive el dueño
+   B. Una propiedad industrial, como un almacén
+   C. Una cabaña de vacaciones que solo usa la familia del dueño
+   D. Una cuenta de ahorros
+2. Verdadero o falso: una propiedad comercial se valora principalmente por sus ingresos, no principalmente por las ventas de casas comparables.
+3. ¿Por qué una desocupación puede ser especialmente costosa en los bienes raíces comerciales?
+   A. Los inquilinos comerciales nunca se van
+   B. Encontrar un nuevo inquilino comercial suele tomar más tiempo, así que la pérdida de ingresos puede durar más
+   C. Los edificios comerciales no pueden volver a arrendarse después de una desocupación
+   D. Las desocupaciones solo afectan a la propiedad residencial
+
+## Respuestas
+
+1. B
+2. Verdadero
+3. B
+
+## Respuestas y explicaciones
+
+### Pregunta 1
+
+Respuesta correcta: B. La propiedad industrial es una de las cuatro categorías principales, junto con oficinas, comercio al detal y multifamiliar.
+
+### Pregunta 2
+
+Respuesta correcta: Verdadero. El valor comercial depende principalmente de los ingresos, medidos con indicadores como el NOI y la tasa de capitalización.
+
+### Pregunta 3
+
+Respuesta correcta: B. Volver a arrendar a un inquilino comercial suele tomar mucho más tiempo, lo que alarga la pérdida de ingresos.
+
+## Puntos clave
+
+- Los bienes raíces comerciales suelen dividirse en cuatro categorías: oficinas, comercio al detal, industrial y multifamiliar.
+- Una propiedad comercial se valora principalmente por los ingresos que produce, medidos con el NOI y la tasa de capitalización.
+- Los arrendamientos más largos pueden estabilizar el ingreso, pero las desocupaciones tienden a durar más y costar más que en la propiedad residencial.

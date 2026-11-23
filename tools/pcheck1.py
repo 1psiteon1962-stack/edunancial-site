@@ -1,11 +1,11 @@
 # pcheck1.py COLOR LOCALE LEVEL -> structure check of batches in work/ vs English
 import sys,re,glob
 C,loc,L=sys.argv[1],sys.argv[2],(sys.argv[3] if len(sys.argv)>3 else '1')
-S='/home/claude/l5work'
+S='/home/claude/l5work'; import os; W=os.environ.get('W','')
 R='/home/claude/1psiteon1962-stack/edunancial-site/content/curriculum'
 mp={'Vrai':'T','Faux':'F','True':'T','False':'F','Verdadero':'T','Falso':'F','Wahr':'T','Falsch':'F','Vero':'T','Falso':'F','Waar':'T','Onwaar':'F','Vrè':'T','Fo':'F','Verdadeiro':'T'}
 ch={}
-for b in sorted(glob.glob(f'{S}/work/{C}-L{L}-{loc}/*.txt')):
+for b in sorted(glob.glob(f'{S}/work/{W}{C}-L{L}-{loc}/*.txt')):
     for c in re.split(r'^=====\s*',open(b,encoding='utf-8').read(),flags=re.M)[1:]:
         lid,rest=c.split('\n',1); ch[lid.strip()]=rest
 def sec(b,i):
