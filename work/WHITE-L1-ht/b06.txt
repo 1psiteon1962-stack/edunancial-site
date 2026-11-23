@@ -1,0 +1,437 @@
+===== WHITE-L1-031
+TITLE: Kisa enflasyon ye, e poukisa li chanje an silans sa lajan w vo?
+SUMMARY: Aprann sa enflasyon vle di, ak poukisa li manje pouvwa acha a an silans menm lè balans labank ou rete menm jan.
+# Kisa enflasyon ye, e poukisa li chanje an silans sa lajan w vo?
+
+## Objektif aprantisaj
+
+Lè w fin fè leson sa a, w ap kapab:
+
+- Bay definisyon enflasyon an mo senp.
+- Esplike poukisa yon balans labank ki pa chanje ka toujou pèdi vrè valè.
+- Konekte enflasyon ak rezon ki fè kenbe lajan kach sèlman gen yon vrè pri.
+
+## Kontni prensipal
+
+### Kisa enflasyon ye
+
+Enflasyon se yon ogmantasyon jeneral nan pri yo avèk tan, sa vle di chak inite lajan achte mwens pase sa l te konn achte.
+
+### Poukisa yon balans ki pa chanje ka toujou pèdi valè
+
+Si pri yo monte 3% nan yon ane epi yon balans labank pa touche okenn enterè, lajan sa a ka achte apeprè 3% mwens pase sa l te ka achte yon ane anvan – chif ki nan kont lan pa t diminye, men vrè pouvwa acha li diminye.
+
+### Poukisa sa enpòtan pou envestisman
+
+Paske enflasyon manje pouvwa acha avèk tan, kenbe lajan kach ki pa rapòte anyen pa vrèman "san danje" nan tout sans – li gen vrè risk pou l pèdi valè devan pri k ap monte, se yon rezon prensipal ki fè anpil moun envesti olye yo jis sere lajan kach sou lontan.
+
+## Egzanp pratik
+
+$1,000 ki chita nan yon kont ki pa bay enterè pandan yon ane, ak 3% enflasyon, ka achte apeprè $970 nan sa l te ka achte yon ane anvan – menm si kont lan toujou montre $1,000.
+
+## Egzamen pratik
+
+1. Enflasyon vle di:
+   A. Yon bès nan pri yo avèk tan
+   B. Yon ogmantasyon jeneral nan pri yo avèk tan
+   C. Yon kalite obligasyon
+   D. Yon taks gouvènman
+
+2. Vrè oswa fo: Yon balans labank ki pa chanje toujou pwoteje kont pèt vrè valè.
+
+3. Poukisa kenbe lajan kach sou lontan ka gen yon vrè risk?
+   A. Lajan kach pa janm ka pèdi valè
+   B. Enflasyon ka manje pouvwa acha li avèk tan
+   C. Lajan kach toujou touche gwo enterè
+   D. Pa gen okenn risk pou kenbe lajan kach
+
+## Kle repons yo
+
+1. B
+2. Fo
+3. B
+
+## Repons ak eksplikasyon
+
+### Kesyon 1
+
+Repons kòrèk: B. Enflasyon se yon ogmantasyon jeneral nan pri yo avèk tan.
+
+### Kesyon 2
+
+Repons kòrèk: Fo. Enflasyon ka manje vrè valè a menm lè balans nominal la pa chanje.
+
+### Kesyon 3
+
+Repons kòrèk: B. Enflasyon manje pouvwa acha, sa se yon vrè risk lè w kenbe lajan kach sou lontan.
+
+## Pwen kle yo
+
+- Enflasyon se yon ogmantasyon jeneral nan pri yo, ki diminye pouvwa acha.
+- Yon balans kont ki pa chanje ka toujou pèdi vrè valè akoz enflasyon.
+- Kenbe lajan kach sou lontan gen yon vrè risk moun souvan pa konsidere ase.
+
+===== WHITE-L1-032
+TITLE: Kisa likidite ye, an mo senp?
+SUMMARY: Aprann sa likidite vle di, ak poukisa kèk byen ka tounen lajan kach pi vit pase lòt.
+# Kisa likidite ye, an mo senp?
+
+## Objektif aprantisaj
+
+Lè w fin fè leson sa a, w ap kapab:
+
+- Bay definisyon likidite an mo senp.
+- Konpare likidite diferan kalite byen.
+- Esplike poukisa likidite enpòtan nan planifikasyon finansye.
+
+## Kontni prensipal
+
+### Kisa likidite vle di
+
+Likidite vle di konbyen vit ak konbyen fasil ou ka chanje yon byen an lajan kach san ou pa pèdi anpil nan valè li.
+
+### Konpare likidite ant byen yo
+
+Yon aksyon yo achte e vann piblikman anjeneral trè likid – souvan ou ka vann li nan kèk segonn pandan lè mache a ouvri, a yon pri toupre pri aktyèl li. Imobilye, okontrè, anjeneral mwens likid anpil – vann yon pwopriyete anjeneral pran plizyè semèn oswa plizyè mwa e li gen gwo frè tranzaksyon, yon diferans nou te pale de li pi bonè nan nivo sa a.
+
+### Poukisa likidite enpòtan
+
+Lajan ou ka bezwen vit (yon fon pou ijans, pa egzanp) anjeneral dwe nan byen ki trè likid. Lajan ou p ap bezwen pou lontan ka pi rezonab nan envestisman ki mwens likid, ki pafwa bay lòt avantaj an echanj.
+
+## Egzanp pratik
+
+Yon envestisè ki bezwen aksè rapid a lajan kach pou yon ijans ta vle lajan sa a nan yon byen likid tankou yon kont epay oswa yon aksyon ki fasil pou vann – se pa nan yon pwopriyete ki ta ka pran plizyè mwa pou vann.
+
+## Egzamen pratik
+
+1. Likidite vle di:
+   A. Konbyen yon byen vo
+   B. Konbyen vit ak konbyen fasil ou ka chanje yon byen an lajan kach
+   C. Yon kalite dividann
+   D. To enterè yon obligasyon
+
+2. Vrè oswa fo: Imobilye anjeneral pi likid pase yon aksyon yo achte e vann piblikman.
+
+3. Poukisa yon fon ijans ta dwe nan yon byen ki trè likid?
+   A. Likidite pa enpòtan pou ijans
+   B. Ou ka bezwen aksè rapid a lajan kach san avètisman
+   C. Byen ki pa likid toujou peye plis enterè
+   D. Fon ijans ta dwe toujou nan imobilye
+
+## Kle repons yo
+
+1. B
+2. Fo
+3. B
+
+## Repons ak eksplikasyon
+
+### Kesyon 1
+
+Repons kòrèk: B. Likidite konsène jan li fasil ak rapid pou chanje yon byen an lajan kach.
+
+### Kesyon 2
+
+Repons kòrèk: Fo. Aksyon anjeneral pi likid anpil pase imobilye.
+
+### Kesyon 3
+
+Repons kòrèk: B. Ijans mande aksè rapid, sa favorize byen likid.
+
+## Pwen kle yo
+
+- Likidite se konbyen vit ak konbyen fasil yon byen tounen lajan kach.
+- Aksyon anjeneral trè likid; imobilye anjeneral mwens likid anpil.
+- Lajan ou ka bezwen vit anjeneral dwe nan byen likid.
+
+===== WHITE-L1-033
+TITLE: Kisa yon fon mache monetè (money market fund) ye?
+SUMMARY: Aprann kisa yon fon mache monetè ye, ak poukisa yo anjeneral konsidere l kòm yon opsyon ki gen mwens risk e ki pi likid pase lòt fon.
+# Kisa yon fon mache monetè (money market fund) ye?
+
+## Objektif aprantisaj
+
+Lè w fin fè leson sa a, w ap kapab:
+
+- Bay definisyon yon fon mache monetè an mo senp.
+- Esplike nan kisa li anjeneral envesti.
+- Esplike poukisa yo anjeneral konsidere l kòm mwens riske pase yon fon aksyon.
+
+## Kontni prensipal
+
+### Kisa yon fon mache monetè ye
+
+Yon fon mache monetè se yon kalite fon mityèl ki envesti nan enstriman dèt kout tèm, anjeneral ki gen bon kalite, ak objektif pou bay estabilite ak likidite olye gwo kwasans.
+
+### Nan kisa li anjeneral envesti
+
+Fon mache monetè yo souvan kenbe bagay tankou dèt gouvènman kout tèm ak lòt prè trè kout tèm ak bon kalite kredi – envestisman yo anjeneral chwazi pou estabilite yo olye potansyèl kwasans.
+
+### Poukisa li anjeneral mwens riske
+
+Paske li kenbe dèt kout tèm ak bon kalite, yo anjeneral konsidere yon fon mache monetè kòm mwens riske e pi estab nan valè pase yon fon aksyon – byenke li pa totalman san risk, e anjeneral li bay rannman ki pi modès kòm konpwomi.
+
+## Egzanp pratik
+
+Yon envestisè ki vle yon kote ki relativman estab pou kenbe lajan kach li ka bezwen byento, pandan l ap toujou touche yon ti rannman, ka itilize yon fon mache monetè olye yon fon ki konsantre sou aksyon ki gen plis volatilite.
+
+## Egzamen pratik
+
+1. Yon fon mache monetè anjeneral envesti nan:
+   A. Aksyon teknoloji ki gen gwo kwasans
+   B. Enstriman dèt kout tèm ak bon kalite
+   C. Imobilye dirèkteman
+   D. Kriptomonnen sèlman
+
+2. Vrè oswa fo: Yo anjeneral konsidere fon mache monetè kòm pi riske pase fon aksyon.
+
+3. Poukisa yon envestisè ta ka itilize yon fon mache monetè?
+   A. Pou maksimize potansyèl kwasans sou lontan
+   B. Pou yon estabilite relatif ak likidite
+   C. Pou evite tout fòm risk nèt
+   D. Pou achte imobilye
+
+## Kle repons yo
+
+1. B
+2. Fo
+3. B
+
+## Repons ak eksplikasyon
+
+### Kesyon 1
+
+Repons kòrèk: B. Fon mache monetè yo kenbe dèt kout tèm ak bon kalite.
+
+### Kesyon 2
+
+Repons kòrèk: Fo. Yo anjeneral konsidere yo kòm mwens riske pase fon aksyon.
+
+### Kesyon 3
+
+Repons kòrèk: B. Estabilite ak likidite se atrè prensipal yo.
+
+## Pwen kle yo
+
+- Yon fon mache monetè envesti nan dèt kout tèm ak bon kalite.
+- Yo anjeneral konsidere l kòm mwens riske e pi estab pase fon aksyon.
+- Li echanje potansyèl kwasans ki pi wo kont estabilite ak likidite.
+
+===== WHITE-L1-034
+TITLE: Kisa yon CD (sètifika depo) ye?
+SUMMARY: Aprann kisa yon CD ye, kijan li bloke lajan pou yon rannman, ak vrè konpwomi si w retire lajan an bonè.
+# Kisa yon CD (sètifika depo) ye?
+
+## Objektif aprantisaj
+
+Lè w fin fè leson sa a, w ap kapab:
+
+- Bay definisyon yon CD an mo senp.
+- Esplike konpwomi debaz yon CD ofri.
+- Esplike sa ki anjeneral rive si w retire lajan an bonè.
+
+## Kontni prensipal
+
+### Kisa yon CD ye
+
+Yon CD (Certificate of Deposit, sètifika depo) se yon pwodui epay bank yo ofri, kote ou depoze lajan pou yon peryòd fiks kont yon to enterè fiks, anjeneral pi wo pase yon kont epay nòmal.
+
+### Konpwomi debaz la
+
+Kont yon to enterè ki anjeneral pi wo e ki garanti, moun ki depoze a anjeneral dakò pou l pa retire lajan an jiskaske tèm CD a fini – li echanje likidite (nou te wè sa nan leson anvan an) kont yon pi bon to.
+
+### Sa ki rive si w retire lajan an bonè
+
+Si w retire lajan nan yon CD anvan tèm li fini, anjeneral sa lakòz yon penalite, ki souvan diminye oswa elimine yon pati nan enterè ou te touche – penalite sa a se vrè pri pou w kraze konpwomi likidite a.
+
+## Egzanp pratik
+
+Yon envestisè mete $5,000 nan yon CD 1 ane a yon to fiks, li dakò pou l pa manyen l pandan yon ane. Si li bezwen lajan an apre 6 mwa, anjeneral li ka retire l, men li gen anpil chans pou l fè fas ak yon penalite ki diminye enterè li te ka touche.
+
+## Egzamen pratik
+
+1. Yon CD anjeneral ofri:
+   A. Likidite total san avantaj sou to a
+   B. Yon to enterè fiks kont bloke lajan pou yon tèm fiks
+   C. Pwopriyete nan yon konpayi
+   D. Rannman kwasans wo ki garanti
+
+2. Vrè oswa fo: Retire lajan nan yon CD bonè toujou gratis, san penalite.
+
+3. Kisa yon CD echanje kont yon to enterè ki anjeneral pi wo?
+   A. Divèsifikasyon
+   B. Likidite – lajan an anjeneral bloke pou yon tèm fiks
+   C. Dwa pwopriyete
+   D. Pwoteksyon kont risk kredi
+
+## Kle repons yo
+
+1. B
+2. Fo
+3. B
+
+## Repons ak eksplikasyon
+
+### Kesyon 1
+
+Repons kòrèk: B. Yon CD echanje likidite kont yon to fiks, souvan pi wo.
+
+### Kesyon 2
+
+Repons kòrèk: Fo. Retire lajan bonè anjeneral lakòz yon penalite.
+
+### Kesyon 3
+
+Repons kòrèk: B. Se likidite yo echanje kont avantaj sou to a.
+
+## Pwen kle yo
+
+- Yon CD ofri yon to fiks kont bloke lajan pou yon tèm.
+- Li echanje likidite kont yon to enterè ki anjeneral pi bon.
+- Retire lajan bonè anjeneral lakòz yon vrè penalite.
+
+===== WHITE-L1-035
+TITLE: Kisa yon fon ijans ye, e poukisa li vini anvan envestisman?
+SUMMARY: Aprann kisa yon fon ijans ye, ak poukisa kou sa a konsidere l kòm yon etap obligatwa anvan lòt envestisman.
+# Kisa yon fon ijans ye, e poukisa li vini anvan envestisman?
+
+## Objektif aprantisaj
+
+Lè w fin fè leson sa a, w ap kapab:
+
+- Bay definisyon yon fon ijans an mo senp.
+- Esplike poukisa yo anjeneral rekòmande l anvan lòt envestisman.
+- Esplike poukisa li dwe nan yon kote ki likid e ki gen ti risk.
+
+## Kontni prensipal
+
+### Kisa yon fon ijans ye
+
+Yon fon ijans se lajan ou mete apa espesyalman pou kouvri depans ou pa t atann oswa lè revni w koupe (pèt yon travay, yon reparasyon ijan, yon depans medikal) – se pa pou envesti ni pou depans ou te planifye.
+
+### Poukisa li anjeneral vini an premye
+
+San yon fon ijans, yon depans ou pa t atann ka fòse yon moun vann envestisman l nan yon move moman (petèt ak pèt) oswa pran dèt ak gwo enterè. Lè w gen kousen sa a an plas an premye, sa pwoteje lòt plan finansye a long tèm pou ijans kout tèm pa deranje yo.
+
+### Poukisa li dwe yon kote ki likid
+
+Pou n konekte ak leson sou likidite pi bonè nan nivo sa a, yon fon ijans bezwen disponib vit, san penalite ni risk pèt – se pou sa li anjeneral dwe nan yon bagay tankou yon kont epay oswa yon fon mache monetè, se pa nan aksyon oswa nan yon CD ki gen penalite pou retire lajan.
+
+## Egzanp pratik
+
+Yon moun ki envesti tout epay li nan aksyon, san fon ijans, ka oblije vann aksyon sa yo ak pèt pandan yon bès nan mache a jis pou l peye yon reparasyon machin li pa t atann – yon sitiyasyon yon fon ijans fèt espesyalman pou anpeche.
+
+## Egzamen pratik
+
+1. Yon fon ijans se:
+   A. Lajan ou envesti pou kwasans sou lontan
+   B. Lajan ou mete apa espesyalman pou depans ou pa t atann oswa lè revni w koupe
+   C. Yon kalite kont retrèt
+   D. Yon polis asirans obligatwa
+
+2. Vrè oswa fo: Yo anjeneral rekòmande pou envesti yon fon ijans nan aksyon pou maksimòm kwasans.
+
+3. Poukisa yo rekòmande pou w gen yon fon ijans anvan lòt envestisman?
+   A. Li pa gen okenn vrè avantaj
+   B. Li anpeche w bezwen vann envestisman nan yon move moman pandan yon ijans
+   C. Li garanti benefis envestisman
+   D. Li ranplase bezwen pou asirans
+
+## Kle repons yo
+
+1. B
+2. Fo
+3. B
+
+## Repons ak eksplikasyon
+
+### Kesyon 1
+
+Repons kòrèk: B. Yon fon ijans kouvri depans ou pa t atann oswa lè revni w koupe.
+
+### Kesyon 2
+
+Repons kòrèk: Fo. Li anjeneral dwe nan yon kote ki likid e ki gen ti risk, se pa nan aksyon.
+
+### Kesyon 3
+
+Repons kòrèk: B. Li anpeche w oblije vann envestisman nan yon move moman pandan ijans.
+
+## Pwen kle yo
+
+- Yon fon ijans kouvri depans ou pa t atann, se pa envestisman ou te planifye.
+- Li anjeneral vini anvan lòt envestisman pou pwoteje plan a long tèm.
+- Li dwe nan yon kote ki likid e ki gen ti risk, ou ka jwenn li san penalite.
+
+===== WHITE-L1-036
+TITLE: Kisa valè an dola kont vrè valè (pouvwa acha) ye?
+SUMMARY: Aprann diferans ant montan dola lajan an ak vrè pouvwa acha li, ki bati dirèkteman sou leson enflasyon an.
+# Kisa valè an dola kont vrè valè (pouvwa acha) ye?
+
+## Objektif aprantisaj
+
+Lè w fin fè leson sa a, w ap kapab:
+
+- Fè diferans ant valè an dola (nominal) ak vrè valè (pouvwa acha).
+- Esplike poukisa konpare montan dola sou diferan epòk ka twonpe moun.
+- Aplike diferans sa a nan yon egzanp debaz.
+
+## Kontni prensipal
+
+### Valè an dola (nominal) kont vrè valè
+
+Valè an dola, oswa valè nominal, lajan se tou senpleman chif ki sou kont lan oswa sou chèk peye a. Vrè valè a se sa lajan sa a ka achte toutbon, apre w fin konte enflasyon, nou te wè sa nan leson anvan an nan nivo sa a.
+
+### Poukisa konpare sou diferan epòk ka twonpe
+
+$50,000 revni jodi a ak $50,000 revni ven ane de sa pa menm bagay an tèm reyèl, paske pri yo chanje pandan tan sa a. Lè w konpare chif yo jan yo ye san w pa ajiste pou enflasyon, sa ka bay yon move pòtre sou vrè pwogrè finansye.
+
+### Aplike diferans lan
+
+Chak fwa w ap konpare lajan sou diferan moman – yon salè, yon rannman envestisman, yon pri istorik – vrè valè a (ajiste pou enflasyon) rakonte yon istwa pi egzak pase chif dola a pou kont li.
+
+## Egzanp pratik
+
+Yon salè ki monte soti $50,000 rive $55,000 sou senk ane sanble yon kwasans an tèm nominal. Si enflasyon pandan peryòd sa a te diminye pouvwa acha apeprè menm kantite a, vrè valè salè sa a ka prèske pa t grandi ditou, oswa menm desann.
+
+## Egzamen pratik
+
+1. Vrè valè vle di:
+   A. Chif ki sou yon kont jan li ye
+   B. Sa lajan ka achte toutbon, ajiste pou enflasyon
+   C. Yon kalite dividann
+   D. Kapitalizasyon bousye yon konpayi
+
+2. Vrè oswa fo: Lè w konpare montan dola jan yo ye sou diferan deseni, sa toujou bay yon pòtre egzak sou pwogrè finansye.
+
+3. Poukisa yon ogmantasyon salè ta ka sanble pi bon an tèm nominal pase sa li ye toutbon an tèm reyèl?
+   A. Valè nominal ak vrè valè toujou menm bagay
+   B. Enflasyon ka te diminye pouvwa acha yo te genyen an
+   C. Enflasyon pa janm afekte salè
+   D. Vrè valè aplike sèlman pou obligasyon
+
+## Kle repons yo
+
+1. B
+2. Fo
+3. B
+
+## Repons ak eksplikasyon
+
+### Kesyon 1
+
+Repons kòrèk: B. Vrè valè reflete vrè pouvwa acha, se pa sèlman chif la jan li ye.
+
+### Kesyon 2
+
+Repons kòrèk: Fo. Konparezon chif yo jan yo ye sou diferan epòk ka twonpe si w pa ajiste pou enflasyon.
+
+### Kesyon 3
+
+Repons kòrèk: B. Enflasyon ka manje vrè benefis yon ogmantasyon nominal.
+
+## Pwen kle yo
+
+- Valè nominal se chif dola a jan li ye; vrè valè a konte pouvwa acha.
+- Konpare montan dola jan yo ye sou diferan epòk ka twonpe.
+- Vrè valè bay yon pòtre pi egzak sou vrè pwogrè finansye.
