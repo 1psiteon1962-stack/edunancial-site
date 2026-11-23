@@ -5,45 +5,77 @@ officialTrackName: Business
 level: 1
 lessonNumber: 10
 locale: es-ES
-title: "¿Qué Es el Patrimonio Neto en una Empresa?"
-summary: "El patrimonio neto en una empresa representa la participación del propietario en la compañía — esencialmente lo que quedaría si se vendieran todos los activos y se pagaran todas las deudas. *HECHO VERIFICADO:* Patrimonio Neto = Activos − Pasivos."
+title: "Elegir una estructura de negocio: ¿qué preguntas deberías hacer primero?"
+summary: "Une las estructuras vistas hasta ahora en un marco práctico para tomar la decisión."
 version: "1.0"
 author: Waldemar M. Caban, JD MA
 date: 2026-08-08
 ---
 
-# BLUE-L1-010: ¿Qué Es el Patrimonio Neto en una Empresa?
+# Elegir una estructura de negocio: ¿qué preguntas deberías hacer primero?
 
-## Objetivos de Aprendizaje
-1. Definir el patrimonio neto empresarial en términos sencillos.
-2. Distinguir el patrimonio neto de los ingresos y el beneficio.
-3. Explicar cómo puede cambiar el patrimonio neto a lo largo del tiempo.
+## Objetivos de aprendizaje
 
-## Contenido Principal
-El patrimonio neto en una empresa representa la participación del propietario en la compañía — esencialmente lo que quedaría si se vendieran todos los activos y se pagaran todas las deudas. *HECHO VERIFICADO:* Patrimonio Neto = Activos − Pasivos.
+Al final de esta lección, deberías poder:
 
-*SUPOSICIÓN:* El patrimonio neto generalmente crece cuando una empresa retiene beneficios (en lugar de distribuirlos todos a los propietarios) o cuando los propietarios inyectan capital adicional, y puede reducirse cuando la empresa asume pérdidas o deudas que superan sus activos.
+- Enumerar preguntas clave que ayudan a acotar una estructura de negocio adecuada.
+- Aplicar esas preguntas a una situación hipotética básica.
+- Reconocer que este es un marco de partida, no un consejo personalizado.
 
-## Ejemplo Práctico
-*EJEMPLO ILUSTRATIVO:* Una pequeña empresa tiene $80.000 en activos (equipos, existencias, efectivo) y $30.000 en deudas pendientes. Patrimonio Neto = $80.000 − $30.000 = $50.000. Si la empresa tiene un buen año y retiene $10.000 en beneficios en lugar de repartirlos todos, el patrimonio neto crece a $60.000 — la participación del propietario ha aumentado incluso sin vender nada.
+## Contenido principal
 
-## Cuestionario Práctico
-1. ¿Cuál es la fórmula del patrimonio neto empresarial?
-2. ¿Qué representa el patrimonio neto, en términos sencillos?
-3. Verdadero/Falso: El patrimonio neto es lo mismo que los ingresos.
-4. Si una empresa tiene $100.000 en activos y $40.000 en pasivos, ¿cuál es su patrimonio neto?
+### Las preguntas que vale la pena hacer primero
 
-## Clave de Respuestas
-1. Activos − Pasivos   2. La participación del propietario en la empresa   3. Falso   4. $60.000
+Antes de entrar en los detalles legales, pregúntate: ¿cuántos dueños hay? ¿Cuánta protección de responsabilidad personal se necesita realmente, según el nivel de riesgo del negocio? ¿Es una profesión con licencia que tiene sus propias normas de estructura? ¿Es una prioridad reducir la doble tributación? Estas preguntas no dan por sí solas una respuesta final, pero acotan bastante las opciones.
 
-## Respuestas y Explicaciones
-1. Este es el cálculo estándar del patrimonio neto.
-2. Este es el significado fundamental del patrimonio neto en un contexto empresarial.
-3. Los ingresos son el dinero que entra por ventas; el patrimonio neto es la participación general del propietario en la empresa.
-4. $100.000 − $40.000 = $60.000.
+### Cómo recorrerlas
 
-## Puntos Clave a Recordar
-- Patrimonio Neto = Activos − Pasivos, representando la participación del propietario en la empresa.
-- Los beneficios retenidos y la inversión de capital adicional generalmente aumentan el patrimonio neto.
-- El patrimonio neto es distinto de los ingresos y el beneficio — refleja el valor general de propiedad, no el flujo de ingresos.
+A un dueño único con preocupaciones reales de responsabilidad y sin interés en atraer inversionistas externos a menudo se le orienta hacia una LLC. Varios profesionales con licencia podrían considerar una LLP. A un negocio que planea atraer mucho capital externo, o que quiere emitir muchas acciones, a menudo se le orienta hacia una corporación, una conexión con material que se ve más en el Nivel 3.
 
+### Un límite importante
+
+*IMPORTANTE:* Esta lección ofrece un marco general para entender, no un consejo legal o fiscal personalizado. Una decisión real debería involucrar a un profesional calificado que revise la situación concreta de la persona; la "analogía del médico", que se ve más adelante en este nivel, explica justamente por qué vale la pena ese paso.
+
+## Ejemplo práctico
+
+*EJEMPLO ILUSTRATIVO:* Una persona que empieza sola un negocio de jardinería, preocupada por la responsabilidad si su equipo daña la propiedad de alguien, recorre el marco: un dueño, una preocupación real de responsabilidad, ninguna necesidad inmediata de atraer capital externo. Pregúntate: ¿hacia qué estructura de las lecciones anteriores de este nivel apunta esa combinación? Una LLC encaja bien con ese perfil.
+
+## Cuestionario de práctica
+
+1. ¿Qué pregunta es un punto de partida útil al elegir una estructura de negocio?
+   A. ¿De qué color debería ser el logotipo?
+   B. ¿Cuántos dueños hay y cuánta protección de responsabilidad se necesita?
+   C. ¿En qué época del año debería abrir el negocio?
+   D. ¿Cuántos seguidores en redes sociales tiene el dueño?
+2. Verdadero o falso: el marco de esta lección sustituye el consejo legal o fiscal profesional.
+3. A un dueño único con preocupaciones reales de responsabilidad y sin planes de atraer capital externo a menudo se le orienta hacia ¿qué estructura?
+   A. Una sociedad general
+   B. Una LLC
+   C. Una LLP
+   D. Una organización sin fines de lucro
+
+## Clave de respuestas
+
+1. B
+2. Falso
+3. B
+
+## Respuestas y explicaciones
+
+### Pregunta 1
+
+Respuesta correcta: B. El número de dueños y las necesidades de responsabilidad son preguntas de partida centrales.
+
+### Pregunta 2
+
+Respuesta correcta: Falso. Es un marco general, no un sustituto del consejo profesional.
+
+### Pregunta 3
+
+Respuesta correcta: B. Ese perfil suele apuntar hacia una LLC.
+
+## Puntos clave
+
+- Preguntas clave para empezar: número de dueños, necesidades de responsabilidad, tipo de profesión y planes para atraer capital.
+- Estas preguntas acotan las opciones, pero no reemplazan el consejo profesional.
+- Este marco conecta directamente con las estructuras vistas antes en este nivel.
