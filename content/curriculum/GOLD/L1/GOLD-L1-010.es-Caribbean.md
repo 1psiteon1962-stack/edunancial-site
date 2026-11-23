@@ -1,53 +1,54 @@
 ---
 id: GOLD-L1-010
 track: GOLD
-officialTrackName: "Inversión"
+officialTrackName: "Investing"
 level: 1
 lessonNumber: 10
 locale: es-Caribbean
-title: "Comprender pureza y medidas de peso"
-summary: "Introduce las unidades de peso y las medidas de pureza utilizadas en los metales preciosos."
+title: "Entender las medidas de pureza y de peso"
+summary: "Presenta las unidades básicas y las medidas de pureza que se usan en el mercado de los metales preciosos."
 version: "1.0"
 author: "Waldemar M. Caban, JD MA"
 date: "2026-08-09"
 ---
 
-# Comprender pureza y medidas de peso
+# Entender las medidas de pureza y de peso
 
-## Objetivos de Aprendizaje
-- Identificar unidades comunes de peso
-- Explicar qué significa pureza o fineza
-- Interpretar una descripción básica de un producto
+## Objetivos de aprendizaje
+- Identificar las unidades de peso comunes que se usan para los metales preciosos
+- Explicar qué significa la pureza (ley) y por qué afecta el valor
+- Practicar cómo leer la descripción básica de un producto
 
-## Contenido Principal
+## Contenido principal
 
-Los metales preciosos utilizan unidades específicas. El oro y la plata suelen expresarse en onzas troy y también en gramos. [HECHO VERIFICABLE] Una onza troy equivale aproximadamente a 31.1 gramos y no es igual a la onza avoirdupois de uso cotidiano, de aproximadamente 28.35 gramos.
+Los metales preciosos se miden y se describen con unidades específicas que pueden confundir a un principiante. El oro se mide comúnmente en onzas troy (una unidad un poco más pesada que la onza común, propia históricamente de los metales preciosos) o en gramos, sobre todo en las piezas más pequeñas. La plata también se mide sobre todo en onzas troy. [DATO VERIFICADO] Una onza troy equivale aproximadamente a 31.1 gramos, lo que es distinto de la onza común "avoirdupois" (unos 28.3 gramos) que se usa para la mayoría de los artículos de uso diario; esta distinción importa porque usar la conversión equivocada puede crear una confusión real sobre cuánto metal se está comprando realmente.
 
-La pureza o fineza indica qué proporción de una pieza corresponde realmente al metal precioso. El oro también puede describirse en quilates; 24 quilates representa oro prácticamente puro en ese sistema. Una fineza .999 significa aproximadamente 99.9 % de metal precioso. Para comprender cuánto metal se adquiere es necesario considerar conjuntamente peso y pureza.
+La pureza, que a menudo se expresa como "ley" (fineness, en inglés), describe qué parte de una pieza es realmente el metal precioso y qué parte son otros metales mezclados para darle durabilidad. La pureza del oro a menudo se describe en quilates (24 quilates es oro puro) o como una ley decimal (.999 significa 99.9% puro). Una pureza más alta, en general, significa que el valor de la pieza sigue de forma más cercana y directa el precio al contado del metal, ya que una parte menor del peso es material de relleno no precioso.
 
-## Ejemplo Resuelto
+## Ejemplo práctico
 
-[EJEMPLO ILUSTRATIVO] Una pieza descrita como "una onza troy de plata .999" pesa aproximadamente 31.1 gramos y contiene aproximadamente 99.9 % de plata. Confundir onzas normales con onzas troy o ignorar la pureza puede producir errores al comparar productos.
+[EJEMPLO ILUSTRATIVO] Una moneda descrita como "una onza troy de plata de ley .999" significa que pesa una onza troy (unos 31.1 gramos) y que es 99.9% plata pura, con un porcentaje restante muy pequeño de otros materiales en trazas para darle durabilidad. Entender las dos cifras juntas (la unidad de peso y la pureza) es necesario para saber exactamente lo que se compra, ya que una suposición equivocada sobre cualquiera de las dos (usar onzas comunes en vez de onzas troy, o ignorar la pureza) podría llevar a un malentendido real sobre el valor.
 
-## Cuestionario Práctico
-1. ¿Cuánto pesa aproximadamente una onza troy?
-2. ¿Qué describe la pureza o fineza?
-3. ¿Qué significa .999?
-4. ¿Por qué deben analizarse juntos peso y pureza?
+## Prueba de práctica
 
-## Clave de Respuestas
-1. Aproximadamente 31.1 gramos.
-2. La proporción de la pieza que corresponde al metal precioso.
-3. Aproximadamente 99.9 % de pureza.
-4. Porque juntos determinan aproximadamente cuánto metal precioso contiene la pieza.
+1. ¿En qué unidad se miden comúnmente el oro y la plata, y en qué se diferencia de una onza común?
+2. ¿Qué describe la "pureza" o "ley"?
+3. ¿Qué significa una ley de .999?
+4. ¿Por qué importa entender juntos el peso y la pureza?
 
-## Respuestas y Explicaciones
-1. Aproximadamente 31.1 gramos.
-2. La proporción de la pieza que corresponde al metal precioso.
-3. Aproximadamente 99.9 % de pureza.
-4. Porque juntos determinan aproximadamente cuánto metal precioso contiene la pieza.
+## Clave de respuestas
+1. La onza troy, que con unos 31.1 gramos es más pesada que la onza común avoirdupois (unos 28.3 gramos).
+2. Qué parte de una pieza es realmente el metal precioso y qué parte son otros metales mezclados.
+3. Que la pieza es 99.9% metal precioso puro, con un porcentaje restante muy pequeño de otros materiales.
+4. Porque una suposición equivocada sobre cualquiera de los dos podría llevar a un malentendido real sobre exactamente cuánto valor se está comprando.
 
-## Puntos Clave a Recordar
-- Una onza troy no es una onza cotidiana.
-- La pureza afecta el contenido real de metal.
-- Peso y fineza deben verificarse antes de comparar productos.
+## Respuestas y explicaciones
+1. Esta distinción evita una confusión común de los principiantes entre la onza troy y la onza común.
+2. La pureza describe el contenido real de metal precioso en relación con el peso total de una pieza.
+3. Esto aplica directamente el concepto de ley a un ejemplo concreto y común del mundo real.
+4. Las dos medidas juntas determinan el contenido real de metal precioso que se está comprando.
+
+## Puntos clave
+- Los metales preciosos se miden normalmente en onzas troy o en gramos, y la onza troy es distinta de la onza común.
+- La pureza (ley) describe qué parte de una pieza es realmente metal precioso y qué parte son otros materiales.
+- Entender juntos el peso y la pureza es necesario para saber exactamente lo que se compra.

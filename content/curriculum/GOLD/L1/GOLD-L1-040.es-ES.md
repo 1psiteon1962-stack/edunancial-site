@@ -1,58 +1,56 @@
 ---
 id: GOLD-L1-040
 track: GOLD
-officialTrackName: Inversión y Construcción de Patrimonio
+officialTrackName: "Investing"
 level: 1
 lessonNumber: 40
 locale: es-ES
-title: "Revisar y ajustar un plan de metales con el tiempo"
-summary: "Comprende revisar y ajustar un plan de metales con el tiempo y cómo encaja en una base sólida de alfabetización inversora."
-version: 1.0
-author: Waldemar M. Caban, JD MA
+title: "Cómo revisar y ajustar un plan de metales con el tiempo"
+summary: "Explica cómo y cuándo se debería revisar con honestidad, y posiblemente ajustar, un plan de inversión en metales preciosos."
+version: "1.0"
+author: "Waldemar M. Caban, JD MA"
+date: "2026-08-09"
 ---
 
-# Revisar y ajustar un plan de metales con el tiempo
+# Cómo revisar y ajustar un plan de metales con el tiempo
 
-## Objetivo de aprendizaje
+## Objetivos de aprendizaje
+- Explicar la diferencia entre seguir un plan con disciplina y negarse tercamente a ajustarlo
+- Identificar los motivos adecuados y deliberados para revisar un plan de inversión en metales
+- Distinguir un ajuste legítimo del plan de un abandono reactivo y emocional
 
-Al terminar esta lección podrás explicar el concepto con tus propias palabras, reconocer sus principales ventajas y riesgos y relacionarlo con una decisión financiera real.
+## Contenido principal
 
-## Concepto central
+Un plan personal bien construido, como el que se vio en la lección anterior, no está pensado para seguirse a ciegas para siempre sin importar los cambios de circunstancias; pero tampoco debería abandonarse de forma reactiva a la primera señal de volatilidad del precio a corto plazo. La diferencia clave está entre una revisión deliberada y periódica y un abandono reactivo y emocional, de forma parecida a la diferencia entre perseverancia y terquedad que se ve en la ruta de liderazgo de este currículo.
 
-Revisar y ajustar un plan de metales con el tiempo forma parte de la alfabetización inversora porque invertir exige comprender qué se posee, por qué puede cambiar de valor y qué riesgos se aceptan. En la pista GOLD, los metales preciosos sirven como una forma concreta de estudiar principios que también se aplican a otras inversiones.
+Entre los motivos adecuados para revisar un plan están: cambios importantes en las circunstancias financieras personales (un cambio de ingresos, nuevas metas financieras, un gasto importante que se acerca), una revisión periódica programada (una vez al año, por ejemplo, en vez de hacerlo constantemente) o un cambio genuino y bien razonado en la comprensión del papel que deberían cumplir los metales preciosos en el panorama financiero general; y no simplemente que los precios se movieran en una dirección inesperada durante un período corto.
 
-No existe un activo apropiado para todas las personas ni para todas las situaciones. La decisión depende de objetivos, horizonte temporal, liquidez, tolerancia al riesgo, costes y circunstancias personales. EDUNANCIAL proporciona información para que el alumno pueda evaluar esas variables y tomar sus propias decisiones; no promete rentabilidad ni recomienda una inversión concreta.
+Esta diferencia importa porque el propósito de poner un plan por escrito de antemano, como se vio en la lección anterior, es tener un punto de referencia estable precisamente para resistir las decisiones emocionales reactivas y a corto plazo. Un plan que se abandona cada vez que hay volatilidad a corto plazo anula por completo su propio propósito.
 
-## Aplicación práctica
+## Ejemplo práctico
 
-Antes de actuar, separa el precio del valor, identifica todos los costes y pregunta qué tendría que ocurrir para que la decisión produzca un resultado distinto del esperado. Compara alternativas y considera también el coste de oportunidad del dinero utilizado.
+Un inversor que sigue su plan escrito ve una caída importante del precio a corto plazo poco después de una compra. El plan mismo ya preveía este tipo de volatilidad (lo que se conecta con la lección anterior sobre la volatilidad), así que esto por sí solo no es un motivo legítimo para abandonar el plan: es justo el tipo de momento que el plan se escribió de antemano para ayudar a resistir. Compáralo con un cambio de vida genuino, como la pérdida de un empleo que afecte mucho el presupuesto mensual disponible: ese sí es un motivo legítimo y deliberado para revisar y ajustar el componente específico del presupuesto del plan, sin necesidad de abandonar la estrategia general a largo plazo ni el razonamiento que la sostiene.
 
-Cuando intervengan impuestos, regulación, custodia, seguros o normas de mercado, recuerda que las reglas varían según el país y la jurisdicción. Los ejemplos estadounidenses son ejemplos educativos y no deben tratarse como reglas universales.
+## Cuestionario de práctica
 
-## Ejemplo
+1. ¿Cuál es la diferencia clave que plantea esta lección en cuanto al ajuste de un plan?
+2. Nombra dos motivos adecuados y legítimos para revisar un plan de inversión en metales.
+3. ¿Una caída del precio a corto plazo, por sí sola, es un motivo legítimo para abandonar un plan bien construido?
+4. ¿Por qué la lección relaciona este concepto con la diferencia entre perseverancia y terquedad de la ruta de liderazgo?
 
-Una persona reserva una cantidad que puede permitirse mantener invertida y compara varias opciones. En lugar de comprar solo porque el precio ha subido, analiza el propósito de la posición, los costes de compra y venta, la facilidad de convertirla en efectivo y el papel que tendría dentro de su patrimonio total.
+## Clave de respuestas
+1. La revisión deliberada y periódica frente al abandono reactivo y emocional.
+2. Cualesquiera dos de estos: cambios importantes en las circunstancias financieras personales, una revisión periódica programada o un cambio genuino y bien razonado en la comprensión.
+3. No: el plan se escribió de antemano precisamente para ayudar a resistir exactamente este tipo de volatilidad a corto plazo prevista.
+4. Porque ambas distinciones implican mantenerse comprometido con una meta de fondo sólida y, al mismo tiempo, responder de verdad a razones reales y deliberadas para cambiar, en vez de reaccionar emocionalmente al ruido a corto plazo.
 
-## Comprobación de comprensión
-
-**Pregunta:** ¿Cuál es el enfoque más sólido antes de tomar una decisión relacionada con este concepto?
-
-A. Actuar porque otra persona afirma que el precio subirá.  
-B. Evaluar objetivos, riesgos, costes, liquidez y alternativas.  
-C. Suponer que los resultados pasados garantizan los futuros.  
-D. Concentrar todo el capital en una sola idea.
-
-**Respuesta:** B.
+## Respuestas y explicaciones
+1. Esta diferencia es el concepto central que establece la lección para manejar de forma adecuada la revisión de un plan.
+2. Estos motivos representan razones genuinas y deliberadas para ajustar, distintas de las respuestas reactivas a la volatilidad.
+3. Esto refuerza que la volatilidad prevista no es, por sí sola, un motivo legítimo para abandonar un plan bien razonado.
+4. Esta conexión entre rutas refuerza un principio coherente que se aplica en distintos ámbitos de este currículo.
 
 ## Puntos clave
-
-- Comprende el activo o estrategia antes de comprometer dinero.
-- Riesgo y rentabilidad potencial deben analizarse juntos.
-- Los costes y la liquidez afectan al resultado real.
-- La diversificación puede reducir la dependencia de una sola posición, pero no elimina el riesgo.
-- Las normas fiscales y legales dependen de la jurisdicción.
-- La información debe ayudarte a decidir; no sustituye asesoramiento profesional individualizado.
-
-## Reflexión
-
-Explica cómo aplicarías esta lección a una decisión propia sin depender de una predicción sobre el precio futuro.
+- Un plan debería revisarse de forma deliberada y periódica, no abandonarse de forma reactiva por la volatilidad del precio a corto plazo.
+- Entre los motivos legítimos de revisión están los cambios reales en las circunstancias financieras, las revisiones periódicas programadas o los cambios genuinos en la comprensión, y no solo el movimiento del precio a corto plazo.
+- Esto refleja la diferencia entre perseverancia y terquedad: mantenerse comprometido con un plan sólido sin dejar de responder de verdad a razones reales y deliberadas para cambiar.

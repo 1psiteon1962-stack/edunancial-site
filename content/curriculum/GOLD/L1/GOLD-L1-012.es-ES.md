@@ -1,58 +1,54 @@
 ---
 id: GOLD-L1-012
 track: GOLD
-officialTrackName: Inversión y Construcción de Patrimonio
+officialTrackName: "Investing"
 level: 1
 lessonNumber: 12
 locale: es-ES
-title: "Primas, diferenciales y fundamentos de los distribuidores"
-summary: "Comprende primas, diferenciales y fundamentos de los distribuidores y cómo encaja en una base sólida de alfabetización inversora."
-version: 1.0
-author: Waldemar M. Caban, JD MA
+title: "Primas, diferenciales y lo básico sobre los comerciantes"
+summary: "Explica la diferencia entre el precio al contado del metal y lo que realmente paga un comprador."
+version: "1.0"
+author: "Waldemar M. Caban, JD MA"
+date: "2026-08-09"
 ---
 
-# Primas, diferenciales y fundamentos de los distribuidores
+# Primas, diferenciales y lo básico sobre los comerciantes
 
-## Objetivo de aprendizaje
+## Objetivos de aprendizaje
+- Definir en términos sencillos el precio al contado, la prima y el diferencial
+- Explicar por qué el precio que se paga por el metal físico es distinto del precio al contado
+- Reconocer la importancia de comparar comerciantes antes de comprar
 
-Al terminar esta lección podrás explicar el concepto con tus propias palabras, reconocer sus principales ventajas y riesgos y relacionarlo con una decisión financiera real.
+## Contenido principal
 
-## Concepto central
+El precio al contado (spot price, en inglés) es el precio de mercado actual de una cantidad dada de metal sin elaborar: el precio de referencia que verás publicado. Cuando se compra realmente metal físico a un comerciante, el precio que se paga suele ser más alto que el precio al contado, y esa diferencia se llama prima. La prima cubre los costes del comerciante de fabricar la moneda o la barra, la distribución y su margen.
 
-Primas, diferenciales y fundamentos de los distribuidores forma parte de la alfabetización inversora porque invertir exige comprender qué se posee, por qué puede cambiar de valor y qué riesgos se aceptan. En la pista GOLD, los metales preciosos sirven como una forma concreta de estudiar principios que también se aplican a otras inversiones.
+El diferencial (spread, en inglés) es la brecha entre el precio al que un comerciante vende una pieza de metal y el precio al que le vuelve a comprar esa misma pieza: el precio de recompra de un comerciante suele ser más bajo que su precio de venta, y esa brecha representa parte del margen del negocio del comerciante. Los distintos comerciantes ofrecen primas y diferenciales distintos, y los distintos productos (las monedas comunes frente a las barras menos comunes, por ejemplo) pueden tener niveles de prima distintos. Comparar varios comerciantes y entender estos costes desde el principio ayuda a un inversor a no pagar de más y a entender el coste real de comprar y, con el tiempo, vender metal físico.
 
-No existe un activo apropiado para todas las personas ni para todas las situaciones. La decisión depende de objetivos, horizonte temporal, liquidez, tolerancia al riesgo, costes y circunstancias personales. EDUNANCIAL proporciona información para que el alumno pueda evaluar esas variables y tomar sus propias decisiones; no promete rentabilidad ni recomienda una inversión concreta.
+## Ejemplo práctico
 
-## Aplicación práctica
+[EJEMPLO ILUSTRATIVO] Si el precio al contado de una onza de plata es cierta cantidad publicada, un comerciante podría vender una moneda de plata común al precio al contado más una prima que refleja los costes de acuñación y de distribución. Si ese mismo inversor quiere más tarde volver a venderle la moneda, la oferta de recompra del comerciante normalmente sería algo más baja que el precio de venta del momento: ese es el diferencial. Entender tanto la prima que se paga al comprar como el diferencial al vender ayuda a un inversor a estimar de forma realista cuánto vale realmente una posición si tuviera que convertirse de nuevo en efectivo, en vez de suponer que vale exactamente el precio al contado en todo momento.
 
-Antes de actuar, separa el precio del valor, identifica todos los costes y pregunta qué tendría que ocurrir para que la decisión produzca un resultado distinto del esperado. Compara alternativas y considera también el coste de oportunidad del dinero utilizado.
+## Cuestionario de práctica
 
-Cuando intervengan impuestos, regulación, custodia, seguros o normas de mercado, recuerda que las reglas varían según el país y la jurisdicción. Los ejemplos estadounidenses son ejemplos educativos y no deben tratarse como reglas universales.
+1. Define con tus propias palabras el precio al contado, la prima y el diferencial.
+2. ¿Por qué el precio que se paga por el metal físico suele ser mayor que el precio al contado?
+3. ¿Qué representa el diferencial?
+4. ¿Por qué entender las primas y los diferenciales le importa a un inversor?
 
-## Ejemplo
+## Clave de respuestas
+1. El precio al contado es el precio de referencia actual del mercado; la prima es el coste adicional sobre el precio al contado al comprar; el diferencial es la brecha entre los precios de compra y de venta de un comerciante.
+2. Porque la prima cubre los costes de fabricación y distribución del comerciante y su margen.
+3. La brecha entre el precio al que vende un comerciante y el precio al que vuelve a comprar, que representa parte del margen del comerciante.
+4. Ayuda a un inversor a estimar de forma realista el coste real de comprar y el valor real si vende, en vez de suponer que una posición vale exactamente el precio al contado en todo momento.
 
-Una persona reserva una cantidad que puede permitirse mantener invertida y compara varias opciones. En lugar de comprar solo porque el precio ha subido, analiza el propósito de la posición, los costes de compra y venta, la facilidad de convertirla en efectivo y el papel que tendría dentro de su patrimonio total.
-
-## Comprobación de comprensión
-
-**Pregunta:** ¿Cuál es el enfoque más sólido antes de tomar una decisión relacionada con este concepto?
-
-A. Actuar porque otra persona afirma que el precio subirá.  
-B. Evaluar objetivos, riesgos, costes, liquidez y alternativas.  
-C. Suponer que los resultados pasados garantizan los futuros.  
-D. Concentrar todo el capital en una sola idea.
-
-**Respuesta:** B.
+## Respuestas y explicaciones
+1. Estas tres definiciones establecen el vocabulario básico de precios de las transacciones de metal físico.
+2. Los costes y el margen del comerciante son las razones prácticas de la prima sobre el precio al contado.
+3. El diferencial refleja una parte normal del modelo de negocio de un comerciante, no un coste oculto ni inusual.
+4. Una estimación realista del valor, que tenga en cuenta los costes de comprar y de vender, es la utilidad práctica de entender estos términos.
 
 ## Puntos clave
-
-- Comprende el activo o estrategia antes de comprometer dinero.
-- Riesgo y rentabilidad potencial deben analizarse juntos.
-- Los costes y la liquidez afectan al resultado real.
-- La diversificación puede reducir la dependencia de una sola posición, pero no elimina el riesgo.
-- Las normas fiscales y legales dependen de la jurisdicción.
-- La información debe ayudarte a decidir; no sustituye asesoramiento profesional individualizado.
-
-## Reflexión
-
-Explica cómo aplicarías esta lección a una decisión propia sin depender de una predicción sobre el precio futuro.
+- El precio al contado es la referencia del mercado; la prima es lo que añade un comerciante al vender metal físico.
+- El diferencial es la brecha entre los precios de compra y de venta de un comerciante, y representa parte de su margen.
+- Comparar comerciantes y entender estos costes ayuda a un inversor a estimar de forma realista el valor real de una posición.

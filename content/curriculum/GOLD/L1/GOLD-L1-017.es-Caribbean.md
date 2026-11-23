@@ -1,54 +1,54 @@
 ---
 id: GOLD-L1-017
 track: GOLD
-officialTrackName: "Inversión"
+officialTrackName: "Investing"
 level: 1
 lessonNumber: 17
 locale: es-Caribbean
-title: "La inflación y por qué importa a los inversionistas"
-summary: "Explica la inflación y por qué es una razón importante para comprender el crecimiento del dinero."
+title: "La inflación y por qué les importa a los inversionistas"
+summary: "Explica la inflación en términos sencillos y por qué es una de las razones centrales de que invertir importe."
 version: "1.0"
 author: "Waldemar M. Caban, JD MA"
 date: "2026-08-09"
 ---
 
-# La inflación y por qué importa a los inversionistas
+# La inflación y por qué les importa a los inversionistas
 
-## Objetivos de Aprendizaje
-- Explicar el concepto central de esta lección
-- Identificar sus riesgos, límites y aplicaciones
-- Aplicarlo dentro de un proceso de inversión disciplinado
+## Objetivos de aprendizaje
+- Definir la inflación en términos sencillos
+- Explicar por qué la inflación desgasta el valor del dinero que no se invierte
+- Reconocer por qué esto hace que invertir sea relevante incluso para los ahorradores cautelosos
 
-## Contenido Principal
+## Contenido principal
 
-La inflación es el aumento general de los precios con el tiempo, lo que significa que cada unidad de moneda compra algo menos que antes. [HECHO VERIFICABLE] La mayoría de las economías modernas experimentan algún nivel de inflación en muchos años, aunque la tasa varía considerablemente. Por ello, dinero que permanece sin crecer puede perder poder adquisitivo aunque su cantidad nominal no disminuya.
+La inflación es el aumento general de los precios con el tiempo, lo que a su vez significa que cada unidad de moneda compra algo menos que antes. [DATO VERIFICADO] La mayoría de las economías modernas tienen algún nivel de inflación continua casi todos los años, aunque la tasa varía bastante con el tiempo. Esto significa que el dinero que simplemente se queda quieto sin crecer va perdiendo poder de compra en silencio: en el futuro puede comprar menos de lo que compra hoy, aunque la cantidad de dólares no haya cambiado.
 
-Esto ayuda a explicar por qué la función "Hacer Crecer" importa. No significa que cada dólar deba invertirse agresivamente; el marco Ganar/Conservar/Hacer Crecer/Transmitir sigue siendo aplicable. Significa que mantener poder adquisitivo a largo plazo requiere considerar el efecto de la inflación.
+Esta es una de las razones centrales por las que invertir importa, incluso para alguien que es cauteloso con el riesgo por naturaleza. El dinero que no crece al menos al ritmo de la inflación en la práctica va perdiendo valor real con el tiempo, aunque se sienta "seguro" porque la cifra de la cuenta no baja. Esto no significa que cada dólar deba invertirse de forma agresiva (el marco de ganar, conservar, hacer crecer y transmitir visto antes sigue aplicándose), pero sí significa que entender la inflación es parte de entender por qué importa la función de "hacer crecer" el dinero.
 
-## Ejemplo Resuelto
+## Ejemplo práctico
 
-[EJEMPLO ILUSTRATIVO] Aplica el concepto a una persona que invierte una cantidad sostenible cada mes durante un horizonte de varios años. Antes de cambiar el plan por un movimiento reciente del mercado, debe comparar el hecho nuevo con su objetivo, presupuesto, horizonte temporal, liquidez y tolerancia al riesgo.
+[EJEMPLO ILUSTRATIVO] Si una cantidad específica de dinero podía comprar cierta canasta de bienes este año, y los precios de esa misma canasta suben en los años siguientes por la inflación, la misma cantidad de dinero compra menos de esa canasta más adelante, aunque la cantidad de dólares no haya cambiado. Si ese mismo dinero se hubiera invertido y hubiera crecido a un ritmo mayor que la inflación, habría mantenido o aumentado su poder de compra real durante ese mismo período, en vez de desgastarse en silencio.
 
-## Cuestionario Práctico
-1. Explica el concepto principal con tus propias palabras.
-2. ¿Qué riesgo o limitación importante presenta?
-3. ¿Cómo influye el horizonte temporal?
-4. ¿Qué información verificarías antes de actuar?
+## Prueba de práctica
 
-## Clave de Respuestas
-1. Debe demostrar comprensión del concepto central de la lección.
-2. Debe identificar correctamente una limitación, riesgo o incertidumbre relevante.
-3. Un horizonte más largo o más corto cambia la importancia de la volatilidad, liquidez y capacidad de recuperación.
-4. Objetivo, costos, riesgos, liquidez, alternativas y hechos relevantes.
+1. Define con tus propias palabras la inflación.
+2. En un contexto de inflación continua, ¿qué le pasa al dinero que simplemente se queda quieto sin crecer?
+3. ¿Significa esto que cada dólar debería invertirse de forma agresiva?
+4. ¿Por qué entender la inflación importa para entender la función de "hacer crecer" el dinero?
 
-## Respuestas y Explicaciones
-1. Comprender el razonamiento importa más que memorizar una definición.
-2. Reconocer límites evita convertir una tendencia o herramienta en una garantía.
-3. El horizonte temporal conecta la decisión con la necesidad real del dinero.
-4. Verificar información antes de actuar reduce decisiones impulsivas.
+## Clave de respuestas
+1. El aumento general de los precios con el tiempo, lo que significa que cada unidad de moneda compra algo menos que antes.
+2. Pierde poder de compra en silencio con el tiempo, aunque la cifra en sí no baje.
+3. No: el marco de ganar, conservar, hacer crecer y transmitir sigue aplicándose; cada dinero cumple funciones distintas.
+4. Porque la inflación explica por qué simplemente guardar el dinero no basta para mantener su valor real: hace falta que crezca, al menos al mismo ritmo.
 
-## Puntos Clave a Recordar
-- Relaciona cada decisión con un objetivo.
-- Considera riesgo, costos, liquidez y horizonte temporal.
-- Las tendencias históricas no garantizan resultados futuros.
-- Utiliza información para comprender, no para reaccionar impulsivamente.
+## Respuestas y explicaciones
+1. Esto define la inflación como un desgaste del poder de compra, no solo como un aumento aislado de los precios.
+2. El desgaste del poder de compra es la consecuencia práctica de la inflación sobre el dinero que no se invierte.
+3. Esto se conecta con el marco anterior y evita la conclusión simplista de "invertirlo todo".
+4. Esto relaciona directamente la inflación con la razón de ser de la función de hacer crecer presentada en la primera lección.
+
+## Puntos clave
+- La inflación significa que los precios suben en general con el tiempo, así que cada unidad de moneda compra algo menos que antes.
+- El dinero que simplemente se queda quieto sin crecer pierde en silencio poder de compra real por la inflación continua.
+- Entender la inflación explica por qué importa la función de "hacer crecer" el dinero, sin implicar que cada dólar deba invertirse de forma agresiva.

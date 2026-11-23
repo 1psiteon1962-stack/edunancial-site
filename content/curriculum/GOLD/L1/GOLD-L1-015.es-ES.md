@@ -1,58 +1,54 @@
 ---
 id: GOLD-L1-015
 track: GOLD
-officialTrackName: Inversión y Construcción de Patrimonio
+officialTrackName: "Investing"
 level: 1
 lessonNumber: 15
 locale: es-ES
-title: "Cómo seguir tu posición a lo largo del tiempo"
-summary: "Comprende cómo seguir tu posición a lo largo del tiempo y cómo encaja en una base sólida de alfabetización inversora."
-version: 1.0
-author: Waldemar M. Caban, JD MA
+title: "Cómo dar seguimiento a tu posición con el tiempo"
+summary: "Enseña lo básico de llevar registros de una posición de inversión que se va acumulando."
+version: "1.0"
+author: "Waldemar M. Caban, JD MA"
+date: "2026-08-09"
 ---
 
-# Cómo seguir tu posición a lo largo del tiempo
+# Cómo dar seguimiento a tu posición con el tiempo
 
-## Objetivo de aprendizaje
+## Objetivos de aprendizaje
+- Explicar por qué importa dar seguimiento a una posición de inversión, incluso en un activo sencillo
+- Identificar la información básica que vale la pena anotar en cada compra
+- Practicar cómo preparar un registro de seguimiento sencillo
 
-Al terminar esta lección podrás explicar el concepto con tus propias palabras, reconocer sus principales ventajas y riesgos y relacionarlo con una decisión financiera real.
+## Contenido principal
 
-## Concepto central
+A medida que una posición de inversión crece con el tiempo mediante compras regulares, llevar un registro sencillo se vuelve cada vez más valioso. Sin seguimiento, es fácil perder una idea clara de la cantidad total que se tiene, de lo que realmente se pagó por ella a lo largo del tiempo (algo importante para entender el desempeño real y, más adelante, a efectos fiscales) y del patrón general de la acumulación.
 
-Cómo seguir tu posición a lo largo del tiempo forma parte de la alfabetización inversora porque invertir exige comprender qué se posee, por qué puede cambiar de valor y qué riesgos se aceptan. En la pista GOLD, los metales preciosos sirven como una forma concreta de estudiar principios que también se aplican a otras inversiones.
+Un registro de seguimiento básico de una posición en metales preciosos debería incluir, como mínimo: la fecha de cada compra, la cantidad comprada (onzas o gramos), el precio pagado por unidad (incluida cualquier prima) y la cantidad total gastada en esa compra. Con el tiempo, este registro permite al inversor calcular su coste promedio real por unidad (lo que se conecta directamente con el concepto de promedio del coste visto antes) y ver de un vistazo toda la historia de la acumulación, en vez de depender de la memoria o de recibos dispersos.
 
-No existe un activo apropiado para todas las personas ni para todas las situaciones. La decisión depende de objetivos, horizonte temporal, liquidez, tolerancia al riesgo, costes y circunstancias personales. EDUNANCIAL proporciona información para que el alumno pueda evaluar esas variables y tomar sus propias decisiones; no promete rentabilidad ni recomienda una inversión concreta.
+## Ejemplo práctico
 
-## Aplicación práctica
+[EJEMPLO ILUSTRATIVO] En el caso de estudio continuo, dar seguimiento a las compras de plata desde los 11 años en un registro sencillo (fecha, onzas compradas, precio pagado, total gastado) permite calcular con claridad, años después, el coste promedio real por onza, en vez de depender de una idea vaga de "llevo años comprando plata". Cuando empiezan las compras de oro a los 15 años, un registro parecido para el oro, llevado por separado, mantiene claras y distintas las historias de acumulación de los dos metales, lo que apoya el tipo de revisión a largo plazo en que se basarán más adelante las lecciones finales de esta ruta.
 
-Antes de actuar, separa el precio del valor, identifica todos los costes y pregunta qué tendría que ocurrir para que la decisión produzca un resultado distinto del esperado. Compara alternativas y considera también el coste de oportunidad del dinero utilizado.
+## Cuestionario de práctica
 
-Cuando intervengan impuestos, regulación, custodia, seguros o normas de mercado, recuerda que las reglas varían según el país y la jurisdicción. Los ejemplos estadounidenses son ejemplos educativos y no deben tratarse como reglas universales.
+1. ¿Por qué importa dar seguimiento a una posición de inversión, incluso en un activo sencillo como los metales preciosos?
+2. Nombra los cuatro datos básicos que debería incluir un registro de seguimiento en cada compra.
+3. ¿Qué cálculo hace posible con el tiempo un buen registro de seguimiento?
+4. ¿Por qué el caso de estudio lleva registros separados para la plata y el oro?
 
-## Ejemplo
+## Clave de respuestas
+1. Porque, sin seguimiento, es fácil perder una idea clara del total que se tiene, del coste real y del patrón general de la acumulación.
+2. La fecha de la compra, la cantidad comprada, el precio pagado por unidad y la cantidad total gastada.
+3. El coste promedio real por unidad a lo largo del tiempo, lo que se conecta directamente con el concepto de promedio del coste.
+4. Porque son dos metales distintos con calendarios de acumulación distintos, y los registros separados mantienen clara y distinta cada historia.
 
-Una persona reserva una cantidad que puede permitirse mantener invertida y compara varias opciones. En lugar de comprar solo porque el precio ha subido, analiza el propósito de la posición, los costes de compra y venta, la facilidad de convertirla en efectivo y el papel que tendría dentro de su patrimonio total.
-
-## Comprobación de comprensión
-
-**Pregunta:** ¿Cuál es el enfoque más sólido antes de tomar una decisión relacionada con este concepto?
-
-A. Actuar porque otra persona afirma que el precio subirá.  
-B. Evaluar objetivos, riesgos, costes, liquidez y alternativas.  
-C. Suponer que los resultados pasados garantizan los futuros.  
-D. Concentrar todo el capital en una sola idea.
-
-**Respuesta:** B.
+## Respuestas y explicaciones
+1. Llevar registros evita depender de la memoria, que se vuelve poco confiable a medida que una posición crece con los años.
+2. Estos cuatro datos forman el registro de seguimiento mínimo útil de cualquier posición que se va acumulando.
+3. El cálculo del coste promedio relaciona directamente el seguimiento con el concepto central de la lección anterior sobre el DCA.
+4. Llevar un seguimiento separado de cada metal favorece la claridad, sobre todo dados sus distintos puntos de partida en el caso de estudio.
 
 ## Puntos clave
-
-- Comprende el activo o estrategia antes de comprometer dinero.
-- Riesgo y rentabilidad potencial deben analizarse juntos.
-- Los costes y la liquidez afectan al resultado real.
-- La diversificación puede reducir la dependencia de una sola posición, pero no elimina el riesgo.
-- Las normas fiscales y legales dependen de la jurisdicción.
-- La información debe ayudarte a decidir; no sustituye asesoramiento profesional individualizado.
-
-## Reflexión
-
-Explica cómo aplicarías esta lección a una decisión propia sin depender de una predicción sobre el precio futuro.
+- Dar seguimiento a una posición de inversión con el tiempo evita depender de la memoria y favorece una comprensión exacta del coste real.
+- Un registro básico debería incluir, en cada compra, la fecha, la cantidad, el precio pagado por unidad y el total gastado.
+- Llevar un seguimiento constante permite calcular el coste promedio real por unidad, lo que se conecta directamente con el promedio del coste.

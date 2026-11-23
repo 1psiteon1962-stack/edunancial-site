@@ -1,58 +1,54 @@
 ---
 id: GOLD-L1-019
 track: GOLD
-officialTrackName: Inversión y Construcción de Patrimonio
+officialTrackName: "Investing"
 level: 1
 lessonNumber: 19
 locale: es-ES
-title: "Establecer un presupuesto de inversión que puedas permitirte"
-summary: "Comprende establecer un presupuesto de inversión que puedas permitirte y cómo encaja en una base sólida de alfabetización inversora."
-version: 1.0
-author: Waldemar M. Caban, JD MA
+title: "Fijar un presupuesto de inversión que te puedas permitir"
+summary: "Enseña a determinar una cantidad sostenible para invertir sin poner en riesgo otras necesidades financieras."
+version: "1.0"
+author: "Waldemar M. Caban, JD MA"
+date: "2026-08-09"
 ---
 
-# Establecer un presupuesto de inversión que puedas permitirte
+# Fijar un presupuesto de inversión que te puedas permitir
 
-## Objetivo de aprendizaje
+## Objetivos de aprendizaje
+- Explicar por qué invertir más de lo que te puedes permitir de forma sostenible crea un riesgo real
+- Identificar los factores básicos que hay que considerar al fijar un presupuesto de inversión
+- Practicar una forma sencilla de determinar una cantidad de inversión sostenible
 
-Al terminar esta lección podrás explicar el concepto con tus propias palabras, reconocer sus principales ventajas y riesgos y relacionarlo con una decisión financiera real.
+## Contenido principal
 
-## Concepto central
+Antes de invertir con constancia, vale la pena decidir de forma deliberada cuánto se puede invertir realmente de manera sostenible y continua: no el máximo teóricamente posible en un buen mes, sino una cantidad que razonablemente pueda mantenerse incluso durante un período más ajustado. Invertir más de lo que de verdad es sostenible crea un riesgo real: puede llevar a tener que vender inversiones en un mal momento para cubrir una necesidad que no tiene relación, o a abandonar el hábito por completo durante una etapa difícil, y ambas cosas van en contra de la constancia que esta ruta ha recalcado como tan valiosa.
 
-Establecer un presupuesto de inversión que puedas permitirte forma parte de la alfabetización inversora porque invertir exige comprender qué se posee, por qué puede cambiar de valor y qué riesgos se aceptan. En la pista GOLD, los metales preciosos sirven como una forma concreta de estudiar principios que también se aplican a otras inversiones.
+Una forma sencilla: primero asegúrate de que las necesidades básicas y, cuando sea posible, algunos ahorros de emergencia (la función de "conservar" vista antes) estén razonablemente cubiertos; luego determina, con lo que quede, una cantidad de inversión que pueda mantenerse de forma realista aunque los ingresos o las circunstancias se volvieran algo más ajustados. Esta cantidad siempre puede aumentar más adelante, según lo permitan las circunstancias: empezar de forma conservadora e ir aumentando con el tiempo tiende a formar un hábito más duradero que empezar de forma agresiva y tener que recortar o parar por completo.
 
-No existe un activo apropiado para todas las personas ni para todas las situaciones. La decisión depende de objetivos, horizonte temporal, liquidez, tolerancia al riesgo, costes y circunstancias personales. EDUNANCIAL proporciona información para que el alumno pueda evaluar esas variables y tomar sus propias decisiones; no promete rentabilidad ni recomienda una inversión concreta.
+## Ejemplo práctico
 
-## Aplicación práctica
+[EJEMPLO ILUSTRATIVO] En el caso de estudio, empezar las compras de plata a los 11 años con una cantidad modesta y realmente sostenible permitió que el hábito continuara con constancia durante años sin presión, en vez de empezar con una cantidad que al principio podría haber resultado emocionante, pero que habría sido difícil de mantener. Este presupuesto inicial modesto y sostenible es parte de lo que permitió que de verdad hubiera años de promedio del coste constante, lo que formó la base a la que luego se añadieron las compras de oro a los 15 años.
 
-Antes de actuar, separa el precio del valor, identifica todos los costes y pregunta qué tendría que ocurrir para que la decisión produzca un resultado distinto del esperado. Compara alternativas y considera también el coste de oportunidad del dinero utilizado.
+## Cuestionario de práctica
 
-Cuando intervengan impuestos, regulación, custodia, seguros o normas de mercado, recuerda que las reglas varían según el país y la jurisdicción. Los ejemplos estadounidenses son ejemplos educativos y no deben tratarse como reglas universales.
+1. ¿Por qué invertir más de lo que de verdad es sostenible es un riesgo real?
+2. Según esta lección, ¿qué debería estar razonablemente cubierto antes de fijar un presupuesto de inversión?
+3. ¿Qué forma sencilla sugiere esta lección para determinar una cantidad de inversión sostenible?
+4. En el caso de estudio, ¿cómo ayudó empezar con una cantidad modesta y sostenible a la constancia a largo plazo?
 
-## Ejemplo
+## Clave de respuestas
+1. Porque puede llevar a tener que vender en un mal momento o a abandonar por completo el hábito de invertir durante una etapa difícil.
+2. Las necesidades básicas y, cuando sea posible, algunos ahorros de emergencia (la función de "conservar").
+3. Determinar una cantidad que pueda mantenerse de forma realista aunque las circunstancias se volvieran algo más ajustadas, en vez del máximo posible en un buen mes.
+4. Permitió que el hábito continuara con constancia durante años sin presión, lo que formó la base a la que luego se añadieron las compras de oro.
 
-Una persona reserva una cantidad que puede permitirse mantener invertida y compara varias opciones. En lugar de comprar solo porque el precio ha subido, analiza el propósito de la posición, los costes de compra y venta, la facilidad de convertirla en efectivo y el papel que tendría dentro de su patrimonio total.
-
-## Comprobación de comprensión
-
-**Pregunta:** ¿Cuál es el enfoque más sólido antes de tomar una decisión relacionada con este concepto?
-
-A. Actuar porque otra persona afirma que el precio subirá.  
-B. Evaluar objetivos, riesgos, costes, liquidez y alternativas.  
-C. Suponer que los resultados pasados garantizan los futuros.  
-D. Concentrar todo el capital en una sola idea.
-
-**Respuesta:** B.
+## Respuestas y explicaciones
+1. Invertir de forma insostenible debilita el principio de constancia que es central en el enfoque de esta ruta.
+2. Esto relaciona la decisión del presupuesto de inversión con la función de conservar del marco básico.
+3. Un tamaño conservador y sostenible es la orientación práctica que se ofrece para fijar un presupuesto de inversión.
+4. Este ejemplo relaciona directamente el presupuesto sostenible con la constancia y el éxito a largo plazo del caso de estudio.
 
 ## Puntos clave
-
-- Comprende el activo o estrategia antes de comprometer dinero.
-- Riesgo y rentabilidad potencial deben analizarse juntos.
-- Los costes y la liquidez afectan al resultado real.
-- La diversificación puede reducir la dependencia de una sola posición, pero no elimina el riesgo.
-- Las normas fiscales y legales dependen de la jurisdicción.
-- La información debe ayudarte a decidir; no sustituye asesoramiento profesional individualizado.
-
-## Reflexión
-
-Explica cómo aplicarías esta lección a una decisión propia sin depender de una predicción sobre el precio futuro.
+- Un presupuesto de inversión debería ser realmente sostenible, no la cantidad máxima posible en un buen mes.
+- En general, las necesidades básicas y los ahorros de emergencia deberían estar razonablemente cubiertos antes de fijar un presupuesto de inversión.
+- Empezar de forma conservadora e ir aumentando con el tiempo tiende a formar un hábito de inversión más duradero que empezar de forma agresiva.

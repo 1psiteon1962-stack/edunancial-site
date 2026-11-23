@@ -1,58 +1,54 @@
 ---
 id: GOLD-L1-047
 track: GOLD
-officialTrackName: Inversión y Construcción de Patrimonio
+officialTrackName: "Investing"
 level: 1
 lessonNumber: 47
 locale: es-ES
-title: "Establecer hitos para una posición creciente"
-summary: "Comprende establecer hitos para una posición creciente y cómo encaja en una base sólida de alfabetización inversora."
-version: 1.0
-author: Waldemar M. Caban, JD MA
+title: "Cómo fijar metas intermedias para una posición que crece"
+summary: "Enseña a fijar puntos de control significativos para una posición de inversión a largo plazo que se acumula de forma gradual."
+version: "1.0"
+author: "Waldemar M. Caban, JD MA"
+date: "2026-08-09"
 ---
 
-# Establecer hitos para una posición creciente
+# Cómo fijar metas intermedias para una posición que crece
 
-## Objetivo de aprendizaje
+## Objetivos de aprendizaje
+- Explicar por qué las metas intermedias ayudan a mantener la motivación a lo largo de un recorrido de inversión a largo plazo
+- Identificar la diferencia entre las metas de resultado y las metas de proceso
+- Practicar cómo fijar una meta intermedia sencilla para una posición hipotética que crece
 
-Al terminar esta lección podrás explicar el concepto con tus propias palabras, reconocer sus principales ventajas y riesgos y relacionarlo con una decisión financiera real.
+## Contenido principal
 
-## Concepto central
+Un recorrido de inversión a largo plazo, construido con aportes pequeños y constantes, puede sentirse lento y poco emocionante día a día, aunque con los años esté construyendo algo importante. Fijar metas intermedias deliberadas (puntos de control significativos a lo largo del camino) ayuda a mantener la motivación y da momentos concretos para reconocer el progreso real, en vez de fijarse solo en el destino, muy lejano en el futuro.
 
-Establecer hitos para una posición creciente forma parte de la alfabetización inversora porque invertir exige comprender qué se posee, por qué puede cambiar de valor y qué riesgos se aceptan. En la pista GOLD, los metales preciosos sirven como una forma concreta de estudiar principios que también se aplican a otras inversiones.
+Ayuda distinguir las metas de resultado (alcanzar una cantidad total o un valor específicos) de las metas de proceso (mantener un hábito constante durante cierto tiempo, como un año completo de aportes mensuales sin interrupciones). Ambos tipos son valiosos: las metas de resultado se conectan con el crecimiento tangible de la posición, mientras que las metas de proceso refuerzan el hábito de la constancia que se ha recalcado a lo largo de esta ruta como el verdadero motor del éxito a largo plazo.
 
-No existe un activo apropiado para todas las personas ni para todas las situaciones. La decisión depende de objetivos, horizonte temporal, liquidez, tolerancia al riesgo, costes y circunstancias personales. EDUNANCIAL proporciona información para que el alumno pueda evaluar esas variables y tomar sus propias decisiones; no promete rentabilidad ni recomienda una inversión concreta.
+## Ejemplo práctico
 
-## Aplicación práctica
+[EJEMPLO ILUSTRATIVO] En el caso de estudio, alcanzar cierto número de onzas de plata acumuladas a cierta edad podría servir como meta de resultado, mientras que completar varios años consecutivos de aportes mensuales constantes sin faltar a ninguno podría servir como meta de proceso. Reconocer ambos tipos de progreso (no solo la cantidad que crece, sino también la disciplina mantenida que la sostiene) refuerza el hábito mismo como algo que vale la pena valorar, y no solo la cifra resultante.
 
-Antes de actuar, separa el precio del valor, identifica todos los costes y pregunta qué tendría que ocurrir para que la decisión produzca un resultado distinto del esperado. Compara alternativas y considera también el coste de oportunidad del dinero utilizado.
+## Cuestionario de práctica
 
-Cuando intervengan impuestos, regulación, custodia, seguros o normas de mercado, recuerda que las reglas varían según el país y la jurisdicción. Los ejemplos estadounidenses son ejemplos educativos y no deben tratarse como reglas universales.
+1. ¿Por qué importan las metas intermedias en un recorrido de inversión a largo plazo que se acumula de forma gradual?
+2. Distingue entre las metas de resultado y las metas de proceso.
+3. ¿Por qué son valiosos ambos tipos de metas intermedias?
+4. Fija una meta de resultado y una meta de proceso para un plan hipotético de inversión de cinco años.
 
-## Ejemplo
+## Clave de respuestas
+1. Porque un recorrido a largo plazo puede sentirse lento día a día, y las metas intermedias dan momentos concretos para reconocer el progreso real.
+2. Las metas de resultado miden una cantidad o un valor específico alcanzado; las metas de proceso miden el mantenimiento de un hábito constante a lo largo del tiempo.
+3. Las metas de resultado se conectan con el crecimiento tangible; las metas de proceso refuerzan el hábito de la constancia que impulsa el éxito a largo plazo.
+4. Las respuestas variarán (ejemplo: de resultado, "alcanzar 50 onzas de plata en total"; de proceso, "completar cinco años consecutivos de aportes mensuales sin faltar a ninguno").
 
-Una persona reserva una cantidad que puede permitirse mantener invertida y compara varias opciones. En lugar de comprar solo porque el precio ha subido, analiza el propósito de la posición, los costes de compra y venta, la facilidad de convertirla en efectivo y el papel que tendría dentro de su patrimonio total.
-
-## Comprobación de comprensión
-
-**Pregunta:** ¿Cuál es el enfoque más sólido antes de tomar una decisión relacionada con este concepto?
-
-A. Actuar porque otra persona afirma que el precio subirá.  
-B. Evaluar objetivos, riesgos, costes, liquidez y alternativas.  
-C. Suponer que los resultados pasados garantizan los futuros.  
-D. Concentrar todo el capital en una sola idea.
-
-**Respuesta:** B.
+## Respuestas y explicaciones
+1. Las metas intermedias atienden el reto motivacional de mantener un proceso largo y gradual.
+2. Esta distinción recoge dos formas distintas pero complementarias de medir el progreso.
+3. Ambas dimensiones (el resultado y la disciplina) importan para un recorrido de inversión a largo plazo que sea realmente sostenible.
+4. Una respuesta correcta demuestra que se entienden ambos tipos de metas intermedias aplicados a un caso concreto.
 
 ## Puntos clave
-
-- Comprende el activo o estrategia antes de comprometer dinero.
-- Riesgo y rentabilidad potencial deben analizarse juntos.
-- Los costes y la liquidez afectan al resultado real.
-- La diversificación puede reducir la dependencia de una sola posición, pero no elimina el riesgo.
-- Las normas fiscales y legales dependen de la jurisdicción.
-- La información debe ayudarte a decidir; no sustituye asesoramiento profesional individualizado.
-
-## Reflexión
-
-Explica cómo aplicarías esta lección a una decisión propia sin depender de una predicción sobre el precio futuro.
+- Las metas intermedias ayudan a mantener la motivación a lo largo de un recorrido de inversión largo y gradual, al marcar el progreso real a lo largo del camino.
+- Las metas de resultado miden la cantidad o el valor alcanzado; las metas de proceso miden la constancia del hábito a lo largo del tiempo.
+- Ambos tipos importan: tanto el crecimiento tangible como la disciplina mantenida merecen reconocerse y celebrarse.

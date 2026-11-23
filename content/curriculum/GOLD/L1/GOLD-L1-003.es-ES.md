@@ -1,58 +1,54 @@
 ---
 id: GOLD-L1-003
 track: GOLD
-officialTrackName: Inversión y Construcción de Patrimonio
+officialTrackName: "Investing"
 level: 1
 lessonNumber: 3
 locale: es-ES
-title: "¿Por qué los metales preciosos? Una clase de activo de anclaje"
-summary: "Comprende por qué los metales preciosos una clase de activo de anclaje y cómo encaja en una base sólida de alfabetización inversora."
-version: 1.0
-author: Waldemar M. Caban, JD MA
+title: "¿Por qué los metales preciosos? Una clase de activo ancla"
+summary: "Presenta los metales preciosos como el activo ancla concreto que se usa en toda esta ruta para enseñar principios de inversión."
+version: "1.0"
+author: "Waldemar M. Caban, JD MA"
+date: "2026-08-09"
 ---
 
-# ¿Por qué los metales preciosos? Una clase de activo de anclaje
+# ¿Por qué los metales preciosos? Una clase de activo ancla
 
-## Objetivo de aprendizaje
+## Objetivos de aprendizaje
+- Explicar por qué esta ruta usa los metales preciosos como su principal ejemplo de enseñanza
+- Identificar las características básicas que hacen del oro y la plata casos de estudio útiles para aprender a invertir
+- Entender que lo que se aprende con los metales se aplica de forma amplia a otras inversiones
 
-Al terminar esta lección podrás explicar el concepto con tus propias palabras, reconocer sus principales ventajas y riesgos y relacionarlo con una decisión financiera real.
+## Contenido principal
 
-## Concepto central
+Esta ruta usa los metales preciosos (principalmente el oro y la plata) como un ancla concreta y constante para enseñar principios de inversión. Los metales sirven bien para este propósito porque son fáciles de entender físicamente (puedes tener en la mano una onza de plata o un gramo de oro y saber exactamente lo que tienes), su precio está disponible de forma pública y constante, y han mantenido un valor reconocido a lo largo de una historia muy larga, lo que los convierte en un lente claro para conceptos como el riesgo, el crecimiento y el promedio del coste, sin la complejidad adicional de los factores propios de cada empresa.
 
-¿Por qué los metales preciosos? Una clase de activo de anclaje forma parte de la alfabetización inversora porque invertir exige comprender qué se posee, por qué puede cambiar de valor y qué riesgos se aceptan. En la pista GOLD, los metales preciosos sirven como una forma concreta de estudiar principios que también se aplican a otras inversiones.
+Es importante entender desde el principio que la meta de esta ruta no es sostener que los metales preciosos son la "mejor" inversión ni la única que vale la pena hacer. La meta es usar un activo sencillo y tangible para enseñar con claridad principios de inversión, de modo que esos mismos principios (la diversificación, la tolerancia al riesgo, el promedio del coste, el pensamiento a largo plazo) se puedan aplicar a cualquier clase de activo que el estudiante encuentre más adelante, incluidas las acciones, los bienes inmuebles o la propiedad de un negocio.
 
-No existe un activo apropiado para todas las personas ni para todas las situaciones. La decisión depende de objetivos, horizonte temporal, liquidez, tolerancia al riesgo, costes y circunstancias personales. EDUNANCIAL proporciona información para que el alumno pueda evaluar esas variables y tomar sus propias decisiones; no promete rentabilidad ni recomienda una inversión concreta.
+## Ejemplo práctico
 
-## Aplicación práctica
+[DATO VERIFICADO] El oro y la plata se han usado como depósitos de valor en muchas culturas y épocas históricas distintas, y esa es parte de la razón por la que son un punto de entrada útil y ampliamente reconocido para enseñar conceptos de inversión. [EJEMPLO ILUSTRATIVO] A lo largo de esta ruta se usará a un estudiante llamado [el estudiante del caso de estudio biográfico] para mostrar estos principios aplicados en un patrón real de acumulación a lo largo de los años (empezando con plata en onzas y añadiendo después oro en gramos), no porque se promuevan los metales como superiores a otros activos, sino porque la sencillez de las onzas y los gramos físicos hace que las matemáticas y el comportamiento de fondo sean fáciles de seguir con claridad.
 
-Antes de actuar, separa el precio del valor, identifica todos los costes y pregunta qué tendría que ocurrir para que la decisión produzca un resultado distinto del esperado. Compara alternativas y considera también el coste de oportunidad del dinero utilizado.
+## Cuestionario de práctica
 
-Cuando intervengan impuestos, regulación, custodia, seguros o normas de mercado, recuerda que las reglas varían según el país y la jurisdicción. Los ejemplos estadounidenses son ejemplos educativos y no deben tratarse como reglas universales.
+1. ¿Por qué esta ruta usa los metales preciosos como su ancla de enseñanza?
+2. ¿Sostiene esta ruta que los metales preciosos son la "mejor" inversión?
+3. Nombra dos características que hacen que los metales sean útiles para enseñar conceptos de inversión.
+4. ¿Cuál es la meta final de usar los metales como activo ancla?
 
-## Ejemplo
+## Clave de respuestas
+1. Porque son sencillos, tangibles y tienen un valor ampliamente reconocido, lo que los convierte en un lente claro para enseñar conceptos centrales.
+2. No: la meta es enseñar principios transferibles, no promover una clase de activo como superior.
+3. Cualesquiera dos de estas: son físicamente fáciles de entender, su precio está disponible públicamente, tienen una larga historia de valor reconocido.
+4. Enseñar principios (diversificación, riesgo, promedio del coste, pensamiento a largo plazo) que más adelante se aplican de forma amplia a otras clases de activos.
 
-Una persona reserva una cantidad que puede permitirse mantener invertida y compara varias opciones. En lugar de comprar solo porque el precio ha subido, analiza el propósito de la posición, los costes de compra y venta, la facilidad de convertirla en efectivo y el papel que tendría dentro de su patrimonio total.
-
-## Comprobación de comprensión
-
-**Pregunta:** ¿Cuál es el enfoque más sólido antes de tomar una decisión relacionada con este concepto?
-
-A. Actuar porque otra persona afirma que el precio subirá.  
-B. Evaluar objetivos, riesgos, costes, liquidez y alternativas.  
-C. Suponer que los resultados pasados garantizan los futuros.  
-D. Concentrar todo el capital en una sola idea.
-
-**Respuesta:** B.
+## Respuestas y explicaciones
+1. La sencillez y la tangibilidad hacen de los metales un punto de entrada accesible para los conceptos básicos de inversión.
+2. Esto corrige de forma explícita cualquier suposición de que la ruta promueve los metales como superiores en sí mismos.
+3. Estas características reducen la complejidad y permiten que los conceptos centrales de inversión se vean con claridad.
+4. La verdadera meta pedagógica es que los principios de fondo sean transferibles, no promover un activo.
 
 ## Puntos clave
-
-- Comprende el activo o estrategia antes de comprometer dinero.
-- Riesgo y rentabilidad potencial deben analizarse juntos.
-- Los costes y la liquidez afectan al resultado real.
-- La diversificación puede reducir la dependencia de una sola posición, pero no elimina el riesgo.
-- Las normas fiscales y legales dependen de la jurisdicción.
-- La información debe ayudarte a decidir; no sustituye asesoramiento profesional individualizado.
-
-## Reflexión
-
-Explica cómo aplicarías esta lección a una decisión propia sin depender de una predicción sobre el precio futuro.
+- Esta ruta usa los metales preciosos como un ancla sencilla y tangible para enseñar principios de inversión, no como una recomendación de los metales por encima de otros activos.
+- La sencillez de los metales, la transparencia de sus precios y su larga historia los convierten en un lente claro para los conceptos básicos.
+- Los principios que se enseñan con los metales (diversificación, riesgo, promedio del coste, pensamiento a largo plazo) se aplican de forma amplia a cualquier clase de activo que el estudiante encuentre en el futuro.

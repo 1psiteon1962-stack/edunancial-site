@@ -1,53 +1,54 @@
 ---
 id: GOLD-L1-015
 track: GOLD
-officialTrackName: "Inversión"
+officialTrackName: "Investing"
 level: 1
 lessonNumber: 15
 locale: es-Caribbean
-title: "Dar seguimiento a tu posición a lo largo del tiempo"
-summary: "Enseña los fundamentos del mantenimiento de registros para una posición de inversión que se acumula con el tiempo."
+title: "Cómo dar seguimiento a tu posición con el tiempo"
+summary: "Enseña lo básico de llevar registros de una posición de inversión que se va acumulando."
 version: "1.0"
 author: "Waldemar M. Caban, JD MA"
 date: "2026-08-09"
 ---
 
-# Dar seguimiento a tu posición a lo largo del tiempo
+# Cómo dar seguimiento a tu posición con el tiempo
 
-## Objetivos de Aprendizaje
-- Explicar por qué importa dar seguimiento a una inversión, incluso si es un activo sencillo
-- Identificar la información básica que conviene registrar en cada compra
-- Practicar la creación de un registro sencillo
+## Objetivos de aprendizaje
+- Explicar por qué importa dar seguimiento a una posición de inversión, incluso en un activo sencillo
+- Identificar la información básica que vale la pena anotar en cada compra
+- Practicar cómo preparar un registro de seguimiento sencillo
 
-## Contenido Principal
+## Contenido principal
 
-A medida que una posición de inversión crece mediante compras regulares, mantener un registro sencillo se vuelve cada vez más valioso. Sin seguimiento, es fácil perder claridad sobre la cantidad total poseída, cuánto se pagó realmente a lo largo del tiempo —importante para comprender el rendimiento real y posteriormente para fines fiscales— y cuál ha sido el patrón general de acumulación.
+A medida que una posición de inversión crece con el tiempo mediante compras regulares, llevar un registro sencillo se vuelve cada vez más valioso. Sin seguimiento, es fácil perder una idea clara de la cantidad total que se tiene, de lo que realmente se pagó por ella a lo largo del tiempo (algo importante para entender el desempeño real y, más adelante, a efectos contributivos) y del patrón general de la acumulación.
 
-Un registro básico de metales preciosos debe incluir como mínimo: fecha de cada compra, cantidad adquirida en onzas o gramos, precio pagado por unidad incluyendo cualquier prima y cantidad total gastada. Con el tiempo, este registro permite calcular el costo promedio real por unidad —conectando directamente con el promedio del costo en dólares— y ver de un vistazo toda la historia de acumulación, en lugar de depender de la memoria o de recibos dispersos.
+Un registro de seguimiento básico de una posición en metales preciosos debería incluir, como mínimo: la fecha de cada compra, la cantidad comprada (onzas o gramos), el precio pagado por unidad (incluida cualquier prima) y la cantidad total gastada en esa compra. Con el tiempo, este registro permite al inversionista calcular su costo promedio real por unidad (lo que se conecta directamente con el concepto de promedio del costo en dólares visto antes) y ver de un vistazo toda la historia de la acumulación, en vez de depender de la memoria o de recibos dispersos.
 
-## Ejemplo Resuelto
+## Ejemplo práctico
 
-[EJEMPLO ILUSTRATIVO] En el estudio de caso, registrar las compras de plata desde los 11 años —fecha, onzas compradas, precio pagado y total gastado— permite calcular claramente años después el costo promedio real por onza. Cuando comienzan las compras de oro a los 15 años, un registro separado mantiene claras las historias de acumulación de ambos metales y facilita la revisión de largo plazo.
+[EJEMPLO ILUSTRATIVO] En el caso de estudio continuo, dar seguimiento a las compras de plata desde los 11 años en un registro sencillo (fecha, onzas compradas, precio pagado, total gastado) permite calcular con claridad, años después, el costo promedio real por onza, en vez de depender de una idea vaga de "llevo años comprando plata". Cuando empiezan las compras de oro a los 15 años, un registro parecido para el oro, llevado por separado, mantiene claras y distintas las historias de acumulación de los dos metales, lo que apoya el tipo de revisión a largo plazo en que se basarán más adelante las lecciones finales de esta ruta.
 
-## Cuestionario Práctico
-1. ¿Por qué importa registrar una posición de inversión?
-2. Indica los cuatro datos básicos que debe incluir cada compra.
-3. ¿Qué cálculo permite hacer un buen registro con el tiempo?
-4. ¿Por qué el estudio de caso registra plata y oro por separado?
+## Prueba de práctica
 
-## Clave de Respuestas
-1. Porque sin seguimiento es fácil perder claridad sobre las tenencias totales, el costo real y el patrón de acumulación.
-2. Fecha, cantidad comprada, precio pagado por unidad y total gastado.
-3. El costo promedio real por unidad a lo largo del tiempo.
-4. Porque son metales distintos con cronologías de acumulación diferentes y los registros separados mantienen claridad.
+1. ¿Por qué importa dar seguimiento a una posición de inversión, incluso en un activo sencillo como los metales preciosos?
+2. Nombra los cuatro datos básicos que debería incluir un registro de seguimiento en cada compra.
+3. ¿Qué cálculo hace posible con el tiempo un buen registro de seguimiento?
+4. ¿Por qué el caso de estudio lleva registros separados para la plata y el oro?
 
-## Respuestas y Explicaciones
-1. El mantenimiento de registros evita depender de la memoria, que se vuelve poco confiable a medida que pasan los años.
-2. Estos cuatro datos forman el registro mínimo viable de una posición en acumulación.
-3. El cálculo del costo promedio conecta directamente con la estrategia de promedio del costo en dólares.
-4. El seguimiento separado facilita entender y revisar cada posición.
+## Clave de respuestas
+1. Porque, sin seguimiento, es fácil perder una idea clara del total que se tiene, del costo real y del patrón general de la acumulación.
+2. La fecha de la compra, la cantidad comprada, el precio pagado por unidad y la cantidad total gastada.
+3. El costo promedio real por unidad a lo largo del tiempo, lo que se conecta directamente con el concepto de promedio del costo en dólares.
+4. Porque son dos metales distintos con calendarios de acumulación distintos, y los registros separados mantienen clara y distinta cada historia.
 
-## Puntos Clave a Recordar
-- Registrar una inversión evita depender de la memoria y ayuda a comprender el costo real.
-- Cada compra debe registrar fecha, cantidad, precio por unidad y total gastado.
-- Un seguimiento consistente permite calcular el costo promedio real por unidad.
+## Respuestas y explicaciones
+1. Llevar registros evita depender de la memoria, que se vuelve poco confiable a medida que una posición crece con los años.
+2. Estos cuatro datos forman el registro de seguimiento mínimo útil de cualquier posición que se va acumulando.
+3. El cálculo del costo promedio relaciona directamente el seguimiento con el concepto central de la lección anterior sobre el DCA.
+4. Llevar un seguimiento separado de cada metal favorece la claridad, sobre todo dados sus distintos puntos de partida en el caso de estudio.
+
+## Puntos clave
+- Dar seguimiento a una posición de inversión con el tiempo evita depender de la memoria y favorece una comprensión exacta del costo real.
+- Un registro básico debería incluir, en cada compra, la fecha, la cantidad, el precio pagado por unidad y el total gastado.
+- Llevar un seguimiento constante permite calcular el costo promedio real por unidad, lo que se conecta directamente con el promedio del costo en dólares.

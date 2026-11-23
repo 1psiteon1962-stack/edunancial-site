@@ -1,54 +1,56 @@
 ---
 id: GOLD-L1-029
 track: GOLD
-officialTrackName: "Inversión"
+officialTrackName: "Investing"
 level: 1
 lessonNumber: 29
 locale: es-Caribbean
-title: "Correlación con el mercado de acciones"
-summary: "Introduce la correlación y explica cómo los metales preciosos se han relacionado históricamente con las acciones."
+title: "La correlación con el mercado de valores"
+summary: "Presenta el concepto de correlación y cómo se han relacionado históricamente los metales preciosos con los movimientos del mercado de valores."
 version: "1.0"
 author: "Waldemar M. Caban, JD MA"
 date: "2026-08-09"
 ---
 
-# Correlación con el mercado de acciones
+# La correlación con el mercado de valores
 
-## Objetivos de Aprendizaje
-- Comprender el concepto central y su aplicación práctica
-- Identificar riesgos, costos o compensaciones relevantes
-- Aplicar el concepto dentro de un proceso disciplinado
+## Objetivos de aprendizaje
+- Definir la correlación en el contexto de la inversión
+- Explicar la tendencia histórica general de los metales preciosos frente a los movimientos del mercado de valores
+- Entender por qué esta relación apoya el concepto de diversificación
 
-## Contenido Principal
+## Contenido principal
 
-La correlación describe qué tan estrechamente dos activos tienden a moverse entre sí. Activos altamente correlacionados suelen subir y bajar juntos; una correlación baja o negativa implica movimientos más independientes.
+La correlación describe qué tan de cerca tienden a moverse dos activos uno en relación con el otro. Dos activos con una correlación alta tienden a subir y bajar juntos; dos activos con una correlación baja o negativa tienden a moverse de forma más independiente entre sí, o incluso en direcciones opuestas durante ciertos períodos.
 
-Históricamente, los metales preciosos han mostrado en diversos períodos correlación relativamente baja, y a veces negativa, con las acciones. Esto significa que durante algunos descensos bursátiles los metales han mantenido valor o aumentado, aunque no ocurre siempre. Esta tendencia ayuda a explicar su uso en diversificación: combinar activos que no se mueven exactamente igual puede reducir la dependencia de una sola fuente de riesgo. No es una garantía para ningún período futuro.
+Históricamente, los metales preciosos han tendido a mostrar una correlación relativamente baja, y a veces negativa, con las acciones: eso significa que, durante algunos períodos en que los mercados de valores bajaron mucho, los precios de los metales preciosos se mantuvieron estables o incluso subieron, aunque esta relación no es perfectamente constante ni está garantizada en todos los períodos del mercado. Esta tendencia general es parte de la razón por la que a menudo se habla de los metales preciosos específicamente en el contexto de la diversificación, presentada brevemente en una lección anterior.
 
-## Ejemplo Resuelto
+La diversificación funciona precisamente porque no todos los activos se mueven en perfecta sincronía: tener una combinación de activos con distintos patrones de correlación puede reducir la volatilidad general de una cartera, ya que la caída de un tipo de activo puede compensarse en parte con la estabilidad o las ganancias de otro. Es una tendencia general observada en la historia y no una garantía para ningún período futuro específico, en coherencia con el planteamiento cauteloso que esta ruta ha aplicado en todo momento a los patrones históricos.
 
-[EJEMPLO ILUSTRATIVO] Una persona con una posición creciente compara sus opciones usando el valor de la posición, costos, acceso, riesgo, horizonte temporal y alternativas disponibles. En vez de asumir que una sola opción sirve para todos, documenta las compensaciones y elige según su situación.
+## Ejemplo práctico
 
-## Cuestionario Práctico
-1. Explica el concepto principal de la lección.
-2. Identifica dos factores que pueden cambiar la decisión.
-3. ¿Qué riesgo existe si se ignora este concepto?
-4. ¿Qué información verificarías antes de tomar una decisión real?
+Durante un período de caída importante del mercado de valores provocada por una incertidumbre económica general, los metales preciosos, en varios momentos de la historia, han mantenido su valor o incluso han subido, porque los inversionistas buscaban un depósito de valor que percibían como más seguro durante esa incertidumbre. Esto no ocurre en todas las caídas del mercado, y no es algo con lo que se pueda contar con certeza para ningún hecho futuro específico, pero esta tendencia histórica general es parte del razonamiento que usan algunos inversionistas para incluir los metales preciosos como una parte de una cartera diversificada.
 
-## Clave de Respuestas
-1. Debe reflejar correctamente el concepto explicado en el contenido principal.
-2. Pueden incluir costo, riesgo, liquidez, acceso, horizonte temporal, jurisdicción o alternativas.
-3. Ignorarlo puede producir costos inesperados, riesgo innecesario o una decisión incompatible con la meta.
-4. Deben verificarse hechos actuales y, cuando corresponda, condiciones contractuales, fiscales, legales o profesionales.
+## Prueba de práctica
 
-## Respuestas y Explicaciones
-1. El concepto debe entenderse dentro del contexto de una decisión, no como una regla aislada.
-2. Las circunstancias cambian las compensaciones.
-3. Identificar riesgos antes de actuar mejora la calidad de la decisión.
-4. La información específica y vigente es esencial cuando una decisión depende de jurisdicción o proveedor.
+1. Define la correlación en el contexto de la inversión.
+2. ¿Cómo ha tendido a ser, en general, la correlación histórica de los metales preciosos con el mercado de valores?
+3. ¿Por qué esta tendencia apoya el concepto de diversificación?
+4. ¿Este patrón de correlación está garantizado para algún período futuro específico del mercado?
 
-## Puntos Clave a Recordar
-- Evalúa propósito, costo, riesgo y liquidez.
-- No confundas una tendencia general con una garantía.
-- Verifica información específica antes de actuar.
-- Utiliza profesionales cualificados cuando la decisión requiera asesoría individual.
+## Clave de respuestas
+1. Qué tan de cerca tienden a moverse dos activos uno en relación con el otro.
+2. Una correlación relativamente baja, y a veces negativa: los metales a veces se han mantenido estables o han subido durante las caídas del mercado de valores.
+3. Porque la diversificación funciona combinando activos que no se mueven todos en perfecta sincronía, lo que puede reducir la volatilidad general de una cartera.
+4. No: es una tendencia general observada en la historia, no una garantía para ningún período futuro específico.
+
+## Respuestas y explicaciones
+1. Esto establece el concepto central que está detrás de la relación que se explica en esta lección.
+2. Esta tendencia histórica es el patrón específico que relaciona los metales preciosos con las estrategias de diversificación de una cartera.
+3. Una menor volatilidad general es el beneficio práctico que puede aportar una correlación baja o negativa dentro de una cartera diversificada.
+4. Esta advertencia es esencial y coherente con el tratamiento cauteloso que esta ruta da en todo momento a los patrones históricos.
+
+## Puntos clave
+- La correlación describe qué tan de cerca tienden a moverse juntos dos activos; una correlación baja o negativa significa un movimiento más independiente.
+- Históricamente, los metales preciosos han mostrado una correlación relativamente baja, y a veces negativa, con las acciones, aunque no es una garantía constante.
+- Esta tendencia general es parte de la razón por la que los metales preciosos a menudo se incluyen específicamente con fines de diversificación dentro de una cartera más amplia.

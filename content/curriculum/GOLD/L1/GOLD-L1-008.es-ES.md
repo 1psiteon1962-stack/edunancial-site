@@ -1,58 +1,54 @@
 ---
 id: GOLD-L1-008
 track: GOLD
-officialTrackName: Inversión y Construcción de Patrimonio
+officialTrackName: "Investing"
 level: 1
 lessonNumber: 8
 locale: es-ES
-title: "Fundamentos de la diversificación"
-summary: "Comprende fundamentos de la diversificación y cómo encaja en una base sólida de alfabetización inversora."
-version: 1.0
-author: Waldemar M. Caban, JD MA
+title: "Lo básico de la diversificación"
+summary: "Presenta la diversificación como una forma de manejar el riesgo sin depender del desempeño de un solo activo."
+version: "1.0"
+author: "Waldemar M. Caban, JD MA"
+date: "2026-08-09"
 ---
 
-# Fundamentos de la diversificación
+# Lo básico de la diversificación
 
-## Objetivo de aprendizaje
+## Objetivos de aprendizaje
+- Definir la diversificación en términos sencillos
+- Explicar por qué concentrarlo todo en un solo activo aumenta el riesgo
+- Reconocer que tener dos metales distintos es un ejemplo a pequeña escala de diversificación
 
-Al terminar esta lección podrás explicar el concepto con tus propias palabras, reconocer sus principales ventajas y riesgos y relacionarlo con una decisión financiera real.
+## Contenido principal
 
-## Concepto central
+Diversificar significa repartir las inversiones entre distintos activos en vez de ponerlo todo en uno solo, de modo que la caída de un activo no destruya toda la posición. La lógica es sencilla: los distintos activos no siempre se mueven en la misma dirección, al mismo tiempo y por las mismas razones, así que la caída de uno puede compensarse, al menos en parte, con la estabilidad o el crecimiento de otro.
 
-Fundamentos de la diversificación forma parte de la alfabetización inversora porque invertir exige comprender qué se posee, por qué puede cambiar de valor y qué riesgos se aceptan. En la pista GOLD, los metales preciosos sirven como una forma concreta de estudiar principios que también se aplican a otras inversiones.
+Esto no significa que la diversificación elimine el riesgo por completo: significa que reduce el riesgo específico de depender demasiado del desempeño de un solo activo. Una posición totalmente diversificada todavía puede perder valor si muchos activos distintos bajan a la vez, pero en general es más resistente que una posición concentrada por completo en una sola cosa.
 
-No existe un activo apropiado para todas las personas ni para todas las situaciones. La decisión depende de objetivos, horizonte temporal, liquidez, tolerancia al riesgo, costes y circunstancias personales. EDUNANCIAL proporciona información para que el alumno pueda evaluar esas variables y tomar sus propias decisiones; no promete rentabilidad ni recomienda una inversión concreta.
+## Ejemplo práctico
 
-## Aplicación práctica
+[EJEMPLO ILUSTRATIVO] Tener plata y oro, en vez de un solo metal, es una forma de diversificación a pequeña escala dentro de la categoría de los metales preciosos: los dos metales tienen impulsores de demanda distintos (industrial frente a principalmente inversión y joyería), así que no siempre se mueven en perfecta sincronía. Es un ejemplo a mucha menor escala que la diversificación completa de una cartera entre muchas clases de activos distintas (acciones, bienes inmuebles, propiedad de negocios y más), que los niveles posteriores de esta ruta y otras rutas tratarán con más profundidad, pero ilustra el principio de fondo: no poner todos los recursos en una sola apuesta idéntica.
 
-Antes de actuar, separa el precio del valor, identifica todos los costes y pregunta qué tendría que ocurrir para que la decisión produzca un resultado distinto del esperado. Compara alternativas y considera también el coste de oportunidad del dinero utilizado.
+## Cuestionario de práctica
 
-Cuando intervengan impuestos, regulación, custodia, seguros o normas de mercado, recuerda que las reglas varían según el país y la jurisdicción. Los ejemplos estadounidenses son ejemplos educativos y no deben tratarse como reglas universales.
+1. Define con tus propias palabras la diversificación.
+2. ¿Por qué repartir las inversiones entre distintos activos reduce el riesgo?
+3. ¿La diversificación elimina el riesgo por completo?
+4. ¿Cómo ilustra la diversificación tener plata y oro, aunque sea a pequeña escala?
 
-## Ejemplo
+## Clave de respuestas
+1. Repartir las inversiones entre distintos activos en vez de ponerlo todo en uno solo.
+2. Porque los distintos activos no siempre se mueven en la misma dirección ni por las mismas razones, lo que puede compensar la caída de uno con la estabilidad de otro.
+3. No: reduce el riesgo de depender de un solo activo, pero no elimina todo el riesgo, sobre todo si muchos activos bajan a la vez.
+4. Porque los dos metales tienen impulsores de demanda distintos, lo que significa que no siempre se mueven en perfecta sincronía, y eso reduce la dependencia de cualquiera de los dos por separado.
 
-Una persona reserva una cantidad que puede permitirse mantener invertida y compara varias opciones. En lugar de comprar solo porque el precio ha subido, analiza el propósito de la posición, los costes de compra y venta, la facilidad de convertirla en efectivo y el papel que tendría dentro de su patrimonio total.
-
-## Comprobación de comprensión
-
-**Pregunta:** ¿Cuál es el enfoque más sólido antes de tomar una decisión relacionada con este concepto?
-
-A. Actuar porque otra persona afirma que el precio subirá.  
-B. Evaluar objetivos, riesgos, costes, liquidez y alternativas.  
-C. Suponer que los resultados pasados garantizan los futuros.  
-D. Concentrar todo el capital en una sola idea.
-
-**Respuesta:** B.
+## Respuestas y explicaciones
+1. Esto recoge la lógica esencial de la diversificación: repartir el riesgo, no eliminarlo.
+2. Los distintos patrones de movimiento de los activos son el mecanismo detrás del efecto de la diversificación para reducir el riesgo.
+3. Esto aclara un error de concepto común: la diversificación maneja el riesgo, no lo elimina por completo.
+4. Este ejemplo muestra el principio central de la diversificación a una escala pequeña y comprensible dentro de una sola categoría de activos.
 
 ## Puntos clave
-
-- Comprende el activo o estrategia antes de comprometer dinero.
-- Riesgo y rentabilidad potencial deben analizarse juntos.
-- Los costes y la liquidez afectan al resultado real.
-- La diversificación puede reducir la dependencia de una sola posición, pero no elimina el riesgo.
-- Las normas fiscales y legales dependen de la jurisdicción.
-- La información debe ayudarte a decidir; no sustituye asesoramiento profesional individualizado.
-
-## Reflexión
-
-Explica cómo aplicarías esta lección a una decisión propia sin depender de una predicción sobre el precio futuro.
+- Diversificar significa repartir las inversiones entre distintos activos para reducir la dependencia de uno solo.
+- Reduce el riesgo, pero no lo elimina, sobre todo si muchos activos bajan a la vez.
+- Tener plata y oro, con sus distintos impulsores de demanda, ilustra el principio de la diversificación incluso a pequeña escala.

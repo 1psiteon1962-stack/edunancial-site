@@ -1,53 +1,54 @@
 ---
 id: GOLD-L1-012
 track: GOLD
-officialTrackName: "Inversión"
+officialTrackName: "Investing"
 level: 1
 lessonNumber: 12
 locale: es-Caribbean
-title: "Primas, diferenciales y conceptos básicos sobre distribuidores"
-summary: "Explica la diferencia entre el precio spot de un metal y lo que realmente paga un comprador."
+title: "Primas, diferenciales y lo básico sobre los comerciantes"
+summary: "Explica la diferencia entre el precio al contado del metal y lo que realmente paga un comprador."
 version: "1.0"
 author: "Waldemar M. Caban, JD MA"
 date: "2026-08-09"
 ---
 
-# Primas, diferenciales y conceptos básicos sobre distribuidores
+# Primas, diferenciales y lo básico sobre los comerciantes
 
-## Objetivos de Aprendizaje
-- Definir en términos sencillos precio spot, prima y diferencial
-- Explicar por qué el precio pagado por metal físico difiere del precio spot
-- Reconocer la importancia de comparar distribuidores antes de comprar
+## Objetivos de aprendizaje
+- Definir en términos sencillos el precio al contado, la prima y el diferencial
+- Explicar por qué el precio que se paga por el metal físico es distinto del precio al contado
+- Reconocer la importancia de comparar comerciantes antes de comprar
 
-## Contenido Principal
+## Contenido principal
 
-El precio spot es el precio actual de mercado para una cantidad determinada de metal sin elaborar: el precio de referencia que suele publicarse. Al comprar metal físico a un distribuidor, el precio pagado normalmente es superior al spot; esa diferencia se llama prima. La prima cubre costos de fabricación de la moneda o barra, distribución y margen del distribuidor.
+El precio al contado (spot price, en inglés) es el precio de mercado actual de una cantidad dada de metal sin elaborar: el precio de referencia que verás publicado. Cuando se compra realmente metal físico a un comerciante, el precio que se paga suele ser más alto que el precio al contado, y esa diferencia se llama prima. La prima cubre los costos del comerciante de fabricar la moneda o la barra, la distribución y su margen.
 
-El diferencial es la brecha entre el precio al que un distribuidor vende una pieza de metal y el precio al que compra esa misma pieza. El precio de recompra suele ser inferior al precio de venta, y esa diferencia representa parte del margen comercial. Distintos distribuidores ofrecen primas y diferenciales diferentes, y productos distintos pueden tener primas distintas. Comparar varios distribuidores y comprender estos costos por adelantado ayuda a evitar pagar de más y a entender el costo real de comprar y posteriormente vender metal físico.
+El diferencial (spread, en inglés) es la brecha entre el precio al que un comerciante vende una pieza de metal y el precio al que le vuelve a comprar esa misma pieza: el precio de recompra de un comerciante suele ser más bajo que su precio de venta, y esa brecha representa parte del margen del negocio del comerciante. Los distintos comerciantes ofrecen primas y diferenciales distintos, y los distintos productos (las monedas comunes frente a las barras menos comunes, por ejemplo) pueden tener niveles de prima distintos. Comparar varios comerciantes y entender estos costos desde el principio ayuda a un inversionista a no pagar de más y a entender el costo real de comprar y, con el tiempo, vender metal físico.
 
-## Ejemplo Resuelto
+## Ejemplo práctico
 
-[EJEMPLO ILUSTRATIVO] Si el precio spot de una onza de plata es una cantidad publicada, un distribuidor podría vender una moneda común de plata por el precio spot más una prima que refleje costos de acuñación y distribución. Si luego el inversionista desea venderla, la oferta de recompra normalmente sería algo menor que el precio de venta vigente: ese es el diferencial. Comprender tanto la prima al comprar como el diferencial al vender permite estimar de forma realista cuánto vale una posición si hubiera que convertirla en efectivo.
+[EJEMPLO ILUSTRATIVO] Si el precio al contado de una onza de plata es cierta cantidad publicada, un comerciante podría vender una moneda de plata común al precio al contado más una prima que refleja los costos de acuñación y de distribución. Si ese mismo inversionista quiere más tarde volver a venderle la moneda, la oferta de recompra del comerciante normalmente sería algo más baja que el precio de venta del momento: ese es el diferencial. Entender tanto la prima que se paga al comprar como el diferencial al vender ayuda a un inversionista a estimar de forma realista cuánto vale realmente una posición si tuviera que convertirse de nuevo en efectivo, en vez de suponer que vale exactamente el precio al contado en todo momento.
 
-## Cuestionario Práctico
-1. Define precio spot, prima y diferencial.
-2. ¿Por qué el precio del metal físico suele superar el precio spot?
+## Prueba de práctica
+
+1. Define con tus propias palabras el precio al contado, la prima y el diferencial.
+2. ¿Por qué el precio que se paga por el metal físico suele ser mayor que el precio al contado?
 3. ¿Qué representa el diferencial?
-4. ¿Por qué importa comprender primas y diferenciales?
+4. ¿Por qué entender las primas y los diferenciales le importa a un inversionista?
 
-## Clave de Respuestas
-1. Precio spot: referencia actual de mercado; prima: costo añadido sobre spot al comprar; diferencial: brecha entre precios de compra y venta del distribuidor.
-2. Porque la prima cubre fabricación, distribución y margen del distribuidor.
-3. La diferencia entre el precio de venta y el de recompra, que representa parte del margen del distribuidor.
-4. Permite estimar el costo real de comprar y el valor real al vender, en vez de asumir que la posición siempre vale exactamente el precio spot.
+## Clave de respuestas
+1. El precio al contado es el precio de referencia actual del mercado; la prima es el costo adicional sobre el precio al contado al comprar; el diferencial es la brecha entre los precios de compra y de venta de un comerciante.
+2. Porque la prima cubre los costos de fabricación y distribución del comerciante y su margen.
+3. La brecha entre el precio al que vende un comerciante y el precio al que vuelve a comprar, que representa parte del margen del comerciante.
+4. Ayuda a un inversionista a estimar de forma realista el costo real de comprar y el valor real si vende, en vez de suponer que una posición vale exactamente el precio al contado en todo momento.
 
-## Respuestas y Explicaciones
-1. Estas definiciones establecen el vocabulario básico de precios en transacciones de metales físicos.
-2. Los costos y el margen del distribuidor explican la prima sobre spot.
-3. El diferencial es una parte normal del modelo comercial de un distribuidor.
-4. Considerar los costos de entrada y salida permite una valoración más realista.
+## Respuestas y explicaciones
+1. Estas tres definiciones establecen el vocabulario básico de precios de las transacciones de metal físico.
+2. Los costos y el margen del comerciante son las razones prácticas de la prima sobre el precio al contado.
+3. El diferencial refleja una parte normal del modelo de negocio de un comerciante, no un costo oculto ni inusual.
+4. Una estimación realista del valor, que tenga en cuenta los costos de comprar y de vender, es la utilidad práctica de entender estos términos.
 
-## Puntos Clave a Recordar
-- El precio spot es la referencia de mercado; la prima es el costo añadido al vender metal físico.
-- El diferencial es la brecha entre los precios de compra y venta del distribuidor.
-- Comparar distribuidores y comprender estos costos ayuda a estimar el valor real de una posición.
+## Puntos clave
+- El precio al contado es la referencia del mercado; la prima es lo que añade un comerciante al vender metal físico.
+- El diferencial es la brecha entre los precios de compra y de venta de un comerciante, y representa parte de su margen.
+- Comparar comerciantes y entender estos costos ayuda a un inversionista a estimar de forma realista el valor real de una posición.

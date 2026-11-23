@@ -1,58 +1,56 @@
 ---
 id: GOLD-L1-041
 track: GOLD
-officialTrackName: Inversión y Construcción de Patrimonio
+officialTrackName: "Investing"
 level: 1
 lessonNumber: 41
 locale: es-ES
-title: "Crear un plan de inversión periódica paso a paso"
-summary: "Comprende crear un plan de inversión periódica paso a paso y cómo encaja en una base sólida de alfabetización inversora."
-version: 1.0
-author: Waldemar M. Caban, JD MA
+title: "Cómo armar un plan de DCA paso a paso"
+summary: "Ofrece un marco concreto, paso a paso, para armar un plan personal de promedio del coste."
+version: "1.0"
+author: "Waldemar M. Caban, JD MA"
+date: "2026-08-09"
 ---
 
-# Crear un plan de inversión periódica paso a paso
+# Cómo armar un plan de DCA paso a paso
 
-## Objetivo de aprendizaje
+## Objetivos de aprendizaje
+- Llevar el concepto del DCA a un marco personal concreto, paso a paso
+- Practicar el cálculo de un calendario sencillo de DCA a partir de un presupuesto hipotético
+- Resumir en un solo ejercicio aplicado las lecciones anteriores sobre el DCA, el seguimiento y la planificación
 
-Al terminar esta lección podrás explicar el concepto con tus propias palabras, reconocer sus principales ventajas y riesgos y relacionarlo con una decisión financiera real.
+## Contenido principal
 
-## Concepto central
+A partir del concepto de DCA presentado antes en esta ruta, un plan de DCA concreto, paso a paso, implica: determinar una cantidad total disponible para invertir durante un período fijo (por ejemplo, un año), dividir esa cantidad en cuotas iguales y regulares (la cuota mensual es común y manejable para la mayoría de las personas), escoger una fecha de compra fija en cada período (en vez de intentar escoger un día "ideal", lo que volvería a introducir el problema de programar el mercado que el DCA busca evitar) y comprometerse a seguir ese calendario sin importar el precio específico de cada fecha de compra.
 
-Crear un plan de inversión periódica paso a paso forma parte de la alfabetización inversora porque invertir exige comprender qué se posee, por qué puede cambiar de valor y qué riesgos se aceptan. En la pista GOLD, los metales preciosos sirven como una forma concreta de estudiar principios que también se aplican a otras inversiones.
+Esta estructura paso a paso elimina la ambigüedad y el cansancio de tomar decisiones en el proceso: en vez de decidir cada vez si "ahora" es un buen momento para comprar, el calendario mismo toma esa decisión de forma automática, lo que libera al inversor de una decisión que, como se vio antes en esta ruta, ni siquiera los inversores profesionales pueden tomar bien de forma confiable a corto plazo.
 
-No existe un activo apropiado para todas las personas ni para todas las situaciones. La decisión depende de objetivos, horizonte temporal, liquidez, tolerancia al riesgo, costes y circunstancias personales. EDUNANCIAL proporciona información para que el alumno pueda evaluar esas variables y tomar sus propias decisiones; no promete rentabilidad ni recomienda una inversión concreta.
+Esta estructura también apoya de forma natural el hábito de llevar registros visto antes: un calendario fijo facilita armar un registro de seguimiento constante y comparable, ya que cada entrada sigue el mismo intervalo regular y el mismo formato.
 
-## Aplicación práctica
+## Ejemplo práctico
 
-Antes de actuar, separa el precio del valor, identifica todos los costes y pregunta qué tendría que ocurrir para que la decisión produzca un resultado distinto del esperado. Compara alternativas y considera también el coste de oportunidad del dinero utilizado.
+Un inversor con 600 € disponibles para el año podría armar el siguiente plan de DCA: 50 € invertidos en plata el día 1 de cada mes, durante 12 meses, con el mismo comerciante de buena reputación, y anotados cada vez en el mismo registro sencillo. Algunos meses esos 50 € compran un poco más de plata (cuando los precios están más bajos); otros meses, un poco menos (cuando los precios están más altos); pero el calendario mismo nunca cambia según el precio del momento, en coherencia con el principio central del DCA visto antes en esta ruta.
 
-Cuando intervengan impuestos, regulación, custodia, seguros o normas de mercado, recuerda que las reglas varían según el país y la jurisdicción. Los ejemplos estadounidenses son ejemplos educativos y no deben tratarse como reglas universales.
+## Cuestionario de práctica
 
-## Ejemplo
+1. Según esta lección, enumera los cuatro pasos para armar un plan de DCA concreto.
+2. ¿Por qué importa escoger una fecha de compra fija, en vez de intentar escoger un día "ideal"?
+3. ¿Cómo elimina esta estructura el cansancio de tomar decisiones en el proceso de inversión?
+4. Calcula: si hay 1.200 € disponibles para el año y las compras se hacen cada mes, ¿de cuánto sería cada compra mensual?
 
-Una persona reserva una cantidad que puede permitirse mantener invertida y compara varias opciones. En lugar de comprar solo porque el precio ha subido, analiza el propósito de la posición, los costes de compra y venta, la facilidad de convertirla en efectivo y el papel que tendría dentro de su patrimonio total.
+## Clave de respuestas
+1. Determinar la cantidad total disponible, dividirla en cuotas iguales y regulares, escoger una fecha de compra fija y comprometerse con el calendario sin importar el precio.
+2. Porque intentar escoger un día "ideal" vuelve a introducir el problema de programar el mercado que el DCA está diseñado específicamente para evitar.
+3. Haciendo que la decisión de compra sea automática con un calendario fijo, en vez de requerir cada vez un juicio nuevo y difícil sobre el momento.
+4. 1.200 € divididos entre 12 meses son 100 € al mes.
 
-## Comprobación de comprensión
-
-**Pregunta:** ¿Cuál es el enfoque más sólido antes de tomar una decisión relacionada con este concepto?
-
-A. Actuar porque otra persona afirma que el precio subirá.  
-B. Evaluar objetivos, riesgos, costes, liquidez y alternativas.  
-C. Suponer que los resultados pasados garantizan los futuros.  
-D. Concentrar todo el capital en una sola idea.
-
-**Respuesta:** B.
+## Respuestas y explicaciones
+1. Estos cuatro pasos llevan el concepto del DCA a un plan concreto y accionable.
+2. Las fechas fijas preservan el beneficio central del DCA de eliminar del proceso el riesgo de programar el mercado.
+3. Automatizar el calendario es lo que elimina específicamente el cansancio de decidir y la presión del momento que atiende el DCA.
+4. Este cálculo aplica las matemáticas básicas del plan directamente a un nuevo caso hipotético.
 
 ## Puntos clave
-
-- Comprende el activo o estrategia antes de comprometer dinero.
-- Riesgo y rentabilidad potencial deben analizarse juntos.
-- Los costes y la liquidez afectan al resultado real.
-- La diversificación puede reducir la dependencia de una sola posición, pero no elimina el riesgo.
-- Las normas fiscales y legales dependen de la jurisdicción.
-- La información debe ayudarte a decidir; no sustituye asesoramiento profesional individualizado.
-
-## Reflexión
-
-Explica cómo aplicarías esta lección a una decisión propia sin depender de una predicción sobre el precio futuro.
+- Un plan de DCA concreto implica determinar un presupuesto total, dividirlo en cuotas iguales y regulares, escoger una fecha de compra fija y comprometerse con el calendario sin importar el precio.
+- Las fechas de compra fijas preservan el beneficio central del DCA de eliminar del proceso de inversión el riesgo de programar el mercado y el cansancio de decidir.
+- Esta estructura apoya de forma natural un seguimiento constante, ya que cada compra sigue el mismo intervalo regular y el mismo formato.

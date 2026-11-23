@@ -1,53 +1,54 @@
 ---
 id: GOLD-L1-049
 track: GOLD
-officialTrackName: "Inversión"
+officialTrackName: "Investing"
 level: 1
 lessonNumber: 49
 locale: es-Caribbean
-title: "Preparación para el Nivel 2: lo próximo en inversión"
-summary: "Anticipa los temas que desarrollará el Nivel 2 del track GOLD a partir de los fundamentos establecidos en el Nivel 1."
+title: "Prepararse para el Nivel 2: lo que sigue en la inversión"
+summary: "Adelanta los temas que construirá el Nivel 2 de la ruta GOLD, a partir de la base establecida en el Nivel 1."
 version: "1.0"
 author: "Waldemar M. Caban, JD MA"
 date: "2026-08-09"
 ---
 
-# Preparación para el Nivel 2: lo próximo en inversión
+# Prepararse para el Nivel 2: lo que sigue en la inversión
 
-## Objetivos de Aprendizaje
-- Resumir los fundamentos establecidos en el Nivel 1
-- Anticipar la dirección general que desarrollará el Nivel 2
-- Reconocer cómo los conceptos fundamentales se extenderán hacia material más avanzado
+## Objetivos de aprendizaje
+- Resumir la base que ha establecido el Nivel 1
+- Adelantar la dirección general que tomará el Nivel 2
+- Reconocer cómo los conceptos básicos se extenderán a un material más avanzado
 
-## Contenido Principal
+## Contenido principal
 
-El Nivel 1 del track GOLD ha construido una base utilizando los metales preciosos como punto de referencia concreto y tangible: las cuatro funciones del dinero, qué significa realmente invertir, inversión periódica, capitalización, tolerancia al riesgo y horizonte temporal, diversificación, liquidez, inflación y la psicología necesaria para mantener la disciplina durante las fluctuaciones de precios. Estos conceptos no son exclusivos de los metales; son principios generales de inversión que se enseñaron mediante un activo sencillo y tangible.
+El Nivel 1 de la ruta GOLD ha construido una base usando los metales preciosos como un ancla concreta y tangible: las cuatro funciones del dinero, lo que realmente significa invertir, el promedio del costo en dólares, la capitalización compuesta, la tolerancia al riesgo y el horizonte temporal, la diversificación, la liquidez, la inflación y la psicología de mantener la disciplina ante las fluctuaciones del precio. Estos no son conceptos exclusivos de los metales: son principios generales de inversión que resultaron más fáciles de enseñar con claridad mediante un activo sencillo y tangible.
 
-El Nivel 2 ampliará esta base hacia estrategias de inversión más amplias y activos alternativos más allá de los metales preciosos y de los activos de papel cubiertos en el track WHITE. Incluirá construcción de carteras con múltiples tipos de activos, gestión de riesgo más avanzada y aplicación de los principios aprendidos aquí —inversión periódica, capitalización, diversificación y correspondencia entre riesgo y horizonte temporal— al combinar metales preciosos con otras posiciones dentro de una estrategia general más completa.
+El Nivel 2 construirá sobre esta base y se extenderá a una estrategia de inversión más amplia y a activos alternativos más allá de los metales preciosos y de los activos de papel vistos en la ruta WHITE: la construcción de carteras con varios tipos de activos, una gestión del riesgo más avanzada y cómo se aplican los principios aprendidos aquí (DCA, capitalización compuesta, diversificación, ajuste al horizonte temporal) cuando se combinan los metales preciosos con otras tenencias en una estrategia general más completa.
 
-## Ejemplo Resuelto
+## Ejemplo práctico
 
-[EJEMPLO ILUSTRATIVO] Un estudiante que haya interiorizado la inversión periódica y la correspondencia con el horizonte temporal mediante el caso de los metales preciosos encontrará esos mismos conceptos al estudiar una construcción de cartera más compleja en el Nivel 2. La lógica de invertir con constancia y relacionar el riesgo con el plazo no cambia porque se incorporen más tipos de activos. La base del Nivel 1 está diseñada para que esa transición sea una extensión de principios conocidos y no un conjunto completamente nuevo de ideas.
+[EJEMPLO ILUSTRATIVO] Un estudiante que haya asimilado el promedio del costo en dólares y el ajuste del riesgo al horizonte temporal mediante el caso de estudio de los metales preciosos de esta ruta encontrará que esos mismos conceptos son directamente transferibles cuando el Nivel 2 presente una construcción de carteras más compleja: la lógica de fondo de invertir con constancia y ajustar el riesgo al plazo no cambia solo porque haya más tipos de activos. La base del Nivel 1 está diseñada específicamente para que esa transición se sienta como una extensión de principios conocidos, y no como un conjunto de ideas totalmente nuevo.
 
-## Cuestionario Práctico
-1. ¿Qué fundamentos ha establecido el Nivel 1 del track GOLD?
-2. ¿Los conceptos estudiados en el Nivel 1 son exclusivos de los metales preciosos?
-3. Según esta lección, ¿hacia qué temas avanzará el Nivel 2?
-4. ¿Por qué la base del Nivel 1 facilita la transición al Nivel 2?
+## Prueba de práctica
 
-## Clave de Respuestas
-1. Principios fundamentales de inversión: las cuatro funciones del dinero, inversión periódica, capitalización, tolerancia al riesgo, diversificación, liquidez, inflación y psicología de inversión.
-2. No. Son principios generales aplicables a contextos de inversión más amplios.
-3. Estrategia de inversión más amplia, activos alternativos, construcción de carteras y gestión de riesgo más avanzada.
-4. Porque los principios fundamentales siguen siendo aplicables cuando se incorporan más tipos de activos.
+1. ¿Qué base ha establecido el Nivel 1 de la ruta GOLD?
+2. ¿Los conceptos vistos en el Nivel 1 son exclusivos de los metales preciosos o se aplican de forma más amplia?
+3. Según el adelanto de esta lección, ¿hacia qué construirá el Nivel 2?
+4. ¿Por qué la base del Nivel 1 está diseñada para que la transición al Nivel 2 se sienta conocida en vez de totalmente nueva?
 
-## Respuestas y Explicaciones
-1. Resume la base acumulada durante el Nivel 1.
-2. Refuerza que los metales funcionan como herramienta educativa y no como el único activo relevante.
-3. Establece expectativas sobre el desarrollo del track en niveles posteriores.
-4. La transferibilidad de los principios conecta deliberadamente el Nivel 1 con el Nivel 2.
+## Clave de respuestas
+1. Los principios centrales de inversión (las cuatro funciones del dinero, el DCA, la capitalización compuesta, la tolerancia al riesgo, la diversificación, la liquidez, la inflación y la psicología de la inversión), enseñados mediante los metales preciosos como un ancla tangible.
+2. Son principios generales de inversión que se aplican de forma amplia, aunque se enseñaron con un ejemplo propio de los metales.
+3. Hacia una estrategia de inversión más amplia y activos alternativos, la construcción de carteras y una gestión del riesgo más avanzada.
+4. Porque los principios de fondo (DCA, capitalización compuesta, horizonte temporal) no cambian cuando hay más tipos de activos: simplemente se aplican de forma más amplia.
 
-## Puntos Clave a Recordar
-- El Nivel 1 estableció principios de inversión ampliamente aplicables usando los metales preciosos como referencia tangible.
-- Los principios aprendidos se transfieren directamente a otros contextos de inversión.
-- El Nivel 2 ampliará la base hacia construcción de carteras, activos alternativos y gestión de riesgo más avanzada.
+## Respuestas y explicaciones
+1. Esto resume la base acumulada que se construyó a lo largo de todas las lecciones del Nivel 1.
+2. Esto refuerza el propósito declarado de la ruta desde la tercera lección: los metales como herramienta de enseñanza, no como el único activo relevante.
+3. Este adelanto fija las expectativas sobre cómo se desarrollará la ruta en los niveles siguientes.
+4. La transferibilidad de los principios es el diseño pedagógico deliberado que conecta el Nivel 1 con el Nivel 2.
+
+## Puntos clave
+- El Nivel 1 construyó una base de principios de inversión que se aplican de forma amplia, enseñados mediante los metales preciosos como activo ancla tangible.
+- Estos principios no son exclusivos de los metales: se transfieren directamente a contextos de inversión más amplios.
+- El Nivel 2 extenderá esta base a la construcción de carteras, los activos alternativos y una gestión del riesgo más avanzada.

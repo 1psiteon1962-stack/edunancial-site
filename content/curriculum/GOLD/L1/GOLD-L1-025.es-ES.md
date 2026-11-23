@@ -1,58 +1,56 @@
 ---
 id: GOLD-L1-025
 track: GOLD
-officialTrackName: Inversión y Construcción de Patrimonio
+officialTrackName: "Investing"
 level: 1
 lessonNumber: 25
 locale: es-ES
-title: "Volatilidad de precios en los metales preciosos"
-summary: "Comprende volatilidad de precios en los metales preciosos y cómo encaja en una base sólida de alfabetización inversora."
-version: 1.0
-author: Waldemar M. Caban, JD MA
+title: "La volatilidad del precio de los metales preciosos"
+summary: "Explica la volatilidad del precio como una característica normal de la inversión en metales preciosos, no como señal de que algo anda mal."
+version: "1.0"
+author: "Waldemar M. Caban, JD MA"
+date: "2026-08-09"
 ---
 
-# Volatilidad de precios en los metales preciosos
+# La volatilidad del precio de los metales preciosos
 
-## Objetivo de aprendizaje
+## Objetivos de aprendizaje
+- Definir la volatilidad en el contexto de la inversión
+- Explicar por qué los metales preciosos, sobre todo la plata, pueden tener una volatilidad importante
+- Reconocer la volatilidad como una característica normal, no como un defecto
 
-Al terminar esta lección podrás explicar el concepto con tus propias palabras, reconocer sus principales ventajas y riesgos y relacionarlo con una decisión financiera real.
+## Contenido principal
 
-## Concepto central
+La volatilidad se refiere a cuánto y qué tan rápido se mueve el precio de un activo, en cualquier dirección, durante un período dado. Los metales preciosos, y la plata en particular (por el menor tamaño de su mercado y por el componente adicional de demanda industrial visto en una lección anterior), pueden tener una volatilidad de precio notable, y a veces se mueven mucho en un solo día por una noticia económica, por los movimientos de las monedas o por cambios en el ánimo de los inversores.
 
-Volatilidad de precios en los metales preciosos forma parte de la alfabetización inversora porque invertir exige comprender qué se posee, por qué puede cambiar de valor y qué riesgos se aceptan. En la pista GOLD, los metales preciosos sirven como una forma concreta de estudiar principios que también se aplican a otras inversiones.
+Esta volatilidad es una característica normal de la clase de activo, no una prueba de que algo salió mal ni de que la tesis de inversión de fondo fracasó. Los inversores nuevos a veces confunden la volatilidad a corto plazo con una señal de que tomaron una mala decisión, cuando en realidad prácticamente todos los activos financieros que se negocian de forma activa tienen algún grado de volatilidad: los metales preciosos simplemente no son una excepción a esta realidad general del mercado.
 
-No existe un activo apropiado para todas las personas ni para todas las situaciones. La decisión depende de objetivos, horizonte temporal, liquidez, tolerancia al riesgo, costes y circunstancias personales. EDUNANCIAL proporciona información para que el alumno pueda evaluar esas variables y tomar sus propias decisiones; no promete rentabilidad ni recomienda una inversión concreta.
+Entender la volatilidad como algo normal, en vez de alarmante, apoya directamente los principios de paciencia y de horizonte temporal largo vistos antes en esta ruta. Un inversor que espera y acepta la volatilidad como parte del proceso está mucho mejor preparado para mantener una estrategia a largo plazo que uno que se sorprende y se inquieta con cada vaivén del precio.
 
-## Aplicación práctica
+## Ejemplo práctico
 
-Antes de actuar, separa el precio del valor, identifica todos los costes y pregunta qué tendría que ocurrir para que la decisión produzca un resultado distinto del esperado. Compara alternativas y considera también el coste de oportunidad del dinero utilizado.
+El precio de la plata podría subir o bajar varios puntos porcentuales en un solo día de negociación por una noticia económica; esto puede parecer alarmante a un inversor nuevo que revisa los precios todos los días, sobre todo si ocurre poco después de una compra. Pero, visto frente al horizonte temporal de varios años que esta ruta ha recalcado en todo momento, usando el caso de estudio biográfico como ilustración, la volatilidad de un solo día es una parte normal y esperada de tener esta clase de activo, no una señal importante sobre la solidez de la estrategia a largo plazo.
 
-Cuando intervengan impuestos, regulación, custodia, seguros o normas de mercado, recuerda que las reglas varían según el país y la jurisdicción. Los ejemplos estadounidenses son ejemplos educativos y no deben tratarse como reglas universales.
+## Cuestionario de práctica
 
-## Ejemplo
+1. Define la volatilidad en el contexto de la inversión.
+2. ¿Por qué la plata, en particular, puede tener una volatilidad importante?
+3. ¿La volatilidad es una señal de que algo salió mal con una inversión?
+4. ¿Cómo apoya el principio de paciencia de las lecciones anteriores entender la volatilidad como algo normal?
 
-Una persona reserva una cantidad que puede permitirse mantener invertida y compara varias opciones. En lugar de comprar solo porque el precio ha subido, analiza el propósito de la posición, los costes de compra y venta, la facilidad de convertirla en efectivo y el papel que tendría dentro de su patrimonio total.
+## Clave de respuestas
+1. Cuánto y qué tan rápido se mueve el precio de un activo, en cualquier dirección, durante un período dado.
+2. Por el menor tamaño de su mercado y por su componente adicional de demanda industrial, en comparación con el oro.
+3. No: es una característica normal de la clase de activo, no una prueba de una mala decisión ni de una tesis de inversión fallida.
+4. Un inversor que espera y acepta la volatilidad como algo normal está mejor preparado para mantener una estrategia a largo plazo en vez de reaccionar emocionalmente a los vaivenes del precio a corto plazo.
 
-## Comprobación de comprensión
-
-**Pregunta:** ¿Cuál es el enfoque más sólido antes de tomar una decisión relacionada con este concepto?
-
-A. Actuar porque otra persona afirma que el precio subirá.  
-B. Evaluar objetivos, riesgos, costes, liquidez y alternativas.  
-C. Suponer que los resultados pasados garantizan los futuros.  
-D. Concentrar todo el capital en una sola idea.
-
-**Respuesta:** B.
+## Respuestas y explicaciones
+1. Esto define el concepto central de la volatilidad del precio tal como se trata en esta lección.
+2. Las características específicas del mercado de la plata explican su volatilidad, normalmente más alta que la del oro.
+3. Esto corrige directamente un error de concepto común de los inversores nuevos sobre los movimientos de precio.
+4. Esto relaciona directamente la comprensión de la volatilidad con el principio de paciencia establecido antes en la ruta.
 
 ## Puntos clave
-
-- Comprende el activo o estrategia antes de comprometer dinero.
-- Riesgo y rentabilidad potencial deben analizarse juntos.
-- Los costes y la liquidez afectan al resultado real.
-- La diversificación puede reducir la dependencia de una sola posición, pero no elimina el riesgo.
-- Las normas fiscales y legales dependen de la jurisdicción.
-- La información debe ayudarte a decidir; no sustituye asesoramiento profesional individualizado.
-
-## Reflexión
-
-Explica cómo aplicarías esta lección a una decisión propia sin depender de una predicción sobre el precio futuro.
+- La volatilidad se refiere a cuánto y qué tan rápido se mueve el precio de un activo, y es una característica normal de la inversión en metales preciosos.
+- La plata tiende a tener más volatilidad que el oro por el menor tamaño de su mercado y por su componente de demanda industrial.
+- Entender la volatilidad como algo normal, en vez de alarmante, ayuda a mantener una estrategia de inversión paciente y a largo plazo.
