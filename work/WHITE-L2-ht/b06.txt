@@ -1,0 +1,283 @@
+===== WHITE-L2-026
+TITLE: Volatilite ak tolerans pou risk
+SUMMARY: Volatilite vle di nivo ak frekans fliktiyasyon pri yon envestisman konnen avèk tan; tolerans pou risk vle di volonte ak kapasite sikolojik yon envestisè pou l andire volatilite sa a san l pa abandone plan li.
+## WHITE-L2-026
+### Volatilite ak tolerans pou risk
+
+**1. Objektif aprantisaj**
+Nan fen leson sa a, elèv la ap kapab:
+- Bay definisyon volatilite nan yon nivo konseptyèl.
+- Fè diferans ant volatilite ak konsèp pèt pèmanan.
+- Esplike konsèp jeneral tolerans pou risk ak wòl li nan desizyon pòtfolyo.
+
+**2. Kontni prensipal**
+Volatilite vle di nivo ak frekans fliktiyasyon pri yon envestisman konnen avèk tan — yon byen ki trè volatil monte e desann pi fò e pi souvan pase yon byen ki gen ti volatilite. Li enpòtan pou fè diferans ant volatilite ak pèt pèmanan: yon byen volatil ki alafen remonte e grandi te konnen volatilite, se pa nesesèman yon pèt pèmanan, alòske yon byen ki desann e ki pa janm remonte (tankou yon konpayi ki fèmen pòt li) reprezante yon vrè pèt pèmanan.
+
+Tolerans pou risk vle di volonte ak kapasite sikolojik yon envestisè endividyèl pou l andire volatilite san l pa abandone plan envestisman li — pa egzanp, vann nan panik pandan yon bès. Sa diferan de kapasite pou risk, ki vle di kapasite finansye yon envestisè pou l sipòte pèt dapre sikonstans espesifik li (orizon tan, estabilite revni, lòt resous) kèlkeswa nivo konfò emosyonèl li. Yon alokasyon byen ki fèt ak refleksyon (Leson 16) konsidere tou de: yon envestisè ta ka gen yon gwo kapasite pou risk (plizyè deseni anvan retrèt, revni estab) men yon tolerans pou risk ki ba (anpil enkyetid pandan bès), e yon plan responsab konte tou de reyalite yo olye sèlman sa ki pi favorab la.
+
+**3. Egzanp pratik**
+Malgre li gen plizyè deseni anvan retrèt ak yon revni estab (sa ki sijere yon gwo kapasite pou risk), Beatriz rekonèt onètman li te deja vann envestisman nan panik pandan bès pase yo, sa ki reflete yon tolerans pou risk konparativman pi ba pase sa sitiyasyon finansye li sèlman ta sijere. Olye l chwazi yon alokasyon ki baze sèlman sou kapasite finansye li pou l sipòte volatilite, li chwazi yon alokasyon yon ti jan pi konsèvatè pase sa yon kalkil kapasite pou risk sèlman ta ka sijere, li bay priyorite a yon alokasyon li ka kenbe toutbon atravè bès mache olye youn ki pi bon an teyori men ki pa ka dire pou li nan pratik.
+
+**4. Egzamen pratik**
+1. Kisa volatilite anjeneral vle di?
+   a) Yon pèt pèmanan ou pa ka rekipere
+   b) Nivo ak frekans fliktiyasyon pri avèk tan
+   c) Yon kalite obligasyon
+   d) Yon retou garanti
+
+2. Ki diferans ant tolerans pou risk ak kapasite pou risk?
+   a) Se menm konsèp yo
+   b) Tolerans pou risk se volonte sikolojik pou andire volatilite; kapasite pou risk se kapasite finansye pou sipòte pèt
+   c) Kapasite pou risk aplike sèlman pou obligasyon
+   d) Tolerans pou risk pa gen rapò ak envestisman
+
+3. Vrè oswa Fo: Yon byen volatil ki alafen remonte e grandi te nesesèman soufri yon pèt pèmanan.
+
+4. Poukisa Beatriz te chwazi yon alokasyon pi konsèvatè pase sa kapasite pou risk li sèlman ta ka sijere?
+   a) Li pa t gen okenn kapasite finansye pou risk
+   b) Tolerans sikolojik li pou risk ki pi ba, ki parèt nan vant nan panik pase yo, te mande yon alokasyon ki ka dire
+   c) Li pa t renmen okenn fòm envestisman
+   d) Patwon li te mande sa
+
+**5. Kle repons yo**
+1. b  2. b  3. Fo  4. b
+
+**6. Repons ak eksplikasyon**
+1. Volatilite dekri nivo ak frekans fliktiyasyon pri, se pa nesesèman yon pèt pèmanan.
+2. Tolerans pou risk se volonte sikolojik pou andire volatilite; kapasite pou risk se kapasite finansye pou sipòte pèt.
+3. Yon byen volatil ki remonte e grandi te konnen volatilite, se pa nesesèman yon pèt pèmanan.
+4. Evalyasyon onèt Beatriz sou tolerans pou risk li ki pi ba, malgre yon gwo kapasite pou risk, te mennen nan yon chwa alokasyon ki ka dire plis.
+
+**7. Pwen kle yo**
+- Volatilite dekri nivo ak frekans fliktiyasyon pri, diferan de pèt pèmanan.
+- Tolerans pou risk se volonte sikolojik pou andire volatilite; kapasite pou risk se kapasite finansye pou sipòte pèt.
+- Yon plan responsab konte ni tolerans pou risk ni kapasite pou risk, pa sèlman sa ki pi favorab la.
+- Yon alokasyon ki pi bon an teyori men ki pa ka dire pou sikoloji yon envestisè ka pa bon chwa a.
+
+===== WHITE-L2-027
+TITLE: Orizon tan ak efè li sou estrateji
+SUMMARY: Orizon tan vle di longè tan anvan yon envestisè atann pou l bezwen oswa itilize yon kòb li envesti – youn nan faktè ki pi enpòtan pou fòme yon estrateji apwopriye.
+## WHITE-L2-027
+### Orizon tan ak efè li sou estrateji
+
+**1. Objektif aprantisaj**
+Nan fen leson sa a, elèv la ap kapab:
+- Bay definisyon orizon tan nan yon nivo konseptyèl.
+- Esplike kijan orizon tan anjeneral afekte nivo risk ki apwopriye.
+- Rekonèt ke yon envestisè ka gen plizyè orizon tan diferan pou diferan objektif.
+
+**2. Kontni prensipal**
+Orizon tan vle di longè tan anvan yon envestisè atann pou l bezwen oswa itilize yon kòb li envesti. Sa a se youn nan faktè ki pi enpòtan pou fòme yon estrateji apwopriye (Leson 16, 26): yon orizon tan ki pi long anjeneral bay yon envestisè plis kapasite pou l andire volatilite kout tèm, paske gen plis tan disponib pou yon bès tanporè ka remonte anvan yo bezwen lajan an toutbon. Yon orizon tan ki pi kout anjeneral mande yon pozisyon ki pi konsèvatè, paske gen mwens tan pou rekipere apre yon bès ki rive nan move moman anvan yo bezwen lajan an.
+
+Sa ki enpòtan, yon envestisè endividyèl souvan gen plizyè orizon tan diferan pou diferan objektif finansye an menm tan — ekonomi retrèt plizyè deseni devan, yon fon pou avans kay li bezwen nan twazan, ak yon fon ijans li ka bezwen nenpòt ki moman, san avètisman. Chak nan kòb sa yo ka rezonab mande yon estrateji diferan, paske yo gen orizon tan ki diferan fondamantalman, menm si yo pou menm moun nan.
+
+**3. Egzanp pratik**
+Lè l ap revize tout finans li, Georgia rekonèt l ap jere lajan ak plizyè orizon tan trè diferan an menm tan: ekonomi retrèt li pa atann pou l touche pandan plis pase trant an, yon fon avans kay li planifye itilize nan dezan, ak yon fon ijans li ta ka bezwen nenpòt ki moman. Olye l aplike yon sèl estrateji sou tout lajan sa a, Georgia mete ekonomi retrèt li yon fason agresif nan aksyon akoz orizon long lan, li kenbe fon avans kay li nan envestisman ki pi konsèvatè e ki estab akoz orizon kout la, e li kenbe fon ijans li an kach ki fasil pou jwenn, paske li rekonèt orizon tan apa chak kòb mande yon apwòch apa.
+
+**4. Egzamen pratik**
+1. Kisa orizon tan anjeneral vle di?
+   a) Montan total lajan ou envesti
+   b) Longè tan anvan yon envestisè atann pou l bezwen oswa itilize lajan li envesti
+   c) Yon kalite obligasyon
+   d) Yon dat limit pou deklarasyon taks
+
+2. Kijan yon orizon tan ki pi long anjeneral afekte nivo risk ki apwopriye?
+   a) Li anjeneral mande yon pozisyon ki pi konsèvatè
+   b) Li anjeneral bay plis kapasite pou andire volatilite kout tèm
+   c) Li pa gen okenn efè sou estrateji
+   d) Li mande pou evite tout aksyon
+
+3. Vrè oswa Fo: Yon envestisè endividyèl ka sèlman gen yon sèl orizon tan pou tout lajan li.
+
+4. Poukisa Georgia te itilize diferan estrateji pou ekonomi retrèt li, fon kay li, ak fon ijans li?
+   a) Règleman te oblije l
+   b) Chak kòb te gen yon orizon tan diferan fondamantalman ki mande yon apwòch diferan
+   c) Twa kòb yo te gen orizon tan idantik
+   d) Li pa t renmen divèsifikasyon
+
+**5. Kle repons yo**
+1. b  2. b  3. Fo  4. b
+
+**6. Repons ak eksplikasyon**
+1. Orizon tan se longè tan anvan yon envestisè atann pou l bezwen oswa itilize lajan li envesti.
+2. Yon orizon tan ki pi long anjeneral bay plis kapasite pou andire volatilite kout tèm anvan yo bezwen lajan an.
+3. Moun souvan gen plizyè orizon tan diferan pou diferan objektif finansye an menm tan.
+4. Diferan orizon tan Georgia pou chak objektif finansye te mande kòmsadwa estrateji ki diferan.
+
+**7. Pwen kle yo**
+- Orizon tan se longè tan anvan yo atann pou yo bezwen lajan yo envesti.
+- Orizon ki pi long anjeneral bay plis kapasite pou volatilite; orizon ki pi kout anjeneral mande yon pozisyon ki pi konsèvatè.
+- Yon moun ka gen plizyè orizon tan diferan pou diferan objektif an menm tan.
+- Chak kòb apa ka rezonab mande pwòp estrateji li dapre pwòp orizon tan espesifik li.
+
+===== WHITE-L2-028
+TITLE: Prejije konpòtman: laperèz, evaris, ak mantalite twoupo
+SUMMARY: Rechèch nan finans konpòtmantal idantifye plizyè modèl sikolojik ki retounen ki ka mennen envestisè yo lwen pwòp plan alontèm yo te deklare.
+## WHITE-L2-028
+### Prejije konpòtman: laperèz, evaris, ak mantalite twoupo
+
+**1. Objektif aprantisaj**
+Nan fen leson sa a, elèv la ap kapab:
+- Idantifye prejije konpòtman kouran ki afekte desizyon envestisè yo.
+- Esplike kijan laperèz ak evaris ka mennen nan desizyon ki fèt nan move moman.
+- Dekri mantalite twoupo ak risk jeneral li.
+
+**2. Kontni prensipal**
+Rechèch nan finans konpòtmantal idantifye plizyè modèl sikolojik ki retounen ki ka mennen envestisè yo lwen pwòp plan alontèm yo te deklare. Vant ki soti nan laperèz souvan rive pandan bès mache, lè yon envestisè vann nan yon pwen ki ba espesyalman akoz malèz emosyonèl, sa ki ka fè yon eksperyans volatilite tanporè (Leson 26) tounen yon pèt pèmanan ki bloke. Acha ki soti nan evaris souvan rive pandan ogmantasyon pri rapid, lè yon envestisè achte yon fason agresif toupre yon pik mache espesyalman akoz pè pou l rate opòtinite a, olye dapre tèz envestisman oswa estrateji orijinal li.
+
+Mantalite twoupo vle di tandans pou swiv konpòtman foul la — achte paske tout lòt moun sanble ap achte, oswa vann paske tout lòt moun sanble ap vann — olye konte sou yon analiz endepandan oswa pwòp plan ou te etabli. Sa ka anplifye ekstrèm mache yo, paske acha ki soti nan twoupo a ka pouse pri yo pi wo pase sa fondamantal yo ta ka sipòte, e vant ki soti nan twoupo a ka pouse pri yo pi ba pase sa fondamantal yo ta ka sipòte.
+
+Rekonèt modèl sa yo nan tèt pa w, nan moman an, vrèman difisil — se egzakteman poutèt sa gen yon plan ak yon estrateji ekri ou te etabli davans (sa raple disiplin nou bati atravè tout nivo sa a) pi enpòtan pandan moman mache ki chaje ak emosyon pase pandan moman kalm.
+
+**3. Egzanp pratik**
+Pandan yon bès mache sevè e toudenkou, Reggie santi yon gwo anvi pou l vann aksyon li yo imedyatman, sa ki soti nan laperèz ak tit jounal ki prevwa plis bès. Anvan l aji, li revize plan envestisman ekri li te etabli plizyè mwa anvan, pandan yon peryòd kalm, ki te prevwa espesyalman ke bès ta rive e ki te dekri entansyon li pou l rete envesti atravè volatilite kout tèm akoz orizon tan long li (Leson 27).
+
+Retounen nan plan li te etabli davans sa a ede Reggie reziste anvi pou l vann ki soti nan laperèz nan moman an, sa ki montre poukisa gen yon plan an plas anvan emosyon yo monte pi efikas pase eseye rezone kalm nan mitan yon evènman mache ki estresan.
+
+**4. Egzamen pratik**
+1. Kisa vant ki soti nan laperèz ka fè tounen?
+   a) Yon benefis garanti an yon pèt garanti
+   b) Yon eksperyans volatilite tanporè an yon pèt pèmanan ki bloke
+   c) Yon obligasyon an yon aksyon
+   d) Anyen — li pa gen okenn efè
+
+2. Kisa "mantalite twoupo" ye?
+   a) Yon analiz endepandan ak atansyon
+   b) Tandans pou swiv konpòtman acha oswa vant foul la olye pwòp plan ou
+   c) Yon kalite nòt obligasyon
+   d) Yon règleman gouvènman
+
+3. Vrè oswa Fo: Prejije konpòtman tankou laperèz ak evaris pa gen okenn vrè efè sou desizyon envestisè yo.
+
+4. Poukisa plan ekri Reggie te etabli davans lan te ede l pandan bès mache a?
+   a) Li pa t gen okenn efè sou desizyon li
+   b) Li te bay yon repè kalm, ki te deside davans, pou reziste yon anvi laperèz nan moman an
+   c) Li te di l vann imedyatman
+   d) Li te kreye l pandan bès la menm
+
+**5. Kle repons yo**
+1. b  2. b  3. Fo  4. b
+
+**6. Repons ak eksplikasyon**
+1. Vant ki soti nan laperèz pandan yon bès ka bloke yon pèt ki otreman ta ka yon eksperyans volatilite tanporè ou ka rekipere.
+2. Mantalite twoupo gen ladan swiv konpòtman foul la olye yon analiz endepandan oswa yon plan ou te etabli.
+3. Prejije konpòtman tankou laperèz ak evaris byen dokimante e yo ka afekte vrè desizyon envestisè yo anpil.
+4. Plan Reggie, li te etabli ak kalm davans, te ba l yon repè estab pou reziste yon anvi emosyonèl nan moman an.
+
+**7. Pwen kle yo**
+- Vant ki soti nan laperèz ka fè volatilite tanporè tounen yon pèt pèmanan ki bloke.
+- Acha ki soti nan evaris, souvan mare ak pè pou rate opòtinite, ka mennen nan acha nan move moman toupre pik mache.
+- Mantalite twoupo vle di swiv foul la olye yon analiz endepandan oswa yon plan ou te etabli.
+- Yon plan ekri ou etabli pandan peryòd kalm bay yon repè pi efikas pase rezone nan moman an pandan estrès.
+
+===== WHITE-L2-029
+TITLE: Kont ki gen avantaj taks: yon apèsi konseptyèl
+SUMMARY: Anpil jiridiksyon ofri kalite kont espesifik ki fèt pou ankouraje epay ak envestisman alontèm lè yo bay yon tretman taks favorab, konpare ak yon kont kourtaj estanda ki sijè a taks.
+## WHITE-L2-029
+### Kont ki gen avantaj taks: yon apèsi konseptyèl
+
+**1. Objektif aprantisaj**
+Nan fen leson sa a, elèv la ap kapab:
+- Esplike konsèp jeneral yon kont ki gen avantaj taks.
+- Fè diferans, nan yon nivo konseptyèl, ant diferan kategori jeneral tretman taks.
+- Rekonèt sa kòm yon domèn ki depann de jiridiksyon an e ki mande konsèy pwofesyonèl ki ajou.
+
+**2. Kontni prensipal**
+Anpil jiridiksyon ofri kalite kont espesifik ki fèt pou ankouraje epay ak envestisman alontèm lè yo bay yon fòm tretman taks favorab, konpare ak yon kont kourtaj estanda ki sijè a taks. Kategori jeneral kouran (nou ilistre yo ak konsèp Ozetazini kòm yon egzanp, paske detay yo depann anpil de jiridiksyon an) gen ladan kont kote kontribisyon yo ka diminye revni ki sijè a taks kounye a ak taks ki anjeneral dwe pita lè w retire, ak kont kote kontribisyon yo pa diminye revni ki sijè a taks kounye a men retrè ki kalifye yo ka pa sijè a taks pita.
+
+Leson sa a evite espre nonmen limit kontribisyon aktyèl espesifik, limit revni, oswa règ kalifikasyon detaye, paske yo chanje souvan atravè lejislasyon e yo varye anpil selon jiridiksyon e menm selon kalite kont espesifik anndan yon jiridiksyon. *(RÈG ESPESIFIK POU PEYI A: non kont yo, limit yo, ak kondisyon yo varye selon peyi — FÈ VERIFYE ak yon pwofesyonèl taks lokal.)* Konsèp Nivo 2 pou entènalize a se ke kalite kont ak tretman taks se yon pyès apa de chwa envestisman — menm envestisman ki anba a (tankou yon fon endis laj) ka kenbe nan diferan kalite kont, chak ak diferan efè taks, e chwazi bon kalite kont lan se yon desizyon ki benefisye de konsèy pwofesyonèl ki ajou e ki espesifik pou jiridiksyon an.
+
+**3. Egzanp pratik**
+Anvan l fè pwochen kontribisyon li, Farah fè rechèch sou kategori jeneral kont ki gen avantaj taks ki disponib nan jiridiksyon li, li konprann yon fason konseptyèl ke kèk gen yon avantaj taks kounye a ak taks pita, alòske lòt pa gen avantaj taks kounye a men posibman yon tretman san taks pita, san l pa eseye aprann pa kè limit an dola egzak kounye a nan yon sous ki demode. Apre sa li konsilte yon pwofesyonèl taks pou konfime kalifikasyon li kounye a ak limit espesifik ki aplike pou sitiyasyon li anvan l finalize estrateji kontribisyon li, paske li rekonèt nivo detay sa a chanje twò souvan pou edikasyon jeneral bay li yon fason responsab.
+
+**4. Egzamen pratik**
+1. Ki objektif jeneral yon kont ki gen avantaj taks, jan leson sa a dekri l?
+   a) Elimine tout risk envestisman
+   b) Bay yon fòm tretman taks favorab pou ankouraje epay ak envestisman alontèm
+   c) Garanti yon retou envestisman espesifik
+   d) Ranplase bezwen pou nenpòt estrateji envestisman
+
+2. Poukisa leson sa a evite nonmen limit kontribisyon oswa règ kalifikasyon aktyèl espesifik?
+   a) Detay sa yo pa enpòtan
+   b) Yo chanje souvan e yo varye anpil selon jiridiksyon, sa ki mande konsèy pwofesyonèl ki ajou
+   c) Gen yon sèl règ inivèsèl ki pa janm chanje
+   d) Kont ki gen avantaj taks pa egziste toutbon
+
+3. Vrè oswa Fo: Menm envestisman ki anba a ka sèlman kenbe nan yon sèl kalite kont espesifik.
+
+4. Kisa Farah te fè anvan l finalize estrateji kontribisyon li?
+   a) Li te konte nèt sou enfòmasyon jeneral ki demode
+   b) Li te konsilte yon pwofesyonèl taks pou konfime règ aktyèl ki espesifik pou jiridiksyon li
+   c) Li te inyore kalite kont nèt
+   d) Li te sipoze tout kalite kont idantik
+
+**5. Kle repons yo**
+1. b  2. b  3. Fo  4. b
+
+**6. Repons ak eksplikasyon**
+1. Kont ki gen avantaj taks anjeneral ofri yon tretman taks favorab pou ankouraje epay ak envestisman alontèm.
+2. Règ espesifik sa yo chanje souvan e yo varye selon jiridiksyon, sa ki mande konsèy pwofesyonèl ki ajou e endividyèl.
+3. Menm envestisman ki anba a anjeneral ka kenbe nan diferan kalite kont, chak ak diferan efè taks.
+4. Farah te chèche kòmsadwa yon konsèy pwofesyonèl ki ajou olye l konte sou enfòmasyon jeneral oswa ki ta ka demode.
+
+**7. Pwen kle yo**
+- Kont ki gen avantaj taks ofri yon tretman taks favorab pou ankouraje epay ak envestisman alontèm.
+- Kategori jeneral yo gen ladan swa yon avantaj taks kounye a ak taks pita, swa pa gen avantaj kounye a ak yon tretman posib san taks pita.
+- Limit espesifik ak règ kalifikasyon depann anpil de jiridiksyon an e yo chanje souvan.
+- Kalite kont se yon desizyon apa de chwa envestisman, li pi bon pou pran l ak konsèy pwofesyonèl ki ajou.
+
+===== WHITE-L2-030
+TITLE: Kont ki sijè a taks kont kont ki gen avantaj taks: ki kote pou kenbe kisa
+SUMMARY: "Lokalizasyon byen" (asset location) vle di desizyon sou ki envestisman espesifik pou kenbe nan ki kalite kont, diferan de alokasyon byen (Leson 16), ki trete melanj jeneral aksyon, obligasyon, ak kach.
+## WHITE-L2-030
+### Kont ki sijè a taks kont kont ki gen avantaj taks: ki kote pou kenbe kisa
+
+**1. Objektif aprantisaj**
+Nan fen leson sa a, elèv la ap kapab:
+- Esplike konsèp jeneral "lokalizasyon byen" kòm yon bagay diferan de alokasyon byen.
+- Dekri konsiderasyon jeneral pou deside ki envestisman pou kenbe nan ki kalite kont.
+- Rekonèt sa kòm yon domèn pou konsèy pwofesyonèl kowòdone.
+
+**2. Kontni prensipal**
+Sou baz leson anvan an, "lokalizasyon byen" (asset location) vle di desizyon sou ki envestisman espesifik pou kenbe nan ki kalite kont (ki sijè a taks kont diferan kategori ki gen avantaj taks), diferan de alokasyon byen (Leson 16), ki trete melanj jeneral aksyon, obligasyon, ak kach kèlkeswa kalite kont lan. Yon envestisè ta ka kenbe menm alokasyon jeneral 70/30 aksyon/obligasyon atravè plizyè kont, men deside ak refleksyon ki byen espesifik ki ale nan ki kont dapre karakteristik taks yo.
+
+Konsiderasyon jeneral moun diskite nan domèn sa a gen ladan mete envestisman ki pwodui anpil revni kontinyèl ki sijè a taks (tankou sèten enterè obligasyon) nan kont ki gen avantaj taks kote revni sa a ka pa sijè a taks kounye a, pandan w mete envestisman ki deja gen yon tretman taks pi favorab menm nan kont ki sijè a taks (tankou sèten aksyon ou kenbe alontèm, nou pral trete sa plis nan Leson 31) nan kont ki sijè a taks la li menm. Sa yo se konsiderasyon jeneral yo diskite nan edikasyon finans pèsonèl, se pa yon fòmil ki bon pou tout moun, paske vrè lokalizasyon byen ki pi bon an depann de tout sitiyasyon taks yon moun ak kont espesifik ki disponib pou li.
+
+**3. Egzanp pratik**
+Lè l ap travay ak konseye finansye li, Ingrid revize alokasyon jeneral 70/30 aksyon/obligasyon li, li kenbe l atravè yon kont kourtaj ki sijè a taks ak yon kont retrèt ki gen avantaj taks. Olye yo divize chak byen o aza egalman nan tou de kont yo, yo mete ak refleksyon obligasyon li yo (ki pwodui enterè regilye ki sijè a taks) sitou nan kont ki gen avantaj taks li a, ak fon endis aksyon li yo (ki pwodui konparativman mwens aktivite ki sijè a taks kounye a) sitou nan kont ki sijè a taks li a — pandan yo konfime alokasyon jeneral 70/30 li rete konsistan lè w konbine tou de kont yo.
+
+**4. Egzamen pratik**
+1. Kisa "lokalizasyon byen" vle di?
+   a) Kote jeyografik biwo prensipal yon konpayi
+   b) Desizyon sou ki envestisman espesifik pou kenbe nan ki kalite kont
+   c) Menm konsèp ak alokasyon byen
+   d) Yon kalite nòt obligasyon
+
+2. Kijan lokalizasyon byen diferan de alokasyon byen?
+   a) Se menm konsèp yo
+   b) Alokasyon byen trete melanj jeneral aksyon/obligasyon/kach; lokalizasyon byen trete ki kont ki kenbe ki envestisman
+   c) Lokalizasyon byen aplike sèlman nan imobilye
+   d) Alokasyon byen aplike sèlman nan kont ki sijè a taks
+
+3. Vrè oswa Fo: Pi bon lokalizasyon byen an idantik pou chak envestisè, kèlkeswa sitiyasyon taks li oswa kont ki disponib pou li.
+
+4. Poukisa Ingrid te mete obligasyon li yo sitou nan kont ki gen avantaj taks li a?
+   a) Obligasyon pa pwodui okenn revni ditou
+   b) Obligasyon pwodui enterè regilye ki sijè a taks, ki ka benefisye de yon tretman ki gen avantaj taks
+   c) Lalwa te mande sa
+   d) Li pa t renmen obligasyon
+
+**5. Kle repons yo**
+1. b  2. b  3. Fo  4. b
+
+**6. Repons ak eksplikasyon**
+1. Lokalizasyon byen se desizyon sou ki envestisman espesifik pou kenbe nan ki kalite kont.
+2. Alokasyon byen trete melanj envestisman jeneral la; lokalizasyon byen trete ki kont ki kenbe ki envestisman espesifik.
+3. Pi bon lokalizasyon byen an depann de tout sitiyasyon taks yon moun ak kalite kont ki disponib.
+4. Enterè obligasyon souvan sijè a taks kòm revni òdinè, sa ki fè kont ki gen avantaj taks yo vin yon kote moun souvan diskite pou mete yo.
+
+**7. Pwen kle yo**
+- Lokalizasyon byen trete ki envestisman espesifik yo kenbe nan ki kalite kont, diferan de alokasyon byen.
+- Konsiderasyon jeneral gen ladan mete envestisman ki pwodui plis revni ki sijè a taks nan kont ki gen avantaj taks kote sa apwopriye.
+- Sa yo se konsiderasyon jeneral, se pa yon fòmil inivèsèl, paske pi bon plasman an depann de sikonstans endividyèl.
+- Kowòdone lokalizasyon byen ak yon pwofesyonèl finansye oswa taks ede aliyen tout estrateji a ak reyalite taks endividyèl.
