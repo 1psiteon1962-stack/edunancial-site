@@ -1,0 +1,229 @@
+===== GOLD-L1-037
+TITLE: El metal físico frente al "oro de papel": una comparación básica
+SUMMARY: Presenta a nivel conceptual la exposición al "oro de papel" (como los ETF) y la compara con la propiedad física.
+# El metal físico frente al "oro de papel": una comparación básica
+
+## Objetivos de aprendizaje
+- Definir a un nivel conceptual básico la exposición al "oro de papel"
+- Comparar la propiedad de metal físico con la exposición al oro de papel
+- Reconocer el enfoque específico de esta ruta en los metales físicos
+
+## Contenido principal
+
+El "oro de papel" se refiere a los instrumentos financieros que le dan al inversionista exposición al precio del oro o de la plata sin que sea dueño directo ni tenga en su poder el metal físico; el ejemplo más común es un fondo cotizado en bolsa (ETF, por sus siglas en inglés) que tiene metal físico en nombre de los inversionistas, o que sigue el precio del metal, y que permite comprar y vender acciones que representan esa exposición mediante una cuenta de corretaje normal.
+
+El oro de papel ofrece algunas ventajas prácticas que el metal físico no tiene: no hay preocupaciones de almacenamiento ni de seguridad (las lecciones anteriores sobre el almacenamiento y el seguro no se aplican de la misma manera), normalmente tiene una liquidez más alta (comprar y vender acciones mediante una cuenta de corretaje a menudo es más rápido y sencillo que tratar con un comerciante de metal físico) y no hay un diferencial entre compra y venta de la misma forma que en el comercio físico. A cambio, el inversionista no tiene la posesión física directa del metal real, y algunas estructuras de oro de papel tienen sus propias consideraciones (cargos de administración y, según la estructura específica, preguntas sobre el derecho directo al metal físico) que un inversionista principiante debería saber que existen, aunque sea a un nivel conceptual básico.
+
+Esta ruta se ha enfocado específicamente en la propiedad de metal físico, en coherencia con el enfoque del caso de estudio biográfico, por su tangibilidad y su accesibilidad educativa para un inversionista principiante, como se vio en una lección anterior; pero vale la pena entender que el oro de papel existe como un enfoque realmente distinto, con sus propias ventajas y desventajas, que un estudiante podría encontrar y querer entender a medida que crece su conocimiento sobre la inversión.
+
+## Ejemplo práctico
+
+Un inversionista que ya tiene una cuenta de corretaje para acciones podría encontrar más conveniente obtener exposición al precio del oro mediante un ETF, evitando la logística de almacenamiento y de comerciantes vista a lo largo de esta ruta; pero no tendría un metal físico que pudiera tener personalmente en la mano, a diferencia del enfoque del caso de estudio biográfico de acumular plata y oro reales. Ambos enfoques dan una exposición legítima a los precios de los metales preciosos, solo que mediante estructuras fundamentalmente distintas y con distintas ventajas y desventajas.
+
+## Prueba de práctica
+
+1. Define con tus propias palabras el "oro de papel".
+2. Nombra dos ventajas prácticas que ofrece el oro de papel en comparación con el metal físico.
+3. ¿A qué renuncia un inversionista al escoger el oro de papel en vez del metal físico?
+4. ¿Por qué esta ruta se ha enfocado específicamente en la propiedad de metal físico?
+
+## Clave de respuestas
+1. Los instrumentos financieros (como un ETF) que dan exposición al precio del oro o de la plata sin ser dueño directo ni tener en su poder el metal físico.
+2. Cualesquiera dos de estas: no hay preocupaciones de almacenamiento o seguridad, normalmente una liquidez más alta, no hay un diferencial entre compra y venta de la misma forma que en el comercio físico.
+3. A la posesión física directa del metal real, además de exponerse a algunas consideraciones propias de las estructuras de papel, como los cargos de administración.
+4. Por la tangibilidad y la accesibilidad educativa del metal físico para un inversionista principiante, como ilustra el caso de estudio biográfico.
+
+## Respuestas y explicaciones
+1. Esto define el enfoque alternativo central para la exposición a los metales preciosos que se trata en esta lección.
+2. Estas ventajas reflejan las comodidades prácticas de una estructura de papel frente a la logística física.
+3. Esta disyuntiva resalta qué se pierde específicamente al escoger la comodidad en vez de la propiedad física directa.
+4. Esto relaciona la decisión pedagógica específica de la ruta con la lección anterior sobre la accesibilidad educativa de los metales físicos.
+
+## Puntos clave
+- El "oro de papel" (como un ETF) da exposición al precio de los metales preciosos sin propiedad física directa.
+- El oro de papel ofrece comodidades, como evitar las preocupaciones de almacenamiento y una liquidez más alta, a cambio de renunciar a la posesión física directa.
+- Esta ruta se ha enfocado en la propiedad de metal físico por su tangibilidad y su accesibilidad educativa, aunque el oro de papel es un enfoque alternativo legítimo que vale la pena entender.
+
+===== GOLD-L1-038
+TITLE: Errores comunes de los principiantes
+SUMMARY: Identifica los errores comunes de los inversionistas principiantes en metales preciosos y cómo evitarlos.
+# Errores comunes de los principiantes
+
+## Objetivos de aprendizaje
+- Identificar los errores comunes de los inversionistas principiantes en metales preciosos
+- Relacionar cada error con el concepto correspondiente visto antes en esta ruta
+- Aplicar esta conciencia para evitar estos errores en la práctica
+
+## Contenido principal
+
+Hay algunos errores que tienden a repetirse entre los inversionistas principiantes en metales preciosos, y esta ruta ya ha visto los conceptos necesarios para evitar cada uno. Pagar de más por productos especiales o de colección sin entender las primas (lo que se conecta con la lección sobre las primas) a menudo significa obtener bastante menos metal real por cada dólar gastado que con un producto estándar. Intentar programar las compras a la perfección, esperando el "mejor" precio en vez de seguir un enfoque de DCA constante (lo que se conecta con la lección sobre el DCA), a menudo lleva a perder oportunidades o a escoger malos momentos impulsados por las emociones.
+
+Comprar a vendedores desconocidos y no verificados para ahorrarse un poco en la prima, sin sopesar como corresponde los riesgos de falsificación y de confiabilidad (lo que se conecta con las lecciones sobre la autenticación y la reputación de los comerciantes), puede exponer a un inversionista principiante a un riesgo real que se puede evitar. Y tratar la volatilidad del precio a corto plazo como una señal para vender por pánico o cambiar de estrategia de forma drástica (lo que se conecta con las lecciones sobre la volatilidad y la paciencia) tiende a debilitar precisamente el enfoque a largo plazo que da a los metales preciosos su papel histórico mejor respaldado como depósito de valor.
+
+Reconocer estos patrones de antemano, en vez de aprenderlos solo mediante una experiencia directa y costosa, es exactamente el tipo de beneficio práctico que busca dar la educación básica de esta ruta.
+
+## Ejemplo práctico
+
+Un inversionista principiante que haya asimilado las lecciones de esta ruta reconocería varias señales de alerta a la vez: un precio inusualmente bajo de un vendedor desconocido (riesgo de autenticación y de reputación del comerciante), la presión para comprar un producto de "edición limitada" con una prima alta (conciencia de las primas) y su propio instinto de venderlo todo después de un solo día volátil a la baja (conciencia de la paciencia y de la volatilidad); y aplicaría los conceptos específicos de esta ruta para tomar una decisión mejor informada en cada caso, en vez de caer en cualquiera de estos errores comunes de los principiantes.
+
+## Prueba de práctica
+
+1. Nombra tres errores comunes de los inversionistas principiantes en metales preciosos.
+2. ¿Qué lección anterior se conecta con el error de pagar de más por productos especiales?
+3. ¿Qué lección anterior se conecta con el error de intentar programar las compras a la perfección?
+4. ¿Por qué esta lección recalca que hay que reconocer estos patrones de antemano?
+
+## Clave de respuestas
+1. Cualesquiera tres de estos: pagar de más por productos especiales sin entender las primas, intentar programar las compras a la perfección en vez de usar el DCA, comprar a vendedores no verificados, vender por pánico durante la volatilidad.
+2. La lección sobre las primas.
+3. La lección sobre el promedio del costo en dólares (DCA).
+4. Para que los inversionistas principiantes puedan evitar aprender estas lecciones solo mediante una experiencia directa y costosa.
+
+## Respuestas y explicaciones
+1. Estos cuatro errores resumen riesgos vistos en varias lecciones anteriores de esta ruta.
+2. Entender las primas evita directamente este error específico de pagar de más.
+3. El DCA es la estrategia específica que esta ruta recomienda en vez de intentar programar a la perfección las compras en el mercado.
+4. La conciencia anticipada se presenta como algo más valioso y menos costoso que aprender mediante errores directos.
+
+## Puntos clave
+- Entre los errores comunes de los principiantes están pagar de más por productos especiales, intentar programar las compras a la perfección, comprar a vendedores no verificados y vender por pánico durante la volatilidad.
+- Cada error se conecta directamente con un concepto ya visto en esta ruta: las primas, el DCA, la reputación del comerciante y la paciencia.
+- Reconocer estos patrones de antemano ayuda a un inversionista principiante a no tener que aprenderlos solo mediante una experiencia directa y costosa.
+
+===== GOLD-L1-039
+TITLE: Cómo fijar un plan personal de inversión en metales
+SUMMARY: Guía a los estudiantes para redactar un plan básico y personalizado de inversión en metales preciosos.
+# Cómo fijar un plan personal de inversión en metales
+
+## Objetivos de aprendizaje
+- Identificar los componentes de un plan personal básico de inversión en metales preciosos
+- Resumir los conceptos de esta ruta en un plan concreto e individual
+- Practicar la redacción de un plan sencillo que aplique los principios de esta ruta
+
+## Contenido principal
+
+Un plan personal básico de inversión en metales preciosos no tiene que ser complicado, pero ponerlo por escrito, en vez de dejarlo como una intención vaga, hace mucho más probable que de verdad se siga con constancia, lo que se conecta con los temas de llevar registros y de formar hábitos vistos a lo largo de esta ruta.
+
+Un plan útil debería responder: cuál es el presupuesto inicial o continuo (en coherencia con las lecciones sobre la accesibilidad), en qué metal o metales se va a enfocar (plata, oro o ambos, como ilustra la progresión del caso de estudio biográfico), con qué frecuencia se harán las compras (un calendario definido de DCA, en vez de un "cuando sea" sin estructura), dónde se harán las compras (un comerciante específico, verificado y de buena reputación) y cómo se dará seguimiento a la posición y cómo se revisará con el tiempo (lo que se conecta con la lección sobre llevar registros).
+
+Este plan también debería indicar de forma explícita el horizonte temporal y el propósito: un recordatorio, escrito de antemano, de por qué se hace esta inversión, que se vuelve especialmente valioso durante los períodos de volatilidad a corto plazo, cuando la tentación de abandonar un plan bien razonado por una reacción emocional es más fuerte, lo que se conecta con la lección sobre la paciencia.
+
+## Ejemplo práctico
+
+Un plan escrito sencillo podría decir: "Invertiré $50 en plata el primer día de cada mes, comprados a [un comerciante específico y de buena reputación], y los anotaré en un registro sencillo con la fecha, el precio y la cantidad. Mi horizonte temporal es de al menos diez años, y el propósito es preservar la riqueza a largo plazo y diversificar, no obtener una ganancia a corto plazo. No reaccionaré a los movimientos del precio a corto plazo cambiando este plan sin volver a revisarlo primero de forma deliberada". Esto refleja la misma estructura disciplinada que se ilustra a lo largo del caso de estudio biográfico, solo que de forma explícita y personalizada.
+
+## Prueba de práctica
+
+1. Según esta lección, nombra los cinco componentes que debería responder un plan personal básico de inversión en metales.
+2. ¿Por qué importa poner el plan por escrito, en vez de dejarlo como una intención vaga?
+3. ¿Por qué un plan debería indicar de forma explícita su horizonte temporal y su propósito?
+4. Redacta un breve plan personal de inversión en metales, de una oración, aplicando el marco de esta lección.
+
+## Clave de respuestas
+1. El presupuesto inicial o continuo, el metal o los metales, con qué frecuencia se harán las compras, dónde se harán las compras y cómo se dará seguimiento a la posición.
+2. Un plan escrito tiene muchas más probabilidades de seguirse con constancia que una intención vaga y no escrita.
+3. Porque se convierte en un recordatorio valioso durante los períodos de volatilidad a corto plazo, cuando la tentación de abandonar un plan bien razonado es más fuerte.
+4. Las respuestas variarán, pero deberían incluir los cinco componentes identificados en esta lección.
+
+## Respuestas y explicaciones
+1. Estos cinco componentes resumen los conceptos prácticos vistos a lo largo de esta sección de la ruta.
+2. Se ha visto de forma constante que los compromisos escritos son más duraderos que las intenciones no escritas.
+3. Esto relaciona el plan directamente con las lecciones sobre la paciencia y la volatilidad vistas antes en esta ruta.
+4. Una respuesta correcta demuestra una síntesis genuina de los componentes requeridos del plan en una declaración personalizada.
+
+## Puntos clave
+- Un plan personal básico de inversión en metales debería especificar el presupuesto, el metal en que se enfoca, la frecuencia de compra, el comerciante y el método de seguimiento.
+- Poner el plan por escrito hace mucho más probable que se siga con constancia que dejarlo como una intención vaga.
+- Indicar de forma explícita el horizonte temporal y el propósito da un ancla valiosa durante los períodos de volatilidad a corto plazo.
+
+===== GOLD-L1-040
+TITLE: Cómo revisar y ajustar un plan de metales con el tiempo
+SUMMARY: Explica cómo y cuándo se debería revisar con honestidad, y posiblemente ajustar, un plan de inversión en metales preciosos.
+# Cómo revisar y ajustar un plan de metales con el tiempo
+
+## Objetivos de aprendizaje
+- Explicar la diferencia entre seguir un plan con disciplina y negarse tercamente a ajustarlo
+- Identificar los motivos adecuados y deliberados para revisar un plan de inversión en metales
+- Distinguir un ajuste legítimo del plan de un abandono reactivo y emocional
+
+## Contenido principal
+
+Un plan personal bien construido, como el que se vio en la lección anterior, no está pensado para seguirse a ciegas para siempre sin importar los cambios de circunstancias; pero tampoco debería abandonarse de forma reactiva a la primera señal de volatilidad del precio a corto plazo. La diferencia clave está entre una revisión deliberada y periódica y un abandono reactivo y emocional, de forma parecida a la diferencia entre perseverancia y terquedad que se ve en la ruta de liderazgo de este currículo.
+
+Entre los motivos adecuados para revisar un plan están: cambios importantes en las circunstancias financieras personales (un cambio de ingresos, nuevas metas financieras, un gasto importante que se acerca), una revisión periódica programada (una vez al año, por ejemplo, en vez de hacerlo constantemente) o un cambio genuino y bien razonado en la comprensión del papel que deberían cumplir los metales preciosos en el panorama financiero general; y no simplemente que los precios se movieran en una dirección inesperada durante un período corto.
+
+Esta diferencia importa porque el propósito de poner un plan por escrito de antemano, como se vio en la lección anterior, es tener un punto de referencia estable precisamente para resistir las decisiones emocionales reactivas y a corto plazo. Un plan que se abandona cada vez que hay volatilidad a corto plazo anula por completo su propio propósito.
+
+## Ejemplo práctico
+
+Un inversionista que sigue su plan escrito ve una caída importante del precio a corto plazo poco después de una compra. El plan mismo ya preveía este tipo de volatilidad (lo que se conecta con la lección anterior sobre la volatilidad), así que esto por sí solo no es un motivo legítimo para abandonar el plan: es justo el tipo de momento que el plan se escribió de antemano para ayudar a resistir. Compáralo con un cambio de vida genuino, como la pérdida de un empleo que afecte mucho el presupuesto mensual disponible: ese sí es un motivo legítimo y deliberado para revisar y ajustar el componente específico del presupuesto del plan, sin necesidad de abandonar la estrategia general a largo plazo ni el razonamiento que la sostiene.
+
+## Prueba de práctica
+
+1. ¿Cuál es la diferencia clave que plantea esta lección en cuanto al ajuste de un plan?
+2. Nombra dos motivos adecuados y legítimos para revisar un plan de inversión en metales.
+3. ¿Una caída del precio a corto plazo, por sí sola, es un motivo legítimo para abandonar un plan bien construido?
+4. ¿Por qué la lección relaciona este concepto con la diferencia entre perseverancia y terquedad de la ruta de liderazgo?
+
+## Clave de respuestas
+1. La revisión deliberada y periódica frente al abandono reactivo y emocional.
+2. Cualesquiera dos de estos: cambios importantes en las circunstancias financieras personales, una revisión periódica programada o un cambio genuino y bien razonado en la comprensión.
+3. No: el plan se escribió de antemano precisamente para ayudar a resistir exactamente este tipo de volatilidad a corto plazo prevista.
+4. Porque ambas distinciones implican mantenerse comprometido con una meta de fondo sólida y, al mismo tiempo, responder de verdad a razones reales y deliberadas para cambiar, en vez de reaccionar emocionalmente al ruido a corto plazo.
+
+## Respuestas y explicaciones
+1. Esta diferencia es el concepto central que establece la lección para manejar de forma adecuada la revisión de un plan.
+2. Estos motivos representan razones genuinas y deliberadas para ajustar, distintas de las respuestas reactivas a la volatilidad.
+3. Esto refuerza que la volatilidad prevista no es, por sí sola, un motivo legítimo para abandonar un plan bien razonado.
+4. Esta conexión entre rutas refuerza un principio coherente que se aplica en distintos ámbitos de este currículo.
+
+## Puntos clave
+- Un plan debería revisarse de forma deliberada y periódica, no abandonarse de forma reactiva por la volatilidad del precio a corto plazo.
+- Entre los motivos legítimos de revisión están los cambios reales en las circunstancias financieras, las revisiones periódicas programadas o los cambios genuinos en la comprensión, y no solo el movimiento del precio a corto plazo.
+- Esto refleja la diferencia entre perseverancia y terquedad: mantenerse comprometido con un plan sólido sin dejar de responder de verdad a razones reales y deliberadas para cambiar.
+
+===== GOLD-L1-041
+TITLE: Cómo armar un plan de DCA paso a paso
+SUMMARY: Ofrece un marco concreto, paso a paso, para armar un plan personal de promedio del costo en dólares.
+# Cómo armar un plan de DCA paso a paso
+
+## Objetivos de aprendizaje
+- Llevar el concepto del DCA a un marco personal concreto, paso a paso
+- Practicar el cálculo de un calendario sencillo de DCA a partir de un presupuesto hipotético
+- Resumir en un solo ejercicio aplicado las lecciones anteriores sobre el DCA, el seguimiento y la planificación
+
+## Contenido principal
+
+A partir del concepto de DCA presentado antes en esta ruta, un plan de DCA concreto, paso a paso, implica: determinar una cantidad total disponible para invertir durante un período fijo (por ejemplo, un año), dividir esa cantidad en cuotas iguales y regulares (la cuota mensual es común y manejable para la mayoría de las personas), escoger una fecha de compra fija en cada período (en vez de intentar escoger un día "ideal", lo que volvería a introducir el problema de programar el mercado que el DCA busca evitar) y comprometerse a seguir ese calendario sin importar el precio específico de cada fecha de compra.
+
+Esta estructura paso a paso elimina la ambigüedad y el cansancio de tomar decisiones en el proceso: en vez de decidir cada vez si "ahora" es un buen momento para comprar, el calendario mismo toma esa decisión de forma automática, lo que libera al inversionista de una decisión que, como se vio antes en esta ruta, ni siquiera los inversionistas profesionales pueden tomar bien de forma confiable a corto plazo.
+
+Esta estructura también apoya de forma natural el hábito de llevar registros visto antes: un calendario fijo facilita armar un registro de seguimiento constante y comparable, ya que cada entrada sigue el mismo intervalo regular y el mismo formato.
+
+## Ejemplo práctico
+
+Un inversionista con $600 disponibles para el año podría armar el siguiente plan de DCA: $50 invertidos en plata el día 1 de cada mes, durante 12 meses, con el mismo comerciante de buena reputación, y anotados cada vez en el mismo registro sencillo. Algunos meses esos $50 compran un poco más de plata (cuando los precios están más bajos); otros meses, un poco menos (cuando los precios están más altos); pero el calendario mismo nunca cambia según el precio del momento, en coherencia con el principio central del DCA visto antes en esta ruta.
+
+## Prueba de práctica
+
+1. Según esta lección, enumera los cuatro pasos para armar un plan de DCA concreto.
+2. ¿Por qué importa escoger una fecha de compra fija, en vez de intentar escoger un día "ideal"?
+3. ¿Cómo elimina esta estructura el cansancio de tomar decisiones en el proceso de inversión?
+4. Calcula: si hay $1,200 disponibles para el año y las compras se hacen cada mes, ¿de cuánto sería cada compra mensual?
+
+## Clave de respuestas
+1. Determinar la cantidad total disponible, dividirla en cuotas iguales y regulares, escoger una fecha de compra fija y comprometerse con el calendario sin importar el precio.
+2. Porque intentar escoger un día "ideal" vuelve a introducir el problema de programar el mercado que el DCA está diseñado específicamente para evitar.
+3. Haciendo que la decisión de compra sea automática con un calendario fijo, en vez de requerir cada vez un juicio nuevo y difícil sobre el momento.
+4. $1,200 divididos entre 12 meses son $100 al mes.
+
+## Respuestas y explicaciones
+1. Estos cuatro pasos llevan el concepto del DCA a un plan concreto y accionable.
+2. Las fechas fijas preservan el beneficio central del DCA de eliminar del proceso el riesgo de programar el mercado.
+3. Automatizar el calendario es lo que elimina específicamente el cansancio de decidir y la presión del momento que atiende el DCA.
+4. Este cálculo aplica las matemáticas básicas del plan directamente a un nuevo caso hipotético.
+
+## Puntos clave
+- Un plan de DCA concreto implica determinar un presupuesto total, dividirlo en cuotas iguales y regulares, escoger una fecha de compra fija y comprometerse con el calendario sin importar el precio.
+- Las fechas de compra fijas preservan el beneficio central del DCA de eliminar del proceso de inversión el riesgo de programar el mercado y el cansancio de decidir.
+- Esta estructura apoya de forma natural un seguimiento constante, ya que cada compra sigue el mismo intervalo regular y el mismo formato.
