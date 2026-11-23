@@ -1,0 +1,159 @@
+===== BLACK-L4-033
+TITLE: Analiz rezistans òganizasyonèl: poukisa rezèv ak kapasite pou adapte enpòtan plis pase efikasite poukont li
+SUMMARY: Konprann poukisa yon òganizasyon ki optimize sèlman pou efikasite, san okenn rezèv, ka vin frajil devan yon gwo pwoblèm, poukisa bati rezèv gen yon vrè kou, poukisa kapasite pou adapte se yon lòt faktè rezistans, ak poukisa yon bon konsepsyon fè yon chwa onèt ant efikasite ak rezistans.
+KEYWORDS: rezistans òganizasyonèl, rezèv konpare ak efikasite, kapasite pou adapte, frajilite akoz twòp optimizasyon
+# Analiz rezistans òganizasyonèl: poukisa rezèv ak kapasite pou adapte enpòtan plis pase efikasite poukont li
+
+## Senaryo pou louvri leson an
+SIPOZISYON/OPINYON (senaryo ipotetik pou objektif ansèyman sèlman): Imajine yon gwo pwoblèm sante piblik ki kanpe transpò maritim ak fabrikasyon nan lemonn antye pandan yon bon bout tan, sa ki bloke chèn ekipman nan anpil endistri an menm tan. Pandan yon gwo pwoblèm konsa fè parèt ki òganizasyon ki te bati yon vrè rezistans ak kiyès ki te optimize sèlman pou efikasite san okenn rezèv ki gen sans, diferans ant de apwòch sa yo vin toudenkou gen gwo konsekans, e souvan konsekans grav.
+
+## Objektif aprantisaj
+- Esplike poukisa yon òganizasyon ki optimize sèlman pou efikasite, san okenn vrè rezèv, ka vin vrèman frajil devan yon gwo pwoblèm.
+- Esplike konsèp rezèv (redondans) kòm yon chwa konsepsyon òganizasyonèl volontè, ak poukisa bati kèk vrè rezèv gen yon vrè kou, yon kou reyèl, yon optimizasyon efikasite sèlman ta evite.
+- Esplike poukisa yon vrè kapasite pou adapte — kapasite òganizasyon an genyen pou l chanje apwòch lè sikonstans yo vrèman mande sa — reprezante yon lòt faktè rezistans diferan, anplis rezèv poukont li.
+- Esplike poukisa yon bon konsepsyon òganizasyonèl anjeneral gen ladan l yon chwa volontè, onèt ant efikasite ak rezistans, olye trete optimizasyon efikasite sèlman kòm yon objektif ki pi bon san okenn dout nan tout sikonstans.
+
+## Kontni prensipal
+FÈ VERIFYE: yon òganizasyon ki optimize sèlman pou efikasite, ki elimine nenpòt rezèv oswa marj ki parèt nan operasyon li pou diminye kou e maksimize pwodiksyon nan kondisyon nòmal, estab, ka vin vrèman frajil devan yon gwo pwoblèm, paske kalite optimizasyon efikasite sèlman sa a anjeneral kite òganizasyon an san okenn kousen oswa kapasite altènatif ki gen sans pou l itilize lè kondisyon operasyon nòmal yo vrèman deranje, sa ki vle di yon pwoblèm yon òganizasyon ki gen plis rezèv, ki mwens optimize sèlman pou efikasite, te ka absòbe san konsekans grav ka pito bay yon vrè echèk operasyonèl grav pou yon òganizasyon ki te elimine kalite kousen sa a nèt pou l chèche efikasite maksimòm.
+
+Men "poukisa" bati yon vrè rezèv gen yon vrè kou, yon kou reyèl, yon optimizasyon efikasite sèlman ta evite: rezèv — kenbe kapasite sekou, founisè altènatif, oswa kousen resous anplis sa kondisyon operasyon nòmal, estab yo mande strikteman — vrèman koute resous reyèl yo te ka elimine pito pou chèche efikasite maksimòm nan kondisyon nòmal, sa ki vle di yon desizyon volontè pou bati yon vrè rezèv reprezante yon vrè chwa, yon chwa reyèl, kote yo sakrifye espre kèk vrè efikasite pandan kondisyon nòmal espesyalman pou jwenn yon vrè rezistans kont yon pwoblèm ki ka rive oswa ki ka pa rive, olye rezèv se yon bagay gratis yon òganizasyon ta ka tou senpleman ajoute san okenn vrè chwa ladan l.
+
+Se poutèt sa yon vrè kapasite pou adapte reprezante yon lòt faktè rezistans diferan, anplis rezèv poukont li: rezèv bay espesyalman yon kapasite sekou pou trete yon pwoblèm ak prèske menm apwòch ki egziste a, alòske yon vrè kapasite pou adapte — kapasite òganizasyon an genyen pou l vrèman chanje apwòch fondamantal li lè sikonstans yo vrèman mande yon apwòch ki diferan nèt, olye tou senpleman itilize kapasite sekou pou apwòch ki egziste a — trete yon kalite pwoblèm ki vrèman diferan, youn ki tèlman grav ke tou senpleman gen plis kapasite sekou pou apwòch ki egziste a pa t ap vrèman ase, sa ki mande pito yon apwòch ki vrèman diferan òganizasyon an dwe vrèman kapab devlope e aplike, sa ki vle di yon vrè rezistans òganizasyonèl mande toude, rezèv (kapasite sekou pou apwòch ki egziste a) ak kapasite pou adapte (kapasite pou vrèman chanje apwòch lè sa nesesè), pou trete de kategori pwoblèm posib ki vrèman diferan. Se poutèt sa yon bon konsepsyon òganizasyonèl anjeneral gen ladan l yon chwa volontè, onèt ant efikasite ak rezistans, olye trete optimizasyon efikasite sèlman kòm yon bagay ki pi bon san okenn dout: OPINYON ak yon konsiderasyon estratejik enpòtan pou balanse, kòm yon vrè rezèv ak yon vrè kapasite pou adapte toude gen vrè kou konpare ak yon optimizasyon efikasite sèlman, yon bon konsepsyon òganizasyonèl mande yon evalyasyon onèt, volontè sou konbyen envestisman nan vrè rezistans vrè ekspozisyon a risk pwòp òganizasyon espesifik la vrèman jistifye, olye swa inyore rezistans nèt pou chèche efikasite maksimòm, swa bati tèlman rezèv ke òganizasyon an vin vrèman pa ka fè konpetisyon nan kondisyon nòmal, san pwoblèm — desizyon volontè pou balanse sa a fè echo ak tèm ki pi laj kourikoulòm sa a sou yon evalyasyon chwa ki disipline, ki baze sou prèv olye ale pa abitid nan youn nan de ekstrèm yo.
+
+## Egzanp pratik
+EGZANP ILISTRATIF: Yon biznis ki te optimize operasyon li sèlman pou efikasite maksimòm, ki te konte sou yon sèl founisè san okenn altènatif sekou e ki pa t kenbe okenn kousen resous ki gen sans pi lwen pase bezwen operasyon imedya, nòmal yo, viv yon vrè echèk operasyonèl grav lè yon gwo pwoblèm afekte sèl founisè sa a, paske biznis la te elimine nenpòt rezèv ki te ka absòbe pwoblèm sa a. Yon lòt biznis, ki te aksepte espre yon efikasite yon ti jan pi ba nan kondisyon nòmal an echanj pou l kenbe relasyon ak founisè sekou ak kèk vrè kousen resous, ansanm ak yon kapasite òganizasyonèl li te montre pou l adapte apwòch li lè sikonstans yo te vrèman mande sa, travèse menm pwoblèm idantik la yon fason ki pi efikas anpil, sa ki montre egzakteman poukisa yon envestisman volontè nan rezistans, malgre vrè kou li nan efikasite pandan kondisyon nòmal, ka vin gen yon valè desizif lè yon vrè pwoblèm vrèman rive.
+
+## Egzamen pratik
+**Q1. Poukisa yon òganizasyon ki optimize sèlman pou efikasite ka vin vrèman frajil devan yon gwo pwoblèm?**
+A) Optimizasyon efikasite sèlman toujou bay òganizasyon ki pi reziste posib la, kèlkeswa nenpòt pwoblèm ki ta ka rive
+B) Optimizasyon efikasite sèlman anjeneral kite yon òganizasyon san okenn kousen oswa kapasite altènatif ki gen sans pou l itilize lè kondisyon operasyon nòmal yo vrèman deranje, sa ki vle di yon pwoblèm yon òganizasyon ki gen plis rezèv ta ka absòbe ka pito bay yon echèk operasyonèl grav
+C) Efikasite ak rezistans toujou se konsèp idantik san okenn diferans ki gen sans ant yo
+D) Nivo optimizasyon efikasite yon òganizasyon pa gen okenn vrè rapò ak jan li frajil pandan yon vrè pwoblèm
+
+**Q2. Poukisa bati yon vrè rezèv gen yon vrè kou, yon kou reyèl?**
+A) Rezèv toujou yon bagay gratis yon òganizasyon ka tou senpleman ajoute san l pa sakrifye okenn vrè efikasite
+B) Rezèv vrèman koute resous reyèl yo te ka elimine pito pou chèche efikasite maksimòm nan kondisyon nòmal, sa ki vle di yon desizyon pou bati yon vrè rezèv reprezante yon vrè chwa kote yo sakrifye kèk efikasite pou rezistans
+C) Rezèv toujou ogmante efikasite yon òganizasyon nan kondisyon nòmal ak nan kondisyon pwoblèm an menm tan
+D) Bati yon vrè rezèv pa gen okenn vrè rapò ak jan yon òganizasyon distribiye resous li an jeneral
+
+**Q3. Poukisa yon vrè kapasite pou adapte reprezante yon lòt faktè rezistans diferan, anplis rezèv poukont li?**
+A) Rezèv ak kapasite pou adapte se konsèp idantik ki trete egzakteman menm kategori pwoblèm posib
+B) Rezèv bay kapasite sekou pou trete yon pwoblèm ak prèske menm apwòch ki egziste a, alòske kapasite pou adapte trete yon kalite pwoblèm ki vrèman diferan, ki pi grav, ki mande òganizasyon an vrèman chanje apwòch fondamantal li nèt
+C) Kapasite pou adapte toujou mwens enpòtan pase rezèv pou yon vrè rezistans òganizasyonèl
+D) Rezèv poukont li toujou ase nèt pou trete nenpòt kategori pwoblèm òganizasyonèl posib
+
+**Q4. Poukisa yon bon konsepsyon òganizasyonèl anjeneral gen ladan l yon chwa volontè ant efikasite ak rezistans, olye trete efikasite sèlman kòm bagay ki pi bon san okenn dout?**
+A) Optimizasyon efikasite sèlman toujou pi bon san okenn dout nan tout sikonstans, san okenn vrè chwa kont rezistans ki janm jistifye
+B) Kòm yon vrè rezèv ak yon kapasite pou adapte toude gen vrè kou konpare ak efikasite sèlman, yon bon konsepsyon òganizasyonèl mande yon evalyasyon onèt, volontè sou konbyen envestisman nan rezistans vrè ekspozisyon a risk yon òganizasyon espesifik vrèman jistifye, olye ale pa abitid nan youn nan de ekstrèm yo
+C) Yo ta dwe toujou maksimize envestisman nan rezistans kèlkeswa vrè pozisyon konpetitif oswa ekspozisyon a risk yon òganizasyon
+D) Chwa ant efikasite ak rezistans pa gen okenn vrè rapò ak ekspozisyon a risk espesifik oswa sikonstans yon òganizasyon
+
+**Q5. Nan egzanp lan, poukisa dezyèm biznis la te travèse pwoblèm nan pi efikasman pase premye biznis la?**
+A) De biznis yo te an reyalite travèse menm pwoblèm idantik la ak menm efikasite, kèlkeswa apwòch diferan yo sou rezèv
+B) Dezyèm biznis la te aksepte espre yon efikasite yon ti jan pi ba nan kondisyon nòmal an echanj pou relasyon ak founisè sekou, kousen resous, ak kapasite pou adapte, alòske premye biznis la te elimine nenpòt rezèv pou chèche efikasite maksimòm, sa ki te kite l san okenn kousen lè pwoblèm nan te vrèman rive
+C) Premye biznis la te an reyalite kenbe plis relasyon ak founisè sekou pase dezyèm biznis la
+D) Okenn nan biznis yo pa t viv okenn efè operasyonèl ki gen sans akoz pwoblèm yo dekri a
+
+## Kle repons yo
+Q1: B
+Q2: B
+Q3: B
+Q4: B
+Q5: B
+
+## Repons ak eksplikasyon
+**Q1.** Eliminasyon sa a nenpòt kousen oswa kapasite altènatif ki gen sans se egzakteman poukisa optimizasyon efikasite sèlman ka kite yon òganizasyon vrèman frajil lè yon gwo pwoblèm vrèman rive.
+
+**Q2.** Kou resous reyèl sa a, ki reprezante yon vrè chwa kont efikasite maksimòm, se egzakteman poukisa bati rezèv pa yon bagay gratis men yon chwa estratejik volontè.
+
+**Q3.** Diferans sa a ant kapasite sekou pou yon apwòch ki egziste ak kapasite pou chanje apwòch nèt se egzakteman poukisa kapasite pou adapte reprezante yon faktè rezistans ki vrèman diferan anplis rezèv poukont li.
+
+**Q4.** Bezwen sa a pou yon evalyasyon onèt, volontè, ki baze sou risk, olye ale pa abitid nan youn nan de ekstrèm yo, se egzakteman poukisa yon bon konsepsyon òganizasyonèl trete chwa ant efikasite ak rezistans kòm yon vrè desizyon estratejik pou balanse.
+
+**Q5.** Kontras dirèk sa a ant yon envestisman volontè nan rezistans ak yon optimizasyon efikasite sèlman montre egzakteman poukisa leson sa a mete aksan sou vrè valè rezèv ak kapasite pou adapte lè yon gwo pwoblèm vrèman rive.
+
+## Pwen kle yo
+- Yon òganizasyon ki optimize sèlman pou efikasite, san okenn vrè rezèv, ka vin vrèman frajil lè yon gwo pwoblèm rive.
+- Bati yon vrè rezèv gen yon vrè kou, yon kou reyèl, ki reprezante yon chwa volontè kote yo sakrifye kèk efikasite pou rezistans.
+- Yon vrè kapasite pou adapte reprezante yon faktè rezistans ki diferan de rezèv, ki trete pwoblèm ki tèlman grav yo mande yon apwòch ki vrèman diferan nèt.
+- Yon bon konsepsyon òganizasyonèl mande yon chwa volontè, onèt ant efikasite ak rezistans, ki baze sou vrè ekspozisyon a risk yon òganizasyon, olye ale pa abitid nan youn nan de ekstrèm yo.
+
+===== BLACK-L4-034
+TITLE: Analiz moun ki bay alèt ak dezakò: poukisa lidè yo ta dwe vle tande move nouvèl bonè
+SUMMARY: Konprann poukisa yon lidè ki angaje pou siksè òganizasyon an ta dwe vle tande dezakò ak move nouvèl pi bonè posib, poukisa jan lidè a reyaji fòme si moun ap kontinye pale onètman, poukisa kanal fòmèl pou leve enkyetid se yon konpleman men pa yon ranplasman, ak poukisa li dwe distenge yon vrè dezakò ak yon senp blokaj.
+KEYWORDS: pwoteksyon pou moun ki bay alèt, divilge dezakò bonè, kilti move nouvèl, pratik ki ankouraje dezakò
+# Analiz moun ki bay alèt ak dezakò: poukisa lidè yo ta dwe vle tande move nouvèl bonè
+
+## Senaryo pou louvri leson an
+SIPOZISYON/OPINYON (senaryo ipotetik pou objektif ansèyman sèlman): Imajine yon gouvènman souvren mwayen ki fè konnen li ka pa kapab fè yon peman obligasyon (bond) ki pral rive, sa ki ogmante risk pou li pa peye dèt li. Pandan pwoblèm dèt yon gouvènman souvren mwayen kreye yon vrè ensètitid, òganizasyon kote lidè yo te vrèman ankouraje moun divilge bonè enfòmasyon ki enkyetan ak pwen de vi ki pa dakò idantifye e reyaji a pwoblèm k ap parèt pi vit anpil pase òganizasyon kote yo te dekouraje kalite divilgasyon sa a san yo pa di l.
+
+## Objektif aprantisaj
+- Esplike poukisa yon lidè ki vrèman angaje pou siksè òganizasyon an ta dwe aktivman vle tande pwen de vi ki pa dakò ak move nouvèl pi bonè posib, an lyen ak diskisyon Leson 5 nivo sa a sou sekirite sikolojik ak diskisyon Leson 27 sou sikilasyon enfòmasyon.
+- Esplike poukisa jan yon lidè reyaji yon fason vizib a move nouvèl oswa dezakò yo te bay li anvan fòme anpil si moun ap kontinye bay kalite enfòmasyon sa a onètman nan lavni.
+- Esplike poukisa kanal fòmèl pou leve enkyetid, tankou yon mekanis pou fè rapò san non, bay yon konpleman ki vrèman itil, men pa yon ranplasman konplè, pou yon kilti sekirite sikolojik ki pi laj.
+- Esplike poukisa yon lidè ta dwe distenge espesyalman yon vrè dezakò serye sou yon vrè enkyetid ak yon senp blokaj oswa yon plent ki pa itil, paske melanje de bagay sa yo riske dekouraje vrè dezakò ki gen valè leson sa a dekri a.
+
+## Kontni prensipal
+Ki baze dirèkteman sou diskisyon Leson 5 nivo sa a sou sekirite sikolojik ak diskisyon Leson 27 sou kominikasyon òganizasyonèl, FÈ VERIFYE, yon lidè ki vrèman angaje pou siksè òganizasyon an ta dwe aktivman vle tande pwen de vi ki pa dakò ak move nouvèl pi bonè posib, paske yon divilgasyon bonè sou yon pwoblèm k ap devlope oswa sou yon vrè enkyetid konsènan pwòp plan lidè a kounye a bay lidè a yon vrè opòtinite pou l trete pwoblèm sa a pandan li toujou ka jere, sa ki fè echo ak diskisyon Leson 5 nivo sa a sou jan sekirite sikolojik pèmèt espesyalman kalite divilgasyon bonè, onèt sa a, ak diskisyon Leson 27 sou jan yon vrè sikilasyon enfòmasyon detèmine dirèkteman kalite desizyon nan tout yon òganizasyon.
+
+Men "poukisa" jan yon lidè reyaji yon fason vizib a move nouvèl oswa dezakò yo te bay li anvan fòme anpil si moun ap kontinye bay kalite enfòmasyon sa a onètman nan lavni: sa ki fè echo ak diskisyon Leson 8 nivo sa a sou vrè konpòtman ki fonksyone kòm yon siyal òganizasyonèl ki gen anpil fòs, yon lidè ki reyaji a yon ka move nouvèl oswa dezakò yo vrèman ba li ak yon kòlè vizib, yon revanj, oswa menm fòm defavè ki pi sibtil, ki mwens vizib anvè moun ki te bay li a voye yon siyal ki gen plis fòs anpil ki dekouraje divilgasyon onèt nan lavni pase nenpòt règleman fòmèl ki ankouraje divilgasyon sa a ta ka janm kontrebalanse, sa ki vle di pwòp reyaksyon espesifik yon lidè moun obsève a vrè ka move nouvèl yo te bay li fonksyone kòm vrè faktè pratik ki detèmine si moun ap kontinye pote kalite enfòmasyon ki gen valè sa a onètman nan lavni, kèlkeswa sa nenpòt règleman fòmèl ta ka di ofisyèlman.
+
+Se poutèt sa kanal fòmèl pou leve enkyetid bay yon konpleman ki vrèman itil, men pa yon ranplasman konplè, pou yon kilti sekirite sikolojik ki pi laj: yon mekanis fòmèl pou fè rapò, pafwa san non, ka bay yon lòt kanal ki vrèman itil pou leve yon enkyetid, sitou youn yon moun ta ka pa konfòtab pou l leve dirèkteman ak pwòp lidè imedya li, men kalite kanal fòmèl sa a poukont li, san kilti sekirite sikolojik ki pi laj diskisyon Leson 5 nivo sa a te dekri a, anjeneral kaptire sèlman yon pati nan vrè dezakò ak enkyetid ki gen valè yon kilti sekirite sikolojik ki pi laj ta ankouraje nan kontak òdinè chak jou, sa ki vle di yon bon pratik òganizasyonèl anjeneral mande toude, yon kanal fòmèl ki vrèman itil ak fondasyon kiltirèl ki pi laj sekirite sikolojik la, olye youn nan yo poukont li ase nèt. Se poutèt sa yon lidè ta dwe distenge espesyalman yon vrè dezakò serye ak yon senp blokaj oswa yon plent ki pa itil: OPINYON ak yon klarifikasyon pratik ki enpòtan, pa chak ka dezakò oswa plent reprezante kalite vrè dezakò serye ki gen valè leson sa a dekri kòm yon bagay yon lidè ta dwe aktivman vle tande — kèk dezakò ka vrèman reflete yon blokaj oswa yon plent ki pa itil ki pa gen rapò ak okenn vrè enkyetid serye — sa ki vle di yon lidè ta dwe kiltive espesyalman yon ouvèti pou yon vrè dezakò serye sou vrè enkyetid, pandan l toujou kenbe estanda ak atant apwopriye sou yon konduit konstriktif, pwofesyonèl, olye l trete chak fòm dezakò oswa plent kòm yon kontribisyon ki gen menm valè lidè a ta dwe akeyi e ankouraje menm jan. RÈG ESPESIFIK POU REJYON AN: Pwoteksyon legal pou moun ki denonse move pratik (moun ki bay alèt) diferan anpil de yon peyi a yon lòt; an Ayiti, verifye ak yon avoka ki kalifye ki pwoteksyon Kòd Travay la oswa lòt lwa ta ka bay nan yon ka espesifik anvan ou konte sou yo.
+
+## Egzanp pratik
+EGZANP ILISTRATIF: Yon lidè resevwa yon divilgasyon bonè, onèt nan men yon manm ekip sou yon vrè enkyetid konsènan pwòp plan lidè a kounye a, e li reyaji ak yon vrè rekonesans pou divilgasyon an ak yon angajman serye sou vrè enkyetid yo leve a, olye yon reyaksyon defansif oswa yon defavè sibtil anvè manm ekip ki te leve l la. Reyaksyon vizib, pozitif sa a ankouraje manm ekip la, ak lòt moun ki obsève kontak sa a, pou yo kontinye pote vrè enkyetid onètman nan lavni, sa ki pèmèt òganizasyon an idantifye e trete pwoblèm k ap devlope pi bonè anpil pase yon òganizasyon kote reyaksyon vizib yon lidè a yon divilgasyon konparab anvan te pito dekouraje divilgasyon onèt kalite sa a nan lavni.
+
+## Egzamen pratik
+**Q1. Poukisa yon lidè ki vrèman angaje pou siksè òganizasyon an ta dwe aktivman vle tande pwen de vi ki pa dakò ak move nouvèl bonè, an lyen ak Leson 5 ak 27?**
+A) Yon lidè ki vrèman angaje pou siksè òganizasyon an ta dwe aktivman dekouraje pwen de vi ki pa dakò ak move nouvèl pou kenbe moral ekip la
+B) Yon divilgasyon bonè sou yon pwoblèm k ap devlope oswa yon vrè enkyetid bay lidè a yon vrè opòtinite pou l trete l pandan li toujou ka jere, sa ki fè echo ak diskisyon anvan an sou sekirite sikolojik ki pèmèt divilgasyon onèt ak sikilasyon enfòmasyon ki detèmine kalite desizyon
+C) Yo ta dwe toujou toufe pwen de vi ki pa dakò ak move nouvèl pou prezève estabilite òganizasyon an
+D) Dezi yon lidè pou l tande move nouvèl bonè pa gen okenn vrè rapò ak kalite desizyon òganizasyon an
+
+**Q2. Poukisa jan yon lidè reyaji yon fason vizib a move nouvèl yo te bay li anvan fòme anpil divilgasyon onèt nan lavni, sa ki fè echo ak Leson 8?**
+A) Jan yon lidè reyaji yon fason vizib a move nouvèl pa gen okenn vrè rapò ak si moun ap kontinye bay kalite enfòmasyon sa a onètman nan lavni
+B) Yon lidè ki reyaji ak yon kòlè vizib, yon revanj, oswa yon defavè sibtil anvè yon moun ki bay move nouvèl voye yon siyal ki gen plis fòs anpil ki dekouraje divilgasyon onèt nan lavni pase nenpòt règleman fòmèl ta ka kontrebalanse, sa ki fè echo ak diskisyon anvan an sou vrè konpòtman ki fonksyone kòm yon siyal òganizasyonèl ki gen anpil fòs
+C) Règleman fòmèl toujou pase devan pwòp vrè konpòtman yon lidè moun obsève nan fòme modèl divilgasyon nan lavni
+D) Manm ekip yo pa janm vrèman obsève oswa reyaji a reyaksyon espesifik yon lidè a move nouvèl
+
+**Q3. Poukisa kanal fòmèl pou leve enkyetid bay sèlman yon konpleman, olye yon ranplasman konplè, pou yon sekirite sikolojik ki pi laj?**
+A) Yon mekanis fòmèl pou fè rapò san non poukont li toujou kaptire nèt chak ka vrè dezakò ak enkyetid ki gen valè nan yon òganizasyon
+B) Yon mekanis fòmèl pou fè rapò ka bay yon lòt kanal ki vrèman itil, men poukont li, san kilti sekirite sikolojik ki pi laj la, li anjeneral kaptire sèlman yon pati nan vrè dezakò ki gen valè yon kilti sekirite ki pi laj ta ankouraje nan kontak òdinè chak jou
+C) Mekanis fòmèl pou fè rapò toujou pa nesesè depi yo fin etabli yon vrè sekirite sikolojik
+D) Sekirite sikolojik ak kanal fòmèl pou fè rapò fè egzakteman menm fonksyon òganizasyonèl, ki kouvri youn lòt nèt
+
+**Q4. Poukisa yon lidè ta dwe distenge yon vrè dezakò serye ak yon senp blokaj oswa yon plent ki pa itil?**
+A) Chak ka dezakò oswa plent toujou reprezante yon kontribisyon ki gen menm valè yon lidè ta dwe akeyi e ankouraje menm jan
+B) Pa chak ka dezakò reprezante yon vrè dezakò serye ki gen valè, sa ki vle di yon lidè ta dwe kiltive yon ouvèti pou vrè dezakò sou vrè enkyetid pandan l toujou kenbe estanda apwopriye sou yon konduit konstriktif, pwofesyonèl
+C) Yon lidè ta dwe toujou rejte nenpòt fòm dezakò kòm yon blokaj ki pa itil, kèlkeswa vrè fon li
+D) Yon vrè dezakò ak yon plent ki pa itil toujou enposib pou distenge youn ak lòt nan pratik
+
+**Q5. Nan egzanp lan, poukisa manm ekip la ak lòt moun te kontinye pote vrè enkyetid onètman nan lavni?**
+A) Lidè a te an reyalite reyaji a divilgasyon an ak yon reyaksyon defansif vizib ak yon defavè sibtil anvè manm ekip la
+B) Lidè a te reyaji ak yon vrè rekonesans ak yon angajman serye sou vrè enkyetid yo te leve a, e reyaksyon vizib, pozitif sa a te ankouraje manm ekip la ak lòt moun ki te obsève kontak la pou yo kontinye divilge onètman
+C) Manm ekip la pa t gen okenn vrè konesans sou jan lidè a te reyaji a premye divilgasyon an
+D) Òganizasyon an te mete an plas yon mekanis fòmèl pou fè rapò san non san okenn lòt chanjman nan konpòtman lidè a
+
+## Kle repons yo
+Q1: B
+Q2: B
+Q3: B
+Q4: B
+Q5: B
+
+## Repons ak eksplikasyon
+**Q1.** Lyen dirèk sa a ak diskisyon anvan yo sou sekirite sikolojik ak sikilasyon enfòmasyon se egzakteman poukisa yon lidè ki vrèman angaje ta dwe aktivman vle tande pwen de vi ki pa dakò ak move nouvèl pi bonè posib.
+
+**Q2.** Lyen dirèk sa a ak diskisyon anvan an sou vrè konpòtman ki pase devan règleman fòmèl kòm vrè faktè ki detèmine konduit nan òganizasyon an se egzakteman poukisa pwòp reyaksyon yon lidè a move nouvèl tèlman enpòtan pou divilgasyon nan lavni.
+
+**Q3.** Kouvèti pasyèl sa a yon kanal fòmèl bay poukont li, san fondasyon kiltirèl ki pi laj la, se egzakteman poukisa kanal fòmèl yo konplete olye yo ranplase yon vrè sekirite sikolojik.
+
+**Q4.** Diferans enpòtan sa a ant yon vrè dezakò serye ki gen valè ak yon senp blokaj ki pa itil se egzakteman poukisa lidè yo ta dwe kiltive premye a espesyalman, olye yo trete tout dezakò menm jan.
+
+**Q5.** Ilistrasyon dirèk sa a sou reyaksyon pozitif yon lidè ki ankouraje yon divilgasyon onèt ki kontinye montre egzakteman poukisa leson sa a mete aksan sou enpòtans pwòp reyaksyon vizib yon lidè a move nouvèl oswa dezakò yo te bay li anvan.
+
+## Pwen kle yo
+- Yon lidè ki vrèman angaje pou siksè òganizasyon an ta dwe aktivman vle tande pwen de vi ki pa dakò ak move nouvèl bonè, an lyen ak sekirite sikolojik ak sikilasyon enfòmasyon.
+- Pwòp reyaksyon vizib yon lidè a move nouvèl yo ba li fòme anpil si moun ap kontinye divilge onètman nan lavni, sa ki fè echo ak prensip ki pi laj la ke vrè konpòtman se yon siyal.
+- Kanal fòmèl pou fè rapò konplete, men yo pa ranplase nèt, yon kilti sekirite sikolojik ki pi laj pou kaptire vrè dezakò ki gen valè.
+- Lidè yo ta dwe distenge yon vrè dezakò serye ak yon senp blokaj oswa yon plent ki pa itil, pou yo kiltive premye a pandan yo kenbe estanda pwofesyonèl apwopriye.
