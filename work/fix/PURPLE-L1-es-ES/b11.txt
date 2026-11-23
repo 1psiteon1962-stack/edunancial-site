@@ -1,0 +1,407 @@
+===== PURPLE-L1-041
+TITLE: La responsabilidad legal: entender lo que podrías deber legalmente
+SUMMARY: Da una definición clara y general de la responsabilidad legal y resume cómo ha aparecido en los contratos, los daños extracontractuales y las estructuras de negocio a lo largo de esta ruta.
+# La responsabilidad legal: entender lo que podrías deber legalmente
+
+## Objetivos de aprendizaje
+
+- Definir la responsabilidad legal en términos sencillos.
+- Reconocer las distintas fuentes de responsabilidad vistas a lo largo de esta ruta.
+- Reforzar la responsabilidad como el concepto que une la mayor parte del contenido de PURPLE.
+
+## Contenido principal
+
+En sentido legal, la responsabilidad (liability) significa estar legalmente obligado por algo: lo más común es deber dinero u otro remedio como resultado de una obligación legal o de un acto indebido. Esta lección da un paso atrás para nombrar de forma explícita lo que en realidad ha sido el hilo conductor de gran parte de esta ruta: la responsabilidad contractual (deber una indemnización por incumplimiento, vista al principio de esta ruta), la responsabilidad extracontractual (deber una indemnización por un daño causado fuera de cualquier contrato) y la responsabilidad ligada a la estructura del negocio (si los bienes personales quedan expuestos a las obligaciones del negocio) son, en el fondo, fuentes distintas del mismo concepto de base.
+
+Reconocer la responsabilidad como este hilo conductor ayuda a ordenar todo lo visto hasta ahora en un cuadro coherente y no en una lista de temas sueltos: los contratos crean responsabilidad si se incumplen; los daños extracontractuales crean responsabilidad cuando se causa un daño; la estructura del negocio determina qué bienes quedan realmente expuestos a esa responsabilidad; y el seguro y la protección de activos, que se ven en las lecciones de alrededor, son herramientas pensadas específicamente para gestionar la exposición a la responsabilidad una vez que se entiende como un riesgo real y siempre presente en las actividades de RED, WHITE y BLUE por igual. Cada tema legal específico de esta ruta es, en cierto sentido, una variación de la misma pregunta central: ¿en qué circunstancias podrías llegar a ser legalmente responsable de algo, y qué determina el alcance de esa responsabilidad?
+
+## Ejemplo práctico
+
+**Pregunta:** Mirando hacia atrás en toda esta ruta, ¿cómo le explicarías a alguien que los contratos, los daños extracontractuales y la estructura del negocio son en realidad temas conectados y no separados?
+
+**Estudiante:** Según esta lección, son fuentes distintas del mismo concepto de base, la responsabilidad legal: ser legalmente responsable de algo, ya venga de un contrato incumplido, de un daño causado fuera de un contrato o de la exposición ligada a la estructura del negocio.
+
+**Guía:** ¿Cómo encajan el seguro y la protección de activos en este cuadro unificado?
+
+**Estudiante:** Son herramientas pensadas específicamente para gestionar esa exposición a la responsabilidad una vez que la entiendes como un riesgo real y siempre presente, no temas separados y sin relación.
+
+**Guía:** Exacto: la responsabilidad es el hilo que une todo el contenido de esta ruta.
+
+## Cuestionario práctico
+
+**Pregunta 1.** En general, la responsabilidad legal se refiere a:
+
+A) Ser legalmente responsable de algo, como deber dinero u otro remedio
+B) Un tipo de póliza de seguro
+C) Algo que solo importa en casos penales
+D) Lo mismo que un contrato
+
+**Pregunta 2.** La responsabilidad contractual surge de:
+
+A) Un daño causado fuera de cualquier acuerdo
+B) Incumplir un acuerdo legalmente obligatorio
+C) Ser dueño de bienes inmuebles
+D) Nada relacionado con los contratos
+
+**Pregunta 3.** La responsabilidad extracontractual surge de:
+
+A) Incumplir un contrato
+B) Un daño causado a otra persona, sin relación con ningún contrato
+C) Solo las decisiones sobre la estructura del negocio
+D) Nada relacionado con el derecho civil
+
+**Pregunta 4.** Según el resumen de esta lección, ¿qué papel tienen el seguro y la protección de activos?
+
+A) Crean responsabilidad en vez de gestionarla
+B) Son herramientas pensadas específicamente para gestionar la exposición a la responsabilidad
+C) No tienen ninguna relación con la responsabilidad
+D) Solo se aplican a asuntos penales
+
+## Clave de respuestas
+
+1. A, 2. B, 3. B, 4. B
+
+## Respuestas y explicaciones
+
+**1.** Esta definición amplia recoge el significado central que comparten todos los tipos específicos de responsabilidad vistos en esta ruta.
+
+**2.** Esto retoma directamente las lecciones anteriores de contratos sobre el incumplimiento y la exigibilidad.
+
+**3.** Esto retoma directamente la lección anterior que distinguió las reclamaciones por daños de las reclamaciones contractuales.
+
+**4.** Esta lección replantea de forma explícita estas herramientas como instrumentos para gestionar la responsabilidad, lo que une toda la ruta.
+
+## Puntos clave
+
+- La responsabilidad legal significa ser legalmente responsable de algo, normalmente deber dinero u otro remedio.
+- La responsabilidad contractual, la extracontractual y la ligada a la estructura del negocio son variaciones del mismo concepto de base.
+- Esta visión unificada ordena todo el contenido de la ruta en torno a una pregunta central coherente.
+- El seguro y la protección de activos, vistos alrededor de esta lección, son herramientas para gestionar la exposición a la responsabilidad.
+
+===== PURPLE-L1-042
+TITLE: Garantías personales: cuando respondes legalmente por una deuda del negocio
+SUMMARY: Explica el concepto legal de garantía personal, una forma común de renunciar de manera deliberada y voluntaria a la protección de responsabilidad que da la estructura de un negocio.
+# Garantías personales: cuando respondes legalmente por una deuda del negocio
+
+## Objetivos de aprendizaje
+
+- Definir una garantía personal.
+- Explicar por qué los prestamistas suelen exigirlas a pesar de la protección de responsabilidad de la entidad.
+- Relacionar esto directamente con las lecciones anteriores sobre la responsabilidad de las LLC y las corporaciones.
+
+## Contenido principal
+
+Una garantía personal es un acuerdo aparte y voluntario en el que una persona, a menudo el dueño de un negocio, promete personalmente pagar una deuda del negocio si el negocio no la paga. Esto es directamente relevante, y está en verdadera tensión, con la protección de responsabilidad de las LLC y las corporaciones vista antes en esta ruta: aun con una entidad protectora bien constituida y bien operada, firmar una garantía personal crea de forma deliberada y voluntaria justo la exposición a responsabilidad personal que la estructura de la entidad buscaba evitar, específicamente para esa deuda.
+
+Los prestamistas suelen exigir garantías personales a los dueños de pequeños negocios precisamente porque entienden la protección de responsabilidad de la entidad: un prestamista que da crédito a una LLC más nueva o más pequeña a menudo no está dispuesto a depender solo de los bienes limitados y del historial del propio negocio, así que exige que el dueño garantice personalmente la deuda como condición del préstamo. Es una pieza crítica de alfabetización jurídica práctica: a veces los dueños de negocios creen que su LLC los protege por completo, sin darse cuenta de que, para ciertas deudas, renunciaron por separado a esa protección mediante una garantía personal; es decir, el alcance real de la responsabilidad personal de alguien solo se entiende mirando a la vez la estructura de la entidad y cualquier garantía personal añadida encima.
+
+*REGLA ESPECÍFICA DE LA REGIÓN:* En el derecho español esta figura se conoce como fianza o aval, y el Código Civil fija sus reglas (por ejemplo, el beneficio de excusión, que permite al fiador exigir que primero se reclame al deudor principal, salvo que se haya renunciado a él). Revisa con un profesional cualquier garantía antes de firmarla.
+
+## Ejemplo práctico
+
+**Pregunta:** Un dueño de negocio cree que su LLC protege por completo sus bienes personales frente a todas las deudas del negocio, pero no recuerda si firmó una garantía personal cuando sacó un préstamo para el negocio. ¿Por qué importa esto?
+
+**Estudiante:** Según esta lección, si firmó una garantía personal para ese préstamo, creó voluntariamente una responsabilidad personal por esa deuda específica, sin importar lo que la LLC protegería de otro modo.
+
+**Guía:** ¿Por qué un prestamista habría exigido esa garantía, si le prestaba a una LLC bien constituida?
+
+**Estudiante:** Porque los prestamistas a menudo no están dispuestos a depender solo de los bienes limitados de un negocio más nuevo o más pequeño, así que exigen la garantía personal del dueño como condición para dar el crédito.
+
+**Guía:** Exacto, y por eso para entender tu responsabilidad real hay que mirar a la vez la estructura de la entidad y cualquier garantía añadida encima.
+
+## Cuestionario práctico
+
+**Pregunta 1.** Una garantía personal es:
+
+A) Una característica automática de toda LLC
+B) Un acuerdo aparte y voluntario de pagar personalmente una deuda del negocio si el negocio no la paga
+C) Lo mismo que formar una LLC
+D) Algo ilegal en la mayoría de las jurisdicciones
+
+**Pregunta 2.** ¿Cómo se relaciona una garantía personal con la protección de responsabilidad de una LLC o corporación?
+
+A) No tiene ninguna relación con la protección de la entidad
+B) Crea voluntariamente responsabilidad personal por una deuda específica, aunque de otro modo se aplicaría la protección de la entidad
+C) Fortalece automáticamente la protección de la entidad
+D) Se exige para toda deuda del negocio, sin excepciones
+
+**Pregunta 3.** ¿Por qué los prestamistas suelen exigir garantías personales a los dueños de pequeños negocios?
+
+A) Sin ninguna razón real: es arbitrario
+B) A menudo no están dispuestos a depender solo de los bienes limitados de un negocio más nuevo o más pequeño
+C) La ley exige garantías personales para todos los préstamos
+D) Los prestamistas nunca exigen esto en realidad
+
+**Pregunta 4.** ¿Qué identifica esta lección como una pieza crítica de alfabetización jurídica práctica?
+
+A) Suponer que una LLC siempre protege por completo los bienes personales
+B) Entender que la responsabilidad personal real exige mirar a la vez la estructura de la entidad y cualquier garantía personal firmada
+C) No firmar nunca ningún documento del negocio
+D) Que una LLC elimina la necesidad de revisar si hay garantías personales
+
+## Clave de respuestas
+
+1. B, 2. B, 3. B, 4. B
+
+## Respuestas y explicaciones
+
+**1.** Una garantía es un compromiso legal distinto y aparte, no una característica automática de ningún tipo de entidad.
+
+**2.** Esta renuncia voluntaria es justo la razón por la que una garantía personal puede debilitar, para una obligación específica, una protección de la entidad que de otro modo sería sólida.
+
+**3.** Esta práctica de préstamo refleja una respuesta racional a los límites reales de la solvencia propia de las entidades más nuevas o más pequeñas.
+
+**4.** Esta visión combinada se presenta como esencial para evaluar con exactitud la exposición legal real de una persona.
+
+## Puntos clave
+
+- Una garantía personal es una promesa aparte y voluntaria de pagar personalmente una deuda del negocio.
+- Crea responsabilidad personal por esa deuda específica, añadida encima de una estructura de entidad que de otro modo protegería.
+- Los prestamistas suelen exigir garantías a los dueños de pequeños negocios como condición para dar crédito.
+- Para entender la responsabilidad personal real hay que revisar tanto la estructura de la entidad como cualquier garantía firmada.
+
+===== PURPLE-L1-043
+TITLE: Fideicomisos: herramientas legales para tener y proteger bienes
+SUMMARY: Presenta el concepto general de fideicomiso como herramienta legal para tener bienes y lo relaciona con el tema de la protección de activos y con el contenido de planificación sucesoria de GOLD.
+# Fideicomisos: herramientas legales para tener y proteger bienes
+
+## Objetivos de aprendizaje
+
+- Definir un fideicomiso en términos generales.
+- Explicar los papeles generales que intervienen (fideicomitente, fiduciario, beneficiario).
+- Relacionar los fideicomisos tanto con la protección de activos como con la planificación sucesoria.
+
+## Contenido principal
+
+Un fideicomiso (trust) es un acuerdo legal en el que una parte (el fideicomitente) transfiere bienes para que otra parte (el fiduciario) los tenga y los administre en beneficio de una tercera parte (el beneficiario), según los términos que fija el fideicomitente. Los fideicomisos cumplen varios propósitos legales relevantes para este currículo: algunas estructuras de fideicomiso ofrecen cierto grado de protección de activos, al separar la titularidad legal de la propiedad personal de formas que pueden proteger los bienes de ciertas reclamaciones futuras; otras sirven sobre todo como herramientas de planificación sucesoria, en conexión directa con los conceptos de planificación patrimonial vistos en la sección de transmisión (Pass On) de GOLD.
+
+Los efectos legales, las protecciones y los requisitos concretos de los distintos tipos de fideicomiso varían muchísimo según la jurisdicción y según el tipo específico de fideicomiso que se use; es un terreno legal realmente complejo, más que la mayoría de los otros temas de esta ruta, y un caso claro en el que conviene buscar orientación profesional en vez de hacerlo por cuenta propia. La lección práctica en este nivel de alfabetización es reconocer qué es estructuralmente un fideicomiso (un acuerdo entre tres partes que separa la titularidad legal del beneficio) y que es una herramienta real y legítima que vale la pena conversar con un profesional, tanto para la protección de activos como para la planificación sucesoria, en vez de verla como un concepto misterioso o exclusivo de la gente rica.
+
+*REGLA ESPECÍFICA DE LA REGIÓN:* El trust nació en el common law, y el derecho español común no lo regula como tal, aunque algunos derechos forales conocen figuras fiduciarias y un trust extranjero puede producir ciertos efectos. Consulta a un profesional antes de usar estas estructuras.
+
+## Ejemplo práctico
+
+**Pregunta:** Alguien supone que los fideicomisos solo importan a las personas extremadamente ricas y descarta la idea de conversar alguna vez sobre uno con un profesional. ¿Qué sugiere esta lección sobre esa suposición?
+
+**Estudiante:** Según esta lección, no es del todo correcta: los fideicomisos se describen como una herramienta real y legítima tanto para la protección de activos como para la planificación sucesoria, no como algo exclusivo de la gente rica.
+
+**Guía:** ¿Por qué esta lección insiste tanto en la orientación profesional en el caso concreto de los fideicomisos, más que en otros temas de esta ruta?
+
+**Estudiante:** Porque el derecho de fideicomisos se describe como realmente complejo y muy dependiente de la jurisdicción, más que la mayoría de los otros temas, y eso hace de él un caso claro para que lo implemente un profesional en vez de intentarlo solo.
+
+**Guía:** Exacto: reconocer la herramienta y saber cuándo llamar a un profesional es el verdadero objetivo de alfabetización aquí.
+
+## Cuestionario práctico
+
+**Pregunta 1.** Un fideicomiso es:
+
+A) Solo un tipo de entidad de negocio
+B) Un acuerdo legal en el que un fideicomitente transfiere bienes a un fiduciario para que los tenga en beneficio de un beneficiario
+C) Lo mismo que un testamento
+D) Algo irrelevante para la protección de activos o la sucesión
+
+**Pregunta 2.** Los tres papeles generales de un fideicomiso son:
+
+A) Comprador, vendedor y prestamista
+B) Fideicomitente, fiduciario y beneficiario
+C) Arrendador, inquilino y agente
+D) Demandante, demandado y juez
+
+**Pregunta 3.** ¿Cómo relaciona esta lección los fideicomisos con contenido anterior del currículo?
+
+A) No hay ninguna relación
+B) Con los temas de protección de activos de esta ruta y con los conceptos de planificación sucesoria de GOLD
+C) Solo con el derecho inmobiliario
+D) Solo con el derecho de valores
+
+**Pregunta 4.** ¿Por qué esta lección insiste de forma especial en la orientación profesional en el caso de los fideicomisos?
+
+A) Los fideicomisos no tienen ninguna complejidad real ni requieren orientación
+B) El derecho de fideicomisos es realmente complejo y muy dependiente de la jurisdicción, más que la mayoría de los otros temas de esta ruta
+C) Los fideicomisos son ilegales sin un abogado presente
+D) Esta lección no insiste en la orientación profesional
+
+## Clave de respuestas
+
+1. B, 2. B, 3. B, 4. B
+
+## Respuestas y explicaciones
+
+**1.** Esta estructura de tres partes, que separa la titularidad legal del beneficio, es el rasgo que define a un fideicomiso.
+
+**2.** Estos tres papeles definen la relación estructural básica que está en el centro de todo fideicomiso.
+
+**3.** Esta lección vincula a propósito los fideicomisos con el tema de la protección de activos de aquí y con el contenido de planificación sucesoria visto antes en GOLD.
+
+**4.** La lección señala de forma explícita este terreno como especialmente complejo, lo que justifica una cautela adicional y orientación profesional.
+
+## Puntos clave
+
+- Un fideicomiso es un acuerdo legal entre tres partes: fideicomitente, fiduciario y beneficiario.
+- Los fideicomisos pueden servir tanto para la protección de activos como para la planificación sucesoria.
+- Esto conecta directamente con el contenido anterior de planificación patrimonial de GOLD.
+- El derecho de fideicomisos es realmente complejo y depende de la jurisdicción, por lo que la orientación profesional es especialmente importante aquí.
+
+===== PURPLE-L1-044
+TITLE: Poderes: la autoridad legal para actuar en nombre de otra persona
+SUMMARY: Presenta el poder (power of attorney) como una herramienta legal que da a alguien autoridad para actuar en nombre de otra persona, relevante tanto para la continuidad del negocio como para planificar una posible incapacidad.
+# Poderes: la autoridad legal para actuar en nombre de otra persona
+
+## Objetivos de aprendizaje
+
+- Definir un poder (power of attorney).
+- Distinguir el poder general del poder limitado.
+- Relacionar esto con la planificación tanto del negocio como personal.
+
+## Contenido principal
+
+Un poder (power of attorney, POA) es un documento legal que da a una persona (el apoderado o mandatario) la autoridad para actuar en nombre de otra persona (el poderdante o mandante) en ciertos asuntos. Un **poder general** da una autoridad amplia en asuntos financieros y legales; un **poder limitado (o especial)** da autoridad solo para un propósito o una transacción específicos, como firmar los documentos de cierre de una compra de bienes inmuebles cuando el poderdante no puede estar presente.
+
+Esta herramienta importa tanto en el negocio como en lo personal a lo largo de este currículo. En un contexto de negocio de la ruta BLUE, un poder puede permitir que una persona de confianza firme documentos o tome ciertas decisiones cuando el dueño no está disponible, lo que apoya la continuidad del negocio. En un contexto más amplio de planificación personal, en conexión con las lecciones de planificación patrimonial de GOLD, un poder a menudo se diseña específicamente para que tenga efecto si el poderdante queda incapacitado, de modo que alguien tenga autoridad legal para gestionar sus asuntos sin necesidad de un proceso judicial; es justo el tipo de planificación anticipada que la sección de sucesión de GOLD recomendó hacer mucho antes de que se sienta urgente.
+
+*REGLA ESPECÍFICA DE LA REGIÓN:* En España, los poderes suelen otorgarse ante notario, y existen poderes preventivos pensados para seguir siendo eficaces si el poderdante necesita apoyos en el futuro. Las reglas concretas deben consultarse con un profesional.
+
+## Ejemplo práctico
+
+**Pregunta:** Alguien está planificando el cierre de una compra de bienes inmuebles, pero sabe que estará de viaje y no podrá asistir en persona. ¿Qué herramienta legal de esta lección podría resolver esa situación?
+
+**Estudiante:** Según esta lección, un poder limitado podría funcionar: da a alguien autoridad para esa transacción específica, como firmar los documentos de cierre, sin darle una autoridad más amplia fuera de ese propósito.
+
+**Guía:** ¿En qué se diferencia eso de un poder general?
+
+**Estudiante:** Un poder general daría una autoridad mucho más amplia en asuntos financieros y legales, mientras que uno limitado se restringe solo al propósito específico necesario, como este cierre.
+
+**Guía:** Exacto: ajustar el alcance de la autoridad a la necesidad real es la clave práctica aquí.
+
+## Cuestionario práctico
+
+**Pregunta 1.** Un poder es:
+
+A) Un tipo de orden judicial
+B) Un documento legal que da a una persona autoridad para actuar en nombre de otra
+C) Lo mismo que un testamento
+D) Algo irrelevante para la planificación del negocio o personal
+
+**Pregunta 2.** Un poder general da:
+
+A) Autoridad solo para un propósito estrecho y específico
+B) Una autoridad amplia en asuntos financieros y legales
+C) Ninguna autoridad real
+D) Solo autoridad sobre bienes inmuebles
+
+**Pregunta 3.** Un poder limitado es útil en situaciones como:
+
+A) Dar una autoridad ilimitada de por vida
+B) Firmar los documentos de cierre de una transacción específica cuando el poderdante no puede estar presente
+C) Nada práctico
+D) Solo asuntos penales
+
+**Pregunta 4.** ¿Cómo relaciona esta lección el poder con el contenido anterior de GOLD?
+
+A) No hay ninguna relación
+B) Un poder puede diseñarse para que tenga efecto en caso de incapacidad, en línea con el tema de planificación sucesoria anticipada de GOLD
+C) Solo con el contenido de metales preciosos de GOLD
+D) Solo con la lección de interés compuesto de GOLD
+
+## Clave de respuestas
+
+1. B, 2. B, 3. B, 4. B
+
+## Respuestas y explicaciones
+
+**1.** Este documento crea específicamente una autoridad legal delegada para el apoderado nombrado.
+
+**2.** La autoridad amplia y general es el rasgo que distingue este tipo de poder del poder limitado.
+
+**3.** Esta autoridad de alcance estrecho es un uso práctico y común en la vida real de un poder limitado.
+
+**4.** Esto conecta directamente con el énfasis de GOLD en una planificación anticipada que prevé la incapacidad, hecha antes de que se sienta urgente.
+
+## Puntos clave
+
+- Un poder da una autoridad legal delegada para actuar en nombre de otra persona.
+- Los poderes generales dan una autoridad amplia; los poderes limitados se restringen a un propósito específico.
+- Esta herramienta apoya tanto la continuidad del negocio como la planificación ante una incapacidad personal.
+- Esto conecta directamente con el tema de planificación anticipada de la sección de sucesión de GOLD.
+
+===== PURPLE-L1-045
+TITLE: La prescripción: por qué las reclamaciones legales vencen
+SUMMARY: Presenta el concepto de prescripción (statute of limitations) y explica por qué las reclamaciones legales no están disponibles para siempre y por qué esto importa tanto para presentar reclamaciones como para defenderse de ellas.
+# La prescripción: por qué las reclamaciones legales vencen
+
+## Objetivos de aprendizaje
+
+- Definir la prescripción en términos sencillos.
+- Explicar la lógica general de política pública de poner un plazo a las reclamaciones legales.
+- Reconocer su importancia práctica tanto para posibles demandantes como para posibles demandados.
+
+## Contenido principal
+
+La prescripción (en EE. UU., el statute of limitations) es un plazo legal dentro del cual debe presentarse una reclamación; pasado ese plazo, en general ya no puede presentarse ante los tribunales, sin importar sus méritos de fondo. Los distintos tipos de reclamación (disputas contractuales, reclamaciones extracontractuales y otras) suelen tener plazos distintos, y estos plazos varían según la jurisdicción: no hay un número universal que memorizar, pero el concepto de fondo se aplica de forma amplia.
+
+La lógica general de política pública es doble: las pruebas y los recuerdos se deterioran de verdad con el tiempo, lo que hace más difícil resolver con justicia las reclamaciones antiguas, y hay un interés social real en que las cosas lleguen a un final, para que las personas y los negocios puedan seguir adelante sin una exposición indefinida a reclamaciones de un pasado lejano. Esto importa en la práctica para ambos lados: quien tiene una queja legítima necesita entender que hay un plazo real para presentarla, no un tiempo ilimitado para decidirse; y quien enfrenta una posible reclamación debería entender que las reclamaciones lo bastante antiguas pueden haber prescrito por completo, lo que es un contexto relevante (aunque no sustituye el consejo legal real) al evaluar la exposición real a una disputa antigua.
+
+*REGLA ESPECÍFICA DE LA REGIÓN:* En España, los plazos de prescripción se fijan sobre todo en el Código Civil y en leyes especiales (por ejemplo, el plazo general de las acciones personales es de cinco años, según el artículo 1964), y pueden interrumpirse en ciertos casos. Verifica el plazo aplicable a tu caso con un profesional.
+
+## Ejemplo práctico
+
+**Pregunta:** Alguien descubre una disputa contractual legítima de hace muchos años y se pregunta si todavía puede demandar por ella hoy. ¿Qué sugiere esta lección que revise primero?
+
+**Estudiante:** Según esta lección, debería revisar si ya venció el plazo de prescripción para ese tipo de reclamación, porque en general las reclamaciones no pueden presentarse después de ese plazo, sin importar sus méritos.
+
+**Guía:** ¿Por qué los méritos de la reclamación por sí solos podrían no bastar para garantizar que todavía pueda presentarse?
+
+**Estudiante:** Porque la prescripción existe específicamente para poner un plazo a las reclamaciones, por razones como el deterioro de las pruebas y el interés en que las cosas lleguen a un final; así que incluso una reclamación totalmente legítima puede dejar de estar disponible legalmente si pasó demasiado tiempo.
+
+**Guía:** Exacto: los méritos y la disponibilidad legal son dos preguntas distintas.
+
+## Cuestionario práctico
+
+**Pregunta 1.** La prescripción es:
+
+A) Un derecho permanente a demandar en cualquier momento
+B) Un plazo legal dentro del cual debe presentarse una reclamación
+C) Algo que solo importa en casos penales
+D) Lo mismo en todas las jurisdicciones y para todo tipo de reclamación
+
+**Pregunta 2.** La lógica general de política pública de poner un plazo a las reclamaciones incluye:
+
+A) No hay ninguna lógica real
+B) El deterioro de las pruebas con el tiempo y el interés en que las cosas lleguen a un final
+C) Solo proteger a los demandados ricos
+D) Fomentar los litigios indefinidos
+
+**Pregunta 3.** ¿Los distintos tipos de reclamación suelen tener el mismo plazo?
+
+A) Sí, siempre idéntico
+B) No: los distintos tipos de reclamación y las distintas jurisdicciones suelen tener plazos diferentes
+C) Los plazos no tienen relación con el tipo de reclamación
+D) Ninguna reclamación tiene plazo
+
+**Pregunta 4.** ¿Por qué esto importa a quien enfrenta una posible reclamación antigua?
+
+A) No tiene ninguna importancia práctica
+B) Las reclamaciones lo bastante antiguas pueden haber prescrito por completo, lo que es un contexto relevante al evaluar la exposición
+C) Las reclamaciones antiguas siempre son válidas automáticamente
+D) Esta lección solo importa a los demandantes, nunca a los demandados
+
+## Clave de respuestas
+
+1. B, 2. B, 3. B, 4. B
+
+## Respuestas y explicaciones
+
+**1.** Este mecanismo de plazo legal es justamente lo que establece la prescripción.
+
+**2.** Tanto el deterioro de las pruebas como el valor de llegar a un final se citan como la razón de política pública de fondo.
+
+**3.** La variación según el tipo de reclamación y la jurisdicción se menciona de forma explícita, en vez de suponer una cifra universal.
+
+**4.** Es un contexto práctico y directamente útil para evaluar la exposición real a una disputa antigua, de cualquier lado de una posible reclamación.
+
+## Puntos clave
+
+- La prescripción pone un plazo legal para presentar una reclamación.
+- Refleja preocupaciones de política pública sobre el deterioro de las pruebas y el valor de llegar a un final.
+- Los plazos varían según el tipo de reclamación y la jurisdicción: no hay un número que se aplique en todas partes.
+- Esto importa en la práctica tanto a posibles demandantes como a posibles demandados que evalúan disputas antiguas.

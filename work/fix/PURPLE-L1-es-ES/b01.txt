@@ -1,0 +1,327 @@
+===== PURPLE-L1-001
+TITLE: ¿Qué es el derecho y por qué importa para crear riqueza?
+SUMMARY: Presenta el derecho como el sistema de reglas exigibles que está detrás de toda decisión de bienes inmuebles, inversión y negocios, y plantea la alfabetización jurídica como una destreza práctica para crear riqueza.
+# ¿Qué es el derecho y por qué importa para crear riqueza?
+
+## Objetivos de aprendizaje
+
+- Definir el derecho en términos sencillos.
+- Explicar por qué la alfabetización jurídica importa directamente para las actividades de RED, WHITE y BLUE.
+- Conocer el alcance de PURPLE: alfabetización jurídica práctica, no ejercicio de la abogacía.
+
+## Contenido principal
+
+El derecho es el conjunto de reglas exigibles que una sociedad acuerda seguir, respaldado por el poder de los tribunales y del gobierno para hacer que la gente realmente las cumpla. Cada acuerdo que firmas, cada propiedad que compras, cada negocio que empiezas y cada inversión que haces ocurre dentro de este sistema de reglas, lo pienses o no.
+
+Esta es la conexión directa con el resto del currículo: RED (bienes inmuebles) depende por completo de una propiedad, unos contratos y unos derechos sobre los bienes que se puedan hacer valer legalmente. WHITE (inversiones) depende de las leyes de valores que hacen que los mercados sean lo bastante confiables para participar. BLUE (negocios) depende de las estructuras legales que determinan quién responde cuando algo sale mal. No necesitas un título de abogado para crear riqueza en ninguna de estas áreas, pero operar sin ninguna alfabetización jurídica es como conducir sin conocer las normas de tráfico: técnicamente posible, pero una idea realmente mala.
+
+Esta ruta, PURPLE, existe para cerrar esa brecha. No te convertirá en abogado y no sustituye a uno cuando hay mucho en juego; esa es la analogía del médico a la que este currículo vuelve una y otra vez. Lo que sí hará es convertirte en un participante con alfabetización jurídica: alguien que puede leer un contrato sin pánico, reconocer cuándo un negocio tiene un problema legal y saber cuándo una situación ya entró en el terreno de "hay que llamar a un profesional".
+
+*REGLA ESPECÍFICA DE LA REGIÓN:* El sistema español pertenece a la tradición del derecho civil (con el Código Civil como pieza central y derechos civiles forales en algunas comunidades autónomas). Este currículo usa como referencia principal el common law de EE. UU.: los conceptos generales se aplican, pero los términos y procedimientos concretos pueden ser distintos. Verifícalo con un abogado.
+
+## Ejemplo práctico
+
+**Pregunta:** Un nuevo inversor en bienes inmuebles dice: "No necesito saber nada de derecho; contrataré a un abogado para todo". ¿Cuál es la falla de ese plan?
+
+**Estudiante:** Según esta lección, aun con un abogado, necesitarías suficiente alfabetización jurídica para saber cuándo llamarlo en primer lugar y para entender lo que te está diciendo.
+
+**Guía:** ¿Cuál es una consecuencia real de no tener ninguna alfabetización jurídica, aunque tengas acceso a un abogado?
+
+**Estudiante:** Podrías no reconocer una señal de alerta legal en un contrato antes de firmarlo, o no saber que una situación necesita un abogado hasta que ya es un problema.
+
+**Guía:** Exacto: la alfabetización jurídica no reemplaza la ayuda profesional; es lo que te permite usar esa ayuda con eficacia y saber cuándo la necesitas.
+
+## Cuestionario práctico
+
+**Pregunta 1.** La mejor definición de derecho es:
+
+A) Un conjunto de sugerencias sin forma de hacerlas cumplir
+B) Reglas exigibles respaldadas por los tribunales y el gobierno
+C) Algo que solo importa a los delincuentes
+D) Lo mismo que la ética
+
+**Pregunta 2.** Legalmente, RED (bienes inmuebles) depende de:
+
+A) Nada legal en absoluto
+B) Una propiedad, unos contratos y unos derechos sobre los bienes que se puedan hacer valer
+C) Solo el derecho tributario
+D) Solo el derecho de valores
+
+**Pregunta 3.** Legalmente, WHITE (inversiones) depende de:
+
+A) Solo el derecho inmobiliario
+B) Las leyes de valores que hacen confiables los mercados
+C) Ningún marco legal
+D) Solo las licencias comerciales
+
+**Pregunta 4.** Según esta lección, el objetivo de PURPLE es convertir al estudiante en:
+
+A) Un abogado con licencia
+B) Un participante con alfabetización jurídica, no un sustituto de la ayuda profesional
+C) Alguien que nunca más necesitará un abogado
+D) Un experto en derecho penal
+
+## Clave de respuestas
+
+1. B, 2. B, 3. B, 4. B
+
+## Respuestas y explicaciones
+
+**1.** El rasgo que define al derecho es que se puede hacer cumplir: son reglas con consecuencias reales, no simples sugerencias sociales.
+
+**2.** Las transacciones de bienes inmuebles dependen por completo de la capacidad del sistema legal para hacer valer la propiedad y los contratos.
+
+**3.** Invertir depende de un marco legal que mantenga los mercados lo bastante honestos para participar con seguridad.
+
+**4.** La alfabetización jurídica es el objetivo explícito y declarado; no lo es la pericia de nivel profesional.
+
+## Puntos clave
+
+- El derecho son reglas exigibles respaldadas por los tribunales y el gobierno.
+- RED, WHITE y BLUE dependen cada uno de bases legales específicas para funcionar.
+- La alfabetización jurídica te hace usar mejor la ayuda legal profesional; no la reemplaza.
+- Esta ruta enseña alfabetización práctica, en línea con la analogía del médico de rutas anteriores.
+
+===== PURPLE-L1-002
+TITLE: Derecho común y derecho legislado: de dónde vienen las reglas
+SUMMARY: Presenta las dos grandes fuentes del derecho en la mayoría de los sistemas legales y ofrece un mapa básico de dónde salen realmente las reglas jurídicas.
+# Derecho común y derecho legislado: de dónde vienen las reglas
+
+## Objetivos de aprendizaje
+
+- Distinguir el derecho legislado del derecho común.
+- Explicar por qué ambas fuentes importan en situaciones legales cotidianas.
+- Reconocer que la combinación concreta varía según el país.
+
+## Contenido principal
+
+El derecho legislado (statutory law) es el que redacta y aprueba un órgano legislativo: una regla formal y escrita, como una ley que fija un requisito para los contratos o una norma de licencias. El derecho común (common law), que se usa en EE. UU. y en muchos otros países, es el derecho que se va formando con el tiempo a través de las decisiones de los tribunales: cuando los jueces resuelven disputas, su razonamiento se convierte en precedente que orienta cómo se decidirán disputas futuras parecidas, aunque no exista una ley escrita que cubra exactamente esa situación.
+
+En la práctica, la mayoría de las preguntas legales reales involucran ambas fuentes: una ley puede fijar una regla general, y las decisiones de los tribunales interpretan qué significa exactamente esa ley en situaciones reales concretas y complicadas. Esto importa en la práctica porque explica por qué "la ley" no siempre es una oración limpia que puedes buscar: a veces la respuesta real depende de cómo los tribunales han aplicado una regla en casos parecidos anteriores, y no solo de lo que la ley dice literalmente.
+
+*REGLA ESPECÍFICA DE LA REGIÓN:* En España, las fuentes del ordenamiento son la ley, la costumbre y los principios generales del derecho (artículo 1 del Código Civil); la jurisprudencia del Tribunal Supremo complementa el ordenamiento, pero no funciona exactamente como el precedente obligatorio del common law.
+
+## Ejemplo práctico
+
+**Pregunta:** Una nueva dueña de negocio busca una ley y supone que responde por completo a su pregunta legal. ¿Por qué podría no ser el cuadro completo?
+
+**Estudiante:** Según esta lección, las decisiones de los tribunales que interpretan esa ley podrían añadir detalles importantes que el texto de la ley no dice de forma explícita.
+
+**Guía:** ¿Por qué importaría eso en la situación real y concreta que ella enfrenta?
+
+**Estudiante:** Porque la forma en que los tribunales han aplicado la ley en casos parecidos podría revelar excepciones, límites o interpretaciones que cambian cómo se aplica a su caso.
+
+**Guía:** Exacto, y por eso las preguntas legales complejas o de mucho riesgo se benefician de orientación profesional, no solo de una búsqueda rápida de la ley.
+
+## Cuestionario práctico
+
+**Pregunta 1.** El derecho legislado es:
+
+A) Derecho formado solo por decisiones judiciales
+B) Derecho redactado y aprobado por un órgano legislativo
+C) Sugerencias que no se pueden hacer cumplir
+D) Algo que solo importa en casos penales
+
+**Pregunta 2.** El derecho común es:
+
+A) Derecho que se forma con el tiempo a través de decisiones judiciales y precedentes
+B) Lo mismo que el derecho legislado
+C) Algo que solo se usa en un país
+D) Algo irrelevante para los sistemas legales modernos
+
+**Pregunta 3.** En la práctica, la mayoría de las preguntas legales involucran:
+
+A) Solo leyes, nunca decisiones judiciales
+B) Tanto las leyes como la forma en que los tribunales las han interpretado
+C) Ninguna de las dos fuentes
+D) Solo derecho común, nunca leyes
+
+**Pregunta 4.** ¿Por qué buscar solo una ley podría no responder por completo a una pregunta legal?
+
+A) Las leyes siempre están completas por sí solas
+B) La interpretación judicial puede añadir detalles importantes que no están en el texto de la ley
+C) Las leyes nunca son relevantes
+D) Esto nunca ocurre en la práctica
+
+## Clave de respuestas
+
+1. B, 2. A, 3. B, 4. B
+
+## Respuestas y explicaciones
+
+**1.** El derecho legislado es el tipo formalmente codificado, creado mediante el proceso legislativo.
+
+**2.** El derecho común se va construyendo poco a poco mediante el precedente judicial, no con un único acto legislativo.
+
+**3.** Las preguntas legales reales suelen exigir entender tanto la regla escrita como la forma en que se ha aplicado.
+
+**4.** La interpretación judicial a menudo revela matices, excepciones o límites que el texto de la ley por sí solo no deja claros.
+
+## Puntos clave
+
+- El derecho legislado viene de los órganos legislativos; el derecho común se forma con decisiones judiciales y precedentes.
+- La mayoría de las preguntas legales reales involucran ambas fuentes trabajando juntas.
+- El texto literal de una ley no siempre cuenta toda la historia.
+- Esa es parte de la razón por la que las preguntas legales complejas se benefician de una interpretación profesional.
+
+===== PURPLE-L1-003
+TITLE: Contratos 101: qué hace que un acuerdo sea legalmente obligatorio
+SUMMARY: Presenta el concepto fundamental de contrato y adelanta los elementos que hacen que un acuerdo se pueda hacer cumplir legalmente, como preparación para las dos lecciones siguientes.
+# Contratos 101: qué hace que un acuerdo sea legalmente obligatorio
+
+## Objetivos de aprendizaje
+
+- Definir un contrato en términos sencillos.
+- Explicar por qué no todo acuerdo es un contrato exigible legalmente.
+- Adelantar los tres elementos centrales que se verán en la próxima lección.
+
+## Contenido principal
+
+Un contrato es un acuerdo exigible legalmente entre dos o más partes. La palabra clave es exigible: un contrato no es solo una promesa o un trato de palabra; es un acuerdo que un tribunal puede obligar a alguien a cumplir, o por cuyo incumplimiento puede conceder una indemnización. Esta distinción importa muchísimo en RED, WHITE y BLUE: un contrato de compraventa de bienes inmuebles, un contrato de suscripción de una inversión y un acuerdo de sociedad de un negocio son, en el fondo, contratos.
+
+No todo acuerdo llega a ser un contrato exigible. Una promesa informal entre amigos normalmente no lo es; un contrato de compraventa formal y firmado normalmente sí. La próxima lección desglosa los tres ingredientes centrales (oferta, aceptación y contraprestación) que en general deben estar presentes para que un acuerdo cuente como un contrato legalmente obligatorio. Entender esta distinción es fundamental: es la diferencia entre algo en lo que puedes confiar legalmente y algo que es solo un entendimiento amistoso.
+
+## Ejemplo práctico
+
+**Pregunta:** Dos vecinos acuerdan de palabra que uno le cortará el césped al otro "en algún momento este verano" a cambio de "un favor más adelante". ¿Es probable que esto sea un contrato exigible?
+
+**Estudiante:** Según esta lección, suena bastante informal y vago, así que es dudoso que cuente como un contrato exigible.
+
+**Guía:** ¿Qué le falta aquí que sí tendría un contrato formal de compraventa de un inmueble?
+
+**Estudiante:** Términos claros y específicos, y cierto nivel de formalidad: lo que convierte un acuerdo en algo que un tribunal podría hacer cumplir, en vez de un simple entendimiento amistoso.
+
+**Guía:** Exacto: la próxima lección te dará los ingredientes específicos que debes buscar.
+
+## Cuestionario práctico
+
+**Pregunta 1.** Un contrato es:
+
+A) Cualquier promesa informal
+B) Un acuerdo exigible legalmente entre las partes
+C) Algo que solo importa a los negocios
+D) Lo mismo que un apretón de manos
+
+**Pregunta 2.** El rasgo clave que distingue a un contrato es:
+
+A) Su extensión
+B) Que es exigible: un tribunal puede obligar a cumplirlo o conceder una indemnización
+C) Si está escrito a máquina o a mano
+D) Si ambas partes son amigas
+
+**Pregunta 3.** ¿Cuál de estos se describe como ejemplo de contrato en el contexto de este currículo?
+
+A) Un contrato de compraventa de bienes inmuebles
+B) Un favor informal de palabra entre amigos
+C) Soñar despierto con una idea de negocio
+D) Una esperanza no escrita
+
+**Pregunta 4.** ¿Qué cubre la próxima lección?
+
+A) El derecho tributario
+B) Los tres elementos centrales: oferta, aceptación y contraprestación
+C) El derecho penal
+D) La zonificación de bienes inmuebles
+
+## Clave de respuestas
+
+1. B, 2. B, 3. A, 4. B
+
+## Respuestas y explicaciones
+
+**1.** Que se pueda hacer cumplir es el rasgo que separa un verdadero contrato de una promesa informal.
+
+**2.** La capacidad de un tribunal para hacer cumplir el acuerdo es lo que le da significado legal.
+
+**3.** Los contratos de compraventa son formales, específicos y exigibles: un ejemplo de manual de un contrato real.
+
+**4.** Esta lección prepara el desglose, en la siguiente, de los ingredientes específicos requeridos.
+
+## Puntos clave
+
+- Un contrato es un acuerdo que un tribunal puede hacer cumplir, no solo una promesa.
+- Los contratos de compraventa, de inversión y de sociedad son todos contratos.
+- No todo acuerdo llega a ser un contrato exigible.
+- La próxima lección cubre los tres ingredientes centrales que convierten un acuerdo en un contrato.
+
+===== PURPLE-L1-004
+TITLE: Oferta, aceptación y contraprestación: los tres ingredientes
+SUMMARY: Desglosa los tres elementos clásicos que en general se requieren para que un contrato sea exigible legalmente, con un ejemplo concreto.
+# Oferta, aceptación y contraprestación: los tres ingredientes
+
+## Objetivos de aprendizaje
+
+- Definir oferta, aceptación y contraprestación.
+- Aplicar los tres elementos a una transacción sencilla de la vida real.
+- Reconocer que la falta de cualquiera de ellos puede debilitar la exigibilidad.
+
+## Contenido principal
+
+Siguiendo con la lección anterior, la mayoría de los sistemas legales buscan tres ingredientes centrales para tratar un acuerdo como un contrato exigible. **Oferta**: una parte propone términos específicos ("Te vendo esta propiedad por 200.000 €"). **Aceptación**: la otra parte acepta claramente esos mismos términos. **Contraprestación**: cada lado intercambia algo de valor (dinero, una propiedad, la promesa de hacer o no hacer algo); un regalo unilateral en general no es un contrato, porque no se intercambia nada.
+
+Un ejemplo sencillo lo hace concreto: un vendedor ofrece una propiedad a un precio determinado (oferta), un comprador dice que sí a ese precio y a esos términos exactos (aceptación), y el dinero cambia de manos a cambio de la propiedad (contraprestación). Que estén presentes los tres elementos, en ese orden, es en general lo que hace que un tribunal esté dispuesto a tratar el acuerdo resultante como un contrato obligatorio, y es la razón por la que las propuestas vagas, unilaterales o no aceptadas a menudo no se sostienen si más adelante surge una disputa.
+
+*REGLA ESPECÍFICA DE LA REGIÓN:* La "contraprestación" (consideration) es un concepto del common law. En España, el artículo 1261 del Código Civil exige para que haya contrato consentimiento, objeto cierto y causa. Las ideas de fondo se parecen, pero los requisitos exactos dependen de la jurisdicción.
+
+## Ejemplo práctico
+
+**Pregunta:** Un comprador dice "Me encantaría comprar tu casa algún día" y el vendedor responde "Claro, suena bien". ¿Esto cumple con los tres ingredientes de un contrato?
+
+**Estudiante:** Según esta lección, no lo parece: no hay una oferta específica con términos reales, así que aceptar nada concreto tampoco cuenta de verdad.
+
+**Guía:** ¿Qué tendría que cambiar para que fuera una oferta real?
+
+**Estudiante:** Términos específicos (un precio, una propiedad y unas condiciones reales) propuestos con suficiente claridad para que la otra parte pueda aceptarlos tal como se plantean.
+
+**Guía:** Exacto: el entusiasmo vago no es lo mismo que una oferta con significado legal.
+
+## Cuestionario práctico
+
+**Pregunta 1.** En el derecho de contratos, una "oferta" es:
+
+A) Una expresión vaga de interés
+B) Una propuesta de términos específicos hecha por una parte
+C) Lo mismo que la contraprestación
+D) Algo irrelevante para formar un contrato
+
+**Pregunta 2.** "Aceptación" significa:
+
+A) Ignorar la oferta
+B) Aceptar claramente los términos exactos propuestos
+C) Proponer términos distintos
+D) Lo mismo que una oferta
+
+**Pregunta 3.** "Contraprestación" se refiere a:
+
+A) Ser cortés durante la negociación
+B) Algo de valor que intercambia cada lado
+C) Un regalo unilateral
+D) Algo que solo importa en bienes inmuebles
+
+**Pregunta 4.** Es probable que una propuesta vaga y no aceptada:
+
+A) Cuente siempre como un contrato obligatorio
+B) No cumpla con los elementos necesarios para un contrato exigible
+C) Sea idéntica a un contrato de compraventa firmado
+D) No tenga ninguna relevancia para el derecho de contratos
+
+## Clave de respuestas
+
+1. B, 2. B, 3. B, 4. B
+
+## Respuestas y explicaciones
+
+**1.** Una oferta requiere especificidad: proponer términos reales y definidos, no un sentimiento vago.
+
+**2.** La aceptación consiste en aceptar esos términos exactos, no algo distinto o parcial.
+
+**3.** La contraprestación exige un verdadero intercambio de valor en ambos sentidos, lo que distingue un contrato de un regalo.
+
+**4.** La falta de especificidad o de un intercambio real tiende a debilitar que un acuerdo sea realmente exigible.
+
+## Puntos clave
+
+- La oferta, la aceptación y la contraprestación son los tres ingredientes clásicos de un contrato exigible.
+- La oferta debe ser específica; la aceptación debe coincidir con esos términos exactos; la contraprestación debe implicar un intercambio real de valor.
+- Una transacción de bienes inmuebles es un ejemplo claro de los tres elementos funcionando juntos.
+- La falta de cualquiera de los tres puede debilitar que un acuerdo sea realmente un contrato obligatorio.

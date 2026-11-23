@@ -1,0 +1,325 @@
+===== PURPLE-L1-017
+TITLE: Licencias y permisos de negocio: el derecho legal a operar
+SUMMARY: Presenta el concepto general de licencias y permisos de negocio como la autorización legal necesaria para operar, distinta de la constitución de la entidad.
+# Licencias y permisos de negocio: el derecho legal a operar
+
+## Objetivos de aprendizaje
+
+- Distinguir la constitución de una entidad de la obtención de licencias y permisos.
+- Explicar el propósito general de las licencias y los permisos de negocio.
+- Reconocer el riesgo de operar sin la autorización debida.
+
+## Contenido principal
+
+Constituir una entidad de negocio (una LLC, una corporación, etc.) es un paso legal distinto de obtener las licencias y los permisos que realmente se requieren para operar ese negocio legalmente. Los requisitos de licencias y permisos varían muchísimo según la industria, el lugar y el tipo de negocio: un restaurante necesita permisos sanitarios que un negocio de consultoría no necesita; un contratista necesita una licencia de oficio que una tienda no necesita. Es otra área en la que "las reglas" no son una lista universal, sino un requisito propio de cada jurisdicción e industria que hay que investigar para cada situación concreta.
+
+Operar sin las licencias o permisos requeridos implica un riesgo real: multas, cierre forzoso, contratos invalidados y, en algunos casos, exposición a responsabilidad personal incluso con una entidad bien constituida. Un error común y comprensible es suponer que constituir una LLC o una corporación es el único paso legal necesario para "ser legítimo"; pero una entidad bien constituida que opera sin las licencias requeridas sigue operando ilegalmente en un sentido importante, y vale la pena identificar y cerrar esa brecha antes, no después, de que aparezca un problema.
+
+*REGLA ESPECÍFICA DE LA REGIÓN:* En España, además de constituir la sociedad, suele ser necesario darse de alta en Hacienda y en la Seguridad Social y obtener las licencias municipales de actividad o de apertura que correspondan. Consulta a tu ayuntamiento y a un gestor para tu tipo de negocio.
+
+## Ejemplo práctico
+
+**Pregunta:** Una LLC recién constituida empieza a operar un negocio justo después de constituirse, sin investigar si se requiere alguna licencia o permiso propio de su industria. ¿Qué brecha ilustra esto?
+
+**Estudiante:** Según esta lección, constituir la LLC resolvió la creación de la entidad, pero las licencias y los permisos son un requisito legal aparte que no se ha atendido en absoluto.
+
+**Guía:** ¿Qué riesgo crea operar sin las licencias requeridas, aun con una LLC bien constituida?
+
+**Estudiante:** Un riesgo real: multas, cierre forzoso o incluso una exposición que debilita la protección que se suponía que daría la LLC, porque operar ilegalmente puede complicar las cosas incluso con una entidad bien constituida.
+
+**Guía:** Exacto: constituir la entidad y obtener la autorización legal para operar son dos pasos separados, y ambos son necesarios.
+
+## Cuestionario práctico
+
+**Pregunta 1.** La constitución de una entidad y la obtención de licencias y permisos son:
+
+A) Exactamente el mismo paso legal
+B) Dos requisitos legales separados
+C) Algo relevante solo para la empresa individual
+D) Cosas que no tienen relación entre sí
+
+**Pregunta 2.** Los requisitos de licencias y permisos:
+
+A) Son idénticos para todos los negocios en todas partes
+B) Varían según la industria, el lugar y el tipo de negocio
+C) Nunca se aplican a ningún negocio
+D) Solo se aplican a las corporaciones
+
+**Pregunta 3.** Operar sin las licencias requeridas puede resultar en:
+
+A) Ninguna consecuencia
+B) Multas, cierre forzoso, contratos invalidados o exposición a responsabilidad
+C) Éxito automático del negocio
+D) Solo una pequeña molestia sin riesgo real
+
+**Pregunta 4.** Un error común que identifica esta lección es:
+
+A) No constituir nunca ninguna entidad de negocio
+B) Suponer que la constitución de la entidad por sí sola hace que un negocio sea plenamente "legítimo" y esté legalmente autorizado
+C) Obtener demasiadas licencias
+D) Esta lección no identifica ningún error común
+
+## Clave de respuestas
+
+1. B, 2. B, 3. B, 4. B
+
+## Respuestas y explicaciones
+
+**1.** Constituir una entidad establece su existencia legal; las licencias establecen su permiso legal para operar realmente.
+
+**2.** Los requisitos concretos dependen de la industria y la jurisdicción, no de una única lista de verificación universal.
+
+**3.** Ignorar este paso expone al negocio a una serie de consecuencias reales y evitables.
+
+**4.** Esta lección nombra y corrige directamente la suposición común de que la constitución por sí sola cubre todo el cumplimiento legal.
+
+## Puntos clave
+
+- La constitución de una entidad y las licencias y permisos son dos requisitos legales separados.
+- Los requisitos de licencias varían según la industria, el lugar y el tipo de negocio.
+- Operar sin las licencias requeridas implica un riesgo real, incluidas multas y el cierre forzoso.
+- Constituir una entidad no basta por sí solo para que un negocio esté plenamente autorizado a operar.
+
+===== PURPLE-L1-018
+TITLE: Fundamentos del derecho laboral: empleado o contratista, en términos legales
+SUMMARY: Retoma la distinción entre empleado y contratista de GREEN desde la perspectiva de la responsabilidad del derecho laboral y cubre las consecuencias legales de una clasificación incorrecta.
+# Fundamentos del derecho laboral: empleado o contratista, en términos legales
+
+## Objetivos de aprendizaje
+
+- Recordar la distinción entre empleado y contratista vista en GREEN.
+- Explicar las consecuencias legales adicionales (no fiscales) de una clasificación incorrecta.
+- Reconocer el derecho laboral como un área de riesgo distinta de la clasificación incorrecta a efectos fiscales.
+
+## Contenido principal
+
+GREEN trató la distinción entre empleado y contratista principalmente desde la perspectiva fiscal: clasificar mal a un trabajador arriesga impuestos atrasados, multas e intereses. Esta lección añade la dimensión del derecho laboral: clasificar mal a un trabajador también tiene consecuencias legales completamente separadas de los impuestos, como la exposición a reclamaciones por horas extra no pagadas, violaciones del salario mínimo, beneficios que el trabajador debió recibir y no recibió, y protecciones laborales que se aplican a los empleados pero no a los verdaderos contratistas independientes.
+
+La prueba de clasificación en el contexto del derecho laboral suele considerar factores parecidos a los de la prueba fiscal (el grado de control sobre cómo, cuándo y dónde se hace el trabajo), pero las consecuencias de equivocarse corren por dos vías separadas a la vez: la determinación de una autoridad fiscal y una reclamación laboral pueden surgir de la misma clasificación incorrecta y sumar la exposición total. Es un ejemplo claro de cómo una sola decisión de negocio, cómo clasificar a un trabajador, puede crear responsabilidad en varias áreas del derecho completamente distintas a la vez, lo que refuerza por qué esta decisión merece atención cuidadosa y, a menudo, profesional.
+
+*REGLA ESPECÍFICA DE LA REGIÓN:* En España las relaciones laborales se rigen por el Estatuto de los Trabajadores, y clasificar como autónomo a quien en realidad trabaja como asalariado (los llamados "falsos autónomos") puede acarrear consecuencias laborales y de Seguridad Social. Verifica las reglas con un profesional.
+
+## Ejemplo práctico
+
+**Pregunta:** Un negocio clasifica a varios trabajadores como contratistas cuando legalmente deberían ser empleados. Además de las consecuencias fiscales vistas en GREEN, ¿qué exposición legal adicional identifica esta lección?
+
+**Estudiante:** Según esta lección, también hay exposición en el derecho laboral: reclamaciones por horas extra no pagadas, violaciones del salario mínimo y beneficios o protecciones laborales que los trabajadores debieron recibir como empleados.
+
+**Guía:** ¿Cómo se relacionan entre sí estos dos tipos de exposición, la fiscal y la laboral?
+
+**Estudiante:** Ambas pueden surgir de la misma decisión de clasificación incorrecta, por vías separadas a la vez, lo que suma el riesgo total más allá de las consecuencias fiscales solamente.
+
+**Guía:** Exacto: una sola decisión, varias áreas de exposición legal al mismo tiempo.
+
+## Cuestionario práctico
+
+**Pregunta 1.** ¿Desde qué perspectiva trató GREEN principalmente la clasificación incorrecta de trabajadores?
+
+A) El derecho laboral
+B) Los impuestos
+C) El derecho inmobiliario
+D) El derecho de valores
+
+**Pregunta 2.** ¿Qué consecuencia adicional de la clasificación incorrecta añade esta lección?
+
+A) No existe ninguna consecuencia adicional
+B) La exposición en el derecho laboral: horas extra no pagadas, salario mínimo, beneficios negados, protecciones laborales
+C) Solo multas fiscales adicionales
+D) Solo exposición penal
+
+**Pregunta 3.** ¿Pueden surgir al mismo tiempo reclamaciones fiscales y laborales de la misma clasificación incorrecta?
+
+A) No, solo puede aplicarse una
+B) Sí: ambas pueden surgir de la misma decisión y sumar la exposición total
+C) Las reclamaciones laborales nunca tienen que ver con la clasificación
+D) Estas dos áreas no tienen ninguna relación
+
+**Pregunta 4.** ¿Qué ilustra esto sobre una sola decisión de negocio como la clasificación de trabajadores?
+
+A) Que solo crea un tipo de riesgo
+B) Que una sola decisión puede crear responsabilidad en varias áreas del derecho completamente distintas a la vez
+C) Que las decisiones de clasificación no tienen peso legal real
+D) Que solo los negocios grandes enfrentan este riesgo
+
+## Clave de respuestas
+
+1. B, 2. B, 3. B, 4. B
+
+## Respuestas y explicaciones
+
+**1.** El tratamiento de la ruta GREEN se centró en las consecuencias de retención y pago de impuestos.
+
+**2.** Esta lección nombra de forma explícita los riesgos laborales paralelos que existen con independencia de la exposición fiscal.
+
+**3.** La exposición simultánea y acumulada en dos áreas legales es el punto clave que esta lección añade a la discusión anterior.
+
+**4.** Es una ilustración clara y concreta de cómo una sola decisión de clasificación puede tocar varios ámbitos legales a la vez.
+
+## Puntos clave
+
+- GREEN trató las consecuencias fiscales de la clasificación incorrecta; esta lección añade las consecuencias laborales.
+- La clasificación incorrecta puede provocar reclamaciones por horas extra no pagadas, salario mínimo y beneficios negados.
+- La exposición fiscal y la laboral pueden surgir al mismo tiempo de la misma clasificación incorrecta.
+- Es un ejemplo claro de una sola decisión que crea responsabilidad en varias áreas del derecho a la vez.
+
+===== PURPLE-L1-019
+TITLE: Acuerdos de no competencia y de confidencialidad: lo que realmente hacen
+SUMMARY: Explica el propósito práctico y las consideraciones sobre la exigibilidad legal de los acuerdos de no competencia y de confidencialidad, comunes en el mundo de los negocios.
+# Acuerdos de no competencia y de confidencialidad: lo que realmente hacen
+
+## Objetivos de aprendizaje
+
+- Distinguir un acuerdo de no competencia de un acuerdo de confidencialidad.
+- Explicar el propósito general de cada uno.
+- Reconocer que su exigibilidad varía mucho según la jurisdicción.
+
+## Contenido principal
+
+Un acuerdo de confidencialidad (NDA, por sus siglas en inglés) impide que una parte comparta cierta información confidencial: protege secretos comerciales, planes de negocio o procesos propios que se comparten durante una relación de negocios. Un acuerdo de no competencia impide que una parte (a menudo un exempleado o quien vendió un negocio) compita con la otra parte durante un tiempo y en una zona geográfica determinados: protege a un negocio de que alguien de adentro que se va use de inmediato ese conocimiento interno para competir directamente.
+
+Ambos son comunes en los contextos de negocio de la ruta BLUE (contratos de empleo, contratos de venta de negocios, disoluciones de sociedades), pero difieren mucho en cuán exigibles son en realidad. Los acuerdos de confidencialidad suelen ser bastante exigibles, porque solo restringen la divulgación sin limitar de forma amplia la capacidad de alguien para ganarse la vida. Los acuerdos de no competencia son mucho más variables: algunas jurisdicciones los hacen cumplir con facilidad si su alcance es razonable, otras los restringen mucho y otras los prohíben casi por completo para la mayoría de los trabajadores, lo que refleja una tensión de política pública entre proteger intereses de negocio legítimos y no restringir de forma irrazonable la capacidad de alguien para trabajar. Esa variabilidad es justo el tipo de detalle que convierte "¿se puede hacer cumplir mi acuerdo de no competencia?" en una pregunta realmente propia de cada jurisdicción que merece una revisión profesional, no algo que se deba dar por sentado en un sentido u otro.
+
+## Ejemplo práctico
+
+**Pregunta:** El dueño de un negocio en un estado supone que una cláusula estándar de no competencia se podrá hacer cumplir por completo, basándose en algo que leyó sobre las reglas de otro estado. ¿Qué debería hacerle reconsiderar esta lección?
+
+**Estudiante:** Según esta lección, la exigibilidad de un acuerdo de no competencia varía mucho según la jurisdicción, así que suponer que se aplican las reglas de otro estado podría ser un error real.
+
+**Guía:** Según esta lección, ¿cómo se compara esto con la exigibilidad de un acuerdo de confidencialidad?
+
+**Estudiante:** Los acuerdos de confidencialidad se describen como bastante exigibles en general, mientras que los de no competencia son mucho más variables y dependen de la jurisdicción, así que no hay que suponer que funcionan igual.
+
+**Guía:** Exacto: por eso la exigibilidad de un acuerdo de no competencia merece en particular una revisión profesional propia de la jurisdicción.
+
+## Cuestionario práctico
+
+**Pregunta 1.** Un acuerdo de confidencialidad (NDA) impide:
+
+A) Que alguien trabaje en cualquier lugar
+B) Que una parte comparta cierta información confidencial
+C) Solo las transacciones de bienes inmuebles
+D) Nada con significado legal
+
+**Pregunta 2.** Un acuerdo de no competencia impide:
+
+A) Solo la divulgación de información confidencial
+B) Que una parte compita con la otra durante un tiempo y en una zona determinados
+C) Nada en absoluto
+D) Solo la actividad delictiva
+
+**Pregunta 3.** En general, ¿cómo se compara la exigibilidad de un NDA con la de un acuerdo de no competencia?
+
+A) Son igual de variables
+B) Los NDA suelen ser bastante exigibles; la exigibilidad de los acuerdos de no competencia varía mucho según la jurisdicción
+C) Los acuerdos de no competencia siempre son más exigibles que los NDA
+D) Ninguno de los dos es exigible nunca
+
+**Pregunta 4.** ¿Por qué la exigibilidad de los acuerdos de no competencia varía tanto según la jurisdicción?
+
+A) Por ninguna razón real: es aleatorio
+B) Por una tensión de política pública entre proteger intereses de negocio y no restringir de forma irrazonable la capacidad de alguien para trabajar
+C) Porque solo los estados ricos los hacen cumplir
+D) Esta lección no explica la razón
+
+## Clave de respuestas
+
+1. B, 2. B, 3. B, 4. B
+
+## Respuestas y explicaciones
+
+**1.** Los NDA tratan específicamente de proteger información confidencial, no de restringir de forma amplia la capacidad de alguien para trabajar.
+
+**2.** Los acuerdos de no competencia restringen específicamente la actividad competitiva futura dentro de límites definidos.
+
+**3.** Los NDA enfrentan menos obstáculos de exigibilidad porque no restringen de forma amplia la posibilidad de ganarse la vida, como sí pueden hacerlo los acuerdos de no competencia.
+
+**4.** Esta tensión de política pública de fondo es justamente la razón por la que distintas jurisdicciones buscan el equilibrio de forma diferente.
+
+## Puntos clave
+
+- Los NDA protegen la información confidencial; los acuerdos de no competencia restringen la competencia futura.
+- Los NDA suelen ser exigibles de forma más uniforme que los acuerdos de no competencia.
+- La exigibilidad de los acuerdos de no competencia varía mucho según la jurisdicción, lo que refleja una tensión de política pública real.
+- Esa variabilidad convierte su exigibilidad en una pregunta propia de cada jurisdicción que merece una revisión profesional.
+
+===== PURPLE-L1-020
+TITLE: Fundamentos de propiedad intelectual: marcas, derechos de autor y patentes
+SUMMARY: Presenta las tres grandes categorías de protección de la propiedad intelectual relevantes para los dueños de negocios y cierra la sección de derecho de negocios.
+# Fundamentos de propiedad intelectual: marcas, derechos de autor y patentes
+
+## Objetivos de aprendizaje
+
+- Distinguir las marcas, los derechos de autor y las patentes.
+- Identificar qué categoría protege cada tipo de activo de negocio.
+- Reconocer la propiedad intelectual como un activo de negocio que vale la pena proteger activamente.
+
+## Contenido principal
+
+El derecho de propiedad intelectual (PI) protege las creaciones de la mente (marcas, obras creativas e invenciones) como activos reconocidos legalmente de los que uno puede ser dueño. Para los dueños de negocios importan sobre todo tres grandes categorías: las **marcas** protegen los identificadores de una marca comercial (nombres de negocio, logotipos, eslóganes) que distinguen tus productos o servicios de los de la competencia. Los **derechos de autor** protegen las obras creativas originales (contenidos escritos, diseños, código de software) contra la copia no autorizada. Las **patentes** protegen las invenciones (procesos o productos realmente nuevos y útiles) y le dan al inventor derechos exclusivos durante un período limitado.
+
+Para un dueño de negocio de la ruta BLUE, la PI no es una categoría legal abstracta: a menudo es un activo de negocio real y valioso. Un nombre de marca fuerte protegido como marca registrada, un contenido propio protegido por derechos de autor o un producto realmente novedoso protegido por una patente pueden ser fuentes de una ventaja competitiva real y de un valor económico real, a veces mayor que el de los activos físicos del negocio. No proteger la PI, o peor aún, infringir sin saberlo la de otra persona, es un riesgo legal común y evitable con el que se cierra esta sección de derecho de negocios de la ruta.
+
+*REGLA ESPECÍFICA DE LA REGIÓN:* El registro y la protección de la propiedad intelectual son nacionales. En España, las marcas y patentes se registran ante la Oficina Española de Patentes y Marcas (OEPM), y las obras pueden inscribirse en el Registro de la Propiedad Intelectual. Verifica dónde y cómo registrar.
+
+## Ejemplo práctico
+
+**Pregunta:** Una dueña de negocio crea un nombre y un logotipo distintivos, pero nunca registra la marca, porque supone que usarla es protección suficiente. ¿Qué riesgo crea esto?
+
+**Estudiante:** Según esta lección, sin la protección de una marca registrada, la identidad de la marca podría no estar tan protegida legalmente como ella cree, y un competidor podría usar algo parecido con menos riesgo legal para sí mismo.
+
+**Guía:** ¿Por qué importa esto para el valor económico real del negocio?
+
+**Estudiante:** Porque una marca fuerte y protegida puede ser un activo de negocio real y valioso; dejarla sin protección arriesga perder parte de ese valor si otra persona la reclama o usa algo parecido que cause confusión.
+
+**Guía:** Exacto: proteger la PI es una decisión de negocio práctica, no solo una formalidad legal.
+
+## Cuestionario práctico
+
+**Pregunta 1.** Las marcas protegen:
+
+A) Las invenciones
+B) Los identificadores de una marca comercial, como nombres, logotipos y eslóganes
+C) Solo los contenidos escritos
+D) Nada con valor para el negocio
+
+**Pregunta 2.** Los derechos de autor protegen:
+
+A) Los nombres de marca
+B) Las obras creativas originales, como contenidos escritos o código
+C) Solo las invenciones físicas
+D) Solo los bienes inmuebles
+
+**Pregunta 3.** Las patentes protegen:
+
+A) Los logotipos de marca
+B) Las invenciones, procesos o productos realmente nuevos y útiles
+C) Solo la escritura creativa
+D) Nada legalmente significativo
+
+**Pregunta 4.** ¿Por qué importa en la práctica la PI para un dueño de negocio?
+
+A) No tiene ninguna relevancia práctica
+B) La PI puede ser un activo de negocio real y valioso, a veces mayor que los activos físicos
+C) Solo las grandes corporaciones tienen PI
+D) La PI solo importa a los inventores, nunca a las marcas
+
+## Clave de respuestas
+
+1. B, 2. B, 3. B, 4. B
+
+## Respuestas y explicaciones
+
+**1.** El derecho de marcas trata específicamente de proteger los identificadores que distinguen a un negocio en el mercado.
+
+**2.** El derecho de autor cubre la expresión creativa original, una categoría distinta de la identidad de marca o de las invenciones.
+
+**3.** El derecho de patentes recompensa específicamente la innovación real con derechos exclusivos durante un tiempo limitado.
+
+**4.** Reconocer la PI como un valor de negocio real, no solo como un tecnicismo legal, es la lección práctica de esta clase.
+
+## Puntos clave
+
+- Las marcas protegen los identificadores de una marca comercial; los derechos de autor protegen las obras creativas; las patentes protegen las invenciones.
+- La PI puede ser un activo de negocio realmente valioso, a veces mayor que el valor de los activos físicos.
+- No proteger la PI, o infringir sin saberlo la de otros, es un riesgo legal común y evitable.
+- Esto cierra la sección de derecho de negocios antes de que la ruta pase al derecho inmobiliario.

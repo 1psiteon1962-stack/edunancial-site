@@ -1,0 +1,325 @@
+===== PURPLE-L1-029
+TITLE: El proceso de cierre: los pasos legales de una transacción de bienes inmuebles
+SUMMARY: Recorre el proceso de cierre como la culminación legal de una transacción de bienes inmuebles y une los conceptos de escritura, título y contrato de lecciones anteriores.
+# El proceso de cierre: los pasos legales de una transacción de bienes inmuebles
+
+## Objetivos de aprendizaje
+
+- Describir el propósito general del cierre de una transacción de bienes inmuebles.
+- Identificar cómo el cierre une los conceptos de escritura, título y contrato de lecciones anteriores.
+- Reconocer el cierre como el momento en que se transfiere formalmente la propiedad legal.
+
+## Contenido principal
+
+El cierre es el paso legal final de una transacción de bienes inmuebles, en el que la propiedad pasa formalmente del vendedor al comprador. Esta lección une casi todo lo visto hasta ahora en esta sección: se confirma que se cumplieron las condiciones del contrato de compraventa, un estudio de título final confirma que el título está limpio (o se resuelven los gravámenes encontrados), se firma la escritura y se prepara para su inscripción, se transfieren los fondos y la escritura se inscribe en los registros públicos, con lo que la nueva titularidad pasa a constar públicamente.
+
+En el cierre suelen participar varias partes además del comprador y el vendedor: a menudo una compañía de títulos o un abogado de cierre que facilita el proceso, un prestamista si hay financiación y, a veces, agentes inmobiliarios que representan a cada lado. La importancia legal del cierre es precisa: antes del cierre, el comprador en general tiene derechos contractuales, pero todavía no la propiedad; después del cierre y la inscripción, la propiedad legal se ha transferido de verdad. Entenderlo como un hito legal formal, y no como un simple trámite administrativo, refuerza por qué todas las lecciones anteriores de esta sección (contratos, escrituras, títulos, gravámenes) convergen en este único momento legalmente decisivo.
+
+*REGLA ESPECÍFICA DE LA REGIÓN:* En España, la compraventa suele firmarse en escritura pública ante notario, se pagan los impuestos correspondientes (por ejemplo, el Impuesto sobre Transmisiones Patrimoniales o el IVA según el caso) y la escritura se inscribe en el Registro de la Propiedad. Verifica los pasos y quién interviene en tu caso.
+
+## Ejemplo práctico
+
+**Pregunta:** Una compradora se pregunta exactamente cuándo se convierte legalmente en dueña de la propiedad que está comprando: ¿cuando firma el contrato o en otro momento?
+
+**Estudiante:** Según esta lección, no es al firmar el contrato: la propiedad legal se transfiere en el cierre, cuando se firma la escritura, se transfieren los fondos y se inscribe la escritura.
+
+**Guía:** Antes del cierre, si todavía no es dueña, ¿qué tiene la compradora?
+
+**Estudiante:** Derechos contractuales bajo el contrato de compraventa (el derecho a recibir la propiedad más adelante si todo sale según lo acordado), pero no la propiedad misma hasta que se haga realmente el cierre.
+
+**Guía:** Exacto: esa es la distinción legal precisa que hace esta lección.
+
+## Cuestionario práctico
+
+**Pregunta 1.** El cierre es:
+
+A) El momento en que se firma el contrato de compraventa
+B) El paso legal final en el que la propiedad se transfiere formalmente
+C) Algo irrelevante para las transacciones de bienes inmuebles
+D) Lo mismo que una inspección
+
+**Pregunta 2.** ¿Qué conceptos anteriores convergen en el cierre?
+
+A) Ninguna de las lecciones anteriores de esta sección
+B) Las condiciones, el título, la escritura y la cancelación de gravámenes
+C) Solo las consideraciones fiscales
+D) Solo el derecho de zonificación
+
+**Pregunta 3.** Antes del cierre, ¿qué tiene en general un comprador?
+
+A) La propiedad legal plena
+B) Derechos contractuales bajo el contrato de compraventa, pero todavía no la propiedad
+C) Nada con significado legal
+D) Los mismos derechos que después del cierre
+
+**Pregunta 4.** ¿Qué hace que la nueva titularidad conste públicamente?
+
+A) Firmar el contrato de compraventa
+B) Inscribir la escritura después del cierre
+C) Pagar el depósito de buena fe
+D) Programar una inspección
+
+## Clave de respuestas
+
+1. B, 2. B, 3. B, 4. B
+
+## Respuestas y explicaciones
+
+**1.** El cierre marca el momento legal preciso en que la propiedad pasa formalmente del vendedor al comprador.
+
+**2.** Esta lección reúne a propósito los hilos anteriores de la sección en un solo evento culminante.
+
+**3.** Los derechos contractuales y la propiedad real son legalmente distintos, y el cierre marca la transición entre ellos.
+
+**4.** Inscribir la escritura es específicamente lo que hace que el traspaso conste en el registro público.
+
+## Puntos clave
+
+- El cierre es el paso legal final en el que la propiedad de un inmueble se transfiere formalmente.
+- El cierre une las condiciones, el título, la escritura y la cancelación de gravámenes de lecciones anteriores.
+- Antes del cierre, un comprador tiene derechos contractuales, pero todavía no la propiedad real.
+- Inscribir la escritura después del cierre hace que la nueva titularidad conste en el registro público.
+
+===== PURPLE-L1-030
+TITLE: Fundamentos de la ejecución hipotecaria: el proceso legal cuando no se paga un préstamo
+SUMMARY: Presenta el proceso legal general de la ejecución hipotecaria, relevante tanto para los inversores que gestionan el riesgo de deuda como para quienes consideran comprar propiedades en dificultades.
+# Fundamentos de la ejecución hipotecaria: el proceso legal cuando no se paga un préstamo
+
+## Objetivos de aprendizaje
+
+- Definir la ejecución hipotecaria en términos sencillos.
+- Explicar a grandes rasgos el proceso legal general.
+- Reconocer la importancia de la ejecución hipotecaria tanto para deudores como para inversores.
+
+## Contenido principal
+
+La ejecución hipotecaria (foreclosure) es el proceso legal mediante el cual un prestamista hace valer su hipoteca (recuerda la lección de gravámenes) cuando un deudor no paga su préstamo, y que termina forzando la venta de la propiedad para cobrar la deuda pendiente. El proceso general, aunque los detalles varían mucho según la jurisdicción, suele incluir: un aviso formal de incumplimiento después de los pagos atrasados, un período de espera o de subsanación exigido por ley que le da al deudor la oportunidad de ponerse al día y, si el incumplimiento no se resuelve, una venta forzosa, ya sea mediante un proceso judicial (ejecución judicial) o mediante un proceso no judicial autorizado por los propios documentos de la hipoteca (ejecución extrajudicial), según la jurisdicción.
+
+Esto importa en los dos lados del mundo de la ruta RED. Para quien gestiona su propia deuda hipotecaria, entender este proceso, y en especial que suele haber un período de subsanación y no una pérdida inmediata de la propiedad al primer pago atrasado, importa directamente para gestionar el riesgo y saber qué opciones existen si surgen problemas económicos. Para un inversor que considera comprar propiedades en dificultades o relacionadas con una ejecución, entender el proceso legal, incluidos los derechos de redención que en algunas jurisdicciones pueden conservar los antiguos dueños incluso después de una venta, es esencial antes de suponer que comprar en una ejecución es tan sencillo como comprar cualquier otra propiedad.
+
+*REGLA ESPECÍFICA DE LA REGIÓN:* En España la ejecución hipotecaria puede seguir un procedimiento judicial regulado por la Ley de Enjuiciamiento Civil o, si se pactó, una venta extrajudicial ante notario, con plazos y requisitos propios. Busca asesoría antes de actuar.
+
+## Ejemplo práctico
+
+**Pregunta:** Una deudora atrasa un solo pago de la hipoteca y supone que ya perdió la propiedad para siempre. Según esta lección, ¿es correcta esa suposición?
+
+**Estudiante:** Según esta lección, probablemente no: la ejecución hipotecaria en general implica un aviso formal de incumplimiento y un período de subsanación exigido por ley, no una pérdida inmediata después de un solo pago atrasado.
+
+**Guía:** ¿Por qué importa en la práctica entender este período de subsanación para alguien con problemas económicos?
+
+**Estudiante:** Porque significa que suele haber un margen de tiempo real y opciones definidas para atender la situación antes de perder realmente la propiedad, en vez de dar por hecho que ya pasó lo peor.
+
+**Guía:** Exacto: entender el proceso real importa para gestionar el riesgo de verdad, no solo para sentir miedo.
+
+## Cuestionario práctico
+
+**Pregunta 1.** La ejecución hipotecaria es:
+
+A) Una venta voluntaria de la propiedad
+B) El proceso legal mediante el cual un prestamista hace valer su hipoteca después de un incumplimiento
+C) Un tipo de arrendamiento
+D) Algo irrelevante para la deuda hipotecaria
+
+**Pregunta 2.** El proceso general de ejecución hipotecaria suele incluir:
+
+A) La pérdida inmediata de la propiedad sin ningún aviso
+B) Un aviso formal de incumplimiento y un período de subsanación antes de cualquier venta forzosa
+C) Ningún proceso legal
+D) Solo un procedimiento ante un tribunal penal
+
+**Pregunta 3.** ¿Por qué importa entender el período de subsanación para un deudor con problemas económicos?
+
+A) No importa
+B) Revela un margen de tiempo real y opciones antes de perder realmente la propiedad
+C) Los períodos de subsanación en realidad no existen
+D) Esta información es irrelevante para gestionar el riesgo
+
+**Pregunta 4.** Según esta lección, ¿qué debe entender un inversor que considera comprar en una ejecución hipotecaria?
+
+A) Nada distinto de una compra normal
+B) El proceso legal, incluidos los posibles derechos de redención que pueden conservar los antiguos dueños
+C) Las compras en ejecución no tienen consideraciones especiales
+D) Los derechos de redención nunca se aplican en ninguna parte
+
+## Clave de respuestas
+
+1. B, 2. B, 3. B, 4. B
+
+## Respuestas y explicaciones
+
+**1.** La ejecución hipotecaria es, específicamente, el mecanismo para hacer valer una hipoteca impagada.
+
+**2.** Un proceso definido, con aviso y período de subsanación, es un rasgo estructural común, no un embargo inmediato.
+
+**3.** Entender esto apoya directamente la toma de decisiones informada, en lugar del pánico, durante una dificultad económica.
+
+**4.** Los derechos de redención y los detalles del proceso son justo el tipo de detalle que distingue una compra en ejecución de una compra común.
+
+## Puntos clave
+
+- La ejecución hipotecaria es el proceso legal para hacer valer una hipoteca después de un incumplimiento.
+- El proceso suele incluir un aviso de incumplimiento y un período de subsanación antes de cualquier venta forzosa.
+- Esto importa a los deudores que gestionan su riesgo y a los inversores que consideran compras de propiedades en dificultades.
+- Los detalles propios de cada jurisdicción, como los derechos de redención, importan mucho en las ejecuciones hipotecarias.
+
+===== PURPLE-L1-031
+TITLE: ¿Qué es legalmente un valor?
+SUMMARY: Abre la sección de derecho de inversiones y valores definiendo qué cuenta legalmente como un "valor", en conexión directa con el contenido de inversiones de WHITE.
+# ¿Qué es legalmente un valor?
+
+## Objetivos de aprendizaje
+
+- Definir un valor en términos legales.
+- Identificar ejemplos comunes de valores.
+- Explicar por qué la definición legal importa más allá de lo que se entiende por sentido común.
+
+## Contenido principal
+
+Esta lección abre la sección de derecho de inversiones de PURPLE y conecta directamente con WHITE. Un valor (security) es, en términos amplios, una categoría de inversión definida por la ley: un instrumento que representa una participación de propiedad, una relación de deuda o el derecho a ganancias que provienen del esfuerzo de otros. Los ejemplos comunes y evidentes son las acciones y los bonos, que se ven a fondo en WHITE. Pero la definición legal de valor es en realidad más amplia y matizada de lo que la mayoría supone: puede abarcar ciertos contratos de inversión, algunas formas de acuerdos de participación en las ganancias y otras estructuras que no se parecen en nada a un certificado de acciones tradicional.
+
+Esta definición legal más amplia importa porque el derecho de valores impone requisitos reales (registro, divulgación y otras protecciones para los inversores) que se aplican según si algo califica legalmente como valor, no según cómo se le llame de manera informal. Una oportunidad de inversión que se promociona como algo totalmente distinto (una "membresía", un "club de participación en las ganancias", un "acuerdo de reparto de ingresos") puede seguir siendo legalmente un valor si cumple la prueba legal, lo que significa que sigue sujeta a la regulación de valores sin importar la etiqueta con que se promocione. Entender esto prepara las próximas lecciones, que exploran por qué existe esta regulación y de qué busca proteger.
+
+*REGLA ESPECÍFICA DE LA REGIÓN:* La definición legal de valor y la autoridad que la aplica dependen de cada país. En EE. UU. interviene la SEC; en España, la Comisión Nacional del Mercado de Valores (CNMV). Las pruebas legales concretas pueden diferir.
+
+## Ejemplo práctico
+
+**Pregunta:** Un promotor ofrece una oportunidad de inversión como un "club de participación en las ganancias" y evita a propósito las palabras "valor" o "acciones". ¿Esa elección de nombre determina si se aplica realmente el derecho de valores?
+
+**Estudiante:** Según esta lección, no: la definición legal de valor depende de lo que el acuerdo es en realidad, no de cómo se llama, así que un "club de participación en las ganancias" podría seguir siendo legalmente un valor si cumple la prueba legal.
+
+**Guía:** ¿Por qué importaría esto a alguien que está considerando esa oportunidad de inversión?
+
+**Estudiante:** Porque si califica legalmente como valor, sigue sujeto a los requisitos de registro, divulgación y otras protecciones para los inversores, sin importar cómo se promocionó o se llamó.
+
+**Guía:** Exacto: la sustancia del acuerdo importa más que la etiqueta que se usa para describirlo.
+
+## Cuestionario práctico
+
+**Pregunta 1.** En términos amplios, un valor se define como:
+
+A) Solo las acciones y los bonos, nada más
+B) Un instrumento que representa propiedad, deuda o el derecho a ganancias del esfuerzo de otros
+C) Solo los activos físicos
+D) Un tipo de póliza de seguro
+
+**Pregunta 2.** Entre los ejemplos comunes y evidentes de valores están:
+
+A) Las escrituras de bienes inmuebles
+B) Las acciones y los bonos
+C) Los contratos de empleo
+D) Los permisos de zonificación
+
+**Pregunta 3.** ¿Una inversión promocionada con una etiqueta que no es "valor" puede seguir calificando legalmente como valor?
+
+A) No, la etiqueta siempre determina la situación legal
+B) Sí: la definición legal depende de la sustancia del acuerdo, no de la etiqueta que se use
+C) Solo si se le llama "acciones" de forma explícita
+D) La etiqueta no tiene ninguna relación con el derecho de valores
+
+**Pregunta 4.** ¿Por qué importa en la práctica la definición legal de "valor"?
+
+A) No tiene ninguna importancia práctica
+B) El derecho de valores impone requisitos reales (registro, divulgación, protecciones) según la calificación legal, no según la etiqueta de marketing
+C) Solo se regulan las acciones y los bonos
+D) Esta definición solo importa a los abogados, nunca a los inversores
+
+## Clave de respuestas
+
+1. B, 2. B, 3. B, 4. B
+
+## Respuestas y explicaciones
+
+**1.** Esta definición amplia está pensada para abarcar una gran variedad de acuerdos con forma de inversión, no solo los ejemplos evidentes.
+
+**2.** Las acciones y los bonos son los ejemplos más claros y conocidos, que se ven a fondo en otra parte de este currículo.
+
+**3.** Lo que activa la regulación de valores es la sustancia legal, no el lenguaje de marketing.
+
+**4.** Este alcance regulatorio es justamente lo que protege a los inversores de acuerdos diseñados para evadirlo con etiquetas ingeniosas.
+
+## Puntos clave
+
+- En términos amplios, un valor es cualquier instrumento que representa propiedad, deuda o derechos de participación en ganancias.
+- Las acciones y los bonos son los ejemplos más conocidos, pero la definición legal va más allá.
+- Cómo se le llame a algo no determina su situación legal: lo determina su sustancia real.
+- Esto prepara las próximas lecciones, que exploran por qué existe la regulación de valores y qué protege.
+
+===== PURPLE-L1-032
+TITLE: Por qué existe el derecho de valores: proteger a los inversores
+SUMMARY: Explica las razones históricas y prácticas de la regulación de valores y la presenta como una infraestructura de protección para los inversores, no como burocracia arbitraria.
+# Por qué existe el derecho de valores: proteger a los inversores
+
+## Objetivos de aprendizaje
+
+- Explicar la motivación histórica general del derecho de valores.
+- Identificar el problema central que atiende el derecho de valores.
+- Relacionar esto con la confianza y la participación en los mercados en general.
+
+## Contenido principal
+
+El derecho de valores no surgió de la nada: se desarrolló en gran parte como respuesta a problemas históricos reales, como inversores que perdían mucho dinero en esquemas de inversión fraudulentos o engañosos, a menudo porque no tenían una forma confiable de verificar la situación financiera real de una empresa ni la veracidad de lo que se les decía para atraer su dinero. El problema central que atiende el derecho de valores es la asimetría de información: la empresa o el promotor que ofrece una inversión casi siempre sabe mucho más sobre su verdadera situación y sus riesgos que el inversor al que se le pide que ponga su dinero.
+
+El derecho de valores atiende esta brecha principalmente mediante la divulgación obligatoria: exige que las empresas que ofrecen valores compartan públicamente información financiera y de riesgos específica y exacta, para que los inversores tengan una base real para evaluar una oportunidad en vez de depender solo de lo que dice un promotor. Esto conecta con algo que se vio en WHITE: los mercados funcionan mejor, y más personas están dispuestas a participar en ellos, cuando hay una confianza básica en que la información disponible es al menos razonablemente confiable. En este sentido, el derecho de valores es infraestructura para un mercado de inversión que funcione; sin él, lo razonable para cualquier inversor sería desconfiar por defecto de toda afirmación, y eso haría los mercados mucho menos útiles para todos.
+
+## Ejemplo práctico
+
+**Pregunta:** Alguien pregunta por qué existe la regulación de valores y argumenta que los inversores deberían simplemente investigar por su cuenta y aceptar el riesgo que eso implique. ¿Qué problema central identifica esta lección que ese argumento pasa por alto?
+
+**Estudiante:** Según esta lección, el problema central es la asimetría de información: a menudo los inversores no pueden acceder por su cuenta a la información real que necesitan para evaluar bien una oportunidad, por mucho que investiguen.
+
+**Guía:** ¿Por qué la divulgación obligatoria atiende este problema directamente?
+
+**Estudiante:** Porque exige que las empresas compartan públicamente información específica y exacta, lo que da a los inversores una base real para evaluar en vez de depender solo de afirmaciones no verificadas.
+
+**Guía:** Exacto: "investiga por tu cuenta" no funciona si la información necesaria para esa investigación no está disponible de forma confiable desde el principio.
+
+## Cuestionario práctico
+
+**Pregunta 1.** El derecho de valores se desarrolló en gran parte como respuesta a:
+
+A) Ningún problema histórico real
+B) Casos históricos reales de inversores que perdieron dinero en esquemas fraudulentos o engañosos
+C) El deseo de crear burocracia innecesaria
+D) Solo preocupaciones modernas de la era de internet
+
+**Pregunta 2.** El problema central que atiende el derecho de valores es:
+
+A) El exceso de información disponible
+B) La asimetría de información entre las empresas o promotores y los inversores
+C) La cautela excesiva de los inversores
+D) La falta de cualquier problema real
+
+**Pregunta 3.** El derecho de valores atiende este problema principalmente mediante:
+
+A) La prohibición de toda inversión
+B) La divulgación obligatoria de información financiera y de riesgos específica y exacta
+C) La eliminación de todo riesgo de inversión
+D) Exigir que los inversores no tengan ninguna información
+
+**Pregunta 4.** ¿Cómo relaciona esta lección el derecho de valores con el funcionamiento más amplio de los mercados, según WHITE?
+
+A) No hay ninguna relación
+B) La confianza básica en la información disponible es lo que hace que la gente esté dispuesta a participar en los mercados
+C) Los mercados funcionan mejor sin ninguna regulación
+D) Esta lección no tiene relación con WHITE
+
+## Clave de respuestas
+
+1. B, 2. B, 3. B, 4. B
+
+## Respuestas y explicaciones
+
+**1.** El fraude y el engaño históricos se citan de forma explícita como la motivación práctica de esta área del derecho.
+
+**2.** La asimetría de información, el desequilibrio entre lo que saben las empresas y lo que pueden verificar los inversores, es el problema preciso que se identifica.
+
+**3.** La divulgación obligatoria ataca directamente la brecha de información, al exigir que las empresas compartan lo que los inversores necesitan para evaluar el riesgo.
+
+**4.** Esto vincula la regulación de valores con el tema más amplio de la confianza como infraestructura de los mercados que funcionan, visto en WHITE.
+
+## Puntos clave
+
+- El derecho de valores se desarrolló como respuesta a daños históricos reales a inversores por fraude y engaño.
+- El problema central es la asimetría de información entre las empresas y los inversores.
+- La divulgación obligatoria es la herramienta principal que usa el derecho de valores para cerrar esa brecha.
+- Esta regulación funciona como una infraestructura de confianza que hace posible una participación más amplia en los mercados.

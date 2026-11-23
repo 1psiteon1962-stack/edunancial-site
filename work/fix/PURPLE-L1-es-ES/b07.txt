@@ -1,0 +1,325 @@
+===== PURPLE-L1-025
+TITLE: Derecho de arrendadores e inquilinos: derechos y obligaciones básicas
+SUMMARY: Presenta el marco legal básico que rige la relación entre arrendador e inquilino, relevante para los dueños de propiedades de alquiler de la ruta RED.
+# Derecho de arrendadores e inquilinos: derechos y obligaciones básicas
+
+## Objetivos de aprendizaje
+
+- Identificar las obligaciones generales del arrendador.
+- Identificar las obligaciones y protecciones generales del inquilino.
+- Reconocer que los detalles varían mucho según la jurisdicción.
+
+## Contenido principal
+
+El derecho de arrendadores e inquilinos rige la relación legal que crea un contrato de arrendamiento: una transferencia temporal del derecho a poseer y usar una propiedad (recuerda la lección del conjunto de derechos) a cambio de un alquiler. En general, los arrendadores tienen obligaciones que suelen incluir: mantener la propiedad en condiciones habitables, seguir los procedimientos legales adecuados para un desalojo en vez de "hacer justicia por su cuenta" (como cambiar las cerraduras o sacar las pertenencias del inquilino) y respetar los derechos de privacidad del inquilino, avisando antes de entrar. Los inquilinos, en general, tienen obligaciones como pagar el alquiler según lo acordado, no causar daños más allá del desgaste normal y cumplir los términos del contrato.
+
+Esta área del derecho depende mucho de la jurisdicción, con diferencias reales en las protecciones para inquilinos, las reglas del depósito de seguridad, los requisitos de aviso y los procedimientos de desalojo entre distintos estados, ciudades y países. Para un arrendador de la ruta RED, esto no es un conocimiento de fondo opcional: gestionar mal un desalojo, retener ilegalmente un depósito de seguridad o no mantener la habitabilidad puede crear una responsabilidad legal real, a veces con sanciones que van mucho más allá de devolver lo que se retuvo indebidamente. Es un ejemplo claro y práctico de por qué el conocimiento legal local importa específicamente a los inversores que operan propiedades de alquiler, y no solo una comprensión general a nivel nacional.
+
+## Ejemplo práctico
+
+**Pregunta:** Un arrendador, frustrado con un inquilino que no paga, cambia las cerraduras y saca las pertenencias del inquilino sin pasar por ningún proceso legal formal. ¿Qué problema ilustra esto?
+
+**Estudiante:** Según esta lección, es justo el tipo de "justicia por cuenta propia" contra el que advierte esta lección: en general, los arrendadores tienen que seguir los procedimientos legales de desalojo adecuados, no tomar el asunto en sus propias manos.
+
+**Guía:** ¿Qué riesgo real crea esto para el arrendador, aunque el inquilino de verdad no estuviera pagando el alquiler?
+
+**Estudiante:** El propio arrendador podría enfrentar una responsabilidad legal real, incluso con sanciones, a pesar de tener una queja legítima por el alquiler impagado.
+
+**Guía:** Exacto: tener una queja válida no justifica usar un proceso legal indebido para resolverla.
+
+## Cuestionario práctico
+
+**Pregunta 1.** El derecho de arrendadores e inquilinos rige:
+
+A) La relación que crea un contrato de arrendamiento
+B) Solo los bienes inmuebles comerciales
+C) Solo las ventas de propiedades
+D) Nada relacionado con los bienes inmuebles
+
+**Pregunta 2.** Una obligación común del arrendador es:
+
+A) Cambiar las cerraduras para sacar de inmediato a los inquilinos que no pagan
+B) Mantener la propiedad en condiciones habitables y seguir los procedimientos de desalojo adecuados
+C) Los arrendadores no tienen ninguna obligación
+D) Ignorar por completo la privacidad del inquilino
+
+**Pregunta 3.** ¿Por qué se describe esta área del derecho como muy dependiente de la jurisdicción?
+
+A) No lo es: las reglas son idénticas en todas partes
+B) Las protecciones para inquilinos, las reglas de depósito y los procedimientos de desalojo varían mucho según el lugar
+C) Solo las grandes ciudades tienen leyes de arrendamiento
+D) Esta lección no afirma nada de eso
+
+**Pregunta 4.** ¿Qué riesgo real enfrenta un arrendador por desalojar indebidamente a un inquilino, aunque de verdad no esté pagando?
+
+A) Ningún riesgo, porque el inquilino estaba en falta
+B) Una responsabilidad legal real, a veces con sanciones que van más allá de la disputa original
+C) Que se desestime automáticamente cualquier reclamación del inquilino
+D) Esta situación no tiene ninguna importancia legal
+
+## Clave de respuestas
+
+1. A, 2. B, 3. B, 4. B
+
+## Respuestas y explicaciones
+
+**1.** Toda esta área del derecho existe específicamente para regular la relación entre arrendador e inquilino basada en el arrendamiento.
+
+**2.** La habitabilidad y el proceso legal adecuado se mencionan comúnmente como obligaciones centrales del arrendador en muchas jurisdicciones.
+
+**3.** La variación real e importante entre jurisdicciones se destaca de forma explícita como un rasgo que define esta área del derecho.
+
+**4.** Un proceso indebido, aun con una queja legítima de fondo, es justo el tipo de error que crea una responsabilidad real para el arrendador.
+
+## Puntos clave
+
+- El derecho de arrendadores e inquilinos rige la relación de arrendamiento, con obligaciones para ambas partes.
+- En general, los arrendadores deben mantener la habitabilidad y seguir los procedimientos legales de desalojo adecuados.
+- Esta área del derecho varía mucho según la jurisdicción: el conocimiento local importa.
+- Hacer "justicia por cuenta propia", incluso contra un inquilino que de verdad no paga, crea una responsabilidad real para el arrendador.
+
+===== PURPLE-L1-026
+TITLE: Derecho de zonificación: lo que puedes y no puedes hacer con una propiedad
+SUMMARY: Presenta el derecho de zonificación como una restricción impuesta por el gobierno sobre el uso de la propiedad, relevante tanto para el uso actual como para los planes de desarrollo futuros en RED.
+# Derecho de zonificación: lo que puedes y no puedes hacer con una propiedad
+
+## Objetivos de aprendizaje
+
+- Definir la zonificación en términos sencillos.
+- Explicar el propósito general de las normas de zonificación.
+- Reconocer por qué la zonificación importa tanto para el uso actual como para los planes de desarrollo.
+
+## Contenido principal
+
+La zonificación es la regulación del gobierno local que divide el terreno en categorías designadas (residencial, comercial, industrial, de uso mixto, etc.) que restringen lo que se puede construir u operar legalmente en una propiedad determinada. Es una limitación impuesta por el gobierno sobre el concepto del conjunto de derechos visto antes: ni siquiera ser dueño absoluto de una propiedad incluye el derecho ilimitado a usar el terreno como el dueño quiera, porque el derecho de zonificación limita lo que realmente está permitido.
+
+La zonificación importa de dos maneras prácticas distintas para los inversores de la ruta RED. Primero, para el uso actual: una propiedad con zonificación residencial en general no puede usarse legalmente para operar un negocio de manufactura, sin importar lo que prefiera el dueño. Segundo, y a menudo se pasa por alto, para los planes de desarrollo futuros: un inversor que planea remodelar, ampliar o cambiar el uso de una propiedad necesita confirmar que el plan está realmente permitido por la zonificación vigente, o tramitar una variación (una excepción específica, a veces difícil de obtener) si no lo está. Una propiedad que parece perfecta en papel puede convertirse en un problema costoso si su uso previsto no coincide con su clasificación de zonificación real, y por eso verificar la zonificación debe hacerse temprano en la debida diligencia, no descubrirse como un problema después de comprar.
+
+*REGLA ESPECÍFICA DE LA REGIÓN:* En España, los usos del suelo los fijan principalmente el planeamiento urbanístico municipal (como el plan general) y la normativa de cada comunidad autónoma, y las obras y cambios de uso suelen requerir licencia municipal. Verifica la calificación urbanística del inmueble en el ayuntamiento.
+
+## Ejemplo práctico
+
+**Pregunta:** Un inversor compra una propiedad con zonificación residencial con la idea de convertirla en una pequeña tienda, sin revisar antes las reglas de zonificación. ¿Qué riesgo ilustra esto?
+
+**Estudiante:** Según esta lección, la zonificación de la propiedad podría no permitir el uso comercial, lo que significaría que el plan del inversor no está permitido legalmente sin tramitar una variación, si es que se puede obtener.
+
+**Guía:** Según esta lección, ¿cuándo debió hacerse este tipo de verificación?
+
+**Estudiante:** Temprano en la debida diligencia, antes de la compra, en vez de descubrirlo después como un problema costoso.
+
+**Guía:** Exacto: verificar la zonificación va al principio del proceso, no como algo que se deja para después.
+
+## Cuestionario práctico
+
+**Pregunta 1.** La zonificación es:
+
+A) Una regla fiscal federal
+B) La regulación del gobierno local que restringe lo que se puede construir u operar en un terreno
+C) Un tipo de escritura
+D) Algo irrelevante para el uso de la propiedad
+
+**Pregunta 2.** La zonificación representa una limitación sobre:
+
+A) Nada relacionado con la propiedad
+B) El concepto del conjunto de derechos: ni siquiera ser dueño incluye derechos de uso ilimitados
+C) Solo las propiedades de alquiler
+D) Solo las propiedades comerciales
+
+**Pregunta 3.** ¿De qué dos maneras importa la zonificación para los inversores de la ruta RED?
+
+A) Solo para el uso actual, nunca para los planes futuros
+B) Para el uso legal actual y para los planes futuros de desarrollo o cambio de uso
+C) Ni para el uso actual ni para los planes futuros
+D) Solo para el tratamiento fiscal
+
+**Pregunta 4.** ¿Cuándo debería hacerse idealmente la verificación de zonificación?
+
+A) Después de comprar, cuando surja un problema
+B) Temprano en la debida diligencia, antes de comprar
+C) La verificación de zonificación nunca es necesaria
+D) Solo después de empezar la construcción
+
+## Clave de respuestas
+
+1. B, 2. B, 3. B, 4. B
+
+## Respuestas y explicaciones
+
+**1.** La zonificación es, específicamente, una herramienta del gobierno para regular las categorías de uso permitido del suelo.
+
+**2.** Esto limita directamente los derechos de uso, que de otro modo son amplios, dentro del conjunto de derechos de la propiedad.
+
+**3.** Ambas dimensiones, lo que se permite ahora y lo que se permite para planes futuros, tienen un peso práctico real para los inversores.
+
+**4.** Hacer esta verificación al principio evita la sorpresa costosa de una compra inutilizable o restringida.
+
+## Puntos clave
+
+- La zonificación es la regulación del gobierno local que restringe el uso permitido del suelo.
+- La zonificación limita incluso los derechos de uso de un dueño absoluto, según el concepto del conjunto de derechos.
+- La zonificación importa tanto para el uso legal actual como para los planes futuros de desarrollo o cambio de uso.
+- La verificación de zonificación va temprano en la debida diligencia, no se descubre como un problema después de comprar.
+
+===== PURPLE-L1-027
+TITLE: Servidumbres: cuando otra persona tiene un derecho legal sobre tu terreno
+SUMMARY: Explica el concepto de servidumbre como un derecho específico y limitado que se concede a un tercero sobre la propiedad de otra persona, a partir del marco del conjunto de derechos.
+# Servidumbres: cuando otra persona tiene un derecho legal sobre tu terreno
+
+## Objetivos de aprendizaje
+
+- Definir una servidumbre.
+- Identificar los tipos y propósitos comunes de las servidumbres.
+- Relacionar las servidumbres directamente con el concepto del conjunto de derechos.
+
+## Contenido principal
+
+Una servidumbre es un derecho legal que permite a una persona específica usar una parte de la propiedad de otra para un propósito específico y limitado, sin transferir la propiedad. Es una aplicación directa y concreta del concepto del conjunto de derechos: una servidumbre separa una pequeña parte del derecho de exclusión del dueño y se la concede a otra persona, mientras el dueño conserva todo lo demás del conjunto.
+
+Entre los ejemplos comunes están la servidumbre de servicios públicos (que permite a una compañía de servicios entrar para instalar y mantener líneas eléctricas o tuberías a través de una propiedad) y la servidumbre de paso (que permite a un vecino cruzar una propiedad para llegar a la suya cuando no hay otra vía de acceso razonable). Las servidumbres suelen "acompañar al terreno": es decir, siguen vigentes aunque la propiedad se venda a un nuevo dueño, y por eso aparecen en un estudio de título e importan en la debida diligencia del comprador. Un comprador que no sabe que existe una servidumbre importante sobre una propiedad podría llevarse la sorpresa de no poder usar parte de "su" terreno como esperaba, a pesar de ser dueño pleno en todo lo demás.
+
+*REGLA ESPECÍFICA DE LA REGIÓN:* Las servidumbres también existen en el derecho español, reguladas por el Código Civil, y suelen constar en el Registro de la Propiedad. Las reglas concretas sobre cómo se crean y se extinguen pueden variar.
+
+## Ejemplo práctico
+
+**Pregunta:** Un comprador adquiere una propiedad sin revisar si existen servidumbres y luego descubre que una compañía de servicios tiene el derecho legal de entrar a una parte del patio cuando lo necesite. ¿Por qué ser dueño pleno no lo evitó?
+
+**Estudiante:** Según esta lección, una servidumbre separa un derecho específico del conjunto que forma la propiedad y se lo concede a otra persona, mientras el comprador sigue teniendo todo lo demás del conjunto.
+
+**Guía:** ¿Por qué esta servidumbre sigue aplicándose aunque la propiedad se vendió a un nuevo dueño?
+
+**Estudiante:** Porque las servidumbres suelen "acompañar al terreno": siguen vigentes a través de una venta en vez de desaparecer cuando cambia el dueño.
+
+**Guía:** Exacto, y por eso revisar si hay servidumbres durante la debida diligencia, junto con el estudio de título, importa tanto.
+
+## Cuestionario práctico
+
+**Pregunta 1.** Una servidumbre es:
+
+A) Una transferencia completa de la propiedad
+B) Un derecho legal que permite a una persona específica usar parte de la propiedad de otra para un propósito limitado
+C) Un tipo de gravamen
+D) Algo irrelevante para el derecho de la propiedad
+
+**Pregunta 2.** Una servidumbre de servicios públicos suele permitir:
+
+A) Que una compañía de servicios entre y dé mantenimiento a líneas o tuberías que cruzan una propiedad
+B) Que el dueño venda la propiedad libremente
+C) Nada relacionado con el acceso a la propiedad
+D) Solo el uso residencial de la propiedad
+
+**Pregunta 3.** ¿Las servidumbres suelen pasar a un nuevo dueño cuando se vende una propiedad?
+
+A) No, desaparecen con la venta
+B) Sí: las servidumbres suelen "acompañar al terreno"
+C) Solo si el nuevo dueño lo acepta de forma explícita
+D) Las servidumbres nunca son relevantes en una venta
+
+**Pregunta 4.** ¿Cómo relaciona esta lección las servidumbres con el concepto del conjunto de derechos?
+
+A) No hay ninguna relación
+B) Una servidumbre separa un derecho específico (como el de exclusión) del conjunto y se lo concede a otra persona
+C) Las servidumbres transfieren todo el conjunto de derechos
+D) Las servidumbres no tienen relación con ningún marco de derechos
+
+## Clave de respuestas
+
+1. B, 2. A, 3. B, 4. B
+
+## Respuestas y explicaciones
+
+**1.** Una servidumbre concede derechos de uso específicos y limitados sin transferir la propiedad de fondo.
+
+**2.** Las servidumbres de servicios públicos son un ejemplo clásico y ampliamente reconocido de este tipo de derecho de acceso limitado.
+
+**3.** Seguir vigente a través de una venta ("acompañar al terreno") es una característica que define a la mayoría de las servidumbres.
+
+**4.** Esta lección presenta de forma explícita las servidumbres como una aplicación directa y concreta del concepto anterior del conjunto de derechos.
+
+## Puntos clave
+
+- Una servidumbre concede un derecho específico y limitado a usar parte de una propiedad, sin transferir la propiedad.
+- Las servidumbres de servicios públicos y de paso son ejemplos comunes.
+- Las servidumbres suelen "acompañar al terreno" y siguen vigentes a través de las ventas de la propiedad.
+- Es una aplicación directa y práctica del concepto del conjunto de derechos visto antes en esta sección.
+
+===== PURPLE-L1-028
+TITLE: Contratos de bienes inmuebles: el contrato de compraventa explicado
+SUMMARY: Aplica las lecciones generales de contratos específicamente a los contratos de compraventa de bienes inmuebles y repasa los términos clave propios de este tipo de transacción.
+# Contratos de bienes inmuebles: el contrato de compraventa explicado
+
+## Objetivos de aprendizaje
+
+- Aplicar el marco general de los contratos específicamente a un contrato de compraventa de bienes inmuebles.
+- Identificar los términos clave propios de los contratos de compraventa de bienes inmuebles.
+- Reconocer las condiciones comunes y su propósito.
+
+## Contenido principal
+
+Un contrato de compraventa de bienes inmuebles es una aplicación directa de los principios de contratos vistos antes en esta ruta: contiene una oferta (el precio y los términos propuestos), una aceptación (el acuerdo del vendedor con esos términos) y una contraprestación (el intercambio de dinero por la propiedad). Además de la estructura general del contrato, los contratos de compraventa de bienes inmuebles suelen incluir varios términos propios de este tipo de transacción que vale la pena entender.
+
+Las **condiciones** (contingencies) son requisitos que deben cumplirse para que el negocio siga adelante: una condición de financiación (el negocio se cae si el comprador no consigue un préstamo), una condición de inspección (el comprador puede retirarse o renegociar según lo que revele la inspección) y una condición de tasación (que protege al comprador si la propiedad se tasa por menos del precio acordado). El **depósito de buena fe** (earnest money) es un depósito que demuestra buena fe, que normalmente guarda un tercero neutral y que se aplica al precio de compra en el cierre, o que se pierde en ciertas circunstancias si el comprador se retira sin un motivo válido amparado en una condición. Entender estos mecanismos específicos, y no solo los conceptos generales de contratos de lecciones anteriores, es lo que convierte la alfabetización contractual en alfabetización específica sobre contratos de bienes inmuebles.
+
+*REGLA ESPECÍFICA DE LA REGIÓN:* En España se usan figuras parecidas, como el contrato de arras: con las arras penitenciales, si el comprador desiste las pierde y si desiste el vendedor debe devolverlas duplicadas (artículo 1454 del Código Civil). El efecto concreto depende de lo pactado; haz revisar estos términos por un profesional.
+
+## Ejemplo práctico
+
+**Pregunta:** Un comprador firma un contrato de compraventa con una condición de financiación y luego no logra conseguir un préstamo. ¿Qué le permite hacer en general esta condición?
+
+**Estudiante:** Según esta lección, una condición de financiación en general significa que el negocio se cae, es decir, que el comprador puede retirarse, si no consigue financiación, en vez de verse obligado a completar la compra o a perder su depósito de buena fe.
+
+**Guía:** ¿Cómo se compara esto con un comprador que se retira sin ningún motivo válido amparado en una condición?
+
+**Estudiante:** Sin una condición válida, retirarse arriesga perder el depósito de buena fe, porque no hay un motivo protegido para abandonar el negocio.
+
+**Guía:** Exacto: las condiciones son específicamente lo que crea una forma protegida de salir del negocio en circunstancias definidas.
+
+## Cuestionario práctico
+
+**Pregunta 1.** ¿Qué elementos generales de un contrato contiene un contrato de compraventa de bienes inmuebles?
+
+A) Ninguno de los elementos vistos antes
+B) Oferta, aceptación y contraprestación, aplicadas a una transacción de propiedad
+C) Solo una firma, nada más
+D) Elementos sin relación con el derecho de contratos
+
+**Pregunta 2.** En general, una condición de financiación protege al comprador porque:
+
+A) Le garantiza que le aprobarán el préstamo
+B) Le permite retirarse si no consigue financiación
+C) Le exige pagar en efectivo, con o sin financiación
+D) No cumple ninguna función protectora real
+
+**Pregunta 3.** El depósito de buena fe es:
+
+A) El precio de compra completo pagado por adelantado
+B) Un depósito de buena fe que normalmente se aplica al precio de compra o se pierde en ciertas condiciones
+C) Un tipo de seguro
+D) Algo irrelevante para los contratos de bienes inmuebles
+
+**Pregunta 4.** ¿Qué pasa si un comprador se retira sin un motivo válido amparado en una condición?
+
+A) Nada: el depósito de buena fe siempre se devuelve completo
+B) Se arriesga a perder el depósito de buena fe
+C) En su lugar, se penaliza automáticamente al vendedor
+D) El contrato se anula automáticamente sin ninguna consecuencia
+
+## Clave de respuestas
+
+1. B, 2. B, 3. B, 4. B
+
+## Respuestas y explicaciones
+
+**1.** Es una aplicación directa y concreta del marco de oferta, aceptación y contraprestación a un tipo de transacción específico.
+
+**2.** Las condiciones de financiación protegen específicamente a los compradores de verse obligados a completar una compra que no pueden financiar.
+
+**3.** El depósito de buena fe funciona como un compromiso de buena fe, con reglas definidas sobre su aplicación o su pérdida.
+
+**4.** No tener un motivo válido amparado en una condición es justo el caso en que el riesgo de perder el depósito se vuelve real.
+
+## Puntos clave
+
+- Un contrato de compraventa de bienes inmuebles aplica el marco general de oferta, aceptación y contraprestación.
+- Las condiciones (de financiación, inspección y tasación) crean supuestos protegidos para retirarse de un negocio.
+- El depósito de buena fe se aplica en el cierre o puede perderse.
+- Entender estos mecanismos específicos es lo que hace que la alfabetización contractual se aplique en concreto a los bienes inmuebles.

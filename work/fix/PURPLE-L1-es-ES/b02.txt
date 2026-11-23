@@ -1,0 +1,325 @@
+===== PURPLE-L1-005
+TITLE: Contratos escritos y verbales: por qué importa "ponerlo por escrito"
+SUMMARY: Explica las razones prácticas y legales por las que se prefieren claramente los contratos escritos, con una breve introducción al concepto de la Ley de Fraudes (Statute of Frauds).
+# Contratos escritos y verbales: por qué importa "ponerlo por escrito"
+
+## Objetivos de aprendizaje
+
+- Explicar la diferencia general de exigibilidad entre los contratos escritos y los verbales.
+- Identificar los riesgos prácticos de depender de un acuerdo verbal.
+- Introducir la idea de que la ley exige que ciertos tipos de contrato consten por escrito.
+
+## Contenido principal
+
+Muchos acuerdos verbales pueden ser técnicamente obligatorios, pero probar qué se acordó en realidad se vuelve un problema práctico serio si las partes luego no coinciden sobre los términos. Un contrato escrito crea un registro claro y compartido: términos exactos, precio exacto y condiciones exactas, firmados por ambas partes. Un acuerdo verbal depende por completo de la memoria y la honestidad, que suelen fallar justo cuando más importan: cuando surge una disputa y hay dinero en juego.
+
+Además del riesgo práctico, muchos sistemas legales tienen una regla, a menudo llamada Ley de Fraudes (Statute of Frauds), que exige que ciertos tipos de acuerdos (entre ellos, por lo común, las transacciones de bienes inmuebles) consten por escrito para poder exigirse, por claro que pareciera el acuerdo verbal en su momento. Es uno de los consejos legales prácticos más claros y universales en RED, WHITE y BLUE: ponlo por escrito, siempre, aunque confíes por completo en la otra parte, porque la confianza no crea un registro en el que un tribunal pueda apoyarse después.
+
+*REGLA ESPECÍFICA DE LA REGIÓN:* El Statute of Frauds es una figura del common law. En España rige en general la libertad de forma, pero ciertos actos (como la constitución o transmisión de derechos reales sobre inmuebles) deben constar en documento público, y para inscribir una compraventa en el Registro de la Propiedad se necesita escritura pública ante notario. Verifícalo con un abogado.
+
+## Ejemplo práctico
+
+**Pregunta:** Dos socios acuerdan de palabra repartir las ganancias 60/40, se dan la mano y nunca lo ponen por escrito. Un año después, no se ponen de acuerdo sobre el reparto. ¿Qué problema ilustra esto?
+
+**Estudiante:** Según esta lección, sin un registro escrito, es básicamente la palabra de uno contra la del otro sobre lo que se acordó.
+
+**Guía:** ¿Por qué la confianza entre los socios no resuelve este problema?
+
+**Estudiante:** Porque la confianza no crea pruebas: un tribunal que resuelva la disputa necesita algo más confiable que el recuerdo que cada socio tiene de una conversación.
+
+**Guía:** Exacto: por eso "ponerlo por escrito" se aplica incluso con personas en las que confías por completo.
+
+## Cuestionario práctico
+
+**Pregunta 1.** Los acuerdos verbales:
+
+A) Nunca son obligatorios bajo ninguna circunstancia
+B) A veces son técnicamente obligatorios, pero en la práctica son difíciles de probar
+C) Siempre son más seguros que los contratos escritos
+D) Son irrelevantes para el derecho de contratos
+
+**Pregunta 2.** La principal ventaja práctica de un contrato escrito es que:
+
+A) Se ve más oficial
+B) Crea un registro claro y compartido de los términos exactos
+C) Siempre lo exige la ley
+D) No tiene ninguna ventaja sobre los acuerdos verbales
+
+**Pregunta 3.** La Ley de Fraudes exige en general que ciertos acuerdos, como las operaciones de bienes inmuebles:
+
+A) Solo se notaricen
+B) Consten por escrito para poder exigirse
+C) Sean verbales por sencillez
+D) Tengan a un juez como testigo
+
+**Pregunta 4.** ¿Por qué "ponerlo por escrito" se aplica incluso entre partes que confían entre sí?
+
+A) La confianza garantiza que nunca habrá disputas
+B) La confianza no crea un registro confiable si más adelante surge una disputa
+C) Los contratos escritos son solo para extraños
+D) Este consejo no se aplica a las relaciones de confianza
+
+## Clave de respuestas
+
+1. B, 2. B, 3. B, 4. B
+
+## Respuestas y explicaciones
+
+**1.** Los acuerdos verbales no son automáticamente inexigibles, pero probar luego sus términos exactos es una debilidad práctica real.
+
+**2.** Un registro escrito elimina la ambigüedad sobre lo que se acordó, y eso importa sobre todo justo cuando surge una disputa.
+
+**3.** Según las reglas de muchos sistemas legales, ciertos tipos de transacción deben documentarse obligatoriamente por escrito.
+
+**4.** Ni siquiera una gran confianza entre las partes produce el tipo de prueba que un tribunal necesita para resolver un desacuerdo posterior.
+
+## Puntos clave
+
+- Los acuerdos verbales pueden ser técnicamente obligatorios, pero son difíciles de probar si hay disputa.
+- Los contratos escritos crean un registro claro y confiable de los términos exactos.
+- Ciertos tipos de transacción, como los de bienes inmuebles, a menudo deben constar por escrito por ley.
+- "Ponerlo por escrito" se aplica siempre, incluso entre partes que confían entre sí.
+
+===== PURPLE-L1-006
+TITLE: Incumplimiento de contrato: qué pasa cuando alguien no cumple
+SUMMARY: Presenta el concepto de incumplimiento de contrato y las categorías generales de remedios disponibles cuando una de las partes no cumple con lo que le toca.
+# Incumplimiento de contrato: qué pasa cuando alguien no cumple
+
+## Objetivos de aprendizaje
+
+- Definir el incumplimiento de contrato.
+- Identificar las categorías generales de remedios ante un incumplimiento.
+- Reconocer el incumplimiento como un riesgo de negocio previsible, no como un hecho inusual.
+
+## Contenido principal
+
+Hay incumplimiento de contrato cuando una de las partes no cumple sus obligaciones bajo un acuerdo exigible: no hace un pago, no entrega una propiedad o no completa el trabajo acordado. Cuando ocurre un incumplimiento, la parte que sí cumplió suele tener remedios legales a su disposición, aunque las opciones concretas dependen del contrato y de la jurisdicción.
+
+Las categorías comunes de remedios incluyen: los daños y perjuicios en dinero (una compensación por la pérdida económica causada por el incumplimiento), el cumplimiento específico (una orden judicial que obliga a la parte incumplidora a hacer realmente lo que prometió, más común en bienes inmuebles, donde la propiedad misma es única) y la terminación del contrato (que libera a la parte cumplidora de sus propias obligaciones pendientes). Entender que el incumplimiento es un riesgo previsible y que se puede planificar, y no una catástrofe inusual, es parte de una alfabetización contractual madura: los contratos bien redactados suelen indicar de antemano qué pasa si cualquiera de las partes incumple, y por eso revisar el contrato con cuidado importa antes de firmar, no solo después de que algo sale mal.
+
+*REGLA ESPECÍFICA DE LA REGIÓN:* En España, el artículo 1124 del Código Civil permite a la parte perjudicada exigir el cumplimiento o la resolución del contrato, con indemnización de daños y perjuicios en ambos casos. Los nombres y requisitos pueden diferir de los del common law de EE. UU.
+
+## Ejemplo práctico
+
+**Pregunta:** Un comprador firma un contrato para comprar una propiedad específica y luego el vendedor se echa para atrás y se la vende a otra persona. Como la propiedad es única, ¿qué remedio podría ser especialmente relevante?
+
+**Estudiante:** Según esta lección, el cumplimiento específico podría ser relevante, ya que un tribunal podría ordenar que se complete la venta en lugar de solo conceder dinero.
+
+**Guía:** ¿Por qué el cumplimiento específico tendría más sentido para una propiedad única que, por ejemplo, para un producto genérico?
+
+**Estudiante:** Porque la propiedad es única: el dinero por sí solo podría no reemplazar lo que el comprador quería específicamente, a diferencia de un producto genérico que podría volver a comprarse en otro lugar.
+
+**Guía:** Exacto: por eso el cumplimiento específico aparece con especial frecuencia en las disputas sobre contratos de bienes inmuebles.
+
+## Cuestionario práctico
+
+**Pregunta 1.** Hay incumplimiento de contrato cuando:
+
+A) Ambas partes acuerdan cancelar el negocio
+B) Una parte no cumple sus obligaciones bajo el acuerdo
+C) Se firma un contrato
+D) Nunca se llegó a un acuerdo
+
+**Pregunta 2.** Los daños y perjuicios en dinero son:
+
+A) Un remedio que nunca está disponible
+B) Una compensación por la pérdida económica causada por un incumplimiento
+C) Algo que solo importa en casos penales
+D) Lo mismo que el cumplimiento específico
+
+**Pregunta 3.** El cumplimiento específico es:
+
+A) Una orden judicial que obliga a completar lo prometido
+B) Siempre lo mismo que los daños y perjuicios en dinero
+C) Algo que nunca se usa en bienes inmuebles
+D) Algo irrelevante para el derecho de contratos
+
+**Pregunta 4.** ¿Por qué se describe el incumplimiento como un "riesgo previsible y que se puede planificar" y no como una catástrofe inusual?
+
+A) El incumplimiento nunca ocurre en realidad
+B) Los contratos bien redactados suelen indicar de antemano qué pasa si cualquiera de las partes incumple
+C) Los contratos nunca abordan esta posibilidad
+D) Esta forma de verlo no es correcta
+
+## Clave de respuestas
+
+1. B, 2. B, 3. A, 4. B
+
+## Respuestas y explicaciones
+
+**1.** El incumplimiento es, específicamente, no cumplir obligaciones que se acordaron legalmente.
+
+**2.** Los daños y perjuicios buscan dejar a la parte cumplidora económicamente como si no hubiera sufrido la pérdida.
+
+**3.** El cumplimiento específico es especialmente relevante cuando el objeto del contrato, como una propiedad única, no puede reemplazarse simplemente con dinero.
+
+**4.** Los contratos maduros anticipan el incumplimiento y fijan sus consecuencias de antemano, tratándolo como una posibilidad real que hay que planificar.
+
+## Puntos clave
+
+- Hay incumplimiento cuando una parte no cumple sus obligaciones contractuales.
+- Los remedios incluyen los daños y perjuicios en dinero, el cumplimiento específico y la terminación del contrato.
+- El cumplimiento específico es especialmente relevante para bienes únicos, como los inmuebles.
+- El incumplimiento es un riesgo previsible que los contratos bien redactados planifican de antemano.
+
+===== PURPLE-L1-007
+TITLE: Cómo leer un contrato: una guía práctica
+SUMMARY: Ofrece un marco práctico para abordar un contrato desconocido y reducir la intimidación dividiéndolo en secciones manejables.
+# Cómo leer un contrato: una guía práctica
+
+## Objetivos de aprendizaje
+
+- Identificar las secciones comunes de la mayoría de los contratos.
+- Aplicar un método práctico, paso a paso, para leer un contrato desconocido.
+- Reconocer qué secciones merecen la atención más cuidadosa.
+
+## Contenido principal
+
+La mayoría de los contratos, por largos e intimidantes que sean, comparten una estructura general común: las partes (quiénes participan), los considerandos (el contexto, que a menudo empieza con "por cuanto" o "considerando"), los términos (las obligaciones reales: precio, plazos, lo que debe hacer cada parte), las declaraciones y garantías (afirmaciones que cada parte hace sobre ciertos hechos, como la titularidad o la autoridad para firmar), el incumplimiento y los remedios (qué pasa si alguien no cumple, como en la lección anterior) y las firmas (la formalización).
+
+Un método práctico para leer un contrato desconocido: primero, identifica quiénes son realmente las partes y qué promete hacer cada una. Segundo, encuentra los términos centrales del negocio (precio, fechas, entregables), porque son los que tienen el peso práctico más inmediato. Tercero, presta mucha atención a la sección de incumplimiento y remedios, porque ahí sabrás qué pasa realmente si algo sale mal. Cuarto, anota cualquier cosa que parezca inusual, desequilibrada o poco clara, y márcala para consultarla con un profesional en vez de adivinar su significado. Este método estructurado convierte un muro de texto intimidante en una lista de verificación manejable.
+
+## Ejemplo práctico
+
+**Pregunta:** Alguien recibe un contrato de 20 páginas y se siente abrumado, sin saber ni por dónde empezar. ¿Qué enfoque inicial sugeriría esta lección?
+
+**Estudiante:** Según esta lección, empezar por identificar a las partes y lo que cada una promete realmente, en vez de intentar absorber todo el documento de una vez.
+
+**Guía:** Después de eso, ¿qué sería lo siguiente más importante que buscar?
+
+**Estudiante:** Los términos centrales del negocio (precio, fechas, entregables), porque tienen el peso práctico más inmediato, y luego la sección de incumplimiento y remedios, para saber qué pasa si algo sale mal.
+
+**Guía:** Exacto: dividirlo en esa secuencia convierte un documento intimidante en una lista de verificación manejable.
+
+## Cuestionario práctico
+
+**Pregunta 1.** Entre las secciones comunes de la mayoría de los contratos están:
+
+A) Partes, términos, declaraciones, incumplimiento y remedios, firmas
+B) Solo un párrafo
+C) Ninguna estructura identificable
+D) Solo un precio y una fecha
+
+**Pregunta 2.** La sección de "declaraciones y garantías" contiene en general:
+
+A) Información al azar sin relación
+B) Afirmaciones que cada parte hace sobre hechos, como la titularidad o la autoridad para firmar
+C) Solo el título del contrato
+D) Las firmas
+
+**Pregunta 3.** Un primer paso práctico al leer un contrato desconocido es:
+
+A) Saltar directo a la página de firmas
+B) Identificar a las partes y lo que cada una promete hacer
+C) Ignorar el documento por completo
+D) Leer solo el último párrafo
+
+**Pregunta 4.** ¿Qué se debe hacer con cualquier cosa inusual, desequilibrada o poco clara de un contrato?
+
+A) Ignorarla y firmar de todos modos
+B) Marcarla para que la revise un profesional en vez de adivinar su significado
+C) Suponer que es un error tipográfico
+D) Borrar esa sección por cuenta propia
+
+## Clave de respuestas
+
+1. A, 2. B, 3. B, 4. B
+
+## Respuestas y explicaciones
+
+**1.** Esta estructura general se repite en la mayoría de los contratos, sin importar su extensión o su tema.
+
+**2.** Las declaraciones y garantías son afirmaciones de hecho que hace cada parte, y importan si luego resultan falsas.
+
+**3.** Entender quién participa y qué se promete es el punto de partida natural para darle sentido al resto.
+
+**4.** Marcar los términos poco claros o inusuales para una revisión profesional, en vez de adivinar, es el enfoque responsable.
+
+## Puntos clave
+
+- La mayoría de los contratos comparten una estructura común: partes, términos, declaraciones, incumplimiento y remedios, firmas.
+- Un método práctico de lectura: primero las partes, luego los términos centrales, después el incumplimiento y los remedios, y por último marcar lo que no esté claro.
+- Este método estructurado reduce la intimidación de los documentos largos y desconocidos.
+- Los términos inusuales o poco claros deben marcarse para una revisión profesional, no adivinarse.
+
+===== PURPLE-L1-008
+TITLE: Responsabilidad civil extracontractual y contratos: dos tipos distintos de reclamación legal
+SUMMARY: Distingue el derecho de daños o responsabilidad civil extracontractual (agravios fuera de un contrato) del derecho de contratos, para dar un mapa más claro del panorama legal civil.
+# Responsabilidad civil extracontractual y contratos: dos tipos distintos de reclamación legal
+
+## Objetivos de aprendizaje
+
+- Definir un daño extracontractual (tort) en términos sencillos.
+- Distinguir las reclamaciones extracontractuales de las contractuales.
+- Identificar ejemplos relevantes en contextos de RED, WHITE y BLUE.
+
+## Contenido principal
+
+Un daño extracontractual (lo que en el common law se llama tort) es un agravio civil que causa daño a otra persona sin que exista un contrato entre ellas: la negligencia, los daños a una propiedad o la difamación son ejemplos comunes. Es distinto de una disputa contractual, que surge de una promesa incumplida entre partes que tenían un acuerdo. Un daño extracontractual puede darse entre personas que nunca tuvieron ningún contrato: si el trabajo descuidado de un contratista daña una propiedad vecina, es una reclamación extracontractual, no contractual, si el vecino y el contratista no tenían ningún acuerdo entre sí.
+
+Esta distinción importa en la práctica en todo este currículo: el dueño de una propiedad (RED) puede ser demandado por daños extracontractuales si las condiciones inseguras de su propiedad lesionan a alguien, sin importar ningún contrato de arrendamiento o de compraventa. El dueño de un negocio (BLUE) puede tener responsabilidad extracontractual por el daño causado por un producto o por un empleado descuidado, aparte de cualquier contrato con un cliente. Entender que el riesgo legal no se limita a las promesas incumplidas, y que el daño causado fuera de cualquier acuerdo también puede crear responsabilidad, amplía de forma importante la alfabetización jurídica más allá de los contratos.
+
+*REGLA ESPECÍFICA DE LA REGIÓN:* En España esta materia se conoce como responsabilidad civil extracontractual y se rige principalmente por el artículo 1902 y siguientes del Código Civil, no por el precedente judicial del common law.
+
+## Ejemplo práctico
+
+**Pregunta:** Una escalera en mal estado en la propiedad de un dueño lesiona a un repartidor que no tiene ningún contrato con ese dueño. ¿Qué tipo de reclamación legal representa probablemente?
+
+**Estudiante:** Según esta lección, suena a una reclamación extracontractual, porque no hay contrato entre el dueño y el repartidor: el daño existe con independencia de cualquier acuerdo.
+
+**Guía:** ¿Por qué importa aquí que no haya contrato?
+
+**Estudiante:** Porque muestra que la responsabilidad legal no se limita a las promesas incumplidas entre partes contratantes: el daño causado fuera de cualquier acuerdo también puede crear exposición legal.
+
+**Guía:** Exacto: por eso los dueños de propiedades deben pensar en el riesgo extracontractual, no solo en el riesgo contractual.
+
+## Cuestionario práctico
+
+**Pregunta 1.** Un daño extracontractual (tort) es:
+
+A) Un tipo de contrato
+B) Un agravio civil que causa daño, sin relación con ningún contrato
+C) Algo que solo importa en el derecho penal
+D) Lo mismo que un incumplimiento de contrato
+
+**Pregunta 2.** ¿En qué se diferencia una reclamación extracontractual de una contractual?
+
+A) Son idénticas
+B) Un daño extracontractual puede surgir entre partes que no tienen ningún contrato entre sí
+C) Los daños extracontractuales solo se aplican a los negocios
+D) Los contratos nunca implican ningún daño real
+
+**Pregunta 3.** Que las condiciones inseguras de una propiedad lesionen a un visitante sin contrato con el dueño es un ejemplo de:
+
+A) Una disputa contractual
+B) Una posible reclamación extracontractual
+C) Ni un asunto extracontractual ni contractual
+D) Solo un asunto penal
+
+**Pregunta 4.** ¿Por qué importa esta distinción para quienes practican RED y BLUE?
+
+A) No importa en absoluto
+B) El riesgo legal no se limita a las promesas incumplidas: el daño fuera de cualquier acuerdo también puede crear responsabilidad
+C) Solo el riesgo contractual es relevante
+D) Los daños extracontractuales solo se aplican a WHITE
+
+## Clave de respuestas
+
+1. B, 2. B, 3. B, 4. B
+
+## Respuestas y explicaciones
+
+**1.** Los daños extracontractuales tratan, en el fondo, de causar un daño, no de acuerdos incumplidos.
+
+**2.** La ausencia de contrato es justamente lo que distingue muchos casos extracontractuales de las disputas contractuales.
+
+**3.** Este caso es un ejemplo clásico de responsabilidad extracontractual que surge sin ninguna relación contractual.
+
+**4.** Reconocer este panorama más amplio de responsabilidad completa una visión más completa del riesgo legal para dueños de propiedades y negocios.
+
+## Puntos clave
+
+- Un daño extracontractual es un agravio civil que causa daño, distinto de un contrato incumplido.
+- Los daños extracontractuales pueden surgir incluso entre partes sin ningún contrato.
+- Los dueños de propiedades y de negocios enfrentan un riesgo extracontractual aparte de cualquier riesgo contractual.
+- La alfabetización jurídica incluye entender la responsabilidad por daños, no solo la responsabilidad por acuerdos.

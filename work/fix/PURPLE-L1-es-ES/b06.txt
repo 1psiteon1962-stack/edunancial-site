@@ -1,0 +1,327 @@
+===== PURPLE-L1-021
+TITLE: Derecho inmobiliario: lo que significa legalmente ser "dueño" de un terreno
+SUMMARY: Abre la sección de derecho inmobiliario explicando que, legalmente, la propiedad es un "conjunto de derechos" y no un concepto único y sencillo.
+# Derecho inmobiliario: lo que significa legalmente ser "dueño" de un terreno
+
+## Objetivos de aprendizaje
+
+- Explicar el concepto de la propiedad como un "conjunto de derechos".
+- Identificar los derechos comunes que forman parte de ese conjunto.
+- Relacionar este enfoque legal con el contenido anterior de la ruta RED.
+
+## Contenido principal
+
+Esta lección abre la sección de derecho inmobiliario de PURPLE y conecta directamente con RED. Legalmente, ser dueño de un bien inmueble no es un solo derecho sencillo: suele describirse como un "conjunto de derechos" (bundle of rights) que, en algunos casos, pueden separarse y quedar en manos de distintas personas. Entre los derechos comunes de ese conjunto están: el derecho a poseer la propiedad, el derecho a usarla, el derecho a excluir a otros de ella, el derecho a transferirla o venderla, y el derecho a desarrollarla o mejorarla.
+
+Esto importa en la práctica porque estos derechos pueden separarse. Un arrendador que alquila una propiedad transfiere temporalmente el derecho a poseerla y usarla, pero conserva el derecho a recuperar la posesión más adelante y el derecho a vender el inmueble. Quien concede una servidumbre (tema de una lección posterior) cede parte de su derecho de exclusión a una persona específica para un propósito específico, y conserva todo lo demás. Entender la propiedad como un conjunto, y no como una sola cosa indivisible, prepara gran parte del resto de esta sección de derecho inmobiliario: muchos asuntos legales de bienes inmuebles son en realidad preguntas sobre qué derecho específico, dentro de ese conjunto, está en disputa.
+
+*REGLA ESPECÍFICA DE LA REGIÓN:* La imagen del "conjunto de derechos" viene del common law. El Código Civil español define la propiedad de forma parecida como el derecho de gozar y disponer de una cosa, sin más limitaciones que las establecidas en las leyes (artículo 348).
+
+## Ejemplo práctico
+
+**Pregunta:** Un dueño le alquila su propiedad a un inquilino. Según el concepto del conjunto de derechos, ¿ha renunciado el dueño por completo a la propiedad?
+
+**Estudiante:** Según esta lección, no: transfirió temporalmente el derecho a poseer y usar la propiedad, pero sigue teniendo otros derechos del conjunto, como el derecho a recuperarla más adelante y el derecho a venderla.
+
+**Guía:** ¿Por qué es más exacto describir esto como una transferencia parcial y no como una pérdida total de la propiedad?
+
+**Estudiante:** Porque la propiedad es un conjunto de derechos separados, no una sola cosa: alquilar transfiere derechos específicos de ese conjunto y el dueño conserva el resto.
+
+**Guía:** Exacto: ese es el replanteamiento central que introduce esta lección.
+
+## Cuestionario práctico
+
+**Pregunta 1.** Legalmente, ser dueño de un bien inmueble se describe mejor como:
+
+A) Un derecho único e indivisible
+B) Un "conjunto de derechos" que pueden repartirse entre distintas partes
+C) Algo relevante solo para la propiedad comercial
+D) Lo mismo que un arrendamiento
+
+**Pregunta 2.** Entre los derechos comunes del conjunto que forma la propiedad están:
+
+A) Posesión, uso, exclusión, transferencia y desarrollo
+B) Solo el derecho a vender
+C) Solo el derecho a vivir allí personalmente
+D) Ningún derecho identificable
+
+**Pregunta 3.** Cuando un dueño alquila una propiedad, ¿qué pasa con el conjunto de derechos?
+
+A) El dueño pierde todos los derechos
+B) Algunos derechos (posesión, uso) se transfieren temporalmente, mientras que otros (como recuperarla más adelante o venderla) se conservan
+C) No cambia nada
+D) El inquilino obtiene la propiedad permanente
+
+**Pregunta 4.** ¿Por qué importa este enfoque del conjunto de derechos para el resto de esta sección?
+
+A) No importa en absoluto
+B) Muchos asuntos legales de bienes inmuebles son en realidad preguntas sobre qué derecho específico está en disputa
+C) El derecho de la propiedad no tiene ninguna estructura real
+D) Este enfoque solo es relevante para la propiedad comercial
+
+## Clave de respuestas
+
+1. B, 2. A, 3. B, 4. B
+
+## Respuestas y explicaciones
+
+**1.** Este replanteamiento es el concepto legal fundamental que está detrás de gran parte del derecho inmobiliario.
+
+**2.** Estos cinco derechos se mencionan comúnmente como los componentes centrales del conjunto.
+
+**3.** Un arrendamiento ilustra con claridad una transferencia parcial y temporal de derechos, no una pérdida total de la propiedad.
+
+**4.** Este enfoque da estructura a los temas legales específicos que se tratan en el resto de la sección.
+
+## Puntos clave
+
+- Legalmente, la propiedad es un "conjunto de derechos", no una sola cosa indivisible.
+- Ese conjunto incluye los derechos de posesión, uso, exclusión, transferencia y desarrollo.
+- Estos derechos pueden repartirse entre distintas partes, como ocurre en un arrendamiento.
+- Muchas disputas legales de bienes inmuebles tratan en realidad de qué derecho específico está en cuestión.
+
+===== PURPLE-L1-022
+TITLE: Escrituras de traspaso: tipos y lo que realmente transfieren
+SUMMARY: Explica el concepto general de escritura de traspaso (deed) y las diferencias prácticas entre los tipos comunes, con énfasis en lo que garantiza cada uno.
+# Escrituras de traspaso: tipos y lo que realmente transfieren
+
+## Objetivos de aprendizaje
+
+- Definir en términos sencillos una escritura de traspaso (deed).
+- Distinguir la escritura con garantía general de la escritura de renuncia (quitclaim).
+- Explicar por qué el tipo de escritura importa en la práctica.
+
+## Contenido principal
+
+Una escritura de traspaso (deed) es el documento legal que realmente transfiere la propiedad de un inmueble de una parte a otra. No todas las escrituras ofrecen el mismo nivel de protección al comprador, y entender la diferencia importa en la práctica, no solo en lo técnico. Una **escritura con garantía general** (general warranty deed) ofrece la protección más fuerte: el vendedor garantiza que tiene un título limpio y que defenderá al comprador frente a cualquier reclamación contra ese título, incluso de antes de que él fuera dueño. Una **escritura de renuncia** (quitclaim deed) ofrece la protección más débil: el vendedor transfiere el interés que tenga, sea cual sea, sin garantizar que ese interés sea válido ni que el título esté limpio; es un documento de "te transfiero lo que tenga, si es que tengo algo", no una garantía.
+
+Esta distinción importa muchísimo en la práctica. La escritura con garantía general es la norma esperada en la mayoría de las compras de bienes inmuebles entre partes independientes, porque un comprador que paga dinero real quiere una seguridad real sobre lo que está recibiendo. La escritura de renuncia es más común en situaciones sin una verdadera venta (traspasos entre familiares, para aclarar un detalle técnico del título o en acuerdos de divorcio), donde las partes ya entienden y aceptan la naturaleza limitada del traspaso. Recibir una escritura de renuncia en lo que debería ser una compra normal es una señal de alerta que merece atención profesional inmediata.
+
+*REGLA ESPECÍFICA DE LA REGIÓN:* Estos tipos de escritura son propios del sistema de EE. UU. En España, la compraventa de inmuebles suele formalizarse en escritura pública ante notario y se inscribe en el Registro de la Propiedad; además, el Código Civil obliga al vendedor al saneamiento en caso de evicción. Verifica el procedimiento con un profesional.
+
+## Ejemplo práctico
+
+**Pregunta:** Un comprador adquiere una propiedad de un vendedor con quien no tiene ningún vínculo, a precio completo de mercado, y el vendedor le ofrece una escritura de renuncia en lugar de una con garantía general. ¿Debería preocuparle?
+
+**Estudiante:** Según esta lección, sí: una escritura de renuncia no garantiza que el vendedor tenga realmente un título limpio, y eso es una preocupación real en una compra normal a precio completo.
+
+**Guía:** ¿Por qué una escritura de renuncia sería más apropiada en otro tipo de situación, como un traspaso entre familiares?
+
+**Estudiante:** Porque en ese contexto las partes ya entienden y aceptan la naturaleza limitada del traspaso: no dependen de la escritura misma para tener una garantía fuerte de propiedad.
+
+**Guía:** Exacto: el mismo tipo de documento puede ser perfectamente normal en un contexto y una señal de alerta seria en otro.
+
+## Cuestionario práctico
+
+**Pregunta 1.** Una escritura de traspaso (deed) es:
+
+A) Un tipo de documento de préstamo
+B) El documento legal que transfiere la propiedad de un inmueble
+C) Un tipo de arrendamiento
+D) Algo irrelevante para las transacciones de propiedades
+
+**Pregunta 2.** Una escritura con garantía general:
+
+A) No ofrece ninguna garantía de título limpio
+B) Garantiza un título limpio y la defensa frente a reclamaciones, incluso de antes de que el vendedor fuera dueño
+C) Es la forma más débil de traspaso de propiedad
+D) Solo se usa en traspasos familiares
+
+**Pregunta 3.** Una escritura de renuncia (quitclaim):
+
+A) Garantiza la protección de título más fuerte posible
+B) Transfiere el interés que tenga el vendedor, sin garantizar que sea válido
+C) Es idéntica a una escritura con garantía general
+D) Se exige en toda venta de propiedad
+
+**Pregunta 4.** Recibir una escritura de renuncia en una compra normal a precio completo debe tratarse como:
+
+A) Algo completamente normal, sin motivo de preocupación
+B) Una señal de alerta que merece atención profesional inmediata
+C) Una garantía de mejor protección que una escritura con garantía
+D) Algo irrelevante para la seguridad de la transacción
+
+## Clave de respuestas
+
+1. B, 2. B, 3. B, 4. B
+
+## Respuestas y explicaciones
+
+**1.** Una escritura de traspaso es, específicamente, el instrumento legal para transferir la propiedad de un inmueble.
+
+**2.** La fuerza de la escritura con garantía general viene de la garantía expresa del vendedor y de su obligación continua de defensa.
+
+**3.** La debilidad de la escritura de renuncia es que no ofrece ninguna garantía sobre la validez de lo que se transfiere.
+
+**4.** El contexto determina lo que es apropiado: el mismo tipo de documento es normal en un caso y alarmante en otro.
+
+## Puntos clave
+
+- Una escritura de traspaso es el documento legal que transfiere la propiedad de un inmueble.
+- Una escritura con garantía general garantiza un título limpio y la defensa frente a reclamaciones.
+- Una escritura de renuncia transfiere el interés que exista, sin garantizar su validez.
+- El tipo de escritura correcto depende del contexto: una escritura de renuncia en una compra normal es una señal de alerta.
+
+===== PURPLE-L1-023
+TITLE: El título y el seguro de título: cómo proteger el derecho de propiedad
+SUMMARY: Explica qué significa legalmente el "título", por qué pueden surgir problemas de título incluso con una escritura correcta y el papel del seguro de título para gestionar ese riesgo.
+# El título y el seguro de título: cómo proteger el derecho de propiedad
+
+## Objetivos de aprendizaje
+
+- Definir el "título" como algo distinto de la escritura.
+- Explicar por qué pueden existir problemas de título incluso con una escritura válida.
+- Describir el propósito general del seguro de título.
+
+## Contenido principal
+
+El título es el derecho legal de propiedad en sí: la escritura es el documento que transfiere el título, pero el título es el derecho de fondo que se transfiere. Una escritura que parece válida no garantiza automáticamente un título "limpio"; puede haber problemas ocultos: un gravamen no revelado de un dueño anterior, una firma falsificada en algún punto de la historia de la propiedad, un heredero con una reclamación pendiente o un error administrativo en los registros públicos. Estos problemas pueden aparecer años después de la compra y llegar a amenazar el derecho de propiedad del dueño actual.
+
+El seguro de título existe específicamente para gestionar este riesgo. Antes de una compra, un estudio de título examina los registros públicos en busca de este tipo de problemas. Luego, el seguro de título protege al comprador (y a menudo al prestamista) frente a pérdidas económicas si aparece un problema de título más adelante a pesar de ese estudio, y cubre los costos legales y las posibles pérdidas relacionadas con defender o resolver la reclamación. A diferencia de la mayoría de los seguros, que protegen frente a hechos futuros, el seguro de título protege frente a hechos pasados que simplemente no se han descubierto todavía; es una distinción sutil pero importante que explica por qué suele pagarse una prima única al comprar, y no pagos continuos.
+
+*REGLA ESPECÍFICA DE LA REGIÓN:* La importancia del seguro de título depende del sistema de registro. En España, el Registro de la Propiedad y el principio de fe pública registral protegen al comprador que adquiere de buena fe confiando en lo inscrito, por lo que el seguro de título es poco habitual. Confirma con un profesional cómo se protege el título en tu caso.
+
+## Ejemplo práctico
+
+**Pregunta:** Una dueña descubre, cinco años después de comprar, que un gravamen de un dueño anterior nunca se canceló correctamente y ahora amenaza su derecho de propiedad. ¿Cómo podría ayudarle el seguro de título en esta situación?
+
+**Estudiante:** Según esta lección, si compró un seguro de título, este debería ayudar a cubrir los costos legales y las posibles pérdidas relacionadas con resolver ese problema de título, aunque haya aparecido años después de la compra.
+
+**Guía:** ¿Por qué esto es distinto de cómo funcionan la mayoría de los demás seguros?
+
+**Estudiante:** La mayoría de los seguros protegen frente a hechos futuros, pero el seguro de título protege frente a un problema que ya existía en el pasado y que simplemente no se descubrió hasta después.
+
+**Guía:** Exacto: esa distinción es la razón por la que suele ser un pago único y no una póliza continua.
+
+## Cuestionario práctico
+
+**Pregunta 1.** El título, a diferencia de la escritura, se refiere a:
+
+A) El documento físico que transfiere la propiedad
+B) El derecho legal de propiedad en sí
+C) Un tipo de préstamo
+D) Lo mismo que un arrendamiento
+
+**Pregunta 2.** Un estudio de título examina:
+
+A) El historial de crédito del comprador
+B) Los registros públicos en busca de problemas de título ocultos, como gravámenes o firmas falsificadas
+C) Solo el estado físico de la propiedad
+D) Nada relevante para la propiedad
+
+**Pregunta 3.** El seguro de título protege frente a:
+
+A) Daños futuros a la propiedad
+B) Pérdidas económicas por problemas de título que existían en el pasado y no se descubrieron antes de la compra
+C) Solo el robo de la propiedad
+D) Nada importante
+
+**Pregunta 4.** ¿En qué se diferencia el seguro de título de la mayoría de los otros tipos de seguro?
+
+A) Es idéntico a la mayoría de los seguros
+B) Protege frente a problemas pasados no descubiertos, no frente a hechos futuros
+C) Solo cubre hechos futuros, como la mayoría de los seguros
+D) Exige pagos mensuales continuos, como la mayoría de los seguros
+
+## Clave de respuestas
+
+1. B, 2. B, 3. B, 4. B
+
+## Respuestas y explicaciones
+
+**1.** El título es el derecho legal de fondo; la escritura es solo el instrumento que lo transfiere.
+
+**2.** Un estudio de título minucioso es el paso preventivo pensado para detectar estos problemas antes de la compra.
+
+**3.** El seguro de título atiende específicamente el riesgo de que aparezcan después defectos históricos no descubiertos.
+
+**4.** Esta distinción entre pasado y futuro explica la estructura poco común de prima única del seguro de título.
+
+## Puntos clave
+
+- El título es el derecho legal de propiedad de fondo, distinto de la escritura misma.
+- Pueden existir problemas de título ocultos incluso con una escritura otorgada correctamente.
+- El seguro de título protege frente a pérdidas económicas por defectos de título pasados no descubiertos.
+- Esa protección frente a hechos pasados explica por qué suele ser una prima única, a diferencia de la mayoría de los seguros.
+
+===== PURPLE-L1-024
+TITLE: Gravámenes y cargas: cuando una propiedad no está del todo "libre"
+SUMMARY: Presenta los gravámenes y las cargas como reclamaciones o restricciones legales vinculadas a una propiedad que pueden afectar la propiedad y su transferencia.
+# Gravámenes y cargas: cuando una propiedad no está del todo "libre"
+
+## Objetivos de aprendizaje
+
+- Definir un gravamen y una carga.
+- Identificar los tipos comunes de gravámenes.
+- Explicar por qué los gravámenes importan en la práctica para compradores y dueños.
+
+## Contenido principal
+
+Una carga (encumbrance) es cualquier reclamación, restricción o interés legal vinculado a una propiedad que no le pertenece por completo al dueño actual; es una categoría amplia que incluye los gravámenes, las servidumbres y ciertas restricciones. Un gravamen (lien), en concreto, es una reclamación legal contra una propiedad, normalmente para garantizar una deuda, que le da a quien lo tiene el derecho a forzar la venta de la propiedad para cobrar esa deuda si no se paga. Entre los tipos comunes están la hipoteca (que garantiza el préstamo usado para comprar la propiedad), el embargo o afección por impuestos (por impuestos sobre el inmueble no pagados) y el gravamen de constructor o mecánico (mechanic's lien), que presenta un contratista al que no le pagaron un trabajo hecho en la propiedad.
+
+Los gravámenes importan en la práctica porque, en general, se vinculan a la propiedad misma, no solo a la persona que contrajo la deuda; es decir, un gravamen puede seguir a la propiedad a través de una venta si no se identifica y se cancela correctamente antes. Por eso importan tanto los estudios de título (de la lección anterior): un gravamen pendiente que se descubre antes del cierre se puede atender, pero uno que pasa inadvertido puede convertirse en el problema del nuevo dueño. Entender que una propiedad puede arrastrar estas obligaciones vinculadas, aparte del inmueble físico, es una pieza central de la alfabetización jurídica en bienes inmuebles.
+
+*REGLA ESPECÍFICA DE LA REGIÓN:* Los nombres y las reglas de las cargas cambian según el país (por ejemplo, hipotecas, embargos anotados o afecciones fiscales). En España, las cargas que afectan a un inmueble suelen consultarse en el Registro de la Propiedad mediante una nota simple antes de comprar.
+
+## Ejemplo práctico
+
+**Pregunta:** Un contratista termina un trabajo en una propiedad, pero nunca le pagan, y luego presenta un gravamen de constructor contra esa propiedad. Si la propiedad se vende después a un nuevo comprador sin que se resuelva el gravamen, ¿qué riesgo enfrenta el nuevo comprador?
+
+**Estudiante:** Según esta lección, como los gravámenes en general se vinculan a la propiedad misma y no solo a quien contrajo la deuda, el nuevo comprador podría heredar ese gravamen pendiente como problema propio.
+
+**Guía:** ¿Cómo se pudo haber evitado?
+
+**Estudiante:** Un estudio de título adecuado antes de la compra debió identificar el gravamen, para que se resolviera o se atendiera antes de cerrar la venta.
+
+**Guía:** Exacto: justamente por eso el proceso de estudio de título de la lección anterior importa tanto en la práctica.
+
+## Cuestionario práctico
+
+**Pregunta 1.** Una carga es:
+
+A) Lo mismo que una escritura
+B) Una reclamación, restricción o interés legal vinculado a una propiedad
+C) Un tipo de seguro
+D) Algo relevante solo para los arrendamientos
+
+**Pregunta 2.** Un gravamen, en concreto, es:
+
+A) Un tipo de escritura
+B) Una reclamación legal contra una propiedad, normalmente para garantizar una deuda
+C) Una forma de seguro de título
+D) Algo irrelevante para el derecho de la propiedad
+
+**Pregunta 3.** Un gravamen de constructor o mecánico lo presenta:
+
+A) Una autoridad fiscal del gobierno
+B) Un contratista al que no le pagaron un trabajo hecho en la propiedad
+C) Un banco que concede una hipoteca
+D) Solo el arquitecto original de la propiedad
+
+**Pregunta 4.** ¿Por qué importan en la práctica los gravámenes para quien compra una propiedad?
+
+A) Los gravámenes nunca afectan a un nuevo comprador
+B) En general, los gravámenes se vinculan a la propiedad misma y pueden seguirla a través de una venta si no se cancelan
+C) Los gravámenes solo afectan al dueño original, nunca a un comprador
+D) Los gravámenes se cancelan automáticamente con cualquier venta
+
+## Clave de respuestas
+
+1. B, 2. B, 3. B, 4. B
+
+## Respuestas y explicaciones
+
+**1.** La carga es la categoría amplia que abarca varias reclamaciones y restricciones vinculadas.
+
+**2.** El rasgo que define a un gravamen es su función como garantía de una deuda no pagada.
+
+**3.** Los gravámenes de constructor protegen específicamente a contratistas y proveedores que hicieron un trabajo sin recibir pago.
+
+**4.** Que el gravamen esté vinculado a la propiedad es justo lo que hace que los gravámenes pendientes sean un riesgo real para compradores desprevenidos.
+
+## Puntos clave
+
+- Una carga es cualquier reclamación o restricción vinculada a una propiedad; un gravamen es, en concreto, una reclamación que garantiza una deuda.
+- Entre los tipos comunes de gravámenes están la hipoteca, el embargo por impuestos y el gravamen de constructor.
+- En general, los gravámenes se vinculan a la propiedad, no solo a la persona que contrajo la deuda.
+- Por eso importa tanto un estudio de título minucioso antes de comprar.
