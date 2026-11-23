@@ -1,0 +1,399 @@
+===== WHITE-L4-041
+TITLE: Analiz rapò dèt sou ekite: poukisa efè levye konpayi koupe nan de bò, menm jan ak imobilye
+SUMMARY: Konprann kijan rapò dèt sou ekite mezire efè levye yon konpayi, e poukisa li amplifye ni rannman potansyèl ni risk potansyèl, sa ki raple prensip efè levye imobilye.
+KEYWORDS: rapò dèt sou ekite, efè levye konpayi, risk finansye, estrikti kapital
+# Analiz rapò dèt sou ekite: poukisa efè levye konpayi koupe nan de bò, menm jan ak imobilye
+
+## Senaryo pou louvri leson an
+SIPOZISYON/OPINYON (senaryo ipotetik pou objektif ansèyman sèlman): Imajine yon bank santral k ap monte to enterè referans li anpil e plizyè fwa sou yon ti peryòd kèk mwa pou goumen kont yon enflasyon k ap monte. Pandan yon bank santral ap monte to yo anpil, konpayi ki pote anpil dèt fè fas ak yon anviwònman kou trè diferan de konpayi yo finanse sitou ak ekite. Leson sa a retounen sou konsèp efè levye a, fwa sa a aplike nan pwòp bilan yon konpayi.
+
+## Objektif aprantisaj
+- Kalkile rapò dèt sou ekite apati bilan yon konpayi.
+- Esplike poukisa yon efè levye konpayi ki pi wo amplifye ni rannman potansyèl sou ekite ni risk potansyèl.
+- Esplike poukisa to enterè k ap monte afekte konpayi ki gen anpil efè levye pi plis pase lòt yo.
+- Konpare pwofil risk de konpayi ki gen rapò dèt sou ekite diferan.
+
+## Kontni prensipal
+Rapò dèt sou ekite egal total dèt yon konpayi divize pa total ekite aksyonè li yo, sa ki mezire konbyen nan estrikti kapital konpayi a finanse atravè dèt konpare ak posesyon ekite. FÈ VERIFYE: sa se konseptyèlman idantik ak analiz efè levye rapò prè sou valè nou te kouvri nan imobilye — yon konpayi, tankou yon pwopriyete, ka finanse ak plis oswa mwens lajan prete konpare ak pwòp patisipasyon kapital pwopriyetè yo.
+
+Men "poukisa" yon efè levye konpayi ki pi wo koupe nan de bò, egzakteman tankou prensip efè levye imobilye a: finansman ak dèt an jeneral pi bon mache pase finansman ak ekite (peman enterè souvan dediktib nan taks, e moun ki gen dèt mande yon rannman yo atann ki pi ba pase moun ki gen ekite paske dèt gen priyorite nan yon fayit), kidonk yon konpayi ki itilize plis dèt ka potansyèlman amplifye rannman li sou ekite lè biznis la mache byen, paske pwofi yo gaye sou yon baz ekite ki pi piti. Men menm efè levye sa a vle di tou yon kousen ekite ki pi piti pou absòbe pèt si pèfòmans biznis la febli, e kontrèman ak ekite, peman dèt (enterè ak prensipal) se obligasyon kontra yo dwe peye kèlkeswa jan biznis la vrèman ap mache nan yon peryòd done.
+
+Se poutèt sa to enterè k ap monte, tankou sa yo nan senaryo pi wo a, afekte konpayi ki gen anpil efè levye pi plis pase lòt yo: yon konpayi ki gen yon gwo kantite dèt ak to varyab, oswa dèt li dwe refinanse nan to ki la pandan li rive nan matirite, wè obligasyon enterè fiks li yo monte dirèkteman pandan to yo ap ogmante, sa ki peze lajan kach ki disponib pou lòt bagay e ki ogmante risk detrès finansye si konpayi a pa ka pwodui ase lajan kach operasyonèl pou kouvri sèvis dèt ki kounye a pi wo a, yon dinamik ki sanble anpil ak risk rapò kouvèti sèvis dèt (DSCR) nou te kouvri nan analiz imobilye. RÈG ESPESIFIK POU REJYON AN: dediksyon enterè ak lòd priyorite nan fayit depann de lwa taks ak lwa fayit chak peyi.
+
+## Egzanp pratik
+EGZANP ILISTRATIF: Konpayi A gen yon rapò dèt sou ekite 0.3, alòske Konpayi B, nan menm endistri a, gen yon rapò dèt sou ekite 2.5. Pandan yon peryòd bon pèfòmans biznis, efè levye ki pi wo Konpayi B a amplifye rannman li sou ekite plis pase pa Konpayi A. Men lè bank santral la monte to enterè yo anpil e kou matyè premyè tou de konpayi yo monte akoz yon chòk tarif ki gen rapò, chay sèvis dèt byen pi gwo Konpayi B a manje yon pati byen pi gwo nan lajan kach operasyonèl li, sa ki pouse l nan direksyon detrès finansye, alòske efè levye ki pi ba Konpayi A a ba li yon kousen byen pi gwo pou absòbe menm presyon kou yo san li pa fè fas ak yon risk defo peman konparab.
+
+## Egzamen pratik
+**Q1. Kisa rapò dèt sou ekite mezire?**
+A) Total revni yon konpayi divize pa total byen li
+B) Konbyen nan estrikti kapital yon konpayi finanse atravè dèt konpare ak posesyon ekite
+C) Pri aksyon yon konpayi divize pa benefis pa aksyon li
+D) Rannman dividann aksyon òdinè yon konpayi
+
+**Q2. Poukisa yon efè levye konpayi ki pi wo ka amplifye rannman sou ekite lè biznis la mache byen?**
+A) Finansman ak dèt pa gen okenn rapò ak pwofitabilite yon konpayi
+B) Paske dèt an jeneral pi bon mache pase ekite, e pwofi yo gaye sou yon baz ekite ki pi piti lè yo itilize plis dèt, yon bon pèfòmans ka bay yon rannman ki pi wo sou ti patisipasyon ekite sa a
+C) Plis efè levye toujou garanti rannman ki pi ba kèlkeswa pèfòmans biznis
+D) Finansman ak ekite toujou pi bon mache pase finansman ak dèt
+
+**Q3. Poukisa chay dèt yon konpayi kreye yon risk finansman ak ekite pa pote nan menm degre a?**
+A) Peman dèt konplètman opsyonèl e yo ka sote yo san konsekans
+B) Peman dèt (enterè ak prensipal) se obligasyon kontra yo dwe peye kèlkeswa pèfòmans biznis, kontrèman ak ekite, ki pa gen okenn obligasyon fiks konsa
+C) Finansman ak ekite pote egzakteman menm obligasyon peman kontra ak dèt
+D) Finansman ak dèt ak finansman ak ekite gen pwofil risk idantik nan tout aspè
+
+**Q4. Poukisa to enterè k ap monte afekte konpayi ki gen anpil efè levye pi plis pase lòt yo?**
+A) To enterè pa gen okenn efè sou konpayi ki gen dèt ak to varyab oswa dèt k ap rive nan matirite
+B) Konpayi ki gen anpil dèt ak to varyab oswa dèt ki mande refinansman wè obligasyon enterè fiks yo monte dirèkteman pandan to yo ap ogmante, sa ki peze lajan kach ki disponib
+C) To enterè k ap monte afekte sèlman konpayi ki pa gen okenn dèt ditou
+D) Konpayi ki gen anpil efè levye toujou pwoteje kont chanjman to enterè
+
+**Q5. Nan egzanp lan, poukisa Konpayi B te pi vilnerab pase Konpayi A lè to yo te monte e kou yo te ogmante an menm tan?**
+A) Konpayi B pa t gen okenn dèt ditou, kontrèman ak Konpayi A
+B) Rapò dèt sou ekite byen pi wo Konpayi B a te vle di chay sèvis dèt li te manje yon pati byen pi gwo nan lajan kach operasyonèl anba menm presyon kou ak to yo
+C) Konpayi A ak Konpayi B te fè fas ak yon risk finansye idantik malgre nivo efè levye diferan yo
+D) Konpayi A te gen yon rapò dèt sou ekite ki pi wo pase Konpayi B
+
+## Kle repons yo
+Q1: B
+Q2: B
+Q3: B
+Q4: B
+Q5: B
+
+## Repons ak eksplikasyon
+**Q1.** Rapò sa a konpare dirèkteman finansman ak dèt yon konpayi ak finansman ak ekite li, sa ki montre degre efè levye finansye li.
+
+**Q2.** Kou dèt ki pi ba a konbine ak yon baz ekite ki pi piti ka amplifye rannman ekite pandan peryòd bon pèfòmans, sa ki reflete efè levye imobilye a.
+
+**Q3.** Nati fiks e kontra obligasyon dèt yo, konpare ak nati ekite ki pi fleksib, se sous prensipal risk finansye ki gen rapò ak efè levye.
+
+**Q4.** Lyen dirèk ant to ki la yo ak kou sèvis dèt vle di konpayi ki gen anpil efè levye fè fas ak yon efè pi enpòtan sou lajan kach yo pandan to yo ap monte.
+
+**Q5.** Diferans nan efè levye esplike dirèkteman poukisa menm tansyon konbine a (to k ap monte ak kou k ap monte) te mete plis presyon sou konpayi ki te gen plis dèt la.
+
+## Pwen kle yo
+- Rapò dèt sou ekite mezire efè levye yon konpayi, konseptyèlman idantik ak analiz efè levye rapò prè sou valè yo itilize nan imobilye.
+- Plis efè levye ka amplifye rannman sou ekite pandan bon pèfòmans, paske dèt pi bon mache e pwofi yo gaye sou yon baz ekite ki pi piti.
+- Menm efè levye sa a diminye kousen ekite kont pèt e li kreye obligasyon peman fiks e kontra kèlkeswa pèfòmans.
+- To enterè k ap monte mete plis presyon sou konpayi ki gen anpil efè levye, sa ki raple dinamik risk DSCR nou te kouvri nan analiz imobilye.
+
+===== WHITE-L4-042
+TITLE: Analiz lajan kach lib: poukisa lajan kach revele sa benefis ka kache
+SUMMARY: Konprann poukisa lajan kach lib ka revele vrè sante finansye yon konpayi nan fason benefis yo rapòte, ki sijè a chwa kontablite, pafwa kache.
+KEYWORDS: lajan kach lib, benefis kont lajan kach, kontablite angajman, analiz rapò finansye
+# Analiz lajan kach lib: poukisa lajan kach revele sa benefis ka kache
+
+## Senaryo pou louvri leson an
+SIPOZISYON/OPINYON (senaryo ipotetik pou objektif ansèyman sèlman): Imajine yon gwo blòk komèsyal ki toudenkou enpoze gwo tarif sou yon kategori jeneral pwodui manifakti yo enpòte, sa ki ogmante kou pou konpayi ki depann de enpòtasyon sa yo kòm matyè premyè. Pandan tarif yo ap peze maj nan tout yon endistri, kèk konpayi kontinye rapòte benefis ki estab oswa k ap grandi menm pandan vrè pozisyon lajan kach yo ap deteryore. Leson sa a esplike poukisa lajan kach ak benefis yo rapòte ka rakonte istwa trè diferan.
+
+## Objektif aprantisaj
+- Esplike kisa lajan kach lib mezire ak kijan yo an jeneral kalkile l.
+- Esplike diferans ant benefis nèt ki baze sou kontablite angajman ak vrè lajan kach.
+- Esplike poukisa lajan kach lib ka revele tansyon finansye benefis yo rapòte pa montre imedyatman.
+- Aplike analiz lajan kach lib pou entèprete yon konpayi k ap rapòte benefis estab ansanm ak yon lajan kach k ap deteryore.
+
+## Kontni prensipal
+Lajan kach lib (free cash flow, FCF) an jeneral egal lajan kach operasyonèl yon konpayi (lajan kach ki soti nan operasyon biznis prensipal) mwens depans kapital (lajan kach yo depanse pou antretni oswa elaji byen fizik biznis la), sa ki reprezante lajan kach yon konpayi vrèman genyen disponib apre li fin kouvri reenvestisman ki nesesè pou kenbe operasyon li. FÈ VERIFYE: sa diferan yon fason enpòtan de benefis nèt ("benefis" yo rapòte a), yo kalkile anba règ kontablite angajman (accrual accounting) ki ka gen ladan eleman ki pa lajan kach (tankou depresyasyon, nou te diskite nan leson depresyasyon chemen imobilye a, aplike isit la nan byen konpayi) e ki ka anrejistre revni oswa depans nan yon peryòd diferan de lè vrè lajan kach la chanje men.
+
+Men "poukisa" distenksyon sa a enpòtan, sitou pou yon konpayi ki fè fas ak presyon sou maj tankou senaryo tarif pi wo a: yon konpayi ka rapòte yon benefis nèt ki estab oswa menm k ap grandi alòske vrè pozisyon lajan kach li ap deteryore, si, pa egzanp, li bay kliyan kondisyon peman ki de plizanpli jenere pou kenbe volim vant (sa ki anrejistre revni nan liv yo anvan yo vrèman kolekte lajan kach la), oswa li akimile envantè ki pa vann (sa ki konsome lajan kach men ki ka pa parèt imedyatman kòm yon diminisyon nan pwofi yo rapòte), oswa li ranvwaye envestisman kapital ki nesesè pou prezève benefis yo rapòte nan kout tèm.
+
+Se poutèt sa analis yo souvan dekri lajan kach lib kòm pi difisil pou manipile atravè chwa kontablite pase benefis nèt yo rapòte, e poukisa yon espas pèsistan e k ap grandi ant benefis nèt yo rapòte ak vrè lajan kach lib — ak benefis nèt ki toujou pi wo — se yon siy avètisman ki merite yon egzamen pi pre, ki ka montre kalite tansyon lajan kach anba ke benefis ki baze sou angajman pou kont yo ta ka pa revele imedyatman. OPINYON ak konvansyon analiz: anpil analis finansye ki gen eksperyans bay tandans lajan kach lib otan pwa, oswa plis pwa, pase tandans benefis yo rapòte espesyalman akoz pi gwo rezistans sa a kont defòmasyon kontablite pouse.
+
+## Egzanp pratik
+EGZANP ILISTRATIF: Yon konpayi rapòte yon benefis nèt estab $50 milyon pandan twa ane youn dèyè lòt nan mitan presyon kou tarif k ap monte nan endistri li. Yon gade pi pre nan rapò lajan kach li revele lajan kach operasyonèl la te bese soti $55 milyon rive $30 milyon sou menm peryòd la, pandan konpayi a ap bay kliyan kondisyon peman ki pi long pou kenbe yo e li ap akimile envantè ki pa vann pou evite deranje orè pwodiksyon — yon deteryorasyon lajan kach chif benefis nèt estab ki baze sou angajman an pou kont li pa t revele, men ke yon analiz rapò lajan kach ki pi detaye te ekspoze klèman.
+
+## Egzamen pratik
+**Q1. Kisa lajan kach lib an jeneral mezire?**
+A) Total revni yon konpayi anvan yo retire okenn depans
+B) Lajan kach yon konpayi vrèman genyen disponib apre lajan kach operasyonèl fin kouvri depans kapital ki nesesè
+C) Pri aksyon yon konpayi konpare ak benefis li
+D) Total dividann yon konpayi peye nan tout istwa li
+
+**Q2. Kijan benefis nèt diferan fondamantalman de vrè lajan kach?**
+A) Benefis nèt ak lajan kach toujou idantik pou chak konpayi
+B) Yo kalkile benefis nèt anba kontablite angajman, ki ka gen ladan eleman ki pa lajan kach e anrejistre revni oswa depans nan yon peryòd diferan de lè lajan kach la vrèman chanje men
+C) Yo kalkile lajan kach ak prensip kontablite angajman, alòske benefis nèt reflete sèlman tranzaksyon lajan kach
+D) Pa gen okenn diferans ki gen sans ant de mezi finansye sa yo
+
+**Q3. Poukisa benefis nèt yon konpayi rapòte ta ka rete estab alòske vrè lajan kach li ap deteryore?**
+A) Sitiyasyon sa a enposib anba règ kontablite estanda
+B) Konpayi a ta ka ap bay kliyan kondisyon peman ki pi jenere, akimile envantè ki pa vann, oswa ranvwaye envestisman kapital, tout bagay sa yo afekte lajan kach diferan de benefis yo rapòte
+C) Benefis nèt ak lajan kach toujou deplase ansanm yon fason pafè
+D) Yon lajan kach k ap deteryore toujou diminye benefis nèt yo rapòte imedyatman e nan menm pwopòsyon
+
+**Q4. Poukisa yo souvan konsidere lajan kach lib kòm pi difisil pou manipile atravè chwa kontablite pase benefis nèt yo rapòte?**
+A) Yo kalkile lajan kach lib ak egzakteman menm règ ak chwa kontablite ak benefis nèt
+B) Lajan kach lib pi dirèkteman mare ak vrè mouvman lajan kach, sa ki bay mwens espas pou jijman ak estimasyon ki baze sou angajman ki ka enfliyanse benefis nèt yo rapòte
+C) Li enposib pou enfliyanse benefis nèt yo rapòte atravè okenn chwa kontablite
+D) Lajan kach lib pa gen okenn rapò ak vrè pèfòmans konpayi
+
+**Q5. Nan egzanp lan, kisa espas k ap grandi ant benefis nèt estab ak lajan kach operasyonèl k ap bese a te ka montre?**
+A) Anyen ki gen enpòtans analiz, paske benefis nèt te rete estab tout tan an
+B) Yon tansyon lajan kach anba, ki soti nan kondisyon peman kliyan ki pi long ak envantè k ap monte, ke chif benefis nèt estab la pou kont li pa t revele
+C) Ke presyon kou ki gen rapò ak tarif konpayi a te disparèt nèt an reyalite
+D) Ke rapò lajan kach konpayi a te gen yon erè kalkil
+
+## Kle repons yo
+Q1: B
+Q2: B
+Q3: B
+Q4: B
+Q5: B
+
+## Repons ak eksplikasyon
+**Q1.** Lajan kach lib izole espesyalman lajan kach ki rete apre yo fin finanse reenvestisman ki nesesè pou kenbe operasyon k ap kontinye.
+
+**Q2.** Ajisteman tan ak eleman ki pa lajan kach kontablite angajman se sous prensipal diferans ant benefis nèt yo rapòte ak vrè lajan kach.
+
+**Q3.** Dinamik operasyonèl ak kontablite sa yo ka kreye yon espas ant de mezi yo, sa ki pèmèt benefis nèt sanble estab menm pandan kapasite pou pwodui lajan kach anba a ap febli.
+
+**Q4.** Koneksyon ki pi pre ak vrè mouvman lajan kach, olye estimasyon ak jijman ki baze sou angajman, bay lajan kach lib yon sèten rezistans kont kèk kalite jesyon benefis.
+
+**Q5.** Diferans k ap grandi ant de mezi yo se te yon siy avètisman ki montre yon tansyon operasyonèl ki pa t vizib imedyatman nan chif benefis yo rapòte a pou kont li.
+
+## Pwen kle yo
+- Lajan kach lib mezire lajan kach ki rete apre yo fin finanse depans kapital ki nesesè, diferan de benefis nèt ki baze sou angajman.
+- Kontablite angajman ka pèmèt benefis yo rapòte ale lwen vrè lajan kach akoz diferans tan ak eleman ki pa lajan kach.
+- Yon konpayi ka rapòte benefis estab alòske lajan kach ap deteryore akoz faktè tankou kondisyon kliyan ki pi long oswa envantè k ap monte.
+- Paske lajan kach lib pi difisil pou manipile atravè chwa kontablite, yon espas pèsistan ant li ak benefis yo rapòte se yon siy avètisman analiz ki gen sans.
+
+===== WHITE-L4-043
+TITLE: Analiz IPO: poukisa konpayi ki fèk antre sou bous pote yon risk apa
+SUMMARY: Konprann faktè risk apa ki asosye ak envesti nan premye ofri piblik yon konpayi (IPO), anplis risk jeneral envesti nan nenpòt aksyon endividyèl.
+KEYWORDS: IPO, premye ofri piblik, peryòd blokaj, faktè risk IPO
+# Analiz IPO: poukisa konpayi ki fèk antre sou bous pote yon risk apa
+
+## Senaryo pou louvri leson an
+SIPOZISYON/OPINYON (senaryo ipotetik pou objektif ansèyman sèlman): Imajine yon gwo pwoblèm sante piblik ki kanpe transpò maritim ak manifakti mondyal pou yon peryòd pwolonje, sa ki mele chèn apwovizyònman nan anpil endistri an menm tan. Pandan mache yo ap estabilize apre yon peryòd dezòd jeneral, yon vag konpayi ki te ranvwaye antre sou bous pandan dezòd la prese pou konplete premye ofri piblik yo tout an menm tan. Leson sa a egzamine risk apa envestisè yo fè fas lè yon konpayi fèk kòmanse vann aksyon li sou bous.
+
+## Objektif aprantisaj
+- Esplike kisa yon premye ofri piblik (IPO) ye.
+- Esplike poukisa konpayi ki fèk antre sou bous souvan gen yon istwa operasyon piblik ak yon istorik divilgasyon finansye limite.
+- Esplike kisa yon peryòd blokaj ye e poukisa ekspirasyon li ka afekte pri yon aksyon.
+- Idantifye poukisa pri IPO a li menm ka yon sous risk ak volatilite apa.
+
+## Kontni prensipal
+Yon premye ofri piblik (initial public offering, IPO) se pwosesis kote yon konpayi prive vann aksyon bay piblik la pou premye fwa, e li vin yon konpayi ki sou bous. FÈ VERIFYE: paske yon konpayi ki fèk antre sou bous gen, dapre definisyon, yon istwa divilgasyon finansye piblik ak komès sou mache piblik ki limite, envestisè yo gen mwens done istorik piblik pou analize konpare ak yon konpayi piblik ki etabli ki gen plizyè ane oswa plizyè deseni rapò finansye piblik ak istwa pri aksyon.
+
+Men "poukisa" istorik limite sa a kreye yon risk apa: teknik analiz fondamantal nou kouvri nan tout nivo sa a (konparezon rapò P/E, evalyasyon kalite benefis, analiz tandans lajan kach lib) tout benefisye de plizyè ane done konsistan e konparab, ke yon konpayi ki fèk antre sou bous tou senpleman poko genyen, sa ki fè evalyasyon ak evalyasyon kalite natirèlman pi ensèten e pi fasil pou fè erè, sitou pandan yon vag nouvo ofri tankou sa senaryo pi wo a dekri a, lè atansyon ak kapital envestisè yo ka gaye mens sou anpil nouvo emisyon an menm tan.
+
+Se poutèt sa yon "peryòd blokaj" (lockup period) se yon sous risk espesifik e byen dokimante ki gen rapò ak IPO: FÈ VERIFYE, pifò IPO gen ladan yo yon peryòd blokaj (souvan alantou 90 a 180 jou, menm si tèm yo varye) pandan kontra a limite moun anndan konpayi a ak premye envestisè yo pou yo pa vann aksyon yo. Lè peryòd blokaj la ekspire, yon gwo kantite nouvo aksyon ka vin disponib pou vant an menm tan, e ogmantasyon potansyèl toudenkou sa a nan ofri ki disponib te souvan asosye nan istwa ak yon presyon pou pri aksyon an desann, yon efè ki diferan de vrè pèfòmans biznis anba konpayi a pandan menm peryòd la. Se poutèt sa pri IPO a li menm, yo fikse atravè yon pwosesis negosyasyon ant konpayi a ak antrepriz ki souskri emisyon an (underwriters) anvan komès piblik kòmanse, ka yon sous volatilite apa tou, paske premye pri sa a se yon estimasyon yo fè san benefis vrè komès sou mache piblik ak dekouvèt pri, e yon aksyon ka konnen gwo balansman pri nan premye jou komès li pandan mache a an jeneral ap fòme pwòp opinyon endepandan li sou valè ki apwopriye a.
+
+## Egzanp pratik
+EGZANP ILISTRATIF: Yon konpayi konplete IPO li nan $25 pa aksyon, e aksyon an monte okòmansman rive $40 nan premye semèn komès piblik li pandan antouzyasm envestisè yo ap grandi, san li poko gen plizyè trimès divilgasyon finansye piblik pou evalye nèt kalite benefis oswa tandans lajan kach lib konpayi a. Katreven-dis jou pita, lè peryòd blokaj konpayi a ekspire, yon gwo kantite aksyon moun anndan ak premye envestisè ki te limite anvan vin disponib pou vant, e plis presyon vant ki soti nan ofri ki elaji sa a, ki prèske pa gen rapò ak okenn chanjman nan vrè pèfòmans biznis konpayi a, kontribiye nan yon gwo bès nan pri aksyon an yon ti tan apre ekspirasyon blokaj la.
+
+## Egzamen pratik
+**Q1. Poukisa yon konpayi ki fèk antre sou bous prezante defi analiz apa konpare ak yon konpayi piblik ki etabli?**
+A) Konpayi ki fèk antre sou bous toujou gen plis done istorik piblik disponib pase konpayi ki etabli
+B) Yon konpayi ki fèk antre sou bous gen, dapre definisyon, yon istwa divilgasyon finansye piblik ak komès limite, sa ki fè teknik ki konte sou plizyè ane done konsistan pi difisil pou aplike
+C) Pa gen okenn diferans analiz ki gen sans ant konpayi ki fèk antre sou bous ak konpayi piblik ki etabli
+D) Lalwa egzante konpayi ki fèk antre sou bous de tout egzijans divilgasyon finansye
+
+**Q2. Kisa yon peryòd blokaj ye?**
+A) Yon peryòd kote yon konpayi pa ka peye okenn dividann
+B) Yon peryòd, souvan alantou 90 a 180 jou, kote kontra a limite moun anndan konpayi a ak premye envestisè yo pou yo pa vann aksyon yo apre yon IPO
+C) Yon peryòd kote okenn envestisè pa ka achte oswa vann yon aksyon
+D) Yon peryòd datant gouvènman an mande anvan yon konpayi ka antre sou bous
+
+**Q3. Poukisa ekspirasyon yon peryòd blokaj ka kreye yon presyon pou pri yon aksyon desann?**
+A) Ekspirasyon blokaj pa gen okenn efè sou ofri aksyon ki disponib pou komès
+B) Yon gwo kantite nouvo aksyon ka vin disponib pou vant an menm tan, sa ki ogmante ofri ki disponib endepandan de okenn chanjman nan vrè pèfòmans biznis konpayi a
+C) Ekspirasyon blokaj toujou fè pri yon aksyon monte anpil
+D) Peryòd blokaj pa janm vrèman ekspire nan okenn sikonstans
+
+**Q4. Poukisa pri IPO a li menm ka yon sous volatilite apa?**
+A) Pri IPO toujou idantik ak valè komès alontèm final yon aksyon san okenn volatilite
+B) Yo fikse premye pri a atravè yon pwosesis negosyasyon anvan komès piblik kòmanse, san benefis vrè dekouvèt pri sou mache piblik, sa ki ka mennen nan gwo balansman pri bonè pandan mache a ap fòme pwòp opinyon li
+C) Pri IPO pa gen okenn rapò ak konpòtman komès yon aksyon apre
+D) Se sèlman konpayi piblik ki etabli ki konnen okenn volatilite pri aksyon
+
+**Q5. Nan egzanp lan, poukisa aksyon an te bese apre peryòd blokaj la te ekspire, malgre pa t gen okenn chanjman klè nan pèfòmans biznis konpayi a?**
+A) Vrè pèfòmans biznis anba konpayi a te deteryore anpil an reyalite, san rapò ak ekspirasyon blokaj la
+B) Plis presyon vant ki soti nan aksyon ki te limite anvan yo k ap vin disponib pou vant, yon efè ki gen rapò ak ofri olye yon efè fondamantal, te kontribiye nan bès pri a
+C) Ekspirasyon blokaj toujou fè pri aksyon monte, se pa bese
+D) Egzanp lan dekri yon senaryo ki pa vrèman gen rapò ak dinamik peryòd blokaj
+
+## Kle repons yo
+Q1: B
+Q2: B
+Q3: B
+Q4: B
+Q5: B
+
+## Repons ak eksplikasyon
+**Q1.** Absans yon istorik piblik ki long limite aplikasyon teknik analiz ki depann de done tandans istorik.
+
+**Q2.** Peryòd blokaj la limite espesyalman vant moun anndan ak premye envestisè pou yon fenèt defini apre IPO a.
+
+**Q3.** Ogmantasyon toudenkou nan aksyon ki disponib pou vant, san rapò ak fondamantal biznis anba yo, te asosye nan istwa ak yon presyon sou pri alantou evènman sa a.
+
+**Q4.** Absans yon komès piblik etabli anvan yo fikse pri IPO a mete yon vrè ensètitid ki ka parèt kòm volatilite yon fwa vrè komès sou mache a kòmanse.
+
+**Q5.** Presyon ofri pouse ki soti nan aksyon ki fèk vin disponib, olye okenn chanjman nan fondamantal yo, prezante kòm yon faktè risk apa e byen dokimante alantou ekspirasyon blokaj.
+
+## Pwen kle yo
+- Yon IPO se premye vant aksyon yon konpayi bay piblik la, e li pote risk ki diferan de sa konpayi piblik ki etabli yo pote.
+- Divilgasyon finansye piblik ak istwa komès limite fè konpayi ki fèk antre sou bous pi difisil pou analize ak teknik ki baze sou tandans plizyè ane.
+- Yon peryòd blokaj limite vant moun anndan tanporèman, e ekspirasyon li ka kreye yon presyon pou pri a desann ki soti nan ofri e ki pa gen rapò ak fondamantal yo.
+- Pri IPO a li menm, yo fikse san dekouvèt pri sou mache piblik anvan, ka yon sous volatilite apa nan premye jou komès yo.
+
+===== WHITE-L4-044
+TITLE: Analiz vant a dekouvè (short selling): poukisa parye kont yon aksyon pote yon risk san limit
+SUMMARY: Konprann mekanis vant a dekouvè e poukisa, kontrèman ak achte yon aksyon, parye sou bès yon aksyon pote yon pèt potansyèl teyorikman san limit.
+KEYWORDS: vant a dekouvè, risk san limit, short squeeze, prete aksyon
+# Analiz vant a dekouvè (short selling): poukisa parye kont yon aksyon pote yon risk san limit
+
+## Senaryo pou louvri leson an
+SIPOZISYON/OPINYON (senaryo ipotetik pou objektif ansèyman sèlman): Imajine de gwo pisans ekonomik k ap ogmante kontwòl ekspòtasyon youn kont lòt sou yon kategori konpozan teknoloji avanse yo itilize nan anpil endistri. Pandan de gwo pisans ekonomik ap ogmante restriksyon teknoloji, yon envestisè kwè yon konpayi espesifik ki twò chè pral bese anpil e li vle fè benefis sou bès sa a li antisipe. Leson sa a egzamine zouti yo itilize pou egzakteman kalite pari sa a — ak pwofil risk asimetrik ki inik li.
+
+## Objektif aprantisaj
+- Esplike mekanis debaz vant a dekouvè yon aksyon.
+- Esplike poukisa benefis maksimòm posib yon moun ki vann a dekouvè gen limit alòske pèt maksimòm posib li teyorikman san limit.
+- Esplike kisa yon short squeeze ye e poukisa li ka fè moun ki vann a dekouvè anpil mal byen vit.
+- Konpare pwofil risk vant a dekouvè ak pa yon pozisyon aksyon long oswa yon opsyon put (Leson 15).
+
+## Kontni prensipal
+Vant a dekouvè (short selling) gen ladan l prete aksyon yon aksyon (souvan atravè yon koutye) e vann yo imedyatman nan pri mache kounye a, ak objektif pou achte pita menm kantite aksyon an nan yon pri yo espere ki pi ba pou remèt moun ki te prete yo a, e fè benefis sou diferans lan si pri aksyon an te bese. FÈ VERIFYE: sa se envès mekanik pwosesis òdinè "achte ba, vann wo" a — yon moun ki vann a dekouvè vann wo anvan, e li espere achte ba pita.
+
+Men "poukisa" sa kreye yon pwofil risk asimetrik ki inik konpare ak yon acha aksyon long òdinè: lè w achte yon aksyon dirèkteman, pèt maksimòm posib la se tout montan ou envesti a (aksyon an ka tonbe nan zewo, men pa pi ba), alòske benefis potansyèl la teyorikman san limit (aksyon an ta ka monte san fen). Vant a dekouvè ranvèse asimetri sa a nan direksyon ki pi danjere a: benefis maksimòm posib la gen limit (aksyon an ka tonbe sèlman nan zewo, kote benefis moun ki vann a dekouvè a fiks), men pèt maksimòm posib la teyorikman san limit, paske pa gen okenn plafon sou jan pri yon aksyon ta ka monte wo anvan moun ki vann a dekouvè a oblije rachte aksyon pou fèmen pozisyon an, jan sa ta ka rive si yon aksyon envestisè a te parye kont li fè sa okenn moun pa t atann nan mitan kondisyon enprevizib tankou sa yo nan senaryo pi wo a.
+
+Se poutèt sa yon "short squeeze" reprezante yon risk espesyalman grav e rapid pou moun ki vann a dekouvè: si pri yon aksyon anpil moun vann a dekouvè kòmanse monte sanzatann, kèk moun ki vann a dekouvè ka oblije (swa pa yon apèl maj, menm jan ak risk maj nou te kouvri nan Leson 17, swa pa pwòp desizyon jesyon risk yo) rachte aksyon pou fèmen pozisyon yo e limite plis pèt, e acha fòse sa a li menm ajoute plis presyon acha sou aksyon an, sa ki ka fòse lòt moun ki vann a dekouvè kouvri tou, sa ki kreye yon monte pri rapid ki ranfòse tèt li e ki ka fè moun ki vann a dekouvè ki pran nan squeeze la pèdi anpil e vit. Se poutèt sa yo an jeneral konsidere vant a dekouvè kòm yon estrateji ki pi riske pase achte yon opsyon put pwoteksyon (Leson 15) pou eksprime yon opinyon pesimis ki sanble, paske pèt maksimòm yon put limite nan prim yo peye a, alòske pèt maksimòm yon pozisyon a dekouvè pa gen okenn plafon konsa. RÈG ESPESIFIK POU REJYON AN: règ sou vant a dekouvè, prete aksyon, ak egzijans maj varye selon peyi ak koutye.
+
+## Egzanp pratik
+EGZANP ILISTRATIF: Yon envestisè vann a dekouvè yon aksyon nan $50 pa aksyon, li atann li bese. Olye sa, yon nouvèl sanzatann pouse yon gwo enterè pou achte aksyon an, e pri li monte rapidman rive $80, apre sa $120, pandan yon short squeeze ap devlope pami anpil envestisè ki te parye kont li, chak lòd achte-pou-kouvri fòse ajoute plis presyon monte. Yon envestisè ki okòmansman te riske sa ki ta ka sanble yon montan modès nan $50 pa aksyon kounye a fè fas ak yon pèt $70 oswa plis pa aksyon, san okenn garanti monte aksyon an fini, sa ki ilistre potansyèl pèt teyorikman san limit ki natirèl nan yon pozisyon a dekouvè, konpare ak pèt maksimòm ki gen limit e ou konnen davans yon pozisyon aksyon long oswa yon opsyon put.
+
+## Egzamen pratik
+**Q1. Ki mekanis debaz vant a dekouvè?**
+A) Achte yon aksyon e vann li imedyatman ak yon ti benefis
+B) Prete aksyon e vann yo imedyatman, ak objektif pou rachte menm kantite aksyon an pita nan yon pri ki pi ba pou remèt moun ki te prete yo a
+C) Achte yon opsyon call sou yon aksyon yo atann ki pral monte
+D) Kenbe yon aksyon pou yon peryòd trè kout, tankou kèk minit
+
+**Q2. Poukisa yo dekri pèt maksimòm posib yon moun ki vann a dekouvè kòm teyorikman san limit?**
+A) Pri yon aksyon ka sèlman bese, janm monte, yon fwa yo vann li a dekouvè
+B) Pa gen okenn plafon sou jan pri yon aksyon ta ka monte wo anvan moun ki vann a dekouvè a oblije rachte aksyon pou fèmen pozisyon an
+C) Lalwa pwoteje moun ki vann a dekouvè kont nenpòt pèt
+D) Vant a dekouvè toujou bay yon pèt maksimòm fiks e yo fikse davans
+
+**Q3. Kisa yon short squeeze ye?**
+A) Yon evènman ki planifye ki rive otomatikman chak trimès pou tout pozisyon a dekouvè
+B) Yon monte pri rapid ki ranfòse tèt li ki rive lè pri k ap monte fòse moun ki vann a dekouvè rachte aksyon, e acha fòse sa a li menm ajoute plis presyon monte
+C) Yon estrateji envestisè aksyon alontèm sèlman itilize
+D) Yon penalite taks yo aplike sou moun ki vann a dekouvè
+
+**Q4. Poukisa yo an jeneral konsidere vant a dekouvè kòm pi riske pase achte yon opsyon put pwoteksyon pou eksprime yon opinyon pesimis ki sanble?**
+A) Opsyon put ak vant a dekouvè gen pwofil risk idantik nan tout aspè
+B) Pèt maksimòm yon opsyon put limite nan prim yo peye a, alòske pèt maksimòm yon pozisyon a dekouvè pa gen okenn plafon konsa
+C) Vant a dekouvè toujou garanti yon pi gwo benefis pase achte yon opsyon put
+D) Ou pa ka itilize opsyon put pou eksprime yon opinyon pesimis sou yon aksyon
+
+**Q5. Nan egzanp lan, poukisa pèt envestisè a te grandi anpil konsa pandan pri aksyon an te monte soti $50 rive $120?**
+A) Pèt envestisè a te limite nan yon ti montan yo te fikse davans kèlkeswa pri aksyon an
+B) Kòm yon moun ki vann a dekouvè, pèt envestisè a te grandi dirèkteman ak pri aksyon k ap monte a, paske finalman li ta oblije rachte aksyon nan yon pri byen pi wo pase pri vant a dekouvè orijinal la pou fèmen pozisyon an
+C) Ogmantasyon pri aksyon an pa t gen okenn efè sou pozisyon a dekouvè envestisè a
+D) Envestisè a te fè benefis otomatikman sou pri aksyon k ap monte a
+
+## Kle repons yo
+Q1: B
+Q2: B
+Q3: B
+Q4: B
+Q5: B
+
+## Repons ak eksplikasyon
+**Q1.** Vant a dekouvè gen ladan l espesyalman sekans prete-vann-apre-rachte-e-remèt sa a, sa ki ranvèse lòd tipik yon acha aksyon estanda.
+
+**Q2.** Paske pri yon aksyon pa gen okenn limit teyorik anwo, pèt potansyèl yon moun ki vann a dekouvè akoz li oblije rachte nan yon pri ki de plizanpli wo pa gen limit tou.
+
+**Q3.** Yon short squeeze dekri bouk retwoaksyon espesifik sa a, souvan grav e rapid, ant pri k ap monte ak acha fòse pou kouvri pozisyon a dekouvè.
+
+**Q4.** Pèt ki gen limit yon opsyon put, konpare ak pèt san limit yon pozisyon a dekouvè, se distenksyon risk kle ant de fason sa yo pou parye kont yon aksyon.
+
+**Q5.** Mekanis fondamantal yon pozisyon a dekouvè vle di pèt yo akimile dirèkteman e san limit pandan pri aksyon yo vann a dekouvè a ap monte.
+
+## Pwen kle yo
+- Vant a dekouvè gen ladan l prete e vann aksyon, ak objektif pou rachte yo pita nan yon pri ki pi ba.
+- Kontrèman ak pèt ki gen limit ak benefis san limit yon pozisyon aksyon long, yon pozisyon a dekouvè gen yon benefis ki gen limit ak yon pèt teyorikman san limit.
+- Yon short squeeze se yon monte pri rapid ki ranfòse tèt li, kouvèti fòse deklanche, e ki ka fè pèdi anpil e vit.
+- Vant a dekouvè an jeneral pote plis risk pase yon pozisyon opsyon put pesimis ekivalan, paske pèt maksimòm put la limite nan prim li.
+
+===== WHITE-L4-045
+TITLE: Analiz siy nwa (black swan): poukisa risk ke yo pa mete ase pri sou li jiskaske li rive
+SUMMARY: Konprann konsèp risk ke (tail risk) ak evènman "siy nwa", e poukisa mache yo te gen tandans nan istwa pa mete ase pri sou pwobabilite evènman ra e ekstrèm.
+KEYWORDS: risk ke, evènman siy nwa, evènman ekstrèm, limit modèl risk
+# Analiz siy nwa (black swan): poukisa risk ke yo pa mete ase pri sou li jiskaske li rive
+
+## Senaryo pou louvri leson an
+SIPOZISYON/OPINYON (senaryo ipotetik pou objektif ansèyman sèlman): Imajine yon gwo pwoblèm sante piblik ki kanpe transpò maritim ak manifakti mondyal pou yon peryòd pwolonje, sa ki mele chèn apwovizyònman nan anpil endistri an menm tan. Anvan yon dezòd mondyal jeneral te vin yon reyalite, pifò modèl finansye ak pri mache te sipoze yon evènman konsa te gen trè ti chans rive, si yo te menm konsidere l. Leson sa a egzamine poukisa mache yo gen yon tandans dokimante e ki repete pou yo pa mete ase pri sou risk ra e ekstrèm — jiskaske youn vrèman rive.
+
+## Objektif aprantisaj
+- Esplike konsèp risk ke nan yon distribisyon estatistik rannman.
+- Esplike kisa yo vle di pa yon evènman "siy nwa" nan mache finansye.
+- Esplike poukisa modèl finansye ki baze sou done istorik ka souzestime pwobabilite evènman ekstrèm ki pa t janm rive anvan.
+- Esplike enplikasyon pratik pou pòtfolyo lè w pran risk ke oserye san w pa kapab prevwa evènman espesifik.
+
+## Kontni prensipal
+Risk ke (tail risk) refere a risk evènman ra e ekstrèm k ap rive nan bò ki pi lwen ("ke" yo) yon distribisyon estatistik rezilta envestisman posib — evènman byen pi grav pase fliktiyasyon tipik chak jou oswa chak ane yon modèl ki bati sou done istorik ta ka sijere ki gen chans rive. FÈ VERIFYE: yon evènman "siy nwa" (black swan), yon tèm analis risk ak otè Nassim Nicholas Taleb te fè vin popilè, refere espesyalman a yon evènman ki ra, ki gen yon efè ekstrèm, e moun esplike kòm previzib sèlman apre koze a, apre li fin rive deja — egzakteman kalite evènman senaryo pi wo a dekri a, ke ti kras modèl finansye moun itilize anpil te antisipe ak okenn pwobabilite ki gen sans davans.
+
+Men "poukisa" modèl finansye ki baze sou done istorik gen tandans estriktirèl pou souzestime pwobabilite evènman ekstrèm ki pa t janm rive anvan: dapre nati yo, yo bati modèl ak done pase, e yon evènman ki pa gen okenn presedan istorik ki pre, oswa sèlman yon presedan istorik limite, pral resevwa yon pwobabilite atifisyèlman ba nan men yon modèl yo fòme sitou sou peryòd istorik ki pi "nòmal", menm si evènman ra konsa, yon fwa ase tan pase, gen tandans finalman rive ak yon frekans reyèl, menm si li difisil pou prevwa, nan tout istwa finansye.
+
+Se poutèt sa pran risk ke oserye pa vle di eseye prevwa ki evènman siy nwa espesifik ki pral rive apre — OPINYON ak yon admisyon ki vrèman difisil, travay prediksyon espesifik sa a, prèske dapre definisyon, trè difisil, paske yon vrè siy nwa pa t janm rive anvan e pèsonn pa t antisipe l. Okontrè, jesyon risk ke pratik konsantre sou prensip konstriksyon pòtfolyo ki diminye vilnerabilite a nenpòt chòk grav e sanzatann, kèlkeswa kòz espesifik li: kenbe ase likidite ak rezèv lajan kach (sa ki raple prensip pwen ekilib ak rezèv nou kouvri lòt kote nan kourikoulòm sa a), evite twòp efè levye (Leson 17 ak 41) ki ta ka fòse yon vant an detrès pandan yon kriz, ak yon vrè divèsifikasyon (Leson 6) nan byen ki pa gen chans pou yo tout detwi pa menm sèl evènman ke pèsonn pa t prevwa.
+
+## Egzanp pratik
+EGZANP ILISTRATIF: Nan ane ki te mennen nan yon gwo dezòd mondyal ki pa t janm rive anvan, pifò modèl risk enstitisyon finansye yo te itilize te bay sèlman yon trè ti pwobabilite pou yon evènman nan kalite ak gravite espesifik sa a, dapre absans yon evènman ki konparab sere nan done istorik relativman resan modèl sa yo te bati sou yo. Lè dezòd la te rive, anpil pòtfolyo yo te konstwi dapre sipozisyon risk modèl sa yo te konnen pèt byen pi gwo pase sa modèl yo te sijere ki posib, sa ki ilistre tandans estriktirèl modèl ki baze sou istwa pou yo pa mete ase pri sou risk ke ki vrèman pa t janm rive anvan — yon modèl ki te repete, nan diferan fòm espesifik, nan plizyè moman nan istwa finansye.
+
+## Egzamen pratik
+**Q1. Kisa risk ke refere a?**
+A) Fliktiyasyon ki pi komen e chak jou nan valè yon envestisman
+B) Risk evènman ra e ekstrèm k ap rive nan bò ki pi lwen yon distribisyon estatistik rezilta posib
+C) Yon kalite obligasyon espesifik gouvènman emèt
+D) Risk ki asosye ak komès aksyon ak gwo frekans
+
+**Q2. Kisa ki defini yon evènman "siy nwa"?**
+A) Yon evènman mache komen, fasil pou prevwa, ki rive regilyèman
+B) Yon evènman ra ak yon efè ekstrèm moun esplike kòm previzib sèlman apre koze a, apre li fin rive deja
+C) Yon kalite aksyon ki peye yon dividann ki wo pase nòmal
+D) Yon evènman ki rive egzakteman menm lè chak ane
+
+**Q3. Poukisa modèl finansye ki baze sou done istorik gen tandans souzestime pwobabilite evènman ekstrèm ki pa t janm rive anvan?**
+A) Modèl ki bati sou done istorik toujou prevwa tout evènman nan lavni yon fason pafè ak yon egzaktitid konplè
+B) Yon evènman ki pa gen okenn presedan istorik ki pre pral resevwa yon pwobabilite atifisyèlman ba nan men yon modèl yo fòme sitou sou peryòd istorik ki pi tipik
+C) Done istorik pa gen okenn rapò ak jan yo konstwi modèl finansye
+D) Modèl pa janm itilize done istorik nan konstriksyon yo
+
+**Q4. Poukisa yo konsidere eseye prevwa ki evènman siy nwa espesifik ki pral rive apre kòm trè difisil?**
+A) Evènman siy nwa an reyalite trè komen e fasil pou prevwa ak modèl estanda
+B) Yon vrè siy nwa, prèske dapre definisyon, pa t janm rive anvan e pèsonn pa t antisipe l, sa ki fè prediksyon espesifik natirèlman trè difisil
+C) Analis finansye te reyisi prevwa chak evènman siy nwa davans nan tout istwa
+D) Evènman siy nwa afekte sèlman yon kategori byen espesifik
+
+**Q5. Ki yon enplikasyon pratik pou pòtfolyo lè w pran risk ke oserye, akoz difikilte pou prevwa evènman espesifik?**
+A) Eseye prevwa egzakteman pwochen evènman siy nwa espesifik la e pozisyone w sèlman pou rezilta sa a
+B) Konsantre sou prensip konstriksyon pòtfolyo tankou ase likidite, evite twòp efè levye, ak yon vrè divèsifikasyon, ki diminye vilnerabilite a chòk grav kèlkeswa kòz espesifik yo
+C) Inyore risk ke nèt paske ou pa ka prevwa l yon fason pafè
+D) Konsantre yon pòtfolyo nèt nan yon sèl byen pou maksimize rannman
+
+## Kle repons yo
+Q1: B
+Q2: B
+Q3: B
+Q4: B
+Q5: B
+
+## Repons ak eksplikasyon
+**Q1.** Risk ke konsène espesyalman rezilta ra e grav nan bout yon distribisyon pwobabilite, diferan de fliktiyasyon tipik ki pi souvan.
+
+**Q2.** Konbinezon espesifik sa a — ra, efè grav, ak previzibilite sèlman apre koze a — defini konsèp siy nwa nan analiz risk finansye.
+
+**Q3.** Depandans estriktirèl sou done pase vle di evènman ki vrèman pa t janm rive anvan natirèlman difisil pou modèl sa yo antisipe ak yon pwobabilite ki egzak.
+
+**Q4.** Menm definisyon yon evènman siy nwa — ra, ekstrèm, e ou ka esplike l sèlman apre koze a — fè prediksyon espesifik davans yon travay natirèlman difisil, prèske kontradiktwa.
+
+**Q5.** Paske ou pa ka prevwa evènman siy nwa espesifik yon fason fyab, prensip pòtfolyo jeneral ki bati rezistans ofri yon apwòch ki pi pratik pou jere risk ke an jeneral.
+
+## Pwen kle yo
+- Risk ke refere a evènman ra e ekstrèm nan bò ki pi lwen yon distribisyon rezilta envestisman posib.
+- Yon evènman siy nwa ra, li gen yon efè ekstrèm, e ou ka esplike l kòm previzib sèlman apre koze a.
+- Modèl finansye ki baze sou istwa gen tandans estriktirèl pou souzestime pwobabilite evènman ekstrèm ki vrèman pa t janm rive anvan.
+- Jesyon risk ke pratik konsantre sou rezistans jeneral — likidite, evite twòp efè levye, ak yon vrè divèsifikasyon — olye prevwa evènman espesifik.
