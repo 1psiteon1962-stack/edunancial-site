@@ -1,0 +1,249 @@
+===== BLUE-L3-006
+TITLE: Poukisa yon lèt entansyon pa yon akò acha ki mare w
+SUMMARY: Aprann kisa yon lèt entansyon angaje w pou li e kisa li pa angaje w pou li, ak poukisa trete l tankou yon kontra final ka kreye konfizyon oswa risk.
+# BLUE-L3-006: Poukisa yon lèt entansyon pa yon akò acha ki mare w
+
+## Objektif aprantisaj
+Lè w fin fè leson sa a, w ap kapab:
+- Esplike objektif jeneral yon lèt entansyon (LOI) lè w ap achte yon biznis
+- Esplike ki pati nan yon LOI ki anjeneral mare w ak ki pati ki pa mare w
+- Esplike poukisa yon LOI se yon etap ki itil menm si pifò ladan l pa ka aplike devan lalwa
+
+## Kontni prensipal
+
+Yon **lèt entansyon (LOI)** se yon dokiman ki dekri premye kondisyon de pati yo dakò an prensip anvan yo ekri e siyen yon akò acha konplè, fòmèl. Li anjeneral kouvri pri yo pwopoze a, estrikti jeneral tranzaksyon an, ak kondisyon kle tou de bò yo atann pou yo mete nan akò final la.
+
+Men "poukisa" li enpòtan malgre li anjeneral pa yon angajman vant ki mare w: [FÈ VERIFYE] pifò kondisyon serye nan yon LOI — pri, estrikti, ak lòt kondisyon biznis ki sanble — anjeneral pa mare w, sa ki vle di nenpòt pati ka toujou fè bak anvan yo siyen yon akò final, alòske kèk dispozisyon espesifik (tankou obligasyon konfidansyalite oswa yon peryòd eksklizivite yo dakò, pandan vandè a dakò pou l pa negosye ak lòt achtè) souvan estriktire pou yo mare w, menm anndan yon LOI ki otreman pa mare w.
+
+Estrikti sa a sèvi yon vrè objektif: li pèmèt tou de pati yo aliyen sou gwo kondisyon yo e angaje yon tan ak resous ki gen sans nan verifikasyon (due diligence, Leson 7) ak nan ekri yon akò final, san okenn bò pa mare devan lalwa nan yon tranzaksyon ki ta ka kraze pita akoz sa yo jwenn pandan pwosesis sa a.
+
+## Egzanp pratik
+
+[EGZANP ILISTRATIF] Yon achtè ak yon vandè siyen yon LOI ki dekri yon pri yo dakò ak yon estrikti jeneral pou tranzaksyon an, ansanm ak yon peryòd eksklizivite 60 jou ki mare yo, pandan vandè a dakò pou l pa negosye ak lòt achtè posib. [SIPOZISYON] Pandan peryòd 60 jou sa a, verifikasyon achtè a dekouvri yon gwo pwoblèm nan finans biznis la yo pa t devwale anvan. Kòm kondisyon serye sou pri ak estrikti nan LOI a pa t mare yo, achtè a ka renegosye pri a oswa fè bak nèt — alòske kloz eksklizivite a li menm rete mare yo e ka aplike, li te deja sèvi objektif li pou l pwoteje tan achtè a te envesti pandan peryòd verifikasyon an.
+
+## Egzamen pratik
+
+1. Kisa objektif jeneral yon lèt entansyon ye?
+2. Ki pati nan yon LOI ki anjeneral pa mare w, e ki pati ki souvan mare w?
+3. Poukisa estrikti sa a itil pou tou de pati yo, menm si pifò nan LOI a pa ka aplike devan lalwa?
+
+## Kle repons yo
+
+1. Pou dekri premye kondisyon tou de pati yo dakò an prensip anvan yo ekri yon akò acha konplè, fòmèl.
+2. Kondisyon biznis serye tankou pri ak estrikti tranzaksyon an anjeneral pa mare w; dispozisyon tankou konfidansyalite ak peryòd eksklizivite souvan estriktire pou yo mare w.
+3. Paske li pèmèt tou de pati yo aliyen sou gwo kondisyon yo e envesti nan verifikasyon ak ekri kontra a san yo pa mare devan lalwa nan yon tranzaksyon ki ta ka chanje selon sa verifikasyon an revele.
+
+## Repons ak eksplikasyon
+
+1. Sa a se definisyon debaz leson an.
+2. Sa klarifye diferans enpòtan ant sa ki mare w ak sa ki pa mare w anndan yon sèl dokiman.
+3. Sa esplike valè pratik estrikti LOI a malgre pifò ladan l pa mare w.
+
+## Pwen kle yo
+- Yon LOI dekri premye kondisyon yo dakò anvan yo ekri yon akò acha konplè.
+- Kondisyon serye tankou pri a anjeneral pa mare w; dispozisyon espesifik tankou konfidansyalite ak eksklizivite souvan mare w.
+- Estrikti sa a pèmèt tou de pati yo envesti nan verifikasyon ak ekri kontra a san yo pa mare devan lalwa nan kondisyon final tranzaksyon an.
+
+---
+
+*Leson sa a se sèlman pou edikasyon finansye jeneral, e li pa konstitye konsèy finansye, envestisman, taks, oswa legal pèsonalize. Konsilte yon avoka ki gen lisans anvan ou siyen nenpòt lèt entansyon oswa akò acha.*
+
+===== BLUE-L3-007
+TITLE: Poukisa verifikasyon (due diligence) egziste pou jwenn sa vandè a pa t di w
+SUMMARY: Aprann poukisa verifikasyon (due diligence) se yon pwosesis envestigasyon òganize, pa sèlman yon fòmalite, e poukisa li egziste pou jwenn risk ki pa t ap parèt otreman.
+# BLUE-L3-007: Poukisa verifikasyon (due diligence) egziste pou jwenn sa vandè a pa t di w
+
+## Objektif aprantisaj
+Lè w fin fè leson sa a, w ap kapab:
+- Esplike objektif jeneral verifikasyon (due diligence) lè w ap achte yon biznis
+- Idantifye gwo kategori enfòmasyon verifikasyon an anjeneral kouvri
+- Esplike poukisa verifikasyon an fèt apre yon LOI men anvan yon akò acha final
+
+## Kontni prensipal
+
+**Verifikasyon (due diligence)** se pwosesis òganize ki vin apre yo siyen yon LOI (Leson 6), pandan achtè a fè yon envestigasyon apwofondi sou dosye finansye, sitiyasyon legal, kontra, operasyon, ak lòt detay enpòtan yon biznis anvan l finalize acha a.
+
+Men "poukisa" pwosesis sa a egziste kòm yon etap apa, ki fèt espre: yon vandè, sa ki konprann, prezante biznis li nan pi bèl limyè posib pandan premye negosyasyon yo — sa pa vle di nesesèman li ap twonpe moun, men vandè yo pa oblije bay chak enfòmasyon ki pa favorab poukont yo sof si yo mande yo espesyalman oswa si lalwa egzije l. Verifikasyon an egziste pou verifye poukont ou deklarasyon yo te fè pandan negosyasyon yo e pou chèche aktivman pwoblèm — dèt yo pa t devwale, diskisyon legal k ap tann, risk konsantrasyon kliyan (yon leson pita), oswa sa ki pa koresponn nan dosye finansye yo — ki pa t ap nesesèman parèt atravè konvèsasyon sèlman.
+
+[FÈ VERIFYE] Verifikasyon an souvan kouvri dosye finansye (verifye revni ak depans yo rapòte), zafè legal (kontra, pwosè k ap tann, konfòmite ak règleman), detay operasyon (depandans sou anplwaye kle, relasyon ak founisè), ak nenpòt lòt domèn ki enpòtan espesyalman pou biznis patikilye y ap achte a.
+
+## Egzanp pratik
+
+[EGZANP ILISTRATIF] Yo di yon achtè k ap negosye pou l achte yon biznis ke konpayi a gen revni solid, estab e pa gen okenn gwo pwoblèm legal. Pandan verifikasyon an, yon revizyon atantif dosye finansye yo montre ke yon bon pati nan revni ki fèk antre yo te soti nan yon sèl gwo kontra ak yon kliyan ki pral fini byento e ki pa gen chans renouvle — yon enfòmasyon yo pa t bay espesyalman pandan premye konvèsasyon yo men ki afekte anpil vrè avni biznis la. [SIPOZISYON] Dekouvèt sa a, ki parèt espesyalman atravè pwosesis verifikasyon an, bay achtè a yon baz pou l renegosye pri a oswa rekonsidere tranzaksyon an nèt, sa ki konekte ak diskisyon Leson 6 sou kijan kondisyon LOI ki pa mare w pèmèt kalite ajisteman sa a.
+
+## Egzamen pratik
+
+1. Kisa verifikasyon (due diligence) ye, e ki lè li anjeneral fèt nan pwosesis acha a?
+2. Poukisa verifikasyon an egziste kòm yon etap apa, ki fèt espre, olye yo konte sou deklarasyon pwòp vandè a?
+3. Nonmen twa kategori enfòmasyon verifikasyon an souvan kouvri.
+
+## Kle repons yo
+
+1. Yon envestigasyon òganize sou detay finansye, legal, ak operasyon yon biznis, ki fèt apre yo siyen yon LOI men anvan yon akò acha final.
+2. Paske vandè yo prezante biznis yo yon fason favorab e yo pa oblije nesesèman bay chak detay ki pa favorab, kidonk verifikasyon an verifye deklarasyon yo poukont li e li chèche aktivman pwoblèm ki pa t ap parèt otreman.
+3. Nenpòt twa nan: dosye finansye, zafè legal (kontra, pwosè, konfòmite), detay operasyon (anplwaye kle, relasyon ak founisè), oswa lòt faktè espesifik pou biznis la.
+
+## Repons ak eksplikasyon
+
+1. Sa a se definisyon debaz ak moman pwosesis la pou leson an.
+2. Sa a se "poukisa" santral ki esplike poukisa pwosesis la nesesè.
+3. Sa teste si w konprann sa yon envestigasyon verifikasyon kouvri nan pratik.
+
+## Pwen kle yo
+- Verifikasyon (due diligence) se yon envestigasyon òganize ki fèt apre yon LOI, anvan yon akò acha final.
+- Li egziste pou verifye deklarasyon yo poukont li e pou jwenn pwoblèm ki pa t ap parèt otreman pandan negosyasyon yo.
+- Li souvan kouvri detay finansye, legal, ak operasyon ki espesifik pou biznis y ap achte a.
+
+---
+
+*Leson sa a se sèlman pou edikasyon finansye jeneral, e li pa konstitye konsèy finansye, envestisman, taks, oswa legal pèsonalize. Konsilte pwofesyonèl kontab ak legal ki gen lisans anvan ou fini nenpòt acha biznis.*
+
+===== BLUE-L3-008
+TITLE: Poukisa yon "earnout" mare yon pati nan pri a ak pèfòmans alavni
+SUMMARY: Aprann kijan yon estrikti earnout (peman selon pèfòmans) mache nan vant yon biznis, ak poukisa li ka ede achtè ak vandè dakò sou pri a lè yo pa dakò sou avni an.
+# BLUE-L3-008: Poukisa yon "earnout" mare yon pati nan pri a ak pèfòmans alavni
+
+## Objektif aprantisaj
+Lè w fin fè leson sa a, w ap kapab:
+- Esplike kisa yon earnout ye
+- Esplike poukisa yon earnout ka rezoud yon kalite dezakò espesifik sou valè
+- Esplike yon risk yon earnout kreye pou vandè a
+
+## Kontni prensipal
+
+Yon **earnout** (peman selon pèfòmans) se yon estrikti tranzaksyon kote yon pati nan pri total la depann de si biznis la rive nan objektif pèfòmans espesifik apre vant lan fini, olye yo peye l tout okòmansman. Yo souvan itilize l ansanm ak lòt metòd finansman, enkli finansman vandè (Leson 1).
+
+Men "poukisa" earnout egziste: achtè ak vandè souvan pa dakò sou jan biznis la gen chans fè alavni — vandè a ka optimis sou posiblite kwasans achtè a pi ensèten sou yo, sitou si kwasans sa a depann de plan vandè a poko egzekite. Yon earnout rezoud dezakò espesifik sa a lè l estriktire yon pati nan pri a pou yo peye l sèlman si pwojeksyon optimis yo vrèman rive, sa ki pèmèt tou de pati yo dakò sou yon tranzaksyon san okenn bò pa bezwen aksepte nèt pwen de vi lòt la sou avni an okòmansman.
+
+[FÈ VERIFYE] Sepandan, earnout yo kreye yon vrè risk pou vandè a: paske se achtè a (kòm nouvo mèt la) ki anjeneral kontwole pèfòmans biznis la pandan peryòd earnout la, vandè a depann de desizyon ak jesyon achtè a pou yo vrèman rive nan objektif ki deside dènye peman vandè a — yon dinamik ki merite pou yo trete l ak anpil atansyon nan fason yo estriktire kondisyon earnout la ak nenpòt patisipasyon oswa sipèvizyon vandè a ki enpòtan.
+
+## Egzanp pratik
+
+[EGZANP ILISTRATIF] Yon vandè kwè biznis li prèt pou l grandi anpil akoz yon nouvo pwodui li t ap devlope, e li vle yon pri ki reflete kwasans li atann lan. Achtè a pi pridan, li pito peye selon pèfòmans aktyèl biznis la, pèfòmans ki deja pwouve. Yo dakò sou yon earnout: yon pri debaz ki reflete pèfòmans aktyèl la, plis yon lòt peman ki depann de si biznis la rive nan objektif revni espesifik pandan de pwochen ane yo. [SIPOZISYON] Si nouvo pwodui a reyisi jan vandè a te atann, li resevwa lòt peman an; si li pa reyisi, achtè a pa pran nan pyèj pou l te peye twòp sou baz pwojeksyon ki pa t rive — men vandè a depann kounye a de jan achtè a byen egzekite e sipòte nouvo pwodui sa a apre li fin pran biznis la.
+
+## Egzamen pratik
+
+1. Kisa yon earnout ye?
+2. Ki kalite dezakò espesifik yon earnout ede rezoud?
+3. Ki risk yon earnout kreye espesyalman pou vandè a?
+
+## Kle repons yo
+
+1. Yon estrikti tranzaksyon kote yon pati nan pri a depann de si biznis la rive nan objektif pèfòmans espesifik apre vant lan fini.
+2. Yon dezakò ant achtè ak vandè sou jan biznis la gen chans fè alavni, sitou lè avni sa a depann de plan yo poko egzekite.
+3. Dènye peman vandè a depann de desizyon ak jesyon achtè a apre li fin pran biznis la, paske se achtè a ki kontwole pèfòmans biznis la kounye a pandan peryòd earnout la.
+
+## Repons ak eksplikasyon
+
+1. Sa a se definisyon debaz leson an.
+2. Sa a se "poukisa" santral ki esplike objektif estrikti earnout la.
+3. Sa a se yon avètisman pratik ki enpòtan sou kontwòl vandè a pèdi pandan peryòd earnout la.
+
+## Pwen kle yo
+- Yon earnout mare yon pati nan pri yon biznis ak objektif pèfòmans espesifik alavni apre vant lan fini.
+- Li ede rezoud dezakò ant achtè ak vandè sou jan biznis la gen chans fè alavni.
+- Li kreye yon vrè risk pou vandè a, kote peman li depann de desizyon ak jesyon achtè a apre vant lan.
+
+---
+
+*Leson sa a se sèlman pou edikasyon finansye jeneral, e li pa konstitye konsèy finansye, envestisman, taks, oswa legal pèsonalize. Konsilte yon avoka ki gen lisans anvan ou estriktire oswa ou dakò sou yon dispozisyon earnout.*
+
+===== BLUE-L3-009
+TITLE: Poukisa yon kloz ki entèdi konkirans pwoteje valè w vrèman ap achte a
+SUMMARY: Aprann poukisa yon akò ki entèdi konkirans souvan esansyèl lè w ap achte yon biznis, ak poukisa valè w ap achte a depann de li.
+# BLUE-L3-009: Poukisa yon kloz ki entèdi konkirans pwoteje valè w vrèman ap achte a
+
+## Objektif aprantisaj
+Lè w fin fè leson sa a, w ap kapab:
+- Esplike objektif jeneral yon kloz ki entèdi konkirans (non-compete) lè w ap achte yon biznis
+- Esplike poukisa li pwoteje dirèkteman valè goodwill yo diskite nan Leson 5
+- Esplike poukisa jan yo ka aplike kloz sa yo varye e poukisa yo mande yon redaksyon ak anpil atansyon
+
+## Kontni prensipal
+
+Yon **kloz ki entèdi konkirans** (non-compete) nan kontèks achte yon biznis anjeneral anpeche vandè a kòmanse oswa antre nan yon biznis ki an konkirans nan yon zòn jeyografik ak pou yon peryòd tan apre vant lan fini.
+
+Men "poukisa" kloz sa a souvan esansyèl, sa ki konekte dirèkteman ak diskisyon Leson 5 sou goodwill: anpil nan sa yon achtè ap peye pou li — relasyon ak kliyan, repitasyon, relasyon ak anplwaye ki fòme — mare de pre ak vandè a pèsonèlman, sitou nan yon ti biznis kote kèk moun sèlman se pwopriyetè. San yon kloz ki entèdi konkirans, vandè a ta ka, an teyori, mete lajan vant lan nan pòch li epi touswit louvri yon nouvo biznis ki an konkirans tou pre a, li ale ak anpil nan menm kliyan ak relasyon yo — sa ki ta kraze an reyalite menm valè goodwill achtè a fèk peye a.
+
+[FÈ VERIFYE] Jan yo ka aplike kloz ki entèdi konkirans yo varye anpil selon jiridiksyon an, kèk kote mete limit sevè sou kote yo aplike, konbyen tan yo dire, oswa si yo ka aplike yo ditou, e règ yo ka diferan espesyalman pou kloz ki mare ak vant yon biznis konpare ak sa ki nan yon kontèks travay — se yon domèn ki mande yon redaksyon legal atantif, espesifik pou jiridiksyon an, olye yon modèl jeneral. [RÈG ESPESIFIK POU REJYON AN] An Ayiti, konfime ak yon avoka ki kalifye si e kijan yon kloz konsa ta valab dapre lwa ki aplike yo anvan ou konte sou li.
+
+## Egzanp pratik
+
+[EGZANP ILISTRATIF] Yon achtè achte yon biznis sèvis lokal, li peye yon prim ki reflete bon repitasyon vandè a ak baz kliyan fidèl li — sa vle di, yon gwo valè goodwill, dapre Leson 5. San yon kloz ki entèdi konkirans ki byen ekri e ki ka aplike, vandè a ta ka louvri yon nouvo biznis ki sanble kèk blòk pi lwen yon ti tan apre vant lan, li ta gen chans rale anpil nan menm kliyan yo sou baz relasyon pèsonèl ak repitasyon achtè a te peye espesyalman pou yo. [SIPOZISYON] Yon kloz ki byen ekri, ki rezonab nan kote li aplike ak konbyen tan li dire pou jiridiksyon ki konsène a, pwoteje envestisman achtè a nan goodwill sa a lè l anpeche senaryo espesifik sa a.
+
+## Egzamen pratik
+
+1. Kisa yon kloz ki entèdi konkirans anjeneral anpeche lè w ap achte yon biznis?
+2. Poukisa yo souvan konsidere yon kloz ki entèdi konkirans kòm esansyèl, an lyen ak konsèp goodwill Leson 5 la?
+3. Poukisa jan yo ka aplike kloz sa yo mande yon redaksyon legal atantif, espesifik pou jiridiksyon an, olye yon modèl jeneral?
+
+## Kle repons yo
+
+1. Li anpeche vandè a kòmanse oswa antre nan yon biznis ki an konkirans nan yon zòn jeyografik ak pou yon peryòd tan apre vant lan.
+2. Paske anpil nan valè goodwill yon achtè peye a mare ak vandè a pèsonèlman, e san yon kloz konsa, vandè a ta ka kraze valè sa a lè l louvri yon biznis ki an konkirans e l rale menm kliyan yo.
+3. Paske jan yo ka aplike yo varye anpil selon jiridiksyon an, ak limit diferan sou kote yo aplike, konbyen tan yo dire, ak si yo ka aplike yo, e règ yo ka diferan de kloz ki nan yon kontèks travay.
+
+## Repons ak eksplikasyon
+
+1. Sa a se definisyon debaz leson an.
+2. Sa konekte kloz la dirèkteman ak konsèp goodwill Leson 5 la, sa ki ranfòse estrikti entegre tras la.
+3. Sa ranfòse yon pridans apwopriye akoz gwo diferans legal yo.
+
+## Pwen kle yo
+- Yon kloz ki entèdi konkirans anpeche yon vandè fè konkirans ak biznis achtè a fèk achte a pou yon tan ak nan yon zòn yo fikse.
+- Sa pwoteje dirèkteman valè goodwill yon achtè ap peye pou li, sitou nan biznis ki mare de pre ak vandè a pèsonèlman.
+- Jan yo ka aplike kloz sa yo varye anpil selon jiridiksyon an, sa ki mande yon redaksyon legal atantif, pwofesyonèl.
+
+---
+
+*Leson sa a se sèlman pou edikasyon finansye jeneral, e li pa konstitye konsèy finansye, envestisman, taks, oswa legal pèsonalize. Konsilte yon avoka ki gen lisans anvan ou ekri oswa ou dakò sou nenpòt kloz ki entèdi konkirans.*
+
+===== BLUE-L3-010
+TITLE: Poukisa prè SBA yo egziste pou ranpli yon twou finansman pou moun k ap achte ti biznis
+SUMMARY: Aprann poukisa prè SBA gouvènman an garanti yo egziste pou achte ti biznis, ak poukisa yo ka ofri kondisyon moun k ap prete tradisyonèl yo pa t ap bay otreman.
+# BLUE-L3-010: Poukisa prè SBA yo egziste pou ranpli yon twou finansman pou moun k ap achte ti biznis
+
+## Objektif aprantisaj
+Lè w fin fè leson sa a, w ap kapab:
+- Esplike objektif jeneral pwogram prè SBA garanti yo
+- Esplike poukisa yon garanti gouvènman chanje volonte yon moun k ap prete pou l finanse achte yon ti biznis
+- Esplike poukisa prè SBA yo souvan mache ansanm ak finansman vandè a, olye yo ranplase l
+
+## Kontni prensipal
+
+Ozetazini, Small Business Administration (SBA) ofri pwogram prè kote gouvènman an garanti yon pati nan yon prè yon moun k ap prete prive ki patisipe bay, olye li prete lajan an dirèkteman li menm. [FÈ VERIFYE] SBA fikse kondisyon espesifik pwogram yo, egzijans pou w kalifye, ak pousantaj garanti yo, e yo chanje detanzantan — yo ta dwe verifye detay pwogram aktyèl yo dirèkteman olye yo sipoze yo. [RÈG ESPESIFIK POU REJYON AN] SBA se yon pwogram Etazini; pa sipoze gen yon pwogram ki menm jan an Ayiti — verifye ak bank lokal yo oswa ak yon konseye ki kalifye ki pwogram finansman, si genyen, ki disponib kote w ye a.
+
+Men "poukisa" garanti gouvènman sa a enpòtan, sa ki konekte ak diskisyon Leson 1 sou poukisa moun k ap prete tradisyonèl yo souvan ezite finanse nèt achte yon ti biznis: kòm gouvènman an garanti yon pati enpòtan nan prè a si moun ki prete a pa peye, moun k ap prete ki patisipe yo pran mwens risk anpil pase sa yo ta pran sou yon prè tradisyonèl ki pa garanti ditou — sa ki fè yo dispoze ofri finansman, souvan ak kondisyon ki pi favorab (tankou yon ti avans pi piti oswa yon tan pou remèt pi long), pase sa yo ta ka bay otreman pou achte yon ti biznis.
+
+Se poutèt sa prè SBA yo souvan mache ansanm ak finansman vandè a (Leson 1) olye yo ranplase l nèt — yon estrikti tipik ta ka konbine yon prè SBA garanti ki kouvri yon gwo majorite pri a, yon pati finansman vandè, ak kèk avans kach achtè a, ki ansanm fèmen tout twou finansman yon prè tradisyonèl poukont li pa t ap kouvri.
+
+## Egzanp pratik
+
+[EGZANP ILISTRATIF] Yon achtè vle achte yon ti biznis pou $500,000. Yon bank ki patisipe nan yon pwogram prè SBA dakò prete yon gwo majorite nan kantite lajan sa a, ak gouvènman an ki garanti yon pati nan prè a si moun nan pa peye — yon estrikti ki bay bank lan ase konfyans pou l bay yon finansman li pa t ap gen chans ofri si li pa t garanti ditou pou kalite acha sa a. Balans ki rete a separe ant yon pi piti pati finansman vandè ak pwòp avans kach achtè a, ki ansanm finanse tout acha a.
+
+## Egzamen pratik
+
+1. Kisa yon pwogram prè SBA garanti anjeneral fè?
+2. Poukisa yon garanti gouvènman chanje volonte yon moun k ap prete prive pou l finanse achte yon ti biznis?
+3. Poukisa prè SBA yo souvan mache ansanm ak finansman vandè a olye yo ranplase l?
+
+## Kle repons yo
+
+1. Gouvènman an garanti yon pati nan yon prè yon moun k ap prete prive ki patisipe bay, olye li prete dirèkteman.
+2. Paske garanti a diminye risk moun k ap prete a si moun ki prete a pa peye, sa ki fè moun k ap prete a pi dispoze ofri finansman, souvan ak kondisyon ki pi favorab, pase yon prè ki pa garanti ditou.
+3. Paske prè SBA yo anjeneral kouvri yon gwo pati, men pa nesesèman tout pri a, kidonk finansman vandè ak kach achtè a souvan ranpli twou ki rete a.
+
+## Repons ak eksplikasyon
+
+1. Sa a se konsèp debaz leson an, ak yon rezèv apwopriye paske pwogram yo chanje ak tan.
+2. Sa konekte dirèkteman ak twou finansman yo diskite nan Leson 1.
+3. Sa esplike kijan de zouti finansman sa yo souvan mache ansanm nan estrikti yon vrè tranzaksyon.
+
+## Pwen kle yo
+- Nan pwogram prè SBA yo, gouvènman an garanti yon pati nan yon prè yon moun k ap prete prive bay, sa ki diminye risk moun k ap prete a.
+- Garanti sa a fè moun k ap prete yo pi dispoze finanse achte ti biznis, souvan ak kondisyon ki pi favorab.
+- Prè SBA yo souvan konbine ak finansman vandè ak kach achtè a pou finanse tout yon acha, olye yo ranplase finansman vandè a nèt.
+
+---
+
+*Leson sa a se sèlman pou edikasyon finansye jeneral, e li pa konstitye konsèy finansye, envestisman, taks, oswa legal pèsonalize. Detay pwogram yo varye e yo chanje ak tan; verifye direktiv aktyèl pwogram SBA yo dirèkteman e konsilte yon pwofesyonèl ki gen lisans anvan ou pran desizyon sou finansman.*
