@@ -97,3 +97,155 @@ Men "poukisa" evite konfli ka difisil espesyalman pou w rekonèt nan tèt ou: so
 ---
 
 *Leson sa a se sèlman pou edikasyon lidèchip jeneral, e li pa konstitye konsèy finansye, envestisman, taks, oswa legal pèsonalize. Konsilte yon pwofesyonèl ki gen lisans anvan w pran desizyon sou jesyon òganizasyon.*
+
+===== BLACK-L3-013
+TITLE: Poukisa estrès finansye pèsonèl yon lidè vin yon risk pou òganizasyon an
+SUMMARY: Aprann poukisa presyon finansye pèsonèl yon lidè pa rezoud ka defòme desizyon nan òganizasyon an, e poukisa koneksyon sa a merite yo rekonèt li onètman olye pou yo nye l.
+# BLACK-L3-013: Poukisa estrès finansye pèsonèl yon lidè vin yon risk pou òganizasyon an
+
+## Objektif aprantisaj
+Lè w fin fè leson sa a, w ap kapab:
+- Esplike poukisa estrès finansye pèsonèl yon lidè ka defòme desizyon nan òganizasyon an
+- Konekte konsèp sa a ak jijman ajiste pou risk yo diskite nan tras GOLD kourikoulòm sa a
+- Esplike poukisa rekonèt koneksyon sa a onètman pi itil pase nye li egziste
+
+## Kontni prensipal
+
+Tras GOLD kourikoulòm sa a te etabli ke pran bon desizyon mande pou w evalye risk ak rannman klèman, san emosyon defòme yo. Men "poukisa" pwòp presyon finansye pèsonèl yon lidè — dèt, yon bezwen lajan kach pèsonèl ijan, oswa yon estrès finansye pi laj — ka defòme desizyon òganizasyon an an silans yon fason ki vrèman difisil pou separe nèt: yon lidè ki anba yon gwo presyon finansye pèsonèl ka, san l pa rann li kont, favorize desizyon ki bay pwòp sitiyasyon pa l yon soulajman sou kout tèm (yon ogmantasyon salè ijan, yon tranzaksyon rapid men ki riske) olye desizyon ki vrèman pi bon pou sante òganizasyon an sou long tèm.
+
+Sa pa vle di lidè ki anba estrès finansye ap aji ak move fwa — se yon rekonesans, an akò ak patipri konpòtman yo kouvri nan tout kourikoulòm sa a, ke presyon finansye pèsonèl se yon vrè sous defòmasyon nan desizyon ki merite yo rekonèt li onètman, avèk pwoteksyon estriktirèl (sa ki fè eko ak diskisyon Leson 10 la sou mekanis opozisyon) olye yon sipozisyon ke yon lidè ka senpleman deside vin parfètman objektif malgre yon gwo presyon finansye pèsonèl.
+
+Èske gen yon desizyon w ap fè fas avè l kounye a kote pwòp sitiyasyon finansye pèsonèl ou ta ka ap enfliyanse an silans jijman ou sou sa ki vrèman pi bon pou òganizasyon an? Kisa yon pèspektiv ki vrèman endepandan ta di sou menm desizyon sa a?
+
+## Egzanp pratik
+
+[EGZANP ILISTRATIF] Yon lidè ki anba yon gwo presyon finansye pèsonèl ap evalye si pou l pouswiv yon tranzaksyon biznis ki riske men ki rapòte anpil lajan touswit. [SIPOZISYON] San l pa rekonèt kijan pwòp estrès finansye li ta ka ap enfliyanse evalyasyon sa a, lidè a ka bay vrè risk tranzaksyon an pou òganizasyon an mwens pwa pase yo merite, defòme pa yon preferans san konesans pou soulajman sou kout tèm lajan tranzaksyon an ta ba li pèsonèlman — yon defòmasyon yon pwoteksyon estriktirèl, tankou egzije yon pèspektiv ki vrèman endepandan anvan yo finalize gwo desizyon (sa ki fè eko ak Leson 10), ta ka ede kenbe e korije.
+
+## Egzamen pratik
+
+1. Poukisa estrès finansye pèsonèl yon lidè ka defòme desizyon nan òganizasyon an?
+2. Kijan leson sa a konekte ak jijman ajiste pou risk yo diskite nan tras GOLD la?
+3. Poukisa rekonèt koneksyon sa a onètman pi itil pase sipoze li pa egziste?
+
+## Kle repons yo
+
+1. Paske presyon finansye pèsonèl ka, san moun nan pa rann li kont, pouse yon lidè nan direksyon desizyon ki bay yon soulajman pèsonèl sou kout tèm, menm lè desizyon sa yo pa vrèman pi bon pou sante òganizasyon an sou long tèm.
+2. Leson sa a aplike aksan tras GOLD la sou yon evalyasyon risk ak rannman ki klè, ki pa defòme, pou yon sous defòmasyon espesifik yo souvan neglije: pwòp sitiyasyon finansye pèsonèl yon lidè.
+3. Paske rekonèt koneksyon sa a pèmèt mete pwoteksyon estriktirèl an plas, tankou egzije yon pèspektiv endepandan, olye konte sou yon sipozisyon ki pa reyalis ke yon lidè ka senpleman fè efè yon vrè estrès finansye pèsonèl disparèt pa volonte.
+
+## Repons ak eksplikasyon
+
+1. Sa a se "poukisa" santral leson an bati sou li.
+2. Sa konekte leson an klèman ak kad evalyasyon tras GOLD la.
+3. Sa ranfòse apwòch pratik, onèt leson an rekòmande olye pou yo nye bagay la.
+
+## Pwen kle yo
+- Estrès finansye pèsonèl yon lidè ka, san l pa rann li kont, defòme desizyon òganizasyon an nan direksyon soulajman pèsonèl sou kout tèm.
+- Sa konekte dirèkteman ak aksan tras GOLD la sou yon evalyasyon risk ak rannman ki klè, ki pa defòme.
+- Rekonèt risk sa a onètman, e mete pwoteksyon estriktirèl tankou yon pèspektiv endepandan, pi efikas pase sipoze yon lidè ka parfètman objektif malgre yon gwo presyon finansye pèsonèl.
+
+---
+
+*Leson sa a se sèlman pou edikasyon lidèchip jeneral, e li pa konstitye konsèy finansye, envestisman, taks, oswa legal pèsonalize. Konsilte yon pwofesyonèl ki gen lisans pou konsèy ki espesifik pou sitiyasyon ou.*
+
+===== BLACK-L3-014
+TITLE: Poukisa responsablite yon patwon ale pi lwen pase minimòm lalwa mande
+SUMMARY: Aprann poukisa trete anplwaye ak vrè diyite se yon responsablite lidèchip ki ale pi lwen pase senpleman respekte egzijans minimòm lalwa, e poukisa sa enpòtan sitou nan ekonomi kote yon travay sipòte tout yon fanmi.
+# BLACK-L3-014: Poukisa responsablite yon patwon ale pi lwen pase minimòm lalwa mande
+
+## Objektif aprantisaj
+Lè w fin fè leson sa a, w ap kapab:
+- Esplike poukisa responsablite yon patwon ale pi lwen pase senpleman respekte egzijans minimòm lalwa
+- Esplike poukisa sa gen yon pwa patikilye nan ekonomi kote yon sèl travay sipòte yon fanmi laj
+- Konekte konsèp sa a ak diskisyon sou dwa travay yo kouvri nan tras PURPLE kourikoulòm sa a
+
+## Kontni prensipal
+
+Tras PURPLE kourikoulòm sa a te kouvri minimòm legal espesifik ki gouvène relasyon travay — limit sou travay "at-will", pwoteksyon kont diskriminasyon, règ sou salè ak lè travay. Men "poukisa" vrè responsablite yon patwon ale pi lwen pase senpleman satisfè minimòm legal sa yo: konfòmite ak lalwa etabli yon planche, pa yon plafon, pou fason yo ta dwe trete anplwaye — yon biznis ka nèt konfòm ak lalwa alòske l toujou trete anplwaye yon fason ki pa reflete yon vrè respè pou diyite yo ak kontribisyon yo.
+
+Sa gen yon pwa patikilye nan anpil ekonomi atravè lemonn, kote yon sèl travay pa sipòte yon sèl moun sèlman men tout yon fanmi laj ki depann de revni sa a — anboche anplwaye, nan kontèks sa yo, pote yon responsablite ki ale byen lwen pase relasyon travay imedya a li menm, sa ki konekte dirèkteman ak yon tèm pi laj nan kourikoulòm sa a: pwopriyete biznis ak lidèchip pote yon vrè responsablite anvè moun ki gen mwayen pou yo viv ki depann de desizyon biznis lan, yon responsablite ki egziste endepandaman de, e pi lwen pase, sa minimòm legal espesifik yo mande.
+
+[RÈG ESPESIFIK POU REJYON AN] Ann Ayiti, Kòd Travay la etabli minimòm sou salè, lè travay, ak kondisyon travay, e kotizasyon ONA ak OFATMA ka aplike; règ yo ka chanje — tcheke ak yon avoka nan dwa travay pou egzijans aktyèl yo.
+
+Pi lwen pase sa lalwa mande, kisa òganizasyon ou vrèman fè pou reflete yon vrè respè pou diyite anplwaye ou yo ak pi gwo enpak desizyon ou yo genyen sou moun ak fanmi ki depann de travay sa a?
+
+## Egzanp pratik
+
+[EGZANP ILISTRATIF] Yon biznis respekte chak egzijans legal espesifik yo kouvri nan leson dwa travay tras PURPLE la — peman salè kòrèk, okenn diskriminasyon, pwosedi revokasyon apwopriye — alòske l toujou trete anplwaye yon fason ki sanble tranzaksyonèl e ki pa respekte vrè kontribisyon yo ak diyite yo. [SIPOZISYON] Biznis sa a konfòm ak lalwa men li pa vrèman ranpli responsablite patwon ki pi laj leson sa a dekri a, sitou enpòtan nan kontèks kote travay anplwaye yo sipòte fanmi laj ki depann nèt de revni sa a — konfòmite ak lalwa se te planche a, pa yon prèv ke yo te ranpli vrè responsablite a.
+
+## Egzamen pratik
+
+1. Poukisa responsablite yon patwon ale pi lwen pase senpleman respekte egzijans minimòm lalwa?
+2. Poukisa responsablite sa a gen yon pwa patikilye nan ekonomi kote yon sèl travay sipòte yon fanmi laj?
+3. Kijan leson sa a konekte ak diskisyon sou dwa travay yo kouvri nan tras PURPLE la?
+
+## Kle repons yo
+
+1. Paske konfòmite ak lalwa etabli yon planche, pa yon plafon, pou fason yo ta dwe trete anplwaye — yon biznis ka nèt konfòm ak lalwa alòske l toujou pa respekte vrè diyite ak kontribisyon anplwaye yo.
+2. Paske desizyon anbochaj nan kontèks sa yo pote yon responsablite ki ale byen lwen pase relasyon travay imedya a, li afekte manm fanmi laj ki depann de yon sèl revni sa a.
+3. Leson sa a bati klèman sou minimòm legal yo kouvri nan tras PURPLE la, e li soutni ke vrè responsablite mande plis pase satisfè egzijans espesifik sa yo poukont yo.
+
+## Repons ak eksplikasyon
+
+1. Sa a se nouvo fason pou wè bagay yo santral leson an bati sou li.
+2. Sa bay prensip abstrè a yon baz nan yon kontèks ekonomik espesifik ki enpòtan atravè lemonn.
+3. Sa konekte leson an klèman ak planche legal tras PURPLE la, e li fè diferans ant li ak responsablite ki pi laj leson sa a dekri a.
+
+## Pwen kle yo
+- Responsablite yon patwon ale pi lwen pase minimòm legal yo, ki etabli yon planche, pa yon plafon, pou fason yo ta dwe trete anplwaye.
+- Responsablite sa a gen yon pwa patikilye nan ekonomi kote yon sèl travay sipòte yon fanmi laj.
+- Vrè responsablite patwon vle di reflechi aktivman sou diyite ak enpak e trete yo, pa senpleman konfime konfòmite ak lalwa.
+
+---
+
+*Leson sa a se sèlman pou edikasyon lidèchip jeneral, e li pa konstitye konsèy legal pèsonalize. Dwa travay varye selon jiridiksyon; konsilte yon avoka ki gen lisans nan dwa travay pou konsèy ki espesifik pou biznis ou.*
+
+===== BLACK-L3-015
+TITLE: Poukisa yon lidè bezwen konprann chif yo, pa sèlman fè moun chif yo konfyans
+SUMMARY: Aprann poukisa delege analiz finansye bay yon espesyalis pa egzante yon lidè de konprann chif debaz yo ase byen pou l poze bon kesyon e kenbe pwoblèm.
+# BLACK-L3-015: Poukisa yon lidè bezwen konprann chif yo, pa sèlman fè moun chif yo konfyans
+
+## Objektif aprantisaj
+Lè w fin fè leson sa a, w ap kapab:
+- Esplike poukisa yon lidè bezwen yon baz konesans finansye menm lè l delege analiz finansye detaye
+- Konekte konsèp sa a ak prensip delegasyon kòm jesyon risk Leson 2 la
+- Esplike risk espesifik yon lidè ki respekte nèt yon espesyalis finansye san okenn konpreyansyon endepandan kreye
+
+## Kontni prensipal
+
+Leson 2 te etabli ke yon delegasyon efikas diminye depandans sou nenpòt sèl moun pou fonksyon kritik — men gen yon limit enpòtan sou prensip sa a, espesifik pou sipèvizyon finansye: delege analiz finansye detaye bay yon espesyalis ki kalifye (yon kontab, yon direktè finansye, yon konseye finansye) se yon bon delegasyon, men sa pa egzante yon lidè de konprann chif debaz yo ase byen pou l poze kesyon ki gen bon enfòmasyon e pou l rekonèt lè yon bagay sanble pa bon.
+
+Men "poukisa" diferans sa a enpòtan: yon lidè ki respekte nèt, san okenn konpreyansyon endepandan, pa vrèman ap fè yon sipèvizyon ki gen bon enfòmasyon — l ap senpleman fè konfyans, san kapasite pou l verifye, nenpòt sa espesyalis finansye a rapòte. Sa kreye yon lòt kalite risk moun kle pase sa Leson 2 la te trete a: olye pou l konsantre konesans kritik nan lidè a li menm, li konsantre yon otorite san kontwòl nan men espesyalis finansye a, san pèsonn lòt nan òganizasyon an ki nan pozisyon pou kenbe yon erè onèt oswa, nan yon pi move ka, yon bagay ki pi enkyetan.
+
+Èske kounye a ou ta ka poze yon kesyon swivi ki vrèman gen bon enfòmasyon sou rapò finansye kle òganizasyon ou, oswa èske ou ta senpleman aksepte nenpòt chif yo ba ou san ou pa gen baz pou evalye l?
+
+## Egzanp pratik
+
+[EGZANP ILISTRATIF] Yon lidè delege tout analiz ak tout rapò finansye nèt bay yon espesyalis finansye li fè konfyans, san l pa janm devlope ase konpreyansyon endepandan pou l poze kesyon ki gen bon enfòmasyon sou rapò ki soti ladan yo. [SIPOZISYON] Lè espesyalis sa a fè yon erè onèt men ki enpòtan nan yon pwojeksyon finansye, lidè a pa gen okenn baz endepandan pou l remake pwoblèm lan, paske li pa t janm devlope baz konpreyansyon ki nesesè pou l evalye chif yo li menm — sa ki montre poukisa yon bon delegasyon analiz finansye toujou mande pou yon lidè kenbe ase konesans endepandan pou l bay yon vrè sipèvizyon, pa senpleman yon konfyans san kondisyon.
+
+## Egzamen pratik
+
+1. Poukisa delege analiz finansye bay yon espesyalis pa egzante yon lidè de konprann chif debaz yo?
+2. Kijan leson sa a konekte ak, e ajoute yon limit sou, prensip delegasyon Leson 2 la?
+3. Ki risk espesifik yon lidè kreye lè l respekte nèt yon espesyalis finansye san konpreyansyon endepandan?
+
+## Kle repons yo
+
+1. Paske yon vrè sipèvizyon mande kapasite pou poze kesyon ki gen bon enfòmasyon e pou rekonèt lè yon bagay sanble pa bon, sa yon konfyans san kondisyon san konpreyansyon endepandan pa ka bay.
+2. Leson sa a ajoute yon limit enpòtan sou prensip delegasyon Leson 2 la — delege analiz se yon bon bagay, men sa pa ta dwe vle di abandone baz konpreyansyon ki nesesè pou yon vrè sipèvizyon.
+3. Li konsantre yon otorite san kontwòl nan men espesyalis finansye a, san pèsonn lòt nan òganizasyon an ki nan pozisyon pou kenbe yon erè onèt oswa yon bagay ki pi enkyetan.
+
+## Repons ak eksplikasyon
+
+1. Sa a se "poukisa" santral leson an bati sou li.
+2. Sa konekte leson an klèman ak Leson 2, alòske l fè diferans ak atansyon ak nuans leson sa a ajoute.
+3. Sa ranfòse risk espesifik yon respè san kondisyon san konesans endepandan.
+
+## Pwen kle yo
+- Delege analiz finansye bay yon espesyalis se yon bon bagay, men sa pa egzante yon lidè de kenbe yon baz konesans finansye.
+- Sa ajoute yon limit enpòtan sou prensip delegasyon kòm jesyon risk yo kouvri nan Leson 2.
+- Yon vrè sipèvizyon mande kapasite pou poze kesyon ki gen bon enfòmasyon e rekonèt pwoblèm, pa senpleman yon konfyans san kondisyon nan rapò yon espesyalis.
+
+---
+
+*Leson sa a se sèlman pou edikasyon lidèchip jeneral, e li pa konstitye konsèy finansye, envestisman, taks, oswa legal pèsonalize. Konsilte yon pwofesyonèl ki gen lisans anvan w pran desizyon finansye.*
