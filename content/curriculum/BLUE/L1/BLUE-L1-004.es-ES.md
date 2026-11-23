@@ -5,45 +5,77 @@ officialTrackName: Business
 level: 1
 lessonNumber: 4
 locale: es-ES
-title: "Margen Bruto vs. Margen Neto"
-summary: "El margen bruto mide cuánto dinero queda de las ventas después de restar solo el coste directo de producir lo vendido (coste de los bienes vendidos). *HECHO VERIFICADO:* Margen Bruto = (Ingresos − Coste de los Bienes Vendidos) ÷ Ingresos, expresado en porcentaje."
+title: "¿Qué es una LLC?"
+summary: "Aprende lo que realmente protege una LLC y en qué se diferencia estructuralmente de una empresa individual."
 version: "1.0"
 author: Waldemar M. Caban, JD MA
 date: 2026-08-08
 ---
 
-# BLUE-L1-004: Margen Bruto vs. Margen Neto
+# ¿Qué es una LLC?
 
-## Objetivos de Aprendizaje
-1. Definir el margen bruto y el margen neto.
-2. Explicar qué revela cada margen sobre una empresa.
-3. Calcular un margen bruto sencillo.
+## Objetivos de aprendizaje
 
-## Contenido Principal
-El margen bruto mide cuánto dinero queda de las ventas después de restar solo el coste directo de producir lo vendido (coste de los bienes vendidos). *HECHO VERIFICADO:* Margen Bruto = (Ingresos − Coste de los Bienes Vendidos) ÷ Ingresos, expresado en porcentaje.
+Al final de esta lección, deberías poder:
 
-El margen neto va más allá, restando *todos* los gastos — incluyendo el alquiler, los salarios, el marketing, y los impuestos — no solo el coste directo de los bienes. *SUPOSICIÓN:* Una empresa puede tener un margen bruto saludable pero un margen neto pobre si sus gastos generales (alquiler, personal, marketing) son demasiado elevados en relación con las ventas — las dos cifras cuentan partes distintas de la historia.
+- Definir una LLC en términos sencillos.
+- Explicar lo que realmente limita la "responsabilidad limitada".
+- Explicar por qué esto cambia el panorama de riesgo frente a una empresa individual.
 
-## Ejemplo Práctico
-*EJEMPLO ILUSTRATIVO:* Una tienda de ropa vende una chaqueta por $100 que costó $40 fabricar. Margen Bruto = ($100 − $40) ÷ $100 = 60%. Eso parece saludable. Pero una vez se tienen en cuenta el alquiler, los salarios del personal, y el marketing, la empresa podría quedarse solo con $8 de esos $100 como beneficio real — un margen neto de apenas el 8%, revelando que los gastos generales se comen la mayor parte del beneficio bruto.
+## Contenido principal
 
-## Cuestionario Práctico
-1. ¿Cuál es la fórmula del margen bruto?
-2. ¿Qué resta el margen neto que el margen bruto no resta?
-3. Verdadero/Falso: Un margen bruto saludable siempre significa un margen neto saludable.
-4. Si los ingresos son $200 y el coste de los bienes vendidos es $80, ¿cuál es el margen bruto?
+### Qué significa LLC y qué hace
 
-## Clave de Respuestas
-1. (Ingresos − Coste de los Bienes Vendidos) ÷ Ingresos   2. Todos los demás gastos, como el alquiler, los salarios, y el marketing   3. Falso   4. 60%
+LLC son las siglas en inglés de Limited Liability Company, es decir, compañía de responsabilidad limitada. Pregúntate: ¿cuál es el problema de la lección anterior que esta estructura existe para resolver? La responsabilidad personal ilimitada. Una LLC crea una separación legal entre el dueño (llamado "miembro") y el negocio: el negocio se convierte en su propia entidad legal.
 
-## Respuestas y Explicaciones
-1. Este es el cálculo estándar del margen bruto.
-2. El margen neto tiene en cuenta el coste total de gestionar la empresa, no solo de producir el producto.
-3. Una empresa puede tener un margen bruto fuerte pero un margen neto débil si los gastos generales son demasiado altos.
-4. ($200 − $80) ÷ $200 = 0,60 = 60%.
+### Lo que realmente limita "limitada"
 
-## Puntos Clave a Recordar
-- El margen bruto mide la rentabilidad después de solo los costes directos de producción.
-- El margen neto mide la rentabilidad después de todos los gastos.
-- Un margen bruto fuerte no garantiza un margen neto fuerte — los gastos generales también importan.
+Si a una LLC la demandan o no puede pagar una deuda, los bienes personales del miembro en general están protegidos: lo que está en riesgo son los bienes del propio negocio, no la casa ni los ahorros personales del dueño, *siempre que* el dueño cumpla las formalidades que exige el estado (mantener separadas las finanzas del negocio y las personales, hacer los registros correspondientes, etc.).
 
+### La advertencia que vale la pena conocer ya
+
+*(REGLA ESPECÍFICA DE LA REGIÓN: los requisitos de constitución y de formalidades varían según el estado o el país; la LLC es una figura de EE. UU., y en España la más parecida es la sociedad limitada (SL), que se constituye en escritura pública ante notario y se inscribe en el Registro Mercantil.)* Esa protección no es automática ni incondicional: depende de tratar realmente a la LLC como una entidad separada en la práctica, no solo en el papel. Lecciones posteriores de esta ruta explican cómo son esas formalidades.
+
+## Ejemplo práctico
+
+*EJEMPLO ILUSTRATIVO:* Compara a la fotógrafa independiente de la lección anterior con una versión de ella misma que formó una LLC. La misma falla del equipo, la misma demanda. Pregúntate: ¿qué cambia esta vez? Si cumplió las formalidades de la LLC, la reclamación en general alcanza los bienes del negocio, no los suyos personales. El mismo hecho, una exposición legal distinta, solo por la estructura.
+
+## Cuestionario de práctica
+
+1. LLC son las siglas de:
+   A. Limited Liability Corporation
+   B. Limited Liability Company
+   C. Legal License Certificate
+   D. Local Licensed Contractor
+2. Verdadero o falso: la protección de responsabilidad de una LLC es automática y se aplica haga lo que haga el dueño.
+3. En comparación con una empresa individual, ¿qué protege principalmente una LLC?
+   A. La tasa de impuestos del negocio
+   B. Los bienes personales del dueño frente a las deudas y demandas del negocio
+   C. El presupuesto de marketing del negocio
+   D. A los empleados del dueño
+
+## Clave de respuestas
+
+1. B
+2. Falso
+3. B
+
+## Respuestas y explicaciones
+
+### Pregunta 1
+
+Respuesta correcta: B. LLC son las siglas de Limited Liability Company (compañía de responsabilidad limitada).
+
+### Pregunta 2
+
+Respuesta correcta: Falso. La protección depende de cumplir las formalidades requeridas; no es automática solo por formar la LLC.
+
+### Pregunta 3
+
+Respuesta correcta: B. La protección de los bienes personales es el beneficio central frente a una empresa individual.
+
+## Puntos clave
+
+- Una LLC crea una separación legal entre el dueño y el negocio.
+- En general, esto protege los bienes personales frente a las deudas y demandas del negocio.
+- Esa protección depende de cumplir las formalidades requeridas, no solo de presentar los documentos una vez.

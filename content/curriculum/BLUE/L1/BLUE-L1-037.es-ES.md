@@ -1,51 +1,184 @@
 ---
-translationStatus: owner-accepted
-translationNote: "Translated from the earlier, shorter English version; retranslation of the expanded lesson is queued."
 id: BLUE-L1-037
 track: BLUE
 officialTrackName: Business
 level: 1
 lessonNumber: 37
 locale: es-ES
-title: "Inversores — Financiación por Capital vs. por Deuda"
-summary: "La financiación por capital implica vender una parte de la propiedad de la empresa a cambio de capital — el inversor se convierte en copropietario y generalmente comparte los beneficios o ganancias futuros, pero la empresa no debe ningún reembolso fijo. La financiación por deuda implica pedir prestado capital que debe reembolsarse, generalmente con intereses, sin importar cómo rinda la empresa."
+title: "¿Qué es el estudio de mercado y cómo hacerlo sin un gran presupuesto?"
+summary: "Explica qué implica realmente el estudio de mercado y formas prácticas y de bajo costo de hacerlo en un negocio nuevo."
 version: "1.0"
 author: Waldemar M. Caban, JD MA
 date: 2026-08-08
 ---
 
-# BLUE-L1-037: Inversores — Financiación por Capital vs. por Deuda
+# BLUE-L1-037: "¿Qué es el estudio de mercado y cómo hacerlo sin un gran presupuesto?"
 
-## Objetivos de Aprendizaje
-1. Distinguir la financiación por capital de la financiación por deuda en el contexto de los inversores.
-2. Explicar qué recibe generalmente un inversor a cambio de capital.
-3. Identificar un compromiso clave de aceptar inversores de capital.
+**Ruta:** BLUE (Negocios)
+**Nivel:** 1 — Conciencia y alfabetización
+**ID de la lección:** BLUE-L1-037
+**Autor:** Waldemar M. Caban, JD MA
+**Tiempo estimado:** 15–20 minutos
+**Dificultad:** Principiante
 
-## Contenido Principal
-*HECHO VERIFICADO:* La financiación por capital implica vender una parte de la propiedad de la empresa a cambio de capital — el inversor se convierte en copropietario y generalmente comparte los beneficios o ganancias futuros, pero la empresa no debe ningún reembolso fijo. La financiación por deuda implica pedir prestado capital que debe reembolsarse, generalmente con intereses, sin importar cómo rinda la empresa.
+---
 
-*SUPOSICIÓN:* Un compromiso clave de la financiación por capital es que el fundador cede algo de propiedad y, a menudo, algo de control en la toma de decisiones — a cambio de capital que no requiere reembolsos fijos, lo cual puede importar mucho para una empresa sin ingresos estables al principio.
+## Resumen ejecutivo
+`BLUE-L1-037-MAIN`
+El estudio de mercado no requiere un gran presupuesto ni un estudio formal: requiere una curiosidad genuina por saber si la gente de verdad quiere lo que se ofrece. Esta lección explica qué implica realmente el estudio de mercado y formas prácticas y de bajo costo en que un negocio nuevo puede hacerlo de todos modos.
 
-## Ejemplo Práctico
-*EJEMPLO ILUSTRATIVO:* Un fundador reúne $100.000 vendiendo el 25% de su empresa a un inversor. La empresa no debe ningún reembolso mensual fijo por ese dinero, pero el inversor ahora posee una cuarta parte de la empresa y puede esperar tener voz en las decisiones importantes, y una parte de cualquier beneficio futuro o de los ingresos de una venta.
+## Objetivos de aprendizaje
+- Definir el estudio de mercado y lo que busca lograr
+- Identificar métodos prácticos y de bajo costo al alcance de los negocios nuevos
+- Entender por qué saltarse por completo el estudio de mercado crea un riesgo real
 
-## Cuestionario Práctico
-1. ¿Qué recibe generalmente un inversor a cambio de la financiación por capital?
-2. ¿En qué se diferencia la financiación por deuda de la financiación por capital?
-3. Verdadero/Falso: La financiación por capital requiere reembolsos mensuales fijos sin importar el rendimiento.
-4. ¿Qué cede generalmente un fundador a cambio de la financiación por capital?
+## Requisitos previos
+BLUE-L1-031
 
-## Clave de Respuestas
-1. Una parte de la propiedad de la empresa   2. La deuda debe reembolsarse con intereses sin importar el rendimiento; el capital no requiere reembolso fijo   3. Falso   4. Algo de propiedad y, a menudo, algo de control en la toma de decisiones
+## Tiempo estimado
+15–20 minutos
 
-## Respuestas y Explicaciones
-1. Esta es la naturaleza fundamental de la financiación por capital.
-2. Esta es la distinción clave entre la deuda y el capital.
-3. La financiación por capital específicamente evita las obligaciones de reembolso fijo.
-4. Este es el compromiso comúnmente citado que aceptan los fundadores a cambio de capital.
+## Dificultad
+Principiante (Nivel 1)
 
-## Puntos Clave a Recordar
-- La financiación por capital intercambia propiedad por capital; la financiación por deuda requiere reembolso con intereses.
-- Los inversores de capital generalmente comparten beneficios futuros o control, sin requerir reembolsos fijos.
-- El compromiso del fundador con el capital es ceder algo de propiedad y control.
+---
 
+## Contenido principal
+
+### Tema 1: Lo que realmente implica el estudio de mercado
+El estudio de mercado es el proceso de reunir información sobre las necesidades, las preferencias y el comportamiento de un mercado objetivo para comprobar si una idea de negocio realmente resuelve un problema real por el que la gente pagará, en vez de suponerlo.
+
+### Tema 2: Primer método de bajo costo: las conversaciones directas
+[EJEMPLO ILUSTRATIVO] Simplemente hablar directamente con clientes potenciales (preguntarles qué problemas enfrentan hoy, qué han probado y qué valorarían) no cuesta más que tiempo y puede revelar más que un costoso estudio formal, si se hace con honestidad y sin preguntas que induzcan la respuesta.
+
+### Tema 3: Segundo método de bajo costo: observar el comportamiento actual
+Fijarse en cómo la gente resuelve hoy el problema que un negocio espera atender (por qué paga actualmente, qué quejas aparecen en las reseñas de las opciones existentes) revela el comportamiento real, que a menudo es más confiable que lo que la gente dice que haría en teoría.
+
+### Tema 4: Tercer método de bajo costo: las pruebas a pequeña escala
+[EJEMPLO ILUSTRATIVO] Ofrecer una versión pequeña y de bajo costo de un producto o servicio a un grupo limitado antes del lanzamiento completo (lo que a veces se llama un "piloto") pone a prueba la disposición real a pagar, y no solo el interés o la opinión.
+
+---
+
+## Definiciones clave
+- **Estudio de mercado:** El proceso de reunir información sobre las necesidades, las preferencias y el comportamiento de un mercado objetivo para comprobar la viabilidad de una idea de negocio.
+- **Piloto:** Una prueba a pequeña escala de un producto o servicio que se ofrece a un grupo limitado antes del lanzamiento completo.
+
+## Ejemplos prácticos
+[EJEMPLO ILUSTRATIVO] Antes de lanzar por completo un servicio de entrega de comidas preparadas, una emprendedora ofrece una prueba pequeña a 10 vecinos a un precio modesto y observa si de verdad pagan y vuelven a pedir: comportamiento real, obtenido a un costo mínimo, en vez de adivinar a partir de supuestos.
+
+## Errores comunes
+- Suponer que el estudio de mercado requiere un costoso estudio formal para ser válido
+- Hacer preguntas que inducen la respuesta y producen comentarios falsamente positivos
+- Depender solo de lo que la gente dice que haría, en vez de observar lo que de verdad hace
+
+## Preguntas frecuentes
+**P: ¿Alguna vez es aceptable saltarse por completo el estudio de mercado?**
+R: [OPINIÓN] Saltárselo por completo conlleva un riesgo real: crear un producto antes de confirmar que existe una demanda genuina es una de las razones más comunes por las que los negocios nuevos tienen dificultades, incluso con una idea que por lo demás es razonable.
+
+**P: ¿Cuál es la diferencia entre lo que la gente dice y lo que hace?**
+R: La gente a menudo expresa un interés cortés que no refleja una disposición real a pagar; observar el comportamiento real (Tema 3) o poner a prueba el pago real (Tema 4) tiende a revelar información más confiable que las opiniones por sí solas.
+
+## Puntos clave
+- El estudio de mercado reúne información real para comprobar si una idea resuelve un problema genuino por el que se paga
+- Las conversaciones directas con clientes potenciales no cuestan más que tiempo
+- Observar el comportamiento actual revela más que las opiniones hipotéticas
+- Las pruebas a pequeña escala (un piloto) ponen a prueba la disposición real a pagar antes del lanzamiento completo
+
+## Ejercicio práctico
+Diseña un plan de estudio de mercado sencillo y de bajo costo (usando al menos dos de los tres métodos de esta lección) para una idea de negocio hipotética de tu elección.
+
+---
+
+## Guía de enseñanza socrática
+`BLUE-L1-037-SOCRATIC` (Nivel 1 — "Qué")
+
+1. **Pregunta inicial:** ¿Crees que el estudio de mercado siempre requiere un gran presupuesto?
+2. **Concepto 1 — Definición:** ¿Qué busca comprobar el estudio de mercado?
+3. **Seguimiento:** ¿Por qué "suponer" es distinto de "comprobar"?
+4. **Concepto 2 — Conversaciones:** ¿Qué pueden revelar las conversaciones directas con clientes potenciales?
+5. **Seguimiento:** ¿Qué podría salir mal si las preguntas inducen la respuesta o están sesgadas?
+6. **Concepto 3 — Observar el comportamiento:** ¿Por qué observar el comportamiento actual podría ser más confiable que hacer preguntas hipotéticas?
+7. **Seguimiento:** Da un ejemplo de "comportamiento actual" que podría orientar una nueva idea de negocio.
+8. **Concepto 4 — Pruebas a pequeña escala:** ¿Qué pone a prueba un "piloto" que una encuesta por sí sola quizá no?
+9. **Síntesis:** ¿Por qué poner a prueba la disposición real a pagar vale más que medir el interés general?
+10. **Reflexión:** ¿Por qué saltarse por completo el estudio de mercado podría ser un atajo riesgoso, incluso para una idea que parece obvia?
+
+## Evaluación de competencias
+`BLUE-L1-037-ASSESSMENT`
+
+1. (Selección múltiple) El estudio de mercado busca comprobar: A) El cumplimiento legal B) Si una idea resuelve un problema real por el que se paga C) Las obligaciones fiscales D) Solo la ubicación de la oficina
+2. (Verdadero/Falso) El estudio de mercado siempre requiere un costoso estudio formal.
+3. (Selección múltiple) ¿Cuál es un método de estudio de mercado de bajo costo? A) Las conversaciones directas con clientes potenciales B) Una campaña nacional de anuncios en televisión C) Contratar una gran firma de investigación D) Crear primero el producto completo
+4. (Respuesta corta) Explica por qué observar el comportamiento actual puede ser más confiable que hacer preguntas hipotéticas.
+5. (Caso práctico) Un emprendedor ofrece una versión piloto pequeña de un servicio a 10 personas antes del lanzamiento completo. ¿Qué pone a prueba, en concreto, este método?
+6. (Selección múltiple) ¿Qué riesgo pueden crear las preguntas que inducen la respuesta en las conversaciones directas? A) Ningún riesgo B) Comentarios falsamente positivos C) Resultados exactos garantizados D) Responsabilidad legal
+7. (Verdadero/Falso) Lo que la gente dice que haría siempre coincide con lo que de verdad hace.
+8. (Respuesta corta) Nombra un método de estudio de mercado de bajo costo de esta lección.
+9. (Selección múltiple) ¿Qué pone a prueba, en concreto, un "piloto"? A) La estructura legal B) La disposición real a pagar, y no solo el interés C) Las tasas de impuestos D) El desempeño de los empleados
+10. (Reflexión) ¿Por qué saltarse por completo el estudio de mercado podría ser una de las razones más comunes por las que los negocios nuevos tienen dificultades?
+
+## Clave de respuestas
+`BLUE-L1-037-ANSWER-KEY`
+
+1. **Correcta:** B. **Explicación:** Se indica directamente en el Tema 1. **Competencia evaluada:** Recordar.
+2. **Correcta:** Falso. **Explicación:** Los Temas 2–4 describen métodos de bajo costo. **Competencia evaluada:** Corrección de un error de concepto.
+3. **Correcta:** A. **Explicación:** Se indica en el Tema 2. **Competencia evaluada:** Recordar.
+4. **Correcta:** Las intenciones que la gente declara no siempre coinciden con su comportamiento real; el comportamiento observado refleja lo que de verdad hace. **Competencia evaluada:** Síntesis.
+5. **Correcta:** La disposición real a pagar, según el Tema 4 y las definiciones clave. **Competencia evaluada:** Razonamiento aplicado.
+6. **Correcta:** B. **Explicación:** Se indica en los errores comunes. **Competencia evaluada:** Recordar.
+7. **Correcta:** Falso. **Explicación:** Las preguntas frecuentes lo indican de forma explícita. **Competencia evaluada:** Corrección de un error de concepto.
+8. **Correcta:** Cualquiera de estos: conversaciones directas, observar el comportamiento actual, pruebas a pequeña escala o piloto. **Competencia evaluada:** Recordar.
+9. **Correcta:** B. **Explicación:** Se indica en el Tema 4. **Competencia evaluada:** Recordar.
+10. **Correcta:** Las respuestas deberían mencionar que crear un producto antes de confirmar una demanda genuina conlleva el riesgo de invertir en algo por lo que la gente en realidad no pagará. **Competencia evaluada:** Síntesis profunda.
+
+## Estándar de competencia
+`BLUE-L1-037-COMPETENCY`
+
+COMPETENCIAS QUE SE ENSEÑAN: Definición y propósito del estudio de mercado; métodos de bajo costo (conversaciones, observación del comportamiento, pruebas piloto); riesgo de saltarse el estudio.
+COMPETENCIAS QUE SE MIDEN: Recordar definiciones; selección aplicada de métodos; corrección de errores de concepto.
+PUNTUACIÓN MÍNIMA DE DOMINIO: 80 %
+TAREA PRÁCTICA OBLIGATORIA: Completar el ejercicio práctico (diseño de un plan de estudio).
+TEMAS DE REFUERZO: Repasar los Temas 2–4 si se falló la P3, la P4 o la P9.
+SIGUIENTE LECCIÓN DESBLOQUEADA: BLUE-L1-038
+RUTAS RELACIONADAS: ORANGE (Ventas y marketing): la metodología del estudio de mercado se trata con mucha más profundidad en niveles superiores de la ruta ORANGE.
+
+## Lecturas adicionales
+- BLUE-L1-031 — ¿Qué es un mercado objetivo?
+- BLUE-L1-038 — Crecer como trabajador por cuenta propia frente a crecer como dueño de negocio: por qué tienen techos distintos
+
+## Ruta de la lección
+`BLUE-L1-037-LOCALIZATION` (bloque de ruta)
+LECCIÓN ANTERIOR: BLUE-L1-036
+SIGUIENTE LECCIÓN: BLUE-L1-038
+REQUISITOS PREVIOS OBLIGATORIOS: BLUE-L1-031
+LECCIONES OPCIONALES DE REPASO: BLUE-L1-031
+LECCIONES DE REFUERZO: BLUE-L1-031
+LECCIONES RELACIONADAS DE OTRAS RUTAS: Todavía no hay ninguna publicada en el Nivel 1 de ORANGE (solo referencia futura)
+REQUISITO PARA COMPLETAR EL NIVEL: Completar todas las lecciones de BLUE-L1 (001–050) y aprobar la evaluación de competencias del Nivel 1.
+
+## Bloque SEO
+`BLUE-L1-037-SEO`
+Título SEO: ¿Qué es el estudio de mercado? Métodos de bajo presupuesto que funcionan | Edunancial
+Meta descripción: Aprende qué implica realmente el estudio de mercado y tres formas prácticas y de bajo costo de poner a prueba una idea de negocio sin un gran presupuesto.
+Slug de URL sugerido: /courses/business/level-1/market-research-low-budget
+Palabra clave principal: estudio de mercado sin un gran presupuesto
+Palabras clave secundarias: cómo hacer un estudio de mercado barato, poner a prueba una idea de negocio
+Enlaces internos sugeridos: BLUE-L1-031, BLUE-L1-038
+Referencias externas sugeridas: Recursos generales de alfabetización sobre investigación para pequeños negocios
+Recomendación de esquema: Esquema Course + LearningResource
+Intención de búsqueda: Informativa, nivel principiante
+Oportunidad de fragmento destacado: "¿Cómo puedo hacer un estudio de mercado sin un gran presupuesto?"
+Preguntas para el esquema FAQ: "¿Está bien saltarse por completo el estudio de mercado?"; "¿Cuál es la diferencia entre lo que la gente dice y lo que hace?"
+
+## Bloque de apoyo de IA
+`BLUE-L1-037-AI`
+Resumen para la IA: Define el estudio de mercado y repasa tres métodos de bajo costo (conversaciones directas, observación del comportamiento, pruebas piloto a pequeña escala) al alcance de los negocios nuevos sin un gran presupuesto.
+Notas de enseñanza para la IA: Recalca que poner a prueba el comportamiento y el pago reales es la señal más confiable, por encima del interés hipotético que se declara.
+
+## Bloque de localización
+`BLUE-L1-037-LOCALIZATION`
+Estado de la traducción: traducción al español (Caribe) completada a partir de la fuente en inglés.
+
+## Bloque de referencias y verificación
+`BLUE-L1-037-REFERENCES`
+No se usaron estadísticas ni citas externas. Todos los ejemplos están marcados como EJEMPLO ILUSTRATIVO.

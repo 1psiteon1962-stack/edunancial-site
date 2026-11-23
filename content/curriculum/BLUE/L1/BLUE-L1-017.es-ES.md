@@ -5,45 +5,77 @@ officialTrackName: Business
 level: 1
 lessonNumber: 17
 locale: es-ES
-title: "Fijación de Precios Basada en Costes"
-summary: "La fijación de precios basada en costes significa calcular el coste de producir un producto o prestar un servicio, y luego añadir un margen fijo por encima para establecer el precio de venta. *HECHO VERIFICADO:* Precio = Coste + (Coste × Porcentaje de Margen Deseado)."
+title: "¿Qué es el capital inicial y de dónde sale realmente?"
+summary: "Aprende para qué se usa el capital inicial y las fuentes comunes a las que recurre la gente antes de buscar inversionistas externos."
 version: "1.0"
 author: Waldemar M. Caban, JD MA
 date: 2026-08-08
 ---
 
-# BLUE-L1-017: Fijación de Precios Basada en Costes
+# ¿Qué es el capital inicial y de dónde sale realmente?
 
-## Objetivos de Aprendizaje
-1. Definir la fijación de precios basada en costes.
-2. Calcular un precio sencillo basado en costes.
-3. Identificar una limitación de depender únicamente de la fijación de precios basada en costes.
+## Objetivos de aprendizaje
 
-## Contenido Principal
-La fijación de precios basada en costes significa calcular el coste de producir un producto o prestar un servicio, y luego añadir un margen fijo por encima para establecer el precio de venta. *HECHO VERIFICADO:* Precio = Coste + (Coste × Porcentaje de Margen Deseado).
+Al final de esta lección, deberías poder:
 
-*SUPOSICIÓN:* Una limitación comúnmente citada de la fijación de precios basada en costes es que ignora lo que los clientes están realmente dispuestos a pagar — una empresa podría poner un precio demasiado bajo a una oferta muy valorada, o demasiado alto a una que los clientes no valoran tanto como sugiere el coste, ya que el método parte enteramente de los costes internos en lugar de la demanda externa.
+- Definir el capital inicial en términos sencillos.
+- Nombrar fuentes comunes de capital inicial.
+- Reconocer que la inversión externa es solo uno de varios caminos.
 
-## Ejemplo Práctico
-*EJEMPLO ILUSTRATIVO:* Un fabricante de muebles calcula que una silla cuesta $80 en materiales y mano de obra producirla. Queriendo un margen del 50%, la fija a $80 + ($80 × 0,50) = $120. Este método da un precio claro y defendible, pero no tiene en cuenta si los clientes pagarían felizmente $150 por la misma silla, o si $120 ya es demasiado alto para ese mercado.
+## Contenido principal
 
-## Cuestionario Práctico
-1. ¿Qué es la fijación de precios basada en costes?
-2. ¿Cuál es la fórmula de la fijación de precios basada en costes?
-3. Si un producto cuesta $50 y el margen deseado es del 40%, ¿cuál es el precio?
-4. ¿Qué suele no tener en cuenta la fijación de precios basada en costes?
+### Qué es el capital inicial
 
-## Clave de Respuestas
-1. Calcular el coste, y luego añadir un margen fijo para establecer el precio   2. Precio = Coste + (Coste × Porcentaje de Margen Deseado)   3. $70   4. Lo que los clientes están realmente dispuestos a pagar
+El capital inicial es el dinero necesario para lanzar un negocio: cubre cosas como el inventario inicial, el equipo, las licencias y suficientes gastos generales para sobrevivir hasta que el negocio genere sus propios ingresos.
 
-## Respuestas y Explicaciones
-1. Esta es la definición fundamental de la fijación de precios basada en costes.
-2. Esta es la fórmula estándar de la fijación de precios basada en costes.
-3. $50 + ($50 × 0,40) = $50 + $20 = $70.
-4. La fijación de precios basada en costes parte de los costes internos, no de la demanda externa del cliente.
+### De dónde sale realmente
 
-## Puntos Clave a Recordar
-- La fijación de precios basada en costes establece el precio añadiendo un margen fijo al coste de producción.
-- La fórmula es sencilla: Coste + (Coste × Porcentaje de Margen).
-- Suele pasar por alto lo que los clientes están realmente dispuestos a pagar.
+Pregúntate: ¿todo negocio empieza con el cheque de un inversionista? Entre las fuentes comunes están los ahorros personales, el dinero de amigos o familiares, los préstamos para pequeños negocios y los ingresos reinvertidos de otro empleo o de un negocio paralelo. Los inversionistas externos y el capital de riesgo, que a menudo es lo primero que la gente imagina, son solo un camino entre varios, y no siempre el más común para un negocio pequeño.
 
+### Por qué importa
+
+Entender estas distintas fuentes importa porque cada una tiene contrapartidas distintas: un préstamo hay que pagarlo sin importar cómo le vaya al negocio; un inversionista normalmente quiere a cambio una participación (propiedad), un concepto que se ve más en el material sobre el dinero de otros (OPM) del Nivel 3.
+
+## Ejemplo práctico
+
+*EJEMPLO ILUSTRATIVO:* Alguien que empieza un pequeño negocio de jardinería podría usar sus ahorros personales para el equipo, no buscar inversionistas externos en absoluto y crecer con los primeros ingresos del propio negocio. Pregúntate: ¿es este un camino menor o menos "real" para empezar un negocio que conseguir dinero de inversionistas? En absoluto: es simplemente otra fuente de capital, con otras contrapartidas.
+
+## Cuestionario de práctica
+
+1. El capital inicial se refiere a:
+   A. Solo el dinero conseguido de inversionistas
+   B. El dinero necesario para lanzar un negocio
+   C. Los ingresos anuales de un negocio
+   D. Un tipo de impuesto de negocio
+2. Verdadero o falso: los inversionistas externos son la fuente más común de capital inicial para los negocios pequeños.
+3. ¿Cuál es una contrapartida clave de usar un préstamo como capital inicial, frente al dinero de un inversionista?
+   A. Los préstamos nunca hay que pagarlos
+   B. En general, un préstamo hay que pagarlo sin importar cómo le vaya al negocio
+   C. Los préstamos siempre exigen ceder propiedad
+   D. No hay ninguna diferencia real
+
+## Clave de respuestas
+
+1. B
+2. Falso
+3. B
+
+## Respuestas y explicaciones
+
+### Pregunta 1
+
+Respuesta correcta: B. El capital inicial es el dinero necesario para lanzar un negocio.
+
+### Pregunta 2
+
+Respuesta correcta: Falso. Los ahorros personales y otras fuentes son comunes, a menudo más comunes que los inversionistas externos para los negocios pequeños.
+
+### Pregunta 3
+
+Respuesta correcta: B. En general, un préstamo exige su devolución sin importar cómo le vaya al negocio, a diferencia de una inversión a cambio de participación.
+
+## Puntos clave
+
+- El capital inicial es el dinero necesario para lanzar un negocio.
+- Entre las fuentes comunes están los ahorros personales, la familia y los amigos, los préstamos y los ingresos reinvertidos, no solo los inversionistas externos.
+- Cada fuente tiene contrapartidas distintas, sobre todo entre devolver el dinero y ceder propiedad.
