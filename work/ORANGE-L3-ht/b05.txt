@@ -11,7 +11,7 @@ Lè w fin fè leson sa a, w ap kapab:
 
 ## Kontni prensipal
 
-Tras PURPLE kourikoulòm sa a te etabli ke konfòmite ak règleman se yon kategori obligasyon legal apa, ajans gouvènman fè respekte dirèkteman. Men "poukisa" sa enpòtan ak yon presizyon patikilye pou piblisite: [FÈ VERIFYE] kèk endistri — sèvis finansye, swen sante, alkòl, ak lòt — anjeneral fè fas ak règleman piblisite espesifik anplis pi lwen pase règ jeneral pou pwoteje konsomatè, akoz risk patikilye ki mare ak deklarasyon ki twonpe moun nan kontèks espesifik sa yo. Menm jan an, diferan medya piblisite (radyo/televizyon, enprime, dijital, lapòs dirèk) ka sijè a diferan règ ak egzijans divilgasyon espesifik.
+Tras PURPLE kourikoulòm sa a te etabli ke konfòmite ak règleman se yon kategori obligasyon legal apa, ajans gouvènman fè respekte dirèkteman. Men "poukisa" sa enpòtan ak yon presizyon patikilye pou piblisite: [FÈ VERIFYE] kèk endistri — sèvis finansye, swen sante, alkòl, ak lòt — anjeneral fè fas ak règleman piblisite espesifik ki ale pi lwen pase règ jeneral pou pwoteje konsomatè, akoz risk patikilye ki mare ak deklarasyon ki twonpe moun nan kontèks espesifik sa yo. Menm jan an, diferan medya piblisite (radyo/televizyon, enprime, dijital, lapòs dirèk) ka sijè a diferan règ ak egzijans divilgasyon espesifik.
 
 Se poutèt sa yon apwòch maketing ki nèt konfòm nan yon endistri oswa yon medya ta ka pa konfòm nan yon lòt — yon deklarasyon oswa yon fòma ki akseptab nan yon piblisite pou yon pwodui konsomatè jeneral ta ka fè fas ak egzijans divilgasyon oswa restriksyon espesifik anplis si yo itilize l pou fè piblisite pou pwodui oswa sèvis yon endistri ki gen règleman, e yon biznis k ap fonksyone nan, oswa k ap fè piblisite pou, plizyè endistri oswa atravè plizyè medya bezwen konprann ke konfòmite pa yon sèl estanda ki menm jan toupatou.
 
@@ -47,3 +47,155 @@ Anvan w lanse yon nouvo kanpay maketing, sitou youn k ap antre nan yon nouvo med
 ---
 
 *Leson sa a se sèlman pou edikasyon biznis jeneral, e li pa konstitye konsèy legal pèsonalize. Règleman sou piblisite yo varye anpil selon endistri, medya, ak jiridiksyon; konsilte yon avoka ki gen lisans pou konsèy ki espesifik pou biznis ou.*
+
+===== ORANGE-L3-022
+TITLE: Poukisa patenarya ak enfliyansè mennen risk kontra ak risk repitasyon
+SUMMARY: Aprann poukisa fè patenarya ak yon enfliyansè oswa yon anbasadè mak kreye yon relasyon legal ki bezwen kondisyon kontra byen fèt, ak yon lyen repitasyon ki depase kontwòl dirèk biznis lan.
+# ORANGE-L3-022: Poukisa patenarya ak enfliyansè mennen risk kontra ak risk repitasyon
+
+## Objektif aprantisaj
+Lè w fin fè leson sa a, w ap kapab:
+- Esplike poukisa yon patenarya ak yon enfliyansè mande menm rigè kontra ak nenpòt lòt akò biznis
+- Esplike risk repitasyon espesifik kalite patenarya sa a mennen
+- Konekte konsèp sa a ak diskisyon sou mak ak repitasyon Leson 4 la
+
+## Kontni prensipal
+
+Fè patenarya ak yon enfliyansè oswa yon anbasadè mak pou fè pwomosyon yon biznis se, nan fon l, yon relasyon kontra — sa ki konekte dirèkteman ak pwen Leson 8 la ke akò lavant ak maketing bezwen menm rigè ak nenpòt lòt kontra yo kouvri nan tras PURPLE la. Sa gen ladan l kondisyon klè sou apwobasyon kontni, eksklizivite, divilgasyon obligatwa (anpil jiridiksyon egzije pou yo divilge patenarya peye yo klèman bay odyans lan), ak sa k ap rive si youn nan pati yo pa respekte obligasyon l.
+
+Men "poukisa" patenarya sa a pote tou yon risk repitasyon apa, pi lwen pase yon kontra founisè ordinè, sa ki konekte ak diskisyon Leson 4 la sou vilnerabilite mak: an reyalite, yon biznis mare yon pati nan pwòp repitasyon l ak konpòtman pèsonèl enfliyansè a ap genyen pi devan ak fason piblik la wè l, yon bagay biznis lan pa kontwole. Si enfliyansè a vin mele nan yon kontwovès ki pa gen rapò, domaj repitasyon sa a ka transfere sou biznis patnè a pa asosyasyon, kèlkeswa sa biznis lan li menm te fè.
+
+Anvan w antre nan yon patenarya ak yon enfliyansè, ki pwoteksyon kontra ou ta vle genyen si pwòp konpòtman enfliyansè a ta kreye yon pwoblèm repitasyon pou biznis ou pita, e kijan ou ta divilge patenarya a kòrèkteman pou w respekte règ ki aplike yo?
+
+## Egzanp pratik
+
+[EGZANP ILISTRATIF] Yon biznis fè patenarya ak yon enfliyansè popilè pou fè pwomosyon pwodui li, san yon kontra ki byen redije ki presize estanda kontni, egzijans divilgasyon, oswa yon kloz sòti si relasyon an bezwen fini. [SIPOZISYON] Pita, enfliyansè a vin mele nan yon kontwovès piblik ki pa gen rapò, e biznis lan wè pwòp repitasyon l afekte pa asosyasyon, san okenn mekanis kontra klè pou fini patenarya a rapid oswa pou l pran distans — sa ki montre ni twou kontra leson sa a avèti sou li a, ni risk lyen repitasyon espesifik ki inik pou kalite patenarya maketing sa a.
+
+## Egzamen pratik
+
+1. Poukisa yon patenarya ak yon enfliyansè mande menm rigè kontra ak nenpòt lòt akò biznis?
+2. Ki risk repitasyon espesifik kalite patenarya sa a mennen, pi lwen pase yon relasyon founisè ordinè?
+3. Kisa yon biznis ta dwe mete an plas anvan l antre nan yon patenarya ak yon enfliyansè, an konekte ak Leson 4 ak Leson 8 tou de?
+
+## Kle repons yo
+
+1. Paske se fondamantalman yon relasyon kontra, ki sijè a menm prensip tras PURPLE yo kouvri pou kontra lavant ak maketing an jeneral nan Leson 8.
+2. Li mare yon pati nan pwòp repitasyon biznis lan ak konpòtman pèsonèl enfliyansè a ap genyen pi devan, yon bagay biznis lan pa kontwole, sa ki fè eko ak vilnerabilite repitasyon yo diskite nan Leson 4.
+3. Kondisyon kontra klè (estanda kontni, egzijans divilgasyon, kloz sòti) ak yon plan pou jere risk lyen repitasyon an si konpòtman enfliyansè a vin yon pwoblèm pita.
+
+## Repons ak eksplikasyon
+
+1. Sa konekte leson an klèman ak prensip kontra pi laj Leson 8 la.
+2. Sa konekte leson an klèman ak diskisyon Leson 4 la sou vilnerabilite repitasyon.
+3. Sa sentetize tou de koneksyon yo nan yon leson pratik, konbine.
+
+## Pwen kle yo
+- Patenarya ak enfliyansè se relasyon kontra ki mande menm rigè yo kouvri pou kontra lavant an jeneral.
+- Patenarya sa yo mare tou repitasyon yon biznis ak yon moun ki deyò kontwòl dirèk li, yon risk apa pi lwen pase yon akò founisè ordinè.
+- Yo ta dwe etabli kondisyon kontra klè ak konfòmite divilgasyon anvan yo antre nan kalite patenarya sa a.
+
+---
+
+*Leson sa a se sèlman pou edikasyon biznis jeneral, e li pa konstitye konsèy legal pèsonalize. Konsilte yon avoka ki gen lisans anvan w antre nan nenpòt akò ak yon enfliyansè oswa yon anbasadè mak.*
+
+===== ORANGE-L3-023
+TITLE: Poukisa yon politik ranbousman se yon dokiman legal, pa sèlman yon chwa sèvis kliyan
+SUMMARY: Aprann poukisa yon politik ranbousman ak retou se yon deklarasyon kondisyon ki mare biznis lan legalman, ak poukisa politik ki pa klè oswa ki twò sevè ka kreye pwoblèm legal ak pwoblèm konfyans kliyan tou de.
+# ORANGE-L3-023: Poukisa yon politik ranbousman se yon dokiman legal, pa sèlman yon chwa sèvis kliyan
+
+## Objektif aprantisaj
+Lè w fin fè leson sa a, w ap kapab:
+- Esplike poukisa yon politik ranbousman fonksyone kòm yon deklarasyon kondisyon ki mare biznis lan legalman
+- Esplike poukisa yon politik ki twò sevè oswa ki pa klè kreye ni risk legal ni risk repitasyon
+- Konekte konsèp sa a ak prensip pwoteksyon konsomatè yo kouvri nan tras PURPLE kourikoulòm sa a
+
+## Kontni prensipal
+
+Souvan yo trete yon politik ranbousman kòm yon desizyon sèvis kliyan oswa ton mak — zanmitay e jenere, oswa sevè e k ap pwoteje maj. Men "poukisa" li se tou, an menm tan, yon deklarasyon kondisyon ki mare biznis lan legalman: [FÈ VERIFYE] nan anpil jiridiksyon, politik ranbousman yon biznis deklare vin yon pati nan kondisyon vant lan, e lwa pwoteksyon konsomatè ka enpoze egzijans minimòm anplis kèlkeswa sa pwòp politik biznis lan di, sa ki fè eko ak diskisyon tras PURPLE la sou pwoteksyon obligatwa lalwa bay ke yon kontra pa ka senpleman kontoune.
+
+Se poutèt sa yon politik ranbousman bezwen menm atansyon nan redaksyon ak nenpòt lòt dokiman ki gen enpòtans legal — yon langaj ki pa klè kreye anbigite ki mennen nan diskisyon, alòske yon politik ki twò sevè, menm si teknikman li legal, ka kreye domaj repitasyon yo diskite nan Leson 4 la lè kliyan yo santi yo trete yo enjisteman, e yo pataje eksperyans sa a piblikman kèlkeswa si yo te vrèman vyole okenn lwa.
+
+[RÈG ESPESIFIK POU REJYON AN] Ann Ayiti, kondisyon jeneral vant lan ak règ Kòd Sivil la sou kontra ka gen enpòtans pou yon politik ranbousman, e Ministè Komès ak Endistri ka gen wòl nan kesyon pwoteksyon konsomatè; règ egzak yo ka varye e yo ka chanje — tcheke ak yon avoka anvan w finalize yon politik.
+
+Anvan w finalize yon politik ranbousman, èske li trete klèman senaryo espesifik kliyan yo gen plis chans rankontre vrèman, e èske li respekte nenpòt egzijans minimòm pwoteksyon konsomatè ki aplike nan jiridiksyon kote w vann yo?
+
+## Egzanp pratik
+
+[EGZANP ILISTRATIF] Yon biznis redije yon politik ranbousman ak yon langaj ki pa klè sou "sikonstans rezonab" pou yon ranbousman, san l pa presize klèman sa sa vle di vrèman nan pratik. [SIPOZISYON] Lè yon kliyan mande yon ranbousman nan sikonstans biznis lan konsidere pa rezonab men kliyan an konsidere nèt rezonab, anbigite sa a kreye yon diskisyon yon politik ki pi klè ta evite — e selon egzijans pwoteksyon konsomatè jiridiksyon ki aplike a, entèpretasyon sevè biznis lan ta ka pa menm aplikab legalman, kèlkeswa sa pwòp politik li di.
+
+## Egzamen pratik
+
+1. Poukisa yon politik ranbousman fonksyone kòm yon deklarasyon kondisyon ki mare biznis lan legalman, pa sèlman yon chwa sèvis kliyan?
+2. Kijan leson sa a konekte ak diskisyon tras PURPLE la sou pwoteksyon obligatwa lalwa bay?
+3. Ki risk yon politik ranbousman ki twò sevè kreye, menm si teknikman li legal?
+
+## Kle repons yo
+
+1. Paske anjeneral li vin yon pati nan kondisyon vant lan, e lwa pwoteksyon konsomatè ka enpoze egzijans minimòm anplis kèlkeswa kondisyon biznis lan li menm deklare.
+2. Sa paralèl dirèkteman ak pwen tras PURPLE la ke kèk pwoteksyon lalwa bay pa ka senpleman kontoune pa kontra, aplike isit la pou lwa sou ranbousman ak pwoteksyon konsomatè.
+3. Domaj repitasyon, jan yo kouvri l nan Leson 4, lè kliyan yo santi yo trete yo enjisteman e yo pataje eksperyans sa a piblikman, kèlkeswa si politik la teknikman legal.
+
+## Repons ak eksplikasyon
+
+1. Sa a se "poukisa" santral ki fè nou wè politik ranbousman an kòm yon dokiman legal.
+2. Sa konekte leson an klèman ak prensip pwoteksyon obligatwa tras PURPLE la.
+3. Sa konekte leson an ak diskisyon Leson 4 la sou risk repitasyon.
+
+## Pwen kle yo
+- Yon politik ranbousman fonksyone kòm yon deklarasyon kondisyon ki mare biznis lan legalman, sijè a egzijans pwoteksyon konsomatè ke yon kontra pa ka senpleman kontoune.
+- Yon langaj ki pa klè kreye diskisyon; politik ki twò sevè kreye risk repitasyon menm lè yo teknikman legal.
+- Yo ta dwe redije yon politik ranbousman ak menm swen ak nenpòt lòt dokiman ki gen enpòtans legal, e revize l parapò ak egzijans pwoteksyon konsomatè ki aplike yo.
+
+---
+
+*Leson sa a se sèlman pou edikasyon biznis jeneral, e li pa konstitye konsèy legal pèsonalize. Egzijans pwoteksyon konsomatè yo varye selon jiridiksyon; konsilte yon avoka ki gen lisans anvan w finalize yon politik ranbousman.*
+
+===== ORANGE-L3-024
+TITLE: Poukisa rechèch sou mache diminye ensètitid, men li pa janm elimine l
+SUMMARY: Aprann poukisa rechèch sou mache se yon zouti ki vrèman gen valè pou diminye risk anvan w lanse yon pwodui oswa yon kanpay, alòske li toujou kite yon ensètitid reyèl, ou pa ka retire, sou fason vrè mache a pral reyaji.
+# ORANGE-L3-024: Poukisa rechèch sou mache diminye ensètitid, men li pa janm elimine l
+
+## Objektif aprantisaj
+Lè w fin fè leson sa a, w ap kapab:
+- Esplike poukisa rechèch sou mache vrèman diminye risk anvan yon gwo desizyon lansman
+- Esplike poukisa rechèch sou mache pa janm ka elimine nèt ensètitid sou vrè reyaksyon mache a
+- Konekte konsèp sa a ak diskisyon sou validasyon MVP yo kouvri nan tras BLUE kourikoulòm sa a
+
+## Kontni prensipal
+
+Tras BLUE kourikoulòm sa a te kouvri konsèp MVP a — teste yon sipozisyon debaz pou pa chè anvan w angaje gwo resous. Rechèch sou mache sèvi yon objektif ki gen rapò, nan yon etap pi bonè: rasanble enfòmasyon sou bezwen kliyan, preferans yo, ak demann ki gen chans genyen anvan w finalize yon desizyon sou yon pwodui oswa yon kanpay. Men "poukisa" sa vrèman diminye risk san l pa elimine l nèt: metòd rechèch — sondaj, gwoup diskisyon (focus groups), analiz mache — bay yon siyal reyèl, itil sou reyaksyon kliyan ki gen chans rive, men kliyan k ap dekri yon konpòtman ipotetik alavni nan yon kad rechèch pa toujou aji menm jan lè yo vrèman fè fas ak yon vrè desizyon acha ak vrè lajan ak vrè opsyon konkiran.
+
+Se poutèt sa rechèch sou mache ta dwe enfòme, pa ranplase, kalite tès nan monn reyèl yon MVP bay — rechèch diminye ensètitid e li ede evite desizyon ki klèman move, men tès ki vrèman serye pou vrè demann lan toujou se vrè kliyan k ap pran vrè desizyon acha, sa ki fè eko egzakteman ak rezon tras BLUE la te mete aksan sou teste sipozisyon ak yon ekspozisyon reyèl, menm si minimòm, sou mache a olye pou yo konte nèt sou rechèch oswa sou sipozisyon sèlman.
+
+Anvan w trete rezilta rechèch sou mache kòm yon konfimasyon ke yon pwodui oswa yon kanpay pral reyisi, kisa ki ta toujou bezwen vre lè vrè kliyan yo fè fas ak vrè desizyon acha a, pa sèlman desizyon ipotetik yo te poze nan yon kad rechèch?
+
+## Egzanp pratik
+
+[EGZANP ILISTRATIF] Yon biznis fè yon gwo rechèch sou mache anvan l lanse yon nouvo pwodui, ak moun ki reponn sondaj yo ki eksprime yon gwo enterè e ki di yo vle achte. [SIPOZISYON] Lè lansman an vrèman fèt, vrè konpòtman acha a rete byen pi ba pase sa rechèch la te sijere — yon modèl komen ki reflete vrè diferans ant entansyon ipotetik moun deklare ak vrè desizyon acha ak vrè lajan, sa ki montre poukisa rechèch la te gen valè pou diminye risk e enfòme lansman an, men li pa t janm elimine ensètitid debaz la jan yon vrè tès sou mache, ki fè eko ak konsèp MVP tras BLUE la, ta revele l yon fason ki pi serye.
+
+## Egzamen pratik
+
+1. Poukisa rechèch sou mache vrèman diminye risk anvan yon gwo desizyon lansman?
+2. Poukisa rechèch sou mache pa janm ka elimine nèt ensètitid sou vrè reyaksyon mache a?
+3. Kijan leson sa a konekte ak konsèp validasyon MVP yo kouvri nan tras BLUE la?
+
+## Kle repons yo
+
+1. Paske li bay yon siyal reyèl, itil sou bezwen ak preferans kliyan ki gen chans genyen, sa ki ede evite desizyon ki klèman move anvan w angaje gwo resous.
+2. Paske kliyan k ap dekri yon konpòtman ipotetik alavni nan yon kad rechèch pa toujou aji menm jan lè yo fè fas ak yon vrè desizyon acha ak vrè lajan ak vrè altènativ.
+3. Tou de konsèp yo mete aksan sou valè tès nan monn reyèl olye sipozisyon ipotetik — rechèch sou mache diminye ensètitid, men ekspozisyon MVP a bay vrè kliyan an bay yon tès final ki pi serye.
+
+## Repons ak eksplikasyon
+
+1. Sa etabli vrè valè rechèch sou mache genyen.
+2. Sa a se limit santral leson an bati sou li.
+3. Sa konekte leson an klèman ak konsèp paralèl tras BLUE la.
+
+## Pwen kle yo
+- Rechèch sou mache vrèman diminye risk paske li bay yon siyal reyèl sou bezwen ak preferans kliyan anvan yon gwo desizyon.
+- Li pa janm ka elimine ensètitid nèt, paske konpòtman ipotetik nan rechèch pa toujou koresponn ak vrè desizyon acha.
+- Rechèch sou mache ta dwe enfòme, pa ranplase, kalite tès nan monn reyèl konsèp MVP a mete aksan sou li lòt kote nan kourikoulòm sa a.
+
+---
+
+*Leson sa a se sèlman pou edikasyon biznis jeneral, e li pa konstitye konsèy finansye, envestisman, taks, oswa legal pèsonalize. Konsilte yon pwofesyonèl ki gen lisans anvan w pran desizyon sou lansman pwodui.*

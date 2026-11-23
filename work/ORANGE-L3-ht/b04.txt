@@ -161,7 +161,7 @@ Lè w fin fè leson sa a, w ap kapab:
 
 ## Kontni prensipal
 
-Yon estrikti komisyon lavant sipoze motive pèfòmans, men men "poukisa" konsepsyon espesifik li enpòtan otan ke lefèt li egziste: vandè yo, tankou nenpòt moun k ap reyaji ak ankourajman, anjeneral pral optimize pou egzakteman sa estrikti komisyon an vrèman rekonpanse — pa nesesèman sa lidè yo gen entansyon estrikti a ankouraje. Yon plan ki rekonpanse sèlman volim vant, san konsidere kenbe kliyan oswa pwofitabilite, ka kreye egzakteman kalite konpòtman ki detwi vrè objektif long tèm biznis lan, menm lè teknikman li "ap mache" jan yo te konsevwa l.
+Yon estrikti komisyon lavant sipoze motive pèfòmans, men "poukisa" konsepsyon espesifik li enpòtan otan ke lefèt li egziste: vandè yo, tankou nenpòt moun k ap reyaji ak ankourajman, anjeneral pral optimize pou egzakteman sa estrikti komisyon an vrèman rekonpanse — pa nesesèman sa lidè yo gen entansyon estrikti a ankouraje. Yon plan ki rekonpanse sèlman volim vant, san konsidere kenbe kliyan oswa pwofitabilite, ka kreye egzakteman kalite konpòtman ki detwi vrè objektif long tèm biznis lan, menm lè teknikman li "ap mache" jan yo te konsevwa l.
 
 Sa konekte ak yon tèm pi laj ki enpòtan nan tout kourikoulòm sa a: nenpòt estrikti ankourajman — yon plan komisyon, yon bonis pou egzekitif, konpansasyon yon ofisye prè — fòme konpòtman selon mekanik espesifik li, pa selon bon entansyon yo mete sou li. Yon estrikti komisyon ki rekonpanse jwenn nouvo kliyan san konsidere valè sou tout lavi oswa kliyan ki ale (churn) yo kouvri pi bonè nan tras sa a ka ankouraje vandè yo, san yo pa fè espre, pou yo fèmen tranzaksyon ak kliyan ki pa gen chans rete, paske yo touche komisyon an kèlkeswa sa ki rive apre vant lan.
 
