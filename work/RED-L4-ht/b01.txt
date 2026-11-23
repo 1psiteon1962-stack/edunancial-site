@@ -1,0 +1,384 @@
+===== RED-L4-001
+TITLE: Analiz to kapitalizasyon: poukisa li revele risk, se pa sèlman rannman
+SUMMARY: Aprann poukisa to kapitalizasyon (cap rate) mezire risk otan ke rannman, ak kijan pou li l kòrèkteman anvan w achte yon pwopriyete pou lwe.
+KEYWORDS: to kapitalizasyon, cap rate, risk imobilye, NOI, evalyasyon pwopriyete
+# Analiz to kapitalizasyon: poukisa li revele risk, se pa sèlman rannman
+
+## Objektif aprantisaj
+- Esplike kisa yon to kapitalizasyon vrèman mezire.
+- Kalkile to kapitalizasyon apati revni operasyonèl nèt ak pri acha a.
+- Esplike poukisa yon to kapitalizasyon ki pi ba souvan vle di mache a wè mwens risk, se pa yon pi move afè.
+- Konpare to kapitalizasyon de pwopriyete pou jije risk relatif yo.
+
+## Kontni prensipal
+Yon to kapitalizasyon, oswa "cap rate", se Revni Operasyonèl Nèt (Net Operating Income, NOI) divize pa pri acha pwopriyete a, eksprime an pousantaj. Pifò debitan aprann to kapitalizasyon kòm yon chif rannman. Sa se sèlman mwatye istwa a. FÈ VERIFYE: to kapitalizasyon se yon chif mache a detèmine, sa ki vle di li reflete konbyen envestisè dispoze peye pou yon dola revni nan zòn sa a ak pou kalite pwopriyete sa a.
+
+Men "poukisa" L1 ak L2 sote a: yon to kapitalizasyon ki ba pa vle di yon move afè, e yon to kapitalizasyon ki wo pa vle di yon bon afè. Yon to kapitalizasyon 4% nan yon zòn sant vil ki estab souvan vle di envestisè yo wè ti kras risk — lokatè ki estab, yon bon istwa pwopriyete a pran valè, finansman ki fasil. Yon to kapitalizasyon 9% nan yon vil endistriyèl k ap bese souvan vle di envestisè yo mande yon pi gwo kousen paske risk pou lojman rete vid, pou lokatè chanje souvan, oswa pou valè yo bese pi wo.
+
+Se poutèt sa konpare to kapitalizasyon gen sans sèlman nan menm mache a ak pou menm kalite pwopriyete. Konpare yon bilding apatman ak yon to kapitalizasyon 5% nan yon vil k ap grandi ak yon bilding apatman ak yon to kapitalizasyon 11% nan yon vil k ap vin pi piti se pa konpare de envestisman sou menm echèl — se konpare de pwofil risk diferan ki pote menm kalkil la.
+
+## Egzanp pratik
+EGZANP ILISTRATIF: Yon diplèks pwodui $24,000 NOI chak ane e li vann pou $300,000. To kapitalizasyon = $24,000 / $300,000 = 8%. Yon diplèks ki sanble de vil pi lwen pwodui menm $24,000 NOI a men li vann pou $480,000, sa ki bay yon to kapitalizasyon 5%. Pwopriyete 5% la pa "pi move" — mache a ap mete nan pri a yon risk moun wè ki pi ba (pi bon zòn lekòl, mwens krim, plis kwasans travay), kidonk achtè yo aksepte yon rannman revni ki pi ba an echanj pou plis sekirite ak yon valè ki gen chans pou l monte.
+
+## Egzamen pratik
+**Q1. Kisa yon to kapitalizasyon mezire sitou?**
+A) Lajan kach pwopriyete a pwodui chak mwa
+B) Rapò ant revni ak pri, ki reflete risk moun wè
+C) To enterè sou prè ipotèk la
+D) Sipèfisi total pwopriyete a
+
+**Q2. Yon pwopriyete gen yon to kapitalizasyon ki pi ba pase yon pwopriyete ki sanble lòt bò vil la. Kisa sa sijere pi plis?**
+A) Pwopriyete ki gen to ki pi ba a se yon pi move envestisman
+B) Mache a wè pwopriyete ki gen to ki pi ba a kòm mwens riske
+C) Pwopriyete ki gen to ki pi ba a gen plis depans
+D) Vandè a te fè yon erè nan pri a
+
+**Q3. Poukisa li twonpe moun pou konpare to kapitalizasyon ant mache ki trè diferan?**
+A) Yo kalkile to kapitalizasyon yon fason diferan nan chak eta
+B) Ou pa ka mezire NOI andeyò Etazini
+C) Konparezon an inyore pwofil risk diferan ki deja nan pri chak mache
+D) To kapitalizasyon aplike sèlman pou pwopriyete komèsyal
+
+**Q4. NOI yon pwopriyete se $40,000 e li vann pou $500,000. Ki to kapitalizasyon li?**
+A) 6%
+B) 7%
+C) 8%
+D) 9%
+
+**Q5. Ki faktè ki ta gen plis chans fè to kapitalizasyon mwayèn yon mache monte?**
+A) Mwens lojman vid ak lwaye k ap monte
+B) Plis konfyans envestisè yo
+C) Yon risk moun wè k ap monte, tankou yon bès ekonomik nan zòn nan
+D) Yon bès nan to enterè prè ipotèk
+
+## Kle repons yo
+Q1: B
+Q2: B
+Q3: C
+Q4: C
+Q5: C
+
+## Repons ak eksplikasyon
+**Q1.** To kapitalizasyon = NOI / pri. Paske se mache a ki detèmine l, li reflete konbyen risk envestisè yo kwè sous revni an genyen.
+
+**Q2.** To kapitalizasyon ki pi ba an jeneral reflete yon risk moun wè ki pi ba ak plis konfyans envestisè nan estabilite sous revni an.
+
+**Q3.** To kapitalizasyon reflete kondisyon risk ak demann lokal, kidonk konpare mache ki pa sanble se konpare nivo risk diferan, se pa sèlman rannman.
+
+**Q4.** $40,000 / $500,000 = 0.08, oswa 8%.
+
+**Q5.** Yon risk moun wè ki pi wo mande yon rannman ki pi wo pou konpanse envestisè yo, sa ki parèt kòm yon to kapitalizasyon ki pi wo.
+
+## Pwen kle yo
+- To kapitalizasyon se NOI divize pa pri — yon foto rannman konpare ak pri, se pa yon nòt kalite poukont li.
+- To kapitalizasyon ki ba souvan montre yon risk moun wè ki pi ba; to ki wo souvan montre yon risk moun wè ki pi wo.
+- Ou ka konpare to kapitalizasyon yon fason ki gen sans sèlman nan mache ak kalite pwopriyete ki sanble.
+- Yon to kapitalizasyon se yon pwen depa pou analiz, se pa yon vèdik final sou si yon afè bon.
+
+===== RED-L4-002
+TITLE: Rannman kach sou kach kont rannman total: poukisa yo rakonte istwa diferan
+SUMMARY: Konprann poukisa rannman kach sou kach ak rannman total ka montre nan direksyon opoze, e poukisa yon envestisè bezwen tou de chif yo, se pa yon sèl.
+KEYWORDS: rannman kach sou kach, rannman total, ROI imobilye, pran valè, ogmantasyon ekite
+# Rannman kach sou kach kont rannman total: poukisa yo rakonte istwa diferan
+
+## Objektif aprantisaj
+- Kalkile rannman kach sou kach apati lajan kach chak ane ak kach ou envesti.
+- Esplike eleman ki fòme rannman total.
+- Esplike poukisa yon pwopriyete ka gen yon move rannman kach sou kach men yon bon rannman total, oswa lekontrè.
+- Deside ki mezi ki pi enpòtan pou yon objektif envestisman done.
+
+## Kontni prensipal
+Rannman kach sou kach (cash-on-cash return) mezire lajan kach ou vrèman resevwa chak ane konpare ak lajan kach ou te mete. Rannman total ajoute twa lòt pyès: pran valè (appreciation), peman prè a (ekite k ap ogmante paske lwaye lokatè a ap peye prè ipotèk ou), ak avantaj taks tankou depresyasyon.
+
+Men poukisa a: de envestisè ka gade egzakteman menm pwopriyete a e yo pa dakò sou si se yon bon afè, paske y ap mezire bagay diferan. Yon envestisè ki bezwen revni chak mwa pou l viv konsantre plis sou rannman kach sou kach. Yon envestisè k ap bati richès alontèm ka aksepte yon rannman kach sou kach ki ba oswa menm negatif paske pwopriyete a ap pran valè vit e lokatè yo ap peye prè ipotèk la — sa ki bati yon ekite ki parèt pita, se pa kounye a.
+
+Se poutèt sa yon afè ki gen "move" lajan kach nan yon mache k ap pran valè vit ka fè pi byen pase yon afè ki gen "bon" lajan kach nan yon mache ki rete kanpe sou yon kenbe dis ane. SIPOZISYON: konparezon sa a sipoze tou de pwopriyete yo kenbe pou tout peryòd la e okenn pa sibi yon vant fòse pandan yon bès — yon vrè risk ou dwe peze apa. Règ taks sou depresyasyon ak lòt avantaj varye selon peyi; verifye ak yon pwofesyonèl taks lokal ki kalifye.
+
+## Egzanp pratik
+EGZANP ILISTRATIF: Pwopriyete A pwodui $2,000 lajan kach chak ane sou yon avans $50,000 (4% kach sou kach) men li pran 6% valè chak ane nan yon mache solid. Pwopriyete B pwodui $6,000 lajan kach chak ane sou menm avans $50,000 a (12% kach sou kach) men li nan yon mache plat ki pa pran valè (0%). Apre 10 ane, pran valè ak peman prè Pwopriyete A a ka pwodui pi plis richès total pase lajan kach regilye Pwopriyete B a ki pa pran valè, menm si B "genyen" chak ane sou rannman kach sou kach.
+
+## Egzamen pratik
+**Q1. Ki rapò rannman kach sou kach mezire?**
+A) Pwofi total divize pa valè pwopriyete a
+B) Lajan kach chak ane divize pa kach ou envesti
+C) Pran valè divize pa pri acha a
+D) NOI divize pa pri acha a
+
+**Q2. Kiyès nan sa yo ki PA nòmalman nan rannman total?**
+A) Pran valè
+B) Peman prè a
+C) Lajan kach
+D) Pri orijinal vandè a te peye
+
+**Q3. Poukisa yon envestisè ta ka aksepte yon rannman kach sou kach ki ba?**
+A) Li pa renmen resevwa revni chak mwa
+B) L ap bay pran valè ak ogmantasyon ekite priyorite sou lajan kach imedya
+C) Lalwa mande rannman kach sou kach ki ba
+D) Sa diminye taks pwopriyete li otomatikman
+
+**Q4. Yon envestisè mete $40,000 avans e li resevwa $4,800 lajan kach chak ane. Ki rannman kach sou kach li?**
+A) 8%
+B) 10%
+C) 12%
+D) 14%
+
+**Q5. Poukisa li riske pou w sipoze yon estrateji ki gen ti lajan kach men anpil pran valè ap toujou fè pi byen?**
+A) Politik gouvènman garanti pran valè
+B) Mache yo ka rete kanpe oswa bese, e ti lajan kach bay mwens kousen pandan yon bès
+C) Rannman kach sou kach toujou pi egzak pase rannman total
+D) Peman prè a pa janm vrèman bati ekite
+
+## Kle repons yo
+Q1: B
+Q2: D
+Q3: B
+Q4: C
+Q5: B
+
+## Repons ak eksplikasyon
+**Q1.** Rannman kach sou kach izole lajan kach ou vrèman resevwa konpare ak vrè lajan kach envestisè a te mete.
+
+**Q2.** Pri orijinal vandè a te peye pa gen okenn rapò ak kalkil rannman total achtè a.
+
+**Q3.** Kèk envestisè echanje lajan kach kounye a pou pran valè ak kwasans ekite alontèm, sitou nan mache ki gen gwo kwasans.
+
+**Q4.** $4,800 / $40,000 = 0.12, oswa 12%.
+
+**Q5.** Pran valè pa garanti, kidonk yon estrateji ki depann anpil de li gen plis risk pase youn ki sipòte pa yon bon lajan kach kounye a.
+
+## Pwen kle yo
+- Rannman kach sou kach izole pèfòmans lajan kach kounye a; rannman total kaptire tout foto finansye a, tankou pran valè ak ogmantasyon ekite.
+- Mezi ki "pi bon" an depann de objektif envestisè a: revni kounye a kont richès pita.
+- Yon pwopriyete ka sanble fèb sou yon mezi e fò sou lòt la — jije selon vrè objektif ou ak orizon tan ou.
+- Estrateji ki apiye anpil sou pran valè gen plis risk pase sa ki ankre nan yon bon lajan kach kounye a.
+
+===== RED-L4-003
+TITLE: IRR kont to kapitalizasyon: poukisa valè tan an chanje foto a
+SUMMARY: Aprann poukisa To Rannman Entèn (IRR) konte ki lè lajan an rive yon fason to kapitalizasyon pa janm ka fè, ak kilè chak mezi se bon zouti a.
+KEYWORDS: IRR, to rannman entèn, to kapitalizasyon, valè tan lajan, analiz imobilye
+# IRR kont to kapitalizasyon: poukisa valè tan an chanje foto a
+
+## Objektif aprantisaj
+- Esplike diferans prensipal ant yon mezi nan yon sèl moman ak yon mezi ki peze tan.
+- Esplike poukisa ki lè lajan kach yo rive chanje vrè rannman yon envestisman.
+- Idantifye sitiyasyon kote IRR se yon zouti ki pi itil pase to kapitalizasyon.
+- Entèprete yon konparezon IRR senp ant de senaryo envestisman.
+
+## Kontni prensipal
+To kapitalizasyon se yon foto — li di w rapò ant revni ak pri nan yon sèl moman. IRR (Internal Rate of Return, To Rannman Entèn) se yon mezi ki rakonte tout istwa a — li konte chak lajan kach pandan tout peryòd ou kenbe pwopriyete a, tankou ki lè lajan an antre ak ki lè li soti, e li konsidere valè tan lajan (yon dola jodi a vo plis pase yon dola nan senk ane).
+
+Men poukisa a: de afè ka gen menm rannman mwayèn chak ane men IRR trè diferan akoz ki lè lajan kach la rive. Yon pwopriyete ki peye w regilyèman chak ane gen yon vrè valè ki diferan de youn ki pa peye w anyen pandan kat ane epi yon gwo sòm nan senkyèm ane a, menm si total dola yo idantik. Lajan ou resevwa pi bonè ka reenvesti pi bonè, kidonk li vo plis.
+
+Se poutèt sa envestisè pwofesyonèl ak sendikatè itilize IRR pou konpare afè ki gen peryòd kenbe diferan, lè lajan kach rive diferan, oswa yon melanj lajan kach ak yon vant nan lavni. To kapitalizasyon pa ka fè sa paske li gade yon sèl foto sèlman, souvan premye ane a.
+
+## Egzanp pratik
+EGZANP ILISTRATIF: Afè A bay $10,000 chak ane pandan senk ane ($50,000 total). Afè B pa bay anyen pandan kat ane, epi $50,000 nan senkyèm ane a (menm $50,000 total la). Tou de gen menm total dola rannman, men Afè A gen yon IRR ki pi wo yon fason enpòtan paske envestisè a te resevwa lajan pi bonè e li te ka reenvesti l, alòske envestisè Afè B a te tann ak kapital li bloke e ki pa t rapòte anyen jiska dènye ane a.
+
+## Egzamen pratik
+**Q1. Ki prensipal avantaj IRR sou to kapitalizasyon?**
+A) IRR pi fasil pou kalkile alamen
+B) IRR konte ki lè tout lajan kach yo rive pandan tout peryòd kenbe a
+C) IRR inyore valè tan lajan
+D) IRR aplike sèlman pou pwopriyete komèsyal
+
+**Q2. Poukisa yon dola ou resevwa jodi a vo plis pase yon dola ou resevwa nan senk ane?**
+A) Enflasyon toujou fè dola nan lavni vo plis
+B) Dola jodi a ka reenvesti e grandi pandan tan sa a
+C) To kapitalizasyon toujou monte sou senk ane
+D) Lajan pa pèdi okenn valè avèk tan
+
+**Q3. De afè bay menm total dola sou senk ane. Afè A peye menm jan chak ane; Afè B pa peye anyen jiska yon gwo sòm nan senkyèm ane a. Kiyès ki ap an jeneral gen IRR ki pi wo a?**
+A) Afè B, paske gwo sòm toujou pi bon
+B) Afè A, paske li bay lajan kach pi bonè pou reenvesti
+C) Yo ap toujou gen menm IRR
+D) Ou pa ka kalkile IRR pou okenn nan yo
+
+**Q4. Ki pi bon fason pou dekri to kapitalizasyon kòm yon kalite mezi?**
+A) Yon mezi ki peze tan, pou tout peryòd kenbe a
+B) Yon mezi foto nan yon sèl moman
+C) Yon mezi ki aplike sèlman apre yon pwopriyete vann
+D) Yon zouti pou kalkile taks
+
+**Q5. Poukisa yon sendikatè k ap konpare de afè plizyè ane ak lè lajan kach rive diferan ta prefere IRR olye to kapitalizasyon?**
+A) Li ilegal pou itilize to kapitalizasyon nan sendikasyon
+B) IRR kaptire tout lè ak gwosè tout lajan kach yo, sa ki fè l ka konpare ant estrikti diferan
+C) IRR pa mande okenn kalkil
+D) To kapitalizasyon toujou egzajere rannman
+
+## Kle repons yo
+Q1: B
+Q2: B
+Q3: B
+Q4: B
+Q5: B
+
+## Repons ak eksplikasyon
+**Q1.** IRR konte ki lè lajan kach yo rive, se pa sèlman kantite total yo, sa to kapitalizasyon pa ka fè.
+
+**Q2.** Valè tan lajan reflete opòtinite pou reenvesti e fè rannman sou lajan ou resevwa pi bonè.
+
+**Q3.** Lajan kach ki rive pi bonè ogmante IRR paske lajan sa a ka reenvesti pi bonè, menm lè total yo egal.
+
+**Q4.** To kapitalizasyon reflete yon sèl moman (souvan premye ane a), kontrèman ak IRR ki kouvri tout peryòd kenbe a.
+
+**Q5.** IRR bay yon konparezon egal pou egal ant afè ki gen estrikti tan diferan, sa to kapitalizasyon pa ka bay.
+
+## Pwen kle yo
+- To kapitalizasyon se yon foto; IRR se yon mezi rannman ki rakonte tout istwa a e ki peze tan.
+- Ki lè lajan kach yo rive chanje vrè valè envestisman an, menm lè total dola yo egal.
+- IRR se bon zouti pou konpare afè ki gen peryòd kenbe oswa modèl lajan kach diferan.
+- Itilize to kapitalizasyon pou yon premye koudèy rapid, e IRR pou yon konparezon konplè anvan w angaje kapital.
+
+===== RED-L4-004
+TITLE: Analiz pwofon NOI: poukisa pousantaj depans varye selon klas pwopriyete
+SUMMARY: Aprann poukisa pousantaj depans operasyonèl diferan anpil ant klas pwopriyete, e poukisa mal jije depans se youn nan erè analiz ki pi komen.
+KEYWORDS: NOI, revni operasyonèl nèt, pousantaj depans operasyonèl, klas pwopriyete, depans imobilye
+# Analiz pwofon NOI: poukisa pousantaj depans varye selon klas pwopriyete
+
+## Objektif aprantisaj
+- Kalkile NOI kòrèkteman lè w separe depans operasyonèl, depans kapital, ak sèvis dèt.
+- Esplike poukisa pousantaj depans diferan ant pwopriyete Klas A, B, ak C.
+- Idantifye kategori depans moun souvan sou-estime.
+- Esplike poukisa sou-estime depans gonfle valè yon pwopriyete sanble genyen.
+
+## Kontni prensipal
+Revni Operasyonèl Nèt (NOI) se revni lwaye mwens depans operasyonèl — men se pa mwens peman prè ipotèk la, e se pa mwens gwo amelyorasyon kapital. Kenbe liy sa a pwòp enpòtan paske NOI detèmine to kapitalizasyon, ki detèmine valè. FÈ VERIFYE: depans operasyonèl souvan gen ladan taks pwopriyete, asirans, jesyon pwopriyete, reparasyon ak antretyen, sèvis piblik lokatè yo pa peye, ak rezèv pou chanjman lokatè.
+
+Men poukisa a: pousantaj depans (depans kòm yon pousantaj revni) pa menm jan ant klas pwopriyete, e trete yo kòm si yo te menm jan se yon erè analiz komen ki koute chè. Pwopriyete Klas A (pi nouvo, wo nivo) souvan gen pousantaj depans 35-45% paske sistèm yo nouvo e ti kras lojman rete vid. Pwopriyete Klas C (pi ansyen, pi ba nivo) souvan gen 50-60% oswa plis, paske bilding ki pi ansyen bezwen plis reparasyon, lokatè chanje pi souvan, e jesyon mande plis travay pou chak inite. ESTIMASYON: fouchèt sa yo varye selon mache e ou ta dwe toujou verifye yo kont vrè deklarasyon operasyon pase yo, se pa sipoze yo.
+
+Se poutèt sa yon pwopriyete Klas C yo fè piblisite ak yon pousantaj depans ki twò ba pou kwè ta dwe leve yon drapo — swa vandè a ap rapòte depans twò ba, swa l ap ranvwaye antretyen ki pral frape nouvo pwopriyetè a, oswa tou de.
+
+## Egzanp pratik
+EGZANP ILISTRATIF: Yon katpleks Klas C montre $40,000 revni lwaye brit ak yon pousantaj depans vandè a rapòte ki 30% ($12,000 depans), sa ki bay yon NOI $28,000. Yon achtè ki envestige vrè douz dènye mwa yo jwenn vrè depans yo pi pre 55% ($22,000) yon fwa yo mete reparasyon yo te ranvwaye, plis lojman vid pase sa yo te di, ak frè jesyon ladan — vrè NOI a se $18,000, se pa $28,000. Ak yon to kapitalizasyon 8%, diferans sa a chanje valè jistifye pwopriyete a pa $125,000.
+
+## Egzamen pratik
+**Q1. Kiyès nan sa yo ki kòrèkteman nan depans operasyonèl pou kalkil NOI?**
+A) Prensipal ak enterè prè ipotèk
+B) Taks pwopriyete ak asirans
+C) Avans lan
+D) Ranplasman kapital yon nouvo do kay
+
+**Q2. Poukisa pwopriyete Klas C souvan gen pousantaj depans ki pi wo pase pwopriyete Klas A?**
+A) Pwopriyete Klas C toujou gen lwaye pi ba, sa ki bese depans
+B) Bilding ki pi ansyen bezwen plis reparasyon e yo souvan gen plis chanjman lokatè ak plis travay jesyon
+C) Pwopriyete Klas C egzante de taks pwopriyete
+D) Règleman gouvènman fikse pousantaj depans selon klas
+
+**Q3. Yon vandè rapòte yon pousantaj depans ki ba anpil pou yon pwopriyete Klas C ki pi ansyen. Kisa yon analis ta dwe fè?**
+A) Aksepte chif la paske vandè yo oblije rapòte egzakteman
+B) Verifye l kont vrè deklarasyon operasyon pase yo e tcheke si gen antretyen yo te ranvwaye
+C) Rejte afè a otomatikman
+D) Sipoze pousantaj la aplike pou tout pwopriyete ki sanble nan mache a
+
+**Q4. Si vrè NOI a pi ba pase NOI vandè a te di, kisa k rive valè jistifye pwopriyete a ak yon to kapitalizasyon fiks?**
+A) Li monte
+B) Li rete menm jan
+C) Li bese
+D) To kapitalizasyon vin pa enpòtan
+
+**Q5. Poukisa li enpòtan pou separe depans kapital ak depans operasyonèl lè w ap kalkile NOI?**
+A) Li ilegal pou mete depans kapital nan okenn kalkil imobilye
+B) Melanje yo defòme NOI e li ka bay yon move foto vrè revni kontinyèl pwopriyete a
+C) Depans kapital toujou ogmante NOI
+D) Rapòte depans operasyonèl se yon opsyon
+
+## Kle repons yo
+Q1: B
+Q2: B
+Q3: B
+Q4: C
+Q5: B
+
+## Repons ak eksplikasyon
+**Q1.** Taks pwopriyete ak asirans se depans operasyonèl kontinyèl; peman prè ipotèk ak gwo ranplasman kapital pa nan NOI.
+
+**Q2.** Laj, kondisyon, ak chanjman lokatè pouse depans relatif ki pi wo nan pwopriyete Klas C.
+
+**Q3.** Pousantaj depans ki ba anpil merite verifikasyon, paske rapòte twò ba oswa antretyen yo ranvwaye ka kache vrè kou yo.
+
+**Q4.** Valè = NOI / to kapitalizasyon, kidonk yon vrè NOI ki pi ba bay yon valè jistifye ki pi ba ak menm to kapitalizasyon an.
+
+**Q5.** NOI sipoze reflete pèfòmans operasyon kontinyèl; depans kapital se yon sèl fwa e yo dwe nan yon analiz apa.
+
+## Pwen kle yo
+- NOI egal revni lwaye mwens depans operasyonèl, san sèvis dèt ak gwo depans kapital.
+- Pousantaj depans diferan yon fason enpòtan selon klas pwopriyete akoz laj, kondisyon, ak chanjman lokatè.
+- Toujou verifye depans vandè a rapòte kont vrè deklarasyon pase yo anvan w fè NOI a konfyans.
+- Depans ki sou-estime gonfle NOI, sa ki gonfle valè pwopriyete a sanble genyen — yon pyèj komen pou achtè ki gen mwens eksperyans.
+
+===== RED-L4-005
+TITLE: Analiz sik mache: poukisa imobilye avanse nan faz ou ka prevwa
+SUMMARY: Konprann kat faz sik mache imobilye a ak poukisa rekonèt faz kounye a chanje ki estrateji ki gen sans.
+KEYWORDS: sik mache imobilye, rekiperasyon, ekspansyon, twòp ofri, resesyon, chwazi moman mache
+# Analiz sik mache: poukisa imobilye avanse nan faz ou ka prevwa
+
+## Objektif aprantisaj
+- Nonmen e dekri kat faz sik mache imobilye a.
+- Esplike poukisa ofri souvan an reta sou demann nan chak sik.
+- Idantifye siyal ki asosye ak chak faz.
+- Esplike poukisa menm estrateji a pa mache nan chak faz.
+
+## Kontni prensipal
+Mache imobilye gen tandans pase nan kat faz ki repete: rekiperasyon, ekspansyon, twòp ofri (hyper supply), ak resesyon. KAD ILISTRATIF, se pa yon prediksyon garanti: rekiperasyon vini apre yon bès, ak anpil lojman vid k ap amelyore dousman e ti kras nouvo konstriksyon. Ekspansyon swiv, ak mwens lojman vid, lwaye k ap monte, e nouvo konstriksyon k ap kòmanse. Twòp ofri rive lè konstriksyon rattrape e depase demann, sa ki fè lojman vid kòmanse monte ankò menm pandan mache a toujou sanble fò. Resesyon swiv, ak plis lojman vid toujou e lwaye k ap bese.
+
+Men poukisa a: konstriksyon pran plizyè ane pou planifye e bati, kidonk ofri toujou an reta sou chanjman nan demann. Reta sa a se sa ki kreye sik la. Lè tout moun ka wè yon mache "cho", yon vag nouvo ofri souvan deja ap bati, e l ap frape mache a 1-3 ane pita kèlkeswa si demann kenbe.
+
+Se poutèt sa menm estrateji a pa mache nan chak pwen nan sik la. Achte ak anpil dèt nan fen ekspansyon, jis anvan twòp ofri frape, gen yon risk trè diferan de achte menm jan pandan rekiperasyon, lè ofri a ra e demann jis kòmanse retounen.
+
+## Egzanp pratik
+EGZANP ILISTRATIF: Yon vil wè lwaye monte vit pandan twa ane (ekspansyon) pandan plis moun ap vin pou travay. Devlopè yo reyaji lè yo kòmanse bati nouvo konplèks apatman. De ane pita, plizyè nan konplèks sa yo louvri an menm tan — jis lè kwasans demann ap ralanti. Lojman vid kòmanse monte menm si mache a "sanble" fò sou sifas (twòp ofri), e nan yon lòt ane lwaye kòmanse bese pandan pwopriyetè yo ap fè konkirans pou lokatè (resesyon). Yon envestisè ki te achte nan pik ekspansyon an, li te sipoze tandans yo ta kontinye, kenbe nan vag ofri li pa t ka wè k ap bati a.
+
+## Egzamen pratik
+**Q1. Ki faz sik la souvan vini apre yon resesyon mache?**
+A) Twòp ofri
+B) Rekiperasyon
+C) Ekspansyon
+D) Resesyon repete san fen
+
+**Q2. Poukisa ofri souvan an reta sou demann nan mache imobilye?**
+A) Konstriksyon pran plizyè ane pou planifye, jwenn pèmi, e bati
+B) Devlopè yo evite bati espre lè demann wo
+C) Ofri ak demann avanse ansanm pafètman nan imobilye
+D) Lwa zonaj anpeche tout nouvo konstriksyon
+
+**Q3. Kisa ki karakterize faz twòp ofri a?**
+A) Lojman vid nan pwen ki pi ba nan sik la
+B) Nouvo konstriksyon rattrape e depase demann, sa ki fè lojman vid kòmanse monte
+C) Lwaye ap bese anpil e konstriksyon kanpe
+D) Se faz ki pi an sekirite pou achte ak anpil dèt
+
+**Q4. Poukisa yon envestisè k ap achte ak anpil dèt nan fen ekspansyon ta ka fè fas ak plis risk pase youn k ap achte nan rekiperasyon?**
+A) Dèt pa gen okenn efè sou risk ki gen rapò ak sik la
+B) Yon vag nouvo ofri gen chans deja ap bati e li ka frape mache a pandan kwasans ap ralanti
+C) To enterè toujou pi ba nan fen ekspansyon
+D) Pwopriyete nan faz rekiperasyon toujou twò chè
+
+**Q5. Ki prensipal leson analiz sik mache pou yon envestisè?**
+A) Valè imobilye toujou monte sèlman avèk tan
+B) Bon estrateji a ak tolerans risk ta dwe ajiste selon faz sik kounye a
+C) Sik yo idantik nan chak vil e ou pa ka analize yo lokalman
+D) Faz sik yo pa gen okenn efè sou disponiblite finansman
+
+## Kle repons yo
+Q1: B
+Q2: A
+Q3: B
+Q4: B
+Q5: B
+
+## Repons ak eksplikasyon
+**Q1.** Rekiperasyon se faz kote lojman vid kòmanse amelyore apre yon resesyon, anvan konstriksyon rekòmanse monte.
+
+**Q2.** Kalandriye konstriksyon ki pran plizyè ane vle di nouvo ofri rive byen apre premye siyal demann yo parèt.
+
+**Q3.** Twòp ofri make pa ofri k ap depase demann, menm pandan mache a ka toujou sanble fò sou sifas.
+
+**Q4.** Fen ekspansyon souvan vini anvan twòp ofri, sa ki vle di achtè ki gen anpil dèt fè fas ak plis risk bès akoz yon vag ofri k ap vini.
+
+**Q5.** Rekonèt faz kounye a ede yon envestisè kalibre dèt, moman, ak tolerans risk yon fason apwopriye.
+
+## Pwen kle yo
+- Mache imobilye pase nan faz rekiperasyon, ekspansyon, twòp ofri, ak resesyon.
+- Ofri an reta sou demann paske konstriksyon pran plizyè ane, e se sa ki kreye sik la.
+- Menm estrateji a gen risk diferan selon nan ki faz mache a ye.
+- Rekonèt siyal sik la ede envestisè ajiste dèt ak moman olye yo sipoze tandans ap kontinye pou toujou.
