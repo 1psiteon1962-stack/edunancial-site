@@ -63,3 +63,12 @@ BLACK L1: topics OK; de/fr-FR/it/nl frontmatter titles have numeric prefix "N." 
 - L2-L5: topics and structure match English in all locales (checked)
 - PR 1622 RED L1 fixes MERGED; PR 1623 PURPLE L1 es-Caribbean+es-ES (100 files) MERGED; PR 1624 WHITE L1 es-Caribbean+es-ES (100 files) in CI
 - Fidelity tool: /tmp/fidelity.py (answer key + number match vs English); template tool /tmp/tplset.py
+- 2026-11-23 session:
+  - PR 1625 BLUE L1 es-Caribbean, PR 1626 BLUE L1 es-ES — MERGED, smoke OK
+  - PR 1627 GOLD L1 Spanish (both) — MERGED, smoke OK. Prior "kept" GOLD es-Caribbean lessons were paraphrased; all 50 retranslated.
+  - PR 1628 GREEN L1 Spanish — MERGED. GREEN es-Caribbean 001-005 were condensed (002/003 missing takeaways); retranslated. 006-010 verified faithful.
+  - PR 1629 BLACK L1 es-ES — MERGED, smoke OK.
+  - PR 1630 RED L1 Spanish — MERGED (a4de63fa), smoke OK. RED es-Caribbean 004-050 were condensed (no "### Question N"); retranslated faithfully. es-ES derived (tools/red_eses.py).
+    NOTE: phase0 safety-net workflow pins es-ES RED-L1-001 title text "¿Qué es realmente un inmueble?" — keep it.
+  - PR 1631 BLUE L1 ht (50 new) + ORANGE-L1-001.ht heading fix — in CI.
+  - Remaining Haitian: PURPLE L4 (001-020 batches ready in work/PURPLE-L4-ht, 021-050 to do), ORANGE L4, BLACK L4; L3 for BLUE/GREEN/GOLD/PURPLE/ORANGE/BLACK.
