@@ -1,60 +1,90 @@
 ---
 id: GREEN-L1-016
 track: GREEN
-officialTrackName: Impôts
+officialTrackName: Taxes
 level: 1
 lessonNumber: 16
 locale: fr-CA
-title: "Déduction de base ou déductions détaillées"
-summary: "Explique ce concept fiscal en français canadien et montre comment l’appliquer de façon pratique et éclairée."
+title: "Déduction standard ou déductions détaillées"
+summary: "Explique les deux façons courantes de demander des déductions : un montant standard fixe ou la liste détaillée des dépenses admissibles réelles."
 version: 1.0
 author: Waldemar M. Caban, JD MA
 date: 2026-08-09
 ---
 
-# Déduction de base ou déductions détaillées
+# Déduction standard ou déductions détaillées
 
 ## Objectifs d’apprentissage
 
-- Comprendre le concept principal.
-- Reconnaître ses conséquences pratiques.
-- Vérifier les exigences propres à la juridiction avant d’agir.
+- Expliquer ce qu’est une déduction standard.
+- Expliquer ce que signifie détailler ses déductions.
+- Reconnaître la logique de base pour choisir entre les deux.
 
 ## Contenu principal
 
-Plusieurs systèmes fiscaux permettent une déduction de base — un montant déterminé sans avoir à détailler chaque dépense — ou permettent de détailler certaines dépenses admissibles.
+De nombreux systèmes fiscaux offrent un choix aux contribuables : prendre une déduction standard — un montant fixe auquel tout le monde a droit, sans reçus — ou détailler ses déductions, c’est-à-dire énumérer et additionner une à une les dépenses admissibles réelles (comme certains paiements d’intérêts, des dons de bienfaisance ou des frais médicaux, selon les règles du système). Ce choix existe notamment aux États-Unis; au Canada, le régime fonctionne plutôt au moyen de déductions et de crédits précis, mais la logique de comparaison reste utile à comprendre.
 
-La logique consiste à comparer les options permises. Si les déductions détaillées admissibles dépassent la déduction de base, elles peuvent être plus avantageuses. Sinon, la déduction de base peut être plus simple. Les montants et dépenses admissibles varient selon la juridiction.
+La logique de décision de base est simple : si votre total détaillé est supérieur à la déduction standard, détailler fait économiser davantage. Sinon, prendre la déduction standard est plus simple et tout aussi avantageux financièrement. Comme la déduction standard n’exige aucun justificatif, beaucoup de gens la choisissent par défaut, à moins d’avoir une raison précise — comme un don de bienfaisance important ou des dépenses admissibles considérables — de détailler à la place.
 
 ## Exemple pratique
 
-**Question :** Quelle approche prudente faut-il adopter?
+**Question :** Les dépenses qu’une personne pourrait détailler pour l’année totalisent moins que le montant de la déduction standard. Devrait-elle détailler?
 
-**Étudiant :** Comprendre le mécanisme, conserver de bons dossiers et vérifier les règles actuelles.
+**Étudiant :** Probablement pas, puisque détailler demande plus d’efforts sans avantage supplémentaire.
 
-**Guide :** Exactement. Une bonne préparation réduit les erreurs et les mauvaises surprises.
+**Guide :** Exact — quelle est la règle générale pour choisir?
+
+**Étudiant :** Comparer le total détaillé à la déduction standard, et choisir le plus élevé des deux.
+
+**Guide :** Exactement — c’est une comparaison simple, pas une question de préférence.
 
 ## Quiz pratique
 
-1. Les règles fiscales peuvent-elles varier selon la juridiction? A) Oui B) Non
-2. Faut-il conserver une documentation appropriée? A) Oui B) Non
-3. Les chiffres anciens devraient-ils être utilisés sans vérification? A) Oui B) Non
-4. Une situation complexe peut-elle justifier des conseils professionnels? A) Oui B) Non
+**Question 1.** Une déduction standard est :
+
+A) Un montant fixe qui n’exige aucun justificatif détaillé
+B) Offerte seulement aux entreprises
+C) La même chose qu’un crédit d’impôt
+D) Illégale dans la plupart des pays
+
+**Question 2.** Détailler ses déductions signifie :
+
+A) Prendre le montant standard fixe
+B) Énumérer et additionner les dépenses admissibles réelles
+C) Ne payer aucun impôt
+D) Éviter toutes les déductions
+
+**Question 3.** La règle de base pour choisir entre les deux est :
+
+A) Toujours détailler
+B) Toujours prendre la déduction standard
+C) Choisir celle qui produit la déduction la plus élevée
+D) Tirer à pile ou face
+
+**Question 4.** Pourquoi une personne pourrait-elle renoncer à détailler, même si c’est possible en théorie?
+
+A) C’est illégal
+B) Son total détaillé est inférieur à la déduction standard, ou la paperasse ne vaut pas le petit gain
+C) Les déductions standard n’existent pas
+D) Détailler est toujours obligatoire
 
 ## Corrigé
 
-1. A, 2. A, 3. B, 4. A
+1. A, 2. B, 3. C, 4. B
 
 ## Réponses et explications
 
-1. Les règles et seuils diffèrent entre juridictions.
-2. La documentation permet d’appuyer les calculs et positions fiscales.
-3. Les règles évoluent et doivent être vérifiées.
-4. Une aide qualifiée peut être appropriée lorsque le risque ou la complexité augmente.
+**1.** Une déduction standard est un montant fixe, sans justificatif requis, offert dans de nombreux systèmes fiscaux.
+
+**2.** Détailler signifie additionner les dépenses admissibles réelles au lieu de prendre le montant fixe.
+
+**3.** La décision se résume à une simple comparaison : le chiffre le plus élevé l’emporte.
+
+**4.** Quand le total détaillé ne dépasse pas la déduction standard, la paperasse supplémentaire n’apporte aucun avantage financier.
 
 ## Points clés
 
-- Planifiez avant les échéances.
-- Conservez des dossiers clairs.
-- Vérifiez les règles applicables.
-- Distinguez les concepts généraux des exigences locales.
+- Une déduction standard est un montant fixe et simple, sans justificatif requis.
+- Détailler signifie plutôt additionner les dépenses admissibles réelles.
+- Choisissez l’option qui produit la déduction la plus élevée.
+- La plupart des gens choisissent la déduction standard par défaut, à moins d’avoir une raison claire de détailler.

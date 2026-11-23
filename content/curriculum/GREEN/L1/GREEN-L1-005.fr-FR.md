@@ -1,81 +1,90 @@
 ---
 id: GREEN-L1-005
 track: GREEN
-officialTrackName: Impôts
+officialTrackName: Taxes
 level: 1
 lessonNumber: 5
 locale: fr-FR
-title: "Taxe de vente : imposer ce que vous achetez"
-summary: "Explique le fonctionnement des taxes à la consommation, qui les perçoit et pourquoi l’acheteur les voit souvent ajoutées au moment du paiement."
+title: "La taxe de vente : imposer ce que vous achetez"
+summary: "Comment fonctionnent les taxes à la consommation, qui les perçoit et pourquoi l’acheteur les voit habituellement ajoutées à la caisse."
 version: 1.0
 author: Waldemar M. Caban, JD MA
 date: 2026-08-09
 ---
 
-# Taxe de vente : imposer ce que vous achetez
+# La taxe de vente : imposer ce que vous achetez
 
 ## Objectifs d’apprentissage
 
-- Comprendre et définir le concept principal de cette leçon.
-- L’appliquer à une situation financière courante.
-- Distinguer les principes généraux des règles propres à chaque juridiction.
+- Expliquer comment la taxe de vente est habituellement perçue.
+- Distinguer le fait que le vendeur perçoive la taxe du fait qu’il la doive.
+- Reconnaître que les taux de taxe de vente varient selon l’endroit.
 
 ## Contenu principal
 
-La taxe de vente est ajoutée au prix de biens ou de services au moment de l’achat. Dans de nombreux systèmes, le vendeur la perçoit auprès de l’acheteur puis la remet au gouvernement. Le vendeur agit comme percepteur; c’est généralement l’acheteur qui supporte économiquement la taxe.
+La taxe de vente s’ajoute au prix des biens ou des services au moment de l’achat. Dans la plupart des systèmes, le vendeur est responsable de percevoir la taxe auprès de l’acheteur, puis de la remettre au gouvernement — le vendeur agit comme percepteur, et non comme celui qui en supporte finalement le coût. C’est habituellement l’acheteur qui paie réellement la taxe, même si l’entreprise s’occupe de la paperasse. (En France, par exemple, on parle de TVA.)
 
-Les taux et les règles varient considérablement selon l’endroit, parfois même entre localités voisines. Certaines catégories, comme les aliments ou les médicaments, peuvent être exonérées ou imposées à un taux réduit.
-
-C’est pourquoi on parle aussi de taxe à la consommation : elle est liée à l’acte de dépenser plutôt qu’au fait de gagner un revenu ou de posséder un bien.
+Les taux et les règles varient énormément selon l’endroit — parfois même entre des villes voisines d’un même pays. Certaines catégories de biens, comme l’épicerie ou les médicaments, sont souvent taxées à un taux plus bas ou complètement exonérées, selon la politique locale. C’est pourquoi on parle parfois de taxe à la consommation : elle est liée au fait de dépenser, et non au revenu ou à la propriété.
 
 ## Exemple pratique
 
-**Question :** Comment appliquer ce concept avant de prendre une décision financière?
+**Question :** Un commerçant perçoit la taxe de vente auprès de ses clients tout le mois. À qui appartient cet argent, et que devrait-il en faire?
 
-**Étudiant :** Je dois d’abord comprendre le mécanisme, puis vérifier les règles qui s’appliquent réellement à ma situation.
+**Étudiant :** On a l’impression que c’est l’argent du commerce, puisqu’il est entré par sa caisse.
 
-**Guide :** Exactement. La littératie fiscale permet de comprendre le concept; les décisions concrètes exigent des renseignements actuels et propres à votre juridiction.
+**Guide :** Mais qui l’a réellement payé?
+
+**Étudiant :** Les clients — le commerce l’a simplement ajouté au prix et l’a perçu.
+
+**Guide :** Exact, c’est pourquoi cet argent n’est pas vraiment un revenu du commerce — c’est le paiement de taxe du client, qui transite par le commerce avant d’aller au gouvernement.
 
 ## Quiz pratique
 
-**Question 1.** Avant d’appliquer une règle fiscale, il faut :
-A) Supposer qu’elle est universelle
-B) Comprendre le concept et vérifier la règle applicable
-C) Utiliser des chiffres anciens
-D) Ignorer la juridiction
+**Question 1.** La taxe de vente est généralement perçue par :
 
-**Question 2.** Les règles fiscales peuvent-elles varier selon le pays?
-A) Non
-B) Oui
-C) Seulement pour les entreprises
-D) Seulement pour les salariés
+A) Le gouvernement, directement auprès des acheteurs
+B) Le vendeur, qui la remet ensuite au gouvernement
+C) Personne — elle est facultative
+D) Seulement les détaillants en ligne
 
-**Question 3.** Une décision éclairée devrait reposer sur :
-A) Des règles applicables et des renseignements actuels
-B) Des rumeurs
-C) Une règle étrangère non vérifiée
-D) Aucune documentation
+**Question 2.** Qui supporte habituellement le coût réel de la taxe de vente?
 
-**Question 4.** La littératie fiscale vise surtout à :
-A) Garantir un résultat
-B) Donner les outils nécessaires pour comprendre et évaluer les décisions
-C) Remplacer tout professionnel
-D) Éliminer les obligations légales
+A) Le vendeur
+B) L’acheteur
+C) Le gouvernement
+D) Personne
+
+**Question 3.** Les taux de taxe de vente :
+
+A) Sont identiques partout
+B) Peuvent varier considérablement selon l’endroit
+C) Ne s’appliquent jamais aux services
+D) N’existent que dans un seul pays
+
+**Question 4.** L’épicerie et les médicaments sont parfois :
+
+A) Taxés à un taux plus élevé que les produits de luxe
+B) Taxés à un taux plus bas ou exonérés
+C) Interdits à la vente
+D) Jamais soumis à aucune règle fiscale
 
 ## Corrigé
 
-1. B, 2. B, 3. A, 4. B
+1. B, 2. B, 3. B, 4. B
 
 ## Réponses et explications
 
-**1.** Il faut comprendre le mécanisme avant d’appliquer une règle précise.
-**2.** Les systèmes fiscaux varient selon les juridictions et évoluent avec le temps.
-**3.** Les décisions doivent reposer sur des renseignements applicables et actuels.
-**4.** Comprendre les concepts améliore la capacité de décider sans garantir un résultat particulier.
+**1.** Le vendeur agit habituellement comme intermédiaire : il perçoit la taxe et la transmet plutôt que de la garder comme revenu.
+
+**2.** Même si l’entreprise s’occupe de la transaction, c’est le paiement de l’acheteur qui comprend la taxe.
+
+**3.** Dans de nombreux systèmes, les taux de taxe de vente sont fixés à l’échelle locale ou régionale et peuvent varier d’un quartier à l’autre ou d’un État à l’autre.
+
+**4.** De nombreux gouvernements exonèrent ou réduisent la taxe sur les biens essentiels par choix de politique publique.
 
 ## Points clés
 
-- Comprenez le mécanisme avant de mémoriser des taux.
-- Vérifiez les règles de votre juridiction.
-- Distinguez les principes généraux des exigences propres à un pays.
-- Utilisez des renseignements actuels pour prendre vos décisions.
+- La taxe de vente est perçue par le vendeur au moment de l’achat et transmise au gouvernement.
+- C’est l’acheteur, et non le vendeur, qui supporte finalement le coût de la taxe.
+- Les taux varient beaucoup selon l’endroit, parfois même localement.
+- Les biens essentiels sont souvent taxés différemment des autres biens, par choix de politique publique.
