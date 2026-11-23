@@ -5,55 +5,59 @@ officialTrackName: "Leadership & Executive Management"
 level: 1
 lessonNumber: 2
 locale: es-ES
-source_locale: en-US
-title: "Autoridad frente a influencia"
-summary: "Explica la diferencia entre la autoridad formal y la influencia que se gana, y por qué el liderazgo real depende de esta última."
+title: "Autoridad e influencia"
+summary: "Explica la diferencia entre la autoridad formal y la influencia que se gana, y por qué el verdadero liderazgo depende de esta última."
 version: "1.0"
 author: "Waldemar M. Caban, JD MA"
-date: "2026-11-13"
+date: "2026-08-09"
 ---
 
-# Autoridad frente a influencia
+# Autoridad e influencia
 
 ## Objetivos de aprendizaje
+<!-- Core Content -->
+
 - Distinguir entre autoridad e influencia
-- Explicar por qué la autoridad por sí sola no garantiza que la gente te siga
-- Identificar formas de construir una influencia que no dependa de un cargo
+- Explicar por qué la autoridad por sí sola no garantiza que las personas lo sigan
+- Identificar formas de construir una influencia que no dependa de un título
 
 ## Contenido principal
 
-La autoridad es el derecho formal a tomar decisiones o dar órdenes, normalmente ligado a un cargo o a un puesto: un responsable de equipo, un oficial, el dueño de un negocio. La influencia es la capacidad de mover a las personas a actuar porque confían en ti, te respetan o creen en lo que dices, sea cual sea tu cargo.
+La autoridad es el derecho formal de tomar decisiones o dar órdenes, normalmente vinculado a un título o a un puesto: un gerente, un oficial, el dueño de un negocio. La influencia es la capacidad de mover a las personas a la acción porque confían en usted, lo respetan o creen en lo que dice, sin importar su título.
 
-Esta es la verdad incómoda que muchos líderes nuevos aprenden a base de golpes: la autoridad puede conseguir que la gente obedezca, pero solo la influencia consigue que se comprometa de verdad. Alguien con autoridad pero sin influencia puede lograr que la gente siga las instrucciones sobre el papel mientras hace lo mínimo, se queja a sus espaldas o busca la primera oportunidad para marcharse. Alguien con influencia pero sin autoridad formal a veces mueve una sala con más eficacia que la persona que tiene el cargo.
+Esta es la verdad incómoda que los líderes nuevos suelen aprender a las malas: la autoridad puede lograr que las personas cumplan, pero solo la influencia logra que se comprometan de verdad. Alguien con autoridad, pero sin influencia, puede lograr que las personas técnicamente sigan las instrucciones mientras hacen lo mínimo, se quejan a sus espaldas o buscan la primera oportunidad para irse. Alguien con influencia, pero sin autoridad formal, a veces puede mover a un grupo con más eficacia que la persona que tiene el título.
 
-La influencia se construye con coherencia, honestidad, competencia y cumplimiento de lo prometido. Se gana despacio y se pierde deprisa. Los líderes más sólidos combinan ambas cosas: tienen la autoridad para tomar la decisión final, pero también han construido la influencia suficiente para que la gente quiera seguirlos, no solo que tenga que hacerlo.
+La influencia se construye con constancia, honestidad, competencia y cumplimiento. Se gana despacio y se pierde rápido. Los líderes más sólidos combinan ambas cosas: tienen la autoridad para tomar las decisiones finales, pero también han construido suficiente influencia como para que las personas quieran seguirlos, y no solo tengan que hacerlo.
 
 ## Ejemplo práctico
 
-A una nueva responsable la ponen al frente de un equipo que lleva años trabajando junto. El primer día tiene toda la autoridad: puede asignar tareas y fijar plazos. Pero el equipo apenas la escucha, no cumple los plazos y cuestiona sus decisiones. Todavía no se ha ganado la influencia.
+A una nueva gerente la ponen a cargo de un equipo que lleva años trabajando junto. El primer día tiene plena autoridad: puede asignar tareas y fijar fechas límite. Pero el equipo apenas la escucha, no cumple los plazos y cuestiona sus decisiones. Todavía no se ha ganado la influencia.
 
-Durante los meses siguientes, cumple cada compromiso que adquiere, reconoce cuándo se equivoca y atribuye públicamente el mérito al equipo cuando las cosas salen bien. Poco a poco, el mismo equipo que se resistía a su autoridad empieza a confiar en su criterio, no porque haya cambiado su cargo, sino porque ha crecido su influencia.
+Durante los meses siguientes, ella cumple cada compromiso que asume, admite cuando se equivoca y reconoce públicamente al equipo cuando las cosas salen bien. Poco a poco, el mismo equipo que se resistía a su autoridad empieza a confiar en su juicio, no porque haya cambiado su título, sino porque creció su influencia.
 
-## Cuestionario de práctica
+## Cuestionario práctico
 
-1. Define con tus propias palabras la autoridad y la influencia.
-2. ¿Puede alguien tener autoridad sin influencia? Pon un ejemplo.
-3. ¿Qué cuatro cualidades construyen la influencia, según la lección?
+1. Defina la autoridad y la influencia con sus propias palabras.
+2. ¿Puede alguien tener autoridad sin influencia? Dé un ejemplo.
+3. ¿Qué cuatro cualidades dice la lección que construyen la influencia?
 4. ¿Por qué los líderes más sólidos necesitan tanto autoridad como influencia?
 
 ## Clave de respuestas
-1. La autoridad es el derecho formal a tomar decisiones; la influencia es la capacidad de mover a las personas mediante la confianza y el respeto, independientemente del cargo.
-2. Sí: una jefa nueva con el cargo pero todavía sin trayectoria, como en el ejemplo práctico.
-3. Coherencia, honestidad, competencia y cumplimiento de lo prometido.
-4. La autoridad por sí sola consigue obediencia; la influencia consigue un compromiso real. Combinar ambas consigue las dos cosas: obediencia e implicación.
+
+1. La autoridad es el derecho formal de tomar decisiones; la influencia es la capacidad de mover a las personas mediante la confianza y el respeto, sin importar el título.
+2. Sí: una nueva jefa con el título, pero todavía sin historial, como en el ejemplo práctico.
+3. La constancia, la honestidad, la competencia y el cumplimiento.
+4. La autoridad por sí sola logra el cumplimiento; la influencia logra un compromiso genuino; combinar ambas logra tanto el cumplimiento como la adhesión.
 
 ## Respuestas y explicaciones
+
 1. Esta distinción es el concepto central que presenta la lección.
 2. El ejemplo práctico muestra la autoridad presente desde el primer día, mientras que la influencia todavía había que ganarla.
-3. Estas cuatro cualidades se nombran expresamente como los pilares de la influencia.
-4. Apoyarse solo en la autoridad corre el riesgo de generar resentimiento o un esfuerzo mínimo; apoyarse solo en la influencia, sin ningún poder formal de decisión, puede crear confusión sobre quién responde de qué.
+3. Estas cuatro cualidades se nombran de forma explícita como los cimientos de la influencia.
+4. Depender solo de la autoridad expone al resentimiento o al esfuerzo mínimo; depender solo de la influencia, sin ningún poder formal de decisión, puede crear confusión sobre quién es el responsable.
 
-## Ideas clave
-- La autoridad la da un cargo; la influencia se gana con confianza y trayectoria.
-- La autoridad por sí sola consigue obediencia, pero la influencia consigue un compromiso real.
-- Los líderes más sólidos construyen ambas y combinan el derecho a decidir con la confianza necesaria para que los sigan.
+## Puntos clave
+
+- La autoridad la da un título; la influencia se gana con la confianza y el historial.
+- La autoridad por sí sola logra el cumplimiento, pero la influencia logra un compromiso genuino.
+- Los líderes más sólidos construyen ambas, y combinan el derecho a decidir con la confianza para ser seguidos.

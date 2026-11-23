@@ -5,57 +5,61 @@ officialTrackName: "Leadership & Executive Management"
 level: 1
 lessonNumber: 5
 locale: es-ES
-source_locale: en-US
 title: "Tomar decisiones en la incertidumbre"
-summary: "Enseña un marco básico para tomar buenas decisiones cuando no se dispone de toda la información."
+summary: "Enseña un marco básico para tomar decisiones sólidas cuando no se dispone de información completa."
 version: "1.0"
 author: "Waldemar M. Caban, JD MA"
-date: "2026-11-13"
+date: "2026-08-09"
 ---
 
 # Tomar decisiones en la incertidumbre
 
 ## Objetivos de aprendizaje
-- Explicar por qué los líderes casi nunca deciden con información completa
-- Describir un marco básico para tomar decisiones en situaciones de incertidumbre
+<!-- Core Content -->
+
+- Explicar por qué los líderes rara vez deciden con información completa
+- Describir un marco básico para tomar decisiones en la incertidumbre
 - Identificar la diferencia entre una decisión reversible y una irreversible
 
 ## Contenido principal
 
-Los líderes nuevos suelen esperar a tener certeza antes de actuar: más datos, más tiempo, más confirmación. El problema es que la certeza rara vez llega, y esperar demasiado ya es una decisión, normalmente la equivocada. Liderar significa tomar buenas decisiones con información incompleta, no con información perfecta.
+Los líderes nuevos a menudo esperan tener certeza antes de actuar: más datos, más tiempo, más confirmación. El problema es que la certeza rara vez llega, y esperar demasiado es en sí mismo una decisión, normalmente la equivocada. Liderar significa tomar decisiones sólidas con información incompleta, no con información perfecta.
 
-Un marco útil: primero, pregúntate hasta qué punto la decisión es reversible. Una decisión reversible (puedes deshacerla o corregir el rumbo si no funciona) se puede tomar más deprisa y con menos análisis, porque equivocarse cuesta poco. Una decisión irreversible (difícil o imposible de deshacer) merece más tiempo y más opiniones, porque equivocarse cuesta mucho.
+Un marco útil: primero, pregúntese qué tan reversible es la decisión. Una decisión reversible (que se puede deshacer o corregir si no funciona) puede tomarse más rápido y con menos análisis, porque el coste de equivocarse es bajo. Una decisión irreversible (difícil o imposible de deshacer) merece más tiempo y más opiniones, porque el coste de equivocarse es alto.
 
-Segundo, pregúntate qué tendrías que creer para que cada opción fuera la correcta, y comprueba cuáles de esas creencias son más probablemente ciertas según lo que realmente sabes. Esto te obliga a razonar de forma explícita en lugar de dejarte llevar por una corazonada que no sabes explicar.
+Segundo, pregúntese qué tendría que creer para que cada opción fuera la correcta, y verifique cuáles de esas creencias son más probablemente ciertas según lo que realmente sabe. Esto lo obliga a razonar de forma explícita en lugar de dejarse llevar por una corazonada que no puede explicar.
 
-Tercero, acepta que algunas decisiones saldrán mal aunque se hayan tomado bien. Una buena toma de decisiones se juzga por la calidad del proceso y por la información disponible en ese momento, no solo por el resultado.
+Tercero, acepte que algunas decisiones resultarán equivocadas aunque se hayan tomado bien. La buena toma de decisiones se juzga por la calidad del proceso y de la información disponible en ese momento, no solo por el resultado.
 
 ## Ejemplo práctico
 
-La dueña de un pequeño negocio está decidiendo si firma un contrato de alquiler de un año para un local más grande. Es una decisión relativamente irreversible (rescindir un alquiler antes de tiempo sale caro), así que merece un análisis cuidadoso: la evolución actual de los ingresos, unas previsiones de crecimiento realistas y un colchón de tesorería por si el crecimiento es más lento de lo esperado.
+El dueño de un pequeño negocio está decidiendo si firma un contrato de arrendamiento de un año por un local más grande. Es una decisión relativamente irreversible (romper un arrendamiento antes de tiempo es costeso), así que merece un análisis cuidadoso: las tendencias actuales de los ingresos, proyecciones realistas de crecimiento y un colchón de efectivo por si el crecimiento es más lento de lo esperado.
 
-Compáralo con decidir si probar durante una semana un nuevo formato de publicación en redes sociales. Eso es muy reversible: si no funciona, se deja y la semana siguiente se prueba otra cosa. Esa decisión no necesita la misma profundidad de análisis que el alquiler.
+Compare eso con decidir si probar durante una semana un nuevo formato de publicación de marketing. Esa decisión es muy reversible: si no funciona, se deja de hacer y se prueba otra cosa la semana siguiente. Esa decisión no necesita la misma profundidad de análisis que el arrendamiento.
 
-## Cuestionario de práctica
+## Cuestionario práctico
 
-1. ¿Por qué esperar a tener certeza total suele ser un mal enfoque para un líder?
-2. ¿Cuál es la primera pregunta que propone el marco sobre una decisión?
+1. ¿Por qué esperar a tener certeza total suele ser un enfoque equivocado para un líder?
+2. ¿Cuál es la primera pregunta que el marco sugiere hacerse sobre una decisión?
 3. ¿Por qué las decisiones reversibles merecen menos tiempo de análisis que las irreversibles?
 4. Según esta lección, ¿cómo debe juzgarse una buena toma de decisiones?
 
 ## Clave de respuestas
-1. Porque la certeza rara vez llega, y esperar demasiado ya es una decisión costosa.
-2. ¿Hasta qué punto es reversible esta decisión?
-3. Porque equivocarse cuesta menos cuando puedes deshacer o ajustar la decisión más adelante.
-4. Por la calidad del proceso y por la información disponible en ese momento, no solo por el resultado.
+
+1. Porque la certeza rara vez llega, y esperar demasiado es en sí mismo una decisión costesa.
+2. ¿Qué tan reversible es esta decisión?
+3. Porque el coste de equivocarse es menor cuando se puede deshacer o corregir la decisión más adelante.
+4. Por la calidad del proceso y de la información disponible en ese momento, no solo por el resultado.
 
 ## Respuestas y explicaciones
-1. Esto aborda la trampa habitual de la «parálisis por análisis» en el liderazgo.
-2. La reversibilidad es el primer filtro que aplica el marco para calibrar cuánto análisis merece una decisión.
-3. Si equivocarse cuesta menos, está justificado decidir más deprisa y con menos carga.
-4. Esta distinción evita juzgar injustamente un buen proceso de decisión solo porque el resultado no salió bien.
 
-## Ideas clave
-- Los líderes tienen que actuar con información incompleta: esperar a la certeza ya es una elección costosa.
-- Evalúa primero la reversibilidad: las decisiones reversibles pueden ir rápido; las irreversibles merecen más cuidado.
-- Juzga la toma de decisiones por la calidad del proceso, no solo por si el resultado salió bien.
+1. Esto atiende la trampa común de la «parálisis por análisis» en el liderazgo.
+2. La reversibilidad es el primer filtro que aplica el marco para calibrar cuánto análisis merece una decisión.
+3. Que equivocarse tenga menos consecuencias justifica una toma de decisiones más rápida y liviana.
+4. Esta distinción protege contra juzgar injustamente un buen proceso de decisión solo porque un resultado no salió bien.
+
+## Puntos clave
+
+- Los líderes deben actuar con información incompleta: esperar la certeza es en sí mismo una elección costesa.
+- Evalúe primero la reversibilidad: las decisiones reversibles pueden avanzar rápido; las irreversibles merecen más cuidado.
+- Juzgue la toma de decisiones por la calidad del proceso, no solo por si el resultado salió bien.
