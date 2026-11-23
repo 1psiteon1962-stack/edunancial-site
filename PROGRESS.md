@@ -79,3 +79,4 @@ Status:
 - Weeks 1–6: education only (why people need it, benefits; emotional triggers: fear, anger, feeling cheated, chance to do better, providing for children).
 - ~1.5 weeks before launch: start subscription readiness; then keep educating while converting to subscribers.
 - "Edunancial is a business. It must succeed financially."
+- PURPLE-L5 de DONE 2026-11-22
