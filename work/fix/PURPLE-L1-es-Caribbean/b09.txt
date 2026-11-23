@@ -1,0 +1,325 @@
+===== PURPLE-L1-033
+TITLE: Inversionistas acreditados: lo que significa legalmente esa etiqueta
+SUMMARY: Explica el concepto de inversionista acreditado, un mecanismo legal común para limitar el acceso a ciertas oportunidades de inversión, y la lógica que hay detrás.
+# Inversionistas acreditados: lo que significa legalmente esa etiqueta
+
+## Objetivos de aprendizaje
+
+- Definir en términos generales qué es un "inversionista acreditado".
+- Explicar la lógica general de esta clasificación.
+- Reconocer que es una restricción real de acceso relevante para ciertas oportunidades de la ruta WHITE.
+
+## Contenido principal
+
+En muchos sistemas de regulación de valores, ciertas oportunidades de inversión, sobre todo las ofertas privadas y menos reguladas, están restringidas por ley a "inversionistas acreditados", una categoría que en general se define por cumplir ciertos umbrales de ingresos, patrimonio neto o conocimientos profesionales. Los umbrales numéricos concretos varían según la jurisdicción y cambian con el tiempo, así que esta lección se centra en el concepto de fondo y no en una cifra en dólares específica.
+
+La lógica general de esta restricción conecta directamente con el tema de la divulgación de la lección anterior: a menudo las ofertas privadas no están obligadas a dar el mismo nivel de divulgación pública que las ofertas públicas, más reguladas. El requisito de inversionista acreditado es un equilibrio de política pública: en vez de exigir una divulgación pública completa, limita el acceso a inversionistas que se presume que tienen los recursos económicos para absorber una pérdida o la sofisticación para evaluar el riesgo sin ese mismo nivel de protección por divulgación. Esto es directamente relevante para ciertas oportunidades de inversión de la ruta WHITE (empresas privadas, ciertos fondos, algunas sindicaciones de bienes raíces) que exigen específicamente la condición de inversionista acreditado, lo que hace de esto una pieza práctica, y no solo teórica, de la alfabetización jurídica.
+
+*REGLA ESPECÍFICA DE LA REGIÓN:* El término "inversionista acreditado" es propio de EE. UU. (y se aplica en Puerto Rico). Otros países usan categorías parecidas, como la de "inversionista profesional", con criterios propios; verifica la definición vigente en tu jurisdicción.
+
+## Ejemplo práctico
+
+**Pregunta:** Un inversionista está entusiasmado con una oportunidad de inversión privada, pero se entera de que está restringida solo a inversionistas acreditados y él no califica en este momento. Según esta lección, ¿cuál es la lógica de política pública detrás de esta restricción?
+
+**Estudiante:** Según esta lección, como esta oferta privada no da el mismo nivel de divulgación obligatoria que una oferta pública, la restricción busca limitar el acceso a inversionistas que se presume que pueden absorber una pérdida o evaluar el riesgo sin esa misma protección por divulgación.
+
+**Guía:** ¿Esta restricción se refiere principalmente a la calidad de la inversión o a otra preocupación de fondo?
+
+**Estudiante:** A otra preocupación: se trata del equilibrio entre los requisitos de divulgación y la protección del inversionista, no necesariamente de un juicio sobre si esa oportunidad en particular es buena o mala.
+
+**Guía:** Exacto: la acreditación es un mecanismo de política pública, no un sello de calidad de la inversión.
+
+## Prueba práctica
+
+**Pregunta 1.** En general, un "inversionista acreditado" se define por:
+
+A) Una selección aleatoria por sorteo
+B) Cumplir ciertos umbrales de ingresos, patrimonio neto o conocimientos profesionales
+C) Tener cualquier cantidad de acciones
+D) Tener solo un título universitario
+
+**Pregunta 2.** ¿Por qué esta lección evita citar un umbral específico en dólares?
+
+A) No existe ningún umbral en ninguna parte
+B) Los umbrales concretos varían según la jurisdicción y cambian con el tiempo
+C) Los umbrales son irrelevantes para este concepto
+D) Esta lección da una cifra exacta y universal
+
+**Pregunta 3.** La lógica de política pública de fondo conecta con el tema de ¿qué lección anterior?
+
+A) El cierre de bienes raíces
+B) La divulgación obligatoria y la asimetría de información
+C) El derecho de zonificación
+D) El proceso de ejecución hipotecaria
+
+**Pregunta 4.** ¿Con qué ruta del currículo conecta directamente el concepto de inversionista acreditado?
+
+A) GREEN
+B) WHITE
+C) Solo RED
+D) Solo BLUE
+
+## Clave de respuestas
+
+1. B, 2. B, 3. B, 4. B
+
+## Respuestas y explicaciones
+
+**1.** Los criterios económicos y de conocimiento son la base general de esta clasificación, no el azar ni factores sin relación.
+
+**2.** La variación entre jurisdicciones y los cambios con el tiempo hacen que no sea confiable enseñar una cifra concreta como un hecho fijo.
+
+**3.** Esta restricción es una respuesta de política pública directa a los menores requisitos de divulgación de las ofertas privadas.
+
+**4.** Ciertas oportunidades de inversión de la ruta WHITE exigen específicamente esta condición, lo que hace la conexión práctica, no abstracta.
+
+## Puntos clave
+
+- La condición de inversionista acreditado se basa en general en umbrales de ingresos, patrimonio neto o conocimientos profesionales.
+- Los umbrales concretos varían según la jurisdicción y cambian con el tiempo.
+- Esta restricción refleja un equilibrio de política pública entre los requisitos de divulgación y la protección del inversionista.
+- Es directamente relevante para ciertas oportunidades de inversión privadas de la ruta WHITE.
+
+===== PURPLE-L1-034
+TITLE: Requisitos de divulgación: por qué las empresas deben decir la verdad
+SUMMARY: Profundiza en el concepto de divulgación presentado antes y explica qué deben divulgar en general las empresas y las consecuencias legales de una divulgación falsa o engañosa.
+# Requisitos de divulgación: por qué las empresas deben decir la verdad
+
+## Objetivos de aprendizaje
+
+- Identificar las categorías generales de la divulgación obligatoria.
+- Explicar las consecuencias legales de una divulgación falsa o engañosa.
+- Relacionar la calidad de la divulgación con la toma de decisiones de inversión informadas.
+
+## Contenido principal
+
+A partir de la lección anterior, que explicó por qué existen los requisitos de divulgación, esta lección examina lo que en general se exige en realidad. Las empresas que ofrecen valores al público suelen estar obligadas a divulgar: estados financieros (una imagen veraz de la situación financiera real de la empresa), riesgos importantes (factores que podrían afectar de forma significativa el valor de la inversión o las perspectivas de la empresa) y hechos importantes para la decisión del inversionista (hechos significativos, conflictos de interés u otra información que un inversionista razonable querría saber antes de invertir).
+
+Las consecuencias legales de una divulgación falsa o engañosa son graves, lo que refleja lo central que es la divulgación veraz en todo el sistema visto en las dos últimas lecciones: las empresas y las personas pueden enfrentar sanciones regulatorias, demandas civiles de inversionistas perjudicados y, en casos graves, responsabilidad penal por fraude. Para un inversionista, entender que los documentos de divulgación tienen un peso legal real (no son solo material de mercadeo) debería cambiar la forma de leerlos: como una fuente de información genuina y legalmente importante que merece una lectura cuidadosa, no algo que se salta para llegar a las partes emocionantes de una propuesta de inversión.
+
+*REGLA ESPECÍFICA DE LA REGIÓN:* El contenido exacto de la divulgación obligatoria y las sanciones dependen del regulador de cada país (por ejemplo, la SEC en EE. UU. o la Superintendencia del Mercado de Valores en la República Dominicana).
+
+## Ejemplo práctico
+
+**Pregunta:** Una inversionista pasa por encima la sección de factores de riesgo divulgados por una empresa y se centra solo en las emocionantes proyecciones de crecimiento de un prospecto de inversión. ¿Qué sugiere esta lección sobre ese enfoque?
+
+**Estudiante:** Según esta lección, esa sección de factores de riesgo tiene un peso legal real y está pensada específicamente para informar la decisión de la inversionista; saltársela significa perder información que la empresa estaba legalmente obligada a divulgar.
+
+**Guía:** ¿Por qué la gravedad legal de la divulgación falsa hace que valga especialmente la pena leer esta sección con cuidado?
+
+**Estudiante:** Como las empresas enfrentan consecuencias legales reales por una divulgación engañosa, es probable que los riesgos divulgados reflejen preocupaciones reales e importantes sobre las que la empresa está legalmente obligada a ser honesta, no un texto estándar que se pueda pasar por alto.
+
+**Guía:** Exacto: los documentos de divulgación merecen leerse como información legalmente importante, no como relleno de mercadeo.
+
+## Prueba práctica
+
+**Pregunta 1.** Las empresas que ofrecen valores suelen estar obligadas a divulgar:
+
+A) Nada importante
+B) Estados financieros, riesgos importantes y hechos importantes para la decisión de los inversionistas
+C) Solo las noticias positivas de la empresa
+D) Solo las biografías personales de los fundadores
+
+**Pregunta 2.** ¿Cuáles son las consecuencias legales de una divulgación falsa o engañosa?
+
+A) No hay consecuencias reales
+B) Sanciones regulatorias, demandas civiles y posiblemente responsabilidad penal por fraude
+C) Solo una carta de advertencia menor
+D) Las consecuencias solo se aplican a las empresas pequeñas
+
+**Pregunta 3.** ¿Por qué estas consecuencias graves importan para la forma en que un inversionista debe leer los documentos de divulgación?
+
+A) No afectan la forma en que deben leerse
+B) Indican que los documentos de divulgación tienen un peso legal real y merecen una lectura cuidadosa, no superficial
+C) Las consecuencias graves significan que se pueden ignorar sin riesgo
+D) No tiene ninguna relación con el comportamiento del inversionista
+
+**Pregunta 4.** Esta lección se basa más directamente en el tema de ¿qué lección anterior?
+
+A) El derecho de zonificación
+B) Por qué existe el derecho de valores: proteger a los inversionistas mediante la divulgación
+C) Los fundamentos de la ejecución hipotecaria
+D) El cierre de bienes raíces
+
+## Clave de respuestas
+
+1. B, 2. B, 3. B, 4. B
+
+## Respuestas y explicaciones
+
+**1.** La situación financiera, los factores de riesgo y los hechos importantes forman juntos las categorías centrales de la divulgación obligatoria.
+
+**2.** La gravedad de estas consecuencias subraya lo central que es la divulgación veraz en todo el sistema regulatorio.
+
+**3.** Reconocer el peso legal de estos documentos debería cambiar el cuidado y la seriedad con que un inversionista los lee.
+
+**4.** Esta lección es una continuación directa y práctica de la razón de ser de la divulgación establecida dos lecciones antes.
+
+## Puntos clave
+
+- La divulgación obligatoria suele incluir estados financieros, riesgos importantes y hechos importantes.
+- La divulgación falsa o engañosa tiene consecuencias legales graves, incluida una posible responsabilidad por fraude.
+- Ese peso legal significa que los documentos de divulgación merecen una lectura cuidadosa y seria, no superficial.
+- Esto se basa directamente en la lección anterior que explicó por qué existen los requisitos de divulgación de valores.
+
+===== PURPLE-L1-035
+TITLE: Uso de información privilegiada: qué es y por qué es ilegal
+SUMMARY: Explica el concepto de uso de información privilegiada (insider trading), por qué está prohibido y su relación con los principios de equidad que sostienen la regulación de valores.
+# Uso de información privilegiada: qué es y por qué es ilegal
+
+## Objetivos de aprendizaje
+
+- Definir el uso de información privilegiada.
+- Explicar la razón de equidad detrás de su prohibición.
+- Reconocer situaciones comunes en las que surge este riesgo.
+
+## Contenido principal
+
+El uso de información privilegiada (insider trading) se refiere en general a comprar o vender un valor basándose en información importante que no es pública (información significativa que todavía no está al alcance del público inversionista) obtenida gracias a una posición de confianza o de acceso, como ser empleado o ejecutivo de una empresa, o alguien que recibió esa información indebidamente de una persona de adentro. Está prohibido por el derecho de valores en la mayoría de los sistemas, y la razón conecta directamente con el principio de equidad que sostiene los requisitos de divulgación vistos en lecciones anteriores.
+
+El problema central que crea el uso de información privilegiada es una ventaja informativa injusta: si algunos participantes del mercado pueden operar con información a la que otros no tienen acceso, se socava la equidad básica que hace que la gente esté dispuesta a participar en los mercados, justamente la infraestructura de confianza de la que se habló antes en esta sección. Esto no se limita a los ejecutivos de empresas; cualquiera que reciba información importante no pública y opere con ella, o la comparta indebidamente con otra persona que opere con ella, puede enfrentar responsabilidad. Es una advertencia práctica para cualquiera con algún tipo de acceso privilegiado a información no pública de una empresa, incluidos, en algunos casos, profesionales que trabajan de cerca con empresas en contextos de RED o BLUE y que además invierten a través de WHITE.
+
+## Ejemplo práctico
+
+**Pregunta:** Un consultor de negocios se entera de información confidencial e importante sobre una empresa cliente durante un proyecto y luego compra o vende acciones de esa empresa antes de que la información se haga pública. ¿Qué problema legal ilustra esto?
+
+**Estudiante:** Según esta lección, parece un ejemplo claro de uso de información privilegiada: operar con información importante no pública obtenida gracias a una posición de confianza o de acceso.
+
+**Guía:** ¿Por qué está prohibido, si lo relacionamos con el tema de la equidad de lecciones anteriores?
+
+**Estudiante:** Porque crea una ventaja informativa injusta frente a otros participantes del mercado que no tienen acceso a esa misma información no pública, y eso socava la confianza que hace que los mercados funcionen de forma justa.
+
+**Guía:** Exacto, y este riesgo no se limita a las personas de adentro de la empresa: se aplica a cualquiera con acceso privilegiado a información importante no pública.
+
+## Prueba práctica
+
+**Pregunta 1.** El uso de información privilegiada se refiere en general a:
+
+A) Cualquier operación con acciones que haga un empleado de una empresa
+B) Operar con un valor basándose en información importante no pública obtenida gracias a una posición de confianza
+C) Operar solo con información pública
+D) Una estrategia de inversión completamente legal
+
+**Pregunta 2.** El problema central que crea el uso de información privilegiada es:
+
+A) No existe ningún problema real
+B) Una ventaja informativa injusta que socava la confianza y la equidad del mercado
+C) El exceso de transparencia en el mercado
+D) Demasiada información pública disponible
+
+**Pregunta 3.** ¿La responsabilidad por uso de información privilegiada se limita a los ejecutivos de empresas?
+
+A) Sí, solo los ejecutivos pueden ser responsables
+B) No: cualquiera que opere con información importante no pública, o la comparta indebidamente, puede enfrentar responsabilidad
+C) Solo los empleados del gobierno pueden ser responsables
+D) La responsabilidad nunca se aplica a nadie
+
+**Pregunta 4.** Esta lección relaciona la prohibición del uso de información privilegiada con ¿qué tema anterior?
+
+A) El derecho de zonificación
+B) La equidad y la confianza como infraestructura de los mercados que funcionan
+C) El proceso de ejecución hipotecaria
+D) Las obligaciones de arrendadores e inquilinos
+
+## Clave de respuestas
+
+1. B, 2. B, 3. B, 4. B
+
+## Respuestas y explicaciones
+
+**1.** El rasgo que lo define es operar con información privilegiada no pública obtenida gracias a una relación de confianza.
+
+**2.** Esta ventaja injusta socava directamente la confianza en el mercado que la regulación de valores busca proteger.
+
+**3.** La responsabilidad va más allá de las personas de adentro formales y alcanza a cualquiera que acceda indebidamente a esa información o actúe con ella.
+
+**4.** Esto extiende directamente la razón de confianza y equidad establecida en las lecciones anteriores sobre divulgación.
+
+## Puntos clave
+
+- El uso de información privilegiada consiste en operar con información importante no pública obtenida gracias a una posición de confianza o de acceso.
+- Esto socava la equidad y la confianza que hacen funcionar los mercados, en conexión con lecciones anteriores.
+- La responsabilidad va más allá de los ejecutivos de empresas y alcanza a cualquiera que use indebidamente esa información.
+- Es una advertencia práctica para cualquiera con acceso privilegiado a información no pública de una empresa.
+
+===== PURPLE-L1-036
+TITLE: El deber fiduciario: lo que significa cuando alguien maneja tu dinero
+SUMMARY: Explica el concepto legal de deber fiduciario, un estándar alto de cuidado y lealtad que deben ciertos profesionales que manejan el dinero o los bienes de otras personas.
+# El deber fiduciario: lo que significa cuando alguien maneja tu dinero
+
+## Objetivos de aprendizaje
+
+- Definir el deber fiduciario.
+- Distinguir un estándar fiduciario de un estándar menor de idoneidad.
+- Explicar por qué esta distinción importa al elegir en quién confiar el dinero.
+
+## Contenido principal
+
+Un deber fiduciario es la obligación legal de actuar en el mejor interés de otra persona, por encima del propio, al manejar su dinero o tomar decisiones en su nombre; es uno de los estándares de cuidado y lealtad más altos que reconoce el derecho. Ciertos profesionales, en ciertos roles, están legalmente obligados por este deber; otros están sujetos a un estándar más bajo, y entender la diferencia importa en la práctica a cualquiera que, en RED, WHITE o BLUE, dependa de un profesional para manejar su dinero o recibir orientación financiera.
+
+La distinción práctica clave es entre un estándar fiduciario (obligación legal de actuar en el mejor interés del cliente, incluso por encima del interés económico del asesor) y un estándar más bajo de idoneidad (solo obliga a recomendar algo razonablemente adecuado para el cliente, lo que todavía puede permitir una recomendación que beneficie al asesor, como un producto con una comisión más alta, mientras no sea claramente inadecuado). No es un tecnicismo menor: puede afectar de forma significativa la calidad y la objetividad del consejo que se recibe. Una pieza práctica de alfabetización jurídica: preguntar directamente si un asesor está legalmente obligado por un deber fiduciario, en vez de suponer que todos los profesionales financieros trabajan con el mismo estándar.
+
+*REGLA ESPECÍFICA DE LA REGIÓN:* Qué profesionales tienen deberes fiduciarios, y con qué alcance, lo definen las leyes y los reguladores de cada país. Pregunta siempre qué estándar legal aplica a tu asesor en tu jurisdicción.
+
+## Ejemplo práctico
+
+**Pregunta:** Un inversionista supone que todo asesor financiero con el que pudiera trabajar tiene automáticamente el deber legal de actuar únicamente en el mejor interés del inversionista. ¿Qué sugiere esta lección sobre esa suposición?
+
+**Estudiante:** Según esta lección, no es necesariamente correcta: algunos profesionales están sujetos a un estándar fiduciario, pero otros solo a un estándar más bajo de idoneidad, y es una diferencia real e importante.
+
+**Guía:** ¿Qué pregunta práctica debería hacerse el inversionista antes de trabajar con cualquier asesor?
+
+**Estudiante:** Preguntar directamente si ese asesor está legalmente obligado por un deber fiduciario, en vez de suponerlo, porque la respuesta afecta de forma importante la objetividad del consejo que podría recibir.
+
+**Guía:** Exacto: es una pieza de alfabetización jurídica concreta y útil, no solo un concepto legal abstracto.
+
+## Prueba práctica
+
+**Pregunta 1.** Un deber fiduciario es:
+
+A) La obligación legal de actuar en el mejor interés de otra persona, por encima del propio
+B) Un término de mercadeo sin peso legal
+C) Lo mismo que un estándar de idoneidad
+D) Algo relevante solo para las transacciones de bienes raíces
+
+**Pregunta 2.** Un estándar de idoneidad, en cambio, exige en general:
+
+A) Actuar únicamente en el mejor interés del cliente
+B) Recomendar algo razonablemente adecuado, lo que todavía puede permitir opciones que beneficien al asesor
+C) Ningún estándar de cuidado
+D) Exactamente la misma protección que un estándar fiduciario
+
+**Pregunta 3.** ¿Por qué importa en la práctica la distinción entre el estándar fiduciario y el de idoneidad?
+
+A) No tiene ningún efecto práctico real
+B) Puede afectar de forma importante la objetividad y la calidad del consejo financiero que se recibe
+C) Todos los profesionales financieros son automáticamente fiduciarios
+D) Solo afecta a los profesionales de bienes raíces
+
+**Pregunta 4.** ¿Qué acción práctica recomienda esta lección?
+
+A) Suponer que todo asesor es fiduciario
+B) Preguntar directamente si un asesor determinado está legalmente obligado por un deber fiduciario
+C) Evitar por completo a todos los profesionales financieros
+D) Esta lección no recomienda ninguna acción concreta
+
+## Clave de respuestas
+
+1. A, 2. B, 3. B, 4. B
+
+## Respuestas y explicaciones
+
+**1.** El estándar fiduciario se define específicamente por poner el interés del cliente por encima del propio del fiduciario.
+
+**2.** El estándar de idoneidad permite una gama más amplia de recomendaciones, incluidas algunas que benefician al asesor.
+
+**3.** Esta distinción determina directamente qué intereses guían realmente el consejo que se da.
+
+**4.** Esta pregunta concreta se presenta como una alfabetización jurídica realmente útil para que el estudiante la aplique.
+
+## Puntos clave
+
+- Un deber fiduciario exige actuar en el mejor interés de otra persona, por encima del propio.
+- Un estándar más bajo de idoneidad permite recomendaciones que solo son razonables, no necesariamente óptimas para el cliente.
+- Esta distinción afecta de forma importante la objetividad del consejo financiero que se recibe.
+- Preguntar directamente por el estándar legal de un asesor es una pieza de alfabetización jurídica concreta y práctica.
