@@ -1,0 +1,356 @@
+===== WHITE-L1-031
+TITLE: ¿Qué es la inflación y por qué cambia en silencio lo que vale tu dinero?
+SUMMARY: Aprende qué significa la inflación y por qué erosiona en silencio el poder de compra, aunque el saldo de una cuenta de banco se mantenga igual.
+# ¿Qué es la inflación y por qué cambia en silencio lo que vale tu dinero?
+
+## Objetivos de aprendizaje
+
+Al final de esta lección, deberías poder:
+
+- Definir la inflación en términos sencillos.
+- Explicar por qué un saldo de banco estable puede perder valor real de todos modos.
+- Relacionar la inflación con el hecho de que tener solo efectivo tiene un costo real.
+
+## Contenido principal
+
+### Qué es la inflación
+
+La inflación es un aumento general de los precios con el tiempo, lo que significa que cada unidad de moneda compra menos de lo que compraba antes.
+
+### Por qué un saldo estable puede perder valor
+
+Si los precios suben un 3% en un año y un saldo de banco no gana intereses, ese dinero ahora puede comprar aproximadamente un 3% menos que un año antes: el número de la cuenta no se redujo, pero su poder de compra real sí.
+
+### Por qué esto importa para invertir
+
+Como la inflación erosiona el poder de compra con el tiempo, tener efectivo sin rendimiento no es realmente "seguro" en todos los sentidos: tiene el riesgo real de perder valor frente a la subida de los precios, una razón clave por la que muchas personas invierten en vez de simplemente ahorrar efectivo a largo plazo.
+
+## Ejemplo práctico
+
+*EJEMPLO ILUSTRATIVO:* $1,000 que pasan un año en una cuenta que no paga intereses, con una inflación del 3%, pueden comprar el equivalente a unos $970 de lo que podían comprar un año antes, aunque la cuenta siga mostrando $1,000.
+
+## Prueba de práctica
+
+1. La inflación se refiere a:
+   A. Una baja de los precios con el tiempo
+   B. Un aumento general de los precios con el tiempo
+   C. Un tipo de bono
+   D. Un impuesto del gobierno
+2. Verdadero o falso: un saldo de banco estable siempre está a salvo de perder valor real.
+3. ¿Por qué tener efectivo a largo plazo podría implicar un riesgo real?
+   A. El efectivo nunca puede perder valor
+   B. La inflación puede erosionar su poder de compra con el tiempo
+   C. El efectivo siempre gana intereses altos
+   D. Tener efectivo no implica ningún riesgo
+
+## Clave de respuestas
+
+1. B
+2. Falso
+3. B
+
+## Respuestas y explicaciones
+
+### Pregunta 1
+
+Respuesta correcta: B. La inflación es un aumento general de los precios con el tiempo.
+
+### Pregunta 2
+
+Respuesta correcta: Falso. La inflación puede erosionar el valor real aunque el saldo nominal se mantenga estable.
+
+### Pregunta 3
+
+Respuesta correcta: B. La inflación erosiona el poder de compra, un riesgo real de tener efectivo a largo plazo.
+
+## Puntos clave
+
+- La inflación es un aumento general de los precios que reduce el poder de compra.
+- Un saldo de cuenta estable puede perder valor real por la inflación.
+- Tener efectivo a largo plazo implica un riesgo real que a menudo se subestima.
+
+===== WHITE-L1-032
+TITLE: ¿Qué es la liquidez, en términos sencillos?
+SUMMARY: Aprende qué significa la liquidez y por qué algunos activos pueden convertirse en efectivo más rápido que otros.
+# ¿Qué es la liquidez, en términos sencillos?
+
+## Objetivos de aprendizaje
+
+Al final de esta lección, deberías poder:
+
+- Definir la liquidez en términos sencillos.
+- Comparar la liquidez de distintos tipos de activos.
+- Explicar por qué la liquidez importa en la planificación financiera.
+
+## Contenido principal
+
+### Qué significa liquidez
+
+La liquidez se refiere a qué tan rápido y con qué facilidad un activo puede convertirse en efectivo sin una pérdida importante de valor.
+
+### Cómo se compara la liquidez entre activos
+
+Una acción que cotiza en bolsa suele ser muy líquida: a menudo puede venderse en segundos durante el horario del mercado a un precio cercano al actual. Los bienes raíces, en cambio, suelen ser mucho menos líquidos: vender una propiedad normalmente toma semanas o meses e implica costos de transacción importantes, una diferencia que ya mencionamos antes en este nivel.
+
+### Por qué importa la liquidez
+
+El dinero que podrías necesitar rápido (un fondo de emergencia, por ejemplo) suele ir en activos muy líquidos. El dinero que no necesitarás en mucho tiempo puede colocarse de forma más razonable en inversiones menos líquidas, que a veces ofrecen otras ventajas a cambio.
+
+## Ejemplo práctico
+
+*EJEMPLO ILUSTRATIVO:* Un inversionista que necesita acceso rápido a efectivo para una emergencia normalmente querría ese dinero en un activo líquido, como una cuenta de ahorros o acciones fáciles de vender, y no inmovilizado en una propiedad que podría tardar meses en venderse.
+
+## Prueba de práctica
+
+1. La liquidez se refiere a:
+   A. Cuánto vale un activo
+   B. Qué tan rápido y con qué facilidad un activo puede convertirse en efectivo
+   C. Un tipo de dividendo
+   D. La tasa de interés de un bono
+2. Verdadero o falso: los bienes raíces suelen ser más líquidos que una acción que cotiza en bolsa.
+3. ¿Por qué un fondo de emergencia podría ir en un activo muy líquido?
+   A. La liquidez no importa en las emergencias
+   B. Podría necesitarse acceso rápido al efectivo sin previo aviso
+   C. Los activos poco líquidos siempre pagan intereses más altos
+   D. Los fondos de emergencia siempre deben estar en bienes raíces
+
+## Clave de respuestas
+
+1. B
+2. Falso
+3. B
+
+## Respuestas y explicaciones
+
+### Pregunta 1
+
+Respuesta correcta: B. La liquidez tiene que ver con la facilidad y la rapidez para convertir algo en efectivo.
+
+### Pregunta 2
+
+Respuesta correcta: Falso. Las acciones suelen ser mucho más líquidas que los bienes raíces.
+
+### Pregunta 3
+
+Respuesta correcta: B. Las emergencias requieren acceso rápido, lo que favorece a los activos líquidos.
+
+## Puntos clave
+
+- La liquidez es qué tan rápido y con qué facilidad un activo se convierte en efectivo.
+- Las acciones suelen ser muy líquidas; los bienes raíces suelen ser mucho menos líquidos.
+- El dinero que se necesita rápido suele ir en activos líquidos.
+
+===== WHITE-L1-033
+TITLE: ¿Qué es un fondo del mercado monetario?
+SUMMARY: Aprende qué es un fondo del mercado monetario y por qué en general se considera una opción de menor riesgo y más líquida que otros fondos.
+# ¿Qué es un fondo del mercado monetario?
+
+## Objetivos de aprendizaje
+
+Al final de esta lección, deberías poder:
+
+- Definir un fondo del mercado monetario en términos sencillos.
+- Explicar en qué suele invertir.
+- Explicar por qué en general se considera de menor riesgo que un fondo de acciones.
+
+## Contenido principal
+
+### Qué es un fondo del mercado monetario
+
+Un fondo del mercado monetario (money market fund) es un tipo de fondo mutuo que invierte en instrumentos de deuda a corto plazo y, en general, de alta calidad, con el objetivo de dar estabilidad y liquidez más que un crecimiento importante.
+
+### En qué suele invertir
+
+Los fondos del mercado monetario suelen tener cosas como deuda del gobierno a corto plazo y otros préstamos a muy corto plazo de alta calidad crediticia: inversiones que en general se eligen por su estabilidad y no por su potencial de crecimiento.
+
+### Por qué en general es de menor riesgo
+
+Como tiene deuda a corto plazo y de alta calidad, un fondo del mercado monetario en general se considera de menor riesgo y de valor más estable que un fondo de acciones, aunque no está totalmente libre de riesgo y, a cambio, suele ofrecer rendimientos más modestos.
+
+## Ejemplo práctico
+
+*EJEMPLO ILUSTRATIVO:* Una inversionista que quiere un lugar relativamente estable para tener efectivo que quizá necesite pronto, ganando algo de rendimiento, podría usar un fondo del mercado monetario en vez de un fondo centrado en acciones, con más volatilidad.
+
+## Prueba de práctica
+
+1. Un fondo del mercado monetario suele invertir en:
+   A. Acciones de tecnología de alto crecimiento
+   B. Instrumentos de deuda a corto plazo y de alta calidad
+   C. Bienes raíces de forma directa
+   D. Exclusivamente criptomonedas
+2. Verdadero o falso: los fondos del mercado monetario en general se consideran de mayor riesgo que los fondos de acciones.
+3. ¿Por qué un inversionista podría usar un fondo del mercado monetario?
+   A. Para maximizar el potencial de crecimiento a largo plazo
+   B. Por su relativa estabilidad y liquidez
+   C. Para evitar por completo cualquier tipo de riesgo
+   D. Para comprar bienes raíces
+
+## Clave de respuestas
+
+1. B
+2. Falso
+3. B
+
+## Respuestas y explicaciones
+
+### Pregunta 1
+
+Respuesta correcta: B. Los fondos del mercado monetario tienen deuda a corto plazo y de alta calidad.
+
+### Pregunta 2
+
+Respuesta correcta: Falso. En general se consideran de menor riesgo que los fondos de acciones.
+
+### Pregunta 3
+
+Respuesta correcta: B. La estabilidad y la liquidez son su principal atractivo.
+
+## Puntos clave
+
+- Un fondo del mercado monetario invierte en deuda a corto plazo y de alta calidad.
+- En general se considera de menor riesgo y más estable que los fondos de acciones.
+- Cambia un mayor potencial de crecimiento por estabilidad y liquidez.
+
+===== WHITE-L1-034
+TITLE: ¿Qué es un certificado de depósito (CD)?
+SUMMARY: Aprende qué es un certificado de depósito, cómo inmoviliza el dinero a cambio de un rendimiento y el verdadero costo de retirarlo antes de tiempo.
+# ¿Qué es un certificado de depósito (CD)?
+
+## Objetivos de aprendizaje
+
+Al final de esta lección, deberías poder:
+
+- Definir un certificado de depósito en términos sencillos.
+- Explicar el equilibrio básico que ofrece un certificado de depósito.
+- Explicar qué suele pasar si se retira el dinero antes de tiempo.
+
+## Contenido principal
+
+### Qué es un certificado de depósito
+
+Un certificado de depósito (CD) es un producto de ahorro que ofrecen los bancos, en el que el dinero se deposita durante un plazo fijo a cambio de una tasa de interés fija, en general más alta que la de una cuenta de ahorros común.
+
+### El equilibrio básico
+
+A cambio de una tasa de interés garantizada y normalmente más alta, el depositante en general acepta no retirar el dinero hasta que termine el plazo del certificado: cambia liquidez (vista en la lección anterior) por una mejor tasa.
+
+### Qué pasa si se retira antes de tiempo
+
+Retirar el dinero de un certificado de depósito antes de que termine su plazo suele generar una penalidad, que a menudo reduce o elimina parte de los intereses ganados; esa penalidad es el costo real de romper el equilibrio de liquidez.
+
+*REGLA ESPECÍFICA DE LA REGIÓN:* Las condiciones de los certificados de depósito (plazos, penalidades y protección de los depósitos) dependen de cada banco y de la regulación de cada país. Lee las condiciones antes de abrir uno.
+
+## Ejemplo práctico
+
+*EJEMPLO ILUSTRATIVO:* Un inversionista pone $5,000 en un certificado de depósito a 1 año con una tasa fija y acepta no tocar el dinero durante un año. Si lo necesita a los 6 meses, normalmente puede retirarlo, pero lo más probable es que pague una penalidad que reduzca los intereses que habría ganado.
+
+## Prueba de práctica
+
+1. En general, un certificado de depósito ofrece:
+   A. Plena liquidez sin ningún beneficio de tasa
+   B. Una tasa de interés fija a cambio de inmovilizar el dinero durante un plazo determinado
+   C. La propiedad de una empresa
+   D. Rendimientos de alto crecimiento garantizados
+2. Verdadero o falso: retirar dinero de un certificado de depósito antes de tiempo siempre es gratis, sin penalidad.
+3. ¿Qué cambia un certificado de depósito por una tasa de interés normalmente más alta?
+   A. La diversificación
+   B. La liquidez: el dinero suele quedar inmovilizado durante un plazo determinado
+   C. Los derechos de propiedad
+   D. La protección frente al riesgo de crédito
+
+## Clave de respuestas
+
+1. B
+2. Falso
+3. B
+
+## Respuestas y explicaciones
+
+### Pregunta 1
+
+Respuesta correcta: B. Un certificado de depósito cambia liquidez por una tasa fija, a menudo más alta.
+
+### Pregunta 2
+
+Respuesta correcta: Falso. Retirar antes de tiempo suele generar una penalidad.
+
+### Pregunta 3
+
+Respuesta correcta: B. Lo que se cambia por el beneficio de la tasa es la liquidez.
+
+## Puntos clave
+
+- Un certificado de depósito ofrece una tasa fija a cambio de inmovilizar el dinero durante un plazo.
+- Cambia liquidez por una tasa de interés normalmente mejor.
+- Retirar antes de tiempo suele generar una penalidad real.
+
+===== WHITE-L1-035
+TITLE: ¿Qué es un fondo de emergencia y por qué va antes de invertir?
+SUMMARY: Aprende qué es un fondo de emergencia y por qué este curso lo trata como un paso previo antes de otras inversiones.
+# ¿Qué es un fondo de emergencia y por qué va antes de invertir?
+
+## Objetivos de aprendizaje
+
+Al final de esta lección, deberías poder:
+
+- Definir un fondo de emergencia en términos sencillos.
+- Explicar por qué en general se recomienda tenerlo antes de otras inversiones.
+- Explicar por qué debe estar en un lugar líquido y de bajo riesgo.
+
+## Contenido principal
+
+### Qué es un fondo de emergencia
+
+Un fondo de emergencia es dinero que se aparta específicamente para cubrir gastos inesperados o una interrupción de los ingresos (perder el empleo, una reparación urgente, un gasto médico), no para invertir ni para gastos planificados.
+
+### Por qué en general va primero
+
+Sin un fondo de emergencia, un gasto inesperado podría obligar a alguien a vender inversiones en un mal momento (posiblemente con pérdida) o a endeudarse a intereses altos. Tener primero este colchón protege los otros planes financieros a más largo plazo de verse interrumpidos por emergencias de corto plazo.
+
+### Por qué debe estar en un lugar líquido
+
+En conexión con la lección sobre liquidez de antes en este nivel, un fondo de emergencia tiene que estar accesible rápido, sin penalidad ni riesgo de pérdida; por eso normalmente va en algo como una cuenta de ahorros o un fondo del mercado monetario, y no en acciones ni en un certificado de depósito con penalidades por retiro.
+
+## Ejemplo práctico
+
+*EJEMPLO ILUSTRATIVO:* Alguien que invierte todos sus ahorros en acciones, sin fondo de emergencia, podría verse obligado a vender esas acciones con pérdida durante una caída del mercado solo para cubrir una reparación inesperada del carro: justo la situación que un fondo de emergencia busca evitar.
+
+## Prueba de práctica
+
+1. Un fondo de emergencia es:
+   A. Dinero invertido para crecer a largo plazo
+   B. Dinero que se aparta específicamente para gastos inesperados o una interrupción de los ingresos
+   C. Un tipo de cuenta de retiro
+   D. Una póliza de seguro obligatoria
+2. Verdadero o falso: en general se recomienda invertir el fondo de emergencia en acciones para lograr el máximo crecimiento.
+3. ¿Por qué se recomienda tener un fondo de emergencia antes de otras inversiones?
+   A. No tiene ningún beneficio real
+   B. Evita tener que vender inversiones en un mal momento durante una emergencia
+   C. Garantiza ganancias en las inversiones
+   D. Reemplaza la necesidad de tener seguros
+
+## Clave de respuestas
+
+1. B
+2. Falso
+3. B
+
+## Respuestas y explicaciones
+
+### Pregunta 1
+
+Respuesta correcta: B. Un fondo de emergencia cubre gastos inesperados o una interrupción de los ingresos.
+
+### Pregunta 2
+
+Respuesta correcta: Falso. En general debe estar en un lugar líquido y de bajo riesgo, no en acciones.
+
+### Pregunta 3
+
+Respuesta correcta: B. Evita ventas forzadas de inversiones en mal momento durante las emergencias.
+
+## Puntos clave
+
+- Un fondo de emergencia cubre gastos inesperados, no inversiones planificadas.
+- En general va antes de otras inversiones, para proteger los planes a más largo plazo.
+- Debe estar en un lugar líquido y de bajo riesgo, accesible sin penalidad.
