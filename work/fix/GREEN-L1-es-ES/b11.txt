@@ -1,0 +1,394 @@
+===== GREEN-L1-046
+TITLE: Las auditorías: qué son y por qué ocurren
+SUMMARY: Desmitifica el proceso de auditoría tributaria y lo presenta como un procedimiento de verificación, no como una acusación automática de una falta.
+# Las auditorías: qué son y por qué ocurren
+
+## Objetivos de aprendizaje
+- Definir qué es una auditoría.
+- Identificar razones comunes, que no implican acusación, por las que podría ocurrir una auditoría.
+- Explicar cómo llevar bien los registros protege directamente a alguien durante una auditoría.
+
+## Contenido principal
+
+Una auditoría es un proceso de revisión en el que una autoridad tributaria examina más de cerca una declaración presentada para verificar que la información declarada sea exacta. Vale la pena separar el hecho de ser auditado de la suposición de culpa: las auditorías ocurren por muchas razones, como la selección al azar, las anomalías estadísticas (cifras que parecen inusuales en comparación con las de contribuyentes parecidos) o simplemente porque una deducción o un tipo de ingreso en particular recibe una revisión de rutina más estricta.
+
+Aquí es donde la lección anterior sobre llevar registros rinde frutos de la forma más directa. Alguien que ha llevado una documentación ordenada y organizada a lo largo del año normalmente puede responder a una auditoría con calma y eficiencia, presentando el respaldo de lo que se cuestione. Alguien sin registros podría tener dificultades para sustentar sus reclamaciones aunque fueran totalmente legítimas; es decir, llevar bien los registros no se trata solo de evitar la evasión: es una protección activa para los contribuyentes honestos cuyas declaraciones simplemente se seleccionan para revisión.
+
+## Ejemplo práctico
+
+**Pregunta:** Alguien recibe un aviso de auditoría y de inmediato supone que debe haber hecho algo ilegal. ¿Es exacta esa suposición?
+
+**Estudiante:** Según esta lección, no necesariamente: las auditorías pueden ocurrir por razones que no tienen que ver con una falta, como la selección al azar o una cifra que parece inusual.
+
+**Guía:** ¿Qué determina qué tan bien pasa esta persona la auditoría?
+
+**Estudiante:** Si llevó buenos registros: si tiene documentación de lo que reclamó, puede sustentarlo con calma, aunque no haya hecho nada malo.
+
+**Guía:** Exactamente: un aviso de auditoría es una solicitud de verificación, no automáticamente una acusación.
+
+## Cuestionario práctico
+
+**Pregunta 1.** La mejor descripción de una auditoría es:
+
+A) Una acusación automática de un delito
+B) Un proceso de revisión para verificar que la información declarada sea exacta
+C) Un tipo de crédito tributario
+D) Una sanción que siempre se aplica
+
+**Pregunta 2.** Las auditorías pueden activarse por:
+
+A) Solo una falta clara
+B) La selección al azar, las anomalías estadísticas o la revisión de rutina de ciertas reclamaciones
+C) Nada: las auditorías son totalmente al azar, sin ninguna otra causa
+D) Solo las personas que trabajan por cuenta propia
+
+**Pregunta 3.** Llevar bien los registros ayuda de la forma más directa durante una auditoría al:
+
+A) No tener ningún efecto
+B) Permitir sustentar las reclamaciones con calma y eficiencia
+C) Garantizar que nunca haya una auditoría
+D) Importar solo en los negocios
+
+**Pregunta 4.** ¿Recibir un aviso de auditoría es automáticamente una prueba de una falta?
+
+A) Sí, siempre
+B) No: es una solicitud de verificación, no una acusación automática
+C) Solo en las corporaciones
+D) Solo si se recibió un reembolso
+
+## Clave de respuestas
+
+1. B, 2. B, 3. B, 4. B
+
+## Respuestas y explicaciones
+
+**1.** La función de una auditoría es la verificación, no un hallazgo automático ni una acusación de culpa.
+
+**2.** Existen varios detonantes que no implican acusación, incluida la simple selección al azar.
+
+**3.** La documentación es exactamente lo que permite a un contribuyente honesto responder a las preguntas con eficiencia en vez de correr.
+
+**4.** El aviso en sí indica una solicitud de verificación, no una conclusión decidida de antemano.
+
+## Puntos clave
+
+- Una auditoría es una revisión de verificación, no una acusación automática de una falta.
+- Las auditorías pueden activarse por la selección al azar, las anomalías estadísticas o la revisión de rutina.
+- Llevar bien los registros es una protección directa y práctica durante una auditoría.
+- Ser auditado y ser culpable de algo son dos cosas totalmente distintas.
+
+===== GREEN-L1-047
+TITLE: Las sanciones y los intereses por presentar tarde o de forma incorrecta
+SUMMARY: Explica, a nivel conceptual, por qué existen las sanciones y los intereses y cómo suelen multiplicar con el tiempo el coste de los errores tributarios.
+# Las sanciones y los intereses por presentar tarde o de forma incorrecta
+
+## Objetivos de aprendizaje
+- Explicar por qué los sistemas tributarios imponen tanto sanciones como intereses, y no solo uno de los dos.
+- Reconocer que estos costes suelen crecer cuanto más tiempo pasa sin atender un problema.
+- Reforzar el valor práctico de atender los problemas tributarios a tiempo en vez de retrasarlos.
+
+## Contenido principal
+
+Cuando un impuesto se declara tarde, se paga de menos o se declara de forma incorrecta, la mayoría de los sistemas imponen dos tipos distintos de coste adicional: una sanción (básicamente, una multa por el incumplimiento) e intereses (una compensación al gobierno por el valor del dinero en el tiempo que no recibió a tiempo, parecida en su concepto a los intereses de cualquier otra deuda sin pagar). Normalmente son cargos separados, y ambos se suman al impuesto original adeudado.
+
+La lección práctica y duradera es que estos costes, en general, se multiplican cuanto más tiempo pasa sin atender un problema: los intereses siguen acumulándose y, en algunos sistemas, las sanciones pueden aumentar cuanto más tiempo siga sin resolverse un asunto. Por eso mismo, en muchas lecciones de esta ruta, el consejo recurrente ha sido atender los asuntos tributarios por iniciativa propia: presentar la declaración aunque no pueda pagar todo, comunicarse con la autoridad tributaria si hay un problema y no dejar que un asunto contenido y que se puede arreglar crezca en silencio hasta volverse mucho mayor por evitarlo y retrasarlo.
+
+## Ejemplo práctico
+
+**Pregunta:** Alguien se da cuenta de que cometió un error en la declaración de un año anterior, pero se siente ansioso y sigue posponiendo ocuparse de eso. ¿Qué sugiere esta lección sobre ese instinto?
+
+**Estudiante:** Según esta lección, retrasarlo probablemente empeorará las cosas, ya que los intereses y posiblemente las sanciones siguen creciendo cuanto más tiempo pasa sin atenderlo.
+
+**Guía:** ¿Cuál sería un mejor instinto, aunque atenderlo ahora pueda resultar incómodo?
+
+**Estudiante:** Ocuparse por iniciativa propia (corregirlo y comunicarse con la autoridad tributaria) en vez de dejar que se multiplique en silencio de fondo.
+
+**Guía:** Exactamente: la ansiedad es comprensible, pero evitarlo tiende a empeorar el resultado financiero real, no a mejorarlo.
+
+## Cuestionario práctico
+
+**Pregunta 1.** La mejor descripción de una sanción por presentar tarde o de forma incorrecta es:
+
+A) Una multa por el incumplimiento
+B) Lo mismo que los intereses
+C) Un crédito tributario
+D) Algo solo simbólico, sin ningún coste real
+
+**Pregunta 2.** En este contexto, la mejor descripción de los intereses es:
+
+A) Una multa por el incumplimiento
+B) Una compensación al gobierno por el valor en el tiempo del impuesto no pagado, parecida a los intereses de cualquier deuda
+C) Un tipo de reembolso
+D) Lo mismo que una sanción
+
+**Pregunta 3.** ¿Las sanciones y los intereses suelen crecer cuanto más tiempo pasa sin atender un asunto?
+
+A) No, se mantienen fijos para siempre
+B) Sí, en general se multiplican cuanto más tiempo sigue sin resolverse un problema
+C) Desaparecen solos con el tiempo
+D) Solo crecen los intereses, nunca las sanciones
+
+**Pregunta 4.** El consejo práctico recurrente de esta ruta para los problemas tributarios es:
+
+A) Ignorarlos y esperar que se resuelvan solos
+B) Atenderlos por iniciativa propia en vez de retrasarlos
+C) Esperar lo más posible antes de hacer algo
+D) Atenderlos solo si hay una auditoría
+
+## Clave de respuestas
+
+1. A, 2. B, 3. B, 4. B
+
+## Respuestas y explicaciones
+
+**1.** Una sanción funciona como una multa ligada específicamente al incumplimiento en sí.
+
+**2.** Los intereses reflejan el coste normal del dinero no pagado a lo largo del tiempo, parecido en su concepto a los intereses de cualquier otra deuda.
+
+**3.** Estos costes suelen acumularse cuanto más tiempo sigue sin resolverse el asunto de fondo.
+
+**4.** Atender los problemas por iniciativa propia, aunque resulte incómodo, es siempre el mejor camino financiero y práctico en comparación con evitarlos.
+
+## Puntos clave
+
+- Presentar tarde o de forma incorrecta puede traer tanto una sanción como cargos de intereses separados.
+- Las sanciones son multas por el incumplimiento; los intereses reflejan el coste del dinero no pagado a lo largo del tiempo.
+- Estos costes, en general, se multiplican cuanto más tiempo pasa sin atender un asunto.
+- Atender por iniciativa propia los problemas tributarios es siempre mejor que dejarlos crecer por el retraso.
+
+===== GREEN-L1-048
+TITLE: Trabajar con un profesional tributario: cuándo y por qué
+SUMMARY: Resume la analogía del médico en un marco práctico para decidir cuándo la situación tributaria de una persona justifica ayuda profesional.
+# Trabajar con un profesional tributario: cuándo y por qué
+
+## Objetivos de aprendizaje
+- Recordar la analogía del médico y aplicarla específicamente a las situaciones tributarias.
+- Identificar las señales generales de que una situación podría justificar ayuda tributaria profesional.
+- Reconocer que usar a un profesional y entender sus propios impuestos se complementan, no se sustituyen.
+
+## Contenido principal
+
+Esta ruta ha vuelto una y otra vez a la analogía del médico: cuando su negocio o su situación financiera está «enferma» de algún modo (es compleja, hay mucho en juego o es incierta), los honorarios de un profesional cualificado funcionan como un seguro contra unas consecuencias mucho mayores, no solo como un gasto que hay que evitar. Los impuestos son una de las aplicaciones más claras de ese principio.
+
+Entre las señales generales de que una situación podría justificar ayuda profesional están: empezar o reestructurar un negocio, comprar o vender una propiedad importante, recibir una donación o una herencia grande, enfrentar una auditoría o simplemente tener una vida financiera lo bastante compleja como para que preparar uno mismo la declaración se sienta realmente incierto y no algo de rutina. Algo importante: trabajar con un profesional no significa abandonar la meta de entender sus propios impuestos. Los conceptos de toda esta ruta lo convierten en un cliente mejor y más informado, capaz de hacer preguntas más precisas y de entender los consejos que recibe, en vez de confiar a ciegas o desconfiar a ciegas de lo que le diga un profesional.
+
+## Ejemplo práctico
+
+**Pregunta:** Alguien con un empleo asalariado sencillo y sin cambios de vida importantes se pregunta si necesita un profesional tributario cada año. ¿Qué marco de esta ruta le ayudaría a decidir?
+
+**Estudiante:** Según esta lección, la analogía del médico: si la situación es compleja, hay mucho en juego o es incierta, vale la pena pagar los honorarios. Una situación sencilla, de rutina y sin cambios quizá no lo necesite cada año.
+
+**Guía:** ¿Usar o no usar a un profesional cambia si debería entender los conceptos de esta ruta?
+
+**Estudiante:** No: entender los impuestos ayuda en ambos casos, ya sea que presente la declaración usted mismo o que trabaje con alguien, porque lo convierte en un participante más atento e informado de cualquier manera.
+
+**Guía:** Exactamente: esta ruta no busca sustituir a los profesionales, sino convertirlo en una persona mejor informada sin importar el camino que escoja.
+
+## Cuestionario práctico
+
+**Pregunta 1.** La analogía del médico aplicada a los impuestos sugiere:
+
+A) No usar nunca a un profesional
+B) Que los honorarios de un profesional son un seguro contra unas consecuencias mayores en las situaciones complejas o de mucho en juego
+C) Que solo las personas ricas necesitan profesionales
+D) Que los profesionales nunca valen lo que cuestan
+
+**Pregunta 2.** Entre las señales generales de que podría justificarse ayuda tributaria profesional están:
+
+A) Una situación asalariada sencilla y sin cambios
+B) Empezar un negocio, transacciones importantes de propiedades, donaciones o herencias grandes, o una auditoría
+C) Nada: nunca hacen falta profesionales
+D) Solo cuando lo exige la ley
+
+**Pregunta 3.** ¿Usar a un profesional tributario significa abandonar la comprensión personal de los impuestos?
+
+A) Sí, por completo
+B) No: entender los impuestos lo convierte en un cliente mejor y más informado en cualquier caso
+C) Solo en los negocios
+D) Entender los impuestos no importa si contrata ayuda
+
+**Pregunta 4.** El marco central de esta lección viene de:
+
+A) La epifanía de los sistemas
+B) La analogía del médico
+C) La paradoja de la elección
+D) La relatividad del logro
+
+## Clave de respuestas
+
+1. B, 2. B, 3. B, 4. B
+
+## Respuestas y explicaciones
+
+**1.** La analogía del médico presenta los honorarios profesionales como una protección contra consecuencias mayores, no simplemente como un coste que hay que reducir al mínimo.
+
+**2.** La complejidad, lo mucho que está en juego o una incertidumbre genuina son las señales prácticas a las que vale la pena prestar atención.
+
+**3.** El conocimiento del currículo y la ayuda profesional funcionan juntos: uno no sustituye el valor del otro.
+
+**4.** Esta lección retoma directamente la analogía del médico establecida antes en el currículo, aplicada específicamente a las decisiones tributarias.
+
+## Puntos clave
+
+- La analogía del médico se aplica directamente: los honorarios profesionales son un seguro contra un riesgo de consecuencias mayores.
+- La complejidad, lo mucho que está en juego y una incertidumbre genuina son señales a las que vale la pena prestar atención.
+- Usar a un profesional y entender sus propios impuestos se complementan, no se sustituyen.
+- Esta ruta busca convertirlo en un participante más atento e informado, sin importar el camino que escoja.
+
+===== GREEN-L1-049
+TITLE: La planificación tributaria: pensar con anticipación en vez de reaccionar
+SUMMARY: Presenta la planificación tributaria como una mentalidad que mira hacia adelante: tomar decisiones teniendo en cuenta sus consecuencias tributarias antes de que ocurran, en vez de reaccionar después de los hechos.
+# La planificación tributaria: pensar con anticipación en vez de reaccionar
+
+## Objetivos de aprendizaje
+- Definir la planificación tributaria como una práctica que mira hacia adelante.
+- Contrastar la planificación tributaria anticipada con las prisas reactivas después de los hechos.
+- Identificar ejemplos, tomados de esta ruta, de decisiones que se benefician de una planificación anticipada.
+
+## Contenido principal
+
+La planificación tributaria significa pensar en las consecuencias tributarias antes de tomar una decisión, no correr para entenderlas después. Casi todos los conceptos vistos en esta ruta se vuelven más valiosos, y más útiles en la práctica, cuando se aplican por anticipado en vez de en reacción: el momento de la venta de un activo de capital, la elección entre aportes para la jubilación de estilo tradicional y de estilo Roth, la decisión de detallar las deducciones o tomar la deducción estándar, la estructura con la que se organiza un negocio nuevo o cuánto apartar a lo largo del año para el impuesto sobre el trabajo por cuenta propia.
+
+El cambio de mentalidad de lo reactivo a lo anticipado es en sí mismo la lección más valiosa de toda esta ruta. Alguien que entiende estos conceptos solo al momento de presentar la declaración, en el mejor de los casos, puede declarar con exactitud lo que ya pasó. Alguien que los entiende a lo largo del año puede tomar de verdad decisiones distintas y mejores (programar una venta, ajustar la retención, escoger una estructura) porque vio venir la consecuencia tributaria y planificó en torno a ella, en vez de descubrirla después de los hechos, cuando ya no se podía hacer nada distinto.
+
+## Ejemplo práctico
+
+**Pregunta:** Dos personas venden una acción con una ganancia grande cerca del final del año. Una había seguido su período de tenencia y programó la venta a propósito; la otra no pensó en eso hasta la temporada de impuestos. ¿Cuál es la diferencia práctica entre ellas?
+
+**Estudiante:** Según esta lección, la primera persona probablemente tuvo más control sobre su resultado tributario, ya que pudo planificar el momento por anticipado. La segunda persona solo está reaccionando a lo que ya pasó.
+
+**Guía:** ¿Podría la segunda persona haber tomado una decisión distinta y mejor si lo hubiera pensado antes?
+
+**Estudiante:** Posiblemente: quizá esperar un poco más le habría permitido calificar para el tratamiento de largo plazo, pero para la temporada de impuestos esa opción ya no existe.
+
+**Guía:** Exactamente: esa es toda la diferencia entre planificar y reaccionar: el mismo conocimiento, aplicado en momentos distintos, cambia si de verdad puede actuar con base en él.
+
+## Cuestionario práctico
+
+**Pregunta 1.** La mejor descripción de la planificación tributaria es:
+
+A) Declarar lo que ya pasó al momento de presentar la declaración
+B) Considerar las consecuencias tributarias antes de tomar una decisión
+C) Evitar ilegalmente todos los impuestos
+D) Algo que solo necesitan hacer los negocios
+
+**Pregunta 2.** Manejar los impuestos de forma reactiva significa:
+
+A) Planificar con tiempo
+B) Entender las consecuencias tributarias solo después de que ya ocurrieron
+C) Lo mismo que la evasión de impuestos
+D) Algo que en realidad nunca pasa
+
+**Pregunta 3.** Según esta lección, ¿cuál de estas cosas se beneficia de una planificación anticipada?
+
+A) El momento de la venta de un activo, la elección del tipo de cuenta de jubilación, la estructura del negocio
+B) Nada: todos los resultados tributarios son fijos sin importar el momento
+C) Solo el impuesto sobre las ventas
+D) Solo la retención de la nómina
+
+**Pregunta 4.** El cambio de mentalidad central que recalca esta lección es:
+
+A) De lo anticipado a lo reactivo
+B) De lo reactivo a lo anticipado
+C) No hay ningún cambio importante
+D) De lo legal a lo ilegal
+
+## Clave de respuestas
+
+1. B, 2. B, 3. A, 4. B
+
+## Respuestas y explicaciones
+
+**1.** La verdadera planificación tributaria ocurre antes de la decisión que la activa, no después de que ya quedó fijada.
+
+**2.** El manejo reactivo solo puede describir y declarar resultados que ya están fijos, sin ninguna posibilidad de cambiarlos.
+
+**3.** El momento, el tipo de cuenta y la estructura son ejemplos concretos en los que pensar con anticipación cambia las opciones disponibles.
+
+**4.** La mentalidad anticipada es lo que convierte el conocimiento tributario de una declaración pasiva en una herramienta activa para tomar decisiones.
+
+## Puntos clave
+
+- La planificación tributaria significa considerar las consecuencias antes de tomar las decisiones, no después.
+- El manejo reactivo solo puede declarar lo que ya pasó, sin opciones restantes.
+- El momento de la venta de un activo, el tipo de cuenta de jubilación y la estructura del negocio se benefician de una planificación anticipada.
+- El cambio de lo reactivo a lo anticipado es la mentalidad más valiosa de toda esta ruta.
+
+===== GREEN-L1-050
+TITLE: Juntándolo todo: cómo formar su hábito personal de alfabetización tributaria
+SUMMARY: Cierra el Nivel 1 de GREEN resumiendo el recorrido de la ruta y estableciendo un hábito continuo de alfabetización tributaria, siguiendo el patrón de lección de cierre que se usa en otras rutas.
+# Juntándolo todo: cómo formar su hábito personal de alfabetización tributaria
+
+## Objetivos de aprendizaje
+- Resumir el recorrido general del Nivel 1 de GREEN.
+- Identificar un hábito continuo, sencillo y sostenible para mantener la alfabetización tributaria.
+- Relacionar esta lección de cierre con los temas de todo el sistema del currículo más amplio.
+
+## Contenido principal
+
+Esta ruta empezó con la pregunta más básica posible (qué es un impuesto y por qué los pagamos) y fue avanzando, paso a paso, por las principales categorías de impuestos (sobre la renta, sobre las ventas, sobre la propiedad, sobre la nómina), el funcionamiento de los tramos y de la retención, las realidades prácticas de operar un negocio (gastos deducibles, depreciación, impuesto sobre el trabajo por cuenta propia, clasificación de los trabajadores), el ingreso de las inversiones (ganancias de capital, dividendos, intereses), las decisiones estructurales más amplias (estructura del negocio, cuentas de jubilación) y, por último, las barreras de protección que lo mantienen todo honesto y manejable (la línea entre la evasión y la elusión, las auditorías, las sanciones y cuándo recurrir a un profesional).
+
+Nada de esto pretende convertirlo en su propio abogado tributario o contador. Pretende convertirlo en un participante alfabetizado de su propia vida financiera: alguien que puede leer un recibo de nómina, entender un W-2 frente a un 1099, reconocer la diferencia entre una deducción y un crédito y saber cuándo una situación ya entró en el terreno de «llamar a un profesional». Como la epifanía de los sistemas de las rutas anteriores, la alfabetización tributaria se acumula: un hábito de planificación anticipada, de registros ordenados y de revisión periódica, mantenido año tras año, produce un resultado financiero bastante mejor que reaccionar una vez al año bajo la presión de una fecha límite. Ese hábito, y no ninguna lección individual, es la verdadera conclusión del Nivel 1 de GREEN.
+
+## Ejemplo práctico
+
+**Pregunta:** Mirando hacia atrás las cincuenta lecciones de esta ruta, ¿cuál es el único hábito práctico que vale la pena llevar adelante?
+
+**Estudiante:** Según todo lo visto, diría que formar un hábito de llevar registros de forma continua y de planificar con anticipación, en vez de pensar en los impuestos solo una vez al año, al momento de presentar la declaración.
+
+**Guía:** ¿Cómo se conecta eso con la epifanía de los sistemas de las rutas de negocios?
+
+**Estudiante:** Es la misma idea básica: un esfuerzo pequeño y constante, mantenido en el tiempo, se acumula en un resultado mucho mejor que un solo gran esfuerzo bajo presión.
+
+**Guía:** Exactamente: ese es el hilo que une toda esta ruta.
+
+## Cuestionario práctico
+
+**Pregunta 1.** El Nivel 1 de GREEN avanza desde:
+
+A) Estructuras corporativas complejas hasta las definiciones básicas
+B) La pregunta más básica (qué es un impuesto) hasta los temas estructurales y de orientación profesional
+C) Temas al azar y sin relación, sin ningún recorrido
+D) Solo temas de inversión
+
+**Pregunta 2.** La meta de esta ruta es convertir al estudiante en:
+
+A) Un abogado tributario con licencia
+B) Un participante alfabetizado e informado de su propia vida financiera
+C) Alguien que nunca más necesitará a un profesional
+D) Alguien que evita ilegalmente todos los impuestos
+
+**Pregunta 3.** La conexión con la «epifanía de los sistemas» en esta lección de cierre se refiere a:
+
+A) Ser dueño de varios negocios
+B) Que los hábitos constantes y acumulativos producen mejores resultados que los esfuerzos aislados de una sola vez
+C) Un crédito tributario específico
+D) Un tipo de cuenta de jubilación
+
+**Pregunta 4.** El único hábito práctico que se recalca como la verdadera conclusión es:
+
+A) Memorizar todas las reglas tributarias específicas
+B) Llevar registros de forma continua y planificar con anticipación, mantenido en el tiempo
+C) Evitar toda ayuda profesional
+D) Esperar a la temporada de impuestos para pensar en los impuestos
+
+## Clave de respuestas
+
+1. B, 2. B, 3. B, 4. B
+
+## Respuestas y explicaciones
+
+**1.** La ruta va, a propósito y en orden, de las definiciones básicas al terreno práctico, estructural y de orientación profesional.
+
+**2.** La meta explícita en todo momento es la alfabetización y la participación informada, no una pericia de nivel profesional.
+
+**3.** La idea del hábito acumulativo retoma la epifanía de los sistemas de las rutas de negocios, aplicada aquí al comportamiento tributario en vez de a la propiedad de un negocio.
+
+**4.** Los hábitos constantes y anticipados, mantenidos en el tiempo, se presentan como más valiosos que cualquier conocimiento individual de la ruta.
+
+## Puntos clave
+
+- El Nivel 1 de GREEN avanza de las definiciones básicas a los temas prácticos, estructurales y de barreras de protección.
+- La meta es la alfabetización financiera y la participación informada, no una pericia de nivel profesional.
+- Llevar registros de forma continua y planificar con anticipación se acumula con el tiempo, lo que retoma la epifanía de los sistemas.
+- Ese hábito sostenido, más que cualquier lección individual, es la verdadera conclusión de esta ruta.

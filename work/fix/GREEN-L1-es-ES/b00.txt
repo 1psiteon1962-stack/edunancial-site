@@ -1,0 +1,438 @@
+===== GREEN-L1-001
+TITLE: ¿Qué es un impuesto y por qué los pagamos?
+SUMMARY: Una introducción al concepto básico de los impuestos: qué es un impuesto, quién lo cobra y por qué los gobiernos lo necesitan para funcionar.
+# ¿Qué es un impuesto y por qué los pagamos?
+
+## Objetivos de aprendizaje
+- Definir en términos sencillos qué es un impuesto.
+- Identificar los distintos niveles de gobierno que cobran impuestos.
+- Explicar, con sus propias palabras, por qué existen los impuestos.
+
+## Contenido principal
+
+Un impuesto es dinero que un gobierno exige que paguen las personas y los negocios, según reglas que fija el gobierno. No es opcional como lo es la membresía de un gimnasio. Si usted debe un impuesto y no lo paga, hay consecuencias legales.
+
+Los gobiernos cobran impuestos en distintos niveles. En la mayoría de los países encontrará alguna combinación de impuestos nacionales (federales), regionales (estatales o provinciales) y locales (de la ciudad o del municipio). Cada nivel usa el dinero para cosas distintas: un gobierno nacional podría financiar la defensa y grandes programas públicos, mientras que una ciudad podría usar el dinero de los impuestos locales para pagar la recogida de basura, el arreglo de las calles o el cuerpo de bomberos local.
+
+La razón central de que existan los impuestos es sencilla: algunas cosas funcionan mejor cuando todos aportan a un fondo común en vez de que cada uno pague por su cuenta. Las carreteras, los tribunales, las escuelas públicas y la defensa nacional son difíciles o imposibles de comprar para una sola persona, pero benefician a casi todo el mundo. Los impuestos son el mecanismo que usan las sociedades para financiar esos bienes compartidos.
+
+Vale la pena separar la *idea* de los impuestos de cualquier tasa o ley tributaria específica. Las tasas y las reglas cambian constantemente y varían según el país y el año. Lo que no cambia es el concepto de fondo: un aporte obligatorio, fijado por el gobierno, que se usa para financiar las necesidades colectivas.
+
+> **Nota:** Las tasas impositivas, los nombres de las agencias y los umbrales específicos que se mencionan en cualquier parte de esta ruta son ilustrativos y varían según el país. Verifique siempre las cifras vigentes en su propia jurisdicción antes de tomar decisiones.
+
+## Ejemplo práctico
+
+**Pregunta:** La abuela de Ntege paga una cuota del mercado local cada vez que vende vestidos en el mercado del pueblo. ¿Eso es lo mismo que un impuesto?
+
+**Estudiante:** Creo que no: solo está pagando por usar una mesa en el mercado.
+
+**Guía:** Mírelo con más cuidado. ¿Quién fija la cuota? ¿Es opcional?
+
+**Estudiante:** La fija la autoridad del mercado, y no: no se puede vender allí sin pagarla.
+
+**Guía:** Esa es la prueba clave. Un pago obligatorio, fijado por una autoridad y ligado a una actividad que usted realiza: eso funciona como un impuesto, aunque se llame «cuota». Los gobiernos a menudo usan tanto impuestos propiamente dichos como cuotas obligatorias para financiar las funciones públicas, y la línea entre unos y otras a veces es borrosa.
+
+**Estudiante:** Entonces se trata menos del nombre y más de si es obligatorio y lo fija una autoridad.
+
+**Guía:** Exactamente.
+
+## Cuestionario práctico
+
+**Pregunta 1.** La mejor definición de un impuesto es:
+
+A) Dinero que usted decide donar al gobierno
+B) Un pago obligatorio, fijado por las reglas del gobierno, que se usa para financiar las necesidades públicas
+C) Una cuota que solo pagan los negocios
+D) Un aporte voluntario a una obra benéfica
+
+**Pregunta 2.** ¿Cuál de estos es un ejemplo de un bien compartido que suelen financiar los impuestos?
+
+A) Un yate privado
+B) Una cuenta de ahorros personal
+C) Las carreteras públicas
+D) El regalo de cumpleaños de un amigo
+
+**Pregunta 3.** Los gobiernos pueden cobrar impuestos en:
+
+A) Solo el nivel nacional
+B) Solo el nivel local
+C) Varios niveles: nacional, regional y local
+D) Ningún nivel; los impuestos son privados
+
+**Pregunta 4.** Verdadero o falso: las tasas y las reglas tributarias son las mismas en todos los países y nunca cambian.
+
+A) Verdadero
+B) Falso
+
+**Pregunta 5.** Una cuota de mercado obligatoria fijada por una autoridad local:
+
+A) Nunca tiene relación con los impuestos
+B) Funciona como un impuesto aunque no se llame así
+C) Siempre es ilegal
+D) Solo es relevante para los negocios grandes
+
+## Clave de respuestas
+
+1. B, 2. C, 3. C, 4. B, 5. B
+
+## Respuestas y explicaciones
+
+**1.** Un impuesto es obligatorio, no opcional, y lo fija una autoridad de gobierno: eso lo distingue de una donación.
+
+**2.** Las carreteras son un bien compartido que casi todo el mundo usa y que pocas personas podrían construir solas, que es exactamente el tipo de cosa que los impuestos existen para financiar.
+
+**3.** La mayoría de los países reparten los impuestos entre el gobierno nacional, el regional y el local, y cada uno financia responsabilidades distintas.
+
+**4.** Los sistemas tributarios varían enormemente según el país y cambian con el tiempo, así que las reglas específicas no son universales: solo lo es el concepto de fondo.
+
+**5.** La etiqueta importa menos que el fondo: obligatorio, fijado por una autoridad y ligado a una actividad; ese patrón se comporta como un impuesto.
+
+## Puntos clave
+
+- Un impuesto es un pago obligatorio fijado por una autoridad de gobierno, no una decisión voluntaria.
+- Los impuestos existen para financiar las cosas que funcionan mejor como bienes compartidos y colectivos.
+- Los impuestos se cobran en varios niveles de gobierno, y cada uno financia responsabilidades distintas.
+- Las tasas y las reglas tributarias específicas varían según el país y cambian con el tiempo: no memorice cifras como si fueran hechos universales.
+- Las cuotas obligatorias pueden funcionar como impuestos aunque formalmente no se llamen así.
+
+===== GREEN-L1-002
+TITLE: Adónde van sus impuestos: bienes y servicios públicos
+SUMMARY: Explora para qué se usa normalmente la recaudación de impuestos y presenta el concepto de bienes públicos frente a bienes privados.
+# Adónde van sus impuestos: bienes y servicios públicos
+
+## Objetivos de aprendizaje
+- Distinguir entre un bien público y un bien privado.
+- Enumerar las categorías comunes del gasto público que se financian con impuestos.
+- Explicar por qué algunos bienes son difíciles de financiar sin un pago colectivo.
+
+## Contenido principal
+
+Los economistas usan el término «bien público» para algo que es a la vez no excluible (no se puede impedir con facilidad que lo usen quienes no pagaron) y no rival (que una persona lo use no lo agota para los demás). El alumbrado público es un ejemplo clásico: una vez instalado, es difícil impedir que se beneficie alguien que no pagó, y que una persona camine bajo la luz no la hace más tenue para la siguiente.
+
+Como los bienes públicos son difíciles de vender con ganancia a un cliente a la vez, los negocios privados a menudo no los construyen. Ese es el vacío que llenan los impuestos. Entre las categorías comunes que se financian con la recaudación de impuestos están la infraestructura (carreteras, puentes, sistemas de agua), la seguridad pública (policía, bomberos, tribunales), la educación (escuelas públicas), la defensa y los programas sociales (apoyo para la salud, asistencia por desempleo, sistemas de jubilación).
+
+No todo aquello en que el gobierno gasta dinero es un bien público puro: parte del gasto se destina a servicios que en teoría se podrían vender de forma privada, pero que una sociedad ha decidido financiar de forma colectiva por otras razones, como garantizar un acceso amplio sin importar los ingresos. La educación pública es un buen ejemplo: existen escuelas privadas, pero la mayoría de los países también financian la educación pública porque una alfabetización amplia y unas destrezas básicas benefician a toda la sociedad, no solo al estudiante individual.
+
+Entender esta distinción le ayuda a evaluar más adelante los debates de política tributaria: las discusiones sobre los impuestos a menudo son, en realidad, discusiones sobre qué bienes deberían ser públicos, cuáles deberían ser privados y cuánto financiamiento colectivo es suficiente.
+
+## Ejemplo práctico
+
+**Pregunta:** Si una empresa privada construyera una carretera de peaje y solo pudieran circular por ella las personas que pagan el peaje, ¿sería esa carretera un bien público puro?
+
+**Estudiante:** No lo parece, porque si no paga lo pueden excluir.
+
+**Guía:** Correcto: esa es la prueba de la excluibilidad. ¿Qué le dice eso sobre quién suele construir las carreteras de peaje frente a las carreteras públicas gratuitas?
+
+**Estudiante:** Una empresa privada puede ganar dinero con una carretera de peaje porque puede cobrarle a cada usuario. A una carretera pública gratuita no se le puede cobrar a cada usuario, así que tiene más sentido financiarla con impuestos compartidos.
+
+**Guía:** Esa es la lógica central. La excluibilidad suele ser lo que determina si algo se construye de forma privada o se financia con fondos públicos.
+
+## Cuestionario práctico
+
+**Pregunta 1.** La mejor descripción de un bien público es uno que es:
+
+A) Caro y escaso
+B) No excluible y no rival
+C) Usado solo por personas ricas
+D) Siempre gratis de construir
+
+**Pregunta 2.** ¿Cuál de los siguientes es el mejor ejemplo de un bien público?
+
+A) Un coche privado
+B) Un poste de alumbrado público
+C) Una comida en un restaurante
+D) Un teléfono personal
+
+**Pregunta 3.** ¿Por qué los negocios privados a menudo evitan construir bienes públicos puros?
+
+A) Es ilegal
+B) No pueden cobrarle con facilidad a cada usuario, lo que hace difícil ganar dinero
+C) Los gobiernos prohíben la infraestructura privada
+D) Los bienes públicos nunca son útiles
+
+**Pregunta 4.** Una carretera de peaje que excluye a quienes no pagan es:
+
+A) Un bien público puro
+B) Un ejemplo de un servicio excluible, a diferencia de una carretera pública gratuita
+C) Ilegal en la mayoría de los países
+D) Lo mismo que una escuela pública
+
+**Pregunta 5.** La educación pública se financia de forma colectiva en parte porque:
+
+A) Las escuelas privadas son ilegales
+B) Una alfabetización amplia beneficia a la sociedad más allá del estudiante individual
+C) No cuesta nada operarla
+D) Solo la necesitan las familias ricas
+
+## Clave de respuestas
+
+1. B, 2. B, 3. B, 4. B, 5. B
+
+## Respuestas y explicaciones
+
+**1.** La no excluibilidad y la no rivalidad son los dos rasgos que usan los economistas para definir los bienes públicos.
+
+**2.** Es difícil limitar un poste de alumbrado a los usuarios que pagan, y no se agota porque más personas lo usen.
+
+**3.** Si no se le puede cobrar a cada usuario por separado, es difícil montar un negocio privado rentable alrededor de ese bien.
+
+**4.** Como las carreteras de peaje pueden excluir a quienes no pagan, se pueden construir y operar de forma privada, algo que no es posible con una carretera pública gratuita.
+
+**5.** El financiamiento colectivo de la educación refleja una decisión de la sociedad: un acceso amplio produce beneficios que van más allá de la persona.
+
+## Puntos clave
+
+- Los bienes públicos son no excluibles y no rivales, lo que los hace difíciles de financiar solo mediante la venta privada.
+- La recaudación de impuestos suele financiar la infraestructura, la seguridad pública, la educación, la defensa y los programas sociales.
+- La excluibilidad suele ser el factor decisivo para que algo se construya de forma privada o colectiva.
+- Algunos servicios que se financian de forma colectiva no son bienes públicos puros, pero se financian de forma amplia por razones de acceso y de beneficio para la sociedad.
+- Los debates sobre los impuestos a menudo son, en realidad, debates sobre qué bienes deberían ser públicos y cuáles privados.
+
+===== GREEN-L1-003
+TITLE: Los tipos de impuestos: un panorama general
+SUMMARY: Un mapa de las principales categorías de impuestos que encontrará una persona (sobre la renta, sobre las ventas o el consumo, sobre la propiedad y sobre la nómina) antes de profundizar en cada una.
+# Los tipos de impuestos: un panorama general
+
+## Objetivos de aprendizaje
+- Nombrar las cuatro categorías principales de impuestos que encuentra la mayoría de las personas.
+- Identificar a qué categoría pertenece un ejemplo real de impuesto.
+- Explicar la diferencia general entre un impuesto sobre ganar, gastar, poseer y trabajar.
+
+## Contenido principal
+
+Antes de profundizar en cualquier impuesto en particular, ayuda tener el mapa completo. La mayoría de las personas, en la mayoría de los países, encontrará alguna versión de estas cuatro categorías:
+
+**Impuesto sobre la renta**: un impuesto sobre el dinero que usted gana, ya sea de un empleo, de un negocio o de inversiones. **Impuesto sobre las ventas o el consumo**: un impuesto que se añade cuando compra bienes o servicios. **Impuesto sobre la propiedad**: un impuesto sobre las cosas que posee, con mayor frecuencia los bienes inmuebles. **Impuesto sobre la nómina**: un impuesto ligado específicamente a los salarios del empleo, a menudo destinado a programas como los sistemas de jubilación o de seguro de salud.
+
+Una forma sencilla de no confundirlos: el impuesto sobre la renta pregunta «¿cuánto ganó?». El impuesto sobre las ventas pregunta «¿cuánto gastó?». El impuesto sobre la propiedad pregunta «¿qué posee?». El impuesto sobre la nómina pregunta «¿tiene empleo y cuánto le pagan?».
+
+Los países combinan estos impuestos de formas distintas. Algunos dependen mucho del impuesto sobre la renta, otros se apoyan más en los impuestos al consumo, y los gobiernos locales con frecuencia dependen del impuesto sobre la propiedad para financiar las escuelas y los servicios locales. No hay una única combinación «correcta»: es una decisión de política con ventajas y desventajas, y las lecciones posteriores de esta ruta examinarán esas ventajas y desventajas. Por ahora, la meta es solo reconocerlos: cuando oiga hablar de un impuesto, debería poder clasificarlo en una de estas categorías como punto de partida.
+
+## Ejemplo práctico
+
+**Pregunta:** Un gobierno añade un porcentaje al precio cada vez que alguien compra un refresco. ¿En qué categoría cae esto?
+
+**Estudiante:** Ocurre en el momento de la compra, así que parece un impuesto sobre las ventas o el consumo.
+
+**Guía:** Correcto. Ahora bien, si ese mismo gobierno también grava la ganancia que obtiene la empresa de refrescos al final del año, ¿es el mismo impuesto?
+
+**Estudiante:** No, ese sería un impuesto sobre la renta de las ganancias de la empresa, no un impuesto sobre las ventas de la compra.
+
+**Guía:** Exactamente: dos impuestos distintos pueden aplicarse al mismo producto en momentos distintos: una vez cuando se compra y otra sobre la ganancia que generó.
+
+## Cuestionario práctico
+
+**Pregunta 1.** El impuesto sobre la renta es un impuesto sobre:
+
+A) Lo que usted posee
+B) Lo que usted gana
+C) Lo que usted compra
+D) Si usted tiene empleo
+
+**Pregunta 2.** El impuesto sobre las ventas normalmente se aplica:
+
+A) Una vez al año sobre la riqueza total
+B) En el momento de la compra
+C) Solo a los dueños de negocios
+D) Solo en un país
+
+**Pregunta 3.** El impuesto sobre la propiedad se asocia con mayor frecuencia con:
+
+A) La propiedad de bienes inmuebles
+B) La compra de alimentos
+C) Los pagos de nómina
+D) Solo las operaciones con acciones
+
+**Pregunta 4.** El impuesto sobre la nómina está ligado específicamente a:
+
+A) La propiedad de bienes
+B) Los salarios del empleo
+C) Las compras al por menor
+D) Las herencias
+
+**Pregunta 5.** ¿Qué afirmación sobre la combinación de impuestos de los países es la más exacta?
+
+A) Todos los países usan combinaciones de impuestos idénticas
+B) Hay una combinación universalmente correcta
+C) Los países combinan estos tipos de impuestos de formas distintas como decisión de política
+D) Solo existe el impuesto sobre la renta en el mundo
+
+## Clave de respuestas
+
+1. B, 2. B, 3. A, 4. B, 5. C
+
+## Respuestas y explicaciones
+
+**1.** El impuesto sobre la renta se activa al ganar dinero, de cualquier fuente: salarios, ganancias de un negocio o rendimientos de inversiones.
+
+**2.** El impuesto sobre las ventas se cobra en el momento de una transacción y se añade al precio de compra.
+
+**3.** El impuesto sobre la propiedad está ligado con mayor frecuencia a los bienes inmuebles, aunque en algunos lugares también se gravan otros bienes que se poseen.
+
+**4.** El impuesto sobre la nómina está ligado específicamente al ingreso del empleo y a menudo financia programas como los sistemas de jubilación o de salud.
+
+**5.** No hay una única combinación correcta de impuestos: los distintos gobiernos equilibran estas categorías de forma distinta según sus prioridades de política.
+
+## Puntos clave
+
+- Las cuatro categorías principales de impuestos que encuentra la mayoría de las personas son el impuesto sobre la renta, sobre las ventas o el consumo, sobre la propiedad y sobre la nómina.
+- Cada categoría hace una pregunta distinta: qué se gana, qué se gasta, qué se posee o si se tiene empleo.
+- Un solo producto o una sola transacción puede activar más de un tipo de impuesto en momentos distintos.
+- Los países combinan estas categorías de formas distintas: no hay una proporción universalmente correcta.
+- Reconocer a qué categoría pertenece un impuesto es el primer paso para entender cómo funciona.
+
+===== GREEN-L1-004
+TITLE: El impuesto sobre la renta: gravar lo que usted gana
+SUMMARY: Una mirada más de cerca al impuesto sobre la renta: cómo se aplica a los salarios, a las ganancias de un negocio y al ingreso de las inversiones.
+# El impuesto sobre la renta: gravar lo que usted gana
+
+## Objetivos de aprendizaje
+- Definir el impuesto sobre la renta e identificar qué cuenta como ingreso tributable.
+- Explicar que el impuesto sobre la renta, en general, se aplica tanto si el ingreso viene de un empleo como de un negocio o de inversiones.
+- Reconocer que el «ingreso» es más amplio que solo un pago de nómina.
+
+## Contenido principal
+
+El impuesto sobre la renta es un impuesto sobre el dinero que usted gana. La palabra «ingreso» es más amplia de lo que la mayoría de las personas supone: normalmente incluye los salarios de un empleo, la ganancia de un negocio que usted opera y los rendimientos de inversiones como los intereses o los dividendos. Los distintos países definen de forma distinta qué cuenta exactamente como ingreso tributable, pero el principio general se mantiene en todas partes: si entró dinero y aumentó lo que usted tiene, es candidato al impuesto sobre la renta.
+
+La mayoría de los sistemas de impuesto sobre la renta no gravan cada euro con la misma tasa. En cambio, usan tramos, deducciones y créditos para ajustar cuánto se debe realmente, conceptos que se tratan en detalle en lecciones posteriores. Por ahora, la idea clave es más sencilla: el impuesto sobre la renta se activa al ganar, en cualquiera de sus formas, y no solo por tener un empleo tradicional.
+
+## Ejemplo práctico
+
+**Pregunta:** La abuela de Ntege vende vestidos y además gana una pequeña cantidad de intereses sobre sus ahorros. ¿Se aplica el impuesto sobre la renta a las dos cosas?
+
+**Estudiante:** Las ventas de vestidos son claramente ganancias de su negocio.
+
+**Guía:** ¿Y los intereses?
+
+**Estudiante:** Eso también es dinero que entra, solo que viene de los ahorros en vez del trabajo.
+
+**Guía:** Correcto: los sistemas de impuesto sobre la renta, en general, miran todas las formas en que el dinero aumenta lo que usted tiene, no solo los salarios de un empleo.
+
+## Cuestionario práctico
+
+**Pregunta 1.** El impuesto sobre la renta se aplica a:
+
+A) Solo los salarios de un empleo
+B) Los salarios, la ganancia de un negocio y el ingreso de las inversiones
+C) Solo los rendimientos de las inversiones
+D) Solo las grandes corporaciones
+
+**Pregunta 2.** Verdadero o falso: en la mayoría de los sistemas, todo el ingreso se grava exactamente con la misma tasa.
+
+A) Verdadero
+B) Falso
+
+**Pregunta 3.** Los intereses ganados en una cuenta de ahorros, en general:
+
+A) Nunca son tributables
+B) Son una forma de ingreso que puede ser tributable
+C) Son lo mismo que un regalo
+D) Están exentos en todos los países
+
+**Pregunta 4.** El principio amplio detrás del impuesto sobre la renta es:
+
+A) Solo cuentan los pagos de nómina
+B) El dinero que aumenta lo que usted tiene es candidato a tributar
+C) Solo cuenta el efectivo, no otras formas de pago
+D) Los dueños de negocios están exentos
+
+## Clave de respuestas
+
+1. B, 2. B, 3. B, 4. B
+
+## Respuestas y explicaciones
+
+**1.** El impuesto sobre la renta es amplio por diseño: abarca los salarios, la ganancia de un negocio y los rendimientos de las inversiones, no solo el empleo tradicional.
+
+**2.** La mayoría de los sistemas usan tramos, deducciones y créditos en vez de una sola tasa fija, algo que desglosan las lecciones posteriores.
+
+**3.** Los intereses son una forma de ingreso de las inversiones y comúnmente se tratan como tributables, según las reglas específicas de cada país.
+
+**4.** La prueba que lo unifica todo es si entró dinero y aumentó lo que usted tiene: la fuente importa menos que ese hecho básico.
+
+## Puntos clave
+
+- El impuesto sobre la renta se aplica a los salarios, a la ganancia de un negocio y al ingreso de las inversiones, no solo a los pagos de nómina.
+- Los distintos países definen de forma distinta el ingreso tributable, pero el principio de fondo es amplio.
+- La mayoría de los sistemas no gravan cada euro con la misma tasa fija.
+- Reconocer todas sus fuentes de ingreso es el punto de partida para entender su situación tributaria.
+
+===== GREEN-L1-005
+TITLE: El impuesto sobre las ventas: gravar lo que usted compra
+SUMMARY: Cómo funcionan los impuestos al consumo, quién los cobra y por qué el comprador normalmente los ve añadidos en la caja.
+# El impuesto sobre las ventas: gravar lo que usted compra
+
+## Objetivos de aprendizaje
+- Explicar cómo se cobra normalmente el impuesto sobre las ventas.
+- Identificar la diferencia entre que el vendedor cobre el impuesto y que el vendedor deba el impuesto.
+- Reconocer que las tasas del impuesto sobre las ventas varían según el lugar.
+
+## Contenido principal
+
+El impuesto sobre las ventas se añade al precio de los bienes o servicios en el momento de la compra. En la mayoría de los sistemas, el vendedor es responsable de cobrarle el impuesto al comprador y luego enviarlo al gobierno: el vendedor actúa como recaudador, no como quien carga en última instancia con el coste. El comprador es normalmente quien realmente paga el impuesto, aunque el negocio se encargue del papeleo.
+
+Las tasas y las reglas varían enormemente según el lugar, a veces incluso entre pueblos vecinos de un mismo país. Algunas categorías de bienes, como los alimentos o las medicinas, a menudo se gravan con una tasa más baja o están exentas por completo, según la política local. Por eso al impuesto sobre las ventas a veces se le llama impuesto al consumo: está ligado al acto de gastar, no al ingreso ni a la propiedad.
+
+## Ejemplo práctico
+
+**Pregunta:** El dueño de una tienda cobra el impuesto sobre las ventas a sus clientes durante todo el mes. ¿De quién es ese dinero y qué debería hacer el dueño con él?
+
+**Estudiante:** Parece dinero de la tienda, porque entró por su caja registradora.
+
+**Guía:** Pero ¿quién lo pagó realmente?
+
+**Estudiante:** Los clientes: la tienda solo lo añadió al precio y lo cobró.
+
+**Guía:** Correcto, y por eso ese dinero no es realmente un ingreso de la tienda: es el pago de impuestos del cliente, que pasa por la tienda de camino al gobierno.
+
+## Cuestionario práctico
+
+**Pregunta 1.** En general, el impuesto sobre las ventas lo cobra:
+
+A) El gobierno directamente a los compradores
+B) El vendedor, que luego lo remite al gobierno
+C) Nadie: es opcional
+D) Solo las tiendas online
+
+**Pregunta 2.** ¿Quién carga normalmente con el coste real del impuesto sobre las ventas?
+
+A) El vendedor
+B) El comprador
+C) El gobierno
+D) Nadie
+
+**Pregunta 3.** Las tasas del impuesto sobre las ventas:
+
+A) Son idénticas en todas partes
+B) Pueden variar mucho según el lugar
+C) Nunca se aplican a los servicios
+D) Solo existen en un país
+
+**Pregunta 4.** Los alimentos y las medicinas a veces:
+
+A) Se gravan con una tasa más alta que los bienes de lujo
+B) Se gravan con una tasa más baja o están exentos
+C) Son ilegales de vender
+D) Nunca están sujetos a ninguna regla tributaria
+
+## Clave de respuestas
+
+1. B, 2. B, 3. B, 4. B
+
+## Respuestas y explicaciones
+
+**1.** El vendedor normalmente actúa como intermediario: cobra el impuesto y lo pasa en vez de quedárselo como ingreso.
+
+**2.** Aunque el negocio maneje la transacción, es el pago del comprador el que incluye el impuesto.
+
+**3.** En muchos sistemas, las tasas del impuesto sobre las ventas se fijan a nivel local o regional y pueden variar de una calle a otra o de un estado a otro.
+
+**4.** Muchos gobiernos eximen o reducen el impuesto sobre los artículos de primera necesidad como una decisión de política.
+
+## Puntos clave
+
+- El vendedor cobra el impuesto sobre las ventas en la compra y lo pasa al gobierno.
+- El comprador, y no el vendedor, carga en última instancia con el coste del impuesto.
+- Las tasas varían mucho según el lugar, a veces incluso a nivel local.
+- Los artículos de primera necesidad a menudo se gravan de forma distinta que otros bienes, como decisión de política.

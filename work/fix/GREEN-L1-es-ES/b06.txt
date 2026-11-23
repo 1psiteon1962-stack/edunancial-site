@@ -1,0 +1,315 @@
+===== GREEN-L1-026
+TITLE: Lo básico de la deducción por oficina en el hogar
+SUMMARY: Presenta el concepto de deducir una parte de los gastos del hogar por el uso de una parte de la vivienda para el negocio, con énfasis en la lógica central de la elegibilidad.
+# Lo básico de la deducción por oficina en el hogar
+
+## Objetivos de aprendizaje
+- Explicar la lógica general detrás de una deducción por oficina en el hogar.
+- Identificar el principio de elegibilidad común (uso regular y exclusivo).
+- Reconocer por qué esta deducción requiere una documentación cuidadosa.
+
+## Contenido principal
+
+Cuando una parte de una vivienda se usa de forma regular y exclusiva para el negocio, muchos sistemas permiten deducir una parte de los costes relacionados con la vivienda (como el alquiler, los servicios públicos o una parte de los intereses de una hipoteca), en proporción a cuánto de la vivienda se usa para el negocio. La idea central de elegibilidad en la mayoría de los sistemas es el «uso regular y exclusivo»: el espacio tiene que usarse de forma constante para el negocio y, en general, solo para el negocio, no como un cuarto de huéspedes que de vez en cuando también sirve de oficina.
+
+Esta deducción es valiosa, pero históricamente ha sido un área de revisión más estricta en algunos sistemas tributarios, precisamente porque la línea entre el uso personal y el uso del negocio de una vivienda puede volverse borrosa. Eso la convierte en un buen ejemplo real de por qué importa la lección anterior sobre llevar registros: una documentación clara del uso exclusivo del espacio para el negocio, y de cómo se calculó la proporción deducible, es lo que permite defender esta deducción.
+
+## Ejemplo práctico
+
+**Pregunta:** Un trabajador independiente trabaja en un cuarto libre que también se usa para huéspedes dos veces al año. ¿Ese cuarto cumple claramente el estándar de «uso regular y exclusivo»?
+
+**Estudiante:** Parece un caso dudoso, porque no se usa solo para el negocio.
+
+**Guía:** ¿Qué haría el caso más claro, en un sentido o en otro?
+
+**Estudiante:** Si el cuarto se usara solo para trabajar, con un escritorio dedicado y sin ningún otro uso, calificaría claramente. El uso ocasional para huéspedes lo complica.
+
+**Guía:** Correcto: este es exactamente el tipo de zona gris en el que más importan la documentación y una configuración clara y constante.
+
+## Cuestionario práctico
+
+**Pregunta 1.** En general, la deducción por oficina en el hogar se aplica cuando un espacio:
+
+A) Se usa de vez en cuando para cualquier cosa
+B) Se usa de forma regular y exclusiva para el negocio
+C) Se usa solo los fines de semana
+D) Es propio, no alquilado
+
+**Pregunta 2.** Según esta regla, ¿qué se puede deducir normalmente, en proporción?
+
+A) Todos los gastos de la vivienda, sin importar el uso para el negocio
+B) Una parte de costes como el alquiler, los servicios públicos o los intereses hipotecarios, según la proporción de uso para el negocio
+C) Nada relacionado con la vivienda
+D) Solo la compra de muebles
+
+**Pregunta 3.** ¿Por qué esta deducción históricamente ha recibido una revisión más estricta en algunos sistemas?
+
+A) Casi no se usa
+B) La línea entre el uso personal y el uso del negocio puede ser borrosa
+C) En realidad no existe
+D) Solo se aplica a las grandes corporaciones
+
+**Pregunta 4.** ¿Qué lección anterior es especialmente relevante para defender esta deducción?
+
+A) Los bienes públicos
+B) Llevar registros
+C) El impuesto sobre las ventas
+D) El estado civil para la declaración
+
+## Clave de respuestas
+
+1. B, 2. B, 3. B, 4. B
+
+## Respuestas y explicaciones
+
+**1.** El «uso regular y exclusivo» es el principio de elegibilidad común en muchos sistemas que ofrecen esta deducción.
+
+**2.** En general, la deducción es proporcional: está ligada a cuánto de la vivienda se usa realmente para el negocio.
+
+**3.** Como el uso personal y el del negocio pueden superponerse en una vivienda, esta área a menudo recibe una revisión más detallada.
+
+**4.** Una documentación sólida es exactamente lo que permite defender una deducción por oficina en el hogar si alguna vez se cuestiona.
+
+## Puntos clave
+
+- En general, las deducciones por oficina en el hogar requieren un uso regular y exclusivo del espacio para el negocio.
+- La deducción es proporcional a cuánto de la vivienda se usa para el negocio.
+- Esta área a menudo recibe una revisión más estricta porque el uso personal y el del negocio pueden mezclarse.
+- Una documentación cuidadosa es esencial para defender esta deducción.
+
+===== GREEN-L1-027
+TITLE: La depreciación: repartir un coste a lo largo del tiempo
+SUMMARY: Presenta la depreciación como el concepto de repartir el coste de un activo de negocio duradero a lo largo de varios años, en vez de deducirlo todo de una vez.
+# La depreciación: repartir un coste a lo largo del tiempo
+
+## Objetivos de aprendizaje
+- Definir la depreciación en términos sencillos.
+- Explicar por qué existe la depreciación como concepto.
+- Distinguir los activos que probablemente se deprecian de los que normalmente se registran como gasto de inmediato.
+
+## Contenido principal
+
+Cuando un negocio compra algo que se va a usar durante años (un vehículo, maquinaria, un edificio), normalmente no tiene sentido deducir todo el coste en el año de la compra. En cambio, muchos sistemas tributarios exigen o permiten que ese coste se reparta, o se deprecie, a lo largo de la vida útil del activo, de modo que la deducción corresponda a los años en que el activo realmente ayuda a generar ingresos.
+
+La lógica refleja el sentido contable básico: si un equipo se va a usar durante diez años, tratar todo su coste como un gasto de un solo año subestimaría la ganancia del primer año y la sobrestimaría en todos los años siguientes. La depreciación suaviza eso. En cambio, los gastos de negocio consumibles de todos los días (los artículos de oficina, por ejemplo) normalmente se registran por completo como gasto de inmediato, ya que no aportan valor a lo largo de varios años como sí lo hace un equipo duradero.
+
+## Ejemplo práctico
+
+**Pregunta:** Una panadería compra un horno comercial que se espera que dure diez años. ¿Se debería deducir todo el coste de inmediato o repartirlo?
+
+**Estudiante:** Según esta lección, parece que debería repartirse, porque el horno se usará durante muchos años.
+
+**Guía:** ¿Por qué repartirlo da una imagen más exacta que deducirlo todo de una vez?
+
+**Estudiante:** Porque el horno ayuda a generar ingresos durante los diez años, no solo el año en que se compró, así que hacer corresponder el coste con esos años es más exacto.
+
+**Guía:** Exactamente: esa es la lógica central de la depreciación.
+
+## Cuestionario práctico
+
+**Pregunta 1.** La mejor descripción de la depreciación es:
+
+A) Deducir de inmediato todo el coste de un activo
+B) Repartir el coste de un activo a lo largo de su vida útil
+C) Ignorar por completo el coste de los activos del negocio
+D) Un tipo de impuesto sobre las ventas
+
+**Pregunta 2.** La depreciación suele aplicarse a:
+
+A) Activos duraderos como equipos, vehículos o edificios
+B) Los artículos de oficina de todos los días
+C) Los pagos del impuesto sobre las ventas
+D) La retención de la nómina
+
+**Pregunta 3.** ¿Por qué no deducir en el primer año todo el coste de un activo de diez años?
+
+A) Es ilegal comprar equipo
+B) Distorsionaría la ganancia a lo largo de los años en que el activo realmente ayuda a generar ingresos
+C) No hay ninguna razón, es arbitrario
+D) La depreciación no se aplica a los negocios
+
+**Pregunta 4.** Los artículos consumibles de todos los días normalmente:
+
+A) Se deprecian durante diez años
+B) Se registran por completo como gasto de inmediato
+C) Nunca son deducibles
+D) Se tratan igual que los bienes inmuebles
+
+## Clave de respuestas
+
+1. B, 2. A, 3. B, 4. B
+
+## Respuestas y explicaciones
+
+**1.** La depreciación hace corresponder el coste de un activo con los años en que realmente aporta valor, en vez de amontonarlo en un solo año.
+
+**2.** Los activos duraderos son los candidatos típicos a la depreciación, a diferencia de los consumibles de corta duración.
+
+**3.** Repartir el coste evita distorsionar la imagen de la ganancia del año de la compra frente a los años posteriores.
+
+**4.** Los artículos se gastan rápido, así que registrarlos como gasto de inmediato corresponde mejor a su valor a corto plazo.
+
+## Puntos clave
+
+- La depreciación reparte el coste de un activo a lo largo de su vida útil en vez de deducirlo todo de una vez.
+- Se aplica a activos duraderos como equipos, vehículos y edificios.
+- Esto da una imagen más exacta, año por año, de la ganancia del negocio.
+- Los gastos consumibles de todos los días, en cambio, normalmente se deducen de inmediato.
+
+===== GREEN-L1-028
+TITLE: El cobro del impuesto sobre las ventas en los pequeños negocios
+SUMMARY: Explica la responsabilidad práctica que asume un pequeño negocio cuando se convierte en recaudador del impuesto sobre las ventas, a partir de la lección anterior sobre el impuesto sobre las ventas desde el punto de vista del consumidor.
+# El cobro del impuesto sobre las ventas en los pequeños negocios
+
+## Objetivos de aprendizaje
+- Explicar el papel del negocio como recaudador del impuesto sobre las ventas.
+- Describir por qué el impuesto sobre las ventas cobrado no es un ingreso del negocio.
+- Reconocer el riesgo de tratar el impuesto sobre las ventas cobrado como un ingreso que se puede gastar.
+
+## Contenido principal
+
+Antes, esta ruta trató el impuesto sobre las ventas desde el punto de vista del comprador. Ahora considérelo desde el lado del negocio: cuando un negocio cobra el impuesto sobre las ventas a sus clientes, está guardando temporalmente un dinero que le pertenece al gobierno, no un dinero que ganó. Esa distinción importa muchísimo para la forma en que un negocio debería manejar su efectivo.
+
+Un error común y grave de los dueños de pequeños negocios nuevos es tratar todo el efectivo que entra (incluida la parte del impuesto sobre las ventas) como disponible para gastar, y luego descubrir, al momento de presentar la declaración o de remitir el impuesto, que el dinero del impuesto sobre las ventas ya se gastó en otras cosas. Como el negocio está obligado por ley a remitir ese impuesto sin importar su propia situación de efectivo, los negocios disciplinados normalmente separan de inmediato el impuesto sobre las ventas cobrado, a veces en una cuenta dedicada, en vez de mezclarlo con los fondos operativos generales.
+
+## Ejemplo práctico
+
+**Pregunta:** El dueño de una tienda nueva deposita todas las ventas diarias, incluido el impuesto sobre las ventas cobrado, en una sola cuenta general y gasta libremente de ella. ¿Qué riesgo crea esto?
+
+**Estudiante:** Según esta lección, podría gastarse sin querer el dinero del impuesto sobre las ventas que en realidad le pertenece al gobierno.
+
+**Guía:** ¿Cómo sería un enfoque más disciplinado?
+
+**Estudiante:** Separar de inmediato el impuesto sobre las ventas cobrado en su propia cuenta, para que nunca se confunda con un ingreso del negocio que se puede gastar.
+
+**Guía:** Exactamente: tratarlo desde el primer día como un dinero que ya está comprometido evita la trampa.
+
+## Cuestionario práctico
+
+**Pregunta 1.** Cuando un negocio cobra el impuesto sobre las ventas, ese dinero es:
+
+A) Un ingreso propio que ganó el negocio
+B) Dinero que guarda temporalmente en nombre del gobierno
+C) Un regalo de los clientes
+D) Automáticamente libre de impuestos
+
+**Pregunta 2.** Un error común de los pequeños negocios nuevos es:
+
+A) Separar de inmediato el impuesto sobre las ventas
+B) Gastar el impuesto sobre las ventas cobrado como si fuera un ingreso operativo general
+C) Cobrar muy poco impuesto sobre las ventas
+D) No cobrar nunca el impuesto sobre las ventas
+
+**Pregunta 3.** ¿Por qué este error es grave?
+
+A) No es grave
+B) El negocio sigue obligado por ley a remitir el impuesto, se haya gastado ya o no
+C) El impuesto sobre las ventas es opcional
+D) Los responsables son los clientes
+
+**Pregunta 4.** Una práctica disciplinada para evitar este error es:
+
+A) Ignorar el impuesto sobre las ventas hasta el final del año
+B) Separar de inmediato el impuesto sobre las ventas cobrado, a veces en una cuenta dedicada
+C) Gastarlo primero y preocuparse después
+D) Negarse a cobrar el impuesto sobre las ventas
+
+## Clave de respuestas
+
+1. B, 2. B, 3. B, 4. B
+
+## Respuestas y explicaciones
+
+**1.** El negocio es un recaudador en nombre del gobierno, no el dueño final de ese dinero.
+
+**2.** Mezclar el impuesto cobrado con los ingresos generales es uno de los errores de manejo del efectivo más comunes de los dueños de negocios nuevos.
+
+**3.** La obligación de remitir no desaparece solo porque el efectivo se gastó en otra cosa.
+
+**4.** Separarlo de inmediato es una disciplina sencilla y eficaz que evita exactamente este problema.
+
+## Puntos clave
+
+- El impuesto sobre las ventas cobrado le pertenece al gobierno, no al negocio.
+- Tratarlo como un ingreso que se puede gastar es un error común y riesgoso.
+- El negocio sigue obligado a remitirlo sin importar su propia situación de efectivo.
+- Separar de inmediato el impuesto sobre las ventas cobrado es una buena práctica disciplinada.
+
+===== GREEN-L1-029
+TITLE: Los impuestos sobre la nómina para los empleadores
+SUMMARY: Amplía la lección anterior sobre el impuesto sobre la nómina a las responsabilidades operativas del empleador: retener, aportar la parte equivalente y remitir.
+# Los impuestos sobre la nómina para los empleadores
+
+## Objetivos de aprendizaje
+- Describir el papel del empleador en la administración del impuesto sobre la nómina.
+- Explicar el concepto del «aporte equivalente» del empleador.
+- Reconocer el cumplimiento del impuesto sobre la nómina como una responsabilidad operativa continua, no como una tarea de una sola vez.
+
+## Contenido principal
+
+Cuando un negocio tiene empleados, asume responsabilidades operativas reales en torno al impuesto sobre la nómina: retener la parte del empleado de cada pago de nómina, a menudo aportar una parte equivalente con pagos del lado del empleador y remitirlo todo al gobierno según un calendario fijado por ley, no cuando le convenga al negocio.
+
+Es una responsabilidad recurrente y continua, no un evento de una vez al año como presentar una declaración individual. No cumplir una fecha límite para remitir el impuesto sobre la nómina se trata con seriedad en muchos sistemas, en parte porque el gobierno considera que los fondos retenidos a los empleados se guardan en fideicomiso para el empleado y para la autoridad tributaria; es decir, no se trata igual que si un negocio simplemente se atrasara en pagar la factura de un proveedor común. Los dueños de pequeños negocios que contratan a su primer empleado deberían tratar el cumplimiento del impuesto sobre la nómina como una responsabilidad operativa central y no negociable desde el primer día, no como algo secundario.
+
+## Ejemplo práctico
+
+**Pregunta:** Una dueña de negocio nueva contrata a su primer empleado y más tarde dice: «Me ocuparé de los impuestos sobre la nómina cuando el flujo de efectivo lo permita». ¿Qué tiene de riesgoso ese plan?
+
+**Estudiante:** Según esta lección, el impuesto sobre la nómina no es opcional ni flexible como la factura de un proveedor común: tiene un calendario que exige la ley.
+
+**Guía:** ¿Por qué no cumplir ese calendario podría tratarse con más seriedad que atrasarse, por ejemplo, con una factura de artículos de oficina?
+
+**Estudiante:** Porque parte de ese dinero se le retuvo al empleado de su propio pago y, en esencia, se guarda en fideicomiso: no es del todo dinero del negocio como para retrasar su pago.
+
+**Guía:** Exactamente: por eso el cumplimiento del impuesto sobre la nómina tiene que tratarse como algo no negociable desde el primer día.
+
+## Cuestionario práctico
+
+**Pregunta 1.** Cuando un negocio tiene empleados, normalmente tiene que:
+
+A) Ignorar por completo el impuesto sobre la nómina
+B) Retener, a menudo aportar la parte equivalente y remitir el impuesto sobre la nómina según un calendario fijo
+C) Pagar el impuesto sobre la nómina solo una vez al año
+D) Dejar que los empleados se encarguen ellos mismos
+
+**Pregunta 2.** El «aporte equivalente» del empleador se refiere a:
+
+A) Que los empleados escojan su propia tasa impositiva
+B) Que el empleador pague una parte adicional además de lo que se retiene del salario
+C) Un descuento en el impuesto sobre las ventas
+D) Un tipo de crédito tributario
+
+**Pregunta 3.** ¿Por qué remitir tarde el impuesto sobre la nómina a menudo se trata con más seriedad que atrasarse con la factura de un proveedor común?
+
+A) No se trata con seriedad
+B) Los fondos retenidos a los empleados se consideran guardados en fideicomiso, no simple efectivo del negocio
+C) A los proveedores siempre se les paga antes que la nómina
+D) No hay ninguna diferencia legal
+
+**Pregunta 4.** El cumplimiento del impuesto sobre la nómina debería tratarse como:
+
+A) Algo secundario y ocasional
+B) Una responsabilidad operativa central y continua desde el primer día
+C) Algo opcional para los pequeños negocios
+D) Algo relevante solo para las grandes corporaciones
+
+## Clave de respuestas
+
+1. B, 2. B, 3. B, 4. B
+
+## Respuestas y explicaciones
+
+**1.** Los empleadores asumen las responsabilidades de retener, a menudo aportar la parte equivalente y remitir desde el momento en que tienen empleados.
+
+**2.** El aporte equivalente es un pago adicional del lado del empleador que se suma a la parte retenida al propio empleado.
+
+**3.** Como los fondos retenidos se consideran guardados para el empleado y para la autoridad tributaria, el atraso tiene consecuencias más graves en muchos sistemas.
+
+**4.** Esta responsabilidad empieza en el momento en que un negocio contrata a su primer empleado, no después de que esté «establecido».
+
+## Puntos clave
+
+- Los empleadores retienen, a menudo aportan la parte equivalente y remiten el impuesto sobre la nómina según un calendario fijado por ley.
+- El aporte equivalente del empleador es un coste adicional que se suma a la retención del empleado.
+- Remitir tarde el impuesto sobre la nómina a menudo se trata con más seriedad que una factura común atrasada.
+- El cumplimiento del impuesto sobre la nómina es una responsabilidad operativa central desde el momento de la contratación.

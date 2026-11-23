@@ -1,0 +1,317 @@
+===== GREEN-L1-014
+TITLE: Formulario W-2 frente a Formulario 1099: ¿empleado o contratista?
+SUMMARY: Presenta los dos documentos de informe de ingresos más comunes en los sistemas que los usan y los relaciona directamente con la distinción entre empleado y trabajador por cuenta propia de rutas anteriores.
+# Formulario W-2 frente a Formulario 1099: ¿empleado o contratista?
+
+## Objetivos de aprendizaje
+- Explicar la diferencia general entre un documento de ingresos de tipo empleado y uno de tipo contratista.
+- Relacionar esta distinción con el concepto de trabajo por cuenta propia frente a propiedad de un negocio de rutas anteriores.
+- Reconocer por qué esta clasificación determina quién se encarga de la retención.
+
+## Contenido principal
+
+En algunos sistemas tributarios, sobre todo el de Estados Unidos, se usan formularios distintos para informar distintos tipos de ingreso: uno para los empleados (comúnmente el W-2), en el que el empleador retiene impuestos a lo largo del año, y otro para los contratistas independientes (comúnmente el 1099), en el que no se retienen impuestos y el trabajador es responsable de hacer sus propios pagos estimados. Otros países usan nombres distintos, pero la distinción de fondo, empleado frente a contratista independiente, aparece casi en todas partes. (En España, por ejemplo, la empresa practica retenciones a cuenta del IRPF sobre la nómina del trabajador, mientras que los trabajadores autónomos suelen hacer pagos fraccionados trimestrales del impuesto. Verifique las reglas vigentes en su jurisdicción.)
+
+Esto corresponde directamente al concepto de trabajo por cuenta propia visto antes en su currículo: a un empleado otra persona le retiene los impuestos de forma automática, mientras que un contratista independiente funciona más como un trabajador por cuenta propia y tiene que apartar y pagar por iniciativa propia sus impuestos. No entender en qué categoría está es uno de los errores tributarios más comunes y costesos: un contratista que gasta todo su pago sin apartar nada para los impuestos puede llevarse una sorpresa dolorosa al momento de presentar la declaración.
+
+## Ejemplo práctico
+
+**Pregunta:** Una joven diseñadora web trabaja para varios clientes distintos, fija su propio horario y usa su propio equipo. ¿Es más probable que sea empleada o contratista independiente?
+
+**Estudiante:** Como fija su propio horario y trabaja para varios clientes, parece más una contratista independiente.
+
+**Guía:** Si eso es así, ¿quién es responsable de apartar sus pagos de impuestos durante el año?
+
+**Estudiante:** Ella misma: como ningún empleador le retiene impuestos, tiene que hacerlo por su cuenta.
+
+**Guía:** Exactamente, y por eso los contratistas tienen que planificar de forma activa sus impuestos en vez de suponer que se manejan automáticamente.
+
+## Cuestionario práctico
+
+**Pregunta 1.** Un documento de ingresos de tipo empleado suele reflejar:
+
+A) Que no se retuvieron impuestos
+B) Impuestos retenidos por el empleador a lo largo del año
+C) Solo la ganancia de un negocio
+D) Solo ingresos de inversiones
+
+**Pregunta 2.** En general, un contratista independiente es responsable de:
+
+A) Nada: los impuestos son automáticos
+B) Apartar y pagar sus propios impuestos estimados
+C) Solo el impuesto sobre las ventas
+D) No presentar nunca ningún documento
+
+**Pregunta 3.** ¿Con qué concepto anterior se conecta más directamente esta distinción entre empleado y contratista?
+
+A) Los bienes públicos
+B) El trabajo por cuenta propia frente a la propiedad de un negocio
+C) Los tramos impositivos marginales
+D) El impuesto sobre la propiedad
+
+**Pregunta 4.** Un error costeso común de los contratistas nuevos es:
+
+A) Presentar la declaración demasiado pronto
+B) Gastar todo el ingreso sin apartar dinero para los impuestos
+C) Retener demasiado impuesto
+D) Tener demasiadas propiedades
+
+## Clave de respuestas
+
+1. B, 2. B, 3. B, 4. B
+
+## Respuestas y explicaciones
+
+**1.** El informe de tipo empleado, en general, viene con una retención automática que maneja el empleador.
+
+**2.** Sin un empleador que les retenga impuestos, los contratistas tienen que manejar por iniciativa propia sus pagos de impuestos.
+
+**3.** Esta es la expresión, en el sistema tributario, del concepto de trabajo por cuenta propia visto antes en el currículo.
+
+**4.** Gastar el 100 % del ingreso como contratista sin reservar una parte para los impuestos es uno de los errores iniciales más comunes.
+
+## Puntos clave
+
+- Al ingreso de tipo empleado, en general, se le retienen impuestos de forma automática; al ingreso de tipo contratista, en general, no.
+- Esta distinción refleja el concepto de trabajo por cuenta propia frente a empleo de lecciones anteriores.
+- Los contratistas tienen que apartar por iniciativa propia dinero para los impuestos a lo largo del año.
+- Clasificarse mal, o no planificar para la diferencia, es un error común y costeso.
+
+===== GREEN-L1-015
+TITLE: La diferencia entre una deducción y un crédito tributario
+SUMMARY: Aclara uno de los pares de términos que más se confunden en la alfabetización tributaria: las deducciones reducen el ingreso tributable y los créditos reducen directamente el impuesto adeudado.
+# La diferencia entre una deducción y un crédito tributario
+
+## Objetivos de aprendizaje
+- Definir una deducción tributaria.
+- Definir un crédito tributario.
+- Explicar por qué, euro por euro, un crédito en general vale más que una deducción.
+
+## Contenido principal
+
+Una deducción tributaria reduce la cantidad de ingreso que se grava. Un crédito tributario reduce directamente la factura de impuestos real, euro por euro. Suenan parecido, pero tienen un efecto bastante distinto.
+
+Supongamos que alguien está en un tramo marginal del 20 %. Una deducción de 1.000 € reduce su ingreso tributable en 1.000 €, lo que le ahorra aproximadamente 200 € de impuestos (el 20 % de 1.000 €). En cambio, un crédito de 1.000 € reduce su factura de impuestos en los 1.000 € completos, sin importar su tramo. Por eso, euro por euro, los créditos en general valen más que las deducciones: el valor de un crédito no depende de su tasa impositiva como sí depende el de una deducción.
+
+Ambas herramientas reducen lo que usted debe, solo que mediante mecanismos distintos: las deducciones reducen la base que se grava y los créditos reducen la factura final en sí.
+
+## Ejemplo práctico
+
+**Pregunta:** Un amigo dice: «Una deducción de 1.000 € y un crédito de 1.000 € son básicamente lo mismo». ¿Tiene razón?
+
+**Estudiante:** Creo que no: una reduce el ingreso tributable y el otro reduce directamente la factura de impuestos.
+
+**Guía:** ¿Cuál tiende a ahorrar más dinero y por qué?
+
+**Estudiante:** El crédito, porque quita los 1.000 € completos de lo que se debe, mientras que la deducción solo quita un porcentaje de 1.000 € según su tasa impositiva.
+
+**Guía:** Exactamente: la misma cantidad de euros, un mecanismo distinto y un efecto distinto.
+
+## Cuestionario práctico
+
+**Pregunta 1.** Una deducción tributaria reduce:
+
+A) El ingreso tributable
+B) La factura de impuestos directamente, euro por euro
+C) Nada
+D) Solo el impuesto sobre las ventas
+
+**Pregunta 2.** Un crédito tributario reduce:
+
+A) El ingreso tributable
+B) La factura de impuestos directamente, euro por euro
+C) Nada
+D) Solo el impuesto sobre la propiedad
+
+**Pregunta 3.** Euro por euro, ¿qué vale más en general?
+
+A) Una deducción
+B) Un crédito
+C) Siempre son idénticos
+D) Ninguno tiene valor
+
+**Pregunta 4.** Una deducción de 1.000 € para alguien en un tramo del 20 % le ahorra aproximadamente:
+
+A) 1.000 €
+B) 200 €
+C) 0 €
+D) 2.000 €
+
+## Clave de respuestas
+
+1. A, 2. B, 3. B, 4. B
+
+## Respuestas y explicaciones
+
+**1.** Las deducciones funcionan reduciendo la cantidad de ingreso sujeta a impuestos.
+
+**2.** Los créditos funcionan recortando directamente la factura final de impuestos, sin importar la tasa impositiva.
+
+**3.** Como el valor de un crédito no depende de su tramo, en general vale más por cada euro que una deducción.
+
+**4.** El 20 % de una deducción de 1.000 € equivale aproximadamente a 200 € de ahorro real de impuestos, frente a los 1.000 € completos de un crédito.
+
+## Puntos clave
+
+- Las deducciones reducen el ingreso tributable; los créditos reducen directamente la factura de impuestos.
+- El valor de un crédito no depende de su tramo impositivo; el de una deducción, sí.
+- Euro por euro, los créditos en general valen más que las deducciones.
+- Ambas herramientas reducen lo que usted debe, pero mediante mecanismos distintos.
+
+===== GREEN-L1-016
+TITLE: Deducción estándar frente a deducciones detalladas
+SUMMARY: Explica las dos formas comunes de reclamar deducciones: una cantidad estándar fija frente a detallar los gastos reales que califican.
+# Deducción estándar frente a deducciones detalladas
+
+## Objetivos de aprendizaje
+- Explicar qué es una deducción estándar.
+- Explicar qué significa detallar las deducciones.
+- Identificar la lógica básica para escoger entre las dos.
+
+## Contenido principal
+
+Muchos sistemas tributarios les dan a los contribuyentes una opción: tomar una deducción estándar (una cantidad fija a la que todos tienen derecho, sin necesidad de recibos) o detallar las deducciones, lo que significa enumerar y sumar uno por uno los gastos reales que califican (como ciertos pagos de intereses, donativos benéficos o gastos médicos, según las reglas del sistema).
+
+La lógica básica de la decisión es sencilla: si el total por menorlado sería mayor que la deducción estándar, detallar ahorra más dinero. Si no, tomar la deducción estándar es más sencillo e igual de eficaz desde el punto de vista financiero. Como la deducción estándar no requiere documentación, muchas personas la escogen por defecto, a menos que tengan una razón específica (como un donativo benéfico grande o gastos importantes que califican) para detallar en su lugar.
+
+## Ejemplo práctico
+
+**Pregunta:** Los gastos que alguien podría detallar en el año suman menos que la cantidad de la deducción estándar. ¿Debería detallar?
+
+**Estudiante:** Probablemente no, porque detallar requiere más esfuerzo sin ningún beneficio adicional.
+
+**Guía:** Correcto. ¿Cuál es la regla general para escoger?
+
+**Estudiante:** Comparar el total por menorlado con la deducción estándar y escoger la que sea mayor.
+
+**Guía:** Exactamente: es una comparación sencilla, no una cuestión de preferencia.
+
+## Cuestionario práctico
+
+**Pregunta 1.** Una deducción estándar es:
+
+A) Una cantidad fija que no requiere documentación detallada
+B) Algo disponible solo para los negocios
+C) Lo mismo que un crédito tributario
+D) Ilegal en la mayoría de los países
+
+**Pregunta 2.** Detallar significa:
+
+A) Tomar la cantidad estándar fija
+B) Enumerar y sumar los gastos reales que califican
+C) No pagar ningún impuesto
+D) Evitar todas las deducciones
+
+**Pregunta 3.** La regla básica para escoger entre las dos es:
+
+A) Detallar siempre
+B) Tomar siempre la deducción estándar
+C) Escoger la que produzca la deducción mayor
+D) Echarlo a la suerte
+
+**Pregunta 4.** ¿Por qué alguien podría no detallar aunque en teoría pudiera hacerlo?
+
+A) Es ilegal
+B) Su total por menorlado es menor que la deducción estándar, o el papeleo no vale la pena por la pequeña ganancia
+C) Las deducciones estándar no existen
+D) Detallar siempre es obligatorio
+
+## Clave de respuestas
+
+1. A, 2. B, 3. C, 4. B
+
+## Respuestas y explicaciones
+
+**1.** Una deducción estándar es una cantidad fija que no requiere documentación y que existe en muchos sistemas tributarios.
+
+**2.** Detallar significa sumar los gastos reales que califican en vez de tomar la cantidad fija.
+
+**3.** La decisión se reduce a una comparación sencilla: gana la cifra que sea mayor.
+
+**4.** Cuando el total por menorlado no supera la deducción estándar, el papeleo adicional no tiene ningún beneficio financiero.
+
+## Puntos clave
+
+- Una deducción estándar es una cantidad fija y sencilla que no requiere documentación.
+- Detallar significa, en cambio, sumar los gastos reales que califican.
+- Escoja la opción que produzca la deducción mayor.
+- La mayoría de las personas escoge por defecto la deducción estándar, a menos que tenga una razón clara para detallar.
+
+===== GREEN-L1-017
+TITLE: Créditos tributarios comunes para personas
+SUMMARY: Un repaso de las categorías generales de créditos tributarios que suelen encontrar las personas, a un nivel conceptual y sin atarse a los programas específicos de un solo país.
+# Créditos tributarios comunes para personas
+
+## Objetivos de aprendizaje
+- Identificar las categorías comunes de créditos tributarios para personas.
+- Explicar por qué los créditos a menudo apuntan a metas de política específicas.
+- Reconocer que la disponibilidad y las cantidades de los créditos varían mucho según el país y cambian con el tiempo.
+
+## Contenido principal
+
+Los gobiernos usan con frecuencia los créditos tributarios para fomentar comportamientos específicos o apoyar a grupos específicos, en vez de solo subir o bajar la recaudación de forma pareja. Entre las categorías comunes, en términos generales, están: los créditos relacionados con tener y criar hijos o dependientes, los créditos relacionados con los gastos de educación, los créditos relacionados con las mejoras de eficiencia energética en el hogar y los créditos dirigidos a las personas o familias trabajadoras de ingresos más bajos.
+
+Los nombres, las cantidades y las reglas de elegibilidad específicas de estos créditos varían enormemente según el país y cambian con frecuencia a medida que cambian las prioridades de política. La lección duradera no es ningún crédito específico, sino el patrón: cuando un gobierno quiere fomentar un comportamiento (como la educación, las mejoras en la vivienda o el trabajo en vez de la dependencia de la asistencia social) sin prohibir la alternativa, un crédito tributario es una herramienta de política común. Reconocer este patrón le ayuda a entender los nuevos créditos que encuentre más adelante, incluso los que todavía no existen.
+
+## Ejemplo práctico
+
+**Pregunta:** Un gobierno quiere que más dueños de vivienda instalen placas solares sin hacerlo obligatorio. ¿Qué herramienta podría usar?
+
+**Estudiante:** Según el patrón de esta lección, probablemente un crédito tributario ligado a la instalación de placas solares.
+
+**Guía:** ¿Por qué un crédito en vez de, por ejemplo, un cheque de subsidio o una obligación?
+
+**Estudiante:** Un crédito funciona dentro del sistema tributario existente, reduce la factura euro por euro y fomenta el comportamiento sin imponerlo.
+
+**Guía:** Exactamente: esa es la lógica general detrás de la mayoría de los créditos basados en incentivos.
+
+## Cuestionario práctico
+
+**Pregunta 1.** Los gobiernos suelen usar los créditos tributarios para:
+
+A) Redistribuir la riqueza al azar, sin ningún propósito
+B) Fomentar comportamientos específicos o apoyar a grupos específicos
+C) Eliminar todas las formas de impuestos
+D) Beneficiar solo a las grandes corporaciones
+
+**Pregunta 2.** Entre las categorías comunes de créditos que menciona esta lección están:
+
+A) Los dependientes, la educación, la eficiencia energética y el apoyo al trabajo de ingresos más bajos
+B) Solo los bienes de lujo
+C) Solo las inversiones extranjeras
+D) Solo las herencias
+
+**Pregunta 3.** ¿Los nombres y las cantidades específicas de los créditos se mantienen iguales entre países y a lo largo del tiempo?
+
+A) Sí, siempre
+B) No: varían mucho y cambian con frecuencia
+C) Solo en los países ricos
+D) Nunca existieron en la historia
+
+**Pregunta 4.** La lección duradera de este tema es:
+
+A) Memorizar todos los créditos
+B) Reconocer el patrón general de usar los créditos para incentivar comportamientos
+C) Los créditos no tienen importancia
+D) Solo los negocios reciben créditos
+
+## Clave de respuestas
+
+1. B, 2. A, 3. B, 4. B
+
+## Respuestas y explicaciones
+
+**1.** Los créditos son con frecuencia herramientas de política, no solo ajustes neutrales de la recaudación.
+
+**2.** Los dependientes, la educación, la eficiencia energética y el apoyo a los ingresos son categorías de créditos que se mencionan con frecuencia en muchos sistemas.
+
+**3.** Los programas de créditos están entre las partes de la ley tributaria que cambian con más frecuencia, así que los detalles específicos requieren revisar las reglas vigentes.
+
+**4.** Reconocer el patrón de incentivos le permite entender los nuevos créditos que encontrará en el futuro.
+
+## Puntos clave
+
+- Los créditos tributarios a menudo funcionan como incentivos para comportamientos específicos o como apoyo para grupos específicos.
+- Entre las categorías comunes están los dependientes, la educación, la eficiencia energética y el apoyo a los ingresos.
+- Los créditos específicos varían mucho según el país y cambian con frecuencia.
+- La destreza transferible es reconocer el patrón de incentivos, no memorizar ningún crédito en particular.
