@@ -1,0 +1,399 @@
+===== WHITE-L4-006
+TITLE: Analiz korelasyon: poukisa divèsifikasyon mande byen ki pa korele
+SUMMARY: Konprann poukisa yon vrè divèsifikasyon pòtfolyo depann de kenbe byen ki pa deplase ansanm, e poukisa korelasyon ka chanje pandan tansyon mache.
+KEYWORDS: korelasyon, divèsifikasyon, risk pòtfolyo, korelasyon byen, teyori pòtfolyo modèn
+# Analiz korelasyon: poukisa divèsifikasyon mande byen ki pa korele
+
+## Senaryo pou louvri leson an
+SIPOZISYON/OPINYON (senaryo ipotetik pou objektif ansèyman sèlman): Imajine yon enstitisyon finansye ki enpòtan pou tout sistèm nan toudenkou revele yon gwo pèt li pa t janm divilge anvan, sa ki leve laperèz sou risk kontrepati k ap gaye nan tout sistèm bankè a. Lè laperèz sou risk kontrepati gaye nan sistèm finansye a, anpil kategori byen diferan ki nòmalman deplase yon jan endepandan ka toudenkou kòmanse tonbe ansanm. Leson sa a esplike poukisa sa rive e kisa sa vle di pou divèsifikasyon.
+
+## Objektif aprantisaj
+- Defini korelasyon nan kontèks konstriksyon pòtfolyo.
+- Esplike poukisa kenbe anpil byen diferan pa garanti divèsifikasyon.
+- Esplike poukisa korelasyon ant byen ka monte anpil pandan peryòd tansyon mache.
+- Aplike panse korelasyon pou evalye si yon pòtfolyo vrèman divèsifye.
+
+## Kontni prensipal
+Korelasyon mezire jan rannman de byen deplase sere youn ak lòt, sou yon echèl ki soti -1 (mouvman konplètman opoze) rive +1 (mouvman konplètman idantik). FÈ VERIFYE: vrè benefis divèsifikasyon soti nan konbine byen ki gen yon korelasyon ki ba oswa negatif, paske lè yon byen bese, yon byen ki pa korele oswa ki korele negativman gen plis chans rete estab oswa monte, sa ki amòti pòtfolyo a an jeneral.
+
+Men "poukisa" tou senpleman posede anpil byen diferan pa garanti yon vrè divèsifikasyon, sa ki raple prensip konsantrasyon pòtfolyo imobilye nan chemen anvan yo: dis aksyon diferan nan dis konpayi diferan ka toujou trè korele youn ak lòt si yo pataje menm sous risk anba a — pa egzanp, fè pati menm mache aksyon an jeneral, menm sik ekonomik la, oswa menm sansiblite endistri a to enterè. Yon divèsifikasyon ki gen sans mande byen ki gen rannman diferan faktè vrèman pouse, tankou konbine aksyon ak obligasyon, oswa byen lokal ak byen entènasyonal, oswa aksyon ak byen reyèl tankou imobilye oswa matyè premyè.
+
+Se poutèt sa korelasyon pa chif fiks — yo ka chanje e yo chanje, e sa se yon risk kritik moun souvan pa apresye ase: pandan yon evènman tansyon finansye sistemik tankou sa senaryo pi wo a dekri a, byen ki nòmalman sèlman yon ti kras korele ka toudenkou deplase ansanm pandan laperèz pouse moun vann tout bagay san distenksyon nan tout kategori byen ("korelasyon yo monte rive nan en" se yon ekspresyon komen pou fenomèn sa a). Se poutèt sa divèsifikasyon, menm si li gen valè, se pa yon pwoteksyon pafè oswa pèmanan kont chak kalite bès mache, sitou panik sistemik grav.
+
+## Egzanp pratik
+EGZANP ILISTRATIF: Yon envestisè kenbe yon pòtfolyo ven aksyon gwo konpayi diferan nan plizyè endistri, e li kwè sa byen divèsifye. Pandan yon peryòd kondisyon mache nòmal, aksyon sa yo montre yon mouvman endepandan ki gen sans. Men pandan yon evènman tansyon finansye sistemik toudenkou, prèske tout ven aksyon yo tonbe ansanm sou menm kèk jou yo, paske vant panik la afekte tout mache a kòm yon sèl faktè risk korele, sa ki revele divèsifikasyon pòtfolyo a te pi limite pase sa kantite aksyon endividyèl li yo te sijere.
+
+## Egzamen pratik
+**Q1. Kisa korelasyon mezire nan kontèks yon pòtfolyo?**
+A) Total kantite byen yo kenbe nan yon pòtfolyo
+B) Jan rannman de byen deplase sere youn ak lòt
+C) Rannman absoli an dola yon byen
+D) Nòt kredi moun ki emèt yon obligasyon
+
+**Q2. Poukisa posede anpil aksyon diferan pa garanti yon vrè divèsifikasyon?**
+A) Posede plis aksyon toujou garanti yon divèsifikasyon pafè
+B) Aksyon yo ka pataje menm sous risk anba a, tankou ekspozisyon nan tout mache a oswa nan sik ekonomik la, sa ki fè yo trè korele malgre se konpayi diferan
+C) Divèsifikasyon mande sèlman posede omwen dis byen diferan
+D) Korelasyon pa gen okenn rapò ak divèsifikasyon
+
+**Q3. Ki konbinezon byen ki gen tandans bay yon benefis divèsifikasyon ki gen sans?**
+A) Dis aksyon diferan ki tout nan menm endistri a
+B) Byen ki gen rannman diferan faktè vrèman pouse, tankou aksyon konbine ak obligasyon oswa byen reyèl
+C) Nenpòt de byen kèlkeswa sa ki pouse rannman yo
+D) Lajan kach yo kenbe nan yon sèl lajan sèlman
+
+**Q4. Kisa ekspresyon "korelasyon yo monte rive nan en" dekri?**
+A) Yon eta korelasyon pèmanan ki pa janm chanje ant tout byen
+B) Tandans byen ki nòmalman yon ti kras korele pou deplase ansanm pandan yon panik sistemik, akoz moun ap vann tout bagay san distenksyon
+C) Yon sitiyasyon kote tout byen toujou fè rannman idantik
+D) Yon kalite obligasyon espesifik yo emèt pandan yon resesyon
+
+**Q5. Kisa k te rive pòtfolyo ven aksyon nan egzanp lan pandan evènman tansyon sistemik la?**
+A) Aksyon yo te kontinye deplase yon jan endepandan jan yo te konn fè anvan
+B) Prèske tout ven aksyon yo te tonbe ansanm, sa ki revele divèsifikasyon pòtfolyo a te pi limite pase sa kantite aksyon yo te sijere
+C) Evènman sistemik la pa t afekte pòtfolyo a ditou
+D) Se yon sèl aksyon nan pòtfolyo a sèlman ki te afekte
+
+## Kle repons yo
+Q1: B
+Q2: B
+Q3: B
+Q4: B
+Q5: B
+
+## Repons ak eksplikasyon
+**Q1.** Korelasyon mezire nan ki degre de byen gen tandans deplase ansanm oswa yon jan endepandan.
+
+**Q2.** Yon ekspozisyon pataje nan faktè risk komen ka kenbe byen ki sanble diferan trè korele, sa ki febli vrè divèsifikasyon.
+
+**Q3.** Benefis divèsifikasyon soti nan konbine byen ki ekspoze a diferan sous rannman anba, se pa sèlman nan kenbe yon pi gwo kantite byen.
+
+**Q4.** Pandan yon tansyon sistemik grav, vant laperèz pouse ka fè anpil byen tonbe ansanm, sa ki efase tanporèman yon gwo pati nan benefis divèsifikasyon nòmal yo.
+
+**Q5.** Bès jeneral e korele pandan panik la te montre kantite aksyon pou kont li pa t bay divèsifikasyon envestisè a te sipoze a.
+
+## Pwen kle yo
+- Korelasyon mezire jan rannman de byen deplase sere ansanm, soti -1 rive +1.
+- Yon vrè divèsifikasyon mande konbine byen ki gen sous rannman vrèman diferan, se pa sèlman yon gwo kantite byen.
+- Korelasyon ka monte anpil pandan tansyon mache sistemik, sa ki diminye benefis divèsifikasyon egzakteman lè ou pi bezwen l.
+- Divèsifikasyon gen valè men se pa yon pwoteksyon pafè kont chak kalite bès mache, sitou panik sistemik grav.
+
+===== WHITE-L4-007
+TITLE: Analiz beta: poukisa volatilite pa menm bagay ak risk
+SUMMARY: Konprann kisa beta mezire, poukisa li kaptire sèlman yon dimansyon risk, e poukisa konsidere volatilite egal ak risk total ka twonpe w.
+KEYWORDS: beta, volatilite, risk sistematik, mezi risk aksyon
+# Analiz beta: poukisa volatilite pa menm bagay ak risk
+
+## Senaryo pou louvri leson an
+SIPOZISYON/OPINYON (senaryo ipotetik pou objektif ansèyman sèlman): Imajine de gwo pisans ekonomik k ap ogmante kontwòl ekspòtasyon youn kont lòt sou yon kategori konpozan teknoloji avanse yo itilize nan anpil endistri. Pandan de gwo pisans komèsyal ap ogmante restriksyon youn kont lòt, kèk aksyon nan sektè teknoloji balanse fò anpil chak jou, alòske lòt konpayi ki sanble "raz" prèske pa deplase ditou. Leson sa a esplike kisa beta kaptire nan diferans sa a — ak kisa li kite deyò.
+
+## Objektif aprantisaj
+- Esplike kisa beta mezire.
+- Entèprete yon valè beta ki pi wo pase 1, pi ba pase 1, ak egal a 1.
+- Esplike poukisa beta kaptire sèlman risk sistematik (ki gen rapò ak mache a), se pa risk espesifik konpayi a.
+- Esplike poukisa yon volatilite ki ba pa toujou vle di yon risk total ki ba.
+
+## Kontni prensipal
+Beta mezire volatilite yon aksyon konpare ak tout mache a, kote mache a li menm gen yon beta 1. FÈ VERIFYE: yon aksyon ki gen yon beta 1.5 te deplase nan istwa, an mwayèn, 50% plis pase mache a nan nenpòt direksyon, alòske yon aksyon ki gen yon beta 0.6 te deplase apeprè 60% otan ke mache a.
+
+Men "poukisa" beta kaptire sèlman yon pati nan foto risk la: beta mezire risk sistematik — pati nan mouvman yon aksyon ki mare ak balansman tout mache a, tankou kalite volatilite nan tout yon sektè senaryo pi wo a dekri a. Li pa kaptire risk espesifik konpayi a (risk ki pa sistematik) — risk ke yon konpayi patikilye fè fas ak move nouvèl ki pa gen rapò ak mache a an jeneral, tankou yon eskandal kontablite, yon lansman pwodui ki echwe, oswa depa yon dirijan kle. Yon aksyon ka gen yon beta ki ba, li sanble kalm konpare ak mache a, alòske li toujou pote yon gwo risk espesifik konpayi beta tou senpleman pa mezire.
+
+Se poutèt sa konsidere yon volatilite ki ba (beta ki ba) egal ak yon risk total ki ba se yon fason panse sou risk ki komen men ki pa konplè. Yon konpayi ki gen beta ki ba ki fè fas ak yon vrè menas pou egzistans biznis li ki pa gen rapò ak mouvman mache a an jeneral ka toujou pèdi pi fò oswa tout valè li, yon risk beta pou kont li pa t ap janm siyale, paske risk espesifik konpayi fonksyone sou yon aks konplètman diferan de mouvman ansanm ak tout mache a ke beta fèt pou kaptire.
+
+## Egzanp pratik
+EGZANP ILISTRATIF: Yon aksyon gen yon beta 0.7, sa ki sijere yon sansiblite relativman ba a balansman tout mache a, e yon envestisè sipoze sa fè l yon aksyon "an sekirite". Apre sa, konpayi a divilge yon gwo iregilarite kontablite espesifik pou li ki pa gen rapò ak okenn kondisyon mache an jeneral, e aksyon an pèdi 40% nan valè li nan yon sèl jou — yon risk beta, ki mezire sèlman mouvman ansanm ak mache a, pa t bay okenn siy ditou.
+
+## Egzamen pratik
+**Q1. Kisa yon beta 1.5 montre sou yon aksyon?**
+A) Aksyon an te deplase apeprè 150% konpare ak tèt li san okenn konparezon ak mache a
+B) Aksyon an te deplase nan istwa, an mwayèn, 50% plis pase tout mache a nan nenpòt direksyon
+C) Aksyon an garanti pou l monte 1.5% chak ane
+D) Aksyon an gen yon rapò P/E 1.5
+
+**Q2. Ki kalite risk beta mezire espesyalman?**
+A) Risk espesifik konpayi ki pa gen rapò ak mache a an jeneral
+B) Risk sistematik — pati nan mouvman yon aksyon ki mare ak balansman tout mache a
+C) Risk lajan etranje sèlman
+D) Risk pa peye dèt
+
+**Q3. Poukisa yon aksyon ki gen beta ki ba ka toujou pote yon gwo risk?**
+A) Aksyon ki gen beta ki ba toujou konplètman san risk
+B) Beta pa kaptire risk espesifik konpayi, tankou eskandal oswa pwodui ki echwe, ki ka afekte yon aksyon anpil endepandan de mouvman mache a
+C) Beta mezire tout fòm risk yon fason pafè
+D) Yon beta ki ba garanti yon konpayi pa gen dèt
+
+**Q4. Kisa k te rive aksyon ki gen yon beta 0.7 nan egzanp lan?**
+A) Li te rete konplètman estab akoz beta ki ba li
+B) Li te pèdi 40% nan valè li nan yon sèl jou akoz yon pwoblèm espesifik konpayi ki pa gen rapò ak kondisyon mache an jeneral
+C) Beta ki ba li te pwoteje l kont nenpòt bès nan yon sèl jou
+D) Beta konpayi a te anpeche pwoblèm kontablite a rive
+
+**Q5. Poukisa yo konsidere konsidere yon volatilite ki ba egal ak yon risk total ki ba kòm yon fason panse sou risk ki pa konplè?**
+A) Volatilite ak risk toujou egzakteman menm bagay san okenn distenksyon
+B) Beta kaptire sèlman risk ki gen rapò ak mache a, sa ki kite risk espesifik konpayi ki ka menm jan domaje nèt san mezire
+C) Yon volatilite ki ba toujou elimine tout fòm risk
+D) Ou pa ka analize risk total ak okenn mezi kantitatif
+
+## Kle repons yo
+Q1: B
+Q2: B
+Q3: B
+Q4: B
+Q5: B
+
+## Repons ak eksplikasyon
+**Q1.** Yon beta ki pi wo pase 1 montre yon pi gwo sansiblite istorik a mouvman tout mache a pase mache a li menm.
+
+**Q2.** Beta izole konpozan sistematik volatilite yon aksyon ki gen rapò ak mache a, se pa risk ki espesifik pou konpayi endividyèl la.
+
+**Q3.** Yon aksyon ka estab nan istwa konpare ak mache a alòske li toujou fè fas ak risk espesifik konpayi ki gen sans beta pa konte.
+
+**Q4.** Beta ki ba a te reflete yon estabilite istorik ki gen rapò ak mache a men li pa t bay okenn pwoteksyon kont yon evènman risk espesifik konpayi.
+
+**Q5.** Paske beta inyore risk espesifik konpayi, konte sou li pou kont li ka kreye yon fo santiman sekirite sou ekspozisyon risk total yon aksyon.
+
+## Pwen kle yo
+- Beta mezire volatilite istorik yon aksyon konpare ak tout mache a, kote mache a li menm egal 1.
+- Beta kaptire sèlman risk sistematik ki gen rapò ak mache a, se pa risk espesifik konpayi ki soti nan evènman ki pa gen rapò ak mache a an jeneral.
+- Yon aksyon ki gen beta ki ba ka toujou pote yon gwo risk si li fè fas ak menas espesifik konpayi beta pa mezire.
+- Konsidere yon volatilite ki ba egal ak yon risk total ki ba neglije yon gwo dimansyon risk beta pa t fèt pou kaptire ditou.
+
+===== WHITE-L4-008
+TITLE: Analiz rapò Sharpe: poukisa rannman ajiste pou risk pi bon pase rannman brit
+SUMMARY: Konprann kijan rapò Sharpe mezire rannman yo fè pou chak inite risk yo pran, e poukisa konpare rannman brit sèlman ka twonpe w.
+KEYWORDS: rapò Sharpe, rannman ajiste pou risk, mezi pèfòmans pòtfolyo
+# Analiz rapò Sharpe: poukisa rannman ajiste pou risk pi bon pase rannman brit
+
+## Senaryo pou louvri leson an
+SIPOZISYON/OPINYON (senaryo ipotetik pou objektif ansèyman sèlman): Imajine mache imobilye ak kredi konsomatè yon peyi ki gen anpil moun, apre plizyè ane ekspansyon rapid, kòmanse montre siy yon gwo koreksyon pandan defo yo kòmanse monte. Pandan yon mache kredi te alimante ap defèt, kèk fon ki te afiche rannman spektakilè pandan ane boom yo vin parèt yo te pran byen plis risk pase lòt fon pou rive la. Leson sa a prezante zouti analis yo itilize pou wè risk sa a klèman, apre koze a e, idealman, anvan.
+
+## Objektif aprantisaj
+- Esplike kisa rapò Sharpe mezire.
+- Kalkile yon rapò Sharpe debaz apati rannman, to san risk, ak ekar tip.
+- Esplike poukisa de envestisman ki gen menm rannman brit ka gen rapò Sharpe trè diferan.
+- Aplike panse rapò Sharpe pou konpare de estrateji envestisman ipotetik.
+
+## Kontni prensipal
+Rapò Sharpe mezire rannman yo fè pou chak inite risk yo pran, yo kalkile l kòm (rannman envestisman an mwens to san risk la) divize pa ekar tip envestisman an (yon mezi volatilite komen). FÈ VERIFYE: yon rapò Sharpe ki pi wo montre yon rannman ajiste pou risk ki pi favorab — plis rannman pwodui pou chak inite risk yo pran.
+
+Men "poukisa" sa enpòtan plis pase konpare rannman brit sèlman, sa ki konekte dirèkteman ak prensip rannman ajiste pou risk nou te kouvri nan analiz imobilye: de estrateji envestisman ka pwodui rannman brit idantik sou yon peryòd, men si youn te rive nan rannman sa a ak byen plis volatilite (pi gwo balansman monte desann sou wout la) pase lòt la, estrateji ki pi lis la, ki gen mwens volatilite, gen yon rapò Sharpe ki pi wo e yo konsidere l an jeneral kòm sa ki konstwi ak plis ladrès oswa plis sekirite pami de yo, menm si rannman tit yo sanble menm.
+
+Se poutèt sa kouri dèyè rannman istorik brit ki pi wo a, san egzamine volatilite ak risk yo te pran pou rive la, ka mennen yon envestisè nan estrateji ki sanble enpresyonan nan bon peryòd (tankou ekspansyon kredi te alimante senaryo pi wo a mansyone a) men ki pote yon frajilite kache ki parèt sèlman lè kondisyon yo vire, paske pran risk anba a ki te gonfle rannman brit la amplifye tou bès final la.
+
+## Egzanp pratik
+EGZANP ILISTRATIF: Fon A bay 12% chak ane ak yon ekar tip 8%, alòske Fon B bay 12% chak ane tou men ak yon ekar tip 20%, si nou sipoze yon to san risk 3%. Rapò Sharpe Fon A se (12-3)/8 = 1.13, alòske pa Fon B a se (12-3)/20 = 0.45. Malgre rannman brit idantik, Fon A te rive nan rannman sa a yon fason byen pi efikas, ak byen mwens risk pou chak inite rannman, sa ki fè l pi bon pèfòmè ajiste pou risk pami de yo.
+
+## Egzamen pratik
+**Q1. Kisa rapò Sharpe mezire?**
+A) Total rannman an dola sou yon peryòd fiks
+B) Rannman yo fè pou chak inite risk yo pran, konpare ak yon to san risk
+C) Rannman dividann yon pòtfolyo aksyon
+D) Korelasyon ant de byen
+
+**Q2. De fon gen rannman brit idantik, men Fon X gen yon ekar tip byen pi ba pase Fon Y. Ki fon ki gen rapò Sharpe ki pi wo a?**
+A) Fon Y, paske yon volatilite ki pi wo toujou bay yon rapò Sharpe ki pi wo
+B) Fon X, paske li te rive nan menm rannman an ak mwens risk
+C) Yo pral toujou gen rapò Sharpe idantik kèlkeswa volatilite
+D) Ou pa ka kalkile rapò Sharpe lè rannman yo idantik
+
+**Q3. Ak yon to san risk 2%, yon fon bay 10% ak yon ekar tip 10%. Ki rapò Sharpe li?**
+A) 0.5
+B) 0.8
+C) 1.0
+D) 1.2
+
+**Q4. Poukisa kouri dèyè rannman istorik brit ki pi wo a san egzamine volatilite ka riske?**
+A) Rannman brit toujou reflete yon fason pafè sekirite yon estrateji envestisman
+B) Yo ka te rive nan yon gwo rannman brit atravè yon gwo pran risk kache ki parèt sèlman lè kondisyon yo vin defavorab
+C) Volatilite pa gen okenn rapò ak risk yon estrateji envestisman nan lavni
+D) Yo toujou rive nan gwo rannman brit ak yon risk minimòm
+
+**Q5. Poukisa yo dekri rapò Sharpe kòm yon bagay ki konekte ak prensip rannman ajiste pou risk analiz imobilye a?**
+A) Analiz imobilye ak analiz mache aksyon pa gen okenn pwen komen konseptyèl
+B) Tou de mete aksan sou evalye rannman yon envestisman konpare ak risk yo te pran pou rive la, olye jije chif rannman yo pou kont yo
+C) Ou ka aplike rapò Sharpe sèlman nan envestisman imobilye
+D) Analiz ajiste pou risk se pou titr revni fiks sèlman
+
+## Kle repons yo
+Q1: B
+Q2: B
+Q3: B
+Q4: B
+Q5: B
+
+## Repons ak eksplikasyon
+**Q1.** Rapò Sharpe eksprime rannman anplis (pi wo pase to san risk la) konpare ak volatilite yo te pran pou rive la.
+
+**Q2.** Paske rapò Sharpe divize rannman anplis la pa volatilite, yon volatilite ki pi ba ak menm rannman an bay yon rapò ki pi wo e ki pi favorab.
+
+**Q3.** (10 - 2) / 10 = 0.8, paske yo divize rannman anplis 8 pwen pousantaj la pa yon ekar tip 10.
+
+**Q4.** Estrateji ki afiche bon rannman pandan kondisyon favorab ka pote yon frajilite kache ki soti nan twòp pran risk e ki parèt pandan yon bès.
+
+**Q5.** Prensip anba a — ke ou dwe peze rannman kont risk yo te pran, se pa gade l pou kont li — aplike nan tout kategori byen, tankou ni imobilye ni aksyon.
+
+## Pwen kle yo
+- Rapò Sharpe mezire rannman yo fè pou chak inite risk yo pran, konpare ak yon to san risk.
+- De envestisman ki gen rannman brit idantik ka gen rapò Sharpe trè diferan si volatilite yo diferan.
+- Yon rapò Sharpe ki pi wo montre yon itilizasyon risk ki pi efikas e ki pi byen ajiste pou pwodui rannman.
+- Jije estrateji sèlman dapre rannman brit ka kache yon pran risk ki parèt sèlman lè kondisyon yo vin defavorab.
+
+===== WHITE-L4-009
+TITLE: Analiz envestisman regilye (dollar-cost averaging): poukisa eseye chwazi moman mache a se yon jwèt ou pèdi
+SUMMARY: Konprann poukisa envestisman regilye ak yon montan fiks retire bezwen pou prevwa moman mache a, e poukisa chwazi moman mache a avèk siksè yon fason konsistan trè difisil.
+KEYWORDS: dollar-cost averaging, chwazi moman mache, disiplin envestisman, envestisman sistematik
+# Analiz envestisman regilye (dollar-cost averaging): poukisa eseye chwazi moman mache a se yon jwèt ou pèdi
+
+## Senaryo pou louvri leson an
+SIPOZISYON/OPINYON (senaryo ipotetik pou objektif ansèyman sèlman): Imajine yon gwo pwoblèm sante piblik ki kanpe transpò maritim ak manifakti mondyal pou yon peryòd pwolonje, sa ki mele chèn apwovizyònman nan anpil endistri an menm tan. Pandan mache yo ap balanse fò pandan yon peryòd dezòd jeneral, anpil envestisè rete jele, yo pa konnen si pou yo achte nan bès la oswa tann yon pi ba ki pi klè. Leson sa a esplike poukisa yon apwòch disipline e mekanik gen tandans fè pi byen pase eseye devine pwochen mouvman mache a.
+
+## Objektif aprantisaj
+- Esplike kisa envestisman regilye ak yon montan fiks (dollar-cost averaging) vle di.
+- Esplike poukisa envestisman regilye retire bezwen pou prevwa direksyon mache a nan kout tèm.
+- Esplike poukisa chwazi moman mache a avèk siksè yon fason konsistan te pwouve trè difisil, menm pou pwofesyonèl.
+- Idantifye benefis emosyonèl yon apwòch envestisman sistematik pandan peryòd volatil.
+
+## Kontni prensipal
+Envestisman regilye ak yon montan fiks (dollar-cost averaging, DCA) vle di envesti yon montan lajan fiks nan entèval regilye (tankou chak mwa), kèlkeswa si mache a monte oswa desann nan moman sa a, olye eseye envesti yon gwo sòm an yon sèl kou nan sa yo jije se "pi bon" moman an. FÈ VERIFYE: apwòch sa a fè ou achte matematikman plis aksyon lè pri yo ba e mwens aksyon lè pri yo wo, san envestisè a pa bezwen prevwa davans kiyès se kiyès.
+
+Men "poukisa" sa pi bon pase eseye chwazi moman mache a, sa ki raple analiz chwazi moman mache nan imobilye (Leson 43 nan chemen RED la): idantifye pi ba ak pi wo mache a an tan reyèl trè difisil, e yon gwo kantite done pèfòmans alontèm montre pifò envestisè pwofesyonèl ak endividyèl ki eseye chwazi moman mache a fè pi mal pase tou senpleman rete envesti e kontinye achte yon fason konsistan, sitou paske reyaksyon emosyonèl (vann nan panik pandan bès tankou sa ki nan senaryo pi wo a, oswa achte nan eksitasyon pandan mache a ap monte) gen tandans travay kont envestisè a olye pou li.
+
+Se poutèt sa envestisman regilye bay yon vrè avantaj konpòtman, se pa sèlman yon avantaj matematik: li retire desizyon emosyonèl difisil "èske m ta dwe envesti kounye a oswa tann" nan chak acha, e li ranplase l ak yon orè disipline ki deja fikse ki kontinye fonksyone menm pandan peryòd laperèz oswa eksitasyon, lè pwòp jijman yon envestisè gen plis chans pou emosyon kout tèm konpwomèt li.
+
+## Egzanp pratik
+EGZANP ILISTRATIF: Yon envestisè angaje l pou envesti $1,000 chak mwa kèlkeswa kondisyon mache yo. Pandan yon gwo bès mache, menm $1,000 sa a achte anpil plis aksyon pase mwa anvan an, e lè mache a finalman refè, aksyon anplis sa yo li te achte pandan bès la kontribiye yon fason ki pi gwo pase pwopòsyon yo nan benefis total envestisè a — yon benefis ki disponib sèlman pou yon envestisè ki te kontinye achte pandan bès la olye kanpe kontribisyon yo akoz laperèz, pou tann yon moman "pi bon" ou pa ka idantifye davans ak konfyans.
+
+## Egzamen pratik
+**Q1. Kisa envestisman regilye ak yon montan fiks (dollar-cost averaging) vle di?**
+A) Envesti yon gwo sòm an yon sèl kou sèlman lè mache a sanble nan pwen ki pi ba li
+B) Envesti yon montan fiks nan entèval regilye kèlkeswa kondisyon mache yo
+C) Envesti sèlman lè yon konseye finansye konfime mache a rive nan pi ba li
+D) Vann tout sa ou genyen chak fwa mache a bese plis pase 10%
+
+**Q2. Poukisa envestisman regilye fè ou achte matematikman plis aksyon lè pri yo ba?**
+A) Yon montan dola fiks achte plis aksyon lè pri pa aksyon an pi ba, e mwens aksyon lè pri a pi wo
+B) DCA toujou mande envesti yon kantite aksyon fiks olye yon montan dola fiks
+C) Pri pa gen okenn enpòtans sou konbyen aksyon yon montan dola fiks ka achte
+D) DCA garanti envestisè a ap toujou achte nan pwen ki pi ba egzak mache a
+
+**Q3. Poukisa chwazi moman mache a yon fason konsistan te pwouve difisil, menm pou envestisè pwofesyonèl?**
+A) Chwazi moman mache a fasil pou tout moun e li toujou reyisi pou pwofesyonèl
+B) Prevwa egzakteman pi wo ak pi ba mache a nan kout tèm an tan reyèl trè difisil, e reyaksyon emosyonèl souvan travay kont envestisè k ap eseye l
+C) Lalwa entèdi envestisè pwofesyonèl eseye chwazi moman mache a
+D) Okenn envestisè pwofesyonèl pa janm eseye chwazi moman mache a
+
+**Q4. Ki avantaj konpòtman envestisman regilye bay anplis efè matematik li?**
+A) Li retire desizyon emosyonèl difisil sou ki lè pou envesti, sa ki bay disiplin pandan peryòd laperèz oswa eksitasyon
+B) Li garanti pi gwo rannman pase nenpòt lòt estrateji envestisman nan tout sikonstans
+C) Li elimine bezwen pou janm revize pèfòmans envestisman
+D) Li pa gen okenn benefis konpòtman anplis efè matematik la
+
+**Q5. Nan egzanp lan, poukisa aksyon yo te achte pandan bès mache a te kontribiye yon fason ki pi gwo pase pwopòsyon yo nan benefis final envestisè a?**
+A) Yo te achte aksyon sa yo nan yon pri ki pi ba, kidonk menm rekiperasyon final la te bay yon pi gwo benefis an pousantaj sou aksyon espesifik sa yo
+B) Aksyon yo achte pandan yon bès toujou vo mwens menm apre yon rekiperasyon
+C) Envestisè a te resevwa yon bonis paske l te envesti pandan yon bès
+D) Envestisman regilye pa gen okenn efè sou ki aksyon ki fè pi bon pèfòmans
+
+## Kle repons yo
+Q1: B
+Q2: A
+Q3: B
+Q4: A
+Q5: A
+
+## Repons ak eksplikasyon
+**Q1.** DCA se yon apwòch sistematik ki gen ladan envestisman konsistan nan orè regilye kèlkeswa mouvman mache a nan kout tèm.
+
+**Q2.** Paske montan dola a fiks, kantite aksyon yo achte varye natirèlman nan sans opoze ak pri pa aksyon an.
+
+**Q3.** Mouvman mache nan kout tèm ki pa ka prevwa, konbine ak patipri emosyonèl, fè siksè konsistan nan chwazi moman mache a ra menm pami pwofesyonèl.
+
+**Q4.** Lè l ranplase desizyon chwazi moman endividyèl yo ak yon orè ki deja fikse, DCA ede envestisè evite erè emosyon pouse pandan peryòd volatil.
+
+**Q5.** Aksyon yo te achte nan pri ki pi ba pandan bès la te gen plis espas pou pran valè pandan rekiperasyon ki te swiv la, sa ki ogmante kontribisyon yo nan rannman total la.
+
+## Pwen kle yo
+- Envestisman regilye envesti yon montan fiks nan entèval regilye kèlkeswa kondisyon mache yo.
+- Apwòch sa a fè ou achte matematikman plis aksyon nan pri ki ba e mwens nan pri ki wo san ou pa bezwen prevwa mache a.
+- Chwazi moman mache a yon fason konsistan te pwouve trè difisil, menm pou envestisè pwofesyonèl, akoz enprevizibilite ak patipri emosyonèl.
+- DCA bay yon vrè avantaj konpòtman lè l retire desizyon chwazi moman ki difisil emosyonèlman pandan peryòd volatil.
+
+===== WHITE-L4-010
+TITLE: Analiz wotasyon sektè: poukisa diferan sektè mennen nan diferan etap sik la
+SUMMARY: Konprann poukisa diferan sektè mache gen tandans fè pi byen nan diferan moman nan sik ekonomik la, e poukisa rekonèt modèl sa a ede analiz.
+KEYWORDS: wotasyon sektè, sik ekonomik, pèfòmans sektè, aksyon siklik kont defansif
+# Analiz wotasyon sektè: poukisa diferan sektè mennen nan diferan etap sik la
+
+## Senaryo pou louvri leson an
+SIPOZISYON/OPINYON (senaryo ipotetik pou objektif ansèyman sèlman): Imajine yon bank santral k ap monte to enterè referans li anpil e plizyè fwa sou yon ti peryòd kèk mwa pou goumen kont yon enflasyon k ap monte. Pandan yon bank santral ap monte to yo yon fason agresif pou goumen kont enflasyon, kèk sektè nan mache aksyon an kòmanse fè pi mal anpil alòske lòt yo kenbe pi byen. Leson sa a esplike modèl ki repete dèyè divèjans sa a.
+
+## Objektif aprantisaj
+- Esplike konsèp wotasyon sektè atravè sik ekonomik la.
+- Fè diferans ant sektè siklik ak sektè defansif.
+- Esplike poukisa kèk sektè gen tandans mennen pandan ekspansyon ekonomik e lòt pandan kontraksyon.
+- Aplike panse wotasyon sektè pou entèprete kondisyon ekonomik kounye a.
+
+## Kontni prensipal
+Wotasyon sektè refere a tandans diferan segman nan mache aksyon an — tankou teknoloji, finans, konsomasyon ki pa esansyèl, sèvis piblik (utilities), swen sante, ak pwodui konsomasyon debaz — pou fè pi byen oswa pi mal nan diferan etap sik ekonomik la. FÈ VERIFYE: sektè siklik (tankou konsomasyon ki pa esansyèl ak finans) gen tandans pi sansib a kwasans ekonomik ak to enterè, alòske sektè defansif (tankou sèvis piblik, swen sante, ak pwodui konsomasyon debaz) gen tandans bay yon demann ki pi estab kèlkeswa kondisyon ekonomik yo, paske moun toujou bezwen elektrisite, medikaman, ak pwodui debaz pou kay yo menm pandan yon bès.
+
+Men "poukisa" modèl sa a repete nan plizyè sik, sa ki konekte ak analiz sik mache imobilye nou te kouvri pi bonè nan kourikoulòm sa a: pandan ekspansyon ekonomik, envestisè yo prefere sektè siklik ki pare pou benefisye de gwo depans konsomatè ak envestisman biznis. Lè yon bank santral monte to enterè anpil pou goumen kont enflasyon (tankou nan senaryo pi wo a), sektè ki sansib a kou prete lajan ak depans konsomatè ki pa esansyèl, tankou kèk konpayi teknoloji ak konsomasyon ki pa esansyèl, souvan fè pi mal, alòske sektè defansif ki gen yon demann estab e mwens sansib a to gen tandans kenbe relativman pi byen.
+
+Se poutèt sa konprann apeprè ki kote ekonomi a ye nan sik li ka enfòme, men pa janm garanti, pozisyon sektè yon envestisè. SIPOZISYON/OPINYON: modèl wotasyon sektè se tandans yo obsève nan istwa, se pa règ fiks, e devlopman sanzatann (tankou yon gwo dekouvèt teknolojik nan yon sektè espesifik oswa yon chanjman nan règleman) ka depase modèl siklik tipik la nan nenpòt peryòd.
+
+## Egzanp pratik
+EGZANP ILISTRATIF: Pandan yon sik ogmantasyon to enterè agresif, yon endèks sektè ki gen anpil teknoloji ki te mennen tout mache a pandan ekspansyon to ki ba anvan an tonbe byen plis pase mache a an jeneral, paske anpil nan konpayi li yo konte sou atant kwasans nan lavni ki pèdi valè lè to eskont yo pi wo, ak sou prè ki pa chè pou finanse ekspansyon. Pandan menm peryòd la, yon endèks sektè sèvis piblik, ki gen demann ak lajan kach ki byen mwens mare ak depans ki pa esansyèl oswa atant kwasans, bese anpil mwens, sa ki ilistre divèjans klasik ant siklik ak defansif.
+
+## Egzamen pratik
+**Q1. Kisa wotasyon sektè ye?**
+A) Pratik yon konpayi ki chanje klasifikasyon endistri li
+B) Tandans diferan sektè mache pou fè pi byen oswa pi mal nan diferan etap sik ekonomik la
+C) Yon egzijans règleman pou divèsifye sa yon fon mityèl kenbe
+D) Yon estrateji taks pou reòganizasyon konpayi
+
+**Q2. Kisa ki fè diferans ant yon sektè siklik ak yon sektè defansif?**
+A) Sektè siklik pi sansib a kwasans ekonomik ak to enterè, alòske sektè defansif gen yon demann ki pi estab kèlkeswa kondisyon ekonomik yo
+B) Pa gen okenn diferans ki gen sans ant sektè siklik ak sektè defansif
+C) Sektè defansif egziste sèlman pandan resesyon
+D) Sektè siklik toujou fè pi byen pase sektè defansif nan chak peryòd
+
+**Q3. Poukisa sektè teknoloji ak konsomasyon ki pa esansyèl ta ka fè pi mal pandan yon sik ogmantasyon to agresif?**
+A) Chanjman to enterè pa afekte sektè sa yo ditou
+B) Yo souvan konte sou atant kwasans nan lavni ak prè ki pa chè, de bagay ki vin mwens favorab lè to yo monte
+C) Ogmantasyon to toujou benefisye sektè ki oryante sou kwasans plis
+D) Sektè sa yo pa gen okenn rapò ak chanjman to enterè
+
+**Q4. Poukisa sektè defansif tankou sèvis piblik ak pwodui konsomasyon debaz gen tandans kenbe pi byen pandan bès ekonomik?**
+A) Demann pou byen ak sèvis yo rete relativman estab paske moun bezwen yo kèlkeswa kondisyon ekonomik yo
+B) Lalwa pwoteje sektè defansif kont nenpòt bès pri
+C) Sektè sa yo pa gen okenn ekspozisyon nan mache aksyon an
+D) Sektè defansif toujou fè pi byen pase sektè siklik kèlkeswa etap sik ekonomik la
+
+**Q5. Poukisa yo dekri wotasyon sektè kòm yon tandans yo obsève nan istwa olye yon règ fiks?**
+A) Wotasyon sektè toujou rive menm jan nan chak sik ekonomik san okenn eksepsyon
+B) Devlopman sanzatann, tankou yon gwo dekouvèt teknolojik oswa yon chanjman nan règleman, ka depase modèl siklik tipik la nan nenpòt peryòd
+C) Yo pa janm vrèman obsève wotasyon sektè nan done mache reyèl
+D) Se yon sèl sektè sèlman ki ka janm afekte pa chanjman nan sik ekonomik
+
+## Kle repons yo
+Q1: B
+Q2: A
+Q3: B
+Q4: A
+Q5: B
+
+## Repons ak eksplikasyon
+**Q1.** Wotasyon sektè dekri modèl ki repete kote lidèchip deplase pami sektè mache yo pandan kondisyon ekonomik yo chanje.
+
+**Q2.** Distenksyon prensipal la se nan jan demann ak pwofitabilite chak sektè sansib a sik ekonomik la an jeneral.
+
+**Q3.** To ki pi wo diminye valè prezan kwasans nan lavni e yo ogmante kou prete lajan, de bagay ki afekte sitou sektè siklik ki oryante sou kwasans.
+
+**Q4.** Demann esansyèl e mwens opsyonèl pou pwodui ak sèvis sektè defansif bay yon pèfòmans ki pi estab pandan tansyon ekonomik.
+
+**Q5.** Menm si modèl la te repete nan istwa, li pa garanti, e evènman ki pa nòmal ka deranje rapò tipik ant sektè yo ak sik ekonomik la.
+
+## Pwen kle yo
+- Wotasyon sektè dekri tandans diferan sektè mache pou mennen oswa rete dèyè nan diferan etap sik ekonomik la.
+- Sektè siklik pi sansib a kwasans ak to enterè; sektè defansif ofri yon demann ki pi estab e ki mwens depann de sik la.
+- Sik ogmantasyon to gen tandans mete plis presyon sou sektè siklik ki oryante sou kwasans pase sou sektè defansif.
+- Wotasyon sektè se yon tandans yo obsève nan istwa, se pa yon règ garanti, e evènman sanzatann ka depase modèl tipik la.
