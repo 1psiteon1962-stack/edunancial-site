@@ -1,0 +1,429 @@
+===== PURPLE-L5-006
+TITLE: Pwopriyete ekonomik ak kontwòl sou konpayi an
+SUMMARY: Pwopriyete ekonomik ak kontwòl sou konpayi an se de pakèt dwa ki separe; klas aksyon, kantite vòt pou chak aksyon ak preferans likidasyon separe yo, estati ak akò ant aksyonè yo fikse ki moun ki deside vre, kidonk konprann sa w ap bay oswa sa w ap resevwa anvan w siyen.
+KEYWORDS: dwa vòt ak dwa ekonomik, klas aksyon, kontwòl fondatè, aksyon ak plizyè vòt, preferans likidasyon
+# Pwopriyete ekonomik ak kontwòl sou konpayi an
+
+## Senaryo ouvèti
+SIPOZISYON/OPINYON (sinaryo ipotetik, sèlman pou objektif ansèyman): Imajine de gwo pisans ekonomik k ap sere kontwòl ekspòtasyon youn kont lòt sou yon gwoup konpozan teknolojik avanse ke anpil endistri itilize.
+Aplike l isit la: Kontwòl ekspòtasyon toudenkou koupe yon konpayi teknoloji de yon founisè enpòtan. Konsèy administrasyon an dwe deside vit si pou yo refè pwodwi a oswa vann konpayi an. Mande atravè koulè yo: Ki moun ki gen dwa pran desizyon sa a vre (PURPLE/BLACK)? Èske se moun ki te envesti plis lajan yo (WHITE/BLUE), oswa moun ki gen plis vòt yo? Se pa toujou menm moun yo.
+
+## Objektif aprantisaj
+- Fè diferans ant dwa ekonomik ak dwa vòt ak kontwòl
+- Eksplike kijan klas aksyon ak preferans likidasyon separe yo
+- Evalye avantaj ak dezavantaj estrikti kontwòl fondatè selon pwennvi fondatè yo ak envestisè yo
+
+## Kontni prensipal
+Kad Filozofik la pou kou avanse yo mete aksan sou yon pwen ki sezi anpil elèv: posede yon pati nan lajan yon konpayi pa menm bagay ak deside sa konpayi an fè.
+Dwa pwopriyete ka divize an pakèt ki separe:
+- Dwa ekonomik: dwa pou patisipe nan pwofi, dividann ak lajan ki soti nan yon vant.
+- Dwa vòt: dwa pou chwazi direktè oswa administratè e pou apwouve gwo desizyon.
+- Dwa likidasyon: lòd yo peye mèt yo lè yo vann konpayi an oswa lè yo fèmen l.
+- Dwa enfòmasyon: dwa pou wè eta finansye ak dosye yo.
+FÈ VERIFYE: Anpil jiridiksyon pèmèt konpayi yo bay diferan klas aksyon ak diferan konbinezon dwa sa yo. Konsa, yon klas ka gen plis vòt pou chak aksyon, pandan yon lòt klas touche an premye lè gen yon vant.
+Kijan sa kowòdone koulè yo:
+- WHITE: Yon envestisè nan yon konpayi ki nan labous e ki gen plizyè klas aksyon ka posede valè ekonomik men gen ti pouvwa vòt. Sa enfliyanse konbyen li ka aji sou jesyon an.
+- BLUE: Fondatè ki rasanble lajan ka vann valè ekonomik e toujou kenbe kontwòl gras ak aksyon ki gen plis vòt oswa chèz nan konsèy la. Men envestisè yo souvan mande kloz pwoteksyon, tankou yon veto kont vant konpayi an.
+- PURPLE: Se nan estati konpayi an ak akò ant aksyonè yo tout bagay sa yo ekri.
+- BLACK: Kontwòl la deside ki moun ki dirije nan yon kriz tankou sa ki nan senaryo a.
+Preferans likidasyon an merite yon atansyon espesyal. EGZANP ILISTRATIF: Si yon envestisè gen yon preferans 1x sou 2 milyon dola, l ap resevwa 2 milyon dola l anvan aksyonè òdinè yo resevwa anyen nan yon vant. Si yo vann konpayi an 3 milyon dola, aksyonè òdinè yo separe sèlman 1 milyon dola ki rete a, menm si yo "posede" pifò aksyon yo.
+SIPOZISYON/OPINYON: Kontwòl fondatè ka pwoteje yon vizyon long tèm kont presyon kout tèm. Men li ka pwoteje tou yon move lidèchip kont responsablite. Okenn bò pa gen rezon otomatikman. Sa ki enpòtan se konprann sa w ap bay oswa sa w ap resevwa anvan w siyen.
+
+## Egzanp pratik
+EGZANP ILISTRATIF: Ana kreye yon konpayi e li rasanble lajan de fwa. Apre de wonn yo:
+- Ana posede 40 % aksyon yo, tout nan klas B, ak 10 vòt pou chak aksyon.
+- Envestisè yo posede 60 % aksyon yo, tout aksyon preferansyèl klas A, ak 1 vòt pou chak aksyon e yon preferans likidasyon 1x sou 5 milyon dola yo te envesti.
+Vòt: Ana gen 40 x 10 = 400 inite vòt. Envestisè yo gen 60 x 1 = 60 inite vòt. Ana kontwole anviwon 87 % vòt yo, menm si li posede sèlman 40 % valè ekonomik la.
+Kounye a senaryo a rive. Yon achtè ofri 6 milyon dola.
+- Envestisè yo pran preferans 5 milyon dola yo an premye.
+- 1 milyon dola ki rete a separe selon estati yo. Si aksyon envestisè yo patisipe tou nan rès la (aksyon preferansyèl patisipan), pati Ana nan rès sa a vin pi piti toujou.
+Ana gen vòt pou l refize vant lan. Men envestisè yo ka gen yon veto pwoteksyon sou lòt gwo desizyon. SIPOZISYON/OPINYON: Vrè pouvwa Ana se pa sèlman kantite vòt li. Se tout konbinezon kloz estati yo, kloz pwoteksyon yo ak relasyon l ak konsèy la.
+
+## Egzamen pratik
+**Q1. Ki diferans ki genyen ant dwa ekonomik ak dwa vòt?**
+A) Pa gen diferans
+B) Dwa ekonomik fè w patisipe nan lajan an; dwa vòt deside ki moun ki kontwole desizyon yo
+C) Dwa vòt peye dividann
+D) Dwa ekonomik chwazi konsèy la
+**Q2. Kisa yon preferans likidasyon 1x vle di?**
+A) Envestisè a touche an dènye
+B) Envestisè a resevwa envestisman l tounen anvan aksyonè òdinè yo resevwa anyen nan yon vant
+C) Envestisè a gen 1 vòt
+D) Envestisè a pa janm ka vann
+**Q3. Poukisa Ana kontwole pifò vòt yo nan egzanp lan, menm si li posede 40 % aksyon yo?**
+A) Li te envesti plis lajan
+B) Envestisè yo te ba l vòt yo
+C) Lalwa bay fondatè yo kontwòl
+D) Chak aksyon klas B li yo gen 10 vòt
+**Q4. Ki kote yo souvan ekri dwa sa yo?**
+A) Nan yon plan maketing
+B) Sèlman nan deklarasyon taks
+C) Nan estati konpayi an ak akò ant aksyonè yo
+D) Nan relve kont labank
+**Q5. Ki yon pwennvi ekilibre sou kontwòl fondatè?**
+A) Li toujou bon
+B) Li ilegal
+C) Li toujou move
+D) Li ka pwoteje yon vizyon long tèm, men li ka pwoteje tou yon move lidèchip kont responsablite
+
+## Kle repons yo
+Q1: B
+Q2: B
+Q3: D
+Q4: C
+Q5: D
+
+## Repons ak eksplikasyon
+**Q1.** Se pakèt ki separe ke diferan moun ka kenbe.
+**Q2.** Yon preferans 1x remèt envestisè a lajan l an premye.
+**Q3.** Aksyon ki gen plizyè vòt separe kontwòl la de pwopriyete ekonomik la.
+**Q4.** Estati yo ak akò ant aksyonè yo fikse klas yo ak dwa yo.
+**Q5.** Sa make SIPOZISYON/OPINYON paske moun ki rezonab pa dakò sou sa.
+
+## Pwen kle yo
+- Pwopriyete ekonomik ak kontwòl sou konpayi an se de pakèt dwa ki separe
+- Klas aksyon, vòt pou chak aksyon ak preferans likidasyon separe yo
+- Estati yo ak akò ant aksyonè yo fikse ki moun ki deside vre
+- Konprann sa w ap bay oswa sa w ap resevwa anvan w siyen
+
+===== PURPLE-L5-007
+TITLE: Dilisyon, pwoteksyon kont dilisyon ak pwoteje pozisyon fondatè a
+SUMMARY: Dilisyon diminye pousantaj la, pa kantite aksyon yo; kloz pwoteksyon kont dilisyon deplase risk yon wonn finansman a pi ba pri soti sou envestisè yo pou ale sou fondatè yo ak anplwaye yo, "full ratchet" pi di pase yon mwayèn pondere, e fòmil la merite menm atansyon ak valè konpayi an nan negosyasyon.
+KEYWORDS: dilisyon, pwoteksyon kont dilisyon, wonn a pi ba pri, full ratchet, mwayèn pondere, aksyon fondatè
+# Dilisyon, pwoteksyon kont dilisyon ak pwoteje pozisyon fondatè a
+
+## Senaryo ouvèti
+SIPOZISYON/OPINYON (sinaryo ipotetik, sèlman pou objektif ansèyman): Imajine yon enstitisyon finansye ki gen gwo enpòtans pou sistèm lan ki toudenkou revele yon gwo pèt li te kache, sa ki fè moun pè risk kontrepati a gaye nan tout sistèm bankè a.
+Aplike l isit la: Pèt kache yon gwo bank souke konfyans envestisè yo, e finansman pou jèn konpayi yo cheche. Yon konpayi ki te rasanble lajan ane pase a ak yon valè ki wo dwe kounye a rasanble lajan ankò ak yon valè ki pi ba. Mande atravè koulè yo: Pati ki moun k ap diminye plis (BLUE)? Kisa kondisyon kontra a di (PURPLE)? Kijan fondatè a dwe negosye (ORANGE)?
+
+## Objektif aprantisaj
+- Kalkile kijan yon nouvo envestisman dilye mèt ki deja la yo
+- Eksplike kijan kloz pwoteksyon kont dilisyon mache nan yon wonn a pi ba pri
+- Negosye kondisyon finansman ak tout tablo dilisyon ak kontwòl la devan w
+
+## Kontni prensipal
+FÈ VERIFYE: Lè yon konpayi bay nouvo aksyon, pousantaj chak mèt ki deja la diminye, menm si kantite aksyon li genyen rete menm jan. Yo rele sa dilisyon.
+Dilisyon pa otomatikman move. Si nouvo lajan an ede konpayi an grandi, yon pi piti pousantaj nan yon pi gwo konpayi ka vo plis. Kesyon Nivo 5 la se si kondisyon ki vini ak lajan an deplase plis risk sou ou pase sa w konnen.
+Kloz pwoteksyon kont dilisyon pwoteje envestisè yo lè konpayi an vann aksyon pita a yon pi ba pri ("wonn a pi ba pri"). De fòm komen:
+- Full ratchet: Pri ansyen envestisè a desann nèt rive nan nouvo pri ki pi ba a, kòm si li te achte a pri sa a depi okòmansman. Sa ka retire yon gwo pati nan pwopriyete fondatè yo ak anplwaye yo.
+- Mwayèn pondere: Pri ansyen envestisè a desann an pati, selon konbyen nouvo lajan ki antre e a ki pri. Sa an jeneral mwens di.
+Sa kowòdone plizyè koulè:
+- BLUE: Konbyen lajan ki vrèman nesesè, e èske yon pi piti wonn ta sifi?
+- PURPLE: Ki fòmil pwoteksyon kont dilisyon ki nan dokiman yo, e èske gen eksepsyon (pa egzanp pou aksyon yo bay anplwaye)?
+- ORANGE: Pouvwa negosyasyon. Fondatè ki gen lòt opsyon (yon BATNA fò nan ORANGE-L4) jwenn pi bon kondisyon.
+- WHITE: Lojik valè a. Yon valè anvan ki twò wo ka prepare yon wonn a pi ba pri ki fè mal pita.
+- BLACK: Moral anplwaye yo. Lè opsyon yo pèdi valè, yo ka gen plis chans kite.
+SIPOZISYON/OPINYON: Yon fondatè ki kouri dèyè valè ki pi wo posib nan yon bon mache ka tann tèt li yon pèlen pou yon move mache. Yon valè jis, ki ka defann, ak kondisyon pwòp souvan vye pi byen.
+
+## Egzanp pratik
+EGZANP ILISTRATIF: Yon konpayi gen 1 000 000 aksyon. Fondatè a posede 800 000 (80 %). Yon envestisè te achte 200 000 aksyon a 5 dola chak (20 %, 1 000 000 dola).
+Yon ane apre, senaryo a rive. Konpayi an rasanble 500 000 dola a 2,50 dola pou chak aksyon e li bay 200 000 nouvo aksyon.
+San pwoteksyon kont dilisyon: Total aksyon = 1 200 000. Fondatè = 800 000 / 1 200 000 = 66,7 %. Premye envestisè = 16,7 %. Nouvo envestisè = 16,7 %.
+Ak full ratchet: Pri premye envestisè a desann rive 2,50 dola. 1 000 000 dola li kounye a konvèti an 400 000 aksyon olye 200 000. Total = 1 400 000. Fondatè = 800 000 / 1 400 000 = anviwon 57,1 %. Premye envestisè = anviwon 28,6 %. Nouvo envestisè = anviwon 14,3 %.
+Ak yon kloz mwayèn pondere, ajisteman premye envestisè a ta tonbe yon kote ant de rezilta sa yo.
+SIPOZISYON/OPINYON: Diferans ant 66,7 % ak 57,1 % gwo. Li ka menm chanje ki moun ki kontwole konsèy la. Se poutèt sa fòmil pwoteksyon kont dilisyon an merite menm atansyon ak valè a li menm nan negosyasyon an.
+
+## Egzamen pratik
+**Q1. Kisa dilisyon ye?**
+A) Pousantaj yon mèt k ap diminye lè yo bay nouvo aksyon
+B) Pèdi aksyon akoz vòl
+C) Yon penalite taks
+D) Yon bès nan vant
+**Q2. Kisa yon wonn a pi ba pri ye?**
+A) Yon wonn gòlf
+B) Yon divizyon aksyon
+C) Remèt yon prè
+D) Rasanble lajan a yon pri pa aksyon ki pi ba pase anvan
+**Q3. Ki fòmil pwoteksyon kont dilisyon ki an jeneral pi di pou fondatè yo?**
+A) Mwayèn pondere
+B) Full ratchet
+C) Pa gen pwoteksyon kont dilisyon
+D) Yo menm bagay
+**Q4. Ki pousantaj fondatè a te genyen nan egzanp lan apre wonn a pi ba pri ak full ratchet?**
+A) 80 %
+B) Anviwon 66,7 %
+C) Anviwon 57,1 %
+D) Anviwon 28,6 %
+**Q5. Poukisa kouri dèyè valè ki pi wo a ka riske?**
+A) Valè ki wo ilegal
+B) Envestisè pa janm aksepte yo
+C) Li ka prepare yon wonn a pi ba pri ki fè mal pita si sitiyasyon an vin pi mal
+D) Li ogmante taks
+
+## Kle repons yo
+Q1: A
+Q2: D
+Q3: B
+Q4: C
+Q5: C
+
+## Repons ak eksplikasyon
+**Q1.** Kantite aksyon ou yo rete menm jan, men pousantaj ou diminye lè total aksyon yo ogmante.
+**Q2.** Wonn a pi ba pri rive lè valè yo tonbe, souvan nan mache finansman ki sere.
+**Q3.** Full ratchet desann pri ansyen envestisè a nèt.
+**Q4.** 800 000 divize pa 1 400 000 bay anviwon 57,1 %.
+**Q5.** Yon pri anvan ki twò wo fè wonn a pi ba pri ak ajisteman pwoteksyon kont dilisyon gen plis chans rive pita.
+
+## Pwen kle yo
+- Dilisyon diminye pousantaj la, pa kantite aksyon yo
+- Kloz pwoteksyon kont dilisyon deplase risk yon wonn a pi ba pri soti sou envestisè yo pou ale sou fondatè yo ak anplwaye yo
+- Full ratchet pi di pase yon mwayèn pondere
+- Negosye fòmil la ak menm atansyon ak valè a
+
+===== PURPLE-L5-008
+TITLE: Akò achte-vann ant asosye ki finanse ak asirans
+SUMMARY: Yon akò achte-vann planifye transfè pwopriyete a anvan yon kriz; achte kwaze ak rachte pa konpayi an gen diferan konsekans legal ak fiskal, asirans fè pwomès la tounen lajan lè yo bezwen l, e kloz evalyasyon yo dwe rete ajou.
+KEYWORDS: akò achte-vann, achte kwaze, rachte pa konpayi an, asirans moun kle, finansman siksesyon biznis
+# Akò achte-vann ant asosye ki finanse ak asirans
+
+## Senaryo ouvèti
+SIPOZISYON/OPINYON (sinaryo ipotetik, sèlman pou objektif ansèyman): Imajine yon gwo dezòd nan sante piblik ki kanpe transpò maritim ak fabrikasyon atravè mond lan pandan lontan, sa ki bloke chèn apwovizyonman nan anpil endistri an menm tan.
+Aplike l isit la: Pandan yon gwo kriz sante, antreprenè yo reyalize ke maladi oswa lanmò toudenkou yon mèt ta ka jete asosye, fanmi ak anplwaye nan dezòd. Mande atravè koulè yo: Èske yon akò achte-vann ekri (PURPLE) di ki moun ki achte pati a? Ki kote lajan an soti (BLUE/WHITE)? Kijan yo taks peman an (GREEN)?
+
+## Objektif aprantisaj
+- Eksplike objektif yon akò achte-vann
+- Konpare achte kwaze ak rachte pa konpayi an
+- Dekri kijan asirans finanse yon rachte e poukisa kloz evalyasyon yo enpòtan
+
+## Kontni prensipal
+Yon akò achte-vann reponn yon kesyon ki fè mal men ki nesesè: si yon mèt mouri, vin enkapab, pran retrèt oswa kite, ki moun ki achte pati l, a ki pri, e ak ki lajan?
+San akò, pati yon mèt ki mouri ka ale bay yon mari, yon madanm oswa yon pitit ki pa enterese oswa ki pa kapab jere biznis la. Lòt mèt yo ka rete ak yon asosye yo pa t vle. Fanmi an ka rete ak yon moso biznis li pa ka vann. Anplwaye yo ka pèdi travay yo pandan tout moun ap diskite.
+Estrikti komen yo:
+- Achte kwaze: Mèt yo dakò pou yo achte pati youn lòt. Souvan chak moun gen yon asirans sou lavi lòt yo.
+- Rachte pa konpayi an: Konpayi an li menm rachte pati mèt k ap kite a. Souvan se konpayi an ki kenbe asirans lan.
+- Fòm melanje: Yon konbinezon, pafwa konpayi an gen premye opsyon e mèt yo gen dezyèm lan.
+Sa kowòdone plizyè koulè:
+- PURPLE: Akò a fikse sa ki deklanche l (lanmò, enkapasite, divòs, retrèt, vyolasyon), metòd evalyasyon an ak kondisyon peman yo.
+- BLUE/GOLD: Asirans vi ak asirans enkapasite bay lajan egzakteman lè yo bezwen l. San finansman, yon akò achte-vann se jis yon pwomès pèsonn pa ka peye.
+- GREEN: RÈG ESPESIFIK POU REJYON AN: Estrikti a enfliyanse kijan yo taks lajan asirans lan, ki nouvo pri baz achtè yo, e si peman an trete tankou yon vant oswa tankou yon distribisyon; an Ayiti, pa egzanp, dapre enfòmasyon ki disponib, asirans vi pa sèvi anpil pou finanse akò ant asosye, règ eritaj Kòd Sivil la ki rezève yon pati pou pitit yo ka limite sa yon mèt ka fè ak pati l, e tretman fiskal lajan asirans lan depann de ka a, kidonk verifye sa ak yon avoka ak yon notè.
+- BLACK: Akò a kenbe lidèchip la estab e li rasire anplwaye, bank ak kliyan.
+Evalyasyon se kote anpil akò echwe. Yon pri fiks yo te fikse sa gen plizyè ane ka lwen valè jodi a. Pi bon opsyon yo se yon fòmil ki mare ak pwofi a, yon valè chak ane mèt yo vrèman mete ajou, oswa yon ekspètiz endepandan nan moman evènman an rive.
+SIPOZISYON/OPINYON: Yon kloz evalyasyon ki pa ajou se youn nan kòz ki pi komen pwosè ant fanmi ak asosye nan ti biznis.
+
+## Egzanp pratik
+EGZANP ILISTRATIF: Luis ak Mei chak posede 50 % yon atelye mekanik ki vo anviwon 1,2 milyon dola. Yo siyen yon akò achte-vann kwaze:
+- Sa ki deklanche l: lanmò oswa enkapasite long tèm.
+- Pri: ekspètiz endepandan nan moman evènman an rive.
+- Finansman: Chak moun gen yon asirans vi 600 000 dola ak yon asirans enkapasite pou rachte pati lòt la.
+Twazan apre, Mei mouri san atann. Luis resevwa 600 000 dola nan asirans lan e li sèvi avè l pou achte aksyon Mei nan men eritye l yo. Fanmi l resevwa yon valè jis an lajan kach. Luis kounye a posede 100 % e li kenbe atelye a ap mache. Anplwaye yo kenbe travay yo.
+Yon difikilte: Ekspètiz la bay 1,4 milyon dola, kidonk pati Mei vo 700 000 dola. Akò a prevwa ke nenpòt montan ki depase asirans lan ap peye sou senk an ak yon biyè a òd. SIPOZISYON/OPINYON: Paske yo te planifye twou sa a alekri, diferans lan te mennen nan yon ajisteman, pa nan yon pwosè.
+
+## Egzamen pratik
+**Q1. Ki kesyon yon akò achte-vann reponn?**
+A) Ki moun ki achte pati yon mèt k ap kite, a ki pri, e ak ki lajan
+B) Kijan yo pral fè piblisite pou biznis la
+C) Kijan pou diminye taks chak ane
+D) Ki moun ki kliyan biznis la
+**Q2. Nan achte kwaze, ki moun ki achte pati mèt k ap kite a?**
+A) Lòt mèt yo
+B) Konpayi an
+C) Leta
+D) Anplwaye mèt k ap kite a
+**Q3. Poukisa asirans enpòtan pou yon akò achte-vann?**
+A) Li ogmante valè biznis la
+B) Li ranplase akò a
+C) Li bay lajan lè yo bezwen rachte a
+D) Lalwa egzije l toupatou
+**Q4. Ki yon feblès komen nan akò achte-vann yo?**
+A) Sèvi ak ekspètiz endepandan
+B) Genyen asirans
+C) Mete enkapasite kòm sa ki deklanche l
+D) Yon evalyasyon fiks ki pa ajou
+**Q5. Kijan akò Luis ak Mei te jere twou ant asirans lan ak valè a?**
+A) Ak yon biyè a òd yo peye sou senk an
+B) Yo te inyore l
+C) Anplwaye yo te peye l
+D) Yon tribinal te deside
+
+## Kle repons yo
+Q1: A
+Q2: A
+Q3: C
+Q4: D
+Q5: A
+
+## Repons ak eksplikasyon
+**Q1.** Li planifye transfè pwopriyete a anvan evènman an rive.
+**Q2.** Nan achte kwaze, mèt yo achte aksyon youn lòt dirèkteman.
+**Q3.** San finansman, mèt yo ka pa gen mwayen peye rachte a.
+**Q4.** Yon pri yo fikse sa gen plizyè ane ka lwen valè jodi a e lakòz diskisyon.
+**Q5.** Planifye twou a alekri te anpeche yon diskisyon.
+
+## Pwen kle yo
+- Yon akò achte-vann planifye transfè pwopriyete a anvan yon kriz
+- Achte kwaze ak rachte pa konpayi an gen diferan konsekans legal ak fiskal
+- Asirans fè pwomès la tounen lajan lè yo bezwen l
+- Kenbe kloz evalyasyon yo ajou e planifye twou finansman yo
+
+===== PURPLE-L5-009
+TITLE: Garanti pèsonèl sou prè biznis
+SUMMARY: Yon garanti pèsonèl louvri byen pèsonèl ou ankò pou prè sa a; garanti san limit, garanti ak limit ak garanti ki fini ak tan pote risk ki diferan anpil, responsablite "solidè" ka fè yon sèl asosye peye tout, e kondisyon garanti yo souvan ka negosye.
+KEYWORDS: garanti pèsonèl, garanti pou yon prè biznis, garanti ak limit, garanti ki fini ak tan, negosyasyon ak bank
+# Garanti pèsonèl sou prè biznis
+
+## Senaryo ouvèti
+SIPOZISYON/OPINYON (sinaryo ipotetik, sèlman pou objektif ansèyman): Imajine yon bank santral ki monte to enterè referans li fò e plizyè fwa nan kèk mwa sèlman pou goumen kont yon enflasyon k ap monte.
+Aplike l isit la: Yon bank santral monte to enterè yo fò, e vèsman prè ak to varyab yon ti biznis vole monte. Mande atravè koulè yo: Si biznis la pa ka peye, èske bank lan ka rive sou kay (RED) ak ekonomi (WHITE) mèt la, menm si prè a nan non biznis la (BLUE)? Repons lan depann de sa mèt la te siyen (PURPLE).
+
+## Objektif aprantisaj
+- Eksplike kijan yon garanti pèsonèl afekte pwoteksyon kont responsablite fòm sosyete a
+- Konpare garanti san limit, garanti ak limit ak garanti ki fini ak tan
+- Negosye kondisyon garanti yo kòm yon pati nan yon desizyon finansman konplè
+
+## Kontni prensipal
+Nan Nivo 2, ou te aprann ke yon LLC oswa yon sosyete anonim ka separe dèt biznis la de byen pèsonèl yo. Nan Nivo 5, ou aprann fason ki pi komen mèt yo bay pwoteksyon sa a tounen: garanti pèsonèl la.
+FÈ VERIFYE: Anpil moun ki prete lajan, sitou bay ti biznis ak nouvo biznis, mande pou mèt yo garanti prè a pèsonèlman. Si biznis la pa peye, moun ki prete a ka rive sou byen pèsonèl moun ki garanti a, nan limit lwa lokal la.
+Sa vle di: Fòm sosyete a toujou pwoteje w kont anpil lòt risk, tankou kèk reklamasyon kliyan oswa diskisyon ak founisè. Men pou prè espesifik sa a, mi ki separe biznis la ak lavi pèsonèl ou a gen yon pòt, e ou bay moun ki prete a kle a.
+Kalite garanti:
+- San limit: Ou garanti tout prè a plis enterè ak frè rekouvreman.
+- Ak limit: Ou garanti sèlman yon montan oswa yon pousantaj ki fikse.
+- Ki fini ak tan: Garanti a diminye oswa fini lè biznis la rive nan sèten objektif, tankou yon kantite peman alè oswa yon rapò ant dèt ak revni.
+- Separe oswa solidè: Lè gen plizyè mèt, "solidè" an jeneral vle di moun ki prete a ka mande tout montan an nan men nenpòt youn nan moun ki garanti yo. RÈG ESPESIFIK POU REJYON AN; an Ayiti, pa egzanp, dapre enfòmasyon ki disponib, Kòd Sivil la prevwa kosyon kòm garanti pèsonèl, bank yo souvan mande yon ipotèk oswa yon garanti pèsonèl pou prè biznis, e yon kosyon ki siyen solidè ka oblije peye tout dèt la, kidonk verifye sa ak yon avoka.
+Sa kowòdone plizyè koulè:
+- BLUE: Montan prè a, to a ak dire a.
+- PURPLE: Kondisyon garanti a, règ sou konsantman mari oswa madanm, ak ki byen lwa lokal la ka pwoteje kont sezi (RÈG ESPESIFIK POU REJYON AN).
+- RED: Si moun ki prete a vle tou yon ipotèk sou kay ou.
+- WHITE: Si kont ekonomi oswa envestisman ou yo ka touche.
+- BLACK: Konbyen risk pèsonèl ou vle pran pou biznis sa a.
+SIPOZISYON/OPINYON: Garanti yo souvan ka negosye, sitou pou biznis ki gen yon istwa ki ka pwouve. Yon garanti ak limit oswa ki fini ak tan ka koute yon ti to pi wo, e echanj sa a ka vo lapenn anpil.
+
+## Egzanp pratik
+EGZANP ILISTRATIF: Biznis Sofia prete 300 000 dola pou louvri yon dezyèm kote. Premye bouyon bank lan mande yon garanti pèsonèl san limit nan men Sofia ak asosye l, solidè, plis yon ipotèk sou kay Sofia.
+Kont pwopozisyon Sofia, ke li prepare ak avoka l:
+- Garanti a limite a 50 % balans ki rete a.
+- Garanti a fini apre 36 peman alè si biznis la kenbe yon kouvèti sèvis dèt ki fikse.
+- Pa gen ipotèk sou kay li; olye de sa, bank lan jwenn yon dwa garanti sou ekipman nouvo kote a.
+- Chak asosye garanti pwòp pati pa l (separe), pa tout montan an.
+Bank lan aksepte limit lan ak fen garanti a, men li kenbe responsablite solidè a. An echanj, li ajoute 0,25 % sou to a.
+SIPOZISYON/OPINYON: Sofia peye yon ti kras plis enterè, men li limite risk pèsonèl li e li kenbe kay li andeyò biznis la. Li siyen tou yon akò ekri ak asosye l ke chak moun ap remèt lòt la nenpòt montan li peye ki depase pwòp pati pa l.
+
+## Egzamen pratik
+**Q1. Kisa yon garanti pèsonèl fè?**
+A) Li pèmèt moun ki prete a rive sou byen pèsonèl mèt la si biznis la pa peye
+B) Li bese to a otomatikman
+C) Li fè prè a pa gen taks
+D) Li fini egzistans fòm sosyete a
+**Q2. Kisa yon garanti ki fini ak tan ye?**
+A) Yon garanti ki double ak tan
+B) Yon garanti sou yon asirans dife
+C) Yon garanti ki diminye oswa fini lè biznis la rive nan objektif ki fikse
+D) Yon garanti san limit
+**Q3. Kisa "solidè" an jeneral vle di lè gen plizyè moun ki garanti?**
+A) Chak moun peye sèlman pati pa l
+B) Pèsonn pa oblije peye
+C) Moun ki prete a ka mande tout montan an nan men nenpòt youn nan moun ki garanti yo
+D) Se sèlman biznis la ki peye
+**Q4. Kisa Sofia te bay pou l jwenn yon garanti ak limit e ki fini ak tan?**
+A) Kay li
+B) Pati pwopriyete l
+C) Yon ti to enterè pi wo
+D) Anyen
+**Q5. Poukisa Sofia te siyen yon akò apa ak asosye l?**
+A) Pou evite taks
+B) Pou chak moun remèt lòt la peman ki depase pwòp pati pa l
+C) Pou vann biznis la
+D) Paske bank lan te egzije l
+
+## Kle repons yo
+Q1: A
+Q2: C
+Q3: C
+Q4: C
+Q5: B
+
+## Repons ak eksplikasyon
+**Q1.** Yon garanti louvri risk pèsonèl la ankò pou dèt espesifik sa a.
+**Q2.** Kondisyon ki fini ak tan diminye risk pèsonèl la lè biznis la pwouve tèt li.
+**Q3.** Chak moun ki garanti ka reponn pou tout dèt la. RÈG ESPESIFIK POU REJYON AN.
+**Q4.** Li te aksepte 0,25 % plis enterè pou yon risk ki gen limit.
+**Q5.** Akò sa a pwoteje chak asosye si bank lan ale chèche lajan an sèlman nan men youn.
+
+## Pwen kle yo
+- Yon garanti pèsonèl louvri risk pèsonèl la ankò pou prè espesifik sa a
+- Garanti san limit, ak limit ak ki fini ak tan pote risk ki diferan anpil
+- Responsablite solidè ka fè yon sèl asosye peye tout
+- Kondisyon garanti yo souvan ka negosye; yon ti ogmantasyon to ka vo yon limit
+
+===== PURPLE-L5-010
+TITLE: Kenbe mi an kanpe: fòmalite sosyete ak "pèse vwal la"
+SUMMARY: Pwoteksyon yon fòm sosyete depann de trete l vrèman apa; melanje lajan, mank kapital ak mank fòmalite se siy danje, yon kontabilite pwòp ak kont apa pwoteje mi legal la, e yon woutin senp chak mwa se yon asirans ki pa chè.
+KEYWORDS: pèse vwal sosyete a, fòmalite sosyete, melanje lajan, abi fòm sosyete, mank kapital
+# Kenbe mi an kanpe: fòmalite sosyete ak "pèse vwal la"
+
+## Senaryo ouvèti
+SIPOZISYON/OPINYON (sinaryo ipotetik, sèlman pou objektif ansèyman): Imajine yon gouvènman mwayen ki fè konnen li ka pa kapab fè yon peman ki gen pou fèt sou obligasyon leta li yo, sa ki ogmante risk li pa peye dèt li.
+Aplike l isit la: Pandan kriz dèt yon leta ap vin pi grav, bank ak founisè yo vin pi agresif ak biznis ki nan difikilte. Mande atravè koulè yo: Si yon kreyansye fè pwosè, èske fòm sosyete biznis la (PURPLE) ap kenbe? Oswa èske yon kontabilite ki pa an lòd (GREEN) ak kont labank ki melanje (BLUE) ap pèmèt kreyansye a rive sou byen pèsonèl mèt la (RED/WHITE)?
+
+## Objektif aprantisaj
+- Eksplike kisa "pèse vwal la" ye e poukisa tribinal yo fè sa
+- Nonmen konpòtman komen ki febli pwoteksyon fòm sosyete a
+- Bati yon woutin senp ki kenbe separasyon fòm sosyete a fò
+
+## Kontni prensipal
+Chak estrikti nan nèf premye leson nivo sa a depann de yon sèl bagay: fòm sosyete a dwe vrèman trete apa de mèt li yo. Si se pa sa, yon tribinal ka deside li pa merite pou yo trete l apa non plis.
+FÈ VERIFYE: Anpil sistèm legal pèmèt tribinal yo, nan sèten sitiyasyon, inyore yon fòm sosyete e fè mèt yo reponn pèsonèlman. Yo souvan rele sa "pèse vwal sosyete a". Tès egzak la se yon RÈG ESPESIFIK POU REJYON AN, men tribinal yo souvan gade siy danje ki sanble; an Ayiti, pa egzanp, dapre enfòmasyon ki disponib, aksyonè yon sosyete anonim an jeneral pa reponn pou dèt sosyete a pi plis pase sa yo te mete ladan l, men administratè yo ka reponn pèsonèlman pou fòt nan jesyon, e tribinal yo ka gade si sosyete a te vrèman separe, kidonk verifye sa ak yon avoka.
+Siy danje komen:
+- Melanje: Lajan pèsonèl ak lajan biznis nan menm kont, oswa lajan biznis ki peye bòdwo pèsonèl san dosye.
+- Mank kapital: Yo te kreye biznis la ak twò piti lajan oswa twò piti asirans pou obligasyon yo te ka prevwa.
+- Mank fòmalite: Pa gen dosye sou gwo desizyon, obligasyon anyèl pa respekte, pa gen kontra apa.
+- Alter ego: Mèt la trete biznis la tankou yon pwolonjman tèt li, pa tankou yon antite legal apa.
+- Fwod oswa enjistis: Yo te sèvi ak fòm sosyete a pou twonpe kreyansye yo.
+Men kote koulè yo travay ansanm:
+- GREEN: Yon kontabilite pwòp e yon bon dokimantasyon sou retrè, salè ak prè mèt yo pwoteje separasyon legal la tou.
+- BLUE: Yon kont labank biznis apa, yon kat kredi biznis ak ase kapital pou kòmanse.
+- PURPLE: Siyen kontra nan non biznis la ak fonksyon w ("Jane Lee, Manadjè, Lee Services LLC"), kenbe pwosè-vèbal oswa rezolisyon ekri sou gwo desizyon, e respekte obligasyon anyèl yo.
+- RED: Si fòm sosyete a posede imobilye, lwaye ak depans yo pase nan kont fòm sosyete a.
+SIPOZISYON/OPINYON: Erè ki pi komen an se pa fwod. Se neglijans òdinè. Mèt yo peye yon bòdwo pèsonèl ak kont biznis la "jis fwa sa a sèlman", jiskaske sa vin yon abitid.
+
+## Egzanp pratik
+EGZANP ILISTRATIF: De mèt, de rezilta.
+Mèt A jere yon LLC nan konstriksyon. Li gen yon kont biznis apa, li peye tèt li ak retrè ki dokimante, li siyen kontra kòm "Manadjè", li kenbe yon klasè rezolisyon ekri sou gwo desizyon, e li respekte obligasyon anyèl yo alè. Li gen yon asirans responsablite sivil. Yon kliyan fè pwosè pou plis pase sa asirans lan kouvri. Tribinal la trete LLC a apa. Reklamasyon an rete limite sou byen biznis la.
+Mèt B jere yon LLC ki sanble. Li peye ipotèk kay li ak prè machin li ak kont biznis la, li depoze kèk chèk kliyan nan kont pèsonèl li, li pa janm respekte obligasyon anyèl yo, e li te kreye biznis la prèske san kapital ni asirans. Yon kliyan fè pwosè. Avoka kliyan an montre kont ki melanje yo ak obligasyon ki pa respekte yo. Tribinal la deside LLC a te alter ego li e li pèmèt reklamasyon an rive sou byen pèsonèl li.
+SIPOZISYON/OPINYON: Tou de mèt yo te gen menm fòm sosyete a. Diferans lan se te konpòtman. Yon woutin senp chak mwa (rekonsilye kont yo, anrejistre retrè yo, depoze tout sa ki dwe depoze) se yon asirans ki pa chè.
+
+## Egzamen pratik
+**Q1. Kisa "pèse vwal sosyete a" ye?**
+A) Kreye yon nouvo sosyete
+B) Yon tribinal inyore yon fòm sosyete e fè mèt yo reponn pèsonèlman
+C) Depoze taks bonè
+D) Vann aksyon biznis la
+**Q2. Kilès nan sa yo ki se yon siy danje komen pou "pèse vwal la"?**
+A) Yon kont labank biznis apa
+B) Melanje lajan pèsonèl ak lajan biznis
+C) Respekte obligasyon anyèl yo
+D) Genyen yon asirans responsablite sivil
+**Q3. Kisa mank kapital vle di?**
+A) Kreye yon biznis ak twò piti lajan oswa asirans pou obligasyon yo te ka prevwa
+B) Genyen twòp lajan
+C) Peye twòp taks
+D) Genyen twòp mèt
+**Q4. Kijan yon mèt dwe siyen kontra pou sipòte separasyon an?**
+A) Sèlman ak non pèsonèl li
+B) Nan non biznis la ak fonksyon li
+C) San non
+D) Ak yon tinon
+**Q5. Dapre leson an, kisa ki kòz ki pi komen pwoblèm "pèse vwal la"?**
+A) Fwod
+B) Taks ki wo
+C) Twòp avoka
+D) Neglijans òdinè ki tounen abitid
+
+## Kle repons yo
+Q1: B
+Q2: B
+Q3: A
+Q4: B
+Q5: D
+
+## Repons ak eksplikasyon
+**Q1.** Tribinal yo ka inyore fòm sosyete a nan sèten sitiyasyon. Tès la depann de chak rejyon.
+**Q2.** Lajan ki melanje montre fòm sosyete a pa vrèman apa.
+**Q3.** Tribinal yo ka wè yon fòm sosyete ki pa gen ase lajan kòm yon fason pou evite responsablite.
+**Q4.** Siyen kòm reprezantan biznis la montre se biznis la, pa moun nan, ki pati nan kontra a.
+**Q5.** Ti rakousi ki repete febli separasyon an ak tan.
+
+## Pwen kle yo
+- Pwoteksyon yon fòm sosyete depann de trete l vrèman apa
+- Melanje lajan, mank kapital ak mank fòmalite se siy danje
+- Liv kontab pwòp (GREEN) ak kont apa (BLUE) pwoteje mi legal la (PURPLE)
+- Yon woutin senp chak mwa se yon asirans ki pa chè
