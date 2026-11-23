@@ -1,0 +1,486 @@
+===== ORANGE-L5-011
+TITLE: Marketing tijdens inflatie: prijzen verhogen zonder vertrouwen te verliezen
+SUMMARY: Inflatie dwingt tot een keuze tussen marge en klantbehoud; gebruik gerichte verhogingen, prijsniveaus en extra waarde, communiceer vroeg en eerlijk zonder verborgen wijzigingen, en bescherm de marges om de financiering te beschermen.
+KEYWORDS: prijzen verhogen bij inflatie, een prijsverhoging communiceren, marketingstrategie bij inflatie, marges beschermen
+# Marketing tijdens inflatie: prijzen verhogen zonder vertrouwen te verliezen
+
+## Openingsscenario
+AANNAME/MENING (hypothetisch scenario, uitsluitend voor onderwijsdoeleinden): Stel je een centrale bank voor die haar beleidsrente in een korte periode van enkele maanden fors en herhaaldelijk verhoogt om de stijgende inflatie te bestrijden.
+Pas het hier toe: De inflatie is hoog en een centrale bank blijft de rente verhogen. De kosten van een bedrijf zijn met 15% gestegen. Vraag over de kleuren heen: hoeveel moeten de prijzen stijgen, en hoe moet de verhoging worden uitgelegd (ORANGE)? Wat staan de bestaande klantcontracten toe (PURPLE)? Wat gebeurt er met de kasstroom en de leningsconvenanten als de marges krimpen (BLUE)? Hoe verandert inflatie de reële waarde van het geld dat het bedrijf aanhoudt (WHITE)?
+
+## Leerdoelen
+- Bepalen hoe en wanneer je de prijzen tijdens inflatie verhoogt
+- Prijsverhogingen zo communiceren dat het vertrouwen behouden blijft
+- Prijsstelling afstemmen op contracten, kasstroom en financiering
+
+## Kerninhoud
+Inflatie dwingt tot een moeilijke keuze. Als een bedrijf de prijzen niet verhoogt, slinken de marges door de stijgende kosten. Als het de prijzen slecht verhoogt, kunnen klanten vertrekken. Marketing op niveau 5 pakt dit aan door prijsstelling, communicatie, contracten en financiën te coördineren.
+Benaderingen voor prijsstelling tijdens inflatie:
+- Verhogingen over de hele linie: eenvoudig, maar kan prijsgevoelige klanten hard raken.
+- Gerichte verhogingen: de prijzen sterker verhogen bij producten waarvoor klanten minder prijsgevoelig zijn.
+- Prijsniveaus: een goedkopere optie toevoegen zodat prijsgevoelige klanten kunnen overstappen in plaats van te vertrekken.
+- Kleinere, frequentere verhogingen tegenover één grote verhoging: elk heeft afwegingen in hoe klanten het ervaren.
+- Waarde toevoegen: verhogingen combineren met betere service, functies of garanties.
+Communicatieprincipes:
+- Kondig het vooraf aan.
+- Leg het eerlijk uit (stijgende kosten van materialen, arbeid of energie).
+- Benadruk de waarde die klanten blijven krijgen.
+- Vermijd misleidende tactieken, zoals verpakkingen stilletjes kleiner maken zonder het te melden, wat juridische problemen en vertrouwensproblemen kan geven. REGIOSPECIFIEKE REGEL; in Nederland bijvoorbeeld kan de Autoriteit Consument & Markt volgens beschikbare informatie optreden tegen oneerlijke handelspraktijken, en kan een kleinere inhoud tegen dezelfde prijs misleidend zijn als consumenten daar niet duidelijk over worden geïnformeerd, dus controleer dit met een advocaat.
+Hoe de kleuren samenhangen:
+- PURPLE: Bestaande contracten kunnen de prijzen vastleggen. Prijsaanpassingsclausules (PURPLE-L5-039 in het juridische traject) helpen in toekomstige contracten.
+- BLUE: Krimpende marges kunnen leningsconvenanten schenden die bepaalde winstniveaus eisen. De marge beschermen is de financiering beschermen.
+- WHITE: Inflatie vermindert de reële waarde van geld. Sneller betaald worden en minder geld laten stilstaan kan helpen.
+- GREEN: Hogere nominale prijzen kunnen de belastingaanslag verhogen, ook als de reële winst niet is gegroeid. REGIOSPECIFIEKE REGEL.
+- BLACK: Leiders moeten beslissen hoeveel marge ze opofferen om klanten te houden.
+AANNAME/MENING: Klanten begrijpen inflatie meestal wel. Wat het vertrouwen schaadt, zijn verrassingen, verborgen wijzigingen of verhogingen die veel groter lijken dan de kosten erachter.
+
+## Uitgewerkt voorbeeld
+ILLUSTRATIEF VOORBEELD: Nora heeft een groothandel in schoonmaakmiddelen. De kosten stegen met 15%. Haar marges daalden van 25% naar 14%. Haar banklening eist een minimale winstverhouding die ze bijna niet meer haalt.
+Haar plan:
+- Contracten (PURPLE): 30% van de klanten heeft contracten met een vaste prijs die binnen 6 maanden aflopen. Nieuwe contracten krijgen een prijsaanpassingsclausule gekoppeld aan een kostenindex.
+- Prijzen (ORANGE): een gemiddelde verhoging van 10%, hoger bij speciale producten waarvoor klanten minder prijsgevoelig zijn, lager bij basisartikelen waar de concurrentie fel is.
+- Prijsniveaus: ze voegt een voordelige lijn basisproducten tegen lagere prijzen toe.
+- Communicatie: klanten krijgen 45 dagen vooraf een brief die de kostenstijgingen uitlegt en manieren noemt om te besparen, waaronder de voordelige lijn en bestellen in grotere hoeveelheden.
+- Financiën (BLUE): ze laat haar bank het prijsplan en de verwachte marges zien, en de bank gaat ermee akkoord de lening niet op te eisen terwijl het plan effect krijgt.
+Resultaat: de marges herstellen naar 21%. Een paar klanten stappen over op de voordelige lijn; heel weinig vertrekken. AANNAME/MENING: Nora beschermde marges, klanten en financiering door alle vier te coördineren in plaats van simpelweg de prijzen te verhogen.
+
+## Oefenquiz
+**Q1. Wat gebeurt er met een bedrijf dat tijdens inflatie de prijzen niet verhoogt?**
+A) De stijgende kosten verkleinen de marges
+B) De marges groeien
+C) De belastingen dalen
+D) Klanten betalen automatisch meer
+**Q2. Wat is het doel van prijsniveaus tijdens inflatie?**
+A) Klanten verwarren
+B) Contracten ontlopen
+C) Alle prijzen verhogen
+D) Prijsgevoelige klanten laten overstappen in plaats van te vertrekken
+**Q3. Waarom kunnen krimpende marges de financiering bedreigen?**
+A) Banken houden niet van inflatie
+B) Het zegt leningen op
+C) Het verhoogt automatisch de rente
+D) Leningsconvenanten kunnen minimale winstniveaus eisen
+**Q4. Welk communicatieprincipe beveelt de les aan?**
+A) Prijzen verhogen zonder aankondiging
+B) Concurrenten de schuld geven
+C) Verhogingen verbergen in kleinere verpakkingen
+D) Vooraf aankondigen en eerlijk uitleggen
+**Q5. Wat schaadt volgens de les het vertrouwen het meest?**
+A) Elke prijsverhoging
+B) Verrassingen, verborgen wijzigingen of verhogingen die veel groter zijn dan de kosten
+C) Vooraf aankondigen
+D) Alternatieven aanbieden
+
+## Antwoordsleutel
+Q1: A
+Q2: D
+Q3: D
+Q4: D
+Q5: B
+
+## Antwoorden en uitleg
+**Q1.** De kosten stijgen terwijl de prijzen gelijk blijven.
+**Q2.** Goedkopere opties houden klanten binnen.
+**Q3.** Het schenden van convenanten kan de kredietverstrekker in actie brengen.
+**Q4.** Eerlijkheid en aankondiging beschermen het vertrouwen.
+**Q5.** Klanten accepteren eerlijke verhogingen makkelijker.
+
+## Belangrijkste punten
+- Inflatie dwingt tot een keuze tussen marge en klantbehoud
+- Gebruik gerichte verhogingen, prijsniveaus en extra waarde
+- Communiceer vroeg en eerlijk; vermijd verborgen wijzigingen
+- Bescherm de marges om de financiering te beschermen
+
+===== ORANGE-L5-012
+TITLE: Marketing in een recessie: bezuinigen of investeren?
+SUMMARY: Marketingbeslissingen in een recessie hangen af van de financiële kracht; marketing volhouden kan marktaandeel opleveren, maar alleen als het bedrijf kan overleven, uitgaven moeten verschuiven naar meetbare kanalen, klantbehoud en waarde, en reserves die in goede tijden worden opgebouwd geven opties in slechte tijden.
+KEYWORDS: marketingstrategie in een recessie, marketing in een neergang, marketingbudget verlagen, anticyclische marketing, marktaandeel in een recessie
+# Marketing in een recessie: bezuinigen of investeren?
+
+## Openingsscenario
+AANNAME/MENING (hypothetisch scenario, uitsluitend voor onderwijsdoeleinden): Stel je voor dat de vastgoed- en consumentenkredietmarkten van een dichtbevolkt land na jaren van snelle groei tekenen beginnen te vertonen van een scherpe correctie, terwijl de betalingsachterstanden toenemen.
+Pas het hier toe: Een kredietcorrectie duwt de economie in een recessie. Concurrenten schrappen fors in hun marketingbudget. Vraag over de kleuren heen: heeft het bedrijf genoeg kas (BLUE) om door te gaan met marketing? Kan het goedkoop marktaandeel winnen terwijl anderen zich terugtrekken (ORANGE)? Wat denkt de leiding (BLACK) over hoe lang de neergang duurt? Hoe beïnvloeden de verschillende keuzes de waarde van het bedrijf (WHITE)?
+
+## Leerdoelen
+- Bezuinigen en volhouden op marketing in een neergang vergelijken
+- Marketing in een recessie koppelen aan kasreserves en risicobereidheid
+- Marketingboodschappen en kanalen aanpassen aan recessieomstandigheden
+
+## Kerninhoud
+In een recessie is bezuinigen op marketing vaak de eerste zet van bedrijven. Het gaat snel en lijkt pijnloos. Maar de beslissing heeft afwegingen.
+Argumenten om te bezuinigen:
+- Kas vasthouden om te overleven.
+- Klanten kopen minder, dus marketing levert mogelijk minder op.
+- De winstgevendheid beschermen om kredietverstrekkers tevreden te houden.
+Argumenten om vol te houden of te investeren:
+- Als concurrenten bezuinigen, kunnen de advertentiekosten dalen en heeft je boodschap minder concurrentie.
+- Klanten kopen nog steeds het noodzakelijke en onthouden merken die zichtbaar bleven.
+- Marktaandeel dat in een neergang is gewonnen, kan in het herstel blijven.
+AANNAME/MENING: Sommige onderzoeken en veel praktijkmensen suggereren dat bedrijven die tijdens een neergang blijven adverteren marktaandeel kunnen winnen. Maar dat werkt alleen voor bedrijven met genoeg financiële kracht om te overleven. Een bedrijf dat zich failliet adverteert, wint niets.
+Hoe de kleuren samenhangen:
+- BLUE: Kasreserves en toegang tot krediet bepalen hoeveel risico het bedrijf kan nemen.
+- BLACK: De leiding moet inschatten hoe lang de neergang duurt en duidelijke grenzen aan de uitgaven stellen.
+- WHITE: Bedrijven die met meer marktaandeel uit een recessie komen, kunnen meer waard zijn.
+- PURPLE: Contracten met reclamebureaus en media kunnen beperken hoe snel de uitgaven omlaag kunnen.
+- GREEN: REGIOSPECIFIEKE REGEL: Marketingkosten zijn vaak aftrekbaar, wat de nettokosten verlaagt als het bedrijf winstgevend blijft; in Nederland bijvoorbeeld zijn reclamekosten volgens beschikbare informatie in de regel aftrekbaar van de winst, terwijl verliezen voor de vennootschapsbelasting onbeperkt vooruit kunnen worden verrekend maar boven een bepaald bedrag slechts gedeeltelijk per jaar, dus controleer dit met een belastingadviseur.
+Slimme marketing in een recessie betekent vaak verschuiven, niet alleen schrappen:
+- Uitgaven verplaatsen naar kanalen met meetbaar rendement.
+- Focussen op het behouden van bestaande klanten (goedkoper dan nieuwe winnen).
+- Boodschappen richten op waarde, betrouwbaarheid en praktische voordelen.
+- Flexibele opties bieden, zoals kleinere verpakkingen of betalingsregelingen.
+AANNAME/MENING: De beste marketingbeslissingen voor een recessie worden vóór de recessie genomen. Bedrijven met kasreserves en heldere plannen hebben opties die anderen niet hebben.
+
+## Uitgewerkt voorbeeld
+ILLUSTRATIEF VOORBEELD: Twee klusbedrijven krijgen te maken met een recessie.
+Bedrijf A heeft 6 maanden kasreserves en geen schulden. Bedrijf B heeft 1 maand reserves en een grote lening.
+Het plan van bedrijf A:
+- Houdt 80% van het marketingbudget aan, maar verschuift het: minder merkreclame, meer gerichte online advertenties met meetbare resultaten.
+- De boodschap is "repareren, niet vervangen", zodat klanten geld besparen.
+- Biedt betalingsregelingen aan via een partner met vergunning (zie ORANGE-L5-001).
+- Stelt een regel: als de kasreserves onder de 3 maanden zakken, wordt er verder op marketing bezuinigd.
+Het plan van bedrijf B:
+- Bezuinigt 70% op marketing om de kas te beschermen en aan de leningsvoorwaarden te voldoen.
+- Richt zich op bestaande klanten via goedkope e-mail en verwijzingsprogramma's.
+Tijdens de recessie dalen de advertentiekosten omdat concurrenten bezuinigen. Bedrijf A wint klanten tegen lagere kosten. Bedrijf B overleeft, maar verliest wat marktaandeel.
+AANNAME/MENING: Beide bedrijven maakten redelijke keuzes gezien hun financiële positie. De kasreserves van bedrijf A, opgebouwd in goede tijden, gaven het de mogelijkheid te investeren toen anderen dat niet konden.
+
+## Oefenquiz
+**Q1. Waarom bezuinigen bedrijven in een recessie vaak eerst op marketing?**
+A) Doorgaan met uitgeven is illegaal
+B) Het gaat snel en lijkt pijnloos
+C) Klanten eisen het
+D) Het verhoogt de winst blijvend
+**Q2. Welke kans kan ontstaan als concurrenten op marketing bezuinigen?**
+A) Hogere kosten
+B) Minder klanten in totaal
+C) Lagere advertentiekosten en minder concurrentie om aandacht
+D) Hogere belastingen
+**Q3. Wat begrenst de strategie om in een neergang door te gaan met marketing?**
+A) Het bedrijf moet financieel sterk genoeg zijn om te overleven
+B) Niets
+C) Overheidsregels
+D) Klachten van klanten
+**Q4. Wat betekent "verschuiven, niet alleen schrappen"?**
+A) Kantoren verhuizen
+B) Alle marketeers ontslaan
+C) Uitgaven verplaatsen naar meetbare kanalen, klantbehoud en waardeboodschappen
+D) De uitgaven verdubbelen
+**Q5. Waarom had bedrijf A meer opties dan bedrijf B?**
+A) Meer geluk
+B) Het had meer werknemers
+C) Het had kasreserves en geen schulden
+D) Het was ouder
+
+## Antwoordsleutel
+Q1: B
+Q2: C
+Q3: A
+Q4: C
+Q5: C
+
+## Antwoorden en uitleg
+**Q1.** Marketing is een uitgave die je snel kunt schrappen.
+**Q2.** Minder concurrentie kan marketing efficiënter maken.
+**Q3.** Zich failliet uitgeven levert niets op.
+**Q4.** Slimme aanpassingen kunnen het rendement verbeteren.
+**Q5.** Reserves uit goede tijden schiepen flexibiliteit.
+
+## Belangrijkste punten
+- Marketingbeslissingen in een recessie hangen af van de financiële kracht
+- Marketing volhouden kan marktaandeel opleveren, maar alleen als het bedrijf kan overleven
+- Verschuif uitgaven naar meetbare kanalen, klantbehoud en waarde
+- Bouw reserves op in goede tijden om opties te hebben in slechte tijden
+
+===== ORANGE-L5-013
+TITLE: Communiceren tijdens een aanbodschok
+SUMMARY: Communiceer vroeg, eerlijk, concreet en vaak; keuzes in de verdeling zeggen iets over de waarden van het bedrijf, contractuele meldingsregels moeten worden gevolgd, ook bij overmacht, en klanten onthouden hoe je hen in een crisis behandelde.
+KEYWORDS: communicatie bij een aanbodschok, verstoring van de toeleveringsketen en klanten, leveringsvertraging communiceren, vertrouwenscrisis bij klanten
+# Communiceren tijdens een aanbodschok
+
+## Openingsscenario
+AANNAME/MENING (hypothetisch scenario, uitsluitend voor onderwijsdoeleinden): Stel je een wijdverspreide volksgezondheidscrisis voor die de wereldwijde scheepvaart en productie langdurig stillegt, waardoor de toeleveringsketens van veel sectoren tegelijk vastlopen.
+Pas het hier toe: Een wijdverspreide verstoring legt de scheepvaart stil, en een bedrijf kan bestellingen niet op tijd leveren. Vraag over de kleuren heen: wat moet klanten worden verteld, en wanneer (ORANGE)? Wat beloven de contracten over levering (PURPLE)? Moet beperkte voorraad naar de winstgevendste of de trouwste klanten gaan (BLUE/BLACK)? Moeten de prijzen veranderen?
+
+## Leerdoelen
+- Eerlijk en vroeg communiceren tijdens verstoringen in het aanbod
+- Communicatie afstemmen op contractuele verplichtingen
+- Eerlijke beslissingen nemen over verdeling en prijs bij schaarste
+
+## Kerninhoud
+Als het aanbod verstoord raakt, ervaren klanten dat als gebroken beloften: late leveringen, ontbrekende producten of plotselinge prijswijzigingen. Hoe een bedrijf communiceert, kan bepalen of klanten trouw blijven of voorgoed vertrekken.
+Communicatieprincipes:
+- Vroeg: vertel het klanten zodra je van een probleem weet, niet pas als zij het ontdekken.
+- Eerlijk: leg uit wat er gebeurd is, wat je weet en wat je niet weet.
+- Concreet: geef realistische termijnen, ook als het bandbreedtes zijn.
+- Vaak: geef regelmatig updates, ook als er geen nieuws is.
+- Opties: bied alternatieven, zoals vervangende producten, deelleveringen of terugbetalingen.
+Verdeling bij schaarste: als er niet genoeg product is voor iedereen, moeten bedrijven bepalen wie wat krijgt. Mogelijkheden:
+- Wie het eerst komt, het eerst maalt.
+- Voorrang voor vaste klanten of klanten met een contract.
+- Evenredige verdeling (elke klant krijgt hetzelfde percentage van zijn bestelling).
+- Voorrang voor essentiële toepassingen.
+Elke keuze zegt iets over de waarden van het bedrijf.
+Hoe de kleuren samenhangen:
+- PURPLE: Contracten kunnen levering op bepaalde data eisen. Overmachtsclausules (PURPLE-L5-039 in het juridische traject) kunnen vertraging rechtvaardigen als de gebeurtenis eronder valt en de meldingsregels worden gevolgd. Meldingstermijnen doen ertoe.
+- BLUE: Voorraad, kasstroom en relaties met leveranciers bepalen wat kan worden geleverd.
+- ORANGE: Prijsstelling tijdens tekorten vraagt zorg. Grote verhogingen tijdens noodsituaties kunnen op sommige plaatsen beperkt zijn en het vertrouwen schaden. REGIOSPECIFIEKE REGEL; in Nederland bijvoorbeeld bestaat er volgens beschikbare informatie geen algemeen verbod op prijsverhogingen in een crisis, maar kunnen misleidende of agressieve handelspraktijken en prijsafspraken met concurrenten door de Autoriteit Consument & Markt worden aangepakt, dus controleer dit met een advocaat.
+- BLACK: De leiding bepaalt de verdelingsprincipes en communiceert ze consequent.
+AANNAME/MENING: Klanten onthouden vaak hoe een bedrijf hen tijdens een crisis behandelde, lang nadat ze de crisis zelf vergeten zijn.
+
+## Uitgewerkt voorbeeld
+ILLUSTRATIEF VOORBEELD: Het bedrijf van Hugo levert verpakkingen aan voedselproducenten. Een verstoring in de scheepvaart verlaagt zijn aanvoer drie maanden lang met 40%.
+Zijn reactie:
+- Dag 1: hij stuurt klanten een duidelijk bericht: "We verwachten ongeveer 3 maanden een tekort van 40% in de aanvoer. Dit weten we, dit doen we en dit kunt u verwachten."
+- Contracten (PURPLE): zijn advocaat bevestigt dat de verstoring in de meeste contracten onder de overmachtsclausule valt en helpt de vereiste meldingen binnen de termijn te versturen.
+- Verdeling: Hugo verdeelt het aanbod evenredig, zodat elke klant 60% van zijn gebruikelijke bestelling krijgt. Klanten die essentiële voedingsmiddelen maken, krijgen voorrang op een kleine reserve.
+- Opties: hij biedt vervangende verpakkingen van een tweede leverancier aan tegen een kleine, duidelijk uitgelegde meerprijs.
+- Updates: wekelijkse e-mails met nieuwe informatie.
+- Prijzen: hij rekent alleen zijn werkelijke extra kosten voor vervangende materialen door, geen crisistoeslag.
+Na de verstoring blijven de meeste klanten. Een aantal prijst zijn communicatie. Een concurrent die zweeg en de prijzen fors verhoogde, verliest meerdere klanten aan Hugo.
+AANNAME/MENING: Hugo kon de verstoring niet voorkomen. Hij kon wel bepalen hoe hij klanten in die periode behandelde.
+
+## Oefenquiz
+**Q1. Waarom moeten bedrijven tijdens een verstoring in het aanbod vroeg communiceren?**
+A) Om juridische meldingen te vermijden
+B) Het verhoogt de prijzen
+C) Klanten moeten van problemen horen voordat ze die zelf ontdekken
+D) Het is alleen wettelijk verplicht
+**Q2. Wat is evenredige verdeling?**
+A) Elke klant krijgt hetzelfde percentage van zijn bestelling
+B) Alleen de grootste klanten bedienen
+C) Wie het eerst komt, het eerst maalt
+D) Willekeurige verdeling
+**Q3. Waarom doen meldingstermijnen bij overmacht ertoe?**
+A) Ze verlagen de prijzen
+B) Ze verlengen contracten
+C) Ze zijn optioneel
+D) Wie ze mist, kan de bescherming van de clausule verliezen
+**Q4. Waarom zag Hugo af van een crisistoeslag?**
+A) Grote verhogingen in noodsituaties kunnen het vertrouwen schaden en kunnen beperkt zijn
+B) Het was overal illegaal
+C) Hij had geen kosten
+D) Klanten eisten gratis producten
+**Q5. Wat onthouden klanten volgens de les na een crisis?**
+A) Hoe het bedrijf hen in die periode behandelde
+B) Alleen de crisis
+C) Niets
+D) Alleen de prijzen
+
+## Antwoordsleutel
+Q1: C
+Q2: A
+Q3: D
+Q4: A
+Q5: A
+
+## Antwoorden en uitleg
+**Q1.** Vroege communicatie bouwt vertrouwen op.
+**Q2.** Evenredige verdeling spreidt tekorten gelijkmatig.
+**Q3.** Meldingsvereisten moeten worden gevolgd.
+**Q4.** Eerlijke prijzen behielden de relaties. REGIOSPECIFIEKE REGEL.
+**Q5.** Gedrag in een crisis bepaalt de loyaliteit op lange termijn.
+
+## Belangrijkste punten
+- Communiceer vroeg, eerlijk, concreet en vaak
+- Keuzes in de verdeling zeggen iets over de waarden van het bedrijf
+- Volg de contractuele meldingsregels, ook bij overmacht
+- Klanten onthouden hoe je hen in een crisis behandelde
+
+===== ORANGE-L5-014
+TITLE: Een buitenlandse markt betreden: vertalen is geen lokaliseren
+SUMMARY: Vertalen is geen lokaliseren en taal is geen rechtsgebied; lokaliseer product, prijs, boodschap, kanalen en naleving, besef dat juridische en fiscale verplichtingen al bij de eerste verkoop kunnen beginnen, en gebruik lokale kennis en partners om de markt beter te betreden.
+KEYWORDS: toetreding tot een buitenlandse markt, lokalisatie tegenover vertaling, wereldwijde marketingstrategie, buitenlandse markten betreden
+# Een buitenlandse markt betreden: vertalen is geen lokaliseren
+
+## Openingsscenario
+AANNAME/MENING (hypothetisch scenario, uitsluitend voor onderwijsdoeleinden): Stel je een groot handelsblok voor dat plotseling hoge invoerheffingen oplegt op een brede categorie geïmporteerde industriële goederen, waardoor de kosten stijgen voor bedrijven die die import als grondstof of onderdeel gebruiken.
+Pas het hier toe: Nieuwe invoerheffingen maken de thuismarkt van een bedrijf minder aantrekkelijk, dus het wil een nieuw land betreden. Vraag over de kleuren heen: is het vertalen van de website genoeg (ORANGE), of moeten producten, prijzen en boodschappen veranderen? Welke juridische inschrijvingen en nalevingsstappen zijn nodig (PURPLE)? Welke belastingverplichtingen ontstaan (GREEN)? Hoeveel kost de toetreding voordat er omzet binnenkomt (BLUE)?
+
+## Leerdoelen
+- Vertalen onderscheiden van lokaliseren
+- De onderdelen van een plan voor markttoetreding benoemen
+- Juridische, fiscale en financiële voorbereiding op toetreding coördineren
+
+## Kerninhoud
+Het vertaalprotocol van het leerprogramma bevat een principe dat direct voor marketing geldt: vertalen is geen lokaliseren, en taal is geen rechtsgebied.
+- Vertalen zet woorden om van de ene taal in de andere.
+- Lokaliseren past het hele aanbod aan een markt aan: productkenmerken, prijzen, betaalmethoden, culturele verwijzingen, voorbeelden, maateenheden, wettelijke eisen en verwachtingen van klanten.
+Twee landen kunnen dezelfde taal delen, maar verschillen in wetten, munt, cultuur en koopgewoonten. Eén land kan meerdere talen hebben.
+Onderdelen van een plan voor markttoetreding:
+1. Marktonderzoek: behoeften van klanten, concurrenten, prijsniveaus en koopkracht.
+2. Productaanpassing: kenmerken, maten, verpakking en normen.
+3. Prijsstelling: lokale koopkracht, prijzen van concurrenten, munt, belastingen en verzendkosten.
+4. Boodschap: cultureel passende voorbeelden, beelden en toon.
+5. Kanalen: hoe klanten in die markt het liefst kopen.
+6. Juridisch: inschrijving van het bedrijf, productnaleving, merkbescherming (PURPLE-L5-029 in het juridische traject), consumentenbescherming en gegevensbescherming. REGIOSPECIFIEKE REGEL; in Nederland bijvoorbeeld heeft een buitenlands bedrijf volgens beschikbare informatie vaak een btw-identificatienummer of een fiscaal vertegenwoordiger nodig, moeten veel producten een CE-markering of andere sectorale goedkeuringen hebben, en moet de verwerking van klantgegevens voldoen aan de AVG onder toezicht van de Autoriteit Persoonsgegevens, dus controleer dit met een advocaat.
+7. Belasting: inschrijving voor omzetbelasting of btw, blootstelling aan inkomstenbelasting door aanwezigheid in het land, en douanerechten. REGIOSPECIFIEKE REGEL.
+8. Financiën: kosten vooraf, tijd tot de eerste omzet en valutarisico.
+Hoe de kleuren samenhangen:
+- ORANGE: Lokalisatie bepaalt of klanten het aanbod begrijpen en vertrouwen.
+- PURPLE: Naleving en merkbescherming.
+- GREEN: Belastingverplichtingen kunnen eerder beginnen dan veel bedrijven verwachten.
+- BLUE: Toetredingskosten en werkkapitaal.
+- BLACK: Lokale leiding en partners die de markt begrijpen.
+AANNAME/MENING: Veel markttoetredingen mislukken niet omdat het product verkeerd was, maar omdat het bedrijf aannam dat klanten in het buitenland denken als klanten thuis.
+
+## Uitgewerkt voorbeeld
+ILLUSTRATIEF VOORBEELD: Het bedrijf van Julia verkoopt in eigen land een app voor persoonlijk budgetbeheer. Het wil een buurland betreden waar een andere taal wordt gesproken.
+Aanpak met alleen vertaling (eerste versie): de app en de website vertalen. Lanceren.
+Een lokalisatiecontrole laat zien:
+- De budgetcategorieën in de app weerspiegelen uitgaven in het thuisland. In de nieuwe markt zijn de gangbare uitgaven anders.
+- Voorbeelden gebruiken de munt en de salarisniveaus van het thuisland.
+- Klanten in de nieuwe markt geven de voorkeur aan een andere betaalmethode.
+- Wetten over gegevensbescherming vereisen aanpassingen in toestemming en gegevensverwerking. REGIOSPECIFIEKE REGEL.
+- De merknaam is beschikbaar, maar moet lokaal worden ingeschreven.
+- Inschrijving voor de btw is verplicht zodra de digitale verkoop begint. REGIOSPECIFIEKE REGEL.
+- Prijs: de lokale koopkracht is lager, dus er is een goedkoper abonnement nodig.
+De gelokaliseerde lancering van Julia:
+- Aangepaste categorieën en voorbeelden.
+- Lokale betaalopties.
+- Aangepaste prijzen.
+- Aanpassingen voor naleving en inschrijving van het merk.
+- Een lokale marketingadviseur die toon en beelden beoordeelt.
+AANNAME/MENING: De gelokaliseerde lancering kost meer en duurt langer. Maar ze levert een product op dat klanten in de nieuwe markt herkennen als voor hen gemaakt, niet alleen voor hen vertaald.
+
+## Oefenquiz
+**Q1. Wat is het verschil tussen vertalen en lokaliseren?**
+A) Vertalen zet woorden om; lokaliseren past het hele aanbod aan een markt aan
+B) Er is geen verschil
+C) Lokaliseren is goedkoper
+D) Vertalen omvat juridische naleving
+**Q2. Wat betekent "taal is geen rechtsgebied"?**
+A) Talen hebben geen wetten
+B) Landen die een taal delen, kunnen toch verschillende wetten, munten en culturen hebben
+C) Elke taal wordt in maar één land gebruikt
+D) Wetten zijn overal hetzelfde
+**Q3. Waarom kunnen belastingverplichtingen in een nieuwe markt eerder beginnen dan verwacht?**
+A) Belastingen gelden nooit
+B) Overheden negeren buitenlandse bedrijven
+C) Belastingen worden altijd uitgesteld
+D) Inschrijving voor omzetbelasting of btw kan verplicht zijn zodra de verkoop begint
+**Q4. Wat liet de lokalisatiecontrole van Julia zien over de prijs?**
+A) De prijzen moesten hoger
+B) De prijzen moesten precies gelijk zijn aan die thuis
+C) De prijs deed er niet toe
+D) De lokale koopkracht was lager, dus er was een goedkoper abonnement nodig
+**Q5. Waarom mislukken volgens de les veel markttoetredingen?**
+A) Producten zijn altijd verkeerd
+B) Vertalen is te duur
+C) Belastingen zijn te hoog
+D) Bedrijven nemen aan dat klanten in het buitenland denken als klanten thuis
+
+## Antwoordsleutel
+Q1: A
+Q2: B
+Q3: D
+Q4: D
+Q5: D
+
+## Antwoorden en uitleg
+**Q1.** Lokaliseren gaat veel verder dan taal.
+**Q2.** Een gedeelde taal betekent geen gedeelde regels.
+**Q3.** Belastingregels kunnen vanaf de eerste verkoop gelden. REGIOSPECIFIEKE REGEL.
+**Q4.** De prijs moet bij de lokale markt passen.
+**Q5.** Niet lokaliseren is een veelvoorkomende oorzaak van mislukking.
+
+## Belangrijkste punten
+- Vertalen is geen lokaliseren; taal is geen rechtsgebied
+- Lokaliseer product, prijs, boodschap, kanalen en naleving
+- Juridische en fiscale verplichtingen kunnen bij de eerste verkoop beginnen
+- Lokale kennis en partners verbeteren de markttoetreding
+
+===== ORANGE-L5-015
+TITLE: Valutarisico bij internationale prijsstelling
+SUMMARY: Internationale verkoop brengt valutarisico mee; de munt waarin je prijst bepaalt wie het risico draagt, gebruik contractclausules, natuurlijke afdekking, financiële afdekking en snellere betaling, en herzie buitenlandse prijzen regelmatig.
+KEYWORDS: valutarisico in prijzen, wisselkoersrisico, internationale prijsstrategie, prijzen in vreemde valuta, risicoafdekking
+# Valutarisico bij internationale prijsstelling
+
+## Openingsscenario
+AANNAME/MENING (hypothetisch scenario, uitsluitend voor onderwijsdoeleinden): Stel je voor dat de munt van een middelgrote economie binnen enkele maanden een groot deel van haar waarde verliest ten opzichte van de belangrijkste reservevaluta's, gedreven door kapitaalvlucht uit het land en afnemend vertrouwen van beleggers.
+Pas het hier toe: Een bedrijf verkoopt in het buitenland en prijst in de munt van zijn klanten. Dan verliest die munt een derde van haar waarde. Vraag over de kleuren heen: wat gebeurt er met de omzet van het bedrijf als die wordt teruggerekend naar de eigen munt (WHITE)? Moeten de prijzen op de buitenlandse markt omhoog (ORANGE)? Staan de contracten prijswijzigingen toe (PURPLE)? Kunnen financiële instrumenten dit risico verkleinen (BLUE)?
+
+## Leerdoelen
+- Uitleggen hoe wisselkoerswijzigingen de internationale verkoop beïnvloeden
+- Prijzen in de eigen munt vergelijken met prijzen in de munt van de klant
+- Contractuele en financiële instrumenten gebruiken om valutarisico te beheersen
+
+## Kerninhoud
+Als een bedrijf in een ander land verkoopt, loopt het valutarisico: de kans dat wisselkoerswijzigingen de waarde van zijn verkopen verlagen.
+Keuzes voor de prijsvaluta:
+- Prijzen in je eigen munt: je weet precies wat je ontvangt. Maar klanten dragen het valutarisico, en je prijzen kunnen onbetaalbaar worden als hun munt verzwakt.
+- Prijzen in de munt van de klant: makkelijker voor klanten, vaak concurrerender. Maar jij draagt het valutarisico.
+- Prijzen in een derde, stabiele reservevaluta: gebruikelijk in een deel van de internationale handel. Verdeelt het risico op verschillende manieren over beide partijen.
+Wat er gebeurt als de munt van de klant daalt (zoals in het scenario):
+- Als je in hun munt prijst: je omzet in eigen munt daalt.
+- Als je in je eigen munt prijst: je prijzen stijgen sterk voor klanten, en de vraag kan dalen.
+Hoe dan ook vangt iemand de klap op.
+Instrumenten om valutarisico te beheersen:
+- Contractclausules (PURPLE): valuta-aanpassingsclausules en gedeelde bandbreedtes (PURPLE-L5-039 in het juridische traject).
+- Prijsherzieningen (ORANGE): regelmatige prijsaanpassingen voor buitenlandse markten.
+- Natuurlijke afdekking (BLUE): kosten en opbrengsten in dezelfde munt laten samenvallen, bijvoorbeeld door inkopen te doen of lokaal personeel te betalen in de munt die je verdient.
+- Financiële afdekking (WHITE/BLUE): instrumenten zoals termijncontracten die wisselkoersen vastleggen voor toekomstige transacties. Ze hebben kosten en complexiteit en worden vaak met professionele begeleiding gebruikt.
+- Betalingstermijnen: sneller incasseren verkort de periode van blootstelling.
+Verband met GREEN: REGIOSPECIFIEKE REGEL: Koerswinsten en koersverliezen kunnen fiscale gevolgen hebben; in Nederland bijvoorbeeld worden koersresultaten volgens beschikbare informatie voor de vennootschapsbelasting in de regel tot de winst gerekend volgens goed koopmansgebruik, waarbij voor niet-gerealiseerde resultaten eigen regels gelden, dus controleer dit met een belastingadviseur.
+AANNAME/MENING: Kleine exporteurs negeren valutarisico vaak tot een grote beweging hen raakt. Een eenvoudig beleid, zoals buitenlandse prijzen elk kwartaal herzien en bandbreedtes in contracten opnemen, kan de meeste pijnlijke verrassingen voorkomen.
+
+## Uitgewerkt voorbeeld
+ILLUSTRATIEF VOORBEELD: Het bedrijf van Pedro exporteert speciaal gereedschap. Hij verkoopt aan klanten op een buitenlandse markt, geprijsd in hun munt. Aan het begin zijn 10 eenheden van hun munt gelijk aan 1 eenheid van de zijne.
+Hij verkoopt per kwartaal voor € 100.000 (in zijn munt).
+De buitenlandse munt daalt 33%, zodat er nu 15 eenheden nodig zijn voor 1 eenheid van zijn munt. Dezelfde omzet in vreemde valuta is nu ongeveer € 67.000 waard.
+Zijn opties:
+- De buitenlandse prijzen met 50% verhogen om zijn omzet te herstellen. Klanten kopen misschien minder.
+- De prijzen gelijk houden en lagere omzet accepteren.
+- Een mix: de prijzen met 20% verhogen, kosten verlagen en enig margeverlies accepteren.
+Hij kiest de mix. Voor de toekomst:
+- Voegt hij contractclausules toe die valutabewegingen boven 10% delen.
+- Opent hij een klein lokaal magazijn en betaalt hij een deel van de kosten in de buitenlandse munt (natuurlijke afdekking).
+- Gebruikt hij termijncontracten voor grote bekende orders, met begeleiding van zijn bank.
+- Herziet hij elk kwartaal de buitenlandse prijzen.
+AANNAME/MENING: Pedro kon de valutabeweging niet voorkomen. Maar met deze instrumenten op hun plaats doet de volgende beweging veel minder pijn.
+
+## Oefenquiz
+**Q1. Wat is valutarisico?**
+A) Het risico om contant geld te verliezen
+B) De kans dat wisselkoerswijzigingen de waarde van verkopen verlagen
+C) Een soort belasting
+D) Een marketingrisico
+**Q2. Als je in de munt van de klant prijst en die munt daalt, wat gebeurt er dan?**
+A) Je omzet in eigen munt daalt
+B) Je omzet stijgt
+C) Er verandert niets
+D) Klanten betalen meer
+**Q3. Wat is natuurlijke afdekking?**
+A) Kosten en opbrengsten in dezelfde munt laten samenvallen
+B) Goud kopen
+C) Buitenlandse verkoop vermijden
+D) Alleen contant geld gebruiken
+**Q4. Waarvoor wordt een termijncontract gebruikt?**
+A) Marketing
+B) Personeel aannemen
+C) Wisselkoersen vastleggen voor toekomstige transacties
+D) Merken inschrijven
+**Q5. Welk eenvoudig beleid beveelt de les aan?**
+A) Buitenlandse prijzen regelmatig herzien en bandbreedtes in contracten opnemen
+B) Valutarisico negeren
+C) Alles in vreemde valuta prijzen
+D) Stoppen met exporteren
+
+## Antwoordsleutel
+Q1: B
+Q2: A
+Q3: A
+Q4: C
+Q5: A
+
+## Antwoorden en uitleg
+**Q1.** Wisselkoersbewegingen kunnen de omzet laten krimpen.
+**Q2.** Jij draagt het valutarisico.
+**Q3.** Laten samenvallen verkleint de netto blootstelling.
+**Q4.** Termijncontracten verminderen de onzekerheid over bekende toekomstige bedragen.
+**Q5.** Eenvoudige routines voorkomen pijnlijke verrassingen.
+
+## Belangrijkste punten
+- Internationale verkoop brengt valutarisico mee
+- De prijsvaluta bepaalt wie het risico draagt
+- Gebruik contractclausules, natuurlijke afdekking, financiële afdekking en snellere betaling
+- Herzie buitenlandse prijzen regelmatig
