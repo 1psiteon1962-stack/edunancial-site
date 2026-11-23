@@ -1,0 +1,399 @@
+===== BLUE-L4-036
+TITLE: Analiz soutrètans kont fè anndan: poukisa desizyon fè oswa achte a ale pi lwen pase yon senp konparezon kou
+SUMMARY: Konprann kad desizyon soutrètans kont fè anndan, e poukisa faktè ki pi lwen pase yon senp konparezon kou ta dwe enfòme chwa estratejik sa a.
+KEYWORDS: soutrètans, fè anndan, desizyon fè oswa achte, estrateji fonksyon biznis
+# Analiz soutrètans kont fè anndan: poukisa desizyon fè oswa achte a ale pi lwen pase yon senp konparezon kou
+
+## Senaryo pou louvri leson an
+SIPOZISYON/OPINYON (senaryo ipotetik pou objektif ansèyman sèlman): Imajine yon gwo pwoblèm sante piblik ki kanpe transpò maritim ak manifakti mondyal pou yon peryòd pwolonje, sa ki mele chèn apwovizyònman nan anpil endistri an menm tan. Pandan yon dezòd jeneral ap revele ki biznis ki ka ajiste operasyon yo ak fleksibilite e kiyès ki pa kapab, kèk konpayi ki te bay founisè deyò yon gwo kantite fonksyon biznis an soutrètans dekouvri ni avantaj ki gen sans ni vilnerabilite ki gen sans nan estrikti sa a. Leson sa a egzamine seri faktè ki pi konplè ki ta dwe enfòme yon desizyon soutrètans pi lwen pase senp ekonomi kou.
+
+## Objektif aprantisaj
+- Esplike kisa soutrètans ak fè anndan vle di kòm apwòch altènatif pou fè yon fonksyon biznis.
+- Esplike avantaj kou ak fleksibilite potansyèl soutrètans ka ofri.
+- Esplike poukisa bay yon fonksyon biznis an soutrètans ka kreye kalite risk konsantrasyon founisè nou te kouvri nan Leson 13.
+- Esplike poukisa faktè ki pi lwen pase yon senp konparezon kou, tankou kontwòl, kalite, ak enpòtans estratejik, ta dwe enfòme desizyon soutrètans lan.
+
+## Kontni prensipal
+Soutrètans (outsourcing) vle di fè yon kontra ak yon founisè deyò endepandan pou fè yon fonksyon biznis espesifik (tankou manifakti, sèvis kliyan, kontablite, oswa sipò teknoloji enfòmasyon) olye fè fonksyon sa a anndan ak pwòp anplwaye ak resous konpayi a (fè anndan, insourcing). FÈ VERIFYE: soutrètans ka ofri vrè avantaj kou, sitou lè yon founisè deyò ka jwenn ekonomi echèl (Leson 18) sou anpil biznis kliyan ke yon konpayi endividyèl k ap fè menm fonksyon an sèlman pou tèt li pa t ka jwenn, e li ka ofri vrè avantaj fleksibilite, paske yon konpayi ka pi fasil ogmante oswa diminye yon relasyon soutrètans an repons a bezwen biznis k ap chanje pase sa li ta ka fè souvan ak pwòp anplwaye fiks ak enfrastrikti entèn li.
+
+Men "poukisa" bay yon fonksyon biznis an soutrètans ka kreye menm kalite risk konsantrasyon founisè nou te kouvri nan Leson 13, sa ki gen rapò dirèk ak vilnerabilite operasyonèl senaryo dezòd pi wo a revele: yon konpayi ki bay yon fonksyon biznis kritik an soutrètans bay yon sèl founisè deyò an reyalite ranplase yon kapasite entèn, li kontwole dirèkteman, ak yon depandans deyò li pa kontwole dirèkteman, e si founisè deyò sa a konnen pwòp dezòd li, difikilte finansye, oswa tou senpleman li chwazi bay lòt kliyan priyorite pandan yon peryòd kapasite limite, konpayi ki bay soutrètans lan ka fè fas ak yon dezòd operasyonèl enpòtan, ki difisil pou rezoud vit, nan fonksyon biznis espesifik sa a, egzakteman vilnerabilite senaryo dezòd la ilistre a.
+
+Se poutèt sa desizyon soutrètans lan ta dwe peze faktè ki byen pi lwen pase yon senp konparezon kou kounye a, sa ki konekte ak plizyè konsèp nou kouvri nan tout nivo sa a: enpòtans estratejik fonksyon espesifik la pou avantaj konkirans prensipal konpayi a (sa ki raple analiz posesyon pwopriyete entelektyèl Leson 28 la — fonksyon ki santral pou yon avantaj konkirans inik an jeneral merite plis prekosyon anvan ou bay yon pati deyò ki ta ka sèvi konkiran tou yo an soutrètans), defi kontwòl kalite ak siveyans ki natirèl lè w konte sou pwòp pwosesis ak estanda entèn yon founisè deyò olye pwosesis konpayi a jere dirèkteman, ak vrè risk konsantrasyon founisè ak depandans ki kreye lè w konte sou yon sèl founisè deyò pou yon fonksyon biznis la pa ka fasil oswa vit pote tounen anndan oswa deplase bay yon lòt founisè si pwoblèm parèt. Se poutèt sa yon desizyon soutrètans ki byen reflechi mande menm kalite vrè analiz plizyè faktè nivo sa a te aplike nan anpil lòt desizyon biznis, olye yon desizyon yo pran sitou oswa sèlman sou baz ekonomi kou nan kout tèm.
+
+## Egzanp pratik
+EGZANP ILISTRATIF: Yon konpayi ki te bay tout fonksyon sèvis kliyan li an soutrètans bay yon sèl founisè deyò, sitou pou diminye kou, dekouvri pandan yon dezòd nan tout endistri a ke founisè deyò li a, ki t ap fè fas ak pwòp limit kapasite li e ki t ap sèvi anpil lòt kliyan an menm tan, pa t bay bezwen sèvis espesifik konpayi a priyorite pandan peryòd demann ki pi wo nan dezòd la, sa ki bay yon kalite sèvis kliyan ki te deteryore anpil egzakteman nan moman pwòp kliyan konpayi a te pi bezwen sipò. Yon konkiran ki te kenbe fonksyon sèvis kliyan li anndan pito, malgre kou k ap kontinye ki pi wo pou fè sa, kenbe tout kontwòl sou pwòp priyorite sèvis li pandan menm dezòd la, sa ki evite vilnerabilite depandans sou founisè ki te afekte konpayi ki te bay soutrètans lan, sa ki ilistre vrè konpwomi ant avantaj kou soutrètans ak risk kontwòl ak depandans li ka kreye.
+
+## Egzamen pratik
+**Q1. Ki diferans fondamantal ant soutrètans ak fè anndan?**
+A) Soutrètans ak fè anndan dekri egzakteman menm apwòch pou fè yon fonksyon biznis
+B) Soutrètans vle di fè yon kontra ak yon founisè deyò pou fè yon fonksyon biznis, alòske fè anndan vle di fè fonksyon sa a anndan ak pwòp anplwaye ak resous konpayi a
+C) Fè anndan toujou koute anpil plis pase soutrètans nan tout sikonstans posib
+D) Soutrètans aplike sèlman pou fonksyon manifakti, janm pou fonksyon biznis ki baze sou sèvis
+
+**Q2. Ki yon vrè avantaj potansyèl pou bay yon fonksyon biznis an soutrètans?**
+A) Soutrètans toujou ogmante total kou yon konpayi san okenn benefis posib
+B) Yon founisè deyò ka jwenn ekonomi echèl sou anpil biznis kliyan, e soutrètans ka ofri plis fleksibilite pou ogmante oswa diminye yon relasyon pase sa anplwaye fiks entèn souvan pèmèt
+C) Soutrètans elimine tout fòm risk biznis san okenn dezavantaj ditou
+D) Fè anndan toujou bay plis efikasite kou pase soutrètans nan chak ka
+
+**Q3. Kijan bay yon fonksyon biznis an soutrètans gen rapò ak konsèp risk konsantrasyon founisè Leson 13 la?**
+A) Soutrètans pa gen okenn rapò ak risk konsantrasyon founisè
+B) Bay yon sèl founisè deyò soutrètans ranplase yon kapasite entèn ou kontwole dirèkteman ak yon depandans deyò, sa ki kreye menm kalite risk konsantrasyon founisè si founisè sa a konnen yon dezòd oswa li bay lòt kliyan priyorite
+C) Risk konsantrasyon founisè aplike sèlman pou founisè fizik, janm pou founisè sèvis
+D) Soutrètans toujou elimine risk konsantrasyon founisè olye kreye l
+
+**Q4. Poukisa enpòtans estratejik yon fonksyon biznis espesifik ta dwe enfòme desizyon soutrètans lan?**
+A) Enpòtans estratejik pa gen okenn enpak sou si ou ta dwe bay yon fonksyon an soutrètans oswa kenbe l anndan
+B) Fonksyon ki santral pou avantaj konkirans inik yon konpayi an jeneral merite plis prekosyon anvan ou bay yo an soutrètans, paske yon founisè deyò ta ka sèvi konkiran tou e kontwòl kalite vin pi difisil pou jere dirèkteman
+C) Ou ta dwe toujou bay tout fonksyon biznis an soutrètans kèlkeswa enpòtans estratejik yo pou konpayi a
+D) Ou ta dwe toujou bay fonksyon ki enpòtan estratejikman an soutrètans pou diminye kou otan ke posib
+
+**Q5. Nan egzanp lan, poukisa konpayi ki te bay soutrètans lan te konnen pi move rezilta sèvis kliyan pandan dezòd la pase konkiran li ki te fè menm fonksyon an anndan?**
+A) Founisè deyò konpayi ki te bay soutrètans lan te an reyalite bay bezwen li priyorite pi wo pase tout lòt kliyan pandan dezòd la
+B) Founisè deyò a, ki t ap fè fas ak pwòp limit kapasite li e ki t ap sèvi anpil kliyan, pa t bay bezwen konpayi a priyorite pandan peryòd demann ki pi wo nan dezòd la, alòske ekip anndan konkiran an te kenbe tout kontwòl sou pwòp priyorite sèvis li
+C) Konkiran ki te fè sèvis kliyan an anndan an te konnen an reyalite pi move rezilta pase konpayi ki te bay soutrètans lan
+D) Tou de konpayi yo te konnen rezilta sèvis kliyan idantik pandan dezòd la
+
+## Kle repons yo
+Q1: B
+Q2: B
+Q3: B
+Q4: B
+Q5: B
+
+## Repons ak eksplikasyon
+**Q1.** Sa se distenksyon prensipal ant konte sou yon pati deyò kont pwòp resous entèn konpayi a pou fè yon fonksyon biznis done.
+
+**Q2.** Benefis kou ak fleksibilite espesifik sa yo reprezante vrè avantaj moun site souvan ki ka fè soutrètans yon chwa estratejik atiran nan sikonstans ki apwopriye.
+
+**Q3.** Depandans ki kreye lè w konte sou yon sèl founisè deyò pou yon fonksyon kritik se estriktirèlman idantik ak risk konsantrasyon founisè nou te diskite nan leson anvan an sou depandans chèn apwovizyònman.
+
+**Q4.** Plis risk pou pèdi kontwòl dirèk sou yon fonksyon ki santral pou avantaj konkirans, konbine ak posiblite ke yon founisè deyò sèvi konkiran tou, bay yon rezon fò pou plis prekosyon nan ka espesifik sa yo.
+
+**Q5.** Kontras dirèk sa a ilistre egzakteman kijan pèt kontwòl dirèk ki natirèl nan soutrètans te kreye yon vilnerabilite espesifik ke kontwòl konkiran ki te fè fonksyon an anndan an te kenbe a te evite pandan tès estrès patikilye sa a.
+
+## Pwen kle yo
+- Soutrètans fè kontra ak yon founisè deyò pou fè yon fonksyon biznis, alòske fè anndan kenbe fonksyon sa a anndan konpayi a.
+- Soutrètans ka ofri avantaj kou atravè ekonomi echèl founisè deyò a ak plis fleksibilite pou ogmante oswa diminye relasyon an.
+- Bay yon fonksyon kritik an soutrètans kreye risk konsantrasyon founisè, paske konpayi a vin depann de pwòp fyabilite ak priyorite yon founisè deyò.
+- Desizyon soutrètans lan ta dwe peze enpòtans estratejik, kontwòl kalite, ak risk depandans, se pa sèlman yon konparezon kou nan kout tèm pou kont li.
+
+===== BLUE-L4-037
+TITLE: Analiz diskisyon asosyasyon biznis: poukisa twou nan gouvènans yo pa trete kreye konfli ou ka prevwa
+SUMMARY: Konprann sous komen diskisyon asosyasyon biznis e poukisa trete kesyon gouvènans yon fason pwoaktif nan yon akò asosyasyon ekri ede anpeche konfli ou ka prevwa.
+KEYWORDS: diskisyon asosyasyon biznis, akò asosyasyon, estrikti gouvènans, prevansyon diskisyon
+# Analiz diskisyon asosyasyon biznis: poukisa twou nan gouvènans yo pa trete kreye konfli ou ka prevwa
+
+## Senaryo pou louvri leson an
+SIPOZISYON/OPINYON (senaryo ipotetik pou objektif ansèyman sèlman): Imajine yon enstitisyon finansye ki enpòtan pou tout sistèm nan toudenkou revele yon gwo pèt li pa t janm divilge anvan, sa ki leve laperèz sou risk kontrepati k ap gaye nan tout sistèm bankè a. Pandan laperèz sou enstabilite finansye ap kreye plis estrès nan anpil biznis, ko-pwopriyetè nan yon konpayi yo dirije ansanm ki pa t janm dokimante fòmèlman kijan pou yo pran gwo desizyon oswa kijan pou yo rezoud dezakò jwenn yo nan yon diskisyon ki de plizanpli anmè sou direksyon biznis la nan lavni. Leson sa a egzamine sous komen e previzib konfli asosyasyon ak kijan planifikasyon gouvènans pwoaktif ede anpeche yo.
+
+## Objektif aprantisaj
+- Idantifye sous komen diskisyon asosyasyon biznis.
+- Esplike poukisa kontribisyon tan, kapital, oswa efò ki pa egal ant asosye se yon sous konfli souvan si yo pa trete l klèman davans.
+- Esplike poukisa yon akò asosyasyon ekri ki trete otorite desizyon ak rezolisyon diskisyon ede anpeche konfli ou ka prevwa.
+- Konekte planifikasyon gouvènans asosyasyon ak konsèp akò achte-vann Leson 27 la.
+
+## Kontni prensipal
+Diskisyon asosyasyon biznis souvan soti nan yon seri sous ou ka rekonèt e ki repete: dezakò sou direksyon estratejik biznis la, kontribisyon tan, kapital, oswa efò ant asosye yo wè ki pa egal konpare ak pati posesyon oswa konpansasyon yo, dezakò sou kijan pou distribye oswa reenvesti pwofi, ak diskisyon sou otorite desizyon lè asosye yo pa dakò sou yon desizyon enpòtan espesifik. FÈ VERIFYE: rechèch ak eksperyans pratik nan lwa biznis ak konsiltasyon jesyon idantifye yon fason konsistan menm kategori jeneral sa yo kòm sous ki pi komen konfli asosyasyon grav nan anpil diferan kalite biznis ak endistri.
+
+Men "poukisa" kontribisyon moun wè ki pa egal se yon sous konfli ki souvan konsa e ki chaje ak emosyon espesyalman: asosye yo souvan antre nan yon relasyon biznis ak sipozisyon ki pa di, ki pa eksprime, sou konbyen tan, efò, ak kapital chak asosye pral kontribiye pou lavni, e sipozisyon sa yo ka ale lwen pratik reyèl avèk tan — yon asosye ka vin santi l ap kontribiye yon efò oswa yon kapital ki disproporsyone, ki pi gwo pase asosye li, konpare ak separasyon posesyon oswa aranjman konpansasyon yo te dakò sou li okòmansman, e si yo pa t janm trete enkyetid sa a klèman oswa si li difisil pou leve l dirèkteman, li gen tandans pouri e akimile avèk tan pou vin yon konfli ki pi grav e ki pi difisil pou rezoud.
+
+Se poutèt sa etabli yon akò asosyasyon ekri e konplè bonè nan yon relasyon biznis — ki trete otorite desizyon espesifik (ki desizyon ki mande akò tout asosye yo kont apwobasyon majorite kont diskresyon yon sèl asosye), politik distribisyon ak reenvestisman pwofi, atant sou kontribisyon tan ak kapital chak asosye k ap kontinye, ak yon mekanis rezolisyon diskisyon yo fikse davans (tankou medyasyon oswa abitraj anvan ou ale nan tribinal) — ede anpeche anpil nan sous konfli ou ka prevwa sa yo vin tounen diskisyon grav, ki sanble nan lojik prevansyon anba li ak akò achte-vann Leson 27 la, ki trete espesyalman deklanchè tranzisyon posesyon, alòske yon akò asosyasyon konplè trete pi laj kesyon gouvènans ak desizyon operasyonèl k ap kontinye ki parèt pandan tout lavi asosyasyon an, anvan nenpòt nan de kalite diskisyon yo gen chans devlope. RÈG ESPESIFIK POU REJYON AN: lwa sou asosyasyon ak antite biznis varye selon peyi; fè yon avoka lokal ki kalifye ekri oswa revize akò a.
+
+## Egzanp pratik
+EGZANP ILISTRATIF: De asosye biznis ki te kòmanse konpayi yo plizyè ane de sa san yon akò asosyasyon ekri fòmèl, yo te konte pito sou yon antant enfòmèl sou kijan yo t ap pran desizyon e konbyen chak t ap kontribiye, jwenn yo nan yon diskisyon ki de plizanpli anmè lè youn nan asosye yo santi l te kontribiye anpil plis tan ak efò pase separasyon posesyon egal 50/50 yo a reflete, alòske lòt asosye a santi kontribisyon kapital li ak risk li te pran nan premye etap jistifye aranjman kounye a. San okenn mekanis rezolisyon diskisyon yo te fikse davans oswa yon kad gouvènans klè an plas, dezakò a vin tounen yon konfli chè e ki fè anpil domaj ki menase operasyon biznis la k ap kontinye — yon konfli yon akò asosyasyon ekri e konplè davans ki te trete atant sou kontribisyon e ki te gen yon pwosesis rezolisyon diskisyon yo fikse davans te ka diminye anpil oswa evite nèt.
+
+## Egzamen pratik
+**Q1. Kiyès nan sa yo ki yon sous diskisyon asosyasyon biznis moun idantifye souvan?**
+A) Asosyasyon pa janm konnen okenn diskisyon nenpòt kalite nan okenn sikonstans
+B) Kontribisyon tan, kapital, oswa efò ant asosye yo wè ki pa egal, dezakò sou direksyon estratejik, ak diskisyon sou otorite desizyon
+C) Se sèlman diskisyon sou konsepsyon pwodui espesifik biznis la ki janm rive ant asosye
+D) Se sèlman kondisyon mache deyò ki lakòz diskisyon asosyasyon, janm pwoblèm gouvènans entèn
+
+**Q2. Poukisa kontribisyon moun wè ki pa egal se yon sous konfli asosyasyon ki souvan konsa e ki chaje ak emosyon?**
+A) Kontribisyon ki pa egal pa janm vrèman lakòz okenn konfli ant asosye biznis
+B) Asosye yo souvan antre ak sipozisyon ki pa di, ki pa eksprime, sou kontribisyon ki ka ale lwen pratik reyèl avèk tan, e si yo pa janm trete enkyetid sa a klèman, li gen tandans pouri e akimile pou vin yon konfli ki pi grav
+C) Nivo kontribisyon toujou egal pafètman ant asosye biznis san okenn posiblite dezakò
+D) Kalite konfli sa a afekte sèlman asosyasyon ki gen plis pase senk pwopriyetè
+
+**Q3. Ki eleman espesifik yon akò asosyasyon ekri e konplè ta dwe trete pou ede anpeche konfli ou ka prevwa?**
+A) Yon akò asosyasyon ta dwe trete sèlman òf pwodui espesifik biznis la
+B) Otorite desizyon pou diferan kalite desizyon, politik distribisyon ak reenvestisman pwofi, atant sou kontribisyon, ak yon mekanis rezolisyon diskisyon yo fikse davans
+C) Akò asosyasyon pa gen okenn rapò ak anpeche diskisyon nan lavni ant asosye
+D) Se sèlman montan kontribisyon kapital inisyal la ki bezwen dokimante nan yon akò asosyasyon
+
+**Q4. Kijan yon akò asosyasyon konplè gen rapò ak konsèp akò achte-vann Leson 27 la?**
+A) Akò asosyasyon ak akò achte-vann trete egzakteman menm evènman deklanche espesifik yo san okenn distenksyon ki gen sans
+B) Yon akò achte-vann trete espesyalman deklanchè tranzisyon posesyon tankou lanmò oswa depa, alòske yon akò asosyasyon konplè trete pi laj kesyon gouvènans ak desizyon operasyonèl k ap kontinye pandan tout lavi asosyasyon an
+C) Akò achte-vann pa gen okenn rapò ak anpeche diskisyon asosyasyon nenpòt kalite
+D) Yon akò asosyasyon enpòtan sèlman apre yon evènman deklanche tankou lanmò yon pwopriyetè fin rive deja
+
+**Q5. Nan egzanp lan, ki twou espesifik nan aranjman orijinal asosye yo ki te kontribiye nan diskisyon k ap vin pi grav la?**
+A) Asosye yo te gen yon akò ekri konplè ki te trete klèman atant sou kontribisyon ak rezolisyon diskisyon
+B) Absans yon akò ekri fòmèl ki trete atant sou kontribisyon ak yon mekanis rezolisyon diskisyon yo fikse davans te pèmèt dezakò sou kontribisyon moun wè ki pa egal la vin tounen yon konfli chè e ki fè anpil domaj
+C) Diskisyon an te soti nèt nan kondisyon mache deyò ki pa gen rapò ak okenn twou gouvènans entèn
+D) Asosye yo te dakò klèman e yon fason eksplisit alekri sou egzakteman konbyen efò chak t ap kontribiye
+
+## Kle repons yo
+Q1: B
+Q2: B
+Q3: B
+Q4: B
+Q5: B
+
+## Repons ak eksplikasyon
+**Q1.** Sa yo reprezante kategori konfli byen dokimante, ki repete, ki parèt nan anpil diferan kalite asosyasyon biznis.
+
+**Q2.** Konbinezon sipozisyon inisyal ki pa di ak difikilte pou leve sijè sansib sa a dirèkteman esplike poukisa dezekilib kontribisyon moun wè souvan devlope pou vin konfli enpòtan e ki pi difisil pou rezoud.
+
+**Q3.** Eleman gouvènans espesifik sa yo trete dirèkteman sous konfli komen e previzib leson sa a idantifye, sa ki bay yon kad pwoaktif pou anpeche yo vin pi grav.
+
+**Q4.** De kalite akò sa yo sèvi objektif prevansyon ki konplete youn lòt men ki diferan: youn trete evènman tranzisyon posesyon espesifik, alòske lòt la trete gouvènans pi laj e k ap kontinye relasyon asosyasyon an.
+
+**Q5.** Absans espesifik planifikasyon gouvènans pwoaktif, sitou alantou atant sou kontribisyon ak rezolisyon diskisyon, te pèmèt dirèkteman dezakò anba a devlope pou vin konfli grav egzanp lan dekri a.
+
+## Pwen kle yo
+- Sous komen diskisyon asosyasyon gen ladan kontribisyon moun wè ki pa egal, dezakò sou direksyon estratejik, ak diskisyon sou otorite desizyon.
+- Sipozisyon ki pa di sou kontribisyon asosye ki ale lwen pratik reyèl avèk tan souvan devlope pou vin konfli enpòtan e chaje ak emosyon.
+- Yon akò asosyasyon ekri e konplè ki trete otorite desizyon, atant sou kontribisyon, ak rezolisyon diskisyon ede anpeche konfli ou ka prevwa sa yo.
+- Kalite planifikasyon gouvènans asosyasyon sa a konplete, men li diferan de, konsantrasyon espesifik akò achte-vann lan sou deklanchè tranzisyon posesyon.
+
+===== BLUE-L4-038
+TITLE: Analiz sansiblite: poukisa teste yon plan biznis kont sipozisyon ki chanje revele yon frajilite kache
+SUMMARY: Konprann kisa analiz sansiblite vle di nan planifikasyon biznis, e poukisa teste sipozisyon kle yo youn pa youn revele ki sipozisyon ki pi enpòtan pou viabilite total yon plan.
+KEYWORDS: analiz sansiblite, sipozisyon planifikasyon biznis, tès senaryo, modèl finansye
+# Analiz sansiblite: poukisa teste yon plan biznis kont sipozisyon ki chanje revele yon frajilite kache
+
+## Senaryo pou louvri leson an
+SIPOZISYON/OPINYON (senaryo ipotetik pou objektif ansèyman sèlman): Imajine yon gwo blòk komèsyal ki toudenkou enpoze gwo tarif sou yon kategori jeneral pwodui manifakti yo enpòte, sa ki ogmante kou pou konpayi ki depann de enpòtasyon sa yo kòm matyè premyè. Pandan tarif yo ap menase ogmante kou pou yon nouvo liy pwodui yon biznis planifye, pwopriyetè biznis la reyalize pwojeksyon finansye orijinal li yo te chita sou plizyè sipozisyon espesifik ki toudenkou sanble mwens sèten anpil pase lè yo te fèk bati plan an. Leson sa a prezante yon fason estriktire pou teste egzakteman konbyen nenpòt sèl sipozisyon vrèman enpòtan pou viabilite total yon plan.
+
+## Objektif aprantisaj
+- Esplike kisa analiz sansiblite vle di nan kontèks planifikasyon finansye biznis.
+- Esplike pwosesis pou varye yon sipozisyon alafwa pou izole efè endividyèl li sou rezilta yon plan.
+- Esplike poukisa analiz sansiblite revele ki sipozisyon viabilite yon plan biznis depann plis de yo.
+- Aplike panse analiz sansiblite pou evalye yon plan biznis k ap fè fas ak yon nouvo risk kou espesifik, tankou yon tarif.
+
+## Kontni prensipal
+Analiz sansiblite se yon teknik planifikasyon finansye estriktire ki teste konbyen rezilta yon plan biznis pwojte (tankou pwofi yo pwojte oswa moman pwen ekilib la, sa ki konekte ak Leson 4) chanje lè yo varye yon sipozisyon espesifik anba a, alòske yo kenbe tout lòt sipozisyon yo konstan. FÈ VERIFYE: apwòch "yon varyab alafwa" sa a izole efè endividyèl chak sipozisyon, sa ki fè l diferan de tou senpleman bati yon sèl pwojeksyon pi bon estimasyon ak plizyè sipozisyon melanje ansanm, ki pa revele konbyen nenpòt sèl sipozisyon vrèman enpòtan pou rezilta total la.
+
+Men "poukisa" apwòch varyab endividyèl sa a revele ki sipozisyon viabilite yon plan biznis depann plis de yo, sa ki gen rapò dirèk ak ensètitid kou tarif senaryo pi wo a pouse a: yon pwopriyetè biznis ta ka dekouvri, atravè kalite tès sansiblite sa a, ke viabilite total plan li trè sansib a yon sipozisyon kou espesifik (tankou pri yon matyè premyè enpòte kle ki kounye a sijè a yon tarif) — sa ki vle di menm yon chanjman modere nan sèl sipozisyon sa a chanje yon fason ki gen sans si yo pwojte plan an pral reyisi oswa echwe — alòske menm plan an ta ka relativman pa sansib a yon lòt sipozisyon (tankou yon ti chanjman nan yon liy depans maketing segondè), sa ki vle di dezyèm sipozisyon sa a ta ka fini byen diferan de sa yo te pwojte san li pa chanje yon fason ki gen sans viabilite total plan an.
+
+Se poutèt sa analiz sansiblite se yon disiplin planifikasyon ki gen valè, ki diferan de tou senpleman espere yon sèl pwojeksyon pi bon estimasyon fini apeprè egzak: idantifye ki sipozisyon espesifik yon plan pi sansib a yo pèmèt yon pwopriyetè biznis konsantre atansyon limite li ak efò jesyon risk li espesyalman sou sipozisyon ki pi enpòtan yo (nan senaryo pi wo a, swiv sere sitiyasyon tarif la e potansyèlman devlope plan ijans, tankou founisè altènatif ki pa gen tarif dapre analiz divèsifikasyon founisè Leson 13 la, espesyalman pou sipozisyon kou ki gen gwo sansiblite sa a) olye gaye menm atansyon ak menm enkyetid sou chak sipozisyon nan plan an kèlkeswa konbyen nenpòt sipozisyon endividyèl vrèman enpòtan pou viabilite final plan an.
+
+## Egzanp pratik
+EGZANP ILISTRATIF: Yon pwopriyetè biznis k ap planifye lanse yon nouvo pwodui fè yon analiz sansiblite sou pwojeksyon finansye li, li teste efè endividyèl lè l varye senk sipozisyon kle diferan — kou matyè premyè, pri pa inite, volim vant, depans maketing, ak kou livrezon — youn alafwa. Analiz la revele ke yon ogmantasyon 20% nan kou matyè premyè (kounye a yon vrè posiblite akoz yon tarif yo fèk anonse) ta pouse pwodui a soti nan yon pwofi yo pwojte pou rive nan yon pèt dirèk, alòske yon ogmantasyon ki menm pi gwo 30% nan kou livrezon ta diminye pwofi yo pwojte a sèlman yon fason modès san li pa menase viabilite total plan an. Ak konpreyansyon espesifik sa a, pwopriyetè a konsantre efò jesyon risk li espesyalman sou asire yon founisè matyè premyè altènatif ki pa gen tarif, olye pase menm tan ap enkyete pou sipozisyon kou livrezon ki gen konparativman ti efè a.
+
+## Egzamen pratik
+**Q1. Kisa analiz sansiblite teste nan yon plan finansye biznis?**
+A) Li teste total revni yon plan biznis kèlkeswa okenn sipozisyon anba
+B) Konbyen rezilta yon plan pwojte chanje lè yo varye yon sipozisyon espesifik anba, alòske yo kenbe tout lòt sipozisyon yo konstan
+C) Li teste sèlman kou fiks yon biznis, san okenn konsiderasyon pou sipozisyon varyab
+D) Analiz sansiblite pa gen okenn rapò ak pwosesis planifikasyon finansye yon biznis
+
+**Q2. Poukisa apwòch "yon varyab alafwa" a revele yon bagay yon sèl pwojeksyon pi bon estimasyon pa revele?**
+A) Yon sèl pwojeksyon pi bon estimasyon bay menm enfòmasyon ak yon analiz sansiblite
+B) Varye yon sipozisyon alafwa izole efè endividyèl li sou rezilta a, sa ki revele ki sipozisyon espesifik ki pi enpòtan pou viabilite total plan an
+C) Analiz sansiblite ak yon sèl pwojeksyon pi bon estimasyon se egzakteman menm teknik la ak non diferan
+D) Teste sipozisyon youn pa youn pa bay okenn enfòmasyon itil pou planifikasyon biznis
+
+**Q3. Poukisa yon plan biznis ta ka trè sansib a yon sipozisyon espesifik men relativman pa sansib a yon lòt?**
+A) Tout sipozisyon nan yon plan biznis toujou gen egzakteman menm efè sou rezilta total yo pwojte a
+B) Diferan sipozisyon ka gen efè ki gen gwosè trè diferan sou viabilite total yon plan, selon wòl ak pwa espesifik yo nan modèl finansye a
+C) Sansiblite varye o aza san okenn rapò ak jan yon sipozisyon espesifik fonksyone nan plan an
+D) Yon plan pa ka janm pi sansib a yon sipozisyon pase yon lòt
+
+**Q4. Kijan idantifye sipozisyon ki pi sansib yon plan ede yon pwopriyetè biznis distribye efò jesyon risk li?**
+A) Idantifye sipozisyon sansib pa gen okenn itilite pratik pou jesyon risk
+B) Li pèmèt pwopriyetè a konsantre atansyon limite li ak planifikasyon ijans li espesyalman sou sipozisyon ki pi enpòtan pou viabilite plan an, olye gaye menm enkyetid sou chak sipozisyon kèlkeswa vrè efè li
+C) Pwopriyetè biznis ta dwe inyore rezilta analiz sansiblite nèt lè y ap distribye efò jesyon risk yo
+D) Tout sipozisyon ta dwe toujou resevwa egzakteman menm atansyon jesyon risk kèlkeswa sansiblite yo
+
+**Q5. Nan egzanp lan, poukisa pwopriyetè biznis la te konsantre efò jesyon risk li sou asire yon founisè matyè premyè altènatif olye enkyete menm jan pou sipozisyon kou livrezon an?**
+A) Analiz sansiblite a te montre yon ogmantasyon 20% nan kou matyè premyè ta pouse plan an nan yon pèt, alòske yon ogmantasyon ki menm pi gwo 30% nan kou livrezon te afekte pwofi yo pwojte a sèlman yon fason modès, sa ki montre plan an te pi sansib anpil a sipozisyon kou matyè premyè a
+B) Pwopriyetè biznis la pa t gen okenn vrè enfòmasyon sou ki sipozisyon ki te pi enpòtan pou viabilite plan an
+C) Yo te montre kou livrezon se yon sipozisyon ki pi kritik anpil pase kou matyè premyè nan plan espesifik sa a
+D) Yo te montre tou de sipozisyon yo te gen egzakteman menm efè sou viabilite total plan an
+
+## Kle repons yo
+Q1: B
+Q2: B
+Q3: B
+Q4: B
+Q5: A
+
+## Repons ak eksplikasyon
+**Q1.** Apwòch yon varyab alafwa sa a se metodoloji ki defini analiz sansiblite, sa ki fè l diferan de yon sèl pwojeksyon pi bon estimasyon melanje.
+
+**Q2.** Izolasyon efè varyab endividyèl sa a se egzakteman sa ki pèmèt yon pwopriyetè biznis idantifye ki sipozisyon espesifik ki merite plis atansyon ak konsantrasyon jesyon risk.
+
+**Q3.** Wòl ak pwa estriktirèl diferan sipozisyon nan yon modèl finansye esplike poukisa kèk sipozisyon espesifik ka afekte viabilite total yon fason dramatik alòske lòt yo gen sèlman yon efè modès.
+
+**Q4.** Distribisyon vize atansyon planifikasyon ak jesyon risk limite sa a nan direksyon sipozisyon ki gen plis efè se benefis pratik ou ka aji sou li analiz sansiblite bay.
+
+**Q5.** Rezilta espesifik analiz sansiblite a te gide dirèkteman e yon fason apwopriye desizyon pwopriyetè a pou bay efò jesyon risk priyorite nan direksyon sipozisyon yo te montre ki pi enpòtan pou siksè total plan an.
+
+## Pwen kle yo
+- Analiz sansiblite teste konbyen rezilta yon plan biznis chanje lè yo varye yon sipozisyon pou kont li, alòske yo kenbe lòt yo konstan.
+- Apwòch sa a izole efè endividyèl chak sipozisyon, sa ki revele ki sipozisyon espesifik ki pi enpòtan pou viabilite total yon plan.
+- Plan yo ka trè sansib a kèk sipozisyon e relativman pa sansib a lòt, selon wòl espesifik chak sipozisyon nan modèl finansye a.
+- Idantifye sipozisyon ki gen gwo sansiblite pèmèt yon pwopriyetè biznis konsantre efò jesyon risk limite kote li pi enpòtan, olye gaye menm atansyon sou chak sipozisyon.
+
+===== BLUE-L4-039
+TITLE: Analiz planifikasyon senaryo: poukisa prepare plizyè avni ki koyeran pi bon pase yon sèl prevwa
+SUMMARY: Konprann kijan planifikasyon senaryo diferan de yon sèl prevwa finansye, e poukisa prepare pou plizyè avni ki koyeran e posib amelyore rezistans estratejik yon biznis.
+KEYWORDS: planifikasyon senaryo, prevwayans estratejik, planifikasyon ijans biznis, plizyè avni
+# Analiz planifikasyon senaryo: poukisa prepare plizyè avni ki koyeran pi bon pase yon sèl prevwa
+
+## Senaryo pou louvri leson an
+SIPOZISYON/OPINYON (senaryo ipotetik pou objektif ansèyman sèlman): Imajine lajan yon ekonomi mwayen ki pèdi yon gwo pati nan valè li konpare ak gwo lajan rezèv yo sou kèk mwa, akoz kapital k ap kouri kite peyi a e konfyans envestisè k ap fin manje. Pandan lajan yon ekonomi mwayen ap vin de plizanpli enprevizib, yon biznis ki gen yon ekspozisyon ki gen sans nan ekonomi sa a reyalize yon sèl prevwa finansye pi bon estimasyon pa ka kaptire ase byen diferan fason sitiyasyon an ta ka devlope vrèman. Leson sa a prezante yon apwòch planifikasyon yo fè espesyalman pou prepare pou plizyè avni apa e posib an menm tan, olye parye tout bagay sou yon sèl prediksyon espesifik.
+
+## Objektif aprantisaj
+- Esplike kisa planifikasyon senaryo vle di ak kijan li diferan de yon sèl prevwa finansye.
+- Esplike poukisa planifikasyon senaryo konstwi plizyè istwa apa ki koyeran anndan yo olye tou senpleman varye yon chif alafwa (an kontras ak analiz sansiblite Leson 38 la).
+- Esplike kijan yon biznis ka itilize rezilta planifikasyon senaryo pou devlope repons estratejik ki pi fleksib e ki ka adapte.
+- Esplike poukisa planifikasyon senaryo pa mande prevwa avèk siksè ki senaryo espesifik ki pral vrèman rive.
+
+## Kontni prensipal
+Planifikasyon senaryo se yon teknik prevwayans estratejik kote yon biznis konstwi plizyè istwa apa, ki koyeran anndan yo, sou jan anviwònman biznis nan lavni ta ka devlope, olye konte sou yon sèl prevwa pi bon estimasyon, oswa menm kalite analiz sansiblite yon varyab alafwa nou te kouvri nan Leson 38. FÈ VERIFYE: chak senaryo yo konstwi souvan konbine plizyè sipozisyon ki gen rapò nan yon istwa total ki konsistan anndan l e ki posib — pa egzanp, yon senaryo "estabilizasyon lajan" ki konbine sipozisyon sou to chanj, demann lokal, ak kondisyon règleman ki ta rive ansanm yon fason posib, ansanm ak yon senaryo "kriz lajan ap vin pi grav" ki diferan nèt, ki konbine yon seri sipozisyon ki gen rapò diferan, men ki posib tou anndan l.
+
+Men "poukisa" planifikasyon senaryo konstwi plizyè istwa ki koyeran olye tou senpleman varye sipozisyon endividyèl yo yon fason endepandan, sa ki fè l diferan de analiz sansiblite Leson 38 la: nan monn reyèl la, anpil kondisyon biznis anba yo deplase ansanm nan fason ki gen rapò, ki pa endepandan — yon kriz lajan, pa egzanp, pa gen chans rive izole de efè ki gen rapò sou demann lokal, enflasyon, ak repons règleman, kidonk teste "e si lajan an bese 20%" kòm yon varyab izole, alòske tout lòt bagay rete konstan, dapre analiz sansiblite, rate modèl chanjman ki gen rapò e ki entèkonekte ki ta akonpaye mouvman lajan sa a yon fason reyalis nan yon vrè kriz, sa apwòch planifikasyon senaryo ki pi konplè e ki baze sou istwa a fèt espesyalman pou kaptire.
+
+Se poutèt sa yon biznis k ap itilize rezilta planifikasyon senaryo ka devlope repons estratejik ki pi fleksib e ki vrèman ka adapte, sa ki konekte ak diskisyon risk ke ak tès estrès anvan yo nan kourikoulòm nan: olye angaje l nan yon sèl plan estratejik ki bati alantou yon sèl avni yo prevwa, yon biznis ka idantifye aksyon estratejik ki ta fè yon pèfòmans rezonab nan plizyè senaryo posib diferan (yo pafwa rele yo estrateji "solid" oswa "san regrè"), ansanm ak "pwen deklanchè" espesifik oswa endikatè avètisman bonè ki ta siyale ki senaryo patikilye ki sanble ap vrèman devlope, sa ki pèmèt biznis la adapte repons estratejik ki pi espesifik pou chak senaryo pandan evènman reyèl yo ap montre de plizanpli nan direksyon yon senaryo patikilye olye lòt yo. Se poutèt sa planifikasyon senaryo pa mande klèman prevwa avèk siksè ki senaryo espesifik ki pral vrèman rive — OPINYON ak pwopozisyon valè prensipal teknik sa a, vrè benefis la soti nan deja reflechi sou, e prepare repons estratejik rezonab pou, plizyè avni posib diferan davans, olye ou sezi nèt san preparasyon lè reyalite a finalman ale lwen, jan sa rive trè souvan, nenpòt sèl prevwa yon biznis ta ka otreman konte sou li sèlman.
+
+## Egzanp pratik
+EGZANP ILISTRATIF: Yon biznis ki gen yon gwo ekspozisyon nan yon ekonomi ki gen lajan ki pa estab devlope twa senaryo apa: yon senaryo "estabilizasyon" (lajan an estabilize, demann lan refè, e biznis la kontinye ak ekspansyon li te planifye a), yon senaryo "bès jere" (lajan an kontinye febli piti piti, sa ki pouse biznis la deplase nan direksyon operasyon ki pi konsèvatè e ki prezève lajan kach alòske li kenbe prezans li sou mache a), ak yon senaryo "kriz" (lajan an efondre rapidman, sa ki deklanche yon plan ijans yo te fikse davans pou redwi anpil operasyon lokal e pwoteje kapital biznis la). Olye parye tout estrateji biznis la sou ki sèl senaryo ki pral vrèman rive, biznis la idantifye endikatè avètisman bonè espesifik pou swiv, sa ki pèmèt li rekonèt ki senaryo k ap vrèman devlope an tan reyèl e deplase nan direksyon repons estratejik senaryo sa a ki te deja prepare, olye li sezi san preparasyon pa nenpòt rezilta espesifik ki finalman rive.
+
+## Egzamen pratik
+**Q1. Kijan planifikasyon senaryo diferan de yon sèl prevwa finansye?**
+A) Planifikasyon senaryo ak yon sèl prevwa se teknik idantik nan fonksyon ak non diferan
+B) Planifikasyon senaryo konstwi plizyè istwa apa, ki koyeran anndan yo, sou jan avni an ta ka devlope, olye konte sou yon sèl prediksyon pi bon estimasyon
+C) Yon sèl prevwa toujou bay plis enfòmasyon itil pase planifikasyon senaryo
+D) Planifikasyon senaryo aplike sèlman pou biznis k ap opere nan yon sèl peyi
+
+**Q2. Poukisa planifikasyon senaryo konstwi plizyè istwa ki koyeran olye tou senpleman varye sipozisyon endividyèl yo yon fason endepandan, jan analiz sansiblite fè l?**
+A) Planifikasyon senaryo ak analiz sansiblite itilize egzakteman menm metodoloji anba a
+B) Anpil kondisyon biznis anba yo deplase ansanm nan fason ki gen rapò, ki pa endepandan, kidonk yon apwòch istwa ki koyeran anndan l kaptire modèl chanjman entèkonekte ke tès izole, yon varyab alafwa, ta rate
+C) Sipozisyon endividyèl pa janm vrèman gen rapò oswa afekte youn lòt nan okenn sitiyasyon biznis reyèl
+D) Planifikasyon senaryo itil sèlman pou biznis ki pa gen okenn ekspozisyon ki gen sans nan okenn risk ekonomik deyò
+
+**Q3. Kisa yon estrateji "solid" oswa "san regrè" ye nan kontèks planifikasyon senaryo?**
+A) Yon estrateji ki mache sèlman anba yon sèl senaryo espesifik yo prevwa
+B) Yon aksyon estratejik yo idantifye kòm sa ki fè yon pèfòmans rezonab nan plizyè senaryo posib diferan
+C) Yon estrateji ki pa mande okenn planifikasyon oswa preparasyon nenpòt kalite
+D) Yon estrateji ki garanti rezilta idantik kèlkeswa ki senaryo ki vrèman rive
+
+**Q4. Poukisa planifikasyon senaryo pa mande prevwa avèk siksè ki senaryo espesifik ki pral vrèman rive?**
+A) Planifikasyon senaryo pa vo anyen sòf si biznis la prevwa kòrèkteman rezilta egzak nan lavni davans
+B) Vrè valè a soti nan deja reflechi sou e prepare repons estratejik rezonab pou plizyè avni posib diferan, olye ou sezi san preparasyon lè reyalite a ale lwen yon sèl prevwa
+C) Biznis k ap itilize planifikasyon senaryo toujou prevwa rezilta nan lavni kòrèkteman ak yon egzaktitid konplè
+D) Planifikasyon senaryo elimine bezwen pou nenpòt estrateji oswa preparasyon biznis ditou
+
+**Q5. Nan egzanp lan, kijan biznis la te benefisye de devlope twa senaryo apa e idantifye endikatè avètisman bonè pou chak?**
+A) Biznis la te oblije angaje l nèt nan jis youn nan twa senaryo yo anvan okenn evènman reyèl te rive
+B) Sa te pèmèt biznis la rekonèt ki senaryo ki t ap vrèman devlope an tan reyèl e deplase nan direksyon repons estratejik senaryo sa a ki te deja prepare, olye li sezi san preparasyon
+C) Twa senaryo yo pa t gen okenn vrè rapò ak okenn nan desizyon estratejik reyèl biznis la
+D) Devlope plizyè senaryo pa t bay okenn benefis pratik konpare ak konte sou yon sèl prevwa
+
+## Kle repons yo
+Q1: B
+Q2: B
+Q3: B
+Q4: B
+Q5: B
+
+## Repons ak eksplikasyon
+**Q1.** Konstriksyon plizyè avni altènatif ki koyeran, olye yon sèl rezilta yo prevwa, se karakteristik ki defini ki fè planifikasyon senaryo diferan de yon prevwa estanda.
+
+**Q2.** Rekonesans ke kondisyon monn reyèl yo entèkonekte, olye endepandan, se egzakteman poukisa apwòch istwa konplè planifikasyon senaryo a kaptire dinamik tès varyab izole pa ka kaptire.
+
+**Q3.** Aksyon estratejik espesifik sa yo gen valè jisteman paske yo bay yon pèfòmans rezonab kèlkeswa ki nan plizyè senaryo yo konsidere a ki finalman devlope.
+
+**Q4.** Sa se pwopozisyon valè prensipal planifikasyon senaryo: preparasyon nan plizyè avni posib, olye depandans sou egzaktitid nenpòt sèl prediksyon espesifik.
+
+**Q5.** Kapasite pou adapte an tan reyèl nan direksyon senaryo endikatè avètisman bonè li vrèman parèt, lè w itilize yon repons ki te deja prepare, se egzakteman benefis estratejik pratik leson sa a idantifye kòm avantaj prensipal planifikasyon senaryo.
+
+## Pwen kle yo
+- Planifikasyon senaryo konstwi plizyè istwa apa, ki koyeran anndan yo, sou avni an, olye konte sou yon sèl prevwa pi bon estimasyon.
+- Apwòch sa a kaptire modèl chanjman ki gen rapò e ki entèkonekte ke analiz sansiblite izole, yon varyab alafwa, ta rate.
+- Biznis yo ka idantifye estrateji solid, san regrè, ki fè yon pèfòmans rezonab nan plizyè senaryo, ansanm ak endikatè avètisman bonè pou chak.
+- Valè planifikasyon senaryo soti nan preparasyon nan plizyè avni posib, se pa nan prevwa avèk siksè ki sèl senaryo ki pral vrèman rive.
+
+===== BLUE-L4-040
+TITLE: Analiz pivo biznis: poukisa chanje yon modèl biznis prensipal mande peze kou ki deja depanse yo kòrèkteman
+SUMMARY: Konprann poukisa yon pivo biznis mande reevalye objektivman chemen pou avanse a, e poukisa kou ki deja depanse pa ta dwe antre nan desizyon ki gade devan sa a.
+KEYWORDS: pivo biznis, erè kou ki deja depanse, reevalyasyon estratejik, chanjman modèl biznis
+# Analiz pivo biznis: poukisa chanje yon modèl biznis prensipal mande peze kou ki deja depanse yo kòrèkteman
+
+## Senaryo pou louvri leson an
+SIPOZISYON/OPINYON (senaryo ipotetik pou objektif ansèyman sèlman): Imajine yon gwo pwoblèm sante piblik ki kanpe transpò maritim ak manifakti mondyal pou yon peryòd pwolonje, sa ki mele chèn apwovizyònman nan anpil endistri an menm tan. Pandan yon dezòd jeneral ap chanje fondamantalman konpòtman kliyan ak modèl demann nan tout yon endistri, kèk biznis rekonèt modèl biznis orijinal yo ka pa viab ankò e yo dwe deside si pou yo fè yon pivo fondamantal nan yon nouvo apwòch, alòske lòt yo kole sou plan orijinal yo sitou akoz konbyen yo deja envesti ladan l. Leson sa a egzamine erè rezònman espesifik ki ka anpeche yon pivo ki vrèman nesesè rive.
+
+## Objektif aprantisaj
+- Esplike kisa yon pivo biznis vle di.
+- Esplike erè kou ki deja depanse a ak poukisa li ka defòme yon desizyon pivo.
+- Esplike poukisa yon desizyon pivo solid ta dwe baze sèlman sou kou ak benefis ki gade devan, se pa sou konbyen yo deja envesti.
+- Aplike rezònman sa a pou evalye si yon biznis k ap fè fas ak yon mache ki chanje anpil ta dwe fè yon pivo oswa kontinye ak modèl orijinal li.
+
+## Kontni prensipal
+Yon pivo biznis refere a yon chanjman fondamantal nan estrateji prensipal, pwodui, mache sib, oswa modèl biznis yon biznis, yo souvan fè l an repons a prèv ke apwòch orijinal la pa reyisi ase oswa li pa bon ankò pou kondisyon mache kounye a. FÈ VERIFYE: erè kou ki deja depanse a (sunk cost fallacy) dekri erè rezònman komen pou konte kou pase ki deja fèt e ou pa ka rekipere (kou ki "deja depanse" a) lè w ap pran yon desizyon ki gade devan, menm si kou pase sa yo, dapre definisyon, pa gen okenn enpòtans pou sa ki pral vrèman bay pi bon rezilta pou avanse, paske ou pa ka chanje yo kèlkeswa desizyon ou pran kounye a.
+
+Men "poukisa" erè kou ki deja depanse a defòme espesyalman desizyon pivo, sa ki gen rapò dirèk ak senaryo mache ki chanje pi wo a: yon pwopriyetè biznis ki te envesti anpil tan, lajan, ak idantite pèsonèl nan yon modèl biznis orijinal espesifik souvan santi yon fòs sikolojik ki fò, e ou ka konprann, pou kontinye ak apwòch orijinal sa a, espesyalman akoz konbyen li deja envesti ladan l — yon fòs ki pa gen anyen pou wè ak si kontinye apwòch orijinal sa a vrèman se pi bon desizyon ki gade devan akoz kondisyon mache kounye a, e ki gen tout bagay pou wè ak yon refi natirèl moun genyen pou "gaspiye" oswa abandone yon gwo envestisman anvan, menm lè envestisman sa a deja ale kèlkeswa sa yo deside kounye a.
+
+Se poutèt sa yon desizyon pivo solid ta dwe evalye sèlman kou ak benefis yo atann ki gade devan pou chak chemen ki disponib — kontinye apwòch kounye a kont fè pivo nan yon altènatif — lè l konpare sa chak chemen atann pou l koute e pwodui apati pwen sa a, nèt endepandan de konbyen yo deja depanse sou apwòch orijinal la jiska pwen sa a: si modèl biznis orijinal la, yo evalye sèlman sou pwòp merit ki gade devan li akoz kondisyon mache kounye a (tankou konpòtman kliyan ki chanje fondamantalman senaryo dezòd pi wo a dekri a), vrèman gen ti chans reyisi, lefèt ke yo deja envesti anpil resous nan apwòch orijinal sa a pa chanje evalyasyon ki gade devan sa a, e kontinye chèche yon chemen ki vrèman pa viab espesyalman akoz konbyen yo deja envesti ladan l reprezante egzakteman erè rezònman erè kou ki deja depanse a dekri a, sa ki souvan fè yon move sitiyasyon vin pi mal lè w kontinye envesti plis resous nan yon chemen ke yon analiz objektif, ki gade devan, sijere gen ti chans reyisi kèlkeswa sa.
+
+## Egzanp pratik
+EGZANP ILISTRATIF: Yon pwopriyetè biznis ki te envesti twa ane ak yon gwo kantite kapital nan yon modèl biznis espesifik dekouvri ke yon dezòd nan tout endistri a te chanje konpòtman kliyan yon fason fondamantal e pèmanan nan yon fason ki fè sipozisyon prensipal modèl orijinal la pa valab ankò pou avanse. Malgre li rekonèt reyalite sa a, pwopriyetè a reziste okòmansman pou l fè pivo nan yon lòt apwòch, li rezone ke abandone modèl orijinal la ta vle di twa ane efò li ak envestisman kapital li te "gaspiye". Yon konseye li fè konfyans montre l rezònman sa a reflete erè kou ki deja depanse a — twa ane ak kapital li deja envesti yo deja ale kèlkeswa desizyon li pran kounye a, e sèl kesyon ki enpòtan se ki chemen pou avanse, kontinye modèl orijinal la ki kounye a pa bon pou mache a oswa fè pivo nan yon nouvo apwòch ki pi byen aliyen ak mache ki chanje a, ki ofri pi bon rezilta ki gade devan apati pwen sa a, yon nouvo fason pou gade l ki finalman mennen pwopriyetè a fè pivo a.
+
+## Egzamen pratik
+**Q1. Kisa yon pivo biznis vle di?**
+A) Yon ti ajisteman nan materyèl maketing yon biznis san okenn chanjman nan estrateji anba li
+B) Yon chanjman fondamantal nan estrateji prensipal, pwodui, mache sib, oswa modèl biznis yon biznis, yo souvan fè l an repons a prèv ke apwòch orijinal la pa ase viab
+C) Yon pwosesis legal ki obligatwa anvan yo ka vann yon biznis bay yon nouvo pwopriyetè
+D) Yon kalite finansman yo itilize sèlman pou startup ki trè nan premye etap
+
+**Q2. Kisa erè kou ki deja depanse a dekri?**
+A) Erè rezònman pou konte kou pase ki deja fèt e ou pa ka rekipere, lè w ap pran yon desizyon ki gade devan, menm si kou sa yo pa gen okenn enpòtans pou bay pi bon rezilta nan lavni
+B) Yon pwosesis rezònman lejitim e solid pou pran nenpòt desizyon biznis
+C) Yon dediksyon taks ki disponib pou envestisman biznis ki pa reyisi
+D) Erè a aplike sèlman pou desizyon finansye pèsonèl, janm pou desizyon estrateji biznis
+
+**Q3. Poukisa yon desizyon pivo solid ta dwe evalye sèlman kou ak benefis ki gade devan, olye konsidere konbyen yo deja envesti nan apwòch orijinal la?**
+A) Envestisman pase ta dwe toujou faktè prensipal yo konsidere nan nenpòt desizyon pivo
+B) Paske ou pa ka rekipere oswa chanje kou pase kèlkeswa desizyon ou pran kounye a, yo pa gen okenn enpòtans pou detèmine ki chemen pou avanse ki pral vrèman bay pi bon rezilta nan lavni
+C) Kou ak benefis ki gade devan pa gen okenn rapò ak pran yon desizyon pivo solid
+D) Montan yo deja envesti nan yon apwòch toujou detèmine si apwòch sa a pral reyisi pou avanse
+
+**Q4. Poukisa kontinye yon modèl biznis orijinal ki vrèman pa viab espesyalman akoz envestisman anvan souvan fè yon move sitiyasyon vin pi mal?**
+A) Kontinye yon chemen ki pa viab akoz envestisman anvan toujou amelyore rezilta final yon biznis
+B) Li reprezante egzakteman erè rezònman erè kou ki deja depanse a, sa ki souvan mennen nan kontinye envesti plis resous nan yon chemen yon analiz objektif, ki gade devan, sijere gen ti chans reyisi kèlkeswa sa
+C) Envestisman anvan toujou garanti siksè k ap kontinye apwòch biznis orijinal la
+D) Pa gen okenn rapò ant erè kou ki deja depanse a ak rezilta final yon biznis
+
+**Q5. Nan egzanp lan, kijan nouvo fason konseye pwopriyetè a te fè konfyans lan te gade desizyon an te ede pwopriyetè biznis la depase erè kou ki deja depanse a?**
+A) Konseye a te konfime twa ane ak kapital ki te deja envesti yo ta dwe faktè prensipal nan desizyon pivo a
+B) Konseye a te montre envestisman anvan an te deja ale kèlkeswa desizyon kounye a, e sèl kesyon ki enpòtan se te ki chemen ki gade devan ki te ofri pi bon rezilta apati pwen sa a
+C) Konseye a te rekòmande pwopriyetè a kontinye ak modèl orijinal la espesyalman akoz envestisman anvan li te deja fè
+D) Nouvo fason konseye a te gade l la pa t gen okenn vrè efè sou desizyon final pwopriyetè a
+
+## Kle repons yo
+Q1: B
+Q2: A
+Q3: B
+Q4: B
+Q5: B
+
+## Repons ak eksplikasyon
+**Q1.** Yon pivo gen ladan l espesyalman kalite chanjman estratejik fondamantal sa a, sa ki fè l diferan de ajisteman biznis ki pi piti, ki pi gradyèl.
+
+**Q2.** Erè kou ki deja depanse a idantifye espesyalman erè rezònman komen sa a, kote envestisman pase ou pa ka rekipere enfliyanse mal desizyon ki ta dwe baze sèlman sou konsiderasyon ki gade devan.
+
+**Q3.** Nati kou ki deja depanse yo ke ou pa ka rekipere vle di yo pa bay okenn enfòmasyon itil sou ki chemen ki gade devan ki vrèman gen chans bay pi bon rezilta, sa ki fè yo pa gen okenn enpòtans pou desizyon an yon fason ki kòrèk.
+
+**Q4.** Fè erè a vin pi mal lè w envesti plis resous nan yon chemen ki deja pa viab, sèlman pou evite rekonèt kou ki deja depanse a, souvan fè pèt biznis la vin pi fon olye rekipere yo.
+
+**Q5.** Lè l te remete desizyon an kòrèkteman alantou konsiderasyon ki gade devan olye envestisman pase ou pa ka rekipere a, konseye a te ede pwopriyetè a evite erè kou ki deja depanse a e fè yon chwa estratejik ki pi solid objektivman.
+
+## Pwen kle yo
+- Yon pivo biznis se yon chanjman estratejik fondamantal yo souvan fè lè prèv montre apwòch orijinal la pa ase viab ankò.
+- Erè kou ki deja depanse a dekri erè rezònman pou konte kou pase ou pa ka rekipere lè w ap pran yon desizyon ki gade devan.
+- Yon desizyon pivo solid ta dwe evalye sèlman kou ak benefis ki gade devan pou chak chemen ki disponib, endepandan de konbyen yo deja envesti.
+- Kontinye yon apwòch orijinal ki pa viab espesyalman akoz envestisman anvan souvan fè pèt yo vin pi gwo olye rekipere yo, sa ki se yon egzanp erè kou ki deja depanse a an aksyon.

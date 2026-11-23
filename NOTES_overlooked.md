@@ -1,1 +1,2 @@
 - BLACK-L2-042 English has stray quiz line '2. (renumbered)' (source defect; omitted in ht)
+- BLUE-L4-040 Q2: English answer key says "B" but the correct option is A (A = definition of sunk cost fallacy; B = "legitimate, sound reasoning"). ht file uses Q2: A (correct). en + other locales (fr-CA etc.) still say B — needs owner-approved fix across locales (do not overwrite without approval).
