@@ -1,0 +1,354 @@
+===== WHITE-L1-021
+TITLE: ¿Qué es una cuenta de corretaje? (¿Y en qué se diferencia de una cuenta de retiro?)
+SUMMARY: Aprende qué es una cuenta de corretaje común y en qué se diferencia en propósito y flexibilidad de una cuenta de retiro.
+# ¿Qué es una cuenta de corretaje? (¿Y en qué se diferencia de una cuenta de retiro?)
+
+## Objetivos de aprendizaje
+
+Al final de esta lección, deberías poder:
+
+- Definir una cuenta de corretaje en términos sencillos.
+- Explicar en qué se diferencia de una cuenta de retiro como un 401(k) o una IRA.
+- Explicar el equilibrio básico entre flexibilidad y ventajas contributivas.
+
+## Contenido principal
+
+### Qué es una cuenta de corretaje
+
+Una cuenta de corretaje es una cuenta de inversión común que permite a una persona comprar y vender acciones, bonos, ETF y otros activos de papel, sin las reglas contributivas propias del retiro de un 401(k) o una IRA.
+
+### En qué se diferencia de una cuenta de retiro
+
+A diferencia de las cuentas de retiro, una cuenta de corretaje común en general no tiene ventajas contributivas especiales, pero tampoco restricciones sobre cuándo se puede retirar el dinero: tienes plena flexibilidad para añadir o sacar dinero en cualquier momento.
+
+### El equilibrio entre flexibilidad y ventaja contributiva
+
+Las cuentas de retiro cambian algo de flexibilidad (a menudo restringen el acceso fácil antes de cierta edad) por beneficios contributivos reales. Las cuentas de corretaje cambian esos beneficios contributivos por plena flexibilidad. Muchos inversionistas usan ambas, para propósitos distintos.
+
+## Ejemplo práctico
+
+*EJEMPLO ILUSTRATIVO:* Un inversionista que ahorra específicamente para un retiro que está a décadas de distancia podría dar prioridad a un 401(k) o a una IRA por los beneficios contributivos. El mismo inversionista, si ahorra para una meta de los próximos años y necesita acceso flexible, podría usar en su lugar una cuenta de corretaje común.
+
+## Prueba de práctica
+
+1. Una cuenta de corretaje es:
+   A. Exclusivamente para ahorrar para el retiro
+   B. Una cuenta de inversión común sin reglas contributivas propias del retiro
+   C. Un tipo de bono de ahorro
+   D. Algo disponible solo para empleadores
+2. Verdadero o falso: una cuenta de corretaje común tiene las mismas restricciones de retiro de dinero que un 401(k).
+3. ¿Cuál es el equilibrio básico entre las cuentas de retiro y las cuentas de corretaje comunes?
+   A. No hay ningún equilibrio
+   B. Ventajas contributivas y acceso restringido frente a plena flexibilidad con menos beneficios contributivos
+   C. Las cuentas de corretaje son ilegales
+   D. Las cuentas de retiro no tienen ningún beneficio contributivo
+
+## Clave de respuestas
+
+1. B
+2. Falso
+3. B
+
+## Respuestas y explicaciones
+
+### Pregunta 1
+
+Respuesta correcta: B. Una cuenta de corretaje es una cuenta de inversión común y flexible.
+
+### Pregunta 2
+
+Respuesta correcta: Falso. Las cuentas de corretaje en general permiten retirar dinero en cualquier momento, a diferencia de las cuentas de retiro.
+
+### Pregunta 3
+
+Respuesta correcta: B. Este es el equilibrio central entre los dos tipos de cuenta.
+
+## Puntos clave
+
+- Una cuenta de corretaje es una cuenta de inversión común sin reglas propias del retiro.
+- Ofrece plena flexibilidad, pero en general sin ventajas contributivas especiales.
+- Las cuentas de retiro cambian algo de flexibilidad por beneficios contributivos reales.
+
+===== WHITE-L1-022
+TITLE: ¿Qué es el promedio de costo en dólares?
+SUMMARY: Aprende qué es el promedio de costo en dólares y por qué invertir una cantidad fija con regularidad puede suavizar la volatilidad de los precios.
+# ¿Qué es el promedio de costo en dólares?
+
+## Objetivos de aprendizaje
+
+Al final de esta lección, deberías poder:
+
+- Definir el promedio de costo en dólares en términos sencillos.
+- Explicar cómo interactúa con la volatilidad de los precios.
+- Reconocerlo como una estrategia, no como una garantía de ganancia.
+
+## Contenido principal
+
+### Qué es el promedio de costo en dólares
+
+El promedio de costo en dólares (dollar-cost averaging) consiste en invertir una cantidad fija de dinero a intervalos regulares (por ejemplo, cada mes), sin importar el precio del momento, en vez de invertir una suma grande de una sola vez.
+
+### Cómo interactúa con la volatilidad
+
+Como la cantidad invertida se mantiene fija, se compran más acciones cuando los precios están más bajos y menos acciones cuando están más altos; esto promedia de forma natural el precio de compra con el tiempo, sin que el inversionista tenga que predecir los movimientos de precio.
+
+### No es una garantía
+
+El promedio de costo en dólares no garantiza una ganancia ni protege contra las pérdidas: es una forma disciplinada de invertir a lo largo del tiempo, no una manera de eliminar todo el riesgo.
+
+## Ejemplo práctico
+
+*EJEMPLO ILUSTRATIVO:* Una inversionista pone $200 en una inversión cada mes. Cuando el precio está bajo, esos $200 compran más acciones; cuando el precio está alto, compran menos. A lo largo de un año, esto produce un precio de compra promedio sin que ella tenga que adivinar el mejor momento del mercado.
+
+## Prueba de práctica
+
+1. El promedio de costo en dólares consiste en:
+   A. Invertir una suma grande de una sola vez
+   B. Invertir una cantidad fija a intervalos regulares, sin importar el precio
+   C. Invertir solo cuando los precios están bajos
+   D. Evitar todos los activos de papel
+2. Verdadero o falso: el promedio de costo en dólares garantiza una ganancia.
+3. Con el promedio de costo en dólares, ¿qué pasa con el número de acciones compradas cuando el precio está más bajo?
+   A. Se compran menos acciones
+   B. Se compran más acciones con la misma cantidad fija de dinero
+   C. No se compra ninguna acción
+   D. La cantidad invertida aumenta automáticamente
+
+## Clave de respuestas
+
+1. B
+2. Falso
+3. B
+
+## Respuestas y explicaciones
+
+### Pregunta 1
+
+Respuesta correcta: B. Una cantidad fija, a intervalos regulares, sin importar el precio.
+
+### Pregunta 2
+
+Respuesta correcta: Falso. Es una estrategia disciplinada, no una garantía.
+
+### Pregunta 3
+
+Respuesta correcta: B. Una cantidad fija de dinero compra más acciones cuando el precio está más bajo.
+
+## Puntos clave
+
+- El promedio de costo en dólares consiste en invertir una cantidad fija a intervalos regulares.
+- De forma natural, compra más acciones cuando los precios están bajos y menos cuando están altos.
+- Es una estrategia disciplinada, no una garantía contra las pérdidas.
+
+===== WHITE-L1-023
+TITLE: ¿Qué es un desdoblamiento de acciones?
+SUMMARY: Aprende lo que cambia y lo que no cambia un desdoblamiento de acciones en el valor de una empresa.
+# ¿Qué es un desdoblamiento de acciones?
+
+## Objetivos de aprendizaje
+
+Al final de esta lección, deberías poder:
+
+- Definir un desdoblamiento de acciones en términos sencillos.
+- Explicar qué cambia y qué no cambia en un desdoblamiento.
+- Calcular un número de acciones y un precio básicos después de un desdoblamiento.
+
+## Contenido principal
+
+### Qué es un desdoblamiento de acciones
+
+Un desdoblamiento de acciones (stock split) divide cada acción existente en varias acciones nuevas, lo que reduce de forma proporcional el precio por acción y aumenta el número de acciones en circulación.
+
+### Qué cambia y qué no
+
+El número de acciones que tiene un inversionista aumenta y el precio por acción baja de forma proporcional. Lo que NO cambia: el valor total de lo que tiene el inversionista y la capitalización de mercado total de la empresa. El pastel se corta en más porciones, pero el pastel sigue siendo del mismo tamaño.
+
+### Por qué lo hacen las empresas
+
+A veces las empresas desdoblan sus acciones para bajar el precio por acción a un rango más accesible para los inversionistas, aunque esto no cambia en absoluto el valor de fondo de la empresa.
+
+## Ejemplo práctico
+
+*EJEMPLO ILUSTRATIVO:* Un inversionista que tiene 10 acciones a $100 cada una ($1,000 en total) pasa por un desdoblamiento de 2 por 1. Ahora tiene 20 acciones a $50 cada una: siguen siendo $1,000 en total, solo que divididos en más acciones y más baratas.
+
+## Prueba de práctica
+
+1. Un desdoblamiento de acciones:
+   A. Aumenta el valor de mercado total de una empresa
+   B. Divide las acciones existentes en más acciones a un precio proporcionalmente más bajo
+   C. Reduce el número de acciones en circulación
+   D. Cambia el negocio de fondo de la empresa
+2. Verdadero o falso: un desdoblamiento de acciones cambia el valor total de lo que tiene un inversionista.
+3. Un inversionista tiene 5 acciones a $200 cada una. Después de un desdoblamiento de 2 por 1, ¿cuántas acciones tiene y a qué precio?
+   A. 5 acciones a $400
+   B. 10 acciones a $100
+   C. 2.5 acciones a $200
+   D. 10 acciones a $200
+
+## Clave de respuestas
+
+1. B
+2. Falso
+3. B
+
+## Respuestas y explicaciones
+
+### Pregunta 1
+
+Respuesta correcta: B. Un desdoblamiento divide las acciones de forma proporcional sin cambiar el valor total.
+
+### Pregunta 2
+
+Respuesta correcta: Falso. El valor total de lo que se tiene sigue siendo el mismo justo después de un desdoblamiento.
+
+### Pregunta 3
+
+Respuesta correcta: B. 5 acciones × 2 = 10 acciones; $200 ÷ 2 = $100 por acción.
+
+## Puntos clave
+
+- Un desdoblamiento divide las acciones en más acciones a un precio proporcionalmente más bajo.
+- El valor total de lo que se tiene y la capitalización de mercado no cambian por el desdoblamiento en sí.
+- Las empresas desdoblan sus acciones sobre todo para que el precio por acción sea más accesible.
+
+===== WHITE-L1-024
+TITLE: ¿Qué son las fracciones de acción?
+SUMMARY: Aprende qué son las fracciones de acción, cómo bajan la barrera para empezar a invertir y cómo pueden usarse para ajustar el riesgo de forma adecuada para un principiante.
+# ¿Qué son las fracciones de acción?
+
+## Objetivos de aprendizaje
+
+Al final de esta lección, deberías poder:
+
+- Definir una fracción de acción en términos sencillos.
+- Explicar el problema de acceso que resuelven las fracciones de acción.
+- Explicar cómo pueden usarse las fracciones de acción para ajustar el riesgo de forma adecuada, no solo para poder pagar una acción cara.
+
+## Contenido principal
+
+### Qué son las fracciones de acción
+
+Una fracción de acción es una parte de una sola acción, más pequeña que una acción completa, que permite a un inversionista comprar menos de una acción entera a la vez.
+
+### El problema de acceso que resuelven
+
+Antes de que las fracciones de acción estuvieran muy disponibles, un inversionista necesitaba suficiente dinero para comprar al menos una acción completa, una barrera real con las acciones de precio alto. Las fracciones de acción permiten que un inversionista con menos dinero obtenga igualmente una exposición proporcional a esa misma acción.
+
+### Un segundo uso, menos evidente: ajustar el riesgo a propósito
+
+Pregúntate: si le estás enseñando a alguien a invertir por primera vez (quizá a una persona joven con muy poco dinero), ¿cuál es el verdadero peligro? No es solo "no poder pagar una acción". Es la posibilidad de una pérdida lo bastante grande como para hacerle daño de verdad. Por ejemplo, un padre que le enseña a invertir a un adolescente podría usar una cuenta de fracciones de acción precisamente para que una pérdida real siga siendo lo bastante pequeña como para ser una verdadera lección, y no un desastre. El tamaño de la posición, y no solo lo que se puede pagar, es una decisión deliberada.
+
+## Ejemplo práctico
+
+*EJEMPLO ILUSTRATIVO:* Imagina a un padre que abre una pequeña cuenta de fracciones de acción para su hijo adolescente. ¿Por qué fracciones, en vez de esperar a que pudiera pagar una acción completa? No solo para que técnicamente pudiera ser dueño de una parte de una acción cara, sino para que, si la inversión perdía valor, la pérdida fuera lo bastante pequeña como para absorberla y aprender de ella, y no algo que pudiera atrasarlo seriamente. La lección no era solo "ahora puedes permitirte invertir", sino "puedes permitirte equivocarte, con seguridad, mientras todavía estás aprendiendo".
+
+## Prueba de práctica
+
+1. Una fracción de acción es:
+   A. Una acción completa
+   B. Una parte de una sola acción, más pequeña que una acción completa
+   C. Un tipo de bono
+   D. Un pago de dividendos garantizado
+2. Verdadero o falso: las fracciones de acción exigen que el inversionista tenga suficiente dinero para al menos una acción completa.
+3. Además de poder pagarlas, ¿cuál es otra razón real por la que alguien podría elegir fracciones de acción para un inversionista principiante?
+   A. Para garantizar una ganancia
+   B. Para ajustar el tamaño de la posición de modo que una posible pérdida siga siendo lo bastante pequeña como para ser una lección real y segura
+   C. Para no perder nunca dinero
+   D. Para eliminar la necesidad de investigar
+
+## Clave de respuestas
+
+1. B
+2. Falso
+3. B
+
+## Respuestas y explicaciones
+
+### Pregunta 1
+
+Respuesta correcta: B. Una fracción de acción es menos de una acción completa.
+
+### Pregunta 2
+
+Respuesta correcta: Falso. Las fracciones de acción eliminan precisamente ese requisito.
+
+### Pregunta 3
+
+Respuesta correcta: B. Ajustar el tamaño de una posición para que una pérdida sea soportable y educativa, y no dañina, es un uso real y deliberado de la inversión en fracciones.
+
+## Puntos clave
+
+- Una fracción de acción es una parte de una acción completa.
+- Elimina la barrera de necesitar el precio de una acción completa para invertir.
+- También puede usarse de forma deliberada para ajustar el tamaño de una posición y mantener un riesgo adecuado, algo especialmente importante al enseñar a un principiante.
+
+===== WHITE-L1-025
+TITLE: ¿Qué son las ganancias por acción (EPS)?
+SUMMARY: Aprende qué miden las ganancias por acción (EPS) y cómo se calculan, como base para lecciones posteriores de valoración.
+# ¿Qué son las ganancias por acción (EPS)?
+
+## Objetivos de aprendizaje
+
+Al final de esta lección, deberías poder:
+
+- Enunciar la fórmula de las EPS.
+- Calcular unas EPS básicas a partir de la ganancia neta y las acciones en circulación.
+- Explicar en términos sencillos lo que representan las EPS.
+
+## Contenido principal
+
+### La fórmula de las EPS
+
+Ganancias por acción (EPS, por sus siglas en inglés) = Ganancia neta ÷ Acciones en circulación. Reparte la ganancia total de una empresa entre cada acción individual.
+
+### Lo que representan las EPS
+
+Las EPS representan cuánta ganancia le corresponde a cada acción individual: una forma de expresar la ganancia total de una empresa por acción, lo que facilita comparar empresas de distintos tamaños.
+
+### Por qué importa de aquí en adelante
+
+Las EPS son la base de varios conceptos de valoración que se ven con más profundidad en el Nivel 2; entender ahora lo que miden prepara ese material posterior.
+
+## Ejemplo práctico
+
+*EJEMPLO ILUSTRATIVO:* Una empresa con $5,000,000 de ganancia neta y 1,000,000 de acciones en circulación tiene unas EPS de $5,000,000 ÷ 1,000,000 = $5.00 por acción.
+
+## Prueba de práctica
+
+1. Las EPS se calculan como:
+   A. Precio de la acción ÷ ganancia neta
+   B. Ganancia neta ÷ acciones en circulación
+   C. Ingresos totales ÷ gastos totales
+   D. Acciones en circulación ÷ ganancia neta
+2. Verdadero o falso: las EPS representan la ganancia total de una empresa, no una cifra por acción.
+3. Una empresa tiene $2,000,000 de ganancia neta y 500,000 acciones en circulación. ¿Cuáles son sus EPS?
+   A. $0.25
+   B. $2.50
+   C. $4.00
+   D. $250
+
+## Clave de respuestas
+
+1. B
+2. Falso
+3. C
+
+## Respuestas y explicaciones
+
+### Pregunta 1
+
+Respuesta correcta: B. EPS = Ganancia neta ÷ Acciones en circulación.
+
+### Pregunta 2
+
+Respuesta correcta: Falso. Las EPS expresan específicamente la ganancia por acción.
+
+### Pregunta 3
+
+Respuesta correcta: C. $2,000,000 ÷ 500,000 = $4.00.
+
+## Puntos clave
+
+- EPS = Ganancia neta ÷ Acciones en circulación.
+- Expresan la ganancia de una empresa por acción.
+- Son la base de conceptos de valoración que se ven con más profundidad más adelante.
