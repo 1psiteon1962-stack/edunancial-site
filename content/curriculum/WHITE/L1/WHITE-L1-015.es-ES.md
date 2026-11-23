@@ -5,44 +5,77 @@ officialTrackName: Paper Assets
 level: 1
 lessonNumber: 15
 locale: es-ES
-title: "El Interés Compuesto y el Crecimiento"
-summary: "*ASUNCIÓN:* Debido a que el interés compuesto se construye sobre sí mismo, empezar antes generalmente tiene un impacto desproporcionadamente grande a largo plazo comparado con aportar más después — aunque los resultados reales dependen de los tipos de rendimiento asumidos, los cuales nunca están garantizados."
-sourceVersion: "1.0"
+title: "¿Qué es la volatilidad?"
+summary: "Aprende qué mide la volatilidad y por qué es distinta del riesgo de pérdida permanente."
+version: "1.0"
 author: Waldemar M. Caban, JD MA
 date: 2026-08-08
 ---
 
-# WHITE-L1-015: El Interés Compuesto y el Crecimiento
+# ¿Qué es la volatilidad?
 
-## Objetivos de Aprendizaje
-1. Definir el crecimiento/interés compuesto.
-2. Distinguir el interés compuesto del interés simple.
-3. Explicar por qué el tiempo es un factor crítico en el interés compuesto.
+## Objetivos de aprendizaje
 
-## Contenido Principal
-El crecimiento compuesto significa obtener rendimiento no solo sobre la inversión original, sino también sobre el rendimiento acumulado previamente. *HECHO VERIFICADO:* Esto difiere del interés simple, que solo calcula el rendimiento sobre el capital original, nunca sobre ganancias previas.
+Al final de esta lección, deberías poder:
 
-*ASUNCIÓN:* Debido a que el interés compuesto se construye sobre sí mismo, empezar antes generalmente tiene un impacto desproporcionadamente grande a largo plazo comparado con aportar más después — aunque los resultados reales dependen de los tipos de rendimiento asumidos, los cuales nunca están garantizados.
+- Definir la volatilidad en términos sencillos.
+- Explicar qué mide específicamente la volatilidad.
+- Distinguir la volatilidad de la pérdida permanente.
 
-## Ejemplo Práctico
-*EJEMPLO ILUSTRATIVO:* $10.000 invertidos a un rendimiento medio anual asumido del 7% crecen hasta aproximadamente $19.700 después de 10 años y aproximadamente $38.700 después de 20 años — no el doble, sino casi el cuádruple, porque el crecimiento de la segunda década se compone sobre una base mucho mayor que la de la primera década. Esto ilustra por qué la curva de crecimiento se acelera con el tiempo en lugar de mantenerse lineal.
+## Contenido principal
 
-## Cuestionario Práctico
-1. ¿Qué es el crecimiento compuesto?
-2. ¿En qué se diferencia el interés compuesto del interés simple?
-3. Verdadero/Falso: Empezar a invertir más tarde no tiene desventaja comparado con empezar antes, asumiendo las mismas aportaciones totales.
-4. ¿Por qué se acelera con el tiempo la curva de crecimiento del interés compuesto?
+### Qué significa volatilidad
 
-## Clave de Respuestas
-1. Obtener rendimiento tanto sobre la inversión original como sobre las ganancias acumuladas previamente   2. El interés simple solo calcula sobre el capital original   3. Falso   4. El crecimiento posterior se compone sobre una base cada vez mayor
+La volatilidad se refiere a cuánto y con qué rapidez sube y baja el precio de un activo en un período determinado. Un activo muy volátil oscila mucho y con frecuencia; un activo de baja volatilidad se mueve de forma más gradual.
 
-## Respuestas y Explicaciones
-1. Esta es la definición fundamental del crecimiento compuesto.
-2. Esta es la distinción clave respecto a los cálculos de interés simple.
-3. El tiempo en el mercado importa significativamente debido al interés compuesto — empezar antes generalmente ayuda.
-4. El crecimiento de cada período se construye sobre una base acumulada mayor que el período anterior.
+### Lo que mide específicamente
 
-## Puntos Clave para Recordar
-- El crecimiento compuesto obtiene rendimiento tanto sobre el capital como sobre las ganancias previas.
-- Esto difiere del interés simple, calculado solo sobre el capital original.
-- El tiempo es un factor crítico del interés compuesto — empezar antes generalmente tiene un impacto desproporcionado a largo plazo.
+La volatilidad mide el movimiento del precio, no necesariamente su dirección ni el resultado final. Un activo puede ser muy volátil y aun así terminar más arriba con el tiempo: la volatilidad describe lo accidentado del camino, no automáticamente el destino.
+
+### Volatilidad frente a pérdida permanente
+
+Una caída temporal del precio de un activo volátil no es lo mismo que una pérdida permanente: si el precio luego se recupera, el inversor que no vendió durante la caída vive la volatilidad sin una pérdida duradera. La pérdida solo queda "asegurada" si el activo se vende al precio más bajo.
+
+## Ejemplo práctico
+
+*EJEMPLO ILUSTRATIVO:* El precio de una acción oscila entre 80 € y 120 € durante unos meses antes de estabilizarse cerca de 115 €: muy volátil por el camino, pero el inversor que la mantuvo durante las oscilaciones terminó cerca de una ganancia, no de una pérdida.
+
+## Cuestionario de práctica
+
+1. La volatilidad mide:
+   A. Una pérdida garantizada
+   B. Cuánto y con qué rapidez sube y baja un precio
+   C. La ganancia total de una empresa
+   D. El número de acciones en circulación
+2. Verdadero o falso: una caída temporal del precio es automáticamente lo mismo que una pérdida permanente.
+3. ¿Cuándo una pérdida en papel causada por la volatilidad se convierte en una pérdida asegurada?
+   A. Nunca
+   B. Cuando el activo se vende al precio más bajo
+   C. Automáticamente después de un año
+   D. En cuanto el precio baja, aunque sea un poco
+
+## Clave de respuestas
+
+1. B
+2. Falso
+3. B
+
+## Respuestas y explicaciones
+
+### Pregunta 1
+
+Respuesta correcta: B. La volatilidad mide el grado de movimiento del precio.
+
+### Pregunta 2
+
+Respuesta correcta: Falso. Una caída temporal no es una pérdida permanente a menos que el activo se venda realmente a ese precio más bajo.
+
+### Pregunta 3
+
+Respuesta correcta: B. Vender al precio más bajo es lo que asegura la pérdida.
+
+## Puntos clave
+
+- La volatilidad mide cuánto y con qué rapidez se mueve un precio.
+- Describe el movimiento del precio, no automáticamente un resultado final.
+- Una caída temporal no es una pérdida permanente a menos que se venda a ese precio.

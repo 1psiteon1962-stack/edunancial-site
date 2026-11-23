@@ -5,42 +5,77 @@ officialTrackName: Paper Assets
 level: 1
 lessonNumber: 11
 locale: es-Caribbean
-title: "Diversificación — No Pongas Todos los Huevos en Una Canasta"
-summary: "Lección WHITE-L1-011 en español caribeño."
-sourceVersion: "1.0"
+title: "¿Qué es un índice? (Lo que realmente significa \"el mercado\" cuando la gente lo dice)"
+summary: "Aprende qué es realmente un índice de mercado y qué significa cuando la gente dice que \"el mercado subió\"."
+version: "1.0"
 author: Waldemar M. Caban, JD MA
 date: 2026-08-08
 ---
 
-# WHITE-L1-011: Diversificación — No Pongas Todos los Huevos en Una Canasta
+# ¿Qué es un índice? (Lo que realmente significa "el mercado" cuando la gente lo dice)
 
-## Objetivos de Aprendizaje
-1. Definir la diversificación.
-2. Explicar cómo la diversificación puede reducir el riesgo.
-3. Reconocer que la diversificación no elimina todo el riesgo.
+## Objetivos de aprendizaje
 
-## Contenido Principal
-La diversificación significa repartir las inversiones entre diferentes activos, sectores, o geografías para que el mal desempeño en un área no arruine todo el portafolio. *HECHO VERIFICADO:* La diversificación puede reducir el impacto del mal desempeño de cualquier inversión individual, pero no elimina todo el riesgo — las caídas generales del mercado todavía pueden afectar un portafolio bien diversificado.
+Al final de esta lección, deberías poder:
 
-## Ejemplo Práctico
-*EJEMPLO ILUSTRATIVO:* Sam invierte todos sus ahorros en la acción de una sola compañía. Cuando esa compañía tiene un mal año y cae 40%, todo su portafolio cae 40%. Su amigo Ravi reparte sus inversiones entre 200 compañías diferentes a través de un fondo índice; cuando algunas de esas compañías tienen malos años, el impacto general en el portafolio de Ravi es mucho menor, ya que los que tienen buen desempeño en otros lados pueden compensar a los débiles.
+- Definir un índice de mercado en términos sencillos.
+- Explicar qué significa cuando alguien dice que "el mercado subió".
+- Reconocer que un índice sigue a un grupo definido, no literalmente a todo.
 
-## Quiz Práctico
-1. ¿Qué es la diversificación?
-2. Verdadero/Falso: La diversificación elimina todo el riesgo de inversión.
-3. ¿Qué le pasó al portafolio de Sam cuando su única acción cayó 40%?
-4. ¿Por qué el portafolio de Ravi fue menos afectado por algunas compañías con bajo desempeño?
+## Contenido principal
 
-## Clave de Respuestas
-1. Repartir las inversiones entre diferentes activos para reducir el riesgo concentrado   2. Falso   3. También cayó 40%   4. Los que tuvieron buen desempeño en otros lados compensaron a los débiles
+### Qué es un índice
 
-## Respuestas y Explicaciones
-1. Esta es la definición fundamental de la diversificación.
-2. La diversificación reduce, pero no elimina, el riesgo — las caídas generales todavía importan.
-3. Con todo el dinero en una sola acción, su caída completa golpeó todo su portafolio.
-4. Repartir el riesgo entre muchas tenencias amortigua el impacto de cualquier desempeño débil individual.
+Un índice de mercado es un conjunto definido de acciones (u otros activos) que se siguen juntas para representar el desempeño de un segmento específico del mercado; es una herramienta de medición, no algo de lo que seas dueño directamente.
 
-## Puntos Clave para Recordar
-- La diversificación reparte el riesgo entre múltiples inversiones.
-- Reduce (pero no elimina) el impacto del mal desempeño de cualquier inversión individual.
-- Las caídas generales del mercado todavía pueden afectar hasta los portafolios bien diversificados.
+### Lo que realmente significa "el mercado subió"
+
+Cuando la gente dice que "el mercado subió hoy", normalmente se refiere a que subió de valor un índice específico y muy conocido, no literalmente todas las acciones en todas partes. Distintos índices pueden moverse en direcciones distintas el mismo día.
+
+### Un grupo definido, no todo
+
+Un índice sigue a un conjunto específico y definido de empresas (elegidas según reglas concretas), no a toda la economía mundial. Entender qué empresas forman parte realmente de un índice importa para entender lo que representa de verdad su movimiento.
+
+## Ejemplo práctico
+
+*EJEMPLO ILUSTRATIVO:* Un titular que dice que "el mercado subió un 1% hoy" normalmente se refiere a un índice específico formado por un grupo definido de empresas; otro índice que siga a un grupo distinto de empresas pudo haberse movido de otra forma ese mismo día.
+
+## Prueba de práctica
+
+1. Un índice de mercado es:
+   A. La acción de una sola empresa
+   B. Un conjunto definido de activos que se sigue para representar un segmento del mercado
+   C. Un tipo de cuenta bancaria
+   D. Un informe económico del gobierno
+2. Verdadero o falso: "el mercado subió" siempre significa que ese día subieron literalmente todas las acciones del mundo.
+3. ¿Por qué importa qué empresas forman parte realmente de un índice?
+   A. No importa en absoluto
+   B. Determina lo que realmente representa el movimiento de ese índice
+   C. Todos los índices tienen las mismas empresas
+   D. Los índices nunca cambian sus componentes
+
+## Clave de respuestas
+
+1. B
+2. Falso
+3. B
+
+## Respuestas y explicaciones
+
+### Pregunta 1
+
+Respuesta correcta: B. Un índice es un conjunto definido que se sigue para representar un segmento del mercado.
+
+### Pregunta 2
+
+Respuesta correcta: Falso. Se refiere a un índice específico, no literalmente a todas las acciones.
+
+### Pregunta 3
+
+Respuesta correcta: B. La composición determina lo que refleja realmente el movimiento del índice.
+
+## Puntos clave
+
+- Un índice de mercado sigue a un conjunto definido de activos.
+- "El mercado subió" normalmente se refiere a un índice específico, no a todo.
+- Entender la composición real de un índice importa para interpretar su movimiento.

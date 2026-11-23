@@ -5,44 +5,77 @@ officialTrackName: Paper Assets
 level: 1
 lessonNumber: 20
 locale: es-ES
-title: "¿Qué Es un IRA?"
-summary: "*HECHO VERIFICADO:* A diferencia de un 401(k), que está patrocinado por el empleador, un IRA se abre independientemente por un individuo a través de una entidad de bróker o institución financiera, ofreciendo ahorro para la jubilación con ventajas fiscales similares pero con distintos límites de aportación y normas."
-sourceVersion: "1.0"
+title: "Tradicional o Roth: ¿qué cambia realmente en el tratamiento fiscal?"
+summary: "Aprende la diferencia central de momento de tributación entre las cuentas de jubilación tradicionales y las Roth."
+version: "1.0"
 author: Waldemar M. Caban, JD MA
 date: 2026-08-08
 ---
 
-# WHITE-L1-020: ¿Qué Es un IRA?
+# Tradicional o Roth: ¿qué cambia realmente en el tratamiento fiscal?
 
-## Objetivos de Aprendizaje
-1. Definir un IRA (Cuenta de Jubilación Individual).
-2. Distinguir un IRA de un 401(k).
-3. Reconocer que este es un tipo de cuenta específico de EE. UU.
+## Objetivos de aprendizaje
 
-## Contenido Principal
-*REGLA ESPECÍFICA DE LA REGIÓN:* Un IRA es una cuenta de jubilación con ventajas fiscales de EE. UU.; esta lección describe específicamente el concepto estadounidense.
+Al final de esta lección, deberías poder:
 
-*HECHO VERIFICADO:* A diferencia de un 401(k), que está patrocinado por el empleador, un IRA se abre independientemente por un individuo a través de una entidad de bróker o institución financiera, ofreciendo ahorro para la jubilación con ventajas fiscales similares pero con distintos límites de aportación y normas.
+- Explicar la diferencia central de momento de tributación entre las cuentas tradicionales y las Roth.
+- Explicar cuándo tributa una cuenta tradicional.
+- Explicar cuándo tributa una cuenta Roth.
 
-## Ejemplo Práctico
-*EJEMPLO ILUSTRATIVO:* El empleador de Omar no ofrece un 401(k), así que él abre un IRA directamente a través de una entidad de bróker. Aporta independientemente cada año, eligiendo sus propias inversiones dentro de la cuenta — un camino disponible para él sin importar qué beneficios de jubilación, si acaso, ofrezca su empleador.
+## Contenido principal
 
-## Cuestionario Práctico
-1. ¿Qué es un IRA?
-2. ¿En qué se diferencia un IRA de un 401(k) en cuanto a quién lo abre?
-3. Verdadero/Falso: Un IRA requiere patrocinio del empleador para abrirse.
-4. ¿Cuál es una similitud clave entre los IRAs y los 401(k)s?
+### La diferencia central de momento de tributación
 
-## Clave de Respuestas
-1. Una cuenta de jubilación con ventajas fiscales abierta individualmente   2. Un individuo abre un IRA directamente; un 401(k) está patrocinado por el empleador   3. Falso   4. Ambos ofrecen ahorro para la jubilación con ventajas fiscales
+*(REGLA ESPECÍFICA DE LA REGIÓN: esto describe un concepto fiscal de EE. UU.; en España las aportaciones a planes de pensiones y su rescate tienen un tratamiento fiscal propio en el IRPF.)* Tanto las cuentas tradicionales como las Roth (disponibles en versiones 401(k) o IRA) ofrecen ventajas fiscales; la diferencia real es CUÁNDO se aplica el beneficio fiscal, no que una sea mejor en todas las situaciones.
 
-## Respuestas y Explicaciones
-1. Esta es la definición fundamental de un IRA.
-2. Esta es la distinción estructural clave respecto a un 401(k).
-3. Los IRAs se pueden abrir independientemente, sin necesitar un plan del empleador.
-4. Ambos tipos de cuenta comparten el objetivo general de ahorro para la jubilación con ventajas fiscales.
+### Cuentas tradicionales
 
-## Puntos Clave para Recordar
-- Un IRA es una cuenta de jubilación con ventajas fiscales de EE. UU., abierta individualmente.
-- A diferencia de un 401(k), no requiere patrocinio del empleador.
-- Los límites de aportación y las normas específicas difieren entre los IRAs y los 401(k)s.
+Los aportes a una cuenta tradicional suelen hacerse antes de impuestos, y los retiros durante la jubilación en general tributan como ingreso en ese momento posterior.
+
+### Cuentas Roth
+
+Los aportes a una cuenta Roth se hacen con dinero que ya pagó impuestos, pero los retiros que cumplen los requisitos durante la jubilación en general están libres de impuestos: el impuesto se paga al principio y no después.
+
+## Ejemplo práctico
+
+*EJEMPLO ILUSTRATIVO:* Un aporte a una cuenta tradicional reduce el ingreso tributable ahora, y el impuesto se paga después, en los retiros. Un aporte a una cuenta Roth no da ningún beneficio fiscal ahora, pero los retiros que cumplen los requisitos después en general están libres de impuestos: el mismo dólar, gravado en un momento distinto.
+
+## Cuestionario de práctica
+
+1. La diferencia central entre las cuentas tradicionales y las Roth es:
+   A. Solo las cuentas tradicionales permiten invertir en acciones
+   B. Cuándo se aplica la ventaja fiscal: ahora o después
+   C. Las cuentas Roth son solo para empleadores
+   D. No hay ninguna diferencia real
+2. Verdadero o falso: los aportes a una cuenta tradicional suelen hacerse con dinero que ya pagó impuestos.
+3. ¿Cuándo tributan en general los retiros de una Roth que cumplen los requisitos?
+   A. Al momento de aportar
+   B. En general no tributan al retirarse, porque el impuesto se pagó al principio
+   C. Dos veces: al aportar y al retirar
+   D. Nunca se aporta con dinero real
+
+## Clave de respuestas
+
+1. B
+2. Falso
+3. B
+
+## Respuestas y explicaciones
+
+### Pregunta 1
+
+Respuesta correcta: B. El momento de la ventaja fiscal es la diferencia central.
+
+### Pregunta 2
+
+Respuesta correcta: Falso. Los aportes tradicionales suelen hacerse antes de impuestos.
+
+### Pregunta 3
+
+Respuesta correcta: B. Las cuentas Roth pagan el impuesto al principio, así que los retiros que cumplen los requisitos en general están libres de impuestos después.
+
+## Puntos clave
+
+- Tanto las cuentas tradicionales como las Roth ofrecen ventajas fiscales, en momentos distintos.
+- Tradicional: a menudo con ventaja fiscal ahora y tributación después, al retirar.
+- Roth: tributa ahora y, en general, está libre de impuestos al retirar después si se cumplen los requisitos.

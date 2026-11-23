@@ -5,42 +5,77 @@ officialTrackName: Paper Assets
 level: 1
 lessonNumber: 26
 locale: es-ES
-title: "Las Acciones \"Blue-Chip\""
-summary: "Lección WHITE-L1-026 en español."
-sourceVersion: "1.0"
+title: "¿Qué es la relación precio/ganancias (P/E)? (Versión introductoria; el método completo, en el Nivel 2)"
+summary: "Aprende la fórmula básica de la relación P/E y lo que estima, como introducción a la valoración que se ve con más profundidad en el Nivel 2."
+version: "1.0"
 author: Waldemar M. Caban, JD MA
 date: 2026-08-08
 ---
 
-# WHITE-L1-026: Las Acciones "Blue-Chip"
+# ¿Qué es la relación precio/ganancias (P/E)? (Versión introductoria; el método completo, en el Nivel 2)
 
-## Objetivos de Aprendizaje
-1. Definir una acción "blue-chip."
-2. Identificar las características generales de las empresas blue-chip.
-3. Reconocer que "blue-chip" no garantiza protección frente a pérdidas.
+## Objetivos de aprendizaje
 
-## Contenido Principal
-Las acciones "blue-chip" generalmente se refieren a empresas grandes, bien consolidadas, y financieramente estables con un largo historial de comportamiento fiable. *ASUNCIÓN:* Aunque a menudo se perciben como relativamente de menor riesgo comparadas con empresas más pequeñas o nuevas, "blue-chip" es una categoría reputacional general, no una clasificación financiera formal con una definición legal precisa — y las acciones blue-chip todavía pueden caer significativamente de valor.
+Al final de esta lección, deberías poder:
 
-## Ejemplo Práctico
-*EJEMPLO ILUSTRATIVO:* Un inversor construyendo una posición "central" en su cartera incluye varias empresas grandes y de larga trayectoria con décadas de historial operativo consistente — comúnmente descritas como posiciones blue-chip. Esto no significa que estas acciones no puedan perder valor; incluso las empresas bien consolidadas pueden caer sustancialmente durante caídas generales del mercado o problemas específicos de la empresa.
+- Enunciar la fórmula básica de la relación P/E.
+- Calcular una relación P/E básica a partir del precio de la acción y las EPS.
+- Explicar, a nivel introductorio, lo que estima esta relación.
 
-## Cuestionario Práctico
-1. ¿Qué describe generalmente "blue-chip"?
-2. Verdadero/Falso: "Blue-chip" es una categoría financiera precisa y formalmente definida.
-3. ¿Pueden las acciones blue-chip perder valor?
-4. ¿Qué percepción llevan a menudo las acciones blue-chip, según la lección?
+## Contenido principal
 
-## Clave de Respuestas
-1. Empresas grandes, bien consolidadas, y financieramente estables   2. Falso   3. Sí   4. Estabilidad relativa percibida comparada con empresas más pequeñas/nuevas
+### La fórmula básica
 
-## Respuestas y Explicaciones
-1. Esta es la descripción general de las empresas blue-chip.
-2. Es un término reputacional ampliamente usado pero informal, no una clasificación estricta.
-3. Ninguna categoría de acciones es inmune a una pérdida potencial.
-4. Esta percepción existe pero no es una garantía frente a la caída.
+Relación P/E = Precio de la acción ÷ Ganancias por acción (EPS); se basa directamente en el concepto de EPS de la lección anterior.
 
-## Puntos Clave para Recordar
-- "Blue-chip" describe empresas grandes, consolidadas, e históricamente estables.
-- Este es un término informal ampliamente usado, no una clasificación financiera precisa.
-- El estatus blue-chip no garantiza protección frente a pérdidas.
+### Lo que estima
+
+La relación P/E responde de forma aproximada a esta pregunta: ¿cuánto están pagando hoy los inversores por cada dólar de las ganancias actuales de una empresa? Un número más alto significa que los inversores pagan más por cada dólar de ganancia actual.
+
+### Un adelanto, no el cuadro completo
+
+*SUPUESTO (con fines didácticos):* Esta lección introductoria solo cubre la fórmula básica. El tratamiento completo, incluido cómo comparar entre industrias y cómo las recompras de acciones pueden distorsionar la relación, se ve en el Nivel 2.
+
+## Ejemplo práctico
+
+*EJEMPLO ILUSTRATIVO:* Una acción se negocia a 60 € con unas EPS de 3.00 €. P/E = 60 € ÷ 3,00 € = 20: los inversores pagan 20 € por cada 1 € de las ganancias actuales de esa empresa.
+
+## Cuestionario de práctica
+
+1. La fórmula de la relación P/E es:
+   A. EPS ÷ Precio de la acción
+   B. Precio de la acción ÷ EPS
+   C. Ganancia neta ÷ Precio de la acción
+   D. Acciones en circulación ÷ EPS
+2. Verdadero o falso: una relación P/E más alta significa que los inversores pagan menos por cada dólar de ganancia actual.
+3. Una acción se negocia a 80 € con unas EPS de 4.00 €. ¿Cuál es su relación P/E?
+   A. 4
+   B. 20
+   C. 80
+   D. 320
+
+## Clave de respuestas
+
+1. B
+2. Falso
+3. B
+
+## Respuestas y explicaciones
+
+### Pregunta 1
+
+Respuesta correcta: B. P/E = Precio de la acción ÷ EPS.
+
+### Pregunta 2
+
+Respuesta correcta: Falso. Un P/E más alto significa pagar más por cada dólar de ganancia.
+
+### Pregunta 3
+
+Respuesta correcta: B. 80 € ÷ 4,00 € = 20.
+
+## Puntos clave
+
+- Relación P/E = Precio de la acción ÷ EPS.
+- Estima cuánto pagan los inversores por cada dólar de ganancia actual.
+- Esta es una versión introductoria: el Nivel 2 cubre su aplicación más profunda y sus limitaciones.

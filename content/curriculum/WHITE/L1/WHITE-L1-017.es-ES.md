@@ -5,44 +5,77 @@ officialTrackName: Paper Assets
 level: 1
 lessonNumber: 17
 locale: es-ES
-title: "Acciones Individuales vs. Fondos Indexados"
-summary: "*OPINIÓN:* Muchos educadores financieros comúnmente sugieren los fondos indexados como un punto de partida razonable para principiantes, dada su diversificación incorporada y menor carga de investigación — aunque esto es una guía general, no un consejo personalizado, y elegir acciones individuales sigue siendo una estrategia válida para inversores informados."
-sourceVersion: "1.0"
+title: "¿Qué es el interés compuesto? (La idea que todos mencionan, pero pocos explican)"
+summary: "Aprende cómo funciona realmente el interés compuesto, paso a paso, y no solo como una palabra de moda."
+version: "1.0"
 author: Waldemar M. Caban, JD MA
 date: 2026-08-08
 ---
 
-# WHITE-L1-017: Acciones Individuales vs. Fondos Indexados
+# ¿Qué es el interés compuesto? (La idea que todos mencionan, pero pocos explican)
 
-## Objetivos de Aprendizaje
-1. Distinguir entre elegir acciones individuales e invertir en fondos indexados.
-2. Explicar los equilibrios entre los dos enfoques.
-3. Identificar por qué los fondos indexados a menudo se recomiendan para principiantes.
+## Objetivos de aprendizaje
 
-## Contenido Principal
-Elegir **acciones individuales** significa seleccionar empresas específicas para invertir, lo cual requiere investigación y conlleva riesgo concentrado. Invertir en un **fondo indexado** significa comprar un fondo que sigue un índice de mercado amplio, repartiendo el riesgo entre muchas empresas automáticamente.
+Al final de esta lección, deberías poder:
 
-*OPINIÓN:* Muchos educadores financieros comúnmente sugieren los fondos indexados como un punto de partida razonable para principiantes, dada su diversificación incorporada y menor carga de investigación — aunque esto es una guía general, no un consejo personalizado, y elegir acciones individuales sigue siendo una estrategia válida para inversores informados.
+- Definir el interés compuesto en términos sencillos.
+- Distinguirlo del interés simple.
+- Calcular un ejemplo básico de crecimiento compuesto durante algunos períodos.
 
-## Ejemplo Práctico
-*EJEMPLO ILUSTRATIVO:* Dos amigos empiezan a invertir. Diego pasa horas investigando y elige 5 acciones individuales, concentrando su riesgo en un pequeño número de empresas. Fatima compra un solo fondo indexado al S&P 500, ganando instantáneamente exposición a 500 empresas sin necesitar investigación específica de cada una. El enfoque de Diego podría superar o quedarse por debajo significativamente según sus elecciones específicas; el enfoque de Fatima sigue el comportamiento medio del mercado más amplio.
+## Contenido principal
 
-## Cuestionario Práctico
-1. ¿Qué requiere elegir acciones individuales?
-2. ¿Qué proporciona automáticamente un fondo indexado?
-3. Verdadero/Falso: Los fondos indexados garantizan mejores rendimientos que elegir acciones individuales.
-4. ¿Por qué se sugieren a menudo los fondos indexados para principiantes?
+### Qué es el interés compuesto
 
-## Clave de Respuestas
-1. Investigación y análisis específico de empresas   2. Diversificación entre muchas empresas   3. Falso   4. Diversificación incorporada y menor carga de investigación
+El interés compuesto es el interés que se calcula no solo sobre la cantidad original invertida, sino también sobre los intereses ya acumulados; es decir, el crecimiento se construye encima del crecimiento anterior, no solo sobre la cantidad inicial.
 
-## Respuestas y Explicaciones
-1. Elegir acciones requiere evaluar las perspectivas de empresas individuales.
-2. Los fondos indexados reparten automáticamente la exposición entre las posiciones del índice que siguen.
-3. Ningún enfoque garantiza superar al otro — los resultados varían.
-4. Esto refleja la guía educativa común, no una regla universal para cada inversor.
+### Interés compuesto frente a interés simple
 
-## Puntos Clave para Recordar
-- Elegir acciones individuales requiere investigación y conlleva riesgo concentrado.
-- Los fondos indexados proporcionan diversificación instantánea con menor carga de investigación.
-- Los fondos indexados comúnmente se sugieren para principiantes, aunque ambos enfoques son válidos.
+El interés simple se calcula solo sobre la cantidad original, en cada período. El interés compuesto se calcula sobre la cantidad original más todos los intereses ganados antes; esa es justamente la razón por la que la capitalización se acelera con el tiempo.
+
+### Un ejemplo paso a paso
+
+Empezando con 1.000 € a un interés compuesto anual del 10 %: después del año 1, tienes 1.100 €. Después del año 2, el interés se calcula sobre 1.100 € (no solo sobre los 1.000 € originales) y llegas a 1.210 €. Después del año 3, se calcula sobre 1.210 € y llegas a 1.331 €: el crecimiento se acelera porque el interés de cada año se calcula sobre una base más grande.
+
+## Ejemplo práctico
+
+*EJEMPLO ILUSTRATIVO:* 1.000 € a un interés simple del 10 % ganan exactamente 100 € cada año: 1.100 €, 1.200 €, 1.300 €. Los mismos 1.000 € a un interés compuesto del 10 % llegan a 1.100 €, 1.210 €, 1.331 €: una diferencia pequeña pero creciente, que se amplía mucho en períodos más largos.
+
+## Cuestionario de práctica
+
+1. El interés compuesto se calcula sobre:
+   A. Solo la cantidad original invertida
+   B. La cantidad original más los intereses ganados antes
+   C. Una tasa fija del gobierno
+   D. Solo el aporte del año más reciente
+2. Verdadero o falso: el interés simple y el interés compuesto producen resultados idénticos con el tiempo.
+3. 1.000 € crecen hasta 1.100 € después del año 1 a un interés compuesto del 10 %. ¿Hasta cuánto crecerían después del año 2?
+   A. 1.100 €
+   B. 1.200 €
+   C. 1.210 €
+   D. 1.300 €
+
+## Clave de respuestas
+
+1. B
+2. Falso
+3. C
+
+## Respuestas y explicaciones
+
+### Pregunta 1
+
+Respuesta correcta: B. El interés compuesto se construye sobre el principal y los intereses acumulados.
+
+### Pregunta 2
+
+Respuesta correcta: Falso. El interés compuesto crece más rápido que el interés simple con el tiempo.
+
+### Pregunta 3
+
+Respuesta correcta: C. 1.100 € × 1,10 = 1.210 € (un crecimiento del 10 % sobre la base nueva, más grande).
+
+## Puntos clave
+
+- El interés compuesto se calcula sobre el principal más los intereses acumulados.
+- Esa es la diferencia clave con el interés simple, que solo usa la cantidad original.
+- La diferencia entre el interés compuesto y el simple se amplía en períodos más largos.

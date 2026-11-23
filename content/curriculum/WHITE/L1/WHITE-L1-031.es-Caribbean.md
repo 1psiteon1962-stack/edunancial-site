@@ -5,44 +5,77 @@ officialTrackName: Paper Assets
 level: 1
 lessonNumber: 31
 locale: es-Caribbean
-title: "Cuentas con Ventajas Fiscales vs. Cuentas Gravables"
-summary: "*ASUNCIÓN:* Muchos inversionistas usan una combinación de ambas — cuentas con ventajas fiscales para metas de retiro a largo plazo, cuentas gravables para metas más flexibles y a corto plazo — aunque la mezcla correcta depende de las circunstancias individuales."
-sourceVersion: "1.0"
+title: "¿Qué es la inflación y por qué cambia en silencio lo que vale tu dinero?"
+summary: "Aprende qué significa la inflación y por qué erosiona en silencio el poder de compra, aunque el saldo de una cuenta de banco se mantenga igual."
+version: "1.0"
 author: Waldemar M. Caban, JD MA
 date: 2026-08-08
 ---
 
-# WHITE-L1-031: Cuentas con Ventajas Fiscales vs. Cuentas Gravables
+# ¿Qué es la inflación y por qué cambia en silencio lo que vale tu dinero?
 
-## Objetivos de Aprendizaje
-1. Distinguir las cuentas con ventajas fiscales de las cuentas de corretaje gravables estándar.
-2. Identificar un intercambio clave de las cuentas con ventajas fiscales.
-3. Explicar por qué la elección del tipo de cuenta puede afectar la estrategia de inversión.
+## Objetivos de aprendizaje
 
-## Contenido Principal
-Las cuentas con ventajas fiscales (como los 401(k)s y los IRAs) ofrecen beneficios fiscales pero típicamente vienen con reglas que restringen cuándo y cómo se pueden retirar los fondos sin penalización. Una cuenta de corretaje gravable estándar no ofrece tratamiento fiscal especial pero generalmente permite acceso sin restricciones a los fondos en cualquier momento.
+Al final de esta lección, deberías poder:
 
-*ASUNCIÓN:* Muchos inversionistas usan una combinación de ambas — cuentas con ventajas fiscales para metas de retiro a largo plazo, cuentas gravables para metas más flexibles y a corto plazo — aunque la mezcla correcta depende de las circunstancias individuales.
+- Definir la inflación en términos sencillos.
+- Explicar por qué un saldo de banco estable puede perder valor real de todos modos.
+- Relacionar la inflación con el hecho de que tener solo efectivo tiene un costo real.
 
-## Ejemplo Práctico
-*EJEMPLO ILUSTRATIVO:* Ravi contribuye a su 401(k) para el retiro, aceptando restricciones de retiro a cambio de beneficios fiscales, ya que no necesita ese dinero por décadas. También mantiene una cuenta de corretaje gravable separada para un fondo de pago inicial de casa al que podría necesitar acceso en tres años — flexibilidad que una cuenta de retiro restringida no proveería fácilmente.
+## Contenido principal
 
-## Quiz Práctico
-1. ¿Cuál es un beneficio general de las cuentas con ventajas fiscales?
-2. ¿Cuál es un intercambio general de las cuentas con ventajas fiscales?
-3. ¿Qué ofrece generalmente en su lugar una cuenta de corretaje gravable?
-4. Verdadero/Falso: Los inversionistas deben elegir solo un tipo de cuenta exclusivamente.
+### Qué es la inflación
 
-## Clave de Respuestas
-1. Beneficios fiscales (diferimiento o exención)   2. Restricciones/penalidades de retiro   3. Acceso sin restricciones a los fondos   4. Falso
+La inflación es un aumento general de los precios con el tiempo, lo que significa que cada unidad de moneda compra menos de lo que compraba antes.
 
-## Respuestas y Explicaciones
-1. Este es el atractivo principal de las cuentas con ventajas fiscales.
-2. El acceso restringido es el intercambio común por esos beneficios fiscales.
-3. Las cuentas gravables priorizan la flexibilidad sobre los beneficios fiscales.
-4. Muchos inversionistas usan una combinación basada en diferentes metas y horizontes de tiempo.
+### Por qué un saldo estable puede perder valor
 
-## Puntos Clave para Recordar
-- Las cuentas con ventajas fiscales ofrecen beneficios fiscales pero restringen la flexibilidad de retiro.
-- Las cuentas gravables ofrecen flexibilidad sin tratamiento fiscal especial.
-- Muchos inversionistas combinan ambas según diferentes metas y horizontes de tiempo.
+Si los precios suben un 3% en un año y un saldo de banco no gana intereses, ese dinero ahora puede comprar aproximadamente un 3% menos que un año antes: el número de la cuenta no se redujo, pero su poder de compra real sí.
+
+### Por qué esto importa para invertir
+
+Como la inflación erosiona el poder de compra con el tiempo, tener efectivo sin rendimiento no es realmente "seguro" en todos los sentidos: tiene el riesgo real de perder valor frente a la subida de los precios, una razón clave por la que muchas personas invierten en vez de simplemente ahorrar efectivo a largo plazo.
+
+## Ejemplo práctico
+
+*EJEMPLO ILUSTRATIVO:* $1,000 que pasan un año en una cuenta que no paga intereses, con una inflación del 3%, pueden comprar el equivalente a unos $970 de lo que podían comprar un año antes, aunque la cuenta siga mostrando $1,000.
+
+## Prueba de práctica
+
+1. La inflación se refiere a:
+   A. Una baja de los precios con el tiempo
+   B. Un aumento general de los precios con el tiempo
+   C. Un tipo de bono
+   D. Un impuesto del gobierno
+2. Verdadero o falso: un saldo de banco estable siempre está a salvo de perder valor real.
+3. ¿Por qué tener efectivo a largo plazo podría implicar un riesgo real?
+   A. El efectivo nunca puede perder valor
+   B. La inflación puede erosionar su poder de compra con el tiempo
+   C. El efectivo siempre gana intereses altos
+   D. Tener efectivo no implica ningún riesgo
+
+## Clave de respuestas
+
+1. B
+2. Falso
+3. B
+
+## Respuestas y explicaciones
+
+### Pregunta 1
+
+Respuesta correcta: B. La inflación es un aumento general de los precios con el tiempo.
+
+### Pregunta 2
+
+Respuesta correcta: Falso. La inflación puede erosionar el valor real aunque el saldo nominal se mantenga estable.
+
+### Pregunta 3
+
+Respuesta correcta: B. La inflación erosiona el poder de compra, un riesgo real de tener efectivo a largo plazo.
+
+## Puntos clave
+
+- La inflación es un aumento general de los precios que reduce el poder de compra.
+- Un saldo de cuenta estable puede perder valor real por la inflación.
+- Tener efectivo a largo plazo implica un riesgo real que a menudo se subestima.

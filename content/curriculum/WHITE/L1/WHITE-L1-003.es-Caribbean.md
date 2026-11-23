@@ -5,44 +5,77 @@ officialTrackName: Paper Assets
 level: 1
 lessonNumber: 3
 locale: es-Caribbean
-title: "Bonos — Prestando Tu Dinero a Cambio de Interés"
-summary: "*HECHO VERIFICADO:* Los precios de los bonos y las tasas de interés generalmente se mueven de manera inversa — cuando las tasas de interés del mercado suben, los precios de los bonos existentes tienden a bajar, y viceversa, porque los bonos más nuevos ofrecen tasas más competitivas."
-sourceVersion: "1.0"
+title: "¿Qué es realmente una acción? (Estás comprando una parte de una empresa)"
+summary: "Aprende a qué te da derecho realmente ser dueño de una acción, y a qué no."
+version: "1.0"
 author: Waldemar M. Caban, JD MA
 date: 2026-08-08
 ---
 
-# WHITE-L1-003: Bonos — Prestando Tu Dinero a Cambio de Interés
+# ¿Qué es realmente una acción? (Estás comprando una parte de una empresa)
 
-## Objetivos de Aprendizaje
-1. Definir un bono en términos sencillos.
-2. Distinguir entre ser tenedor de bonos y ser accionista.
-3. Explicar la relación entre los precios de los bonos y las tasas de interés.
+## Objetivos de aprendizaje
 
-## Contenido Principal
-Un bono es esencialmente un préstamo que un inversionista le hace a un emisor (un gobierno o una corporación), quien se compromete a pagar interés periódico y devolver el capital al vencimiento. *HECHO VERIFICADO:* A diferencia de un accionista, un tenedor de bonos es un acreedor, no un dueño — generalmente no tiene ningún derecho de propiedad ni derecho a voto en la compañía emisora.
+Al final de esta lección, deberías poder:
 
-*HECHO VERIFICADO:* Los precios de los bonos y las tasas de interés generalmente se mueven de manera inversa — cuando las tasas de interés del mercado suben, los precios de los bonos existentes tienden a bajar, y viceversa, porque los bonos más nuevos ofrecen tasas más competitivas.
+- Definir una acción en términos sencillos.
+- Explicar a qué te da derecho ser accionista, y a qué no.
+- Explicar por qué el total de acciones en circulación importa para lo que representa una acción.
 
-## Ejemplo Práctico
-*EJEMPLO ILUSTRATIVO:* Elena compra un bono de $1,000 que paga 4% de interés anual, con vencimiento en 10 años. Cada año recibe $40 en interés, y al vencimiento recibe de vuelta su $1,000 original. Si las tasas de interés del mercado suben a 6% antes del vencimiento, su bono al 4% se vuelve menos atractivo comparado con los bonos nuevos, y su precio de reventa típicamente bajaría si ella quisiera venderlo antes del vencimiento.
+## Contenido principal
 
-## Quiz Práctico
-1. ¿Qué es un bono, en términos sencillos?
-2. ¿Es un tenedor de bonos un dueño o un acreedor?
-3. Verdadero/Falso: Los precios de los bonos y las tasas de interés típicamente se mueven en la misma dirección.
-4. En un bono de $1,000 que paga 4% anual, ¿cuánto interés se paga cada año?
+### Una acción es una porción de propiedad real
 
-## Clave de Respuestas
-1. Un préstamo del inversionista al emisor   2. Un acreedor   3. Falso   4. $40
+Cuando una empresa cotiza en bolsa, divide su propiedad en un número fijo de acciones. Tener 1,000 acciones de un total de 1,000,000 en circulación significa ser dueño del 0.1% de esa empresa, de verdad y legalmente.
 
-## Respuestas y Explicaciones
-1. Esta es la relación fundamental de préstamo que representa un bono.
-2. Los tenedores de bonos prestan dinero; no poseen participación accionaria en el emisor.
-3. Los precios de los bonos y las tasas generalmente se mueven de manera inversa, no juntos.
-4. $1,000 × 0.04 = $40 de interés anual.
+### A qué te da derecho la propiedad (y a qué no)
 
-## Puntos Clave para Recordar
-- Un bono es un préstamo a un emisor, pagado con interés periódico.
-- Los tenedores de bonos son acreedores, no dueños.
-- Los precios de los bonos y las tasas de interés típicamente se mueven de manera inversa.
+Ser dueño de acciones normalmente te da un derecho proporcional sobre las ganancias (si se pagan dividendos) y ciertos derechos de voto en decisiones importantes. NO te da derecho a controlar las operaciones diarias, a un dividendo garantizado ni a un precio que suba de forma garantizada. Además, los accionistas en general no responden personalmente por las deudas de la empresa más allá del valor de sus acciones.
+
+### Por qué importa el total de acciones
+
+Tener 100 acciones de una empresa con 1,000 acciones en circulación es ser dueño del 10%. Tener 100 acciones de una empresa con 10,000,000 de acciones en circulación es ser dueño del 0.001%. El número de acciones por sí solo no te dice cuál es tu participación real.
+
+## Ejemplo práctico
+
+*EJEMPLO ILUSTRATIVO:* Un inversionista que tiene 5,000 acciones de una empresa con 500,000 acciones en circulación es dueño de 5,000 ÷ 500,000 = 1% de la empresa.
+
+## Prueba de práctica
+
+1. Ser dueño de una acción normalmente te da derecho a:
+   A. El control diario de las operaciones de la empresa
+   B. Un derecho proporcional sobre las ganancias y ciertos derechos de voto
+   C. Pagos de dividendos garantizados
+   D. Responder personalmente por las deudas de la empresa
+2. Verdadero o falso: el número de acciones que tienes, por sí solo, te dice tu porcentaje de propiedad.
+3. Una empresa tiene 200,000 acciones en circulación. Un inversionista tiene 2,000 acciones. ¿Qué porcentaje posee?
+   A. 0.1%
+   B. 1%
+   C. 2%
+   D. 10%
+
+## Clave de respuestas
+
+1. B
+2. Falso
+3. B
+
+## Respuestas y explicaciones
+
+### Pregunta 1
+
+Respuesta correcta: B. La propiedad te da derechos proporcionales sobre las ganancias y ciertos derechos de voto, no el control de las operaciones.
+
+### Pregunta 2
+
+Respuesta correcta: Falso. El porcentaje de propiedad depende de las acciones que tienes en relación con el total de acciones en circulación.
+
+### Pregunta 3
+
+Respuesta correcta: B. 2,000 ÷ 200,000 = 1%.
+
+## Puntos clave
+
+- Una acción es una propiedad parcial real y legal de una empresa.
+- Ser dueño no significa controlar las operaciones ni tener un dividendo garantizado.
+- Tu participación real depende de las acciones que tienes en relación con el total de acciones en circulación.

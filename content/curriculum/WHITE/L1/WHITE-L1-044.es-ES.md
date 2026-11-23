@@ -5,44 +5,77 @@ officialTrackName: Paper Assets
 level: 1
 lessonNumber: 44
 locale: es-ES
-title: "¿Qué Es una OPV?"
-summary: "*ASUNCIÓN:* Las empresas recién cotizadas pueden llevar riesgo y volatilidad elevados comparados con las empresas cotizadas consolidadas, en parte debido a un historial limitado de negociación pública y a veces un alto entusiasmo inicial de los inversores que puede no sostenerse."
-sourceVersion: "1.0"
+title: "¿Qué es reequilibrar una cartera?"
+summary: "Aprende qué significa reequilibrar, por qué las asignaciones se desvían con el tiempo y la mecánica básica para corregir esa desviación."
+version: "1.0"
 author: Waldemar M. Caban, JD MA
 date: 2026-08-08
 ---
 
-# WHITE-L1-044: ¿Qué Es una OPV?
+# ¿Qué es reequilibrar una cartera?
 
-## Objetivos de Aprendizaje
-1. Definir una OPV (Oferta Pública de Venta/Inicial).
-2. Explicar por qué las empresas buscan una OPV.
-3. Identificar un riesgo común de invertir en empresas recién cotizadas.
+## Objetivos de aprendizaje
 
-## Contenido Principal
-Una OPV es el proceso mediante el cual una empresa privada vende acciones al público por primera vez, convirtiéndose en una empresa cotizada en bolsa. *HECHO VERIFICADO:* Las empresas comúnmente buscan OPVs para recaudar capital para el crecimiento, proporcionar liquidez a los inversores/fundadores tempranos, y aumentar su perfil público.
+Al final de esta lección, deberías poder:
 
-*ASUNCIÓN:* Las empresas recién cotizadas pueden llevar riesgo y volatilidad elevados comparados con las empresas cotizadas consolidadas, en parte debido a un historial limitado de negociación pública y a veces un alto entusiasmo inicial de los inversores que puede no sostenerse.
+- Definir el reequilibrio en términos sencillos.
+- Explicar por qué la asignación de una cartera se desvía con el tiempo.
+- Explicar la mecánica básica para corregir esa desviación.
 
-## Ejemplo Práctico
-*EJEMPLO ILUSTRATIVO:* Una empresa tecnológica privada sale a bolsa mediante una OPV, y el precio de su acción sube fuertemente en la primera sesión de negociación en medio de una fuerte demanda de los inversores. Meses después, tras desvanecerse el entusiasmo inicial y presentar la empresa sus primeros resultados públicos, la acción cae significativamente — ilustrando el riesgo de volatilidad elevada a menudo asociado con las empresas recién cotizadas que carecen de un historial de negociación pública consolidado.
+## Contenido principal
 
-## Cuestionario Práctico
-1. ¿Qué es una OPV?
-2. Nombra una razón común por la que las empresas buscan una OPV.
-3. Verdadero/Falso: Las empresas recién cotizadas típicamente llevan el mismo perfil de riesgo que las empresas cotizadas de larga trayectoria.
-4. ¿Qué puede pasar después de que se desvanece el entusiasmo inicial de una OPV?
+### Qué es reequilibrar
 
-## Clave de Respuestas
-1. El proceso de una empresa privada vendiendo acciones al público por primera vez   2. Recaudar capital para el crecimiento (entre otras)   3. Falso   4. El precio de la acción puede caer significativamente
+Reequilibrar significa ajustar periódicamente una cartera para devolverla a su asignación de activos objetivo original (vista en la lección anterior), después de que los movimientos del mercado lo hayan alejado de ese objetivo.
 
-## Respuestas y Explicaciones
-1. Esta es la definición fundamental de una OPV.
-2. La recaudación de capital es un motor principal de la decisión de OPV.
-3. Las empresas recién cotizadas a menudo llevan riesgo elevado comparado con las consolidadas.
-4. El desvanecimiento del entusiasmo y la caída de precio posterior es un patrón comúnmente observado, aunque no universal.
+### Por qué la asignación se desvía con el tiempo
 
-## Puntos Clave para Recordar
-- Una OPV es cuando una empresa privada vende acciones al público por primera vez.
-- Las empresas buscan OPVs principalmente para recaudar capital y proporcionar liquidez a los inversores.
-- Las empresas recién cotizadas pueden llevar riesgo y volatilidad elevados comparadas con las consolidadas.
+Si las acciones crecen más rápido que los bonos durante un período, una cartera que empezó con 70 % en acciones y 30 % en bonos podría desviarse a 80 % en acciones y 20 % en bonos solo por el movimiento del mercado, aunque el inversor nunca haya cambiado nada de forma activa.
+
+### La mecánica básica
+
+Reequilibrar en general implica vender parte de lo que creció hasta quedar sobreponderado y comprar más de lo que quedó infraponderado, para devolver la cartera a sus porcentajes objetivo originales.
+
+## Ejemplo práctico
+
+*EJEMPLO ILUSTRATIVO:* Una cartera se desvía de un objetivo de 70/30 entre acciones y bonos a 80/20 después de que las acciones rinden más. Reequilibrar significa vender suficientes acciones y comprar suficientes bonos para acercar la combinación de nuevo al objetivo original de 70/30.
+
+## Cuestionario de práctica
+
+1. Reequilibrar significa:
+   A. Elegir nuevas acciones individuales
+   B. Ajustar una cartera para devolverla a su asignación objetivo original
+   C. Cerrar una cuenta de inversión
+   D. Aumentar el riesgo total de forma permanente
+2. Verdadero o falso: la asignación de una cartera se mantiene exactamente igual con el tiempo sin hacer nada.
+3. Si las acciones crecen más rápido que los bonos, ¿qué suele pasar con la asignación a acciones de una cartera si no se reequilibra?
+   A. Baja automáticamente
+   B. Sube y queda sobreponderada frente al objetivo original
+   C. Se mantiene exactamente igual
+   D. En cambio, los bonos suben automáticamente
+
+## Clave de respuestas
+
+1. B
+2. Falso
+3. B
+
+## Respuestas y explicaciones
+
+### Pregunta 1
+
+Respuesta correcta: B. Reequilibrar devuelve una cartera a su combinación objetivo original.
+
+### Pregunta 2
+
+Respuesta correcta: Falso. El movimiento del mercado hace que las asignaciones se desvíen con el tiempo.
+
+### Pregunta 3
+
+Respuesta correcta: B. Si las acciones crecen más rápido, aumenta su peso en la cartera cuando no se hace nada.
+
+## Puntos clave
+
+- Reequilibrar devuelve una cartera a su asignación objetivo original.
+- Las asignaciones se desvían con el tiempo solo por el movimiento del mercado.
+- Reequilibrar implica vender los activos sobreponderados y comprar los infraponderados.

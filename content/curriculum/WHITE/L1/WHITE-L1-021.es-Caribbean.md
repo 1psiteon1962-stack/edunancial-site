@@ -5,44 +5,77 @@ officialTrackName: Paper Assets
 level: 1
 lessonNumber: 21
 locale: es-Caribbean
-title: "Roth vs. Cuentas de Retiro Tradicionales"
-summary: "*HECHO VERIFICADO:* Una cuenta **Tradicional** usa contribuciones antes de impuestos (reduciendo el ingreso gravable ahora) con retiros gravados en la jubilación. Una cuenta **Roth** usa contribuciones después de impuestos (sin beneficio fiscal actual) pero los retiros calificados en la jubilación generalmente están libres de impuestos, incluyendo el crecimiento."
-sourceVersion: "1.0"
+title: "¿Qué es una cuenta de corretaje? (¿Y en qué se diferencia de una cuenta de retiro?)"
+summary: "Aprende qué es una cuenta de corretaje común y en qué se diferencia en propósito y flexibilidad de una cuenta de retiro."
+version: "1.0"
 author: Waldemar M. Caban, JD MA
 date: 2026-08-08
 ---
 
-# WHITE-L1-021: Roth vs. Cuentas de Retiro Tradicionales
+# ¿Qué es una cuenta de corretaje? (¿Y en qué se diferencia de una cuenta de retiro?)
 
-## Objetivos de Aprendizaje
-1. Distinguir el tratamiento fiscal Roth del Tradicional.
-2. Explicar la diferencia de momento en que se paga el impuesto.
-3. Reconocer que este es un concepto específico de EE. UU.
+## Objetivos de aprendizaje
 
-## Contenido Principal
-*REGLA ESPECÍFICA DE LA REGIÓN:* Las estructuras Roth y Tradicional son conceptos fiscales específicos de EE. UU., aplicables tanto a los 401(k)s como a los IRAs.
+Al final de esta lección, deberías poder:
 
-*HECHO VERIFICADO:* Una cuenta **Tradicional** usa contribuciones antes de impuestos (reduciendo el ingreso gravable ahora) con retiros gravados en la jubilación. Una cuenta **Roth** usa contribuciones después de impuestos (sin beneficio fiscal actual) pero los retiros calificados en la jubilación generalmente están libres de impuestos, incluyendo el crecimiento.
+- Definir una cuenta de corretaje en términos sencillos.
+- Explicar en qué se diferencia de una cuenta de retiro como un 401(k) o una IRA.
+- Explicar el equilibrio básico entre flexibilidad y ventajas contributivas.
 
-## Ejemplo Práctico
-*EJEMPLO ILUSTRATIVO:* Priya contribuye $6,000 a una cuenta Tradicional, reduciendo su ingreso gravable este año. Su colega contribuye $6,000 a una cuenta Roth en su lugar, pagando impuestos sobre ese ingreso ahora pero esperando retiros libres de impuestos décadas después, incluyendo todo el crecimiento acumulado en el camino — una apuesta a que su tasa de impuestos actual es más baja de lo que será en la jubilación.
+## Contenido principal
 
-## Quiz Práctico
-1. ¿Cuándo se gravan las contribuciones de una cuenta Tradicional?
-2. ¿Cuándo típicamente se gravan los retiros calificados de una Roth?
-3. Verdadero/Falso: Las contribuciones Roth proveen una deducción fiscal inmediata.
-4. ¿Cuál es la diferencia general de momento entre el tratamiento fiscal Roth y Tradicional?
+### Qué es una cuenta de corretaje
 
-## Clave de Respuestas
-1. Los retiros se gravan en la jubilación   2. Generalmente libres de impuestos si son calificados   3. Falso   4. La Tradicional grava después; la Roth grava ahora
+Una cuenta de corretaje es una cuenta de inversión común que permite a una persona comprar y vender acciones, bonos, ETF y otros activos de papel, sin las reglas contributivas propias del retiro de un 401(k) o una IRA.
 
-## Respuestas y Explicaciones
-1. Las contribuciones Tradicionales difieren el impuesto hasta el retiro.
-2. Los retiros Roth generalmente están libres de impuestos cuando son calificados, ya que el impuesto se pagó por adelantado.
-3. Las contribuciones Roth son después de impuestos, sin deducción en el año actual.
-4. Esta diferencia de momento es la distinción fundamental entre los dos tipos de cuenta.
+### En qué se diferencia de una cuenta de retiro
 
-## Puntos Clave para Recordar
-- Tradicional: antes de impuestos ahora, gravada al retirar.
-- Roth: gravada ahora, generalmente retiros calificados libres de impuestos después.
-- Elegir entre ellas a menudo depende de las tasas de impuestos futuras esperadas vs. las actuales.
+A diferencia de las cuentas de retiro, una cuenta de corretaje común en general no tiene ventajas contributivas especiales, pero tampoco restricciones sobre cuándo se puede retirar el dinero: tienes plena flexibilidad para añadir o sacar dinero en cualquier momento.
+
+### El equilibrio entre flexibilidad y ventaja contributiva
+
+Las cuentas de retiro cambian algo de flexibilidad (a menudo restringen el acceso fácil antes de cierta edad) por beneficios contributivos reales. Las cuentas de corretaje cambian esos beneficios contributivos por plena flexibilidad. Muchos inversionistas usan ambas, para propósitos distintos.
+
+## Ejemplo práctico
+
+*EJEMPLO ILUSTRATIVO:* Un inversionista que ahorra específicamente para un retiro que está a décadas de distancia podría dar prioridad a un 401(k) o a una IRA por los beneficios contributivos. El mismo inversionista, si ahorra para una meta de los próximos años y necesita acceso flexible, podría usar en su lugar una cuenta de corretaje común.
+
+## Prueba de práctica
+
+1. Una cuenta de corretaje es:
+   A. Exclusivamente para ahorrar para el retiro
+   B. Una cuenta de inversión común sin reglas contributivas propias del retiro
+   C. Un tipo de bono de ahorro
+   D. Algo disponible solo para empleadores
+2. Verdadero o falso: una cuenta de corretaje común tiene las mismas restricciones de retiro de dinero que un 401(k).
+3. ¿Cuál es el equilibrio básico entre las cuentas de retiro y las cuentas de corretaje comunes?
+   A. No hay ningún equilibrio
+   B. Ventajas contributivas y acceso restringido frente a plena flexibilidad con menos beneficios contributivos
+   C. Las cuentas de corretaje son ilegales
+   D. Las cuentas de retiro no tienen ningún beneficio contributivo
+
+## Clave de respuestas
+
+1. B
+2. Falso
+3. B
+
+## Respuestas y explicaciones
+
+### Pregunta 1
+
+Respuesta correcta: B. Una cuenta de corretaje es una cuenta de inversión común y flexible.
+
+### Pregunta 2
+
+Respuesta correcta: Falso. Las cuentas de corretaje en general permiten retirar dinero en cualquier momento, a diferencia de las cuentas de retiro.
+
+### Pregunta 3
+
+Respuesta correcta: B. Este es el equilibrio central entre los dos tipos de cuenta.
+
+## Puntos clave
+
+- Una cuenta de corretaje es una cuenta de inversión común sin reglas propias del retiro.
+- Ofrece plena flexibilidad, pero en general sin ventajas contributivas especiales.
+- Las cuentas de retiro cambian algo de flexibilidad por beneficios contributivos reales.

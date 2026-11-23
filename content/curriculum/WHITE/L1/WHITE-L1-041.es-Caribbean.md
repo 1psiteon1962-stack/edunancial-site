@@ -5,44 +5,77 @@ officialTrackName: Paper Assets
 level: 1
 lessonNumber: 41
 locale: es-Caribbean
-title: "Entendiendo las Correcciones del Mercado"
-summary: "*ASUNCIÓN:* Las correcciones han ocurrido históricamente con cierta regularidad y generalmente se consideran una parte normal de los ciclos del mercado, aunque su momento exacto y severidad no se pueden predecir de manera confiable de antemano."
-sourceVersion: "1.0"
+title: "¿Qué es un asesor robot (robo-advisor)?"
+summary: "Aprende qué hace un asesor robot y el equilibrio básico frente a un asesor financiero humano."
+version: "1.0"
 author: Waldemar M. Caban, JD MA
 date: 2026-08-08
 ---
 
-# WHITE-L1-041: Entendiendo las Correcciones del Mercado
+# ¿Qué es un asesor robot (robo-advisor)?
 
-## Objetivos de Aprendizaje
-1. Definir una corrección de mercado.
-2. Distinguir una corrección de un mercado bajista según los umbrales comunes.
-3. Reconocer las correcciones como una característica normal y recurrente del mercado.
+## Objetivos de aprendizaje
 
-## Contenido Principal
-*ESTIMADO:* Una corrección de mercado se define comúnmente (aunque no de manera perfectamente uniforme) como aproximadamente una caída del 10% desde los máximos recientes — más pequeña que el umbral de aproximadamente 20% comúnmente citado para un mercado bajista (Lección 014).
+Al final de esta lección, deberías poder:
 
-*ASUNCIÓN:* Las correcciones han ocurrido históricamente con cierta regularidad y generalmente se consideran una parte normal de los ciclos del mercado, aunque su momento exacto y severidad no se pueden predecir de manera confiable de antemano.
+- Definir un asesor robot en términos sencillos.
+- Explicar cómo suele construir un portafolio.
+- Identificar un equilibrio básico frente a un asesor humano.
 
-## Ejemplo Práctico
-*EJEMPLO ILUSTRATIVO:* Después de un período de ganancias constantes, el mercado cae 12% durante varias semanas — cruzando al territorio de corrección según el umbral común, pero sin llegar todavía al territorio de mercado bajista. Históricamente, muchas correcciones se han resuelto sin escalar a mercados bajistas completos, aunque algunas lo han hecho — la distinción importa, pero no predice qué camino tomará cualquier caída específica.
+## Contenido principal
 
-## Quiz Práctico
-1. ¿Qué porcentaje de caída se cita comúnmente como umbral de corrección de mercado?
-2. ¿Cómo se compara generalmente en severidad una corrección con un mercado bajista?
-3. Verdadero/Falso: Las correcciones son eventos históricos raros y únicos.
-4. ¿Se puede predecir de manera confiable que una corrección escale a un mercado bajista?
+### Qué es un asesor robot
 
-## Clave de Respuestas
-1. Aproximadamente 10%   2. Una corrección es generalmente más pequeña/menos severa   3. Falso   4. No, no de manera confiable
+Un asesor robot (robo-advisor) es un servicio automatizado que construye y gestiona un portafolio de inversión según las metas y la tolerancia al riesgo de un inversionista, en general mediante algoritmos y no mediante un asesor humano que tome decisiones individuales.
 
-## Respuestas y Explicaciones
-1. Este es el umbral de corrección comúnmente citado.
-2. Las correcciones representan una caída más pequeña que el umbral de mercado bajista.
-3. Las correcciones han ocurrido con cierta regularidad a través de la historia del mercado.
-4. Si una corrección escala más allá no se puede predecir de manera confiable de antemano.
+### Cómo suele construir un portafolio
 
-## Puntos Clave para Recordar
-- Una corrección se define comúnmente como aproximadamente una caída del 10% desde los máximos recientes.
-- Esto es más pequeño que el umbral de mercado bajista de aproximadamente 20%.
-- Las correcciones son una característica normal y recurrente del mercado, aunque impredecible en momento y resultado.
+Un asesor robot normalmente hace una serie de preguntas sobre las metas, el horizonte de tiempo y la comodidad con el riesgo, y luego reparte automáticamente el dinero entre una combinación de inversiones (a menudo ETF, que vimos antes en este nivel) que encaje con ese perfil.
+
+### El equilibrio básico frente a un asesor humano
+
+Los asesores robot en general ofrecen comisiones más bajas y un acceso más fácil que un asesor financiero humano, pero suelen dar una orientación menos personalizada para situaciones financieras individuales complejas: un equilibrio real entre costo y personalización.
+
+## Ejemplo práctico
+
+*EJEMPLO ILUSTRATIVO:* Un inversionista con una meta sencilla (como ahorrar en general para el retiro a largo plazo) y una tolerancia al riesgo moderada podría usar un asesor robot para construir y mantener automáticamente un portafolio adecuado a un costo menor que contratar a un asesor humano.
+
+## Prueba de práctica
+
+1. Un asesor robot es:
+   A. Un asesor financiero humano que trabaja a distancia
+   B. Un servicio automatizado que construye y gestiona un portafolio mediante algoritmos
+   C. Un tipo de bono
+   D. Un programa de retiro del gobierno
+2. Verdadero o falso: los asesores robot en general cobran comisiones más altas que los asesores financieros humanos.
+3. ¿Cuál es un equilibrio básico de usar un asesor robot en lugar de un asesor humano?
+   A. No hay ningún equilibrio
+   B. Comisiones más bajas y acceso más fácil, pero normalmente una orientación menos personalizada
+   C. Los asesores robot garantizan rendimientos más altos
+   D. Los asesores humanos siempre son gratis
+
+## Clave de respuestas
+
+1. B
+2. Falso
+3. B
+
+## Respuestas y explicaciones
+
+### Pregunta 1
+
+Respuesta correcta: B. Un asesor robot automatiza la gestión del portafolio mediante algoritmos.
+
+### Pregunta 2
+
+Respuesta correcta: Falso. Los asesores robot en general cobran comisiones más bajas que los asesores humanos.
+
+### Pregunta 3
+
+Respuesta correcta: B. El menor costo y el acceso fácil se cambian por una orientación menos personalizada.
+
+## Puntos clave
+
+- Un asesor robot automatiza la construcción y la gestión de un portafolio.
+- Normalmente reparte las inversiones según las metas y la tolerancia al riesgo.
+- En general cambia un costo más bajo por una orientación menos personalizada que la de un asesor humano.

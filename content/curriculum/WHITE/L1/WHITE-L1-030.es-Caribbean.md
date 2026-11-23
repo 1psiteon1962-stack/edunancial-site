@@ -5,44 +5,77 @@ officialTrackName: Paper Assets
 level: 1
 lessonNumber: 30
 locale: es-Caribbean
-title: "Los Robo-Asesores Explicados"
-summary: "*ASUNCIÓN:* El intercambio generalmente es menos orientación personalizada para situaciones financieras complejas o únicas comparado con un asesor humano, aunque esto varía según la plataforma y algunas ofrecen servicios híbridos de humano más algoritmo."
-sourceVersion: "1.0"
+title: "¿Qué es el riesgo de tasa de interés?"
+summary: "Aprende cómo los cambios en las tasas de interés afectan el precio de los bonos existentes y por qué la relación se mueve en direcciones opuestas."
+version: "1.0"
 author: Waldemar M. Caban, JD MA
 date: 2026-08-08
 ---
 
-# WHITE-L1-030: Los Robo-Asesores Explicados
+# ¿Qué es el riesgo de tasa de interés?
 
-## Objetivos de Aprendizaje
-1. Definir un robo-asesor.
-2. Explicar cómo los robo-asesores típicamente construyen portafolios.
-3. Identificar un intercambio común comparado con los asesores humanos.
+## Objetivos de aprendizaje
 
-## Contenido Principal
-Un robo-asesor es una plataforma automatizada que construye y administra un portafolio de inversión basado en las metas y tolerancia al riesgo declaradas por un inversionista, típicamente usando algoritmos en lugar de un asesor humano para las decisiones del día a día. *ESTIMADO:* Los robo-asesores comúnmente cobran comisiones más bajas que los asesores financieros humanos tradicionales, a menudo usando fondos índice/ETFs de bajo costo como inversiones subyacentes.
+Al final de esta lección, deberías poder:
 
-*ASUNCIÓN:* El intercambio generalmente es menos orientación personalizada para situaciones financieras complejas o únicas comparado con un asesor humano, aunque esto varía según la plataforma y algunas ofrecen servicios híbridos de humano más algoritmo.
+- Definir el riesgo de tasa de interés en términos sencillos.
+- Explicar la relación inversa básica entre las tasas y los precios de los bonos.
+- Explicar por qué esto le importa a quien ya tiene un bono.
 
-## Ejemplo Práctico
-*EJEMPLO ILUSTRATIVO:* Fatima responde un cuestionario sobre sus metas, horizonte de tiempo, y tolerancia al riesgo en una plataforma de robo-asesor. El algoritmo construye automáticamente un portafolio diversificado que coincide con su perfil y lo rebalancea periódicamente — todo sin que ella necesite hablar con un asesor humano o hacer selecciones de inversión individuales por su cuenta.
+## Contenido principal
 
-## Quiz Práctico
-1. ¿Qué es un robo-asesor?
-2. ¿Cómo se comparan comúnmente los robo-asesores con los asesores humanos en cuanto a comisiones?
-3. Verdadero/Falso: Los robo-asesores siempre requieren cero interacción humana.
-4. ¿Cuál es un intercambio general de usar un robo-asesor?
+### Qué es el riesgo de tasa de interés
 
-## Clave de Respuestas
-1. Una plataforma automatizada de administración de portafolios   2. Comisiones comúnmente más bajas   3. Falso   4. Generalmente menos orientación personalizada para situaciones complejas
+El riesgo de tasa de interés es el riesgo de que los cambios en las tasas de interés generales afecten el valor de mercado de los bonos existentes; es distinto del riesgo de crédito, que tiene que ver con la capacidad de pago del emisor.
 
-## Respuestas y Explicaciones
-1. Esta es la definición fundamental de un robo-asesor.
-2. El menor costo es una ventaja comúnmente citada de los robo-asesores.
-3. Algunas plataformas ofrecen servicios híbridos de humano más algoritmo.
-4. La personalización reducida es un intercambio general por el menor costo y la automatización.
+### La relación inversa
 
-## Puntos Clave para Recordar
-- Los robo-asesores automatizan la construcción y administración de portafolios basados en metas declaradas.
-- Comúnmente ofrecen comisiones más bajas que los asesores humanos tradicionales.
-- El intercambio es generalmente menos personalización, aunque existen modelos híbridos.
+Cuando las tasas de interés generales suben, el precio de mercado de los bonos existentes con tasas fijas más bajas suele bajar, porque se están emitiendo bonos nuevos a la tasa actual, más alta y más atractiva. Cuando las tasas generales bajan, los bonos existentes con tasas más altas suelen valer más en comparación.
+
+### Por qué le importa a quien ya tiene un bono
+
+El tenedor de un bono que necesita venderlo antes del vencimiento queda expuesto a este movimiento de precio. El tenedor que lo mantiene hasta el vencimiento sigue recibiendo el valor nominal de todos modos: el riesgo de tasa de interés afecta sobre todo el precio de mercado del bono antes del vencimiento, no la devolución final en sí.
+
+## Ejemplo práctico
+
+*EJEMPLO ILUSTRATIVO:* Un inversionista tiene un bono que paga un 3% de interés. Las tasas de interés generales suben al 5%. Los bonos nuevos ofrecen ahora la tasa más atractiva del 5%, lo que hace que el bono anterior del 3% sea menos atractivo para un posible comprador: su precio de mercado en general bajaría si se vendiera antes del vencimiento.
+
+## Prueba de práctica
+
+1. El riesgo de tasa de interés se refiere a:
+   A. El riesgo de que un emisor no pague
+   B. El riesgo de que los cambios en las tasas afecten el precio de los bonos existentes
+   C. El riesgo de un desdoblamiento de acciones
+   D. El riesgo cambiario
+2. Verdadero o falso: cuando las tasas de interés generales suben, el precio de los bonos existentes con tasas más bajas también suele subir.
+3. ¿El tenedor de un bono que lo mantiene hasta el vencimiento sigue recibiendo el valor nominal completo a pesar del riesgo de tasa de interés?
+   A. No, pierde la diferencia
+   B. Sí, en general el valor nominal se paga igualmente al vencimiento
+   C. Solo si las tasas bajaron
+   D. Solo si el bono se vendió antes
+
+## Clave de respuestas
+
+1. B
+2. Falso
+3. B
+
+## Respuestas y explicaciones
+
+### Pregunta 1
+
+Respuesta correcta: B. El riesgo de tasa de interés afecta el precio de mercado de los bonos existentes cuando cambian las tasas.
+
+### Pregunta 2
+
+Respuesta correcta: Falso. La subida de las tasas suele empujar a la baja el precio de los bonos existentes con tasas más bajas.
+
+### Pregunta 3
+
+Respuesta correcta: B. Mantener el bono hasta el vencimiento en general sigue dando el valor nominal completo, sin importar las oscilaciones de precio intermedias.
+
+## Puntos clave
+
+- El riesgo de tasa de interés afecta el precio de los bonos existentes cuando cambian las tasas generales.
+- La subida de las tasas suele empujar a la baja el precio de los bonos existentes con tasas más bajas, y al revés.
+- Mantener el bono hasta el vencimiento en general sigue dando el valor nominal, sin importar el movimiento de precio intermedio.

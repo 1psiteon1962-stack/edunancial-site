@@ -5,42 +5,83 @@ officialTrackName: Paper Assets
 level: 1
 lessonNumber: 50
 locale: es-ES
-title: "Errores Comunes de Inversión para Principiantes"
-summary: "Lección WHITE-L1-050 en español."
-sourceVersion: "1.0"
+title: "Proyecto final: construir tu primera cartera sencilla, paso a paso"
+summary: "Aplica todo lo visto en el Nivel 1 de WHITE recorriendo la construcción de una primera cartera de inversión sencilla de principio a fin."
+version: "1.0"
 author: Waldemar M. Caban, JD MA
 date: 2026-08-08
 ---
 
-# WHITE-L1-050: Errores Comunes de Inversión para Principiantes
+# Proyecto final: construir tu primera cartera sencilla, paso a paso
 
-## Objetivos de Aprendizaje
-1. Identificar los errores de inversión de principiantes frecuentemente citados.
-2. Explicar por qué la falta de diversificación es un error temprano común.
-3. Reconocer el valor de empezar con conocimiento fundamental antes de estrategias complejas.
+## Objetivos de aprendizaje
 
-## Contenido Principal
-*OPINIÓN:* Los errores de inversión de principiantes comúnmente citados incluyen: invertir sin un fondo de emergencia primero, diversificación insuficiente (concentrarse demasiado en una acción o sector), tratar de anticipar el mercado, ignorar las comisiones, y saltar a estrategias complejas (como opciones) antes de entender los fundamentos.
+Al final de esta lección, deberías poder:
 
-## Ejemplo Práctico
-*EJEMPLO ILUSTRATIVO:* Un nuevo inversor pone la mayoría de sus ahorros en una sola acción de tendencia sin tener un fondo de emergencia establecido. Cuando la acción cae y simultáneamente enfrenta un gasto inesperado, se ve forzado a vender inversiones con pérdida para cubrir la emergencia — una situación que un modesto fondo de emergencia, establecido antes de invertir fuertemente, podría haber evitado.
+- Aplicar los conceptos centrales del Nivel 1 de WHITE a una situación conectada.
+- Identificar qué concepto de este nivel se aplica en cada paso.
+- Explicar cómo encajan como un todo las piezas de la construcción de una cartera.
 
-## Cuestionario Práctico
-1. Nombra dos errores de inversión de principiantes comúnmente citados.
-2. ¿Por qué es relevante tener un fondo de emergencia para las decisiones de inversión?
-3. Verdadero/Falso: Saltar a estrategias complejas como opciones comúnmente se recomienda para principiantes.
-4. ¿Qué le pasó en el ejemplo práctico debido a la falta de un fondo de emergencia?
+## Contenido principal
 
-## Clave de Respuestas
-1. Diversificación insuficiente, tratar de anticipar el mercado (entre otros)   2. Puede prevenir verse forzado a vender inversiones con pérdida durante gastos inesperados   3. Falso   4. El inversor tuvo que vender inversiones con pérdida para cubrir un gasto de emergencia
+### La situación
 
-## Respuestas y Explicaciones
-1. Estos están entre los errores de principiantes más comúnmente citados.
-2. Un fondo de emergencia proporciona un colchón separado de los fondos invertidos.
-3. Construir conocimiento fundamental comúnmente se recomienda antes de las estrategias complejas.
-4. Esto ilustra la consecuencia real de saltarse el paso del fondo de emergencia.
+James quiere empezar a invertir por primera vez. Quiere entender lo que está haciendo realmente en cada paso, no solo seguir instrucciones a ciegas.
 
-## Puntos Clave para Recordar
-- Los errores comunes de principiantes incluyen mala diversificación, intentos de anticipar el mercado, y saltarse el fondo de emergencia.
-- Un fondo de emergencia ayuda a evitar verse forzado a vender inversiones con pérdida.
-- Construye conocimiento fundamental antes de perseguir estrategias complejas como opciones.
+### El recorrido
+
+Primero, James se asegura de tener un fondo de emergencia (Lección 35) en un lugar líquido y de bajo riesgo antes de invertir cualquier otra cosa. Abre una cuenta de valores (Lección 21), entendiendo que es distinta de una cuenta de jubilación, y por separado considera si su empleador ofrece un aporte equivalente en un 401(k) (Lección 18) que valga la pena aprovechar primero.
+
+Decide invertir en un ETF (Lección 9) en vez de elegir acciones individuales, porque valora la diversificación (Lección 13) que le da. Revisa su tasa de gastos (Lección 12), entendiendo que las pequeñas diferencias de porcentaje se acumulan con el tiempo. Decide usar el promedio de costo en dólares (Lección 22) e invertir una cantidad fija cada mes en vez de intentar adivinar el mejor momento del mercado.
+
+Fija una asignación de activos (Lección 43) con mayoría de acciones, dado su horizonte de tiempo largo, entendiendo que tendrá que reequilibrar (Lección 44) periódicamente a medida que el mercado cambie esa combinación. Sabe que su extracto (Lección 49) mostrará las posiciones, las transacciones y una cifra de desempeño que puede no coincidir exactamente con su rendimiento personal ponderado por dinero (Lección 48), ya que va aportando poco a poco con el tiempo.
+
+### Por qué importa
+
+En una cartera real, ninguna de estas decisiones ocurre de forma aislada: se conectan en un solo proceso, construido sobre la comprensión y no solo sobre seguir pasos a ciegas.
+
+*REGLA ESPECÍFICA DE LA REGIÓN:* Las cuentas y los productos de este ejemplo siguen el modelo de EE. UU. En España, las cuentas de jubilación, los productos disponibles y su tratamiento fiscal son distintos; confirma las opciones antes de aplicar este plan.
+
+## Ejemplo práctico
+
+*EJEMPLO ILUSTRATIVO:* Si James invierte $300 al mes, con el promedio de costo en dólares, en un ETF diversificado con una tasa de gastos baja, dentro de una cuenta de valores común, después de haber creado su fondo de emergencia y aprovechado cualquier aporte equivalente disponible de su empleador, habrá aplicado casi todos los conceptos importantes de este nivel en un solo plan conectado.
+
+## Cuestionario de práctica
+
+1. ¿Por qué James se aseguró de tener un fondo de emergencia antes de seguir invirtiendo?
+   A. En realidad no es necesario
+   B. Protege sus otros planes financieros de que los interrumpan gastos inesperados
+   C. Los fondos de emergencia garantizan rendimientos de inversión
+   D. No tiene ninguna relación con invertir
+2. Verdadero o falso: el desempeño informado de la cuenta de James siempre coincidirá exactamente con su rendimiento personal ponderado por dinero.
+3. ¿Por qué James eligió un ETF en vez de acciones individuales?
+   A. Los ETF garantizan rendimientos más altos
+   B. Valoraba la diversificación que le da
+   C. Los ETF no tienen tasa de gastos
+   D. Las acciones individuales son ilegales para los principiantes
+
+## Clave de respuestas
+
+1. B
+2. Falso
+3. B
+
+## Respuestas y explicaciones
+
+### Pregunta 1
+
+Respuesta correcta: B. Un fondo de emergencia protege los planes a más largo plazo de las interrupciones de corto plazo, como se vio en la Lección 35.
+
+### Pregunta 2
+
+Respuesta correcta: Falso. El desempeño informado suele ser ponderado por tiempo, y no su rendimiento personal exacto ponderado por dinero, como se vio en las Lecciones 48 y 49.
+
+### Pregunta 3
+
+Respuesta correcta: B. La diversificación fue la razón que dio James, en conexión con la Lección 13.
+
+## Puntos clave
+
+- Construir una primera cartera conecta casi todos los conceptos de este nivel en un solo proceso.
+- El orden importa: primero el fondo de emergencia, luego el tipo de cuenta, después la elección de la inversión y, por último, la gestión continua.
+- Este proyecto final marca el cierre del Nivel 1 de WHITE: el Nivel 2 se construye sobre esta base con conceptos más profundos de valoración y filosofía de inversión.

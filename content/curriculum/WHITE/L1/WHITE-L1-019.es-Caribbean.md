@@ -5,44 +5,77 @@ officialTrackName: Paper Assets
 level: 1
 lessonNumber: 19
 locale: es-Caribbean
-title: "¿Qué Es un 401(k)?"
-summary: "*HECHO VERIFICADO:* Un 401(k) le permite a los empleados contribuir una parte de su cheque de pago a una cuenta de inversión para el retiro, a menudo con contribuciones antes de impuestos (reduciendo el ingreso gravable actual) y crecimiento con impuestos diferidos hasta el retiro en la jubilación."
-sourceVersion: "1.0"
+title: "¿Qué es una IRA y en qué se diferencia de un 401(k)?"
+summary: "Aprende qué es una IRA y la diferencia central entre ella y un 401(k) patrocinado por el empleador."
+version: "1.0"
 author: Waldemar M. Caban, JD MA
 date: 2026-08-08
 ---
 
-# WHITE-L1-019: ¿Qué Es un 401(k)?
+# ¿Qué es una IRA y en qué se diferencia de un 401(k)?
 
-## Objetivos de Aprendizaje
-1. Definir un 401(k) en términos generales.
-2. Explicar la naturaleza fiscalmente ventajosa de la cuenta.
-3. Reconocer que este es un tipo de cuenta específico de EE. UU.
+## Objetivos de aprendizaje
 
-## Contenido Principal
-*REGLA ESPECÍFICA DE LA REGIÓN:* Un 401(k) es una cuenta de retiro patrocinada por el empleador en EE. UU.; otros países tienen estructuras equivalentes diferentes, y esta lección describe específicamente el concepto estadounidense.
+Al final de esta lección, deberías poder:
 
-*HECHO VERIFICADO:* Un 401(k) le permite a los empleados contribuir una parte de su cheque de pago a una cuenta de inversión para el retiro, a menudo con contribuciones antes de impuestos (reduciendo el ingreso gravable actual) y crecimiento con impuestos diferidos hasta el retiro en la jubilación.
+- Definir una IRA en términos sencillos.
+- Explicar la diferencia central entre una IRA y un 401(k).
+- Reconocer que ambas sirven al mismo propósito general de ahorrar para el retiro.
 
-## Ejemplo Práctico
-*EJEMPLO ILUSTRATIVO:* Layla gana $60,000 al año y contribuye $6,000 a su 401(k). Su ingreso gravable para el año se reduce a $54,000, bajando su factura de impuestos actual. Ese $6,000 crece con impuestos diferidos dentro de la cuenta — ella no deberá impuestos sobre el crecimiento hasta que eventualmente retire los fondos, típicamente en la jubilación.
+## Contenido principal
 
-## Quiz Práctico
-1. ¿Qué es un 401(k)?
-2. ¿Cómo pueden afectar las contribuciones antes de impuestos el ingreso gravable actual?
-3. Verdadero/Falso: Un 401(k) está disponible para empleados en todo el mundo bajo ese nombre exacto.
-4. ¿Cuándo típicamente se vuelve exigible el impuesto sobre el crecimiento de un 401(k) tradicional?
+### Qué es una IRA
 
-## Clave de Respuestas
-1. Una cuenta de retiro patrocinada por el empleador en EE. UU.   2. Las contribuciones reducen el ingreso gravable actual   3. Falso   4. Al momento del retiro, típicamente en la jubilación
+*(REGLA ESPECÍFICA DE LA REGIÓN: este es un tipo de cuenta propio de EE. UU.; Puerto Rico tiene sus propias reglas para las cuentas IRA, y otros países, como la República Dominicana, organizan el ahorro para el retiro con sistemas distintos.)* Una IRA (cuenta individual de retiro, por sus siglas en inglés) es una cuenta de ahorro para el retiro que una persona abre por su cuenta, sin depender de un empleador, a menudo en un banco o una casa de corretaje.
 
-## Respuestas y Explicaciones
-1. Esta es la definición fundamental de un 401(k).
-2. Las contribuciones antes de impuestos bajan el ingreso gravable reportado para ese año.
-3. Este tipo de cuenta específico y su nombre son propios de EE. UU.
-4. El impuesto generalmente se difiere hasta el retiro, no se debe durante la fase de crecimiento.
+### La diferencia central con un 401(k)
 
-## Puntos Clave para Recordar
-- Un 401(k) es una cuenta de retiro patrocinada por el empleador en EE. UU.
-- Las contribuciones antes de impuestos pueden reducir el ingreso gravable actual.
-- El crecimiento tiene impuestos diferidos hasta el retiro, típicamente en la jubilación.
+Un 401(k) está ligado a un empleador y normalmente solo está disponible mientras se trabaja allí. Una IRA la abre una persona por su cuenta y no está ligada a ningún empleador específico: alguien puede tener una IRA tenga o no un empleo con un 401(k) disponible.
+
+### El mismo propósito general
+
+A pesar de la diferencia estructural, ambos tipos de cuenta sirven al mismo propósito central: fomentar y ofrecer formas de ahorrar para el retiro con ventajas contributivas.
+
+## Ejemplo práctico
+
+*EJEMPLO ILUSTRATIVO:* Alguien que trabaja por cuenta propia y no tiene un 401(k) de un empleador puede abrir una IRA y aportar a ella por su cuenta: la cuenta no depende en absoluto de tener un empleador específico.
+
+## Prueba de práctica
+
+1. Una IRA es:
+   A. Algo que solo está disponible a través de un empleador
+   B. Una cuenta de retiro que una persona abre por su cuenta
+   C. Un tipo de cuenta de cheques
+   D. Una pensión del gobierno
+2. Verdadero o falso: un 401(k) y una IRA están ligados a un empleador exactamente de la misma manera.
+3. ¿Puede alguien sin un 401(k) patrocinado por un empleador ahorrar igualmente para el retiro mediante una IRA?
+   A. No, siempre se necesita un empleador
+   B. Sí, una IRA se abre sin depender de ningún empleador
+   C. Solo si ya está retirado
+   D. Solo los empleados del gobierno pueden abrir una IRA
+
+## Clave de respuestas
+
+1. B
+2. Falso
+3. B
+
+## Respuestas y explicaciones
+
+### Pregunta 1
+
+Respuesta correcta: B. Una IRA la abre una persona por su cuenta.
+
+### Pregunta 2
+
+Respuesta correcta: Falso. Un 401(k) está ligado al empleador; una IRA no.
+
+### Pregunta 3
+
+Respuesta correcta: B. Las IRA no dependen del patrocinio de un empleador.
+
+## Puntos clave
+
+- Una IRA es una cuenta de retiro que se abre por cuenta propia, sin estar ligada a un empleador.
+- Esa es la diferencia estructural central con un 401(k).
+- Ambas sirven al mismo propósito general: ahorrar para el retiro con ventajas contributivas.

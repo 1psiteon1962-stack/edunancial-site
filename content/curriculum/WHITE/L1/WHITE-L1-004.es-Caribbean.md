@@ -5,44 +5,77 @@ officialTrackName: Paper Assets
 level: 1
 lessonNumber: 4
 locale: es-Caribbean
-title: "Los Fondos Mutuos Explicados"
-summary: "Las acciones de los fondos mutuos se calculan una vez al día según el **Valor Neto de Activos (NAV)** del fondo — el valor total de las tenencias del fondo dividido entre el número de acciones en circulación — a diferencia de las acciones individuales, que se negocian continuamente durante el día."
-sourceVersion: "1.0"
+title: "¿Qué es realmente un bono? (Estás prestando dinero, no comprando propiedad)"
+summary: "Aprende qué representa realmente un bono (un préstamo, no propiedad) y los términos básicos que lo definen."
+version: "1.0"
 author: Waldemar M. Caban, JD MA
 date: 2026-08-08
 ---
 
-# WHITE-L1-004: Los Fondos Mutuos Explicados
+# ¿Qué es realmente un bono? (Estás prestando dinero, no comprando propiedad)
 
-## Objetivos de Aprendizaje
-1. Definir un fondo mutuo.
-2. Explicar cómo agrupar dinero beneficia a los inversionistas individuales.
-3. Identificar cómo se calcula el precio de las acciones de un fondo mutuo.
+## Objetivos de aprendizaje
 
-## Contenido Principal
-Un fondo mutuo agrupa dinero de muchos inversionistas para comprar un portafolio diversificado de acciones, bonos, u otros valores, administrado por un gestor de fondos profesional. *HECHO VERIFICADO:* Esta agrupación permite a los inversionistas individuales acceder a diversificación y administración profesional que quizás no lograrían eficientemente por su cuenta con cantidades menores de dinero.
+Al final de esta lección, deberías poder:
 
-Las acciones de los fondos mutuos se calculan una vez al día según el **Valor Neto de Activos (NAV)** del fondo — el valor total de las tenencias del fondo dividido entre el número de acciones en circulación — a diferencia de las acciones individuales, que se negocian continuamente durante el día.
+- Definir un bono en términos sencillos.
+- Explicar la relación central entre el tenedor de un bono y el emisor.
+- Nombrar los términos básicos que definen un bono.
 
-## Ejemplo Práctico
-*EJEMPLO ILUSTRATIVO:* Tomás invierte $2,000 en un fondo mutuo que posee 500 acciones diferentes. Comprar aunque sea una acción de cada una de esas 500 compañías individualmente requeriría mucho más dinero e investigación de la que él tiene. A través del fondo, sus $2,000 le dan exposición proporcional a las 500 tenencias a la vez, administradas por profesionales que seleccionan y monitorean esas compañías.
+## Contenido principal
 
-## Quiz Práctico
-1. ¿Qué es un fondo mutuo?
-2. ¿Qué es el NAV?
-3. Verdadero/Falso: Las acciones de los fondos mutuos se negocian continuamente durante el día como las acciones individuales.
-4. ¿Qué beneficio le da a los inversionistas individuales el agrupar dinero?
+### Un bono es un préstamo, no propiedad
 
-## Clave de Respuestas
-1. Un vehículo de inversión agrupada que compra un portafolio diversificado   2. Valor Neto de Activos — el valor total de las tenencias del fondo dividido entre las acciones en circulación   3. Falso   4. Acceso a diversificación y administración profesional
+Cuando compras un bono, le estás prestando dinero a quien lo emitió (una empresa o un gobierno); no estás comprando una parte de la propiedad como lo harías con una acción. Esta es la distinción más importante entre las acciones y los bonos.
 
-## Respuestas y Explicaciones
-1. Esto define la estructura fundamental de un fondo mutuo.
-2. El NAV es el mecanismo estándar de precio de los fondos mutuos.
-3. Los fondos mutuos se calculan una vez al día según el NAV, a diferencia de las acciones negociadas continuamente.
-4. Agrupar dinero permite que inversionistas más pequeños accedan a diversificación que de otra manera estaría fuera de su alcance.
+### La relación central
 
-## Puntos Clave para Recordar
-- Los fondos mutuos agrupan el dinero de los inversionistas en un portafolio diversificado y administrado profesionalmente.
-- Las acciones se calculan una vez al día según el NAV, no continuamente como las acciones individuales.
-- Agrupar dinero le da a los inversionistas más pequeños acceso a diversificación y administración profesional.
+El emisor promete devolver la cantidad original (el principal o "valor nominal") en una fecha futura fija (el vencimiento) y, normalmente, hacer pagos periódicos de intereses (llamados cupón) mientras tanto, a cambio de usar tu dinero.
+
+### Los términos básicos
+
+Todo bono tiene un valor nominal (la cantidad que se devuelve al vencimiento), una tasa de cupón (la tasa de interés que se paga) y una fecha de vencimiento (cuando se devuelve el préstamo). Estos términos se fijan cuando se emite el bono.
+
+## Ejemplo práctico
+
+*EJEMPLO ILUSTRATIVO:* Una inversionista compra un bono con un valor nominal de $1,000, una tasa de cupón del 4% y un vencimiento a 10 años. Recibe $40 al año de intereses (el 4% de $1,000) y recupera sus $1,000 al cabo de 10 años.
+
+## Prueba de práctica
+
+1. Comprar un bono significa:
+   A. Comprar la propiedad parcial de una empresa
+   B. Prestarle dinero al emisor
+   C. Comprar un activo físico
+   D. Convertirte en empleado de una empresa
+2. Verdadero o falso: la tasa de cupón de un bono se refiere a la cantidad que se devuelve al vencimiento.
+3. ¿Qué es el valor nominal de un bono?
+   A. La tasa de interés que se paga
+   B. La cantidad que se le devuelve al tenedor del bono al vencimiento
+   C. El precio actual de mercado del bono
+   D. La deuda total del emisor
+
+## Clave de respuestas
+
+1. B
+2. Falso
+3. B
+
+## Respuestas y explicaciones
+
+### Pregunta 1
+
+Respuesta correcta: B. Un bono representa prestar dinero, no propiedad.
+
+### Pregunta 2
+
+Respuesta correcta: Falso. La tasa de cupón es la tasa de interés; el valor nominal es la cantidad que se devuelve al vencimiento.
+
+### Pregunta 3
+
+Respuesta correcta: B. El valor nominal es el principal que se devuelve al vencimiento.
+
+## Puntos clave
+
+- Un bono representa prestar dinero, no propiedad.
+- El emisor promete devolver el principal al vencimiento, más intereses periódicos (el cupón).
+- El valor nominal, la tasa de cupón y la fecha de vencimiento son los términos centrales que lo definen.

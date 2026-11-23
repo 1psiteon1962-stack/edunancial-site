@@ -5,44 +5,77 @@ officialTrackName: Paper Assets
 level: 1
 lessonNumber: 28
 locale: es-Caribbean
-title: "Entendiendo la Volatilidad"
-summary: "*ASUNCIÓN:* La tolerancia del inversionista a la volatilidad varía según el horizonte de tiempo, la situación financiera, y la comodidad psicológica con ver fluctuar los valores de la cuenta — lo que se siente manejable para un inversionista puede sentirse intolerable para otro."
-sourceVersion: "1.0"
+title: "¿Qué es la fecha de vencimiento de un bono?"
+summary: "Aprende qué es una fecha de vencimiento y por qué los bonos con vencimientos distintos se comportan de forma distinta."
+version: "1.0"
 author: Waldemar M. Caban, JD MA
 date: 2026-08-08
 ---
 
-# WHITE-L1-028: Entendiendo la Volatilidad
+# ¿Qué es la fecha de vencimiento de un bono?
 
-## Objetivos de Aprendizaje
-1. Definir la volatilidad en términos de inversión.
-2. Distinguir la volatilidad de una pérdida real.
-3. Explicar por qué la tolerancia a la volatilidad varía según el inversionista.
+## Objetivos de aprendizaje
 
-## Contenido Principal
-La volatilidad se refiere a cuánto y qué tan rápido fluctúa el precio de un valor. *HECHO VERIFICADO:* Alta volatilidad significa oscilaciones de precio más grandes y frecuentes, en ambas direcciones — no significa inherentemente que una inversión esté perdiendo valor, solo que su precio se mueve de manera más dramática.
+Al final de esta lección, deberías poder:
 
-*ASUNCIÓN:* La tolerancia del inversionista a la volatilidad varía según el horizonte de tiempo, la situación financiera, y la comodidad psicológica con ver fluctuar los valores de la cuenta — lo que se siente manejable para un inversionista puede sentirse intolerable para otro.
+- Definir la fecha de vencimiento en términos sencillos.
+- Explicar qué pasa al vencimiento.
+- Reconocer que la duración hasta el vencimiento afecta el comportamiento de un bono.
 
-## Ejemplo Práctico
-*EJEMPLO ILUSTRATIVO:* Dos inversiones promedian ambas un retorno anual de 8% durante 10 años. La Inversión A se mueve suavemente con pequeñas oscilaciones año tras año. La Inversión B oscila salvajemente — baja 20% un año, sube 35% al siguiente — promediando al mismo 8% pero con un viaje mucho más accidentado. Ambas técnicamente entregaron el mismo retorno promedio, pero la volatilidad de la Inversión B pondría a prueba la paciencia de muchos inversionistas en el camino.
+## Contenido principal
 
-## Quiz Práctico
-1. ¿Qué mide la volatilidad?
-2. Verdadero/Falso: Alta volatilidad siempre significa que una inversión está perdiendo valor.
-3. ¿Qué factores influyen en la tolerancia de un inversionista a la volatilidad?
-4. ¿Qué fue cierto sobre las Inversiones A y B en el ejemplo práctico a pesar de sus diferentes trayectorias?
+### Qué es una fecha de vencimiento
 
-## Clave de Respuestas
-1. Cuánto y qué tan rápido fluctúa el precio   2. Falso   3. Horizonte de tiempo, situación financiera, comodidad psicológica   4. Ambas promediaron el mismo retorno anual de 8%
+La fecha de vencimiento de un bono es la fecha en que el emisor se comprometió a devolver por completo al tenedor del bono el valor nominal (el principal): el final del plazo del préstamo que se presentó en la lección anterior sobre bonos.
 
-## Respuestas y Explicaciones
-1. Esta es la definición fundamental de la volatilidad.
-2. La volatilidad refleja la magnitud del movimiento de precio, no la dirección ni una pérdida garantizada.
-3. Estos son los factores generales que dan forma a la tolerancia individual a la volatilidad.
-4. Mismo retorno promedio, experiencia de volatilidad muy diferente en el camino.
+### Qué pasa al vencimiento
 
-## Puntos Clave para Recordar
-- La volatilidad mide la magnitud y frecuencia de las oscilaciones de precio.
-- Alta volatilidad no significa inherentemente pérdida — significa mayor movimiento de precio en cualquier dirección.
-- La tolerancia a la volatilidad es personal y depende del horizonte de tiempo y la comodidad psicológica.
+Al vencimiento, el tenedor del bono recibe de vuelta el valor nominal y los pagos de intereses se detienen, porque el préstamo se considera totalmente pagado.
+
+### Por qué importa la duración hasta el vencimiento
+
+Los bonos con vencimientos más largos (fechas de devolución más lejanas) suelen ser más sensibles a los cambios en las tasas de interés que los bonos con vencimientos más cortos; es un concepto que se ve con más profundidad en una lección posterior sobre el riesgo de tasa de interés.
+
+## Ejemplo práctico
+
+*EJEMPLO ILUSTRATIVO:* Un bono a 2 años y uno a 20 años podrían tener hoy tasas de cupón parecidas, pero el precio del bono a 20 años normalmente reaccionará más ante cambios futuros en las tasas de interés, simplemente porque le falta mucho más tiempo para vencer.
+
+## Prueba de práctica
+
+1. La fecha de vencimiento de un bono es:
+   A. Cuando empiezan los pagos de intereses
+   B. Cuando el emisor devuelve por completo el valor nominal del bono
+   C. La fecha en que se compró el bono
+   D. Una fecha que fija el tenedor del bono
+2. Verdadero o falso: los pagos de intereses continúan indefinidamente después de que un bono llega a su vencimiento.
+3. ¿Qué tipo de bono suele ser más sensible a los cambios en las tasas de interés?
+   A. Un bono de vencimiento más corto
+   B. Un bono de vencimiento más largo
+   C. La duración hasta el vencimiento no afecta la sensibilidad
+   D. Solo los bonos sin fecha de vencimiento
+
+## Clave de respuestas
+
+1. B
+2. Falso
+3. B
+
+## Respuestas y explicaciones
+
+### Pregunta 1
+
+Respuesta correcta: B. El vencimiento es cuando se devuelve por completo el valor nominal.
+
+### Pregunta 2
+
+Respuesta correcta: Falso. Los pagos de intereses se detienen cuando el bono vence y se devuelve.
+
+### Pregunta 3
+
+Respuesta correcta: B. Los bonos de vencimiento más largo suelen ser más sensibles a los cambios de tasa.
+
+## Puntos clave
+
+- La fecha de vencimiento de un bono es cuando se devuelve por completo el valor nominal.
+- Los pagos de intereses se detienen al llegar el vencimiento.
+- Los bonos de vencimiento más largo suelen ser más sensibles a los cambios en las tasas de interés.

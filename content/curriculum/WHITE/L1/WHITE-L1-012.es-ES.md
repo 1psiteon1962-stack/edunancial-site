@@ -5,44 +5,77 @@ officialTrackName: Paper Assets
 level: 1
 lessonNumber: 12
 locale: es-ES
-title: "Fundamentos de la Distribución de Activos"
-summary: "*ASUNCIÓN:* Una tendencia general comúnmente citada es que los horizontes temporales más largos pueden sostener distribuciones más altas en acciones, mientras que los horizontes más cortos a menudo favorecen más bonos/efectivo — pero esto es una guía general, no una regla aplicable a cada situación individual."
-sourceVersion: "1.0"
+title: "¿Qué es la tasa de gastos y por qué debería importarte un porcentaje pequeño?"
+summary: "Aprende qué es la tasa de gastos de un fondo y por qué un porcentaje anual aparentemente pequeño importa con el tiempo."
+version: "1.0"
 author: Waldemar M. Caban, JD MA
 date: 2026-08-08
 ---
 
-# WHITE-L1-012: Fundamentos de la Distribución de Activos
+# ¿Qué es la tasa de gastos y por qué debería importarte un porcentaje pequeño?
 
-## Objetivos de Aprendizaje
-1. Definir la distribución de activos.
-2. Explicar cómo la distribución difiere de la diversificación.
-3. Identificar los factores que típicamente influyen en las decisiones de distribución.
+## Objetivos de aprendizaje
 
-## Contenido Principal
-La distribución de activos es cómo un inversor divide su cartera entre categorías amplias de activos — comúnmente acciones, bonos, y efectivo — basándose en objetivos, horizonte temporal, y tolerancia al riesgo. *ASUNCIÓN:* Mientras que la diversificación reparte el riesgo dentro de una categoría (muchas acciones distintas), la distribución es la decisión de más alto nivel sobre cuánto poner en cada categoría en primer lugar.
+Al final de esta lección, deberías poder:
 
-*ASUNCIÓN:* Una tendencia general comúnmente citada es que los horizontes temporales más largos pueden sostener distribuciones más altas en acciones, mientras que los horizontes más cortos a menudo favorecen más bonos/efectivo — pero esto es una guía general, no una regla aplicable a cada situación individual.
+- Definir la tasa de gastos en términos sencillos.
+- Calcular el costo anual aproximado a partir del saldo de un fondo y su tasa de gastos.
+- Explicar por qué las pequeñas diferencias de porcentaje importan con el tiempo.
 
-## Ejemplo Práctico
-*EJEMPLO ILUSTRATIVO:* Dos inversores diversifican bien dentro de sus posiciones en acciones (muchas empresas distintas). El Inversor A, a 25 años de su jubilación, distribuye 90% acciones / 10% bonos. El Inversor B, a 2 años de su jubilación, distribuye 40% acciones / 60% bonos. El mismo principio de diversificación aplicado dentro de cada categoría, pero una distribución muy distinta entre categorías basada en el horizonte temporal.
+## Contenido principal
 
-## Cuestionario Práctico
-1. ¿Qué es la distribución de activos?
-2. ¿En qué se diferencia la distribución de la diversificación?
-3. ¿Qué podrían sostener comúnmente los horizontes temporales más largos, según las guías generales?
-4. Verdadero/Falso: La distribución de activos debería ser idéntica para cada inversor.
+### Qué es la tasa de gastos
 
-## Clave de Respuestas
-1. Cómo se divide una cartera entre categorías amplias de activos   2. La distribución es la división a nivel de categoría; la diversificación es repartir dentro de una categoría   3. Distribuciones más altas en acciones (como tendencia general)   4. Falso
+La tasa de gastos (expense ratio) es la comisión anual que cobra un fondo (como un ETF o un fondo de inversión), expresada como porcentaje de la cantidad invertida, para cubrir sus costos de operación.
 
-## Respuestas y Explicaciones
-1. Esto define el concepto fundamental de la distribución de activos.
-2. Esto distingue la distribución (categorías) de la diversificación (reparto dentro de las categorías).
-3. Esta es una guía general comúnmente citada, no una regla universal.
-4. La distribución debería reflejar los objetivos individuales, el horizonte temporal, y la tolerancia al riesgo.
+### Cómo calcular el costo
 
-## Puntos Clave para Recordar
-- La distribución de activos es la división entre categorías amplias como acciones, bonos, efectivo.
-- Es distinta de la diversificación, que reparte el riesgo dentro de una categoría.
-- El horizonte temporal y la tolerancia al riesgo comúnmente influyen en las decisiones de distribución.
+Una tasa de gastos del 0,50 % sobre una inversión de 10.000 € cuesta aproximadamente 50 € al año, que se descuentan automáticamente de los rendimientos del fondo; normalmente los inversores no la pagan como una factura aparte.
+
+### Por qué los porcentajes pequeños importan con el tiempo
+
+Como las tasas de gastos se cobran todos los años, incluso las diferencias pequeñas se acumulan de forma importante a lo largo de períodos largos. Una comisión del 0,10 % frente a una del 1,00 % sobre la misma inversión, mantenida durante décadas, puede sumar un costo total bastante distinto, aunque la diferencia anual parezca pequeña.
+
+## Ejemplo práctico
+
+*EJEMPLO ILUSTRATIVO:* Una inversión de 10.000 € con una tasa de gastos del 1,00 % cuesta unos 100 € al año en comisiones. La misma inversión con una tasa de gastos del 0,10 % cuesta unos 10 € al año: una diferencia de 90 € que se acumula de forma importante si se mantiene durante muchos años.
+
+## Cuestionario de práctica
+
+1. La tasa de gastos es:
+   A. Una comisión única de compra
+   B. Una comisión anual que se cobra como porcentaje de la cantidad invertida
+   C. Un impuesto sobre los dividendos
+   D. Una comisión que se cobra solo al vender
+2. Verdadero o falso: las diferencias en la tasa de gastos son demasiado pequeñas para importar con el tiempo.
+3. Una inversión de 20.000 € tiene una tasa de gastos del 0,40 %. ¿Cuánto cuesta aproximadamente al año?
+   A. 8 €
+   B. 40 €
+   C. 80 €
+   D. 400 €
+
+## Clave de respuestas
+
+1. B
+2. Falso
+3. C
+
+## Respuestas y explicaciones
+
+### Pregunta 1
+
+Respuesta correcta: B. La tasa de gastos es una comisión anual basada en un porcentaje.
+
+### Pregunta 2
+
+Respuesta correcta: Falso. Las pequeñas diferencias anuales se acumulan de forma importante a lo largo de períodos largos.
+
+### Pregunta 3
+
+Respuesta correcta: C. 20.000 € × 0,40 % = 80 €.
+
+## Puntos clave
+
+- La tasa de gastos es una comisión anual que se cobra como porcentaje de los activos invertidos.
+- Se descuenta automáticamente de los rendimientos del fondo; no se factura aparte.
+- Las pequeñas diferencias en la tasa de gastos pueden acumularse hasta convertirse en costos importantes con el tiempo.

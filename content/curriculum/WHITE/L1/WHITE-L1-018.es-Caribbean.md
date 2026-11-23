@@ -5,44 +5,77 @@ officialTrackName: Paper Assets
 level: 1
 lessonNumber: 18
 locale: es-Caribbean
-title: "Entendiendo los Ratios de Gastos"
-summary: "*ASUNCIÓN:* Debido a que los ratios de gastos se componen durante largos períodos de tenencia, incluso pequeñas diferencias (como 0.05% vs. 0.5%) pueden afectar significativamente los retornos a largo plazo — el impacto exacto depende de la tasa de crecimiento de la inversión y el período de tenencia."
-sourceVersion: "1.0"
+title: "¿Qué es un 401(k)?"
+summary: "Aprende qué es un 401(k), cómo funciona normalmente y un beneficio común del empleador ligado a él."
+version: "1.0"
 author: Waldemar M. Caban, JD MA
 date: 2026-08-08
 ---
 
-# WHITE-L1-018: Entendiendo los Ratios de Gastos
+# ¿Qué es un 401(k)?
 
-## Objetivos de Aprendizaje
-1. Definir un ratio de gastos.
-2. Calcular el costo en dólares del ratio de gastos de un fondo.
-3. Explicar por qué las pequeñas diferencias en los ratios de gastos importan con el tiempo.
+## Objetivos de aprendizaje
 
-## Contenido Principal
-Un ratio de gastos es la comisión anual que cobra un fondo, expresada como un porcentaje de los activos invertidos, cubriendo los costos de administración y operación. *HECHO VERIFICADO:* Esta comisión se deduce automáticamente de los retornos del fondo — los inversionistas no la pagan como una factura separada, pero reduce el desempeño general.
+Al final de esta lección, deberías poder:
 
-*ASUNCIÓN:* Debido a que los ratios de gastos se componen durante largos períodos de tenencia, incluso pequeñas diferencias (como 0.05% vs. 0.5%) pueden afectar significativamente los retornos a largo plazo — el impacto exacto depende de la tasa de crecimiento de la inversión y el período de tenencia.
+- Definir un 401(k) en términos sencillos.
+- Explicar cómo funcionan normalmente los aportes.
+- Explicar qué es el aporte equivalente del empleador.
 
-## Ejemplo Práctico
-*EJEMPLO ILUSTRATIVO:* Un inversionista tiene $50,000 en un fondo con un ratio de gastos de 0.5%, costando aproximadamente $250 al año. Un fondo similar con un ratio de gastos de 0.05% costaría aproximadamente $25 al año — una diferencia anual de $225 que, compuesta durante décadas, puede sumar una cantidad sustancial, aunque la diferencia anual en dólares parezca pequeña a primera vista.
+## Contenido principal
 
-## Quiz Práctico
-1. ¿Qué es un ratio de gastos?
-2. ¿Cómo se paga típicamente la comisión del ratio de gastos?
-3. En $50,000 invertidos, ¿cuánto cuesta anualmente un ratio de gastos de 0.5%?
-4. Verdadero/Falso: Las pequeñas diferencias en el ratio de gastos no tienen impacto significativo a largo plazo.
+### Qué es un 401(k)
 
-## Clave de Respuestas
-1. La comisión anual que cobra un fondo como porcentaje de los activos   2. Se deduce automáticamente de los retornos del fondo   3. $250   4. Falso
+*(REGLA ESPECÍFICA DE LA REGIÓN: este es un tipo de cuenta de retiro propio de EE. UU. Puerto Rico tiene además sus propias reglas para los planes de retiro de empleadores, y en la República Dominicana el ahorro para el retiro de los trabajadores se organiza principalmente mediante las Administradoras de Fondos de Pensiones, AFP.)* Un 401(k) es una cuenta de ahorro para el retiro patrocinada por el empleador, que permite a los empleados aportar una parte de su salario, a menudo con ventajas contributivas, a su ahorro para el retiro a largo plazo.
 
-## Respuestas y Explicaciones
-1. Esta es la definición fundamental del ratio de gastos de un fondo.
-2. Los inversionistas no reciben una factura separada — la comisión reduce los retornos directamente.
-3. $50,000 × 0.005 = $250.
-4. Compuestas durante largos períodos, incluso pequeñas diferencias en comisiones pueden afectar significativamente los resultados.
+### Cómo funcionan normalmente los aportes
 
-## Puntos Clave para Recordar
-- Los ratios de gastos son comisiones anuales de los fondos, expresadas como porcentaje de los activos.
-- Se deducen automáticamente, reduciendo los retornos generales.
-- Incluso pequeñas diferencias en el ratio de gastos pueden componerse en un impacto significativo a largo plazo.
+En general, los empleados eligen un porcentaje o una cantidad de su salario para aportar de forma automática, que luego se invierte en las opciones que ofrece el plan del empleador (a menudo una lista de fondos, incluidas opciones como los ETF y los fondos mutuos que vimos antes en este nivel).
+
+### Qué es el aporte equivalente del empleador
+
+Muchos empleadores ofrecen un "aporte equivalente" (match): aportan dinero adicional según lo que aporte el empleado, hasta cierto límite. En la práctica es una compensación extra ligada específicamente a participar en el plan, y no aprovechar por completo un aporte equivalente disponible es una oportunidad perdida que se menciona con frecuencia.
+
+## Ejemplo práctico
+
+*EJEMPLO ILUSTRATIVO:* Un empleador ofrece igualar el 50% de los aportes del empleado hasta el 6% del salario. Una empleada que gana $50,000 y aporta el 6% ($3,000) recibe $1,500 adicionales del aporte equivalente del empleador, un dinero que no recibiría si no aportara.
+
+## Prueba de práctica
+
+1. Un 401(k) es:
+   A. Un tipo de cuenta de cheques
+   B. Una cuenta de ahorro para el retiro patrocinada por el empleador
+   C. Una pensión del gobierno que se paga automáticamente
+   D. Un tipo de bono
+2. Verdadero o falso: todos los empleadores están obligados a ofrecer un aporte equivalente.
+3. ¿Qué es el aporte equivalente del empleador?
+   A. Una multa contributiva
+   B. Aportes adicionales del empleador según lo que aporte el empleado
+   C. Un tipo de préstamo
+   D. Un pago fijo del gobierno
+
+## Clave de respuestas
+
+1. B
+2. Falso
+3. B
+
+## Respuestas y explicaciones
+
+### Pregunta 1
+
+Respuesta correcta: B. Un 401(k) es una cuenta de retiro patrocinada por el empleador.
+
+### Pregunta 2
+
+Respuesta correcta: Falso. El aporte equivalente es común, pero no es obligatorio ni se ofrece en todos los casos.
+
+### Pregunta 3
+
+Respuesta correcta: B. El aporte equivalente es dinero adicional del empleador ligado a los aportes del empleado.
+
+## Puntos clave
+
+- Un 401(k) es una cuenta de ahorro para el retiro patrocinada por el empleador.
+- Los aportes suelen ser automáticos, mediante descuentos del salario.
+- El aporte equivalente del empleador, cuando se ofrece, es en la práctica una compensación extra por participar.

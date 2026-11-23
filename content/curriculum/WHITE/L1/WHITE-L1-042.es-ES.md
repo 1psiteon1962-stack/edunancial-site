@@ -5,42 +5,79 @@ officialTrackName: Paper Assets
 level: 1
 lessonNumber: 42
 locale: es-ES
-title: "Errores Conductuales de Inversión que Debes Evitar"
-summary: "Lección WHITE-L1-042 en español."
-sourceVersion: "1.0"
+title: "¿Qué es una anualidad? (Versión introductoria)"
+summary: "Aprende la idea básica de una anualidad: convertir una suma de dinero en una serie de pagos futuros."
+version: "1.0"
 author: Waldemar M. Caban, JD MA
 date: 2026-08-08
 ---
 
-# WHITE-L1-042: Errores Conductuales de Inversión que Debes Evitar
+# ¿Qué es una anualidad? (Versión introductoria)
 
-## Objetivos de Aprendizaje
-1. Identificar los sesgos psicológicos comunes que afectan a las decisiones de inversión.
-2. Explicar la venta por pánico y sus consecuencias típicas.
-3. Reconocer el valor de tener un plan antes de que las emociones se disparen.
+## Objetivos de aprendizaje
 
-## Contenido Principal
-*OPINIÓN:* La investigación en finanzas conductuales comúnmente identifica varios errores recurrentes de los inversores, incluyendo: **venta por pánico** (vender durante caídas por miedo, a menudo asegurando pérdidas que podrían haberse recuperado), **perseguir el comportamiento** (comprar lo que recientemente ha tenido buen comportamiento, a menudo después de que ya ha ocurrido la mayor parte de la ganancia), y **exceso de confianza** (subestimar el riesgo basándose en el éxito reciente).
+Al final de esta lección, deberías poder:
 
-## Ejemplo Práctico
-*EJEMPLO ILUSTRATIVO:* Durante una caída del mercado, un inversor sin un plan predeterminado entra en pánico y vende todo cerca del mínimo, asegurando pérdidas significativas. Meses después, el mercado se recupera — pero al haber vendido, el inversor se perdió la recuperación por completo. Un inversor con un plan predeterminado (y la disciplina para seguirlo) podría haber mantenido sus posiciones durante la caída, o incluso continuado con aportaciones regulares a precios más bajos.
+- Definir una anualidad en términos sencillos.
+- Explicar la idea básica de convertir una suma global en pagos.
+- Reconocer que las anualidades varían mucho en estructura y complejidad.
 
-## Cuestionario Práctico
-1. ¿Qué es la venta por pánico?
-2. ¿Qué es "perseguir el comportamiento"?
-3. Verdadero/Falso: La toma de decisiones emocional generalmente mejora los resultados de inversión.
-4. ¿Qué puede ayudar a un inversor a evitar decisiones emocionales durante una caída?
+## Contenido principal
 
-## Clave de Respuestas
-1. Vender durante caídas por miedo, a menudo asegurando pérdidas   2. Comprar inversiones de buen comportamiento reciente, a menudo después de que ha ocurrido la mayor parte de las ganancias   3. Falso   4. Tener un plan predeterminado antes de que las emociones se disparen
+### Qué es una anualidad
 
-## Respuestas y Explicaciones
-1. Este es un error conductual de inversión comúnmente citado.
-2. Esto describe perseguir el comportamiento reciente en lugar de una estrategia disciplinada.
-3. Las decisiones emocionales y reactivas comúnmente se asocian con peores resultados.
-4. Los planes predeterminados proporcionan un marco a seguir en lugar de reaccionar emocionalmente en el momento.
+Una anualidad es un producto financiero, normalmente ofrecido por una compañía de seguros, en el que una persona paga una suma global (o una serie de pagos) a cambio de una serie de pagos futuros; a menudo se usa como fuente de ingresos para la jubilación.
 
-## Puntos Clave para Recordar
-- La venta por pánico y perseguir el comportamiento son errores conductuales de inversión comúnmente citados.
-- Las decisiones emocionales y reactivas pueden asegurar pérdidas o hacer perder recuperaciones.
-- Tener un plan predeterminado puede ayudar a los inversores a evitar decisiones emocionales costosas.
+### La idea básica
+
+El concepto central es convertir una cantidad de dinero de ahora en una serie de ingresos definida más adelante, lo que da previsibilidad, algo que atrae a las personas a las que les preocupa que se les acaben sus otros ahorros.
+
+### Existe una complejidad real
+
+*SUPUESTO (con fines didácticos):* Las anualidades tienen muchas estructuras distintas, con comisiones, términos y garantías variables. Esta lección introductoria solo cubre el concepto básico; la verdadera variedad y complejidad de los productos de anualidad va más allá del alcance de este nivel.
+
+*REGLA ESPECÍFICA DE LA REGIÓN:* En España, productos parecidos (como las rentas vitalicias) los ofrecen sobre todo las aseguradoras, y su tributación y regulación tienen reglas propias. Lee el contrato y pide asesoría antes de contratar uno.
+
+## Ejemplo práctico
+
+*EJEMPLO ILUSTRATIVO:* Una persona jubilada paga una suma global a una compañía de seguros a cambio de un pago mensual garantizado por el resto de su vida: cambia una suma grande de ahora por un ingreso predecible después.
+
+## Cuestionario de práctica
+
+1. En general, una anualidad implica:
+   A. Comprar una sola acción
+   B. Convertir una suma global en una serie de pagos futuros
+   C. Un tipo de compra de bienes inmuebles
+   D. Un reembolso de impuestos del gobierno
+2. Verdadero o falso: todas las anualidades tienen estructuras, comisiones y términos idénticos.
+3. ¿Por qué alguien podría considerar una anualidad?
+   A. Para evitar para siempre todo riesgo financiero
+   B. Por un ingreso predecible, a menudo durante la jubilación
+   C. Para no pagar nunca impuestos
+   D. Para eliminar la necesidad de cualquier otro ahorro
+
+## Clave de respuestas
+
+1. B
+2. Falso
+3. B
+
+## Respuestas y explicaciones
+
+### Pregunta 1
+
+Respuesta correcta: B. Una anualidad convierte una suma global en pagos futuros.
+
+### Pregunta 2
+
+Respuesta correcta: Falso. Las estructuras, comisiones y términos de las anualidades varían mucho.
+
+### Pregunta 3
+
+Respuesta correcta: B. El ingreso predecible es su principal atractivo.
+
+## Puntos clave
+
+- Una anualidad convierte una suma global en una serie de pagos futuros.
+- A menudo se usa como fuente de ingresos predecibles para la jubilación.
+- Las estructuras de las anualidades varían mucho: esto es solo un concepto introductorio.

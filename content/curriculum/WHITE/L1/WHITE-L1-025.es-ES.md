@@ -5,44 +5,77 @@ officialTrackName: Paper Assets
 level: 1
 lessonNumber: 25
 locale: es-ES
-title: "Acciones de Crecimiento vs. Acciones de Valor"
-summary: "*ASUNCIÓN:* Ninguna categoría supera consistentemente a la otra en todos los períodos de tiempo — el liderazgo del mercado ha rotado históricamente entre crecimiento y valor en distintos momentos, y predecir cuál liderará en el futuro no es fiable."
-sourceVersion: "1.0"
+title: "¿Qué son las ganancias por acción (EPS)?"
+summary: "Aprende qué miden las ganancias por acción (EPS) y cómo se calculan, como base para lecciones posteriores de valoración."
+version: "1.0"
 author: Waldemar M. Caban, JD MA
 date: 2026-08-08
 ---
 
-# WHITE-L1-025: Acciones de Crecimiento vs. Acciones de Valor
+# ¿Qué son las ganancias por acción (EPS)?
 
-## Objetivos de Aprendizaje
-1. Distinguir las acciones de crecimiento de las acciones de valor.
-2. Identificar las características generales de cada categoría.
-3. Reconocer que ninguna categoría es universalmente superior.
+## Objetivos de aprendizaje
 
-## Contenido Principal
-Las **acciones de crecimiento** son empresas de las que se espera que sus beneficios crezcan más rápido que la media, a menudo reinvirtiendo los beneficios en lugar de pagar dividendos, y a menudo cotizando a valoraciones más altas respecto a los beneficios actuales. Las **acciones de valor** son empresas percibidas como cotizando por debajo de su valor intrínseco, a menudo más consolidadas, a veces pagando dividendos, con valoraciones más bajas respecto a los beneficios.
+Al final de esta lección, deberías poder:
 
-*ASUNCIÓN:* Ninguna categoría supera consistentemente a la otra en todos los períodos de tiempo — el liderazgo del mercado ha rotado históricamente entre crecimiento y valor en distintos momentos, y predecir cuál liderará en el futuro no es fiable.
+- Enunciar la fórmula de las EPS.
+- Calcular unas EPS básicas a partir de la ganancia neta y las acciones en circulación.
+- Explicar en términos sencillos lo que representan las EPS.
 
-## Ejemplo Práctico
-*EJEMPLO ILUSTRATIVO:* Dos inversores construyen carteras distintas. Uno favorece las acciones de crecimiento — empresas más jóvenes y de rápida expansión que reinvierten fuertemente, sin dividendos actuales. El otro favorece las acciones de valor — empresas consolidadas y estables que pagan dividendos constantes pero con crecimiento más lento. Ambas son filosofías de inversión válidas; cuál tiene mejor comportamiento en cualquier período dado no es predecible de manera fiable de antemano.
+## Contenido principal
 
-## Cuestionario Práctico
-1. ¿Qué caracteriza generalmente a las acciones de crecimiento?
-2. ¿Qué caracteriza generalmente a las acciones de valor?
-3. Verdadero/Falso: Las acciones de crecimiento siempre superan a las acciones de valor.
-4. ¿Qué ha pasado históricamente con el liderazgo de crecimiento y valor a través del tiempo?
+### La fórmula de las EPS
 
-## Clave de Respuestas
-1. Crecimiento de beneficios esperado más rápido, a menudo reinvirtiendo los beneficios   2. Infravaloración percibida, a menudo más consolidadas, a veces pagando dividendos   3. Falso   4. El liderazgo ha rotado históricamente entre las dos categorías
+Ganancias por acción (EPS, por sus siglas en inglés) = Ganancia neta ÷ Acciones en circulación. Reparte la ganancia total de una empresa entre cada acción individual.
 
-## Respuestas y Explicaciones
-1. Este es el perfil general de las acciones de crecimiento.
-2. Este es el perfil general de las acciones de valor.
-3. Ninguna categoría supera consistentemente a la otra en todos los períodos.
-4. La rotación histórica entre estilos de liderazgo es un patrón de mercado comúnmente observado.
+### Lo que representan las EPS
 
-## Puntos Clave para Recordar
-- Las acciones de crecimiento enfatizan la expansión y reinversión; las de valor enfatizan la infravaloración percibida.
-- Ninguna categoría es universalmente superior en todos los períodos de tiempo.
-- El liderazgo del mercado ha rotado históricamente entre los estilos de crecimiento y valor.
+Las EPS representan cuánta ganancia le corresponde a cada acción individual: una forma de expresar la ganancia total de una empresa por acción, lo que facilita comparar empresas de distintos tamaños.
+
+### Por qué importa de aquí en adelante
+
+Las EPS son la base de varios conceptos de valoración que se ven con más profundidad en el Nivel 2; entender ahora lo que miden prepara ese material posterior.
+
+## Ejemplo práctico
+
+*EJEMPLO ILUSTRATIVO:* Una empresa con 5.000.000 € de ganancia neta y 1.000.000 de acciones en circulación tiene unas EPS de 5.000.000 € ÷ 1.000.000 = 5,00 € por acción.
+
+## Cuestionario de práctica
+
+1. Las EPS se calculan como:
+   A. Precio de la acción ÷ ganancia neta
+   B. Ganancia neta ÷ acciones en circulación
+   C. Ingresos totales ÷ gastos totales
+   D. Acciones en circulación ÷ ganancia neta
+2. Verdadero o falso: las EPS representan la ganancia total de una empresa, no una cifra por acción.
+3. Una empresa tiene 2.000.000 € de ganancia neta y 500.000 acciones en circulación. ¿Cuáles son sus EPS?
+   A. 0,25 €
+   B. 2,50 €
+   C. 4,00 €
+   D. 250 €
+
+## Clave de respuestas
+
+1. B
+2. Falso
+3. C
+
+## Respuestas y explicaciones
+
+### Pregunta 1
+
+Respuesta correcta: B. EPS = Ganancia neta ÷ Acciones en circulación.
+
+### Pregunta 2
+
+Respuesta correcta: Falso. Las EPS expresan específicamente la ganancia por acción.
+
+### Pregunta 3
+
+Respuesta correcta: C. 2.000.000 € ÷ 500.000 = 4.00 €.
+
+## Puntos clave
+
+- EPS = Ganancia neta ÷ Acciones en circulación.
+- Expresan la ganancia de una empresa por acción.
+- Son la base de conceptos de valoración que se ven con más profundidad más adelante.

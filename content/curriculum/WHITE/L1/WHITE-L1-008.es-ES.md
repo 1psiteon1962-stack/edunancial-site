@@ -5,44 +5,77 @@ officialTrackName: Paper Assets
 level: 1
 lessonNumber: 8
 locale: es-ES
-title: "Dividendos — Que Te Paguen por Ser Propietario"
-summary: "*HECHO VERIFICADO:* Rentabilidad por Dividendo = Dividendo Anual Por Acción ÷ Precio de la Acción, expresado como porcentaje, mostrando el ingreso por dividendos en relación al coste de la inversión."
-sourceVersion: "1.0"
+title: "¿Qué es la capitalización de mercado?"
+summary: "Aprende qué mide la capitalización de mercado, cómo se calcula y por qué no es lo mismo que el efectivo o el valor total de una empresa."
+version: "1.0"
 author: Waldemar M. Caban, JD MA
 date: 2026-08-08
 ---
 
-# WHITE-L1-008: Dividendos — Que Te Paguen por Ser Propietario
+# ¿Qué es la capitalización de mercado?
 
-## Objetivos de Aprendizaje
-1. Definir un dividendo.
-2. Explicar por qué no todas las empresas pagan dividendos.
-3. Calcular una rentabilidad por dividendo sencilla.
+## Objetivos de aprendizaje
 
-## Contenido Principal
-Un dividendo es una parte de los beneficios de una empresa distribuida a los accionistas, normalmente pagada trimestralmente. *ASUNCIÓN:* Si una empresa paga dividendos es una decisión de negocio — las empresas centradas en el crecimiento a menudo reinvierten los beneficios en lugar de pagar dividendos, mientras que las empresas más maduras y estables comúnmente los pagan más, aunque esto no es una regla estricta.
+Al final de esta lección, deberías poder:
 
-*HECHO VERIFICADO:* Rentabilidad por Dividendo = Dividendo Anual Por Acción ÷ Precio de la Acción, expresado como porcentaje, mostrando el ingreso por dividendos en relación al coste de la inversión.
+- Enunciar la fórmula de la capitalización de mercado.
+- Calcular la capitalización de mercado a partir del precio por acción y las acciones en circulación.
+- Explicar por qué la capitalización de mercado no es lo mismo que el efectivo o los activos totales de una empresa.
 
-## Ejemplo Práctico
-*EJEMPLO ILUSTRATIVO:* Una acción cotiza a $100 por acción y paga un dividendo anual de $3 por acción. Rentabilidad por Dividendo = $3 ÷ $100 = 3%. Un inversor que posea 100 acciones ($10.000 invertidos) recibiría $300 al año en ingresos por dividendos, aparte de cualquier apreciación o caída de precio en las acciones mismas.
+## Contenido principal
 
-## Cuestionario Práctico
-1. ¿Qué es un dividendo?
-2. ¿Cuál es la fórmula de la rentabilidad por dividendo?
-3. Verdadero/Falso: Todas las empresas cotizadas están obligadas a pagar dividendos.
-4. Si una acción paga un dividendo de $2 y cotiza a $50, ¿cuál es la rentabilidad por dividendo?
+### La fórmula
 
-## Clave de Respuestas
-1. Una parte de los beneficios de la empresa distribuida a los accionistas   2. Dividendo Anual Por Acción ÷ Precio de la Acción   3. Falso   4. 4%
+Capitalización de mercado = Precio por acción × Total de acciones en circulación. Representa el valor de mercado total de todas las acciones de una empresa juntas.
 
-## Respuestas y Explicaciones
-1. Esta es la definición fundamental de un pago de dividendo.
-2. Este es el cálculo estándar de la rentabilidad por dividendo.
-3. Los dividendos son una decisión de la empresa, no un requisito legal.
-4. $2 ÷ $50 = 0,04 = 4%.
+### Lo que realmente mide
 
-## Puntos Clave para Recordar
-- Los dividendos distribuyen los beneficios de la empresa a los accionistas, típicamente cada trimestre.
-- El pago de dividendos es una decisión de negocio, no algo garantizado ni obligatorio.
-- La rentabilidad por dividendo mide el ingreso por dividendos en relación al precio de la acción.
+La capitalización de mercado refleja cuánto creen los inversores, en conjunto, que vale ahora mismo la propiedad de la empresa: una estimación del mercado en tiempo real, no una cifra auditada o fija.
+
+### Por qué no es lo mismo que el efectivo o el valor total
+
+La capitalización de mercado no es lo mismo que el efectivo que tiene una empresa, sus ingresos totales ni siquiera sus activos totales. Una empresa puede tener una gran capitalización de mercado y relativamente poco efectivo disponible, porque la capitalización de mercado refleja las expectativas de los inversores sobre el valor futuro, no una foto actual del balance.
+
+## Ejemplo práctico
+
+*EJEMPLO ILUSTRATIVO:* Una empresa con 10.000.000 de acciones en circulación que se negocian a 50 € por acción tiene una capitalización de mercado de 10.000.000 × 50 € = 500.000.000 €, sin importar cuánto efectivo real tenga la empresa.
+
+## Cuestionario de práctica
+
+1. La capitalización de mercado se calcula como:
+   A. Ingresos totales × número de empleados
+   B. Precio por acción × total de acciones en circulación
+   C. Activos totales − pasivos totales
+   D. Ganancia anual ÷ acciones en circulación
+2. Verdadero o falso: la capitalización de mercado es lo mismo que el efectivo disponible de una empresa.
+3. Una empresa tiene 2.000.000 de acciones en circulación que se negocian a 30 € por acción. ¿Cuál es su capitalización de mercado?
+   A. 6.000 €
+   B. 60.000 €
+   C. 6.000.000 €
+   D. 60.000.000 €
+
+## Clave de respuestas
+
+1. B
+2. Falso
+3. D
+
+## Respuestas y explicaciones
+
+### Pregunta 1
+
+Respuesta correcta: B. Capitalización de mercado = precio por acción × acciones en circulación.
+
+### Pregunta 2
+
+Respuesta correcta: Falso. La capitalización de mercado refleja el valor de mercado, no el efectivo disponible.
+
+### Pregunta 3
+
+Respuesta correcta: D. 2.000.000 × 30 € = 60.000.000 €.
+
+## Puntos clave
+
+- Capitalización de mercado = Precio por acción × Total de acciones en circulación.
+- Refleja la valoración colectiva del mercado sobre la propiedad total.
+- No es lo mismo que el efectivo, los ingresos o los activos totales de una empresa.

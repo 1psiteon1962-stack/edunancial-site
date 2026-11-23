@@ -5,44 +5,77 @@ officialTrackName: Paper Assets
 level: 1
 lessonNumber: 21
 locale: es-ES
-title: "Roth vs. Cuentas de Jubilación Tradicionales"
-summary: "*HECHO VERIFICADO:* Una cuenta **Tradicional** usa aportaciones antes de impuestos (reduciendo el ingreso gravable ahora) con reembolsos gravados en la jubilación. Una cuenta **Roth** usa aportaciones después de impuestos (sin beneficio fiscal actual) pero los reembolsos cualificados en la jubilación generalmente están libres de impuestos, incluyendo el crecimiento."
-sourceVersion: "1.0"
+title: "¿Qué es una cuenta de valores? (¿Y en qué se diferencia de una cuenta de jubilación?)"
+summary: "Aprende qué es una cuenta de valores común y en qué se diferencia en propósito y flexibilidad de una cuenta de jubilación."
+version: "1.0"
 author: Waldemar M. Caban, JD MA
 date: 2026-08-08
 ---
 
-# WHITE-L1-021: Roth vs. Cuentas de Jubilación Tradicionales
+# ¿Qué es una cuenta de valores? (¿Y en qué se diferencia de una cuenta de jubilación?)
 
-## Objetivos de Aprendizaje
-1. Distinguir el tratamiento fiscal Roth del Tradicional.
-2. Explicar la diferencia de momento en que se paga el impuesto.
-3. Reconocer que este es un concepto específico de EE. UU.
+## Objetivos de aprendizaje
 
-## Contenido Principal
-*REGLA ESPECÍFICA DE LA REGIÓN:* Las estructuras Roth y Tradicional son conceptos fiscales específicos de EE. UU., aplicables tanto a los 401(k)s como a los IRAs.
+Al final de esta lección, deberías poder:
 
-*HECHO VERIFICADO:* Una cuenta **Tradicional** usa aportaciones antes de impuestos (reduciendo el ingreso gravable ahora) con reembolsos gravados en la jubilación. Una cuenta **Roth** usa aportaciones después de impuestos (sin beneficio fiscal actual) pero los reembolsos cualificados en la jubilación generalmente están libres de impuestos, incluyendo el crecimiento.
+- Definir una cuenta de valores en términos sencillos.
+- Explicar en qué se diferencia de una cuenta de jubilación como un 401(k) o una IRA.
+- Explicar el equilibrio básico entre flexibilidad y ventajas fiscales.
 
-## Ejemplo Práctico
-*EJEMPLO ILUSTRATIVO:* Priya aporta $6.000 a una cuenta Tradicional, reduciendo su ingreso gravable este año. Su colega aporta $6.000 a una cuenta Roth en su lugar, pagando impuestos sobre ese ingreso ahora pero esperando reembolsos libres de impuestos décadas después, incluyendo todo el crecimiento acumulado por el camino — una apuesta a que su tipo impositivo actual es más bajo de lo que será en la jubilación.
+## Contenido principal
 
-## Cuestionario Práctico
-1. ¿Cuándo se gravan las aportaciones de una cuenta Tradicional?
-2. ¿Cuándo típicamente se gravan los reembolsos cualificados de una Roth?
-3. Verdadero/Falso: Las aportaciones Roth proporcionan una deducción fiscal inmediata.
-4. ¿Cuál es la diferencia general de momento entre el tratamiento fiscal Roth y Tradicional?
+### Qué es una cuenta de valores
 
-## Clave de Respuestas
-1. Los reembolsos se gravan en la jubilación   2. Generalmente libres de impuestos si son cualificados   3. Falso   4. La Tradicional grava después; la Roth grava ahora
+Una cuenta de valores es una cuenta de inversión común que permite a una persona comprar y vender acciones, bonos, ETF y otros activos de papel, sin las reglas fiscales propias de la jubilación de un 401(k) o una IRA.
 
-## Respuestas y Explicaciones
-1. Las aportaciones Tradicionales difieren el impuesto hasta el reembolso.
-2. Los reembolsos Roth generalmente están libres de impuestos cuando son cualificados, ya que el impuesto se pagó por adelantado.
-3. Las aportaciones Roth son después de impuestos, sin deducción en el año actual.
-4. Esta diferencia de momento es la distinción fundamental entre los dos tipos de cuenta.
+### En qué se diferencia de una cuenta de jubilación
 
-## Puntos Clave para Recordar
-- Tradicional: antes de impuestos ahora, gravada al reembolsar.
-- Roth: gravada ahora, generalmente reembolsos cualificados libres de impuestos después.
-- Elegir entre ellas a menudo depende de los tipos impositivos futuros esperados frente a los actuales.
+A diferencia de las cuentas de jubilación, una cuenta de valores común en general no tiene ventajas fiscales especiales, pero tampoco restricciones sobre cuándo se puede retirar el dinero: tienes plena flexibilidad para añadir o sacar dinero en cualquier momento.
+
+### El equilibrio entre flexibilidad y ventaja fiscal
+
+Las cuentas de jubilación cambian algo de flexibilidad (a menudo restringen el acceso fácil antes de cierta edad) por beneficios fiscales reales. Las cuentas de valores cambian esos beneficios fiscales por plena flexibilidad. Muchos inversores usan ambas, para propósitos distintos.
+
+## Ejemplo práctico
+
+*EJEMPLO ILUSTRATIVO:* Un inversor que ahorra específicamente para una jubilación que está a décadas de distancia podría dar prioridad a un 401(k) o a una IRA por los beneficios fiscales. El mismo inversor, si ahorra para una meta de los próximos años y necesita acceso flexible, podría usar en su lugar una cuenta de valores común.
+
+## Cuestionario de práctica
+
+1. Una cuenta de valores es:
+   A. Exclusivamente para ahorrar para la jubilación
+   B. Una cuenta de inversión común sin reglas fiscales propias del retiro
+   C. Un tipo de bono de ahorro
+   D. Algo disponible solo para empleadores
+2. Verdadero o falso: una cuenta de valores común tiene las mismas restricciones de retiro de dinero que un 401(k).
+3. ¿Cuál es el equilibrio básico entre las cuentas de jubilación y las cuentas de valores comunes?
+   A. No hay ningún equilibrio
+   B. Ventajas fiscales y acceso restringido frente a plena flexibilidad con menos beneficios fiscales
+   C. Las cuentas de valores son ilegales
+   D. Las cuentas de jubilación no tienen ningún beneficio fiscal
+
+## Clave de respuestas
+
+1. B
+2. Falso
+3. B
+
+## Respuestas y explicaciones
+
+### Pregunta 1
+
+Respuesta correcta: B. Una cuenta de valores es una cuenta de inversión común y flexible.
+
+### Pregunta 2
+
+Respuesta correcta: Falso. Las cuentas de valores en general permiten retirar dinero en cualquier momento, a diferencia de las cuentas de jubilación.
+
+### Pregunta 3
+
+Respuesta correcta: B. Este es el equilibrio central entre los dos tipos de cuenta.
+
+## Puntos clave
+
+- Una cuenta de valores es una cuenta de inversión común sin reglas propias del retiro.
+- Ofrece plena flexibilidad, pero en general sin ventajas fiscales especiales.
+- Las cuentas de jubilación cambian algo de flexibilidad por beneficios fiscales reales.

@@ -5,44 +5,77 @@ officialTrackName: Paper Assets
 level: 1
 lessonNumber: 13
 locale: es-Caribbean
-title: "Índices del Mercado de Valores (S&P 500 y Otros)"
-summary: "*REGLA ESPECÍFICA DE LA REGIÓN:* Otros índices importantes rastrean diferentes mercados o segmentos (por ejemplo, diferentes países o tamaños de compañía) — cuál índice es más relevante depende de qué segmento de mercado le interesa a un inversionista."
-sourceVersion: "1.0"
+title: "¿Qué es la diversificación, en términos sencillos?"
+summary: "Aprende lo que hace y lo que no hace realmente la diversificación: reduce cierto riesgo, pero no elimina todo el riesgo."
+version: "1.0"
 author: Waldemar M. Caban, JD MA
 date: 2026-08-08
 ---
 
-# WHITE-L1-013: Índices del Mercado de Valores (S&P 500 y Otros)
+# ¿Qué es la diversificación, en términos sencillos?
 
-## Objetivos de Aprendizaje
-1. Definir un índice del mercado de valores.
-2. Explicar qué mide un índice como el S&P 500.
-3. Identificar por qué se usan los índices como puntos de referencia.
+## Objetivos de aprendizaje
 
-## Contenido Principal
-Un índice del mercado de valores rastrea el desempeño de un grupo específico de acciones, usado como punto de referencia para un segmento del mercado. *HECHO VERIFICADO:* El S&P 500, por ejemplo, rastrea 500 grandes compañías estadounidenses y se usa comúnmente como referencia para el desempeño general del mercado de valores de gran capitalización de EE. UU.
+Al final de esta lección, deberías poder:
 
-*REGLA ESPECÍFICA DE LA REGIÓN:* Otros índices importantes rastrean diferentes mercados o segmentos (por ejemplo, diferentes países o tamaños de compañía) — cuál índice es más relevante depende de qué segmento de mercado le interesa a un inversionista.
+- Definir la diversificación en términos sencillos.
+- Explicar qué tipo de riesgo reduce.
+- Explicar por qué no elimina todo el riesgo.
 
-## Ejemplo Práctico
-*EJEMPLO ILUSTRATIVO:* Un reporte de noticias financieras dice "el mercado subió 1.5% hoy," típicamente refiriéndose a un índice importante como el S&P 500 subiendo esa cantidad. Un inversionista que posee un fondo índice del S&P 500 vería el valor de su fondo moverse de manera similar, ya que el fondo está diseñado para seguir de cerca el desempeño de ese índice.
+## Contenido principal
 
-## Quiz Práctico
-1. ¿Qué es un índice del mercado de valores?
-2. ¿Qué rastrea el S&P 500?
-3. Verdadero/Falso: Todos los índices rastrean el mismo grupo de compañías.
-4. ¿Por qué se usan los índices como puntos de referencia?
+### Qué es la diversificación
 
-## Clave de Respuestas
-1. Una herramienta que rastrea el desempeño de un grupo específico de acciones   2. 500 grandes compañías estadounidenses   3. Falso   4. Proveen un punto de referencia para un segmento del mercado
+Diversificar significa repartir las inversiones entre varios activos distintos en vez de concentrarlo todo en uno solo: es la idea básica detrás de la estructura de "canasta" de los ETF y los fondos mutuos que vimos antes.
 
-## Respuestas y Explicaciones
-1. Esta es la función fundamental de un índice de mercado.
-2. Esta es la composición específica del S&P 500.
-3. Diferentes índices rastrean diferentes mercados, tamaños, o regiones.
-4. Los puntos de referencia le permiten a los inversionistas comparar el desempeño contra un segmento de mercado relevante.
+### Qué tipo de riesgo reduce
 
-## Puntos Clave para Recordar
-- Un índice de mercado rastrea un grupo definido de acciones como punto de referencia de desempeño.
-- El S&P 500 rastrea específicamente 500 grandes compañías estadounidenses.
-- Diferentes índices sirven como puntos de referencia para diferentes segmentos del mercado.
+La diversificación reduce específicamente el riesgo de concentración: el riesgo de que una sola inversión tenga un mal desempeño y arrastre todo el portafolio. Si una inversión entre muchas va mal, su impacto en el total es menor que si fuera la única.
+
+### Por qué no elimina todo el riesgo
+
+La diversificación no protege contra las caídas generales del mercado que afectan a muchas o a la mayoría de las inversiones a la vez, y no garantiza ganancias. Maneja un tipo específico de riesgo, no todos los riesgos posibles.
+
+## Ejemplo práctico
+
+*EJEMPLO ILUSTRATIVO:* Un inversionista que solo tiene acciones de una empresa pierde mucho si esa empresa va mal. Un inversionista con acciones repartidas en 50 empresas distintas se ve mucho menos afectado por el mal desempeño de cualquiera de ellas, aunque una caída general del mercado todavía podría afectar a las 50.
+
+## Prueba de práctica
+
+1. Diversificar significa:
+   A. Invertirlo todo en un solo activo
+   B. Repartir las inversiones entre varios activos distintos
+   C. Evitar todo riesgo de inversión
+   D. Garantizar ganancias
+2. Verdadero o falso: la diversificación elimina todo el riesgo de inversión.
+3. ¿Qué tipo específico de riesgo reduce principalmente la diversificación?
+   A. El riesgo de todo el mercado
+   B. El riesgo de concentración (depender demasiado de una sola inversión)
+   C. Exclusivamente el riesgo cambiario
+   D. Exclusivamente el riesgo de inflación
+
+## Clave de respuestas
+
+1. B
+2. Falso
+3. B
+
+## Respuestas y explicaciones
+
+### Pregunta 1
+
+Respuesta correcta: B. Diversificar significa repartir las inversiones entre varios activos.
+
+### Pregunta 2
+
+Respuesta correcta: Falso. Reduce cierto riesgo, pero no elimina todo el riesgo, sobre todo el de las caídas generales del mercado.
+
+### Pregunta 3
+
+Respuesta correcta: B. El riesgo de concentración es el riesgo específico que atiende la diversificación.
+
+## Puntos clave
+
+- Diversificar significa repartir las inversiones entre varios activos.
+- Reduce específicamente el riesgo de concentración.
+- No elimina todo el riesgo ni garantiza ganancias.

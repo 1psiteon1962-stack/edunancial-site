@@ -5,44 +5,77 @@ officialTrackName: Paper Assets
 level: 1
 lessonNumber: 35
 locale: es-Caribbean
-title: "Las Calificaciones de Bonos Explicadas"
-summary: "Las calificaciones pueden cambiar con el tiempo a medida que la salud financiera de un emisor mejora o se deteriora — una rebaja generalmente señala un riesgo percibido incrementado."
-sourceVersion: "1.0"
+title: "¿Qué es un fondo de emergencia y por qué va antes de invertir?"
+summary: "Aprende qué es un fondo de emergencia y por qué este curso lo trata como un paso previo antes de otras inversiones."
+version: "1.0"
 author: Waldemar M. Caban, JD MA
 date: 2026-08-08
 ---
 
-# WHITE-L1-035: Las Calificaciones de Bonos Explicadas
+# ¿Qué es un fondo de emergencia y por qué va antes de invertir?
 
-## Objetivos de Aprendizaje
-1. Definir una calificación de bono.
-2. Explicar la distinción general entre bonos de grado de inversión y de alto rendimiento.
-3. Identificar por qué las calificaciones pueden cambiar con el tiempo.
+## Objetivos de aprendizaje
 
-## Contenido Principal
-Las calificaciones de bonos son evaluaciones de agencias calificadoras de crédito sobre la capacidad de un emisor de pagar su deuda, expresadas mediante calificaciones de letras (como AAA hacia abajo a calificaciones más bajas). *HECHO VERIFICADO:* Los bonos calificados en los niveles más altos generalmente se llaman "grado de inversión," mientras que los bonos de calificación más baja a menudo se llaman "alto rendimiento" o bonos "basura," típicamente ofreciendo tasas de interés más altas para compensar el mayor riesgo de incumplimiento percibido.
+Al final de esta lección, deberías poder:
 
-Las calificaciones pueden cambiar con el tiempo a medida que la salud financiera de un emisor mejora o se deteriora — una rebaja generalmente señala un riesgo percibido incrementado.
+- Definir un fondo de emergencia en términos sencillos.
+- Explicar por qué en general se recomienda tenerlo antes de otras inversiones.
+- Explicar por qué debe estar en un lugar líquido y de bajo riesgo.
 
-## Ejemplo Práctico
-*EJEMPLO ILUSTRATIVO:* Un inversionista compara dos bonos: uno de grado de inversión al 4% de interés, uno de alto rendimiento (basura) al 9% de interés. La tasa más alta en el bono basura compensa por su mayor riesgo percibido de incumplimiento — el inversionista debe evaluar si ese rendimiento extra compensa adecuadamente el riesgo añadido de no ser pagado en su totalidad.
+## Contenido principal
 
-## Quiz Práctico
-1. ¿Qué evalúan las calificaciones de bonos?
-2. ¿Qué es generalmente cierto sobre los bonos de alto rendimiento comparados con los de grado de inversión?
-3. Verdadero/Falso: Las calificaciones de bonos nunca cambian una vez asignadas.
-4. ¿Qué señala generalmente una rebaja de calificación?
+### Qué es un fondo de emergencia
 
-## Clave de Respuestas
-1. La capacidad de un emisor de pagar su deuda   2. Típicamente ofrecen tasas de interés más altas debido al mayor riesgo percibido   3. Falso   4. Riesgo percibido incrementado
+Un fondo de emergencia es dinero que se aparta específicamente para cubrir gastos inesperados o una interrupción de los ingresos (perder el empleo, una reparación urgente, un gasto médico), no para invertir ni para gastos planificados.
 
-## Respuestas y Explicaciones
-1. Esta es la función fundamental de las calificaciones de bonos.
-2. Un mayor riesgo generalmente se compensa con un mayor rendimiento, una relación fundamental de riesgo-retorno.
-3. Las calificaciones pueden y de hecho cambian a medida que cambia la salud financiera del emisor.
-4. Las rebajas reflejan la reevaluación de la agencia calificadora sobre un riesgo incrementado.
+### Por qué en general va primero
 
-## Puntos Clave para Recordar
-- Las calificaciones de bonos evalúan la capacidad de un emisor de pagar su deuda.
-- Los bonos de grado de inversión llevan menor riesgo/rendimiento; los de alto rendimiento (basura) llevan mayor riesgo/rendimiento.
-- Las calificaciones pueden cambiar con el tiempo a medida que cambia la salud financiera del emisor.
+Sin un fondo de emergencia, un gasto inesperado podría obligar a alguien a vender inversiones en un mal momento (posiblemente con pérdida) o a endeudarse a intereses altos. Tener primero este colchón protege los otros planes financieros a más largo plazo de verse interrumpidos por emergencias de corto plazo.
+
+### Por qué debe estar en un lugar líquido
+
+En conexión con la lección sobre liquidez de antes en este nivel, un fondo de emergencia tiene que estar accesible rápido, sin penalidad ni riesgo de pérdida; por eso normalmente va en algo como una cuenta de ahorros o un fondo del mercado monetario, y no en acciones ni en un certificado de depósito con penalidades por retiro.
+
+## Ejemplo práctico
+
+*EJEMPLO ILUSTRATIVO:* Alguien que invierte todos sus ahorros en acciones, sin fondo de emergencia, podría verse obligado a vender esas acciones con pérdida durante una caída del mercado solo para cubrir una reparación inesperada del carro: justo la situación que un fondo de emergencia busca evitar.
+
+## Prueba de práctica
+
+1. Un fondo de emergencia es:
+   A. Dinero invertido para crecer a largo plazo
+   B. Dinero que se aparta específicamente para gastos inesperados o una interrupción de los ingresos
+   C. Un tipo de cuenta de retiro
+   D. Una póliza de seguro obligatoria
+2. Verdadero o falso: en general se recomienda invertir el fondo de emergencia en acciones para lograr el máximo crecimiento.
+3. ¿Por qué se recomienda tener un fondo de emergencia antes de otras inversiones?
+   A. No tiene ningún beneficio real
+   B. Evita tener que vender inversiones en un mal momento durante una emergencia
+   C. Garantiza ganancias en las inversiones
+   D. Reemplaza la necesidad de tener seguros
+
+## Clave de respuestas
+
+1. B
+2. Falso
+3. B
+
+## Respuestas y explicaciones
+
+### Pregunta 1
+
+Respuesta correcta: B. Un fondo de emergencia cubre gastos inesperados o una interrupción de los ingresos.
+
+### Pregunta 2
+
+Respuesta correcta: Falso. En general debe estar en un lugar líquido y de bajo riesgo, no en acciones.
+
+### Pregunta 3
+
+Respuesta correcta: B. Evita ventas forzadas de inversiones en mal momento durante las emergencias.
+
+## Puntos clave
+
+- Un fondo de emergencia cubre gastos inesperados, no inversiones planificadas.
+- En general va antes de otras inversiones, para proteger los planes a más largo plazo.
+- Debe estar en un lugar líquido y de bajo riesgo, accesible sin penalidad.
