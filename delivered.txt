@@ -129,3 +129,4 @@ out/PURPLE-L5-001-050-es-ES.zip 2026-11-22 PURPLE L5 Spain Spanish, 45 Spain not
 out/PURPLE-L5-001-050-fr-FR.zip 2026-11-22 PURPLE L5 France French, 45 France notes
 out/PURPLE-L5-001-050-pt-BR.zip 2026-11-22 PURPLE L5 pt-BR complete (50 lessons, Brazil local notes)
 out/PURPLE-L5-001-050-pt-PT.zip 2026-11-22 PURPLE L5 pt-PT complete (50 lessons, Portugal local notes)
+out/PURPLE-L5-001-050-it.zip 2026-11-22 PURPLE L5 it complete (50 lessons, Italy local notes)
