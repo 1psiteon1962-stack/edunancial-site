@@ -47,3 +47,153 @@ Se poutèt sa kèk kontribyab ki gen bon konesans finansye ajiste retni yo espre
 ---
 
 *Leson sa a se sèlman pou edikasyon finansye jeneral, e li pa konstitye konsèy finansye, envestisman, taks, oswa legal pèsonalize. Tout chif yo se estimasyon pou ilistrasyon, yo pa garanti. Konsilte yon pwofesyonèl taks ki gen lisans anvan ou ajiste chwa retni taks ou.*
+
+===== GREEN-L3-007
+TITLE: Poukisa dediksyon ak kredi taks se pa menm bagay
+SUMMARY: Aprann diferans fondamantal ant yon dediksyon taks ak yon kredi taks, ak poukisa yon kredi anjeneral gen plis valè dola pou dola.
+# GREEN-L3-007: Poukisa dediksyon ak kredi taks se pa menm bagay
+
+## Objektif aprantisaj
+Lè w fin fè leson sa a, w ap kapab:
+- Esplike diferans ant yon dediksyon taks ak yon kredi taks
+- Esplike poukisa yon kredi taks anjeneral gen plis valè pase yon dediksyon nan menm kantite dola
+- Kalkile vrè benefis taks yon dediksyon konpare ak yon kredi nan yon egzanp senp
+
+## Kontni prensipal
+
+Yon **dediksyon taks** diminye kantite revni ki sijè a taks (revni taksab) anvan yo aplike kalkil taks la. Yon **kredi taks** diminye vrè taks ou dwe a dirèkteman, dola pou dola, apre yo fin fè kalkil taks la deja.
+
+Men "poukisa" yon kredi anjeneral gen plis valè pase yon dediksyon nan menm kantite dola egzakteman: vrè valè yon dediksyon depann de to taks majinal kontribyab la (Leson 1) — yon dediksyon $1,000 diminye vrè taks ou dwe sèlman pa $1,000 miltipliye pa to majinal kontribyab la, pa pa tout $1,000 la. Yon kredi $1,000, okontrè, diminye taks ou dwe pa tout $1,000 la, kèlkeswa to majinal kontribyab la.
+
+[FÈ VERIFYE] Se poutèt sa, lè w ap evalye benefis taks, li enpòtan pou w fè diferans ak atansyon ant de yo — yon "avantaj taks $1,000" yo dekri yon fason vag ta ka vle di vrè ekonomi ki diferan anpil selon si yo òganize l kòm yon dediksyon oswa yon kredi, e kredi ak dediksyon espesifik gen pwòp règ kalifikasyon yo e, nan kèk ka, nivo kote yo kòmanse diminye (yon sijè yo kouvri nan yon leson pita) ki afekte plis toujou vrè valè yo pou yon kontribyab.
+
+## Egzanp pratik
+
+[EGZANP ILISTRATIF] Yon kontribyab nan yon tranch taks majinal 22% gen yon chwa (yon fason ipotetik) ant yon dediksyon $1,000 ak yon kredi $1,000. Dediksyon $1,000 la diminye revni taksab li pa $1,000, sa ki, nan to majinal 22% li a, diminye vrè taks li dwe pa $220 (22% sou $1,000). Kredi $1,000 la diminye vrè taks li dwe pa tout $1,000 la dirèkteman. [SIPOZISYON] Malgre yo dekri tou de kòm "avantaj taks $1,000", kredi a vo plis pase kat fwa plis nan vrè ekonomi taks pou kontribyab sa a, sa ki montre poukisa diferans ant de kalite benefis taks sa yo enpòtan anpil.
+
+## Egzamen pratik
+
+1. Ki diferans kle nan estrikti ki genyen ant yon dediksyon taks ak yon kredi taks?
+2. Poukisa yon kredi taks anjeneral gen plis valè pase yon dediksyon nan menm kantite dola?
+3. Nan egzanp pratik la, poukisa dediksyon $1,000 la te ekonomize sèlman $220 nan vrè taks?
+
+## Kle repons yo
+
+1. Yon dediksyon diminye revni taksab anvan yo aplike kalkil taks la; yon kredi diminye vrè taks ou dwe a dirèkteman, dola pou dola, apre kalkil la.
+2. Paske valè yon dediksyon depann de to taks majinal kontribyab la, li diminye vrè taks la sèlman pa yon fraksyon kantite dediksyon an, alòske yon kredi diminye taks ou dwe a pa tout kantite dola li, kèlkeswa to taks la.
+3. Paske dediksyon an te diminye revni taksab la pa $1,000, e nan to majinal 22% li a, diminisyon sa a nan revni taksab la te vin yon diminisyon $220 nan vrè taks li dwe, pa tout $1,000 la.
+
+## Repons ak eksplikasyon
+
+1. Sa a se diferans debaz tout leson an bati sou li.
+2. Sa a se "poukisa" santral ki esplike poukisa kredi yo anjeneral gen plis valè.
+3. Sa pase atravè kalkil espesifik la pou ranfòse diferans nan mekanis la.
+
+## Pwen kle yo
+- Yon dediksyon taks diminye revni taksab anvan yo kalkile taks la; yon kredi taks diminye vrè taks ou dwe a dirèkteman.
+- Yon kredi taks anjeneral gen plis valè pase yon dediksyon nan menm kantite dola, paske valè yon dediksyon depann de to majinal kontribyab la.
+- Konprann diferans sa a esansyèl pou evalye ak presizyon vrè valè nenpòt benefis taks espesifik.
+
+---
+
+*Leson sa a se sèlman pou edikasyon finansye jeneral, e li pa konstitye konsèy finansye, envestisman, taks, oswa legal pèsonalize. Tout chif yo se estimasyon pou ilistrasyon, yo pa garanti. Konsilte yon pwofesyonèl taks ki gen lisans pou konsèy ki espesifik pou sitiyasyon ou.*
+
+===== GREEN-L3-008
+TITLE: Poukisa dediksyon estanda a egziste kòm yon zouti pou senplifye
+SUMMARY: Aprann poukisa yon opsyon dediksyon estanda egziste, ak poukisa li diminye anpil chay kenbe dosye pou pifò kontribyab.
+# GREEN-L3-008: Poukisa dediksyon estanda a egziste kòm yon zouti pou senplifye
+
+## Objektif aprantisaj
+Lè w fin fè leson sa a, w ap kapab:
+- Esplike kisa dediksyon estanda a ye
+- Esplike poukisa li fonksyone kòm yon zouti pou senplifye pou pifò kontribyab
+- Esplike chwa debaz yon kontribyab fè fas ant dediksyon estanda a ak detaye dediksyon yo
+
+## Kontni prensipal
+
+**Dediksyon estanda a** se yon kantite dola fiks kontribyab yo ka retire sou revni yo (dapre konsèp dediksyon Leson 7 la) san yo pa bezwen dokimante oswa detaye okenn depans espesifik, ak kantite a ki anjeneral varye selon sitiyasyon deklarasyon an. [FÈ VERIFYE] Lalwa sou taks fikse kantite espesifik dediksyon estanda a, yo ajiste l detanzantan (souvan pou enflasyon), e li varye selon jiridiksyon — yo ta dwe verifye chif aktyèl yo dirèkteman olye yo sipoze yo.
+
+Men "poukisa" sa egziste kòm yon zouti pou senplifye: san yon opsyon dediksyon estanda, chak kontribyab ki vle okenn dediksyon ditou ta bezwen swiv, dokimante, e jistifye youn pa youn depans espesifik ki ka dedui (enterè ipotèk, don charitab, kèk depans medikal, ak lòt) — yon gwo chay pou kenbe dosye. Dediksyon estanda a ofri yon altènativ ki senp: yon kantite dediksyon ki garanti, ki pa mande okenn dokiman ditou, ki disponib pou nenpòt kontribyab ki kalifye kèlkeswa vrè depans li ta ka detaye.
+
+Sa kreye chwa debaz yo kouvri plis an pwofondè nan pwochen leson an: yon kontribyab ka swa pran dediksyon estanda ki senp lan, swa **detaye** dediksyon yo — dokimante e mete ansanm youn pa youn depans espesifik ki ka dedui — sa ki bay pi gwo dediksyon total pou sitiyasyon espesifik li.
+
+## Egzanp pratik
+
+[EGZANP ILISTRATIF] Yon kontribyab ki gen relativman ti depans li ka detaye — pa gen ipotèk, ti don charitab, pa gen gwo depans medikal — ta bezwen pase anpil tan pou l dokimante e mete ansanm ti depans sa yo youn pa youn si li te vle okenn dediksyon pi lwen pase sa ki debaz. Si li pran dediksyon estanda a pito, sa ba l yon kantite dediksyon ki garanti, ki gen sans, san okenn dokiman, paske vrè depans li ta ka detaye yo pa t ap gen chans depase kantite estanda sa a kanmenm. [SIPOZISYON] Pou kontribyab espesifik sa a, opsyon dediksyon estanda a fè l ekonomize anpil tan ak konpleksite san l pa koute l okenn vrè benefis taks, paske vrè depans li ta ka detaye yo pa t ap gen chans rive plis pase kantite estanda a kèlkeswa sa.
+
+## Egzamen pratik
+
+1. Kisa dediksyon estanda a ye?
+2. Poukisa dediksyon estanda a fonksyone kòm yon zouti pou senplifye?
+3. Ki chwa debaz yon kontribyab fè fas konsènan dediksyon yo?
+
+## Kle repons yo
+
+1. Yon kantite dola fiks kontribyab yo ka retire sou revni yo san yo pa bezwen dokimante oswa detaye depans espesifik, ki varye selon sitiyasyon deklarasyon an.
+2. Paske li elimine gwo chay pou swiv e dokimante youn pa youn depans espesifik ki ka dedui, li ofri yon dediksyon ki garanti ki pa mande okenn dokiman.
+3. Si pou l pran dediksyon estanda ki senp lan oswa detaye youn pa youn depans espesifik ki ka dedui, li chwazi sa ki bay pi gwo dediksyon total.
+
+## Repons ak eksplikasyon
+
+1. Sa a se definisyon debaz leson an.
+2. Sa a se "poukisa" santral ki esplike objektif dediksyon estanda a.
+3. Sa prepare konparezon ki pi detaye yo kouvri nan pwochen leson an.
+
+## Pwen kle yo
+- Dediksyon estanda a se yon kantite dediksyon fiks, san dokiman, ki disponib pou kontribyab ki kalifye.
+- Li egziste pou senplifye anpil deklarasyon taks pou kontribyab ki gen vrè depans yo ka detaye ki relativman piti.
+- Kontribyab yo chwazi ant dediksyon estanda a ak detaye dediksyon yo, yo pran sa ki bay pi gwo dediksyon total.
+
+---
+
+*Leson sa a se sèlman pou edikasyon finansye jeneral, e li pa konstitye konsèy finansye, envestisman, taks, oswa legal pèsonalize. Kantite dediksyon estanda yo varye selon jiridiksyon e yo chanje ak tan; konsilte yon pwofesyonèl taks ki gen lisans pou konsèy ki espesifik pou sitiyasyon ou.*
+
+===== GREEN-L3-009
+TITLE: Poukisa detaye dediksyon yo fè sans sèlman anwo yon sèten nivo
+SUMMARY: Aprann poukisa detaye dediksyon yo vo efò ak dokiman anplis la sèlman depi total depans ou ka detaye yo depase kantite dediksyon estanda a.
+# GREEN-L3-009: Poukisa detaye dediksyon yo fè sans sèlman anwo yon sèten nivo
+
+## Objektif aprantisaj
+Lè w fin fè leson sa a, w ap kapab:
+- Esplike règ desizyon pou chwazi detaye dediksyon yo olye pran dediksyon estanda a
+- Esplike poukisa detaye anba nivo dediksyon estanda a pa bay okenn lòt benefis
+- Bay egzanp depans komen yo ka detaye
+
+## Kontni prensipal
+
+Leson 8 te prezante chwa debaz ant dediksyon estanda a ak detaye dediksyon yo. Men "poukisa" espesifik ki dèyè desizyon sa a: **detaye dediksyon yo** fè sans finansyèman sèlman si total depans espesifik, ki dokimante, yon kontribyab ka dedui depase kantite dediksyon estanda li ta gen dwa otreman — paske objektif la, nan tou de ka yo, se tou senpleman maksimize dediksyon total yo reklame a.
+
+[FÈ VERIFYE] Depans komen yo ka detaye ka gen ladan yo enterè ipotèk, kèk taks eta ak lokal (souvan sijè a limit espesifik), kontribisyon charitab, ak kèk depans medikal ki depase yon nivo espesifik konpare ak revni — lalwa sou taks fikse règ egzak yo, limit yo, ak kategori ki kalifye yo, e yo varye selon jiridiksyon e yo chanje ak tan.
+
+Si total depans yon kontribyab ka detaye yo pa rive nan kantite dediksyon estanda a, detaye pa bay okenn lòt benefis taks ditou — li ajoute sèlman chay dokiman san l pa ogmante dediksyon total la. Se egzakteman poukisa yon kontribyab ta dwe anjeneral konpare vrè total depans li ka detaye yo ak kantite dediksyon estanda a chak ane, olye l sipoze youn nan opsyon yo aplike otomatikman.
+
+## Egzanp pratik
+
+[EGZANP ILISTRATIF] Yon kontribyab ki gen yon ipotèk, kontribisyon charitab ki gen sans, ak lòt depans li ka detaye mete depans li ka dedui yo ansanm e li jwenn yo rive nan yon kantite ki depase klèman dediksyon estanda ki disponib pou li a. Nan ka sa a, detaye bay yon pi gwo dediksyon total, ki vo efò dokiman anplis la. [SIPOZISYON] Yon lòt kontribyab ki pa gen ipotèk e ki bay sèlman ti don charitab ta ka jwenn depans li ka detaye yo rete byen lwen kantite dediksyon estanda a — pou li, detaye pa t ap bay okenn lòt benefis ditou, paske dediksyon estanda a poukont li deja depase sa li ta ka dokimante lè l detaye.
+
+## Egzamen pratik
+
+1. Ki règ desizyon debaz pou chwazi detaye dediksyon yo olye pran dediksyon estanda a?
+2. Kisa ki rive si total depans yon kontribyab ka detaye yo pa rive nan kantite dediksyon estanda a?
+3. Nonmen de kalite depans komen yo ka detaye leson sa a mansyone.
+
+## Kle repons yo
+
+1. Detaye sèlman si total depans espesifik, ki dokimante, ou ka dedui yo depase kantite dediksyon estanda ki disponib otreman an.
+2. Detaye pa bay okenn lòt benefis taks ditou — li ajoute sèlman chay dokiman san l pa ogmante dediksyon total yo reklame a.
+3. Nenpòt de nan: enterè ipotèk, kèk taks eta ak lokal, kontribisyon charitab, kèk depans medikal ki depase yon nivo espesifik.
+
+## Repons ak eksplikasyon
+
+1. Sa a se règ desizyon santral leson an bati sou li.
+2. Sa ranfòse konsekans pratik lè w detaye anba nivo ki enpòtan an.
+3. Sa mare konsèp abstrè a ak kategori depans konkrè moun ka rekonèt.
+
+## Pwen kle yo
+- Detaye bay yon lòt benefis taks sèlman si total depans dokimante ou ka dedui yo depase kantite dediksyon estanda a.
+- Si w pa rive nan nivo sa a, detaye ajoute chay dokiman san okenn lòt benefis taks.
+- Depans komen yo ka detaye gen ladan yo enterè ipotèk, kèk taks, kontribisyon charitab, ak kèk depans medikal, ak règ espesifik ki varye selon jiridiksyon.
+
+---
+
+*Leson sa a se sèlman pou edikasyon finansye jeneral, e li pa konstitye konsèy finansye, envestisman, taks, oswa legal pèsonalize. Règ ak limit dediksyon yo varye selon jiridiksyon e yo chanje ak tan; konsilte yon pwofesyonèl taks ki gen lisans pou konsèy ki espesifik pou sitiyasyon ou.*
