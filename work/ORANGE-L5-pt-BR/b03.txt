@@ -1,0 +1,486 @@
+===== ORANGE-L5-011
+TITLE: Marketing na inflação: aumentar preços sem perder a confiança
+SUMMARY: A inflação obriga a escolher entre margem e retenção de clientes; use aumentos direcionados, linhas de preço e valor agregado, comunique cedo e com honestidade evitando mudanças escondidas, e proteja as margens para proteger o financiamento.
+KEYWORDS: aumento de preços na inflação, comunicação de reajuste, estratégia de marketing na inflação, proteção das margens
+# Marketing na inflação: aumentar preços sem perder a confiança
+
+## Cenário de abertura
+SUPOSIÇÃO/OPINIÃO (cenário hipotético apenas para fins didáticos): Imagine um banco central que eleva a sua taxa básica de juros de forma forte e repetida ao longo de poucos meses para combater a inflação em alta.
+Aplique aqui: A inflação está alta, e um banco central continua subindo os juros. Os custos de uma empresa subiram 15%. Pergunte em todas as cores: Quanto os preços devem subir e como o aumento deve ser explicado (LARANJA)? O que os contratos atuais com clientes permitem (ROXO)? O que acontece com o fluxo de caixa e as cláusulas dos empréstimos se as margens encolherem (AZUL)? Como a inflação muda o valor real do dinheiro que a empresa guarda (BRANCO)?
+
+## Objetivos de aprendizagem
+- Decidir como e quando aumentar preços durante a inflação
+- Comunicar aumentos de preço de formas que protejam a confiança
+- Coordenar os preços com contratos, fluxo de caixa e financiamento
+
+## Conteúdo principal
+A inflação força uma escolha difícil. Se uma empresa não aumenta os preços, os custos crescentes encolhem as margens. Se aumenta mal, os clientes podem ir embora. O marketing do nível 5 lida com isso coordenando preços, comunicação, contratos e finanças.
+Abordagens de preço durante a inflação:
+- Aumentos gerais: Simples, mas podem atingir com força os clientes sensíveis a preço.
+- Aumentos direcionados: Aumentar mais os preços dos produtos em que os clientes são menos sensíveis a preço.
+- Linhas de preço: Acrescentar uma opção mais barata para que clientes sensíveis a preço possam trocar por ela em vez de ir embora.
+- Aumentos menores e mais frequentes ou um aumento grande: Cada um tem trocas na percepção dos clientes.
+- Agregar valor: Combinar os aumentos com melhor atendimento, novos recursos ou garantias.
+Princípios de comunicação:
+- Avise com antecedência.
+- Explique com honestidade (custos maiores de materiais, mão de obra ou energia).
+- Destaque o valor que os clientes continuam recebendo.
+- Evite táticas enganosas, como reduzir discretamente o tamanho das embalagens sem informar, o que pode gerar problemas jurídicos e de confiança. REGRA ESPECÍFICA DA REGIÃO; no Brasil, por exemplo, segundo as informações disponíveis, o Código de Defesa do Consumidor proíbe a publicidade enganosa, e uma norma federal exige que o fornecedor informe com destaque na embalagem quando reduz a quantidade do produto, portanto confirme com um advogado.
+Como as cores se conectam:
+- ROXO: Os contratos existentes podem travar os preços. Cláusulas de reajuste de preço (ROXO-L5-039 na trilha jurídica) ajudam nos contratos futuros.
+- AZUL: Margens menores podem violar cláusulas de empréstimos que exigem certos níveis de lucro. Proteger a margem protege o financiamento.
+- BRANCO: A inflação reduz o valor real do dinheiro em caixa. Receber mais rápido e manter menos dinheiro parado pode ajudar.
+- VERDE: Preços nominais mais altos podem aumentar a conta de impostos mesmo que o lucro real não tenha crescido. REGRA ESPECÍFICA DA REGIÃO.
+- PRETO: Os líderes precisam decidir quanto de margem sacrificar para manter os clientes.
+SUPOSIÇÃO/OPINIÃO: Os clientes em geral entendem a inflação. O que prejudica a confiança são as surpresas, as mudanças escondidas ou os aumentos que parecem muito maiores do que os custos por trás deles.
+
+## Exemplo prático
+EXEMPLO ILUSTRATIVO: Nora tem uma distribuidora de produtos de limpeza. Os custos subiram 15%. As margens caíram de 25% para 14%. O empréstimo bancário dela exige um índice mínimo de lucro que ela está perto de violar.
+O plano dela:
+- Contratos (ROXO): 30% dos clientes têm contratos de preço fixo que vencem em até 6 meses. Os novos contratos terão uma cláusula de reajuste ligada a um índice de custos.
+- Preços (LARANJA): Um aumento médio de 10%, maior nos produtos especiais, em que os clientes são menos sensíveis a preço, e menor nos itens básicos, em que a concorrência é forte.
+- Linhas de preço: Ela acrescenta uma linha econômica de produtos básicos a preços menores.
+- Comunicação: Os clientes recebem um aviso com 45 dias de antecedência, com uma carta explicando os aumentos de custo e listando formas de economizar, incluindo a linha econômica e as compras em volume.
+- Finanças (AZUL): Ela mostra ao banco o plano de preços e as margens projetadas, e o banco concorda em não antecipar o vencimento do empréstimo enquanto o plano faz efeito.
+Resultados: As margens se recuperam para 21%. Alguns clientes passam para a linha econômica; pouquíssimos vão embora. SUPOSIÇÃO/OPINIÃO: Nora protegeu as margens, os clientes e o financiamento coordenando os quatro em vez de simplesmente aumentar os preços.
+
+## Teste de prática
+**Q1. O que acontece com uma empresa que não aumenta os preços durante a inflação?**
+A) Os custos crescentes encolhem as margens
+B) As margens crescem
+C) Os impostos caem
+D) Os clientes pagam mais automaticamente
+**Q2. Qual é o objetivo de uma linha de preços durante a inflação?**
+A) Confundir os clientes
+B) Evitar contratos
+C) Aumentar todos os preços
+D) Permitir que clientes sensíveis a preço troquem por uma opção mais barata em vez de ir embora
+**Q3. Por que margens menores podem ameaçar o financiamento?**
+A) Os bancos não gostam de inflação
+B) Cancela os empréstimos
+C) Aumenta os juros automaticamente
+D) As cláusulas dos empréstimos podem exigir níveis mínimos de lucro
+**Q4. Que princípio de comunicação a lição recomenda?**
+A) Aumentar os preços sem aviso
+B) Culpar os concorrentes
+C) Esconder aumentos em embalagens menores
+D) Avisar com antecedência e explicar com honestidade
+**Q5. Segundo a lição, o que mais prejudica a confiança?**
+A) Qualquer aumento de preço
+B) Surpresas, mudanças escondidas ou aumentos muito maiores do que os custos
+C) Avisos com antecedência
+D) Oferecer alternativas
+
+## Gabarito
+Q1: A
+Q2: D
+Q3: D
+Q4: D
+Q5: B
+
+## Respostas e explicações
+**Q1.** Os custos sobem enquanto os preços ficam parados.
+**Q2.** Opções mais baratas mantêm os clientes.
+**Q3.** A violação de cláusulas pode levar o credor a agir.
+**Q4.** Honestidade e aviso protegem a confiança.
+**Q5.** Os clientes aceitam com mais facilidade aumentos honestos.
+
+## Pontos-chave
+- A inflação obriga a escolher entre margem e retenção de clientes
+- Use aumentos direcionados, linhas de preço e valor agregado
+- Comunique cedo e com honestidade; evite mudanças escondidas
+- Proteja as margens para proteger o financiamento
+
+===== ORANGE-L5-012
+TITLE: Marketing na recessão: cortar gastos ou investir?
+SUMMARY: As decisões de marketing na recessão dependem da força financeira; manter o marketing pode ganhar participação, mas só se a empresa sobreviver, os gastos devem migrar para canais mensuráveis, retenção e valor, e as reservas devem ser formadas nos tempos bons para ter opções nos tempos ruins.
+KEYWORDS: estratégia de marketing na recessão, marketing na crise, corte do orçamento de marketing, marketing anticíclico, participação de mercado na recessão
+# Marketing na recessão: cortar gastos ou investir?
+
+## Cenário de abertura
+SUPOSIÇÃO/OPINIÃO (cenário hipotético apenas para fins didáticos): Imagine os mercados imobiliário e de crédito ao consumidor de um país populoso que, depois de anos de expansão rápida, começam a mostrar sinais de uma correção forte à medida que a inadimplência aumenta.
+Aplique aqui: Uma correção do crédito empurra a economia para a recessão. Os concorrentes cortam fortemente os orçamentos de marketing. Pergunte em todas as cores: A empresa tem caixa suficiente (AZUL) para continuar fazendo marketing? Ela poderia ganhar participação de mercado a baixo custo enquanto os outros recuam (LARANJA)? O que a liderança (PRETO) acredita sobre quanto tempo a crise vai durar? Como as diferentes escolhas afetariam o valor da empresa (BRANCO)?
+
+## Objetivos de aprendizagem
+- Comparar cortar e manter o marketing em uma crise
+- Relacionar o marketing na recessão às reservas de caixa e à tolerância ao risco
+- Ajustar mensagens e canais de marketing às condições de recessão
+
+## Conteúdo principal
+Em uma recessão, cortar o marketing costuma ser o primeiro movimento das empresas. É rápido e parece indolor. Mas a decisão tem trocas.
+Argumentos para cortar:
+- Preservar caixa para sobreviver.
+- Os clientes estão comprando menos, então o marketing pode trazer retornos menores.
+- Proteger a lucratividade para atender aos credores.
+Argumentos para manter ou investir:
+- Quando os concorrentes cortam, os custos de publicidade podem cair e a sua mensagem enfrenta menos concorrência.
+- Os clientes continuam comprando o essencial e lembram das marcas que continuaram visíveis.
+- A participação de mercado conquistada em uma crise pode durar na recuperação.
+SUPOSIÇÃO/OPINIÃO: Alguns estudos e muitos profissionais sugerem que as empresas que mantêm o marketing nas crises podem ganhar participação. Mas isso só funciona para empresas com força financeira suficiente para sobreviver. Uma empresa que gasta até ficar insolvente não ganha nada.
+Como as cores se conectam:
+- AZUL: As reservas de caixa e o acesso ao crédito decidem quanto risco a empresa pode assumir.
+- PRETO: A liderança precisa estimar quanto tempo a crise vai durar e definir limites claros de gastos.
+- BRANCO: Empresas que saem de uma recessão com mais participação de mercado podem valer mais.
+- ROXO: Contratos com agências de publicidade e veículos de mídia podem limitar a rapidez com que os gastos podem ser cortados.
+- VERDE: REGRA ESPECÍFICA DA REGIÃO: As despesas de marketing muitas vezes são dedutíveis, o que reduz o seu custo líquido se a empresa continuar lucrativa; no Brasil, por exemplo, segundo as informações disponíveis, as despesas de propaganda necessárias à atividade são em geral dedutíveis no lucro real, e os prejuízos fiscais de anos anteriores só podem ser compensados até 30% do lucro de cada ano, portanto confirme com um contador.
+Um marketing inteligente na recessão muitas vezes significa redirecionar, e não só cortar:
+- Levar os gastos para canais com retorno mensurável.
+- Focar em reter os clientes atuais (mais barato do que conquistar novos).
+- Ajustar as mensagens para valor, confiabilidade e benefícios práticos.
+- Oferecer opções flexíveis, como embalagens menores ou parcelamentos.
+SUPOSIÇÃO/OPINIÃO: As melhores decisões de marketing para a recessão são tomadas antes da recessão. Empresas com reservas de caixa e planos claros têm opções que as outras não têm.
+
+## Exemplo prático
+EXEMPLO ILUSTRATIVO: Duas empresas de reparos residenciais enfrentam uma recessão.
+A Empresa A tem 6 meses de reservas de caixa e nenhuma dívida. A Empresa B tem 1 mês de reservas e um empréstimo grande.
+O plano da Empresa A:
+- Mantém 80% do orçamento de marketing, mas o redireciona: menos publicidade institucional e mais anúncios on-line direcionados com resultados mensuráveis.
+- As mensagens focam em "conserte, não troque", ajudando os clientes a economizar.
+- Oferece parcelamento por meio de um parceiro autorizado (veja ORANGE-L5-001).
+- Define uma regra: se as reservas de caixa caírem abaixo de 3 meses, o marketing será cortado ainda mais.
+O plano da Empresa B:
+- Corta o marketing em 70% para proteger o caixa e cumprir as exigências do empréstimo.
+- Foca nos clientes atuais com e-mails de baixo custo e programas de indicação.
+Durante a recessão, os custos de publicidade caem porque os concorrentes recuam. A Empresa A conquista clientes a um custo menor. A Empresa B sobrevive, mas perde alguma participação de mercado.
+SUPOSIÇÃO/OPINIÃO: As duas empresas fizeram escolhas razoáveis dadas as suas posições financeiras. As reservas de caixa da Empresa A, formadas nos tempos bons, deram a ela a opção de investir quando as outras não podiam.
+
+## Teste de prática
+**Q1. Por que as empresas costumam cortar o marketing primeiro em uma recessão?**
+A) É ilegal continuar gastando
+B) É rápido e parece indolor
+C) Os clientes exigem
+D) Aumenta os lucros para sempre
+**Q2. Que oportunidade pode surgir quando os concorrentes cortam o marketing?**
+A) Custos maiores
+B) Menos clientes no total
+C) Custos de publicidade menores e menos concorrência pela atenção
+D) Impostos maiores
+**Q3. O que limita a estratégia de manter o marketing em uma crise?**
+A) A empresa precisa ter força financeira suficiente para sobreviver
+B) Nada
+C) Regras do governo
+D) Reclamações dos clientes
+**Q4. O que significa "redirecionar, e não só cortar"?**
+A) Mudar de escritório
+B) Demitir todo o pessoal de marketing
+C) Levar os gastos para canais mensuráveis, retenção e mensagens de valor
+D) Dobrar os gastos
+**Q5. Por que a Empresa A tinha mais opções do que a Empresa B?**
+A) Mais sorte
+B) Tinha mais funcionários
+C) Tinha reservas de caixa e nenhuma dívida
+D) Era mais antiga
+
+## Gabarito
+Q1: B
+Q2: C
+Q3: A
+Q4: C
+Q5: C
+
+## Respostas e explicações
+**Q1.** O marketing é uma despesa fácil de cortar rapidamente.
+**Q2.** Menos concorrência pode tornar o marketing mais eficiente.
+**Q3.** Gastar até a insolvência não ganha nada.
+**Q4.** Ajustes inteligentes podem melhorar os retornos.
+**Q5.** As reservas formadas nos tempos bons criaram flexibilidade.
+
+## Pontos-chave
+- As decisões de marketing na recessão dependem da força financeira
+- Manter o marketing pode ganhar participação, mas só se a empresa sobreviver
+- Redirecione os gastos para canais mensuráveis, retenção e valor
+- Forme reservas nos tempos bons para ter opções nos tempos ruins
+
+===== ORANGE-L5-013
+TITLE: Comunicar durante um choque de oferta
+SUMMARY: Comunique cedo, com honestidade, de forma específica e frequente; as escolhas de alocação transmitem mensagens sobre os valores da empresa, as regras de aviso dos contratos, incluindo as de força maior, devem ser seguidas, e os clientes lembram como você os tratou na crise.
+KEYWORDS: comunicação em choque de oferta, interrupção da cadeia de suprimentos e clientes, comunicação de atrasos na entrega, confiança do cliente na crise
+# Comunicar durante um choque de oferta
+
+## Cenário de abertura
+SUPOSIÇÃO/OPINIÃO (cenário hipotético apenas para fins didáticos): Imagine uma ampla perturbação de saúde pública que paralisa o transporte marítimo e a produção no mundo por um longo período, travando ao mesmo tempo as cadeias de suprimentos de muitos setores.
+Aplique aqui: Uma ampla perturbação paralisa o transporte, e uma empresa não consegue atender os pedidos no prazo. Pergunte em todas as cores: O que os clientes devem saber e quando (LARANJA)? O que os contratos prometem sobre a entrega (ROXO)? O estoque limitado deve ir para os clientes mais lucrativos ou para os mais fiéis (AZUL/PRETO)? Os preços devem mudar?
+
+## Objetivos de aprendizagem
+- Comunicar cedo e com honestidade durante interrupções de oferta
+- Coordenar as mensagens com as obrigações contratuais
+- Tomar decisões justas de alocação e preço em situação de escassez
+
+## Conteúdo principal
+Quando a oferta é interrompida, os clientes vivem isso como promessas quebradas: entregas atrasadas, produtos em falta ou mudanças repentinas de preço. A forma como a empresa se comunica pode decidir se os clientes continuam fiéis ou vão embora para sempre.
+Princípios de comunicação:
+- Cedo: Avise os clientes assim que souber de um problema, e não quando eles descobrirem.
+- Com honestidade: Explique o que aconteceu, o que você sabe e o que não sabe.
+- De forma específica: Dê prazos realistas, mesmo que sejam faixas.
+- Com frequência: Atualize regularmente, mesmo quando não houver novidades.
+- Com opções: Ofereça alternativas, como produtos substitutos, entregas parciais ou reembolsos.
+Alocação em situação de escassez: Quando não há produto suficiente para todos, as empresas precisam decidir quem recebe o quê. As opções incluem:
+- Por ordem de chegada.
+- Prioridade para clientes antigos ou com contrato.
+- Alocação proporcional (cada cliente recebe a mesma porcentagem do seu pedido).
+- Prioridade para usos essenciais.
+Cada escolha transmite uma mensagem sobre os valores da empresa.
+Como as cores se conectam:
+- ROXO: Os contratos podem exigir a entrega até certas datas. As cláusulas de força maior (ROXO-L5-039 na trilha jurídica) podem justificar atrasos se o evento estiver coberto e as regras de aviso forem seguidas. Os prazos de aviso importam.
+- AZUL: O estoque, o fluxo de caixa e as relações com fornecedores determinam o que pode ser entregue.
+- LARANJA: Os preços durante a escassez exigem cuidado. Aumentos grandes em emergências podem ser restritos em alguns lugares e podem prejudicar a confiança. REGRA ESPECÍFICA DA REGIÃO; no Brasil, por exemplo, segundo as informações disponíveis, o Código de Defesa do Consumidor considera prática abusiva elevar sem justa causa o preço de produtos ou serviços, e os Procons podem fiscalizar aumentos em situações de emergência, portanto confirme com um advogado.
+- PRETO: A liderança decide os princípios de alocação e os comunica de forma consistente.
+SUPOSIÇÃO/OPINIÃO: Os clientes muitas vezes lembram como uma empresa os tratou durante uma crise muito depois de esquecerem a própria crise.
+
+## Exemplo prático
+EXEMPLO ILUSTRATIVO: A empresa de Hugo fornece embalagens para produtores de alimentos. Uma interrupção no transporte corta o fornecimento dele em 40% por três meses.
+A resposta dele:
+- Dia 1: Envia aos clientes uma mensagem clara: "Esperamos uma falta de 40% no fornecimento por cerca de 3 meses. Eis o que sabemos, o que estamos fazendo e o que esperar."
+- Contratos (ROXO): O advogado confirma que a interrupção está coberta pela cláusula de força maior na maioria dos contratos e ajuda a enviar os avisos exigidos dentro do prazo.
+- Alocação: Hugo distribui o fornecimento de forma proporcional, para que cada cliente receba 60% do pedido habitual. Os clientes que produzem alimentos essenciais têm prioridade sobre uma pequena reserva.
+- Opções: Ele oferece embalagens substitutas de um segundo fornecedor com um pequeno aumento de preço, explicado com clareza.
+- Atualizações: E-mails semanais com novas informações.
+- Preços: Ele repassa apenas os custos extras reais dos materiais substitutos, sem um adicional de crise.
+Depois da interrupção, a maioria dos clientes fica. Vários elogiam a comunicação dele. Um concorrente que ficou em silêncio e aumentou muito os preços perde várias contas para Hugo.
+SUPOSIÇÃO/OPINIÃO: Hugo não podia evitar a interrupção. Ele podia controlar como tratava os clientes durante ela.
+
+## Teste de prática
+**Q1. Por que as empresas devem se comunicar cedo durante uma interrupção de oferta?**
+A) Para evitar avisos legais
+B) Aumenta os preços
+C) Os clientes devem saber dos problemas antes de descobri-los
+D) Só é exigido por lei
+**Q2. O que é alocação proporcional?**
+A) Cada cliente recebe a mesma porcentagem do seu pedido
+B) Atender só os maiores clientes
+C) Por ordem de chegada
+D) Distribuição aleatória
+**Q3. Por que os prazos de aviso de força maior importam?**
+A) Reduzem os preços
+B) Prorrogam os contratos
+C) São opcionais
+D) Perdê-los pode tirar a proteção que a cláusula oferece
+**Q4. Por que Hugo evitou um adicional de preço de crise?**
+A) Aumentos grandes em emergências podem prejudicar a confiança e podem ser restritos
+B) Era ilegal em todo lugar
+C) Ele não tinha custos
+D) Os clientes exigiam produtos grátis
+**Q5. Segundo a lição, o que os clientes lembram depois de uma crise?**
+A) Como a empresa os tratou durante ela
+B) Só a crise
+C) Nada
+D) Só os preços
+
+## Gabarito
+Q1: C
+Q2: A
+Q3: D
+Q4: A
+Q5: A
+
+## Respostas e explicações
+**Q1.** A comunicação antecipada gera confiança.
+**Q2.** A alocação proporcional distribui a falta de forma equilibrada.
+**Q3.** As exigências de aviso precisam ser seguidas.
+**Q4.** Preços justos preservaram as relações. REGRA ESPECÍFICA DA REGIÃO.
+**Q5.** O comportamento na crise molda a lealdade a longo prazo.
+
+## Pontos-chave
+- Comunique cedo, com honestidade, de forma específica e frequente
+- As escolhas de alocação transmitem mensagens sobre os valores da empresa
+- Siga as regras de aviso dos contratos, incluindo as de força maior
+- Os clientes lembram como você os tratou em uma crise
+
+===== ORANGE-L5-014
+TITLE: Entrada em mercados internacionais: traduzir não é localizar
+SUMMARY: Traduzir não é localizar, e idioma não é jurisdição; localize produto, preço, mensagens, canais e conformidade, lembre que as obrigações jurídicas e tributárias podem começar na primeira venda, e use conhecimento e parceiros locais para melhorar a entrada no mercado.
+KEYWORDS: entrada em mercados internacionais, localização ou tradução, estratégia de marketing global, entrada em mercados estrangeiros
+# Entrada em mercados internacionais: traduzir não é localizar
+
+## Cenário de abertura
+SUPOSIÇÃO/OPINIÃO (cenário hipotético apenas para fins didáticos): Imagine um grande bloco comercial que de repente impõe tarifas elevadas sobre uma ampla categoria de produtos manufaturados importados, aumentando os custos das empresas que dependem dessas importações como insumos.
+Aplique aqui: Novas tarifas deixam o mercado de origem de uma empresa menos atraente, então ela planeja entrar em um novo país. Pergunte em todas as cores: Basta traduzir o site (LARANJA) ou produtos, preços e mensagens precisam mudar? Que registros e etapas de conformidade jurídica são necessários (ROXO)? Que obrigações tributárias surgem (VERDE)? Quanto a entrada vai custar antes de a receita chegar (AZUL)?
+
+## Objetivos de aprendizagem
+- Distinguir tradução de localização
+- Identificar os elementos de um plano de entrada em um mercado
+- Coordenar a preparação jurídica, tributária e financeira para a entrada
+
+## Conteúdo principal
+O protocolo de tradução do currículo afirma um princípio que se aplica diretamente ao marketing: traduzir não é localizar, e idioma não é jurisdição.
+- A tradução converte palavras de um idioma para outro.
+- A localização adapta toda a oferta a um mercado: recursos do produto, preços, meios de pagamento, referências culturais, exemplos, unidades de medida, exigências legais e expectativas dos clientes.
+Dois países podem ter o mesmo idioma, mas leis, moeda, cultura e hábitos de compra diferentes. Um país pode ter vários idiomas.
+Elementos de um plano de entrada em um mercado:
+1. Pesquisa de mercado: Necessidades dos clientes, concorrentes, níveis de preço e poder de compra.
+2. Adaptação do produto: Recursos, tamanhos, embalagens e normas técnicas.
+3. Preços: Poder de compra local, preços dos concorrentes, moeda, impostos e custos de frete.
+4. Mensagens: Exemplos, imagens e tom culturalmente adequados.
+5. Canais: Como os clientes daquele mercado preferem comprar.
+6. Jurídico: Registro da empresa, conformidade dos produtos, proteção da marca (ROXO-L5-029 na trilha jurídica), defesa do consumidor e privacidade de dados. REGRA ESPECÍFICA DA REGIÃO; no Brasil, por exemplo, segundo as informações disponíveis, uma empresa estrangeira em geral precisa de CNPJ e de registro na Junta Comercial ou de um representante local, certos produtos exigem certificação do Inmetro ou registro na Anvisa, e a LGPD se aplica aos dados de clientes no país, portanto confirme com um advogado.
+7. Impostos: Registro para impostos sobre vendas ou sobre o valor agregado, exposição ao imposto de renda por ter presença no país e direitos aduaneiros. REGRA ESPECÍFICA DA REGIÃO.
+8. Finanças: Custos iniciais, tempo até a primeira receita e risco cambial.
+Como as cores se conectam:
+- LARANJA: A localização determina se os clientes entendem a oferta e confiam nela.
+- ROXO: Conformidade e proteção da marca.
+- VERDE: As obrigações tributárias podem começar antes do que muitas empresas esperam.
+- AZUL: Custos de entrada e capital de giro.
+- PRETO: Liderança e parceiros locais que entendem o mercado.
+SUPOSIÇÃO/OPINIÃO: Muitas entradas em mercados fracassam não porque o produto estava errado, mas porque a empresa supôs que os clientes no exterior pensariam como os clientes do país de origem.
+
+## Exemplo prático
+EXEMPLO ILUSTRATIVO: A empresa de Julia vende um aplicativo de orçamento pessoal no seu país de origem. Ela planeja entrar em um país vizinho que fala outro idioma.
+Abordagem só de tradução (primeira versão): Traduzir o aplicativo e o site. Lançar.
+A revisão de localização revela:
+- As categorias de orçamento do aplicativo refletem despesas do país de origem. O novo mercado tem outras despesas comuns.
+- Os exemplos usam a moeda e os níveis salariais do país de origem.
+- Os clientes do novo mercado preferem outro meio de pagamento.
+- As leis de privacidade de dados exigem mudanças no consentimento e no tratamento dos dados. REGRA ESPECÍFICA DA REGIÃO.
+- O nome da marca está disponível para registro, mas precisa ser depositado localmente.
+- O registro para o imposto sobre o valor agregado é exigido assim que começam as vendas digitais. REGRA ESPECÍFICA DA REGIÃO.
+- Preços: O poder de compra local é menor, então é preciso um plano mais barato.
+O lançamento localizado de Julia:
+- Categorias e exemplos adaptados.
+- Opções de pagamento locais.
+- Preços ajustados.
+- Mudanças de conformidade e depósito da marca.
+- Um consultor de marketing local para revisar o tom e as imagens.
+SUPOSIÇÃO/OPINIÃO: O lançamento localizado custa mais e demora mais. Mas produz um produto que os clientes do novo mercado reconhecem como feito para eles, e não simplesmente traduzido para eles.
+
+## Teste de prática
+**Q1. Qual é a diferença entre tradução e localização?**
+A) A tradução converte palavras; a localização adapta toda a oferta a um mercado
+B) Não há diferença
+C) A localização é mais barata
+D) A tradução inclui conformidade jurídica
+**Q2. O que significa "idioma não é jurisdição"?**
+A) Os idiomas não têm leis
+B) Países com o mesmo idioma ainda podem ter leis, moeda e cultura diferentes
+C) Só um país usa cada idioma
+D) As leis são iguais em todo lugar
+**Q3. Por que as obrigações tributárias podem começar antes do esperado em um novo mercado?**
+A) Os impostos nunca se aplicam
+B) Os governos ignoram empresas estrangeiras
+C) Os impostos sempre são adiados
+D) O registro para impostos sobre vendas ou sobre o valor agregado pode ser exigido assim que as vendas começam
+**Q4. O que a revisão de localização de Julia revelou sobre os preços?**
+A) Os preços deviam ser maiores
+B) Os preços deviam ser idênticos aos do país de origem
+C) Os preços não importavam
+D) O poder de compra local era menor, então era preciso um plano mais barato
+**Q5. Segundo a lição, por que muitas entradas em mercados fracassam?**
+A) Os produtos estão sempre errados
+B) A tradução é cara demais
+C) Os impostos são altos demais
+D) As empresas supõem que os clientes no exterior pensam como os clientes do país de origem
+
+## Gabarito
+Q1: A
+Q2: B
+Q3: D
+Q4: D
+Q5: D
+
+## Respostas e explicações
+**Q1.** A localização vai muito além do idioma.
+**Q2.** Ter o mesmo idioma não significa ter as mesmas regras.
+**Q3.** As regras tributárias podem se aplicar desde a primeira venda. REGRA ESPECÍFICA DA REGIÃO.
+**Q4.** O preço precisa se ajustar ao mercado local.
+**Q5.** Não localizar é uma causa comum de fracasso.
+
+## Pontos-chave
+- Traduzir não é localizar; idioma não é jurisdição
+- Localize produto, preço, mensagens, canais e conformidade
+- As obrigações jurídicas e tributárias podem começar na primeira venda
+- Conhecimento e parceiros locais melhoram a entrada no mercado
+
+===== ORANGE-L5-015
+TITLE: O risco cambial nos preços internacionais
+SUMMARY: As vendas internacionais carregam risco cambial, e a moeda do preço decide quem assume esse risco; use cláusulas contratuais, proteções naturais, proteções financeiras e pagamentos mais rápidos, e revise os preços no exterior com regularidade.
+KEYWORDS: risco cambial nos preços, risco de taxa de câmbio, estratégia de preços internacionais, preço em moeda estrangeira, hedge
+# O risco cambial nos preços internacionais
+
+## Cenário de abertura
+SUPOSIÇÃO/OPINIÃO (cenário hipotético apenas para fins didáticos): Imagine a moeda de uma economia de porte médio perdendo grande parte do seu valor frente às principais moedas de reserva em poucos meses, impulsionada pela fuga de capitais do país e pela queda da confiança dos investidores.
+Aplique aqui: Uma empresa vende no exterior e define os preços na moeda dos clientes. Então a moeda dos clientes perde um terço do valor. Pergunte em todas as cores: O que acontece com a receita da empresa quando convertida para a moeda de origem (BRANCO)? Os preços no mercado estrangeiro devem subir (LARANJA)? Os contratos permitem mudar os preços (ROXO)? Ferramentas financeiras podem reduzir esse risco (AZUL)?
+
+## Objetivos de aprendizagem
+- Explicar como as mudanças cambiais afetam as vendas internacionais
+- Comparar preços na moeda de origem e na moeda do cliente
+- Usar ferramentas contratuais e financeiras para administrar o risco cambial
+
+## Conteúdo principal
+Quando uma empresa vende em outro país, ela enfrenta o risco cambial: a possibilidade de que mudanças na taxa de câmbio reduzam o valor das suas vendas.
+Escolhas da moeda do preço:
+- Preço na sua moeda: Você sabe exatamente quanto vai receber. Mas os clientes assumem o risco cambial, e os seus preços podem ficar impagáveis se a moeda deles enfraquecer.
+- Preço na moeda do cliente: Mais fácil para os clientes e muitas vezes mais competitivo. Mas você assume o risco cambial.
+- Preço em uma terceira moeda de reserva estável: Comum em parte do comércio internacional. Distribui o risco entre os dois lados de formas diferentes.
+O que acontece quando a moeda do cliente cai (como no cenário):
+- Se o preço está na moeda dele: A sua receita, medida na moeda de origem, cai.
+- Se o preço está na sua moeda: Os seus preços sobem muito para os clientes, e a demanda pode cair.
+De qualquer forma, alguém absorve o impacto.
+Ferramentas para administrar o risco cambial:
+- Cláusulas contratuais (ROXO): Cláusulas de ajuste cambial e faixas compartilhadas (ROXO-L5-039 na trilha jurídica).
+- Revisões de preço (LARANJA): Atualizações regulares dos preços nos mercados estrangeiros.
+- Proteção natural (AZUL): Casar custos e receitas na mesma moeda, por exemplo comprando suprimentos ou pagando a equipe local na moeda em que você recebe.
+- Proteção financeira (BRANCO/AZUL): Ferramentas como contratos a termo, que travam a taxa de câmbio de transações futuras. Elas têm custos e complexidade e costumam ser usadas com orientação profissional.
+- Prazo de pagamento: Receber mais rápido reduz o tempo de exposição.
+Ligação com o VERDE: REGRA ESPECÍFICA DA REGIÃO: Ganhos e perdas cambiais podem ter consequências tributárias; no Brasil, por exemplo, segundo as informações disponíveis, a empresa pode tributar as variações cambiais pelo regime de caixa ou pelo de competência, dentro das regras da Receita Federal, portanto confirme com um contador.
+SUPOSIÇÃO/OPINIÃO: Pequenos exportadores muitas vezes ignoram o risco cambial até que um movimento grande os prejudique. Uma política simples, como revisar os preços no exterior a cada trimestre e usar faixas nos contratos, pode evitar a maioria das surpresas dolorosas.
+
+## Exemplo prático
+EXEMPLO ILUSTRATIVO: A empresa de Pedro exporta ferramentas especializadas. Ele vende a clientes de um mercado estrangeiro, com preços na moeda deles. No início, 10 unidades da moeda deles equivalem a 1 unidade da dele.
+Ele vende o equivalente a R$ 100.000 (na moeda dele) por trimestre.
+A moeda estrangeira cai 33%, e agora 15 unidades equivalem a 1 unidade da moeda dele. A mesma receita em moeda estrangeira agora se converte em cerca de R$ 67.000.
+As opções dele:
+- Aumentar os preços no exterior em 50% para recuperar a receita. Os clientes podem comprar menos.
+- Manter os preços e aceitar uma receita menor.
+- Combinar: aumentar os preços em 20%, reduzir custos e aceitar alguma perda de margem.
+Ele escolhe a combinação. Para o futuro, ele:
+- Acrescenta cláusulas contratuais que dividem os movimentos cambiais acima de 10%.
+- Abre um pequeno depósito local e paga alguns custos na moeda estrangeira (proteção natural).
+- Usa contratos a termo para pedidos grandes já conhecidos, com orientação do banco.
+- Revisa os preços no exterior a cada trimestre.
+SUPOSIÇÃO/OPINIÃO: Pedro não podia evitar o movimento cambial. Mas, com essas ferramentas em funcionamento, o próximo movimento vai doer muito menos.
+
+## Teste de prática
+**Q1. O que é risco cambial?**
+A) O risco de perder dinheiro em espécie
+B) A possibilidade de que mudanças na taxa de câmbio reduzam o valor das vendas
+C) Um tipo de imposto
+D) Um risco de marketing
+**Q2. Se o preço está na moeda do cliente e essa moeda cai, o que acontece?**
+A) A sua receita, medida na moeda de origem, cai
+B) A sua receita sobe
+C) Nada muda
+D) Os clientes pagam mais
+**Q3. O que é proteção natural?**
+A) Casar custos e receitas na mesma moeda
+B) Comprar ouro
+C) Evitar vendas no exterior
+D) Usar só dinheiro em espécie
+**Q4. Para que serve um contrato a termo?**
+A) Marketing
+B) Contratar pessoal
+C) Travar a taxa de câmbio de transações futuras
+D) Registrar marcas
+**Q5. Que política simples a lição recomenda?**
+A) Revisar os preços no exterior com regularidade e usar faixas nos contratos
+B) Ignorar o risco cambial
+C) Definir todos os preços em moeda estrangeira
+D) Parar de exportar
+
+## Gabarito
+Q1: B
+Q2: A
+Q3: A
+Q4: C
+Q5: A
+
+## Respostas e explicações
+**Q1.** Os movimentos cambiais podem encolher a receita.
+**Q2.** Você assume o risco cambial.
+**Q3.** Casar custos e receitas reduz a exposição líquida.
+**Q4.** Os contratos a termo reduzem a incerteza sobre valores futuros conhecidos.
+**Q5.** Rotinas simples evitam surpresas dolorosas.
+
+## Pontos-chave
+- As vendas internacionais carregam risco cambial
+- A moeda do preço decide quem assume o risco
+- Use cláusulas contratuais, proteções naturais, proteções financeiras e pagamentos mais rápidos
+- Revise os preços no exterior com regularidade
