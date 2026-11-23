@@ -59,7 +59,7 @@ EDUNANCIAL_ENABLE_LEGACY_CURRICULUM_REGISTRY_FALLBACK = "true"
 # parameters". Those bytes are still shipped through the archive and the
 # .json.gz index files above, and curriculum-fs.ts reads disk first, archive second.
 [functions]
-included_files = ["content/generated/curriculum-archive.bin", "content/generated/curriculum-runtime-manifest.json.gz", "content/generated/curriculum-index/**/*.json.gz", "curriculum/seeds/translations/**", "curriculum/registry.json", "curriculum/stored-translation-retirements.json", "curriculum/tier-config.json", "!content/curriculum/**", "!content/courses/**", "!content/generated/curriculum-index/**/*.json", "!curriculum/reports/**", "!node_modules/typescript/**", "!node_modules/@img/sharp-libvips-linuxmusl-x64/**", "!node_modules/@img/sharp-linuxmusl-x64/**"]
+included_files = ["content/generated/curriculum-archive.bin", "content/generated/curriculum-runtime-manifest.json.gz", "content/generated/curriculum-index/**/*.json.gz", "curriculum/seeds/translations/**", "curriculum/registry.json", "curriculum/stored-translation-retirements.json", "curriculum/tier-config.json", "!content/curriculum/**", "!content/courses/**", "!content/generated/curriculum-index/**/*.json", "!curriculum/reports/**", "!node_modules/typescript/**", "!node_modules/@img/sharp-libvips-linuxmusl-x64/**", "!node_modules/@img/sharp-linuxmusl-x64/**", "!node_modules/@img/sharp-libvips-linux-x64/**", "!node_modules/@img/sharp-linux-x64/**"]
 
 [[plugins]]
 package = "@netlify/plugin-nextjs"
