@@ -1,0 +1,241 @@
+===== GREEN-L1-012
+TITLE: Lire votre relevé de paie
+SUMMARY: Une démonstration pratique de la façon de lire un relevé de paie typique, qui relie des notions vues plus tôt (brut et net, retenues, cotisations sur la paie) à un document réel.
+# Lire votre relevé de paie
+
+## Objectifs d’apprentissage
+
+- Repérer les principales sections d’un relevé de paie typique.
+- Trouver la paie brute, les déductions et la paie nette sur un relevé type.
+- Expliquer pourquoi vérifier régulièrement son relevé de paie est une bonne habitude.
+
+## Contenu principal
+
+Un relevé de paie (ou talon de paie) est le document, papier ou numérique, qui détaille une paie. Même si la présentation varie selon l’employeur et le pays, la plupart des relevés partagent une structure commune : la paie brute en haut, une liste de déductions au milieu (impôts, cotisations de retraite, primes d’assurance) et la paie nette — le montant réellement déposé — en bas.
+
+La section des déductions sépare habituellement différentes catégories : les retenues d’impôt sur le revenu, les cotisations sur la paie (souvent présentées séparément pour les programmes de retraite et de santé) et toute déduction volontaire choisie par l’employé, comme des cotisations à un régime de retraite. Un relevé indique aussi généralement les totaux cumulatifs depuis le début de l’année, ce qui vous permet de suivre vos gains et vos retenues accumulés sur l’année, pas seulement pour une période de paie.
+
+Vérifier régulièrement votre relevé de paie est une habitude pratique, pas seulement un exercice administratif. C’est ainsi que vous repérez les erreurs — mauvaises heures, mauvaises retenues d’impôt, augmentation oubliée — avant qu’elles s’accumulent pendant des mois. C’est aussi ainsi que vous développez une idée concrète et constante de l’écart entre ce que vous gagnez et ce que vous touchez réellement, ce qui alimente directement votre budget.
+
+## Exemple pratique
+
+**Question :** Un travailleur jette un coup d’œil à son relevé et voit une colonne « cumul annuel » (parfois « CA » ou « YTD »). Qu’est-ce que cela signifie probablement, et pourquoi est-ce important?
+
+**Étudiant :** Je dirais que c’est le total cumulatif depuis le début de l’année.
+
+**Guide :** Exact. Pourquoi ce total cumulatif serait-il utile, au-delà des chiffres de cette seule paie?
+
+**Étudiant :** Il permet de suivre le total des gains et des retenues au fil du temps, ce qui aide à repérer les erreurs ou à se préparer à la période des impôts au lieu de voir seulement une période de paie à la fois.
+
+**Guide :** Exactement — un seul relevé est un instantané; le cumul annuel vous donne la tendance.
+
+## Quiz pratique
+
+**Question 1.** Un relevé de paie indique habituellement :
+
+A) Seulement le montant de la paie nette
+B) La paie brute, les déductions et la paie nette
+C) Seulement l’impôt dû pour l’année
+D) Rien qui concerne les impôts
+
+**Question 2.** La mention « cumul annuel » (ou « YTD ») sur un relevé de paie signifie très probablement :
+
+A) La déduction fiscale annuelle
+B) Le total depuis le début de l’année
+C) Votre dette totale
+D) Le rendement à ce jour
+
+**Question 3.** Vérifier régulièrement vos relevés de paie vous aide à :
+
+A) Rien d’utile
+B) Repérer des erreurs comme de mauvaises heures ou des retenues inexactes
+C) Éviter de payer des impôts
+D) Augmenter automatiquement votre paie brute
+
+**Question 4.** La section des déductions d’un relevé comprend couramment :
+
+A) Seulement des achats volontaires
+B) Les retenues d’impôt sur le revenu, les cotisations sur la paie et les déductions volontaires
+C) Seulement les jours de vacances
+D) Rien qui concerne l’impôt
+
+## Corrigé
+
+1. B, 2. B, 3. B, 4. B
+
+## Réponses et explications
+
+**1.** Un relevé standard part de la paie brute, passe par les déductions et aboutit au montant final de la paie nette.
+
+**2.** Les totaux cumulatifs depuis le début de l’année donnent une vue d’ensemble continue sur l’année, pas seulement sur une période de paie.
+
+**3.** Repérer tôt une erreur de paie — avant qu’elle se répète pendant des mois — est l’une des raisons les plus pratiques de vérifier ses relevés.
+
+**4.** Les déductions regroupent habituellement les retenues obligatoires et toute cotisation facultative que l’employé a choisie.
+
+## Points clés
+
+- Les relevés de paie vont généralement de la paie brute, en passant par les déductions, jusqu’à la paie nette.
+- Les chiffres cumulatifs suivent les totaux accumulés sur l’année, pas seulement sur une période de paie.
+- Vérifier régulièrement ses relevés aide à repérer tôt les erreurs de paie.
+- Comprendre votre relevé se rattache directement aux notions de brut et net et de retenues vues dans les leçons précédentes.
+
+===== GREEN-L1-013
+TITLE: Qu’est-ce qu’une retenue à la source?
+SUMMARY: Explique la retenue d’impôt à la source — pourquoi les employeurs prélèvent un impôt estimé avant de vous payer, plutôt que d’attendre un paiement unique plus tard.
+# Qu’est-ce qu’une retenue à la source?
+
+## Objectifs d’apprentissage
+
+- Définir la retenue à la source en termes simples.
+- Expliquer pourquoi la retenue existe comme système de paiement au fur et à mesure.
+- Reconnaître que la retenue est une estimation, pas une facture d’impôt définitive.
+
+## Contenu principal
+
+La retenue à la source est l’argent qu’un employeur prélève à l’avance sur votre paie et envoie directement au gouvernement en votre nom, comme paiement estimé de votre éventuelle facture d’impôt. Au lieu d’attendre la fin de l’année pour un seul gros paiement d’impôt, la plupart des systèmes perçoivent l’impôt graduellement, paie après paie, tout au long de l’année.
+
+Il est important de comprendre que la retenue est une estimation, et non le dernier mot. À la fin de l’année d’imposition, votre impôt réel est calculé en fonction de votre revenu total, de vos déductions et de vos crédits — et ce montant est comparé à ce qui a été retenu. Si on a trop retenu, vous récupérez habituellement de l’argent (un remboursement). Si on n’a pas assez retenu, vous devez habituellement payer davantage. Les montants retenus reposent généralement sur des renseignements fournis par l’employé — comme son revenu prévu et sa situation familiale — c’est pourquoi les changements de vie (un nouvel emploi, un mariage, une nouvelle personne à charge) sont une bonne raison de revoir vos paramètres de retenue.
+
+## Exemple pratique
+
+**Question :** L’employeur d’un travailleur retient de l’impôt sur chaque paie toute l’année. À la fin de l’année, le travailleur doit-il quand même produire quelque chose?
+
+**Étudiant :** Je suppose que non, puisque l’impôt a déjà été prélevé.
+
+**Guide :** Mais la retenue est-elle la même chose que votre facture d’impôt définitive exacte?
+
+**Étudiant :** Non — vous avez dit que c’est une estimation. Le travailleur doit donc probablement produire une déclaration pour comparer ce qui a été retenu avec ce qu’il doit réellement.
+
+**Guide :** Exactement — la déclaration rapproche l’estimation du montant réel, et c’est pourquoi il existe à la fois des remboursements et des soldes à payer.
+
+## Quiz pratique
+
+**Question 1.** La retenue à la source se décrit le mieux comme :
+
+A) Votre facture d’impôt définitive
+B) Un paiement anticipé estimé de votre impôt éventuel
+C) Un don volontaire
+D) De l’argent que vous ne récupérez jamais
+
+**Question 2.** Si on retient trop d’impôt pendant l’année, le résultat habituel est :
+
+A) Une pénalité
+B) Un remboursement
+C) Rien ne se passe
+D) Vous devez le double
+
+**Question 3.** Si on ne retient pas assez d’impôt, le résultat habituel est :
+
+A) Un remboursement
+B) Vous pourriez devoir un impôt supplémentaire lors de votre déclaration
+C) Rien ne se passe
+D) Votre emploi prend fin
+
+**Question 4.** Une bonne raison de revoir vos paramètres de retenue est :
+
+A) Un changement de vie important comme un mariage ou un nouvel emploi
+B) Jamais — les paramètres ne peuvent pas être modifiés
+C) Seulement si vous êtes travailleur autonome
+D) Une seule fois, à votre premier emploi
+
+## Corrigé
+
+1. B, 2. B, 3. B, 4. A
+
+## Réponses et explications
+
+**1.** La retenue est une estimation payée au fur et à mesure tout au long de l’année, et non le calcul définitif.
+
+**2.** Le trop-payé par retenue vous est rendu sous forme de remboursement une fois que la déclaration a rapproché les chiffres.
+
+**3.** Un paiement insuffisant signifie que l’écart est habituellement dû lorsque l’impôt réel est calculé.
+
+**4.** Comme la retenue repose sur les renseignements que vous fournissez, les changements de vie importants sont une occasion naturelle de la revoir.
+
+## Points clés
+
+- La retenue à la source est un paiement d’impôt estimé et continu prélevé sur les paies tout au long de l’année.
+- Elle n’est pas la même chose que votre facture d’impôt définitive — la déclaration rapproche les deux.
+- Une retenue trop élevée entraîne un remboursement; une retenue insuffisante entraîne un solde à payer.
+- Les changements de vie sont une bonne occasion de revoir et d’ajuster vos retenues.
+
+===== GREEN-L1-014
+TITLE: Formulaire W-2 ou formulaire 1099 : employé ou travailleur autonome?
+SUMMARY: Présente les deux documents de déclaration de revenus les plus courants dans les systèmes qui les utilisent, en lien direct avec la distinction entre employé et travailleur autonome vue dans les volets précédents.
+# Formulaire W-2 ou formulaire 1099 : employé ou travailleur autonome?
+
+## Objectifs d’apprentissage
+
+- Expliquer la différence générale entre un document de revenu de type « employé » et un document de revenu de type « travailleur autonome ».
+- Relier cette distinction à la notion de travail autonome par rapport à la propriété d’entreprise vue dans les volets précédents.
+- Reconnaître pourquoi cette classification détermine qui s’occupe des retenues.
+
+## Contenu principal
+
+Dans certains systèmes fiscaux, en particulier aux États-Unis, des formulaires distincts servent à déclarer différents types de revenus : un pour les employés (couramment le W-2), dont l’employeur retient l’impôt tout au long de l’année, et un pour les travailleurs autonomes (couramment le 1099), sur lequel aucun impôt n’est retenu et le travailleur doit s’occuper lui-même de ses paiements estimés. D’autres pays utilisent des appellations différentes (au Canada, par exemple, les feuillets T4 et T4A jouent un rôle comparable), mais la distinction de fond — employé ou travailleur autonome — se retrouve presque partout.
+
+Cela correspond directement à la notion de travail autonome vue plus tôt dans votre cursus : un employé se fait retenir ses impôts automatiquement par quelqu’un d’autre, tandis qu’un travailleur autonome fonctionne davantage comme une personne à son compte et doit lui-même mettre de l’argent de côté et payer ses impôts. Mal comprendre la catégorie dans laquelle on se trouve est l’une des erreurs fiscales les plus courantes et les plus coûteuses — un travailleur autonome qui dépense la totalité de ses paiements sans rien mettre de côté pour les impôts peut avoir une mauvaise surprise au moment de produire sa déclaration.
+
+## Exemple pratique
+
+**Question :** Une jeune conceptrice Web travaille pour plusieurs clients différents, fixe ses propres heures et utilise son propre équipement. Est-elle plus probablement une employée ou une travailleuse autonome?
+
+**Étudiant :** Comme elle fixe ses propres heures et travaille pour plusieurs clients, elle ressemble davantage à une travailleuse autonome.
+
+**Guide :** Si c’est le cas, qui est responsable de mettre de côté ses paiements d’impôt pendant l’année?
+
+**Étudiant :** C’est elle — puisqu’aucun employeur ne retient d’impôt pour elle, elle doit le faire elle-même.
+
+**Guide :** Exactement, et c’est pourquoi les travailleurs autonomes doivent planifier activement leurs impôts au lieu de supposer que c’est réglé automatiquement.
+
+## Quiz pratique
+
+**Question 1.** Un document de revenu de type « employé » reflète habituellement :
+
+A) Aucun impôt retenu
+B) Des impôts retenus tout au long de l’année par l’employeur
+C) Seulement le bénéfice d’entreprise
+D) Seulement le revenu de placement
+
+**Question 2.** Un travailleur autonome est généralement responsable de :
+
+A) Rien — les impôts sont automatiques
+B) Mettre de côté et payer lui-même ses impôts estimés
+C) Seulement la taxe de vente
+D) Ne jamais remplir de documents
+
+**Question 3.** Cette distinction entre employé et travailleur autonome se rattache le plus directement à quelle notion vue plus tôt?
+
+A) Les biens publics
+B) Le travail autonome par rapport à la propriété d’entreprise
+C) Les paliers d’imposition marginaux
+D) L’impôt foncier
+
+**Question 4.** Une erreur coûteuse courante chez les nouveaux travailleurs autonomes est :
+
+A) Produire sa déclaration trop tôt
+B) Dépenser tout son revenu sans mettre d’argent de côté pour les impôts
+C) Faire retenir trop d’impôt
+D) Posséder trop de biens immobiliers
+
+## Corrigé
+
+1. B, 2. B, 3. B, 4. B
+
+## Réponses et explications
+
+**1.** La déclaration de type « employé » s’accompagne généralement d’une retenue automatique gérée par l’employeur.
+
+**2.** Sans employeur qui retient l’impôt en leur nom, les travailleurs autonomes doivent gérer eux-mêmes, de façon proactive, leurs paiements d’impôt.
+
+**3.** C’est l’expression, dans le système fiscal, de la notion de travail autonome abordée plus tôt dans le cursus.
+
+**4.** Dépenser 100 % de son revenu de travailleur autonome sans en réserver une portion pour les impôts est l’une des erreurs les plus courantes au début.
+
+## Points clés
+
+- Le revenu de type « employé » fait généralement l’objet d’une retenue automatique; le revenu de travailleur autonome, généralement pas.
+- Cette distinction reflète la notion de travail autonome par rapport à l’emploi vue dans les leçons précédentes.
+- Les travailleurs autonomes doivent mettre activement de l’argent de côté pour leurs impôts tout au long de l’année.
+- Se classer dans la mauvaise catégorie, ou ne pas planifier la différence, est une erreur courante et coûteuse.
