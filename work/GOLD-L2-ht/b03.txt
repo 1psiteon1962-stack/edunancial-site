@@ -1,0 +1,279 @@
+===== GOLD-L2-011
+TITLE: Evalye yon opòtinite envestisman: yon kad
+SUMMARY: Yon kad evalyasyon konsistan poze kesyon sou rannman kont risk, likidite, orizon tan, frè, ak istorik sponsò a – e li fonksyone atravè tout klas byen, menm sa ou pa konnen.
+## GOLD-L2-011
+### Evalye yon opòtinite envestisman: yon kad
+
+**1. Objektif aprantisaj**
+Nan fen leson sa a, elèv la ap kapab:
+- Rasanble yon kad jeneral pou evalye nenpòt opòtinite envestisman.
+- Aplike kad sa a atravè diferan klas byen.
+- Esplike poukisa yon kad konsistan pi enpòtan pase konesans espesifik sou yon klas byen sèlman.
+
+**2. Kontni prensipal**
+Leson sa a prezante yon kad evalyasyon jeneral ou ka aplike atravè klas byen nivo sa a entegre: Ki rannman ou atann, e èske li konsistan ak risk ki enplike a (Leson 7)? Ki pwofil likidite a — konbyen fasil ou ka konvèti envestisman sa a an lajan kach si w bezwen l (n ap devlope sa plis nan Leson 14)? Ki orizon tan ki nesesè, e èske li koresponn ak pwòp objektif envestisè a (sa ki raple WHITE-L2-027)? Ki frè ak depans ki enplike (sa ki raple WHITE-L2-015 ak Leson 33)? E kiyès k ap prezante opòtinite sa a, e ki istorik li ak estrikti enterè li (sa ki raple diskisyon BLUE-L2-029 sou evalye sponsò)?
+
+Valè kad sa a chita nan konsistans li atravè klas byen yo: kit w ap evalye yon sendikasyon imobilye (RED-L2-029), yon envestisman nan biznis (BLUE-L2-039), oswa yon opòtinite byen sou papye (WHITE-L2), menm kesyon prensipal yo aplike, menm si repons espesifik ak detay ki enpòtan yo diferan selon klas byen an. Konsistans sa a se egzakteman sa ki pèmèt yon envestisè evalye yon kalite opòtinite li pa konnen san l pa bezwen vin ekspè nan chak klas byen posib anvan.
+
+**3. Egzanp pratik**
+Lè yo prezante l yon opòtinite envestisman li pa konnen nan yon klas byen li pa t janm konsidere anvan, yon elèv aplike kad konsistan sa a olye l santi l pa kalifye pou evalye l tou senpleman paske li deyò eksperyans li te genyen anvan: li poze kesyon sou rannman ou atann konpare ak risk, kondisyon likidite, orizon tan ki nesesè, tout frè ki asosye, ak istorik sponsò a ak aliyman enterè li. Apwòch estriktire sa a pèmèt li poze kesyon enfòme e ki fouye, e rive nan yon konklizyon rezone, menm san ekspètiz espesifik anvan nan klas byen patikilye sa a.
+
+**4. Egzamen pratik**
+1. Ki yon kesyon kad evalyasyon leson sa a rekòmande pou poze?
+   a) Ki koulè bwochi maketing opòtinite a?
+   b) Ki rannman ou atann, e èske li konsistan ak risk ki enplike a?
+   c) Ki restoran sponsò a pi renmen?
+   d) Okenn nan kesyon sa yo pa enpòtan pou evalyasyon
+
+2. Poukisa konsistans kad sa a atravè klas byen yo enpòtan?
+   a) Li pa gen okenn valè pratik
+   b) Li pèmèt yon envestisè evalye yon kalite opòtinite li pa konnen san l pa bezwen ekspètiz anvan nan chak klas byen
+   c) Konsistans atravè klas byen enposib pou reyalize
+   d) Chak klas byen mande yon kad totalman diferan
+
+3. Vrè oswa Fo: Ou ka aplike kad sa a sèlman sou opòtinite byen sou papye, pa sou opòtinite imobilye oswa biznis.
+
+4. Kijan elèv la te itilize kad sa a lè yo te prezante l yon opòtinite li pa t konnen?
+   a) Li te refize evalye l ditou, li di li pa gen ekspètiz
+   b) Li te aplike menm kesyon konsistan yo, sa ki pèmèt yon evalyasyon enfòme malgre li pa t gen eksperyans espesifik anvan
+   c) Li te inyore likidite ak frè nèt
+   d) Li te sipoze opòtinite a te otomatikman lejitim
+
+**5. Kle repons yo**
+1. b  2. b  3. Fo  4. b
+
+**6. Repons ak eksplikasyon**
+1. Poze kesyon sou rannman ou atann konpare ak risk se yon kesyon prensipal nan kad evalyasyon leson sa a.
+2. Konsistans kad sa a pèmèt evalye kalite opòtinite ou pa konnen san w pa bezwen ekspètiz anvan nan chak klas byen.
+3. Kad sa a aplike atravè klas byen yo, tankou opòtinite imobilye, biznis, ak byen sou papye.
+4. Fason elèv la te aplike kad konsistan an te pèmèt yon evalyasyon enfòme malgre li pa t gen eksperyans espesifik anvan ak klas byen sa a.
+
+**7. Pwen kle yo**
+- Yon kad evalyasyon konsistan trete rannman ou atann/risk, likidite, orizon tan, frè, ak istorik sponsò a.
+- Kad sa a aplike atravè klas byen yo, soti nan imobilye rive nan biznis rive nan byen sou papye.
+- Konsistans li pèmèt evalye kalite opòtinite ou pa konnen san w pa bezwen ekspètiz anvan nan chak klas byen.
+- Kad sa a prepare diskisyon espesifik sou siy danje ak rekonèt fwod nan Leson 12–13.
+
+===== GOLD-L2-012
+TITLE: Siy danje nan opòtinite envestisman: rekonèt siy avètisman
+SUMMARY: Siy danje komen gen ladan rannman garanti ki wo anpil, presyon pou deside vit, repons ki vag, vandè ki pa anrejistre, ak istorik ou pa ka verifye – plizyè siy ansanm merite anpil atansyon.
+## GOLD-L2-012
+### Siy danje nan opòtinite envestisman: rekonèt siy avètisman
+
+**1. Objektif aprantisaj**
+Nan fen leson sa a, elèv la ap kapab:
+- Idantifye siy danje komen nan opòtinite envestisman.
+- Konekte siy danje sa yo dirèkteman ak prensip risk-rannman Leson 7 la.
+- Aplike rekonesans sa a nan yon opòtinite ipotetik ki sispèk.
+
+**2. Kontni prensipal**
+Lè l bati dirèkteman sou prensip risk-rannman Leson 7 la ak kad evalyasyon Leson 11 la, leson sa a idantifye siy avètisman komen ki merite yon atansyon espesyal. Sa yo gen ladan: deklarasyon rannman garanti oswa ki wo anpil ak ti kras oswa okenn risk yo rekonèt (sa ki kontredi dirèkteman prensip fondamantal Leson 7 la), presyon pou envesti vit anvan ou "rate" (sa ki febli pwosesis evalyasyon atantif Leson 11 la), repons ki vag oswa ki evite kesyon sou kijan rannman yo vrèman fèt, vandè ki pa anrejistre oswa ki pa gen lisans kote yo ta nòmalman atann yon anrejistreman, ak difikilte pou verifye endepandaman vrè istorik opòtinite a oswa sponsò a.
+
+Okenn nan siy danje sa yo pou kont li pa pwouve definitivman gen yon pwoblèm, men prezans plizyè siy danje ansanm ta dwe ogmante anpil atansyon ou, sa ki raple tèm pi laj nivo sa a ke yon evalyasyon atantif e ki fèt espre (Leson 11) pwoteje kont egzakteman kalite presyon ak evazyon siy avètisman sa yo reprezante — presyon ak evazyon se yo menm siyal yo konsevwa pou kout-sikwite pwosesis evalyasyon atantif nivo sa a te bati a.
+
+**3. Egzanp pratik**
+Lè yo prezante l yon opòtinite envestisman ki pwomèt rannman garanti ki wo anpil, ansanm ak presyon pou l deside nan 24 èdtan ak repons ki vag e ki evite kesyon sou egzakteman kijan rannman yo pwomèt yo ta fèt, yon elèv rekonèt plizyè siy danje an menm tan: deklarasyon rannman garanti ki wo a kontredi prensip risk-rannman Leson 7 la, presyon tan an febli pwosesis evalyasyon atantif Leson 11 la, e repons ki evite kesyon yo anpeche yon vrè diliyans. Olye l kontinye malgre malèz li, li refize opòtinite a, li rekonèt se konbinezon siy avètisman sa yo ansanm, se pa okenn youn pou kont li, ki te bay ase rezon pou yon gwo enkyetid.
+
+**4. Egzamen pratik**
+1. Kilès nan sa yo leson sa a idantifye kòm yon siy danje komen?
+   a) Yon rannman reyalis ki konsistan ak risk yo rekonèt
+   b) Presyon pou envesti vit anvan ou "rate"
+   c) Transparans konplè e ou ka verifye sou istorik sponsò a
+   d) Repons klè e detaye sou kijan rannman yo fèt
+
+2. Poukisa presyon tan fonksyone espesyalman kòm yon siy danje?
+   a) Presyon tan pa gen okenn rapò ak evalyasyon atantif
+   b) Li febli pwosesis evalyasyon atantif e ki fèt espre nivo sa a te bati a
+   c) Presyon tan toujou montre yon opòtinite lejitim
+   d) Opòtinite lejitim toujou mande desizyon imedyat
+
+3. Vrè oswa Fo: Yon sèl siy danje pou kont li toujou pwouve definitivman yon opòtinite envestisman se yon fwod.
+
+4. Poukisa elèv la te refize opòtinite a nan egzanp pratik la?
+   a) Li te montre yon sèl siy danje izole san okenn lòt enkyetid
+   b) Konbinezon plizyè siy danje ansanm te bay ase rezon pou yon gwo enkyetid
+   c) Li pa t gen okenn enkyetid sou opòtinite a ditou
+   d) Opòtinite a te ofri yon rannman reyalis e modès
+
+**5. Kle repons yo**
+1. b  2. b  3. Fo  4. b
+
+**6. Repons ak eksplikasyon**
+1. Presyon pou envesti vit anvan ou "rate" se yon siy danje komen leson sa a idantifye.
+2. Presyon tan febli pwosesis evalyasyon atantif e ki fèt espre nivo sa a te bati a, li fonksyone kòm yon siy avètisman espesifik.
+3. Okenn siy danje pou kont li pa pwouve definitivman yon fwod, men plizyè siy danje ansanm ta dwe ogmante atansyon ou anpil.
+4. Desizyon elèv la te reflete pwa konbine plizyè siy danje, se pa okenn siy avètisman pou kont li.
+
+**7. Pwen kle yo**
+- Siy danje komen gen ladan rannman garanti ki wo, presyon tan, repons ki evite kesyon, vandè ki pa anrejistre, ak istorik ou pa ka verifye.
+- Siy sa yo konekte dirèkteman ak prensip risk-rannman Leson 7 la ak kad evalyasyon atantif Leson 11 la.
+- Okenn siy danje pou kont li pa pwouve definitivman gen yon pwoblèm, men plizyè siy ansanm merite anpil atansyon.
+- Presyon ak evazyon se yo menm ki fèt pou kout-sikwite yon evalyasyon atantif, sa ki fè rekonèt yo esansyèl.
+
+===== GOLD-L2-013
+TITLE: Konbinezon Ponzi ak fwod envestisman: kijan yo fonksyone
+SUMMARY: Yon konbinezon Ponzi peye "rannman" ak lajan nouvo envestisè, se pa ak yon vrè aktivite envestisman – sa fè efondreman l inevitab nan matematik.
+## GOLD-L2-013
+### Konbinezon Ponzi ak fwod envestisman: kijan yo fonksyone
+
+**1. Objektif aprantisaj**
+Nan fen leson sa a, elèv la ap kapab:
+- Esplike mekanis jeneral yon konbinezon Ponzi.
+- Konekte konsèp sa a dirèkteman ak prensip fondamantal Leson 7 ak 12 yo.
+- Rekonèt poukisa konbinezon sa yo alafen e inevitableman efondre.
+
+**2. Kontni prensipal**
+Lè l bati dirèkteman sou Leson 7 ak 12, leson sa a egzamine konbinezon Ponzi kòm yon modèl fwod envestisman espesifik e ki byen dokimante, yo ba l non yon ka istorik men li retounen plizyè fwa atravè diferan epòk ak kalite byen. Yon konbinezon Ponzi an jeneral peye sa yo rele "rannman" bay premye envestisè yo ak lajan nouvo envestisè kontribye, olye atravè yon vrè aktivite envestisman ki pwodui vrè rannman — sa vle di siksè aparan konbinezon an depann nèt de yon koule lajan nouvo envestisè ki pa janm sispann, se pa de okenn vrè valè k ap kreye.
+
+Estrikti sa a fè efondreman an inevitab nan matematik, se pa sèlman pwobab: paske pa gen okenn vrè aktivite ki pwodui rannman, konbinezon an bezwen yon koule nouvo lajan ki toujou ap ogmante tou senpleman pou l kontinye peye "rannman" bay envestisè ki la deja yo, yon modèl ki pa dirab nan matematik ki alafen echwe yon fwa nouvo envestisman ki antre a ralanti oswa sispann, nan moman sa a konbinezon an pa ka peye envestisè ki la deja yo e li efondre nèt, souvan ak pifò patisipan yo pèdi lajan yo te envesti. Rekonèt mekanis sa a ranfòse dirèkteman leson prensipal Leson 7 la: paske pa gen okenn vrè aktivite ki pwodui rannman yo pwomèt yo, kapasite konbinezon an pou peye "rannman" pa gen okenn vrè rapò ak yon pèfòmans lejitim ajiste pou risk, sa ki esplike poukisa konbinezon Ponzi tèlman souvan montre egzakteman siy danje Leson 12 dekri yo.
+
+**3. Egzanp pratik**
+Lè l ap etidye yon ka istorik konbinezon Ponzi ki byen dokimante, yon elèv swiv kijan konbinezon an te peye "rannman" konsistan bay premye envestisè yo ak lajan nouvo envestisè, sa ki te kreye yon aparans pèfòmans lejitim e fyab ki te atire plis envestisè ak kapital yo ankò. Li rekonèt konsistans aparan sa a pa t janm baze sou yon vrè aktivite envestisman, e efondreman konbinezon an alafen, yon fwa lajan nouvo envestisè ki t ap antre pa t ka kenbe ritm ak peman yo te pwomèt yo ankò, se te yon konsekans inevitab nan matematik estrikti fondamantal li, se pa yon rezilta malere ou te ka evite.
+
+**4. Egzamen pratik**
+1. Kijan yon konbinezon Ponzi an jeneral pwodui "rannman" li peye envestisè yo?
+   a) Atravè yon vrè aktivite envestisman lejitim
+   b) Lè l peye premye envestisè yo ak lajan nouvo envestisè kontribye
+   c) Atravè yon finansman gouvènman garanti
+   d) Konbinezon Ponzi pa gen okenn peman ditou
+
+2. Poukisa yo dekri efondreman yon konbinezon Ponzi alafen kòm inevitab nan matematik?
+   a) Efondreman pa janm vrèman inevitab e li depann sèlman de chans
+   b) Konbinezon an bezwen yon koule nouvo lajan ki toujou ap ogmante pou l kenbe peman yo, yon modèl ki pa dirab yon fwa koule a ralanti
+   c) Konbinezon Ponzi pwodui vrè rannman san limit
+   d) Efondreman pa gen okenn rapò ak estrikti konbinezon an
+
+3. Vrè oswa Fo: Premye "rannman" konsistan yon konbinezon Ponzi reflete yon vrè pèfòmans envestisman lejitim.
+
+4. Poukisa estrikti yon konbinezon Ponzi ranfòse dirèkteman prensip risk-rannman prensipal Leson 7 la?
+   a) Li pa gen okenn rapò ak prensip sa a ditou
+   b) Paske pa gen okenn vrè aktivite ki pwodui rannman yo pwomèt yo, peman konbinezon an pa gen okenn vrè rapò ak yon pèfòmans lejitim ajiste pou risk
+   c) Konbinezon Ponzi toujou ofri rannman ki ba e reyalis
+   d) Prensip Leson 7 la pa gen enpòtans pou rekonèt fwod
+
+**5. Kle repons yo**
+1. b  2. b  3. Fo  4. b
+
+**6. Repons ak eksplikasyon**
+1. Yon konbinezon Ponzi an jeneral peye premye envestisè yo ak lajan nouvo envestisè kontribye, se pa atravè yon vrè aktivite envestisman.
+2. Konbinezon an bezwen yon koule nouvo lajan ki toujou ap ogmante pou l kenbe peman yo, yon modèl ki pa dirab nan matematik yon fwa koule a ralanti.
+3. Konsistans aparan yon konbinezon Ponzi pa reflete yon vrè pèfòmans envestisman lejitim.
+4. Paske pa gen okenn vrè aktivite ki pwodui rannman yo pwomèt yo, peman konbinezon an pa gen okenn vrè rapò ak yon pèfòmans lejitim ajiste pou risk, sa ki ilistre dirèkteman prensip Leson 7 la.
+
+**7. Pwen kle yo**
+- Yon konbinezon Ponzi peye sa yo rele "rannman" ak lajan nouvo envestisè, se pa ak yon vrè aktivite envestisman.
+- Estrikti sa a fè efondreman alafen inevitab nan matematik, se pa sèlman pwobab.
+- Sa ranfòse dirèkteman prensip risk-rannman Leson 7 la, paske pa gen okenn vrè aktivite ki kreye valè dèyè peman yo.
+- Konbinezon Ponzi souvan montre siy danje Leson 12 dekri yo, akoz estrikti fondamantal yo ki pa dirab.
+
+===== GOLD-L2-014
+TITLE: Likidite: poukisa aksè a lajan kach enpòtan menm jan ak rannman
+SUMMARY: Likidite mezire konbyen fasil e vit ou ka konvèti yon byen an kach san pèdi anpil valè – li varye anpil selon klas byen, e bezwen aksè ou ka prevwa ta dwe peze anpil nan chwa ou.
+## GOLD-L2-014
+### Likidite: poukisa aksè a lajan kach enpòtan menm jan ak rannman
+
+**1. Objektif aprantisaj**
+Nan fen leson sa a, elèv la ap kapab:
+- Bay definisyon likidite nan yon nivo konseptyèl.
+- Esplike poukisa likidite se yon vrè konpwomi, se pa sèlman yon konsiderasyon segondè.
+- Konpare likidite atravè diferan klas byen nou kouvri nan pwogram sa a.
+
+**2. Kontni prensipal**
+Likidite vle di konbyen fasil e vit ou ka konvèti yon byen an lajan kach san yon gwo pèt valè. Sa se yon vrè dimansyon evalyasyon envestisman (sa ki raple kad Leson 11 la), apa de rannman ak risk e ki konplete yo: yon byen ki ofri yon rannman ou atann ki atiran ka toujou pa koresponn ak yon envestisè espesifik si pwofil likidite li pa koresponn ak vrè bezwen li pou yon aksè posib a kapital sa a.
+
+Likidite varye anpil atravè klas byen nivo sa a entegre: byen sou papye tankou aksyon yo komèse piblikman (WHITE-L2) an jeneral trè likid, ou ka souvan konvèti yo an kach nan kèk jou; imobilye (RED-L2) an jeneral anpil mwens likid, souvan sa pran plizyè mwa pou vann; e ekite nan biznis prive oswa kèk envestisman altènatif (Leson 18) ka menm mwens likid, pafwa san okenn mache ki disponib fasilman pou yon vant rapid ditou. Yon envestisè ki gen yon vrè bezwen ou ka prevwa pou yon aksè posib a kapital ta dwe bay likidite anpil pwa nan evalyasyon li, menm si yon opsyon ki mwens likid ofri yon rannman ou atann ki yon ti kras pi wo.
+
+**3. Egzanp pratik**
+Pandan l ap bati estrateji richès li, yon elèv ki gen yon bezwen ou ka prevwa pou yon aksè posib a kapital nan kèk ane k ap vini yo (sa ki raple diskisyon WHITE-L2-027 sou orizon tan) bay likidite anpil pwa espre nan alokasyon byen li, li favorize byen sou papye ki pi likid olye yon opòtinite sendikasyon imobilye ki atiran otreman men ki anpil mwens likid (sa ki raple RED-L2-029), espesyalman paske peryòd blokaj plizyè ane sendikasyon an pa t ap akomode vrè bezwen posib li pou aksè a kapital nan peryòd sa a, kèlkeswa rannman potansyèl li ki pi wo.
+
+**4. Egzamen pratik**
+1. Kisa likidite ye, nan yon nivo konseptyèl?
+   a) Total rannman ou atann nan yon envestisman
+   b) Konbyen fasil e vit ou ka konvèti yon byen an lajan kach san yon gwo pèt valè
+   c) Yon kalite kredi taks
+   d) Gwosè fizik yon envestisman
+
+2. Kijan likidite an jeneral konpare ant aksyon yo komèse piblikman ak imobilye?
+   a) Yo an jeneral idantik nan likidite
+   b) Aksyon yo komèse piblikman an jeneral anpil plis likid pase imobilye
+   c) Imobilye toujou pi likid pase aksyon yo komèse piblikman
+   d) Likidite pa gen okenn rapò ak klas byen
+
+3. Vrè oswa Fo: Yon envestisè ta dwe toujou chwazi opsyon ki gen pi gwo rannman ou atann, kèlkeswa pwofil likidite li konpare ak vrè bezwen li.
+
+4. Poukisa elèv la te favorize byen sou papye ki pi likid olye opòtinite sendikasyon imobilye a?
+   a) Sendikasyon an te ofri yon rannman ou atann ki pi ba
+   b) Bezwen li ou ka prevwa pou yon aksè posib a kapital pa t koresponn ak peryòd blokaj plizyè ane sendikasyon an
+   c) Likidite pa t gen okenn enpòtans nan desizyon li
+   d) Li pa t bezwen aksè a kapital nan okenn moman
+
+**5. Kle repons yo**
+1. b  2. b  3. Fo  4. b
+
+**6. Repons ak eksplikasyon**
+1. Likidite vle di konbyen fasil e vit ou ka konvèti yon byen an lajan kach san yon gwo pèt valè.
+2. Aksyon yo komèse piblikman an jeneral anpil plis likid pase imobilye, ki souvan pran plizyè mwa pou vann.
+3. Ou ta dwe peze likidite ansanm ak rannman ou atann ak risk, koresponn ak vrè bezwen yon envestisè pou aksè a kapital.
+4. Bezwen elèv la ou ka prevwa pou aksè a kapital te fè mank likidite sendikasyon an pa koresponn, malgre rannman potansyèl li ki pi wo.
+
+**7. Pwen kle yo**
+- Likidite mezire konbyen fasil e vit yon byen konvèti an lajan kach san yon gwo pèt valè.
+- Sa se yon vrè dimansyon evalyasyon, apa de rannman ak risk e ki konplete yo.
+- Likidite varye anpil atravè klas byen, soti nan aksyon piblik ki trè likid rive nan imobilye oswa ekite prive ki anpil mwens likid.
+- Vrè bezwen yon envestisè ou ka prevwa pou aksè a kapital ta dwe peze anpil nan balanse likidite kont rannman ou atann.
+
+===== GOLD-L2-015
+TITLE: Orizon tan ankò: fè byen yo koresponn ak objektif yo
+SUMMARY: Diferan objektif ak diferan orizon tan ak bezwen likidite ka merite klas byen totalman diferan, se pa sèlman alokasyon diferan – kesyon itil la se "kisa ki koresponn ak objektif espesifik sa a?"
+## GOLD-L2-015
+### Orizon tan ankò: fè byen yo koresponn ak objektif yo
+
+**1. Objektif aprantisaj**
+Nan fen leson sa a, elèv la ap kapab:
+- Ranfòse diskisyon WHITE-L2-027 sou orizon tan nan nivo entegrasyon, ak plizyè klas byen.
+- Esplike kijan diferan objektif ak diferan orizon tan ta ka merite diferan klas byen, se pa sèlman diferan alokasyon anndan youn.
+- Aplike konsèp sa a nan yon senaryo pou bati richès ak plizyè objektif.
+
+**2. Kontni prensipal**
+Lè l bati sou diskisyon WHITE-L2-027 sou plizyè orizon tan anndan byen sou papye, leson sa a pwolonje menm prensip la atravè seri klas byen pi laj nivo pakou GOLD sa a entegre. Menm jan yon objektif retrèt ak yon objektif kout tèm pou yon avans sou yon kay ta ka merite diferan alokasyon byen sou papye, diferan objektif ta ka merite yon fason rezonab klas byen totalman diferan: yon objektif alontèm pou bati richès ta ka akomode alèz mank likidite imobilye (Leson 14) oswa ekite nan biznis, alòske yon objektif ki pi kout tèm ki mande yon aksè ki pi sèten e likid a lajan an ta an jeneral favorize byen sou papye ki pi likid oswa ekivalan lajan kach pito.
+
+Sa ranfòse yon konpetans prensipal Nivo 2 aplike nan pi gwo echèl pwogram sa a ofri: olye w mande "ki pi bon envestisman an" nan abstrè, kesyon ki pi itil la se "ki klas byen ak ki envestisman espesifik ki pi byen koresponn ak orizon tan espesifik ak bezwen likidite objektif patikilye sa a" — yon kesyon ki ka bay repons diferan, ki valab menm jan, pou diferan objektif menm moun nan genyen an menm tan.
+
+**3. Egzanp pratik**
+Pandan l ap planifye pou ni yon objektif retrèt alontèm ni yon objektif pi kout tèm pou achte yon biznis nan kèk ane k ap vini yo, yon elèv rekonèt de objektif sa yo merite yon fason rezonab chwa klas byen diferan: lajan retrèt li, ak yon orizon plizyè deseni, akomode alèz yon melanj divèsifye ki gen ladan pozisyon imobilye ak ekite biznis ki mwens likid, alòske epay li pou achte biznis lan, li bezwen yo ak plis sètitid nan kèk ane, li kenbe yo nan byen ki anpil plis likid e ki mwens volatil, malgre rannman ou atann ki ka pi ba — yon aplikasyon ki fèt espre pou fè byen espesifik koresponn ak orizon tan chak objektif espesifik, olye aplike yon sèl estrateji inifòm atravè tout richès li.
+
+**4. Egzamen pratik**
+1. Kisa leson sa a pwolonje apati diskisyon WHITE-L2-027 la?
+   a) Yon konsèp ki pa gen okenn rapò ak orizon tan
+   b) Prensip orizon tan an, kounye a aplike atravè klas byen ki pi laj, pa sèlman anndan byen sou papye
+   c) Sèlman yon diskisyon sou volatilite mache aksyon
+   d) Yon konsèp ki limite sèlman a kont retrèt
+
+2. Poukisa diferan objektif ta ka merite klas byen totalman diferan, se pa sèlman diferan alokasyon anndan youn?
+   a) Tout objektif mande menm klas byen kèlkeswa orizon tan
+   b) Diferan orizon tan ak bezwen likidite ka favorize klas byen fondamantalman diferan, se pa sèlman diferan melanj anndan youn
+   c) Chwa klas byen pa gen okenn rapò ak orizon tan
+   d) Se sèlman byen sou papye ou ka janm itilize pou nenpòt objektif finansye
+
+3. Vrè oswa Fo: Ou ka toujou detèmine "pi bon envestisman an" nan abstrè, san okenn referans a orizon tan ak bezwen likidite yon objektif espesifik.
+
+4. Poukisa elèv la te chwazi diferan klas byen pou objektif retrèt li kont objektif pou achte biznis li?
+   a) Tou de objektif yo te gen orizon tan ak bezwen likidite idantik
+   b) Orizon tan ak bezwen likidite diferan objektif li yo te merite chwa klas byen diferan ki koresponn yon fason apwopriye
+   c) Li pa t gen okenn objektif espesifik pou l planifye otou yo
+   d) Chwa klas byen pa gen okenn rapò ak objektif espesifik
+
+**5. Kle repons yo**
+1. b  2. b  3. Fo  4. b
+
+**6. Repons ak eksplikasyon**
+1. Leson sa a pwolonje prensip orizon tan WHITE-L2-027 la nan nivo pi laj, ak plizyè klas byen, pakou GOLD sa a entegre.
+2. Diferan orizon tan ak bezwen likidite ka favorize klas byen fondamantalman diferan, se pa sèlman diferan alokasyon anndan youn.
+3. Pi bon chwa envestisman an depann de orizon tan ak bezwen likidite yon objektif espesifik, se pa yon detèminasyon abstrè e inivèsèl.
+4. Orizon tan ak bezwen likidite diferan de objektif elèv la te merite yon fason apwopriye chwa klas byen diferan ki koresponn.
+
+**7. Pwen kle yo**
+- Leson sa a pwolonje prensip orizon tan WHITE-L2-027 la atravè seri klas byen pi laj nivo sa a entegre.
+- Diferan objektif ka merite klas byen totalman diferan, se pa sèlman diferan alokasyon anndan yon sèl klas byen.
+- Kesyon itil la se pa "ki pi bon envestisman an" nan abstrè, men "kisa ki koresponn ak orizon tan ak bezwen likidite objektif espesifik sa a."
+- Menm moun nan ka aplike yon fason rezonab diferan estrateji klas byen pou diferan objektif li genyen an menm tan.
