@@ -1,0 +1,239 @@
+===== GREEN-L1-018
+TITLE: La situation de déclaration : célibataire, marié, chef de famille
+SUMMARY: Présente la notion de situation de déclaration et explique pourquoi la situation familiale et matrimoniale peut influer sur le calcul de l’impôt.
+# La situation de déclaration : célibataire, marié, chef de famille
+
+## Objectifs d’apprentissage
+
+- Expliquer ce que signifie la situation de déclaration.
+- Nommer les catégories de situation de déclaration courantes.
+- Expliquer, en termes généraux, pourquoi la situation de déclaration peut influer sur l’impôt à payer.
+
+## Contenu principal
+
+La situation de déclaration est une catégorie, fondée sur votre situation matrimoniale et familiale, que de nombreux systèmes fiscaux utilisent pour déterminer quels paliers, quels montants de déduction et quelles règles d’admissibilité s’appliquent à vous. Les catégories courantes comprennent célibataire, marié (parfois avec la possibilité de produire une déclaration conjointe ou séparée) et chef de famille (habituellement pour une personne non mariée qui subvient aux besoins de personnes à charge). Les appellations varient selon le pays; au Canada, par exemple, chaque personne produit sa propre déclaration, mais l’état civil et les personnes à charge influent tout de même sur certains crédits et prestations.
+
+La situation de déclaration compte parce qu’elle modifie le calcul de base — un même revenu peut mener à un montant d’impôt différent selon la situation qui s’applique, parce que les seuils des paliers et les montants de déduction standard sont souvent fixés différemment pour chaque catégorie. Ce n’est ni une échappatoire ni une astuce; cela reflète un jugement de politique publique selon lequel la composition du ménage influe sur la capacité financière réelle d’une personne ou d’une famille à payer l’impôt.
+
+## Exemple pratique
+
+**Question :** Deux personnes gagnent des salaires identiques, mais l’une est célibataire et l’autre subvient aux besoins de deux enfants à charge en tant que chef de famille. Vous attendriez-vous à ce que le calcul de leur impôt soit identique?
+
+**Étudiant :** Probablement pas, puisque la situation de déclaration change les paliers et les montants de déduction qui s’appliquent.
+
+**Guide :** Pourquoi le système fiscal pourrait-il traiter différemment le cas du chef de famille?
+
+**Étudiant :** Parce que subvenir aux besoins de personnes à charge influe sur la part de ce revenu réellement disponible pour les propres besoins de la personne, et la politique en tient compte.
+
+**Guide :** Exact — la situation de déclaration reflète un jugement sur la capacité financière, pas seulement sur le revenu brut.
+
+## Quiz pratique
+
+**Question 1.** La situation de déclaration repose sur :
+
+A) Votre titre d’emploi
+B) Votre situation matrimoniale et familiale
+C) Votre âge seulement
+D) Votre pays de naissance
+
+**Question 2.** Les catégories de situation de déclaration courantes comprennent :
+
+A) Célibataire, marié, chef de famille
+B) Seulement « employé » et « sans emploi »
+C) Seulement « riche » et « pauvre »
+D) Seulement « citoyen » et « non-citoyen »
+
+**Question 3.** La situation de déclaration peut influer sur :
+
+A) Rien
+B) Les paliers et les montants de déduction applicables
+C) Seulement votre nom sur le formulaire
+D) Seulement la taxe de vente
+
+**Question 4.** La raison pour laquelle la situation de déclaration compte est généralement décrite comme :
+
+A) Une échappatoire
+B) Le reflet d’une capacité financière différente selon la composition du ménage
+C) Le hasard
+D) Sans importance pour le calcul de l’impôt
+
+## Corrigé
+
+1. B, 2. A, 3. B, 4. B
+
+## Réponses et explications
+
+**1.** Les catégories de situation de déclaration sont construites autour de l’état matrimonial et des responsabilités familiales.
+
+**2.** Célibataire, marié et chef de famille sont des catégories largement utilisées, bien que les appellations exactes varient selon le pays.
+
+**3.** Des situations différentes s’accompagnent souvent de seuils de paliers et de montants de déduction différents.
+
+**4.** Le raisonnement de politique publique est que la composition du ménage influe sur la capacité financière réelle, et non qu’il s’agit d’une astuce ou d’une faille à exploiter.
+
+## Points clés
+
+- La situation de déclaration reflète la situation matrimoniale et familiale.
+- Les catégories courantes comprennent célibataire, marié et chef de famille.
+- La situation de déclaration influe sur les paliers et les montants de déduction applicables.
+- Cela reflète des jugements de politique publique sur la capacité financière, pas une échappatoire.
+
+===== GREEN-L1-019
+TITLE: Qu’est-ce qu’une déclaration de revenus, et pourquoi en produit-on une?
+SUMMARY: Explique le but de la déclaration de revenus : rapprocher les paiements estimés de l’impôt réellement dû pour l’année.
+# Qu’est-ce qu’une déclaration de revenus, et pourquoi en produit-on une?
+
+## Objectifs d’apprentissage
+
+- Définir une déclaration de revenus en termes simples.
+- Expliquer le rôle de rapprochement de la déclaration.
+- Relier la déclaration à la leçon précédente sur les retenues à la source.
+
+## Contenu principal
+
+Une déclaration de revenus est un document que vous soumettez au gouvernement pour déclarer votre revenu, vos déductions, vos crédits et l’impôt que vous calculez devoir pour l’année. Produire une déclaration est la façon dont le système fondé sur des estimations (les retenues à la source, vues plus tôt) est rapproché du montant réel et définitif.
+
+Voyez-la comme un règlement de fin d’année. Tout au long de l’année, l’impôt a été retenu ou des acomptes provisionnels ont été versés selon des prévisions. La déclaration additionne ce qui s’est réellement passé — le revenu réellement gagné, les déductions et crédits réellement demandés — et calcule le montant réellement dû. Si le total déjà payé dépasse ce montant réel, vous recevez un remboursement. S’il est insuffisant, vous devez la différence. Produire sa déclaration n’est pas une simple formalité facultative; dans la plupart des systèmes, c’est l’acte exigé par la loi qui règle définitivement votre obligation fiscale pour l’année.
+
+## Exemple pratique
+
+**Question :** Si un travailleur s’est fait retenir de l’impôt toute l’année et ne produit jamais de déclaration, son obligation fiscale est-elle officiellement réglée?
+
+**Étudiant :** Je dirais que non, puisque la retenue n’était qu’une estimation.
+
+**Guide :** Que fait réellement la déclaration que la retenue seule ne fait pas?
+
+**Étudiant :** Elle calcule le montant définitif réel en fonction de tout ce qui s’est réellement passé pendant l’année et le compare à ce qui a déjà été payé.
+
+**Guide :** Exact — la déclaration est l’étape de rapprochement, et dans la plupart des systèmes, elle est exigée par la loi, et non facultative.
+
+## Quiz pratique
+
+**Question 1.** Une déclaration de revenus se décrit le mieux comme :
+
+A) Une suggestion facultative
+B) Un document qui déclare le revenu, les déductions et les crédits pour calculer l’impôt dû
+C) La même chose qu’une retenue à la source
+D) Réservée aux entreprises
+
+**Question 2.** Produire une déclaration sert principalement à :
+
+A) Rapprocher les paiements estimés de l’impôt réellement dû
+B) Remplacer complètement la retenue à la source
+C) Éviter tous les impôts
+D) S’appliquer seulement aux travailleurs autonomes
+
+**Question 3.** Si les montants retenus dépassent l’impôt réellement dû, le résultat habituel est :
+
+A) Une pénalité
+B) Un remboursement
+C) Rien
+D) Une vérification automatique
+
+**Question 4.** La production d’une déclaration est-elle habituellement facultative dans la plupart des systèmes?
+
+A) Oui, toujours facultative
+B) Non, c’est habituellement une obligation légale
+C) Seulement pour les personnes riches
+D) Seulement pour les entreprises
+
+## Corrigé
+
+1. B, 2. A, 3. B, 4. B
+
+## Réponses et explications
+
+**1.** Une déclaration présente le portrait financier complet nécessaire pour calculer l’obligation fiscale réelle.
+
+**2.** La fonction essentielle de la déclaration est de comparer ce qui a déjà été payé à ce qui est réellement dû.
+
+**3.** Une retenue excédentaire, une fois rapprochée au moyen de la déclaration, revient sous forme de remboursement.
+
+**4.** Dans la plupart des systèmes, produire sa déclaration est une obligation légale, pas une politesse.
+
+## Points clés
+
+- Une déclaration de revenus présente le revenu, les déductions et les crédits pour calculer l’impôt réellement dû.
+- La déclaration rapproche les paiements estimés (comme les retenues) de l’obligation réelle.
+- Un trop-payé donne lieu à un remboursement; un paiement insuffisant donne lieu à un solde à payer.
+- Produire sa déclaration est habituellement une obligation légale, et non une option.
+
+===== GREEN-L1-020
+TITLE: Les remboursements d’impôt : pourquoi en obtenir un n’est pas toujours une victoire
+SUMMARY: Remet en perspective l’enthousiasme courant pour les remboursements d’impôt en expliquant ce qu’un remboursement représente réellement sur le plan financier.
+# Les remboursements d’impôt : pourquoi en obtenir un n’est pas toujours une victoire
+
+## Objectifs d’apprentissage
+
+- Expliquer ce qu’un remboursement d’impôt représente réellement.
+- Évaluer le compromis d’une retenue trop élevée tout au long de l’année.
+- Considérer le fait de « recevoir un gros remboursement » comme une décision de finances personnelles, et non automatiquement comme une bonne nouvelle.
+
+## Contenu principal
+
+Un remboursement d’impôt donne l’impression d’une aubaine, mais il est important de comprendre ce qu’il est réellement : votre propre argent, qui vous est rendu, que vous avez payé en trop tout au long de l’année par les retenues ou les acomptes provisionnels. Ce n’est ni une prime ni un cadeau du gouvernement — c’est un prêt sans intérêt que vous avez consenti au gouvernement, et qui vous est remboursé.
+
+Cela compte parce que cet argent est resté entre les mains du gouvernement toute l’année au lieu d’être à votre disposition — pour épargner, rembourser des dettes ou rapporter des intérêts dans votre propre compte. Un très gros remboursement indique souvent que la retenue était trop élevée par rapport à l’impôt réellement dû. Certaines personnes préfèrent tout de même un gros remboursement, qu’elles utilisent comme un outil d’épargne forcée, et c’est un choix personnel légitime — mais ce devrait être un choix conscient, et non une mauvaise compréhension de ce qui se passe réellement.
+
+## Exemple pratique
+
+**Question :** Un travailleur est ravi d’un gros remboursement annuel et parle d’« argent gratuit ». Comment présenteriez-vous la situation autrement?
+
+**Étudiant :** Je lui ferais remarquer que ce n’est pas gratuit — c’est son propre argent, payé en trop toute l’année, qui lui revient seulement maintenant.
+
+**Guide :** À quoi a-t-il renoncé en se faisant retenir cet argent au lieu de le garder?
+
+**Étudiant :** À la possibilité de l’utiliser ou de l’investir lui-même pendant l’année — l’argent est resté chez le gouvernement, essentiellement sous forme de prêt sans intérêt.
+
+**Guide :** Exactement — le remboursement lui-même n’est pas mauvais, mais parler d’« argent gratuit », c’est mal comprendre ce qui s’est réellement passé.
+
+## Quiz pratique
+
+**Question 1.** Un remboursement d’impôt représente :
+
+A) Un cadeau du gouvernement
+B) Votre propre argent payé en trop qui vous est rendu
+C) Une pénalité
+D) Un prêt du gouvernement envers vous
+
+**Question 2.** Un très gros remboursement indique souvent :
+
+A) Une planification fiscale parfaite
+B) Une retenue trop élevée par rapport à l’impôt réellement dû
+C) Une hausse d’impôt
+D) Rien de significatif
+
+**Question 3.** Que vous coûte un trop-payé par retenue, en termes d’occasion perdue?
+
+A) Rien
+B) L’usage de cet argent tout au long de l’année
+C) Des impôts supplémentaires
+D) Votre situation de déclaration
+
+**Question 4.** Vouloir un gros remboursement comme stratégie d’épargne forcée est-il parfois un choix légitime?
+
+A) Non, jamais
+B) Oui, en tant que choix conscient de finances personnelles
+C) Seulement pour les entreprises
+D) Seulement si la loi l’exige
+
+## Corrigé
+
+1. B, 2. B, 3. B, 4. B
+
+## Réponses et explications
+
+**1.** Un remboursement est simplement le retour de l’argent que vous avez payé en trop — pas un revenu supplémentaire venant du gouvernement.
+
+**2.** Un gros remboursement est un signal, pas un exploit, et signifie souvent que la retenue pourrait être ajustée plus près de l’impôt réellement dû.
+
+**3.** L’argent qui reste chez le gouvernement toute l’année ne vous rapporte pas d’intérêts et ne vous sert à rien.
+
+**4.** Certaines personnes font volontairement retenir trop d’impôt comme méthode d’épargne forcée, ce qui est un choix délibéré et légitime.
+
+## Points clés
+
+- Un remboursement d’impôt, c’est votre propre argent payé en trop qui revient, pas de l’argent gratuit du gouvernement.
+- Un gros remboursement signifie souvent que la retenue est plus élevée que nécessaire.
+- Payer en trop tout au long de l’année a un coût d’opportunité réel.
+- Choisir un gros remboursement comme épargne forcée est acceptable — à condition que ce soit un choix conscient.
