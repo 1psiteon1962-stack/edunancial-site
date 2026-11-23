@@ -97,3 +97,153 @@ Men "poukisa" li bezwen pi sofistike pase yon senp lis pousantaj aktyèl: yon ta
 ---
 
 *Leson sa a se sèlman pou edikasyon finansye jeneral, e li pa konstitye konsèy finansye, envestisman, taks, oswa legal pèsonalize. Konsilte yon pwofesyonèl ki gen lisans anvan ou pran desizyon sou estrikti equity.*
+
+===== BLUE-L3-023
+TITLE: Poukisa kalandriye akizisyon (vesting) pwoteje yon konpayi kont yon depa bonè
+SUMMARY: Aprann kijan kalandriye akizisyon (vesting) mache, poukisa yo egziste, ak poukisa fondatè ak anplwaye anjeneral touche pati pwopriyete yo ak tan olye yo resevwa l tout yon sèl kou.
+# BLUE-L3-023: Poukisa kalandriye akizisyon (vesting) pwoteje yon konpayi kont yon depa bonè
+
+## Objektif aprantisaj
+Lè w fin fè leson sa a, w ap kapab:
+- Esplike kisa yon kalandriye akizisyon (vesting) ye
+- Esplike poukisa vesting pwoteje yon konpayi si yon fondatè oswa yon anplwaye ale bonè
+- Esplike kisa yon "falèz" (cliff) vle di nan yon kalandriye vesting tipik
+
+## Kontni prensipal
+
+Yon **kalandriye akizisyon (vesting)** deside ki lè yon moun yo bay yon pati pwopriyete (yon fondatè, yon anplwaye, oswa pafwa yon konseye) vrèman touche tout pwopriyete aksyon sa yo ak tan, olye l resevwa tout pwopriyete a touswit depi lè yo ba li a.
+
+Men "poukisa" estrikti sa a egziste, sa ki konekte ak diskisyon sou tablo kapitalizasyon nan Leson 22: san vesting, yon moun ta ka resevwa yon gwo pati pwopriyete epi kite konpayi a prèske touswit, li ale ak yon pati pwopriyete enpòtan malgre li te kontribye ti kras nan vrè siksè konpayi a. Vesting pwoteje kont senaryo espesifik sa a lè l fè pwopriyete a akimile tou dousman, anjeneral sou plizyè ane, mare ak patisipasyon kontinyèl moun nan nan konpayi a.
+
+[FÈ VERIFYE] Yon estrikti vesting komen gen ladan l yon **falèz (cliff)** — souvan yon ane — pandan okenn aksyon pa vin pou moun nan ditou; si moun nan ale anvan li rive nan falèz la, li pa resevwa okenn pati pwopriyete ditou, menm si tan pase depi yo te ba li l. Apre falèz la, rès aksyon yo souvan vin pou li tou dousman, pafwa chak mwa oswa chak twa mwa, sou rès peryòd vesting la (souvan kat ane an tout, menm si estrikti espesifik yo varye selon konpayi ak akò).
+
+## Egzanp pratik
+
+[EGZANP ILISTRATIF] Yon startup bay yon nouvo ko-fondatè yon pati pwopriyete ki swiv yon kalandriye vesting kat ane ak yon falèz yon ane. Si ko-fondatè sa a kite konpayi a apre sèlman uit mwa — anvan li rive nan falèz yon ane a — li pa resevwa okenn pati pwopriyete ditou dapre kalandriye vesting la, malgre yo te ba li aksyon okòmansman. [SIPOZISYON] Si li te pito rete de ane konplè anvan li ale, li t ap touche apeprè mwatye nan total aksyon yo te ba li, sa ki reflete vrè peryòd li te kontribye a, alòske mwatye ki rete a, li poko touche, ta anjeneral tounen bay konpayi a olye l rete avè l.
+
+## Egzamen pratik
+
+1. Kisa yon kalandriye vesting deside?
+2. Poukisa vesting pwoteje yon konpayi si yon fondatè oswa yon anplwaye ale bonè?
+3. Kisa yon "falèz" (cliff) ye nan yon kalandriye vesting tipik?
+
+## Kle repons yo
+
+1. Ki lè yon moun yo bay yon pati pwopriyete vrèman touche tout pwopriyete aksyon sa yo ak tan, olye touswit lè yo ba li yo.
+2. Paske san vesting, yon moun ta ka ale prèske touswit apre li resevwa yon pati pwopriyete pandan l toujou kenbe yon gwo pati, malgre li te kontribye ti kras nan konpayi a.
+3. Yon peryòd, souvan yon ane, pandan okenn aksyon pa vin pou moun nan ditou — si moun nan ale anvan li rive nan falèz la, li pa resevwa okenn pati pwopriyete, menm si tan pase depi yo te ba li l.
+
+## Repons ak eksplikasyon
+
+1. Sa a se definisyon debaz leson an.
+2. Sa a se "poukisa" santral ki esplike objektif pwoteksyon vesting la.
+3. Sa esplike yon karakteristik espesifik, komen nan estrikti vesting tipik yo.
+
+## Pwen kle yo
+- Kalandriye vesting fè pati pwopriyete a akimile tou dousman ak tan, olye moun nan posede l nèt touswit lè yo ba li l.
+- Sa pwoteje yon konpayi kont yon moun ki ale bonè pandan l toujou kenbe yon gwo pati pwopriyete li pa t vrèman touche.
+- Yon estrikti komen gen ladan l yon falèz yon ane ki swiv pa yon vesting tou dousman, souvan sou yon peryòd total kat ane.
+
+---
+
+*Leson sa a se sèlman pou edikasyon finansye jeneral, e li pa konstitye konsèy finansye, envestisman, taks, oswa legal pèsonalize. Konsilte yon pwofesyonèl ki gen lisans anvan ou estriktire nenpòt akò konpansasyon an equity.*
+
+===== BLUE-L3-024
+TITLE: Poukisa dilisyon se pri pou chèche kapital deyò
+SUMMARY: Aprann poukisa chèche lajan lè w vann equity diminye pousantaj pwopriyetè ki la deja yo, ak poukisa dilisyon pa otomatikman yon move bagay.
+# BLUE-L3-024: Poukisa dilisyon se pri pou chèche kapital deyò
+
+## Objektif aprantisaj
+Lè w fin fè leson sa a, w ap kapab:
+- Esplike kisa dilisyon vle di lè yon konpayi chèche nouvo kapital an equity
+- Esplike poukisa dilisyon diminye pousantaj pwopriyetè ki la deja yo men pa nesesèman valè pati yo
+- Esplike poukisa dilisyon se yon konsekans natirèl, yo atann, lè w chèche kapital deyò, pa yon erè an li menm
+
+## Kontni prensipal
+
+**Dilisyon** rive lè yon konpayi bay nouvo aksyon — anjeneral pou l chèche kapital nan men nouvo envestisè — sa ki diminye pousantaj pwopriyete aksyonè ki la deja yo, paske kantite total aksyon yo ogmante alòske kantite aksyon chak aksyonè ki la deja genyen rete menm jan.
+
+Men "poukisa" diminisyon pousantaj sa a pa nesesèman vle di pwopriyetè ki la deja yo nan pi move pozisyon: si yo itilize kapital yo chèche a efikasman pou fè valè jeneral konpayi a grandi, aksyonè ki la deja yo ka fini pa posede yon pi piti pousantaj nan yon konpayi ki pi gwo anpil, ki gen plis valè — sa ki ka bay yon valè total ki pi gwo pou pati yo ki diminye a pase yon pi gwo pousantaj nan yon konpayi ki pi piti, ki gen mwens kapital, ta vo.
+
+[FÈ VERIFYE] Sa konekte dirèkteman ak diskisyon Leson 20 sou finanse tèt ou konpare ak chèche kapital: dilisyon se mekanis dirèk, ou ka mezire, kote bò "bay yon pati nan pwopriyete a" nan chwa sa a vrèman rive — se yon konsekans natirèl, yo atann, lè w chèche kapital deyò an equity, pa yon prèv ke yon bagay mal pase, menm si yon dilisyon twòp oswa mal negosye atravè plizyè wonn finansman se yon enkyetid lejitim ki merite pou yo jere l ak anpil atansyon.
+
+## Egzanp pratik
+
+[EGZANP ILISTRATIF] Yon fondatè posede 100% konpayi li lè li vo $1 milyon. Li chèche kapital nan men envestisè, li bay nouvo aksyon ki dilye pwopriyete li desann a 70% konpayi a. [SIPOZISYON] Si yo itilize kapital sa a efikasman e valè konpayi a grandi rive $10 milyon kòm rezilta, pati 70% li a ($7 milyon) vo plis anpil pase premye pati 100% li nan konpayi $1 milyon an te janm vo — sa ki montre poukisa dilisyon, nan ka espesifik sa a, pa t an reyalite yon pèt pou li malgre pousantaj pwopriyete li te diminye.
+
+## Egzamen pratik
+
+1. Kisa dilisyon vle di lè yon konpayi bay nouvo equity?
+2. Poukisa yon diminisyon nan pousantaj pwopriyete pa nesesèman vle di pwopriyetè ki la deja yo nan pi move pozisyon?
+3. Kijan leson sa a konekte ak diskisyon Leson 20 sou finanse tèt ou konpare ak chèche kapital?
+
+## Kle repons yo
+
+1. Pousantaj pwopriyete aksyonè ki la deja yo diminye paske yo bay nouvo aksyon, sa ki ogmante total aksyon yo alòske kantite aksyon pwòp chak aksyonè ki la deja rete menm jan.
+2. Paske si yo itilize kapital yo chèche a efikasman pou fè valè jeneral konpayi a grandi, yon pi piti pousantaj nan yon konpayi ki pi gwo anpil, ki gen plis valè, ka vo plis pase yon pi gwo pousantaj nan yon konpayi ki pi piti.
+3. Dilisyon se mekanis espesifik, ou ka mezire, kote chwa sou pwopriyete yo dekri nan Leson 20 la vrèman rive lè yon konpayi chwazi chèche kapital deyò olye l finanse tèt li.
+
+## Repons ak eksplikasyon
+
+1. Sa a se definisyon debaz leson an.
+2. Sa a se konpreyansyon santral, ki rasire moun, ke dilisyon pa otomatikman fè mal.
+3. Sa konekte leson an klèman ak chwa finansman ki pi laj yo te prezante pi bonè nan tras la.
+
+## Pwen kle yo
+- Dilisyon diminye pousantaj pwopriyete aksyonè ki la deja yo lè yo bay nouvo aksyon pou chèche kapital.
+- Yon pi piti pousantaj nan yon konpayi ki grandi anpil nan valè ka toujou bay plis valè total pase yon pi gwo pousantaj nan yon konpayi ki pi piti.
+- Dilisyon se mekanis dirèk ki dèyè chwa sou pwopriyete lè w chèche kapital deyò, e yo atann li, li pa yon erè an li menm — menm si yo ta dwe toujou jere l ak atansyon atravè wonn finansman yo.
+
+---
+
+*Leson sa a se sèlman pou edikasyon finansye jeneral, e li pa konstitye konsèy finansye, envestisman, taks, oswa legal pèsonalize. Tout chif yo se estimasyon pou ilistrasyon, yo pa garanti. Konsilte yon pwofesyonèl ki gen lisans anvan ou pran desizyon sou chèche finansman an equity.*
+
+===== BLUE-L3-025
+TITLE: Poukisa yon "term sheet" fikse kondisyon yo anvan yo ekri vrè kontra a
+SUMMARY: Aprann kisa yon term sheet (fèy kondisyon) fè lè w ap chèche finansman an equity, ak poukisa li fonksyone yon fason ki sanble ak yon LOI lè w ap achte yon biznis.
+# BLUE-L3-025: Poukisa yon "term sheet" fikse kondisyon yo anvan yo ekri vrè kontra a
+
+## Objektif aprantisaj
+Lè w fin fè leson sa a, w ap kapab:
+- Esplike kisa yon term sheet (fèy kondisyon) ye lè w ap chèche finansman an equity
+- Esplike kijan yon term sheet fonksyone yon fason ki sanble ak konsèp LOI Leson 6 la
+- Idantifye kondisyon kle yon term sheet tipik genyen
+
+## Kontni prensipal
+
+Yon **term sheet** (fèy kondisyon) lè w ap chèche finansman an equity dekri kondisyon kle yo pwopoze pou yon envestisman — valè konpayi a, kantite lajan y ap chèche, kalite aksyon y ap bay, dwa envestisè yo, ak lòt dispozisyon enpòtan — anvan yo ekri akò envestisman legal konplè, detaye yo.
+
+Men "poukisa" sa sanble anpil ak diskisyon Leson 6 sou yon lèt entansyon lè w ap achte yon biznis: menm jan ak yon LOI, yon term sheet anjeneral pa mare w pou pifò kondisyon serye li yo, sa ki pèmèt tou de, konpayi a ak envestisè a, aliyen sou gwo pwen tranzaksyon an e avanse nan verifikasyon ak dokiman legal detaye, san okenn bò pa mare nèt nan tranzaksyon an jiskaske yo siyen akò final yo — alòske, menm jan an, kèk dispozisyon (tankou konfidansyalite oswa yon peryòd eksklizivite limite) souvan estriktire pou yo mare w menm anndan yon term sheet ki otreman pa mare w.
+
+[FÈ VERIFYE] Kondisyon komen yo jwenn nan yon term sheet equity gen ladan yo valè konpayi a (souvan ak diferans ant valè "anvan lajan an" ak "apre lajan an"), kantite kapital y ap chèche, kalite equity y ap bay (souvan aksyon preferansyèl ak dwa espesifik), ak plizyè pwoteksyon ak dwa gouvènans pou envestisè yo — chak se yon pwen negosyasyon enpòtan anvan yo prepare dokiman legal final yo.
+
+## Egzanp pratik
+
+[EGZANP ILISTRATIF] Yon startup ak yon envestisè posib negosye e siyen yon term sheet ki dekri yon kantite envestisman yo pwopoze, yon valè yo dakò, ak kalite aksyon preferansyèl y ap bay, ansanm ak yon peryòd eksklizivite 45 jou ki mare yo. [SIPOZISYON] Pandan peryòd sa a, tou de bò yo travay sou verifikasyon legal e yo ekri akò envestisman konplè yo. Si yon gwo pwoblèm parèt pandan pwosesis sa a, kondisyon serye term sheet la ki pa mare yo — valè, kantite, estrikti — ka toujou renegosye oswa yo ka abandone tranzaksyon an, sa ki reflete egzakteman menm fleksibilite ki pa mare w yo dekri pou yon LOI nan Leson 6 la, aplike isit la nan yon kontèks envestisman an equity olye achte yon biznis.
+
+## Egzamen pratik
+
+1. Kisa yon term sheet dekri lè w ap chèche finansman an equity?
+2. Kijan estrikti sa ki mare w ak sa ki pa mare w nan yon term sheet sanble ak konsèp LOI Leson 6 la?
+3. Nonmen de kondisyon komen yon term sheet equity anjeneral genyen.
+
+## Kle repons yo
+
+1. Kondisyon kle yo pwopoze pou yon envestisman — valè, kantite y ap chèche, kalite aksyon, dwa envestisè, ak lòt dispozisyon enpòtan — anvan yo ekri akò legal konplè yo.
+2. Menm jan ak yon LOI, kondisyon serye yo anjeneral pa mare w, sa ki bay fleksibilite anvan yo siyen dokiman final yo, alòske dispozisyon espesifik tankou konfidansyalite oswa eksklizivite souvan estriktire pou yo mare w.
+3. Nenpòt de nan: valè konpayi a (anvan lajan an/apre lajan an), kantite kapital y ap chèche, kalite equity y ap bay, pwoteksyon ak dwa gouvènans pou envestisè.
+
+## Repons ak eksplikasyon
+
+1. Sa a se definisyon debaz leson an.
+2. Sa konekte konsèp la klèman ak diskisyon paralèl sou LOI pi bonè nan tras sa a, sa ki ranfòse estrikti entegre a.
+3. Sa teste si w konprann kontni pratik yo anjeneral negosye nan yon term sheet.
+
+## Pwen kle yo
+- Yon term sheet dekri kondisyon kle yo pwopoze pou yon envestisman anvan yo ekri akò legal konplè yo.
+- Li fonksyone yon fason ki sanble ak yon LOI pou achte yon biznis: pifò kondisyon serye yo pa mare w, ak kèk dispozisyon tankou eksklizivite ki souvan mare w.
+- Kondisyon komen yo gen ladan yo valè, kantite kapital, kalite aksyon, ak dwa envestisè, chak sijè a negosyasyon anvan dokiman final yo.
+
+---
+
+*Leson sa a se sèlman pou edikasyon finansye jeneral, e li pa konstitye konsèy finansye, envestisman, taks, oswa legal pèsonalize. Konsilte yon avoka ki gen lisans anvan ou siyen nenpòt term sheet oswa akò envestisman.*
