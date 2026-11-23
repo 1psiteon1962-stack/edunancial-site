@@ -47,3 +47,153 @@ Anvan w voye yon kominikasyon alekri ki enpòtan — yon evalyasyon pèfòmans, 
 ---
 
 *Leson sa a se sèlman pou edikasyon lidèchip jeneral, e li pa konstitye konsèy legal pèsonalize. Konsilte yon avoka ki gen lisans nan dwa travay pou konsèy ki espesifik pou pratik kominikasyon nan travay.*
+
+===== BLACK-L3-007
+TITLE: Poukisa sistèm pèmèt grandi, e biznis ki depann de prezans mèt la rive nan yon limit
+SUMMARY: Aprann poukisa yon biznis ki depann nèt de prezans pèsonèl mèt la chak jou gen yon plafon fiks sou kwasans li, ak poukisa bati sistèm se sa ki retire plafon sa a.
+# BLACK-L3-007: Poukisa sistèm pèmèt grandi, e biznis ki depann de prezans mèt la rive nan yon limit
+
+## Objektif aprantisaj
+Lè w fin fè leson sa a, w ap kapab:
+- Esplike poukisa yon biznis ki depann nèt de prezans mèt la gen yon plafon kwasans ki nan nati li
+- Konekte konsèp sa a ak dekouvèt sou sistèm ak diferans ant travay endepandan ak vrè pwopriyete biznis yo kouvri lòt kote nan kourikoulòm sa a
+- Esplike sa sistèm vrèman fè pou retire plafon sa a
+
+## Kontni prensipal
+
+Zouti ansèyman fondamantal kourikoulòm sa a fè diferans ant travay endepandan (kote pwòp travay dirèk ak prezans yon moun pwodui revni an) ak vrè pwopriyete biznis (kote sistèm ak anplwaye pwodui revni endepandaman de prezans konstan nenpòt sèl moun). Men "poukisa" diferans sa a mete yon plafon kwasans fiks pou yon operasyon ki depann de prezans mèt la: si chak inite pwodiksyon mande patisipasyon dirèk mèt la li menm — yon desizyon espesifik sèlman li ka pran, yon relasyon sèlman li ka jere, yon travay sèlman li konnen kijan pou fè — kapasite total biznis lan limite pa kantite èdtan moun sa a genyen, kèlkeswa jan li travay di oswa konbyen demann ki genyen.
+
+Men "poukisa" sistèm retire plafon sa a: yon pwosesis ki dokimante, yon manm ekip ki fòme ki ka pran yon desizyon san l pa bezwen voye l monte, yon fason ou ka repete pou jere yon relasyon — sa yo transfere kapasite ki te fèmen anvan anndan tèt ak kalandriye yon sèl moun nan yon bagay òganizasyon an ka egzekite san patisipasyon dirèk, konstan moun sa a, sa ki konekte dirèkteman ak prensip delegasyon kòm jesyon risk Leson 2 la.
+
+Ki travay oswa desizyon espesifik nan biznis ou kounye a ki mande patisipasyon dirèk, pèsonèl ou e yon sistèm ki dokimante oswa yon manm ekip ki fòme pa t ka jere? Kisa sa t ap mande pou chanje sa?
+
+## Egzanp pratik
+
+[EGZANP ILISTRATIF] Yon mèt biznis jere li menm chak gwo relasyon ak kliyan, chak desizyon sou pri, ak chak verifikasyon kalite, sa vle di pwodiksyon total biznis lan limite pa konbyen èdtan yon sèl moun sa a ka travay li menm. [SIPOZISYON] Lè l dokimante kritè desizyon yo itilize pou pri, fòme yon manm ekip pou jere relasyon ak kliyan avèk yon gid klè, e etabli yon sistèm verifikasyon kalite ki pa mande mèt la revize chak atik li menm, kapasite biznis lan pa limite ankò a sa yon sèl moun ka fè li menm — sa ki fè eko dirèkteman ak prensip sistèm pèmèt grandi ki nan kè zouti ansèyman fondamantal kourikoulòm sa a.
+
+## Egzamen pratik
+
+1. Poukisa yon biznis ki depann nèt de prezans mèt la gen yon plafon kwasans ki nan nati li?
+2. Kijan leson sa a konekte ak diferans ant travay endepandan ak pwopriyete biznis yo kouvri lòt kote nan kourikoulòm sa a?
+3. Kisa sistèm vrèman fè pou retire plafon kwasans leson sa a dekri a?
+
+## Kle repons yo
+
+1. Paske kapasite pwodiksyon total biznis lan limite pa sa nenpòt sèl moun ka fè li menm, kèlkeswa demann oswa efò.
+2. Travay endepandan depann de pwòp travay dirèk ak prezans moun nan pou revni; vrè pwopriyete biznis depann de sistèm ak anplwaye ki pwodui revni endepandaman de patisipasyon konstan nenpòt sèl moun — leson sa a aplike dirèkteman diferans fondamantal sa a.
+3. Yo transfere kapasite ki te fèmen anvan anndan tèt ak kalandriye yon sèl moun nan pwosesis ki dokimante ak manm ekip ki fòme ki ka egzekite san patisipasyon dirèk, konstan moun sa a.
+
+## Repons ak eksplikasyon
+
+1. Sa a se "poukisa" santral leson an bati sou li.
+2. Sa konekte leson an klèman ak zouti ansèyman fondamantal kourikoulòm sa a.
+3. Sa ranfòse mekanis sistèm itilize pou vrèman rezoud pwoblèm lan.
+
+## Pwen kle yo
+- Yon biznis ki depann nèt de prezans pèsonèl mèt la gen yon plafon kwasans fiks, limite pa tan yon sèl moun genyen.
+- Sa reflete dirèkteman diferans ant travay endepandan ak pwopriyete ki se fondasyon premye leson kourikoulòm sa a.
+- Sistèm — pwosesis ki dokimante, moun ki fòme pou pran desizyon — retire plafon sa a lè yo transfere kapasite deyò tèt ak kalandriye nenpòt sèl moun.
+
+---
+
+*Leson sa a se sèlman pou edikasyon lidèchip jeneral, e li pa konstitye konsèy finansye, envestisman, taks, oswa legal pèsonalize. Konsilte yon pwofesyonèl ki gen lisans anvan w pran desizyon pou fè biznis ou grandi.*
+
+===== BLACK-L3-008
+TITLE: Poukisa planifikasyon siksesyon se yon responsablite lidèchip, pa sèlman yon kesyon planifikasyon eritaj
+SUMMARY: Aprann poukisa planifikasyon siksesyon nan òganizasyon an se yon disiplin lidèchip ki apa de, men ki konekte ak, planifikasyon eritaj pèsonèl yo kouvri lòt kote nan kourikoulòm sa a.
+# BLACK-L3-008: Poukisa planifikasyon siksesyon se yon responsablite lidèchip, pa sèlman yon kesyon planifikasyon eritaj
+
+## Objektif aprantisaj
+Lè w fin fè leson sa a, w ap kapab:
+- Fè diferans ant planifikasyon siksesyon nan òganizasyon an ak planifikasyon eritaj pèsonèl yo kouvri nan tras PURPLE kourikoulòm sa a
+- Esplike poukisa planifikasyon siksesyon lidèchip enpòtan menm pou lidè ki pa gen plan pou yo pati byento
+- Esplike poukisa sa se yon responsablite lidèchip apa, ki kontinye, pa yon dokiman yo fè yon sèl fwa
+
+## Kontni prensipal
+
+Tras PURPLE ak BLUE kourikoulòm sa a te kouvri planifikasyon eritaj pèsonèl ak planifikasyon siksesyon biznis pou lè yon mèt finalman sòti. Men "poukisa" leson sa a trete yon konsèp ki gen rapò men ki apa: siksesyon lidèchip nan òganizasyon an — idantifye e devlope ki moun ki ta ka pran gwo pòs lidèchip si yon lidè aktyèl pati, resevwa yon pwomosyon, oswa vin pa disponib san yo pa t atann — se yon disiplin lidèchip ki kontinye, pa yon dokiman legal yo fè yon sèl fwa pou yo depoze e bliye.
+
+Men "poukisa" sa enpòtan menm pou yon lidè ki pa gen plan pou l pati byento, sa ki fè eko ak pwen leson sou planifikasyon eritaj la ke evènman ou pa t atann pa tann bon moman: yon lidè ki pa t devlope siksesè potansyèl aktivman kite òganizasyon an vilnerab a egzakteman kalite deranjman yon plan eritaj ki dokimante sipoze anpeche nan nivo pèsonèl — sèlman isit la, vilnerabilite a nan nivo òganizasyon an, e li afekte byen plis pase zafè yon sèl fanmi.
+
+Ki moun nan òganizasyon ou ki ta ka pran yon gwo pòs lidèchip demen si sa ta nesesè, e kisa espesyalman ou te fè, pi lwen pase senpleman espere yo ta konprann kijan pou yo fè, pou vrèman prepare yo pou posiblite sa a?
+
+## Egzanp pratik
+
+[EGZANP ILISTRATIF] Yon lidè ki an bon sante, ki pa gen plan pou l pati byento, konsidere planifikasyon siksesyon pa nesesè pou kounye a, e li konsantre nèt sou priyorite operasyon aktyèl yo. [SIPOZISYON] Si lidè sa a vin pa disponib san yo pa t atann — akoz yon maladi, yon depa ou pa t atann, oswa yon opòtinite toudenkou yon lòt kote — òganizasyon an dekouvri pèsonn pa t devlope oswa prepare aktivman pou pran pòs lidèchip la, sa ki kreye egzakteman kalite deranjman ak ensètitid leson sou planifikasyon eritaj pèsonèl yo lòt kote nan kourikoulòm sa a te avèti kont li nan nivo fanmi, men kounye a l ap pase nan tout yon òganizasyon ak anplwaye li yo.
+
+## Egzamen pratik
+
+1. Kijan planifikasyon siksesyon lidèchip nan òganizasyon an diferan de planifikasyon eritaj pèsonèl yo kouvri lòt kote nan kourikoulòm sa a?
+2. Poukisa planifikasyon siksesyon lidèchip enpòtan menm pou yon lidè ki pa gen plan pou l pati byento?
+3. Ki tès pratik, kontinyèl, leson sa a pwopoze pou evalye si yon òganizasyon pare pou siksesyon?
+
+## Kle repons yo
+
+1. Planifikasyon eritaj trete transfè byen pèsonèl lè yon moun mouri; planifikasyon siksesyon nan òganizasyon an trete ki moun ki ta ka pran gwo pòs lidèchip, yon disiplin operasyon ak devlopman ki kontinye olye yon dokiman legal yo fè yon sèl fwa.
+2. Paske evènman ou pa t atann (maladi, depa toudenkou, opòtinite ou pa t prevwa) pa tann bon moman, sa ki fè eko ak menm prensip yo kouvri pou planifikasyon eritaj pèsonèl lòt kote nan kourikoulòm sa a.
+3. Ki moun ki ta ka pran yon gwo pòs lidèchip demen si sa ta nesesè, e kisa yo vrèman fè pou prepare yo, pi lwen pase senpleman espere yo ta konprann kijan pou yo fè.
+
+## Repons ak eksplikasyon
+
+1. Sa a se diferans santral leson an bati sou li.
+2. Sa konekte leson an klèman ak yon prensip paralèl yo kouvri lòt kote nan kourikoulòm sa a.
+3. Sa ranfòse evalyasyon pratik, ou ka aplike, leson an rekòmande.
+
+## Pwen kle yo
+- Planifikasyon siksesyon lidèchip nan òganizasyon an apa de planifikasyon eritaj pèsonèl, menm si tou de pataje menm prensip debaz "evènman ou pa t atann pa tann".
+- Sa se yon disiplin lidèchip ki kontinye ki mande pou devlope siksesè potansyèl aktivman, pa yon dokiman yo fè yon sèl fwa.
+- Siksesyon lidèchip enpòtan menm pou lidè ki pa gen plan pou yo pati byento, akoz vrè risk pou yo vin pa disponib san yo pa t atann.
+
+---
+
+*Leson sa a se sèlman pou edikasyon lidèchip jeneral, e li pa konstitye konsèy finansye, envestisman, taks, oswa legal pèsonalize. Konsilte yon pwofesyonèl ki gen lisans pou konsèy ki espesifik pou bezwen planifikasyon siksesyon òganizasyon ou.*
+
+===== BLACK-L3-009
+TITLE: Poukisa style lidèchip ta dwe chanje pandan yon konpayi ap grandi
+SUMMARY: Aprann poukisa style lidèchip ki mete men nan tout bagay, ki mache byen pou yon ti ekip, vin yon blokaj pandan yon òganizasyon ap grandi, e poukisa adapte mande yon vrè efò fèt espre.
+# BLACK-L3-009: Poukisa style lidèchip ta dwe chanje pandan yon konpayi ap grandi
+
+## Objektif aprantisaj
+Lè w fin fè leson sa a, w ap kapab:
+- Esplike poukisa yon style lidèchip ki byen adapte pou yon ti ekip ka vin yon blokaj pandan yon òganizasyon ap grandi
+- Konekte konsèp sa a ak prensip sistèm pèmèt grandi Leson 7 la
+- Esplike poukisa adapte style lidèchip mande yon efò fèt espre, pa sèlman bon entansyon
+
+## Kontni prensipal
+
+Leson 7 te etabli ke se sistèm, pa prezans yon sèl moun, ki pèmèt yon biznis grandi. Men "poukisa" espesifik pwòp style jesyon yon lidè bezwen evolye ansanm ak kwasans sa a: yon apwòch lidèchip ki mete men nan tout bagay, ki angaje pwofondman — revize chak desizyon li menm, rete byen konekte ak chak manm ekip — vrèman mache byen, e li ka menm nesesè, pou yon ti ekip, kote yon lidè ka reyalis kenbe nivo patisipasyon dirèk sa a.
+
+Men "poukisa" menm style sa a vin yon blokaj pandan òganizasyon an ap grandi: kantite desizyon ak relasyon yon lidè ka jere li menm, dirèkteman, pa grandi nan menm pwopòsyon ak kantite anplwaye — yon lidè ki kontinye ensiste pou l patisipe li menm nan desizyon yo ta ka delege kounye a (sa ki fè eko ak Leson 2) vin faktè ki limite vitès ak kwasans òganizasyon an, egzakteman plafon depandans sou prezans Leson 7 la te dekri a, sèlman kounye a se lidè a li menm ki kreye l lè l refize adapte olye se yon mank sistèm ki disponib.
+
+Ki abitid lidèchip ki te sèvi w byen lè ekip ou te pi piti ki ta ka kounye a ap kreye egzakteman blokaj leson sa a dekri a? Kisa ou ta bezwen lage, e ki sistèm oswa ki moun ou fè konfyans ki ta bezwen pran plas li?
+
+## Egzanp pratik
+
+[EGZANP ILISTRATIF] Yon lidè ki te bati yon ti ekip lè l te revize chak desizyon li menm e l te rete byen angaje nan chak pwojè kontinye menm apwòch sa a pandan òganizasyon an ap grandi anpil. [SIPOZISYON] Sa ki te asire kalite ak koyezyon anvan kounye a kreye yon blokaj — desizyon yo ap tann nan liy pou atansyon pèsonèl lidè sa a, manm ekip yo santi yo pa gen pouvwa pou yo aji san yon apwobasyon klè, e vitès òganizasyon an ralanti pou l koresponn ak sa yon sèl moun ka revize li menm, olye sa ekip ki vin pi gwo a ta ka vrèman reyalize si yo te ba li pouvwa e konfyans ak bon sistèm an plas.
+
+## Egzamen pratik
+
+1. Poukisa yon style lidèchip ki byen adapte pou yon ti ekip ka vin yon blokaj pandan òganizasyon an ap grandi?
+2. Kijan leson sa a konekte ak prensip sistèm pèmèt grandi Leson 7 la?
+3. Kisa adapte style lidèchip mande, pi lwen pase senpleman bon entansyon?
+
+## Kle repons yo
+
+1. Paske kantite desizyon ak relasyon yon lidè ka jere li menm pa grandi nan menm pwopòsyon ak kantite anplwaye, sa ki fè patisipasyon pèsonèl kontinyèl nan chak desizyon vin yon faktè ki limite vitès òganizasyon an.
+2. Leson sa a montre ke plafon depandans sou prezans Leson 7 la dekri a ka kreye ankò lè yon lidè li menm refize adapte style jesyon li, menm lè sistèm ak delegasyon disponib.
+3. Yon efò fèt espre pou vrèman lage desizyon ak relasyon espesifik, pou ranplase patisipasyon pèsonèl ak sistèm ou fè konfyans oswa manm ekip ki gen pouvwa, pa sèlman yon entansyon pou delege plis.
+
+## Repons ak eksplikasyon
+
+1. Sa a se "poukisa" santral leson an bati sou li.
+2. Sa konekte leson an klèman ak Leson 7, sa ki ranfòse estrikti entegre tras la.
+3. Sa ranfòse nati pratik, ki mande efò, adaptasyon leson an rekòmande a.
+
+## Pwen kle yo
+- Yon style lidèchip ki mete men nan tout bagay, ki byen adapte pou yon ti ekip, ka vin yon vrè blokaj pandan òganizasyon an ap grandi.
+- Sa kreye ankò plafon depandans sou prezans Leson 7 la dekri a, fwa sa a akoz lidè a li menm ki refize adapte.
+- Adapte style lidèchip mande yon efò fèt espre pou ranplase patisipasyon pèsonèl ak sistèm ak manm ekip ki gen pouvwa.
+
+---
+
+*Leson sa a se sèlman pou edikasyon lidèchip jeneral, e li pa konstitye konsèy finansye, envestisman, taks, oswa legal pèsonalize. Konsilte yon pwofesyonèl ki gen lisans anvan w pran desizyon sou lidèchip nan òganizasyon.*
