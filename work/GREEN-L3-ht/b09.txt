@@ -1,0 +1,99 @@
+===== GREEN-L3-041
+TITLE: Poukisa depo taks sou pewòl yo gen dat limit ki sevè
+SUMMARY: Aprann poukisa patwon yo fè fas ak dat limit sevè, ki pa negosyab, pou depoze taks sou pewòl yo retni, ak poukisa rate yo gen konsekans enpòtan.
+# GREEN-L3-041: Poukisa depo taks sou pewòl yo gen dat limit ki sevè
+
+## Objektif aprantisaj
+Lè w fin fè leson sa a, w ap kapab:
+- Esplike poukisa patwon yo fè fas ak dat limit sevè pou depoze taks sou pewòl yo retni
+- Esplike poukisa yo trete depo sa yo yon lòt jan pase lòt obligasyon finansye yon biznis
+- Konekte konsèp sa a ak diskisyon sou taks fidisyè (trust fund) nan pwochen leson an
+
+## Kontni prensipal
+
+Lè yon patwon retni enpo ak taks sou pewòl sou chèk salè yon anplwaye (dapre Leson 4), kantite yo retni a pa pou patwon an — se lajan patwon an ap kenbe pou yon ti tan pou otorite taks yo, ki dwe pou anplwaye a pou rezon taks men patwon an kolekte l kòm entèmedyè. Patwon yo anjeneral fè fas ak dat limit sevè, espesifik pou depoze kantite yo retni sa yo, [FÈ VERIFYE] ak frekans depo ak dat limit espesifik ki souvan depann de gwosè pewòl patwon an ak lòt faktè, otorite taks ki konsène a fikse yo.
+
+Men "poukisa" yo trete dat limit sa yo ak yon sevèrite patikilye konpare ak kèk lòt obligasyon finansye yon biznis: paske lajan yo retni sa a pa t janm vrèman pwòp lajan patwon an depi nan kòmansman — yo te kolekte l pou anplwaye yo ak otorite taks yo — itilize l pou lòt objektif biznis, menm pou yon ti tan pandan yon kriz lajan k ap sikile, yo trete sa pi grav anpil pase yon peman an reta tipik bay yon machann oswa yon founisè.
+
+Diferans sa a prepare dirèkteman konsèp taks fidisyè yo kouvri nan pwochen leson an: yo souvan klase taks sou pewòl yo retni espesyalman kòm taks "fidisyè" (trust fund), egzakteman paske patwon an ap kenbe yo nan yon wòl tankou yon fidisyè pou lòt moun, li pa itilize yo kòm pwòp lajan fonksyònman li. [RÈG ESPESIFIK POU REJYON AN] An Ayiti, patwon yo gen pwòp obligasyon ak dat limit pou remèt retni ak kotizasyon (pa egzanp bay DGI ak ONA/OFATMA); verifye règ aktyèl yo ak yon kontab ki kalifye.
+
+## Egzanp pratik
+
+[EGZANP ILISTRATIF] Yon biznis k ap fè fas ak yon mank lajan k ap sikile tanporè gen tantasyon pou l retade depo taks sou pewòl li pou yon ti tan, li planifye pou l ratrape depi lajan k ap sikile a amelyore — li trete l menm jan li ta ka jere yon peman an reta bay yon founisè. [SIPOZISYON] Paske yo trete taks sou pewòl yo retni kòm lajan yo kenbe pou anplwaye yo ak otorite taks yo, olye pwòp lajan fonksyònman biznis lan, kalite reta sa a gen konsekans pi grav anpil pase yon peman an reta bay yon machann, sa ki prepare egzakteman risk responsablite pèsonèl yo diskite nan konsèp taks fidisyè pwochen leson an.
+
+## Egzamen pratik
+
+1. Poukisa taks sou pewòl yo retni pa pou patwon an, menm si li pase nan men patwon an?
+2. Poukisa yo trete dat limit depo taks sou pewòl yo pi sevè pase anpil lòt obligasyon finansye yon biznis?
+3. Kijan leson sa a prepare konsèp taks fidisyè yo kouvri nan pwochen leson an?
+
+## Kle repons yo
+
+1. Paske se lajan yo retni pou anplwaye yo e ki dwe bay otorite taks yo, ak patwon an ki aji sèlman kòm yon entèmedyè tanporè, pa vrè pwopriyetè lajan sa yo.
+2. Paske itilize lajan ki pa t janm pwòp lajan patwon an pou lòt objektif biznis, yo trete sa pi grav anpil pase yon peman an reta tipik bay yon machann.
+3. Li esplike poukisa yo klase taks sou pewòl yo retni kòm taks "fidisyè" — patwon an kenbe yo nan yon wòl tankou yon fidisyè pou lòt moun, yon konsèp yo egzamine dirèkteman nan pwochen leson an.
+
+## Repons ak eksplikasyon
+
+1. Sa a se fondasyon konseptyèl santral ki esplike poukisa yo trete lajan sa yo yon lòt jan.
+2. Sa a se "poukisa" dirèk ki dèyè aplikasyon sevè dat limit yo.
+3. Sa prepare pwochen leson an klèman, sa ki ranfòse estrikti sekansyèl tras la.
+
+## Pwen kle yo
+- Taks sou pewòl yo retni se pou anplwaye yo ak otorite taks yo, pa pou patwon an, ki aji sèlman kòm yon entèmedyè tanporè.
+- Se poutèt sa yo trete dat limit depo taks sou pewòl pi sevè pase anpil lòt obligasyon finansye biznis.
+- Sa prepare konsèp taks fidisyè a, kote yo klase lajan sa yo espesyalman kòm lajan yo kenbe kòm fidisyè pou lòt moun.
+
+---
+
+*Leson sa a se sèlman pou edikasyon finansye jeneral, e li pa konstitye konsèy finansye, envestisman, taks, oswa legal pèsonalize. Règ depo taks sou pewòl yo varye selon jiridiksyon; konsilte yon pwofesyonèl pewòl oswa taks ki gen lisans pou konsèy ki espesifik pou biznis ou.*
+
+===== GREEN-L3-042
+TITLE: Poukisa taks fidisyè yo gen responsablite pèsonèl pou mèt biznis
+SUMMARY: Aprann poukisa taks fidisyè ki pa peye ka travèse pwoteksyon responsablite yon antite biznis, sa ki ekspoze mèt yo ak moun ki responsab yo pèsonèlman.
+# GREEN-L3-042: Poukisa taks fidisyè yo gen responsablite pèsonèl pou mèt biznis
+
+## Objektif aprantisaj
+Lè w fin fè leson sa a, w ap kapab:
+- Esplike kisa ki fè taks sou pewòl yo retni se taks "fidisyè", an lyen ak Leson 41
+- Esplike poukisa taks fidisyè ki pa peye ka kreye responsablite pèsonèl pou mèt biznis
+- Konekte konsèp sa a ak pwoteksyon responsablite jeneral LLC/sosyete yo diskite lòt kote nan kourikoulòm sa a
+
+## Kontni prensipal
+
+Leson 41 te etabli ke yon patwon kenbe taks sou pewòl yo retni nan yon wòl tankou yon fidisyè pou anplwaye yo ak otorite taks yo. Men "poukisa" klasifikasyon sa a gen konsekans grav si yo pa peye kantite sa yo: [FÈ VERIFYE] anpil otorite taks gen règ espesifik ki pèmèt yo pouswiv pèsonèlman moun ki responsab pou kolekte e remèt taks fidisyè sa yo — souvan mèt, ofisye, oswa lòt moun ki gen kontwòl sou finans biznis lan — si biznis lan pa remèt yo, kèlkeswa estrikti antite legal biznis lan.
+
+Sa konekte dirèkteman ak diskisyon sou garanti pèsonèl yo kouvri lòt kote nan tras RED ak BLUE kourikoulòm sa a: menm jan yon garanti pèsonèl ka kreye responsablite pèsonèl pou yon prè malgre yon estrikti LLC oswa sosyete, responsablite pou taks fidisyè ka travèse menm jan pwoteksyon responsablite ki baze sou antite a espesyalman pou kategori taks ki pa peye sa a, paske lajan an pa t janm lejitimman pwòp lajan antite biznis lan depi nan kòmansman — yo te kolekte l kòm fidisyè pou yon lòt moun.
+
+Se poutèt sa mèt biznis ak moun ki pran desizyon finansye yo bezwen trete obligasyon taks sou pewòl ak yon serye patikilye, lè yo konprann ke pwoteksyon responsablite abityèl ki vini lè w fòme yon sosyete oswa yon LLC ka pa aplike pou kategori obligasyon espesifik sa a menm jan yo ta aplike pou anpil lòt dèt tipik yon biznis. [RÈG ESPESIFIK POU REJYON AN] An Ayiti, verifye ak yon avoka oswa yon kontab ki kalifye kijan lalwa trete responsablite pèsonèl pou retni ak kotizasyon ki pa remèt.
+
+## Egzanp pratik
+
+[EGZANP ILISTRATIF] Yon biznis gen difikilte finansye e li pa remèt taks sou pewòl li retni bay otorite taks ki konsène a pandan yon bon bout tan, malgre li kontinye retni lajan an sou chèk salè anplwaye yo. [SIPOZISYON] Menm si biznis lan òganize kòm yon LLC ki gen entansyon pwoteje byen pèsonèl mèt li kont pifò dèt biznis, mèt la, yo idantifye kòm yon moun ki responsab e ki gen kontwòl sou finans biznis lan, ta ka pouswiv pèsonèlman pou obligasyon taks fidisyè espesifik sa a ki pa peye — yon eksepsyon nan pwoteksyon responsablite jeneral estrikti LLC a ta bay otreman pou pifò lòt kalite dèt biznis.
+
+## Egzamen pratik
+
+1. Kisa ki fè taks sou pewòl yo retni se taks "fidisyè", dapre Leson 41?
+2. Poukisa taks fidisyè ki pa peye ka kreye responsablite pèsonèl pou mèt biznis, malgre yon estrikti LLC oswa sosyete?
+3. Kijan leson sa a konekte ak diskisyon sou garanti pèsonèl yo kouvri lòt kote nan kourikoulòm sa a?
+
+## Kle repons yo
+
+1. Se lajan yon patwon retni e li kenbe nan yon wòl tankou yon fidisyè pou anplwaye yo ak otorite taks yo, olye pwòp lajan patwon an.
+2. Paske lajan sa a pa t janm lejitimman pwòp lajan antite biznis lan, otorite taks yo ka souvan pouswiv pèsonèlman moun ki responsab pou kolekte e remèt kantite sa yo si biznis lan pa fè sa.
+3. Ni responsablite pou taks fidisyè ni yon garanti pèsonèl ka travèse pwoteksyon responsablite ki baze sou antite a, sa ki montre estrikti LLC oswa sosyete pa otomatikman pwoteje yon mèt kont chak kategori obligasyon biznis.
+
+## Repons ak eksplikasyon
+
+1. Sa konekte leson an dirèkteman ak konsèp debaz Leson 41 la.
+2. Sa a se "poukisa" santral ki esplike eksepsyon responsablite pèsonèl kategori taks espesifik sa a kreye.
+3. Sa mare leson an ak diskisyon paralèl lòt kote nan kourikoulòm nan, sa ki ranfòse aprantisaj ant tras yo.
+
+## Pwen kle yo
+- Taks sou pewòl yo retni se taks fidisyè, patwon an kenbe yo pou anplwaye yo ak otorite taks yo.
+- Taks fidisyè ki pa peye ka kreye responsablite pèsonèl pou mèt oswa ofisye biznis ki responsab, kèlkeswa pwoteksyon responsablite abityèl antite a.
+- Sa sanble ak konsèp garanti pèsonèl yo kouvri lòt kote nan kourikoulòm sa a — estrikti antite a pa otomatikman pwoteje chak kalite obligasyon.
+
+---
+
+*Leson sa a se sèlman pou edikasyon finansye jeneral, e li pa konstitye konsèy finansye, envestisman, taks, oswa legal pèsonalize. Règ responsablite pou taks fidisyè yo varye selon jiridiksyon; konsilte yon pwofesyonèl taks oswa yon avoka ki gen lisans pou konsèy ki espesifik pou sitiyasyon ou.*
