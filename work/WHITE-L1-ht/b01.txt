@@ -1,0 +1,437 @@
+===== WHITE-L1-001
+TITLE: Kisa yon byen sou papye ye? (E poukisa nou rele l konsa)
+SUMMARY: Aprann kisa yon byen sou papye reprezante toutbon ak kijan li diferan de posede yon pwopriyete fizik.
+# Kisa yon byen sou papye ye? (E poukisa nou rele l konsa)
+
+## Objektif aprantisaj
+
+Lè w fin fè leson sa a, w ap kapab:
+
+- Bay definisyon yon byen sou papye an mo senp.
+- Esplike kisa yon byen sou papye reprezante toutbon.
+- Konpare byen sou papye ak imobilye kòm yon lòt kalite valè.
+
+## Kontni prensipal
+
+### Kisa "byen sou papye" vle di
+
+Yon byen sou papye se yon dwa finansye – lontan se te yon sètifika fizik, jodi a prèske toujou se yon dosye dijital – ki reprezante yon pwopriyete oswa yon dwa sou yon valè nan lavni, olye li se yon bagay fizik ou ka itilize li menm. Yon aksyon reprezante yon ti pati pwopriyete nan yon konpayi. Yon obligasyon (bond) reprezante yon pwomès pou yo remèt ou lajan, ak enterè.
+
+### Sa ki anba yon byen sou papye
+
+Lè w posede yon aksyon nan yon konpayi, sa pa vle di ou posede yon biwo oswa yon machin espesifik – sa vle di ou posede yon ti moso nan valè tout konpayi an. Valè byen sou papye a depann nèt de sa ki anba l: vrè konpayi an, vrè moun ki prete a, vrè gouvènman ki garanti yon obligasyon.
+
+### Byen sou papye kont imobilye
+
+Imobilye pakou WOUJ (RED) a fizik: tè ak batiman ou ka manyen. Byen sou papye pakou BLAN (WHITE) a se dwa: moso pwopriyete, akò prè, dwa sou peman nan lavni. Anjeneral, byen sou papye yo pi fasil e pi rapid pou achte, vann, e divize an ti moso pase pwopriyete fizik.
+
+## Egzanp pratik
+
+Lè w posede 10 aksyon nan yon konpayi, sa vle di ou posede yon ti moso byen defini nan valè total konpayi an – se pa okenn moso espesifik nan byen fizik li yo. Valè sa a monte oswa desann selon jan avni konpayi an chanje.
+
+## Egzamen pratik
+
+1. Pi bon fason pou dekri yon byen sou papye se:
+   A. Yon objè fizik ou ka itilize dirèkteman
+   B. Yon dwa sou pwopriyete oswa sou valè nan lavni
+   C. Yon kalite lajan
+   D. Yon fòmilè gouvènman bay
+
+2. Vrè oswa fo: Valè yon aksyon soti sitou nan lefèt se yon dosye ofisyèl.
+
+3. Poukisa vann yon aksyon anjeneral pi rapid anpil pase vann yon kay?
+   A. Li ilegal pou kenbe aksyon pou lontan
+   B. Aksyon yo se ti inite estanda ki pa mande pou w jwenn yon sèl achtè espesifik ki matche
+   C. Kay yo gen plis valè
+   D. Pa gen okenn vrè diferans nan vitès
+
+## Kle repons yo
+
+1. B
+2. Fo
+3. B
+
+## Repons ak eksplikasyon
+
+### Kesyon 1
+
+Repons kòrèk: B. Yon byen sou papye reprezante yon pwopriyete oswa yon dwa sou valè nan lavni.
+
+### Kesyon 2
+
+Repons kòrèk: Fo. Valè a soti nan sa byen an reprezante, se pa nan papye a oswa nan dosye a li menm.
+
+### Kesyon 3
+
+Repons kòrèk: B. Ti inite estanda ki pa bezwen yon sèl achtè espesifik se sa ki fè vant aksyon pi rapid.
+
+## Pwen kle yo
+
+- Yon byen sou papye se yon dwa sou valè, se pa yon objè fizik.
+- Valè li soti nan sa ki anba l.
+- Anjeneral, byen sou papye pi fasil e pi rapid pou achte, vann, e divize pase imobilye.
+
+===== WHITE-L1-002
+TITLE: Kisa ROI ye? (E poukisa menm lide a parèt diferan nan chak pakou)
+SUMMARY: Aprann fòmil ROI a, sa li mezire, ak poukisa menm konsèp la aplike nan imobilye, biznis, ak byen sou papye.
+# Kisa ROI ye? (E poukisa menm lide a parèt diferan nan chak pakou)
+
+## Objektif aprantisaj
+
+Lè w fin fè leson sa a, w ap kapab:
+
+- Kalkile yon ROI debaz lè w konnen yon benefis ak yon depans.
+- Esplike sa ROI mezire toutbon.
+- Rekonèt ROI kòm yon konsèp ki travèse tout pakou yo, epi idantifye yon limit li genyen.
+
+## Kontni prensipal
+
+### Fòmil ROI a
+
+ROI = (Benefis envestisman an − Pri envestisman an) ÷ Pri envestisman an, anjeneral an pousantaj. Si $1,000 vin $1,200, benefis la se $200, epi ROI = $200 ÷ $1,000 = 20%.
+
+### Menm konsèp, pakou diferan
+
+ROI se pa yon lide pou pakou BLAN an sèlman. Yon envestisè imobilye nan pakou WOUJ la kalkile ROI sou revni lwaye ak apresyasyon konpare ak pri acha a. Yon mèt biznis nan pakou BLE (BLUE) a kalkile l sou benefis li fè konpare ak lajan li envesti. Lojik fòmil la rete menm – benefis konpare ak pri – men sa ki konte kòm benefis ak pri chanje selon pakou a.
+
+### Yon vrè limit
+
+ROI debaz la pa konte tan. Yon ROI 20% ou fè nan yon ane diferan anpil de menm 20% la ou fè sou dis ane, menm si fòmil la pou kont li pa montre diferans sa a.
+
+## Egzanp pratik
+
+$500 ki vin $575 se yon benefis $75: ROI = $75 ÷ $500 = 15%. Yon acha ekipman biznis $10,000 ki pote $2,500 benefis anplis: ROI = $2,500 ÷ $10,000 = 25% – menm fòmil, sitiyasyon ki diferan anpil.
+
+## Egzamen pratik
+
+1. ROI mezire:
+   A. Total montan dola ou genyen
+   B. Benefis la konpare ak pri a, an pousantaj
+   C. Valè total yon envestisman
+   D. Nivo risk yon envestisman
+
+2. Vrè oswa fo: ROI debaz la konte konbyen tan sa te pran pou fè rannman an.
+
+3. Ou envesti $2,000 epi li vin $2,400. Konbyen ROI a ye?
+   A. 10%
+   B. 15%
+   C. 20%
+   D. 40%
+
+## Kle repons yo
+
+1. B
+2. Fo
+3. C
+
+## Repons ak eksplikasyon
+
+### Kesyon 1
+
+Repons kòrèk: B. ROI se espesyalman yon mezi an pousantaj sou benefis konpare ak pri.
+
+### Kesyon 2
+
+Repons kòrèk: Fo. ROI debaz la pa konte tan – sa se yon vrè limit.
+
+### Kesyon 3
+
+Repons kòrèk: C. ($2,400 − $2,000) ÷ $2,000 = 20%.
+
+## Pwen kle yo
+
+- ROI = (Benefis − Pri) ÷ Pri, anjeneral an pousantaj.
+- ROI aplike nan imobilye, biznis, ak byen sou papye menm jan.
+- ROI debaz la pa konte tan – yon vrè limit pou w sonje.
+
+===== WHITE-L1-003
+TITLE: Kisa yon aksyon ye toutbon? (W ap achte yon moso nan yon konpayi)
+SUMMARY: Aprann sa posede yon aksyon ba ou dwa toutbon, ak sa li pa ba ou.
+# Kisa yon aksyon ye toutbon? (W ap achte yon moso nan yon konpayi)
+
+## Objektif aprantisaj
+
+Lè w fin fè leson sa a, w ap kapab:
+
+- Bay definisyon yon aksyon an mo senp.
+- Esplike sa posede aksyon ba ou dwa, ak sa li pa ba ou.
+- Esplike poukisa kantite total aksyon ki egziste enpòtan pou sa yon aksyon reprezante.
+
+## Kontni prensipal
+
+### Yon aksyon se yon moso vrè pwopriyete
+
+Lè yon konpayi piblik, li divize pwopriyete l an yon kantite aksyon fiks. Si w posede 1,000 aksyon sou 1,000,000 ki egziste, sa vle di ou posede 0.1% konpayi sa a – toutbon, legalman.
+
+### Sa pwopriyete a ba ou dwa (ak sa li pa ba ou)
+
+Pwopriyete a anjeneral ba ou yon dwa pwopòsyonèl sou benefis yo (si yo peye dividann) ak sèten dwa vòt sou gwo desizyon. Li PA ba ou dwa pou kontwole operasyon chak jou, yon dividann garanti, oswa yon pri k ap monte garanti. Aksyonè yo tou anjeneral pa responsab pèsonèlman pou dèt konpayi an pi lwen pase valè aksyon yo.
+
+### Poukisa kantite total aksyon yo enpòtan
+
+Posede 100 aksyon nan yon konpayi ki gen 1,000 aksyon an total se 10% pwopriyete. Posede 100 aksyon nan yon konpayi ki gen 10,000,000 aksyon an total se 0.001%. Kantite aksyon ou genyen pou kont li pa di w ki vrè pati ou genyen.
+
+## Egzanp pratik
+
+Yon envestisè ki posede 5,000 aksyon nan yon konpayi ki gen 500,000 aksyon an total posede 5,000 ÷ 500,000 = 1% konpayi an.
+
+## Egzamen pratik
+
+1. Posede yon aksyon anjeneral ba ou dwa:
+   A. Kontwole operasyon konpayi an chak jou
+   B. Yon dwa pwopòsyonèl sou benefis ak sèten dwa vòt
+   C. Peman dividann garanti
+   D. Responsablite pèsonèl pou dèt konpayi an
+
+2. Vrè oswa fo: Kantite aksyon ou posede, pou kont li, di w pousantaj pwopriyete ou genyen.
+
+3. Yon konpayi gen 200,000 aksyon an total. Yon envestisè posede 2,000 aksyon. Ki pousantaj li posede?
+   A. 0.1%
+   B. 1%
+   C. 2%
+   D. 10%
+
+## Kle repons yo
+
+1. B
+2. Fo
+3. B
+
+## Repons ak eksplikasyon
+
+### Kesyon 1
+
+Repons kòrèk: B. Pwopriyete a ba ou dwa pwopòsyonèl sou benefis ak sèten dwa vòt, se pa kontwòl operasyon yo.
+
+### Kesyon 2
+
+Repons kòrèk: Fo. Pousantaj pwopriyete a depann de aksyon ou posede konpare ak total aksyon ki egziste.
+
+### Kesyon 3
+
+Repons kòrèk: B. 2,000 ÷ 200,000 = 1%.
+
+## Pwen kle yo
+
+- Yon aksyon se yon vrè pati pwopriyete legal nan yon konpayi.
+- Pwopriyete pa vle di kontwòl operasyon ni dividann garanti.
+- Vrè pati ou genyen depann de aksyon ou posede konpare ak total aksyon ki egziste.
+
+===== WHITE-L1-004
+TITLE: Kisa yon obligasyon (bond) ye toutbon? (W ap prete lajan, se pa achte pwopriyete)
+SUMMARY: Aprann kisa yon obligasyon reprezante toutbon – yon prè, se pa pwopriyete – ak kondisyon debaz ki defini l.
+# Kisa yon obligasyon (bond) ye toutbon? (W ap prete lajan, se pa achte pwopriyete)
+
+## Objektif aprantisaj
+
+Lè w fin fè leson sa a, w ap kapab:
+
+- Bay definisyon yon obligasyon an mo senp.
+- Esplike relasyon prensipal ant moun ki gen obligasyon an ak moun ki emèt li a.
+- Nonmen kondisyon debaz ki defini yon obligasyon.
+
+## Kontni prensipal
+
+### Yon obligasyon se yon prè, se pa pwopriyete
+
+Lè w achte yon obligasyon, w ap prete lajan bay moun ki emèt li a (yon konpayi oswa yon gouvènman), ou pa achte yon moso pwopriyete jan yon aksyon ta ba ou. Sa se diferans ki pi enpòtan ant aksyon ak obligasyon.
+
+### Relasyon prensipal la
+
+Moun ki emèt obligasyon an pwomèt pou l remèt montan orijinal la (kapital la, oswa "valè nominal") nan yon dat ki fikse nan lavni (echeyans), epi anjeneral pou l fè peman enterè regilye (yo rele l koupon) pandan tan sa a, kont dwa pou l itilize lajan w.
+
+### Kondisyon debaz yo
+
+Chak obligasyon gen yon valè nominal (montan yo remèt nan echeyans), yon to koupon (to enterè yo peye), ak yon dat echeyans (lè yo remèt prè a). Yo fikse kondisyon sa yo lè yo emèt obligasyon an.
+
+## Egzanp pratik
+
+Yon envestisè achte yon obligasyon ak yon valè nominal $1,000, yon to koupon 4%, ak yon echeyans 10 ane. Li resevwa $40 pa ane an enterè (4% sou $1,000) epi li jwenn $1,000 li tounen apre 10 ane.
+
+## Egzamen pratik
+
+1. Achte yon obligasyon vle di:
+   A. Achte yon pati pwopriyete nan yon konpayi
+   B. Prete lajan bay moun ki emèt li a
+   C. Achte yon byen fizik
+   D. Vin yon anplwaye konpayi an
+
+2. Vrè oswa fo: To koupon yon obligasyon vle di montan yo remèt nan echeyans.
+
+3. Kisa valè nominal yon obligasyon ye?
+   A. To enterè yo peye a
+   B. Montan yo remèt moun ki gen obligasyon an nan echeyans
+   C. Pri mache aktyèl obligasyon an
+   D. Total dèt moun ki emèt li a
+
+## Kle repons yo
+
+1. B
+2. Fo
+3. B
+
+## Repons ak eksplikasyon
+
+### Kesyon 1
+
+Repons kòrèk: B. Yon obligasyon reprezante prete lajan, se pa pwopriyete.
+
+### Kesyon 2
+
+Repons kòrèk: Fo. To koupon an se to enterè a; valè nominal la se montan yo remèt nan echeyans.
+
+### Kesyon 3
+
+Repons kòrèk: B. Valè nominal la se kapital yo remèt nan echeyans.
+
+## Pwen kle yo
+
+- Yon obligasyon reprezante prete lajan, se pa pwopriyete.
+- Moun ki emèt li a pwomèt pou l remèt kapital la nan echeyans, plis enterè regilye (koupon an).
+- Valè nominal, to koupon, ak dat echeyans se kondisyon prensipal ki defini l.
+
+===== WHITE-L1-005
+TITLE: Aksyon kont obligasyon: ki vrè konpwomi an?
+SUMMARY: Aprann vrè konpwomi ant aksyon ak obligasyon – potansyèl kwasans kont priyorite pou yo remèt ou – se pa sèlman "riske kont san danje".
+# Aksyon kont obligasyon: ki vrè konpwomi an?
+
+## Objektif aprantisaj
+
+Lè w fin fè leson sa a, w ap kapab:
+
+- Esplike diferans prensipal nan estrikti ant aksyon ak obligasyon.
+- Esplike poukisa anjeneral yo remèt moun ki gen obligasyon anvan aksyonè yo.
+- Evite fason twò senp pou di "aksyon riske, obligasyon san danje".
+
+## Kontni prensipal
+
+### Diferans nan estrikti a
+
+Yon aksyon reprezante pwopriyete; yon obligasyon reprezante yon prè. Diferans sa a pou kont li esplike pifò diferans pratik ant yo de a, n ap wè yo nan leson sa a.
+
+### Priyorite pou remèt lajan
+
+Si yon konpayi tonbe nan gwo pwoblèm finansye, moun ki gen obligasyon (kòm moun ki prete lajan) anjeneral gen yon dwa legal pou yo remèt yo lajan yo anvan aksyonè yo (kòm mèt) resevwa anyen. Sa se yon vrè priyorite nan estrikti a, se pa sèlman yon repitasyon jeneral pou sekirite.
+
+### Pi lwen pase "riske kont san danje"
+
+Lè w di aksyon "riske" e obligasyon "san danje" tou senpleman, ou fè yon konpwomi ki pi konplike vin twò senp: aksyon yo bay avantaj pwopriyete (potansyèl kwasans san limit, men pa gen garanti pou yo remèt ou lajan) alòske obligasyon yo bay kondisyon remèt ki defini nan kontra (men potansyèl rannman yo limite, e yo gen pwòp vrè risk pa yo tankou moun ki emèt la ki pa peye).
+
+## Egzanp pratik
+
+Si yon konpayi fè fayit, moun ki gen obligasyon li yo anjeneral nan liy pou yo remèt yo lajan apati byen ki rete yo anvan aksyonè yo wè anyen – dwa aksyonè yo vini an dènye, sa reflete diferans estrikti ant pwopriyete ak prè.
+
+## Egzamen pratik
+
+1. Diferans prensipal nan estrikti ant aksyon ak obligasyon se:
+   A. Aksyon toujou pi riske pase obligasyon
+   B. Aksyon reprezante pwopriyete; obligasyon reprezante yon prè
+   C. Obligasyon toujou bay pi gwo rannman
+   D. Pa gen okenn vrè diferans
+
+2. Vrè oswa fo: Lè yon konpayi fè fayit, moun ki gen obligasyon anjeneral gen dwa pou yo remèt yo lajan anvan aksyonè yo.
+
+3. Poukisa "aksyon riske, obligasyon san danje" twò senp?
+   A. Li egzak nèt san okenn nyans
+   B. Tou de gen vrè risk ak vrè rekonpans diferan
+   C. Obligasyon pa gen okenn risk ditou
+   D. Aksyon toujou pèdi lajan
+
+## Kle repons yo
+
+1. B
+2. Vrè
+3. B
+
+## Repons ak eksplikasyon
+
+### Kesyon 1
+
+Repons kòrèk: B. Pwopriyete kont prè se diferans prensipal nan estrikti a.
+
+### Kesyon 2
+
+Repons kòrèk: Vrè. Moun ki gen obligasyon anjeneral gen priyorite sou aksyonè yo pou yo remèt yo lajan.
+
+### Kesyon 3
+
+Repons kòrèk: B. Tou de gen vrè risk ki diferan – fason senp sa a rate nyans sa a.
+
+## Pwen kle yo
+
+- Aksyon reprezante pwopriyete; obligasyon reprezante yon prè.
+- Moun ki gen obligasyon anjeneral gen priyorite sou aksyonè yo pou yo remèt yo lajan.
+- "Riske kont san danje" fè yon konpwomi ki pi konplike ant yo de a vin twò senp.
+
+===== WHITE-L1-006
+TITLE: Kisa yon dividann ye?
+SUMMARY: Aprann kisa yon dividann ye, kijan yo peye l, ak poukisa li pa janm garanti.
+# Kisa yon dividann ye?
+
+## Objektif aprantisaj
+
+Lè w fin fè leson sa a, w ap kapab:
+
+- Bay definisyon yon dividann an mo senp.
+- Esplike kijan yo anjeneral peye dividann.
+- Esplike poukisa dividann pa janm garanti.
+
+## Kontni prensipal
+
+### Kisa yon dividann ye
+
+Yon dividann se yon pati nan benefis yon konpayi yo distribye bay aksyonè yo, selon kantite aksyon chak moun genyen.
+
+### Kijan yo anjeneral peye yo
+
+Yo souvan peye dividann an kach, sou yon orè regilye (souvan chak twa mwa), dirèkteman bay aksyonè yo dapre kantite aksyon yo genyen nan yon dat anrejistreman espesifik.
+
+### Poukisa yo pa janm garanti
+
+Se konsèy administrasyon konpayi an ki deside si l ap peye yon dividann, ak konbyen – pa gen okenn obligasyon legal pou l fè sa. Konpayi yo ka diminye, sispann, oswa pa janm kòmanse peye dividann, souvan selon benefis yo ak plan kwasans yo.
+
+## Egzanp pratik
+
+Yon envestisè ki posede 100 aksyon nan yon konpayi k ap peye yon dividann $0.50 pa aksyon chak twa mwa ta resevwa $50 pou twa mwa sa yo – yon montan ki ka chanje nan twa mwa k ap vini yo selon desizyon konpayi an.
+
+## Egzamen pratik
+
+1. Yon dividann se:
+   A. Yon peman fiks ki garanti
+   B. Yon pati nan benefis konpayi an yo distribye bay aksyonè yo
+   C. Yon kalite peman enterè obligasyon
+   D. Yon taks ou dwe sou aksyon ou posede
+
+2. Vrè oswa fo: Lalwa oblije konpayi yo peye dividann.
+
+3. Kiyès ki deside si y ap peye dividann ak konbyen?
+   A. Chak aksyonè
+   B. Konsèy administrasyon konpayi an
+   C. Labous la
+   D. Gouvènman an
+
+## Kle repons yo
+
+1. B
+2. Fo
+3. B
+
+## Repons ak eksplikasyon
+
+### Kesyon 1
+
+Repons kòrèk: B. Yon dividann se yon distribisyon benefis bay aksyonè yo.
+
+### Kesyon 2
+
+Repons kòrèk: Fo. Peman dividann se yon desizyon, se pa yon obligasyon legal.
+
+### Kesyon 3
+
+Repons kòrèk: B. Se konsèy administrasyon an ki deside peman dividann yo.
+
+## Pwen kle yo
+
+- Yon dividann se yon pati nan benefis yo distribye bay aksyonè yo.
+- Yo anjeneral peye l an kach, sou yon orè regilye.
+- Dividann pa janm garanti – se yon desizyon konsèy administrasyon an.
