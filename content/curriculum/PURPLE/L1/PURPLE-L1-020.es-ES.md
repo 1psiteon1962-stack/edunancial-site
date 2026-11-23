@@ -5,68 +5,88 @@ officialTrackName: Law
 level: 1
 lessonNumber: 20
 locale: es-ES
-title: "Notions de propriété intellectuelle : marques, droit d’auteur et brevets"
-summary: "Développe la littératie juridique pratique de PURPLE en français canadien pour reconnaître les droits, obligations, risques et besoins de conseils professionnels."
+title: "Fundamentos de propiedad intelectual: marcas, derechos de autor y patentes"
+summary: "Presenta las tres grandes categorías de protección de la propiedad intelectual relevantes para los dueños de negocios y cierra la sección de derecho de negocios."
 version: 1.0
 author: Waldemar M. Caban, JD MA
 date: 2026-08-09
 ---
 
-# Notions de propriété intellectuelle : marques, droit d’auteur et brevets
+# Fundamentos de propiedad intelectual: marcas, derechos de autor y patentes
 
-## Objectifs d’apprentissage
+## Objetivos de aprendizaje
 
-- Comprendre le concept juridique central de cette leçon.
-- Relier ce concept aux décisions de patrimoine, d’immobilier, d’investissement ou d’affaires.
-- Reconnaître quand les faits ou la juridiction exigent une vérification ou des conseils professionnels.
+- Distinguir las marcas, los derechos de autor y las patentes.
+- Identificar qué categoría protege cada tipo de activo de negocio.
+- Reconocer la propiedad intelectual como un activo de negocio que vale la pena proteger activamente.
 
-## Contenu principal
+## Contenido principal
 
-Les marques protègent des signes qui distinguent des biens ou services; le droit d’auteur protège certaines œuvres originales; les brevets peuvent protéger des inventions répondant aux exigences légales. Pour une entreprise, ces droits peuvent constituer des actifs importants. Il faut également éviter de porter atteinte aux droits de propriété intellectuelle d’autrui.
+El derecho de propiedad intelectual (PI) protege las creaciones de la mente (marcas, obras creativas e invenciones) como activos reconocidos legalmente de los que uno puede ser dueño. Para los dueños de negocios importan sobre todo tres grandes categorías: las **marcas** protegen los identificadores de una marca comercial (nombres de negocio, logotipos, eslóganes) que distinguen tus productos o servicios de los de la competencia. Los **derechos de autor** protegen las obras creativas originales (contenidos escritos, diseños, código de software) contra la copia no autorizada. Las **patentes** protegen las invenciones (procesos o productos realmente nuevos y útiles) y le dan al inventor derechos exclusivos durante un período limitado.
 
-## Exemple pratique
+Para un dueño de negocio de la ruta BLUE, la PI no es una categoría legal abstracta: a menudo es un activo de negocio real y valioso. Un nombre de marca fuerte protegido como marca registrada, un contenido propio protegido por derechos de autor o un producto realmente novedoso protegido por una patente pueden ser fuentes de una ventaja competitiva real y de un valor económico real, a veces mayor que el de los activos físicos del negocio. No proteger la PI, o peor aún, infringir sin saberlo la de otra persona, es un riesgo legal común y evitable con el que se cierra esta sección de derecho de negocios de la ruta.
 
-Une personne rencontre une décision directement liée au sujet de cette leçon. Avant d’agir ou de signer, elle identifie les parties, les documents, les obligations, les actifs exposés et la juridiction applicable. Elle vérifie les points qu’elle ne comprend pas et, lorsque les conséquences sont importantes, obtient des conseils d’un professionnel autorisé avant de devenir juridiquement liée.
+*REGLA ESPECÍFICA DE LA REGIÓN:* El registro y la protección de la propiedad intelectual son nacionales. En España, las marcas y patentes se registran ante la Oficina Española de Patentes y Marcas (OEPM), y las obras pueden inscribirse en el Registro de la Propiedad Intelectual. Verifica dónde y cómo registrar.
 
-## Quiz pratique
+## Ejemplo práctico
 
-**Question 1.** Quelle est la meilleure approche lorsqu’une décision comporte un risque juridique important?
+**Pregunta:** Una dueña de negocio crea un nombre y un logotipo distintivos, pero nunca registra la marca, porque supone que usarla es protección suficiente. ¿Qué riesgo crea esto?
 
-A) Supposer qu’une règle générale s’applique partout
-B) Identifier les faits, documents et règles applicables et demander de l’aide professionnelle au besoin
-C) Signer d’abord et vérifier ensuite
-D) Ignorer la juridiction
+**Estudiante:** Según esta lección, sin la protección de una marca registrada, la identidad de la marca podría no estar tan protegida legalmente como ella cree, y un competidor podría usar algo parecido con menos riesgo legal para sí mismo.
 
-**Question 2.** Pourquoi la juridiction est-elle importante?
+**Guía:** ¿Por qué importa esto para el valor económico real del negocio?
 
-A) Les règles, procédures et recours peuvent varier selon le lieu
-B) Toutes les règles sont identiques partout
-C) Elle importe seulement en droit criminel
-D) Elle n’a aucune importance
+**Estudiante:** Porque una marca fuerte y protegida puede ser un activo de negocio real y valioso; dejarla sin protección arriesga perder parte de ese valor si otra persona la reclama o usa algo parecido que cause confusión.
 
-**Question 3.** Quel est le rôle de PURPLE?
+**Guía:** Exacto: proteger la PI es una decisión de negocio práctica, no solo una formalidad legal.
 
-A) Remplacer les avocats
-B) Garantir qu’aucun différend ne surviendra
-C) Développer la littératie juridique et la capacité de reconnaître quand consulter un professionnel
-D) Donner des conseils juridiques personnalisés
+## Cuestionario práctico
 
-## Corrigé
+**Pregunta 1.** Las marcas protegen:
 
-1. B, 2. A, 3. C
+A) Las invenciones
+B) Los identificadores de una marca comercial, como nombres, logotipos y eslóganes
+C) Solo los contenidos escritos
+D) Nada con valor para el negocio
 
-## Réponses et explications
+**Pregunta 2.** Los derechos de autor protegen:
 
-**1.** Une décision éclairée commence par les faits et documents réels, puis par la vérification des règles applicables.
+A) Los nombres de marca
+B) Las obras creativas originales, como contenidos escritos o código
+C) Solo las invenciones físicas
+D) Solo los bienes inmuebles
 
-**2.** Les droits, obligations, procédures et recours diffèrent entre pays, provinces, États et autres territoires.
+**Pregunta 3.** Las patentes protegen:
 
-**3.** PURPLE vise à faire de l’apprenant un participant mieux informé; il ne remplace pas les conseils juridiques adaptés à une situation particulière.
+A) Los logotipos de marca
+B) Las invenciones, procesos o productos realmente nuevos y útiles
+C) Solo la escritura creativa
+D) Nada legalmente significativo
 
-## Points clés
+**Pregunta 4.** ¿Por qué importa en la práctica la PI para un dueño de negocio?
 
-- Les décisions financières et commerciales ont une dimension juridique.
-- Les documents, les faits et la juridiction comptent.
-- Détecter un risque avant de s’engager offre généralement plus d’options.
-- La protection du patrimoine exige une stratégie à la fois offensive et défensive.
-- Lorsque l’enjeu est important, les conseils professionnels peuvent réduire le risque.
+A) No tiene ninguna relevancia práctica
+B) La PI puede ser un activo de negocio real y valioso, a veces mayor que los activos físicos
+C) Solo las grandes corporaciones tienen PI
+D) La PI solo importa a los inventores, nunca a las marcas
+
+## Clave de respuestas
+
+1. B, 2. B, 3. B, 4. B
+
+## Respuestas y explicaciones
+
+**1.** El derecho de marcas trata específicamente de proteger los identificadores que distinguen a un negocio en el mercado.
+
+**2.** El derecho de autor cubre la expresión creativa original, una categoría distinta de la identidad de marca o de las invenciones.
+
+**3.** El derecho de patentes recompensa específicamente la innovación real con derechos exclusivos durante un tiempo limitado.
+
+**4.** Reconocer la PI como un valor de negocio real, no solo como un tecnicismo legal, es la lección práctica de esta clase.
+
+## Puntos clave
+
+- Las marcas protegen los identificadores de una marca comercial; los derechos de autor protegen las obras creativas; las patentes protegen las invenciones.
+- La PI puede ser un activo de negocio realmente valioso, a veces mayor que el valor de los activos físicos.
+- No proteger la PI, o infringir sin saberlo la de otros, es un riesgo legal común y evitable.
+- Esto cierra la sección de derecho de negocios antes de que la ruta pase al derecho inmobiliario.

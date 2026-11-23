@@ -5,68 +5,88 @@ officialTrackName: Law
 level: 1
 lessonNumber: 14
 locale: es-ES
-title: "Sociétés par actions : personnalité juridique et conséquences"
-summary: "Développe la littératie juridique pratique de PURPLE en français canadien pour reconnaître les droits, obligations, risques et besoins de conseils professionnels."
+title: "Corporaciones: la personalidad jurídica y sus consecuencias"
+summary: "Explica la corporación como una \"persona\" jurídica distinta y amplía, desde la perspectiva de la responsabilidad, la lección de GREEN sobre los impuestos corporativos."
 version: 1.0
 author: Waldemar M. Caban, JD MA
 date: 2026-08-09
 ---
 
-# Sociétés par actions : personnalité juridique et conséquences
+# Corporaciones: la personalidad jurídica y sus consecuencias
 
-## Objectifs d’apprentissage
+## Objetivos de aprendizaje
 
-- Comprendre le concept juridique central de cette leçon.
-- Relier ce concept aux décisions de patrimoine, d’immobilier, d’investissement ou d’affaires.
-- Reconnaître quand les faits ou la juridiction exigent une vérification ou des conseils professionnels.
+- Explicar el concepto de personalidad jurídica de la corporación.
+- Relacionarlo con la protección de responsabilidad que ofrecen las corporaciones.
+- Recordar, como contexto, la contrapartida de la doble tributación vista en GREEN.
 
-## Contenu principal
+## Contenido principal
 
-Une société par actions est généralement une entité juridique distincte de ses actionnaires. Elle peut posséder des biens, conclure des contrats, poursuivre et être poursuivie. Cette séparation soutient la responsabilité limitée, mais entraîne aussi des obligations administratives et fiscales propres à la juridiction. Les avantages et les coûts doivent être évalués ensemble.
+Legalmente, una corporación se trata como su propia "persona", distinta de sus dueños (los accionistas), capaz de ser dueña de bienes, celebrar contratos, demandar y ser demandada, todo a su propio nombre. Esta personalidad jurídica es la base de la protección de responsabilidad que ofrecen las corporaciones: como la parte legalmente responsable de sus propias deudas y obligaciones es la corporación misma y no sus accionistas, en general los bienes personales de los accionistas están protegidos de las responsabilidades de la corporación, de forma parecida en espíritu a la protección de una LLC.
 
-## Exemple pratique
+Esto conecta directamente con lo que vimos antes en GREEN sobre la tributación corporativa: la misma personalidad jurídica que crea la protección de responsabilidad es la que crea el problema de la doble tributación. La ganancia de una corporación tributa una vez a nivel corporativo (porque la corporación es su propio contribuyente) y otra vez cuando se distribuye a los accionistas. Es un ejemplo claro de cómo un mismo concepto legal, la personalidad jurídica de la corporación, produce a la vez un beneficio real (la protección de responsabilidad) y un costo real (la doble tributación), y por eso elegir una estructura exige sopesar varios factores juntos, no decidir por una sola consideración.
 
-Une personne rencontre une décision directement liée au sujet de cette leçon. Avant d’agir ou de signer, elle identifie les parties, les documents, les obligations, les actifs exposés et la juridiction applicable. Elle vérifie les points qu’elle ne comprend pas et, lorsque les conséquences sont importantes, obtient des conseils d’un professionnel autorisé avant de devenir juridiquement liée.
+*REGLA ESPECÍFICA DE LA REGIÓN:* Las reglas sobre cómo tributan las sociedades y sus dividendos varían mucho según el país. En España las sociedades tributan en el Impuesto sobre Sociedades y los dividendos que recibe el socio persona física tributan en el IRPF; el tratamiento concreto debe verificarse con un asesor fiscal.
 
-## Quiz pratique
+## Ejemplo práctico
 
-**Question 1.** Quelle est la meilleure approche lorsqu’une décision comporte un risque juridique important?
+**Pregunta:** Un accionista de una corporación pregunta por qué el mismo rasgo legal que protege sus bienes personales también causa el problema de la doble tributación que se vio antes en GREEN. ¿Cómo explicarías la conexión?
 
-A) Supposer qu’une règle générale s’applique partout
-B) Identifier les faits, documents et règles applicables et demander de l’aide professionnelle au besoin
-C) Signer d’abord et vérifier ensuite
-D) Ignorer la juridiction
+**Estudiante:** Según esta lección, es porque la corporación se trata como su propia persona jurídica separada: eso es justo lo que protege los bienes personales del accionista, pero también lo que convierte a la corporación en su propio contribuyente.
 
-**Question 2.** Pourquoi la juridiction est-elle importante?
+**Guía:** Entonces, ¿la personalidad jurídica es solo un beneficio, solo un costo o algo distinto?
 
-A) Les règles, procédures et recours peuvent varier selon le lieu
-B) Toutes les règles sont identiques partout
-C) Elle importe seulement en droit criminel
-D) Elle n’a aucune importance
+**Estudiante:** Algo distinto: produce un beneficio real, la protección de responsabilidad, y un costo real, la doble tributación, a partir del mismo concepto legal de fondo.
 
-**Question 3.** Quel est le rôle de PURPLE?
+**Guía:** Exacto: por eso elegir una estructura exige sopesar varios factores juntos.
 
-A) Remplacer les avocats
-B) Garantir qu’aucun différend ne surviendra
-C) Développer la littératie juridique et la capacité de reconnaître quand consulter un professionnel
-D) Donner des conseils juridiques personnalisés
+## Cuestionario práctico
 
-## Corrigé
+**Pregunta 1.** Legalmente, una corporación se trata como:
 
-1. B, 2. A, 3. C
+A) La misma entidad que sus accionistas
+B) Su propia "persona" jurídica, separada de sus dueños
+C) Algo que no es una entidad legal en absoluto
+D) Algo relevante solo para efectos fiscales
 
-## Réponses et explications
+**Pregunta 2.** La personalidad jurídica de la corporación es la base de:
 
-**1.** Une décision éclairée commence par les faits et documents réels, puis par la vérification des règles applicables.
+A) Nada importante
+B) La protección de responsabilidad que las corporaciones ofrecen a los accionistas
+C) Solo la estrategia de marketing
+D) Solo los beneficios de los empleados
 
-**2.** Les droits, obligations, procédures et recours diffèrent entre pays, provinces, États et autres territoires.
+**Pregunta 3.** ¿Con qué concepto de una lección anterior conecta esto directamente?
 
-**3.** PURPLE vise à faire de l’apprenant un participant mieux informé; il ne remplace pas les conseils juridiques adaptés à une situation particulière.
+A) Con las lecciones de derecho de la propiedad de RED
+B) Con la lección de GREEN sobre la doble tributación corporativa
+C) Con la lección de WHITE sobre dividendos
+D) No hay ninguna conexión anterior
 
-## Points clés
+**Pregunta 4.** ¿Qué demuestra esta lección sobre la personalidad jurídica de la corporación?
 
-- Les décisions financières et commerciales ont une dimension juridique.
-- Les documents, les faits et la juridiction comptent.
-- Détecter un risque avant de s’engager offre généralement plus d’options.
-- La protection du patrimoine exige une stratégie à la fois offensive et défensive.
-- Lorsque l’enjeu est important, les conseils professionnels peuvent réduire le risque.
+A) Que es puramente beneficiosa, sin contrapartidas
+B) Que produce un beneficio real (protección de responsabilidad) y un costo real (doble tributación)
+C) Que es puramente costosa, sin beneficios
+D) Que no tiene ninguna relación con la tributación
+
+## Clave de respuestas
+
+1. B, 2. B, 3. B, 4. B
+
+## Respuestas y explicaciones
+
+**1.** Este concepto de personalidad propia es la base estructural de todo lo demás que ofrecen las corporaciones, incluida la protección de responsabilidad.
+
+**2.** Como la responsabilidad legal recae en la corporación misma, los accionistas obtienen un escudo de responsabilidad importante.
+
+**3.** Esta lección se vincula de forma explícita con la explicación anterior de GREEN sobre por qué la ganancia corporativa tributa dos veces.
+
+**4.** Ver las dos caras del mismo concepto de fondo refuerza la necesidad de decisiones de estructura integrales, con varios factores.
+
+## Puntos clave
+
+- Una corporación es una "persona" jurídica distinta, separada de sus accionistas.
+- Esta personalidad crea protección de responsabilidad para los accionistas.
+- El mismo concepto de personalidad también produce el problema de doble tributación que se vio en GREEN.
+- Un solo concepto legal puede crear a la vez un beneficio real y un costo real.

@@ -5,68 +5,86 @@ officialTrackName: Law
 level: 1
 lessonNumber: 40
 locale: es-ES
-title: "L’assurance comme outil de gestion du risque juridique"
-summary: "Développe la littératie juridique pratique de PURPLE en français canadien pour reconnaître les droits, obligations, risques et besoins de conseils professionnels."
+title: "El seguro como herramienta legal frente al riesgo"
+summary: "Presenta el seguro específicamente como una herramienta legal de transferencia de riesgo, que complementa (no reemplaza) la protección de responsabilidad basada en entidades vista antes en esta ruta."
 version: 1.0
 author: Waldemar M. Caban, JD MA
 date: 2026-08-09
 ---
 
-# L’assurance comme outil de gestion du risque juridique
+# El seguro como herramienta legal frente al riesgo
 
-## Objectifs d’apprentissage
+## Objetivos de aprendizaje
 
-- Comprendre le concept juridique central de cette leçon.
-- Relier ce concept aux décisions de patrimoine, d’immobilier, d’investissement ou d’affaires.
-- Reconnaître quand les faits ou la juridiction exigent une vérification ou des conseils professionnels.
+- Explicar el papel del seguro como mecanismo legal de transferencia de riesgo.
+- Distinguir la protección del seguro de la protección de responsabilidad basada en entidades.
+- Reconocer por qué a menudo se necesitan ambas herramientas juntas.
 
-## Contenu principal
+## Contenido principal
 
-L’assurance transfère contractuellement certains risques financiers à un assureur en échange d’une prime. Elle complète, sans remplacer, la protection offerte par une structure d’entreprise. Une entité peut protéger certains biens personnels tandis que l’assurance peut fournir des fonds pour des réclamations et frais de défense couverts. Les deux outils répondent à des risques différents.
+El seguro funciona como una herramienta legal de transferencia de riesgo: a cambio de una prima, una aseguradora acepta por contrato cubrir ciertas pérdidas, con lo que el riesgo económico de ciertos hechos pasa del asegurado a la aseguradora. Esto se relaciona con la protección de responsabilidad que da una LLC o una corporación, pero es distinto. La estructura de la entidad protege los bienes personales frente a las responsabilidades del negocio; el seguro aporta fondos para cubrir de verdad las reclamaciones, los costos de defensa y las pérdidas que surjan, sin importar la estructura de la entidad.
 
-## Exemple pratique
+Esta distinción importa porque la protección de la entidad y el seguro cubren brechas distintas. Una LLC podría proteger los bienes personales del dueño frente a una reclamación, pero el negocio mismo, y sus bienes, siguen expuestos si no hay seguro; es decir, una reclamación grave podría arruinar económicamente al negocio, aunque los bienes personales del dueño estén técnicamente protegidos. Al revés, tener seguro sin una estructura de entidad adecuada deja los bienes personales expuestos a cualquier reclamación que supere los límites de cobertura de la póliza. Por eso quienes practican RED, WHITE y BLUE suelen necesitar ambas herramientas trabajando juntas: el seguro y la estructura de la entidad son capas de protección complementarias, no sustitutas.
 
-Une personne rencontre une décision directement liée au sujet de cette leçon. Avant d’agir ou de signer, elle identifie les parties, les documents, les obligations, les actifs exposés et la juridiction applicable. Elle vérifie les points qu’elle ne comprend pas et, lorsque les conséquences sont importantes, obtient des conseils d’un professionnel autorisé avant de devenir juridiquement liée.
+## Ejemplo práctico
 
-## Quiz pratique
+**Pregunta:** Una dueña de negocio tiene una LLC bien constituida, pero ningún seguro de responsabilidad. Si surge una reclamación grande que supera los bienes del propio negocio, ¿qué brecha ilustra esto?
 
-**Question 1.** Quelle est la meilleure approche lorsqu’une décision comporte un risque juridique important?
+**Estudiante:** Según esta lección, la LLC podría proteger los bienes personales de la dueña, pero el negocio mismo no tiene un seguro que cubra de verdad la reclamación, los costos de defensa o las pérdidas, así que el negocio queda expuesto económicamente aun con la protección de la entidad.
 
-A) Supposer qu’une règle générale s’applique partout
-B) Identifier les faits, documents et règles applicables et demander de l’aide professionnelle au besoin
-C) Signer d’abord et vérifier ensuite
-D) Ignorer la juridiction
+**Guía:** ¿Qué habría añadido el seguro en esta situación, junto con la estructura de la entidad?
 
-**Question 2.** Pourquoi la juridiction est-elle importante?
+**Estudiante:** Fondos para cubrir de verdad la reclamación y los costos de defensa, que complementan la protección de los bienes personales que ya da la LLC, en vez de dejar al negocio peligrosamente expuesto.
 
-A) Les règles, procédures et recours peuvent varier selon le lieu
-B) Toutes les règles sont identiques partout
-C) Elle importe seulement en droit criminel
-D) Elle n’a aucune importance
+**Guía:** Exacto: la estructura de la entidad y el seguro son herramientas complementarias, no sustitutas.
 
-**Question 3.** Quel est le rôle de PURPLE?
+## Cuestionario práctico
 
-A) Remplacer les avocats
-B) Garantir qu’aucun différend ne surviendra
-C) Développer la littératie juridique et la capacité de reconnaître quand consulter un professionnel
-D) Donner des conseils juridiques personnalisés
+**Pregunta 1.** El seguro funciona como:
 
-## Corrigé
+A) Un tipo de entidad de negocio
+B) Una herramienta legal de transferencia de riesgo, que traslada el riesgo económico a una aseguradora a cambio de una prima
+C) Lo mismo que una LLC
+D) Algo irrelevante para gestionar el riesgo legal
 
-1. B, 2. A, 3. C
+**Pregunta 2.** ¿En qué se diferencia el seguro de la protección de responsabilidad basada en entidades?
 
-## Réponses et explications
+A) Son idénticos
+B) La estructura de la entidad protege los bienes personales frente a las responsabilidades del negocio; el seguro aporta fondos para cubrir reclamaciones y pérdidas
+C) El seguro reemplaza la necesidad de cualquier estructura de entidad
+D) La estructura de la entidad reemplaza la necesidad de cualquier seguro
 
-**1.** Une décision éclairée commence par les faits et documents réels, puis par la vérification des règles applicables.
+**Pregunta 3.** ¿Qué brecha queda si un negocio tiene la protección de una entidad, pero no tiene seguro?
 
-**2.** Les droits, obligations, procédures et recours diffèrent entre pays, provinces, États et autres territoires.
+A) No queda ninguna brecha
+B) El negocio mismo y sus bienes siguen expuestos a reclamaciones, aunque los bienes personales estén protegidos
+C) Los bienes personales del dueño quedan más expuestos
+D) Esta combinación elimina todo riesgo
 
-**3.** PURPLE vise à faire de l’apprenant un participant mieux informé; il ne remplace pas les conseils juridiques adaptés à une situation particulière.
+**Pregunta 4.** ¿Por qué esta lección recomienda usar ambas herramientas juntas?
 
-## Points clés
+A) Nunca hace falta más de una herramienta
+B) Cubren brechas distintas y funcionan como capas de protección complementarias
+C) Usar ambas herramientas es ilegal
+D) Esta lección recomienda no usar ninguna de las dos
 
-- Les décisions financières et commerciales ont une dimension juridique.
-- Les documents, les faits et la juridiction comptent.
-- Détecter un risque avant de s’engager offre généralement plus d’options.
-- La protection du patrimoine exige une stratégie à la fois offensive et défensive.
-- Lorsque l’enjeu est important, les conseils professionnels peuvent réduire le risque.
+## Clave de respuestas
+
+1. B, 2. B, 3. B, 4. B
+
+## Respuestas y explicaciones
+
+**1.** La estructura de prima a cambio de transferir el riesgo es el mecanismo que define al seguro como herramienta legal.
+
+**2.** Estas dos herramientas protegen frente a cosas distintas: la exposición de los bienes personales frente a la capacidad económica del propio negocio para afrontar reclamaciones.
+
+**3.** Sin seguro, el negocio mismo sigue siendo vulnerable a reclamaciones que podrían superar sus propios bienes.
+
+**4.** Que cubran de forma complementaria brechas de riesgo distintas es justo la razón por la que se recomiendan juntas y no como alternativas.
+
+## Puntos clave
+
+- El seguro transfiere el riesgo económico a una aseguradora a cambio de una prima.
+- La estructura de la entidad protege los bienes personales; el seguro aporta fondos para cubrir de verdad las reclamaciones y las pérdidas.
+- Tener una herramienta sin la otra deja una brecha de protección real e importante.
+- Quienes practican RED, WHITE y BLUE suelen beneficiarse de usar ambas herramientas juntas.

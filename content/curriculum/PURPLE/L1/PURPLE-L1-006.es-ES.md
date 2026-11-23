@@ -5,58 +5,88 @@ officialTrackName: Law
 level: 1
 lessonNumber: 6
 locale: es-ES
-title: "Violation de contrat : que se passe-t-il lorsqu’une partie n’exécute pas ses obligations?"
-summary: "Présente la violation de contrat et les principales catégories de recours possibles lorsqu’une partie ne respecte pas son engagement."
+title: "Incumplimiento de contrato: qué pasa cuando alguien no cumple"
+summary: "Presenta el concepto de incumplimiento de contrato y las categorías generales de remedios disponibles cuando una de las partes no cumple con lo que le toca."
 version: 1.0
 author: Waldemar M. Caban, JD MA
 date: 2026-08-09
 ---
 
-# Violation de contrat : que se passe-t-il lorsqu’une partie n’exécute pas ses obligations?
+# Incumplimiento de contrato: qué pasa cuando alguien no cumple
 
-## Objectifs d’apprentissage
+## Objetivos de aprendizaje
 
-- Comprendre le concept juridique central de cette leçon.
-- L’appliquer à des situations pratiques d’immobilier, d’investissement ou d’affaires.
-- Reconnaître quand il convient d’obtenir des conseils professionnels.
+- Definir el incumplimiento de contrato.
+- Identificar las categorías generales de remedios ante un incumplimiento.
+- Reconocer el incumplimiento como un riesgo de negocio previsible, no como un hecho inusual.
 
-## Contenu principal
+## Contenido principal
 
-Il y a violation de contrat lorsqu’une partie ne respecte pas ses obligations en vertu d’une entente exécutoire, par exemple en omettant un paiement, en ne livrant pas un bien ou en ne réalisant pas le travail convenu. Les recours dépendent du contrat et de la juridiction. Ils peuvent comprendre des dommages-intérêts, l’exécution en nature dans certaines circonstances, notamment pour des biens uniques, ou la résiliation du contrat. Un contrat bien rédigé prévoit souvent à l’avance les conséquences d’un défaut.
+Hay incumplimiento de contrato cuando una de las partes no cumple sus obligaciones bajo un acuerdo exigible: no hace un pago, no entrega una propiedad o no completa el trabajo acordado. Cuando ocurre un incumplimiento, la parte que sí cumplió suele tener remedios legales a su disposición, aunque las opciones concretas dependen del contrato y de la jurisdicción.
 
-## Exemple pratique
+Las categorías comunes de remedios incluyen: los daños y perjuicios en dinero (una compensación por la pérdida económica causada por el incumplimiento), el cumplimiento específico (una orden judicial que obliga a la parte incumplidora a hacer realmente lo que prometió, más común en bienes inmuebles, donde la propiedad misma es única) y la terminación del contrato (que libera a la parte cumplidora de sus propias obligaciones pendientes). Entender que el incumplimiento es un riesgo previsible y que se puede planificar, y no una catástrofe inusual, es parte de una alfabetización contractual madura: los contratos bien redactados suelen indicar de antemano qué pasa si cualquiera de las partes incumple, y por eso revisar el contrato con cuidado importa antes de firmar, no solo después de que algo sale mal.
 
-Une personne fait face à une décision liée à ce sujet. Plutôt que de présumer qu’une règle générale règle automatiquement son cas, elle identifie les faits, les documents, les obligations et la juridiction applicables. Cette préparation lui permet d’évaluer le risque et, lorsque les conséquences sont importantes, de consulter un professionnel autorisé avec des questions plus précises.
+*REGLA ESPECÍFICA DE LA REGIÓN:* En España, el artículo 1124 del Código Civil permite a la parte perjudicada exigir el cumplimiento o la resolución del contrato, con indemnización de daños y perjuicios en ambos casos. Los nombres y requisitos pueden diferir de los del common law de EE. UU.
 
-## Quiz pratique
+## Ejemplo práctico
 
-**Question 1.** Quel est un rôle important de la littératie juridique?
+**Pregunta:** Un comprador firma un contrato para comprar una propiedad específica y luego el vendedor se echa para atrás y se la vende a otra persona. Como la propiedad es única, ¿qué remedio podría ser especialmente relevante?
 
-A) Éliminer tout risque juridique
-B) Reconnaître les problèmes et savoir quand demander de l’aide professionnelle
-C) Toujours remplacer un avocat
-D) Ignorer la juridiction
+**Estudiante:** Según esta lección, el cumplimiento específico podría ser relevante, ya que un tribunal podría ordenar que se complete la venta en lugar de solo conceder dinero.
 
-**Question 2.** Pourquoi faut-il tenir compte de la juridiction?
+**Guía:** ¿Por qué el cumplimiento específico tendría más sentido para una propiedad única que, por ejemplo, para un producto genérico?
 
-A) Parce que les règles et les recours peuvent varier
-B) Parce que toutes les juridictions sont identiques
-C) Parce qu’elle n’affecte jamais les contrats ou les affaires
-D) Il ne faut pas en tenir compte
+**Estudiante:** Porque la propiedad es única: el dinero por sí solo podría no reemplazar lo que el comprador quería específicamente, a diferencia de un producto genérico que podría volver a comprarse en otro lugar.
 
-## Corrigé
+**Guía:** Exacto: por eso el cumplimiento específico aparece con especial frecuencia en las disputas sobre contratos de bienes inmuebles.
 
-1. B, 2. A
+## Cuestionario práctico
 
-## Réponses et explications
+**Pregunta 1.** Hay incumplimiento de contrato cuando:
 
-**1.** La littératie juridique aide à reconnaître les risques et à utiliser plus efficacement les conseils professionnels.
+A) Ambas partes acuerdan cancelar el negocio
+B) Una parte no cumple sus obligaciones bajo el acuerdo
+C) Se firma un contrato
+D) Nunca se llegó a un acuerdo
 
-**2.** Les règles, procédures et recours peuvent varier entre pays, provinces, États et autres territoires.
+**Pregunta 2.** Los daños y perjuicios en dinero son:
 
-## Points clés
+A) Un remedio que nunca está disponible
+B) Una compensación por la pérdida económica causada por un incumplimiento
+C) Algo que solo importa en casos penales
+D) Lo mismo que el cumplimiento específico
 
-- Comprendre les concepts juridiques de base améliore les décisions financières et commerciales.
-- Les faits et la juridiction comptent.
-- Détecter les problèmes tôt peut réduire les coûts et l’exposition.
-- PURPLE développe la littératie juridique; il ne remplace pas des conseils juridiques personnalisés.
+**Pregunta 3.** El cumplimiento específico es:
+
+A) Una orden judicial que obliga a completar lo prometido
+B) Siempre lo mismo que los daños y perjuicios en dinero
+C) Algo que nunca se usa en bienes inmuebles
+D) Algo irrelevante para el derecho de contratos
+
+**Pregunta 4.** ¿Por qué se describe el incumplimiento como un "riesgo previsible y que se puede planificar" y no como una catástrofe inusual?
+
+A) El incumplimiento nunca ocurre en realidad
+B) Los contratos bien redactados suelen indicar de antemano qué pasa si cualquiera de las partes incumple
+C) Los contratos nunca abordan esta posibilidad
+D) Esta forma de verlo no es correcta
+
+## Clave de respuestas
+
+1. B, 2. B, 3. A, 4. B
+
+## Respuestas y explicaciones
+
+**1.** El incumplimiento es, específicamente, no cumplir obligaciones que se acordaron legalmente.
+
+**2.** Los daños y perjuicios buscan dejar a la parte cumplidora económicamente como si no hubiera sufrido la pérdida.
+
+**3.** El cumplimiento específico es especialmente relevante cuando el objeto del contrato, como una propiedad única, no puede reemplazarse simplemente con dinero.
+
+**4.** Los contratos maduros anticipan el incumplimiento y fijan sus consecuencias de antemano, tratándolo como una posibilidad real que hay que planificar.
+
+## Puntos clave
+
+- Hay incumplimiento cuando una parte no cumple sus obligaciones contractuales.
+- Los remedios incluyen los daños y perjuicios en dinero, el cumplimiento específico y la terminación del contrato.
+- El cumplimiento específico es especialmente relevante para bienes únicos, como los inmuebles.
+- El incumplimiento es un riesgo previsible que los contratos bien redactados planifican de antemano.

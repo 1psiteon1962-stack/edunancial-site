@@ -5,68 +5,86 @@ officialTrackName: Law
 level: 1
 lessonNumber: 41
 locale: es-ES
-title: "Responsabilité : comprendre ce que vous pourriez devoir juridiquement"
-summary: "Développe la littératie juridique pratique de PURPLE en français canadien pour reconnaître les droits, obligations, risques et besoins de conseils professionnels."
+title: "La responsabilidad legal: entender lo que podrías deber legalmente"
+summary: "Da una definición clara y general de la responsabilidad legal y resume cómo ha aparecido en los contratos, los daños extracontractuales y las estructuras de negocio a lo largo de esta ruta."
 version: 1.0
 author: Waldemar M. Caban, JD MA
 date: 2026-08-09
 ---
 
-# Responsabilité : comprendre ce que vous pourriez devoir juridiquement
+# La responsabilidad legal: entender lo que podrías deber legalmente
 
-## Objectifs d’apprentissage
+## Objetivos de aprendizaje
 
-- Comprendre le concept juridique central de cette leçon.
-- Relier ce concept aux décisions de patrimoine, d’immobilier, d’investissement ou d’affaires.
-- Reconnaître quand les faits ou la juridiction exigent une vérification ou des conseils professionnels.
+- Definir la responsabilidad legal en términos sencillos.
+- Reconocer las distintas fuentes de responsabilidad vistas a lo largo de esta ruta.
+- Reforzar la responsabilidad como el concepto que une la mayor parte del contenido de PURPLE.
 
-## Contenu principal
+## Contenido principal
 
-La responsabilité juridique signifie être tenu légalement responsable d’une obligation ou d’un préjudice. Elle peut découler d’un contrat, d’une faute civile ou d’autres règles. La structure d’entreprise détermine parfois quels actifs sont exposés, tandis que l’assurance et la planification patrimoniale peuvent gérer certains risques. Reconnaître la source de la responsabilité permet de choisir des protections adaptées.
+En sentido legal, la responsabilidad (liability) significa estar legalmente obligado por algo: lo más común es deber dinero u otro remedio como resultado de una obligación legal o de un acto indebido. Esta lección da un paso atrás para nombrar de forma explícita lo que en realidad ha sido el hilo conductor de gran parte de esta ruta: la responsabilidad contractual (deber una indemnización por incumplimiento, vista al principio de esta ruta), la responsabilidad extracontractual (deber una indemnización por un daño causado fuera de cualquier contrato) y la responsabilidad ligada a la estructura del negocio (si los bienes personales quedan expuestos a las obligaciones del negocio) son, en el fondo, fuentes distintas del mismo concepto de base.
 
-## Exemple pratique
+Reconocer la responsabilidad como este hilo conductor ayuda a ordenar todo lo visto hasta ahora en un cuadro coherente y no en una lista de temas sueltos: los contratos crean responsabilidad si se incumplen; los daños extracontractuales crean responsabilidad cuando se causa un daño; la estructura del negocio determina qué bienes quedan realmente expuestos a esa responsabilidad; y el seguro y la protección de activos, que se ven en las lecciones de alrededor, son herramientas pensadas específicamente para gestionar la exposición a la responsabilidad una vez que se entiende como un riesgo real y siempre presente en las actividades de RED, WHITE y BLUE por igual. Cada tema legal específico de esta ruta es, en cierto sentido, una variación de la misma pregunta central: ¿en qué circunstancias podrías llegar a ser legalmente responsable de algo, y qué determina el alcance de esa responsabilidad?
 
-Une personne rencontre une décision directement liée au sujet de cette leçon. Avant d’agir ou de signer, elle identifie les parties, les documents, les obligations, les actifs exposés et la juridiction applicable. Elle vérifie les points qu’elle ne comprend pas et, lorsque les conséquences sont importantes, obtient des conseils d’un professionnel autorisé avant de devenir juridiquement liée.
+## Ejemplo práctico
 
-## Quiz pratique
+**Pregunta:** Mirando hacia atrás en toda esta ruta, ¿cómo le explicarías a alguien que los contratos, los daños extracontractuales y la estructura del negocio son en realidad temas conectados y no separados?
 
-**Question 1.** Quelle est la meilleure approche lorsqu’une décision comporte un risque juridique important?
+**Estudiante:** Según esta lección, son fuentes distintas del mismo concepto de base, la responsabilidad legal: ser legalmente responsable de algo, ya venga de un contrato incumplido, de un daño causado fuera de un contrato o de la exposición ligada a la estructura del negocio.
 
-A) Supposer qu’une règle générale s’applique partout
-B) Identifier les faits, documents et règles applicables et demander de l’aide professionnelle au besoin
-C) Signer d’abord et vérifier ensuite
-D) Ignorer la juridiction
+**Guía:** ¿Cómo encajan el seguro y la protección de activos en este cuadro unificado?
 
-**Question 2.** Pourquoi la juridiction est-elle importante?
+**Estudiante:** Son herramientas pensadas específicamente para gestionar esa exposición a la responsabilidad una vez que la entiendes como un riesgo real y siempre presente, no temas separados y sin relación.
 
-A) Les règles, procédures et recours peuvent varier selon le lieu
-B) Toutes les règles sont identiques partout
-C) Elle importe seulement en droit criminel
-D) Elle n’a aucune importance
+**Guía:** Exacto: la responsabilidad es el hilo que une todo el contenido de esta ruta.
 
-**Question 3.** Quel est le rôle de PURPLE?
+## Cuestionario práctico
 
-A) Remplacer les avocats
-B) Garantir qu’aucun différend ne surviendra
-C) Développer la littératie juridique et la capacité de reconnaître quand consulter un professionnel
-D) Donner des conseils juridiques personnalisés
+**Pregunta 1.** En general, la responsabilidad legal se refiere a:
 
-## Corrigé
+A) Ser legalmente responsable de algo, como deber dinero u otro remedio
+B) Un tipo de póliza de seguro
+C) Algo que solo importa en casos penales
+D) Lo mismo que un contrato
 
-1. B, 2. A, 3. C
+**Pregunta 2.** La responsabilidad contractual surge de:
 
-## Réponses et explications
+A) Un daño causado fuera de cualquier acuerdo
+B) Incumplir un acuerdo legalmente obligatorio
+C) Ser dueño de bienes inmuebles
+D) Nada relacionado con los contratos
 
-**1.** Une décision éclairée commence par les faits et documents réels, puis par la vérification des règles applicables.
+**Pregunta 3.** La responsabilidad extracontractual surge de:
 
-**2.** Les droits, obligations, procédures et recours diffèrent entre pays, provinces, États et autres territoires.
+A) Incumplir un contrato
+B) Un daño causado a otra persona, sin relación con ningún contrato
+C) Solo las decisiones sobre la estructura del negocio
+D) Nada relacionado con el derecho civil
 
-**3.** PURPLE vise à faire de l’apprenant un participant mieux informé; il ne remplace pas les conseils juridiques adaptés à une situation particulière.
+**Pregunta 4.** Según el resumen de esta lección, ¿qué papel tienen el seguro y la protección de activos?
 
-## Points clés
+A) Crean responsabilidad en vez de gestionarla
+B) Son herramientas pensadas específicamente para gestionar la exposición a la responsabilidad
+C) No tienen ninguna relación con la responsabilidad
+D) Solo se aplican a asuntos penales
 
-- Les décisions financières et commerciales ont une dimension juridique.
-- Les documents, les faits et la juridiction comptent.
-- Détecter un risque avant de s’engager offre généralement plus d’options.
-- La protection du patrimoine exige une stratégie à la fois offensive et défensive.
-- Lorsque l’enjeu est important, les conseils professionnels peuvent réduire le risque.
+## Clave de respuestas
+
+1. A, 2. B, 3. B, 4. B
+
+## Respuestas y explicaciones
+
+**1.** Esta definición amplia recoge el significado central que comparten todos los tipos específicos de responsabilidad vistos en esta ruta.
+
+**2.** Esto retoma directamente las lecciones anteriores de contratos sobre el incumplimiento y la exigibilidad.
+
+**3.** Esto retoma directamente la lección anterior que distinguió las reclamaciones por daños de las reclamaciones contractuales.
+
+**4.** Esta lección replantea de forma explícita estas herramientas como instrumentos para gestionar la responsabilidad, lo que une toda la ruta.
+
+## Puntos clave
+
+- La responsabilidad legal significa ser legalmente responsable de algo, normalmente deber dinero u otro remedio.
+- La responsabilidad contractual, la extracontractual y la ligada a la estructura del negocio son variaciones del mismo concepto de base.
+- Esta visión unificada ordena todo el contenido de la ruta en torno a una pregunta central coherente.
+- El seguro y la protección de activos, vistos alrededor de esta lección, son herramientas para gestionar la exposición a la responsabilidad.

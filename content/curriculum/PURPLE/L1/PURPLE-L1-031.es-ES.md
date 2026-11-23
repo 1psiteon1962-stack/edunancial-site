@@ -5,68 +5,88 @@ officialTrackName: Law
 level: 1
 lessonNumber: 31
 locale: es-ES
-title: "Qu’est-ce qu’un titre financier au sens juridique?"
-summary: "Développe la littératie juridique pratique de PURPLE en français canadien pour reconnaître les droits, obligations, risques et besoins de conseils professionnels."
+title: "¿Qué es legalmente un valor?"
+summary: "Abre la sección de derecho de inversiones y valores definiendo qué cuenta legalmente como un \"valor\", en conexión directa con el contenido de inversiones de WHITE."
 version: 1.0
 author: Waldemar M. Caban, JD MA
 date: 2026-08-09
 ---
 
-# Qu’est-ce qu’un titre financier au sens juridique?
+# ¿Qué es legalmente un valor?
 
-## Objectifs d’apprentissage
+## Objetivos de aprendizaje
 
-- Comprendre le concept juridique central de cette leçon.
-- Relier ce concept aux décisions de patrimoine, d’immobilier, d’investissement ou d’affaires.
-- Reconnaître quand les faits ou la juridiction exigent une vérification ou des conseils professionnels.
+- Definir un valor en términos legales.
+- Identificar ejemplos comunes de valores.
+- Explicar por qué la definición legal importa más allá de lo que se entiende por sentido común.
 
-## Contenu principal
+## Contenido principal
 
-Un titre financier est une catégorie juridique d’investissement pouvant représenter une participation, une dette ou certains droits aux profits découlant des efforts d’autrui. La définition peut être plus large que les actions et obligations traditionnelles. Une opération appelée « adhésion » ou « partage de revenus » peut tout de même être juridiquement un titre financier selon les faits et la loi applicable.
+Esta lección abre la sección de derecho de inversiones de PURPLE y conecta directamente con WHITE. Un valor (security) es, en términos amplios, una categoría de inversión definida por la ley: un instrumento que representa una participación de propiedad, una relación de deuda o el derecho a ganancias que provienen del esfuerzo de otros. Los ejemplos comunes y evidentes son las acciones y los bonos, que se ven a fondo en WHITE. Pero la definición legal de valor es en realidad más amplia y matizada de lo que la mayoría supone: puede abarcar ciertos contratos de inversión, algunas formas de acuerdos de participación en las ganancias y otras estructuras que no se parecen en nada a un certificado de acciones tradicional.
 
-## Exemple pratique
+Esta definición legal más amplia importa porque el derecho de valores impone requisitos reales (registro, divulgación y otras protecciones para los inversores) que se aplican según si algo califica legalmente como valor, no según cómo se le llame de manera informal. Una oportunidad de inversión que se promociona como algo totalmente distinto (una "membresía", un "club de participación en las ganancias", un "acuerdo de reparto de ingresos") puede seguir siendo legalmente un valor si cumple la prueba legal, lo que significa que sigue sujeta a la regulación de valores sin importar la etiqueta con que se promocione. Entender esto prepara las próximas lecciones, que exploran por qué existe esta regulación y de qué busca proteger.
 
-Une personne rencontre une décision directement liée au sujet de cette leçon. Avant d’agir ou de signer, elle identifie les parties, les documents, les obligations, les actifs exposés et la juridiction applicable. Elle vérifie les points qu’elle ne comprend pas et, lorsque les conséquences sont importantes, obtient des conseils d’un professionnel autorisé avant de devenir juridiquement liée.
+*REGLA ESPECÍFICA DE LA REGIÓN:* La definición legal de valor y la autoridad que la aplica dependen de cada país. En EE. UU. interviene la SEC; en España, la Comisión Nacional del Mercado de Valores (CNMV). Las pruebas legales concretas pueden diferir.
 
-## Quiz pratique
+## Ejemplo práctico
 
-**Question 1.** Quelle est la meilleure approche lorsqu’une décision comporte un risque juridique important?
+**Pregunta:** Un promotor ofrece una oportunidad de inversión como un "club de participación en las ganancias" y evita a propósito las palabras "valor" o "acciones". ¿Esa elección de nombre determina si se aplica realmente el derecho de valores?
 
-A) Supposer qu’une règle générale s’applique partout
-B) Identifier les faits, documents et règles applicables et demander de l’aide professionnelle au besoin
-C) Signer d’abord et vérifier ensuite
-D) Ignorer la juridiction
+**Estudiante:** Según esta lección, no: la definición legal de valor depende de lo que el acuerdo es en realidad, no de cómo se llama, así que un "club de participación en las ganancias" podría seguir siendo legalmente un valor si cumple la prueba legal.
 
-**Question 2.** Pourquoi la juridiction est-elle importante?
+**Guía:** ¿Por qué importaría esto a alguien que está considerando esa oportunidad de inversión?
 
-A) Les règles, procédures et recours peuvent varier selon le lieu
-B) Toutes les règles sont identiques partout
-C) Elle importe seulement en droit criminel
-D) Elle n’a aucune importance
+**Estudiante:** Porque si califica legalmente como valor, sigue sujeto a los requisitos de registro, divulgación y otras protecciones para los inversores, sin importar cómo se promocionó o se llamó.
 
-**Question 3.** Quel est le rôle de PURPLE?
+**Guía:** Exacto: la sustancia del acuerdo importa más que la etiqueta que se usa para describirlo.
 
-A) Remplacer les avocats
-B) Garantir qu’aucun différend ne surviendra
-C) Développer la littératie juridique et la capacité de reconnaître quand consulter un professionnel
-D) Donner des conseils juridiques personnalisés
+## Cuestionario práctico
 
-## Corrigé
+**Pregunta 1.** En términos amplios, un valor se define como:
 
-1. B, 2. A, 3. C
+A) Solo las acciones y los bonos, nada más
+B) Un instrumento que representa propiedad, deuda o el derecho a ganancias del esfuerzo de otros
+C) Solo los activos físicos
+D) Un tipo de póliza de seguro
 
-## Réponses et explications
+**Pregunta 2.** Entre los ejemplos comunes y evidentes de valores están:
 
-**1.** Une décision éclairée commence par les faits et documents réels, puis par la vérification des règles applicables.
+A) Las escrituras de bienes inmuebles
+B) Las acciones y los bonos
+C) Los contratos de empleo
+D) Los permisos de zonificación
 
-**2.** Les droits, obligations, procédures et recours diffèrent entre pays, provinces, États et autres territoires.
+**Pregunta 3.** ¿Una inversión promocionada con una etiqueta que no es "valor" puede seguir calificando legalmente como valor?
 
-**3.** PURPLE vise à faire de l’apprenant un participant mieux informé; il ne remplace pas les conseils juridiques adaptés à une situation particulière.
+A) No, la etiqueta siempre determina la situación legal
+B) Sí: la definición legal depende de la sustancia del acuerdo, no de la etiqueta que se use
+C) Solo si se le llama "acciones" de forma explícita
+D) La etiqueta no tiene ninguna relación con el derecho de valores
 
-## Points clés
+**Pregunta 4.** ¿Por qué importa en la práctica la definición legal de "valor"?
 
-- Les décisions financières et commerciales ont une dimension juridique.
-- Les documents, les faits et la juridiction comptent.
-- Détecter un risque avant de s’engager offre généralement plus d’options.
-- La protection du patrimoine exige une stratégie à la fois offensive et défensive.
-- Lorsque l’enjeu est important, les conseils professionnels peuvent réduire le risque.
+A) No tiene ninguna importancia práctica
+B) El derecho de valores impone requisitos reales (registro, divulgación, protecciones) según la calificación legal, no según la etiqueta de marketing
+C) Solo se regulan las acciones y los bonos
+D) Esta definición solo importa a los abogados, nunca a los inversores
+
+## Clave de respuestas
+
+1. B, 2. B, 3. B, 4. B
+
+## Respuestas y explicaciones
+
+**1.** Esta definición amplia está pensada para abarcar una gran variedad de acuerdos con forma de inversión, no solo los ejemplos evidentes.
+
+**2.** Las acciones y los bonos son los ejemplos más claros y conocidos, que se ven a fondo en otra parte de este currículo.
+
+**3.** Lo que activa la regulación de valores es la sustancia legal, no el lenguaje de marketing.
+
+**4.** Este alcance regulatorio es justamente lo que protege a los inversores de acuerdos diseñados para evadirlo con etiquetas ingeniosas.
+
+## Puntos clave
+
+- En términos amplios, un valor es cualquier instrumento que representa propiedad, deuda o derechos de participación en ganancias.
+- Las acciones y los bonos son los ejemplos más conocidos, pero la definición legal va más allá.
+- Cómo se le llame a algo no determina su situación legal: lo determina su sustancia real.
+- Esto prepara las próximas lecciones, que exploran por qué existe la regulación de valores y qué protege.

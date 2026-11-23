@@ -5,70 +5,88 @@ officialTrackName: Law
 level: 1
 lessonNumber: 27
 locale: es-Caribbean
-title: "Alfabetización jurídica aplicada — Lección 27"
-summary: "Desarrolla alfabetización jurídica práctica para reconocer derechos, obligaciones, riesgos y cuándo obtener asesoría profesional."
+title: "Servidumbres: cuando otra persona tiene un derecho legal sobre tu terreno"
+summary: "Explica el concepto de servidumbre como un derecho específico y limitado que se concede a un tercero sobre la propiedad de otra persona, a partir del marco del conjunto de derechos."
 version: 1.0
 author: Waldemar M. Caban, JD MA
 date: 2026-08-09
 ---
 
-# Alfabetización jurídica aplicada — Lección 27
+# Servidumbres: cuando otra persona tiene un derecho legal sobre tu terreno
 
 ## Objetivos de aprendizaje
 
-- Identificar derechos, obligaciones y riesgos jurídicos relevantes.
-- Aplicar una metodología práctica antes de tomar decisiones financieras o comerciales.
-- Reconocer cuándo una situación requiere asesoría jurídica profesional.
+- Definir una servidumbre.
+- Identificar los tipos y propósitos comunes de las servidumbres.
+- Relacionar las servidumbres directamente con el concepto del conjunto de derechos.
 
 ## Contenido principal
 
-Las decisiones sobre patrimonio, bienes raíces, inversiones y negocios existen dentro de un marco jurídico. Antes de actuar, es importante identificar las partes, los documentos aplicables, las obligaciones asumidas, los derechos afectados y la jurisdicción que controla la situación. Una regla general no debe tratarse como una respuesta universal: contratos, propiedad, responsabilidad, regulación y procedimientos pueden variar entre países, estados, provincias y territorios.
+Una servidumbre es un derecho legal que permite a una persona específica usar una parte de la propiedad de otra para un propósito específico y limitado, sin transferir la propiedad. Es una aplicación directa y concreta del concepto del conjunto de derechos: una servidumbre separa una pequeña parte del derecho de exclusión del dueño y se la concede a otra persona, mientras el dueño conserva todo lo demás del conjunto.
 
-La alfabetización jurídica no consiste en intentar ejercer como abogado. Consiste en reconocer señales de riesgo, formular mejores preguntas, conservar documentación y entender cuándo el costo de una revisión profesional es pequeño frente al posible costo de un error. Esta capacidad fortalece tanto la estrategia ofensiva como la defensiva: permite buscar oportunidades sin abandonar las protecciones necesarias para conservar lo construido.
+Entre los ejemplos comunes están la servidumbre de servicios públicos (que permite a una compañía de servicios entrar para instalar y mantener líneas eléctricas o tuberías a través de una propiedad) y la servidumbre de paso (que permite a un vecino cruzar una propiedad para llegar a la suya cuando no hay otra vía de acceso razonable). Las servidumbres suelen "acompañar al terreno": es decir, siguen vigentes aunque la propiedad se venda a un nuevo dueño, y por eso aparecen en un estudio de título e importan en la debida diligencia del comprador. Un comprador que no sabe que existe una servidumbre importante sobre una propiedad podría llevarse la sorpresa de no poder usar parte de "su" terreno como esperaba, a pesar de ser dueño pleno en todo lo demás.
+
+*REGLA ESPECÍFICA DE LA REGIÓN:* Las servidumbres también existen en los sistemas de derecho civil, como el de la República Dominicana, reguladas por el Código Civil, y suelen constar en el registro inmobiliario. Las reglas concretas sobre cómo se crean y se extinguen varían según la jurisdicción.
 
 ## Ejemplo práctico
 
-Una persona considera una operación con consecuencias económicas importantes. Antes de firmar, identifica qué promete cada parte, qué ocurre si alguien incumple, qué activos podrían quedar expuestos y qué reglas locales se aplican. Si encuentra lenguaje ambiguo, una obligación significativa o algo que no comprende, solicita revisión de un profesional autorizado antes de quedar obligada.
+**Pregunta:** Un comprador adquiere una propiedad sin revisar si existen servidumbres y luego descubre que una compañía de servicios tiene el derecho legal de entrar a una parte del patio cuando lo necesite. ¿Por qué ser dueño pleno no lo evitó?
+
+**Estudiante:** Según esta lección, una servidumbre separa un derecho específico del conjunto que forma la propiedad y se lo concede a otra persona, mientras el comprador sigue teniendo todo lo demás del conjunto.
+
+**Guía:** ¿Por qué esta servidumbre sigue aplicándose aunque la propiedad se vendió a un nuevo dueño?
+
+**Estudiante:** Porque las servidumbres suelen "acompañar al terreno": siguen vigentes a través de una venta en vez de desaparecer cuando cambia el dueño.
+
+**Guía:** Exacto, y por eso revisar si hay servidumbres durante la debida diligencia, junto con el estudio de título, importa tanto.
 
 ## Prueba práctica
 
-**Pregunta 1.** ¿Cuál es el objetivo de la alfabetización jurídica de PURPLE?
+**Pregunta 1.** Una servidumbre es:
 
-A) Sustituir permanentemente a un abogado
-B) Reconocer riesgos, comprender conceptos y saber cuándo buscar ayuda profesional
-C) Garantizar que nunca exista una disputa
-D) Memorizar todas las leyes
+A) Una transferencia completa de la propiedad
+B) Un derecho legal que permite a una persona específica usar parte de la propiedad de otra para un propósito limitado
+C) Un tipo de gravamen
+D) Algo irrelevante para el derecho de la propiedad
 
-**Pregunta 2.** ¿Por qué importa la jurisdicción?
+**Pregunta 2.** Una servidumbre de servicios públicos suele permitir:
 
-A) Porque las reglas pueden variar según el lugar y los hechos
-B) Porque todas las leyes son idénticas
-C) Porque solamente importa en asuntos penales
-D) No importa
+A) Que una compañía de servicios entre y dé mantenimiento a líneas o tuberías que cruzan una propiedad
+B) Que el dueño venda la propiedad libremente
+C) Nada relacionado con el acceso a la propiedad
+D) Solo el uso residencial de la propiedad
 
-**Pregunta 3.** Ante un documento importante que no se comprende completamente, una práctica prudente es:
+**Pregunta 3.** ¿Las servidumbres suelen pasar a un nuevo dueño cuando se vende una propiedad?
 
-A) Firmarlo y preguntar después
-B) Ignorar las cláusulas difíciles
-C) Obtener aclaración y, cuando corresponda, revisión profesional antes de firmar
-D) Suponer que una plantilla siempre protege a todas las partes
+A) No, desaparecen con la venta
+B) Sí: las servidumbres suelen "acompañar al terreno"
+C) Solo si el nuevo dueño lo acepta de forma explícita
+D) Las servidumbres nunca son relevantes en una venta
+
+**Pregunta 4.** ¿Cómo relaciona esta lección las servidumbres con el concepto del conjunto de derechos?
+
+A) No hay ninguna relación
+B) Una servidumbre separa un derecho específico (como el de exclusión) del conjunto y se lo concede a otra persona
+C) Las servidumbres transfieren todo el conjunto de derechos
+D) Las servidumbres no tienen relación con ningún marco de derechos
 
 ## Clave de respuestas
 
-1. B, 2. A, 3. C
+1. B, 2. A, 3. B, 4. B
 
 ## Respuestas y explicaciones
 
-**1.** PURPLE desarrolla capacidad para reconocer problemas y utilizar asesoría profesional eficazmente; no reemplaza a un abogado.
+**1.** Una servidumbre concede derechos de uso específicos y limitados sin transferir la propiedad de fondo.
 
-**2.** Derechos, procedimientos, remedios y requisitos pueden variar considerablemente por jurisdicción.
+**2.** Las servidumbres de servicios públicos son un ejemplo clásico y ampliamente reconocido de este tipo de derecho de acceso limitado.
 
-**3.** Comprender las obligaciones antes de asumirlas reduce riesgos y permite corregir problemas cuando todavía existe capacidad de negociación.
+**3.** Seguir vigente a través de una venta ("acompañar al terreno") es una característica que define a la mayoría de las servidumbres.
+
+**4.** Esta lección presenta de forma explícita las servidumbres como una aplicación directa y concreta del concepto anterior del conjunto de derechos.
 
 ## Puntos clave
 
-- Las decisiones financieras y comerciales tienen una dimensión jurídica.
-- Los documentos, hechos y jurisdicción importan.
-- La protección patrimonial requiere estrategia ofensiva y defensiva.
-- Identificar un problema antes de firmar suele ofrecer más opciones que descubrirlo después.
-- Cuando las consecuencias son importantes, la asesoría profesional puede reducir riesgos.
+- Una servidumbre concede un derecho específico y limitado a usar parte de una propiedad, sin transferir la propiedad.
+- Las servidumbres de servicios públicos y de paso son ejemplos comunes.
+- Las servidumbres suelen "acompañar al terreno" y siguen vigentes a través de las ventas de la propiedad.
+- Es una aplicación directa y práctica del concepto del conjunto de derechos visto antes en esta sección.

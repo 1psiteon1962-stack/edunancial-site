@@ -5,58 +5,86 @@ officialTrackName: Law
 level: 1
 lessonNumber: 3
 locale: es-Caribbean
-title: "Contratos 101: qué hace que un acuerdo sea jurídicamente vinculante"
-summary: "Introduce el concepto de contrato y la diferencia entre una promesa informal y un acuerdo exigible."
+title: "Contratos 101: qué hace que un acuerdo sea legalmente obligatorio"
+summary: "Presenta el concepto fundamental de contrato y adelanta los elementos que hacen que un acuerdo se pueda hacer cumplir legalmente, como preparación para las dos lecciones siguientes."
 version: 1.0
 author: Waldemar M. Caban, JD MA
 date: 2026-08-09
 ---
 
-# Contratos 101: qué hace que un acuerdo sea jurídicamente vinculante
+# Contratos 101: qué hace que un acuerdo sea legalmente obligatorio
 
 ## Objetivos de aprendizaje
 
-- Comprender el concepto jurídico central de esta lección.
-- Aplicarlo a decisiones prácticas relacionadas con patrimonio, negocios o inversiones.
-- Reconocer cuándo una situación puede requerir asesoría jurídica profesional.
+- Definir un contrato en términos sencillos.
+- Explicar por qué no todo acuerdo es un contrato exigible legalmente.
+- Adelantar los tres elementos centrales que se verán en la próxima lección.
 
 ## Contenido principal
 
-Un contrato es un acuerdo jurídicamente exigible entre dos o más partes. La palabra clave es exigible: existen circunstancias en las que un tribunal puede hacer cumplir obligaciones o conceder remedios por incumplimiento. Los contratos aparecen constantemente en bienes raíces, inversiones y negocios. No toda promesa informal constituye un contrato. La formación y exigibilidad dependen de los hechos y de la jurisdicción, pero conceptos como oferta, aceptación y contraprestación son fundamentales en muchos sistemas.
+Un contrato es un acuerdo exigible legalmente entre dos o más partes. La palabra clave es exigible: un contrato no es solo una promesa o un trato de palabra; es un acuerdo que un tribunal puede obligar a alguien a cumplir, o por cuyo incumplimiento puede conceder una indemnización. Esta distinción importa muchísimo en RED, WHITE y BLUE: un contrato de compraventa de bienes raíces, un contrato de suscripción de una inversión y un acuerdo de sociedad de un negocio son, en el fondo, contratos.
+
+No todo acuerdo llega a ser un contrato exigible. Una promesa informal entre amigos normalmente no lo es; un contrato de compraventa formal y firmado normalmente sí. La próxima lección desglosa los tres ingredientes centrales (oferta, aceptación y contraprestación) que en general deben estar presentes para que un acuerdo cuente como un contrato legalmente obligatorio. Entender esta distinción es fundamental: es la diferencia entre algo en lo que puedes confiar legalmente y algo que es solo un entendimiento amistoso.
 
 ## Ejemplo práctico
 
-Una persona enfrenta una decisión financiera o comercial relacionada con este tema. En vez de asumir que conoce la respuesta jurídica, identifica los términos, documentos, obligaciones y jurisdicción aplicables. Esa alfabetización jurídica le permite hacer mejores preguntas y reconocer cuándo el riesgo justifica consultar a un profesional autorizado.
+**Pregunta:** Dos vecinos acuerdan de palabra que uno le cortará la grama al otro "en algún momento este verano" a cambio de "un favor más adelante". ¿Es probable que esto sea un contrato exigible?
+
+**Estudiante:** Según esta lección, suena bastante informal y vago, así que es dudoso que cuente como un contrato exigible.
+
+**Guía:** ¿Qué le falta aquí que sí tendría un contrato formal de compraventa de un inmueble?
+
+**Estudiante:** Términos claros y específicos, y cierto nivel de formalidad: lo que convierte un acuerdo en algo que un tribunal podría hacer cumplir, en vez de un simple entendimiento amistoso.
+
+**Guía:** Exacto: la próxima lección te dará los ingredientes específicos que debes buscar.
 
 ## Prueba práctica
 
-**Pregunta 1.** ¿Cuál es el propósito principal de la alfabetización jurídica en PURPLE?
+**Pregunta 1.** Un contrato es:
 
-A) Sustituir completamente a un abogado
-B) Reconocer conceptos, riesgos y cuándo buscar ayuda profesional
-C) Garantizar que nunca habrá una disputa
-D) Memorizar todas las leyes
+A) Cualquier promesa informal
+B) Un acuerdo exigible legalmente entre las partes
+C) Algo que solo importa a los negocios
+D) Lo mismo que un apretón de manos
 
-**Pregunta 2.** ¿Por qué importa la jurisdicción?
+**Pregunta 2.** El rasgo clave que distingue a un contrato es:
 
-A) Porque las reglas pueden variar entre países y territorios
-B) Porque todas las leyes son idénticas mundialmente
-C) Porque solamente importa en casos criminales
-D) No importa
+A) Su extensión
+B) Que es exigible: un tribunal puede obligar a cumplirlo o conceder una indemnización
+C) Si está escrito a máquina o a mano
+D) Si ambas partes son amigas
+
+**Pregunta 3.** ¿Cuál de estos se describe como ejemplo de contrato en el contexto de este currículo?
+
+A) Un contrato de compraventa de bienes raíces
+B) Un favor informal de palabra entre amigos
+C) Soñar despierto con una idea de negocio
+D) Una esperanza no escrita
+
+**Pregunta 4.** ¿Qué cubre la próxima lección?
+
+A) El derecho tributario
+B) Los tres elementos centrales: oferta, aceptación y contraprestación
+C) El derecho penal
+D) La zonificación de bienes raíces
 
 ## Clave de respuestas
 
-1. B, 2. A
+1. B, 2. B, 3. A, 4. B
 
 ## Respuestas y explicaciones
 
-**1.** PURPLE busca desarrollar capacidad práctica para entender riesgos y utilizar asesoría profesional eficazmente, no reemplazarla.
+**1.** Que se pueda hacer cumplir es el rasgo que separa un verdadero contrato de una promesa informal.
 
-**2.** Las reglas, procedimientos y requisitos jurídicos pueden variar significativamente según la jurisdicción.
+**2.** La capacidad de un tribunal para hacer cumplir el acuerdo es lo que le da significado legal.
+
+**3.** Los contratos de compraventa son formales, específicos y exigibles: un ejemplo de manual de un contrato real.
+
+**4.** Esta lección prepara el desglose, en la siguiente, de los ingredientes específicos requeridos.
 
 ## Puntos clave
 
-- La alfabetización jurídica mejora la calidad de las decisiones financieras y comerciales.
-- Las reglas concretas dependen de la jurisdicción y de los hechos.
-- Identificar un problema temprano puede reducir costos y riesgos.
-- Cuando las consecuencias son importantes, conviene consultar a un profesional autorizado.
+- Un contrato es un acuerdo que un tribunal puede hacer cumplir, no solo una promesa.
+- Los contratos de compraventa, de inversión y de sociedad son todos contratos.
+- No todo acuerdo llega a ser un contrato exigible.
+- La próxima lección cubre los tres ingredientes centrales que convierten un acuerdo en un contrato.

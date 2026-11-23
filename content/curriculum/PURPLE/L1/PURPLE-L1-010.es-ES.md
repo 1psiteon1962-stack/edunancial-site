@@ -5,58 +5,86 @@ officialTrackName: Law
 level: 1
 lessonNumber: 10
 locale: es-ES
-title: "L’analogie du médecin revisitée : quand appeler un avocat"
-summary: "Applique l’analogie du médecin aux décisions juridiques et présente des signaux indiquant qu’une aide professionnelle est appropriée."
+title: "La analogía del médico, otra vez: cuándo llamar a un abogado"
+summary: "Aplica la analogía del médico, ya establecida en el currículo, específicamente a las situaciones legales, y da señales concretas de cuándo conviene buscar ayuda legal profesional."
 version: 1.0
 author: Waldemar M. Caban, JD MA
 date: 2026-08-09
 ---
 
-# L’analogie du médecin revisitée : quand appeler un avocat
+# La analogía del médico, otra vez: cuándo llamar a un abogado
 
-## Objectifs d’apprentissage
+## Objetivos de aprendizaje
 
-- Comprendre le concept juridique central de cette leçon.
-- L’appliquer à des situations pratiques d’immobilier, d’investissement ou d’affaires.
-- Reconnaître quand il convient d’obtenir des conseils professionnels.
+- Recordar la analogía del médico y aplicarla específicamente a las decisiones legales.
+- Identificar señales concretas de que una situación requiere un abogado.
+- Reforzar que la alfabetización jurídica y la representación legal se complementan, no se sustituyen.
 
-## Contenu principal
+## Contenido principal
 
-Lorsqu’une situation est complexe, comporte des enjeux financiers importants ou demeure incertaine, le coût d’un conseil professionnel peut être faible comparativement au coût de corriger une erreur plus tard. Parmi les signaux justifiant une consultation juridique : une transaction importante, un document que vous ne comprenez pas entièrement, la création ou la restructuration d’une entreprise, un différend réel ou une poursuite, ou une situation où le modèle standard ne correspond pas aux faits. PURPLE vise à faire de l’apprenant un client mieux informé, non son propre avocat.
+Este currículo ha usado una y otra vez la analogía del médico: cuando algo es complejo, de alto riesgo o incierto, los honorarios de un profesional son un seguro contra una pérdida mucho mayor, no solo un costo que evitar. En ningún campo se aplica esto de forma más directa que en el derecho. Los errores legales (un contrato mal redactado, un requisito de divulgación que se pasó por alto, una entidad de negocio constituida de forma incorrecta) pueden ser carísimos de corregir después, mucho más que lo que cuesta hacerlo bien desde el principio.
 
-## Exemple pratique
+Entre las señales concretas de que una situación requiere un abogado están: cualquier transacción que involucre mucho dinero (la compra de un inmueble, la venta de un negocio), cualquier documento que no entiendas por completo antes de firmarlo, constituir o reestructurar una entidad de negocio, enfrentar una disputa o una demanda real, y cualquier situación en la que el enfoque "estándar" no encaje del todo con tus hechos concretos. Como en lecciones anteriores sobre este tema, el objetivo de PURPLE no es que seas tu propio abogado, sino que seas un cliente más agudo e informado: alguien que hace mejores preguntas, entiende el consejo que recibe y reconoce temprano cuándo una situación ya pasó al terreno de la ayuda profesional.
 
-Une personne fait face à une décision liée à ce sujet. Plutôt que de présumer qu’une règle générale règle automatiquement son cas, elle identifie les faits, les documents, les obligations et la juridiction applicables. Cette préparation lui permet d’évaluer le risque et, lorsque les conséquences sont importantes, de consulter un professionnel autorisé avec des questions plus précises.
+## Ejemplo práctico
 
-## Quiz pratique
+**Pregunta:** Alguien redacta su propio contrato de compraventa de un inmueble con una plantilla encontrada en internet, para una compra importante de seis cifras, sin ninguna revisión legal. ¿Qué sugiere esta lección sobre ese enfoque?
 
-**Question 1.** Quel est un rôle important de la littératie juridique?
+**Estudiante:** Según esta lección, una transacción con tanto dinero es justamente el tipo de situación que exige una revisión legal profesional, no solo una plantilla genérica.
 
-A) Éliminer tout risque juridique
-B) Reconnaître les problèmes et savoir quand demander de l’aide professionnelle
-C) Toujours remplacer un avocat
-D) Ignorer la juridiction
+**Guía:** ¿Cuál es la comparación real de costos que se está haciendo aquí?
 
-**Question 2.** Pourquoi faut-il tenir compte de la juridiction?
+**Estudiante:** El costo de la revisión de un abogado al principio frente al costo, posiblemente mucho mayor, de un error legal descubierto después, cuando ya hay dinero real y una propiedad real de por medio.
 
-A) Parce que les règles et les recours peuvent varier
-B) Parce que toutes les juridictions sont identiques
-C) Parce qu’elle n’affecte jamais les contrats ou les affaires
-D) Il ne faut pas en tenir compte
+**Guía:** Exacto: esa es la analogía del médico aplicada directamente a esta situación.
 
-## Corrigé
+## Cuestionario práctico
 
-1. B, 2. A
+**Pregunta 1.** Aplicada al derecho, la analogía del médico sugiere que:
 
-## Réponses et explications
+A) Nunca hay que contratar a un abogado
+B) Los honorarios de un abogado son un seguro contra una pérdida posiblemente mucho mayor
+C) Solo las personas ricas necesitan abogados
+D) Los errores legales siempre son baratos de corregir
 
-**1.** La littératie juridique aide à reconnaître les risques et à utiliser plus efficacement les conseils professionnels.
+**Pregunta 2.** Una señal concreta de que una situación requiere un abogado es:
 
-**2.** Les règles, procédures et recours peuvent varier entre pays, provinces, États et autres territoires.
+A) Cualquier transacción que involucre mucho dinero
+B) Ninguna: los abogados nunca son necesarios
+C) Solo los asuntos penales
+D) Solo las disputas que ya llegaron a los tribunales
 
-## Points clés
+**Pregunta 3.** Según esta lección, ¿cuál es el objetivo declarado de PURPLE?
 
-- Comprendre les concepts juridiques de base améliore les décisions financières et commerciales.
-- Les faits et la juridiction comptent.
-- Détecter les problèmes tôt peut réduire les coûts et l’exposition.
-- PURPLE développe la littératie juridique; il ne remplace pas des conseils juridiques personnalisés.
+A) Que el estudiante sea su propio abogado
+B) Que el estudiante sea un cliente más agudo e informado
+C) Eliminar por completo la necesidad de abogados
+D) Enseñar solo derecho penal
+
+**Pregunta 4.** El marco de esta lección retoma ¿qué tema anterior del currículo?
+
+A) La revelación de los sistemas
+B) La analogía del médico
+C) La relatividad del logro
+D) La paradoja de la elección
+
+## Clave de respuestas
+
+1. B, 2. A, 3. B, 4. B
+
+## Respuestas y explicaciones
+
+**1.** La lógica central del seguro contra una pérdida mayor se aplica con especial fuerza al riesgo legal, por lo costosos que pueden ser los errores.
+
+**2.** Las transacciones financieras importantes se mencionan de forma explícita como una señal clara para buscar una revisión legal profesional.
+
+**3.** El objetivo explícito declarado en toda esta ruta es la alfabetización y el comportamiento de un cliente informado, no ejercer el derecho por cuenta propia.
+
+**4.** Es una reutilización directa y explícita de la analogía del médico establecida antes en el currículo, aplicada específicamente a las decisiones legales.
+
+## Puntos clave
+
+- La analogía del médico se aplica directamente al derecho: los honorarios profesionales son un seguro contra una pérdida mayor.
+- Las transacciones importantes, los documentos desconocidos, la constitución de entidades y las disputas son señales claras para llamar a un abogado.
+- PURPLE busca que seas un cliente más agudo e informado, no un sustituto de la representación legal.
+- Esto cierra la sección de fundamentos antes de que la ruta pase a temas legales específicos de RED, WHITE y BLUE.

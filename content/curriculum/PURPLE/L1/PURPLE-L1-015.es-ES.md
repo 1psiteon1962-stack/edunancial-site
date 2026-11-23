@@ -5,68 +5,88 @@ officialTrackName: Law
 level: 1
 lessonNumber: 15
 locale: es-ES
-title: "Sociétés de personnes : propriété partagée et responsabilité partagée"
-summary: "Développe la littératie juridique pratique de PURPLE en français canadien pour reconnaître les droits, obligations, risques et besoins de conseils professionnels."
+title: "Sociedades: propiedad compartida, responsabilidad compartida"
+summary: "Presenta las sociedades generales y su rasgo de responsabilidad característico y a menudo subestimado: la responsabilidad solidaria entre los socios."
 version: 1.0
 author: Waldemar M. Caban, JD MA
 date: 2026-08-09
 ---
 
-# Sociétés de personnes : propriété partagée et responsabilité partagée
+# Sociedades: propiedad compartida, responsabilidad compartida
 
-## Objectifs d’apprentissage
+## Objetivos de aprendizaje
 
-- Comprendre le concept juridique central de cette leçon.
-- Relier ce concept aux décisions de patrimoine, d’immobilier, d’investissement ou d’affaires.
-- Reconnaître quand les faits ou la juridiction exigent une vérification ou des conseils professionnels.
+- Definir una sociedad general.
+- Explicar el concepto de responsabilidad solidaria.
+- Reconocer por qué esto convierte la elección de socios en una decisión legal seria.
 
-## Contenu principal
+## Contenido principal
 
-Une société de personnes réunit plusieurs propriétaires et peut, selon la juridiction et la forme choisie, exposer les associés aux obligations créées par l’entreprise ou par d’autres associés. Le choix des partenaires, la définition de l’autorité et la documentation des responsabilités sont donc des décisions juridiques importantes, et pas seulement des questions de confiance.
+Una sociedad general (general partnership) es un negocio de dos o más personas que no han formado una entidad más formal que limite la responsabilidad. Legalmente, se parece a una empresa individual, pero con varios dueños que comparten tanto las ganancias como la exposición legal. El rasgo crítico, y a menudo subestimado, de una sociedad general es la responsabilidad solidaria (joint and several liability): cada socio puede responder personalmente por la totalidad de las deudas y obligaciones de la sociedad, no solo por su parte proporcional, sino potencialmente por el monto completo, sin importar cuál de los socios causó el problema.
 
-## Exemple pratique
+Esto significa que si un socio comete un error costoso, firma un mal negocio o actúa indebidamente, los demás socios pueden responder personalmente por todas las consecuencias, aunque no hayan tenido ninguna participación directa. Por eso elegir socios de negocio tiene un peso legal real más allá de la compatibilidad o la confianza: en una sociedad general, estás legalmente expuesto a las decisiones y errores de tus socios, no solo a los tuyos, lo que es un argumento fuerte para considerar una estructura que limite más la responsabilidad (como una LLC) incluso en un negocio con varios dueños.
 
-Une personne rencontre une décision directement liée au sujet de cette leçon. Avant d’agir ou de signer, elle identifie les parties, les documents, les obligations, les actifs exposés et la juridiction applicable. Elle vérifie les points qu’elle ne comprend pas et, lorsque les conséquences sont importantes, obtient des conseils d’un professionnel autorisé avant de devenir juridiquement liée.
+*REGLA ESPECÍFICA DE LA REGIÓN:* Los tipos de sociedad y el alcance de la responsabilidad de los socios dependen de cada país. En España, por ejemplo, en la sociedad colectiva los socios responden personal y solidariamente de las deudas sociales (Código de Comercio), mientras que en la SL y la SA la responsabilidad se limita a lo aportado. Verifícalo con un abogado.
 
-## Quiz pratique
+## Ejemplo práctico
 
-**Question 1.** Quelle est la meilleure approche lorsqu’une décision comporte un risque juridique important?
+**Pregunta:** Dos personas forman una sociedad general. Uno de los socios, sin decirle nada al otro, firma en nombre del negocio un acuerdo grande y costoso que resulta malo. ¿Puede el socio que no participó responder de todos modos?
 
-A) Supposer qu’une règle générale s’applique partout
-B) Identifier les faits, documents et règles applicables et demander de l’aide professionnelle au besoin
-C) Signer d’abord et vérifier ensuite
-D) Ignorer la juridiction
+**Estudiante:** Según esta lección, sí: con la responsabilidad solidaria, cada socio puede responder por la totalidad de las obligaciones de la sociedad, incluso por aquellas en las que no participó personalmente.
 
-**Question 2.** Pourquoi la juridiction est-elle importante?
+**Guía:** ¿Qué sugiere esto sobre la seriedad con que alguien debería evaluar a un posible socio antes de formar una sociedad general?
 
-A) Les règles, procédures et recours peuvent varier selon le lieu
-B) Toutes les règles sont identiques partout
-C) Elle importe seulement en droit criminel
-D) Elle n’a aucune importance
+**Estudiante:** Mucha seriedad: como estás legalmente expuesto a las decisiones y errores de tu socio, no solo a los tuyos, elegir socio es una decisión legal real, no solo una cuestión de compatibilidad.
 
-**Question 3.** Quel est le rôle de PURPLE?
+**Guía:** Exacto, y es un argumento fuerte para considerar una estructura que limite más la responsabilidad incluso con un socio de confianza.
 
-A) Remplacer les avocats
-B) Garantir qu’aucun différend ne surviendra
-C) Développer la littératie juridique et la capacité de reconnaître quand consulter un professionnel
-D) Donner des conseils juridiques personnalisés
+## Cuestionario práctico
 
-## Corrigé
+**Pregunta 1.** Una sociedad general es:
 
-1. B, 2. A, 3. C
+A) Un negocio de un solo dueño
+B) Un negocio de dos o más personas sin una entidad más formal que limite la responsabilidad
+C) Lo mismo que una corporación
+D) Algo que limita automáticamente la responsabilidad
 
-## Réponses et explications
+**Pregunta 2.** "Responsabilidad solidaria" significa que:
 
-**1.** Une décision éclairée commence par les faits et documents réels, puis par la vérification des règles applicables.
+A) Cada socio responde solo por su parte proporcional
+B) Cada socio puede responder por la totalidad de la obligación de la sociedad, sin importar quién tuvo la culpa
+C) Ningún socio responde nunca por nada
+D) Solo la entidad de negocio puede responder
 
-**2.** Les droits, obligations, procédures et recours diffèrent entre pays, provinces, États et autres territoires.
+**Pregunta 3.** Si un socio causa un problema costoso sin que el otro lo sepa, ¿puede el otro socio responder de todos modos?
 
-**3.** PURPLE vise à faire de l’apprenant un participant mieux informé; il ne remplace pas les conseils juridiques adaptés à une situation particulière.
+A) No, nunca
+B) Sí, potencialmente por el monto completo, por la responsabilidad solidaria
+C) Solo si lo aprobó personalmente
+D) Solo en casos penales
 
-## Points clés
+**Pregunta 4.** ¿Por qué esta lección sostiene que elegir socios tiene un peso legal real?
 
-- Les décisions financières et commerciales ont une dimension juridique.
-- Les documents, les faits et la juridiction comptent.
-- Détecter un risque avant de s’engager offre généralement plus d’options.
-- La protection du patrimoine exige une stratégie à la fois offensive et défensive.
-- Lorsque l’enjeu est important, les conseils professionnels peuvent réduire le risque.
+A) No lo tiene: las sociedades no tienen ningún riesgo legal real
+B) Porque estás legalmente expuesto a las decisiones y errores de tus socios, no solo a los tuyos
+C) Solo importa la compatibilidad, no la exposición legal
+D) Esta lección no sostiene nada de eso
+
+## Clave de respuestas
+
+1. B, 2. B, 3. B, 4. B
+
+## Respuestas y explicaciones
+
+**1.** Una sociedad general comparte muchas características de responsabilidad con la empresa individual, solo que extendidas a varios dueños.
+
+**2.** La responsabilidad solidaria significa que la obligación completa puede recaer sobre cualquier socio individual, no solo una parte proporcional.
+
+**3.** No haber participado directamente no protege a un socio de esta exposición compartida bajo la responsabilidad solidaria.
+
+**4.** Esta estructura de responsabilidad convierte la elección de socios de un asunto personal en una verdadera decisión de riesgo legal.
+
+## Puntos clave
+
+- Una sociedad general comparte la propiedad y, de forma crítica, la exposición legal entre los socios.
+- La responsabilidad solidaria significa que cualquier socio puede responder por la totalidad de la obligación.
+- Esto expone a los socios a los errores y decisiones de los demás, no solo a los propios.
+- Es un argumento fuerte para considerar estructuras que limiten más la responsabilidad, incluso entre socios de confianza.

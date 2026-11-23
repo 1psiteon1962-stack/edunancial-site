@@ -5,58 +5,86 @@ officialTrackName: Law
 level: 1
 lessonNumber: 3
 locale: es-ES
-title: "Contrats 101 : qu’est-ce qui rend une entente juridiquement contraignante?"
-summary: "Présente le contrat et distingue une promesse informelle d’une entente juridiquement exécutoire."
+title: "Contratos 101: qué hace que un acuerdo sea legalmente obligatorio"
+summary: "Presenta el concepto fundamental de contrato y adelanta los elementos que hacen que un acuerdo se pueda hacer cumplir legalmente, como preparación para las dos lecciones siguientes."
 version: 1.0
 author: Waldemar M. Caban, JD MA
 date: 2026-08-09
 ---
 
-# Contrats 101 : qu’est-ce qui rend une entente juridiquement contraignante?
+# Contratos 101: qué hace que un acuerdo sea legalmente obligatorio
 
-## Objectifs d’apprentissage
+## Objetivos de aprendizaje
 
-- Comprendre le concept juridique central de cette leçon.
-- L’appliquer à des décisions pratiques liées au patrimoine, aux affaires ou aux investissements.
-- Reconnaître quand une situation peut nécessiter des conseils juridiques professionnels.
+- Definir un contrato en términos sencillos.
+- Explicar por qué no todo acuerdo es un contrato exigible legalmente.
+- Adelantar los tres elementos centrales que se verán en la próxima lección.
 
-## Contenu principal
+## Contenido principal
 
-Un contrat est une entente juridiquement exécutoire entre deux ou plusieurs parties. Le mot essentiel est exécutoire : dans certaines circonstances, un tribunal peut faire respecter les obligations ou accorder un recours en cas de violation. Les contrats sont omniprésents en immobilier, en investissement et en affaires. Toute promesse informelle n’est pas nécessairement un contrat. La formation et l’exécution dépendent des faits et de la juridiction, mais l’offre, l’acceptation et la contrepartie sont des concepts fondamentaux dans de nombreux systèmes.
+Un contrato es un acuerdo exigible legalmente entre dos o más partes. La palabra clave es exigible: un contrato no es solo una promesa o un trato de palabra; es un acuerdo que un tribunal puede obligar a alguien a cumplir, o por cuyo incumplimiento puede conceder una indemnización. Esta distinción importa muchísimo en RED, WHITE y BLUE: un contrato de compraventa de bienes inmuebles, un contrato de suscripción de una inversión y un acuerdo de sociedad de un negocio son, en el fondo, contratos.
 
-## Exemple pratique
+No todo acuerdo llega a ser un contrato exigible. Una promesa informal entre amigos normalmente no lo es; un contrato de compraventa formal y firmado normalmente sí. La próxima lección desglosa los tres ingredientes centrales (oferta, aceptación y contraprestación) que en general deben estar presentes para que un acuerdo cuente como un contrato legalmente obligatorio. Entender esta distinción es fundamental: es la diferencia entre algo en lo que puedes confiar legalmente y algo que es solo un entendimiento amistoso.
 
-Une personne fait face à une décision financière ou commerciale liée à ce sujet. Plutôt que de supposer connaître la réponse juridique, elle identifie les modalités, les documents, les obligations et la juridiction applicables. Cette littératie juridique lui permet de poser de meilleures questions et de reconnaître quand le risque justifie de consulter un professionnel autorisé.
+## Ejemplo práctico
 
-## Quiz pratique
+**Pregunta:** Dos vecinos acuerdan de palabra que uno le cortará el césped al otro "en algún momento este verano" a cambio de "un favor más adelante". ¿Es probable que esto sea un contrato exigible?
 
-**Question 1.** Quel est l’objectif principal de la littératie juridique dans PURPLE?
+**Estudiante:** Según esta lección, suena bastante informal y vago, así que es dudoso que cuente como un contrato exigible.
 
-A) Remplacer complètement un avocat
-B) Reconnaître les concepts et les risques et savoir quand demander de l’aide professionnelle
-C) Garantir qu’il n’y aura jamais de différend
-D) Mémoriser toutes les lois
+**Guía:** ¿Qué le falta aquí que sí tendría un contrato formal de compraventa de un inmueble?
 
-**Question 2.** Pourquoi la juridiction est-elle importante?
+**Estudiante:** Términos claros y específicos, y cierto nivel de formalidad: lo que convierte un acuerdo en algo que un tribunal podría hacer cumplir, en vez de un simple entendimiento amistoso.
 
-A) Parce que les règles peuvent varier d’un pays ou territoire à l’autre
-B) Parce que toutes les lois sont identiques partout
-C) Parce qu’elle importe seulement en droit criminel
-D) Elle n’a aucune importance
+**Guía:** Exacto: la próxima lección te dará los ingredientes específicos que debes buscar.
 
-## Corrigé
+## Cuestionario práctico
 
-1. B, 2. A
+**Pregunta 1.** Un contrato es:
 
-## Réponses et explications
+A) Cualquier promesa informal
+B) Un acuerdo exigible legalmente entre las partes
+C) Algo que solo importa a los negocios
+D) Lo mismo que un apretón de manos
 
-**1.** PURPLE développe une capacité pratique à comprendre les risques et à utiliser efficacement les conseils professionnels; il ne remplace pas un avocat.
+**Pregunta 2.** El rasgo clave que distingue a un contrato es:
 
-**2.** Les règles, procédures et exigences juridiques peuvent varier considérablement selon la juridiction.
+A) Su extensión
+B) Que es exigible: un tribunal puede obligar a cumplirlo o conceder una indemnización
+C) Si está escrito a máquina o a mano
+D) Si ambas partes son amigas
 
-## Points clés
+**Pregunta 3.** ¿Cuál de estos se describe como ejemplo de contrato en el contexto de este currículo?
 
-- La littératie juridique améliore la qualité des décisions financières et commerciales.
-- Les règles concrètes dépendent de la juridiction et des faits.
-- Repérer un problème tôt peut réduire les coûts et les risques.
-- Lorsque les conséquences sont importantes, il est prudent de consulter un professionnel autorisé.
+A) Un contrato de compraventa de bienes inmuebles
+B) Un favor informal de palabra entre amigos
+C) Soñar despierto con una idea de negocio
+D) Una esperanza no escrita
+
+**Pregunta 4.** ¿Qué cubre la próxima lección?
+
+A) El derecho tributario
+B) Los tres elementos centrales: oferta, aceptación y contraprestación
+C) El derecho penal
+D) La zonificación de bienes inmuebles
+
+## Clave de respuestas
+
+1. B, 2. B, 3. A, 4. B
+
+## Respuestas y explicaciones
+
+**1.** Que se pueda hacer cumplir es el rasgo que separa un verdadero contrato de una promesa informal.
+
+**2.** La capacidad de un tribunal para hacer cumplir el acuerdo es lo que le da significado legal.
+
+**3.** Los contratos de compraventa son formales, específicos y exigibles: un ejemplo de manual de un contrato real.
+
+**4.** Esta lección prepara el desglose, en la siguiente, de los ingredientes específicos requeridos.
+
+## Puntos clave
+
+- Un contrato es un acuerdo que un tribunal puede hacer cumplir, no solo una promesa.
+- Los contratos de compraventa, de inversión y de sociedad son todos contratos.
+- No todo acuerdo llega a ser un contrato exigible.
+- La próxima lección cubre los tres ingredientes centrales que convierten un acuerdo en un contrato.

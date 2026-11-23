@@ -5,68 +5,88 @@ officialTrackName: Law
 level: 1
 lessonNumber: 29
 locale: es-ES
-title: "Clôture : les étapes juridiques d’une transaction immobilière"
-summary: "Développe la littératie juridique pratique de PURPLE en français canadien pour reconnaître les droits, obligations, risques et besoins de conseils professionnels."
+title: "El proceso de cierre: los pasos legales de una transacción de bienes inmuebles"
+summary: "Recorre el proceso de cierre como la culminación legal de una transacción de bienes inmuebles y une los conceptos de escritura, título y contrato de lecciones anteriores."
 version: 1.0
 author: Waldemar M. Caban, JD MA
 date: 2026-08-09
 ---
 
-# Clôture : les étapes juridiques d’une transaction immobilière
+# El proceso de cierre: los pasos legales de una transacción de bienes inmuebles
 
-## Objectifs d’apprentissage
+## Objetivos de aprendizaje
 
-- Comprendre le concept juridique central de cette leçon.
-- Relier ce concept aux décisions de patrimoine, d’immobilier, d’investissement ou d’affaires.
-- Reconnaître quand les faits ou la juridiction exigent une vérification ou des conseils professionnels.
+- Describir el propósito general del cierre de una transacción de bienes inmuebles.
+- Identificar cómo el cierre une los conceptos de escritura, título y contrato de lecciones anteriores.
+- Reconocer el cierre como el momento en que se transfiere formalmente la propiedad legal.
 
-## Contenu principal
+## Contenido principal
 
-La clôture est l’étape où les conditions finales sont vérifiées, les questions de titre sont réglées, les documents sont signés, les fonds sont transférés et l’acte peut être enregistré. Avant la clôture, l’acheteur détient généralement des droits contractuels; après les formalités applicables, la propriété juridique est transférée.
+El cierre es el paso legal final de una transacción de bienes inmuebles, en el que la propiedad pasa formalmente del vendedor al comprador. Esta lección une casi todo lo visto hasta ahora en esta sección: se confirma que se cumplieron las condiciones del contrato de compraventa, un estudio de título final confirma que el título está limpio (o se resuelven los gravámenes encontrados), se firma la escritura y se prepara para su inscripción, se transfieren los fondos y la escritura se inscribe en los registros públicos, con lo que la nueva titularidad pasa a constar públicamente.
 
-## Exemple pratique
+En el cierre suelen participar varias partes además del comprador y el vendedor: a menudo una compañía de títulos o un abogado de cierre que facilita el proceso, un prestamista si hay financiación y, a veces, agentes inmobiliarios que representan a cada lado. La importancia legal del cierre es precisa: antes del cierre, el comprador en general tiene derechos contractuales, pero todavía no la propiedad; después del cierre y la inscripción, la propiedad legal se ha transferido de verdad. Entenderlo como un hito legal formal, y no como un simple trámite administrativo, refuerza por qué todas las lecciones anteriores de esta sección (contratos, escrituras, títulos, gravámenes) convergen en este único momento legalmente decisivo.
 
-Une personne rencontre une décision directement liée au sujet de cette leçon. Avant d’agir ou de signer, elle identifie les parties, les documents, les obligations, les actifs exposés et la juridiction applicable. Elle vérifie les points qu’elle ne comprend pas et, lorsque les conséquences sont importantes, obtient des conseils d’un professionnel autorisé avant de devenir juridiquement liée.
+*REGLA ESPECÍFICA DE LA REGIÓN:* En España, la compraventa suele firmarse en escritura pública ante notario, se pagan los impuestos correspondientes (por ejemplo, el Impuesto sobre Transmisiones Patrimoniales o el IVA según el caso) y la escritura se inscribe en el Registro de la Propiedad. Verifica los pasos y quién interviene en tu caso.
 
-## Quiz pratique
+## Ejemplo práctico
 
-**Question 1.** Quelle est la meilleure approche lorsqu’une décision comporte un risque juridique important?
+**Pregunta:** Una compradora se pregunta exactamente cuándo se convierte legalmente en dueña de la propiedad que está comprando: ¿cuando firma el contrato o en otro momento?
 
-A) Supposer qu’une règle générale s’applique partout
-B) Identifier les faits, documents et règles applicables et demander de l’aide professionnelle au besoin
-C) Signer d’abord et vérifier ensuite
-D) Ignorer la juridiction
+**Estudiante:** Según esta lección, no es al firmar el contrato: la propiedad legal se transfiere en el cierre, cuando se firma la escritura, se transfieren los fondos y se inscribe la escritura.
 
-**Question 2.** Pourquoi la juridiction est-elle importante?
+**Guía:** Antes del cierre, si todavía no es dueña, ¿qué tiene la compradora?
 
-A) Les règles, procédures et recours peuvent varier selon le lieu
-B) Toutes les règles sont identiques partout
-C) Elle importe seulement en droit criminel
-D) Elle n’a aucune importance
+**Estudiante:** Derechos contractuales bajo el contrato de compraventa (el derecho a recibir la propiedad más adelante si todo sale según lo acordado), pero no la propiedad misma hasta que se haga realmente el cierre.
 
-**Question 3.** Quel est le rôle de PURPLE?
+**Guía:** Exacto: esa es la distinción legal precisa que hace esta lección.
 
-A) Remplacer les avocats
-B) Garantir qu’aucun différend ne surviendra
-C) Développer la littératie juridique et la capacité de reconnaître quand consulter un professionnel
-D) Donner des conseils juridiques personnalisés
+## Cuestionario práctico
 
-## Corrigé
+**Pregunta 1.** El cierre es:
 
-1. B, 2. A, 3. C
+A) El momento en que se firma el contrato de compraventa
+B) El paso legal final en el que la propiedad se transfiere formalmente
+C) Algo irrelevante para las transacciones de bienes inmuebles
+D) Lo mismo que una inspección
 
-## Réponses et explications
+**Pregunta 2.** ¿Qué conceptos anteriores convergen en el cierre?
 
-**1.** Une décision éclairée commence par les faits et documents réels, puis par la vérification des règles applicables.
+A) Ninguna de las lecciones anteriores de esta sección
+B) Las condiciones, el título, la escritura y la cancelación de gravámenes
+C) Solo las consideraciones fiscales
+D) Solo el derecho de zonificación
 
-**2.** Les droits, obligations, procédures et recours diffèrent entre pays, provinces, États et autres territoires.
+**Pregunta 3.** Antes del cierre, ¿qué tiene en general un comprador?
 
-**3.** PURPLE vise à faire de l’apprenant un participant mieux informé; il ne remplace pas les conseils juridiques adaptés à une situation particulière.
+A) La propiedad legal plena
+B) Derechos contractuales bajo el contrato de compraventa, pero todavía no la propiedad
+C) Nada con significado legal
+D) Los mismos derechos que después del cierre
 
-## Points clés
+**Pregunta 4.** ¿Qué hace que la nueva titularidad conste públicamente?
 
-- Les décisions financières et commerciales ont une dimension juridique.
-- Les documents, les faits et la juridiction comptent.
-- Détecter un risque avant de s’engager offre généralement plus d’options.
-- La protection du patrimoine exige une stratégie à la fois offensive et défensive.
-- Lorsque l’enjeu est important, les conseils professionnels peuvent réduire le risque.
+A) Firmar el contrato de compraventa
+B) Inscribir la escritura después del cierre
+C) Pagar el depósito de buena fe
+D) Programar una inspección
+
+## Clave de respuestas
+
+1. B, 2. B, 3. B, 4. B
+
+## Respuestas y explicaciones
+
+**1.** El cierre marca el momento legal preciso en que la propiedad pasa formalmente del vendedor al comprador.
+
+**2.** Esta lección reúne a propósito los hilos anteriores de la sección en un solo evento culminante.
+
+**3.** Los derechos contractuales y la propiedad real son legalmente distintos, y el cierre marca la transición entre ellos.
+
+**4.** Inscribir la escritura es específicamente lo que hace que el traspaso conste en el registro público.
+
+## Puntos clave
+
+- El cierre es el paso legal final en el que la propiedad de un inmueble se transfiere formalmente.
+- El cierre une las condiciones, el título, la escritura y la cancelación de gravámenes de lecciones anteriores.
+- Antes del cierre, un comprador tiene derechos contractuales, pero todavía no la propiedad real.
+- Inscribir la escritura después del cierre hace que la nueva titularidad conste en el registro público.

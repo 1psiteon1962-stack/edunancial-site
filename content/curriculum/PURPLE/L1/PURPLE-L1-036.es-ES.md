@@ -5,68 +5,88 @@ officialTrackName: Law
 level: 1
 lessonNumber: 36
 locale: es-ES
-title: "Obligation fiduciaire : lorsque quelqu’un gère votre argent"
-summary: "Développe la littératie juridique pratique de PURPLE en français canadien pour reconnaître les droits, obligations, risques et besoins de conseils professionnels."
+title: "El deber fiduciario: lo que significa cuando alguien maneja tu dinero"
+summary: "Explica el concepto legal de deber fiduciario, un estándar alto de cuidado y lealtad que deben ciertos profesionales que gestionan el dinero o los bienes de otras personas."
 version: 1.0
 author: Waldemar M. Caban, JD MA
 date: 2026-08-09
 ---
 
-# Obligation fiduciaire : lorsque quelqu’un gère votre argent
+# El deber fiduciario: lo que significa cuando alguien maneja tu dinero
 
-## Objectifs d’apprentissage
+## Objetivos de aprendizaje
 
-- Comprendre le concept juridique central de cette leçon.
-- Relier ce concept aux décisions de patrimoine, d’immobilier, d’investissement ou d’affaires.
-- Reconnaître quand les faits ou la juridiction exigent une vérification ou des conseils professionnels.
+- Definir el deber fiduciario.
+- Distinguir un estándar fiduciario de un estándar menor de idoneidad.
+- Explicar por qué esta distinción importa al elegir en quién confiar el dinero.
 
-## Contenu principal
+## Contenido principal
 
-Une obligation fiduciaire impose à certaines personnes de faire passer les intérêts du bénéficiaire ou du client avant les leurs dans les circonstances couvertes. Tous les professionnels financiers ne sont pas soumis exactement aux mêmes normes dans toutes les juridictions. Une question pratique consiste donc à demander quelle norme juridique s’applique réellement à la relation.
+Un deber fiduciario es la obligación legal de actuar en el mejor interés de otra persona, por encima del propio, al gestionar su dinero o tomar decisiones en su nombre; es uno de los estándares de cuidado y lealtad más altos que reconoce el derecho. Ciertos profesionales, en ciertos roles, están legalmente obligados por este deber; otros están sujetos a un estándar más bajo, y entender la diferencia importa en la práctica a cualquiera que, en RED, WHITE o BLUE, dependa de un profesional para gestionar su dinero o recibir orientación financiera.
 
-## Exemple pratique
+La distinción práctica clave es entre un estándar fiduciario (obligación legal de actuar en el mejor interés del cliente, incluso por encima del interés económico del asesor) y un estándar más bajo de idoneidad (solo obliga a recomendar algo razonablemente adecuado para el cliente, lo que todavía puede permitir una recomendación que beneficie al asesor, como un producto con una comisión más alta, mientras no sea claramente inadecuado). No es un tecnicismo menor: puede afectar de forma significativa la calidad y la objetividad del consejo que se recibe. Una pieza práctica de alfabetización jurídica: preguntar directamente si un asesor está legalmente obligado por un deber fiduciario, en vez de suponer que todos los profesionales financieros trabajan con el mismo estándar.
 
-Une personne rencontre une décision directement liée au sujet de cette leçon. Avant d’agir ou de signer, elle identifie les parties, les documents, les obligations, les actifs exposés et la juridiction applicable. Elle vérifie les points qu’elle ne comprend pas et, lorsque les conséquences sont importantes, obtient des conseils d’un professionnel autorisé avant de devenir juridiquement liée.
+*REGLA ESPECÍFICA DE LA REGIÓN:* Qué profesionales tienen deberes fiduciarios, y con qué alcance, lo definen las leyes y los reguladores de cada país; en la Unión Europea, por ejemplo, la normativa MiFID distingue entre asesoramiento independiente y no independiente. Pregunta siempre qué estándar legal aplica a tu asesor.
 
-## Quiz pratique
+## Ejemplo práctico
 
-**Question 1.** Quelle est la meilleure approche lorsqu’une décision comporte un risque juridique important?
+**Pregunta:** Un inversor supone que todo asesor financiero con el que pudiera trabajar tiene automáticamente el deber legal de actuar únicamente en el mejor interés del inversor. ¿Qué sugiere esta lección sobre esa suposición?
 
-A) Supposer qu’une règle générale s’applique partout
-B) Identifier les faits, documents et règles applicables et demander de l’aide professionnelle au besoin
-C) Signer d’abord et vérifier ensuite
-D) Ignorer la juridiction
+**Estudiante:** Según esta lección, no es necesariamente correcta: algunos profesionales están sujetos a un estándar fiduciario, pero otros solo a un estándar más bajo de idoneidad, y es una diferencia real e importante.
 
-**Question 2.** Pourquoi la juridiction est-elle importante?
+**Guía:** ¿Qué pregunta práctica debería hacerse el inversor antes de trabajar con cualquier asesor?
 
-A) Les règles, procédures et recours peuvent varier selon le lieu
-B) Toutes les règles sont identiques partout
-C) Elle importe seulement en droit criminel
-D) Elle n’a aucune importance
+**Estudiante:** Preguntar directamente si ese asesor está legalmente obligado por un deber fiduciario, en vez de suponerlo, porque la respuesta afecta de forma importante la objetividad del consejo que podría recibir.
 
-**Question 3.** Quel est le rôle de PURPLE?
+**Guía:** Exacto: es una pieza de alfabetización jurídica concreta y útil, no solo un concepto legal abstracto.
 
-A) Remplacer les avocats
-B) Garantir qu’aucun différend ne surviendra
-C) Développer la littératie juridique et la capacité de reconnaître quand consulter un professionnel
-D) Donner des conseils juridiques personnalisés
+## Cuestionario práctico
 
-## Corrigé
+**Pregunta 1.** Un deber fiduciario es:
 
-1. B, 2. A, 3. C
+A) La obligación legal de actuar en el mejor interés de otra persona, por encima del propio
+B) Un término de marketing sin peso legal
+C) Lo mismo que un estándar de idoneidad
+D) Algo relevante solo para las transacciones de bienes inmuebles
 
-## Réponses et explications
+**Pregunta 2.** Un estándar de idoneidad, en cambio, exige en general:
 
-**1.** Une décision éclairée commence par les faits et documents réels, puis par la vérification des règles applicables.
+A) Actuar únicamente en el mejor interés del cliente
+B) Recomendar algo razonablemente adecuado, lo que todavía puede permitir opciones que beneficien al asesor
+C) Ningún estándar de cuidado
+D) Exactamente la misma protección que un estándar fiduciario
 
-**2.** Les droits, obligations, procédures et recours diffèrent entre pays, provinces, États et autres territoires.
+**Pregunta 3.** ¿Por qué importa en la práctica la distinción entre el estándar fiduciario y el de idoneidad?
 
-**3.** PURPLE vise à faire de l’apprenant un participant mieux informé; il ne remplace pas les conseils juridiques adaptés à une situation particulière.
+A) No tiene ningún efecto práctico real
+B) Puede afectar de forma importante la objetividad y la calidad del consejo financiero que se recibe
+C) Todos los profesionales financieros son automáticamente fiduciarios
+D) Solo afecta a los profesionales de bienes inmuebles
 
-## Points clés
+**Pregunta 4.** ¿Qué acción práctica recomienda esta lección?
 
-- Les décisions financières et commerciales ont une dimension juridique.
-- Les documents, les faits et la juridiction comptent.
-- Détecter un risque avant de s’engager offre généralement plus d’options.
-- La protection du patrimoine exige une stratégie à la fois offensive et défensive.
-- Lorsque l’enjeu est important, les conseils professionnels peuvent réduire le risque.
+A) Suponer que todo asesor es fiduciario
+B) Preguntar directamente si un asesor determinado está legalmente obligado por un deber fiduciario
+C) Evitar por completo a todos los profesionales financieros
+D) Esta lección no recomienda ninguna acción concreta
+
+## Clave de respuestas
+
+1. A, 2. B, 3. B, 4. B
+
+## Respuestas y explicaciones
+
+**1.** El estándar fiduciario se define específicamente por poner el interés del cliente por encima del propio del fiduciario.
+
+**2.** El estándar de idoneidad permite una gama más amplia de recomendaciones, incluidas algunas que benefician al asesor.
+
+**3.** Esta distinción determina directamente qué intereses guían realmente el consejo que se da.
+
+**4.** Esta pregunta concreta se presenta como una alfabetización jurídica realmente útil para que el estudiante la aplique.
+
+## Puntos clave
+
+- Un deber fiduciario exige actuar en el mejor interés de otra persona, por encima del propio.
+- Un estándar más bajo de idoneidad permite recomendaciones que solo son razonables, no necesariamente óptimas para el cliente.
+- Esta distinción afecta de forma importante la objetividad del consejo financiero que se recibe.
+- Preguntar directamente por el estándar legal de un asesor es una pieza de alfabetización jurídica concreta y práctica.

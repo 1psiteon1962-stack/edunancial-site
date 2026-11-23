@@ -5,58 +5,88 @@ officialTrackName: Law
 level: 1
 lessonNumber: 8
 locale: es-ES
-title: "Responsabilité civile et contrats : deux types différents de réclamations"
-summary: "Distingue les fautes civiles indépendantes d’un contrat des réclamations fondées sur une violation contractuelle."
+title: "Responsabilidad civil extracontractual y contratos: dos tipos distintos de reclamación legal"
+summary: "Distingue el derecho de daños o responsabilidad civil extracontractual (agravios fuera de un contrato) del derecho de contratos, para dar un mapa más claro del panorama legal civil."
 version: 1.0
 author: Waldemar M. Caban, JD MA
 date: 2026-08-09
 ---
 
-# Responsabilité civile et contrats : deux types différents de réclamations
+# Responsabilidad civil extracontractual y contratos: dos tipos distintos de reclamación legal
 
-## Objectifs d’apprentissage
+## Objetivos de aprendizaje
 
-- Comprendre le concept juridique central de cette leçon.
-- L’appliquer à des situations pratiques d’immobilier, d’investissement ou d’affaires.
-- Reconnaître quand il convient d’obtenir des conseils professionnels.
+- Definir un daño extracontractual (tort) en términos sencillos.
+- Distinguir las reclamaciones extracontractuales de las contractuales.
+- Identificar ejemplos relevantes en contextos de RED, WHITE y BLUE.
 
-## Contenu principal
+## Contenido principal
 
-Une faute civile peut causer un préjudice indépendamment de l’existence d’un contrat. La négligence, certains dommages matériels et la diffamation en sont des exemples dans plusieurs juridictions. Une réclamation contractuelle découle plutôt d’obligations assumées dans une entente. Pour un propriétaire ou un entrepreneur, cette distinction est importante : le risque juridique ne se limite pas aux promesses contractuelles; une conduite causant un préjudice peut également créer une responsabilité.
+Un daño extracontractual (lo que en el common law se llama tort) es un agravio civil que causa daño a otra persona sin que exista un contrato entre ellas: la negligencia, los daños a una propiedad o la difamación son ejemplos comunes. Es distinto de una disputa contractual, que surge de una promesa incumplida entre partes que tenían un acuerdo. Un daño extracontractual puede darse entre personas que nunca tuvieron ningún contrato: si el trabajo descuidado de un contratista daña una propiedad vecina, es una reclamación extracontractual, no contractual, si el vecino y el contratista no tenían ningún acuerdo entre sí.
 
-## Exemple pratique
+Esta distinción importa en la práctica en todo este currículo: el dueño de una propiedad (RED) puede ser demandado por daños extracontractuales si las condiciones inseguras de su propiedad lesionan a alguien, sin importar ningún contrato de arrendamiento o de compraventa. El dueño de un negocio (BLUE) puede tener responsabilidad extracontractual por el daño causado por un producto o por un empleado descuidado, aparte de cualquier contrato con un cliente. Entender que el riesgo legal no se limita a las promesas incumplidas, y que el daño causado fuera de cualquier acuerdo también puede crear responsabilidad, amplía de forma importante la alfabetización jurídica más allá de los contratos.
 
-Une personne fait face à une décision liée à ce sujet. Plutôt que de présumer qu’une règle générale règle automatiquement son cas, elle identifie les faits, les documents, les obligations et la juridiction applicables. Cette préparation lui permet d’évaluer le risque et, lorsque les conséquences sont importantes, de consulter un professionnel autorisé avec des questions plus précises.
+*REGLA ESPECÍFICA DE LA REGIÓN:* En España esta materia se conoce como responsabilidad civil extracontractual y se rige principalmente por el artículo 1902 y siguientes del Código Civil, no por el precedente judicial del common law.
 
-## Quiz pratique
+## Ejemplo práctico
 
-**Question 1.** Quel est un rôle important de la littératie juridique?
+**Pregunta:** Una escalera en mal estado en la propiedad de un dueño lesiona a un repartidor que no tiene ningún contrato con ese dueño. ¿Qué tipo de reclamación legal representa probablemente?
 
-A) Éliminer tout risque juridique
-B) Reconnaître les problèmes et savoir quand demander de l’aide professionnelle
-C) Toujours remplacer un avocat
-D) Ignorer la juridiction
+**Estudiante:** Según esta lección, suena a una reclamación extracontractual, porque no hay contrato entre el dueño y el repartidor: el daño existe con independencia de cualquier acuerdo.
 
-**Question 2.** Pourquoi faut-il tenir compte de la juridiction?
+**Guía:** ¿Por qué importa aquí que no haya contrato?
 
-A) Parce que les règles et les recours peuvent varier
-B) Parce que toutes les juridictions sont identiques
-C) Parce qu’elle n’affecte jamais les contrats ou les affaires
-D) Il ne faut pas en tenir compte
+**Estudiante:** Porque muestra que la responsabilidad legal no se limita a las promesas incumplidas entre partes contratantes: el daño causado fuera de cualquier acuerdo también puede crear exposición legal.
 
-## Corrigé
+**Guía:** Exacto: por eso los dueños de propiedades deben pensar en el riesgo extracontractual, no solo en el riesgo contractual.
 
-1. B, 2. A
+## Cuestionario práctico
 
-## Réponses et explications
+**Pregunta 1.** Un daño extracontractual (tort) es:
 
-**1.** La littératie juridique aide à reconnaître les risques et à utiliser plus efficacement les conseils professionnels.
+A) Un tipo de contrato
+B) Un agravio civil que causa daño, sin relación con ningún contrato
+C) Algo que solo importa en el derecho penal
+D) Lo mismo que un incumplimiento de contrato
 
-**2.** Les règles, procédures et recours peuvent varier entre pays, provinces, États et autres territoires.
+**Pregunta 2.** ¿En qué se diferencia una reclamación extracontractual de una contractual?
 
-## Points clés
+A) Son idénticas
+B) Un daño extracontractual puede surgir entre partes que no tienen ningún contrato entre sí
+C) Los daños extracontractuales solo se aplican a los negocios
+D) Los contratos nunca implican ningún daño real
 
-- Comprendre les concepts juridiques de base améliore les décisions financières et commerciales.
-- Les faits et la juridiction comptent.
-- Détecter les problèmes tôt peut réduire les coûts et l’exposition.
-- PURPLE développe la littératie juridique; il ne remplace pas des conseils juridiques personnalisés.
+**Pregunta 3.** Que las condiciones inseguras de una propiedad lesionen a un visitante sin contrato con el dueño es un ejemplo de:
+
+A) Una disputa contractual
+B) Una posible reclamación extracontractual
+C) Ni un asunto extracontractual ni contractual
+D) Solo un asunto penal
+
+**Pregunta 4.** ¿Por qué importa esta distinción para quienes practican RED y BLUE?
+
+A) No importa en absoluto
+B) El riesgo legal no se limita a las promesas incumplidas: el daño fuera de cualquier acuerdo también puede crear responsabilidad
+C) Solo el riesgo contractual es relevante
+D) Los daños extracontractuales solo se aplican a WHITE
+
+## Clave de respuestas
+
+1. B, 2. B, 3. B, 4. B
+
+## Respuestas y explicaciones
+
+**1.** Los daños extracontractuales tratan, en el fondo, de causar un daño, no de acuerdos incumplidos.
+
+**2.** La ausencia de contrato es justamente lo que distingue muchos casos extracontractuales de las disputas contractuales.
+
+**3.** Este caso es un ejemplo clásico de responsabilidad extracontractual que surge sin ninguna relación contractual.
+
+**4.** Reconocer este panorama más amplio de responsabilidad completa una visión más completa del riesgo legal para dueños de propiedades y negocios.
+
+## Puntos clave
+
+- Un daño extracontractual es un agravio civil que causa daño, distinto de un contrato incumplido.
+- Los daños extracontractuales pueden surgir incluso entre partes sin ningún contrato.
+- Los dueños de propiedades y de negocios enfrentan un riesgo extracontractual aparte de cualquier riesgo contractual.
+- La alfabetización jurídica incluye entender la responsabilidad por daños, no solo la responsabilidad por acuerdos.

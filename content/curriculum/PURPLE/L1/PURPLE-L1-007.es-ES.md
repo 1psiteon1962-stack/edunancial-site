@@ -5,58 +5,86 @@ officialTrackName: Law
 level: 1
 lessonNumber: 7
 locale: es-ES
-title: "Lire un contrat : une démarche pratique"
-summary: "Propose une méthode structurée pour analyser un contrat inconnu sans se laisser intimider par sa longueur."
+title: "Cómo leer un contrato: una guía práctica"
+summary: "Ofrece un marco práctico para abordar un contrato desconocido y reducir la intimidación dividiéndolo en secciones manejables."
 version: 1.0
 author: Waldemar M. Caban, JD MA
 date: 2026-08-09
 ---
 
-# Lire un contrat : une démarche pratique
+# Cómo leer un contrato: una guía práctica
 
-## Objectifs d’apprentissage
+## Objetivos de aprendizaje
 
-- Comprendre le concept juridique central de cette leçon.
-- L’appliquer à des situations pratiques d’immobilier, d’investissement ou d’affaires.
-- Reconnaître quand il convient d’obtenir des conseils professionnels.
+- Identificar las secciones comunes de la mayoría de los contratos.
+- Aplicar un método práctico, paso a paso, para leer un contrato desconocido.
+- Reconocer qué secciones merecen la atención más cuidadosa.
 
-## Contenu principal
+## Contenido principal
 
-De nombreux contrats présentent une structure comparable : parties, contexte, obligations, prix et échéances, déclarations et garanties, défauts et recours, puis signatures. Une démarche pratique consiste d’abord à identifier les parties et leurs promesses, ensuite les modalités commerciales essentielles, puis les conséquences d’un défaut. Tout élément inhabituel, unilatéral ou ambigu devrait être signalé et, lorsque l’enjeu est important, soumis à un professionnel plutôt que deviné.
+La mayoría de los contratos, por largos e intimidantes que sean, comparten una estructura general común: las partes (quiénes participan), los considerandos (el contexto, que a menudo empieza con "por cuanto" o "considerando"), los términos (las obligaciones reales: precio, plazos, lo que debe hacer cada parte), las declaraciones y garantías (afirmaciones que cada parte hace sobre ciertos hechos, como la titularidad o la autoridad para firmar), el incumplimiento y los remedios (qué pasa si alguien no cumple, como en la lección anterior) y las firmas (la formalización).
 
-## Exemple pratique
+Un método práctico para leer un contrato desconocido: primero, identifica quiénes son realmente las partes y qué promete hacer cada una. Segundo, encuentra los términos centrales del negocio (precio, fechas, entregables), porque son los que tienen el peso práctico más inmediato. Tercero, presta mucha atención a la sección de incumplimiento y remedios, porque ahí sabrás qué pasa realmente si algo sale mal. Cuarto, anota cualquier cosa que parezca inusual, desequilibrada o poco clara, y márcala para consultarla con un profesional en vez de adivinar su significado. Este método estructurado convierte un muro de texto intimidante en una lista de verificación manejable.
 
-Une personne fait face à une décision liée à ce sujet. Plutôt que de présumer qu’une règle générale règle automatiquement son cas, elle identifie les faits, les documents, les obligations et la juridiction applicables. Cette préparation lui permet d’évaluer le risque et, lorsque les conséquences sont importantes, de consulter un professionnel autorisé avec des questions plus précises.
+## Ejemplo práctico
 
-## Quiz pratique
+**Pregunta:** Alguien recibe un contrato de 20 páginas y se siente abrumado, sin saber ni por dónde empezar. ¿Qué enfoque inicial sugeriría esta lección?
 
-**Question 1.** Quel est un rôle important de la littératie juridique?
+**Estudiante:** Según esta lección, empezar por identificar a las partes y lo que cada una promete realmente, en vez de intentar absorber todo el documento de una vez.
 
-A) Éliminer tout risque juridique
-B) Reconnaître les problèmes et savoir quand demander de l’aide professionnelle
-C) Toujours remplacer un avocat
-D) Ignorer la juridiction
+**Guía:** Después de eso, ¿qué sería lo siguiente más importante que buscar?
 
-**Question 2.** Pourquoi faut-il tenir compte de la juridiction?
+**Estudiante:** Los términos centrales del negocio (precio, fechas, entregables), porque tienen el peso práctico más inmediato, y luego la sección de incumplimiento y remedios, para saber qué pasa si algo sale mal.
 
-A) Parce que les règles et les recours peuvent varier
-B) Parce que toutes les juridictions sont identiques
-C) Parce qu’elle n’affecte jamais les contrats ou les affaires
-D) Il ne faut pas en tenir compte
+**Guía:** Exacto: dividirlo en esa secuencia convierte un documento intimidante en una lista de verificación manejable.
 
-## Corrigé
+## Cuestionario práctico
 
-1. B, 2. A
+**Pregunta 1.** Entre las secciones comunes de la mayoría de los contratos están:
 
-## Réponses et explications
+A) Partes, términos, declaraciones, incumplimiento y remedios, firmas
+B) Solo un párrafo
+C) Ninguna estructura identificable
+D) Solo un precio y una fecha
 
-**1.** La littératie juridique aide à reconnaître les risques et à utiliser plus efficacement les conseils professionnels.
+**Pregunta 2.** La sección de "declaraciones y garantías" contiene en general:
 
-**2.** Les règles, procédures et recours peuvent varier entre pays, provinces, États et autres territoires.
+A) Información al azar sin relación
+B) Afirmaciones que cada parte hace sobre hechos, como la titularidad o la autoridad para firmar
+C) Solo el título del contrato
+D) Las firmas
 
-## Points clés
+**Pregunta 3.** Un primer paso práctico al leer un contrato desconocido es:
 
-- Comprendre les concepts juridiques de base améliore les décisions financières et commerciales.
-- Les faits et la juridiction comptent.
-- Détecter les problèmes tôt peut réduire les coûts et l’exposition.
-- PURPLE développe la littératie juridique; il ne remplace pas des conseils juridiques personnalisés.
+A) Saltar directo a la página de firmas
+B) Identificar a las partes y lo que cada una promete hacer
+C) Ignorar el documento por completo
+D) Leer solo el último párrafo
+
+**Pregunta 4.** ¿Qué se debe hacer con cualquier cosa inusual, desequilibrada o poco clara de un contrato?
+
+A) Ignorarla y firmar de todos modos
+B) Marcarla para que la revise un profesional en vez de adivinar su significado
+C) Suponer que es un error tipográfico
+D) Borrar esa sección por cuenta propia
+
+## Clave de respuestas
+
+1. A, 2. B, 3. B, 4. B
+
+## Respuestas y explicaciones
+
+**1.** Esta estructura general se repite en la mayoría de los contratos, sin importar su extensión o su tema.
+
+**2.** Las declaraciones y garantías son afirmaciones de hecho que hace cada parte, y importan si luego resultan falsas.
+
+**3.** Entender quién participa y qué se promete es el punto de partida natural para darle sentido al resto.
+
+**4.** Marcar los términos poco claros o inusuales para una revisión profesional, en vez de adivinar, es el enfoque responsable.
+
+## Puntos clave
+
+- La mayoría de los contratos comparten una estructura común: partes, términos, declaraciones, incumplimiento y remedios, firmas.
+- Un método práctico de lectura: primero las partes, luego los términos centrales, después el incumplimiento y los remedios, y por último marcar lo que no esté claro.
+- Este método estructurado reduce la intimidación de los documentos largos y desconocidos.
+- Los términos inusuales o poco claros deben marcarse para una revisión profesional, no adivinarse.

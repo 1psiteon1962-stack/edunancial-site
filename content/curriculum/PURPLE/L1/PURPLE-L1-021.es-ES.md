@@ -5,68 +5,88 @@ officialTrackName: Law
 level: 1
 lessonNumber: 21
 locale: es-ES
-title: "Droit immobilier : ce que signifie juridiquement posséder un terrain"
-summary: "Développe la littératie juridique pratique de PURPLE en français canadien pour reconnaître les droits, obligations, risques et besoins de conseils professionnels."
+title: "Derecho inmobiliario: lo que significa legalmente ser \"dueño\" de un terreno"
+summary: "Abre la sección de derecho inmobiliario explicando que, legalmente, la propiedad es un \"conjunto de derechos\" y no un concepto único y sencillo."
 version: 1.0
 author: Waldemar M. Caban, JD MA
 date: 2026-08-09
 ---
 
-# Droit immobilier : ce que signifie juridiquement posséder un terrain
+# Derecho inmobiliario: lo que significa legalmente ser "dueño" de un terreno
 
-## Objectifs d’apprentissage
+## Objetivos de aprendizaje
 
-- Comprendre le concept juridique central de cette leçon.
-- Relier ce concept aux décisions de patrimoine, d’immobilier, d’investissement ou d’affaires.
-- Reconnaître quand les faits ou la juridiction exigent une vérification ou des conseils professionnels.
+- Explicar el concepto de la propiedad como un "conjunto de derechos".
+- Identificar los derechos comunes que forman parte de ese conjunto.
+- Relacionar este enfoque legal con el contenido anterior de la ruta RED.
 
-## Contenu principal
+## Contenido principal
 
-La propriété immobilière peut être comprise comme un faisceau de droits : posséder, utiliser, exclure, transférer et parfois développer. Ces droits peuvent être séparés. Un bail peut transférer temporairement la possession et l’usage; une servitude peut accorder un droit d’utilisation précis. Cette perspective aide à comprendre de nombreux différends immobiliers.
+Esta lección abre la sección de derecho inmobiliario de PURPLE y conecta directamente con RED. Legalmente, ser dueño de un bien inmueble no es un solo derecho sencillo: suele describirse como un "conjunto de derechos" (bundle of rights) que, en algunos casos, pueden separarse y quedar en manos de distintas personas. Entre los derechos comunes de ese conjunto están: el derecho a poseer la propiedad, el derecho a usarla, el derecho a excluir a otros de ella, el derecho a transferirla o venderla, y el derecho a desarrollarla o mejorarla.
 
-## Exemple pratique
+Esto importa en la práctica porque estos derechos pueden separarse. Un arrendador que alquila una propiedad transfiere temporalmente el derecho a poseerla y usarla, pero conserva el derecho a recuperar la posesión más adelante y el derecho a vender el inmueble. Quien concede una servidumbre (tema de una lección posterior) cede parte de su derecho de exclusión a una persona específica para un propósito específico, y conserva todo lo demás. Entender la propiedad como un conjunto, y no como una sola cosa indivisible, prepara gran parte del resto de esta sección de derecho inmobiliario: muchos asuntos legales de bienes inmuebles son en realidad preguntas sobre qué derecho específico, dentro de ese conjunto, está en disputa.
 
-Une personne rencontre une décision directement liée au sujet de cette leçon. Avant d’agir ou de signer, elle identifie les parties, les documents, les obligations, les actifs exposés et la juridiction applicable. Elle vérifie les points qu’elle ne comprend pas et, lorsque les conséquences sont importantes, obtient des conseils d’un professionnel autorisé avant de devenir juridiquement liée.
+*REGLA ESPECÍFICA DE LA REGIÓN:* La imagen del "conjunto de derechos" viene del common law. El Código Civil español define la propiedad de forma parecida como el derecho de gozar y disponer de una cosa, sin más limitaciones que las establecidas en las leyes (artículo 348).
 
-## Quiz pratique
+## Ejemplo práctico
 
-**Question 1.** Quelle est la meilleure approche lorsqu’une décision comporte un risque juridique important?
+**Pregunta:** Un dueño le alquila su propiedad a un inquilino. Según el concepto del conjunto de derechos, ¿ha renunciado el dueño por completo a la propiedad?
 
-A) Supposer qu’une règle générale s’applique partout
-B) Identifier les faits, documents et règles applicables et demander de l’aide professionnelle au besoin
-C) Signer d’abord et vérifier ensuite
-D) Ignorer la juridiction
+**Estudiante:** Según esta lección, no: transfirió temporalmente el derecho a poseer y usar la propiedad, pero sigue teniendo otros derechos del conjunto, como el derecho a recuperarla más adelante y el derecho a venderla.
 
-**Question 2.** Pourquoi la juridiction est-elle importante?
+**Guía:** ¿Por qué es más exacto describir esto como una transferencia parcial y no como una pérdida total de la propiedad?
 
-A) Les règles, procédures et recours peuvent varier selon le lieu
-B) Toutes les règles sont identiques partout
-C) Elle importe seulement en droit criminel
-D) Elle n’a aucune importance
+**Estudiante:** Porque la propiedad es un conjunto de derechos separados, no una sola cosa: alquilar transfiere derechos específicos de ese conjunto y el dueño conserva el resto.
 
-**Question 3.** Quel est le rôle de PURPLE?
+**Guía:** Exacto: ese es el replanteamiento central que introduce esta lección.
 
-A) Remplacer les avocats
-B) Garantir qu’aucun différend ne surviendra
-C) Développer la littératie juridique et la capacité de reconnaître quand consulter un professionnel
-D) Donner des conseils juridiques personnalisés
+## Cuestionario práctico
 
-## Corrigé
+**Pregunta 1.** Legalmente, ser dueño de un bien inmueble se describe mejor como:
 
-1. B, 2. A, 3. C
+A) Un derecho único e indivisible
+B) Un "conjunto de derechos" que pueden repartirse entre distintas partes
+C) Algo relevante solo para la propiedad comercial
+D) Lo mismo que un arrendamiento
 
-## Réponses et explications
+**Pregunta 2.** Entre los derechos comunes del conjunto que forma la propiedad están:
 
-**1.** Une décision éclairée commence par les faits et documents réels, puis par la vérification des règles applicables.
+A) Posesión, uso, exclusión, transferencia y desarrollo
+B) Solo el derecho a vender
+C) Solo el derecho a vivir allí personalmente
+D) Ningún derecho identificable
 
-**2.** Les droits, obligations, procédures et recours diffèrent entre pays, provinces, États et autres territoires.
+**Pregunta 3.** Cuando un dueño alquila una propiedad, ¿qué pasa con el conjunto de derechos?
 
-**3.** PURPLE vise à faire de l’apprenant un participant mieux informé; il ne remplace pas les conseils juridiques adaptés à une situation particulière.
+A) El dueño pierde todos los derechos
+B) Algunos derechos (posesión, uso) se transfieren temporalmente, mientras que otros (como recuperarla más adelante o venderla) se conservan
+C) No cambia nada
+D) El inquilino obtiene la propiedad permanente
 
-## Points clés
+**Pregunta 4.** ¿Por qué importa este enfoque del conjunto de derechos para el resto de esta sección?
 
-- Les décisions financières et commerciales ont une dimension juridique.
-- Les documents, les faits et la juridiction comptent.
-- Détecter un risque avant de s’engager offre généralement plus d’options.
-- La protection du patrimoine exige une stratégie à la fois offensive et défensive.
-- Lorsque l’enjeu est important, les conseils professionnels peuvent réduire le risque.
+A) No importa en absoluto
+B) Muchos asuntos legales de bienes inmuebles son en realidad preguntas sobre qué derecho específico está en disputa
+C) El derecho de la propiedad no tiene ninguna estructura real
+D) Este enfoque solo es relevante para la propiedad comercial
+
+## Clave de respuestas
+
+1. B, 2. A, 3. B, 4. B
+
+## Respuestas y explicaciones
+
+**1.** Este replanteamiento es el concepto legal fundamental que está detrás de gran parte del derecho inmobiliario.
+
+**2.** Estos cinco derechos se mencionan comúnmente como los componentes centrales del conjunto.
+
+**3.** Un arrendamiento ilustra con claridad una transferencia parcial y temporal de derechos, no una pérdida total de la propiedad.
+
+**4.** Este enfoque da estructura a los temas legales específicos que se tratan en el resto de la sección.
+
+## Puntos clave
+
+- Legalmente, la propiedad es un "conjunto de derechos", no una sola cosa indivisible.
+- Ese conjunto incluye los derechos de posesión, uso, exclusión, transferencia y desarrollo.
+- Estos derechos pueden repartirse entre distintas partes, como ocurre en un arrendamiento.
+- Muchas disputas legales de bienes inmuebles tratan en realidad de qué derecho específico está en cuestión.

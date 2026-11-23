@@ -5,68 +5,86 @@ officialTrackName: Law
 level: 1
 lessonNumber: 35
 locale: es-ES
-title: "Délit d’initié : ce que c’est et pourquoi il est interdit"
-summary: "Développe la littératie juridique pratique de PURPLE en français canadien pour reconnaître les droits, obligations, risques et besoins de conseils professionnels."
+title: "Uso de información privilegiada: qué es y por qué es ilegal"
+summary: "Explica el concepto de uso de información privilegiada (insider trading), por qué está prohibido y su relación con los principios de equidad que sostienen la regulación de valores."
 version: 1.0
 author: Waldemar M. Caban, JD MA
 date: 2026-08-09
 ---
 
-# Délit d’initié : ce que c’est et pourquoi il est interdit
+# Uso de información privilegiada: qué es y por qué es ilegal
 
-## Objectifs d’apprentissage
+## Objetivos de aprendizaje
 
-- Comprendre le concept juridique central de cette leçon.
-- Relier ce concept aux décisions de patrimoine, d’immobilier, d’investissement ou d’affaires.
-- Reconnaître quand les faits ou la juridiction exigent une vérification ou des conseils professionnels.
+- Definir el uso de información privilegiada.
+- Explicar la razón de equidad detrás de su prohibición.
+- Reconocer situaciones comunes en las que surge este riesgo.
 
-## Contenu principal
+## Contenido principal
 
-Le délit d’initié concerne généralement des opérations fondées sur une information importante et non publique obtenue dans des circonstances créant des obligations juridiques. Les règles précises varient. L’interdiction vise notamment à préserver l’équité et la confiance dans les marchés. Toute personne ayant accès à des renseignements privilégiés doit comprendre ses obligations avant de négocier ou de partager cette information.
+El uso de información privilegiada (insider trading) se refiere en general a comprar o vender un valor basándose en información importante que no es pública (información significativa que todavía no está al alcance del público inversor) obtenida gracias a una posición de confianza o de acceso, como ser empleado o ejecutivo de una empresa, o alguien que recibió esa información indebidamente de una persona de adentro. Está prohibido por el derecho de valores en la mayoría de los sistemas, y la razón conecta directamente con el principio de equidad que sostiene los requisitos de divulgación vistos en lecciones anteriores.
 
-## Exemple pratique
+El problema central que crea el uso de información privilegiada es una ventaja informativa injusta: si algunos participantes del mercado pueden operar con información a la que otros no tienen acceso, se socava la equidad básica que hace que la gente esté dispuesta a participar en los mercados, justamente la infraestructura de confianza de la que se habló antes en esta sección. Esto no se limita a los ejecutivos de empresas; cualquiera que reciba información importante no pública y opere con ella, o la comparta indebidamente con otra persona que opere con ella, puede enfrentar responsabilidad. Es una advertencia práctica para cualquiera con algún tipo de acceso privilegiado a información no pública de una empresa, incluidos, en algunos casos, profesionales que trabajan de cerca con empresas en contextos de RED o BLUE y que además invierten a través de WHITE.
 
-Une personne rencontre une décision directement liée au sujet de cette leçon. Avant d’agir ou de signer, elle identifie les parties, les documents, les obligations, les actifs exposés et la juridiction applicable. Elle vérifie les points qu’elle ne comprend pas et, lorsque les conséquences sont importantes, obtient des conseils d’un professionnel autorisé avant de devenir juridiquement liée.
+## Ejemplo práctico
 
-## Quiz pratique
+**Pregunta:** Un consultor de negocios se entera de información confidencial e importante sobre una empresa cliente durante un proyecto y luego compra o vende acciones de esa empresa antes de que la información se haga pública. ¿Qué problema legal ilustra esto?
 
-**Question 1.** Quelle est la meilleure approche lorsqu’une décision comporte un risque juridique important?
+**Estudiante:** Según esta lección, parece un ejemplo claro de uso de información privilegiada: operar con información importante no pública obtenida gracias a una posición de confianza o de acceso.
 
-A) Supposer qu’une règle générale s’applique partout
-B) Identifier les faits, documents et règles applicables et demander de l’aide professionnelle au besoin
-C) Signer d’abord et vérifier ensuite
-D) Ignorer la juridiction
+**Guía:** ¿Por qué está prohibido, si lo relacionamos con el tema de la equidad de lecciones anteriores?
 
-**Question 2.** Pourquoi la juridiction est-elle importante?
+**Estudiante:** Porque crea una ventaja informativa injusta frente a otros participantes del mercado que no tienen acceso a esa misma información no pública, y eso socava la confianza que hace que los mercados funcionen de forma justa.
 
-A) Les règles, procédures et recours peuvent varier selon le lieu
-B) Toutes les règles sont identiques partout
-C) Elle importe seulement en droit criminel
-D) Elle n’a aucune importance
+**Guía:** Exacto, y este riesgo no se limita a las personas de adentro de la empresa: se aplica a cualquiera con acceso privilegiado a información importante no pública.
 
-**Question 3.** Quel est le rôle de PURPLE?
+## Cuestionario práctico
 
-A) Remplacer les avocats
-B) Garantir qu’aucun différend ne surviendra
-C) Développer la littératie juridique et la capacité de reconnaître quand consulter un professionnel
-D) Donner des conseils juridiques personnalisés
+**Pregunta 1.** El uso de información privilegiada se refiere en general a:
 
-## Corrigé
+A) Cualquier operación con acciones que haga un empleado de una empresa
+B) Operar con un valor basándose en información importante no pública obtenida gracias a una posición de confianza
+C) Operar solo con información pública
+D) Una estrategia de inversión completamente legal
 
-1. B, 2. A, 3. C
+**Pregunta 2.** El problema central que crea el uso de información privilegiada es:
 
-## Réponses et explications
+A) No existe ningún problema real
+B) Una ventaja informativa injusta que socava la confianza y la equidad del mercado
+C) El exceso de transparencia en el mercado
+D) Demasiada información pública disponible
 
-**1.** Une décision éclairée commence par les faits et documents réels, puis par la vérification des règles applicables.
+**Pregunta 3.** ¿La responsabilidad por uso de información privilegiada se limita a los ejecutivos de empresas?
 
-**2.** Les droits, obligations, procédures et recours diffèrent entre pays, provinces, États et autres territoires.
+A) Sí, solo los ejecutivos pueden ser responsables
+B) No: cualquiera que opere con información importante no pública, o la comparta indebidamente, puede enfrentar responsabilidad
+C) Solo los empleados del gobierno pueden ser responsables
+D) La responsabilidad nunca se aplica a nadie
 
-**3.** PURPLE vise à faire de l’apprenant un participant mieux informé; il ne remplace pas les conseils juridiques adaptés à une situation particulière.
+**Pregunta 4.** Esta lección relaciona la prohibición del uso de información privilegiada con ¿qué tema anterior?
 
-## Points clés
+A) El derecho de zonificación
+B) La equidad y la confianza como infraestructura de los mercados que funcionan
+C) El proceso de ejecución hipotecaria
+D) Las obligaciones de arrendadores e inquilinos
 
-- Les décisions financières et commerciales ont une dimension juridique.
-- Les documents, les faits et la juridiction comptent.
-- Détecter un risque avant de s’engager offre généralement plus d’options.
-- La protection du patrimoine exige une stratégie à la fois offensive et défensive.
-- Lorsque l’enjeu est important, les conseils professionnels peuvent réduire le risque.
+## Clave de respuestas
+
+1. B, 2. B, 3. B, 4. B
+
+## Respuestas y explicaciones
+
+**1.** El rasgo que lo define es operar con información privilegiada no pública obtenida gracias a una relación de confianza.
+
+**2.** Esta ventaja injusta socava directamente la confianza en el mercado que la regulación de valores busca proteger.
+
+**3.** La responsabilidad va más allá de las personas de adentro formales y alcanza a cualquiera que acceda indebidamente a esa información o actúe con ella.
+
+**4.** Esto extiende directamente la razón de confianza y equidad establecida en las lecciones anteriores sobre divulgación.
+
+## Puntos clave
+
+- El uso de información privilegiada consiste en operar con información importante no pública obtenida gracias a una posición de confianza o de acceso.
+- Esto socava la equidad y la confianza que hacen funcionar los mercados, en conexión con lecciones anteriores.
+- La responsabilidad va más allá de los ejecutivos de empresas y alcanza a cualquiera que use indebidamente esa información.
+- Es una advertencia práctica para cualquiera con acceso privilegiado a información no pública de una empresa.

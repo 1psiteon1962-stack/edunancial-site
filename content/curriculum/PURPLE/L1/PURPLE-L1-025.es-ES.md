@@ -5,68 +5,86 @@ officialTrackName: Law
 level: 1
 lessonNumber: 25
 locale: es-ES
-title: "Droit locatif : droits et obligations de base"
-summary: "Développe la littératie juridique pratique de PURPLE en français canadien pour reconnaître les droits, obligations, risques et besoins de conseils professionnels."
+title: "Derecho de arrendadores e inquilinos: derechos y obligaciones básicas"
+summary: "Presenta el marco legal básico que rige la relación entre arrendador e inquilino, relevante para los dueños de propiedades de alquiler de la ruta RED."
 version: 1.0
 author: Waldemar M. Caban, JD MA
 date: 2026-08-09
 ---
 
-# Droit locatif : droits et obligations de base
+# Derecho de arrendadores e inquilinos: derechos y obligaciones básicas
 
-## Objectifs d’apprentissage
+## Objetivos de aprendizaje
 
-- Comprendre le concept juridique central de cette leçon.
-- Relier ce concept aux décisions de patrimoine, d’immobilier, d’investissement ou d’affaires.
-- Reconnaître quand les faits ou la juridiction exigent une vérification ou des conseils professionnels.
+- Identificar las obligaciones generales del arrendador.
+- Identificar las obligaciones y protecciones generales del inquilino.
+- Reconocer que los detalles varían mucho según la jurisdicción.
 
-## Contenu principal
+## Contenido principal
 
-Un bail accorde au locataire certains droits de possession et d’utilisation en échange d’obligations comme le paiement du loyer. Les propriétaires peuvent avoir des devoirs concernant l’habitabilité, l’entretien, les dépôts, la vie privée, les avis et l’expulsion. Ces règles sont fortement locales et doivent être vérifiées avant d’agir.
+El derecho de arrendadores e inquilinos rige la relación legal que crea un contrato de arrendamiento: una transferencia temporal del derecho a poseer y usar una propiedad (recuerda la lección del conjunto de derechos) a cambio de un alquiler. En general, los arrendadores tienen obligaciones que suelen incluir: mantener la propiedad en condiciones habitables, seguir los procedimientos legales adecuados para un desalojo en vez de "hacer justicia por su cuenta" (como cambiar las cerraduras o sacar las pertenencias del inquilino) y respetar los derechos de privacidad del inquilino, avisando antes de entrar. Los inquilinos, en general, tienen obligaciones como pagar el alquiler según lo acordado, no causar daños más allá del desgaste normal y cumplir los términos del contrato.
 
-## Exemple pratique
+Esta área del derecho depende mucho de la jurisdicción, con diferencias reales en las protecciones para inquilinos, las reglas del depósito de seguridad, los requisitos de aviso y los procedimientos de desalojo entre distintos estados, ciudades y países. Para un arrendador de la ruta RED, esto no es un conocimiento de fondo opcional: gestionar mal un desalojo, retener ilegalmente un depósito de seguridad o no mantener la habitabilidad puede crear una responsabilidad legal real, a veces con sanciones que van mucho más allá de devolver lo que se retuvo indebidamente. Es un ejemplo claro y práctico de por qué el conocimiento legal local importa específicamente a los inversores que operan propiedades de alquiler, y no solo una comprensión general a nivel nacional.
 
-Une personne rencontre une décision directement liée au sujet de cette leçon. Avant d’agir ou de signer, elle identifie les parties, les documents, les obligations, les actifs exposés et la juridiction applicable. Elle vérifie les points qu’elle ne comprend pas et, lorsque les conséquences sont importantes, obtient des conseils d’un professionnel autorisé avant de devenir juridiquement liée.
+## Ejemplo práctico
 
-## Quiz pratique
+**Pregunta:** Un arrendador, frustrado con un inquilino que no paga, cambia las cerraduras y saca las pertenencias del inquilino sin pasar por ningún proceso legal formal. ¿Qué problema ilustra esto?
 
-**Question 1.** Quelle est la meilleure approche lorsqu’une décision comporte un risque juridique important?
+**Estudiante:** Según esta lección, es justo el tipo de "justicia por cuenta propia" contra el que advierte esta lección: en general, los arrendadores tienen que seguir los procedimientos legales de desalojo adecuados, no tomar el asunto en sus propias manos.
 
-A) Supposer qu’une règle générale s’applique partout
-B) Identifier les faits, documents et règles applicables et demander de l’aide professionnelle au besoin
-C) Signer d’abord et vérifier ensuite
-D) Ignorer la juridiction
+**Guía:** ¿Qué riesgo real crea esto para el arrendador, aunque el inquilino de verdad no estuviera pagando el alquiler?
 
-**Question 2.** Pourquoi la juridiction est-elle importante?
+**Estudiante:** El propio arrendador podría enfrentar una responsabilidad legal real, incluso con sanciones, a pesar de tener una queja legítima por el alquiler impagado.
 
-A) Les règles, procédures et recours peuvent varier selon le lieu
-B) Toutes les règles sont identiques partout
-C) Elle importe seulement en droit criminel
-D) Elle n’a aucune importance
+**Guía:** Exacto: tener una queja válida no justifica usar un proceso legal indebido para resolverla.
 
-**Question 3.** Quel est le rôle de PURPLE?
+## Cuestionario práctico
 
-A) Remplacer les avocats
-B) Garantir qu’aucun différend ne surviendra
-C) Développer la littératie juridique et la capacité de reconnaître quand consulter un professionnel
-D) Donner des conseils juridiques personnalisés
+**Pregunta 1.** El derecho de arrendadores e inquilinos rige:
 
-## Corrigé
+A) La relación que crea un contrato de arrendamiento
+B) Solo los bienes inmuebles comerciales
+C) Solo las ventas de propiedades
+D) Nada relacionado con los bienes inmuebles
 
-1. B, 2. A, 3. C
+**Pregunta 2.** Una obligación común del arrendador es:
 
-## Réponses et explications
+A) Cambiar las cerraduras para sacar de inmediato a los inquilinos que no pagan
+B) Mantener la propiedad en condiciones habitables y seguir los procedimientos de desalojo adecuados
+C) Los arrendadores no tienen ninguna obligación
+D) Ignorar por completo la privacidad del inquilino
 
-**1.** Une décision éclairée commence par les faits et documents réels, puis par la vérification des règles applicables.
+**Pregunta 3.** ¿Por qué se describe esta área del derecho como muy dependiente de la jurisdicción?
 
-**2.** Les droits, obligations, procédures et recours diffèrent entre pays, provinces, États et autres territoires.
+A) No lo es: las reglas son idénticas en todas partes
+B) Las protecciones para inquilinos, las reglas de depósito y los procedimientos de desalojo varían mucho según el lugar
+C) Solo las grandes ciudades tienen leyes de arrendamiento
+D) Esta lección no afirma nada de eso
 
-**3.** PURPLE vise à faire de l’apprenant un participant mieux informé; il ne remplace pas les conseils juridiques adaptés à une situation particulière.
+**Pregunta 4.** ¿Qué riesgo real enfrenta un arrendador por desalojar indebidamente a un inquilino, aunque de verdad no esté pagando?
 
-## Points clés
+A) Ningún riesgo, porque el inquilino estaba en falta
+B) Una responsabilidad legal real, a veces con sanciones que van más allá de la disputa original
+C) Que se desestime automáticamente cualquier reclamación del inquilino
+D) Esta situación no tiene ninguna importancia legal
 
-- Les décisions financières et commerciales ont une dimension juridique.
-- Les documents, les faits et la juridiction comptent.
-- Détecter un risque avant de s’engager offre généralement plus d’options.
-- La protection du patrimoine exige une stratégie à la fois offensive et défensive.
-- Lorsque l’enjeu est important, les conseils professionnels peuvent réduire le risque.
+## Clave de respuestas
+
+1. A, 2. B, 3. B, 4. B
+
+## Respuestas y explicaciones
+
+**1.** Toda esta área del derecho existe específicamente para regular la relación entre arrendador e inquilino basada en el arrendamiento.
+
+**2.** La habitabilidad y el proceso legal adecuado se mencionan comúnmente como obligaciones centrales del arrendador en muchas jurisdicciones.
+
+**3.** La variación real e importante entre jurisdicciones se destaca de forma explícita como un rasgo que define esta área del derecho.
+
+**4.** Un proceso indebido, aun con una queja legítima de fondo, es justo el tipo de error que crea una responsabilidad real para el arrendador.
+
+## Puntos clave
+
+- El derecho de arrendadores e inquilinos rige la relación de arrendamiento, con obligaciones para ambas partes.
+- En general, los arrendadores deben mantener la habitabilidad y seguir los procedimientos legales de desalojo adecuados.
+- Esta área del derecho varía mucho según la jurisdicción: el conocimiento local importa.
+- Hacer "justicia por cuenta propia", incluso contra un inquilino que de verdad no paga, crea una responsabilidad real para el arrendador.

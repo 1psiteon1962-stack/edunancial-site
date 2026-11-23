@@ -5,68 +5,88 @@ officialTrackName: Law
 level: 1
 lessonNumber: 42
 locale: es-ES
-title: "Garanties personnelles : lorsque vous garantissez juridiquement une dette d’entreprise"
-summary: "Développe la littératie juridique pratique de PURPLE en français canadien pour reconnaître les droits, obligations, risques et besoins de conseils professionnels."
+title: "Garantías personales: cuando respondes legalmente por una deuda del negocio"
+summary: "Explica el concepto legal de garantía personal, una forma común de renunciar de manera deliberada y voluntaria a la protección de responsabilidad que da la estructura de un negocio."
 version: 1.0
 author: Waldemar M. Caban, JD MA
 date: 2026-08-09
 ---
 
-# Garanties personnelles : lorsque vous garantissez juridiquement une dette d’entreprise
+# Garantías personales: cuando respondes legalmente por una deuda del negocio
 
-## Objectifs d’apprentissage
+## Objetivos de aprendizaje
 
-- Comprendre le concept juridique central de cette leçon.
-- Relier ce concept aux décisions de patrimoine, d’immobilier, d’investissement ou d’affaires.
-- Reconnaître quand les faits ou la juridiction exigent une vérification ou des conseils professionnels.
+- Definir una garantía personal.
+- Explicar por qué los prestamistas suelen exigirlas a pesar de la protección de responsabilidad de la entidad.
+- Relacionar esto directamente con las lecciones anteriores sobre la responsabilidad de las LLC y las corporaciones.
 
-## Contenu principal
+## Contenido principal
 
-Une garantie personnelle est une promesse distincte par laquelle une personne accepte de répondre d’une dette de l’entreprise si celle-ci ne paie pas. Même avec une entité correctement constituée, signer une telle garantie peut créer volontairement une responsabilité personnelle pour cette dette. Il faut donc lire les documents de financement et comprendre exactement ce qui est garanti.
+Una garantía personal es un acuerdo aparte y voluntario en el que una persona, a menudo el dueño de un negocio, promete personalmente pagar una deuda del negocio si el negocio no la paga. Esto es directamente relevante, y está en verdadera tensión, con la protección de responsabilidad de las LLC y las corporaciones vista antes en esta ruta: aun con una entidad protectora bien constituida y bien operada, firmar una garantía personal crea de forma deliberada y voluntaria justo la exposición a responsabilidad personal que la estructura de la entidad buscaba evitar, específicamente para esa deuda.
 
-## Exemple pratique
+Los prestamistas suelen exigir garantías personales a los dueños de pequeños negocios precisamente porque entienden la protección de responsabilidad de la entidad: un prestamista que da crédito a una LLC más nueva o más pequeña a menudo no está dispuesto a depender solo de los bienes limitados y del historial del propio negocio, así que exige que el dueño garantice personalmente la deuda como condición del préstamo. Es una pieza crítica de alfabetización jurídica práctica: a veces los dueños de negocios creen que su LLC los protege por completo, sin darse cuenta de que, para ciertas deudas, renunciaron por separado a esa protección mediante una garantía personal; es decir, el alcance real de la responsabilidad personal de alguien solo se entiende mirando a la vez la estructura de la entidad y cualquier garantía personal añadida encima.
 
-Une personne rencontre une décision directement liée au sujet de cette leçon. Avant d’agir ou de signer, elle identifie les parties, les documents, les obligations, les actifs exposés et la juridiction applicable. Elle vérifie les points qu’elle ne comprend pas et, lorsque les conséquences sont importantes, obtient des conseils d’un professionnel autorisé avant de devenir juridiquement liée.
+*REGLA ESPECÍFICA DE LA REGIÓN:* En el derecho español esta figura se conoce como fianza o aval, y el Código Civil fija sus reglas (por ejemplo, el beneficio de excusión, que permite al fiador exigir que primero se reclame al deudor principal, salvo que se haya renunciado a él). Revisa con un profesional cualquier garantía antes de firmarla.
 
-## Quiz pratique
+## Ejemplo práctico
 
-**Question 1.** Quelle est la meilleure approche lorsqu’une décision comporte un risque juridique important?
+**Pregunta:** Un dueño de negocio cree que su LLC protege por completo sus bienes personales frente a todas las deudas del negocio, pero no recuerda si firmó una garantía personal cuando sacó un préstamo para el negocio. ¿Por qué importa esto?
 
-A) Supposer qu’une règle générale s’applique partout
-B) Identifier les faits, documents et règles applicables et demander de l’aide professionnelle au besoin
-C) Signer d’abord et vérifier ensuite
-D) Ignorer la juridiction
+**Estudiante:** Según esta lección, si firmó una garantía personal para ese préstamo, creó voluntariamente una responsabilidad personal por esa deuda específica, sin importar lo que la LLC protegería de otro modo.
 
-**Question 2.** Pourquoi la juridiction est-elle importante?
+**Guía:** ¿Por qué un prestamista habría exigido esa garantía, si le prestaba a una LLC bien constituida?
 
-A) Les règles, procédures et recours peuvent varier selon le lieu
-B) Toutes les règles sont identiques partout
-C) Elle importe seulement en droit criminel
-D) Elle n’a aucune importance
+**Estudiante:** Porque los prestamistas a menudo no están dispuestos a depender solo de los bienes limitados de un negocio más nuevo o más pequeño, así que exigen la garantía personal del dueño como condición para dar el crédito.
 
-**Question 3.** Quel est le rôle de PURPLE?
+**Guía:** Exacto, y por eso para entender tu responsabilidad real hay que mirar a la vez la estructura de la entidad y cualquier garantía añadida encima.
 
-A) Remplacer les avocats
-B) Garantir qu’aucun différend ne surviendra
-C) Développer la littératie juridique et la capacité de reconnaître quand consulter un professionnel
-D) Donner des conseils juridiques personnalisés
+## Cuestionario práctico
 
-## Corrigé
+**Pregunta 1.** Una garantía personal es:
 
-1. B, 2. A, 3. C
+A) Una característica automática de toda LLC
+B) Un acuerdo aparte y voluntario de pagar personalmente una deuda del negocio si el negocio no la paga
+C) Lo mismo que formar una LLC
+D) Algo ilegal en la mayoría de las jurisdicciones
 
-## Réponses et explications
+**Pregunta 2.** ¿Cómo se relaciona una garantía personal con la protección de responsabilidad de una LLC o corporación?
 
-**1.** Une décision éclairée commence par les faits et documents réels, puis par la vérification des règles applicables.
+A) No tiene ninguna relación con la protección de la entidad
+B) Crea voluntariamente responsabilidad personal por una deuda específica, aunque de otro modo se aplicaría la protección de la entidad
+C) Fortalece automáticamente la protección de la entidad
+D) Se exige para toda deuda del negocio, sin excepciones
 
-**2.** Les droits, obligations, procédures et recours diffèrent entre pays, provinces, États et autres territoires.
+**Pregunta 3.** ¿Por qué los prestamistas suelen exigir garantías personales a los dueños de pequeños negocios?
 
-**3.** PURPLE vise à faire de l’apprenant un participant mieux informé; il ne remplace pas les conseils juridiques adaptés à une situation particulière.
+A) Sin ninguna razón real: es arbitrario
+B) A menudo no están dispuestos a depender solo de los bienes limitados de un negocio más nuevo o más pequeño
+C) La ley exige garantías personales para todos los préstamos
+D) Los prestamistas nunca exigen esto en realidad
 
-## Points clés
+**Pregunta 4.** ¿Qué identifica esta lección como una pieza crítica de alfabetización jurídica práctica?
 
-- Les décisions financières et commerciales ont une dimension juridique.
-- Les documents, les faits et la juridiction comptent.
-- Détecter un risque avant de s’engager offre généralement plus d’options.
-- La protection du patrimoine exige une stratégie à la fois offensive et défensive.
-- Lorsque l’enjeu est important, les conseils professionnels peuvent réduire le risque.
+A) Suponer que una LLC siempre protege por completo los bienes personales
+B) Entender que la responsabilidad personal real exige mirar a la vez la estructura de la entidad y cualquier garantía personal firmada
+C) No firmar nunca ningún documento del negocio
+D) Que una LLC elimina la necesidad de revisar si hay garantías personales
+
+## Clave de respuestas
+
+1. B, 2. B, 3. B, 4. B
+
+## Respuestas y explicaciones
+
+**1.** Una garantía es un compromiso legal distinto y aparte, no una característica automática de ningún tipo de entidad.
+
+**2.** Esta renuncia voluntaria es justo la razón por la que una garantía personal puede debilitar, para una obligación específica, una protección de la entidad que de otro modo sería sólida.
+
+**3.** Esta práctica de préstamo refleja una respuesta racional a los límites reales de la solvencia propia de las entidades más nuevas o más pequeñas.
+
+**4.** Esta visión combinada se presenta como esencial para evaluar con exactitud la exposición legal real de una persona.
+
+## Puntos clave
+
+- Una garantía personal es una promesa aparte y voluntaria de pagar personalmente una deuda del negocio.
+- Crea responsabilidad personal por esa deuda específica, añadida encima de una estructura de entidad que de otro modo protegería.
+- Los prestamistas suelen exigir garantías a los dueños de pequeños negocios como condición para dar crédito.
+- Para entender la responsabilidad personal real hay que revisar tanto la estructura de la entidad como cualquier garantía firmada.
